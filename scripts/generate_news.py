@@ -7,12 +7,11 @@ import feedparser
 # 配置
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL_NAME = "google/gemini-2.0-flash-exp:free" # 使用免费模型
+MODEL_NAME = "xiaomi/mimo-v2-flash:free" # 用户指定免费模型
 
 # 数据源
 RSS_FEEDS = [
-    "https://export.arxiv.org/rss/cs.AI", # Official Arxiv RSS
-    "https://hnrss.org/newest?q=AI+LLM+GPT", # Hacker News AI related
+    "https://hnrss.org/newest?q=AI", # 简化查询参数
 ]
 
 def fetch_rss_data():
@@ -24,7 +23,6 @@ def fetch_rss_data():
     for feed_url in RSS_FEEDS:
         print(f"Fetching {feed_url}...")
         try:
-            # Use requests to fetch with headers to avoid 403 Forbidden
             response = requests.get(feed_url, headers=headers, timeout=30)
             if response.status_code != 200:
                 print(f"Failed to fetch {feed_url}, status code: {response.status_code}")
@@ -32,16 +30,22 @@ def fetch_rss_data():
                 
             feed = feedparser.parse(response.content)
             
-            if not feed.entries:
-                print(f"No entries found in {feed_url}")
-                continue
-                
             print(f"Found {len(feed.entries)} entries in {feed_url}")
             for entry in feed.entries[:5]: # 每个源只取前5条
+                # 使用 Jina Reader 读取全文
+                jina_url = f"https://r.jina.ai/{entry.link}"
+                print(f"Reading with Jina: {jina_url}")
+                try:
+                    jina_resp = requests.get(jina_url, headers=headers, timeout=30)
+                    content = jina_resp.text[:1000] # 截取前1000字符供AI总结，避免token溢出
+                except Exception as e:
+                    print(f"Jina read failed: {e}")
+                    content = entry.get("summary", "")
+
                 articles.append({
                     "title": entry.title,
                     "link": entry.link,
-                    "summary": entry.get("summary", "")[:200] # 截取摘要
+                    "summary": content 
                 })
         except Exception as e:
             print(f"Error fetching {feed_url}: {e}")
@@ -88,25 +92,35 @@ def summarize_with_ai(articles):
 
 def save_to_markdown(content):
     today = datetime.now().strftime("%Y-%m-%d")
-    filename = f"docs/news/{today}.md"
+    index_file = "docs/news/index.md"
     
-    md_content = f"""---
-title: AI 情报局 - {today}
----
-
-# 🤖 AI 情报局 ({today})
-
-> 本日报由 GitHub Actions 自动抓取，Gemini AI 整理生成。
+    new_entry = f"""
+## {today} AI 日报
 
 {content}
 
 ---
-*[ViteMind](/) - 构建你的数字资产金库*
 """
     
-    with open(filename, "w", encoding="utf-8") as f:
-        f.write(md_content)
-    print(f"Saved to {filename}")
+    try:
+        with open(index_file, "r", encoding="utf-8") as f:
+            existing_content = f.read()
+    except FileNotFoundError:
+        existing_content = "# 🤖 AI 情报局\n\n这里汇集了由 AI 自动整理的每日行业动态。\n\n---\n"
+
+    # 找到插入点（在 --- 之后）
+    split_marker = "---\n"
+    parts = existing_content.split(split_marker, 1)
+    
+    if len(parts) == 2:
+        header, body = parts
+        updated_content = f"{header}{split_marker}\n{new_entry}\n{body}"
+    else:
+        updated_content = existing_content + "\n" + new_entry
+
+    with open(index_file, "w", encoding="utf-8") as f:
+        f.write(updated_content)
+    print(f"Updated {index_file}")
 
 if __name__ == "__main__":
     if not OPENROUTER_API_KEY:
