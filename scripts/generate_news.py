@@ -36,11 +36,21 @@ def fetch_rss_data():
                 jina_url = f"https://r.jina.ai/{entry.link}"
                 print(f"Reading with Jina: {jina_url}")
                 try:
-                    jina_resp = requests.get(jina_url, headers=headers, timeout=30)
-                    content = jina_resp.text[:1000] # 截取前1000字符供AI总结，避免token溢出
+                    # Jina 可能会对某些 User-Agent 敏感，尝试不带特殊 UA 或使用默认
+                    jina_resp = requests.get(jina_url, timeout=30) 
+                    
+                    if jina_resp.status_code == 200 and "403 Forbidden" not in jina_resp.text:
+                        content = jina_resp.text[:2000] # 增加截取长度，获取更多信息
+                    else:
+                        print(f"Jina returned {jina_resp.status_code}, falling back to summary.")
+                        content = entry.get("summary", "")
                 except Exception as e:
                     print(f"Jina read failed: {e}")
                     content = entry.get("summary", "")
+
+                # 如果内容太短（可能是空或错误），也回退到摘要
+                if len(content) < 50:
+                     content = entry.get("summary", "")
 
                 articles.append({
                     "title": entry.title,
