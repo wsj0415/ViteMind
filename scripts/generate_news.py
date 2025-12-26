@@ -134,6 +134,9 @@ def save_to_json(new_items):
     # 限制总条数，防止文件过大（保留最近 100 条）
     updated_data = updated_data[:100]
 
+    # 确保目录存在
+    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(updated_data, f, ensure_ascii=False, indent=2)
     print(f"Saved {len(new_items)} items to {file_path}")
