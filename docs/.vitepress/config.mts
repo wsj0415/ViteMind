@@ -18,7 +18,8 @@ export default defineConfig({
         text: '开始使用',
         items: [
           { text: '简介', link: '/guide/getting-started' },
-          { text: '快速上手', link: '/guide/quick-start' }
+          { text: '快速上手', link: '/guide/quick-start' },
+          { text: '🤖 AI 情报局', link: '/news/index' }
         ]
       },
       {
@@ -37,6 +38,26 @@ export default defineConfig({
     footer: {
       message: '基于 VitePress 构建 | ViteMind 知识库',
       copyright: 'Copyright © 2025 ViteMind'
+    },
+
+    search: {
+      provider: 'local',
+      options: {
+        translations: {
+          button: {
+            buttonText: '搜索文档',
+            buttonAriaLabel: '搜索文档'
+          },
+          modal: {
+            noResultsText: '无法找到相关结果',
+            resetButtonTitle: '清除查询条件',
+            footer: {
+              selectText: '选择',
+              navigateText: '切换'
+            }
+          }
+        }
+      }
     }
   }
 })
