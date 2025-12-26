@@ -7,11 +7,11 @@ import feedparser
 # 配置
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL_NAME = "xiaomi/mimo-v2-flash:free" # 用户指定免费模型
+MODEL_NAME = "xiaomi/mimo-v2-flash:free" 
 
 # 数据源
 RSS_FEEDS = [
-    "https://hnrss.org/newest?q=AI", # 简化查询参数
+    "https://hnrss.org/newest?q=AI", 
 ]
 
 def fetch_rss_data():
@@ -40,7 +40,7 @@ def fetch_rss_data():
                     jina_resp = requests.get(jina_url, timeout=30) 
                     
                     if jina_resp.status_code == 200 and "403 Forbidden" not in jina_resp.text:
-                        content = jina_resp.text[:2000] # 增加截取长度，获取更多信息
+                        content = jina_resp.text[:2000] # 增加截取长度
                     else:
                         print(f"Jina returned {jina_resp.status_code}, falling back to summary.")
                         content = entry.get("summary", "")
@@ -48,7 +48,6 @@ def fetch_rss_data():
                     print(f"Jina read failed: {e}")
                     content = entry.get("summary", "")
 
-                # 如果内容太短（可能是空或错误），也回退到摘要
                 if len(content) < 50:
                      content = entry.get("summary", "")
 
@@ -63,19 +62,20 @@ def fetch_rss_data():
 
 def summarize_with_ai(articles):
     if not articles:
-        return "今日无重大 AI 新闻。"
+        return []
 
     # 构建 Prompt
     news_text = "\n".join([f"- [{a['title']}]({a['link']}): {a['summary']}" for a in articles])
     prompt = f"""
     你是专业的 AI 行业分析师。请阅读以下原始新闻列表，筛选出 5-8 条最有价值的 AI 技术进展或行业动态。
     
-    要求：
-    1. 使用中文输出。
-    2. 格式为 Markdown 列表。
-    3. 每条新闻包含一个 Emoji 图标，标题（带原文链接），以及一句话的深度点评。
-    4. 风格专业、简洁、有洞见。
-    5. 最后加一段“今日总结”。
+    请输出一个纯 JSON 数组（不要包含 Markdown 代码块标记 ```json ... ```），数组中每个对象包含以下字段：
+    - title: (string) 中文标题，吸引人且专业。
+    - summary: (string) 一句话中文摘要（50字以内），用于卡片展示。
+    - detail: (string) 详细的中文深度解读（Markdown 格式），包含背景、核心技术点、行业影响等（300字左右）。
+    - tags: (array of strings) 1-2 个标签，如 ["LLM", "Agent", "Hardware"]。
+    - link: (string) 原始链接。
+    - date: (string) 日期，格式 YYYY-MM-DD。
 
     原始新闻：
     {news_text}
@@ -95,53 +95,58 @@ def summarize_with_ai(articles):
     try:
         response = requests.post(OPENROUTER_URL, headers=headers, json=data)
         response.raise_for_status()
-        return response.json()['choices'][0]['message']['content']
+        content = response.json()['choices'][0]['message']['content']
+        
+        # 清理可能存在的 Markdown 代码块标记
+        content = content.replace("```json", "").replace("```", "").strip()
+        
+        return json.loads(content)
     except Exception as e:
         print(f"AI Generation Error: {e}")
-        return f"AI 生成失败，请检查日志。\n\n原始数据：\n{news_text}"
+        return []
 
-def save_to_markdown(content):
-    today = datetime.now().strftime("%Y-%m-%d")
-    index_file = "docs/news/index.md"
+def save_to_json(new_items):
+    if not new_items:
+        print("No new items to save.")
+        return
+
+    file_path = "docs/public/data/news.json"
     
-    new_entry = f"""
-## {today} AI 日报
-
-{content}
-
----
-"""
+    # 读取现有数据
+    existing_data = []
+    if os.path.exists(file_path):
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                existing_data = json.load(f)
+        except json.JSONDecodeError:
+            existing_data = []
     
-    try:
-        with open(index_file, "r", encoding="utf-8") as f:
-            existing_content = f.read()
-    except FileNotFoundError:
-        existing_content = "# 🤖 AI 情报局\n\n这里汇集了由 AI 自动整理的每日行业动态。\n\n---\n"
+    # 合并数据（将新数据插到最前面）
+    # 为每条数据添加 ID (简单的基于时间戳)
+    for item in new_items:
+        item['id'] = str(int(datetime.now().timestamp() * 1000)) + str(new_items.index(item))
+        # 确保日期字段存在
+        if 'date' not in item:
+            item['date'] = datetime.now().strftime("%Y-%m-%d")
 
-    # 找到插入点（在 --- 之后）
-    split_marker = "---\n"
-    parts = existing_content.split(split_marker, 1)
+    updated_data = new_items + existing_data
     
-    if len(parts) == 2:
-        header, body = parts
-        updated_content = f"{header}{split_marker}\n{new_entry}\n{body}"
-    else:
-        updated_content = existing_content + "\n" + new_entry
+    # 限制总条数，防止文件过大（保留最近 100 条）
+    updated_data = updated_data[:100]
 
-    with open(index_file, "w", encoding="utf-8") as f:
-        f.write(updated_content)
-    print(f"Updated {index_file}")
+    with open(file_path, "w", encoding="utf-8") as f:
+        json.dump(updated_data, f, ensure_ascii=False, indent=2)
+    print(f"Saved {len(new_items)} items to {file_path}")
 
 if __name__ == "__main__":
     if not OPENROUTER_API_KEY:
         print("Error: OPENROUTER_API_KEY not found.")
-        # For local testing without key, maybe generate dummy data or exit
         exit(1)
 
-    print("Starting AI News Generator...")
+    print("Starting AI News Generator (JSON Mode)...")
     raw_articles = fetch_rss_data()
     print(f"Fetched {len(raw_articles)} articles.")
     
-    ai_summary = summarize_with_ai(raw_articles)
-    save_to_markdown(ai_summary)
+    ai_json = summarize_with_ai(raw_articles)
+    save_to_json(ai_json)
     print("Done.")
