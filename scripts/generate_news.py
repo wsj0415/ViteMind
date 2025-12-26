@@ -11,16 +11,32 @@ MODEL_NAME = "google/gemini-2.0-flash-exp:free" # 使用免费模型
 
 # 数据源
 RSS_FEEDS = [
-    "http://www.arxiv-sanity.com/rss/t/cs.AI", # Arxiv AI
+    "https://export.arxiv.org/rss/cs.AI", # Official Arxiv RSS
     "https://hnrss.org/newest?q=AI+LLM+GPT", # Hacker News AI related
 ]
 
 def fetch_rss_data():
     articles = []
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+    
     for feed_url in RSS_FEEDS:
         print(f"Fetching {feed_url}...")
         try:
-            feed = feedparser.parse(feed_url)
+            # Use requests to fetch with headers to avoid 403 Forbidden
+            response = requests.get(feed_url, headers=headers, timeout=30)
+            if response.status_code != 200:
+                print(f"Failed to fetch {feed_url}, status code: {response.status_code}")
+                continue
+                
+            feed = feedparser.parse(response.content)
+            
+            if not feed.entries:
+                print(f"No entries found in {feed_url}")
+                continue
+                
+            print(f"Found {len(feed.entries)} entries in {feed_url}")
             for entry in feed.entries[:5]: # 每个源只取前5条
                 articles.append({
                     "title": entry.title,
