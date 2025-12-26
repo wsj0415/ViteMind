@@ -1,0 +1,28 @@
+/**
+ * Customize default theme styling here.
+ */
+
+:root {
+    --vp-c-brand: #8b5cf6;
+    /* Violet */
+    --vp-c-brand-light: #a78bfa;
+    --vp-c-brand-lighter: #c4b5fd;
+    --vp-c-brand-dark: #7c3aed;
+    --vp-c-brand-darker: #6d28d9;
+}
+
+.VPButton.brand {
+    background-image: linear-gradient(to right, #8b5cf6, #d946ef);
+    border: none;
+}
+
+.VPButton.brand:hover {
+    background-image: linear-gradient(to right, #7c3aed, #c026d3);
+}
+
+.VPHero .name {
+    background: -webkit-linear-gradient(315deg, #8b5cf6 25%, #d946ef);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
