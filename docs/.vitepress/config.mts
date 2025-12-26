@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/ViteMind/",
   title: "ViteMind",
   description: "极速构建你的第二大脑",
   themeConfig: {
