@@ -9,6 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
+      { text: 'AI 导航', link: '/ai-tools' },
       { text: '指南', link: '/guide/getting-started' },
       { text: '付费专栏', link: '/paid/index' },
       { text: 'AI 情报局', link: '/news/index' }
