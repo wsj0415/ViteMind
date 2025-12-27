@@ -4,7 +4,11 @@ import { ref } from 'vue'
 const email = ref('')
 const status = ref('idle') // idle, loading, success, error
 
-const subscribe = () => {
+// 🔴 CONFIGURATION: Replace with your Formspree Form ID
+// Get one for free at https://formspree.io/
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID'
+
+const subscribe = async () => {
   if (!email.value || !email.value.includes('@')) {
     status.value = 'error'
     return
@@ -12,11 +16,34 @@ const subscribe = () => {
   
   status.value = 'loading'
   
-  // Simulate API call
-  setTimeout(() => {
-    status.value = 'success'
-    email.value = ''
-  }, 1500)
+  try {
+    // If user hasn't configured the ID, we simulate success for demo purposes
+    if (FORMSPREE_ENDPOINT.includes('YOUR_FORM_ID')) {
+      console.warn('Formspree ID not configured. Simulating success.')
+      await new Promise(resolve => setTimeout(resolve, 1500))
+      status.value = 'success'
+      email.value = ''
+      return
+    }
+
+    const response = await fetch(FORMSPREE_ENDPOINT, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ email: email.value })
+    })
+
+    if (response.ok) {
+      status.value = 'success'
+      email.value = ''
+    } else {
+      status.value = 'error'
+    }
+  } catch (e) {
+    console.error('Subscription error:', e)
+    status.value = 'error'
+  }
 }
 </script>
 
