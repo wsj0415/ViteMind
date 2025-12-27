@@ -1,5 +1,6 @@
 <script setup>
 import { ref, computed } from 'vue'
+import SubmitToolModal from './SubmitToolModal.vue'
 
 const tools = [
   // Coding
@@ -42,6 +43,7 @@ const tools = [
 const categories = ['ALL', 'Coding', 'Image', 'Video', 'Writing', 'Audio', 'Productivity']
 const selectedCategory = ref('ALL')
 const searchQuery = ref('')
+const isModalOpen = ref(false)
 
 const filteredTools = computed(() => {
   return tools.filter(t => {
@@ -78,6 +80,11 @@ const filteredTools = computed(() => {
           {{ cat }}
         </button>
       </div>
+
+      <!-- Submit Button -->
+      <button class="submit-trigger" @click="isModalOpen = true">
+        + SUBMIT TOOL
+      </button>
     </div>
 
     <!-- Grid -->
@@ -111,6 +118,13 @@ const filteredTools = computed(() => {
     <div v-if="filteredTools.length === 0" class="no-results">
       NO TOOLS FOUND
     </div>
+
+    <!-- Submission Modal -->
+    <SubmitToolModal 
+      :is-open="isModalOpen" 
+      :categories="categories.filter(c => c !== 'ALL')"
+      @close="isModalOpen = false"
+    />
   </div>
 </template>
 
@@ -191,6 +205,24 @@ const filteredTools = computed(() => {
   background: var(--vp-c-text-1);
   color: var(--vp-c-bg);
   font-weight: 600;
+}
+
+.submit-trigger {
+  font-family: monospace;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--vp-c-brand);
+  background: transparent;
+  border: 1px dashed var(--vp-c-brand);
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.submit-trigger:hover {
+  background: var(--vp-c-brand);
+  color: white;
+  border-style: solid;
 }
 
 /* Grid */
