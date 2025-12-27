@@ -246,7 +246,9 @@ const filteredPending = computed(() => {
       >
         <div class="item-header">
           <span class="meta-cat">{{ prompt.category }}</span>
-          <!-- Removed redundant copy icon -->
+          <button class="icon-btn delete-btn" @click.stop="handleDelete(prompt.id)" title="Delete">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+          </button>
         </div>
         
         <div class="item-body">
@@ -271,9 +273,6 @@ const filteredPending = computed(() => {
               <button class="icon-btn small" @click.stop="handleEdit(prompt)" title="Edit">
                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>
                 EDIT
-              </button>
-              <button class="icon-btn small" @click.stop="handleDelete(prompt.id)" title="Delete">
-                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
               </button>
             </div>
             <button class="copy-btn" @click.stop="copyToClipboard(prompt.content)">
@@ -828,6 +827,23 @@ const filteredPending = computed(() => {
 .copy-btn:hover {
   color: var(--vp-c-brand);
   text-decoration: underline;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0.3;
+  transition: all 0.2s;
+  padding: 4px;
+  border-radius: 4px;
+  color: var(--vp-c-text-2);
+}
+
+.delete-btn:hover {
+  opacity: 1;
+  background: var(--vp-c-danger-soft, rgba(239, 68, 68, 0.1));
+  color: var(--vp-c-danger-1, #ef4444);
 }
 
 /* Mobile Responsiveness */
