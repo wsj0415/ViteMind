@@ -16,6 +16,7 @@ const selectedCategory = ref('ALL')
 const searchQuery = ref('')
 const isModalOpen = ref(false)
 const showPending = ref(false)
+const selectedPrompt = ref(null)
 
 // Load pending submissions from localStorage
 const loadPendingSubmissions = () => {
@@ -45,6 +46,57 @@ const copyToClipboard = async (text) => {
   }
 }
 
+// Handle Edit
+const handleEdit = async (prompt) => {
+  const newContent = prompt('Edit Prompt Content:', prompt.content)
+  if (newContent !== null && newContent !== prompt.content) {
+    try {
+      const { error } = await supabase
+        .from('ai_prompts')
+        .update({ 
+          content: newContent,
+          version: (prompt.version || 1) + 1,
+          updated_at: new Date().toISOString()
+        })
+        .eq('id', prompt.id)
+
+      if (error) throw error
+      
+      // Update local state
+      const index = prompts.value.findIndex(p => p.id === prompt.id)
+      if (index !== -1) {
+        prompts.value[index].content = newContent
+        prompts.value[index].version = (prompt.version || 1) + 1
+      }
+      alert('Prompt updated successfully!')
+    } catch (e) {
+      console.error('Update failed:', e)
+      alert('Failed to update prompt.')
+    }
+  }
+}
+
+// Handle Delete
+const handleDelete = async (id) => {
+  if (confirm('Are you sure you want to delete this prompt?')) {
+    try {
+      const { error } = await supabase
+        .from('ai_prompts')
+        .update({ is_deleted: true })
+        .eq('id', id)
+
+      if (error) throw error
+      
+      // Remove from local state
+      prompts.value = prompts.value.filter(p => p.id !== id)
+      alert('Prompt deleted.')
+    } catch (e) {
+      console.error('Delete failed:', e)
+      alert('Failed to delete prompt.')
+    }
+  }
+}
+
 // Fetch approved prompts from Supabase
 onMounted(async () => {
   loadPendingSubmissions()
@@ -55,6 +107,7 @@ onMounted(async () => {
       .from('ai_prompts')
       .select('*')
       .eq('approved', true)
+      .eq('is_deleted', false) // Filter out deleted
       .order('created_at', { ascending: false })
 
     if (error) throw error
@@ -163,10 +216,11 @@ const filteredPending = computed(() => {
         v-for="prompt in filteredPrompts" 
         :key="prompt.id" 
         class="prompt-item"
+        @click="selectedPrompt = prompt"
       >
         <div class="item-header">
           <span class="meta-cat">{{ prompt.category }}</span>
-          <button class="copy-icon" @click="copyToClipboard(prompt.content)" title="Copy">
+          <button class="copy-icon" @click.stop="copyToClipboard(prompt.content)" title="Copy">
             📋
           </button>
         </div>
@@ -178,14 +232,59 @@ const filteredPending = computed(() => {
 
         <div class="item-footer">
           <div class="meta-tags">
+            <span class="version-badge" v-if="prompt.version > 1">v{{ prompt.version }}</span>
             <span v-for="tag in prompt.tags?.slice(0, 3)" :key="tag" class="meta-tag">#{{ tag }}</span>
           </div>
-          <button class="copy-btn" @click="copyToClipboard(prompt.content)">
-            COPY
-          </button>
+          <div class="action-group">
+            <button class="icon-btn small" @click.stop="handleEdit(prompt)" title="Edit">✏️</button>
+            <button class="icon-btn small" @click.stop="handleDelete(prompt.id)" title="Delete">🗑️</button>
+            <button class="copy-btn" @click.stop="copyToClipboard(prompt.content)">
+              COPY
+            </button>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- Detail Modal -->
+    <Teleport to="body">
+      <Transition name="fade">
+        <div v-if="selectedPrompt" class="modal-overlay" @click="selectedPrompt = null">
+          <div class="modal-panel" @click.stop>
+            
+            <div class="modal-top-bar">
+              <span class="modal-id">ID: {{ selectedPrompt.id.slice(-6) }}</span>
+              <button class="close-btn" @click="selectedPrompt = null">CLOSE [ESC]</button>
+            </div>
+
+            <div class="modal-content-scroll">
+              <div class="article-header">
+                <div class="article-meta">
+                  <span class="meta-cat">{{ selectedPrompt.category }}</span>
+                  <span class="separator">/</span>
+                  <span v-for="tag in selectedPrompt.tags" :key="tag">#{{ tag }} </span>
+                </div>
+                <h1 class="article-title">{{ selectedPrompt.title }}</h1>
+              </div>
+
+              <div class="prompt-full-content">
+                <pre>{{ selectedPrompt.content }}</pre>
+                <button class="copy-btn large" @click="copyToClipboard(selectedPrompt.content)">
+                  COPY FULL PROMPT
+                </button>
+              </div>
+              
+              <div class="article-footer">
+                <div class="action-group large">
+                   <button class="action-btn secondary" @click="handleEdit(selectedPrompt)">EDIT PROMPT</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </Transition>
+    </Teleport>
 
     <!-- Submission Modal -->
     <SubmitPromptModal 
@@ -198,6 +297,130 @@ const filteredPending = computed(() => {
 </template>
 
 <style scoped>
+/* ... existing styles ... */
+
+/* Modal Styles (Reused/Adapted from NewsGallery) */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.95);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:root.dark .modal-overlay {
+  background: rgba(0, 0, 0, 0.95);
+}
+
+.modal-panel {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  background: var(--vp-c-bg);
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid var(--vp-c-divider);
+  border-right: 1px solid var(--vp-c-divider);
+}
+
+.modal-top-bar {
+  padding: 20px 40px;
+  border-bottom: 1px solid var(--vp-c-divider);
+  display: flex;
+  justify-content: space-between;
+  font-family: monospace;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  color: inherit;
+  font-weight: 700;
+}
+
+.modal-content-scroll {
+  flex: 1;
+  overflow-y: auto;
+  padding: 60px 80px;
+}
+
+.article-header {
+  margin-bottom: 40px;
+}
+
+.article-meta {
+  font-family: monospace;
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+  margin-bottom: 20px;
+}
+
+.article-title {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+.prompt-full-content pre {
+  white-space: pre-wrap;
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.6;
+  background: var(--vp-c-bg-soft);
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid var(--vp-c-divider);
+  margin-bottom: 24px;
+}
+
+.copy-btn.large {
+  width: 100%;
+  padding: 16px;
+  font-size: 14px;
+  background: var(--vp-c-text-1);
+  color: var(--vp-c-bg);
+  border-radius: 8px;
+}
+
+.copy-btn.large:hover {
+  opacity: 0.9;
+}
+
+.action-group.large {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Transitions */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.2s ease;
+}
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .modal-panel {
+    border: none;
+  }
+  .modal-content-scroll {
+    padding: 30px 20px;
+  }
+  .article-title {
+    font-size: 32px;
+  }
+}
 /* --- Swiss Style Variables (Matching NewsGallery) --- */
 .swiss-gallery {
   padding: 40px 0;
@@ -405,6 +628,7 @@ const filteredPending = computed(() => {
   letter-spacing: -0.02em;
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2; /* Standard property */
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -415,6 +639,7 @@ const filteredPending = computed(() => {
   color: var(--vp-c-text-2);
   display: -webkit-box;
   -webkit-line-clamp: 4;
+  line-clamp: 4; /* Standard property */
   -webkit-box-orient: vertical;
   overflow: hidden;
   font-family: monospace;
@@ -434,6 +659,33 @@ const filteredPending = computed(() => {
 .meta-tags {
   display: flex;
   gap: 8px;
+  align-items: center;
+}
+
+.version-badge {
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 10px;
+}
+
+.action-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon-btn.small {
+  font-size: 12px;
+  padding: 4px;
+  opacity: 0.6;
+}
+
+.icon-btn.small:hover {
+  opacity: 1;
+  background: var(--vp-c-bg-soft);
+  border-radius: 4px;
 }
 
 .meta-tag {
