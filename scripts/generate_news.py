@@ -1,7 +1,7 @@
 import requests
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timezone
 import feedparser
 
 # 配置
@@ -26,6 +26,9 @@ def fetch_rss_data():
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
     
+    # Current time in UTC
+    now = datetime.now(timezone.utc)
+    
     for feed_url in RSS_FEEDS:
         print(f"Fetching {feed_url}...")
         try:
@@ -37,12 +40,24 @@ def fetch_rss_data():
             feed = feedparser.parse(response.content)
             
             print(f"Found {len(feed.entries)} entries in {feed_url}")
-            # 对于 AppSumo 等高频源，或者无关内容较多的源，可以适当增加获取数量以便后续 LLM 筛选，但为了速度先取前 3-5 条
-            limit = 5
-            if "appsumo" in feed_url: 
-                limit = 10 # 多取一些以便筛选 AI 相关
             
-            for entry in feed.entries[:limit]: 
+            for entry in feed.entries:
+                # Parse publication time
+                published_time = None
+                if hasattr(entry, 'published_parsed') and entry.published_parsed:
+                    published_time = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
+                elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
+                    published_time = datetime(*entry.updated_parsed[:6], tzinfo=timezone.utc)
+                
+                # Filter: Only keep articles from the last 1 hour
+                if published_time:
+                    time_diff = now - published_time
+                    if time_diff.total_seconds() > 3600: # 3600 seconds = 1 hour
+                        continue
+                else:
+                    # If no time found, skip or keep? Let's skip to be safe for "hourly" updates
+                    continue
+
                 # 使用 Jina Reader 读取全文
                 jina_url = f"https://r.jina.ai/{entry.link}"
                 print(f"Reading with Jina: {jina_url}")
