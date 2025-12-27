@@ -290,24 +290,34 @@ const filteredPending = computed(() => {
 
             <div class="modal-content-scroll">
               <div class="article-header">
-                <div class="article-meta">
-                  <span class="meta-cat">{{ selectedPrompt.category }}</span>
-                  <span class="separator">/</span>
-                  <span v-for="tag in selectedPrompt.tags" :key="tag">#{{ tag }} </span>
+                <div class="header-top">
+                  <span class="meta-cat-badge">{{ selectedPrompt.category }}</span>
+                  <span class="version-badge" v-if="selectedPrompt.version > 1">v{{ selectedPrompt.version }}</span>
                 </div>
                 <h1 class="article-title">{{ selectedPrompt.title }}</h1>
+                <div class="meta-tags-row large">
+                  <span v-for="tag in selectedPrompt.tags" :key="tag" class="meta-tag">#{{ tag }}</span>
+                </div>
               </div>
 
-              <div class="prompt-full-content">
+              <div class="prompt-content-box">
                 <pre>{{ selectedPrompt.content }}</pre>
-                <button class="copy-btn large" @click="copyToClipboard(selectedPrompt.content)">
-                  COPY FULL PROMPT
-                </button>
               </div>
               
-              <div class="article-footer">
-                <div class="action-group large">
-                   <button class="action-btn secondary" @click="handleEdit(selectedPrompt)">EDIT PROMPT</button>
+              <div class="modal-actions-bar">
+                <button class="action-btn primary large" @click="copyToClipboard(selectedPrompt.content)">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  COPY PROMPT
+                </button>
+                <div class="secondary-actions">
+                   <button class="action-btn text" @click="handleEdit(selectedPrompt)">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>
+                     EDIT
+                   </button>
+                   <button class="action-btn text danger" @click="handleDelete(selectedPrompt.id); selectedPrompt = null">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                     DELETE
+                   </button>
                 </div>
               </div>
             </div>
@@ -836,6 +846,103 @@ const filteredPending = computed(() => {
   opacity: 1;
   background: var(--vp-c-danger-soft, rgba(239, 68, 68, 0.1));
   color: var(--vp-c-danger-1, #ef4444);
+}
+
+/* --- New Modal Styles --- */
+.header-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.meta-cat-badge {
+  font-family: monospace;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--vp-c-brand);
+  background: var(--vp-c-brand-soft);
+  padding: 4px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.meta-tags-row.large {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.prompt-content-box {
+  background: var(--vp-c-bg-alt);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 24px;
+  margin: 32px 0;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  color: var(--vp-c-text-1);
+}
+
+.modal-actions-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+.action-btn.primary.large {
+  background: var(--vp-c-brand);
+  color: white;
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s;
+}
+
+.action-btn.primary.large:hover {
+  background: var(--vp-c-brand-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.secondary-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.action-btn.text {
+  background: none;
+  border: none;
+  color: var(--vp-c-text-2);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.action-btn.text:hover {
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-brand);
+}
+
+.action-btn.text.danger:hover {
+  background: var(--vp-c-danger-soft);
+  color: var(--vp-c-danger-1);
 }
 
 /* Mobile Responsiveness */
