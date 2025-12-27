@@ -14,6 +14,7 @@ const selectedNews = ref(null)
 const loading = ref(true)
 const searchQuery = ref('')
 const selectedTag = ref('ALL')
+const viewMode = ref('grid') // 'grid' | 'timeline'
 
 onMounted(async () => {
   try {
@@ -48,6 +49,20 @@ const filteredNews = computed(() => {
   })
 })
 
+// Computed: Group filtered news by Month for Timeline
+const groupedNews = computed(() => {
+  const groups = {}
+  filteredNews.value.forEach(item => {
+    const date = new Date(item.date)
+    const monthKey = date.toLocaleString('en-US', { month: 'short', year: 'numeric' }).toUpperCase() // e.g. DEC 2025
+    if (!groups[monthKey]) {
+      groups[monthKey] = []
+    }
+    groups[monthKey].push(item)
+  })
+  return groups
+})
+
 const openNews = (item) => {
   selectedNews.value = item
   document.body.style.overflow = 'hidden'
@@ -77,16 +92,37 @@ const renderMarkdown = (text) => {
         />
       </div>
       
-      <div class="filter-tags">
-        <button 
-          v-for="tag in allTags" 
-          :key="tag"
-          class="filter-tag"
-          :class="{ active: selectedTag === tag }"
-          @click="selectedTag = tag"
-        >
-          {{ tag }}
-        </button>
+      <div class="filter-row">
+        <div class="filter-tags">
+          <button 
+            v-for="tag in allTags" 
+            :key="tag"
+            class="filter-tag"
+            :class="{ active: selectedTag === tag }"
+            @click="selectedTag = tag"
+          >
+            {{ tag }}
+          </button>
+        </div>
+
+        <!-- View Toggle -->
+        <div class="view-toggle">
+          <button 
+            class="toggle-btn" 
+            :class="{ active: viewMode === 'grid' }"
+            @click="viewMode = 'grid'"
+          >
+            GRID
+          </button>
+          <span class="toggle-sep">/</span>
+          <button 
+            class="toggle-btn" 
+            :class="{ active: viewMode === 'timeline' }"
+            @click="viewMode = 'timeline'"
+          >
+            TIMELINE
+          </button>
+        </div>
       </div>
     </div>
 
@@ -94,7 +130,8 @@ const renderMarkdown = (text) => {
     
     <div v-else-if="filteredNews.length === 0" class="status-msg">NO MATCHING INTELLIGENCE FOUND</div>
 
-    <div v-else class="grid-container">
+    <!-- Grid View -->
+    <div v-else-if="viewMode === 'grid'" class="grid-container">
       <div 
         v-for="item in filteredNews" 
         :key="item.id" 
@@ -116,6 +153,32 @@ const renderMarkdown = (text) => {
         <div class="item-footer">
           <span class="read-indicator">READ MORE</span>
           <span class="arrow">→</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Timeline View -->
+    <div v-else class="timeline-container">
+      <div v-for="(items, month) in groupedNews" :key="month" class="timeline-group">
+        <div class="timeline-month">{{ month }}</div>
+        <div class="timeline-list">
+          <div 
+            v-for="item in items" 
+            :key="item.id" 
+            class="timeline-item"
+            @click="openNews(item)"
+          >
+            <div class="tl-date">{{ item.date.split('-')[2] }}</div> <!-- Day only -->
+            <div class="tl-content">
+              <div class="tl-header">
+                <span class="tl-title">{{ item.title }}</span>
+                <div class="tl-tags">
+                  <span v-for="tag in item.tags" :key="tag" class="tl-tag">#{{ tag }}</span>
+                </div>
+              </div>
+              <p class="tl-summary">{{ item.summary }}</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -167,17 +230,17 @@ const renderMarkdown = (text) => {
 
 /* --- Control Bar --- */
 .control-bar {
-  margin: 80px 0 50px; /* Added top spacing */
+  margin: 80px 0 50px;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center items */
+  align-items: center;
   gap: 32px;
 }
 
 .search-container {
   position: relative;
   width: 100%;
-  max-width: 640px; /* Slightly wider */
+  max-width: 640px;
 }
 
 .search-icon {
@@ -199,7 +262,7 @@ const renderMarkdown = (text) => {
   color: var(--vp-c-text-1);
   outline: none;
   transition: all 0.2s;
-  border-radius: 0; /* Swiss style: sharp corners */
+  border-radius: 0;
 }
 
 .search-input:focus {
@@ -207,11 +270,19 @@ const renderMarkdown = (text) => {
   transform: translateY(-2px);
 }
 
+.filter-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
+
 .filter-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  justify-content: center; /* Center tags */
+  justify-content: center;
 }
 
 .filter-tag {
@@ -240,6 +311,43 @@ const renderMarkdown = (text) => {
 
 .filter-tag.active:hover {
   text-decoration: none;
+}
+
+/* --- View Toggle --- */
+.view-toggle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: monospace;
+  font-size: 14px;
+  border-top: 1px solid var(--vp-c-divider);
+  padding-top: 24px;
+  width: 100%;
+  justify-content: center;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--vp-c-text-2);
+  padding: 4px 8px;
+  transition: all 0.2s;
+}
+
+.toggle-btn:hover {
+  color: var(--vp-c-text-1);
+}
+
+.toggle-btn.active {
+  color: var(--vp-c-text-1);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.toggle-sep {
+  color: var(--vp-c-divider);
 }
 
 .status-msg {
@@ -280,7 +388,91 @@ const renderMarkdown = (text) => {
   text-decoration: underline;
 }
 
-/* --- Typography & Layout --- */
+/* --- Timeline System --- */
+.timeline-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.timeline-group {
+  margin-bottom: 60px;
+}
+
+.timeline-month {
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--vp-c-text-2);
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--vp-c-text-1);
+  letter-spacing: 0.1em;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 24px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--vp-c-divider);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.timeline-item:hover {
+  transform: translateX(10px);
+}
+
+.tl-date {
+  font-family: monospace;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+  min-width: 40px;
+  text-align: right;
+  line-height: 1;
+}
+
+.tl-content {
+  flex: 1;
+}
+
+.tl-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.tl-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
+.tl-tags {
+  display: flex;
+  gap: 8px;
+}
+
+.tl-tag {
+  font-family: monospace;
+  font-size: 10px;
+  background: var(--vp-c-bg-soft);
+  padding: 2px 6px;
+  border-radius: 2px;
+  color: var(--vp-c-text-2);
+}
+
+.tl-summary {
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* --- Typography & Layout (Grid) --- */
 .item-header {
   display: flex;
   justify-content: space-between;
