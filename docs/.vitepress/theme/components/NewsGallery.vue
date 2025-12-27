@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, computed } from 'vue'
 import { withBase } from 'vitepress'
 import MarkdownIt from 'markdown-it'
 
@@ -12,6 +12,8 @@ const md = new MarkdownIt({
 const news = ref([])
 const selectedNews = ref(null)
 const loading = ref(true)
+const searchQuery = ref('')
+const selectedTag = ref('ALL')
 
 onMounted(async () => {
   try {
@@ -24,6 +26,26 @@ onMounted(async () => {
   } finally {
     loading.value = false
   }
+})
+
+// Computed: Extract all unique tags
+const allTags = computed(() => {
+  const tags = new Set(['ALL'])
+  news.value.forEach(item => {
+    if (item.tags) {
+      item.tags.forEach(tag => tags.add(tag))
+    }
+  })
+  return Array.from(tags)
+})
+
+// Computed: Filter news based on search and tag
+const filteredNews = computed(() => {
+  return news.value.filter(item => {
+    const matchesSearch = (item.title + item.summary).toLowerCase().includes(searchQuery.value.toLowerCase())
+    const matchesTag = selectedTag.value === 'ALL' || (item.tags && item.tags.includes(selectedTag.value))
+    return matchesSearch && matchesTag
+  })
 })
 
 const openNews = (item) => {
@@ -43,13 +65,38 @@ const renderMarkdown = (text) => {
 
 <template>
   <div class="swiss-gallery">
+    <!-- Control Bar (Swiss Style) -->
+    <div class="control-bar">
+      <div class="search-container">
+        <span class="search-icon">🔍</span>
+        <input 
+          v-model="searchQuery" 
+          type="text" 
+          placeholder="SEARCH INTELLIGENCE..." 
+          class="search-input"
+        />
+      </div>
+      
+      <div class="filter-tags">
+        <button 
+          v-for="tag in allTags" 
+          :key="tag"
+          class="filter-tag"
+          :class="{ active: selectedTag === tag }"
+          @click="selectedTag = tag"
+        >
+          {{ tag }}
+        </button>
+      </div>
+    </div>
+
     <div v-if="loading" class="status-msg">LOADING DATA...</div>
     
-    <div v-else-if="news.length === 0" class="status-msg">NO DATA AVAILABLE</div>
+    <div v-else-if="filteredNews.length === 0" class="status-msg">NO MATCHING INTELLIGENCE FOUND</div>
 
     <div v-else class="grid-container">
       <div 
-        v-for="item in news" 
+        v-for="item in filteredNews" 
         :key="item.id" 
         class="news-item"
         @click="openNews(item)"
@@ -118,12 +165,87 @@ const renderMarkdown = (text) => {
   color: var(--vp-c-text-1);
 }
 
+/* --- Control Bar --- */
+.control-bar {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.search-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.search-input {
+  width: 100%;
+  padding: 16px 16px 16px 48px;
+  font-family: monospace;
+  font-size: 14px;
+  border: 2px solid var(--vp-c-text-1);
+  background: transparent;
+  color: var(--vp-c-text-1);
+  outline: none;
+  transition: all 0.2s;
+  border-radius: 0; /* Swiss style: sharp corners */
+}
+
+.search-input:focus {
+  background: var(--vp-c-bg-soft);
+}
+
+.filter-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.filter-tag {
+  font-family: monospace;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 6px 12px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--vp-c-text-2);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.filter-tag:hover {
+  color: var(--vp-c-text-1);
+  text-decoration: underline;
+}
+
+.filter-tag.active {
+  background: var(--vp-c-text-1);
+  color: var(--vp-c-bg);
+  border-color: var(--vp-c-text-1);
+  font-weight: 700;
+}
+
+.filter-tag.active:hover {
+  text-decoration: none;
+}
+
 .status-msg {
   font-family: monospace;
   text-align: center;
   padding: 40px;
   font-size: 14px;
   letter-spacing: 1px;
+  border: 1px dashed var(--vp-c-divider);
 }
 
 /* --- Grid System --- */
