@@ -149,9 +149,10 @@ const renderMarkdown = (text) => {
       >
         <div class="item-header">
           <span class="meta-date">{{ item.date }}</span>
-          <div class="meta-tags">
-            <span v-for="tag in item.tags" :key="tag" class="meta-tag">#{{ tag }}</span>
-          </div>
+        </div>
+        
+        <div class="meta-tags-row">
+          <span v-for="tag in item.tags" :key="tag" class="meta-tag">#{{ tag }}</span>
         </div>
         
         <div class="item-body">
@@ -486,15 +487,27 @@ const renderMarkdown = (text) => {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
   font-size: 12px;
   font-family: monospace;
   color: var(--vp-c-text-2);
   letter-spacing: 0.05em;
 }
 
-.meta-tags {
-  text-transform: uppercase;
+.meta-tags-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.meta-tag {
+  font-family: monospace;
+  font-size: 11px;
+  color: var(--vp-c-text-2);
+  background: var(--vp-c-bg-soft);
+  padding: 2px 8px;
+  border-radius: 4px;
 }
 
 .item-title {
@@ -505,6 +518,7 @@ const renderMarkdown = (text) => {
   letter-spacing: -0.02em;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -515,6 +529,7 @@ const renderMarkdown = (text) => {
   color: var(--vp-c-text-2);
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   font-weight: 400;
