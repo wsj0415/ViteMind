@@ -246,9 +246,7 @@ const filteredPending = computed(() => {
       >
         <div class="item-header">
           <span class="meta-cat">{{ prompt.category }}</span>
-          <button class="copy-icon" @click.stop="copyToClipboard(prompt.content)" title="Copy">
-            📋
-          </button>
+          <!-- Removed redundant copy icon -->
         </div>
         
         <div class="item-body">
@@ -259,12 +257,24 @@ const filteredPending = computed(() => {
         <div class="item-footer">
           <div class="meta-tags-row">
             <span class="version-badge" v-if="prompt.version > 1">v{{ prompt.version }}</span>
-            <span v-for="tag in prompt.tags?.slice(0, 4)" :key="tag" class="meta-tag">#{{ tag }}</span>
+            <span 
+              v-for="tag in prompt.tags?.slice(0, 4)" 
+              :key="tag" 
+              class="meta-tag"
+              @click.stop="selectedTag = tag"
+            >
+              #{{ tag }}
+            </span>
           </div>
           <div class="action-group-row">
             <div class="edit-actions">
-              <button class="icon-btn small" @click.stop="handleEdit(prompt)" title="Edit">✏️ EDIT</button>
-              <button class="icon-btn small" @click.stop="handleDelete(prompt.id)" title="Delete">🗑️</button>
+              <button class="icon-btn small" @click.stop="handleEdit(prompt)" title="Edit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>
+                EDIT
+              </button>
+              <button class="icon-btn small" @click.stop="handleDelete(prompt.id)" title="Delete">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+              </button>
             </div>
             <button class="copy-btn" @click.stop="copyToClipboard(prompt.content)">
               COPY
@@ -276,6 +286,51 @@ const filteredPending = computed(() => {
 
     <!-- Detail Modal -->
     <Teleport to="body">
+<!-- ... -->
+<style scoped>
+/* ... */
+.icon-btn.small {
+  font-size: 11px;
+  padding: 6px 10px;
+  opacity: 0.7;
+  background: var(--vp-c-bg-soft);
+  border-radius: 4px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s;
+  color: var(--vp-c-text-2);
+}
+
+.icon-btn.small:hover {
+  opacity: 1;
+  background: var(--vp-c-bg);
+  border-color: var(--vp-c-divider);
+  color: var(--vp-c-brand);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.meta-tag {
+  font-family: monospace;
+  font-size: 11px;
+  color: var(--vp-c-text-2);
+  background: var(--vp-c-bg-soft);
+  padding: 2px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.meta-tag:hover {
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand);
+}
+
+.copy-btn {
+/* ... */
       <Transition name="fade">
         <div v-if="selectedPrompt" class="modal-overlay" @click="selectedPrompt = null">
           <div class="modal-panel" @click.stop>
