@@ -8,11 +8,6 @@ const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
 const supabaseKey = import.meta.env.VITE_SUPABASE_KEY
 const supabase = createClient(supabaseUrl, supabaseKey)
 
-// Supabase Client
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
-const supabaseKey = import.meta.env.VITE_SUPABASE_KEY
-const supabase = createClient(supabaseUrl, supabaseKey)
-
 const tools = ref([])
 const loading = ref(true)
 const categories = ['ALL', 'Coding', 'Image', 'Video', 'Writing', 'Audio', 'Productivity']
