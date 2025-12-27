@@ -6,7 +6,7 @@ const status = ref('idle') // idle, loading, success, error
 
 // 🔴 CONFIGURATION: Replace with your Formspree Form ID
 // Get one for free at https://formspree.io/
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID'
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mregpyga'
 
 const subscribe = async () => {
   if (!email.value || !email.value.includes('@')) {
