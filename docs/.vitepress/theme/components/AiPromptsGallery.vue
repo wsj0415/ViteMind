@@ -246,9 +246,14 @@ const filteredPending = computed(() => {
       >
         <div class="item-header">
           <span class="meta-cat">{{ prompt.category }}</span>
-          <button class="icon-btn delete-btn" @click.stop="handleDelete(prompt.id)" title="Delete">
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
-          </button>
+          <div class="header-actions">
+            <button class="icon-btn action-btn" @click.stop="copyToClipboard(prompt.content)" title="Copy">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+            </button>
+            <button class="icon-btn delete-btn" @click.stop="handleDelete(prompt.id)" title="Delete">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+            </button>
+          </div>
         </div>
         
         <div class="item-body">
@@ -267,17 +272,6 @@ const filteredPending = computed(() => {
             >
               #{{ tag }}
             </span>
-          </div>
-          <div class="action-group-row">
-            <div class="edit-actions">
-              <button class="icon-btn small" @click.stop="handleEdit(prompt)" title="Edit">
-                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>
-                EDIT
-              </button>
-            </div>
-            <button class="copy-btn" @click.stop="copyToClipboard(prompt.content)">
-              COPY
-            </button>
           </div>
         </div>
       </div>
@@ -802,6 +796,29 @@ const filteredPending = computed(() => {
 .copy-btn:hover {
   color: var(--vp-c-brand);
   text-decoration: underline;
+}
+
+.header-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.action-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0.4;
+  transition: all 0.2s;
+  padding: 4px;
+  border-radius: 4px;
+  color: var(--vp-c-text-2);
+}
+
+.action-btn:hover {
+  opacity: 1;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-brand);
 }
 
 .delete-btn {
