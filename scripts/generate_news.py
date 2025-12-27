@@ -158,15 +158,61 @@ def save_to_json(new_items):
         json.dump(updated_data, f, ensure_ascii=False, indent=2)
     print(f"Saved {len(new_items)} items to {file_path}")
 
+def save_to_supabase(new_items):
+    try:
+        from supabase import create_client, Client
+    except ImportError:
+        print("Supabase library not installed. Skipping Supabase upload.")
+        return
+
+    url = os.environ.get("SUPABASE_URL")
+    key = os.environ.get("SUPABASE_KEY")
+
+    if not url or not key:
+        print("Supabase credentials not found. Skipping Supabase upload.")
+        return
+
+    try:
+        supabase: Client = create_client(url, key)
+        
+        # 准备数据，确保格式符合 Supabase 表结构
+        data_to_upsert = []
+        for item in new_items:
+            data_to_upsert.append({
+                "id": item.get("id"),
+                "title": item.get("title"),
+                "summary": item.get("summary"),
+                "detail": item.get("detail"),
+                "link": item.get("link"),
+                "tags": item.get("tags"),
+                "date": item.get("date")
+            })
+            
+        if not data_to_upsert:
+            return
+
+        # 执行 Upsert
+        response = supabase.table("news").upsert(data_to_upsert).execute()
+        print(f"Successfully uploaded {len(data_to_upsert)} items to Supabase.")
+        
+    except Exception as e:
+        print(f"Error uploading to Supabase: {e}")
+
 if __name__ == "__main__":
     if not OPENROUTER_API_KEY:
         print("Error: OPENROUTER_API_KEY not found.")
         exit(1)
 
-    print("Starting AI News Generator (JSON Mode)...")
+    print("Starting AI News Generator (JSON + Supabase)...")
     raw_articles = fetch_rss_data()
     print(f"Fetched {len(raw_articles)} articles.")
     
     ai_json = summarize_with_ai(raw_articles)
+    
+    # 1. 保存为本地 JSON (用于前端静态展示)
     save_to_json(ai_json)
+    
+    # 2. 上传到 Supabase (用于数据归档)
+    save_to_supabase(ai_json)
+    
     print("Done.")
