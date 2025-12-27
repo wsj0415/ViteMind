@@ -28,7 +28,9 @@ export default defineConfig({
         items: [
           { text: '1. 极速搭建', link: '/guide/tutorial/1-vitepress-setup' },
           { text: '2. AI 自动化引擎', link: '/guide/tutorial/2-news-automation' },
-          { text: '3. 定制化开发', link: '/guide/tutorial/3-customization' }
+          { text: '3. 定制化开发', link: '/guide/tutorial/3-customization' },
+          { text: '4. 私域流量', link: '/guide/tutorial/4-newsletter' },
+          { text: '5. 巨人肩膀', link: '/guide/tutorial/5-resources' }
         ]
       },
       {
