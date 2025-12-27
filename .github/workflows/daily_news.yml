@@ -35,7 +35,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add docs/news/*.md
+          git add docs/news/*.md docs/public/data/news.json
           # 如果没有变化，不报错
           git commit -m "docs: add daily ai news" || exit 0
           git push
