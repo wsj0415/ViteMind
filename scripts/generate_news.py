@@ -11,7 +11,13 @@ MODEL_NAME = "xiaomi/mimo-v2-flash:free"
 
 # 数据源
 RSS_FEEDS = [
-    "https://hnrss.org/newest?q=AI", 
+    "https://hnrss.org/newest?q=AI", # Hacker News AI
+    "https://www.theverge.com/rss/artificial-intelligence/index.xml", # The Verge AI
+    "https://techcrunch.com/category/artificial-intelligence/feed/", # TechCrunch AI
+    "https://huggingface.co/papers/rss", # Hugging Face Papers (Dev/Research)
+    "https://machinelearningmastery.com/blog/feed/", # ML Mastery (Dev/Tutorial)
+    "https://www.producthunt.com/feed?topic=artificial-intelligence", # Product Hunt AI (New Tools)
+    "https://appsumo.com/feed/", # AppSumo (Deals - need filtering)
 ]
 
 def fetch_rss_data():
@@ -31,7 +37,12 @@ def fetch_rss_data():
             feed = feedparser.parse(response.content)
             
             print(f"Found {len(feed.entries)} entries in {feed_url}")
-            for entry in feed.entries[:5]: # 每个源只取前5条
+            # 对于 AppSumo 等高频源，或者无关内容较多的源，可以适当增加获取数量以便后续 LLM 筛选，但为了速度先取前 3-5 条
+            limit = 5
+            if "appsumo" in feed_url: 
+                limit = 10 # 多取一些以便筛选 AI 相关
+            
+            for entry in feed.entries[:limit]: 
                 # 使用 Jina Reader 读取全文
                 jina_url = f"https://r.jina.ai/{entry.link}"
                 print(f"Reading with Jina: {jina_url}")
@@ -67,13 +78,19 @@ def summarize_with_ai(articles):
     # 构建 Prompt
     news_text = "\n".join([f"- [{a['title']}]({a['link']}): {a['summary']}" for a in articles])
     prompt = f"""
-    你是专业的 AI 行业分析师。请阅读以下原始新闻列表，筛选出 5-8 条最有价值的 AI 技术进展或行业动态。
+    你是专业的 AI 行业分析师。请阅读以下原始新闻列表，筛选出 8-12 条最有价值的内容。
     
+    **筛选标准（必须覆盖以下类别）：**
+    1. 🚨 **大事件 (News)**: 24小时内的重大 AI 新闻 (OpenAI, Google 等)。
+    2. 🎁 **促销 (Deals)**: AI 产品的限时优惠、Lifetime Deal (如 AppSumo 上的 AI 工具)。
+    3. 🛠️ **编程 (Dev)**: AI 开发教程、Hugging Face 论文、LLM 部署指南。
+    4. 🚀 **新产品 (New)**: Product Hunt 上的热门 AI 新品 (类似 TAAFT 时间轴)。
+
     请输出一个纯 JSON 数组（不要包含 Markdown 代码块标记 ```json ... ```），数组中每个对象包含以下字段：
     - title: (string) 中文标题，吸引人且专业。
     - summary: (string) 一句话中文摘要（50字以内），用于卡片展示。
     - detail: (string) 详细的中文深度解读（Markdown 格式），包含背景、核心技术点、行业影响等（300字左右）。
-    - tags: (array of strings) 1-2 个标签，如 ["LLM", "Agent", "Hardware"]。
+    - tags: (array of strings) 必须包含一个类别标签 ["News", "Deal", "Dev", "New"]，以及 1-2 个内容标签 (如 "LLM", "Python")。
     - link: (string) 原始链接。
     - date: (string) 日期，格式 YYYY-MM-DD。
 
