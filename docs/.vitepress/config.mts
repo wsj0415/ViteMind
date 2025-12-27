@@ -24,6 +24,14 @@ export default defineConfig({
         ]
       },
       {
+        text: '实战教程 (Build in Public)',
+        items: [
+          { text: '1. 极速搭建', link: '/guide/tutorial/1-vitepress-setup' },
+          { text: '2. AI 自动化引擎', link: '/guide/tutorial/2-news-automation' },
+          { text: '3. 定制化开发', link: '/guide/tutorial/3-customization' }
+        ]
+      },
+      {
         text: '高价值内容',
         items: [
           { text: '核心架构 (付费)', link: '/paid/architecture' },
