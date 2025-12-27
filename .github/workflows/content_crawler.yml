@@ -1,0 +1,60 @@
+name: AI Content Crawler
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # 每 6 小时运行一次
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  crawl-and-organize:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 需要写权限来提交生成的文件
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Claude Code CLI
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Run Claude Code to Crawl and Organize
+        env:
+          # 需要在 GitHub Secrets 中配置 ANTHROPIC_API_KEY
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # 支持自定义 Base URL (如魔搭社区) 和模型
+          ANTHROPIC_BASE_URL: ${{ secrets.ANTHROPIC_BASE_URL }}
+          ANTHROPIC_MODEL: ${{ secrets.ANTHROPIC_MODEL }}
+        run: |
+          # 使用 claude -p 直接执行 Prompt
+          # 注意：这里假设 claude-code CLI 支持非交互式 -p 参数且能通过环境变量认证
+          # 如果需要特定的 session token，可能需要调整 env
+          
+          PROMPT="请作为专业的 AI 资讯策展人，执行以下任务：
+          1. 访问并读取以下 RSS 源的最新内容（过去 24 小时）：
+             - https://hnrss.org/newest?q=AI
+             - https://www.theverge.com/rss/artificial-intelligence/index.xml
+             - https://openai.com/blog/rss.xml
+             - https://www.anthropic.com/feed
+          2. 筛选出最有价值的 5-10 条 AI 新闻。
+          3. 将内容分类为 'News' (大事件), 'Tech' (技术), 'Tools' (工具)。
+          4. 生成一份中文简报，更新到文件 'docs/guide/latest_ai_news.md' 中。
+             - 文件格式应为 Markdown。
+             - 包含更新时间。
+             - 每条新闻包含标题、摘要、来源链接。
+          5. 如果文件不存在，请创建它。如果存在，请覆盖旧内容。"
+
+          claude -p "$PROMPT"
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add docs/guide/latest_ai_news.md
+          # 只有在有变化时才提交
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update AI news via Claude Code" && git push)

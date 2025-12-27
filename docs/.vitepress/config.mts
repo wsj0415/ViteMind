@@ -48,6 +48,15 @@ export default defineConfig({
           { text: '核心架构 (付费)', link: '/paid/architecture' },
           { text: '变现逻辑 (付费)', link: '/paid/monetization' }
         ]
+      },
+      {
+        text: 'AI 资源指南',
+        items: [
+          { text: 'Claude', link: '/guide/claude' },
+          { text: 'Gemini', link: '/guide/gemini' },
+          { text: 'OpenAI', link: '/guide/openai' },
+          { text: '最新资讯', link: '/guide/latest_ai_news' }
+        ]
       }
     ],
 
