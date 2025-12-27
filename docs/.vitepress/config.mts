@@ -10,7 +10,8 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide/getting-started' },
-      { text: '付费专栏', link: '/paid/index' }
+      { text: '付费专栏', link: '/paid/index' },
+      { text: 'AI 情报局', link: '/news/index' }
     ],
 
     sidebar: [
