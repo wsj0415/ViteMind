@@ -1,52 +1,55 @@
-<script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
+import { createClient } from '@supabase/supabase-js'
 import SubmitToolModal from './SubmitToolModal.vue'
 
-const tools = [
-  // Coding
-  { category: 'Coding', name: 'Cursor', desc: 'AI-first code editor.', link: 'https://cursor.sh/', icon: '💻', tags: ['Editor', 'Free'] },
-  { category: 'Coding', name: 'GitHub Copilot', desc: 'AI pair programmer.', link: 'https://github.com/features/copilot', icon: '🐙', tags: ['Extension', 'Paid'] },
-  { category: 'Coding', name: 'Bolt.new', desc: 'Full-stack web app generator.', link: 'https://bolt.new/', icon: '⚡️', tags: ['Web', 'Free'] },
-  { category: 'Coding', name: 'Windsurf', desc: 'Context-aware AI IDE.', link: 'https://codeium.com/windsurf', icon: '🏄', tags: ['IDE', 'Free'] },
-  { category: 'Coding', name: 'V0.dev', desc: 'UI generation by Vercel.', link: 'https://v0.dev/', icon: '📐', tags: ['UI', 'Free'] },
-  
-  // Image
-  { category: 'Image', name: 'Midjourney', desc: 'Hyper-realistic AI art.', link: 'https://www.midjourney.com/', icon: '🎨', tags: ['Discord', 'Paid'] },
-  { category: 'Image', name: 'Flux', desc: 'SOTA open image model.', link: 'https://blackforestlabs.ai/', icon: '🌊', tags: ['Open Source', 'Free'] },
-  { category: 'Image', name: 'Recraft', desc: 'Vector art & icons.', link: 'https://www.recraft.ai/', icon: '✏️', tags: ['Design', 'Free'] },
-  { category: 'Image', name: 'Freepik', desc: 'AI resource generator.', link: 'https://www.freepik.com/', icon: '🖼️', tags: ['Design', 'Freemium'] },
+// Supabase Client
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
+const supabaseKey = import.meta.env.VITE_SUPABASE_KEY
+const supabase = createClient(supabaseUrl, supabaseKey)
 
-  // Video
-  { category: 'Video', name: 'Sora', desc: 'OpenAI text-to-video.', link: 'https://openai.com/sora', icon: '🎥', tags: ['Waitlist'] },
-  { category: 'Video', name: 'Kling', desc: 'High-quality video gen.', link: 'https://kling.kuaishou.com/', icon: '🎬', tags: ['Web', 'Free'] },
-  { category: 'Video', name: 'Runway', desc: 'Gen-3 Alpha video tools.', link: 'https://runwayml.com/', icon: '🎞️', tags: ['Web', 'Paid'] },
-  { category: 'Video', name: 'Luma Dream Machine', desc: 'Fast video generation.', link: 'https://lumalabs.ai/dream-machine', icon: '☁️', tags: ['Web', 'Free'] },
-  { category: 'Video', name: 'HeyGen', desc: 'AI avatar video gen.', link: 'https://www.heygen.com/', icon: '🗣️', tags: ['Avatar', 'Paid'] },
+// Supabase Client
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
+const supabaseKey = import.meta.env.VITE_SUPABASE_KEY
+const supabase = createClient(supabaseUrl, supabaseKey)
 
-  // Writing
-  { category: 'Writing', name: 'ChatGPT', desc: 'The standard LLM.', link: 'https://chat.openai.com/', icon: '🤖', tags: ['Chat', 'Freemium'] },
-  { category: 'Writing', name: 'Claude', desc: 'Natural, nuanced writing.', link: 'https://claude.ai/', icon: '🧠', tags: ['Chat', 'Freemium'] },
-  { category: 'Writing', name: 'DeepSeek', desc: 'Powerful open model.', link: 'https://www.deepseek.com/', icon: '🐳', tags: ['Chat', 'Free'] },
-  { category: 'Writing', name: 'Perplexity', desc: 'AI answer engine.', link: 'https://www.perplexity.ai/', icon: '🔍', tags: ['Search', 'Freemium'] },
-  { category: 'Writing', name: 'NotebookLM', desc: 'AI research assistant.', link: 'https://notebooklm.google.com/', icon: '📓', tags: ['Research', 'Free'] },
-
-  // Audio
-  { category: 'Audio', name: 'Suno', desc: 'Make music with AI.', link: 'https://suno.com/', icon: '🎵', tags: ['Music', 'Free'] },
-  { category: 'Audio', name: 'Udio', desc: 'High-fidelity music gen.', link: 'https://www.udio.com/', icon: '🎧', tags: ['Music', 'Free'] },
-  { category: 'Audio', name: 'ElevenLabs', desc: 'Realistic text-to-speech.', link: 'https://elevenlabs.io/', icon: '🎙️', tags: ['Voice', 'Paid'] },
-
-  // Productivity
-  { category: 'Productivity', name: 'Gamma', desc: 'AI presentation maker.', link: 'https://gamma.app/', icon: '📊', tags: ['Slides', 'Freemium'] },
-  { category: 'Productivity', name: 'Notion AI', desc: 'Connected workspace.', link: 'https://www.notion.so/', icon: '📝', tags: ['Docs', 'Paid'] },
-]
-
+const tools = ref([])
+const loading = ref(true)
 const categories = ['ALL', 'Coding', 'Image', 'Video', 'Writing', 'Audio', 'Productivity']
 const selectedCategory = ref('ALL')
 const searchQuery = ref('')
 const isModalOpen = ref(false)
 
+// Fetch approved tools from Supabase
+onMounted(async () => {
+  try {
+    loading.value = true
+    const { data, error } = await supabase
+      .from('ai_tools')
+      .select('*')
+      .eq('approved', true)
+      .order('submitted_at', { ascending: false })
+
+    if (error) throw error
+
+    if (data) {
+      tools.value = data.map(item => ({
+        category: item.category || 'Productivity',
+        name: item.name,
+        desc: item.description,
+        link: item.link,
+        icon: item.icon || '🚀', // Use DB icon or default
+        tags: item.tags || []
+      }))
+    }
+  } catch (e) {
+    console.error('Error fetching tools:', e)
+  } finally {
+    loading.value = false
+  }
+})
+
 const filteredTools = computed(() => {
-  return tools.filter(t => {
+  return tools.value.filter(t => {
     const matchesCat = selectedCategory.value === 'ALL' || t.category === selectedCategory.value
     const matchesSearch = t.name.toLowerCase().includes(searchQuery.value.toLowerCase()) || 
                           t.desc.toLowerCase().includes(searchQuery.value.toLowerCase())
@@ -87,8 +90,14 @@ const filteredTools = computed(() => {
       </button>
     </div>
 
+    <!-- Loading State -->
+    <div v-if="loading" class="loading-state">
+      <div class="spinner"></div>
+      <p>Loading AI Tools...</p>
+    </div>
+
     <!-- Grid -->
-    <div class="tools-grid">
+    <div v-else class="tools-grid">
       <a 
         v-for="tool in filteredTools" 
         :key="tool.name" 
@@ -333,5 +342,28 @@ const filteredTools = computed(() => {
   padding: 60px;
   color: var(--vp-c-text-3);
   font-family: monospace;
+}
+
+.loading-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+  color: var(--vp-c-text-2);
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--vp-c-divider);
+  border-top-color: var(--vp-c-brand);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 16px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
 }
 </style>
