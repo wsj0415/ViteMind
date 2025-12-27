@@ -18,6 +18,8 @@ const isModalOpen = ref(false)
 const showPending = ref(false)
 const selectedPrompt = ref(null)
 const selectedTag = ref('ALL')
+const isEditing = ref(false)
+const editContent = ref('')
 
 // Load pending submissions from localStorage
 const loadPendingSubmissions = () => {
@@ -47,33 +49,57 @@ const copyToClipboard = async (text) => {
   }
 }
 
-// Handle Edit
-const handleEdit = async (prompt) => {
-  const newContent = window.prompt('Edit Prompt Content:', prompt.content)
-  if (newContent !== null && newContent !== prompt.content) {
+// Start Edit Mode
+const startEdit = () => {
+  if (selectedPrompt.value) {
+    editContent.value = selectedPrompt.value.content
+    isEditing.value = true
+  }
+}
+
+// Cancel Edit
+const cancelEdit = () => {
+  isEditing.value = false
+  editContent.value = ''
+}
+
+// Save Edit
+const saveEdit = async () => {
+  if (!selectedPrompt.value) return
+  
+  const newContent = editContent.value
+  if (newContent !== selectedPrompt.value.content) {
     try {
       const { error } = await supabase
         .from('ai_prompts')
         .update({ 
           content: newContent,
-          version: (prompt.version || 1) + 1,
+          version: (selectedPrompt.value.version || 1) + 1,
           updated_at: new Date().toISOString()
         })
-        .eq('id', prompt.id)
+        .eq('id', selectedPrompt.value.id)
 
       if (error) throw error
       
       // Update local state
-      const index = prompts.value.findIndex(p => p.id === prompt.id)
+      const index = prompts.value.findIndex(p => p.id === selectedPrompt.value.id)
       if (index !== -1) {
         prompts.value[index].content = newContent
-        prompts.value[index].version = (prompt.version || 1) + 1
+        prompts.value[index].version = (selectedPrompt.value.version || 1) + 1
       }
+      
+      // Update selected prompt
+      selectedPrompt.value.content = newContent
+      selectedPrompt.value.version = (selectedPrompt.value.version || 1) + 1
+      
       alert('Prompt updated successfully!')
+      isEditing.value = false
     } catch (e) {
       console.error('Update failed:', e)
       alert('Failed to update prompt.')
     }
+  } else {
+    isEditing.value = false
   }
 }
 
@@ -301,23 +327,39 @@ const filteredPending = computed(() => {
               </div>
 
               <div class="prompt-content-box">
-                <pre>{{ selectedPrompt.content }}</pre>
+                <textarea 
+                  v-if="isEditing" 
+                  v-model="editContent" 
+                  class="prompt-editor"
+                  placeholder="Enter prompt content..."
+                ></textarea>
+                <pre v-else>{{ selectedPrompt.content }}</pre>
               </div>
               
               <div class="modal-actions-bar">
-                <button class="action-btn primary large" @click="copyToClipboard(selectedPrompt.content)">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-                  COPY PROMPT
-                </button>
-                <div class="secondary-actions">
-                   <button class="action-btn text" @click="handleEdit(selectedPrompt)">
-                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>
-                     EDIT
-                   </button>
-                   <button class="action-btn text danger" @click="handleDelete(selectedPrompt.id); selectedPrompt = null">
-                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
-                     DELETE
-                   </button>
+                <div v-if="isEditing" class="editing-actions">
+                  <button class="action-btn primary large" @click="saveEdit">
+                    SAVE CHANGES
+                  </button>
+                  <button class="action-btn text" @click="cancelEdit">
+                    CANCEL
+                  </button>
+                </div>
+                <div v-else class="view-actions">
+                  <button class="action-btn primary large" @click="copyToClipboard(selectedPrompt.content)">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    COPY PROMPT
+                  </button>
+                  <div class="secondary-actions">
+                     <button class="action-btn text" @click="startEdit">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>
+                       EDIT
+                     </button>
+                     <button class="action-btn text danger" @click="handleDelete(selectedPrompt.id); selectedPrompt = null">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                       DELETE
+                     </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -957,5 +999,48 @@ const filteredPending = computed(() => {
     height: auto;
     min-height: 280px;
   }
+
+  .modal-panel {
+    border: none;
+  }
+
+  .modal-content-scroll {
+    padding: 30px 20px;
+  }
+
+  .article-title {
+    font-size: 32px;
+  }
+}
+
+.prompt-content-box pre {
+  margin: 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.prompt-editor {
+  width: 100%;
+  min-height: 200px;
+  background: transparent;
+  border: none;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--vp-c-text-1);
+  resize: vertical;
+  outline: none;
+}
+
+.editing-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.view-actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
 }
 </style>
