@@ -167,34 +167,35 @@ const renderMarkdown = (text) => {
 
 /* --- Control Bar --- */
 .control-bar {
-  margin-bottom: 40px;
+  margin: 80px 0 50px; /* Added top spacing */
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  align-items: center; /* Center items */
+  gap: 32px;
 }
 
 .search-container {
   position: relative;
   width: 100%;
-  max-width: 600px;
+  max-width: 640px; /* Slightly wider */
 }
 
 .search-icon {
   position: absolute;
-  left: 16px;
+  left: 20px;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 14px;
-  opacity: 0.5;
+  font-size: 16px;
+  opacity: 0.4;
 }
 
 .search-input {
   width: 100%;
-  padding: 16px 16px 16px 48px;
+  padding: 18px 18px 18px 54px;
   font-family: monospace;
-  font-size: 14px;
+  font-size: 16px;
   border: 2px solid var(--vp-c-text-1);
-  background: transparent;
+  background: var(--vp-c-bg);
   color: var(--vp-c-text-1);
   outline: none;
   transition: all 0.2s;
@@ -202,13 +203,15 @@ const renderMarkdown = (text) => {
 }
 
 .search-input:focus {
-  background: var(--vp-c-bg-soft);
+  box-shadow: 4px 4px 0 var(--vp-c-brand);
+  transform: translateY(-2px);
 }
 
 .filter-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 16px;
+  justify-content: center; /* Center tags */
 }
 
 .filter-tag {
