@@ -12,7 +12,7 @@ export default defineConfig({
       { text: 'AI 导航', link: '/ai-tools' },
       { text: '指南', link: '/guide/getting-started' },
       { text: '付费专栏', link: '/paid/index' },
-      { text: 'AI 情报局', link: '/news/index' }
+      { text: '订阅', link: '/newsletter' }
     ],
 
     sidebar: [
@@ -20,8 +20,7 @@ export default defineConfig({
         text: '开始使用',
         items: [
           { text: '简介', link: '/guide/getting-started' },
-          { text: '快速上手', link: '/guide/quick-start' },
-          { text: '🤖 AI 情报局', link: '/news/index' }
+          { text: '快速上手', link: '/guide/quick-start' }
         ]
       },
       {
