@@ -4,6 +4,7 @@ import PricingSection from './components/PricingSection.vue'
 import NewsGallery from './components/NewsGallery.vue'
 import AiToolsGallery from './components/AiToolsGallery.vue'
 import NewsletterForm from './components/NewsletterForm.vue'
+import HomeBanner from './components/HomeBanner.vue'
 import './style.css'
 
 export default {
@@ -14,5 +15,6 @@ export default {
         app.component('NewsGallery', NewsGallery)
         app.component('AiToolsGallery', AiToolsGallery)
         app.component('NewsletterForm', NewsletterForm)
+        app.component('HomeBanner', HomeBanner)
     }
 }

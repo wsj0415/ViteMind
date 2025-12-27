@@ -1,8 +1,10 @@
 ---
 layout: page
-title: AI Intelligence Hub
+title: " "
 sidebar: false
 ---
+
+<HomeBanner />
 
 <NewsGallery />
 

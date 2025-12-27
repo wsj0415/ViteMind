@@ -5,7 +5,7 @@ import path from 'path'
 export default defineConfig({
   base: "/ViteMind/",
   title: "ViteMind",
-  description: "极速构建你的第二大脑",
+  description: "UNCOVER THE FUTURE OF AI",
 
   // Load .env files from project root (parent of docs folder)
   vite: {
@@ -13,6 +13,7 @@ export default defineConfig({
   },
 
   themeConfig: {
+    logo: '/logo.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
