@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write # 需要写权限来提交生成的文件
+      id-token: write # 需要此权限来获取 OIDC token 用于 Claude Code 认证
 
     steps:
       - name: Checkout code
