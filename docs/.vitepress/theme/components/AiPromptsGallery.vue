@@ -285,51 +285,6 @@ const filteredPending = computed(() => {
 
     <!-- Detail Modal -->
     <Teleport to="body">
-<!-- ... -->
-<style scoped>
-/* ... */
-.icon-btn.small {
-  font-size: 11px;
-  padding: 6px 10px;
-  opacity: 0.7;
-  background: var(--vp-c-bg-soft);
-  border-radius: 4px;
-  border: 1px solid transparent;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  transition: all 0.2s;
-  color: var(--vp-c-text-2);
-}
-
-.icon-btn.small:hover {
-  opacity: 1;
-  background: var(--vp-c-bg);
-  border-color: var(--vp-c-divider);
-  color: var(--vp-c-brand);
-  transform: translateY(-1px);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
-.meta-tag {
-  font-family: monospace;
-  font-size: 11px;
-  color: var(--vp-c-text-2);
-  background: var(--vp-c-bg-soft);
-  padding: 2px 8px;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-.meta-tag:hover {
-  background: var(--vp-c-brand-soft);
-  color: var(--vp-c-brand);
-}
-
-.copy-btn {
-/* ... */
       <Transition name="fade">
         <div v-if="selectedPrompt" class="modal-overlay" @click="selectedPrompt = null">
           <div class="modal-panel" @click.stop>
@@ -796,22 +751,42 @@ const filteredPending = computed(() => {
 
 .icon-btn.small {
   font-size: 11px;
-  padding: 4px 8px;
-  opacity: 0.6;
+  padding: 6px 10px;
+  opacity: 0.7;
   background: var(--vp-c-bg-soft);
   border-radius: 4px;
-  border: none;
+  border: 1px solid transparent;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s;
+  color: var(--vp-c-text-2);
 }
 
 .icon-btn.small:hover {
   opacity: 1;
-  background: var(--vp-c-brand-soft);
+  background: var(--vp-c-bg);
+  border-color: var(--vp-c-divider);
   color: var(--vp-c-brand);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .meta-tag {
-  color: var(--vp-c-text-3);
+  font-family: monospace;
+  font-size: 11px;
+  color: var(--vp-c-text-2);
+  background: var(--vp-c-bg-soft);
+  padding: 2px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.meta-tag:hover {
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand);
 }
 
 .copy-btn {
