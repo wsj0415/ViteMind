@@ -1,3 +1,4 @@
+<script setup>
 import { ref, computed, onMounted } from 'vue'
 import { createClient } from '@supabase/supabase-js'
 import SubmitToolModal from './SubmitToolModal.vue'
