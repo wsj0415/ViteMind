@@ -17,6 +17,7 @@ const searchQuery = ref('')
 const isModalOpen = ref(false)
 const showPending = ref(false)
 const selectedPrompt = ref(null)
+const selectedTag = ref('ALL')
 
 // Load pending submissions from localStorage
 const loadPendingSubmissions = () => {
@@ -48,7 +49,7 @@ const copyToClipboard = async (text) => {
 
 // Handle Edit
 const handleEdit = async (prompt) => {
-  const newContent = prompt('Edit Prompt Content:', prompt.content)
+  const newContent = window.prompt('Edit Prompt Content:', prompt.content)
   if (newContent !== null && newContent !== prompt.content) {
     try {
       const { error } = await supabase
@@ -122,12 +123,24 @@ onMounted(async () => {
   }
 })
 
+// Computed: Extract all unique tags
+const allTags = computed(() => {
+  const tags = new Set(['ALL'])
+  prompts.value.forEach(p => {
+    if (p.tags) {
+      p.tags.forEach(tag => tags.add(tag))
+    }
+  })
+  return Array.from(tags)
+})
+
 const filteredPrompts = computed(() => {
   return prompts.value.filter(p => {
     const matchesCat = selectedCategory.value === 'ALL' || p.category === selectedCategory.value
+    const matchesTag = selectedTag.value === 'ALL' || (p.tags && p.tags.includes(selectedTag.value))
     const matchesSearch = p.title.toLowerCase().includes(searchQuery.value.toLowerCase()) || 
                           p.content.toLowerCase().includes(searchQuery.value.toLowerCase())
-    return matchesCat && matchesSearch
+    return matchesCat && matchesTag && matchesSearch
   })
 })
 
