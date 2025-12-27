@@ -20,7 +20,9 @@ onMounted(async () => {
   try {
     const res = await fetch(withBase('/data/news.json'))
     if (res.ok) {
-      news.value = await res.json()
+      const data = await res.json()
+      // Sort news by date descending
+      news.value = data.sort((a, b) => new Date(b.date) - new Date(a.date))
     }
   } catch (e) {
     console.error('Failed to load news:', e)
@@ -55,12 +57,19 @@ const groupedNews = computed(() => {
   filteredNews.value.forEach(item => {
     const date = new Date(item.date)
     const monthKey = date.toLocaleString('en-US', { month: 'short', year: 'numeric' }).toUpperCase() // e.g. DEC 2025
+    
     if (!groups[monthKey]) {
-      groups[monthKey] = []
+      groups[monthKey] = {
+        month: monthKey,
+        timestamp: date.getTime(), // Use timestamp for sorting groups
+        items: []
+      }
     }
-    groups[monthKey].push(item)
+    groups[monthKey].items.push(item)
   })
-  return groups
+  
+  // Return array sorted by timestamp descending
+  return Object.values(groups).sort((a, b) => b.timestamp - a.timestamp)
 })
 
 const openNews = (item) => {
@@ -159,11 +168,11 @@ const renderMarkdown = (text) => {
 
     <!-- Timeline View -->
     <div v-else class="timeline-container">
-      <div v-for="(items, month) in groupedNews" :key="month" class="timeline-group">
-        <div class="timeline-month">{{ month }}</div>
+      <div v-for="group in groupedNews" :key="group.month" class="timeline-group">
+        <div class="timeline-month">{{ group.month }}</div>
         <div class="timeline-list">
           <div 
-            v-for="item in items" 
+            v-for="item in group.items" 
             :key="item.id" 
             class="timeline-item"
             @click="openNews(item)"
