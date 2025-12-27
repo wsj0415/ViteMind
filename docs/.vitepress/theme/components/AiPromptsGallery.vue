@@ -168,6 +168,19 @@ const filteredPending = computed(() => {
           </button>
         </div>
 
+        <!-- Tag Cloud -->
+        <div class="tag-cloud" v-if="allTags.length > 1">
+          <button 
+            v-for="tag in allTags" 
+            :key="tag"
+            class="cloud-tag"
+            :class="{ active: selectedTag === tag }"
+            @click="selectedTag = tag"
+          >
+            #{{ tag }}
+          </button>
+        </div>
+
         <!-- Action Buttons -->
         <div class="action-row">
           <button class="action-btn" @click="isModalOpen = true">
@@ -231,13 +244,15 @@ const filteredPending = computed(() => {
         </div>
 
         <div class="item-footer">
-          <div class="meta-tags">
+          <div class="meta-tags-row">
             <span class="version-badge" v-if="prompt.version > 1">v{{ prompt.version }}</span>
-            <span v-for="tag in prompt.tags?.slice(0, 3)" :key="tag" class="meta-tag">#{{ tag }}</span>
+            <span v-for="tag in prompt.tags?.slice(0, 4)" :key="tag" class="meta-tag">#{{ tag }}</span>
           </div>
-          <div class="action-group">
-            <button class="icon-btn small" @click.stop="handleEdit(prompt)" title="Edit">✏️</button>
-            <button class="icon-btn small" @click.stop="handleDelete(prompt.id)" title="Delete">🗑️</button>
+          <div class="action-group-row">
+            <div class="edit-actions">
+              <button class="icon-btn small" @click.stop="handleEdit(prompt)" title="Edit">✏️ EDIT</button>
+              <button class="icon-btn small" @click.stop="handleDelete(prompt.id)" title="Delete">🗑️</button>
+            </div>
             <button class="copy-btn" @click.stop="copyToClipboard(prompt.content)">
               COPY
             </button>
@@ -649,17 +664,59 @@ const filteredPending = computed(() => {
 .item-footer {
   margin-top: 24px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  gap: 16px;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.05em;
 }
 
-.meta-tags {
+.meta-tags-row {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   align-items: center;
+  min-height: 20px;
+}
+
+.action-group-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid var(--vp-c-divider);
+  padding-top: 16px;
+}
+
+.edit-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cloud-tag {
+  font-family: monospace;
+  font-size: 11px;
+  color: var(--vp-c-text-2);
+  background: var(--vp-c-bg-soft);
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.cloud-tag:hover, .cloud-tag.active {
+  background: var(--vp-c-text-1);
+  color: var(--vp-c-bg);
 }
 
 .version-badge {
@@ -670,22 +727,20 @@ const filteredPending = computed(() => {
   font-size: 10px;
 }
 
-.action-group {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
 .icon-btn.small {
-  font-size: 12px;
-  padding: 4px;
+  font-size: 11px;
+  padding: 4px 8px;
   opacity: 0.6;
+  background: var(--vp-c-bg-soft);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
 }
 
 .icon-btn.small:hover {
   opacity: 1;
-  background: var(--vp-c-bg-soft);
-  border-radius: 4px;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand);
 }
 
 .meta-tag {
