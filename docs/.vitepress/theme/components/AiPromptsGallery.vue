@@ -39,7 +39,6 @@ const handleSubmission = (prompt) => {
 const copyToClipboard = async (text) => {
   try {
     await navigator.clipboard.writeText(text)
-    // Could add a toast here
     alert('Prompt copied to clipboard!')
   } catch (err) {
     console.error('Failed to copy:', err)
@@ -90,129 +89,103 @@ const filteredPending = computed(() => {
 </script>
 
 <template>
-  <div class="prompts-page">
-    <!-- Sidebar -->
-    <aside class="sidebar">
-      <div class="sidebar-header">
-        <h2>Categories</h2>
+  <div class="swiss-gallery">
+    <!-- Control Bar (Swiss Style) -->
+    <div class="control-bar">
+      <div class="search-container">
+        <span class="search-icon">🔍</span>
+        <input 
+          v-model="searchQuery" 
+          type="text" 
+          placeholder="SEARCH PROMPTS..." 
+          class="search-input"
+        />
       </div>
-      <nav class="category-nav">
-        <button 
-          v-for="cat in categories" 
-          :key="cat"
-          class="cat-item"
-          :class="{ active: selectedCategory === cat }"
-          @click="selectedCategory = cat"
-        >
-          <span class="cat-icon">
-            {{ cat === 'ALL' ? '🌐' : cat === 'Coding' ? '💻' : cat === 'Image' ? '🎨' : cat === 'Writing' ? '✍️' : cat === 'Marketing' ? '📢' : cat === 'SEO' ? '🔍' : '⚡' }}
-          </span>
-          <span class="cat-name">{{ cat }}</span>
-        </button>
-      </nav>
       
-      <!-- Pending Toggle -->
-      <div v-if="pendingPrompts.length > 0" class="pending-toggle">
-        <button 
-          class="pending-btn"
-          :class="{ active: showPending }"
-          @click="showPending = !showPending"
+      <div class="filter-row">
+        <div class="filter-tags">
+          <button 
+            v-for="cat in categories" 
+            :key="cat"
+            class="filter-tag"
+            :class="{ active: selectedCategory === cat }"
+            @click="selectedCategory = cat"
+          >
+            {{ cat }}
+          </button>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="action-row">
+          <button class="action-btn" @click="isModalOpen = true">
+            + SUBMIT PROMPT
+          </button>
+          <button 
+            v-if="pendingPrompts.length > 0"
+            class="action-btn secondary"
+            :class="{ active: showPending }"
+            @click="showPending = !showPending"
+          >
+            PENDING ({{ pendingPrompts.length }})
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pending Section -->
+    <div v-if="showPending && filteredPending.length > 0" class="pending-container">
+      <h3 class="section-title">PENDING REVIEW</h3>
+      <div class="grid-container">
+        <div 
+          v-for="prompt in filteredPending" 
+          :key="prompt.created_at"
+          class="prompt-item pending"
         >
-          <span>🕐</span>
-          <span>Pending ({{ pendingPrompts.length }})</span>
-        </button>
-      </div>
-    </aside>
-
-    <!-- Main Content -->
-    <main class="main-content">
-      <!-- Header -->
-      <header class="content-header">
-        <div class="search-container">
-          <input 
-            v-model="searchQuery" 
-            type="text" 
-            placeholder="Search prompts..." 
-            class="search-input"
-          />
-        </div>
-        <button class="submit-btn" @click="isModalOpen = true">
-          <span>+</span> Submit Prompt
-        </button>
-      </header>
-
-      <!-- Pending Submissions Section -->
-      <section v-if="showPending && filteredPending.length > 0" class="pending-section">
-        <h3 class="section-title">
-          <span class="pending-badge">Pending Review</span>
-        </h3>
-        <div class="masonry-grid">
-          <div 
-            v-for="prompt in filteredPending" 
-            :key="prompt.created_at"
-            class="prompt-card pending"
-          >
-            <div class="card-header">
-              <span class="cat-badge">{{ prompt.category }}</span>
-            </div>
-            <div class="card-body">
-              <h4 class="prompt-title">{{ prompt.title }}</h4>
-              <p class="prompt-preview">{{ prompt.content }}</p>
-            </div>
-            <div class="card-footer">
-               <span class="status-text">Pending</span>
-            </div>
+          <div class="item-header">
+            <span class="meta-cat">{{ prompt.category }}</span>
+            <span class="status-badge">PENDING</span>
+          </div>
+          <div class="item-body">
+            <h3 class="item-title">{{ prompt.title }}</h3>
+            <p class="item-summary">{{ prompt.content }}</p>
           </div>
         </div>
-      </section>
-
-      <!-- Loading State -->
-      <div v-if="loading" class="loading-state">
-        <div class="spinner"></div>
-        <p>Loading Prompts...</p>
       </div>
+    </div>
 
-      <!-- Prompts Grid -->
-      <section v-else class="prompts-section">
-        <div class="masonry-grid">
-          <div 
-            v-for="prompt in filteredPrompts" 
-            :key="prompt.id" 
-            class="prompt-card"
-          >
-            <div class="card-header">
-              <span class="cat-badge">{{ prompt.category }}</span>
-              <div class="card-actions">
-                 <button class="icon-btn" @click="copyToClipboard(prompt.content)" title="Copy Prompt">
-                   📋
-                 </button>
-              </div>
-            </div>
-            
-            <div class="card-body">
-              <h4 class="prompt-title">{{ prompt.title }}</h4>
-              <div class="prompt-content-wrapper">
-                <p class="prompt-preview">{{ prompt.content }}</p>
-                <div class="fade-overlay"></div>
-              </div>
-            </div>
+    <div v-if="loading" class="status-msg">LOADING PROMPTS...</div>
+    
+    <div v-else-if="filteredPrompts.length === 0" class="status-msg">NO MATCHING PROMPTS FOUND</div>
 
-            <div class="card-footer">
-              <div class="prompt-tags">
-                <span v-for="tag in prompt.tags?.slice(0, 3)" :key="tag" class="tag">#{{ tag }}</span>
-              </div>
-              <button class="copy-btn" @click="copyToClipboard(prompt.content)">
-                Copy
-              </button>
-            </div>
+    <!-- Main Grid -->
+    <div v-else class="grid-container">
+      <div 
+        v-for="prompt in filteredPrompts" 
+        :key="prompt.id" 
+        class="prompt-item"
+      >
+        <div class="item-header">
+          <span class="meta-cat">{{ prompt.category }}</span>
+          <button class="copy-icon" @click="copyToClipboard(prompt.content)" title="Copy">
+            📋
+          </button>
+        </div>
+        
+        <div class="item-body">
+          <h3 class="item-title">{{ prompt.title }}</h3>
+          <p class="item-summary">{{ prompt.content }}</p>
+        </div>
+
+        <div class="item-footer">
+          <div class="meta-tags">
+            <span v-for="tag in prompt.tags?.slice(0, 3)" :key="tag" class="meta-tag">#{{ tag }}</span>
           </div>
+          <button class="copy-btn" @click="copyToClipboard(prompt.content)">
+            COPY
+          </button>
         </div>
-
-        <div v-if="filteredPrompts.length === 0 && !loading" class="no-results">
-          <p>No prompts found matching your criteria.</p>
-        </div>
-      </section>
-    </main>
+      </div>
+    </div>
 
     <!-- Submission Modal -->
     <SubmitPromptModal 
@@ -225,361 +198,274 @@ const filteredPending = computed(() => {
 </template>
 
 <style scoped>
-.prompts-page {
-  display: flex;
-  min-height: calc(100vh - 64px);
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
-}
-
-/* Sidebar (Reused from AI Tools, could be extracted) */
-.sidebar {
-  width: 240px;
-  padding: 24px 16px;
-  border-right: 1px solid var(--vp-c-divider);
-  position: sticky;
-  top: 64px;
-  height: calc(100vh - 64px);
-  overflow-y: auto;
-  background: var(--vp-c-bg);
-}
-
-.sidebar-header h2 {
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  color: var(--vp-c-text-3);
-  margin: 0 0 16px 12px;
-}
-
-.category-nav {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.cat-item {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 10px 12px;
-  border: none;
-  background: transparent;
-  border-radius: 8px;
-  cursor: pointer;
-  color: var(--vp-c-text-2);
-  font-size: 14px;
-  font-weight: 500;
-  transition: all 0.15s ease;
-  text-align: left;
-}
-
-.cat-item:hover {
-  background: var(--vp-c-bg-soft);
+/* --- Swiss Style Variables (Matching NewsGallery) --- */
+.swiss-gallery {
+  padding: 40px 0;
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: var(--vp-c-text-1);
 }
 
-.cat-item.active {
-  background: var(--vp-c-brand-soft);
-  color: var(--vp-c-brand);
-}
-
-.cat-icon {
-  font-size: 18px;
-}
-
-.pending-toggle {
-  margin-top: 24px;
-  padding-top: 24px;
-  border-top: 1px solid var(--vp-c-divider);
-}
-
-.pending-btn {
+/* --- Control Bar --- */
+.control-bar {
+  margin: 80px 0 50px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 8px;
-  width: 100%;
-  padding: 10px 12px;
-  border: 1px dashed var(--vp-c-divider);
-  background: transparent;
-  border-radius: 8px;
-  cursor: pointer;
-  color: var(--vp-c-text-2);
-  font-size: 13px;
-  transition: all 0.15s ease;
-}
-
-.pending-btn:hover,
-.pending-btn.active {
-  border-color: var(--vp-c-brand);
-  color: var(--vp-c-brand);
-  background: var(--vp-c-brand-soft);
-}
-
-/* Main Content */
-.main-content {
-  flex: 1;
-  padding: 24px 32px;
-  max-width: calc(100% - 240px);
-}
-
-.content-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 32px;
-  gap: 16px;
+  gap: 32px;
 }
 
 .search-container {
-  flex: 1;
-  max-width: 480px;
+  position: relative;
+  width: 100%;
+  max-width: 640px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  opacity: 0.4;
 }
 
 .search-input {
   width: 100%;
-  padding: 12px 16px;
-  font-size: 14px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 12px;
-  background: var(--vp-c-bg-soft);
+  padding: 18px 18px 18px 54px;
+  font-family: monospace;
+  font-size: 16px;
+  border: 2px solid var(--vp-c-text-1);
+  background: var(--vp-c-bg);
   color: var(--vp-c-text-1);
-  transition: all 0.2s ease;
+  outline: none;
+  transition: all 0.2s;
+  border-radius: 0;
 }
 
 .search-input:focus {
-  outline: none;
-  border-color: var(--vp-c-brand);
-  box-shadow: 0 0 0 3px var(--vp-c-brand-soft);
+  box-shadow: 4px 4px 0 var(--vp-c-brand);
+  transform: translateY(-2px);
 }
 
-.submit-btn {
+.filter-row {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 6px;
-  padding: 12px 20px;
-  font-size: 14px;
-  font-weight: 600;
-  color: white;
-  background: var(--vp-c-brand);
-  border: none;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  white-space: nowrap;
+  gap: 24px;
+  width: 100%;
 }
 
-.submit-btn:hover {
-  background: var(--vp-c-brand-dark);
+.filter-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.filter-tag {
+  font-family: monospace;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 6px 12px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--vp-c-text-2);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.filter-tag:hover {
+  color: var(--vp-c-text-1);
+  text-decoration: underline;
+}
+
+.filter-tag.active {
+  background: var(--vp-c-text-1);
+  color: var(--vp-c-bg);
+  border-color: var(--vp-c-text-1);
+  font-weight: 700;
+}
+
+.action-row {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.action-btn {
+  font-family: monospace;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px 16px;
+  background: var(--vp-c-brand);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.action-btn:hover {
+  opacity: 0.9;
   transform: translateY(-1px);
 }
 
-/* Masonry Grid */
-.masonry-grid {
-  column-count: 3;
-  column-gap: 20px;
+.action-btn.secondary {
+  background: transparent;
+  border: 1px solid var(--vp-c-divider);
+  color: var(--vp-c-text-2);
 }
 
-.prompt-card {
-  background: var(--vp-c-bg);
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 16px;
-  padding: 20px;
-  margin-bottom: 20px;
-  break-inside: avoid;
+.action-btn.secondary:hover,
+.action-btn.secondary.active {
+  border-color: var(--vp-c-brand);
+  color: var(--vp-c-brand);
+}
+
+.status-msg {
+  font-family: monospace;
+  text-align: center;
+  padding: 40px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border: 1px dashed var(--vp-c-divider);
+}
+
+.section-title {
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 40px 0 20px;
+  text-align: center;
+  color: var(--vp-c-text-2);
+}
+
+/* --- Grid System --- */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  border-top: 1px solid var(--vp-c-divider);
+  border-left: 1px solid var(--vp-c-divider);
+}
+
+.prompt-item {
+  border-right: 1px solid var(--vp-c-divider);
+  border-bottom: 1px solid var(--vp-c-divider);
+  padding: 32px;
   display: flex;
   flex-direction: column;
-  transition: all 0.2s ease;
+  justify-content: space-between;
+  height: 320px;
+  transition: background-color 0.2s ease;
+  background: var(--vp-c-bg);
 }
 
-.prompt-card:hover {
-  border-color: var(--vp-c-brand);
-  transform: translateY(-4px);
-  box-shadow: 0 12px 32px -8px rgba(0, 0, 0, 0.1);
+.prompt-item:hover {
+  background-color: var(--vp-c-bg-soft);
 }
 
-.prompt-card.pending {
+.prompt-item.pending {
   border-style: dashed;
   opacity: 0.8;
 }
 
-.card-header {
+.item-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 12px;
-}
-
-.cat-badge {
-  font-size: 10px;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding: 4px 8px;
-  background: var(--vp-c-bg-soft);
-  border-radius: 6px;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  font-size: 12px;
+  font-family: monospace;
   color: var(--vp-c-text-2);
+  letter-spacing: 0.05em;
 }
 
-.icon-btn {
+.meta-cat {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--vp-c-brand);
+}
+
+.copy-icon {
   background: none;
   border: none;
   cursor: pointer;
-  font-size: 14px;
   opacity: 0.5;
   transition: opacity 0.2s;
 }
 
-.icon-btn:hover {
+.copy-icon:hover {
   opacity: 1;
 }
 
-.card-body {
-  margin-bottom: 16px;
-}
-
-.prompt-title {
-  margin: 0 0 8px 0;
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--vp-c-text-1);
-  line-height: 1.4;
-}
-
-.prompt-content-wrapper {
-  position: relative;
-  max-height: 120px;
+.item-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0 0 16px 0;
+  letter-spacing: -0.02em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
-.prompt-preview {
-  margin: 0;
-  font-size: 13px;
+.item-summary {
+  font-size: 14px;
   line-height: 1.6;
   color: var(--vp-c-text-2);
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
   font-family: monospace;
   white-space: pre-wrap;
 }
 
-.fade-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 40px;
-  background: linear-gradient(to bottom, transparent, var(--vp-c-bg));
-}
-
-.card-footer {
+.item-footer {
+  margin-top: 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 12px;
-  border-top: 1px solid var(--vp-c-divider);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
 }
 
-.prompt-tags {
+.meta-tags {
   display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
+  gap: 8px;
 }
 
-.tag {
-  font-size: 10px;
+.meta-tag {
   color: var(--vp-c-text-3);
 }
 
 .copy-btn {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--vp-c-brand);
   background: transparent;
   border: none;
   cursor: pointer;
-  padding: 4px 8px;
-  border-radius: 4px;
-  transition: background 0.2s;
+  color: var(--vp-c-text-1);
+  font-weight: 700;
+  font-family: monospace;
+  transition: color 0.2s;
 }
 
 .copy-btn:hover {
-  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand);
+  text-decoration: underline;
 }
 
-/* Loading & Empty States */
-.loading-state {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 80px 0;
-  color: var(--vp-c-text-2);
-}
-
-.spinner {
-  width: 40px;
-  height: 40px;
-  border: 3px solid var(--vp-c-divider);
-  border-top-color: var(--vp-c-brand);
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-  margin-bottom: 16px;
-}
-
-@keyframes spin {
-  to { transform: rotate(360deg); }
-}
-
-.no-results {
-  text-align: center;
-  padding: 60px 0;
-  color: var(--vp-c-text-3);
-}
-
-/* Responsive */
-@media (max-width: 1024px) {
-  .masonry-grid {
-    column-count: 2;
-  }
-}
-
+/* Mobile Responsiveness */
 @media (max-width: 768px) {
-  .prompts-page {
-    flex-direction: column;
-  }
-  
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: static;
+  .grid-container {
+    border-left: none;
     border-right: none;
-    border-bottom: 1px solid var(--vp-c-divider);
-    padding: 16px;
   }
   
-  .category-nav {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-  
-  .cat-item {
-    padding: 8px 12px;
-  }
-  
-  .cat-name {
-    display: none;
-  }
-  
-  .cat-icon {
-    font-size: 20px;
-  }
-  
-  .main-content {
-    max-width: 100%;
-    padding: 16px;
-  }
-  
-  .masonry-grid {
-    column-count: 1;
+  .prompt-item {
+    border-right: none;
+    height: auto;
+    min-height: 280px;
   }
 }
 </style>

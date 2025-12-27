@@ -1,6 +1,7 @@
 ---
 layout: page
 title: AI Prompts
+sidebar: false
 ---
 
 <script setup>
