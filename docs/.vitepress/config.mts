@@ -1,10 +1,17 @@
 import { defineConfig } from 'vitepress'
+import path from 'path'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/ViteMind/",
   title: "ViteMind",
   description: "极速构建你的第二大脑",
+
+  // Load .env files from project root (parent of docs folder)
+  vite: {
+    envDir: path.resolve(__dirname, '../../')
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

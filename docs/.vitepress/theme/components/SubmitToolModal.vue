@@ -9,10 +9,18 @@ const props = defineProps({
 
 const emit = defineEmits(['close', 'submit'])
 
-// Supabase Client
+// Supabase Client (lazy initialization for SSR compatibility)
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
 const supabaseKey = import.meta.env.VITE_SUPABASE_KEY
-const supabase = createClient(supabaseUrl, supabaseKey)
+let supabase = null
+
+// Get or create Supabase client
+const getSupabase = () => {
+  if (!supabase && typeof window !== 'undefined' && supabaseUrl && supabaseKey) {
+    supabase = createClient(supabaseUrl, supabaseKey)
+  }
+  return supabase
+}
 
 // Form State
 const form = ref({
@@ -32,11 +40,17 @@ const submitTool = async () => {
     return
   }
 
+  const client = getSupabase()
+  if (!client) {
+    message.value = 'DATABASE CONNECTION NOT AVAILABLE.'
+    return
+  }
+
   loading.value = true
   message.value = ''
 
   try {
-    const { error } = await supabase
+    const { error } = await client
       .from('ai_tools')
       .insert([
         {

@@ -3,10 +3,10 @@ import { ref, computed, onMounted } from 'vue'
 import { createClient } from '@supabase/supabase-js'
 import SubmitToolModal from './SubmitToolModal.vue'
 
-// Supabase Client
+// Supabase Client (lazy initialization for SSR compatibility)
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
 const supabaseKey = import.meta.env.VITE_SUPABASE_KEY
-const supabase = createClient(supabaseUrl, supabaseKey)
+let supabase = null
 
 const tools = ref([])
 const pendingTools = ref([])
@@ -16,6 +16,27 @@ const selectedCategory = ref('ALL')
 const searchQuery = ref('')
 const isModalOpen = ref(false)
 const showPending = ref(false)
+const showBackToTop = ref(false)
+const sortBy = ref('default') // 'default' | 'name-asc' | 'name-desc'
+
+// Scroll event handler for back to top button
+const handleScroll = () => {
+  if (typeof window !== 'undefined') {
+    showBackToTop.value = window.scrollY > 300
+  }
+}
+
+// Scroll to top function
+const scrollToTop = () => {
+  if (typeof window !== 'undefined') {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+}
+
+// Clear search
+const clearSearch = () => {
+  searchQuery.value = ''
+}
 
 // Get favicon URL from website link
 const getFavicon = (url) => {
@@ -49,6 +70,25 @@ const handleSubmission = (tool) => {
 onMounted(async () => {
   loadPendingSubmissions()
   
+  // Only run client-side code
+  if (typeof window === 'undefined') {
+    loading.value = false
+    return
+  }
+  
+  window.addEventListener('scroll', handleScroll)
+  
+  // Initialize Supabase client on client side
+  if (supabaseUrl && supabaseKey) {
+    supabase = createClient(supabaseUrl, supabaseKey)
+  }
+  
+  // Only fetch if supabase is initialized
+  if (!supabase) {
+    loading.value = false
+    return
+  }
+  
   try {
     loading.value = true
     const { data, error } = await supabase
@@ -56,7 +96,7 @@ onMounted(async () => {
       .select('*')
       .eq('approved', true)
       .order('submitted_at', { ascending: false })
-
+    
     if (error) throw error
 
     if (data) {
@@ -76,12 +116,23 @@ onMounted(async () => {
 })
 
 const filteredTools = computed(() => {
-  return tools.value.filter(t => {
+  const query = searchQuery.value.toLowerCase().trim()
+  let result = tools.value.filter(t => {
     const matchesCat = selectedCategory.value === 'ALL' || t.category === selectedCategory.value
-    const matchesSearch = t.name.toLowerCase().includes(searchQuery.value.toLowerCase()) || 
-                          t.desc.toLowerCase().includes(searchQuery.value.toLowerCase())
+    const matchesSearch = !query || 
+                          t.name?.toLowerCase().includes(query) || 
+                          t.desc?.toLowerCase().includes(query)
     return matchesCat && matchesSearch
   })
+  
+  // Apply sorting
+  if (sortBy.value === 'name-asc') {
+    result = [...result].sort((a, b) => a.name.localeCompare(b.name))
+  } else if (sortBy.value === 'name-desc') {
+    result = [...result].sort((a, b) => b.name.localeCompare(a.name))
+  }
+  
+  return result
 })
 
 const filteredPending = computed(() => {
@@ -133,17 +184,33 @@ const filteredPending = computed(() => {
     <main class="main-content">
       <!-- Header -->
       <header class="content-header">
-        <div class="search-container">
-          <input 
-            v-model="searchQuery" 
-            type="text" 
-            placeholder="Search AI tools..." 
-            class="search-input"
-          />
+        <div class="search-wrapper">
+          <div class="search-container">
+            <span class="search-icon">🔍</span>
+            <input 
+              v-model="searchQuery" 
+              type="text" 
+              placeholder="Search AI tools..." 
+              class="search-input"
+            />
+            <button 
+              v-if="searchQuery" 
+              class="clear-btn" 
+              @click="clearSearch"
+            >✕</button>
+          </div>
+          <span class="tools-count">找到 {{ filteredTools.length }} 个工具</span>
         </div>
-        <button class="submit-btn" @click="isModalOpen = true">
-          <span>+</span> Submit Tool
-        </button>
+        <div class="header-actions">
+          <select v-model="sortBy" class="sort-select">
+            <option value="default">默认排序</option>
+            <option value="name-asc">名称 A-Z</option>
+            <option value="name-desc">名称 Z-A</option>
+          </select>
+          <button class="submit-btn" @click="isModalOpen = true">
+            <span>+</span> Submit Tool
+          </button>
+        </div>
       </header>
 
       <!-- Pending Submissions Section -->
@@ -228,6 +295,18 @@ const filteredPending = computed(() => {
       @close="isModalOpen = false"
       @submit="handleSubmission"
     />
+
+    <!-- Back to Top Button -->
+    <Transition name="fade">
+      <button 
+        v-if="showBackToTop" 
+        class="back-to-top" 
+        @click="scrollToTop"
+        aria-label="回到顶部"
+      >
+        ↑
+      </button>
+    </Transition>
   </div>
 </template>
 
@@ -338,26 +417,83 @@ const filteredPending = computed(() => {
   gap: 16px;
 }
 
-.search-container {
-  flex: 1;
-  max-width: 480px;
+.search-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.search-input {
-  width: 100%;
-  padding: 12px 16px;
-  font-size: 14px;
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  max-width: 480px;
+  padding: 0 16px;
   border: 1px solid var(--vp-c-divider);
   border-radius: 12px;
   background: var(--vp-c-bg-soft);
-  color: var(--vp-c-text-1);
   transition: all 0.2s ease;
 }
 
-.search-input:focus {
-  outline: none;
+.search-container:focus-within {
   border-color: var(--vp-c-brand);
   box-shadow: 0 0 0 3px var(--vp-c-brand-soft);
+}
+
+.search-icon {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.tools-count {
+  font-size: 12px;
+  color: var(--vp-c-text-3);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sort-select {
+  padding: 10px 16px;
+  font-size: 14px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sort-select:hover {
+  border-color: var(--vp-c-brand);
+}
+
+.clear-btn {
+  padding: 4px 8px;
+  font-size: 12px;
+  background: transparent;
+  border: none;
+  color: var(--vp-c-text-3);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.clear-btn:hover {
+  color: var(--vp-c-brand);
+}
+
+.search-input {
+  flex: 1;
+  padding: 12px 0;
+  font-size: 14px;
+  border: none;
+  background: transparent;
+  color: var(--vp-c-text-1);
+  outline: none;
 }
 
 .search-input::placeholder {
@@ -413,22 +549,52 @@ const filteredPending = computed(() => {
 }
 
 .tool-card {
-  background: var(--vp-c-bg);
+  background: linear-gradient(135deg, var(--vp-c-bg) 0%, var(--vp-c-bg-soft) 100%);
   border: 1px solid var(--vp-c-divider);
   border-radius: 16px;
   padding: 20px;
   text-decoration: none;
   color: var(--vp-c-text-1);
-  transition: all 0.2s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   flex-direction: column;
   min-height: 180px;
+  position: relative;
+  overflow: hidden;
+  animation: fadeInUp 0.4s ease forwards;
+}
+
+.tool-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(139,92,246,0.08), transparent);
+  transition: left 0.6s ease;
+  pointer-events: none;
+}
+
+.tool-card:hover::before {
+  left: 100%;
 }
 
 .tool-card:hover {
   border-color: var(--vp-c-brand);
-  transform: translateY(-4px);
-  box-shadow: 0 12px 32px -8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 20px 40px -12px rgba(139, 92, 246, 0.25);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .tool-card.pending {
@@ -482,6 +648,7 @@ const filteredPending = computed(() => {
   color: var(--vp-c-text-2);
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -600,5 +767,49 @@ const filteredPending = computed(() => {
   .tools-grid {
     grid-template-columns: 1fr;
   }
+
+  .header-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .sort-select {
+    width: 100%;
+  }
+}
+
+/* Back to Top Button */
+.back-to-top {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--vp-c-brand), var(--vp-c-brand-dark));
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(139, 92, 246, 0.4);
+  transition: all 0.3s ease;
+  z-index: 100;
+}
+
+.back-to-top:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(139, 92, 246, 0.5);
+}
+
+/* Fade Transition */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
