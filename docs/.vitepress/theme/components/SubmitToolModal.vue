@@ -7,7 +7,7 @@ const props = defineProps({
   categories: Array
 })
 
-const emit = defineEmits(['close'])
+const emit = defineEmits(['close', 'submit'])
 
 // Supabase Client
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
@@ -52,6 +52,15 @@ const submitTool = async () => {
 
     isSuccess.value = true
     message.value = 'SUBMISSION SUCCESSFUL. PENDING APPROVAL.'
+    
+    // Emit the submission for localStorage
+    emit('submit', {
+      name: form.value.name,
+      link: form.value.link,
+      description: form.value.desc,
+      category: form.value.category,
+      submittedAt: new Date().toISOString()
+    })
     
     // Reset form
     form.value = { name: '', link: '', desc: '', category: 'Coding' }
