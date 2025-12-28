@@ -44,7 +44,8 @@ export default defineConfig({
           { text: '3. 定制化开发', link: '/guide/tutorial/3-customization' },
           { text: '4. 私域流量', link: '/guide/tutorial/4-newsletter' },
           { text: '5. 巨人肩膀', link: '/guide/tutorial/5-resources' },
-          { text: '6. 进阶功能', link: '/guide/tutorial/6-advanced-features' }
+          { text: '6. 进阶功能', link: '/guide/tutorial/6-advanced-features' },
+          { text: '7. 管理后台', link: '/guide/tutorial/7-admin-dashboard' }
         ]
       },
       {

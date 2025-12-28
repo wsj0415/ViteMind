@@ -27,6 +27,12 @@ aside: true
 
 ## 📝 更新日志 (Changelog)
 
+### v1.3.0 (2025-12-29)
+- ✨ **新增**: 全栈管理后台 (Admin Dashboard)，支持数据审核与管理
+- 🔒 **安全**: 集成 Supabase Auth 和 RLS 策略，确保数据安全
+- 📚 **文档**: 新增 [构建全栈管理后台](/guide/tutorial/7-admin-dashboard) 技术教程
+- 🐛 **修复**: 解决 GitHub Pages 子路径部署导致的 404 问题
+
 ### v1.2.0 (2025-12-29)
 - ✨ **新增**: 前端设计资源导航页面 (`/design-resources`)
 - 🎨 **优化**: 重新设计资源展示布局，支持左侧分类导航
