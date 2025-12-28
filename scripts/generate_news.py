@@ -133,7 +133,7 @@ def summarize_with_ai(articles):
     }
 
     import time
-    max_retries = 3
+    max_retries = 5
     for attempt in range(max_retries):
         try:
             response = requests.post(OPENROUTER_URL, headers=headers, json=data)
@@ -146,8 +146,9 @@ def summarize_with_ai(articles):
             return json.loads(content)
         except requests.exceptions.HTTPError as e:
             if e.response.status_code == 429:
-                print(f"Rate limit hit (429), retrying in {2 ** attempt} seconds...")
-                time.sleep(2 ** attempt)
+                wait_time = 5 * (2 ** attempt) # 5s, 10s, 20s, 40s, 80s
+                print(f"Rate limit hit (429), retrying in {wait_time} seconds...")
+                time.sleep(wait_time)
             else:
                 print(f"AI Generation Error: {e}")
                 return []
