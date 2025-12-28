@@ -232,8 +232,11 @@ def save_to_supabase(new_items):
         if not data_to_upsert:
             return
 
-        # 执行 Upsert
-        response = supabase.table("news").upsert(data_to_upsert).execute()
+        # 执行 Upsert (如果 link 重复则更新)
+        response = supabase.table("news").upsert(
+            data_to_upsert,
+            on_conflict="link"  # 使用 link 作为冲突键
+        ).execute()
         print(f"Successfully uploaded {len(data_to_upsert)} items to Supabase.")
         
     except Exception as e:
