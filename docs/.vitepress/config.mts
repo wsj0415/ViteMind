@@ -6,6 +6,7 @@ export default defineConfig({
   base: "/ViteMind/",
   title: "ViteMind",
   description: "UNCOVER THE FUTURE OF AI",
+  cleanUrls: true,
 
   // Load .env files from project root (parent of docs folder)
   vite: {

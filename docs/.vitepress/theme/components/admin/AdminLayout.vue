@@ -1,6 +1,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import { createClient } from '@supabase/supabase-js'
+import { useRoute } from 'vitepress'
 
 const props = defineProps({
     title: String
@@ -9,17 +10,28 @@ const props = defineProps({
 const supabaseUrl = import.meta.env.SUPABASE_URL
 const supabaseKey = import.meta.env.SUPABASE_KEY
 const supabase = createClient(supabaseUrl, supabaseKey)
+const route = useRoute()
 
 const user = ref(null)
 const loading = ref(true)
 const isSidebarOpen = ref(true)
 
+const baseUrl = import.meta.env.BASE_URL
+// Ensure we handle base url correctly. 
+// If base is '/', we want '/admin/index'.
+// If base is '/ViteMind/', we want '/ViteMind/admin/index'.
+const getLink = (path) => {
+    // Remove leading slash from path to avoid double slashes if base ends with slash
+    const cleanPath = path.startsWith('/') ? path.slice(1) : path
+    return (baseUrl + cleanPath).replace('//', '/')
+}
+
 const menuItems = [
-    { text: '仪表盘', link: '/admin/index', icon: '📊' },
-    { text: 'AI 工具', link: '/admin/tools', icon: '🛠' },
-    { text: '设计资源', link: '/admin/resources', icon: '🎨' },
-    { text: 'AI 提示词', link: '/admin/prompts', icon: '💡' },
-    { text: '每日新闻', link: '/admin/news', icon: '📰' }
+    { text: '仪表盘', link: getLink('admin/index'), icon: '📊' },
+    { text: 'AI 工具', link: getLink('admin/tools'), icon: '🛠' },
+    { text: '设计资源', link: getLink('admin/resources'), icon: '🎨' },
+    { text: 'AI 提示词', link: getLink('admin/prompts'), icon: '💡' },
+    { text: '每日新闻', link: getLink('admin/news'), icon: '📰' }
 ]
 
 onMounted(async () => {
@@ -28,7 +40,7 @@ onMounted(async () => {
 
     if (!session) {
         // Redirect to login if not authenticated
-        window.location.href = '/admin/login'
+        window.location.href = getLink('admin/login')
         return
     }
 
@@ -38,7 +50,7 @@ onMounted(async () => {
 
 const handleLogout = async () => {
     await supabase.auth.signOut()
-    window.location.href = '/admin/login'
+    window.location.href = getLink('admin/login')
 }
 </script>
 
@@ -57,7 +69,7 @@ const handleLogout = async () => {
 
             <nav class="sidebar-nav">
                 <a v-for="item in menuItems" :key="item.link" :href="item.link" class="nav-item"
-                    :class="{ active: $frontmatter.path === item.link }">
+                    :class="{ active: route.path === item.link || route.path === item.link + '.html' }">
                     <span class="nav-icon">{{ item.icon }}</span>
                     <span class="nav-text" v-if="isSidebarOpen">{{ item.text }}</span>
                 </a>

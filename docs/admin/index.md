@@ -4,6 +4,10 @@ title: 仪表盘
 sidebar: false
 ---
 
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+
 <AdminLayout title="仪表盘">
   <div class="dashboard-welcome">
     <h2>欢迎回来，管理员 👋</h2>
@@ -13,17 +17,17 @@ sidebar: false
       <div class="stat-card">
         <h3>AI 工具</h3>
         <p>管理 AI 导航列表</p>
-        <a href="/admin/tools">去管理 →</a>
+        <a :href="withBase('/admin/tools')">去管理 →</a>
       </div>
       <div class="stat-card">
         <h3>设计资源</h3>
         <p>管理设计资源列表</p>
-        <a href="/admin/resources">去管理 →</a>
+        <a :href="withBase('/admin/resources')">去管理 →</a>
       </div>
       <div class="stat-card">
         <h3>AI 提示词</h3>
         <p>管理提示词库</p>
-        <a href="/admin/prompts">去管理 →</a>
+        <a :href="withBase('/admin/prompts')">去管理 →</a>
       </div>
     </div>
   </div>

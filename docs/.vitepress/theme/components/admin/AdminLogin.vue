@@ -33,7 +33,16 @@ const handleLogin = async () => {
         // Login successful
         // VitePress router doesn't support full page reload, but we might need it to refresh auth state
         // For now, just redirect to dashboard
-        window.location.href = '/admin/index'
+        // Use import.meta.env.BASE_URL to handle subpath deployment (e.g. /ViteMind/)
+        const baseUrl = import.meta.env.BASE_URL
+        // Remove trailing slash from base url if present to avoid double slashes, 
+        // but typically BASE_URL ends with slash. 
+        // Let's just concatenate carefully.
+        // If BASE_URL is '/', then '/admin/index' is fine.
+        // If BASE_URL is '/ViteMind/', then we need 'admin/index'.
+        // Actually, simpler to just use withBase logic:
+        const target = baseUrl + 'admin/index'
+        window.location.href = target.replace('//', '/') // simple cleanup just in case
     } catch (e) {
         console.error('Login error:', e)
         errorMsg.value = '登录失败: ' + e.message
