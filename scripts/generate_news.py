@@ -95,6 +95,9 @@ def summarize_with_ai(articles):
     if not articles:
         return []
 
+    # Limit to top 5 articles to avoid token limits/timeouts
+    articles = articles[:5]
+
     # 构建 Prompt
     news_text = "\n".join([f"- [{a['title']}]({a['link']}): {a['summary']}" for a in articles])
     prompt = f"""
@@ -129,18 +132,31 @@ def summarize_with_ai(articles):
         "messages": [{"role": "user", "content": prompt}]
     }
 
-    try:
-        response = requests.post(OPENROUTER_URL, headers=headers, json=data)
-        response.raise_for_status()
-        content = response.json()['choices'][0]['message']['content']
-        
-        # 清理可能存在的 Markdown 代码块标记
-        content = content.replace("```json", "").replace("```", "").strip()
-        
-        return json.loads(content)
-    except Exception as e:
-        print(f"AI Generation Error: {e}")
-        return []
+    import time
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            response = requests.post(OPENROUTER_URL, headers=headers, json=data)
+            response.raise_for_status()
+            content = response.json()['choices'][0]['message']['content']
+            
+            # 清理可能存在的 Markdown 代码块标记
+            content = content.replace("```json", "").replace("```", "").strip()
+            
+            return json.loads(content)
+        except requests.exceptions.HTTPError as e:
+            if e.response.status_code == 429:
+                print(f"Rate limit hit (429), retrying in {2 ** attempt} seconds...")
+                time.sleep(2 ** attempt)
+            else:
+                print(f"AI Generation Error: {e}")
+                return []
+        except Exception as e:
+            print(f"AI Generation Error: {e}")
+            return []
+    
+    print("Max retries exceeded.")
+    return []
 
 def save_to_json(new_items):
     if not new_items:
