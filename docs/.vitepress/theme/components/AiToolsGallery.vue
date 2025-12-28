@@ -4,8 +4,8 @@ import { createClient } from '@supabase/supabase-js'
 import SubmitToolModal from './SubmitToolModal.vue'
 
 // Supabase Client (lazy initialization for SSR compatibility)
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
-const supabaseKey = import.meta.env.VITE_SUPABASE_KEY
+const supabaseUrl = import.meta.env.SUPABASE_URL
+const supabaseKey = import.meta.env.SUPABASE_KEY
 let supabase = null
 
 const tools = ref([])

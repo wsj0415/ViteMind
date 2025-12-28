@@ -10,8 +10,8 @@ const props = defineProps({
 const emit = defineEmits(['close', 'submit'])
 
 // Supabase Client (lazy initialization for SSR compatibility)
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
-const supabaseKey = import.meta.env.VITE_SUPABASE_KEY
+const supabaseUrl = import.meta.env.SUPABASE_URL
+const supabaseKey = import.meta.env.SUPABASE_KEY
 let supabase = null
 
 // Get or create Supabase client

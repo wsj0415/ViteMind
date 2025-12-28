@@ -45,8 +45,8 @@ jobs:
 
       - name: Build with VitePress
         env:
-          VITE_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          VITE_SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: npm run docs:build
 
       - name: Upload artifact
