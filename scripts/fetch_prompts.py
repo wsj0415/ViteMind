@@ -3,6 +3,11 @@ import json
 import os
 from datetime import datetime
 import random
+try:
+    from dotenv import load_dotenv
+    load_dotenv('.env.local')
+except ImportError:
+    pass
 
 # Configuration
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
@@ -29,9 +34,6 @@ def generate_prompts_with_ai():
     - content: (string) The actual prompt text.
     - tags: (array of strings) 2-3 relevant tags.
     
-    Do not include markdown formatting. Just the JSON array.
-    """
-
     Do not include markdown formatting. Just the JSON array.
     """
 
