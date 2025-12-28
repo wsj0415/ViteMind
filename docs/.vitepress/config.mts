@@ -22,6 +22,7 @@ export default defineConfig({
       { text: 'AI 提示词', link: '/ai-prompts' },
       { text: '设计资源', link: '/design-resources' },
       { text: '指南', link: '/guide/getting-started' },
+      { text: '更新日志', link: '/changelog' },
       { text: '付费专栏', link: '/paid/index' },
       { text: '订阅', link: '/newsletter' }
     ],
