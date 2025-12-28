@@ -5,14 +5,18 @@ from datetime import datetime, timezone
 import feedparser
 try:
     from dotenv import load_dotenv
-    load_dotenv('.env.local')
+    loaded = load_dotenv('.env.local')
+    if loaded:
+        print("Loaded .env.local")
+    else:
+        print("Warning: .env.local not found or empty.")
 except ImportError:
-    pass
+    print("Warning: python-dotenv not installed. Install it with `pip install python-dotenv` to load .env.local")
 
 # 配置
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 OPENROUTER_URL = "https://api-inference.modelscope.cn/v1/chat/completions"
-MODEL_NAME = "MiniMax/MiniMax-M2.1"
+MODEL_NAME = "Qwen/Qwen2.5-Coder-32B-Instruct"
 
 # 数据源
 RSS_FEEDS = [
@@ -54,10 +58,10 @@ def fetch_rss_data():
                 elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
                     published_time = datetime(*entry.updated_parsed[:6], tzinfo=timezone.utc)
                 
-                # Filter: Only keep articles from the last 1 hour
+                # Filter: Only keep articles from the last 24 hours
                 if published_time:
                     time_diff = now - published_time
-                    if time_diff.total_seconds() > 3600: # 3600 seconds = 1 hour
+                    if time_diff.total_seconds() > 86400: # 86400 seconds = 24 hours
                         continue
                 else:
                     # If no time found, skip or keep? Let's skip to be safe for "hourly" updates
@@ -85,7 +89,8 @@ def fetch_rss_data():
                 articles.append({
                     "title": entry.title,
                     "link": entry.link,
-                    "summary": content 
+                    "summary": content,
+                    "date": published_time.strftime("%Y-%m-%d") if published_time else datetime.now().strftime("%Y-%m-%d")
                 })
         except Exception as e:
             print(f"Error fetching {feed_url}: {e}")
@@ -99,15 +104,20 @@ def summarize_with_ai(articles):
     articles = articles[:5]
 
     # 构建 Prompt
-    news_text = "\n".join([f"- [{a['title']}]({a['link']}): {a['summary']}" for a in articles])
+    news_text = "\n".join([f"- [{a['date']}] [{a['title']}]({a['link']}): {a['summary']}" for a in articles])
     prompt = f"""
-    你是专业的 AI 行业分析师。请阅读以下原始新闻列表，筛选出 8-12 条最有价值的内容。
+    你是专业的 AI 行业分析师。请阅读以下原始新闻列表，筛选并总结其中有价值的内容。
     
-    **筛选标准（必须覆盖以下类别）：**
-    1. 🚨 **大事件 (News)**: 24小时内的重大 AI 新闻 (OpenAI, Google 等)。
-    2. 🎁 **促销 (Deals)**: AI 产品的限时优惠、Lifetime Deal (如 AppSumo 上的 AI 工具)。
+    **重要原则：**
+    1. **真实性**：必须基于提供的原始新闻进行总结，**严禁编造**不存在的新闻或日期。
+    2. **数量**：如果提供的有效新闻较少，就只总结这些，**不要强行凑数**。
+    3. **日期**：请使用原始新闻中提供的日期。
+
+    **筛选标准（优先关注）：**
+    1. 🚨 **大事件 (News)**: 重大 AI 新闻 (OpenAI, Google 等)。
+    2. 🎁 **促销 (Deals)**: AI 产品的限时优惠、Lifetime Deal。
     3. 🛠️ **编程 (Dev)**: AI 开发教程、Hugging Face 论文、LLM 部署指南。
-    4. 🚀 **新产品 (New)**: Product Hunt 上的热门 AI 新品 (类似 TAAFT 时间轴)。
+    4. 🚀 **新产品 (New)**: Product Hunt 上的热门 AI 新品。
 
     请输出一个纯 JSON 数组（不要包含 Markdown 代码块标记 ```json ... ```），数组中每个对象包含以下字段：
     - title: (string) 中文标题，吸引人且专业。
@@ -115,7 +125,7 @@ def summarize_with_ai(articles):
     - detail: (string) 详细的中文深度解读（Markdown 格式），包含背景、核心技术点、行业影响等（300字左右）。
     - tags: (array of strings) 必须包含一个类别标签 ["News", "Deal", "Dev", "New"]，以及 1-2 个内容标签 (如 "LLM", "Python")。
     - link: (string) 原始链接。
-    - date: (string) 日期，格式 YYYY-MM-DD。
+    - date: (string) 日期，格式 YYYY-MM-DD (直接使用原始新闻的日期)。
 
     原始新闻：
     {news_text}
@@ -126,7 +136,7 @@ def summarize_with_ai(articles):
 
     client = OpenAI(
         api_key=OPENROUTER_API_KEY,
-        base_url="https://api-inference.modelscope.cn/v1"
+        base_url="https://api-inference.modelscope.cn/v1/"
     )
 
     max_retries = 5
