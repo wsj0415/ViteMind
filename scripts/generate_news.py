@@ -14,10 +14,10 @@ RSS_FEEDS = [
     "https://hnrss.org/newest?q=AI", # Hacker News AI
     "https://www.theverge.com/rss/artificial-intelligence/index.xml", # The Verge AI
     "https://techcrunch.com/category/artificial-intelligence/feed/", # TechCrunch AI
-    "https://huggingface.co/papers/rss", # Hugging Face Papers (Dev/Research)
+    "https://openai.com/news/rss.xml", # OpenAI News
+    "https://research.google/blog/rss", # Google Research
     "https://machinelearningmastery.com/blog/feed/", # ML Mastery (Dev/Tutorial)
     "https://www.producthunt.com/feed?topic=artificial-intelligence", # Product Hunt AI (New Tools)
-    "https://appsumo.com/feed/", # AppSumo (Deals - need filtering)
 ]
 
 def fetch_rss_data():
