@@ -3,11 +3,16 @@ import json
 import os
 from datetime import datetime, timezone
 import feedparser
+try:
+    from dotenv import load_dotenv
+    load_dotenv('.env.local')
+except ImportError:
+    pass
 
 # 配置
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
-OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL_NAME = "xiaomi/mimo-v2-flash:free" 
+OPENROUTER_URL = "https://api-inference.modelscope.cn/v1/chat/completions"
+MODEL_NAME = "MiniMax/MiniMax-M2.1" 
 
 # 数据源
 RSS_FEEDS = [

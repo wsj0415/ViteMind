@@ -10,8 +10,8 @@ const props = defineProps({
 const emit = defineEmits(['close', 'submit'])
 
 // Supabase Client
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
-const supabaseKey = import.meta.env.VITE_SUPABASE_KEY
+const supabaseUrl = import.meta.env.SUPABASE_URL
+const supabaseKey = import.meta.env.SUPABASE_KEY
 const supabase = createClient(supabaseUrl, supabaseKey)
 
 // Form State
@@ -54,7 +54,7 @@ const submitPrompt = async () => {
 
     isSuccess.value = true
     message.value = 'SUBMISSION SUCCESSFUL. PENDING APPROVAL.'
-    
+
     // Emit the submission for localStorage
     emit('submit', {
       title: form.value.title,
@@ -63,10 +63,10 @@ const submitPrompt = async () => {
       tags: tagsArray,
       created_at: new Date().toISOString()
     })
-    
+
     // Reset form
     form.value = { title: '', content: '', category: 'Coding', tags: '' }
-    
+
     // Auto close after 2s
     setTimeout(() => {
       close()
@@ -93,7 +93,7 @@ const close = () => {
     <Transition name="fade">
       <div v-if="isOpen" class="modal-overlay" @click="close">
         <div class="modal-panel" @click.stop>
-          
+
           <div class="modal-header">
             <span class="modal-title">SUBMIT NEW PROMPT</span>
             <button class="close-btn" @click="close">CLOSE [ESC]</button>
@@ -114,23 +114,21 @@ const close = () => {
 
             <div class="form-group">
               <label>PROMPT CONTENT *</label>
-              <textarea v-model="form.content" rows="6" placeholder="Enter your prompt here..." class="swiss-input"></textarea>
+              <textarea v-model="form.content" rows="6" placeholder="Enter your prompt here..."
+                class="swiss-input"></textarea>
             </div>
 
             <div class="form-group">
               <label>TAGS (Comma separated)</label>
-              <input v-model="form.tags" type="text" placeholder="e.g. python, optimization, coding" class="swiss-input" />
+              <input v-model="form.tags" type="text" placeholder="e.g. python, optimization, coding"
+                class="swiss-input" />
             </div>
 
             <div v-if="message" class="status-msg" :class="{ success: isSuccess, error: !isSuccess }">
               {{ message }}
             </div>
 
-            <button 
-              class="submit-btn" 
-              :disabled="loading"
-              @click="submitPrompt"
-            >
+            <button class="submit-btn" :disabled="loading" @click="submitPrompt">
               {{ loading ? 'SUBMITTING...' : 'SUBMIT PROMPT' }}
             </button>
           </div>
@@ -206,7 +204,8 @@ label {
   color: var(--vp-c-text-2);
 }
 
-.swiss-input, .swiss-select {
+.swiss-input,
+.swiss-select {
   padding: 12px;
   border: 1px solid var(--vp-c-divider);
   background: var(--vp-c-bg-alt);
@@ -218,7 +217,8 @@ label {
   width: 100%;
 }
 
-.swiss-input:focus, .swiss-select:focus {
+.swiss-input:focus,
+.swiss-select:focus {
   border-color: var(--vp-c-brand);
 }
 
@@ -257,10 +257,13 @@ label {
 }
 
 /* Transitions */
-.fade-enter-active, .fade-leave-active {
+.fade-enter-active,
+.fade-leave-active {
   transition: opacity 0.2s ease;
 }
-.fade-enter-from, .fade-leave-to {
+
+.fade-enter-from,
+.fade-leave-to {
   opacity: 0;
 }
 </style>

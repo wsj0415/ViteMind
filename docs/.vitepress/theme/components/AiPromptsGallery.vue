@@ -4,8 +4,8 @@ import { createClient } from '@supabase/supabase-js'
 import SubmitPromptModal from './SubmitPromptModal.vue'
 
 // Supabase Client
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
-const supabaseKey = import.meta.env.VITE_SUPABASE_KEY
+const supabaseUrl = import.meta.env.SUPABASE_URL
+const supabaseKey = import.meta.env.SUPABASE_KEY
 const supabase = createClient(supabaseUrl, supabaseKey)
 
 const prompts = ref([])
@@ -66,13 +66,13 @@ const cancelEdit = () => {
 // Save Edit
 const saveEdit = async () => {
   if (!selectedPrompt.value) return
-  
+
   const newContent = editContent.value
   if (newContent !== selectedPrompt.value.content) {
     try {
       const { error } = await supabase
         .from('ai_prompts')
-        .update({ 
+        .update({
           content: newContent,
           version: (selectedPrompt.value.version || 1) + 1,
           updated_at: new Date().toISOString()
@@ -80,18 +80,18 @@ const saveEdit = async () => {
         .eq('id', selectedPrompt.value.id)
 
       if (error) throw error
-      
+
       // Update local state
       const index = prompts.value.findIndex(p => p.id === selectedPrompt.value.id)
       if (index !== -1) {
         prompts.value[index].content = newContent
         prompts.value[index].version = (selectedPrompt.value.version || 1) + 1
       }
-      
+
       // Update selected prompt
       selectedPrompt.value.content = newContent
       selectedPrompt.value.version = (selectedPrompt.value.version || 1) + 1
-      
+
       alert('Prompt updated successfully!')
       isEditing.value = false
     } catch (e) {
@@ -113,7 +113,7 @@ const handleDelete = async (id) => {
         .eq('id', id)
 
       if (error) throw error
-      
+
       // Remove from local state
       prompts.value = prompts.value.filter(p => p.id !== id)
       alert('Prompt deleted.')
@@ -127,7 +127,7 @@ const handleDelete = async (id) => {
 // Fetch approved prompts from Supabase
 onMounted(async () => {
   loadPendingSubmissions()
-  
+
   try {
     loading.value = true
     const { data, error } = await supabase
@@ -164,8 +164,8 @@ const filteredPrompts = computed(() => {
   return prompts.value.filter(p => {
     const matchesCat = selectedCategory.value === 'ALL' || p.category === selectedCategory.value
     const matchesTag = selectedTag.value === 'ALL' || (p.tags && p.tags.includes(selectedTag.value))
-    const matchesSearch = p.title.toLowerCase().includes(searchQuery.value.toLowerCase()) || 
-                          p.content.toLowerCase().includes(searchQuery.value.toLowerCase())
+    const matchesSearch = p.title.toLowerCase().includes(searchQuery.value.toLowerCase()) ||
+      p.content.toLowerCase().includes(searchQuery.value.toLowerCase())
     return matchesCat && matchesTag && matchesSearch
   })
 })
@@ -173,8 +173,8 @@ const filteredPrompts = computed(() => {
 const filteredPending = computed(() => {
   return pendingPrompts.value.filter(p => {
     const matchesCat = selectedCategory.value === 'ALL' || p.category === selectedCategory.value
-    const matchesSearch = p.title.toLowerCase().includes(searchQuery.value.toLowerCase()) || 
-                          p.content.toLowerCase().includes(searchQuery.value.toLowerCase())
+    const matchesSearch = p.title.toLowerCase().includes(searchQuery.value.toLowerCase()) ||
+      p.content.toLowerCase().includes(searchQuery.value.toLowerCase())
     return matchesCat && matchesSearch
   })
 })
@@ -186,36 +186,21 @@ const filteredPending = computed(() => {
     <div class="control-bar">
       <div class="search-container">
         <span class="search-icon">🔍</span>
-        <input 
-          v-model="searchQuery" 
-          type="text" 
-          placeholder="SEARCH PROMPTS..." 
-          class="search-input"
-        />
+        <input v-model="searchQuery" type="text" placeholder="SEARCH PROMPTS..." class="search-input" />
       </div>
-      
+
       <div class="filter-row">
         <div class="filter-tags">
-          <button 
-            v-for="cat in categories" 
-            :key="cat"
-            class="filter-tag"
-            :class="{ active: selectedCategory === cat }"
-            @click="selectedCategory = cat"
-          >
+          <button v-for="cat in categories" :key="cat" class="filter-tag" :class="{ active: selectedCategory === cat }"
+            @click="selectedCategory = cat">
             {{ cat }}
           </button>
         </div>
 
         <!-- Tag Cloud -->
         <div class="tag-cloud" v-if="allTags.length > 1">
-          <button 
-            v-for="tag in allTags" 
-            :key="tag"
-            class="cloud-tag"
-            :class="{ active: selectedTag === tag }"
-            @click="selectedTag = tag"
-          >
+          <button v-for="tag in allTags" :key="tag" class="cloud-tag" :class="{ active: selectedTag === tag }"
+            @click="selectedTag = tag">
             #{{ tag }}
           </button>
         </div>
@@ -225,12 +210,8 @@ const filteredPending = computed(() => {
           <button class="action-btn" @click="isModalOpen = true">
             + SUBMIT PROMPT
           </button>
-          <button 
-            v-if="pendingPrompts.length > 0"
-            class="action-btn secondary"
-            :class="{ active: showPending }"
-            @click="showPending = !showPending"
-          >
+          <button v-if="pendingPrompts.length > 0" class="action-btn secondary" :class="{ active: showPending }"
+            @click="showPending = !showPending">
             PENDING ({{ pendingPrompts.length }})
           </button>
         </div>
@@ -241,11 +222,7 @@ const filteredPending = computed(() => {
     <div v-if="showPending && filteredPending.length > 0" class="pending-container">
       <h3 class="section-title">PENDING REVIEW</h3>
       <div class="grid-container">
-        <div 
-          v-for="prompt in filteredPending" 
-          :key="prompt.created_at"
-          class="prompt-item pending"
-        >
+        <div v-for="prompt in filteredPending" :key="prompt.created_at" class="prompt-item pending">
           <div class="item-header">
             <span class="meta-cat">{{ prompt.category }}</span>
             <span class="status-badge">PENDING</span>
@@ -259,29 +236,32 @@ const filteredPending = computed(() => {
     </div>
 
     <div v-if="loading" class="status-msg">LOADING PROMPTS...</div>
-    
+
     <div v-else-if="filteredPrompts.length === 0" class="status-msg">NO MATCHING PROMPTS FOUND</div>
 
     <!-- Main Grid -->
     <div v-else class="grid-container">
-      <div 
-        v-for="prompt in filteredPrompts" 
-        :key="prompt.id" 
-        class="prompt-item"
-        @click="selectedPrompt = prompt"
-      >
+      <div v-for="prompt in filteredPrompts" :key="prompt.id" class="prompt-item" @click="selectedPrompt = prompt">
         <div class="item-header">
           <span class="meta-cat">{{ prompt.category }}</span>
           <div class="header-actions">
             <button class="icon-btn action-btn" @click.stop="copyToClipboard(prompt.content)" title="Copy">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
             </button>
             <button class="icon-btn delete-btn" @click.stop="handleDelete(prompt.id)" title="Delete">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="3 6 5 6 21 6"></polyline>
+                <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+              </svg>
             </button>
           </div>
         </div>
-        
+
         <div class="item-body">
           <h3 class="item-title">{{ prompt.title }}</h3>
           <p class="item-summary">{{ prompt.content }}</p>
@@ -290,12 +270,7 @@ const filteredPending = computed(() => {
         <div class="item-footer">
           <div class="meta-tags-row">
             <span class="version-badge" v-if="prompt.version > 1">v{{ prompt.version }}</span>
-            <span 
-              v-for="tag in prompt.tags?.slice(0, 4)" 
-              :key="tag" 
-              class="meta-tag"
-              @click.stop="selectedTag = tag"
-            >
+            <span v-for="tag in prompt.tags?.slice(0, 4)" :key="tag" class="meta-tag" @click.stop="selectedTag = tag">
               #{{ tag }}
             </span>
           </div>
@@ -308,7 +283,7 @@ const filteredPending = computed(() => {
       <Transition name="fade">
         <div v-if="selectedPrompt" class="modal-overlay" @click="selectedPrompt = null">
           <div class="modal-panel" @click.stop>
-            
+
             <div class="modal-top-bar">
               <span class="modal-id">ID: {{ selectedPrompt.id.slice(-6) }}</span>
               <button class="close-btn" @click="selectedPrompt = null">CLOSE [ESC]</button>
@@ -327,15 +302,11 @@ const filteredPending = computed(() => {
               </div>
 
               <div class="prompt-content-box">
-                <textarea 
-                  v-if="isEditing" 
-                  v-model="editContent" 
-                  class="prompt-editor"
-                  placeholder="Enter prompt content..."
-                ></textarea>
+                <textarea v-if="isEditing" v-model="editContent" class="prompt-editor"
+                  placeholder="Enter prompt content..."></textarea>
                 <pre v-else>{{ selectedPrompt.content }}</pre>
               </div>
-              
+
               <div class="modal-actions-bar">
                 <div v-if="isEditing" class="editing-actions">
                   <button class="action-btn primary large" @click="saveEdit">
@@ -347,18 +318,30 @@ const filteredPending = computed(() => {
                 </div>
                 <div v-else class="view-actions">
                   <button class="action-btn primary large" @click="copyToClipboard(selectedPrompt.content)">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
                     COPY PROMPT
                   </button>
                   <div class="secondary-actions">
-                     <button class="action-btn text" @click="startEdit">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>
-                       EDIT
-                     </button>
-                     <button class="action-btn text danger" @click="handleDelete(selectedPrompt.id); selectedPrompt = null">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
-                       DELETE
-                     </button>
+                    <button class="action-btn text" @click="startEdit">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path>
+                      </svg>
+                      EDIT
+                    </button>
+                    <button class="action-btn text danger"
+                      @click="handleDelete(selectedPrompt.id); selectedPrompt = null">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="3 6 5 6 21 6"></polyline>
+                        <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                      </svg>
+                      DELETE
+                    </button>
                   </div>
                 </div>
               </div>
@@ -370,12 +353,8 @@ const filteredPending = computed(() => {
     </Teleport>
 
     <!-- Submission Modal -->
-    <SubmitPromptModal 
-      :is-open="isModalOpen" 
-      :categories="categories.filter(c => c !== 'ALL')"
-      @close="isModalOpen = false"
-      @submit="handleSubmission"
-    />
+    <SubmitPromptModal :is-open="isModalOpen" :categories="categories.filter(c => c !== 'ALL')"
+      @close="isModalOpen = false" @submit="handleSubmission" />
   </div>
 </template>
 
@@ -485,10 +464,13 @@ const filteredPending = computed(() => {
 }
 
 /* Transitions */
-.fade-enter-active, .fade-leave-active {
+.fade-enter-active,
+.fade-leave-active {
   transition: opacity 0.2s ease;
 }
-.fade-enter-from, .fade-leave-to {
+
+.fade-enter-from,
+.fade-leave-to {
   opacity: 0;
 }
 
@@ -497,13 +479,16 @@ const filteredPending = computed(() => {
   .modal-panel {
     border: none;
   }
+
   .modal-content-scroll {
     padding: 30px 20px;
   }
+
   .article-title {
     font-size: 32px;
   }
 }
+
 /* --- Swiss Style Variables (Matching NewsGallery) --- */
 .swiss-gallery {
   padding: 40px 0;
@@ -711,7 +696,8 @@ const filteredPending = computed(() => {
   letter-spacing: -0.02em;
   display: -webkit-box;
   -webkit-line-clamp: 2;
-  line-clamp: 2; /* Standard property */
+  line-clamp: 2;
+  /* Standard property */
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -722,7 +708,8 @@ const filteredPending = computed(() => {
   color: var(--vp-c-text-2);
   display: -webkit-box;
   -webkit-line-clamp: 4;
-  line-clamp: 4; /* Standard property */
+  line-clamp: 4;
+  /* Standard property */
   -webkit-box-orient: vertical;
   overflow: hidden;
   font-family: monospace;
@@ -782,7 +769,8 @@ const filteredPending = computed(() => {
   transition: all 0.2s;
 }
 
-.cloud-tag:hover, .cloud-tag.active {
+.cloud-tag:hover,
+.cloud-tag.active {
   background: var(--vp-c-text-1);
   color: var(--vp-c-bg);
 }
@@ -816,7 +804,7 @@ const filteredPending = computed(() => {
   border-color: var(--vp-c-divider);
   color: var(--vp-c-brand);
   transform: translateY(-1px);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .meta-tag {
@@ -954,7 +942,7 @@ const filteredPending = computed(() => {
 .action-btn.primary.large:hover {
   background: var(--vp-c-brand-dark);
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .secondary-actions {
@@ -993,7 +981,7 @@ const filteredPending = computed(() => {
     border-left: none;
     border-right: none;
   }
-  
+
   .prompt-item {
     border-right: none;
     height: auto;
