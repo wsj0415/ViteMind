@@ -14,30 +14,72 @@ const categories = ['ALL', 'Design Tools', 'UI Libraries', 'Icons & Fonts', 'Col
 const selectedCategory = ref('ALL')
 const searchQuery = ref('')
 const isModalOpen = ref(false)
-const selectedResource = ref(null)
+const showBackToTop = ref(false)
+const sortBy = ref('default') // 'default' | 'name-asc' | 'name-desc' | 'date-desc'
 
-// Get or create Supabase client
-const getSupabase = () => {
-    if (!supabase) {
-        if (!supabaseUrl || !supabaseKey) {
-            console.error('Supabase credentials not found')
-            return null
-        }
-        supabase = createClient(supabaseUrl, supabaseKey)
+// Category icons mapping
+const categoryIcons = {
+    'ALL': '🌐',
+    'Design Tools': '🎨',
+    'UI Libraries': '🧩',
+    'Icons & Fonts': '🔤',
+    'Colors': '🎨',
+    'Design Systems': '📚',
+    'Learning': '📖',
+    'Inspiration': '✨',
+    'Prototyping': '🔧'
+}
+
+// Scroll event handler
+const handleScroll = () => {
+    if (typeof window !== 'undefined') {
+        showBackToTop.value = window.scrollY > 300
     }
-    return supabase
+}
+
+// Scroll to top
+const scrollToTop = () => {
+    if (typeof window !== 'undefined') {
+        window.scrollTo({ top: 0, behavior: 'smooth' })
+    }
+}
+
+// Clear search
+const clearSearch = () => {
+    searchQuery.value = ''
+}
+
+// Get favicon
+const getFavicon = (url) => {
+    try {
+        const domain = new URL(url).hostname
+        return `https://www.google.com/s2/favicons?domain=${domain}&sz=128`
+    } catch {
+        return null
+    }
 }
 
 // Fetch resources from Supabase
-const fetchResources = async () => {
-    const client = getSupabase()
-    if (!client) {
+onMounted(async () => {
+    if (typeof window === 'undefined') {
+        loading.value = false
+        return
+    }
+
+    window.addEventListener('scroll', handleScroll)
+
+    if (supabaseUrl && supabaseKey) {
+        supabase = createClient(supabaseUrl, supabaseKey)
+    }
+
+    if (!supabase) {
         loading.value = false
         return
     }
 
     try {
-        const { data, error } = await client
+        loading.value = true
+        const { data, error } = await supabase
             .from('design_resources')
             .select('*')
             .order('is_featured', { ascending: false })
@@ -50,37 +92,57 @@ const fetchResources = async () => {
     } finally {
         loading.value = false
     }
-}
+})
 
 // Handle new submission
 const handleSubmission = async (resource) => {
-    const client = getSupabase()
-    if (!client) return
+    if (!supabase) return
 
     try {
-        const { error } = await client
+        const { error } = await supabase
             .from('design_resources')
             .insert([resource])
 
         if (error) throw error
 
-        alert('Resource submitted successfully!')
+        alert('资源提交成功！')
         isModalOpen.value = false
-        await fetchResources()
+
+        // Refresh resources
+        const { data } = await supabase
+            .from('design_resources')
+            .select('*')
+            .order('is_featured', { ascending: false })
+            .order('created_at', { ascending: false })
+
+        if (data) resources.value = data
     } catch (e) {
         console.error('Error submitting resource:', e)
-        alert('Failed to submit resource. Please try again.')
+        alert('提交失败，请重试')
     }
 }
 
-// Filtered resources
+// Filtered and sorted resources
 const filteredResources = computed(() => {
-    return resources.value.filter(r => {
+    const query = searchQuery.value.toLowerCase().trim()
+    let result = resources.value.filter(r => {
         const matchesCat = selectedCategory.value === 'ALL' || r.category === selectedCategory.value
-        const matchesSearch = r.title.toLowerCase().includes(searchQuery.value.toLowerCase()) ||
-            r.description.toLowerCase().includes(searchQuery.value.toLowerCase())
+        const matchesSearch = !query ||
+            r.title?.toLowerCase().includes(query) ||
+            r.description?.toLowerCase().includes(query)
         return matchesCat && matchesSearch
     })
+
+    // Apply sorting
+    if (sortBy.value === 'name-asc') {
+        result = [...result].sort((a, b) => a.title.localeCompare(b.title))
+    } else if (sortBy.value === 'name-desc') {
+        result = [...result].sort((a, b) => b.title.localeCompare(a.title))
+    } else if (sortBy.value === 'date-desc') {
+        result = [...result].sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
+    }
+
+    return result
 })
 
 // Featured resources
@@ -92,542 +154,636 @@ const featuredResources = computed(() => {
 const regularResources = computed(() => {
     return filteredResources.value.filter(r => !r.is_featured)
 })
-
-onMounted(() => {
-    fetchResources()
-})
 </script>
 
 <template>
-    <div class="design-resources-gallery">
-        <!-- Header -->
-        <div class="gallery-header">
-            <h1 class="gallery-title">前端设计资源</h1>
-            <p class="gallery-subtitle">精选的 UI/UX 设计工具和资源导航</p>
-        </div>
-
-        <!-- Controls -->
-        <div class="controls">
-            <!-- Search -->
-            <div class="search-box">
-                <input v-model="searchQuery" type="text" placeholder="搜索资源..." class="search-input" />
+    <div class="resources-page">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>分类</h2>
             </div>
-
-            <!-- Categories -->
-            <div class="category-tabs">
-                <button v-for="cat in categories" :key="cat" class="category-tab"
+            <nav class="category-nav">
+                <button v-for="cat in categories" :key="cat" class="cat-item"
                     :class="{ active: selectedCategory === cat }" @click="selectedCategory = cat">
-                    {{ cat }}
+                    <span class="cat-icon">{{ categoryIcons[cat] }}</span>
+                    <span class="cat-name">{{ cat }}</span>
                 </button>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="content-header">
+                <div class="search-wrapper">
+                    <div class="search-container">
+                        <span class="search-icon">🔍</span>
+                        <input v-model="searchQuery" type="text" placeholder="搜索设计资源..." class="search-input" />
+                        <button v-if="searchQuery" class="clear-btn" @click="clearSearch">✕</button>
+                    </div>
+                    <span class="resources-count">找到 {{ filteredResources.length }} 个资源</span>
+                </div>
+                <div class="header-actions">
+                    <select v-model="sortBy" class="sort-select">
+                        <option value="default">默认排序</option>
+                        <option value="name-asc">名称 A-Z</option>
+                        <option value="name-desc">名称 Z-A</option>
+                        <option value="date-desc">最新添加</option>
+                    </select>
+                    <button class="submit-btn" @click="isModalOpen = true">
+                        <span>+</span> 提交资源
+                    </button>
+                </div>
+            </header>
+
+            <!-- Loading State -->
+            <div v-if="loading" class="loading-state">
+                <div class="spinner"></div>
+                <p>加载中...</p>
             </div>
 
-            <!-- Submit Button -->
-            <div class="action-row">
-                <button class="submit-btn" @click="isModalOpen = true">
-                    + 提交资源
-                </button>
-            </div>
-        </div>
-
-        <!-- Loading State -->
-        <div v-if="loading" class="status-msg">加载中...</div>
-
-        <!-- Empty State -->
-        <div v-else-if="filteredResources.length === 0" class="status-msg">
-            未找到匹配的资源
-        </div>
-
-        <!-- Resources Grid -->
-        <div v-else class="resources-container">
-            <!-- Featured Resources -->
-            <div v-if="featuredResources.length > 0" class="featured-section">
-                <h2 class="section-title">✨ 精选资源</h2>
-                <div class="resources-grid">
-                    <div v-for="resource in featuredResources" :key="resource.id" class="resource-card featured"
-                        @click="selectedResource = resource">
-                        <div class="card-header">
-                            <img v-if="resource.logo_url" :src="resource.logo_url" :alt="resource.title"
-                                class="resource-logo" @error="(e) => e.target.style.display = 'none'" />
-                            <div class="resource-icon" v-else>
-                                {{ resource.title.charAt(0).toUpperCase() }}
+            <!-- Resources Section -->
+            <section v-else class="resources-section">
+                <!-- Featured Resources -->
+                <div v-if="featuredResources.length > 0" class="featured-section">
+                    <h3 class="section-title">
+                        <span class="featured-badge">✨ 精选资源</span>
+                    </h3>
+                    <div class="resources-grid">
+                        <a v-for="resource in featuredResources" :key="resource.id" :href="resource.url" target="_blank"
+                            class="resource-card featured">
+                            <div class="card-header">
+                                <img v-if="resource.logo_url" :src="resource.logo_url" class="resource-favicon"
+                                    @error="$event.target.style.display = 'none'" />
+                                <div v-else class="resource-icon">
+                                    {{ resource.title.charAt(0).toUpperCase() }}
+                                </div>
+                                <span class="resource-arrow">↗</span>
                             </div>
-                        </div>
-                        <div class="card-body">
-                            <h3 class="resource-title">{{ resource.title }}</h3>
-                            <p class="resource-description">{{ resource.description }}</p>
-                            <div class="resource-meta">
+                            <div class="card-body">
+                                <h4 class="resource-name">{{ resource.title }}</h4>
+                                <p class="resource-desc">{{ resource.description }}</p>
+                            </div>
+                            <div class="card-footer">
                                 <span class="resource-category">{{ resource.category }}</span>
-                                <span v-for="tag in resource.tags" :key="tag" class="resource-tag">
-                                    {{ tag }}
-                                </span>
+                                <div class="resource-tags">
+                                    <span v-for="tag in resource.tags?.slice(0, 2)" :key="tag" class="tag">{{ tag
+                                        }}</span>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
-            </div>
 
-            <!-- Regular Resources -->
-            <div class="regular-section">
-                <h2 v-if="featuredResources.length > 0" class="section-title">所有资源</h2>
-                <div class="resources-grid">
-                    <div v-for="resource in regularResources" :key="resource.id" class="resource-card"
-                        @click="selectedResource = resource">
-                        <div class="card-header">
-                            <img v-if="resource.logo_url" :src="resource.logo_url" :alt="resource.title"
-                                class="resource-logo" @error="(e) => e.target.style.display = 'none'" />
-                            <div class="resource-icon" v-else>
-                                {{ resource.title.charAt(0).toUpperCase() }}
+                <!-- Regular Resources -->
+                <div v-if="regularResources.length > 0" class="regular-section">
+                    <h3 v-if="featuredResources.length > 0" class="section-title">
+                        <span class="regular-badge">所有资源</span>
+                    </h3>
+                    <div class="resources-grid">
+                        <a v-for="resource in regularResources" :key="resource.id" :href="resource.url" target="_blank"
+                            class="resource-card">
+                            <div class="card-header">
+                                <img v-if="resource.logo_url" :src="resource.logo_url" class="resource-favicon"
+                                    @error="$event.target.style.display = 'none'" />
+                                <div v-else class="resource-icon">
+                                    {{ resource.title.charAt(0).toUpperCase() }}
+                                </div>
+                                <span class="resource-arrow">↗</span>
                             </div>
-                        </div>
-                        <div class="card-body">
-                            <h3 class="resource-title">{{ resource.title }}</h3>
-                            <p class="resource-description">{{ resource.description }}</p>
-                            <div class="resource-meta">
+                            <div class="card-body">
+                                <h4 class="resource-name">{{ resource.title }}</h4>
+                                <p class="resource-desc">{{ resource.description }}</p>
+                            </div>
+                            <div class="card-footer">
                                 <span class="resource-category">{{ resource.category }}</span>
-                                <span v-for="tag in resource.tags" :key="tag" class="resource-tag">
-                                    {{ tag }}
-                                </span>
+                                <div class="resource-tags">
+                                    <span v-for="tag in resource.tags?.slice(0, 2)" :key="tag" class="tag">{{ tag
+                                        }}</span>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <!-- Detail Modal -->
-        <Teleport to="body">
-            <Transition name="modal">
-                <div v-if="selectedResource" class="modal-overlay" @click="selectedResource = null">
-                    <div class="modal-panel" @click.stop>
-                        <button class="modal-close" @click="selectedResource = null">×</button>
-
-                        <div class="modal-header">
-                            <img v-if="selectedResource.logo_url" :src="selectedResource.logo_url"
-                                :alt="selectedResource.title" class="modal-logo"
-                                @error="(e) => e.target.style.display = 'none'" />
-                            <div class="modal-icon" v-else>
-                                {{ selectedResource.title.charAt(0).toUpperCase() }}
-                            </div>
-                            <div class="modal-title-group">
-                                <h2 class="modal-title">{{ selectedResource.title }}</h2>
-                                <span class="modal-category">{{ selectedResource.category }}</span>
-                            </div>
-                        </div>
-
-                        <div class="modal-body">
-                            <p class="modal-description">{{ selectedResource.description }}</p>
-
-                            <div class="modal-tags">
-                                <span v-for="tag in selectedResource.tags" :key="tag" class="modal-tag">
-                                    {{ tag }}
-                                </span>
-                            </div>
-
-                            <a :href="selectedResource.url" target="_blank" rel="noopener noreferrer"
-                                class="modal-visit-btn">
-                                访问资源 →
-                            </a>
-
-                            <div class="modal-meta">
-                                <span class="meta-item">来源: {{ selectedResource.source }}</span>
-                                <span class="meta-item">添加于: {{ new
-                                    Date(selectedResource.created_at).toLocaleDateString('zh-CN') }}</span>
-                            </div>
-                        </div>
-                    </div>
+                <div v-if="filteredResources.length === 0 && !loading" class="no-results">
+                    <p>未找到匹配的资源</p>
                 </div>
-            </Transition>
-        </Teleport>
+            </section>
+        </main>
 
-        <!-- Submit Modal -->
+        <!-- Submission Modal -->
         <SubmitResourceModal :is-open="isModalOpen" :categories="categories.filter(c => c !== 'ALL')"
             @close="isModalOpen = false" @submit="handleSubmission" />
+
+        <!-- Back to Top Button -->
+        <Transition name="fade">
+            <button v-if="showBackToTop" class="back-to-top" @click="scrollToTop" aria-label="回到顶部">
+                ↑
+            </button>
+        </Transition>
     </div>
 </template>
 
 <style scoped>
-.design-resources-gallery {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
-}
-
-.gallery-header {
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
-.gallery-title {
-    font-size: 3rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.gallery-subtitle {
-    font-size: 1.2rem;
-    color: var(--vp-c-text-2);
-}
-
-.controls {
-    margin-bottom: 2rem;
-}
-
-.search-box {
-    margin-bottom: 1.5rem;
-}
-
-.search-input {
-    width: 100%;
-    padding: 0.75rem 1rem;
-    font-size: 1rem;
-    border: 2px solid var(--vp-c-divider);
-    border-radius: 8px;
-    transition: border-color 0.3s;
-}
-
-.search-input:focus {
-    outline: none;
-    border-color: #667eea;
-}
-
-.category-tabs {
+.resources-page {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 1.5rem;
+    min-height: calc(100vh - 64px);
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-.category-tab {
-    padding: 0.5rem 1rem;
-    border: 2px solid var(--vp-c-divider);
-    border-radius: 20px;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s;
-    font-size: 0.9rem;
+/* Sidebar */
+.sidebar {
+    width: 240px;
+    padding: 24px 16px;
+    border-right: 1px solid var(--vp-c-divider);
+    position: sticky;
+    top: 64px;
+    height: calc(100vh - 64px);
+    overflow-y: auto;
+    background: var(--vp-c-bg);
 }
 
-.category-tab:hover {
-    border-color: #667eea;
-    color: #667eea;
+.sidebar-header h2 {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--vp-c-text-3);
+    margin: 0 0 16px 12px;
 }
 
-.category-tab.active {
-    background: #667eea;
-    color: white;
-    border-color: #667eea;
-}
-
-.action-row {
+.category-nav {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    gap: 4px;
 }
 
-.submit-btn {
-    padding: 0.75rem 1.5rem;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+.cat-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px;
     border: none;
+    background: transparent;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 1rem;
-    font-weight: 600;
-    transition: transform 0.2s;
-}
-
-.submit-btn:hover {
-    transform: translateY(-2px);
-}
-
-.status-msg {
-    text-align: center;
-    padding: 3rem;
     color: var(--vp-c-text-2);
-    font-size: 1.1rem;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.15s ease;
+    text-align: left;
 }
 
-.section-title {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 1.5rem;
+.cat-item:hover {
+    background: var(--vp-c-bg-soft);
     color: var(--vp-c-text-1);
 }
 
-.featured-section {
-    margin-bottom: 3rem;
+.cat-item.active {
+    background: var(--vp-c-brand-soft);
+    color: var(--vp-c-brand);
 }
 
+.cat-icon {
+    font-size: 18px;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    padding: 24px 32px;
+    max-width: calc(100% - 240px);
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    gap: 16px;
+}
+
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    max-width: 480px;
+    padding: 0 16px;
+    border: 1px solid var(--vp-c-divider);
+    border-radius: 12px;
+    background: var(--vp-c-bg-soft);
+    transition: all 0.2s ease;
+}
+
+.search-container:focus-within {
+    border-color: var(--vp-c-brand);
+    box-shadow: 0 0 0 3px var(--vp-c-brand-soft);
+}
+
+.search-icon {
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.resources-count {
+    font-size: 12px;
+    color: var(--vp-c-text-3);
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.sort-select {
+    padding: 10px 16px;
+    font-size: 14px;
+    border: 1px solid var(--vp-c-divider);
+    border-radius: 10px;
+    background: var(--vp-c-bg-soft);
+    color: var(--vp-c-text-1);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.sort-select:hover {
+    border-color: var(--vp-c-brand);
+}
+
+.clear-btn {
+    padding: 4px 8px;
+    font-size: 12px;
+    background: transparent;
+    border: none;
+    color: var(--vp-c-text-3);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.clear-btn:hover {
+    color: var(--vp-c-brand);
+}
+
+.search-input {
+    flex: 1;
+    padding: 12px 0;
+    font-size: 14px;
+    border: none;
+    background: transparent;
+    color: var(--vp-c-text-1);
+    outline: none;
+}
+
+.search-input::placeholder {
+    color: var(--vp-c-text-3);
+}
+
+.submit-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background: var(--vp-c-brand);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.submit-btn:hover {
+    background: var(--vp-c-brand-dark);
+    transform: translateY(-1px);
+}
+
+/* Sections */
+.featured-section,
+.regular-section {
+    margin-bottom: 40px;
+}
+
+.section-title {
+    margin: 0 0 16px 0;
+    font-size: 14px;
+}
+
+.featured-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+    color: white;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.regular-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    background: var(--vp-c-bg-soft);
+    color: var(--vp-c-text-2);
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* Resources Grid */
 .resources-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
 }
 
 .resource-card {
-    background: var(--vp-c-bg-soft);
-    border: 2px solid var(--vp-c-divider);
-    border-radius: 12px;
-    padding: 1.5rem;
-    cursor: pointer;
-    transition: all 0.3s;
+    background: linear-gradient(135deg, var(--vp-c-bg) 0%, var(--vp-c-bg-soft) 100%);
+    border: 1px solid var(--vp-c-divider);
+    border-radius: 16px;
+    padding: 20px;
+    text-decoration: none;
+    color: var(--vp-c-text-1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    min-height: 180px;
+    position: relative;
+    overflow: hidden;
+    animation: fadeInUp 0.4s ease forwards;
+}
+
+.resource-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.08), transparent);
+    transition: left 0.6s ease;
+    pointer-events: none;
+}
+
+.resource-card:hover::before {
+    left: 100%;
 }
 
 .resource-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-    border-color: #667eea;
+    border-color: var(--vp-c-brand);
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 20px 40px -12px rgba(139, 92, 246, 0.25);
 }
 
 .resource-card.featured {
-    border-color: #ffd700;
-    background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 215, 0, 0.05) 100%);
+    border-color: #fbbf24;
+    background: linear-gradient(135deg, rgba(251, 191, 36, 0.05) 0%, var(--vp-c-bg-soft) 100%);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .card-header {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 16px;
 }
 
-.resource-logo {
-    width: 64px;
-    height: 64px;
+.resource-favicon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: var(--vp-c-bg-soft);
     object-fit: contain;
-    border-radius: 8px;
+    padding: 4px;
 }
 
 .resource-icon {
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    font-size: 2rem;
+    font-size: 24px;
     font-weight: 700;
-    border-radius: 8px;
+    border-radius: 12px;
+}
+
+.resource-arrow {
+    font-size: 16px;
+    color: var(--vp-c-text-3);
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.resource-card:hover .resource-arrow {
+    opacity: 1;
+    color: var(--vp-c-brand);
 }
 
 .card-body {
-    text-align: center;
+    flex: 1;
 }
 
-.resource-title {
-    font-size: 1.2rem;
+.resource-name {
+    margin: 0 0 8px 0;
+    font-size: 16px;
     font-weight: 600;
-    margin-bottom: 0.5rem;
     color: var(--vp-c-text-1);
 }
 
-.resource-description {
-    font-size: 0.9rem;
-    color: var(--vp-c-text-2);
-    margin-bottom: 1rem;
+.resource-desc {
+    margin: 0;
+    font-size: 13px;
     line-height: 1.5;
+    color: var(--vp-c-text-2);
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
 
-.resource-meta {
+.card-footer {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid var(--vp-c-divider);
 }
 
 .resource-category {
-    padding: 0.25rem 0.75rem;
-    background: #667eea;
-    color: white;
-    border-radius: 12px;
-    font-size: 0.75rem;
+    font-size: 11px;
     font-weight: 600;
-}
-
-.resource-tag {
-    padding: 0.25rem 0.75rem;
-    background: var(--vp-c-bg-mute);
-    color: var(--vp-c-text-2);
-    border-radius: 12px;
-    font-size: 0.75rem;
-}
-
-/* Modal Styles */
-.modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.7);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 9999;
-    padding: 1rem;
-}
-
-.modal-panel {
-    background: var(--vp-c-bg);
-    border-radius: 16px;
-    max-width: 600px;
-    width: 100%;
-    max-height: 90vh;
-    overflow-y: auto;
-    position: relative;
-    padding: 2rem;
-}
-
-.modal-close {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    width: 32px;
-    height: 32px;
-    border: none;
-    background: var(--vp-c-bg-soft);
-    border-radius: 50%;
-    font-size: 1.5rem;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.3s;
-}
-
-.modal-close:hover {
-    background: var(--vp-c-bg-mute);
-}
-
-.modal-header {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-}
-
-.modal-logo {
-    width: 80px;
-    height: 80px;
-    object-fit: contain;
-    border-radius: 12px;
-}
-
-.modal-icon {
-    width: 80px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    font-size: 2.5rem;
-    font-weight: 700;
-    border-radius: 12px;
-}
-
-.modal-title-group {
-    flex: 1;
-}
-
-.modal-title {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-    color: var(--vp-c-text-1);
-}
-
-.modal-category {
-    padding: 0.25rem 0.75rem;
-    background: #667eea;
-    color: white;
-    border-radius: 12px;
-    font-size: 0.85rem;
-    font-weight: 600;
-}
-
-.modal-body {
-    padding-top: 1rem;
-}
-
-.modal-description {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: var(--vp-c-text-2);
-    margin-bottom: 1.5rem;
-}
-
-.modal-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.modal-tag {
-    padding: 0.5rem 1rem;
-    background: var(--vp-c-bg-soft);
-    color: var(--vp-c-text-2);
-    border-radius: 16px;
-    font-size: 0.9rem;
-}
-
-.modal-visit-btn {
-    display: block;
-    width: 100%;
-    padding: 1rem;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: 600;
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
-    transition: transform 0.2s;
-}
-
-.modal-visit-btn:hover {
-    transform: translateY(-2px);
-}
-
-.modal-meta {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 1rem;
-    border-top: 1px solid var(--vp-c-divider);
-    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
     color: var(--vp-c-text-3);
 }
 
-.modal-enter-active,
-.modal-leave-active {
-    transition: opacity 0.3s;
+.resource-tags {
+    display: flex;
+    gap: 6px;
 }
 
-.modal-enter-from,
-.modal-leave-to {
-    opacity: 0;
+.tag {
+    padding: 2px 8px;
+    font-size: 11px;
+    background: var(--vp-c-bg-soft);
+    border-radius: 4px;
+    color: var(--vp-c-text-2);
 }
 
+/* Loading & Empty States */
+.loading-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    color: var(--vp-c-text-2);
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--vp-c-divider);
+    border-top-color: var(--vp-c-brand);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 16px;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.no-results {
+    text-align: center;
+    padding: 60px 0;
+    color: var(--vp-c-text-3);
+}
+
+/* Responsive */
 @media (max-width: 768px) {
-    .gallery-title {
-        font-size: 2rem;
+    .resources-page {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: static;
+        border-right: none;
+        border-bottom: 1px solid var(--vp-c-divider);
+        padding: 16px;
+    }
+
+    .category-nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .cat-item {
+        padding: 8px 12px;
+    }
+
+    .cat-name {
+        display: none;
+    }
+
+    .cat-icon {
+        font-size: 20px;
+    }
+
+    .main-content {
+        max-width: 100%;
+        padding: 16px;
+    }
+
+    .content-header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-container {
+        max-width: 100%;
+    }
+
+    .submit-btn {
+        justify-content: center;
     }
 
     .resources-grid {
         grid-template-columns: 1fr;
     }
 
-    .modal-panel {
-        padding: 1.5rem;
+    .header-actions {
+        flex-direction: column;
+        width: 100%;
     }
+
+    .sort-select {
+        width: 100%;
+    }
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--vp-c-brand), var(--vp-c-brand-dark));
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 20px rgba(139, 92, 246, 0.4);
+    transition: all 0.3s ease;
+    z-index: 100;
+}
+
+.back-to-top:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 30px rgba(139, 92, 246, 0.5);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
 }
 </style>
