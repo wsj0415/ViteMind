@@ -104,8 +104,6 @@ const handleDelete = async (id) => {
 
 // Fetch approved prompts from Supabase
 onMounted(async () => {
-  loadPendingSubmissions()
-
   try {
     loading.value = true
     const { data, error } = await supabase
