@@ -55,3 +55,22 @@ create policy "Allow public insert access"
   on public.ai_prompts
   for insert
   with check (true);
+
+-- 1. 添加来源平台字段
+ALTER TABLE ai_prompts 
+ADD COLUMN IF NOT EXISTS source VARCHAR(50) DEFAULT 'AI Generated';
+
+-- 2. 添加链接字段
+ALTER TABLE ai_prompts 
+ADD COLUMN IF NOT EXISTS link TEXT;
+
+-- 3. 为现有数据设置默认值（可选）
+UPDATE ai_prompts 
+SET source = 'AI Generated' 
+WHERE source IS NULL;
+
+-- 4. 查看表结构确认
+SELECT column_name, data_type, character_maximum_length, column_default
+FROM information_schema.columns
+WHERE table_name = 'ai_prompts'
+ORDER BY ordinal_position;
