@@ -6,6 +6,9 @@ import AiToolsGallery from './components/AiToolsGallery.vue'
 import NewsletterForm from './components/NewsletterForm.vue'
 import HomeBanner from './components/HomeBanner.vue'
 import DesignResourcesGallery from './components/DesignResourcesGallery.vue'
+import AdminLogin from './components/admin/AdminLogin.vue'
+import AdminLayout from './components/admin/AdminLayout.vue'
+import DataManager from './components/admin/DataManager.vue'
 import './style.css'
 
 export default {
@@ -18,5 +21,8 @@ export default {
         app.component('NewsletterForm', NewsletterForm)
         app.component('HomeBanner', HomeBanner)
         app.component('DesignResourcesGallery', DesignResourcesGallery)
+        app.component('AdminLogin', AdminLogin)
+        app.component('AdminLayout', AdminLayout)
+        app.component('DataManager', DataManager)
     }
 }
