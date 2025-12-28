@@ -12,7 +12,7 @@ except ImportError:
 # 配置
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 OPENROUTER_URL = "https://api-inference.modelscope.cn/v1/chat/completions"
-MODEL_NAME = "MiniMax/MiniMax-M2.1" 
+MODEL_NAME = "MiniMax/MiniMax-M2.1"
 
 # 数据源
 RSS_FEEDS = [
@@ -121,37 +121,31 @@ def summarize_with_ai(articles):
     {news_text}
     """
 
-    headers = {
-        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
-        "Content-Type": "application/json",
-        "HTTP-Referer": "https://vitemind.com", 
-    }
-    
-    data = {
-        "model": MODEL_NAME,
-        "messages": [{"role": "user", "content": prompt}]
-    }
-
+    from openai import OpenAI, RateLimitError
     import time
+
+    client = OpenAI(
+        api_key=OPENROUTER_API_KEY,
+        base_url="https://api-inference.modelscope.cn/v1"
+    )
+
     max_retries = 5
     for attempt in range(max_retries):
         try:
-            response = requests.post(OPENROUTER_URL, headers=headers, json=data)
-            response.raise_for_status()
-            content = response.json()['choices'][0]['message']['content']
+            response = client.chat.completions.create(
+                model=MODEL_NAME,
+                messages=[{"role": "user", "content": prompt}]
+            )
+            content = response.choices[0].message.content
             
             # 清理可能存在的 Markdown 代码块标记
             content = content.replace("```json", "").replace("```", "").strip()
             
             return json.loads(content)
-        except requests.exceptions.HTTPError as e:
-            if e.response.status_code == 429:
-                wait_time = 5 * (2 ** attempt) # 5s, 10s, 20s, 40s, 80s
-                print(f"Rate limit hit (429), retrying in {wait_time} seconds...")
-                time.sleep(wait_time)
-            else:
-                print(f"AI Generation Error: {e}")
-                return []
+        except RateLimitError:
+            wait_time = 5 * (2 ** attempt) # 5s, 10s, 20s, 40s, 80s
+            print(f"Rate limit hit (429), retrying in {wait_time} seconds...")
+            time.sleep(wait_time)
         except Exception as e:
             print(f"AI Generation Error: {e}")
             return []

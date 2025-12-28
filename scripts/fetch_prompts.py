@@ -32,22 +32,23 @@ def generate_prompts_with_ai():
     Do not include markdown formatting. Just the JSON array.
     """
 
-    headers = {
-        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
-        "Content-Type": "application/json",
-        "HTTP-Referer": "https://vitemind.com", 
-    }
+    Do not include markdown formatting. Just the JSON array.
+    """
+
+    from openai import OpenAI
     
-    data = {
-        "model": MODEL_NAME,
-        "messages": [{"role": "user", "content": prompt_text}]
-    }
+    client = OpenAI(
+        api_key=OPENROUTER_API_KEY,
+        base_url="https://api-inference.modelscope.cn/v1"
+    )
 
     try:
         print(f"Generating prompts for {category}...")
-        response = requests.post(OPENROUTER_URL, headers=headers, json=data)
-        response.raise_for_status()
-        content = response.json()['choices'][0]['message']['content']
+        response = client.chat.completions.create(
+            model=MODEL_NAME,
+            messages=[{"role": "user", "content": prompt_text}]
+        )
+        content = response.choices[0].message.content
         
         # Clean markdown
         content = content.replace("```json", "").replace("```", "").strip()
