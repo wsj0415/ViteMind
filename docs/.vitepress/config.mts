@@ -10,7 +10,7 @@ export default defineConfig({
   // Load .env files from project root (parent of docs folder)
   vite: {
     envDir: path.resolve(__dirname, '../../'),
-    envPrefix: ['VITE_', 'SUPABASE_']
+    envPrefix: 'SUPABASE_'
   },
 
   themeConfig: {
