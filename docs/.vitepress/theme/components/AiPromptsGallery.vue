@@ -1,7 +1,6 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import { createClient } from '@supabase/supabase-js'
-import SubmitPromptModal from './SubmitPromptModal.vue'
 
 // Supabase Client
 const supabaseUrl = import.meta.env.SUPABASE_URL
@@ -9,35 +8,14 @@ const supabaseKey = import.meta.env.SUPABASE_KEY
 const supabase = createClient(supabaseUrl, supabaseKey)
 
 const prompts = ref([])
-const pendingPrompts = ref([])
 const loading = ref(true)
 const categories = ['ALL', 'Coding', 'Image', 'Writing', 'Marketing', 'SEO', 'Productivity']
 const selectedCategory = ref('ALL')
 const searchQuery = ref('')
-const isModalOpen = ref(false)
-const showPending = ref(false)
 const selectedPrompt = ref(null)
 const selectedTag = ref('ALL')
 const isEditing = ref(false)
 const editContent = ref('')
-
-// Load pending submissions from localStorage
-const loadPendingSubmissions = () => {
-  try {
-    const stored = localStorage.getItem('vitemind_user_prompts')
-    if (stored) {
-      pendingPrompts.value = JSON.parse(stored)
-    }
-  } catch (e) {
-    console.error('Error loading pending prompts:', e)
-  }
-}
-
-// Handle new submission
-const handleSubmission = (prompt) => {
-  pendingPrompts.value.unshift(prompt)
-  localStorage.setItem('vitemind_user_prompts', JSON.stringify(pendingPrompts.value))
-}
 
 // Copy to clipboard
 const copyToClipboard = async (text) => {
@@ -170,14 +148,6 @@ const filteredPrompts = computed(() => {
   })
 })
 
-const filteredPending = computed(() => {
-  return pendingPrompts.value.filter(p => {
-    const matchesCat = selectedCategory.value === 'ALL' || p.category === selectedCategory.value
-    const matchesSearch = p.title.toLowerCase().includes(searchQuery.value.toLowerCase()) ||
-      p.content.toLowerCase().includes(searchQuery.value.toLowerCase())
-    return matchesCat && matchesSearch
-  })
-})
 </script>
 
 <template>
@@ -205,157 +175,128 @@ const filteredPending = computed(() => {
           </button>
         </div>
 
-        <!-- Action Buttons -->
-        <div class="action-row">
-          <button class="action-btn" @click="isModalOpen = true">
-            + SUBMIT PROMPT
-          </button>
-          <button v-if="pendingPrompts.length > 0" class="action-btn secondary" :class="{ active: showPending }"
-            @click="showPending = !showPending">
-            PENDING ({{ pendingPrompts.length }})
-          </button>
-        </div>
       </div>
     </div>
-
-    <!-- Pending Section -->
-    <div v-if="showPending && filteredPending.length > 0" class="pending-container">
-      <h3 class="section-title">PENDING REVIEW</h3>
-      <div class="grid-container">
-        <div v-for="prompt in filteredPending" :key="prompt.created_at" class="prompt-item pending">
-          <div class="item-header">
-            <span class="meta-cat">{{ prompt.category }}</span>
-            <span class="status-badge">PENDING</span>
-          </div>
-          <div class="item-body">
-            <h3 class="item-title">{{ prompt.title }}</h3>
-            <p class="item-summary">{{ prompt.content }}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div v-if="loading" class="status-msg">LOADING PROMPTS...</div>
-
-    <div v-else-if="filteredPrompts.length === 0" class="status-msg">NO MATCHING PROMPTS FOUND</div>
-
-    <!-- Main Grid -->
-    <div v-else class="grid-container">
-      <div v-for="prompt in filteredPrompts" :key="prompt.id" class="prompt-item" @click="selectedPrompt = prompt">
-        <div class="item-header">
-          <span class="meta-cat">{{ prompt.category }}</span>
-          <div class="header-actions">
-            <button class="icon-btn action-btn" @click.stop="copyToClipboard(prompt.content)" title="Copy">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
-                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
-              </svg>
-            </button>
-            <button class="icon-btn delete-btn" @click.stop="handleDelete(prompt.id)" title="Delete">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="3 6 5 6 21 6"></polyline>
-                <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
-              </svg>
-            </button>
-          </div>
-        </div>
-
-        <div class="item-body">
-          <h3 class="item-title">{{ prompt.title }}</h3>
-          <p class="item-summary">{{ prompt.content }}</p>
-        </div>
-
-        <div class="item-footer">
-          <div class="meta-tags-row">
-            <span class="version-badge" v-if="prompt.version > 1">v{{ prompt.version }}</span>
-            <span v-for="tag in prompt.tags?.slice(0, 4)" :key="tag" class="meta-tag" @click.stop="selectedTag = tag">
-              #{{ tag }}
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Detail Modal -->
-    <Teleport to="body">
-      <Transition name="fade">
-        <div v-if="selectedPrompt" class="modal-overlay" @click="selectedPrompt = null">
-          <div class="modal-panel" @click.stop>
-
-            <div class="modal-top-bar">
-              <span class="modal-id">ID: {{ selectedPrompt.id.slice(-6) }}</span>
-              <button class="close-btn" @click="selectedPrompt = null">CLOSE [ESC]</button>
-            </div>
-
-            <div class="modal-content-scroll">
-              <div class="article-header">
-                <div class="header-top">
-                  <span class="meta-cat-badge">{{ selectedPrompt.category }}</span>
-                  <span class="version-badge" v-if="selectedPrompt.version > 1">v{{ selectedPrompt.version }}</span>
-                </div>
-                <h1 class="article-title">{{ selectedPrompt.title }}</h1>
-                <div class="meta-tags-row large">
-                  <span v-for="tag in selectedPrompt.tags" :key="tag" class="meta-tag">#{{ tag }}</span>
-                </div>
-              </div>
-
-              <div class="prompt-content-box">
-                <textarea v-if="isEditing" v-model="editContent" class="prompt-editor"
-                  placeholder="Enter prompt content..."></textarea>
-                <pre v-else>{{ selectedPrompt.content }}</pre>
-              </div>
-
-              <div class="modal-actions-bar">
-                <div v-if="isEditing" class="editing-actions">
-                  <button class="action-btn primary large" @click="saveEdit">
-                    SAVE CHANGES
-                  </button>
-                  <button class="action-btn text" @click="cancelEdit">
-                    CANCEL
-                  </button>
-                </div>
-                <div v-else class="view-actions">
-                  <button class="action-btn primary large" @click="copyToClipboard(selectedPrompt.content)">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
-                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
-                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
-                    </svg>
-                    COPY PROMPT
-                  </button>
-                  <div class="secondary-actions">
-                    <button class="action-btn text" @click="startEdit">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path>
-                      </svg>
-                      EDIT
-                    </button>
-                    <button class="action-btn text danger"
-                      @click="handleDelete(selectedPrompt.id); selectedPrompt = null">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="3 6 5 6 21 6"></polyline>
-                        <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
-                      </svg>
-                      DELETE
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </Transition>
-    </Teleport>
-
-    <!-- Submission Modal -->
-    <SubmitPromptModal :is-open="isModalOpen" :categories="categories.filter(c => c !== 'ALL')"
-      @close="isModalOpen = false" @submit="handleSubmission" />
   </div>
+
+
+  <div v-if="loading" class="status-msg">LOADING PROMPTS...</div>
+
+  <div v-else-if="filteredPrompts.length === 0" class="status-msg">NO MATCHING PROMPTS FOUND</div>
+
+  <!-- Main Grid -->
+  <div v-else class="grid-container">
+    <div v-for="prompt in filteredPrompts" :key="prompt.id" class="prompt-item" @click="selectedPrompt = prompt">
+      <div class="item-header">
+        <span class="meta-cat">{{ prompt.category }}</span>
+        <div class="header-actions">
+          <button class="icon-btn action-btn" @click.stop="copyToClipboard(prompt.content)" title="Copy">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+          </button>
+          <button class="icon-btn delete-btn" @click.stop="handleDelete(prompt.id)" title="Delete">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="3 6 5 6 21 6"></polyline>
+              <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="item-body">
+        <h3 class="item-title">{{ prompt.title }}</h3>
+        <p class="item-summary">{{ prompt.content }}</p>
+      </div>
+
+      <div class="item-footer">
+        <div class="meta-tags-row">
+          <span class="version-badge" v-if="prompt.version > 1">v{{ prompt.version }}</span>
+          <span v-for="tag in prompt.tags?.slice(0, 4)" :key="tag" class="meta-tag" @click.stop="selectedTag = tag">
+            #{{ tag }}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Detail Modal -->
+  <Teleport to="body">
+    <Transition name="fade">
+      <div v-if="selectedPrompt" class="modal-overlay" @click="selectedPrompt = null">
+        <div class="modal-panel" @click.stop>
+
+          <div class="modal-top-bar">
+            <span class="modal-id">ID: {{ selectedPrompt.id.slice(-6) }}</span>
+            <button class="close-btn" @click="selectedPrompt = null">CLOSE [ESC]</button>
+          </div>
+
+          <div class="modal-content-scroll">
+            <div class="article-header">
+              <div class="header-top">
+                <span class="meta-cat-badge">{{ selectedPrompt.category }}</span>
+                <span class="version-badge" v-if="selectedPrompt.version > 1">v{{ selectedPrompt.version }}</span>
+              </div>
+              <h1 class="article-title">{{ selectedPrompt.title }}</h1>
+              <div class="meta-tags-row large">
+                <span v-for="tag in selectedPrompt.tags" :key="tag" class="meta-tag">#{{ tag }}</span>
+              </div>
+            </div>
+
+            <div class="prompt-content-box">
+              <textarea v-if="isEditing" v-model="editContent" class="prompt-editor"
+                placeholder="Enter prompt content..."></textarea>
+              <pre v-else>{{ selectedPrompt.content }}</pre>
+            </div>
+
+            <div class="modal-actions-bar">
+              <div v-if="isEditing" class="editing-actions">
+                <button class="action-btn primary large" @click="saveEdit">
+                  SAVE CHANGES
+                </button>
+                <button class="action-btn text" @click="cancelEdit">
+                  CANCEL
+                </button>
+              </div>
+              <div v-else class="view-actions">
+                <button class="action-btn primary large" @click="copyToClipboard(selectedPrompt.content)">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                  COPY PROMPT
+                </button>
+                <div class="secondary-actions">
+                  <button class="action-btn text" @click="startEdit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path>
+                    </svg>
+                    EDIT
+                  </button>
+                  <button class="action-btn text danger"
+                    @click="handleDelete(selectedPrompt.id); selectedPrompt = null">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="3 6 5 6 21 6"></polyline>
+                      <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                    </svg>
+                    DELETE
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </Transition>
+  </Teleport>
+
 </template>
 
 <style scoped>
