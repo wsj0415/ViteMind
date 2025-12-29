@@ -4,6 +4,7 @@ import path from 'path'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/ViteMind/",
+  lang: 'zh-CN',
   title: "ViteMind",
   description: "UNCOVER THE FUTURE OF AI",
   cleanUrls: true,

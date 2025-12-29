@@ -26,3 +26,23 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/* Enforce Violet Links */
+a {
+    color: var(--vp-c-brand);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--vp-c-brand-dark);
+}
+
+/* Override default link color if needed (VitePress sometimes sets it on body/p) */
+.vp-doc a {
+    color: var(--vp-c-brand);
+}
+
+.vp-doc a:hover {
+    color: var(--vp-c-brand-dark);
+}

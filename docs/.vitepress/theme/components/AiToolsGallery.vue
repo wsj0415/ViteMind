@@ -2,6 +2,7 @@
 import { ref, computed, onMounted } from 'vue'
 import { createClient } from '@supabase/supabase-js'
 import SubmitToolModal from './SubmitToolModal.vue'
+import BaseIcon from './BaseIcon.vue'
 
 // Supabase Client (lazy initialization for SSR compatibility)
 const supabaseUrl = import.meta.env.SUPABASE_URL
@@ -18,6 +19,23 @@ const isModalOpen = ref(false)
 const showPending = ref(false)
 const showBackToTop = ref(false)
 const sortBy = ref('default') // 'default' | 'name-asc' | 'name-desc'
+
+// Compute popular tags
+const popularTags = computed(() => {
+  const tagCounts = {}
+  tools.value.forEach(tool => {
+    if (tool.tags) {
+      tool.tags.forEach(tag => {
+        tagCounts[tag] = (tagCounts[tag] || 0) + 1
+      })
+    }
+  })
+
+  return Object.entries(tagCounts)
+    .sort((a, b) => b[1] - a[1]) // Sort by count desc
+    .slice(0, 10) // Top 10
+    .map(([tag]) => tag)
+})
 
 // Scroll event handler for back to top button
 const handleScroll = () => {
@@ -172,9 +190,7 @@ const filteredPending = computed(() => {
           :class="{ active: selectedCategory === cat }"
           @click="selectedCategory = cat"
         >
-          <span class="cat-icon">
-            {{ cat === 'ALL' ? '🌐' : cat === 'Coding' ? '💻' : cat === 'Image' ? '🎨' : cat === 'Video' ? '🎬' : cat === 'Writing' ? '✍️' : cat === 'Audio' ? '🎵' : '⚡' }}
-          </span>
+          <BaseIcon :name="cat" :size="20" class="cat-icon" />
           <span class="cat-name">{{ cat }}</span>
         </button>
       </nav>
@@ -186,9 +202,26 @@ const filteredPending = computed(() => {
           :class="{ active: showPending }"
           @click="showPending = !showPending"
         >
-          <span>🕐</span>
+          <BaseIcon name="Pending" :size="16" />
           <span>Pending ({{ pendingTools.length }})</span>
         </button>
+      </div>
+
+      <!-- Popular Tags -->
+      <div v-if="popularTags.length > 0" class="sidebar-section">
+        <div class="sidebar-header">
+          <h2>Popular Tags</h2>
+        </div>
+        <div class="tags-cloud">
+          <button
+            v-for="tag in popularTags"
+            :key="tag"
+            class="tag-chip"
+            @click="searchQuery = tag"
+          >
+            #{{ tag }}
+          </button>
+        </div>
       </div>
     </aside>
 
@@ -198,7 +231,7 @@ const filteredPending = computed(() => {
       <header class="content-header">
         <div class="search-wrapper">
           <div class="search-container">
-            <span class="search-icon">🔍</span>
+            <BaseIcon name="Search" :size="16" class="search-icon" />
             <input 
               v-model="searchQuery" 
               type="text" 
@@ -209,7 +242,9 @@ const filteredPending = computed(() => {
               v-if="searchQuery" 
               class="clear-btn" 
               @click="clearSearch"
-            >✕</button>
+            >
+              <BaseIcon name="Close" :size="12" />
+            </button>
           </div>
           <span class="tools-count">找到 {{ filteredTools.length }} 个工具</span>
         </div>
@@ -220,7 +255,7 @@ const filteredPending = computed(() => {
             <option value="name-desc">名称 Z-A</option>
           </select>
           <button class="submit-btn" @click="isModalOpen = true">
-            <span>+</span> Submit Tool
+            <BaseIcon name="Plus" :size="16" /> Submit Tool
           </button>
         </div>
       </header>
@@ -239,12 +274,17 @@ const filteredPending = computed(() => {
             class="tool-card pending"
           >
             <div class="card-header">
-              <img 
-                :src="getFavicon(tool.link)" 
-                class="tool-favicon"
-                @error="$event.target.style.display='none'"
-              />
-              <span class="tool-arrow">↗</span>
+              <div class="favicon-wrapper">
+                <img
+                  :src="getFavicon(tool.link)"
+                  class="tool-favicon"
+                  width="48"
+                  height="48"
+                  loading="lazy"
+                  @error="$event.target.style.opacity='0'"
+                />
+              </div>
+              <BaseIcon name="ArrowUpRight" :size="16" class="tool-arrow" />
             </div>
             <div class="card-body">
               <h4 class="tool-name">{{ tool.name }}</h4>
@@ -288,7 +328,7 @@ const filteredPending = computed(() => {
             <div class="card-footer">
               <span class="tool-category">{{ tool.category }}</span>
               <div class="tool-tags">
-                <span v-for="tag in tool.tags?.slice(0, 2)" :key="tag" class="tag">{{ tag }}</span>
+                <span v-for="tag in tool.tags?.slice(0, 3)" :key="tag" class="tag">{{ tag }}</span>
               </div>
             </div>
           </a>
@@ -370,6 +410,7 @@ const filteredPending = computed(() => {
   font-weight: 500;
   transition: all 0.15s ease;
   text-align: left;
+  white-space: nowrap; /* Prevent wrapping in horizontal mode */
 }
 
 .cat-item:hover {
@@ -412,6 +453,36 @@ const filteredPending = computed(() => {
   border-color: var(--vp-c-brand);
   color: var(--vp-c-brand);
   background: var(--vp-c-brand-soft);
+}
+
+.sidebar-section {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+.tags-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0 12px;
+}
+
+.tag-chip {
+  font-size: 11px;
+  padding: 4px 10px;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid transparent;
+  border-radius: 12px;
+  color: var(--vp-c-text-2);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tag-chip:hover {
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand);
+  border-color: var(--vp-c-brand-light);
 }
 
 /* Main Content */
@@ -621,13 +692,24 @@ const filteredPending = computed(() => {
   margin-bottom: 16px;
 }
 
-.tool-favicon {
+.favicon-wrapper {
   width: 48px;
   height: 48px;
   border-radius: 12px;
   background: var(--vp-c-bg-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.tool-favicon {
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   padding: 4px;
+  transition: opacity 0.2s ease;
 }
 
 .tool-arrow {
@@ -734,28 +816,56 @@ const filteredPending = computed(() => {
   .sidebar {
     width: 100%;
     height: auto;
-    position: static;
+    position: sticky; /* Keep it sticky on mobile too if desired, or static */
+    top: 64px;
+    z-index: 10;
     border-right: none;
     border-bottom: 1px solid var(--vp-c-divider);
-    padding: 16px;
+    padding: 12px 16px;
+    background: var(--vp-c-bg);
   }
   
+  .sidebar-header {
+    display: none; /* Hide header on mobile to save space */
+  }
+
   .category-nav {
     flex-direction: row;
-    flex-wrap: wrap;
-    gap: 8px;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    gap: 12px;
+    overflow-x: auto; /* Horizontal scroll */
+    padding-bottom: 4px; /* Space for scrollbar if any */
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    /* Hide scrollbar */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
   }
-  
-  .cat-item {
-    padding: 8px 12px;
-  }
-  
-  .cat-name {
+
+  .category-nav::-webkit-scrollbar {
     display: none;
   }
   
+  .cat-item {
+    padding: 8px 16px;
+    flex-shrink: 0; /* Prevent shrinking */
+    scroll-snap-align: start;
+    background: var(--vp-c-bg-soft); /* Adding background to make them look like chips */
+    border-radius: 20px;
+  }
+  
+  .cat-item.active {
+    background: var(--vp-c-brand);
+    color: white;
+  }
+
+  .cat-name {
+    display: inline-block; /* Show name again */
+    font-size: 13px;
+  }
+  
   .cat-icon {
-    font-size: 20px;
+    font-size: 16px;
   }
   
   .main-content {
