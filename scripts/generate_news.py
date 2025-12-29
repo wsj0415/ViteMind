@@ -179,45 +179,43 @@ def save_to_json(new_items):
         except json.JSONDecodeError:
             existing_data = []
     
-    # Create sets for existing links and titles for deduplication
-    existing_links = set(item.get("link") for item in existing_data if item.get("link"))
-    existing_titles = set(item.get("title") for item in existing_data if item.get("title"))
+    # Process all data (New + Existing) to remove duplicates
+    # Prioritize new items (they are at the start of the list if we prepend them)
 
-    # Filter new_items
-    unique_new_items = []
-    for item in new_items:
-        link = item.get("link")
-        title = item.get("title")
-
-        # Check if link exists (if link is present) or title exists
-        if (link and link in existing_links) or (title and title in existing_titles):
-            print(f"Duplicate skipped: {title} ({link})")
-            continue
-
-        unique_new_items.append(item)
-        # Update sets to prevent duplicates within the new batch itself
-        if link:
-            existing_links.add(link)
-        if title:
-            existing_titles.add(title)
-
-    new_items = unique_new_items
-    if not new_items:
-        print("No new unique items to save.")
-        return
-
-    # 合并数据（将新数据插到最前面）
-    # 为每条数据添加 ID (简单的基于时间戳)
+    # 为每条新数据添加 ID (简单的基于时间戳)
     for item in new_items:
         item['id'] = str(int(datetime.now().timestamp() * 1000)) + str(new_items.index(item))
         # 确保日期字段存在
         if 'date' not in item:
             item['date'] = datetime.now().strftime("%Y-%m-%d")
 
-    updated_data = new_items + existing_data
-    
-    # 限制总条数，防止文件过大（保留最近 100 条）
-    updated_data = updated_data[:100]
+    combined_data = new_items + existing_data
+
+    unique_data = []
+    seen_links = set()
+    seen_titles = set()
+
+    for item in combined_data:
+        link = item.get("link")
+        title = item.get("title")
+
+        is_duplicate = False
+        if link and link in seen_links:
+            is_duplicate = True
+        if title and title in seen_titles:
+            is_duplicate = True
+
+        if is_duplicate:
+            # print(f"Skipping duplicate in final list: {title}")
+            continue
+
+        unique_data.append(item)
+        if link:
+            seen_links.add(link)
+        if title:
+            seen_titles.add(title)
+
+    updated_data = unique_data[:100]
 
     # 确保目录存在
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
