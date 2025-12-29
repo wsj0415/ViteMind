@@ -179,6 +179,33 @@ def save_to_json(new_items):
         except json.JSONDecodeError:
             existing_data = []
     
+    # Create sets for existing links and titles for deduplication
+    existing_links = set(item.get("link") for item in existing_data if item.get("link"))
+    existing_titles = set(item.get("title") for item in existing_data if item.get("title"))
+
+    # Filter new_items
+    unique_new_items = []
+    for item in new_items:
+        link = item.get("link")
+        title = item.get("title")
+
+        # Check if link exists (if link is present) or title exists
+        if (link and link in existing_links) or (title and title in existing_titles):
+            print(f"Duplicate skipped: {title} ({link})")
+            continue
+
+        unique_new_items.append(item)
+        # Update sets to prevent duplicates within the new batch itself
+        if link:
+            existing_links.add(link)
+        if title:
+            existing_titles.add(title)
+
+    new_items = unique_new_items
+    if not new_items:
+        print("No new unique items to save.")
+        return
+
     # 合并数据（将新数据插到最前面）
     # 为每条数据添加 ID (简单的基于时间戳)
     for item in new_items:
