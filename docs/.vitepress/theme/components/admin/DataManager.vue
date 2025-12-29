@@ -27,6 +27,10 @@ const searchQuery = ref('')
 const editingId = ref(null)
 const editForm = ref({})
 
+// Create state
+const showCreateModal = ref(false)
+const createForm = ref({})
+
 // Fetch data
 const fetchData = async () => {
     loading.value = true
@@ -133,18 +137,97 @@ const toggleBoolean = async (item, field) => {
         alert('操作失败: ' + e.message)
     }
 }
+
+// Create Actions
+const startCreate = () => {
+    createForm.value = {}
+    // Initialize boolean fields to false or defaults if needed
+    props.columns.forEach(col => {
+        if (col.type === 'boolean') {
+            createForm.value[col.key] = false
+        }
+    })
+    showCreateModal.value = true
+}
+
+const cancelCreate = () => {
+    showCreateModal.value = false
+    createForm.value = {}
+}
+
+const saveCreate = async () => {
+    try {
+        const { data: newItem, error } = await supabase
+            .from(props.tableName)
+            .insert([createForm.value])
+            .select()
+            .single()
+
+        if (error) throw error
+
+        if (newItem) {
+            data.value.unshift(newItem)
+        }
+
+        showCreateModal.value = false
+        createForm.value = {}
+        // alert('创建成功')
+    } catch (e) {
+        console.error('Error creating:', e)
+        alert('创建失败: ' + e.message)
+    }
+}
 </script>
 
 <template>
     <div class="data-manager">
         <!-- Toolbar -->
         <div class="toolbar">
-            <div class="search-box">
-                <span class="search-icon">🔍</span>
-                <input v-model="searchQuery" type="text" placeholder="搜索..." class="search-input" />
+            <div class="left-tools">
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input v-model="searchQuery" type="text" placeholder="搜索..." class="search-input" />
+                </div>
             </div>
-            <button class="refresh-btn" @click="fetchData">🔄 刷新</button>
+            <div class="right-tools">
+                <button class="create-btn" @click="startCreate">➕ 新增</button>
+                <button class="refresh-btn" @click="fetchData">🔄 刷新</button>
+            </div>
         </div>
+
+        <!-- Create Modal -->
+        <Teleport to="body">
+            <div v-if="showCreateModal" class="modal-overlay">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>新增记录</h3>
+                        <button class="close-btn" @click="cancelCreate">✕</button>
+                    </div>
+                    <div class="modal-body">
+                        <div v-for="col in columns" :key="col.key" class="form-group">
+                            <template v-if="col.editable">
+                                <label>{{ col.label }}</label>
+                                <input v-if="col.type === 'text' || col.type === 'link'"
+                                    v-model="createForm[col.key]" type="text" class="form-input" />
+                                <textarea v-else-if="col.type === 'textarea'"
+                                    v-model="createForm[col.key]" class="form-input" rows="3"></textarea>
+                                <div v-else-if="col.type === 'boolean'" class="checkbox-group">
+                                    <input type="checkbox" v-model="createForm[col.key]" />
+                                    <span>{{ createForm[col.key] ? '是' : '否' }}</span>
+                                </div>
+                                <!-- Date is typically auto-generated, so skipping unless editable -->
+                                <input v-else-if="col.type === 'date'"
+                                    v-model="createForm[col.key]" type="date" class="form-input" />
+                            </template>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="cancel-btn" @click="cancelCreate">取消</button>
+                        <button class="save-btn" @click="saveCreate">保存</button>
+                    </div>
+                </div>
+            </div>
+        </Teleport>
 
         <!-- Table -->
         <div class="table-container">
@@ -241,6 +324,12 @@ const toggleBoolean = async (item, field) => {
     background: var(--vp-c-bg-alt);
 }
 
+.left-tools, .right-tools {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
 .search-box {
     display: flex;
     align-items: center;
@@ -264,7 +353,7 @@ const toggleBoolean = async (item, field) => {
     outline: none;
 }
 
-.refresh-btn {
+.refresh-btn, .create-btn {
     padding: 6px 12px;
     background: var(--vp-c-bg);
     border: 1px solid var(--vp-c-divider);
@@ -272,6 +361,16 @@ const toggleBoolean = async (item, field) => {
     cursor: pointer;
     font-size: 13px;
     color: var(--vp-c-text-2);
+}
+
+.create-btn {
+    background: var(--vp-c-brand);
+    color: white;
+    border: none;
+}
+
+.create-btn:hover {
+    background: var(--vp-c-brand-dark);
 }
 
 .refresh-btn:hover {
@@ -407,5 +506,108 @@ const toggleBoolean = async (item, field) => {
     text-align: center;
     padding: 40px;
     color: var(--vp-c-text-3);
+}
+
+/* Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: var(--vp-c-bg);
+    border-radius: 8px;
+    width: 500px;
+    max-width: 90%;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.modal-header {
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--vp-c-divider);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--vp-c-text-2);
+}
+
+.modal-body {
+    padding: 24px;
+    overflow-y: auto;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--vp-c-text-2);
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid var(--vp-c-divider);
+    border-radius: 4px;
+    background: var(--vp-c-bg-alt);
+    color: var(--vp-c-text-1);
+    font-size: 14px;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: var(--vp-c-brand);
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.modal-footer {
+    padding: 16px 24px;
+    border-top: 1px solid var(--vp-c-divider);
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.modal-footer .save-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+.modal-footer .cancel-btn {
+    padding: 8px 16px;
+    font-size: 14px;
 }
 </style>
