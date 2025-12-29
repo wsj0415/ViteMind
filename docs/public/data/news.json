@@ -1,40 +1,39 @@
 [
   {
-    "title": "PostTrainBench发布：评估AI代理后训练语言模型的能力",
-    "summary": "PostTrainBench通过实验评估不同AI代理在后训练语言模型上的表现。",
-    "detail": "PostTrainBench是一个用于测量AI代理在后训练语言模型能力的平台。该研究给每个代理提供4个小目标语言模型、一个H100 GPU和10小时的时间来完成后训练任务。结果显示，人类后训练的效果显著优于自动化代理。此研究揭示了当前AI代理在后训练阶段的表现差距，对未来的AI优化和开发具有指导意义。",
+    "title": "PostTrainBench: 测量AI代理对预训练语言模型的后训练效果",
+    "summary": "PostTrainBench评估不同AI代理在10小时内使用单个GPU对小目标LLM进行后训练的效果。",
+    "detail": "PostTrainBench 是一个评估工具，旨在测量不同AI代理在有限资源下提升预训练语言模型性能的能力。该研究给每个代理提供了4个小目标LLM、一个H100 GPU和10小时的时间来完成后训练任务。结果显示，人类手动调优后的模型性能显著优于所有自动化的AI代理。这项研究有助于理解当前AI代理在优化LLM方面的局限性和未来改进的方向。",
     "tags": [
       "Dev",
       "LLM"
     ],
     "link": "https://posttrainbench.com/",
     "date": "2025-12-29",
-    "id": "17670272700810"
+    "id": "17670278672190"
+  },
+  {
+    "title": "Meta内部的AI解决方案：Google它",
+    "summary": "Meta在其内部AI需求方面依赖于Google的服务。",
+    "detail": "这篇报道揭示了Meta公司内部在应对AI需求时采取的一种策略，即依赖于Google的服务和技术支持，而不是自主研发AI系统。这一现象反映了大型科技公司在AI领域的资源分配和战略选择，以及外部服务在满足特定需求时的优势。",
+    "tags": [
+      "News",
+      "Google"
+    ],
+    "link": "https://sf.gazetteer.co/metas-internal-solution-to-its-ai-needs-google-it",
+    "date": "2025-12-29",
+    "id": "17670278672191"
   },
   {
     "title": "开源AI工具包：Rust版AI-SDK",
-    "summary": "一个为Rust语言设计的开源AI工具包，支持多种功能。",
-    "detail": "Open Source AI Toolkit for Rust是一个专为Rust语言设计的开源AI工具包。它支持语言模型请求、工具集成、数据结构映射等多种功能。通过简洁的API，开发者可以轻松集成和扩展AI功能，适用于各种应用场景。这为Rust社区提供了强大的AI开发支持。",
+    "summary": "一个用于Rust语言的开源AI开发工具包，支持多种语言模型和服务集成。",
+    "detail": "AI-SDK for Rust 是一个开源的开发工具包，旨在简化Rust开发者在项目中集成和使用各种语言模型的过程。该工具包支持OpenAI等主流提供商的模型，并提供了丰富的功能，如文本生成、工具集成和数据模式匹配。这对于希望利用AI技术增强应用功能的Rust开发者来说是一个有价值的资源。",
     "tags": [
-      "New",
+      "Dev",
       "Rust"
     ],
     "link": "https://aisdk.rs/",
     "date": "2025-12-29",
-    "id": "17670272700811"
-  },
-  {
-    "title": "Meta依赖Google解决其内部AI需求",
-    "summary": "Meta在内部AI解决方案上选择依赖Google的服务。",
-    "detail": "Meta公司决定在其内部AI需求方面依赖Google的服务，而不是自行开发。这一决定反映了大型科技公司在面对复杂和高成本的AI基础设施时的策略转变。通过使用Google的服务，Meta可以利用Google在AI领域的深厚积累和技术优势，从而更专注于其核心业务。这种选择也引发了关于数据安全和隐私保护的讨论，因为Meta的数据将被传输到Google的平台上。",
-    "tags": [
-      "News",
-      "Google",
-      "Meta"
-    ],
-    "link": "https://sf.gazetteer.co/metas-internal-solution-to-its-ai-needs-google-it",
-    "date": "2025-12-11",
-    "id": "17670266254780"
+    "id": "17670278672192"
   },
   {
     "title": "2025开发者调查：AI使用率上升但信任度下降",
