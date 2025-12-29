@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 
 const props = defineProps({
     isOpen: Boolean,
@@ -79,39 +79,53 @@ const close = () => {
     message.value = ''
     isSuccess.value = false
 }
+
+const handleKeydown = (e) => {
+    if (e.key === 'Escape' && props.isOpen) {
+        close()
+    }
+}
+
+onMounted(() => {
+    window.addEventListener('keydown', handleKeydown)
+})
+
+onUnmounted(() => {
+    window.removeEventListener('keydown', handleKeydown)
+})
 </script>
 
 <template>
     <Teleport to="body">
         <Transition name="fade">
-            <div v-if="isOpen" class="modal-overlay" @click="close">
+            <div v-if="isOpen" class="modal-overlay" @click="close" role="dialog" aria-modal="true" aria-labelledby="modal-title">
                 <div class="modal-panel" @click.stop>
 
                     <div class="modal-header">
-                        <span class="modal-title">提交设计资源</span>
+                        <span id="modal-title" class="modal-title">提交设计资源</span>
                         <button class="close-btn" @click="close">关闭 [ESC]</button>
                     </div>
 
                     <div class="modal-content">
                         <div class="form-group">
-                            <label>资源名称 *</label>
-                            <input v-model="form.title" type="text" placeholder="例如: Figma" class="swiss-input" />
+                            <label for="resource-title">资源名称 *</label>
+                            <input id="resource-title" v-model="form.title" type="text" placeholder="例如: Figma" class="swiss-input" />
                         </div>
 
                         <div class="form-group">
-                            <label>资源链接 *</label>
-                            <input v-model="form.url" type="text" placeholder="https://..." class="swiss-input" />
+                            <label for="resource-url">资源链接 *</label>
+                            <input id="resource-url" v-model="form.url" type="text" placeholder="https://..." class="swiss-input" />
                         </div>
 
                         <div class="form-group">
-                            <label>资源描述 *</label>
-                            <textarea v-model="form.description" rows="3" placeholder="简要描述这个资源..."
+                            <label for="resource-desc">资源描述 *</label>
+                            <textarea id="resource-desc" v-model="form.description" rows="3" placeholder="简要描述这个资源..."
                                 class="swiss-input"></textarea>
                         </div>
 
                         <div class="form-group">
-                            <label>分类</label>
-                            <select v-model="form.category" class="swiss-select">
+                            <label for="resource-category">分类</label>
+                            <select id="resource-category" v-model="form.category" class="swiss-select">
                                 <option v-for="cat in categories" :key="cat" :value="cat">{{ cat }}</option>
                             </select>
                         </div>
@@ -127,8 +141,8 @@ const close = () => {
                         </div>
 
                         <div class="form-group">
-                            <label>Logo URL (可选)</label>
-                            <input v-model="form.logo_url" type="text" placeholder="https://..." class="swiss-input" />
+                            <label for="resource-logo">Logo URL (可选)</label>
+                            <input id="resource-logo" v-model="form.logo_url" type="text" placeholder="https://..." class="swiss-input" />
                         </div>
 
                         <div v-if="message" class="status-msg" :class="{ success: isSuccess, error: !isSuccess }">

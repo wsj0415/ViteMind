@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 import { createClient } from '@supabase/supabase-js'
 
 const props = defineProps({
@@ -98,40 +98,54 @@ const close = () => {
   message.value = ''
   isSuccess.value = false
 }
+
+const handleKeydown = (e) => {
+  if (e.key === 'Escape' && props.isOpen) {
+    close()
+  }
+}
+
+onMounted(() => {
+  window.addEventListener('keydown', handleKeydown)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('keydown', handleKeydown)
+})
 </script>
 
 <template>
   <Teleport to="body">
     <Transition name="fade">
-      <div v-if="isOpen" class="modal-overlay" @click="close">
+      <div v-if="isOpen" class="modal-overlay" @click="close" role="dialog" aria-modal="true" aria-labelledby="modal-title">
         <div class="modal-panel" @click.stop>
           
           <div class="modal-header">
-            <span class="modal-title">SUBMIT NEW TOOL</span>
+            <span id="modal-title" class="modal-title">SUBMIT NEW TOOL</span>
             <button class="close-btn" @click="close">CLOSE [ESC]</button>
           </div>
 
           <div class="modal-content">
             <div class="form-group">
-              <label>TOOL NAME *</label>
-              <input v-model="form.name" type="text" placeholder="e.g. ChatGPT" class="swiss-input" />
+              <label for="tool-name">TOOL NAME *</label>
+              <input id="tool-name" v-model="form.name" type="text" placeholder="e.g. ChatGPT" class="swiss-input" />
             </div>
 
             <div class="form-group">
-              <label>LINK *</label>
-              <input v-model="form.link" type="text" placeholder="https://..." class="swiss-input" />
+              <label for="tool-link">LINK *</label>
+              <input id="tool-link" v-model="form.link" type="text" placeholder="https://..." class="swiss-input" />
             </div>
 
             <div class="form-group">
-              <label>CATEGORY</label>
-              <select v-model="form.category" class="swiss-select">
+              <label for="tool-category">CATEGORY</label>
+              <select id="tool-category" v-model="form.category" class="swiss-select">
                 <option v-for="cat in categories" :key="cat" :value="cat">{{ cat }}</option>
               </select>
             </div>
 
             <div class="form-group">
-              <label>DESCRIPTION</label>
-              <textarea v-model="form.desc" rows="3" placeholder="Brief description..." class="swiss-input"></textarea>
+              <label for="tool-desc">DESCRIPTION</label>
+              <textarea id="tool-desc" v-model="form.desc" rows="3" placeholder="Brief description..." class="swiss-input"></textarea>
             </div>
 
             <div v-if="message" class="status-msg" :class="{ success: isSuccess, error: !isSuccess }">
