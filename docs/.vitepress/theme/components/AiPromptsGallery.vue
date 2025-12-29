@@ -108,30 +108,30 @@ onMounted(async () => {
   const supabaseKey = import.meta.env.SUPABASE_KEY
 
   if (supabaseUrl && supabaseKey) {
-      supabase = createClient(supabaseUrl, supabaseKey)
+    supabase = createClient(supabaseUrl, supabaseKey)
 
-      try {
-        loading.value = true
-        const { data, error } = await supabase
-          .from('ai_prompts')
-          .select('*')
-          .eq('approved', true)
-          .eq('is_deleted', false) // Filter out deleted
-          .order('created_at', { ascending: false })
+    try {
+      loading.value = true
+      const { data, error } = await supabase
+        .from('ai_prompts')
+        .select('*')
+        .eq('approved', true)
+        .eq('is_deleted', false) // Filter out deleted
+        .order('created_at', { ascending: false })
 
-        if (error) throw error
+      if (error) throw error
 
-        if (data) {
-          prompts.value = data
-        }
-      } catch (e) {
-        console.error('Error fetching prompts:', e)
-      } finally {
-        loading.value = false
+      if (data) {
+        prompts.value = data
       }
-  } else {
-      console.warn('Supabase credentials missing')
+    } catch (e) {
+      console.error('Error fetching prompts:', e)
+    } finally {
       loading.value = false
+    }
+  } else {
+    console.warn('Supabase credentials missing')
+    loading.value = false
   }
 })
 
@@ -151,7 +151,8 @@ const filteredPrompts = computed(() => {
     const matchesCat = selectedCategory.value === 'ALL' || p.category === selectedCategory.value
     const matchesTag = selectedTag.value === 'ALL' || (p.tags && p.tags.includes(selectedTag.value))
     const matchesSearch = p.title.toLowerCase().includes(searchQuery.value.toLowerCase()) ||
-      p.content.toLowerCase().includes(searchQuery.value.toLowerCase())
+      p.content.toLowerCase().includes(searchQuery.value.toLowerCase()) ||
+      p.tags?.some(tag => tag.toLowerCase().includes(searchQuery.value.toLowerCase()))
     return matchesCat && matchesTag && matchesSearch
   })
 })

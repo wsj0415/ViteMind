@@ -45,7 +45,8 @@ const allTags = computed(() => {
 // Computed: Filter news based on search and tag
 const filteredNews = computed(() => {
   return news.value.filter(item => {
-    const matchesSearch = (item.title + item.summary).toLowerCase().includes(searchQuery.value.toLowerCase())
+    const matchesSearch = (item.title + item.summary).toLowerCase().includes(searchQuery.value.toLowerCase()) ||
+      item.tags?.some(tag => tag.toLowerCase().includes(searchQuery.value.toLowerCase()))
     const matchesTag = selectedTag.value === 'ALL' || (item.tags && item.tags.includes(selectedTag.value))
     return matchesSearch && matchesTag
   })
@@ -57,7 +58,7 @@ const groupedNews = computed(() => {
   filteredNews.value.forEach(item => {
     const date = new Date(item.date)
     const monthKey = date.toLocaleString('en-US', { month: 'short', year: 'numeric' }).toUpperCase() // e.g. DEC 2025
-    
+
     if (!groups[monthKey]) {
       groups[monthKey] = {
         month: monthKey,
@@ -67,7 +68,7 @@ const groupedNews = computed(() => {
     }
     groups[monthKey].items.push(item)
   })
-  
+
   // Return array sorted by timestamp descending
   return Object.values(groups).sort((a, b) => b.timestamp - a.timestamp)
 })
@@ -93,42 +94,24 @@ const renderMarkdown = (text) => {
     <div class="control-bar">
       <div class="search-container">
         <span class="search-icon">🔍</span>
-        <input 
-          v-model="searchQuery" 
-          type="text" 
-          placeholder="SEARCH INTELLIGENCE..." 
-          class="search-input"
-        />
+        <input v-model="searchQuery" type="text" placeholder="SEARCH INTELLIGENCE..." class="search-input" />
       </div>
-      
+
       <div class="filter-row">
         <div class="filter-tags">
-          <button 
-            v-for="tag in allTags" 
-            :key="tag"
-            class="filter-tag"
-            :class="{ active: selectedTag === tag }"
-            @click="selectedTag = tag"
-          >
+          <button v-for="tag in allTags" :key="tag" class="filter-tag" :class="{ active: selectedTag === tag }"
+            @click="selectedTag = tag">
             {{ tag }}
           </button>
         </div>
 
         <!-- View Toggle -->
         <div class="view-toggle">
-          <button 
-            class="toggle-btn" 
-            :class="{ active: viewMode === 'grid' }"
-            @click="viewMode = 'grid'"
-          >
+          <button class="toggle-btn" :class="{ active: viewMode === 'grid' }" @click="viewMode = 'grid'">
             GRID
           </button>
           <span class="toggle-sep">/</span>
-          <button 
-            class="toggle-btn" 
-            :class="{ active: viewMode === 'timeline' }"
-            @click="viewMode = 'timeline'"
-          >
+          <button class="toggle-btn" :class="{ active: viewMode === 'timeline' }" @click="viewMode = 'timeline'">
             TIMELINE
           </button>
         </div>
@@ -136,25 +119,20 @@ const renderMarkdown = (text) => {
     </div>
 
     <div v-if="loading" class="status-msg">LOADING DATA...</div>
-    
+
     <div v-else-if="filteredNews.length === 0" class="status-msg">NO MATCHING INTELLIGENCE FOUND</div>
 
     <!-- Grid View -->
     <div v-else-if="viewMode === 'grid'" class="grid-container">
-      <div 
-        v-for="item in filteredNews" 
-        :key="item.id" 
-        class="news-item"
-        @click="openNews(item)"
-      >
+      <div v-for="item in filteredNews" :key="item.id" class="news-item" @click="openNews(item)">
         <div class="item-header">
           <span class="meta-date">{{ item.date }}</span>
         </div>
-        
+
         <div class="meta-tags-row">
           <span v-for="tag in item.tags" :key="tag" class="meta-tag">#{{ tag }}</span>
         </div>
-        
+
         <div class="item-body">
           <h3 class="item-title">{{ item.title }}</h3>
           <p class="item-summary">{{ item.summary }}</p>
@@ -172,12 +150,7 @@ const renderMarkdown = (text) => {
       <div v-for="group in groupedNews" :key="group.month" class="timeline-group">
         <div class="timeline-month">{{ group.month }}</div>
         <div class="timeline-list">
-          <div 
-            v-for="item in group.items" 
-            :key="item.id" 
-            class="timeline-item"
-            @click="openNews(item)"
-          >
+          <div v-for="item in group.items" :key="item.id" class="timeline-item" @click="openNews(item)">
             <div class="tl-date">{{ item.date.split('-')[2] }}</div> <!-- Day only -->
             <div class="tl-content">
               <div class="tl-header">
@@ -198,7 +171,7 @@ const renderMarkdown = (text) => {
       <Transition name="fade">
         <div v-if="selectedNews" class="modal-overlay" @click="closeNews">
           <div class="modal-panel" @click.stop>
-            
+
             <div class="modal-top-bar">
               <span class="modal-id">ID: {{ selectedNews.id.slice(-6) }}</span>
               <button class="close-btn" @click="closeNews">CLOSE [ESC]</button>
@@ -215,7 +188,7 @@ const renderMarkdown = (text) => {
               </div>
 
               <div class="article-body markdown-body" v-html="renderMarkdown(selectedNews.detail)"></div>
-              
+
               <div class="article-footer">
                 <a :href="selectedNews.link" target="_blank" class="source-link">
                   SOURCE LINK ↗
@@ -697,7 +670,7 @@ const renderMarkdown = (text) => {
     border-left: none;
     border-right: none;
   }
-  
+
   .news-item {
     border-right: none;
     height: auto;

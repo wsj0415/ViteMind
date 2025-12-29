@@ -129,7 +129,8 @@ const filteredResources = computed(() => {
         const matchesCat = selectedCategory.value === 'ALL' || r.category === selectedCategory.value
         const matchesSearch = !query ||
             r.title?.toLowerCase().includes(query) ||
-            r.description?.toLowerCase().includes(query)
+            r.description?.toLowerCase().includes(query) ||
+            r.tags?.some(tag => tag.toLowerCase().includes(query))
         return matchesCat && matchesSearch
     })
 
@@ -229,7 +230,7 @@ const regularResources = computed(() => {
                                 <span class="resource-category">{{ resource.category }}</span>
                                 <div class="resource-tags">
                                     <span v-for="tag in resource.tags?.slice(0, 2)" :key="tag" class="tag">{{ tag
-                                        }}</span>
+                                    }}</span>
                                 </div>
                             </div>
                         </a>
@@ -260,7 +261,7 @@ const regularResources = computed(() => {
                                 <span class="resource-category">{{ resource.category }}</span>
                                 <div class="resource-tags">
                                     <span v-for="tag in resource.tags?.slice(0, 2)" :key="tag" class="tag">{{ tag
-                                        }}</span>
+                                    }}</span>
                                 </div>
                             </div>
                         </a>
