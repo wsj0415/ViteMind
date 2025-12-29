@@ -3,9 +3,6 @@ import { ref } from 'vue'
 import { createClient } from '@supabase/supabase-js'
 import { useRouter } from 'vitepress'
 
-const supabaseUrl = import.meta.env.SUPABASE_URL
-const supabaseKey = import.meta.env.SUPABASE_KEY
-const supabase = createClient(supabaseUrl, supabaseKey)
 const router = useRouter()
 
 const email = ref('')
@@ -18,6 +15,16 @@ const handleLogin = async () => {
         errorMsg.value = '请输入邮箱和密码'
         return
     }
+
+    const supabaseUrl = import.meta.env.SUPABASE_URL
+    const supabaseKey = import.meta.env.SUPABASE_KEY
+
+    if (!supabaseUrl || !supabaseKey) {
+        errorMsg.value = 'Supabase configuration missing'
+        return
+    }
+
+    const supabase = createClient(supabaseUrl, supabaseKey)
 
     loading.value = true
     errorMsg.value = ''

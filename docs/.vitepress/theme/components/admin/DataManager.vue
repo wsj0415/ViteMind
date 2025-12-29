@@ -17,30 +17,36 @@ const props = defineProps({
     }
 })
 
-const supabaseUrl = import.meta.env.SUPABASE_URL
-const supabaseKey = import.meta.env.SUPABASE_KEY
-const supabase = createClient(supabaseUrl, supabaseKey)
-
+// State
 const data = ref([])
 const loading = ref(true)
 const searchQuery = ref('')
 const editingId = ref(null)
 const editForm = ref({})
-
-// Create state
 const showCreateModal = ref(false)
 const createForm = ref({})
 
-// Fetch data
-const fetchData = async () => {
+// Supabase client holder
+let supabase = null
+
+// Initialize Supabase and Fetch data
+const initAndFetch = async () => {
     loading.value = true
     try {
+        const supabaseUrl = import.meta.env.SUPABASE_URL
+        const supabaseKey = import.meta.env.SUPABASE_KEY
+
+        if (!supabaseUrl || !supabaseKey) {
+            throw new Error('Supabase configuration missing')
+        }
+
+        supabase = createClient(supabaseUrl, supabaseKey)
+
         let query = supabase
             .from(props.tableName)
             .select('*')
 
         // Check if sort column exists in columns or is default
-        // For simplicity, we just try to sort by defaultSort descending
         query = query.order(props.defaultSort, { ascending: false })
 
         const { data: result, error } = await query
@@ -49,13 +55,16 @@ const fetchData = async () => {
         data.value = result
     } catch (e) {
         console.error('Error fetching data:', e)
-        alert('加载数据失败: ' + e.message)
+        // Only alert if it's not a missing config error during SSG (though this runs onMounted)
+        if (supabase) {
+             alert('加载数据失败: ' + e.message)
+        }
     } finally {
         loading.value = false
     }
 }
 
-onMounted(fetchData)
+onMounted(initAndFetch)
 
 // Filtered data
 const filteredData = computed(() => {
@@ -81,6 +90,7 @@ const cancelEdit = () => {
 }
 
 const saveEdit = async () => {
+    if (!supabase) return
     try {
         const { error } = await supabase
             .from(props.tableName)
@@ -96,7 +106,6 @@ const saveEdit = async () => {
         }
 
         editingId.value = null
-        // alert('保存成功')
     } catch (e) {
         console.error('Error saving:', e)
         alert('保存失败: ' + e.message)
@@ -104,6 +113,7 @@ const saveEdit = async () => {
 }
 
 const deleteItem = async (id) => {
+    if (!supabase) return
     if (!confirm('确定要删除这条记录吗？此操作不可恢复。')) return
 
     try {
@@ -122,6 +132,7 @@ const deleteItem = async (id) => {
 }
 
 const toggleBoolean = async (item, field) => {
+    if (!supabase) return
     try {
         const newValue = !item[field]
         const { error } = await supabase
@@ -156,6 +167,7 @@ const cancelCreate = () => {
 }
 
 const saveCreate = async () => {
+    if (!supabase) return
     try {
         const { data: newItem, error } = await supabase
             .from(props.tableName)
@@ -171,7 +183,6 @@ const saveCreate = async () => {
 
         showCreateModal.value = false
         createForm.value = {}
-        // alert('创建成功')
     } catch (e) {
         console.error('Error creating:', e)
         alert('创建失败: ' + e.message)
@@ -191,7 +202,7 @@ const saveCreate = async () => {
             </div>
             <div class="right-tools">
                 <button class="create-btn" @click="startCreate">➕ 新增</button>
-                <button class="refresh-btn" @click="fetchData">🔄 刷新</button>
+                <button class="refresh-btn" @click="initAndFetch">🔄 刷新</button>
             </div>
         </div>
 
