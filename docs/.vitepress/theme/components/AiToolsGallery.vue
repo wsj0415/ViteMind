@@ -87,26 +87,26 @@ const handleSubmission = (tool) => {
 // Fetch approved tools from Supabase
 onMounted(async () => {
   loadPendingSubmissions()
-  
+
   // Only run client-side code
   if (typeof window === 'undefined') {
     loading.value = false
     return
   }
-  
+
   window.addEventListener('scroll', handleScroll)
-  
+
   // Initialize Supabase client on client side
   if (supabaseUrl && supabaseKey) {
     supabase = createClient(supabaseUrl, supabaseKey)
   }
-  
+
   // Only fetch if supabase is initialized
   if (!supabase) {
     loading.value = false
     return
   }
-  
+
   try {
     loading.value = true
     const { data, error } = await supabase
@@ -114,7 +114,7 @@ onMounted(async () => {
       .select('*')
       .eq('approved', true)
       .order('submitted_at', { ascending: false })
-    
+
     if (error) throw error
 
     if (data) {
@@ -149,27 +149,31 @@ const filteredTools = computed(() => {
   const query = searchQuery.value.toLowerCase().trim()
   let result = tools.value.filter(t => {
     const matchesCat = selectedCategory.value === 'ALL' || t.category === selectedCategory.value
-    const matchesSearch = !query || 
-                          t.name?.toLowerCase().includes(query) || 
-                          t.desc?.toLowerCase().includes(query)
+    const matchesSearch = !query ||
+      t.name?.toLowerCase().includes(query) ||
+      t.desc?.toLowerCase().includes(query) ||
+      t.tags?.some(tag => tag.toLowerCase().includes(query))
     return matchesCat && matchesSearch
   })
-  
+
   // Apply sorting
   if (sortBy.value === 'name-asc') {
     result = [...result].sort((a, b) => a.name.localeCompare(b.name))
   } else if (sortBy.value === 'name-desc') {
     result = [...result].sort((a, b) => b.name.localeCompare(a.name))
   }
-  
+
   return result
 })
 
 const filteredPending = computed(() => {
+  const query = searchQuery.value.toLowerCase().trim()
   return pendingTools.value.filter(t => {
     const matchesCat = selectedCategory.value === 'ALL' || t.category === selectedCategory.value
-    const matchesSearch = t.name.toLowerCase().includes(searchQuery.value.toLowerCase()) || 
-                          t.desc?.toLowerCase().includes(searchQuery.value.toLowerCase())
+    const matchesSearch = !query ||
+      t.name?.toLowerCase().includes(query) ||
+      t.desc?.toLowerCase().includes(query) ||
+      t.tags?.some(tag => tag.toLowerCase().includes(query))
     return matchesCat && matchesSearch
   })
 })
@@ -183,25 +187,16 @@ const filteredPending = computed(() => {
         <h2>Categories</h2>
       </div>
       <nav class="category-nav">
-        <button 
-          v-for="cat in categories" 
-          :key="cat"
-          class="cat-item"
-          :class="{ active: selectedCategory === cat }"
-          @click="selectedCategory = cat"
-        >
+        <button v-for="cat in categories" :key="cat" class="cat-item" :class="{ active: selectedCategory === cat }"
+          @click="selectedCategory = cat">
           <BaseIcon :name="cat" :size="20" class="cat-icon" />
           <span class="cat-name">{{ cat }}</span>
         </button>
       </nav>
-      
+
       <!-- Pending Toggle -->
       <div v-if="pendingTools.length > 0" class="pending-toggle">
-        <button 
-          class="pending-btn"
-          :class="{ active: showPending }"
-          @click="showPending = !showPending"
-        >
+        <button class="pending-btn" :class="{ active: showPending }" @click="showPending = !showPending">
           <BaseIcon name="Pending" :size="16" />
           <span>Pending ({{ pendingTools.length }})</span>
         </button>
@@ -213,12 +208,7 @@ const filteredPending = computed(() => {
           <h2>Popular Tags</h2>
         </div>
         <div class="tags-cloud">
-          <button
-            v-for="tag in popularTags"
-            :key="tag"
-            class="tag-chip"
-            @click="searchQuery = tag"
-          >
+          <button v-for="tag in popularTags" :key="tag" class="tag-chip" @click="searchQuery = tag">
             #{{ tag }}
           </button>
         </div>
@@ -232,17 +222,8 @@ const filteredPending = computed(() => {
         <div class="search-wrapper">
           <div class="search-container">
             <BaseIcon name="Search" :size="16" class="search-icon" />
-            <input 
-              v-model="searchQuery" 
-              type="text" 
-              placeholder="Search AI tools..." 
-              class="search-input"
-            />
-            <button 
-              v-if="searchQuery" 
-              class="clear-btn" 
-              @click="clearSearch"
-            >
+            <input v-model="searchQuery" type="text" placeholder="Search AI tools..." class="search-input" />
+            <button v-if="searchQuery" class="clear-btn" @click="clearSearch">
               <BaseIcon name="Close" :size="12" />
             </button>
           </div>
@@ -266,23 +247,12 @@ const filteredPending = computed(() => {
           <span class="pending-badge">Pending Review</span>
         </h3>
         <div class="tools-grid">
-          <a 
-            v-for="tool in filteredPending" 
-            :key="tool.link"
-            :href="tool.link" 
-            target="_blank"
-            class="tool-card pending"
-          >
+          <a v-for="tool in filteredPending" :key="tool.link" :href="tool.link" target="_blank"
+            class="tool-card pending">
             <div class="card-header">
               <div class="favicon-wrapper">
-                <img
-                  :src="getFavicon(tool.link)"
-                  class="tool-favicon"
-                  width="48"
-                  height="48"
-                  loading="lazy"
-                  @error="$event.target.style.opacity='0'"
-                />
+                <img :src="getFavicon(tool.link)" class="tool-favicon" width="48" height="48" loading="lazy"
+                  @error="$event.target.style.opacity = '0'" />
               </div>
               <BaseIcon name="ArrowUpRight" :size="16" class="tool-arrow" />
             </div>
@@ -306,19 +276,9 @@ const filteredPending = computed(() => {
       <!-- Tools Grid -->
       <section v-else class="tools-section">
         <div class="tools-grid">
-          <a 
-            v-for="tool in filteredTools" 
-            :key="tool.name" 
-            :href="tool.link" 
-            target="_blank"
-            class="tool-card"
-          >
+          <a v-for="tool in filteredTools" :key="tool.name" :href="tool.link" target="_blank" class="tool-card">
             <div class="card-header">
-              <img 
-                :src="getFavicon(tool.link)" 
-                class="tool-favicon"
-                @error="$event.target.style.display='none'"
-              />
+              <img :src="getFavicon(tool.link)" class="tool-favicon" @error="$event.target.style.display = 'none'" />
               <span class="tool-arrow">↗</span>
             </div>
             <div class="card-body">
@@ -341,21 +301,12 @@ const filteredPending = computed(() => {
     </main>
 
     <!-- Submission Modal -->
-    <SubmitToolModal 
-      :is-open="isModalOpen" 
-      :categories="categories.filter(c => c !== 'ALL')"
-      @close="isModalOpen = false"
-      @submit="handleSubmission"
-    />
+    <SubmitToolModal :is-open="isModalOpen" :categories="categories.filter(c => c !== 'ALL')"
+      @close="isModalOpen = false" @submit="handleSubmission" />
 
     <!-- Back to Top Button -->
     <Transition name="fade">
-      <button 
-        v-if="showBackToTop" 
-        class="back-to-top" 
-        @click="scrollToTop"
-        aria-label="回到顶部"
-      >
+      <button v-if="showBackToTop" class="back-to-top" @click="scrollToTop" aria-label="回到顶部">
         ↑
       </button>
     </Transition>
@@ -410,7 +361,8 @@ const filteredPending = computed(() => {
   font-weight: 500;
   transition: all 0.15s ease;
   text-align: left;
-  white-space: nowrap; /* Prevent wrapping in horizontal mode */
+  white-space: nowrap;
+  /* Prevent wrapping in horizontal mode */
 }
 
 .cat-item:hover {
@@ -654,7 +606,7 @@ const filteredPending = computed(() => {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(139,92,246,0.08), transparent);
+  background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.08), transparent);
   transition: left 0.6s ease;
   pointer-events: none;
 }
@@ -674,6 +626,7 @@ const filteredPending = computed(() => {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -798,7 +751,9 @@ const filteredPending = computed(() => {
 }
 
 @keyframes spin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .no-results {
@@ -812,11 +767,12 @@ const filteredPending = computed(() => {
   .tools-page {
     flex-direction: column;
   }
-  
+
   .sidebar {
     width: 100%;
     height: auto;
-    position: sticky; /* Keep it sticky on mobile too if desired, or static */
+    position: sticky;
+    /* Keep it sticky on mobile too if desired, or static */
     top: 64px;
     z-index: 10;
     border-right: none;
@@ -824,17 +780,21 @@ const filteredPending = computed(() => {
     padding: 12px 16px;
     background: var(--vp-c-bg);
   }
-  
+
   .sidebar-header {
-    display: none; /* Hide header on mobile to save space */
+    display: none;
+    /* Hide header on mobile to save space */
   }
 
   .category-nav {
     flex-direction: row;
-    flex-wrap: nowrap; /* Prevent wrapping */
+    flex-wrap: nowrap;
+    /* Prevent wrapping */
     gap: 12px;
-    overflow-x: auto; /* Horizontal scroll */
-    padding-bottom: 4px; /* Space for scrollbar if any */
+    overflow-x: auto;
+    /* Horizontal scroll */
+    padding-bottom: 4px;
+    /* Space for scrollbar if any */
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     /* Hide scrollbar */
@@ -845,47 +805,50 @@ const filteredPending = computed(() => {
   .category-nav::-webkit-scrollbar {
     display: none;
   }
-  
+
   .cat-item {
     padding: 8px 16px;
-    flex-shrink: 0; /* Prevent shrinking */
+    flex-shrink: 0;
+    /* Prevent shrinking */
     scroll-snap-align: start;
-    background: var(--vp-c-bg-soft); /* Adding background to make them look like chips */
+    background: var(--vp-c-bg-soft);
+    /* Adding background to make them look like chips */
     border-radius: 20px;
   }
-  
+
   .cat-item.active {
     background: var(--vp-c-brand);
     color: white;
   }
 
   .cat-name {
-    display: inline-block; /* Show name again */
+    display: inline-block;
+    /* Show name again */
     font-size: 13px;
   }
-  
+
   .cat-icon {
     font-size: 16px;
   }
-  
+
   .main-content {
     max-width: 100%;
     padding: 16px;
   }
-  
+
   .content-header {
     flex-direction: column;
     align-items: stretch;
   }
-  
+
   .search-container {
     max-width: 100%;
   }
-  
+
   .submit-btn {
     justify-content: center;
   }
-  
+
   .tools-grid {
     grid-template-columns: 1fr;
   }
