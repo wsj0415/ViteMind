@@ -35,52 +35,101 @@ def fetch_rss_data():
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
     
+    # Fetch feeds from Supabase
+    feeds = []
+    try:
+        from supabase import create_client
+        url = os.environ.get("SUPABASE_URL")
+        key = os.environ.get("SUPABASE_KEY")
+        if url and key:
+            supabase = create_client(url, key)
+            response = supabase.table("rss_feeds").select("*").eq("is_active", True).execute()
+            feeds = response.data
+        else:
+            print("Supabase credentials missing, falling back to hardcoded feeds.")
+            # Fallback structure
+            feeds = [{"url": url, "name": "Unknown", "include_keywords": None, "exclude_keywords": None} for url in RSS_FEEDS]
+    except Exception as e:
+        print(f"Error fetching feeds from Supabase: {e}")
+        feeds = [{"url": url, "name": "Unknown", "include_keywords": None, "exclude_keywords": None} for url in RSS_FEEDS]
+
+    if not feeds:
+        print("No active feeds found.")
+        return []
+
     # Current time in UTC
     now = datetime.now(timezone.utc)
     
-    for feed_url in RSS_FEEDS:
-        print(f"Fetching {feed_url}...")
+    for feed_config in feeds:
+        feed_url = feed_config.get("url")
+        feed_name = feed_config.get("name", "Unknown")
+        include_kws = [k.strip().lower() for k in (feed_config.get("include_keywords") or "").split(",") if k.strip()]
+        exclude_kws = [k.strip().lower() for k in (feed_config.get("exclude_keywords") or "").split(",") if k.strip()]
+
+        print(f"Fetching {feed_name} ({feed_url})...")
         try:
             response = requests.get(feed_url, headers=headers, timeout=30)
             if response.status_code != 200:
                 print(f"Failed to fetch {feed_url}, status code: {response.status_code}")
+                # Update error status in DB
+                if 'id' in feed_config:
+                    try:
+                        supabase.table("rss_feeds").update({
+                            "error_message": f"HTTP {response.status_code}"
+                        }).eq("id", feed_config['id']).execute()
+                    except: pass
                 continue
                 
             feed = feedparser.parse(response.content)
+            print(f"Found {len(feed.entries)} entries in {feed_name}")
             
-            print(f"Found {len(feed.entries)} entries in {feed_url}")
-            
+            # Update success status in DB
+            if 'id' in feed_config:
+                try:
+                    supabase.table("rss_feeds").update({
+                        "last_success_at": datetime.now().isoformat(),
+                        "error_message": None
+                    }).eq("id", feed_config['id']).execute()
+                except: pass
+
             for entry in feed.entries:
-                # Parse publication time
+                # 1. Keyword Filtering
+                title_summary = (entry.title + " " + entry.get("summary", "")).lower()
+                
+                # Exclude
+                if any(kw in title_summary for kw in exclude_kws):
+                    # print(f"Skipping (Exclude Keyword): {entry.title}")
+                    continue
+                
+                # Include (only if defined)
+                if include_kws and not any(kw in title_summary for kw in include_kws):
+                    # print(f"Skipping (Missing Keyword): {entry.title}")
+                    continue
+
+                # 2. Time Filtering
                 published_time = None
                 if hasattr(entry, 'published_parsed') and entry.published_parsed:
                     published_time = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
                 elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
                     published_time = datetime(*entry.updated_parsed[:6], tzinfo=timezone.utc)
                 
-                # Filter: Only keep articles from the last 24 hours
                 if published_time:
                     time_diff = now - published_time
-                    if time_diff.total_seconds() > 86400: # 86400 seconds = 24 hours
+                    if time_diff.total_seconds() > 86400: # 24 hours
                         continue
                 else:
-                    # If no time found, skip or keep? Let's skip to be safe for "hourly" updates
                     continue
 
-                # 使用 Jina Reader 读取全文
+                # 3. Content Extraction (Jina)
                 jina_url = f"https://r.jina.ai/{entry.link}"
-                print(f"Reading with Jina: {jina_url}")
+                # print(f"Reading with Jina: {jina_url}")
                 try:
-                    # Jina 可能会对某些 User-Agent 敏感，尝试不带特殊 UA 或使用默认
                     jina_resp = requests.get(jina_url, timeout=30) 
-                    
                     if jina_resp.status_code == 200 and "403 Forbidden" not in jina_resp.text:
-                        content = jina_resp.text[:2000] # 增加截取长度
+                        content = jina_resp.text[:2000]
                     else:
-                        print(f"Jina returned {jina_resp.status_code}, falling back to summary.")
                         content = entry.get("summary", "")
                 except Exception as e:
-                    print(f"Jina read failed: {e}")
                     content = entry.get("summary", "")
 
                 if len(content) < 50:
@@ -90,10 +139,18 @@ def fetch_rss_data():
                     "title": entry.title,
                     "link": entry.link,
                     "summary": content,
-                    "date": published_time.strftime("%Y-%m-%d") if published_time else datetime.now().strftime("%Y-%m-%d")
+                    "date": published_time.strftime("%Y-%m-%d") if published_time else datetime.now().strftime("%Y-%m-%d"),
+                    "source_name": feed_name # Pass source name for context
                 })
         except Exception as e:
             print(f"Error fetching {feed_url}: {e}")
+            if 'id' in feed_config:
+                try:
+                    supabase.table("rss_feeds").update({
+                        "error_message": str(e)[:200]
+                    }).eq("id", feed_config['id']).execute()
+                except: pass
+                
     return articles
 
 def summarize_with_ai(articles):
