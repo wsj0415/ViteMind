@@ -10,9 +10,8 @@ const props = defineProps({
 const emit = defineEmits(['close', 'submit'])
 
 // Supabase Client
-const supabaseUrl = import.meta.env.SUPABASE_URL
-const supabaseKey = import.meta.env.SUPABASE_KEY
-const supabase = createClient(supabaseUrl, supabaseKey)
+// Lazy initialize when submitting
+let supabase = null
 
 // Form State
 const form = ref({
@@ -31,6 +30,16 @@ const submitPrompt = async () => {
     message.value = 'TITLE AND CONTENT ARE REQUIRED.'
     return
   }
+
+  const supabaseUrl = import.meta.env.SUPABASE_URL
+  const supabaseKey = import.meta.env.SUPABASE_KEY
+
+  if (!supabaseUrl || !supabaseKey) {
+      message.value = 'Configuration Error: Supabase credentials missing.'
+      return
+  }
+
+  supabase = createClient(supabaseUrl, supabaseKey)
 
   loading.value = true
   message.value = ''

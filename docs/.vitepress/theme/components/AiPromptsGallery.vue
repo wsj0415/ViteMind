@@ -3,9 +3,8 @@ import { ref, computed, onMounted } from 'vue'
 import { createClient } from '@supabase/supabase-js'
 
 // Supabase Client
-const supabaseUrl = import.meta.env.SUPABASE_URL
-const supabaseKey = import.meta.env.SUPABASE_KEY
-const supabase = createClient(supabaseUrl, supabaseKey)
+// Lazy initialize in onMounted to support SSG
+let supabase = null
 
 const prompts = ref([])
 const loading = ref(true)
@@ -43,7 +42,7 @@ const cancelEdit = () => {
 
 // Save Edit
 const saveEdit = async () => {
-  if (!selectedPrompt.value) return
+  if (!selectedPrompt.value || !supabase) return
 
   const newContent = editContent.value
   if (newContent !== selectedPrompt.value.content) {
@@ -83,6 +82,7 @@ const saveEdit = async () => {
 
 // Handle Delete
 const handleDelete = async (id) => {
+  if (!supabase) return
   if (confirm('Are you sure you want to delete this prompt?')) {
     try {
       const { error } = await supabase
@@ -104,24 +104,34 @@ const handleDelete = async (id) => {
 
 // Fetch approved prompts from Supabase
 onMounted(async () => {
-  try {
-    loading.value = true
-    const { data, error } = await supabase
-      .from('ai_prompts')
-      .select('*')
-      .eq('approved', true)
-      .eq('is_deleted', false) // Filter out deleted
-      .order('created_at', { ascending: false })
+  const supabaseUrl = import.meta.env.SUPABASE_URL
+  const supabaseKey = import.meta.env.SUPABASE_KEY
 
-    if (error) throw error
+  if (supabaseUrl && supabaseKey) {
+      supabase = createClient(supabaseUrl, supabaseKey)
 
-    if (data) {
-      prompts.value = data
-    }
-  } catch (e) {
-    console.error('Error fetching prompts:', e)
-  } finally {
-    loading.value = false
+      try {
+        loading.value = true
+        const { data, error } = await supabase
+          .from('ai_prompts')
+          .select('*')
+          .eq('approved', true)
+          .eq('is_deleted', false) // Filter out deleted
+          .order('created_at', { ascending: false })
+
+        if (error) throw error
+
+        if (data) {
+          prompts.value = data
+        }
+      } catch (e) {
+        console.error('Error fetching prompts:', e)
+      } finally {
+        loading.value = false
+      }
+  } else {
+      console.warn('Supabase credentials missing')
+      loading.value = false
   }
 })
 

@@ -7,14 +7,12 @@ const props = defineProps({
     title: String
 })
 
-const supabaseUrl = import.meta.env.SUPABASE_URL
-const supabaseKey = import.meta.env.SUPABASE_KEY
-const supabase = createClient(supabaseUrl, supabaseKey)
 const route = useRoute()
 
 const user = ref(null)
 const loading = ref(true)
 const isSidebarOpen = ref(true)
+let supabase = null
 
 const baseUrl = import.meta.env.BASE_URL
 // Ensure we handle base url correctly. 
@@ -35,22 +33,34 @@ const menuItems = [
 ]
 
 onMounted(async () => {
-    // Check auth status
-    const { data: { session } } = await supabase.auth.getSession()
+    const supabaseUrl = import.meta.env.SUPABASE_URL
+    const supabaseKey = import.meta.env.SUPABASE_KEY
 
-    if (!session) {
-        // Redirect to login if not authenticated
-        window.location.href = getLink('admin/login')
-        return
+    if (supabaseUrl && supabaseKey) {
+        supabase = createClient(supabaseUrl, supabaseKey)
+
+        // Check auth status
+        const { data: { session } } = await supabase.auth.getSession()
+
+        if (!session) {
+            // Redirect to login if not authenticated
+            window.location.href = getLink('admin/login')
+            return
+        }
+
+        user.value = session.user
+    } else {
+        console.warn('Supabase credentials missing')
     }
 
-    user.value = session.user
     loading.value = false
 })
 
 const handleLogout = async () => {
-    await supabase.auth.signOut()
-    window.location.href = getLink('admin/login')
+    if (supabase) {
+        await supabase.auth.signOut()
+        window.location.href = getLink('admin/login')
+    }
 }
 </script>
 
