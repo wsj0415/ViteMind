@@ -69,7 +69,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://wsj0415.github.io/ViteMind/' }
+      { icon: 'github', link: 'https://github.com/wsj0415/ViteMind' }
     ],
 
     footer: {
