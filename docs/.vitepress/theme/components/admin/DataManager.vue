@@ -25,6 +25,25 @@ const editingId = ref(null)
 const editForm = ref({})
 const showCreateModal = ref(false)
 const createForm = ref({})
+const errors = ref({})
+
+// Notification System
+const notification = ref({ show: false, message: '', type: 'success' })
+let toastTimer = null
+
+const showToast = (message, type = 'success') => {
+    // Clear existing timer to avoid race conditions
+    if (toastTimer) clearTimeout(toastTimer)
+
+    notification.value = { show: true, message, type }
+    toastTimer = setTimeout(() => {
+        notification.value.show = false
+        toastTimer = null
+    }, 3000)
+}
+
+// Loading States for Actions
+const isSaving = ref(false)
 
 // Supabase client holder
 let supabase = null
@@ -55,9 +74,8 @@ const initAndFetch = async () => {
         data.value = result
     } catch (e) {
         console.error('Error fetching data:', e)
-        // Only alert if it's not a missing config error during SSG (though this runs onMounted)
         if (supabase) {
-             alert('加载数据失败: ' + e.message)
+             showToast('加载数据失败: ' + e.message, 'error')
         }
     } finally {
         loading.value = false
@@ -78,23 +96,96 @@ const filteredData = computed(() => {
     })
 })
 
+// Validation Logic
+const validateForm = (form, columns) => {
+    errors.value = {}
+    let isValid = true
+
+    for (const col of columns) {
+        if (!col.editable) continue
+
+        const value = form[col.key]
+
+        // Check Required
+        if (col.validation?.required) {
+            const isEmpty = value === null || value === undefined || value === '' || (Array.isArray(value) && value.length === 0)
+            if (isEmpty) {
+                errors.value[col.key] = `${col.label} 是必填项`
+                isValid = false
+            }
+        }
+
+        // Check URL
+        if (col.validation?.type === 'url' && value) {
+            try {
+                new URL(value)
+            } catch (_) {
+                errors.value[col.key] = '必须是有效的 URL'
+                isValid = false
+            }
+        }
+    }
+    return isValid
+}
+
+// Tags handling
+const syncTags = (form, key) => {
+    const rawVal = form[key + '_string']
+    if (typeof rawVal === 'string') {
+        form[key] = rawVal.split(',').map(t => t.trim()).filter(t => t)
+    }
+}
+
+const prepareTagsForEdit = (form, columns) => {
+    columns.forEach(col => {
+        if (col.type === 'tags') {
+            const tags = form[col.key]
+            form[col.key + '_string'] = Array.isArray(tags) ? tags.join(', ') : (tags || '')
+        }
+    })
+}
+
 // Actions
 const startEdit = (item) => {
+    errors.value = {}
     editingId.value = item.id
-    editForm.value = { ...item }
+    // Deep copy to handle arrays/objects properly
+    const copy = JSON.parse(JSON.stringify(item))
+    prepareTagsForEdit(copy, props.columns)
+    editForm.value = copy
 }
 
 const cancelEdit = () => {
+    errors.value = {}
     editingId.value = null
     editForm.value = {}
 }
 
 const saveEdit = async () => {
     if (!supabase) return
+
+    // Sync all tag fields
+    props.columns.forEach(col => {
+        if (col.type === 'tags') syncTags(editForm.value, col.key)
+    })
+
+    const isValid = validateForm(editForm.value, props.columns)
+    if (!isValid) {
+        showToast('请检查表单错误', 'error')
+        return
+    }
+
+    isSaving.value = true
     try {
+        // Clean up temporary string fields before sending to Supabase
+        const payload = { ...editForm.value }
+        props.columns.forEach(col => {
+            if (col.type === 'tags') delete payload[col.key + '_string']
+        })
+
         const { error } = await supabase
             .from(props.tableName)
-            .update(editForm.value)
+            .update(payload)
             .eq('id', editingId.value)
 
         if (error) throw error
@@ -102,13 +193,16 @@ const saveEdit = async () => {
         // Update local data
         const index = data.value.findIndex(i => i.id === editingId.value)
         if (index !== -1) {
-            data.value[index] = { ...editForm.value }
+            data.value[index] = { ...editForm.value } // Keep array structure locally
         }
 
         editingId.value = null
+        showToast('保存成功')
     } catch (e) {
         console.error('Error saving:', e)
-        alert('保存失败: ' + e.message)
+        showToast('保存失败: ' + e.message, 'error')
+    } finally {
+        isSaving.value = false
     }
 }
 
@@ -125,9 +219,10 @@ const deleteItem = async (id) => {
         if (error) throw error
 
         data.value = data.value.filter(i => i.id !== id)
+        showToast('删除成功')
     } catch (e) {
         console.error('Error deleting:', e)
-        alert('删除失败: ' + e.message)
+        showToast('删除失败: ' + e.message, 'error')
     }
 }
 
@@ -143,35 +238,62 @@ const toggleBoolean = async (item, field) => {
         if (error) throw error
 
         item[field] = newValue
+        showToast('更新成功')
     } catch (e) {
         console.error('Error toggling:', e)
-        alert('操作失败: ' + e.message)
+        showToast('操作失败: ' + e.message, 'error')
+        // Revert optimistically
+        item[field] = !item[field]
     }
 }
 
 // Create Actions
 const startCreate = () => {
+    errors.value = {}
     createForm.value = {}
-    // Initialize boolean fields to false or defaults if needed
+    // Initialize defaults
     props.columns.forEach(col => {
         if (col.type === 'boolean') {
             createForm.value[col.key] = false
+        } else if (col.type === 'tags') {
+            createForm.value[col.key] = []
+            createForm.value[col.key + '_string'] = ''
         }
     })
     showCreateModal.value = true
 }
 
 const cancelCreate = () => {
+    errors.value = {}
     showCreateModal.value = false
     createForm.value = {}
 }
 
 const saveCreate = async () => {
     if (!supabase) return
+
+    // Sync tags
+    props.columns.forEach(col => {
+        if (col.type === 'tags') syncTags(createForm.value, col.key)
+    })
+
+    const isValid = validateForm(createForm.value, props.columns)
+    if (!isValid) {
+        showToast('请检查表单错误', 'error')
+        return
+    }
+
+    isSaving.value = true
     try {
+        // Clean payload
+        const payload = { ...createForm.value }
+        props.columns.forEach(col => {
+            if (col.type === 'tags') delete payload[col.key + '_string']
+        })
+
         const { data: newItem, error } = await supabase
             .from(props.tableName)
-            .insert([createForm.value])
+            .insert([payload])
             .select()
             .single()
 
@@ -183,15 +305,27 @@ const saveCreate = async () => {
 
         showCreateModal.value = false
         createForm.value = {}
+        showToast('创建成功')
     } catch (e) {
         console.error('Error creating:', e)
-        alert('创建失败: ' + e.message)
+        showToast('创建失败: ' + e.message, 'error')
+    } finally {
+        isSaving.value = false
     }
 }
 </script>
 
 <template>
     <div class="data-manager">
+        <!-- Toast Notification -->
+        <Teleport to="body">
+            <Transition name="fade">
+                <div v-if="notification.show" class="toast-notification" :class="notification.type">
+                    {{ notification.message }}
+                </div>
+            </Transition>
+        </Teleport>
+
         <!-- Toolbar -->
         <div class="toolbar">
             <div class="left-tools">
@@ -217,24 +351,61 @@ const saveCreate = async () => {
                     <div class="modal-body">
                         <div v-for="col in columns" :key="col.key" class="form-group">
                             <template v-if="col.editable">
-                                <label>{{ col.label }}</label>
+                                <label>{{ col.label }} <span v-if="col.validation?.required" class="required-star">*</span></label>
+
+                                <!-- Text / Link -->
                                 <input v-if="col.type === 'text' || col.type === 'link'"
-                                    v-model="createForm[col.key]" type="text" class="form-input" />
+                                    v-model="createForm[col.key]"
+                                    :class="{ 'has-error': errors[col.key] }"
+                                    @input="errors[col.key] = ''"
+                                    type="text" class="form-input" />
+
+                                <!-- Textarea -->
                                 <textarea v-else-if="col.type === 'textarea'"
-                                    v-model="createForm[col.key]" class="form-input" rows="3"></textarea>
+                                    v-model="createForm[col.key]"
+                                    :class="{ 'has-error': errors[col.key] }"
+                                    @input="errors[col.key] = ''"
+                                    class="form-input" rows="3"></textarea>
+
+                                <!-- Select -->
+                                <select v-else-if="col.type === 'select'"
+                                    v-model="createForm[col.key]"
+                                    :class="{ 'has-error': errors[col.key] }"
+                                    @change="errors[col.key] = ''"
+                                    class="form-input">
+                                    <option value="" disabled>请选择</option>
+                                    <option v-for="opt in col.options" :key="opt" :value="opt">{{ opt }}</option>
+                                </select>
+
+                                <!-- Tags -->
+                                <input v-else-if="col.type === 'tags'"
+                                    v-model="createForm[col.key + '_string']"
+                                    :class="{ 'has-error': errors[col.key] }"
+                                    type="text" class="form-input" placeholder="Tag1, Tag2, Tag3" />
+
+                                <!-- Boolean -->
                                 <div v-else-if="col.type === 'boolean'" class="checkbox-group">
                                     <input type="checkbox" v-model="createForm[col.key]" />
                                     <span>{{ createForm[col.key] ? '是' : '否' }}</span>
                                 </div>
-                                <!-- Date is typically auto-generated, so skipping unless editable -->
+
+                                <!-- Date -->
                                 <input v-else-if="col.type === 'date'"
-                                    v-model="createForm[col.key]" type="date" class="form-input" />
+                                    v-model="createForm[col.key]"
+                                    :class="{ 'has-error': errors[col.key] }"
+                                    @input="errors[col.key] = ''"
+                                    type="date" class="form-input" />
+
+                                <!-- Error Message -->
+                                <span v-if="errors[col.key]" class="error-msg">{{ errors[col.key] }}</span>
                             </template>
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button class="cancel-btn" @click="cancelCreate">取消</button>
-                        <button class="save-btn" @click="saveCreate">保存</button>
+                        <button class="cancel-btn" @click="cancelCreate" :disabled="isSaving">取消</button>
+                        <button class="save-btn" @click="saveCreate" :disabled="isSaving">
+                            {{ isSaving ? '保存中...' : '保存' }}
+                        </button>
                     </div>
                 </div>
             </div>
@@ -266,16 +437,45 @@ const saveCreate = async () => {
                                     {{ item[col.key] }}
                                 </div>
                                 <input v-else-if="col.type === 'text' || col.type === 'link'"
-                                    v-model="editForm[col.key]" type="text" class="edit-input" />
-                                <textarea v-else-if="col.type === 'textarea'" v-model="editForm[col.key]"
+                                    v-model="editForm[col.key]"
+                                    :class="{ 'has-error': errors[col.key] }"
+                                    :title="errors[col.key] || ''"
+                                    @input="errors[col.key] = ''"
+                                    type="text" class="edit-input" />
+
+                                <textarea v-else-if="col.type === 'textarea'"
+                                    v-model="editForm[col.key]"
+                                    :class="{ 'has-error': errors[col.key] }"
+                                    :title="errors[col.key] || ''"
+                                    @input="errors[col.key] = ''"
                                     class="edit-input" rows="2"></textarea>
+
+                                <!-- Select Edit -->
+                                <select v-else-if="col.type === 'select'"
+                                    v-model="editForm[col.key]"
+                                    :class="{ 'has-error': errors[col.key] }"
+                                    :title="errors[col.key] || ''"
+                                    @change="errors[col.key] = ''"
+                                    class="edit-input">
+                                    <option v-for="opt in col.options" :key="opt" :value="opt">{{ opt }}</option>
+                                </select>
+
+                                <!-- Tags Edit -->
+                                <input v-else-if="col.type === 'tags'"
+                                    v-model="editForm[col.key + '_string']"
+                                    :class="{ 'has-error': errors[col.key] }"
+                                    :title="errors[col.key] || ''"
+                                    type="text" class="edit-input" />
+
                                 <div v-else-if="col.type === 'boolean'">
                                     <input type="checkbox" v-model="editForm[col.key]" />
                                 </div>
                             </td>
                             <td class="actions-cell">
-                                <button class="save-btn" @click="saveEdit">保存</button>
-                                <button class="cancel-btn" @click="cancelEdit">取消</button>
+                                <button class="save-btn" @click="saveEdit" :disabled="isSaving">
+                                    {{ isSaving ? '...' : '保存' }}
+                                </button>
+                                <button class="cancel-btn" @click="cancelEdit" :disabled="isSaving">取消</button>
                             </td>
                         </template>
 
@@ -300,6 +500,11 @@ const saveCreate = async () => {
                                 <span v-else-if="col.type === 'date'" class="date-text">
                                     {{ new Date(item[col.key]).toLocaleDateString() }}
                                 </span>
+
+                                <!-- Tags View -->
+                                <div v-else-if="col.type === 'tags'" class="tags-cell">
+                                    <span v-for="tag in item[col.key]" :key="tag" class="tag-badge">{{ tag }}</span>
+                                </div>
 
                                 <!-- Text -->
                                 <div v-else class="text-cell" :title="item[col.key]">
@@ -502,6 +707,11 @@ const saveCreate = async () => {
     cursor: pointer;
 }
 
+.save-btn:disabled, .cancel-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 .cancel-btn {
     padding: 4px 8px;
     background: transparent;
@@ -517,6 +727,40 @@ const saveCreate = async () => {
     text-align: center;
     padding: 40px;
     color: var(--vp-c-text-3);
+}
+
+.required-star {
+    color: #ef4444;
+    margin-left: 4px;
+}
+
+.tags-cell {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    max-width: 300px;
+}
+
+.tag-badge {
+    background: var(--vp-c-bg-soft);
+    color: var(--vp-c-text-2);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 11px;
+    border: 1px solid var(--vp-c-divider);
+}
+
+/* Validation Styles */
+.form-input.has-error,
+.edit-input.has-error {
+    border-color: #ef4444;
+}
+
+.error-msg {
+    color: #ef4444;
+    font-size: 12px;
+    margin-top: 4px;
+    display: block;
 }
 
 /* Modal Styles */
@@ -612,13 +856,36 @@ const saveCreate = async () => {
     gap: 12px;
 }
 
-.modal-footer .save-btn {
-    padding: 8px 16px;
+/* Toast Styles */
+.toast-notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 12px 24px;
+    border-radius: 6px;
     font-size: 14px;
+    font-weight: 500;
+    color: white;
+    z-index: 2000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
 }
 
-.modal-footer .cancel-btn {
-    padding: 8px 16px;
-    font-size: 14px;
+.toast-notification.success {
+    background: #10b981;
+}
+
+.toast-notification.error {
+    background: #ef4444;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
 }
 </style>
