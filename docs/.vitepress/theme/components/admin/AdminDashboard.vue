@@ -6,7 +6,8 @@ import { withBase } from 'vitepress'
 const stats = ref({
     tools: { total: 0, pending: 0 },
     resources: { total: 0 },
-    prompts: { total: 0, pending: 0 }
+    prompts: { total: 0, pending: 0 },
+    devResources: { total: 0 }
 })
 const loading = ref(true)
 
@@ -48,10 +49,16 @@ const fetchStats = async () => {
             .select('*', { count: 'exact', head: true })
             .eq('approved', false)
 
+        // Dev Resources
+        const { count: devResourcesTotal } = await supabase
+            .from('dev_resources')
+            .select('*', { count: 'exact', head: true })
+
         stats.value = {
             tools: { total: toolsTotal || 0, pending: toolsPending || 0 },
             resources: { total: resourcesTotal || 0 },
-            prompts: { total: promptsTotal || 0, pending: promptsPending || 0 }
+            prompts: { total: promptsTotal || 0, pending: promptsPending || 0 },
+            devResources: { total: devResourcesTotal || 0 }
         }
     } catch (e) {
         console.error('Error fetching stats:', e)
@@ -64,96 +71,110 @@ onMounted(fetchStats)
 </script>
 
 <template>
-  <div class="dashboard-welcome">
-    <h2>欢迎回来，管理员 👋</h2>
-    <p>请从左侧菜单选择要管理的内容。</p>
+    <div class="dashboard-welcome">
+        <h2>欢迎回来，管理员 👋</h2>
+        <p>请从左侧菜单选择要管理的内容。</p>
 
-    <div class="quick-stats">
-      <div class="stat-card">
-        <h3>AI 工具</h3>
-        <div class="stat-numbers" v-if="!loading">
-            <div class="stat-item">
-                <span class="count">{{ stats.tools.total }}</span>
-                <span class="label">总数</span>
+        <div class="quick-stats">
+            <div class="stat-card">
+                <h3>AI 工具</h3>
+                <div class="stat-numbers" v-if="!loading">
+                    <div class="stat-item">
+                        <span class="count">{{ stats.tools.total }}</span>
+                        <span class="label">总数</span>
+                    </div>
+                    <div class="stat-item pending" v-if="stats.tools.pending > 0">
+                        <span class="count">{{ stats.tools.pending }}</span>
+                        <span class="label">待审核</span>
+                    </div>
+                </div>
+                <div class="loading-stats" v-else>加载中...</div>
+                <div class="card-action">
+                    <a :href="withBase('/admin/tools')">去管理 →</a>
+                </div>
             </div>
-            <div class="stat-item pending" v-if="stats.tools.pending > 0">
-                <span class="count">{{ stats.tools.pending }}</span>
-                <span class="label">待审核</span>
-            </div>
-        </div>
-        <div class="loading-stats" v-else>加载中...</div>
-        <div class="card-action">
-            <a :href="withBase('/admin/tools')">去管理 →</a>
-        </div>
-      </div>
 
-      <div class="stat-card">
-        <h3>设计资源</h3>
-        <div class="stat-numbers" v-if="!loading">
-            <div class="stat-item">
-                <span class="count">{{ stats.resources.total }}</span>
-                <span class="label">总数</span>
+            <div class="stat-card">
+                <h3>设计资源</h3>
+                <div class="stat-numbers" v-if="!loading">
+                    <div class="stat-item">
+                        <span class="count">{{ stats.resources.total }}</span>
+                        <span class="label">总数</span>
+                    </div>
+                </div>
+                <div class="loading-stats" v-else>加载中...</div>
+                <div class="card-action">
+                    <a :href="withBase('/admin/resources')">去管理 →</a>
+                </div>
             </div>
-        </div>
-        <div class="loading-stats" v-else>加载中...</div>
-        <div class="card-action">
-            <a :href="withBase('/admin/resources')">去管理 →</a>
-        </div>
-      </div>
 
-      <div class="stat-card">
-        <h3>AI 提示词</h3>
-        <div class="stat-numbers" v-if="!loading">
-            <div class="stat-item">
-                <span class="count">{{ stats.prompts.total }}</span>
-                <span class="label">总数</span>
+            <div class="stat-card">
+                <h3>AI 提示词</h3>
+                <div class="stat-numbers" v-if="!loading">
+                    <div class="stat-item">
+                        <span class="count">{{ stats.prompts.total }}</span>
+                        <span class="label">总数</span>
+                    </div>
+                    <div class="stat-item pending" v-if="stats.prompts.pending > 0">
+                        <span class="count">{{ stats.prompts.pending }}</span>
+                        <span class="label">待审核</span>
+                    </div>
+                </div>
+                <div class="loading-stats" v-else>加载中...</div>
+                <div class="card-action">
+                    <a :href="withBase('/admin/prompts')">去管理 →</a>
+                </div>
             </div>
-            <div class="stat-item pending" v-if="stats.prompts.pending > 0">
-                <span class="count">{{ stats.prompts.pending }}</span>
-                <span class="label">待审核</span>
+
+            <div class="stat-card">
+                <h3>AI 开发</h3>
+                <div class="stat-numbers" v-if="!loading">
+                    <div class="stat-item">
+                        <span class="count">{{ stats.devResources.total }}</span>
+                        <span class="label">总数</span>
+                    </div>
+                </div>
+                <div class="loading-stats" v-else>加载中...</div>
+                <div class="card-action">
+                    <a :href="withBase('/admin/dev-resources')">去管理 →</a>
+                </div>
             </div>
         </div>
-        <div class="loading-stats" v-else>加载中...</div>
-        <div class="card-action">
-            <a :href="withBase('/admin/prompts')">去管理 →</a>
-        </div>
-      </div>
     </div>
-  </div>
 </template>
 
 <style scoped>
 .dashboard-welcome {
-  padding: 20px;
+    padding: 20px;
 }
 
 .quick-stats {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
 }
 
 .stat-card {
-  background: var(--vp-c-bg);
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 12px;
-  padding: 24px;
-  transition: all 0.2s;
-  display: flex;
-  flex-direction: column;
+    background: var(--vp-c-bg);
+    border: 1px solid var(--vp-c-divider);
+    border-radius: 12px;
+    padding: 24px;
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
 }
 
 .stat-card:hover {
-  border-color: var(--vp-c-brand);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border-color: var(--vp-c-brand);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .stat-card h3 {
-  margin: 0 0 16px 0;
-  font-size: 18px;
-  color: var(--vp-c-text-1);
+    margin: 0 0 16px 0;
+    font-size: 18px;
+    color: var(--vp-c-text-1);
 }
 
 .stat-numbers {
@@ -196,10 +217,10 @@ onMounted(fetchStats)
 }
 
 .card-action a {
-  color: var(--vp-c-brand);
-  font-weight: 600;
-  text-decoration: none;
-  font-size: 14px;
+    color: var(--vp-c-brand);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
 }
 
 .card-action a:hover {
