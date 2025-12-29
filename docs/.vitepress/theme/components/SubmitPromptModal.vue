@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 import { createClient } from '@supabase/supabase-js'
 
 const props = defineProps({
@@ -86,41 +86,55 @@ const close = () => {
   message.value = ''
   isSuccess.value = false
 }
+
+const handleKeydown = (e) => {
+  if (e.key === 'Escape' && props.isOpen) {
+    close()
+  }
+}
+
+onMounted(() => {
+  window.addEventListener('keydown', handleKeydown)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('keydown', handleKeydown)
+})
 </script>
 
 <template>
   <Teleport to="body">
     <Transition name="fade">
-      <div v-if="isOpen" class="modal-overlay" @click="close">
+      <div v-if="isOpen" class="modal-overlay" @click="close" role="dialog" aria-modal="true" aria-labelledby="modal-title">
         <div class="modal-panel" @click.stop>
 
           <div class="modal-header">
-            <span class="modal-title">SUBMIT NEW PROMPT</span>
+            <span id="modal-title" class="modal-title">SUBMIT NEW PROMPT</span>
             <button class="close-btn" @click="close">CLOSE [ESC]</button>
           </div>
 
           <div class="modal-content">
             <div class="form-group">
-              <label>TITLE *</label>
-              <input v-model="form.title" type="text" placeholder="e.g. Python Code Optimizer" class="swiss-input" />
+              <label for="prompt-title">TITLE *</label>
+              <input id="prompt-title" v-model="form.title" type="text" placeholder="e.g. Python Code Optimizer" class="swiss-input" />
             </div>
 
             <div class="form-group">
-              <label>CATEGORY</label>
-              <select v-model="form.category" class="swiss-select">
+              <label for="prompt-category">CATEGORY</label>
+              <select id="prompt-category" v-model="form.category" class="swiss-select">
                 <option v-for="cat in categories" :key="cat" :value="cat">{{ cat }}</option>
               </select>
             </div>
 
             <div class="form-group">
-              <label>PROMPT CONTENT *</label>
-              <textarea v-model="form.content" rows="6" placeholder="Enter your prompt here..."
+              <label for="prompt-content">PROMPT CONTENT *</label>
+              <textarea id="prompt-content" v-model="form.content" rows="6" placeholder="Enter your prompt here..."
                 class="swiss-input"></textarea>
             </div>
 
             <div class="form-group">
-              <label>TAGS (Comma separated)</label>
-              <input v-model="form.tags" type="text" placeholder="e.g. python, optimization, coding"
+              <label for="prompt-tags">TAGS (Comma separated)</label>
+              <input id="prompt-tags" v-model="form.tags" type="text" placeholder="e.g. python, optimization, coding"
                 class="swiss-input" />
             </div>
 
