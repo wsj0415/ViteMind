@@ -107,6 +107,18 @@ onMounted(async () => {
         link: item.link,
         tags: item.tags || []
       }))
+
+      // Cleanup pending tools that have been approved
+      if (pendingTools.value.length > 0) {
+        const approvedLinks = new Set(tools.value.map(t => t.link))
+        const initialCount = pendingTools.value.length
+
+        pendingTools.value = pendingTools.value.filter(t => !approvedLinks.has(t.link))
+
+        if (pendingTools.value.length < initialCount) {
+          localStorage.setItem('vitemind_user_submissions', JSON.stringify(pendingTools.value))
+        }
+      }
     }
   } catch (e) {
     console.error('Error fetching tools:', e)
