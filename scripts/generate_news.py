@@ -40,7 +40,8 @@ def fetch_rss_data():
     try:
         from supabase import create_client
         url = os.environ.get("SUPABASE_URL")
-        key = os.environ.get("SUPABASE_KEY")
+        # Prefer Service Role Key for backend scripts to bypass RLS
+        key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY") or os.environ.get("SUPABASE_KEY")
         if url and key:
             supabase = create_client(url, key)
             response = supabase.table("rss_feeds").select("*").eq("is_active", True).execute()
@@ -289,7 +290,8 @@ def save_to_supabase(new_items):
         return
 
     url = os.environ.get("SUPABASE_URL")
-    key = os.environ.get("SUPABASE_KEY")
+    # Prefer Service Role Key for backend scripts to bypass RLS
+    key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY") or os.environ.get("SUPABASE_KEY")
 
     if not url or not key:
         print("Supabase credentials not found. Skipping Supabase upload.")

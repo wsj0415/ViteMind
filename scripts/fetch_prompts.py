@@ -11,8 +11,8 @@ except ImportError:
 
 # Configuration
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
-OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL_NAME = "xiaomi/mimo-v2-flash:free"
+OPENROUTER_URL = "https://api-inference.modelscope.cn/v1/chat/completions"
+MODEL_NAME = "Qwen/Qwen2.5-Coder-32B-Instruct"
 
 CATEGORIES = ['Coding', 'Image', 'Writing', 'Marketing', 'SEO', 'Productivity']
 
@@ -78,7 +78,7 @@ def save_to_supabase(prompts):
         return
 
     url = os.environ.get("SUPABASE_URL")
-    key = os.environ.get("SUPABASE_KEY")
+    key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
 
     if not url or not key:
         print("Supabase credentials not found.")
