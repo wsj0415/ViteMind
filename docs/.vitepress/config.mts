@@ -22,6 +22,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: 'AI 导航', link: '/ai-tools' },
       { text: 'AI 提示词', link: '/ai-prompts' },
+      { text: 'AI 开发', link: '/ai-development' },
       { text: '设计资源', link: '/design-resources' },
       { text: '指南', link: '/guide/getting-started' },
       { text: '更新日志', link: '/changelog' },

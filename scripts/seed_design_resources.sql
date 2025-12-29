@@ -37,3 +37,7 @@ INSERT INTO public.design_resources (title, description, url, category, tags, lo
 -- Prototyping
 ('Framer', 'Design and publish your dream site.', 'https://www.framer.com/', 'Prototyping', ARRAY['Web', 'No-Code'], 'https://www.framer.com/images/favicons/favicon.png', true, 'Official'),
 ('ProtoPie', 'The easiest tool to turn your UI/UX design ideas into highly interactive prototypes.', 'https://www.protopie.io/', 'Prototyping', ARRAY['Interaction', 'Paid'], 'https://www.protopie.io/favicon.ico', false, 'Official');
+
+-- Phosphor Icons
+INSERT INTO public.design_resources (title, description, url, category, tags, logo_url, is_featured, source) VALUES
+('Phosphor Icons', 'A flexible icon family for interfaces, diagrams, presentations, and whatever else.', 'https://phosphoricons.com', 'Icons & Fonts', ARRAY['Icons', 'Free', 'Open Source', 'React', 'Vue'], 'https://phosphoricons.com/favicon.ico', true, 'Official');

@@ -29,6 +29,7 @@ const menuItems = [
     { text: 'AI 工具', link: getLink('admin/tools'), icon: '🛠' },
     { text: '设计资源', link: getLink('admin/resources'), icon: '🎨' },
     { text: 'AI 提示词', link: getLink('admin/prompts'), icon: '💡' },
+    { text: 'AI 开发资源', link: getLink('admin/dev-resources'), icon: '💻' },
     { text: '每日新闻', link: getLink('admin/news'), icon: '📰' }
 ]
 
