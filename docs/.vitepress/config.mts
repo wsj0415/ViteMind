@@ -20,7 +20,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: 'AI 导航', link: '/ai-tools' },
+      { text: 'AI 工具', link: '/ai-tools' },
       { text: 'AI 提示词', link: '/ai-prompts' },
       { text: 'AI 开发', link: '/ai-development' },
       { text: '设计资源', link: '/design-resources' },
@@ -69,7 +69,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://wsj0415.github.io/ViteMind/' }
     ],
 
     footer: {
