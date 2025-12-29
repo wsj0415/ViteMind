@@ -86,6 +86,24 @@ const closeNews = () => {
 const renderMarkdown = (text) => {
   return md.render(text || '')
 }
+
+const getSource = (url) => {
+  try {
+    const domain = new URL(url).hostname.replace('www.', '')
+    // Optional: Map common domains to nicer names
+    const sourceMap = {
+      'news.ycombinator.com': 'Hacker News',
+      'github.com': 'GitHub',
+      'twitter.com': 'Twitter',
+      'x.com': 'X',
+      'youtube.com': 'YouTube',
+      'arxiv.org': 'ArXiv'
+    }
+    return sourceMap[domain] || domain
+  } catch (e) {
+    return ''
+  }
+}
 </script>
 
 <template>
@@ -127,15 +145,16 @@ const renderMarkdown = (text) => {
       <div v-for="item in filteredNews" :key="item.id" class="news-item" @click="openNews(item)">
         <div class="item-header">
           <span class="meta-date">{{ item.date }}</span>
-        </div>
-
-        <div class="meta-tags-row">
-          <span v-for="tag in item.tags" :key="tag" class="meta-tag">#{{ tag }}</span>
+          <span v-if="item.link" class="meta-source">| {{ getSource(item.link) }}</span>
         </div>
 
         <div class="item-body">
           <h3 class="item-title">{{ item.title }}</h3>
           <p class="item-summary">{{ item.summary }}</p>
+        </div>
+
+        <div class="meta-tags-row">
+          <span v-for="tag in item.tags" :key="tag" class="meta-tag">#{{ tag }}</span>
         </div>
 
         <div class="item-footer">
