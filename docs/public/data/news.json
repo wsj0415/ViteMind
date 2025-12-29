@@ -1,15 +1,27 @@
 [
   {
-    "title": "PostTrainBench: 测量AI代理对预训练语言模型的后训练效果",
-    "summary": "PostTrainBench评估不同AI代理在10小时内使用单个GPU对小目标LLM进行后训练的效果。",
-    "detail": "PostTrainBench 是一个评估工具，旨在测量不同AI代理在有限资源下提升预训练语言模型性能的能力。该研究给每个代理提供了4个小目标LLM、一个H100 GPU和10小时的时间来完成后训练任务。结果显示，人类手动调优后的模型性能显著优于所有自动化的AI代理。这项研究有助于理解当前AI代理在优化LLM方面的局限性和未来改进的方向。",
+    "title": "PostTrainBench：评估AI代理后训练语言模型的效果",
+    "summary": "PostTrainBench通过对比不同AI代理对基础LLM的后训练效果，提供了一个基准测试。",
+    "detail": "PostTrainBench是一个评估AI代理在给定时间内提升基础大语言模型（LLM）性能的平台。研究者给每个代理提供了四款小型目标LLM、一块H100 GPU和10小时的时间来进行后训练。测试结果展示了各代理在不同基准测试上的表现，包括AIME 2025、BFCL、GPQA Main、GSM8K和HumanEval。实验表明，尽管AI代理能够提升模型性能，但与人工后训练相比仍有差距。该研究有助于理解自动化后训练工具在实际应用中的潜力和限制。",
     "tags": [
       "Dev",
       "LLM"
     ],
     "link": "https://posttrainbench.com/",
     "date": "2025-12-29",
-    "id": "17670278672190"
+    "id": "17670285530270"
+  },
+  {
+    "title": "开源Rust AI工具包：AI-SDK for Rust",
+    "summary": "AI-SDK for Rust提供了一个简单易用的接口来集成OpenAI的语言模型。",
+    "detail": "AI-SDK for Rust是一个开源项目，旨在简化Rust开发者与OpenAI语言模型的交互。该工具包支持异步请求，允许用户构建语言模型请求并生成文本响应。此外，它还支持工具集成和JSON模式定义，使得开发者可以根据需要定制请求。AI-SDK for Rust的目标是成为Rust生态系统中强大的AI开发工具。",
+    "tags": [
+      "Dev",
+      "Rust"
+    ],
+    "link": "https://aisdk.rs/",
+    "date": "2025-12-29",
+    "id": "17670285530271"
   },
   {
     "title": "Meta内部的AI解决方案：Google它",
@@ -22,18 +34,6 @@
     "link": "https://sf.gazetteer.co/metas-internal-solution-to-its-ai-needs-google-it",
     "date": "2025-12-29",
     "id": "17670278672191"
-  },
-  {
-    "title": "开源AI工具包：Rust版AI-SDK",
-    "summary": "一个用于Rust语言的开源AI开发工具包，支持多种语言模型和服务集成。",
-    "detail": "AI-SDK for Rust 是一个开源的开发工具包，旨在简化Rust开发者在项目中集成和使用各种语言模型的过程。该工具包支持OpenAI等主流提供商的模型，并提供了丰富的功能，如文本生成、工具集成和数据模式匹配。这对于希望利用AI技术增强应用功能的Rust开发者来说是一个有价值的资源。",
-    "tags": [
-      "Dev",
-      "Rust"
-    ],
-    "link": "https://aisdk.rs/",
-    "date": "2025-12-29",
-    "id": "17670278672192"
   },
   {
     "title": "2025开发者调查：AI使用率上升但信任度下降",
