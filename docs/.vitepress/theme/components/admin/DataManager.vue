@@ -1,6 +1,7 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue'
 import { createClient } from '@supabase/supabase-js'
+import { validateForm } from '../../utils/validation.js'
 
 const props = defineProps({
     tableName: {
@@ -96,36 +97,11 @@ const filteredData = computed(() => {
     })
 })
 
-// Validation Logic
-const validateForm = (form, columns) => {
+// Validation Wrapper (Uses extracted utility)
+const runValidation = (form, columns) => {
     errors.value = {}
-    let isValid = true
-
-    for (const col of columns) {
-        if (!col.editable) continue
-
-        const value = form[col.key]
-
-        // Check Required
-        if (col.validation?.required) {
-            const isEmpty = value === null || value === undefined || value === '' || (Array.isArray(value) && value.length === 0)
-            if (isEmpty) {
-                errors.value[col.key] = `${col.label} 是必填项`
-                isValid = false
-            }
-        }
-
-        // Check URL
-        if (col.validation?.type === 'url' && value) {
-            try {
-                new URL(value)
-            } catch (_) {
-                errors.value[col.key] = '必须是有效的 URL'
-                isValid = false
-            }
-        }
-    }
-    return isValid
+    // We pass errors.value to be mutated by the utility
+    return validateForm(form, columns, errors.value)
 }
 
 // Tags handling
@@ -169,7 +145,7 @@ const saveEdit = async () => {
         if (col.type === 'tags') syncTags(editForm.value, col.key)
     })
 
-    const isValid = validateForm(editForm.value, props.columns)
+    const isValid = runValidation(editForm.value, props.columns)
     if (!isValid) {
         showToast('请检查表单错误', 'error')
         return
@@ -277,7 +253,7 @@ const saveCreate = async () => {
         if (col.type === 'tags') syncTags(createForm.value, col.key)
     })
 
-    const isValid = validateForm(createForm.value, props.columns)
+    const isValid = runValidation(createForm.value, props.columns)
     if (!isValid) {
         showToast('请检查表单错误', 'error')
         return
