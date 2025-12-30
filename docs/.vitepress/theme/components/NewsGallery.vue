@@ -104,6 +104,80 @@ const getSource = (url) => {
     return ''
   }
 }
+
+// --- Mobile UX Logic ---
+const touchStart = ref({ x: 0, y: 0 })
+const minSwipeDistance = 50
+
+const currentIndex = computed(() => {
+  if (!selectedNews.value) return -1
+  return filteredNews.value.findIndex(item => item.id === selectedNews.value.id)
+})
+
+const hasNext = computed(() => currentIndex.value < filteredNews.value.length - 1)
+const hasPrev = computed(() => currentIndex.value > 0)
+
+const nextNews = () => {
+  if (hasNext.value) {
+    selectedNews.value = filteredNews.value[currentIndex.value + 1]
+    scrollToTop()
+  }
+}
+
+const prevNews = () => {
+  if (hasPrev.value) {
+    selectedNews.value = filteredNews.value[currentIndex.value - 1]
+    scrollToTop()
+  }
+}
+
+const scrollToTop = () => {
+  const content = document.querySelector('.modal-content-scroll')
+  if (content) content.scrollTop = 0
+}
+
+const handleTouchStart = (e) => {
+  touchStart.value = {
+    x: e.changedTouches[0].screenX,
+    y: e.changedTouches[0].screenY
+  }
+}
+
+const handleTouchEnd = (e) => {
+  const touchEnd = {
+    x: e.changedTouches[0].screenX,
+    y: e.changedTouches[0].screenY
+  }
+
+  const diffX = touchEnd.x - touchStart.value.x
+  const diffY = touchEnd.y - touchStart.value.y
+  const absX = Math.abs(diffX)
+  const absY = Math.abs(diffY)
+
+  if (absX > absY && absX > minSwipeDistance) {
+    // Horizontal Swipe
+    if (diffX > 0) {
+      // Swipe Right -> Close
+      closeNews()
+    }
+  } else if (absY > absX && absY > minSwipeDistance) {
+    // Vertical Swipe
+    // Check scroll position to avoid conflict with reading
+    const content = document.querySelector('.modal-content-scroll')
+    if (!content) return
+
+    const isAtTop = content.scrollTop <= 0
+    const isAtBottom = content.scrollTop + content.clientHeight >= content.scrollHeight - 1
+
+    if (diffY < 0 && isAtBottom) {
+      // Swipe Up (Finger moves up, content moves down) -> Next
+      nextNews()
+    } else if (diffY > 0 && isAtTop) {
+      // Swipe Down (Finger moves down, content moves up) -> Prev
+      prevNews()
+    }
+  }
+}
 </script>
 
 <template>
@@ -196,7 +270,7 @@ const getSource = (url) => {
               <button class="close-btn" @click="closeNews">CLOSE [ESC]</button>
             </div>
 
-            <div class="modal-content-scroll">
+            <div class="modal-content-scroll" @touchstart="handleTouchStart" @touchend="handleTouchEnd">
               <div class="article-header">
                 <div class="article-meta">
                   <span>{{ selectedNews.date }}</span>
@@ -213,6 +287,19 @@ const getSource = (url) => {
                   SOURCE LINK ↗
                 </a>
               </div>
+            </div>
+
+            <!-- Mobile Bottom Nav -->
+            <div class="mobile-bottom-nav">
+              <button class="nav-btn" :disabled="!hasPrev" @click="prevNews">
+                ← PREV
+              </button>
+              <button class="nav-btn close" @click="closeNews">
+                CLOSE
+              </button>
+              <button class="nav-btn" :disabled="!hasNext" @click="nextNews">
+                NEXT →
+              </button>
             </div>
 
           </div>
@@ -698,14 +785,64 @@ const getSource = (url) => {
 
   .modal-panel {
     border: none;
+    height: 100vh;
+    /* Full height on mobile */
+    max-width: 100vw;
+  }
+
+  .modal-top-bar {
+    display: none;
+    /* Hide top bar on mobile to save space, use bottom nav instead */
   }
 
   .modal-content-scroll {
-    padding: 30px 20px;
+    padding: 30px 20px 100px 20px;
+    /* Extra bottom padding for nav bar */
   }
 
   .article-title {
     font-size: 32px;
+  }
+
+  /* Mobile Bottom Nav */
+  .mobile-bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background: var(--vp-c-bg);
+    border-top: 1px solid var(--vp-c-divider);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  .nav-btn {
+    background: none;
+    border: none;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--vp-c-text-1);
+    padding: 8px 16px;
+  }
+
+  .nav-btn:disabled {
+    opacity: 0.3;
+  }
+
+  .nav-btn.close {
+    color: var(--vp-c-text-2);
+    font-weight: 400;
+  }
+}
+
+/* Desktop: Hide bottom nav */
+@media (min-width: 769px) {
+  .mobile-bottom-nav {
+    display: none;
   }
 }
 </style>
