@@ -108,6 +108,7 @@ const getSource = (url) => {
 // --- Mobile UX Logic ---
 const touchStart = ref({ x: 0, y: 0 })
 const minSwipeDistance = 50
+const modalContentRef = ref(null)
 
 const currentIndex = computed(() => {
   if (!selectedNews.value) return -1
@@ -132,8 +133,9 @@ const prevNews = () => {
 }
 
 const scrollToTop = () => {
-  const content = document.querySelector('.modal-content-scroll')
-  if (content) content.scrollTop = 0
+  if (modalContentRef.value) {
+    modalContentRef.value.scrollTop = 0
+  }
 }
 
 const handleTouchStart = (e) => {
@@ -154,26 +156,31 @@ const handleTouchEnd = (e) => {
   const absX = Math.abs(diffX)
   const absY = Math.abs(diffY)
 
-  if (absX > absY && absX > minSwipeDistance) {
-    // Horizontal Swipe
-    if (diffX > 0) {
-      // Swipe Right -> Close
-      closeNews()
-    }
-  } else if (absY > absX && absY > minSwipeDistance) {
-    // Vertical Swipe
-    // Check scroll position to avoid conflict with reading
-    const content = document.querySelector('.modal-content-scroll')
+  // Check if it's a valid swipe (exceeds minimum distance)
+  const isHorizontalSwipe = absX > absY && absX > minSwipeDistance
+  const isVerticalSwipe = absY > absX && absY > minSwipeDistance
+
+  if (isHorizontalSwipe && diffX > 0) {
+    // Swipe Right -> Close
+    e.preventDefault()
+    closeNews()
+    return
+  }
+
+  if (isVerticalSwipe) {
+    const content = modalContentRef.value
     if (!content) return
 
     const isAtTop = content.scrollTop <= 0
     const isAtBottom = content.scrollTop + content.clientHeight >= content.scrollHeight - 1
 
     if (diffY < 0 && isAtBottom) {
-      // Swipe Up (Finger moves up, content moves down) -> Next
+      // Swipe Up at bottom -> Next
+      e.preventDefault()
       nextNews()
     } else if (diffY > 0 && isAtTop) {
-      // Swipe Down (Finger moves down, content moves up) -> Prev
+      // Swipe Down at top -> Prev
+      e.preventDefault()
       prevNews()
     }
   }
@@ -270,7 +277,8 @@ const handleTouchEnd = (e) => {
               <button class="close-btn" @click="closeNews">CLOSE [ESC]</button>
             </div>
 
-            <div class="modal-content-scroll" @touchstart="handleTouchStart" @touchend="handleTouchEnd">
+            <div ref="modalContentRef" class="modal-content-scroll" @touchstart="handleTouchStart"
+              @touchend="handleTouchEnd">
               <div class="article-header">
                 <div class="article-meta">
                   <span>{{ selectedNews.date }}</span>
