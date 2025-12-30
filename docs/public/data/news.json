@@ -1,5 +1,65 @@
 [
   {
+    "title": "SeminarLines: Algebra Tutor - 代数学习助手",
+    "summary": "SeminarLines 推出 Algebra Tutor，利用 AI 提供代数练习和长期记忆功能。",
+    "detail": "SeminarLines 发布了 Algebra Tutor，这是一个结合了自动保存进度、长期 AI 内存和会话后分析功能的代数学习助手。该工具旨在帮助用户通过 AI 辅助进行有效的代数练习，提升学习效率。虽然目前提供的信息有限，但其独特的功能设计表明它在教育技术领域具有一定的创新性。",
+    "tags": [
+      "New",
+      "Education"
+    ],
+    "link": "https://app.toughtongueai.com/run/seminarlines-algebra-tutor-69513790800e1ea3b09856a5/",
+    "date": "2025-12-30",
+    "id": "17671296889130"
+  },
+  {
+    "title": "TOPAS-DSPL：解决复杂推理任务的 AI 模型",
+    "summary": "Bitterbot AI 发布 TOPAS-DSPL，一种 1500 万参数的神经核心模型，能在 ARC 数据集上达到 24% 的解决率。",
+    "detail": "Bitterbot AI 推出了名为 TOPAS-DSPL 的 AI 模型，该模型是 TOPAS 神经符号架构的核心部分，专注于双流程序化学习器（DSPL）。尽管没有外部辅助，TOPAS-DSPL 在 ARC（Abstraction and Reasoning Corpus）数据集上取得了 24% 的解决率，展示了其强大的推理能力。这一成果验证了双流架构在复杂推理任务中的潜力。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://github.com/Bitterbot-AI/topas_DSLPv1",
+    "date": "2025-12-30",
+    "id": "17671296889141"
+  },
+  {
+    "title": "InterminAI：交互式终端中的 AI",
+    "summary": "InterminAI 是一个 PTY 代理，允许 AI 与交互式 CLI 应用程序（如 vim、git rebase -i、gdb）通过屏幕捕获和键盘输入进行交互。",
+    "detail": "InterminAI 是一个创新的 PTY（伪终端）代理系统，使 AI 能够与各种交互式命令行界面（CLI）应用程序进行无缝交互。通过屏幕捕获和键盘输入，InterminAI 可以操作如 vim、git rebase -i、gdb 等文本用户界面（TUI）程序。这为自动化脚本编写、调试和系统管理提供了新的可能性，特别是在需要高度交互性的场景中。",
+    "tags": [
+      "Dev",
+      "CLI"
+    ],
+    "link": "https://github.com/mstsirkin/interminai",
+    "date": "2025-12-30",
+    "id": "17671296889142"
+  },
+  {
+    "title": "Loamly：开源网站流量检测工具",
+    "summary": "Loamly 是一个开源工具，可以检测 ChatGPT、Claude、Perplexity 和 Gemini 等 AI 模型对网站的访问。",
+    "detail": "Loamly 是一款开源的 AI 流量检测工具，旨在识别和记录来自 ChatGPT、Claude、Perplexity 和 Gemini 等大型语言模型的网站访问。通过加密验证和零误报率，Loamly 提供了一种可靠的方法来监控和分析这些 AI 模型如何与网站互动，这对于理解 AI 在互联网上的行为模式具有重要意义。",
+    "tags": [
+      "Dev",
+      "Traffic Detection"
+    ],
+    "link": "https://github.com/loamly/loamly",
+    "date": "2025-12-30",
+    "id": "17671296889143"
+  },
+  {
+    "title": "Rover：本地 AI 编码代理管理器",
+    "summary": "Rover 允许在本地运行多个 AI 编码代理，支持多种 AI 工具，确保隔离环境和安全性。",
+    "detail": "Rover 是一个强大的本地 AI 编码代理管理器，它允许开发者在同一项目中同时运行多个 AI 编码代理，而不会相互干扰。Rover 利用本地工具（如 Git、Docker/Podman）和多种 AI 代理（如 Claude、Gemini、Codex、Qwen），提供了一个灵活且安全的开发环境。通过创建隔离的沙箱环境，Rover 确保每个代理都能独立工作，从而提高开发效率和系统安全性。",
+    "tags": [
+      "Dev",
+      "Coding Agents"
+    ],
+    "link": "https://endor.dev/rover",
+    "date": "2025-12-30",
+    "id": "17671296889144"
+  },
+  {
     "title": "开源AI代理认证工具AuthForge",
     "summary": "AuthForge提供开源的AI代理认证基础设施。",
     "detail": "AuthForge是一个开源项目，旨在为AI代理、MCP服务器和自治工具提供安全的认证基础设施。它支持OAuth 2.1协议，并内置了企业级SSO功能，允许与Okta、Azure AD和Google Workspace等服务集成。此外，AuthForge还支持自托管部署，确保数据安全性和灵活性。",
@@ -686,6 +746,18 @@
     "id": "17670654087792"
   },
   {
+    "title": "Securing AI 编码代理：了解 IDEsaster 漏洞",
+    "summary": "安全研究员 Ari Marzouk 报告了影响多个 AI IDE 的 30 多个安全漏洞。",
+    "detail": "安全研究员 Ari Marzouk 发现了一类称为 IDEsaster 的新漏洞，这些漏洞结合了提示注入和合法 IDE 功能，导致数据泄露、远程代码执行和凭证窃取等问题。IDEsaster 影响了包括 Claude Code、Cursor、GitHub Copilot、Windsurf、JetBrains Junie 和 Zed.dev 在内的几乎所有主要 AI IDE。该研究揭示了当前 AI 工具生态系统中存在的根本性架构问题，强调了加强安全措施的重要性。",
+    "tags": [
+      "News",
+      "Security"
+    ],
+    "link": "https://tigran.tech/securing-ai-coding-agents-idesaster-vulnerabilities",
+    "date": "2025-12-29",
+    "id": "17671296889145"
+  },
+  {
     "title": "2025年AI市场的冷静期",
     "summary": "2025年AI市场经历了从狂热到冷静的转变，投资者开始关注可持续性、安全性和商业模式。",
     "detail": "2025年，AI市场经历了从年初的巨额投资和宏伟基础设施计划到年底的冷静期。尽管年初许多企业进行了大规模的资金筹集和基础设施建设，但到了年底，市场对AI的关注点转向了其可持续性、安全性以及商业模式的可行性。这种转变反映了投资者对AI技术长期发展的审慎态度。",
@@ -1141,77 +1213,5 @@
     "link": "https://news.ycombinator.com/item?id=46416029",
     "date": "2025-12-29",
     "id": "17669803199212"
-  },
-  {
-    "title": "LLM 停止运行的世界：日记",
-    "summary": "作者记录了在一个没有大语言模型的世界里人们的生活变化。",
-    "detail": "这篇日记描述了一个假设的世界，在这个世界上，大型语言模型（LLM）突然停止工作。作者记录了从信息获取困难到社会混乱的一系列事件。最初，人们无法找到简单的信息，比如如何使用卫生纸；随后，由于缺乏指导，社会出现了恐慌和混乱。这篇日记揭示了 LLM 在现代社会中的重要性及其缺失带来的潜在问题。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://blog.pytoshka.me/post/the-day-the-llm-stood-still/",
-    "date": "2025-12-29",
-    "id": "17669733619791"
-  },
-  {
-    "title": "PostTrainBench发布：评估AI代理后训练语言模型的能力",
-    "summary": "PostTrainBench评测不同AI代理在10小时内提升LLM性能的效果。",
-    "detail": "PostTrainBench是一个用于评估AI代理在有限资源下提升语言模型性能的基准测试平台。该平台提供了多个基准测试任务，包括AIME 2025、BFCL、GPQA Main、GSM8K和HumanEval。通过对比不同AI代理的表现，研究者可以了解哪些方法在后训练阶段更为有效。结果显示，人类手动调优的模型表现最佳，其次是GPT 5.1 Codex Max。此研究有助于推动AI代理自动化优化技术的发展。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://posttrainbench.com/",
-    "date": "2025-12-28",
-    "id": "17670287817950"
-  },
-  {
-    "title": "AI引发裁员，但原因并非技术替代",
-    "summary": "AI导致裁员的原因是围绕AI的叙事而非其能力。",
-    "detail": "自2022年ChatGPT推出以来，人们一直在猜测AI是否会取代人类劳动力。然而，进入2026年，我们看到“AI”和“裁员”出现在同一新闻标题中。研究发现，AI并未因技术能力而取代知识工作者，而是围绕AI的叙事在重塑就业市场。这种叙事有利于AI公司，并导致了裁员现象。",
-    "tags": [
-      "News",
-      "Layoffs"
-    ],
-    "link": "https://ericlamb.substack.com/p/ai-is-causing-layoffs-just-not-in",
-    "date": "2025-12-28",
-    "id": "17670182208720"
-  },
-  {
-    "title": "决策型AI在医疗治理中的风险",
-    "summary": "研究揭示AI在医疗决策中生成准确但难以辩护的结论带来的治理风险。",
-    "detail": "该论文探讨了AI系统在医疗领域生成准确但难以辩护的决策的风险。作者指出，AI系统不会产生错误信息或违反规则，而是将准确的事实组合成权威的决策性叙述，这在受到严格监管的医疗环境中构成了治理挑战。这项研究强调了对AI决策过程的透明度和可解释性的需求。",
-    "tags": [
-      "News",
-      "Healthcare"
-    ],
-    "link": "https://zenodo.org/records/18074624",
-    "date": "2025-12-28",
-    "id": "17670039598770"
-  },
-  {
-    "title": "AI调制咖啡：技术实现与应用",
-    "summary": "Archestra AI利用AI技术成功调整咖啡机参数，实现不同 roast 的咖啡制作。",
-    "detail": "Archestra AI团队通过结合硬件设备和AI技术，实现了咖啡机的智能调制。项目中使用的硬件包括Ascaso Dream和Gaggimate，AI系统通过优化参数（如萃取时间、温度和压力）来调整咖啡机设置，从而制作出不同风味的咖啡。这一技术的应用展示了AI在家庭咖啡制作中的潜力。",
-    "tags": [
-      "Dev",
-      "Coffee"
-    ],
-    "link": "https://archestra.ai/blog/brew-by-ai",
-    "date": "2025-12-28",
-    "id": "17670039598773"
-  },
-  {
-    "title": "sysHuman AI Skin Analysis - AI for Beauty Salons",
-    "summary": "提供专业皮肤分析服务的AI技术，生成PDF报告。",
-    "detail": "sysHuman AI Skin Analysis 是一款利用先进人工智能技术为美容院提供专业皮肤分析服务的产品。通过其AI引擎，用户可以快速生成详细的皮肤分析报告，并支持多语言和多用户管理。该产品强调数据安全性和便捷性，适合需要高效客户管理的美容院。",
-    "tags": [
-      "Deal",
-      "Beauty"
-    ],
-    "link": "https://salon.syshuman.com/",
-    "date": "2025-12-28",
-    "id": "17669803199210"
   }
 ]
