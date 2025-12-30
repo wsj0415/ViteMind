@@ -1,5 +1,41 @@
 [
   {
+    "title": "MCP Guard：防止AI代理直接访问数据库",
+    "summary": "开发者因担心AI代理直接访问数据库的安全性，构建了MCP Guard。",
+    "detail": "开发者Pritahir在Hacker News上分享了其构建MCP Guard的动机和过程。MCP Guard是一个托管SaaS仪表板，旨在为用户提供对AI代理活动的可见性和控制，防止危险命令的执行。该工具解决了Model Context Protocol（MCP）的强大功能与直接数据库访问带来的安全风险之间的矛盾。通过MCP Guard，用户可以更好地管理AI代理的行为，确保数据安全。",
+    "tags": [
+      "Dev",
+      "AI安全"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46431020",
+    "date": "2025-12-30",
+    "id": "17670868245860"
+  },
+  {
+    "title": "AI在软件外包中的效率收益归属",
+    "summary": "探讨AI如何改变软件外包中的效率收益分配问题。",
+    "detail": "KedeHub发布了一篇博客文章，讨论了AI技术对软件外包经济的影响。文章指出，随着AI辅助编码的引入，软件开发的生产方式发生了变化，相同的成果可能需要更少的开发者或不同的技能组合。然而，现有的定价模型、人员配置计划和治理机制并未相应调整，导致客户难以评估AI带来的实际效率提升。作者认为，缺乏有效的治理工具使得客户面临更大的风险。",
+    "tags": [
+      "News",
+      "AI经济"
+    ],
+    "link": "https://kedehub.io/blog/who_captures_the_ai_efficiency_gains_in_software_outsourcing.html",
+    "date": "2025-12-30",
+    "id": "17670868245861"
+  },
+  {
+    "title": "实时头肩模式检测在AI交易策略中的应用",
+    "summary": "介绍如何使用卷积神经网络进行实时头肩模式检测。",
+    "detail": "Jiri Pik在其博客上详细介绍了如何利用卷积神经网络（CNN）实现股票市场中头肩模式的实时检测。头肩模式是一种常见的技术分析形态，有助于预测价格趋势。通过构建和训练CNN模型，可以自动化识别这种模式，并将其应用于AI驱动的交易策略。这种方法不仅提高了检测的准确性和速度，也为投资者提供了新的工具来制定交易决策。",
+    "tags": [
+      "Dev",
+      "AI金融"
+    ],
+    "link": "https://jiripik.com/2025/12/30/real-time-head-and-shoulders-pattern-detection-for-ai-trading-strategies/",
+    "date": "2025-12-30",
+    "id": "17670868245862"
+  },
+  {
     "title": "Brief My Meeting: 智能会议纪要助手",
     "summary": "Brief My Meeting 是一款开源AI工具，自动为你的会议生成纪要。",
     "detail": "Brief My Meeting 是一款基于人工智能的会议纪要生成工具，能够自动将会议内容转化为详细的纪要，并发送到用户的邮箱中。该工具采用开源模式，允许用户根据自身需求进行定制和改进。通过使用自然语言处理技术，Brief My Meeting 能够准确提取会议中的关键信息，帮助用户提高会议效率和后续工作的跟进。",
@@ -87,18 +123,6 @@
     "id": "17670794630163"
   },
   {
-    "title": "前《华尔街日报》记者起诉 AI 巨头涉嫌书籍盗版",
-    "summary": "前《华尔街日报》记者因 Theranos 欺诈案揭露者身份起诉多家 AI 公司，指控其盗用书籍内容。",
-    "detail": "前《华尔街日报》记者因揭露 Theranos 欺诈案而知名，现因涉嫌书籍盗版对多家 AI 公司提起诉讼。原告指控这些公司未经授权使用了其著作中的内容，侵犯了版权。这一诉讼反映了在 AI 发展过程中知识产权保护的重要性，以及传统媒体和科技公司在内容使用上的法律冲突。",
-    "tags": [
-      "News",
-      "Legal"
-    ],
-    "link": "https://nypost.com/2025/12/24/business/ex-wsj-reporter-who-exposed-theranos-fraud-sues-ai-giants-over-alleged-book-piracy/",
-    "date": "2025-12-24",
-    "id": "17670794630164"
-  },
-  {
     "title": "Meta收购AI初创公司Manus",
     "summary": "Meta收购了备受瞩目的AI初创公司Manus，并计划将其技术整合到其主要应用中。",
     "detail": "2025年12月30日，Meta宣布收购了AI初创公司Manus。Manus以其先进的AI代理技术闻名，Meta表示将保持其独立运营，并将Manus的技术集成到Facebook、Instagram和WhatsApp等平台中。这将增强Meta现有聊天机器人Meta AI的功能，为用户提供更智能的互动体验。此次收购标志着Meta在AI领域的进一步布局。",
@@ -111,42 +135,6 @@
     "id": "17670765708170"
   },
   {
-    "title": "2025年AI市场的冷静期",
-    "summary": "2025年AI市场经历了从狂热到冷静的转变，投资者开始关注可持续性、安全性和商业模式。",
-    "detail": "2025年，AI市场经历了从年初的巨额投资和宏伟基础设施计划到年底的冷静期。尽管年初许多企业进行了大规模的资金筹集和基础设施建设，但到了年底，市场对AI的关注点转向了其可持续性、安全性以及商业模式的可行性。这种转变反映了投资者对AI技术长期发展的审慎态度。",
-    "tags": [
-      "News",
-      "Market"
-    ],
-    "link": "https://techcrunch.com/2025/12/29/2025-was-the-year-ai-got-a-vibe-check/",
-    "date": "2025-12-29",
-    "id": "17670765708171"
-  },
-  {
-    "title": "ChatGPT应用新集成指南",
-    "summary": "ChatGPT新增与DoorDash、Spotify、Uber等应用的集成，用户可以直接在ChatGPT中使用这些服务。",
-    "detail": "2025年12月29日，ChatGPT发布了与多个流行应用的新集成功能，包括DoorDash、Spotify、Uber等。这些集成使得用户可以在ChatGPT中直接访问和使用这些服务，大大提升了用户体验和便利性。通过这些集成，用户可以更加无缝地管理日常任务，如订餐、听音乐和叫车等。",
-    "tags": [
-      "Dev",
-      "Integration"
-    ],
-    "link": "https://techcrunch.com/2025/12/29/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
-    "date": "2025-12-29",
-    "id": "17670765708172"
-  },
-  {
-    "title": "风投预测2026企业AI采纳率将强劲增长",
-    "summary": "超过20位VC认为2026年企业AI预算将大幅增加。",
-    "detail": "根据超过20位风险投资家的预测，2026年企业AI的采纳率将继续保持强劲增长态势。他们认为，随着AI技术的成熟和成本效益的提高，企业对AI的投资将显著增加，特别是在AI代理和自动化工具方面。",
-    "tags": [
-      "News",
-      "Enterprise"
-    ],
-    "link": "https://techcrunch.com/2025/12/29/vcs-predict-strong-enterprise-ai-adoption-next-year-again/",
-    "date": "2025-12-29",
-    "id": "17670724705702"
-  },
-  {
     "title": "Cascade AI优化广告运营解决方案",
     "summary": "Cascade发布AI广告优化工具，减少70%分析工作量，提升ROI。",
     "detail": "Cascade是一个全新的AI广告优化平台，旨在帮助营销人员简化和自动化广告操作流程。通过集成先进的AI技术，Cascade能够快速完成复杂的数据分析任务，并提供精准的预算优化建议，从而显著提升广告效果和投资回报率。该平台还支持在Slack上完成从提案确认到实施的全过程，极大提升了工作效率。",
@@ -157,18 +145,6 @@
     "link": "https://cascaded.ai/en/",
     "date": "2025-12-30",
     "id": "17670696667860"
-  },
-  {
-    "title": "Meta收购Manus AI，估值40亿美元",
-    "summary": "Meta Superintelligence Labs以40亿美元收购Manus AI，后者仅在9个月内达到1亿美元ARR。",
-    "detail": "Meta Superintelligence Labs于2025年12月29日宣布，已以40亿美元的价格收购了Manus AI。Manus AI是一家专注于人工智能驱动的营销解决方案提供商，自今年3月推出以来迅速获得了市场认可，并在9个月内实现了1亿美元的年度经常性收入（ARR）。此次收购体现了Meta对快速增长的AI市场的重视，特别是其在营销领域的应用潜力。",
-    "tags": [
-      "News",
-      "Acquisition"
-    ],
-    "link": "https://news.smol.ai/issues/25-12-29-meta-manus/",
-    "date": "2025-12-29",
-    "id": "17670696667861"
   },
   {
     "title": "使用Python和Grok API构建技术支持AI代理",
@@ -217,6 +193,54 @@
     "link": "https://www.wsj.com/tech/ai/ai-chatbot-psychosis-link-1abf9d57",
     "date": "2025-12-30",
     "id": "17670654087792"
+  },
+  {
+    "title": "2025年AI市场的冷静期",
+    "summary": "2025年AI市场经历了从狂热到冷静的转变，投资者开始关注可持续性、安全性和商业模式。",
+    "detail": "2025年，AI市场经历了从年初的巨额投资和宏伟基础设施计划到年底的冷静期。尽管年初许多企业进行了大规模的资金筹集和基础设施建设，但到了年底，市场对AI的关注点转向了其可持续性、安全性以及商业模式的可行性。这种转变反映了投资者对AI技术长期发展的审慎态度。",
+    "tags": [
+      "News",
+      "Market"
+    ],
+    "link": "https://techcrunch.com/2025/12/29/2025-was-the-year-ai-got-a-vibe-check/",
+    "date": "2025-12-29",
+    "id": "17670765708171"
+  },
+  {
+    "title": "ChatGPT应用新集成指南",
+    "summary": "ChatGPT新增与DoorDash、Spotify、Uber等应用的集成，用户可以直接在ChatGPT中使用这些服务。",
+    "detail": "2025年12月29日，ChatGPT发布了与多个流行应用的新集成功能，包括DoorDash、Spotify、Uber等。这些集成使得用户可以在ChatGPT中直接访问和使用这些服务，大大提升了用户体验和便利性。通过这些集成，用户可以更加无缝地管理日常任务，如订餐、听音乐和叫车等。",
+    "tags": [
+      "Dev",
+      "Integration"
+    ],
+    "link": "https://techcrunch.com/2025/12/29/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
+    "date": "2025-12-29",
+    "id": "17670765708172"
+  },
+  {
+    "title": "风投预测2026企业AI采纳率将强劲增长",
+    "summary": "超过20位VC认为2026年企业AI预算将大幅增加。",
+    "detail": "根据超过20位风险投资家的预测，2026年企业AI的采纳率将继续保持强劲增长态势。他们认为，随着AI技术的成熟和成本效益的提高，企业对AI的投资将显著增加，特别是在AI代理和自动化工具方面。",
+    "tags": [
+      "News",
+      "Enterprise"
+    ],
+    "link": "https://techcrunch.com/2025/12/29/vcs-predict-strong-enterprise-ai-adoption-next-year-again/",
+    "date": "2025-12-29",
+    "id": "17670724705702"
+  },
+  {
+    "title": "Meta收购Manus AI，估值40亿美元",
+    "summary": "Meta Superintelligence Labs以40亿美元收购Manus AI，后者仅在9个月内达到1亿美元ARR。",
+    "detail": "Meta Superintelligence Labs于2025年12月29日宣布，已以40亿美元的价格收购了Manus AI。Manus AI是一家专注于人工智能驱动的营销解决方案提供商，自今年3月推出以来迅速获得了市场认可，并在9个月内实现了1亿美元的年度经常性收入（ARR）。此次收购体现了Meta对快速增长的AI市场的重视，特别是其在营销领域的应用潜力。",
+    "tags": [
+      "News",
+      "Acquisition"
+    ],
+    "link": "https://news.smol.ai/issues/25-12-29-meta-manus/",
+    "date": "2025-12-29",
+    "id": "17670696667861"
   },
   {
     "title": "AI Domain Data Standard 发布",
@@ -279,18 +303,6 @@
     "id": "17670332356340"
   },
   {
-    "title": "2025年AI反弹现象加剧",
-    "summary": "2025年，公众对AI的反弹情绪显著增强，引发了广泛的讨论和关注。",
-    "detail": "2025年，随着AI技术在各领域的广泛应用，公众对其潜在风险和伦理问题的担忧日益增加。AI反弹现象表现为公众对AI技术的负面反应加剧，包括隐私泄露、就业冲击和伦理争议等问题。这促使社会各界开始重新审视AI的发展路径，强调技术伦理和社会责任的重要性。",
-    "tags": [
-      "News",
-      "Ethics"
-    ],
-    "link": "https://futurism.com/artificial-intelligence/ai-backlash-2025",
-    "date": "2025-12-27",
-    "id": "17670332356341"
-  },
-  {
     "title": "中国拟出台最严AI监管法规",
     "summary": "中国正在起草世界上最严格的AI监管法规，以防止AI导致的自杀和暴力行为。",
     "detail": "中国政府计划出台一系列严格的AI监管措施，旨在预防AI技术被用于鼓励自杀和暴力行为。这些法规不仅针对AI的滥用，还涵盖了AI在医疗、教育等多个领域的应用，强调了技术开发和使用的伦理底线。此举标志着中国在AI治理方面迈出了重要一步，旨在确保技术发展惠及社会的同时，最大限度地减少潜在风险。",
@@ -301,18 +313,6 @@
     "link": "https://arstechnica.com/tech-policy/2025/12/china-drafts-worlds-strictest-rules-to-end-ai-encouraged-suicide-violence/",
     "date": "2025-12-29",
     "id": "17670332356342"
-  },
-  {
-    "title": "PostTrainBench发布：评估AI代理后训练语言模型的能力",
-    "summary": "PostTrainBench评测不同AI代理在10小时内提升LLM性能的效果。",
-    "detail": "PostTrainBench是一个用于评估AI代理在有限资源下提升语言模型性能的基准测试平台。该平台提供了多个基准测试任务，包括AIME 2025、BFCL、GPQA Main、GSM8K和HumanEval。通过对比不同AI代理的表现，研究者可以了解哪些方法在后训练阶段更为有效。结果显示，人类手动调优的模型表现最佳，其次是GPT 5.1 Codex Max。此研究有助于推动AI代理自动化优化技术的发展。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://posttrainbench.com/",
-    "date": "2025-12-28",
-    "id": "17670287817950"
   },
   {
     "title": "开源AI工具包：适用于Rust的AI-SDK",
@@ -352,18 +352,6 @@
     "id": "17670266254782"
   },
   {
-    "title": "AI引发裁员，但原因并非技术替代",
-    "summary": "AI导致裁员的原因是围绕AI的叙事而非其能力。",
-    "detail": "自2022年ChatGPT推出以来，人们一直在猜测AI是否会取代人类劳动力。然而，进入2026年，我们看到“AI”和“裁员”出现在同一新闻标题中。研究发现，AI并未因技术能力而取代知识工作者，而是围绕AI的叙事在重塑就业市场。这种叙事有利于AI公司，并导致了裁员现象。",
-    "tags": [
-      "News",
-      "Layoffs"
-    ],
-    "link": "https://ericlamb.substack.com/p/ai-is-causing-layoffs-just-not-in",
-    "date": "2025-12-28",
-    "id": "17670182208720"
-  },
-  {
     "title": "Dock AI：为AI代理提供实体发现服务",
     "summary": "Dock AI提供了一个实体发现协议注册表，帮助AI代理识别哪些MCP适合业务。",
     "detail": "Dock AI是一个实体发现协议注册表，允许AI代理发现可以与任何实体交互的MCP服务器。这是第一个实体发现协议注册表，旨在帮助企业更好地利用AI技术。",
@@ -398,18 +386,6 @@
     "link": "https://news.ycombinator.com/item?id=46420454",
     "date": "2025-12-29",
     "id": "17670182208733"
-  },
-  {
-    "title": "800万用户浏览器扩展收集AI对话",
-    "summary": "800万用户使用的浏览器扩展收集详细的AI对话记录。",
-    "detail": "一些浏览器扩展拥有800万用户，它们会收集用户的详细AI对话记录。这引发了隐私和安全方面的担忧，因为这些数据可能被用于广告投放或其他目的。",
-    "tags": [
-      "News",
-      "Privacy"
-    ],
-    "link": "https://arstechnica.com/security/2025/12/browser-extensions-with-8-million-users-collect-extended-ai-conversations/",
-    "date": "2025-12-17",
-    "id": "17670182208734"
   },
   {
     "title": "英国会计机构暂停远程考试以防止AI作弊",
@@ -496,18 +472,6 @@
     "id": "17670125532084"
   },
   {
-    "title": "决策型AI在医疗治理中的风险",
-    "summary": "研究揭示AI在医疗决策中生成准确但难以辩护的结论带来的治理风险。",
-    "detail": "该论文探讨了AI系统在医疗领域生成准确但难以辩护的决策的风险。作者指出，AI系统不会产生错误信息或违反规则，而是将准确的事实组合成权威的决策性叙述，这在受到严格监管的医疗环境中构成了治理挑战。这项研究强调了对AI决策过程的透明度和可解释性的需求。",
-    "tags": [
-      "News",
-      "Healthcare"
-    ],
-    "link": "https://zenodo.org/records/18074624",
-    "date": "2025-12-28",
-    "id": "17670039598770"
-  },
-  {
     "title": "ReadyData：自动化的AI数据提取工具",
     "summary": "ReadyData提供自动化AI数据提取服务，支持多种文档类型转换为结构化数据。",
     "detail": "ReadyData是一款强大的AI数据提取工具，能够将非结构化的文档文件（如发票、收据、银行对账单等）快速转化为结构化的Excel、CSV或JSON格式数据。该工具无需编程即可实现高效的数据提取，解决了手动输入数据耗时、易出错的问题，适用于各类业务需求。",
@@ -530,30 +494,6 @@
     "link": "https://aimusicgen.me/",
     "date": "2025-12-29",
     "id": "17670039598772"
-  },
-  {
-    "title": "AI调制咖啡：技术实现与应用",
-    "summary": "Archestra AI利用AI技术成功调整咖啡机参数，实现不同 roast 的咖啡制作。",
-    "detail": "Archestra AI团队通过结合硬件设备和AI技术，实现了咖啡机的智能调制。项目中使用的硬件包括Ascaso Dream和Gaggimate，AI系统通过优化参数（如萃取时间、温度和压力）来调整咖啡机设置，从而制作出不同风味的咖啡。这一技术的应用展示了AI在家庭咖啡制作中的潜力。",
-    "tags": [
-      "Dev",
-      "Coffee"
-    ],
-    "link": "https://archestra.ai/blog/brew-by-ai",
-    "date": "2025-12-28",
-    "id": "17670039598773"
-  },
-  {
-    "title": "AI编写代码：谁来理解它？",
-    "summary": "探讨AI生成代码的质量和可理解性问题。",
-    "detail": "本文讨论了AI在代码编写中的作用及其生成代码的质量和可理解性问题。虽然AI能够生成高质量的代码，但其生成的代码往往缺乏可读性和可维护性，这对开发人员提出了新的挑战。文章强调了在AI辅助开发过程中，理解和维护AI生成代码的重要性。",
-    "tags": [
-      "Dev",
-      "Code Understanding"
-    ],
-    "link": "https://medium.com/enrique-dans/ai-can-write-the-code-but-who-understands-it-2e28e3e12f3e",
-    "date": "2025-12-27",
-    "id": "17670039598774"
   },
   {
     "title": "Chancely - AI 助力面试准备平台",
@@ -700,18 +640,6 @@
     "id": "17669839044341"
   },
   {
-    "title": "sysHuman AI Skin Analysis - AI for Beauty Salons",
-    "summary": "提供专业皮肤分析服务的AI技术，生成PDF报告。",
-    "detail": "sysHuman AI Skin Analysis 是一款利用先进人工智能技术为美容院提供专业皮肤分析服务的产品。通过其AI引擎，用户可以快速生成详细的皮肤分析报告，并支持多语言和多用户管理。该产品强调数据安全性和便捷性，适合需要高效客户管理的美容院。",
-    "tags": [
-      "Deal",
-      "Beauty"
-    ],
-    "link": "https://salon.syshuman.com/",
-    "date": "2025-12-28",
-    "id": "17669803199210"
-  },
-  {
     "title": "Deep Code Research – AI Surveys Similar Repositories",
     "summary": "CLI工具帮助审查代码，比较相似项目。",
     "detail": "Deep Code Research 是一个命令行工具，能够自动查找与目标仓库相似的其他仓库，并分析它们之间的差异，生成详细的比较报告。该工具通过展示具体的代码片段，帮助开发者了解相似项目中的最佳实践和改进点。",
@@ -734,6 +662,66 @@
     "link": "https://blog.pytoshka.me/post/the-day-the-llm-stood-still/",
     "date": "2025-12-29",
     "id": "17669733619791"
+  },
+  {
+    "title": "PostTrainBench发布：评估AI代理后训练语言模型的能力",
+    "summary": "PostTrainBench评测不同AI代理在10小时内提升LLM性能的效果。",
+    "detail": "PostTrainBench是一个用于评估AI代理在有限资源下提升语言模型性能的基准测试平台。该平台提供了多个基准测试任务，包括AIME 2025、BFCL、GPQA Main、GSM8K和HumanEval。通过对比不同AI代理的表现，研究者可以了解哪些方法在后训练阶段更为有效。结果显示，人类手动调优的模型表现最佳，其次是GPT 5.1 Codex Max。此研究有助于推动AI代理自动化优化技术的发展。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://posttrainbench.com/",
+    "date": "2025-12-28",
+    "id": "17670287817950"
+  },
+  {
+    "title": "AI引发裁员，但原因并非技术替代",
+    "summary": "AI导致裁员的原因是围绕AI的叙事而非其能力。",
+    "detail": "自2022年ChatGPT推出以来，人们一直在猜测AI是否会取代人类劳动力。然而，进入2026年，我们看到“AI”和“裁员”出现在同一新闻标题中。研究发现，AI并未因技术能力而取代知识工作者，而是围绕AI的叙事在重塑就业市场。这种叙事有利于AI公司，并导致了裁员现象。",
+    "tags": [
+      "News",
+      "Layoffs"
+    ],
+    "link": "https://ericlamb.substack.com/p/ai-is-causing-layoffs-just-not-in",
+    "date": "2025-12-28",
+    "id": "17670182208720"
+  },
+  {
+    "title": "决策型AI在医疗治理中的风险",
+    "summary": "研究揭示AI在医疗决策中生成准确但难以辩护的结论带来的治理风险。",
+    "detail": "该论文探讨了AI系统在医疗领域生成准确但难以辩护的决策的风险。作者指出，AI系统不会产生错误信息或违反规则，而是将准确的事实组合成权威的决策性叙述，这在受到严格监管的医疗环境中构成了治理挑战。这项研究强调了对AI决策过程的透明度和可解释性的需求。",
+    "tags": [
+      "News",
+      "Healthcare"
+    ],
+    "link": "https://zenodo.org/records/18074624",
+    "date": "2025-12-28",
+    "id": "17670039598770"
+  },
+  {
+    "title": "AI调制咖啡：技术实现与应用",
+    "summary": "Archestra AI利用AI技术成功调整咖啡机参数，实现不同 roast 的咖啡制作。",
+    "detail": "Archestra AI团队通过结合硬件设备和AI技术，实现了咖啡机的智能调制。项目中使用的硬件包括Ascaso Dream和Gaggimate，AI系统通过优化参数（如萃取时间、温度和压力）来调整咖啡机设置，从而制作出不同风味的咖啡。这一技术的应用展示了AI在家庭咖啡制作中的潜力。",
+    "tags": [
+      "Dev",
+      "Coffee"
+    ],
+    "link": "https://archestra.ai/blog/brew-by-ai",
+    "date": "2025-12-28",
+    "id": "17670039598773"
+  },
+  {
+    "title": "sysHuman AI Skin Analysis - AI for Beauty Salons",
+    "summary": "提供专业皮肤分析服务的AI技术，生成PDF报告。",
+    "detail": "sysHuman AI Skin Analysis 是一款利用先进人工智能技术为美容院提供专业皮肤分析服务的产品。通过其AI引擎，用户可以快速生成详细的皮肤分析报告，并支持多语言和多用户管理。该产品强调数据安全性和便捷性，适合需要高效客户管理的美容院。",
+    "tags": [
+      "Deal",
+      "Beauty"
+    ],
+    "link": "https://salon.syshuman.com/",
+    "date": "2025-12-28",
+    "id": "17669803199210"
   },
   {
     "title": "AI芯片需求激增导致设备价格上涨",
@@ -782,18 +770,6 @@
     "link": "https://github.com/Luthiraa/julie",
     "date": "2025-12-28",
     "id": "17669641173543"
-  },
-  {
-    "title": "特朗普政府计划招聘1000名专家组建“科技力量”",
-    "summary": "特朗普政府将招聘1000名专家以建立“科技力量”，专注于AI和金融项目。",
-    "detail": "2025年12月，特朗普政府宣布将组建一个名为“科技力量”的团队，计划招聘1000名技术专家，旨在推动人工智能和金融领域的项目发展。这一举措反映了政府对科技创新和经济增长的关注。通过汇集顶尖的技术人才，特朗普政府希望在AI和金融科技领域取得突破，提升国家竞争力。",
-    "tags": [
-      "News",
-      "Government"
-    ],
-    "link": "https://www.cnbc.com/2025/12/15/trump-ai-tech-force-amazon-apple.html",
-    "date": "2025-12-15",
-    "id": "17669605126080"
   },
   {
     "title": "Claude Code 插件助力AI任务无缝交接",
@@ -903,18 +879,6 @@
     "id": "17669467285042"
   },
   {
-    "title": "美国公众对AI未来危害持担忧态度",
-    "summary": "超过三分之二的美国人认为AI将在未来20年内对人类造成重大伤害。",
-    "detail": "根据皮尤研究中心的一项调查，超过三分之二的美国人担心人工智能在未来20年内会对人类造成重大伤害。这项调查于2024年8月进行，涵盖了5410名美国成年人。尽管人们对AI的兴趣正在增加，但对其潜在风险的担忧也在上升。这一发现反映了公众对于AI技术发展可能带来的伦理和社会问题的关注。",
-    "tags": [
-      "News",
-      "Survey"
-    ],
-    "link": "https://www.pewresearch.org/wp-content/uploads/sites/20/2025/03/pi_2025.04.03_us-public-and-ai-experts_topline.pdf",
-    "date": "2025-03-27",
-    "id": "17669424069190"
-  },
-  {
     "title": "Aegis Memory v1.2 发布，解决AI记忆难题",
     "summary": "Aegis Memory提供持久学习的多智能体系统内存引擎。",
     "detail": "QuantifyLabs发布了Aegis Memory v1.2，这是一个面向多智能体系统的开源内存引擎。它支持语义搜索、范围感知访问控制，并提供ACE模式以帮助智能体持续学习和改进。Aegis Memory易于配置，能够自动提取和存储有价值的信息，并提供查询相关上下文的功能。",
@@ -997,18 +961,6 @@
     "link": "https://news.ycombinator.com/item?id=46411807",
     "date": "2025-12-28",
     "id": "17669393838853"
-  },
-  {
-    "title": "通过观察AI演化理解其工作原理",
-    "summary": "Naomi Saphra 提倡通过研究AI训练过程来理解其机制。",
-    "detail": "Naomi Saphra 认为当前对大型语言模型的研究过于侧重于最终结果，而忽视了训练过程的重要性。她建议借鉴进化生物学的方法，通过观察AI的演化来揭示其内部机制。",
-    "tags": [
-      "News",
-      "Interpretability"
-    ],
-    "link": "https://www.quantamagazine.org/to-understand-ai-watch-how-it-evolves-20250924/",
-    "date": "2025-09-24",
-    "id": "17669393838854"
   },
   {
     "title": "AI在Erdős问题上的贡献",
@@ -1099,18 +1051,6 @@
     "id": "17669287202483"
   },
   {
-    "title": "中国发布人类类AI系统使用草案规则",
-    "summary": "中国出台草案规范人类类AI系统的使用。",
-    "detail": "2025年12月27日，中国发布了关于治理人类类AI系统的草案规则。该草案旨在确保这些AI系统的安全和合理使用，涵盖数据隐私、伦理道德等多个方面。这标志着中国政府在AI监管方面迈出了重要一步，为全球AI治理提供了参考。",
-    "tags": [
-      "News",
-      "Regulation"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2025-12-27/china-issues-draft-rules-to-govern-use-of-human-like-ai-systems",
-    "date": "2025-12-27",
-    "id": "17669257530180"
-  },
-  {
     "title": "构建AI数据分析引擎的技术挑战",
     "summary": "Harbor Scale分享构建AI数据分析引擎的技术难题。",
     "detail": "Harbor Scale在博客中详细描述了构建AI数据分析引擎时遇到的技术挑战，包括模型部署、数据隔离、内存管理等。文章强调了可靠的架构设计对于AI系统的重要性，提出了表级隔离、分层内存等解决方案。",
@@ -1135,30 +1075,40 @@
     "id": "17669131892020"
   },
   {
-    "title": "Nvidia 与 Groq 达成协议：授权技术并聘请其 CEO",
-    "summary": "Nvidia 将授权 Groq 的 AI 芯片技术并聘请其 CEO，进一步巩固其在 AI 芯片制造领域的主导地位。",
-    "detail": "据 TechCrunch 报道，Nvidia 正在与 AI 芯片挑战者 Groq 达成一项重要交易，不仅将授权 Groq 的技术，还将聘请其 CEO。此举被视为 Nvidia 在面对日益激烈的 AI 芯片市场竞争时，采取的主动防御与整合策略。\n\n**核心技术点**：Groq 以其独特的语言处理单元（LPU）架构闻名，旨在以极低的延迟处理大型语言模型的推理任务。与 Nvidia 主导的 GPU 架构不同，Groq 的系统在特定推理场景下展现出极高的效率和确定性。\n\n**行业影响**：通过吸纳 Groq 的人才与技术，Nvidia 可能旨在填补其在推理优化和特定架构上的短板，同时消除一个潜在的强劲竞争对手。这标志着 AI 硬件市场从「百花齐放」向「巨头整合」的趋势进一步加速。",
+    "title": "2025年AI反弹现象加剧",
+    "summary": "2025年，公众对AI的反弹情绪显著增强，引发了广泛的讨论和关注。",
+    "detail": "2025年，随着AI技术在各领域的广泛应用，公众对其潜在风险和伦理问题的担忧日益增加。AI反弹现象表现为公众对AI技术的负面反应加剧，包括隐私泄露、就业冲击和伦理争议等问题。这促使社会各界开始重新审视AI的发展路径，强调技术伦理和社会责任的重要性。",
     "tags": [
       "News",
-      "Hardware",
-      "AI Chip"
+      "Ethics"
     ],
-    "link": "https://techcrunch.com/2025/12/24/nvidia-acquires-ai-chip-challenger-groq-for-20b-report-says/",
-    "date": "2025-12-24",
-    "id": "17668348007190"
+    "link": "https://futurism.com/artificial-intelligence/ai-backlash-2025",
+    "date": "2025-12-27",
+    "id": "17670332356341"
   },
   {
-    "title": "IT 咨询行业在 AI 革命中扮演「水管工」角色",
-    "summary": "文章分析了生成式 AI 为何未击垮印度 IT 产业，反而让系统集成与旧系统改造成为核心需求。",
-    "detail": "尽管早期预测认为生成式 AI 将终结印度 2500 亿美元的 IT 产业，但现实是 AI 部署正面临巨大瓶颈。文章指出，大多数企业的 IT 基础设施是过去 30 年积累的 SAP、Oracle 等系统的「大杂烩」，并未为 AI 互联设计。\n\n**核心观点**：AI 真正落地需要大量的「管道工作」——即系统集成、数据清洗和旧系统改造。由于「工程垃圾（Workslop）」、治理薄弱和高错误率，AI 目前仍难以在受监管行业大规模应用。\n\n**行业影响**：这为传统的 IT 咨询和服务公司（如 TCS、Infosys）提供了新的生存空间。它们正从单纯的代码编写者转型为 AI 时代的系统整合者和「管道工」，帮助大企业打通数据孤岛，为 AI 应用铺平道路。",
+    "title": "AI编写代码：谁来理解它？",
+    "summary": "探讨AI生成代码的质量和可理解性问题。",
+    "detail": "本文讨论了AI在代码编写中的作用及其生成代码的质量和可理解性问题。虽然AI能够生成高质量的代码，但其生成的代码往往缺乏可读性和可维护性，这对开发人员提出了新的挑战。文章强调了在AI辅助开发过程中，理解和维护AI生成代码的重要性。",
+    "tags": [
+      "Dev",
+      "Code Understanding"
+    ],
+    "link": "https://medium.com/enrique-dans/ai-can-write-the-code-but-who-understands-it-2e28e3e12f3e",
+    "date": "2025-12-27",
+    "id": "17670039598774"
+  },
+  {
+    "title": "中国发布人类类AI系统使用草案规则",
+    "summary": "中国出台草案规范人类类AI系统的使用。",
+    "detail": "2025年12月27日，中国发布了关于治理人类类AI系统的草案规则。该草案旨在确保这些AI系统的安全和合理使用，涵盖数据隐私、伦理道德等多个方面。这标志着中国政府在AI监管方面迈出了重要一步，为全球AI治理提供了参考。",
     "tags": [
       "News",
-      "Enterprise AI",
-      "Industry Analysis"
+      "Regulation"
     ],
-    "link": "https://indiadispatch.com/p/indian-it-firms-are-doing-fine",
-    "date": "2025-12-26",
-    "id": "17668348007191"
+    "link": "https://www.bloomberg.com/news/articles/2025-12-27/china-issues-draft-rules-to-govern-use-of-human-like-ai-systems",
+    "date": "2025-12-27",
+    "id": "17669257530180"
   },
   {
     "title": "AgentCmds：AI 代理的Slash命令目录",
@@ -1187,17 +1137,17 @@
     "id": "17668348007193"
   },
   {
-    "title": "2026 AI 预测：代理式 AI 与 IPO 盛宴",
-    "summary": "TechCrunch 展望 2026：代理式 AI 将爆发，科技 IPO 市场复苏，VC 投资策略转变。",
-    "detail": "TechCrunch 的 Equity 团队发布了年度预测，认为 2026 年将是 AI 转型的关键一年。\n\n**核心预测**：\n1. **代理式 AI (Agentic AI)**：AI 将从「聊天助手」进化为能独立完成任务的「代理」，深度融入企业工作流。\n2. **IPO 复苏**：经过两年的低迷，Blockbuster 级别的科技 IPO 将回归，特别是那些拥有坚实 AI 基础设施的公司。\n3. **物理 AI**：AI 与机器人技术的结合将获得更多关注，从虚拟走向物理世界。\n\n**投资趋势**：虽然 mega round（巨额融资）依然存在，但 VC 将更关注商业落地和可持续增长，而非单纯的模型参数规模。",
+    "title": "IT 咨询行业在 AI 革命中扮演「水管工」角色",
+    "summary": "文章分析了生成式 AI 为何未击垮印度 IT 产业，反而让系统集成与旧系统改造成为核心需求。",
+    "detail": "尽管早期预测认为生成式 AI 将终结印度 2500 亿美元的 IT 产业，但现实是 AI 部署正面临巨大瓶颈。文章指出，大多数企业的 IT 基础设施是过去 30 年积累的 SAP、Oracle 等系统的「大杂烩」，并未为 AI 互联设计。\n\n**核心观点**：AI 真正落地需要大量的「管道工作」——即系统集成、数据清洗和旧系统改造。由于「工程垃圾（Workslop）」、治理薄弱和高错误率，AI 目前仍难以在受监管行业大规模应用。\n\n**行业影响**：这为传统的 IT 咨询和服务公司（如 TCS、Infosys）提供了新的生存空间。它们正从单纯的代码编写者转型为 AI 时代的系统整合者和「管道工」，帮助大企业打通数据孤岛，为 AI 应用铺平道路。",
     "tags": [
       "News",
-      "Trend",
-      "Investment"
+      "Enterprise AI",
+      "Industry Analysis"
     ],
-    "link": "https://techcrunch.com/podcast/equitys-2026-predictions-ai-agents-blockbuster-ipos-and-the-future-of-vc/",
-    "date": "2025-12-25",
-    "id": "17668348007194"
+    "link": "https://indiadispatch.com/p/indian-it-firms-are-doing-fine",
+    "date": "2025-12-26",
+    "id": "17668348007191"
   },
   {
     "title": "停止 AI 生成的 Chrome 浏览器垃圾内容",
@@ -1211,5 +1161,55 @@
     "link": "https://www.theregister.com/2025/12/26/disable_ai_features_chrome/",
     "date": "2025-12-26",
     "id": "17668348007195"
+  },
+  {
+    "title": "2026 AI 预测：代理式 AI 与 IPO 盛宴",
+    "summary": "TechCrunch 展望 2026：代理式 AI 将爆发，科技 IPO 市场复苏，VC 投资策略转变。",
+    "detail": "TechCrunch 的 Equity 团队发布了年度预测，认为 2026 年将是 AI 转型的关键一年。\n\n**核心预测**：\n1. **代理式 AI (Agentic AI)**：AI 将从「聊天助手」进化为能独立完成任务的「代理」，深度融入企业工作流。\n2. **IPO 复苏**：经过两年的低迷，Blockbuster 级别的科技 IPO 将回归，特别是那些拥有坚实 AI 基础设施的公司。\n3. **物理 AI**：AI 与机器人技术的结合将获得更多关注，从虚拟走向物理世界。\n\n**投资趋势**：虽然 mega round（巨额融资）依然存在，但 VC 将更关注商业落地和可持续增长，而非单纯的模型参数规模。",
+    "tags": [
+      "News",
+      "Trend",
+      "Investment"
+    ],
+    "link": "https://techcrunch.com/podcast/equitys-2026-predictions-ai-agents-blockbuster-ipos-and-the-future-of-vc/",
+    "date": "2025-12-25",
+    "id": "17668348007194"
+  },
+  {
+    "title": "前《华尔街日报》记者起诉 AI 巨头涉嫌书籍盗版",
+    "summary": "前《华尔街日报》记者因 Theranos 欺诈案揭露者身份起诉多家 AI 公司，指控其盗用书籍内容。",
+    "detail": "前《华尔街日报》记者因揭露 Theranos 欺诈案而知名，现因涉嫌书籍盗版对多家 AI 公司提起诉讼。原告指控这些公司未经授权使用了其著作中的内容，侵犯了版权。这一诉讼反映了在 AI 发展过程中知识产权保护的重要性，以及传统媒体和科技公司在内容使用上的法律冲突。",
+    "tags": [
+      "News",
+      "Legal"
+    ],
+    "link": "https://nypost.com/2025/12/24/business/ex-wsj-reporter-who-exposed-theranos-fraud-sues-ai-giants-over-alleged-book-piracy/",
+    "date": "2025-12-24",
+    "id": "17670794630164"
+  },
+  {
+    "title": "Nvidia 与 Groq 达成协议：授权技术并聘请其 CEO",
+    "summary": "Nvidia 将授权 Groq 的 AI 芯片技术并聘请其 CEO，进一步巩固其在 AI 芯片制造领域的主导地位。",
+    "detail": "据 TechCrunch 报道，Nvidia 正在与 AI 芯片挑战者 Groq 达成一项重要交易，不仅将授权 Groq 的技术，还将聘请其 CEO。此举被视为 Nvidia 在面对日益激烈的 AI 芯片市场竞争时，采取的主动防御与整合策略。\n\n**核心技术点**：Groq 以其独特的语言处理单元（LPU）架构闻名，旨在以极低的延迟处理大型语言模型的推理任务。与 Nvidia 主导的 GPU 架构不同，Groq 的系统在特定推理场景下展现出极高的效率和确定性。\n\n**行业影响**：通过吸纳 Groq 的人才与技术，Nvidia 可能旨在填补其在推理优化和特定架构上的短板，同时消除一个潜在的强劲竞争对手。这标志着 AI 硬件市场从「百花齐放」向「巨头整合」的趋势进一步加速。",
+    "tags": [
+      "News",
+      "Hardware",
+      "AI Chip"
+    ],
+    "link": "https://techcrunch.com/2025/12/24/nvidia-acquires-ai-chip-challenger-groq-for-20b-report-says/",
+    "date": "2025-12-24",
+    "id": "17668348007190"
+  },
+  {
+    "title": "800万用户浏览器扩展收集AI对话",
+    "summary": "800万用户使用的浏览器扩展收集详细的AI对话记录。",
+    "detail": "一些浏览器扩展拥有800万用户，它们会收集用户的详细AI对话记录。这引发了隐私和安全方面的担忧，因为这些数据可能被用于广告投放或其他目的。",
+    "tags": [
+      "News",
+      "Privacy"
+    ],
+    "link": "https://arstechnica.com/security/2025/12/browser-extensions-with-8-million-users-collect-extended-ai-conversations/",
+    "date": "2025-12-17",
+    "id": "17670182208734"
   }
 ]
