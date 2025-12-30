@@ -9,6 +9,12 @@ on:
   # 允许你从 Actions 选项卡手动运行此工作流程
   workflow_dispatch:
 
+  # 当 Daily AI News 工作流完成后触发
+  workflow_run:
+    workflows: ["Daily AI News"]
+    types:
+      - completed
+
 # 设置 GITHUB_TOKEN 的权限，以允许部署到 GitHub Pages
 permissions:
   contents: read
@@ -24,6 +30,8 @@ concurrency:
 jobs:
   # 构建工作
   build:
+    # 仅在非 workflow_run 触发，或者 workflow_run 成功时运行
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
