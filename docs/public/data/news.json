@@ -1,5 +1,65 @@
 [
   {
+    "title": "GitHub 发布 Execution Control Layer 规范",
+    "summary": "GitHub 发布了 Execution Control Layer 的架构规范，旨在增强 AI 决策与执行之间的控制。",
+    "detail": "Rick-Kirby 在 GitHub 上发布了 Execution Control Layer (ECL) 的规范文档。ECL 是一种架构规范，旨在解决 AI 决策与实际执行之间的控制问题。该规范定义了项目启动、验证、日志存储和系统交互的方式，使人类和 AI 代理能够更有效地协作。这将有助于提高开发效率，减少人工干预，促进自动化流程的发展。",
+    "tags": [
+      "Dev",
+      "Architecture"
+    ],
+    "link": "https://github.com/Rick-Kirby/execution-control-layer",
+    "date": "2025-12-30",
+    "id": "17670794630160"
+  },
+  {
+    "title": "DevCompare 发布 AI 编码工具比较平台",
+    "summary": "DevCompare 提供了一个实时更新的 AI 编码工具比较平台，涵盖多种工具的功能、定价和能力。",
+    "detail": "DevCompare 是一个提供实时更新的 AI 编码工具比较平台，用户可以在此平台上对比不同的 AI 编码工具，包括 Cursor、Windsurf、Claude Code 等。平台提供了详细的特性、定价和能力对比信息，帮助开发者选择最适合自己的工具。支持的 IDE 包括 VS Code、JetBrains、Eclipse 等。",
+    "tags": [
+      "Dev",
+      "Comparison"
+    ],
+    "link": "https://www.devcompare.io/",
+    "date": "2025-12-30",
+    "id": "17670794630161"
+  },
+  {
+    "title": "AI 虚拟布景工具助力房地产营销",
+    "summary": "AI Virtual Staging 提供快速、经济实惠的虚拟布景服务，适用于房地产列表。",
+    "detail": "AI Virtual Staging 是一个快速生成虚拟布景图像的工具，支持上传照片后立即生成符合 MLS 标准的虚拟布景图像。该工具适用于各种类型的房产，包括公寓、房屋、租赁物业等，能够显著提升房地产列表的吸引力和销售速度，同时降低营销成本。",
+    "tags": [
+      "New",
+      "Real Estate"
+    ],
+    "link": "https://www.aivirtualstaging.net/",
+    "date": "2025-12-30",
+    "id": "17670794630162"
+  },
+  {
+    "title": "DevBox 发布开发执行合约",
+    "summary": "DevBox 是一个轻量级的开发执行合约，标准化本地系统操作流程。",
+    "detail": "DevBox 是由 Daniel Kim 设计的开发执行合约，旨在标准化本地系统的启动、验证、日志记录和操作流程。该合约使得 AI 代理能够直接访问日志、观察失败并自主迭代修复，减少了开发过程中的摩擦和人为干预。DevBox 不是框架或容器，而是一个轻量级的控制层，适用于各种语言和项目。",
+    "tags": [
+      "Dev",
+      "Contract"
+    ],
+    "link": "https://github.com/danieljhkim/DevBox",
+    "date": "2025-12-30",
+    "id": "17670794630163"
+  },
+  {
+    "title": "前《华尔街日报》记者起诉 AI 巨头涉嫌书籍盗版",
+    "summary": "前《华尔街日报》记者因 Theranos 欺诈案揭露者身份起诉多家 AI 公司，指控其盗用书籍内容。",
+    "detail": "前《华尔街日报》记者因揭露 Theranos 欺诈案而知名，现因涉嫌书籍盗版对多家 AI 公司提起诉讼。原告指控这些公司未经授权使用了其著作中的内容，侵犯了版权。这一诉讼反映了在 AI 发展过程中知识产权保护的重要性，以及传统媒体和科技公司在内容使用上的法律冲突。",
+    "tags": [
+      "News",
+      "Legal"
+    ],
+    "link": "https://nypost.com/2025/12/24/business/ex-wsj-reporter-who-exposed-theranos-fraud-sues-ai-giants-over-alleged-book-piracy/",
+    "date": "2025-12-24",
+    "id": "17670794630164"
+  },
+  {
     "title": "Meta收购AI初创公司Manus",
     "summary": "Meta收购了备受瞩目的AI初创公司Manus，并计划将其技术整合到其主要应用中。",
     "detail": "2025年12月30日，Meta宣布收购了AI初创公司Manus。Manus以其先进的AI代理技术闻名，Meta表示将保持其独立运营，并将Manus的技术集成到Facebook、Instagram和WhatsApp等平台中。这将增强Meta现有聊天机器人Meta AI的功能，为用户提供更智能的互动体验。此次收购标志着Meta在AI领域的进一步布局。",
@@ -1151,70 +1211,5 @@
     "link": "https://techcrunch.com/podcast/why-the-operating-room-is-ripe-for-ai-according-to-akara/",
     "date": "2025-12-24",
     "id": "17668348007198"
-  },
-  {
-    "title": "Memingo：极速 AI 表情包生成器",
-    "summary": "一款基于 AI 的快速 Meme 生成工具，旨在简化病毒式营销内容的创作流程。",
-    "detail": "Memingo 是一款 Product Hunt 上的新产品，旨在利用生成式 AI 技术让用户快速制作表情包（Meme）。\n\n**核心功能**：用户只需输入简单的文本描述或选择热门模板，AI 即可自动生成符合语境的表情包，甚至包括文字排版和风格调整。\n\n**趋势分析**：在社交媒体营销中，表情包是获取流量的重要手段。AI 工具降低了内容创作的门槛，让营销人员或普通用户能迅速响应热点，生成病毒传播素材。这类工具在 TAAFT（There's An AI For That） 类榜单中非常受欢迎。",
-    "tags": [
-      "New",
-      "Generative AI",
-      "Marketing"
-    ],
-    "link": "https://www.producthunt.com/products/memingo-make-memes-fast",
-    "date": "2025-12-27",
-    "id": "176683480071910"
-  },
-  {
-    "title": "手把手教你评估语言模型的困惑度 (Perplexity)",
-    "summary": "教程：如何使用 HellaSwag 数据集计算和理解 LLM 的困惑度指标。",
-    "detail": "困惑度（Perplexity）是衡量语言模型预测能力的核心指标之一。这篇教程从数学原理到代码实现，全面拆解了如何在实际项目中评估模型表现。\n\n**技术路径**：文章首先解释了困惑度的定义（即交叉熵损失的指数形式），然后展示了如何在 PyTorch 环境下计算该指标，并使用 HellaSwag 数据集进行基准测试。\n\n**开发价值**：对于需要微调模型或对比不同模型优劣的开发者来说，理解并正确使用困惑度是基本功。这篇文章提供了可直接复用的代码片段和方法论。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Evaluation"
-    ],
-    "link": "https://machinelearningmastery.com/evaluating-perplexity-on-language-models/",
-    "date": "2025-12-24",
-    "id": "176683480071911"
-  },
-  {
-    "title": "AI的万亿级机会：上下文图谱（Context Graphs）",
-    "summary": "Foundation Capital 撰文指出，AI时代真正的万亿级机会在于捕捉企业的决策痕迹，而非仅仅是数据记录。",
-    "detail": "Foundation Capital 的分析文章指出，过去的企业软件（如Salesforce, SAP）通过成为‘记录系统’（Systems of Record）创造了万亿价值。但在AI代理（Agent）时代，仅靠静态数据已无法满足需求。\n\n文章提出了‘上下文图谱’（Context Graphs）的概念。它认为，AI不仅需要知道‘是什么’（数据/规则），更需要知道‘为什么’（决策痕迹/上下文）。这些上下文包括例外情况、跨系统沟通、以及过往决策的逻辑。\n\n对于行业而言，这意味着未来的AI应用不仅仅是连接API，而是要构建能够理解复杂决策逻辑的知识图谱。掌握这些‘决策痕迹’的公司，将在AI代理生态中占据核心地位，成为新的系统 of Intelligence。",
-    "tags": [
-      "News",
-      "Strategy",
-      "Enterprise AI"
-    ],
-    "link": "https://foundationcapital.com/context-graphs-ais-trillion-dollar-opportunity/",
-    "date": "2025-12-22",
-    "id": "17668335498102"
-  },
-  {
-    "title": "使用 torch.compile 和梯度累加加速模型训练",
-    "summary": "利用 PyTorch 的 JIT 编译器和梯度累加策略来提升训练速度和效率。",
-    "detail": "本文介绍了两种加速PyTorch模型训练的技巧。首先是 `torch.compile`，这是PyTorch 2.0引入的功能，通过即时编译（JIT）将Python代码转化为优化的内核，从而提升运行速度。其次是梯度累加（Gradient Accumulation），它允许在不增加显存占用的情况下模拟更大的Batch Size，从而稳定训练过程并提高模型性能。\n\n结合使用这两个技巧，开发者可以在现有硬件条件下显著提升训练效率。这属于典型的‘软件优化换取硬件性能’的策略。",
-    "tags": [
-      "Dev",
-      "PyTorch",
-      "Optimization"
-    ],
-    "link": "https://machinelearningmastery.com/train-a-model-faster-with-torch-compile-and-gradient-accumulation/",
-    "date": "2025-12-25",
-    "id": "17668335498108"
-  },
-  {
-    "title": "在内存受限环境下训练：混合精度与梯度检查点",
-    "summary": "针对显存不足的情况，使用混合精度训练和梯度检查点技术来运行大模型。",
-    "detail": "当模型参数量过大导致显存溢出（OOM）时，这篇教程提供了有效的解决方案。文章介绍了自动混合精度训练（Automatic Mixed Precision），即在FP16和FP32之间动态切换，既能减少显存占用，又能保持数值稳定性。同时，详细讲解了梯度检查点（Gradient Checkpointing）技术，该技术通过‘用时间换空间’的策略，只保存部分中间激活值，在反向传播时重新计算，大幅降低显存消耗。\n\n这些技术是运行现代LLM（大语言模型）不可或缺的手段。",
-    "tags": [
-      "Dev",
-      "Memory Optimization",
-      "LLM"
-    ],
-    "link": "https://machinelearningmastery.com/training-a-model-with-limited-memory-using-mixed-precision-and-gradient-checkpointing/",
-    "date": "2025-12-25",
-    "id": "17668335498109"
   }
 ]
