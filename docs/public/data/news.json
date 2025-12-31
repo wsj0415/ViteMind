@@ -1,5 +1,53 @@
 [
   {
+    "title": "AI防火墙：防止提示注入",
+    "summary": "SafeBrowse 是开源的 AI 提示注入防火墙，防止恶意指令和数据污染。",
+    "detail": "SafeBrowse 是一个开源的 AI 提示注入防火墙，旨在为 AI 系统提供硬安全边界。它能够检测并阻止隐藏指令、策略违规和有毒数据，确保 AI 在接收数据前的安全性。核心功能包括 50 多种提示注入模式检测、策略引擎（如登录和支付阻止）、故障关闭设计、审计日志和请求 ID 管理，以及支持同步和异步的 Python SDK。该工具对于保护大型语言模型（LLM）免受恶意攻击具有重要意义。",
+    "tags": [
+      "Dev",
+      "Security"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46448314",
+    "date": "2025-12-31",
+    "id": "17672160426630"
+  },
+  {
+    "title": "AI情感智能框架",
+    "summary": "新框架使 AI 能够理解情绪原因及其演变，实现真正的情感智能。",
+    "detail": "该研究提出了一种四层框架，使 AI 能够从检测情绪到理解情绪原因、风险和演变。第一层是深度上下文建模，帮助 AI 理解情绪背后的背景；第二层是计算评估理论，模拟情绪的产生；第三层是具身共鸣建模，让 AI 感同身受；第四层是情感连贯表达生成，使 AI 能够以连贯的方式表达情感。这一突破将提升 AI 的用户体验、可信度，并促进伦理 AI 的发展。",
+    "tags": [
+      "News",
+      "Emotional Intelligence"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46448067",
+    "date": "2025-12-31",
+    "id": "17672160426631"
+  },
+  {
+    "title": "AI 应用安全基线 1.0",
+    "summary": "2026 年 AI 应用的安全最低标准，涵盖部署前、持续集成/持续交付、运行时保护等方面。",
+    "detail": "AI 安全基线 1.0 提供了全面的安全指导，包括威胁建模、提示注入测试、输出验证、数据泄露评估、越狱抵抗测试等关键步骤。此外，还强调了 CI/CD 集成的重要性，要求自动化安全扫描和安全签到。这有助于确保 AI 应用在生产环境中的安全性，符合 OWASP LLM Top 10 标准。",
+    "tags": [
+      "Dev",
+      "Security"
+    ],
+    "link": "https://xsourcesec.com/baseline.html",
+    "date": "2025-12-31",
+    "id": "17672160426632"
+  },
+  {
+    "title": "Falcon Builder：无代码 AI 代理平台",
+    "summary": "Falcon Builder 提供透明的工作流和自定义 AI 代理构建功能。",
+    "detail": "Falcon Builder 是一个 AI 原生自动化平台，支持用户自定义大型语言模型（LLM）。平台提供多种构建方式，包括 AI 代理生成、模板选择和手动构建。透明的工作流和生产准备执行功能使用户能够完全控制模型和成本。此外，AI 构建信用加速了创建过程，支持连接自定义 LLM API。",
+    "tags": [
+      "New",
+      "No-Code"
+    ],
+    "link": "https://www.falconbuilder.dev/",
+    "date": "2025-12-31",
+    "id": "17672160426634"
+  },
+  {
     "title": "Claude Code Analytics：将 AI 对话转换为可操作见解",
     "summary": "Claude Code Analytics 自动捕获、存档和分析 AI 开发对话。",
     "detail": "Claude Code Analytics 是一个用于 Claude Code 的分析工具，能够自动捕获、存储和索引对话，提供交互式仪表板、全文搜索和 AI 助力的见解。适用于需要高效管理和分析 AI 开发对话的用户。",
@@ -10,18 +58,6 @@
     "link": "https://github.com/sujankapadia/claude-code-utils",
     "date": "2025-12-31",
     "id": "17672126611731"
-  },
-  {
-    "title": "Falcon Builder：无代码 AI 代理和工作流平台",
-    "summary": "Falcon Builder 提供透明的工作流和全控制的 AI 代理构建。",
-    "detail": "Falcon Builder 是一个无代码平台，支持从模板开始或从头构建 AI 代理。它提供了透明的工作流管理、生产级执行和对模型及成本的全面控制。适用于各种技术水平的用户。",
-    "tags": [
-      "New",
-      "AI Platform"
-    ],
-    "link": "https://www.falconbuilder.dev/",
-    "date": "2025-12-31",
-    "id": "17672126611732"
   },
   {
     "title": "PermaMind：持久身份的长寿命 AI 代理开源实现",
@@ -1180,41 +1216,5 @@
     "link": "https://www.bbc.com/future/article/20251223-why-indian-cinema-is-awash-with-ai",
     "date": "2025-12-30",
     "id": "17670903519721"
-  },
-  {
-    "title": "开源AI项目目录OSSAIX发布",
-    "summary": "OSSAIX是一个开源AI项目的目录，帮助开发者发现和评估各种AI工具。",
-    "detail": "OSSAIX是一个由社区驱动的开源AI项目目录，旨在简化开发者发现和评估开源AI工具的过程。该目录涵盖了多种类型的AI工具，包括大型语言模型、本地AI、图像处理等，并提供了基本的分类和GitHub活动数据，以便快速评估工具的实用性和活跃度。",
-    "tags": [
-      "Dev",
-      "开源"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46431201",
-    "date": "2025-12-30",
-    "id": "17670903519722"
-  },
-  {
-    "title": "MCP Guard：防止AI代理直接访问数据库",
-    "summary": "开发者因担心AI代理直接访问数据库的安全性，构建了MCP Guard。",
-    "detail": "开发者Pritahir在Hacker News上分享了其构建MCP Guard的动机和过程。MCP Guard是一个托管SaaS仪表板，旨在为用户提供对AI代理活动的可见性和控制，防止危险命令的执行。该工具解决了Model Context Protocol（MCP）的强大功能与直接数据库访问带来的安全风险之间的矛盾。通过MCP Guard，用户可以更好地管理AI代理的行为，确保数据安全。",
-    "tags": [
-      "Dev",
-      "AI安全"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46431020",
-    "date": "2025-12-30",
-    "id": "17670868245860"
-  },
-  {
-    "title": "AI在软件外包中的效率收益归属",
-    "summary": "探讨AI如何改变软件外包中的效率收益分配问题。",
-    "detail": "KedeHub发布了一篇博客文章，讨论了AI技术对软件外包经济的影响。文章指出，随着AI辅助编码的引入，软件开发的生产方式发生了变化，相同的成果可能需要更少的开发者或不同的技能组合。然而，现有的定价模型、人员配置计划和治理机制并未相应调整，导致客户难以评估AI带来的实际效率提升。作者认为，缺乏有效的治理工具使得客户面临更大的风险。",
-    "tags": [
-      "News",
-      "AI经济"
-    ],
-    "link": "https://kedehub.io/blog/who_captures_the_ai_efficiency_gains_in_software_outsourcing.html",
-    "date": "2025-12-30",
-    "id": "17670868245861"
   }
 ]
