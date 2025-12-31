@@ -2,6 +2,8 @@
 import { ref, onMounted, computed } from 'vue'
 import { withBase } from 'vitepress'
 import MarkdownIt from 'markdown-it'
+import BaseIcon from './BaseIcon.vue'
+import { useFavorites } from '../composables/useFavorites'
 
 const md = new MarkdownIt({
   html: true,
@@ -9,12 +11,14 @@ const md = new MarkdownIt({
   typographer: true
 })
 
+const { favorites, toggleFavorite, isFavorite } = useFavorites()
+
 const news = ref([])
 const selectedNews = ref(null)
 const loading = ref(true)
 const searchQuery = ref('')
 const selectedTag = ref('ALL')
-const viewMode = ref('grid') // 'grid' | 'timeline'
+const viewMode = ref('grid') // 'grid' | 'timeline' | 'favorites'
 
 onMounted(async () => {
   try {
@@ -213,20 +217,30 @@ const handleTouchEnd = (e) => {
           <button class="toggle-btn" :class="{ active: viewMode === 'timeline' }" @click="viewMode = 'timeline'">
             TIMELINE
           </button>
+          <span class="toggle-sep">/</span>
+          <button class="toggle-btn" :class="{ active: viewMode === 'favorites' }" @click="viewMode = 'favorites'">
+            FAVORITES
+          </button>
         </div>
       </div>
     </div>
 
     <div v-if="loading" class="status-msg">LOADING DATA...</div>
 
-    <div v-else-if="filteredNews.length === 0" class="status-msg">NO MATCHING INTELLIGENCE FOUND</div>
+    <div v-else-if="filteredNews.length === 0 && viewMode !== 'favorites'" class="status-msg">NO MATCHING INTELLIGENCE FOUND</div>
+
+    <div v-else-if="viewMode === 'favorites' && favorites.length === 0" class="status-msg">NO FAVORITES SAVED YET</div>
 
     <!-- Grid View -->
     <div v-else-if="viewMode === 'grid'" class="grid-container">
       <div v-for="item in filteredNews" :key="item.id" class="news-item" @click="openNews(item)">
         <div class="item-header">
           <span class="meta-date">{{ item.date }}</span>
-          <span v-if="item.link" class="meta-source">| {{ getSource(item.link) }}</span>
+          <div class="header-right">
+            <button class="favorite-btn" @click.stop="toggleFavorite(item)" :class="{ active: isFavorite(item.id) }">
+              <BaseIcon name="Heart" size="14" />
+            </button>
+          </div>
         </div>
 
         <div class="item-body">
@@ -246,7 +260,7 @@ const handleTouchEnd = (e) => {
     </div>
 
     <!-- Timeline View -->
-    <div v-else class="timeline-container">
+    <div v-else-if="viewMode === 'timeline'" class="timeline-container">
       <div v-for="group in groupedNews" :key="group.month" class="timeline-group">
         <div class="timeline-month">{{ group.month }}</div>
         <div class="timeline-list">
@@ -255,11 +269,41 @@ const handleTouchEnd = (e) => {
             <div class="tl-content">
               <div class="tl-header">
                 <span class="tl-title">{{ item.title }}</span>
+                <button class="favorite-btn inline" @click.stop="toggleFavorite(item)" :class="{ active: isFavorite(item.id) }">
+                  <BaseIcon name="Heart" size="14" />
+                </button>
                 <div class="tl-tags">
                   <span v-for="tag in item.tags" :key="tag" class="tl-tag">#{{ tag }}</span>
                 </div>
               </div>
               <p class="tl-summary">{{ item.summary }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Favorites View -->
+    <div v-else-if="viewMode === 'favorites'" class="timeline-container">
+      <div class="timeline-group">
+        <div class="timeline-month">SAVED INTELLIGENCE</div>
+        <div class="timeline-list">
+          <div v-for="item in favorites" :key="item.id" class="timeline-item" @click="openNews(item)">
+             <!-- No specific day, maybe an icon or index -->
+            <div class="tl-date">★</div>
+            <div class="tl-content">
+              <div class="tl-header">
+                <span class="tl-title">{{ item.title }}</span>
+                 <!-- Remove button -->
+                <button class="favorite-btn active inline" @click.stop="toggleFavorite(item)" title="Remove">
+                  <BaseIcon name="Heart" size="14" />
+                </button>
+              </div>
+              <div class="tl-meta-row" style="font-family: monospace; font-size: 11px; color: var(--vp-c-text-2); margin-bottom: 8px;">
+                 <span v-if="item.link">SOURCE: {{ getSource(item.link) }}</span>
+                 <span style="margin: 0 8px;">/</span>
+                 <span>ADDED: {{ new Date(item.addedAt).toLocaleDateString() }}</span>
+              </div>
             </div>
           </div>
         </div>
@@ -579,6 +623,43 @@ const handleTouchEnd = (e) => {
   font-family: monospace;
   color: var(--vp-c-text-2);
   letter-spacing: 0.05em;
+}
+
+.header-right {
+  display: flex;
+  gap: 8px;
+}
+
+.favorite-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--vp-c-text-3);
+  padding: 4px;
+  border-radius: 50%;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.favorite-btn:hover {
+  color: var(--vp-c-brand);
+  background: var(--vp-c-bg-soft);
+}
+
+.favorite-btn.active {
+  color: #ef4444; /* Red for heart */
+}
+
+/* Fill the SVG when active */
+.favorite-btn.active :deep(svg) {
+  fill: currentColor;
+}
+
+.favorite-btn.inline {
+  margin-left: 8px;
+  vertical-align: middle;
 }
 
 .meta-tags-row {
