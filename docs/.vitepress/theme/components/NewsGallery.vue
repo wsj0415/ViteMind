@@ -252,6 +252,10 @@ const handleTouchEnd = (e) => {
           <span v-for="tag in item.tags" :key="tag" class="meta-tag">#{{ tag }}</span>
         </div>
 
+        <div v-if="item.link" class="meta-source-row">
+          SOURCE: {{ getSource(item.link) }}
+        </div>
+
         <div class="item-footer">
           <span class="read-indicator">READ MORE</span>
           <span class="arrow">→</span>
@@ -667,6 +671,14 @@ const handleTouchEnd = (e) => {
   flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 16px;
+}
+
+.meta-source-row {
+  font-family: monospace;
+  font-size: 11px;
+  color: var(--vp-c-text-2);
+  margin-bottom: 8px;
+  text-transform: uppercase;
 }
 
 .meta-tag {
