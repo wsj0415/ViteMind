@@ -11,7 +11,15 @@ const supabaseUrl = import.meta.env.SUPABASE_URL
 const supabaseKey = import.meta.env.SUPABASE_KEY
 
 if (supabaseUrl && supabaseKey) {
-  supabase = createClient(supabaseUrl, supabaseKey)
+  // Disable Auth persistence and detection for this anonymous feature
+  // This avoids conflicts with other Supabase clients and reduces "message channel" errors
+  supabase = createClient(supabaseUrl, supabaseKey, {
+    auth: {
+      persistSession: false,
+      autoRefreshToken: false,
+      detectSessionInUrl: false
+    }
+  })
 }
 
 export function useFavorites() {
