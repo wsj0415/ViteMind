@@ -1,5 +1,41 @@
 [
   {
+    "title": "C++程序员持续增长：需求驱动而非硬件进步",
+    "summary": "尽管面临竞争和AI挑战，C++和Rust仍快速增长。",
+    "detail": "2025年对C++来说是又一个好年份，这从数据中可以看出。Herb Sutter解释了为什么C++和Rust成为2022年至2025年间增长最快的编程语言。他认为，软件的需求增长速度超过了硬件能力的提升。这种现象促使程序员不断学习和适应新技术，以解决日益复杂的计算问题。",
+    "tags": [
+      "Dev",
+      "Programming"
+    ],
+    "link": "https://herbsutter.com/2025/12/30/software-taketh-away-faster-than-hardware-giveth-why-c-programmers-keep-growing-fast-despite-competition-safety-and-ai/",
+    "date": "2025-12-31",
+    "id": "17671658873960"
+  },
+  {
+    "title": "Speak Your Find：AI驱动的本地服务匹配平台",
+    "summary": "通过自然语言或语音输入，Speak Your Find连接供需双方。",
+    "detail": "Speak Your Find是一个创新的双侧市场平台，利用AI技术帮助用户轻松找到所需的服务或产品。用户只需描述需求或提供服务，AI系统会自动匹配合适的合作伙伴。平台重视用户隐私，仅在必要时访问个人信息，并提供便捷的账户管理和数据删除选项。",
+    "tags": [
+      "New",
+      "Marketplace"
+    ],
+    "link": "https://speakyourfind.com/",
+    "date": "2025-12-31",
+    "id": "17671658873961"
+  },
+  {
+    "title": "LLVM AI工具政策：强调人工审核",
+    "summary": "LLVM提出AI工具政策草案，要求贡献者亲自审查其代码。",
+    "detail": "LLVM项目发布了新的AI工具政策草案，强调“人工在回路”原则。这意味着所有使用AI生成代码的贡献者必须对其代码有充分了解，并能在审查过程中回答相关问题。此政策旨在提高代码质量，确保维护者能够理解每项贡献。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://discourse.llvm.org/t/rfc-llvm-ai-tool-policy-human-in-the-loop/89159",
+    "date": "2025-12-31",
+    "id": "17671658873962"
+  },
+  {
     "title": "AI代理与AI间谍：隐私与伦理的挑战",
     "summary": "探讨AI代理系统对操作系统和应用的监控风险。",
     "detail": "视频《AI Agent, AI Spy》由Udbhav Tiwari和Meredith Whittaker主讲，讨论了AI代理系统的潜在风险。这些系统在操作系统和应用程序中扮演着越来越重要的角色，例如微软的“Recall”功能，它记录用户的全部活动，虽然被宣传为提高生产力，但实质上是在进行OS级别的监控，存在严重的隐私问题。这种变化不仅威胁用户隐私，还削弱了个人的自主权，将选择权交给自动化推荐。",
@@ -1182,41 +1218,5 @@
     "link": "https://www.theguardian.com/business/2025/dec/29/uk-accounting-remote-exams-ai-cheating-acca",
     "date": "2025-12-29",
     "id": "17670155486482"
-  },
-  {
-    "title": "使用fenic构建推荐系统的内容特征存储",
-    "summary": "fenic库提供了一个用于构建推荐系统的端到端AI特征工程示例。",
-    "detail": "fenic是一个用于AI和代理应用的DataFrame框架，旨在简化特征工程过程。本文提供了使用fenic构建推荐系统内容特征存储的示例，包括从文章语料库中提取文本特征、生成嵌入和聚类、进行叙事意图标注和复杂度分桶等步骤。fenic支持在不离开DataFrame环境的情况下，为编辑、产品经理和代理构建者提供清晰的列式内容视图。",
-    "tags": [
-      "Dev",
-      "Python"
-    ],
-    "link": "https://github.com/typedef-ai/fenic-examples/tree/main/ai_feature_engineering",
-    "date": "2025-12-29",
-    "id": "17670155486483"
-  },
-  {
-    "title": "AI编码工具如何打破软件学徒制",
-    "summary": "分析AI编码工具对软件学徒制的影响，探讨其对中级开发者的影响。",
-    "detail": "本文探讨了AI编码工具如何改变软件开发领域，特别是对中级开发者（即“消失的中间层”）的影响。作者Chris Banes提出了不同的AI编程角色，并分析了AI工具如何影响这些角色。他指出，AI工具可能使初级和高级开发者受益，而对依赖手动编码技能的中级开发者构成挑战。文章呼吁业界平衡AI工具的应用，以确保所有开发者都能从中获益。",
-    "tags": [
-      "News",
-      "Software Development"
-    ],
-    "link": "https://chrisbanes.me/posts/disappearing-middle-ai-software-apprenticeship/",
-    "date": "2025-12-29",
-    "id": "17670155486484"
-  },
-  {
-    "title": "MuseVideo - 文本与图像生成AI视频平台",
-    "summary": "MuseVideo提供文本转视频和图像转视频服务。",
-    "detail": "MuseVideo是一个集成了多种AI技术的视频和图像创作平台，支持从文本生成视频和图像，并提供丰富的特效和滤镜选项。用户可以轻松创建高质量的内容，无需复杂的编辑流程。该平台适用于创作者和专业人士，旨在简化内容制作过程。",
-    "tags": [
-      "New",
-      "AI Video"
-    ],
-    "link": "https://musevideo.ai/",
-    "date": "2025-12-29",
-    "id": "17670125532081"
   }
 ]
