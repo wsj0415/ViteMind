@@ -6,7 +6,8 @@ import BaseIcon from './BaseIcon.vue'
 import { useFavorites } from '../composables/useFavorites'
 
 const md = new MarkdownIt({
-  html: true,
+  // Security: Disable HTML to prevent XSS from RSS feeds/AI content
+  html: false,
   linkify: true,
   typographer: true
 })
