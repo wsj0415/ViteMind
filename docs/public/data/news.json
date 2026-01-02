@@ -1,5 +1,30 @@
 [
   {
+    "title": "用 TypeScript 实现 Bash 的 AI 代理",
+    "summary": "Turso 技术博客介绍了如何使用 TypeScript 实现 Bash，以在轻量级环境中运行 AI 代理。",
+    "detail": "Turso 技术博客发布了一篇关于如何使用 TypeScript 实现 Bash 的文章。作者 Malte Ubl 从 Vercel 宣布了 just-bash，这是一个完全用 TypeScript 重写的 Bash 实现，适用于在没有真实 shell 和文件系统的环境中运行 AI 代理。just-bash 提供了一个内存中的文件系统，并支持常见的命令如 grep, sed, awk, jq, cat, ls 等。这一实现使得 AI 代理能够在 JavaScript 进程中执行 shell 命令，无需访问主机文件系统，非常适合在 Cloudflare Workers 等轻量级环境中部署。",
+    "tags": [
+      "Dev",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "link": "https://turso.tech/blog/agentfs-just-bash",
+    "date": "2026-01-02",
+    "id": "17673886646220"
+  },
+  {
+    "title": "管理多 AI 代理技能的工具 Skills Supply",
+    "summary": "GitHub 上开源了 Skills Supply，一个管理 AI 代理技能的工具，支持多种 AI 平台。",
+    "detail": "GitHub 上开源了一个名为 Skills Supply 的项目，旨在简化跨多个 AI 平台（如 Claude Code, Codex, OpenCode 等）的技能管理。通过定义一个 `agents.toml` 文件，开发者可以轻松地将技能同步到所有 AI 工具中。Skills Supply 支持从 GitHub、Git 远程仓库、本地路径或现有插件导入技能，并提供了团队共享、实时开发和智能更新等功能。",
+    "tags": [
+      "Dev",
+      "AI Tools"
+    ],
+    "link": "https://github.com/803/skills-supply",
+    "date": "2026-01-02",
+    "id": "17673886646221"
+  },
+  {
     "title": "AI音乐生成器：无需经验创作音乐",
     "summary": "Orange Music提供免费在线AI音乐生成服务，支持文本到音乐和歌词生成。",
     "detail": "Orange Music 是一个全功能的AI音乐生成平台，允许用户通过输入文本或歌词生成完整的歌曲。平台支持创建背景音乐、完整曲目或添加AI人声，并提供高级定制选项以控制风格、节奏、情绪等。所有生成的音乐均为无版税且适合商业用途。",
@@ -1188,29 +1213,5 @@
     "link": "https://news.ycombinator.com/item?id=46450307",
     "date": "2026-01-01",
     "id": "17672396415322"
-  },
-  {
-    "title": "Claude PHP Agent框架开源",
-    "summary": "Claude PHP Agent框架是一个强大的开源AI代理框架。",
-    "detail": "Claude PHP Agent框架提供了一个强大的AI代理解决方案，支持PHP开发人员构建复杂的AI应用。该框架经过全面测试，具有高质量的代码质量和安全性，适用于各种应用场景。通过Claude PHP Agent框架，开发者可以轻松集成和扩展AI功能，提升软件的智能化水平。",
-    "tags": [
-      "Dev",
-      "PHP"
-    ],
-    "link": "https://github.com/claude-php/claude-php-agent",
-    "date": "2026-01-01",
-    "id": "17672326375491"
-  },
-  {
-    "title": "美国陆军准备培训首批AI专家",
-    "summary": "美国陆军计划培训AI专家以管理其战斗机器人。",
-    "detail": "美国陆军正在准备培训其首批AI专家，旨在管理和操作未来的战斗机器人。这一举措反映了军事领域对AI技术日益增长的需求和依赖。通过培训这些AI专家，美国陆军希望提高其在自动化战争中的效率和精确度，同时确保人类能够有效地监督和控制这些先进的自动化系统。",
-    "tags": [
-      "News",
-      "Security"
-    ],
-    "link": "https://www.theregister.com/2025/12/31/us_army_seeking_officers_willing/",
-    "date": "2025-12-31",
-    "id": "17673712744860"
   }
 ]
