@@ -1,5 +1,41 @@
 [
   {
+    "title": "Phantom Guard 检测 AI 伪造包攻击",
+    "summary": "Phantom Guard 可防止安装不存在的 AI 伪造包，保护开发者免受恶意软件攻击。",
+    "detail": "Phantom Guard 是一个开源工具，旨在检测跨 PyPI、npm 和 crates.io 的域名抢注攻击，防止开发者安装被恶意注册的软件包。它通过分析包名称和描述来识别潜在的伪造包，确保开发环境的安全性。Phantom Guard 使用公开的模型和数学运算在本地计算所有嵌入、相似度、距离和指标，适用于需要快速验证软件包合法性的场景。",
+    "tags": [
+      "Dev",
+      "Security"
+    ],
+    "link": "https://github.com/matte1782/phantom_guard",
+    "date": "2026-01-03",
+    "id": "17674607400721"
+  },
+  {
+    "title": "svelte-check-rs 提高 Svelte 检查速度",
+    "summary": "svelte-check-rs 使用 Rust 实现，比原版 svelte-check 快 30 倍。",
+    "detail": "svelte-check-rs 是一个用 Rust 编写的 Svelte 检查工具，相比原版 svelte-check，速度提升了 30 倍。它结合了 Rust 解析器、并行转换和 TypeScript 类型检查，提供更快的反馈，特别适合 CI/CD 管道和 AI 编码代理。虽然不支持编辑器诊断功能，但 svelte-check-rs 是一个强大的批处理工具，适用于需要快速 CLI 检查的场景。",
+    "tags": [
+      "Dev",
+      "Performance"
+    ],
+    "link": "https://svelte-check-rs.vercel.app/",
+    "date": "2026-01-03",
+    "id": "17674607400722"
+  },
+  {
+    "title": "Underpriced AI 提供即时估价工具",
+    "summary": "Underpriced AI 利用 AI 拍照估价商品，帮助用户优化 eBay 列表。",
+    "detail": "Underpriced AI 是一个 AI 驱动的二手商品估价工具，允许用户通过拍照获取商品的即时估价，并生成优化的 eBay 列表。该工具利用 AI 技术识别商品、研究市场数据并提供价格建议，帮助用户避免低估商品价值。此外，Underpriced AI 还提供快速扫描功能，允许用户在外出时快速获取价格信息，非常适合在跳蚤市场和旧货摊位使用。",
+    "tags": [
+      "New",
+      "E-commerce"
+    ],
+    "link": "https://underpricedai.com",
+    "date": "2026-01-03",
+    "id": "17674607400723"
+  },
+  {
     "title": "Agent Skills - AI代理技能注册表",
     "summary": "一个类似于NPM的AI代理技能注册表，提供多种开发工具和技能下载。",
     "detail": "Agent Skills 提供了一个类似于NPM的注册表，专门用于AI代理技能的发布和下载。用户可以找到各种技能包，涵盖从艺术生成、基础设施管理到品牌设计等多个领域。通过简单的命令行操作，开发者可以轻松获取所需的技能包，提升开发效率和项目质量。",
@@ -1175,41 +1211,5 @@
     "link": "https://techcrunch.com/2026/01/01/european-banks-plan-to-cut-200000-jobs-as-ai-takes-hold/",
     "date": "2026-01-01",
     "id": "17673024409280"
-  },
-  {
-    "title": "硅芯片植入物将你的思想直接发送给AI",
-    "summary": "一种新型硅芯片植入物能即时将人类思想通过电子邮件发送给AI。",
-    "detail": "一种名为“邮票大小”的硅芯片植入物即将面世，它能够将人的思想直接转化为电子邮件发送给AI系统。这项技术结合了先进的神经接口和AI处理能力，标志着人机交互方式的重大突破。用户只需思考，无需手动操作，就能实现与AI的即时交流。该技术的应用范围广泛，从医疗诊断到个人助理，都有巨大潜力。然而，其伦理和隐私问题也需要深入探讨。",
-    "tags": [
-      "News",
-      "AI"
-    ],
-    "link": "https://newatlas.com/medical-devices/silicon-implant-emails-thoughts-ai/",
-    "date": "2026-01-01",
-    "id": "17673024409281"
-  },
-  {
-    "title": "美国政客反对数据中心扩张，对AI产业不利",
-    "summary": "伯尼·桑德斯和罗恩·德桑蒂斯反对数据中心扩张，这可能对AI行业产生负面影响。",
-    "detail": "美国参议员伯尼·桑德斯和罗恩·德桑蒂斯近期表达了对大规模数据中心建设的担忧，他们认为这会导致能源消耗增加和环境问题。数据中心是AI运算的重要基础设施，其建设受到严格监管和公众关注。两位政客的反对立场可能会阻碍数据中心的扩张，从而影响AI计算能力和数据处理速度。这对依赖高性能计算资源的AI行业来说是一个潜在的挑战。",
-    "tags": [
-      "News",
-      "AI"
-    ],
-    "link": "https://www.cnbc.com/2026/01/01/ai-data-centers-bernie-sanders-ron-desantis-electricity-prices.html",
-    "date": "2026-01-01",
-    "id": "17673024409282"
-  },
-  {
-    "title": "Vect AI：面向执行的营销自动化平台",
-    "summary": "Vect AI 提供实际操作而非演示的营销自动化解决方案，帮助企业和营销人员执行任务。",
-    "detail": "Vect AI 是一个专注于执行而非展示的AI平台，特别设计用于营销自动化。该平台旨在帮助创始人和营销人员通过AI实现实际操作，包括规划营销活动、建立可重复的增长工作流程等。目前，Vect AI 主要提供AI驱动的营销自动化工作流程、类似代理的执行任务以及围绕SEO和分发的有机增长引擎。该平台正在快速迭代，并邀请Hacker News社区提供反馈，以确保其真正满足用户需求。",
-    "tags": [
-      "New",
-      "AI"
-    ],
-    "link": "https://www.google.com/search?q=site%3Avect.pro&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gLSAQkzNjU0NGowajeoAgiwAgHxBRB8ZJ-bk5La&sourceid=chrome&ie=UTF-8",
-    "date": "2026-01-01",
-    "id": "17673024409283"
   }
 ]
