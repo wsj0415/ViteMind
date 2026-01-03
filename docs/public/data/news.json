@@ -1,5 +1,29 @@
 [
   {
+    "title": "互联网自我吞噬：模型崩溃与AI数据危机",
+    "summary": "Andrej Karpathy提出LLM存在“崩溃分布”，导致生成内容缺乏多样性。",
+    "detail": "本文讨论了Andrej Karpathy提出的“模型崩溃”概念，即大型语言模型（LLM）在训练后生成的内容缺乏多样性，表现为重复的模式和有限的主题变化。这种现象被称为“崩溃分布”。Karpathy认为这并非简单的训练问题，而是LLM压缩信息时固有的特性。随着AI生成内容的增加，这一问题变得更加严重，可能影响到互联网内容的质量和多样性。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://sderosiaux.substack.com/p/internet-is-eating-itself-whats-next",
+    "date": "2026-01-03",
+    "id": "17674536610140"
+  },
+  {
+    "title": "Agent Skills：NPM风格的AI技能注册表",
+    "summary": "一个用于评估和下载AI代理技能的平台，支持多种开发需求。",
+    "detail": "Agent Skills是一个类似于NPM的注册表平台，专注于AI代理技能的评估和分发。该平台提供了多种技能供开发者下载和使用，涵盖了从算法艺术生成、开发工件管理到云基础设施部署等多个领域。用户可以通过简单的命令行操作下载所需技能，如`curl`命令。此外，平台还提供了详细的评价和测试指标，帮助用户选择和评估最适合其项目的技能。",
+    "tags": [
+      "Dev",
+      "AI Skills"
+    ],
+    "link": "https://openskills.space/",
+    "date": "2026-01-03",
+    "id": "17674536610142"
+  },
+  {
     "title": "阿拉斯加州法院AI聊天机器人项目遭遇挫折",
     "summary": "阿拉斯加州法院系统开发的AI聊天机器人AVA在实施过程中遇到了困难，未能按预期时间完成。",
     "detail": "阿拉斯加州法院系统历时超过一年开发了一个名为AVA的AI聊天机器人，旨在帮助居民处理遗产继承程序。然而，该项目进展缓慢，面临诸多挑战。项目负责人表示，由于需要确保100%的准确性，项目的实施过程比预期更为复杂。该项目揭示了政府机构在将AI应用于实际问题时所面临的挑战。",
@@ -34,18 +58,6 @@
     "link": "https://news.ycombinator.com/item?id=46476191",
     "date": "2026-01-03",
     "id": "17674469953340"
-  },
-  {
-    "title": "Agent Skills - AI 技能注册表",
-    "summary": "介绍了一个类似于NPM的AI技能注册表，提供多种开发工具。",
-    "detail": "Agent Skills 是一个用于管理和评估AI代理技能的平台，提供了包括算法艺术生成、开发工件管理、云基础设施自动化和品牌指南生成等技能包。用户可以通过简单的命令下载所需的技能包，适用于多种开发场景。",
-    "tags": [
-      "New",
-      "Dev"
-    ],
-    "link": "https://openskills.space/",
-    "date": "2026-01-03",
-    "id": "17674469953341"
   },
   {
     "title": "AI工具对新手程序员的影响",
@@ -1200,18 +1212,5 @@
     "link": "https://github.com/murataslan1/local-ai-coding-guide",
     "date": "2026-01-01",
     "id": "17672991612750"
-  },
-  {
-    "title": "AI SRE需改进可观测性而非更大模型",
-    "summary": "ClickHouse博客指出AI SRE工具应改进可观测性而非依赖更大模型。",
-    "detail": "本文分析了现有AI SRE工具的不足之处，认为它们主要通过LLM解释监控数据，但在根本原因调查方面表现不佳。作者建议AI SRE更应作为调查者而非简单的自动化修复工具，强调改进现有系统的可观测性。",
-    "tags": [
-      "News",
-      "DevOps",
-      "AI"
-    ],
-    "link": "https://clickhouse.com/blog/ai-sre-observability-architecture",
-    "date": "2026-01-01",
-    "id": "17672991612751"
   }
 ]
