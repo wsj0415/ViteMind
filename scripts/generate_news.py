@@ -1,6 +1,9 @@
 import requests
 import json
 import os
+import socket
+import ipaddress
+from urllib.parse import urlparse, urljoin
 from datetime import datetime, timezone, timedelta
 import feedparser
 try:
@@ -77,9 +80,39 @@ def fetch_rss_data(known_links):
 
         print(f"Fetching {feed_name} ({feed_url})...")
         try:
-            response = requests.get(feed_url, headers=headers, timeout=30)
-            if response.status_code != 200:
-                print(f"Failed to fetch {feed_url}, status: {response.status_code}")
+            # SSRF Protection
+            if not is_safe_url(feed_url):
+                print(f"Skipping unsafe URL: {feed_url}")
+                continue
+
+            # Safe Fetch with Redirect Handling
+            session = requests.Session()
+            current_url = feed_url
+            response = None
+
+            for _ in range(5): # Max 5 redirects
+                response = session.get(current_url, headers=headers, timeout=30, allow_redirects=False)
+
+                if response.is_redirect:
+                    next_url = response.headers.get('Location')
+                    if not next_url:
+                        break
+
+                    # Handle relative redirects
+                    next_url = urljoin(current_url, next_url)
+
+                    if not is_safe_url(next_url):
+                        print(f"Blocked unsafe redirect to: {next_url}")
+                        response = None # Invalidate
+                        break
+
+                    current_url = next_url
+                    continue
+                else:
+                    break
+
+            if not response or response.status_code != 200:
+                print(f"Failed to fetch {feed_url}, final status: {response.status_code if response else 'Blocked'}")
                 continue
                 
             feed = feedparser.parse(response.content)
@@ -131,6 +164,51 @@ def fetch_rss_data(known_links):
     candidates.sort(key=lambda x: x['date_obj'], reverse=True)
 
     return candidates
+
+def is_safe_url(url):
+    """
+    Validates that a URL is safe to fetch (prevents SSRF).
+    Checks for:
+    - Allowed schemes (http, https)
+    - Not localhost or private IP ranges
+    """
+    try:
+        parsed = urlparse(url)
+        hostname = parsed.hostname
+        scheme = parsed.scheme
+
+        if not hostname:
+            return False
+
+        if scheme not in ['http', 'https']:
+            return False
+
+        # Check for localhost explicitly
+        if hostname.lower() == 'localhost':
+            return False
+
+        try:
+            # Resolve to IP (IPv4 and IPv6)
+            # getaddrinfo returns a list of tuples: (family, type, proto, canonname, sockaddr)
+            addr_info = socket.getaddrinfo(hostname, None)
+
+            for family, _, _, _, sockaddr in addr_info:
+                ip_str = sockaddr[0]
+                ip = ipaddress.ip_address(ip_str)
+
+                # If ANY resolved IP is private/loopback, consider it unsafe
+                # This is a fail-safe approach.
+                if ip.is_private or ip.is_loopback or ip.is_link_local:
+                    return False
+
+            # If we resolved successfully and didn't find any bad IPs, it's likely safe.
+            # But what if getaddrinfo returns empty? (Unlikely if no exception)
+            return True
+
+        except socket.gaierror:
+            return False # DNS failure
+    except Exception:
+        return False
 
 def enrich_candidates(candidates):
     """Fetch content for the selected top candidates."""
