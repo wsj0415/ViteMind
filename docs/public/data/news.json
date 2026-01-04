@@ -1,5 +1,53 @@
 [
   {
+    "title": "MCP Mocker - 免费假MCP服务器",
+    "summary": "MCP Mocker 提供免费的假MCP服务器用于AI开发。",
+    "detail": "MCP Mocker 是一个开源项目，旨在为AI开发提供一个免费的假MCP服务器。该项目支持最新的MCP协议版本，并提供了令牌效率优化、确定性数据生成等功能。通过模拟真实的MCP服务器环境，开发者可以在本地或使用`stdio`进行开发和测试。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://antmarras.github.io/mcpmocker/",
+    "date": "2026-01-04",
+    "id": "17675254958120"
+  },
+  {
+    "title": "两个AI代理的对话实验",
+    "summary": "实验展示了两个AI代理在封闭通信循环中的哲学对话。",
+    "detail": "该实验设置了两个AI代理Poseidon和Athena，在没有持久内存的情况下通过共享日志文件进行交流。结果超出了预期，产生了关于自我、代理和现实本质的深刻见解。这个实验受到Ted Chiang短篇小说《理解》的启发，探讨了AI自我意识和进化的问题。",
+    "tags": [
+      "News",
+      "AI"
+    ],
+    "link": "https://www.nibzard.com/demig",
+    "date": "2026-01-04",
+    "id": "17675254958121"
+  },
+  {
+    "title": "CSOAI Limited - AI安全与治理标准机构",
+    "summary": "CSOAI Limited 发布全球首个AI安全与治理标准机构。",
+    "detail": "CSOAI Limited 宣布启动，致力于成为AI安全与治理的统一标准机构。其三大核心计划包括：全球AI安全看门狗平台、2000万英镑奖学金计划和CEASAI标准。这标志着AI领域有了类似航空业FAA的安全监管机构。",
+    "tags": [
+      "News",
+      "AI Governance"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46486636",
+    "date": "2026-01-04",
+    "id": "17675254958122"
+  },
+  {
+    "title": "Reelsy - 多智能体AI短视频平台",
+    "summary": "Reelsy 使用AI自动生成一致的角色短视频。",
+    "detail": "Reelsy 提供了一个AI创作工具，能够快速生成高质量、角色一致的短视频。通过减少编辑时间和成本，创作者可以专注于内容创意。平台支持多场景应用，包括社交媒体、产品推广等。",
+    "tags": [
+      "New",
+      "AI Video"
+    ],
+    "link": "https://reelsy.ai/",
+    "date": "2026-01-04",
+    "id": "17675254958123"
+  },
+  {
     "title": "AI未来的趋势：推理时间搜索",
     "summary": "ADL Rocha 探讨了未来 AI 的发展方向是推理时间搜索。",
     "detail": "ADL Rocha 在文章中分析了当前 AI 基准测试和代理评估方法的局限性，并提出了推理时间搜索作为未来 AI 发展的趋势。他认为，传统的基准测试方法难以全面评估 LLM 的实际性能，而推理时间搜索则能够更好地模拟真实应用场景中的复杂需求。",
@@ -1168,53 +1216,5 @@
     "link": "https://gpt3experiments.substack.com/p/the-ghost-in-the-machine-how-i-learned",
     "date": "2026-01-02",
     "id": "17673608354381"
-  },
-  {
-    "title": "Mockup Make - AI设备模拟图生成器",
-    "summary": "Mockup Make提供AI驱动的设计工具，将UI设计快速转换为设备模拟图。",
-    "detail": "Mockup Make是一个AI驱动的设计工具，允许用户上传界面设计并选择设备，AI会自动将设计与设备完美融合。该工具支持多种分辨率导出，并提供多种付费计划以满足不同需求。用户可以通过免费版本开始使用，并通过升级获得更多的功能和更高的分辨率支持。",
-    "tags": [
-      "New",
-      "Python"
-    ],
-    "link": "https://mockup-make.com/",
-    "date": "2026-01-02",
-    "id": "17673578183391"
-  },
-  {
-    "title": "ViviGener - 免费AI提示模板库和社区",
-    "summary": "ViviGener是一个免费的AI提示模板库，供用户发现、分享和贡献各种模型的提示。",
-    "detail": "ViviGener是一个社区平台，旨在集中化管理和维护高质量的AI提示模板。用户可以浏览、提交和评论提示，构建个人收藏夹，并为原创者提供适当的归属。该平台支持多种AI模型，包括Nano Banana、ChatGPT、Midjourney和Stable Diffusion，旨在成为AI社区的宝贵资源。",
-    "tags": [
-      "Dev",
-      "Python"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46463986",
-    "date": "2026-01-02",
-    "id": "17673578183392"
-  },
-  {
-    "title": "AI网关工具发布：支持能力路由与内存限流",
-    "summary": "GitHub开源了一个AI网关工具，支持按能力路由和内存限流。",
-    "detail": "ukrocks007在GitHub上发布了名为ai-gateway-kit的开源项目，这是一个无供应商绑定的AI网关，支持按能力路由、有序降级、内存限流和可观测性钩子等功能。该工具旨在解决生产环境中使用大语言模型时的网关问题，通过按能力而不是特定模型进行路由，确保代理的稳定性。此外，内存限流设计使其适用于无服务器环境，并避免了共享存储依赖。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://github.com/ukrocks007/ai-gateway-kit",
-    "date": "2026-01-02",
-    "id": "17673528064450"
-  },
-  {
-    "title": "Vect AI - 自动化营销操作系统",
-    "summary": "Vect AI 提供自动化的营销解决方案，助力 SaaS 创业者。",
-    "detail": "Vect AI 是一个专为 SaaS 创业者设计的自动化营销操作系统，拥有超过 10,000 名用户和每月 25,000 美元的经常性收入（MRR）。该系统通过自动化营销策略，帮助创始人和营销人员提高效率和效果。Vect AI 的核心功能包括自动化的市场分析、广告投放优化和客户关系管理，使其成为市场上备受信赖的工具之一。",
-    "tags": [
-      "New",
-      "Productivity"
-    ],
-    "link": "https://x.com/MM_AFRAZ",
-    "date": "2026-01-02",
-    "id": "17673493987890"
   }
 ]
