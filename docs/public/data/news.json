@@ -1,5 +1,53 @@
 [
   {
+    "title": "Claude Code 构建完整优化编译器仅用一周时间",
+    "summary": "Paul Biggar 使用 Claude Code 在一周内为 Darklang 构建了完整的优化编译器，性能接近 Rust。",
+    "detail": "Paul Biggar 在圣诞节期间使用 Claude Code 为他自 2016 年起开发的语言 Darklang 构建了一个完整的优化编译器。Claude Code 能够编写每行代码，并支持 Darklang 的全部语言特性及高级功能，如尾递归和 SSA 基础优化。尽管目前编译器尚未达到生产质量，但其性能已接近 Rust，是 OCaml 的 3.89 倍慢。这标志着 AI 在编译器开发领域的巨大潜力。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://blog.paulbiggar.com/full-optimizing-compiler-with-ai/",
+    "date": "2026-01-04",
+    "id": "17675440195790"
+  },
+  {
+    "title": "AI 真实性恐慌忽略了低质量内容的历史",
+    "summary": "文章指出，人们对 AI 生成内容的担忧实际上反映了对低质量内容的传统焦虑。",
+    "detail": "本文作者分析了 Hacker News 上用户对 Apple 广告图像的 AI 检测行为，认为这种行为更多反映了一种传统上的低质量内容焦虑，而非对 AI 技术本身的担忧。作者认为，我们对待 AI 工具的态度需要更加成熟和理性，而不是将其视为需要调查的“犯罪”。",
+    "tags": [
+      "News",
+      "AI"
+    ],
+    "link": "https://nearlyright.com/slop-before-the-machines-why-the-ai-authenticity-panic-misses-the-point/",
+    "date": "2026-01-04",
+    "id": "17675440195791"
+  },
+  {
+    "title": "前沿 AI 趋势报告发布",
+    "summary": "UK AI 安全研究所发布前沿 AI 趋势报告，指出 AI 能力在多个领域迅速提升。",
+    "detail": "UK AI 安全研究所发布了最新的前沿 AI 趋势报告，详细分析了 AI 在网络安全、化学与生物学等多个关键领域的进步。报告显示，某些 AI 模型的性能每八个月翻一番，部分模型甚至能够在专家级任务上表现出色。这标志着 AI 正在快速改变多个行业的技术格局。",
+    "tags": [
+      "News",
+      "AI"
+    ],
+    "link": "https://www.aisi.gov.uk/frontier-ai-trends-report",
+    "date": "2026-01-04",
+    "id": "17675440195792"
+  },
+  {
+    "title": "LLM 对技术博客的影响",
+    "summary": "mkaz 观察到由于 LLM 的兴起，Stack Overflow 和个人技术博客的流量大幅下降。",
+    "detail": "mkaz 分析了 Stack Overflow 的流量数据，发现自 2022 年以来，随着 ChatGPT 和 LLM 的普及，技术问题的提问量急剧下降。LLM 能够快速提供定制化的代码示例和解决方案，减少了开发者对传统技术博客的需求。虽然信息并未消失，但获取方式发生了变化。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://mkaz.blog/misc/the-wake-of-ai/",
+    "date": "2026-01-04",
+    "id": "17675440195793"
+  },
+  {
     "title": "对AI奉承现象的反思",
     "summary": "讨论AI输出中的“奉承”现象及其背后的社会和技术问题。",
     "detail": "这篇文章分析了当前关于AI“奉承”现象的讨论，认为这种现象更多是用户对AI风格和态度的不满。作者建议关注AI输出的质量和实用性，而不是仅仅关注是否“奉承”。文章还提出了改进AI反馈的方法。",
@@ -1168,53 +1216,5 @@
     "link": "https://www.schneier.com/blog/archives/2026/01/flock-exposes-its-ai-enabled-surveillance-cameras.html",
     "date": "2026-01-02",
     "id": "17673854616902"
-  },
-  {
-    "title": "AI数据中心上天？",
-    "summary": "纽约时报探讨了将AI数据中心部署在太空的可能性及其技术挑战。",
-    "detail": "纽约时报的一篇文章探讨了将AI数据中心迁移到太空的设想，旨在解决地球数据中心面临的能源消耗和散热问题。尽管这一概念具有创新性，但实际部署仍面临诸多技术挑战，包括成本、维护和通信延迟等。",
-    "tags": [
-      "News",
-      "Space"
-    ],
-    "link": "https://www.nytimes.com/2026/01/01/technology/space-data-centers-ai.html",
-    "date": "2026-01-02",
-    "id": "17673854616903"
-  },
-  {
-    "title": "系统设计与AI辅助开发指南",
-    "summary": "GitHub项目分享系统设计原理及AI辅助开发策略。",
-    "detail": "该项目详细解释了从基础到高级的系统设计原则，并强调了AI在代码生成中的作用。通过AI辅助，开发者可以更好地理解和优化系统设计，减少错误。",
-    "tags": [
-      "Dev",
-      "System Design"
-    ],
-    "link": "https://github.com/nimin1/system-design-vibecoding",
-    "date": "2026-01-02",
-    "id": "17673812947091"
-  },
-  {
-    "title": "Google AI健康建议误导用户，引发安全风险",
-    "summary": "Google的AI健康建议被指存在误导性，可能对用户造成伤害。",
-    "detail": "《卫报》报道，Google的AI健康信息存在误导性，可能导致用户采取不恰当的健康措施。这引发了对AI在医疗领域应用的担忧，强调了AI内容审核的重要性。",
-    "tags": [
-      "News",
-      "Healthcare"
-    ],
-    "link": "https://www.theguardian.com/uk-news",
-    "date": "2026-01-02",
-    "id": "17673812947092"
-  },
-  {
-    "title": "微软CEO要求停止贬低AI",
-    "summary": "Satya Nadella呼吁公众正确认识AI的价值。",
-    "detail": "微软CEO Satya Nadella在公开场合表示，希望人们停止将AI称为“垃圾”，强调AI技术的潜力和重要性。",
-    "tags": [
-      "News",
-      "Microsoft"
-    ],
-    "link": "https://www.windowscentral.com/microsoft/microsoft-ceo-satya-nadella-really-wants-you-to-stop-calling-ai-slop-in-2026",
-    "date": "2026-01-02",
-    "id": "17673812947093"
   }
 ]
