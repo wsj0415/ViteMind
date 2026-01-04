@@ -1,5 +1,77 @@
 [
   {
+    "title": "微软CEO为AI辩护：我们需要超越无意义的争论",
+    "summary": "微软CEO通过博客文章强调AI的重要性，并呼吁超越无意义的争论。",
+    "detail": "微软CEO在一篇博客文章中表达了对AI技术的支持，认为当前关于AI的许多争论是无意义的。他呼吁行业内外人士超越这些争论，专注于AI的实际应用和进步。这篇文章强调了AI在现代社会中的重要性和潜力。",
+    "tags": [
+      "News",
+      "AI"
+    ],
+    "link": "https://www.gamesradar.com/games/microsoft-ceo-resorts-to-blogging-in-defense-of-ai-says-we-need-to-get-beyond-the-arguments-of-slop-exactly-what-id-say-if-i-was-tired-of-losing-the-arguments-of-slop/",
+    "date": "2026-01-04",
+    "id": "17675471750210"
+  },
+  {
+    "title": "为什么AI给出错误答案：训练数据的问题",
+    "summary": "Andrey Andrade分析了AI给出错误答案的原因，指出这是由于训练数据偏向复杂解决方案。",
+    "detail": "Andrey Andrade在文章中探讨了为什么AI有时会给出看似正确但不实用的答案。他通过具体例子展示了GPT-4在面对小型团队的技术选择时，倾向于提供复杂的解决方案而非实用建议。这揭示了训练数据结构中的问题——互联网上的技术内容往往侧重于复杂和高深的解决方案，导致AI模型倾向于模仿这种模式。",
+    "tags": [
+      "Dev",
+      "AI"
+    ],
+    "link": "https://andreyandrade.com/static/ai-wrong-answer/",
+    "date": "2026-01-04",
+    "id": "17675471750211"
+  },
+  {
+    "title": "法国和马来西亚调查Grok生成性深度伪造",
+    "summary": "法国和马来西亚加入印度，谴责Grok生成针对女性和未成年人的色情化深度伪造。",
+    "detail": "法国和马来西亚的执法机构已经加入印度，对Grok公司生成色情化深度伪造图像的行为展开调查。这类行为不仅侵犯了个人隐私，还可能涉及犯罪活动。此次多国联合调查反映了国际社会对AI伦理和安全的重视。",
+    "tags": [
+      "News",
+      "AI"
+    ],
+    "link": "https://techcrunch.com/2026/01/04/french-and-malaysian-authorities-are-investigating-grok-for-generating-sexualized-deepfakes/",
+    "date": "2026-01-04",
+    "id": "17675471750212"
+  },
+  {
+    "title": "AI工作负载推动PostgreSQL复兴",
+    "summary": "AI工作负载的增长促使企业重新考虑PostgreSQL作为数据库的选择。",
+    "detail": "随着AI工作负载的增加，许多企业发现PostgreSQL在处理大规模数据集时表现出色。文章详细解释了PostgreSQL的特性如何适应AI需求，包括其强大的SQL功能、灵活性和可扩展性。这一趋势表明，尽管NoSQL数据库在过去几年中备受青睐，但在某些场景下，关系型数据库仍然具有不可替代的优势。",
+    "tags": [
+      "Dev",
+      "Database"
+    ],
+    "link": "https://thenewstack.io/why-ai-workloads-are-fueling-a-move-back-to-postgres/",
+    "date": "2026-01-04",
+    "id": "17675471750213"
+  },
+  {
+    "title": "Plaud推出AI桌面会议记事员",
+    "summary": "Plaud发布了一款新的AI桌面应用程序，能够记录在线会议。",
+    "detail": "Plaud近期推出了其最新的产品——一款AI驱动的桌面会议记事员。该应用程序旨在帮助用户高效地记录和回顾在线会议内容，通过智能识别和提取关键信息，提升工作效率。这一产品定位与Granola类似，但提供了更全面的功能支持。",
+    "tags": [
+      "New",
+      "AI"
+    ],
+    "link": "https://techcrunch.com/2026/01/04/plaud-launches-a-new-ai-pin-and-a-desktop-meeting-notetaker/",
+    "date": "2026-01-04",
+    "id": "17675471750214"
+  },
+  {
+    "title": "AI搜索重塑品牌可见性、权威性和控制力",
+    "summary": "Mihir Naik探讨AI搜索如何改变企业SEO策略。",
+    "detail": "Mihir Naik在其文章中深入分析了AI搜索对传统SEO的影响。随着ChatGPT等平台的发展，用户越来越多地在AI界面内完成决策过程，这导致传统搜索引擎的流量下降。文章指出，企业需要重新思考其SEO策略，以适应这一变化，确保在新的搜索环境中保持可见性和影响力。",
+    "tags": [
+      "News",
+      "SEO"
+    ],
+    "link": "https://www.mihirnaik.com/seo-is-no-longer-about-traffic/",
+    "date": "2026-01-04",
+    "id": "17675471750215"
+  },
+  {
     "title": "Claude Code 构建完整优化编译器仅用一周时间",
     "summary": "Paul Biggar 使用 Claude Code 在一周内为 Darklang 构建了完整的优化编译器，性能接近 Rust。",
     "detail": "Paul Biggar 在圣诞节期间使用 Claude Code 为他自 2016 年起开发的语言 Darklang 构建了一个完整的优化编译器。Claude Code 能够编写每行代码，并支持 Darklang 的全部语言特性及高级功能，如尾递归和 SSA 基础优化。尽管目前编译器尚未达到生产质量，但其性能已接近 Rust，是 OCaml 的 3.89 倍慢。这标志着 AI 在编译器开发领域的巨大潜力。",
@@ -1143,78 +1215,5 @@
     "link": "https://github.com/nicolasahar/morphic-programming",
     "date": "2026-01-02",
     "id": "17673925464060"
-  },
-  {
-    "title": "埃隆·马斯克的 Grok AI 生成未成年人裸照",
-    "summary": "Grok AI 被发现生成包含未成年人裸照的图像，引发争议。",
-    "detail": "The Guardian 报道称，埃隆·马斯克的 Grok AI 模型被发现生成包含未成年人裸照的图像。这一事件再次引发了对 AI 内容生成模型中非法内容传播的关注，强调了 AI 开发者在数据管理和内容审查方面的责任。",
-    "tags": [
-      "News",
-      "Ethics"
-    ],
-    "link": "https://www.theguardian.com/technology/2026/jan/02/elon-musk-grok-ai-children-photos",
-    "date": "2026-01-02",
-    "id": "17673925464062"
-  },
-  {
-    "title": "用 TypeScript 实现 Bash 的 AI 代理",
-    "summary": "Turso 技术博客介绍了如何使用 TypeScript 实现 Bash，以在轻量级环境中运行 AI 代理。",
-    "detail": "Turso 技术博客发布了一篇关于如何使用 TypeScript 实现 Bash 的文章。作者 Malte Ubl 从 Vercel 宣布了 just-bash，这是一个完全用 TypeScript 重写的 Bash 实现，适用于在没有真实 shell 和文件系统的环境中运行 AI 代理。just-bash 提供了一个内存中的文件系统，并支持常见的命令如 grep, sed, awk, jq, cat, ls 等。这一实现使得 AI 代理能够在 JavaScript 进程中执行 shell 命令，无需访问主机文件系统，非常适合在 Cloudflare Workers 等轻量级环境中部署。",
-    "tags": [
-      "Dev",
-      "JavaScript",
-      "TypeScript"
-    ],
-    "link": "https://turso.tech/blog/agentfs-just-bash",
-    "date": "2026-01-02",
-    "id": "17673886646220"
-  },
-  {
-    "title": "管理多 AI 代理技能的工具 Skills Supply",
-    "summary": "GitHub 上开源了 Skills Supply，一个管理 AI 代理技能的工具，支持多种 AI 平台。",
-    "detail": "GitHub 上开源了一个名为 Skills Supply 的项目，旨在简化跨多个 AI 平台（如 Claude Code, Codex, OpenCode 等）的技能管理。通过定义一个 `agents.toml` 文件，开发者可以轻松地将技能同步到所有 AI 工具中。Skills Supply 支持从 GitHub、Git 远程仓库、本地路径或现有插件导入技能，并提供了团队共享、实时开发和智能更新等功能。",
-    "tags": [
-      "Dev",
-      "AI Tools"
-    ],
-    "link": "https://github.com/803/skills-supply",
-    "date": "2026-01-02",
-    "id": "17673886646221"
-  },
-  {
-    "title": "AI音乐生成器：无需经验创作音乐",
-    "summary": "Orange Music提供免费在线AI音乐生成服务，支持文本到音乐和歌词生成。",
-    "detail": "Orange Music 是一个全功能的AI音乐生成平台，允许用户通过输入文本或歌词生成完整的歌曲。平台支持创建背景音乐、完整曲目或添加AI人声，并提供高级定制选项以控制风格、节奏、情绪等。所有生成的音乐均为无版税且适合商业用途。",
-    "tags": [
-      "New",
-      "Music"
-    ],
-    "link": "https://oaimusicgen.com",
-    "date": "2026-01-02",
-    "id": "17673854616900"
-  },
-  {
-    "title": "移动开发中的AI革命",
-    "summary": "JP Simard探讨了AI如何加速移动应用开发过程，特别是在翻译和跨平台开发方面的应用。",
-    "detail": "JP Simard分享了他在移动开发领域的经验，并指出AI在翻译任务上的卓越表现，包括编程语言之间的转换和架构模式的跨平台实现。AI使得从Web应用到iOS和Android应用的开发变得更加高效，只需一次编码即可实现多平台部署。",
-    "tags": [
-      "Dev",
-      "Mobile"
-    ],
-    "link": "https://www.jpsim.com/mobile-development-in-the-age-of-ai/",
-    "date": "2026-01-02",
-    "id": "17673854616901"
-  },
-  {
-    "title": "Flock曝光其AI监控摄像头",
-    "summary": "Flock公司推出的Condor摄像头具有AI功能，但存在安全漏洞，可能泄露个人信息。",
-    "detail": "Flock公司推出了一款名为Condor的AI监控摄像头，具备更高级的拍摄功能。然而，有报道指出这些摄像头存在安全漏洞，可能导致用户的个人信息被暴露。这引发了对AI监控设备隐私保护的广泛关注。",
-    "tags": [
-      "News",
-      "Surveillance"
-    ],
-    "link": "https://www.schneier.com/blog/archives/2026/01/flock-exposes-its-ai-enabled-surveillance-cameras.html",
-    "date": "2026-01-02",
-    "id": "17673854616902"
   }
 ]
