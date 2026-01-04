@@ -1,6 +1,9 @@
 import requests
 import json
 import os
+import socket
+import ipaddress
+from urllib.parse import urlparse
 from datetime import datetime, timezone, timedelta
 import feedparser
 try:
@@ -29,6 +32,33 @@ RSS_FEEDS = [
     "https://machinelearningmastery.com/blog/feed/", # ML Mastery (Dev/Tutorial)
     "https://www.producthunt.com/feed?topic=artificial-intelligence", # Product Hunt AI (New Tools)
 ]
+
+def is_safe_url(url):
+    """Validate URL to prevent SSRF by blocking private/loopback IPs."""
+    try:
+        parsed = urlparse(url)
+        if parsed.scheme not in ('http', 'https'):
+            return False
+
+        hostname = parsed.hostname
+        if not hostname:
+            return False
+
+        # Resolve IP to check for private addresses
+        try:
+            addr_info = socket.getaddrinfo(hostname, None)
+        except socket.gaierror:
+            return False
+
+        for family, _, _, _, sockaddr in addr_info:
+            ip_str = sockaddr[0]
+            ip = ipaddress.ip_address(ip_str)
+            if ip.is_private or ip.is_loopback or ip.is_link_local or ip.is_multicast:
+                return False
+
+        return True
+    except Exception:
+        return False
 
 def load_knowledge_base():
     """Load existing news to build a set of known URLs."""
@@ -76,6 +106,10 @@ def fetch_rss_data(known_links):
         exclude_kws = [k.strip().lower() for k in (feed_config.get("exclude_keywords") or "").split(",") if k.strip()]
 
         print(f"Fetching {feed_name} ({feed_url})...")
+        if not is_safe_url(feed_url):
+            print(f"Skipping unsafe URL: {feed_url}")
+            continue
+
         try:
             response = requests.get(feed_url, headers=headers, timeout=30)
             if response.status_code != 200:
