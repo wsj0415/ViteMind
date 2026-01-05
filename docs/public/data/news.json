@@ -1,5 +1,53 @@
 [
   {
+    "title": "Chrome DevTools (MCP) for AI代理",
+    "summary": "Chrome DevTools 引入了 MCP 功能，支持 AI 代理的开发与调试。",
+    "detail": "Chrome DevTools 最新版本引入了 Model Control Protocol (MCP)，这是一种用于与 AI 模型交互的新协议。MCP 允许开发者创建、训练和测试 AI 代理，而无需离开熟悉的开发环境。这一功能对于需要集成 AI 的开发者来说是一个巨大的进步，因为它简化了 AI 模型的部署和管理流程。MCP 的推出标志着 Chrome 在 AI 工具链上的进一步完善。",
+    "tags": [
+      "Dev",
+      "AI"
+    ],
+    "link": "https://developer.chrome.com/blog/chrome-devtools-mcp",
+    "date": "2026-01-05",
+    "id": "17676338843460"
+  },
+  {
+    "title": "lscode：为AI编码代理提供TypeScript语言服务",
+    "summary": "lscode 是一个为AI编码代理提供TypeScript语言服务的开源项目。",
+    "detail": "lscode 是一个开源项目，旨在为 AI 编码代理提供 TypeScript 的 LanguageService 支持。该项目允许开发者利用 TypeScript 的强大功能来增强 AI 代理的能力，使其能够更好地理解和生成高质量的 TypeScript 代码。lscode 的推出有助于推动 AI 在软件开发领域的应用，特别是在复杂的类型系统环境中。",
+    "tags": [
+      "Dev",
+      "TypeScript"
+    ],
+    "link": "https://github.com/kazushisan/lscode",
+    "date": "2026-01-05",
+    "id": "17676338843463"
+  },
+  {
+    "title": "AI驱动的域名生成器",
+    "summary": "find-my-domain 是一个AI驱动的域名生成器，提供实时WHOIS可用性检查。",
+    "detail": "find-my-domain 是一个创新的开源项目，结合了 AI 技术和 WHOIS 数据库，帮助用户生成独特的域名。该项目通过分析现有的域名数据，提供个性化的域名建议，并实时检查其可用性。这使得域名注册过程更加高效和便捷，特别适合初创企业和个人开发者。",
+    "tags": [
+      "New",
+      "AI"
+    ],
+    "link": "https://github.com/idimetrix/find-my-domain",
+    "date": "2026-01-05",
+    "id": "17676338843464"
+  },
+  {
+    "title": "AI编写代码的新编程语言Come",
+    "summary": "Come 是一种由AI驱动的系统编程语言，灵感来源于C。",
+    "detail": "Come 是一种新的系统编程语言，受到 C 语言的启发，但去除了许多常见的陷阱。该项目旨在保留 C 语言的高效性和简洁性，同时利用 AI 提高代码质量和开发效率。Come 的出现为开发者提供了一种新的选择，特别是在需要高性能和可靠性的场景中。",
+    "tags": [
+      "New",
+      "Programming"
+    ],
+    "link": "https://github.com/jamesd-comelang/come-lang",
+    "date": "2026-01-05",
+    "id": "17676338843465"
+  },
+  {
     "title": "Sakana AI Agent 赢得 AtCoder Heuristic Contest",
     "summary": "Sakana AI 的 ALE-Agent 在 804 名参赛者中夺冠，成为首个赢得此类竞赛的 AI。",
     "detail": "Sakana AI 的 ALE-Agent 在 AtCoder Heuristic Contest 058 中获胜，击败了 804 名人类选手。这是首次有 AI 在实时优化编程竞赛中获胜。ALE-Agent 自主发现了一种新型算法，并采用了“虚拟功率”启发式和复杂的模拟退火策略，优于预期的解决方案。此次胜利展示了 AI 在复杂任务中的强大推理能力。",
@@ -1154,53 +1202,5 @@
     "link": "https://news.ycombinator.com/item?id=46486089",
     "date": "2026-01-04",
     "id": "17675184925770"
-  },
-  {
-    "title": "AI术语表 - 提示与上下文工程",
-    "summary": "GitHub 上的 AI 术语库，涵盖提示和上下文工程。",
-    "detail": "该 GitHub 仓库由 piotr-liszka 维护，包含了与提示和上下文工程相关的 AI 术语，并为每个术语提供了一句话的解释。这对于开发者和研究人员来说是一个宝贵的资源，可以帮助他们更好地理解和应用这些概念。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://github.com/piotr-liszka/ai-terminology",
-    "date": "2026-01-04",
-    "id": "17675153767790"
-  },
-  {
-    "title": "Pocket Brain - 浏览器中的离线 AI 聊天",
-    "summary": "无需互联网，本地运行的 AI 聊天应用。",
-    "detail": "Pocket Brain 是一款可以在浏览器中运行的离线 AI 聊天应用，支持 WebGPU 加速。它确保用户数据完全保留在本地设备上，无需任何安装或配置。这款应用适合需要隐私保护和离线访问的场景。",
-    "tags": [
-      "New",
-      "LLM"
-    ],
-    "link": "https://pocketbrain.app",
-    "date": "2026-01-04",
-    "id": "17675153767791"
-  },
-  {
-    "title": "安娜Ai: 情绪自由 / 倾诉一切",
-    "summary": "安娜Ai提供了一个绝对保密的情绪倾诉平台。",
-    "detail": "安娜Ai是一个专为情绪释放设计的AI应用，用户可以在这里自由地倾诉自己的感受，而无需担心隐私泄露。该应用不记录任何用户数据，旨在通过理解和共鸣来帮助用户缓解压力。",
-    "tags": [
-      "Dev",
-      "AI"
-    ],
-    "link": "https://annaai.app/",
-    "date": "2026-01-04",
-    "id": "17675113489730"
-  },
-  {
-    "title": "《The Ultimate Abstraction: This Ship Is Sinking》",
-    "summary": "探讨Vaughing技术及其对社会的影响。",
-    "detail": "本文讨论了Vaughing（非自愿使用脑机接口）这一技术，并分析了其可能带来的伦理和社会问题。作者强调了这一技术需要严格的法律和道德规范。",
-    "tags": [
-      "News",
-      "AI"
-    ],
-    "link": "https://theedgeofthings.com/the-ultimate-abstraction-this-ship-is-sinking-how-more-than-49-people-can-save-the-world-part-1/",
-    "date": "2026-01-04",
-    "id": "17675113489731"
   }
 ]
