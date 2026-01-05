@@ -63,6 +63,7 @@ export default defineConfig({
           { text: 'Claude', link: '/guide/claude' },
           { text: 'Gemini', link: '/guide/gemini' },
           { text: 'OpenAI', link: '/guide/openai' },
+          { text: 'AI 学习课程', link: '/guide/courses' },
           { text: '最新资讯', link: '/guide/latest_ai_news' }
         ]
       }

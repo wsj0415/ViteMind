@@ -29,3 +29,32 @@ Claude 是由 Anthropic 开发的先进 AI 模型，以其安全性、长上下�
 1. **利用 XML 标签**: Claude 非常擅长解析 XML 结构的 Prompt，使用 `<instruction>`, `<example>` 等标签可以显著提高效果。
 2. **长上下文**: 利用其 200k+ 的上下文窗口，可以一次性输入整本书或整个代码库进行分析。
 3. **Chain of Thought**: 引导 Claude "一步步思考" (Let's think step by step) 以处理复杂逻辑。
+
+## 进阶开发资源
+
+探索 Claude 与 Agent 开发的高级工具与生态：
+
+*   **SkillsMP**
+    *   ⭐⭐⭐⭐⭐
+    *   [skillsmp.com](https://skillsmp.com/)
+    *   **描述**: Agent Skills 聚合市场，提供大量兼容 Claude Code、Codex 和 ChatGPT 的技能包，扩展智能体能力。
+
+*   **Claude 4.5 Opus Soul Document**
+    *   ⭐⭐⭐⭐⭐
+    *   [阅读文档 (Gist)](https://gist.github.com/Richard-Weiss/efe157692991535403bd7e7fb20b6695)
+    *   **描述**: 深度解析 Claude "灵魂"与核心价值观，编写符合 Claude 行为模式 Prompt 的必读材料。
+
+*   **Ralph for Claude Code**
+    *   ⭐⭐⭐⭐½
+    *   [GitHub 仓库](https://github.com/frankbria/ralph-claude-code)
+    *   **描述**: 专为 Claude Code 设计的自主开发循环 (Autonomous Development Loop)，支持智能退出检测。
+
+*   **Vibe to Prod**
+    *   ⭐⭐⭐⭐½
+    *   [GitHub 仓库](https://github.com/muyen/vibe-to-prod)
+    *   **描述**: 生产级全栈开发模版，主打 AI 原生工作流 (Vibecoding)，加速开发周期。
+
+*   **ClaudeKit Skills**
+    *   ⭐⭐⭐⭐
+    *   [GitHub 仓库](https://github.com/mrgoonie/claudekit-skills)
+    *   **描述**: ClaudeKit 核心技能集合，包含 MCP 管理等实用工具，适合深度定制。
