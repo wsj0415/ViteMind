@@ -40,7 +40,47 @@ ViteMind 的诞生离不开开源社区的贡献。以下是我们在构建过�
 *   **OpenAI API**: [https://platform.openai.com/](https://platform.openai.com/) (新闻摘要生成)
 *   **FeedParser**: [Python RSS 解析库](https://pythonhosted.org/feedparser/)
 
+## 🧠 Claude & AI Agent 进阶资源
+
+我们精选了以下高价值资源，助您在 AI 辅助开发 (Vibecoding) 的道路上更进一步：
+
+*   **SkillsMP**
+    *   ⭐⭐⭐⭐⭐
+    *   [skillsmp.com](https://skillsmp.com/)
+    *   **描述**: Agent Skills 聚合市场，提供大量兼容 Claude Code、Codex 和 ChatGPT 的技能包，是扩展 AI 智能体能力的宝库。
+
+*   **System Design Vibecoding**
+    *   ⭐⭐⭐⭐⭐
+    *   [GitHub 仓库](https://github.com/nimin1/system-design-vibecoding)
+    *   **描述**: 专为 AI 辅助编程时代打造的系统设计指南。从第一性原理出发，讲解如何利用 AI 进行高级系统架构设计。
+
+*   **Claude 4.5 Opus Soul Document**
+    *   ⭐⭐⭐⭐⭐
+    *   [阅读文档 (Gist)](https://gist.github.com/Richard-Weiss/efe157692991535403bd7e7fb20b6695)
+    *   **描述**: 一份深度解析 Claude "灵魂"与核心价值观的文档。想要编写出更符合 Claude 行为模式的 Prompt，这是必读材料。
+
+*   **Ralph for Claude Code**
+    *   ⭐⭐⭐⭐½
+    *   [GitHub 仓库](https://github.com/frankbria/ralph-claude-code)
+    *   **描述**: 专为 Claude Code 设计的自主开发循环 (Autonomous Development Loop)，支持智能退出检测，让 Claude 的编码过程更加自动化和稳定。
+
+*   **Vibe to Prod**
+    *   ⭐⭐⭐⭐½
+    *   [GitHub 仓库](https://github.com/muyen/vibe-to-prod)
+    *   **描述**: 生产级全栈开发模版，主打 AI 原生工作流。号称能将开发周期从月缩短到天，是实践 Vibecoding 的绝佳起点。
+
+*   **ClaudeKit Skills**
+    *   ⭐⭐⭐⭐
+    *   [GitHub 仓库](https://github.com/mrgoonie/claudekit-skills)
+    *   **描述**: ClaudeKit 的核心技能集合，包含 MCP 管理等实用工具，适合深度定制 Claude 工作流的开发者。
+
+*   **Modern AI Course**
+    *   ⭐⭐⭐⭐
+    *   [modernaicourse.org](https://modernaicourse.org/index.html)
+    *   **描述**: 涵盖现代 AI 技术栈的综合课程资源，适合系统性学习。
+
 ---
+
 
 ## 🎉 结语
 
