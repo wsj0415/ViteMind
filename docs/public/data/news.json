@@ -1,5 +1,65 @@
 [
   {
+    "title": "NVIDIA 发布全新 Rubin 芯片架构",
+    "summary": "NVIDIA 推出最先进的 Rubin 计算架构，推动AI计算能力。",
+    "detail": "2026年1月5日，NVIDIA首席执行官Jensen Huang在公司活动中发布了全新的Rubin计算架构。该架构被描述为当前最先进的AI计算解决方案，旨在显著提升AI处理能力。Rubin架构将有助于加速AI模型的训练和推理过程，进一步推动AI技术的发展和应用。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/2026/01/05/nvidia-launches-powerful-new-rubin-chip-architecture/",
+    "date": "2026-01-05",
+    "id": "17676517536950"
+  },
+  {
+    "title": "NVIDIA 发布 Alpamayo 开源AI模型",
+    "summary": "NVIDIA 推出Alpamayo，使自动驾驶车辆具备类似人类的思考能力。",
+    "detail": "2026年1月5日，NVIDIA在CES 2026上推出了Alpamayo系列开源AI模型。该模型包括一个能够进行推理、视觉、语言和行动的综合模型，旨在使自动驾驶车辆能够像人类一样思考和决策。通过提供链式思维推理能力，Alpamayo有望显著提升自动驾驶的安全性和可靠性。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/2026/01/05/nvidia-launches-alpamayo-open-ai-models-that-allow-autonomous-vehicles-to-think-like-a-human/",
+    "date": "2026-01-05",
+    "id": "17676517536951"
+  },
+  {
+    "title": "Hugging Face 发布 Nemotron Speech ASR 技术",
+    "summary": "Hugging Face 推出 Nemotron Speech ASR，实现高效实时语音识别。",
+    "detail": "2026年1月5日，Hugging Face发布了一项名为Nemotron Speech ASR的技术，旨在解决大规模流式自动语音识别（ASR）面临的挑战。该技术通过引入缓存感知流式ASR机制，实现了更低的延迟、线性扩展能力和可预测的成本。Nemotron Speech ASR利用FastConformer架构和8倍下采样技术，提高了语音识别的效率和准确性。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://huggingface.co/blog/nvidia/nemotron-speech-asr-scaling-voice-agents",
+    "date": "2026-01-05",
+    "id": "17676517536952"
+  },
+  {
+    "title": "AI对研究论文写作的影响",
+    "summary": "AI正逐步改变研究论文的撰写方式，从语法检查到内容生成。",
+    "detail": "2026年1月5日，Lance Fortnow和Bill Gasarch在《Computational Complexity》博客上探讨了AI对研究论文写作的影响。文章指出，AI技术的发展经历了“混乱阶段”和“验证阶段”，目前正逐渐从辅助人类写作转向AI验证人类内容。尽管早期AI写作可能存在错误，但最新的模型如Gemini 3已经显著改善，但仍需人工仔细校对。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://blog.computationalcomplexity.org/2026/01/ai-and-research-papers.html",
+    "date": "2026-01-05",
+    "id": "17676517536953"
+  },
+  {
+    "title": "Nevernote 项目：18天内完成AI辅助开发",
+    "summary": "一个加密笔记应用在18天内完成开发，展示了AI在软件开发中的潜力。",
+    "detail": "2026年1月5日，Nevernote团队分享了他们如何在18天内利用AI辅助开发工具构建了一个功能齐全的加密笔记应用。该项目不仅验证了AI在软件开发中的巨大潜力，还引发了对创业经济、用户期望以及编程语言未来发展的深入思考。通过这一实验，团队展示了AI如何使单个开发者能够快速构建复杂的生产级应用程序。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://nevernote.ie/journey.html",
+    "date": "2026-01-05",
+    "id": "17676517536954"
+  },
+  {
     "title": "谷歌与波士顿动力建立AI合作",
     "summary": "谷歌DeepMind与波士顿动力合作，为机器人提供基础智能。",
     "detail": "2026年1月5日，波士顿动力宣布与谷歌的DeepMind部门建立了新的合作伙伴关系。此次合作旨在将DeepMind的人工智能技术整合到波士顿动力的人形机器人中，以提升机器人的自主性和适应性。这种合作对于推动机器人技术的发展具有重要意义，尤其是在制造业和服务业的应用中。",
@@ -1142,65 +1202,5 @@
     "link": "https://www.mihirnaik.com/seo-is-no-longer-about-traffic/",
     "date": "2026-01-04",
     "id": "17675471750215"
-  },
-  {
-    "title": "Claude Code 构建完整优化编译器仅用一周时间",
-    "summary": "Paul Biggar 使用 Claude Code 在一周内为 Darklang 构建了完整的优化编译器，性能接近 Rust。",
-    "detail": "Paul Biggar 在圣诞节期间使用 Claude Code 为他自 2016 年起开发的语言 Darklang 构建了一个完整的优化编译器。Claude Code 能够编写每行代码，并支持 Darklang 的全部语言特性及高级功能，如尾递归和 SSA 基础优化。尽管目前编译器尚未达到生产质量，但其性能已接近 Rust，是 OCaml 的 3.89 倍慢。这标志着 AI 在编译器开发领域的巨大潜力。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://blog.paulbiggar.com/full-optimizing-compiler-with-ai/",
-    "date": "2026-01-04",
-    "id": "17675440195790"
-  },
-  {
-    "title": "AI 真实性恐慌忽略了低质量内容的历史",
-    "summary": "文章指出，人们对 AI 生成内容的担忧实际上反映了对低质量内容的传统焦虑。",
-    "detail": "本文作者分析了 Hacker News 上用户对 Apple 广告图像的 AI 检测行为，认为这种行为更多反映了一种传统上的低质量内容焦虑，而非对 AI 技术本身的担忧。作者认为，我们对待 AI 工具的态度需要更加成熟和理性，而不是将其视为需要调查的“犯罪”。",
-    "tags": [
-      "News",
-      "AI"
-    ],
-    "link": "https://nearlyright.com/slop-before-the-machines-why-the-ai-authenticity-panic-misses-the-point/",
-    "date": "2026-01-04",
-    "id": "17675440195791"
-  },
-  {
-    "title": "前沿 AI 趋势报告发布",
-    "summary": "UK AI 安全研究所发布前沿 AI 趋势报告，指出 AI 能力在多个领域迅速提升。",
-    "detail": "UK AI 安全研究所发布了最新的前沿 AI 趋势报告，详细分析了 AI 在网络安全、化学与生物学等多个关键领域的进步。报告显示，某些 AI 模型的性能每八个月翻一番，部分模型甚至能够在专家级任务上表现出色。这标志着 AI 正在快速改变多个行业的技术格局。",
-    "tags": [
-      "News",
-      "AI"
-    ],
-    "link": "https://www.aisi.gov.uk/frontier-ai-trends-report",
-    "date": "2026-01-04",
-    "id": "17675440195792"
-  },
-  {
-    "title": "LLM 对技术博客的影响",
-    "summary": "mkaz 观察到由于 LLM 的兴起，Stack Overflow 和个人技术博客的流量大幅下降。",
-    "detail": "mkaz 分析了 Stack Overflow 的流量数据，发现自 2022 年以来，随着 ChatGPT 和 LLM 的普及，技术问题的提问量急剧下降。LLM 能够快速提供定制化的代码示例和解决方案，减少了开发者对传统技术博客的需求。虽然信息并未消失，但获取方式发生了变化。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://mkaz.blog/misc/the-wake-of-ai/",
-    "date": "2026-01-04",
-    "id": "17675440195793"
-  },
-  {
-    "title": "对AI奉承现象的反思",
-    "summary": "讨论AI输出中的“奉承”现象及其背后的社会和技术问题。",
-    "detail": "这篇文章分析了当前关于AI“奉承”现象的讨论，认为这种现象更多是用户对AI风格和态度的不满。作者建议关注AI输出的质量和实用性，而不是仅仅关注是否“奉承”。文章还提出了改进AI反馈的方法。",
-    "tags": [
-      "News",
-      "AI"
-    ],
-    "link": "https://github.com/firasd/vibesbench/blob/main/docs/ai-sycophancy-panic.md",
-    "date": "2026-01-04",
-    "id": "17675400527361"
   }
 ]
