@@ -1,5 +1,41 @@
 [
   {
+    "title": "Sakana AI Agent 赢得 AtCoder Heuristic Contest",
+    "summary": "Sakana AI 的 ALE-Agent 在 804 名参赛者中夺冠，成为首个赢得此类竞赛的 AI。",
+    "detail": "Sakana AI 的 ALE-Agent 在 AtCoder Heuristic Contest 058 中获胜，击败了 804 名人类选手。这是首次有 AI 在实时优化编程竞赛中获胜。ALE-Agent 自主发现了一种新型算法，并采用了“虚拟功率”启发式和复杂的模拟退火策略，优于预期的解决方案。此次胜利展示了 AI 在复杂任务中的强大推理能力。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://sakana.ai/ahc058/",
+    "date": "2026-01-05",
+    "id": "17676305454680"
+  },
+  {
+    "title": "Hawkeye – 使用 AI 分析日志的 CLI 工具",
+    "summary": "Hawkeye 是一个 AI 日志监控工具，通过智能模式匹配检测问题并提供修复建议。",
+    "detail": "Hawkeye 是一个实时日志监控工具，利用 OpenAI 进行智能分析。它支持多种日志来源，包括文件、标准输入和 Docker 容器，并提供批量处理和交互式查询功能。Hawkeye 的主要优势在于仅在检测到问题时调用 LLM，从而降低成本。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://github.com/hipjim/hawkeye",
+    "date": "2026-01-05",
+    "id": "17676305454681"
+  },
+  {
+    "title": "LightningProx – 使用闪电支付的 AI API",
+    "summary": "LightningProx 提供无需 API 密钥的 AI API 访问，采用闪电支付进行认证。",
+    "detail": "LightningProx 是一个创新的 AI API 服务，用户通过闪电支付进行认证即可访问 Claude 和 GPT-4。该服务去除了传统 API 密钥的需求，提高了安全性。用户可以通过 Python 库或网站进行集成。",
+    "tags": [
+      "New",
+      "LLM"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46500317",
+    "date": "2026-01-05",
+    "id": "17676305454682"
+  },
+  {
     "title": "Redact Anything - AI 助力 PDF 文档敏感信息擦除",
     "summary": "一款使用 AI 技术擦除 PDF 文件中敏感信息的工具。",
     "detail": "Redact Anything 是一个基于浏览器的 AI 工具，能够自动检测并永久删除 PDF 文件中的敏感信息，包括姓名、电子邮件、电话号码等。用户只需上传文档，AI 即可识别并红化敏感数据，支持一键搜索和手动绘制红化区域。该工具适用于医疗、财务等多种需要保护隐私的场景，并提供多种合规预设选项。",
@@ -1166,44 +1202,5 @@
     "link": "https://theedgeofthings.com/the-ultimate-abstraction-this-ship-is-sinking-how-more-than-49-people-can-save-the-world-part-1/",
     "date": "2026-01-04",
     "id": "17675113489731"
-  },
-  {
-    "title": "Regulance 推出 AI 合规自动化工具",
-    "summary": "Regulance 提供 AI 驱动的合规自动化解决方案，帮助初创企业实现安全策略。",
-    "detail": "Regulance 是一家专注于 AI 合规自动化的公司，其产品可以帮助小型 B2B 初创企业轻松实施安全政策，并向利益相关者传达安全状况。通过自动化 70% 的任务，Regulance 的 AI 工具旨在为企业提供企业级的合规性管理，而无需组建庞大的合规团队。这不仅提高了效率，还降低了风险。",
-    "tags": [
-      "New",
-      "AI",
-      "合规"
-    ],
-    "link": "https://regulance.io/",
-    "date": "2026-01-04",
-    "id": "17675084722530"
-  },
-  {
-    "title": "GenVibe: 文本生成 React 应用",
-    "summary": "GenVibe 可以从文本、Figma 或截图生成 React/React Native 代码。",
-    "detail": "GenVibe 是一个由单人开发者开发的工具，旨在解决重复的 React 锅炉板代码和设计转代码的工作。用户只需用自然语言描述应用，或上传 Figma 文件和截图，GenVibe 即可生成相应的 React/React Native 代码。自上周发布以来，GenVibe 已获得 500 名注册用户和 $250 的月经常性收入，增长迅速。尽管仍在早期阶段，代码质量有待提高，但该工具已展示了其解决实际问题的潜力。",
-    "tags": [
-      "New",
-      "AI",
-      "开发"
-    ],
-    "link": "https://genvibe.pro",
-    "date": "2026-01-04",
-    "id": "17675084722531"
-  },
-  {
-    "title": "系统提示词的治理研究",
-    "summary": "研究论文探讨了 AI 开发工具中系统提示词作为治理构件的功能。",
-    "detail": "这篇论文研究了 AI 开发工具中的系统提示词，指出它们不仅是实现细节，更是治理构件，负责分配用户意图与政策之间的权限、限制行为、控制可见性和定义纠正与终止行为。通过对多个 IDE 和 CLI 助手的提示词进行标准化和比较，研究揭示了模式层级自治、工具介导问责、能力与权限分离等关键模式，并提出了 Prompt Governance Primitives (PGPs)，有助于构建和审计自主系统。",
-    "tags": [
-      "Dev",
-      "研究",
-      "提示词"
-    ],
-    "link": "https://system-prompts-forensics.rmax.ai/paper.html",
-    "date": "2026-01-04",
-    "id": "17675084722532"
   }
 ]
