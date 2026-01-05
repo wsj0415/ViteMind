@@ -1,5 +1,41 @@
 [
   {
+    "title": "Agentu: 最小化 Python AI 代理框架",
+    "summary": "Agentu 是一个简洁的 Python AI 代理框架，支持链式步骤和并行运行。",
+    "detail": "Agentu 是一个为开发者设计的最小化 Python AI 代理框架，旨在简化代理构建过程。核心功能包括链式步骤的顺序执行和并行运行。此外，Agentu 还提供了完整的堆栈支持，包括会话管理、评估、可观测性、技能加载、工具搜索以及对 MCP（模型上下文协议）的支持。通过 `pip install` 即可轻松安装。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46495628",
+    "date": "2026-01-05",
+    "id": "17675952661470"
+  },
+  {
+    "title": "Agentic AI - RAG 代理与 MCP",
+    "summary": "介绍 RAG 和 Agentic AI 技术及其与 MCP 的结合，提升 AI 模型的知识获取和行动能力。",
+    "detail": "本文详细介绍了 RAG（检索增强生成）技术，它使 AI 能够访问外部信息以更准确地回答问题。Agentic AI 不仅能够获取知识，还能采取行动，利用推理循环（如 ReAct 或 Chain-of-Thought）来决策。MCP（模型上下文协议）则提供了一个标准化框架，让 AI 模型可以连接到外部工具、数据和系统。这种结合显著增强了 AI 模型的知识获取和行动能力。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://toknow.ai/posts/rag-agents-mcp/",
+    "date": "2026-01-05",
+    "id": "17675952661481"
+  },
+  {
+    "title": "用 AI 加速产品概念验证",
+    "summary": "探讨如何使用 AI 加速产品概念验证过程，提高效率和成本效益。",
+    "detail": "该文章提出了一种利用 AI 加速产品概念验证的方法，旨在加快产品开发周期。方法分为三个阶段：初步研究、验证营销和迭代。初步研究帮助理解市场和产品可行性；验证营销则通过收集反馈和建立用户基础来验证概念；最后的迭代阶段根据前两个阶段的反馈调整产品方向。",
+    "tags": [
+      "Dev",
+      "Product"
+    ],
+    "link": "https://luvsheth.com/p/rapid-validation-of-product-concepts",
+    "date": "2026-01-05",
+    "id": "17675952661482"
+  },
+  {
     "title": "Flakestorm：用于AI代理的混沌工程工具",
     "summary": "Flakestorm 是一个开源工具，用于测试AI代理的可靠性。",
     "detail": "Flakestorm 是一个开源工具，旨在通过生成对抗性变异来测试AI代理的可靠性。它采用混沌工程的理念，针对“黄金提示”生成语义变化、噪声、注入等变异，并运行这些变异以评估代理的鲁棒性。该工具支持本地模型，无需云服务或API密钥。Flakestorm 对于调试和理解AI代理在实际用户输入下的行为非常有用。",
@@ -1175,41 +1211,5 @@
     "link": "https://openskills.space",
     "date": "2026-01-03",
     "id": "17674576536531"
-  },
-  {
-    "title": "互联网自我吞噬：模型崩溃与AI数据危机",
-    "summary": "Andrej Karpathy提出LLM存在“崩溃分布”，导致生成内容缺乏多样性。",
-    "detail": "本文讨论了Andrej Karpathy提出的“模型崩溃”概念，即大型语言模型（LLM）在训练后生成的内容缺乏多样性，表现为重复的模式和有限的主题变化。这种现象被称为“崩溃分布”。Karpathy认为这并非简单的训练问题，而是LLM压缩信息时固有的特性。随着AI生成内容的增加，这一问题变得更加严重，可能影响到互联网内容的质量和多样性。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://sderosiaux.substack.com/p/internet-is-eating-itself-whats-next",
-    "date": "2026-01-03",
-    "id": "17674536610140"
-  },
-  {
-    "title": "Agent Skills：NPM风格的AI技能注册表",
-    "summary": "一个用于评估和下载AI代理技能的平台，支持多种开发需求。",
-    "detail": "Agent Skills是一个类似于NPM的注册表平台，专注于AI代理技能的评估和分发。该平台提供了多种技能供开发者下载和使用，涵盖了从算法艺术生成、开发工件管理到云基础设施部署等多个领域。用户可以通过简单的命令行操作下载所需技能，如`curl`命令。此外，平台还提供了详细的评价和测试指标，帮助用户选择和评估最适合其项目的技能。",
-    "tags": [
-      "Dev",
-      "AI Skills"
-    ],
-    "link": "https://openskills.space/",
-    "date": "2026-01-03",
-    "id": "17674536610142"
-  },
-  {
-    "title": "阿拉斯加州法院AI聊天机器人项目遭遇挫折",
-    "summary": "阿拉斯加州法院系统开发的AI聊天机器人AVA在实施过程中遇到了困难，未能按预期时间完成。",
-    "detail": "阿拉斯加州法院系统历时超过一年开发了一个名为AVA的AI聊天机器人，旨在帮助居民处理遗产继承程序。然而，该项目进展缓慢，面临诸多挑战。项目负责人表示，由于需要确保100%的准确性，项目的实施过程比预期更为复杂。该项目揭示了政府机构在将AI应用于实际问题时所面临的挑战。",
-    "tags": [
-      "News",
-      "AI应用"
-    ],
-    "link": "https://www.nbcnews.com/tech/tech-news/alaskas-court-system-built-ai-chatbot-didnt-go-smoothly-rcna235985",
-    "date": "2026-01-03",
-    "id": "17674500320361"
   }
 ]
