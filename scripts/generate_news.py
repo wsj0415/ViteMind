@@ -1,6 +1,9 @@
 import requests
 import json
 import os
+import socket
+import ipaddress
+from urllib.parse import urlparse
 from datetime import datetime, timezone, timedelta
 import feedparser
 try:
@@ -29,6 +32,32 @@ RSS_FEEDS = [
     "https://machinelearningmastery.com/blog/feed/", # ML Mastery (Dev/Tutorial)
     "https://www.producthunt.com/feed?topic=artificial-intelligence", # Product Hunt AI (New Tools)
 ]
+
+def validate_url(url):
+    """
+    Validates that a URL resolves to a safe (public) IP address to prevent SSRF.
+    """
+    try:
+        parsed = urlparse(url)
+        hostname = parsed.hostname
+        if not hostname:
+            return False
+
+        # Resolve hostname to IP
+        ip = socket.gethostbyname(hostname)
+        ip_obj = ipaddress.ip_address(ip)
+
+        # Check for private, loopback, or link-local addresses
+        if (ip_obj.is_private or
+            ip_obj.is_loopback or
+            ip_obj.is_link_local):
+            print(f"Blocked unsafe URL: {url} (resolves to {ip})")
+            return False
+
+        return True
+    except Exception as e:
+        print(f"URL validation error for {url}: {e}")
+        return False
 
 def load_knowledge_base():
     """Load existing news to build a set of known URLs."""
@@ -77,7 +106,31 @@ def fetch_rss_data(known_links):
 
         print(f"Fetching {feed_name} ({feed_url})...")
         try:
-            response = requests.get(feed_url, headers=headers, timeout=30)
+            if not validate_url(feed_url):
+                print(f"Skipping unsafe URL: {feed_url}")
+                continue
+
+            # Disallow redirects to prevent bypassing SSRF protection via redirect to internal IP
+            try:
+                response = requests.get(feed_url, headers=headers, timeout=30, allow_redirects=False)
+            except Exception as e:
+                print(f"Request failed for {feed_url}: {e}")
+                continue
+
+            # Handle one level of redirect if necessary, validating the new URL
+            if response.status_code in (301, 302, 303, 307, 308):
+                redirect_url = response.headers.get('Location')
+                if redirect_url:
+                    if not validate_url(redirect_url):
+                         print(f"Skipping unsafe redirect URL: {redirect_url}")
+                         continue
+                    print(f"Following redirect to {redirect_url}...")
+                    try:
+                        response = requests.get(redirect_url, headers=headers, timeout=30, allow_redirects=False)
+                    except Exception as e:
+                        print(f"Redirect request failed: {e}")
+                        continue
+
             if response.status_code != 200:
                 print(f"Failed to fetch {feed_url}, status: {response.status_code}")
                 continue
@@ -141,9 +194,12 @@ def enrich_candidates(candidates):
         jina_url = f"https://r.jina.ai/{item['link']}"
         content = item['summary_raw']
         try:
-            jina_resp = requests.get(jina_url, timeout=15) # Shorter timeout
-            if jina_resp.status_code == 200 and "403 Forbidden" not in jina_resp.text:
-                content = jina_resp.text[:2000]
+            if validate_url(jina_url):
+                jina_resp = requests.get(jina_url, timeout=15) # Shorter timeout
+                if jina_resp.status_code == 200 and "403 Forbidden" not in jina_resp.text:
+                    content = jina_resp.text[:2000]
+            else:
+                print(f"Skipping unsafe Jina URL: {jina_url}")
         except Exception:
             pass # Fallback to raw summary
 
