@@ -1,6 +1,9 @@
 import requests
 import json
 import os
+import socket
+import ipaddress
+from urllib.parse import urlparse, urljoin
 from datetime import datetime, timezone, timedelta
 import feedparser
 try:
@@ -12,6 +15,65 @@ try:
         print("Warning: .env.local not found or empty.")
 except ImportError:
     pass
+
+def is_safe_url(url):
+    try:
+        parsed = urlparse(url)
+        hostname = parsed.hostname
+        if not hostname:
+            return False
+
+        # Allow only http and https
+        if parsed.scheme not in ('http', 'https'):
+            return False
+
+        # Resolve to IP
+        try:
+            ip_list = socket.getaddrinfo(hostname, None)
+        except socket.gaierror:
+            return False # DNS failure
+
+        for item in ip_list:
+            ip_str = item[4][0]
+            try:
+                ip_obj = ipaddress.ip_address(ip_str)
+                if ip_obj.is_private or ip_obj.is_loopback or ip_obj.is_reserved:
+                    print(f"Blocked private IP: {ip_str} for {hostname}")
+                    return False
+            except ValueError:
+                return False
+        return True
+    except Exception:
+        return False
+
+def safe_request(url, timeout=30, max_redirects=5, **kwargs):
+    """
+    Performs a GET request with SSRF protection by validating IPs and handling redirects manually.
+    """
+    current_url = url
+    for _ in range(max_redirects + 1):
+        if not is_safe_url(current_url):
+            raise ValueError(f"Unsafe URL detected: {current_url}")
+
+        # Disable automatic redirects to check next URL
+        kwargs['allow_redirects'] = False
+        try:
+            response = requests.get(current_url, timeout=timeout, **kwargs)
+        except requests.RequestException as e:
+             raise e
+
+        if response.is_redirect:
+            location = response.headers.get('Location')
+            if not location:
+                return response
+
+            # Handle relative redirects
+            current_url = urljoin(current_url, location)
+            continue
+        else:
+            return response
+
+    raise requests.TooManyRedirects("Exceeded max redirects")
 
 # 配置
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
@@ -77,7 +139,7 @@ def fetch_rss_data(known_links):
 
         print(f"Fetching {feed_name} ({feed_url})...")
         try:
-            response = requests.get(feed_url, headers=headers, timeout=30)
+            response = safe_request(feed_url, headers=headers, timeout=30)
             if response.status_code != 200:
                 print(f"Failed to fetch {feed_url}, status: {response.status_code}")
                 continue
@@ -141,7 +203,7 @@ def enrich_candidates(candidates):
         jina_url = f"https://r.jina.ai/{item['link']}"
         content = item['summary_raw']
         try:
-            jina_resp = requests.get(jina_url, timeout=15) # Shorter timeout
+            jina_resp = safe_request(jina_url, timeout=15) # Shorter timeout
             if jina_resp.status_code == 200 and "403 Forbidden" not in jina_resp.text:
                 content = jina_resp.text[:2000]
         except Exception:
