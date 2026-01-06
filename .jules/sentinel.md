@@ -1,0 +1,4 @@
+## 2025-05-21 - Missing SSRF Protection in News Generator
+**Vulnerability:** The `scripts/generate_news.py` script fetched RSS feeds from URLs stored in the database without any validation. This allowed Server-Side Request Forgery (SSRF) where an attacker could input a URL pointing to internal network resources (e.g., AWS metadata service, local loopback) which the script would then access and potentially expose.
+**Learning:** Even internal scripts running in CI/CD environments (GitHub Actions) are vulnerable to SSRF if they process data from external sources (like a Supabase table that might be editable by admins or via compromised credentials). "Internal" does not mean "Safe".
+**Prevention:** Always validate destination IP addresses before making HTTP requests to user-supplied URLs. Use a `safe_request` wrapper that resolves DNS and checks against private IP ranges. Disable automatic redirects and validate each hop.
