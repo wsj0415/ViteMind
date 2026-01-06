@@ -1,5 +1,65 @@
 [
   {
+    "title": "软件开发者实验显示AI并未节省时间",
+    "summary": "一项实验表明，AI并未显著提高软件开发者的生产力。",
+    "detail": "Fortune 杂志报道了一项关于AI对软件开发生产力影响的实验。研究发现，尽管许多开发者期望AI能够节省大量时间，但在实际操作中，任务完成时间并未减少，反而有时会更长。这表明当前AI工具在某些情况下可能需要更多的调试和修正，从而抵消了其带来的效率提升。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://fortune.com/article/does-ai-increase-workplace-productivity-experiment-software-developers-task-took-longer/",
+    "date": "2026-01-06",
+    "id": "17676984566920"
+  },
+  {
+    "title": "开发者如何使用AI编码工具",
+    "summary": "Hacker News上讨论了开发者们如何利用AI编码工具。",
+    "detail": "Hacker News 上的一篇讨论文章询问了开发者们是如何使用AI编码工具的，例如Claude Code。开发者们分享了多种使用场景，包括多工作区管理、并行功能开发以及通过移动设备和Web管理多个AI实例。这些分享揭示了AI工具在实际开发中的多样性和复杂性。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46510884",
+    "date": "2026-01-06",
+    "id": "17676984566921"
+  },
+  {
+    "title": "Noi：支持并行AI工作流的浏览器",
+    "summary": "Noi是一个支持并行AI工作流和会话隔离的工作区浏览器。",
+    "detail": "Noi 是一个由 lencx 开发的工作区浏览器，旨在减少并行AI工作流中的混乱，并提供更好的流程管理。它允许开发者在一个环境中同时处理多个任务，通过会话隔离确保不同项目之间的独立性。Noi 提供了直观的界面和强大的功能，帮助开发者更高效地管理和优化他们的工作流程。",
+    "tags": [
+      "New",
+      "LLM"
+    ],
+    "link": "https://github.com/lencx/Noi",
+    "date": "2026-01-06",
+    "id": "17676984566922"
+  },
+  {
+    "title": "Gitix：AI智能协作平台",
+    "summary": "Gitix 提供了一个协作层，用于创建和共享AI提示。",
+    "detail": "Gitix 是一个专注于AI智能协作的平台，允许用户创建、分享和迭代AI提示。该平台引入了版本控制的概念，使得AI提示的管理和进化变得更加系统化。Gitix 支持多种类型的提示，包括写作、生产力、营销和编程等，适用于不同的应用场景。通过这种方式，Gitix 为用户提供了一个高效的协作环境，促进了AI技术的应用和发展。",
+    "tags": [
+      "New",
+      "LLM"
+    ],
+    "link": "https://gitix.ai/",
+    "date": "2026-01-06",
+    "id": "17676984566923"
+  },
+  {
+    "title": "Nvidia发布Alpamayo：用于自动驾驶的AI模型和模拟数据",
+    "summary": "Nvidia发布了Alpamayo，包含用于自动驾驶的AI模型和模拟数据。",
+    "detail": "Nvidia 宣布推出 Alpamayo，这是一个专为自动驾驶汽车设计的解决方案，包含了开放的AI模型和模拟数据。Alpamayo 提供了基于推理的自主驾驶所需的所有工具和技术，包括参考架构、车载计算、仿真数据和AI训练等功能。这些资源将帮助汽车制造商和开发者加速自动驾驶汽车的研发进程，推动行业向更高水平的自动化迈进。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://www.nvidia.com/en-us/solutions/autonomous-vehicles/alpamayo/",
+    "date": "2026-01-06",
+    "id": "17676984566924"
+  },
+  {
     "title": "NVIDIA 发布 Alpamayo 家族开源 AI 模型和工具",
     "summary": "NVIDIA 推出 Alpamayo 开源模型加速自动驾驶汽车开发。",
     "detail": "NVIDIA 宣布推出 Alpamayo 家族的开源 AI 模型和工具，旨在加速安全、基于推理的自动驾驶汽车开发。这些模型和工具包括开放源代码的自动驾驶汽车模型和仿真数据，能够帮助开发者构建更智能、更安全的自动驾驶系统。Alpamayo 的发布将促进整个行业的技术创新和协作。",
@@ -1145,66 +1205,5 @@
     "link": "https://www.brighteraai.fun/",
     "date": "2026-01-05",
     "id": "17676021586142"
-  },
-  {
-    "title": "AI驱动的C++静态分析工具",
-    "summary": "介绍使用AI构建的Rust风格静态分析工具，用于C++代码。",
-    "detail": "本文介绍了如何利用AI技术构建一个类似于Rust的静态分析工具，以增强C++代码的安全性和可靠性。作者分享了在C++中引入Rust风格的内存安全特性的过程，包括借用检查等核心功能。该工具可以帮助开发者识别和修复内存泄漏、空指针等问题，提升代码质量。这对于依赖C++的大型代码库尤其重要。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "http://mpaxos.com/blog/rusty-cpp.html",
-    "date": "2026-01-05",
-    "id": "17675982249252"
-  },
-  {
-    "title": "Agentu: 最小化 Python AI 代理框架",
-    "summary": "Agentu 是一个简洁的 Python AI 代理框架，支持链式步骤和并行运行。",
-    "detail": "Agentu 是一个为开发者设计的最小化 Python AI 代理框架，旨在简化代理构建过程。核心功能包括链式步骤的顺序执行和并行运行。此外，Agentu 还提供了完整的堆栈支持，包括会话管理、评估、可观测性、技能加载、工具搜索以及对 MCP（模型上下文协议）的支持。通过 `pip install` 即可轻松安装。",
-    "tags": [
-      "Dev",
-      "Python"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46495628",
-    "date": "2026-01-05",
-    "id": "17675952661470"
-  },
-  {
-    "title": "Agentic AI - RAG 代理与 MCP",
-    "summary": "介绍 RAG 和 Agentic AI 技术及其与 MCP 的结合，提升 AI 模型的知识获取和行动能力。",
-    "detail": "本文详细介绍了 RAG（检索增强生成）技术，它使 AI 能够访问外部信息以更准确地回答问题。Agentic AI 不仅能够获取知识，还能采取行动，利用推理循环（如 ReAct 或 Chain-of-Thought）来决策。MCP（模型上下文协议）则提供了一个标准化框架，让 AI 模型可以连接到外部工具、数据和系统。这种结合显著增强了 AI 模型的知识获取和行动能力。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://toknow.ai/posts/rag-agents-mcp/",
-    "date": "2026-01-05",
-    "id": "17675952661481"
-  },
-  {
-    "title": "用 AI 加速产品概念验证",
-    "summary": "探讨如何使用 AI 加速产品概念验证过程，提高效率和成本效益。",
-    "detail": "该文章提出了一种利用 AI 加速产品概念验证的方法，旨在加快产品开发周期。方法分为三个阶段：初步研究、验证营销和迭代。初步研究帮助理解市场和产品可行性；验证营销则通过收集反馈和建立用户基础来验证概念；最后的迭代阶段根据前两个阶段的反馈调整产品方向。",
-    "tags": [
-      "Dev",
-      "Product"
-    ],
-    "link": "https://luvsheth.com/p/rapid-validation-of-product-concepts",
-    "date": "2026-01-05",
-    "id": "17675952661482"
-  },
-  {
-    "title": "Flakestorm：用于AI代理的混沌工程工具",
-    "summary": "Flakestorm 是一个开源工具，用于测试AI代理的可靠性。",
-    "detail": "Flakestorm 是一个开源工具，旨在通过生成对抗性变异来测试AI代理的可靠性。它采用混沌工程的理念，针对“黄金提示”生成语义变化、噪声、注入等变异，并运行这些变异以评估代理的鲁棒性。该工具支持本地模型，无需云服务或API密钥。Flakestorm 对于调试和理解AI代理在实际用户输入下的行为非常有用。",
-    "tags": [
-      "Dev",
-      "Chaos Engineering",
-      "AI Testing"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46495434",
-    "date": "2026-01-05",
-    "id": "17675893434830"
   }
 ]
