@@ -58,3 +58,8 @@ Claude 是由 Anthropic 开发的先进 AI 模型，以其安全性、长上下�
     *   ⭐⭐⭐⭐
     *   [GitHub 仓库](https://github.com/mrgoonie/claudekit-skills)
     *   **描述**: ClaudeKit 核心技能集合，包含 MCP 管理等实用工具，适合深度定制。
+
+*   **My Experience with Claude Code 2.0**
+    *   ⭐⭐⭐⭐
+    *   [阅读文章](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/)
+    *   **描述**: 一篇关于使用 Claude Code 2.0 的实战经验分享，提供了提升 Coding Agent 使用技巧的宝贵建议。
