@@ -1,5 +1,65 @@
 [
   {
+    "title": "FailWatch：为AI代理提供安全层",
+    "summary": "FailWatch 是一个防止AI代理执行危险操作的Python SDK。",
+    "detail": "FailWatch 是一个开源项目，旨在通过逻辑规则、预算限制和审计规则阻止AI代理执行危险操作。它作为同步电路断路器在生产管道中运行，确保AI工具调用在执行前被拦截。这与仅在事后检查输出的标准评估工具不同。FailWatch 可以防止诸如电子商务中的错误退款、银行中的错误转账等实际损害。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://github.com/Ludwig1827/FailWatch",
+    "date": "2026-01-07",
+    "id": "17678068727240"
+  },
+  {
+    "title": "Caterpillar与Nvidia合作，将AI引入建筑设备",
+    "summary": "Caterpillar正在测试基于Nvidia平台的Cat AI系统。",
+    "detail": "Caterpillar正在与其合作伙伴Nvidia合作开发Cat AI系统，这是一种集成在挖掘机中的AI代理系统，基于Nvidia的物理AI平台。这一合作旨在提高建筑设备的操作效率和安全性。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/2026/01/07/caterpillar-taps-nvidia-to-bring-ai-to-its-construction-equipment/",
+    "date": "2026-01-07",
+    "id": "17678068727241"
+  },
+  {
+    "title": "Bindly：AI聊天中的持久知识层",
+    "summary": "Bindly 是一个帮助AI聊天保存和更新知识的工具。",
+    "detail": "Bindly 是一个旨在解决AI对话遗忘问题的工具，允许用户搜索、保存和更新知识。它支持多种AI模型，并提供版本控制和团队协作功能，确保AI始终基于最新的知识库进行推理。",
+    "tags": [
+      "Dev",
+      "MCP"
+    ],
+    "link": "https://bind.ly",
+    "date": "2026-01-07",
+    "id": "17678068727242"
+  },
+  {
+    "title": "Answerly v3：提高AI客服准确性的更新",
+    "summary": "Answerly v3 更新重点在于提高系统的准确性。",
+    "detail": "BuyWhitelabel发布了Answerly v3，这是其客户支持AI系统的重大更新。新版本解决了传统AI客服系统中知识库过大导致的问题，通过改进的知识管理和检索机制提高了准确性。",
+    "tags": [
+      "News",
+      "Accuracy"
+    ],
+    "link": "https://blog.buywhitelabel.com/customer-support-with-ai-in-2026-accuracy-is-all-that-matters/",
+    "date": "2026-01-07",
+    "id": "17678068727243"
+  },
+  {
+    "title": "理解RAG架构：AI构建者必读",
+    "summary": "RAG 架构是提高AI可信度的关键技术。",
+    "detail": "RAG（Retrieval-Augmented Generation）架构通过检索证据来增强生成模型的可信度。本文介绍了RAG的工作原理及其在AI产品中的应用，强调了数据管道和操作循环的重要性。",
+    "tags": [
+      "Dev",
+      "RAG"
+    ],
+    "link": "https://github.com/neurondb/neurondb/blob/main/blog/rag-architectures-ai-builders-should-understand.md",
+    "date": "2026-01-07",
+    "id": "17678068727244"
+  },
+  {
     "title": "LG 智能电视 Copilot 快捷方式问题引发争议",
     "summary": "LG 智能电视内置 Copilot 快捷方式无法移除，引发用户不满。",
     "detail": "LG 的智能电视最近因为内置的 Copilot 快捷方式问题引发了广泛讨论。用户普遍反映这个快捷方式无法被移除，给日常使用带来了不便。尽管 LG 提供了一些解决方案，但许多用户仍然感到困扰。这个问题也反映了当前智能电视在用户体验和功能设计方面存在的挑战。",
@@ -1140,65 +1200,5 @@
     "link": "https://www.idlen.io/",
     "date": "2026-01-06",
     "id": "17677067419873"
-  },
-  {
-    "title": "AI 辅助教学优于课堂互动学习",
-    "summary": "一项研究发现，AI 辅助教学在真实教育环境中表现优于传统的课堂互动学习。",
-    "detail": "这项发表在《Nature》杂志上的研究表明，生成式人工智能聊天机器人在教育中的应用取得了显著效果。尽管之前的研究结果不一，但这项随机对照试验（RCT）表明，AI 辅助教学能够提供个性化的学习体验，优于传统课堂互动学习。这为未来的教育技术发展提供了重要参考。",
-    "tags": [
-      "News",
-      "Education"
-    ],
-    "link": "https://www.nature.com/articles/s41598-025-97652-6",
-    "date": "2026-01-06",
-    "id": "17677036439540"
-  },
-  {
-    "title": "Squads CLI：管理 AI 代理队列的新工具",
-    "summary": "Squads CLI 是一个用于管理 AI 代理队列的命令行工具，支持状态监控、内存管理和目标设置。",
-    "detail": "Squads CLI 是一个专门为 AI 代理设计的命令行工具，旨在帮助用户更高效地组织和跟踪多个自主 AI 代理。该工具提供丰富的功能，包括查看代理状态、管理内存使用情况、设置和调整代理目标，并通过仪表板实时监控代理活动。这对于需要部署和管理大量 AI 代理的企业和开发者来说是一个非常实用的工具。",
-    "tags": [
-      "Dev",
-      "CLI"
-    ],
-    "link": "https://github.com/agents-squads/squads-cli",
-    "date": "2026-01-06",
-    "id": "17677036439541"
-  },
-  {
-    "title": "AI 对大学毕业生就业的影响有限",
-    "summary": "美国关于大学毕业生就业难的讨论多集中于成本、债务和自动化威胁，但实际影响有限。",
-    "detail": "这篇文章探讨了美国关于大学教育价值的负面讨论，指出许多观点如成本高、学生债务和自动化威胁并不准确。研究显示，虽然存在这些问题，但大学教育的整体价值并未因自动化而显著下降。文章呼吁对大学教育进行更理性的评估，避免过度悲观。",
-    "tags": [
-      "News",
-      "Education"
-    ],
-    "link": "https://theupdatebrief.substack.com/p/why-all-the-college-catastrophizing",
-    "date": "2026-01-06",
-    "id": "17677036439542"
-  },
-  {
-    "title": "软件开发者实验显示AI并未节省时间",
-    "summary": "一项实验表明，AI并未显著提高软件开发者的生产力。",
-    "detail": "Fortune 杂志报道了一项关于AI对软件开发生产力影响的实验。研究发现，尽管许多开发者期望AI能够节省大量时间，但在实际操作中，任务完成时间并未减少，反而有时会更长。这表明当前AI工具在某些情况下可能需要更多的调试和修正，从而抵消了其带来的效率提升。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://fortune.com/article/does-ai-increase-workplace-productivity-experiment-software-developers-task-took-longer/",
-    "date": "2026-01-06",
-    "id": "17676984566920"
-  },
-  {
-    "title": "开发者如何使用AI编码工具",
-    "summary": "Hacker News上讨论了开发者们如何利用AI编码工具。",
-    "detail": "Hacker News 上的一篇讨论文章询问了开发者们是如何使用AI编码工具的，例如Claude Code。开发者们分享了多种使用场景，包括多工作区管理、并行功能开发以及通过移动设备和Web管理多个AI实例。这些分享揭示了AI工具在实际开发中的多样性和复杂性。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46510884",
-    "date": "2026-01-06",
-    "id": "17676984566921"
   }
 ]
