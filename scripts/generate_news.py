@@ -3,6 +3,8 @@ import json
 import os
 from datetime import datetime, timezone, timedelta
 import feedparser
+from sentinel_safe_requests import safe_get
+
 try:
     from dotenv import load_dotenv
     loaded = load_dotenv('.env.local')
@@ -77,7 +79,7 @@ def fetch_rss_data(known_links):
 
         print(f"Fetching {feed_name} ({feed_url})...")
         try:
-            response = requests.get(feed_url, headers=headers, timeout=30)
+            response = safe_get(feed_url, headers=headers, timeout=30)
             if response.status_code != 200:
                 print(f"Failed to fetch {feed_url}, status: {response.status_code}")
                 continue
@@ -141,7 +143,7 @@ def enrich_candidates(candidates):
         jina_url = f"https://r.jina.ai/{item['link']}"
         content = item['summary_raw']
         try:
-            jina_resp = requests.get(jina_url, timeout=15) # Shorter timeout
+            jina_resp = safe_get(jina_url, timeout=15) # Shorter timeout
             if jina_resp.status_code == 200 and "403 Forbidden" not in jina_resp.text:
                 content = jina_resp.text[:2000]
         except Exception:
