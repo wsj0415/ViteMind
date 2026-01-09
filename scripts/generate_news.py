@@ -13,6 +13,13 @@ try:
 except ImportError:
     pass
 
+# Security Check
+try:
+    import sentinel_safe_requests
+except ImportError:
+    print("CRITICAL: sentinel_safe_requests module missing. Security policy violation. Terminating.")
+    exit(1)
+
 # 配置
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 OPENROUTER_URL = "https://api-inference.modelscope.cn/v1/chat/completions"
@@ -77,7 +84,8 @@ def fetch_rss_data(known_links):
 
         print(f"Fetching {feed_name} ({feed_url})...")
         try:
-            response = requests.get(feed_url, headers=headers, timeout=30)
+            # Use safe_get for SSRF protection on potentially untrusted URLs
+            response = sentinel_safe_requests.safe_get(feed_url, headers=headers, timeout=30)
             if response.status_code != 200:
                 print(f"Failed to fetch {feed_url}, status: {response.status_code}")
                 continue
