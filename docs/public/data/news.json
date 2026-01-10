@@ -1,5 +1,17 @@
 [
   {
+    "title": "Google AI生成正则表达式失败",
+    "summary": "Google的AI工具未能正确生成匹配特定模式的正则表达式，引发讨论。",
+    "detail": "在一次用户请求中，Google的AI被要求生成一个能够匹配“foo”、“fooxscale”和“fooyscale”的正则表达式。然而，AI提供的解决方案不仅未能完全匹配所有目标字符串，还错误地匹配了其他非预期的字符串。尽管如此，AI在其他场景中仍提供了有用的建议，显示其在某些方面的局限性。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46561875",
+    "date": "2026-01-10",
+    "id": "17680296567222"
+  },
+  {
     "title": "HackLikeMe：具备思考能力的AI DevSecOps CLI工具",
     "summary": "HackLikeMe提供带有智能代理的终端AI工具，支持多种开发和安全任务。",
     "detail": "HackLikeMe是一款专为DevOps工程师、安全专家和全栈开发者设计的终端AI助手。它内置了6个专门的代理，包括Coder、FullStack、DevOps、Security、Plan和Monitor，能够理解和规划任务后再执行。该工具支持超过100种工具和50种编程语言，旨在提升开发和安全操作的安全性和效率。目前提供前100名用户的免费Pro访问。",
@@ -190,6 +202,30 @@
     "link": "https://www.youtube.com/watch?v=8pbz5y7_WkM",
     "date": "2026-01-10",
     "id": "17680095705893"
+  },
+  {
+    "title": "OpenAI与SoftBank及SB Energy合作",
+    "summary": "OpenAI与SoftBank Group和SB Energy达成合作，共同推进能源领域的创新。",
+    "detail": "OpenAI宣布与日本软银集团（SoftBank Group）及其子公司SB Energy建立合作伙伴关系。此次合作旨在结合OpenAI的先进人工智能技术和SB Energy在能源领域的专业知识，共同开发和部署智能能源解决方案。这一合作不仅有助于提高能源效率，还能促进可持续发展。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://openai.com/index/stargate-sb-energy-partnership",
+    "date": "2026-01-09",
+    "id": "17680296567220"
+  },
+  {
+    "title": "CES 2026：AI主导的科技盛宴",
+    "summary": "CES 2026上，多家公司展示了最新的AI技术，涵盖机器人、自动驾驶等多个领域。",
+    "detail": "2026年消费电子展（CES）在美国拉斯维加斯举行，成为全球最大的科技盛会之一。本次展会中，人工智能技术成为焦点。Nvidia和AMD发布了最新的AI芯片，而亚马逊和谷歌则展示了其AI技术在日常生活中的应用，包括智能家居、自动驾驶汽车等领域。此外，还有众多初创企业展示了创新的AI产品，吸引了大量观众的关注。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/storyline/ces-2026-follow-live-for-the-best-weirdest-most-interesting-tech-as-this-robot-and-ai-heavy-event-wraps/",
+    "date": "2026-01-09",
+    "id": "17680296567221"
   },
   {
     "title": "AI助力救援：红像素揭示失踪登山者之谜",
@@ -1172,41 +1208,5 @@
     "link": "https://news.ycombinator.com/item?id=46548475",
     "date": "2026-01-09",
     "id": "17679233744982"
-  },
-  {
-    "title": "AI代理自动部署PR到生产环境",
-    "summary": "开发者构建AI代理实现自动化PR部署。",
-    "detail": "一名开发者成功构建了一个AI代理，可以通过简单的指令将代码变更从Pull Request（PR）自动部署到生产环境。该代理支持Google Cloud Run，并通过简单的命令触发部署流程，提高了软件交付的效率和可靠性。",
-    "tags": [
-      "Dev",
-      "Automation"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46548431",
-    "date": "2026-01-09",
-    "id": "17679233744983"
-  },
-  {
-    "title": "Visionary AI 视频生成器发布",
-    "summary": "免费AI视频生成工具，支持从文本生成电影级视频。",
-    "detail": "Visionary 是一款全新的AI视频生成工具，提供多种功能包括文本转视频、图像转视频、风格转换等。用户只需输入文本描述，即可生成高质量的电影级视频，且无需任何专业技能。该工具不仅免费使用，还无水印限制，适用于各种平台。",
-    "tags": [
-      "New",
-      "AI Video"
-    ],
-    "link": "https://visionaryvideo.app/",
-    "date": "2026-01-08",
-    "id": "17680225875671"
-  },
-  {
-    "title": "AI不会杀死开源软件——它将增强它",
-    "summary": "Adam Wathan认为AI对Tailwind的影响被夸大，AI实际上会促进开源软件的发展。",
-    "detail": "这篇文章反驳了Adam Wathan关于AI对Tailwind业务影响的言论，指出AI并不会杀死开源软件，反而会增强其发展。文章讨论了几个关键点，包括最短路径原则、训练数据的良性循环、学习曲线套利以及定制组件的重要性。通过分析这些因素，作者认为AI技术的发展为开源社区带来了更多机会，而不是威胁。",
-    "tags": [
-      "News",
-      "Dev"
-    ],
-    "link": "https://petabridge.com/blog/ai-wont-kill-open-source/",
-    "date": "2026-01-08",
-    "id": "17680155512871"
   }
 ]
