@@ -11,6 +11,90 @@
     "id": "17680489294543"
   },
   {
+    "title": "AI 模型商品化趋势",
+    "summary": "最新大模型能力趋同，工具调用成为关键。",
+    "detail": "最近八周内，Claude Opus 4.5、GPT-5.2 和 Gemini 3 Pro 等大模型在多个基准测试中表现相近。然而，这些模型单独使用时仅能回答训练数据中的问题，无法了解具体业务上下文。真正的价值在于模型能够调用外部工具，这需要企业构建可被AI调用的业务功能。工具的主要作用是收集信息和执行操作。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://deadneurons.substack.com/p/the-boring-work-that-makes-ai-actually",
+    "date": "2026-01-11",
+    "id": "17681590630300"
+  },
+  {
+    "title": "AgentLint：AI代理配置的安全扫描工具",
+    "summary": "检测Claude Code等文件中的安全风险。",
+    "detail": "AgentLint 是一个静态安全扫描工具，用于检查Claude Code、Cursor和CLAUDE.md文件中的潜在安全风险模式。它帮助企业确保AI代理配置的安全性，防止供应链攻击。",
+    "tags": [
+      "Dev",
+      "Security"
+    ],
+    "link": "https://github.com/akz4ol/agentlint",
+    "date": "2026-01-11",
+    "id": "17681590630301"
+  },
+  {
+    "title": "AI Code Guard：AI生成代码的安全扫描器",
+    "summary": "检测AI生成代码中的安全漏洞。",
+    "detail": "AI Code Guard 是一个开源工具，用于扫描代码库以发现AI生成代码中的安全问题，包括提示注入风险、硬编码密钥、不安全代码模式等。它帮助企业提升AI辅助开发的安全性。",
+    "tags": [
+      "Dev",
+      "Security"
+    ],
+    "link": "https://github.com/ThorneShadowbane/ai-code-guard",
+    "date": "2026-01-11",
+    "id": "17681590630302"
+  },
+  {
+    "title": "AI 编码代理的工作经验分享",
+    "summary": "开发者分享使用AI代理的经验教训。",
+    "detail": "开发者 Duncan Ogilvie 分享了他在几个月内使用AI编码代理的经验，包括心态调整、技术技巧和对当前AI模型的看法。他强调了高质量模型的重要性，并讨论了上下文窗口的概念。",
+    "tags": [
+      "Dev",
+      "Experience"
+    ],
+    "link": "https://twitter.com/mrexodia/status/2010157660885176767",
+    "date": "2026-01-11",
+    "id": "17681590630303"
+  },
+  {
+    "title": "AI生成警察报告出错案例",
+    "summary": "AI生成的报告错误地声称警官变成了青蛙。",
+    "detail": " Utah 警察部门在使用AI生成报告时发生了一个错误，报告错误地声称一名警官被转换成了青蛙。这个案例凸显了AI在处理复杂文本时可能产生的错误。",
+    "tags": [
+      "News",
+      "Error"
+    ],
+    "link": "https://www.fox13now.com/news/local-news/summit-county/how-utah-police-departments-are-using-ai-to-keep-streets-safer",
+    "date": "2026-01-11",
+    "id": "17681590630304"
+  },
+  {
+    "title": "AI与初级开发者平衡策略",
+    "summary": "探讨如何在使用AI工具的同时促进初级开发者成长。",
+    "detail": "一位开发者询问如何平衡使用AI编码工具和培养初级开发者的技能。这涉及到管理期望、提供指导和支持，确保AI工具增强而非替代现有开发能力。",
+    "tags": [
+      "Dev",
+      "Training"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46577832",
+    "date": "2026-01-11",
+    "id": "17681590630305"
+  },
+  {
+    "title": "利用AI减少冗长内容",
+    "summary": "AI应帮助精简而非增加文字量。",
+    "detail": "文章强调AI应用于编辑和简化文本，而不是生成冗长内容。通过精简表达，AI可以帮助更有效地传达思想，提高沟通效率。",
+    "tags": [
+      "Dev",
+      "Writing"
+    ],
+    "link": "https://writelesswithai.com/",
+    "date": "2026-01-11",
+    "id": "17681590630306"
+  },
+  {
     "title": "Claude Code Orchestrator发布：多会话并行开发工具",
     "summary": "Claude Code Orchestrator支持多会话并行开发，提高效率。",
     "detail": "Claude Code Orchestrator 是一个开源工具，允许开发者通过多个独立的 Claude 会话实现并行开发。它通过隔离每个工作线程在 git 工作树中来避免合并冲突，并自动化了代码审查、验证和合并流程。内置的质量代理（如 QA Guardian 和 DevOps Engineer）进一步提升了代码质量。该工具基于 Boris Cherny 的设计模式，适用于需要高效开发环境的团队。",
@@ -1117,89 +1201,5 @@
     "link": "https://jonwoodlief.com/ai-app-state.html",
     "date": "2026-01-10",
     "id": "17680155512873"
-  },
-  {
-    "title": "伦理AI决策框架",
-    "summary": "开源机器可读的伦理战略框架，适用于LLM和智能代理。",
-    "detail": "该项目提供了一个机器可读的伦理战略框架，旨在为大型语言模型（LLM）和智能代理提供指导性决策支持。框架基于“宪法中的教条主义，执行中的实用主义”原则，旨在帮助AI系统做出符合伦理规范的决策。通过加载这些框架，开发者可以确保其AI系统的行为符合道德和法律标准。",
-    "tags": [
-      "New",
-      "Dev"
-    ],
-    "link": "https://github.com/SebastFock/Sovereign-Engagement",
-    "date": "2026-01-10",
-    "id": "17680155512874"
-  },
-  {
-    "title": "Ollie - 具有本地模型的玻璃盒AI代码编辑器",
-    "summary": "Ollie是一款专业代码编辑器，支持多种功能，无需订阅。",
-    "detail": "Ollie 是一款专为专业人士设计的代码编辑器，集成了先进的AI功能，但不需要订阅。它提供了卓越的代码编辑体验，包括语法高亮、IntelliSense和多语言支持。此外，Ollie 还支持3D检查、专业写作、图像编辑和视频编辑等功能，旨在满足现代开发者的多样化需求。",
-    "tags": [
-      "New",
-      "Dev"
-    ],
-    "link": "https://costa-and-associates.com/ollie",
-    "date": "2026-01-10",
-    "id": "17680155512875"
-  },
-  {
-    "title": "AI 编程：如何高效利用 AI 工具",
-    "summary": "探讨如何在编程中有效使用 AI 工具，提升开发效率。",
-    "detail": "Martin Rue 的文章《On AI Coding》详细介绍了如何在编程过程中利用 AI 工具。作者强调，AI 并不替代程序员的思考和理解，而是通过自动化执行部分任务来提高开发效率。文章建议开发者应该专注于问题的理解和解决方案的设计，而将具体的实现细节交给 AI。这种结合方式使得程序员能够更高效地完成复杂项目。",
-    "tags": [
-      "Dev",
-      "Python"
-    ],
-    "link": "https://martinrue.com/on-ai-coding/",
-    "date": "2026-01-10",
-    "id": "17680095705891"
-  },
-  {
-    "title": "Reason Studios 被 LANDR 收购，推动 AI 音乐生产",
-    "summary": "音乐制作软件公司 Reason Studios 被 AI 音乐生产专家 LANDR 收购。",
-    "detail": "音乐制作软件公司 Reason Studios 最近被 AI 音乐生产专家 LANDR 收购。此次收购旨在整合双方的技术优势，推动音乐制作流程的智能化。LANDR 的 AI 技术将与 Reason Studios 的高品质音乐制作工具相结合，为音乐人提供更加便捷和高效的创作环境。这标志着音乐产业正逐步向智能化转型。",
-    "tags": [
-      "News",
-      "Music"
-    ],
-    "link": "https://www.musicradar.com/music-tech/this-isnt-about-changing-reason-its-about-giving-it-room-to-grow-reason-studios-acquired-by-ai-music-production-specialists-landr",
-    "date": "2026-01-10",
-    "id": "17680095705892"
-  },
-  {
-    "title": "Agentic ProbLLMs：探索 AI 在编程中的应用",
-    "summary": "视频介绍如何利用 AI 进行编程和计算机操作。",
-    "detail": "YouTube 上发布的视频《Agentic ProbLLMs: Exploiting AI Computer-Use and Coding Agents》展示了如何利用先进的概率大型语言模型（ProbLLMs）进行编程和计算机操作。视频详细介绍了这些模型的工作原理及其在实际编程中的应用案例。通过这种方式，开发者可以更高效地完成复杂的编程任务，并减少人为错误。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://www.youtube.com/watch?v=8pbz5y7_WkM",
-    "date": "2026-01-10",
-    "id": "17680095705893"
-  },
-  {
-    "title": "微软发布2025年全球AI采纳报告",
-    "summary": "微软发布报告分析2025年全球AI采纳情况，揭示数字鸿沟。",
-    "detail": "微软发布的《Global AI Adoption in 2025》报告深入探讨了2025年全球人工智能的采纳情况。报告指出，尽管AI技术在全球范围内迅速发展，但不同地区和行业的AI采纳程度存在显著差异，形成了明显的数字鸿沟。该研究强调了AI在推动经济增长、提高生产力方面的潜力，同时也指出了确保公平、包容性发展的挑战。",
-    "tags": [
-      "News",
-      "Report"
-    ],
-    "link": "https://www.microsoft.com/en-us/corporate-responsibility/topics/ai-economy-institute/reports/global-ai-adoption-2025/",
-    "date": "2026-01-09",
-    "id": "17681519570670"
-  },
-  {
-    "title": "AI对开源商业模式的压力测试",
-    "summary": "AI如何影响Tailwind Labs的商业模式。",
-    "detail": "Tailwind Labs因AI技术的发展导致其文档流量下降，从而影响了其开源业务模式。文章指出，AI并没有直接杀死Tailwind Labs的业务，而是对其商业模式进行了压力测试。作者认为，许多依赖开发者通过文档发现和购买产品的开源商业模式都可能面临类似挑战。",
-    "tags": [
-      "News",
-      "Business Model"
-    ],
-    "link": "https://dri.es/ai-is-a-business-model-stress-test",
-    "date": "2026-01-09",
-    "id": "17680655750321"
   }
 ]
