@@ -11,6 +11,69 @@
     "id": "17680489294543"
   },
   {
+    "title": "npm-agentskills – 将AI代理文档与NPM包捆绑",
+    "summary": "npm-agentskills 允许库作者将技能与NPM包捆绑，帮助AI助手理解API。",
+    "detail": "npm-agentskills 是一个框架无关的技能发现和导出工具，用于AI编码助手。通过在 `package.json` 中添加 `agentskills` 字段，库作者可以将技能目录与他们的NPM包一起安装，从而帮助开发者获取准确的API指导、模式和最佳实践。\n\n核心技术点包括支持多种AI工具（如Claude Code、GitHub Copilot）的agentskills开放格式。\n\n行业影响：该工具提高了AI助手对特定库的理解能力，提升了开发效率。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Python"
+    ],
+    "link": "https://github.com/onmax/npm-agentskills",
+    "date": "2026-01-11",
+    "id": "17681353800490"
+  },
+  {
+    "title": "Tiny Coder – 仅350行代码的AI编码助手",
+    "summary": "Tiny Coder 是一个单文件AI编码助手，使用Claude API，支持TypeScript和Bun。",
+    "detail": "Tiny Coder 是一个轻量级的AI编码助手，仅包含约350行代码，使用Claude API，并且不依赖任何外部库。它支持TypeScript和Bun，提供工具调用功能，能够帮助开发者提高编码效率。\n\n核心技术点包括Claude API的集成和工具调用机制。\n\n行业影响：该项目展示了如何使用少量代码构建强大的AI工具，为未来的AI编码助手开发提供了参考。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Python"
+    ],
+    "link": "https://github.com/xrip/tinycode",
+    "date": "2026-01-11",
+    "id": "17681353800491"
+  },
+  {
+    "title": "Meshii – 开源AI工具生成游戏开发3D网格",
+    "summary": "Meshii 是一个开源平台，使用AI将单张图像转换为高质量3D资产。",
+    "detail": "Meshii 是一个开源的图像到3D生成平台，利用最先进的AI模型将单张图像转换为高质量的3D网格，适用于游戏开发。该工具支持多种3D模型，并提供了详细的使用指南和快速入门文档。\n\n核心技术点包括先进的AI模型和图像处理技术。\n\n行业影响：Meshii 降低了3D资产生成的成本和复杂性，加速了游戏开发流程。",
+    "tags": [
+      "New",
+      "LLM",
+      "Python"
+    ],
+    "link": "https://github.com/sciences44/meshii",
+    "date": "2026-01-11",
+    "id": "17681353800492"
+  },
+  {
+    "title": "AI内存短缺导致价格上涨",
+    "summary": "AI内存芯片短缺导致价格飙升，影响多个科技公司。",
+    "detail": "AI内存芯片，特别是HBM（High Bandwidth Memory），出现了严重的短缺情况，导致价格上涨。这影响到了多家科技公司，尤其是NVIDIA和三星等主要供应商。\n\n核心技术点包括高性能内存芯片的需求增加。\n\n行业影响：AI内存短缺可能导致相关硬件成本上升，影响AI系统的部署和性能。",
+    "tags": [
+      "News",
+      "Hardware"
+    ],
+    "link": "https://www.cnbc.com/2026/01/10/micron-ai-memory-shortage-hbm-nvidia-samsung.html",
+    "date": "2026-01-11",
+    "id": "17681353800493"
+  },
+  {
+    "title": "AI会议记录成为法律证据",
+    "summary": "AI生成的会议记录正被用作法律证据，引发证据可靠性问题。",
+    "detail": "随着AI会议助手的普及，其生成的会议记录和摘要越来越多地被用作法律证据。然而，这引发了关于证据可靠性和隐私保护的争议。伊利诺伊州的一起案例表明，AI生成的内容可能无法满足法律证据的标准。\n\n核心技术点包括AI生成内容的可靠性和证据验证机制。\n\n行业影响：该趋势要求更严格的证据管理和验证流程，以确保AI生成内容的法律效力。",
+    "tags": [
+      "News",
+      "Legal"
+    ],
+    "link": "https://www.aivojournal.org/when-ai-meeting-notes-become-legal-evidence/",
+    "date": "2026-01-11",
+    "id": "17681353800494"
+  },
+  {
     "title": "法官如何使用AI辅助法律裁决",
     "summary": "AI正在被用于帮助法官在法律纠纷中做出决策。",
     "detail": "本文探讨了AI在法律领域的应用，特别是如何通过分析案件数据和提供预测性见解来辅助法官的裁决过程。AI技术的进步使得法律工作者能够更快地处理大量信息，并提高判决的准确性和一致性。然而，这也引发了关于公平性和透明度的讨论。",
@@ -1137,65 +1200,5 @@
     "link": "https://san.com/cc/workday-hires-for-millions-a-lawsuit-seeking-plaintiffs-says-its-ai-shut-out-applicants-over-40/",
     "date": "2026-01-09",
     "id": "17679973707151"
-  },
-  {
-    "title": "Hermit-AI 离线隐私优先 RAG 聊天机器人",
-    "summary": "Hermit-AI 是一个离线、隐私优先的 RAG 聊天机器人，适用于 ZIM 文件。",
-    "detail": "Hermit-AI 是一款专为 ZIM 文件设计的离线、隐私优先的 RAG（Retrieval-Augmented Generation）聊天机器人。它通过多关节架构（Entity Extraction 和 JIT Indexing）提高准确性，确保数据不离开用户的设备，适合需要高度隐私保护的场景。",
-    "tags": [
-      "Dev",
-      "Privacy"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46559882",
-    "date": "2026-01-09",
-    "id": "17679973707152"
-  },
-  {
-    "title": "7 级别的人工智能辅助开发",
-    "summary": "探讨了从 IDE 协助到完全自主系统的七个级别 AI 辅助开发模式。",
-    "detail": "本文详细介绍了七个级别的 AI 辅助开发模式，涵盖了从 IDE 协助到完全自主系统的广泛范围。每个级别在提供更大杠杆的同时，也带来了不同的挑战，包括可维护性、代码质量、人类知识工作和系统的可理解性。",
-    "tags": [
-      "Dev",
-      "AI in Development"
-    ],
-    "link": "https://www.hyperact.co.uk/blog/7-levels-of-ai-assisted-development",
-    "date": "2026-01-09",
-    "id": "17679973707153"
-  },
-  {
-    "title": "Elon Musk 的 X 因不当 AI 图像面临英国禁令威胁",
-    "summary": "英国政府要求 X 平台解决不当 AI 图像问题，否则将面临禁令。",
-    "detail": "Elon Musk 的社交平台 X 因频繁出现不当 AI 生成的图像而受到英国政府的关注。政府已要求 X 在六个月内解决这一问题，否则将面临禁令。这反映出监管机构对 AI 内容生成的严格要求。",
-    "tags": [
-      "News",
-      "AI"
-    ],
-    "link": "https://www.theguardian.com/technology/2026/jan/09/musks-x-ordered-by-uk-government-to-tackle-wave-of-indecent-imagery-or-face-ban",
-    "date": "2026-01-09",
-    "id": "17679937366562"
-  },
-  {
-    "title": "构建可靠的AI代理",
-    "summary": "通过工具设计、框架和上下文工程提高AI代理的可靠性。",
-    "detail": "本文探讨了如何构建可靠的AI代理，强调通过合理的设计和工程方法来指导代理的行为。作者分享了从GPT-3.5到GPT-4的原型开发经验，并介绍了其公司Extensible AI在代理可靠性和框架方面的研究。文章指出，构建可靠的AI代理需要遵循软件工程的基本原则，未来将更多依赖模型自动生成任务执行流程。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://parthsareen.com/writings/building-reliable-ai-agents/",
-    "date": "2026-01-09",
-    "id": "17679904469180"
-  },
-  {
-    "title": "StackAI：一键部署的企业级AI代理平台",
-    "summary": "StackAI提供无代码、拖放功能，帮助企业用户轻松创建和优化AI代理。",
-    "detail": "StackAI是一个企业级AI代理平台，允许非技术人员通过自然语言描述快速生成复杂的多步骤AI代理。平台支持自动优化和详细的解释功能，适用于各种业务流程的自动化。Auto Agents工具套件使得构建可靠、高效的AI系统变得更加简单和直观。",
-    "tags": [
-      "New",
-      "NoCode"
-    ],
-    "link": "https://www.ycombinator.com/launches/P7T-stackai-enterprise-ai-agents-in-seconds",
-    "date": "2026-01-09",
-    "id": "17679904469181"
   }
 ]
