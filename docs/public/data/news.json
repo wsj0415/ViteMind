@@ -11,6 +11,78 @@
     "id": "17680489294543"
   },
   {
+    "title": "从 Blob 到托管上下文：为什么 AI 应用需要状态化上下文层",
+    "summary": "AI 应用在处理动态数据时面临“破碎状态”问题，需要状态化上下文层来解决。",
+    "detail": "本文探讨了在构建 AI 助手时遇到的“破碎状态”问题，即静态数据假设不再适用。作者介绍了如何通过 CocoIndex 解决这一问题，将其作为状态化上下文层来管理 RAG 流程中的缓存一致性。这不仅解决了数据更新导致的错误，还提高了系统的可靠性和准确性。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://zhihanz.github.io/posts/from-blobs-to-managed-context/",
+    "date": "2026-01-12",
+    "id": "17682429547100"
+  },
+  {
+    "title": "Conut.ai 发布 AI 图像与视频生成平台",
+    "summary": "Conut.ai 推出了NanoBanana Pro和Kling Video Suite等专业级AI生成工具。",
+    "detail": "Conut.ai 提供多种AI图像和视频生成工具，包括NanoBanana Pro（文本到图像、图像编辑）和Kling Video Suite（文本到视频、图像动画）。这些工具旨在帮助创作者高效生成高质量的内容，支持多模型选择，满足不同创作需求。",
+    "tags": [
+      "New",
+      "AI"
+    ],
+    "link": "https://conut.ai/",
+    "date": "2026-01-12",
+    "id": "17682429547101"
+  },
+  {
+    "title": "Google 的 NeuralGCM 提升全球降水模拟精度",
+    "summary": "NeuralGCM 结合机器学习和物理学，提升了长期天气预报的准确性。",
+    "detail": "Google 的 NeuralGCM 模型结合了机器学习和物理学原理，能够在2-15天内提供更准确的天气预报，并在40年内重现历史气温数据。最新研究进一步优化了降水模拟，使其在当前280公里分辨率下优于传统模型。",
+    "tags": [
+      "News",
+      "Climate"
+    ],
+    "link": "https://research.google/blog/neuralgcm-harnesses-ai-to-better-simulate-long-range-global-precipitation/",
+    "date": "2026-01-12",
+    "id": "17682429547102"
+  },
+  {
+    "title": "Spec-Driven AI 开发系统发布",
+    "summary": "Spec-Driven AI 提供了一套完整的执行历史管理系统，简化AI驱动开发过程。",
+    "detail": "Spec-Driven AI 开发系统通过生成规范和跟踪执行历史，解决了AI开发中的问题，如代码可维护性差、会话重置后信息丢失等。该系统包括规范生成器、会话管理和执行跟踪等功能，确保项目始终可追溯。",
+    "tags": [
+      "Dev",
+      "Tools"
+    ],
+    "link": "https://samhath03.github.io/spec-driven-ai/",
+    "date": "2026-01-12",
+    "id": "17682429547103"
+  },
+  {
+    "title": "英国出台法律打击 Grok AI 生成的深度伪造",
+    "summary": "英国本周将实施新法律，禁止未经同意创建亲密图像。",
+    "detail": "为应对Grok AI等工具生成的深度伪造问题，英国政府本周将实施一项新法律，禁止未经同意创建和传播非自愿的亲密图像，旨在保护个人隐私和防止滥用AI技术。",
+    "tags": [
+      "News",
+      "Legal"
+    ],
+    "link": "https://www.bbc.co.uk/news/articles/cq845glnvl1o",
+    "date": "2026-01-12",
+    "id": "17682429547104"
+  },
+  {
+    "title": "谷歌在 AI 模式工具中推出个性化购物广告",
+    "summary": "谷歌在其AI模式工具中引入个性化购物广告功能。",
+    "detail": "谷歌在其AI模式工具中新增了个性化购物广告功能，利用AI技术向用户推荐符合其兴趣的商品。这一举措旨在增强用户体验，同时为商家提供更精准的广告投放渠道。",
+    "tags": [
+      "News",
+      "Advertising"
+    ],
+    "link": "https://www.vogue.com/article/google-launches-personalized-shopping-ads-within-its-ai-mode-tool",
+    "date": "2026-01-12",
+    "id": "17682429547105"
+  },
+  {
     "title": "谷歌 Gemini 助力苹果 Siri 升级",
     "summary": "苹果与谷歌达成合作，Siri 将采用 Gemini 模型和云技术。",
     "detail": "2026年1月，苹果和谷歌宣布了一项为期多年的非独家合作协议。根据协议，苹果将使用谷歌的 Gemini 大模型和谷歌云技术来开发未来的AI基础模型。这标志着苹果在语音助手领域的技术实力进一步提升，有望为用户带来更加智能化和个性化的体验。Gemini 模型凭借其强大的自然语言处理能力，将帮助 Siri 更好地理解用户指令，提供更精准的服务。",
@@ -1142,77 +1214,5 @@
     "link": "https://twitter.com/rbbydotdev/status/2010290966138396950",
     "date": "2026-01-11",
     "id": "17681269923860"
-  },
-  {
-    "title": "AI 发言真实性验证难题",
-    "summary": "研究探讨当 AI 发言时，如何证明其所说内容的真实性。",
-    "detail": "Zenodo 上发布了一篇名为《当 AI 发言，谁来证明它说了什么？》的研究论文，探讨了随着 AI 在公共领域的广泛应用，如何确保其输出信息的真实性和可追溯性的问题。文章指出，当前的治理框架难以应对这一挑战，因为重新运行 AI 系统可能会得到不同的结果，而传统的准确性基准和政策声明往往无法提供足够的证据。",
-    "tags": [
-      "Dev",
-      "Research"
-    ],
-    "link": "https://zenodo.org/records/18212180",
-    "date": "2026-01-11",
-    "id": "17681269923871"
-  },
-  {
-    "title": "AI 对社会文化影响的书籍推荐",
-    "summary": "推荐几本理解 AI 如何改变文化、社会及人际互动的书籍。",
-    "detail": "Shepherd.com 推荐了几本有助于理解人工智能对文化、社会和人类交互方式影响的书籍。这些书籍涵盖了从技术角度到人文视角的不同层面，帮助读者全面了解 AI 的社会效应。",
-    "tags": [
-      "Resources",
-      "Books"
-    ],
-    "link": "https://shepherd.com/best-books/understanding-how-artificial-intelligence-is-chang",
-    "date": "2026-01-11",
-    "id": "17681269923872"
-  },
-  {
-    "title": "AI 意识的生物学视角",
-    "summary": "探讨 AI 意识的概念及其与生物意识的相似之处。",
-    "detail": "Substack 上的一篇文章从生物学角度探讨了 AI 意识的概念，分析了 AI 是否可以拥有类似于生物体的意识。文章引用了多位专家的观点，讨论了当前 AI 技术的发展水平以及未来可能达到的阶段。",
-    "tags": [
-      "Dev",
-      "Consciousness"
-    ],
-    "link": "https://substack.com/@cocakoala/note/p-184178209",
-    "date": "2026-01-11",
-    "id": "17681269923873"
-  },
-  {
-    "title": "AI 特性开发中的盲目性",
-    "summary": "批评当前 AI 产品开发中存在大量无用的功能。",
-    "detail": "PCLoadLetter.dev 博客作者批评了当前 AI 产品开发过程中存在的盲目性，即开发者在没有充分用户需求调研的情况下，盲目添加各种功能。文章举例了 LinkedIn 和 Microsoft 的一些失败案例，强调了用户体验研究的重要性。",
-    "tags": [
-      "Dev",
-      "Criticism"
-    ],
-    "link": "https://www.pcloadletter.dev/blog/ai-features-for-no-one/",
-    "date": "2026-01-11",
-    "id": "17681269923874"
-  },
-  {
-    "title": "Hadaa: 免费AI园艺设计工具",
-    "summary": "Hadaa提供免费的AI园艺设计服务，无需信用卡。",
-    "detail": "Hadaa是一款创新的AI园艺设计生成器，允许用户通过简单的上传和刷选功能来创建详细的园艺设计方案。该工具不仅支持精准编辑和智能提示编辑，还提供了位置植物建议、无人机视角和3D透视等功能，帮助用户从概念草图到最终设计无缝转换。Hadaa的目标是使园艺设计更加便捷和可持续，适用于专业人士和业余爱好者。",
-    "tags": [
-      "Deal",
-      "LLM"
-    ],
-    "link": "https://hadaa.pro/",
-    "date": "2026-01-11",
-    "id": "17681233631940"
-  },
-  {
-    "title": "普渡大学为新生增加AI学习要求",
-    "summary": "普渡大学宣布所有新生需修读AI相关课程。",
-    "detail": "普渡大学在2025年12月宣布，自2026年起，所有新生必须完成一门AI相关的必修课程。这一决定反映了AI教育在全球高等教育中的重要性日益增长。该课程旨在培养学生的AI基础知识和应用能力，帮助他们更好地适应未来职场的需求。这一举措有望推动更多学生对AI技术产生兴趣，并在未来职业生涯中发挥重要作用。",
-    "tags": [
-      "News",
-      "Education"
-    ],
-    "link": "https://www.wfyi.org/news/articles/purdue-university-adds-ai-learning-requirement-for-incoming-students",
-    "date": "2026-01-11",
-    "id": "17681201507180"
   }
 ]
