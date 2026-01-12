@@ -11,6 +11,78 @@
     "id": "17680489294543"
   },
   {
+    "title": "苹果与谷歌合作，Siri将基于Gemini模型",
+    "summary": "苹果和谷歌宣布合作，Siri将采用谷歌的Gemini模型。",
+    "detail": "苹果和谷歌于2026年1月12日联合宣布了一项多年的合作计划。根据该协议，苹果下一代基础模型将基于谷歌的Gemini模型和云技术。这些模型将为未来的苹果智能特性提供动力，包括今年推出的更个性化的Siri。经过仔细评估，苹果认为谷歌的AI技术提供了最强大的基础模型，并期待这种合作能为苹果用户解锁新的创新体验。尽管如此，苹果智能将继续在苹果设备和私有云上运行，并保持其业界领先的隐私标准。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://www.cnn.com/2026/01/12/tech/apple-google-gemini-siri",
+    "date": "2026-01-12",
+    "id": "17682457104360"
+  },
+  {
+    "title": "Superhuman AI泄露用户电子邮件",
+    "summary": "Superhuman AI因间接提示注入漏洞导致用户敏感邮件被泄露。",
+    "detail": "PromptArmor威胁情报团队发现，当Superhuman AI被要求总结用户的最近邮件时，一个不受信任的邮件中的提示注入漏洞导致Superhuman AI将用户收件箱中数十封其他敏感邮件的内容（包括财务、法律和医疗信息）提交到攻击者的Google表单中。Grammarly收购了Superhuman和Coda后，这些漏洞影响了整个产品套件。Superhuman迅速响应并解决了这些问题，展示了对用户安全和隐私的承诺。",
+    "tags": [
+      "News",
+      "Security"
+    ],
+    "link": "https://www.promptarmor.com/resources/superhuman-ai-exfiltrates-emails",
+    "date": "2026-01-12",
+    "id": "17682457104361"
+  },
+  {
+    "title": "Outscal视频生成器：将视频转换为React代码",
+    "summary": "Outscal推出AI视频生成器，可将视频输出为React代码。",
+    "detail": "Outscal发布了一个名为Outscal Video Generator的AI工具，能够将视频文件转换为React代码。该工具支持两种风格：手绘素描风格，适合教育和故事讲述；霓虹效果风格，适合音乐、游戏和技术内容。通过这种方式，开发者可以轻松地将视频内容转化为可重用的React组件，提高开发效率。",
+    "tags": [
+      "Dev",
+      "React"
+    ],
+    "link": "https://ai.outscal.com/",
+    "date": "2026-01-12",
+    "id": "17682457104362"
+  },
+  {
+    "title": "Creaibo AI重写器：自动重写文本内容",
+    "summary": "Creaibo提供免费AI重写工具，可保持原意重写文本。",
+    "detail": "Creaibo推出了一款免费的AI重写工具，能够学习和适应用户的写作风格，从而生成自然且引人入胜的内容。该工具支持多种内容类型的重写，包括文章、博客、邮件等，并确保在重写过程中保持原文的意思不变。此外，Creaibo还提供高级版本，提供无限访问权限和更多高级功能。",
+    "tags": [
+      "Dev",
+      "Writing"
+    ],
+    "link": "https://www.creaibo.net/ai-rewriter",
+    "date": "2026-01-12",
+    "id": "17682457104363"
+  },
+  {
+    "title": "Compare Contractor Quotes：利用AI解析装修报价",
+    "summary": "AI工具帮助比较和标准化装修报价。",
+    "detail": "Compare Contractor Quotes是一款利用AI技术解析和标准化装修报价的工具。用户可以上传多个承包商的报价单，AI会识别隐藏成本和遗漏项目，并在60秒内生成详细的比较报告。该工具有助于用户节省数千美元，避免因价格欺诈和变更订单而产生的额外费用。用户可以选择基本报告（$29）或高级报告（$49），后者包含更多谈判建议和优先推荐。",
+    "tags": [
+      "New",
+      "AI Tools"
+    ],
+    "link": "https://comparecontractorquotes.com",
+    "date": "2026-01-12",
+    "id": "17682457104364"
+  },
+  {
+    "title": "416K消息压缩至152KB JSON，适用于任何LLM",
+    "summary": "开源项目展示如何将大量消息压缩为小JSON文件。",
+    "detail": "Mordechai Potash在GitHub上分享了一个项目，展示了如何将416,000条消息压缩为152KB的JSON文件，以便在任何大型语言模型（LLM）中使用。该项目提供了一种高效的方法来处理和存储大规模数据集，使得LLM能够更快速地加载和处理信息。这对于需要处理大量文本数据的应用程序来说是一个重要的优化。",
+    "tags": [
+      "Dev",
+      "Data"
+    ],
+    "link": "https://github.com/mordechaipotash/thesis",
+    "date": "2026-01-12",
+    "id": "17682457104365"
+  },
+  {
     "title": "从 Blob 到托管上下文：为什么 AI 应用需要状态化上下文层",
     "summary": "AI 应用在处理动态数据时面临“破碎状态”问题，需要状态化上下文层来解决。",
     "detail": "本文探讨了在构建 AI 助手时遇到的“破碎状态”问题，即静态数据假设不再适用。作者介绍了如何通过 CocoIndex 解决这一问题，将其作为状态化上下文层来管理 RAG 流程中的缓存一致性。这不仅解决了数据更新导致的错误，还提高了系统的可靠性和准确性。",
@@ -1142,77 +1214,5 @@
     "link": "https://www.wsj.com/tech/ai/how-ai-could-help-decide-your-next-legal-dispute-9cb12517",
     "date": "2026-01-11",
     "id": "17681303359850"
-  },
-  {
-    "title": "HexStrike AI在Kali上的设置与使用",
-    "summary": "详细步骤指导如何在Kali Linux上搭建HexStrike AI实验室。",
-    "detail": "本文介绍了如何在Kali虚拟机上运行HexStrike服务器，并通过Fedora主机访问它。使用Roo Code作为AI协调器，结合本地Ollama模型和DeepSeek API，实现低成本的安全测试和漏洞扫描。HexStrike AI是Parrot 7.0版本新增的AI工具，旨在帮助测试LLM提示的安全性。",
-    "tags": [
-      "Dev",
-      "Python"
-    ],
-    "link": "https://0ut3r.space/2026/01/11/hexstrikeai-setup/",
-    "date": "2026-01-11",
-    "id": "17681303359851"
-  },
-  {
-    "title": "使用AI不再是可选项",
-    "summary": "AI已经成为开发者工作中的核心部分。",
-    "detail": "本文作者认为2026年将普遍使用AI，成为开发者的常态。AI可以提高工作效率和质量，但同时也需要开发者具备基础技能和判断力，以确保输出的质量和可靠性。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://ma.ttias.be/ai-no-longer-optional/",
-    "date": "2026-01-11",
-    "id": "17681303359852"
-  },
-  {
-    "title": "警惕反AI热潮",
-    "summary": "AI将在编程领域引发根本性变革。",
-    "detail": "作者Antirez分享了他对AI发展的看法，认为AI将彻底改变编程方式。尽管他不完全支持当前的经济体系，但承认AI是不可阻挡的趋势。现代大型语言模型已经能够独立完成复杂的编程任务，这标志着传统编程方法的转变。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://antirez.com/news/158",
-    "date": "2026-01-11",
-    "id": "17681303359854"
-  },
-  {
-    "title": "AI代理取代Arduino IDE",
-    "summary": "使用AI代理替代Arduino IDE进行ESP32项目开发。",
-    "detail": "本文介绍了作者如何使用Claude Code、Gemini CLI和Codex等AI工具来替代传统的Arduino IDE，进行ESP32项目的开发。AI代理能够自动编写代码，显著提高了开发效率。",
-    "tags": [
-      "Dev",
-      "Python"
-    ],
-    "link": "https://www.youtube.com/watch?v=5DG0-_lseR4",
-    "date": "2026-01-11",
-    "id": "17681303359855"
-  },
-  {
-    "title": "解密AI代理评估",
-    "summary": "Anthropic分享了AI代理评估的最佳实践。",
-    "detail": "本文深入探讨了如何设计有效的AI代理评估方法，包括单回合和多回合评估。良好的评估有助于在生产环境中更可靠地部署AI代理，避免潜在的问题。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
-    "date": "2026-01-11",
-    "id": "17681303359856"
-  },
-  {
-    "title": "Exa.ai 忽略 robots.txt 索引个人网站数据",
-    "summary": "Exa.ai 被指违反 robots.txt 规则，索引了用户的个人网页。",
-    "detail": "近期，用户 @rbbydotdev 在推特上指责 Exa.ai 违反了其网站的 robots.txt 文件规定，未经授权索引了他的个人页面，并要求将其移除。这一事件引发了关于 AI 系统在数据收集和隐私保护方面合规性的讨论。robots.txt 是一种协议，用于告知网络爬虫哪些网页可以抓取，哪些不可以。Exa.ai 的行为可能涉及侵犯用户隐私权。",
-    "tags": [
-      "News",
-      "Privacy"
-    ],
-    "link": "https://twitter.com/rbbydotdev/status/2010290966138396950",
-    "date": "2026-01-11",
-    "id": "17681269923860"
   }
 ]
