@@ -7,22 +7,18 @@ export default defineConfig({
   lang: 'zh-CN',
   title: "ViteMind",
   description: "UNCOVER THE FUTURE OF AI",
-  head: [
-    [
-      'script',
-      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-95Q2GYDF2M' }
-    ],
-    [
-      'script',
-      {},
-      `window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-95Q2GYDF2M');`
-    ]
-  ],
   cleanUrls: true,
+  transformHtml: (code, id) => {
+    return code.replace('<head>', `<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-95Q2GYDF2M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-95Q2GYDF2M');
+</script>`)
+  },
 
   // Load .env files from project root (parent of docs folder)
   vite: {
