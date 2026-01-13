@@ -1,5 +1,101 @@
 [
   {
+    "title": "OpenAI、Anthropic和DeepMind在AI安全研究上的投入",
+    "summary": "研究揭示了OpenAI、Anthropic和DeepMind在AI安全领域的研究投入情况。",
+    "detail": "该研究通过分析OpenAI、Anthropic和DeepMind的公开出版物，评估了这些公司在AI安全方面的研究占比。结果显示，尽管这些公司在公众认知中对AI安全重视程度较高，但实际的研究投入可能并未完全匹配预期。研究方法包括收集各公司博客和论文，并使用Gemini-Flash-3模型对文章主题进行分类，从而估算出与安全相关的研究比例。",
+    "tags": [
+      "News",
+      "Safety"
+    ],
+    "link": "https://fi-le.net/safety-blogs/",
+    "date": "2026-01-13",
+    "id": "17683464977860"
+  },
+  {
+    "title": "AI时代软件安全的新范式",
+    "summary": "Rochus Keller认为AI生成形式化规范比Rust更适合现代软件安全。",
+    "detail": "Rochus Keller的文章探讨了在AI时代的软件安全策略。他认为传统的“语法记忆安全”（如使用Rust重写代码）已经过时，AI能够理解和生成形式化规范（如Event-B/B-Method），这不仅能够实现缺陷为零的系统，还能降低开发成本。",
+    "tags": [
+      "Dev",
+      "FormalVerification"
+    ],
+    "link": "https://rochuskeller.substack.com/p/why-rust-solves-a-problem-we-no-longer",
+    "date": "2026-01-13",
+    "id": "17683464977861"
+  },
+  {
+    "title": "物理AI资源汇总",
+    "summary": "GitHub上的Physical AI资源库涵盖了视觉-语言-动作模型等主题。",
+    "detail": "keon维护了一个Physical AI资源库，聚焦于Vision-Language-Action模型、世界模型、嵌入智能和机器人基础模型。该资源库提供了学术论文、工具和研究方向，旨在促进物理AI的发展。",
+    "tags": [
+      "New",
+      "PhysicalAI"
+    ],
+    "link": "https://github.com/keon/awesome-physical-ai",
+    "date": "2026-01-13",
+    "id": "17683464977862"
+  },
+  {
+    "title": "硬刹车事件作为道路事故风险指标",
+    "summary": "谷歌研究表明硬刹车事件可作为道路事故风险的领先指标。",
+    "detail": "谷歌研究发现，通过Android Auto收集的硬刹车事件数据可以有效预测道路事故风险。这种方法比传统的基于事故报告的数据更及时、准确，有助于提前识别高风险路段。",
+    "tags": [
+      "News",
+      "RoadSafety"
+    ],
+    "link": "https://research.google/blog/hard-braking-events-as-indicators-of-road-segment-crash-risk/",
+    "date": "2026-01-13",
+    "id": "17683464977863"
+  },
+  {
+    "title": "Yarn Spinner为何不使用AI",
+    "summary": "Yarn Spinner团队决定不采用AI技术，强调伦理和社会责任。",
+    "detail": "Yarn Spinner团队解释了为何不使用AI，认为AI可能被用于有害目的。他们强调技术和伦理的重要性，拒绝支持可能伤害他人的AI工具。",
+    "tags": [
+      "News",
+      "Ethics"
+    ],
+    "link": "https://yarnspinner.dev/blog/why-we-dont-use-ai/",
+    "date": "2026-01-13",
+    "id": "17683464977864"
+  },
+  {
+    "title": "企业AI采纳现状与挑战",
+    "summary": "Gianluca Mauro分析了178家企业在AI采纳中的问题及建议。",
+    "detail": "Gianluca Mauro基于对178家企业的调查，揭示了企业在AI采纳过程中存在的问题，并提供了改进建议。这些问题包括缺乏明确战略、数据不足和技术集成困难。",
+    "tags": [
+      "News",
+      "AIAdoption"
+    ],
+    "link": "https://gianlucamauro.substack.com/p/the-data-says-youre-likely-screwing",
+    "date": "2026-01-13",
+    "id": "17683464977865"
+  },
+  {
+    "title": "AI代理的指令发现能力",
+    "summary": "讨论了从提示工程到上下文工程的转变，强调指令发现的重要性。",
+    "detail": "文章分析了AI代理能力的发展阶段，从最初的提示工程到现在的上下文工程。作者认为，有效的上下文管理和指令发现是实现高级AI代理的关键。",
+    "tags": [
+      "Dev",
+      "PromptEngineering"
+    ],
+    "link": "https://mrlesk.com/blog/instructions-following-discovery/",
+    "date": "2026-01-13",
+    "id": "17683464977866"
+  },
+  {
+    "title": "AI未能显著提升开发团队绩效",
+    "summary": "Codemanship探讨了AI在提高开发效率方面的局限性。",
+    "detail": "Codemanship的文章指出，尽管AI被广泛宣传，但其在实际开发中的效果有限。作者认为，AI未能显著提升开发团队的绩效，原因可能包括技术集成难度和现有开发流程的限制。",
+    "tags": [
+      "News",
+      "Performance"
+    ],
+    "link": "https://codemanship.wordpress.com/2026/01/12/the-great-filter-or-why-high-performance-still-eludes-most-dev-teams-even-with-ai/",
+    "date": "2026-01-13",
+    "id": "17683464977867"
+  },
+  {
     "title": "苹果发布新AI服务器芯片",
     "summary": "苹果计划今年推出新的AI服务器芯片。",
     "detail": "9to5Mac报道，苹果正在开发新的AI服务器芯片，预计将在2026年发布。这些芯片将增强苹果在AI领域的竞争力，特别是在数据中心和云计算方面的应用。",
@@ -1110,101 +1206,5 @@
     "link": "https://www.promptarmor.com/resources/superhuman-ai-exfiltrates-emails",
     "date": "2026-01-12",
     "id": "17682457104361"
-  },
-  {
-    "title": "Outscal视频生成器：将视频转换为React代码",
-    "summary": "Outscal推出AI视频生成器，可将视频输出为React代码。",
-    "detail": "Outscal发布了一个名为Outscal Video Generator的AI工具，能够将视频文件转换为React代码。该工具支持两种风格：手绘素描风格，适合教育和故事讲述；霓虹效果风格，适合音乐、游戏和技术内容。通过这种方式，开发者可以轻松地将视频内容转化为可重用的React组件，提高开发效率。",
-    "tags": [
-      "Dev",
-      "React"
-    ],
-    "link": "https://ai.outscal.com/",
-    "date": "2026-01-12",
-    "id": "17682457104362"
-  },
-  {
-    "title": "Creaibo AI重写器：自动重写文本内容",
-    "summary": "Creaibo提供免费AI重写工具，可保持原意重写文本。",
-    "detail": "Creaibo推出了一款免费的AI重写工具，能够学习和适应用户的写作风格，从而生成自然且引人入胜的内容。该工具支持多种内容类型的重写，包括文章、博客、邮件等，并确保在重写过程中保持原文的意思不变。此外，Creaibo还提供高级版本，提供无限访问权限和更多高级功能。",
-    "tags": [
-      "Dev",
-      "Writing"
-    ],
-    "link": "https://www.creaibo.net/ai-rewriter",
-    "date": "2026-01-12",
-    "id": "17682457104363"
-  },
-  {
-    "title": "Compare Contractor Quotes：利用AI解析装修报价",
-    "summary": "AI工具帮助比较和标准化装修报价。",
-    "detail": "Compare Contractor Quotes是一款利用AI技术解析和标准化装修报价的工具。用户可以上传多个承包商的报价单，AI会识别隐藏成本和遗漏项目，并在60秒内生成详细的比较报告。该工具有助于用户节省数千美元，避免因价格欺诈和变更订单而产生的额外费用。用户可以选择基本报告（$29）或高级报告（$49），后者包含更多谈判建议和优先推荐。",
-    "tags": [
-      "New",
-      "AI Tools"
-    ],
-    "link": "https://comparecontractorquotes.com",
-    "date": "2026-01-12",
-    "id": "17682457104364"
-  },
-  {
-    "title": "416K消息压缩至152KB JSON，适用于任何LLM",
-    "summary": "开源项目展示如何将大量消息压缩为小JSON文件。",
-    "detail": "Mordechai Potash在GitHub上分享了一个项目，展示了如何将416,000条消息压缩为152KB的JSON文件，以便在任何大型语言模型（LLM）中使用。该项目提供了一种高效的方法来处理和存储大规模数据集，使得LLM能够更快速地加载和处理信息。这对于需要处理大量文本数据的应用程序来说是一个重要的优化。",
-    "tags": [
-      "Dev",
-      "Data"
-    ],
-    "link": "https://github.com/mordechaipotash/thesis",
-    "date": "2026-01-12",
-    "id": "17682457104365"
-  },
-  {
-    "title": "从 Blob 到托管上下文：为什么 AI 应用需要状态化上下文层",
-    "summary": "AI 应用在处理动态数据时面临“破碎状态”问题，需要状态化上下文层来解决。",
-    "detail": "本文探讨了在构建 AI 助手时遇到的“破碎状态”问题，即静态数据假设不再适用。作者介绍了如何通过 CocoIndex 解决这一问题，将其作为状态化上下文层来管理 RAG 流程中的缓存一致性。这不仅解决了数据更新导致的错误，还提高了系统的可靠性和准确性。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://zhihanz.github.io/posts/from-blobs-to-managed-context/",
-    "date": "2026-01-12",
-    "id": "17682429547100"
-  },
-  {
-    "title": "Conut.ai 发布 AI 图像与视频生成平台",
-    "summary": "Conut.ai 推出了NanoBanana Pro和Kling Video Suite等专业级AI生成工具。",
-    "detail": "Conut.ai 提供多种AI图像和视频生成工具，包括NanoBanana Pro（文本到图像、图像编辑）和Kling Video Suite（文本到视频、图像动画）。这些工具旨在帮助创作者高效生成高质量的内容，支持多模型选择，满足不同创作需求。",
-    "tags": [
-      "New",
-      "AI"
-    ],
-    "link": "https://conut.ai/",
-    "date": "2026-01-12",
-    "id": "17682429547101"
-  },
-  {
-    "title": "Google 的 NeuralGCM 提升全球降水模拟精度",
-    "summary": "NeuralGCM 结合机器学习和物理学，提升了长期天气预报的准确性。",
-    "detail": "Google 的 NeuralGCM 模型结合了机器学习和物理学原理，能够在2-15天内提供更准确的天气预报，并在40年内重现历史气温数据。最新研究进一步优化了降水模拟，使其在当前280公里分辨率下优于传统模型。",
-    "tags": [
-      "News",
-      "Climate"
-    ],
-    "link": "https://research.google/blog/neuralgcm-harnesses-ai-to-better-simulate-long-range-global-precipitation/",
-    "date": "2026-01-12",
-    "id": "17682429547102"
-  },
-  {
-    "title": "Spec-Driven AI 开发系统发布",
-    "summary": "Spec-Driven AI 提供了一套完整的执行历史管理系统，简化AI驱动开发过程。",
-    "detail": "Spec-Driven AI 开发系统通过生成规范和跟踪执行历史，解决了AI开发中的问题，如代码可维护性差、会话重置后信息丢失等。该系统包括规范生成器、会话管理和执行跟踪等功能，确保项目始终可追溯。",
-    "tags": [
-      "Dev",
-      "Tools"
-    ],
-    "link": "https://samhath03.github.io/spec-driven-ai/",
-    "date": "2026-01-12",
-    "id": "17682429547103"
   }
 ]
