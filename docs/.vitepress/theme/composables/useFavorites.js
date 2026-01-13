@@ -1,26 +1,10 @@
 import { ref, onMounted } from 'vue'
-import { createClient } from '@supabase/supabase-js'
+import { getAnonymousSupabaseClient } from '../utils/supabase'
 
 const favorites = ref([])
 const isLoading = ref(true)
-let supabase = null
+const supabase = getAnonymousSupabaseClient()
 let userId = null
-
-// Initialize Supabase Client
-const supabaseUrl = import.meta.env.SUPABASE_URL
-const supabaseKey = import.meta.env.SUPABASE_KEY
-
-if (supabaseUrl && supabaseKey) {
-  // Disable Auth persistence and detection for this anonymous feature
-  // This avoids conflicts with other Supabase clients and reduces "message channel" errors
-  supabase = createClient(supabaseUrl, supabaseKey, {
-    auth: {
-      persistSession: false,
-      autoRefreshToken: false,
-      detectSessionInUrl: false
-    }
-  })
-}
 
 export function useFavorites() {
 

@@ -11,6 +11,7 @@ import AdminLogin from './components/admin/AdminLogin.vue'
 import AdminLayout from './components/admin/AdminLayout.vue'
 import AdminDashboard from './components/admin/AdminDashboard.vue'
 import DataManager from './components/admin/DataManager.vue'
+import GuestbookWall from './components/GuestbookWall.vue'
 import './style.css'
 
 export default {
@@ -28,5 +29,6 @@ export default {
         app.component('AdminLayout', AdminLayout)
         app.component('AdminDashboard', AdminDashboard)
         app.component('DataManager', DataManager)
+        app.component('GuestbookWall', GuestbookWall)
     }
 }
