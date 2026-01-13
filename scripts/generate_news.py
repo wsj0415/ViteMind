@@ -110,6 +110,10 @@ def fetch_rss_data(known_links):
                 if not published_time:
                     continue
 
+                # Clamp future dates to now
+                if published_time > now:
+                    published_time = now
+
                 time_diff = now - published_time
                 if time_diff.total_seconds() > 86400: # 24 hours
                     continue
