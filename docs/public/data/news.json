@@ -1,5 +1,53 @@
 [
   {
+    "title": "Google 发布 MedGemma 1.5 和 MedASR",
+    "summary": "Google 推出最新版医疗图像解释模型 MedGemma 1.5 和医疗语音转文本模型 MedASR。",
+    "detail": "Google 在医疗AI领域持续发力，发布了 MedGemma 1.5 和 MedASR 两个重要模型。MedGemma 1.5 是一个增强版本的医疗生成式AI模型，旨在帮助开发者更有效地将其应用于实际医疗场景。MedASR 则是一个专门用于医疗语音转文本的技术，能够提升医生的工作效率和准确性。这两个模型的发布进一步加速了AI在医疗行业的应用。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://research.google/blog/next-generation-medical-image-interpretation-with-medgemma-15-and-medical-speech-to-text-with-medasr/",
+    "date": "2026-01-13",
+    "id": "17683393758480"
+  },
+  {
+    "title": "Deepgram 获得 1.3 亿美元融资，并收购YC AI初创公司",
+    "summary": "AI语音技术公司 Deepgram 完成1.3亿美元融资，估值达13亿美元，并收购了一家YC AI初创公司。",
+    "detail": "Deepgram，一家专注于AI语音技术的公司，在2026年1月13日宣布完成了1.3亿美元的融资，使其估值达到13亿美元。此外，该公司还收购了一家来自YC的AI初创公司，以增强其在语音识别和处理领域的技术实力和市场竞争力。",
+    "tags": [
+      "News",
+      "Finance"
+    ],
+    "link": "https://techcrunch.com/2026/01/13/deepgram-raises-130m-at-1-3b-valuation-and-buys-a-yc-ai-startup/",
+    "date": "2026-01-13",
+    "id": "17683393758481"
+  },
+  {
+    "title": "yolo-cage：安全的自主编码代理",
+    "summary": "yolo-cage 提供了安全的自主编码代理解决方案，支持分支隔离、秘密扫描和人工审核合并。",
+    "detail": "yolo-cage 是一个开源项目，旨在提供一种安全可靠的自主编码代理解决方案。该项目通过实现分支隔离、秘密扫描和人工审核合并等功能，确保了编码过程的安全性和可控性。这对于需要严格保护敏感信息的企业来说尤为重要。",
+    "tags": [
+      "Dev",
+      "Security"
+    ],
+    "link": "https://github.com/borenstein/yolo-cage",
+    "date": "2026-01-13",
+    "id": "17683393758483"
+  },
+  {
+    "title": "AI 采纳 vs AI 转型：构建AI原生组织",
+    "summary": "文章探讨了AI采纳与AI转型的区别，并建议通过建立独立团队来推动AI转型。",
+    "detail": "这篇文章深入探讨了AI采纳与AI转型之间的关键区别。AI采纳通常是指将现有的AI工具集成到现有工作流程中，而AI转型则是指重新设计整个组织结构以充分利用AI的能力。作者建议企业应该建立独立的AI团队，赋予其足够的自由度和资源，以推动真正的AI转型。",
+    "tags": [
+      "News",
+      "Organization"
+    ],
+    "link": "https://dentro.de/ai/blog/2026/01/08/ai-adoption-vs-ai-transformation/",
+    "date": "2026-01-13",
+    "id": "17683393758484"
+  },
+  {
     "title": "SkyPilot：统一管理所有AI计算资源",
     "summary": "SkyPilot支持在多种基础设施上运行和管理AI工作负载。",
     "detail": "SkyPilot是一个开源项目，旨在简化AI计算资源的管理和扩展。它支持在Kubernetes、20多个云平台及本地环境中部署和管理AI工作负载，提供统一的接口和工具，帮助用户高效地利用不同类型的计算资源。",
@@ -1158,53 +1206,5 @@
     "link": "https://www.trylad.com",
     "date": "2026-01-12",
     "id": "17682386951491"
-  },
-  {
-    "title": "Pi Monorepo - 统一的 AI 代理工具包",
-    "summary": "Pi Monorepo 提供了统一的 LLM API 和多种界面库，支持编码代理和 Slack 集成。",
-    "detail": "Pi Monorepo 是一个全面的 AI 代理工具包，包含了编码代理命令行接口、统一的 LLM API、终端用户界面（TUI）和 Web 界面库、Slack 机器人以及 vLLM 代理等功能。这一工具包旨在简化 AI 代理的开发和部署过程，支持多种应用场景下的智能交互。通过统一的 API 接口，开发者可以轻松集成不同的语言模型，实现高效的自动化任务处理。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://github.com/badlogic/pi-mono",
-    "date": "2026-01-12",
-    "id": "17682386951492"
-  },
-  {
-    "title": "Gdocs-CLI - 将 Google 文档转换为 Markdown",
-    "summary": "Gdocs-CLI 是一个命令行工具，可将 Google 文档转换为 Markdown 格式。",
-    "detail": "Gdocs-CLI 是一个专门设计用于 AI 编码代理的命令行工具，能够通过 OAuth2 认证从 Google 文档中提取内容，并将其转换为带有 YAML 前置数据的 Markdown 格式。该工具支持多种文本格式（如粗体、斜体、链接等）和文档结构（如标题、列表、表格等），并且可以直接输出到标准输出流，方便与其他命令或文件系统集成。这对于需要处理大量 Google 文档的开发者来说是一个非常实用的工具。",
-    "tags": [
-      "Dev",
-      "Python"
-    ],
-    "link": "https://github.com/famasya/gdocs-cli",
-    "date": "2026-01-12",
-    "id": "17682386951493"
-  },
-  {
-    "title": "mcp-apps-kit：统一构建适用于MCP Apps和ChatGPT的应用框架",
-    "summary": "mcp-apps-kit是一个支持TypeScript的框架，简化了与MCP Apps和ChatGPT的集成。",
-    "detail": "mcp-apps-kit提供了一个基于TypeScript的框架，允许开发者从单一代码库构建与MCP Apps和ChatGPT兼容的应用程序。该框架支持无缝集成，简化了开发流程，有助于提高开发效率。",
-    "tags": [
-      "New",
-      "Dev"
-    ],
-    "link": "https://github.com/AndurilCode/mcp-apps-kit",
-    "date": "2026-01-12",
-    "id": "17682353750891"
-  },
-  {
-    "title": "马来西亚和印度尼西亚封禁Grok以防止色情化AI图像",
-    "summary": "马来西亚和印度尼西亚成为首个因色情化AI图像而封禁Grok的国家。",
-    "detail": "马来西亚和印度尼西亚政府出于对色情化AI图像的担忧，决定封禁Grok应用。此举旨在保护用户免受潜在的不当内容侵害，反映了全球对AI伦理和安全性的重视。",
-    "tags": [
-      "News",
-      "AI Safety"
-    ],
-    "link": "https://apnews.com/article/grok-malaysia-indonesia-block-c7cb320327f259c4da35908e1269c225",
-    "date": "2026-01-12",
-    "id": "17682353750893"
   }
 ]
