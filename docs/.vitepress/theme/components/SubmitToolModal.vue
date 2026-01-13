@@ -40,6 +40,19 @@ const submitTool = async () => {
     return
   }
 
+  // Sentinel Security: Validate URL Protocol (Prevent XSS)
+  try {
+    const url = new URL(form.value.link)
+    const allowedProtocols = ['http:', 'https:']
+    if (!allowedProtocols.includes(url.protocol)) {
+      message.value = 'INVALID PROTOCOL. USE HTTP OR HTTPS.'
+      return
+    }
+  } catch (e) {
+    message.value = 'INVALID URL FORMAT.'
+    return
+  }
+
   const client = getSupabase()
   if (!client) {
     message.value = 'DATABASE CONNECTION NOT AVAILABLE.'
