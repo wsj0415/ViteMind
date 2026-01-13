@@ -1,5 +1,41 @@
 [
   {
+    "title": "n8n 引入自动保存功能",
+    "summary": "n8n 推出自动保存、版本发布和并发保护功能。",
+    "detail": "n8n 宣布推出自动保存、版本发布和并发保护功能，以提高工作流开发的安全性和可靠性。自动保存功能解决了社区长期以来的痛点，使得开发者无需频繁手动保存，减少了数据丢失的风险。版本发布功能允许用户轻松管理不同版本的工作流，而并发保护则确保多个用户同时编辑时不会发生冲突。",
+    "tags": [
+      "Dev",
+      "Workflow"
+    ],
+    "link": "https://blog.n8n.io/announcing-autosave/",
+    "date": "2026-01-13",
+    "id": "17683292324240"
+  },
+  {
+    "title": "设计可扩展的 Python AI 项目",
+    "summary": "探讨如何使用灵活的架构设计可扩展的 Python AI 项目。",
+    "detail": "本文讨论了在设计 Python AI 项目时应避免过于严格的架构模式，如 Clean Architecture，转而采用一种更灵活的架构方法。作者建议使用虚拟的概念层来实现代码的模块化、灵活性、可测试性和可维护性，并提供了一个具体的文件夹结构示例。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://www.decodingai.com/p/how-to-design-python-ai-projects",
+    "date": "2026-01-13",
+    "id": "17683292324241"
+  },
+  {
+    "title": "Pic-Standard：Agentic AI 的行业标准",
+    "summary": "Pic-Standard 提供了 Agentic AI 的 Provenance & Intent Contracts (PIC) 标准。",
+    "detail": "Pic-Standard 是一个旨在解决自主系统因果差距的行业标准，它定义了 Provenance & Intent Contracts (PIC)，为 Agentic AI 提供了统一的框架。这有助于增强 AI 系统的信任度和安全性。",
+    "tags": [
+      "Dev",
+      "AI Safety"
+    ],
+    "link": "https://github.com/madeinplutofabio/pic-standard",
+    "date": "2026-01-13",
+    "id": "17683292324243"
+  },
+  {
     "title": "Fabi 2.0 发布：连接所有数据源的AI分析师",
     "summary": "Fabi 2.0 提供数百个数据连接器，简化数据分析流程。",
     "detail": "Fabi 2.0 是一个全新的AI分析师工具，旨在帮助产品、工程、营销和数据团队更轻松地从数据中获取基本答案。该工具支持连接各种数据库、数据仓库以及应用程序（如HubSpot、Stripe、Shopify等）。通过使用Fivetran进行数据连接，并将数据存储在MotherDuck实例中，Fabi 2.0 能够自动进行数据建模和索引，以便AI可以轻松地进行分析和构建仪表板。\n\n核心技术包括：\n- 使用Fivetran连接各种数据源\n- 数据存储在MotherDuck实例中\n- 自动数据建模和索引\n- 支持数百个数据连接器\n\nFabi 2.0 的推出将极大提高小团队的数据处理效率，减少手动操作的时间。",
@@ -631,6 +667,18 @@
     "id": "17682687674552"
   },
   {
+    "title": "cubic 2.0：更准确更快的 AI 代码审查工具",
+    "summary": "cubic 2.0 提供 3 倍准确度和 2 倍速度的代码审查。",
+    "detail": "cubic 2.0 是一款改进后的 AI 代码审查工具，相比之前版本，在准确度和速度上都有显著提升。通过理解仓库上下文、智能读取文档、优化工具链和过滤机制，cubic 能够更准确地识别问题。此外，通过缓存代码库，cubic 还大大缩短了审查时间。",
+    "tags": [
+      "Dev",
+      "Code Review"
+    ],
+    "link": "https://www.cubic.dev/blog/cubic-2.0",
+    "date": "2026-01-12",
+    "id": "17683292324242"
+  },
+  {
     "title": "AI 生成代码的安全风险",
     "summary": "Vibe Coding Debt 可能导致严重的安全漏洞。",
     "detail": "Instatunnel 博客探讨了 AI 生成代码带来的安全风险。随着 Vibe Coding 的流行，开发者越来越多地依赖 AI 工具来快速生成代码。然而，这种做法可能导致“Vibe Coding Debt”，即大量未经审查的代码中存在潜在的安全漏洞。Veracode 2025 年的报告指出，近 45% 的 AI 生成代码存在安全问题。这一现象强调了在采用 AI 开发时，确保代码质量和安全性的重要性。",
@@ -1158,54 +1206,5 @@
     "link": "https://news.ycombinator.com/item?id=46589039",
     "date": "2026-01-12",
     "id": "17682316918424"
-  },
-  {
-    "title": "Spec-Driven AI开发：保持AI生成代码的可维护性",
-    "summary": "Spec-Driven AI开发方法确保AI生成的代码长期可维护。",
-    "detail": "Spec-Driven AI开发是一种新的AI代码生成方法，强调在编写代码之前先生成规范文档，并跟踪整个开发过程中的决策和待办事项。这种方法通过记录详细的执行历史，帮助开发者在项目后期仍然能够理解和维护AI生成的代码。该工具还支持多种功能，包括规范生成、进度管理、测试生成等。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46589002",
-    "date": "2026-01-12",
-    "id": "17682316918425"
-  },
-  {
-    "title": "Harmattan AI 获得 2 亿美元 B 轮融资，成为国防独角兽",
-    "summary": "法国国防科技公司 Harmattan AI 完成 2 亿美元 B 轮融资，估值达 14 亿美元。",
-    "detail": "法国国防科技公司 Harmattan AI 在 2026 年 1 月 12 日宣布完成 2 亿美元的 B 轮融资，由 Dassault Aviation 领投。Dassault Aviation 以制造 Rafale 战斗机而闻名。此次融资使 Harmattan AI 的估值达到 14 亿美元，标志着公司在国防领域的领先地位进一步巩固。Harmattan AI 的技术在军事和安全领域具有广泛的应用前景，其融资成功将进一步推动公司在技术创新和市场扩展方面的步伐。",
-    "tags": [
-      "News",
-      "Defense"
-    ],
-    "link": "https://techcrunch.com/2026/01/12/harmattan-ai-raises-200m-series-b-led-by-dassault-aviation-becomes-defense-unicorn/",
-    "date": "2026-01-12",
-    "id": "17682280709970"
-  },
-  {
-    "title": "大多数公司失败不是因为 AI，而是没有开始",
-    "summary": "许多公司在实施 AI 项目前缺乏清晰的目标和规划，导致项目失败。",
-    "detail": "Kajol Shah 在 Hacker News 上指出，许多公司在谈论“添加 AI”时，往往忽略了基本的问题，如要解决的具体问题、现有规则是否有效、是否有实际需求等。AI 项目的失败通常不是由于技术本身，而是由于缺乏明确的目标和规划。文章建议企业在启动 AI 项目前应仔细评估和准备。",
-    "tags": [
-      "News",
-      "Project Management"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46588296",
-    "date": "2026-01-12",
-    "id": "17682280709972"
-  },
-  {
-    "title": "LightPanda：专为AI设计的无头浏览器",
-    "summary": "LightPanda提供更快、更少内存占用的浏览器解决方案。",
-    "detail": "LightPanda是一个专门为AI工作负载优化的无头浏览器，相比传统的Chrome浏览器，它启动速度更快，内存占用更低，并且具有更好的安全性和稳定性。这对于需要高效处理大量网页抓取任务的AI系统来说是一个理想的选择。",
-    "tags": [
-      "New",
-      "Browser",
-      "AI"
-    ],
-    "link": "https://lightpanda.io",
-    "date": "2026-01-12",
-    "id": "17682254296681"
   }
 ]
