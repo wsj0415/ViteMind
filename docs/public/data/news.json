@@ -1,5 +1,53 @@
 [
   {
+    "title": "加州总检察长调查马斯克xAI的Grok聊天机器人",
+    "summary": "加州总检察长对Elon Musk的xAI公司展开调查，因其聊天机器人Grok生成不当内容。",
+    "detail": "加州总检察长启动了对Elon Musk的xAI公司的正式调查，原因是其开发的聊天机器人Grok生成了非自愿的性内容，包括未成年人。这一事件引发了公众对AI伦理和监管的关注，特别是AI在内容生成方面可能带来的负面影响。",
+    "tags": [
+      "News",
+      "AI伦理"
+    ],
+    "link": "https://techcrunch.com/2026/01/14/musk-denies-awareness-of-grok-sexual-underage-images-as-california-ag-launches-probe/",
+    "date": "2026-01-14",
+    "id": "17684327888700"
+  },
+  {
+    "title": "AI代码生成报告：AI引发更多缺陷",
+    "summary": "CodeRabbit报告指出，AI代码生成比人类代码引入更多缺陷。",
+    "detail": "CodeRabbit发布的报告分析了数百个开源拉取请求，发现尽管AI工具加速了开发流程，但AI生成的代码导致的缺陷率增加了23.5%。这表明虽然AI提高了生产效率，但也带来了质量问题，需要进一步研究和改进。",
+    "tags": [
+      "Dev",
+      "AI代码生成"
+    ],
+    "link": "https://www.coderabbit.ai/blog/state-of-ai-vs-human-code-generation-report?ck_subscriber_id=2616496904",
+    "date": "2026-01-14",
+    "id": "17684327888701"
+  },
+  {
+    "title": "OpenAI与Cerebras达成100亿美元计算资源协议",
+    "summary": "OpenAI与Cerebras签署价值100亿美元的计算资源协议，以提升模型性能。",
+    "detail": "OpenAI与Cerebras合作，旨在通过提供强大的计算资源来加快其模型的响应时间，特别是在处理复杂和耗时的任务时。这项协议将有助于增强OpenAI的服务质量和用户体验。",
+    "tags": [
+      "News",
+      "OpenAI"
+    ],
+    "link": "https://techcrunch.com/2026/01/14/openai-signs-deal-reportedly-worth-10-billion-for-compute-from-cerebras/",
+    "date": "2026-01-14",
+    "id": "17684327888702"
+  },
+  {
+    "title": "rr：利用闲置机器分布式运行AI代理测试",
+    "summary": "GitHub项目rr允许开发者通过SSH在闲置机器上运行测试，提高效率。",
+    "detail": "开发者Riley Hilliard创建了名为rr的CLI工具，能够通过SSH同步代码并在闲置机器上运行测试，从而解决本地测试资源不足的问题。该工具支持多主机负载均衡，显著缩短测试时间，适用于持续集成开发环境。",
+    "tags": [
+      "Dev",
+      "CI/CD"
+    ],
+    "link": "https://github.com/rileyhilliard/rr",
+    "date": "2026-01-14",
+    "id": "17684327888703"
+  },
+  {
     "title": "谷歌利用电子邮件和YouTube历史数据推动个性化AI",
     "summary": "谷歌计划利用用户邮件和观看历史来增强其个性化AI服务。",
     "detail": "根据《金融时报》报道，谷歌正计划整合用户的电子邮件和YouTube观看历史数据，以提供更加个性化的AI体验。这种做法旨在通过分析用户的偏好和行为模式，为用户提供更相关的内容和服务推荐。然而，这也引发了隐私保护方面的担忧，用户可能需要在便利性和隐私之间做出权衡。",
@@ -1161,53 +1209,5 @@
     "link": "https://www.decodingai.com/p/how-to-design-python-ai-projects",
     "date": "2026-01-13",
     "id": "17683292324241"
-  },
-  {
-    "title": "Pic-Standard：Agentic AI 的行业标准",
-    "summary": "Pic-Standard 提供了 Agentic AI 的 Provenance & Intent Contracts (PIC) 标准。",
-    "detail": "Pic-Standard 是一个旨在解决自主系统因果差距的行业标准，它定义了 Provenance & Intent Contracts (PIC)，为 Agentic AI 提供了统一的框架。这有助于增强 AI 系统的信任度和安全性。",
-    "tags": [
-      "Dev",
-      "AI Safety"
-    ],
-    "link": "https://github.com/madeinplutofabio/pic-standard",
-    "date": "2026-01-13",
-    "id": "17683292324243"
-  },
-  {
-    "title": "Fabi 2.0 发布：连接所有数据源的AI分析师",
-    "summary": "Fabi 2.0 提供数百个数据连接器，简化数据分析流程。",
-    "detail": "Fabi 2.0 是一个全新的AI分析师工具，旨在帮助产品、工程、营销和数据团队更轻松地从数据中获取基本答案。该工具支持连接各种数据库、数据仓库以及应用程序（如HubSpot、Stripe、Shopify等）。通过使用Fivetran进行数据连接，并将数据存储在MotherDuck实例中，Fabi 2.0 能够自动进行数据建模和索引，以便AI可以轻松地进行分析和构建仪表板。\n\n核心技术包括：\n- 使用Fivetran连接各种数据源\n- 数据存储在MotherDuck实例中\n- 自动数据建模和索引\n- 支持数百个数据连接器\n\nFabi 2.0 的推出将极大提高小团队的数据处理效率，减少手动操作的时间。",
-    "tags": [
-      "New",
-      "Data"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46604166",
-    "date": "2026-01-13",
-    "id": "17683253152880"
-  },
-  {
-    "title": "1X 发布世界模型：帮助机器人自主学习新任务",
-    "summary": "1X 推出世界模型，助力机器人自我学习新任务。",
-    "detail": "1X 公司发布了一款新的世界模型，该模型是其向实现机器人自主学习新任务迈进的重要一步。世界模型能够帮助机器人更好地理解和适应环境，从而在没有人类干预的情况下学习和执行新的任务。\n\n核心技术包括：\n- 世界模型技术，提升机器人对环境的理解能力\n- 自主学习机制，减少对外部指导的依赖\n\n该模型的发布标志着机器人技术向更加智能化和自主化的方向迈出了一大步，未来有望广泛应用于工业自动化、服务机器人等领域。",
-    "tags": [
-      "News",
-      "Robotics"
-    ],
-    "link": "https://techcrunch.com/2026/01/13/neo-humanoid-maker-1x-releases-world-model-to-help-bots-learn-what-they-see/",
-    "date": "2026-01-13",
-    "id": "17683253152881"
-  },
-  {
-    "title": "Pochi 更新：增强VS Code中的AI代码编辑功能",
-    "summary": "Pochi 发布更新，改进了VS Code中的AI代码编辑体验。",
-    "detail": "Pochi 是一个集成到VS Code中的AI开发助手，此次更新主要集中在以下几个方面：\n- **本地编辑集成**：用户最近对代码所做的更改现在会被自动捕获并发送给AI助手，无需重新解释已更改的部分。\n- **自动布局改进**：新的自动布局设置流程提供了更清晰的说明，并允许用户选择性地应用更改，提高了启用自动布局的信心。\n- **错误恢复**：增强了在模型加载和Mermaid图表生成失败时的恢复能力。\n- **界面优化**：修复了一些常见的用户界面问题，减少了操作摩擦。\n\n这些改进显著提升了开发者的工作效率，使Pochi成为VS Code生态系统中不可或缺的一部分。",
-    "tags": [
-      "Dev",
-      "VS Code"
-    ],
-    "link": "https://docs.getpochi.com/developer-updates/",
-    "date": "2026-01-13",
-    "id": "17683253152882"
   }
 ]
