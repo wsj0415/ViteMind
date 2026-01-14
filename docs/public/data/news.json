@@ -1,5 +1,29 @@
 [
   {
+    "title": "AI加速代码编写，验证工作仍需人工",
+    "summary": "AI提高代码编写速度，但验证其正确性仍需人工介入。",
+    "detail": "Addy Osmani的文章探讨了AI在代码编写中的作用，指出虽然AI可以加速代码生成，但验证代码的正确性仍然是人类的责任。AI擅长生成功能代码，但在逻辑、安全性和边缘情况上容易出错，错误率比人工高出75%。因此，个人开发者依赖自动化测试，而团队则需要人工审核以确保代码质量。文章强调，只有亲眼见证代码正确运行，才能确认其功能无误。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://addyosmani.com/blog/code-review-ai/",
+    "date": "2026-01-14",
+    "id": "17683830353240"
+  },
+  {
+    "title": "AI合同审查工具：快速识别风险与建议修正",
+    "summary": "新工具利用AI快速扫描合同，标记风险并提出改进建议。",
+    "detail": "该文章介绍了一款由非律师和法律团队使用的AI合同审查工具，能够快速扫描PDF、Word等格式的合同，识别常见的法律风险，并提供基于标准模板的安全替代条款建议。工具支持离线模式，确保数据隐私。目前，该工具已测试超过50份合同，平均审查时间仅2-5分钟，准确率约为75-85%，适用于各种类型的合同。",
+    "tags": [
+      "New",
+      "LLM"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46613943",
+    "date": "2026-01-14",
+    "id": "17683830353241"
+  },
+  {
     "title": "Vespa.ai发布嵌入式权衡量化研究",
     "summary": "Vespa.ai研究了不同嵌入式模型的权衡，包括成本、质量和延迟。",
     "detail": "Vespa.ai通过实验对比了多个嵌入式模型，包括参数量、量化方式、向量精度等方面。研究发现，一些模型在减少内存占用和提高推理速度的同时，仍能保持高质量的表现。这为实际部署提供了有价值的指导。",
@@ -1188,29 +1212,5 @@
     "link": "https://www.infoworld.com/article/4115691/ai-is-causing-developers-to-abandon-stack-overflow.html",
     "date": "2026-01-12",
     "id": "17682931963612"
-  },
-  {
-    "title": "Google 移除存在危险缺陷的AI健康摘要",
-    "summary": "Google因调查发现其AI健康摘要存在严重缺陷而移除部分功能。",
-    "detail": "Google最近宣布，由于调查发现其AI健康摘要功能存在严重的安全和准确性问题，决定移除该功能的部分版本。这一决定突显了AI在医疗领域的应用需谨慎，以确保用户数据的安全和准确性。",
-    "tags": [
-      "News",
-      "Health"
-    ],
-    "link": "https://arstechnica.com/ai/2026/01/google-removes-some-ai-health-summaries-after-investigation-finds-dangerous-flaws/",
-    "date": "2026-01-12",
-    "id": "17682599015010"
-  },
-  {
-    "title": "Anthropic发布Cowork工具，无需编写代码即可使用Claude Code",
-    "summary": "Anthropic推出Cowork工具，通过聊天界面指令操作文件，无需编写代码。",
-    "detail": "Anthropic近日发布了名为Cowork的新工具，集成于Claude Desktop应用程序中。该工具允许用户指定特定文件夹供Claude读取或修改，并通过标准聊天界面提供进一步指令，无需编写任何代码即可实现复杂操作。",
-    "tags": [
-      "News",
-      "Tool"
-    ],
-    "link": "https://techcrunch.com/2026/01/12/anthropics-new-cowork-tool-offers-claude-code-without-the-code/",
-    "date": "2026-01-12",
-    "id": "17682599015011"
   }
 ]
