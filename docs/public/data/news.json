@@ -1,5 +1,65 @@
 [
   {
+    "title": "AI-Assisted Coding Best Practices with Claude Code",
+    "summary": "Claude Code最佳实践指南，涵盖工具选择、文档编写和编码规范。",
+    "detail": "本文详细介绍了如何使用Claude Code进行AI辅助编码的最佳实践，包括如何编写有效的CLAUDE.md文件，推荐的文件结构和模式，以及如何避免常见错误。此外，还提供了模板和进一步资源，帮助开发者提高代码质量和效率。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://antjanus.com/ai/claude-code-best-practices",
+    "date": "2026-01-15",
+    "id": "17684845032240"
+  },
+  {
+    "title": "AI Readability Audit of 1,500 Websites",
+    "summary": "分析发现30%网站阻止AI机器人，70%缺乏结构化数据。",
+    "detail": "通过对1,500个网站的AI可读性审计，研究发现30%的网站在robots.txt中阻止了AI机器人，而70%的网站缺乏结构化数据，导致AI搜索引擎无法有效抓取信息。文章建议实施战略性的robots.txt协议以区分搜索机器人和训练机器人，并强调了结构化数据的重要性。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://websiteaiscore.com/blog/case-study-1500-websites-ai-readability-audit",
+    "date": "2026-01-15",
+    "id": "17684845032241"
+  },
+  {
+    "title": "SkillForge：生成Anthropic Agent Skills的本地开发工具",
+    "summary": "SkillForge是一个用于创建、测试和运行Anthropic代理技能的本地工具。",
+    "detail": "SkillForge是一个本地开发工具，允许开发者通过自然语言描述生成生产级别的Anthropic代理技能。它提供了生成、验证、改进和打包技能的功能，支持Python 3.10及以上版本，适用于需要扩展Claude能力的特定任务。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://github.com/lhassa8/skillforge",
+    "date": "2026-01-15",
+    "id": "17684845032242"
+  },
+  {
+    "title": "MindCraft Studio：Mac上的本地AI图像生成工具",
+    "summary": "MindCraft Studio提供Z-Image Turbo、Flux等模型进行快速、私密的AI图像生成。",
+    "detail": "MindCraft Studio是一款专为Mac设计的专业AI图像生成工具，支持Z-Image Turbo、Flux和SDXL等多种模型，能够在Apple Silicon上高效运行。工具提供了文本转图像、图像转图像、LoRA适配器调整等功能，帮助用户实现高质量的图像创作。",
+    "tags": [
+      "New",
+      "Python"
+    ],
+    "link": "https://themindstudio.cc/mindcraft",
+    "date": "2026-01-15",
+    "id": "17684845032244"
+  },
+  {
+    "title": "TransformConf：AI在软件开发中的新会议",
+    "summary": "JetBrains宣布举办TransformConf，聚焦AI在软件开发的应用。",
+    "detail": "JetBrains宣布将于2026年举办TransformConf，这是一个专注于AI技术在软件开发领域应用的新会议。会议将涵盖AI驱动的开发流程、代码生成、测试优化等多个主题，旨在帮助开发者掌握最新的AI工具和技术。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://blog.jetbrains.com/blog/2026/01/15/transformconf-a-new-conference-on-ai-in-software-development/",
+    "date": "2026-01-15",
+    "id": "17684845032245"
+  },
+  {
     "title": "WhatsApp 排除巴西免受聊天机器人禁令",
     "summary": "WhatsApp 允许巴西用户继续使用第三方聊天机器人。",
     "detail": "WhatsApp 最近决定在巴西市场继续允许第三方聊天机器人的使用，尽管意大利的竞争监管机构要求其暂停这一政策。这一决定反映了 WhatsApp 在不同市场采取差异化策略以适应当地监管环境的做法，对全球其他市场的政策可能产生影响。",
@@ -1145,66 +1205,5 @@
     "link": "https://www.bbc.co.uk/news/live/c394zlr8e12t",
     "date": "2026-01-14",
     "id": "17683864359976"
-  },
-  {
-    "title": "AI加速代码编写，验证工作仍需人工",
-    "summary": "AI提高代码编写速度，但验证其正确性仍需人工介入。",
-    "detail": "Addy Osmani的文章探讨了AI在代码编写中的作用，指出虽然AI可以加速代码生成，但验证代码的正确性仍然是人类的责任。AI擅长生成功能代码，但在逻辑、安全性和边缘情况上容易出错，错误率比人工高出75%。因此，个人开发者依赖自动化测试，而团队则需要人工审核以确保代码质量。文章强调，只有亲眼见证代码正确运行，才能确认其功能无误。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://addyosmani.com/blog/code-review-ai/",
-    "date": "2026-01-14",
-    "id": "17683830353240"
-  },
-  {
-    "title": "AI合同审查工具：快速识别风险与建议修正",
-    "summary": "新工具利用AI快速扫描合同，标记风险并提出改进建议。",
-    "detail": "该文章介绍了一款由非律师和法律团队使用的AI合同审查工具，能够快速扫描PDF、Word等格式的合同，识别常见的法律风险，并提供基于标准模板的安全替代条款建议。工具支持离线模式，确保数据隐私。目前，该工具已测试超过50份合同，平均审查时间仅2-5分钟，准确率约为75-85%，适用于各种类型的合同。",
-    "tags": [
-      "New",
-      "LLM"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46613943",
-    "date": "2026-01-14",
-    "id": "17683830353241"
-  },
-  {
-    "title": "Vespa.ai发布嵌入式权衡量化研究",
-    "summary": "Vespa.ai研究了不同嵌入式模型的权衡，包括成本、质量和延迟。",
-    "detail": "Vespa.ai通过实验对比了多个嵌入式模型，包括参数量、量化方式、向量精度等方面。研究发现，一些模型在减少内存占用和提高推理速度的同时，仍能保持高质量的表现。这为实际部署提供了有价值的指导。",
-    "tags": [
-      "Dev",
-      "Embedding"
-    ],
-    "link": "https://blog.vespa.ai/embedding-tradeoffs-quantified/",
-    "date": "2026-01-14",
-    "id": "17683795804701"
-  },
-  {
-    "title": "AI作为娱乐的研究",
-    "summary": "探讨了生成式AI在娱乐领域的应用与前景。",
-    "detail": "该论文研究了生成式AI如何被用于娱乐目的，分析了其设计、评估和市场推广的方法。文章指出，尽管生成式AI系统主要用于实用性和效率，但在娱乐领域仍有巨大潜力。",
-    "tags": [
-      "News",
-      "AI"
-    ],
-    "link": "https://arxiv.org/abs/2601.08768",
-    "date": "2026-01-14",
-    "id": "17683795804702"
-  },
-  {
-    "title": "麦肯锡挑战毕业生使用AI聊天机器人重塑招聘流程",
-    "summary": "麦肯锡要求毕业生利用AI聊天机器人优化招聘流程。",
-    "detail": "麦肯锡公司发布了一项新的挑战，要求其毕业生在招聘过程中使用AI聊天机器人来提高效率和准确性。这项举措旨在通过技术手段革新传统的人才招聘方式，利用AI的快速处理能力和数据分析能力，帮助企业更有效地识别和筛选潜在候选人。这一举措反映了AI技术在人力资源管理领域的广泛应用趋势，未来可能会有更多的企业效仿。",
-    "tags": [
-      "News",
-      "Recruitment",
-      "AI"
-    ],
-    "link": "https://www.ft.com/content/de7855f0-f586-4708-a8ed-f0458eb25586",
-    "date": "2026-01-14",
-    "id": "17683756558840"
   }
 ]
