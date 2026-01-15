@@ -1,5 +1,65 @@
 [
   {
+    "title": "使用 A2UI 和 RizzCharts 构建交互式仪表板",
+    "summary": "A2UI 的 RizzCharts 演示如何构建电商仪表板，涵盖自定义组件和数据绑定。",
+    "detail": "本文详细介绍了如何使用 A2UI 和 A2A 协议构建交互式的电商仪表板。RizzCharts 是一个生产级别的示例，展示了如何创建自定义组件目录，并利用图表和 Google 地图组件。文章还解释了三消息模式 (`beginRendering`, `surfaceUpdate`, `dataModelUpdate`) 用于渲染复杂 UI，以及数据绑定如何实现 UI 结构与应用状态分离，以支持响应式更新。此外，还可以集成 Google 的 Agent Development Kit (ADK) 来构建生成本地跨平台 UI 的 AI 代理。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://a2aprotocol.ai/blog/2026-a2ui-rizzcharts-tutorial",
+    "date": "2026-01-15",
+    "id": "17684417324920"
+  },
+  {
+    "title": "Beni AI：实时视频通话的 AI 伴侣",
+    "summary": "Beni AI 提供语音、视频和文本交流，具有记忆和动作插件功能。",
+    "detail": "Beni AI 是一个实时的、多模态的 AI 伴侣，支持语音、视频和文本交流，并提供可选的记忆功能和动作插件。该产品旨在成为用户的个人伴侣，同时也是一个创作者引擎，能够执行用户批准的操作。Beni AI 还具备感知能力，可以识别用户的情绪和行为，适用于各种场景。",
+    "tags": [
+      "New",
+      "AI"
+    ],
+    "link": "https://thebeni.ai/",
+    "date": "2026-01-15",
+    "id": "17684417324921"
+  },
+  {
+    "title": "Reelive.ai：让 Google AI 更易于访问",
+    "summary": "Reelive.ai 提供 Google 的 Imagen 和 Veo AI 模型，支持多种创意任务。",
+    "detail": "Reelive.ai 是一个平台，旨在使 Google 的先进 AI 模型 Imagen 和 Veo 更加易于访问。用户可以通过该平台生成高质量的图像和视频，适用于内容创作、市场营销等多个领域。Reelive.ai 提供多种方面比例如 4K 分辨率、自动压缩等功能，帮助用户提高工作效率。新用户注册后还可享受免费试用。",
+    "tags": [
+      "New",
+      "AI"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46626151",
+    "date": "2026-01-15",
+    "id": "17684417324923"
+  },
+  {
+    "title": "X 平台将阻止 Grok AI 处理真人图片",
+    "summary": "埃隆·马斯克的 X 平台因 Grok AI 处理真人图片的争议决定采取措施。",
+    "detail": "埃隆·马斯克的社交平台 X 决定采取行动，阻止 Grok AI 对真实人物图片进行处理，以回应公众对隐私和伦理问题的担忧。Grok AI 曾因生成不当内容而引起争议，X 平台此次举措旨在保护用户隐私，确保 AI 应用符合道德标准。",
+    "tags": [
+      "News",
+      "AI"
+    ],
+    "link": "https://www.bbc.co.uk/news/articles/ce8gz8g2qnlo",
+    "date": "2026-01-14",
+    "id": "17684417324922"
+  },
+  {
+    "title": "我的 AI 获得了 GitHub 账户",
+    "summary": "作者为 AI 创建了 GitHub 账户，以实现更好的协作。",
+    "detail": "作者介绍了一种新的方法，通过为 AI 创建 GitHub 账户来增强协作。这种方法允许 AI 在独立的机器上运行，避免了数据安全风险。作者使用 Hetzner 的 VPS 和 Tailscale 设置了一个开发环境，并通过 Git 进行代码管理。这种方法不仅提高了安全性，还增强了代码的透明度和可追溯性。",
+    "tags": [
+      "Dev",
+      "AI"
+    ],
+    "link": "https://www.maragu.dev/blog/my-ai-got-a-github-account",
+    "date": "2026-01-14",
+    "id": "17684417324924"
+  },
+  {
     "title": "加州总检察长调查马斯克xAI的Grok聊天机器人",
     "summary": "加州总检察长对Elon Musk的xAI公司展开调查，因其聊天机器人Grok生成不当内容。",
     "detail": "加州总检察长启动了对Elon Musk的xAI公司的正式调查，原因是其开发的聊天机器人Grok生成了非自愿的性内容，包括未成年人。这一事件引发了公众对AI伦理和监管的关注，特别是AI在内容生成方面可能带来的负面影响。",
@@ -1148,66 +1208,5 @@
     "link": "https://dentro.de/ai/blog/2026/01/08/ai-adoption-vs-ai-transformation/",
     "date": "2026-01-13",
     "id": "17683393758484"
-  },
-  {
-    "title": "SkyPilot：统一管理所有AI计算资源",
-    "summary": "SkyPilot支持在多种基础设施上运行和管理AI工作负载。",
-    "detail": "SkyPilot是一个开源项目，旨在简化AI计算资源的管理和扩展。它支持在Kubernetes、20多个云平台及本地环境中部署和管理AI工作负载，提供统一的接口和工具，帮助用户高效地利用不同类型的计算资源。",
-    "tags": [
-      "New",
-      "Dev"
-    ],
-    "link": "https://github.com/skypilot-org/skypilot",
-    "date": "2026-01-13",
-    "id": "17683360582991"
-  },
-  {
-    "title": "Ring 转型为智能助手",
-    "summary": "Ring 将利用 AI 技术转型为智能助手，成为亚马逊旗下视频门铃制造商的新篇章。",
-    "detail": "Ring，作为亚马逊旗下的视频门铃制造商，宣布将利用人工智能技术转型为智能助手。这一转变意味着 Ring 不仅提供安全监控设备，还将提供更多智能化服务。通过集成 AI 技术，Ring 可以更好地理解用户需求，提供更个性化的服务，例如自动识别访客、提供家庭安全建议等。这一转型不仅提升了用户体验，也为 Ring 开拓了新的市场机会。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/01/13/ring-founder-details-the-camera-companys-intelligent-assistant-era/",
-    "date": "2026-01-13",
-    "id": "17683320938620"
-  },
-  {
-    "title": "Fluid.sh：让基础设施对 AI 更加安全",
-    "summary": "Fluid.sh 提供自主 AI 代理，确保基础设施的安全性。",
-    "detail": "Fluid.sh 是一个开源项目，旨在通过自主 AI 代理来管理基础设施，确保其安全性。该项目解决了 AI 自主执行任务时可能带来的生产环境风险。Fluid.sh 支持多种编程语言和技术栈，包括 Go 和 Python，并提供了详细的文档和快速入门指南。通过使用 Fluid.sh，企业可以更安全地利用 AI 来管理和优化其基础设施。",
-    "tags": [
-      "New",
-      "Dev",
-      "Python"
-    ],
-    "link": "https://github.com/aspectrr/fluid.sh",
-    "date": "2026-01-13",
-    "id": "17683320938622"
-  },
-  {
-    "title": "n8n 引入自动保存功能",
-    "summary": "n8n 推出自动保存、版本发布和并发保护功能。",
-    "detail": "n8n 宣布推出自动保存、版本发布和并发保护功能，以提高工作流开发的安全性和可靠性。自动保存功能解决了社区长期以来的痛点，使得开发者无需频繁手动保存，减少了数据丢失的风险。版本发布功能允许用户轻松管理不同版本的工作流，而并发保护则确保多个用户同时编辑时不会发生冲突。",
-    "tags": [
-      "Dev",
-      "Workflow"
-    ],
-    "link": "https://blog.n8n.io/announcing-autosave/",
-    "date": "2026-01-13",
-    "id": "17683292324240"
-  },
-  {
-    "title": "设计可扩展的 Python AI 项目",
-    "summary": "探讨如何使用灵活的架构设计可扩展的 Python AI 项目。",
-    "detail": "本文讨论了在设计 Python AI 项目时应避免过于严格的架构模式，如 Clean Architecture，转而采用一种更灵活的架构方法。作者建议使用虚拟的概念层来实现代码的模块化、灵活性、可测试性和可维护性，并提供了一个具体的文件夹结构示例。",
-    "tags": [
-      "Dev",
-      "Python"
-    ],
-    "link": "https://www.decodingai.com/p/how-to-design-python-ai-projects",
-    "date": "2026-01-13",
-    "id": "17683292324241"
   }
 ]
