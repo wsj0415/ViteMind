@@ -38,6 +38,26 @@ const submitResource = async () => {
         return
     }
 
+    // Sentinel Security: Validate URL Protocol (Prevent XSS)
+    try {
+        const urlToCheck = new URL(form.value.url)
+        if (!['http:', 'https:'].includes(urlToCheck.protocol)) {
+            message.value = '链接必须以 http:// 或 https:// 开头'
+            return
+        }
+
+        if (form.value.logo_url) {
+            const logoUrlToCheck = new URL(form.value.logo_url)
+            if (!['http:', 'https:'].includes(logoUrlToCheck.protocol)) {
+                message.value = 'Logo 链接必须以 http:// 或 https:// 开头'
+                return
+            }
+        }
+    } catch (e) {
+        message.value = '链接格式不正确'
+        return
+    }
+
     loading.value = true
     message.value = ''
 
