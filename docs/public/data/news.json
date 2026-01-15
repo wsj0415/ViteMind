@@ -1,5 +1,29 @@
 [
   {
+    "title": "Anthropic 推出 Cowork，打造全新协作工具",
+    "summary": "Anthropic 推出 Cowork，一款旨在自动化工作流程的协作工具。",
+    "detail": "Anthropic 最近发布了 Cowork，这是一款针对 macOS 用户的研究预览版工具，能够访问并操作计算机文件夹中的整个工作流程。尽管该工具非常实用，但也存在潜在的安全风险。Cowork 的名称选择也被认为很贴切。此外，这篇新闻还提及了 Sarah Franklin 对“数字工人”的预测，引发了关于 AI 在职场中角色的讨论。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://claude.com/blog/cowork-research-preview",
+    "date": "2026-01-15",
+    "id": "17685158149340"
+  },
+  {
+    "title": "Helios：Mac 平台的免费跨应用 AI 助手",
+    "summary": "Helios 是一个为 Mac 设计的免费系统级 AI 助手，支持快速文本处理和任务自动化。",
+    "detail": "Helios 是一个专为 Mac 用户设计的原生 AI 应用程序，旨在提高工作效率。它允许用户在任何应用程序中选择文本，通过快捷键调用 Helios 进行处理，而无需切换应用或复制粘贴。Helios 使用 Swift 编写，启动速度快，能够在不破坏格式的情况下对文本进行重写。",
+    "tags": [
+      "New",
+      "LLM"
+    ],
+    "link": "https://www.gethelios.xyz/",
+    "date": "2026-01-15",
+    "id": "17685158149341"
+  },
+  {
     "title": "GitHub 推出 AI 代码归因工具",
     "summary": "GitHub 新工具帮助区分代码是由 AI 还是人类编写。",
     "detail": "Agent Blame 是一个由 GitHub 提供的新工具，旨在帮助开发者区分代码中哪些部分是由 AI 生成的，哪些是由人类编写的。通过 CLI 和 Chrome 扩展，开发者可以在代码审查时更高效地关注 AI 生成的部分。这有助于提高代码质量和开发效率。",
@@ -841,6 +865,18 @@
     "id": "17684417324923"
   },
   {
+    "title": "WordPress 发布 WP-Bench AI 基准测试工具",
+    "summary": "WordPress 宣布推出 WP-Bench，一个用于评估 WordPress AI 插件性能的基准测试工具。",
+    "detail": "WP-Bench 是 WordPress 社区开发的一个 AI 基准测试工具，旨在帮助开发者和用户评估不同 AI 插件的性能。该工具可以提供客观的数据，帮助用户选择最适合其需求的 AI 解决方案。",
+    "tags": [
+      "Dev",
+      "AI"
+    ],
+    "link": "https://make.wordpress.org/ai/2026/01/14/introducing-wp-bench-a-wordpress-ai-benchmark/",
+    "date": "2026-01-14",
+    "id": "17685158149342"
+  },
+  {
     "title": "Google发布Titans：终结AI遗忘",
     "summary": "Google的Titans模型实现了跨百万令牌的持久记忆，开启AI记忆新时代。",
     "detail": "Google推出了名为Titans的新一代AI模型，能够跨百万令牌维持上下文记忆，这意味着AI可以保持数周甚至数月的记忆连续性。这一突破解决了传统AI模型上下文窗口大小限制的问题，通过稀疏注意力模式和分层注意力结构实现了计算效率的提升。Titans标志着AI从短暂记忆向持久记忆迈进的关键一步。",
@@ -1179,41 +1215,5 @@
     "link": "https://brittanyellich.com/ai-has-an-image-problem/",
     "date": "2026-01-14",
     "id": "17684116984220"
-  },
-  {
-    "title": "AI代理系统的安全风险",
-    "summary": "讨论了AI代理系统结合私有数据、未受信任内容和外部通信的风险。",
-    "detail": "本文强调了大型语言模型（LLM）代理系统若具备访问私有数据、接触未受信任内容和外部通信的能力时存在的安全隐患。这些功能组合可能导致数据泄露。作者指出，LLM会遵循所有输入指令，无论其来源，这增加了安全风险。",
-    "tags": [
-      "Dev",
-      "Security"
-    ],
-    "link": "https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/",
-    "date": "2026-01-14",
-    "id": "17684116984221"
-  },
-  {
-    "title": "Veritensor：AI供应链安全平台",
-    "summary": "介绍了一种用于扫描AI模型的安全工具。",
-    "detail": "Veritensor是一款专注于AI供应链安全的零信任平台，通过深度抽象语法树分析和加密签名来确保只有经过验证、安全且合规的模型才能进入生产环境。它适用于持续集成/持续部署（CI/CD）到Kubernetes运行时。",
-    "tags": [
-      "Dev",
-      "Security"
-    ],
-    "link": "https://github.com/ArseniiBrazhnyk/Veritensor",
-    "date": "2026-01-14",
-    "id": "17684116984222"
-  },
-  {
-    "title": "AIOStack：使用eBPF保护Kubernetes中的AI服务",
-    "summary": "介绍了AIOStack，一种用于增强Kubernetes中AI服务安全性的工具。",
-    "detail": "AIOStack提供全面的访问监控、数据流监控、身份安全和数据安全态势管理等功能，旨在提高AI服务的安全性和可见性。该工具无需代理即可实现零负载监控。",
-    "tags": [
-      "Dev",
-      "Security"
-    ],
-    "link": "https://aurva.io/",
-    "date": "2026-01-14",
-    "id": "17684116984223"
   }
 ]
