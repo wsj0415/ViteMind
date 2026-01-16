@@ -1,5 +1,29 @@
 [
   {
+    "title": "大型语言模型作为压缩问题",
+    "summary": "研究发现大型语言模型可能存储大量训练数据，类似于压缩技术。",
+    "detail": "近期《大西洋月刊》的一篇文章指出，大型语言模型（LLM）实际上包含了它们训练过程中接触到的大部分作品。Ahmed 等人的论文《从生产语言模型中提取书籍》展示了如何从商业LLM服务中提取受版权保护的文本材料。通过与Stable Diffusion模型类比，文章认为LLM可以被视为一种损失性文本压缩形式。研究指出，一个拥有1000亿参数的模型理论上可以存储数十万本书。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://dkg.fifthhorseman.net/blog/2025-ai-and-compression.html",
+    "date": "2026-01-16",
+    "id": "17685384917180"
+  },
+  {
+    "title": "Image FX：免费一键AI图像编辑器与生成器",
+    "summary": "Image FX提供免费AI图像编辑和生成服务，并有新年特别优惠。",
+    "detail": "Image FX是一款无需专业技能即可使用的AI图像生成平台，支持文本转图像、图像转图像等多种模式。平台提供每日免费额度，并支持4K高清输出。此外，新用户还可以享受免费积分奖励。Image FX已获得50万+创作者的信任。",
+    "tags": [
+      "Deal",
+      "AI"
+    ],
+    "link": "https://image-fx.app",
+    "date": "2026-01-16",
+    "id": "17685384917182"
+  },
+  {
     "title": "Aventos：经济实惠的AI搜索引擎分析平台",
     "summary": "Aventos 提供免费且经济实惠的AI搜索引擎分析服务，帮助企业跟踪品牌在AI搜索结果中的可见性。",
     "detail": "Aventos 是一个专注于中小企业市场的AI搜索引擎分析平台，旨在帮助这些企业在AI驱动的搜索环境中保持竞争力。传统SEO工具无法追踪AI搜索引擎的表现，导致许多企业无法了解其品牌在AI搜索结果中的存在情况。Aventos 每天多次运行数据分析，提供统计上显著的结果，并且价格极具竞争力，起价仅为每月10-15美元。该平台还提供AI驱动的内容策略功能，帮助企业根据搜索可见性生成优化后的博客内容。",
@@ -97,6 +121,18 @@
     "link": "https://redmonk.com/kholterhoff/2026/01/16/will-your-ai-teammate-bring-bagels-to-standup/",
     "date": "2026-01-16",
     "id": "17685193755046"
+  },
+  {
+    "title": "AWS DevOps Agent：从原型到产品的经验分享",
+    "summary": "AWS团队分享了将DevOps Agent从原型转变为可靠产品的关键经验。",
+    "detail": "AWS在re:Invent 2025上发布了DevOps Agent，该产品旨在解决和预防基础设施中的问题。团队详细描述了其多代理架构，包括主代理和子代理的角色分工。文章强调，虽然开发基于LLM的原型相对简单，但将其转化为适用于各种客户环境的产品则面临巨大挑战。文中分享了团队的宝贵经验，以帮助其他开发者构建类似产品。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://aws.amazon.com/blogs/devops/from-ai-agent-prototype-to-product-lessons-from-building-aws-devops-agent/",
+    "date": "2026-01-15",
+    "id": "17685384917181"
   },
   {
     "title": "Starterbase — The AI-First App Template",
@@ -1180,43 +1216,5 @@
     "link": "https://zenodo.org/records/18242108",
     "date": "2026-01-14",
     "id": "17684294637282"
-  },
-  {
-    "title": "Skild AI Raises $1.4B, Valued Over $14B",
-    "summary": "Skild AI secures $1.4B funding, valuing it at over $14B for its omni-bodied robotics foundation model.",
-    "detail": "Skild AI, an AI robotics company, has raised nearly $1.4 billion in funding, led by SoftBank Group, bringing its valuation to over $14 billion. The company is developing the Skild Brain, an industry-first unified robotics foundation model that can control various robot types without prior knowledge of their design. This advancement could revolutionize robotics by enabling machines to perform a wide range of tasks, from household chores to industrial operations, with greater flexibility and efficiency.",
-    "tags": [
-      "News",
-      "Robotics",
-      "LLM"
-    ],
-    "link": "https://www.businesswire.com/news/home/20260114335623/en/Skild-AI-Raises-%241.4B-Now-Valued-Over-%2414B",
-    "date": "2026-01-14",
-    "id": "17684257967930"
-  },
-  {
-    "title": "GitHub - Romek: Open Source SDK for AI Agent Identity and Session Management",
-    "summary": "Romek is an open-source SDK enabling persistent authentication for AI agents across websites without OAuth.",
-    "detail": "Romek is an innovative open-source SDK designed to provide secure session management for AI agents, allowing them to interact with web services seamlessly without the need for OAuth or website integration. This tool leverages implicit domain knowledge and deep expertise to manage authentication efficiently, making it a valuable resource for developers working with AI-driven applications. Romek supports various platforms and is compatible with Python 3.8+, offering a straightforward integration process.",
-    "tags": [
-      "New",
-      "Python",
-      "Dev"
-    ],
-    "link": "https://github.com/jacobgadek/romek",
-    "date": "2026-01-14",
-    "id": "17684257967931"
-  },
-  {
-    "title": "Harmony：Discord 的 AI 笔记助手",
-    "summary": "Harmony 是一款用于 Discord 的 AI 笔记助手，支持自动录音、转录和摘要。",
-    "detail": "Harmony 是一款专为 Discord 设计的 AI 笔记助手，能够自动化录音、转录会议内容，并生成智能摘要。它支持多语言和多种频道，提供发言人分析、对话聊天等功能，帮助用户更高效地利用 Discord 通话记录。通过简单的命令即可加入和停止录音，轻松获取详细的会议分析。",
-    "tags": [
-      "New",
-      "LLM"
-    ],
-    "link": "https://harmonynotetaker.ai/",
-    "date": "2026-01-14",
-    "id": "17684222537290"
   }
 ]
