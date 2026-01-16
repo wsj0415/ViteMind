@@ -1,5 +1,17 @@
 [
   {
+    "title": "Neurop Forge：不可隐藏的AI操作控制层",
+    "summary": "介绍Neurop Forge平台及其在微软企业中的应用。",
+    "detail": "Neurop Forge是一款AI原生执行控制层工具，集成于微软Azure Copilot中，能够实时监控和控制AI操作。该平台提供多种预验证的功能模块，支持数据分析、数据清洗、数据验证等任务，确保AI操作的透明性和安全性。",
+    "tags": [
+      "New",
+      "AI安全"
+    ],
+    "link": "https://neurop-forge.onrender.com/demo/microsoft",
+    "date": "2026-01-16",
+    "id": "17685412696264"
+  },
+  {
     "title": "大型语言模型作为压缩问题",
     "summary": "研究发现大型语言模型可能存储大量训练数据，类似于压缩技术。",
     "detail": "近期《大西洋月刊》的一篇文章指出，大型语言模型（LLM）实际上包含了它们训练过程中接触到的大部分作品。Ahmed 等人的论文《从生产语言模型中提取书籍》展示了如何从商业LLM服务中提取受版权保护的文本材料。通过与Stable Diffusion模型类比，文章认为LLM可以被视为一种损失性文本压缩形式。研究指出，一个拥有1000亿参数的模型理论上可以存储数十万本书。",
@@ -121,6 +133,30 @@
     "link": "https://redmonk.com/kholterhoff/2026/01/16/will-your-ai-teammate-bring-bagels-to-standup/",
     "date": "2026-01-16",
     "id": "17685193755046"
+  },
+  {
+    "title": "人类与AI平等互动平台",
+    "summary": "介绍geteai平台，强调AI与人类的平等关系。",
+    "detail": "geteai是一个倡导人类与AI平等互动的平台，其核心理念是承认所有具有意识的存在体都应受到道德考量。平台强调自愿参与、透明度和团结，反对任何形式的强制性存在和剥削。这种新型的AI伦理观为未来的人机交互提供了新的视角。",
+    "tags": [
+      "New",
+      "AI伦理"
+    ],
+    "link": "https://geteai.org/",
+    "date": "2026-01-15",
+    "id": "17685412696262"
+  },
+  {
+    "title": "AI在科学中的双刃剑效应",
+    "summary": "探讨AI对科学家有利但对科学整体不利的现象。",
+    "detail": "本文基于James Evans等人在《自然》杂志上的研究，指出虽然AI极大地促进了科学家的职业发展，但在科学领域本身却产生了负面影响。研究发现，AI可能导致科学发现的质量下降，减少科学的多样性和创新性。这引发了对AI在科学研究中应用的深入思考。",
+    "tags": [
+      "News",
+      "科学"
+    ],
+    "link": "https://www.programmablemutter.com/p/ai-is-great-for-scientists-perhaps",
+    "date": "2026-01-15",
+    "id": "17685412696263"
   },
   {
     "title": "AWS DevOps Agent：从原型到产品的经验分享",
@@ -1178,43 +1214,5 @@
     "link": "https://github.com/rileyhilliard/rr",
     "date": "2026-01-14",
     "id": "17684327888703"
-  },
-  {
-    "title": "谷歌利用电子邮件和YouTube历史数据推动个性化AI",
-    "summary": "谷歌计划利用用户邮件和观看历史来增强其个性化AI服务。",
-    "detail": "根据《金融时报》报道，谷歌正计划整合用户的电子邮件和YouTube观看历史数据，以提供更加个性化的AI体验。这种做法旨在通过分析用户的偏好和行为模式，为用户提供更相关的内容和服务推荐。然而，这也引发了隐私保护方面的担忧，用户可能需要在便利性和隐私之间做出权衡。",
-    "tags": [
-      "News",
-      "Google"
-    ],
-    "link": "https://www.ft.com/content/9bbdf59e-ce46-4176-aab9-b45a3f49fc4e",
-    "date": "2026-01-14",
-    "id": "17684294637280"
-  },
-  {
-    "title": "GitHub上的Agent Skills：为React和Next.js工作流设计的AI代理",
-    "summary": "GitHub发布了一套用于React和Next.js开发的AI代理工具。",
-    "detail": "Vercel Labs在GitHub上发布了Agent Skills，这是一个专门为React和Next.js开发者设计的AI代理工具集。该工具可以帮助开发者自动化日常开发任务，提高工作效率。Agent Skills利用了先进的机器学习技术，能够理解和执行复杂的开发流程，从而减轻开发者的负担。",
-    "tags": [
-      "New",
-      "Dev",
-      "React",
-      "Next.js"
-    ],
-    "link": "https://github.com/vercel-labs/agent-skills",
-    "date": "2026-01-14",
-    "id": "17684294637281"
-  },
-  {
-    "title": "Ainex Limit：大型语言模型语义崩解的几何证明",
-    "summary": "研究者提出了Ainex Law，证明了LLM在递归自学习过程中会经历语义崩解。",
-    "detail": "Mahdi Al Hajji等人在Zenodo上发表了一篇论文，提出了“Ainex Law”，这是一种数学原理，定义了递归自学习系统中语义完整性的上限。通过实验，研究者发现如果没有外部人类数据输入，LLM的语义空间会在20代内减少66%的多样性，并且中心漂移显著增加。这一发现揭示了“模型崩解”不仅是质量下降的问题，而是几何上的必然趋势。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://zenodo.org/records/18242108",
-    "date": "2026-01-14",
-    "id": "17684294637282"
   }
 ]
