@@ -1,5 +1,31 @@
 [
   {
+    "title": "WatchLLM - 调试AI代理的工具",
+    "summary": "WatchLLM 提供了逐步调试和成本归因功能，帮助优化AI代理。",
+    "detail": "WatchLLM 是一个专为调试AI代理设计的工具，解决了两个主要问题：一是调试复杂决策链的过程繁琐；二是代理运行成本难以控制。该工具提供时间线视图，详细记录每一步操作及其成本，并能检测异常行为，如循环调用和高成本步骤。WatchLLM 支持多种大型语言模型（LLM），包括OpenAI、Anthropic和Groq，并且通过语义缓存技术可将LLM费用降低40-70%。目前免费提供每月5万次请求额度。",
+    "tags": [
+      "Dev",
+      "Debugging",
+      "Cost Control"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46645117",
+    "date": "2026-01-16",
+    "id": "17685624692700"
+  },
+  {
+    "title": "SnapCan - 在全球任意地点生成AI旅行照片",
+    "summary": "SnapCan 应用允许用户上传照片并通过AI技术生成不同地点的虚拟旅行照。",
+    "detail": "SnapCan 是一款iOS应用，利用AI技术让用户无需实际旅行就能获得世界各地的虚拟旅行照片。用户只需选择目的地并上传个人照片，SnapCan 会自动生成高质量的旅行纪念照。该应用特别适用于希望分享旅行经历但又受限于时间和预算的人群，支持全球多个著名旅游景点。",
+    "tags": [
+      "New",
+      "Travel",
+      "AI Photo"
+    ],
+    "link": "https://snapcan.app/",
+    "date": "2026-01-16",
+    "id": "17685624692701"
+  },
+  {
     "title": "AI 对机构的影响研究",
     "summary": "Woodrow Hartzog 和 Jessica M. Silbey 探讨了 AI 如何破坏传统机构。",
     "detail": "这篇论文《How AI Destroys Institutions》由 Woodrow Hartzog 和 Jessica M. Silbey 撰写，深入探讨了人工智能技术对现有社会和经济机构的潜在破坏性影响。研究指出，AI 的广泛应用可能会导致传统职业的消失、权力结构的变化以及法律和监管框架的失效。这些变化可能引发一系列社会问题，包括失业率上升、隐私泄露风险增加以及社会不平等加剧。论文通过案例分析和理论模型，为理解 AI 技术对社会的影响提供了新的视角。",
@@ -277,6 +303,19 @@
     "link": "https://redmonk.com/kholterhoff/2026/01/16/will-your-ai-teammate-bring-bagels-to-standup/",
     "date": "2026-01-16",
     "id": "17685193755046"
+  },
+  {
+    "title": "Wikimedia 与多家公司合作",
+    "summary": "Wikimedia 宣布与Amazon、Meta等企业建立合作伙伴关系，以庆祝维基百科25周年。",
+    "detail": "Wikimedia 宣布了一系列新的企业合作伙伴，包括Amazon、Meta、Microsoft、Mistral AI和Perplexity，以庆祝维基百科成立25周年。此次合作旨在通过提供企业级API和服务，增强维基媒体的内容分发和数据访问能力。合作伙伴将共同推动知识共享和技术进步，为企业用户提供更丰富的维基媒体内容。",
+    "tags": [
+      "News",
+      "Partnership",
+      "Enterprise"
+    ],
+    "link": "https://enterprise.wikimedia.com/blog/wikipedia-25-enterprise-partners/",
+    "date": "2026-01-15",
+    "id": "17685624692703"
   },
   {
     "title": "Ubuntu Server 文档修复实验：LLM 的挑战",
@@ -1178,41 +1217,5 @@
     "link": "https://news.ycombinator.com/item?id=46627941",
     "date": "2026-01-15",
     "id": "17684521463102"
-  },
-  {
-    "title": "Airbnb任命Meta AI高管为首席技术官",
-    "summary": "Airbnb聘请Meta AI的高管担任新任首席技术官。",
-    "detail": "Airbnb宣布任命来自Meta AI的高管为新的首席技术官。这位高管在AI领域的丰富经验和专业知识将有助于推动Airbnb的技术创新和数字化转型。Meta AI以其在机器学习、计算机视觉和自然语言处理等方面的研究而闻名，此次任命预计将为Airbnb带来先进的AI技术和解决方案，进一步增强其在共享经济领域的竞争力。",
-    "tags": [
-      "News",
-      "AI"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-01-14/airbnb-taps-meta-ai-executive-as-new-chief-technology-officer",
-    "date": "2026-01-15",
-    "id": "17684521463103"
-  },
-  {
-    "title": "Satya - 离线AI学习伴侣",
-    "summary": "Satya 是一个离线AI学习助手，使用Phi-1.5和RAG模型。",
-    "detail": "Satya 是一款专为农村学校设计的AI学习伴侣，采用Microsoft的Phi-1.5模型和RAG技术，能够在没有网络连接的情况下提供教育支持。其高效性和智能性使其能够处理复杂问题，并适应不同规模的教室环境。",
-    "tags": [
-      "Dev",
-      "AI"
-    ],
-    "link": "https://github.com/aa-sikkkk/satya",
-    "date": "2026-01-15",
-    "id": "17684485615451"
-  },
-  {
-    "title": "Tickk - 免费语音生产力应用",
-    "summary": "Tickk 是一个无需注册的语音转文字生产力工具。",
-    "detail": "Tickk 是一个先进的语音转文字应用，支持99%的准确率，具有本地处理能力，保护用户隐私。它支持多平台使用，并且可以在离线状态下工作，适用于会议记录、任务管理等多种场景。",
-    "tags": [
-      "Dev",
-      "Voice"
-    ],
-    "link": "https://tickk.app/",
-    "date": "2026-01-15",
-    "id": "17684485615452"
   }
 ]
