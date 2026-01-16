@@ -1,5 +1,41 @@
 [
   {
+    "title": "AI热潮的真相",
+    "summary": "探讨了程序员对AI的不同看法，以及LLM在编程中的应用争议。",
+    "detail": "本文深入分析了当前AI热潮下，程序员对于LLM（大型语言模型）在编程中的应用存在巨大分歧。一些程序员认为LLM能够显著提高编程效率，而另一些则持怀疑态度，认为其在复杂任务上的表现不佳。作者通过引用专家观点和自身经验，详细阐述了这种分歧的原因，并指出双方可能生活在不同的技术现实之中。这引发了关于LLM未来角色的广泛讨论。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://sealedabstract.com/posts/AI-hype/",
+    "date": "2026-01-16",
+    "id": "17685912512480"
+  },
+  {
+    "title": "SkyVM：为AI代理设计的即时启动云VM",
+    "summary": "SkyVM允许开发者快速创建和共享AI驱动的虚拟机。",
+    "detail": "Dioxus Labs推出了SkyVM，一种用于开发者的平台，能够快速生成AI驱动的虚拟机。SkyVM支持即时启动、快照和回滚功能，适用于多种操作系统，并允许从GitHub等源直接部署。该平台旨在解决传统本地开发环境的不便，为未来的自主软件开发提供强大支持。",
+    "tags": [
+      "New",
+      "AI"
+    ],
+    "link": "https://skyvm.dev/blog/introducing-skyvm",
+    "date": "2026-01-16",
+    "id": "17685912512482"
+  },
+  {
+    "title": "IBM警告：AI投资失败缺乏AI素养",
+    "summary": "IBM强调AI素养的重要性，指出缺乏AI知识会导致AI项目失败。",
+    "detail": "IBM警告称，仅投入资金而不具备AI素养将导致大多数AI项目无法产生预期价值。IBM工程师Phaedra Boinodiris和NC州立大学的数据科学与AI学院执行主任Rachel Levy指出，AI应被视为一系列嵌入日常工具的技术，而非单一实体。他们倡导全面推广数据科学和AI教育，以确保社会各界都能安全、有效地利用AI。",
+    "tags": [
+      "News",
+      "AI"
+    ],
+    "link": "https://www.thedeepview.com/articles/ibm-warns-ai-spend-fails-without-ai-literacy",
+    "date": "2026-01-16",
+    "id": "17685912512483"
+  },
+  {
     "title": "MobAI 发布：面向 iOS 和 Android 的 AI 驱动移动自动化工具",
     "summary": "MobAI 提供免费的跨平台移动自动化解决方案，加速移动应用开发。",
     "detail": "MobAI 是一款适用于 macOS、Windows 和 Linux 的 AI 驱动移动自动化工具，支持 Android 和 iOS 设备的控制和测试。通过集成 Claude Code 和其他 AI 代理，MobAI 可以实现快速的移动应用开发。其核心功能包括 MCP 服务器、HTTP API 和视觉反馈循环，支持设备的自动检测和设置，确保数据本地化处理。MobAI 的发布为开发者提供了高效、便捷的移动自动化解决方案。",
@@ -1185,41 +1221,5 @@
     "link": "https://gmays.com/ai-should-write-50-of-your-code/",
     "date": "2026-01-15",
     "id": "17684872241093"
-  },
-  {
-    "title": "Materials Project 利用 AI 推动材料科学革命",
-    "summary": "Materials Project 通过 AI 工具加速材料科学发现，已超过 32,000 次引用。",
-    "detail": "Materials Project 是美国劳伦斯伯克利国家实验室的一项研究项目，提供世界上最大的材料数据集和分析工具。该项目已被引用超过 32,000 次，每天有超过 5,000 次访问，用户超过 650,000 人。通过 AI 技术，Materials Project 正在推动电池、量子计算等领域的快速发展。",
-    "tags": [
-      "News",
-      "Materials Science"
-    ],
-    "link": "https://newscenter.lbl.gov/2026/01/13/accelerating-discovery-how-the-materials-project-is-helping-to-usher-in-the-ai-revolution-for-materials-science/",
-    "date": "2026-01-15",
-    "id": "17684872241094"
-  },
-  {
-    "title": "AI-Assisted Coding Best Practices with Claude Code",
-    "summary": "Claude Code最佳实践指南，涵盖工具选择、文档编写和编码规范。",
-    "detail": "本文详细介绍了如何使用Claude Code进行AI辅助编码的最佳实践，包括如何编写有效的CLAUDE.md文件，推荐的文件结构和模式，以及如何避免常见错误。此外，还提供了模板和进一步资源，帮助开发者提高代码质量和效率。",
-    "tags": [
-      "Dev",
-      "Python"
-    ],
-    "link": "https://antjanus.com/ai/claude-code-best-practices",
-    "date": "2026-01-15",
-    "id": "17684845032240"
-  },
-  {
-    "title": "AI Readability Audit of 1,500 Websites",
-    "summary": "分析发现30%网站阻止AI机器人，70%缺乏结构化数据。",
-    "detail": "通过对1,500个网站的AI可读性审计，研究发现30%的网站在robots.txt中阻止了AI机器人，而70%的网站缺乏结构化数据，导致AI搜索引擎无法有效抓取信息。文章建议实施战略性的robots.txt协议以区分搜索机器人和训练机器人，并强调了结构化数据的重要性。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://websiteaiscore.com/blog/case-study-1500-websites-ai-readability-audit",
-    "date": "2026-01-15",
-    "id": "17684845032241"
   }
 ]
