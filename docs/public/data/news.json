@@ -12,6 +12,30 @@
     "id": "17686847965861"
   },
   {
+    "title": "Agent Blame：基于 Git 的 AI 代码归因工具",
+    "summary": "Agent Blame 使用 Git 注释来区分代码行是由 AI 还是人类编写的。",
+    "detail": "Agent Blame 是一个开源工具，旨在帮助开发者追踪代码库中由 AI 和人类分别编写的代码行。通过 CLI 和 Chrome 扩展，开发者可以直观地在 GitHub PR 中看到哪些代码行是由 AI 生成的。这有助于提高代码审查的效率和准确性，特别是在团队大量使用 AI 工具的情况下。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://github.com/mesa-dot-dev/agentblame",
+    "date": "2026-01-17",
+    "id": "17686884604800"
+  },
+  {
+    "title": "SutraAI：轻量级 AI 代理框架",
+    "summary": "SutraAI 是一个轻量级的开源框架，用于编排 AI 代理管道。",
+    "detail": "SutraAI 是一个专为开发者设计的轻量级 AI 框架，支持离线执行和小到中型语言模型的序列化。它提供了简单的 Python 工作流，旨在成为像 LangChain 这样的重型框架的替代方案。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://github.com/SutraLabs/sutra",
+    "date": "2026-01-17",
+    "id": "17686884604803"
+  },
+  {
     "title": "Hydra - 连接您的 playbook 到任何 AI 代理",
     "summary": "Hydra 提供了一种创建和共享 AI playbook 的工具，适用于多种 AI 助手。",
     "detail": "Hydra 是一个强大的平台，允许用户创建一次性的 AI playbook，并在不同的 AI 助手中使用。其主要功能包括拖放构建器、社区共享、跨平台兼容性、快速执行和企业级安全性。这使得团队能够自动化重复任务，提高效率。",
@@ -1181,29 +1205,5 @@
     "link": "https://pavo.studio-hedera.com/",
     "date": "2026-01-16",
     "id": "17685707574304"
-  },
-  {
-    "title": "JTPCK 发布 AI 使用量排行榜",
-    "summary": "JTPCK 提供 Claude Code 等模型的免费使用量仪表盘。",
-    "detail": "JTPCK 平台通过收集来自 Claude Code、Codex 和 Gemini CLI 的 OpenTelemetry 数据，为用户提供免费的 AI 使用量仪表盘，并提供可选的用户自有 API 端点。该平台帮助开发者实时监控 AI 使用情况，无需构建自定义遥测管道。",
-    "tags": [
-      "Dev",
-      "AI"
-    ],
-    "link": "https://jtpck.com/leaderboard",
-    "date": "2026-01-16",
-    "id": "17685677053490"
-  },
-  {
-    "title": "AI 代理与工作流：图谱视角",
-    "summary": "现代 AI 代理多为有向图结构，介于纯工作流和完全自主代理之间。",
-    "detail": "本文讨论了 AI 代理的结构，指出其核心为节点（动作、LLM 调用等）和边（路由逻辑）。文章分析了当前 AI 系统从纯工作流到自主代理的发展趋势，并提出了逐步增加代理行为的建议。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://www.webguideplus.com/2026/01/ai-agents-vs-workflows-why-llm-agents.html",
-    "date": "2026-01-16",
-    "id": "17685677053492"
   }
 ]
