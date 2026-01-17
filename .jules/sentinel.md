@@ -14,3 +14,8 @@
 **Vulnerability:** The "Submit Tool" modal allowed any string in the "Link" field, enabling XSS via `javascript:` URIs if approved or stored in local storage.
 **Learning:** Frontend forms feeding into a database/storage must validate data type and format (Protocol Whitelisting) before persistence, even if there is a manual approval process.
 **Prevention:** Enforce strict URL protocol validation (`http:`, `https:`) at the input stage.
+
+## 2025-01-29 - Insecure Public Delete (Table Wiping Risk)
+**Vulnerability:** The `user_favorites` table allowed `DELETE` via RLS with `USING (true)`, enabling any anonymous user to wipe the entire table.
+**Learning:** For anonymous features (Guestbook, Favorites) where users are identified by client-side UUIDs, standard RLS policies (`auth.uid() = user_id`) cannot be used. Falling back to `USING (true)` is catastrophic for `DELETE` operations.
+**Prevention:** Use `SECURITY DEFINER` RPC functions for sensitive operations on anonymous data. This allows enforcing logic (e.g. `WHERE user_id = X AND news_id = Y`) that simple boolean RLS policies cannot express safely without authentication.
