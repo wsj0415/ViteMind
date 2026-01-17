@@ -1,5 +1,41 @@
 [
   {
+    "title": "CodeSyncer：多仓库协作系统",
+    "summary": "CodeSyncer 是一个 AI 助力的多仓库协作系统，提升编码上下文持久性和架构同步。",
+    "detail": "CodeSyncer 是一个由 bitjaru 开发的 CLI 工具，旨在解决在真实项目中使用 AI 时遇到的问题，如上下文丢失和推理不准确。它通过存储 AI 编码上下文到代码注释中，实现持久项目上下文、可控推理和实时架构同步，特别适用于 Claude Code。CodeSyncer 支持 npm 安装，并且在 GitHub 上获得了一定的关注。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://github.com/bitjaru/codesyncer",
+    "date": "2026-01-17",
+    "id": "17686273368450"
+  },
+  {
+    "title": "LILITH：开源 90 天天气预测模型",
+    "summary": "LILITH 是一个基于开源数据的长程智能天气预测模型，可在消费级 GPU 上运行。",
+    "detail": "LILITH 是一个开源的机器学习驱动的 90 天天气预测工具，利用 150 年的公共 GHCN 数据进行训练，并能在单个 GPU 上运行。该项目使用 Python 和 PyTorch 构建，旨在提供可靠的长期天气预报。LILITH 的设计灵感来源于古代风暴女神 Lilitu，强调了其在气象预测领域的智能与力量。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://github.com/consigcody94/lilith",
+    "date": "2026-01-17",
+    "id": "17686273368451"
+  },
+  {
+    "title": "Humanizer AI：个性化 AI 文本生成工具",
+    "summary": "Creaibo 提供 Humanizer AI，能够将机器人文本转换为个性化、自然的人类声音。",
+    "detail": "Creaibo 的 Humanizer AI 是一款先进的文本生成工具，能够将 AI 生成的内容转化为具有个人风格的文本。用户可以通过上传自己的作品来训练 AI，使其理解用户的独特风格、语气和标点习惯。该工具还支持快速头脑风暴、多平台内容分析以及一键生成高质量的多媒体内容，非常适合创意专业人士。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://www.creaibo.net",
+    "date": "2026-01-17",
+    "id": "17686273368452"
+  },
+  {
     "title": "Creaibo 推出 Humanizer AI：个性化 AI 文本生成工具",
     "summary": "Creaibo 推出 Humanizer AI，将机器人文本转换为个性化的、听起来像你的内容。",
     "detail": "Creaibo 是一家提供高级 Humanizer AI 的公司，该技术可以将机器人生成的文本转换为个性化的内容，使其听起来完全像是你本人创作的。用户可以通过上传自己的作品来训练 AI 识别你的独特声音、语气和标点习惯。Humanizer AI 还能够快速地从各种来源输入词语或链接，并将其转化为有组织的、听起来非常自然的想法。此外，它还能够分析多个平台上的灵感内容，并根据你的写作风格生成内容。最后，用户可以一键将脚本转换为可发布的最终内容，包括语音旁白、背景音乐、音效、图像和视频。",
@@ -1180,43 +1216,5 @@
     "link": "https://bloghunter.se/",
     "date": "2026-01-15",
     "id": "17685051896871"
-  },
-  {
-    "title": "哈佛开设首个AI安全课程",
-    "summary": "哈佛大学开设了首个AI安全课程，旨在培养相关人才。",
-    "detail": "哈佛大学首次开设了专门的AI安全课程，由Boaz Barak教授主持。该课程旨在教授学生如何理解和应对AI带来的安全挑战。课程内容包括重要AI安全论文的复现以及学生自己的研究项目，为未来AI安全领域的专家培养提供了宝贵资源。",
-    "tags": [
-      "Dev",
-      "AI安全"
-    ],
-    "link": "https://www.lesswrong.com/posts/gcFB2RT5vpKHbH4ic/reflections-on-ta-ing-harvard-s-first-ai-safety-course",
-    "date": "2026-01-15",
-    "id": "17685051896873"
-  },
-  {
-    "title": "OptiMind：微软发布的优化研究模型",
-    "summary": "微软发布了OptiMind，一种用于优化问题的语言模型。",
-    "detail": "微软推出了OptiMind，这是一种专门设计用于优化问题的语言模型。OptiMind能够将自然语言描述的问题直接转换为求解器可用的数学模型，极大地简化了优化流程中的关键步骤。该模型在Hugging Face上开源，供研究人员和开发者探索和使用。",
-    "tags": [
-      "Dev",
-      "Hugging Face",
-      "LLM"
-    ],
-    "link": "https://huggingface.co/blog/microsoft/optimind",
-    "date": "2026-01-15",
-    "id": "17685051896874"
-  },
-  {
-    "title": "Mozilla.ai 发布 LLM 性能监控平台",
-    "summary": "Mozilla.ai 推出 any-llm 平台，提供加密 API 密钥管理和成本跟踪。",
-    "detail": "Mozilla.ai 推出了 any-llm 管理平台，旨在为开发者提供安全、加密的 LLM API 密钥管理，并支持跨多个提供商的成本跟踪和预算设置。该平台基于 any-llm 库，允许用户集中管理密钥并自动捕获使用分析，避免供应商锁定问题。",
-    "tags": [
-      "New",
-      "LLM",
-      "Python"
-    ],
-    "link": "https://blog.mozilla.ai/secure-your-keys-track-your-costs-any-llm-managed-platform-enters-open-beta/",
-    "date": "2026-01-15",
-    "id": "17685023132890"
   }
 ]
