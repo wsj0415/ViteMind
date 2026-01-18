@@ -1,5 +1,67 @@
 [
   {
+    "title": "AI调试器：多语言智能调试接口",
+    "summary": "AI Debugger 提供了多语言智能调试接口，支持 Python、JavaScript、TypeScript 和 Java。",
+    "detail": "AI Debugger (AIDB) 是一个程序化、语言无关的调试接口，为 AI 代理提供强大的调试功能。通过标准化的 Model Context Protocol (MCP) 接口，AIDB 将调试适配协议（DAP）生态系统引入到 AI 代理中。该工具支持多种编程语言，包括 Python、JavaScript、TypeScript 和 Java，帮助开发者高效地进行代码调试。",
+    "tags": [
+      "Dev",
+      "Python",
+      "JavaScript"
+    ],
+    "link": "https://github.com/ai-debugger-inc/aidb",
+    "date": "2026-01-18",
+    "id": "17687014443110"
+  },
+  {
+    "title": "构建自己的AI编码代理：完整指南",
+    "summary": "这是一份详细的视频指南，教你如何从头开始构建自己的AI编码代理。",
+    "detail": "这份视频指南由 Rivaan Ranawat 提供，详细介绍了如何构建自己的AI编码代理。从基础概念到实际实现，涵盖了所有必要的步骤，帮助你掌握如何利用AI技术提高编码效率。",
+    "tags": [
+      "Dev",
+      "Tutorial"
+    ],
+    "link": "https://www.youtube.com/watch?v=3GjE_YAs03s",
+    "date": "2026-01-18",
+    "id": "17687014443112"
+  },
+  {
+    "title": "BioNeMo平台加速AI驱动的药物发现",
+    "summary": "NVIDIA 的 BioNeMo 平台被生命科学领导者采用，以加速AI驱动的药物发现。",
+    "detail": "NVIDIA 的 BioNeMo 平台提供了先进的计算能力，支持复杂的数据分析和建模任务，加速了AI在药物发现领域的应用。通过优化的算法和高性能的计算资源，BioNeMo 能够显著提高药物研发的效率和成功率。",
+    "tags": [
+      "News",
+      "AI in Healthcare"
+    ],
+    "link": "https://nvidianews.nvidia.com/news/nvidia-bionemo-platform-adopted-by-life-sciences-leaders-to-accelerate-ai-driven-drug-discovery",
+    "date": "2026-01-18",
+    "id": "17687014443113"
+  },
+  {
+    "title": "StateSet Sandbox：Claude Code 的 AI 沙盒环境",
+    "summary": "StateSet 提供了一个安全可靠的AI沙盒环境，支持Claude Code CLI和多种编程语言。",
+    "detail": "StateSet Sandbox 是一个用于运行AI代理工作流的隔离Kubernetes环境，支持Claude Code CLI和Node、Python等SDK。该平台提供了快速预热的pod池、安全的容器运行时以及可靠的文件I/O和命令执行功能，适用于需要高性能和安全性的AI应用场景。",
+    "tags": [
+      "Dev",
+      "Python",
+      "Node.js"
+    ],
+    "link": "https://sandbox.stateset.app",
+    "date": "2026-01-18",
+    "id": "17687014443114"
+  },
+  {
+    "title": "Gollem：用于智能AI应用的Go框架",
+    "summary": "Gollem 是一个用于构建智能AI应用的Go框架，支持MCP协议和内置工具。",
+    "detail": "Gollem 是一个专为Go语言设计的框架，用于构建智能AI应用。它提供了统一的接口来查询大型语言模型（LLM）服务，并支持多种LLM服务，包括Gemini、Anthropic Claude和OpenAI。Gollem 还提供了自动会话管理、智能内存管理和中间件系统等功能，帮助开发者更高效地构建和部署AI应用。",
+    "tags": [
+      "Dev",
+      "Go"
+    ],
+    "link": "https://github.com/m-mizutani/gollem",
+    "date": "2026-01-18",
+    "id": "17687014443115"
+  },
+  {
     "title": "AI 泡沫引发过去崩溃预测再现",
     "summary": "一些预测者认为当前 AI 热潮可能重蹈过去泡沫破裂的覆辙。",
     "detail": "华盛顿邮报的一篇文章指出，随着 AI 投资和应用的激增，一些行业观察者和专家开始担忧 AI 泡沫的形成。他们认为这可能类似于过去科技泡沫的情况，最终导致市场崩溃。文章分析了当前 AI 发展的趋势，并探讨了潜在的风险因素。",
@@ -1145,65 +1207,5 @@
     "link": "https://www.aivojournal.org/when-ai-becomes-a-de-facto-corporate-spokesperson/",
     "date": "2026-01-16",
     "id": "17685771956653"
-  },
-  {
-    "title": "Context-Aware AI Assistant for macOS 发布",
-    "summary": "TheQuickFox 是一款开源的 macOS 上下文感知 AI 助手。",
-    "detail": "TheQuickFox 是一个开源的 macOS 应用程序，能够理解当前屏幕上的上下文信息，并通过快捷键提供即时答案。这款助手适用于文档、网站、代码和电子邮件等多种场景，无需用户额外解释上下文。TheQuickFox 只在用户请求时运行，确保隐私安全。",
-    "tags": [
-      "New",
-      "LLM"
-    ],
-    "link": "https://www.thequickfox.ai/",
-    "date": "2026-01-16",
-    "id": "17685735480100"
-  },
-  {
-    "title": "Agent Skills 改变了我与 AI 的工作方式",
-    "summary": "Agent Skills 提供了一种将个人经验注入 AI 的方法。",
-    "detail": "Agent Skills 是一种可重用的指令和资源，可以教会 AI 如何完成特定任务。这些技能可以通过简单的 Markdown 文件创建，也可以包含复杂的模板、参考文档和脚本。通过这种方式，用户可以将自己的专业知识和偏好传递给 AI，使其更好地适应具体的工作需求。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://everything.intellectronica.net/p/agent-skills-changed-how-i-work-with",
-    "date": "2026-01-16",
-    "id": "17685735480101"
-  },
-  {
-    "title": "探索 7 款鲜为人知的 VS Code AI 编码扩展",
-    "summary": "介绍了 7 款不常见的 VS Code 扩展，增强 AI 编码能力。",
-    "detail": "本文探讨了 7 款鲜为人知的 VS Code 扩展，旨在提升开发者的编码效率和质量。这些扩展利用 AI 技术提供代码建议、自动补全、代码审查等功能，帮助开发者更高效地完成工作。",
-    "tags": [
-      "Dev",
-      "Python"
-    ],
-    "link": "https://diploi.com/blog/exploring-7-lesser-known-ai-coding-extensions",
-    "date": "2026-01-16",
-    "id": "17685735480102"
-  },
-  {
-    "title": "使用 AI 作为设计工程师",
-    "summary": "探讨如何在设计工程中利用 AI 提高效率和准确性。",
-    "detail": "本文介绍了作者如何在设计工程中使用 AI 来提高工作效率。通过结合 AI 工具，作者能够在短时间内验证设计概念，减少试错时间，并保持创意流程的流畅性。文章详细介绍了具体的 AI 工具和使用方法，包括 Figma MCP 和不同的代理模式。",
-    "tags": [
-      "Dev",
-      "AI"
-    ],
-    "link": "https://jakub.kr/work/using-ai-as-a-design-engineer",
-    "date": "2026-01-16",
-    "id": "17685707574300"
-  },
-  {
-    "title": "人类参与的循环自动化",
-    "summary": "介绍如何构建 AI 工作流以保持人类对关键决策的控制。",
-    "detail": "该指南详细解释了人类参与的循环（HITL）自动化的重要性，特别是在需要精确判断的任务中。通过在工作流中设置检查点，可以确保 AI 的决策既高效又准确，避免潜在的风险和错误。文章还提供了在 n8n 中实现 HITL 自动化的具体步骤和示例。",
-    "tags": [
-      "Dev",
-      "Automation"
-    ],
-    "link": "https://blog.n8n.io/human-in-the-loop-automation/",
-    "date": "2026-01-16",
-    "id": "17685707574301"
   }
 ]
