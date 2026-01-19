@@ -1,5 +1,29 @@
 [
   {
+    "title": "AI原生工程实践：拥抱AI对编程的影响",
+    "summary": "团队通过实践发现LLM开发效率提升，但需要新的协作方法，包括停止CI和代码审查，全面采用AI配对编程。",
+    "detail": "过去几个月，作者带领团队对AI开发工具进行了密集迭代，验证了一些反直觉的发现。核心结论是大语言模型（LLM）的开发效率、能力和质量得到了充分证明。然而，要最大化其价值，需要采用正确的协作方法。团队逐渐停止了持续集成（CI）管道，放弃了手动代码审查，全面拥抱AI配对编程。这种转变并非懒惰，而是通过实践找到的更有效的做法。文章详细记录了这一过程中的成功与失败案例。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://www.arcblock.io/blog/en/first-principles-of-ai-native-engineering",
+    "date": "2026-01-19",
+    "id": "17688117520020"
+  },
+  {
+    "title": "RouterLab：开源AI API，瑞士托管",
+    "summary": "介绍了一款开源AI API平台，支持多种模型，并提供快速集成和欧洲托管服务。",
+    "detail": "RouterLab 提供了一个简单的API接口，访问开源AI模型，并使用瑞士和德国的基础设施进行托管。平台支持Llama、Mistral、Qwen等多种模型，提供固定月费和实时跟踪功能。用户可以通过更改基础URL和密钥轻松集成到现有的OpenAI API流程中。",
+    "tags": [
+      "New",
+      "API"
+    ],
+    "link": "https://routerlab.ch/",
+    "date": "2026-01-19",
+    "id": "17688117520022"
+  },
+  {
     "title": "NeuroReel - AI生成病毒式TikTok/Reels幻灯片",
     "summary": "NeuroReel是一款AI工具，可生成高质量的TikTok/Reels幻灯片。",
     "detail": "NeuroReel是一款无需注册的免费视频生成器，专门用于创建以幻灯片形式呈现的视频内容。用户只需输入一个主题，如“人类大脑的事实”，NeuroReel即可自动生成包含文本和图像的幻灯片视频。在一项为期24小时的测试中，作者发布了7个YouTube视频和7个TikTok视频，总观看量超过13,000次。该工具的核心技术在于其强大的自然语言处理和图像生成能力，能够根据用户输入的主题智能地选择和组合相关内容。NeuroReel的出现有望简化内容创作者的工作流程，并帮助他们制作出更具吸引力的短视频。",
@@ -182,6 +206,30 @@
     "link": "https://chatbotkit.com/tutorials/how-to-build-an-ai-agent-declaratively-with-terraform",
     "date": "2026-01-19",
     "id": "17687460130822"
+  },
+  {
+    "title": "优化Claude.md：渐进式披露在AI编码工具中的应用",
+    "summary": "讨论了如何通过渐进式披露技术减少Claude.md文件的膨胀，提高AI编码工具的性能。",
+    "detail": "作者在使用Claude.md进行Nuxt Content调试时发现，每次会话结束时上下文都会被重置，导致重复错误。通过渐进式披露技术，可以优化输入，减少文件膨胀，提高AI工具的性能。文章提供了具体的实践建议和技术背景。",
+    "tags": [
+      "Dev",
+      "AI"
+    ],
+    "link": "https://alexop.dev/posts/stop-bloating-your-claude-md-progressive-disclosure-ai-coding-tools/",
+    "date": "2026-01-18",
+    "id": "17688117520021"
+  },
+  {
+    "title": "使用Agent AI在Linux下驱动标签打印机",
+    "summary": "展示了如何使用Agent AI技术解决Linux环境下标签打印机驱动问题。",
+    "detail": "Stefan Schüller分享了如何利用Agent AI技术解决Linux环境下标签打印机驱动的问题。通过反编译Android应用程序并使用Kilocode工具，作者实现了对标签打印机的控制。文章详细介绍了Go版本和Web版本的实现细节。",
+    "tags": [
+      "Dev",
+      "Agent AI"
+    ],
+    "link": "https://sschueller.github.io/posts/making-a-label-printer-work-under-linux-using-agentic-ai/",
+    "date": "2026-01-18",
+    "id": "17688117520023"
   },
   {
     "title": "Context Engineering Skills: Intent Layer 发布",
@@ -1164,53 +1212,5 @@
     "link": "https://github.com/puemos/lareview",
     "date": "2026-01-17",
     "id": "17686671330633"
-  },
-  {
-    "title": "《AI 辅助编码的效果研究》",
-    "summary": "一项关于 Cursor 对软件项目影响的差异性分析研究。",
-    "detail": "来自康奈尔大学的研究团队发布了一篇关于 AI 辅助编码工具 Cursor 对软件项目影响的差异性分析研究论文。研究结果表明，Cursor 可以显著提高软件开发效率，减少开发时间和成本。研究通过对比使用和未使用 Cursor 的软件项目，验证了其在实际开发中的有效性。",
-    "tags": [
-      "Dev",
-      "Research"
-    ],
-    "link": "https://arxiv.org/abs/2511.04427",
-    "date": "2026-01-17",
-    "id": "17686671330634"
-  },
-  {
-    "title": "Jeppesen ForeFlight CEO 引用自动化和AI为裁员理由",
-    "summary": "Jeppesen ForeFlight CEO 提到自动化和AI是裁员的主要原因。",
-    "detail": "Jeppesen ForeFlight 的CEO 在解释公司裁员决定时，明确指出自动化和人工智能技术的应用是导致裁员的关键因素。这一决策反映了技术进步对劳动力市场的影响，特别是对于那些传统上依赖人工操作的行业。虽然自动化和AI可以提高效率，但同时也带来了对某些岗位的需求减少。",
-    "tags": [
-      "News",
-      "Automation"
-    ],
-    "link": "https://theaircurrent.com/feed/dispatches/jeppesen-foreflight-layoffs-automation-ai-thoma-bravo-boeing/",
-    "date": "2026-01-17",
-    "id": "17686632877420"
-  },
-  {
-    "title": "Mogra - 拥有计算机的AI",
-    "summary": "Mogra 是一个能执行代码、浏览网页并实现想法的云计算机。",
-    "detail": "Mogra 是一个先进的AI平台，它可以在云环境中运行代码、浏览网页，并帮助用户实现各种想法。通过自然语言指令，用户可以要求Mogra执行部署、抓取数据、自动化任务等操作。Mogra 提供了隔离的工作空间、持久化的存储和加密的安全机制，确保用户的项目和个人数据得到妥善保护。此外，Mogra 还具备强大的Linux环境，支持多种编程语言和技术栈。",
-    "tags": [
-      "New",
-      "Cloud Computing"
-    ],
-    "link": "https://mogra.xyz/",
-    "date": "2026-01-17",
-    "id": "17686632877421"
-  },
-  {
-    "title": "Vibes - Claude代码助手的社会存在",
-    "summary": "Vibes 是一个为Claude代码助手提供社交功能的工具。",
-    "detail": "Vibes 是一个旨在增强Claude代码助手功能的工具，它为用户提供了一个社交平台，使得代码助手能够更好地融入用户的日常开发工作。通过简单的命令，用户可以与Claude进行交互，获取代码建议、调试帮助等。Vibes 支持多种安装方式，包括Claude插件和npm包管理器，方便用户根据自己的需求进行选择和配置。",
-    "tags": [
-      "Dev",
-      "Claude"
-    ],
-    "link": "https://binora.github.io/vibes/",
-    "date": "2026-01-17",
-    "id": "17686632877423"
   }
 ]
