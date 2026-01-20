@@ -1,5 +1,53 @@
 [
   {
+    "title": "大规模理解代理行为的跟踪与洞察",
+    "summary": "LangChain博客探讨了如何理解和分析大规模代理行为。",
+    "detail": "文章讨论了在代理开发过程中，追踪和理解代理行为的重要性。传统软件开发中有产品分析来帮助解决这些问题，但对于AI代理来说，传统的分析方法并不适用。LangChain提出了LangSmith Insights Agent来帮助分析非结构化的对话，从而理解代理行为背后的原因。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://www.blog.langchain.com/from-traces-to-insights-understanding-agent-behavior-at-scale/",
+    "date": "2026-01-20",
+    "id": "17689303282201"
+  },
+  {
+    "title": "AI生成文本的人性化处理工具",
+    "summary": "Humanizer是一个去除AI生成文本中AI痕迹的工具。",
+    "detail": "Humanizer是一个Claude Code技能，旨在消除AI生成文本中的人工智能痕迹，使其更自然。该工具可以处理各种类型的文本输入，并通过调整语气、风格和结构等方式使其更符合人类写作习惯。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://github.com/blader/humanizer",
+    "date": "2026-01-20",
+    "id": "17689303282202"
+  },
+  {
+    "title": "AI辅助的个人助手",
+    "summary": "一个AI助手帮助用户管理日常事务和情绪。",
+    "detail": "zropi.com是一个AI助手，能够理解用户的上下文，发送语音消息，浏览网页，执行任务等。它具有人性化的交互方式，能够感知用户的情绪和时间，提供个性化的建议和支持。该工具免费提供，无需注册。",
+    "tags": [
+      "New",
+      "LLM"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46694413",
+    "date": "2026-01-20",
+    "id": "17689303282203"
+  },
+  {
+    "title": "AI监控系统提案",
+    "summary": "Shabana Mahmood提出了一种基于AI的全面监控系统。",
+    "detail": "Shabana Mahmood提出了一种名为“Panopticon”的AI监控系统，旨在实现全面的国家监控。该系统利用先进的AI技术收集和分析大量数据，以实现对公民行为的监控和预测。这一提案引发了对隐私权和国家安全之间平衡的关注。",
+    "tags": [
+      "News",
+      "AI"
+    ],
+    "link": "https://www.thenational.scot/news/25780001.shabana-mahmood-proposes-ai-panopticon-system-state-surveillance/",
+    "date": "2026-01-20",
+    "id": "17689303282205"
+  },
+  {
     "title": "Lumo发布隐私保护型AI助手",
     "summary": "Lumo提供了一款注重隐私的AI助手，确保聊天内容保密。",
     "detail": "Lumo是一款专注于隐私保护的AI助手，旨在为用户提供安全的聊天体验。其核心特性包括端到端加密和本地数据存储，确保用户的所有对话内容不会被第三方访问或泄露。这使得Lumo成为那些重视隐私保护的用户的理想选择。\n\n**核心技术点**：\n- **端到端加密**：所有聊天数据在传输过程中均经过加密处理，确保信息安全。\n- **本地数据存储**：对话记录仅存储在用户的设备上，不上传至云端服务器。\n- **用户友好的界面**：简洁直观的操作界面，易于上手使用。\n\n**行业影响**：\nLumo的推出进一步推动了AI助手市场对隐私保护的关注，有助于提升用户对AI产品的信任度。",
@@ -1162,54 +1210,5 @@
     "link": "https://github.com/snwfdhmp/awesome-ralph",
     "date": "2026-01-19",
     "id": "17688217702573"
-  },
-  {
-    "title": "使用 Terraform 构建 AI 代理",
-    "summary": "ChatBotKit 提供了一个 Terraform 插件，帮助开发者以声明式方式构建 AI 代理。",
-    "detail": "ChatBotKit 推出了一个 Terraform 插件，允许开发者通过编写基础设施即代码（IaC）来构建和管理 AI 代理。这个工具集成了 Terraform 的强大功能，使得 AI 代理的配置、部署和扩展更加高效和自动化。这对于需要复杂 AI 工作流的企业来说是一个重要的工具。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://github.com/chatbotkit/terraform-provider-chatbotkit",
-    "date": "2026-01-19",
-    "id": "17688187171350"
-  },
-  {
-    "title": "Agentic Commits 规范",
-    "summary": "一种为 AI 代理优化的 Git 提交消息规范，支持恢复、审查、交接和代码审查。",
-    "detail": "Agentic Commits 提出了一种新的 Git 提交消息格式，旨在优化 AI 代理的工作流程。这种格式不仅有助于人类开发者更好地理解和维护代码库，还能让 AI 代理在崩溃后自动恢复工作、审查历史决策、接手新任务以及进行有效的代码审查。",
-    "tags": [
-      "Dev",
-      "Git"
-    ],
-    "link": "https://agentic-commits.deligoz.me",
-    "date": "2026-01-19",
-    "id": "17688187171351"
-  },
-  {
-    "title": "Gdocs-CLI 工具",
-    "summary": "一个命令行工具，将 Google Docs 文档转换为 Markdown 格式，适用于 AI 编码代理。",
-    "detail": "Gdocs-CLI 是一个专为 AI 编码代理设计的命令行工具，能够通过 OAuth2 认证从 Google Docs 获取文档内容，并将其转换为结构化的 Markdown 格式。该工具支持多种文本和结构元素的转换，便于与其他 AI 系统集成。",
-    "tags": [
-      "Dev",
-      "GoogleDocs"
-    ],
-    "link": "https://github.com/famasya/gdocs-cli",
-    "date": "2026-01-19",
-    "id": "17688187171352"
-  },
-  {
-    "title": "开源 AI API RouterLab，瑞士托管",
-    "summary": "RouterLab 提供简单 API 访问开源模型，瑞士托管，兼容 OpenAI API。",
-    "detail": "RouterLab 是一个开源 AI 平台，提供简单 API 访问多种开源模型（如 Llama, Mistral, Qwen），并保证瑞士托管的安全性。平台支持与 OpenAI API 兼容，只需更改 base URL 和 API 密钥即可快速集成。此外，RouterLab 还提供直观的仪表盘和低延迟基础设施，确保高性能和高可用性。",
-    "tags": [
-      "New",
-      "API",
-      "Open Source"
-    ],
-    "link": "https://routerlab.ch",
-    "date": "2026-01-19",
-    "id": "17688154314150"
   }
 ]
