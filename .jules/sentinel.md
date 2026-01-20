@@ -14,3 +14,8 @@
 **Vulnerability:** The "Submit Tool" modal allowed any string in the "Link" field, enabling XSS via `javascript:` URIs if approved or stored in local storage.
 **Learning:** Frontend forms feeding into a database/storage must validate data type and format (Protocol Whitelisting) before persistence, even if there is a manual approval process.
 **Prevention:** Enforce strict URL protocol validation (`http:`, `https:`) at the input stage.
+
+## 2025-01-26 - Markdown-it Default Permissiveness
+**Vulnerability:** `markdown-it` blocks `javascript:` by default but allows other potentially risky schemes like `ftp:`, `magnet:`, and unknown protocols.
+**Learning:** Default library configurations often favor compatibility over strict security. Relying on defaults is insufficient for high-security contexts.
+**Prevention:** Explicitly override `md.validateLink` to enforce a strict allowlist (e.g., only `http`, `https`) rather than relying on a default blocklist.

@@ -11,6 +11,15 @@ const md = new MarkdownIt({
   typographer: true
 })
 
+// Sentinel: Enforce strict protocol allowlist (Defense in Depth)
+md.validateLink = (url) => {
+  url = url.trim().toLowerCase()
+  // Allow relative links and anchors
+  if (url.startsWith('/') || url.startsWith('#')) return true
+  // Allow only secure web protocols
+  return url.startsWith('http:') || url.startsWith('https:')
+}
+
 const { favorites, toggleFavorite, isFavorite } = useFavorites()
 
 const news = ref([])
