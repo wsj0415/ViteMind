@@ -1,5 +1,6 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
+import { isValidUrl } from '../utils/validation.js'
 
 const props = defineProps({
     isOpen: Boolean,
@@ -36,6 +37,17 @@ const submitResource = async () => {
     if (!form.value.title || !form.value.url || !form.value.description) {
         message.value = '标题、链接和描述为必填项'
         return
+    }
+
+    // Sentinel Security: Prevent XSS
+    if (!isValidUrl(form.value.url)) {
+        message.value = '无效的链接格式 (需以 http:// 或 https:// 开头)'
+        return
+    }
+
+    if (form.value.logo_url && !isValidUrl(form.value.logo_url)) {
+         message.value = 'Logo 链接格式无效'
+         return
     }
 
     loading.value = true

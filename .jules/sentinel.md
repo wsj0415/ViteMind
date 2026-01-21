@@ -14,3 +14,8 @@
 **Vulnerability:** The "Submit Tool" modal allowed any string in the "Link" field, enabling XSS via `javascript:` URIs if approved or stored in local storage.
 **Learning:** Frontend forms feeding into a database/storage must validate data type and format (Protocol Whitelisting) before persistence, even if there is a manual approval process.
 **Prevention:** Enforce strict URL protocol validation (`http:`, `https:`) at the input stage.
+
+## 2025-01-14 - Inconsistent Validation Logic Leading to XSS
+**Vulnerability:** `SubmitResourceModal.vue` lacked URL protocol validation, allowing `javascript:` URIs, while `SubmitToolModal.vue` had it inline.
+**Learning:** Duplicated logic (inline validation) leads to inconsistency where one component is secured and another is missed.
+**Prevention:** Centralize security-critical validation (like URL sanitization) in a shared utility (`validation.js`) and enforce its use across all inputs.
