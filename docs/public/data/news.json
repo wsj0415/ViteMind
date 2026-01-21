@@ -1,5 +1,41 @@
 [
   {
+    "title": "AI 创意研究揭示新里程碑",
+    "summary": "研究显示生成式AI在某些任务上已超越人类平均创造力。",
+    "detail": "由蒙特利尔大学教授Karim Jerbi领导的研究团队，包括AI先驱Yoshua Bengio，发表了迄今为止最大规模的关于大语言模型与人类创造力比较的研究。结果显示，一些AI模型如GPT-4在特定任务上已超过人类平均创造力水平，但仍不及最优秀的人类创意者。研究发表在《科学报告》（Nature Portfolio）上。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://nouvelles.umontreal.ca/en/article/2026/01/20/creative-talent-has-ai-knocked-humans-out",
+    "date": "2026-01-21",
+    "id": "17689999944800"
+  },
+  {
+    "title": "Ovi AI 发布先进视频生成器",
+    "summary": "Ovi AI 使用跨模态融合技术生成高质量同步音频视频。",
+    "detail": "Ovi AI 由 Character.AI 开发，利用双骨干跨模态融合技术生成物理准确的10秒视频，并附带同步音频。其最新版本Ovi 1.1 在保持5B参数的同时提升了视频质量和音频描述处理能力。",
+    "tags": [
+      "New",
+      "Video"
+    ],
+    "link": "https://ovi-ai.org/",
+    "date": "2026-01-21",
+    "id": "17689999944801"
+  },
+  {
+    "title": "Lightning AI 合并 Voltage Park 获得 25 亿美元",
+    "summary": "AI 起步公司与亿万富翁支持的数据中心运营商合并，交易价值25亿美元。",
+    "detail": "Lightning AI 与 Voltage Park 宣布合并，这是一笔25亿美元的交易，旨在结合 Lightning AI 的 AI 技术和 Voltage Park 的数据中心基础设施，以加速全球 AI 部署。",
+    "tags": [
+      "News",
+      "Merge"
+    ],
+    "link": "https://www.forbes.com/sites/iainmartin/2026/01/21/ai-startup-merges-with-a-billionaire-backed-data-center-operator-in-25-billion-deal/",
+    "date": "2026-01-21",
+    "id": "17689999944802"
+  },
+  {
     "title": "微软CEO警告AI需“有用”",
     "summary": "微软CEO认为AI需为社会带来实际价值，否则将失去公众对其电力消耗的支持。",
     "detail": "微软CEO在一次采访中强调，AI技术的发展必须与实际应用相结合，为社会创造价值。他警告说，如果AI技术无法为人类带来实际的好处，公众可能会对AI技术的电力消耗失去容忍度，从而影响其进一步发展和应用。这一观点反映了当前AI领域面临的伦理和社会责任问题。",
@@ -1173,41 +1209,5 @@
     "link": "https://github.com/hscspring/create-vibe-app",
     "date": "2026-01-20",
     "id": "17688807386733"
-  },
-  {
-    "title": "LeetDreamer：生成 LeetCode 解题视频的 AI 工具",
-    "summary": "LeetDreamer 是一个开源项目，利用 AI 自动生成 LeetCode 解题视频。",
-    "detail": "LeetDreamer 是由开发者 joshribakoff 在 GitHub 上发布的开源项目，旨在通过 AI 技术自动生成 LeetCode 编程题的解题视频。该项目利用先进的自然语言处理技术，能够将代码解释为易于理解的视频形式，帮助开发者更好地学习和理解复杂的算法问题。\n\n**核心技术点**：\n- 自然语言处理和文本转语音技术。\n- 视频合成和编辑工具。\n- 对 LeetCode 题库的深入理解。\n\n**行业影响**：\n该项目不仅为开发者提供了一种新颖的学习方式，还展示了 AI 在教育领域的潜力。通过可视化的方式讲解编程问题，可以帮助更多人更容易地掌握算法知识。",
-    "tags": [
-      "Dev",
-      "Python"
-    ],
-    "link": "https://github.com/joshribakoff/leetdreamer",
-    "date": "2026-01-20",
-    "id": "17688738296030"
-  },
-  {
-    "title": "RLM Analyzer：基于递归语言模型的代码分析工具",
-    "summary": "RLM Analyzer 是一个利用递归语言模型进行代码分析的工具，支持深度分析和优化。",
-    "detail": "RLM Analyzer 是由 MIT CSAIL 研究团队开发的一款 AI 代码分析工具，它基于递归语言模型（Recursive Language Models），能够处理超过传统工具百倍的上下文信息。该工具支持多种功能，包括代码结构分析、安全漏洞扫描、性能优化建议等。\n\n**核心技术点**：\n- 使用 Gemini 3 模型进行代码分析。\n- 深度上下文处理能力，支持 100x 超出传统限制。\n- 集成多种分析功能，如架构分析、安全性扫描等。\n\n**行业影响**：\nRLM Analyzer 通过引入递归语言模型，显著提升了代码分析的准确性和效率，为软件开发提供了强大的工具支持。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://npmjs.com/package/rlm-analyzer",
-    "date": "2026-01-20",
-    "id": "17688738296032"
-  },
-  {
-    "title": "ygrep：高效的本地代码搜索工具",
-    "summary": "ygrep 是一个快速、本地化的代码搜索工具，支持全文索引和 AI 优化。",
-    "detail": "ygrep 是一个由 yetidevworks 开发的高效代码搜索工具，旨在为开发者提供快速、准确的代码查找功能。该工具使用 Rust 编写，并采用 Tantivy 进行全文索引，支持多种搜索模式，包括字面匹配和正则表达式。\n\n**核心技术点**：\n- 使用 Rust 语言编写，确保高性能。\n- Tantivy 引擎支持高效的全文索引和搜索。\n- 支持语义搜索，集成本地向量模型。\n\n**行业影响**：\nygrep 通过提供高效的代码搜索功能，显著提升了开发者的生产力。对于大型项目而言，这样的工具可以大幅减少查找代码的时间，提高开发效率。",
-    "tags": [
-      "Dev",
-      "Tool"
-    ],
-    "link": "https://github.com/yetidevworks/ygrep",
-    "date": "2026-01-20",
-    "id": "17688738296034"
   }
 ]
