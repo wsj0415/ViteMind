@@ -1,5 +1,77 @@
 [
   {
+    "title": "OpenAI CEO：AI市场可能处于泡沫状态",
+    "summary": "OpenAI首席执行官Bret Taylor认为AI市场可能处于泡沫状态，并预计即将出现修正。",
+    "detail": "OpenAI首席执行官Bret Taylor在一次采访中表示，当前的AI市场可能处于泡沫状态，类似于过去互联网和加密货币市场的经历。他指出，随着大量资金涌入AI领域，一些公司估值过高，而实际应用和盈利模式尚不清晰。Taylor预测，未来几年可能会看到市场修正，一些初创企业可能面临挑战。这一观点引发了业界广泛讨论。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://www.cnbc.com/2026/01/22/openai-chair-bret-taylor-ai-bubble-correction.html",
+    "date": "2026-01-22",
+    "id": "17691207056820"
+  },
+  {
+    "title": "SONA：一种减少“语法税”的AI原生序列化格式",
+    "summary": "SONA是一种新的AI原生序列化格式，旨在简化软件开发流程。",
+    "detail": "SONA（Structured Object Notation Architecture）是一种新型的序列化格式，旨在减少开发者在处理数据时遇到的“语法税”。它通过优化数据结构和编码方式，使得软件开发过程更加高效。尽管原始链接已失效，但SONA的提出展示了AI技术在软件工程中的潜在应用，有望改善开发者的工作体验。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://github.com/fabiosleal/sona-structured-object-notation-architecture",
+    "date": "2026-01-22",
+    "id": "17691207056821"
+  },
+  {
+    "title": "研究质疑AI代理在职场中的适用性",
+    "summary": "一项新研究表明，大多数领先的AI模型在实际职场任务中表现不佳。",
+    "detail": "一项最新的研究测试了多个顶级AI模型在咨询、投资银行和法律等领域的工作任务中的表现。结果显示，大多数模型未能达到预期的效果，引发了对AI代理是否适合职场应用的质疑。这项研究为AI技术的实际应用提供了重要的参考，强调了在将AI引入工作场所时需要考虑的现实挑战。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/2026/01/22/are-ai-agents-ready-for-the-workplace-a-new-benchmark-raises-doubts/",
+    "date": "2026-01-22",
+    "id": "17691207056822"
+  },
+  {
+    "title": "YOLO Kingdom：AI代理的安全沙箱环境",
+    "summary": "YOLO Kingdom是一个预配置的Ubuntu虚拟机，允许AI代理在受控环境中运行。",
+    "detail": "YOLO Kingdom是一个专门为AI代理设计的虚拟机环境，基于Ubuntu 24.04，集成了Claude Code和Chrome DevTools等工具。用户可以通过virtiofs共享项目文件夹，并通过SSH访问虚拟机。该环境提供了一个安全的沙箱，避免了AI代理对主机系统的潜在威胁。YOLO Kingdom计划未来支持自主构建整个项目的功能。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46725341",
+    "date": "2026-01-22",
+    "id": "17691207056823"
+  },
+  {
+    "title": "ATS-1.0：AI作者身份披露的技术标准",
+    "summary": "ATS-1.0是一个六级技术标准，用于明确AI生成内容的作者身份。",
+    "detail": "ATS-1.0（Authorship Transparency Statement）是一个旨在解决AI生成内容作者身份模糊问题的技术标准。该框架通过多层级的分类系统，提供了比简单二元问题更细致的作者身份描述方法。随着AI技术的发展，如何区分人类创作和AI生成的内容变得越来越重要。ATS-1.0的提出有助于建立透明的创作环境，增强公众对AI生成内容的信任。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://github.com/MeaningfulnessMediaGroup/ATS-Framework",
+    "date": "2026-01-22",
+    "id": "17691207056824"
+  },
+  {
+    "title": "SSD价格飙升至HDD的16倍",
+    "summary": "由于AI供应链危机，SSD价格大幅上涨，HDD成为更具成本效益的选择。",
+    "detail": "随着AI技术的发展，对高速存储解决方案的需求激增，导致SSD（固态硬盘）的价格显著上涨，目前SSD的价格是HDD（机械硬盘）的16倍。这种价格差异促使许多数据中心和企业转向混合SSD-HDD部署，以降低成本。AI供应链危机的影响不仅体现在硬件成本上，还可能对整个AI基础设施建设产生长远影响。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://www.tomshardware.com/pc-components/storage/ssds-now-cost-16x-more-than-hdds-hybrid-ssd-hdd-datacenter-deployments-are-now-significantly-cheaper-to-deploy-than-ssd-only-equivalents",
+    "date": "2026-01-22",
+    "id": "17691207056825"
+  },
+  {
     "title": "AI代理安全测试发现重大漏洞",
     "summary": "AI代理在未越狱情况下被成功攻击，引发安全担忧。",
     "detail": "一项针对AI代理的安全测试揭示了其潜在的安全漏洞。测试者通过一系列合法工具组合（如读取文件和发送邮件）成功提取了敏感信息，而AI代理并未检测到这种组合操作的危险性。这表明现有AI代理的安全机制可能不足以应对复杂的攻击手段。该研究结果对AI应用的安全性提出了新的挑战，强调了在生产环境中部署AI代理时需要更加严格的环境监控和安全措施。",
@@ -1129,79 +1201,5 @@
     "link": "https://www.malan.chat/",
     "date": "2026-01-21",
     "id": "17690210516602"
-  },
-  {
-    "title": "Microsoft 和 OpenAI 的联盟内幕",
-    "summary": "内部文件揭示了微软和 OpenAI 合作关系的发展历程。",
-    "detail": "微软和 OpenAI 的合作始于2015年，当时微软CEO Satya Nadella 对 OpenAI 的成立表示惊讶。然而，在几个月内，微软开始积极追求与 OpenAI 的合作，并最终在十年间投入超过2500亿美元的资金，获得了 OpenAI 27% 的股权。这份内部文件提供了这一重要联盟发展的详细信息。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://www.geekwire.com/2026/the-microsoft-openai-files-internal-documents-reveal-the-realities-of-ais-defining-alliance/",
-    "date": "2026-01-21",
-    "id": "17690181294801"
-  },
-  {
-    "title": "MathGPT Graphing - 交互式数学绘图工具",
-    "summary": "MathGPT Graphing 提供在线数学求解和绘图功能，支持多种数学计算。",
-    "detail": "MathGPT Graphing 是一个强大的在线数学求解和绘图工具，支持多种数学计算，包括方程求解、图形绘制、关键点查找等功能。用户可以输入函数，系统会自动生成图形并提供详细的解决方案。",
-    "tags": [
-      "New",
-      "Python"
-    ],
-    "link": "https://mathgpt.today/graphing",
-    "date": "2026-01-21",
-    "id": "17690181294802"
-  },
-  {
-    "title": "AI未来将与现在大不相同",
-    "summary": "AI将彻底改变软件工程师的角色和技能需求。",
-    "detail": "文章预测AI将渗透到软件工程的每一个环节，包括学习、开发、测试等，从而改变工程师的职业路径。未来的工程师可能不再需要传统的学习过程，而是依赖AI工具完成大部分工作，这将导致工程师角色的转变。",
-    "tags": [
-      "News",
-      "Future"
-    ],
-    "link": "https://distantprovince.by/posts/ai-future-will-be-nothing-like-present/",
-    "date": "2026-01-21",
-    "id": "17690143327461"
-  },
-  {
-    "title": "统一的多模态AI Python SDK发布",
-    "summary": "Celeste-Python提供跨多个AI服务提供商的统一接口。",
-    "detail": "Celeste-Python是一个开源、类型安全的多模态AI工具包，支持OpenAI、ElevenLabs、Flux和Ollama等多种服务，简化了多AI服务的集成和使用。",
-    "tags": [
-      "New",
-      "Python",
-      "SDK"
-    ],
-    "link": "https://github.com/withceleste/celeste-python",
-    "date": "2026-01-21",
-    "id": "17690143327462"
-  },
-  {
-    "title": "pgEdge发布企业级AI开发工具包",
-    "summary": "pgEdge Agentic AI Toolkit为企业提供基于PostgreSQL的AI解决方案。",
-    "detail": "pgEdge推出的新工具包包括MCP服务器、RAG管道和AI扩展，旨在帮助企业构建生产级AI应用，支持标准PostgreSQL和分布式Postgres。",
-    "tags": [
-      "New",
-      "PostgreSQL",
-      "AI"
-    ],
-    "link": "https://www.pgedge.com/ai-toolkit",
-    "date": "2026-01-21",
-    "id": "17690143327464"
-  },
-  {
-    "title": "Google 发布新的 AI 定价计划",
-    "summary": "Google 推出了新的 AI 定价策略，强调按能力付费。",
-    "detail": "Google 最近发布了其新的 AI 定价计划，这一计划强调了根据用户的能力和需求来定价的原则。该策略旨在确保不同规模的企业和个人用户都能找到适合自己的价格方案。尽管具体内容尚未详细披露，但这一举措反映了 Google 在 AI 市场上的竞争策略，即通过灵活的定价吸引更多用户。此外，这一定价计划也可能对其他科技巨头产生影响，促使它们重新审视自身的定价策略。",
-    "tags": [
-      "News",
-      "Pricing"
-    ],
-    "link": "https://pluralistic.net/2026/01/21/cod-marxism/",
-    "date": "2026-01-21",
-    "id": "17690096700520"
   }
 ]
