@@ -1,5 +1,41 @@
 [
   {
+    "title": "AI在授权策略中的审计角色",
+    "summary": "AI可以帮助审查和审计现有的授权策略，揭示潜在的风险和未记录的假设。",
+    "detail": "这篇文章讨论了AI在审查和审计授权策略中的作用。与政策编写和分析不同，审核和审计的目标是理解现有策略的行为、范围及其合理性。AI在这种情况下扮演的是检查者角色，而不是协作者，它解释行为、列举范围并揭示后果，而不提出更改建议。这种做法有助于确保当前策略集的透明度和可辩护性。",
+    "tags": [
+      "Dev",
+      "Security"
+    ],
+    "link": "https://www.windley.com/archives/2025/12/what_ai_can_tell_you_about_your_authorization_policies.shtml",
+    "date": "2026-01-23",
+    "id": "17691820800460"
+  },
+  {
+    "title": "AI生成论文中的错误引用问题",
+    "summary": "NeurIPS会议上的研究论文出现了大量AI生成的虚假引用。",
+    "detail": "这篇报道指出，在NeurIPS等AI会议上提交的研究论文中，存在大量由AI生成的虚假引用。这引发了学术界的担忧，因为这些错误引用可能会影响研究的可信度和科学严谨性，需要采取措施来防止和纠正这些问题。",
+    "tags": [
+      "News",
+      "Research"
+    ],
+    "link": "https://fortune.com/2026/01/21/neurips-ai-conferences-research-papers-hallucinations/",
+    "date": "2026-01-23",
+    "id": "17691820800461"
+  },
+  {
+    "title": "私有AI技能注册表：Skify",
+    "summary": "Skify是一个用于管理AI代理技能的私有注册表，支持自托管和Docker部署。",
+    "detail": "Skify是一个开源项目，允许组织部署自己的私有AI技能注册表。它支持自托管和Docker部署，提供了CLI工具和Web界面，方便管理和维护AI代理的技能包。这有助于保持工作流程的私密性和一致性，同时确保团队能够使用最新的技能版本。",
+    "tags": [
+      "Dev",
+      "Tools"
+    ],
+    "link": "https://github.com/lynnzc/skify",
+    "date": "2026-01-23",
+    "id": "17691820800463"
+  },
+  {
     "title": "OpenHiggs 发布：多模态生成式AI代理",
     "summary": "OpenHiggs 是一个多模态生成式AI代理，能够处理复杂的生成式AI管道。",
     "detail": "OpenHiggs 由 jaskirat05 开发，是一个生成式AI代理，能够创建和管理跨越多个模态的复杂生成式AI管道。这一工具通过自动化和集成不同类型的AI任务，帮助开发者更高效地构建和部署复杂的AI解决方案。OpenHiggs 的发布标志着生成式AI在多模态集成方面的进步，为开发者提供了一个强大的工具。",
@@ -505,6 +541,18 @@
     "link": "https://logicalintelligence.com/kona-ebms-energy-based-models",
     "date": "2026-01-23",
     "id": "17691330314181"
+  },
+  {
+    "title": "AI驱动的Web正在自我吞噬",
+    "summary": "AI生成的内容减少了用户对原网站的访问，导致内容创作者收益减少。",
+    "detail": "这篇文章探讨了AI驱动的Web如何影响传统内容创作者。通过AI生成的内容（如食谱）可以快速提供答案，但减少了用户点击原网站的次数，导致创作者无法通过广告、链接等方式获得收益。这种趋势可能导致Web内容变得更加同质化和缺乏个性。",
+    "tags": [
+      "News",
+      "Web"
+    ],
+    "link": "https://www.noemamag.com/the-ai-powered-web-is-eating-itself/",
+    "date": "2026-01-22",
+    "id": "17691820800462"
   },
   {
     "title": "中国AI模型受欢迎，但能否盈利？",
@@ -1173,53 +1221,5 @@
     "link": "https://www.bloomberg.com/news/articles/2026-01-22/alibaba-is-said-to-plan-ipo-for-ai-chipmaking-unit-t-head",
     "date": "2026-01-22",
     "id": "17690864275593"
-  },
-  {
-    "title": "谷歌前员工打造儿童互动AI学习应用",
-    "summary": "三位前谷歌员工开发了一款名为Sparkli的互动AI学习应用，旨在吸引孩子们的兴趣。",
-    "detail": "三位来自谷歌的前员工正在开发一款名为Sparkli的互动AI学习应用。这款应用旨在通过更吸引儿童的方式提供教育内容，不仅仅是传统的文本或语音形式。Sparkli利用生成式AI技术，提供更加互动和有趣的体验，以激发孩子们的学习兴趣。这反映了大型科技公司和新兴创业公司正在利用AI技术为儿童设计软件和硬件的趋势。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/01/22/former-google-trio-is-building-an-interactive-ai-powered-learning-app-for-kids/",
-    "date": "2026-01-22",
-    "id": "17690811181790"
-  },
-  {
-    "title": "Perspectives：挑战你的思考，而非验证",
-    "summary": "Perspectives是一款多智能体决策支持工具，提供不同视角的分析，帮助用户做出更全面的决策。",
-    "detail": "Perspectives是一款创新的多智能体决策支持工具，它通过八个具有不同世界观的自主代理提供全面的战略分析。每个代理从独特的角度挑战其他代理的观点，确保用户获得最全面的决策信息。这种机制不仅避免了群体思维，还促进了深入的思考。Perspectives适用于各种决策场景，包括企业战略、市场分析等，能够帮助用户发现不同观点之间的共识，并识别决策过程中可能遗漏的关键数据。",
-    "tags": [
-      "New",
-      "Dev"
-    ],
-    "link": "https://getperspectives.app",
-    "date": "2026-01-22",
-    "id": "17690811181791"
-  },
-  {
-    "title": "谷歌AI产品Gemini整合用户数据",
-    "summary": "谷歌宣布其AI产品Gemini将整合用户的Gmail、YouTube等数据，以便更好地理解用户需求。",
-    "detail": "谷歌近期宣布，其AI产品Gemini将能够访问用户的Gmail、YouTube、Google Photos和Search中的数据，从而更好地了解用户的需求和偏好。这一举措旨在提升Gemini的个性化服务能力，使其能够提供更加精准和个性化的建议。例如，用户可以询问Gemini关于汽车轮胎的推荐，Gemini能够通过分析用户的照片来识别汽车的型号和使用情况。尽管这一功能引发了隐私方面的担忧，但谷歌表示其目标是为用户提供更加便捷和高效的助手服务。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://www.thebignewsletter.com/p/will-google-organize-the-worlds-prices",
-    "date": "2026-01-22",
-    "id": "17690811181792"
-  },
-  {
-    "title": "Kagi 推出 SlopStop 功能",
-    "summary": "Kagi 推出社区驱动的 AI 内容举报系统，帮助识别和降低低质量 AI 生成内容的影响。",
-    "detail": "Kagi 的 SlopStop 功能允许用户举报疑似低质量的 AI 生成内容，通过协作机制识别并降级主要以 AI 内容为主的网站。该功能旨在减少搜索引擎结果中的 SEO 垃圾和 AI 滥用现象，保护用户的搜索体验。SlopStop 能够区分 AI 生成的页面和整个域名是否主要由 AI 生成，并据此进行不同的处理。",
-    "tags": [
-      "News",
-      "AI"
-    ],
-    "link": "https://help.kagi.com/kagi/features/slopstop.html",
-    "date": "2026-01-22",
-    "id": "17690744913310"
   }
 ]
