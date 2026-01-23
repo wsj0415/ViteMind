@@ -1,5 +1,20 @@
 
 /**
+ * Validates if a string is a safe URL.
+ * @param {string} string - The URL string to validate
+ * @param {Array<string>} [allowedProtocols=['http:', 'https:']] - List of allowed protocols
+ * @returns {boolean} - True if valid and safe
+ */
+export const isValidUrl = (string, allowedProtocols = ['http:', 'https:']) => {
+    try {
+        const url = new URL(string)
+        return allowedProtocols.includes(url.protocol)
+    } catch (_) {
+        return false
+    }
+}
+
+/**
  * Validates a form based on column definitions.
  * Extracted from DataManager.vue for testability and reuse.
  *
@@ -31,17 +46,24 @@ export const validateForm = (form, columns, errors) => {
 
         // Check URL
         if (col.validation?.type === 'url' && value) {
-            try {
-                const url = new URL(value)
+            // Security: Prevent javascript: and other unsafe protocols
+            const allowedProtocols = ['http:', 'https:', 'mailto:']
 
-                // Security: Prevent javascript: and other unsafe protocols
-                const allowedProtocols = ['http:', 'https:', 'mailto:']
-                if (!allowedProtocols.includes(url.protocol)) {
-                    errors[col.key] = '不允许的 URL 协议'
-                    isValid = false
+            if (!isValidUrl(value, allowedProtocols)) {
+                // Determine error message based on failure type (invalid format vs protocol)
+                // However, isValidUrl returns generic boolean. We stick to generic error or try to differentiate.
+                // The original code had two error messages. Let's try to preserve that if possible.
+                try {
+                    const u = new URL(value) // Check if valid URL structure first
+                    if (!allowedProtocols.includes(u.protocol)) {
+                        errors[col.key] = '不允许的 URL 协议'
+                    } else {
+                        // Should not happen if isValidUrl returns true
+                         errors[col.key] = '必须是有效的 URL'
+                    }
+                } catch {
+                     errors[col.key] = '必须是有效的 URL'
                 }
-            } catch (_) {
-                errors[col.key] = '必须是有效的 URL'
                 isValid = false
             }
         }

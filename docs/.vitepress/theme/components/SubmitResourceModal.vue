@@ -1,5 +1,6 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
+import { isValidUrl } from '../utils/validation'
 
 const props = defineProps({
     isOpen: Boolean,
@@ -35,6 +36,17 @@ const toggleTag = (tag) => {
 const submitResource = async () => {
     if (!form.value.title || !form.value.url || !form.value.description) {
         message.value = '标题、链接和描述为必填项'
+        return
+    }
+
+    // Sentinel Security: Validate URL Protocol
+    if (!isValidUrl(form.value.url)) {
+        message.value = '无效的资源链接 (必须以 http:// 或 https:// 开头)'
+        return
+    }
+
+    if (form.value.logo_url && !isValidUrl(form.value.logo_url)) {
+        message.value = '无效的 Logo 链接 (必须以 http:// 或 https:// 开头)'
         return
     }
 
