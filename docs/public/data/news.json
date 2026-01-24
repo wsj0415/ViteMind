@@ -1,5 +1,57 @@
 [
   {
+    "title": "AI助手自动创建Pull Requests",
+    "summary": "Kilo.ai推出AI助手，帮助非技术人员通过Slack创建PR。",
+    "detail": "Kilo.ai开发了一款AI助手，集成在Slack中，允许非技术团队成员创建简单的Pull Requests和更改。这减少了工程师的时间浪费和上下文切换成本。该工具可以用于多种用途，包括自动化日常任务和复杂的系统操作，有助于提高团队协作效率。",
+    "tags": [
+      "Dev",
+      "Slack",
+      "Automation"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46747609",
+    "date": "2026-01-24",
+    "id": "17692895926870"
+  },
+  {
+    "title": "隐私优先的AI工作室Msty",
+    "summary": "Msty提供隐私保护的AI平台，支持本地运行和企业级部署。",
+    "detail": "Msty是一款注重隐私保护的AI工作室，支持在本地运行高级AI模型，并提供强大的数据隐私控制。其Shadow Persona功能可以自动执行聊天任务，如总结、研究和自动化操作。此外，Msty还支持知识管理和复杂的文件处理，适用于从小型项目到大型企业的各种应用场景。",
+    "tags": [
+      "New",
+      "Privacy",
+      "AI Studio"
+    ],
+    "link": "https://msty.ai/",
+    "date": "2026-01-24",
+    "id": "17692895926871"
+  },
+  {
+    "title": "AI驱动的浏览器自动化工具",
+    "summary": "agent-browser是一个基于Rust的命令行工具，用于AI驱动的浏览器自动化。",
+    "detail": "agent-browser是一个高效的浏览器自动化工具，支持多种AI代理，并提供超过50个命令用于导航、表单操作和截图等。该工具采用Rust编写，具有跨平台特性，并提供Node.js回退选项。其独特的引用系统确保了元素选择的准确性和速度，适用于需要复杂浏览器操作的场景。",
+    "tags": [
+      "Dev",
+      "Browser Automation",
+      "Rust"
+    ],
+    "link": "https://agent-browser.dev/",
+    "date": "2026-01-24",
+    "id": "17692895926872"
+  },
+  {
+    "title": "周末使用AI工具构建睡前故事应用",
+    "summary": "开发者利用AI工具在周末快速构建了一个生成个性化睡前故事的Web应用。",
+    "detail": "一位开发者利用AI工具在一个周末内构建了一个简单的Web应用，能够生成和朗读个性化的睡前故事。该项目展示了AI工具在快速开发中的强大能力，尤其是在需要自然语言生成和语音合成的场景下。尽管代码基础较为粗糙，但该应用已经可以在实际环境中使用。",
+    "tags": [
+      "Dev",
+      "AI Tools",
+      "Web App"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46746976",
+    "date": "2026-01-24",
+    "id": "17692895926873"
+  },
+  {
     "title": "Local AI Manifesto 发布",
     "summary": "ACF Local Edition 推出，强调本地AI的重要性。",
     "detail": "ACF Local Edition 的推出标志着本地AI时代的到来。该版本强调了将AI带回家的重要性，避免了云AI带来的数据安全、隐私和合规性问题。通过量化技术，70B模型可以在消费级硬件上运行，使得本地AI不再是妥协的选择。",
@@ -1156,54 +1208,5 @@
     "link": "https://sakana.ai/google/#en",
     "date": "2026-01-23",
     "id": "17691758455450"
-  },
-  {
-    "title": "Codnaut：AI开发工具导航器",
-    "summary": "Codnaut提供了一个平台，帮助开发者找到合适的AI编码工具。",
-    "detail": "Codnaut是一个专为开发者设计的平台，旨在简化AI编码工具的选择过程。用户可以通过Codnaut轻松浏览和比较各种AI工具，以找到最适合其项目需求的工具。该平台涵盖了多种类型的AI工具，包括代码编辑器、IDE插件等。",
-    "tags": [
-      "Dev",
-      "Tools"
-    ],
-    "link": "https://www.codnaut.com/en",
-    "date": "2026-01-23",
-    "id": "17691758455451"
-  },
-  {
-    "title": "开源替代n8n云AI助手的VS Code扩展",
-    "summary": "n8n-as-code提供双向n8n与VS Code同步功能，支持通过AI生成工作流。",
-    "detail": "n8n-as-code是一个开源项目，旨在为n8n用户提供一个VS Code扩展，实现n8n工作流的代码化管理。该扩展支持双向同步功能，允许用户在VS Code中编写和编辑n8n工作流，并通过GitOps方式进行版本控制和部署。",
-    "tags": [
-      "Dev",
-      "OpenSource"
-    ],
-    "link": "https://github.com/EtienneLescot/n8n-as-code",
-    "date": "2026-01-23",
-    "id": "17691758455452"
-  },
-  {
-    "title": "Cortex TMS：AI代理需要更全面的文档",
-    "summary": "Cortex TMS发现仅依赖README文档不足以确保AI代理遵循编码规范。",
-    "detail": "Cortex TMS在使用Claude Code进行开发时，发现仅凭详细的README文档无法保证AI代理始终遵循项目规范。尽管README包含了项目概述、设置说明和编码约定，但AI代理经常忽略这些信息，导致代码实现与文档不一致。Cortex TMS建议采用分层文档策略，以提高AI代理对文档的遵循度。",
-    "tags": [
-      "Dev",
-      "Documentation"
-    ],
-    "link": "https://cortex-tms.org/blog/why-ai-agents-need-more-than-readme/",
-    "date": "2026-01-23",
-    "id": "17691758455453"
-  },
-  {
-    "title": "AI机器人群威胁民主",
-    "summary": "AI机器人群可能破坏民主制度。",
-    "detail": "Gary Marcus等人在《科学》杂志上发表的文章警告，由大量AI机器人组成的“群”可以协调一致地传播虚假信息，比单一机器人更具危害性。文章指出，这些AI机器人可以模拟真实社区的行为，难以被检测，对民主制度构成潜在威胁。",
-    "tags": [
-      "News",
-      "AI",
-      "Democracy"
-    ],
-    "link": "https://garymarcus.substack.com/p/ai-bot-swarms-threaten-to-undermine",
-    "date": "2026-01-23",
-    "id": "17691726495021"
   }
 ]
