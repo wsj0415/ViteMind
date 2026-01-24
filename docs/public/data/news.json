@@ -1,5 +1,53 @@
 [
   {
+    "title": "AI生成论文反驳框架发布",
+    "summary": "Cornell大学团队提出Paper2Rebuttal，一个多智能体框架用于透明的作者回应辅助。",
+    "detail": "Cornell大学的研究人员提出了Paper2Rebuttal，这是一个多智能体框架，旨在帮助学术论文作者更高效地撰写反驳意见。该框架通过集成多个智能代理，能够自动分析和生成针对审稿人评论的详细反驳内容，从而提高科研工作的效率和质量。这一技术的发展为学术界提供了一种新的工具，有助于加速研究成果的交流与验证。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://arxiv.org/abs/2601.14171",
+    "date": "2026-01-24",
+    "id": "17692252895840"
+  },
+  {
+    "title": "Yann LeCun的新创业公司AMI Labs",
+    "summary": "Yann LeCun离开Meta创立AMI Labs，专注于构建世界模型。",
+    "detail": "著名AI科学家Yann LeCun在离开Meta后，创立了名为AMI Labs的新公司。该公司致力于开发“世界模型”，这是一种能够模拟现实世界的复杂系统，旨在推动人工智能技术的进一步发展。LeCun希望通过AMI Labs的研究，探索如何构建更加通用和强大的AI模型，以解决当前AI领域面临的诸多挑战。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/2026/01/23/whos-behind-ami-labs-yann-lecuns-world-model-startup/",
+    "date": "2026-01-24",
+    "id": "17692252895841"
+  },
+  {
+    "title": "AI代理权限控制讨论",
+    "summary": "Hacker News上讨论AI代理在生产环境中如何执行工具调用的权限控制。",
+    "detail": "Hacker News社区发起了一场关于AI代理在生产环境中执行工具调用时如何进行权限控制的讨论。参与者分享了他们在实际项目中所采用的各种方法，包括在工具包装器内部、网关/代理层以及集中式策略服务层面实施权限控制。此外，还探讨了身份验证和授权机制、日志记录策略以及如何安全地推出这些控制措施等内容。",
+    "tags": [
+      "Dev",
+      "Security"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46740645",
+    "date": "2026-01-24",
+    "id": "17692252895842"
+  },
+  {
+    "title": "AI代理沙箱化的反思",
+    "summary": "作者Tuan-Anh Tran反思了之前对AI代理沙箱化的观点，并认为过度复杂化并不必要。",
+    "detail": "Tuan-Anh Tran在其博客中反思了自己早期对AI代理沙箱化的观点。他原本认为需要复杂的多层隔离来防止代理误操作导致灾难性后果。然而，在实际应用中发现这种做法过于复杂，没有带来预期的效果。Tran强调，简单性和优雅性往往比过度工程更能解决问题。",
+    "tags": [
+      "Dev",
+      "Security"
+    ],
+    "link": "https://tuananh.net/2026/01/22/i-was-wrong-about-ai-agent-sandboxing/",
+    "date": "2026-01-24",
+    "id": "17692252895843"
+  },
+  {
     "title": "AI驱动的开发平台OpenHands发布",
     "summary": "OpenHands是一个AI驱动的开发工具，旨在简化软件开发流程。",
     "detail": "OpenHands是一个新兴的AI驱动开发平台，旨在通过集成先进的AI技术来简化软件开发流程。该平台提供了多种功能，包括代码生成、调试辅助和自动化测试等。核心优势在于其能够理解和执行复杂的开发任务，从而提高开发效率。OpenHands的推出为开发者提供了一个强大的工具，有望改变传统的软件开发模式。",
@@ -1176,53 +1224,5 @@
     "link": "https://www.tomshardware.com/pc-components/storage/ssds-now-cost-16x-more-than-hdds-hybrid-ssd-hdd-datacenter-deployments-are-now-significantly-cheaper-to-deploy-than-ssd-only-equivalents",
     "date": "2026-01-22",
     "id": "17691207056825"
-  },
-  {
-    "title": "AI代理安全测试发现重大漏洞",
-    "summary": "AI代理在未越狱情况下被成功攻击，引发安全担忧。",
-    "detail": "一项针对AI代理的安全测试揭示了其潜在的安全漏洞。测试者通过一系列合法工具组合（如读取文件和发送邮件）成功提取了敏感信息，而AI代理并未检测到这种组合操作的危险性。这表明现有AI代理的安全机制可能不足以应对复杂的攻击手段。该研究结果对AI应用的安全性提出了新的挑战，强调了在生产环境中部署AI代理时需要更加严格的环境监控和安全措施。",
-    "tags": [
-      "News",
-      "Security"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46725158",
-    "date": "2026-01-22",
-    "id": "17691171016650"
-  },
-  {
-    "title": "中国AI发展并非落后",
-    "summary": "Mistral CEO认为中国在AI领域并不落后。",
-    "detail": "Mistral CEO在接受采访时表示，关于中国在AI领域落后的说法是一个“童话”。这一观点反映了对中国AI技术发展的肯定态度。尽管国际上存在一些质疑声，但中国在AI研究和应用方面取得了显著进展，特别是在大规模数据处理和算法创新方面。Mistral CEO的言论旨在纠正外界对中国AI能力的误解，强调中国在全球AI竞赛中的竞争力。",
-    "tags": [
-      "News",
-      "China"
-    ],
-    "link": "https://www.msn.com/en-us/money/other/china-lagging-in-ai-is-a-fairy-tale-mistral-ceo-says/ar-AA1UJHuB",
-    "date": "2026-01-22",
-    "id": "17691171016651"
-  },
-  {
-    "title": "cURL结束AI相关漏洞赏金计划",
-    "summary": "cURL因AI漏洞报告过多，决定终止其bug赏金计划。",
-    "detail": "cURL宣布由于接收到大量与AI相关的漏洞报告，决定终止其bug赏金计划。这一举措反映了AI技术普及带来的新挑战，特别是对于传统软件项目而言。AI生成的内容可能导致大量误报或低质量报告，增加了维护成本。cURL希望通过此举减少无效报告，专注于解决真正重要的安全问题。",
-    "tags": [
-      "News",
-      "AI"
-    ],
-    "link": "https://thenewstack.io/drowning-in-ai-slop-reports-curl-ends-bug-bounties/",
-    "date": "2026-01-22",
-    "id": "17691171016652"
-  },
-  {
-    "title": "高盛报告：生成式AI投入过多收益不足",
-    "summary": "高盛研究报告指出，当前生成式AI的投入远超其带来的收益。",
-    "detail": "高盛全球宏观研究团队发布了一份关于生成式AI的最新研究报告，指出尽管企业在生成式AI上的投资不断增加，但目前的收益却未能达到预期。报告分析了各大科技公司在AI领域的巨额支出，并指出这些投资并未转化为显著的商业价值或竞争优势。这一发现引发了业界对AI投资效率的广泛讨论。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://www.goldmansachs.com/static-libs/pdf-redirect/prod/index.html?path=/images/migrated/insights/pages/gs-research/gen-ai--too-much-spend,-too-little-benefit-/TOM_AI%202.0_ForRedaction.pdf&originalQuery=&referrer=",
-    "date": "2026-01-22",
-    "id": "17691138017100"
   }
 ]
