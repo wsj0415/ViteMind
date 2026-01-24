@@ -1,5 +1,5 @@
-
 import unittest
+import socket
 from sentinel_safe_requests import validate_url_ip, safe_get
 import requests
 
@@ -39,6 +39,40 @@ class TestSSRFProtection(unittest.TestCase):
             self.assertEqual(response.status_code, 200)
         except Exception as e:
             self.fail(f"safe_get failed for valid URL: {e}")
+
+    def test_toctou_prevention(self):
+        """Test that safe_get prevents TOCTOU by re-validating DNS during connection."""
+        original_getaddrinfo = socket.getaddrinfo
+
+        # Mock state
+        call_count = [0]
+
+        def side_effect_getaddrinfo(host, port, family=0, type=0, proto=0, flags=0):
+            # Only intercept for example.com (the test URL)
+            if host == "example.com":
+                call_count[0] += 1
+                if call_count[0] <= 1:
+                    # First call: validate_url_ip -> Return Safe IP
+                    return [(socket.AF_INET, socket.SOCK_STREAM, 6, '', ('93.184.216.34', port or 80))]
+                else:
+                    # Subsequent calls: requests.get -> Return Unsafe IP (localhost)
+                    return [(socket.AF_INET, socket.SOCK_STREAM, 6, '', ('127.0.0.1', port or 80))]
+
+            # For other hosts, fallback to original
+            return original_getaddrinfo(host, port, family, type, proto, flags)
+
+        # Apply mock
+        socket.getaddrinfo = side_effect_getaddrinfo
+
+        try:
+            with self.assertRaises(ValueError) as cm:
+                safe_get("http://example.com")
+
+            # Check for the specific error from the inner check
+            self.assertIn("Blocked by Sentinel", str(cm.exception))
+
+        finally:
+            socket.getaddrinfo = original_getaddrinfo
 
 if __name__ == '__main__':
     unittest.main()
