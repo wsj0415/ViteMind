@@ -1,5 +1,31 @@
 [
   {
+    "title": "AI编码工作流分享",
+    "summary": "作者分享了其基于CLI的AI编码工作流程，包括Spec-Test-Lint。",
+    "detail": "本文作者@adlrocha分享了其在个人和团队中如何将AI工具集成到日常编码工作中。作者强调了LLM（大语言模型）在加速软件开发中的潜力，包括解决复杂数学问题和辅助非技术用户编写代码的能力。作者提出了“Spec-Test-Lint”工作流，旨在通过规范编写、测试和代码审查来提高编码效率和质量。该方法结合了自动化工具和人工审查，帮助开发者更好地利用AI提升生产力。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Coding"
+    ],
+    "link": "https://adlrocha.substack.com/p/adlrocha-taming-the-agents-my-spec",
+    "date": "2026-01-25",
+    "id": "17693330396160"
+  },
+  {
+    "title": "Bandcamp禁止AI生成音乐",
+    "summary": "Bandcamp成为首个禁止AI生成音乐的主要音乐平台。",
+    "detail": "Bandcamp宣布将禁止所有形式的AI生成音乐在其平台上发布。这一决定反映了音乐产业对于原创性和人类创造力的重视。尽管AI技术在音乐创作中展现出巨大潜力，但许多艺术家和平台持有者担心AI生成内容可能对传统音乐创作构成威胁。Bandcamp此举旨在保护平台上的原创音乐作品，维护艺术家权益。",
+    "tags": [
+      "News",
+      "Music",
+      "AI"
+    ],
+    "link": "https://www.theverge.com/news/861794/bandcamp-ban-ai-music",
+    "date": "2026-01-25",
+    "id": "17693330396171"
+  },
+  {
     "title": "AutoShorts：GPU加速的AI视频剪辑工具",
     "summary": "AutoShorts利用AI分析游戏视频，自动生成短片。",
     "detail": "AutoShorts 是一个由 GitHub 用户 divyaprakash0426 开发的开源项目，旨在帮助创作者自动从长格式游戏视频中提取最具吸引力的片段，并生成适合上传的短视频。该工具通过AI场景分析识别关键时刻，利用GPU加速渲染过程，并可选地添加AI旁白。核心技术包括Python编程、PyTorch框架和CUDA加速，能够显著提高视频制作效率。",
@@ -947,6 +973,19 @@
     "id": "17692192090251"
   },
   {
+    "title": "翻译工作者面临AI自动化挑战",
+    "summary": "AI自动化对翻译职业造成冲击，许多翻译工作者担忧失业。",
+    "detail": "CNN报道指出，随着AI技术的发展，特别是在机器翻译领域的进步，翻译工作者正面临着前所未有的挑战。AI能够快速、准确地完成大量翻译任务，这不仅降低了翻译成本，也对依赖人工翻译的职业造成了冲击。许多翻译工作者表示，他们担心自己的工作会被AI取代，从而陷入失业困境。本文探讨了这一趋势对翻译行业的长远影响，并呼吁行业内外共同寻找解决方案。",
+    "tags": [
+      "News",
+      "Translation",
+      "AI"
+    ],
+    "link": "https://www.cnn.com/2026/01/23/tech/translation-language-jobs-ai-automation-intl",
+    "date": "2026-01-23",
+    "id": "17693330396172"
+  },
+  {
     "title": "Eightfold AI 被诉未经同意收集求职者报告",
     "summary": "Eightfold AI 因被指控未经同意对求职者进行排名而面临诉讼。",
     "detail": "Eightfold AI 面临一项法律诉讼，声称该公司在没有获得求职者同意的情况下对其进行了排名和评估。这引发了关于数据隐私和人工智能伦理的重大讨论。该案件强调了企业在使用人工智能技术时需要遵守的数据保护法规，以及透明度和用户同意的重要性。",
@@ -1173,41 +1212,5 @@
     "link": "https://play.davia.ai/",
     "date": "2026-01-23",
     "id": "17692034246042"
-  },
-  {
-    "title": "AI对代码ROI的影响分析",
-    "summary": "研究发现编程语言的选择显著影响AI项目的投资回报率。",
-    "detail": "Jellyfish Research的研究表明，编程语言的选择对AI项目的投资回报率有重大影响。通过对7.5亿行AI生成代码的分析，研究者发现不同编程语言的接受率差异明显。文章提出，可以通过测量代码的接受率来评估AI工具的价值，从而更好地衡量其投资回报率。这为企业的AI项目提供了重要的参考依据。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://jellyfishresearch.substack.com/p/measuring-roi-in-ai-era-the-language",
-    "date": "2026-01-23",
-    "id": "17692034246043"
-  },
-  {
-    "title": "JSX for AI Video：AI生成视频的新方式",
-    "summary": "varg/sdk 提供了基于 JSX 的 AI 视频生成解决方案。",
-    "detail": "varg/sdk 是一个用于 AI 视频渲染的声明性编程语言，允许 AI 代理编写 JSX 代码来生成视频。该工具支持 TypeScript，并提供了一致的 API 来统一处理视频、图像、语音和音乐生成。通过简洁的语法和错误提示，开发者可以高效地创建高质量的视频内容。varg/sdk 目前处于公测阶段，已被多家团队采用。",
-    "tags": [
-      "New",
-      "JavaScript"
-    ],
-    "link": "https://varg.ai/sdk",
-    "date": "2026-01-23",
-    "id": "17692001238070"
-  },
-  {
-    "title": "达沃斯会议：AI 成为焦点话题",
-    "summary": "2026 年达沃斯会议中，AI 成为主要议题。",
-    "detail": "2026 年的世界经济论坛年度会议在瑞士达沃斯举行，AI 技术成为会议的核心议题。与会者包括 Meta 和 Salesforce 等科技巨头的 CEO，他们讨论了 AI 在各个行业的应用及其潜在风险。会议期间，CEO 们提出了对贸易政策的批评，并警告了 AI 可能带来的负面影响，如技术失业和社会不平等。",
-    "tags": [
-      "News",
-      "AI"
-    ],
-    "link": "https://techcrunch.com/video/how-did-davos-turn-into-a-tech-conference/",
-    "date": "2026-01-23",
-    "id": "17692001238071"
   }
 ]
