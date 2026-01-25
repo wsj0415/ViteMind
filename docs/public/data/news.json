@@ -1,5 +1,53 @@
 [
   {
+    "title": "苹果即将发布由Gemini驱动的Siri助手",
+    "summary": "苹果将在2月推出与谷歌合作开发的新版Siri助手。",
+    "detail": "苹果公司计划在2月发布其最新的Siri助手版本，该版本将由其与谷歌合作开发的Gemini AI系统驱动。此次更新标志着两家科技巨头在人工智能领域的合作成果首次应用于消费者产品。Gemini AI系统旨在提供更智能、更个性化的语音交互体验，有望显著提升用户对Siri的满意度和使用频率。",
+    "tags": [
+      "News",
+      "AI"
+    ],
+    "link": "https://techcrunch.com/2026/01/25/apple-will-reportedly-unveil-its-gemini-powered-siri-assistant-in-february/",
+    "date": "2026-01-25",
+    "id": "17693615733650"
+  },
+  {
+    "title": "sync-conf - 跨机器同步AI代理配置",
+    "summary": "sync-conf 是一个用于跨机器同步AI代理配置的工具。",
+    "detail": "sync-conf 是一个开源工具，允许开发者通过Git跨多台机器同步AI代理配置。该工具支持跟踪流行的AI代理，分享预设，并确保配置的一致性和完整性。sync-conf 的出现简化了多设备环境下的配置管理，提高了开发效率。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://sync-conf.dev/",
+    "date": "2026-01-25",
+    "id": "17693615733651"
+  },
+  {
+    "title": "nano-agent - 极简Python库用于构建AI代理",
+    "summary": "nano-agent 是一个极简Python库，用于构建基于DAG的AI代理。",
+    "detail": "nano-agent 是一个轻量级的Python库，旨在简化AI代理的开发过程。该库利用有向无环图（DAG）结构来组织和执行复杂的任务流，使得开发者可以更高效地构建和管理AI代理。nano-agent 的设计目标是提供灵活性和易用性，适合各种规模的项目。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://github.com/NTT123/nano-agent",
+    "date": "2026-01-25",
+    "id": "17693615733652"
+  },
+  {
+    "title": "Priivacy.ai - 保护隐私的AI平台",
+    "summary": "Priivacy.ai 提供企业级隐私保护，确保AI工作流程的安全性。",
+    "detail": "Priivacy.ai 是一个专注于隐私保护的AI平台，能够在不泄露敏感数据的情况下启用强大的AI功能。该平台采用浏览器端处理技术，确保所有个人身份信息（PII）检测都在本地完成，不会有任何数据传输到服务器。Priivacy.ai 支持GDPR和HIPAA合规要求，适用于多种行业，包括医疗保健、金融和政府。",
+    "tags": [
+      "New",
+      "Privacy"
+    ],
+    "link": "https://priivacy.ai/",
+    "date": "2026-01-25",
+    "id": "17693615733653"
+  },
+  {
     "title": "苹果AI战略调整：Siri即将推出两个新版本",
     "summary": "苹果计划在iOS 26.4和iOS 27中推出两个新版本的Siri。",
     "detail": "苹果正在进行其AI战略的重大调整，其中包括对其语音助手Siri的改进。据《彭博社》报道，苹果计划在即将发布的iOS 26.4和iOS 27中推出两个新版本的Siri。这些更新将提升Siri的功能性和用户体验，使其更好地服务于用户。",
@@ -1169,53 +1217,5 @@
     "link": "https://arxiv.org/abs/2601.14171",
     "date": "2026-01-24",
     "id": "17692252895840"
-  },
-  {
-    "title": "Yann LeCun的新创业公司AMI Labs",
-    "summary": "Yann LeCun离开Meta创立AMI Labs，专注于构建世界模型。",
-    "detail": "著名AI科学家Yann LeCun在离开Meta后，创立了名为AMI Labs的新公司。该公司致力于开发“世界模型”，这是一种能够模拟现实世界的复杂系统，旨在推动人工智能技术的进一步发展。LeCun希望通过AMI Labs的研究，探索如何构建更加通用和强大的AI模型，以解决当前AI领域面临的诸多挑战。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/01/23/whos-behind-ami-labs-yann-lecuns-world-model-startup/",
-    "date": "2026-01-24",
-    "id": "17692252895841"
-  },
-  {
-    "title": "AI代理权限控制讨论",
-    "summary": "Hacker News上讨论AI代理在生产环境中如何执行工具调用的权限控制。",
-    "detail": "Hacker News社区发起了一场关于AI代理在生产环境中执行工具调用时如何进行权限控制的讨论。参与者分享了他们在实际项目中所采用的各种方法，包括在工具包装器内部、网关/代理层以及集中式策略服务层面实施权限控制。此外，还探讨了身份验证和授权机制、日志记录策略以及如何安全地推出这些控制措施等内容。",
-    "tags": [
-      "Dev",
-      "Security"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46740645",
-    "date": "2026-01-24",
-    "id": "17692252895842"
-  },
-  {
-    "title": "AI代理沙箱化的反思",
-    "summary": "作者Tuan-Anh Tran反思了之前对AI代理沙箱化的观点，并认为过度复杂化并不必要。",
-    "detail": "Tuan-Anh Tran在其博客中反思了自己早期对AI代理沙箱化的观点。他原本认为需要复杂的多层隔离来防止代理误操作导致灾难性后果。然而，在实际应用中发现这种做法过于复杂，没有带来预期的效果。Tran强调，简单性和优雅性往往比过度工程更能解决问题。",
-    "tags": [
-      "Dev",
-      "Security"
-    ],
-    "link": "https://tuananh.net/2026/01/22/i-was-wrong-about-ai-agent-sandboxing/",
-    "date": "2026-01-24",
-    "id": "17692252895843"
-  },
-  {
-    "title": "AI驱动的开发平台OpenHands发布",
-    "summary": "OpenHands是一个AI驱动的开发工具，旨在简化软件开发流程。",
-    "detail": "OpenHands是一个新兴的AI驱动开发平台，旨在通过集成先进的AI技术来简化软件开发流程。该平台提供了多种功能，包括代码生成、调试辅助和自动化测试等。核心优势在于其能够理解和执行复杂的开发任务，从而提高开发效率。OpenHands的推出为开发者提供了一个强大的工具，有望改变传统的软件开发模式。",
-    "tags": [
-      "New",
-      "AI Tools"
-    ],
-    "link": "https://github.com/OpenHands/OpenHands",
-    "date": "2026-01-24",
-    "id": "17692192090251"
   }
 ]
