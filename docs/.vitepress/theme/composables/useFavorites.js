@@ -108,11 +108,11 @@ export function useFavorites() {
     if (!supabase || !userId) return
 
     try {
-      const { error } = await supabase
-        .from('user_favorites')
-        .delete()
-        .eq('user_id', userId)
-        .eq('news_id', newsId)
+      // Sentinel Security Fix: Use RPC to prevent mass deletion vulnerability
+      const { error } = await supabase.rpc('remove_user_favorite', {
+        p_user_id: userId,
+        p_news_id: newsId
+      })
 
       if (error) throw error
     } catch (e) {
