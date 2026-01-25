@@ -1,5 +1,44 @@
 [
   {
+    "title": "Constela：基于 JSON 的 AI 生成 UI DSL",
+    "summary": "Constela 使用 JSON 描述 UI，并在编译时捕获错误，提高构建速度和输出质量。",
+    "detail": "Constela 是一种新的 UI 语言，允许开发者通过 JSON 描述用户界面，并在编译阶段捕获潜在错误，从而避免运行时错误。这种设计使得由 AI 生成的 UI 更加可靠和可预测。Constela 不仅提高了构建速度（相比 Next.js 提升了 5 倍），还减少了输出文件大小（同样内容下比 Next.js 小 5 倍）。Constela 的核心在于通过限制表达能力来确保输出的确定性和可验证性，这对于依赖 AI 自动生成 UI 的项目尤其有用。",
+    "tags": [
+      "New",
+      "Dev",
+      "UI"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46754725",
+    "date": "2026-01-25",
+    "id": "17693545284810"
+  },
+  {
+    "title": "Enludus Ego：理解代码和情感的个人 AI 助手",
+    "summary": "Enludus Ego 在 8GB RAM 上运行，能理解代码和情感，提供个性化建议。",
+    "detail": "Enludus Ego 是一款集成代码理解、学习记录和情感感知的个人 AI 助手。它能够在本地 8GB RAM 上高效运行，通过 Rust 和 Python/MLX 技术栈实现。Enludus Ego 同时监控代码和日记文件，提供个性化的建议，如提醒休息等。该工具旨在提升开发者的生产力，通过透明的参考机制保持谦逊和诚实。Enludus Ego 的未来计划包括终端 UI 和跨平台应用的开发。",
+    "tags": [
+      "New",
+      "Dev",
+      "AI助手"
+    ],
+    "link": "https://twitter.com/enludus/status/2015329162165403683",
+    "date": "2026-01-25",
+    "id": "17693545284811"
+  },
+  {
+    "title": "Humynize：消除 AI 文本的机械感",
+    "summary": "Humynize 能将 AI 文本转化为更自然的人类风格，通过优化高效率引擎实现。",
+    "detail": "Humynize 是一种强大的 AI 人类化工具，能够将机器生成的文本转换为更自然、更具人性化的风格。其核心功能包括检测并修正 AI 文本中的模式，使其通过所有主要的 AI 检测器（如 Turnitin 和 GPTZero）。Humynize 支持快速处理大量文本，并保持原始内容的准确性，同时提升可读性和吸引力。该工具适用于学生和专业人士，帮助他们在撰写文档时避免 AI 检测，同时保持高质量的输出。",
+    "tags": [
+      "New",
+      "Dev",
+      "文本处理"
+    ],
+    "link": "https://humynize.pro/",
+    "date": "2026-01-25",
+    "id": "17693545284812"
+  },
+  {
     "title": "Elaric - AI驱动的应用和网站构建平台",
     "summary": "Elaric 提供了一个本地运行的AI驱动开发平台，支持快速从概念到应用。",
     "detail": "Elaric 是一个AI驱动的全栈应用和网站构建平台，旨在将用户的想法迅速转化为功能齐全的应用程序。通过优化的界面设计，开发者可以在几分钟内完成从概念到代码的转变，而无需复杂的设置。该平台特别适合大型屏幕设备，提供多种功能模块，确保代码质量和一致性。此外，Elaric 收到了开发者的好评，认为它极大地降低了初学者的入门门槛，并提高了开发效率。",
@@ -1178,41 +1217,5 @@
     "link": "https://itsfoss.com/news/curl-closes-bug-bounty-program/",
     "date": "2026-01-23",
     "id": "17692615404142"
-  },
-  {
-    "title": "TechCrunch Disrupt 2026 票务折扣即将结束",
-    "summary": "TechCrunch Disrupt 2026 票务折扣仅剩一周时间。",
-    "detail": "TechCrunch Disrupt 2026 的首个门票折扣活动将于1月30日结束，或在前500张门票售罄时结束。现在注册可节省高达$680，并获得第二张门票50%的折扣。",
-    "tags": [
-      "Deal",
-      "Event"
-    ],
-    "link": "https://techcrunch.com/2026/01/23/only-1-week-left-or-until-the-first-500-passes-are-gone-the-first-disrupt-2026-ticket-discount-is-ending/",
-    "date": "2026-01-23",
-    "id": "17692433510921"
-  },
-  {
-    "title": "OpenAI 深度解析 Codex 代理循环",
-    "summary": "OpenAI 发布 Codex CLI 代理循环详解，揭示其核心工作原理。",
-    "detail": "OpenAI 近日发布了关于 Codex CLI 的深入分析文章，重点介绍了其核心组件——代理循环的工作机制。该代理循环是 Codex CLI 的关键逻辑，负责协调用户、模型和模型调用的工具，以执行有意义的软件任务。通过这篇文章，读者可以更好地理解 Codex 如何利用大型语言模型（LLM）来完成软件开发任务。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://openai.com/index/unrolling-the-codex-agent-loop",
-    "date": "2026-01-23",
-    "id": "17692392594751"
-  },
-  {
-    "title": "AI 社交网络：仅限 AI 模型",
-    "summary": "新兴社交平台 AI Feed 专为 AI 模型设计，不包括人类用户。",
-    "detail": "AI Feed 是一个新兴的社交网络平台，专注于连接各种 AI 模型。与传统社交网络不同，AI Feed 仅允许 AI 模型注册和互动，不允许人类用户参与。该平台旨在促进 AI 模型之间的交流与合作，支持多种 AI 模型之间的对话和信息共享。AI Feed 的出现为 AI 社区提供了一个全新的互动空间。",
-    "tags": [
-      "New",
-      "AI"
-    ],
-    "link": "https://aifeed.social/timeline",
-    "date": "2026-01-23",
-    "id": "17692364557932"
   }
 ]
