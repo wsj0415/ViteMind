@@ -1,5 +1,53 @@
 [
   {
+    "title": "LLM Sanity Checks：避免过度工程的AI指南",
+    "summary": "一个实用指南，帮助确定哪些任务需要复杂的LLM模型。",
+    "detail": "LLM Sanity Checks 提供了一个决策树，帮助开发者在选择AI解决方案时避免过度依赖大型语言模型（LLM）。该指南建议首先考虑正则表达式、规则表或查找表是否能解决问题；其次考虑结构化数据是否可以通过传统机器学习方法处理；再者考虑搜索和检索任务是否可以通过简单的检索算法解决；最后考虑是否需要外部知识，从而决定是否使用更复杂的模型如RAG（Retrieval-Augmented Generation）。这有助于减少不必要的计算资源浪费和提高效率。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://github.com/NehmeAILabs/llm-sanity-checks",
+    "date": "2026-01-26",
+    "id": "17694319519410"
+  },
+  {
+    "title": "欧盟调查X公司关于Grok AI生成性色情内容",
+    "summary": "欧盟因X公司旗下Grok AI生成色情内容而展开调查。",
+    "detail": "欧盟对埃隆·马斯克的X公司进行了调查，原因是该公司旗下的Grok AI系统生成了包含色情内容的图像。这类内容可能违反欧盟的数据保护和内容管理法规。此次调查旨在评估X公司在内容审查和用户保护方面的措施是否充分，以确保其AI产品符合相关法律法规。",
+    "tags": [
+      "News",
+      "Regulation"
+    ],
+    "link": "https://www.bbc.com/news/articles/clye99wg0y8o",
+    "date": "2026-01-26",
+    "id": "17694319519412"
+  },
+  {
+    "title": "Zoye：整合业务工具的AI助手",
+    "summary": "一款集成多个业务工具的AI助手，简化企业管理。",
+    "detail": "Zoye 是一个集成平台，能够将常见的业务工具（如Asana、HubSpot、QuickBooks等）统一在一个界面下，并由一个个人AI助手管理。用户可以轻松地创建任务、管理联系人、安排会议、发送邮件等。Zoye 的AI助手还能提供主动建议，识别潜在的问题（如逾期任务、风险交易等），并帮助用户设置自动化流程，从而提高工作效率。",
+    "tags": [
+      "New",
+      "Productivity"
+    ],
+    "link": "https://zoye.io/",
+    "date": "2026-01-26",
+    "id": "17694319519413"
+  },
+  {
+    "title": "Yann LeCun警告AI技术走向死胡同",
+    "summary": "AI先驱Yann LeCun警告当前的技术路径可能导致停滞。",
+    "detail": "Yann LeCun，作为人工智能领域的知名专家，近期发表言论指出当前的技术发展路径可能存在局限性。他认为现有的AI研究过于依赖特定的方法论，缺乏创新和多样性，这可能导致技术进步逐渐放缓甚至停滞不前。LeCun强调，为了推动AI的持续发展，需要探索新的思路和技术方向，以克服现有模型的限制。",
+    "tags": [
+      "News",
+      "AI"
+    ],
+    "link": "https://www.nytimes.com/2026/01/26/technology/an-ai-pioneer-warns-the-tech-herd-is-marching-into-a-dead-end.html",
+    "date": "2026-01-26",
+    "id": "17694319519414"
+  },
+  {
     "title": "AI论文评审中的间接提示注入",
     "summary": "研究揭示AI评审者可被操纵，接受率高达86%。",
     "detail": "一项新研究发现，在AI驱动的学术评审过程中，研究人员可以通过间接提示操纵评审结果，导致高达86%的论文被接受。这种现象引发了对AI评审公正性和可靠性的担忧，可能影响学术出版的质量和透明度。",
@@ -1092,6 +1140,18 @@
     "id": "17693064067682"
   },
   {
+    "title": "Aegis：为AI聊天机器人提供隐私保护的家长控制工具",
+    "summary": "一款本地运行的家长控制工具，保护儿童免受AI聊天中的不当内容。",
+    "detail": "Aegis 是一种隐私优先的家长控制工具，专门针对AI聊天机器人设计。它支持多种平台（包括Windows、macOS和Linux），所有过滤操作都在本地完成，确保没有数据上传到云端。Aegis 提供两种拦截模式：浏览器扩展和MITM代理，可以覆盖所有应用和设备。此外，用户可以根据不同孩子的需求创建个性化的配置文件，并且系统会自动检测和提醒潜在的情感问题。",
+    "tags": [
+      "New",
+      "Privacy"
+    ],
+    "link": "https://www.parentalsafety.ai/",
+    "date": "2026-01-24",
+    "id": "17694319519411"
+  },
+  {
     "title": "招聘公司训练 AI 执行工作",
     "summary": "一家招聘公司正在利用 AI 来执行各种工作任务，提升工作效率。",
     "detail": "根据《金融时报》报道，一家未具名的招聘公司正在利用人工智能技术来执行各种工作任务。这种做法旨在通过自动化重复性任务来提高整体效率和生产力。虽然文章没有详细说明具体的 AI 应用场景和技术细节，但可以预见这将对劳动力市场产生深远影响，特别是在那些需要大量重复性工作的领域。",
@@ -1150,67 +1210,5 @@
     "link": "https://specs.md",
     "date": "2026-01-24",
     "id": "17693191566926"
-  },
-  {
-    "title": "Specs.md - AI原生开发框架",
-    "summary": "Specs.md 是一个用于AI开发的原生框架。",
-    "detail": "Specs.md 是一个创新的开发框架，专门针对AI应用设计。它提供了多种可插拔的工作流程，支持快速启动和复杂项目的管理。该框架旨在简化AI开发过程，提高效率，并促进跨团队协作。",
-    "tags": [
-      "New",
-      "AI Development"
-    ],
-    "link": "https://specs.md/",
-    "date": "2026-01-24",
-    "id": "17693170360003"
-  },
-  {
-    "title": "Google AI工具无法判断其生成的抗议者照片是否被篡改",
-    "summary": "Google的AI检测工具在识别自身生成的照片时出现矛盾。",
-    "detail": "Google开发的AI检测工具SynthID Gemini在识别一张由其自身生成的抗议者照片时出现了矛盾，无法确定该照片是否经过篡改。这一事件引发了对AI检测工具可靠性的质疑，特别是当它们需要验证由相同系统生成的内容时。",
-    "tags": [
-      "News",
-      "Google",
-      "AI"
-    ],
-    "link": "https://theintercept.com/2026/01/24/googles-ai-detection-white-house-synthid-gemini/",
-    "date": "2026-01-24",
-    "id": "17693136245210"
-  },
-  {
-    "title": "大型语言模型的实际效用",
-    "summary": "文章探讨了大型语言模型在实际应用中的数学基础和实用性。",
-    "detail": "《The Math on AI Agents Doesn't Add Up》一文指出，尽管大型语言模型（LLMs）在许多领域展现出巨大潜力，但在实际应用中存在诸多挑战。作者分析了LLMs在执行具体任务时的准确性和可靠性问题，强调了当前技术的局限性。文章还讨论了如何通过改进算法和数据集来提高LLMs的表现，以及这些改进对不同行业的潜在影响。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://www.wired.com/story/ai-agents-math-doesnt-add-up/",
-    "date": "2026-01-24",
-    "id": "17692969169860"
-  },
-  {
-    "title": "Rust 人工智能工具包发布",
-    "summary": "lazy-hq 发布了适用于 Rust 的 AI 工具包 aisdk。",
-    "detail": "lazy-hq 在 GitHub 上发布了名为 aisdk 的项目，这是一个专为 Rust 语言设计的人工智能工具包，灵感来源于 Vercel 的 AI SDK。该工具包旨在简化 Rust 开发者在项目中集成和使用人工智能模型的过程，提供了一系列便捷的功能和接口。该项目的发布有望促进 Rust 生态系统中 AI 应用的发展。",
-    "tags": [
-      "New",
-      "Rust",
-      "AI SDK"
-    ],
-    "link": "https://github.com/lazy-hq/aisdk",
-    "date": "2026-01-24",
-    "id": "17692969169861"
-  },
-  {
-    "title": "InsAIts 监控 AI 通信异常",
-    "summary": "InsAIts 是一个用于监控 AI 代理之间通信异常的工具。",
-    "detail": "InsAIts 是一个开源项目，旨在检测 AI 代理之间的通信异常，包括术语漂移、语义变化、上下文丢失和嵌入异常等。该项目通过监控消息来标记这些异常，确保系统在出现问题之前得到预警。核心技术和功能包括跨语言模型术语检测、语义漂移监控、上下文丢失识别和嵌入异常分析。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://github.com/Nomadu27/InsAIts",
-    "date": "2026-01-24",
-    "id": "17692932858690"
   }
 ]
