@@ -1,5 +1,65 @@
 [
   {
+    "title": "Fiddler AI 完成 3000 万美元 C 轮融资，致力于 AI 控制平面",
+    "summary": "Fiddler AI 获得 3000 万美元 C 轮融资，推动其 AI 控制平面技术发展。",
+    "detail": "Fiddler AI 宣布完成 3000 万美元的 C 轮融资，资金将用于进一步开发和推广其 AI 控制平面技术。该技术旨在帮助企业在大规模部署 AI 应用时，实现更好的监控、管理和优化。Fiddler 的解决方案能够提供实时的模型监控、数据解释和性能分析，帮助企业确保 AI 系统的安全性和可靠性。",
+    "tags": [
+      "News",
+      "AI"
+    ],
+    "link": "https://www.fiddler.ai/blog/series-c",
+    "date": "2026-01-27",
+    "id": "17695315679300"
+  },
+  {
+    "title": "NVIDIA 推出 PersonaPlex：自然对话 AI，任意角色与声音",
+    "summary": "NVIDIA 发布 PersonaPlex，实现自然对话同时支持自定义角色和声音。",
+    "detail": "NVIDIA 推出了名为 PersonaPlex 的全新 AI 模型，能够在对话过程中同时实现自然交流和角色定制。该模型具备全双工能力，能够实时理解并生成对话内容，同时支持用户选择不同的角色和声音。PersonaPlex 解决了传统 AI 对话系统中存在的自然度与定制性之间的矛盾，为用户提供更加真实、流畅的交互体验。",
+    "tags": [
+      "New",
+      "LLM"
+    ],
+    "link": "https://research.nvidia.com/labs/adlr/personaplex/",
+    "date": "2026-01-27",
+    "id": "17695315679301"
+  },
+  {
+    "title": "Clawdbot 内存架构深度解析：构建记忆驱动的 AI 助手",
+    "summary": "Clawdbot 通过内存架构实现持续对话，记住用户的偏好和上下文。",
+    "detail": "Clawdbot 通过独特的内存架构设计，解决了传统 AI 助手在对话中容易遗忘用户信息的问题。该系统从底层构建了记忆机制，使得 AI 能够记住用户的偏好、决策和项目进度，从而提供更连续和个性化的服务。Clawdbot 的记忆系统不仅限于单次对话，还能跨会话保持一致，为用户提供无缝的交互体验。",
+    "tags": [
+      "Dev",
+      "Memory"
+    ],
+    "link": "https://avasdream.com/blog/clawdbot-memory-system-deep-dive",
+    "date": "2026-01-27",
+    "id": "17695315679302"
+  },
+  {
+    "title": "Lumina：开源 AI 系统可观测性平台",
+    "summary": "Lumina 提供轻量级的 AI 系统可观测性解决方案，支持成本、延迟和质量跟踪。",
+    "detail": "Lumina 是一个开源的、基于 OpenTelemetry 的 AI 系统可观测性平台，旨在帮助开发者轻松监控和管理大型语言模型的应用。该平台提供了实时追踪、成本和延迟监控等功能，能够帮助用户全面了解 AI 系统的运行状态，提升系统的稳定性和效率。Lumina 支持自托管和云服务两种部署方式，适用于各种规模的企业和组织。",
+    "tags": [
+      "Dev",
+      "Observability"
+    ],
+    "link": "https://github.com/use-lumina/Lumina",
+    "date": "2026-01-27",
+    "id": "17695315679303"
+  },
+  {
+    "title": "RadOps：AI 驱动的多代理 DevOps 平台",
+    "summary": "RadOps 利用 AI 自动化 DevOps 工作流，提高开发效率。",
+    "detail": "RadOps 是一个 AI 驱动的多代理 DevOps 平台，旨在通过自动化工具简化和加速软件开发流程。该平台利用先进的 AI 技术，实现对 DevOps 工作流的智能管理和优化，包括代码部署、监控、测试等多个环节。RadOps 的目标是为企业提供高效、可靠的 DevOps 解决方案，提升整体开发效率和产品质量。",
+    "tags": [
+      "New",
+      "DevOps"
+    ],
+    "link": "https://github.com/mehrdadrad/radops",
+    "date": "2026-01-27",
+    "id": "17695315679304"
+  },
+  {
     "title": "Risotto 获得 1000 万美元种子轮融资，利用 AI 简化票务系统",
     "summary": "Risotto 通过 AI 自动解决帮助台工单，获得 1000 万美元种子轮融资。",
     "detail": "Risotto 是一家专注于利用 AI 技术简化票务系统的公司。公司近日宣布获得 1000 万美元种子轮融资，由 Bonfire Ventures 领投。Risotto 的核心产品是能够自主解决帮助台工单的 AI 系统，这将大大提高票务系统的效率和用户体验。此次融资将用于进一步开发和推广该技术。",
@@ -1144,65 +1204,5 @@
     "link": "https://akshen.com/",
     "date": "2026-01-26",
     "id": "17694233304941"
-  },
-  {
-    "title": "多智能体工具开发指南",
-    "summary": "OpenAgents发布教程，介绍如何使用项目模板创建多智能体工具。",
-    "detail": "OpenAgents博客发布了一篇关于如何使用项目模板创建多智能体工具的教程。通过这个教程，开发者可以构建一个协调的多智能体工作流，并通过MCP暴露工具。示例系统“替代服务查找器”展示了多个代理如何协同工作以找到和比较替代服务。学习完本教程后，用户可以利用多智能体系统来查找和比较各种Web服务。",
-    "tags": [
-      "Dev",
-      "Multi-Agent Systems"
-    ],
-    "link": "https://openagents.org/blog/posts/2026-01-10-walkthrough-creating-a-multi-agent-tool-with",
-    "date": "2026-01-26",
-    "id": "17694233304942"
-  },
-  {
-    "title": "AI对英国就业市场的影响",
-    "summary": "摩根士丹利报告称，AI导致的裁员对英国影响最大。",
-    "detail": "摩根士丹利发布的一份报告指出，AI引发的裁员对英国经济的影响最为显著。报告分析了不同国家和地区因AI技术进步而产生的就业结构变化，结果显示英国受到的影响尤为严重。这反映出英国在AI技术转型过程中面临的挑战和机遇。",
-    "tags": [
-      "News",
-      "AI Impact"
-    ],
-    "link": "https://www.bloomberg.com/news/newsletters/2026-01-26/ai-job-cuts-hit-britain-hardest-morgan-stanley-says",
-    "date": "2026-01-26",
-    "id": "17694233304943"
-  },
-  {
-    "title": "MegaNova Studio 推出角色优先工作空间",
-    "summary": "MegaNova Studio 推出专注于构建具有一致性的 AI 角色的工作空间。",
-    "detail": "MegaNova Studio 宣布推出 Character Studio，这是一个浏览器基的工作空间，专门用于构建具有持久个性、记忆和行为的 AI 角色。与其他 AI 工具不同，Character Studio 强调角色连续性，将性格、行为、记忆和测试工作流分开管理，确保角色在长时间对话中保持一致。这对于需要长期互动的应用程序（如虚拟助手、游戏中的非玩家角色等）尤为重要。",
-    "tags": [
-      "New",
-      "AI"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46763378",
-    "date": "2026-01-26",
-    "id": "17694202019351"
-  },
-  {
-    "title": "Synthesia 达到 40 亿美元估值，员工可现金兑现",
-    "summary": "Synthesia 获得 2 亿美元 E 轮融资，估值升至 40 亿美元。",
-    "detail": "英国初创企业 Synthesia，其 AI 平台帮助公司创建交互式培训视频，完成了 2 亿美元的 E 轮融资，公司估值由此升至 40 亿美元，较去年增长近 19 倍。此次融资将进一步支持 Synthesia 的技术开发和市场扩展，使其能够更好地服务于全球客户，提供更先进的 AI 内容创作解决方案。",
-    "tags": [
-      "News",
-      "AI"
-    ],
-    "link": "https://techcrunch.com/2026/01/26/synthesia-hits-4b-valuation-lets-employees-cash-in/",
-    "date": "2026-01-26",
-    "id": "17694202019352"
-  },
-  {
-    "title": "英国AI裁员最严重，摩根士丹利警告",
-    "summary": "摩根士丹利指出，英国受到AI裁员的影响最大。",
-    "detail": "摩根士丹利发布报告指出，尽管全球范围内AI技术正在快速发展和应用，但英国的AI相关行业正面临严峻的裁员挑战。这主要是由于企业加速自动化进程，导致对传统岗位的需求减少。该报告分析了多个行业的就业数据，发现IT、金融和技术服务等领域受影响最为严重。摩根士丹利建议政府和企业采取措施，帮助受影响的员工转岗或提升技能，以适应新的就业市场环境。",
-    "tags": [
-      "News",
-      "AI"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-01-26/ai-job-cuts-are-landing-hardest-in-britain-morgan-stanley-says",
-    "date": "2026-01-26",
-    "id": "17694165148620"
   }
 ]
