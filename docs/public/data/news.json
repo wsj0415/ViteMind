@@ -1,5 +1,44 @@
 [
   {
+    "title": "Mozilla构建AI联盟对抗OpenAI和Anthropic",
+    "summary": "Mozilla正建立一个AI联盟，旨在挑战行业巨头OpenAI和Anthropic。",
+    "detail": "Mozilla宣布正在构建一个名为“AI叛逆联盟”的项目，目标是与OpenAI和Anthropic等大型AI公司竞争。这一联盟的成立反映了Mozilla在AI领域的雄心壮志以及对现有市场格局的挑战。Mozilla希望通过这个联盟开发出更开放、更符合用户隐私和安全需求的AI技术。此举不仅会对现有的AI市场格局产生影响，也可能推动整个行业的创新和发展。",
+    "tags": [
+      "News",
+      "Alliance",
+      "Mozilla"
+    ],
+    "link": "https://www.cnbc.com/2026/01/27/mozilla-building-an-ai-rebel-alliance-to-take-on-openai-anthropic-.html",
+    "date": "2026-01-27",
+    "id": "17695420841260"
+  },
+  {
+    "title": "Larry Ellison：AI竞赛将由拥有企业私有数据者主导",
+    "summary": "Larry Ellison认为，拥有企业私有数据的公司将引领AI竞赛。",
+    "detail": "Oracle首席执行官Larry Ellison表示，AI竞赛的关键在于获取和利用企业私有数据。他认为，那些能够访问和分析大量企业内部数据的公司将拥有显著优势，从而在AI技术和应用的发展中占据领先地位。这一观点强调了数据在AI发展中的核心作用，同时也揭示了未来企业在AI竞争中的战略重点。",
+    "tags": [
+      "News",
+      "Data",
+      "Larry Ellison"
+    ],
+    "link": "https://www.ibtimes.co.uk/larry-ellison-says-ai-race-will-led-those-access-private-enterprise-data-1774101",
+    "date": "2026-01-27",
+    "id": "17695420841261"
+  },
+  {
+    "title": "Google发布ATLAS：多语言模型的实用扩展定律",
+    "summary": "Google发布了ATLAS，用于指导多语言模型的高效开发。",
+    "detail": "Google的研究团队发布了ATLAS（Adaptive Transfer Scaling Laws），这是首个针对多语言模型训练和优化的公共扩展定律。ATLAS研究涵盖了774次训练运行，涉及10M至8B参数的模型，并评估了48种语言的数据。这项研究为开发者提供了宝贵的指导，帮助他们在构建多语言模型时更好地平衡语言组合、模型大小和数据量，从而提高效率和性能。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Google"
+    ],
+    "link": "https://research.google/blog/atlas-practical-scaling-laws-for-multilingual-models/",
+    "date": "2026-01-27",
+    "id": "17695420841262"
+  },
+  {
     "title": "Cosmic JS 推出 AI 工作流",
     "summary": "Cosmic JS 推出 AI 工作流功能，自动化多步骤项目。",
     "detail": "Cosmic JS 宣布推出 **AI 工作流** 功能，允许用户将多个 AI 代理按顺序或并行连接起来，自动完成复杂的操作。通过工作流，可以定义和配置多步骤自动化任务，提高效率。该功能支持内容代理、代码代理和计算机使用代理三种类型，适用于需要多步协调的真实世界项目。",
@@ -1168,41 +1207,5 @@
     "link": "https://davidschilling.de/2026/01/11/reviving-bettertyping-org-with-ai-coding-agents.html",
     "date": "2026-01-26",
     "id": "17694351531981"
-  },
-  {
-    "title": "Log Hound - 基于AI的AWS CloudWatch日志搜索工具",
-    "summary": "Log Hound 是一个使用Rust编写的AI驱动的AWS CloudWatch日志搜索工具。",
-    "detail": "Log Hound 是一个创新的日志搜索工具，专为AWS CloudWatch设计。它采用Rust编写，利用AI技术来优化日志搜索过程。这款工具可以帮助开发者更高效地查找和分析CloudWatch中的日志数据，提升运维效率。",
-    "tags": [
-      "New",
-      "Rust"
-    ],
-    "link": "https://github.com/Unayung/log-hound",
-    "date": "2026-01-26",
-    "id": "17694351531982"
-  },
-  {
-    "title": "LLM Sanity Checks：避免过度工程的AI指南",
-    "summary": "一个实用指南，帮助确定哪些任务需要复杂的LLM模型。",
-    "detail": "LLM Sanity Checks 提供了一个决策树，帮助开发者在选择AI解决方案时避免过度依赖大型语言模型（LLM）。该指南建议首先考虑正则表达式、规则表或查找表是否能解决问题；其次考虑结构化数据是否可以通过传统机器学习方法处理；再者考虑搜索和检索任务是否可以通过简单的检索算法解决；最后考虑是否需要外部知识，从而决定是否使用更复杂的模型如RAG（Retrieval-Augmented Generation）。这有助于减少不必要的计算资源浪费和提高效率。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://github.com/NehmeAILabs/llm-sanity-checks",
-    "date": "2026-01-26",
-    "id": "17694319519410"
-  },
-  {
-    "title": "欧盟调查X公司关于Grok AI生成性色情内容",
-    "summary": "欧盟因X公司旗下Grok AI生成色情内容而展开调查。",
-    "detail": "欧盟对埃隆·马斯克的X公司进行了调查，原因是该公司旗下的Grok AI系统生成了包含色情内容的图像。这类内容可能违反欧盟的数据保护和内容管理法规。此次调查旨在评估X公司在内容审查和用户保护方面的措施是否充分，以确保其AI产品符合相关法律法规。",
-    "tags": [
-      "News",
-      "Regulation"
-    ],
-    "link": "https://www.bbc.com/news/articles/clye99wg0y8o",
-    "date": "2026-01-26",
-    "id": "17694319519412"
   }
 ]
