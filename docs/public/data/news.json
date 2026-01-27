@@ -1,5 +1,29 @@
 [
   {
+    "title": "XAgent CLI：自主生活的人工智能助手",
+    "summary": "XAgent CLI 可以控制鼠标和键盘，实现自动化任务。",
+    "detail": "XAgent CLI 是一个由 xAgent-AI 开发的命令行工具，旨在通过人工智能控制用户的鼠标和键盘，实现自动化任务。该工具使用 Node.js 和 TypeScript 编写，支持多种操作系统。它允许用户编写脚本来执行复杂的操作序列，从而提高工作效率。XAgent CLI 的出现为开发者提供了一个强大的工具，能够简化日常操作，提升生产力。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://github.com/xAgent-AI/xagent",
+    "date": "2026-01-27",
+    "id": "17695029401670"
+  },
+  {
+    "title": "Anthropic 发布 MCP Apps 开放规范",
+    "summary": "Anthropic 宣布了 MCP Apps 规范，并在 Claude.ai 中提供支持。",
+    "detail": "Anthropic 在 Claude.ai 中引入了 MCP Apps 规范，这是一种开放的应用程序接口标准，旨在促进 AI 应用程序之间的互操作性。该规范得到了 OpenAI、Block、VS Code 等多家公司的支持。MCP Apps 规范的发布将有助于建立一个丰富的开源生态系统，使得开发者可以更容易地创建和集成 AI 应用程序，推动 AI 技术的发展。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://www.latent.space/p/ainews-anthropic-launches-the-mcp",
+    "date": "2026-01-27",
+    "id": "17695029401671"
+  },
+  {
     "title": "《巨网站》：AI与人类合作的失败案例",
     "summary": "Lukas Bergdoll 分析了 GiganticWebsites 使用 AI 生成大量文章的失败案例。",
     "detail": "Lukas Bergdoll 在其博客中详细分析了 GiganticWebsites 的案例。该公司试图利用 AI 生成大量文章来构建大型网站，但由于文章质量低下且缺乏原创性，最终未能成功。尽管 GiganticWebsites 宣称生成了 30,000 多篇“独特”文章，但实际内容质量堪忧，引发了广泛质疑。这一案例揭示了当前 AI 在内容生成方面的局限性和挑战。",
@@ -156,6 +180,18 @@
     "link": "https://aimotioncontrol.net",
     "date": "2026-01-27",
     "id": "17694790035233"
+  },
+  {
+    "title": "利用 AI 自动化 Python 安全审计",
+    "summary": "AI 能够在几秒钟内完成 Python 代码的安全审计。",
+    "detail": "通过结合 AI 和机器学习技术，可以显著提高 Python 代码的安全审计效率。文章指出，虽然大多数 AI 工具在实际的网络安全方面应用有限，但人类的知识工作，特别是设计和安全方面，仍然是不可或缺的。利用 AI 进行代码审计可以在短时间内发现潜在的安全问题，减少手动审查的时间和成本，提升软件的安全性。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://nocomplexity.substack.com/p/from-hours-to-seconds-automating",
+    "date": "2026-01-26",
+    "id": "17695029401672"
   },
   {
     "title": "主权 AI 的熵：地图并非领土",
@@ -1165,41 +1201,5 @@
     "link": "https://tomaszmachnik.pl/case-study-math-en.html",
     "date": "2026-01-25",
     "id": "17693833313265"
-  },
-  {
-    "title": "Humans& 推出协作模型",
-    "summary": "Humans&, 成立于多家知名AI公司的校友团队，正开发新一代协作基础模型。",
-    "detail": "Humans& 是一家由 Anthropic、Meta、OpenAI、xAI 和 Google DeepMind 的校友创立的初创公司。该公司专注于开发下一代基础模型，旨在促进人类之间的协作，而不仅仅是聊天功能。这一举措标志着人工智能领域从单一任务处理向更复杂的协作任务迈进，有望在团队合作和项目管理等领域产生深远影响。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/01/25/humans-thinks-coordination-is-the-next-frontier-for-ai-and-theyre-building-a-model-to-prove-it/",
-    "date": "2026-01-25",
-    "id": "17693797327430"
-  },
-  {
-    "title": "Sentinel - AI代理零信任治理工具",
-    "summary": "Sentinel 是一个用于 AI 代理的零信任治理库，简化安全控制。",
-    "detail": "Sentinel 是一个用于实现零信任治理的 Python 库，旨在确保 AI 代理的安全操作。通过简单的装饰器机制，开发者可以轻松地为 AI 代理设置访问规则，限制其对敏感操作的权限，从而防止潜在的安全风险。这一工具对于保护企业关键数据和资源具有重要意义。",
-    "tags": [
-      "New",
-      "Python"
-    ],
-    "link": "https://github.com/azdhril/Sentinel",
-    "date": "2026-01-25",
-    "id": "17693797327431"
-  },
-  {
-    "title": "用 Claude Code 构建个人 AI 助手",
-    "summary": "Ron Forbes 指导如何在 15 分钟内构建个人 AI 助手，无需编程。",
-    "detail": "Ron Forbes，Meta Quest 的产品经理，分享了他如何使用 Claude Code 构建了一个名为 RonOS 的个人操作系统，该系统包括笔记管理、会议总结和日常任务自动化等功能。文章强调，掌握 AI 工具并不需要成为专家，而是可以通过逐步自动化日常任务来提升生产力。",
-    "tags": [
-      "Dev",
-      "AI"
-    ],
-    "link": "https://www.ronforbes.com/blog/build-your-personal-ai-assistant-with-claude-code",
-    "date": "2026-01-25",
-    "id": "17693760357290"
   }
 ]
