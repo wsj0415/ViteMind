@@ -1,5 +1,44 @@
 [
   {
+    "title": "Kimurai: AI-Assisted Web Scraping Framework for Ruby",
+    "summary": "Kimurai 使用 AI 自动识别数据位置，提供高效、低成本的网页抓取解决方案。",
+    "detail": "Kimurai 是一个基于 Ruby 的 AI 驱动的网页抓取框架，通过智能 DSL（领域特定语言）帮助开发者轻松编写抓取脚本。它利用 AI 技术自动检测数据所在的位置，并缓存选择器，从而实现高效的网页抓取。Kimurai 的优势在于能够获得大型语言模型（LLM）的智能，同时避免每次请求带来的延迟和高昂的令牌费用。这对于需要大量数据抓取的应用程序来说是一个极具吸引力的选择。",
+    "tags": [
+      "Dev",
+      "Ruby",
+      "Web Scraping"
+    ],
+    "link": "https://github.com/vifreefly/kimuraframework",
+    "date": "2026-01-28",
+    "id": "17696048469860"
+  },
+  {
+    "title": "Agent Notify: 多渠道通知工具支持 AI 编码代理",
+    "summary": "Agent Notify 提供多种通知方式（声音、macOS 提醒、语音等）以增强 AI 编码代理的功能。",
+    "detail": "Agent Notify 是一个多渠道通知系统，旨在增强 AI 编码代理（如 Claude Code、Cursor 和 Codex）的功能。该工具支持多种通知方式，包括声音提醒、macOS 系统通知、语音通知以及通过 ntfy 服务发送通知。这使得开发者可以更方便地监控和管理其 AI 编码代理的工作状态，提高工作效率。",
+    "tags": [
+      "Dev",
+      "AI",
+      "Notifications"
+    ],
+    "link": "https://github.com/cfngc4594/agent-notify",
+    "date": "2026-01-28",
+    "id": "17696048469861"
+  },
+  {
+    "title": "Meta-Corning 合作揭示 AI 基础设施瓶颈",
+    "summary": "Meta 和 Corning 的合作表明光纤基础设施成为 AI 发展的新瓶颈。",
+    "detail": "Meta 和 Corning 的光纤合作揭示了当前 AI 基础设施面临的一个关键瓶颈——光纤网络。随着 AI 模型的规模不断扩大，对高速、低延迟的数据传输需求日益增长。Meta 和 Corning 的合作旨在通过先进的光纤技术提升数据传输能力，但这也突显了现有基础设施可能无法满足未来 AI 应用的需求，成为制约 AI 发展的重要因素。",
+    "tags": [
+      "News",
+      "AI Infrastructure",
+      "Fiber Optics"
+    ],
+    "link": "https://www.networkworld.com/article/4123460/meta-corning-fiber-deal-signals-a-new-bottleneck-in-ai-infrastructure.html",
+    "date": "2026-01-28",
+    "id": "17696048469862"
+  },
+  {
     "title": "AI可见性不保证推荐",
     "summary": "研究揭示AI系统中品牌可见性与推荐决策之间的矛盾。",
     "detail": "该研究发现，在多轮对话测试中，品牌在初期阶段保持可见和正面描述，但在推荐环节却被移除，这挑战了现有优化框架，并提出新的测量和治理问题，尤其在美容和个人护理领域。",
@@ -1172,41 +1211,5 @@
     "link": "https://www.seedance2pro.net",
     "date": "2026-01-27",
     "id": "17694858170700"
-  },
-  {
-    "title": "解锁 GPT-OSS 的代理强化学习训练",
-    "summary": "Hugging Face 发布关于 GPT-OSS 的代理强化学习训练的回顾文章。",
-    "detail": "Hugging Face 的研究人员介绍了如何通过代理强化学习（Agentic RL）优化 GPT-OSS 的决策过程。与传统的单轮强化学习不同，代理强化学习通过与环境互动来收集数据，从而在多步轨迹中优化策略。这种方法允许模型在复杂的环境中做出更智能的决策。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl",
-    "date": "2026-01-27",
-    "id": "17694790035230"
-  },
-  {
-    "title": "高通投资 SpotDraft，估值翻倍至 4 亿美元",
-    "summary": "高通支持 SpotDraft，其合同处理量同比增长 173%，估值达到 4 亿美元。",
-    "detail": "高通对 SpotDraft 进行了新一轮投资，使公司的估值从 2 亿美元增长到 4 亿美元。SpotDraft 是一家专注于合同处理的人工智能公司，利用 AI 技术每年处理超过 100 万份合同，并且其合同处理量在过去一年中增长了 173%。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/01/26/qualcomm-backs-spotdraft-to-scale-on-device-contract-ai-with-valuation-doubling-toward-400m/",
-    "date": "2026-01-27",
-    "id": "17694790035231"
-  },
-  {
-    "title": "OpenAI 揭示其 AI 编码代理的工作原理",
-    "summary": "OpenAI 公开其 AI 编码代理的技术细节。",
-    "detail": "OpenAI 分享了其 AI 编码代理的技术实现细节，包括如何使用自然语言处理和机器学习技术来生成高质量的代码建议。该代理能够理解开发者的意图，并提供上下文相关的代码补全和修复建议，显著提高编码效率。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://arstechnica.com/ai/2026/01/openai-spills-technical-details-about-how-its-ai-coding-agent-works/",
-    "date": "2026-01-27",
-    "id": "17694790035232"
   }
 ]
