@@ -1,5 +1,29 @@
 [
   {
+    "title": "PolicyLayer：防止AI代理耗尽你的钱包",
+    "summary": "PolicyLayer提供非托管交易限额，确保AI代理的安全性。",
+    "detail": "PolicyLayer通过四种加密属性确保交易的安全性，包括意图指纹、单次使用令牌、立即预留和非托管架构。这使得任何篡改和利用都变得数学上不可能。用户可以设置各种规则，如每笔交易限额、时间限制、接收方白名单等，以全面控制代理行为。",
+    "tags": [
+      "Dev",
+      "Security"
+    ],
+    "link": "https://www.policylayer.com/",
+    "date": "2026-01-29",
+    "id": "17696863688840"
+  },
+  {
+    "title": "AI编码代理失败的研究",
+    "summary": "研究揭示了GitHub上AI编码代理失败的具体原因。",
+    "detail": "该研究通过对GitHub上失败的代理拉取请求进行实证分析，揭示了AI编码代理失败的主要原因，包括代码质量、测试不足和集成问题。研究结果为提高AI代理的成功率提供了宝贵的见解。",
+    "tags": [
+      "Dev",
+      "Research"
+    ],
+    "link": "https://arxiv.org/abs/2601.15195",
+    "date": "2026-01-29",
+    "id": "17696863688841"
+  },
+  {
     "title": "Google 发布 AI Studio",
     "summary": "Google 推出 AI Studio，集成多种 AI 模型。",
     "detail": "Google 宣布推出其最新的集成开发环境 **AI Studio**，旨在简化从概念到生产的 AI 应用开发流程。用户可以在统一的平台上测试和实验文本、图像、音频和视频模型，并利用强大的 Gemini 3 模型快速构建和部署应用程序。此外，AI Studio 提供了详细的文档和资源管理工具，帮助开发者高效地管理和监控项目。",
@@ -291,6 +315,30 @@
     "link": "https://www.businessinsider.com/bank-of-america-nvidia-ai-internal-emails-2026-1",
     "date": "2026-01-29",
     "id": "17696523791113"
+  },
+  {
+    "title": "Anders Hejlsberg谈AI：只是重复已有的工作",
+    "summary": "TypeScript的发明者认为AI只是在重复别人的工作。",
+    "detail": "Anders Hejlsberg认为当前的AI系统更像是一个“大再生器”，它主要依赖于已有数据和模式进行生成，缺乏真正的创新。这引发了对AI未来发展方向的思考。",
+    "tags": [
+      "News",
+      "AI"
+    ],
+    "link": "https://devclass.com/2026/01/28/typescript-inventor-anders-hejlsberg-ai-is-a-big-regurgitator-of-stuff-someone-has-done/",
+    "date": "2026-01-28",
+    "id": "17696863688843"
+  },
+  {
+    "title": "AI自我对话提升学习效果",
+    "summary": "研究表明AI通过自我对话能够更好地学习。",
+    "detail": "Okinawa科学技术研究所的一项研究发现，AI通过自我对话可以显著提高学习效率。这一发现为AI的学习机制提供了新的视角，并可能推动相关技术的发展。",
+    "tags": [
+      "Dev",
+      "Research"
+    ],
+    "link": "https://www.oist.jp/news-center/news/2026/1/28/ai-learns-better-when-it-talks-itself",
+    "date": "2026-01-28",
+    "id": "17696863688844"
   },
   {
     "title": "小企业为何需要AI代理认证",
@@ -1163,53 +1211,5 @@
     "link": "https://aicoloringpage.org/",
     "date": "2026-01-28",
     "id": "17695823077442"
-  },
-  {
-    "title": "CooperBench揭示AI代理协作难题",
-    "summary": "斯坦福大学和SAP Labs研究发现，AI代理协作表现远低于单个代理。",
-    "detail": "斯坦福大学与SAP Labs联合发布CooperBench，研究AI代理协作能力。研究发现，即使在相同工作量下，双代理协作的成功率仅为25%，比单代理低约50%。协作失败主要源于期望不一致、沟通不畅和承诺违背等问题。该研究揭示了AI系统与人类或其他代理协作面临的根本障碍。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://cooperbench.com/",
-    "date": "2026-01-28",
-    "id": "17695781926900"
-  },
-  {
-    "title": "Local Agent：本地化AI代理实验平台",
-    "summary": "Local Agent是一个本地化的AI代理运行时，支持多种功能和安全特性。",
-    "detail": "Local Agent是一个本地化的AI代理实验平台，旨在探索和学习代理运行时、工具安全性模型、RAG管道、内存管理和本地持久性。该平台支持本地LLM，内置RAG功能，并提供沙盒执行环境和完整的审计跟踪。Local Agent的目标是通过实验来学习和改进，而不是作为生产就绪框架。",
-    "tags": [
-      "New",
-      "Python"
-    ],
-    "link": "https://github.com/danieljhkim/local-agent",
-    "date": "2026-01-28",
-    "id": "17695781926901"
-  },
-  {
-    "title": "AgentWallet：AI代理财务守门员",
-    "summary": "AgentWallet为AI代理提供财务控制和审计功能，防止资金滥用。",
-    "detail": "AgentWallet是一个财务控制工具，旨在为AI代理提供必要的限制和监控。它包括支出限制、审批阈值、时间窗口等功能，并提供完整的审计跟踪，确保AI代理不会超出指定的财务范围。",
-    "tags": [
-      "New",
-      "Python"
-    ],
-    "link": "https://agentwallet-dashboard.vercel.app",
-    "date": "2026-01-28",
-    "id": "17695781926902"
-  },
-  {
-    "title": "Moltbot — 个人AI助手",
-    "summary": "Moltbot 可以处理邮件、日程管理、航班签到等任务。",
-    "detail": "Moltbot 是一款能够执行实际任务的个人AI助手，支持通过WhatsApp、Telegram等多种聊天应用操作。它可以自动清理收件箱、发送邮件、管理日程、办理航班签到等。用户反馈显示，Moltbot 具有持久记忆、个性化设置和多平台集成等功能，能够显著提高工作效率。",
-    "tags": [
-      "New",
-      "LLM"
-    ],
-    "link": "https://www.molt.bot/",
-    "date": "2026-01-28",
-    "id": "17695755535820"
   }
 ]
