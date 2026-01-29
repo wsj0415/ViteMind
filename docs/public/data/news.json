@@ -1,5 +1,29 @@
 [
   {
+    "title": "AI决策记录的必要性",
+    "summary": "论文探讨了AI决策缺乏记录的问题，提出了“推理账本”的概念。",
+    "detail": "本文由AIVO Standard发表，探讨了当前AI治理方法的一个关键盲点：大多数AI治理方法关注的是输出结果，而忽略了决策过程本身无法重建的问题。作者提出了“推理账本”这一概念，认为这是确保AI决策在后续审查中可解释性的必要工具。该论文强调了现有日志和审计机制的不足，并指出了AI决策通过多轮交互、叙事压缩和不确定性折叠等方式影响信念和行动的特点。",
+    "tags": [
+      "News",
+      "AI Governance"
+    ],
+    "link": "https://www.aivojournal.org/reasoning-without-records/",
+    "date": "2026-01-29",
+    "id": "17696694478690"
+  },
+  {
+    "title": "AI生成服装设计工具发布",
+    "summary": "AI Clothes Changer提供虚拟试穿和在线换装服务。",
+    "detail": "AI Clothes Changer是一个新兴的AI工具，允许用户通过AI技术进行虚拟试衣和在线换装。该工具利用先进的AI算法生成不同的服装搭配方案，帮助用户轻松探索各种时尚搭配。这种技术不仅提升了用户体验，也为服装行业提供了新的营销和服务模式。",
+    "tags": [
+      "New",
+      "AI应用"
+    ],
+    "link": "https://aiclothes.ai/",
+    "date": "2026-01-29",
+    "id": "17696694478691"
+  },
+  {
     "title": "GitHub 资源：AI 系统构建指南",
     "summary": "GitHub 上的资源详细介绍 AI 系统从基础到高级的构建过程。",
     "detail": "该项目详细介绍了从数学基础到核心模型、检索与记忆、AI 代理、开发者工具和新兴趋势的 AI 系统构建过程。通过该资源，开发者可以了解 AI 的底层逻辑和复杂性，从而更好地设计和实现 AI 系统。",
@@ -120,6 +144,18 @@
     "link": "https://www.businessinsider.com/bank-of-america-nvidia-ai-internal-emails-2026-1",
     "date": "2026-01-29",
     "id": "17696523791113"
+  },
+  {
+    "title": "小企业为何需要AI代理认证",
+    "summary": "LastPass博客探讨了AI代理认证的重要性。",
+    "detail": "LastPass在其博客中介绍了AI代理认证的概念及其对小型企业的必要性。随着AI技术的发展，越来越多的企业开始使用AI代理来处理日常任务。然而，这带来了安全和隐私方面的挑战。AI代理认证旨在确保这些代理的安全性和可靠性，防止未经授权的访问和潜在的安全威胁。文章详细解释了AI代理认证的工作原理及其对企业运营的重要影响。",
+    "tags": [
+      "News",
+      "AI Security"
+    ],
+    "link": "https://blog.lastpass.com/posts/ai-agent-authentication",
+    "date": "2026-01-28",
+    "id": "17696694478692"
   },
   {
     "title": "AI公司的盈利能力探讨",
@@ -1172,41 +1208,5 @@
     "link": "https://www.theguardian.com/technology/2026/jan/27/wake-up-to-the-risks-of-ai-they-are-almost-here-anthropic-boss-warns",
     "date": "2026-01-27",
     "id": "17695929921462"
-  },
-  {
-    "title": "'AI镜子'改变盲人自我认知方式",
-    "summary": "AI技术帮助盲人通过图像识别了解自己的外观。",
-    "detail": "本文介绍了如何利用AI技术帮助盲人通过图像识别来获取关于自己外观的信息。应用程序Be My Eyes利用AI处理图像，为用户提供有关皮肤状况和外观的反馈，这对于从未见过自己形象的盲人来说是一次革命性的变化。文章还探讨了这种技术对盲人心理和情感生活的影响。",
-    "tags": [
-      "News",
-      "AI应用"
-    ],
-    "link": "https://www.bbc.com/future/article/20260126-ai-mirrors-are-changing-the-way-blind-people-see-themselves",
-    "date": "2026-01-27",
-    "id": "17695562573231"
-  },
-  {
-    "title": "See-SURF：AI驱动的安全工具检测SSRF漏洞",
-    "summary": "介绍See-SURF，一个AI增强的安全工具，用于检测SSRF漏洞。",
-    "detail": "See-SURF是一款结合AI技术的安全扫描工具，旨在检测和验证潜在的服务器端请求伪造（SSRF）参数。该工具支持多线程爬虫、Burp Suite集成、认证扫描等功能，并通过AI分析响应头生成自定义负载，以提高检测准确性。这款工具对于保护Web应用程序免受SSRF攻击具有重要意义。",
-    "tags": [
-      "Dev",
-      "Security"
-    ],
-    "link": "https://github.com/In3tinct/See-SURF",
-    "date": "2026-01-27",
-    "id": "17695562573232"
-  },
-  {
-    "title": "Coding with AI而不让权力旁落",
-    "summary": "讨论如何在使用AI编程时保持控制权。",
-    "detail": "本文探讨了在使用AI辅助编程时如何保持对代码的完全控制。作者强调了理解AI的工作机制和限制的重要性，并提供了几种策略，确保开发者能够在享受AI带来的便利的同时，不会失去对项目方向和代码质量的掌控。",
-    "tags": [
-      "Dev",
-      "Programming"
-    ],
-    "link": "https://medium.com/@sig.segv/coding-with-ai-without-giving-up-power-e0c6ca257ad9",
-    "date": "2026-01-27",
-    "id": "17695562573233"
   }
 ]
