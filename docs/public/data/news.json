@@ -1,5 +1,41 @@
 [
   {
+    "title": "《The State of (AI) Code Developer Survey》报告发布",
+    "summary": "SonarSource 发布了最新的开发者调查报告，涵盖 AI 在代码开发中的应用。",
+    "detail": "SonarSource 发布了《State of Code Developer Survey》报告，深入探讨了 AI 技术在软件开发领域的应用现状和未来趋势。报告指出，越来越多的开发者开始使用 AI 工具来提高编码效率和代码质量。核心发现包括 AI 在代码审查、自动化测试和文档生成等方面的应用，以及开发者对 AI 工具的信任度和接受程度。该报告为软件开发行业的技术创新和团队管理提供了宝贵的数据支持。",
+    "tags": [
+      "Dev",
+      "Survey"
+    ],
+    "link": "https://www.sonarsource.com/resources/developer-survey-report/",
+    "date": "2026-01-29",
+    "id": "17696724625820"
+  },
+  {
+    "title": "AI 生成叙事的权威性缺口研究",
+    "summary": "AIVO Standard 发表论文，探讨 AI 生成内容的权威性问题。",
+    "detail": "AIVO Standard 发表了名为《The Reconstructability Gap: How AI-Generated Narratives Acquire Authority Without Records》的论文，揭示了 AI 生成内容在缺乏可追溯记录的情况下获得权威性的现象。研究指出，在决策相关场景下，概率系统生成的叙述虽然能够影响人们的信念和行动，但往往缺乏持久、可归因或可重构的记录，从而形成所谓的“权威性缺口”。这一现象独立于具体领域、正确性和意图，源于对话生成、不确定性压缩及机构记录缺失之间的相互作用。",
+    "tags": [
+      "Dev",
+      "Research"
+    ],
+    "link": "https://zenodo.org/records/18408102",
+    "date": "2026-01-29",
+    "id": "17696724625821"
+  },
+  {
+    "title": "工厂 AI 自动化中的“100x 规则”",
+    "summary": "Hacker News 讨论了在制造行业中应用 AI 时遵循“100x 规则”的重要性。",
+    "detail": "Hacker News 上的一篇讨论指出，在制造业中引入 AI 之前，应遵循“100x 规则”，即非标准化流程必须先经过至少 100 次迭代优化，以确保其稳定性和安全性。作者基于在 Sysmex 和 Toyota Group 的工作经验，强调在物理世界中，AI 错误可能导致严重的后果，如伤害、召回或生产线中断。因此，与软件开发中的快速迭代不同，制造业中的 AI 应用需要更加谨慎和细致的准备。",
+    "tags": [
+      "Dev",
+      "Manufacturing"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46803831",
+    "date": "2026-01-29",
+    "id": "17696724625822"
+  },
+  {
     "title": "AI决策记录的必要性",
     "summary": "论文探讨了AI决策缺乏记录的问题，提出了“推理账本”的概念。",
     "detail": "本文由AIVO Standard发表，探讨了当前AI治理方法的一个关键盲点：大多数AI治理方法关注的是输出结果，而忽略了决策过程本身无法重建的问题。作者提出了“推理账本”这一概念，认为这是确保AI决策在后续审查中可解释性的必要工具。该论文强调了现有日志和审计机制的不足，并指出了AI决策通过多轮交互、叙事压缩和不确定性折叠等方式影响信念和行动的特点。",
@@ -1172,41 +1208,5 @@
     "link": "https://news.shib.io/2026/01/27/new-ai-agent-clawdbot-exposes-users-to-remote-hijacking/",
     "date": "2026-01-27",
     "id": "17696216233692"
-  },
-  {
-    "title": "AI 代理幻觉问题及其预防策略",
-    "summary": "探讨 AI 代理幻觉的原因及预防方法，减少执行错误。",
-    "detail": "Manveer Chaudhary 在其文章中深入分析了 AI 代理幻觉的问题，即模型生成错误信息或执行不当操作的情况。文章指出，幻觉分为内在（与上下文矛盾）、外在（制造不可验证的事实）和功能/工具（错误使用工具/API）三种类型。功能幻觉尤其危险，可能导致错误的 API 调用或假设任务可解。为减少幻觉，作者建议采用检索增强（RAG）获取事实、严格的 JSON 模式验证工具调用、人工审核高风险操作，并通过日志和监控调试错误。",
-    "tags": [
-      "Dev",
-      "AI Safety"
-    ],
-    "link": "https://manveerc.substack.com/p/ai-agent-hallucinations-prevention",
-    "date": "2026-01-27",
-    "id": "17696216233694"
-  },
-  {
-    "title": "美国政府告诫最高法院AI作品不应受版权保护",
-    "summary": "美国政府在最高法院提出，AI生成的作品不应享有版权保护。",
-    "detail": "美国政府向最高法院提交了一份文件，主张AI生成的内容不应受到版权法的保护。这一立场引发了广泛争议，因为它直接影响到创作者、技术公司以及知识产权法律的未来发展方向。支持者认为AI作为工具不应享有创作者的权利，而反对者则担心这将削弱原创内容的价值和保护。",
-    "tags": [
-      "News",
-      "Legal"
-    ],
-    "link": "https://www.law.com/nationallawjournal/2026/01/27/no-copyrights-for-ai-works-us-government-tells-supreme-court-/",
-    "date": "2026-01-27",
-    "id": "17695929921461"
-  },
-  {
-    "title": "Anthropic CEO警告AI风险迫在眉睫",
-    "summary": "Anthropic的CEO发出警告，强调AI带来的风险已经迫在眉睫。",
-    "detail": "Anthropic的CEO在《卫报》上发表文章，强调当前AI技术的发展速度远远超过了监管和社会准备的速度。他指出，AI可能导致大规模的劳动力替代，引发经济和社会动荡。CEO呼吁社会各界正视AI风险，加强监管和伦理审查，以确保AI技术的健康发展。",
-    "tags": [
-      "News",
-      "Ethics"
-    ],
-    "link": "https://www.theguardian.com/technology/2026/jan/27/wake-up-to-the-risks-of-ai-they-are-almost-here-anthropic-boss-warns",
-    "date": "2026-01-27",
-    "id": "17695929921462"
   }
 ]
