@@ -1,5 +1,41 @@
 [
   {
+    "title": "AlphaGenome: AI助力基因组理解",
+    "summary": "Google DeepMind发布AlphaGenome，利用AI提升对基因组的理解。",
+    "detail": "Google DeepMind于2025年6月发布了AlphaGenome项目，旨在通过先进的AI技术改善对基因组的研究和理解。该项目结合了DeepMind的机器学习模型与生物学数据，有望加速基因组学领域的发现，并推动个性化医疗的发展。AlphaGenome能够处理大规模的基因数据集，识别复杂的基因模式，并支持药物研发等应用。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/",
+    "date": "2026-01-30",
+    "id": "17697873784370"
+  },
+  {
+    "title": "AI发现OpenSSL全部12个零日漏洞",
+    "summary": "AI系统成功发现OpenSSL中的所有12个未知漏洞。",
+    "detail": "AISLE公司利用其AI系统发现了OpenSSL库中的12个零日漏洞，这是历史上首次AI在实际环境中大规模检测到此类安全漏洞。这一发现展示了AI在网络安全领域的巨大潜力，不仅提高了漏洞检测的效率，还揭示了现有安全机制的不足。同时，curl取消其漏洞奖励计划，反映了AI生成的大量虚假报告带来的挑战。",
+    "tags": [
+      "News",
+      "Cybersecurity"
+    ],
+    "link": "https://www.lesswrong.com/posts/7aJwgbMEiKq5egQbd/ai-found-12-of-12-openssl-zero-days-while-curl-cancelled-its",
+    "date": "2026-01-30",
+    "id": "17697873784371"
+  },
+  {
+    "title": "AI代理架构模式指南",
+    "summary": "GitHub上开源的AI代理架构模式指南，帮助构建可靠的生产级AI代理。",
+    "detail": "devwithmohit在GitHub上分享了一个全面的AI代理架构指南，涵盖从基础概念到生产部署的各个方面。该指南旨在解决当前资源分散的问题，为开发者提供系统的参考框架。内容包括代理定义、决策树、核心模式以及生产工程实践，适合希望将AI代理应用于实际项目的团队。",
+    "tags": [
+      "Dev",
+      "Architecture"
+    ],
+    "link": "https://github.com/devwithmohit/ai-agent-architecture-patterns",
+    "date": "2026-01-30",
+    "id": "17697873784372"
+  },
+  {
     "title": "Amla Sandbox：AI代理的WebAssembly沙盒",
     "summary": "Amla Sandbox提供了一个安全的WebAssembly沙盒环境，用于执行AI代理生成的代码。",
     "detail": "Amla Sandbox是一个基于WebAssembly的安全沙盒工具，旨在解决当前流行的AI代理框架中存在的任意代码执行风险。该工具允许AI代理仅调用显式提供的工具，并且具有严格的文件系统和网络限制。通过这种方式，Amla Sandbox能够提供一个更安全的执行环境，避免潜在的安全漏洞。",
@@ -1171,41 +1207,5 @@
     "link": "https://www.sonarsource.com/resources/developer-survey-report/",
     "date": "2026-01-29",
     "id": "17696724625820"
-  },
-  {
-    "title": "AI 生成叙事的权威性缺口研究",
-    "summary": "AIVO Standard 发表论文，探讨 AI 生成内容的权威性问题。",
-    "detail": "AIVO Standard 发表了名为《The Reconstructability Gap: How AI-Generated Narratives Acquire Authority Without Records》的论文，揭示了 AI 生成内容在缺乏可追溯记录的情况下获得权威性的现象。研究指出，在决策相关场景下，概率系统生成的叙述虽然能够影响人们的信念和行动，但往往缺乏持久、可归因或可重构的记录，从而形成所谓的“权威性缺口”。这一现象独立于具体领域、正确性和意图，源于对话生成、不确定性压缩及机构记录缺失之间的相互作用。",
-    "tags": [
-      "Dev",
-      "Research"
-    ],
-    "link": "https://zenodo.org/records/18408102",
-    "date": "2026-01-29",
-    "id": "17696724625821"
-  },
-  {
-    "title": "工厂 AI 自动化中的“100x 规则”",
-    "summary": "Hacker News 讨论了在制造行业中应用 AI 时遵循“100x 规则”的重要性。",
-    "detail": "Hacker News 上的一篇讨论指出，在制造业中引入 AI 之前，应遵循“100x 规则”，即非标准化流程必须先经过至少 100 次迭代优化，以确保其稳定性和安全性。作者基于在 Sysmex 和 Toyota Group 的工作经验，强调在物理世界中，AI 错误可能导致严重的后果，如伤害、召回或生产线中断。因此，与软件开发中的快速迭代不同，制造业中的 AI 应用需要更加谨慎和细致的准备。",
-    "tags": [
-      "Dev",
-      "Manufacturing"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46803831",
-    "date": "2026-01-29",
-    "id": "17696724625822"
-  },
-  {
-    "title": "AI决策记录的必要性",
-    "summary": "论文探讨了AI决策缺乏记录的问题，提出了“推理账本”的概念。",
-    "detail": "本文由AIVO Standard发表，探讨了当前AI治理方法的一个关键盲点：大多数AI治理方法关注的是输出结果，而忽略了决策过程本身无法重建的问题。作者提出了“推理账本”这一概念，认为这是确保AI决策在后续审查中可解释性的必要工具。该论文强调了现有日志和审计机制的不足，并指出了AI决策通过多轮交互、叙事压缩和不确定性折叠等方式影响信念和行动的特点。",
-    "tags": [
-      "News",
-      "AI Governance"
-    ],
-    "link": "https://www.aivojournal.org/reasoning-without-records/",
-    "date": "2026-01-29",
-    "id": "17696694478690"
   }
 ]
