@@ -1,5 +1,18 @@
 [
   {
+    "title": "Ollama构建匿名AI网络，突破平台限制",
+    "summary": "研究发现，Ollama框架创建了一个全球性的匿名AI计算基础设施，绕过了平台的监控。",
+    "detail": "SentinelLABS和Censys的研究表明，通过Ollama部署的开源AI模型在全球范围内形成了一个庞大的匿名计算网络，涉及175,000多个主机。这些主机主要位于云和住宅网络中，运行着相同的AI模型。研究指出，这种配置可能导致治理难题，并提出了区分管理云部署和边缘基础设施的新方法。",
+    "tags": [
+      "Dev",
+      "Security",
+      "AI"
+    ],
+    "link": "https://www.sentinelone.com/labs/silent-brothers-ollama-hosts-form-anonymous-ai-network-beyond-platform-guardrails/",
+    "date": "2026-01-30",
+    "id": "17698085493021"
+  },
+  {
     "title": "Clawdbot: 本地化AI助手架构解析",
     "summary": "Clawdbot 是一个本地运行的AI助手，支持多消息平台和可交换的AI模型。",
     "detail": "Clawdbot 改变了传统的云AI助手模式，将基础设施、数据和规则掌握在用户手中。它支持29个消息平台，并实现了复杂的并发控制和跨通道身份链接等技术。这种架构有助于提升用户体验和数据安全。",
@@ -797,6 +810,18 @@
     "id": "17697388196654"
   },
   {
+    "title": "AI时间线估计更新：TH1.1版本发布",
+    "summary": "Metr.org发布了新的AI能力时间线估计，改进了任务套件和评估基础设施。",
+    "detail": "Metr.org发布了其AI能力时间线估计的更新版本TH1.1，改进了任务套件并迁移到新的评估基础设施Inspect。研究增加了任务数量，改进了现有任务，并引入了更多的长期任务。这些变化旨在更准确地捕捉AI模型能力的快速增长趋势。",
+    "tags": [
+      "Dev",
+      "AI"
+    ],
+    "link": "https://metr.org/blog/2026-1-29-time-horizon-1-1/",
+    "date": "2026-01-29",
+    "id": "17698085493022"
+  },
+  {
     "title": "Deezer AI音乐流媒体欺诈高达85%",
     "summary": "Deezer报告称，其AI音乐流媒体中有85%的播放量可能是欺诈性的。",
     "detail": "Deezer 发布了一项报告，指出其平台上高达85%的AI音乐流媒体播放量可能是欺诈性的。这种欺诈行为可能导致广告收入的流失，并影响音乐创作者的收益。Deezer 使用AI技术来检测和分析流媒体活动，但仍然难以完全避免这种新型的欺诈手段。此问题凸显了数字音乐平台在AI安全性和用户信任方面的挑战，需要更先进的技术和策略来应对。",
@@ -1180,29 +1205,5 @@
     "link": "https://www.wired.com/story/an-ai-toy-exposed-50000-logs-of-its-chats-with-kids-to-anyone-with-a-gmail-account/",
     "date": "2026-01-29",
     "id": "17697126591026"
-  },
-  {
-    "title": "Google 推出 Project Genie：结合世界模型和图像生成技术",
-    "summary": "Google AI Ultra 用户可使用 Project Genie 进行创意测试。",
-    "detail": "Google 于2026年1月29日推出 Project Genie，这是一个结合了其最新世界模型 Genie 3 和图像生成模型 Nano Banana Pro 的创新工具。用户可以通过输入种子提示在虚拟世界中创建和测试创意，如搭建棉花糖城堡。Project Genie 目前仅对美国的 Google AI Ultra 订阅者开放。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/01/29/i-built-marshmallow-castles-in-googles-new-ai-world-generator-project-genie/",
-    "date": "2026-01-29",
-    "id": "17697083243420"
-  },
-  {
-    "title": "NVIDIA 推出 Cosmos Policy：先进的机器人控制策略",
-    "summary": "NVIDIA 宣布 Cosmos Policy，用于提升机器人控制性能。",
-    "detail": "NVIDIA 于2026年1月29日在 Hugging Face 博客上宣布了 Cosmos Policy，这是一种新的机器人控制策略，基于 Cosmos Predict-2 世界基础模型，通过后训练直接编码机器人动作和未来状态，实现最先进的性能。该策略在 LIBERO 和 RoboCasa 基准测试中表现出色。",
-    "tags": [
-      "News",
-      "Robotics"
-    ],
-    "link": "https://huggingface.co/blog/nvidia/cosmos-policy-for-robot-control",
-    "date": "2026-01-29",
-    "id": "17697083243421"
   }
 ]
