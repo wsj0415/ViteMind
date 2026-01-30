@@ -1,5 +1,53 @@
 [
   {
+    "title": "Clawdbot: 本地化AI助手架构解析",
+    "summary": "Clawdbot 是一个本地运行的AI助手，支持多消息平台和可交换的AI模型。",
+    "detail": "Clawdbot 改变了传统的云AI助手模式，将基础设施、数据和规则掌握在用户手中。它支持29个消息平台，并实现了复杂的并发控制和跨通道身份链接等技术。这种架构有助于提升用户体验和数据安全。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://www.mmntm.net/articles/building-clawdbot",
+    "date": "2026-01-30",
+    "id": "17698051488910"
+  },
+  {
+    "title": "KEA Research: 多AI协作平台介绍",
+    "summary": "KEA Research 结合多个AI模型，验证信息并提供共识答案。",
+    "detail": "KEA Research 通过协调多个AI模型来解决不同AI返回不一致答案的问题，通过交叉验证和共识达成机制，为用户提供可靠的解决方案。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://github.com/KeaBase/kea-research",
+    "date": "2026-01-30",
+    "id": "17698051488911"
+  },
+  {
+    "title": "AI 自学规则测试：结构模式的重要性",
+    "summary": "研究发现系统性经验迭代可以提高AI的指导质量。",
+    "detail": "通过六次迭代实验，研究人员发现结构模式的存在可以使AI指导更准确。这表明AI需要理解人类心理学和社会动态的机械规律，而不仅仅是文化偏好。",
+    "tags": [
+      "News",
+      "AI Safety"
+    ],
+    "link": "https://shablag.substack.com/p/can-ai-learn-its-own-rules-we-tested",
+    "date": "2026-01-30",
+    "id": "17698051488912"
+  },
+  {
+    "title": "Anthropic 在 Cowork 引入智能插件",
+    "summary": "Anthropic 提供插件，帮助 Claude 更好地适应团队工作流程。",
+    "detail": "Anthropic 推出了智能插件，允许用户自定义 Claude 的工作方式，选择使用的工具和数据，处理关键工作流程，并设置特定的命令，以提高团队的一致性和效率。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/2026/01/30/anthropic-brings-agentic-plugins-to-cowork/",
+    "date": "2026-01-30",
+    "id": "17698051488913"
+  },
+  {
     "title": "苹果面临AI人才流失，Siri高管加入谷歌DeepMind",
     "summary": "苹果失去多名AI研究人员和Siri高管，转向谷歌。",
     "detail": "苹果公司最近遭遇了严重的AI人才流失，其中包括Siri业务的一名高级领导加入谷歌DeepMind。这一系列离职反映了科技巨头之间对顶尖AI人才的竞争日益激烈。此次变动可能会影响苹果在语音助手领域的创新能力和市场竞争力。",
@@ -1156,53 +1204,5 @@
     "link": "https://huggingface.co/blog/nvidia/cosmos-policy-for-robot-control",
     "date": "2026-01-29",
     "id": "17697083243421"
-  },
-  {
-    "title": "如何编写更好的 AI 提示：全面指南",
-    "summary": "掌握高级 AI 提示技巧，提升结果质量。",
-    "detail": "《如何编写更好的 AI 提示》提供了一个全面的指南，帮助用户掌握高级 AI 提示技巧，包括精准提示、AI 心理学、模板使用等。该指南通过案例研究和技术专家的见解，展示了如何提高 AI 生成内容的质量和效率。",
-    "tags": [
-      "Dev",
-      "Guides"
-    ],
-    "link": "https://howtomakethebestprompt.com/",
-    "date": "2026-01-29",
-    "id": "17697083243423"
-  },
-  {
-    "title": "音乐出版商起诉 Anthropic 侵犯版权",
-    "summary": "音乐出版商因 Anthropic 使用约 20,000 首受版权保护的作品提起诉讼。",
-    "detail": "音乐出版商对 Anthropic 提起了价值 30 亿美元的诉讼，指控其未经授权使用了约 20,000 首受版权保护的作品。这起诉讼引发了关于 AI 技术在数据使用和版权保护方面合规性的广泛讨论。Anthropic 需要妥善处理这一法律纠纷，以避免进一步的法律风险和声誉损失。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/01/29/music-publishers-sue-anthropic-for-3b-over-flagrant-piracy-of-20000-works/",
-    "date": "2026-01-29",
-    "id": "17697051713070"
-  },
-  {
-    "title": "开发者分享防止 AI 引发的认知退化策略",
-    "summary": "一位开发者探讨如何防止过度依赖 AI 导致的技术技能退化。",
-    "detail": "这位开发者在 Hacker News 上分享了自己在使用大型语言模型（LLM）时遇到的问题，即担心长期使用 LLM 会导致技术技能的退化。他提出了“大脑软化”的概念，并分享了一些个人的解决方案，包括设置使用规则和自我训练计划，以确保 AI 成为加速工具而非依赖工具。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46812446",
-    "date": "2026-01-29",
-    "id": "17697051713071"
-  },
-  {
-    "title": "跨多个 AI 编码工具的通用 Hook 脚本",
-    "summary": "开发了一个适用于多个 AI 编码工具的通用 Hook 脚本。",
-    "detail": "该开发者创建了一个技能，能够统一处理不同 AI 编码工具的 Hook 脚本，支持 Claude Code、Cursor、Gemini CLI 和 OpenCode。这个工具简化了开发者的工作流程，提高了效率，并提供了多种常见用例的模式，如命令拦截、自动格式化和审计日志记录。",
-    "tags": [
-      "Dev",
-      "Coding"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46812347",
-    "date": "2026-01-29",
-    "id": "17697051713072"
   }
 ]
