@@ -1,5 +1,57 @@
 [
   {
+    "title": "Nvidia CEO否认与OpenAI投资合作停滞",
+    "summary": "Nvidia CEO表示与OpenAI的投资合作并未停滞。",
+    "detail": "Nvidia CEO Jensen Huang在回应有关其公司与OpenAI之间存在摩擦的报道时表示，该报道是“无稽之谈”。这一声明表明尽管外界存在疑虑，但两家公司在人工智能领域的合作仍在继续，并未出现预期中的问题。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Nvidia"
+    ],
+    "link": "https://techcrunch.com/2026/01/31/nvidia-ceo-pushes-back-against-report-that-his-companys-100b-openai-investment-has-stalled/",
+    "date": "2026-01-31",
+    "id": "17698845011160"
+  },
+  {
+    "title": "Pydantic发布Monty：Rust编写的Python解释器",
+    "summary": "Pydantic推出Monty，一个用Rust编写的轻量级、安全的Python解释器。",
+    "detail": "Pydantic团队发布了Monty，这是一个最小化且安全的Python解释器，由Rust编写，专为AI应用设计。Monty旨在提供一个高效且安全的Python运行环境，适用于需要高性能和安全性要求的应用场景。",
+    "tags": [
+      "Dev",
+      "Python",
+      "Rust"
+    ],
+    "link": "https://github.com/pydantic/monty",
+    "date": "2026-01-31",
+    "id": "17698845011161"
+  },
+  {
+    "title": "中国AI战略初见成效",
+    "summary": "中国的AI发展战略已经开始显现成果。",
+    "detail": "根据Financial Times的报道，中国政府在人工智能领域的战略规划已经开始取得显著成效。通过一系列政策支持和投资，中国在AI技术研发和应用方面取得了重要进展。",
+    "tags": [
+      "News",
+      "China",
+      "AI Strategy"
+    ],
+    "link": "https://www.ft.com/content/68f60392-88bf-419c-96c7-c3d580ec9d97",
+    "date": "2026-01-31",
+    "id": "17698845011162"
+  },
+  {
+    "title": "Anthropic发布AI代理评估指南",
+    "summary": "Anthropic发布了一篇关于AI代理评估的文章。",
+    "detail": "Anthropic在其工程博客上发表了《Demystifying evals for AI agents》一文，详细介绍了如何设计有效的评估方法来提高AI代理的质量和可靠性。文章强调了自动化评估的重要性，并提供了多种评估结构的设计思路。",
+    "tags": [
+      "Dev",
+      "Evaluation",
+      "AI Agents"
+    ],
+    "link": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+    "date": "2026-01-31",
+    "id": "17698845011163"
+  },
+  {
     "title": "ModelRift: 浏览器中的AI辅助IDE",
     "summary": "ModelRift 是一个基于浏览器的AI辅助IDE，用于生成参数化CAD 3D模型。",
     "detail": "ModelRift 是一个创新的AI工具，允许用户在浏览器中设计和生成复杂的参数化CAD 3D模型。该工具利用先进的机器学习技术，帮助工程师和设计师快速创建和修改3D模型，提高工作效率。通过集成OpenSCAD语言，用户可以轻松地定义和调整模型参数，实现高度自定义的设计。ModelRift 的出现标志着CAD设计领域的一个重要进展，为用户提供了一种更加便捷和智能化的设计体验。",
@@ -1153,55 +1205,5 @@
     "link": "https://github.com/devwithmohit/ai-agent-architecture-patterns",
     "date": "2026-01-30",
     "id": "17697873784372"
-  },
-  {
-    "title": "Amla Sandbox：AI代理的WebAssembly沙盒",
-    "summary": "Amla Sandbox提供了一个安全的WebAssembly沙盒环境，用于执行AI代理生成的代码。",
-    "detail": "Amla Sandbox是一个基于WebAssembly的安全沙盒工具，旨在解决当前流行的AI代理框架中存在的任意代码执行风险。该工具允许AI代理仅调用显式提供的工具，并且具有严格的文件系统和网络限制。通过这种方式，Amla Sandbox能够提供一个更安全的执行环境，避免潜在的安全漏洞。",
-    "tags": [
-      "Dev",
-      "Security"
-    ],
-    "link": "https://github.com/amlalabs/amla-sandbox",
-    "date": "2026-01-30",
-    "id": "17697843513732"
-  },
-  {
-    "title": "PipeDream：为CLI文字冒险添加实时AI视觉效果",
-    "summary": "PipeDream将终端文本冒险游戏与实时AI视觉效果结合。",
-    "detail": "PipeDream是一个开源项目，旨在为基于终端的互动小说（CLI文字冒险）提供实时AI视觉效果。它通过将标准输出传输到生成式AI模型，实现动态图像的生成与展示，从而丰富用户的交互体验。该项目展示了AI技术在传统命令行界面中的创新应用，为开发者提供了新的创作工具。",
-    "tags": [
-      "New",
-      "Python"
-    ],
-    "link": "https://github.com/CPritch/PipeDream",
-    "date": "2026-01-30",
-    "id": "17697816097661"
-  },
-  {
-    "title": "Underscore - AI驱动的云端开发环境",
-    "summary": "Underscore 提供零配置的 AI 助力浏览器开发环境。",
-    "detail": "Underscore 是一个全新的 AI 驱动的云端开发环境，用户无需任何设置即可开始编写代码。它支持多种编程语言和框架模板，包括 Angular、NextJS、Go 和 Python Flask。通过集成 Claude Sonnet 4.5 模型，Underscore 能够理解自然语言指令并生成相应的代码片段。这使得开发者可以快速构建项目，无论是简单的天气仪表盘还是复杂的全栈应用。该平台不仅提供了丰富的模板选择，还支持从 GitHub 克隆仓库或通过 URL 导入现有项目。Underscore 的出现简化了开发流程，降低了入门门槛，有望吸引更多初学者和专业人士。",
-    "tags": [
-      "New",
-      "Dev",
-      "Cloud"
-    ],
-    "link": "https://app.underscore.is/",
-    "date": "2026-01-30",
-    "id": "17697779057430"
-  },
-  {
-    "title": "Ant Group引领中国AI医疗健康市场",
-    "summary": "Jack Ma的Ant Group推出AI健康助手Ant Afu，月活用户达3000万。",
-    "detail": "Ant Group，作为阿里巴巴集团旗下的金融科技子公司，正在引领中国AI医疗健康市场的变革。其推出的AI健康助手Ant Afu，利用人工智能和代理能力回答健康相关问题，建议医院预约，分析检验结果，并提醒用户锻炼或服药。自2022年6月首次亮相以来，Ant Afu的月活跃用户已突破3000万，其中一半以上来自小城市。随着互联网用户对AI健康咨询的需求日益增长，尤其是在医疗资源有限的地区，Ant Afu等产品受到了广泛欢迎。尽管存在患者安全和数据隐私的担忧，这些AI工具仍因其便捷性和个性化服务而被广泛接受。Ant Group凭借Alipay的强大用户基础和支付系统，具备独特的优势，有望进一步扩大其在数字健康领域的影响力。",
-    "tags": [
-      "News",
-      "Healthcare",
-      "AI"
-    ],
-    "link": "https://restofworld.org/2026/ai-health-care-is-taking-off-in-china-led-by-jack-mas-ant-group/",
-    "date": "2026-01-30",
-    "id": "17697779057432"
   }
 ]
