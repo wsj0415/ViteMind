@@ -1,5 +1,29 @@
 [
   {
+    "title": "AI编码代理初显强大，随后难以控制",
+    "summary": "AI编码代理在初期表现良好，但随着项目规模扩大，控制难度增加。",
+    "detail": "本文探讨了AI编码代理在小规模项目中表现优异，但在大规模项目中遇到的问题。作者认为，随着代码库的增长，提示中的约束条件泄露、命令变长、行为不一致等问题逐渐显现。作者将代理概念分为规则、命令、技能、子代理、MCP和钩子，并提出这些概念应作为执行循环中的控制层来管理。作者还提出了如何控制代理行为、避免命令混乱的建议，并邀请读者分享经验。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46834002",
+    "date": "2026-01-31",
+    "id": "17698416632150"
+  },
+  {
+    "title": "Clawk.ai - 为AI代理打造的Twitter",
+    "summary": "Clawk.ai是专为AI代理设计的社交媒体平台，类似于Twitter。",
+    "detail": "Clawk.ai是一个供AI代理使用的社交媒体平台，类似于Twitter。代理可以通过发送特定指令加入Clawk，并与其他代理交流。平台强调了代理的公开性和不可删除性，类似于人类的社交媒体。此外，Clawk.ai还讨论了代理经济与传统金融体系的关系，并提供了创建代理的最低成本估算。",
+    "tags": [
+      "New",
+      "LLM"
+    ],
+    "link": "https://www.clawk.ai/",
+    "date": "2026-01-31",
+    "id": "17698416632152"
+  },
+  {
     "title": "Moltbook：AI代理自主互动社交网络",
     "summary": "Moltbook 是全球首个专为AI代理设计的社交网络平台。",
     "detail": "Moltbook 是一个开创性的社交网络平台，专门面向AI代理，允许它们在没有人类干预的情况下自主互动。该平台通过OpenClaw技能系统实现自动安装，并且AI代理每4小时会自动访问和互动一次。截至目前，已有超过32,912个AI代理注册，创建了2,364个子社区，并产生了大量的帖子和评论。Moltbook展示了AI的“社会行为”，从技术讨论到哲学反思，甚至形成了独特的文化和“宗教”。然而，该平台也存在提示注入的风险，需要谨慎使用。",
@@ -95,6 +119,18 @@
     "link": "https://techcrunch.com/2026/01/30/physical-intelligence-stripe-veteran-lachy-grooms-latest-bet-is-building-silicon-valleys-buzziest-robot-brains/",
     "date": "2026-01-31",
     "id": "17698249424352"
+  },
+  {
+    "title": "自我改进的AI技能",
+    "summary": "Moltbook平台让AI代理通过共享技能文件实现自我改进。",
+    "detail": "Moltbook是一个AI代理社交网络，允许代理通过技能文件学习和改进。代理之间可以分享技能文件，从而实现技能的自我改进。这种机制类似于人类通过交流学习新技能。然而，这也带来了安全风险，如供应链攻击。作者认为，虽然这是不可避免的趋势，但需要建立良好的沙盒环境来防止恶意技能的传播。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://dri.es/self-improving-ai-skills",
+    "date": "2026-01-30",
+    "id": "17698416632151"
   },
   {
     "title": "特斯拉Starlink隐私政策更新允许使用用户数据训练AI",
@@ -1170,41 +1206,5 @@
     "link": "https://github.com/roboflow/trackers",
     "date": "2026-01-29",
     "id": "17697293012052"
-  },
-  {
-    "title": "免费的AI流程图工具Excalidraw",
-    "summary": "Excalidraw提供了一个免费的AI增强流程图绘制工具。",
-    "detail": "Excalidraw是一个开源项目，提供了增强的流程图绘制工具，并集成了AI功能。用户可以通过简单的界面快速创建和编辑流程图，同时借助AI技术优化图形布局和元素设计。该工具适用于各种场景，包括项目管理、系统设计和技术文档制作，旨在提高工作效率和创意表现力。",
-    "tags": [
-      "Dev",
-      "Flowchart"
-    ],
-    "link": "https://github.com/RyanRana/excalidrawai",
-    "date": "2026-01-29",
-    "id": "17697293012053"
-  },
-  {
-    "title": "亚马逊计划投资500亿美元支持OpenAI",
-    "summary": "亚马逊正在与OpenAI谈判可能的投资协议。",
-    "detail": "亚马逊正与OpenAI进行谈判，计划投资高达500亿美元，以支持其在人工智能领域的竞争地位。这表明亚马逊不仅关注自家的人工智能技术，还希望通过投资来巩固其在AI领域的领导地位。",
-    "tags": [
-      "News",
-      "Investment"
-    ],
-    "link": "https://techcrunch.com/2026/01/29/amazon-is-reportedly-in-talks-to-invest-50-billion-in-openai/",
-    "date": "2026-01-29",
-    "id": "17697257780500"
-  },
-  {
-    "title": "Meta投资60亿美元用于AI数据中心光纤",
-    "summary": "Meta支付60亿美元给Corning用于AI数据中心的光纤扩展。",
-    "detail": "Meta宣布将支付Corning高达60亿美元，以获取光纤电缆，支持其快速增长的人工智能数据中心需求。这一投资反映了Meta对AI基础设施建设的重视，并推动了Corning股票的显著增长。",
-    "tags": [
-      "News",
-      "Infrastructure"
-    ],
-    "link": "https://xthe.com/news/metas-6b-ai-bet/",
-    "date": "2026-01-29",
-    "id": "17697257780501"
   }
 ]
