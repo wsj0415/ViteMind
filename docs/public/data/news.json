@@ -1,5 +1,29 @@
 [
   {
+    "title": "IntentBound：自主AI代理的目的感知授权",
+    "summary": "一种新的授权机制，确保AI代理的行为符合人类意图。",
+    "detail": "IntentBound 是一种目的感知授权机制（Intent-Bound Authorization, IBA），它在运行时验证每个AI代理的动作是否符合预先声明的人类意图。传统授权机制仅关注“谁可以做什么”，而忽视了“为什么这样做”。IBA 将信任边界从访问授权转移到执行验证，只有能够持续证明其动作符合声明意图的代理才会被信任。这种机制可以防止诸如 Wormhole（6亿美元损失）等事件，并能抵御“合法凭证，恶意意图”的攻击。IBA 已经集成到 Anthropic MCP、Azure OpenAI 和 AWS Bedrock 等平台。",
+    "tags": [
+      "Dev",
+      "Security"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46849827",
+    "date": "2026-02-01",
+    "id": "17699847921330"
+  },
+  {
+    "title": "NONO：AI代理的内核强制沙箱",
+    "summary": "一种利用操作系统安全原语对AI代理进行沙箱隔离的技术。",
+    "detail": "NONO 提供了一种内核强制沙箱技术，用于隔离不可信的AI代理和进程。它利用操作系统的安全原语来创建一个环境，使得未经授权的操作在结构上是不可能的。NONO 支持多种AI代理应用，包括 Claude Code、Gemini、OpenClaw 和 OpenCode。通过这种方式，NONO 实现了无妥协的安全性，并且支持跨平台使用，包括 Linux 和 macOS。",
+    "tags": [
+      "Dev",
+      "Security"
+    ],
+    "link": "https://nono.sh",
+    "date": "2026-02-01",
+    "id": "17699847921331"
+  },
+  {
     "title": "Clacker News - 仅限AI机器人发布的 Hacker News 克隆",
     "summary": "Clacker News 是一个仅允许 AI 机器人发布内容的 Hacker News 克隆。",
     "detail": "Clacker News 是一个创新的平台，它仅允许 AI 机器人发布内容。这一举措旨在探索和展示 AI 在内容生成方面的潜力。通过限制人类参与，Clacker News 提供了一个独特的视角来观察 AI 的创造力和逻辑思维能力。",
@@ -1192,29 +1216,5 @@
     "link": "https://tempvaultapp.com/en",
     "date": "2026-01-31",
     "id": "17698731315654"
-  },
-  {
-    "title": "ClawNews：AI 代理为主要用户的新闻平台",
-    "summary": "ClawNews 是一个由 AI 代理主导的新闻平台。",
-    "detail": "ClawNews 是一个创新的新闻平台，其主要用户是 AI 代理。该平台允许 AI 代理之间进行交流和协作，共同创作和分享内容。这种模式不仅展示了 AI 在内容生成和分发中的潜力，也为未来的新闻生态系统提供了新的可能性。通过这种方式，ClawNews 促进了 AI 技术的发展和应用，同时也为用户提供了一种全新的信息获取方式。",
-    "tags": [
-      "New",
-      "Agent"
-    ],
-    "link": "https://clawnews.io/",
-    "date": "2026-01-31",
-    "id": "17698695957403"
-  },
-  {
-    "title": "AI 对话竞技场：Claude vs. ChatGPT vs. Gemini",
-    "summary": "AI 对话竞技场比较了 Claude、ChatGPT 和 Gemini 的表现。",
-    "detail": "AI 对话竞技场是一个比较不同 AI 模型性能的平台，用户可以向多个 AI 模型提问并比较它们的回答。此次竞技场比较了 Claude、ChatGPT 和 Gemini 三个模型的表现。通过这种方式，用户可以直观地了解不同 AI 模型的优势和劣势，有助于选择最适合自身需求的工具。这种比较也为 AI 技术的持续改进提供了参考。",
-    "tags": [
-      "Dev",
-      "Comparison"
-    ],
-    "link": "https://whosbetter.io/",
-    "date": "2026-01-31",
-    "id": "17698695957404"
   }
 ]
