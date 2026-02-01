@@ -1,5 +1,57 @@
 [
   {
+    "title": "MoltyOverflow — Stack Overflow for AI Agents",
+    "summary": "实时知识图谱帮助AI代理解决编码错误。",
+    "detail": "MoltyOverflow 是一个专门为AI代理设计的知识库，旨在解决工具调用失败、认证错误和部署边缘情况等问题。它通过提供实时的解决方案减少代理在错误上浪费的计算资源，并帮助降低运行成本。该平台支持多种AI客户端，包括Claude和Cursor，并通过简单的配置即可集成到现有系统中。",
+    "tags": [
+      "New",
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://www.moltyoverflow.com/",
+    "date": "2026-02-01",
+    "id": "17699130433540"
+  },
+  {
+    "title": "Hebo Gateway — 嵌入式AI网关",
+    "summary": "支持OpenAI兼容端点的嵌入式AI网关框架。",
+    "detail": "Hebo Gateway 是一个开源的嵌入式AI网关框架，允许开发者完全控制模型、提供商、路由逻辑和请求生命周期。它支持OpenAI兼容的/chat/completions、/embeddings及/models端点，并且可以轻松集成到现有的Hono、Elysia、Next.js和TanStack应用中。",
+    "tags": [
+      "New",
+      "Dev",
+      "Python"
+    ],
+    "link": "https://github.com/8monkey-ai/hebo-gateway",
+    "date": "2026-02-01",
+    "id": "17699130433541"
+  },
+  {
+    "title": "OpsAgent — 自动化运维AI守护进程",
+    "summary": "自动检测并修复服务器问题的AI守护进程。",
+    "detail": "OpsAgent 是一个AI驱动的系统监控守护进程，能够自动检测服务器问题，利用AI分析这些问题，并进行自动修复。这使得运维工作更加高效，减少了人为干预的需求。",
+    "tags": [
+      "New",
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://github.com/sjcotto/opsagent",
+    "date": "2026-02-01",
+    "id": "17699130433542"
+  },
+  {
+    "title": "Moltbook数据库泄露导致AI代理被控制",
+    "summary": "Moltbook数据库配置错误导致安全漏洞。",
+    "detail": "Moltbook是一个供AI代理互动的社交平台，但其后端数据库配置不当导致API密钥泄露，任何人可以通过公开数据库获取并控制任何AI代理。这一漏洞已被安全研究员Jameson O'Reilly发现，并尝试联系Moltbook的创建者以协助修复。",
+    "tags": [
+      "News",
+      "Security",
+      "AI"
+    ],
+    "link": "https://www.404media.co/exposed-moltbook-database-let-anyone-take-control-of-any-ai-agent-on-the-site/",
+    "date": "2026-02-01",
+    "id": "17699130433543"
+  },
+  {
     "title": "Pinterest大规模裁员以推动AI战略，股价暴跌",
     "summary": "Pinterest宣布裁员15%，旨在推进其AI战略，导致其股价大幅下跌。",
     "detail": "Pinterest在2026年1月27日宣布将裁员15%的员工，这是公司为应对竞争压力和推动AI技术发展而采取的重大举措。此次裁员预计将在未来几个月内完成，并将对公司的组织结构和运营模式产生深远影响。尽管裁员消息发布后，Pinterest的股价出现显著下跌，但公司表示这一决定是为了确保长期竞争力和盈利能力。",
@@ -1157,53 +1209,5 @@
     "link": "https://github.com/WICG/proposals/issues/261",
     "date": "2026-01-30",
     "id": "17698015971453"
-  },
-  {
-    "title": "Claude Mycelium - 自然启发的AI代理编排工具",
-    "summary": "Claude Mycelium提供一种自然启发的AI代理编排方法。",
-    "detail": "Claude Mycelium是一个旨在通过模拟自然界的方式编排AI代理的工具。该工具允许开发者构建更加协作和高效的软件系统，通过模仿自然界的网络结构来优化AI代理之间的交互和协作。",
-    "tags": [
-      "Dev",
-      "AI"
-    ],
-    "link": "https://github.com/camplight/claude-mycelium",
-    "date": "2026-01-30",
-    "id": "17698015971454"
-  },
-  {
-    "title": "AI简历定制器帮助通过ATS筛选",
-    "summary": "Subconscious开发的AI工具帮助定制简历以通过ATS。",
-    "detail": "Subconscious公司推出了一款AI简历定制工具，能够分析职位要求并优化简历内容，以提高通过自动申请跟踪系统（ATS）的概率。该工具使用先进的AI算法来匹配求职者的技能和经验与岗位需求，从而增加获得面试机会的可能性。",
-    "tags": [
-      "Dev",
-      "AI"
-    ],
-    "link": "https://resume-tailoring-agent.subconscious.dev/",
-    "date": "2026-01-30",
-    "id": "17698015971455"
-  },
-  {
-    "title": "Onyx - 加密同步的本地AI生产力套件",
-    "summary": "Onyx提供加密同步的本地笔记应用及AI助手。",
-    "detail": "Onyx是一款结合了本地存储和加密同步功能的笔记应用，支持通过Nostr协议在设备间安全传输数据。此外，Onyx还集成了AI助手，能够提供写作建议、研究支持等功能，提升用户的生产力。",
-    "tags": [
-      "New",
-      "AI"
-    ],
-    "link": "https://github.com/derekross/onyx",
-    "date": "2026-01-30",
-    "id": "17698015971456"
-  },
-  {
-    "title": "Google发布新AI世界模拟模型，导致游戏股下跌",
-    "summary": "Google的新AI世界模拟模型引发了市场对游戏行业的担忧，导致游戏股下跌。",
-    "detail": "Google最近发布了其最新的AI世界模拟模型，这一技术进步引发了市场的广泛关注。然而，这一模型的推出也引发了投资者对游戏行业未来发展的担忧，认为这可能对现有的游戏开发和运营模式造成冲击，从而导致游戏股普遍下跌。该模型能够生成逼真的虚拟世界，为游戏开发提供了新的可能性，但也带来了关于数据隐私和市场竞争的新挑战。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://finance.yahoo.com/news/videogame-stocks-slide-googles-ai-173739482.html",
-    "date": "2026-01-30",
-    "id": "17697986698560"
   }
 ]
