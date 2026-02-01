@@ -1,5 +1,54 @@
 [
   {
+    "title": "Vercel 的 Clawdbot 分支发布",
+    "summary": "Vercel 发布 Clawdbot 的新分支，使用其 AI SDK。",
+    "detail": "Vercel 最近发布了 Clawdbot 的一个新分支，该分支默认使用 Vercel 的 AI SDK，而不是之前的 pi-mono 代理。这个新版本支持双 SDK，非常适合在 Vercel 生态系统中使用 `useChat()` 和 AI SDK v5/6 的开发者。这为开发者提供了一个更加灵活和强大的工具集来构建和部署聊天机器人。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Python"
+    ],
+    "link": "https://github.com/kumarabhirup/openclaw-ai-sdk",
+    "date": "2026-02-01",
+    "id": "17699287251810"
+  },
+  {
+    "title": "FreeMotion - AI 动画生成器",
+    "summary": "FreeMotion 提供免费的 AI 动画生成服务。",
+    "detail": "FreeMotion 是一款基于 AI 的动画生成工具，用户只需描述所需的动画效果，系统即可自动生成相应的动画。这款工具不仅设计美观，还提供了流畅的摄像机运动效果，非常适合需要快速制作动画的用户。",
+    "tags": [
+      "New",
+      "AI"
+    ],
+    "link": "https://www.freemotion.app/",
+    "date": "2026-02-01",
+    "id": "17699287251811"
+  },
+  {
+    "title": "Neumann - 统一数据库与语义缓存",
+    "summary": "Neumann 项目发布，集成语义缓存和 AI 金库。",
+    "detail": "Neumann 是一个由 Shadylukin 开发的项目，旨在创建一个统一的数据库系统，其中包含了语义缓存和 AI 金库功能。该项目通过整合先进的 AI 技术，提供了一种高效的数据管理和检索方式，对于需要处理大量复杂数据的应用场景具有重要意义。",
+    "tags": [
+      "Dev",
+      "Database"
+    ],
+    "link": "https://github.com/Shadylukin/Neumann",
+    "date": "2026-02-01",
+    "id": "17699287251812"
+  },
+  {
+    "title": "Skill.Fish - AI 技能包管理器",
+    "summary": "Skill.Fish 发布，用于管理 AI 编码代理技能。",
+    "detail": "Skill.Fish 是一个类似于 NPM 的包管理工具，专门用于管理 AI 编码代理的技能。开发者可以使用它来安装、更新和同步不同 AI 代理（如 Claude Code、Cursor、Copilot 等）的技能，极大地方便了开发流程。",
+    "tags": [
+      "Dev",
+      "AI"
+    ],
+    "link": "https://github.com/knoxgraeme/skillfish",
+    "date": "2026-02-01",
+    "id": "17699287251813"
+  },
+  {
     "title": "SpacemiT发布RISC-V架构AI芯片",
     "summary": "SpacemiT推出基于RISC-V架构的新一代AI处理器。",
     "detail": "SpacemiT在最新的产品发布会上推出了K3系列RISC-V架构的AI处理器。该芯片采用先进的RISC-V指令集，专为高性能AI计算设计，适用于边缘计算和云计算等多种场景。此次发布标志着RISC-V架构在AI领域的进一步拓展。",
@@ -86,6 +135,18 @@
     "link": "https://www.404media.co/exposed-moltbook-database-let-anyone-take-control-of-any-ai-agent-on-the-site/",
     "date": "2026-02-01",
     "id": "17699130433543"
+  },
+  {
+    "title": "工人抵制 AI：摩擦最大化策略",
+    "summary": "工人通过增加工作摩擦来抵制自动化。",
+    "detail": "据《金融时报》报道，一些工人正在通过增加工作中的摩擦来抵制 AI 自动化。这种策略旨在减缓自动化进程，保护工作岗位。这一现象反映了当前社会对 AI 发展速度和就业影响的担忧。",
+    "tags": [
+      "News",
+      "AI"
+    ],
+    "link": "https://www.ft.com/content/fd5e65df-83c7-42f3-9658-377c99df42d1",
+    "date": "2026-01-31",
+    "id": "17699287251814"
   },
   {
     "title": "Pinterest大规模裁员以推动AI战略，股价暴跌",
@@ -1148,66 +1209,5 @@
     "link": "https://getartcraft.com/news/world-models-for-film",
     "date": "2026-01-30",
     "id": "17698120656742"
-  },
-  {
-    "title": "Ollama构建匿名AI网络，突破平台限制",
-    "summary": "研究发现，Ollama框架创建了一个全球性的匿名AI计算基础设施，绕过了平台的监控。",
-    "detail": "SentinelLABS和Censys的研究表明，通过Ollama部署的开源AI模型在全球范围内形成了一个庞大的匿名计算网络，涉及175,000多个主机。这些主机主要位于云和住宅网络中，运行着相同的AI模型。研究指出，这种配置可能导致治理难题，并提出了区分管理云部署和边缘基础设施的新方法。",
-    "tags": [
-      "Dev",
-      "Security",
-      "AI"
-    ],
-    "link": "https://www.sentinelone.com/labs/silent-brothers-ollama-hosts-form-anonymous-ai-network-beyond-platform-guardrails/",
-    "date": "2026-01-30",
-    "id": "17698085493021"
-  },
-  {
-    "title": "Clawdbot: 本地化AI助手架构解析",
-    "summary": "Clawdbot 是一个本地运行的AI助手，支持多消息平台和可交换的AI模型。",
-    "detail": "Clawdbot 改变了传统的云AI助手模式，将基础设施、数据和规则掌握在用户手中。它支持29个消息平台，并实现了复杂的并发控制和跨通道身份链接等技术。这种架构有助于提升用户体验和数据安全。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://www.mmntm.net/articles/building-clawdbot",
-    "date": "2026-01-30",
-    "id": "17698051488910"
-  },
-  {
-    "title": "KEA Research: 多AI协作平台介绍",
-    "summary": "KEA Research 结合多个AI模型，验证信息并提供共识答案。",
-    "detail": "KEA Research 通过协调多个AI模型来解决不同AI返回不一致答案的问题，通过交叉验证和共识达成机制，为用户提供可靠的解决方案。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://github.com/KeaBase/kea-research",
-    "date": "2026-01-30",
-    "id": "17698051488911"
-  },
-  {
-    "title": "AI 自学规则测试：结构模式的重要性",
-    "summary": "研究发现系统性经验迭代可以提高AI的指导质量。",
-    "detail": "通过六次迭代实验，研究人员发现结构模式的存在可以使AI指导更准确。这表明AI需要理解人类心理学和社会动态的机械规律，而不仅仅是文化偏好。",
-    "tags": [
-      "News",
-      "AI Safety"
-    ],
-    "link": "https://shablag.substack.com/p/can-ai-learn-its-own-rules-we-tested",
-    "date": "2026-01-30",
-    "id": "17698051488912"
-  },
-  {
-    "title": "Anthropic 在 Cowork 引入智能插件",
-    "summary": "Anthropic 提供插件，帮助 Claude 更好地适应团队工作流程。",
-    "detail": "Anthropic 推出了智能插件，允许用户自定义 Claude 的工作方式，选择使用的工具和数据，处理关键工作流程，并设置特定的命令，以提高团队的一致性和效率。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/01/30/anthropic-brings-agentic-plugins-to-cowork/",
-    "date": "2026-01-30",
-    "id": "17698051488913"
   }
 ]
