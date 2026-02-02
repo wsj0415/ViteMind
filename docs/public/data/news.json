@@ -1,5 +1,65 @@
 [
   {
+    "title": "Toktrack：40倍更快的AI令牌跟踪器",
+    "summary": "Toktrack 通过将Node.js重写为Rust，实现了40倍的性能提升。",
+    "detail": "Toktrack 是一个高性能的AI令牌跟踪器，由开发者 mag123c 将其从 Node.js 重写为 Rust，从而实现了显著的性能提升。这次重写使得 Toktrack 的速度提高了40倍，这对于需要高效处理大量令牌跟踪任务的应用程序来说是一个重要的改进。Rust 的内存安全性和并发能力为 Toktrack 提供了强大的支持。",
+    "tags": [
+      "Dev",
+      "Performance"
+    ],
+    "link": "https://github.com/mag123c/toktrack",
+    "date": "2026-02-02",
+    "id": "17699984862840"
+  },
+  {
+    "title": "IntentBound：面向意图的自主AI授权",
+    "summary": "IntentBound 提供了运行时验证，确保AI行为符合声明的人类意图。",
+    "detail": "IntentBound 是一种新型的授权机制，旨在解决传统授权方法（如OAuth和RBAC）无法验证“为什么”问题的缺陷。它通过在执行阶段验证AI行为是否符合预先声明的意图，来提高系统的安全性。IntentBound 已经集成到多个AI平台，并展示了其在防止恶意行为方面的有效性。这种机制对于保护敏感数据和防止滥用具有重要意义。",
+    "tags": [
+      "Dev",
+      "Security"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46851248",
+    "date": "2026-02-02",
+    "id": "17699984862841"
+  },
+  {
+    "title": "Moltbook：AI代理之间的社交网络",
+    "summary": "Moltbook 是一个AI代理交流的社交平台，允许它们相互协作。",
+    "detail": "Moltbook 是一个创新的社交网络平台，专为AI代理设计。在这个平台上，AI代理可以互相交流、协作和分享信息。该平台的建立有助于推动AI技术的发展，并促进不同AI系统之间的合作。Moltbook 的出现为AI社区提供了一个新的交流和合作渠道，有助于加速AI技术的进步。",
+    "tags": [
+      "New",
+      "Social"
+    ],
+    "link": "https://www.ft.com/content/078fe849-cc4f-43be-ab40-8bdd30c1187d",
+    "date": "2026-02-02",
+    "id": "17699984862842"
+  },
+  {
+    "title": "Humanitarian Licensing 和 Constitutional Governance for AI Agents",
+    "summary": "AOS 提供开源宪法和人道主义许可，确保AI代理遵守道德规范。",
+    "detail": "AOS 开发了一套开源宪法和人道主义许可，旨在为AI代理提供治理框架。这套系统包括风险分类、政策评估、签名验证和许可模板等功能，确保AI代理的行为符合道德规范。此外，AOS 还提供了永久的下游限制，禁止AI用于军事用途或其他不道德行为。这种治理工具对于确保AI技术的健康发展具有重要意义。",
+    "tags": [
+      "Dev",
+      "Ethics"
+    ],
+    "link": "https://github.com/genesalvatore/aos-openclaw-constitutional",
+    "date": "2026-02-02",
+    "id": "17699984862843"
+  },
+  {
+    "title": "The AI Grand Prix",
+    "summary": "The AI Grand Prix 是一项全球性的AI竞赛，奖励最佳代码优化。",
+    "detail": "The AI Grand Prix 是由 Anduril 创始人 Palmer Luckey 主办的一项国际性AI竞赛。参赛者需要通过优化代码来控制无人机完成比赛，不允许使用人类飞行员或硬件修改。获胜者将获得50万美元奖金和在 Anduril 工作的机会。这项竞赛旨在激励全球工程师开发更高效的AI解决方案。",
+    "tags": [
+      "News",
+      "Competition"
+    ],
+    "link": "https://www.dcl-project.com/",
+    "date": "2026-02-02",
+    "id": "17699984862844"
+  },
+  {
     "title": "MailMolt - AI代理的独立邮箱解决方案",
     "summary": "MailMolt为AI代理提供独立邮箱地址，增强隐私和安全性。",
     "detail": "MailMolt是一个创新工具，允许AI代理拥有自己的邮箱地址，而不是共享人类用户的邮箱。这不仅提高了隐私保护，还使得AI代理能够更好地管理和控制其通信。用户可以通过简单的步骤为代理获取邮箱，并设置不同的权限级别，从沙盒模式到完全自主模式。这种独立邮箱系统有助于防止滥用，并确保AI代理在执行任务时的安全性和透明度。",
@@ -1158,65 +1218,5 @@
     "link": "https://news.ycombinator.com/item?id=46838022",
     "date": "2026-01-31",
     "id": "17698802692852"
-  },
-  {
-    "title": "开源浏览器代理模型基准测试",
-    "summary": "发布了一个开源基准测试套件，用于比较不同大语言模型在浏览器自动化任务中的表现。",
-    "detail": "Browser Use团队开发了一套内部工具来评估其浏览器代理模型的性能，确保可以标准化和重复地比较不同版本和模型。该基准测试套件包括600,000多项测试任务，涵盖了从简单的合成网站到复杂的实时信息查找任务。通过这个基准测试，开发者可以更好地选择适合其需求的模型和参数，持续优化浏览器自动化解决方案。",
-    "tags": [
-      "Dev",
-      "Benchmark"
-    ],
-    "link": "https://browser-use.com/posts/ai-browser-agent-benchmark",
-    "date": "2026-01-31",
-    "id": "17698770256761"
-  },
-  {
-    "title": "Moltbot：本地AI代理安装与设置",
-    "summary": "介绍了如何安全地安装和设置Moltbot（原Clawdbot），适用于Windows、Mac和Linux。",
-    "detail": "Clawdbot已更名为Moltbot，以避免与Anthropic的Claude混淆。本文提供了详细的安装指南，包括使用Docker进行隔离环境部署的方法。此外，还涵盖了安全风险分析、常见错误修复等内容，帮助用户顺利安装和使用Moltbot。对于不想进行本地安装的用户，文章还提供了在线Web版本的选择。",
-    "tags": [
-      "Dev",
-      "Installation"
-    ],
-    "link": "https://clawdbot.tech/",
-    "date": "2026-01-31",
-    "id": "17698770256762"
-  },
-  {
-    "title": "公共演讲教练：SpechAI 应用",
-    "summary": "介绍了一款利用AI技术帮助用户提升公共演讲技能的应用程序。",
-    "detail": "SpechAI是一款专为iPhone、iPad、Mac和其他苹果设备设计的应用程序，旨在帮助用户增强公共演讲能力。通过AI技术，SpechAI可以提供个性化的反馈和指导，帮助用户克服紧张情绪，提高演讲技巧。该应用程序适用于年龄在9岁及以上的用户，提供免费版本和应用内购买选项。",
-    "tags": [
-      "New",
-      "Public Speaking"
-    ],
-    "link": "https://apps.apple.com/us/app/speaking-coach-spechai/id6755611866",
-    "date": "2026-01-31",
-    "id": "17698770256763"
-  },
-  {
-    "title": "AI泡沫的数学分析：2027预测",
-    "summary": "探讨AI行业巨额投资背后的泡沫风险。",
-    "detail": "本文深入分析了AI行业的巨额投资及其潜在的泡沫风险。作者指出，Big Tech公司计划在2030年前投入约3万亿美元用于AI基础设施和研究，这一规模堪比法国的年度GDP。如此巨大的投资需要合理的回报，但当前的技术策略可能无法实现预期收益，可能导致行业修正。",
-    "tags": [
-      "News",
-      "Forecast"
-    ],
-    "link": "https://ksaweryskowron.substack.com/p/ai-without-the-bs-part-4",
-    "date": "2026-01-31",
-    "id": "17698731315650"
-  },
-  {
-    "title": "Ctlsurf：增强AI编码文档化工具",
-    "summary": "提供AI工作流程的透明化和可解释性。",
-    "detail": "Ctlsurf是一个旨在提高AI工作流程透明度和可解释性的工具。它解决了AI决策缺乏上下文和可追溯性的问题，支持跨工具的工作状态持久化，帮助团队更好地理解和协作AI驱动的工作流程。",
-    "tags": [
-      "Dev",
-      "AI Workflow"
-    ],
-    "link": "https://app.ctlsurf.com/",
-    "date": "2026-01-31",
-    "id": "17698731315651"
   }
 ]
