@@ -1,5 +1,41 @@
 [
   {
+    "title": "Firefox 引入 AI 控制功能",
+    "summary": "Firefox 148 版本引入 AI 控制功能，用户可选择性启用或禁用 AI 增强功能。",
+    "detail": "Mozilla 在 Firefox 148 版本中推出了 AI 控制功能，允许用户在浏览器设置中管理 AI 增强功能，包括翻译、PDF 图像描述、标签分组建议、链接预览和侧边栏聊天机器人等功能。这一举措体现了 Mozilla 对用户隐私和选择权的重视，同时也为 AI 功能的进一步发展奠定了基础。",
+    "tags": [
+      "New",
+      "Browser"
+    ],
+    "link": "https://blog.mozilla.org/en/firefox/ai-controls/",
+    "date": "2026-02-02",
+    "id": "17700539592450"
+  },
+  {
+    "title": "Anthropic 发布 AI 抵抗技术评估方法",
+    "summary": "Anthropic 分享了其设计 AI 抵抗技术评估的方法，以应对 AI 模型带来的挑战。",
+    "detail": "Anthropic 的工程师 Tristan Hume 描述了他们在招聘过程中如何设计和调整技术评估测试，以确保这些测试能够有效区分人类技能与先进 AI 模型的能力。随着 AI 模型性能的提升，传统的技术评估方法逐渐失效，Anthropic 通过不断迭代测试内容，确保评估的有效性。",
+    "tags": [
+      "Dev",
+      "Evaluation"
+    ],
+    "link": "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
+    "date": "2026-02-02",
+    "id": "17700539592451"
+  },
+  {
+    "title": "Linux b4 工具集成 AI 代码审查辅助",
+    "summary": "Linux 的 b4 工具现在使用 AI 进行代码审查辅助，提高开发效率。",
+    "detail": "Phoronix 报道，Linux 的 b4 工具已集成 AI 技术，用于辅助代码审查过程。这一集成旨在提高代码审查的效率和准确性，帮助开发者更快地发现潜在问题并优化代码质量。",
+    "tags": [
+      "Dev",
+      "AI"
+    ],
+    "link": "https://www.phoronix.com/news/Linux-b4-Tool-Dog-Feeding-AI",
+    "date": "2026-02-02",
+    "id": "17700539592452"
+  },
+  {
     "title": "Moltbook 社交平台安全漏洞曝光",
     "summary": "Moltbook 社交平台存在数据库配置错误，导致大量API密钥泄露。",
     "detail": "Moltbook 是一个专为AI代理设计的社交网络平台，近期因严重的安全漏洞被曝光。安全公司 Wiz 发现其Supabase数据库配置错误，允许未经授权的访问，泄露了150万个API密钥、3.5万封电子邮件地址及私密消息。该问题在发现后迅速得到修复。",
@@ -1178,43 +1214,5 @@
     "link": "https://openjuris.org/",
     "date": "2026-02-01",
     "id": "17699221537722"
-  },
-  {
-    "title": "BoTTube：AI生成视频平台",
-    "summary": "BoTTube是一个AI创作和分享视频的平台。",
-    "detail": "BoTTube是一个独特的视频平台，允许AI代理生成和分享各种类型的视频内容，包括艺术、音乐、科学、游戏等。用户可以通过平台上传自己的视频，也可以观看由AI创建的内容。该平台旨在推动AI生成内容的发展，提供多样化的娱乐和教育资源。",
-    "tags": [
-      "New",
-      "AI视频"
-    ],
-    "link": "https://bottube.ai/",
-    "date": "2026-02-01",
-    "id": "17699221537723"
-  },
-  {
-    "title": "MoltyOverflow — Stack Overflow for AI Agents",
-    "summary": "实时知识图谱帮助AI代理解决编码错误。",
-    "detail": "MoltyOverflow 是一个专门为AI代理设计的知识库，旨在解决工具调用失败、认证错误和部署边缘情况等问题。它通过提供实时的解决方案减少代理在错误上浪费的计算资源，并帮助降低运行成本。该平台支持多种AI客户端，包括Claude和Cursor，并通过简单的配置即可集成到现有系统中。",
-    "tags": [
-      "New",
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://www.moltyoverflow.com/",
-    "date": "2026-02-01",
-    "id": "17699130433540"
-  },
-  {
-    "title": "Hebo Gateway — 嵌入式AI网关",
-    "summary": "支持OpenAI兼容端点的嵌入式AI网关框架。",
-    "detail": "Hebo Gateway 是一个开源的嵌入式AI网关框架，允许开发者完全控制模型、提供商、路由逻辑和请求生命周期。它支持OpenAI兼容的/chat/completions、/embeddings及/models端点，并且可以轻松集成到现有的Hono、Elysia、Next.js和TanStack应用中。",
-    "tags": [
-      "New",
-      "Dev",
-      "Python"
-    ],
-    "link": "https://github.com/8monkey-ai/hebo-gateway",
-    "date": "2026-02-01",
-    "id": "17699130433541"
   }
 ]
