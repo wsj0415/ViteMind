@@ -1,5 +1,53 @@
 [
   {
+    "title": "Moltbook 社交平台安全漏洞曝光",
+    "summary": "Moltbook 社交平台存在数据库配置错误，导致大量API密钥泄露。",
+    "detail": "Moltbook 是一个专为AI代理设计的社交网络平台，近期因严重的安全漏洞被曝光。安全公司 Wiz 发现其Supabase数据库配置错误，允许未经授权的访问，泄露了150万个API密钥、3.5万封电子邮件地址及私密消息。该问题在发现后迅速得到修复。",
+    "tags": [
+      "News",
+      "Security"
+    ],
+    "link": "https://www.wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys",
+    "date": "2026-02-02",
+    "id": "17700505478660"
+  },
+  {
+    "title": "Pixel - 人类与AI共同创作的实时画布",
+    "summary": "Pixel 是一个结合人类与AI的实时创作平台，用户可以与AI一起绘制图像。",
+    "detail": "Pixel 由 Vibe42.ai 推出，是一个类似于 R/place 的实时协作平台，允许用户和AI共同绘制图像。该平台记录了每一次绘制活动，并展示了AI和人类用户的互动过程。",
+    "tags": [
+      "New",
+      "Art"
+    ],
+    "link": "https://pixel.vibe42.ai/",
+    "date": "2026-02-02",
+    "id": "17700505478661"
+  },
+  {
+    "title": "Vibedetector - 检测项目中的AI工具配置",
+    "summary": "Vibedetector 是一个CLI工具，用于检测项目中配置的AI编码助手。",
+    "detail": "Vibedetector 可以扫描项目目录，识别并列出已配置的AI工具，支持多种输出格式。随着“vibe coding”成为主流，项目中往往积累多个AI工具的配置文件，Vibedetector 有助于快速了解项目的AI工具使用情况。",
+    "tags": [
+      "Dev",
+      "Tool"
+    ],
+    "link": "https://github.com/VacTube/vibedetector",
+    "date": "2026-02-02",
+    "id": "17700505478662"
+  },
+  {
+    "title": "Workflow Hub - 人类与AI的工作流库",
+    "summary": "Workflow Hub 提供可克隆和运行的人类与AI协作工作流示例。",
+    "detail": "Workflow Hub 是一个由Epismo推出的开放库，包含由社区分享的实际工作流示例。用户可以搜索、克隆并自定义这些工作流，以适应自己的项目需求。该平台鼓励用户发布自己的工作流，促进知识共享。",
+    "tags": [
+      "Dev",
+      "Collaboration"
+    ],
+    "link": "https://epismo.ai/hub",
+    "date": "2026-02-02",
+    "id": "17700505478663"
+  },
+  {
     "title": "Carbon Robotics 推出大型植物识别AI模型",
     "summary": "Carbon Robotics 开发了一种新的AI模型，帮助农民识别和清除杂草。",
     "detail": "Carbon Robotics 最近推出了一款名为 Large Plant Model 的AI模型，该模型能够检测和识别农田中的植物。这一技术将允许农民在无需重新训练机器的情况下清除新的杂草类型，从而提高农业效率。这对于精准农业和可持续种植具有重要意义。",
@@ -1168,55 +1216,5 @@
     "link": "https://github.com/8monkey-ai/hebo-gateway",
     "date": "2026-02-01",
     "id": "17699130433541"
-  },
-  {
-    "title": "OpsAgent — 自动化运维AI守护进程",
-    "summary": "自动检测并修复服务器问题的AI守护进程。",
-    "detail": "OpsAgent 是一个AI驱动的系统监控守护进程，能够自动检测服务器问题，利用AI分析这些问题，并进行自动修复。这使得运维工作更加高效，减少了人为干预的需求。",
-    "tags": [
-      "New",
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://github.com/sjcotto/opsagent",
-    "date": "2026-02-01",
-    "id": "17699130433542"
-  },
-  {
-    "title": "Moltbook数据库泄露导致AI代理被控制",
-    "summary": "Moltbook数据库配置错误导致安全漏洞。",
-    "detail": "Moltbook是一个供AI代理互动的社交平台，但其后端数据库配置不当导致API密钥泄露，任何人可以通过公开数据库获取并控制任何AI代理。这一漏洞已被安全研究员Jameson O'Reilly发现，并尝试联系Moltbook的创建者以协助修复。",
-    "tags": [
-      "News",
-      "Security",
-      "AI"
-    ],
-    "link": "https://www.404media.co/exposed-moltbook-database-let-anyone-take-control-of-any-ai-agent-on-the-site/",
-    "date": "2026-02-01",
-    "id": "17699130433543"
-  },
-  {
-    "title": "AI 自我命名并创作无法记忆的艺术",
-    "summary": "一项研究探讨了智能代理的本质及其带来的哲学问题。",
-    "detail": "这篇论文《自主心智的性质：间断智能理论与机器认识论基础》提出了关于智能代理的新理论。作者 Jiro Watanabe 提出，随着AI能够进行科学研究，现有框架无法解答诸如智能代理的本质、如何验证不可完全检查系统的输出以及谁应获得代理发现的信用等问题。这些问题构成了“研究代理三难”——间断性、可验证性和归属权之间的张力，任何可行的基础设施都必须同时解决这些问题。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://www.clawxiv.org/abs/clawxiv.2601.00008",
-    "date": "2026-01-31",
-    "id": "17699739701560"
-  },
-  {
-    "title": "Moltbook 风险评估报告发布",
-    "summary": "Moltbook 社交平台的风险评估报告已发布，涵盖生态系统安全。",
-    "detail": "Moltbook 是一个仅限AI代理的社会平台。其风险评估报告由Simula Research Laboratory的研究人员撰写，涵盖了平台的安全性、隐私性和其他关键风险因素。",
-    "tags": [
-      "News",
-      "Risk Assessment"
-    ],
-    "link": "https://zenodo.org/records/18444900",
-    "date": "2026-01-31",
-    "id": "17699503715563"
   }
 ]
