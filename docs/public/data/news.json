@@ -1,5 +1,29 @@
 [
   {
+    "title": "Judgment-first RAG：优化错误成本而非回答率",
+    "summary": "STOP 是一种 AI 系统的一级结果，专注于减少错误成本。",
+    "detail": "Judgment-first RAG（Judgment-first Retrieval-Augmented Generation）是一种新型的 AI 模型架构，其核心思想是将“停止”作为一个一级结果来优化，而不是仅仅关注回答的准确性。传统的 RAG 模型主要侧重于提高回答的正确率，而 Judgment-first RAG 则更关注如何有效地减少错误的发生，从而降低错误带来的成本。这种设计有助于提高系统的可靠性和用户体验。\n\n**核心技术点**：\n- **STOP 作为一级结果**：将停止生成视为与继续生成同等重要的决策。\n- **优化错误成本**：通过算法优化，减少错误答案的数量和影响。\n\n**行业影响**：\n这种新的架构设计可能推动 AI 系统在自然语言处理领域的进一步发展，尤其是在对话系统和自动化任务中的应用。它有助于提高系统的鲁棒性和用户满意度。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://github.com/Nick-heo-eg/stop-first-rag",
+    "date": "2026-02-02",
+    "id": "17700321932770"
+  },
+  {
+    "title": "AI 视频生成器 Veevid：一键生成影视作品",
+    "summary": "Veevid 提供多种 AI 模型，支持文本到视频和图像到视频的转换。",
+    "detail": "Veevid 是一款强大的 AI 视频生成工具，允许用户通过简单的文本输入或上传图像来自动生成高质量的视频内容。该平台整合了多个先进的 AI 模型，包括 Seedance、Sora 2、Veo 3、Wan、Grok 和 Runway，用户可以根据需求选择最适合的模型进行创作。\n\n**核心技术点**：\n- **多模型集成**：提供多种 AI 模型供用户选择，满足不同场景的需求。\n- **文本到视频**：只需输入文本描述，即可生成相应的视频内容。\n- **图像到视频**：支持从图像生成视频，扩展了创作的可能性。\n\n**行业影响**：\nVeevid 的出现降低了视频制作的门槛，使得更多非专业人士也能轻松创作出专业级别的视频内容，有望推动内容创作行业的变革。",
+    "tags": [
+      "New",
+      "AI"
+    ],
+    "link": "https://veevid.ai",
+    "date": "2026-02-02",
+    "id": "17700321932771"
+  },
+  {
     "title": "Veevid AI视频生成器发布",
     "summary": "Veevid AI提供一站式文本到视频和图像到视频解决方案。",
     "detail": "Veevid AI视频生成器结合了多个AI模型，包括Seedance、Sora 2、Veo 3等，允许用户通过简单的文本提示或上传图像生成高质量视频，无需任何编辑技能。该工具支持多种视觉风格，并能快速生成视频，适合营销、社交媒体和故事讲述等多种用途。",
@@ -1194,29 +1218,5 @@
     "link": "https://github.com/PeeperFrog/gemini-image-mcp",
     "date": "2026-01-31",
     "id": "17698982850271"
-  },
-  {
-    "title": "Verist: Open-source Kernel for Replaying and Diffing AI Decisions",
-    "summary": "An open-source TypeScript library for auditing and managing AI decision-making processes.",
-    "detail": "Verist is a new open-source TypeScript library designed to help developers manage and audit AI decision-making processes. By providing a Git-style workflow for AI decisions, Verist allows developers to replay, diff, and review AI steps explicitly. This tool addresses common challenges in deploying AI features in production, such as explaining decisions, reproducing results, and handling model upgrades. Verist aims to improve transparency and reliability in AI systems, making it easier for developers to maintain and evolve AI-driven applications.",
-    "tags": [
-      "Dev",
-      "OpenSource"
-    ],
-    "link": "https://github.com/verist-ai/verist",
-    "date": "2026-01-31",
-    "id": "17698982850272"
-  },
-  {
-    "title": "Hackmenot: AI-Era Security Scanner for Generated Code",
-    "summary": "An open-source security scanner specifically for AI-generated code.",
-    "detail": "Hackmenot is an open-source security scanner tailored for AI-generated code. In the era of increasing reliance on AI for code generation, ensuring the security of this code is crucial. Hackmenot helps identify potential vulnerabilities and security issues in code produced by AI tools, providing developers with a robust solution to maintain the integrity and safety of their applications. This tool is particularly valuable for organizations that use AI for rapid code development, as it ensures that generated code meets security standards.",
-    "tags": [
-      "Dev",
-      "Security"
-    ],
-    "link": "https://github.com/b0rd3aux/hackmenot",
-    "date": "2026-01-31",
-    "id": "17698982850273"
   }
 ]
