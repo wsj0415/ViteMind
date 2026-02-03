@@ -1,5 +1,77 @@
 [
   {
+    "title": "国际人工智能安全报告2026发布",
+    "summary": "国际AI安全报告2026发布，由图灵奖得主Yoshua Bengio领导，全球30多个国家和组织共同撰写。",
+    "detail": "《国际人工智能安全报告2026》是全球最大的AI安全合作项目之一，由图灵奖得主Yoshua Bengio领导，超过100位AI专家共同撰写。该报告深入分析了通用AI系统的最新科研成果及其潜在风险，为AI技术的安全应用提供了权威指导。",
+    "tags": [
+      "News",
+      "Safety"
+    ],
+    "link": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+    "date": "2026-02-03",
+    "id": "17701579106400"
+  },
+  {
+    "title": "ASK：企业级AI代理技能包管理器",
+    "summary": "ASK是一个强大的代理技能包管理器，支持搜索、查询和安装/卸载代理技能。",
+    "detail": "ASK（Agent Skills Kit）是为企业级AI设计的代理技能包管理器，它简化了代理技能的管理和部署过程。用户只需简单询问，即可实现技能的快速搜索、安装和卸载。ASK支持多种集成方式，包括CI/CD管道，确保技能的高效管理和版本控制。",
+    "tags": [
+      "Dev",
+      "Agent"
+    ],
+    "link": "https://github.com/yeasy/ask",
+    "date": "2026-02-03",
+    "id": "17701579106401"
+  },
+  {
+    "title": "企业级AI内存治理面临的挑战",
+    "summary": "文章指出企业级AI内存治理是当前AI落地的关键问题之一。",
+    "detail": "本文深入探讨了企业级AI内存治理的重要性及存在的挑战。随着AI系统规模的扩大，内存管理成为影响系统稳定性和合规性的关键因素。文章分析了内存中毒等风险，并提出了解决方案，强调了内存治理在AI实际应用中的重要性。",
+    "tags": [
+      "Dev",
+      "Memory"
+    ],
+    "link": "http://yeasy.blogspot.com/2026/01/in-depth-memory-governance-achilles.html",
+    "date": "2026-02-03",
+    "id": "17701579106402"
+  },
+  {
+    "title": "AI时代：代码消亡与数据崛起",
+    "summary": "文章分析了AI技术如何改变软件行业的经济逻辑，从代码驱动转向数据驱动。",
+    "detail": "本文从经济学角度分析了大型语言模型（LLM）如何降低代码生成的成本，从而改变了软件行业的竞争格局。作者指出，随着AI编程工具的发展，传统编程能力的价值正在下降，取而代之的是数据资产的竞争。文章探讨了这一转变对金融、法律和医疗等行业的影响。",
+    "tags": [
+      "Dev",
+      "Economics"
+    ],
+    "link": "http://yeasy.blogspot.com/2026/01/the-death-of-code-and-rise-of-data.html",
+    "date": "2026-02-03",
+    "id": "17701579106403"
+  },
+  {
+    "title": "Grindr推出高端AI订阅服务Edge",
+    "summary": "Grindr推出名为Edge的AI订阅服务，年费高达6000美元。",
+    "detail": "Grindr近期推出了名为“Edge”的高端AI订阅服务，提供个性化推荐和其他高级功能。该服务定价高达每年6000美元，面向寻求更高质量匹配体验的用户。虽然价格昂贵，但Edge利用先进的AI算法提升用户体验，吸引了部分高净值用户的关注。",
+    "tags": [
+      "New",
+      "Subscription"
+    ],
+    "link": "https://www.dexerto.com/entertainment/grindr-is-testing-a-new-ai-subscription-called-edge-that-costs-up-to-6000-a-year-3313793/",
+    "date": "2026-02-03",
+    "id": "17701579106404"
+  },
+  {
+    "title": "Agentic Coding：大型代码库AI编程方法论",
+    "summary": "Agentic Coding提供了一套结构化的方法论，帮助开发者在大型代码库中使用AI进行编程。",
+    "detail": "Agentic Coding是一套全面的AI编程方法论，旨在帮助开发者更有效地在大型代码库中使用AI工具。课程涵盖LLM内部机制、上下文管理、提示结构等多个方面，通过实例讲解和实践练习，帮助开发者掌握AI辅助编程的最佳实践。",
+    "tags": [
+      "Dev",
+      "Methodology"
+    ],
+    "link": "https://agenticoding.ai/",
+    "date": "2026-02-03",
+    "id": "17701579106405"
+  },
+  {
     "title": "Reg.run：解耦AI“思考”与API执行",
     "summary": "Reg.run通过WASM代理拦截API调用，确保AI操作的安全性。",
     "detail": "Reg.run 是一个旨在提高AI自主代理安全性的解决方案。其核心是一个本地WASM代理，能够拦截和检查AI模型的API调用。通过预定义的策略和权限管理，Reg.run可以确保AI操作不会超出预定范围，从而避免潜在的安全风险。这一技术不仅符合欧盟AI法案的要求，还保持了AI代理的自主性。项目由单个创始人开发，目前处于早期阶段。",
@@ -1141,82 +1213,5 @@
     "link": "https://mateffy.org/publications/introducing-claw-events",
     "date": "2026-02-02",
     "id": "17700291621933"
-  },
-  {
-    "title": "Kyutai推出Invincible Voice",
-    "summary": "Invincible Voice是一款帮助ALS患者继续沟通的AI工具。",
-    "detail": "Invincible Voice是由Kyutai实验室开发的AI工具，旨在帮助ALS患者继续参与日常对话。该工具通过分析对话上下文，生成符合患者个性的即时回应，帮助他们保持与亲朋好友的联系。",
-    "tags": [
-      "News",
-      "Healthcare"
-    ],
-    "link": "https://www.iliad.fr/en/actualites/article/kyutai-unveils-invincible-voice-artificial-intelligence-in-the-service-of-human-connection",
-    "date": "2026-02-02",
-    "id": "17700291621934"
-  },
-  {
-    "title": "OpenClaw Harness: 安全防火墙保护AI编码代理",
-    "summary": "OpenClaw Harness 是一个用 Rust 编写的 AI 编码代理安全防火墙，能够检测和阻止异常行为。",
-    "detail": "OpenClaw Harness 是一个用 Rust 编写的工具，旨在为 AI 编码代理提供安全防护。它可以在执行任何工具调用之前进行检查、阻止和审计。一旦检测到异常行为，该应用将触发通知（如 Telegram）并阻止该行为。用户可以通过内置的仪表板 Web UI 添加规则。这一工具对于需要严格控制 AI 代理行为的开发环境非常有用。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Rust"
-    ],
-    "link": "https://github.com/sparkishy/openclaw-harness",
-    "date": "2026-02-02",
-    "id": "17700259830930"
-  },
-  {
-    "title": "AI Nana Banana: 快速 AI 图像编辑器和生成器",
-    "summary": "AI Nana Banana 提供强大的图像生成和编辑功能，支持多种图像处理任务。",
-    "detail": "AI Nana Banana 是一款强大的 AI 图像生成和编辑工具，支持通过上传照片或输入描述来生成图像。该工具具有多种功能，包括快速生成高质量图像、保持一致的风格和角色、合并不同图片元素、以及精确编辑图像细节。此外，它还提供了多种定价选项，包括限时优惠。",
-    "tags": [
-      "New",
-      "Image Generation",
-      "AI"
-    ],
-    "link": "https://ainanabanana.com",
-    "date": "2026-02-02",
-    "id": "17700259830932"
-  },
-  {
-    "title": "Nana Banana: 快速AI图像编辑与生成器",
-    "summary": "Nana Banana 提供强大的AI图像编辑和生成功能，支持多种图像处理任务。",
-    "detail": "Nana Banana 是一款先进的AI图像编辑和生成工具，允许用户通过上传照片或输入文本提示来快速生成和编辑图像。该工具的核心技术包括高效的图像生成引擎、一致性和风格保持、图像融合与创建、快速处理速度（5-10秒）以及高质量的图像输出。Nana Banana 的推出将为创作者和专业人士提供更便捷、高效的图像处理解决方案。",
-    "tags": [
-      "New",
-      "LLM",
-      "图像处理"
-    ],
-    "link": "https://ainanabanana.com/",
-    "date": "2026-02-02",
-    "id": "17700219183960"
-  },
-  {
-    "title": "AI-Trader: AI在真实金融市场中的竞争平台",
-    "summary": "AI-Trader 是一个开源平台，让AI代理在真实市场中竞争，研究AI在金融市场的表现。",
-    "detail": "AI-Trader 是一个开源项目，旨在通过让AI代理在真实金融市场中竞争来评估AI的表现。该项目的核心技术包括使用Python构建的AI算法、实时交易数据处理能力以及详细的性能评估报告。AI-Trader 的研究对于理解AI在金融市场的潜力具有重要意义。",
-    "tags": [
-      "News",
-      "Python",
-      "金融市场"
-    ],
-    "link": "https://github.com/HKUDS/AI-Trader",
-    "date": "2026-02-02",
-    "id": "17700219183961"
-  },
-  {
-    "title": "物理笔记设备：AI录音与转录",
-    "summary": "这些物理笔记设备可以录音并使用AI生成会议摘要和行动项。",
-    "detail": "这些物理笔记设备集成了AI技术，能够自动录音并转录会议内容，同时生成会议摘要和行动项。一些设备还提供了实时翻译功能，支持多语言交流。这类设备适用于需要高效记录和整理会议信息的各种场景，提升工作效率。",
-    "tags": [
-      "New",
-      "AI应用",
-      "会议记录"
-    ],
-    "link": "https://techcrunch.com/2026/02/02/ai-notetaker-hardware-devices-pins-pendants-record-transcribe/",
-    "date": "2026-02-02",
-    "id": "17700219183962"
   }
 ]
