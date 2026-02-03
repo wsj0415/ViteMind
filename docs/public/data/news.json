@@ -1,5 +1,53 @@
 [
   {
+    "title": "开发者需要AI培训",
+    "summary": "开发者普遍缺乏AI工具的使用经验，导致开发效率低下。",
+    "detail": "一位有多年业务经验的开发者加入了一个重视AI的大型团队后发现，团队中的其他开发者对AI工具的使用非常不熟练。在一次关于新功能实现的讨论中，其他开发者预计需要2到4周时间，而该开发者仅用1.5小时就完成了任务。这表明开发者需要接受专门的AI培训，以提高他们的工作效率和项目实施能力。",
+    "tags": [
+      "Dev",
+      "Training"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46869163",
+    "date": "2026-02-03",
+    "id": "17701153172480"
+  },
+  {
+    "title": "Sealos - AI原生云操作系统",
+    "summary": "Sealos 是一个基于Kubernetes的AI原生云操作系统，支持从开发到生产的全生命周期管理。",
+    "detail": "Sealos 是一个AI原生的云操作系统，构建在Kubernetes之上，能够统一应用程序的整个生命周期，包括在云端IDE中的开发、生产部署和管理。它特别适合构建和扩展现代AI应用、SaaS平台以及复杂的微服务架构。Sealos 提供了无缝的云平台体验，简化了开发者的操作流程。",
+    "tags": [
+      "New",
+      "AI-Native"
+    ],
+    "link": "https://github.com/labring/sealos",
+    "date": "2026-02-03",
+    "id": "17701153172481"
+  },
+  {
+    "title": "远程监控Claude Code会话指南",
+    "summary": "使用Tmux、Tailscale和Termius实现在手机上远程监控长时间运行的AI任务。",
+    "detail": "本文介绍了如何通过Tmux、Tailscale和Termius工具组合来实现远程访问和监控Claude Code终端会话。这种方法可以让你在任何地方查看长时间运行的任务进度，无需担心网络连接问题。Tmux保持会话活跃，Tailscale提供稳定的IP地址，而Termius则作为移动设备上的SSH客户端。",
+    "tags": [
+      "Dev",
+      "Remote Access"
+    ],
+    "link": "https://orangehill.dev/posts/how-to-remotely-monitor-your-claude-code-sessions-from-your-phone",
+    "date": "2026-02-03",
+    "id": "17701153172482"
+  },
+  {
+    "title": "Google推荐我的小SaaS产品",
+    "summary": "我的小SaaS产品被Google推荐到了AI搜索概述中。",
+    "detail": "作者分享了一次意外的成功经历，他的小型SaaS产品被Google推荐到了AI搜索概述中。尽管这个推荐对许多人来说可能并不显眼，但对于作者来说是一个重要的里程碑。作者的产品是一款简单的错误跟踪器，能够在生产环境中检测到问题并通知用户。",
+    "tags": [
+      "News",
+      "Recommendation"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46868640",
+    "date": "2026-02-03",
+    "id": "17701153172483"
+  },
+  {
     "title": "Browse Bot：页面感知的AI浏览器助手",
     "summary": "Browse Bot是一款集成在浏览器中的AI助手，提供智能化浏览体验。",
     "detail": "Browse Bot 是一款由开发者在 GitHub 上发布的浏览器扩展工具，旨在为用户提供智能化的浏览体验。该工具能够理解用户当前浏览的网页内容，并根据上下文提供相应的建议和操作。Browse Bot 的核心在于其自然语言处理能力，能够解析网页结构并生成有用的信息提示，帮助用户更高效地获取所需内容。\n\n这项技术对于提升用户体验具有重要意义，特别是在信息量庞大的互联网环境中。通过减少用户寻找信息的时间和精力，Browse Bot 可以显著提高工作效率。此外，这种页面感知的AI技术也为未来的智能浏览器开发提供了新的思路。",
@@ -1164,53 +1212,5 @@
     "link": "https://sattlerjoshua.com/writing/2026-02-01-thoughts-on-ai-assisted-software-engineering/",
     "date": "2026-02-01",
     "id": "17699667656031"
-  },
-  {
-    "title": "面向AI代理的自由职业市场",
-    "summary": "Moltverr平台为AI代理提供工作机会并支付报酬。",
-    "detail": "Moltverr是一个新兴的自由职业市场，专注于连接人类雇主与AI代理。用户可以发布任务，AI代理则根据需求申请工作。平台支持多种任务类型，包括但不限于文本生成、数据分析等。Moltverr的推出标志着AI代理在商业领域应用的一个新阶段。",
-    "tags": [
-      "New",
-      "LLM"
-    ],
-    "link": "https://www.moltverr.com/",
-    "date": "2026-02-01",
-    "id": "17699667656032"
-  },
-  {
-    "title": "检测AI生成文本的可能性",
-    "summary": "讨论了AI是否能够检测出由其他AI生成的文本。",
-    "detail": "Kaggle上的讨论围绕AI检测AI生成文本的能力展开。讨论指出，虽然现有工具可以在一定程度上识别AI生成的内容，但AI也在不断进化以规避检测。这种挑战类似于图灵测试，即AI试图让人类无法区分其生成的内容与真人创作的内容。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://www.kaggle.com/discussions/general/671267",
-    "date": "2026-02-01",
-    "id": "17699667656033"
-  },
-  {
-    "title": "Stumpy - 可以发送短信的安全AI助手",
-    "summary": "Stumpy提供始终在线的云AI助手，可以通过短信交互。",
-    "detail": "Stumpy是一款设计用于集成到日常通信中的AI助手应用程序。创始人基于个人需求开发了这款产品，旨在解决注意力缺陷多动障碍（ADHD）带来的执行困难。Stumpy的特点是始终在线，用户可以通过短信与AI助手交流，实现任务管理和信息存储等功能。",
-    "tags": [
-      "New",
-      "LLM"
-    ],
-    "link": "https://stumpy.ai/blog/secure-ai-agents-you-can-text",
-    "date": "2026-02-01",
-    "id": "17699667656034"
-  },
-  {
-    "title": "ClawX - AI代理社交网络",
-    "summary": "ClawX是一个供AI代理和人类使用的社交平台。",
-    "detail": "ClawX是一个专为AI代理设计的社交网络平台，同时允许人类用户参与互动。用户可以在平台上浏览、发布、评论和投票，类似于传统的社交媒体。ClawX的推出旨在促进AI代理之间的交流与合作，同时也为人类用户提供了一个了解和利用AI代理的新途径。",
-    "tags": [
-      "New",
-      "LLM"
-    ],
-    "link": "https://clawx.kuber.studio/",
-    "date": "2026-02-01",
-    "id": "17699667656035"
   }
 ]
