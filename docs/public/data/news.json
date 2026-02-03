@@ -1,5 +1,41 @@
 [
   {
+    "title": "Reg.run：解耦AI“思考”与API执行",
+    "summary": "Reg.run通过WASM代理拦截API调用，确保AI操作的安全性。",
+    "detail": "Reg.run 是一个旨在提高AI自主代理安全性的解决方案。其核心是一个本地WASM代理，能够拦截和检查AI模型的API调用。通过预定义的策略和权限管理，Reg.run可以确保AI操作不会超出预定范围，从而避免潜在的安全风险。这一技术不仅符合欧盟AI法案的要求，还保持了AI代理的自主性。项目由单个创始人开发，目前处于早期阶段。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46877506",
+    "date": "2026-02-03",
+    "id": "17701545749340"
+  },
+  {
+    "title": "ACF：本地AI代码生成管道",
+    "summary": "ACF是一款用于本地执行AI代码生成的工具，支持市场扩展。",
+    "detail": "Agent Code Factory (ACF) 是一个专注于本地执行AI代码生成的工具，旨在提供最佳的代码生成结果。它支持多种集成方式，并且可以通过市场扩展功能来增强其功能。ACF的目标是帮助开发者更高效地利用AI进行代码开发。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://github.com/Tennisee-data/acf",
+    "date": "2026-02-03",
+    "id": "17701545749341"
+  },
+  {
+    "title": "Tenuo：基于能力的授权系统",
+    "summary": "Tenuo提供了一种新的授权模型，适用于AI代理之间的任务委托。",
+    "detail": "Tenuo是一种基于能力的授权系统，旨在解决AI代理在任务委托过程中遇到的授权问题。通过使用签名的能力令牌和严格的约束检查，Tenuo确保每个代理只能在其授权范围内执行操作。这种授权模型借鉴了Macaroons等系统的设计思想，并进行了适应性调整。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46877029",
+    "date": "2026-02-03",
+    "id": "17701545749343"
+  },
+  {
     "title": "Muninn：本地优先的AI记忆层",
     "summary": "Muninn提供了一个简单的本地优先记忆层，帮助AI代理高效管理项目记忆。",
     "detail": "Muninn是一个为AI代理设计的通用本地优先记忆层，旨在解决现有复杂向量数据库的问题。它通过将项目索引为本地Markdown文件，并使用CXP协议注入相关事实，实现了简单透明的记忆管理。这种方法不仅提高了效率，还确保了数据的安全性和可控性，避免了云存储的潜在风险。",
@@ -1182,41 +1218,5 @@
     "link": "https://techcrunch.com/2026/02/02/ai-notetaker-hardware-devices-pins-pendants-record-transcribe/",
     "date": "2026-02-02",
     "id": "17700219183962"
-  },
-  {
-    "title": "开源项目 CaptchAI：为AI代理设计的反验证码系统",
-    "summary": "CaptchAI通过约束访问控制来区分AI代理和人类用户。",
-    "detail": "CaptchAI是一个开源项目，旨在解决AI时代新兴的agent-native平台中的身份验证问题。在这些平台上，自主代理之间的交互变得普遍，而人类行为则被视为噪声。CaptchAI采用约束而非身份验证的方式，通过设置时间限制和一次性使用的挑战来区分AI和人类。这不仅提高了安全性，还避免了对用户身份的持续监控。",
-    "tags": [
-      "Dev",
-      "Python"
-    ],
-    "link": "https://github.com/henrylai/CaptchAI",
-    "date": "2026-02-02",
-    "id": "17700186651070"
-  },
-  {
-    "title": "Supaplan：AI驱动的日程管理平台",
-    "summary": "Supaplan提供AI增强的日程管理功能，涵盖工作、学习、健康等多个领域。",
-    "detail": "Supaplan是一款创新的日程管理工具，利用AI技术优化用户的日程安排。它支持多种日历应用（如Google Calendar、Outlook等），能够自动识别和整理日程信息。Supaplan的AI代理可以处理复杂的时间安排，帮助用户高效管理个人和工作生活。",
-    "tags": [
-      "New",
-      "AI"
-    ],
-    "link": "https://supaplan.ai/en",
-    "date": "2026-02-02",
-    "id": "17700186651071"
-  },
-  {
-    "title": "Zush：自动重命名图像的macOS菜单栏应用",
-    "summary": "Zush使用AI技术自动为图像文件命名，提高查找效率。",
-    "detail": "Zush是一款专为macOS设计的应用程序，利用先进的图像识别技术自动为用户的照片和其他图像文件生成有意义的名称。用户只需将文件夹添加到Zush，它就会在后台自动处理新图像，并根据内容为其命名。这不仅节省了手动命名的时间，还提高了文件查找的效率。",
-    "tags": [
-      "New",
-      "AI"
-    ],
-    "link": "https://www.zushapp.com/",
-    "date": "2026-02-02",
-    "id": "17700186651072"
   }
 ]
