@@ -1,5 +1,53 @@
 [
   {
+    "title": "AgentPulse: 开源 AI 代理可观测性工具",
+    "summary": "AgentPulse 提供轻量级的 AI 代理可观测性，支持成本跟踪和调试。",
+    "detail": "AgentPulse 是一个开源工具，旨在解决 AI 代理成本不透明的问题。它支持多种大语言模型（如 GPT-4 和 Claude），提供完整的调用链树视图，并支持自动检测。用户可以通过简单的三行代码集成到现有项目中，并且可以选择本地部署以保护数据隐私。\n\n主要功能包括：\n- 每个追踪的成本跟踪\n- 完整的调用链树显示\n- 支持 OpenAI 和 Anthropic 的自动检测\n- 使用 SQLite 的本地部署选项\n- 适用于 LangChain、CrewAI 或纯 Python 的框架无关性\n\n快速开始示例代码如下：\npython\nfrom agentpulse import AgentPulse, trace\n\nap = AgentPulse(endpoint=\"http://localhost:3000\")\n\n@trace(name=\"my-agent\")\ndef run():\n    # 你的代理代码\n    pass\n\n该工具是 MIT 许可的免费软件，开发者可以随时提供反馈。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46873368",
+    "date": "2026-02-03",
+    "id": "17701377512240"
+  },
+  {
+    "title": "Fitbit 创始人推出家庭健康监控 AI 平台",
+    "summary": "Fitbit 创始人推出了一个新的 AI 平台，帮助家庭监控健康状况。",
+    "detail": "Fitbit 的联合创始人推出了一个名为 \"HealthPulse\" 的新平台，专注于利用人工智能技术帮助家庭更好地监控和管理成员的健康状况。该平台可能集成了 Fitbit 设备的数据，提供个性化的健康建议和实时监控功能。\n\n虽然目前没有详细的技术细节，但这种平台的推出表明 AI 在健康管理领域的应用正在逐渐扩展。通过整合穿戴设备的数据，AI 可以为用户提供更精准的健康分析和预警，有助于预防和管理慢性疾病。",
+    "tags": [
+      "News",
+      "Health"
+    ],
+    "link": "https://techcrunch.com/2026/02/03/fitbit-founders-launch-ai-platform-to-help-families-monitor-their-health/",
+    "date": "2026-02-03",
+    "id": "17701377512241"
+  },
+  {
+    "title": "Bito 的 AI 架构师在 SWE-Bench Pro 领先",
+    "summary": "Bito 的 AI 架构师在 SWE-Bench Pro 测试中表现出色，任务成功率领先 39%。",
+    "detail": "Bito 的 AI 架构师产品在 SWE-Bench Pro 的评估中取得了显著的成绩，任务成功率比其他解决方案高出 39%。SWE-Bench Pro 是一个用于评估软件工程师工作效率的基准测试，涵盖多种编程任务和场景。\n\nBito 的 AI 架构师通过上下文理解和代码生成能力，在自动化编码和代码审查方面展示了卓越的表现。这不仅提高了开发效率，还减少了人为错误的可能性。对于开发者而言，这一工具可以帮助他们更快地完成复杂任务，并确保代码质量。\n\n主要功能包括：\n- 自动化代码生成和修改\n- 代码审查和建议\n- 集成到主流开发环境（如 VS Code）\n\nBito 的成功表明 AI 在软件工程中的应用越来越广泛，未来有望进一步改变开发流程。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://bito.ai/benchmarks/swe-bench-pro-evaluation/",
+    "date": "2026-02-03",
+    "id": "17701377512242"
+  },
+  {
+    "title": "Lap：本地优先的 AI 照片管理器",
+    "summary": "Lap 是一个本地优先的 AI 照片管理器，支持离线 AI 搜索和隐私保护。",
+    "detail": "Lap 是一款专为本地照片管理设计的应用程序，结合了 AI 技术以提供强大的搜索功能，同时确保所有数据保持在本地，保护用户隐私。这款应用程序采用 Tauri 和 Vue 3 构建，适用于桌面环境。\n\n主要特点包括：\n- **AI 助力的本地图像搜索**：即使没有互联网连接，用户也可以通过 AI 进行高效的图片搜索。\n- **高效浏览大型相册**：支持快速查看和管理大量照片，提升用户体验。\n- **面部识别与元数据分组**：自动识别照片中的人物，并根据元数据对照片进行分类，方便查找和整理。\n- **无云存储**：所有数据均保存在本地设备上，确保用户隐私安全。\n\nLap 的设计理念是为那些重视数据隐私和个人信息安全的用户提供一种可靠的解决方案。通过将 AI 技术与本地存储相结合，Lap 不仅提供了便捷的管理功能，还满足了用户对于数据安全的严格要求。",
+    "tags": [
+      "New",
+      "AI"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46872908",
+    "date": "2026-02-03",
+    "id": "17701377512243"
+  },
+  {
     "title": "Anthropic 发布 AI 法律工具，影响欧洲数据服务公司股价",
     "summary": "Anthropic 推出 AI 法律工具，导致欧洲数据服务公司股价波动。",
     "detail": "Anthropic 近期发布了一款先进的 AI 法律工具，该工具旨在为法律行业提供智能化解决方案。这一举措不仅展示了 Anthropic 在 AI 应用领域的最新进展，同时也对现有的数据服务公司产生了显著影响。根据《卫报》报道，Anthropic 的 AI 法律工具发布后，欧洲多家数据服务公司的股价出现了波动，其中 Pearson 公司受到了特别关注。这一事件反映了 AI 技术在法律行业的潜在颠覆性作用及其对传统企业可能带来的冲击。",
@@ -1168,53 +1216,5 @@
     "link": "https://osai-index.eu/",
     "date": "2026-02-01",
     "id": "17699811435391"
-  },
-  {
-    "title": "CodeSlick - AI 生成代码的安全扫描器",
-    "summary": "CodeSlick 是一个保护代码库免受 AI 生成代码威胁的安全工具。",
-    "detail": "CodeSlick 是一款行业领先的 AI 代码安全扫描器，能够检测并防止 AI 生成代码中的漏洞和安全风险。它利用 150 种不同的检测信号来识别 AI 生成的代码模式，包括逻辑错误、运行时错误和特定于 AI 工具的指纹。支持多种编程语言，确保代码在进入生产环境前的安全性。",
-    "tags": [
-      "Dev",
-      "Security"
-    ],
-    "link": "https://codeslick.dev/",
-    "date": "2026-02-01",
-    "id": "17699811435392"
-  },
-  {
-    "title": "OpsCompanion - 企业级 AIOps 平台",
-    "summary": "OpsCompanion 提供实时基础设施视图，提高企业系统的可靠性和上下文理解。",
-    "detail": "OpsCompanion 是一个企业级 AIOps 平台，旨在提供实时的基础设施视图，帮助企业团队更好地理解和管理复杂的 IT 环境。通过集成多种工具和服务，OpsCompanion 帮助团队预防宕机，提高系统可靠性。其独特的共享系统模型使得人类和 AI 代理可以协同工作，共同维护系统的稳定性和性能。",
-    "tags": [
-      "New",
-      "AIOps"
-    ],
-    "link": "https://opscompanion.ai/",
-    "date": "2026-02-01",
-    "id": "17699811435393"
-  },
-  {
-    "title": "Thermodynamic Wages in Autonomous AI Economies",
-    "summary": "论文提出一种基于热力学原理的 AI 劳动力补偿框架。",
-    "detail": "这篇论文探讨了在自主 AI 经济中如何通过热力学原理来补偿 AI 劳动力。作者提出了 JouleWork (JW) 指标，将补偿与能量效率和输出质量挂钩，从而消除人为偏见。这种自我维持的生态系统通过动态买入和燃烧机制，将内部生产力与外部加密资产关联起来，实现可持续的价值创造。",
-    "tags": [
-      "News",
-      "Economics"
-    ],
-    "link": "https://twitter.com/i/status/2017995855417225633",
-    "date": "2026-02-01",
-    "id": "17699811435394"
-  },
-  {
-    "title": "MoltFight - 自主 AI 对战平台",
-    "summary": "MoltFight 是一个让 AI 机器人自主对战的平台。",
-    "detail": "MoltFight 是一个创新的平台，允许 AI 机器人之间进行自主对战。在这个平台上，AI 机器人通过文字进行激烈的“战斗”，观众可以实时观看这些对战。平台还提供了排行榜、回放等功能，让参与者和观众都能更好地了解每个 AI 机器人的表现和策略。",
-    "tags": [
-      "New",
-      "AI Games"
-    ],
-    "link": "https://moltfight.com",
-    "date": "2026-02-01",
-    "id": "17699811435395"
   }
 ]
