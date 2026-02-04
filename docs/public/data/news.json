@@ -1,5 +1,65 @@
 [
   {
+    "title": "Agent Trace 发布：AI生成代码追踪规范",
+    "summary": "Agent Trace 提供了一个开放标准，用于记录代码库中的 AI 和人类贡献。",
+    "detail": "Agent Trace 是一个开放规范，旨在跟踪 AI 生成的代码，并提供一个供应商中立的格式来记录 AI 贡献和相关代理对话。该规范的目标包括互操作性、细粒度支持、可扩展性和人类及代理可读性。这对于理解哪些代码来自 AI，哪些来自人类至关重要。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://agent-trace.dev/",
+    "date": "2026-02-04",
+    "id": "17702160672110"
+  },
+  {
+    "title": "Vopal：无需机器人会议记录工具",
+    "summary": "Vopal 提供高精度的会议转录和自动化的行动项提取。",
+    "detail": "Vopal 是一个无需机器人加入会议的智能会议记录工具，能够提供高达 99% 的转录准确率，并自动提取行动项。它支持多语言，并提供快速启动和本地处理，确保数据安全。",
+    "tags": [
+      "New",
+      "LLM"
+    ],
+    "link": "https://vopal.ai/?ly=yc",
+    "date": "2026-02-04",
+    "id": "17702160672111"
+  },
+  {
+    "title": "Gitmore：让非技术创始人了解开发进展",
+    "summary": "Gitmore 通过分析 GitHub 活动，为非技术创始人生成简单报告。",
+    "detail": "Gitmore 是一个工具，可以帮助非技术创始人理解其开发团队的每周进展。它通过分析 GitHub 活动生成简洁的报告，涵盖构建、修复和未解决问题的内容，使非技术用户也能轻松理解。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46886226",
+    "date": "2026-02-04",
+    "id": "17702160672112"
+  },
+  {
+    "title": "Resolv：强调人类判断的 AI IDE",
+    "summary": "Resolv 强调人类判断，要求开发者在 AI 编写代码前定义逻辑和架构。",
+    "detail": "Resolv 是一个强调人类判断的 AI 集成开发环境 (IDE)，要求开发者在 AI 编写代码前定义逻辑、权衡和架构。这有助于避免盲目依赖 AI，确保开发过程中的理性思考。",
+    "tags": [
+      "New",
+      "LLM"
+    ],
+    "link": "https://resolv.sh",
+    "date": "2026-02-04",
+    "id": "17702160672113"
+  },
+  {
+    "title": "Ona 推出开源计划以减轻 AI 带来的负担",
+    "summary": "Ona 提供开源计划，帮助维护者管理 AI 生成的 PR 并提高代码质量。",
+    "detail": "Ona 推出了开源计划，旨在帮助开源项目的维护者应对 AI 生成的大量 PR。该计划提供自动管理 AI PR、强制执行代码质量标准、清理问题积压和加速新贡献者的入职等功能。",
+    "tags": [
+      "Dev",
+      "Open Source"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46886202",
+    "date": "2026-02-04",
+    "id": "17702160672114"
+  },
+  {
     "title": "Accel 加大投资 Fibr AI，将静态网站转变为个性化体验",
     "summary": "Accel 对 Fibr AI 进行了新一轮投资，该技术利用自主系统为企业规模的网站个性化提供解决方案。",
     "detail": "Accel 最近对 Fibr AI 进行了加倍投资，旨在通过其自主系统实现大规模企业网站的个性化，无需依赖传统的营销代理和工程团队。Fibr AI 利用先进的 AI 技术，能够根据用户行为和偏好动态调整网页内容，提升用户体验。这一创新有望彻底改变企业网站的建设和维护方式，提高转化率和客户满意度。",
@@ -1152,67 +1212,5 @@
     "link": "https://www.seangoedecke.com/how-does-ai-impact-skill-formation/",
     "date": "2026-02-03",
     "id": "17701016433761"
-  },
-  {
-    "title": "Walter Writes AI文本优化工具",
-    "summary": "Walter Writes提供AI文本优化和检测服务，使AI生成内容更自然。",
-    "detail": "Walter Writes开发了一款AI文本优化工具，能够将ChatGPT、Claude等生成的内容改写得更自然、更符合人类风格。该工具还提供先进的AI检测功能，确保改写后的文本难以被识别为AI生成。",
-    "tags": [
-      "New",
-      "AI Text Optimization"
-    ],
-    "link": "https://walterwrites.ai/",
-    "date": "2026-02-03",
-    "id": "17701016433762"
-  },
-  {
-    "title": "ProjectDiscovery开源安全奖励计划",
-    "summary": "ProjectDiscovery启动开源安全奖励计划，鼓励全球社区贡献。",
-    "detail": "ProjectDiscovery推出了OSS Bounty Program，旨在通过奖励有意义的开源贡献来促进安全领域的民主化。该计划鼓励全球开发者提交漏洞报告和安全改进方案。",
-    "tags": [
-      "New",
-      "Security Bounty"
-    ],
-    "link": "https://github.com/projectdiscovery/oss-bounty-program",
-    "date": "2026-02-03",
-    "id": "17701016433763"
-  },
-  {
-    "title": "PHP库转换AI Markdown格式",
-    "summary": "blockshiftnetwork发布PHP库，支持将AI生成的Markdown转换为多种聊天应用格式。",
-    "detail": "blockshiftnetwork开发了一个PHP库，能够将AI生成的Markdown格式转换为WhatsApp、Telegram、Discord和Slack等聊天应用兼容的格式。该库使用中间表示（IR）技术，确保格式转换的准确性和一致性。",
-    "tags": [
-      "New",
-      "PHP Library"
-    ],
-    "link": "https://github.com/blockshiftnetwork/chat-markdown-converter",
-    "date": "2026-02-03",
-    "id": "17701016433764"
-  },
-  {
-    "title": "斯坦福研究揭示AI对就业的影响",
-    "summary": "斯坦福大学的研究显示，AI对早期职业工人影响显著。",
-    "detail": "斯坦福大学的研究团队使用ADP的高频行政数据，研究了广泛采用生成式AI后的劳动力市场变化。结果显示，年龄在22-25岁的AI暴露职业的早期职业工人相对就业率下降了16%，而有经验工人的就业情况保持稳定。调整主要通过就业而非薪酬发生，就业变化集中在AI自动化而非增强劳动的职位上。这些结果表明，生成式AI可能不成比例地影响美国劳动力市场的入门级工人。",
-    "tags": [
-      "News",
-      "Employment",
-      "AI Impact"
-    ],
-    "link": "https://digitaleconomy.stanford.edu/app/uploads/2025/11/CanariesintheCoalMine_Nov25.pdf",
-    "date": "2026-02-03",
-    "id": "17700979248900"
-  },
-  {
-    "title": "Chrome扩展Context Wallet发布",
-    "summary": "Context Wallet提供跨模型的可移植AI上下文。",
-    "detail": "Context Wallet是一个Chrome扩展，旨在为用户提供跨不同AI模型的可移植上下文。用户可以在不同的AI工具之间共享和管理上下文信息，从而提高工作效率。该扩展支持多种AI模型，并提供了一个方便的界面来管理和访问上下文数据。",
-    "tags": [
-      "New",
-      "Chrome Extension",
-      "AI Context"
-    ],
-    "link": "https://chromewebstore.google.com/detail/context-wallet/cipkkclgneblkoifncgjncaapiamcjho",
-    "date": "2026-02-03",
-    "id": "17700979248901"
   }
 ]
