@@ -1,5 +1,53 @@
 [
   {
+    "title": "Oracle 发起 500 亿美元融资应对 AI 资金焦虑",
+    "summary": "Oracle 宣布计划筹集 500 亿美元资金，以应对不断累积的 AI 投资压力。",
+    "detail": "Oracle 宣布了一项重大的融资计划，旨在筹集高达 500 亿美元的资金。这一举措反映了 Oracle 对当前 AI 投资环境的担忧。尽管 Oracle 在 AI 领域进行了大量投资，但市场对其财务状况和 AI 战略的有效性提出了质疑。此次融资计划不仅表明了 Oracle 的决心，也揭示了整个科技行业在面对 AI 技术快速发展时所面临的资金挑战。",
+    "tags": [
+      "News",
+      "Finance"
+    ],
+    "link": "https://www.marketwatch.com/story/oracles-monster-25-billion-debt-financing-points-to-anxieties-around-ai-funding-b92c634b?gaa_at=eafs&gaa_n=AWEtsqczVlBBoDjcC6lCxjyKeNisB6QEz-oEo2k0PWtFwpsWKtDrK59-8jvylfPs4hg%3D&gaa_ts=6982f2dc&gaa_sig=-KcqgqDi0dxU0ClZBaHnzzgUTR14fkTa5R5HKguuHzRXJHBu8gNGy1MqJfI3oFVq-3e_cvFlJqfulVUup8b5hw%3D%3D",
+    "date": "2026-02-04",
+    "id": "17701911213780"
+  },
+  {
+    "title": "Ghidra MCP Server：AI 助力逆向工程的强大工具",
+    "summary": "Ghidra MCP Server 提供 132 个端点，支持批量分析和自动文档传输。",
+    "detail": "Ghidra MCP Server 是一个生产级的 Model Context Protocol (MCP) 服务器，结合了 Ghidra 强大的逆向工程能力与现代 AI 工具。该服务器提供超过 132 个 API 端点，支持跨二进制文档传输、批量分析和无头模式部署。通过集成 OpenAI 等 AI 模型，Ghidra MCP Server 可以显著提升逆向工程的效率和准确性。",
+    "tags": [
+      "Dev",
+      "ReverseEngineering"
+    ],
+    "link": "https://github.com/bethington/ghidra-mcp",
+    "date": "2026-02-04",
+    "id": "17701911213781"
+  },
+  {
+    "title": "DeepInsight：人机协作的 AI 研究平台",
+    "summary": "DeepInsight 提供多个人机协作检查点，优化 AI 研究流程。",
+    "detail": "DeepInsight 是一个专注于人机协作（HITL）的 AI 研究平台，旨在改善现有的 AI 研究工具。传统工具往往在生成报告后需要大量人工修正，而 DeepInsight 则在研究过程中设置多个协作检查点，确保人类研究员能够持续参与和指导。这不仅提高了研究质量，还增强了团队协作。",
+    "tags": [
+      "Dev",
+      "Research"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46882118",
+    "date": "2026-02-04",
+    "id": "17701911213782"
+  },
+  {
+    "title": "Chitram：带自动 AI 标签的开源图像托管平台",
+    "summary": "Chitram 提供自动 AI 标签功能，简化图像管理和分享。",
+    "detail": "Chitram 是一个现代化的开源图像托管平台，集成了 OpenAI Vision API 进行自动标签处理。用户上传的图像将自动获得精确的标签，无需手动操作。此外，Chitram 还支持智能缩略图生成、OAuth 登录、私密默认设置等功能，为用户提供高效安全的图像管理体验。",
+    "tags": [
+      "New",
+      "ImageHosting"
+    ],
+    "link": "https://chitram.io",
+    "date": "2026-02-04",
+    "id": "17701911213783"
+  },
+  {
     "title": "欧盟AI法案合规软件发布",
     "summary": "AuditDraft 提供 EU AI 法案合规工具，帮助企业提前准备。",
     "detail": "AuditDraft 是一款帮助企业应对欧盟AI法案合规要求的软件，涵盖了从风险分类到文档生成的全流程。该法案将于2026年8月生效，AuditDraft 提供了详细的合规工作流程和自动化工具，帮助企业确保其AI系统的合规性。",
@@ -1167,53 +1215,5 @@
     "link": "https://thughari.github.io/JobTrackerPro/",
     "date": "2026-02-02",
     "id": "17700580059091"
-  },
-  {
-    "title": "Crybot - 基于 Crystal 的个人 AI 助手",
-    "summary": "Crybot 是一个用 Crystal 编写的个人 AI 助手，支持多种 LLM 和工具调用。",
-    "detail": "Crybot 是由 Ralsina 开发的一款高性能个人 AI 助手，采用 Crystal 编程语言构建，以实现更好的性能。它支持多种大型语言模型（LLM），包括 OpenAI、Anthropic、OpenRouter、vLLM 和 z.ai/GLM 模型。Crybot 还具备自动检测模型提供者、内置工具调用、模型上下文协议（MCP）支持、会话管理和 Telegram 集成等功能。此外，Crybot 提供了交互式和命令行两种使用模式，并支持多工作区管理。",
-    "tags": [
-      "New",
-      "Dev"
-    ],
-    "link": "https://github.com/ralsina/crybot",
-    "date": "2026-02-02",
-    "id": "17700580059092"
-  },
-  {
-    "title": "v1.run - 为 AI 代理设计的 NPM 注册表",
-    "summary": "v1.run 是一个面向 AI 代理的 NPM 注册表，提供 MCP 支持和快速健康评分。",
-    "detail": "v1.run 是一个专为 AI 代理设计的 NPM 包注册表，强调了对 Model Context Protocol（MCP）的支持，确保包的兼容性和互操作性。该注册表在全球范围内提供低于 100 毫秒的健康评分服务，确保用户能够快速获取到可靠的软件包信息。此外，v1.run 还提供了丰富的安全信号，帮助用户更好地评估和选择所需的软件包。",
-    "tags": [
-      "New",
-      "Dev"
-    ],
-    "link": "https://v1.run",
-    "date": "2026-02-02",
-    "id": "17700580059093"
-  },
-  {
-    "title": "Firefox 引入 AI 控制功能",
-    "summary": "Firefox 148 版本引入 AI 控制功能，用户可选择性启用或禁用 AI 增强功能。",
-    "detail": "Mozilla 在 Firefox 148 版本中推出了 AI 控制功能，允许用户在浏览器设置中管理 AI 增强功能，包括翻译、PDF 图像描述、标签分组建议、链接预览和侧边栏聊天机器人等功能。这一举措体现了 Mozilla 对用户隐私和选择权的重视，同时也为 AI 功能的进一步发展奠定了基础。",
-    "tags": [
-      "New",
-      "Browser"
-    ],
-    "link": "https://blog.mozilla.org/en/firefox/ai-controls/",
-    "date": "2026-02-02",
-    "id": "17700539592450"
-  },
-  {
-    "title": "Anthropic 发布 AI 抵抗技术评估方法",
-    "summary": "Anthropic 分享了其设计 AI 抵抗技术评估的方法，以应对 AI 模型带来的挑战。",
-    "detail": "Anthropic 的工程师 Tristan Hume 描述了他们在招聘过程中如何设计和调整技术评估测试，以确保这些测试能够有效区分人类技能与先进 AI 模型的能力。随着 AI 模型性能的提升，传统的技术评估方法逐渐失效，Anthropic 通过不断迭代测试内容，确保评估的有效性。",
-    "tags": [
-      "Dev",
-      "Evaluation"
-    ],
-    "link": "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
-    "date": "2026-02-02",
-    "id": "17700539592451"
   }
 ]
