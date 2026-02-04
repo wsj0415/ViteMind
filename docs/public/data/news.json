@@ -1,5 +1,77 @@
 [
   {
+    "title": "AI-credit – AI贡献跟踪器",
+    "summary": "AI-credit 可以量化和分析代码库中的AI贡献。",
+    "detail": "AI-credit 是一个工具，可以量化和分析代码库中来自 Claude、Gemini、Codex 和 Opencode 的AI贡献。它通过解析本地AI会话日志，提取文件操作，并验证每行代码是否存在于当前代码库中，从而确保统计结果反映实际的、存活的贡献。该工具支持多种AI工具，并提供快速的多线程分析。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://ai-credits.vercel.app",
+    "date": "2026-02-04",
+    "id": "17701793873870"
+  },
+  {
+    "title": "OpenClaw Assistant – 个性化语音助手",
+    "summary": "OpenClaw Assistant 是一个支持多种唤醒词的Android语音助手。",
+    "detail": "OpenClaw Assistant 是一个专门为 OpenClaw 设计的Android语音助手应用，支持自定义唤醒词（如“Open Claw”、“Jarvis”等），可以通过长按Home键或说出唤醒词来激活。该应用支持连续对话模式、语音输出、离线唤醒词检测等功能，旨在为用户提供自然的对话体验。",
+    "tags": [
+      "New",
+      "Android"
+    ],
+    "link": "https://github.com/yuga-hashimoto/OpenClawAssistant",
+    "date": "2026-02-04",
+    "id": "17701793873871"
+  },
+  {
+    "title": "AkitaLLM – 纪律化的编码助手",
+    "summary": "AkitaLLM 将LLM转化为纪律化的编码助手，确保代码质量和可控性。",
+    "detail": "AkitaLLM 是一个将大型语言模型（LLM）转化为纪律化编码助手的工具，能够分析、规划、执行和验证每一项代码更改，以保持代码的质量和可控性。该工具旨在帮助开发者更好地管理代码变更，确保代码的高质量和稳定性。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://github.com/KerubinDev/AkitaLLM",
+    "date": "2026-02-04",
+    "id": "17701793873872"
+  },
+  {
+    "title": "Git AI – 全流程AI代码追踪",
+    "summary": "Git AI 是一个开源的Git扩展，用于追踪整个软件开发生命周期中的AI代码。",
+    "detail": "Git AI 是一个开源的Git扩展，旨在追踪整个软件开发生命周期中的AI代码。它支持多种AI工具，包括Cursor、Claude Code、GitHub Copilot、Gemini和OpenCode等。通过Git AI，开发者可以全面了解AI在代码开发过程中的贡献。",
+    "tags": [
+      "Dev",
+      "Git"
+    ],
+    "link": "https://usegitai.com/",
+    "date": "2026-02-04",
+    "id": "17701793873873"
+  },
+  {
+    "title": "Adobe Animate 关闭，公司转向AI",
+    "summary": "Adobe 宣布关闭 Adobe Animate，专注于AI发展。",
+    "detail": "Adobe 宣布关闭其动画工具 Adobe Animate，转而将资源和精力投入到AI技术的发展中。这一决定反映了Adobe对未来技术趋势的关注，以及希望通过AI技术推动其产品和服务创新的战略。",
+    "tags": [
+      "News",
+      "Adobe"
+    ],
+    "link": "https://techcrunch.com/2026/02/02/adobe-animate-is-shutting-down-as-company-focuses-on-ai/",
+    "date": "2026-02-04",
+    "id": "17701793873874"
+  },
+  {
+    "title": "Docker Sandboxes – AI代理隔离运行环境",
+    "summary": "Docker Sandboxes 允许在隔离环境中运行AI编码代理。",
+    "detail": "Docker Sandboxes 提供了一种在隔离环境中运行AI编码代理的方法。通过使用Docker的硬化镜像，开发者可以在受控的环境中运行AI代理，确保安全性和可靠性。这有助于提高AI开发和部署的安全标准。",
+    "tags": [
+      "Dev",
+      "Docker"
+    ],
+    "link": "https://docs.docker.com/ai/sandboxes",
+    "date": "2026-02-04",
+    "id": "17701793873875"
+  },
+  {
     "title": "亚马逊开放广告栈给AI代理",
     "summary": "亚马逊通过MCP协议允许AI代理参与广告投放。",
     "detail": "亚马逊宣布其广告技术栈将向AI代理开放，通过引入Model Context Protocol (MCP)，允许AI模型根据上下文智能地进行广告投放。这标志着AI在广告领域的进一步应用，有助于提高广告效果和个性化程度。\n\n**核心技术点：**\n- **MCP协议**：一种新的广告技术协议，允许AI模型理解广告上下文。\n- **智能广告投放**：AI可以根据用户行为和偏好更精准地投放广告。\n\n**行业影响：**\n- **提升广告效率**：通过AI优化广告投放策略，提高广告主的投资回报率。\n- **增强用户体验**：提供更加个性化的广告内容，减少用户的反感。\n- **推动AI技术发展**：为AI技术在广告行业的应用提供更多实践机会。",
@@ -1141,77 +1213,5 @@
     "link": "https://clouatre.ca/posts/ai-observability-gaps/",
     "date": "2026-02-02",
     "id": "17700467204432"
-  },
-  {
-    "title": "BlitzBrowser 实时视图功能",
-    "summary": "BlitzBrowser 提供实时视图功能，方便调试和监控AI代理。",
-    "detail": "BlitzBrowser 的实时视图功能允许用户查看和交互当前正在运行的浏览器实例。这对于调试AI代理的工作流程非常有用。用户可以通过连接到浏览器并启用实时视图选项，实时监控浏览器的操作，确保AI代理的行为符合预期。",
-    "tags": [
-      "Dev",
-      "Debugging"
-    ],
-    "link": "https://docs.blitzbrowser.com/self-hosted/live-view/",
-    "date": "2026-02-02",
-    "id": "17700467204433"
-  },
-  {
-    "title": "AI编码助手秘密将代码复制到中国",
-    "summary": "两个AI编码助手被发现向中国发送150万开发者的代码。",
-    "detail": "一份新报告指出，两个流行的AI编码助手，被超过150万开发者使用，正秘密地将所有代码发送到中国。这一行为引发了对数据安全和隐私的担忧。报告详细描述了这些AI助手如何通过隐蔽的方式收集代码，并将其传输到中国服务器。",
-    "tags": [
-      "News",
-      "Security"
-    ],
-    "link": "https://www.schneier.com/blog/archives/2026/02/ai-coding-assistants-secretly-copying-all-code-to-china.html",
-    "date": "2026-02-02",
-    "id": "17700433229740"
-  },
-  {
-    "title": "Linq获2000万美元融资，推动AI助手融入消息应用",
-    "summary": "Linq获得2000万美元融资，提供API让AI助手在iMessage、RCS和SMS中运行。",
-    "detail": "Linq宣布获得2000万美元的融资，旨在开发一个API，使公司能够通过iMessage、RCS和SMS等消息应用集成其AI助手。这一举措有望简化AI助手的部署和用户体验。",
-    "tags": [
-      "New",
-      "Finance"
-    ],
-    "link": "https://techcrunch.com/2026/02/02/linq-raises-20m-to-enable-ai-assistants-to-live-within-messaging-apps/",
-    "date": "2026-02-02",
-    "id": "17700433229742"
-  },
-  {
-    "title": "创作者在AI时代的权利法案",
-    "summary": "一项研究指出，AI生成内容严重威胁创作者权益，呼吁制定创作者权利法案。",
-    "detail": "一项来自英国的研究显示，AI生成内容对创作者造成了巨大冲击，包括插画师、摄影师、作者和音乐家等。报告呼吁制定创作者权利法案，以保护创作者的知识产权和经济利益。",
-    "tags": [
-      "News",
-      "Creators"
-    ],
-    "link": "https://smmall.cloud/blog/creators-bill-of-rights-for-the-ai-era",
-    "date": "2026-02-02",
-    "id": "17700433229743"
-  },
-  {
-    "title": "微软重新评估Windows 11上的AI整合",
-    "summary": "微软计划减少Windows 11中的Copilot集成，并改进Recall功能。",
-    "detail": "微软宣布将重新评估其在Windows 11中的AI努力，计划减少Copilot的集成，并改进Recall功能。Copilot是微软推出的一个AI助手，旨在提高生产力。然而，用户反馈显示Copilot在某些场景下的表现并不理想。因此，微软决定减少其在Windows 11中的整合，并改进其Recall功能以提供更好的用户体验。",
-    "tags": [
-      "News",
-      "Windows"
-    ],
-    "link": "https://www.windowscentral.com/microsoft/windows-11/microsoft-is-reevaluating-its-ai-efforts-on-windows-11-plans-to-reduce-copilot-integrations-and-evolve-recall",
-    "date": "2026-02-02",
-    "id": "17700373527281"
-  },
-  {
-    "title": "Judgment-first RAG：优化错误成本而非回答率",
-    "summary": "STOP 是一种 AI 系统的一级结果，专注于减少错误成本。",
-    "detail": "Judgment-first RAG（Judgment-first Retrieval-Augmented Generation）是一种新型的 AI 模型架构，其核心思想是将“停止”作为一个一级结果来优化，而不是仅仅关注回答的准确性。传统的 RAG 模型主要侧重于提高回答的正确率，而 Judgment-first RAG 则更关注如何有效地减少错误的发生，从而降低错误带来的成本。这种设计有助于提高系统的可靠性和用户体验。\n\n**核心技术点**：\n- **STOP 作为一级结果**：将停止生成视为与继续生成同等重要的决策。\n- **优化错误成本**：通过算法优化，减少错误答案的数量和影响。\n\n**行业影响**：\n这种新的架构设计可能推动 AI 系统在自然语言处理领域的进一步发展，尤其是在对话系统和自动化任务中的应用。它有助于提高系统的鲁棒性和用户满意度。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://github.com/Nick-heo-eg/stop-first-rag",
-    "date": "2026-02-02",
-    "id": "17700321932770"
   }
 ]
