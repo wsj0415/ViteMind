@@ -1,6 +1,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import { createClient } from '@supabase/supabase-js'
+import { isValidUrl } from '../utils/validation.js'
 
 const props = defineProps({
   isOpen: Boolean,
@@ -41,15 +42,8 @@ const submitTool = async () => {
   }
 
   // Sentinel Security: Validate URL Protocol (Prevent XSS)
-  try {
-    const url = new URL(form.value.link)
-    const allowedProtocols = ['http:', 'https:']
-    if (!allowedProtocols.includes(url.protocol)) {
-      message.value = 'INVALID PROTOCOL. USE HTTP OR HTTPS.'
-      return
-    }
-  } catch (e) {
-    message.value = 'INVALID URL FORMAT.'
+  if (!isValidUrl(form.value.link)) {
+    message.value = 'INVALID URL. USE HTTP OR HTTPS.'
     return
   }
 
