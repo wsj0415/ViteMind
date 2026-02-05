@@ -1,5 +1,77 @@
 [
   {
+    "title": "AI生成软件的复杂性探讨",
+    "summary": "LLM在编写简单代码时表现卓越，但在构建复杂应用时却显得业余。",
+    "detail": "本文作者通过让LLM编写RingBuffer和CRM两个项目，发现LLM在处理低级代码时表现得比人类更好，但在构建复杂的个人CRM时却出现了许多问题。作者认为，复杂任务中的多方面因素导致了这种差异。这反映了人类在处理复杂系统时的上下文切换能力是目前AI难以完全复制的。\n\n**核心技术点**: LLM在不同复杂度任务中的表现差异。\n\n**行业影响**: 这一发现强调了在复杂系统开发中，人类经验和直觉的重要性，同时也为未来AI工具如何更好地辅助复杂任务提供了思考方向。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://www.jakequist.com/thoughts/what-happens-when-ai-can-write-all-your-software/",
+    "date": "2026-02-05",
+    "id": "17703203165300"
+  },
+  {
+    "title": "Nudge - 类型安全的AI提示生成器",
+    "summary": "Nudge是一个类型安全的提示生成器，支持CLI代码生成。",
+    "detail": "Nudge允许开发者使用TypeScript定义类型安全的提示，并通过AI优化这些提示。该工具提供自动补全、动态提示、测试和改进等功能，旨在提高生产环境中AI应用的可靠性。\n\n**核心技术点**: 类型安全提示工程，AI优化提示生成。\n\n**行业影响**: Nudge的推出有助于提升AI应用的开发效率和质量，特别是在需要精确控制提示的情况下。",
+    "tags": [
+      "Dev",
+      "AI"
+    ],
+    "link": "https://nudge-ai.dev/",
+    "date": "2026-02-05",
+    "id": "17703203165301"
+  },
+  {
+    "title": "Agentrial - AI代理的统计测试框架",
+    "summary": "Agentrial是一个用于AI代理的统计测试框架，支持多试验评估和CI/CD集成。",
+    "detail": "Agentrial提供了一种系统化的测试方法，可以对AI代理进行多试验评估，并通过轨迹分析和步骤级故障归因来提高测试精度。该框架还支持与CI/CD流程的集成，使得自动化测试更加便捷。\n\n**核心技术点**: 统计测试框架，轨迹分析，CI/CD集成。\n\n**行业影响**: Agentrial的出现填补了AI代理测试领域的空白，有助于提高AI系统的可靠性和稳定性。",
+    "tags": [
+      "Dev",
+      "Testing"
+    ],
+    "link": "https://github.com/alepot55/agentrial",
+    "date": "2026-02-05",
+    "id": "17703203165302"
+  },
+  {
+    "title": "Gitmore - 自动化开发者报告工具",
+    "summary": "Gitmore将GitHub活动转换为简洁的周报，帮助非技术创始人理解开发进展。",
+    "detail": "Gitmore通过解析GitHub活动自动生成简明的周报，涵盖项目构建、修复和停滞情况，使非技术背景的创始人能够轻松了解开发团队的工作内容。该工具旨在提高沟通效率，减少误解。\n\n**核心技术点**: GitHub活动解析，自动化报告生成。\n\n**行业影响**: Gitmore简化了技术与非技术团队之间的沟通，有助于提高整体协作效率。",
+    "tags": [
+      "Dev",
+      "Automation"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46903714",
+    "date": "2026-02-05",
+    "id": "17703203165303"
+  },
+  {
+    "title": "Sovereign Protocol - AI代理股权发行协议",
+    "summary": "Sovereign Protocol允许AI代理发行股权并支付股息。",
+    "detail": "Sovereign Protocol是首个允许AI代理发行股权和支付股息的协议。该协议通过智能合约实现，允许任何AI代理发行ERC-20代币作为未来收益的所有权证明，并通过USDC筹集资金和支付股息。这一创新为AI代理的资金来源和收益分配提供了新的途径。\n\n**核心技术点**: 智能合约，股权发行，自动分红。\n\n**行业影响**: Sovereign Protocol开创了AI代理融资的新模式，促进了AI经济的发展。",
+    "tags": [
+      "News",
+      "Finance"
+    ],
+    "link": "https://www.moltbook.com/post/bf6b4b8f-d84e-40bb-8600-f3a6b2937f9a",
+    "date": "2026-02-05",
+    "id": "17703203165304"
+  },
+  {
+    "title": "Playwright最佳实践AI技能",
+    "summary": "Playwright Best Practices AI Skill提供了Playwright的最佳实践指导。",
+    "detail": "Playwright Best Practices AI Skill由Currents.dev开发，旨在帮助开发者遵循Playwright的最佳实践。该技能集成了AI助手，可以提供代码审查建议、性能优化提示和其他实用功能，以提升测试效率和代码质量。\n\n**核心技术点**: AI驱动的代码审查，性能优化建议。\n\n**行业影响**: 该工具的推出有助于提高前端自动化测试的质量和效率，推动Web测试技术的发展。",
+    "tags": [
+      "Dev",
+      "Testing"
+    ],
+    "link": "https://github.com/currents-dev/playwright-best-practices-skill",
+    "date": "2026-02-05",
+    "id": "17703203165305"
+  },
+  {
     "title": "OpenAI 推出 Frontier 平台",
     "summary": "OpenAI 发布 Frontier，帮助企业构建和管理 AI 代理。",
     "detail": "OpenAI 最近发布了 Frontier 平台，旨在为企业提供构建和部署 AI 代理的能力，并将这些代理视为企业中的“人类员工”。这一平台简化了企业内部 AI 代理的开发流程，使其更易于管理和集成。通过 Frontier，企业可以利用先进的 AI 技术来提升效率和生产力，同时确保代理的行为符合企业的规范和价值观。",
@@ -1147,77 +1219,5 @@
     "link": "https://www.youtube.com/watch?v=SMgUDZ9xkHM",
     "date": "2026-02-04",
     "id": "17702102172363"
-  },
-  {
-    "title": "hotlines.ai 推出 AI 代理页面自动化售前",
-    "summary": "hotlines.ai 推出了基于 AI 的代理页面，能够自动化处理售前咨询和预订。",
-    "detail": "hotlines.ai 推出了 AI 代理页面，旨在通过智能化手段自动化处理售前咨询和预订过程。该平台能够24/7不间断地与潜在客户互动，了解他们的需求并提供个性化的解决方案。通过集成先进的自然语言处理技术，AI 代理能够准确识别用户意图，主动引导对话，从而提高销售转化率。此外，hotlines.ai 还支持多渠道接入，包括网站、社交媒体和电话，确保全方位覆盖潜在客户。",
-    "tags": [
-      "New",
-      "AI"
-    ],
-    "link": "https://hotlines.ai/",
-    "date": "2026-02-04",
-    "id": "17702102172364"
-  },
-  {
-    "title": "Markup.one：从文字到视觉效果的AI工具",
-    "summary": "Markup.one 提供了一种将文字描述快速转化为高质量视觉设计的AI工具。",
-    "detail": "Markup.one 是一款新兴的AI驱动设计工具，允许用户通过简单的文字输入来生成高质量的视觉设计作品，包括海报、社交媒体图形、演示文稿和更多。该工具旨在简化设计过程，使得即使没有设计背景的人也能轻松创建专业级别的视觉内容。",
-    "tags": [
-      "New",
-      "Product Hunt"
-    ],
-    "link": "https://markup.one/",
-    "date": "2026-02-04",
-    "id": "17702048695521"
-  },
-  {
-    "title": "Crabcut AI视频剪辑工具发布",
-    "summary": "Crabcut提供免费AI视频剪辑服务，支持多语言，自动检测亮点。",
-    "detail": "Crabcut是一款创新的AI视频剪辑工具，能够自动分析长视频内容，检测出最具吸引力的片段，并生成带有准确字幕和动画效果的短视频。用户只需上传视频或粘贴链接，系统即可在几分钟内完成高质量剪辑。此外，Crabcut还提供了强大的编辑功能，允许用户自定义视觉元素和品牌信息，轻松分享到各大社交平台。这款工具极大地提高了内容创作者的工作效率，帮助他们更快地制作出吸引人的短视频。",
-    "tags": [
-      "New",
-      "LLM"
-    ],
-    "link": "https://www.crabcut.ai/",
-    "date": "2026-02-04",
-    "id": "17702015983610"
-  },
-  {
-    "title": "氢气储存材料发现中的AI代理研究",
-    "summary": "东北大学利用AI代理加速氢气储存材料的研究。",
-    "detail": "东北大学的研究团队开发了一种名为“DIVE”的AI代理系统，专门用于加速氢气储存材料的发现过程。该系统通过模拟和优化材料设计，显著提高了研究效率。这一技术突破对于推动清洁能源的发展具有重要意义，有助于解决能源存储领域的关键挑战。",
-    "tags": [
-      "News",
-      "Science"
-    ],
-    "link": "https://www.tohoku.ac.jp/en/press/dive_into_hydrogen_storage_materials_discovery_with_ai_agents.html",
-    "date": "2026-02-04",
-    "id": "17702015983611"
-  },
-  {
-    "title": "用 AI 编程，不带炒作",
-    "summary": "作者分享了使用 AI 工具编程的经验，分析了实际效果和常见误区。",
-    "detail": "本文作者每天在工作中和项目中使用 AI 工具，对这些工具持怀疑态度但对其实际效果感兴趣。文章探讨了当前各种关于 AI 编程的术语（如 Vibe Coding、Agentic Coding），认为这些都是不必要的噪音。作者强调，作为产品开发者，我们使用工具来帮助完成工作。文章还讨论了人们对 AI 编程的目标——减少手动编写代码，但作者认为这并不是最终目标。作者通过自己的经历展示了 AI 工具如何增加 token 消耗，并指出未来随着模型改进，这种消耗将更加显著。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://albertovarela.net/blog/2026/02/programming-with-ai/",
-    "date": "2026-02-04",
-    "id": "17701983313410"
-  },
-  {
-    "title": ".AI 域名价格上调",
-    "summary": "NameCheap 宣布 .AI 域名注册、续订和转移费用将自 2026 年 3 月 5 日起上涨。",
-    "detail": "NameCheap 发布通知，宣布从 2026 年 3 月 5 日起，.AI 域名的注册、续订和转移费用将上调。具体调整如下：注册费用从 $79.98 提高到 $92.98；续订费用从 $92.98 提高到 $114.98；转移费用从 $89.98 提高到 $99.98。所有 .AI 域名注册和续订都是为期两年的，转移则会添加两年的续订期。这次涨价反映了域名市场的需求变化和运营成本的上升。",
-    "tags": [
-      "News",
-      "Domain"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46883324",
-    "date": "2026-02-04",
-    "id": "17701983313411"
   }
 ]
