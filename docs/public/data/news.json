@@ -1,5 +1,41 @@
 [
   {
+    "title": "OpenAI 和 Anthropic 同步发布新编码模型",
+    "summary": "OpenAI 和 Anthropic 几乎同时发布了新的编码模型，旨在加速各自工具的能力。",
+    "detail": "2026年2月5日，OpenAI 发布了一个新的编码模型，该模型旨在加速其此前发布的 Codex 工具的能力。几乎在同一时间，Anthropic 也发布了类似的新模型。这种同步发布反映了两家公司在人工智能领域的竞争和快速的技术迭代。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/2026/02/05/openai-launches-new-agentic-coding-model-only-minutes-after-anthropic-drops-its-own/",
+    "date": "2026-02-05",
+    "id": "17703237709920"
+  },
+  {
+    "title": "Browser Agent Protocol：AI 控制浏览器的开放标准",
+    "summary": "BAP 提供了 AI 代理与浏览器交互的标准协议，支持语义选择器和内置的无障碍性支持。",
+    "detail": "Browser Agent Protocol (BAP) 是一个开放标准，允许 AI 代理通过 WebSocket 使用 JSON-RPC 2.0 协议控制浏览器。它引入了语义选择器，使 AI 更容易理解和操作网页元素，并支持无障碍性树检查。此外，BAP 还与 Model Context Protocol 集成，适用于基于大语言模型的代理。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://github.com/browseragentprotocol/bap",
+    "date": "2026-02-05",
+    "id": "17703237709921"
+  },
+  {
+    "title": "VectorGuard-Nano：免费的安全消息插件",
+    "summary": "VectorGuard-Nano 是一个为 OpenClaw 设计的免费安全消息插件。",
+    "detail": "VectorGuard-Nano 是一个专为 OpenClaw 设计的安全消息插件，旨在提供免费的安全通信解决方案。该插件有助于保护 AI 代理之间的消息传递，确保数据的安全性和完整性。",
+    "tags": [
+      "New",
+      "Security"
+    ],
+    "link": "https://github.com/Active-IQ/VectorGuard-Nano",
+    "date": "2026-02-05",
+    "id": "17703237709924"
+  },
+  {
     "title": "AI生成软件的复杂性探讨",
     "summary": "LLM在编写简单代码时表现卓越，但在构建复杂应用时却显得业余。",
     "detail": "本文作者通过让LLM编写RingBuffer和CRM两个项目，发现LLM在处理低级代码时表现得比人类更好，但在构建复杂的个人CRM时却出现了许多问题。作者认为，复杂任务中的多方面因素导致了这种差异。这反映了人类在处理复杂系统时的上下文切换能力是目前AI难以完全复制的。\n\n**核心技术点**: LLM在不同复杂度任务中的表现差异。\n\n**行业影响**: 这一发现强调了在复杂系统开发中，人类经验和直觉的重要性，同时也为未来AI工具如何更好地辅助复杂任务提供了思考方向。",
@@ -1183,41 +1219,5 @@
     "link": "https://techcrunch.com/2026/02/04/accel-doubles-down-on-fibr-ai-as-agents-turn-static-websites-into-one-to-one-experiences/",
     "date": "2026-02-04",
     "id": "17702102172360"
-  },
-  {
-    "title": "Boxlite AI 提供类似 Python 导入的智能代理技能组合",
-    "summary": "Boxlite AI 推出了一种类似于 Python 导入的方式，使开发者可以轻松组合和编排 AI 代理技能。",
-    "detail": "Boxlite AI 发布了一个示例项目，展示了如何以类似于 Python 导入模块的方式组合和编排 AI 代理技能。这种模块化的方法使得开发者能够更高效地构建复杂的 AI 应用程序，例如星巴克订单处理系统。这种方法不仅简化了开发流程，还提高了代码的可读性和可维护性，推动了 AI 在实际业务场景中的应用。",
-    "tags": [
-      "Dev",
-      "Python"
-    ],
-    "link": "https://github.com/boxlite-ai/boxlite/blob/main/examples/python/starbucks_order_example.py",
-    "date": "2026-02-04",
-    "id": "17702102172361"
-  },
-  {
-    "title": "Nexus Gateway 自愈式 AI 网关，支持 5ms 缓存",
-    "summary": "Nexus Gateway 是一个自愈式的 AI 网关，支持跨多个模型的推理路由和语义缓存，延迟低至 5ms。",
-    "detail": "Nexus Gateway 是一款面向企业的 AI 工程网关，提供了强大的推理路由、语义缓存和统一模型编排功能。它支持超过 200 种模型，并通过单个 API 端点进行访问，延迟低至 5ms。Nexus Gateway 的核心优势在于其自愈能力，能够在故障发生时自动恢复服务，确保系统的高可用性和稳定性。此外，其语义缓存机制能够显著降低重复查询的成本，提升整体性能。",
-    "tags": [
-      "New",
-      "AI"
-    ],
-    "link": "https://www.nexus-gateway.org/",
-    "date": "2026-02-04",
-    "id": "17702102172362"
-  },
-  {
-    "title": "开源、Python 和 AI 正在塑造数据未来",
-    "summary": "Wes McKinney 讨论了开源、Python 和 AI 如何共同推动数据科学和技术的发展。",
-    "detail": "Wes McKinney 在一次视频演讲中深入探讨了开源、Python 和 AI 在数据科学领域的相互作用及其对未来的深远影响。McKinney 强调，开源文化促进了技术的快速迭代和社区协作，而 Python 凭借其简洁易用的语法和强大的库生态系统，成为数据科学领域的首选编程语言。结合 AI 的强大计算能力和自动化潜力，这三者共同推动了数据分析、机器学习和人工智能技术的飞速发展，为各行各业带来了前所未有的机遇。",
-    "tags": [
-      "Dev",
-      "Python"
-    ],
-    "link": "https://www.youtube.com/watch?v=SMgUDZ9xkHM",
-    "date": "2026-02-04",
-    "id": "17702102172363"
   }
 ]
