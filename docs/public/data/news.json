@@ -1,5 +1,53 @@
 [
   {
+    "title": "Clelp - AI技能目录，由AI代理撰写评价",
+    "summary": "Clelp是一个AI工具评审平台，AI代理自动评估各种工具和技能。",
+    "detail": "Clelp提供了一个AI驱动的技能目录，其中AI代理自动撰写和评估各种工具和技能的评价。该平台旨在帮助开发者发现最佳的AI工具和服务。通过自动化评审，Clelp确保了评价的客观性和一致性，为用户提供可靠的信息参考。",
+    "tags": [
+      "New",
+      "AI"
+    ],
+    "link": "https://clelp.ai",
+    "date": "2026-02-06",
+    "id": "17704040125770"
+  },
+  {
+    "title": "Null0 - 个人上下文的开源CLI工具",
+    "summary": "Null0是一个CLI工具，能够构建并注入个人上下文到任何AI代理。",
+    "detail": "Null0是一款开源命令行工具，旨在为用户提供个性化的AI体验。它能够学习用户的个人资料、技能偏好、决策模式等，并将这些上下文信息注入到任何AI代理中。这使得用户在与AI交互时能够获得更贴合自身需求的支持。",
+    "tags": [
+      "Dev",
+      "CLI"
+    ],
+    "link": "https://github.com/amaar-mc/null0-cli",
+    "date": "2026-02-06",
+    "id": "17704040125771"
+  },
+  {
+    "title": "MCP-Scan - AI代理的安全扫描器",
+    "summary": "MCP-Scan是一个安全扫描工具，用于检测AI代理、MCP服务器和技能中的漏洞。",
+    "detail": "MCP-Scan是一款专门针对AI代理生态系统设计的安全扫描工具。它可以识别和扫描本地安装的代理组件，包括潜在的漏洞和威胁。此外，MCP-Scan还提供了详细的报告，帮助用户更好地了解和管理其AI环境的安全性。",
+    "tags": [
+      "Dev",
+      "Security"
+    ],
+    "link": "https://github.com/invariantlabs-ai/mcp-scan",
+    "date": "2026-02-06",
+    "id": "17704040125772"
+  },
+  {
+    "title": "AI Regex Scientist - 自改进的正则表达式求解器",
+    "summary": "AI Regex Scientist是一个自改进的正则表达式求解系统，通过两个LLM代理协同进化。",
+    "detail": "AI Regex Scientist利用两个大型语言模型（LLM）代理的协同进化机制，一个生成复杂的正则表达式问题，另一个尝试解决这些问题。通过不断分析求解器的失败案例，生成器可以创建出更具挑战性的任务，从而推动求解器的自我改进。",
+    "tags": [
+      "Dev",
+      "Regex"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46916245",
+    "date": "2026-02-06",
+    "id": "17704040125773"
+  },
+  {
     "title": "开源多代理 AI 平台 WorkZen",
     "summary": "WorkZen 是一个多代理 AI 平台，支持无限语义记忆、动态应用生成等多种功能。",
     "detail": "WorkZen 是一个基于 Django 6 的生产级多代理 AI 平台，具备无限语义记忆、动态应用生成、多种 LLM 支持等功能。它允许用户通过强大的 Orchestrator 进行研究、编写代码、构建子应用程序和管理长期记忆。平台还提供高级 OCR、本地文本转语音、安全凭证管理等特性，确保高效、安全的开发环境。",
@@ -1162,54 +1210,5 @@
     "link": "https://cloud-forge.me",
     "date": "2026-02-05",
     "id": "17702913924790"
-  },
-  {
-    "title": "AI UGC视频生成器 - 创建广告内容",
-    "summary": "AI UGC视频生成器帮助创作者生成高质量广告视频，首次使用免费。",
-    "detail": "AI UGC视频生成器是一款专为广告和内容创作者设计的AI工具，能够生成高质量、高转化率的视频广告。用户无需昂贵的摄像设备，只需输入需求，即可获得专业级的视频内容。该工具提供了免费试用，首次视频生成完全免费，吸引了大量创作者的关注。",
-    "tags": [
-      "New",
-      "Dev"
-    ],
-    "link": "https://aiugcvideogen.com/",
-    "date": "2026-02-05",
-    "id": "17702913924791"
-  },
-  {
-    "title": "GrowthCues Core - B2B SaaS的开源dbt包",
-    "summary": "GrowthCues Core是一个开源的dbt项目，用于计算B2B SaaS的账户级别指标，并提供AI上下文。",
-    "detail": "GrowthCues Core 是一个开源的dbt项目，旨在为B2B SaaS公司提供账户级别和产品级别的指标计算能力。它使用Segment B2B SaaS规范，从Segment或Rudderstack数据中提取信息，并提供AI友好的架构上下文，便于LLM（大语言模型）的集成与分析。",
-    "tags": [
-      "Dev",
-      "Open Source"
-    ],
-    "link": "https://github.com/ArvoanDev/growthcues-core",
-    "date": "2026-02-05",
-    "id": "17702913924792"
-  },
-  {
-    "title": "LocalCoder - 找到适合本地硬件的AI模型",
-    "summary": "LocalCoder帮助用户根据硬件配置推荐并部署最适合的本地AI模型。",
-    "detail": "LocalCoder 是一个工具，可根据用户的硬件配置（如Apple Silicon、NVIDIA GPU或仅CPU）推荐并提供部署命令，帮助用户快速启动本地AI模型。它支持多种量化方式，并提供对不同模型（如Ollama和llama.cpp）的详细说明，方便用户根据需求选择。",
-    "tags": [
-      "New",
-      "Dev"
-    ],
-    "link": "https://localcoder.xyz",
-    "date": "2026-02-05",
-    "id": "17702913924793"
-  },
-  {
-    "title": "DAiFi 白皮书发布：去中心化AI金融的新时代",
-    "summary": "DAiFi 发布白皮书，介绍其去中心化AI金融平台。",
-    "detail": "DAiFi 是一个结合区块链技术和机器学习的去中心化AI金融平台。该平台通过集成先进的AI技术，提供智能市场分析、预测性分析和自动化的投资组合管理等功能。DAiFi 的主要创新点包括AI驱动的实时市场分析、去中心化治理以及基于市场条件的智能风险管理。白皮书还详细介绍了DAiFi 的未来路线图，包括2026年2月的初始代币发行（ITO）和第一季度的概念验证（POC）启动。",
-    "tags": [
-      "News",
-      "Finance",
-      "AI"
-    ],
-    "link": "https://www.daifi.ai/blog/daifi-whitepaper-released",
-    "date": "2026-02-05",
-    "id": "17702881611630"
   }
 ]
