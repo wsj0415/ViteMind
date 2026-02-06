@@ -1,5 +1,53 @@
 [
   {
+    "title": "Meta AI 模型可重现哈利波特第一本书近半内容",
+    "summary": "Meta 的 LLaMA 3.1 模型能够重现《哈利波特》第一本书约 42% 的内容。",
+    "detail": "Meta 的最新大语言模型 LLaMA 3.1 在一项研究中展示了其强大的文本生成能力。研究人员发现，该模型可以重现《哈利波特》第一本书《哈利波特与魔法石》约 42% 的内容。这一成就表明，LLaMA 3.1 在理解和生成长篇复杂文本方面表现出色，对自然语言处理和内容创作领域具有重要意义。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://arstechnica.com/features/2025/06/study-metas-llama-3-1-can-recall-42-percent-of-the-first-harry-potter-book/",
+    "date": "2026-02-06",
+    "id": "17703573053140"
+  },
+  {
+    "title": "Cursor Agent Factory - 五层架构的 AI 代理系统",
+    "summary": "Cursor Agent Factory 提供了生成 AI 开发代理系统的工具，支持多种技术栈。",
+    "detail": "Cursor Agent Factory 是一个用于生成 AI 开发代理系统的工具集，它采用了五层架构设计。该工具可以帮助开发者快速创建适用于不同技术栈的开发代理系统，包括 SAP、Python 和云原生等。通过自定义配置，开发者可以生成 `.cursorrules`、代理、技能、工作流和模板，从而提高开发效率。",
+    "tags": [
+      "New",
+      "Dev"
+    ],
+    "link": "https://github.com/gitwalter/cursor-agent-factory",
+    "date": "2026-02-06",
+    "id": "17703573053141"
+  },
+  {
+    "title": "Unbrowse - 100倍更快的 Web 自动化工具",
+    "summary": "Unbrowse 可以从浏览器流量中自动生成 API 技能，速度提升 100 倍。",
+    "detail": "Unbrowse 是一个开源的 API 反向工程工具，专为 OpenClaw 设计。它能够捕获网站的 API 流量，并自动生成相应的 API 技能，供 AI 代理使用。通过本地运行，Unbrowse 确保数据安全，无需外部传输。该工具显著提高了 Web 自动化的效率，使得 AI 代理能够更快地调用和使用各种 API。",
+    "tags": [
+      "New",
+      "Dev"
+    ],
+    "link": "https://github.com/lekt9/unbrowse-openclaw",
+    "date": "2026-02-06",
+    "id": "17703573053142"
+  },
+  {
+    "title": "Cognee - 仅需六行代码的 AI 代理记忆模块",
+    "summary": "Cognee 提供了一个简单的内存模块，帮助 AI 代理更好地管理记忆。",
+    "detail": "Cognee 是一个轻量级的 AI 内存模块，只需六行代码即可集成到现有项目中。它帮助 AI 代理有效地管理和利用记忆，提高决策能力和用户体验。Cognee 的简单易用性使其成为开发者快速增强 AI 应用功能的理想选择。",
+    "tags": [
+      "New",
+      "Dev"
+    ],
+    "link": "https://github.com/topoteretes/cognee",
+    "date": "2026-02-06",
+    "id": "17703573053143"
+  },
+  {
     "title": "AI音乐生成器：歌词转音乐，免费授权",
     "summary": "使用Claude 4.5和4.6生成高质量音乐，无需版权费用。",
     "detail": "Trymusic AI通过Claude 4.5和4.6模型，能够将用户输入的歌词或歌曲文本快速转换为高质量的音乐轨道，支持多种音乐风格。该工具不仅提供即时创作功能，还保证了所有生成的音乐都是100%原创且免费授权的，适合创作者们轻松使用。",
@@ -1168,54 +1216,5 @@
     "link": "https://www.storagereview.com/news/wd-maps-out-100tb-hdd-roadmap-and-performance-breakthroughs-for-ai-storage",
     "date": "2026-02-04",
     "id": "17702339827513"
-  },
-  {
-    "title": "Mappa：利用AI教练微调多智能体LLM系统",
-    "summary": "Mappa通过AI教练实现多智能体系统的端到端微调。",
-    "detail": "Mappa是一个创新的多智能体系统微调平台，利用AI教练技术对复杂的多智能体语言模型（LLM）进行端到端的微调。该平台允许开发者通过AI教练指导，自动优化多个智能体之间的协作和交互，从而提升整体系统的性能和效率。Mappa的出现为多智能体系统的开发和应用提供了新的可能性，特别是在需要高度协调和智能化的场景中。",
-    "tags": [
-      "New",
-      "LLM",
-      "MultiAgent"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46889889",
-    "date": "2026-02-04",
-    "id": "17702339827514"
-  },
-  {
-    "title": "TabChop 使用 AI 自动解析账单",
-    "summary": "TabChop 通过拍照解析账单，自动分摊费用。",
-    "detail": "TabChop 提供了一种快速、简便的方法来分割账单。用户只需拍摄一张收据照片，然后通过短链接或代码分享给其他人。每个人可以选择自己点的食物，账单会实时更新。支付时，用户的份额会自动计算，并直接支付给主持人。这种方法避免了手动计算和沟通的麻烦，提高了效率。",
-    "tags": [
-      "New",
-      "LLM"
-    ],
-    "link": "https://tabchop.app/overview",
-    "date": "2026-02-04",
-    "id": "17702312422860"
-  },
-  {
-    "title": "Positron 获得 2.3 亿美元融资，挑战 Nvidia",
-    "summary": "AI 芯片公司 Positron 获得了来自 Arm 和卡塔尔的投资。",
-    "detail": "AI 芯片初创公司 Positron 宣布获得了 2.3 亿美元的融资，投资者包括 Arm 和卡塔尔投资局。这笔资金将帮助 Positron 加强其技术开发，与行业巨头 Nvidia 竞争。Positron 的技术专注于高性能和低功耗的 AI 芯片，有望在未来的 AI 市场中占据一席之地。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-02-04/ai-chip-startup-positron-raises-230-million-from-arm-qatar-to-compete-with-nvidia",
-    "date": "2026-02-04",
-    "id": "17702312422861"
-  },
-  {
-    "title": "Tinder 利用 AI 改善匹配体验",
-    "summary": "Tinder 测试 AI 推荐和相机卷功能以提高匹配质量。",
-    "detail": "Tinder 正在测试新的 AI 功能，旨在改善用户体验并减少“滑动疲劳”。该功能包括基于用户相机卷中的照片提供个性化推荐，以及利用 AI 分析用户偏好，以提供更精准的匹配建议。这有助于提高用户的满意度和参与度，同时也为 Tinder 带来了新的增长机会。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/02/04/tinder-looks-to-ai-to-help-fight-swipe-fatigue-and-dating-app-burnout/",
-    "date": "2026-02-04",
-    "id": "17702312422862"
   }
 ]
