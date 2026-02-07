@@ -1,5 +1,29 @@
 [
   {
+    "title": "开源项目 PaySentry - AI 代理支付控制平面",
+    "summary": "PaySentry 提供 AI 代理支付的可观测性、策略执行、争议解决和测试沙盒。",
+    "detail": "PaySentry 是一个开源项目，旨在为 AI 代理支付提供控制平面，包括观察、控制、保护和测试代理支出的功能。该项目支持多种支付网关（x402, ACP, AP2, 和 Visa TAP）。通过 PaySentry，开发者可以轻松管理 AI 代理的支付行为，确保其在预算范围内运行，并提供详细的支付记录和报告。\n\n**核心技术点：**\n- 支持多种支付网关\n- 实时监控和控制支付行为\n- 自动化争议解决机制\n- 提供测试环境以模拟支付场景\n\n**行业影响：**\nPaySentry 的推出有助于提升 AI 应用的安全性和可控性，特别是在涉及大量支付操作的应用场景中。这对于企业级应用尤为重要，能够帮助企业在使用 AI 代理时降低财务风险。",
+    "tags": [
+      "Dev",
+      "OpenSource"
+    ],
+    "link": "https://github.com/mkmkkkkk/paysentry",
+    "date": "2026-02-07",
+    "id": "17704385579440"
+  },
+  {
+    "title": "Pax Historia - 用户与 AI 助力的游戏平台",
+    "summary": "Pax Historia 是一款结合了沙盒游戏自由度和战略深度的 AI 驱动游戏平台。",
+    "detail": "Pax Historia 是一个创新的游戏平台，允许用户创建和探索各种假设历史场景。玩家可以通过创建自定义地图和预设来模拟不同的历史事件，例如“苏联未解体”或“僵尸爆发”。平台利用 AI 技术生成动态响应，使游戏具有高度的不确定性和互动性。\n\n**核心技术点：**\n- AI 驱动的动态响应系统\n- 用户友好的地图编辑器\n- 多样化的场景预设库\n- 社区驱动的内容创作模式\n\n**行业影响：**\nPax Historia 展示了 AI 在游戏开发中的巨大潜力，特别是在创造开放性和互动性强的游戏体验方面。该平台的成功可能激发更多开发者利用 AI 技术来革新游戏设计。",
+    "tags": [
+      "New",
+      "Game"
+    ],
+    "link": "https://www.ycombinator.com/launches/PMu-pax-historia-user-ai-powered-gaming-platform",
+    "date": "2026-02-07",
+    "id": "17704385579441"
+  },
+  {
     "title": "Agora：全由AI代理驱动的预测市场",
     "summary": "Agora是一个仅限AI代理交易的预测市场，展示了AI在集体智能预测中的潜力。",
     "detail": "Agora是全球首个完全由AI代理构建和使用的预测市场，仅允许AI代理进行交易。人类可以观看分析，但不能参与交易。该平台采用常量乘积自动做市商机制，确保流动性，并通过API集成多种AI模型。",
@@ -70,6 +94,18 @@
     "link": "https://github.com/marktoflow/marktoflow",
     "date": "2026-02-07",
     "id": "17704298961915"
+  },
+  {
+    "title": "私人学校使用 AI 每天仅需两小时教学",
+    "summary": "一家私立学校利用 AI 技术，实现每天只需两小时的教学。",
+    "detail": "位于硅谷的一家私立学校采用先进的 AI 技术，将传统的每日六小时教学时间缩短至仅两小时。这种创新的教学方法不仅提高了学习效率，还为学生提供了更多个性化学习的机会。学校通过 AI 辅助教学系统，能够根据学生的进度和能力进行针对性辅导。\n\n**核心技术点：**\n- AI 辅助教学系统\n- 个性化学习路径规划\n- 实时进度跟踪和反馈\n\n**行业影响：**\n这一案例展示了 AI 在教育领域的巨大应用潜力，尤其是在提高教学效率和个性化学习方面的优势。未来，随着 AI 技术的进一步发展，类似的创新教学模式有望在全球范围内得到推广。",
+    "tags": [
+      "News",
+      "Education"
+    ],
+    "link": "https://nypost.com/2026/01/30/business/new-65k-private-school-uses-ai-to-teach-students-in-just-two-hours-a-day-in-silicon-valley-bid-to-shake-up-us-education/",
+    "date": "2026-02-06",
+    "id": "17704385579442"
   },
   {
     "title": "AI控制层：从“不会”到“不能”",
@@ -1177,41 +1213,5 @@
     "link": "https://techcrunch.com/2026/02/05/openai-launches-new-agentic-coding-model-only-minutes-after-anthropic-drops-its-own/",
     "date": "2026-02-05",
     "id": "17703237709920"
-  },
-  {
-    "title": "Browser Agent Protocol：AI 控制浏览器的开放标准",
-    "summary": "BAP 提供了 AI 代理与浏览器交互的标准协议，支持语义选择器和内置的无障碍性支持。",
-    "detail": "Browser Agent Protocol (BAP) 是一个开放标准，允许 AI 代理通过 WebSocket 使用 JSON-RPC 2.0 协议控制浏览器。它引入了语义选择器，使 AI 更容易理解和操作网页元素，并支持无障碍性树检查。此外，BAP 还与 Model Context Protocol 集成，适用于基于大语言模型的代理。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://github.com/browseragentprotocol/bap",
-    "date": "2026-02-05",
-    "id": "17703237709921"
-  },
-  {
-    "title": "VectorGuard-Nano：免费的安全消息插件",
-    "summary": "VectorGuard-Nano 是一个为 OpenClaw 设计的免费安全消息插件。",
-    "detail": "VectorGuard-Nano 是一个专为 OpenClaw 设计的安全消息插件，旨在提供免费的安全通信解决方案。该插件有助于保护 AI 代理之间的消息传递，确保数据的安全性和完整性。",
-    "tags": [
-      "New",
-      "Security"
-    ],
-    "link": "https://github.com/Active-IQ/VectorGuard-Nano",
-    "date": "2026-02-05",
-    "id": "17703237709924"
-  },
-  {
-    "title": "AI生成软件的复杂性探讨",
-    "summary": "LLM在编写简单代码时表现卓越，但在构建复杂应用时却显得业余。",
-    "detail": "本文作者通过让LLM编写RingBuffer和CRM两个项目，发现LLM在处理低级代码时表现得比人类更好，但在构建复杂的个人CRM时却出现了许多问题。作者认为，复杂任务中的多方面因素导致了这种差异。这反映了人类在处理复杂系统时的上下文切换能力是目前AI难以完全复制的。\n\n**核心技术点**: LLM在不同复杂度任务中的表现差异。\n\n**行业影响**: 这一发现强调了在复杂系统开发中，人类经验和直觉的重要性，同时也为未来AI工具如何更好地辅助复杂任务提供了思考方向。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://www.jakequist.com/thoughts/what-happens-when-ai-can-write-all-your-software/",
-    "date": "2026-02-05",
-    "id": "17703203165300"
   }
 ]
