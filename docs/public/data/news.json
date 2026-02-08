@@ -1,5 +1,29 @@
 [
   {
+    "title": "GitHub - agent-ledger: 防止AI代理重试时的副作用",
+    "summary": "agent-ledger 提供了一个事务层，确保AI代理操作的幂等性。",
+    "detail": "agent-ledger 是一个开源工具，旨在解决AI代理在重试时可能出现的副作用问题。通过提供事务处理机制，agent-ledger 确保了工具执行的幂等性，即相同的输入总是产生相同的结果。这有助于安全重试、崩溃恢复和多工作器协调。此外，它还支持人类介入审批和可查询的审计跟踪，适用于多种框架，如LangChain、OpenAI等。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://github.com/rune0-dev/agent-ledger",
+    "date": "2026-02-08",
+    "id": "17705584176230"
+  },
+  {
+    "title": "GitHub - agent-sandbox: 基于WASM的AI代理沙箱环境",
+    "summary": "agent-sandbox 提供了一个基于WebAssembly的沙箱环境，用于安全执行AI代理。",
+    "detail": "agent-sandbox 是一个开源项目，旨在为AI代理提供一个安全的执行环境。通过使用WebAssembly（WASM），agent-sandbox 可以隔离AI代理的操作，防止潜在的安全风险。这使得AI代理可以在受控环境中运行复杂的任务，同时保持系统的稳定性和安全性。",
+    "tags": [
+      "Dev",
+      "WASM"
+    ],
+    "link": "https://github.com/Parassharmaa/agent-sandbox",
+    "date": "2026-02-08",
+    "id": "17705584176231"
+  },
+  {
     "title": "Jokes on You AI: 使用LLM辅助学习",
     "summary": "利用AI编写计划，人类编码，LLM协助修正。",
     "detail": "这篇文章探讨了如何通过让AI编写学习计划，而开发者自己编写代码的方式，利用LLM提升学习效率。这种方法不仅提供了个性化的学习路径，还能获得即时反馈和指导。虽然依赖AI作为教师需要谨慎，但在广泛领域内，LLM已经表现出色。",
@@ -1213,29 +1237,5 @@
     "link": "https://blog.postman.com/new-capabilities-march-2026/",
     "date": "2026-02-07",
     "id": "17704495805723"
-  },
-  {
-    "title": "Benchmark Capital Raises $225M to Boost Cerebras Investment",
-    "summary": "Benchmark Capital invests heavily in Cerebras Systems, aiming to double down on its investment.",
-    "detail": "Benchmark Capital, a prominent venture capital firm, has raised $225 million in special funds specifically to invest more in Cerebras Systems. This move underscores the continued interest in Cerebras, which competes with Nvidia in the field of high-performance computing. The investment will likely be used to accelerate Cerebras' development and market expansion, potentially leading to significant advancements in AI hardware and infrastructure.",
-    "tags": [
-      "News",
-      "Investment"
-    ],
-    "link": "https://techcrunch.com/2026/02/06/benchmark-raises-225m-in-special-funds-to-double-down-on-cerebras/",
-    "date": "2026-02-07",
-    "id": "17704466375820"
-  },
-  {
-    "title": "Concept Artists Criticize Generative AI's Impact on Their Work",
-    "summary": "Generative AI is seen as a challenge rather than a tool by many concept artists in the gaming industry.",
-    "detail": "In an article published by This Week in Video Games, concept artists express frustration with generative AI, particularly its role in game development. They argue that while AI can generate images quickly, it often lacks the creativity and nuance necessary for high-quality concept art. This criticism highlights the ongoing tension between traditional artistic skills and emerging AI technologies, raising questions about the future of creative roles in the industry.",
-    "tags": [
-      "News",
-      "Industry"
-    ],
-    "link": "https://thisweekinvideogames.com/feature/concept-artists-in-games-say-generative-ai-references-only-make-their-jobs-harder/",
-    "date": "2026-02-07",
-    "id": "17704466375821"
   }
 ]
