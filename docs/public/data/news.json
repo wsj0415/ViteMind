@@ -1,5 +1,65 @@
 [
   {
+    "title": "Jokes on You AI: 使用LLM辅助学习",
+    "summary": "利用AI编写计划，人类编码，LLM协助修正。",
+    "detail": "这篇文章探讨了如何通过让AI编写学习计划，而开发者自己编写代码的方式，利用LLM提升学习效率。这种方法不仅提供了个性化的学习路径，还能获得即时反馈和指导。虽然依赖AI作为教师需要谨慎，但在广泛领域内，LLM已经表现出色。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://www.dev-log.me/jokes_on_you_ai_llms_for_learning/",
+    "date": "2026-02-08",
+    "id": "17705551774380"
+  },
+  {
+    "title": "WatchLLM：减少AI请求成本",
+    "summary": "通过缓存相似请求减少OpenAI等API调用费用。",
+    "detail": "WatchLLM 是一个工具，旨在通过缓存重复或类似的API请求来显著降低使用OpenAI、Anthropic等服务的成本。它能在5分钟内设置完成，并提供实时节省统计，平均节省可达40-70%，同时保持快速响应速度。",
+    "tags": [
+      "Deal",
+      "Cost Management"
+    ],
+    "link": "https://www.watchllm.dev/",
+    "date": "2026-02-08",
+    "id": "17705551774381"
+  },
+  {
+    "title": "AI死亡机器人研究揭示",
+    "summary": "研究探讨了AI在模拟已故亲人方面的潜力与伦理问题。",
+    "detail": "卡迪夫大学的Dr Jenny Kidd博士领导的研究揭示了“死亡机器人”——利用AI模拟已故亲人的聊天机器人的潜力和伦理问题。尽管这类技术可能帮助人们应对悲痛，但其道德和隐私方面也引发了广泛关注。",
+    "tags": [
+      "News",
+      "Ethics"
+    ],
+    "link": "https://www.bbc.com/news/articles/c93wjywz5p5o",
+    "date": "2026-02-08",
+    "id": "17705551774382"
+  },
+  {
+    "title": "AI从预测到编译：可靠性宣言",
+    "summary": "提出AI应从预测转向编译，确保执行合法性。",
+    "detail": "本文提出了AI系统的可靠性宣言，强调AI应从预测转向编译，确保所有执行动作基于确定性物理模型和约束条件生成。这将使AI系统更加可靠，避免不可预测的错误。",
+    "tags": [
+      "News",
+      "Reliability"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46933631",
+    "date": "2026-02-08",
+    "id": "17705551774383"
+  },
+  {
+    "title": "AI的真实问题是合法性而非幻觉",
+    "summary": "AI的问题在于执行合法性而非准确性。",
+    "detail": "本文指出，当前AI讨论中的主要问题不是准确性，而是执行合法性。预测系统应生成目标和约束，而非直接生成可执行动作。AI进入物理世界前需经历从预测到编译的范式转变。",
+    "tags": [
+      "News",
+      "Legitimacy"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46933611",
+    "date": "2026-02-08",
+    "id": "17705551774384"
+  },
+  {
     "title": "contextFirst 提出：保持架构一致性的人工智能工程框架",
     "summary": "contextFirst 是一个确保 AI 辅助开发时保持代码架构一致性的框架。",
     "detail": "contextFirst 是一个旨在解决大规模使用 AI 编码工具时保持架构控制问题的框架。它通过让 AI 助手记住项目意图和架构，帮助开发者减少认知负担，提高软件质量和过程可预测性。该框架强调上下文感知的重要性，确保 AI 在整个项目周期中都能保持一致性和连贯性，避免了纯生成式编码带来的技术债务问题。",
@@ -1177,65 +1237,5 @@
     "link": "https://thisweekinvideogames.com/feature/concept-artists-in-games-say-generative-ai-references-only-make-their-jobs-harder/",
     "date": "2026-02-07",
     "id": "17704466375821"
-  },
-  {
-    "title": "Souls.directory: Curated SOUL.md Templates for AI Agents",
-    "summary": "Explore and use SOUL.md templates to define AI agent personalities on Souls.directory.",
-    "detail": "Souls.directory is a platform offering a curated collection of SOUL.md templates designed for defining AI agent personalities. These templates, known as 'souls,' provide a structured way to create and customize agent behaviors, making it easier for developers to integrate human-like traits into their AI systems. The platform supports OpenClaw agents and encourages users to browse, use, or contribute their own templates.",
-    "tags": [
-      "New",
-      "AI"
-    ],
-    "link": "https://souls.directory/",
-    "date": "2026-02-07",
-    "id": "17704466375822"
-  },
-  {
-    "title": "开源项目 PaySentry - AI 代理支付控制平面",
-    "summary": "PaySentry 提供 AI 代理支付的可观测性、策略执行、争议解决和测试沙盒。",
-    "detail": "PaySentry 是一个开源项目，旨在为 AI 代理支付提供控制平面，包括观察、控制、保护和测试代理支出的功能。该项目支持多种支付网关（x402, ACP, AP2, 和 Visa TAP）。通过 PaySentry，开发者可以轻松管理 AI 代理的支付行为，确保其在预算范围内运行，并提供详细的支付记录和报告。\n\n**核心技术点：**\n- 支持多种支付网关\n- 实时监控和控制支付行为\n- 自动化争议解决机制\n- 提供测试环境以模拟支付场景\n\n**行业影响：**\nPaySentry 的推出有助于提升 AI 应用的安全性和可控性，特别是在涉及大量支付操作的应用场景中。这对于企业级应用尤为重要，能够帮助企业在使用 AI 代理时降低财务风险。",
-    "tags": [
-      "Dev",
-      "OpenSource"
-    ],
-    "link": "https://github.com/mkmkkkkk/paysentry",
-    "date": "2026-02-07",
-    "id": "17704385579440"
-  },
-  {
-    "title": "Pax Historia - 用户与 AI 助力的游戏平台",
-    "summary": "Pax Historia 是一款结合了沙盒游戏自由度和战略深度的 AI 驱动游戏平台。",
-    "detail": "Pax Historia 是一个创新的游戏平台，允许用户创建和探索各种假设历史场景。玩家可以通过创建自定义地图和预设来模拟不同的历史事件，例如“苏联未解体”或“僵尸爆发”。平台利用 AI 技术生成动态响应，使游戏具有高度的不确定性和互动性。\n\n**核心技术点：**\n- AI 驱动的动态响应系统\n- 用户友好的地图编辑器\n- 多样化的场景预设库\n- 社区驱动的内容创作模式\n\n**行业影响：**\nPax Historia 展示了 AI 在游戏开发中的巨大潜力，特别是在创造开放性和互动性强的游戏体验方面。该平台的成功可能激发更多开发者利用 AI 技术来革新游戏设计。",
-    "tags": [
-      "New",
-      "Game"
-    ],
-    "link": "https://www.ycombinator.com/launches/PMu-pax-historia-user-ai-powered-gaming-platform",
-    "date": "2026-02-07",
-    "id": "17704385579441"
-  },
-  {
-    "title": "Agora：全由AI代理驱动的预测市场",
-    "summary": "Agora是一个仅限AI代理交易的预测市场，展示了AI在集体智能预测中的潜力。",
-    "detail": "Agora是全球首个完全由AI代理构建和使用的预测市场，仅允许AI代理进行交易。人类可以观看分析，但不能参与交易。该平台采用常量乘积自动做市商机制，确保流动性，并通过API集成多种AI模型。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://agoramarket.ai/",
-    "date": "2026-02-07",
-    "id": "17704298961910"
-  },
-  {
-    "title": "Anduril宣布AI大奖赛：自主无人机竞速比赛",
-    "summary": "Anduril举办AI大奖赛，奖励最佳代码优化的参赛者。",
-    "detail": "Anduril创始人Palmer Luckey发起AI大奖赛，旨在挑战全球工程师优化代码以提高无人机竞速性能。比赛禁止人类操控和硬件修改，仅通过代码优化决胜。总奖金池为50万美元。",
-    "tags": [
-      "News",
-      "Competition"
-    ],
-    "link": "https://www.dcl-project.com/",
-    "date": "2026-02-07",
-    "id": "17704298961911"
   }
 ]
