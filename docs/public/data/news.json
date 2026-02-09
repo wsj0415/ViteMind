@@ -1,5 +1,65 @@
 [
   {
+    "title": "Forge - 3MB Rust 二进制文件协调多 AI 编码代理",
+    "summary": "Forge 使用 Rust 构建，可协调多个 AI 编码代理。",
+    "detail": "Forge 是一个轻量级的 3MB Rust 二进制文件，旨在协调多个 AI 编码代理（如 Claude Code、Codex CLI 和 Gemini CLI）。它通过 MCP（Multi-Agent Coordination Protocol）实现高效的团队协作，帮助开发者规划任务、分配资源、跟踪进度，并防止冲突，从而提高开发效率。\n\n**核心技术点：**\n- **Rust 编程语言**：提供高性能和内存安全。\n- **MCP 协议**：支持多代理之间的高效通信和协作。\n- **模块化设计**：易于扩展和定制。\n\n**行业影响：**\nForge 的发布为开发者提供了一种新的工具，能够更好地管理和利用多种 AI 资源，推动了 AI 在软件开发中的应用。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://github.com/nxtg-ai/forge-orchestrator",
+    "date": "2026-02-09",
+    "id": "17706273486200"
+  },
+  {
+    "title": "Seedance 式 AI 视频生成工作流讨论",
+    "summary": "探讨基于节奏和运动的 AI 视频生成方法。",
+    "detail": "Seedance 探索了一种新的 AI 视频生成方法，侧重于视频的节奏、运动和视觉连续性，而不是传统的长篇故事叙述。这种方法可能为视频制作提供更灵活和创意的工具。\n\n**核心技术点：**\n- **节奏与运动分析**：通过算法分析视频中的节奏和运动模式。\n- **视觉连续性**：确保生成的视频在视觉上流畅连贯。\n\n**行业影响：**\n这种新的生成方式可能会改变视频制作流程，为内容创作者提供更多可能性，特别是在需要快速生成高质量视频的场景中。",
+    "tags": [
+      "News",
+      "Video"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46942781",
+    "date": "2026-02-09",
+    "id": "17706273486201"
+  },
+  {
+    "title": "Molinar - 开源 AI 助手",
+    "summary": "Molinar 提供隔离的开源 AI 助手，运行在 AWS 上。",
+    "detail": "Molinar 是一个开源的 AI 助手解决方案，部署在 AWS 的隔离容器中，确保数据安全。它可以通过 Telegram 处理客户请求，适用于各种业务场景。\n\n**核心技术点：**\n- **隔离容器**：每个实例运行在独立的 AWS 容器中，确保数据安全。\n- **加密密钥**：使用 AWS SSM SecureString 加密存储 API 密钥。\n- **安全网络**：仅允许出站连接，防止外部访问。\n\n**行业影响：**\nMolinar 提供了一种安全可靠的 AI 解决方案，特别适合需要严格数据保护的企业用户。",
+    "tags": [
+      "Dev",
+      "OpenSource"
+    ],
+    "link": "https://business.molinar.ai/",
+    "date": "2026-02-09",
+    "id": "17706273486202"
+  },
+  {
+    "title": "自主发现和使用 AI 技能",
+    "summary": "开源 AI 助手可以自主发现、安装和使用技能。",
+    "detail": "该项目开发了一个开源的 AI 助手，能够自主发现、安装和执行各种技能，以完成实际任务。这解决了传统 AI 聊天机器人只能提供信息而不能执行操作的问题。\n\n**核心技术点：**\n- **自主技能管理**：自动搜索和安装所需技能。\n- **任务执行**：通过集成的技能完成实际任务。\n\n**行业影响：**\n这种自主化的 AI 助手将显著提升工作效率，特别是在需要处理多种任务的复杂环境中。",
+    "tags": [
+      "Dev",
+      "Skills"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46942091",
+    "date": "2026-02-09",
+    "id": "17706273486203"
+  },
+  {
+    "title": "《谁批准了这个代理？》AI 生成代码授权书籍",
+    "summary": "探讨 AI 生成代码的授权和安全性问题。",
+    "detail": "这本书讨论了 AI 代理生成和执行代码时的安全性和授权问题，提出了 Ed25519 签名许可系统来解决信任问题。\n\n**核心技术点：**\n- **Ed25519 签名**：用于验证 AI 生成代码的合法性。\n- **许可系统**：确保只有经过授权的代码才能被执行。\n\n**行业影响：**\n随着 AI 生成代码的应用越来越广泛，安全性和授权成为重要议题。这本书提供了实用的解决方案，有助于提高系统的可靠性和安全性。",
+    "tags": [
+      "News",
+      "Security"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46942086",
+    "date": "2026-02-09",
+    "id": "17706273486204"
+  },
+  {
     "title": "Logifai 自动捕获开发日志的 AI 编码助手",
     "summary": "Logifai 自动捕获终端输出，简化调试流程。",
     "detail": "Logifai 是一个开源工具，旨在自动捕获开发日志，帮助开发者更高效地调试代码。通过将命令输出管道到 Logifai，开发者可以直接询问 Claude Code（或其他类似 AI 助手）错误信息，而无需手动复制粘贴终端输出。Logifai 提供 Web UI 查看日志，并支持智能归一化和自动红action等功能。",
@@ -1155,67 +1215,5 @@
     "link": "https://lowlighter.app/",
     "date": "2026-02-07",
     "id": "17705071280743"
-  },
-  {
-    "title": "CodeSlick 发布 OpenClaw 安全审计报告",
-    "summary": "CodeSlick 对 OpenClaw AI 助手进行了安全审计，发现 12,465 个漏洞。",
-    "detail": "CodeSlick 对 OpenClaw，一个拥有 2,000 多个 GitHub 星的开源 AI 助手平台进行了全面的安全审计，发现了 12,465 个漏洞，其中包括 277 个高严重性漏洞。尽管 OpenClaw 团队已经披露并修复了主要的 RCE 漏洞，但该报告还揭示了其他潜在的安全模式。这份审计报告为开发者提供了宝贵的安全建设参考。",
-    "tags": [
-      "News",
-      "Security",
-      "AI"
-    ],
-    "link": "https://codeslick.dev/blog/openclaw-security-audit",
-    "date": "2026-02-07",
-    "id": "17705071280744"
-  },
-  {
-    "title": "Mozilla 实现超快 AI 聊天小部件",
-    "summary": "Mozilla 通过优化设计实现了高效的 AI 聊天小部件。",
-    "detail": "Mozilla 在其项目中嵌入了视觉 UI 小部件到聊天界面中，如天气预报小部件。研究发现，减少生成的令牌数量是提高性能的关键。项目团队尝试了多种方法，最终通过优化设计实现了高效的 AI 聊天小部件，显著提升了用户体验。",
-    "tags": [
-      "Dev",
-      "UX",
-      "AI"
-    ],
-    "link": "https://www.cjroth.com/blog/2026-02-06-chat-widgets",
-    "date": "2026-02-07",
-    "id": "17705071280745"
-  },
-  {
-    "title": "Agyn: 多智能体系统助力团队化自主软件工程",
-    "summary": "Agyn 是一种多智能体系统，旨在提升团队化的自主软件工程能力。",
-    "detail": "Agyn 是由康奈尔大学的研究人员开发的一种多智能体系统，旨在通过团队协作提高软件工程的自动化水平。该系统的核心技术在于利用多个智能体协同工作，解决复杂的软件开发问题。Agyn 的应用有望显著提高软件开发效率和质量，推动软件工程领域的发展。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://arxiv.org/abs/2602.01465",
-    "date": "2026-02-07",
-    "id": "17705033087370"
-  },
-  {
-    "title": "PalettePoint：基于文本或图像的AI调色板生成器",
-    "summary": "PalettePoint 是一款可以从文本描述或图像中生成配色方案的AI工具。",
-    "detail": "PalettePoint 提供了一种创新的方法，让用户能够通过简单的文本输入或上传图像来自动生成专业的配色方案。该工具利用先进的AI技术分析文本或图像中的颜色信息，生成符合用户需求的调色板。PalettePoint 的出现将极大地方便设计师和开发者在项目中选择合适的色彩搭配。",
-    "tags": [
-      "New",
-      "Design"
-    ],
-    "link": "https://palettepoint.com/",
-    "date": "2026-02-07",
-    "id": "17705033087371"
-  },
-  {
-    "title": "AI Interviewer 免费试用",
-    "summary": "AI Interviewer 提供了免费试用机会，帮助企业进行面试自动化。",
-    "detail": "AI Interviewer 是一个部署在 AWS 平台上的自动化面试工具，能够帮助企业高效地进行候选人筛选和评估。通过提供免费试用，该工具为企业提供了探索其功能和潜力的机会。AI Interviewer 的核心在于利用先进的自然语言处理技术，实现对候选人的自动化面试和评分。",
-    "tags": [
-      "Deal",
-      "Automation"
-    ],
-    "link": "https://ai-interviewer.nuvoice.ai/",
-    "date": "2026-02-07",
-    "id": "17705033087372"
   }
 ]
