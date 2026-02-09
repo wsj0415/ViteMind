@@ -1,5 +1,65 @@
 [
   {
+    "title": "Logifai 自动捕获开发日志的 AI 编码助手",
+    "summary": "Logifai 自动捕获终端输出，简化调试流程。",
+    "detail": "Logifai 是一个开源工具，旨在自动捕获开发日志，帮助开发者更高效地调试代码。通过将命令输出管道到 Logifai，开发者可以直接询问 Claude Code（或其他类似 AI 助手）错误信息，而无需手动复制粘贴终端输出。Logifai 提供 Web UI 查看日志，并支持智能归一化和自动红action等功能。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://github.com/tomoyaf/logifai",
+    "date": "2026-02-09",
+    "id": "17706208028430"
+  },
+  {
+    "title": "LocalLLMJournal：本地、隐私优先的 AI 日记应用",
+    "summary": "LocalLLMJournal 是一个本地运行的 AI 日记工具，保护用户隐私。",
+    "detail": "LocalLLMJournal 是一个在 macOS 上本地运行的 AI 日记工具，专注于用户隐私保护。它允许用户在本地编写和管理日记，利用本地部署的语言模型处理文本。该工具支持多种功能，包括文本编辑、搜索和分类，确保用户的敏感信息不会被上传到云端。",
+    "tags": [
+      "New",
+      "Privacy"
+    ],
+    "link": "https://github.com/superS007/localllmjournal",
+    "date": "2026-02-09",
+    "id": "17706208028431"
+  },
+  {
+    "title": "Next-Chat-Skills：自主发现和执行 AI 技能",
+    "summary": "Next-Chat-Skills 是一个自主发现和执行技能的 AI 助手。",
+    "detail": "Next-Chat-Skills 是一个开放源代码的 AI 助手，能够自主发现、安装和执行各种技能（Skills）。当用户请求执行某项任务时，AI 会自动搜索相关技能、安装并执行其脚本，提供实时输出并处理错误。这使得 AI 助手能够完成复杂的任务，而无需用户手动干预。",
+    "tags": [
+      "Dev",
+      "AI Skills"
+    ],
+    "link": "https://github.com/twwch/next-chat-skills",
+    "date": "2026-02-09",
+    "id": "17706208028432"
+  },
+  {
+    "title": "《谁批准了这个代理？》探讨 AI 生成代码的授权问题",
+    "summary": "新书《谁批准了这个代理？》讨论 AI 生成代码的安全性和授权机制。",
+    "detail": "这本书探讨了当前 AI 代理在编写和执行代码时缺乏有效监督的问题，导致数据安全风险增加。作者提出了一种基于 Ed25519 签名、Secure Enclave 集成、团队审批和能力门控运行时等机制来增强 AI 代码的安全性，并提供了实际实现方法。",
+    "tags": [
+      "News",
+      "Security"
+    ],
+    "link": "https://book.se.tc",
+    "date": "2026-02-09",
+    "id": "17706208028433"
+  },
+  {
+    "title": "EdgeAI-OS：将 AI 作为系统原语的离线 Linux 发行版",
+    "summary": "EdgeAI-OS 是一个将 AI 作为系统原语的离线 Linux 发行版。",
+    "detail": "EdgeAI-OS 是一个专门为安全敏感环境设计的 Linux 发行版，旨在本地运行所有 AI 应用，避免数据泄露。该发行版将 AI 视为系统原语，类似于 CPU 或内存，适用于金融、医疗、国防等行业。EdgeAI-OS 的核心优势在于其离线运行模式，确保数据始终在本地网络内。",
+    "tags": [
+      "New",
+      "Security"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46942012",
+    "date": "2026-02-09",
+    "id": "17706208028434"
+  },
+  {
     "title": "台积电将在日本生产先进AI半导体",
     "summary": "台积电计划在日本生产用于AI的先进半导体。",
     "detail": "台积电宣布将在日本建立先进半导体生产线，专门用于生产高性能的AI芯片。这一举措将增强日本在全球半导体和AI技术领域的竞争力，并为未来的AI应用提供强大的硬件支持。",
@@ -58,6 +118,18 @@
     "link": "https://www.bbc.com/news/articles/cvgn2k285ypo",
     "date": "2026-02-09",
     "id": "17706038355842"
+  },
+  {
+    "title": "科技巨头竞相投入 6600 亿美元 AI 开支",
+    "summary": "全球科技巨头计划在 2026 年投入总计 6600 亿美元用于 AI。",
+    "detail": "根据 Financial Times 的报道，全球科技巨头正计划在 2026 年投入总计 6600 亿美元用于 AI 相关项目。这一前所未有的投资规模反映了 AI 在各行业的广泛应用前景。尽管如此，高额投资也伴随着风险，需要谨慎规划和管理。",
+    "tags": [
+      "News",
+      "Investment"
+    ],
+    "link": "https://www.ft.com/content/d503afd5-1012-40f0-8f9d-620dcb39a9a2",
+    "date": "2026-02-08",
+    "id": "17706208028435"
   },
   {
     "title": "首次证明AI挑战：数学领域的尝试",
@@ -1145,79 +1217,5 @@
     "link": "https://ai-interviewer.nuvoice.ai/",
     "date": "2026-02-07",
     "id": "17705033087372"
-  },
-  {
-    "title": "AI Agent Tool that Keeps You in the Loop",
-    "summary": "misatay 是一个保持用户参与的AI代理工具。",
-    "detail": "misatay 是一个设计用于增强用户与AI交互体验的工具。该工具的核心在于确保用户始终处于决策和操作的循环中，避免完全的自动化带来的潜在风险。misatay 的出现为开发者提供了一个新的视角，如何在自动化过程中保持人类的控制和参与。",
-    "tags": [
-      "Dev",
-      "UserExperience"
-    ],
-    "link": "https://github.com/dshearer/misatay",
-    "date": "2026-02-07",
-    "id": "17705033087373"
-  },
-  {
-    "title": "Runtime Fence – AI代理的紧急关闭开关",
-    "summary": "Runtime Fence 提供了一个紧急关闭和监控AI代理的安全生态系统。",
-    "detail": "Runtime Fence 是一种专为AI代理设计的安全系统，能够实现实时监控和紧急关闭功能。该系统的出现填补了现有AI安全领域的空白，为用户提供了一种有效的手段来防止潜在的AI滥用和风险。Runtime Fence 的核心技术在于其高效的监控机制和灵活的配置选项。",
-    "tags": [
-      "Dev",
-      "Safety"
-    ],
-    "link": "https://github.com/RunTimeAdmin/ai-agent-killswitch",
-    "date": "2026-02-07",
-    "id": "17705033087374"
-  },
-  {
-    "title": "顶级AI模型在96%以上任务中失败",
-    "summary": "一项研究表明，顶级AI模型在远程自由职业测试中表现不佳。",
-    "detail": "一项最新的研究表明，尽管顶级AI模型在许多领域表现出色，但在实际的远程自由职业测试中却表现不佳，失败率高达96%以上。这项研究揭示了当前AI技术在解决实际问题时面临的挑战，特别是对于复杂和多样化的需求。研究结果对于AI技术的发展具有重要的指导意义。",
-    "tags": [
-      "News",
-      "Performance"
-    ],
-    "link": "https://www.zdnet.com/article/ai-failed-test-on-remote-freelance-jobs/",
-    "date": "2026-02-07",
-    "id": "17705033087375"
-  },
-  {
-    "title": "Gemini Station：Windows上的AI聊天组织扩展",
-    "summary": "Gemini Station是一个Chrome扩展程序，帮助用户在Windows上更方便地组织和管理AI聊天记录。",
-    "detail": "Gemini Station是一款专门为Windows用户设计的Chrome扩展程序，旨在简化AI聊天体验。通过提供类似浏览器的标签页浏览功能，用户可以在单个窗口中轻松管理和切换不同的AI聊天会话。这不仅提高了工作效率，还使得多任务处理变得更加便捷。此外，Gemini Station还支持自定义设置，允许用户根据个人偏好调整界面布局和功能选项，确保最佳使用体验。",
-    "tags": [
-      "Dev",
-      "Tool"
-    ],
-    "link": "https://github.com/rajeshkumarblr/gemini_station",
-    "date": "2026-02-07",
-    "id": "17704996783232"
-  },
-  {
-    "title": "科技巨头涌入印度争夺AI主导权",
-    "summary": "美国科技巨头向印度投资巨额资金以获取AI领域的领先地位。",
-    "detail": "根据《华尔街日报》报道，美国科技巨头正在向印度投资大量资金，旨在获取AI领域的主导地位。印度凭借其庞大的人才库和快速增长的科技市场成为全球AI竞争的关键战场。这种投资不仅限于研发资金，还包括技术转移和合作伙伴关系，反映了国际科技巨头对印度市场的高度重视。",
-    "tags": [
-      "News",
-      "India",
-      "AI"
-    ],
-    "link": "https://www.wsj.com/world/india/why-big-tech-is-throwing-cash-into-india-in-quest-for-ai-supremacy-a5d02f0e",
-    "date": "2026-02-07",
-    "id": "17704961376430"
-  },
-  {
-    "title": "SuperLocalMemory：本地化AI记忆系统",
-    "summary": "SuperLocalMemory是一个本地运行的智能记忆系统，无需外部API。",
-    "detail": "SuperLocalMemory是一款完全本地化的智能记忆系统，集成了知识图谱和模式学习功能，采用四层架构设计。该系统旨在为用户提供强大的记忆和信息处理能力，同时确保用户数据的安全性和隐私性，不依赖任何外部API服务。",
-    "tags": [
-      "New",
-      "AI",
-      "Memory"
-    ],
-    "link": "https://github.com/varun369/SuperLocalMemoryV2",
-    "date": "2026-02-07",
-    "id": "17704961376431"
   }
 ]
