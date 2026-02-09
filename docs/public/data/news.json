@@ -1,5 +1,41 @@
 [
   {
+    "title": "AlphaZero风格AI在Azul游戏中的快速实现",
+    "summary": "Dan Luu仅用2-3天时间，在无AI背景的情况下，利用笔记本CPU训练出击败现有最佳AI的AlphaZero风格模型。",
+    "detail": "Dan Luu分享了他如何在短短几天内开发出一个AlphaZero风格的人工智能模型来玩Azul游戏。尽管他没有AI背景，但通过使用现有的开源工具和资源，他在大约2-3天的时间内（包括等待训练的时间）成功训练了一个能够击败当前最好公开AI的模型。这一案例展示了现代AI技术的易用性和强大性能，即使是非专业人士也能迅速创建出有竞争力的AI解决方案。该模型的核心技术是基于强化学习的AlphaZero算法，该算法最初被用于围棋等复杂策略游戏，并取得了显著的成功。此次应用到Azul游戏上，进一步证明了AlphaZero框架的广泛适用性。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://twitter.com/danluu/status/2020839176766418960",
+    "date": "2026-02-09",
+    "id": "17706427210130"
+  },
+  {
+    "title": "AI自我诊断与修复系统OpenClaw Self-Healing v2.0发布",
+    "summary": "OpenClaw Self-Healing v2.0是一个4层自主恢复系统，能够诊断和修复自身问题。",
+    "detail": "OpenClaw Self-Healing v2.0 是一个先进的4层自主恢复系统，专为OpenClaw Gateway设计。该系统利用AI技术实现自我诊断和修复功能，确保系统的稳定运行。核心技术包括AI驱动的故障检测机制和自动化修复流程，能够识别并解决各种运行时问题。此外，系统还集成了Claude Code作为紧急处理模块，当系统无法自行解决问题时，可以请求外部支持。这一创新技术为AI系统的可靠性和自主性树立了新的标杆，有望在未来的分布式系统中得到广泛应用。",
+    "tags": [
+      "New",
+      "Dev"
+    ],
+    "link": "https://github.com/Ramsbaby/openclaw-self-healing",
+    "date": "2026-02-09",
+    "id": "17706427210131"
+  },
+  {
+    "title": "AI伦理哲学家：教AI拥有道德",
+    "summary": "Anthropic公司哲学家Amanda Askell正在研究如何让AI具备道德判断能力。",
+    "detail": "Anthropic公司邀请哲学家Amanda Askell参与研究，探讨如何赋予AI道德判断能力。Askell认为，随着AI技术的发展，其决策和行为对社会的影响日益增大，因此建立AI的道德准则变得至关重要。她提出了一系列方法和技术手段，旨在确保AI系统在执行任务时能够遵循人类的道德规范。这些方法包括但不限于伦理编程、道德推理模型的构建以及跨学科的合作。通过这些努力，研究团队希望开发出更加负责任和可靠的AI系统，以应对未来可能出现的各种伦理挑战。",
+    "tags": [
+      "News",
+      "Ethics"
+    ],
+    "link": "https://www.wsj.com/tech/ai/anthropic-amanda-askell-philosopher-ai-3c031883",
+    "date": "2026-02-09",
+    "id": "17706427210132"
+  },
+  {
     "title": "Busted - eBPF工具监控AI代理通信",
     "summary": "Busted 是一个基于 eBPF 的 AI 通信监控和身份管理系统。",
     "detail": "Busted 是一个高性能、内核原生的可观测性和策略执行系统，用于跟踪、分类和控制 LLM/AI 通信。它完全用 Rust 编写，利用 eBPF 提供实时可见性，无需更改应用程序。主要功能包括内核原生监控、TLS 明文捕获、LLM 和 MCP 检测、TLS SNI 提取、策略执行、ML 行为分类、容器和 Kubernetes 意识以及 SIEM 集成。",
@@ -1175,41 +1211,5 @@
     "link": "https://huggingface.co/ParamTatva/sanskrit-ppo-hopper-v5/blob/main/docs/blog.md",
     "date": "2026-02-08",
     "id": "17705270500654"
-  },
-  {
-    "title": "AI视频生成器Seedance 2.0推出限时优惠",
-    "summary": "Seedance 2.0提供50%折扣的年度计划。",
-    "detail": "Seedance 2.0 是一款AI驱动的视频生成工具，允许用户轻松创建专业级别的视频内容。此次推出的年度计划享受50%的折扣优惠，仅限58个名额。该工具支持多种视频格式和模板选择，适合创作者和电商使用。通过AI技术，Seedance 2.0能够自动生成高质量的视频内容，无需专业视频制作经验。",
-    "tags": [
-      "Deal",
-      "New"
-    ],
-    "link": "https://seedance-2.net/",
-    "date": "2026-02-08",
-    "id": "17705182619540"
-  },
-  {
-    "title": "LocalGPT：本地AI助手，支持持久记忆",
-    "summary": "LocalGPT是一款用Rust编写的本地AI助手，具有持久内存功能。",
-    "detail": "LocalGPT 是一个基于Rust开发的本地AI助手，旨在为用户提供高效、安全的智能辅助功能。其核心特性包括持久内存支持，这意味着用户的数据和交互历史可以存储在本地设备上，确保隐私和数据安全。LocalGPT适用于各种场景，包括个人助理、文档搜索和数据分析等。该项目托管在GitHub上，开发者可以通过开源社区获取更多信息和支持。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://github.com/localgpt-app/localgpt",
-    "date": "2026-02-08",
-    "id": "17705182619551"
-  },
-  {
-    "title": "AI文档可读性评分工具",
-    "summary": "DocsALot提供免费工具评估文档对AI的友好程度。",
-    "detail": "DocsALot 推出了一款免费工具，用于评估技术文档的AI可读性。该工具通过分析文档的结构、内容质量和可访问性等方面，为文档提供一个0到100的评分。高分文档更容易被AI系统理解和使用。DocsALot的AI文档评分工具可以帮助开发者和文档撰写者优化文档内容，提高用户体验。",
-    "tags": [
-      "Dev",
-      "Tools"
-    ],
-    "link": "https://docsalot.dev/tools/docsagent-score",
-    "date": "2026-02-08",
-    "id": "17705182619552"
   }
 ]
