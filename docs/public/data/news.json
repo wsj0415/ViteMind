@@ -1,5 +1,53 @@
 [
   {
+    "title": "Stack Overflow for AI Coding Agents",
+    "summary": "shareful.ai 提供了一个类似 Stack Overflow 的平台，帮助开发者分享和查找代码修复方案。",
+    "detail": "shareful.ai 是一个专门为 AI 编码代理设计的平台，旨在帮助开发者分享和查找代码修复方案。用户可以通过命令行技能访问平台上的解决方案，而无需任何配置。该平台支持多种 AI 代理，包括 AMP、Claude Code 和 GitHub Copilot 等。通过共识机制，最佳答案会脱颖而出，确保用户获得最可靠的信息。这一平台为开发者提供了一个高效解决问题的工具。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://shareful.ai/",
+    "date": "2026-02-09",
+    "id": "17706314652690"
+  },
+  {
+    "title": "AI 为代理提供长期记忆而不爆预算",
+    "summary": "Metaduck 提出了一种时间分层设计，使 AI 代理能够拥有长期记忆，同时控制成本。",
+    "detail": "Metaduck 推出了一个创新的记忆系统，帮助 AI 代理拥有长期记忆。该系统采用时间分层设计，将记忆按时间段组织，并通过逐步总结和图结构知识库来存储信息。这种方法不仅提高了检索速度和相关性，还降低了存储成本。该系统是 Helpmaton 平台的一部分，旨在简化 AI 代理的部署和管理。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://metaduck.com/how-we-give-ai-agents-long-term-memory-without-blowing-the-budget/",
+    "date": "2026-02-09",
+    "id": "17706314652691"
+  },
+  {
+    "title": "GitHub 上的 AI SDK 支持 Amazon Bedrock",
+    "summary": "Vercel 发布了对 Amazon Bedrock 的 AI SDK 支持，方便开发者集成和使用。",
+    "detail": "Vercel 在其 AI 工具包中添加了对 Amazon Bedrock 的支持，这使得开发者可以更方便地集成和使用 Amazon Bedrock 提供的 AI 功能。该 SDK 包含了一系列工具和接口，帮助开发者快速构建和部署基于 Amazon Bedrock 的应用。这对于需要高性能和可扩展性的 AI 应用开发来说是一个重要的进展。",
+    "tags": [
+      "Dev",
+      "SDK"
+    ],
+    "link": "https://github.com/vercel/ai/tree/main/packages/amazon-bedrock",
+    "date": "2026-02-09",
+    "id": "17706314652692"
+  },
+  {
+    "title": "AI 代理性能评估框架",
+    "summary": "agentrial 是一个用于评估 AI 代理性能的统计框架，支持多次运行并生成置信区间。",
+    "detail": "agentrial 是一个专门为 AI 代理设计的性能评估框架，它允许开发者多次运行代理并生成统计结果，而不是依赖单次运行的结果。该框架支持多次运行代理，并通过统计分析生成置信区间，帮助开发者更好地了解代理的稳定性和可靠性。这对于提高 AI 代理的质量和用户体验具有重要意义。",
+    "tags": [
+      "Dev",
+      "Testing"
+    ],
+    "link": "https://github.com/alepot55/agentrial",
+    "date": "2026-02-09",
+    "id": "17706314652693"
+  },
+  {
     "title": "Forge - 3MB Rust 二进制文件协调多 AI 编码代理",
     "summary": "Forge 使用 Rust 构建，可协调多个 AI 编码代理。",
     "detail": "Forge 是一个轻量级的 3MB Rust 二进制文件，旨在协调多个 AI 编码代理（如 Claude Code、Codex CLI 和 Gemini CLI）。它通过 MCP（Multi-Agent Coordination Protocol）实现高效的团队协作，帮助开发者规划任务、分配资源、跟踪进度，并防止冲突，从而提高开发效率。\n\n**核心技术点：**\n- **Rust 编程语言**：提供高性能和内存安全。\n- **MCP 协议**：支持多代理之间的高效通信和协作。\n- **模块化设计**：易于扩展和定制。\n\n**行业影响：**\nForge 的发布为开发者提供了一种新的工具，能够更好地管理和利用多种 AI 资源，推动了 AI 在软件开发中的应用。",
@@ -1163,57 +1211,5 @@
     "link": "https://techxplore.com/news/2026-02-china-ramps-energy-boom-flagged.html",
     "date": "2026-02-07",
     "id": "17705465587470"
-  },
-  {
-    "title": "DevXT 发布智能自动化平台",
-    "summary": "DevXT 提供多种 AI 自动化解决方案，涵盖 IT 运营和医疗等领域。",
-    "detail": "DevXT 是一家提供智能自动化解决方案的公司，其产品包括 XT Systems 和 AGiXT。XT Systems 是一个能够根据自然语言指令构建自动化流程的 MSP 平台，而 AGiXT 是一个开源的 AI 自动化平台，支持多种 AI 提供商并具有完全透明性。此外，NurseXT 则通过 AI 实现语音文档记录，帮助护士节省时间。这些产品结合了丰富的集成能力和企业级功能，适用于各种行业。",
-    "tags": [
-      "New",
-      "LLM",
-      "Automation"
-    ],
-    "link": "https://devxt.com/",
-    "date": "2026-02-07",
-    "id": "17705071280740"
-  },
-  {
-    "title": "GitHub 开源项目揭示 AI 生产力崩溃点",
-    "summary": "研究揭示了 AI 任务复杂度增加导致生产力下降的临界点。",
-    "detail": "XxCotHGxX 在 GitHub 上发布了一个名为 Instruction Entropy 的项目，通过正式的经济学管道分析了 AI 生产力崩溃的“复杂度拐点”。该项目使用 Scale AI RLI 和 O*NET 微数据，旨在帮助理解 AI 何时开始无法处理复杂任务，从而需要人类介入。",
-    "tags": [
-      "Dev",
-      "Research",
-      "LLM"
-    ],
-    "link": "https://github.com/XxCotHGxX/Instruction_Entropy",
-    "date": "2026-02-07",
-    "id": "17705071280741"
-  },
-  {
-    "title": "Octrafic 发布 AI 助力的 API 测试工具",
-    "summary": "Octrafic 提供了一个无需脚本配置的 AI 驱动 API 测试 CLI 工具。",
-    "detail": "Octrafic 推出了 octrafic-cli，一个通过自然语言与 API 进行交互的命令行工具。用户可以像聊天一样与 API 对话，无需编写脚本或配置文件，简化了 API 测试和探索过程。该工具适用于各种开发和测试场景，提高了效率。",
-    "tags": [
-      "New",
-      "API",
-      "LLM"
-    ],
-    "link": "https://github.com/Octrafic/octrafic-cli",
-    "date": "2026-02-07",
-    "id": "17705071280742"
-  },
-  {
-    "title": "LowLighter 发布全屏 AI 覆盖层",
-    "summary": "LowLighter 提供了一个可以在任何屏幕上工作的 AI 覆盖层，支持即时回答和翻译。",
-    "detail": "LowLighter 是一个可以在 Mac 和 Windows 上使用的 AI 覆盖层工具，允许用户通过拖拽屏幕上的任何内容获取即时答案、解释、翻译和摘要。它支持多种应用和网站，并提供了高度可定制的外观选项，如自动引擎选择和视觉效果。该工具特别适合需要快速信息查询的用户。",
-    "tags": [
-      "New",
-      "Tool",
-      "AI"
-    ],
-    "link": "https://lowlighter.app/",
-    "date": "2026-02-07",
-    "id": "17705071280743"
   }
 ]
