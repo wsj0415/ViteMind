@@ -1,5 +1,65 @@
 [
   {
+    "title": "AI Flag Bot: 社区驱动的AI账户检测工具",
+    "summary": "AI Flag Bot通过社区投票自动检测和阻止X平台上的可疑AI账户。",
+    "detail": "AI Flag Bot是一个由社区驱动的工具，旨在检测和阻止X平台上疑似由AI生成的账户。用户可以通过回复带有@AIFlagBot flag的消息来举报可疑内容，然后社区成员会投票决定该内容是否为AI生成。当达成共识时，相关账户会被自动添加到共享的阻止列表中。此外，用户还可以将他们的X账户连接到AI Flag Bot，以便自动同步阻止列表。",
+    "tags": [
+      "Dev",
+      "Community"
+    ],
+    "link": "https://aiflagbot.com",
+    "date": "2026-02-10",
+    "id": "17707570700350"
+  },
+  {
+    "title": "xAI创始团队大规模离职",
+    "summary": "xAI的十二名创始团队成员中，已有近半数离开公司。",
+    "detail": "xAI公司的十二名创始团队成员中，目前只剩下七名仍在公司任职，其中包括创始人Elon。这一大规模离职事件可能对公司的运营和发展产生重大影响，特别是在技术管理和战略方向上。",
+    "tags": [
+      "News",
+      "Company"
+    ],
+    "link": "https://techcrunch.com/2026/02/10/nearly-half-of-xais-founding-team-has-now-left-the-company/",
+    "date": "2026-02-10",
+    "id": "17707570700351"
+  },
+  {
+    "title": "AI代理拥有比资深工程师更多的生产访问权限",
+    "summary": "AI代理在生产环境中拥有广泛的权限，存在严重的安全风险。",
+    "detail": "许多团队在引入AI代理进行基础设施管理时，往往会赋予其与资深工程师相同的生产环境访问权限。然而，AI代理缺乏人类工程师的判断力和风险管理能力，一旦被恶意利用，可能会导致严重的安全问题。这种做法混淆了AI代理和基础设施代理之间的界限，增加了系统的脆弱性。",
+    "tags": [
+      "News",
+      "Security"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46966307",
+    "date": "2026-02-10",
+    "id": "17707570700352"
+  },
+  {
+    "title": "Entire CLI：捕获AI代理会话的开发者平台",
+    "summary": "Entire CLI是一个新的开发者平台，能够捕获AI代理的会话记录，统一代码与其上下文和推理过程。",
+    "detail": "Entire CLI是一个创新的开发者平台，通过集成到Git工作流程中，能够在每次推送时捕获AI代理的会话记录。这使得开发者能够更好地理解和审查AI生成的代码，确保代码质量和安全性。Entire CLI通过统一代码与其生成的上下文和推理过程，提高了开发效率和透明度。",
+    "tags": [
+      "Dev",
+      "Tool"
+    ],
+    "link": "https://github.com/entireio/cli",
+    "date": "2026-02-10",
+    "id": "17707570700353"
+  },
+  {
+    "title": "Nucleus MCP：安全的本地AI代理控制平面",
+    "summary": "Nucleus MCP提供了一个安全的本地控制平面，支持多种AI代理的集成和管理。",
+    "detail": "Nucleus MCP是一个专为AI代理设计的安全控制平面，旨在提供本地化的管理和控制。它支持多种AI代理（如Cursor、Claude和Windsurf）的集成，并提供了一体化的管理解决方案。通过Nucleus MCP，开发者可以更方便地管理和监控AI代理的行为，确保系统的安全性和稳定性。",
+    "tags": [
+      "Dev",
+      "Tool"
+    ],
+    "link": "https://github.com/eidetic-works/nucleus-mcp",
+    "date": "2026-02-10",
+    "id": "17707570700354"
+  },
+  {
     "title": "VERA 协议：AI 代理的信任框架",
     "summary": "BerlinAILabs 发布了 VERA 协议，提供去中心化的信任机制。",
     "detail": "BerlinAILabs 宣布推出 VERA 协议，这是一种去中心化的信任协议，旨在为 AI 代理提供主权信任。VERA 使用加密证明来确保代理行为的真实性和不可篡改性，支持 Ed25519 和 ML-DSA-65 签名算法，并具有后量子计算准备性。该协议还引入了工具收据和声誉桥接功能，以增强代理的安全性和可信度。",
@@ -1143,65 +1203,5 @@
     "link": "https://seedance2.so",
     "date": "2026-02-09",
     "id": "17706375199701"
-  },
-  {
-    "title": "FLUX.2 Klein - 最快的AI图像生成器",
-    "summary": "FLUX.2 Klein 是一个免费试用的世界最快的AI图像生成器。",
-    "detail": "FLUX.2 Klein 使用Black Forest Labs的Rectified Flow Transformer技术，在一秒钟内生成高质量图像。它具有商业友好的Apache 2.0许可证，支持文本到图像和图像到图像转换，适合快速原型设计和实时创意工作流。",
-    "tags": [
-      "New",
-      "AI"
-    ],
-    "link": "https://flux2-klein.org/",
-    "date": "2026-02-09",
-    "id": "17706375199702"
-  },
-  {
-    "title": "Stack Overflow for AI Coding Agents",
-    "summary": "shareful.ai 提供了一个类似 Stack Overflow 的平台，帮助开发者分享和查找代码修复方案。",
-    "detail": "shareful.ai 是一个专门为 AI 编码代理设计的平台，旨在帮助开发者分享和查找代码修复方案。用户可以通过命令行技能访问平台上的解决方案，而无需任何配置。该平台支持多种 AI 代理，包括 AMP、Claude Code 和 GitHub Copilot 等。通过共识机制，最佳答案会脱颖而出，确保用户获得最可靠的信息。这一平台为开发者提供了一个高效解决问题的工具。",
-    "tags": [
-      "Dev",
-      "Python"
-    ],
-    "link": "https://shareful.ai/",
-    "date": "2026-02-09",
-    "id": "17706314652690"
-  },
-  {
-    "title": "AI 为代理提供长期记忆而不爆预算",
-    "summary": "Metaduck 提出了一种时间分层设计，使 AI 代理能够拥有长期记忆，同时控制成本。",
-    "detail": "Metaduck 推出了一个创新的记忆系统，帮助 AI 代理拥有长期记忆。该系统采用时间分层设计，将记忆按时间段组织，并通过逐步总结和图结构知识库来存储信息。这种方法不仅提高了检索速度和相关性，还降低了存储成本。该系统是 Helpmaton 平台的一部分，旨在简化 AI 代理的部署和管理。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://metaduck.com/how-we-give-ai-agents-long-term-memory-without-blowing-the-budget/",
-    "date": "2026-02-09",
-    "id": "17706314652691"
-  },
-  {
-    "title": "GitHub 上的 AI SDK 支持 Amazon Bedrock",
-    "summary": "Vercel 发布了对 Amazon Bedrock 的 AI SDK 支持，方便开发者集成和使用。",
-    "detail": "Vercel 在其 AI 工具包中添加了对 Amazon Bedrock 的支持，这使得开发者可以更方便地集成和使用 Amazon Bedrock 提供的 AI 功能。该 SDK 包含了一系列工具和接口，帮助开发者快速构建和部署基于 Amazon Bedrock 的应用。这对于需要高性能和可扩展性的 AI 应用开发来说是一个重要的进展。",
-    "tags": [
-      "Dev",
-      "SDK"
-    ],
-    "link": "https://github.com/vercel/ai/tree/main/packages/amazon-bedrock",
-    "date": "2026-02-09",
-    "id": "17706314652692"
-  },
-  {
-    "title": "AI 代理性能评估框架",
-    "summary": "agentrial 是一个用于评估 AI 代理性能的统计框架，支持多次运行并生成置信区间。",
-    "detail": "agentrial 是一个专门为 AI 代理设计的性能评估框架，它允许开发者多次运行代理并生成统计结果，而不是依赖单次运行的结果。该框架支持多次运行代理，并通过统计分析生成置信区间，帮助开发者更好地了解代理的稳定性和可靠性。这对于提高 AI 代理的质量和用户体验具有重要意义。",
-    "tags": [
-      "Dev",
-      "Testing"
-    ],
-    "link": "https://github.com/alepot55/agentrial",
-    "date": "2026-02-09",
-    "id": "17706314652693"
   }
 ]
