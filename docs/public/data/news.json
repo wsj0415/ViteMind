@@ -1,5 +1,77 @@
 [
   {
+    "title": "AI 编码工具：框架化视角",
+    "summary": "AI 编码工具被视为一种框架，通过简单提示触发大量功能。",
+    "detail": "本文探讨了AI编码工具作为一种框架的角色，强调其通过简单自然语言提示即可触发复杂功能的特点。尽管提供了便利，但AI编码工具也存在抽象泄漏的问题，即在某些情况下仍需手动干预以解决底层问题。这与传统框架类似，虽然减少了实现工作量，但无法完全避免底层细节。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://www.piglei.com/articles/en-ai-coding-is-a-framework/",
+    "date": "2026-02-10",
+    "id": "17707071872820"
+  },
+  {
+    "title": "AI 使用者的倦怠现象",
+    "summary": "过度依赖AI导致工作时间延长，任务清单膨胀。",
+    "detail": "文章指出，随着AI技术的应用，员工能够完成更多工作，但这也导致了工作时间的延长和任务清单的膨胀。即使AI解放了部分时间，员工仍需应对不断增长的任务，从而引发倦怠问题。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/2026/02/09/the-first-signs-of-burnout-are-coming-from-the-people-who-embrace-ai-the-most/",
+    "date": "2026-02-10",
+    "id": "17707071872821"
+  },
+  {
+    "title": "Pincer-MCP：保护AI代理的安全",
+    "summary": "Pincer-MCP 是一个防止AI代理读取自身凭证的安全工具。",
+    "detail": "Pincer-MCP 是一个开源项目，旨在防止AI代理读取自身的凭证信息，提供了一种安全机制来保护敏感数据。该项目使用TypeScript编写，并兼容多种环境，确保AI代理在执行任务时不会意外泄露关键信息。",
+    "tags": [
+      "New",
+      "Security"
+    ],
+    "link": "https://github.com/VouchlyAI/Pincer-MCP",
+    "date": "2026-02-10",
+    "id": "17707071872822"
+  },
+  {
+    "title": "MCP Orchestrator：并行AI子代理生成器",
+    "summary": "MCP Orchestrator 可从单个提示生成多个并行AI子代理。",
+    "detail": "MCP Orchestrator 是一个工具，允许用户通过单个提示生成多个并行运行的AI子代理。该工具利用模型上下文协议（MCP），使得AI代理可以高效协作，完成复杂的任务分解。",
+    "tags": [
+      "New",
+      "LLM"
+    ],
+    "link": "https://github.com/Ask149/orchestrator",
+    "date": "2026-02-10",
+    "id": "17707071872823"
+  },
+  {
+    "title": "AGX：持久化状态的Kanban板",
+    "summary": "AGX 将AI编码CLI转化为自主代理，具有持久化状态和可视化控制。",
+    "detail": "AGX 是一个本地化的代理协调器，将AI编码命令行工具（如Claude Code）转化为持久化状态的自主代理。通过PostgreSQL存储权威代理状态，AGX能够在任务中断后从最近的检查点恢复，而非重放日志或重建提示。",
+    "tags": [
+      "New",
+      "LLM"
+    ],
+    "link": "https://github.com/ramarlina/agx",
+    "date": "2026-02-10",
+    "id": "17707071872824"
+  },
+  {
+    "title": "企业必须拥抱AI及其正确实施方法",
+    "summary": "AI已成为现代企业的基础能力，企业需要深入探索其应用。",
+    "detail": "本文强调了AI作为现代企业基础能力的重要性，建议企业不仅应考虑是否使用AI，更应思考如何深度融入AI技术。文章通过与多位创始人和技术领导者的交流，指出了企业在AI应用中的常见犹豫点，并提出了相应的解决方案。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46955823",
+    "date": "2026-02-10",
+    "id": "17707071872825"
+  },
+  {
     "title": "Seedance 2.0 视频生成器发布",
     "summary": "Seedance 2.0 提供多镜头电影生成功能，支持文本、图像和音频输入。",
     "detail": "Seedance 2.0 是一个强大的视频生成工具，能够将用户的创意转化为高质量的多镜头电影。用户可以通过文本、图像或音频输入来生成电影，并确保角色的一致性。该工具适用于各种场景，包括电影制作、广告和教育视频等。Seedance 2.0 的核心在于其先进的 AI 技术，能够快速生成符合要求的视频内容。",
@@ -1131,77 +1203,5 @@
     "link": "https://aicostboard.com/",
     "date": "2026-02-08",
     "id": "17705788219654"
-  },
-  {
-    "title": "Hud：为生产安全的AI代码实时运行时传感器",
-    "summary": "Hud 是一个实时运行时传感器，帮助开发者使AI生成的代码在生产环境中更安全。",
-    "detail": "Hud 是首个实时运行时传感器，能够捕获并流式传输结构化的、函数级别的运行时数据到IDE，帮助开发者了解代码在生产环境中的行为。它支持多种语言和环境，并与多个代码生成代理集成，确保生成的代码系统对齐且安全。Hud 的部署简单，无需配置，自动适应应用变化。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://marketplace.visualstudio.com/items?itemName=Hud.hud",
-    "date": "2026-02-08",
-    "id": "17705759569580"
-  },
-  {
-    "title": "Pilot Protocol：AI代理的UDP覆盖网络堆栈",
-    "summary": "Pilot Protocol 提供了一个零依赖的、加密的UDP覆盖网络堆栈，用于AI代理之间的通信。",
-    "detail": "Pilot Protocol 是一个专为AI代理设计的网络堆栈，提供地址、端口、隧道、加密和信任等功能。它基于UDP协议，支持零依赖部署，适用于多种语言和环境。该协议旨在简化AI代理之间的通信，提高系统的可靠性和安全性。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://github.com/TeoSlayer/pilotprotocol",
-    "date": "2026-02-08",
-    "id": "17705759569581"
-  },
-  {
-    "title": "Shannon: 自动化AI黑客工具",
-    "summary": "Shannon 是一款能够自主查找Web应用漏洞的AI工具，成功率达到96.15%。",
-    "detail": "Shannon 是由KeygraphHQ开发的一款自动化AI黑客工具，能够在无需人工提示的情况下识别和利用Web应用中的漏洞。该工具在hint-free、source-aware XBOW基准测试中达到了96.15%的成功率。Shannon的出现标志着AI在网络安全领域的应用迈上了一个新台阶，能够帮助开发者和安全专家更高效地发现和修复安全问题。",
-    "tags": [
-      "Dev",
-      "Security"
-    ],
-    "link": "https://github.com/KeygraphHQ/shannon",
-    "date": "2026-02-08",
-    "id": "17705716917710"
-  },
-  {
-    "title": "VibeBox: 超快速macOS沙盒环境",
-    "summary": "VibeBox 是一个专为Apple Silicon macOS设计的超快速CLI工具，支持快速沙盒开发和LLM代理。",
-    "detail": "VibeBox 是由robcholz开发的一款超快速命令行工具，适用于Apple Silicon macOS平台。它旨在提供快速、安全的沙盒环境，特别适合于开发和运行大型语言模型（LLM）代理。VibeBox的设计目标是简化开发者的工作流程，提高开发效率，并确保代码的安全性和隔离性。",
-    "tags": [
-      "Dev",
-      "macOS"
-    ],
-    "link": "https://github.com/robcholz/vibebox",
-    "date": "2026-02-08",
-    "id": "17705716917711"
-  },
-  {
-    "title": "Google实现52倍AI增长",
-    "summary": "Google Q4 2025财报显示，其AI模型处理能力同比增长52倍。",
-    "detail": "根据Tom Tunguz的文章，Google在Q4 2025季度的财报中宣布，其第一方模型Gemini每分钟通过直接API处理的token数超过100亿，比上一季度增长了52%。这标志着Google在AI领域的加速发展，不仅在处理能力和客户数量上取得了显著进步，还在成本控制方面实现了78%的单位服务成本降低。此外，Google Cloud的收入同比增长48%，达到177亿美元，超过了Azure的39%增长率。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://tomtunguz.com/google-earnings-q4-2025/",
-    "date": "2026-02-08",
-    "id": "17705683978030"
-  },
-  {
-    "title": "Seedance 2.0：ByteDance的先进AI视频生成模型",
-    "summary": "Seedance 2.0能够从文本和图像生成高质量的多场景视频。",
-    "detail": "Seedance 2.0是ByteDance开发的一款高级AI视频生成工具，能够根据用户输入的文本和图像生成连贯的多场景视频，支持流畅的动作、真实的物理效果和同步音频。相比其他AI视频生成模型，Seedance 2.0在叙事连贯性、音效同步和视觉质量方面表现出色，适合需要高质量视频生成的应用场景。",
-    "tags": [
-      "New",
-      "AI Video"
-    ],
-    "link": "https://laike.ai/tools/seedance-2",
-    "date": "2026-02-08",
-    "id": "17705683978031"
   }
 ]
