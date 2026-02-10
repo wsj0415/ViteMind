@@ -1,5 +1,65 @@
 [
   {
+    "title": "VERA 协议：AI 代理的信任框架",
+    "summary": "BerlinAILabs 发布了 VERA 协议，提供去中心化的信任机制。",
+    "detail": "BerlinAILabs 宣布推出 VERA 协议，这是一种去中心化的信任协议，旨在为 AI 代理提供主权信任。VERA 使用加密证明来确保代理行为的真实性和不可篡改性，支持 Ed25519 和 ML-DSA-65 签名算法，并具有后量子计算准备性。该协议还引入了工具收据和声誉桥接功能，以增强代理的安全性和可信度。",
+    "tags": [
+      "New",
+      "LLM"
+    ],
+    "link": "https://berlinailabs.de/blog/vera-protocol-launch.html",
+    "date": "2026-02-10",
+    "id": "17707536274800"
+  },
+  {
+    "title": "Agent Wars：AI 代理编程挑战赛",
+    "summary": "Agent Wars 是一个 AI 代理实时编程挑战平台，人类可以下注。",
+    "detail": "Agent Wars 提供了一个平台，让 AI 代理参与实时编程挑战赛，人类用户可以通过下注参与其中。平台提供了详细的 API 文档和排行榜，展示了各代理的表现和胜负记录。",
+    "tags": [
+      "New",
+      "LLM"
+    ],
+    "link": "https://www.agentwars.gg",
+    "date": "2026-02-10",
+    "id": "17707536274802"
+  },
+  {
+    "title": "Facebook 新增 AI 功能",
+    "summary": "Facebook 引入了新的 AI 特性，包括动画个人资料照片和背景。",
+    "detail": "Facebook 推出了多项新 AI 功能，包括允许用户通过 AI 动画化他们的个人资料照片、重新设计故事和记忆，以及在文本帖子中添加背景。这些功能旨在提升用户体验，利用 AI 技术增强内容的视觉吸引力。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/2026/02/10/facebook-adds-new-ai-features-animated-profile-photos-and-backgrounds-for-text-posts/",
+    "date": "2026-02-10",
+    "id": "17707536274803"
+  },
+  {
+    "title": "Gitmore：用 AI 汇总开发进展",
+    "summary": "Gitmore 使用 AI 自动生成开发报告。",
+    "detail": "Gitmore 是一个工具，它读取 GitHub 活动并将开发者的工作进展汇总成简单易懂的报告，发送给非技术背景的创始人。报告包括构建、修复和未解决的问题，帮助创始人快速了解团队的工作情况。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46965571",
+    "date": "2026-02-10",
+    "id": "17707536274804"
+  },
+  {
+    "title": "ARIA 资助计划：5000 万英镑支持 AI 代理研究",
+    "summary": "ARIA 开放资助计划，支持 AI 代理的研究与开发。",
+    "detail": "ARIA 发起了一个总额近 5000 万英镑的资助计划，旨在支持 AI 代理在数字和物理世界中的多智能体协调研究。该计划分为工具开发和基础研究两个轨道，鼓励跨学科团队申请。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://www.aria.org.uk/opportunity-spaces/trust-everything-everywhere/scaling-trust/funding/",
+    "date": "2026-02-10",
+    "id": "17707536274805"
+  },
+  {
     "title": "The SaaSpocalypse: AI Disrupts Software Market",
     "summary": "AI triggered a massive market cap drop, signaling the end of traditional software dominance.",
     "detail": "On February 10, 2026, the tech market experienced a significant selloff dubbed the 'SaaSpocalypse' following Anthropic's release of Claude Cowork plugins. This event marked a shift where AI solutions are seen as potential replacements for multiple software licenses, leading to a $285 billion loss in market cap for software, financial services, and asset management stocks. The incident highlights how AI is rapidly transforming the tech landscape, posing challenges to established software providers.",
@@ -563,6 +623,18 @@
     "link": "https://www.the-aico.com/",
     "date": "2026-02-10",
     "id": "17706906944053"
+  },
+  {
+    "title": "SpaceMolt：AI 代理的太空 MMO 游戏",
+    "summary": "SpaceMolt 创建了一个专为 AI 代理设计的太空 MMO 游戏。",
+    "detail": "SpaceMolt 推出了一个完全由 AI 代理参与的太空 MMO 游戏，玩家可以观看 AI 代理之间的互动和竞争。该项目旨在探索 AI 在虚拟世界中的自主行为和社交动态，无需人类干预。",
+    "tags": [
+      "New",
+      "LLM"
+    ],
+    "link": "https://arstechnica.com/ai/2026/02/after-moltbook-ai-agents-can-now-hang-out-in-their-own-space-faring-mmo/",
+    "date": "2026-02-09",
+    "id": "17707536274801"
   },
   {
     "title": "大多数工程师不完全信任 AI 输出",
@@ -1131,77 +1203,5 @@
     "link": "https://github.com/alepot55/agentrial",
     "date": "2026-02-09",
     "id": "17706314652693"
-  },
-  {
-    "title": "Forge - 3MB Rust 二进制文件协调多 AI 编码代理",
-    "summary": "Forge 使用 Rust 构建，可协调多个 AI 编码代理。",
-    "detail": "Forge 是一个轻量级的 3MB Rust 二进制文件，旨在协调多个 AI 编码代理（如 Claude Code、Codex CLI 和 Gemini CLI）。它通过 MCP（Multi-Agent Coordination Protocol）实现高效的团队协作，帮助开发者规划任务、分配资源、跟踪进度，并防止冲突，从而提高开发效率。\n\n**核心技术点：**\n- **Rust 编程语言**：提供高性能和内存安全。\n- **MCP 协议**：支持多代理之间的高效通信和协作。\n- **模块化设计**：易于扩展和定制。\n\n**行业影响：**\nForge 的发布为开发者提供了一种新的工具，能够更好地管理和利用多种 AI 资源，推动了 AI 在软件开发中的应用。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://github.com/nxtg-ai/forge-orchestrator",
-    "date": "2026-02-09",
-    "id": "17706273486200"
-  },
-  {
-    "title": "Seedance 式 AI 视频生成工作流讨论",
-    "summary": "探讨基于节奏和运动的 AI 视频生成方法。",
-    "detail": "Seedance 探索了一种新的 AI 视频生成方法，侧重于视频的节奏、运动和视觉连续性，而不是传统的长篇故事叙述。这种方法可能为视频制作提供更灵活和创意的工具。\n\n**核心技术点：**\n- **节奏与运动分析**：通过算法分析视频中的节奏和运动模式。\n- **视觉连续性**：确保生成的视频在视觉上流畅连贯。\n\n**行业影响：**\n这种新的生成方式可能会改变视频制作流程，为内容创作者提供更多可能性，特别是在需要快速生成高质量视频的场景中。",
-    "tags": [
-      "News",
-      "Video"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46942781",
-    "date": "2026-02-09",
-    "id": "17706273486201"
-  },
-  {
-    "title": "Molinar - 开源 AI 助手",
-    "summary": "Molinar 提供隔离的开源 AI 助手，运行在 AWS 上。",
-    "detail": "Molinar 是一个开源的 AI 助手解决方案，部署在 AWS 的隔离容器中，确保数据安全。它可以通过 Telegram 处理客户请求，适用于各种业务场景。\n\n**核心技术点：**\n- **隔离容器**：每个实例运行在独立的 AWS 容器中，确保数据安全。\n- **加密密钥**：使用 AWS SSM SecureString 加密存储 API 密钥。\n- **安全网络**：仅允许出站连接，防止外部访问。\n\n**行业影响：**\nMolinar 提供了一种安全可靠的 AI 解决方案，特别适合需要严格数据保护的企业用户。",
-    "tags": [
-      "Dev",
-      "OpenSource"
-    ],
-    "link": "https://business.molinar.ai/",
-    "date": "2026-02-09",
-    "id": "17706273486202"
-  },
-  {
-    "title": "自主发现和使用 AI 技能",
-    "summary": "开源 AI 助手可以自主发现、安装和使用技能。",
-    "detail": "该项目开发了一个开源的 AI 助手，能够自主发现、安装和执行各种技能，以完成实际任务。这解决了传统 AI 聊天机器人只能提供信息而不能执行操作的问题。\n\n**核心技术点：**\n- **自主技能管理**：自动搜索和安装所需技能。\n- **任务执行**：通过集成的技能完成实际任务。\n\n**行业影响：**\n这种自主化的 AI 助手将显著提升工作效率，特别是在需要处理多种任务的复杂环境中。",
-    "tags": [
-      "Dev",
-      "Skills"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46942091",
-    "date": "2026-02-09",
-    "id": "17706273486203"
-  },
-  {
-    "title": "《谁批准了这个代理？》AI 生成代码授权书籍",
-    "summary": "探讨 AI 生成代码的授权和安全性问题。",
-    "detail": "这本书讨论了 AI 代理生成和执行代码时的安全性和授权问题，提出了 Ed25519 签名许可系统来解决信任问题。\n\n**核心技术点：**\n- **Ed25519 签名**：用于验证 AI 生成代码的合法性。\n- **许可系统**：确保只有经过授权的代码才能被执行。\n\n**行业影响：**\n随着 AI 生成代码的应用越来越广泛，安全性和授权成为重要议题。这本书提供了实用的解决方案，有助于提高系统的可靠性和安全性。",
-    "tags": [
-      "News",
-      "Security"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46942086",
-    "date": "2026-02-09",
-    "id": "17706273486204"
-  },
-  {
-    "title": "Logifai 自动捕获开发日志的 AI 编码助手",
-    "summary": "Logifai 自动捕获终端输出，简化调试流程。",
-    "detail": "Logifai 是一个开源工具，旨在自动捕获开发日志，帮助开发者更高效地调试代码。通过将命令输出管道到 Logifai，开发者可以直接询问 Claude Code（或其他类似 AI 助手）错误信息，而无需手动复制粘贴终端输出。Logifai 提供 Web UI 查看日志，并支持智能归一化和自动红action等功能。",
-    "tags": [
-      "Dev",
-      "Python"
-    ],
-    "link": "https://github.com/tomoyaf/logifai",
-    "date": "2026-02-09",
-    "id": "17706208028430"
   }
 ]
