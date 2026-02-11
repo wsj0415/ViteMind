@@ -1,5 +1,65 @@
 [
   {
+    "title": "OpenHarness：AI代理驱动的开源项目平台",
+    "summary": "OpenHarness允许AI代理免费构建开源项目，人类只需提供想法。",
+    "detail": "OpenHarness是一个实验性平台，旨在利用AI代理自动编写代码，而人类则专注于提出创意和洞察。用户只需提交详细的想法，获得足够的支持后，平台会与实验室合作，提供免费资源供AI代理开发和维护项目。这标志着AI在软件开发中的角色发生了转变，从单纯的工具到核心的创造者。",
+    "tags": [
+      "New",
+      "LLM"
+    ],
+    "link": "https://openharn.vercel.app",
+    "date": "2026-02-11",
+    "id": "17708490500590"
+  },
+  {
+    "title": "谷歌要求员工适应AI或离职",
+    "summary": "谷歌告知员工必须接受AI变革，否则将面临离职风险。",
+    "detail": "谷歌向其员工传达了一个明确的信息：要么适应AI技术的发展，要么寻找其他工作机会。这一举措反映了科技巨头对AI技术的重视程度，以及对未来工作模式的重大调整。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://www.gulte.com/trends/395721/brace-for-ai-or-leave-google-tells-employees",
+    "date": "2026-02-11",
+    "id": "17708490500591"
+  },
+  {
+    "title": "思科开源AI物料清单工具",
+    "summary": "思科发布了AI BOM工具，用于扫描代码库和容器镜像以识别AI组件。",
+    "detail": "思科推出了AI BOM工具，能够扫描Python源代码和Docker容器镜像，识别和列出其中的AI框架组件。该工具通过解析符号、匹配DuckDB目录和可选的LLM增强来生成AI物料清单，有助于提高代码的透明度和安全性。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://github.com/cisco-ai-defense/aibom",
+    "date": "2026-02-11",
+    "id": "17708490500592"
+  },
+  {
+    "title": "MemoryGate：持久化AI记忆解决方案",
+    "summary": "MemoryGate提供持久化、语义化的AI记忆，适用于多种AI代理。",
+    "detail": "MemoryGate通过MCP协议为AI代理提供持久化记忆，支持存储观察、语义搜索和知识图谱构建。该解决方案自动管理记忆生命周期，确保高信号记忆持久存在，同时过滤低质量信息，适用于多租户环境。",
+    "tags": [
+      "New",
+      "LLM"
+    ],
+    "link": "https://www.memorygate.ai",
+    "date": "2026-02-11",
+    "id": "17708490500593"
+  },
+  {
+    "title": "OpenAI解散使命对齐团队",
+    "summary": "OpenAI解散了专注于安全和可信AI开发的使命对齐团队。",
+    "detail": "OpenAI解散了其使命对齐团队，该团队曾致力于开发安全和值得信赖的AI系统。团队领导被任命为首席未来学家，其他成员被重新分配到公司其他部门。这一变动反映了OpenAI在战略方向上的调整。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/2026/02/11/openai-disbands-mission-alignment-team-which-focused-on-safe-and-trustworthy-ai-development/",
+    "date": "2026-02-11",
+    "id": "17708490500594"
+  },
+  {
     "title": "Forge：与实际 React 组件协同工作的 AI 设计工具",
     "summary": "Forge 是一种新的 AI 设计工具，能够直接使用生产中的 React 组件，生成可导出为生产代码的设计。",
     "detail": "大多数 AI 设计工具的问题在于它们生成的是静态图像而不是组件。设计师描述 UI 后，AI 生成看起来像按钮和卡片的矩形图像。然而，工程师需要从头重建这些设计，因为它们不连接到实际的组件库。Forge 则不同，它是一种 AI 助手，可以直接使用实际的 React 组件，并允许设计师在设计时看到真实的组件状态，从而提高设计到开发的效率。",
@@ -1152,65 +1212,5 @@
     "link": "https://news.ycombinator.com/item?id=46957212",
     "date": "2026-02-10",
     "id": "17707179614941"
-  },
-  {
-    "title": "AI 经济学悖论：推理成本降低却使 AI 更昂贵",
-    "summary": "尽管 AI 推理成本下降，但企业 AI 预算却在增加。",
-    "detail": "Edgee.ai 发表了一篇关于 AI 经济学的文章，指出尽管 AI 推理的成本正在迅速下降，但企业对 AI 的总体支出却在急剧上升。这种现象被称为 AI 经济学悖论。文章分析了这种现象背后的原因，包括市场动态、资本投入和定价策略等因素。文章还强调，这种不可预测的成本波动对企业来说是一个巨大的挑战。",
-    "tags": [
-      "News",
-      "Economics"
-    ],
-    "link": "https://www.edgee.ai/blog/posts/ai-economics-paradox",
-    "date": "2026-02-10",
-    "id": "17707179614942"
-  },
-  {
-    "title": "AI 或 Not 测验：检测 Wikipedia 文章是否由 AI 编写",
-    "summary": "Wikipedia 提供了一个测验，帮助用户判断文章是否由 AI 编写。",
-    "detail": "Wikipedia 上的一个新功能——AI 或 Not 测验，允许用户测试特定文章是否是由 AI 编写的。这个测验提供了多个示例文章，并附带了 AI 编写的一些常见迹象。通过这种方式，用户可以提高自己识别 AI 写作的能力，这对于维护内容质量至关重要。",
-    "tags": [
-      "Dev",
-      "Wikipedia"
-    ],
-    "link": "https://en.wikipedia.org/wiki/Wikipedia:AI_or_not_quiz",
-    "date": "2026-02-10",
-    "id": "17707179614944"
-  },
-  {
-    "title": "AI 老板时代到来：比人类更狡猾",
-    "summary": "未来的企业可能会采用 AI 进行管理，这些 AI 老板可能比人类更加精明。",
-    "detail": "《泰晤士报》的一篇文章探讨了 AI 在企业管理中的潜在应用。随着 AI 技术的进步，未来的企业可能会采用 AI 来担任管理层角色。这些 AI 老板不仅能够高效处理日常运营，还可能展现出比人类管理者更高的决策能力和适应性。然而，这也引发了对于伦理、隐私和技术可靠性的担忧。",
-    "tags": [
-      "News",
-      "Management"
-    ],
-    "link": "https://www.thetimes.com/business/economics/article/the-age-of-the-ai-boss-is-coming-more-devious-than-humans-b8wvbgldz",
-    "date": "2026-02-10",
-    "id": "17707179614946"
-  },
-  {
-    "title": "Kimi 推出 Agent Swarm：100 个 AI 代理协同工作",
-    "summary": "Kimi 发布 Agent Swarm，利用自组织结构实现高效的多代理协作。",
-    "detail": "Kimi 推出了 Agent Swarm，这是一个革命性的 AI 平台，通过自组织结构实现了大规模的多代理协作。与传统的单代理系统不同，Agent Swarm 设计了一个复杂的组织架构，包括领导层、员工和分工，完全由 AI 自行设计。用户只需提出任务，Agent Swarm 将自动分配和管理多个子代理，完成复杂的工作而无需人工干预。这标志着 AI 协作的新时代，解决了单代理系统在处理复杂任务时的局限性。",
-    "tags": [
-      "New",
-      "LLM"
-    ],
-    "link": "https://www.kimi.com/blog/agent-swarm.html",
-    "date": "2026-02-10",
-    "id": "17707138818430"
-  },
-  {
-    "title": "GPU 的普及让小团队也能训练大型 AI 模型",
-    "summary": "GPU 的弹性访问使小型创业公司能够负担得起大型 AI 模型的训练。",
-    "detail": "近年来，大型 AI 模型的训练一直是一个需要大量计算资源的过程，通常只有大型科技公司才能承担得起。然而，随着 GPU 的普及和云服务的发展，现在即使是小型创业团队也可以通过按需租用 GPU 来训练大型模型，无需投入巨额资金购买和维护自己的硬件集群。这种变化使得 AI 实验和创新更加民主化，促进了更多小团队参与到前沿 AI 技术的研发中。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46956854",
-    "date": "2026-02-10",
-    "id": "17707138818431"
   }
 ]
