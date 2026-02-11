@@ -1,5 +1,57 @@
 [
   {
+    "title": "Forge：与实际 React 组件协同工作的 AI 设计工具",
+    "summary": "Forge 是一种新的 AI 设计工具，能够直接使用生产中的 React 组件，生成可导出为生产代码的设计。",
+    "detail": "大多数 AI 设计工具的问题在于它们生成的是静态图像而不是组件。设计师描述 UI 后，AI 生成看起来像按钮和卡片的矩形图像。然而，工程师需要从头重建这些设计，因为它们不连接到实际的组件库。Forge 则不同，它是一种 AI 助手，可以直接使用实际的 React 组件，并允许设计师在设计时看到真实的组件状态，从而提高设计到开发的效率。",
+    "tags": [
+      "Dev",
+      "React",
+      "AI 设计"
+    ],
+    "link": "https://www.uxpin.com/studio/blog/forge-ai-design-tool-react-components/",
+    "date": "2026-02-11",
+    "id": "17708457039200"
+  },
+  {
+    "title": "Uber Eats 推出 Cart Assistant AI 助手",
+    "summary": "Uber Eats 推出了 Cart Assistant，可以根据文本或图像提示自动向购物车添加商品。",
+    "detail": "Uber Eats 新推出的 Cart Assistant 是一种 AI 助手，能够根据用户的文本或图像输入自动向购物车添加商品。这一功能旨在简化用户的购物过程，提高效率。通过集成先进的自然语言处理技术，Cart Assistant 可以理解用户的需求并准确地将所需的商品添加到用户的购物车中。",
+    "tags": [
+      "New",
+      "AI 助手",
+      "零售"
+    ],
+    "link": "https://techcrunch.com/2026/02/11/uber-eats-launches-ai-assistant-to-help-with-grocery-cart-creation/",
+    "date": "2026-02-11",
+    "id": "17708457039201"
+  },
+  {
+    "title": "AIST 协议：跨会话保存 AI 项目状态",
+    "summary": "AIST 是一种开放协议，能够在会话之间压缩和保存 AI 项目的状态，实现 60 倍的压缩率。",
+    "detail": "AIST 协议旨在解决当前 AI 工作流程中的一个重要问题：每次会话开始时，AI 都会忘记之前的对话和决策。这导致工程师需要不断重新输入上下文信息，影响工作效率。AIST 通过结构化压缩的方法，将大量对话压缩成少量的关键信息，使得每次会话都能从上次中断的地方继续，极大地提高了工作效率。",
+    "tags": [
+      "Dev",
+      "AI 协议",
+      "压缩"
+    ],
+    "link": "https://github.com/RobIW-dev/aist-protocol",
+    "date": "2026-02-11",
+    "id": "17708457039202"
+  },
+  {
+    "title": "ARIA 协议：去中心化的 AI 推理",
+    "summary": "ARIA 是一种去中心化的 AI 推理协议，能够在任何 CPU 上运行 1-bit 量化模型，实现 99.6% 的能耗节省。",
+    "detail": "ARIA 协议提供了一种去中心化的 AI 推理方法，能够在普通的消费级 CPU 上运行高效的 AI 模型，而不需要昂贵的 GPU。通过使用 1-bit 量化技术，ARIA 将复杂的乘法运算替换为简单的加法运算，大大降低了能耗。此外，ARIA 还采用了 P2P 网络架构，确保数据的安全性和隐私性，同时避免了单点故障。",
+    "tags": [
+      "Dev",
+      "AI 推理",
+      "去中心化"
+    ],
+    "link": "https://spmfrance-cloud.github.io/aria-protocol/",
+    "date": "2026-02-11",
+    "id": "17708457039203"
+  },
+  {
     "title": "Codingagents.md：AI编码代理的开放目录",
     "summary": "Codingagents.md 提供了多种AI编码代理的配置和协议。",
     "detail": "Codingagents.md 是一个开放目录，涵盖了10多种AI编码代理，包括AdaL CLI、Claude Code等。它提供了5种配置格式和2种协议，并列出了7种代理SDK。该目录帮助开发者了解和选择最适合其需求的AI编码代理。",
@@ -1160,53 +1212,5 @@
     "link": "https://news.ycombinator.com/item?id=46956854",
     "date": "2026-02-10",
     "id": "17707138818431"
-  },
-  {
-    "title": "GitHub 开源框架：oh-my-claude-code",
-    "summary": "oh-my-claude-code 是一个让 AI 编码代理持续学习和进化的框架。",
-    "detail": "oh-my-claude-code 是一个开源框架，旨在帮助 AI 编码代理从每次交互中学习，积累知识并不断提升能力。它借鉴了人类工程师的最佳实践，例如通过共享和更新 CLAUDE.md 文件来记录错误和改进，从而实现“复利工程”。该框架支持多种 AI 编码代理，帮助开发者构建更智能和个性化的开发助手。",
-    "tags": [
-      "Dev",
-      "Python"
-    ],
-    "link": "https://github.com/KaimingWan/oh-my-claude-code",
-    "date": "2026-02-10",
-    "id": "17707138818432"
-  },
-  {
-    "title": "AI 编码工具：框架化视角",
-    "summary": "AI 编码工具被视为一种框架，通过简单提示触发大量功能。",
-    "detail": "本文探讨了AI编码工具作为一种框架的角色，强调其通过简单自然语言提示即可触发复杂功能的特点。尽管提供了便利，但AI编码工具也存在抽象泄漏的问题，即在某些情况下仍需手动干预以解决底层问题。这与传统框架类似，虽然减少了实现工作量，但无法完全避免底层细节。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://www.piglei.com/articles/en-ai-coding-is-a-framework/",
-    "date": "2026-02-10",
-    "id": "17707071872820"
-  },
-  {
-    "title": "AI 使用者的倦怠现象",
-    "summary": "过度依赖AI导致工作时间延长，任务清单膨胀。",
-    "detail": "文章指出，随着AI技术的应用，员工能够完成更多工作，但这也导致了工作时间的延长和任务清单的膨胀。即使AI解放了部分时间，员工仍需应对不断增长的任务，从而引发倦怠问题。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/02/09/the-first-signs-of-burnout-are-coming-from-the-people-who-embrace-ai-the-most/",
-    "date": "2026-02-10",
-    "id": "17707071872821"
-  },
-  {
-    "title": "Pincer-MCP：保护AI代理的安全",
-    "summary": "Pincer-MCP 是一个防止AI代理读取自身凭证的安全工具。",
-    "detail": "Pincer-MCP 是一个开源项目，旨在防止AI代理读取自身的凭证信息，提供了一种安全机制来保护敏感数据。该项目使用TypeScript编写，并兼容多种环境，确保AI代理在执行任务时不会意外泄露关键信息。",
-    "tags": [
-      "New",
-      "Security"
-    ],
-    "link": "https://github.com/VouchlyAI/Pincer-MCP",
-    "date": "2026-02-10",
-    "id": "17707071872822"
   }
 ]
