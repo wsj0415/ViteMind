@@ -1,5 +1,53 @@
 [
   {
+    "title": "开源监控工具AgentOps助力AI代理",
+    "summary": "AgentOps提供开源监控方案，支持AI代理的监控、漂移检测和安全性。",
+    "detail": "AgentOps是一个开源的AI代理监控工具，旨在解决AI代理在运行过程中出现的不可见性问题，如漂移或被攻击。该工具通过简单的装饰器实现对AI代理的全面监控，包括监控、漂移检测和安全性等功能，并支持MCP兼容性。这对于确保AI系统的稳定性和安全性具有重要意义。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46979063",
+    "date": "2026-02-11",
+    "id": "17708369883240"
+  },
+  {
+    "title": "Claw Compactor大幅降低AI代理的Token消耗",
+    "summary": "Claw Compactor通过5层压缩技术将AI代理的Token消耗降低一半。",
+    "detail": "Claw Compactor是一款开源工具，采用5层压缩技术来优化AI代理的Token使用效率，从而显著降低其运营成本。这对于需要处理大量文本数据的应用场景尤为重要，有助于提升资源利用效率。",
+    "tags": [
+      "Dev",
+      "Python"
+    ],
+    "link": "https://github.com/aeromomo/claw-compactor",
+    "date": "2026-02-11",
+    "id": "17708369883241"
+  },
+  {
+    "title": "Confer实现端到端加密的AI推理",
+    "summary": "Confer提供了一种方法来实现AI推理过程中的端到端加密。",
+    "detail": "Confer介绍了一种实现AI推理过程完全加密的方法，确保数据在传输和处理过程中都保持加密状态，从而保护敏感信息的安全性。这种方法对于涉及隐私保护的应用场景尤为重要。",
+    "tags": [
+      "News",
+      "Security"
+    ],
+    "link": "https://news.ycombinator.com/item?id=46978752",
+    "date": "2026-02-11",
+    "id": "17708369883243"
+  },
+  {
+    "title": "CV Praetorian Guard——免费AI工具自评简历",
+    "summary": "CV Praetorian Guard是一款基于PRAETOR v5.5 AI启发式的个人简历自我评估工具。",
+    "detail": "CV Praetorian Guard是一个免费的AI工具，利用PRAETOR v5.5的AI启发式技术帮助用户评估和改进自己的简历。该工具专为教育目的设计，内置伦理指导原则，适用于希望提高求职竞争力的个人。",
+    "tags": [
+      "New",
+      "Educational"
+    ],
+    "link": "https://github.com/simonesan-afk/CV-Praetorian-Guard",
+    "date": "2026-02-11",
+    "id": "17708369883244"
+  },
+  {
     "title": "微软高管探讨AI对初创企业的影响",
     "summary": "微软CoreAI部门高管讨论了AI如何改变初创企业的运营模式。",
     "detail": "微软CoreAI部门的副总裁Amanda Silver在TechCrunch上发表文章，探讨了AI技术如何改变初创企业的运营方式和成本结构。她指出，AI工具可以帮助企业在部署应用程序和智能系统时更加高效，但同时也带来了新的挑战，如数据安全和隐私保护。这一趋势将重塑初创企业的商业模式和技术栈选择。",
@@ -1159,53 +1207,5 @@
     "link": "https://news.ycombinator.com/item?id=46955823",
     "date": "2026-02-10",
     "id": "17707071872825"
-  },
-  {
-    "title": "Seedance 2.0 视频生成器发布",
-    "summary": "Seedance 2.0 提供多镜头电影生成功能，支持文本、图像和音频输入。",
-    "detail": "Seedance 2.0 是一个强大的视频生成工具，能够将用户的创意转化为高质量的多镜头电影。用户可以通过文本、图像或音频输入来生成电影，并确保角色的一致性。该工具适用于各种场景，包括电影制作、广告和教育视频等。Seedance 2.0 的核心在于其先进的 AI 技术，能够快速生成符合要求的视频内容。",
-    "tags": [
-      "New",
-      "Video Generation"
-    ],
-    "link": "https://seedance2.live/",
-    "date": "2026-02-10",
-    "id": "17706999352630"
-  },
-  {
-    "title": "Grok Video AI 发布免费视频生成器",
-    "summary": "Grok Video AI 提供即刻生成专业视频的服务，无需信用卡。",
-    "detail": "Grok Video AI 是一个能够即时生成专业视频的 AI 工具，用户只需输入文本或上传图片即可在短时间内生成高质量视频。该工具支持多种格式输出，并且没有水印限制。Grok Video AI 的优势在于其高效的处理速度和灵活的内容创作能力，适合创作者和专业人士使用。",
-    "tags": [
-      "New",
-      "Video Generation"
-    ],
-    "link": "https://grok-video.org/",
-    "date": "2026-02-10",
-    "id": "17706999352631"
-  },
-  {
-    "title": "SplitFXM 发布物理感知 AI 计算库",
-    "summary": "SplitFXM 是一个用于复杂科学问题计算的强大多维计算库。",
-    "detail": "SplitFXM 是一个专为解决复杂科学问题设计的多维计算库，支持物理学感知的 AI 和高级数值模拟。该库提供了包括科学机器学习、高阶数值方法、WENO 和 TENO 方案在内的多种功能，适用于科研和工程领域。",
-    "tags": [
-      "Dev",
-      "Scientific Computing"
-    ],
-    "link": "https://splitfxm.com/",
-    "date": "2026-02-10",
-    "id": "17706999352632"
-  },
-  {
-    "title": "Neliva 发布全生命周期投资平台",
-    "summary": "Neliva 提供涵盖投资全过程的 AI 平台，包括研究、购买、持有、出售和回顾。",
-    "detail": "Neliva 是一个全生命周期的投资平台，旨在帮助用户覆盖投资决策的每一个阶段。该平台通过 AI 技术提供深入的研究分析、持有建议和卖出指导，帮助用户做出更明智的投资决策。Neliva 的目标是减少用户的决策错误，提高投资效率。",
-    "tags": [
-      "New",
-      "Investment"
-    ],
-    "link": "https://getneliva.com/",
-    "date": "2026-02-10",
-    "id": "17706999352633"
   }
 ]
