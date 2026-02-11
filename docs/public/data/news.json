@@ -1,5 +1,65 @@
 [
   {
+    "title": "程序员应为AI风险对冲",
+    "summary": "Amaca探讨了AI对软件行业的影响和程序员应如何应对。",
+    "detail": "Amaca的文章指出，自2021年以来，软件行业的就业市场发生了巨大变化。尽管远程工作机会曾经带来高薪，但如今即使通过多轮技术面试，包括现场编写Transformer代码，也难以获得工作。文章分析了这种变化背后的原因，并提出了程序员应如何为AI带来的潜在经济冲击做准备。Amaca认为，虽然启动软件公司可能比在一家公司工作更容易，但每个人都拥有了相同的“魔法棒”（即AI工具），这导致软件的价值可能逐渐降低。",
+    "tags": [
+      "News",
+      "Programming"
+    ],
+    "link": "https://amaca.substack.com/p/programmers-should-hedge-against",
+    "date": "2026-02-11",
+    "id": "17708037301020"
+  },
+  {
+    "title": "Cursor AI团队协作框架发布",
+    "summary": "Cursor发布了一个单会话、多角色的AI协作框架。",
+    "detail": "Cursor团队发布了一个名为`cursor-agent-team`的框架，旨在将Cursor转变为一个稳定的AI团队，用于实际工作。该框架采用了一种方法论和哲学，强调人类与AI的合作方式，并通过一个单一的大语言模型在一次Cursor对话中实现多个角色之间的协作。这使得它适用于需要可靠AI团队工作流程的开发者、研究人员和高级用户。",
+    "tags": [
+      "New",
+      "Dev"
+    ],
+    "link": "https://github.com/thiswind/cursor-agent-team",
+    "date": "2026-02-11",
+    "id": "17708037301021"
+  },
+  {
+    "title": "Skala提供免费法律技能平台",
+    "summary": "Skala推出了一款为初创企业提供法律服务的AI平台。",
+    "detail": "Skala发布了其“Legal skills”平台，专门针对初创企业设计。该平台利用AI技术为企业提供便捷的法律服务，帮助企业解决常见的法律问题，如注册公司、知识产权保护等。平台支持多种公司类型和地理位置，包括美国、英国维尔京群岛、巴拿马等地，旨在为全球创业者提供一站式法律解决方案。",
+    "tags": [
+      "New",
+      "Legal"
+    ],
+    "link": "https://www.skala.io/legal-skills",
+    "date": "2026-02-11",
+    "id": "17708037301022"
+  },
+  {
+    "title": "Obsidian Templater的AI模板",
+    "summary": "Obsidian Templater新增AI驱动的模板功能。",
+    "detail": "ady1981在GitHub上发布了`obsidian-templater-core-kbt`，这是一个集成AI的Obsidian Templater扩展。该扩展允许用户通过AI生成模板，简化文档创建工作流程。通过结合AI的强大处理能力，用户可以快速创建符合特定需求的文档模板，提高工作效率。",
+    "tags": [
+      "New",
+      "Dev"
+    ],
+    "link": "https://github.com/ady1981/obsidian-templater-core-kbt",
+    "date": "2026-02-11",
+    "id": "17708037301023"
+  },
+  {
+    "title": "The Human Line Project关注AI时代的情感福祉",
+    "summary": "The Human Line Project致力于在AI时代保护情感安全和知情同意。",
+    "detail": "The Human Line Project是一个关注AI技术对人际关系影响的组织。该项目旨在确保在AI广泛应用的过程中，保持情感安全和用户的知情同意。项目得到了普林斯顿大学、蒙特利尔大学等多个学术机构的支持，并获得了CNN、CBC News等媒体的认可。通过研究和倡导，The Human Line Project致力于构建一个健康、透明的人工智能生态系统。",
+    "tags": [
+      "News",
+      "Ethics"
+    ],
+    "link": "https://www.thehumanlineproject.org/",
+    "date": "2026-02-11",
+    "id": "17708037301024"
+  },
+  {
     "title": "Anthropic研究员辞职警告AI安全风险",
     "summary": "Anthropic研究员因担忧AI对世界的安全威胁而辞职。",
     "detail": "Anthropic的一名研究员在其辞职信中表达了对当前AI技术发展的严重担忧，认为如果不加以控制，AI可能会对人类社会造成不可逆转的伤害。该研究员指出，现有的AI模型存在潜在的安全漏洞和伦理问题，呼吁业界更加重视AI的安全研究。",
@@ -1142,65 +1202,5 @@
     "link": "https://arstechnica.com/ai/2026/02/sixteen-claude-ai-agents-working-together-created-a-new-c-compiler/",
     "date": "2026-02-09",
     "id": "17706732561890"
-  },
-  {
-    "title": "OpenClaw AI面板暴露追踪",
-    "summary": "STRIKE研究团队发现超过13万OpenClaw AI面板被暴露，存在安全风险。",
-    "detail": "STRIKE研究团队通过DECLAWED.io平台监控并发现了超过13.7万个OpenClaw AI面板实例暴露在外，其中6.7万个仍在处理数据。这些面板存在严重的安全漏洞，累计检测到240多万个CVE，涉及多种类型的攻击，包括APT、BREACH和RCE等。\n\n此次大规模的安全暴露凸显了AI基础设施在部署时面临的安全挑战。研究团队提醒相关企业和机构加强对AI系统的安全防护，防止敏感信息泄露和潜在的攻击行为。此外，这也为AI安全领域提出了新的研究课题和技术需求。",
-    "tags": [
-      "News",
-      "Security"
-    ],
-    "link": "https://declawed.io/",
-    "date": "2026-02-09",
-    "id": "17706732561891"
-  },
-  {
-    "title": "John Carmack探讨光纤作为AI数据缓存的可能性",
-    "summary": "John Carmack提出使用光纤作为L2缓存以加速AI数据流的构想。",
-    "detail": "著名程序员John Carmack在一篇文章中提出了一个大胆的想法：利用光纤作为L2缓存来加速AI数据流处理。传统的计算机架构中，L2缓存通常由DRAM构成，但在处理大规模AI数据时，这种架构可能会成为瓶颈。\n\nCarmack设想，通过将光纤引入缓存层级，可以显著提高数据传输速度和带宽，从而提升AI系统的性能。这一构想不仅需要突破现有的硬件技术限制，还涉及到新的系统设计和优化策略。虽然目前仍处于理论阶段，但这一想法为未来AI硬件的发展提供了新的视角。",
-    "tags": [
-      "Dev",
-      "Hardware"
-    ],
-    "link": "https://www.tomshardware.com/pc-components/ram/john-carmack-muses-using-a-long-fiber-line-as-as-an-l2-cache-for-streaming-ai-data-programmer-imagines-fiber-as-alternative-to-dram",
-    "date": "2026-02-09",
-    "id": "17706732561892"
-  },
-  {
-    "title": "Databricks CEO认为AI将使SaaS变得无关紧要",
-    "summary": "Databricks首席执行官Ali Ghodsi表示AI将削弱SaaS的重要性，但不会完全取代它。",
-    "detail": "Databricks首席执行官Ali Ghodsi在一篇报道中表达了对AI对未来软件即服务（SaaS）市场的影响的看法。Ghodsi认为，尽管AI技术的进步将显著改变许多传统SaaS应用的运行方式，但它们并不会完全消失。\n\n相反，AI可能会催生出新的竞争对手，并推动现有SaaS应用的功能升级和优化。Ghodsi强调，AI的应用将更加注重效率和个性化服务，而不仅仅是替代现有产品。这一观点反映了业界对于AI发展及其对现有技术生态影响的深刻思考。",
-    "tags": [
-      "News",
-      "SaaS"
-    ],
-    "link": "https://techcrunch.com/2026/02/09/databricks-ceo-says-saas-isnt-dead-but-ai-will-soon-make-it-irrelevant/",
-    "date": "2026-02-09",
-    "id": "17706732561893"
-  },
-  {
-    "title": "AI模型权重保护不足的风险",
-    "summary": "文章指出仅保护AI模型权重不足以确保其安全性，需采取全面措施。",
-    "detail": "在一篇名为《为什么仅保护AI模型权重是不够的》的文章中，作者探讨了当前AI模型保护策略中存在的局限性。文章通过一个假设的情景说明，即使对AI模型的权重进行了加密和保护，但如果攻击者能够影响模型的训练数据，仍然可以间接地操控模型的行为。\n\n具体来说，攻击者可以通过污染训练数据，使得模型在特定条件下引入隐蔽的漏洞。这些漏洞可能不容易被发现，但却能够在目标环境中被触发，造成潜在的安全威胁。因此，文章强调了除了模型权重之外，还需要对整个训练流程和数据源进行严格的监控和保护。",
-    "tags": [
-      "News",
-      "Security"
-    ],
-    "link": "https://www.the-substrate.net/p/why-securing-ai-model-weights-isnt",
-    "date": "2026-02-09",
-    "id": "17706732561894"
-  },
-  {
-    "title": "Voice Legacy：AI访谈父母记录家族故事",
-    "summary": "Voice Legacy利用AI技术访谈父母，帮助家庭记录珍贵记忆。",
-    "detail": "Voice Legacy是一款结合AI技术的家庭记忆记录工具。用户可以通过该平台邀请家人一起分享回忆、照片和故事，AI会自动发现主题、提出智能问题并帮助整理内容。最终，用户可以生成多种格式的纪念品，如食谱书、相册、故事书、视频集锦和实体印刷品。\n\n该产品旨在帮助家庭在亲人年老或离世前，捕捉并保存珍贵的记忆。据统计，约70%的家庭从未记录过家人的故事，随着时间的流逝，这些记忆很容易被遗忘。Voice Legacy提供了一个简单易用的解决方案，让用户能够在短时间内开始记录，无需支付额外费用。",
-    "tags": [
-      "New",
-      "Family"
-    ],
-    "link": "https://www.voicelegacy.app",
-    "date": "2026-02-09",
-    "id": "17706732561895"
   }
 ]
