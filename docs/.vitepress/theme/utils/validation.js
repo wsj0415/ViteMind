@@ -1,5 +1,20 @@
 
 /**
+ * Security: Validates if a string is a safe URL with allowed protocols.
+ * @param {string} urlStr - The URL string to validate
+ * @param {string[]} allowedProtocols - List of allowed protocols (default: http, https)
+ * @returns {boolean} - True if valid and safe
+ */
+export const isValidUrl = (urlStr, allowedProtocols = ['http:', 'https:']) => {
+    try {
+        const url = new URL(urlStr)
+        return allowedProtocols.includes(url.protocol)
+    } catch (_) {
+        return false
+    }
+}
+
+/**
  * Validates a form based on column definitions.
  * Extracted from DataManager.vue for testability and reuse.
  *
@@ -31,17 +46,9 @@ export const validateForm = (form, columns, errors) => {
 
         // Check URL
         if (col.validation?.type === 'url' && value) {
-            try {
-                const url = new URL(value)
-
-                // Security: Prevent javascript: and other unsafe protocols
-                const allowedProtocols = ['http:', 'https:', 'mailto:']
-                if (!allowedProtocols.includes(url.protocol)) {
-                    errors[col.key] = '不允许的 URL 协议'
-                    isValid = false
-                }
-            } catch (_) {
-                errors[col.key] = '必须是有效的 URL'
+            // Admin allows mailto, but public forms might typically stick to http/https
+            if (!isValidUrl(value, ['http:', 'https:', 'mailto:'])) {
+                errors[col.key] = '无效的 URL 或不允许的协议'
                 isValid = false
             }
         }
