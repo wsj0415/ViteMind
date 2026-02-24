@@ -17,7 +17,7 @@ except ImportError:
 # 配置
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 OPENROUTER_URL = "https://api-inference.modelscope.cn/v1/chat/completions"
-MODEL_NAME = "Qwen/Qwen2.5-Coder-32B-Instruct"
+MODEL_NAME = "meituan-longcat/LongCat-Flash-Lite"
 DATA_FILE_PATH = "docs/public/data/news.json"
 
 # 数据源
