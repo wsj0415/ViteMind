@@ -1,5 +1,83 @@
 [
   {
+    "title": "Anthropic 进军企业级 AI Agent 市场，挑战 SaaS 行业",
+    "summary": "Anthropic 发布企业级 AI Agent 插件，覆盖金融、工程和设计领域，或对现有 SaaS 产品构成威胁。",
+    "detail": "Anthropic 宣布推出针对企业级用户的 AI Agent 插件，旨在扩展其在金融、工程和设计领域的应用。此举被视为 Anthropic 扩大企业客户群的重要机遇，同时也对目前提供类似功能的 SaaS 产品构成重大挑战。这些插件的推出，标志着 AI Agent 在企业应用中扮演更重要的角色，并可能重塑相关行业的竞争格局。Anthropic 的这一举措，预示着 AI 技术在企业服务领域的渗透将进一步加深。",
+    "tags": [
+      "News",
+      "AI Agent",
+      "Enterprise"
+    ],
+    "link": "https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/",
+    "date": "2026-02-24",
+    "id": "17719447391950"
+  },
+  {
+    "title": "Anthropic 发布 COBOL AI 工具，IBM 股价应声下跌 10%",
+    "summary": "Anthropic 发布 COBOL AI 工具后，IBM 股价下跌 10%，市场反应强烈。",
+    "detail": "Anthropic 发布了一款针对 COBOL 编程语言的 AI 工具，此举直接导致 IBM 股价下跌 10%。COBOL 是一种在大型机系统中广泛使用的古老编程语言，Anthropic 推出相关 AI 工具可能旨在帮助企业更好地维护和升级这些遗留系统。市场对这一事件的反应表明，AI 技术在传统 IT 领域的应用可能对现有行业巨头产生显著影响。IBM 作为大型机市场的领导者，其股价下跌可能反映了投资者对 Anthropic 新工具潜在竞争力的担忧。",
+    "tags": [
+      "News",
+      "AI",
+      "Finance"
+    ],
+    "link": "https://finance.yahoo.com/news/ibm-stock-tumbles-10-anthropic-194042677.html",
+    "date": "2026-02-24",
+    "id": "17719447391951"
+  },
+  {
+    "title": "AI Agent 可靠性科学研究：迈向更值得信赖的 AI 系统",
+    "summary": "一篇论文探讨了 AI Agent 可靠性的科学方法，旨在提升 AI 系统的可信度。",
+    "detail": "一篇名为“Towards a Science of AI Agent Reliability”的论文探讨了如何科学地评估和提升 AI Agent 的可靠性。该研究旨在建立一套评估 AI Agent 行为一致性和预测性的框架，从而提高人们对 AI 系统的信任度。论文可能涉及 AI Agent 的鲁棒性、稳定性和安全性等关键方面，并尝试量化这些指标。这项研究对于推动 AI 技术在关键领域的应用至关重要，例如自动驾驶、医疗诊断和金融风险管理等，在这些领域，AI 系统的可靠性至关重要。",
+    "tags": [
+      "Dev",
+      "AI Agent",
+      "Reliability"
+    ],
+    "link": "https://arxiv.org/abs/2602.16666",
+    "date": "2026-02-24",
+    "id": "17719447391952"
+  },
+  {
+    "title": "Helix 优化 Docker 构建，AI Agent 会话速度提升 193 倍",
+    "summary": "Helix 通过共享 Docker 缓存，将 AI Agent 的 Docker 构建速度提升了 193 倍，从 45 分钟缩短到 14 秒。",
+    "detail": "Helix 团队分享了他们如何优化 Docker 构建过程，从而显著提升 AI Agent 会话速度的经验。他们发现，每个新的 Agent 会话都从一个冷的 Docker 构建缓存开始，导致构建过程耗时 43 分钟。为了解决这个问题，他们引入了一个共享的 BuildKit 实例，并将其缓存存储在一个持久化的 Docker 卷上。这样，多个 Agent 可以共享同一个缓存，避免了重复编译，最终将构建速度提升了 193 倍。这一优化对于需要频繁启动 Agent 会话的场景非常重要，例如 AI 编码助手。",
+    "tags": [
+      "Dev",
+      "Docker",
+      "AI Agent"
+    ],
+    "link": "https://blog.helix.ml/p/how-we-made-docker-builds-193x-faster",
+    "date": "2026-02-24",
+    "id": "17719447391953"
+  },
+  {
+    "title": "Pydantic Deep Agents：用 Python 构建自定义 AI CLI 工具",
+    "summary": "Pydantic Deep Agents 是一个 Python 框架，用于构建具有规划、文件系统操作和子代理委派功能的自主 AI Agent。",
+    "detail": "Pydantic Deep Agents 是一个基于 Pydantic AI 的 Python 框架，旨在帮助开发者构建自定义的 AI Agent。它提供了规划、文件系统操作、子代理委派和技能等功能，可以被视为构建类似 Claude Code、Manus 或 Devin 风格 Agent 的基础模块，并且是开源和自托管的。该框架具有模块化架构、生产就绪的特性，并提供 Docker 沙箱以实现安全执行。开发者可以使用它来创建各种 AI 驱动的 CLI 工具和自动化 Agent。",
+    "tags": [
+      "Dev",
+      "Python",
+      "AI Agent"
+    ],
+    "link": "https://vstorm-co.github.io/pydantic-deepagents/",
+    "date": "2026-02-24",
+    "id": "17719447391954"
+  },
+  {
+    "title": "AI 理解“可能”与人类不同：语言模型的不确定性表达研究",
+    "summary": "研究表明，AI 对“可能”等概率词的理解与人类存在显著差异，可能导致沟通误解。",
+    "detail": "一项发表在 NPJ Complexity 上的研究表明，大型语言模型（LLM）在理解和使用表示概率的词语（如“可能”、“大概”）时，与人类存在显著差异。研究发现，虽然 LLM 在“不可能”等极端情况下与人类的理解基本一致，但在“可能”等模糊词语上存在较大偏差。这可能是因为 LLM 通过平均训练数据中冲突的用法来理解这些词语，而人类则更多地依赖语境和个人经验。这种差异可能导致 AI 在与人类沟通时产生误解，尤其是在需要精确评估风险和不确定性的场景中。",
+    "tags": [
+      "News",
+      "LLM",
+      "NLP"
+    ],
+    "link": "https://theconversation.com/probably-doesnt-mean-the-same-thing-to-your-ai-as-it-does-to-you-275626",
+    "date": "2026-02-24",
+    "id": "17719447391955"
+  },
+  {
     "title": "CtxVault：多智能体AI系统的本地内存控制层",
     "summary": "CtxVault为多智能体系统提供可控、语义化和灵活的本地内存管理。",
     "detail": "CtxVault是一个为多智能体AI系统设计的本地内存控制层。它将内存组织成独立的知识库，每个知识库都有单独的检索路径，代理可以在运行时连接到这些知识库。该系统旨在提供一种可控、语义化和灵活的内存层，用于共享知识和隔离工作流程。通过FastAPI提供控制层，所有操作都在本地运行。作者希望了解在构建生产系统时，架构分离和智能检索策略哪个更重要。",
@@ -1155,77 +1233,5 @@
     "link": "https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-3",
     "date": "2026-02-10",
     "id": "17707601965692"
-  },
-  {
-    "title": "WeWatch AI - 自动化云运维解决方案",
-    "summary": "WeWatch AI 提供自动化云运维解决方案，帮助用户快速诊断和解决云问题。",
-    "detail": "WeWatch AI 是一个自动化云运维平台，旨在简化云环境的监控、治理、安全和成本管理。该平台通过集成多种工具和服务（如 AWS、Datadog、CloudWatch 和 PagerDuty），提供统一的界面来管理和分析云资源。WeWatch AI 的核心功能包括问题诊断、调查和获取见解，用户可以通过聊天界面与平台互动，快速解决问题。这一平台对于希望提高云运维效率的企业来说是一个有价值的工具。",
-    "tags": [
-      "New",
-      "CloudOps"
-    ],
-    "link": "https://wewatchai.com",
-    "date": "2026-02-10",
-    "id": "17707601965693"
-  },
-  {
-    "title": "探索 AI 驱动的编码：Xcode 26.3 MCP 工具",
-    "summary": "Xcode 26.3 引入了新的 MCP 工具，支持外部客户端如 Cursor、Claude 和 Codex。",
-    "detail": "Xcode 26.3 版本引入了一个重要的新功能——Model Context Protocol (MCP) 工具，允许开发者使用外部工具与 Xcode 的 AI 功能进行交互。这些外部工具包括 Cursor、Claude 和 Codex。通过 MCP，开发者可以在不依赖 Xcode 内置 AI 的情况下，利用 Xcode 的强大功能。这一更新使得 Xcode 的 AI 工具更具灵活性和可扩展性，为开发者提供了更多的选择和便利。",
-    "tags": [
-      "Dev",
-      "MCP"
-    ],
-    "link": "https://rudrank.com/exploring-xcode-using-mcp-tools-cursor-external-clients",
-    "date": "2026-02-10",
-    "id": "17707601965694"
-  },
-  {
-    "title": "AI Flag Bot: 社区驱动的AI账户检测工具",
-    "summary": "AI Flag Bot通过社区投票自动检测和阻止X平台上的可疑AI账户。",
-    "detail": "AI Flag Bot是一个由社区驱动的工具，旨在检测和阻止X平台上疑似由AI生成的账户。用户可以通过回复带有@AIFlagBot flag的消息来举报可疑内容，然后社区成员会投票决定该内容是否为AI生成。当达成共识时，相关账户会被自动添加到共享的阻止列表中。此外，用户还可以将他们的X账户连接到AI Flag Bot，以便自动同步阻止列表。",
-    "tags": [
-      "Dev",
-      "Community"
-    ],
-    "link": "https://aiflagbot.com",
-    "date": "2026-02-10",
-    "id": "17707570700350"
-  },
-  {
-    "title": "xAI创始团队大规模离职",
-    "summary": "xAI的十二名创始团队成员中，已有近半数离开公司。",
-    "detail": "xAI公司的十二名创始团队成员中，目前只剩下七名仍在公司任职，其中包括创始人Elon。这一大规模离职事件可能对公司的运营和发展产生重大影响，特别是在技术管理和战略方向上。",
-    "tags": [
-      "News",
-      "Company"
-    ],
-    "link": "https://techcrunch.com/2026/02/10/nearly-half-of-xais-founding-team-has-now-left-the-company/",
-    "date": "2026-02-10",
-    "id": "17707570700351"
-  },
-  {
-    "title": "AI代理拥有比资深工程师更多的生产访问权限",
-    "summary": "AI代理在生产环境中拥有广泛的权限，存在严重的安全风险。",
-    "detail": "许多团队在引入AI代理进行基础设施管理时，往往会赋予其与资深工程师相同的生产环境访问权限。然而，AI代理缺乏人类工程师的判断力和风险管理能力，一旦被恶意利用，可能会导致严重的安全问题。这种做法混淆了AI代理和基础设施代理之间的界限，增加了系统的脆弱性。",
-    "tags": [
-      "News",
-      "Security"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46966307",
-    "date": "2026-02-10",
-    "id": "17707570700352"
-  },
-  {
-    "title": "Entire CLI：捕获AI代理会话的开发者平台",
-    "summary": "Entire CLI是一个新的开发者平台，能够捕获AI代理的会话记录，统一代码与其上下文和推理过程。",
-    "detail": "Entire CLI是一个创新的开发者平台，通过集成到Git工作流程中，能够在每次推送时捕获AI代理的会话记录。这使得开发者能够更好地理解和审查AI生成的代码，确保代码质量和安全性。Entire CLI通过统一代码与其生成的上下文和推理过程，提高了开发效率和透明度。",
-    "tags": [
-      "Dev",
-      "Tool"
-    ],
-    "link": "https://github.com/entireio/cli",
-    "date": "2026-02-10",
-    "id": "17707570700353"
   }
 ]
