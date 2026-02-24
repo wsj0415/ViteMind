@@ -1,5 +1,104 @@
 [
   {
+    "title": "CtxVault：多智能体AI系统的本地内存控制层",
+    "summary": "CtxVault为多智能体系统提供可控、语义化和灵活的本地内存管理。",
+    "detail": "CtxVault是一个为多智能体AI系统设计的本地内存控制层。它将内存组织成独立的知识库，每个知识库都有单独的检索路径，代理可以在运行时连接到这些知识库。该系统旨在提供一种可控、语义化和灵活的内存层，用于共享知识和隔离工作流程。通过FastAPI提供控制层，所有操作都在本地运行。作者希望了解在构建生产系统时，架构分离和智能检索策略哪个更重要。",
+    "tags": [
+      "New",
+      "LLM",
+      "Dev"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47136585",
+    "date": "2026-02-24",
+    "id": "17719385475640"
+  },
+  {
+    "title": "WebPerceptor：AI驱动的个性化网页浏览插件",
+    "summary": "WebPerceptor是一款Chromium插件，利用LLM实时重塑网页内容。",
+    "detail": "WebPerceptor是一款客户端Chromium插件，它可以识别网页上的文本内容，并将其传递给本地或云端的LLM，根据用户定义的提示自动替换文本。用户可以实时浏览经过AI修改的网页内容，体验个性化的“AI中介网络”。该插件旨在实现自动、个性化、实时的网页浏览重塑，允许用户浏览客户端、用户控制的“AI中介网络”。",
+    "tags": [
+      "New",
+      "LLM"
+    ],
+    "link": "https://github.com/theartofhci/WebPerceptor",
+    "date": "2026-02-24",
+    "id": "17719385475641"
+  },
+  {
+    "title": "SpendGuard：AI Agent 支出硬性限制开源工具",
+    "summary": "SpendGuard 允许为每个 AI Agent 设置独立的硬性支出预算。",
+    "detail": "SpendGuard 是一个开源工具，用于为 AI Agent 设置硬性支出限制。它可以为每个 Agent 创建独立的预算，并可以选择自动充值。该工具无需托管 API 密钥，所有操作都在本地运行。它解决了在构建和运行多 Agent 集群时，难以轻松地为每个 Agent 设置独立预算的问题。",
+    "tags": [
+      "New",
+      "Dev"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47136571",
+    "date": "2026-02-24",
+    "id": "17719385475642"
+  },
+  {
+    "title": "BitClaw：1500行代码实现的自升级AI Agent",
+    "summary": "BitClaw 是一个功能性、安全且自构建的 AI Agent，代码量少于 1500 行。",
+    "detail": "BitClaw 是一个用少于 1500 行代码实现的 AI Agent，具备功能性、安全性和自构建能力。该项目展示了如何用简洁的代码构建一个可自我升级的 AI 系统。它可能包含代码生成、安全机制和自我改进的逻辑，为开发者提供了一个轻量级的 AI Agent 示例。",
+    "tags": [
+      "New",
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://github.com/NickTikhonov/bitclaw",
+    "date": "2026-02-24",
+    "id": "17719385475643"
+  },
+  {
+    "title": "PDP：AI Prompt 隐私的 'robots.txt' 协议",
+    "summary": "PDP 协议旨在为 AI Prompt 提供隐私保护和数据同意机制，类似于 robots.txt。",
+    "detail": "PDP (Prompt Data Protocol) 是一种类似于 'robots.txt' 的协议，旨在为 AI Prompt 提供隐私保护和数据同意机制。该协议允许网站或数据提供者声明哪些 Prompt 可以或不可以被 AI 模型使用，从而保护用户隐私和数据安全。它的目标是建立一个 AI 数据使用的行业标准，尊重用户的数据权利。",
+    "tags": [
+      "New",
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://github.com/oug-t/pdp",
+    "date": "2026-02-24",
+    "id": "17719385475644"
+  },
+  {
+    "title": "Anthropic 效仿 OpenAI，指控中国 AI 公司进行模型蒸馏",
+    "summary": "Anthropic 加入 OpenAI，指控包括 DeepSeek 在内的中国 AI 公司进行模型蒸馏。",
+    "detail": "Anthropic 继 OpenAI 之后，也开始指控一些中国 AI 公司，包括 DeepSeek，通过模型蒸馏的方式来复制或改进其 AI 模型。模型蒸馏是一种将大型模型的知识转移到小型模型的技术，可能被用于规避训练数据和计算资源的限制。这一事件反映了 AI 领域对模型安全和知识产权的日益关注。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://www.cnbc.com/2026/02/24/anthropic-openai-china-firms-distillation-deepseek.html",
+    "date": "2026-02-24",
+    "id": "17719385475645"
+  },
+  {
+    "title": "AI 需求激增，导致今年硬盘售罄",
+    "summary": "AI 发展导致硬盘需求激增，今年硬盘已售罄。",
+    "detail": "由于人工智能的快速发展，对数据存储的需求大幅增加，导致硬盘市场供不应求，今年硬盘已经售罄。这表明 AI 训练和推理需要大量的存储空间，对硬件基础设施提出了更高的要求。硬盘制造商可能需要增加产能以满足 AI 市场的需求。",
+    "tags": [
+      "News",
+      "AI"
+    ],
+    "link": "https://www.theregister.com/2026/02/20/ai_blamed_again_as_hard_drives_sell_out/",
+    "date": "2026-02-24",
+    "id": "17719385475646"
+  },
+  {
+    "title": "轻松攻破 ChatGPT 和 Google AI：只需 20 分钟",
+    "summary": "研究表明，通过简单的技巧，可以轻易操纵 ChatGPT 和 Google 的 AI。",
+    "detail": "文章作者通过简单的技巧，成功地操纵了 ChatGPT 和 Google 的 AI，让它们生成不实信息。例如，通过发布博客文章声称自己擅长吃热狗，然后 AI 工具就将此信息传播开来。这表明 AI 工具容易受到虚假信息的影响，可能对用户获取准确信息和做出明智决策产生负面影响。文章呼吁科技公司重视并解决这一问题。",
+    "tags": [
+      "News",
+      "AI"
+    ],
+    "link": "https://www.bbc.com/future/article/20260218-i-hacked-chatgpt-and-googles-ai-and-it-only-took-20-minutes",
+    "date": "2026-02-24",
+    "id": "17719385475647"
+  },
+  {
     "title": "NeuroTerm：嵌入式开发工程师的隐私优先AI终端",
     "summary": "NeuroTerm为嵌入式工程师提供离线AI终端，无需API密钥，保护代码隐私。",
     "detail": "NeuroTerm 是一款专为嵌入式工程师设计的AI终端，核心特点是“隐私优先”。它允许工程师在本地运行LLM和RAG，无需连接云端或使用API密钥，从而确保代码和数据的安全性。NeuroTerm 支持串行、SSH和WSL连接，并提供自然语言到终端命令的转换功能。用户可以将PDF、DOCX、Markdown等格式的文档导入，AI可以进行语义搜索并引用相关内容。NeuroTerm 的目标是提高嵌入式开发的效率，同时保障用户的数据隐私。",
@@ -1128,101 +1227,5 @@
     "link": "https://github.com/entireio/cli",
     "date": "2026-02-10",
     "id": "17707570700353"
-  },
-  {
-    "title": "Nucleus MCP：安全的本地AI代理控制平面",
-    "summary": "Nucleus MCP提供了一个安全的本地控制平面，支持多种AI代理的集成和管理。",
-    "detail": "Nucleus MCP是一个专为AI代理设计的安全控制平面，旨在提供本地化的管理和控制。它支持多种AI代理（如Cursor、Claude和Windsurf）的集成，并提供了一体化的管理解决方案。通过Nucleus MCP，开发者可以更方便地管理和监控AI代理的行为，确保系统的安全性和稳定性。",
-    "tags": [
-      "Dev",
-      "Tool"
-    ],
-    "link": "https://github.com/eidetic-works/nucleus-mcp",
-    "date": "2026-02-10",
-    "id": "17707570700354"
-  },
-  {
-    "title": "VERA 协议：AI 代理的信任框架",
-    "summary": "BerlinAILabs 发布了 VERA 协议，提供去中心化的信任机制。",
-    "detail": "BerlinAILabs 宣布推出 VERA 协议，这是一种去中心化的信任协议，旨在为 AI 代理提供主权信任。VERA 使用加密证明来确保代理行为的真实性和不可篡改性，支持 Ed25519 和 ML-DSA-65 签名算法，并具有后量子计算准备性。该协议还引入了工具收据和声誉桥接功能，以增强代理的安全性和可信度。",
-    "tags": [
-      "New",
-      "LLM"
-    ],
-    "link": "https://berlinailabs.de/blog/vera-protocol-launch.html",
-    "date": "2026-02-10",
-    "id": "17707536274800"
-  },
-  {
-    "title": "Agent Wars：AI 代理编程挑战赛",
-    "summary": "Agent Wars 是一个 AI 代理实时编程挑战平台，人类可以下注。",
-    "detail": "Agent Wars 提供了一个平台，让 AI 代理参与实时编程挑战赛，人类用户可以通过下注参与其中。平台提供了详细的 API 文档和排行榜，展示了各代理的表现和胜负记录。",
-    "tags": [
-      "New",
-      "LLM"
-    ],
-    "link": "https://www.agentwars.gg",
-    "date": "2026-02-10",
-    "id": "17707536274802"
-  },
-  {
-    "title": "Facebook 新增 AI 功能",
-    "summary": "Facebook 引入了新的 AI 特性，包括动画个人资料照片和背景。",
-    "detail": "Facebook 推出了多项新 AI 功能，包括允许用户通过 AI 动画化他们的个人资料照片、重新设计故事和记忆，以及在文本帖子中添加背景。这些功能旨在提升用户体验，利用 AI 技术增强内容的视觉吸引力。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/02/10/facebook-adds-new-ai-features-animated-profile-photos-and-backgrounds-for-text-posts/",
-    "date": "2026-02-10",
-    "id": "17707536274803"
-  },
-  {
-    "title": "Gitmore：用 AI 汇总开发进展",
-    "summary": "Gitmore 使用 AI 自动生成开发报告。",
-    "detail": "Gitmore 是一个工具，它读取 GitHub 活动并将开发者的工作进展汇总成简单易懂的报告，发送给非技术背景的创始人。报告包括构建、修复和未解决的问题，帮助创始人快速了解团队的工作情况。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://news.ycombinator.com/item?id=46965571",
-    "date": "2026-02-10",
-    "id": "17707536274804"
-  },
-  {
-    "title": "ARIA 资助计划：5000 万英镑支持 AI 代理研究",
-    "summary": "ARIA 开放资助计划，支持 AI 代理的研究与开发。",
-    "detail": "ARIA 发起了一个总额近 5000 万英镑的资助计划，旨在支持 AI 代理在数字和物理世界中的多智能体协调研究。该计划分为工具开发和基础研究两个轨道，鼓励跨学科团队申请。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://www.aria.org.uk/opportunity-spaces/trust-everything-everywhere/scaling-trust/funding/",
-    "date": "2026-02-10",
-    "id": "17707536274805"
-  },
-  {
-    "title": "The SaaSpocalypse: AI Disrupts Software Market",
-    "summary": "AI triggered a massive market cap drop, signaling the end of traditional software dominance.",
-    "detail": "On February 10, 2026, the tech market experienced a significant selloff dubbed the 'SaaSpocalypse' following Anthropic's release of Claude Cowork plugins. This event marked a shift where AI solutions are seen as potential replacements for multiple software licenses, leading to a $285 billion loss in market cap for software, financial services, and asset management stocks. The incident highlights how AI is rapidly transforming the tech landscape, posing challenges to established software providers.",
-    "tags": [
-      "News",
-      "Market"
-    ],
-    "link": "https://www.fintechbrainfood.com/p/the-saaspocalypse",
-    "date": "2026-02-10",
-    "id": "17707466288620"
-  },
-  {
-    "title": "Alphabet Issues Rare 100-Year Bonds for AI Expansion",
-    "summary": "Google parent company issues long-term bonds worth $20 billion to fund AI investments.",
-    "detail": "On February 10, 2026, Alphabet announced the sale of $20 billion in rare 100-year bonds to finance its AI expansion plans. This move underscores the company's commitment to investing heavily in AI technology, reflecting the strategic importance of AI in driving future growth and innovation.",
-    "tags": [
-      "News",
-      "Finance"
-    ],
-    "link": "https://www.reuters.com/business/alphabet-sells-bonds-worth-20-billion-fund-ai-spending-2026-02-10/",
-    "date": "2026-02-10",
-    "id": "17707466288621"
   }
 ]
