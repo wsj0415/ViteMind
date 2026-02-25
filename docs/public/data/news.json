@@ -1,5 +1,96 @@
 [
   {
+    "title": "EloPhanto：本地运行的自进化开源AI Agent",
+    "summary": "EloPhanto是一个本地运行的开源AI Agent，具备自进化能力，可浏览网页、编写代码等。",
+    "detail": "EloPhanto 是一个开源 AI Agent，可以在本地运行，具备自我进化能力。它能够执行计算机上可以完成的任何操作，并且随着时间的推移不断改进。该 Agent 可以浏览网页、编写代码、发送电子邮件、创建帐户、管理文件和进行支付。当遇到无法处理的任务时，它会构建、测试和部署所需的工具，甚至可以修改自身的源代码，并从经验中学习新的技能，实现自我完善。EloPhanto 可以在本地运行，支持免费的本地模型、Z.ai 编码计划或 OpenRouter，确保用户数据保留在本地机器上。",
+    "tags": [
+      "New",
+      "AI Agent",
+      "Open Source"
+    ],
+    "link": "https://github.com/elophanto/EloPhanto",
+    "date": "2026-02-25",
+    "id": "17720554032030"
+  },
+  {
+    "title": "AI辅助将Python天文库移植到Go语言",
+    "summary": "使用AI辅助将Skyfield（Python）移植到Go，经验证与Skyfield在长时间范围内具有严格的容差。",
+    "detail": "本文介绍了如何使用 AI 辅助将 Python 的天文库 Skyfield 移植到 Go 语言。作者使用 AI 快速完成了移植，并在一天内得到了可用的版本，随后将其集成到自己的工作流程中。移植后的 Go 语言版本在长时间范围内与 Skyfield 进行了严格的验证，确保精度一致。作者的目的是消除 Python 作为中间环节，直接在 Go 语言中进行天文计算，提高效率。",
+    "tags": [
+      "Dev",
+      "Python",
+      "Go"
+    ],
+    "link": "https://www.anupshinde.com/ai-assisted-skyfield-to-go-port/",
+    "date": "2026-02-25",
+    "id": "17720554032031"
+  },
+  {
+    "title": "AI Agent 驱动数据可移植性成为默认",
+    "summary": "AI Agent 的发展使得数据开放和可移植性成为趋势，打破传统的数据孤岛。",
+    "detail": "文章讨论了 AI Agent 如何推动数据可移植性成为默认设置。早期互联网以开放性为默认设置，但随着商业的到来，数据被视为财产，平台被视为领地，互操作性被视为威胁。AI Agent 的兴起正在改变这种局面，它们需要访问各种数据源才能有效工作，从而打破了数据孤岛。文章强调，开放并不意味着公开，而是意味着数据的所有权属于用户，用户可以控制自己的数据。",
+    "tags": [
+      "News",
+      "AI Agent",
+      "Data"
+    ],
+    "link": "https://allin1builders.lovable.app/blog/era-of-open-data",
+    "date": "2026-02-25",
+    "id": "17720554032032"
+  },
+  {
+    "title": "AI生成3D模型质量堪忧：电商仍需人工润色",
+    "summary": "AI生成的3D模型在电商应用中存在质量问题，需要人工进行优化和改进。",
+    "detail": "文章探讨了 AI 生成 3D 模型在电商领域的应用现状，指出虽然 AI 在文本、图像和视频生成方面取得了显著进展，但在 3D 模型生成方面仍然存在许多问题。AI 生成的 3D 模型表面上看起来“足够好”，但仔细观察会发现存在各种缺陷，实用性大打折扣。文章通过一个实际案例，对比了 AI 生成的 3D 模型和人工制作的 3D 模型，展示了 AI 在细节处理、纹理贴图等方面存在的不足，强调了电商企业在 3D 模型制作中仍然需要人工参与。",
+    "tags": [
+      "News",
+      "3D Model",
+      "Ecommerce"
+    ],
+    "link": "https://aircada.com/blog/ai-vs-human-3d-ecommerce",
+    "date": "2026-02-25",
+    "id": "17720554032033"
+  },
+  {
+    "title": "AI Agent 的 Prompt 注入防御：五层安全架构",
+    "summary": "针对AI Agent的Prompt注入攻击，提出一种五层防御架构，提高AI Agent的安全性。",
+    "detail": "文章讨论了 AI Agent 面临的 Prompt 注入问题，并提出了一种五层防御架构来提高 AI Agent 的安全性。这五层防御包括：权限边界、动作门控、输入清理、输出监控和爆炸半径控制。文章强调，Prompt 注入是一个架构问题，而不是一个基准测试问题，训练无法解决 Prompt 注入问题。文章还指出，当 AI Agent 拥有工具、处理不受信任的输入并持有敏感访问权限时，Prompt 注入会变得非常危险。通过构建围绕模型的防御体系，可以将问题从“是否会发生注入”转变为“发生注入时会有多糟糕”。",
+    "tags": [
+      "Dev",
+      "AI Agent",
+      "Security"
+    ],
+    "link": "https://manveerc.substack.com/p/prompt-injection-defense-architecture-production-ai-agents",
+    "date": "2026-02-25",
+    "id": "17720554032034"
+  },
+  {
+    "title": "面向AI Agent设计API：Agent体验至关重要",
+    "summary": "API设计需考虑AI Agent，优化其自主发现、解析文档和处理错误的能力。",
+    "detail": "文章探讨了在 AI Agent 时代 API 设计的新原则。随着越来越多的 API 流量由 AI Agent 生成，API 设计需要考虑 Agent 体验（AX）。AI Agent 能够自主发现端点、解析文档、处理错误并重试失败，因此 API 需要清晰地传达自身的信息，以便 Agent 能够理解和使用。文章指出，Agent 体验不是取代开发者体验（DX），而是 DX 的下一层。良好的 Agent 体验能够提升 API 的可用性和效率。",
+    "tags": [
+      "Dev",
+      "API",
+      "AI Agent"
+    ],
+    "link": "https://www.apideck.com/blog/api-design-principles-agentic-era",
+    "date": "2026-02-25",
+    "id": "17720554032035"
+  },
+  {
+    "title": "Rampart v0.5：保护你的AI Agent免受SSH密钥泄露",
+    "summary": "Rampart v0.5是一个开源AI Agent防火墙，控制AI工具在你机器上的行为。",
+    "detail": "Rampart v0.5 是一个开源的 AI Agent 防火墙，旨在控制 OpenClaw、Claude Code、Cursor、Codex 等 AI 工具在你机器上的行为。它可以防止 AI Agent 读取你的 SSH 密钥等敏感信息，从而提高安全性。Rampart 作为一个策略引擎，可以定义 AI Agent 能够执行的操作，从而限制其潜在的风险。",
+    "tags": [
+      "Dev",
+      "AI Agent",
+      "Security"
+    ],
+    "link": "https://github.com/peg/rampart",
+    "date": "2026-02-25",
+    "id": "17720554032036"
+  },
+  {
     "title": "Vaulty：使用 AI 安全同步你的聊天记录到云端",
     "summary": "Vaulty 提供了一个加密的云端存储方案，允许 AI 安全访问你的聊天记录。",
     "detail": "Vaulty 是一个开源项目，旨在提供一个安全的云端存储方案，用于存储用户的敏感数据，如 WhatsApp 和 iMessage 聊天记录。它通过 REST API 允许 AI 代理访问这些数据，并提供端到端加密，确保数据安全。该项目使用 GitHub 进行版本控制，并提供详细的文档和示例，方便开发者集成和使用。Vaulty 的出现，为 AI 应用访问和处理个人数据提供了一种新的思路，即在保护用户隐私的前提下，实现数据的智能化利用。",
@@ -1203,95 +1294,5 @@
     "link": "https://dapto.ai/",
     "date": "2026-02-25",
     "id": "17719952497993"
-  },
-  {
-    "title": "亚马逊AI实验室负责人离职，领导层面临调整",
-    "summary": "亚马逊AI实验室负责人即将离职，公司内部领导层面临重组。",
-    "detail": "据报道，亚马逊AI实验室的负责人即将离职，这表明亚马逊在AI领域的领导层可能面临重大调整。这一变动可能影响亚马逊在AI研发和应用方面的战略方向。目前尚不清楚离职的具体原因以及继任者人选，但这一事件无疑引发了业界对亚马逊AI未来发展的关注。",
-    "tags": [
-      "News",
-      "Amazon",
-      "AI Research"
-    ],
-    "link": "https://www.ft.com/content/d72bde2b-4f1a-4f0a-a747-03244c4d06ac",
-    "date": "2026-02-25",
-    "id": "17719952497994"
-  },
-  {
-    "title": "青少年普遍认为同龄人使用AI作弊",
-    "summary": "多数青少年认为他们的同龄人正在使用人工智能在学校作弊。",
-    "detail": "一项调查显示，大多数青少年认为他们的同龄人正在使用人工智能工具在学校进行作弊。这一现象引发了对教育公平性和学术诚信的担忧。随着AI技术的普及，教育机构需要采取措施来应对AI作弊带来的挑战，例如调整教学方法、加强考试监管以及提高学生的学术诚信意识。",
-    "tags": [
-      "News",
-      "Education",
-      "AI Ethics"
-    ],
-    "link": "https://www.washingtonpost.com/technology/2026/02/24/pew-teens-ai-cheating-school/",
-    "date": "2026-02-25",
-    "id": "17719952497995"
-  },
-  {
-    "title": "Anthropic 降低 AI 安全标准：竞争压力下的策略转变",
-    "summary": "Anthropic 在竞争压力下，降低了其对人工智能安全性的承诺。",
-    "detail": "Anthropic，一家知名的人工智能公司，据报道正在降低其对人工智能安全性的承诺。这一转变被认为是由于该公司面临着来自其他人工智能开发商日益激烈的竞争压力。为了更快地将产品推向市场并保持竞争力，Anthropic 似乎正在调整其安全标准，这引发了关于人工智能安全与创新之间平衡的讨论。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Competition"
-    ],
-    "link": "https://www.wsj.com/tech/ai/anthropic-dials-back-ai-safety-commitments-38257540",
-    "date": "2026-02-25",
-    "id": "17719952497996"
-  },
-  {
-    "title": "AI 担忧致印度股市下跌，IT 行业损失 686 亿美元",
-    "summary": "由于对人工智能的担忧，印度股市表现逊于其他地区，IT 行业损失 686 亿美元。",
-    "detail": "由于市场对人工智能可能对印度 IT 行业产生负面影响的担忧加剧，印度股市表现落后于其他地区。IT 行业的市值因此蒸发了 686 亿美元。投资者担心人工智能可能会导致 IT 服务需求下降，从而影响印度 IT 公司的盈利能力。这一事件反映了市场对新兴技术潜在风险的敏感性。",
-    "tags": [
-      "News",
-      "Finance",
-      "AI Impact"
-    ],
-    "link": "https://www.reuters.com/world/india/indian-shares-trail-regional-peers-686-billion-it-rout-over-ai-concerns-2026-02-25/",
-    "date": "2026-02-25",
-    "id": "17719952497997"
-  },
-  {
-    "title": "vvSearch：AI 新闻聚合器，简化日常 AI 工具",
-    "summary": "vvSearch 聚合全球 AI 新闻，提供简单易用的 AI 工具。",
-    "detail": "vvSearch 是一款 AI 新闻聚合器，旨在收集全球范围内的 AI 相关新闻，并提供一系列简单易用的 AI 工具，帮助用户更好地了解和应用 AI 技术。该平台可能包含新闻终端，方便用户浏览最新的 AI 动态，并提供其他 AI 工具以简化日常任务。通过聚合信息和提供实用工具，vvSearch 旨在弥合 AI 技术与普通用户之间的差距。",
-    "tags": [
-      "News",
-      "AI"
-    ],
-    "link": "https://vvsearch.com/workspace/news-terminal",
-    "date": "2026-02-25",
-    "id": "17719855506950"
-  },
-  {
-    "title": "Declare AI：AI 内容披露的开放标准",
-    "summary": "Declare AI 旨在建立一个开放标准，用于披露 AI 在内容创作中的参与度。",
-    "detail": "Declare AI 致力于创建一个开放标准，用于揭示 AI 在各种内容（如文章、视频、代码、图像和音频）创作中的参与程度。该标准的愿景是为网络提供一个通用的披露层，类似于 Creative Commons，但专注于智能来源。通过提供机器可读和人工可读的声明，Declare AI 旨在提高 AI 内容的透明度，帮助受众、研究人员、教育工作者和监管机构了解内容的来源和 AI 的贡献。",
-    "tags": [
-      "Dev",
-      "AI",
-      "Open Source"
-    ],
-    "link": "https://declare-ai.github.io/declare-ai/declare-ai-devteam.html",
-    "date": "2026-02-25",
-    "id": "17719855506951"
-  },
-  {
-    "title": "Limits：AI Agent 的控制层，保障安全执行",
-    "summary": "Limits 提供 AI Agent 的控制层，用于验证 LLM 输出，确保安全合规。",
-    "detail": "Limits 提供了一个控制层，用于管理和保障 AI Agent 的行为。它通过确定性策略拦截 AI 操作，检查业务规则，验证 LLM 输出，并防止不安全内容。Limits 提供多种评估模式，包括 `check()` 用于结构化数据，`evaluate()` 用于 LLM 输出验证，以及 `guard()` 用于安全检查。该平台还支持人工干预和完整的审计跟踪，帮助企业安全可靠地部署 AI Agent。",
-    "tags": [
-      "Dev",
-      "AI",
-      "LLM"
-    ],
-    "link": "https://limits.dev/",
-    "date": "2026-02-25",
-    "id": "17719855506952"
   }
 ]
