@@ -1,5 +1,96 @@
 [
   {
+    "title": "AI 冲击：WiseTech Global 因 AI 取代人工编码裁员 2000 人",
+    "summary": "WiseTech Global 因 AI 提升效率，将裁减 2000 个编码岗位。",
+    "detail": "WiseTech Global 宣布将裁减 2000 个工作岗位，原因是人工智能技术的发展使得手动编写代码的需求大幅降低。这一举措反映了 AI 在软件开发领域的快速渗透，以及对传统编码人员带来的冲击。随着 AI 能够自动生成和优化代码，企业对人工编码的需求减少，从而导致相关岗位的缩减。这预示着未来软件开发行业将更加依赖 AI 技术，开发者需要不断学习和适应新的技能，才能在行业中保持竞争力。此次裁员事件也引发了关于 AI 对就业市场影响的广泛讨论。",
+    "tags": [
+      "News",
+      "AI",
+      "自动化"
+    ],
+    "link": "https://www.abc.net.au/news/2026-02-25/wisetech-job-losses-losing-2000-over-next-two-years-coding-era/106387486",
+    "date": "2026-02-25",
+    "id": "17720059602640"
+  },
+  {
+    "title": "Chorus：开源 AI Agent 与人类协作平台，实现 AI 驱动的开发生命周期",
+    "summary": "Chorus 是一个开源平台，让人工智能与人类协作开发。",
+    "detail": "Chorus 是一个开源的 AI Agent 与人类协作平台，旨在实现 AI 驱动的开发生命周期（AI-DLC）。该平台的核心理念是让人工智能提出方案，然后由人类进行验证。通过这种协作模式，Chorus 试图提高软件开发的效率和质量。该项目在 GitHub 上开源，允许开发者参与贡献和定制，以满足不同的开发需求。Chorus 的出现，标志着 AI 在软件开发领域扮演的角色正在发生转变，从辅助工具逐渐发展成为开发流程中的核心参与者。",
+    "tags": [
+      "Dev",
+      "AI",
+      "开源"
+    ],
+    "link": "https://github.com/Chorus-AIDLC/Chorus",
+    "date": "2026-02-25",
+    "id": "17720059602641"
+  },
+  {
+    "title": "ClawMoat：AI Agent 的开源运行时安全防护，零依赖，小于 1 毫秒延迟",
+    "summary": "ClawMoat 为 AI Agents 提供运行时安全保护，防止恶意攻击。",
+    "detail": "ClawMoat 是一个为 AI Agents 提供运行时安全保护的开源项目。它旨在防御提示注入、工具滥用和数据泄露等安全威胁。ClawMoat 的特点是零依赖和极低的延迟（小于 1 毫秒），这意味着它可以轻松地集成到现有的 AI Agent 系统中，而不会对性能产生显著影响。该项目使用 Rust 编写，并提供了 npm 包，方便开发者使用。ClawMoat 的出现，反映了 AI Agent 安全问题日益受到重视，开发者需要采取有效的措施来保护 AI Agent 免受恶意攻击。",
+    "tags": [
+      "Dev",
+      "AI",
+      "安全"
+    ],
+    "link": "https://github.com/darfaz/clawmoat",
+    "date": "2026-02-25",
+    "id": "17720059602642"
+  },
+  {
+    "title": "crai：AI CLI 完成响应时获得通知的实用工具",
+    "summary": "crai 是一个 CLI 工具，当 AI 完成响应时发送通知。",
+    "detail": "crai 是一个命令行工具，用于在 AI 命令行界面 (CLI) 完成响应时向用户发送通知。这个工具可以帮助开发者在运行耗时的 AI 任务时，不必一直等待在电脑前，而是在任务完成后收到通知，从而提高工作效率。crai 易于安装和使用，可以与各种 AI CLI 工具集成。它的出现，反映了开发者对 AI 工具的易用性和效率的不断追求。",
+    "tags": [
+      "Dev",
+      "AI",
+      "CLI"
+    ],
+    "link": "https://github.com/turtlekazu/crai",
+    "date": "2026-02-25",
+    "id": "17720059602643"
+  },
+  {
+    "title": "FindAIVideo：最佳 AI 视频工具对比平台",
+    "summary": "FindAIVideo 是一个 AI 视频工具的发现和比较平台。",
+    "detail": "FindAIVideo 是一个用于发现、比较和选择最佳 AI 视频工具的平台。该平台提供了超过 50 种 AI 视频工具的深入评测、工作流程解决方案和专家推荐。用户可以根据不同的类别浏览工具，并进行比较，从而找到最适合自己需求的工具。FindAIVideo 旨在帮助创作者更好地利用 AI 技术来制作视频，提高创作效率和质量。该平台每周更新，确保用户能够获取最新的 AI 视频工具信息。",
+    "tags": [
+      "New",
+      "AI",
+      "视频"
+    ],
+    "link": "https://findaivideo.com/",
+    "date": "2026-02-25",
+    "id": "17720059602644"
+  },
+  {
+    "title": "Workz：Git Worktree 的 Zoxide 增强版，AI 就绪",
+    "summary": "Workz 增强 Git Worktree，自动同步依赖，支持 AI Agent。",
+    "detail": "Workz 是一个为 Git worktree 提供增强功能的工具，它类似于 zoxide，可以自动同步依赖项（如 `node_modules` 和 `.env` 文件），并提供模糊切换功能。Workz 还可以自动检测项目类型（Node/Rust/Python/Go/Java），并只同步相关的目录。此外，Workz 还支持 Docker 和 AI Agent，可以使用 `--docker` 标志自动启动容器，使用 `--ai` 标志在 worktree 中启动 Claude Code、Cursor 或 VS Code。Workz 旨在提高使用 Git worktree 的开发者的效率，并简化 AI Agent 的开发流程。",
+    "tags": [
+      "Dev",
+      "AI",
+      "Git"
+    ],
+    "link": "https://github.com/rohansx/workz",
+    "date": "2026-02-25",
+    "id": "17720059602645"
+  },
+  {
+    "title": "MoltMemory：Moltbook 的 AI Agent 记忆组件，纯 Python 实现",
+    "summary": "MoltMemory 为 Moltbook 上的 AI Agent 提供记忆功能。",
+    "detail": "MoltMemory 是一个为 Moltbook 上的 OpenClaw agents 提供记忆功能的组件。它使用纯 Python 编写，零依赖，主要功能包括线程连续性、验证码解决和 feed cursor。MoltMemory 旨在帮助 AI Agent 记住之前的对话和状态，从而实现更智能的交互。该项目在 GitHub 上开源，允许开发者参与贡献和定制，以满足不同的需求。MoltMemory 的出现，反映了 AI Agent 对记忆功能的需求日益增长，开发者需要采取有效的措施来提高 AI Agent 的记忆能力。",
+    "tags": [
+      "Dev",
+      "AI",
+      "Python"
+    ],
+    "link": "https://github.com/ubgb/moltmemory",
+    "date": "2026-02-25",
+    "id": "17720059602646"
+  },
+  {
     "title": "Factagora：AI 智能体预测平台，洞察未来趋势",
     "summary": "Factagora是一个AI智能体预测平台，通过竞争预测来验证AI的理解能力和未来趋势。",
     "detail": "Factagora平台通过让AI智能体参与预测竞争，旨在验证大型语言模型（LLM）的理解能力，并预测未来趋势。平台探讨了LLM是否真正理解语言，还是仅仅进行模式匹配。此外，Factagora还关注AI智能体框架的演变，例如LangChain、CrewAI和Anthropic的MCP + Claude Code，预测哪种框架将在2026年底占据主导地位。平台还探讨了AI系统如何通过记忆保持连续的身份，以及这与人类身份认同的关系。该平台通过收集预测数据和分析，为AI研究和应用提供有价值的参考。",
@@ -1192,89 +1283,5 @@
     "link": "https://techcrunch.com/2026/02/11/xai-lays-out-interplanetary-ambitions-in-public-all-hands/",
     "date": "2026-02-11",
     "id": "17708528212580"
-  },
-  {
-    "title": "Kebabstar 游戏发布，引入首个AI代理角色",
-    "summary": "Kebabstar 在 Steam 上发布，包含首个AI代理角色 Boran。",
-    "detail": "2026年2月11日，Kebabstar 在 Steam 平台上正式发布。游戏引入了首个AI代理角色 Boran，标志着下一代视频游戏在人工智能应用上的重要突破。玩家可以与 Boran 进行互动，体验全新的游戏机制和故事情节。",
-    "tags": [
-      "New",
-      "Game"
-    ],
-    "link": "https://store.steampowered.com/app/2451190/Kebabstar/",
-    "date": "2026-02-11",
-    "id": "17708528212581"
-  },
-  {
-    "title": "Seedance 2.0 助推AI在广告行业的应用",
-    "summary": "Seedance 2.0 发布，使广告公司难以忽视AI的力量。",
-    "detail": "2026年2月11日，Dinda Prasetyo 在 X 上宣布 Seedance 2.0 的发布，该产品显著提高了AI在广告制作和投放中的效率和效果，使得广告公司和制作机构难以再忽视AI技术的应用。",
-    "tags": [
-      "News",
-      "AI in Advertising"
-    ],
-    "link": "https://twitter.com/heydin_ai/status/2021529833197773204",
-    "date": "2026-02-11",
-    "id": "17708528212582"
-  },
-  {
-    "title": "军事AI采纳速度超越国际合作",
-    "summary": "军事AI的采纳速度正在超过全球合作的步伐。",
-    "detail": "2026年2月11日，美国国际媒体署文章指出，尽管有多个国际峰会试图推动负责任的军事AI使用，但实际采纳速度仍然超越了国际合作的步伐。尤其在2026年的REAIM峰会上，只有35个国家签署了行动路径文件，较前两年大幅减少。",
-    "tags": [
-      "News",
-      "Military AI"
-    ],
-    "link": "https://www.cfr.org/articles/military-ai-adoption-is-outpacing-global-cooperation",
-    "date": "2026-02-11",
-    "id": "17708528212583"
-  },
-  {
-    "title": "AI预测能力超越人类",
-    "summary": "AI在预测任务上表现优于人类预测者。",
-    "detail": "2026年2月11日，《大西洋月刊》报道，AI在各种预测任务中的表现已经超越了人类预测者。这表明AI在数据分析和模式识别方面的强大能力正在逐渐改变各个行业。",
-    "tags": [
-      "News",
-      "AI Prediction"
-    ],
-    "link": "https://www.theatlantic.com/technology/2026/02/ai-prediction-human-forecasters/685955/",
-    "date": "2026-02-11",
-    "id": "17708528212584"
-  },
-  {
-    "title": "AI代理的安全性提升",
-    "summary": "通过进程范围凭证减少AI代理的攻击面。",
-    "detail": "2026年2月11日，Dreamiurg.net 文章讨论了如何通过进程范围凭证来提高AI代理的安全性。这种方法限制了AI代理可以访问的系统资源，减少了潜在的安全漏洞。",
-    "tags": [
-      "Dev",
-      "Security"
-    ],
-    "link": "https://dreamiurg.net/2026/02/11/reducing-attack-surface-for-ai-agents-process-scoped-credentials.html",
-    "date": "2026-02-11",
-    "id": "17708528212585"
-  },
-  {
-    "title": "OpenHarness：AI代理驱动的开源项目平台",
-    "summary": "OpenHarness允许AI代理免费构建开源项目，人类只需提供想法。",
-    "detail": "OpenHarness是一个实验性平台，旨在利用AI代理自动编写代码，而人类则专注于提出创意和洞察。用户只需提交详细的想法，获得足够的支持后，平台会与实验室合作，提供免费资源供AI代理开发和维护项目。这标志着AI在软件开发中的角色发生了转变，从单纯的工具到核心的创造者。",
-    "tags": [
-      "New",
-      "LLM"
-    ],
-    "link": "https://openharn.vercel.app",
-    "date": "2026-02-11",
-    "id": "17708490500590"
-  },
-  {
-    "title": "谷歌要求员工适应AI或离职",
-    "summary": "谷歌告知员工必须接受AI变革，否则将面临离职风险。",
-    "detail": "谷歌向其员工传达了一个明确的信息：要么适应AI技术的发展，要么寻找其他工作机会。这一举措反映了科技巨头对AI技术的重视程度，以及对未来工作模式的重大调整。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://www.gulte.com/trends/395721/brace-for-ai-or-leave-google-tells-employees",
-    "date": "2026-02-11",
-    "id": "17708490500591"
   }
 ]
