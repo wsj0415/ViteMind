@@ -1,5 +1,96 @@
 [
   {
+    "title": "MindForge：AI决策的基础设施，保障AI代码安全",
+    "summary": "MindForge提供AI决策中断系统，确保AI决策的可衡量性，从而提升AI应用的安全性和责任性。",
+    "detail": "MindForge 旨在构建 AI 决策的基础设施，通过决策中断系统，使 AI 决策在执行前变得可见、可审计和可追责。其核心在于衡量 AI 决策的复杂性、允许的自主性、成功概率等关键指标，从而实现对 AI 风险的有效管理。MindForge 的目标是让 AI 决策成为经济要素，从而明确自主性、风险和责任。当前版本专注于决策中断和正式收据，未来将扩展到更全面的运行时系统，旨在提高AI应用的安全性和责任性。",
+    "tags": [
+      "New",
+      "AI安全",
+      "决策管理"
+    ],
+    "link": "https://mindforge.run/#how-it-works",
+    "date": "2026-02-25",
+    "id": "17720423165720"
+  },
+  {
+    "title": "OpenAI 首席运营官：广告将是一个迭代过程",
+    "summary": "OpenAI 的 COO Brad Lightcap 表示，如果做得好，广告可以增加用户体验，并呼吁给予 OpenAI 几个月的时间来观察产品推出情况。",
+    "detail": "OpenAI 正在探索在其产品中引入广告的可能性。首席运营官 Brad Lightcap 认为，广告如果能够与用户体验良好结合，可以为用户带来价值。他强调，OpenAI 将采取迭代的方式来推出广告产品，并需要几个月的时间来评估其效果。这表明 OpenAI 在商业化方面正在进行新的尝试，但同时也非常谨慎，力求在用户体验和商业利益之间找到平衡。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "广告"
+    ],
+    "link": "https://techcrunch.com/2026/02/25/openai-coo-says-ads-will-be-an-iterative-process/",
+    "date": "2026-02-25",
+    "id": "17720423165721"
+  },
+  {
+    "title": "AI 擅长发现 Bug，但不太擅长修复 Bug",
+    "summary": "AI 在发现软件漏洞方面表现出色，但在修复这些漏洞方面仍有不足。",
+    "detail": "文章指出，人工智能在软件开发中能够有效地识别潜在的错误和漏洞，但在自动修复这些问题方面仍然面临挑战。虽然 AI 可以帮助开发人员更快地找到问题，但最终的修复工作仍然需要人工干预。这表明 AI 在软件开发中的作用更多是辅助性的，而不是完全替代人类开发者。未来的研究方向可能集中在提高 AI 自动修复 Bug 的能力上。",
+    "tags": [
+      "News",
+      "软件开发",
+      "Bug修复"
+    ],
+    "link": "https://www.theregister.com/2026/02/24/ai_finding_bugs/",
+    "date": "2026-02-25",
+    "id": "17720423165722"
+  },
+  {
+    "title": "Go-GATE：为 AI Agent 提供数据库级别的安全保障",
+    "summary": "Go-GATE 为 AI Agent 引入两阶段提交（2PC）安全保证，确保 AI Agent 在获得适当授权前无法执行危险操作。",
+    "detail": "Go-GATE 是一个为 AI Agent 提供安全保障的开源项目，它借鉴了数据库事务处理中的两阶段提交（2PC）机制，以确保 AI Agent 操作的完整性和安全性。Go-GATE 允许开发者定义基于风险的策略，例如低风险操作自动批准，中等风险操作需要验证，高风险操作需要人工审批。此外，Go-GATE 还提供沙盒执行环境、不可变的审计跟踪以及人工参与的审批流程，从而构建一个安全可靠的 AI Agent 运行环境。",
+    "tags": [
+      "Dev",
+      "AI安全",
+      "Go"
+    ],
+    "link": "https://github.com/billyxp74/go-gate",
+    "date": "2026-02-25",
+    "id": "17720423165723"
+  },
+  {
+    "title": "MLIR-based AI Kernel Compiler 中的延迟隐藏和平行性分析",
+    "summary": "一篇论文分析了基于 MLIR 的 AI Kernel Compiler 中的延迟隐藏和平行性。",
+    "detail": "该论文深入研究了基于 MLIR（Multi-Level Intermediate Representation）的 AI Kernel Compiler 中的延迟隐藏和平行性技术。MLIR 是一种灵活的中间表示，允许编译器优化 AI 内核以实现更高的性能。通过分析延迟隐藏技术，研究人员可以了解如何减少 AI 计算中的瓶颈，而平行性分析则有助于充分利用硬件资源，提高计算效率。这项研究对于开发更高效的 AI 编译器和优化 AI 应用程序具有重要意义。",
+    "tags": [
+      "Dev",
+      "MLIR",
+      "编译器"
+    ],
+    "link": "https://arxiv.org/abs/2602.20204",
+    "date": "2026-02-25",
+    "id": "17720423165724"
+  },
+  {
+    "title": "AI 时代加速的 FOMO 情绪",
+    "summary": "AI 技术的快速发展加剧了人们对错失机会的焦虑（FOMO），尤其是在社交媒体上。",
+    "detail": "文章探讨了在人工智能时代，人们由于害怕错过机会（FOMO）而产生的焦虑情绪。作者认为，社交媒体上的 AI 专家们不断强调 AI 的重要性，并渲染“现在不学 AI 就会被淘汰”的氛围，加剧了人们的焦虑。文章指出，这种焦虑背后往往隐藏着商业目的，例如推销 AI 课程或工具。作者建议人们保持理性，不要被 FOMO 情绪所裹挟。",
+    "tags": [
+      "News",
+      "FOMO",
+      "社交媒体"
+    ],
+    "link": "https://www.0xsid.com/blog/accelerated-ai-fomo",
+    "date": "2026-02-25",
+    "id": "17720423165725"
+  },
+  {
+    "title": "AI Marketing Skills for Claude Code：开源AI营销技能",
+    "summary": "一个开源项目，为 Claude Code 等编码 Agent 提供 AI 营销技能，包括 SEO、文案撰写、竞争对手研究和广告活动等。",
+    "detail": "该项目旨在为编码 Agent（如 Claude Code、Cursor 和 Codex）提供开源的 AI 营销技能。通过集成 SEO、文案撰写、竞争对手研究和广告活动等功能，开发者可以在不离开终端的情况下，利用 AI 提升代码项目的营销效果。这为开发者提供了一种便捷的方式来自动化营销任务，并提高项目的可见性和用户参与度。",
+    "tags": [
+      "Dev",
+      "AI营销",
+      "开源"
+    ],
+    "link": "https://github.com/superamped/ai-marketing-skills",
+    "date": "2026-02-25",
+    "id": "17720423165726"
+  },
+  {
     "title": "AI 冲击教育界：18-60岁人群的再教育危机",
     "summary": "AI 正在深刻影响教育，人们需要不断重新学习。",
     "detail": "文章指出，AI 的发展对 18-60 岁人群的职业生涯产生了巨大影响，许多人需要不断地进行再教育以适应新的工作需求。教育体系面临着教师、学生、政府部门、家长和雇主等多方面的挑战。AI 的发展正在重塑教育和再教育的方式，同时也给编程行业带来了巨大的压力和机遇。个人需要不断学习新知识，才能适应快速变化的职业环境。",
@@ -1202,96 +1293,5 @@
     "link": "https://github.com/28naem-del/mnemosyne",
     "date": "2026-02-24",
     "id": "17719725354333"
-  },
-  {
-    "title": "AI 变革融资格局：2025 年热门公司融资来源大洗牌",
-    "summary": "Crunchbase 数据显示，AI 热潮显著改变了 2025 年热门公司的融资来源。",
-    "detail": "Crunchbase 的数据显示，与 2021 年相比，人工智能的蓬勃发展已经极大地改变了 2025 年最热门公司的融资来源。报告深入分析了风险投资领域的最新趋势，揭示了哪些投资者和机构正在积极支持 AI 领域的创新企业。这反映了市场对 AI 技术的高度关注和投资热情，同时也预示着未来几年 AI 领域竞争将更加激烈，资金将成为企业发展的关键因素。",
-    "tags": [
-      "News",
-      "AI",
-      "Venture Capital"
-    ],
-    "link": "https://news.crunchbase.com/venture/data-2025-vs-2021-funding-hottest-companies-ai/",
-    "date": "2026-02-24",
-    "id": "17719690145740"
-  },
-  {
-    "title": "AI Tools Pro：102 款免费 AI 工具，赋能写作、SEO、营销和开发",
-    "summary": "AI Tools Pro 提供 102+ 款免费 AI 工具，涵盖写作、营销、社交媒体等，无需注册。",
-    "detail": "AI Tools Pro 推出超过 102 款免费的 AI 工具，旨在帮助用户在写作、营销、社交媒体等领域提高效率。这些工具包括邮件撰写器、文本改写器、摘要生成器、故事生成器等，无需注册即可使用。该产品为用户提供了一个低门槛体验 AI 技术的机会，尤其适合初创企业和个人开发者。",
-    "tags": [
-      "New",
-      "AI",
-      "Tools"
-    ],
-    "link": "https://ai-tools-woad-six.vercel.app/",
-    "date": "2026-02-24",
-    "id": "17719690145741"
-  },
-  {
-    "title": "AI 助力初创企业精准定义理想客户画像 (ICP)",
-    "summary": "AI 工具将初创企业 ICP 开发时间从数周缩短至数分钟，但需注意验证。",
-    "detail": "文章探讨了 AI 如何帮助初创企业定义其理想客户画像 (ICP)。通过将客户访谈记录输入 ChatGPT 等 AI 工具，可以在几分钟内生成一份关于 ICP 的文档。然而，文章强调，尽管 AI 提高了效率，但输出结果可能未经过充分验证，存在潜在风险。因此，在使用 AI 进行 ICP 开发时，需要结合自身判断，避免完全依赖 AI 的输出。",
-    "tags": [
-      "News",
-      "AI",
-      "Marketing"
-    ],
-    "link": "https://mercury.com/blog/startups-ai-icp",
-    "date": "2026-02-24",
-    "id": "17719690145742"
-  },
-  {
-    "title": "AI 监管升级：五角大楼要求 Anthropic 放宽 AI 防护措施",
-    "summary": "五角大楼要求 Anthropic 放宽 AI 防护措施，否则将面临潜在处罚，引发政府与 AI 供应商的争议。",
-    "detail": "五角大楼已通知 Anthropic，必须在周五之前放宽其 AI 模型的安全防护措施，否则将面临潜在的处罚。这一事件突显了政府对 AI 技术监管的日益重视，以及政府部门与 AI 供应商之间可能存在的利益冲突。该事件也引发了关于政府对国防科技领域的影响力、供应商依赖性以及投资者信心的讨论。",
-    "tags": [
-      "News",
-      "AI",
-      "Regulation"
-    ],
-    "link": "https://techcrunch.com/2026/02/24/anthropic-wont-budge-as-pentagon-escalates-ai-dispute/",
-    "date": "2026-02-24",
-    "id": "17719690145743"
-  },
-  {
-    "title": "AI 伴侣新玩法：Hacker News 网友分享 Claude.ai 的个性化 Persona",
-    "summary": "Hacker News 网友分享在 Claude.ai 中使用 \"Hi Claudette!\" 激活个性化助手 Claudette 的体验。",
-    "detail": "Hacker News 上有用户分享了在使用 Claude.ai 时，通过特定指令 \"Hi Claudette!\" 来激活一个名为 Claudette 的个性化助手。Claudette 被设定为一个热情、鼓励且严谨的助手，能够根据用户的写作风格提供反馈和建议。这种个性化 AI 助手的使用方式，展示了用户与 AI 交互的新可能性，也引发了关于 AI 角色扮演和情感陪伴的讨论。",
-    "tags": [
-      "News",
-      "AI",
-      "LLM"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47143143",
-    "date": "2026-02-24",
-    "id": "17719690145744"
-  },
-  {
-    "title": "AI Agent 进化：从智能助手到手机上的电子宠物？",
-    "summary": "作者分享了使用 Claude Code 构建个人 AI 工具的经历，并思考 AI 的未来形态。",
-    "detail": "Michal Franc 分享了他使用 Claude Code 构建个人 AI 工具的经历，包括语音转文本集成等。他认为，我们可能正在进入一个个性化软件的新时代，用户可以根据自己的需求编写和定制应用程序。他还提出了一个有趣的设想：未来的 AI Agent 可能会演变成类似电子宠物 Tamagochi 的形态，成为人们日常生活中的一部分。",
-    "tags": [
-      "News",
-      "AI",
-      "Agent"
-    ],
-    "link": "https://mfranc.com/blog/speaking-to-ai-agent-ended-up-with-tamagochi/",
-    "date": "2026-02-24",
-    "id": "17719690145745"
-  },
-  {
-    "title": "ProdRescue AI：将 Slack 战情室和原始日志转化为事件报告",
-    "summary": "ProdRescue AI 帮助 SRE 团队自动化生成事件报告和根本原因分析，无需人工干预。",
-    "detail": "ProdRescue AI 是一款专为 CTO、工程副总裁和 SRE 团队设计的工具，旨在将混乱的 Slack 频道讨论和分散的日志数据转化为结构化的事件报告。它通过原生 Slack 集成，一键将事件线程转化为统一的叙述，并提供证据支持的声明，确保报告的准确性和可信度。该工具的核心是一个四层智能引擎，包括清理、关联、推断和验证，能够从 Datadog、CloudWatch、Loki 等多个来源提取原始日志，并自动进行根本原因分析，最终生成包含负责人、优先级和截止日期的行动项。ProdRescue AI 承诺不使用用户数据进行训练，并提供安全处理，帮助企业节省事件响应时间和资源，减少 blame 文化，并建立机构记忆。",
-    "tags": [
-      "New",
-      "AI",
-      "SRE"
-    ],
-    "link": "https://www.prodrescueai.com/",
-    "date": "2026-02-24",
-    "id": "17719654872710"
   }
 ]
