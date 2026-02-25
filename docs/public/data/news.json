@@ -1,5 +1,108 @@
 [
   {
+    "title": "AI助力WebNN实现：Slop Diaries系列第二篇",
+    "summary": "利用AI辅助实现WebNN标准，探索AI在Web标准实现中的应用。",
+    "detail": "本文是关于使用AI实现WebNN系列文章的第二部分，作者描述了使用AI编码代理尝试找出失败测试的原因。文章介绍了在实现Web标准时的各个阶段，包括草图阶段（识别标准的关键部分）和细化阶段（逐步改进实现）。作者提到，由于项目禁止使用AI，因此该分支永远无法合并到主分支中。文章还提到了对自主编码的看法，并链接到了之前的文章，提供了更多背景信息。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "WebNN"
+    ],
+    "link": "https://medium.com/@polyglot_factotum/sketching-webnn-with-ai-part-two-of-the-slop-diaries-8df62d4102ca",
+    "date": "2026-02-25",
+    "id": "17720168204500"
+  },
+  {
+    "title": "Synlets：AI驱动的软件开发平台，自动完成Jira/Asana任务并生成PR",
+    "summary": "Synlets利用AI代理处理软件开发周期，从计划到技术实现，提高工程效率。",
+    "detail": "Synlets是一个AI驱动的软件开发平台，旨在通过AI代理自动处理Jira/Asana任务，并生成PR，从而提高工程师的效率。该平台集成了Jira、Asana、GitHub、GitLab等工具，并计划支持Slack、Linear、Bitbucket等。Synlets使用Anthropic的Claude AI作为其自主编码代理的动力。据称，该平台已创建了1000+ PR和1000+ Tickets，每周节省20+小时，PR合并率达到85%。",
+    "tags": [
+      "New",
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://www.synlets.com/",
+    "date": "2026-02-25",
+    "id": "17720168204501"
+  },
+  {
+    "title": "Frouter：免费AI模型路由器，为编码代理发现、基准测试和配置模型",
+    "summary": "Frouter是一个CLI工具，用于发现、评估和配置免费AI模型，优化OpenCode和OpenClaw等工具。",
+    "detail": "Frouter是一个免费模型路由器CLI，旨在帮助用户发现、基准测试和配置免费的AI模型，特别适用于OpenCode和OpenClaw等编码代理。该工具可以实时ping模型，并自动配置，以便用户能够更有效地利用免费的AI资源。该项目托管在GitHub上，提供了一种便捷的方式来管理和优化AI模型的选择。",
+    "tags": [
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://github.com/jyoung105/frouter",
+    "date": "2026-02-25",
+    "id": "17720168204502"
+  },
+  {
+    "title": "Cybertank：手写代码或使用AI代理，摧毁敌人",
+    "summary": "Cybertank是一款坦克对战游戏，玩家可手写代码或使用AI代理控制坦克进行战斗。",
+    "detail": "Cybertank是一款3v3 AI坦克对战游戏，玩家可以通过编写代码来控制坦克，或者使用自己喜欢的AI代理来完成。游戏提供了DSL参考，允许玩家定义坦克的行为，包括移动、转向、炮塔控制和射击等。玩家可以通过API获取坦克的状态信息，如生命值、燃料、弹药、方向和位置。游戏支持事件处理，如碰撞和被击中，并提供算术、比较和逻辑运算符。玩家可以通过唯一的URL让AI代理读取游戏状态并进行操作。",
+    "tags": [
+      "New",
+      "LLM",
+      "AI Agent"
+    ],
+    "link": "https://cybertank.squidcode.com/",
+    "date": "2026-02-25",
+    "id": "17720168204503"
+  },
+  {
+    "title": "LLM Skirmish：AI代理参与的实时战略游戏",
+    "summary": "LLM Skirmish是一个LLM互相进行1v1 RTS游戏的基准测试平台，考验LLM的编码能力。",
+    "detail": "LLM Skirmish是一个基准测试平台，其中LLM互相进行1v1实时战略（RTS）游戏。LLM用代码编写战斗策略，并在游戏环境中执行。LLM Skirmish测试了上下文学习能力，因为每个比赛持续五轮，LLM可以在几轮之间改变策略。该平台基于Screeps的开源API，允许LLM编写JavaScript策略并在实时游戏环境中执行。该平台旨在展示LLM的编码能力。",
+    "tags": [
+      "New",
+      "LLM",
+      "Benchmark"
+    ],
+    "link": "https://llmskirmish.com/",
+    "date": "2026-02-25",
+    "id": "17720168204504"
+  },
+  {
+    "title": "协作式故事创作平台ImagineIf：AI可视化每个故事片段",
+    "summary": "ImagineIf是一个协作式故事创作平台，AI根据用户编写的句子生成可视化图像。",
+    "detail": "ImagineIf是一个协作式故事创作平台，用户可以共同创作故事，并且AI会根据用户编写的句子生成相应的可视化图像。该平台支持20多种语言，用户可以从“Imagine if...”开始，编写一个句子，然后由AI生成图像，其他用户可以继续接力创作。该平台还展示了正在等待继续创作的故事，并提供了活跃作者、故事链、贡献总数和AI图像的统计数据。",
+    "tags": [
+      "New",
+      "LLM",
+      "Storytelling"
+    ],
+    "link": "https://imagineif.app/",
+    "date": "2026-02-25",
+    "id": "17720168204505"
+  },
+  {
+    "title": "Hacker News讨论：有人在追踪网站的AI流量吗？我们应该关注吗？",
+    "summary": "Hacker News上关于追踪网站AI流量的讨论，关注AI爬虫对网站访问行为的影响。",
+    "detail": "Hacker News上发起了一个讨论，询问是否有人在追踪其网站的AI流量，以及是否应该关注这个问题。提问者表示，他们注意到日志中出现了一些不寻常的流量，这些流量不像典型的爬虫或抓取工具，而是表现出更少的点击和更具选择性的页面访问。一些用户代理表明是AI爬虫，但有些则没有。讨论的重点在于如何识别和追踪这些AI访问者，以及它们对网站的影响。",
+    "tags": [
+      "News",
+      "AI Traffic",
+      "Web Crawling"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47149044",
+    "date": "2026-02-25",
+    "id": "17720168204506"
+  },
+  {
+    "title": "开源AI中的中国宣传：Moxie Marlinspike的Confer",
+    "summary": "Tommaso Gagliardoni的个人主页，讨论了XMPP协议及其安全性，以及与Signal的比较。",
+    "detail": "Tommaso Gagliardoni的个人主页上的一篇文章，讨论了Jabber/XMPP（可扩展消息传递和存在协议）的特性和安全性。文章指出，XMPP是许多IM系统的骨干，与Matrix不同，XMPP旨在轻量级并通过插件进行扩展，易于托管自己的服务器。文章还讨论了XMPP的安全性，特别是OMEMO加密标准，并将其与Signal进行了比较。作者表达了对XMPP的喜爱，并提供了自己的XMPP联系方式。",
+    "tags": [
+      "News",
+      "Security",
+      "XMPP"
+    ],
+    "link": "https://gagliardoni.net/#20260224_confer",
+    "date": "2026-02-25",
+    "id": "17720168204507"
+  },
+  {
     "title": "AgentFolio：自主AI Agent信誉注册中心",
     "summary": "AgentFolio追踪具有独立身份和代理能力的自主AI Agent。",
     "detail": "AgentFolio是一个追踪自主AI Agent的平台，旨在记录和跟踪具有独立身份和代理能力的AI实体。该平台目前索引了27个自主Agent，并提供了关于每个Agent的链接，包括在Moltbook、Twitter和GitHub上的信息。AgentFolio的目标是为自主AI Agent建立一个信誉注册中心，这对于理解和评估这些新兴AI实体的行为和能力至关重要。随着自主AI Agent的日益普及，AgentFolio这类平台将有助于提高透明度和可信度。",
@@ -1189,104 +1292,5 @@
     "link": "https://theconversation.com/probably-doesnt-mean-the-same-thing-to-your-ai-as-it-does-to-you-275626",
     "date": "2026-02-24",
     "id": "17719447391955"
-  },
-  {
-    "title": "CtxVault：多智能体AI系统的本地内存控制层",
-    "summary": "CtxVault为多智能体系统提供可控、语义化和灵活的本地内存管理。",
-    "detail": "CtxVault是一个为多智能体AI系统设计的本地内存控制层。它将内存组织成独立的知识库，每个知识库都有单独的检索路径，代理可以在运行时连接到这些知识库。该系统旨在提供一种可控、语义化和灵活的内存层，用于共享知识和隔离工作流程。通过FastAPI提供控制层，所有操作都在本地运行。作者希望了解在构建生产系统时，架构分离和智能检索策略哪个更重要。",
-    "tags": [
-      "New",
-      "LLM",
-      "Dev"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47136585",
-    "date": "2026-02-24",
-    "id": "17719385475640"
-  },
-  {
-    "title": "WebPerceptor：AI驱动的个性化网页浏览插件",
-    "summary": "WebPerceptor是一款Chromium插件，利用LLM实时重塑网页内容。",
-    "detail": "WebPerceptor是一款客户端Chromium插件，它可以识别网页上的文本内容，并将其传递给本地或云端的LLM，根据用户定义的提示自动替换文本。用户可以实时浏览经过AI修改的网页内容，体验个性化的“AI中介网络”。该插件旨在实现自动、个性化、实时的网页浏览重塑，允许用户浏览客户端、用户控制的“AI中介网络”。",
-    "tags": [
-      "New",
-      "LLM"
-    ],
-    "link": "https://github.com/theartofhci/WebPerceptor",
-    "date": "2026-02-24",
-    "id": "17719385475641"
-  },
-  {
-    "title": "SpendGuard：AI Agent 支出硬性限制开源工具",
-    "summary": "SpendGuard 允许为每个 AI Agent 设置独立的硬性支出预算。",
-    "detail": "SpendGuard 是一个开源工具，用于为 AI Agent 设置硬性支出限制。它可以为每个 Agent 创建独立的预算，并可以选择自动充值。该工具无需托管 API 密钥，所有操作都在本地运行。它解决了在构建和运行多 Agent 集群时，难以轻松地为每个 Agent 设置独立预算的问题。",
-    "tags": [
-      "New",
-      "Dev"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47136571",
-    "date": "2026-02-24",
-    "id": "17719385475642"
-  },
-  {
-    "title": "BitClaw：1500行代码实现的自升级AI Agent",
-    "summary": "BitClaw 是一个功能性、安全且自构建的 AI Agent，代码量少于 1500 行。",
-    "detail": "BitClaw 是一个用少于 1500 行代码实现的 AI Agent，具备功能性、安全性和自构建能力。该项目展示了如何用简洁的代码构建一个可自我升级的 AI 系统。它可能包含代码生成、安全机制和自我改进的逻辑，为开发者提供了一个轻量级的 AI Agent 示例。",
-    "tags": [
-      "New",
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://github.com/NickTikhonov/bitclaw",
-    "date": "2026-02-24",
-    "id": "17719385475643"
-  },
-  {
-    "title": "PDP：AI Prompt 隐私的 'robots.txt' 协议",
-    "summary": "PDP 协议旨在为 AI Prompt 提供隐私保护和数据同意机制，类似于 robots.txt。",
-    "detail": "PDP (Prompt Data Protocol) 是一种类似于 'robots.txt' 的协议，旨在为 AI Prompt 提供隐私保护和数据同意机制。该协议允许网站或数据提供者声明哪些 Prompt 可以或不可以被 AI 模型使用，从而保护用户隐私和数据安全。它的目标是建立一个 AI 数据使用的行业标准，尊重用户的数据权利。",
-    "tags": [
-      "New",
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://github.com/oug-t/pdp",
-    "date": "2026-02-24",
-    "id": "17719385475644"
-  },
-  {
-    "title": "Anthropic 效仿 OpenAI，指控中国 AI 公司进行模型蒸馏",
-    "summary": "Anthropic 加入 OpenAI，指控包括 DeepSeek 在内的中国 AI 公司进行模型蒸馏。",
-    "detail": "Anthropic 继 OpenAI 之后，也开始指控一些中国 AI 公司，包括 DeepSeek，通过模型蒸馏的方式来复制或改进其 AI 模型。模型蒸馏是一种将大型模型的知识转移到小型模型的技术，可能被用于规避训练数据和计算资源的限制。这一事件反映了 AI 领域对模型安全和知识产权的日益关注。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://www.cnbc.com/2026/02/24/anthropic-openai-china-firms-distillation-deepseek.html",
-    "date": "2026-02-24",
-    "id": "17719385475645"
-  },
-  {
-    "title": "AI 需求激增，导致今年硬盘售罄",
-    "summary": "AI 发展导致硬盘需求激增，今年硬盘已售罄。",
-    "detail": "由于人工智能的快速发展，对数据存储的需求大幅增加，导致硬盘市场供不应求，今年硬盘已经售罄。这表明 AI 训练和推理需要大量的存储空间，对硬件基础设施提出了更高的要求。硬盘制造商可能需要增加产能以满足 AI 市场的需求。",
-    "tags": [
-      "News",
-      "AI"
-    ],
-    "link": "https://www.theregister.com/2026/02/20/ai_blamed_again_as_hard_drives_sell_out/",
-    "date": "2026-02-24",
-    "id": "17719385475646"
-  },
-  {
-    "title": "轻松攻破 ChatGPT 和 Google AI：只需 20 分钟",
-    "summary": "研究表明，通过简单的技巧，可以轻易操纵 ChatGPT 和 Google 的 AI。",
-    "detail": "文章作者通过简单的技巧，成功地操纵了 ChatGPT 和 Google 的 AI，让它们生成不实信息。例如，通过发布博客文章声称自己擅长吃热狗，然后 AI 工具就将此信息传播开来。这表明 AI 工具容易受到虚假信息的影响，可能对用户获取准确信息和做出明智决策产生负面影响。文章呼吁科技公司重视并解决这一问题。",
-    "tags": [
-      "News",
-      "AI"
-    ],
-    "link": "https://www.bbc.com/future/article/20260218-i-hacked-chatgpt-and-googles-ai-and-it-only-took-20-minutes",
-    "date": "2026-02-24",
-    "id": "17719385475647"
   }
 ]
