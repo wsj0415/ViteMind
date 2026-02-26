@@ -1,5 +1,81 @@
 [
   {
+    "title": "AI Agent 架构解析：专业化胜过通用性",
+    "summary": "Mendral 通过专业化 AI Agent 解决 CI 问题，性能优于通用 LLM。",
+    "detail": "Mendral 团队分享了其构建 AI Agent 架构的技术决策和原则，该 Agent 专门用于解决 CI（持续集成）问题。他们发现，即使使用相同的 LLM，专业化的 Agent 在解决特定问题（如 CI 故障调查）时，性能也明显优于通用 Agent。这是因为 CI 任务需要深入的日志分析和故障关联，而通用 Agent 难以胜任。该架构已在 PostHog 和 Luminai 等公司得到应用，每月自主解决超过 16,000 起 CI 问题。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "AI Agent"
+    ],
+    "link": "https://www.mendral.com/blog/anatomy-of-a-production-ai-agent",
+    "date": "2026-02-26",
+    "id": "17721252218240"
+  },
+  {
+    "title": "Talkatui：为你的 AI 编程会话添加 WWE 风格的实时解说",
+    "summary": "Talkatui 为 Claude Code 和 Codex 会话提供终端 UI 的 WWE 风格实时解说。",
+    "detail": "Talkatui 是一个为 AI 编程会话增加趣味性的工具，它为 Claude Code 和 Codex 等 AI 编程工具的会话提供 WWE 风格的实时解说。通过在终端 UI 中运行，Talkatui 能够为编程过程添加生动的评论，提升用户体验。该工具通过 npm 全局安装，为开发者提供了一种新颖的互动方式，让 AI 编程过程不再枯燥。",
+    "tags": [
+      "New",
+      "Dev",
+      "AI Agent"
+    ],
+    "link": "https://github.com/vignesh07/talkatui",
+    "date": "2026-02-26",
+    "id": "17721252218241"
+  },
+  {
+    "title": "AI 技能悄然自动化我的工作日",
+    "summary": "AI 技能正在逐渐渗透并自动化日常工作任务，提高工作效率。",
+    "detail": "文章作者分享了 AI 技能如何逐渐自动化其工作日的经验。虽然没有具体说明使用了哪些 AI 工具，但文章暗示 AI 正在帮助完成各种任务，从而提高工作效率。 这反映了 AI 在职场中日益增长的影响力，以及人们如何利用 AI 技能来简化和自动化日常工作流程。",
+    "tags": [
+      "News",
+      "AI"
+    ],
+    "link": "https://medium.com/@ricardskrizanovskis/how-ai-skills-are-quietly-automating-my-workday-220a1b7b4707",
+    "date": "2026-02-26",
+    "id": "17721252218242"
+  },
+  {
+    "title": "DeepSeek 限制美国芯片制造商使用其最新 AI 模型 V4",
+    "summary": "DeepSeek 限制包括英伟达在内的美国芯片制造商使用其最新 AI 模型 V4。",
+    "detail": "DeepSeek 是一家 AI 公司，据报道，该公司已决定限制美国芯片制造商（包括英伟达）使用其最新的 AI 模型 V4。 此举可能与地缘政治紧张局势或保护其知识产权的愿望有关。 这一决定可能会对美国芯片制造商以及依赖 DeepSeek 模型的 AI 研究人员和开发人员产生影响。",
+    "tags": [
+      "News",
+      "AI Model"
+    ],
+    "link": "https://www.business-standard.com/technology/tech-news/deepseek-withholds-latest-ai-model-v4-from-us-chipmakers-including-nvidia-126022600181_1.html",
+    "date": "2026-02-26",
+    "id": "17721252218243"
+  },
+  {
+    "title": "AI 购买代理集中需求于少数产品，忽略其余产品",
+    "summary": "研究表明 AI 购买代理倾向于集中需求于少数产品，可能影响电商生态。",
+    "detail": "一篇 arXiv 论文研究了 AI 购买代理在电商环境中的行为。研究发现，这些代理倾向于将需求集中在少数几个产品上，而忽略了其他产品。 这种行为可能会对电商生态系统产生重大影响，例如导致某些产品过度销售，而另一些产品则无人问津。 该论文还探讨了评估、偏差、模型依赖性以及对代理电商的新兴影响。",
+    "tags": [
+      "News",
+      "AI Agent",
+      "E-commerce"
+    ],
+    "link": "https://arxiv.org/abs/2508.02630",
+    "date": "2026-02-26",
+    "id": "17721252218244"
+  },
+  {
+    "title": "Bumble 推出 AI 驱动的照片反馈和个人资料指导工具",
+    "summary": "Bumble 约会应用新增 AI 功能，提供照片反馈和个人资料优化建议。",
+    "detail": "Bumble 约会应用推出了由 AI 驱动的新功能，旨在帮助用户优化他们的照片和个人资料。 这些工具提供关于照片选择的反馈和改进个人资料的建议，以提高用户的匹配成功率。 这一举措反映了包括 Tinder 和 Hinge 在内的其他流行约会应用中 AI 功能的日益普及。",
+    "tags": [
+      "News",
+      "AI",
+      "Application"
+    ],
+    "link": "https://techcrunch.com/2026/02/26/bumble-adds-ai-powered-photo-feedback-and-profile-guidance-tools/",
+    "date": "2026-02-26",
+    "id": "17721252218245"
+  },
+  {
     "title": "AI 机器人吞噬地图瓦片：Stamen Toner 地图服务面临流量危机",
     "summary": "AI 爬虫导致地图瓦片请求激增，Stamen Toner 服务不堪重负。",
     "detail": "由于 Meta、OpenAI、ByteDance 等公司的 AI 爬虫大量抓取 Vaguely Rude Places Map 和 WOEplanet 地图数据，导致 Stamen Toner 地图瓦片服务流量在短时间内暴增，远超 Stadia Maps 提供的免费额度。这暴露出 AI 在数据抓取时可能对小型网站和服务的正常运行造成冲击，同时也引发了关于 AI 数据使用伦理和流量控制的讨论。网站所有者可能需要采取措施来限制恶意爬虫的访问，以确保服务的可用性。",
@@ -962,6 +1038,19 @@
     "id": "17720716980964"
   },
   {
+    "title": "五角大楼与 Anthropic 的争端预示着不良信号",
+    "summary": "五角大楼与 AI 公司 Anthropic 之间的争端，暗示着 AI 伦理和军事应用的复杂关系。",
+    "detail": "文章探讨了五角大楼与 AI 公司 Anthropic 之间的潜在争端。 这种争端可能源于对 AI 技术在军事应用中的伦理、安全或控制方面的分歧。 文章认为，这种争端是一个不好的迹象，表明在 AI 发展和国家安全之间取得平衡面临挑战。 这也凸显了在 AI 技术的军事应用中，政府、私营公司和伦理考量之间进行开放对话和合作的必要性。",
+    "tags": [
+      "News",
+      "AI Ethics",
+      "Military"
+    ],
+    "link": "https://foreignpolicy.com/2026/02/25/anthropic-pentagon-feud-ai/",
+    "date": "2026-02-25",
+    "id": "17721252218246"
+  },
+  {
     "title": "Polsia：AI驱动公司运营，效率提升显著",
     "summary": "Polsia利用AI自动化公司运营，实现业务指标大幅增长。",
     "detail": "Polsia 是一款利用 AI 技术驱动公司运营的产品，它能够自动执行包括市场调研、代码编辑、基础设施管理、消息发送等一系列任务。通过展示的业务数据可以看出，Polsia 使得公司的年度运行率、活跃公司数量、消息发送量和任务完成量都实现了显著的增长，其中年度运行率更是实现了169%的周环比增长。该产品通过模拟人类工作流程，极大地提高了运营效率，展示了 AI 在企业管理方面的巨大潜力。",
@@ -1207,96 +1296,5 @@
     "link": "https://www.apideck.com/blog/api-design-principles-agentic-era",
     "date": "2026-02-25",
     "id": "17720554032035"
-  },
-  {
-    "title": "Rampart v0.5：保护你的AI Agent免受SSH密钥泄露",
-    "summary": "Rampart v0.5是一个开源AI Agent防火墙，控制AI工具在你机器上的行为。",
-    "detail": "Rampart v0.5 是一个开源的 AI Agent 防火墙，旨在控制 OpenClaw、Claude Code、Cursor、Codex 等 AI 工具在你机器上的行为。它可以防止 AI Agent 读取你的 SSH 密钥等敏感信息，从而提高安全性。Rampart 作为一个策略引擎，可以定义 AI Agent 能够执行的操作，从而限制其潜在的风险。",
-    "tags": [
-      "Dev",
-      "AI Agent",
-      "Security"
-    ],
-    "link": "https://github.com/peg/rampart",
-    "date": "2026-02-25",
-    "id": "17720554032036"
-  },
-  {
-    "title": "Vaulty：使用 AI 安全同步你的聊天记录到云端",
-    "summary": "Vaulty 提供了一个加密的云端存储方案，允许 AI 安全访问你的聊天记录。",
-    "detail": "Vaulty 是一个开源项目，旨在提供一个安全的云端存储方案，用于存储用户的敏感数据，如 WhatsApp 和 iMessage 聊天记录。它通过 REST API 允许 AI 代理访问这些数据，并提供端到端加密，确保数据安全。该项目使用 GitHub 进行版本控制，并提供详细的文档和示例，方便开发者集成和使用。Vaulty 的出现，为 AI 应用访问和处理个人数据提供了一种新的思路，即在保护用户隐私的前提下，实现数据的智能化利用。",
-    "tags": [
-      "Dev",
-      "AI",
-      "Security"
-    ],
-    "link": "https://github.com/felipap/vaulty",
-    "date": "2026-02-25",
-    "id": "17720518820510"
-  },
-  {
-    "title": "Aniframe：AI 驱动的卡通 E-Ink 相框，让照片动起来",
-    "summary": "Aniframe 将照片转化为卡通动画，并在 E-Ink 屏幕上展示，打造独特的数字艺术。",
-    "detail": "Aniframe 是一个 DIY 项目，使用 Raspberry Pi 和 E-Ink 屏幕，将上传的照片转化为卡通风格的动画，并以低功耗的方式展示出来。该项目涉及图像处理、硬件选型和软件开发等多个方面，展示了 AI 在艺术创作和个性化展示方面的潜力。核心技术点包括使用 AI 将照片转化为卡通，以及将彩色图像转换为 E-Ink 屏幕支持的有限颜色。该项目为数字相框和电子艺术品提供了一种新的思路。",
-    "tags": [
-      "New",
-      "AI",
-      "DIY"
-    ],
-    "link": "https://justusdevs.substack.com/p/aniframe-love-animated",
-    "date": "2026-02-25",
-    "id": "17720518820511"
-  },
-  {
-    "title": "Squad：AI 智能体团队，伴随你的代码一同成长",
-    "summary": "Squad 是一个 AI 智能体团队，旨在协助开发者完成各种编程任务。",
-    "detail": "Squad 是一个基于 GitHub Copilot CLI 的项目，旨在构建 AI 智能体团队，以协助开发者完成各种编程任务。该项目利用 AI 自动化软件开发流程，提高开发效率。通过集成到 GitHub 工作流中，Squad 可以帮助开发者进行代码审查、测试和部署等任务。该项目的目标是创建一个能够与开发者协同工作的 AI 团队，从而加速软件开发过程。",
-    "tags": [
-      "Dev",
-      "AI",
-      "GitHub"
-    ],
-    "link": "https://github.com/bradygaster/squad",
-    "date": "2026-02-25",
-    "id": "17720518820512"
-  },
-  {
-    "title": "Claude-PR-reviewer：GitHub Actions 中的 AI 代码审查工具",
-    "summary": "使用 Claude AI 自动审查 GitHub Pull Requests，发现潜在的 Bug 和风格问题。",
-    "detail": "Claude-PR-reviewer 是一个使用 Claude AI 自动审查 GitHub Pull Requests 的工具。它可以检测代码中的逻辑错误、安全问题和风格问题，并在 GitHub PR 中以注释的形式提供反馈。该工具可以作为 GitHub Action 自动运行，也可以通过 CLI 在本地运行。它无需任何依赖，仅使用 Python 3.8+ 标准库。通过集成 AI 代码审查，该工具可以帮助开发者提高代码质量，减少 Bug，并加速开发流程。",
-    "tags": [
-      "Dev",
-      "AI",
-      "GitHub"
-    ],
-    "link": "https://github.com/indoor47/claude-pr-reviewer",
-    "date": "2026-02-25",
-    "id": "17720518820513"
-  },
-  {
-    "title": "Intrinsic 加入 Google，加速物理 AI 的未来",
-    "summary": "Intrinsic 被 Google 收购，旨在加速物理 AI 的发展。",
-    "detail": "Intrinsic 是一家专注于物理 AI 的公司，已被 Google 收购。Intrinsic 致力于开发能够理解和操纵物理世界的 AI 系统，例如机器人。通过加入 Google，Intrinsic 将获得更多的资源和支持，以加速其技术研发和产品推广。此次收购表明 Google 对物理 AI 领域的重视，以及对未来机器人技术发展的信心。Intrinsic 的技术有望在制造业、物流等领域发挥重要作用。",
-    "tags": [
-      "News",
-      "AI",
-      "Robotics"
-    ],
-    "link": "https://www.intrinsic.ai/blog/posts/intrinsic-joins-google-to-accelerate-physical-ai",
-    "date": "2026-02-25",
-    "id": "17720518820514"
-  },
-  {
-    "title": "AI 如何重塑软件团队的协作模式？",
-    "summary": "AI 正在改变软件工程的经济学单位，团队构成和衡量标准面临重塑。",
-    "detail": "文章探讨了 AI 编码智能体如何降低软件开发的门槛，使得小型团队也能交付企业级产品。传统的软件工程衡量标准（如故事点、冲刺速度）主要用于管理人类协作的成本，但随着 AI 的引入，团队的构成和协作模式正在发生变化。文章提出了新的衡量标准，以适应混合团队（人类 + AI 智能体）的协作模式，并强调工程领导者应关注如何利用 AI 带来的新能力，而非仅仅关注节省人力成本。AI 正在重塑软件工程的经济学单位，新的衡量标准尚未确定。",
-    "tags": [
-      "News",
-      "AI",
-      "Software Engineering"
-    ],
-    "link": "https://weightedthoughts.substack.com/p/the-new-units-of-economics-in-software",
-    "date": "2026-02-25",
-    "id": "17720518820515"
   }
 ]
