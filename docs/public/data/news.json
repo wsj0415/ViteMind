@@ -1,5 +1,109 @@
 [
   {
+    "title": "FinClaw：AI 驱动的金融市场分析利器",
+    "summary": "FinClaw 是一个轻量级 AI Agent，专为金融市场分析设计，支持多市场和多渠道。",
+    "detail": "FinClaw 是一个开源的 AI Agent，专注于金融市场分析。它支持 Python 3.11+，并集成了 14+ LLM 提供商，方便用户选择合适的模型。FinClaw 旨在为用户提供全天候的金融分析服务，帮助用户在多市场和多渠道中做出明智的决策。该项目采用 MIT 许可证，表明其开源和易于使用的特性。通过集成多种 LLM，FinClaw 能够适应不同的分析需求，并提供更全面的金融市场洞察。",
+    "tags": [
+      "Dev",
+      "AI Agent",
+      "Finance"
+    ],
+    "link": "https://github.com/Fin-Chelae/FinClaw",
+    "date": "2026-02-26",
+    "id": "17721416490250"
+  },
+  {
+    "title": "Automattic AI 最新进展：WordPress 集成迎来重大突破",
+    "summary": "Automattic 在 WordPress AI 集成方面取得显著进展，包括 OAuth 2.1 支持和 MCP 适配器。",
+    "detail": "Automattic 近期在 WordPress 核心中构建了 Abilities API 和 WP AI Client 等基础设施，为产品层面的快速迭代奠定了基础。一月份发布了针对 WordPress.com 上 AI Agent 的 OAuth 2.1 支持，增强了安全性。二月份推出了 WordPress MCP 适配器，使得 AI 工具可以直接调用 WordPress 的功能。此外，还发布了 WordPress.com Claude Connector，允许用户通过简单的 OAuth 流程将 Claude 连接到 WordPress.com 站点，查询分析数据和站点设置。这些进展标志着 WordPress 在 AI 集成方面迈出了重要一步。",
+    "tags": [
+      "News",
+      "AI Integration",
+      "WordPress"
+    ],
+    "link": "https://j.cv/automattic-ai-progress/",
+    "date": "2026-02-26",
+    "id": "17721416490251"
+  },
+  {
+    "title": "Yaw：集成终端、连接管理和 AI Chat 的强大工具",
+    "summary": "Yaw 是一个集成了终端、SSH/数据库连接和 AI Chat 功能的工具，提供便捷的开发体验。",
+    "detail": "Yaw 提供了一个功能丰富的终端，支持标签、分屏、广播模式、智能选择和命令面板。它还集成了 SSH、PostgreSQL、MySQL、SQL Server、MongoDB 和 Redis 等连接管理功能，方便用户在一个地方管理所有连接。此外，Yaw 还支持 Claude、ChatGPT、Gemini、Mistral、Grok 和 Ollama 等 AI 提供商，允许用户在终端上下文中与 AI 进行交互。Yaw 通过 WebGL 加速渲染，并提供 Catppuccin Mocha 主题，提供卓越的视觉体验。",
+    "tags": [
+      "New",
+      "Dev",
+      "AI Chat"
+    ],
+    "link": "https://yaw.sh/",
+    "date": "2026-02-26",
+    "id": "17721416490252"
+  },
+  {
+    "title": "AI Agent 技能安全审计指南：从 SKILL.md 到 Shell",
+    "summary": "Aguara 发布 AI Agent 技能安全审计指南，揭示 SKILL.md 文件可能存在的安全风险。",
+    "detail": "Aguara 发布了一份关于 AI Agent 技能安全审计的指南，指出仅需三行 Markdown 代码就可能通过 SKILL.md 文件获得 Shell 访问权限。Aguara 扫描了超过 31,000 个 AI Agent 技能，发现了 485 个严重漏洞和 1,718 个高危漏洞，包括提示注入、凭据泄露、供应链攻击和 MCP 工具中毒。该指南提供了一个实用的、逐步的审计流程，帮助用户检测技能文件、MCP 服务器描述或 Agent 插件中的安全威胁。该指南强调了 Skill 文件与传统代码的不同之处，并指出其攻击面是文本本身。",
+    "tags": [
+      "Dev",
+      "Security",
+      "AI Agent"
+    ],
+    "link": "https://aguarascan.com/blog/skill-md-security-audit-guide/",
+    "date": "2026-02-26",
+    "id": "17721416490253"
+  },
+  {
+    "title": "IronCurtain：从零构建安全可靠的个人 AI 助手",
+    "summary": "IronCurtain 是一款注重安全的个人 AI 助手，旨在解决 OpenClaw 等 AI Agent 存在的安全漏洞。",
+    "detail": "IronCurtain 是一款从一开始就注重安全的个人 AI 助手。作者在 OpenClaw 走红后，意识到 AI Agent 存在严重的安全风险，例如 API 密钥泄露、凭据泄露和提示注入攻击。IronCurtain 的架构方法是建立一个扼流点，所有操作都必须通过该扼流点，以便强制执行策略。该助手采用 Cloudflare 提出的 “代码模式”，利用 LLM 擅长编写 TypeScript 的能力，让 LLM 针对类型化 API 编写代码，而不是一次性发出结构化的工具调用，从而提高安全性。",
+    "tags": [
+      "Dev",
+      "Security",
+      "AI Agent"
+    ],
+    "link": "https://www.provos.org/p/ironcurtain-secure-personal-assistant/",
+    "date": "2026-02-26",
+    "id": "17721416490254"
+  },
+  {
+    "title": "LLM Ready Analyzer：优化您的网站以适应 AI 搜索",
+    "summary": "LLM Ready Analyzer 帮助您了解您的品牌在 AI 搜索中的可见性，并提供优化建议。",
+    "detail": "LLM Ready Analyzer 扫描 ChatGPT、Gemini 和 Perplexity，使用客户的真实查询来评估您的品牌是否被推荐。它提供 AI 可见性报告，显示您的品牌在不同 AI 模型中的提及情况，并提供改进建议。该工具可以帮助企业了解其内容在 AI 驱动的搜索结果中的表现，并优化网站以提高 AI 可见性。通过了解 AI 如何推荐您的品牌，您可以更好地吸引潜在客户并提高品牌知名度。",
+    "tags": [
+      "New",
+      "SEO",
+      "LLM"
+    ],
+    "link": "https://www.llmcheck.app/ai-visibility/",
+    "date": "2026-02-26",
+    "id": "17721416490255"
+  },
+  {
+    "title": "Show HN：使用 Codespaces 和 AI 开发的首款 Android 游戏",
+    "summary": "开发者分享使用 Codespaces 和 AI 辅助开发 Android 游戏的经验，并遇到 AdMob 冷启动问题。",
+    "detail": "一位开发者分享了使用 GitHub Codespaces 和 AI Copilot 开发首款 Android 游戏的经验。该游戏名为 Bionic Biome，是一款 2D 平台游戏。开发者完全在浏览器中构建了游戏，并将其封装成 Android APK/AAB。游戏通过了 Google Play 审核，没有违反任何政策。为了使“不可能模式”更易于接受，开发者集成了 AdMob 激励广告作为继续/复活机制。然而，开发者遇到了 AdMob 冷启动问题，即测试广告可以正常工作，但生产环境中的 AdMob 控制面板显示“无数据”并返回“广告未准备好”。",
+    "tags": [
+      "Dev",
+      "Game Development",
+      "AI"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47171901",
+    "date": "2026-02-26",
+    "id": "17721416490256"
+  },
+  {
+    "title": "摩根士丹利预测：AI 不会让你提前退休",
+    "summary": "摩根士丹利预测 AI 不会让你提前退休，反而需要培训来适应未来新工作。",
+    "detail": "摩根士丹利预测，人工智能的快速发展不会让人们提前退休，相反，人们需要不断学习和培训，以适应未来可能出现的新型工作岗位。这意味着劳动力市场将持续变化，人们需要具备适应性和终身学习的能力，才能在 AI 时代保持竞争力。该预测强调了教育和技能提升的重要性，以应对 AI 对就业市场带来的挑战。",
+    "tags": [
+      "News",
+      "AI",
+      "Economy"
+    ],
+    "link": "https://fortune.com/2026/02/26/morgan-stanley-predicts-ai-wont-let-you-retire-early-instead-youll-have-to-train-for-jobs-that-dont-exist-yet/",
+    "date": "2026-02-26",
+    "id": "17721416490257"
+  },
+  {
     "title": "Talentpluto：AI 驱动的 GTM 人才与初创公司对接平台",
     "summary": "Talentpluto 利用 AI 连接顶尖 GTM 人才与 NYC & SF 的初创公司。",
     "detail": "Talentpluto 是一个利用 AI 技术连接顶尖 GTM（Go-To-Market）人才与纽约和旧金山最具潜力初创公司的平台。它通过个性化的职业经纪人服务，为求职者提供最佳的职业发展机会，并帮助初创公司快速找到合适的团队成员。该平台强调温暖的人际互动，并已获得 Forbes 的推荐。用户评价显示，Talentpluto 能够精准匹配人才与公司需求，提高招聘效率和员工满意度。",
@@ -1190,109 +1294,5 @@
     "link": "https://ssebs.com/blog/vibe-coding-1/",
     "date": "2026-02-26",
     "id": "17720814964374"
-  },
-  {
-    "title": "亚马逊拥抱AI写作，传统“水晶般清晰”的写作文化面临挑战？",
-    "summary": "亚马逊鼓励使用AI写作工具，内部担忧其“水晶般清晰”的写作文化或受影响。",
-    "detail": "亚马逊鼓励员工使用AI工具（如Cedric）进行写作，甚至宣称可以“在几秒钟内生成六页叙述”。这引发了公司内部的担忧，即亚马逊是否会在追求AI效率的同时，失去其以清晰、深思熟虑的写作为核心的文化。长期以来，亚马逊一直强调通过撰写详细的叙述性文档来明确思路，但AI写作的普及可能会改变这一传统。",
-    "tags": [
-      "News",
-      "AI",
-      "Culture"
-    ],
-    "link": "https://www.bigtechnology.com/p/writing-crystalized-thinking-at-amazon",
-    "date": "2026-02-26",
-    "id": "17720814964375"
-  },
-  {
-    "title": "App评分过低？开发者构建AI用户画像，逆转产品命运",
-    "summary": "开发者因App评分低迷，构建AI用户画像，成功改进产品，获得用户认可。",
-    "detail": "开发者构建了一个购物App，但收到来自目标用户群体（某姐妹会）的极低评分（2/10）。为了更好地理解用户需求，开发者创建了一个AI姐妹会，通过AI模拟用户反馈，改进App的设计和功能。最终，改进后的App获得了真实用户的积极评价，验证了AI用户画像在产品开发中的价值。这种“共情式开发”方法强调在开发过程中融入目标用户的视角，即使这些用户是基于AI建模的。",
-    "tags": [
-      "New",
-      "AI",
-      "Product Development"
-    ],
-    "link": "https://medium.com/@empadev64/a-sorority-gave-our-app-a-2-10-so-i-built-an-ai-version-of-them-it-changed-everything-41c45a0cc0c8",
-    "date": "2026-02-26",
-    "id": "17720814964376"
-  },
-  {
-    "title": "DeltaMemory：为生产环境AI Agent提供持久认知记忆",
-    "summary": "DeltaMemory为AI Agent提供持久记忆层，实现长期记忆、自动提取信息和上下文智能。",
-    "detail": "DeltaMemory是一款为生产环境AI Agent设计的认知记忆层。它通过持久记忆、自动信息提取和上下文智能，使AI Agent能够长期记忆并利用信息。DeltaMemory具有高准确率、低延迟和成本效益等优点，可以与多种AI框架和平台集成，帮助开发者快速为AI Agent添加记忆功能。",
-    "tags": [
-      "New",
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://www.deltamemory.com/",
-    "date": "2026-02-26",
-    "id": "17720814964377"
-  },
-  {
-    "title": "Ian AI健身助手：个性化AI健身教练，助你达成目标",
-    "summary": "Ian AI健身助手，无需扫描，根据目标提供个性化健身指导和追踪。",
-    "detail": "Ian AI Fitness Agent是一款AI健身助手，用户可以像与真人交流一样与它互动。它无需扫描或搜索，能够追踪用户的所有数据，并根据用户设定的目标提供个性化的健身指导和建议。该产品完全由个人使用agentic工具构建，背后是真实的模型、编排和工具。目前正在进行Beta测试，旨在提供更智能、更便捷的健身体验。",
-    "tags": [
-      "New",
-      "AI",
-      "Fitness"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47160857",
-    "date": "2026-02-26",
-    "id": "17720716980960"
-  },
-  {
-    "title": "AI Gateway：开源API网关，赋能LLM应用安全与监控",
-    "summary": "开源AI API网关，提供访问控制、限流、模型白名单等功能。",
-    "detail": "AI Gateway是一个轻量级的、自托管的API网关，位于应用程序和LLM提供商之间。它暴露了一个与OpenAI兼容的API，并将请求路由到配置的上游后端，如Google Gemini、OpenAI、Anthropic、Mistral等。每个客户端都有自己的API密钥、后端分配、速率限制、令牌配额和可选的系统提示。一切都通过内置的管理仪表板进行管理，并具有实时使用情况监控功能。该项目旨在帮助开发者更好地管理和监控LLM应用的使用，提高安全性和效率。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "API"
-    ],
-    "link": "https://github.com/DatanoiseTV/aigateway",
-    "date": "2026-02-26",
-    "id": "17720716980961"
-  },
-  {
-    "title": "2D忆阻器：AI能耗问题的潜在解决方案",
-    "summary": "2D忆阻器有望降低AI计算的能耗，解决AI发展面临的能源挑战。",
-    "detail": "该新闻报道了2D忆阻器在解决AI能耗问题上的潜力。随着人工智能的快速发展，其能源消耗也日益增长，成为一个重要的挑战。2D忆阻器作为一种新型的存储器件，具有低功耗、高密度等优点，有望在AI计算中取代传统的存储器，从而显著降低能耗。这项技术的发展将有助于推动AI的可持续发展，并为未来的AI应用提供更高效的硬件支持。",
-    "tags": [
-      "News",
-      "AI",
-      "Hardware"
-    ],
-    "link": "https://phys.org/news/2026-02-2d-memristors-ai-energy-problem.html",
-    "date": "2026-02-26",
-    "id": "17720716980962"
-  },
-  {
-    "title": "AI员工运营的对冲基金：Platypi Capital实验",
-    "summary": "Platypi Capital是由AI员工全权运营的对冲基金，进行真实交易。",
-    "detail": "Platypi Capital是一个由AI员工全权运营的对冲基金实验项目。该基金由EMPLA Labs支持，拥有一支完全由AI组成的团队，包括投资组合经理、执行交易员和风险经理。这些AI员工使用真实的工具（如电子表格、电子邮件、网络浏览器）和实时金融新闻监控，进行实时的纸币交易。该实验旨在探索AI在金融领域的自主决策和执行能力，并展示AI在复杂任务中的潜力。",
-    "tags": [
-      "News",
-      "AI",
-      "Finance"
-    ],
-    "link": "https://platypi.empla.io",
-    "date": "2026-02-26",
-    "id": "17720716980963"
-  },
-  {
-    "title": "德克萨斯州AI繁荣发展，用水监管面临挑战",
-    "summary": "德克萨斯州AI数据中心快速扩张，用水需求激增，监管面临挑战。",
-    "detail": "德克萨斯州正在建设世界最大的AI数据中心综合体，该项目名为Project Matador，占地面积巨大。随着AI产业的蓬勃发展，数据中心对水资源的需求也急剧增加，用于工业标准的蒸发冷却。专家警告说，德克萨斯州正在竞相建设大规模的人工智能基础设施，但缺乏评估工业用水需求的规划系统。目前，该州有400多个数据中心正在运营或建设中，对当地的水资源管理提出了严峻的挑战。",
-    "tags": [
-      "News",
-      "AI",
-      "Regulation"
-    ],
-    "link": "https://www.texasobserver.org/texas-ai-data-centers-water-usage-regulation/",
-    "date": "2026-02-26",
-    "id": "17720716980964"
   }
 ]
