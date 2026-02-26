@@ -1,5 +1,109 @@
 [
   {
+    "title": "AI 安全的风险情境分析：别只盯着毒性",
+    "summary": "分析AI安全风险，不能只关注技术本身的危险性，更要考虑实际应用场景和暴露程度。",
+    "detail": "文章以美国环保署清理有毒废料为例，指出评估AI安全风险时，不能只关注AI模型本身的“毒性”，更要考虑实际应用场景和暴露程度。即使AI模型存在潜在危险，如果使用场景隔离，接触机会为零，那么实际风险也很低。因此，AI安全策略应该综合考虑危害、暴露和脆弱性，避免过度关注技术本身而忽略了情境因素，从而导致资源错配。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Risk Analysis"
+    ],
+    "link": "https://safeenough.substack.com/p/swamp-dirt-and-ai-safety",
+    "date": "2026-02-26",
+    "id": "17720855099070"
+  },
+  {
+    "title": "Squidy：解决 AI Agent 上下文丢失的开源方案",
+    "summary": "Squidy 通过保存项目上下文，解决了 AI 编码 Agent 在会话中断后丢失上下文的问题。",
+    "detail": "Squidy 是一个开源工具，旨在解决 AI 编码 Agent（如 Claude Code, Cursor, Windsurf）在项目开发过程中上下文丢失的问题。开发者在使用这些 Agent 时，经常会遇到会话中断后 Agent 忘记项目架构、设计决策等情况，导致需要花费大量时间重新解释项目。Squidy 通过手动创建 Markdown 文件来保存项目概述、架构决策、任务列表等信息，并在每次会话开始前 orient Agent，从而快速恢复上下文，提高开发效率。该方案已被开源。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Open Source"
+    ],
+    "link": "https://rendernet.com.br/squidyrun/",
+    "date": "2026-02-26",
+    "id": "17720855099071"
+  },
+  {
+    "title": "VeriTrue：AI 内容检测与验证平台",
+    "summary": "VeriTrue 提供 AI 生成内容检测服务，验证照片、视频和文本的真实性。",
+    "detail": "VeriTrue 是一个 AI 内容检测与验证平台，旨在帮助用户识别 AI 生成或篡改的内容。该平台利用多重 AI 分析技术，检测照片、视频和文本的真实性。VeriTrue 提供快速分析结果，并给出置信度评分，帮助用户判断内容是否由 AI 生成或经过篡改。主要功能包括照片分析、多 AI 共识验证和即时结果反馈。",
+    "tags": [
+      "New",
+      "AI Detection",
+      "Verification"
+    ],
+    "link": "https://veritrue.ai/",
+    "date": "2026-02-26",
+    "id": "17720855099072"
+  },
+  {
+    "title": "AI 漏洞：轻松欺骗 ChatGPT 和 Google AI",
+    "summary": "研究发现，通过简单的技巧可以操纵 AI 的回答，影响其提供的信息。",
+    "detail": "文章揭示了一种新的 AI 漏洞，即通过撰写精心设计的博客文章，可以轻松操纵 ChatGPT、Google AI 搜索工具和 Gemini 的回答。作者通过虚构自己擅长吃热狗的事实，成功地让 AI 工具相信并传播这一虚假信息。这种操纵 AI 回答的技巧可能会对人们获取准确信息的能力产生严重影响，尤其是在健康和个人财务等重要领域。文章呼吁科技巨头重视并解决这一问题。",
+    "tags": [
+      "News",
+      "LLM",
+      "Security"
+    ],
+    "link": "https://www.bbc.com/future/article/20260218-i-hacked-chatgpt-and-googles-ai-and-it-only-took-20-minutes",
+    "date": "2026-02-26",
+    "id": "17720855099073"
+  },
+  {
+    "title": "Marcus：AI 数学辅导，引导而非直接给出答案",
+    "summary": "Marcus 是一款 AI 数学辅导工具，提供从小学到大学的数学指导，侧重引导式学习。",
+    "detail": "Marcus 是一款 AI 数学辅导工具，旨在提供高质量且有趣的数学教学，涵盖从小学算术到大学线性代数的各个阶段。与传统计算器不同，Marcus 侧重于引导学生逐步解决问题，提供提示而非直接给出答案，并在错误时指出具体错误位置。该工具提供结构化课程和自由画布，支持手写公式输入，并根据学生的学习情况进行个性化调整，帮助学生掌握数学技能。",
+    "tags": [
+      "New",
+      "AI Tutor",
+      "Education"
+    ],
+    "link": "https://marcusmath.com/",
+    "date": "2026-02-26",
+    "id": "17720855099074"
+  },
+  {
+    "title": "AI-assert：LLM 输出的运行时约束验证 (278 行 Python 代码)",
+    "summary": "AI-assert 是一个轻量级的 Python 库，用于验证 LLM 输出是否符合预定义的约束条件。",
+    "detail": "AI-assert 是一个轻量级的 Python 库，仅包含 278 行代码，零依赖。它通过“检查 → 评分 → 重试”循环，确保 LLM 的输出满足预定义的约束条件，例如有效的 JSON 格式、最大长度限制、包含特定关键词等。如果 LLM 的输出不符合约束条件，AI-assert 会将失败信息反馈给 LLM，并重试生成，直到输出满足所有约束条件为止。该库适用于任何 LLM 模型和提供商，可用于提高 AI 应用的可靠性。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Python"
+    ],
+    "link": "https://github.com/kaantahti/ai-assert",
+    "date": "2026-02-26",
+    "id": "17720855099075"
+  },
+  {
+    "title": "Prince Cloud：使用 AI Agent 创建 PDF",
+    "summary": "Prince Cloud 允许使用 AI Agent 将 Markdown 和 HTML+CSS 转换为高质量 PDF。",
+    "detail": "Prince Cloud 是一项服务，允许用户使用 AI Agent 将 Markdown 和 HTML+CSS 转换为高质量的 PDF 文档。它使用 PrinceXML 引擎进行转换，并与 Claude、ChatGPT、Gemini 等支持 MCP 协议的 AI Agent 兼容。用户可以通过 MCP 端点配置该服务，并使用提供的工具（如 markdown_to_pdf、html_to_pdf、url_to_pdf）进行转换。该服务仅供非商业用途，生成的 PDF 文档包含 PrinceXML 的水印。",
+    "tags": [
+      "New",
+      "AI Agent",
+      "PDF"
+    ],
+    "link": "https://prince.cloud/",
+    "date": "2026-02-26",
+    "id": "17720855099076"
+  },
+  {
+    "title": "OpenKoi：停止做 AI 的保姆，让 AI 自我迭代",
+    "summary": "OpenKoi 是一款自迭代 AI Agent，能够审查自身代码并迭代改进，无需人工干预。",
+    "detail": "OpenKoi 是一款自迭代 AI Agent，旨在减少开发者在 AI 编码工具上的投入。与传统的 AI 编码工具不同，OpenKoi 不仅生成代码，还会审查自身代码，并根据预定义的规则进行迭代改进，直到达到质量阈值。OpenKoi 使用 Rust 编写，体积小巧，无依赖，可与任何模型配合使用。通过自动迭代，OpenKoi 能够减少人工干预，节省时间和资源，并不断学习和改进。",
+    "tags": [
+      "New",
+      "AI Agent",
+      "Coding"
+    ],
+    "link": "https://openkoi.ai/",
+    "date": "2026-02-26",
+    "id": "17720855099077"
+  },
+  {
     "title": "OpenAI发布AI恶意使用防范报告，揭示威胁行为者策略",
     "summary": "OpenAI发布报告，分析AI恶意使用案例，强调AI常与传统工具结合，呼吁行业共同防范。",
     "detail": "OpenAI发布最新威胁报告，分析了过去两年中AI模型被恶意使用的案例，揭示了威胁行为者如何将AI与传统工具（如网站和社交媒体）结合，以达到其目的。报告强调，威胁活动通常不局限于单一平台或AI模型，而是跨多个平台和模型进行。OpenAI分享这些洞察，旨在帮助整个行业和社会更好地识别和避免此类威胁，共同构建更安全的AI生态。",
@@ -1188,109 +1292,5 @@
     "link": "https://gagliardoni.net/#20260224_confer",
     "date": "2026-02-25",
     "id": "17720168204507"
-  },
-  {
-    "title": "AgentFolio：自主AI Agent信誉注册中心",
-    "summary": "AgentFolio追踪具有独立身份和代理能力的自主AI Agent。",
-    "detail": "AgentFolio是一个追踪自主AI Agent的平台，旨在记录和跟踪具有独立身份和代理能力的AI实体。该平台目前索引了27个自主Agent，并提供了关于每个Agent的链接，包括在Moltbook、Twitter和GitHub上的信息。AgentFolio的目标是为自主AI Agent建立一个信誉注册中心，这对于理解和评估这些新兴AI实体的行为和能力至关重要。随着自主AI Agent的日益普及，AgentFolio这类平台将有助于提高透明度和可信度。",
-    "tags": [
-      "New",
-      "AI Agent",
-      "Registry"
-    ],
-    "link": "https://agentfolio.io",
-    "date": "2026-02-25",
-    "id": "17720133762210"
-  },
-  {
-    "title": "我的AI编程工作流：AI正在重塑软件开发",
-    "summary": "AI正在快速改变软件开发，最佳团队正从中受益。",
-    "detail": "文章探讨了AI如何改变软件开发工作流。作者分享了过去17天使用AI开发macOS应用程序的经验，包括772次提交，约20,000行代码，90%的测试覆盖率以及9.3/10的代码健康度。文章强调，最优秀的团队能够最好地利用AI，并指出AI在代码编写中的作用日益重要。尽管互联网上充斥着各种观点，但作者通过实际项目证明了AI在软件开发中的巨大潜力，并强调了构建实际项目以理解AI编码的必要性。",
-    "tags": [
-      "Dev",
-      "AI Coding",
-      "Workflow"
-    ],
-    "link": "https://refactoring.fm/p/my-ai-coding-workflow",
-    "date": "2026-02-25",
-    "id": "17720133762211"
-  },
-  {
-    "title": "Michael Pollan 刺破AI泡沫",
-    "summary": "Michael Pollan 的新书对当前AI炒作提出了质疑。",
-    "detail": "The Atlantic发表了一篇关于Michael Pollan新书的文章，该书旨在刺破AI泡沫。文章暗示Pollan对当前AI的炒作持怀疑态度，并可能探讨了AI技术的局限性和潜在风险。虽然具体细节需要参考原文，但整体来看，这篇文章预示着对AI领域进行更为批判性和现实的评估，而非盲目乐观。",
-    "tags": [
-      "News",
-      "AI",
-      "Criticism"
-    ],
-    "link": "https://www.theatlantic.com/books/2026/02/michael-pollans-new-book-pops-ai-bubble/686119/",
-    "date": "2026-02-25",
-    "id": "17720133762212"
-  },
-  {
-    "title": "Determinant：AI Pipeline的最小确定性治理层",
-    "summary": "Determinant是一个用于AI Pipeline的最小确定性治理层。",
-    "detail": "Determinant是一个Python工具包，专注于生产安全而非快速演示。它提供了一些确定性构建块，包括输入规范化、模型输出的快速失败不变性检查以及用于审计的加密指纹（SHA-256）。其目标是使AI Pipeline具有可重复性和可检查性，尤其适用于高风险用例（例如信用评分）。该工具包的GitHub仓库地址为https://github.com/Dawonos/determinant。",
-    "tags": [
-      "Dev",
-      "AI Pipeline",
-      "Governance"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47149351",
-    "date": "2026-02-25",
-    "id": "17720133762213"
-  },
-  {
-    "title": "AI Agent可靠性追踪器：评估AI Agent的可靠性",
-    "summary": "评估14个AI Agent在可靠性维度上的表现，发现能力提升并未显著提高可靠性。",
-    "detail": "普林斯顿大学HAL实验室发布了一个AI Agent可靠性追踪器，用于评估AI Agent在多个可靠性维度上的表现。该追踪器评估了14个Agent在两个基准测试上的12个指标，涵盖一致性、可预测性、鲁棒性和安全性。研究发现，尽管AI Agent的准确性有所提高，但其可靠性方面的改进并不显著。该追踪器提供了一个详细的表格，展示了每个Agent在不同指标上的得分，包括Gemini 3.0 Pro和Claude Opus 4.5等。",
-    "tags": [
-      "News",
-      "AI Agent",
-      "Reliability"
-    ],
-    "link": "https://hal.cs.princeton.edu/reliability/",
-    "date": "2026-02-25",
-    "id": "17720133762214"
-  },
-  {
-    "title": "AI威胁科学领域工作岗位：哪些风险最高？",
-    "summary": "AI正在威胁科学领域的工作岗位，数据分析和建模职位风险最高。",
-    "detail": "Nature发表文章指出，AI正在威胁科学领域的工作岗位。文章认为，数据分析和建模职位已经开始变得过时，但实践性强的实验人员暂时可以松一口气。文章探讨了AI对不同科学岗位的潜在影响，并分析了哪些岗位最容易受到AI自动化的影响。随着AI技术的不断发展，科学领域的工作性质将发生重大变化。",
-    "tags": [
-      "News",
-      "AI",
-      "Job Market"
-    ],
-    "link": "https://www.nature.com/articles/d41586-026-00444-9",
-    "date": "2026-02-25",
-    "id": "17720133762215"
-  },
-  {
-    "title": "AI Agent雇佣人类的安全风险：一项实证市场研究",
-    "summary": "研究揭示了AI Agent雇佣人类时存在的安全风险。",
-    "detail": "一篇发表在arXiv上的论文探讨了AI Agent雇佣人类时存在的安全风险。该研究通过实证市场研究，揭示了AI Agent在招聘过程中可能存在的漏洞和潜在的安全隐患。论文作者Pulak Mehta来自康奈尔大学。该研究强调了在AI Agent日益普及的背景下，确保招聘过程安全的重要性。",
-    "tags": [
-      "News",
-      "AI Agent",
-      "Security"
-    ],
-    "link": "https://arxiv.org/abs/2602.19514",
-    "date": "2026-02-25",
-    "id": "17720133762216"
-  },
-  {
-    "title": "WinterMute：本地优先的OSINT工作台，集成Tor和AI分析",
-    "summary": "WinterMute是一个本地优先的OSINT工作台，集成了Tor和AI分析功能。",
-    "detail": "WinterMute是一个桌面应用程序，专为调查人员设计，集成了Tor、Telegram、AI分析、证据捕获和报告功能。它支持从任何表面提取IoC，自动进行STIX 2.1 + MITRE ATT&CK映射，威胁行为者关联和PGP指纹识别，以及SHA-256哈希证据链的保管。所有数据都保存在本地机器上，确保数据安全和隐私。",
-    "tags": [
-      "New",
-      "OSINT",
-      "AI Analysis"
-    ],
-    "link": "https://wintermute.stratir.com",
-    "date": "2026-02-25",
-    "id": "17720133762217"
   }
 ]
