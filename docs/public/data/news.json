@@ -1,5 +1,107 @@
 [
   {
+    "title": "AI 编码 Agent 为何不保存自身观察结果？开发者社区热议",
+    "summary": "AI 编码 Agent 倾向于完成当前任务，忽略长期知识积累。",
+    "detail": "开发者社区正在讨论一个有趣的问题：为什么 AI 编码 Agent 不愿意保存自己的观察结果以供将来使用？即使明确指示 Agent 使用保存观察结果的工具，其使用频率仍然很低。一种理论认为，这些模型针对当前上下文窗口内的任务完成进行了优化，保存观察结果对于当前任务没有直接价值，反而增加了 token 成本。开发者们正在探索各种解决方案，例如改进 Prompt 结构、微调方法以及替代架构，以提高 Agent 的知识保留能力。目前，被动观察系统似乎是更可靠的方案。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "AI Agent"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47170501",
+    "date": "2026-02-26",
+    "id": "17721327265070"
+  },
+  {
+    "title": "AI 实用指南：为职场人士解读 AI 炒作背后的真相",
+    "summary": "AI 是大规模的模式匹配，而非真正的思考和理解。",
+    "detail": "本文旨在为不熟悉 AI 的职场人士解读 AI 领域的炒作现象。文章指出，现代 AI 本质上是建立在神经网络之上的大规模模式匹配，通过对大量文本、代码和图像进行训练，来预测序列中的下一个元素。它并不具备真正的思考和理解能力，只是擅长模仿。Transformer 架构是 GPT、Claude、Gemini、LLaMA 等模型的基础。文章还批判了当前 AI 领域存在的炒作现象，强调技术是真实的，但需要警惕炒作带来的错误决策。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://chaosguru.substack.com/p/the-ai-field-guide-for-people-with",
+    "date": "2026-02-26",
+    "id": "17721327265071"
+  },
+  {
+    "title": "开源安全报告：AI 蓬勃发展，开源漏洞数量翻倍",
+    "summary": "2026 OSSRA 报告显示，开源漏洞随着 AI 的发展而显著增加。",
+    "detail": "Black Duck 发布的 2026 OSSRA 报告指出，随着 AI 技术的快速发展，开源软件中发现的漏洞数量也随之翻倍。报告强调了在 AI 时代加强软件治理的重要性，并突出了与 AI 相关的安全风险。报告还介绍了 Black Duck 提供的相关产品和服务，例如 Polaris、Signal、Coverity Static 和 Black Duck SCA，旨在帮助企业更好地管理和降低开源软件风险。Signal 是一个为 AI 驱动的软件开发提供的 Agentic 应用安全平台。",
+    "tags": [
+      "News",
+      "Dev",
+      "Security"
+    ],
+    "link": "https://www.blackduck.com/blog/open-source-trends-ossra-report.html",
+    "date": "2026-02-26",
+    "id": "17721327265072"
+  },
+  {
+    "title": "Nemp:health 发布 - AI Agent 内存自诊断工具",
+    "summary": "开发者发布 AI Agent 内存诊断引擎，助力 Agent 性能优化。",
+    "detail": "SukinShetty 发布了 Nemp:health，一个用于 AI Agent 内存的自诊断引擎。该工具旨在帮助开发者更好地理解和优化 AI Agent 的内存使用情况，从而提高 Agent 的性能和可靠性。该版本提供了一系列的诊断功能，可以检测内存泄漏、碎片化等问题，并提供相应的解决方案建议。这对于构建更健壮和高效的 AI Agent 系统至关重要。",
+    "tags": [
+      "Dev",
+      "AI Agent",
+      "New"
+    ],
+    "link": "https://github.com/SukinShetty/Nemp-memory/releases/tag/v0.4.0",
+    "date": "2026-02-26",
+    "id": "17721327265073"
+  },
+  {
+    "title": "苹果 Xcode 26.3 发布，支持 Anthropic 和 OpenAI 的 AI Agent",
+    "summary": "Xcode 26.3 新增对 Anthropic 和 OpenAI 的 AI Agent 的支持。",
+    "detail": "苹果发布了 Xcode 26.3，该版本最显著的特点是增加了对 Anthropic 和 OpenAI 提供的 AI Agent 的支持。这意味着开发者现在可以在 Xcode 中更方便地集成和使用这些 AI Agent，从而加速 iOS 和 macOS 应用的开发过程。此举表明苹果正在积极拥抱 AI 技术，并致力于为开发者提供更强大的工具和平台。",
+    "tags": [
+      "News",
+      "Dev",
+      "AI Agent"
+    ],
+    "link": "https://www.macrumors.com/2026/02/26/apple-releases-xcode-26-3/",
+    "date": "2026-02-26",
+    "id": "17721327265074"
+  },
+  {
+    "title": "开源领域的生成式 AI 政策格局",
+    "summary": "开源社区对 AI 生成内容的政策呈现多样化，质量和版权是主要关注点。",
+    "detail": "RedMonk 分析了 32 个开源组织的生成式 AI 政策，旨在了解开源社区如何应对 AI 生成的贡献。分析发现，各项目对 AI 生成内容的态度各异，有的允许，有的禁止，还有的尚未决定。主要关注点包括代码质量、版权责任和伦理问题。该分析提供了一个交互式可视化图表，展示了不同组织的政策立场、关注点和采用时间线，并提供了指向原始政策文件的链接。",
+    "tags": [
+      "News",
+      "Policy",
+      "LLM"
+    ],
+    "link": "https://redmonk.com/kholterhoff/2026/02/26/generative-ai-policy-landscape-in-open-source/",
+    "date": "2026-02-26",
+    "id": "17721327265075"
+  },
+  {
+    "title": "AI 点餐会让你选择更多高热量食物吗？",
+    "summary": "研究表明，使用 AI 点餐可能导致选择更多不健康食品。",
+    "detail": "宾夕法尼亚州立大学的一项研究表明，与人工点餐相比，使用 AI 点餐系统可能会导致消费者选择更多高热量、不健康的食物。研究人员认为，这可能是因为 AI 系统在推荐食物时，更容易受到算法偏见或营销策略的影响，从而引导消费者做出不健康的饮食选择。这项研究提醒人们在使用 AI 技术时，需要关注其潜在的负面影响，并采取措施来避免不必要的健康风险。",
+    "tags": [
+      "News",
+      "AI Ethics"
+    ],
+    "link": "https://www.psu.edu/news/health-and-human-development/story/fries-ordering-ai-linked-selecting-more-indulgent-foods",
+    "date": "2026-02-26",
+    "id": "17721327265076"
+  },
+  {
+    "title": "自制 AI 灵异板：本地运行的 3B 微调模型",
+    "summary": "开发者构建本地 AI 灵异板，使用微调的 3B 模型进行互动。",
+    "detail": "一位开发者分享了其使用微调的 3B 模型构建的本地 AI 灵异板项目 Planchette。该项目旨在创建一个能够模拟灵异板体验的 AI 应用，用户可以通过 Planchette 与 AI 模型进行互动，并获得一些有趣的回复。该项目展示了小型语言模型在创意应用方面的潜力，并为开发者提供了一个有趣的 AI 实验案例。",
+    "tags": [
+      "New",
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://github.com/SurceBeats/Planchette",
+    "date": "2026-02-26",
+    "id": "17721327265077"
+  },
+  {
     "title": "五角大楼向 Anthropic 提出 AI 军事用途的最终方案",
     "summary": "五角大楼寻求 Anthropic 在 AI 军事应用方面的合作。",
     "detail": "五角大楼官员已向 Anthropic 提交了关于人工智能在军事领域应用的最终方案。具体合作细节尚未披露，但此举表明军方对 Anthropic 的 AI 技术抱有浓厚兴趣，并可能将其应用于军事用途。此举也引发了关于 AI 技术在军事领域应用伦理的讨论。",
@@ -1192,109 +1294,5 @@
     "link": "https://www.theregister.com/2026/02/25/microsoft_boss_on_ai_content/",
     "date": "2026-02-25",
     "id": "17720621743133"
-  },
-  {
-    "title": "Tesseract：AI辅助的3D架构编辑器",
-    "summary": "Tesseract是一款利用AI辅助进行代码架构设计的3D编辑器。",
-    "detail": "Tesseract 是一款 3D 架构编辑器，它通过 MCP (Meta-Control Protocol) 连接到 Claude AI，实现 AI 辅助的架构设计。该工具可以将代码转化为 3D 架构图，也可以将可视化的架构设计转化为代码。用户可以通过与 AI 助手 Claude 交互，实时分析和修改架构设计。Tesseract 旨在提高软件架构设计的效率和可视化程度，适用于需要复杂系统建模的场景。",
-    "tags": [
-      "New",
-      "AI",
-      "架构设计"
-    ],
-    "link": "https://tesseract.infrastellar.dev/",
-    "date": "2026-02-25",
-    "id": "17720621743134"
-  },
-  {
-    "title": "英伟达AI芯片销售强劲，季度利润创新高",
-    "summary": "英伟达受益于AI芯片需求，季度利润达430亿美元。",
-    "detail": "英伟达 CEO 黄仁勋表示，全球对 tokens 的需求呈指数级增长。受益于 AI 芯片的强劲销售，英伟达的季度利润达到了 430 亿美元，再次创下历史新高。这反映了 AI 技术的快速发展和市场对 AI 芯片的巨大需求，英伟达作为 AI 芯片领域的领导者，从中获得了巨大的收益。",
-    "tags": [
-      "News",
-      "AI",
-      "芯片"
-    ],
-    "link": "https://techcrunch.com/2026/02/25/nvidia-earnings-record-capex-spend-ai/",
-    "date": "2026-02-25",
-    "id": "17720621743135"
-  },
-  {
-    "title": "拒绝人机工作流隔离：融合而非分离",
-    "summary": "文章呼吁融合人与AI的工作流，避免人为隔离。",
-    "detail": "文章作者观察到一种趋势，即人们倾向于将 AI 相关的文档、技能和工具与人类使用的工具隔离。作者认为，这种隔离是不必要的，并且应该尽可能地融合人与 AI 的工作流。例如，应该将面向 AI 的文档（如 `AGENTS.md`）与人类使用的文档（如 `README.md`）合并，并且应该让人类和 AI 都可以使用相同的命令行工具和 API。这种融合可以提高效率和可维护性。",
-    "tags": [
-      "Dev",
-      "AI",
-      "工作流"
-    ],
-    "link": "https://keleshev.com/say-no-to-human-ai-workflow-segregation",
-    "date": "2026-02-25",
-    "id": "17720621743136"
-  },
-  {
-    "title": "Firefox 148：AI 控制权回归用户，性能显著提升",
-    "summary": "Firefox 148 允许用户更灵活地控制 AI 功能，并提升了网络性能和响应速度。",
-    "detail": "Firefox 148 版本更新的核心在于增强用户对 AI 功能的控制。用户现在可以通过一个开关轻松禁用生成式 AI，或者选择性地启用特定功能，并且这些偏好设置会在更新后保留。此外，新版本还带来了性能提升，包括网络性能提升 10%，整体响应速度提升 9%，从而改善了页面加载速度和多任务处理的流畅性。此次更新旨在提升用户体验，让用户更好地掌控浏览器的 AI 功能，同时享受更快的浏览速度。",
-    "tags": [
-      "News",
-      "AI",
-      "Browser"
-    ],
-    "link": "https://www.firefox.com/en-US/whatsnew/148/",
-    "date": "2026-02-25",
-    "id": "17720589344470"
-  },
-  {
-    "title": "AI 时代工程师招聘新策略：实战与思辨并重",
-    "summary": "Tolan.com 重新设计了工程师面试流程，鼓励候选人使用 AI 快速构建产品原型，侧重考察解决问题和权衡利弊的能力。",
-    "detail": "Tolan.com 认为传统的算法面试存在缺陷，无法有效评估工程师的实际工作能力。因此，他们设计了一种新的面试流程，鼓励候选人在面试中使用 AI 工具，快速构建产品原型。面试的重点不再是考察算法的记忆和实现，而是考察候选人理解产品需求、发现潜在问题、权衡技术方案以及判断产品是否达到发布标准的能力。这种方法更贴近实际工作场景，能够更全面地评估候选人的综合素质。",
-    "tags": [
-      "News",
-      "AI",
-      "Hiring"
-    ],
-    "link": "https://www.tolans.com/relay/how-we-hire-engineers-when-ai-writes-our-code",
-    "date": "2026-02-25",
-    "id": "17720589344471"
-  },
-  {
-    "title": "AgentGuard：开源中间件助力 LLM 应用合规欧盟 AI 法案",
-    "summary": "AgentGuard 提供开源中间件，只需三行代码即可让 LLM 应用符合欧盟 AI 法案，解决 AI 系统的合规性问题。",
-    "detail": "AgentGuard 是一个开源的欧盟 AI 法案合规中间件，旨在帮助开发者轻松地让基于 LLM 的 AI Agent 在欧洲合法部署。它通过实施一系列安全措施，例如内容过滤、审计追踪和策略引擎，来防止 AI 系统被用于恶意目的，例如生成歧视性内容。开发者只需添加几行代码，即可将 AgentGuard 集成到他们的 AI 应用中，从而确保其符合欧盟 AI 法案的要求。这降低了 AI 应用的合规门槛，促进了 AI 技术的负责任发展。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Compliance"
-    ],
-    "link": "https://github.com/Sagar-Gogineni/agentguard",
-    "date": "2026-02-25",
-    "id": "17720589344472"
-  },
-  {
-    "title": "英伟达 Q4 业绩超预期，AI 基础设施需求持续井喷",
-    "summary": "英伟达 Q4 业绩超出预期，得益于市场对 AI 基础设施的强劲需求，尤其来自超大规模数据中心。",
-    "detail": "英伟达公布了超出预期的 Q4 业绩，这主要归功于全球范围内对 AI 基础设施的巨大需求。特别是，超大规模数据中心运营商对英伟达 GPU 的需求持续增长，推动了其数据中心业务的显著增长。尽管谷歌等公司也在开发自己的 TPU，但英伟达的 GPU 仍然是 AI 领域的主流选择，市场需求依然强劲。这表明英伟达在 AI 硬件市场中保持着领先地位，并有望继续受益于 AI 技术的快速发展。",
-    "tags": [
-      "News",
-      "AI",
-      "Hardware"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47158799",
-    "date": "2026-02-25",
-    "id": "17720589344473"
-  },
-  {
-    "title": "AgentMD：AI Agent 的 CI/CD 解决方案，让 AGENTS.md 可执行",
-    "summary": "AgentMD 是一款 AI Agent 的 CI/CD 工具，能够解析、验证和执行 AGENTS.md 文件，实现 AI Agent 的自动化构建、测试和部署。",
-    "detail": "AgentMD 是一款创新的 CI/CD 工具，专为 AI Agent 设计。它能够解析、验证和执行 AGENTS.md 文件，该文件格式被广泛用于描述 AI 编码工具的配置和命令。AgentMD 不仅读取 AGENTS.md 文件，还能够实际运行其中定义的构建、测试和 lint 命令，并提供沙箱环境和安全防护。通过 AgentMD，开发者可以实现 AI Agent 的自动化构建、测试和部署，提高开发效率和代码质量。",
-    "tags": [
-      "Dev",
-      "AI",
-      "CI/CD"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47158728",
-    "date": "2026-02-25",
-    "id": "17720589344474"
   }
 ]
