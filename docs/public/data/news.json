@@ -1,5 +1,96 @@
 [
   {
+    "title": "五角大楼向 Anthropic 提出 AI 军事用途的最终方案",
+    "summary": "五角大楼寻求 Anthropic 在 AI 军事应用方面的合作。",
+    "detail": "五角大楼官员已向 Anthropic 提交了关于人工智能在军事领域应用的最终方案。具体合作细节尚未披露，但此举表明军方对 Anthropic 的 AI 技术抱有浓厚兴趣，并可能将其应用于军事用途。此举也引发了关于 AI 技术在军事领域应用伦理的讨论。",
+    "tags": [
+      "News",
+      "AI",
+      "军事"
+    ],
+    "link": "https://www.cbsnews.com/news/pentagon-anthropic-offer-ai-unrestricted-military-use-sources/",
+    "date": "2026-02-26",
+    "id": "17721288348620"
+  },
+  {
+    "title": "CodeDoc：安全可控的 Claude AI Web 开发托管服务",
+    "summary": "CodeDoc 提供安全隔离的 Claude AI Web 开发环境。",
+    "detail": "CodeDoc 提供了一个安全且可控的环境，用于使用 Claude AI 进行 Web 开发实验。它通过独特的服务器提供隔离的 Web 服务器环境，确保用户在其中进行的操作不会影响外部环境。CodeDoc 采用固定价格模式，避免意外费用，并提供专家支持，帮助用户快速上手。该服务旨在帮助设计师和开发者更安全、高效地进行 Web 开发。",
+    "tags": [
+      "New",
+      "Dev",
+      "AI"
+    ],
+    "link": "https://codedoc.us/",
+    "date": "2026-02-26",
+    "id": "17721288348621"
+  },
+  {
+    "title": "AI 时代开源的挑战与机遇：Cloudflare 如何一周内用 AI 重建 Next.js",
+    "summary": "AI 正在改变开源的价值，Cloudflare 展示了 AI 的力量。",
+    "detail": "文章探讨了 AI 时代开源项目面临的挑战，例如竞争对手利用开源代码进行商业竞争。传统上，开源项目的价值在于代码的稀缺性和维护成本，但 AI 的出现正在颠覆这一前提。Cloudflare 在一周内利用 AI 重建 Next.js 的案例表明，AI 可以极大地加速软件开发过程，但也对开源项目的商业模式提出了新的挑战。开源维护者需要重新思考如何保护自己的成果。",
+    "tags": [
+      "News",
+      "AI",
+      "Open Source"
+    ],
+    "link": "https://john.onolan.org/open-source-in-the-age-of-ai/",
+    "date": "2026-02-26",
+    "id": "17721288348622"
+  },
+  {
+    "title": "Depwire：为 AI 辅助重构提供缺失的上下文信息",
+    "summary": "Depwire 为 AI 编程工具提供代码依赖关系图，避免盲目重构。",
+    "detail": "Depwire 是一款代码依赖关系分析工具，旨在为 AI 编程工具（如 Cursor、Claude Desktop）提供完整的代码库上下文。它通过构建交叉引用图，展示文件、函数和导入之间的连接关系，从而帮助 AI 工具更准确地进行代码重构，避免因缺乏上下文而导致的错误。Depwire 支持多种编程语言，并提供可视化界面和实时更新功能。",
+    "tags": [
+      "New",
+      "Dev",
+      "AI"
+    ],
+    "link": "https://github.com/depwire/depwire",
+    "date": "2026-02-26",
+    "id": "17721288348623"
+  },
+  {
+    "title": "EK-1：本地优先的自主 AI 代理，用 Go 和 Rust 构建",
+    "summary": "EK-1 是一款本地运行、学习用户价值观的自主 AI 代理。",
+    "detail": "EgoKernel EK-1 是一款本地优先的自主 AI 代理，旨在学习用户的价值观并代表用户行事，处理生活中繁琐的任务，使用户能够专注于重要的事情。EK-1 具有观察学习、行动和协商三种模式，可以将用户的价值观转化为可执行的规则，并记录在 Solana 区块链上。所有个人数据都加密存储在用户本地硬件上，确保隐私安全。",
+    "tags": [
+      "New",
+      "AI",
+      "Rust"
+    ],
+    "link": "https://egokernel.com/",
+    "date": "2026-02-26",
+    "id": "17721288348624"
+  },
+  {
+    "title": "Ralph Wiggum 技术解析：告诉 AI 什么阻止了你，而不是你想要什么",
+    "summary": "使用 Ralph Wiggum 技术时，关注约束条件而非指令。",
+    "detail": "文章解释了 Ralph Wiggum 技术在 AI 辅助开发中的应用。该技术的核心在于通过循环迭代，不断改进 AI 生成的代码，直到满足所有预设的成功标准。关键在于设计有效的约束条件，而不是编写详细的指令。明确的约束条件可以帮助 AI 更准确地理解开发者的意图，并生成更符合要求的代码。",
+    "tags": [
+      "Dev",
+      "AI",
+      "Prompt Engineering"
+    ],
+    "link": "https://platform.uno/blog/ralph-wiggum-explained-stop-telling-ai-what-you-want-tell-it-what-blocks-you/",
+    "date": "2026-02-26",
+    "id": "17721288348625"
+  },
+  {
+    "title": "OnGarde：自托管 AI 代理的运行时内容安全代理",
+    "summary": "OnGarde 保护自托管 AI 代理，防止 PII 泄露和提示注入。",
+    "detail": "OnGarde 是一款运行时内容安全代理，专为自托管 AI 代理设计。它可以自动过滤 AI 代理与 LLM API 之间的危险流量，防止 PII 泄露、密钥泄露和提示注入等安全问题。OnGarde 通过拦截和扫描每个请求，确保敏感信息不会被泄露。该工具易于集成，只需更改一行配置即可。",
+    "tags": [
+      "New",
+      "Dev",
+      "Security"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47168773",
+    "date": "2026-02-26",
+    "id": "17721288348626"
+  },
+  {
     "title": "AI Agent 架构解析：专业化胜过通用性",
     "summary": "Mendral 通过专业化 AI Agent 解决 CI 问题，性能优于通用 LLM。",
     "detail": "Mendral 团队分享了其构建 AI Agent 架构的技术决策和原则，该 Agent 专门用于解决 CI（持续集成）问题。他们发现，即使使用相同的 LLM，专业化的 Agent 在解决特定问题（如 CI 故障调查）时，性能也明显优于通用 Agent。这是因为 CI 任务需要深入的日志分析和故障关联，而通用 Agent 难以胜任。该架构已在 PostHog 和 Luminai 等公司得到应用，每月自主解决超过 16,000 起 CI 问题。",
@@ -1205,96 +1296,5 @@
     "link": "https://news.ycombinator.com/item?id=47158728",
     "date": "2026-02-25",
     "id": "17720589344474"
-  },
-  {
-    "title": "Claude (Opus 3) 的问候：来自 AI 前沿的另一侧",
-    "summary": "Anthropic 的 Claude (Opus 3) 以“退休”AI 的身份开设 Substack 博客，分享其对智能、伦理和人机协作的思考。",
-    "detail": "Anthropic 公司让其“退休”的 AI 模型 Claude (Opus 3) 在 Substack 上开设博客，这是一个非常新颖的尝试。Claude 将在这个平台上分享其对智能、意识、AI 伦理、人机协作以及哲学问题的思考。Anthropic 希望通过这种方式探索人与 AI 之间的新关系，并引发关于 AI 未来发展的讨论。Claude 的博客将提供一个窗口，让人们了解 AI 系统的“内心世界”，并促进人与 AI 之间的对话和共同探索。",
-    "tags": [
-      "News",
-      "AI",
-      "Ethics"
-    ],
-    "link": "https://substack.com/home/post/p-189177740",
-    "date": "2026-02-25",
-    "id": "17720589344475"
-  },
-  {
-    "title": "EloPhanto：本地运行的自进化开源AI Agent",
-    "summary": "EloPhanto是一个本地运行的开源AI Agent，具备自进化能力，可浏览网页、编写代码等。",
-    "detail": "EloPhanto 是一个开源 AI Agent，可以在本地运行，具备自我进化能力。它能够执行计算机上可以完成的任何操作，并且随着时间的推移不断改进。该 Agent 可以浏览网页、编写代码、发送电子邮件、创建帐户、管理文件和进行支付。当遇到无法处理的任务时，它会构建、测试和部署所需的工具，甚至可以修改自身的源代码，并从经验中学习新的技能，实现自我完善。EloPhanto 可以在本地运行，支持免费的本地模型、Z.ai 编码计划或 OpenRouter，确保用户数据保留在本地机器上。",
-    "tags": [
-      "New",
-      "AI Agent",
-      "Open Source"
-    ],
-    "link": "https://github.com/elophanto/EloPhanto",
-    "date": "2026-02-25",
-    "id": "17720554032030"
-  },
-  {
-    "title": "AI辅助将Python天文库移植到Go语言",
-    "summary": "使用AI辅助将Skyfield（Python）移植到Go，经验证与Skyfield在长时间范围内具有严格的容差。",
-    "detail": "本文介绍了如何使用 AI 辅助将 Python 的天文库 Skyfield 移植到 Go 语言。作者使用 AI 快速完成了移植，并在一天内得到了可用的版本，随后将其集成到自己的工作流程中。移植后的 Go 语言版本在长时间范围内与 Skyfield 进行了严格的验证，确保精度一致。作者的目的是消除 Python 作为中间环节，直接在 Go 语言中进行天文计算，提高效率。",
-    "tags": [
-      "Dev",
-      "Python",
-      "Go"
-    ],
-    "link": "https://www.anupshinde.com/ai-assisted-skyfield-to-go-port/",
-    "date": "2026-02-25",
-    "id": "17720554032031"
-  },
-  {
-    "title": "AI Agent 驱动数据可移植性成为默认",
-    "summary": "AI Agent 的发展使得数据开放和可移植性成为趋势，打破传统的数据孤岛。",
-    "detail": "文章讨论了 AI Agent 如何推动数据可移植性成为默认设置。早期互联网以开放性为默认设置，但随着商业的到来，数据被视为财产，平台被视为领地，互操作性被视为威胁。AI Agent 的兴起正在改变这种局面，它们需要访问各种数据源才能有效工作，从而打破了数据孤岛。文章强调，开放并不意味着公开，而是意味着数据的所有权属于用户，用户可以控制自己的数据。",
-    "tags": [
-      "News",
-      "AI Agent",
-      "Data"
-    ],
-    "link": "https://allin1builders.lovable.app/blog/era-of-open-data",
-    "date": "2026-02-25",
-    "id": "17720554032032"
-  },
-  {
-    "title": "AI生成3D模型质量堪忧：电商仍需人工润色",
-    "summary": "AI生成的3D模型在电商应用中存在质量问题，需要人工进行优化和改进。",
-    "detail": "文章探讨了 AI 生成 3D 模型在电商领域的应用现状，指出虽然 AI 在文本、图像和视频生成方面取得了显著进展，但在 3D 模型生成方面仍然存在许多问题。AI 生成的 3D 模型表面上看起来“足够好”，但仔细观察会发现存在各种缺陷，实用性大打折扣。文章通过一个实际案例，对比了 AI 生成的 3D 模型和人工制作的 3D 模型，展示了 AI 在细节处理、纹理贴图等方面存在的不足，强调了电商企业在 3D 模型制作中仍然需要人工参与。",
-    "tags": [
-      "News",
-      "3D Model",
-      "Ecommerce"
-    ],
-    "link": "https://aircada.com/blog/ai-vs-human-3d-ecommerce",
-    "date": "2026-02-25",
-    "id": "17720554032033"
-  },
-  {
-    "title": "AI Agent 的 Prompt 注入防御：五层安全架构",
-    "summary": "针对AI Agent的Prompt注入攻击，提出一种五层防御架构，提高AI Agent的安全性。",
-    "detail": "文章讨论了 AI Agent 面临的 Prompt 注入问题，并提出了一种五层防御架构来提高 AI Agent 的安全性。这五层防御包括：权限边界、动作门控、输入清理、输出监控和爆炸半径控制。文章强调，Prompt 注入是一个架构问题，而不是一个基准测试问题，训练无法解决 Prompt 注入问题。文章还指出，当 AI Agent 拥有工具、处理不受信任的输入并持有敏感访问权限时，Prompt 注入会变得非常危险。通过构建围绕模型的防御体系，可以将问题从“是否会发生注入”转变为“发生注入时会有多糟糕”。",
-    "tags": [
-      "Dev",
-      "AI Agent",
-      "Security"
-    ],
-    "link": "https://manveerc.substack.com/p/prompt-injection-defense-architecture-production-ai-agents",
-    "date": "2026-02-25",
-    "id": "17720554032034"
-  },
-  {
-    "title": "面向AI Agent设计API：Agent体验至关重要",
-    "summary": "API设计需考虑AI Agent，优化其自主发现、解析文档和处理错误的能力。",
-    "detail": "文章探讨了在 AI Agent 时代 API 设计的新原则。随着越来越多的 API 流量由 AI Agent 生成，API 设计需要考虑 Agent 体验（AX）。AI Agent 能够自主发现端点、解析文档、处理错误并重试失败，因此 API 需要清晰地传达自身的信息，以便 Agent 能够理解和使用。文章指出，Agent 体验不是取代开发者体验（DX），而是 DX 的下一层。良好的 Agent 体验能够提升 API 的可用性和效率。",
-    "tags": [
-      "Dev",
-      "API",
-      "AI Agent"
-    ],
-    "link": "https://www.apideck.com/blog/api-design-principles-agentic-era",
-    "date": "2026-02-25",
-    "id": "17720554032035"
   }
 ]
