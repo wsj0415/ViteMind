@@ -1,5 +1,43 @@
 [
   {
+    "title": "Anthropic研究：AI辅助编程，使用方式比是否使用更重要",
+    "summary": "Anthropic研究表明，AI辅助编程效果取决于使用方式，而非简单依赖AI。",
+    "detail": "Anthropic发布研究，对52名开发者学习Python库进行对照试验。结果显示，使用AI辅助的组在理解测验中得分低17%。关键在于，善用AI者会追问、求解释，将其作为讨论伙伴而非代码生成器。反之，直接复制AI输出者表现较差。这类似于GPS导航，过度依赖可能损害空间记忆。研究强调，掌握AI的使用方法，而非盲目依赖，才能发挥其真正价值，提升个人技能。",
+    "tags": [
+      "News",
+      "LLM",
+      "Python"
+    ],
+    "link": "https://luther.io/articles/personal-growth-in-the-age-of-ai/",
+    "date": "2026-02-27",
+    "id": "17721753859900"
+  },
+  {
+    "title": "AI时代的代码编辑器：速度至上还是另有玄机？",
+    "summary": "一款Rust编写、GPU加速的代码编辑器，引发开发者对速度意义的思考。",
+    "detail": "文章探讨了一款用Rust编写，利用GPU加速渲染，并能跨多核CPU分发任务的代码编辑器。该编辑器的核心卖点是速度，旨在提供快速的文件打开、流畅的滚动和低延迟的按键响应。然而，作者提出质疑：在现代计算机上，VS Code等成熟编辑器已经足够快，速度提升的意义何在？文章暗示，这款编辑器可能更多的是技术展示，而非解决实际痛点。在AI辅助编程日益普及的背景下，开发者对新工具的需求也在发生变化。",
+    "tags": [
+      "Dev",
+      "AI"
+    ],
+    "link": "https://tildehacker.com/hyping-an-editor-in-the-age-of-ai",
+    "date": "2026-02-27",
+    "id": "17721753859901"
+  },
+  {
+    "title": "AI实验失败：24/7全天候AI编码不可行",
+    "summary": "开发者实验表明，让AI全天候编码会导致代码复杂度爆炸，效果不佳且成本高昂。",
+    "detail": "开发者Taelin在X上分享了他的实验结果：让AI全天候工作以进行编码是不可行的。他发现，代码的复杂性急剧增加，结果并不理想，AI无法克服难题，并且成本高昂（两天花费约1000美元）。虽然AI在熟悉的JS编译器上表现稍好，但仍然不值得失去对代码库的控制。他认为，AI擅长构建已有的东西，但无法进行真正的创新，仍然受限于其训练数据，缺乏跳出框框思考的能力。",
+    "tags": [
+      "News",
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://twitter.com/victortaelin/status/2027214947193679932",
+    "date": "2026-02-27",
+    "id": "17721753859902"
+  },
+  {
     "title": "AI 代码审查新纪元：工程师转型，拥抱 AI 生成代码",
     "summary": "工程师停止编写代码，专注于审查 AI 生成的 PR，重燃对计算机科学的热爱。",
     "detail": "一位资深 JavaScript 工程师分享了他如何将编写代码的工作交给 AI 代理（`claude-opus-4-6`），而自己专注于代码审查的经历。他认为代码审查是保证代码质量的关键，即使作者变成了 AI，这一环节仍然至关重要。AI 能够快速生成代码，但代码审查能够发现潜在问题，并进行优化。这种转变不仅提高了工作效率，也让工程师重新发现了计算机科学的乐趣。文章还提到，代码审查过程中，人际互动和沟通技巧仍然不可或缺，即使面对 AI 生成的代码，也需要进行充分的讨论和交流。",
@@ -1256,44 +1294,5 @@
     "link": "https://github.com/boraoztunc/agent-system",
     "date": "2026-02-26",
     "id": "17721060620235"
-  },
-  {
-    "title": "Sidekick Agent Hub：实时监控AI编码Agent",
-    "summary": "Sidekick Agent Hub是一个VS Code扩展，用于实时监控AI编码Agent。",
-    "detail": "Sidekick Agent Hub 是一个 VS Code 扩展和终端仪表板，用于实时监控 AI 编码 Agent 的活动。它可以帮助开发者了解 AI Agent 的工作方式，并及时发现和解决问题。通过 Sidekick，开发者可以更好地控制和利用 AI Agent，提高编码效率和质量。",
-    "tags": [
-      "Dev",
-      "AI",
-      "VS Code"
-    ],
-    "link": "https://cesarandreslopez.github.io/sidekick-agent-hub/",
-    "date": "2026-02-26",
-    "id": "17721060620236"
-  },
-  {
-    "title": "BAGUNO：AI驱动的发票自动化，60秒内将PDF转换为账目",
-    "summary": "BAGUNO利用AI技术，实现发票自动处理，快速同步到财务系统。",
-    "detail": "BAGUNO 是一款 AI 驱动的发票自动化工具，可以将通过电子邮件发送的 PDF 发票在 60 秒内转换为分类账条目。它集成了 Zoho Books、QuickBooks、Tally Prime、Xero、Vyapar、Wafeq 和 SAP 等全球财务系统，旨在减少手动数据录入，提高财务处理效率。BAGUNO 还提供供应商聊天和财务代理等功能，以进一步简化财务流程。",
-    "tags": [
-      "New",
-      "AI",
-      "财务"
-    ],
-    "link": "https://baguno.app/",
-    "date": "2026-02-26",
-    "id": "17721060620237"
-  },
-  {
-    "title": "SpecLock：AI 编码工具的约束执行引擎，保障代码质量",
-    "summary": "SpecLock 是一个开源 AI 约束引擎，确保 AI 编码工具尊重边界，防止代码出错。",
-    "detail": "SpecLock 是一个由 Sandeep Roy 开发的 AI 约束引擎，旨在解决 AI 编码工具在生成代码时可能违反预设约束的问题。它通过记忆和执行约束，确保 AI 生成的代码符合规范，避免破坏已有的代码结构。SpecLock 支持 Bolt.new, Lovable, Claude Code, Cursor 等多种 AI 编码工具，并提供 npm 包和 Smithery 集成。该工具采用 MIT 许可证，方便开发者使用和修改。SpecLock 的核心价值在于提高 AI 编码工具的可靠性和安全性，减少人工干预，提升开发效率。",
-    "tags": [
-      "Dev",
-      "AI",
-      "Coding"
-    ],
-    "link": "https://github.com/sgroy10/speclock",
-    "date": "2026-02-26",
-    "id": "17721029288900"
   }
 ]
