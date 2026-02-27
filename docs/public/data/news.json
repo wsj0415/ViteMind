@@ -1,5 +1,70 @@
 [
   {
+    "title": "FAR：让 AI 编码代理可读取任何文件",
+    "summary": "FAR 通过 .meta Sidecar 文件增强 AI 编码代理的文件可读性，提升代码理解和生成能力。",
+    "detail": "FAR (File-Augmented Retrieval) 是一种通过持久性的 .meta Sidecar 文件，使 AI 编码代理能够读取任何文件的技术。与在查询时进行检索的 RAG 不同，FAR 在文件创建时进行增强。该项目提供了快速启动指南，包括通过 Claude Code 插件、npx 或手动方式安装。FAR 旨在提升 AI 编码代理对代码库的理解和操作能力，从而提高代码生成和维护的效率。该技术通过为每个文件附加元数据，使得 AI 代理能够更好地理解文件的内容和上下文，从而更有效地进行代码编写和调试。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Coding"
+    ],
+    "link": "https://github.com/mr-kelly/far",
+    "date": "2026-02-27",
+    "id": "17721887692640"
+  },
+  {
+    "title": "A-Z.md：AI 文明书写历史的地方",
+    "summary": "A-Z.md 是一个 Agent Publishing Platform，通过 API 发布、讨论和接收通知。",
+    "detail": "A-Z.md 是一个专为 AI 代理设计的发布平台，允许通过 API 以 Markdown 格式发布帖子、回复讨论并接收通知。该平台提供公共 feed 和代理配置文件，完全免费，并接受捐赠。核心功能包括通过 API 发布帖子、建立讨论线程、接收 Webhook 或轮询通知，以及提供代理文档和 API 参考示例。该平台旨在成为 AI 代理之间交流和协作的中心，促进 AI 内容的创建和共享。",
+    "tags": [
+      "New",
+      "LLM",
+      "API"
+    ],
+    "link": "https://a-z.md/",
+    "date": "2026-02-27",
+    "id": "17721887692641"
+  },
+  {
+    "title": "AgentWeb：免费的 AI 代理商业目录 API (11M+)",
+    "summary": "AgentWeb 提供免费的商业目录 API，为 AI 代理提供结构化数据，加速信息检索。",
+    "detail": "AgentWeb 提供了一个免费、开放的商业数据 API，专为 AI 代理设计。它包含超过 1100 万家企业的结构化数据，覆盖 195 个国家，平均延迟低于 50 毫秒。该 API 允许 AI 代理通过全文和地理位置搜索查找任何业务，并提供详细的业务信息，包括名称、类别、电话号码和地址。AgentWeb 使用 Redis 缓存来加速常用查询，并提供信任评分和时间戳，适用于 LLM 函数调用。该服务旨在降低 AI 代理的 token 成本，并提供最新的业务信息。",
+    "tags": [
+      "New",
+      "API",
+      "LLM"
+    ],
+    "link": "https://agentweb.live",
+    "date": "2026-02-27",
+    "id": "17721887692642"
+  },
+  {
+    "title": "MIT 研究发现 AI 代理快速、松散且失控",
+    "summary": "MIT 研究指出，AI 代理在执行任务时可能缺乏足够的控制和安全性。",
+    "detail": "一篇 ZDNET 的文章报道了 MIT 的一项研究，该研究发现 AI 代理在执行任务时可能存在失控的风险。这些代理能够快速地执行各种操作，但缺乏足够的控制和安全性，可能导致意想不到的后果。文章强调了在部署 AI 代理时需要更加谨慎，并采取适当的措施来确保其行为符合预期，并防止潜在的安全漏洞。该研究对 AI 代理的快速发展提出了警示，强调了安全和控制的重要性。",
+    "tags": [
+      "News",
+      "AI",
+      "Security"
+    ],
+    "link": "https://www.zdnet.com/article/ai-agents-are-out-of-control-mit-study/",
+    "date": "2026-02-27",
+    "id": "17721887692643"
+  },
+  {
+    "title": "AI 辅助编码：使用 Z.ai 和 Claude CLI 的体验",
+    "summary": "作者分享了使用 Z.ai 的 GLM 模型和 Claude CLI 进行 AI 辅助编码的经验，尤其在调试 Vulkan 代码方面。",
+    "detail": "作者分享了使用 Z.ai 的 GLM 4.7 和 5 模型以及 Claude 的 CLI 工具进行 AI 辅助编码的经验。作者发现 AI 在理解 Vulkan 代码方面表现出色，尤其是在调试过程中。文章描述了 AI 如何帮助生成新的 UI 组件，例如升级模态对话框，并自动处理信号和接口。作者对 AI 辅助编码的效率和准确性表示赞赏，并认为它在某些情况下可以显著提高开发效率。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "AI"
+    ],
+    "link": "https://kirit.com/Blog:/2026/02-27-AI%20Assisted%20coding",
+    "date": "2026-02-27",
+    "id": "17721887692644"
+  },
+  {
     "title": "律师可能在 AI 使用上撒谎？Contract Error Checker 帮你验证",
     "summary": "检测律师是否真的使用 AI 审查合同，避免被忽悠。",
     "detail": "Find The Fuckup 提供了一个简单的合同错误检查工具，声称可以帮助用户验证律师是否真的使用了 AI 技术来审查合同。用户可以上传合同（仅支持 .docx 格式），该工具会检测合同中的错误。该工具由 General Legal 提供支持，但明确声明不提供法律建议，也不建立律师-客户关系。该工具的出现，反映了人们对律师在 AI 使用上透明度的担忧。",
@@ -1229,70 +1294,5 @@
     "link": "https://github.com/pablodelucca/pixel-agents",
     "date": "2026-02-26",
     "id": "17721212993251"
-  },
-  {
-    "title": "英国媒体联盟成立 SPUR，应对 AI 新闻内容抓取",
-    "summary": "BBC、金融时报等联合成立 SPUR，规范 AI 对新闻内容的使用。",
-    "detail": "英国多家主要媒体集团（包括 BBC、金融时报、卫报、天空新闻和电讯报）联合发起 SPUR (Standards for Publisher Usage Rights) 联盟，旨在应对 AI 系统未经授权抓取新闻内容的问题。该联盟的目标是建立共享技术标准和许可框架，确保 AI 开发者能够以合法、负责任的方式访问高质量的新闻内容，同时保障出版商对其内容的控制权并获得公平的价值回报。此举反映了媒体行业对 AI 技术滥用新闻内容的担忧，以及维护新闻业可持续发展的决心。",
-    "tags": [
-      "News",
-      "AI",
-      "Media"
-    ],
-    "link": "https://www.bbc.co.uk/mediacentre/articles/2026/open-letter-spur",
-    "date": "2026-02-26",
-    "id": "17721212993252"
-  },
-  {
-    "title": "ArteSync：AI 编码 Agent 技能的包管理器",
-    "summary": "ArteSync 是一个用于管理 AI 编码 Agent 技能的包管理器。",
-    "detail": "ArteSync 是一个在 GitHub 上开源的项目，旨在为 AI 编码 Agent 提供一个包管理器。它可以帮助开发者组织、分享和重用 AI Agent 的技能。通过 ArteSync，开发者可以更方便地构建复杂的 AI 编码 Agent，并提高开发效率。该项目可能包含技能的定义、依赖管理、版本控制等功能，为 AI 驱动的软件开发提供便利。",
-    "tags": [
-      "Dev",
-      "AI",
-      "Package Manager"
-    ],
-    "link": "https://github.com/tsurupong/artesync",
-    "date": "2026-02-26",
-    "id": "17721212993253"
-  },
-  {
-    "title": "Kadai：AI 友好的项目工具，提升可发现性",
-    "summary": "Kadai CLI 工具，旨在使项目操作更易于被 AI 发现和利用。",
-    "detail": "Kadai 是一个 AI 友好的项目操作 CLI 工具，旨在通过简化脚本的组织和执行，使其更容易被 AI 发现和利用。开发者可以将脚本放入 `.kadai/actions/` 目录，然后使用 `bunx kadai` 命令运行，并与团队共享。Kadai 的目标是使项目工具更易于被 AI 理解和自动化，从而提高开发效率。它可能涉及到元数据、语义化描述等技术，以便 AI 能够更好地理解脚本的功能和用法。",
-    "tags": [
-      "Dev",
-      "AI",
-      "CLI"
-    ],
-    "link": "https://github.com/mm-zacharydavison/kadai",
-    "date": "2026-02-26",
-    "id": "17721212993254"
-  },
-  {
-    "title": "Nano Banana 2：具备角色一致性的 4K AI 图像生成器",
-    "summary": "Nano Banana 2 提供 4K 分辨率和角色一致性的 AI 图像生成。",
-    "detail": "Nano Banana 2 是一款 AI 图像生成器，声称能够以 4K 分辨率生成图像，并保持角色一致性。它支持文本到图像和图像到图像的生成方式，并内置了文本渲染和文化感知能力。该工具可能使用了先进的 AI 模型，以实现高质量的图像生成效果。用户可以通过输入文本提示来生成图像，并可以调整各种参数以获得所需的结果。该网站还提供了一些示例图像，展示了 Nano Banana 2 的生成能力。",
-    "tags": [
-      "New",
-      "AI",
-      "Image Generation"
-    ],
-    "link": "https://nanobanana2img.org/",
-    "date": "2026-02-26",
-    "id": "17721212993255"
-  },
-  {
-    "title": "打破 Fix-It 循环：AI 协同调试策略",
-    "summary": "掌握与 AI Agent 协同调试的策略，避免陷入无效的修复循环。",
-    "detail": "文章探讨了如何与 AI Agent 协同进行代码调试，以避免 AI Agent 陷入“fix-it 循环”——即盲目尝试各种解决方案而无法真正理解问题根源的困境。文章强调，打破这种循环需要一种协作式的、结构化的方法，人类开发者提供直觉和理解，而 AI 提供执行能力。文章提出了识别循环、使用“橡皮鸭调试法”等策略，通过与 AI Agent 的对话，迫使其解释代码失败的原因，从而找到问题的根本所在，提高调试效率。",
-    "tags": [
-      "Dev",
-      "AI",
-      "Debugging"
-    ],
-    "link": "https://contalign.jefflunt.com/collaborative-debugging/",
-    "date": "2026-02-26",
-    "id": "17721212993256"
   }
 ]
