@@ -1,5 +1,57 @@
 [
   {
+    "title": "Vydcut：YouTube 视频秒变 2 分钟精读",
+    "summary": "Vydcut 使用 AI 将 YouTube 视频浓缩为 2 分钟阅读摘要，提升效率。",
+    "detail": "Vydcut 是一款 AI 工具，可以将冗长的 YouTube 视频转换为结构化的 2 分钟阅读摘要，包含关键要点和行动项。用户无需再花费大量时间浏览视频，就能快速获取所需信息。该工具还提供 Chrome 扩展，方便用户使用。例如，一个 34 分钟的 Alex Hormozi 视频被总结为几个关键要点，包括验证先于编码的重要性，以及专注于单一增长渠道等。Vydcut 旨在解决用户在 YouTube 上查找信息耗时的问题，提高知识获取效率。",
+    "tags": [
+      "New",
+      "LLM",
+      "Productivity"
+    ],
+    "link": "https://vydcut.com/",
+    "date": "2026-02-27",
+    "id": "17722311112020"
+  },
+  {
+    "title": "AgentGuard：LLM 代码质量保障引擎",
+    "summary": "AgentGuard 是一个用于 LLM 生成代码的质量保证引擎，保障代码质量。",
+    "detail": "AgentGuard 是一个用于 LLM 生成代码的质量保证引擎，它位于 AI 编码代理和 LLM 之间，用于提高代码质量。该项目提供了一系列的工具和库，用于测试和验证 LLM 生成的代码，确保其符合预期的功能和性能。AgentGuard 支持多种编程语言，并提供了灵活的配置选项，可以根据不同的项目需求进行定制。通过使用 AgentGuard，开发者可以更有效地利用 LLM 进行代码生成，同时避免潜在的错误和安全问题。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Python"
+    ],
+    "link": "https://github.com/rlabs-cl/agentguard-lib",
+    "date": "2026-02-27",
+    "id": "17722311112021"
+  },
+  {
+    "title": "SlimClaw：5 分钟搭建个人 AI 助手",
+    "summary": "SlimClaw 让你在 WhatsApp 上拥有 Claude 助手，轻量且易于设置。",
+    "detail": "SlimClaw 是一个可以通过 WhatsApp 访问的个人 Claude 助手。它允许用户通过手机发送消息，并使用在隔离的 Docker 容器中运行的 Claude API 进行响应。每个群组都有自己的文件系统、内存和对话历史记录。SlimClaw 的目标是提供 NanoClaw 的容器隔离和 per-group 内存，同时保持 nanobot 的简单设置。通过 `pip install slimclaw` 和 `slimclaw-setup` 命令，用户可以通过交互式向导轻松完成设置。",
+    "tags": [
+      "New",
+      "LLM",
+      "Python"
+    ],
+    "link": "https://ganeshan007.github.io/website/blog/slimclaw.html",
+    "date": "2026-02-27",
+    "id": "17722311112022"
+  },
+  {
+    "title": "特朗普政府禁止使用 Anthropic 的 AI 系统",
+    "summary": "特朗普政府下令联邦机构停止使用 Anthropic 的 AI 系统，原因与五角大楼的争议有关。",
+    "detail": "特朗普政府发布命令，禁止联邦机构使用 Anthropic 的 AI 系统。这一决定是在与五角大楼发生争议后做出的。特朗普总统在社交媒体上表示：“我们不需要它，我们不想要它，并且不会再与他们做生意。” 此举可能会对 Anthropic 产生重大影响，因为政府是其重要的客户之一。目前尚不清楚争议的具体细节，但这一禁令反映了政府对 AI 技术使用的日益关注。",
+    "tags": [
+      "News",
+      "LLM",
+      "Government"
+    ],
+    "link": "https://www.nbcnews.com/tech/tech-news/trump-bans-anthropic-government-use-rcna261055",
+    "date": "2026-02-27",
+    "id": "17722311112023"
+  },
+  {
     "title": "特朗普政府拟禁止联邦机构使用 Anthropic AI 技术",
     "summary": "特朗普政府计划因安全问题禁止联邦机构使用 Anthropic 的 Claude 模型。",
     "detail": "特朗普政府计划将 Anthropic 列入黑名单，原因是该公司与五角大楼在 AI 使用方面存在分歧。Anthropic 拒绝解除对其 Claude 模型在军事用途上的所有安全保障，原因是担心该技术被用于大规模国内监控和开发无人干预的武器。五角大楼计划终止与 Anthropic 价值高达 2 亿美元的合同，并要求合作公司证明其工作流程中未使用 Claude。此举非同寻常，因为 Claude 是目前军方机密系统中使用的唯一 AI 模型。",
@@ -1244,57 +1296,5 @@
     "link": "https://zapier.com/playbooks/ai-transformation-framework",
     "date": "2026-02-27",
     "id": "17721716191391"
-  },
-  {
-    "title": "GitGuardian MCP：提升 AI Agent 代码安全性的左移策略",
-    "summary": "GitGuardian MCP 帮助确保 AI Agent 生成的代码从设计之初就安全。",
-    "detail": "随着 AI 驱动的编码 Agent 兴起，软件开发效率得到显著提升。然而，如何确保这些 Agent 生成的代码安全成为一个关键挑战。GitGuardian MCP 提出了一种“左移”安全策略，即在代码生成早期就进行安全检查。传统的 DevSecOps 方法依赖于 PR 检查和代码审查，但 AI 的快速迭代使得这些环节成为瓶颈。GitGuardian MCP 旨在解决 AI Agent 在隔离环境中运行，无法使用 IDE 插件进行安全检查的问题，从而在开发周期的早期发现并修复潜在的安全漏洞。",
-    "tags": [
-      "News",
-      "Dev",
-      "Security"
-    ],
-    "link": "https://blog.gitguardian.com/shifting-security-left-for-ai-agents-enforcing-ai-generated-code-security-with-gitguardian-mcp/",
-    "date": "2026-02-27",
-    "id": "17721716191392"
-  },
-  {
-    "title": "AI 图像检测的局限性：基准测试显示易受攻击",
-    "summary": "Succinct Labs 测试表明，主流 AI 图像检测器易被简单的后期处理手段破解。",
-    "detail": "Succinct Labs 对 7 种主流 AI 图像检测器进行了基准测试，使用了包含 15630 张图像的 AdversIm 数据集。结果显示，即使是简单的图像后期处理（如模糊、噪声和压缩）也能有效欺骗这些检测器。AdversIm 数据集涵盖了欺诈相关的类别，包括篡改的收据、伪造的交付证明和虚假的损坏产品索赔。这项研究表明，当前 AI 图像检测系统在面对有动机的攻击者时存在显著的局限性，平台、保险公司和信任安全团队需要谨慎部署这些工具。",
-    "tags": [
-      "News",
-      "Security",
-      "AI Image"
-    ],
-    "link": "https://blog.succinct.xyz/ai-image-detection-benchmark/",
-    "date": "2026-02-27",
-    "id": "17721716191393"
-  },
-  {
-    "title": "HeadshotAI：30 秒生成专业 AI 头像，仅需 4.99 英镑",
-    "summary": "HeadshotAI 提供快速且经济实惠的 AI 头像生成服务，无需预约或工作室。",
-    "detail": "HeadshotAI 是一款 AI 头像生成工具，用户只需上传一张照片，支付 4.99 英镑，即可在 30 秒内获得一张工作室质量的专业头像。该服务无需预约、工作室或等待，并提供安全支付和退款保证。HeadshotAI 的应用场景包括 LinkedIn 个人资料和高管简介等。该工具使用 FLUX AI 技术，能够将普通的自拍照转换为高质量的专业头像，为用户节省时间和金钱。",
-    "tags": [
-      "New",
-      "AI Image",
-      "Productivity"
-    ],
-    "link": "https://headshotai-mvp-jb.netlify.app/",
-    "date": "2026-02-27",
-    "id": "17721716191394"
-  },
-  {
-    "title": "CleverMock：AI 语音面试练习，助你掌握技术面试",
-    "summary": "CleverMock 提供逼真的 AI 语音面试练习，模拟真实面试场景。",
-    "detail": "CleverMock 是一款 AI 驱动的语音面试练习工具，旨在帮助用户掌握技术面试技巧。该工具提供角色特定的场景，模拟真实的面试环境，包括实时语音互动和智能反馈。用户可以上传简历，CleverMock 会根据简历内容定制面试问题。面试过程中，AI 会像真人面试官一样进行提问和打断，并提供个性化的反馈，指出用户的优点和需要改进的地方。CleverMock 旨在为用户提供全面的面试准备工具，帮助他们成功获得理想的工作。",
-    "tags": [
-      "New",
-      "AI",
-      "Interview"
-    ],
-    "link": "https://www.clevermock.com/",
-    "date": "2026-02-27",
-    "id": "17721716191395"
   }
 ]
