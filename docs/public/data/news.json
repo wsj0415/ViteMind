@@ -1,5 +1,57 @@
 [
   {
+    "title": "特朗普政府拟禁止联邦机构使用 Anthropic AI 技术",
+    "summary": "特朗普政府计划因安全问题禁止联邦机构使用 Anthropic 的 Claude 模型。",
+    "detail": "特朗普政府计划将 Anthropic 列入黑名单，原因是该公司与五角大楼在 AI 使用方面存在分歧。Anthropic 拒绝解除对其 Claude 模型在军事用途上的所有安全保障，原因是担心该技术被用于大规模国内监控和开发无人干预的武器。五角大楼计划终止与 Anthropic 价值高达 2 亿美元的合同，并要求合作公司证明其工作流程中未使用 Claude。此举非同寻常，因为 Claude 是目前军方机密系统中使用的唯一 AI 模型。",
+    "tags": [
+      "News",
+      "AI安全",
+      "政策"
+    ],
+    "link": "https://www.axios.com/2026/02/27/anthropic-pentagon-supply-chain-risk-claude",
+    "date": "2026-02-27",
+    "id": "17722278429480"
+  },
+  {
+    "title": "Gace AI：零配置平台，免费构建和托管 AI 插件",
+    "summary": "Gace AI 提供了一个零配置平台，让开发者可以轻松构建和托管 AI 插件。",
+    "detail": "Gace AI 提供了一个平台，允许开发者通过编写简单的函数来创建 AI 插件，无需复杂的配置或 API 密钥。开发者可以使用 TypeScript，通过 `npm run dev` 命令即可获得一个实时的远程链接。该平台还提供了一个 Gace Marketplace，用户可以一键安装这些插件。Gace AI 旨在简化 AI 插件的开发和部署过程，让 AI 能够执行更广泛的任务，例如搜索 Hacker News、发送股票新闻通知、分析 Google Sheets 等。",
+    "tags": [
+      "New",
+      "Dev",
+      "AI插件"
+    ],
+    "link": "https://gace.dev/?mode=developer",
+    "date": "2026-02-27",
+    "id": "17722278429481"
+  },
+  {
+    "title": "AMD Ryzen AI Max+ 集群：本地运行万亿参数 LLM 指南",
+    "summary": "AMD 发布指南，展示如何使用 Ryzen AI Max+ 集群在本地运行万亿参数 LLM。",
+    "detail": "AMD 发布了一篇技术文章，详细介绍了如何使用 AMD Ryzen™ AI Max+ 集群在本地运行万亿参数的 LLM。文章涵盖了硬件配置、软件栈以及性能优化等方面的内容，旨在帮助开发者和研究人员在本地环境中进行大规模语言模型的实验和部署。该指南为那些希望在不依赖云服务的情况下探索大型语言模型能力的用户提供了一个有价值的参考。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "AMD"
+    ],
+    "link": "https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-run-a-one-trillion-parameter-llm-locally-an-amd.html",
+    "date": "2026-02-27",
+    "id": "17722278429482"
+  },
+  {
+    "title": "Swarmit：AI 代理的长期规划工具",
+    "summary": "Swarmit 是一个用于 AI 编码代理的持久性任务协调工具，支持长期规划和多代理协作。",
+    "detail": "Swarmit 提供了一个共享的、持久的任务板，AI 编码代理可以通过 CLI 读取和写入，从而实现跨会话和代理的上下文维护和协作。它允许将项目分解为史诗和任务，设置依赖关系图，并允许多个代理并行处理工作。Swarmit 提供了一个实时终端仪表板，显示当前正在发生的事情，并记录每个突变事件的完整历史记录。它还附带一个 Claude Code 技能，可以自动教代理工作流程。",
+    "tags": [
+      "New",
+      "Dev",
+      "AI Agent"
+    ],
+    "link": "https://github.com/zeapo/swarmit",
+    "date": "2026-02-27",
+    "id": "17722278429483"
+  },
+  {
     "title": "PicoClaw：Go 语言实现的超高效 AI 助手",
     "summary": "PicoClaw 是一个轻量级 AI 助手，用 Go 语言重构，可在低成本硬件上运行。",
     "detail": "PicoClaw 是一个超轻量级的个人 AI 助手，灵感来源于 nanobot，使用 Go 语言从头开始重构。该项目通过自举过程，由 AI 代理驱动整个架构迁移和代码优化。它可以在低至 10 美元的硬件上运行，并且仅占用不到 10MB 的内存，比 OpenClaw 节省 99% 的内存，比 Mac mini 便宜 98%。需要注意的是，PicoClaw 仍处于早期开发阶段，可能存在网络安全问题，不建议在 v1.0 版本发布前部署到生产环境。",
@@ -1244,57 +1296,5 @@
     "link": "https://www.clevermock.com/",
     "date": "2026-02-27",
     "id": "17721716191395"
-  },
-  {
-    "title": "AI能力评估新视角：如何衡量个体AI使用技能？",
-    "summary": "探讨评估个人AI使用能力的方法和标准。",
-    "detail": "本文讨论了如何评估一个人使用人工智能的能力。随着AI技术的普及，评估个体运用AI工具和技术的能力变得越来越重要。讨论可能涉及实际操作、问题解决、创新应用以及对AI伦理和社会影响的理解等多个维度。有效的评估方法能够帮助企业和教育机构更好地了解员工和学生的能力水平，从而制定更有效的培训和发展计划。",
-    "tags": [
-      "News",
-      "AI能力",
-      "评估"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47176565",
-    "date": "2026-02-27",
-    "id": "17721676041580"
-  },
-  {
-    "title": "Cecil：开源AI记忆与身份协议，赋予AI持久自我意识",
-    "summary": "Cecil为AI提供持久记忆和身份，解决AI遗忘问题。",
-    "detail": "Cecil 是一个开源的 AI 记忆和身份协议，旨在为 AI 模型提供持久的记忆、模式识别和持续的上下文感知能力。它通过构建一个底层基础设施，使 AI 不再在会话结束后立即“忘记”用户。该协议包括一个记忆存储（使用 Qdrant 进行向量嵌入和语义搜索）、身份管理（包括种子、叙述和增量）以及一个观察者组件，用于在会话后处理和更新记忆。核心在于让AI拥有“自我”的概念，从而实现更自然和连贯的交互。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "开源"
-    ],
-    "link": "https://github.com/johnkf5-ops/cecil-protocol",
-    "date": "2026-02-27",
-    "id": "17721676041581"
-  },
-  {
-    "title": "VeryBot：自托管AI工作助理，提升办公效率",
-    "summary": "VeryBot是可自托管的AI助理，助力高效办公。",
-    "detail": "VeryBot 是一款可以自托管的 AI 助理，旨在帮助用户提高工作效率。由于是自托管，用户可以更好地掌控数据安全和隐私。具体功能可能包括自动化任务、信息检索、日程管理、会议安排等。通过集成各种办公工具和服务，VeryBot 能够成为用户的智能助手，简化工作流程，提升生产力。",
-    "tags": [
-      "New",
-      "AI助手",
-      "自托管"
-    ],
-    "link": "https://github.com/charlie0077/verybot",
-    "date": "2026-02-27",
-    "id": "17721676041583"
-  },
-  {
-    "title": "Resume Rescue AI：AI驱动简历优化，助你更快斩获Offer",
-    "summary": "Resume Rescue AI利用AI优化简历和LinkedIn，加速求职。",
-    "detail": "Resume Rescue AI 是一款利用 AI 技术优化简历和 LinkedIn 个人资料的服务，旨在帮助求职者更快地找到技术领域的工作。该服务通过 AI 分析数千份成功的技术职位申请，优化用户的简历，使其能够通过 ATS（Applicant Tracking System）筛选，并吸引招聘人员的注意。提供包括简历优化、LinkedIn 个人资料修改、定制求职信等服务，并承诺在 24 小时内交付成果。",
-    "tags": [
-      "New",
-      "AI简历",
-      "求职"
-    ],
-    "link": "https://project-800e5120.doanything.app/",
-    "date": "2026-02-27",
-    "id": "17721676041585"
   }
 ]
