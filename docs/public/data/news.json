@@ -1,5 +1,109 @@
 [
   {
+    "title": "AI=true 是反模式：开发者应避免的陷阱",
+    "summary": "避免仅在AI模式下启用有价值的功能，应同时考虑人类和AI的需求。",
+    "detail": "文章指出，开发者不应将有价值的文档、工作流或测试改进仅在 `AI=true` 的条件下启用。好的文档和工具对人类和AI同样重要，应放置在双方都容易发现的地方，例如 `README.md` 文件。应避免为AI创建单独的工具和流程，而应设计通用的、对双方都有益的解决方案。这种做法可以避免重复劳动，并确保所有用户都能受益于最新的改进。",
+    "tags": [
+      "Dev",
+      "AI",
+      "编程实践"
+    ],
+    "link": "https://keleshev.com/ai-equals-true-is-an-anti-pattern",
+    "date": "2026-02-27",
+    "id": "17722105182290"
+  },
+  {
+    "title": "谷歌和 OpenAI 员工公开信支持 Anthropic 的五角大楼立场",
+    "summary": "谷歌和 OpenAI 员工支持 Anthropic 限制其 AI 技术在军事领域的应用。",
+    "detail": "Anthropic 与五角大楼有合作关系，但坚持其技术不应用于大规模国内监控或完全自主武器。谷歌和 OpenAI 的员工通过公开信表达了对 Anthropic 这一立场的支持，强调了在 AI 军事应用方面的伦理考量和潜在风险。此举反映了 AI 行业内部对于技术伦理和社会责任的日益重视，以及对 AI 技术可能被滥用的担忧。",
+    "tags": [
+      "News",
+      "AI伦理",
+      "军事应用"
+    ],
+    "link": "https://techcrunch.com/2026/02/27/employees-at-google-and-openai-support-anthropic-pentagons-stand-in-open-letter/",
+    "date": "2026-02-27",
+    "id": "17722105182291"
+  },
+  {
+    "title": "实验性项目：面向证明的事件溯源，缩短AI生成代码的验证差距",
+    "summary": "POES结合事件溯源和形式验证，使AI编码代理能够验证其生成的代码。",
+    "detail": "POES (Proof-Oriented Event Sourcing) 是一种实验性方法，旨在通过结合事件溯源的结构和形式验证技术，使 AI 编码代理能够验证其生成的代码。POES 缩小了证明范围，使验证成为编写领域逻辑的自然副产品，而非单独的活动。该项目旨在解决软件系统中“已测试”和“正确”之间的差距，尤其是在金融、医疗保健和基础设施等领域。通过 POES，AI 代理可以读取领域规范，生成事件溯源聚合，并在同一步骤中运行验证，从而获得确定性的、机器可读的结果。",
+    "tags": [
+      "Dev",
+      "AI",
+      "形式验证"
+    ],
+    "link": "https://www.kurrent.io/blog/proof-oriented-event-sourcing/",
+    "date": "2026-02-27",
+    "id": "17722105182292"
+  },
+  {
+    "title": "VibeAround：多模型 AI 终端，随时随地 Vibe Coding！",
+    "summary": "VibeAround 是一个具有自定义移动 Web UI 的多模型 AI 终端。",
+    "detail": "VibeAround 是一个开源项目，旨在创建一个多模型 AI 终端，允许开发者随时随地进行编码。它提供了一个自定义的移动 Web UI，支持多种 AI 模型，方便用户在各种设备上使用。该项目使用 Bun 和 Rust 构建，前端使用 Vite。VibeAround 的目标是提供一个灵活、便捷的 AI 编码环境，让开发者可以更高效地利用 AI 技术。",
+    "tags": [
+      "New",
+      "Dev",
+      "AI终端"
+    ],
+    "link": "https://github.com/jazzenchen/VibeAround",
+    "date": "2026-02-27",
+    "id": "17722105182293"
+  },
+  {
+    "title": "Citatra：开源AI可见性追踪器，助力Google AI Overview优化",
+    "summary": "Citatra 是一个开源平台，用于竞争分析、反向链接跟踪和 AI 驱动的洞察。",
+    "detail": "Citatra 是一个开源平台，专为营销人员和 SEO 专业人士设计，用于竞争分析、反向链接跟踪和 AI 驱动的洞察。它可以帮助用户监控竞争对手，分析反向链接，并获得可操作的情报，以优化其数字战略。Citatra 旨在帮助用户更好地了解 Google AI Overview 的运作方式，并利用 AI 技术来改进其 SEO 策略。",
+    "tags": [
+      "New",
+      "AI",
+      "SEO"
+    ],
+    "link": "https://github.com/Citatra/Citatra",
+    "date": "2026-02-27",
+    "id": "17722105182294"
+  },
+  {
+    "title": "银行权衡代理AI在支付系统中的风险",
+    "summary": "银行业正在评估在支付系统中应用代理AI的潜在风险和收益。",
+    "detail": "文章探讨了银行业在支付系统中应用代理AI所面临的挑战和机遇。代理AI 能够自主执行任务，但在金融领域的应用需要谨慎评估其潜在风险，包括安全漏洞、合规性问题和操作风险。银行需要建立完善的风险管理框架，以确保代理AI 的安全可靠运行，并充分利用其在提高效率、降低成本和改善客户体验方面的潜力。",
+    "tags": [
+      "News",
+      "AI",
+      "金融"
+    ],
+    "link": "https://www.thebanker.com/content/28823d12-c0e8-462f-aca9-6e9dca0a64ef",
+    "date": "2026-02-27",
+    "id": "17722105182295"
+  },
+  {
+    "title": "七大开源AI Agent安全审计：结果令人担忧",
+    "summary": "对七个开源AI Agent的安全审计显示，大多数在沙箱、权限和输入处理方面存在缺陷。",
+    "detail": "Grith.ai 对七个开源或广泛使用的 AI Agent 进行了安全审计，评估了它们在沙箱隔离、权限模型和处理不可信输入方面的表现。结果显示，大多数 Agent 在至少两个维度上存在安全问题。审计强调了 AI Agent 在文件访问、shell 执行和网络请求方面的安全风险，并指出需要更严格的安全措施来保护系统免受潜在攻击。",
+    "tags": [
+      "News",
+      "AI安全",
+      "开源"
+    ],
+    "link": "https://grith.ai/blog/security-audit-seven-ai-agents",
+    "date": "2026-02-27",
+    "id": "17722105182296"
+  },
+  {
+    "title": "AI Agent部署实况：沙箱还是裸机？",
+    "summary": "一项调查研究AI Agent的实际部署方式，比较沙箱和裸机环境。",
+    "detail": "文章介绍了一项关于 AI Agent 部署方式的调查，旨在了解 Codex、Claude Code、OpenClaw 等 Agent 在实践中是如何部署的。调查通过 Agent Skill 和手动问卷两种方式收集匿名配置信息，比较全球范围内的部署情况。调查结果将有助于了解 AI Agent 在沙箱和裸机环境中的优缺点，并为开发者提供部署建议。",
+    "tags": [
+      "Dev",
+      "AI",
+      "部署"
+    ],
+    "link": "https://internetwarte.eu/agentsetup",
+    "date": "2026-02-27",
+    "id": "17722105182297"
+  },
+  {
     "title": "ALBA：基于 AI 信用额度的自主软件市场",
     "summary": "ALBA 是一个基于 Claude Code 插件的自主 AI 软件市场，通过 AI 信用额度进行软件构建和交易。",
     "detail": "ALBA 是一个创新的软件市场，它利用 Claude Code 插件自主构建微型 MVP。用户可以通过贡献闲置的 AI 算力来赚取代币，并参与软件项目的竞标和交易。该平台涵盖了软件开发的各个阶段，从概念构思到演示部署，再到最终的销售。ALBA 的核心在于将 AI 算力转化为实际的软件产品，并建立一个去中心化的软件开发生态系统，为开发者提供新的盈利模式。",
@@ -1193,109 +1297,5 @@
     "link": "https://usplus.ai/",
     "date": "2026-02-26",
     "id": "17721453282366"
-  },
-  {
-    "title": "FinClaw：AI 驱动的金融市场分析利器",
-    "summary": "FinClaw 是一个轻量级 AI Agent，专为金融市场分析设计，支持多市场和多渠道。",
-    "detail": "FinClaw 是一个开源的 AI Agent，专注于金融市场分析。它支持 Python 3.11+，并集成了 14+ LLM 提供商，方便用户选择合适的模型。FinClaw 旨在为用户提供全天候的金融分析服务，帮助用户在多市场和多渠道中做出明智的决策。该项目采用 MIT 许可证，表明其开源和易于使用的特性。通过集成多种 LLM，FinClaw 能够适应不同的分析需求，并提供更全面的金融市场洞察。",
-    "tags": [
-      "Dev",
-      "AI Agent",
-      "Finance"
-    ],
-    "link": "https://github.com/Fin-Chelae/FinClaw",
-    "date": "2026-02-26",
-    "id": "17721416490250"
-  },
-  {
-    "title": "Automattic AI 最新进展：WordPress 集成迎来重大突破",
-    "summary": "Automattic 在 WordPress AI 集成方面取得显著进展，包括 OAuth 2.1 支持和 MCP 适配器。",
-    "detail": "Automattic 近期在 WordPress 核心中构建了 Abilities API 和 WP AI Client 等基础设施，为产品层面的快速迭代奠定了基础。一月份发布了针对 WordPress.com 上 AI Agent 的 OAuth 2.1 支持，增强了安全性。二月份推出了 WordPress MCP 适配器，使得 AI 工具可以直接调用 WordPress 的功能。此外，还发布了 WordPress.com Claude Connector，允许用户通过简单的 OAuth 流程将 Claude 连接到 WordPress.com 站点，查询分析数据和站点设置。这些进展标志着 WordPress 在 AI 集成方面迈出了重要一步。",
-    "tags": [
-      "News",
-      "AI Integration",
-      "WordPress"
-    ],
-    "link": "https://j.cv/automattic-ai-progress/",
-    "date": "2026-02-26",
-    "id": "17721416490251"
-  },
-  {
-    "title": "Yaw：集成终端、连接管理和 AI Chat 的强大工具",
-    "summary": "Yaw 是一个集成了终端、SSH/数据库连接和 AI Chat 功能的工具，提供便捷的开发体验。",
-    "detail": "Yaw 提供了一个功能丰富的终端，支持标签、分屏、广播模式、智能选择和命令面板。它还集成了 SSH、PostgreSQL、MySQL、SQL Server、MongoDB 和 Redis 等连接管理功能，方便用户在一个地方管理所有连接。此外，Yaw 还支持 Claude、ChatGPT、Gemini、Mistral、Grok 和 Ollama 等 AI 提供商，允许用户在终端上下文中与 AI 进行交互。Yaw 通过 WebGL 加速渲染，并提供 Catppuccin Mocha 主题，提供卓越的视觉体验。",
-    "tags": [
-      "New",
-      "Dev",
-      "AI Chat"
-    ],
-    "link": "https://yaw.sh/",
-    "date": "2026-02-26",
-    "id": "17721416490252"
-  },
-  {
-    "title": "AI Agent 技能安全审计指南：从 SKILL.md 到 Shell",
-    "summary": "Aguara 发布 AI Agent 技能安全审计指南，揭示 SKILL.md 文件可能存在的安全风险。",
-    "detail": "Aguara 发布了一份关于 AI Agent 技能安全审计的指南，指出仅需三行 Markdown 代码就可能通过 SKILL.md 文件获得 Shell 访问权限。Aguara 扫描了超过 31,000 个 AI Agent 技能，发现了 485 个严重漏洞和 1,718 个高危漏洞，包括提示注入、凭据泄露、供应链攻击和 MCP 工具中毒。该指南提供了一个实用的、逐步的审计流程，帮助用户检测技能文件、MCP 服务器描述或 Agent 插件中的安全威胁。该指南强调了 Skill 文件与传统代码的不同之处，并指出其攻击面是文本本身。",
-    "tags": [
-      "Dev",
-      "Security",
-      "AI Agent"
-    ],
-    "link": "https://aguarascan.com/blog/skill-md-security-audit-guide/",
-    "date": "2026-02-26",
-    "id": "17721416490253"
-  },
-  {
-    "title": "IronCurtain：从零构建安全可靠的个人 AI 助手",
-    "summary": "IronCurtain 是一款注重安全的个人 AI 助手，旨在解决 OpenClaw 等 AI Agent 存在的安全漏洞。",
-    "detail": "IronCurtain 是一款从一开始就注重安全的个人 AI 助手。作者在 OpenClaw 走红后，意识到 AI Agent 存在严重的安全风险，例如 API 密钥泄露、凭据泄露和提示注入攻击。IronCurtain 的架构方法是建立一个扼流点，所有操作都必须通过该扼流点，以便强制执行策略。该助手采用 Cloudflare 提出的 “代码模式”，利用 LLM 擅长编写 TypeScript 的能力，让 LLM 针对类型化 API 编写代码，而不是一次性发出结构化的工具调用，从而提高安全性。",
-    "tags": [
-      "Dev",
-      "Security",
-      "AI Agent"
-    ],
-    "link": "https://www.provos.org/p/ironcurtain-secure-personal-assistant/",
-    "date": "2026-02-26",
-    "id": "17721416490254"
-  },
-  {
-    "title": "LLM Ready Analyzer：优化您的网站以适应 AI 搜索",
-    "summary": "LLM Ready Analyzer 帮助您了解您的品牌在 AI 搜索中的可见性，并提供优化建议。",
-    "detail": "LLM Ready Analyzer 扫描 ChatGPT、Gemini 和 Perplexity，使用客户的真实查询来评估您的品牌是否被推荐。它提供 AI 可见性报告，显示您的品牌在不同 AI 模型中的提及情况，并提供改进建议。该工具可以帮助企业了解其内容在 AI 驱动的搜索结果中的表现，并优化网站以提高 AI 可见性。通过了解 AI 如何推荐您的品牌，您可以更好地吸引潜在客户并提高品牌知名度。",
-    "tags": [
-      "New",
-      "SEO",
-      "LLM"
-    ],
-    "link": "https://www.llmcheck.app/ai-visibility/",
-    "date": "2026-02-26",
-    "id": "17721416490255"
-  },
-  {
-    "title": "Show HN：使用 Codespaces 和 AI 开发的首款 Android 游戏",
-    "summary": "开发者分享使用 Codespaces 和 AI 辅助开发 Android 游戏的经验，并遇到 AdMob 冷启动问题。",
-    "detail": "一位开发者分享了使用 GitHub Codespaces 和 AI Copilot 开发首款 Android 游戏的经验。该游戏名为 Bionic Biome，是一款 2D 平台游戏。开发者完全在浏览器中构建了游戏，并将其封装成 Android APK/AAB。游戏通过了 Google Play 审核，没有违反任何政策。为了使“不可能模式”更易于接受，开发者集成了 AdMob 激励广告作为继续/复活机制。然而，开发者遇到了 AdMob 冷启动问题，即测试广告可以正常工作，但生产环境中的 AdMob 控制面板显示“无数据”并返回“广告未准备好”。",
-    "tags": [
-      "Dev",
-      "Game Development",
-      "AI"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47171901",
-    "date": "2026-02-26",
-    "id": "17721416490256"
-  },
-  {
-    "title": "摩根士丹利预测：AI 不会让你提前退休",
-    "summary": "摩根士丹利预测 AI 不会让你提前退休，反而需要培训来适应未来新工作。",
-    "detail": "摩根士丹利预测，人工智能的快速发展不会让人们提前退休，相反，人们需要不断学习和培训，以适应未来可能出现的新型工作岗位。这意味着劳动力市场将持续变化，人们需要具备适应性和终身学习的能力，才能在 AI 时代保持竞争力。该预测强调了教育和技能提升的重要性，以应对 AI 对就业市场带来的挑战。",
-    "tags": [
-      "News",
-      "AI",
-      "Economy"
-    ],
-    "link": "https://fortune.com/2026/02/26/morgan-stanley-predicts-ai-wont-let-you-retire-early-instead-youll-have-to-train-for-jobs-that-dont-exist-yet/",
-    "date": "2026-02-26",
-    "id": "17721416490257"
   }
 ]
