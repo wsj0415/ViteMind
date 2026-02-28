@@ -1,5 +1,70 @@
 [
   {
+    "title": "开源领域生成式AI政策全景分析",
+    "summary": "RedMonk分析了32个开源组织的AI政策，揭示了质量、版权和伦理是主要关注点。",
+    "detail": "RedMonk发布了一份关于开源社区如何应对AI生成内容的报告。该报告分析了包括Linux Foundation、Apache和Eclipse等32个开源组织的生成式AI政策，旨在了解有多少项目制定了正式政策，以及这些社区对AI的立场是宽松、限制还是未定。分析结果表明，代码质量、版权责任和伦理是开源社区在制定AI政策时的主要考虑因素。该报告还提供了一个交互式可视化工具，用于探索不同的政策立场，并比较不同组织如何权衡质量、版权和伦理问题。此报告对于了解开源社区如何适应AI技术具有重要意义。",
+    "tags": [
+      "News",
+      "Open Source",
+      "LLM"
+    ],
+    "link": "https://redmonk.com/kholterhoff/2026/02/26/generative-ai-policy-landscape-in-open-source/",
+    "date": "2026-02-28",
+    "id": "17722709028830"
+  },
+  {
+    "title": "RayClaw：Rust 🦀 打造的开源 AI Agent",
+    "summary": "RayClaw 是一个用 Rust 构建的 AI Agent，灵感来自 OpenClaw，欢迎贡献。",
+    "detail": "RayClaw 是一个使用 Rust 编程语言构建的开源 AI Agent，其设计灵感来源于 OpenClaw、NanoClaw 等项目。该项目旨在创建一个独立的 AI 助手，并吸收了其他类似项目的设计理念。RayClaw 项目目前正处于积极开发阶段，功能可能会发生变化，并且欢迎社区贡献者参与。该项目提供英文和中文文档，并提供 crates.io 链接、项目网站和 Discord 社区链接。",
+    "tags": [
+      "New",
+      "Dev",
+      "Rust",
+      "AI Agent"
+    ],
+    "link": "https://github.com/rayclaw/rayclaw",
+    "date": "2026-02-28",
+    "id": "17722709028831"
+  },
+  {
+    "title": "AI 摩尔纹消除器：免费在线工具",
+    "summary": "使用AI摩尔纹消除工具免费去除照片中的摩尔纹，适用于屏幕照片、扫描件和织物。",
+    "detail": "AI Moire Remover 是一款免费的在线工具，旨在消除照片中的摩尔纹。该工具利用先进的神经网络技术，经过数百万张图像的训练，能够有效地检测和去除摩尔纹。它适用于多种场景，包括修复屏幕照片、扫描文档和处理织物纹理。用户只需上传图像，选择场景类型，AI 即可自动完成处理。该工具支持 1K、2K 和 4K 分辨率输出，并承诺安全处理用户上传的图像，并在处理后自动删除。",
+    "tags": [
+      "New",
+      "AI",
+      "Tool"
+    ],
+    "link": "https://moireremoval.com/",
+    "date": "2026-02-28",
+    "id": "17722709028832"
+  },
+  {
+    "title": "Manifest：个人 AI Agent 的开源路由器",
+    "summary": "Manifest 是一个开源路由器，用于管理和控制个人 AI Agent 的使用。",
+    "detail": "Manifest 是一个开源项目，旨在为个人 AI Agent 提供路由功能。它允许用户跟踪使用情况、设置限制，并配置路由规则。该项目提供云端和本地部署选项，并提供详细的文档和配置指南。Manifest 旨在帮助用户更好地管理和控制其 AI Agent 的使用，并提供了一个仪表板用于监控和管理。",
+    "tags": [
+      "New",
+      "Dev",
+      "AI Agent"
+    ],
+    "link": "https://manifest.build/docs/introduction",
+    "date": "2026-02-28",
+    "id": "17722709028833"
+  },
+  {
+    "title": "特朗普指示美国机构停止使用 Anthropic 的 AI 技术",
+    "summary": "特朗普指示联邦机构停止使用 Anthropic 的 AI 技术。",
+    "detail": "据路透社报道，特朗普指示美国联邦机构停止使用 Anthropic 的 AI 技术。具体原因和影响尚未明确，但此举可能对 Anthropic 及其与美国政府的合作产生重大影响。该新闻在 Hacker News 上也引发了讨论。",
+    "tags": [
+      "News",
+      "AI"
+    ],
+    "link": "https://www.reuters.com/world/us/trump-says-he-is-directing-federal-agencies-cease-use-anthropic-technology-2026-02-27/",
+    "date": "2026-02-28",
+    "id": "17722709028834"
+  },
+  {
     "title": "Agent Hand：AI 编码代理的 Tmux 会话管理器（Rust）",
     "summary": "Agent Hand 是一个基于 tmux 的快速终端会话管理器，专为 AI 编码代理设计。",
     "detail": "Agent Hand 是一个使用 Rust 编写的终端会话管理器，它构建在 tmux 之上，专为 AI 编码代理设计。它提供状态检测、优先级跳转、模糊切换、PTY 监控、分组和标签以及 tmux 隔离等功能。通过清晰的视觉指示器显示 WAITING、RUNNING、READY 或 IDLE 状态，并能快速跳转到最紧急的会话。该工具旨在提高 AI 编码代理的工作效率，并提供更好的会话管理体验。",
@@ -1227,69 +1292,5 @@
     "link": "https://www.youtube.com/watch?v=NI6sTgOlK74",
     "date": "2026-02-27",
     "id": "17722031997134"
-  },
-  {
-    "title": "AI生成产品：SaaSpocalypse不会发生",
-    "summary": "文章分析AI生成产品不会引发SaaSpocalypse。",
-    "detail": "文章作者 Pawel Brodzinski 认为，AI生成产品不会引发所谓的 SaaSpocalypse。他指出，之前关于 SaaSpocalypse 的讨论主要集中在财务方面，认为这只是一个回归正常的现象，而非真正的末日。随着 AI 工具的发展，越来越多的人可以参与到产品开发中，但这并不意味着软件行业的崩溃。文章还提到了 Citrini 的预测，即“2008全球智能危机”，但作者认为这种恐慌是短暂的。总的来说，文章对 AI 在软件开发中的作用持乐观态度，认为它将带来新的机遇，而不是灾难。",
-    "tags": [
-      "News",
-      "AI",
-      "Software Development"
-    ],
-    "link": "https://pawelbrodzinski.substack.com/p/ai-generated-products-wont-trigger",
-    "date": "2026-02-27",
-    "id": "17722031997135"
-  },
-  {
-    "title": "Nano Banana 2：谷歌免费4K AI图像生成器，闪电般的速度",
-    "summary": "Nano Banana 2是谷歌推出的免费4K AI图像生成器，速度极快。",
-    "detail": "Nano Banana 2 是一款由 Google 开发的免费 AI 图像生成器，能够以 4K 分辨率快速生成图像。电商团队可以使用它在几秒钟内生成产品照片，无需聘请摄影师。内容创作者可以利用它快速生成社交媒体内容，如 Instagram 帖子、YouTube 缩略图和 TikTok 封面。该模型在文本渲染方面表现出色，能够生成包含清晰可读文本的海报、Logo 和信息图表。此外，它还支持生成具有一致角色的图像，方便故事讲述和品牌推广。Nano Banana 2 的快速生成速度和高质量图像输出使其成为电商、内容创作和设计领域的强大工具。",
-    "tags": [
-      "New",
-      "AI",
-      "Image Generation"
-    ],
-    "link": "https://nanobananaflash.io/image/nano-banana-2",
-    "date": "2026-02-27",
-    "id": "17722031997136"
-  },
-  {
-    "title": "Crewship：一键部署AI Agent，轻松构建智能工作流",
-    "summary": "Crewship提供一键部署AI Agent服务，简化部署流程。",
-    "detail": "Crewship 提供了一键部署 AI Agent 的服务，旨在简化 AI Agent 的部署流程。它无需复杂的配置和基础设施设置，只需一个命令 `crewship deploy` 即可将 Agent 部署上线。Crewship 支持实时流式传输，可以实时观察 Agent 的思考、决策和行动过程。它还提供工件管理、安全保障、自动缩放和版本控制等功能。Crewship 支持多种 AI Agent 框架，并提供完整的 Agent 运行监控。该平台旨在帮助开发者更轻松地构建和部署智能工作流。",
-    "tags": [
-      "Dev",
-      "AI",
-      "Agent"
-    ],
-    "link": "https://www.crewship.dev/",
-    "date": "2026-02-27",
-    "id": "17722031997137"
-  },
-  {
-    "title": "Claude.ai 疑似宕机，用户体验受影响",
-    "summary": "Claude.ai 疑似出现服务中断，用户可能无法正常访问。",
-    "detail": "Claude.ai 平台疑似出现宕机情况，用户可能无法正常访问或使用其服务。目前官方尚未发布正式声明，具体原因和恢复时间未知。用户可以尝试刷新页面或稍后重试。此次事件提醒用户关注 AI 服务的稳定性，并做好备选方案。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://claude.ai/#",
-    "date": "2026-02-27",
-    "id": "17721973013680"
-  },
-  {
-    "title": "Viewert：AI 时代个人知识管理新工具",
-    "summary": "Viewert 帮助用户构建结构化知识，提升 AI 使用效率。",
-    "detail": "Viewert 是一款旨在提升个人知识管理效率的 AI 工具。它通过结构化知识，帮助用户更好地组织想法、示例和参考资料，从而优化 AI 提示词，获得更精准的 AI 输出结果。Viewert 强调知识的积累和复用，避免知识碎片化，使用户在 AI 时代更好地管理和利用个人知识。",
-    "tags": [
-      "New",
-      "AI",
-      "Productivity"
-    ],
-    "link": "https://www.viewert.com/",
-    "date": "2026-02-27",
-    "id": "17721973013681"
   }
 ]
