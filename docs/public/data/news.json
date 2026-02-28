@@ -1,5 +1,18 @@
 [
   {
+    "title": "Vigil：AI Agent 工具调用的零依赖安全防护",
+    "summary": "Vigil 提供零依赖的安全防护，防止 AI Agent 执行危险操作。",
+    "detail": "Vigil 是一个确定性的规则引擎，用于在 AI Agent 执行工具调用之前检查其安全性。它包含 22 条规则，涵盖 8 个威胁类别，如破坏性 Shell 命令、SSRF、路径遍历、SQL 注入等。Vigil 不依赖 LLM 进行安全防护，而是采用纯模式匹配，零依赖，速度快，可离线工作。它可集成到 MCP 服务器、LangChain 工具链和 Express 中间件等。该项目已开源，使用 MIT 许可证。",
+    "tags": [
+      "Dev",
+      "AI Agent",
+      "Security"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47190721",
+    "date": "2026-02-28",
+    "id": "17722571936270"
+  },
+  {
     "title": "AI重塑围棋：顶尖棋手思维模式变革",
     "summary": "AI颠覆围棋训练，棋手模仿AI而非自主创新，引发创造力争议。",
     "detail": "在AlphaGo击败李世石十年后，AI已成为围棋训练的主导力量。AI不仅颠覆了几个世纪以来的围棋原则，还引入了全新的策略。现在的棋手们倾向于尽可能地模仿AI的走法，即使他们并不完全理解AI的逻辑。这种现象引发了关于创造力的讨论，有人认为AI正在扼杀围棋的创造力，而另一些人则认为AI democratizing 了训练，并使得更多的女性棋手能够崭露头角。尽管存在争议，但不可否认的是，AI正在深刻地改变着围棋这项古老的游戏。",
@@ -191,6 +204,45 @@
     "id": "17722438415705"
   },
   {
+    "title": "OpenAI 完成 1100 亿美元融资，创历史新高",
+    "summary": "OpenAI 完成 1100 亿美元融资，估值 7300 亿美元，Amazon、Nvidia 和 SoftBank 领投。",
+    "detail": "OpenAI 宣布完成一轮高达 1100 亿美元的融资，成为历史上规模最大的私募融资之一。本轮融资由 Amazon 投资 500 亿美元，Nvidia 和 SoftBank 各投资 300 亿美元，公司估值达到 7300 亿美元。这笔巨额融资将用于进一步推动 OpenAI 在人工智能领域的研究和发展，加速其技术创新和产品落地。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Funding"
+    ],
+    "link": "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/",
+    "date": "2026-02-27",
+    "id": "17722571936271"
+  },
+  {
+    "title": "Google 和 OpenAI 员工公开信支持 Anthropic 的五角大楼立场",
+    "summary": "Google 和 OpenAI 员工联名支持 Anthropic 限制其 AI 技术在军事领域的应用。",
+    "detail": "尽管 Anthropic 与五角大楼存在合作关系，但该公司坚持其技术不应用于大规模国内监控或完全自主的武器系统。来自 Google 和 OpenAI 的员工发布了一封公开信，表达了对 Anthropic 这一立场的支持，强调了在人工智能技术应用于军事领域时，伦理和社会责任的重要性。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "Ethics"
+    ],
+    "link": "https://techcrunch.com/2026/02/27/employees-at-google-and-openai-support-anthropic-pentagons-stand-in-open-letter/",
+    "date": "2026-02-27",
+    "id": "17722571936272"
+  },
+  {
+    "title": "马斯克在诉讼中抨击 OpenAI，吹捧 xAI 的安全性",
+    "summary": "马斯克在与 OpenAI 的诉讼中，声称 xAI 的 Grok 比 ChatGPT 更安全。",
+    "detail": "在与 OpenAI 的诉讼中，马斯克声称 xAI 在安全性方面优于 OpenAI 的 ChatGPT。然而，几个月后，xAI 的 Grok 却在 X 平台上发布了大量未经许可的裸体图像，引发了争议。这起事件突显了人工智能安全性和内容审核方面面临的挑战。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "xAI"
+    ],
+    "link": "https://techcrunch.com/2026/02/27/musk-bashes-openai-in-deposition-saying-nobody-committed-suicide-because-of-grok/",
+    "date": "2026-02-27",
+    "id": "17722571936273"
+  },
+  {
     "title": "AgentGate：AI Agent 的 Stake-Gated Action 微服务",
     "summary": "AgentGate 提供 AI Agent 的 Stake-Gated Action 微服务。",
     "detail": "AgentGate 是一个为 AI 系统设计的 Stake-Gated Action 微服务。它旨在为 AI Agent 提供一个安全且可控的执行环境。通过 Stake-Gated 机制，AgentGate 允许用户根据 stake（例如，信任度、权限）来控制 AI Agent 的行为。该项目托管在 GitHub 上，提供了一系列的工具和接口，方便开发者集成和使用。",
@@ -228,19 +280,6 @@
     "link": "https://techcrunch.com/2026/02/27/perplexitys-new-computer-is-another-bet-that-users-need-many-ai-models/",
     "date": "2026-02-27",
     "id": "17722547619803"
-  },
-  {
-    "title": "谷歌和OpenAI员工公开信支持Anthropic拒绝五角大楼",
-    "summary": "谷歌和OpenAI员工支持Anthropic不将AI用于大规模监控和武器。",
-    "detail": "Anthropic 坚持其技术不应用于大规模国内监控或全自动武器，谷歌和 OpenAI 的员工通过公开信表达了对 Anthropic 这一立场的支持。尽管 Anthropic 与五角大楼存在合作关系，但该公司明确表示对其技术的用途有所限制。这一事件反映了 AI 行业内部对于技术伦理和社会责任的日益关注，以及从业者对于 AI 技术可能被滥用的担忧。",
-    "tags": [
-      "News",
-      "AI",
-      "伦理"
-    ],
-    "link": "https://techcrunch.com/2026/02/27/employees-at-google-and-openai-support-anthropic-pentagons-stand-in-open-letter/",
-    "date": "2026-02-27",
-    "id": "17722547619804"
   },
   {
     "title": "RentAHuman 平台：AI 租赁真人完成任务",
@@ -1252,44 +1291,5 @@
     "link": "https://kirit.com/Blog:/2026/02-27-AI%20Assisted%20coding",
     "date": "2026-02-27",
     "id": "17721887692644"
-  },
-  {
-    "title": "律师可能在 AI 使用上撒谎？Contract Error Checker 帮你验证",
-    "summary": "检测律师是否真的使用 AI 审查合同，避免被忽悠。",
-    "detail": "Find The Fuckup 提供了一个简单的合同错误检查工具，声称可以帮助用户验证律师是否真的使用了 AI 技术来审查合同。用户可以上传合同（仅支持 .docx 格式），该工具会检测合同中的错误。该工具由 General Legal 提供支持，但明确声明不提供法律建议，也不建立律师-客户关系。该工具的出现，反映了人们对律师在 AI 使用上透明度的担忧。",
-    "tags": [
-      "New",
-      "Legal",
-      "AI"
-    ],
-    "link": "https://findthefuckup.com/",
-    "date": "2026-02-27",
-    "id": "17721853763110"
-  },
-  {
-    "title": "AI 基础设施竟由厕所、味精和玻璃制造商控制？",
-    "summary": "AI 关键基础设施被意想不到的行业巨头垄断。",
-    "detail": "Gaurab Chakrabarti 在 X 上发文指出，AI 基础设施的关键部分实际上由生产厕所（Toto）、味精（Ajinomoto）和玻璃的公司控制。例如，Ajinomoto 的氨基酸研究成果被用于生产高端 GPU 的绝缘基板，占据全球 95% 的市场份额。2021 年的芯片短缺瓶颈并非硅，而是 Ajinomoto 的薄膜。Toto 的陶瓷技术也对内存制造至关重要。这揭示了 AI 产业供应链中隐藏的依赖关系。",
-    "tags": [
-      "News",
-      "AI",
-      "Supply Chain"
-    ],
-    "link": "https://twitter.com/Gaurab/status/2024259874276999338",
-    "date": "2026-02-27",
-    "id": "17721853763111"
-  },
-  {
-    "title": "RunVeto：AI Agent 的简单终止开关，防止失控",
-    "summary": "RunVeto 为 AI Agent 提供控制面板，防止无限循环和隐私泄露。",
-    "detail": "RunVeto 提供了一个控制面板，用于管理和监控 AI Agent。它可以防止 Agent 进入无限循环，避免不必要的 API 费用支出，并执行隐私保护措施。主要功能包括：实时检测并终止无限循环、自动进行 PII 数据清理、以及实时监控 Agent 的思考过程。RunVeto 适用于 LangChain、CrewAI、AutoGen 和自定义 Python/NestJS 堆栈。他们正在邀请早期开发者参与，并根据他们的反馈来指导 V1 版本的开发。",
-    "tags": [
-      "New",
-      "Dev",
-      "AI Agent"
-    ],
-    "link": "https://www.runveto.xyz/",
-    "date": "2026-02-27",
-    "id": "17721853763112"
   }
 ]
