@@ -1,5 +1,70 @@
 [
   {
+    "title": "Telos：人类与AI Agent的结构化上下文框架",
+    "summary": "Telos为人类和AI Agent提供结构化上下文框架，优化开发流程。",
+    "detail": "Telos是一个为人类和AI Agent设计的结构化上下文框架，旨在改进开发流程。它针对当前开发工具生态主要面向人类开发者的问题，提出了新的解决方案，以适应AI Agent参与代码编写、审查和调试的新形势。Telos通过提供意图驱动的开发跟踪，帮助开发者和AI Agent更好地理解和协作，从而提高开发效率和代码质量。该项目使用Rust语言编写，并采用了MIT许可证。",
+    "tags": [
+      "Dev",
+      "AI Agent",
+      "Rust"
+    ],
+    "link": "https://github.com/noahatfin/telos",
+    "date": "2026-02-28",
+    "id": "17722858819200"
+  },
+  {
+    "title": "AI Agent安全至上：NanoClaw的安全模型",
+    "summary": "NanoClaw采用容器隔离，将AI Agent视为潜在恶意，保障系统安全。",
+    "detail": "NanoClaw构建于“不信任AI Agent”的原则之上，将AI Agent视为潜在的恶意行为者。与依赖应用层检查的传统方法不同，NanoClaw采用容器隔离作为核心架构，每个Agent都在独立的、临时的容器中运行，由操作系统强制执行安全边界。这种架构可以有效防止Agent之间的信息泄露，并限制Agent对系统的潜在危害，从而提供更强大的安全保障。",
+    "tags": [
+      "News",
+      "AI Agent",
+      "Security"
+    ],
+    "link": "https://nanoclaw.dev/blog/nanoclaw-security-model",
+    "date": "2026-02-28",
+    "id": "17722858819201"
+  },
+  {
+    "title": "Grantex：AI Agent的授权协议，开启Agent互联网的OAuth时代",
+    "summary": "Grantex为AI Agent提供授权、审计基础设施，类似于OAuth 2.0之于人类。",
+    "detail": "Grantex旨在为AI Agent提供身份验证、授权和审计的基础设施，类似于OAuth 2.0在人类互联网中的作用。它提供了一个通用的SDK和云服务，允许AI Agent在人类的授权下执行操作，并具备可撤销的权限、加密身份和不可变的审计跟踪。开发者可以快速集成Grantex，从而构建更加安全和可控的Agent应用。Grantex定义了AI Agent权限管理的开放标准，推动Agent互联网的发展。",
+    "tags": [
+      "Dev",
+      "AI Agent",
+      "Authorization"
+    ],
+    "link": "https://github.com/mishrasanjeev/grantex",
+    "date": "2026-02-28",
+    "id": "17722858819202"
+  },
+  {
+    "title": "AI实用指南：给有实际工作的人",
+    "summary": "AI本质是大规模模式匹配，炒作成分居多，技术是真实的。",
+    "detail": "本文旨在为那些没有时间关注AI领域最新进展的从业者提供一份实用的AI指南。文章指出，现代AI的本质是基于大规模数据进行模式匹配，特别是通过神经网络在海量文本、代码和图像上进行训练，以预测序列中的下一个元素。作者认为，当前AI领域的炒作成分居多，但技术本身是真实的。文章还提到了Transformer架构的重要性，并解释了AI Agent和Copilot等概念。",
+    "tags": [
+      "News",
+      "LLM",
+      "AI Guide"
+    ],
+    "link": "https://chaosguru.substack.com/p/the-ai-field-guide-for-people-with",
+    "date": "2026-02-28",
+    "id": "17722858819203"
+  },
+  {
+    "title": "Speechos：本地语音AI模型性能基准测试平台",
+    "summary": "Speechos本地化评测STT、TTS等模型，无需云端API，保护数据隐私。",
+    "detail": "Speechos是一个本地优先的语音AI基准测试平台，旨在帮助用户比较各种语音AI模型的性能，包括语音转文本（STT）、文本转语音（TTS）、情感识别和说话人分离等。该平台允许用户在本地快速切换不同的引擎，录制或上传音频，并排比较结果。所有操作都在本地进行，无需云端API，从而保护用户的数据隐私。Speechos支持多种模型，并提供了一个易于使用的界面，方便用户进行模型选择和性能评估。",
+    "tags": [
+      "Dev",
+      "Speech AI",
+      "Benchmarking"
+    ],
+    "link": "https://github.com/miikkij/Speechos",
+    "date": "2026-02-28",
+    "id": "17722858819204"
+  },
+  {
     "title": "AI Agent Team Framework：30分钟构建你的专属AI团队",
     "summary": "快速搭建AI Agent团队，自动化重复性任务，每周节省10+小时。",
     "detail": "AI Agent Team Guide提供了一套实用的指南和模板，帮助用户在30分钟内构建一个由具有特定角色、预先编写的指令和明确工作流程的AI Agent组成的团队。通过自动化重复性AI任务，用户每周可以节省10+小时。该框架鼓励用户停止将AI仅仅用作搜索引擎，而是构建真正为自己工作的专业Agent团队，从而提高效率。",
@@ -1227,70 +1292,5 @@
     "link": "https://www.kurrent.io/blog/proof-oriented-event-sourcing/",
     "date": "2026-02-27",
     "id": "17722105182292"
-  },
-  {
-    "title": "VibeAround：多模型 AI 终端，随时随地 Vibe Coding！",
-    "summary": "VibeAround 是一个具有自定义移动 Web UI 的多模型 AI 终端。",
-    "detail": "VibeAround 是一个开源项目，旨在创建一个多模型 AI 终端，允许开发者随时随地进行编码。它提供了一个自定义的移动 Web UI，支持多种 AI 模型，方便用户在各种设备上使用。该项目使用 Bun 和 Rust 构建，前端使用 Vite。VibeAround 的目标是提供一个灵活、便捷的 AI 编码环境，让开发者可以更高效地利用 AI 技术。",
-    "tags": [
-      "New",
-      "Dev",
-      "AI终端"
-    ],
-    "link": "https://github.com/jazzenchen/VibeAround",
-    "date": "2026-02-27",
-    "id": "17722105182293"
-  },
-  {
-    "title": "Citatra：开源AI可见性追踪器，助力Google AI Overview优化",
-    "summary": "Citatra 是一个开源平台，用于竞争分析、反向链接跟踪和 AI 驱动的洞察。",
-    "detail": "Citatra 是一个开源平台，专为营销人员和 SEO 专业人士设计，用于竞争分析、反向链接跟踪和 AI 驱动的洞察。它可以帮助用户监控竞争对手，分析反向链接，并获得可操作的情报，以优化其数字战略。Citatra 旨在帮助用户更好地了解 Google AI Overview 的运作方式，并利用 AI 技术来改进其 SEO 策略。",
-    "tags": [
-      "New",
-      "AI",
-      "SEO"
-    ],
-    "link": "https://github.com/Citatra/Citatra",
-    "date": "2026-02-27",
-    "id": "17722105182294"
-  },
-  {
-    "title": "银行权衡代理AI在支付系统中的风险",
-    "summary": "银行业正在评估在支付系统中应用代理AI的潜在风险和收益。",
-    "detail": "文章探讨了银行业在支付系统中应用代理AI所面临的挑战和机遇。代理AI 能够自主执行任务，但在金融领域的应用需要谨慎评估其潜在风险，包括安全漏洞、合规性问题和操作风险。银行需要建立完善的风险管理框架，以确保代理AI 的安全可靠运行，并充分利用其在提高效率、降低成本和改善客户体验方面的潜力。",
-    "tags": [
-      "News",
-      "AI",
-      "金融"
-    ],
-    "link": "https://www.thebanker.com/content/28823d12-c0e8-462f-aca9-6e9dca0a64ef",
-    "date": "2026-02-27",
-    "id": "17722105182295"
-  },
-  {
-    "title": "七大开源AI Agent安全审计：结果令人担忧",
-    "summary": "对七个开源AI Agent的安全审计显示，大多数在沙箱、权限和输入处理方面存在缺陷。",
-    "detail": "Grith.ai 对七个开源或广泛使用的 AI Agent 进行了安全审计，评估了它们在沙箱隔离、权限模型和处理不可信输入方面的表现。结果显示，大多数 Agent 在至少两个维度上存在安全问题。审计强调了 AI Agent 在文件访问、shell 执行和网络请求方面的安全风险，并指出需要更严格的安全措施来保护系统免受潜在攻击。",
-    "tags": [
-      "News",
-      "AI安全",
-      "开源"
-    ],
-    "link": "https://grith.ai/blog/security-audit-seven-ai-agents",
-    "date": "2026-02-27",
-    "id": "17722105182296"
-  },
-  {
-    "title": "AI Agent部署实况：沙箱还是裸机？",
-    "summary": "一项调查研究AI Agent的实际部署方式，比较沙箱和裸机环境。",
-    "detail": "文章介绍了一项关于 AI Agent 部署方式的调查，旨在了解 Codex、Claude Code、OpenClaw 等 Agent 在实践中是如何部署的。调查通过 Agent Skill 和手动问卷两种方式收集匿名配置信息，比较全球范围内的部署情况。调查结果将有助于了解 AI Agent 在沙箱和裸机环境中的优缺点，并为开发者提供部署建议。",
-    "tags": [
-      "Dev",
-      "AI",
-      "部署"
-    ],
-    "link": "https://internetwarte.eu/agentsetup",
-    "date": "2026-02-27",
-    "id": "17722105182297"
   }
 ]
