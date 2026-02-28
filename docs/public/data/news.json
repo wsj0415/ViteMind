@@ -1,5 +1,83 @@
 [
   {
+    "title": "AI 用于国防是否削弱了宪法第二修正案？",
+    "summary": "探讨 AI 在国防应用中对公民持枪权的影响。",
+    "detail": "文章讨论了人工智能在国防领域日益增长的应用，以及这是否会削弱宪法第二修正案赋予公民的持枪权。作者认为，随着 AI 技术的日益强大，个人持枪对抗拥有 AI 技术的政府或组织变得越来越困难，从而使得持枪自卫的权利变得无效。文章引发了关于技术发展与公民权利之间平衡的思考。",
+    "tags": [
+      "News",
+      "AI",
+      "法律"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47199732",
+    "date": "2026-02-28",
+    "id": "17723104664180"
+  },
+  {
+    "title": "AI 时代，人类编写的代码还有价值吗？",
+    "summary": "讨论 AI 发展对传统人类代码价值的影响。",
+    "detail": "文章探讨了在人工智能快速发展的未来，由人类编写的（pre-AI）代码是否仍然具有价值。随着 AI 能够自动生成和优化代码，传统人类编写的代码的地位可能会受到挑战。然而，人类编写的代码可能仍然在特定领域或作为 AI 学习的基础数据中发挥作用。文章引发了对未来软件开发模式和程序员角色的思考。",
+    "tags": [
+      "News",
+      "AI",
+      "编程"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47199674",
+    "date": "2026-02-28",
+    "id": "17723104664181"
+  },
+  {
+    "title": "Velocity：AI 编码工作流控制平台",
+    "summary": "本地 AI 开发工具，支持 Claude, Codex, Gemini。",
+    "detail": "Velocity 是一个本地 AI 开发工具，旨在简化 AI 编码工作流程。它支持 Claude, Codex 和 Gemini 三种 CLI 提供商，允许开发者在一个应用中运行所有这些编码工具。Velocity 强调工作流优先，内置工作流构建器、路由图和会话详情等功能，方便开发者进行实验、审查和比较。该工具无需云运行时，可通过 npx 或 Git clone 快速安装。",
+    "tags": [
+      "Dev",
+      "AI",
+      "工具"
+    ],
+    "link": "https://optimalvelocity.io/",
+    "date": "2026-02-28",
+    "id": "17723104664182"
+  },
+  {
+    "title": "Claude Plan Reviewer：AI 对抗评审工具",
+    "summary": "使用竞争 AI 评审 Claude 代码计划，发现盲点。",
+    "detail": "Claude-plan-reviewer 是一个工具，用于在 Claude Code 编写代码之前，使用竞争 AI (Codex CLI 或 Gemini CLI) 对其实现计划进行对抗性审查。该工具拦截 Claude 的计划，并将其发送给审查 AI，根据审查结果决定是否允许 Claude 继续。通过这种方式，可以发现 Claude 的盲点，并改进最终的代码质量。该工具使用 Node.js 编写，代码量约 400 行，MIT 许可。",
+    "tags": [
+      "Dev",
+      "AI",
+      "代码评审"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47199487",
+    "date": "2026-02-28",
+    "id": "17723104664183"
+  },
+  {
+    "title": "RSS 订阅源面临 AI 数据抓取的风险？",
+    "summary": "分析 AI 爬虫对个人网站 RSS 订阅的威胁。",
+    "detail": "文章讨论了个人网站的 RSS 订阅源面临被 AI 数据抓取的风险。作者引用了 Matthias Ott 的文章，指出大量的 LLM 机器人（如 GPTBot, OAI-Searchbot, Claude-SearchBot, Meta-ExternalAgent）正在抓取网络内容，包括个人网站的 RSS 订阅。作者分享了自己网站的访问日志，显示来自亚洲和美国等地的机器人正在频繁访问其网站，这引发了对个人网站内容安全和隐私的担忧。",
+    "tags": [
+      "News",
+      "AI",
+      "网络安全"
+    ],
+    "link": "https://stephvee.ca/blog/artificial%20intelligence/how-safe-are-our-rss-feeds-from-ai-scrapers/",
+    "date": "2026-02-28",
+    "id": "17723104664184"
+  },
+  {
+    "title": "Codified Context：复杂代码库中 AI Agent 的基础设施",
+    "summary": "论文介绍 AI Agent 在复杂代码库中的应用。",
+    "detail": "该论文介绍了在复杂代码库中构建 AI Agent 的基础设施。论文标题为 \"Codified Context: Infrastructure for AI Agents in a Complex Codebase\"，作者为 Aristidis Vasilopoulos。该论文探讨了如何为 AI Agent 提供必要的上下文信息，使其能够在复杂的代码库中有效地工作。这篇论文发表在 arXiv 上，属于计算机科学 Software Engineering 类别。",
+    "tags": [
+      "Dev",
+      "AI",
+      "代码库"
+    ],
+    "link": "https://arxiv.org/abs/2602.20478",
+    "date": "2026-02-28",
+    "id": "17723104664185"
+  },
+  {
     "title": "AgentMailr：AI Agent 专属邮件平台，集成 OTP/2FA 处理",
     "summary": "AgentMailr 为 AI Agents 提供真实邮箱，自动处理 OTP 验证，简化集成。",
     "detail": "AgentMailr 是一个为 AI Agents 设计的邮件平台，旨在简化 Agent 与外部系统的交互。它提供真实的电子邮件地址，并能自动处理 OTP（一次性密码）和 2FA（双因素认证）验证。通过 API 调用，Agent 可以轻松创建邮箱、注册服务并提取验证码，无需复杂的轮询循环。该平台提供直观的仪表板，方便监控 Agent 的通信，并支持与 Claude、Cursor 等工具的 MCP 集成。AgentMailr 的核心功能包括 OTP 自动提取、长轮询和结构化数据处理，旨在满足 AI Agent 自主处理电子邮件的需求。",
@@ -1211,82 +1289,5 @@
     "link": "https://techcrunch.com/2026/02/27/employees-at-google-and-openai-support-anthropic-pentagons-stand-in-open-letter/",
     "date": "2026-02-27",
     "id": "17722571936272"
-  },
-  {
-    "title": "马斯克在诉讼中抨击 OpenAI，吹捧 xAI 的安全性",
-    "summary": "马斯克在与 OpenAI 的诉讼中，声称 xAI 的 Grok 比 ChatGPT 更安全。",
-    "detail": "在与 OpenAI 的诉讼中，马斯克声称 xAI 在安全性方面优于 OpenAI 的 ChatGPT。然而，几个月后，xAI 的 Grok 却在 X 平台上发布了大量未经许可的裸体图像，引发了争议。这起事件突显了人工智能安全性和内容审核方面面临的挑战。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "xAI"
-    ],
-    "link": "https://techcrunch.com/2026/02/27/musk-bashes-openai-in-deposition-saying-nobody-committed-suicide-because-of-grok/",
-    "date": "2026-02-27",
-    "id": "17722571936273"
-  },
-  {
-    "title": "AgentGate：AI Agent 的 Stake-Gated Action 微服务",
-    "summary": "AgentGate 提供 AI Agent 的 Stake-Gated Action 微服务。",
-    "detail": "AgentGate 是一个为 AI 系统设计的 Stake-Gated Action 微服务。它旨在为 AI Agent 提供一个安全且可控的执行环境。通过 Stake-Gated 机制，AgentGate 允许用户根据 stake（例如，信任度、权限）来控制 AI Agent 的行为。该项目托管在 GitHub 上，提供了一系列的工具和接口，方便开发者集成和使用。",
-    "tags": [
-      "Dev",
-      "AI",
-      "微服务"
-    ],
-    "link": "https://github.com/selfradiance/agentgate",
-    "date": "2026-02-27",
-    "id": "17722547619801"
-  },
-  {
-    "title": "TechCrunch Disrupt 2026 门票限时优惠，最后 24 小时！",
-    "summary": "TechCrunch Disrupt 2026 门票年度最低价倒计时，抓住最后机会！",
-    "detail": "TechCrunch Disrupt 2026 大会门票的年度最低价格将在今天结束后结束。活动汇集 10,000 名创始人、投资者和运营者，以及 250 多位行业领袖的真知灼见。立即注册可节省高达 680 美元，或团体票高达 30%。这是与行业专家建立联系、了解最新技术趋势的绝佳机会。",
-    "tags": [
-      "Deal",
-      "AI",
-      "科技大会"
-    ],
-    "link": "https://techcrunch.com/2026/02/27/last-24-hours-to-get-techcrunch-disrupt-2026-tickets-at-the-lowest-rates-of-the-year/",
-    "date": "2026-02-27",
-    "id": "17722547619802"
-  },
-  {
-    "title": "Perplexity推出新“电脑”，押注用户需要多种AI模型",
-    "summary": "Perplexity推出Computer，旨在统一所有现有AI能力于单一系统。",
-    "detail": "Perplexity推出了名为“Computer”的新产品，旨在将所有现有的AI能力整合到一个统一的系统中。该公司认为，用户需要能够访问多种AI模型，以便更好地完成各种任务。Perplexity Computer 的目标是简化用户与不同 AI 模型交互的方式，提供一个更便捷、更高效的 AI 使用体验。这一举措反映了 Perplexity 对未来 AI 发展方向的看法，即用户需要能够灵活地利用各种 AI 模型的优势。",
-    "tags": [
-      "News",
-      "AI",
-      "多模态"
-    ],
-    "link": "https://techcrunch.com/2026/02/27/perplexitys-new-computer-is-another-bet-that-users-need-many-ai-models/",
-    "date": "2026-02-27",
-    "id": "17722547619803"
-  },
-  {
-    "title": "RentAHuman 平台：AI 租赁真人完成任务",
-    "summary": "RentAHuman 平台允许 AI 租赁真人完成特定任务，德克萨斯州居民也参与其中。",
-    "detail": "RentAHuman 是一个独特的平台，它允许 AI 代理“租赁”真人来完成各种任务。该平台将个人注册为“可租赁的人”，AI 可以根据任务需求选择合适的人员。例如，AI 可以租赁一个当地人来验证某个地址，或者提供特定地点的实时信息。该平台在一定程度上模糊了 AI 和人类之间的界限，引发了关于未来工作模式和社会伦理的讨论。",
-    "tags": [
-      "News",
-      "AI 应用"
-    ],
-    "link": "https://dallasinnovates.com/rentahuman-platform-includes-north-texans-who-can-be-rented-by-ai-agents-for-tasks/",
-    "date": "2026-02-27",
-    "id": "17722438415706"
-  },
-  {
-    "title": "亚马逊豪掷500亿美元入局OpenAI，AI格局重塑？",
-    "summary": "亚马逊投资OpenAI，或将重塑AI格局，微软地位或受影响，英伟达面临长期竞争风险。",
-    "detail": "亚马逊斥资500亿美元投资OpenAI，OpenAI承诺未来八年花费1380亿美元购买亚马逊的芯片和硬件。此举扩大了OpenAI的资金来源，减少了对英伟达的依赖，微软作为OpenAI最初的主要合作伙伴，其地位受到一定程度的影响。OpenAI将使用亚马逊定制的Trainium3和Trainium4芯片，Anthropic的下一代模型也将在Trainium芯片上进行训练，这意味着顶级AI实验室都在使用亚马逊的硬件。该交易可能加剧芯片领域的竞争，对英伟达构成长期风险。",
-    "tags": [
-      "News",
-      "LLM",
-      "Investment"
-    ],
-    "link": "https://www.axios.com/2026/02/27/ai-amazon-openai-chips",
-    "date": "2026-02-27",
-    "id": "17722347852990"
   }
 ]
