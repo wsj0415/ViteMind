@@ -14,3 +14,8 @@
 **Vulnerability:** The "Submit Tool" modal allowed any string in the "Link" field, enabling XSS via `javascript:` URIs if approved or stored in local storage.
 **Learning:** Frontend forms feeding into a database/storage must validate data type and format (Protocol Whitelisting) before persistence, even if there is a manual approval process.
 **Prevention:** Enforce strict URL protocol validation (`http:`, `https:`) at the input stage.
+
+## 2025-01-20 - SSRF TOCTOU Vulnerability
+**Vulnerability:** The previous SSRF protection checked the IP of the URL *before* the request, allowing DNS Rebinding attacks (Time-of-Check Time-of-Use) where the DNS resolution changes to a private IP during the actual connection.
+**Learning:** `requests` performs its own DNS resolution. Validating the URL string beforehand is insufficient.
+**Prevention:** Implemented a `safe_dns_request` context manager that monkey-patches `socket.getaddrinfo` to verify *every* IP resolution during the request lifecycle.
