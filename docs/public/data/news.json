@@ -1,5 +1,70 @@
 [
   {
+    "title": "Agent Hand：AI 编码代理的 Tmux 会话管理器（Rust）",
+    "summary": "Agent Hand 是一个基于 tmux 的快速终端会话管理器，专为 AI 编码代理设计。",
+    "detail": "Agent Hand 是一个使用 Rust 编写的终端会话管理器，它构建在 tmux 之上，专为 AI 编码代理设计。它提供状态检测、优先级跳转、模糊切换、PTY 监控、分组和标签以及 tmux 隔离等功能。通过清晰的视觉指示器显示 WAITING、RUNNING、READY 或 IDLE 状态，并能快速跳转到最紧急的会话。该工具旨在提高 AI 编码代理的工作效率，并提供更好的会话管理体验。",
+    "tags": [
+      "Dev",
+      "Rust",
+      "AI Agent"
+    ],
+    "link": "https://weykon.github.io/agent-hand/",
+    "date": "2026-02-28",
+    "id": "17722675008100"
+  },
+  {
+    "title": "将 AI/ML 模型打包为 Conda 包：一种新的分发方式",
+    "summary": "介绍如何将 AI/ML 模型打包为 Conda 包，以便更好地分发和管理模型。",
+    "detail": "该文章探讨了将 AI/ML 模型打包为 Conda 包的方法，旨在为 LLM 分发和 MLOps 提供更佳实践。Conda 包可以包含静态文件，例如 AI/ML 模型，并提供版本控制、锁定、依赖管理和通道等功能。通过 Conda 包管理模型，可以轻松切换不同版本，避免因模型版本错误导致的问题，并利用 Conda 的缓存和网络功能。这种方法简化了模型分发流程，并能更好地跟踪不同开发阶段使用的模型。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "MLOps"
+    ],
+    "link": "https://prefix.dev/blog/packaging-ai-ml-models-as-conda-packages",
+    "date": "2026-02-28",
+    "id": "17722675008101"
+  },
+  {
+    "title": "AI 构建者的信仰是什么？",
+    "summary": "探讨 AI 领域从业者的文化、价值观以及对 AI 发展方向的看法。",
+    "detail": "文章探讨了硅谷 AI 热潮背后的文化现象，包括高薪、对技术怪异的自豪感，以及塑造该行业的两大阵营：AI“末日论者”和加速主义者。文章还分析了硅谷向右翼的转变，以及对监管和员工激进主义的反弹。同时，作者也提到了当前 AI 模型的局限性，即在某些任务上表现出色，而在另一些任务上则表现较弱。文章旨在探讨在 AGI 真正到来之前，我们应该如何思考 AI 对社会的影响。",
+    "tags": [
+      "News",
+      "AI Culture",
+      "Ethics"
+    ],
+    "link": "https://www.theatlantic.com/podcasts/2026/02/what-do-the-people-building-ai-believe/686173/",
+    "date": "2026-02-28",
+    "id": "17722675008102"
+  },
+  {
+    "title": "AI 公司 Anthropic 对五角大楼说“不”",
+    "summary": "Anthropic 拒绝五角大楼提出的无限制访问其 AI 模型的请求，坚持其伦理红线。",
+    "detail": "Anthropic 公司的 CEO Dario Amodei 在与五角大楼的会议上，拒绝了国防部长 Pete Hegseth 提出的无限制访问 Claude AI 模型的请求。Anthropic 坚持其两条红线：禁止 AI 控制的自主武器和禁止大规模监视美国公民。尽管五角大楼希望利用 Claude AI 的强大能力，Anthropic 仍然坚持其伦理原则，拒绝提供可能被用于不道德目的的技术。",
+    "tags": [
+      "News",
+      "Ethics",
+      "LLM"
+    ],
+    "link": "https://defragzone.substack.com/p/the-day-an-ai-company-told-the-pentagon",
+    "date": "2026-02-28",
+    "id": "17722675008103"
+  },
+  {
+    "title": "Open Vernacular AI Kit：印度混合语文本的预处理工具",
+    "summary": "Open Vernacular AI Kit 是一个用于清理印度混合英语文本的开源 SDK + CLI。",
+    "detail": "Open Vernacular AI Kit 是一个开源 SDK 和 CLI 工具，用于清理印度本地语言与英语混合的文本。该工具旨在处理 WhatsApp 风格的输入，其中本地语言文本可能以原生文字、罗马化文字或混合文字形式出现。其目标是在将文本发送到下游模型（如 Sarvam-M / Mayura / Sarvam-Translate）之前对其进行标准化，并提供可重用的开源组件，以支持更多语言和提供商。",
+    "tags": [
+      "Dev",
+      "NLP",
+      "Indian Languages"
+    ],
+    "link": "https://github.com/SudhirGadhvi/open-vernacular-ai-kit",
+    "date": "2026-02-28",
+    "id": "17722675008104"
+  },
+  {
     "title": "FounderSpace：AI驱动的30分钟创业验证平台",
     "summary": "FounderSpace利用AI在30分钟内验证创业想法，提供市场匹配度、用户来源等关键信息。",
     "detail": "FounderSpace是一个利用AI技术帮助创业者快速验证创业想法的平台。用户只需用简单的语言描述他们的概念，FounderSpace的AI代理就会从市场可行性、问题解决方案匹配度、目标受众和竞争定位等多个维度进行分析。最终，用户将收到一份包含执行摘要、战略定位和可操作的后续步骤的综合验证报告，帮助他们更好地了解市场并做出明智的决策。该平台旨在消除猜测，让创业者能够专注于更有可能成功的项目。",
@@ -1226,70 +1291,5 @@
     "link": "https://www.viewert.com/",
     "date": "2026-02-27",
     "id": "17721973013681"
-  },
-  {
-    "title": "AI 编程助手音效包：让你的代码充满魔兽争霸风",
-    "summary": "为你的 AI 编程助手添加《魔兽争霸》音效，趣味十足。",
-    "detail": "GitHub 上出现了一个有趣的开源项目，为 AI 编程助手（如 Claude Code）添加《魔兽争霸》中的 Peon 语音音效。该项目提供了 28 个游戏音效包，共 225 个声音文件，让开发者在编写代码时，可以听到“Work work!”等经典台词，增添编程乐趣。该项目展示了 AI 工具与游戏元素的结合，为开发者带来个性化的体验。",
-    "tags": [
-      "Dev",
-      "AI",
-      "Sound Effects"
-    ],
-    "link": "https://github.com/Citedy/game-sounds",
-    "date": "2026-02-27",
-    "id": "17721973013682"
-  },
-  {
-    "title": "Cloudflare 发布 Code Mode：大幅降低 AI Agent 使用 API 的 Token 成本",
-    "summary": "Cloudflare Code Mode 减少 AI Agent 调用 API 的 Token 消耗。",
-    "detail": "Cloudflare 发布了 Code Mode，旨在解决 AI Agent 调用大量 API 时 Token 成本过高的问题。传统方式下，2500 个 API 接口可能需要 200 万个 Token，而 Code Mode 通过精简工具，将 Token 数量降低到约 1000 个。这使得 AI Agent 能够更经济高效地利用 Cloudflare API，为开发者提供了更强大的 AI 集成能力。",
-    "tags": [
-      "Dev",
-      "AI",
-      "API"
-    ],
-    "link": "https://twitter.com/Cloudflare/status/2027331989632581690",
-    "date": "2026-02-27",
-    "id": "17721973013683"
-  },
-  {
-    "title": "postmarketOS 禁止使用生成式 AI",
-    "summary": "postmarketOS 更新政策，明确禁止在开发中使用生成式 AI。",
-    "detail": "postmarketOS 更新了其 AI 政策，明确禁止在项目开发中使用生成式 AI。此举旨在确保代码质量和可控性，避免潜在的版权和安全风险。postmarketOS 强调人工贡献的重要性，并鼓励开发者保持对代码的深入理解和掌控。这一政策反映了开源社区对 AI 技术应用的谨慎态度。",
-    "tags": [
-      "News",
-      "AI",
-      "Open Source"
-    ],
-    "link": "https://postmarketos.org/blog/2026/02/26/pmOS-update-2026-02/",
-    "date": "2026-02-27",
-    "id": "17721973013684"
-  },
-  {
-    "title": "APort Vault：AI Agent 安全性 CTF 挑战赛",
-    "summary": "APort Vault 推出 CTF 挑战赛，测试 AI Agent 的安全防护能力。",
-    "detail": "APort Vault 推出了一项公开的 CTF（Capture The Flag）挑战赛，旨在测试 AI Agent 的安全防护能力。该挑战模拟了 AI 管理银行账户等场景，探讨了 AI 被欺骗的风险，并强调了 APort 在 AI 安全防护方面的作用。该挑战赛旨在提高人们对 AI Agent 安全问题的重视，并促进相关安全技术的发展。",
-    "tags": [
-      "News",
-      "Security",
-      "AI Agent"
-    ],
-    "link": "https://vault.aport.io/",
-    "date": "2026-02-27",
-    "id": "17721920256720"
-  },
-  {
-    "title": "PewDiePie 自制 AI 编程模型：不堪回首的实验",
-    "summary": "知名 YouTuber PewDiePie 训练了自己的 AI 编程模型，并表示对该项目感到后悔。",
-    "detail": "知名 YouTuber PewDiePie 发布视频，展示了他训练的 AI 编程模型。视频标题为“I wish I never did this project..”，暗示他对该项目的结果并不满意。虽然视频内容没有详细介绍模型的技术细节，但表明了 AI 在编程领域的应用探索，以及可能遇到的挑战和局限性。该视频引发了人们对 AI 编程能力和实际应用效果的思考。",
-    "tags": [
-      "News",
-      "LLM",
-      "Coding"
-    ],
-    "link": "https://www.youtube.com/watch?v=aV4j5pXLP-I",
-    "date": "2026-02-27",
-    "id": "17721920256721"
   }
 ]
