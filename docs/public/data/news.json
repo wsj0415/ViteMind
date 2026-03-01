@@ -1,16 +1,81 @@
 [
   {
-    "title": "AI招聘工具：告别猎头公司，更快更高效地招聘",
-    "summary": "Hire Flow利用AI自动化招聘流程，帮助企业更快找到合适的候选人。",
-    "detail": "Hire Flow 是一款旨在取代传统猎头公司的AI工具。它通过分析理想候选人的LinkedIn资料或职位描述，自动在Indeed、LinkedIn和Glassdoor等平台发布招聘信息，并利用AI筛选和联系潜在候选人。最终，Hire Flow会整理出高质量的候选人名单，并安排面试，从而简化招聘流程，帮助企业节省时间和成本。该工具特别适合希望提高招聘效率的企业。",
+    "title": "美国科技公司向以色列提供AI模型，加剧战争争议",
+    "summary": "美国科技公司被指为以色列提供AI模型，引发关于AI在战争中角色的伦理争议。",
+    "detail": "美联社报道指出，美国科技公司向以色列提供了人工智能模型，这些技术被用于军事目的，引发了关于AI在战争中扮演角色的伦理讨论。该事件突显了科技公司在军事领域的参与程度，以及AI技术可能带来的潜在风险和责任。随着AI技术的不断发展，其在军事领域的应用将面临更多的伦理审查和监管挑战，需要科技公司、政府和国际社会共同探讨和制定相关规范。",
+    "tags": [
+      "News",
+      "AI伦理",
+      "军事"
+    ],
+    "link": "https://apnews.com/article/israel-palestinians-ai-weapons-430f6f15aab420806163558732726ad9",
+    "date": "2026-03-01",
+    "id": "17723444151950"
+  },
+  {
+    "title": "Engram：为AI编码代理提供持久化记忆，提升效率",
+    "summary": "Engram为Claude Code等AI代理提供知识图谱和记忆功能，解决AI代理遗忘问题。",
+    "detail": "Engram 是一款为 AI 编码代理设计的持久化记忆 MCP 服务器，旨在解决 AI 代理在会话中遗忘上下文的问题。它通过构建知识图谱、整合信息和激活相关知识，使 AI 代理能够记住用户的偏好、项目背景和关系，从而在后续会话中提供更智能的建议和帮助。与传统的向量数据库不同，Engram 侧重于理解而非存储，能够提取实体、发现矛盾并整合知识，从而提升 AI 编码代理的效率和用户体验。目前已获得2.5k downloads。",
     "tags": [
       "New",
-      "AI",
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://www.engram.fyi/",
+    "date": "2026-03-01",
+    "id": "17723444151951"
+  },
+  {
+    "title": "OpenPista：基于Rust的AI Agent，通过Telegram/CLI控制操作系统",
+    "summary": "OpenPista是一个Rust实现的本地AI Agent，可通过Telegram/CLI控制操作系统。",
+    "detail": "OpenPistaCrab 是一个基于 Rust 的本地优先 AI 代理，它统一了 QUIC 网络、CLI/Telegram 通道、工具执行和持久 SQLite 内存。它允许用户通过 Telegram 或命令行界面与 AI 代理交互，执行操作系统命令和任务。该项目强调本地优先，意味着所有数据和处理都在本地进行，从而提高了安全性和隐私性。Rust 语言的选择也保证了性能和可靠性。",
+    "tags": [
+      "New",
+      "Dev",
+      "Rust"
+    ],
+    "link": "https://github.com/openpista/openpista",
+    "date": "2026-03-01",
+    "id": "17723444151952"
+  },
+  {
+    "title": "HireFlow：用AI替代招聘机构，更快更好地招聘人才",
+    "summary": "HireFlow利用AI自动发布职位、寻找候选人并安排面试，旨在取代传统招聘机构。",
+    "detail": "HireFlow 是一款旨在替代传统招聘机构的 AI 工具。它通过分析理想候选人的 LinkedIn 资料或职位描述，自动在 Indeed、LinkedIn 和 Glassdoor 等平台发布职位，并利用 AI 寻找合适的候选人并发送个性化的邀请。HireFlow 还会对候选人进行初步筛选，并将最匹配的候选人资料整理成清晰的列表，方便招聘人员进行评估和安排面试。该工具旨在提高招聘效率，降低招聘成本。",
+    "tags": [
+      "New",
+      "AI工具",
       "招聘"
     ],
     "link": "https://hire-flow-io.netlify.app/",
     "date": "2026-03-01",
-    "id": "17723408972680"
+    "id": "17723444151953"
+  },
+  {
+    "title": "PrepareYourself.app：免费AI学习工具，10秒生成学习卡片",
+    "summary": "PrepareYourself.app 是一款免费AI学习工具，可快速将笔记转换为学习卡片。",
+    "detail": "PrepareYourself.app 是一款免费的 AI 学习工具，用户只需粘贴笔记、职位描述或教学大纲，即可在 10 秒内生成 AI 学习卡片、测验和总结。该工具支持多种语言，无需注册，并已被 40 多个国家/地区的用户使用。它提供多种学习模式，包括总结、要点、学习卡片、测验和解释，旨在帮助学生更有效地准备考试和面试。",
+    "tags": [
+      "New",
+      "AI工具",
+      "教育"
+    ],
+    "link": "https://prepareyourself.app/",
+    "date": "2026-03-01",
+    "id": "17723444151954"
+  },
+  {
+    "title": "Memctl v0.1.0：AI编码代理的开源共享持久内存",
+    "summary": "Memctl为AI编码代理提供跨IDE和机器的共享持久内存，解决上下文丢失问题。",
+    "detail": "Memctl v0.1.0 是一个开源的共享持久内存系统，专为 AI 编码代理设计。它通过 MCP 协议在不同的 IDE、机器和工具之间同步上下文，使 AI 代理能够记住之前的会话内容，避免重复学习。Memctl 旨在解决 AI 编码代理在没有持久上下文的情况下，每次会话都需要重新扫描代码库、丢失上下文以及团队成员之间建议不一致的问题。包括 GitHub、Vercel、Stripe 等公司都在使用。",
+    "tags": [
+      "New",
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://memctl.com/",
+    "date": "2026-03-01",
+    "id": "17723444151955"
   },
   {
     "title": "SpecLock：AI代码约束引擎，防止AI破坏锁定代码",
@@ -24,19 +89,6 @@
     "link": "https://github.com/sgroy10/speclock",
     "date": "2026-03-01",
     "id": "17723408972681"
-  },
-  {
-    "title": "AI学习工具：10秒内将笔记转化为闪卡",
-    "summary": "PrepareYourself.app 利用AI快速生成学习卡片、测验和总结。",
-    "detail": "PrepareYourself.app 是一款免费的 AI 学习工具，用户只需粘贴笔记，即可在 10 秒内生成闪卡、测验和总结。该工具支持多种文件格式，包括 PDF、DOCX、TXT、MD 和图片。它还提供多种学习模式，如总结、要点、闪卡、学习卡、测验和解释，并支持超过 11 种语言。PrepareYourself.app 旨在帮助学生更有效地准备考试，并已被全球 40 多个国家的用户使用。",
-    "tags": [
-      "New",
-      "AI",
-      "教育"
-    ],
-    "link": "https://prepareyourself.app/",
-    "date": "2026-03-01",
-    "id": "17723408972682"
   },
   {
     "title": "AI助手解放创始人：自动化处理繁琐事务",
@@ -63,19 +115,6 @@
     "link": "https://trysailor.ai/",
     "date": "2026-03-01",
     "id": "17723408972684"
-  },
-  {
-    "title": "Memctl：AI编码代理的开源共享持久内存",
-    "summary": "Memctl 为AI编码代理提供跨IDE和机器的共享、分支感知内存。",
-    "detail": "Memctl 是一个开源的共享持久内存系统，专为 AI 编码代理设计。它允许 AI 代理在不同的 IDE、机器和工具之间共享上下文，并通过 MCP 协议进行同步。Memctl 解决了 AI 编码代理在每个会话中重置上下文的问题，使代理能够记住过去的决策和约定，避免重复解释架构。该工具已被 GitHub、Vercel 和 Stripe 等公司的工程团队使用，旨在提高 AI 编码代理的效率和一致性。",
-    "tags": [
-      "Dev",
-      "AI",
-      "代码生成"
-    ],
-    "link": "https://memctl.com/",
-    "date": "2026-03-01",
-    "id": "17723408972685"
   },
   {
     "title": "COMMAND：AI堆栈执行前的治理集成",
@@ -1248,45 +1287,5 @@
     "link": "https://veevid.ai/nano-banana-2",
     "date": "2026-02-28",
     "id": "17722743355472"
-  },
-  {
-    "title": "AI 编码 Agent 安全审计：多数存在 Prompt 注入漏洞",
-    "summary": "Grith AI 审计了 7 个 AI 编码 Agent 的安全性，发现多数存在 Prompt 注入漏洞，仅 1 个具有操作系统级沙箱。",
-    "detail": "Grith AI 对 7 个 AI 编码 Agent 进行了安全审计，结果显示，仅有 1 个 Agent 具有操作系统级别的沙箱，没有 Agent 具有 per-syscall 评估机制，并且所有 Agent 都容易受到 Prompt 注入攻击。 这表明当前 AI 编码 Agent 在安全性方面存在显著的风险，需要开发者和研究人员进一步关注和改进。",
-    "tags": [
-      "News",
-      "Security",
-      "Dev"
-    ],
-    "link": "https://twitter.com/grithai/status/2027410244352028683",
-    "date": "2026-02-28",
-    "id": "17722743355473"
-  },
-  {
-    "title": "开源领域生成式AI政策全景分析",
-    "summary": "RedMonk分析了32个开源组织的AI政策，揭示了质量、版权和伦理是主要关注点。",
-    "detail": "RedMonk发布了一份关于开源社区如何应对AI生成内容的报告。该报告分析了包括Linux Foundation、Apache和Eclipse等32个开源组织的生成式AI政策，旨在了解有多少项目制定了正式政策，以及这些社区对AI的立场是宽松、限制还是未定。分析结果表明，代码质量、版权责任和伦理是开源社区在制定AI政策时的主要考虑因素。该报告还提供了一个交互式可视化工具，用于探索不同的政策立场，并比较不同组织如何权衡质量、版权和伦理问题。此报告对于了解开源社区如何适应AI技术具有重要意义。",
-    "tags": [
-      "News",
-      "Open Source",
-      "LLM"
-    ],
-    "link": "https://redmonk.com/kholterhoff/2026/02/26/generative-ai-policy-landscape-in-open-source/",
-    "date": "2026-02-28",
-    "id": "17722709028830"
-  },
-  {
-    "title": "RayClaw：Rust 🦀 打造的开源 AI Agent",
-    "summary": "RayClaw 是一个用 Rust 构建的 AI Agent，灵感来自 OpenClaw，欢迎贡献。",
-    "detail": "RayClaw 是一个使用 Rust 编程语言构建的开源 AI Agent，其设计灵感来源于 OpenClaw、NanoClaw 等项目。该项目旨在创建一个独立的 AI 助手，并吸收了其他类似项目的设计理念。RayClaw 项目目前正处于积极开发阶段，功能可能会发生变化，并且欢迎社区贡献者参与。该项目提供英文和中文文档，并提供 crates.io 链接、项目网站和 Discord 社区链接。",
-    "tags": [
-      "New",
-      "Dev",
-      "Rust",
-      "AI Agent"
-    ],
-    "link": "https://github.com/rayclaw/rayclaw",
-    "date": "2026-02-28",
-    "id": "17722709028831"
   }
 ]
