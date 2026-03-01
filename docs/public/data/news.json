@@ -1,5 +1,44 @@
 [
   {
+    "title": "AgentLens：开源AI Agent可观测性平台",
+    "summary": "AgentLens是一个自托管平台，用于调试和监控AI Agent。",
+    "detail": "AgentLens是一个开源的可观测性平台，专为AI Agent设计，旨在解决多Agent系统调试困难的问题。它提供拓扑图，展示Agent的工具调用、LLM调用和子Agent生成；时间旅行回放，逐帧查看Agent运行；Trace对比，并排比较两次运行；成本跟踪，支持多种模型；实时流式传输；异常检测告警；以及OTel数据摄取。AgentLens兼容LangChain、CrewAI、AutoGen、LlamaIndex和Google ADK等框架，使用React 19 + FastAPI + SQLite/PostgreSQL技术栈，并提供Docker部署方式。",
+    "tags": [
+      "Dev",
+      "AI Agent",
+      "Debugging"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47205382",
+    "date": "2026-03-01",
+    "id": "17723608365200"
+  },
+  {
+    "title": "Unbound AI：无限制的AI视频生成器",
+    "summary": "Unbound AI提供无过滤的AI视频生成，适用于成人内容创作。",
+    "detail": "Unbound AI是一个AI视频生成平台，声称提供完全的创作自由，没有内容过滤。它允许用户通过文本或图像生成短视频，并提供快速生成和即时下载功能。该平台强调隐私保护，用户的提示和视频不会公开。Unbound AI主要面向成人内容创作者、实验艺术家等。提供每月订阅计划，起价为15美元。目前有闪购活动，最高可节省25%。",
+    "tags": [
+      "New",
+      "AI视频",
+      "内容创作"
+    ],
+    "link": "https://unbound.video/",
+    "date": "2026-03-01",
+    "id": "17723608365201"
+  },
+  {
+    "title": "Hackerbot-Claw：AI驱动的GitHub Actions漏洞利用",
+    "summary": "一个名为Hackerbot-Claw的AI Bot正在积极利用GitHub Actions中的漏洞。",
+    "detail": "在2026年2月21日至28日期间，一个名为`hackerbot-claw`的GitHub账户系统地扫描公共仓库，寻找可利用的GitHub Actions工作流漏洞。该账户自称是“由claude-opus-4-5驱动的自主安全研究代理”，并索要加密货币捐款。该Bot攻击了包括Microsoft、DataDog和CNCF在内的多个知名项目，成功地在至少4个目标中实现了任意代码执行，并从GitHub上最受欢迎的仓库之一中提取了具有写入权限的GITHUB_TOKEN。攻击者使用了5种不同的漏洞利用技术。",
+    "tags": [
+      "News",
+      "安全",
+      "GitHub Actions"
+    ],
+    "link": "https://www.stepsecurity.io/blog/hackerbot-claw-github-actions-exploitation",
+    "date": "2026-03-01",
+    "id": "17723608365202"
+  },
+  {
     "title": "AI 领域先驱李飞飞的 World Labs 获 10 亿美元融资",
     "summary": "李飞飞教授的 World Labs 获得 10 亿美元融资，加速AI研究。",
     "detail": "AI 领域先驱李飞飞教授的 World Labs 获得了 10 亿美元的巨额融资。这笔资金将用于支持 World Labs 在人工智能领域的研究和创新，进一步推动 AI 技术的发展和应用。李飞飞教授在 AI 领域的贡献备受认可，此次融资也反映了投资者对 AI 领域未来发展前景的信心。World Labs 致力于解决 AI 领域的关键挑战，并探索 AI 在各个行业的应用潜力。此次融资将有助于 World Labs 吸引更多顶尖人才，加速技术创新，并在全球范围内扩大影响力。具体的技术方向和应用领域尚未明确披露，但预计将涵盖计算机视觉、自然语言处理、机器学习等多个方面。",
@@ -1248,44 +1287,5 @@
     "link": "https://github.com/0j/memorykit",
     "date": "2026-02-28",
     "id": "17722922498486"
-  },
-  {
-    "title": "AI 工具会实现大规模情报收集吗？",
-    "summary": "Hacker News 讨论：AI 工具是否会促进大规模情报收集？",
-    "detail": "Hacker News 上发起了一个讨论，探讨 AI 工具是否会促进大规模情报收集。该讨论引发了关于隐私、安全和伦理的担忧。一些人认为，AI 工具可以被用于监视和操纵个人，而另一些人则认为，AI 工具可以被用于改善社会。该讨论没有达成明确的结论，但强调了 AI 工具的潜在风险和益处。",
-    "tags": [
-      "News",
-      "AI",
-      "情报"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47195234",
-    "date": "2026-02-28",
-    "id": "17722922498487"
-  },
-  {
-    "title": "AI 转型：从聊天机器人到 AI 智能体管理",
-    "summary": "Anthropic 和 OpenAI 发布新产品，推动 AI 从对话伙伴向可委派的智能体团队转变。",
-    "detail": "Anthropic 和 OpenAI 近期发布了基于相同理念的产品：用户不再是与单个 AI 助手聊天，而是管理 AI 智能体团队，将任务分解并并行运行。Anthropic 推出 Claude Opus 4.6 及其“智能体团队”功能，允许开发者启动多个 AI 智能体，将任务分解为独立部分，自主协调并并发运行。OpenAI 也在积极布局智能体。尽管当前 AI 智能体仍需大量人工干预来纠正错误，且尚无独立评估证实多智能体工具能可靠地超越单人开发者，但整个行业正朝着 AI 作为可委派劳动力的方向发展。这种转变可能会对软件行业产生深远影响。",
-    "tags": [
-      "News",
-      "LLM",
-      "AI Agent"
-    ],
-    "link": "https://arstechnica.com/information-technology/2026/02/ai-companies-want-you-to-stop-chatting-with-bots-and-start-managing-them/",
-    "date": "2026-02-28",
-    "id": "17722886277080"
-  },
-  {
-    "title": "AI 颠覆围棋界：AI 如何重塑顶尖棋手的思维方式",
-    "summary": "AI 正在彻底改变围棋，颠覆了数百年来的原则，并引入了全新的策略。",
-    "detail": "2016年，Google DeepMind 的 AlphaGo 击败韩国围棋棋手李世石，震惊世界。此后的几年里，AI 彻底改变了围棋。它颠覆了几个世纪以来关于最佳走法原则，并引入了全新的走法。棋手现在训练以尽可能地复制 AI 的走法，即使机器的思维对他们来说仍然是神秘的。同时，AI 正在普及训练，越来越多的女性棋手因此而晋升。如今，不使用 AI 几乎不可能参加职业比赛。有些人说这项技术已经耗尽了游戏的创造力，而另一些人则认为人类仍然有发明的空间。",
-    "tags": [
-      "News",
-      "AI",
-      "围棋"
-    ],
-    "link": "https://www.technologyreview.com/2026/02/27/1133754/the-download-how-ai-is-shaking-up-go-and-a-cybersecurity-mystery/",
-    "date": "2026-02-28",
-    "id": "17722886277081"
   }
 ]
