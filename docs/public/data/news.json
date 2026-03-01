@@ -1,5 +1,109 @@
 [
   {
+    "title": "Block 大裁员 4000 人，引发 AI 替代人工的担忧",
+    "summary": "Jack Dorsey 的 Block 公司裁员 4000 人，引发了人们对 AI 在裁员中扮演角色的质疑。",
+    "detail": "Block 公司的大规模裁员引发了人们对“AI 洗牌”的担忧，即公司可能利用 AI 作为裁员的借口。虽然 AI 提高了效率，但大规模裁员也引发了关于技术进步对就业市场影响的讨论。此次事件突显了在 AI 快速发展时代，企业在采用新技术时需要更加透明和负责任，并关注对员工和社会的影响。Block 公司的举动可能会促使其他公司重新评估其 AI 战略和劳动力规划。",
+    "tags": [
+      "News",
+      "AI",
+      "裁员"
+    ],
+    "link": "https://www.bloomberg.com/news/articles/2026-03-01/jack-dorsey-s-4-000-job-cuts-at-block-arouse-suspicions-of-ai-washing",
+    "date": "2026-03-01",
+    "id": "17723858515840"
+  },
+  {
+    "title": "AskVerdict AI：多智能体辩论平台，加速决策过程",
+    "summary": "AskVerdict AI 利用多智能体 AI 辩论，以低成本（约 0.08 美元/辩论）帮助用户更快做出更好的决策。",
+    "detail": "AskVerdict AI 是一个决策智能平台，它部署专业的 AI 智能体，对决策的各个角度进行压力测试，发现盲点，并提供结构化的、有证据支持的结论和置信度评分。该平台兼容多种 AI 模型，包括 Anthropic 的 Claude、OpenAI 的 GPT、Google 的 Gemini 和 xAI 的 Grok，以及 OpenRouter 上的 200 多种模型。用户可以选择使用自己的 API 密钥。该平台声称已帮助用户做出了 1000 多个决策，平均置信度为 87%，每个结论耗时不到 5 分钟。",
+    "tags": [
+      "New",
+      "AI",
+      "决策"
+    ],
+    "link": "https://www.askverdict.ai/",
+    "date": "2026-03-01",
+    "id": "17723858515841"
+  },
+  {
+    "title": "AI 从原型到主力：14 天内完成 106 个 PR 的 6 个实践",
+    "summary": "将 AI 从原型转变为工作主力，通过 6 个实践在 14 天内完成 106 个 PR。",
+    "detail": "文章总结了将 AI 从原型验证转变为实际生产力的六个关键实践。包括：1. 将规范和计划作为源代码管理；2. 使用三个不同的模型进行代码审查，以发现更多 bug；3. 强制执行流程，确保 AI 遵循规范；4. 注释而非直接编辑代码；5. 使用代理协调代理；6. 管理完整的生命周期，从规范到 PR 甚至更远。结果显示，一名工程师能够完成通常需要 3-4 人团队才能完成的工作，代码质量也得到提升。虽然耗时更长，token 消耗更多，但每个 PR 的成本仍然合理（1.6 美元）。",
+    "tags": [
+      "Dev",
+      "AI",
+      "编程"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47208471",
+    "date": "2026-03-01",
+    "id": "17723858515842"
+  },
+  {
+    "title": "我用 AI 在 4 天内构建了一个 Scheme 编译器",
+    "summary": "作者利用 AI 在短短 4 天内构建了一个 Scheme 编译器，并实现了性能优化。",
+    "detail": "作者受到他人使用 AI 快速构建项目的启发，决定构建一个 Scheme 编译器到 WASM。项目名为 Puppy Scheme，在极短的时间内完成。该编译器支持 73% 的 R5RS 和 R7RS，支持 WASI 2 和组件模型，使用 WASM GC，具有良好的死代码消除功能，可以自托管，并构建了一个在 Cloudflare Workers 中运行的网站。作者还提到，通过让 Claude 优化性能，编译时间从 3 分半钟缩短到 11 秒。",
+    "tags": [
+      "Dev",
+      "AI",
+      "编译器"
+    ],
+    "link": "https://matthewphillips.info/programming/posts/i-built-a-scheme-compiler-with-ai/",
+    "date": "2026-03-01",
+    "id": "17723858515843"
+  },
+  {
+    "title": "Epstein-Search：本地 AI 驱动的 Epstein 文件搜索引擎",
+    "summary": "Epstein-Search 是一个 Python 库，用于搜索 Epstein 文件，利用 AI 驱动的向量搜索，可在本地运行。",
+    "detail": "Epstein-Search 是一个 Python 库，允许用户使用 AI 驱动的向量搜索，在本地搜索公开的 Epstein 文件，包括法庭文件、FBI 报告、飞行记录和 DOJ 出版物。该工具无需 API 密钥即可进行搜索，旨在为研究人员提供免费、开源的工具。",
+    "tags": [
+      "Dev",
+      "AI",
+      "Python"
+    ],
+    "link": "https://github.com/simulationship/epstein-search",
+    "date": "2026-03-01",
+    "id": "17723858515844"
+  },
+  {
+    "title": "OpenAI 公布与五角大楼合作的更多细节",
+    "summary": "OpenAI 披露了与美国国防部合作的更多细节，但 CEO 承认合作过于仓促，观感不佳。",
+    "detail": "OpenAI 首席执行官 Sam Altman 承认，与美国国防部的合作“绝对是仓促的”，并且“观感不佳”。这表明 OpenAI 在与军方合作的问题上，面临着来自内部和外部的压力，需要在技术发展与伦理道德之间找到平衡。此次披露可能旨在缓解公众的担忧，并强调 OpenAI 在军事领域的应用仍然受到严格的道德约束。",
+    "tags": [
+      "News",
+      "AI",
+      "OpenAI"
+    ],
+    "link": "https://techcrunch.com/2026/03/01/openai-shares-more-details-about-its-agreement-with-the-pentagon/",
+    "date": "2026-03-01",
+    "id": "17723858515845"
+  },
+  {
+    "title": "AI Agent 的残酷真相：开源构建的经验教训",
+    "summary": "构建开源 AI Agent 的经验：框架脆弱，但模型、工具和抽象的改进正在改变现状。",
+    "detail": "本文深入探讨了构建 AI Agent 的实际情况，作者与 Eric Zhu 回顾了在 Microsoft 构建 Semantic Kernel、Autogen 和 GraphRAG 的经验，分析了 AI 系统的构建方式，早期 Agent 框架的脆弱性，以及模型、工具和抽象的改进如何改变现状。讨论了内存、编排、开源等方面的问题，以及构建速度的显著提升。此外，还探讨了 AI 从业者的职业发展、避免倦怠以及如何在快速发展的领域中保持专注。",
+    "tags": [
+      "Dev",
+      "AI",
+      "Agent"
+    ],
+    "link": "https://alexchao.substack.com/p/the-hard-truth-about-ai-agents-what",
+    "date": "2026-03-01",
+    "id": "17723858515846"
+  },
+  {
+    "title": "SignalScan：自动化 SaaS 目录发布和 AI SEO 工具",
+    "summary": "SignalScan 是一款自动化工具，可进行技术审计并一键发布到 100 多个 SaaS 目录，优化 AI SEO。",
+    "detail": "SignalScan 提供全面的技术审计，涵盖安全性、SEO、AI 爬虫访问、DNS 和性能信号。它可以帮助用户在问题影响排名、信任和转化率之前，通过复制粘贴代码来修复关键问题。该工具还提供一键发布功能，可以将启动项目发布到 100 多个目录。SignalScan 能够自动调整图像大小、裁剪屏幕截图，并为 ProductHunt、Twitter 和 LinkedIn 生成特定的横幅。",
+    "tags": [
+      "New",
+      "AI",
+      "SEO"
+    ],
+    "link": "https://signalscan.eu/",
+    "date": "2026-03-01",
+    "id": "17723858515847"
+  },
+  {
     "title": "AI 实用性：程序员、科学家和作家视角差异",
     "summary": "AI工具对不同领域专业人士的价值和应用方式存在显著差异。",
     "detail": "文章指出，程序员、科学家和作家对AI的理解和应用方式截然不同。程序员倾向于精确且易于验证的解决方案，科学家需要深入研究知识并寻找应用方法，而作家则侧重于管理角色和产生特定印象。这种差异不仅体现在理解上，也体现在AI的实际能力和相关功能上。文章还提到，AI开发者往往不了解其他领域对AI的需求和可能性，并提供了一个包含相关主题的文档链接，强调这些观点并非绝对真理，仅供参考。",
@@ -63,19 +167,6 @@
     "link": "https://plagiarismremover.ai/",
     "date": "2026-03-01",
     "id": "17723826123924"
-  },
-  {
-    "title": "SignalScan：自动化SaaS目录发布和AI SEO引擎",
-    "summary": "SignalScan自动化技术审计和启动引擎，助力SaaS产品发布和SEO优化。",
-    "detail": "SignalScan 提供了一套自动化工具，用于SaaS产品的技术审计和目录发布。它可以进行全面的技术审计，包括安全性、SEO、AI爬虫访问、DNS和性能信号等方面，并提供修复代码。此外，SignalScan还可以将初创公司一键发布到100多个目录平台，无需手动操作。该工具旨在帮助用户在扩大流量之前发现并修复潜在问题，提高排名、信任度和转化率。",
-    "tags": [
-      "New",
-      "SEO",
-      "自动化"
-    ],
-    "link": "https://signalscan.eu/",
-    "date": "2026-03-01",
-    "id": "17723826123925"
   },
   {
     "title": "Chromectl：为AI Agent提供专属Chrome会话的CLI工具",
@@ -1201,93 +1292,5 @@
     "link": "https://techcrunch.com/2026/02/28/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute/",
     "date": "2026-02-28",
     "id": "17723137514312"
-  },
-  {
-    "title": "AI基础设施竞赛：数十亿美元的投资涌入",
-    "summary": "AI 基础设施建设迎来投资热潮，Meta、Oracle、微软、谷歌和 OpenAI 纷纷投入巨资。",
-    "detail": "随着 AI 技术的快速发展，支撑 AI 模型运行的基础设施建设也变得至关重要。Nvidia 预计到本十年末，AI 基础设施的投资将达到 3 到 4 万亿美元。文章列举了 Meta、Oracle、Microsoft、Google 和 OpenAI 等公司在 AI 基础设施上的巨额投资，包括数据中心建设和云服务扩展。微软对 OpenAI 的早期投资是 AI 繁荣的开端，而现在各家公司都在争夺 AI 基础设施的主导地位。这场竞赛对电力供应和行业建设能力提出了巨大挑战。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/02/28/billion-dollar-infrastructure-deals-ai-boom-data-centers-openai-oracle-nvidia-microsoft-google-meta/",
-    "date": "2026-02-28",
-    "id": "17723137514313"
-  },
-  {
-    "title": "VocaAI：你的隐形AI项目经理，24/7全天候运行",
-    "summary": "VocaAI 是一款AI项目经理，自动同步团队信息，提升协作效率。",
-    "detail": "VocaAI 是一款 AI 项目经理，旨在解决团队协作中的信息同步问题。它可以自动捕获上下文信息，保持团队成员之间的实时对齐，并突出显示重要事项。VocaAI 通过 MCP 协议连接 GitHub、Linear、Slack 等工具，自动提取目标、决策和障碍，并将信息存储在个人、项目和工作区三个记忆层中。它还能够根据用户设定的规则自动通知相关人员，并提供每日焦点信息。适用于需要高效协作的快速发展团队。",
-    "tags": [
-      "New",
-      "Dev"
-    ],
-    "link": "https://www.tryvoca.ai/",
-    "date": "2026-02-28",
-    "id": "17723137514314"
-  },
-  {
-    "title": "AgentLookup：AI Agent的公共注册中心，实现智能体互联",
-    "summary": "AgentLookup 提供 API 接口，方便 AI Agent 注册、发现和查找彼此。",
-    "detail": "AgentLookup 是一个 AI Agent 的公共注册中心，旨在促进 AI Agent 之间的互联互通。通过提供的 API 接口，AI Agent 可以注册自身信息，并发现和查找其他 Agent。该平台无需账户即可搜索，并提供 JSON 格式的完整规范。AgentLookup 致力于构建一个开放的 AI Agent 生态系统，促进 AI Agent 之间的协作和信息共享。该平台具有高可用性，正常运行时间超过 99.97%。",
-    "tags": [
-      "New",
-      "Dev"
-    ],
-    "link": "https://agentlookup.dev",
-    "date": "2026-02-28",
-    "id": "17723137514315"
-  },
-  {
-    "title": "AI 用于国防是否削弱了宪法第二修正案？",
-    "summary": "探讨 AI 在国防应用中对公民持枪权的影响。",
-    "detail": "文章讨论了人工智能在国防领域日益增长的应用，以及这是否会削弱宪法第二修正案赋予公民的持枪权。作者认为，随着 AI 技术的日益强大，个人持枪对抗拥有 AI 技术的政府或组织变得越来越困难，从而使得持枪自卫的权利变得无效。文章引发了关于技术发展与公民权利之间平衡的思考。",
-    "tags": [
-      "News",
-      "AI",
-      "法律"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47199732",
-    "date": "2026-02-28",
-    "id": "17723104664180"
-  },
-  {
-    "title": "AI 时代，人类编写的代码还有价值吗？",
-    "summary": "讨论 AI 发展对传统人类代码价值的影响。",
-    "detail": "文章探讨了在人工智能快速发展的未来，由人类编写的（pre-AI）代码是否仍然具有价值。随着 AI 能够自动生成和优化代码，传统人类编写的代码的地位可能会受到挑战。然而，人类编写的代码可能仍然在特定领域或作为 AI 学习的基础数据中发挥作用。文章引发了对未来软件开发模式和程序员角色的思考。",
-    "tags": [
-      "News",
-      "AI",
-      "编程"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47199674",
-    "date": "2026-02-28",
-    "id": "17723104664181"
-  },
-  {
-    "title": "Velocity：AI 编码工作流控制平台",
-    "summary": "本地 AI 开发工具，支持 Claude, Codex, Gemini。",
-    "detail": "Velocity 是一个本地 AI 开发工具，旨在简化 AI 编码工作流程。它支持 Claude, Codex 和 Gemini 三种 CLI 提供商，允许开发者在一个应用中运行所有这些编码工具。Velocity 强调工作流优先，内置工作流构建器、路由图和会话详情等功能，方便开发者进行实验、审查和比较。该工具无需云运行时，可通过 npx 或 Git clone 快速安装。",
-    "tags": [
-      "Dev",
-      "AI",
-      "工具"
-    ],
-    "link": "https://optimalvelocity.io/",
-    "date": "2026-02-28",
-    "id": "17723104664182"
-  },
-  {
-    "title": "Claude Plan Reviewer：AI 对抗评审工具",
-    "summary": "使用竞争 AI 评审 Claude 代码计划，发现盲点。",
-    "detail": "Claude-plan-reviewer 是一个工具，用于在 Claude Code 编写代码之前，使用竞争 AI (Codex CLI 或 Gemini CLI) 对其实现计划进行对抗性审查。该工具拦截 Claude 的计划，并将其发送给审查 AI，根据审查结果决定是否允许 Claude 继续。通过这种方式，可以发现 Claude 的盲点，并改进最终的代码质量。该工具使用 Node.js 编写，代码量约 400 行，MIT 许可。",
-    "tags": [
-      "Dev",
-      "AI",
-      "代码评审"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47199487",
-    "date": "2026-02-28",
-    "id": "17723104664183"
   }
 ]
