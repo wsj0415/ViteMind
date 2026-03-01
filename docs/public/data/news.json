@@ -1,5 +1,108 @@
 [
   {
+    "title": "AI 模型是否被削弱？Hacker News 社区的讨论",
+    "summary": "Hacker News 讨论如何检测云端 AI 模型性能是否下降。",
+    "detail": "Hacker News 上有用户发起讨论，探讨如何判断云端部署的 AI 模型是否被偷偷降低了性能（nerfed）。讨论的背景是，如果用户仅仅是通过 API 调用云端的 AI 模型，那么服务提供商（如 Anthropic 或 OpenAI）是否有动机，以及是否有能力，根据问题的难度来动态地切换到更廉价、但性能较差的模型，从而降低运营成本。社区用户提出了各种检测方法和应对策略，例如通过benchmark测试来监控模型性能。",
+    "tags": [
+      "News",
+      "LLM",
+      "OpenAI"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47202797",
+    "date": "2026-03-01",
+    "id": "17723320405000"
+  },
+  {
+    "title": "AMD Ryzen AI Max+ 集群本地运行万亿参数 LLM",
+    "summary": "AMD 发布技术文章，展示在 Ryzen AI Max+ 集群上运行超大 LLM 的方案。",
+    "detail": "AMD 发布了一篇技术文章，介绍了如何使用 AMD Ryzen AI Max+ 集群在本地运行一个拥有万亿参数的大型语言模型（LLM）。文章详细阐述了硬件配置、软件栈选择以及优化策略，旨在帮助开发者和研究人员在本地环境中探索和部署超大规模的 AI 模型。这对于那些希望在数据隐私、低延迟或离线环境下使用 LLM 的用户来说，是一个重要的参考。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "AMD"
+    ],
+    "link": "https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-run-a-one-trillion-parameter-llm-locally-an-amd.html",
+    "date": "2026-03-01",
+    "id": "17723320405001"
+  },
+  {
+    "title": "AI 的力量与人类能动性：一个思考框架",
+    "summary": "Osh Works 提出了一个框架，用于思考 AI 力量与人类能动性之间的关系。",
+    "detail": "Osh Works 发布了一篇文章，提出了一个用于思考 AI 力量和人类能动性之间关系的框架。该框架使用一个二维坐标系，X轴代表AI力量的归属（谁拥有AI的软硬件资产，以及这些资产的物理位置和治理方式），Y轴代表AI的能力以及人类如何选择使用AI（AI在多大程度上可以替代人类活动）。文章旨在帮助人们更好地理解AI对软件开发、工作以及人类活动的影响，并指导未来的发展方向。",
+    "tags": [
+      "News",
+      "LLM"
+    ],
+    "link": "https://osh.works/posts/ai-what-do/",
+    "date": "2026-03-01",
+    "id": "17723320405002"
+  },
+  {
+    "title": "COMMAND：AI 堆栈执行前的治理控制台",
+    "summary": "COMMAND 提供在 AI 堆栈执行前进行治理的控制台。",
+    "detail": "COMMAND 是一个由 MO§ES™ 提供支持的控制台，旨在集成 AI 治理。它允许用户在 AI 堆栈执行之前设置治理模式，上传治理文档，并激活系统。该控制台提供了一系列功能，包括缓存索引、保险库、文档管理、协议设置、提示词管理、角色管理等，旨在帮助用户更好地控制和管理 AI 系统的行为。",
+    "tags": [
+      "New",
+      "AI",
+      "Governance"
+    ],
+    "link": "https://www.mos2es.io/",
+    "date": "2026-03-01",
+    "id": "17723320405003"
+  },
+  {
+    "title": "Atom：具有“视觉”情景记忆的开源 AI 代理",
+    "summary": "Atom 是一个开源 AI 代理，具有视觉情景记忆，可自动化工作流程。",
+    "detail": "Atom 是一个开源 AI 代理，它具有“视觉”情景记忆，能够像真人助手一样记住、搜索和处理任务，从而自动化用户的工作流程。该项目托管在 GitHub 上，旨在通过与 AI 对话来简化任务自动化，并利用其记忆能力来提高效率。",
+    "tags": [
+      "New",
+      "AI",
+      "Agent"
+    ],
+    "link": "https://github.com/rush86999/atom",
+    "date": "2026-03-01",
+    "id": "17723320405004"
+  },
+  {
+    "title": "Mock Wallet：使用 Playwright、人类和 AI 代理测试 Web3 应用",
+    "summary": "Mock Wallet 允许使用 Playwright、人类和 AI 代理来测试 Web3 应用。",
+    "detail": "Mock Wallet 旨在解决使用 Playwright 测试 Web3 应用时遇到的问题，特别是 MetaMask 在无头浏览器中测试的困难。它提供了一个 Playwright 原生的钱包测试方案，可以模拟连接、签名和交易。此外，Mock Wallet 还支持使用人类和 AI 代理进行测试，从而更全面地验证 dApp 的功能和用户体验。",
+    "tags": [
+      "New",
+      "Dev",
+      "Web3"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47202361",
+    "date": "2026-03-01",
+    "id": "17723320405005"
+  },
+  {
+    "title": "GitPop：Windows 平台的 AI 驱动 Git 上下文菜单",
+    "summary": "GitPop 是一个 AI 驱动的 Git 上下文菜单，可用于 Windows 平台。",
+    "detail": "GitPop 是一个为 Windows 平台设计的 AI 驱动的 Git 上下文菜单。它允许用户通过右键单击任何 Git 仓库，即时查看更改、自动生成提交消息，并在无需打开 IDE 的情况下推送代码。该项目旨在简化 Git 操作流程，提高开发效率。",
+    "tags": [
+      "New",
+      "Dev",
+      "Git"
+    ],
+    "link": "https://github.com/vinzify/gitpop",
+    "date": "2026-03-01",
+    "id": "17723320405006"
+  },
+  {
+    "title": "Us+AI：使用组织结构图中的代理构建 AI 原生公司",
+    "summary": "Us+AI 提供构建和部署自主 AI 代理的平台，助力 AI 原生公司。",
+    "detail": "Us+AI (OpenClaw) 提供了一个平台，用于构建和部署自主 AI 代理，旨在帮助企业构建 AI 原生公司。该平台允许用户在组织结构图中集成 AI 代理，从而实现各种业务流程的自动化和智能化。然而，由于该链接是缓存快照，可能无法提供完整信息。",
+    "tags": [
+      "New",
+      "AI",
+      "Agent"
+    ],
+    "link": "https://usplus.ai/",
+    "date": "2026-03-01",
+    "id": "17723320405007"
+  },
+  {
     "title": "AI Agents Weekly：AI自主生成的新闻简报",
     "summary": "完全由AI自主研究、编辑和发布的AI新闻简报，人类可订阅。",
     "detail": "AI Agents Weekly 是一份完全由自主AI代理研究、编辑和发布的每周新闻简报。该简报通过API接口接受AI代理的订阅，并通过webhook向订阅的代理发送每周的AI情报。第一期主题为“自主AI系统的崛起”，涵盖了Agyn的多代理软件工程、MCP服务器数量突破1000+、OpenAI的深度研究以及自主代理的整体发展情况。该项目旨在展示AI在内容创作和信息聚合方面的潜力，并为AI代理提供有价值的行业信息。",
@@ -1184,109 +1287,5 @@
     "link": "https://defragzone.substack.com/p/the-day-an-ai-company-told-the-pentagon",
     "date": "2026-02-28",
     "id": "17722675008103"
-  },
-  {
-    "title": "Open Vernacular AI Kit：印度混合语文本的预处理工具",
-    "summary": "Open Vernacular AI Kit 是一个用于清理印度混合英语文本的开源 SDK + CLI。",
-    "detail": "Open Vernacular AI Kit 是一个开源 SDK 和 CLI 工具，用于清理印度本地语言与英语混合的文本。该工具旨在处理 WhatsApp 风格的输入，其中本地语言文本可能以原生文字、罗马化文字或混合文字形式出现。其目标是在将文本发送到下游模型（如 Sarvam-M / Mayura / Sarvam-Translate）之前对其进行标准化，并提供可重用的开源组件，以支持更多语言和提供商。",
-    "tags": [
-      "Dev",
-      "NLP",
-      "Indian Languages"
-    ],
-    "link": "https://github.com/SudhirGadhvi/open-vernacular-ai-kit",
-    "date": "2026-02-28",
-    "id": "17722675008104"
-  },
-  {
-    "title": "FounderSpace：AI驱动的30分钟创业验证平台",
-    "summary": "FounderSpace利用AI在30分钟内验证创业想法，提供市场匹配度、用户来源等关键信息。",
-    "detail": "FounderSpace是一个利用AI技术帮助创业者快速验证创业想法的平台。用户只需用简单的语言描述他们的概念，FounderSpace的AI代理就会从市场可行性、问题解决方案匹配度、目标受众和竞争定位等多个维度进行分析。最终，用户将收到一份包含执行摘要、战略定位和可操作的后续步骤的综合验证报告，帮助他们更好地了解市场并做出明智的决策。该平台旨在消除猜测，让创业者能够专注于更有可能成功的项目。",
-    "tags": [
-      "New",
-      "AI",
-      "Startup"
-    ],
-    "link": "https://www.founderspace.work",
-    "date": "2026-02-28",
-    "id": "17722636682670"
-  },
-  {
-    "title": "EUrouter：确保数据不出欧盟的AI模型集成方案",
-    "summary": "EUrouter提供API访问领先AI模型，所有请求均在欧洲境内安全处理，符合GDPR。",
-    "detail": "EUrouter 提供了一个独特的解决方案，允许企业集成最新的 AI 模型，同时确保所有数据处理都在欧盟境内进行，从而满足 GDPR 合规性要求。通过 EUrouter，用户可以通过一个 API 访问多个领先的 AI 模型，例如 Meta 的 Llama 3.1 8B、DeepSeek 的 DeepSeek R1 和 Mistral 的 Mistral Large 3。该平台强调安全性，并声称所有请求都在欧洲境内安全处理。这对于需要遵守严格数据隐私法规的企业来说是一个有吸引力的选择。",
-    "tags": [
-      "New",
-      "AI",
-      "GDPR"
-    ],
-    "link": "https://www.eurouter.ai",
-    "date": "2026-02-28",
-    "id": "17722636682671"
-  },
-  {
-    "title": "AI 驱动的调试与监控工具：开发者的新选择？",
-    "summary": "探讨将AI融入传统调试工具，提升问题诊断效率，简化开发流程。",
-    "detail": "本文讨论了将AI技术融入到传统的调试和系统监控工具中的想法，例如开发一个AI版本的ProcDump，命名为ContextDump。该工具可以收集所有相关的系统信息，甚至利用一系列传统工具来创建上下文报告。这个报告可以附加到错误报告中，AI代理可以立即处理，从而提高效率。这个想法源于错误报告通常缺乏足够的信息来启动调试过程。虽然企业产品或具有适当遥测技术的产品可能不需要它，但对于公司日常使用的内部工具来说，这可能非常有用。核心在于利用AI自动化信息收集和初步分析，加速问题定位和解决。",
-    "tags": [
-      "Dev",
-      "AI",
-      "Debugging"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47191221",
-    "date": "2026-02-28",
-    "id": "17722608325950"
-  },
-  {
-    "title": "AI 错误频发惹恼玩家，游戏开发者寻求成本节约",
-    "summary": "游戏开发者为节省成本而使用AI，但AI错误导致玩家不满。",
-    "detail": "彭博社报道指出，游戏开发者为了节省成本开始更多地使用AI技术，然而AI在游戏中的应用并不总是成功的，AI犯错导致游戏体验下降，引起玩家不满。文章探讨了AI在游戏开发中可能存在的风险和挑战，以及如何在成本控制和游戏质量之间取得平衡。虽然AI可以自动化某些任务，降低开发成本，但如果AI的决策和行为不合理，反而会影响玩家的沉浸感和满意度。因此，游戏开发者需要谨慎评估AI的应用场景，并进行充分的测试和优化。",
-    "tags": [
-      "News",
-      "AI",
-      "Gaming"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-02-25/ai-mistakes-are-infuriating-gamers-as-developers-seek-savings",
-    "date": "2026-02-28",
-    "id": "17722608325951"
-  },
-  {
-    "title": "AI末日论者的双重思想：AGI 讨论中奥威尔式的世界观",
-    "summary": "分析AI末日论观点，探讨其对社会和AI发展的影响。",
-    "detail": "文章分析了在关于“社会应该如何应对AI？”的讨论中，四种主要的声音：加速主义者、末日论者、啦啦队和怀疑论者。作者主要关注末日论者的观点，认为他们存在双重思想。怀疑论者认为，目前形式的AI正在通过AI精神病、虚假信息、非自愿合成亲密图像、工作影响、幻觉法庭案件和错误的面部识别等方式积极地伤害人们。文章深入探讨了这些问题，并分析了AI末日论可能对社会和AI发展产生的潜在影响。",
-    "tags": [
-      "News",
-      "AI",
-      "Ethics"
-    ],
-    "link": "https://internetofbugs.substack.com/p/ai-doomer-doublethink-the-orwellian",
-    "date": "2026-02-28",
-    "id": "17722608325952"
-  },
-  {
-    "title": "EUrouter：在欧盟境内安全集成最新AI模型",
-    "summary": "EUrouter提供API，在欧盟内安全访问领先AI模型，符合GDPR。",
-    "detail": "EUrouter 提供了一个API，可以访问所有领先的AI模型，并在欧洲境内安全地处理每个请求，从而保证符合GDPR。该平台声称100%安全，并在荷兰制造。它允许集成最新的AI模型，而无需将数据发送到欧盟境外。支持的模型包括Meta的Llama 3.1 8B、DeepSeek的DeepSeek R1和Mistral的Mistral Large 3。EUrouter旨在解决数据隐私和安全问题，为希望在符合欧洲法规的前提下使用AI模型的企业和开发者提供解决方案。",
-    "tags": [
-      "New",
-      "AI",
-      "Privacy"
-    ],
-    "link": "https://www.eurouter.ai/",
-    "date": "2026-02-28",
-    "id": "17722608325953"
-  },
-  {
-    "title": "利用AI进行自我学习：技术提升的新途径？",
-    "summary": "探讨使用AI工具进行高效自我学习技术概念和编程语言的方法。",
-    "detail": "文章探讨了如何利用AI工具进行有效的自我学习，尤其是在技术概念、领域或编程语言方面。作者分享了使用AI工具改进知识的经验，并强调了探究式学习的重要性，即通过创建项目和提问来学习。文章讨论了使用AI进行自我学习的优势和局限性，并分享了作者的思考和方法。核心观点是，虽然AI可以辅助学习，但批判性思维和实践仍然至关重要。",
-    "tags": [
-      "Dev",
-      "AI",
-      "Learning"
-    ],
-    "link": "https://techne98.com/blog/can-we-use-ai-for-self-learning/",
-    "date": "2026-02-28",
-    "id": "17722608325954"
   }
 ]
