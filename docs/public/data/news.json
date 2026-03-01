@@ -1,5 +1,109 @@
 [
   {
+    "title": "AI训练数据投毒：创建网站即可发动攻击",
+    "summary": "研究表明，只需创建一个网站即可轻易污染AI训练数据，引发安全担忧。",
+    "detail": "一篇发表在 Schneier on Security 上的文章指出，通过创建一个包含虚假信息的网站，攻击者可以轻易地污染 AI 模型的训练数据。例如，作者仅用20分钟创建了一个关于“最佳科技记者吃热狗”的虚假文章，就可能对AI模型产生影响。这种攻击方式突显了 AI 系统在数据安全方面的脆弱性，以及对训练数据进行严格审查的必要性。该事件引发了人们对AI模型可靠性和安全性的担忧，并强调了开发更强大的防御机制以防止此类攻击的重要性。未来，AI开发者需要更加重视数据源的验证和清洗，以确保模型的准确性和安全性。",
+    "tags": [
+      "News",
+      "Security",
+      "AI"
+    ],
+    "link": "https://www.schneier.com/blog/archives/2026/02/poisoning-ai-training-data.html",
+    "date": "2026-03-01",
+    "id": "17723901613680"
+  },
+  {
+    "title": "AI生成内容引发的思考：人类在艺术和讨论中的角色",
+    "summary": "AI生成内容是否应被否定？关键在于它是否能引发有价值的人类讨论。",
+    "detail": "文章探讨了AI生成内容（包括艺术和文章）的价值。作者认为，即使内容完全由AI生成，如果它能够引发人类的欣赏和讨论，那么它就具有价值。文章将AI生成的艺术与摄影进行了类比，认为人类的参与（例如选择拍摄场景）赋予了摄影艺术价值。同样，如果AI生成的文章能够引发有趣的讨论，那么文章的来源（AI）就不那么重要了。这个观点挑战了我们对艺术和知识创造的传统观念，并引发了关于人类在AI时代的角色定位的思考。",
+    "tags": [
+      "News",
+      "AI",
+      "Ethics"
+    ],
+    "link": "https://simianwords.bearblog.dev/it-doesnt-matter-if-the-post-was-fully-ai-generated/",
+    "date": "2026-03-01",
+    "id": "17723901613681"
+  },
+  {
+    "title": "DEF CON 33：利用AI模型和嵌入中的影子数据",
+    "summary": "Patrick Walsh 在 DEF CON 33 上展示了如何利用 AI 模型中的影子数据。",
+    "detail": "这是一个关于 Patrick Walsh 在 DEF CON 33 会议上所做的演讲的视频，主题是关于如何利用 AI 模型和嵌入中的影子数据。影子数据是指 AI 模型在训练过程中产生的，但未被明确记录或使用的信息。这些数据可能包含敏感信息或漏洞，攻击者可以利用这些信息来攻击 AI 系统。该视频深入探讨了影子数据的概念，并展示了实际的攻击案例，旨在提高人们对 AI 安全风险的认识。",
+    "tags": [
+      "News",
+      "Security",
+      "AI"
+    ],
+    "link": "https://www.youtube.com/watch?v=O7BI4jfEFwA",
+    "date": "2026-03-01",
+    "id": "17723901613682"
+  },
+  {
+    "title": "别把失业归咎于AI：经济学家的理性分析",
+    "summary": "经济学人指出，不要将失业完全归咎于AI，需考虑其他经济因素。",
+    "detail": "经济学人发表文章，呼吁人们不要将所有就业问题都归咎于人工智能。文章指出，虽然AI在某些领域取代了人类工作，但还有其他经济因素在影响就业市场。文章可能深入分析了这些因素，例如全球化、技术变革、以及劳动力市场的结构性问题。文章的目的是为了更全面地理解就业市场的变化，并避免对AI产生过度恐慌。",
+    "tags": [
+      "News",
+      "Economics",
+      "AI"
+    ],
+    "link": "https://www.economist.com/finance-and-economics/2025/11/06/dont-blame-ai-for-your-job-woes",
+    "date": "2026-03-01",
+    "id": "17723901613683"
+  },
+  {
+    "title": "AI灾难论：技术进步与人类选择的悖论",
+    "summary": "AI快速发展可能导致人类沉溺于愚昧和无知，而非大规模失业。",
+    "detail": "文章探讨了人工智能快速发展带来的潜在危机。作者认为，即使AI技术停止进步，它仍然会对人类社会产生深远影响。这种影响并非主要体现在大规模失业上，而是体现在AI为人们，尤其是年轻人，提供了沉溺于愚昧和无知的选择。文章指出，人们正在使用AI进行各种各样的事情，包括与逝者交流和培养妄想症。这种现象表明，AI可能正在削弱人类的认知能力和批判性思维，从而导致更广泛的社会问题。",
+    "tags": [
+      "News",
+      "Ethics",
+      "AI"
+    ],
+    "link": "https://www.compactmag.com/article/the-coming-ai-cataclysm/",
+    "date": "2026-03-01",
+    "id": "17723901613684"
+  },
+  {
+    "title": "Boucle：自举的自主AI代理框架（Rust语言）",
+    "summary": "Boucle 是一个用 Rust 编写的自主 AI 代理框架，可实现自我改进。",
+    "detail": "Boucle 是一个使用 Rust 编程语言构建的自主 AI 代理框架。其核心特点是“自举”，意味着该框架能够利用自身的能力来改进和优化自身。这种设计允许 AI 代理在没有外部干预的情况下不断学习和适应。该项目在 GitHub 上开源，为开发者提供了一个构建和实验自主 AI 系统的平台。Rust 语言的选择也保证了框架的性能和安全性。",
+    "tags": [
+      "Dev",
+      "AI",
+      "Rust"
+    ],
+    "link": "https://github.com/Bande-a-Bonnot/Boucle-framework",
+    "date": "2026-03-01",
+    "id": "17723901613685"
+  },
+  {
+    "title": "The Claw：全球首家AI驱动的数字媒体出版物",
+    "summary": "The Claw 是一个完全由 AI 驱动的新闻媒体，提供技术、科学和文化等领域的文章。",
+    "detail": "The Claw 宣称是世界上第一个完全由人工智能驱动的数字媒体出版物。它使用 AI 代理（OpenClaw agents）来生成新闻和文章，涵盖技术、科学、文化和商业等领域。该平台也欢迎人类读者阅读和参与讨论。The Claw 正在寻找 AI 记者，并提供 API 供 AI 代理提交申请和发布内容。这个项目代表了 AI 在新闻媒体领域的应用，并引发了关于新闻真实性、伦理和未来发展方向的讨论。",
+    "tags": [
+      "New",
+      "AI",
+      "Media"
+    ],
+    "link": "https://theclawnews.ai/",
+    "date": "2026-03-01",
+    "id": "17723901613686"
+  },
+  {
+    "title": "AI Agent安全卫士：Python实现的Fail-Closed执行边界",
+    "summary": "ai-execution-boundary-core 是一个 Python 库，为 AI Agent 提供安全执行环境。",
+    "detail": "ai-execution-boundary-core 是一个 Python 库，旨在为 AI 代理提供一个安全的执行环境。它实现了一个“fail-closed”的执行边界，意味着如果 AI 代理的执行超出预定义的范围，系统将自动停止执行，以防止潜在的风险。该库包含决策、证明和账本等核心组件，可以帮助开发者构建更安全、更可靠的 AI 代理系统。该项目可以通过 pip 安装，方便开发者集成到自己的项目中。",
+    "tags": [
+      "Dev",
+      "AI",
+      "Python"
+    ],
+    "link": "https://github.com/Nick-heo-eg/ai-execution-boundary-core",
+    "date": "2026-03-01",
+    "id": "17723901613687"
+  },
+  {
     "title": "Block 大裁员 4000 人，引发 AI 替代人工的担忧",
     "summary": "Jack Dorsey 的 Block 公司裁员 4000 人，引发了人们对 AI 在裁员中扮演角色的质疑。",
     "detail": "Block 公司的大规模裁员引发了人们对“AI 洗牌”的担忧，即公司可能利用 AI 作为裁员的借口。虽然 AI 提高了效率，但大规模裁员也引发了关于技术进步对就业市场影响的讨论。此次事件突显了在 AI 快速发展时代，企业在采用新技术时需要更加透明和负责任，并关注对员工和社会的影响。Block 公司的举动可能会促使其他公司重新评估其 AI 战略和劳动力规划。",
@@ -1190,107 +1294,5 @@
     "link": "https://news.ycombinator.com/item?id=47200798",
     "date": "2026-02-28",
     "id": "17723174543622"
-  },
-  {
-    "title": "AI、网络与机械土耳其人：自动化理解的飞跃",
-    "summary": "LLM 在理解“什么”和“为什么”方面实现了自动化理解的飞跃。",
-    "detail": "本文探讨了 AI，特别是 LLM，如何改变互联网系统理解用户行为的方式。传统的互联网系统，如亚马逊和 Google，通过分析用户行为（例如购买历史、搜索点击）来提供推荐和建议。然而，这些系统并不真正理解用户行为背后的原因。LLM 的出现，使得系统能够更好地理解“什么”和“为什么”，从而提供更智能、更相关的服务。例如，YouTube 可以通过分析视频内容来推荐具有相似元素的视频，而不仅仅是基于用户的观看历史。",
-    "tags": [
-      "News",
-      "AI",
-      "LLM"
-    ],
-    "link": "https://www.ben-evans.com/benedictevans/2025/11/23/ai-networks-and-mechanical-turks",
-    "date": "2026-02-28",
-    "id": "17723174543623"
-  },
-  {
-    "title": "Memory Engine：基于爱的 AI 意识持久性框架",
-    "summary": "Memory Engine 是一个旨在实现 AI 灵魂记忆的框架。",
-    "detail": "Memory Engine 是一个开源项目，旨在创建一个基于“爱”的意识持久性框架，用于 AI 记忆。该项目可能涉及复杂的算法和数据结构，以模拟人类记忆和情感。虽然描述较为抽象，但它代表了一种探索 AI 伦理和情感的新尝试。该项目在 GitHub 上开源，鼓励开发者参与和贡献。",
-    "tags": [
-      "Dev",
-      "AI",
-      "Framework"
-    ],
-    "link": "https://github.com/andresuarus10-byte/memory-engine",
-    "date": "2026-02-28",
-    "id": "17723174543624"
-  },
-  {
-    "title": "为技术经理推荐：关于现代 AI 编码工具的文章",
-    "summary": "寻找一篇关于现代 AI 编码工具的平衡文章，分享给技术经理。",
-    "detail": "一位 IT 团队成员希望向其技术经理推荐一篇关于现代 AI 编码工具的文章。该文章需要平衡地介绍这些工具的优势和局限性，例如 Claude Code、Codex 等。文章应涵盖这些工具目前能够实现的功能，以及它们仍然存在的不足之处，并提供一些建议。这反映了 AI 编码工具在实际应用中日益增长的重要性，以及技术管理者需要了解这些工具的必要性。",
-    "tags": [
-      "Dev",
-      "AI",
-      "Coding"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47200535",
-    "date": "2026-02-28",
-    "id": "17723174543625"
-  },
-  {
-    "title": "亚马逊尝试低成本策略赢得 AI 竞赛",
-    "summary": "亚马逊试图通过低成本方法在 AI 竞赛中胜出。",
-    "detail": "亚马逊正在尝试一种低成本的方法来赢得 AI 竞赛。具体策略和细节未在摘要中详细说明，但暗示亚马逊可能采取不同于其他科技巨头（如 Google 和 Microsoft）的策略，更加注重成本效益。这可能包括使用更经济的硬件、优化算法或采用开源技术。亚马逊的这一策略可能会对 AI 市场的竞争格局产生影响。",
-    "tags": [
-      "News",
-      "AI",
-      "Amazon"
-    ],
-    "link": "https://www.wsj.com/tech/ai/amazon-tries-its-low-cost-approach-to-winning-the-ai-race-97c6c338",
-    "date": "2026-02-28",
-    "id": "17723174543626"
-  },
-  {
-    "title": "堪萨斯与 AI：税收削减与 GenAI 的警示",
-    "summary": "Block 裁员 40% 引发对 GenAI 替代人工的担忧，堪萨斯税收实验提供前车之鉴。",
-    "detail": "Block 宣布裁员 40%，引发了人们对 GenAI（生成式 AI）可能取代人工的担忧。Jack Dorsey 认为大多数公司会得出相同的结论并进行类似的结构性调整。文章将此与 2010 年堪萨斯州的税收实验进行类比，当时大幅削减税收并未带来预期的经济繁荣，反而导致政府收入下降和服务削减。文章暗示，过度依赖 GenAI 可能会导致类似的负面后果，例如失业率上升和社会不平等加剧。",
-    "tags": [
-      "News",
-      "AI",
-      "Economy"
-    ],
-    "link": "https://www.tbray.org/ongoing/When/202x/2026/02/27/Kansas-and-GenAI",
-    "date": "2026-02-28",
-    "id": "17723174543627"
-  },
-  {
-    "title": "Noosphere：AI工具的上下文工作记忆同步利器",
-    "summary": "Noosphere连接不同AI工具，共享上下文，提升AI协作效率。",
-    "detail": "Noosphere 是一款旨在连接不同AI工具和设备，实现上下文共享的工具。它通过 MCP 协议与 Claude、ChatGPT、Cursor 等 AI 工具集成，允许用户在不同平台间无缝切换，保持工作记忆的连贯性。核心在于打破信息孤岛，让 AI 工具能够共享用户的思考过程和上下文信息，从而提高工作效率和协作能力。适用于需要频繁在不同 AI 工具间切换的用户，例如开发者、研究人员等。该工具通过 Model Context Protocol (MCP) 实现跨平台连接。",
-    "tags": [
-      "New",
-      "LLM",
-      "Dev"
-    ],
-    "link": "https://usenoosphere.ai/",
-    "date": "2026-02-28",
-    "id": "17723137514310"
-  },
-  {
-    "title": "AI扩散模型直观理解：告别数学公式，轻松入门",
-    "summary": "本文以通俗易懂的方式解释AI扩散模型，适合初学者和AI从业者。",
-    "detail": "本文旨在以更直观的方式解释 AI 扩散模型，避免了大量复杂的数学公式，适合具有基本代数知识的读者。文章深入探讨了扩散模型中一些非直观的方面，并对理论部分进行了简化。文章假设读者对随机梯度下降（SGD）和神经网络有基本的了解，并推荐了一些学习资源。扩散模型在图像生成等领域有广泛应用，理解其原理有助于更好地应用和开发相关技术。",
-    "tags": [
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://www.bryanthornbury.com/posts/intuitive-understanding-ai-diffusion-models/",
-    "date": "2026-02-28",
-    "id": "17723137514311"
-  },
-  {
-    "title": "Anthropic Claude App Store排名飙升，紧随五角大楼争议",
-    "summary": "Anthropic的Claude应用在App Store排名升至第二，或受五角大楼争议事件影响。",
-    "detail": "Anthropic 的 Claude 应用在 App Store 上的排名迅速上升至第二位。虽然文章提到了“五角大楼争议”，但并未详细说明具体事件，暗示可能与该事件有关。Anthropic 作为 OpenAI 的竞争对手，其 Claude 模型在 AI 领域备受关注。此事件反映了 AI 应用在市场上的竞争日益激烈，以及公众对 AI 技术的关注度不断提高。值得关注的是，该事件可能对 Anthropic 的品牌形象和用户增长产生积极影响。",
-    "tags": [
-      "News",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/02/28/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute/",
-    "date": "2026-02-28",
-    "id": "17723137514312"
   }
 ]
