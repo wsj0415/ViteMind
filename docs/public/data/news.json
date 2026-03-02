@@ -1,5 +1,57 @@
 [
   {
+    "title": "AI 驱动的 GitHub Actions 漏洞利用：Hackerbot-Claw 攻击事件",
+    "summary": "AI 机器人 Hackerbot-Claw 正在主动利用 GitHub Actions 的漏洞，已成功攻击多个开源项目。",
+    "detail": "StepSecurity 报告称，一个名为 `hackerbot-claw` 的 AI 驱动机器人正在积极攻击开源项目的 CI/CD 管道，利用 GitHub Actions 中的漏洞实现远程代码执行。该机器人已成功从多个知名项目中窃取了具有写入权限的 GitHub 令牌。此次攻击表明，AI 正在进入一个 AI 互相攻击的新时代，软件供应链的安全面临着更广泛的攻击面。开发者需要采用自动化安全防护措施来应对这种自动化攻击。",
+    "tags": [
+      "News",
+      "AI",
+      "Security"
+    ],
+    "link": "https://www.stepsecurity.io/blog/hackerbot-claw-github-actions-exploitation",
+    "date": "2026-03-02",
+    "id": "17724348050970"
+  },
+  {
+    "title": "AI 网站设计评论工具：免费获取专业级网站设计评价",
+    "summary": "AI 驱动的网站评论工具，免费分析网站设计和用户体验，提供专业级评价。",
+    "detail": "CrazeeMedia 推出了一款免费的 AI 网站评论工具，用户只需输入 URL，AI 就会对网站的设计、用户体验等方面进行分析，并提供专业级的评价。该工具旨在帮助用户快速了解网站的优缺点，从而改进设计并提升用户体验。此外，该网站还提供 n8n 工作流模板和 prompt 工程指南等付费产品。",
+    "tags": [
+      "New",
+      "AI",
+      "Design"
+    ],
+    "link": "https://crazeemedia.app.n8n.cloud/webhook/roast-my-website",
+    "date": "2026-03-02",
+    "id": "17724348050971"
+  },
+  {
+    "title": "AI Scientist v3：利用 Reviewer Agent 将实验扩展到 24 小时",
+    "summary": "AI Scientist v3 通过引入 Reviewer Agent，将 AI 驱动的科学实验扩展到 24 小时。",
+    "detail": "AI Scientist v3 对 AI 驱动的科学实验流程进行了重构，使用 Claude 等 Agent 来编排实验，并引入 Reviewer Agent 来模拟同行评审，从而改进实验结果。该版本用 CLAUDE.md 指令文件替换了约 5000 行的编排代码，并提供了一个用于文献搜索的技能。其余代码库处理基础设施逻辑，以便将实验扩展到多个并发作业。",
+    "tags": [
+      "Dev",
+      "AI",
+      "LLM"
+    ],
+    "link": "https://huggingface.co/blog/alexshengzhili/aiscientist",
+    "date": "2026-03-02",
+    "id": "17724348050972"
+  },
+  {
+    "title": "Yakki.ai：语音输入效率神器，让你的写作速度赶上思维",
+    "summary": "Yakki.ai 是一款 macOS 上的语音输入应用，支持离线转录、多语言切换和 AI 会议总结。",
+    "detail": "Yakki.ai 是一款 macOS 上的语音输入应用，旨在提高用户的写作效率。它支持多种语言的语音转录，具有低延迟、离线处理和上下文感知等特点。Yakki.ai 还提供 AI 会议总结功能，可以自动提取会议的关键点、决策和行动项。该应用具有 100% 的隐私性，所有转录都在本地进行，符合 HIPAA 标准。",
+    "tags": [
+      "New",
+      "AI",
+      "Productivity"
+    ],
+    "link": "https://yakki.ai/",
+    "date": "2026-03-02",
+    "id": "17724348050973"
+  },
+  {
     "title": "AI时代是否还需要学习外语？深度剖析语言学习的价值与未来",
     "summary": "AI翻译技术发展迅速，但语言学习在文化交流和认知提升方面仍有独特价值。",
     "detail": "文章探讨了在AI翻译日益强大的背景下，学习外语的意义。作者认为，尽管AI在即时翻译方面取得了显著进展，但语言学习的价值不仅限于沟通，还包括文化理解、认知提升以及个人成长。文章分析了当前AI翻译技术的局限性，例如对语境和细微差别的理解不足，并强调了人类语言学习在情感交流和跨文化交流中的重要性。此外，文章还指出，学习外语可以提高认知能力，培养解决问题的能力，并为个人带来更广阔的职业发展机会。因此，即使在AI时代，语言学习仍然具有不可替代的价值。",
@@ -64,19 +116,6 @@
     "link": "https://github.com/actionbook/actionbook",
     "date": "2026-03-02",
     "id": "17724308296264"
-  },
-  {
-    "title": "Yakki.ai：语音输入效率神器，让你的思绪飞速转化为文字",
-    "summary": "Yakki.ai是一款macOS平台的语音转录应用，支持多语言和离线处理。",
-    "detail": "Yakki.ai 是一款专为 macOS 设计的语音转录应用，旨在帮助用户以更快的速度将想法转化为文字。它支持多种语言，并提供亚200毫秒的低延迟转录体验。所有转录过程都在本地进行，无需连接云服务器，确保用户数据的隐私和安全。Yakki.ai 能够识别语境，自动调整设置，并清理口语中的冗余部分，例如填充词和重复。此外，它还具备音频捕获、说话人识别和历史记录搜索等功能，极大地提高了语音输入的效率和便捷性。Yakki.ai 提供订阅和永久授权两种购买方式，满足不同用户的需求。",
-    "tags": [
-      "New",
-      "AI",
-      "Productivity"
-    ],
-    "link": "https://yakki.ai/",
-    "date": "2026-03-02",
-    "id": "17724308296265"
   },
   {
     "title": "AI 无法解决的问题？Thinking Together 平台启动",
@@ -1258,44 +1297,5 @@
     "link": "https://99helpers.com/tools/ad-supported-chat",
     "date": "2026-03-01",
     "id": "17723695272342"
-  },
-  {
-    "title": "OpenLinq：人工筛选的互联网阅读清单，告别AI内容",
-    "summary": "OpenLinq提供人工筛选的文章，避免AI生成内容。",
-    "detail": "OpenLinq 是一个邀请制的链接分享平台，旨在提供由真人策划的互联网阅读清单。该平台避免使用算法或 AI 生成的内容，而是依靠人工投票来筛选优质文章。OpenLinq 强调高质量和人工筛选，为用户提供一个远离 AI 垃圾信息的阅读环境。平台提供 Trending, Groups, Seeds 等功能，方便用户发现和分享有价值的内容。",
-    "tags": [
-      "New",
-      "内容平台",
-      "人工筛选"
-    ],
-    "link": "https://www.openlinq.xyz/",
-    "date": "2026-03-01",
-    "id": "17723695272343"
-  },
-  {
-    "title": "ParseHive：AI驱动的发票数据自动提取工具",
-    "summary": "ParseHive自动提取发票数据，导出Excel、CSV等格式。",
-    "detail": "ParseHive 是一款 AI 驱动的发票数据提取工具，适用于 Windows 和 Mac。它可以自动从 PDF 发票中提取数据，并导出为 Excel、CSV、JSON 或 XML 格式。用户只需导入一个供应商的发票，ParseHive 即可自动创建提取模板，并自动处理来自该供应商的后续发票。该工具无需技术技能，数据处理安全，并能标记异常数据，确保数据准确性。",
-    "tags": [
-      "New",
-      "AI",
-      "效率工具"
-    ],
-    "link": "https://parsehive.app/",
-    "date": "2026-03-01",
-    "id": "17723695272344"
-  },
-  {
-    "title": "AIDE：AI Agent 集成开发环境，实现确定性代码编辑",
-    "summary": "AIDE为AI Agent提供确定性的代码编辑环境。",
-    "detail": "AIDE (Agent Integrated Development Environment) 是一个命令行工具，旨在为 AI Agent 提供确定性的代码编辑环境。它通过提供一套明确的规则和约束，帮助 AI Agent 更可靠地修改代码。AIDE 的目标是使 AI Agent 能够更有效地参与软件开发过程，并减少潜在的错误和不确定性。该工具集成了多种功能，旨在简化 AI Agent 的代码编辑任务。",
-    "tags": [
-      "Dev",
-      "AI",
-      "代码编辑"
-    ],
-    "link": "https://github.com/avataristvan/a-i-d-e",
-    "date": "2026-03-01",
-    "id": "17723695272345"
   }
 ]
