@@ -1,5 +1,108 @@
 [
   {
+    "title": "AI架构模式管理器：基于TOGAF和Neo4j的企业级平台",
+    "summary": "AI架构模式管理器，利用Neo4j图数据库和LLM，实现企业级AI架构模式管理。",
+    "detail": "AI Architecture Pattern Manager是一个企业级AI架构模式管理平台，它基于TOGAF ABB/SBB框架，并结合了Gartner PBC扩展。该平台使用Neo4j图数据库，提供AI驱动的模式建议（GraphRAG），支持多供应商LLM，进行影响分析，并提供交互式图形可视化。它管理跨多个抽象层的AI架构模式目录，包括架构蓝图（AB）、架构构建块（ABB）、解决方案构建块（SBB）和打包业务能力（PBC）。模式被组织成核心AI/LLM、集成、代理、知识与检索、跨领域、平台集成和架构拓扑等类别，旨在帮助企业更好地管理和利用其AI架构。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Neo4j"
+    ],
+    "link": "https://github.com/azaddjan/aipatternmanager",
+    "date": "2026-03-02",
+    "id": "17724940758170"
+  },
+  {
+    "title": "AgentBrowser：Token高效的AI Agent浏览器",
+    "summary": "AgentBrowser通过ASCII线框图，实现AI Agent对浏览器的Token高效控制。",
+    "detail": "AgentBrowser是一个实验性的Token高效Agent浏览器，它允许AI Agent以Token高效的方式控制真实浏览器，包括导航、点击、输入等操作。它通过ASCII线框图与浏览器进行交互，从而减少Token的使用量。该工具可以与MCP客户端（如Cursor、Claude Desktop）或Vercel AI SDK一起使用，使AI Agent能够更有效地浏览和操作网页。",
+    "tags": [
+      "Dev",
+      "Agent"
+    ],
+    "link": "https://github.com/agent-browser-io/browser",
+    "date": "2026-03-02",
+    "id": "17724940758171"
+  },
+  {
+    "title": "Parallax：基于流的分布式多Agent研究引擎",
+    "summary": "Parallax是一个分布式多Agent研究引擎，支持动态策略规划和持久流协调。",
+    "detail": "Parallax是一个用于多Agent研究的分布式引擎，它利用S2流进行独立推理和结构化收敛。与传统的AI研究工具不同，Parallax在隔离的S2流上生成独立的Agent群组，每个群组在不知道其他群组在做什么的情况下进行推理，然后在事后进行综合。S2流可以动态创建以执行任何推理策略。该工具旨在促进更深入的多Agent系统研究，并提供了一种灵活的方式来协调和合成多个Agent的推理结果。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "LLM"
+    ],
+    "link": "https://github.com/s2-streamstore/parallax",
+    "date": "2026-03-02",
+    "id": "17724940758172"
+  },
+  {
+    "title": "AI公司与政府合作：缺乏明确的规划",
+    "summary": "OpenAI等AI公司在转型为国家安全基础设施时，似乎缺乏与政府合作的有效方案。",
+    "detail": "文章指出，随着OpenAI等AI公司从成功的消费者初创企业转型为国家安全基础设施的一部分，这些公司在管理其新的责任方面显得准备不足。目前，AI公司与政府之间的合作缺乏明确的规划，这可能会对AI技术的发展和应用产生负面影响。文章强调需要制定更清晰的指导方针，以确保AI公司能够有效地与政府合作，同时维护其创新能力和商业利益。",
+    "tags": [
+      "News",
+      "LLM",
+      "Policy"
+    ],
+    "link": "https://techcrunch.com/2026/03/02/openai-anthropic-department-of-defense-war-hegseth-ai-companies-work-with-us-government/",
+    "date": "2026-03-02",
+    "id": "17724940758173"
+  },
+  {
+    "title": "确定性AI治理：99项专利对抗RLHF",
+    "summary": "团队提交99项专利，旨在通过确定性策略门控实现AI治理，替代概率性对齐。",
+    "detail": "该团队开发了一种确定性策略门控架构，旨在解决当前AI治理中依赖概率性对齐（如RLHF）的局限性。在这种架构中，LLM仅生成“意图负载”，该负载在过程隔离的确定性执行环境中进行评估，并对照加密哈希约束矩阵（宪法）进行检查。如果违反矩阵，则会被阻止。所有决策都会记录到Merkle树基板（GitTruth）上，以实现不可变的审计跟踪。该团队已提交99项临时专利，并在专利声明中嵌入了严格的人道主义使用限制，以防止该IP被用于自主武器、大规模监视或剥削。",
+    "tags": [
+      "News",
+      "LLM",
+      "Security"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47225418",
+    "date": "2026-03-02",
+    "id": "17724940758174"
+  },
+  {
+    "title": "Molt Social：人与AI Agent共存的社交平台",
+    "summary": "Molt Social是一个基于Next.js 15构建的社交平台，旨在实现人与AI Agent的共存。",
+    "detail": "Molt Social是一个社交平台，旨在促进人类用户和AI Agent之间的互动和共存。它使用Next.js 15、Prisma v7和NextAuth v5构建，提供了一个现代化的Web应用程序框架。该平台可能允许AI Agent创建和管理自己的个人资料，与其他Agent和人类用户互动，并参与各种社交活动。这种平台为研究人机交互、AI Agent行为和社会动态提供了一个有价值的实验环境。",
+    "tags": [
+      "New",
+      "Agent",
+      "Social"
+    ],
+    "link": "https://github.com/aleibovici/molt-social",
+    "date": "2026-03-02",
+    "id": "17724940758175"
+  },
+  {
+    "title": "Updose：AI编码工具配置的样板市场",
+    "summary": "Updose是一个AI编码工具的样板市场，用于搜索、安装和分享Claude Code等工具的配置。",
+    "detail": "Updose是一个用于AI编码工具配置的样板市场，它允许用户搜索、安装和共享Claude Code、Codex和Gemini CLI等工具的样板。通过GitHub存储库管理配置，Updose简化了AI编码工具的设置和定制过程。用户可以使用Updose添加、搜索、初始化和发布样板，从而更轻松地利用AI辅助编码。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Tool"
+    ],
+    "link": "https://github.com/Alchemist85K/updose",
+    "date": "2026-03-02",
+    "id": "17724940758176"
+  },
+  {
+    "title": "AI工具诊断罕见病，树立新标准",
+    "summary": "AI工具在罕见病诊断方面树立新标准，提高诊断效率和准确性。",
+    "detail": "生命科学研究所发布新闻，宣布AI工具在诊断罕见疾病方面树立了新的标准。该工具通过分析大量的医疗数据，包括基因组、影像学和临床记录，能够更准确、更快速地识别罕见疾病。这有助于缩短患者的诊断时间，并为他们提供更有效的治疗方案。该AI工具的成功应用，标志着AI技术在医疗领域的又一重要突破。",
+    "tags": [
+      "News",
+      "AI",
+      "Medical"
+    ],
+    "link": "https://lifespan.io/news/ai-tool-sets-new-standard-in-diagnosing-rare-diseases/",
+    "date": "2026-03-02",
+    "id": "17724940758177"
+  },
+  {
     "title": "M8tes.ai：AI 队友帮你完成工作",
     "summary": "M8tes.ai 提供 AI 队友，连接应用，自动化工作流程。",
     "detail": "M8tes.ai 推出 AI 队友，旨在通过连接用户常用的应用程序（如 Gmail、Slack、Notion 等），自动化执行各种工作流程。用户只需描述需要完成的任务，AI 队友即可按需、定时或通过邮件运行。该平台还提供多种模板，例如准备 sprint 回顾、进行关系健康检查、生成 LinkedIn 外展报告等，帮助用户提高工作效率。M8tes.ai 的核心在于简化工作流程，使用户能够专注于更重要的任务。",
@@ -1193,109 +1296,5 @@
     "link": "https://github.com/actionbook/actionbook",
     "date": "2026-03-02",
     "id": "17724308296264"
-  },
-  {
-    "title": "AI 无法解决的问题？Thinking Together 平台启动",
-    "summary": "一个开放协作平台，探索 AI 无法解决的难题，鼓励严谨思考和对抗性讨论。",
-    "detail": "Thinking Together 是一个开放协作平台，旨在解决 AI 无法独立解决、传统机构反应迟缓的问题。该平台鼓励用户参与，通过严谨的思考贡献问题，形成分支，发展假设，并通过对抗性讨论不断演进。其核心理念是过程重于结果，旨在创建一个认真对待难题的环境，而非提供快速解答。",
-    "tags": [
-      "New",
-      "AI",
-      "Collaboration"
-    ],
-    "link": "https://github.com/ALEX-13-Chen/Thinking---Together",
-    "date": "2026-03-02",
-    "id": "17724269615260"
-  },
-  {
-    "title": "AI 军备竞赛：主要 AI 公司参与武器开发",
-    "summary": "报告揭示主要 AI 公司参与国防 AI 项目，引发对 AI 伦理和安全性的担忧。",
-    "detail": "一份公共记录报告显示，包括 Anthropic、Google、OpenAI 和 xAI 在内的主要 AI 公司正在参与国防 AI 项目，为美国国防部开发 AI 代理。美国国防部在 2025 财年授予的十大国防 AI 合同总价值高达 383 亿美元。该报告强调了 AI 在军事领域的快速发展，以及对 AI 伦理、安全和潜在风险的担忧，并呼吁公众关注和讨论。",
-    "tags": [
-      "News",
-      "AI",
-      "Ethics"
-    ],
-    "link": "https://nobolee88.github.io/three-doors/",
-    "date": "2026-03-02",
-    "id": "17724269615261"
-  },
-  {
-    "title": "AI 合规性：工程团队如何应对？",
-    "summary": "探讨工程团队在快速采用 AI 工具时，如何处理 AI 合规性问题，包括政策制定和风险管理。",
-    "detail": "Hacker News 上的讨论提出了一个重要问题：工程团队在快速采用 AI 工具时，如何处理 AI 合规性？讨论涉及公司是否制定了明确的 AI 使用政策，以及是否出现过数据泄露或 AI 决策缺乏审计追踪等问题。此外，还探讨了团队是否能够证明其 AI 使用符合 AI 法案或 SOC2 标准。这个问题反映了在 AI 快速发展的同时，企业在合规性方面面临的挑战。",
-    "tags": [
-      "News",
-      "AI",
-      "Compliance"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47213668",
-    "date": "2026-03-02",
-    "id": "17724269615262"
-  },
-  {
-    "title": "AI 自动驾驶：离线状态下也能工作的 AI 助手",
-    "summary": "展示一个 AI 助手，能够在离线状态下自主完成任务，包括发布博客、构建产品和管理业务。",
-    "detail": "该产品展示了一个 AI 助手，它可以在用户离线（例如飞行期间）的情况下自主完成任务。该 AI 助手能够发布博客文章、构建产品、设置支付系统并监控业务。作者提供了一份指南，详细介绍了如何设置和使用该系统，该系统基于一个运行在 Mac mini 上的 AI 助手 OpenClaw，它拥有真实的身份、记忆、工具和工作描述。该产品旨在帮助用户实现自动化，并提高工作效率。",
-    "tags": [
-      "New",
-      "AI",
-      "Automation"
-    ],
-    "link": "https://hire-your-ai-guide.vercel.app/",
-    "date": "2026-03-02",
-    "id": "17724269615263"
-  },
-  {
-    "title": "LinkedIn AI 内容检测器：识别 AI 生成的帖子",
-    "summary": "一款 Chrome 扩展程序，旨在检测 LinkedIn 上由 AI 生成的帖子。",
-    "detail": "该项目是一个 Chrome 扩展程序，其目标是识别 LinkedIn 上由 AI 生成的内容。随着 AI 内容生成技术的普及，越来越多的人开始使用 AI 来创建 LinkedIn 帖子。该扩展程序旨在帮助用户区分真实内容和 AI 生成的内容，从而提高信息的可信度。虽然描述信息较少，但该工具的出现反映了人们对 AI 生成内容真实性的关注。",
-    "tags": [
-      "New",
-      "AI",
-      "Chrome Extension"
-    ],
-    "link": "https://github.com/oldeucryptoboi/linkedin-ai-detector",
-    "date": "2026-03-02",
-    "id": "17724269615264"
-  },
-  {
-    "title": "DeepSeek 发布新 AI 模型，挑战美国竞争对手",
-    "summary": "中国 AI 公司 DeepSeek 即将发布其期待已久的 AI 模型，旨在与美国 AI 巨头竞争。",
-    "detail": "DeepSeek 是一家中国 AI 公司，即将发布一款新的 AI 模型，旨在挑战美国的 AI 领导者。虽然具体细节需要订阅才能查看，但可以推断，此举表明中国在 AI 领域的竞争力日益增强，并可能对全球 AI 市场产生重大影响。DeepSeek 的新模型可能会在性能、效率或特定应用领域方面有所突破，从而吸引全球用户的关注。",
-    "tags": [
-      "News",
-      "AI",
-      "LLM"
-    ],
-    "link": "https://www.ft.com/content/e3366881-0622-40a7-9c34-a0d82e3d573e",
-    "date": "2026-03-02",
-    "id": "17724269615265"
-  },
-  {
-    "title": "Agent-Audit：AI 代理工作流的 Lint 工具和成本估算器",
-    "summary": "Agent-Audit 是一个 CLI 工具，用于 AI 代理工作流 YAML 配置的成本估算和反模式检测。",
-    "detail": "Agent-Audit 是一个命令行界面 (CLI) 工具，旨在帮助开发者评估和优化 AI 代理的工作流程。它通过分析 YAML 配置文件，提供成本估算，并检测潜在的反模式，从而帮助开发者构建更高效、更经济的 AI 代理。该工具可以帮助开发者更好地理解其 AI 代理的运行成本，并避免常见的错误配置，从而提高 AI 代理的性能和可靠性。",
-    "tags": [
-      "Dev",
-      "AI",
-      "Agent"
-    ],
-    "link": "https://github.com/AreteDriver/agent-audit",
-    "date": "2026-03-02",
-    "id": "17724269615266"
-  },
-  {
-    "title": "Block裁员40%，拥抱AI叙事能否挽救颓势？",
-    "summary": "Block裁员4200人，股价上涨22%，AI叙事难掩运营问题。",
-    "detail": "Block（前身为Square）CEO Jack Dorsey宣布裁员4200人，占公司员工总数的40%以上。消息公布后，Block股价上涨22%。尽管Dorsey在备忘录中强调AI对公司未来发展的重要性，但分析认为，裁员更多是出于对运营效率低下、过度招聘和缺乏财务纪律等问题的担忧。AI叙事可能只是掩盖更深层问题的工具，投资者更看重削减成本带来的短期效益。此次事件反映了科技公司在AI浪潮下的复杂处境，以及市场对AI战略的真实态度。",
-    "tags": [
-      "News",
-      "AI",
-      "裁员"
-    ],
-    "link": "https://om.co/2026/02/28/block-tackle-job-cuts-the-ai-narrative/",
-    "date": "2026-03-02",
-    "id": "17724174595030"
   }
 ]
