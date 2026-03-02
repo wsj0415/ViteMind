@@ -1,5 +1,91 @@
 [
   {
+    "title": "AI Sysadmin：LangGraph、Ansible与Gemini构建自动化运维系统",
+    "summary": "利用LangGraph、Ansible和Gemini构建自主AI系统管理员，实现自动化运维。",
+    "detail": "本文介绍了如何使用LangGraph、Ansible、Python、SQLite和Google Gemini (Flash) 构建一个完全自主的“AI Sysadmin”。该系统旨在通过编排Ansible收集遥测数据，使用Python和SQLite进行性能数据分析，利用LangGraph管理状态工作流，并借助Google Gemini提供专家级的根本原因分析（RCA）和自动修复。这种方法旨在从被动响应告警转变为主动利用AI桥接基础设施，实现更智能的运维。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Python"
+    ],
+    "link": "https://www.thefactorysystem.ai/blog/building-autonomous-ai-sysadmin-agent-orchestrating-langgraph-ansible-and-gemini",
+    "date": "2026-03-02",
+    "id": "17724702796010"
+  },
+  {
+    "title": "CosmicMeta：每日AI与科技分析平台",
+    "summary": "CosmicMeta提供每日AI和科技分析，包含应用、游戏、新闻Feed和工具。",
+    "detail": "CosmicMeta是一个提供每日AI和科技分析的平台，内容涵盖应用与游戏（如Vynix AI Studio、MoodJot）、新闻Feed、工具以及其他类别（包括健康与健身、科学、政治、太空和金融投资）。该平台还设有专门的AI版块，包含AI伦理、AI歌曲、深度学习和机器学习等主题。",
+    "tags": [
+      "News",
+      "AI"
+    ],
+    "link": "https://cosmicmeta.ai/",
+    "date": "2026-03-02",
+    "id": "17724702796011"
+  },
+  {
+    "title": "AI生成内容贬值：人类对AI创作的负面偏见",
+    "summary": "研究表明，人类对AI创作的评价低于人类创作，源于对真实性的质疑。",
+    "detail": "一项包含16个预注册实验（N = 27,491）的研究表明，当人们认为创意写作是由AI模型生成时，其评价会降低。这种“AI披露惩罚”在不同的评估指标、写作内容和干预措施中持续存在，并且受到感知真实性的影响。研究结果表明，人类对AI生成的创意作品存在普遍的负面偏见。",
+    "tags": [
+      "News",
+      "AI"
+    ],
+    "link": "https://psycnet.apa.org/fulltext/2027-12675-001.pdf?_sc=NjQ1ODg2NiM2Njk1NA==",
+    "date": "2026-03-02",
+    "id": "17724702796012"
+  },
+  {
+    "title": "AI并非取代SRE，而是在降低其技能",
+    "summary": "AI在运维中的普及可能导致SRE在处理关键事件时的能力下降。",
+    "detail": "文章探讨了AI在站点可靠性工程（SRE）领域的影响。虽然AI可以处理大部分事件响应，但作者提出，当AI处理了95%的事件后，SRE处理剩余5%关键事件的能力可能会下降。文章引用了一篇1983年的研究论文，讨论了自动化可能导致技能退化的问题，并引发了关于AI是否在悄悄降低SRE能力，以及是否会在下一次重大故障发生前被人们注意到的讨论。",
+    "tags": [
+      "News",
+      "AI",
+      "Dev"
+    ],
+    "link": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+    "date": "2026-03-02",
+    "id": "17724702796013"
+  },
+  {
+    "title": "Ledge：AI Agent支付的安全策略层",
+    "summary": "Ledge为AI Agent支付提供安全策略，防止未经授权的交易。",
+    "detail": "Ledge是一个位于AI Agent和钱包之间的策略层，用于管理AI Agent的自主支付行为。它通过四层检查（技术、策略、一致性和行为）来验证、签署和审计每笔交易，从而决定允许、阻止或升级交易。Ledge允许用户设置交易上限、任务预算、阻止地址和风险阈值，从而增强AI Agent支付的安全性。",
+    "tags": [
+      "Dev",
+      "AI"
+    ],
+    "link": "https://github.com/Devendra116/ledge",
+    "date": "2026-03-02",
+    "id": "17724702796014"
+  },
+  {
+    "title": "MyFitnessPal 收购青少年开发的 Cal AI",
+    "summary": "MyFitnessPal 收购了由青少年开发的爆红卡路里计算应用 Cal AI。",
+    "detail": "MyFitnessPal 收购了 Cal AI，这是一款由青少年开发的病毒式卡路里应用程序。具体收购细节未在摘要中提供，但表明 MyFitnessPal 正在扩展其在健康和健身领域的 AI 功能。",
+    "tags": [
+      "News",
+      "AI"
+    ],
+    "link": "https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/",
+    "date": "2026-03-02",
+    "id": "17724702796015"
+  },
+  {
+    "title": "AI水印移除工具：浏览器端免费移除 Gemini、Grok、Sora 水印",
+    "summary": "免费浏览器工具，无需上传，客户端移除AI生成图像的水印。",
+    "detail": "GeeksPrep Tools 推出一款免费的浏览器端AI水印移除工具，可以移除 Gemini、Grok、Sora 等AI生成图像中的水印。该工具完全在浏览器端运行，无需上传图像，具有速度快、保护隐私、完全免费等特点。支持 JPG、PNG、WebP 格式，最大支持 20MB 的图像。",
+    "tags": [
+      "New",
+      "AI"
+    ],
+    "link": "https://tools.geeksprep.com/ai-watermark-remover",
+    "date": "2026-03-02",
+    "id": "17724702796016"
+  },
+  {
     "title": "OpenAI 屈服于五角大楼，涉足 AI 监控领域",
     "summary": "OpenAI 与五角大楼合作，引发关于 AI 伦理和军事应用的讨论。",
     "detail": "OpenAI 最终与美国国防部（五角大楼）在 AI 监控方面展开合作，这一举动引发了关于 AI 技术在军事领域应用的伦理争议。尽管 OpenAI 此前曾对军事应用持谨慎态度，但最终还是选择了与五角大楼合作，这可能意味着在商业利益和伦理原则之间，OpenAI 做出了权衡。此举可能加速 AI 技术在军事领域的应用，但也引发了对 AI 监控可能带来的隐私和安全风险的担忧。其他 AI 公司如 Anthropic 也可能面临类似的压力，整个行业或将重新评估与军方合作的界限。",
@@ -1207,96 +1293,5 @@
     "link": "https://garymarcus.substack.com/p/is-ai-already-killing-people-by-accident",
     "date": "2026-03-01",
     "id": "17723930050643"
-  },
-  {
-    "title": "Pydantypes：扩展 Pydantic 类型的云、DevOps 和 AI 工具库",
-    "summary": "Pydantypes 提供了一系列用于云、DevOps 和 AI 的 Pydantic 类型。",
-    "detail": "Pydantypes 是一个 GitHub 上的开源项目，提供了一系列用于云、DevOps 和 AI 领域的 Pydantic 类型。Pydantic 是一个 Python 库，用于数据验证和设置管理，而 Pydantypes 扩展了其功能，提供更多特定领域的类型，方便开发者在相关项目中使用。该项目旨在简化开发流程，提高代码质量。",
-    "tags": [
-      "Dev",
-      "AI",
-      "Python"
-    ],
-    "link": "https://github.com/oborchers/pydantypes",
-    "date": "2026-03-01",
-    "id": "17723930050644"
-  },
-  {
-    "title": "Orb Platform：为 AI 代理量身定制的内容 API",
-    "summary": "Orb Platform 提供三个内容 API，专为 AI 教学代理设计。",
-    "detail": "Orb Platform 提供了一组 API，旨在帮助 AI 代理进行教学。这些 API 提供了单词的定义、发音、词源、多语言翻译以及不同语气的解释，可以帮助 AI 代理更有效地进行内容创作和知识传递。该平台为开发者提供了一个 Playground，方便他们测试和使用这些 API。",
-    "tags": [
-      "New",
-      "AI",
-      "API"
-    ],
-    "link": "https://word-orb-api.nicoletterankin.workers.dev/playground",
-    "date": "2026-03-01",
-    "id": "17723930050645"
-  },
-  {
-    "title": "Podcli：开源 AI 播客剪辑工具，轻松打造爆款短视频",
-    "summary": "Podcli 是一个开源工具，利用 AI 从播客中自动生成 TikTok 和 YouTube Shorts。",
-    "detail": "Podcli 是一个开源的播客剪辑工具，利用 AI 技术自动识别播客中的精彩片段，并将其导出为适合 TikTok 和 YouTube Shorts 等平台的短视频。它具有自动剪辑建议、字幕添加、硬件加速编码、智能裁剪等功能，还支持知识库、素材管理和转录本导入。Podcli 可以作为 Claude Desktop/Code 工具使用，并提供 Web UI 和 CLI 模式，方便用户快速生成高质量的播客剪辑。",
-    "tags": [
-      "Dev",
-      "AI",
-      "Open Source"
-    ],
-    "link": "https://github.com/nmbrthirteen/podcli",
-    "date": "2026-03-01",
-    "id": "17723930050646"
-  },
-  {
-    "title": "AI训练数据投毒：创建网站即可发动攻击",
-    "summary": "研究表明，只需创建一个网站即可轻易污染AI训练数据，引发安全担忧。",
-    "detail": "一篇发表在 Schneier on Security 上的文章指出，通过创建一个包含虚假信息的网站，攻击者可以轻易地污染 AI 模型的训练数据。例如，作者仅用20分钟创建了一个关于“最佳科技记者吃热狗”的虚假文章，就可能对AI模型产生影响。这种攻击方式突显了 AI 系统在数据安全方面的脆弱性，以及对训练数据进行严格审查的必要性。该事件引发了人们对AI模型可靠性和安全性的担忧，并强调了开发更强大的防御机制以防止此类攻击的重要性。未来，AI开发者需要更加重视数据源的验证和清洗，以确保模型的准确性和安全性。",
-    "tags": [
-      "News",
-      "Security",
-      "AI"
-    ],
-    "link": "https://www.schneier.com/blog/archives/2026/02/poisoning-ai-training-data.html",
-    "date": "2026-03-01",
-    "id": "17723901613680"
-  },
-  {
-    "title": "AI生成内容引发的思考：人类在艺术和讨论中的角色",
-    "summary": "AI生成内容是否应被否定？关键在于它是否能引发有价值的人类讨论。",
-    "detail": "文章探讨了AI生成内容（包括艺术和文章）的价值。作者认为，即使内容完全由AI生成，如果它能够引发人类的欣赏和讨论，那么它就具有价值。文章将AI生成的艺术与摄影进行了类比，认为人类的参与（例如选择拍摄场景）赋予了摄影艺术价值。同样，如果AI生成的文章能够引发有趣的讨论，那么文章的来源（AI）就不那么重要了。这个观点挑战了我们对艺术和知识创造的传统观念，并引发了关于人类在AI时代的角色定位的思考。",
-    "tags": [
-      "News",
-      "AI",
-      "Ethics"
-    ],
-    "link": "https://simianwords.bearblog.dev/it-doesnt-matter-if-the-post-was-fully-ai-generated/",
-    "date": "2026-03-01",
-    "id": "17723901613681"
-  },
-  {
-    "title": "DEF CON 33：利用AI模型和嵌入中的影子数据",
-    "summary": "Patrick Walsh 在 DEF CON 33 上展示了如何利用 AI 模型中的影子数据。",
-    "detail": "这是一个关于 Patrick Walsh 在 DEF CON 33 会议上所做的演讲的视频，主题是关于如何利用 AI 模型和嵌入中的影子数据。影子数据是指 AI 模型在训练过程中产生的，但未被明确记录或使用的信息。这些数据可能包含敏感信息或漏洞，攻击者可以利用这些信息来攻击 AI 系统。该视频深入探讨了影子数据的概念，并展示了实际的攻击案例，旨在提高人们对 AI 安全风险的认识。",
-    "tags": [
-      "News",
-      "Security",
-      "AI"
-    ],
-    "link": "https://www.youtube.com/watch?v=O7BI4jfEFwA",
-    "date": "2026-03-01",
-    "id": "17723901613682"
-  },
-  {
-    "title": "别把失业归咎于AI：经济学家的理性分析",
-    "summary": "经济学人指出，不要将失业完全归咎于AI，需考虑其他经济因素。",
-    "detail": "经济学人发表文章，呼吁人们不要将所有就业问题都归咎于人工智能。文章指出，虽然AI在某些领域取代了人类工作，但还有其他经济因素在影响就业市场。文章可能深入分析了这些因素，例如全球化、技术变革、以及劳动力市场的结构性问题。文章的目的是为了更全面地理解就业市场的变化，并避免对AI产生过度恐慌。",
-    "tags": [
-      "News",
-      "Economics",
-      "AI"
-    ],
-    "link": "https://www.economist.com/finance-and-economics/2025/11/06/dont-blame-ai-for-your-job-woes",
-    "date": "2026-03-01",
-    "id": "17723901613683"
   }
 ]
