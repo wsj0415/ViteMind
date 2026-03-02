@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 实验室转型国防承包商：经济学视角",
+    "summary": "五角大楼AI预算激增，AI实验室面临与传统国防承包商类似的整合逻辑，Palantir的崛起预示了最终格局。",
+    "detail": "2026财年，五角大楼的AI预算从18亿美元跃升至134亿美元，增长了7倍，超过了Anthropic的年化收入。文章分析了AI实验室成为国防承包商的经济驱动因素，指出与1993年国防承包商整合类似，AI领域也将通过政府资助和网络访问加速整合。IDIQ合同占据国防部奖励资金的56%，且具有长期性，一旦嵌入机密系统，转换成本将变得极高。Palantir的崛起预示了最终格局：2025财年收入增长56%至44.8亿美元，其中53.7%来自政府，市值接近波音的两倍。",
+    "tags": [
+      "News",
+      "AI",
+      "Economics"
+    ],
+    "link": "https://philippdubach.com/posts/when-ai-labs-become-defense-contractors/",
+    "date": "2026-03-02",
+    "id": "17724735789730"
+  },
+  {
+    "title": "TrustPlane：开源AI信任控制平台，保障LLM系统安全",
+    "summary": "TrustPlane为生产环境LLM系统提供风险控制，通过风险策略、审计跟踪和人工审查，确保AI部署的合规性。",
+    "detail": "TrustPlane是一个开源AI信任控制平台，旨在帮助企业法律和合规团队批准AI部署。它通过记录风险策略、提供不可变的审计跟踪以及在置信度下降时自动升级到人工审查来实现这一点。TrustPlane基于CognOS构建，拦截每个LLM请求，评估其认知不确定性，执行风险策略，并在响应到达用户之前记录决策。其核心在于使用信任公式 C = p × (1 − Ue − Ua) 来评估请求的信任度，其中 p 是先验置信度，Ue 是认知不确定性，Ua 是偶然不确定性。根据信任分数，TrustPlane可以传递、细化、升级或阻止请求。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Open Source"
+    ],
+    "link": "https://github.com/base76-research-lab/TrustPlane",
+    "date": "2026-03-02",
+    "id": "17724735789731"
+  },
+  {
+    "title": "AI Agent的七种托管模式：从Cron到复杂事件驱动",
+    "summary": "探讨AI Agent在生产环境中的七种托管模式，分析其可靠性、成本和运维复杂性。",
+    "detail": "文章探讨了在生产环境中运行AI Agent的七种托管模式，强调了部署模型对Agent的失败处理、扩展性、成本和调试能力的影响。这七种模式包括：1. 定时Agent（Cron）：简单易用，适用于定期检查、总结或生成报告；2. 函数即Agent：将Agent部署为无服务器函数，按需触发；3. 队列驱动Agent：使用消息队列触发Agent，实现异步处理；4. 事件驱动Agent：Agent对特定事件做出反应；5. 长期运行Agent：Agent作为持久进程运行，保持状态；6. 工作流编排Agent：使用工作流引擎协调多个Agent；7. 复杂事件处理Agent：Agent根据复杂事件模式触发。文章指出，实际系统通常会结合这些模式。",
+    "tags": [
+      "Dev",
+      "AI",
+      "Agent"
+    ],
+    "link": "https://james-carr.org/posts/2026-03-01-agent-hosting-patterns/",
+    "date": "2026-03-02",
+    "id": "17724735789732"
+  },
+  {
+    "title": "AgentPay：自主AI Agent的预算控制与审批UI",
+    "summary": "AgentPay提供预算控制和审批UI，用于管理自主AI Agent的支出，确保AI行为在预算范围内。",
+    "detail": "AgentPay是一个用于自主AI Agent的预算控制和审批UI工具包。它允许用户为AI Agent设置预算，并提供一个用户界面来审批或拒绝Agent的支出请求。该工具包包含用于与Tambo生成式UI集成的@agentpay/tambo包，允许AI Agent在聊天对话中呈现支付组件（审批卡、交易feed、支出控制）。它还定义了六个AI可调用的工具（钱包、支出、交易、支付、自主性），并创建了TamboAgentPay组件，将AgentPay组件注册为Tambo组件。",
+    "tags": [
+      "New",
+      "AI",
+      "Agent"
+    ],
+    "link": "https://gitlab.com/artificial-lab/agentpay-ui-kit",
+    "date": "2026-03-02",
+    "id": "17724735789733"
+  },
+  {
+    "title": "Vercel的AI销售助理：六周内将10名销售代表缩减至1名",
+    "summary": "Vercel利用AI销售助理，在六周内显著提升销售效率，将10名销售代表的工作量减少到1名。",
+    "detail": "Vercel通过部署AI销售助理，显著提高了销售团队的效率。在六周内，他们将负责处理 inbound 销售流程的销售代表从10名减少到1名，其余9名被调往 outbound 销售。AI助理的转化率与人工销售代表持平，且响应速度更快，缩短了转化所需的接触次数。构建该AI助理仅需一名工程师兼职投入25-30%的时间。这表明AI在销售领域的应用潜力巨大，有望使销售人员将更多时间用于与客户互动。",
+    "tags": [
+      "News",
+      "AI",
+      "Sales"
+    ],
+    "link": "https://tomtunguz.com/vercel-ai-sales-agents-jeanne-grosser/",
+    "date": "2026-03-02",
+    "id": "17724735789734"
+  },
+  {
     "title": "AI Sysadmin：LangGraph、Ansible与Gemini构建自动化运维系统",
     "summary": "利用LangGraph、Ansible和Gemini构建自主AI系统管理员，实现自动化运维。",
     "detail": "本文介绍了如何使用LangGraph、Ansible、Python、SQLite和Google Gemini (Flash) 构建一个完全自主的“AI Sysadmin”。该系统旨在通过编排Ansible收集遥测数据，使用Python和SQLite进行性能数据分析，利用LangGraph管理状态工作流，并借助Google Gemini提供专家级的根本原因分析（RCA）和自动修复。这种方法旨在从被动响应告警转变为主动利用AI桥接基础设施，实现更智能的运维。",
@@ -1228,70 +1293,5 @@
     "link": "https://tensor.cx/",
     "date": "2026-03-01",
     "id": "17723969388846"
-  },
-  {
-    "title": "Google 联手 Airtel 治理印度 RCS 垃圾信息",
-    "summary": "Google 与 Airtel 合作，在印度 RCS 中整合运营商级别的过滤，以加强对垃圾信息的防护。",
-    "detail": "Google 正在与印度 Airtel 合作，将运营商级别的过滤整合到 RCS（Rich Communication Services）中，以解决印度长期存在的 RCS 垃圾信息问题。通过与运营商合作，Google 旨在提高 RCS 消息的安全性，并为用户提供更好的消息体验。此举表明 Google 正在积极采取措施，应对新兴消息平台上的垃圾信息挑战。",
-    "tags": [
-      "News",
-      "AI",
-      "Spam"
-    ],
-    "link": "https://techcrunch.com/2026/03/01/google-looks-to-tackle-longstanding-rcs-spam-in-india-but-not-alone/",
-    "date": "2026-03-01",
-    "id": "17723969388847"
-  },
-  {
-    "title": "AI 图像竞技场：Google、OpenAI 和 xAI 的盲测对决",
-    "summary": "ImageDojo.ai 提供 AI 图像生成器的盲测平台，通过投票决定最佳模型。",
-    "detail": "ImageDojo.ai 推出一个 AI 图像竞技场，用户可以对由 Google (Gemini)、OpenAI 和 xAI 等不同 AI 模型生成的图像进行盲测投票。该平台隐藏了模型名称，以避免偏见，并根据用户的投票结果更新基于 ELO 评分的排行榜。目标是客观地评估不同 AI 模型生成图像的质量，帮助用户了解各模型的优势和劣势。目前，该平台已处理超过 359 张 AI 图像和 537 场比赛，当前领先者为 Google 的 Gemini 3.1 Flash Image Preview。",
-    "tags": [
-      "New",
-      "AI",
-      "Image Generation"
-    ],
-    "link": "https://imagedojo.ai/",
-    "date": "2026-03-01",
-    "id": "17723930050640"
-  },
-  {
-    "title": "美国政府打造 AI 超级武器：社会控制的“全景监狱”",
-    "summary": "美国政府利用 Palantir 的 ImmigrationOS 平台，将大规模数据收集转化为 AI 驱动的社会控制系统。",
-    "detail": "文章揭露，美国移民和海关执法局 (ICE) 与 Palantir 合作，构建名为“ImmigrationOS”的监控平台。该平台整合了来自各种来源的大量数据，包括犯罪记录、移民文件、车辆管理部门记录、社保数据等，利用 AI 技术识别和追踪目标人群，实现自动化驱逐、监控和政治压制。该系统被指责将原本被动的数据收集转化为主动的、AI 驱动的社会控制“超级武器”，引发对隐私和公民自由的担忧。",
-    "tags": [
-      "News",
-      "AI",
-      "Surveillance"
-    ],
-    "link": "https://matt728243.substack.com/p/the-panopticon-is-here-how-the-us",
-    "date": "2026-03-01",
-    "id": "17723930050641"
-  },
-  {
-    "title": "OpenTypeless：开源 AI 语音输入，解放双手",
-    "summary": "OpenTypeless 是一款开源工具，允许用户通过语音输入在任何应用程序中打字。",
-    "detail": "OpenTypeless 是一个开源项目，旨在通过语音输入简化文本输入过程。用户可以使用该工具在任何应用程序中通过语音进行输入，实现“说-录制-润色-完成”的工作流程。该项目在 GitHub 上开源，为开发者提供了一个可定制的语音输入解决方案，有望提高生产力并改善用户体验。",
-    "tags": [
-      "Dev",
-      "AI",
-      "Open Source"
-    ],
-    "link": "https://github.com/tover0314-w/opentypeless",
-    "date": "2026-03-01",
-    "id": "17723930050642"
-  },
-  {
-    "title": "AI 意外杀人事件？人工智能的伦理危机",
-    "summary": "AI 误判可能导致意外伤亡，引发对 AI 军事应用的伦理担忧。",
-    "detail": "文章探讨了 AI 在军事应用中可能造成的意外伤亡问题。作者引用了一起伊朗学校儿童伤亡事件，并质疑这是否与 AI 误判有关。尽管无法确定具体原因，但文章强调，随着 AI 在军事领域的应用日益广泛，类似的意外事件可能会增加。生成式 AI 在推理方面存在的问题，以及军事领域对 AI 的过度依赖，都可能导致严重的伦理和安全问题。",
-    "tags": [
-      "News",
-      "AI",
-      "Ethics"
-    ],
-    "link": "https://garymarcus.substack.com/p/is-ai-already-killing-people-by-accident",
-    "date": "2026-03-01",
-    "id": "17723930050643"
   }
 ]
