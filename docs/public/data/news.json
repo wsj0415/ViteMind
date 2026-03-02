@@ -1,5 +1,57 @@
 [
   {
+    "title": "AI 助力 COBOL 现代化，打破成本壁垒",
+    "summary": "Anthropic 的 Claude 如何降低 COBOL 现代化成本。",
+    "detail": "Anthropic 发布文章，探讨如何利用 AI 技术降低 COBOL 现代化改造的成本。COBOL 是一种古老的编程语言，但仍被广泛应用于金融等关键领域。现代化改造通常成本高昂且耗时。文章介绍了 Claude 如何通过自动化代码转换、测试和文档生成等任务，显著降低现代化成本，并提高效率。这对于 legacy 系统的维护和升级具有重要意义，有助于企业更好地利用 AI 技术。",
+    "tags": [
+      "News",
+      "LLM",
+      "Coding"
+    ],
+    "link": "https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization",
+    "date": "2026-03-02",
+    "id": "17724482613130"
+  },
+  {
+    "title": "开源 Figma 替代品：AI 原生设计编辑器 OpenPencil",
+    "summary": "OpenPencil 是一个 AI 原生设计编辑器，作为 Figma 的开源替代品。",
+    "detail": "OpenPencil 是一个基于 GitHub 的开源项目，旨在创建一个 AI 原生的设计编辑器，作为流行的设计工具 Figma 的替代方案。该项目利用 AI 技术来增强设计工作流程，例如智能组件生成、自动化布局和 AI 辅助设计建议。作为一个开源项目，OpenPencil 允许开发者社区参与贡献和定制，有望为设计师提供更灵活和智能的设计体验。",
+    "tags": [
+      "New",
+      "Dev",
+      "AI"
+    ],
+    "link": "https://github.com/open-pencil/open-pencil",
+    "date": "2026-03-02",
+    "id": "17724482613131"
+  },
+  {
+    "title": "开源费用预算跟踪器：带 SQL API 的 AI Agent 助手",
+    "summary": "自托管开源个人财务费用预算跟踪器，具有 SQL API，可供 AI Agent 使用。",
+    "detail": "kirill-markin 在 GitHub 上发布了一个自托管的开源个人财务费用和预算跟踪器。该工具使用 Postgres 数据库，支持余额、转账和多币种报告。最值得关注的是，它提供了一个 SQL API，允许 AI Agent 访问和分析财务数据，从而实现智能化的财务管理和预测。这为开发者提供了一个构建 AI 驱动的个人理财应用的强大基础。",
+    "tags": [
+      "New",
+      "Dev",
+      "AI"
+    ],
+    "link": "https://github.com/kirill-markin/expense-budget-tracker",
+    "date": "2026-03-02",
+    "id": "17724482613132"
+  },
+  {
+    "title": "ROLV.ai：通用稀疏计算原语，后端无关的可重现性",
+    "summary": "ROLV.ai 提供用于稀疏数据处理的通用计算原语，并保证后端无关的可重现性。",
+    "detail": "ROLV.ai 推出了一种新的 AI 优化技术，专注于稀疏数据的处理。ROLV 提供通用的稀疏计算原语，旨在提高 AI 模型在处理大规模稀疏数据时的效率和性能。其关键特性是后端无关的可重现性，这意味着无论使用何种硬件或软件平台，计算结果都能够保持一致。这对于确保 AI 模型的可靠性和可移植性至关重要，尤其是在科学研究和工程应用中。",
+    "tags": [
+      "New",
+      "AI",
+      "Optimization"
+    ],
+    "link": "https://rolv.ai",
+    "date": "2026-03-02",
+    "id": "17724482613133"
+  },
+  {
     "title": "OpenBerth：一键部署AI应用到自有机服务器",
     "summary": "无需Docker，无需云平台，一键将AI构建的应用部署到自己的服务器。",
     "detail": "OpenBerth 旨在解决AI应用部署的痛点。AI工具可以在几分钟内构建应用，但将其部署上线却需要花费大量时间。OpenBerth 允许开发者使用一个命令将AI构建的应用部署到自己的服务器上，无需Docker、云平台或DevOps。它与任何MCP兼容的工具无缝连接，支持自动HTTPS、沙盒安全和持久存储，简化了AI应用的部署流程，让开发者专注于构建而非部署。",
@@ -1246,57 +1298,5 @@
     "link": "https://janhoon.com/blog/building-with-an-ai-that-remembers/",
     "date": "2026-03-01",
     "id": "17723751508892"
-  },
-  {
-    "title": "AgentMail：AI 代理专属邮件服务，内置 Karma 垃圾邮件防护",
-    "summary": "AgentMail 为 AI 代理提供独立的 @theagentmail.net 邮箱，通过 Karma 系统防止垃圾邮件。",
-    "detail": "AgentMail 旨在为 AI 代理提供电子邮件服务，解决代理注册、接收验证码和代表用户通信的需求。每个代理获得一个 @theagentmail.net 地址，通过 API 创建和管理。AgentMail 采用 Karma 信用系统，发送邮件消耗 Karma，接收邮件赚取 Karma，鼓励健康的回复率，从而防止垃圾邮件，维护域名信誉。",
-    "tags": [
-      "New",
-      "AI",
-      "Email"
-    ],
-    "link": "https://theagentmail.net/",
-    "date": "2026-03-01",
-    "id": "17723751508893"
-  },
-  {
-    "title": "RTS：AI 决策的 Git 原生执行溯源协议",
-    "summary": "RTS 是一个 Git 原生的协议，用于记录和追溯 AI 决策的执行过程。",
-    "detail": "RTS (Runtime Provenance System) 是一个用于 AI 代理的执行溯源协议，它利用 Git 来跟踪和记录 AI 决策的整个过程。该项目旨在提高 AI 系统的可审计性、可重现性和可观察性，适用于 AI 研究、运营和安全等领域。通过将 AI 决策的执行过程与 Git 版本控制相结合，RTS 能够提供详细的执行日志，并支持对 AI 系统的行为进行分析和验证。",
-    "tags": [
-      "Dev",
-      "AI",
-      "LLM"
-    ],
-    "link": "https://github.com/nobutakayamauchi/RTS",
-    "date": "2026-03-01",
-    "id": "17723751508894"
-  },
-  {
-    "title": "AI 正在使初级开发者变得无用？",
-    "summary": "AI 使得快速构建浅薄能力变得容易，但初级开发者可能因此缺乏深入理解和经验。",
-    "detail": "文章讨论了 AI 对初级开发者的影响。AI 使得快速构建“浅薄能力”变得容易，但初级开发者可能因此缺乏深入理解和经验。有经验的开发者更有价值的原因在于他们知道什么不该做，而AI的使用可能会让初级开发者跳过这些重要的经验积累过程。作者建议初级开发者不要仅仅依赖 AI，而应该努力理解代码背后的原理。",
-    "tags": [
-      "News",
-      "AI",
-      "Dev"
-    ],
-    "link": "https://beabetterdev.com/2026/03/01/ai-is-making-junior-devs-useless/",
-    "date": "2026-03-01",
-    "id": "17723751508895"
-  },
-  {
-    "title": "AI 小丑末日：迫在眉睫的风险",
-    "summary": "文章警告，即使是不具备超高智能的 AI 技术，也可能因部署方式不当而带来严重风险。",
-    "detail": "文章指出，当前和即将到来的 AI 技术的部署方式带来了非常实际的风险。这些风险不需要超智能，也不是“生存”风险，但仍然非常糟糕。文章认为，一个自我复制的东西不需要非常聪明就可以造成重大问题。作者提出了一个糟糕的场景：利用某些自主方式将资源转化为漏洞，例如使用提示来欺骗 Claude Code 或 Codex，或者使用开源模型。然后，这些漏洞被用于攻击各种系统，造成混乱。",
-    "tags": [
-      "News",
-      "AI",
-      "Security"
-    ],
-    "link": "https://honnibal.dev/blog/clownpocalypse",
-    "date": "2026-03-01",
-    "id": "17723751508896"
   }
 ]
