@@ -33,7 +33,7 @@ jobs:
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: |
-          python scripts/generate_news_gemini.py
+          python scripts/generate_news.py
 
       - name: Commit and Push
         run: |
