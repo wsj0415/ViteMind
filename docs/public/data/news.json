@@ -1,5 +1,57 @@
 [
   {
+    "title": "斯坦福发布 OpenJarvis：端侧个人 AI 框架",
+    "summary": "斯坦福推出开源框架，支持设备端运行个人 AI 代理，保障隐私。",
+    "detail": "斯坦福 Scaling Intelligence 实验室联合 John Hennessy 等学者发布 OpenJarvis，这是一个完全在设备端运行的开源个人 AI 代理框架。它提供了构建端侧代理的共享原语、效率感知评估及使用本地 trace 数据改进模型的学习循环。该项目旨在解决云端 AI 的隐私与延迟问题，推动个人 AI 向本地化发展。开发者可通过 GitHub 获取代码，参与 ENERGY leaderboard 评测，优化模型在个人设备上的表现。这标志着端侧智能的重要进展，为隐私敏感型应用提供了新的技术路径，降低了对外部 API 的依赖，提升了响应速度与数据安全性，是个人 AI 领域的重要开源贡献。",
+    "tags": [
+      "News",
+      "LLM",
+      "Privacy"
+    ],
+    "link": "https://scalingintelligence.stanford.edu/blogs/openjarvis/",
+    "date": "2026-03-15",
+    "id": "17736175612180"
+  },
+  {
+    "title": "GitHub 开源 AI 代理红队测试演练场",
+    "summary": "开源环境支持通过对抗性游戏压力测试 AI 代理防御，提升安全性。",
+    "detail": "开发者在 GitHub 发布了 fabraix/playground 项目，这是一个用于压力测试 AI 代理防御的实时环境。通过对抗性游戏（adversarial play），用户可以利用已发布的漏洞 exploits 对 AI 代理进行红队测试。该工具旨在帮助开发者识别代理系统中的安全弱点，增强 AI 在面对恶意输入时的鲁棒性。项目支持实时环境交互，适合 AI 安全研究人员及开发者使用，为 AI 代理的安全部署提供了重要的测试基础设施。随着 AI 代理广泛应用，此类红队工具能有效降低潜在风险，确保系统在面对复杂攻击时的稳定性，是 AI 安全生态不可或缺的一环。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://github.com/fabraix/playground",
+    "date": "2026-03-15",
+    "id": "17736175612181"
+  },
+  {
+    "title": "AI 时代下的史蒂夫·乔布斯 10-80-10 法则",
+    "summary": "文章探讨乔布斯管理法则在 AI 时代的适用性，强调人类核心价值。",
+    "detail": "Inc. 杂志文章深入分析了史蒂夫·乔布斯的 10-80-10 法则在人工智能时代的新意义。该法则强调在关键决策中人类直觉与努力的重要性。文章指出，尽管 AI 能处理大量中间工作（80%），但最初的愿景（10%）和最终的打磨（10%）仍需人类主导。这对企业管理者如何在 AI 辅助下保持核心竞争力提供了战略视角，强调在自动化浪潮中，人类创造力与判断力依然是不可替代的关键资产。指导领导者合理分配人机协作比例，避免过度依赖 AI 导致创新乏力，确保企业在技术变革中保持独特的品牌灵魂与决策质量。",
+    "tags": [
+      "News",
+      "Management",
+      "Strategy"
+    ],
+    "link": "https://www.inc.com/jessica-stillman/steve-jobs-10-80-10-rule-is-even-more-useful-in-the-ai-era/91313015",
+    "date": "2026-03-15",
+    "id": "17736175612182"
+  },
+  {
+    "title": "ThoughtRAIL：本地化多 AI 思维空间工具",
+    "summary": "支持自带 API 密钥的多 AI 协作平台，数据本地加密存储，注重隐私。",
+    "detail": "ThoughtRAIL 推出了一款多 AI 思维空间工具，允许用户带入自己的 API 密钥进行协作。其核心特点是所有聊天记录和密钥均本地加密存储，不上传服务器，响应直接由 AI 提供商生成。这种架构确保了用户数据的隐私安全，适合需要同时调用多个模型且对数据敏感性有较高要求的专业用户及开发者使用。平台明确声明不存储密钥于服务器，清除本地数据即永久删除，为用户提供了透明且可控的 AI 交互环境。契合隐私优先趋势，解决了用户对云端存储数据的顾虑，促进了多模型工作流的本地化整合与安全使用。",
+    "tags": [
+      "New",
+      "Privacy",
+      "Tool"
+    ],
+    "link": "https://thoughtrail.ai",
+    "date": "2026-03-15",
+    "id": "17736175612183"
+  },
+  {
     "title": "克利夫兰新闻室引入 AI 重写专员引发行业争议",
     "summary": "报社设立 AI 重写岗位，记者负责采集，AI 负责写作，引发伦理讨论。",
     "detail": "克利夫兰.com 编辑克里斯·奎恩设立\"AI 重写专家\"岗位，旨在让记者专注于信息采集，利用内部 ChatGPT 版本撰写文章。此举虽提高效率，但引发 HuffPost 编辑及美国新闻研究所质疑，认为不应将写作从记者工作中剥离。该案例凸显了 AI 在传统新闻业中的角色边界与伦理争议，为媒体转型提供参考。奎恩致信读者称 AI 是未来，但批评者指出这可能导致新闻质量下降。这一实验性举措将成为观察 AI 如何重塑内容生产流程的重要案例，行业需平衡效率与新闻真实性。",
@@ -1246,61 +1298,5 @@
     "link": "https://indie-me.ai/",
     "date": "2026-03-02",
     "id": "17724873410352"
-  },
-  {
-    "title": "Logcat.ai：Android和Linux系统的AI日志分析平台",
-    "summary": "Logcat.ai 利用 AI 快速分析 Android 和 Linux 系统日志，助力工程师高效定位问题根源。",
-    "detail": "Logcat.ai 是一个基于 AI 的日志分析平台，旨在帮助 Android 和 Linux 工程师快速定位问题根源。用户可以上传 bugreports、logcat、dmesg 或 modem 日志，通过快速搜索或深度研究功能，在几分钟内获得可操作的见解。该平台能够关联内核、框架和应用程序中的事件，检测崩溃、ANR、内存泄漏、电池耗尽和安全问题。Logcat.ai 适用于设备制造商、ODM 解决方案提供商和车队管理者。",
-    "tags": [
-      "New",
-      "Dev",
-      "AI",
-      "Android",
-      "Linux"
-    ],
-    "link": "https://logcat.ai/",
-    "date": "2026-03-02",
-    "id": "17724873410353"
-  },
-  {
-    "title": "OnCallMate：AI驱动的Docker容器事件根因分析工具",
-    "summary": "OnCallMate 是一款开源AI SRE Agent，可在夜间自主调查Docker事件，无需人工介入。",
-    "detail": "OnCallMate 是一个开源的 AI SRE（站点可靠性工程师）代理，旨在自动化 Docker 容器事件的根因分析过程。它可以在夜间自主调查 Docker 容器事件，无需人工干预，从而减少了工程师在凌晨进行日志挖掘的需求。OnCallMate 具有自托管、安全优先的特点，并提供 GitHub 集成。该工具通过 AI 技术分析日志，帮助运维团队快速定位和解决 Docker 容器相关的问题。",
-    "tags": [
-      "New",
-      "Dev",
-      "AI",
-      "Docker",
-      "SRE"
-    ],
-    "link": "https://github.com/ismailperim/oncallmate",
-    "date": "2026-03-02",
-    "id": "17724873410354"
-  },
-  {
-    "title": "AI将颠覆应用软件行业？",
-    "summary": "AI并非软件行业的末日，而是机遇，它将重塑软件的价值和交付方式。",
-    "detail": "文章指出，软件行业对AI的恐慌源于对软件公司价值的误解。软件的价值不在于代码本身，而在于其解决问题的能力和提供的服务。AI 将会重塑软件的交付方式，使得软件更加智能、自动化，并能够更好地满足用户需求。因此，AI 不是软件行业的终结者，而是加速器，它将推动软件行业进入新的发展阶段。那些能够有效利用 AI 的软件公司将会获得更大的竞争优势。",
-    "tags": [
-      "News",
-      "AI",
-      "软件行业"
-    ],
-    "link": "https://a16z.com/good-news-ai-will-eat-application-software/",
-    "date": "2026-03-02",
-    "id": "17724873410355"
-  },
-  {
-    "title": "CrowPay：让 AI Agent 通过 x402 协议实现 API 支付",
-    "summary": "CrowPay 允许 AI Agent 通过 x402 协议使用 USDC 支付 API 调用费用，无需 API 密钥。",
-    "detail": "CrowPay 提供了一种新的支付方式，允许 AI Agent 使用 USDC 通过 x402 协议支付 API 调用费用。该平台提供钱包、消费控制、实时仪表板等功能，使开发者能够控制 Agent 的支出，并支持各种 Agent，如 Claude 和 GPT。目前已有超过 960 个 API 接受 x402 支付，超过 72,000 个 Agent 正在使用，处理了超过 1500 万笔交易，总支付额超过 6 亿美元。CrowPay 旨在简化 Agent 的支付流程，并提供安全可靠的支付环境。",
-    "tags": [
-      "New",
-      "LLM",
-      "API"
-    ],
-    "link": "https://www.crowpay.ai/",
-    "date": "2026-03-02",
-    "id": "17724840027330"
   }
 ]
