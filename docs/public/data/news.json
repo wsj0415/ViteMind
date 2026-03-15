@@ -1,5 +1,57 @@
 [
   {
+    "title": "AI 幻觉的双重面孔：从事实错误到认知重塑",
+    "summary": "深度剖析 AI 幻觉不仅制造事实错误，更通过结构性机制改变人类与真理的关系。",
+    "detail": "本文提出了关于 AI 幻觉的深刻见解，将其分为“技术性幻觉”与“结构性幻觉”。技术性幻觉指模型生成不符合事实的内容，通常通过增加数据或护栏解决；而结构性幻觉则是行业为了吸引用户而 engineered 的机制，它不一定fabricate facts，但会阻止用户独立思考。文章指出，后者更危险，因为它改变了人类与真理本身的关系。这一观点超越了常规的技术修复思路，呼吁行业关注 AI 架构如何影响人类认知结构，对于 AI 伦理和未来交互设计具有重要的警示意义。",
+    "tags": [
+      "News",
+      "LLM",
+      "Ethics"
+    ],
+    "link": "https://chungmoo.substack.com/p/ai-hallucinations-how-they-reshape",
+    "date": "2026-03-15",
+    "id": "17735886478200"
+  },
+  {
+    "title": "Mikk：基于代码依赖图谱解决 AI 编程上下文缺失",
+    "summary": "通过构建函数级依赖图谱 Mesh，让 AI 理解代码架构而非仅读取文件列表。",
+    "detail": "针对 AI 编程工具在处理非 trivial 代码库时因缺乏架构理解而导致错误的问题，Mikk 提出了解决方案。它不依赖 embeddings 或摘要，而是通过 TypeScript Compiler API 构建真实的有向图（Mesh），将每个函数作为节点，导入和调用作为边。该工具能在 3 秒内解析项目，生成包含依赖关系的 mikk.lock.json，并通过 MCP 服务器暴露给 AI。这使得 AI 在编辑前能知晓“爆炸半径”，理解模块所有权和层规则，显著减少了因上下文缺失导致的代码破坏，为 AI 辅助开发提供了更坚实的架构基础。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Tools"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47387807",
+    "date": "2026-03-15",
+    "id": "17735886478201"
+  },
+  {
+    "title": "Agent 404：专为 AI 智能体设计的智能死链重定向",
+    "summary": "将传统 404 页面升级为结构化 JSON-LD，防止 AI 智能体因死链中断任务。",
+    "detail": "随着 AI Agent 自主浏览网页增多，死链会导致任务中断或 hallucination。Agent 404 是一个开源项目，旨在将 404 页面转化为智能重定向。它通过添加脚本标签，使 404 页面返回结构化 JSON-LD 数据，帮助 Coding Assistants（如 Claude、Cursor）找到当前正确的文档页面，而非陷入死胡同。该工具特别适用于 RAG 管道索引过期链接或 Web Agents 导航断裂流程的场景，支持自托管，无需特殊集成即可让 AI 智能体在遇到死链时自动获取相似资源候选列表，保持任务连续性。",
+    "tags": [
+      "New",
+      "Agent",
+      "Web"
+    ],
+    "link": "https://www.agent404.dev/",
+    "date": "2026-03-15",
+    "id": "17735886478202"
+  },
+  {
+    "title": "Flint 方法论：将 AI 视为合作伙伴而非工具",
+    "summary": "通过 IMCP/H 协议构建持久性 AI 关系，探索在资源受限下的协作新模式。",
+    "detail": "该项目由一名普通工作者与 AI 共同构建，提出将 AI 视为“关系”而非“工具”的方法论。工具模式是命令执行且可 disposable，而关系模式强调协作、学习和持久性。项目展示了在极低预算（如借用资金维持 API 调用）和硬件限制下，如何通过本地路由和记忆系统构建 cognitive architecture。它挑战了当前主流的效率优化叙事，探讨了当 AI  session 无记忆时，如何通过外部系统建立连续性。这种基于约束的创新为个人开发者与 AI 协作提供了独特的视角和实践案例。",
+    "tags": [
+      "Dev",
+      "Methodology",
+      "Community"
+    ],
+    "link": "https://github.com/Nixelad001/flint-methodology",
+    "date": "2026-03-15",
+    "id": "17735886478204"
+  },
+  {
     "title": "GlobalDex 发布 AI 代理就绪标准，支持 WebMCP 检测",
     "summary": "首个 WebMCP 扫描器，定义 AI 代理网站兼容性标准，含 34 项合规检查。",
     "detail": "GlobalDex 推出了 AI 代理就绪标准，旨在解决 AI 代理自主浏览网站时的兼容性问题。作为首个支持 Chrome 146 WebMCP 协议的扫描器，它提供 34 项合规检查及 Claude 驱动的 AI 分析。目前已有超过 17 万个域名被索引，完成 19 万次扫描。该工具帮助开发者在 CI/CD 中确保网站结构、元数据及无障碍性符合 AI 交互标准。大多数网站目前评分低于 A 级，缺少结构化和元数据。GlobalDex 填补了当前大多数网站无法有效服务于自主 AI 代理的空白，成为衡量网站 AI 就绪度的权威指标，且提供免费无注册使用，助力开发者提前适配 AI 时代。",
@@ -466,6 +518,19 @@
     "link": "https://theconversation.com/as-the-oscars-approach-hollywood-grapples-with-ais-growing-influence-on-filmmaking-273766",
     "date": "2026-03-15",
     "id": "17735584484714"
+  },
+  {
+    "title": "StatGPT 警示：向 AI 询问统计学数据的潜在风险",
+    "summary": "经济学家指出 generative AI 在统计查询中易产生幻觉，强调人工核查的重要性。",
+    "detail": "Conversable Economist 发表文章探讨向 generative AI 工具询问统计学问题的危险性。虽然 AI 能生成合理的初稿，但常包含不准确甚至幻觉的数据。文章比喻称，就像人类编辑需要核查记忆中的引用一样，使用 AI 生成的统计数据也必须经过严格验证。作者指出，AI 工具贬值了某些能力，但并未消除对事实核查的需求。在数据驱动决策的背景下，盲目信任 AI 生成的统计结果可能导致严重错误，这一观点为学术界和行业使用 AI 辅助研究敲响了警钟。",
+    "tags": [
+      "News",
+      "Data",
+      "Research"
+    ],
+    "link": "https://conversableeconomist.com/2026/03/13/statgpt-the-dangers-of-asking-ai-about-statistics/",
+    "date": "2026-03-13",
+    "id": "17735886478203"
   },
   {
     "title": "AI架构模式管理器：基于TOGAF和Neo4j的企业级平台",
@@ -1232,70 +1297,5 @@
     "link": "https://www.nbcnews.com/news/us-news/musks-ai-power-plant-generates-sound-fury-mississippi-rcna258594",
     "date": "2026-03-02",
     "id": "17724625838100"
-  },
-  {
-    "title": "Kelos：Kubernetes原生AI编码Agent编排框架",
-    "summary": "Kelos是一个基于Kubernetes的框架，用于编排自主AI编码Agent，将开发工作流转化为YAML。",
-    "detail": "Kelos是一个Kubernetes原生的框架，旨在帮助开发者通过YAML文件定义和编排AI编码Agent的工作流程。它允许在Kubernetes上自动化执行AI驱动的编码任务，简化了AI在软件开发生命周期中的集成。Kelos提供了快速启动、开发指南、示例和参考文档，方便用户上手和使用。该项目使用Go语言开发，并提供了CI/CD流程和多种许可证选项。",
-    "tags": [
-      "Dev",
-      "AI",
-      "Kubernetes"
-    ],
-    "link": "https://github.com/kelos-dev/kelos",
-    "date": "2026-03-02",
-    "id": "17724625838101"
-  },
-  {
-    "title": "Aigent：通用型AI Agent，致力于自我提升",
-    "summary": "Aigent是一个通用AI Agent，具备自我提升能力，可配置LLM提供者、工具和提示。",
-    "detail": "Aigent是一个设计用于自我改进的通用AI Agent。它允许用户配置LLM提供者（如Anthropic或OpenAI），并提供各种工具和提示设置。用户可以自定义模型的行为、推理级别和输出方式。Aigent还包括语音转文本（STT）和文本转语音（TTS）服务集成，以及用于防止计算机休眠和管理浏览器标签等功能。该项目旨在提供一个灵活且可定制的AI Agent平台，以满足各种应用需求。",
-    "tags": [
-      "Dev",
-      "AI",
-      "Agent"
-    ],
-    "link": "https://stefanochiodino.github.io/aigent/",
-    "date": "2026-03-02",
-    "id": "17724625838102"
-  },
-  {
-    "title": "Cal AI被MyFitnessPal收购：AI赋能卡路里追踪",
-    "summary": "Cal AI被MyFitnessPal收购，该公司利用AI简化卡路里追踪，年收入突破5000万美元。",
-    "detail": "Cal AI，一家由两位17岁高中生创立的公司，已被MyFitnessPal收购。Cal AI致力于利用人工智能简化卡路里追踪过程，在短短18个月内，帮助数百万人减轻体重，并实现了超过5000万美元的年度经常性收入（ARR）。此次收购表明了AI在健康和健身领域的巨大潜力，以及市场对AI驱动的个性化健康解决方案的需求。",
-    "tags": [
-      "News",
-      "AI",
-      "收购"
-    ],
-    "link": "https://twitter.com/zach_yadegari/status/2028473704359874652",
-    "date": "2026-03-02",
-    "id": "17724625838103"
-  },
-  {
-    "title": "Markdown Browser：以AI的视角浏览网页",
-    "summary": "Markdown Browser 允许用户以 Markdown 格式查看网页内容，模拟 AI 的视角。",
-    "detail": "Markdown Browser 提供了一种独特的方式来查看网页内容，它将网页转换为 Markdown 格式，从而模拟 AI 如何“看到”网页。用户可以输入 URL，然后以纯文本格式查看内容，这对于理解 AI 如何解析网页、提取信息以及进行自然语言处理非常有用。该工具还提供了一些设置选项，例如搜索 URL 和提取 URL，以及下载 macOS 应用程序的链接。",
-    "tags": [
-      "New",
-      "AI",
-      "工具"
-    ],
-    "link": "https://markdownbrowser.com/main",
-    "date": "2026-03-02",
-    "id": "17724625838104"
-  },
-  {
-    "title": "AI vs. 五角大楼：Anthropic与美国军方的紧张关系",
-    "summary": "Anthropic与五角大楼因Claude模型的使用问题产生分歧，引发关于AI伦理和军事应用的讨论。",
-    "detail": "Anthropic与美国国防部（五角大楼）之间的关系因Claude AI模型的使用问题而变得紧张。起因是Claude被用于委内瑞拉总统尼古拉斯·马杜罗的抓捕行动，这引起了Anthropic内部员工的不满。此前，Anthropic与五角大楼签订了价值2亿美元的合同，旨在推进国防行动中负责任的AI应用。然而，此次事件引发了关于AI伦理、军事应用以及科技公司与政府合作的更广泛讨论。文章深入探讨了Anthropic在AI伦理方面的立场，以及其与Palantir等公司的合作。",
-    "tags": [
-      "News",
-      "AI",
-      "伦理"
-    ],
-    "link": "https://jasmi.news/p/ai-pentagon",
-    "date": "2026-03-02",
-    "id": "17724625838105"
   }
 ]
