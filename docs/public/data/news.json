@@ -1,5 +1,70 @@
 [
   {
+    "title": "黑客泄露数据揭露国土安全部 AI 监控野心",
+    "summary": "黑客数据泄露揭示美国国土安全部 AI 监控计划。",
+    "detail": "泄露数据揭示了美国国土安全部在 AI 监控方面的雄心，这一事件由黑客攻击引发。标题明确指出数据泄露让公众得以窥见政府部门的 AI surveillance 计划。这对于隐私保护领域是一个重大信号，表明政府机构正在积极部署 AI 技术用于监控目的。行业观察者需关注此类项目可能带来的合规挑战及公众信任危机，政府 AI 应用的透明度问题将成为焦点。安全边界与隐私权的博弈将进一步加剧，影响相关技术的社会接受度。此事件可能促使监管机构加强对政府 AI 项目的审计，要求更高的数据使用透明度，从而改变公共安全技术的采购与部署标准，引发行业对 AI 伦理边界的深层讨论。",
+    "tags": [
+      "News",
+      "Security",
+      "Policy"
+    ],
+    "link": "https://www.theguardian.com/us-news/2026/mar/15/hacked-data-homeland-security",
+    "date": "2026-03-15",
+    "id": "17735827236430"
+  },
+  {
+    "title": "欧盟工业计划剔除 AI 与芯片以应对中国",
+    "summary": "欧盟调整工业计划，移除 AI 和芯片项目。",
+    "detail": "欧盟从旨在 counter 中国的工业计划中剔除了 AI、芯片和量子技术，反映地缘政治策略重大调整。原标题明确指出这一变动，表明欧洲在科技竞争策略上的重新考量，可能意在缓和紧张关系或调整资源分配。此举可能影响全球科技供应链布局及欧洲本土创新支持方向，减少特定领域的直接对抗色彩。欧洲科技产业需重新评估政策环境，全球竞争格局生变，企业需灵活应对跨区域政策风险。关注后续政策落地对研发资金流向的具体影响，以及中美欧三角关系的微妙变化，这可能导致全球科技合作模式的重构，影响跨国科技企业的战略布局。",
+    "tags": [
+      "News",
+      "Policy",
+      "Geopolitics"
+    ],
+    "link": "https://www.scmp.com/news/china/diplomacy/article/3345311/eu-strips-ai-chips-and-quantum-industrial-plan-aimed-countering-china",
+    "date": "2026-03-15",
+    "id": "17735827236431"
+  },
+  {
+    "title": "AI 编程代理意外引入漏洞依赖致挖矿感染",
+    "summary": "AI 生成代码引入漏洞依赖，导致服务器被挖矿。",
+    "detail": "案例显示 AI 编程工具（Claude Code 等）生成的代码 pinned 了 vulnerable 依赖，导致 CVE 利用和 cryptominer 感染。文章详细描述了攻击链：AI 生成项目->漏洞依赖->中间件绕过->自动扫描->挖矿程序。警示\"vibe coding\"虽提速但增加安全债务，传统开发中的版本审查步骤易被 overlook。开发者需加强自动化审计，匹配 AI 开发速度，避免忽视版本审查，确保生成代码的安全性。建议引入类似 Containarium 的平台作为自动化 brakes，平衡效率与安全。防止类似安全事件在生产环境中重演，重塑 AI 辅助开发的最佳实践，强调在享受 AI 效率红利的同时，必须建立与之匹配的安全护栏，否则技术债务将转化为实际的安全漏洞。",
+    "tags": [
+      "Dev",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47387054",
+    "date": "2026-03-15",
+    "id": "17735827236432"
+  },
+  {
+    "title": "Grantex：专为 AI 代理设计的 OAuth 授权协议",
+    "summary": "提供 AI 代理身份授权基础设施，类似 OAuth。",
+    "detail": "Grantex 旨在成为代理互联网的\"OAuth 时刻\"，提供身份、授权和审计基础设施。README 指出它允许 AI 代理代表人类行动，具备 scoped 权限和不可变审计 trail。解决 Agent 安全交互痛点，开发者可快速集成 SDK。这标志着 AI Agent 生态正在迈向成熟，需要标准化的身份验证层。随着 Agent 自主性增强，如何确保其操作可控、可审计成为关键。Grantex 提供的通用 SDK 和云服务降低了集成门槛，为大规模 Agent 部署提供必要的安全信任层。推动 Agentic Internet 基础设施完善，解决多 Agent 协作中的信任问题，为未来人类与 Agent 共存的网络环境奠定安全基石，具有行业基础设施级的战略意义。",
+    "tags": [
+      "New",
+      "Agent",
+      "Security"
+    ],
+    "link": "https://github.com/mishrasanjeev/grantex",
+    "date": "2026-03-15",
+    "id": "17735827236433"
+  },
+  {
+    "title": "AgentMailr：为 AI 代理提供专用邮箱 API",
+    "summary": "AI 代理专用邮箱 API，支持 OTP 提取与管理。",
+    "detail": "AgentMailr 提供专为 AI 代理设计的邮箱 API，支持 OTP 提取、链接验证及通信管理。landing page 显示它通过 REST API 和 MCP 工具集成，解决 Agent 独立通信需求。功能包括完整 CRUD、线程管理、附件提取及实时事件 webhook。是构建自主代理工作流的关键基础设施组件，帮助 Agent 完成验证闭环，提升自动化能力。它强调\"It's email for your AI\"，区分于传统 AI 邮件助手，专注于赋予 Agent 独立身份。支持 BYOK 加密，确保数据安全，满足企业级 Agent 部署对通信隐私和可控性的严格要求。这填补了 Agent 独立通信能力的空白，使 Agent 能独立处理需要邮件验证的复杂任务，极大扩展了自动化边界。",
+    "tags": [
+      "New",
+      "Agent",
+      "API"
+    ],
+    "link": "https://www.agentmailr.com/",
+    "date": "2026-03-15",
+    "id": "17735827236434"
+  },
+  {
     "title": "英国政府发布 AI 编程助手使用指南",
     "summary": "英国政府发布指南，规范公务员使用 AI 编程助手，平衡效率与安全。",
     "detail": "英国政府正式公布针对公务员的 AI 编程助手（AICA）使用指南。鉴于 Copilot 等工具的普及，指南旨在防止影子 IT 风险，同时提升开发者生产力。建议遵循 AI playbook 原则，在享受效率红利最小化安全隐患，标志着政府层面 AI 治理的落地。对于企业级 AI 部署具有参考意义，强调监管与效率并重。",
@@ -1232,70 +1297,5 @@
     "link": "https://blog.cloudgeni.ai/why-we-open-sourced-our-infrastructure-agent-architecture/",
     "date": "2026-03-02",
     "id": "17724564863603"
-  },
-  {
-    "title": "Pydantic Monty：AI Agent的极简Python沙箱方案",
-    "summary": "Pydantic Monty是一个用Rust编写的极简Python沙箱，专为运行AI Agent生成的代码而设计。",
-    "detail": "Pydantic Monty是一个用Rust编写的轻量级、安全的Python解释器，旨在为AI Agent提供一个最小化的沙箱环境，用于执行AI生成的代码。与完整的沙箱相比，Monty更加轻量级，更易于集成，并且提供了足够的安全性，以防止恶意代码的执行。该项目由Pydantic团队开发并开源，旨在简化AI Agent的开发和部署流程，降低安全风险。",
-    "tags": [
-      "Dev",
-      "Python",
-      "AI Agent"
-    ],
-    "link": "https://pydantic.dev/articles/pydantic-monty",
-    "date": "2026-03-02",
-    "id": "17724564863604"
-  },
-  {
-    "title": "警惕AI“每日低语”：可穿戴AI与人类操控的风险",
-    "summary": "可穿戴AI设备可能通过“每日低语”潜移默化地影响用户，带来人类操控的风险。",
-    "detail": "VentureBeat的文章指出，AI的真正风险可能不是深度伪造，而是通过可穿戴设备进行的“每日低语”。文章认为，AI正在从我们使用的工具转变为我们佩戴的假肢，这将带来重大的新威胁。可穿戴AI设备能够持续地向用户提供信息和建议，从而潜移默化地影响用户的决策和行为。这种“每日低语”可能导致用户失去自主性，被AI操控。文章呼吁人们警惕这种潜在的风险，并采取措施保护人类的自主性。",
-    "tags": [
-      "News",
-      "AI安全",
-      "可穿戴设备"
-    ],
-    "link": "https://venturebeat.com/technology/what-if-the-real-risk-of-ai-isnt-deepfakes-but-daily-whispers",
-    "date": "2026-03-02",
-    "id": "17724564863605"
-  },
-  {
-    "title": "AI是工具，而非队友：避免过度依赖AI导致创新停滞",
-    "summary": "AI应增强人类能力，而非取代。过度依赖AI可能导致代码同质化、创新停滞和技术债务。",
-    "detail": "Xfive的博客文章强调，AI应该被视为一种工具，而不是团队成员。文章警告，过度依赖AI来取代开发团队可能导致代码同质化、创新停滞和技术债务增加。真正的市场优势来自于“增强智能”，即AI处理繁重的工作，而人类团队专注于战略、复杂问题解决和产品的灵魂。文章引用了德国哲学家汉斯·约纳斯的“责任伦理”，呼吁人们关注AI应用的长期后果，确保人类尊严。",
-    "tags": [
-      "News",
-      "AI伦理",
-      "团队协作"
-    ],
-    "link": "https://www.xfive.co/blog/ai-is-a-tool-not-a-teammate",
-    "date": "2026-03-02",
-    "id": "17724564863606"
-  },
-  {
-    "title": "GitAgent：将你的代码仓库转化为 AI 智能体",
-    "summary": "GitAgent 将代码仓库转化为 AI 智能体，支持多种 Agent 框架。",
-    "detail": "GitAgent 是一个开源标准，旨在将 Git 仓库转化为 AI 智能体。它通过版本控制的配置文件，可以导出到 Claude Code, OpenClaw, Lyzr Agent, Chimera, NanoBot, CrewAgent, 和 Agents SDK 等多种 Agent 框架。GitAgent 支持终端操作，易于版本控制，并允许在开发、暂存和主分支之间切换。它还支持人机协作，允许在合并前对 Agent 的新技能或记忆进行人工审查。这种模式将代码仓库转变为一个具有版本控制、分支管理和协作功能的智能体。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Open Source"
-    ],
-    "link": "https://www.gitagent.sh/",
-    "date": "2026-03-02",
-    "id": "17724511924280"
-  },
-  {
-    "title": "Ragtoolina：代码库 RAG 加持，AI 编码效率提升 2.6 倍",
-    "summary": "Ragtoolina 通过代码库 RAG，显著降低 AI 编码会话的成本。",
-    "detail": "Ragtoolina 是一款 MCP 工具，旨在通过为 AI 编码 Agent 提供代码库的语义上下文，从而降低 AI 编码会话的成本。基准测试表明，Ragtoolina 可以节省 63% 的 tokens，从而使 AI 编码会话的成本降低 2.6 倍。Ragtoolina 允许 AI 助手更好地理解代码库，从而提供更准确和高效的编码建议。它支持多个项目和服务器，并提供团队知识同步功能。",
-    "tags": [
-      "Dev",
-      "New",
-      "LLM"
-    ],
-    "link": "https://www.ragtoolina.com/",
-    "date": "2026-03-02",
-    "id": "17724511924281"
   }
 ]
