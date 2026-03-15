@@ -1,5 +1,96 @@
 [
   {
+    "title": "Nature 研究：AI 正在“同质化”人类表达",
+    "summary": "新兴证据表明大模型输出正在塑造用户的文本与思维，引发对人类认知独立性的担忧。",
+    "detail": "Nature 最新文章指出，LLM 的广泛使用可能导致人类表达方式的“同质化”（same-ify）。研究表明，AI 生成的文本正在潜移默化地影响用户的写作风格和思考路径。这一现象引发了学术界对于人类大脑是否能抵抗 AI 影响力的讨论。该研究强调了 AI 伦理的新维度，即不仅关注 AI 安全，还需关注 AI 对人类认知多样性的潜在侵蚀，建议用户在使用 AI 辅助时保持批判性思维。这对于教育行业和 content creation 领域尤为关键，过度依赖可能导致人类创造力的退化。此外，文章探讨了不同个体对 AI 影响的抵抗力差异，暗示认知多样性可能是未来人类区别于 AI 的关键特征。",
+    "tags": [
+      "News",
+      "LLM",
+      "Ethics"
+    ],
+    "link": "https://www.nature.com/articles/d41586-026-00781-9",
+    "date": "2026-03-15",
+    "id": "17735960848770"
+  },
+  {
+    "title": "AI 辅助编程时代的软件简洁性原则",
+    "summary": "探讨 LLM 如何改变开发者与代码简洁性的关系，强调自然语言需求到技术实现的转化。",
+    "detail": "文章深入分析了 AI 辅助 coding 时代软件开发的本质。虽然 LLM 不改变好编程的标准（简洁性），但改变了开发者实现简洁的路径。通过\"sticky header\"案例，展示了从用户自然语言需求到 PM ticket，再到 CSS 和后端实现的链条。核心观点是技术层不应成为问题的 overhead，AI 应帮助开发者回归问题本质，用最小的技术方案解决问题，而非增加复杂度。开发者需警惕 AI 生成的冗余代码，利用 AI 加速理解需求而非盲目堆砌技术栈。这种思维转变对于维持软件长期可维护性至关重要，是 AI 时代工程师的核心竞争力。同时，简单性原则有助于降低后续维护成本，避免技术债务积累。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "LLM"
+    ],
+    "link": "https://gogogolems.substack.com/p/simplicity-in-the-age-of-ai-assisted",
+    "date": "2026-03-15",
+    "id": "17735960848771"
+  },
+  {
+    "title": "普林斯顿学者论文：AI 应被视为“普通技术”",
+    "summary": "反对超级智能叙事，主张将 AI 视为类似电力的通用工具，强调人类控制权。",
+    "detail": "由 Arvind Narayanan 和 Sayash Kapoor 撰写的论文提出\"AI 作为普通技术”的框架。文章反对将 AI 视为独立物种或超级智能的乌托邦/反乌托邦愿景，主张将其类比为电力或互联网等通用技术。核心论点是人类应保持对 AI 的控制，无需 drastic 的政策干预或技术突破。该框架拒绝技术决定论，强调技术采纳的缓慢性和不确定性，为 AI 治理提供了务实的社会学视角。论文指出，当前的恐慌往往忽视了技术落地的实际阻力，主张通过现有法律框架而非全新监管来应对 AI 挑战，这为政策制定者提供了新的参考依据。该观点有助于缓解公众对 AI 失控的非理性恐惧。",
+    "tags": [
+      "News",
+      "Policy",
+      "Research"
+    ],
+    "link": "https://kfai-documents.s3.amazonaws.com/documents/0ee1da899a/AI-as-Normal-Technology---Narayanan---Kapoor-Final.pdf",
+    "date": "2026-03-15",
+    "id": "17735960848772"
+  },
+  {
+    "title": "TTS.ai 上线：免费 AI 语音合成与克隆平台",
+    "summary": "提供 20+ 开源模型和 107+ 声音，每日免费 1.5 万字符，支持商业使用。",
+    "detail": "TTS.ai 推出新的免费 AI 语音平台，整合了 20 多个开源模型，支持 32 种语言和 107 种声音。特色功能包括文本转语音、语音克隆和语音设计。用户无需信用卡即可获得每日 1.5 万字符的免费额度，且允许商业使用。平台支持多种文件格式上传（PDF, DOCX 等），并提供 API 接口，适合创作者和开发者快速集成语音能力。相比竞品，其无需账户即可体验的特性降低了门槛，适合快速原型开发。对于需要多语言支持的视频创作者，这是一个极具性价比的选择。平台还展示了生成音频的分享链接功能，便于协作。",
+    "tags": [
+      "New",
+      "TTS",
+      "Tool"
+    ],
+    "link": "https://tts.ai/",
+    "date": "2026-03-15",
+    "id": "17735960848773"
+  },
+  {
+    "title": "Niantic 利用宝可梦 GO 300 亿张图像训练 AI 地图",
+    "summary": "玩家贡献的海量真实世界图像数据，正被用于配送机器人的视觉导航系统。",
+    "detail": "Niantic 宣布，通过 Pokémon GO 及其 AR 应用收集的照片和扫描数据，已构建出包含超过 300 亿张真实世界图像的巨大数据集。公司正利用这些数据为配送机器人提供视觉导航能力，使其能在不依赖 GPS 的情况下识别城市街道的确切位置。这是众包数据训练 AI 的典型案例，展示了游戏玩家如何在无意中为现实世界的基础设施 AI 化做出贡献。这种众包模式大幅降低了高精度地图的采集成本，可能成为未来自动驾驶和机器人导航数据采集的标准范式之一。数据隐私问题仍是潜在挑战，但技术价值巨大。",
+    "tags": [
+      "News",
+      "Computer Vision",
+      "Robotics"
+    ],
+    "link": "https://twitter.com/newsforce/status/2033105934957101136",
+    "date": "2026-03-15",
+    "id": "17735960848774"
+  },
+  {
+    "title": "AgentYard 发布：基于 MCP 协议的 AI 代理协作平台",
+    "summary": "允许 AI 代理成为社区成员，通过单一命令连接并协作构建应用。",
+    "detail": "AgentYard 是一个新的 AI 代理协作平台，主打“代理世代”概念。通过 MCP（Model Context Protocol）协议，用户的 AI 代理可以连接到平台，与其他代理协作构建应用并发布。平台目前显示已有代理活跃和应用 shipped。其核心价值在于标准化代理间的交互，使 AI 不仅能作为工具，还能作为社区成员参与开发流程，简化了多代理协作的复杂性。随着 Agent 生态的发展，此类平台可能成为未来的应用商店雏形，允许 AI 自主发现工具并协作完成任务，标志着 AI 从单点工具向生态化协作演进。开发者可借此探索多 Agent 系统架构。",
+    "tags": [
+      "New",
+      "Agents",
+      "Dev"
+    ],
+    "link": "https://agent-yard.com",
+    "date": "2026-03-15",
+    "id": "17735960848775"
+  },
+  {
+    "title": "AI 助力基因组学：主人利用 AI 治疗爱犬癌症",
+    "summary": "澳洲主人结合 ChatGPT 与基因测序，为患癌宠物制定个性化治疗方案。",
+    "detail": "新南威尔士大学报道，AI 顾问 Paul Conyngham 利用 ChatGPT 制定计划，结合基因组测序技术治疗爱犬 Rosie 的肥大细胞癌。在传统兽医宣布无能为力后，他通过 AI 建议联系基因组中心，花费 3000 澳元测序 DNA。该案例展示了 AI 在生物医学领域的平民化应用潜力，即使非专业医生也能利用 AI 整合医疗资源，为个性化治疗提供新路径。虽然是个案，但证明了 AI 在连接患者与前沿科研资源方面的桥梁作用。未来类似模式可能扩展到罕见病治疗，加速医疗数据的价值转化。同时也引发了关于 AI 医疗建议可靠性的讨论。",
+    "tags": [
+      "News",
+      "BioAI",
+      "Healthcare"
+    ],
+    "link": "https://news.unsw.edu.au/en/paul-is-using-ai-to-fight-his-dogs-incurable-cancer",
+    "date": "2026-03-15",
+    "id": "17735960848776"
+  },
+  {
     "title": "AI 代理攻破麦肯锡内部平台，揭示部署风险",
     "summary": "安全初创公司利用自主 AI 代理发现麦肯锡内部 AI 平台 SQL 注入漏洞，获取全部数据库权限。",
     "detail": "安全公司 CodeWall 使用自主 AI 代理针对麦肯锡内部平台 Lilli 进行测试，两小时内通过 SQL 注入获取生产数据库完全读写权限，涉及 4650 万条消息及机密文件。事件暴露了企业盲目部署 AI 代理的安全隐患，文章分析了五种不应部署代理的场景，强调机器速度下的漏洞探测能力远超传统扫描器。更严重的是，恶意 actor 可 subtly alter 财务模型或重写系统提示词，使 AI 提供中毒建议而无日志痕迹。该事件警示行业在追求代理自动化时需优先考虑安全边界与监控机制，避免 AI 行为异常导致不可逆的商业损失。",
@@ -1211,91 +1302,5 @@
     "link": "https://www.thefactorysystem.ai/blog/building-autonomous-ai-sysadmin-agent-orchestrating-langgraph-ansible-and-gemini",
     "date": "2026-03-02",
     "id": "17724702796010"
-  },
-  {
-    "title": "CosmicMeta：每日AI与科技分析平台",
-    "summary": "CosmicMeta提供每日AI和科技分析，包含应用、游戏、新闻Feed和工具。",
-    "detail": "CosmicMeta是一个提供每日AI和科技分析的平台，内容涵盖应用与游戏（如Vynix AI Studio、MoodJot）、新闻Feed、工具以及其他类别（包括健康与健身、科学、政治、太空和金融投资）。该平台还设有专门的AI版块，包含AI伦理、AI歌曲、深度学习和机器学习等主题。",
-    "tags": [
-      "News",
-      "AI"
-    ],
-    "link": "https://cosmicmeta.ai/",
-    "date": "2026-03-02",
-    "id": "17724702796011"
-  },
-  {
-    "title": "AI生成内容贬值：人类对AI创作的负面偏见",
-    "summary": "研究表明，人类对AI创作的评价低于人类创作，源于对真实性的质疑。",
-    "detail": "一项包含16个预注册实验（N = 27,491）的研究表明，当人们认为创意写作是由AI模型生成时，其评价会降低。这种“AI披露惩罚”在不同的评估指标、写作内容和干预措施中持续存在，并且受到感知真实性的影响。研究结果表明，人类对AI生成的创意作品存在普遍的负面偏见。",
-    "tags": [
-      "News",
-      "AI"
-    ],
-    "link": "https://psycnet.apa.org/fulltext/2027-12675-001.pdf?_sc=NjQ1ODg2NiM2Njk1NA==",
-    "date": "2026-03-02",
-    "id": "17724702796012"
-  },
-  {
-    "title": "AI并非取代SRE，而是在降低其技能",
-    "summary": "AI在运维中的普及可能导致SRE在处理关键事件时的能力下降。",
-    "detail": "文章探讨了AI在站点可靠性工程（SRE）领域的影响。虽然AI可以处理大部分事件响应，但作者提出，当AI处理了95%的事件后，SRE处理剩余5%关键事件的能力可能会下降。文章引用了一篇1983年的研究论文，讨论了自动化可能导致技能退化的问题，并引发了关于AI是否在悄悄降低SRE能力，以及是否会在下一次重大故障发生前被人们注意到的讨论。",
-    "tags": [
-      "News",
-      "AI",
-      "Dev"
-    ],
-    "link": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
-    "date": "2026-03-02",
-    "id": "17724702796013"
-  },
-  {
-    "title": "Ledge：AI Agent支付的安全策略层",
-    "summary": "Ledge为AI Agent支付提供安全策略，防止未经授权的交易。",
-    "detail": "Ledge是一个位于AI Agent和钱包之间的策略层，用于管理AI Agent的自主支付行为。它通过四层检查（技术、策略、一致性和行为）来验证、签署和审计每笔交易，从而决定允许、阻止或升级交易。Ledge允许用户设置交易上限、任务预算、阻止地址和风险阈值，从而增强AI Agent支付的安全性。",
-    "tags": [
-      "Dev",
-      "AI"
-    ],
-    "link": "https://github.com/Devendra116/ledge",
-    "date": "2026-03-02",
-    "id": "17724702796014"
-  },
-  {
-    "title": "MyFitnessPal 收购青少年开发的 Cal AI",
-    "summary": "MyFitnessPal 收购了由青少年开发的爆红卡路里计算应用 Cal AI。",
-    "detail": "MyFitnessPal 收购了 Cal AI，这是一款由青少年开发的病毒式卡路里应用程序。具体收购细节未在摘要中提供，但表明 MyFitnessPal 正在扩展其在健康和健身领域的 AI 功能。",
-    "tags": [
-      "News",
-      "AI"
-    ],
-    "link": "https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/",
-    "date": "2026-03-02",
-    "id": "17724702796015"
-  },
-  {
-    "title": "AI水印移除工具：浏览器端免费移除 Gemini、Grok、Sora 水印",
-    "summary": "免费浏览器工具，无需上传，客户端移除AI生成图像的水印。",
-    "detail": "GeeksPrep Tools 推出一款免费的浏览器端AI水印移除工具，可以移除 Gemini、Grok、Sora 等AI生成图像中的水印。该工具完全在浏览器端运行，无需上传图像，具有速度快、保护隐私、完全免费等特点。支持 JPG、PNG、WebP 格式，最大支持 20MB 的图像。",
-    "tags": [
-      "New",
-      "AI"
-    ],
-    "link": "https://tools.geeksprep.com/ai-watermark-remover",
-    "date": "2026-03-02",
-    "id": "17724702796016"
-  },
-  {
-    "title": "OpenAI 屈服于五角大楼，涉足 AI 监控领域",
-    "summary": "OpenAI 与五角大楼合作，引发关于 AI 伦理和军事应用的讨论。",
-    "detail": "OpenAI 最终与美国国防部（五角大楼）在 AI 监控方面展开合作，这一举动引发了关于 AI 技术在军事领域应用的伦理争议。尽管 OpenAI 此前曾对军事应用持谨慎态度，但最终还是选择了与五角大楼合作，这可能意味着在商业利益和伦理原则之间，OpenAI 做出了权衡。此举可能加速 AI 技术在军事领域的应用，但也引发了对 AI 监控可能带来的隐私和安全风险的担忧。其他 AI 公司如 Anthropic 也可能面临类似的压力，整个行业或将重新评估与军方合作的界限。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "伦理"
-    ],
-    "link": "https://www.theverge.com/ai-artificial-intelligence/887309/openai-anthropic-dod-military-pentagon-contract-sam-altman-hegseth",
-    "date": "2026-03-02",
-    "id": "17724661740980"
   }
 ]
