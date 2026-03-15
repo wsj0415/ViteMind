@@ -1,5 +1,83 @@
 [
   {
+    "title": "AI 代理攻破麦肯锡内部平台，揭示部署风险",
+    "summary": "安全初创公司利用自主 AI 代理发现麦肯锡内部 AI 平台 SQL 注入漏洞，获取全部数据库权限。",
+    "detail": "安全公司 CodeWall 使用自主 AI 代理针对麦肯锡内部平台 Lilli 进行测试，两小时内通过 SQL 注入获取生产数据库完全读写权限，涉及 4650 万条消息及机密文件。事件暴露了企业盲目部署 AI 代理的安全隐患，文章分析了五种不应部署代理的场景，强调机器速度下的漏洞探测能力远超传统扫描器。更严重的是，恶意 actor 可 subtly alter 财务模型或重写系统提示词，使 AI 提供中毒建议而无日志痕迹。该事件警示行业在追求代理自动化时需优先考虑安全边界与监控机制，避免 AI 行为异常导致不可逆的商业损失。",
+    "tags": [
+      "News",
+      "Security",
+      "AI Agent"
+    ],
+    "link": "https://nanonets.com/blog/ai-agent-hacks-mckinsey/",
+    "date": "2026-03-15",
+    "id": "17735926295460"
+  },
+  {
+    "title": "调查显示 93% 的 AI 代理项目使用未 scoped API 密钥",
+    "summary": "对 30 个热门 AI 代理项目的安全审计发现，绝大多数缺乏权限隔离，存在严重授权风险。",
+    "detail": "研究团队审查了包括 AutoGen、CrewAI 在内的 30 个主流 AI 代理项目，发现 93% 仅依赖未 scoped 的 API 密钥作为唯一认证机制，0% 拥有每代理加密身份。这种宽松的授权模型使得代理一旦受损即可访问所有资源，凸显了当前 AI 代理生态在身份认证与权限控制方面的严重缺失。报告指出缺乏审计追踪与委托控制，亟需建立 per-agent identity 标准，以防止代理被滥用导致的数据泄露与权限提升风险。开发者在构建代理系统时应立即实施 scoped permissions 与用户 consent 机制。",
+    "tags": [
+      "News",
+      "Security",
+      "API"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47388873",
+    "date": "2026-03-15",
+    "id": "17735926295461"
+  },
+  {
+    "title": "如何在 GitHub Actions 中沙箱化 AI 生成的代码",
+    "summary": "针对 AI 代理提交的 PR 提出新型沙箱方案，防止任意代码执行与网络沙箱逃逸。",
+    "detail": "文章探讨了在 GitHub Actions 中沙箱化 AI 代理生成的不受信任 PR 的新方法。指出当前安全模型弱点在于代理推送权限可触发工作流运行任意代码，导致网络沙箱逃逸。解决方案需封闭工作流文件直接运行代码及修改现有工作流执行代码两条路径，强调了在复杂配置下 LLM 难以准确推理系统边界漏洞的挑战。开发者需限制外部通信并隔离 runner 环境，确保 AI 生成代码在安全容器内执行，避免 CI/CD 流水线成为攻击向量。即使经过安全审查，模型也可能忽略配置 nuances，因此需多层防御。",
+    "tags": [
+      "Dev",
+      "Security",
+      "GitHub"
+    ],
+    "link": "https://haulos.com/blog/sandboxing-github-actions/",
+    "date": "2026-03-15",
+    "id": "17735926295462"
+  },
+  {
+    "title": "开发者自制工具检测 AI 编程助手“约束漂移”",
+    "summary": "针对 AI 在长对话中遗忘初始约束的问题，提出实验性工具检测约束漂移现象。",
+    "detail": "开发者在使用 Cursor 等工具时发现，随着对话 token 数增加，AI 会逐渐遗忘“不修改数据库”等初始约束。虽然项目规则文件有一定效果，但无法动态适应项目变化。该实验工具旨在解决 AI 编程助手在长上下文中的“约束漂移”问题，确保 AI 在复杂开发过程中严格遵守预设的安全与架构边界。当项目新增数据库或 API 时，静态规则文件可能失效，动态检测机制能实时警报 AI 建议是否违反核心约束，提升辅助 coding 的可靠性。这对于维护大型代码库的稳定性至关重要。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Coding"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47388616",
+    "date": "2026-03-15",
+    "id": "17735926295463"
+  },
+  {
+    "title": "Webmatik: 4 分钟完成 8 维度的 AI 网站审计工具",
+    "summary": "新推出的 AI 工具可快速检测网站性能、SEO 及 AI 可见性问题，提供免费审计方案。",
+    "detail": "Webmatik 是一款新发布的 AI 驱动网站增长审计工具，能在 4 分钟内检查 50+ 增长信号，覆盖性能、SEO、AI 可见性及 UX 等 8 个类别。不同于冗长报告，它提供 ranked action plan 帮助用户优先修复问题。目前已有 3200+ 网站使用，提供免费每月 3 次审计额度，适合需要快速优化网站 AI 搜索可见性的开发者与营销人员。工具旨在解决 hidden performance issues 与 broken SEO，帮助用户跟踪 growth score 变化，实现数据驱动的网站优化。无需信用卡即可开始，降低使用门槛。",
+    "tags": [
+      "New",
+      "SEO",
+      "Tool"
+    ],
+    "link": "https://webmatik.ai/",
+    "date": "2026-03-15",
+    "id": "17735926295464"
+  },
+  {
+    "title": "Rust 社区对 AI 工具的实践观点与总结",
+    "summary": "Rust 项目总结 AI 作为工具的使用心得，涵盖非编码任务价值与编码任务局限。",
+    "detail": "Rust 项目发布了关于 AI 视角的总结报告，指出 AI 是需学习驾驭的工具。用户在搜索发现、代码审查及半结构化数据处理中发现价值，但直接用 AI 写作较难做好。社区对 AI 编码意见不一，认为 AI 适合约束良好的任务。该报告为开发者提供了在系统级编程项目中合理整合 AI 辅助的参考框架。许多人在非 coding 任务如 searching 和 reviewing 中找到价值，但在 writing 与复杂 coding 中需谨慎，建议结合人工审查以确保代码质量与安全性。Opinions on coding with AI are varied，需根据任务约束选择使用。",
+    "tags": [
+      "Dev",
+      "Rust",
+      "Best Practices"
+    ],
+    "link": "https://nikomatsakis.github.io/rust-project-perspectives-on-ai/feb27-summary.html",
+    "date": "2026-03-15",
+    "id": "17735926295465"
+  },
+  {
     "title": "AI 幻觉的双重面孔：从事实错误到认知重塑",
     "summary": "深度剖析 AI 幻觉不仅制造事实错误，更通过结构性机制改变人类与真理的关系。",
     "detail": "本文提出了关于 AI 幻觉的深刻见解，将其分为“技术性幻觉”与“结构性幻觉”。技术性幻觉指模型生成不符合事实的内容，通常通过增加数据或护栏解决；而结构性幻觉则是行业为了吸引用户而 engineered 的机制，它不一定fabricate facts，但会阻止用户独立思考。文章指出，后者更危险，因为它改变了人类与真理本身的关系。这一观点超越了常规的技术修复思路，呼吁行业关注 AI 架构如何影响人类认知结构，对于 AI 伦理和未来交互设计具有重要的警示意义。",
@@ -1219,83 +1297,5 @@
     "link": "https://www.theverge.com/ai-artificial-intelligence/887309/openai-anthropic-dod-military-pentagon-contract-sam-altman-hegseth",
     "date": "2026-03-02",
     "id": "17724661740980"
-  },
-  {
-    "title": "Transfr AI：在 Claude、ChatGPT 和 Gemini 之间无缝转移 AI 对话",
-    "summary": "Transfr AI 是一款 Chrome 扩展，可在不同 AI 平台间快速转移对话。",
-    "detail": "Transfr AI 是一款 Chrome 扩展程序，旨在解决用户在使用多个 AI 平台（如 Claude、ChatGPT 和 Gemini）时，因平台限制或需求切换而导致对话上下文丢失的问题。该扩展程序允许用户在不同平台之间快速转移对话，无需手动复制和粘贴，节省了大量时间。其核心功能包括智能压缩、自动粘贴和提交，以及“Fresh Chat”按钮，方便用户在保留上下文的情况下开始新的对话。Transfr AI 注重用户隐私，承诺不存储或记录任何数据，并计划开源。",
-    "tags": [
-      "New",
-      "Dev",
-      "LLM"
-    ],
-    "link": "https://chromewebstore.google.com/detail/transfrai/nhhdkdmgcigbmdeacpmanconapeceedf",
-    "date": "2026-03-02",
-    "id": "17724661740981"
-  },
-  {
-    "title": "Miapi：基于实时搜索的 AI 答案 API，提供引用和来源",
-    "summary": "Miapi 提供带引用的 AI 答案 API，兼容 OpenAI，低至每千次查询 3.8 美元。",
-    "detail": "Miapi 提供了一个 AI 答案 API，该 API 基于实时网络搜索，能够为用户提供带有内联引用、来源和置信度评分的答案。该 API 兼容 OpenAI，开发者可以轻松地将其集成到现有的 OpenAI 代码中。Miapi 的主要特点包括快速响应时间（平均小于 1.5 秒）、多个可用端点和高准确率（98%）。其定价也相对较低，低至每千次查询 3.8 美元。Miapi 旨在帮助开发者构建更可靠、更可信的 AI 应用。",
-    "tags": [
-      "New",
-      "Dev",
-      "API"
-    ],
-    "link": "https://miapi.uk/",
-    "date": "2026-03-02",
-    "id": "17724661740982"
-  },
-  {
-    "title": "Cognition Engines：为 AI 代理提供决策智能",
-    "summary": "Cognition Engines 提供 API，助力 AI 代理查询历史决策、执行策略和追踪校准。",
-    "detail": "Cognition Engines 提供了一套决策智能工具，旨在帮助 AI 代理做出更明智、更可靠的决策。该平台通过两个 API 调用，即可实现查询历史决策、执行安全策略和跟踪校准等功能。其核心功能包括：语义搜索历史决策，查找成功和失败的案例；策略执行，防止违规行为；决策溯源，自动链接查询和策略检查到最终决策；以及校准和分析，跟踪 Brier 分数和成功率。Cognition Engines 旨在提高 AI 代理的透明度、可控性和可靠性。",
-    "tags": [
-      "New",
-      "Dev",
-      "AI Agent"
-    ],
-    "link": "https://cognition-engines.ai/",
-    "date": "2026-03-02",
-    "id": "17724661740983"
-  },
-  {
-    "title": "AI 并不比你强",
-    "summary": "一篇博文，表达了对生成式 AI 艺术的质疑，强调手工创作的价值。",
-    "detail": "这篇博文表达了作者对使用生成式 AI 创作艺术作品的质疑，认为手工创作的艺术作品更有价值。作者回忆了高中时期参与乐队活动的经历，强调了乐队的 logo 和海报所代表的独特身份和社区精神，认为即使是简陋的手工创作也比使用 AI 生成的艺术更有意义。作者呼吁人们重视手工创作的价值，抵制过度依赖 AI 技术的艺术创作。",
-    "tags": [
-      "News",
-      "AI",
-      "艺术"
-    ],
-    "link": "https://ginoz.bearblog.dev/ai-is-not-better-than-you/",
-    "date": "2026-03-02",
-    "id": "17724661740984"
-  },
-  {
-    "title": "Ask HN：你的团队如何改变 AI 辅助编码的文档记录方式？",
-    "summary": "Hacker News 讨论：AI 辅助编码时代，团队如何调整文档编写策略？",
-    "detail": "Hacker News 上发起了一个关于 AI 辅助编码如何影响软件开发团队文档编写方式的讨论。随着 AI 越来越多地参与代码编写，传统的 RFC/架构文档可能会逐渐过时，而规格说明和意图文档（如 plan.md、Linear ticket、变更记录）变得更加重要，因为它们是 AI 代理工作的依据。讨论还涉及是否应该将 AI 会话纳入提交记录等问题。总的来说，AI 辅助编码正在改变软件开发的流程和文档编写方式。",
-    "tags": [
-      "Dev",
-      "AI",
-      "Coding"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47219090",
-    "date": "2026-03-02",
-    "id": "17724661740985"
-  },
-  {
-    "title": "马斯克AI电厂引发争议：噪音与愤怒席卷密西西比",
-    "summary": "马斯克在密西西比州的AI电厂项目引发当地居民对噪音和环境的强烈不满。",
-    "detail": "埃隆·马斯克在密西西比州建设的AI电厂项目，旨在为AI训练提供电力支持。然而，该项目在当地引发了居民的强烈抗议，主要原因是电厂产生的巨大噪音以及对环境可能造成的潜在影响。该事件反映了AI基础设施建设与社区利益之间的冲突，以及在追求技术进步的同时，如何平衡环境和社会责任的问题。未来，类似项目需要更加重视与当地社区的沟通，并采取有效措施降低负面影响。",
-    "tags": [
-      "News",
-      "AI",
-      "环境"
-    ],
-    "link": "https://www.nbcnews.com/news/us-news/musks-ai-power-plant-generates-sound-fury-mississippi-rcna258594",
-    "date": "2026-03-02",
-    "id": "17724625838100"
   }
 ]
