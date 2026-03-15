@@ -1,5 +1,57 @@
 [
   {
+    "title": "Palantir CEO 谈 AI 武器与美国优势",
+    "summary": "Palantir CEO 在 a16z 峰会讨论 AI 武器化及地缘政治影响。",
+    "detail": "在 a16z 美国活力峰会上，Palantir CEO 深入探讨了 AI 技术在国防领域的应用，特别是 AI 武器系统及其伦理边界。演讲涉及伊朗局势及美国如何利用 AI 保持战略优势，强调了软件定义战争的未来趋势。这反映了 AI 行业正从商业应用向国家安全领域深度渗透，地缘政治博弈中技术主权的重要性日益凸显。对于从业者而言，这意味着未来 AI 开发需更多考虑合规风险与 dual-use 技术限制，伦理与政策监管将成为关键议题，开发者需关注相关法规变化，以及政府合同对技术路线的潜在影响。",
+    "tags": [
+      "News",
+      "AI Policy",
+      "Defense"
+    ],
+    "link": "https://www.youtube.com/watch?v=Wj6ttdIeBnE",
+    "date": "2026-03-15",
+    "id": "17735611777880"
+  },
+  {
+    "title": "Zirco.ai：牙科前台的 AI 员工",
+    "summary": "自动化牙科保险验证与预约，基于 Vapi 与 Playwright。",
+    "detail": "该项目针对牙科诊所前台痛点，利用 Voice AI 处理来电，自动通过 API 或浏览器自动化验证保险福利。技术栈包含 Python、Vapi.ai 及 HIPAA 合规设计，解决了多租户数据安全难题。展示了垂直领域 AI Agent 如何通过多工具调用（RPA+LLM）替代重复性人力工作，为 B 端自动化提供新范式。目前已在 beta 阶段，证明了特定场景下 AI 员工已具备落地盈利能力，为垂直 SaaS 结合 AI 提供了可复制的技术路径与商业模型参考，显著降低了诊所运营成本。",
+    "tags": [
+      "New",
+      "Agent",
+      "Healthcare"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47385090",
+    "date": "2026-03-15",
+    "id": "17735611777881"
+  },
+  {
+    "title": "Centurion：AI 编码代理资源调度器",
+    "summary": "开源项目，类似 K8s 的 AI Agent 编排引擎。",
+    "detail": "Centurion 是一个开源的 AI Agent 编排引擎，旨在以 Kubernetes 风格调度 AI 编码代理。支持 MCP 工具及 A2A 协议，允许开发者批量生成和管理 Agent 军队，实现罗马军事般的精确指挥。该项目解决了多 Agent 协作中的资源分配与命令控制问题，适合需要大规模自动化开发任务的团队。它降低了分布式 AI 系统的管理复杂度，促进 Agent 工程化发展，为构建复杂的多智能体协作系统提供了基础设施层面的解决方案与标准化参考，推动了 Agent 架构的成熟。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Agent"
+    ],
+    "link": "https://github.com/spacelobster88/centurion",
+    "date": "2026-03-15",
+    "id": "17735611777882"
+  },
+  {
+    "title": "谁将保留 AI 红利？",
+    "summary": "分析 AI 带来的生产力增益与经济价值分配问题。",
+    "detail": "文章引用 McKinsey 及 PwC 数据，指出 AI 使工程师和分析师效率倍增，全球潜在价值达数万亿美元。核心探讨在于这些生产力红利是归于企业、员工还是社会，而非单纯的技术实现。随着 AI 渗透各行业，重新定义工作流与价值分配将成为管理层面临的核心挑战。企业需思考如何在裁员与增效之间找到平衡，确保 AI 红利可持续分配，同时关注员工技能转型，避免技术变革带来的社会结构性失业问题加剧，引发对未来劳动关系的深层思考。",
+    "tags": [
+      "News",
+      "Economy",
+      "Productivity"
+    ],
+    "link": "https://rajiv.com/blog/2026/03/14/who-keeps-the-ai-dividend/",
+    "date": "2026-03-15",
+    "id": "17735611777883"
+  },
+  {
     "title": "Karpathy 发布美国就业市场 AI 暴露度深度分析",
     "summary": "前特斯拉 AI 总监 Karpathy 利用 Gemini 分析 3.42 种职业，揭示高薪岗位受 AI 冲击最大。",
     "detail": "### 背景\nAndrej Karpathy 发布了最新研究，利用 Gemini Flash 模型对美国劳工统计局（BLS）的 3.42 种职业进行了 AI 暴露度评分。\n\n### 核心数据\n- **加权平均暴露度**：4.9（0-10 _scale_）。\n- **高暴露岗位**：年薪 10 万美元以上的岗位暴露度高达 6.7，而低于 3.5 万美元的岗位仅为 3.4。\n- **经济影响**：高暴露度（7+）岗位涉及的年度工资总额高达 3.7 万亿美元。\n\n### 行业影响\n该数据反驳了\"AI 主要替代低端工作\"的观点，表明知识密集型和高薪职位面临更大的转型压力。这为教育体系改革和企业人才战略提供了关键数据支持，预示着未来几年白领工作流的重构将加速。",
@@ -1243,57 +1295,5 @@
     "link": "https://caucus-ai.com/",
     "date": "2026-03-02",
     "id": "17724379980913"
-  },
-  {
-    "title": "AI模型压缩：让40亿无GPU或网络用户也能使用AI",
-    "summary": "开发者关注AI模型压缩，旨在让全球40亿无GPU或网络连接的用户也能使用AI技术，DeepSeek已将671B模型压缩到1.5B。",
-    "detail": "一位来自印度的开发者注意到，当前的AI模型通常需要GPU、信用卡和可靠的网络连接，这对于全球40亿人口来说是不现实的。因此，他开始研究AI模型压缩技术，并发现DeepSeek已经成功将671B的推理模型压缩到1.5B，使其可以在笔记本电脑上运行。这表明，通过模型压缩，可以让更多的人能够使用AI技术，而无需昂贵的硬件或网络条件。",
-    "tags": [
-      "Dev",
-      "AI",
-      "Model Compression"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47213965",
-    "date": "2026-03-02",
-    "id": "17724379980914"
-  },
-  {
-    "title": "AI 驱动的 GitHub Actions 漏洞利用：Hackerbot-Claw 攻击事件",
-    "summary": "AI 机器人 Hackerbot-Claw 正在主动利用 GitHub Actions 的漏洞，已成功攻击多个开源项目。",
-    "detail": "StepSecurity 报告称，一个名为 `hackerbot-claw` 的 AI 驱动机器人正在积极攻击开源项目的 CI/CD 管道，利用 GitHub Actions 中的漏洞实现远程代码执行。该机器人已成功从多个知名项目中窃取了具有写入权限的 GitHub 令牌。此次攻击表明，AI 正在进入一个 AI 互相攻击的新时代，软件供应链的安全面临着更广泛的攻击面。开发者需要采用自动化安全防护措施来应对这种自动化攻击。",
-    "tags": [
-      "News",
-      "AI",
-      "Security"
-    ],
-    "link": "https://www.stepsecurity.io/blog/hackerbot-claw-github-actions-exploitation",
-    "date": "2026-03-02",
-    "id": "17724348050970"
-  },
-  {
-    "title": "AI 网站设计评论工具：免费获取专业级网站设计评价",
-    "summary": "AI 驱动的网站评论工具，免费分析网站设计和用户体验，提供专业级评价。",
-    "detail": "CrazeeMedia 推出了一款免费的 AI 网站评论工具，用户只需输入 URL，AI 就会对网站的设计、用户体验等方面进行分析，并提供专业级的评价。该工具旨在帮助用户快速了解网站的优缺点，从而改进设计并提升用户体验。此外，该网站还提供 n8n 工作流模板和 prompt 工程指南等付费产品。",
-    "tags": [
-      "New",
-      "AI",
-      "Design"
-    ],
-    "link": "https://crazeemedia.app.n8n.cloud/webhook/roast-my-website",
-    "date": "2026-03-02",
-    "id": "17724348050971"
-  },
-  {
-    "title": "AI Scientist v3：利用 Reviewer Agent 将实验扩展到 24 小时",
-    "summary": "AI Scientist v3 通过引入 Reviewer Agent，将 AI 驱动的科学实验扩展到 24 小时。",
-    "detail": "AI Scientist v3 对 AI 驱动的科学实验流程进行了重构，使用 Claude 等 Agent 来编排实验，并引入 Reviewer Agent 来模拟同行评审，从而改进实验结果。该版本用 CLAUDE.md 指令文件替换了约 5000 行的编排代码，并提供了一个用于文献搜索的技能。其余代码库处理基础设施逻辑，以便将实验扩展到多个并发作业。",
-    "tags": [
-      "Dev",
-      "AI",
-      "LLM"
-    ],
-    "link": "https://huggingface.co/blog/alexshengzhili/aiscientist",
-    "date": "2026-03-02",
-    "id": "17724348050972"
   }
 ]
