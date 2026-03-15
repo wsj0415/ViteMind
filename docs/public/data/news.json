@@ -1,5 +1,44 @@
 [
   {
+    "title": "Buxo.ai：LLM 驱动的智能日程 scheduling 工具",
+    "summary": "利用大模型理解用户偏好，自动筛选最佳会议时段，替代传统 Calendly。",
+    "detail": "Buxo.ai 是一款新兴的 AI 日程管理工具，旨在解决传统 scheduling 链接缺乏灵活性的问题。核心功能是通过 LLM 理解用户的自然语言指令（如“筹资期间每天只显示 3 个时段”），自动评分并屏蔽不合适的时间槽。支持时区自动调整，无需手动管理多个链接。特别适用于销售、招聘及投资人会议场景，将规则引擎升级为语义理解，显著减少会议协调成本，展示 AI Agent 在个人 productivity 领域的落地应用。",
+    "tags": [
+      "New",
+      "Productivity",
+      "LLM"
+    ],
+    "link": "https://buxo.ai",
+    "date": "2026-03-15",
+    "id": "17735741328400"
+  },
+  {
+    "title": "AI 时代下的“被遗忘权”面临失效风险",
+    "summary": "数字化记忆永久化挑战隐私法核心原则，人类可能成为过去的囚徒。",
+    "detail": "文章探讨了在 AI 与信息革命背景下，现代隐私法中的“被遗忘权”（Right to be Forgotten）正面临 obsolete 的风险。引用赫拉克利特名言指出人类是流动的，但技术默认从“遗忘”转向“记住”，个人数据被永久存储且常脱离语境。这不仅威胁个人自主权与尊严，还可能导致过往错误永久定义个人形象。文章强调需重新审视数据控制权，以防止人类成为数字档案的囚徒，对 AI 数据 retention 政策提出伦理挑战。",
+    "tags": [
+      "News",
+      "Privacy",
+      "Ethics"
+    ],
+    "link": "https://yadin.com/notes/unforgettable/",
+    "date": "2026-03-15",
+    "id": "17735741328401"
+  },
+  {
+    "title": "揭秘 AI 爬虫如何绕过 Google Analytics 追踪",
+    "summary": "GPTBot 等 AI 爬虫不执行 JS，导致传统分析工具无法记录访问数据。",
+    "detail": "开发者通过实验发现，GPTBot 和 ClaudeBot 等 AI 爬虫在抓取网页时仅下载 HTML，不执行 JavaScript，导致依赖 JS beacon 的 Google Analytics 无法记录这些访问。文章分析了客户端、服务器端及网络层三种检测方法的差异，指出传统 Web 分析工具在 AI 时代的盲区。建议开发者采用服务器端日志分析来准确追踪 AI 爬虫行为，这对理解模型训练数据来源及网站流量真实性具有重要技术参考价值，帮助开发者优化 SEO 及安全策略。",
+    "tags": [
+      "Dev",
+      "Analytics",
+      "Crawlers"
+    ],
+    "link": "https://www.adwait.me/writings/tracking-ai-crawlers-server-side",
+    "date": "2026-03-15",
+    "id": "17735741328402"
+  },
+  {
     "title": "BiamOS: 结合 DOM 自动化与 API 集成的混合 AI 桌面层",
     "summary": "开源 AI 原生工作区 OS，结合本地 AI 与浏览器上下文，突破 API 限制。",
     "detail": "BiamOS 是一款新兴的**AI 原生工作区操作系统**，旨在解决 AI Agent 与 Web 交互的痛点。该项目通过结合内置浏览器与本地 AI 模型，实现了对网页上下文的深度读取。其核心技术亮点在于\"Zero-OAuth Ghost-Auth\"机制，能够有效绕过传统 API 访问限制，同时支持生成可视化 UI 仪表盘。基于 Electron 34 和 React 19 构建，它为开发者提供了一种混合自动化方案，融合了 DOM 自动化与 API 集成。这对于希望构建本地化、高权限 AI 助手的开发者而言，具有重要的参考价值和实践意义。这种混合架构减少了对外部 API 的依赖，提升了数据隐私性和操作灵活性，标志着桌面端 AI 自动化向更深层系统集成的发展方向，为下一代 AI 工作流工具提供了新的开源范式，值得开发者关注与研究。",
@@ -1257,44 +1296,5 @@
     "link": "https://github.com/open-pencil/open-pencil",
     "date": "2026-03-02",
     "id": "17724482613131"
-  },
-  {
-    "title": "开源费用预算跟踪器：带 SQL API 的 AI Agent 助手",
-    "summary": "自托管开源个人财务费用预算跟踪器，具有 SQL API，可供 AI Agent 使用。",
-    "detail": "kirill-markin 在 GitHub 上发布了一个自托管的开源个人财务费用和预算跟踪器。该工具使用 Postgres 数据库，支持余额、转账和多币种报告。最值得关注的是，它提供了一个 SQL API，允许 AI Agent 访问和分析财务数据，从而实现智能化的财务管理和预测。这为开发者提供了一个构建 AI 驱动的个人理财应用的强大基础。",
-    "tags": [
-      "New",
-      "Dev",
-      "AI"
-    ],
-    "link": "https://github.com/kirill-markin/expense-budget-tracker",
-    "date": "2026-03-02",
-    "id": "17724482613132"
-  },
-  {
-    "title": "ROLV.ai：通用稀疏计算原语，后端无关的可重现性",
-    "summary": "ROLV.ai 提供用于稀疏数据处理的通用计算原语，并保证后端无关的可重现性。",
-    "detail": "ROLV.ai 推出了一种新的 AI 优化技术，专注于稀疏数据的处理。ROLV 提供通用的稀疏计算原语，旨在提高 AI 模型在处理大规模稀疏数据时的效率和性能。其关键特性是后端无关的可重现性，这意味着无论使用何种硬件或软件平台，计算结果都能够保持一致。这对于确保 AI 模型的可靠性和可移植性至关重要，尤其是在科学研究和工程应用中。",
-    "tags": [
-      "New",
-      "AI",
-      "Optimization"
-    ],
-    "link": "https://rolv.ai",
-    "date": "2026-03-02",
-    "id": "17724482613133"
-  },
-  {
-    "title": "OpenBerth：一键部署AI应用到自有机服务器",
-    "summary": "无需Docker，无需云平台，一键将AI构建的应用部署到自己的服务器。",
-    "detail": "OpenBerth 旨在解决AI应用部署的痛点。AI工具可以在几分钟内构建应用，但将其部署上线却需要花费大量时间。OpenBerth 允许开发者使用一个命令将AI构建的应用部署到自己的服务器上，无需Docker、云平台或DevOps。它与任何MCP兼容的工具无缝连接，支持自动HTTPS、沙盒安全和持久存储，简化了AI应用的部署流程，让开发者专注于构建而非部署。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Deployment"
-    ],
-    "link": "https://openberth.io/",
-    "date": "2026-03-02",
-    "id": "17724451658630"
   }
 ]
