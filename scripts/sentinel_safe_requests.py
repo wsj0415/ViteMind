@@ -23,6 +23,10 @@ def validate_url_ip(url):
             ip = sockaddr[0]
             ip_obj = ipaddress.ip_address(ip)
 
+            # Fake IP block for proxies (Clash/Surge/etc), commonly 198.18.0.0/15
+            if ip_obj.version == 4 and (ip.startswith("198.18.") or ip.startswith("198.19.")):
+                continue
+
             # Block Private, Loopback, and Link-Local addresses
             if ip_obj.is_private or ip_obj.is_loopback or ip_obj.is_link_local:
                 return False, f"Blocked internal IP: {ip}"
