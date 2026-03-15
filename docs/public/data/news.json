@@ -1,5 +1,57 @@
 [
   {
+    "title": "Faith Claw：自主 AI 代理的安全中间件",
+    "summary": "针对 OpenClaw 代理的安全中间件，提供风险评分、注入检测及行为漂移监测。",
+    "detail": "随着自主 AI 代理普及，Faith Claw 提供安全中间件方案。它 sits between agent and tools，核心流程包含预飞行扫描、运行时拦截、内存扫描、漂移检测及审计日志。覆盖威胁包括恶意 ClawHub 技能、工具提示注入、数据外传及权限提升。针对 CVE-2026-25253，它通过风险评分（动作类型、上下文乘数）和 SHA-256 哈希链审计确保行为可控。特别解决了单动作扫描无法捕捉的多轮操纵问题，为 OpenClaw 生态提供了关键的安全基础设施，确保注入 payload 在到达内存前被捕获。",
+    "tags": [
+      "Dev",
+      "Security",
+      "AI Agents"
+    ],
+    "link": "https://github.com/KirpalS99/Faith-Claw",
+    "date": "2026-03-15",
+    "id": "17736067559790"
+  },
+  {
+    "title": "Kuberna Labs：去中心化跨链 AI 代理 SDK",
+    "summary": "开源 SDK，支持 AI 代理使用意图和 zkTLS 技术进行自主跨链交易。",
+    "detail": "Kuberna Labs 推出开源 SDK，构建去中心化执行轨道。它 enables autonomous cross-chain transactions using intents and zkTLS。这标志着 AI 代理与区块链技术的深度融合，为代理在经济系统中的自主操作提供了安全且去中心化的基础设施。对于开发需要执行金融或链上操作的 AI 应用开发者而言，这是一个值得关注的新工具。它解决了代理在跨链环境下的信任与执行难题，推动了 Web3 与 AI 的交汇。项目位于 GitHub，旨在让代理能够安全地在不同链之间进行交互和价值转移。",
+    "tags": [
+      "Dev",
+      "Blockchain",
+      "AI Agents"
+    ],
+    "link": "https://github.com/kawacukennedy/kuberna-labs",
+    "date": "2026-03-15",
+    "id": "17736067559791"
+  },
+  {
+    "title": "FusionAuth 深度解析：AI 代理安全架构",
+    "summary": "强调 AI 代理安全需以人类身份为基础，代理需携带绑定身份的令牌。",
+    "detail": "FusionAuth 文章探讨 AI 代理安全架构。核心观点是代理安全是基于安全人类身份的分层防御。未经验证的身份无法确认代理授权。文章定义 AI 代理为由 LLM 驱动的半自主软件，如 Claude Desktop、Claude Code 或 Salesforce Agentforce。重点在于远程连接场景下的安全，建议代理携带与人类身份绑定的令牌和密钥。文章 omitted coverage of autonomous agents not connected with human identity。这为 enterprise 级 AI 代理治理提供了理论基础，强调了身份验证在代理经济中的核心地位，区分了本地与远程代理的安全模型。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Identity"
+    ],
+    "link": "https://fusionauth.io/articles/ai/securing-ai-agents",
+    "date": "2026-03-15",
+    "id": "17736067559792"
+  },
+  {
+    "title": "Caliber：专为代码库定制的 AI 配置工具",
+    "summary": "通过扫描项目生成定制技能与配置，解决 AI 开发环境上下文缺失问题。",
+    "detail": "Caliber 旨在解决“糟糕的设置导致糟糕的代理”问题。通过命令`npm install -g @rely-ai/caliber`扫描项目，生成 tailored 技能、配置文件及推荐的 MCP。针对开发者面临的上下文丢失、Token 浪费及配置腐烂痛点，Caliber 确保跨会话的上下文持久化。解决了不同开发者设置不一致及最佳实践快速变化的挑战。它反映了 AI 编程助手领域正从通用模型向深度集成特定代码库上下文的方向演进，有助于提升 AI 编码的准确性与效率，防止配置文件随代码演进而过时。",
+    "tags": [
+      "New",
+      "DevTools",
+      "LLM"
+    ],
+    "link": "https://caliber-ai.up.railway.app/",
+    "date": "2026-03-15",
+    "id": "17736067559793"
+  },
+  {
     "title": "LearnFork 发布分支式 AI 对话学习工具",
     "summary": "支持无限画布分支对话，本地存储保护隐私，兼容多模型提供商。",
     "detail": "LearnFork 推出了一种新的 AI 交互范式，将线性对话转变为树状知识结构。用户可从任意消息分支探索不同角度，所有数据存储在浏览器端（IndexedDB），确保隐私。支持 OpenAI、Anthropic 等 7 家提供商，自带 API Key。适合深度学习和研究场景，解决了传统聊天窗口上下文丢失的问题，让思维像树一样生长而非单一线程。免费版支持 3 次对话，升级可无限使用。完全客户端运行，无后端数据库，确保对话数据永不离开设备，为敏感研究提供安全环境。无限画布功能让连接一目了然，支持搜索及高亮关键段落。这种非线性的探索方式特别适合复杂课题的研究，用户可以在不丢失原始线程的情况下测试自己或简化概念。通过视觉化的知识树，用户能更好地管理信息过载，提升学习效率。",
@@ -1250,57 +1302,5 @@
     "link": "https://news.ycombinator.com/item?id=47222385",
     "date": "2026-03-02",
     "id": "17724802829285"
-  },
-  {
-    "title": "联邦法官裁定：AI查询不受传票/搜查令保护",
-    "summary": "联邦法官裁定，AI生成的文档不受特权保护，可能需要服从传票或搜查令。",
-    "detail": "一篇法律文章指出，联邦法官裁定AI查询生成的内容不受特权保护，这意味着这些内容可能需要服从传票或搜查令。这一裁决对法律行业和依赖AI生成内容的组织具有重要意义，因为它可能会影响信息的保密性和法律保护。",
-    "tags": [
-      "News",
-      "LLM",
-      "Legal"
-    ],
-    "link": "https://www.paulweiss.com/insights/client-memos/sdny-court-considers-whether-ai-generated-documents-are-subject-to-privilege-protections",
-    "date": "2026-03-02",
-    "id": "17724802829286"
-  },
-  {
-    "title": "美国财政部终止使用 Anthropic AI，特朗普命令生效",
-    "summary": "特朗普下令后，美国财政部停止使用Anthropic的AI技术。",
-    "detail": "美国财政部在特朗普总统下达命令后，终止了与AI公司Anthropic的合作。此举可能与特朗普政府对AI技术应用的政策调整有关。具体原因和影响尚待进一步观察，但可能预示着政府对AI监管和使用的收紧趋势。此事件反映了政治因素对AI行业发展的影响，以及AI公司在政府合作中面临的不确定性。",
-    "tags": [
-      "News",
-      "AI政策",
-      "监管"
-    ],
-    "link": "https://www.axios.com/2026/03/02/treasury-trump-ai-anthropic-pentagon",
-    "date": "2026-03-02",
-    "id": "17724774995810"
-  },
-  {
-    "title": "用户涌向 Claude：ChatGPT 的替代方案",
-    "summary": "因争议，大量用户放弃ChatGPT，转而使用Claude。",
-    "detail": "由于围绕ChatGPT的争议，越来越多的用户正在转向使用Claude。文章将介绍如何从ChatGPT切换到Claude，并探讨Claude作为替代方案的优势。这反映了用户对AI产品选择的多样化需求，以及AI公司在竞争中需要不断改进和适应用户期望。",
-    "tags": [
-      "News",
-      "LLM",
-      "ChatGPT"
-    ],
-    "link": "https://techcrunch.com/2026/03/02/users-are-ditching-chatgpt-for-claude-heres-how-to-make-the-switch/",
-    "date": "2026-03-02",
-    "id": "17724774995811"
-  },
-  {
-    "title": "AI API 独立监控平台：追踪 API 可靠性",
-    "summary": "独立监控主流AI API的可靠性和性能，提供客观数据。",
-    "detail": "该平台每小时独立收集主要AI API的可靠性和性能数据，为开发者提供客观的参考信息。在AI API构建应用时，了解不同供应商的速度和可靠性至关重要。该平台旨在帮助开发者做出更明智的决策，选择最适合其需求的API。",
-    "tags": [
-      "Dev",
-      "API",
-      "监控"
-    ],
-    "link": "https://ai-api-monitor-production.up.railway.app/",
-    "date": "2026-03-02",
-    "id": "17724774995812"
   }
 ]
