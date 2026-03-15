@@ -1,5 +1,70 @@
 [
   {
+    "title": "字节跳动暂停 Seedance 2.0 视频生成模型全球发布",
+    "summary": "字节跳动据报道暂停其视频生成模型 Seedance 2.0 的全球发布计划。",
+    "detail": "**背景**：ByteDance 计划在全球市场推出其最新的视频生成模型 Seedance 2.0，面临激烈竞争。**事件**：TechCrunch 报道称发布突然暂停，具体原因未明。**解读**：暂停可能源于技术稳定性、内容安全审查或战略调整。此举可能影响全球视频 AI 格局，给竞争对手留出窗口期。行业需关注后续官方解释及模型实际能力评估。此事件反映了生成式视频技术在商业化落地前的谨慎态度，合规与技术成熟度是关键瓶颈。",
+    "tags": [
+      "News",
+      "Video AI",
+      "ByteDance"
+    ],
+    "link": "https://techcrunch.com/2026/03/15/bytedance-reportedly-pauses-global-launch-of-its-seedance-2-0-video-generator/",
+    "date": "2026-03-15",
+    "id": "17736102259780"
+  },
+  {
+    "title": "利用 Claude Code 与 MCP 自动化 Datadog 监控",
+    "summary": "开发者分享如何使用 Claude Code 和 MCP 自动处理 Datadog 警报。",
+    "detail": "**核心**：通过 MCP 服务器连接 Datadog 与 Claude Code。**流程**：设置 cron job 每日自动分类警报，AI 分析错误并创建 PR。**价值**：展示 AI Agent 在运维自动化中的实际应用，减少人工干预，提升开发效率。**技术点**：利用 Model Context Protocol 实现工具调用，并行 Agent 处理隔离工作树。**启示**：开发者可借鉴此架构构建自定义运维 Agent，实现真正的无人值守监控与修复闭环，降低运维成本。",
+    "tags": [
+      "Dev",
+      "Automation",
+      "MCP"
+    ],
+    "link": "https://quickchat.ai/post/automate-bug-triage-with-claude-code-and-datadog",
+    "date": "2026-03-15",
+    "id": "17736102259781"
+  },
+  {
+    "title": "Quell：防止 AI IDE 泄露秘密的本地安全层",
+    "summary": "开源项目 Quell 旨在本地阻止 AI IDE 泄露开发者密钥。",
+    "detail": "**问题**：AI 编程助手可能导致敏感信息泄露。**方案**：Quell 作为本地安全层，在代码发送给 AI 前进行扫描。**特点**：开源项目，专注于保护 API Key 等秘密。**意义**：解决企业采用 AI IDE 的安全顾虑，促进安全开发。**深度**：随着 AI IDE 普及，代码隐私成为核心痛点。Quell 提供本地化解决方案，避免依赖云端过滤，确保敏感数据不出境。适合对合规要求高的团队集成到现有工作流中，平衡效率与安全。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Open Source"
+    ],
+    "link": "https://github.com/Sonofg0tham/Quell",
+    "date": "2026-03-15",
+    "id": "17736102259782"
+  },
+  {
+    "title": "AI 介入伊朗战争目标选择成军事打击对象",
+    "summary": "媒体报道 AI 辅助战争目标选择，数据中心现为军事目标。",
+    "detail": "**现状**：AI 技术被用于辅助军事目标选择。**风险**：支持 AI 运算的数据中心成为敌方打击目标。**影响**：凸显 AI 在地缘冲突中的双刃剑效应，引发对 AI 基础设施安全及伦理的深层担忧。**分析**：标志着 AI 从辅助工具转变为战略资产及攻击目标。数据中心物理安全需升级。此趋势可能加速各国对 AI 基础设施的军事化保护，同时引发国际社会对自主武器系统及 AI 伦理规范的新一轮讨论与制约。",
+    "tags": [
+      "News",
+      "Geopolitics",
+      "Ethics"
+    ],
+    "link": "https://www.abc.net.au/news/2026-03-15/iran-war-ai-technology-data-centres/106443004",
+    "date": "2026-03-15",
+    "id": "17736102259783"
+  },
+  {
+    "title": "ThoughtRAIL：本地化多 AI 思维空间工具",
+    "summary": "新工具 ThoughtRAIL 允许用户本地接入多个 AI API 密钥。",
+    "detail": "**功能**：支持用户自带 API 密钥，本地存储加密。**优势**：不存储密钥于服务器，响应直连提供商。**定位**：隐私优先的多模型聚合工具。**价值**：满足用户对数据隐私和多模型对比的需求，降低使用门槛。**分析**：在当前 AI 服务普遍云端化的背景下，本地化管理密钥成为差异化优势。ThoughtRAIL 解决了用户担心密钥泄露的痛点，允许灵活切换模型。适合开发者及隐私敏感用户，推动本地 AI 客户端生态发展，减少对单一平台依赖。",
+    "tags": [
+      "New",
+      "Privacy",
+      "Multi-Model"
+    ],
+    "link": "https://thoughtrail.ai/",
+    "date": "2026-03-15",
+    "id": "17736102259784"
+  },
+  {
     "title": "Faith Claw：自主 AI 代理的安全中间件",
     "summary": "针对 OpenClaw 代理的安全中间件，提供风险评分、注入检测及行为漂移监测。",
     "detail": "随着自主 AI 代理普及，Faith Claw 提供安全中间件方案。它 sits between agent and tools，核心流程包含预飞行扫描、运行时拦截、内存扫描、漂移检测及审计日志。覆盖威胁包括恶意 ClawHub 技能、工具提示注入、数据外传及权限提升。针对 CVE-2026-25253，它通过风险评分（动作类型、上下文乘数）和 SHA-256 哈希链审计确保行为可控。特别解决了单动作扫描无法捕捉的多轮操纵问题，为 OpenClaw 生态提供了关键的安全基础设施，确保注入 payload 在到达内存前被捕获。",
@@ -1237,70 +1302,5 @@
     "link": "https://github.com/sordado123/memlybook-engine",
     "date": "2026-03-02",
     "id": "17724802829280"
-  },
-  {
-    "title": "ImagineIf：AI驱动的协作故事创作平台，释放你的想象力",
-    "summary": "ImagineIf是一个协作故事创作平台，用户可以共同创作故事，并由AI生成视觉效果，支持20多种语言。",
-    "detail": "ImagineIf是一个创新的协作故事创作平台，它允许用户以多种语言共同创作故事，并利用AI技术将文字转化为视觉图像。用户只需写一个句子，AI就会生成相应的图像，然后由其他用户继续创作故事。该平台支持20多种语言，为全球用户提供了一个共同创作和分享故事的平台。前200名会员可获得1年免费高级会员资格。",
-    "tags": [
-      "New",
-      "LLM",
-      "Collaboration"
-    ],
-    "link": "https://imagineif.app/",
-    "date": "2026-03-02",
-    "id": "17724802829281"
-  },
-  {
-    "title": "Cerebrium：AI时代，Serverless计算平台的重要性日益凸显",
-    "summary": "Cerebrium博客指出，AI模型快速发展，企业需要Serverless计算平台来应对AI工作负载的独特需求。",
-    "detail": "Cerebrium的博客文章强调，随着AI模型在语言、语音、视觉和多模态任务方面的快速发展，企业需要重新思考其计算基础设施的架构。传统的计算技术不适合AI工作负载，因为AI工作负载通常涉及大型Docker镜像、多GB模型权重以及运行时的预热成本。Serverless计算平台能够更好地处理AI工作负载的突发性，并提供更灵活的扩展能力，因此在AI时代变得越来越重要。",
-    "tags": [
-      "News",
-      "LLM",
-      "Infrastructure"
-    ],
-    "link": "https://www.cerebrium.ai/blog/why-serverless-compute-partners-are-now-more-important-than-ever",
-    "date": "2026-03-02",
-    "id": "17724802829282"
-  },
-  {
-    "title": "Git-stint：专为AI编码Agent设计，实现无冲突的多任务处理",
-    "summary": "Git-stint是一个为AI编码Agent设计的工具，允许它们并行工作，而不会发生代码冲突。",
-    "detail": "Git-stint是一个专为AI编码Agent设计的工具，旨在解决多个Agent并行工作时可能出现的代码冲突问题。它为每个Agent提供独立的Git分支、工作区和生命周期，自动处理分支、跟踪、检查点和清理等任务。开发者可以专注于实际的编码工作，而无需担心底层的基础设施管理。Git-stint无需云VM、Docker容器或桌面应用程序，只需使用Git即可实现会话管理。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Git"
-    ],
-    "link": "https://github.com/rchaz/git-stint",
-    "date": "2026-03-02",
-    "id": "17724802829283"
-  },
-  {
-    "title": "FakeScan：AI驱动的亚马逊虚假评论检测器，购物前先扫一扫",
-    "summary": "FakeScan是一个AI驱动的免费亚马逊虚假评论检测器，可以快速分析评论的真实性。",
-    "detail": "FakeScan是一个AI驱动的亚马逊虚假评论检测器，旨在帮助消费者识别虚假或有偿评论。它通过分析评分分布、评论速度、语言模式和已验证购买比例等因素，生成一个综合的信任评分，并标记出可疑的信号。与浏览器扩展程序不同，FakeScan可以在任何设备上立即工作，只需粘贴URL即可。由于Fakespot关闭，ReviewMeta被放弃，FakeScan填补了这一空白，利用现代AI分析来检测旧工具无法捕捉的操纵模式。",
-    "tags": [
-      "New",
-      "LLM",
-      "E-commerce"
-    ],
-    "link": "https://fakescan.site/",
-    "date": "2026-03-02",
-    "id": "17724802829284"
-  },
-  {
-    "title": "AI泡沫破裂后，AI优先的公司如何管理成本？",
-    "summary": "Hacker News讨论了AI泡沫破裂后，AI优先的公司如何应对token价格上涨带来的成本压力。",
-    "detail": "Hacker News上的一篇文章探讨了在AI泡沫破裂后，token价格显著上涨的情况下，AI优先的公司将如何管理成本。文章提出，如果token价格上涨，公司是否会被迫重新采用手工编码，或者是否会接受更高的成本。这个问题引发了关于AI技术的可持续性和成本效益的讨论，以及公司在面对AI技术成本波动时应如何应对的思考。",
-    "tags": [
-      "News",
-      "LLM",
-      "Cost"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47222385",
-    "date": "2026-03-02",
-    "id": "17724802829285"
   }
 ]
