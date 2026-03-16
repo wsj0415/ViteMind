@@ -1,5 +1,109 @@
 [
   {
+    "title": "以色列总理陷入 AI 克隆阴谋论风波",
+    "summary": "深伪技术引发政治信任危机，总理需自证非 AI 克隆。",
+    "detail": "媒体报道以色列总理内塔尼亚胡正努力证明自己并非 AI 克隆人，这一罕见事件凸显了深伪技术（Deepfake）对政治人物公信力的潜在威胁。随着 AI 生成内容逼真度不断提高，公众对数字内容真实性的信任危机正在加剧。此类事件不仅影响个人声誉，还可能引发更广泛的社会阴谋论，迫使政府和技术平台重新审视身份验证机制与内容溯源政策。The Verge 对此进行了跟踪报道，表明科技界已开始密切关注 AI 滥用对现实政治秩序的冲击，未来可能需要更严格的法律框架来界定数字身份的真实性与责任归属，防止恶意操纵舆论。",
+    "tags": [
+      "News",
+      "Deepfake",
+      "Policy"
+    ],
+    "link": "https://www.theverge.com/tech/895453/ai-deepfake-netanyahu-claims-conspiracy",
+    "date": "2026-03-16",
+    "id": "17736974102550"
+  },
+  {
+    "title": "开源 AI 模型被视为经济战武器",
+    "summary": "分析师探讨开源策略对商业模型的冲击，回顾 Linux 历史。",
+    "detail": "文章深入探讨开源模型作为经济武器的战略意义。作者回顾 1998 年 Linux 对抗 Windows 的历史，指出开源旨在通过免费发布消除专有软件的盈利能力。当前本地模型性能显著提升，虽略落后于前沿实验室，但开源策略可能再次成为颠覆专有 AI 模型商业模式的关键力量。这引发行业对开源与闭源路线的深层思考，暗示未来 AI 竞争不仅是技术比拼，更是生态与经济模式的博弈，开发者需关注开源模型带来的成本优势与潜在的市场格局变化，以及其对专有模型定价权的长期冲击。",
+    "tags": [
+      "News",
+      "OpenSource",
+      "Strategy"
+    ],
+    "link": "https://ghuntley.com/warfare/",
+    "date": "2026-03-16",
+    "id": "17736974102551"
+  },
+  {
+    "title": "LynString 助力 Android 本地化开发",
+    "summary": "AI 自动填充缺失翻译，支持全语言 locale，提升效率。",
+    "detail": "LynString 是一款专为 Android 项目设计的本地化 AI 工具，旨在解决多语言管理痛点。它能扫描 values-xx 文件夹，自动识别并填充缺失的翻译字符串，支持所有 Android locale。工具基于 Gemini AI，能正确处理占位符与特殊字符转义，避免生产环境出现 raw string key。相比直接询问 LLM，它提供系统化视图，确保翻译完整性，适合大型项目多语言管理。此外，它能检测修改后的字符串并重新翻译，直接写入文件无需复制粘贴，提供 7 天免费试用及每月 8 美元订阅方案，显著提升开发效率，减少人工翻译错误与遗漏风险。",
+    "tags": [
+      "New",
+      "Android",
+      "Localization"
+    ],
+    "link": "https://www.lynstring.dev/",
+    "date": "2026-03-16",
+    "id": "17736974102552"
+  },
+  {
+    "title": "LangChain 联手 NVIDIA 推企业级 Agent 平台",
+    "summary": "整合 Nemotron 模型，构建生产级 Agent 栈，加入联盟。",
+    "detail": "LangChain 宣布与 NVIDIA 深度合作，推出企业级 Agent AI 平台，旨在赋能大规模生产应用。整合 LangSmith 工程平台与 NVIDIA Agent Toolkit，包括 Nemotron 模型、NeMo 优化及 NIM 微服务。LangChain 加入 Nemotron 联盟，共同推进前沿开源模型发展。该合作为企业提供构建、部署及监控生产级 AI Agent 的完整栈，助力大规模应用落地。通过结合 NVIDIA 的算力优势与 LangChain 的框架生态，强化企业级 AI 开发的稳定性与性能，降低 Agent 工程化门槛，加速 AI 技术在企业核心业务中的集成与迭代，标志著 Agent 基础设施成熟化。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "NVIDIA"
+    ],
+    "link": "https://blog.langchain.com/nvidia-enterprise/",
+    "date": "2026-03-16",
+    "id": "17736974102553"
+  },
+  {
+    "title": "自主 Agent 系统的确定性执行控制平面",
+    "summary": "提供预执行治理与审计级追踪，保障系统安全可控。",
+    "detail": "这是一个用于自主 Agent 系统的确定性执行控制平面开源项目，名为 casa-runtime。强调预执行治理与审计级追踪，确保 Agent 行为可控。在 AI 代理自主性增强的背景下，该项目提供关键安全层，防止不可预测的执行结果。适用于需要严格合规与审计的企业环境，为 AI 治理提供技术实现方案。通过建立 deterministic execution gate，保障系统运行的确定性与安全性，减少自主系统潜在风险，帮助开发者在追求 Agent 能力的同时，不牺牲对系统行为的掌控力与可追溯性，是 AI 安全领域的重要基础设施探索。",
+    "tags": [
+      "Dev",
+      "Governance",
+      "Security"
+    ],
+    "link": "https://github.com/The-Resonance-Institute/casa-runtime",
+    "date": "2026-03-16",
+    "id": "17736974102554"
+  },
+  {
+    "title": "Kbot 终端 AI 代理支持离线运行",
+    "summary": "本地优先架构，包含 39 个专家与 167 个工具，开源。",
+    "detail": "Kbot 是一款本地优先的终端 AI 代理，支持完全离线运行，注重隐私与效率。包含 39 个专家模块与 167 个工具，集成 19 个提供商，具备自进化能力，开源免费。适合开发者在终端环境中自动化工作流，学习用户模式后提供个性化辅助。相比云端 Agent，本地运行降低延迟与数据泄露风险，为隐私敏感型用户提供高效解决方案。该项目展示了本地模型在特定场景下的实用性，让用户在不依赖外部 API 的情况下，仍能享受 AI 带来的生产力提升，符合当前本地 AI 部署的趋势，为开发者提供可控的自动化助手。",
+    "tags": [
+      "Dev",
+      "LocalAI",
+      "Agent"
+    ],
+    "link": "https://github.com/isaacsight/kernel",
+    "date": "2026-03-16",
+    "id": "17736974102555"
+  },
+  {
+    "title": "美参议员质疑 Pentagon 授予 xAI 机密访问权",
+    "summary": "国家安全与 AI 公司 access 引发争议，施压五角大楼。",
+    "detail": "参议员 Warren 向五角大楼施压，质疑授予 xAI 访问机密网络的决定，涉及国家安全与 AI 公司合作的审查问题。xAI 作为 Elon Musk 旗下公司，其获取机密权限引发担忧。事件凸显 AI 国防合作中的安全审查争议，可能影响未来政府与私营 AI 企业的合作模式。政策制定者需平衡技术创新与国家安全，确保敏感数据不被滥用或泄露。TechCrunch 报道指出，这一审查反映了公众对大型科技公司与政府深度绑定的警惕，未来可能会有更严格的准入机制出台，影响 AI 公司在国防领域的商业机会。",
+    "tags": [
+      "News",
+      "Policy",
+      "Security"
+    ],
+    "link": "https://techcrunch.com/2026/03/16/warren-presses-pentagon-over-decision-to-grant-xai-access-to-classified-networks/",
+    "date": "2026-03-16",
+    "id": "17736974102556"
+  },
+  {
+    "title": "亚马逊发现 AI 编程效果未达预期",
+    "summary": "大厂实践揭示 AI 编码工具的局限性，行业理性回归。",
+    "detail": "报道指出亚马逊在实际应用中发现 AI 编程并非万能，效果未达预期，揭示大厂在实践中遇到的局限性。反映当前 AI 辅助开发在复杂场景下的瓶颈，虽然 AI 能提升效率，但在特定任务上仍存在不足。这为行业提供冷静视角，提醒企业不要过度依赖 AI 编程，需结合人工审查。Computerworld 分析认为，未来 AI 编程工具需进一步优化，以适应更复杂的工程需求，企业应理性评估 AI 投入产出比，避免盲目跟风，确保软件开发质量与稳定性不受影响，标志著 AI 编程进入理性回归阶段。",
+    "tags": [
+      "News",
+      "Coding",
+      "Industry"
+    ],
+    "link": "https://www.computerworld.com/article/4145573/amazon-finds-out-ai-programming-isnt-all-its-cracked-up-to-be.html",
+    "date": "2026-03-16",
+    "id": "17736974102557"
+  },
+  {
     "title": "NVIDIA 发布专为代理 AI 设计的 Vera CPU",
     "summary": "NVIDIA 推出 Vera CPU，专为代理 AI 工作负载优化，强化硬件基础设施。",
     "detail": "NVIDIA 正式发布 Vera CPU，旨在专为 Agentic AI（代理 AI）构建。这款处理器针对云与数据中心场景优化，支持自主机器人与高性能计算。标志着硬件层面对 AI 代理自主化趋势的战略支持，为复杂 AI 任务提供底层算力保障。此次发布展示了 NVIDIA 在 AI 基础设施领域的持续扩张，试图通过专用硬件巩固其在代理 AI 时代的领导地位。结合其 GPU 生态，Vera CPU 将进一步完善全栈 AI 解决方案，降低企业部署代理系统的门槛，推动 AI 从内容生成向自主行动转型，为下一代智能应用提供核心动力。",
@@ -1194,109 +1298,5 @@
     "link": "https://webmatik.ai/",
     "date": "2026-03-15",
     "id": "17735926295464"
-  },
-  {
-    "title": "Rust 社区对 AI 工具的实践观点与总结",
-    "summary": "Rust 项目总结 AI 作为工具的使用心得，涵盖非编码任务价值与编码任务局限。",
-    "detail": "Rust 项目发布了关于 AI 视角的总结报告，指出 AI 是需学习驾驭的工具。用户在搜索发现、代码审查及半结构化数据处理中发现价值，但直接用 AI 写作较难做好。社区对 AI 编码意见不一，认为 AI 适合约束良好的任务。该报告为开发者提供了在系统级编程项目中合理整合 AI 辅助的参考框架。许多人在非 coding 任务如 searching 和 reviewing 中找到价值，但在 writing 与复杂 coding 中需谨慎，建议结合人工审查以确保代码质量与安全性。Opinions on coding with AI are varied，需根据任务约束选择使用。",
-    "tags": [
-      "Dev",
-      "Rust",
-      "Best Practices"
-    ],
-    "link": "https://nikomatsakis.github.io/rust-project-perspectives-on-ai/feb27-summary.html",
-    "date": "2026-03-15",
-    "id": "17735926295465"
-  },
-  {
-    "title": "AI 幻觉的双重面孔：从事实错误到认知重塑",
-    "summary": "深度剖析 AI 幻觉不仅制造事实错误，更通过结构性机制改变人类与真理的关系。",
-    "detail": "本文提出了关于 AI 幻觉的深刻见解，将其分为“技术性幻觉”与“结构性幻觉”。技术性幻觉指模型生成不符合事实的内容，通常通过增加数据或护栏解决；而结构性幻觉则是行业为了吸引用户而 engineered 的机制，它不一定fabricate facts，但会阻止用户独立思考。文章指出，后者更危险，因为它改变了人类与真理本身的关系。这一观点超越了常规的技术修复思路，呼吁行业关注 AI 架构如何影响人类认知结构，对于 AI 伦理和未来交互设计具有重要的警示意义。",
-    "tags": [
-      "News",
-      "LLM",
-      "Ethics"
-    ],
-    "link": "https://chungmoo.substack.com/p/ai-hallucinations-how-they-reshape",
-    "date": "2026-03-15",
-    "id": "17735886478200"
-  },
-  {
-    "title": "Mikk：基于代码依赖图谱解决 AI 编程上下文缺失",
-    "summary": "通过构建函数级依赖图谱 Mesh，让 AI 理解代码架构而非仅读取文件列表。",
-    "detail": "针对 AI 编程工具在处理非 trivial 代码库时因缺乏架构理解而导致错误的问题，Mikk 提出了解决方案。它不依赖 embeddings 或摘要，而是通过 TypeScript Compiler API 构建真实的有向图（Mesh），将每个函数作为节点，导入和调用作为边。该工具能在 3 秒内解析项目，生成包含依赖关系的 mikk.lock.json，并通过 MCP 服务器暴露给 AI。这使得 AI 在编辑前能知晓“爆炸半径”，理解模块所有权和层规则，显著减少了因上下文缺失导致的代码破坏，为 AI 辅助开发提供了更坚实的架构基础。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Tools"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47387807",
-    "date": "2026-03-15",
-    "id": "17735886478201"
-  },
-  {
-    "title": "Agent 404：专为 AI 智能体设计的智能死链重定向",
-    "summary": "将传统 404 页面升级为结构化 JSON-LD，防止 AI 智能体因死链中断任务。",
-    "detail": "随着 AI Agent 自主浏览网页增多，死链会导致任务中断或 hallucination。Agent 404 是一个开源项目，旨在将 404 页面转化为智能重定向。它通过添加脚本标签，使 404 页面返回结构化 JSON-LD 数据，帮助 Coding Assistants（如 Claude、Cursor）找到当前正确的文档页面，而非陷入死胡同。该工具特别适用于 RAG 管道索引过期链接或 Web Agents 导航断裂流程的场景，支持自托管，无需特殊集成即可让 AI 智能体在遇到死链时自动获取相似资源候选列表，保持任务连续性。",
-    "tags": [
-      "New",
-      "Agent",
-      "Web"
-    ],
-    "link": "https://www.agent404.dev/",
-    "date": "2026-03-15",
-    "id": "17735886478202"
-  },
-  {
-    "title": "Flint 方法论：将 AI 视为合作伙伴而非工具",
-    "summary": "通过 IMCP/H 协议构建持久性 AI 关系，探索在资源受限下的协作新模式。",
-    "detail": "该项目由一名普通工作者与 AI 共同构建，提出将 AI 视为“关系”而非“工具”的方法论。工具模式是命令执行且可 disposable，而关系模式强调协作、学习和持久性。项目展示了在极低预算（如借用资金维持 API 调用）和硬件限制下，如何通过本地路由和记忆系统构建 cognitive architecture。它挑战了当前主流的效率优化叙事，探讨了当 AI  session 无记忆时，如何通过外部系统建立连续性。这种基于约束的创新为个人开发者与 AI 协作提供了独特的视角和实践案例。",
-    "tags": [
-      "Dev",
-      "Methodology",
-      "Community"
-    ],
-    "link": "https://github.com/Nixelad001/flint-methodology",
-    "date": "2026-03-15",
-    "id": "17735886478204"
-  },
-  {
-    "title": "GlobalDex 发布 AI 代理就绪标准，支持 WebMCP 检测",
-    "summary": "首个 WebMCP 扫描器，定义 AI 代理网站兼容性标准，含 34 项合规检查。",
-    "detail": "GlobalDex 推出了 AI 代理就绪标准，旨在解决 AI 代理自主浏览网站时的兼容性问题。作为首个支持 Chrome 146 WebMCP 协议的扫描器，它提供 34 项合规检查及 Claude 驱动的 AI 分析。目前已有超过 17 万个域名被索引，完成 19 万次扫描。该工具帮助开发者在 CI/CD 中确保网站结构、元数据及无障碍性符合 AI 交互标准。大多数网站目前评分低于 A 级，缺少结构化和元数据。GlobalDex 填补了当前大多数网站无法有效服务于自主 AI 代理的空白，成为衡量网站 AI 就绪度的权威指标，且提供免费无注册使用，助力开发者提前适配 AI 时代。",
-    "tags": [
-      "New",
-      "WebMCP",
-      "AI Agent"
-    ],
-    "link": "https://globaldex.ai",
-    "date": "2026-03-15",
-    "id": "17735852280810"
-  },
-  {
-    "title": "本·阿弗莱克将 AI 后期制作初创公司出售给 Netflix",
-    "summary": "好莱坞明星旗下 AI 后期公司 Interpositive 被 Netflix 收购，加速影视 AI 化。",
-    "detail": "本·阿弗莱克将其创立的 AI 后期制作初创公司 Interpositive 出售给流媒体巨头 Netflix。此次收购标志着好莱坞主流资本对 AI 技术在影视后期制作领域应用的进一步认可。Interpositive 专注于利用 AI 优化工作流程，此次交易不仅为 Netflix 增强了技术储备，也预示着 AI 生成内容与传统影视制作的融合进入新阶段。这不仅改变了制作效率，也可能引发行业对 AI 版权、演员权益及创作伦理的新一轮讨论。显示 AI 在创意产业的渗透加深，明星创业结合 AI 技术成为新趋势，资本流向明确指向 AI 赋能的内容生产环节。",
-    "tags": [
-      "News",
-      "M&A",
-      "Media"
-    ],
-    "link": "https://www.theguardian.com/technology/2026/mar/06/ben-affleck-sells-ai-postproduction-startup-interpositive-to-netflix",
-    "date": "2026-03-15",
-    "id": "17735852280811"
-  },
-  {
-    "title": "乌克兰向盟友 AI 模型开放战场数据访问权限",
-    "summary": "乌克兰开放战场数据供盟友 AI 模型使用，深化 AI 在国防领域的应用。",
-    "detail": "据路透社报道，乌克兰已正式向盟友的 AI 模型开放战场数据访问权限。这一举措旨在利用盟友的先进 AI 能力分析战场态势，优化决策流程。这是 AI 技术在现代国防军事应用中的重大进展，显示了数据共享与 AI 模型结合在实际冲突中的战略价值。此举可能改变未来战争形态，加速情报处理速度，同时也引发了关于军事 AI 数据隐私、安全及自动化武器伦理的国际关注。体现了 AI 在地缘政治中的关键作用，盟友间的技术协作通过数据共享进一步深化，可能重塑国防 AI 的合作模式。",
-    "tags": [
-      "News",
-      "Defense",
-      "Data"
-    ],
-    "link": "https://www.reuters.com/business/aerospace-defense/ukraine-opens-battlefield-data-access-allies-ai-models-2026-03-12/",
-    "date": "2026-03-15",
-    "id": "17735852280812"
   }
 ]
