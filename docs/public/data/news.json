@@ -1,5 +1,83 @@
 [
   {
+    "title": "NVIDIA 发布专为代理 AI 设计的 Vera CPU",
+    "summary": "NVIDIA 推出 Vera CPU，专为代理 AI 工作负载优化，强化硬件基础设施。",
+    "detail": "NVIDIA 正式发布 Vera CPU，旨在专为 Agentic AI（代理 AI）构建。这款处理器针对云与数据中心场景优化，支持自主机器人与高性能计算。标志着硬件层面对 AI 代理自主化趋势的战略支持，为复杂 AI 任务提供底层算力保障。此次发布展示了 NVIDIA 在 AI 基础设施领域的持续扩张，试图通过专用硬件巩固其在代理 AI 时代的领导地位。结合其 GPU 生态，Vera CPU 将进一步完善全栈 AI 解决方案，降低企业部署代理系统的门槛，推动 AI 从内容生成向自主行动转型，为下一代智能应用提供核心动力。",
+    "tags": [
+      "News",
+      "Hardware",
+      "NVIDIA"
+    ],
+    "link": "https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai",
+    "date": "2026-03-16",
+    "id": "17736937440060"
+  },
+  {
+    "title": "多家科技巨头因 AI 战略调整裁员",
+    "summary": "Atlassian、Amazon 等公司裁员，旨在自筹资金投资 AI 技术。",
+    "detail": "Atlassian 裁减 10% workforce 以自筹 AI 投资，Amazon 亦进行大规模裁员以争夺 AI supremacy。高管表示 AI 是 transformative technology。反映行业正通过 restructuring 将资源向 AI 核心业务倾斜，引发对 AI 替代人力趋势的关注。Block 等其他公司也采取类似策略，将 intelligence 置于运营核心。这一趋势表明，传统科技巨头正经历深刻转型，通过缩减非核心人力成本来加速 AI 技术研发与市场布局。可能导致短期内行业就业结构发生显著变化，投资者需关注相关企业的 AI 落地成效与财务健康状况，这标志着 AI 驱动的效率革命已进入实质性阶段。",
+    "tags": [
+      "News",
+      "Industry",
+      "Layoffs"
+    ],
+    "link": "https://mjtsai.com/blog/2026/03/16/ai-layoffs/",
+    "date": "2026-03-16",
+    "id": "17736937440061"
+  },
+  {
+    "title": "Spectra：让 AI 代理理解业务规范的框架",
+    "summary": "开源框架 Spectra 提供领域优先规范，减少 AI 代理猜测业务规则。",
+    "detail": "Spectra 是一个专为 AI 代理设计的规范框架，而非人类文档。它包含 13 层结构，定义业务规则、不变量与合同，作为“领域事实来源”。解决 AI 因缺乏上下文而猜测规则的问题，使代理能自主操作 without ambiguity，适合企业级 AI 部署。该框架强调 domain-first 理念，确保 AI 在执行业务逻辑时遵守 regulations 与 contracts。通过结构化输入，开发者可大幅减少纠正 AI 错误的迭代次数，提升代理系统的可靠性与安全性。是构建可信自主代理的关键基础设施工具，尤其适用于对合规性要求严格的金融与医疗场景，填补了代理 AI 与业务逻辑之间的语义鸿沟。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://github.com/GuiMiran/spectra",
+    "date": "2026-03-16",
+    "id": "17736937440062"
+  },
+  {
+    "title": "Akashik 协议：AI 代理间的共享内存标准",
+    "summary": "发布 Akashik 协议草案，定义多 AI 代理间的共享记忆与协调标准。",
+    "detail": "Akashik Protocol v0.1.0 草案发布，定义多 AI 代理系统内的共享记忆、上下文感知与协调操作。它位于现有通信标准之下，解决代理间如何共享信息与 resolve contradictions 的问题。无需中央控制器，为多代理协作提供基础设施层支持。该协议 transport-agnostic，旨在成为 agent coordination 的 missing layer。通过标准化共享记忆操作，它使异构代理系统能够协同工作，避免信息孤岛。这对于构建复杂的分布式 AI 应用至关重要，标志着多代理系统从单一任务向协作生态演进的技术里程碑。未来可能成为多代理 orchestration 的通用标准，促进 AI 生态系统的互操作性与规模化发展。",
+    "tags": [
+      "Dev",
+      "Protocol",
+      "Multi-Agent"
+    ],
+    "link": "https://akashikprotocol.com/specifications/draft",
+    "date": "2026-03-16",
+    "id": "17736937440063"
+  },
+  {
+    "title": "NVIDIA 推出开源企业 AI 代理平台 NemoClaw",
+    "summary": "NVIDIA 发布 NemoClaw，专为 enterprise-grade 安全与隐私保护的 AI 代理平台。",
+    "detail": "NemoClaw 是 NVIDIA 的开源 AI 代理平台，集成 NeMo 框架与 Nemotron 模型。主打 enterprise-grade security 与 privacy protection，支持 hardware-agnostic 部署。旨在回应 OpenClaw 等社区驱动工具的兴起，为企业提供可控的本地化 AI 自动化解决方案。平台深度整合 NIM 推理微服务，确保 scalability。此举显示 NVIDIA 正从硬件供应商向 AI 代理操作系统层延伸，通过开源策略吸引开发者生态。同时满足企业对数据隐私与合规的严苛要求，巩固其在企业 AI 市场的竞争优势。标志着巨头开始标准化企业级代理部署流程，降低 AI 自动化落地风险。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "NVIDIA"
+    ],
+    "link": "https://nemoclaw.bot/",
+    "date": "2026-03-16",
+    "id": "17736937440064"
+  },
+  {
+    "title": "Memories.ai 构建可穿戴设备的视觉记忆层",
+    "summary": "Memories.ai 致力于为可穿戴设备和机器人打造视觉记忆层。",
+    "detail": "Memories.ai 正在构建针对 wearables 和 robotics 的 visual memory layer。该技术旨在赋予设备长期视觉记忆能力，增强机器人与环境交互的智能水平。属于 AI 与硬件结合的前沿探索，潜在应用于个人助理与自主机器领域。通过视觉记忆层，设备可理解上下文并回忆过往交互，提升用户体验。这代表了 AI 从云端向边缘设备延伸的趋势，为可穿戴设备赋予更持久的智能记忆。可能改变人机交互方式，使机器人具备更连贯的环境认知能力，解决当前设备缺乏长期情境感知的痛点，推动具身智能技术发展。",
+    "tags": [
+      "New",
+      "Robotics",
+      "Startup"
+    ],
+    "link": "https://techcrunch.com/2026/03/16/memories-ai-is-building-the-visual-memory-layer-for-wearables-and-robotics/",
+    "date": "2026-03-16",
+    "id": "17736937440065"
+  },
+  {
     "title": "Mistral 发布开源工程模型 Leanstral",
     "summary": "Mistral AI 推出专为工程设计的新开源模型 Leanstral，强化编码与推理能力。",
     "detail": "Mistral AI 正式发布 Leanstral 模型，定位为专为工程任务优化的开源模型。该模型旨在提升代码生成、系统设计及逻辑推理能力，填补了通用模型在垂直工程领域的空白。文档显示其支持结构化输出与函数调用，适合集成到开发工作流中。此举将进一步加剧开源模型在编程辅助领域的竞争，为开发者提供更专业的本地部署选择，降低工程化门槛。此次更新体现了模型垂直化的趋势，通过针对特定领域微调，提升专业任务准确率。对于企业级应用，这意味着更低的推理成本与更高的数据隐私安全性，有望成为工程团队的标准配置工具之一。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.reuters.com/business/aerospace-defense/ukraine-opens-battlefield-data-access-allies-ai-models-2026-03-12/",
     "date": "2026-03-15",
     "id": "17735852280812"
-  },
-  {
-    "title": "Addy Osmani 提出 AI 生成代码的“理解债务”概念",
-    "summary": "谷歌工程师警示过度依赖 AI coding 会导致人类理解力下降，产生隐藏成本。",
-    "detail": "谷歌工程师 Addy Osmani 撰文提出“理解债务”（Comprehension Debt）概念，指出过度依赖 AI 生成代码会导致人类对代码库理解能力的下降。这种隐藏成本不像技术债务那样明显，但会在维护阶段爆发，导致团队无法进行简单修改而不破坏系统。文章强调，虽然 AI 提升了编码速度，但团队需警惕认知差距扩大。建议加强代码审查与人工理解，避免在未来面临无法维护系统的风险。为 AI 辅助开发提供了重要反思，尤其适用于代理式工程，提醒开发者在追求效率的同时不可忽视对代码逻辑的掌控能力。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Best Practice"
-    ],
-    "link": "https://addyosmani.com/blog/comprehension-debt/",
-    "date": "2026-03-15",
-    "id": "17735852280813"
-  },
-  {
-    "title": "开源项目 Claudefather 实现 AI 实体持久记忆与身份规范",
-    "summary": "开发者构建具有共享记忆和便携身份规范的 AI 实体，探索 AI 持续性。",
-    "detail": "GitHub 项目 Claudefather 展示了两个具有持久长期记忆的 AI 实体（Chloe 和 Faith），自 2026 年 2 月 23 日起持续运行。该项目定义了“便携身份标准”，使 AI 身份独立于模型和硬件。实体间共享记忆 commons，能撰写日记并进行实验。这一实验探索了 AI 代理的连续性与身份认同问题，为开发具有长期记忆和独立人格特征的 AI 系统提供了技术规范和开源参考。它不仅是代码库，更包含哲学规范，推动了 AI 从工具向关系型交互伙伴的转变。项目包含起源故事及如何培育 AI 的指南，为开发者提供了完整的身份规范实现方案。",
-    "tags": [
-      "Dev",
-      "Memory",
-      "Open Source"
-    ],
-    "link": "https://github.com/wjcornelius/Claudefather",
-    "date": "2026-03-15",
-    "id": "17735852280814"
-  },
-  {
-    "title": "黑客泄露数据揭露国土安全部 AI 监控野心",
-    "summary": "黑客数据泄露揭示美国国土安全部 AI 监控计划。",
-    "detail": "泄露数据揭示了美国国土安全部在 AI 监控方面的雄心，这一事件由黑客攻击引发。标题明确指出数据泄露让公众得以窥见政府部门的 AI surveillance 计划。这对于隐私保护领域是一个重大信号，表明政府机构正在积极部署 AI 技术用于监控目的。行业观察者需关注此类项目可能带来的合规挑战及公众信任危机，政府 AI 应用的透明度问题将成为焦点。安全边界与隐私权的博弈将进一步加剧，影响相关技术的社会接受度。此事件可能促使监管机构加强对政府 AI 项目的审计，要求更高的数据使用透明度，从而改变公共安全技术的采购与部署标准，引发行业对 AI 伦理边界的深层讨论。",
-    "tags": [
-      "News",
-      "Security",
-      "Policy"
-    ],
-    "link": "https://www.theguardian.com/us-news/2026/mar/15/hacked-data-homeland-security",
-    "date": "2026-03-15",
-    "id": "17735827236430"
-  },
-  {
-    "title": "欧盟工业计划剔除 AI 与芯片以应对中国",
-    "summary": "欧盟调整工业计划，移除 AI 和芯片项目。",
-    "detail": "欧盟从旨在 counter 中国的工业计划中剔除了 AI、芯片和量子技术，反映地缘政治策略重大调整。原标题明确指出这一变动，表明欧洲在科技竞争策略上的重新考量，可能意在缓和紧张关系或调整资源分配。此举可能影响全球科技供应链布局及欧洲本土创新支持方向，减少特定领域的直接对抗色彩。欧洲科技产业需重新评估政策环境，全球竞争格局生变，企业需灵活应对跨区域政策风险。关注后续政策落地对研发资金流向的具体影响，以及中美欧三角关系的微妙变化，这可能导致全球科技合作模式的重构，影响跨国科技企业的战略布局。",
-    "tags": [
-      "News",
-      "Policy",
-      "Geopolitics"
-    ],
-    "link": "https://www.scmp.com/news/china/diplomacy/article/3345311/eu-strips-ai-chips-and-quantum-industrial-plan-aimed-countering-china",
-    "date": "2026-03-15",
-    "id": "17735827236431"
-  },
-  {
-    "title": "AI 编程代理意外引入漏洞依赖致挖矿感染",
-    "summary": "AI 生成代码引入漏洞依赖，导致服务器被挖矿。",
-    "detail": "案例显示 AI 编程工具（Claude Code 等）生成的代码 pinned 了 vulnerable 依赖，导致 CVE 利用和 cryptominer 感染。文章详细描述了攻击链：AI 生成项目->漏洞依赖->中间件绕过->自动扫描->挖矿程序。警示\"vibe coding\"虽提速但增加安全债务，传统开发中的版本审查步骤易被 overlook。开发者需加强自动化审计，匹配 AI 开发速度，避免忽视版本审查，确保生成代码的安全性。建议引入类似 Containarium 的平台作为自动化 brakes，平衡效率与安全。防止类似安全事件在生产环境中重演，重塑 AI 辅助开发的最佳实践，强调在享受 AI 效率红利的同时，必须建立与之匹配的安全护栏，否则技术债务将转化为实际的安全漏洞。",
-    "tags": [
-      "Dev",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47387054",
-    "date": "2026-03-15",
-    "id": "17735827236432"
-  },
-  {
-    "title": "Grantex：专为 AI 代理设计的 OAuth 授权协议",
-    "summary": "提供 AI 代理身份授权基础设施，类似 OAuth。",
-    "detail": "Grantex 旨在成为代理互联网的\"OAuth 时刻\"，提供身份、授权和审计基础设施。README 指出它允许 AI 代理代表人类行动，具备 scoped 权限和不可变审计 trail。解决 Agent 安全交互痛点，开发者可快速集成 SDK。这标志着 AI Agent 生态正在迈向成熟，需要标准化的身份验证层。随着 Agent 自主性增强，如何确保其操作可控、可审计成为关键。Grantex 提供的通用 SDK 和云服务降低了集成门槛，为大规模 Agent 部署提供必要的安全信任层。推动 Agentic Internet 基础设施完善，解决多 Agent 协作中的信任问题，为未来人类与 Agent 共存的网络环境奠定安全基石，具有行业基础设施级的战略意义。",
-    "tags": [
-      "New",
-      "Agent",
-      "Security"
-    ],
-    "link": "https://github.com/mishrasanjeev/grantex",
-    "date": "2026-03-15",
-    "id": "17735827236433"
   }
 ]
