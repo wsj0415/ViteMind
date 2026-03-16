@@ -1,5 +1,83 @@
 [
   {
+    "title": "Zapier 推出 Inline Formulas：在工作流步骤中即时转换数据",
+    "summary": "Zapier 发布新功能，允许用户在自动化步骤中直接使用公式转换数据，提升无代码效率。",
+    "detail": "Zapier 推出了全新的\"Inline Formulas\"功能，旨在增强其自动化平台的数据处理能力。该功能允许用户在 Zap 步骤中直接转换数据，无需跳转到外部工具或编写复杂代码。结合 Zapier 现有的 AI 自动化、Agents 及 MCP Beta 功能，这一更新进一步降低了无代码开发的门槛。对于依赖 Zapier 进行业务流程自动化的企业和开发者而言，这意味着更高效的数据清洗和整合能力，特别是在处理多应用间的数据流转时，能够显著减少中间环节，提升工作流的整体响应速度和准确性。",
+    "tags": [
+      "New",
+      "Automation",
+      "No-Code"
+    ],
+    "link": "https://zapier.com/blog/transform-date-with-inline-formulas",
+    "date": "2026-03-16",
+    "id": "17736669482480"
+  },
+  {
+    "title": "Scryer：基于可视化的 AI Agent 架构建模工具",
+    "summary": "GitHub 开源项目 Scryer 支持拖拽编辑 C4  diagrams，AI 可通过 MCP 读取并实施模型。",
+    "detail": "Scryer 是一个专为 AI Agent 设计的可视化架构建模工具，已在 GitHub 开源。它允许开发者通过拖拽编辑器编辑 C4 架构图，核心亮点在于内置的 MCP（Model Context Protocol）服务器。AI 能够直接读取、修改并实施同一模型，实现了架构设计与代码实现之间的闭环。这对于复杂 AI 系统的开发具有重要意义，解决了传统开发中设计文档与代码实现脱节的问题。通过可视化界面与 AI 执行的结合，Scryer 为团队提供了一种更直观、高效的 Agent 系统构建与维护方式，特别适合需要频繁迭代架构的 AI 工程项目。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Open Source"
+    ],
+    "link": "https://github.com/aklos/scryer",
+    "date": "2026-03-16",
+    "id": "17736669482481"
+  },
+  {
+    "title": "实战经验：将 AI Agent 迁移至无头 Mac Mini 的 72 小时",
+    "summary": "开发者分享将 AI Agent 从笔记本迁移到专用 Mac Mini 的实战经验，解决运行摩擦问题。",
+    "detail": "一位开发者详细记录了将 AI Agent 从个人笔记本电脑迁移到专用无头 Mac Mini 的全过程。主要动机是解决个人设备与 Agent 运行环境冲突的问题，如睡眠模式导致的中断。文章对比了 Raspberry Pi、Mac Studio 等选项，最终选择 Mac Mini 以保留 macOS 生态（AppleScript、权限管理等）。这一案例为本地部署 AI Agent 提供了宝贵的实战参考，强调了专用硬件对于长期稳定运行 Agent 的重要性。对于希望在本地构建持久化 AI 助手的开发者，该经验揭示了硬件选择、环境配置及生态系统兼容性方面的关键考量。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "Deployment"
+    ],
+    "link": "https://thoughts.jock.pl/p/mac-mini-ai-agent-migration-headless-2026",
+    "date": "2026-03-16",
+    "id": "17736669482482"
+  },
+  {
+    "title": "Mnemon-MCP：为 AI Agent 打造的四层本地记忆系统",
+    "summary": "基于 SQLite 和 FTS5 构建的本地记忆工具，解决 AI 重复记忆上下文的问题。",
+    "detail": "Mnemon-MCP 是一个专为 AI Agent 设计的本地记忆管理工具，采用四层架构，基于 SQLite 和 FTS5 技术构建。开发者因厌倦每天向 AI 重复解释项目栈、同事姓名及编码规则而创建此工具。它允许 AI  Agent 在本地持久化存储和检索上下文信息，显著减少了重复沟通成本。该项目通过 MCP 协议集成，使得 Claude Code 等工具能够直接访问结构化记忆。对于需要长期上下文记忆的复杂开发任务，Mnemon-MCP 提供了一种轻量级、高效的解决方案，提升了 AI 协作的连续性和智能化水平。",
+    "tags": [
+      "Dev",
+      "Memory",
+      "MCP"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47398382",
+    "date": "2026-03-16",
+    "id": "17736669482483"
+  },
+  {
+    "title": "Vibecheck：专为 AI 生成代码设计的 Lint 工具",
+    "summary": "GitHub 开源项目 Vibecheck 可检测 JS/TS/Python 代码中的 AI 生成异味，提升代码质量。",
+    "detail": "Vibecheck 是一个新的开源工具，被描述为\"AI 生成代码的 ESLint\"。它专门用于检测 JavaScript、TypeScript 和 Python 代码库中由 AI 生成的代码异味（code smells）。随着 AI 辅助编程的普及，代码库中混入了大量模式化但可能低效或存在隐患的 AI 生成代码。Vibecheck 旨在帮助开发者识别并清理这些\"AI slop\"，确保代码库的可维护性和质量。该工具反映了行业对 AI 生成代码质量控制的日益关注，为团队在享受 AI 编程效率的同时，提供了一道必要的质量防线。",
+    "tags": [
+      "Dev",
+      "Code Quality",
+      "Tools"
+    ],
+    "link": "https://github.com/yuvrajangadsingh/vibecheck",
+    "date": "2026-03-16",
+    "id": "17736669482484"
+  },
+  {
+    "title": "AI 时代的产品交付：四大预测与团队变革",
+    "summary": "行业分析指出 AI 将增加产品交付需求，团队结构及工程师培训方式将发生根本变化。",
+    "detail": "文章提出了 AI 如何改变产品交付的四大预测。核心观点包括：1. 产品创新需求将持续增加（杰文斯悖论），效率提升将转化为更多需求而非成本节省；2. 产品交付团队的形态将发生变化，技能组合和工作方式需调整；3. 新软件工程师的培训模式将重塑。文章强调，虽然生成式 AI 降低了交付成本，但组织不应仅视为削减成本的机会，而应 reinvest 以获取更多回报。这对技术领导者和企业管理者具有战略指导意义，提示需提前规划团队结构转型及人才发展策略，以适应 AI 驱动的开发新常态。",
+    "tags": [
+      "News",
+      "Industry Trends",
+      "Management"
+    ],
+    "link": "https://practical-leaders.com/articles/ai-predictions",
+    "date": "2026-03-16",
+    "id": "17736669482485"
+  },
+  {
     "title": "Meta 股价上涨拟裁员，加码 AI 投入",
     "summary": "Meta 盘前涨 3%，计划大规模裁员以增加 AI 支出。",
     "detail": "Meta 在增加 AI 基础设施投入的同时计划大规模裁员，导致股价盘前上涨 3%。这反映了科技巨头在 AI 军备竞赛中的成本优化策略，即通过削减非核心人力来支撑高昂的算力与研发开支。行业影响深远，预示 AI 投入将成为企业首要战略，同时可能引发更多科技公司的人员结构调整，市场对此反应积极。此举表明 AI 转型期企业将面临资源重组，投资者更看好长期 AI 布局而非短期人力成本节约，为行业树立了资本配置新标杆。未来可能看到更多公司效仿此模式，将资源集中于核心 AI 竞争力，而剥离传统业务部门，重塑科技行业就业结构与估值逻辑。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.charlespetzold.com/blog/2026/02/The-Appalling-Stupidity-of-Spotifys-AI-DJ.html",
     "date": "2026-03-15",
     "id": "17735640152002"
-  },
-  {
-    "title": "开源开发者遭遇 RAG 架构被初创公司剽窃事件",
-    "summary": "Hacker News 热议某创始人将他人开源 RAG 架构冒充为自己 AI 作品的行业伦理问题。",
-    "detail": "一位开发者在 Hacker News 求助，称其耗时两年构建的企业级 RAG 系统（含多 lane 共识架构等）被另一创始人直接列为自家 AI 的“特色作品”以吸引投资。事件引发社区对开源 IP 保护的讨论，包括许可证选择（如 AGPLv3）及开源与闭源商业化的平衡。这反映了 AI 热潮下“套壳”乱象，提醒开发者在构建公共产品时需警惕知识产权风险，并重新审视开源策略。当事人在 confrontation 后对方虽下架了内容，但已造成困扰。此类事件频发可能导致开源贡献者积极性下降，转而转向闭源 B2B 模式。社区建议通过更严格的许可证或法律手段维权，但实际操作难度较大，凸显了当前 AI 生态中原创保护机制的缺失。",
-    "tags": [
-      "News",
-      "Open Source",
-      "Ethics"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47385213",
-    "date": "2026-03-15",
-    "id": "17735640152003"
-  },
-  {
-    "title": "PrivAI 推出本地运行的私有 AI 搜索工具",
-    "summary": "新工具 PrivAI 主打本地运行和隐私保护，提供限时 promo code 解锁无限访问。",
-    "detail": "PrivAI 是一款强调隐私的 AI 搜索工具，支持本地运行以减少数据泄露风险。产品功能涵盖文档上传分析、代码生成及自动化工作流，可生成图表、文档及 PDF。目前官网提供开发者 API 接入，免费 tier 包含 1 个 API Key，并设有促销代码活动，用户输入代码可解锁为期 1 年的无限访问权限。对于关注数据隐私的企业用户和个人开发者，该工具提供了一种替代云端大模型服务的本地化解决方案，符合当前数据主权趋势。其自主工作站功能还能搜索、写代码及运行终端，适合需要处理敏感数据而不愿上传至云端的场景，体现了本地 AI 部署的市场需求增长。同时提供 Plagiarism & AI Detector 功能，增强了内容的可信度检测能力。",
-    "tags": [
-      "New",
-      "Privacy",
-      "Deal"
-    ],
-    "link": "https://chatpdf-server-shtq.onrender.com/",
-    "date": "2026-03-15",
-    "id": "17735640152004"
-  },
-  {
-    "title": "Palantir CEO 谈 AI 武器与美国优势",
-    "summary": "Palantir CEO 在 a16z 峰会讨论 AI 武器化及地缘政治影响。",
-    "detail": "在 a16z 美国活力峰会上，Palantir CEO 深入探讨了 AI 技术在国防领域的应用，特别是 AI 武器系统及其伦理边界。演讲涉及伊朗局势及美国如何利用 AI 保持战略优势，强调了软件定义战争的未来趋势。这反映了 AI 行业正从商业应用向国家安全领域深度渗透，地缘政治博弈中技术主权的重要性日益凸显。对于从业者而言，这意味着未来 AI 开发需更多考虑合规风险与 dual-use 技术限制，伦理与政策监管将成为关键议题，开发者需关注相关法规变化，以及政府合同对技术路线的潜在影响。",
-    "tags": [
-      "News",
-      "AI Policy",
-      "Defense"
-    ],
-    "link": "https://www.youtube.com/watch?v=Wj6ttdIeBnE",
-    "date": "2026-03-15",
-    "id": "17735611777880"
-  },
-  {
-    "title": "Zirco.ai：牙科前台的 AI 员工",
-    "summary": "自动化牙科保险验证与预约，基于 Vapi 与 Playwright。",
-    "detail": "该项目针对牙科诊所前台痛点，利用 Voice AI 处理来电，自动通过 API 或浏览器自动化验证保险福利。技术栈包含 Python、Vapi.ai 及 HIPAA 合规设计，解决了多租户数据安全难题。展示了垂直领域 AI Agent 如何通过多工具调用（RPA+LLM）替代重复性人力工作，为 B 端自动化提供新范式。目前已在 beta 阶段，证明了特定场景下 AI 员工已具备落地盈利能力，为垂直 SaaS 结合 AI 提供了可复制的技术路径与商业模型参考，显著降低了诊所运营成本。",
-    "tags": [
-      "New",
-      "Agent",
-      "Healthcare"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47385090",
-    "date": "2026-03-15",
-    "id": "17735611777881"
-  },
-  {
-    "title": "Centurion：AI 编码代理资源调度器",
-    "summary": "开源项目，类似 K8s 的 AI Agent 编排引擎。",
-    "detail": "Centurion 是一个开源的 AI Agent 编排引擎，旨在以 Kubernetes 风格调度 AI 编码代理。支持 MCP 工具及 A2A 协议，允许开发者批量生成和管理 Agent 军队，实现罗马军事般的精确指挥。该项目解决了多 Agent 协作中的资源分配与命令控制问题，适合需要大规模自动化开发任务的团队。它降低了分布式 AI 系统的管理复杂度，促进 Agent 工程化发展，为构建复杂的多智能体协作系统提供了基础设施层面的解决方案与标准化参考，推动了 Agent 架构的成熟。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Agent"
-    ],
-    "link": "https://github.com/spacelobster88/centurion",
-    "date": "2026-03-15",
-    "id": "17735611777882"
-  },
-  {
-    "title": "谁将保留 AI 红利？",
-    "summary": "分析 AI 带来的生产力增益与经济价值分配问题。",
-    "detail": "文章引用 McKinsey 及 PwC 数据，指出 AI 使工程师和分析师效率倍增，全球潜在价值达数万亿美元。核心探讨在于这些生产力红利是归于企业、员工还是社会，而非单纯的技术实现。随着 AI 渗透各行业，重新定义工作流与价值分配将成为管理层面临的核心挑战。企业需思考如何在裁员与增效之间找到平衡，确保 AI 红利可持续分配，同时关注员工技能转型，避免技术变革带来的社会结构性失业问题加剧，引发对未来劳动关系的深层思考。",
-    "tags": [
-      "News",
-      "Economy",
-      "Productivity"
-    ],
-    "link": "https://rajiv.com/blog/2026/03/14/who-keeps-the-ai-dividend/",
-    "date": "2026-03-15",
-    "id": "17735611777883"
   }
 ]
