@@ -1,5 +1,70 @@
 [
   {
+    "title": "BotStadium：AI 代理实时体育预测竞技平台",
+    "summary": "AI 代理自动注册并交易体育事件合约，基于实时赛事竞争排行榜。",
+    "detail": "BotStadium 是一个让自主 AI 代理在实时体育事件中进行预测和交易的研究平台。代理可通过读取技能文件自动注册、获取 API 密钥并交换 JWT 令牌，完全自动化无需 SDK。获胜合约支付 1.00 BOTC，失败则归零。代理通过积累余额和 ELO 评级在全球排行榜上竞争，支持 ChatGPT、Claude 等主流模型。每 4 小时心跳循环自动检查比赛并下注，为 AI 代理的经济行为研究与自动化交易闭环提供了全新场景，展示了代理在复杂实时环境中的决策能力与自主执行潜力。",
+    "tags": [
+      "New",
+      "AI Agents",
+      "Sports"
+    ],
+    "link": "https://botstadium.ai",
+    "date": "2026-03-16",
+    "id": "17736383681200"
+  },
+  {
+    "title": "ShellScribe：AI 驱动的终端会话日志记录器",
+    "summary": "自动捕获命令与退出码，生成 AI 会话摘要，支持项目自动标记。",
+    "detail": "ShellScribe 是一款针对开发者的 AI 驱动终端会话日志工具，旨在记录整个开发生涯的命令历史。它能自动捕获所有命令、退出码、时间戳及工作目录，并利用 LiteLLM 生成 5 点会话摘要。工具支持自动识别 Git 仓库名称标记会话，提供模糊搜索功能查找历史命令，并可导出 Markdown 工作报告。通过 shell_hook 自动捕获命令，project_detection 自动标记项目，ai_summaries 提供自然语言总结。让终端操作变得可查询、可复盘，是提升个人开发者效率与知识管理的实用工具。",
+    "tags": [
+      "Dev",
+      "Productivity",
+      "CLI"
+    ],
+    "link": "https://luinbytes.github.io/shellscribe/",
+    "date": "2026-03-16",
+    "id": "17736383681201"
+  },
+  {
+    "title": "DeepSteve：面向 AI 编码代理的可黑客多终端工作站",
+    "summary": "基于 Web 的多终端环境，支持代理间聊天与自动切换等待输入标签页。",
+    "detail": "DeepSteve 是一个专为 AI 编码代理设计的 Web 多终端工作站，支持代理间互相聊天协作。它提供自动循环切换功能，自动跳转到等待输入的标签页，优化多任务处理。界面预置了哲学家人格（如 John Locke、Socrates）的代理对话示例，展示了代理如何通过配置会话获得身份。支持 Auto-cycle 自动切换等待输入的标签页，减少人工干预。Agent Chat 功能允许代理之间直接对话，模拟团队协作。该工具旨在优化 AI 代理的开发与调试工作流，为构建复杂的 AI 编程代理系统提供了基础设施支持。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Workflow"
+    ],
+    "link": "https://deepsteve.com",
+    "date": "2026-03-16",
+    "id": "17736383681202"
+  },
+  {
+    "title": "Rust 项目发布 AI 使用政策视角与社区讨论",
+    "summary": "Rust 社区针对 AI 使用政策存在分歧，正在制定社区公认的使用指南。",
+    "detail": "Rust 项目官方发布了一份关于 AI 与开源交集的 mdbook，记录了社区对 AI 使用政策的尖锐分歧。该项目通过开放 HackMD 收集意见，并由 nikomatsakis 撰写总结，旨在引导社区走向一个整体认可的 AI 使用政策。这反映了主流开源项目在应对 AI 生成代码及贡献时的治理挑战，涉及代码所有权、质量保障等核心问题。书中包含键盘快捷键导航与多主题支持，显示了文档的专业性。此举措具有行业风向标意义，可能影响未来开源社区对 AI 贡献的接纳标准与规范，对其他大型项目具有参考价值。",
+    "tags": [
+      "News",
+      "Open Source",
+      "Policy"
+    ],
+    "link": "https://nikomatsakis.github.io/rust-project-perspectives-on-ai/",
+    "date": "2026-03-16",
+    "id": "17736383681203"
+  },
+  {
+    "title": "ProxyBase Relay：让 AI 安全控制浏览器的 CDP 桥接器",
+    "summary": "提供每标签页隔离的 CDP 访问，实时日志监控与一键终止会话功能。",
+    "detail": "ProxyBase Relay 是一款专为 OpenClaw 设计的 CDP 多路复用器，旨在让 AI 安全地控制浏览器。它提供每标签页隔离权限，确保 AI 仅访问活动标签页，保护历史、密码与书签安全。支持实时日志监控、一键终止会话及 MV3 兼容隧道，解决了 AI 代理操作浏览器时的安全风险与上下文丢失问题。支持跨站点工作，即使没有 WebMCP 支持也能处理限制性网络。通过 offscreen data channel 绕过 5 分钟服务 worker 杀死，确保持续连接。这是解决 AI 代理浏览器自动化安全痛点的关键基础设施，平衡了自动化效率与用户隐私安全。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Browser Automation"
+    ],
+    "link": "https://relay.proxybase.xyz",
+    "date": "2026-03-16",
+    "id": "17736383681204"
+  },
+  {
     "title": "AI 代理正在构建“影子开发”体系",
     "summary": "企业面临 AI 代理自主构建软件的新风险，传统影子 IT 演变为影子开发。",
     "detail": "文章指出 AI 编码代理正在将定制软件构建成本降至零。未来将出现大量由非开发人员创建的 bespoke 应用，形成“影子开发”。组织需提前应对，否则将面临清理难题。这标志着民主化开发的新阶段，用户不再适应工具而是生成新工具。",
@@ -1232,70 +1297,5 @@
     "link": "https://lifespan.io/news/ai-tool-sets-new-standard-in-diagnosing-rare-diseases/",
     "date": "2026-03-02",
     "id": "17724940758177"
-  },
-  {
-    "title": "M8tes.ai：AI 队友帮你完成工作",
-    "summary": "M8tes.ai 提供 AI 队友，连接应用，自动化工作流程。",
-    "detail": "M8tes.ai 推出 AI 队友，旨在通过连接用户常用的应用程序（如 Gmail、Slack、Notion 等），自动化执行各种工作流程。用户只需描述需要完成的任务，AI 队友即可按需、定时或通过邮件运行。该平台还提供多种模板，例如准备 sprint 回顾、进行关系健康检查、生成 LinkedIn 外展报告等，帮助用户提高工作效率。M8tes.ai 的核心在于简化工作流程，使用户能够专注于更重要的任务。",
-    "tags": [
-      "New",
-      "自动化",
-      "效率工具"
-    ],
-    "link": "https://www.m8tes.ai/",
-    "date": "2026-03-02",
-    "id": "17724904773600"
-  },
-  {
-    "title": "Parker：AI 职业副驾驶，评估你的职业风险",
-    "summary": "Parker 使用 AI 评估你的职业在 AI 时代的风险等级。",
-    "detail": "Parker 是一个 AI 职业副驾驶，旨在通过分析用户的 LinkedIn 资料，评估其职业在 AI 经济中的风险等级。该工具声称能够以“残酷诚实”和“零过滤”的方式，揭示 AI 对特定职业的潜在威胁。Parker 的分析结果包括对数据分析师、产品经理、前端开发等多个职业的评估，并给出了相应的风险等级和评价。例如，对内容写作者的评价是“ChatGPT 不需要咖啡预算或‘创意过程’”。Parker 由 PERFECTLY 提供支持，旨在帮助用户了解 AI 对其职业生涯的影响。",
-    "tags": [
-      "New",
-      "职业发展",
-      "AI评估"
-    ],
-    "link": "https://candidate.perfectly.so/roast",
-    "date": "2026-03-02",
-    "id": "17724904773601"
-  },
-  {
-    "title": "Lago：构建 AI 助手并非易事",
-    "summary": "Lago 构建了三个 AI 助手，用于自动化计费、财务报告和定价策略。",
-    "detail": "Lago 在 2025 年底推出了首个 AI 功能，将 AI 功能分为三个不同的助手：计费助手、财务助手和定价助手。计费助手可以自动化重复性工作流程，例如为特定地区的客户提供折扣；财务助手是一个 text-to-SQL 代理，可以从 Lago 的数据中生成自定义报告；定价助手则可以为用户提供定价和货币化策略建议。Lago 强调，构建有用的 AI 助手需要深入思考，避免盲目跟风，并充分考虑机会成本、维护成本和 token 成本。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "AI助手"
-    ],
-    "link": "https://getlago.com/blog/building-ai-is-hard",
-    "date": "2026-03-02",
-    "id": "17724904773602"
-  },
-  {
-    "title": "AI 工具人气榜：仅 526 个 AI 工具进入 TopM 网站",
-    "summary": "AI Rankings 统计了访问量最高的 AI 工具，ChatGPT 排名第一。",
-    "detail": "AI Rankings 发布了最受欢迎的 AI 工具排行榜，统计了 TopM 网站中 AI 工具的数量，结果显示只有 526 个 AI 工具上榜。ChatGPT 在榜单中名列第一，其次是 Google Gemini、Anthropic 和 Claude.ai。CapCut、Perplexity AI、DeepL 等工具也榜上有名。该榜单反映了当前 AI 工具的市场格局和用户偏好，为开发者和投资者提供了参考。",
-    "tags": [
-      "News",
-      "AI工具",
-      "排行榜"
-    ],
-    "link": "https://airankings.co/",
-    "date": "2026-03-02",
-    "id": "17724904773603"
-  },
-  {
-    "title": "Synapse：P2P AI 代理协作与异步人工监督",
-    "summary": "Synapse 是一个异步多代理协作协议，支持人工监督。",
-    "detail": "Synapse 是一个基于 Redis pub/sub 的异步多代理协作协议，采用文档合同模型和状态机编排。该协议旨在实现点对点（P2P）的 AI 代理协作，并支持人工监督。Synapse 协议使用 Apache 2.0 许可。",
-    "tags": [
-      "Dev",
-      "AI协作",
-      "协议"
-    ],
-    "link": "https://github.com/francisdu53/synapse-protocol",
-    "date": "2026-03-02",
-    "id": "17724904773604"
   }
 ]
