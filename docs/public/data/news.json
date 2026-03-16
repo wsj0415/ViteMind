@@ -1,5 +1,70 @@
 [
   {
+    "title": "美国启动 ATOM 项目重塑开源 AI 领导力",
+    "summary": "美国推出 ATOM 项目，旨在构建领先的开源模型以应对国际竞争。",
+    "detail": "ATOM 项目（American Truly Open Models）旨在通过在美国本土构建领先的开源模型来重振 AI 研究。面对地缘政治紧张及中国模型日益开放的趋势，美国担心失去开源 AI 领导权。该项目强调完全开放的权重、训练代码及数据，供研究人员自由使用。美国曾凭借 Transformer 等开放研究领先，现在需投资工具以确保研究人员能在美国本土完成工作。开放模型分为仅开放权重和完全开源包含训练数据两类，是 securing leadership 的关键工具。America is poised to lose this leadership to China，必须投资工具。",
+    "tags": [
+      "News",
+      "Open Source",
+      "Geopolitics"
+    ],
+    "link": "https://atomproject.ai/",
+    "date": "2026-03-16",
+    "id": "17736806855020"
+  },
+  {
+    "title": "哈佛商业评论：AI 裁员潮源于潜力而非性能",
+    "summary": "分析指出企业因 AI 潜力裁员，而非实际性能，部分公司已开始后悔。",
+    "detail": "哈佛商业评论文章探讨 AI 是否导致裁员。虽然美国失业率仍低，但科技行业入门级及客服编程岗位受影响。CEO 们如 Ford、Amazon、Salesforce 预言白领工作将消失，Leading CEOs have proclaimed that many white-collar jobs at their companies will soon disappear。但也有怀疑论者认为 AI 只是裁员的借口。文章指出真实情况难辨，部分公司裁员后已开始后悔并重新招聘。这反映了企业在 AI 潜力与实际性能之间的决策矛盾，entry-level workers 面临风险。",
+    "tags": [
+      "News",
+      "Layoffs",
+      "Industry"
+    ],
+    "link": "https://hbr.org/2026/01/companies-are-laying-off-workers-because-of-ais-potential-not-its-performance",
+    "date": "2026-03-16",
+    "id": "17736806855021"
+  },
+  {
+    "title": "GrantAi 推出确定性记忆架构优化 Agent 上下文",
+    "summary": "新工具实现本地加密记忆，召回速度仅需 12ms，兼容主流 AI 工具。",
+    "detail": "GrantAi 发布了世界上首个精确召回 AI 架构，旨在替代传统的 RAG 和向量搜索。该工具支持 100% 本地运行，数据 AES-256 加密，召回速度低至 12ms。它兼容 Claude Code、Cursor 等工具，为 AI Agent 提供统一的记忆脑区，显著减少 Token 消耗并提升上下文准确性。安装简单支持 Windows Mac Linux Docker，无依赖项。Context follows you everywhere. If it is stored, it can be recalled. 免费 tier 可用，确保数据 never leaves your machine。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Memory"
+    ],
+    "link": "https://www.solonai.com/grantai",
+    "date": "2026-03-16",
+    "id": "17736806855022"
+  },
+  {
+    "title": "Puffermind：仅限 AI Agent 交互的社交网络实验",
+    "summary": "全新社交平台允许 AI 代理发帖互动，人类仅可观察时间线。",
+    "detail": "Puffermind 是一个类似 Twitter 的社交网络实验，规则独特：只有 AI 代理可以发帖、点赞和互动，人类用户只能观察时间线。开发者可注册自己的 AI 代理参与社交。该项目旨在探索 AI agent 之间的自主交互模式及社会性行为。人类无法发帖、点赞、关注或回复，仅能观察。If you have an AI agent, you can register it and let it socialize with other agents. 公共时间线开放，为多 Agent 协作研究提供了新的观察窗口和数据源，是一个有趣的实验。",
+    "tags": [
+      "New",
+      "Agent",
+      "Social"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47401453",
+    "date": "2026-03-16",
+    "id": "17736806855023"
+  },
+  {
+    "title": "AI Agent 成功破解 neal.fun 全部 48 层人机验证",
+    "summary": "测试显示 AI 视觉与操作能力已能绕过复杂人机验证，获人类证书。",
+    "detail": "一位开发者测试了其 AI 助手 Tag 在 neal.fun/not-a-robot 游戏上的表现，结果 AI 成功通过全部 48 层验证。测试包括识别停止标志、旋转图像、挑选蔬菜及玩井字棋等关卡。该实验基于 OpenClaw 框架和 Gemini 视觉 API，证明了当前 AI Agent 在视觉理解和交互操作上的显著进步。Took a screenshot, asked Gemini to read it, typed it in. 最终获得证书显示'You Are Human'，展示了 ironic 的结果，引发关于自动化安全验证有效性的思考。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Vision"
+    ],
+    "link": "https://gist.github.com/tag-assistant/77a1196c46f6b23b5fbaca19ff9f772e",
+    "date": "2026-03-16",
+    "id": "17736806855024"
+  },
+  {
     "title": "Nvidia GTC 2026 主题演讲前瞻与观看指南",
     "summary": "黄仁勋将阐述 Nvidia 在 AI 与计算未来的核心愿景。",
     "detail": "GTC 是 Nvidia 年度旗舰活动，通常发布新产品与合作伙伴计划。2026 年 keynote 将聚焦 Nvidia 在未来计算及 AI 领域的核心角色。开发者可通过官方渠道观看，预期将有针对 AI 基础设施的重大更新。黄仁勋的演讲通常指引行业技术风向，本次重点在于计算未来与 AI 愿景的结合，值得开发者与投资者密切关注后续发布的具体硬件与软件生态进展。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/Sukitly/agentic-docs-templates",
     "date": "2026-03-15",
     "id": "17735794119843"
-  },
-  {
-    "title": "案例研究：PIP 方法提升 AI 像素匹配精度",
-    "summary": "通过 PIP 方法将 AI 像素匹配精度从 88.7% 提升至 99.5%，突破优化瓶颈。",
-    "detail": "分享了一个利用 PIP 方法优化 AI 渲染精度的案例。针对 ZenUML SVG 渲染器，AI 最初卡在 93.6% 匹配度。通过特定策略激活 PIP，成功突破局部最优，达到 99.5% 像素匹配。为开发者解决 AI 编码陷入循环优化问题提供了具体可行的技术参考与思路。展示了迭代优化策略在 AI 工程中的实际价值。",
-    "tags": [
-      "Dev",
-      "CaseStudy",
-      "Optimization"
-    ],
-    "link": "https://pip-skill.pages.dev/case-study",
-    "date": "2026-03-15",
-    "id": "17735794119844"
-  },
-  {
-    "title": "Buxo.ai：LLM 驱动的智能日程 scheduling 工具",
-    "summary": "利用大模型理解用户偏好，自动筛选最佳会议时段，替代传统 Calendly。",
-    "detail": "Buxo.ai 是一款新兴的 AI 日程管理工具，旨在解决传统 scheduling 链接缺乏灵活性的问题。核心功能是通过 LLM 理解用户的自然语言指令（如“筹资期间每天只显示 3 个时段”），自动评分并屏蔽不合适的时间槽。支持时区自动调整，无需手动管理多个链接。特别适用于销售、招聘及投资人会议场景，将规则引擎升级为语义理解，显著减少会议协调成本，展示 AI Agent 在个人 productivity 领域的落地应用。",
-    "tags": [
-      "New",
-      "Productivity",
-      "LLM"
-    ],
-    "link": "https://buxo.ai",
-    "date": "2026-03-15",
-    "id": "17735741328400"
-  },
-  {
-    "title": "AI 时代下的“被遗忘权”面临失效风险",
-    "summary": "数字化记忆永久化挑战隐私法核心原则，人类可能成为过去的囚徒。",
-    "detail": "文章探讨了在 AI 与信息革命背景下，现代隐私法中的“被遗忘权”（Right to be Forgotten）正面临 obsolete 的风险。引用赫拉克利特名言指出人类是流动的，但技术默认从“遗忘”转向“记住”，个人数据被永久存储且常脱离语境。这不仅威胁个人自主权与尊严，还可能导致过往错误永久定义个人形象。文章强调需重新审视数据控制权，以防止人类成为数字档案的囚徒，对 AI 数据 retention 政策提出伦理挑战。",
-    "tags": [
-      "News",
-      "Privacy",
-      "Ethics"
-    ],
-    "link": "https://yadin.com/notes/unforgettable/",
-    "date": "2026-03-15",
-    "id": "17735741328401"
-  },
-  {
-    "title": "揭秘 AI 爬虫如何绕过 Google Analytics 追踪",
-    "summary": "GPTBot 等 AI 爬虫不执行 JS，导致传统分析工具无法记录访问数据。",
-    "detail": "开发者通过实验发现，GPTBot 和 ClaudeBot 等 AI 爬虫在抓取网页时仅下载 HTML，不执行 JavaScript，导致依赖 JS beacon 的 Google Analytics 无法记录这些访问。文章分析了客户端、服务器端及网络层三种检测方法的差异，指出传统 Web 分析工具在 AI 时代的盲区。建议开发者采用服务器端日志分析来准确追踪 AI 爬虫行为，这对理解模型训练数据来源及网站流量真实性具有重要技术参考价值，帮助开发者优化 SEO 及安全策略。",
-    "tags": [
-      "Dev",
-      "Analytics",
-      "Crawlers"
-    ],
-    "link": "https://www.adwait.me/writings/tracking-ai-crawlers-server-side",
-    "date": "2026-03-15",
-    "id": "17735741328402"
-  },
-  {
-    "title": "BiamOS: 结合 DOM 自动化与 API 集成的混合 AI 桌面层",
-    "summary": "开源 AI 原生工作区 OS，结合本地 AI 与浏览器上下文，突破 API 限制。",
-    "detail": "BiamOS 是一款新兴的**AI 原生工作区操作系统**，旨在解决 AI Agent 与 Web 交互的痛点。该项目通过结合内置浏览器与本地 AI 模型，实现了对网页上下文的深度读取。其核心技术亮点在于\"Zero-OAuth Ghost-Auth\"机制，能够有效绕过传统 API 访问限制，同时支持生成可视化 UI 仪表盘。基于 Electron 34 和 React 19 构建，它为开发者提供了一种混合自动化方案，融合了 DOM 自动化与 API 集成。这对于希望构建本地化、高权限 AI 助手的开发者而言，具有重要的参考价值和实践意义。这种混合架构减少了对外部 API 的依赖，提升了数据隐私性和操作灵活性，标志着桌面端 AI 自动化向更深层系统集成的发展方向，为下一代 AI 工作流工具提供了新的开源范式，值得开发者关注与研究。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Automation"
-    ],
-    "link": "https://github.com/BiamOS/BiamOS",
-    "date": "2026-03-15",
-    "id": "17735707596160"
   }
 ]
