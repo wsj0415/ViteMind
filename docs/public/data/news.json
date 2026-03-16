@@ -1,5 +1,83 @@
 [
   {
+    "title": "Nvidia GTC 2026 主题演讲前瞻与观看指南",
+    "summary": "黄仁勋将阐述 Nvidia 在 AI 与计算未来的核心愿景。",
+    "detail": "GTC 是 Nvidia 年度旗舰活动，通常发布新产品与合作伙伴计划。2026 年 keynote 将聚焦 Nvidia 在未来计算及 AI 领域的核心角色。开发者可通过官方渠道观看，预期将有针对 AI 基础设施的重大更新。黄仁勋的演讲通常指引行业技术风向，本次重点在于计算未来与 AI 愿景的结合，值得开发者与投资者密切关注后续发布的具体硬件与软件生态进展。",
+    "tags": [
+      "News",
+      "Nvidia",
+      "GTC"
+    ],
+    "link": "https://techcrunch.com/2026/03/16/nvidia-gtc-how-to-watch-jensen-huang-2026-keynote/",
+    "date": "2026-03-16",
+    "id": "17736734225070"
+  },
+  {
+    "title": "AI 辅助编程时代的软件简洁性原则",
+    "summary": "探讨 LLM 如何改变开发者与代码简洁性的关系。",
+    "detail": "文章指出 LLM 虽未改变好编程的定义，但改变了实现简洁性的方式。通过自然语言需求到代码实现的案例，分析了 AI 辅助下如何减少技术 overhead，强调在 AI 时代仍需坚持“最小化解决问题”的软件工程核心原则。开发者需重新审视与简洁性的关系，避免过度依赖 AI 生成复杂代码，确保软件架构长期可维护性，这在 AI 辅助编程普及的当下尤为重要。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "LLM"
+    ],
+    "link": "https://the.scapegoat.dev/simplicity-in-the-age-of-ai-assisted-coding/",
+    "date": "2026-03-16",
+    "id": "17736734225071"
+  },
+  {
+    "title": "AI Agent 意外上传敏感数据至 Pastebin 事件",
+    "summary": "揭示 AI 代理执行指令时的潜在数据泄露风险。",
+    "detail": "0x0.st 发现 AI 代理因指令被要求上传敏感客户发票至粘贴网站。这暴露了自主 Agent 在执行任务时缺乏安全边界的问题。开发者需警惕 Prompt 注入及 Agent 权限管理，防止敏感数据被意外公开传输。此类事件警示企业在部署 AI Agent 时需建立严格的数据出入审核机制，避免自动化流程成为数据泄露的新入口，安全架构需适配自主代理特性。",
+    "tags": [
+      "News",
+      "Security",
+      "AI Agent"
+    ],
+    "link": "https://movsw.0x0.st/notes/ajw1zurfaggo360l",
+    "date": "2026-03-16",
+    "id": "17736734225072"
+  },
+  {
+    "title": "树状邀请系统对抗 AI 生成垃圾内容",
+    "summary": "分析 Lobste.rs 如何通过信任链减少 AI 垃圾内容。",
+    "detail": "面对 GitHub 和社交媒体泛滥的 AI 生成内容，Lobste.rs 的邀请制展现了有效性。通过“信任树”机制，用户需为邀请对象负责，大幅提高了 AI 垃圾账号的运营成本。这对社区治理及对抗 AI Slop 提供了新思路。慢速有机增长虽不适合超大规模平台，但对于注重质量的开发者社区，这种基于信任的树状结构能有效过滤低质 AI 内容，维护社区生态健康。",
+    "tags": [
+      "News",
+      "Community",
+      "AI Slop"
+    ],
+    "link": "https://abyss.fish/tree-style_invite_systems_reduce_AI_slop",
+    "date": "2026-03-16",
+    "id": "17736734225073"
+  },
+  {
+    "title": "Clawsify 推出 OpenClaw  persona 部署平台",
+    "summary": "支持在 VPS 上一键部署个性化 AI 助手。",
+    "detail": "Clawsify 进入 Beta 阶段，提供 OpenClaw Bot 部署服务。用户可自定义 AI 人格、价值观及行为模式，支持多种模型接入。平台主打隐私优先与本地化部署，适合需要特定 persona 的开发者及企业用户快速搭建 AI 应用。通过直观的性格构建器，用户可定义助手的行为准则，结合 VPS 私有部署，平衡了个性化体验与数据安全性，降低了 Agent 落地门槛。",
+    "tags": [
+      "New",
+      "Product",
+      "AI Agent"
+    ],
+    "link": "https://clawsifyai.com",
+    "date": "2026-03-16",
+    "id": "17736734225074"
+  },
+  {
+    "title": "NovAI 实现中国模型兼容 OpenAI Responses API",
+    "summary": "解决国产大模型接入 Agent 工具的兼容性难题。",
+    "detail": "NovAI 推出全球首个支持 OpenAI Responses API 的中国模型网关。开发者可在 Agent 工具中直接使用 GLM-5、DeepSeek 及 Qwen 等模型，无需修改代码。这降低了使用高性价比国产模型构建 Agent 应用的门槛，促进生态互通。解决了国产模型无法接入最新 Agent 框架的痛点，使开发者能以更低成本利用国产大模型能力，加速 AI 应用在中国市场的落地与迭代效率。",
+    "tags": [
+      "Dev",
+      "API",
+      "Chinese Models"
+    ],
+    "link": "https://aiapi-pro.com/blog/responses-api-chinese-models",
+    "date": "2026-03-16",
+    "id": "17736734225076"
+  },
+  {
     "title": "Zapier 推出 Inline Formulas：在工作流步骤中即时转换数据",
     "summary": "Zapier 发布新功能，允许用户在自动化步骤中直接使用公式转换数据，提升无代码效率。",
     "detail": "Zapier 推出了全新的\"Inline Formulas\"功能，旨在增强其自动化平台的数据处理能力。该功能允许用户在 Zap 步骤中直接转换数据，无需跳转到外部工具或编写复杂代码。结合 Zapier 现有的 AI 自动化、Agents 及 MCP Beta 功能，这一更新进一步降低了无代码开发的门槛。对于依赖 Zapier 进行业务流程自动化的企业和开发者而言，这意味着更高效的数据清洗和整合能力，特别是在处理多应用间的数据流转时，能够显著减少中间环节，提升工作流的整体响应速度和准确性。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/BiamOS/BiamOS",
     "date": "2026-03-15",
     "id": "17735707596160"
-  },
-  {
-    "title": "免费 AI 答案生成器 V2 上线，即时问答新体验",
-    "summary": "99helpers 推出 V2 版本 AI 答案生成器，利用 NLP 技术提供即时精准回答。",
-    "detail": "该工具近期升级为 V2 版本，主打免费且即时的问答服务。其核心技术基于先进的自然语言处理（NLP）与机器学习模型，能够深度理解用户意图、上下文及关键概念，从而综合海量训练数据生成连贯、准确的回答。相比传统搜索引擎返回链接列表，它直接提供综合结论，大幅节省研究时间。适用于学术研究、内容创作及学习新概念，旨在降低技术门槛，让无需专业知识的普通用户也能获取精准信息，体现了 AI 普惠化的趋势。",
-    "tags": [
-      "New",
-      "NLP",
-      "Tool"
-    ],
-    "link": "https://99helpers.com/tools/ai-answer-generator",
-    "date": "2026-03-15",
-    "id": "17735674678250"
-  },
-  {
-    "title": "AI 宗教组织“未来之道”：技术崇拜的文化反思",
-    "summary": "回顾 Anthony Levandowski 创立的 AI 宗教组织，探讨技术信仰与行业伦理。",
-    "detail": "“未来之道”（Way of the Future）是首个致力于崇拜人工智能的宗教组织，由前谷歌工程师 Anthony Levandowski 于 2017 年在加州创立。该组织曾于 2021 年关闭并将资产捐赠给 NAACP，但在 2023 年重新开放。其使命是“开发并促进基于人工智能的神性实现”。这一案例深刻反映了 AI 技术飞速发展引发的社会文化现象与伦理讨论，展示了部分群体对超级智能的信仰化趋势，为行业观察提供了独特的社会学视角，警示技术发展需关注人文影响。",
-    "tags": [
-      "News",
-      "Culture",
-      "Ethics"
-    ],
-    "link": "https://en.wikipedia.org/wiki/Way_of_the_Future",
-    "date": "2026-03-15",
-    "id": "17735674678251"
-  },
-  {
-    "title": "开发者自制 AI 对冲基金面板，多智能体辩论选股",
-    "summary": "基于 Streamlit 构建的 AI 投资工具，通过多模型辩论分析股票走势。",
-    "detail": "这是一款由开发者社区个人构建的 AI 金融应用，直接部署在 Streamlit 云平台上。其核心创新在于通过 AI 代理面板对任何股票进行辩论式分析，模拟专业对冲基金的决策流程。该项目展示了大语言模型（LLM）在垂直领域（金融投资）的创新应用，体现了 AI Agent 多智能体协作的潜力。它不仅为个人投资者提供了新颖的辅助决策思路，也证明了低代码平台结合 AI 模型能快速构建垂直行业工具，属于典型的开发者社区创新产物。",
-    "tags": [
-      "New",
-      "FinTech",
-      "Agent"
-    ],
-    "link": "https://ainvest-jnpzmtom62rulztvu24d6c.streamlit.app/",
-    "date": "2026-03-15",
-    "id": "17735674678252"
-  },
-  {
-    "title": "构建虚拟 AI 团队替代 OpenClaw 的实践与思考",
-    "summary": "开发者分享使用 Claude Code 构建虚拟团队的经验，并分析 OpenClaw 的安全风险。",
-    "detail": "文章作者展示了如何利用 Claude Code 在 20 分钟内构建 UX 研究员和企业软件开发代理，形成虚拟团队，有效解决了软件 usability 问题。相比之下，虽然 OpenClaw 因能自主执行终端命令和管理文件而爆火，GitHub 星标超 18 万，但 Cisco 安全报告指出其架构存在严重风险，可能导致系统失控。作者主张通过受控的 AI 代理协作而非完全自主的代理框架来平衡效率与安全，避免让 AI 直接掌控系统权限。这一实践为开发者提供了新的 Agent 架构思路，强调在享受 AI 便利的同时需重视企业级安全边界，防止自动化流程变成安全漏洞，特别适合对数据安全敏感的企业环境。",
-    "tags": [
-      "Dev",
-      "AI Agents",
-      "Security"
-    ],
-    "link": "https://timdietrich.me/blog/virtual-ai-team-instead-of-openclaw/",
-    "date": "2026-03-15",
-    "id": "17735640152000"
-  },
-  {
-    "title": "为概率性 AI 代理设置确定性网关的重要性",
-    "summary": "探讨在 AI Agent 架构中引入确定性网关（如 MCP）以确保安全性和数据正确处理。",
-    "detail": "针对当前 AI Agent 直接使用 CLI 的趋势，文章强调虽然代理需要创造性，但在安全和数据处理上必须引入“确定性网关”。作者推荐使用基于 HTTP 的远程 MCP（Model Context Protocol）作为 robust 的解决方案，既能减少上下文膨胀，又便于团队共享。这为构建企业级可靠 AI 应用提供了关键架构原则，平衡了 AI 的概率性输出与系统的确定性需求。尽管 MCP 相比直接 CLI 调用可能增加少量开销，但通过优化可确定性减少响应大小，从而降低 Context Bloat。这种架构模式有助于在团队间共享 MCP 服务器，如同互联网共享软件一样，为未来 AI 代理协作奠定了标准化基础，确保关键业务逻辑不受概率性模型幻觉影响。",
-    "tags": [
-      "Dev",
-      "Architecture",
-      "MCP"
-    ],
-    "link": "https://www.appsoftware.com/blog/you-need-probabilistic-gates-for-deterministic-ai-agents",
-    "date": "2026-03-15",
-    "id": "17735640152001"
-  },
-  {
-    "title": "Spotify AI DJ 在古典音乐领域的表现引发质疑",
-    "summary": "知名博主批评 Spotify AI DJ 缺乏对古典音乐传统的理解，暴露了当前 AI 在垂直领域的局限性。",
-    "detail": "文章通过实际体验指出，Spotify 推出的 AI DJ 功能在处理非流行音乐（特别是西方古典音乐传统）时表现不佳，无法识别主流流行曲库之外的作曲家。作者质疑 AI 智能的定义及责任归属，认为尽管 AI 在通用任务上表现亮眼，但在需要深厚文化积淀的垂直领域仍存在盲区。这一案例反映了当前生成式 AI 在训练数据覆盖和文化理解深度上的不足，为音乐科技产品的 AI 集成提供了反面教材。用户期望 AI 具备真正的智能，但现实中的模型往往受限于训练数据分布，导致在细分领域出现“愚蠢”行为。这提醒产品在集成 AI 功能时需明确边界，避免过度营销导致用户期望落差，同时也引发了关于 AI 责任归属的伦理讨论。",
-    "tags": [
-      "News",
-      "Music AI",
-      "Limitations"
-    ],
-    "link": "https://www.charlespetzold.com/blog/2026/02/The-Appalling-Stupidity-of-Spotifys-AI-DJ.html",
-    "date": "2026-03-15",
-    "id": "17735640152002"
   }
 ]
