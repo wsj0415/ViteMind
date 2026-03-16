@@ -1,5 +1,83 @@
 [
   {
+    "title": "AI 代理正在构建“影子开发”体系",
+    "summary": "企业面临 AI 代理自主构建软件的新风险，传统影子 IT 演变为影子开发。",
+    "detail": "文章指出 AI 编码代理正在将定制软件构建成本降至零。未来将出现大量由非开发人员创建的 bespoke 应用，形成“影子开发”。组织需提前应对，否则将面临清理难题。这标志着民主化开发的新阶段，用户不再适应工具而是生成新工具。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "AI Agent"
+    ],
+    "link": "https://geoffstearns.com/blog/your-ai-agent-is-building-shadow-it/",
+    "date": "2026-03-16",
+    "id": "17736284126930"
+  },
+  {
+    "title": "AI 工具是否削弱了计算机科学基础的重要性？",
+    "summary": "Hacker News 热议 AI 编码助手让开发者失去学习分布式系统等基础的动力。",
+    "detail": "社区讨论指出，AI 能快速生成解决方案，使学习基础显得不那么紧迫。但资深从业者强调，对于深层系统理解和风险控制，CS 基础依然不可或缺。人类指导仍是确保质量的关键，AI 不能替代对核心路径可靠性的理解。",
+    "tags": [
+      "News",
+      "Education",
+      "Community"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47394291",
+    "date": "2026-03-16",
+    "id": "17736284126931"
+  },
+  {
+    "title": "VibeSDK：5 小时将 Pydantic AI 移植至 TypeScript",
+    "summary": "新型 TypeScript 代理框架，支持类型安全 AI 应用开发，兼容多模型。",
+    "detail": "该项目基于 Vercel AI SDK 构建，提供代理循环、工具调用、依赖注入等功能。旨在以 Pydantic AI 的方式构建生产级 TS 应用。支持 Anthropic、OpenAI 等 50+ 模型，开源且文档完善，适合构建类型安全的 AI 应用。",
+    "tags": [
+      "Dev",
+      "TypeScript",
+      "OpenSource"
+    ],
+    "link": "https://github.com/a7ul/vibes",
+    "date": "2026-03-16",
+    "id": "17736284126932"
+  },
+  {
+    "title": "Quillx：披露软件项目中 AI 参与度的开放标准",
+    "summary": "旨在提高 AI 生成代码透明度的新开源标准，不涉及评判仅强调透明。",
+    "detail": "Quillx 通过作者权语言表达 AI 在软件项目中的参与程度。这不是对 AI 代码的评判，而是为了透明度。有助于解决代码来源模糊问题，建立行业信任标准，让开发者清晰了解哪些部分由 AI 生成。",
+    "tags": [
+      "Dev",
+      "Standard",
+      "Ethics"
+    ],
+    "link": "https://github.com/QAInsights/AIx",
+    "date": "2026-03-16",
+    "id": "17736284126933"
+  },
+  {
+    "title": "Cybeetle：专为开发者设计的 AI 安全扫描层",
+    "summary": "通过自然语言交互分析安全日志与威胁情报，缩短调查时间。",
+    "detail": "提供军事级 AI 接口，加密通信。可连接 SIEM 警报，解释风险并生成事件报告。旨在成为原始安全数据与可操作情报之间的桥梁，提升团队响应质量，将调查时间从小时缩短至分钟。",
+    "tags": [
+      "New",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://cybeetle.com",
+    "date": "2026-03-16",
+    "id": "17736284126934"
+  },
+  {
+    "title": "AI 辅助软件构建中\"Ready\"的真正含义",
+    "summary": "探讨 AI 编码时代发布责任的重要性，人类指导是确保质量的关键。",
+    "detail": "文章强调\"Ready\"是责任呼叫而非打磨里程碑。AI 可加速草稿，但人类需指导最终发布决策以管理风险。建议用 AI 定义就绪标准、挑战假设并验证高影响路径的可靠性，确保用户信任核心路径。",
+    "tags": [
+      "Dev",
+      "Methodology",
+      "BestPractice"
+    ],
+    "link": "https://vibe2value.com/what-ready-actually-means/",
+    "date": "2026-03-16",
+    "id": "17736284126935"
+  },
+  {
     "title": "斯坦福发布 OpenJarvis：端侧个人 AI 框架",
     "summary": "斯坦福推出开源框架，支持设备端运行个人 AI 代理，保障隐私。",
     "detail": "斯坦福 Scaling Intelligence 实验室联合 John Hennessy 等学者发布 OpenJarvis，这是一个完全在设备端运行的开源个人 AI 代理框架。它提供了构建端侧代理的共享原语、效率感知评估及使用本地 trace 数据改进模型的学习循环。该项目旨在解决云端 AI 的隐私与延迟问题，推动个人 AI 向本地化发展。开发者可通过 GitHub 获取代码，参与 ENERGY leaderboard 评测，优化模型在个人设备上的表现。这标志着端侧智能的重要进展，为隐私敏感型应用提供了新的技术路径，降低了对外部 API 的依赖，提升了响应速度与数据安全性，是个人 AI 领域的重要开源贡献。",
@@ -1219,84 +1297,5 @@
     "link": "https://github.com/francisdu53/synapse-protocol",
     "date": "2026-03-02",
     "id": "17724904773604"
-  },
-  {
-    "title": "AI 生成代码与漏洞：验证瓶颈",
-    "summary": "AI 降低了代码生成和漏洞发现的成本，但验证工作面临瓶颈。",
-    "detail": "LLM 降低了代码生成和安全漏洞发现的成本，但并不能自动提高安全性。只有当生态系统能够快速验证、确定优先级、修复、发布和采用变更时，安全性才能得到改善。AI 的采用增加了代码量，但也增加了验证工作。AI 在审计中可以提供有用的线索，但几乎所有输出仍需要专家审查才能确定可达性、上下文和影响。AI 生成的代码通常缺乏对意图的人工解释，并且基于 AI 的审查工具仍然难以推断系统不变性和影响，这是风险最高的差距。",
-    "tags": [
-      "News",
-      "代码安全",
-      "LLM"
-    ],
-    "link": "https://srlabs.de/blog/ai-verification-bottleneck",
-    "date": "2026-03-02",
-    "id": "17724904773605"
-  },
-  {
-    "title": "Agd：用于跟踪 AI 代理行为的内容寻址 DAG",
-    "summary": "Agd 是一个内容寻址对象存储，用于记录和调试多代理 AI 工作流程。",
-    "detail": "Agd (Agent Graph Database) 是一个内容寻址对象存储，用于记录和调试多代理 AI 工作流程。它使用有向无环图（DAG）来跟踪 AI 代理的行为，并提供了一种可调试和可追溯的方式来理解多代理系统的复杂交互。",
-    "tags": [
-      "Dev",
-      "AI代理",
-      "数据库"
-    ],
-    "link": "https://github.com/frontman-ai/agd",
-    "date": "2026-03-02",
-    "id": "17724904773606"
-  },
-  {
-    "title": "告别幻觉？温哥华 AI 公司如何实现准确性",
-    "summary": "温哥华 AI 公司使用 RAG 系统减少 AI 幻觉，提高准确性。",
-    "detail": "温哥华的 AI 公司越来越多地使用检索增强生成（RAG）系统来训练 AI 代理，RAG 系统将数据容器化为小型数据集，从而减少 AI 幻觉。通过仔细选择数据集和客户信息来训练 AI 代理，可以最大限度地减少幻觉风险。在医疗保健领域，AI 公司使用 RAG 来确保 AI 输出尽可能没有幻觉。RAG 设置只包含客户提供的信息，例如医院提供的协议和最佳实践文档。",
-    "tags": [
-      "News",
-      "RAG",
-      "AI准确性"
-    ],
-    "link": "https://www.biv.com/news/technology/end-of-hallucinations-how-vancouver-ai-firms-achieve-accuracy-11700392",
-    "date": "2026-03-02",
-    "id": "17724904773607"
-  },
-  {
-    "title": "AI能否加速临床试验？专家持谨慎态度",
-    "summary": "AI虽能优化药物设计，但临床试验的瓶颈在于法规、患者招募等，AI难以快速解决。",
-    "detail": "尽管AI在药物设计方面具有潜力，但不能保证“治疗的丰富性”。药物开发的历史表明，即使存在针对某种疾病（如骨质疏松症）的强大临床前模型，将药物推向试验所需的高成本也会阻碍投资，特别是对于慢性疾病。临床试验的真正瓶颈在于患者招募、监管审批以及人体对药物的代谢过程，这些环节难以通过AI加速。因此，AI在药物研发中的作用更多在于优化设计，而非彻底改变临床试验的进程。",
-    "tags": [
-      "News",
-      "AI",
-      "医疗"
-    ],
-    "link": "https://press.asimov.com/articles/ai-clinical-trials",
-    "date": "2026-03-02",
-    "id": "17724873410350"
-  },
-  {
-    "title": "Audiomus：AI驱动的游戏音效生成器",
-    "summary": "Audiomus利用AI技术，通过文本提示快速生成游戏开发者所需的音效文件。",
-    "detail": "Audiomus 是一款专为游戏开发者设计的 AI 音效生成器。它允许用户通过简单的文本提示，例如“重型机械脚步声，液压嘶嘶声，混凝土撞击”，快速生成高质量的 WAV 音效文件。生成的音效文件可以直接拖入 Unity 等游戏引擎中使用，无需进行格式转换。该工具旨在解决游戏开发者在寻找合适音效时遇到的问题，例如在 Freesound 上花费大量时间、受限于素材库的授权许可，以及缺乏聘请专业音效设计师的预算等。",
-    "tags": [
-      "New",
-      "Dev",
-      "AI",
-      "游戏开发"
-    ],
-    "link": "https://www.audiomus.com/",
-    "date": "2026-03-02",
-    "id": "17724873410351"
-  },
-  {
-    "title": "IndieMe：AI驱动的音乐人身份构建与发行策略工具",
-    "summary": "IndieMe 是一款利用AI帮助独立音乐人构建独特身份和制定营销策略的平台。",
-    "detail": "IndieMe 平台为独立音乐人提供了一套工具，旨在帮助他们定义自己的艺术家身份，并制定有效的营销策略。该平台包括 IndieMe AI，一个可以理解音乐营销的 AI 助手，用于集思广益和优化信息传递；IndieMe Profile，用于捕捉音乐人的声音、价值观和愿景；以及 IndieMe Strategy Kit，用于生成定制的发行计划。IndieMe 旨在帮助音乐人摆脱盲目跟风，打造真正属于自己的音乐品牌。",
-    "tags": [
-      "New",
-      "AI",
-      "音乐"
-    ],
-    "link": "https://indie-me.ai/",
-    "date": "2026-03-02",
-    "id": "17724873410352"
   }
 ]
