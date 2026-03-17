@@ -3,282 +3,176 @@
 </script>
 
 <template>
-  <div class="home-hero">
-    <video
-      class="hero-video"
-      src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260228_065522_522e2295-ba22-457e-8fdb-fbcd68109c73.mp4"
-      autoplay
-      loop
-      muted
-      playsinline
-    ></video>
-
-    <div class="hero-overlay"></div>
-
-    <nav class="floating-nav">
-      <div class="nav-left">
-        <span class="agency-logo">Logoisum</span>
-      </div>
-      <div class="nav-center">
-        <a href="#about">About</a>
-        <a href="#works">Works</a>
-        <a href="#services">Services</a>
-        <a href="#testimonial">Testimonial</a>
-      </div>
-      <div class="nav-right">
-        <button class="primary-cta">
-          Book A Free Meeting
-          <span class="cta-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="7" y1="17" x2="17" y2="7"></line>
-              <polyline points="7 7 17 7 17 17"></polyline>
-            </svg>
-          </span>
-        </button>
-      </div>
-    </nav>
-
-    <div class="hero-content">
-      <h1 class="primary-headline">
-        <span class="headline-line1">Agency that makes your</span><br>
-        <span class="headline-line2">videos & reels viral</span>
-      </h1>
-      <p class="hero-subtext">
-        Short-form video editing for Influencers, Creators and Brands
-      </p>
-      <button class="secondary-cta">
-        <span class="play-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-            <polygon points="5 3 19 12 5 21 5 3"></polygon>
+  <div class="home-banner">
+    <div class="banner-container">
+      <div class="banner-content">
+        <div class="brand-row">
+          <svg class="brand-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z"/>
+            <path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z"/>
           </svg>
-        </span>
-        See Our Workreel
-      </button>
+          <span class="brand-text">ViteMind</span>
+        </div>
+        
+        <h1 class="banner-title">
+          UNCOVER THE<br>
+          FUTURE OF AI.
+        </h1>
+        
+        <p class="banner-subtitle">
+          Curated Intelligence & News.
+        </p>
+      </div>
+
+      <div class="banner-visual">
+        <!-- Decorative Network Pattern (Simulated with SVG) -->
+        <svg class="network-pattern" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+          <circle cx="50" cy="50" r="2" fill="#cbd5e1"/>
+          <circle cx="150" cy="80" r="2" fill="#cbd5e1"/>
+          <circle cx="250" cy="40" r="2" fill="#cbd5e1"/>
+          <circle cx="350" cy="90" r="2" fill="#cbd5e1"/>
+          <circle cx="80" cy="150" r="2" fill="#cbd5e1"/>
+          <circle cx="200" cy="180" r="2" fill="#cbd5e1"/>
+          <circle cx="320" cy="140" r="2" fill="#cbd5e1"/>
+          <line x1="50" y1="50" x2="150" y2="80" stroke="#e2e8f0" stroke-width="1"/>
+          <line x1="150" y1="80" x2="250" y2="40" stroke="#e2e8f0" stroke-width="1"/>
+          <line x1="250" y1="40" x2="350" y2="90" stroke="#e2e8f0" stroke-width="1"/>
+          <line x1="50" y1="50" x2="80" y2="150" stroke="#e2e8f0" stroke-width="1"/>
+          <line x1="150" y1="80" x2="200" y2="180" stroke="#e2e8f0" stroke-width="1"/>
+          <line x1="80" y1="150" x2="200" y2="180" stroke="#e2e8f0" stroke-width="1"/>
+          <line x1="200" y1="180" x2="320" y2="140" stroke="#e2e8f0" stroke-width="1"/>
+          <line x1="250" y1="40" x2="320" y2="140" stroke="#e2e8f0" stroke-width="1"/>
+        </svg>
+        
+        <svg class="hero-brain-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z"/>
+          <path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z"/>
+        </svg>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Instrument+Serif:ital@0;1&display=swap');
-
-.home-hero {
-  position: relative;
-  width: 100vw;
-  min-height: 90vh;
-  margin-left: calc(-50vw + 50%);
-  margin-right: calc(-50vw + 50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.home-banner {
+  width: 100%;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border-bottom: 1px solid var(--vp-c-divider);
+  padding: 60px 0;
   overflow: hidden;
-  background-color: #000;
+  position: relative;
 }
 
-.hero-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 0;
-}
-
-.hero-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.2); /* Slight darkening if needed, but requested no color overlays. I will leave it transparent or very subtle for text readability just in case. The prompt said "without any color overlays". I will remove it. */
-  z-index: 1;
-}
-
-/* Let's remove the overlay as per "without any color overlays" */
-.hero-overlay {
-  display: none;
-}
-
-.floating-nav {
-  position: absolute;
-  top: 32px;
-  width: calc(100% - 64px);
-  max-width: 1200px;
-  background-color: #ffffff;
-  border-radius: 16px;
-  padding: 12px 24px;
+.banner-container {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  z-index: 10;
-}
-
-.nav-left .agency-logo {
-  font-family: 'Barlow', sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  color: #222;
-}
-
-.nav-center {
-  display: flex;
-  gap: 32px;
-}
-
-.nav-center a {
-  font-family: 'Barlow', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  color: #444;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.nav-center a:hover {
-  color: #000;
-}
-
-.primary-cta {
-  background-color: #222;
-  color: #fff;
-  font-family: 'Barlow', sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  border: none;
-  border-radius: 30px;
-  padding: 8px 12px 8px 20px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.primary-cta:hover {
-  background-color: #000;
-}
-
-.cta-icon {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  width: 28px;
-  height: 28px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.cta-icon svg {
-  width: 14px;
-  height: 14px;
-  color: #fff;
-}
-
-.hero-content {
   position: relative;
-  z-index: 10;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  z-index: 1;
+}
+
+.banner-content {
   flex: 1;
-  text-align: center;
-  padding: 0 24px;
-  margin-top: 80px; /* Space for the floating nav */
-}
-
-.primary-headline {
-  margin: 0;
-  color: #fff;
-}
-
-.headline-line1 {
-  font-family: 'Barlow', sans-serif;
-  font-weight: 600; /* bold/medium */
-  font-size: 48px;
-  letter-spacing: -4px;
-  line-height: 1.1;
-  display: block;
-}
-
-.headline-line2 {
-  font-family: 'Instrument Serif', serif;
-  font-style: italic;
-  font-size: 84px;
-  font-weight: 400;
-  line-height: 1.1;
-  display: block;
-  margin-top: 4px;
-}
-
-.hero-subtext {
-  font-family: 'Barlow', sans-serif;
-  font-weight: 500; /* Medium */
-  font-size: 18px;
-  color: #fff;
-  margin: 24px 0 40px;
   max-width: 600px;
-  opacity: 0.9;
 }
 
-.secondary-cta {
-  background-color: #fff;
-  color: #222;
-  font-family: 'Barlow', sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  border: none;
-  border-radius: 40px;
-  padding: 16px 32px;
+.brand-row {
   display: flex;
   align-items: center;
   gap: 12px;
-  cursor: pointer;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 24px;
 }
 
-.secondary-cta:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+.brand-icon {
+  width: 32px;
+  height: 32px;
+  color: var(--vp-c-text-1);
 }
 
-.play-icon {
+.brand-text {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+  letter-spacing: -0.02em;
+}
+
+.banner-title {
+  font-family: "Inter", sans-serif;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--vp-c-text-1);
+  margin: 0 0 16px 0;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.banner-subtitle {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  color: var(--vp-c-text-2);
+  font-weight: 400;
+  margin: 0;
+}
+
+.banner-visual {
+  position: relative;
+  width: 400px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.play-icon svg {
-  width: 16px;
-  height: 16px;
+.network-pattern {
+  position: absolute;
+  top: 0;
+  right: -50px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  transform: scale(1.5);
 }
 
-/* Responsive Adjustments */
+.hero-brain-icon {
+  width: 120px;
+  height: 120px;
+  color: var(--vp-c-text-1);
+  opacity: 0.1;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Dark mode adjustments */
+:root.dark .home-banner {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+}
+
 @media (max-width: 768px) {
-  .floating-nav {
+  .banner-container {
     flex-direction: column;
-    gap: 16px;
-    padding: 16px;
-    border-radius: 24px;
+    text-align: center;
   }
   
-  .nav-center {
-    display: none; /* Hide standard menu on mobile, or implement a hamburger */
+  .brand-row {
+    justify-content: center;
   }
   
-  .headline-line1 {
-    font-size: 32px;
-    letter-spacing: -2px;
+  .banner-title {
+    font-size: 40px;
   }
   
-  .headline-line2 {
-    font-size: 56px;
+  .banner-subtitle {
+    font-size: 18px;
   }
   
-  .hero-subtext {
-    font-size: 16px;
+  .banner-visual {
+    display: none;
   }
 }
 </style>
