@@ -19,6 +19,7 @@ const loading = ref(true)
 const searchQuery = ref('')
 const selectedTag = ref('ALL')
 const viewMode = ref('grid') // 'grid' | 'timeline' | 'favorites'
+const isTagsExpanded = ref(false) // Toggle for tags
 
 onMounted(async () => {
   try {
@@ -44,6 +45,23 @@ const allTags = computed(() => {
     }
   })
   return Array.from(tags)
+})
+
+// Computed: Tags to display (collapse logic)
+const visibleTags = computed(() => {
+  const tagsList = allTags.value
+  if (isTagsExpanded.value || tagsList.length <= 10) {
+    return tagsList
+  }
+
+  const initialTags = tagsList.slice(0, 10)
+
+  // Ensure the selected tag is always visible
+  if (selectedTag.value !== 'ALL' && !initialTags.includes(selectedTag.value)) {
+    return [...initialTags, selectedTag.value]
+  }
+
+  return initialTags
 })
 
 // Computed: Filter news based on search and tag
@@ -202,9 +220,12 @@ const handleTouchEnd = (e) => {
 
       <div class="filter-row">
         <div class="filter-tags">
-          <button v-for="tag in allTags" :key="tag" class="filter-tag" :class="{ active: selectedTag === tag }"
+          <button v-for="tag in visibleTags" :key="tag" class="filter-tag" :class="{ active: selectedTag === tag }"
             @click="selectedTag = tag">
             {{ tag }}
+          </button>
+          <button v-if="allTags.length > 10" class="filter-tag toggle-more" @click="isTagsExpanded = !isTagsExpanded">
+            {{ isTagsExpanded ? '收起' : '展开更多' }}
           </button>
         </div>
 
@@ -456,6 +477,17 @@ const handleTouchEnd = (e) => {
 
 .filter-tag.active:hover {
   text-decoration: none;
+}
+
+.filter-tag.toggle-more {
+  border-style: dashed;
+  color: var(--vp-c-brand);
+  font-weight: 600;
+}
+
+.filter-tag.toggle-more:hover {
+  text-decoration: underline;
+  background: var(--vp-c-bg-soft);
 }
 
 /* --- View Toggle --- */
