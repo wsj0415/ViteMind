@@ -1,5 +1,7 @@
 <script setup>
-// HomeBanner.vue
+import { useData, withBase } from 'vitepress'
+
+const { theme } = useData()
 </script>
 
 <template>
@@ -17,13 +19,10 @@
 
     <nav class="floating-nav">
       <div class="nav-left">
-        <span class="agency-logo">Logoisum</span>
+        <span class="agency-logo">ViteMind</span>
       </div>
       <div class="nav-center">
-        <a href="#about">About</a>
-        <a href="#works">Works</a>
-        <a href="#services">Services</a>
-        <a href="#testimonial">Testimonial</a>
+        <a v-for="item in theme.nav" :key="item.link" :href="withBase(item.link)">{{ item.text }}</a>
       </div>
       <div class="nav-right">
         <button class="primary-cta">
@@ -123,12 +122,14 @@
 
 .nav-center {
   display: flex;
-  gap: 32px;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .nav-center a {
   font-family: 'Barlow', sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   color: #444;
   text-decoration: none;
