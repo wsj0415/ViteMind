@@ -1,5 +1,57 @@
 [
   {
+    "title": "TransDuck：无需密钥的开源 AI 翻译框架",
+    "summary": "开源 AI 翻译框架，支持缓存与上下文，无需管理密钥。",
+    "detail": "TransDuck 是一个开源翻译框架，利用 AI 实时翻译应用字符串并本地缓存，避免重复付费。支持 Python 和 JavaScript，无需管理 API 密钥。通过上下文理解歧义（如\"Book\"），支持变量插值与复数形式生成。旨在简化开发者国际化流程，实现“包裹字符串即可使用”的便捷体验，适合需要快速集成多语言支持的 AI 原生应用。该工具解决了传统翻译文件同步头痛问题，首次调用 AI 后后续调用 instant 从缓存读取，显著降低成本并提高速度。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Translation"
+    ],
+    "link": "https://github.com/timnilson/transduck/",
+    "date": "2026-03-17",
+    "id": "17737378495770"
+  },
+  {
+    "title": "开发者 solo 构建 4 万行 AI 原生全栈平台",
+    "summary": "开发者利用 AI 代理 solo 构建 4 万行全栈平台，效率显著提升。",
+    "detail": "开发者 Austin French 展示 AI 原生开发威力，solo 构建 4 万行全栈平台。包含 8 个 GPU 驱动 AI 工具、预订与发票系统。AI 工作流确立后，commit 数激增，3 个月内完成大部分代码。功能如发票系统 37 秒合并，预订系统 5 分钟合并。证明 2026 年 AI 辅助编程可极大加速独立开发，代码库非线性增长，审计与修复亦可通过 AI 会话完成。",
+    "tags": [
+      "Dev",
+      "Productivity",
+      "Rails"
+    ],
+    "link": "https://austn.net/blog/building-an-ai-native-web-platform",
+    "date": "2026-03-17",
+    "id": "17737378495772"
+  },
+  {
+    "title": "中美 AI 战略差异：中国侧重效率与物理整合",
+    "summary": "中美 AI 战略差异，中国侧重效率与物理整合而非单纯 AGI。",
+    "detail": "布鲁金斯学会分析中美 AI 战略差异。美国专注 AGI 竞赛，巨头投入数千亿建数据中心。中国则侧重效率、adoption 与物理整合，受行业约束与政策驱动。虽也构建基础模型，但较少讨论抽象 AGI 转折点。中国开发者在算力受限下追求高效能，代表另一种 AI 未来赌注。美国四大 hyperscalers 今年 AI 支出达 6500 亿美元，而中国路径更注重实际落地与基础设施整合。",
+    "tags": [
+      "News",
+      "Geopolitics",
+      "Strategy"
+    ],
+    "link": "https://www.brookings.edu/articles/china-is-running-multiple-ai-races/",
+    "date": "2026-03-17",
+    "id": "17737378495773"
+  },
+  {
+    "title": "Clawforge：OpenClaw 与 NVIDIA 结合的 SaaS 套件",
+    "summary": "OpenClaw 与 NVIDIA 结合的 SaaS starter 套件，支持本地工作流。",
+    "detail": "Clawforge 是 OpenClaw 与 NVIDIA 结合的 SaaS starter 套件。支持在 Docker 中运行 OpenClaw，使用 NVIDIA 托管 API 模型而非本地 GPU 推理。包含审计优先 wiring、架构与企业级交付技能。默认集成 Nemotron-3 等大模型，提供审计、规划与修复的 starter prompts。适合希望在 NVIDIA 生态上构建本地 AI SaaS 工作流的开发者，简化部署与模型调用流程。",
+    "tags": [
+      "Dev",
+      "SaaS",
+      "NVIDIA"
+    ],
+    "link": "https://github.com/autopilotaitech/clawforge-saas-starter",
+    "date": "2026-03-17",
+    "id": "17737378495774"
+  },
+  {
     "title": "NO BOX RESEARCH 推出免费 AI 工具套件",
     "summary": "14 岁创始人打造免费 AI 工具，包含 JARVIS 等 8+ 工具。",
     "detail": "由 14 岁印度学生 Raajvir Rinku 创立，提供 EPIC、JARVIS 等 8 款免费 AI 工具。面向学生和创作者，主打可视化站点构建和隐私搜索。声称永久免费，已获千名创始人信任，展现青少年在 AI 开发领域的创新潜力。",
@@ -232,6 +284,45 @@
     "link": "https://www.cnbc.com/2026/03/16/bill-gurley-ai-bubble-get-rich-quick.html",
     "date": "2026-03-17",
     "id": "17737135985686"
+  },
+  {
+    "title": "生成式 AI 进入代理阶段：治理与问责新挑战",
+    "summary": "生成式 AI 进入代理阶段，治理与问责制面临新挑战。",
+    "detail": "生成式 AI 正从“婴儿期”迈向“代理期”，自主 agent 在复杂工作流中运行，减少人类介入。MIT 科技评论指出，这带来了新的治理与问责挑战。传统治理关注模型输出风险，而自主 agent 要求机器 pace 运营业务。安全策略需从儿童防护转向更复杂的系统监管，确保在自动化决策中保持 accountability，防止数据泄露与模型漂移，行业需准备相应的操作治理原则。",
+    "tags": [
+      "News",
+      "Agents",
+      "Governance"
+    ],
+    "link": "https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/",
+    "date": "2026-03-16",
+    "id": "17737378495771"
+  },
+  {
+    "title": "Mistral AI 加入 NVIDIA 联盟并发布 Small 4",
+    "summary": "Mistral 加入 NVIDIA Nemotron 联盟，发布 Mistral Small 4。",
+    "detail": "Mistral AI 宣布加入 NVIDIA Nemotron Coalition，成为创始成员。双方将合作开发开源 frontier 模型，结合 Mistral 架构与 NVIDIA 算力及合成数据管线。同时发布 Mistral Small 4 赋能开发者。此举旨在推动开放协作 AI 未来，利用 NVIDIA 工具扩展训练与优化。合作基于此前 Mistral Nemo 模型的科学协作，强调开放模型是民主化 AI 的基石，降低创新壁垒。",
+    "tags": [
+      "News",
+      "Partnership",
+      "LLM"
+    ],
+    "link": "https://mistral.ai/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models",
+    "date": "2026-03-16",
+    "id": "17737378495776"
+  },
+  {
+    "title": "大英百科全书起诉 OpenAI 涉及训练数据版权",
+    "summary": "大英百科全书起诉 OpenAI，涉及 AI 训练数据版权争议。",
+    "detail": "大英百科全书起诉 OpenAI，指控其 AI 训练侵犯版权。路透社报道指出，这是继多家媒体后又一重大法律行动。案件焦点在于 AI 模型训练数据的使用合法性，可能影响未来基础模型开发成本与数据获取方式。若判决不利，AI 公司需重新评估数据策略。此诉讼反映了内容创作者与 AI 公司间日益紧张的利益分配关系，行业关注其法律先例意义。",
+    "tags": [
+      "News",
+      "Legal",
+      "Copyright"
+    ],
+    "link": "https://www.reuters.com/legal/litigation/encyclopedia-britannica-sues-openai-over-ai-training-2026-03-16/",
+    "date": "2026-03-16",
+    "id": "17737378495777"
   },
   {
     "title": "AI 巨头 CEO 言论引发公众恐慌",
@@ -1183,6 +1274,19 @@
     "id": "17736284126935"
   },
   {
+    "title": "澳企业家利用 AI 为爱犬开发定制 mRNA 疫苗",
+    "summary": "澳企业家利用 AI 为爱犬开发定制 mRNA 癌症疫苗。",
+    "detail": "澳大利亚科技企业家利用 AI 为临终爱犬开发定制 mRNA 癌症疫苗。与新南威尔士大学合作，展示 AI 在生物医疗领域的个性化应用潜力。此案例凸显 AI 不仅限于软件，还能加速药物研发流程，为宠物甚至人类医疗提供新方案。尽管是个案，但证明了 AI 驱动的生物技术在紧急医疗需求下的快速响应能力，引发对 AI+Bio 伦理与可行性的讨论。",
+    "tags": [
+      "News",
+      "BioAI",
+      "Healthcare"
+    ],
+    "link": "https://fortune.com/2026/03/15/australian-tech-entrepreneur-ai-cancer-vaccine-dog-rosie-unsw-mrna/",
+    "date": "2026-03-15",
+    "id": "17737378495775"
+  },
+  {
     "title": "科技企业家利用 AI 为爱犬定制癌症疫苗",
     "summary": "澳大利亚企业家借助 AI 技术成功研发定制癌症疫苗，用于治疗其患病宠物狗。",
     "detail": "一位澳大利亚科技企业家与 UNSW 合作，利用 AI 技术分析肿瘤数据，为其患癌宠物狗 Rosie 定制了癌症疫苗。该案例展示了 AI 在个性化医疗和兽医领域的潜力。虽然是个案，但证明了 AI 加速疫苗研发的可行性。这对生物 tech 行业具有启发意义，预示着 AI 驱动的个人化治疗方案可能在未来更加普及，不仅限于人类医疗，展现了 AI 跨学科应用的广阔前景，为精准医疗提供新案例。",
@@ -1194,109 +1298,5 @@
     "link": "https://fortune.com/2026/03/15/australian-tech-entrepreneur-ai-cancer-vaccine-dog-rosie-unsw-mr",
     "date": "2026-03-15",
     "id": "17737232819004"
-  },
-  {
-    "title": "斯坦福发布 OpenJarvis：端侧个人 AI 框架",
-    "summary": "斯坦福推出开源框架，支持设备端运行个人 AI 代理，保障隐私。",
-    "detail": "斯坦福 Scaling Intelligence 实验室联合 John Hennessy 等学者发布 OpenJarvis，这是一个完全在设备端运行的开源个人 AI 代理框架。它提供了构建端侧代理的共享原语、效率感知评估及使用本地 trace 数据改进模型的学习循环。该项目旨在解决云端 AI 的隐私与延迟问题，推动个人 AI 向本地化发展。开发者可通过 GitHub 获取代码，参与 ENERGY leaderboard 评测，优化模型在个人设备上的表现。这标志着端侧智能的重要进展，为隐私敏感型应用提供了新的技术路径，降低了对外部 API 的依赖，提升了响应速度与数据安全性，是个人 AI 领域的重要开源贡献。",
-    "tags": [
-      "News",
-      "LLM",
-      "Privacy"
-    ],
-    "link": "https://scalingintelligence.stanford.edu/blogs/openjarvis/",
-    "date": "2026-03-15",
-    "id": "17736175612180"
-  },
-  {
-    "title": "GitHub 开源 AI 代理红队测试演练场",
-    "summary": "开源环境支持通过对抗性游戏压力测试 AI 代理防御，提升安全性。",
-    "detail": "开发者在 GitHub 发布了 fabraix/playground 项目，这是一个用于压力测试 AI 代理防御的实时环境。通过对抗性游戏（adversarial play），用户可以利用已发布的漏洞 exploits 对 AI 代理进行红队测试。该工具旨在帮助开发者识别代理系统中的安全弱点，增强 AI 在面对恶意输入时的鲁棒性。项目支持实时环境交互，适合 AI 安全研究人员及开发者使用，为 AI 代理的安全部署提供了重要的测试基础设施。随着 AI 代理广泛应用，此类红队工具能有效降低潜在风险，确保系统在面对复杂攻击时的稳定性，是 AI 安全生态不可或缺的一环。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://github.com/fabraix/playground",
-    "date": "2026-03-15",
-    "id": "17736175612181"
-  },
-  {
-    "title": "AI 时代下的史蒂夫·乔布斯 10-80-10 法则",
-    "summary": "文章探讨乔布斯管理法则在 AI 时代的适用性，强调人类核心价值。",
-    "detail": "Inc. 杂志文章深入分析了史蒂夫·乔布斯的 10-80-10 法则在人工智能时代的新意义。该法则强调在关键决策中人类直觉与努力的重要性。文章指出，尽管 AI 能处理大量中间工作（80%），但最初的愿景（10%）和最终的打磨（10%）仍需人类主导。这对企业管理者如何在 AI 辅助下保持核心竞争力提供了战略视角，强调在自动化浪潮中，人类创造力与判断力依然是不可替代的关键资产。指导领导者合理分配人机协作比例，避免过度依赖 AI 导致创新乏力，确保企业在技术变革中保持独特的品牌灵魂与决策质量。",
-    "tags": [
-      "News",
-      "Management",
-      "Strategy"
-    ],
-    "link": "https://www.inc.com/jessica-stillman/steve-jobs-10-80-10-rule-is-even-more-useful-in-the-ai-era/91313015",
-    "date": "2026-03-15",
-    "id": "17736175612182"
-  },
-  {
-    "title": "ThoughtRAIL：本地化多 AI 思维空间工具",
-    "summary": "支持自带 API 密钥的多 AI 协作平台，数据本地加密存储，注重隐私。",
-    "detail": "ThoughtRAIL 推出了一款多 AI 思维空间工具，允许用户带入自己的 API 密钥进行协作。其核心特点是所有聊天记录和密钥均本地加密存储，不上传服务器，响应直接由 AI 提供商生成。这种架构确保了用户数据的隐私安全，适合需要同时调用多个模型且对数据敏感性有较高要求的专业用户及开发者使用。平台明确声明不存储密钥于服务器，清除本地数据即永久删除，为用户提供了透明且可控的 AI 交互环境。契合隐私优先趋势，解决了用户对云端存储数据的顾虑，促进了多模型工作流的本地化整合与安全使用。",
-    "tags": [
-      "New",
-      "Privacy",
-      "Tool"
-    ],
-    "link": "https://thoughtrail.ai",
-    "date": "2026-03-15",
-    "id": "17736175612183"
-  },
-  {
-    "title": "克利夫兰新闻室引入 AI 重写专员引发行业争议",
-    "summary": "报社设立 AI 重写岗位，记者负责采集，AI 负责写作，引发伦理讨论。",
-    "detail": "克利夫兰.com 编辑克里斯·奎恩设立\"AI 重写专家\"岗位，旨在让记者专注于信息采集，利用内部 ChatGPT 版本撰写文章。此举虽提高效率，但引发 HuffPost 编辑及美国新闻研究所质疑，认为不应将写作从记者工作中剥离。该案例凸显了 AI 在传统新闻业中的角色边界与伦理争议，为媒体转型提供参考。奎恩致信读者称 AI 是未来，但批评者指出这可能导致新闻质量下降。这一实验性举措将成为观察 AI 如何重塑内容生产流程的重要案例，行业需平衡效率与新闻真实性。",
-    "tags": [
-      "News",
-      "Journalism",
-      "Ethics"
-    ],
-    "link": "https://www.cjr.org/news/cleveland-newsroom-ai-rewrite-desk-chris-quinn-plain-dealer.php",
-    "date": "2026-03-15",
-    "id": "17736140211190"
-  },
-  {
-    "title": "Scitex-notification：赋予 AI 代理语音通知能力",
-    "summary": "开源多后端通知系统，支持 TTS、电话和短信，解放开发者等待时间。",
-    "detail": "针对 AI 编码代理任务等待耗时问题，Scitex 推出多后端通知系统。通过单一 MCP 服务器，支持 TTS 语音、电话及短信通知，允许开发者离开终端甚至休息。该项目已上架 PyPI，采用 AGPL-3.0 协议，旨在减少认知资源浪费，提升 AI 代理工作流的交互体验与效率。开发者可轻松集成至现有工作流，解决长时间盯着终端的物理与认知负担，标志着 AI 代理交互从视觉向多模态感知的演进，适合构建异步 AI 任务的团队。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "OpenSource"
-    ],
-    "link": "https://github.com/ywatanabe1989/scitex-notification",
-    "date": "2026-03-15",
-    "id": "17736140211191"
-  },
-  {
-    "title": "Wave：面向多代理管道的 AI-as-Code 框架",
-    "summary": "支持管道配置、CI/CD 集成及状态恢复的多代理开发框架。",
-    "detail": "Wave 提出 AI-as-Code 概念，专为多代理管道设计。提供管道配置、沙箱设置、CI/CD 及 GitHub 集成指南。核心概念包括人物角色、合约及工件管理，支持状态恢复与上下文中继。该框架旨在标准化代理工厂构建流程，解决企业级多代理协作中的架构与审计难题。文档涵盖企业模式与审计日志，适合需要构建复杂多代理系统的团队，降低了分布式 AI 任务编排的技术门槛，为代理规模化部署提供基础设施支持。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Infrastructure"
-    ],
-    "link": "https://re-cinq.github.io/wave/",
-    "date": "2026-03-15",
-    "id": "17736140211192"
-  },
-  {
-    "title": "AI 规模化下的计费栈评估与架构策略",
-    "summary": "探讨 AI 公司如何处理信用额度、用量计量等复杂计费架构问题。",
-    "detail": "文章基于全球流媒体公司及 AI 初创企业经验，分析计费复杂性如何随规模compound。指出 AI 公司面临信用额度、模型汇率及用量计量等新挑战。建议工程师评估是扩展现有栈还是替换，避免维护 glue 代码消耗资源。为 AI 初创团队提供 monetization 架构演进的关键决策参考。随着 AI 应用从订阅制转向用量制，billing 栈的灵活性成为关键，文章提供了避免技术债务累积的实战建议，适合 founders 及后端工程师阅读。",
-    "tags": [
-      "Dev",
-      "SaaS",
-      "Business"
-    ],
-    "link": "https://arnon.dk/extend-or-replace-how-to-evaluate-your-billing-stack-at-ai-scale/",
-    "date": "2026-03-15",
-    "id": "17736140211193"
   }
 ]
