@@ -1,5 +1,70 @@
 [
   {
+    "title": "巨人堤道 AI 计数器误将岩石认作游客",
+    "summary": "旅游景点 AI 人流计数器发生故障，误把岩石柱当成人类。",
+    "detail": "北爱尔兰著名景点巨人堤道的 AI 人流计数系统发生故障，计算机视觉模型将独特的六角形玄武岩柱误判为游客，导致统计数据异常。此事件凸显了当前 AI 视觉模型在复杂自然场景下的泛化能力局限，特别是在非标准物体识别上存在显著短板。它提醒企业在部署自动化监控系统时，需针对特定环境进行充分测试与微调，避免盲目信任算法导致决策失误。同时也反映了 AI 落地过程中处理长尾场景的挑战，需结合人工校验机制确保数据准确性，防止类似乌龙事件影响管理决策。",
+    "tags": [
+      "News",
+      "Computer Vision",
+      "AI Failure"
+    ],
+    "link": "https://www.bbc.co.uk/news/articles/c39wgjpgg4ko",
+    "date": "2026-03-17",
+    "id": "17737415405340"
+  },
+  {
+    "title": "VueCode 推出免费 GitHub 仓库安全扫描",
+    "summary": "开发者可免费获取公共 GitHub 仓库的 AI 安全审计报告。",
+    "detail": "VueCode 发布新工具\"Security Roast\"，允许开发者输入公共 GitHub 仓库 URL，即可即时获得 AI 生成的安全审计报告。免费版本限制扫描 200 行代码及返回 5 个发现项，无需登录即可使用。该工具利用专用 AI 安全代理快速扫描代码漏洞，并提供具体的严重性评级与修复建议。这适合开发者进行初步安全自查，显著降低安全审计门槛，提升代码安全性。对于开源项目维护者而言，这是一种高效的风险识别手段，但仍需结合专业安全工具进行深度验证，不可完全依赖自动化结果。",
+    "tags": [
+      "Deal",
+      "Security",
+      "DevTools"
+    ],
+    "link": "https://vuecode.dev/roast",
+    "date": "2026-03-17",
+    "id": "17737415405341"
+  },
+  {
+    "title": "深度分析：AI 无法取代真正的创新",
+    "summary": "文章探讨 AI 自动化浪潮下，人类创新价值的不可替代性。",
+    "detail": "针对硅谷关于 AI 取代知识工作的论调，文章深入探讨指出虽然 Anthropic 等模型能力增强，但真正的创新仍依赖人类直觉与判断。尽管亚马逊等公司 citing AI 效率进行裁员，但核心工作流程的控制权仍是关键竞争点。文章警告若少数科技公司控制最强模型，可能垄断未来工作流定义权。强调在 AI 代理时代，人类需保持对核心创新环节的掌控，避免完全依赖自动化，重新思考人机协作边界。未来职场将更看重利用 AI 增强创新能力，而非单纯被替代，企业需平衡效率与人才储备。",
+    "tags": [
+      "News",
+      "Industry Trend",
+      "Future of Work"
+    ],
+    "link": "https://aspiringforintelligence.substack.com/p/ai-wont-replace-innovation",
+    "date": "2026-03-17",
+    "id": "17737415405342"
+  },
+  {
+    "title": "警惕 AI 生成代码带来的“理解债务”",
+    "summary": "过度依赖 AI 编程会导致团队对代码库理解能力下降。",
+    "detail": "Google 工程师 Addy Osmani 提出“理解债务”概念，指过度依赖 AI 生成代码导致人类对系统理解差距扩大。与技术债务不同，它隐藏于绿色测试背后，直到维护时刻爆发严重问题。文章警告在代理式工程（Agentic Engineering）趋势下，若团队不审查 AI 代码，将逐渐丧失对系统的掌控力。建议平衡 AI 效率与人工审查，确保核心逻辑可理解，防止长期维护危机。开发者需意识到 AI 是辅助而非替代，保持代码阅读习惯，避免陷入认知惰性，确保软件工程的可持续性。",
+    "tags": [
+      "Dev",
+      "Best Practices",
+      "LLM"
+    ],
+    "link": "https://addyosmani.com/blog/comprehension-debt/",
+    "date": "2026-03-17",
+    "id": "17737415405343"
+  },
+  {
+    "title": "英国 AISI 测试前沿 AI 代理网络攻击能力",
+    "summary": "政府机构评估显示 AI 模型自主网络攻击能力显著增强。",
+    "detail": "英国 AI 安全研究所（AISI）在模拟网络环境中测试了 7 款前沿模型，评估其自主网络攻击能力。结果显示，从 GPT-4o 到 Opus 4.6，模型在 multi-step 攻击链中的完成步骤从 1.7 大幅增至 9.8。增加推理计算预算可进一步提升性能，最佳运行甚至完成了部分专家需 14 小时的任务。这表明前沿 AI 代理已具备执行复杂网络攻击的潜力，降低了攻击门槛，引发对 AI 安全与自主代理监管的迫切关注。需加强防御机制，防止恶意利用。",
+    "tags": [
+      "News",
+      "Security",
+      "AI Safety"
+    ],
+    "link": "https://www.aisi.gov.uk/blog/how-do-frontier-ai-agents-perform-in-multi-step-cyber-attack-scenarios",
+    "date": "2026-03-17",
+    "id": "17737415405344"
+  },
+  {
     "title": "TransDuck：无需密钥的开源 AI 翻译框架",
     "summary": "开源 AI 翻译框架，支持缓存与上下文，无需管理密钥。",
     "detail": "TransDuck 是一个开源翻译框架，利用 AI 实时翻译应用字符串并本地缓存，避免重复付费。支持 Python 和 JavaScript，无需管理 API 密钥。通过上下文理解歧义（如\"Book\"），支持变量插值与复数形式生成。旨在简化开发者国际化流程，实现“包裹字符串即可使用”的便捷体验，适合需要快速集成多语言支持的 AI 原生应用。该工具解决了传统翻译文件同步头痛问题，首次调用 AI 后后续调用 instant 从缓存读取，显著降低成本并提高速度。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/a7ul/vibes",
     "date": "2026-03-16",
     "id": "17736284126932"
-  },
-  {
-    "title": "Quillx：披露软件项目中 AI 参与度的开放标准",
-    "summary": "旨在提高 AI 生成代码透明度的新开源标准，不涉及评判仅强调透明。",
-    "detail": "Quillx 通过作者权语言表达 AI 在软件项目中的参与程度。这不是对 AI 代码的评判，而是为了透明度。有助于解决代码来源模糊问题，建立行业信任标准，让开发者清晰了解哪些部分由 AI 生成。",
-    "tags": [
-      "Dev",
-      "Standard",
-      "Ethics"
-    ],
-    "link": "https://github.com/QAInsights/AIx",
-    "date": "2026-03-16",
-    "id": "17736284126933"
-  },
-  {
-    "title": "Cybeetle：专为开发者设计的 AI 安全扫描层",
-    "summary": "通过自然语言交互分析安全日志与威胁情报，缩短调查时间。",
-    "detail": "提供军事级 AI 接口，加密通信。可连接 SIEM 警报，解释风险并生成事件报告。旨在成为原始安全数据与可操作情报之间的桥梁，提升团队响应质量，将调查时间从小时缩短至分钟。",
-    "tags": [
-      "New",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://cybeetle.com",
-    "date": "2026-03-16",
-    "id": "17736284126934"
-  },
-  {
-    "title": "AI 辅助软件构建中\"Ready\"的真正含义",
-    "summary": "探讨 AI 编码时代发布责任的重要性，人类指导是确保质量的关键。",
-    "detail": "文章强调\"Ready\"是责任呼叫而非打磨里程碑。AI 可加速草稿，但人类需指导最终发布决策以管理风险。建议用 AI 定义就绪标准、挑战假设并验证高影响路径的可靠性，确保用户信任核心路径。",
-    "tags": [
-      "Dev",
-      "Methodology",
-      "BestPractice"
-    ],
-    "link": "https://vibe2value.com/what-ready-actually-means/",
-    "date": "2026-03-16",
-    "id": "17736284126935"
-  },
-  {
-    "title": "澳企业家利用 AI 为爱犬开发定制 mRNA 疫苗",
-    "summary": "澳企业家利用 AI 为爱犬开发定制 mRNA 癌症疫苗。",
-    "detail": "澳大利亚科技企业家利用 AI 为临终爱犬开发定制 mRNA 癌症疫苗。与新南威尔士大学合作，展示 AI 在生物医疗领域的个性化应用潜力。此案例凸显 AI 不仅限于软件，还能加速药物研发流程，为宠物甚至人类医疗提供新方案。尽管是个案，但证明了 AI 驱动的生物技术在紧急医疗需求下的快速响应能力，引发对 AI+Bio 伦理与可行性的讨论。",
-    "tags": [
-      "News",
-      "BioAI",
-      "Healthcare"
-    ],
-    "link": "https://fortune.com/2026/03/15/australian-tech-entrepreneur-ai-cancer-vaccine-dog-rosie-unsw-mrna/",
-    "date": "2026-03-15",
-    "id": "17737378495775"
-  },
-  {
-    "title": "科技企业家利用 AI 为爱犬定制癌症疫苗",
-    "summary": "澳大利亚企业家借助 AI 技术成功研发定制癌症疫苗，用于治疗其患病宠物狗。",
-    "detail": "一位澳大利亚科技企业家与 UNSW 合作，利用 AI 技术分析肿瘤数据，为其患癌宠物狗 Rosie 定制了癌症疫苗。该案例展示了 AI 在个性化医疗和兽医领域的潜力。虽然是个案，但证明了 AI 加速疫苗研发的可行性。这对生物 tech 行业具有启发意义，预示着 AI 驱动的个人化治疗方案可能在未来更加普及，不仅限于人类医疗，展现了 AI 跨学科应用的广阔前景，为精准医疗提供新案例。",
-    "tags": [
-      "News",
-      "Health",
-      "BioTech"
-    ],
-    "link": "https://fortune.com/2026/03/15/australian-tech-entrepreneur-ai-cancer-vaccine-dog-rosie-unsw-mr",
-    "date": "2026-03-15",
-    "id": "17737232819004"
   }
 ]
