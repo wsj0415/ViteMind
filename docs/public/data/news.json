@@ -1,5 +1,83 @@
 [
   {
+    "title": "生产环境 AI Agent 可观测性完整指南",
+    "summary": "解决 AI Agent 幻觉与行为漂移监控难题，填补传统监控空白。",
+    "detail": "传统监控仅关注服务 uptime 与延迟，无法检测 Agent 幻觉或指令遗忘。本指南针对独立开发者，提出 AI Agent 可观测性的三大支柱，重点在于行为监控而非仅请求状态。通过追踪响应内容与一致性，防止类似“错误发放优惠码”的业务逻辑错误。文章详细解释了如何构建监控栈以识别 Agent 是否偏离训练目标，填补了当前工具链在语义一致性监控上的空白，确保生产环境 Agent 行为可控且可追溯。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Observability"
+    ],
+    "link": "https://vaos.sh/blog/complete-guide-to-ai-agent-observability",
+    "date": "2026-03-17",
+    "id": "17737704584820"
+  },
+  {
+    "title": "RocketRide：VS Code 内的高性能 AI 流水线引擎",
+    "summary": "基于 C++ 核心的 AI 管道引擎，支持 IDE 内构建与调试 LLM 工作流。",
+    "detail": "该项目提供高性能 AI 管道引擎，核心采用 C++ 编写以保证速度，支持 50+ Python 可扩展节点。开发者可在 VS Code 或 Cursor 中直接构建、调试和扩展 LLM 工作流，集成 13+ 模型提供商与 8+ 向量数据库。包含 Docker 部署方案及 SDK，适合需要本地化高效编排 AI 任务的团队。其 IDE 集成特性显著降低了流水线调试门槛，为复杂 AI 应用提供了基础设施支持。",
+    "tags": [
+      "New",
+      "Pipeline",
+      "C++"
+    ],
+    "link": "https://github.com/rocketride-org/rocketride-server",
+    "date": "2026-03-17",
+    "id": "17737704584821"
+  },
+  {
+    "title": "软件开发中如何有效采用 AI 工具链",
+    "summary": "针对上下文腐烂问题，提出渐进式披露策略与 Claude.md 最佳实践。",
+    "detail": "文章分享了在软件开发中整合 AI 工具的实际经验，重点解决“上下文腐烂”（Context Rot）问题。建议采用渐进式披露策略，仅在需要时提供指令。通过标准化配置文件（如 CLAUDE.md）管理上下文，平衡迭代速度与代码质量。适用于希望提升工程效率且避免 AI 幻觉导致 Bug 的团队，提供了从个体工程师到架构决策的实用指南。",
+    "tags": [
+      "Dev",
+      "Best Practices",
+      "Claude"
+    ],
+    "link": "https://akk.ad/posts/effectively-adopting-ai-tooling-in-software-claude-code/",
+    "date": "2026-03-17",
+    "id": "17737704584822"
+  },
+  {
+    "title": "Sugar：基于 MCP 的 AI 编码 Agent 跨项目记忆",
+    "summary": "解决 Agent 遗忘问题，提供跨会话上下文与全局知识持久化记忆。",
+    "detail": "针对 AI 编码 Agent 缺乏长期记忆的问题，Sugar 通过 MCP（Model Context Protocol）实现跨项目持久化记忆。支持跨会话上下文保持与全局知识库，使 Agent 能自主执行复杂任务而不遗忘历史指令。这对于需要长期维护代码库或处理多步骤开发任务的 AI 工作流具有重要意义，解决了当前 Agent 在无状态会话中难以维持复杂逻辑的痛点。",
+    "tags": [
+      "New",
+      "MCP",
+      "Memory"
+    ],
+    "link": "https://github.com/roboticforce/sugar/",
+    "date": "2026-03-17",
+    "id": "17737704584823"
+  },
+  {
+    "title": "拜占庭 MCP 路由器：基于语义共识的 AI 安全方案",
+    "summary": "利用语义共识机制增强 MCP 协议的安全性，防止 AI 工具被恶意利用。",
+    "detail": "该项目探索 AI 安全新方向，通过拜占庭容错思路与语义共识机制保护 MCP（Model Context Protocol）路由器。旨在防止 AI Agent 在调用外部工具时遭受欺骗或产生不安全行为。随着 MCP 成为连接 AI 与工具的标准，此类安全层对于企业级部署至关重要，确保工具调用的完整性与可信度，为多 Agent 协作提供了安全共识基础。",
+    "tags": [
+      "Dev",
+      "Security",
+      "MCP"
+    ],
+    "link": "https://github.com/wdulz/byzantine-mcp-router",
+    "date": "2026-03-17",
+    "id": "17737704584824"
+  },
+  {
+    "title": "Webtool：利用 CDP 让 AI Agent 控制实时 Chrome 会话",
+    "summary": "通过 Chrome DevTools 协议实现 Agent 对浏览器的直接操控与自动化。",
+    "detail": "该项目允许 AI Agent 通过 Chrome DevTools Protocol (CDP) 直接控制活动的 Chrome 会话。不同于传统的 DOM 解析，CDP 提供了更底层的浏览器控制能力，使 Agent 能执行复杂的网页交互任务。这对于构建自动化测试、数据采集或基于浏览器的 AI 助手提供了新的技术路径，增强了 Agent 的操作边界，实现了真正的浏览器原生自动化。",
+    "tags": [
+      "New",
+      "Automation",
+      "CDP"
+    ],
+    "link": "https://github.com/usewebtool/webtool",
+    "date": "2026-03-17",
+    "id": "17737704584825"
+  },
+  {
     "title": "谷歌个人智能功能向全美用户开放",
     "summary": "谷歌 AI 助手整合 Gmail 与 Photos 数据，提供个性化服务。",
     "detail": "谷歌宣布其“个人智能”（Personal Intelligence）功能正式向所有美国用户扩展。该功能允许 Google AI 助手深度接入用户的 Gmail、Google Photos 等生态系统数据，从而提供更 tailored 的响应。此举标志着谷歌在个性化 AI 服务上的重大推进，旨在通过上下文理解提升助手实用性。行业影响方面，这加剧了与微软 Copilot 及 Apple Intelligence 的竞争，凸显了生态数据壁垒在 AI 时代的重要性。用户隐私与数据安全问题仍是关注焦点。未来可能看到更多基于个人数据的垂直场景应用落地，重塑用户与搜索交互的习惯。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.forbes.com/sites/zoyahasan/2026/03/13/ai-unicorn-elevenlabs-is-making-a-1-billion-effort-to-restore-1-million-voices-and-launching-an-11-part-docuseries/",
     "date": "2026-03-16",
     "id": "17736618648961"
-  },
-  {
-    "title": "HN 热议：AI Agent 生态系统术语解析",
-    "summary": "开发者讨论 AI Agent 架构，区分 Harness、Gateway 与 Sandbox。",
-    "detail": "Hacker News 社区热议 AI Agent 生态系统术语混淆问题，提出将架构分为 Harness（UI 与指令）、Gateway（通信连接）、Sandbox（隔离环境）与 Agents（自主行为）。这一分类有助于开发者厘清工具链职责，促进标准化。随着 Agent 应用爆发，明确组件定义将降低集成成本，推动中间件与开发框架的成熟，是基础设施层的重要讨论。清晰的分层架构能让开发者更灵活地替换组件，避免厂商锁定，加速企业级 Agent 落地，解决当前市场概念混乱痛点。该讨论反映了社区对 Agent 工程化落地的迫切需求，有助于建立行业共识，降低新手入门门槛，促进开源生态繁荣。",
-    "tags": [
-      "Dev",
-      "AI Agents",
-      "Architecture"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47397737",
-    "date": "2026-03-16",
-    "id": "17736618648962"
-  },
-  {
-    "title": "Ogham MCP：基于 Postgres 的 AI 共享记忆",
-    "summary": "开源工具 Ogham 为 AI 编码助手提供跨客户端共享记忆。",
-    "detail": "Ogham MCP 是一款开源工具，旨在解决 AI 编码助手遗忘问题。它使用 PostgreSQL 作为后端，支持混合搜索与知识图谱，实现 Claude Desktop、Cursor 等客户端间的记忆共享。特色包括 Profile 隔离与认知评分，所有计算均在 SQL 中完成。这为多 Agent 协作提供了持久化记忆层，是 AI 开发工作流基础设施的重要补充。无需额外图数据库降低了部署门槛，SQL 计算保证了性能与一致性，适合需要长期上下文记忆的开发场景，提升编码效率。其跨客户端特性打破了工具孤岛，为构建个性化 AI 编程环境提供了通用记忆标准，简化了记忆管理复杂度。",
-    "tags": [
-      "Dev",
-      "Memory",
-      "Postgres"
-    ],
-    "link": "https://ogham-mcp.dev/",
-    "date": "2026-03-16",
-    "id": "17736618648963"
-  },
-  {
-    "title": "Dictare：本地开源 AI 编码语音交互层",
-    "summary": "Dictare 提供 100% 本地的开源语音交互层，支持 AI 编码代理。",
-    "detail": "Dictare 是一个开源的语音交互层，专为 AI 编码代理设计，支持 100% 本地运行，确保数据隐私。它采用开放协议（OpenVIP），允许开发者通过语音与 AI 代理互动而无需云端依赖。在隐私合规日益严格的背景下，本地化语音处理方案满足了企业与安全敏感开发者的需求，丰富了 AI 交互模态。本地运行消除了数据泄露风险，开放协议促进了生态兼容，使开发者能自定义语音指令集，提升人机交互自然度，是隐私优先 AI 工具的代表。该工具降低了语音交互集成难度，推动本地 AI 助手在敏感环境中的普及应用，为离线 AI 交互提供了新参考。",
-    "tags": [
-      "Dev",
-      "Voice",
-      "Local AI"
-    ],
-    "link": "https://github.com/dragfly/dictare",
-    "date": "2026-03-16",
-    "id": "17736618648964"
-  },
-  {
-    "title": "Google Gemini 正式向香港用户全面开放",
-    "summary": "Google 宣布 Gemini AI 聊天机器人终于向所有香港用户推出。",
-    "detail": "Google 旗下最新 AI 模型 Gemini 正式登陆香港市场，标志着其全球扩张策略的又一里程碑。此次\"终于\"rollout 意味着香港用户可以直接体验 Google 最新的生成式 AI 能力，包括文本生成、代码辅助及多模态交互。这对当地科技生态及用户习惯将产生深远影响，同时也加剧了亚太地区 AI 助手市场的竞争格局。此前该地区用户无法直接使用，此次开放显示了 Google 在合规与市场准入上的突破，预计将带动相关开发者生态的活跃，为当地企业引入更高效的生产力工具。此外，这也反映了大型科技公司在地缘政治复杂环境下，逐步推进 AI 服务全球化的战略意图，值得行业密切关注。后续可能会有更多本地化功能上线。",
-    "tags": [
-      "News",
-      "Google",
-      "Gemini"
-    ],
-    "link": "https://hongkongfp.com/2026/03/16/googles-gemini-ai-chatbot-finally-rolling-out-to-all-hongkongers/",
-    "date": "2026-03-16",
-    "id": "17736560084910"
-  },
-  {
-    "title": "Google.org 发布 AI 时代未来工作影响力报告",
-    "summary": "Google.org 分享未来工作项目五年影响及 AI 时代的经验教训。",
-    "detail": "Google.org 发布了一份关于\"未来工作\"项目的五年影响力报告，重点探讨了 AI 时代的经验教训。报告分析了过去五年在欧洲等地的影响，并为即将到来的 AI 驱动型劳动力市场提供了战略见解。这对于理解大型科技公司如何规划 AI 与社会工作的融合具有重要参考价值，强调了技能重塑的重要性。报告不仅总结了过往的非营利 initiatives 成果，还展望了生成式 AI 如何改变就业结构。对于政策制定者和企业 HR 而言，这份报告提供了应对自动化浪潮的宝贵数据支持，有助于制定更包容的劳动力转型政策，确保技术红利能普惠大众。未来可能会推出更多针对 AI 技能培训的资助项目。",
-    "tags": [
-      "News",
-      "Google",
-      "Future of Work"
-    ],
-    "link": "https://blog.google/company-news/outreach-and-initiatives/google-org/future-of-work-impact-report/",
-    "date": "2026-03-16",
-    "id": "17736560084911"
-  },
-  {
-    "title": "AI 生成代码时代开源项目的未来走向",
-    "summary": "探讨 AI 编写代码背景下，谁将构建下一个开源项目。",
-    "detail": "随着 AI 代理越来越多地编写代码，开源社区的动态正在发生变化。文章深入分析了 AI 对开源的影响，包括训练数据的法律争议、AI 生成代码的版权状态以及维护者的压力。当创造者不再感受曾经的摩擦时，开源项目的驱动力将面临挑战，这对开发者社区的未来生态至关重要。文中还探讨了模型实验室使用开源代码训练是否属于\"合理使用\"的法律边界。如果 AI 消除了人类开发者的挫折感，可能减少新工具的创新动力。这是一个关于技术演进与人类创造力关系的深刻命题，值得所有开源贡献者深思。社区需要新的激励机制来维持开源活力。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Legal"
-    ],
-    "link": "https://blog.scottlogic.com/2026/03/15/if-ai-writes-the-code-who-builds-the-next-open-source-project.html",
-    "date": "2026-03-16",
-    "id": "17736560084912"
   }
 ]
