@@ -1,5 +1,70 @@
 [
   {
+    "title": "摩根大通因 AI 担忧终止 53 亿美元 Qualtrics 债务交易",
+    "summary": "AI 担忧导致需求降温，53 亿美元债务交易终止。",
+    "detail": "摩根大通 halted Qualtrics 53 亿美元债务交易，主要原因是市场对 AI 技术的担忧导致需求降温。这反映了 AI 泡沫疑虑已开始影响传统金融决策，显示出资本市场对 AI 长期盈利能力的审慎态度。此事件可能预示科技并购领域的降温趋势，表明投资者正重新评估 AI 相关资产的风险溢价，对后续 AI 初创企业融资环境产生潜在负面影响。",
+    "tags": [
+      "News",
+      "Finance",
+      "AI Risk"
+    ],
+    "link": "https://www.ft.com/content/ce9a67da-62df-484e-9f50-075d4be7817f",
+    "date": "2026-03-17",
+    "id": "17737905439240"
+  },
+  {
+    "title": "Nvidia 发布 Nemotron 3 Nano 4B 本地高效模型",
+    "summary": "紧凑混合模型，专为高效本地 AI 部署设计。",
+    "detail": "Nvidia 通过 Hugging Face 发布 Nemotron 3 Nano 4B 模型。这是一款紧凑混合模型，旨在优化本地 AI 运行效率。该模型降低了硬件门槛，使开发者能在边缘设备部署高性能 AI，推动了本地化推理和隐私保护应用的发展。这是端侧 AI 的重要进展，表明大厂正致力于解决模型部署的成本与延迟问题，促进 AI 在资源受限环境下的普及。",
+    "tags": [
+      "News",
+      "LLM",
+      "Nvidia"
+    ],
+    "link": "https://huggingface.co/blog/nvidia/nemotron-3-nano-4b",
+    "date": "2026-03-17",
+    "id": "17737905439251"
+  },
+  {
+    "title": "CodeLedger：AI 编码代理的确定性上下文护栏",
+    "summary": "开源 CLI 工具，减少 AI 代码生成错误与 Token 消耗。",
+    "detail": "CodeLedger 是一款开源 CLI 工具，为 AI 编码代理提供确定性上下文和护栏。它通过扫描仓库、评分文件相关性，构建最小上下文包，防止代理编辑无关模块。基准测试显示可减少 37% 接受时间和 36% Token 使用。它解决了 AI 代理上下文爆炸和不可控编辑的核心痛点，无需嵌入或云服务，适合注重安全与成本的企业开发团队采用。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "OpenSource"
+    ],
+    "link": "https://codeledger.dev",
+    "date": "2026-03-17",
+    "id": "17737905439252"
+  },
+  {
+    "title": "ToolGuard：AI 代理工具调用的可靠性测试框架",
+    "summary": "类似 Pytest，通过模糊测试提高 AI 工具调用可靠性。",
+    "detail": "ToolGuard 专为 AI 代理工具调用设计，类似 Pytest。它无需 LLM 即可运行测试，读取类型提示生成 Pydantic 模式，并通过模糊测试（nulls、类型不匹配等）提供可靠性评分。这解决了 AI 代理因幻觉导致 JSON 错误或参数类型错误的问题，增强了 agent 系统的稳定性。为开发者提供了无需依赖大模型即可验证工具可靠性的标准化流程，降低生产环境故障率。",
+    "tags": [
+      "Dev",
+      "Testing",
+      "Agent"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47419709",
+    "date": "2026-03-17",
+    "id": "17737905439253"
+  },
+  {
+    "title": "树状邀请系统被证实可有效减少 AI 生成垃圾内容",
+    "summary": "分析显示信任链机制可大幅提高 AI 垃圾内容成本。",
+    "detail": "文章分析指出，类似 lobste.rs 的树状邀请系统能有效减少\"AI slop\"。基于信任的会员机制使增长有机且缓慢，但能追溯责任。一旦发现 AI 垃圾账号，可修剪整个用户分支。这为社区对抗 AI 生成内容泛滥提供了新思路，提高了自动化垃圾内容 campaign 的成本。虽然牺牲了增长速度，但保证了社区质量，为内容平台治理 AI 生成垃圾信息提供了可参考的治理模型。",
+    "tags": [
+      "News",
+      "Community",
+      "Safety"
+    ],
+    "link": "https://abyss.fish/tree-style_invite_systems_reduce_AI_slop",
+    "date": "2026-03-17",
+    "id": "17737905439254"
+  },
+  {
     "title": "Yann LeCun 等新论文：AI 为何无法自主学习",
     "summary": "认知科学视角探讨 AI 自主学习的局限与改进方向。",
     "detail": "### 背景与核心\n这篇 arXiv 论文由 Emmanuel Dupoux 和 Yann LeCun 等作者提交，深入探讨了当前 AI 系统在自主学习方面的缺失。文章从认知科学中汲取经验，分析了为何 AI 难以像人类一样进行自主推理和学习，并提出了潜在的改进路径。\n### 行业影响\n对于 AGI 研发具有重要理论指导意义，提示开发者需结合认知科学原理优化模型架构，而非仅依赖数据堆叠，为未来自主智能体发展提供新视角。研究强调自主性是当前瓶颈，需借鉴人类认知机制突破限制，推动 AI 从被动执行向主动学习转变。该研究为构建更强大的自主系统奠定了理论基础。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/GuiMiran/spectra",
     "date": "2026-03-16",
     "id": "17736937440062"
-  },
-  {
-    "title": "Akashik 协议：AI 代理间的共享内存标准",
-    "summary": "发布 Akashik 协议草案，定义多 AI 代理间的共享记忆与协调标准。",
-    "detail": "Akashik Protocol v0.1.0 草案发布，定义多 AI 代理系统内的共享记忆、上下文感知与协调操作。它位于现有通信标准之下，解决代理间如何共享信息与 resolve contradictions 的问题。无需中央控制器，为多代理协作提供基础设施层支持。该协议 transport-agnostic，旨在成为 agent coordination 的 missing layer。通过标准化共享记忆操作，它使异构代理系统能够协同工作，避免信息孤岛。这对于构建复杂的分布式 AI 应用至关重要，标志着多代理系统从单一任务向协作生态演进的技术里程碑。未来可能成为多代理 orchestration 的通用标准，促进 AI 生态系统的互操作性与规模化发展。",
-    "tags": [
-      "Dev",
-      "Protocol",
-      "Multi-Agent"
-    ],
-    "link": "https://akashikprotocol.com/specifications/draft",
-    "date": "2026-03-16",
-    "id": "17736937440063"
-  },
-  {
-    "title": "NVIDIA 推出开源企业 AI 代理平台 NemoClaw",
-    "summary": "NVIDIA 发布 NemoClaw，专为 enterprise-grade 安全与隐私保护的 AI 代理平台。",
-    "detail": "NemoClaw 是 NVIDIA 的开源 AI 代理平台，集成 NeMo 框架与 Nemotron 模型。主打 enterprise-grade security 与 privacy protection，支持 hardware-agnostic 部署。旨在回应 OpenClaw 等社区驱动工具的兴起，为企业提供可控的本地化 AI 自动化解决方案。平台深度整合 NIM 推理微服务，确保 scalability。此举显示 NVIDIA 正从硬件供应商向 AI 代理操作系统层延伸，通过开源策略吸引开发者生态。同时满足企业对数据隐私与合规的严苛要求，巩固其在企业 AI 市场的竞争优势。标志着巨头开始标准化企业级代理部署流程，降低 AI 自动化落地风险。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "NVIDIA"
-    ],
-    "link": "https://nemoclaw.bot/",
-    "date": "2026-03-16",
-    "id": "17736937440064"
-  },
-  {
-    "title": "Memories.ai 构建可穿戴设备的视觉记忆层",
-    "summary": "Memories.ai 致力于为可穿戴设备和机器人打造视觉记忆层。",
-    "detail": "Memories.ai 正在构建针对 wearables 和 robotics 的 visual memory layer。该技术旨在赋予设备长期视觉记忆能力，增强机器人与环境交互的智能水平。属于 AI 与硬件结合的前沿探索，潜在应用于个人助理与自主机器领域。通过视觉记忆层，设备可理解上下文并回忆过往交互，提升用户体验。这代表了 AI 从云端向边缘设备延伸的趋势，为可穿戴设备赋予更持久的智能记忆。可能改变人机交互方式，使机器人具备更连贯的环境认知能力，解决当前设备缺乏长期情境感知的痛点，推动具身智能技术发展。",
-    "tags": [
-      "New",
-      "Robotics",
-      "Startup"
-    ],
-    "link": "https://techcrunch.com/2026/03/16/memories-ai-is-building-the-visual-memory-layer-for-wearables-and-robotics/",
-    "date": "2026-03-16",
-    "id": "17736937440065"
-  },
-  {
-    "title": "Mistral 发布开源工程模型 Leanstral",
-    "summary": "Mistral AI 推出专为工程设计的新开源模型 Leanstral，强化编码与推理能力。",
-    "detail": "Mistral AI 正式发布 Leanstral 模型，定位为专为工程任务优化的开源模型。该模型旨在提升代码生成、系统设计及逻辑推理能力，填补了通用模型在垂直工程领域的空白。文档显示其支持结构化输出与函数调用，适合集成到开发工作流中。此举将进一步加剧开源模型在编程辅助领域的竞争，为开发者提供更专业的本地部署选择，降低工程化门槛。此次更新体现了模型垂直化的趋势，通过针对特定领域微调，提升专业任务准确率。对于企业级应用，这意味着更低的推理成本与更高的数据隐私安全性，有望成为工程团队的标准配置工具之一。",
-    "tags": [
-      "News",
-      "LLM",
-      "OpenSource"
-    ],
-    "link": "https://docs.mistral.ai/models/leanstral-26-03",
-    "date": "2026-03-16",
-    "id": "17736879280460"
-  },
-  {
-    "title": "NVIDIA 发布 DLSS 5 AI 驱动游戏视觉突破",
-    "summary": "NVIDIA 推出 DLSS 5 技术，利用 AI 显著提升游戏视觉保真度与性能表现。",
-    "detail": "NVIDIA 宣布推出 DLSS 5 技术，这是其 AI 驱动图形技术的最新迭代。新版本专注于通过深度学习进一步提升游戏视觉保真度，可能在帧生成与图像重建算法上取得突破。作为游戏与 AI 结合的关键案例，DLSS 5 展示了专用 AI 硬件在消费级应用中的巨大潜力，预计将推动新一代显卡需求，并为实时渲染领域设立新的性能基准，重塑玩家体验。该技术依赖于新一代 Tensor Core 的算力支持，表明 AI 已深入图形渲染核心流程。对于行业而言，这不仅提升了游戏画质，也为虚拟制作、数字孪生等需要高保真实时渲染的领域提供了技术铺垫，加速 AI 与图形学的融合。",
-    "tags": [
-      "News",
-      "GPU",
-      "Gaming"
-    ],
-    "link": "https://nvidianews.nvidia.com/news/nvidia-dlss-5-delivers-ai-powered-breakthrough-in-visual-fidelity-for-games",
-    "date": "2026-03-16",
-    "id": "17736879280461"
   }
 ]
