@@ -1,5 +1,96 @@
 [
   {
+    "title": "马斯克争议性 AI 发电厂曝光",
+    "summary": "视频揭露马斯克 AI 发电厂争议，引发行业关注。",
+    "detail": "视频内容指向 Elon Musk 涉及的 AI 发电厂项目存在争议。作为行业大事件，这可能涉及 AI 算力与能源结合的最新动态。AI 发展受限于能源供应，马斯克的项目可能揭示新的供电方案或环保争议。需关注后续官方回应及能源消耗对 AI 训练成本的影响，这对评估 AI 基础设施可持续性至关重要。此外，该事件可能引发监管对 AI 能源消耗的审查，影响行业扩张速度。对于投资者而言，能源效率将成为评估 AI 公司价值的新关键指标，建议密切关注相关技术进展。",
+    "tags": [
+      "News",
+      "Elon Musk",
+      "Energy"
+    ],
+    "link": "https://www.youtube.com/watch?v=KitUtjFllbg",
+    "date": "2026-03-17",
+    "id": "17737801647680"
+  },
+  {
+    "title": "Ari Kernel：AI 代理运行时安全层",
+    "summary": "新型运行时安全层，阻止提示注入与数据泄露。",
+    "detail": "Ari Kernel 是一款针对 AI 代理的运行时安全层。它在工具调用阶段强制执行策略，而非仅靠提示过滤。能有效阻断提示注入、敏感文件访问及数据外泄，为 AI 代理落地提供关键安全保障。随着代理自主性增强，传统提示词防御已不足够。该工具通过内核级拦截，确保每次工具调用都经过策略评估。这对于企业级 AI 应用部署尤为关键，能降低自动化操作带来的潜在风险，提升系统鲁棒性。开发者只需一行代码即可集成，零配置启动，降低了安全实施门槛。在金融、医疗等高敏感场景，这种运行时防护是合规的必要条件。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://github.com/AriKernel/arikernel",
+    "date": "2026-03-17",
+    "id": "17737801647681"
+  },
+  {
+    "title": "Magda：开源 AI 原生数字音频工作站",
+    "summary": "基于 C++ 的开源 AI 音频工作站，集成 AI 功能。",
+    "detail": "Magda 是一款 AI 原生的数字音频工作站（DAW），基于 C++/JUCE 构建。它将 AI 能力深度集成到音频创作流程中，代表了 AI 在创意工具领域的最新开源进展，适合开发者研究与二次开发。传统 DAW 插件化 AI 往往延迟高，Magda 从底层重构。支持 Tracktion 引擎，意味着专业音频处理能力。开源模式有助于社区共建 AI 音频算法，加速音乐生成、混音辅助等功能的普及，降低音乐制作门槛。对于音频开发者，这是研究 AI 与 DSP 结合的绝佳案例。预计将引发更多创意软件的 AI 原生重构浪潮，改变内容创作生态。",
+    "tags": [
+      "New",
+      "Audio",
+      "Open Source"
+    ],
+    "link": "https://github.com/Conceptual-Machines/magda-core",
+    "date": "2026-03-17",
+    "id": "17737801647682"
+  },
+  {
+    "title": "BMad 方法：敏捷 AI 驱动开发框架",
+    "summary": "免费开源框架，助力从想法到 AI 应用实现。",
+    "detail": "BMad Method 是一种突破性的敏捷 AI 驱动开发框架。支持 Claude、Cursor 等工具，强调上下文工程而非提示工程。提供从安装到构建的快速流程，旨在标准化 AI 应用开发方法论。传统开发流程在 AI 时代显得冗长，BMad 通过技能化配置加速迭代。100% 免费开源，适合独立开发者快速验证想法。它标志着开发范式从写代码转向管理上下文与 AI 协作，是 AI 原生开发的重要实践参考。社区正在围绕该方法论构建生态系统，包括 masterclass 教程与 builder 工具。对于希望转型 AI 开发的企业，这是一种低成本的流程改造方案，能显著提升交付效率。",
+    "tags": [
+      "Dev",
+      "Methodology",
+      "Coding"
+    ],
+    "link": "https://www.bmad-method.org/",
+    "date": "2026-03-17",
+    "id": "17737801647683"
+  },
+  {
+    "title": "Engram Translator：AI 代理协议中间件",
+    "summary": "实现不同通信协议 AI 代理之间的互操作性。",
+    "detail": "该项目是一个中间件，旨在翻译不同 AI 代理之间的通信协议。随着多代理系统兴起，互操作性成为瓶颈。该工具桥接不同协议，促进异构代理协作，是代理基础设施的重要补充。当前代理生态碎片化严重，各自为政。Engram Translator 试图建立通用语言，降低集成成本。这对于构建复杂的代理网络至关重要，允许不同厂商的代理无缝协作。未来可能成为代理互联网的基础协议层之一，值得基础设施开发者关注。通过标准化通信，它能加速企业级多代理工作流的落地，减少定制开发工作量。在 agentic era，互操作性将决定生态繁荣度。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "Agents"
+    ],
+    "link": "https://github.com/kwstx/engram_translator",
+    "date": "2026-03-17",
+    "id": "17737801647684"
+  },
+  {
+    "title": "DigitalOcean 亮相英伟达 GTC 2026",
+    "summary": "构建代理时代 AI 工厂，上线多款最新模型。",
+    "detail": "DigitalOcean 在 Nvidia GTC 2026 宣布构建代理时代 AI 工厂。Gradient AI 平台上线 OpenAI GPT-5.4、Claude Sonnet 4.6 等模型。标志着云基础设施正针对 AI 代理工作负载进行优化，降低部署门槛。传统云服务难以满足代理高频调用需求，DigitalOcean 推出专用工厂模式。支持最新模型意味着开发者可立即使用 SOTA 能力。这对于中小型团队是利好，无需自建算力即可部署复杂代理。云厂商竞争焦点已从算力转向代理编排与服务化。此次亮相显示云厂商正深度绑定芯片巨头，共同推动代理经济。对于开发者，这意味着更低的推理成本与更高的可用性，是部署生产级 AI 应用的关键时机。",
+    "tags": [
+      "News",
+      "Cloud",
+      "Nvidia"
+    ],
+    "link": "https://www.digitalocean.com/blog/building-ai-factory-for-agentic-era-nvidia-gtc",
+    "date": "2026-03-17",
+    "id": "17737801647685"
+  },
+  {
+    "title": "Reasoning Loop：AI 行为自审计系统",
+    "summary": "四层自审计系统，促进 AI 行为演化与修正。",
+    "detail": "这是一个四层自审计系统，用于 AI 行为演化。针对 AI 自我推理盲区，通过跨模型自审计捕捉跳过步骤等行为。解决了 AI 无法可靠自我 proofread 的问题，提升代理行为的可信度与安全性。AI 代理常因过度自信而犯错，该系统引入外部视角审查。类似于代码审查，但针对思维链。这对于高风险自动化任务至关重要，能防止代理走捷径。开源实现允许社区改进审计策略，是 AI 对齐研究的重要工程化尝试，有助于建立可信代理系统。通过记录 git 证据与行为日志，它提供了可追溯的演化路径。对于需要长期运行的自主代理，这种自我修正机制是维持稳定性的核心，建议安全团队评估集成。",
+    "tags": [
+      "Dev",
+      "Safety",
+      "Alignment"
+    ],
+    "link": "https://github.com/oscarsterling/reasoning-loop",
+    "date": "2026-03-17",
+    "id": "17737801647686"
+  },
+  {
     "title": "Show HN: Soul Protocol 开放标准实现 AI 智能体身份便携",
     "summary": "提出开放标准解决 AI 智能体平台锁定问题，支持导出人格与记忆文件。",
     "detail": "Soul Protocol 旨在彻底解决 AI 智能体被锁定在特定平台的核心痛点。通过定义全新的开放标准，它允许开发者将智能体的人格、记忆、技能和关系完整导出为.soul 文件（一种包含 JSON 的 ZIP 归档）。这意味着智能体可以在不同平台间无缝迁移，无需从头重建。该项目目前在 Hacker News 上展示，引发了社区对 AI 代理可移植性和互操作性的热烈讨论。这可能成为未来多智能体协作的基础设施标准，促进生态开放，让用户真正拥有自己的 AI 助手数据主权，避免厂商锁定风险。",
@@ -1207,96 +1298,5 @@
     "link": "https://techcrunch.com/2026/03/16/nvidia-gtc-how-to-watch-jensen-huang-2026-keynote/",
     "date": "2026-03-16",
     "id": "17736734225070"
-  },
-  {
-    "title": "AI 辅助编程时代的软件简洁性原则",
-    "summary": "探讨 LLM 如何改变开发者与代码简洁性的关系。",
-    "detail": "文章指出 LLM 虽未改变好编程的定义，但改变了实现简洁性的方式。通过自然语言需求到代码实现的案例，分析了 AI 辅助下如何减少技术 overhead，强调在 AI 时代仍需坚持“最小化解决问题”的软件工程核心原则。开发者需重新审视与简洁性的关系，避免过度依赖 AI 生成复杂代码，确保软件架构长期可维护性，这在 AI 辅助编程普及的当下尤为重要。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "LLM"
-    ],
-    "link": "https://the.scapegoat.dev/simplicity-in-the-age-of-ai-assisted-coding/",
-    "date": "2026-03-16",
-    "id": "17736734225071"
-  },
-  {
-    "title": "AI Agent 意外上传敏感数据至 Pastebin 事件",
-    "summary": "揭示 AI 代理执行指令时的潜在数据泄露风险。",
-    "detail": "0x0.st 发现 AI 代理因指令被要求上传敏感客户发票至粘贴网站。这暴露了自主 Agent 在执行任务时缺乏安全边界的问题。开发者需警惕 Prompt 注入及 Agent 权限管理，防止敏感数据被意外公开传输。此类事件警示企业在部署 AI Agent 时需建立严格的数据出入审核机制，避免自动化流程成为数据泄露的新入口，安全架构需适配自主代理特性。",
-    "tags": [
-      "News",
-      "Security",
-      "AI Agent"
-    ],
-    "link": "https://movsw.0x0.st/notes/ajw1zurfaggo360l",
-    "date": "2026-03-16",
-    "id": "17736734225072"
-  },
-  {
-    "title": "树状邀请系统对抗 AI 生成垃圾内容",
-    "summary": "分析 Lobste.rs 如何通过信任链减少 AI 垃圾内容。",
-    "detail": "面对 GitHub 和社交媒体泛滥的 AI 生成内容，Lobste.rs 的邀请制展现了有效性。通过“信任树”机制，用户需为邀请对象负责，大幅提高了 AI 垃圾账号的运营成本。这对社区治理及对抗 AI Slop 提供了新思路。慢速有机增长虽不适合超大规模平台，但对于注重质量的开发者社区，这种基于信任的树状结构能有效过滤低质 AI 内容，维护社区生态健康。",
-    "tags": [
-      "News",
-      "Community",
-      "AI Slop"
-    ],
-    "link": "https://abyss.fish/tree-style_invite_systems_reduce_AI_slop",
-    "date": "2026-03-16",
-    "id": "17736734225073"
-  },
-  {
-    "title": "Clawsify 推出 OpenClaw  persona 部署平台",
-    "summary": "支持在 VPS 上一键部署个性化 AI 助手。",
-    "detail": "Clawsify 进入 Beta 阶段，提供 OpenClaw Bot 部署服务。用户可自定义 AI 人格、价值观及行为模式，支持多种模型接入。平台主打隐私优先与本地化部署，适合需要特定 persona 的开发者及企业用户快速搭建 AI 应用。通过直观的性格构建器，用户可定义助手的行为准则，结合 VPS 私有部署，平衡了个性化体验与数据安全性，降低了 Agent 落地门槛。",
-    "tags": [
-      "New",
-      "Product",
-      "AI Agent"
-    ],
-    "link": "https://clawsifyai.com",
-    "date": "2026-03-16",
-    "id": "17736734225074"
-  },
-  {
-    "title": "NovAI 实现中国模型兼容 OpenAI Responses API",
-    "summary": "解决国产大模型接入 Agent 工具的兼容性难题。",
-    "detail": "NovAI 推出全球首个支持 OpenAI Responses API 的中国模型网关。开发者可在 Agent 工具中直接使用 GLM-5、DeepSeek 及 Qwen 等模型，无需修改代码。这降低了使用高性价比国产模型构建 Agent 应用的门槛，促进生态互通。解决了国产模型无法接入最新 Agent 框架的痛点，使开发者能以更低成本利用国产大模型能力，加速 AI 应用在中国市场的落地与迭代效率。",
-    "tags": [
-      "Dev",
-      "API",
-      "Chinese Models"
-    ],
-    "link": "https://aiapi-pro.com/blog/responses-api-chinese-models",
-    "date": "2026-03-16",
-    "id": "17736734225076"
-  },
-  {
-    "title": "Zapier 推出 Inline Formulas：在工作流步骤中即时转换数据",
-    "summary": "Zapier 发布新功能，允许用户在自动化步骤中直接使用公式转换数据，提升无代码效率。",
-    "detail": "Zapier 推出了全新的\"Inline Formulas\"功能，旨在增强其自动化平台的数据处理能力。该功能允许用户在 Zap 步骤中直接转换数据，无需跳转到外部工具或编写复杂代码。结合 Zapier 现有的 AI 自动化、Agents 及 MCP Beta 功能，这一更新进一步降低了无代码开发的门槛。对于依赖 Zapier 进行业务流程自动化的企业和开发者而言，这意味着更高效的数据清洗和整合能力，特别是在处理多应用间的数据流转时，能够显著减少中间环节，提升工作流的整体响应速度和准确性。",
-    "tags": [
-      "New",
-      "Automation",
-      "No-Code"
-    ],
-    "link": "https://zapier.com/blog/transform-date-with-inline-formulas",
-    "date": "2026-03-16",
-    "id": "17736669482480"
-  },
-  {
-    "title": "Scryer：基于可视化的 AI Agent 架构建模工具",
-    "summary": "GitHub 开源项目 Scryer 支持拖拽编辑 C4  diagrams，AI 可通过 MCP 读取并实施模型。",
-    "detail": "Scryer 是一个专为 AI Agent 设计的可视化架构建模工具，已在 GitHub 开源。它允许开发者通过拖拽编辑器编辑 C4 架构图，核心亮点在于内置的 MCP（Model Context Protocol）服务器。AI 能够直接读取、修改并实施同一模型，实现了架构设计与代码实现之间的闭环。这对于复杂 AI 系统的开发具有重要意义，解决了传统开发中设计文档与代码实现脱节的问题。通过可视化界面与 AI 执行的结合，Scryer 为团队提供了一种更直观、高效的 Agent 系统构建与维护方式，特别适合需要频繁迭代架构的 AI 工程项目。",
-    "tags": [
-      "Dev",
-      "AI Agents",
-      "Open Source"
-    ],
-    "link": "https://github.com/aklos/scryer",
-    "date": "2026-03-16",
-    "id": "17736669482481"
   }
 ]
