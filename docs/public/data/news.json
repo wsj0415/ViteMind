@@ -1,5 +1,57 @@
 [
   {
+    "title": "AI 代理支付协议 x402 复兴，USDC 自动结算成关键",
+    "summary": "Stripe 与 Coinbase 推动 x402 协议，实现 AI 代理自动支付 API 费用。",
+    "detail": "HTTP 402 状态码沉睡 30 年后被唤醒，专为机器间支付设计。**Stripe 和 Coinbase** 正围绕 x402 构建基础设施，允许 AI 代理通过 USDC 自动支付 API 调用费用，无需人工干预。当前核心挑战在于支付验证层，服务器需确认链上转账、匹配请求并防止重组。该协议解决了微支付手续费过高问题，为 AI 经济闭环奠定基础。未来 AI 代理自主经济体系将依赖此类协议，开发者需关注支付验证层的实现细节，避免自行构建高昂的链上监听成本。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Crypto"
+    ],
+    "link": "https://paragraph.com/@paywatcher/how-ai-agents-pay-for-api-calls-%E2%80%94-and-how-to-verify-they-did",
+    "date": "2026-03-17",
+    "id": "17737450614760"
+  },
+  {
+    "title": "英国 Close Brothers 银行裁员 600 人，加速部署 AI 技术",
+    "summary": "传统金融业受 AI 冲击，Close Brothers 集团宣布裁员并快速推进 AI 落地。",
+    "detail": "英国 Close Brothers 银行集团宣布**裁员 600 人**，并表示将“按节奏”推出 AI 技术。这标志着 AI 从实验阶段正式进入企业核心业务流程替换阶段。金融服务业作为数据密集型行业，首当其冲受到自动化影响。此事件反映了 2026 年 AI 落地带来的实际就业结构调整，企业不再仅关注效率提升，而是通过 AI 重构人力成本结构，行业震荡加剧。这表明 AI 不再是辅助工具，而是成为裁员增效的直接驱动力，传统白领岗位面临严峻考验。",
+    "tags": [
+      "News",
+      "Finance",
+      "Layoffs"
+    ],
+    "link": "https://www.theguardian.com/business/2026/mar/17/close-brothers-banking-group-cut-jobs-car-finance-shares",
+    "date": "2026-03-17",
+    "id": "17737450614761"
+  },
+  {
+    "title": "开发者指南：利用 Lima 构建 AI 编程代理安全沙箱",
+    "summary": "教程分享如何使用 Lima 虚拟机隔离 AI coding agent，保障本地代码安全。",
+    "detail": "随着 Claude Code 等 AI 编程代理需要更高权限，本地运行安全风险增加。本文介绍利用 **Lima (Linux Machines)** 创建沙箱环境，通过自动文件共享和端口转发，限制代理仅访问特定目录。相比直接在本机运行，VM 方案有效隔离了潜在恶意操作。教程涵盖安装配置及自定义 VM 设置，为开发者提供了一套低成本、高安全性的 AI 代理部署最佳实践，适合担心权限泄露的团队参考。特别是在代理需要执行测试和 web 搜索时，沙箱能有效防止代码库被意外污染或敏感数据泄露。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Tutorial"
+    ],
+    "link": "https://spin.atomicobject.com/lima-ai-coding-agent-sandbox/",
+    "date": "2026-03-17",
+    "id": "17737450614762"
+  },
+  {
+    "title": "免费在线工具：AI 职业风险 checker，评估岗位替代概率",
+    "summary": "99helpers 推出 AI 职业风险评估工具，基于 BLS 数据预测岗位安全性。",
+    "detail": "新工具 **\"Is My Job Safe From AI?\"** 允许用户查询职业被 AI 替代的风险评分（1-10 分）。评估维度包括任务常规性、物理 presence 需求、人类判断力及法规保护。数据源自美国劳工统计局，提供消除、转型、创造三种情景预测。该工具反映了公众对 AI 就业影响的焦虑，虽不能完全预测未来，但为职业规划提供了数据参考，帮助从业者识别高风险技能并提前转型。涵盖 341 种职业，结合 2025 年专家共识，是个人评估职业护城河的有效辅助工具。",
+    "tags": [
+      "New",
+      "Career",
+      "Tool"
+    ],
+    "link": "https://99helpers.com/tools/is-my-job-safe-from-ai",
+    "date": "2026-03-17",
+    "id": "17737450614763"
+  },
+  {
     "title": "巨人堤道 AI 计数器误将岩石认作游客",
     "summary": "旅游景点 AI 人流计数器发生故障，误把岩石柱当成人类。",
     "detail": "北爱尔兰著名景点巨人堤道的 AI 人流计数系统发生故障，计算机视觉模型将独特的六角形玄武岩柱误判为游客，导致统计数据异常。此事件凸显了当前 AI 视觉模型在复杂自然场景下的泛化能力局限，特别是在非标准物体识别上存在显著短板。它提醒企业在部署自动化监控系统时，需针对特定环境进行充分测试与微调，避免盲目信任算法导致决策失误。同时也反映了 AI 落地过程中处理长尾场景的挑战，需结合人工校验机制确保数据准确性，防止类似乌龙事件影响管理决策。",
@@ -1246,57 +1298,5 @@
     "link": "https://nikomatsakis.github.io/rust-project-perspectives-on-ai/",
     "date": "2026-03-16",
     "id": "17736383681203"
-  },
-  {
-    "title": "ProxyBase Relay：让 AI 安全控制浏览器的 CDP 桥接器",
-    "summary": "提供每标签页隔离的 CDP 访问，实时日志监控与一键终止会话功能。",
-    "detail": "ProxyBase Relay 是一款专为 OpenClaw 设计的 CDP 多路复用器，旨在让 AI 安全地控制浏览器。它提供每标签页隔离权限，确保 AI 仅访问活动标签页，保护历史、密码与书签安全。支持实时日志监控、一键终止会话及 MV3 兼容隧道，解决了 AI 代理操作浏览器时的安全风险与上下文丢失问题。支持跨站点工作，即使没有 WebMCP 支持也能处理限制性网络。通过 offscreen data channel 绕过 5 分钟服务 worker 杀死，确保持续连接。这是解决 AI 代理浏览器自动化安全痛点的关键基础设施，平衡了自动化效率与用户隐私安全。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Browser Automation"
-    ],
-    "link": "https://relay.proxybase.xyz",
-    "date": "2026-03-16",
-    "id": "17736383681204"
-  },
-  {
-    "title": "AI 代理正在构建“影子开发”体系",
-    "summary": "企业面临 AI 代理自主构建软件的新风险，传统影子 IT 演变为影子开发。",
-    "detail": "文章指出 AI 编码代理正在将定制软件构建成本降至零。未来将出现大量由非开发人员创建的 bespoke 应用，形成“影子开发”。组织需提前应对，否则将面临清理难题。这标志着民主化开发的新阶段，用户不再适应工具而是生成新工具。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "AI Agent"
-    ],
-    "link": "https://geoffstearns.com/blog/your-ai-agent-is-building-shadow-it/",
-    "date": "2026-03-16",
-    "id": "17736284126930"
-  },
-  {
-    "title": "AI 工具是否削弱了计算机科学基础的重要性？",
-    "summary": "Hacker News 热议 AI 编码助手让开发者失去学习分布式系统等基础的动力。",
-    "detail": "社区讨论指出，AI 能快速生成解决方案，使学习基础显得不那么紧迫。但资深从业者强调，对于深层系统理解和风险控制，CS 基础依然不可或缺。人类指导仍是确保质量的关键，AI 不能替代对核心路径可靠性的理解。",
-    "tags": [
-      "News",
-      "Education",
-      "Community"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47394291",
-    "date": "2026-03-16",
-    "id": "17736284126931"
-  },
-  {
-    "title": "VibeSDK：5 小时将 Pydantic AI 移植至 TypeScript",
-    "summary": "新型 TypeScript 代理框架，支持类型安全 AI 应用开发，兼容多模型。",
-    "detail": "该项目基于 Vercel AI SDK 构建，提供代理循环、工具调用、依赖注入等功能。旨在以 Pydantic AI 的方式构建生产级 TS 应用。支持 Anthropic、OpenAI 等 50+ 模型，开源且文档完善，适合构建类型安全的 AI 应用。",
-    "tags": [
-      "Dev",
-      "TypeScript",
-      "OpenSource"
-    ],
-    "link": "https://github.com/a7ul/vibes",
-    "date": "2026-03-16",
-    "id": "17736284126932"
   }
 ]
