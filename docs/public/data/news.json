@@ -1,5 +1,83 @@
 [
   {
+    "title": "Show HN: Soul Protocol 开放标准实现 AI 智能体身份便携",
+    "summary": "提出开放标准解决 AI 智能体平台锁定问题，支持导出人格与记忆文件。",
+    "detail": "Soul Protocol 旨在彻底解决 AI 智能体被锁定在特定平台的核心痛点。通过定义全新的开放标准，它允许开发者将智能体的人格、记忆、技能和关系完整导出为.soul 文件（一种包含 JSON 的 ZIP 归档）。这意味着智能体可以在不同平台间无缝迁移，无需从头重建。该项目目前在 Hacker News 上展示，引发了社区对 AI 代理可移植性和互操作性的热烈讨论。这可能成为未来多智能体协作的基础设施标准，促进生态开放，让用户真正拥有自己的 AI 助手数据主权，避免厂商锁定风险。",
+    "tags": [
+      "New",
+      "Agent",
+      "OpenStandard"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47416740",
+    "date": "2026-03-17",
+    "id": "17737750679310"
+  },
+  {
+    "title": "OpenAI 接触私募股权基金拟加入企业 AI venture",
+    "summary": "OpenAI 寻求私募股权支持，加速企业级 AI 业务布局与资金筹措。",
+    "detail": "据财经新闻报道，OpenAI 正在积极接触私募股权公司，计划让其加入企业级 AI 风险投资项目。这一战略举动表明 OpenAI 正在寻求更多元化的资金来源，以支持其日益高昂的模型训练成本和商业化扩张需求。引入私募股权可能意味着 OpenAI 在企业级市场的战略将进一步深化，同时也反映了资本市场对 AI 基础设施长期价值的认可。此举可能显著影响 AI 行业的投资格局与竞争态势，显示巨头对 enterprise 市场的重视。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Finance"
+    ],
+    "link": "https://finance.yahoo.com/news/exclusive-openai-courts-private-equity-132509339.html",
+    "date": "2026-03-17",
+    "id": "17737750679311"
+  },
+  {
+    "title": "Consent.txt 统一 AI 内容访问策略编译工具",
+    "summary": "通过单一清单文件编译生成多种 AI 爬取协议，简化发布者权限管理。",
+    "detail": "针对内容发布者需要维护多种 AI 访问策略（如 robots.txt, AIPREF, Google-Extended 等）的复杂痛点，Consent.txt 提供了一个统一的控制平面解决方案。开发者只需编写一次 JSON 策略清单，编译器即可自动生成所有必要的协议表面文件。这大大降低了内容发布者管理 AI 爬取权限的复杂度，有助于规范 AI 训练数据的版权合规性。它是 AI 治理技术栈中的重要工具创新，简化了合规流程，让发布者能更有效地控制其内容如何被 AI 模型使用和训练。",
+    "tags": [
+      "Dev",
+      "Tool",
+      "Governance"
+    ],
+    "link": "https://github.com/GGeronik/consent-txt",
+    "date": "2026-03-17",
+    "id": "17737750679312"
+  },
+  {
+    "title": "生产级 AI 系统架构：网关与持久化工作流设计",
+    "summary": "专家解析生产环境 AI 架构，强调网关抽象与持久化工作流的重要性。",
+    "detail": "文章深入探讨了生产级 AI 系统的两层架构设计：AI 网关和持久化工作流引擎。网关负责抽象提供商、执行策略和跟踪成本，而工作流引擎确保长运行任务在失败后能恢复、暂停等待人工批准或确定性重放。作者结合 Temporal 经验指出，调用模型本身不难，难的是周边的路由、fallback、状态管理。这对构建稳定可靠的企业级 AI 应用具有极高的指导价值，适合工程师参考，帮助解决生产环境中常见的稳定性与成本失控问题。",
+    "tags": [
+      "Dev",
+      "Architecture",
+      "LLM"
+    ],
+    "link": "https://stevekinney.com/writing/ai-gateway-durable-workflows",
+    "date": "2026-03-17",
+    "id": "17737750679313"
+  },
+  {
+    "title": "Zalando 实战：利用 LLM 作为法官进行搜索质量保证",
+    "summary": "电商巨头 Zalando 分享使用 LLM 评估搜索相关性，加速新市场 launch。",
+    "detail": "Zalando 工程团队分享了在大尺度上使用 LLM-as-a-judge 框架进行搜索质量保证的实践案例。特别是在 2025 年拓展新国家市场时，面对缺乏真实用户搜索数据的挑战，利用 LLM 评估搜索结果语义相关性，替代了昂贵且不可扩展的人工专家标注。该案例展示了 LLM 在企业内部流程优化中的实际效用，为搜索工程团队快速识别和修复问题提供了自动化方案，提升效率。这证明了 AI 不仅能对外服务，也能显著优化内部研发流程与质量控制。",
+    "tags": [
+      "Dev",
+      "Enterprise",
+      "LLM"
+    ],
+    "link": "https://engineering.zalando.com/posts/2026/03/search-quality-assurance-with-llm-judge.html",
+    "date": "2026-03-17",
+    "id": "17737750679314"
+  },
+  {
+    "title": "五角大楼 reportedly 开发 Anthropic 替代方案",
+    "summary": "美国国防部计划开发替代 Anthropic 的 AI 模型，降低供应链依赖风险。",
+    "detail": "据 TechCrunch 报道，五角大楼正在开发替代 Anthropic 模型的方案，以减少对单一供应商的依赖。这一动向反映了政府机构对 AI 供应链安全的高度重视，旨在减少对外部商业大模型提供商的依赖风险。在地缘政治紧张的背景下，国防部门寻求自主可控的 AI 能力将成为趋势。这可能促使更多政府资金流向开源模型或本土化模型开发，影响 AI 行业的竞争格局，凸显国家安全层面对于 AI 技术可控性的战略考量与重要性。",
+    "tags": [
+      "News",
+      "Government",
+      "Security"
+    ],
+    "link": "https://techcrunch.com/2026/03/17/the-pentagon-is-developing-alternatives-to-anthropic-report-says/",
+    "date": "2026-03-17",
+    "id": "17737750679315"
+  },
+  {
     "title": "生产环境 AI Agent 可观测性完整指南",
     "summary": "解决 AI Agent 幻觉与行为漂移监控难题，填补传统监控空白。",
     "detail": "传统监控仅关注服务 uptime 与延迟，无法检测 Agent 幻觉或指令遗忘。本指南针对独立开发者，提出 AI Agent 可观测性的三大支柱，重点在于行为监控而非仅请求状态。通过追踪响应内容与一致性，防止类似“错误发放优惠码”的业务逻辑错误。文章详细解释了如何构建监控栈以识别 Agent 是否偏离训练目标，填补了当前工具链在语义一致性监控上的空白，确保生产环境 Agent 行为可控且可追溯。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/aklos/scryer",
     "date": "2026-03-16",
     "id": "17736669482481"
-  },
-  {
-    "title": "实战经验：将 AI Agent 迁移至无头 Mac Mini 的 72 小时",
-    "summary": "开发者分享将 AI Agent 从笔记本迁移到专用 Mac Mini 的实战经验，解决运行摩擦问题。",
-    "detail": "一位开发者详细记录了将 AI Agent 从个人笔记本电脑迁移到专用无头 Mac Mini 的全过程。主要动机是解决个人设备与 Agent 运行环境冲突的问题，如睡眠模式导致的中断。文章对比了 Raspberry Pi、Mac Studio 等选项，最终选择 Mac Mini 以保留 macOS 生态（AppleScript、权限管理等）。这一案例为本地部署 AI Agent 提供了宝贵的实战参考，强调了专用硬件对于长期稳定运行 Agent 的重要性。对于希望在本地构建持久化 AI 助手的开发者，该经验揭示了硬件选择、环境配置及生态系统兼容性方面的关键考量。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "Deployment"
-    ],
-    "link": "https://thoughts.jock.pl/p/mac-mini-ai-agent-migration-headless-2026",
-    "date": "2026-03-16",
-    "id": "17736669482482"
-  },
-  {
-    "title": "Mnemon-MCP：为 AI Agent 打造的四层本地记忆系统",
-    "summary": "基于 SQLite 和 FTS5 构建的本地记忆工具，解决 AI 重复记忆上下文的问题。",
-    "detail": "Mnemon-MCP 是一个专为 AI Agent 设计的本地记忆管理工具，采用四层架构，基于 SQLite 和 FTS5 技术构建。开发者因厌倦每天向 AI 重复解释项目栈、同事姓名及编码规则而创建此工具。它允许 AI  Agent 在本地持久化存储和检索上下文信息，显著减少了重复沟通成本。该项目通过 MCP 协议集成，使得 Claude Code 等工具能够直接访问结构化记忆。对于需要长期上下文记忆的复杂开发任务，Mnemon-MCP 提供了一种轻量级、高效的解决方案，提升了 AI 协作的连续性和智能化水平。",
-    "tags": [
-      "Dev",
-      "Memory",
-      "MCP"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47398382",
-    "date": "2026-03-16",
-    "id": "17736669482483"
-  },
-  {
-    "title": "Vibecheck：专为 AI 生成代码设计的 Lint 工具",
-    "summary": "GitHub 开源项目 Vibecheck 可检测 JS/TS/Python 代码中的 AI 生成异味，提升代码质量。",
-    "detail": "Vibecheck 是一个新的开源工具，被描述为\"AI 生成代码的 ESLint\"。它专门用于检测 JavaScript、TypeScript 和 Python 代码库中由 AI 生成的代码异味（code smells）。随着 AI 辅助编程的普及，代码库中混入了大量模式化但可能低效或存在隐患的 AI 生成代码。Vibecheck 旨在帮助开发者识别并清理这些\"AI slop\"，确保代码库的可维护性和质量。该工具反映了行业对 AI 生成代码质量控制的日益关注，为团队在享受 AI 编程效率的同时，提供了一道必要的质量防线。",
-    "tags": [
-      "Dev",
-      "Code Quality",
-      "Tools"
-    ],
-    "link": "https://github.com/yuvrajangadsingh/vibecheck",
-    "date": "2026-03-16",
-    "id": "17736669482484"
-  },
-  {
-    "title": "AI 时代的产品交付：四大预测与团队变革",
-    "summary": "行业分析指出 AI 将增加产品交付需求，团队结构及工程师培训方式将发生根本变化。",
-    "detail": "文章提出了 AI 如何改变产品交付的四大预测。核心观点包括：1. 产品创新需求将持续增加（杰文斯悖论），效率提升将转化为更多需求而非成本节省；2. 产品交付团队的形态将发生变化，技能组合和工作方式需调整；3. 新软件工程师的培训模式将重塑。文章强调，虽然生成式 AI 降低了交付成本，但组织不应仅视为削减成本的机会，而应 reinvest 以获取更多回报。这对技术领导者和企业管理者具有战略指导意义，提示需提前规划团队结构转型及人才发展策略，以适应 AI 驱动的开发新常态。",
-    "tags": [
-      "News",
-      "Industry Trends",
-      "Management"
-    ],
-    "link": "https://practical-leaders.com/articles/ai-predictions",
-    "date": "2026-03-16",
-    "id": "17736669482485"
-  },
-  {
-    "title": "Meta 股价上涨拟裁员，加码 AI 投入",
-    "summary": "Meta 盘前涨 3%，计划大规模裁员以增加 AI 支出。",
-    "detail": "Meta 在增加 AI 基础设施投入的同时计划大规模裁员，导致股价盘前上涨 3%。这反映了科技巨头在 AI 军备竞赛中的成本优化策略，即通过削减非核心人力来支撑高昂的算力与研发开支。行业影响深远，预示 AI 投入将成为企业首要战略，同时可能引发更多科技公司的人员结构调整，市场对此反应积极。此举表明 AI 转型期企业将面临资源重组，投资者更看好长期 AI 布局而非短期人力成本节约，为行业树立了资本配置新标杆。未来可能看到更多公司效仿此模式，将资源集中于核心 AI 竞争力，而剥离传统业务部门，重塑科技行业就业结构与估值逻辑。",
-    "tags": [
-      "News",
-      "Meta",
-      "AI Spending"
-    ],
-    "link": "https://www.cnbc.com/2026/03/16/meta-ai-costs-mass-layoffs-20percent-up-premarket.html",
-    "date": "2026-03-16",
-    "id": "17736618648960"
-  },
-  {
-    "title": "ElevenLabs 耗资 10 亿美元恢复 100 万声音",
-    "summary": "AI 独角兽 ElevenLabs 启动 10 亿美元项目，旨在恢复百万声音。",
-    "detail": "AI 语音独角兽 ElevenLabs 宣布投入 10 亿美元用于恢复 100 万个声音，并将推出 11 集纪录片。该项目展示了生成式 AI 在音频领域的商业化潜力与文化保护应用。大规模声音恢复计划不仅技术难度高，也涉及伦理与版权考量，标志着语音 AI 从生成向修复与 preservation 领域扩展，行业关注度极高。此举可能推动音频数据资产化，为影视、游戏及历史档案数字化提供新范式，凸显 AI 人文价值。同时，纪录片营销将增强品牌影响力，探索 AI 伦理边界，引导公众对声音克隆技术的认知与接受度，为语音合成行业建立新的道德与技术标准。",
-    "tags": [
-      "News",
-      "ElevenLabs",
-      "Voice AI"
-    ],
-    "link": "https://www.forbes.com/sites/zoyahasan/2026/03/13/ai-unicorn-elevenlabs-is-making-a-1-billion-effort-to-restore-1-million-voices-and-launching-an-11-part-docuseries/",
-    "date": "2026-03-16",
-    "id": "17736618648961"
   }
 ]
