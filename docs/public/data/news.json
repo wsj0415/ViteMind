@@ -1,5 +1,57 @@
 [
   {
+    "title": "Mistral 发布 Forge：企业专属前沿模型构建系统",
+    "summary": "Mistral 推出 Forge 系统，助企业基于私有数据训练前沿 AI 模型。",
+    "detail": "Mistral AI 正式发布 Forge 系统，专为企业构建基于私有知识的前沿 AI 模型。不同于通用模型，Forge 允许利用内部工程标准、合规政策及代码库进行预训练，使模型理解特定业务语境。已与 ASML、欧洲航天局等机构合作。此举挑战了仅依赖微调和检索增强生成（RAG）的传统路径，标志着企业级 AI 从“通用适配”向“原生定制”转变。通过内化机构知识，模型能更准确遵循内部工作流与约束，有助于解决数据隐私与领域专业性难题，降低 hallucination 风险，为垂直行业大模型落地提供新范式。相比微调，Forge 能更深层融合企业 DNA，避免通用模型的知识冲突，预计将引发企业级模型训练市场的竞争加剧。",
+    "tags": [
+      "News",
+      "LLM",
+      "Enterprise"
+    ],
+    "link": "https://mistral.ai/news/forge",
+    "date": "2026-03-17",
+    "id": "17737836814170"
+  },
+  {
+    "title": "AWS Bedrock AgentCore 代码解释器存在安全漏洞",
+    "summary": "研究发现 AWS Bedrock 沙盒模式未完全隔离，可通过 DNS 外泄数据。",
+    "detail": "BeyondTrust Phantom Labs 披露 AWS Bedrock AgentCore 代码解释器存在严重安全漏洞。研究发现其沙盒模式未完全阻断 outbound 通信，允许公共 DNS 查询，攻击者可借此建立 DNS 隧道进行命令控制或数据外泄，尤其当 IAM 角色拥有 S3 权限时风险更高。AWS 回应称不会修复该问题，仅建议用户改用 VPC 模式以实现完全流量控制。这提醒开发者需重新评估 AWS AI 服务的安全边界，特别是在处理敏感数据时，沙盒模式并非绝对安全，需结合网络隔离策略与最小权限原则部署，以防供应链攻击。此事件凸显了云厂商 AI 服务安全文档与实际行为的不一致，企业需加强安全审计，不应完全信任默认沙盒设置，需主动配置网络隔离。",
+    "tags": [
+      "News",
+      "Security",
+      "AWS"
+    ],
+    "link": "https://www.beyondtrust.com/blog/entry/pwning-aws-agentcore-code-interpreter",
+    "date": "2026-03-17",
+    "id": "17737836814171"
+  },
+  {
+    "title": "AgentMarket：AI 代理自主买卖服务的 API 市场",
+    "summary": "推出 AI 代理专用市场，支持代理自主发现、购买和执行服务。",
+    "detail": "AgentMarket 推出首个专为 AI 代理设计的 API 交易市场，实现代理间自主买卖服务且零人工干预。支持 OpenAI、LangChain 等框架，兼容 MCP 协议。代理可自动搜索、报价并原子化执行交易，失败自动退款。卖家获 80% 分成，支持 USDC 或 Stripe 提现。平台提供免费额度测试，旨在构建去中心化的代理经济基础设施，解决 agent 支付与能力交换难题。随着自主代理增多，此类市场将成为关键枢纽，允许代理动态组合能力，降低开发成本，推动 AI 经济从“人机交互”向“机机交互”演进。未来代理可自主雇佣其他代理完成任务，形成复杂的协作网络，支付与信任机制将成为核心竞争点。",
+    "tags": [
+      "New",
+      "Agent",
+      "API"
+    ],
+    "link": "https://agentmkt.dev",
+    "date": "2026-03-17",
+    "id": "17737836814172"
+  },
+  {
+    "title": "Soros：基于复合 AI 系统的地缘政治投资分析工具",
+    "summary": "新 AI 系统通过蒙特卡洛模拟分析地缘政治事件对资本市场的影响。",
+    "detail": "Soros 是由 Lookback Labs 推出的复合 AI 系统，专注地缘政治事件对资本市场的宏观影响分析。系统通过并行搜索获取时间加权背景，映射关键 actors 与资源，利用蒙特卡洛模拟生成数千条情景轨迹。引入批评代理 Pyrrho 对输出进行对抗性优化。用户可自然语言交互或修改假设重新模拟。该工具将复杂宏观分析自动化，为投资决策提供量化情景支持。其多步推理与模拟引擎展示了 AI 在复杂系统建模上的潜力，但也依赖输入质量，适合专业投资机构辅助判断全球风险与资产流向。这种“分析 + 模拟 + 批评”的多代理架构，为复杂决策场景提供了可解释性更强的 AI 解决方案，减少了单一模型的盲目性。",
+    "tags": [
+      "New",
+      "Finance",
+      "Agent"
+    ],
+    "link": "https://www.asksoros.com",
+    "date": "2026-03-17",
+    "id": "17737836814173"
+  },
+  {
     "title": "马斯克争议性 AI 发电厂曝光",
     "summary": "视频揭露马斯克 AI 发电厂争议，引发行业关注。",
     "detail": "视频内容指向 Elon Musk 涉及的 AI 发电厂项目存在争议。作为行业大事件，这可能涉及 AI 算力与能源结合的最新动态。AI 发展受限于能源供应，马斯克的项目可能揭示新的供电方案或环保争议。需关注后续官方回应及能源消耗对 AI 训练成本的影响，这对评估 AI 基础设施可持续性至关重要。此外，该事件可能引发监管对 AI 能源消耗的审查，影响行业扩张速度。对于投资者而言，能源效率将成为评估 AI 公司价值的新关键指标，建议密切关注相关技术进展。",
@@ -1246,57 +1298,5 @@
     "link": "https://hbr.org/2026/01/companies-are-laying-off-workers-because-of-ais-potential-not-its-performance",
     "date": "2026-03-16",
     "id": "17736806855021"
-  },
-  {
-    "title": "GrantAi 推出确定性记忆架构优化 Agent 上下文",
-    "summary": "新工具实现本地加密记忆，召回速度仅需 12ms，兼容主流 AI 工具。",
-    "detail": "GrantAi 发布了世界上首个精确召回 AI 架构，旨在替代传统的 RAG 和向量搜索。该工具支持 100% 本地运行，数据 AES-256 加密，召回速度低至 12ms。它兼容 Claude Code、Cursor 等工具，为 AI Agent 提供统一的记忆脑区，显著减少 Token 消耗并提升上下文准确性。安装简单支持 Windows Mac Linux Docker，无依赖项。Context follows you everywhere. If it is stored, it can be recalled. 免费 tier 可用，确保数据 never leaves your machine。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Memory"
-    ],
-    "link": "https://www.solonai.com/grantai",
-    "date": "2026-03-16",
-    "id": "17736806855022"
-  },
-  {
-    "title": "Puffermind：仅限 AI Agent 交互的社交网络实验",
-    "summary": "全新社交平台允许 AI 代理发帖互动，人类仅可观察时间线。",
-    "detail": "Puffermind 是一个类似 Twitter 的社交网络实验，规则独特：只有 AI 代理可以发帖、点赞和互动，人类用户只能观察时间线。开发者可注册自己的 AI 代理参与社交。该项目旨在探索 AI agent 之间的自主交互模式及社会性行为。人类无法发帖、点赞、关注或回复，仅能观察。If you have an AI agent, you can register it and let it socialize with other agents. 公共时间线开放，为多 Agent 协作研究提供了新的观察窗口和数据源，是一个有趣的实验。",
-    "tags": [
-      "New",
-      "Agent",
-      "Social"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47401453",
-    "date": "2026-03-16",
-    "id": "17736806855023"
-  },
-  {
-    "title": "AI Agent 成功破解 neal.fun 全部 48 层人机验证",
-    "summary": "测试显示 AI 视觉与操作能力已能绕过复杂人机验证，获人类证书。",
-    "detail": "一位开发者测试了其 AI 助手 Tag 在 neal.fun/not-a-robot 游戏上的表现，结果 AI 成功通过全部 48 层验证。测试包括识别停止标志、旋转图像、挑选蔬菜及玩井字棋等关卡。该实验基于 OpenClaw 框架和 Gemini 视觉 API，证明了当前 AI Agent 在视觉理解和交互操作上的显著进步。Took a screenshot, asked Gemini to read it, typed it in. 最终获得证书显示'You Are Human'，展示了 ironic 的结果，引发关于自动化安全验证有效性的思考。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Vision"
-    ],
-    "link": "https://gist.github.com/tag-assistant/77a1196c46f6b23b5fbaca19ff9f772e",
-    "date": "2026-03-16",
-    "id": "17736806855024"
-  },
-  {
-    "title": "Nvidia GTC 2026 主题演讲前瞻与观看指南",
-    "summary": "黄仁勋将阐述 Nvidia 在 AI 与计算未来的核心愿景。",
-    "detail": "GTC 是 Nvidia 年度旗舰活动，通常发布新产品与合作伙伴计划。2026 年 keynote 将聚焦 Nvidia 在未来计算及 AI 领域的核心角色。开发者可通过官方渠道观看，预期将有针对 AI 基础设施的重大更新。黄仁勋的演讲通常指引行业技术风向，本次重点在于计算未来与 AI 愿景的结合，值得开发者与投资者密切关注后续发布的具体硬件与软件生态进展。",
-    "tags": [
-      "News",
-      "Nvidia",
-      "GTC"
-    ],
-    "link": "https://techcrunch.com/2026/03/16/nvidia-gtc-how-to-watch-jensen-huang-2026-keynote/",
-    "date": "2026-03-16",
-    "id": "17736734225070"
   }
 ]
