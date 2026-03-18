@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 代理通过 MCP 在微控制器上部署边缘模型",
+    "summary": "AI 代理借助 MCP 协议，90 分钟内完成微控制器上的边缘 AI 部署，无需手写代码。",
+    "detail": "该实验展示了 AI Agent 通过调试探针访问硬件的能力。利用 Model Context Protocol (MCP)，代理在 90 分钟内完成了从训练到微控制器部署的全流程，实现了 98ms 延迟和 94.6% 准确率。这标志着硬件部署门槛的降低，开发者可更专注于量化调优而非底层配置，展示了 Agent 操作硬件的潜力。",
+    "tags": [
+      "Dev",
+      "Edge AI",
+      "MCP"
+    ],
+    "link": "https://es617.github.io/2026/03/16/edge-ai-mcp.html",
+    "date": "2026-03-18",
+    "id": "17738533993830"
+  },
+  {
+    "title": "Google Workspace 值得使用的 Gemini 功能评测",
+    "summary": "TechCrunch 评测 Google Workspace 中 Gemini 的实用功能，涵盖文档总结与内容起草。",
+    "detail": "Google 已将 Gemini 深度集成至 Docs、Gmail 等组件。评测指出最具价值的功能包括自动摘要、\"Help me create\"草稿生成及风格匹配。这些工具能显著提升信息管理与内容创作效率，适合日常办公场景，标志着 AI 在生产力工具中的落地趋于成熟，为用户提供了具体的使用指南。",
+    "tags": [
+      "News",
+      "Google",
+      "Productivity"
+    ],
+    "link": "https://techcrunch.com/2026/03/18/the-gemini-powered-features-in-google-workspace-that-are-worth-using/",
+    "date": "2026-03-18",
+    "id": "17738533993831"
+  },
+  {
+    "title": "Packet28：AI 编程代理的上下文中间件",
+    "summary": "新工具 Packet28 作为上下文代理，可将大型代码库的 Token 消耗减少 164 倍。",
+    "detail": "Packet28 是一款针对 AI 编程代理的上下文层工具。它通过钩子减少器和握手包压缩跨轮次记忆，支持 Claude Code、Cursor 等主流工具。核心功能包括代码库结构映射、测试覆盖率感知及 Token 预算控制，旨在解决大代码库下 Agent 上下文过长的问题，提升编码效率与准确性。",
+    "tags": [
+      "New",
+      "DevTools",
+      "Coding Agent"
+    ],
+    "link": "https://packet28.dev/",
+    "date": "2026-03-18",
+    "id": "17738533993832"
+  },
+  {
+    "title": "AI 辅助形式化验证 Move 借用检查器",
+    "summary": "研究者利用 AI 助手在一个月内完成 3.9 万行 Lean 代码，验证了 Move 借用检查器。",
+    "detail": "这是一项 AI 辅助编程语言元理论的实验。研究者使用 AI 编码助手在不到一个月内形式化并证明了 Move 语言新借用检查器的正确性，共计 3.9 万行机械化元理论代码。该案例展示了 AI 在形式化验证领域的潜力，可能加速编程语言安全性的研究进程，为 PL 研究提供新范式。",
+    "tags": [
+      "Dev",
+      "Formal Verification",
+      "Research"
+    ],
+    "link": "https://proofsandintuitions.net/2026/03/18/move-borrow-checker-lean/",
+    "date": "2026-03-18",
+    "id": "17738533993833"
+  },
+  {
+    "title": "英国政府因艺术家反对撤回 AI 版权提案",
+    "summary": "英国政府在艺术家强烈反对后，撤回允许 AI 训练使用版权作品的初始立场。",
+    "detail": "英国政府最初计划允许 AI 公司在选择退出机制下使用版权作品训练模型，但遭到 Elton John 等艺术家强烈反对。科技秘书宣布不再青睐该方案，目前立场暂未明确。此举旨在平衡创意产业与 AI 行业发展，反映了全球 AI 版权监管的博弈与不确定性，对行业影响深远。",
+    "tags": [
+      "News",
+      "Policy",
+      "Copyright"
+    ],
+    "link": "https://www.bbc.co.uk/news/articles/cvg1gr5v333o",
+    "date": "2026-03-18",
+    "id": "17738533993834"
+  },
+  {
     "title": "Flint：Rust 应用的本地 AI 运行时",
     "summary": "全新 Rust 库 Flint 允许开发者在无网络、无 API 密钥情况下运行本地 AI 推理。",
     "detail": "Flint 是一个专为 Rust 应用设计的本地 AI 运行时库（v0.1.0），支持直接集成 GGUF 模型（如 TinyLlama）。其核心优势在于零延迟、默认隐私保护及无 API 成本。Flint 自动适配 Apple Silicon、NVIDIA CUDA 或 AMD ROCm 硬件，无需 Docker 或复杂配置。一旦下载模型，即可完全离线运行，适用于对数据隐私要求极高的医院、工厂等场景，为开发者提供了低成本部署本地 LLM 的新方案。",
@@ -1233,70 +1298,5 @@
     "link": "https://addyosmani.com/blog/comprehension-debt/",
     "date": "2026-03-17",
     "id": "17737415405343"
-  },
-  {
-    "title": "英国 AISI 测试前沿 AI 代理网络攻击能力",
-    "summary": "政府机构评估显示 AI 模型自主网络攻击能力显著增强。",
-    "detail": "英国 AI 安全研究所（AISI）在模拟网络环境中测试了 7 款前沿模型，评估其自主网络攻击能力。结果显示，从 GPT-4o 到 Opus 4.6，模型在 multi-step 攻击链中的完成步骤从 1.7 大幅增至 9.8。增加推理计算预算可进一步提升性能，最佳运行甚至完成了部分专家需 14 小时的任务。这表明前沿 AI 代理已具备执行复杂网络攻击的潜力，降低了攻击门槛，引发对 AI 安全与自主代理监管的迫切关注。需加强防御机制，防止恶意利用。",
-    "tags": [
-      "News",
-      "Security",
-      "AI Safety"
-    ],
-    "link": "https://www.aisi.gov.uk/blog/how-do-frontier-ai-agents-perform-in-multi-step-cyber-attack-scenarios",
-    "date": "2026-03-17",
-    "id": "17737415405344"
-  },
-  {
-    "title": "TransDuck：无需密钥的开源 AI 翻译框架",
-    "summary": "开源 AI 翻译框架，支持缓存与上下文，无需管理密钥。",
-    "detail": "TransDuck 是一个开源翻译框架，利用 AI 实时翻译应用字符串并本地缓存，避免重复付费。支持 Python 和 JavaScript，无需管理 API 密钥。通过上下文理解歧义（如\"Book\"），支持变量插值与复数形式生成。旨在简化开发者国际化流程，实现“包裹字符串即可使用”的便捷体验，适合需要快速集成多语言支持的 AI 原生应用。该工具解决了传统翻译文件同步头痛问题，首次调用 AI 后后续调用 instant 从缓存读取，显著降低成本并提高速度。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Translation"
-    ],
-    "link": "https://github.com/timnilson/transduck/",
-    "date": "2026-03-17",
-    "id": "17737378495770"
-  },
-  {
-    "title": "开发者 solo 构建 4 万行 AI 原生全栈平台",
-    "summary": "开发者利用 AI 代理 solo 构建 4 万行全栈平台，效率显著提升。",
-    "detail": "开发者 Austin French 展示 AI 原生开发威力，solo 构建 4 万行全栈平台。包含 8 个 GPU 驱动 AI 工具、预订与发票系统。AI 工作流确立后，commit 数激增，3 个月内完成大部分代码。功能如发票系统 37 秒合并，预订系统 5 分钟合并。证明 2026 年 AI 辅助编程可极大加速独立开发，代码库非线性增长，审计与修复亦可通过 AI 会话完成。",
-    "tags": [
-      "Dev",
-      "Productivity",
-      "Rails"
-    ],
-    "link": "https://austn.net/blog/building-an-ai-native-web-platform",
-    "date": "2026-03-17",
-    "id": "17737378495772"
-  },
-  {
-    "title": "中美 AI 战略差异：中国侧重效率与物理整合",
-    "summary": "中美 AI 战略差异，中国侧重效率与物理整合而非单纯 AGI。",
-    "detail": "布鲁金斯学会分析中美 AI 战略差异。美国专注 AGI 竞赛，巨头投入数千亿建数据中心。中国则侧重效率、adoption 与物理整合，受行业约束与政策驱动。虽也构建基础模型，但较少讨论抽象 AGI 转折点。中国开发者在算力受限下追求高效能，代表另一种 AI 未来赌注。美国四大 hyperscalers 今年 AI 支出达 6500 亿美元，而中国路径更注重实际落地与基础设施整合。",
-    "tags": [
-      "News",
-      "Geopolitics",
-      "Strategy"
-    ],
-    "link": "https://www.brookings.edu/articles/china-is-running-multiple-ai-races/",
-    "date": "2026-03-17",
-    "id": "17737378495773"
-  },
-  {
-    "title": "Clawforge：OpenClaw 与 NVIDIA 结合的 SaaS 套件",
-    "summary": "OpenClaw 与 NVIDIA 结合的 SaaS starter 套件，支持本地工作流。",
-    "detail": "Clawforge 是 OpenClaw 与 NVIDIA 结合的 SaaS starter 套件。支持在 Docker 中运行 OpenClaw，使用 NVIDIA 托管 API 模型而非本地 GPU 推理。包含审计优先 wiring、架构与企业级交付技能。默认集成 Nemotron-3 等大模型，提供审计、规划与修复的 starter prompts。适合希望在 NVIDIA 生态上构建本地 AI SaaS 工作流的开发者，简化部署与模型调用流程。",
-    "tags": [
-      "Dev",
-      "SaaS",
-      "NVIDIA"
-    ],
-    "link": "https://github.com/autopilotaitech/clawforge-saas-starter",
-    "date": "2026-03-17",
-    "id": "17737378495774"
   }
 ]
