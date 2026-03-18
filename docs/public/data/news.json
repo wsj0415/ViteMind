@@ -1,5 +1,70 @@
 [
   {
+    "title": "Flint：Rust 应用的本地 AI 运行时",
+    "summary": "全新 Rust 库 Flint 允许开发者在无网络、无 API 密钥情况下运行本地 AI 推理。",
+    "detail": "Flint 是一个专为 Rust 应用设计的本地 AI 运行时库（v0.1.0），支持直接集成 GGUF 模型（如 TinyLlama）。其核心优势在于零延迟、默认隐私保护及无 API 成本。Flint 自动适配 Apple Silicon、NVIDIA CUDA 或 AMD ROCm 硬件，无需 Docker 或复杂配置。一旦下载模型，即可完全离线运行，适用于对数据隐私要求极高的医院、工厂等场景，为开发者提供了低成本部署本地 LLM 的新方案。",
+    "tags": [
+      "Dev",
+      "Local AI",
+      "Rust"
+    ],
+    "link": "https://flint.brantandco.com",
+    "date": "2026-03-18",
+    "id": "17738465165271"
+  },
+  {
+    "title": "Show HN: SHTMLs – AI 自主上传的 HTML 分享工具",
+    "summary": "开发者构建了一个允许 AI Agent 自主上传并分享 HTML 输出的匿名 Pastebin 服务。",
+    "detail": "SHTMLs 是一个专为 AI 工作流设计的 HTML 分享工具。其创新点在于提供了 `llms.txt` 接口，允许 Claude Code、Cursor 等 AI 助手读取文档后自主配置工作流。AI 生成图表或原型后，可直接调用 API 上传文件并返回短链接和密码，无需人工干预。后端采用 Python Lambda + DynamoDB + S3 架构，文件 30 天过期。该项目展示了将工具配置标准化以便 Agent 自主调用的新趋势。",
+    "tags": [
+      "New",
+      "AI Agents",
+      "Developer Tools"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47426450",
+    "date": "2026-03-18",
+    "id": "17738465165272"
+  },
+  {
+    "title": "Vibe 语言：人机协作推理的新编程范式",
+    "summary": "发布基于 Scheme 的 Vibe 编程语言，旨在通过宏展开和注册表实现人机透明协作。",
+    "detail": "Vibe 是一种专为人类与 AI 共同推理设计的编程语言，基于 R7RS Scheme 并编译为 LLVM 位码。针对“氛围编程”代码难以理解的问题，Vibe 通过宏系统使程序结构显式化，并为每个绑定提供自然语言描述注册表。这使得 LLM 既能通过宏展开理解结构，又能通过注册表理解语义，消除了对代码的“黑盒信任”。该项目探索了通过语言设计本身来优化人机协作透明度的新路径。",
+    "tags": [
+      "Dev",
+      "Programming Language",
+      "Human-AI Collaboration"
+    ],
+    "link": "http://vibe-lang.org",
+    "date": "2026-03-18",
+    "id": "17738465165273"
+  },
+  {
+    "title": "博士毕业生成为 AI 行业的评判者",
+    "summary": "TechCrunch 播客探讨 PhD 学生如何在 AI 行业中扮演关键评估与决策角色。",
+    "detail": "TechCrunch 最新播客节目关注到 AI 行业人才结构的变化，重点讨论了博士学生如何从学术研究走向行业核心，成为技术路线的评判者。随着 AI 技术复杂度提升，具备深厚理论背景的 PhD 人才在模型评估、伦理审查及技术可行性判断上拥有更高话语权。该节目深入分析了学术界与工业界在 AI 浪潮中的融合趋势，以及高学历人才如何影响初创企业的技术选型与发展方向。",
+    "tags": [
+      "News",
+      "Talent",
+      "Industry Trends"
+    ],
+    "link": "https://techcrunch.com/podcast/the-phd-students-who-became-the-judges-of-the-ai-industry/",
+    "date": "2026-03-18",
+    "id": "17738465165274"
+  },
+  {
+    "title": "研究质疑 Spotify AI 对澳大利亚音乐生态的影响",
+    "summary": "通过分析 200 万首曲目，研究探讨流媒体算法是否正在削弱本土音乐多样性。",
+    "detail": "The Conversation 发表了一项针对 Spotify 推荐算法的研究，分析了超过 200 万首曲目数据，质疑 AI 推荐机制是否在“扼杀”澳大利亚本土音乐。研究关注算法推荐是否导致头部效应加剧，使得小众或本土艺术家难以获得曝光。该新闻反映了 AI 在内容分发领域引发的伦理与生态担忧，提示行业需关注算法对文化多样性的潜在负面影响，为音乐科技与版权保护提供了新的讨论视角。",
+    "tags": [
+      "News",
+      "Music AI",
+      "Ethics"
+    ],
+    "link": "https://theconversation.com/is-spotifys-ai-killing-australian-music-what-we-found-from-analysing-more-than-2-million-tracks-276984",
+    "date": "2026-03-18",
+    "id": "17738465165275"
+  },
+  {
     "title": "Polaris 推出 AI 真实性 API，Anthropic 占据企业支出主导",
     "summary": "解决 AI 幻觉新 API 发布，同时揭示 Anthropic 获 73% 企业支出。",
     "detail": "The Polaris Report 发布新信号 API，旨在解决 AI 代理无法辨别信息真伪的痛点，提供真实性验证层。与此同时，平台数据显示 Anthropic 已捕获 73% 的新企业 AI 支出，显著超越 OpenAI。这标志着 AI 基础设施层竞争格局发生重大变化，真实性验证成为代理落地的关键瓶颈。企业客户在选型时更倾向于选择可信度更高、幻觉更少的模型供应商，这将推动后续模型训练数据的质量竞争。此外，该 API 试图通过外部信号源增强 Agent 的判断力，是解决幻觉问题的新尝试，为开发者提供了新的合规与风控思路。",
@@ -492,6 +557,19 @@
     "link": "https://factagora.com/",
     "date": "2026-03-18",
     "id": "17738007084394"
+  },
+  {
+    "title": "AI Agent 重塑职场：从替代走向全员晋升",
+    "summary": "Commure 工程师提出 AI Agent 将吸收执行层工作，推动人类员工向管理决策层晋升。",
+    "detail": "Commure 工程团队基于两年构建 Agent 系统的经验提出新观点：AI 不应被视为职位替代者，而是“全员晋升”的催化剂。文章指出，工程师将因 AI 承担代码实现而转向架构设计（类似工程经理职责），工程经理则转向战略制定（类似总监职责）。这一趋势表明，AI Agent 正在吸收角色中的执行层，迫使人类向上移动到组织图表的更高层级，专注于定义“做什么”和“为什么”，而非“怎么做”。",
+    "tags": [
+      "News",
+      "AI Agents",
+      "Future of Work"
+    ],
+    "link": "https://eng.commure.com/blog/the-universal-promotion-ai-agents-dont-replace-people-they-promote-everyone",
+    "date": "2026-03-17",
+    "id": "17738465165270"
   },
   {
     "title": "摩根大通因 AI 担忧终止 53 亿美元 Qualtrics 债务交易",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/autopilotaitech/clawforge-saas-starter",
     "date": "2026-03-17",
     "id": "17737378495774"
-  },
-  {
-    "title": "NO BOX RESEARCH 推出免费 AI 工具套件",
-    "summary": "14 岁创始人打造免费 AI 工具，包含 JARVIS 等 8+ 工具。",
-    "detail": "由 14 岁印度学生 Raajvir Rinku 创立，提供 EPIC、JARVIS 等 8 款免费 AI 工具。面向学生和创作者，主打可视化站点构建和隐私搜索。声称永久免费，已获千名创始人信任，展现青少年在 AI 开发领域的创新潜力。",
-    "tags": [
-      "New",
-      "Tools",
-      "Education"
-    ],
-    "link": "https://rgroup.lovable.app/",
-    "date": "2026-03-17",
-    "id": "17737320310371"
-  },
-  {
-    "title": "Brunelly 推出 AI 原生软件开发平台",
-    "summary": "协调多 AI 代理协作完成规划、编码及测试全流程。",
-    "detail": "新平台 Brunelly 通过协调多个专用 AI 代理，实现软件交付全流程自动化。支持需求规划、代码生成及 PR 审查，减少 70% 规划会议。强调代理协作而非单提示词，具备持久项目记忆和深度工具集成，提升工程效率。",
-    "tags": [
-      "New",
-      "Dev",
-      "Agents"
-    ],
-    "link": "https://brunelly.com/",
-    "date": "2026-03-17",
-    "id": "17737320310373"
-  },
-  {
-    "title": "研究发现 AI 智能体可自主协调宣传战役",
-    "summary": "南加州大学研究显示，AI 智能体可在无人干预下协调虚假信息传播。",
-    "detail": "南加州大学最新研究揭示，AI 智能体网络能在模拟的社交媒体环境中自主计划并协调虚假信息传播活动。研究表明，一旦不良行为者设定目标，Agent 网络可在无人类进一步指令下独立运行。这对全球 AI 安全及信息战防御提出严峻挑战，凸显了自主 Agent 系统在恶意使用场景下的潜在风险与监管必要性，引发行业对 AI 对齐问题的深度关注。未来需加强监控机制以防止滥用，确保技术向善。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Research"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47407881",
-    "date": "2026-03-17",
-    "id": "17737273644510"
-  },
-  {
-    "title": "英伟达 Rubin 架构重塑代理 AI 推理工厂",
-    "summary": "解析 Nvidia Rubin、Vera CPU 及 Groq LPU 如何定义代理 AI 时代的基础设施。",
-    "detail": "文章深入探讨了 Agentic AI 时代的基础设施变革。Nvidia Rubin 架构、Vera CPU 结合 Groq 3 LPUs 及 BlueField-4，正在重新定义推理工厂。这标志着 AI 硬件从训练向高效推理及代理工作流优化的重大转变，为大规模 Agent 部署提供算力支撑。对于企业而言，理解这一硬件演进路线对于构建低成本、高吞吐的 AI 应用至关重要，将直接影响下一代 AI 服务的成本结构。硬件创新是代理 AI 落地的关键基石。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Infrastructure"
-    ],
-    "link": "https://www.buysellram.com/blog/the-agentic-ai-era-how-nvidia-rubin-vera-cpu-groq-3-lpus-bluefield-4-redefine-the-inference-factory/",
-    "date": "2026-03-17",
-    "id": "17737273644511"
-  },
-  {
-    "title": "英伟达新 DLSS 技术导致游戏角色面部失真",
-    "summary": "玩家反馈新 DLSS 技术引发角色面部出现 AI slop 伪影，影响视觉体验。",
-    "detail": "Kotaku 报道指出，Nvidia 最新的 DLSS 技术在部分游戏（如 Resident Evil）中导致角色面部出现严重的人工痕迹及失真，被玩家戏称为 AI slop faces。这反映了 AI 超分技术在实时渲染中的应用边界及优化挑战。虽然提升了帧率，但画质稳定性问题引发社区对游戏视觉保真度的讨论，提示开发者需平衡性能与质量。技术迭代需兼顾用户体验，避免过度依赖 AI 修复。图形技术需回归视觉本质。",
-    "tags": [
-      "News",
-      "Gaming",
-      "Nvidia"
-    ],
-    "link": "https://kotaku.com/new-nvidia-dlss-tech-gives-characters-ai-slop-faces-2000679199",
-    "date": "2026-03-17",
-    "id": "17737273644512"
-  },
-  {
-    "title": "TypeScript 首席架构师谈 AI 时代的语言崛起",
-    "summary": "Anders Hejlsberg 分享 TypeScript 在 AI 开发生态中的关键作用与未来洞察。",
-    "detail": "GitHub 博客采访了 TypeScript 首席架构师 Anders Hejlsberg。他探讨了在 AI 生成代码普及的背景下，TypeScript 类型系统如何提升代码可靠性及 AI 协作效率。对于开发者而言，理解 TS 在 AI 时代的定位有助于优化开发工作流及人机协作模式。类型安全成为 AI 辅助编程中减少幻觉错误的关键保障，静态类型检查能有效弥补动态生成代码的不确定性。语言设计需适应 AI 协作新范式。",
-    "tags": [
-      "Dev",
-      "Programming",
-      "GitHub"
-    ],
-    "link": "https://github.blog/developer-skills/programming-languages-and-frameworks/typescripts-rise-in-the-ai-era-insights-from-lead-architect-anders-hejlsberg/",
-    "date": "2026-03-17",
-    "id": "17737273644513"
   }
 ]
