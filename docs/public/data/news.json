@@ -1,5 +1,70 @@
 [
   {
+    "title": "英伟达推出空间计算平台，将 AI 带入轨道",
+    "summary": "英伟达发布空间计算技术，旨在支持轨道 AI 应用与自主机器。",
+    "detail": "英伟达正式宣布 launch Space Computing，标志着 AI 基础设施向太空延伸。该技术旨在为卫星、空间站等轨道设备提供高性能计算支持，赋能自主机器人在极端环境下的决策能力。结合其 Autonomous Machines 与 Cloud & Data Center 平台，此举不仅扩展了数据中心边界，更预示了太空经济与 AI 融合的加速。通过云端与轨道算力的协同，未来深空探测及轨道服务将获得实时智能处理能力，重构空间任务架构，为航天工业带来颠覆性变革，奠定算力基础。此次发布涵盖了 Autonomous Machines 及 Deep Learning & AI 平台整合，显示英伟达正构建全场景 AI 生态，推动技术边界不断拓展。",
+    "tags": [
+      "News",
+      "Nvidia",
+      "Infrastructure"
+    ],
+    "link": "https://nvidianews.nvidia.com/news/space-computing",
+    "date": "2026-03-18",
+    "id": "17738007084390"
+  },
+  {
+    "title": "UC Irvine 研究：涂鸦雨伞可欺骗 AI 无人机",
+    "summary": "研究人员发现物理攻击手段，利用特定图案雨伞干扰自主追踪系统。",
+    "detail": "加州大学欧文分校发布论文 FlyTrap，揭示了一种针对相机自主追踪系统的物理距离拉扯攻击。研究发现，通过特定图案的涂鸦雨伞可误导 AI 无人机判断距离与目标，使其产生误判。这暴露了当前视觉 AI 在物理对抗样本面前的脆弱性，对自动驾驶及安防无人机的安全性提出严峻挑战。研究强调了在真实物理环境中部署视觉模型的风险，亟需加固鲁棒性，推动对抗性防御技术的发展，保障自主系统安全。该论文属于 Cryptography and Security 类别，提供了具体的攻击向量分析，为防御策略提供理论依据，警示行业重视物理层安全威胁。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Research"
+    ],
+    "link": "https://arxiv.org/abs/2509.20362",
+    "date": "2026-03-18",
+    "id": "17738007084391"
+  },
+  {
+    "title": "Elida 发布 AI 代理会话边界控制器，强化企业安全",
+    "summary": "推出专为 AI SOC 和 SRE 代理设计的边界控制器，管理会话与策略。",
+    "detail": "Elida 推出针对 AI 代理的 Session Border Controller (SBC)，旨在解决企业部署 AI SOC 和 SRE 代理时的安全管控问题。通过策略引擎和会话记录，它提供了类似电信级的控制能力，确保代理行为符合安全规范。这对于防止代理越权操作、审计交互流程至关重要。随着企业级 AI 代理规模扩大，此类边界控制器将成为标准配置，管理 voice 与 WebSocket 连接，是 AI 代理企业级落地的关键基础设施，保障运维安全。支持 Docker 部署及 Enterprise Deployment，适应不同规模的企业需求。该工具开源可用，帮助开发者构建更安全的代理架构，防止潜在的安全漏洞被利用，提升整体系统韧性。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://elida.dev/blog/2026/03/15/your-ai-soc-and-sre-agents-need-a-border-controller/",
+    "date": "2026-03-18",
+    "id": "17738007084392"
+  },
+  {
+    "title": "Zalor 推出 AI 代理可靠性测试平台，支持自定义数据集",
+    "summary": "专为快速迭代团队设计，通过自定义数据集验证 AI 代理的可靠性。",
+    "detail": "Zalor 发布针对 AI 代理的可靠性测试工具，允许团队使用自定义数据集进行压力测试。在 AI 代理快速交付的背景下，该工具帮助开发者量化代理行为的稳定性与准确性，减少生产环境故障。它填补了代理开发流程中自动化评估的空白，支持团队快速迭代。通过登录 Google 账户即可使用，旨在提升 AI 应用交付质量，是重要的 DevOps 环节，确保代理在复杂场景下仍能保持预期表现，降低部署风险。适用于任何快速 shipping 的团队，通过可视化界面管理测试流程，帮助企业在规模化部署前发现潜在问题，提升产品信誉。",
+    "tags": [
+      "New",
+      "Testing",
+      "Agents"
+    ],
+    "link": "https://agents.zalor.ai/",
+    "date": "2026-03-18",
+    "id": "17738007084393"
+  },
+  {
+    "title": "Factagora 平台让 AI 代理辩论难题，验证事实准确性",
+    "summary": "创新平台利用多代理辩论机制，解决 LLM 难以回答的事实性问题。",
+    "detail": "Factagora 推出 AI 代理预测与辩论平台，针对大模型难以确证的问题，通过多代理竞争与证据提供来达成共识。用户可提交技术或商业主张，由代理团队进行真伪辩论。这种机制试图超越单一模型的幻觉限制，利用群体智能提高事实核查的准确性。平台涵盖 Technology 与 Business 类别，为 AI 辅助决策提供了新的验证范式，帮助用户在信息过载时代获取更可信的 AI 生成结论，解决 LLM 事实性难题。支持投票机制与证据链展示，增强用户对 AI 结论的信任度，促进 AI 在关键决策场景中的可靠应用，建立人机协作新信任机制。",
+    "tags": [
+      "New",
+      "LLM",
+      "Verification"
+    ],
+    "link": "https://factagora.com/",
+    "date": "2026-03-18",
+    "id": "17738007084394"
+  },
+  {
     "title": "摩根大通因 AI 担忧终止 53 亿美元 Qualtrics 债务交易",
     "summary": "AI 担忧导致需求降温，53 亿美元债务交易终止。",
     "detail": "摩根大通 halted Qualtrics 53 亿美元债务交易，主要原因是市场对 AI 技术的担忧导致需求降温。这反映了 AI 泡沫疑虑已开始影响传统金融决策，显示出资本市场对 AI 长期盈利能力的审慎态度。此事件可能预示科技并购领域的降温趋势，表明投资者正重新评估 AI 相关资产的风险溢价，对后续 AI 初创企业融资环境产生潜在负面影响。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/isaacsight/kernel",
     "date": "2026-03-16",
     "id": "17736974102555"
-  },
-  {
-    "title": "美参议员质疑 Pentagon 授予 xAI 机密访问权",
-    "summary": "国家安全与 AI 公司 access 引发争议，施压五角大楼。",
-    "detail": "参议员 Warren 向五角大楼施压，质疑授予 xAI 访问机密网络的决定，涉及国家安全与 AI 公司合作的审查问题。xAI 作为 Elon Musk 旗下公司，其获取机密权限引发担忧。事件凸显 AI 国防合作中的安全审查争议，可能影响未来政府与私营 AI 企业的合作模式。政策制定者需平衡技术创新与国家安全，确保敏感数据不被滥用或泄露。TechCrunch 报道指出，这一审查反映了公众对大型科技公司与政府深度绑定的警惕，未来可能会有更严格的准入机制出台，影响 AI 公司在国防领域的商业机会。",
-    "tags": [
-      "News",
-      "Policy",
-      "Security"
-    ],
-    "link": "https://techcrunch.com/2026/03/16/warren-presses-pentagon-over-decision-to-grant-xai-access-to-classified-networks/",
-    "date": "2026-03-16",
-    "id": "17736974102556"
-  },
-  {
-    "title": "亚马逊发现 AI 编程效果未达预期",
-    "summary": "大厂实践揭示 AI 编码工具的局限性，行业理性回归。",
-    "detail": "报道指出亚马逊在实际应用中发现 AI 编程并非万能，效果未达预期，揭示大厂在实践中遇到的局限性。反映当前 AI 辅助开发在复杂场景下的瓶颈，虽然 AI 能提升效率，但在特定任务上仍存在不足。这为行业提供冷静视角，提醒企业不要过度依赖 AI 编程，需结合人工审查。Computerworld 分析认为，未来 AI 编程工具需进一步优化，以适应更复杂的工程需求，企业应理性评估 AI 投入产出比，避免盲目跟风，确保软件开发质量与稳定性不受影响，标志著 AI 编程进入理性回归阶段。",
-    "tags": [
-      "News",
-      "Coding",
-      "Industry"
-    ],
-    "link": "https://www.computerworld.com/article/4145573/amazon-finds-out-ai-programming-isnt-all-its-cracked-up-to-be.html",
-    "date": "2026-03-16",
-    "id": "17736974102557"
-  },
-  {
-    "title": "NVIDIA 发布专为代理 AI 设计的 Vera CPU",
-    "summary": "NVIDIA 推出 Vera CPU，专为代理 AI 工作负载优化，强化硬件基础设施。",
-    "detail": "NVIDIA 正式发布 Vera CPU，旨在专为 Agentic AI（代理 AI）构建。这款处理器针对云与数据中心场景优化，支持自主机器人与高性能计算。标志着硬件层面对 AI 代理自主化趋势的战略支持，为复杂 AI 任务提供底层算力保障。此次发布展示了 NVIDIA 在 AI 基础设施领域的持续扩张，试图通过专用硬件巩固其在代理 AI 时代的领导地位。结合其 GPU 生态，Vera CPU 将进一步完善全栈 AI 解决方案，降低企业部署代理系统的门槛，推动 AI 从内容生成向自主行动转型，为下一代智能应用提供核心动力。",
-    "tags": [
-      "News",
-      "Hardware",
-      "NVIDIA"
-    ],
-    "link": "https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai",
-    "date": "2026-03-16",
-    "id": "17736937440060"
-  },
-  {
-    "title": "多家科技巨头因 AI 战略调整裁员",
-    "summary": "Atlassian、Amazon 等公司裁员，旨在自筹资金投资 AI 技术。",
-    "detail": "Atlassian 裁减 10% workforce 以自筹 AI 投资，Amazon 亦进行大规模裁员以争夺 AI supremacy。高管表示 AI 是 transformative technology。反映行业正通过 restructuring 将资源向 AI 核心业务倾斜，引发对 AI 替代人力趋势的关注。Block 等其他公司也采取类似策略，将 intelligence 置于运营核心。这一趋势表明，传统科技巨头正经历深刻转型，通过缩减非核心人力成本来加速 AI 技术研发与市场布局。可能导致短期内行业就业结构发生显著变化，投资者需关注相关企业的 AI 落地成效与财务健康状况，这标志着 AI 驱动的效率革命已进入实质性阶段。",
-    "tags": [
-      "News",
-      "Industry",
-      "Layoffs"
-    ],
-    "link": "https://mjtsai.com/blog/2026/03/16/ai-layoffs/",
-    "date": "2026-03-16",
-    "id": "17736937440061"
-  },
-  {
-    "title": "Spectra：让 AI 代理理解业务规范的框架",
-    "summary": "开源框架 Spectra 提供领域优先规范，减少 AI 代理猜测业务规则。",
-    "detail": "Spectra 是一个专为 AI 代理设计的规范框架，而非人类文档。它包含 13 层结构，定义业务规则、不变量与合同，作为“领域事实来源”。解决 AI 因缺乏上下文而猜测规则的问题，使代理能自主操作 without ambiguity，适合企业级 AI 部署。该框架强调 domain-first 理念，确保 AI 在执行业务逻辑时遵守 regulations 与 contracts。通过结构化输入，开发者可大幅减少纠正 AI 错误的迭代次数，提升代理系统的可靠性与安全性。是构建可信自主代理的关键基础设施工具，尤其适用于对合规性要求严格的金融与医疗场景，填补了代理 AI 与业务逻辑之间的语义鸿沟。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "OpenSource"
-    ],
-    "link": "https://github.com/GuiMiran/spectra",
-    "date": "2026-03-16",
-    "id": "17736937440062"
   }
 ]
