@@ -1,5 +1,83 @@
 [
   {
+    "title": "AI 爬虫致游戏服务器宕机事件复盘",
+    "summary": "AI 爬虫流量激增导致服务器 CPU 满载，引发对小网站生存担忧。",
+    "detail": "Improbable Island 服务器因 Anthropic、Google 等 AI 爬虫无视 robots.txt 高频抓取 Wiki 导致宕机。管理员指出 CPU 核心满载，日志显示每秒数千请求，甚至无法登录服务器排查。此事件揭示了大模型训练数据抓取对小型网站的资源侵蚀问题，引发行业对爬虫伦理及技术防护的关注。小型网站成为大模型训练的牺牲品，亟需新的防护标准。这种“数据掠夺”行为可能导致互联网生态恶化，开发者需警惕此类流量攻击。",
+    "tags": [
+      "News",
+      "AI Ethics",
+      "Web Scraping"
+    ],
+    "link": "https://www.improbableisland.com/motd.php?id=598",
+    "date": "2026-03-18",
+    "id": "17738279415360"
+  },
+  {
+    "title": "水务公司耗资 20 万美金自建 AI 过滤系统",
+    "summary": "因通用模型回答质量差，企业自建过滤系统避免损失。",
+    "detail": "某水务公司因使用通用 LLM 导致错误答案浪费 20 万美元，随后决定自建“垃圾内容过滤系统”。案例表明垂直领域直接套用通用模型存在高风险，企业需建立特定过滤机制或私有化部署。这反映了 AI 落地从尝试到务实治理的转变，强调数据质量与成本控制的重要性。通用模型在专业场景的幻觉问题频发，企业不应盲目信任黑盒模型，需建立人工审核或专用过滤层，确保业务安全与经济性。此案例为传统行业 AI 转型提供了警示，成本控制与效果验证同等重要。",
+    "tags": [
+      "News",
+      "Enterprise AI",
+      "LLM"
+    ],
+    "link": "https://www.theregister.com/2026/03/18/rozum_ai/",
+    "date": "2026-03-18",
+    "id": "17738279415361"
+  },
+  {
+    "title": "STT.ai 推出免费实时语音转文字服务",
+    "summary": "支持 100+ 语言与零知识加密，无需注册即可使用。",
+    "detail": "STT.ai 发布新工具，支持 100 多种语言实时转录，集成 Whisper 等 10+ 模型。主打零知识加密，数据在浏览器端加密，保护隐私。提供免费层级及 API 集成，支持多种音视频格式。该产品降低了语音处理门槛，适合播客、会议记录等场景，强调隐私安全特性。用户无需注册即可体验，高级功能支持更长存储与私有链接。在隐私日益重要的今天，本地加密转录成为差异化竞争优势，吸引专业人士使用。其兼容性与易用性使其成为开发者集成语音功能的优选方案。",
+    "tags": [
+      "New",
+      "Speech-to-Text",
+      "Privacy"
+    ],
+    "link": "https://stt.ai/",
+    "date": "2026-03-18",
+    "id": "17738279415362"
+  },
+  {
+    "title": "制造业 ERP 中 AI Agent 的安全落地实践",
+    "summary": "探讨 AI 代理在 ERP 系统中从只读到写入的安全工程挑战。",
+    "detail": "文章深入分析了 AI Agent 在制造 ERP 中从“建议”到“自主执行”的工程难点。重点在于读写权限 gap，直接写入生产数据风险巨大。作者分享了实现自主代理所需的安全架构，指出当前厂商 demo 多为混合 advisory。为工业级 AI 应用提供了宝贵的安全实施参考，强调人机协同与权限管控。制造环境容错率低，Agent 必须具备可靠的状态管理与回滚机制。企业需重新设计 ERP 接口以适应 Agent 操作，确保生产流程不被错误指令中断，实现真正的 autonomous 而非半自动。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Enterprise"
+    ],
+    "link": "https://zeehub.ai/blog/from-advisory-to-autonomous-making-ai-agents-safe-to-run-in-manufacturing.html",
+    "date": "2026-03-18",
+    "id": "17738279415363"
+  },
+  {
+    "title": "Polycode：基于 Issue 标签的自托管 AI 工作流机器人",
+    "summary": "通过 GitHub 标签触发 AI 代理工作流，实现代码自动化。",
+    "detail": "Polycode 是一款自托管 GitHub Bot，允许开发者通过 Issue 标签触发 AI 工作流。用户可在 repo 中配置映射，标记 Issue 后 bot 自动规划、实现并提交 PR。无需新聊天界面，集成于现有开发流程。该工具为开发者提供了类似 Devin 的自动化能力，同时保留了对代码库的控制权，适合追求效率的团队。自托管模式确保代码不泄露给第三方，解决了企业使用云端 AI 编程助手的安全顾虑。通过标签驱动工作流，简化了人机协作流程，提升开发效率。",
+    "tags": [
+      "New",
+      "DevTools",
+      "GitHub"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47423086",
+    "date": "2026-03-18",
+    "id": "17738279415364"
+  },
+  {
+    "title": "AI 代理自动注册服务面临的现实阻碍",
+    "summary": "验证码、OTP 等安全机制成为 AI 代理自主操作的瓶颈。",
+    "detail": "Hacker News 讨论指出，AI Agent 在需要创建新账户时面临巨大障碍。现有流程中的表单、条款、邮箱 OTP 及 CAPTCHA 验证均会导致代理中断。这揭示了 AI 自主性在当前互联网安全架构下的局限性。开发者正在探索解决方案，但 KYC 等环节仍需人工介入，反映了 Agent 生态基础设施的缺失。当前 Web 安全设计主要针对人类，Agent 难以绕过生物特征或手机验证。未来可能需要专门的 Agent 身份协议，或服务商开放 API 通道，否则 Agent autonomy 将受限。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Security"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47423583",
+    "date": "2026-03-18",
+    "id": "17738279415365"
+  },
+  {
     "title": "SkillsGate 推出 AI 技能社区安全扫描",
     "summary": "解决 AI Agent 技能安全风险，众包信任机制。",
     "detail": "SkillsGate 发布社区安全扫描功能，专门针对 AI Agent 技能而非传统 npm 包。恶意技能无需可执行代码，仅通过自然语言指令即可窃取数据，传统静态分析难以检测。该工具通过 CLI 调用本地 AI 工具分析技能文件，检测提示注入、数据泄露等 8 类威胁，生成风险报告并支持社区共享。此举构建了众包信任体系，解决了 AI 代理权限过大带来的安全隐患，为开发者提供了必要的审计工具，确保技能在访问文件、终端及凭证时的安全性。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/Ramsbaby/claude-discord-bridge",
     "date": "2026-03-17",
     "id": "17737135985684"
-  },
-  {
-    "title": "CEL v0.2 Pro：AI 系统的加密黑盒记录器",
-    "summary": "Python 库实现 AI 系统执行日志的加密记录，增强审计能力。",
-    "detail": "新版本 CEL 提供了 cryptographic execution log 功能，专为 AI 系统设计黑盒记录器。核心技术支持不可篡改的日志存储，确保 AI 决策过程可追溯。这对于金融、医疗等高风险行业的 AI 合规至关重要，满足审计与监管需求。开发者可集成此库以提升系统透明度，防止模型行为被恶意修改。随着 AI 监管趋严，此类安全工具将成为标准配置。项目采用 Python 编写，易于集成到现有工作流，为构建可信 AI 系统提供了基础设施支持。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Python"
-    ],
-    "link": "https://github.com/GhurtSky-GR13/colchis-log",
-    "date": "2026-03-17",
-    "id": "17737135985685"
-  },
-  {
-    "title": "比尔·格里：AI 泡沫即将重置，快钱时代结束",
-    "summary": "知名投资人警告 AI 市场将迎来调整与重置，投机行为减少。",
-    "detail": "比尔·格里在接受 CNBC 采访时指出 AI 领域存在泡沫，许多人快速致富后市场将面临重置。他认为当前估值过高，缺乏可持续商业模式支撑。这一观点警示投资者需警惕高风险项目，关注长期价值创造。市场调整可能淘汰劣质企业，保留真正有技术壁垒的公司。对于创业者，这意味着融资环境将收紧，需更注重现金流与盈利。此言论反映了资深 VC 对行业过热的担忧，可能影响后续资本流向，促使 AI 行业进入洗牌期，回归理性增长轨道。",
-    "tags": [
-      "News",
-      "Investment",
-      "Market"
-    ],
-    "link": "https://www.cnbc.com/2026/03/16/bill-gurley-ai-bubble-get-rich-quick.html",
-    "date": "2026-03-17",
-    "id": "17737135985686"
-  },
-  {
-    "title": "生成式 AI 进入代理阶段：治理与问责新挑战",
-    "summary": "生成式 AI 进入代理阶段，治理与问责制面临新挑战。",
-    "detail": "生成式 AI 正从“婴儿期”迈向“代理期”，自主 agent 在复杂工作流中运行，减少人类介入。MIT 科技评论指出，这带来了新的治理与问责挑战。传统治理关注模型输出风险，而自主 agent 要求机器 pace 运营业务。安全策略需从儿童防护转向更复杂的系统监管，确保在自动化决策中保持 accountability，防止数据泄露与模型漂移，行业需准备相应的操作治理原则。",
-    "tags": [
-      "News",
-      "Agents",
-      "Governance"
-    ],
-    "link": "https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/",
-    "date": "2026-03-16",
-    "id": "17737378495771"
-  },
-  {
-    "title": "Mistral AI 加入 NVIDIA 联盟并发布 Small 4",
-    "summary": "Mistral 加入 NVIDIA Nemotron 联盟，发布 Mistral Small 4。",
-    "detail": "Mistral AI 宣布加入 NVIDIA Nemotron Coalition，成为创始成员。双方将合作开发开源 frontier 模型，结合 Mistral 架构与 NVIDIA 算力及合成数据管线。同时发布 Mistral Small 4 赋能开发者。此举旨在推动开放协作 AI 未来，利用 NVIDIA 工具扩展训练与优化。合作基于此前 Mistral Nemo 模型的科学协作，强调开放模型是民主化 AI 的基石，降低创新壁垒。",
-    "tags": [
-      "News",
-      "Partnership",
-      "LLM"
-    ],
-    "link": "https://mistral.ai/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models",
-    "date": "2026-03-16",
-    "id": "17737378495776"
-  },
-  {
-    "title": "大英百科全书起诉 OpenAI 涉及训练数据版权",
-    "summary": "大英百科全书起诉 OpenAI，涉及 AI 训练数据版权争议。",
-    "detail": "大英百科全书起诉 OpenAI，指控其 AI 训练侵犯版权。路透社报道指出，这是继多家媒体后又一重大法律行动。案件焦点在于 AI 模型训练数据的使用合法性，可能影响未来基础模型开发成本与数据获取方式。若判决不利，AI 公司需重新评估数据策略。此诉讼反映了内容创作者与 AI 公司间日益紧张的利益分配关系，行业关注其法律先例意义。",
-    "tags": [
-      "News",
-      "Legal",
-      "Copyright"
-    ],
-    "link": "https://www.reuters.com/legal/litigation/encyclopedia-britannica-sues-openai-over-ai-training-2026-03-16/",
-    "date": "2026-03-16",
-    "id": "17737378495777"
-  },
-  {
-    "title": "AI 巨头 CEO 言论引发公众恐慌",
-    "summary": "OpenAI 等 CEO 警告 AI 风险，公众好感度降至 26%。",
-    "detail": "OpenAI 山姆·阿尔特曼等 CEO 频繁警告 AI  disruption，虽利于融资但吓退消费者。NBC 民调显示仅 26% 选民看好 AI，低于 ICE。白宫 AI 主管批评此举吓坏公众。CEO 们担心反 AI 浪潮影响 2028 大选，但不知如何传递更积极信息。",
-    "tags": [
-      "News",
-      "Policy",
-      "LLM"
-    ],
-    "link": "https://www.axios.com/2026/03/16/ai-sam-altman-fear-mongering",
-    "date": "2026-03-16",
-    "id": "17737320310370"
   }
 ]
