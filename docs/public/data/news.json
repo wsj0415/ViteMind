@@ -1,5 +1,44 @@
 [
   {
+    "title": "Sam Altman 致谢开发者引发社区热议",
+    "summary": "OpenAI CEO 感谢开发者贡献，相关言论在社交媒体上引发模因传播。",
+    "detail": "TechCrunch 报道 Sam Altman 对编码者的感谢引发了网络模因潮。这反映了 AI 生成代码时代开发者角色的变化及社区对 OpenAI 策略的关注。此类互动显示了 AI 领袖与开发者社区之间的微妙关系，可能影响未来工具采纳。随着 AI 编程能力增强，开发者担忧被替代，Altman 的致谢意在缓和关系。但社区反应表明，开发者更关注实际权益与技术透明度，而非口头感谢。此事件凸显了 AI 公司与生态建设者之间的信任挑战。未来 OpenAI 需在商业化与开发者支持间找到平衡，以避免社区反弹影响生态繁荣。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Community"
+    ],
+    "link": "https://techcrunch.com/2026/03/18/sam-altmans-thank-you-to-coders-draws-the-memes/",
+    "date": "2026-03-18",
+    "id": "17738768653671"
+  },
+  {
+    "title": "GitHub 新品：Jira-MCP 实现 AI 代理无缝集成",
+    "summary": "基于 MCP 协议的本地 Jira 工具，安全默认且最小化上下文开销。",
+    "detail": "该项目通过 Model Context Protocol (MCP) 将 Jira 功能开放给 AI 代理，仅需 3 个工具而非 72 个。主打本地运行、默认安全及低上下文开销。解决了 AI 代理在企业工作流中集成项目管理工具的痛点，提升了自动化任务的可靠性与安全性。传统集成往往复杂且权限过大，MCP 提供了标准化接口。开发者可在本地安全环境中让 AI 读取任务、更新状态，无需暴露全部 API 权限。这降低了 AI 代理误操作风险，促进了企业级 AI 自动化落地，是 MCP 生态在项目管理领域的典型应用案例。对于希望引入 AI 代理处理工单的团队，此工具提供了轻量级且安全的起点。",
+    "tags": [
+      "Dev",
+      "MCP",
+      "Automation"
+    ],
+    "link": "https://github.com/mmatczuk/jira-mcp",
+    "date": "2026-03-18",
+    "id": "17738768653673"
+  },
+  {
+    "title": "CodeIR：为 AI 提供代码库地图以降低推理成本",
+    "summary": "通过预构建代码库映射，避免 AI 每次运行都昂贵地重建上下文。",
+    "detail": "CodeIR 旨在解决 AI 理解大型代码库成本高的问题。通过提供代码库地图（代码库映射），AI 可直接搜索、读取及分析影响范围，无需从头构建上下文。支持实体搜索、影响分析及代码展开，显著提升 AI 编程助手在复杂项目中的效率与准确性。传统方式需 AI 反复读取文件构建认知，消耗大量 Token 且易出错。CodeIR 预构建索引，让 AI 快速定位关键代码段及依赖关系。这不仅降低了推理成本，还减少了幻觉风险。对于维护遗留系统或大型仓库的开发者，此类工具是提升 AI 编程效能的关键基础设施。它代表了 AI 开发工具从“通用对话”向“深度上下文感知”的演进趋势。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "LLM"
+    ],
+    "link": "https://codeir.dev/index.html",
+    "date": "2026-03-18",
+    "id": "17738768653674"
+  },
+  {
     "title": "英国拟改革版权法：强制标注 AI 生成内容",
     "summary": "英国政府计划将 AI 内容标注纳入更广泛的版权改革审查中。",
     "detail": "英国政府宣布将审查版权法改革，重点考察 AI 生成内容的强制标注要求。此举旨在应对生成式 AI 对知识产权体系的冲击，寻求创作者权益与技术创新的平衡。若政策落地，全球内容平台需调整合规策略，增加 AI 内容识别与标记成本。这反映了监管层对 AI 透明度及版权归属问题的重视升级，可能引发行业连锁反应。",
@@ -1259,44 +1298,5 @@
     "link": "https://github.com/rocketride-org/rocketride-server",
     "date": "2026-03-17",
     "id": "17737704584821"
-  },
-  {
-    "title": "软件开发中如何有效采用 AI 工具链",
-    "summary": "针对上下文腐烂问题，提出渐进式披露策略与 Claude.md 最佳实践。",
-    "detail": "文章分享了在软件开发中整合 AI 工具的实际经验，重点解决“上下文腐烂”（Context Rot）问题。建议采用渐进式披露策略，仅在需要时提供指令。通过标准化配置文件（如 CLAUDE.md）管理上下文，平衡迭代速度与代码质量。适用于希望提升工程效率且避免 AI 幻觉导致 Bug 的团队，提供了从个体工程师到架构决策的实用指南。",
-    "tags": [
-      "Dev",
-      "Best Practices",
-      "Claude"
-    ],
-    "link": "https://akk.ad/posts/effectively-adopting-ai-tooling-in-software-claude-code/",
-    "date": "2026-03-17",
-    "id": "17737704584822"
-  },
-  {
-    "title": "Sugar：基于 MCP 的 AI 编码 Agent 跨项目记忆",
-    "summary": "解决 Agent 遗忘问题，提供跨会话上下文与全局知识持久化记忆。",
-    "detail": "针对 AI 编码 Agent 缺乏长期记忆的问题，Sugar 通过 MCP（Model Context Protocol）实现跨项目持久化记忆。支持跨会话上下文保持与全局知识库，使 Agent 能自主执行复杂任务而不遗忘历史指令。这对于需要长期维护代码库或处理多步骤开发任务的 AI 工作流具有重要意义，解决了当前 Agent 在无状态会话中难以维持复杂逻辑的痛点。",
-    "tags": [
-      "New",
-      "MCP",
-      "Memory"
-    ],
-    "link": "https://github.com/roboticforce/sugar/",
-    "date": "2026-03-17",
-    "id": "17737704584823"
-  },
-  {
-    "title": "拜占庭 MCP 路由器：基于语义共识的 AI 安全方案",
-    "summary": "利用语义共识机制增强 MCP 协议的安全性，防止 AI 工具被恶意利用。",
-    "detail": "该项目探索 AI 安全新方向，通过拜占庭容错思路与语义共识机制保护 MCP（Model Context Protocol）路由器。旨在防止 AI Agent 在调用外部工具时遭受欺骗或产生不安全行为。随着 MCP 成为连接 AI 与工具的标准，此类安全层对于企业级部署至关重要，确保工具调用的完整性与可信度，为多 Agent 协作提供了安全共识基础。",
-    "tags": [
-      "Dev",
-      "Security",
-      "MCP"
-    ],
-    "link": "https://github.com/wdulz/byzantine-mcp-router",
-    "date": "2026-03-17",
-    "id": "17737704584824"
   }
 ]
