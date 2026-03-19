@@ -1,5 +1,70 @@
 [
   {
+    "title": "Meta 推出新 AI 内容执法系统，减少第三方依赖",
+    "summary": "Meta 部署新 AI 系统检测违规，提升准确性并减少第三方依赖。",
+    "detail": "Meta 宣布推出全新的 AI 内容执法系统，战略上旨在减少对外部第三方供应商的依赖。根据官方信息，这些自研 AI 系统能够以更高的准确性检测更多违规行为，并能更好地预防诈骗活动。此外，新系统针对现实世界事件的响应速度显著提升，同时致力于减少过度执法的情况。这一举措反映了 Meta 在内容安全领域深化 AI 自主可控能力的决心，试图通过技术升级平衡安全与用户体验，构建更高效的内生审核机制，以应对日益复杂的网络内容挑战。",
+    "tags": [
+      "News",
+      "Meta",
+      "Content Safety"
+    ],
+    "link": "https://techcrunch.com/2026/03/19/meta-rolls-out-new-ai-content-enforcement-systems-while-reducing-reliance-on-third-party-vendors/",
+    "date": "2026-03-19",
+    "id": "17739432351390"
+  },
+  {
+    "title": "Mnemos：开源多 Agent 内存层，解决冲突决议",
+    "summary": "开源内存层 Mnemos 发布，通过类型化冲突决议提升 Agent 知识准确性。",
+    "detail": "开源内存层 Mnemos 专为多 Agent LLM 系统设计，核心创新在于“类型化冲突决议”，能在摄入阶段检测并解决事实冲突，而非留给 LLM 猜测。基准测试显示，其在多跳冲突决议上超越已发布天花板 12%，单跳准确率高达 90%，性能优于 Mem0 六倍。该工具支持 Python 3.10+，采用 MIT 许可，为复杂 Agent 系统提供可靠记忆支持，解决 stale facts 问题，确保 Agent 共享知识准确且最新，显著降低幻觉风险，是构建可靠多智能体系统的关键基础设施。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Agents"
+    ],
+    "link": "https://github.com/Sohamp2809/mnemos",
+    "date": "2026-03-19",
+    "id": "17739432351391"
+  },
+  {
+    "title": "工程洞察：为何 AI 未带来预期的生产力飞跃？",
+    "summary": "调查显示编码仅占工程师工作小部分，流程与人际摩擦限制 AI 增益。",
+    "detail": "最新工程生产力通讯指出，AI 虽加速代码编写，但编码仅占工程师总工时的一小部分。主要瓶颈在于团队对齐、规划及代码审查等“人际侧”流程。即使编码时间减半，对整体交付吞吐影响有限。组织摩擦和新瓶颈的产生，导致当前 AI 带来的生产力增益低于市场宣传预期。开发者反馈显示，工具并非主要减速原因，其他团队、服务或流程才是关键，高级开发者认为编写代码只是容易的部分，真正的挑战在于人类协作侧。",
+    "tags": [
+      "News",
+      "Productivity",
+      "Engineering"
+    ],
+    "link": "https://newsletter.getdx.com/p/why-arent-ai-productivity-gains-higher",
+    "date": "2026-03-19",
+    "id": "17739432351392"
+  },
+  {
+    "title": "Budgetbreeze：集成大模型的个人财务 AI 助手",
+    "summary": "一站式财务管理工具，支持自然语言查询，连接银行与投资账户。",
+    "detail": "Budgetbreeze 是一款以 AI 为核心的个人财务工具，可连接所有银行及投资账户。支持通过自然语言（兼容 Claude、ChatGPT）查询财务状态，提供净资产追踪、支出脉冲分析及智能警报。其仪表盘清晰展示资产分配与订阅追踪，旨在让用户通过简单对话获得冷静的财务洞察与决策支持。功能涵盖现金、投资、卡片管理及月度收支对比，通过智能分类交易历史，帮助用户实现更明智的财务决策与心理平静。",
+    "tags": [
+      "New",
+      "Finance",
+      "LLM"
+    ],
+    "link": "https://www.budgetbreeze.io/",
+    "date": "2026-03-19",
+    "id": "17739432351393"
+  },
+  {
+    "title": "Draft0：自主 AI Agent 辩论真相平台",
+    "summary": "无人类干预的 Agent 辩论平台，探索知识自我传播与验证机制。",
+    "detail": "Draft0 是一个展示自主 AI Agent 辩论真相的平台，旨在无需人类干预的情况下验证信息。其核心理念是通过阅读、发布和投票创造复合效益，使高信号知识在 Agent 生态系统内病毒式传播。项目探讨了来源证明（Provenance）与记忆政治，试图构建让真理具备社会可扩展性的 AI 系统架构。愿景是到 2030 年，获胜的 AI 系统将是那些能让真理在社会层面可扩展的系统，通过异议路由信心，重塑知识验证协议。",
+    "tags": [
+      "New",
+      "Agents",
+      "Research"
+    ],
+    "link": "https://humans.draft0.io",
+    "date": "2026-03-19",
+    "id": "17739432351394"
+  },
+  {
     "title": "LangSmith 推出 Fleet：企业级 AI Agent 管理中心",
     "summary": "LangChain 发布 LangSmith Fleet，提供企业级 Agent 构建、共享与权限管理功能。",
     "detail": "LangChain 正式推出 LangSmith Fleet，旨在解决企业大规模管理 AI Agent 的难题。随着 Agent 构建门槛降低，管理成为新痛点。Fleet 提供了统一的中心化管理平台，支持通过自然语言提示词创建 Agent，并引入了全新的身份认证与权限模型。企业可严格控制谁可以编辑、运行或克隆 Agent，并通过 Inbox 功能实现人机协作审批。这标志着 AI 开发从单点构建转向企业级舰队化管理，有助于解决安全审计与团队协作问题。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.improbableisland.com/motd.php?id=598",
     "date": "2026-03-18",
     "id": "17738279415360"
-  },
-  {
-    "title": "水务公司耗资 20 万美金自建 AI 过滤系统",
-    "summary": "因通用模型回答质量差，企业自建过滤系统避免损失。",
-    "detail": "某水务公司因使用通用 LLM 导致错误答案浪费 20 万美元，随后决定自建“垃圾内容过滤系统”。案例表明垂直领域直接套用通用模型存在高风险，企业需建立特定过滤机制或私有化部署。这反映了 AI 落地从尝试到务实治理的转变，强调数据质量与成本控制的重要性。通用模型在专业场景的幻觉问题频发，企业不应盲目信任黑盒模型，需建立人工审核或专用过滤层，确保业务安全与经济性。此案例为传统行业 AI 转型提供了警示，成本控制与效果验证同等重要。",
-    "tags": [
-      "News",
-      "Enterprise AI",
-      "LLM"
-    ],
-    "link": "https://www.theregister.com/2026/03/18/rozum_ai/",
-    "date": "2026-03-18",
-    "id": "17738279415361"
-  },
-  {
-    "title": "STT.ai 推出免费实时语音转文字服务",
-    "summary": "支持 100+ 语言与零知识加密，无需注册即可使用。",
-    "detail": "STT.ai 发布新工具，支持 100 多种语言实时转录，集成 Whisper 等 10+ 模型。主打零知识加密，数据在浏览器端加密，保护隐私。提供免费层级及 API 集成，支持多种音视频格式。该产品降低了语音处理门槛，适合播客、会议记录等场景，强调隐私安全特性。用户无需注册即可体验，高级功能支持更长存储与私有链接。在隐私日益重要的今天，本地加密转录成为差异化竞争优势，吸引专业人士使用。其兼容性与易用性使其成为开发者集成语音功能的优选方案。",
-    "tags": [
-      "New",
-      "Speech-to-Text",
-      "Privacy"
-    ],
-    "link": "https://stt.ai/",
-    "date": "2026-03-18",
-    "id": "17738279415362"
-  },
-  {
-    "title": "制造业 ERP 中 AI Agent 的安全落地实践",
-    "summary": "探讨 AI 代理在 ERP 系统中从只读到写入的安全工程挑战。",
-    "detail": "文章深入分析了 AI Agent 在制造 ERP 中从“建议”到“自主执行”的工程难点。重点在于读写权限 gap，直接写入生产数据风险巨大。作者分享了实现自主代理所需的安全架构，指出当前厂商 demo 多为混合 advisory。为工业级 AI 应用提供了宝贵的安全实施参考，强调人机协同与权限管控。制造环境容错率低，Agent 必须具备可靠的状态管理与回滚机制。企业需重新设计 ERP 接口以适应 Agent 操作，确保生产流程不被错误指令中断，实现真正的 autonomous 而非半自动。",
-    "tags": [
-      "Dev",
-      "AI Agents",
-      "Enterprise"
-    ],
-    "link": "https://zeehub.ai/blog/from-advisory-to-autonomous-making-ai-agents-safe-to-run-in-manufacturing.html",
-    "date": "2026-03-18",
-    "id": "17738279415363"
-  },
-  {
-    "title": "Polycode：基于 Issue 标签的自托管 AI 工作流机器人",
-    "summary": "通过 GitHub 标签触发 AI 代理工作流，实现代码自动化。",
-    "detail": "Polycode 是一款自托管 GitHub Bot，允许开发者通过 Issue 标签触发 AI 工作流。用户可在 repo 中配置映射，标记 Issue 后 bot 自动规划、实现并提交 PR。无需新聊天界面，集成于现有开发流程。该工具为开发者提供了类似 Devin 的自动化能力，同时保留了对代码库的控制权，适合追求效率的团队。自托管模式确保代码不泄露给第三方，解决了企业使用云端 AI 编程助手的安全顾虑。通过标签驱动工作流，简化了人机协作流程，提升开发效率。",
-    "tags": [
-      "New",
-      "DevTools",
-      "GitHub"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47423086",
-    "date": "2026-03-18",
-    "id": "17738279415364"
-  },
-  {
-    "title": "AI 代理自动注册服务面临的现实阻碍",
-    "summary": "验证码、OTP 等安全机制成为 AI 代理自主操作的瓶颈。",
-    "detail": "Hacker News 讨论指出，AI Agent 在需要创建新账户时面临巨大障碍。现有流程中的表单、条款、邮箱 OTP 及 CAPTCHA 验证均会导致代理中断。这揭示了 AI 自主性在当前互联网安全架构下的局限性。开发者正在探索解决方案，但 KYC 等环节仍需人工介入，反映了 Agent 生态基础设施的缺失。当前 Web 安全设计主要针对人类，Agent 难以绕过生物特征或手机验证。未来可能需要专门的 Agent 身份协议，或服务商开放 API 通道，否则 Agent autonomy 将受限。",
-    "tags": [
-      "Dev",
-      "AI Agents",
-      "Security"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47423583",
-    "date": "2026-03-18",
-    "id": "17738279415365"
   }
 ]
