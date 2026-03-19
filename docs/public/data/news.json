@@ -1,5 +1,57 @@
 [
   {
+    "title": "Google AI Studio 推出全栈 Vibe 编码体验",
+    "summary": "Google 更新 AI Studio，集成 Antigravity 代理与 Firebase，支持全栈开发。",
+    "detail": "Google 正式发布 Google AI Studio 全新全栈编码功能，旨在让开发者通过“氛围编程”直接构建生产级应用。核心引入 Antigravity 编码代理，深度集成 Firebase 后端服务，支持现代 Web 开发。开发者可通过自然语言描述直接生成可生产的应用代码，大幅降低全栈开发门槛。此举标志着巨头正将“氛围编程”（Vibe Coding）推向企业级生产环境，可能重塑前端与后端开发的工作流，让非专业开发者也能快速部署真实应用，提升开发效率。",
+    "tags": [
+      "Dev",
+      "Google",
+      "Coding"
+    ],
+    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/full-stack-vibe-coding-google-ai-studio/",
+    "date": "2026-03-19",
+    "id": "17739359706940"
+  },
+  {
+    "title": "OpenClaw 引发中美 AI 代理安全分歧",
+    "summary": "开源代理 OpenClaw 在中国爆火，微软警告其安全风险，凸显两地态度差异。",
+    "detail": "开源 AI 代理 OpenClaw 在发布约 100 天内成为 GitHub 历史星标最多仓库，追踪显示超 14.2 万个实例，近半来自中国。然而微软安全团队警告企业将其视为不可信代码，建议在隔离沙箱运行。腾讯工程师甚至线下帮用户安装。同一技术在中美两地遭遇截然不同的对待，反映了全球 AI 代理落地过程中安全性与便利性的巨大博弈，企业需谨慎评估部署风险，避免凭证泄露，显示开源社区与企业安全策略的冲突。",
+    "tags": [
+      "News",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://hellochinatech.com/p/openclaw-china-us-agent-divide",
+    "date": "2026-03-19",
+    "id": "17739359706941"
+  },
+  {
+    "title": "AskAudience：基于真实调查数据的 AI  Persona 平台",
+    "summary": "Product Hunt 新品，利用 1.65 万真实调查数据构建 AI  persona 进行市场验证。",
+    "detail": "新产品 AskAudience 登陆 Product Hunt，提供基于欧洲社会调查等真实数据的 1.65 万个 AI 人格。用户可针对特定人群（年龄、价值观）进行产品验证、文案测试或定价研究。相比传统面板，成本降至 0.5 欧元且秒级返回结果，并提供 Grounding Score 显示可靠性。该技术为市场调研提供了低成本替代方案，但需注意 AI 模拟与真实人类行为的偏差，适合早期快速验证，改变了传统用户研究的高成本模式。",
+    "tags": [
+      "New",
+      "Market Research",
+      "Personas"
+    ],
+    "link": "https://askaudience.de/",
+    "date": "2026-03-19",
+    "id": "17739359706942"
+  },
+  {
+    "title": "DoorDash 让配送员成为 AI 与机器人训练师",
+    "summary": "DoorDash 推出新付费任务，利用配送员数据训练 AI 模型及机器人。",
+    "detail": "外卖平台 DoorDash 推出新任务机制，将配送员转化为 AI 和机器人训练师。通过有偿任务收集人类反馈数据，用于优化自动化配送系统及 AI 决策模型。这体现了“人类在回路”（Human-in-the-loop）策略在物流领域的实际落地，既解决了模型训练数据短缺问题，也为零工经济提供了新的收入来源，但也引发关于劳动性质转变及数据隐私的行业讨论，显示 AI 落地需人类协作。",
+    "tags": [
+      "News",
+      "Robotics",
+      "Labor"
+    ],
+    "link": "https://www.bloomberg.com/news/articles/2026-03-19/doordash-s-new-paid-tasks-turn-couriers-into-ai-and-robot-trainers",
+    "date": "2026-03-19",
+    "id": "17739359706943"
+  },
+  {
     "title": "NVIDIA 指出 Agentic AI 瓶颈在于数据库",
     "summary": "黄仁勋 GTC 2026 强调数据基础设施需扩张 1200 亿美元，数据库是代理自主性的关键。",
     "detail": "NVIDIA 在 GTC 2026 keynote 中指出，AI 代理时代的核心瓶颈并非 GPU，而是数据库层。黄仁勋呼吁数据基础设施支出需扩张 1200 亿美元，以确保结构化数据作为“地面真相”。RegattaDB 等解决方案旨在提供事务完整性和实时一致性，防止代理执行中的幻觉，如库存重复销售。这标志着 AI 基础设施重心从计算向数据一致性转移，为代理系统提供共享记忆层，避免状态漂移。未来代理系统将依赖高性能数据层处理保险理赔或供应链管理等复杂事务，确保执行无误。",
@@ -1246,57 +1298,5 @@
     "link": "https://confer.to/blog/2026/03/encrypted-meta/",
     "date": "2026-03-18",
     "id": "17738206357853"
-  },
-  {
-    "title": "Echoo：免费开源的 macOS 系统级 AI 助手",
-    "summary": "支持语音与快捷键调用，本地运行 NVIDIA Parakeet 模型。",
-    "detail": "Echoo 是一款免费开源的 macOS 应用，通过快捷键和语音实现系统级 AI 交互。支持文本重写、翻译及语音听写，本地引擎采用 NVIDIA Parakeet V3，支持 25 种语言且数据不出设备。用户可在任何应用中选中文本快速处理，兼顾速度与隐私，已有超过 1000 名用户，适合追求本地化 AI 体验的 Mac 用户。其模块化设计允许连接外部模型，平衡本地安全与云端能力，实现了 AI 在工作流中的无缝集成，无需切换应用即可完成复杂指令。",
-    "tags": [
-      "New",
-      "Open Source",
-      "macOS"
-    ],
-    "link": "https://www.echoo.ai/",
-    "date": "2026-03-18",
-    "id": "17738206357854"
-  },
-  {
-    "title": "AI 改变了软件成本结构而非价值结构",
-    "summary": "深度分析 AI 时代软件质量与速度的权衡，强调严谨性不可避免。",
-    "detail": "文章指出 AI 降低了输出成本，但大幅提高了出错成本。软件行业长期视质量与速度为零和博弈，但 AI 放大了这一张力。核心观点是速度和质量都不是最终目标，Rigor（严谨性）才是 AI 时代的关键。AI 作为乘数效应工具，若缺乏约束只会加速熵增。开发者需重新审视反馈循环与约束机制，确保 AI 生成代码的安全性与功能性。文章强调 AI 并未改变价值结构，仅改变了成本结构，盲目追求速度可能导致技术债务累积，唯有通过测试驱动和约束才能保证最终交付价值。",
-    "tags": [
-      "Dev",
-      "Industry Insight",
-      "Software Engineering"
-    ],
-    "link": "https://testdouble.com/insights/quality-you-cant-generate-ai-is-only-as-good-as-your-constraints",
-    "date": "2026-03-18",
-    "id": "17738206357855"
-  },
-  {
-    "title": "研究显示知识工作者管理 AI 导致生产力崩溃而非停滞",
-    "summary": "最新 longitudinal 研究发现，知识工作者管理 AI 工具反而导致生产力下降及倦怠增加。",
-    "detail": "Hacker News 讨论引用了一项纵向职场研究，挑战了\"AI 提升生产力\"的主流叙事。研究发现，知识工作者在管理 AI 工具时表现出生产力崩溃，而非简单的平台期。主要原因包括上下文切换成本增加、对 AI 输出的过度审查以及由此引发的职业倦怠。这揭示了 AI 集成工作流中的隐性成本，提示企业在部署 AI 时需优化人机协作流程，而非单纯堆砌工具。对于管理者而言，关注员工实际工作负荷与心理状态比单纯追求自动化率更为关键。",
-    "tags": [
-      "News",
-      "Productivity",
-      "Workforce"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47421784",
-    "date": "2026-03-18",
-    "id": "17738140887642"
-  },
-  {
-    "title": "Hacker News 热议：后 AI 时代的 IDE 与工作流演变",
-    "summary": "开发者社区讨论 AI 如何重塑编程 IDE 选择及日常开发工作流。",
-    "detail": "Hacker News 发起关于\"你的 AI IDE 是什么\"的讨论，反映了 AI 对软件开发流程的深刻影响。参与者分享了 radically different 的编程方式，包括自然语言生成代码、AI 辅助调试及新型编辑器集成。这标志着开发范式从手动编码向 AI 协作编码的转变。核心趋势是 IDE 不再仅仅是代码编辑器，而是成为 AI 代理的交互界面。对于开发者而言，适应新的提示工程技能与审查 AI 代码的能力变得至关重要，同时也引发了关于代码所有权与质量控制的讨论。",
-    "tags": [
-      "Dev",
-      "IDE",
-      "Coding"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47421406",
-    "date": "2026-03-18",
-    "id": "17738140887643"
   }
 ]
