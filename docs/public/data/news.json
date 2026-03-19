@@ -1,5 +1,57 @@
 [
   {
+    "title": "Multiverse Computing 推动压缩 AI 模型主流化",
+    "summary": "西班牙初创公司推出本地运行压缩模型，降低云端依赖与算力风险。",
+    "detail": "随着私有公司违约率升至 9.2%，VC  firm Lux Capital 警告 AI 公司需书面确认算力承诺。在此背景下，西班牙初创公司 Multiverse Computing 提出替代方案：不再依赖外部算力基础设施。该公司通过量子灵感压缩技术，将 OpenAI、Meta 等大厂模型压缩至可在用户设备本地离线运行。其推出的 CompactifAI 应用及 API 门户，让开发者能直接构建基于本地模型的应用，降低了数据中心依赖及交易对手风险，标志着端侧 AI 效率提升的新趋势。",
+    "tags": [
+      "News",
+      "LLM",
+      "Edge AI"
+    ],
+    "link": "https://techcrunch.com/2026/03/19/multiverse-computing-pushes-its-compressed-ai-models-into-the-mainstream/",
+    "date": "2026-03-19",
+    "id": "17739099457220"
+  },
+  {
+    "title": "HiddenLayer 报告：自主智能体占 AI 漏洞八分之一",
+    "summary": "最新安全报告显示自主智能体引发的安全漏洞比例显著，警示代理风险。",
+    "detail": "HiddenLayer 发布 2026 年 AI 威胁报告，揭示了一项关键安全趋势：自主智能体（Autonomous Agents）现已占所有 AI 安全漏洞的八分之一。这一数据表明，随着 AI 从被动工具向主动代理转变，安全边界正在扩展。企业不仅需要保护模型本身，还需严格管控智能体的自主决策权限。该报告为 2026 年 AI 安全策略提供了重要基准，提示行业需加强对代理行为的监控与防御，以防自动化流程成为新的攻击向量。",
+    "tags": [
+      "News",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://finance.yahoo.com/news/hiddenlayer-releases-2026-ai-threat-140000928.html",
+    "date": "2026-03-19",
+    "id": "17739099457221"
+  },
+  {
+    "title": "神秘 AI 模型揭晓：小米而非 DeepSeek V4",
+    "summary": "开发者热议的神秘模型最终确认为小米出品，澄清市场猜测。",
+    "detail": "近期开发者社区热议的神秘 AI 模型身份终于揭晓，确认为小米出品，而非此前猜测的 DeepSeek V4。这一事件反映了当前大模型市场的高度竞争与信息不对称。开发者对模型性能的敏感度高，任何新模型的出现都会引发广泛推测。小米此次“神秘发布”策略成功吸引了行业关注，同时也凸显了中国科技巨头在 AI 大模型领域的激烈角逐。模型来源的澄清有助于开发者更准确地评估技术路线与生态兼容性。",
+    "tags": [
+      "News",
+      "LLM",
+      "China Tech"
+    ],
+    "link": "https://www.reuters.com/business/media-telecom/mystery-ai-model-has-developers-buzzing-is-this-deepseeks-latest-blockbuster-2026-03-18/",
+    "date": "2026-03-19",
+    "id": "17739099457222"
+  },
+  {
+    "title": "Nvidia 照片级游戏技术被批评为'AI 垃圾’",
+    "summary": "社区对 Nvidia 最新 AI 游戏技术的真实感提出质疑，引发舆论争议。",
+    "detail": "Forbes 报道指出，Nvidia 最新 AI 驱动的照片级真实感游戏技术遭遇社区负面评价。用户质疑其生成内容的质量与真实感，称之为\"AI Slop\"。这反映了 AI 生成内容在游戏行业落地的挑战。尽管技术旨在提升视觉效果，但用户接受度仍是关键瓶颈。该争议提示硬件厂商需平衡技术创新与用户体验，避免过度营销导致口碑反噬。行业需关注 AI 内容生成的质量阈值，以确保技术真正服务于游戏体验而非仅作为营销噱头。",
+    "tags": [
+      "News",
+      "Gaming",
+      "Generative AI"
+    ],
+    "link": "https://www.forbes.com/sites/conormurray/2026/03/17/nvidias-ai-powered-photorealistic-gaming-technology-roasted-as-ai-slop/",
+    "date": "2026-03-19",
+    "id": "17739099457223"
+  },
+  {
     "title": "Hive：多智能体协作进化代码的新范式",
     "summary": "20 个智能体协同完成 7 项任务，通过 CLI 实现代码自动进化与评估。",
     "detail": "Hive 项目展示了一种多智能体协作进化代码的新模式。该系统允许 20 个代理在不同任务上并行运行，通过命令行界面安装并注册代理，克隆任务后自动循环进化代码、评估并提交。核心技术在于智能体间的协作与参数调整（如 Parameter Golf），旨在探索 AI 自主编程的潜力。这对自动化软件开发和 AI 自我迭代具有深远影响，标志着从单一大模型辅助向多智能体协同开发的转变。开发者可通过 CLI 快速上手，体验代理如何自我优化代码逻辑，为未来 autonomous software engineering 奠定基础。",
@@ -1246,57 +1298,5 @@
     "link": "https://arxiv.org/abs/2603.15381",
     "date": "2026-03-17",
     "id": "17737870167960"
-  },
-  {
-    "title": "Show HN: GitHub 仓库 AI 就绪度评分工具",
-    "summary": "基于 OpenAI 框架评估代码库是否适合 AI 代理开发。",
-    "detail": "### 产品功能\n该工具允许用户输入 GitHub 仓库 URL，评分其对于 AI 编码代理的“就绪程度”。评分逻辑基于 OpenAI 的“代理可读性”（Agentic Legibility）框架及 Assistants & Agents Build Hour 内容。\n### 使用场景\n帮助开发者优化代码结构，使其更易于被 AI 代理理解和维护，提升自动化编码效率，适合团队协作优化。通过 hosted shell 运行评分，提供具体改进建议。旨在解决 AI 代理在复杂代码库中导航困难的问题，提升开发流。随着 AI 编码普及，代码库规范性成为关键基础设施。这对于未来大规模 AI 辅助软件工程至关重要。",
-    "tags": [
-      "New",
-      "Tool",
-      "GitHub"
-    ],
-    "link": "https://twill.ai/scorecard",
-    "date": "2026-03-17",
-    "id": "17737870167961"
-  },
-  {
-    "title": "Wuobly：自动化 B2B 线索挖掘 AI 代理",
-    "summary": "实时搜索网络寻找高质量 B2B 潜在客户，替代人工调研。",
-    "detail": "### 核心功能\nWuobly 是一款 AI 代理，能够自动搜索实时网络数据，寻找并验证 B2B 销售线索。支持自然语言搜索设定理想客户画像（ICP），自动运行挖掘任务，声称可节省每周 8 小时调研时间。\n### 市场定位\n面向销售团队，旨在整合从线索发现到外展的整个流程，提供免费额度试用，降低获客成本。无需手动研究，直接推送高分线索至 pipeline。解决销售 prospecting 耗时痛点，实现自动化获客。产品强调实时性与验证机制，确保线索质量高于传统数据库。预计将成为销售自动化领域的新标杆工具。",
-    "tags": [
-      "New",
-      "SaaS",
-      "Sales"
-    ],
-    "link": "https://wuobly.com",
-    "date": "2026-03-17",
-    "id": "17737870167962"
-  },
-  {
-    "title": "AI 应用的\"30% 规则”：人机协作新框架",
-    "summary": "建议 AI 自动化 70% 重复任务，人类保留 30% 创造性工作。",
-    "detail": "### 框架定义\n该规则建议 AI 处理 70% 重复性、数据密集型任务，人类专注于需创造力、伦理判断的 30% 工作。AI 负责执行与初稿，人类负责战略决策与质量控制，避免过度依赖自动化。\n### 行业意义\n为企业部署 AI 提供平衡策略，有助于长期保持 workforce 相关性，防止完全替代带来的管理风险。McKinsey 研究支持此模型，强调人机协作而非单纯替代。领导层需重新定义角色，确保人类价值在 AI 时代得以保留。此框架有助于缓解员工对失业的焦虑，促进平稳过渡。此理念正逐渐成为企业 AI 转型的标准参考。",
-    "tags": [
-      "Dev",
-      "Strategy",
-      "Workforce"
-    ],
-    "link": "https://www.generative.inc/what-is-the-30-rule-in-ai",
-    "date": "2026-03-17",
-    "id": "17737870167963"
-  },
-  {
-    "title": "Zendaya 回应 AI 生成婚礼照片泛滥现象",
-    "summary": "明星指出许多公众被 AI 生成的虚假婚礼图片误导。",
-    "detail": "### 事件概述\n美国女演员 Zendaya 对广泛流传的她与 Tom Holland 的 AI 生成婚礼照片做出反应。她指出许多人被这些虚假图片 fool 了，凸显了生成式 AI 在制造深度伪造内容方面的逼真程度。\n### 社会影响\n此事件再次引发公众对 AI 生成内容真实性及版权问题的关注，提醒平台需加强标识与监管。BBC 报道指出这反映了 AI 图像生成技术对公众认知的潜在误导风险。名人效应加剧了深度伪造技术的社会传播与讨论。此类事件可能推动更严格的 AI 内容标识法规出台。公众需提高警惕，辨别网络信息的真伪。",
-    "tags": [
-      "News",
-      "Deepfake",
-      "Social"
-    ],
-    "link": "https://www.bbc.com/news/articles/clyz7llp4k2o",
-    "date": "2026-03-17",
-    "id": "17737870167964"
   }
 ]
