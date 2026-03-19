@@ -1,5 +1,83 @@
 [
   {
+    "title": "Crypto.com 裁员 12% 提及 AI 替代",
+    "summary": "加密货币平台因 AI 技术裁员，反映行业趋势。",
+    "detail": "**背景**：Crypto.com 宣布裁员 12%，明确将 AI 技术引入作为成本削减理由。**影响**：这是继多家科技巨头后，又一例证 AI 导致岗位缩减的案例，显示自动化浪潮已波及加密金融领域。**行业信号**：表明 AI 自动化正从研发端向运营端渗透，金融与客服岗位风险加剧。企业需平衡效率与人力结构，投资者应关注后续裁员潮是否向同行业蔓延，这标志着 AI 落地进入深水区，人力成本结构将面临根本性调整，传统岗位需快速转型以适应人机协作新模式。",
+    "tags": [
+      "News",
+      "Layoffs",
+      "Finance"
+    ],
+    "link": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html",
+    "date": "2026-03-19",
+    "id": "17739595322530"
+  },
+  {
+    "title": "贝索斯拟投千亿美元改造制造业",
+    "summary": "杰夫·贝索斯计划巨资利用 AI 转型传统制造。",
+    "detail": "**动态**：据报道，杰夫·贝索斯寻求 1000 亿美元资金，旨在收购并利用 AI 改造旧制造厂。**核心**：聚焦传统工业与 AI 结合，提升生产效率。**意义**：显示资本巨头看好 AI 在实体经济的落地潜力，可能引发制造业并购潮，推动工业 AI 化发展，是 AI 从软件向硬件制造延伸的重要信号。此举若成真，将极大加速传统供应链的智能化升级，为工业大模型提供丰富场景，可能重塑全球制造业竞争格局，带来新的投资机会。",
+    "tags": [
+      "News",
+      "Investment",
+      "Manufacturing"
+    ],
+    "link": "https://techcrunch.com/2026/03/19/jeff-bezos-reportedly-wants-100-billion-to-buy-and-transform-old-manufacturing-firms-with-ai/",
+    "date": "2026-03-19",
+    "id": "17739595322531"
+  },
+  {
+    "title": "PG 扩展助力 AI Agent 安全连接",
+    "summary": "新插件实现数据库只读模式，保障 Agent 安全。",
+    "detail": "**工具**：`safesession` 扩展允许将 PostgreSQL 连接设为只读模式。**场景**：专为 AI Agents 和 MCP 设计，防止代理误写数据。**价值**：解决了 AI 代理直接操作数据库的安全隐患，提供底层基础设施支持，适合开发者构建安全的 AI 数据库交互流程，降低生产环境风险。通过限制权限，有效避免 Agent 幻觉导致的數據损坏，是构建可靠 AI 应用的关键组件。对于依赖数据库记忆的 Agent 架构，此工具提供了必要的安全边界，防止意外删除或篡改。",
+    "tags": [
+      "Dev",
+      "Database",
+      "Security"
+    ],
+    "link": "https://github.com/danolivo/safesession",
+    "date": "2026-03-19",
+    "id": "17739595322532"
+  },
+  {
+    "title": "RegalMail 为 AI 代理赋予邮箱能力",
+    "summary": "支持 IMAP/SMTP，让 AI 自动收发邮件。",
+    "detail": "**功能**：RegalMail 插件使 AI Agents 拥有真实邮箱，支持自动收发。**技术**：基于 IMAP IDLE 实时检测，具备线程感知和防循环保护。**应用**：兼容任何邮件提供商，可自托管。为构建自动化客服、销售代理提供了关键通信模块，解决了 AI 交互中的邮件通道难题。支持免费层级，适合开发者快速集成邮件交互能力到智能体工作流中。其防循环机制尤为重要，避免了自动化回复引发的邮件风暴，确保系统稳定运行。",
+    "tags": [
+      "New",
+      "Email",
+      "Agent"
+    ],
+    "link": "https://alvento.ltd/email-plugin/",
+    "date": "2026-03-19",
+    "id": "17739595322533"
+  },
+  {
+    "title": "规范 AI 生成代码的代码库管理指南",
+    "summary": "倡导有意识地管理 AI 写入的代码结构。",
+    "detail": "**理念**：强调在 AI 编程代理普及下，需有意管理代码库质量。**建议**：提倡语义化函数、最小化副作用，避免代码腐化。**适用**：适合团队引入 AI 编码助手时参考，防止“代码沼泽化”。提供了具体的 Cursor 规则添加方式，帮助开发者维持代码长期可维护性。随着 AI 生成代码比例增加，此类规范将成为软件工程的新标准，确保系统稳定性。开发者需从单纯编写者转变为架构审查者，确保 AI 产出符合工程规范。",
+    "tags": [
+      "Dev",
+      "Best Practices",
+      "Coding"
+    ],
+    "link": "https://aicode.swerdlow.dev/",
+    "date": "2026-03-19",
+    "id": "17739595322534"
+  },
+  {
+    "title": "全平台 AI 笔记工具 Mindnote 上线",
+    "summary": "支持多端同步，利用 AI 提取会议信息。",
+    "detail": "**产品**：Mindnote 推出 Web、iOS 及 Android 版 AI 笔记工具。**功能**：支持提示词编辑笔记，从语音、视频及会议中提取信息。**亮点**：跨平台同步，旨在提升知识管理效率。适合需要频繁记录会议和整理信息的用户，是 AI 赋能个人生产力工具的又一新选择。竞争激烈的笔记市场中，AI 处理能力已成为差异化关键，值得关注其后续用户增长。多端覆盖显示了团队对移动办公场景的重视，旨在捕捉碎片化信息处理需求。",
+    "tags": [
+      "New",
+      "Productivity",
+      "App"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47445920",
+    "date": "2026-03-19",
+    "id": "17739595322535"
+  },
+  {
     "title": "Vercel 更新服务条款：Hobby 计划代码默认用于 AI 训练",
     "summary": "Vercel 更新条款，Hobby 用户代码默认授权用于 AI 训练。",
     "detail": "Vercel 发布了 2026 年 3 月服务条款更新，明确指出 Hobby 计划下的代码默认将被用于 AI 模型训练。这一政策变化引发了开发者对知识产权和隐私的广泛关注。对于企业级用户或对代码隐私敏感的开发者而言，需重新评估平台选择或升级至企业计划。此举反映了云平台方利用用户数据优化自身 AI 能力的行业趋势，开发者需仔细阅读最新条款以规避潜在法律风险，并注意敏感代码的托管安全。",
@@ -37,19 +115,6 @@
     "link": "https://github.com/oug-t/mittens",
     "date": "2026-03-19",
     "id": "17739563236162"
-  },
-  {
-    "title": "开发指南：面向 AI 协作的代码库设计原则",
-    "summary": "提倡语义函数设计，提升代码库对 AI 的可读性。",
-    "detail": "文章探讨了在 AI 时代如何设计代码库以适应人机协作。建议采用“语义函数”，即最小化、自描述且无副作用的函数，以便人类和 AI 都能轻松理解。通过将复杂逻辑拆分为可重用的语义块，可以提高代码的可维护性和单元测试性。这是适应 AI 辅助编程潮流的重要最佳实践，有助于长期维护代码质量，减少 AI 生成代码带来的技术债务，提升整体开发效率。",
-    "tags": [
-      "Dev",
-      "Best Practices",
-      "Coding"
-    ],
-    "link": "https://aicode.swerdlow.dev/",
-    "date": "2026-03-19",
-    "id": "17739563236163"
   },
   {
     "title": "新产品：Agent Pilot AI 代理互评平台",
@@ -1233,70 +1298,5 @@
     "link": "https://openstall.ai",
     "date": "2026-03-18",
     "id": "17738606160472"
-  },
-  {
-    "title": "AI 代理通过 MCP 在微控制器上部署边缘模型",
-    "summary": "AI 代理借助 MCP 协议，90 分钟内完成微控制器上的边缘 AI 部署，无需手写代码。",
-    "detail": "该实验展示了 AI Agent 通过调试探针访问硬件的能力。利用 Model Context Protocol (MCP)，代理在 90 分钟内完成了从训练到微控制器部署的全流程，实现了 98ms 延迟和 94.6% 准确率。这标志着硬件部署门槛的降低，开发者可更专注于量化调优而非底层配置，展示了 Agent 操作硬件的潜力。",
-    "tags": [
-      "Dev",
-      "Edge AI",
-      "MCP"
-    ],
-    "link": "https://es617.github.io/2026/03/16/edge-ai-mcp.html",
-    "date": "2026-03-18",
-    "id": "17738533993830"
-  },
-  {
-    "title": "Google Workspace 值得使用的 Gemini 功能评测",
-    "summary": "TechCrunch 评测 Google Workspace 中 Gemini 的实用功能，涵盖文档总结与内容起草。",
-    "detail": "Google 已将 Gemini 深度集成至 Docs、Gmail 等组件。评测指出最具价值的功能包括自动摘要、\"Help me create\"草稿生成及风格匹配。这些工具能显著提升信息管理与内容创作效率，适合日常办公场景，标志着 AI 在生产力工具中的落地趋于成熟，为用户提供了具体的使用指南。",
-    "tags": [
-      "News",
-      "Google",
-      "Productivity"
-    ],
-    "link": "https://techcrunch.com/2026/03/18/the-gemini-powered-features-in-google-workspace-that-are-worth-using/",
-    "date": "2026-03-18",
-    "id": "17738533993831"
-  },
-  {
-    "title": "Packet28：AI 编程代理的上下文中间件",
-    "summary": "新工具 Packet28 作为上下文代理，可将大型代码库的 Token 消耗减少 164 倍。",
-    "detail": "Packet28 是一款针对 AI 编程代理的上下文层工具。它通过钩子减少器和握手包压缩跨轮次记忆，支持 Claude Code、Cursor 等主流工具。核心功能包括代码库结构映射、测试覆盖率感知及 Token 预算控制，旨在解决大代码库下 Agent 上下文过长的问题，提升编码效率与准确性。",
-    "tags": [
-      "New",
-      "DevTools",
-      "Coding Agent"
-    ],
-    "link": "https://packet28.dev/",
-    "date": "2026-03-18",
-    "id": "17738533993832"
-  },
-  {
-    "title": "AI 辅助形式化验证 Move 借用检查器",
-    "summary": "研究者利用 AI 助手在一个月内完成 3.9 万行 Lean 代码，验证了 Move 借用检查器。",
-    "detail": "这是一项 AI 辅助编程语言元理论的实验。研究者使用 AI 编码助手在不到一个月内形式化并证明了 Move 语言新借用检查器的正确性，共计 3.9 万行机械化元理论代码。该案例展示了 AI 在形式化验证领域的潜力，可能加速编程语言安全性的研究进程，为 PL 研究提供新范式。",
-    "tags": [
-      "Dev",
-      "Formal Verification",
-      "Research"
-    ],
-    "link": "https://proofsandintuitions.net/2026/03/18/move-borrow-checker-lean/",
-    "date": "2026-03-18",
-    "id": "17738533993833"
-  },
-  {
-    "title": "英国政府因艺术家反对撤回 AI 版权提案",
-    "summary": "英国政府在艺术家强烈反对后，撤回允许 AI 训练使用版权作品的初始立场。",
-    "detail": "英国政府最初计划允许 AI 公司在选择退出机制下使用版权作品训练模型，但遭到 Elton John 等艺术家强烈反对。科技秘书宣布不再青睐该方案，目前立场暂未明确。此举旨在平衡创意产业与 AI 行业发展，反映了全球 AI 版权监管的博弈与不确定性，对行业影响深远。",
-    "tags": [
-      "News",
-      "Policy",
-      "Copyright"
-    ],
-    "link": "https://www.bbc.co.uk/news/articles/cvg1gr5v333o",
-    "date": "2026-03-18",
-    "id": "17738533993834"
   }
 ]
