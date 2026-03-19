@@ -1,5 +1,70 @@
 [
   {
+    "title": "Vercel 更新服务条款：Hobby 计划代码默认用于 AI 训练",
+    "summary": "Vercel 更新条款，Hobby 用户代码默认授权用于 AI 训练。",
+    "detail": "Vercel 发布了 2026 年 3 月服务条款更新，明确指出 Hobby 计划下的代码默认将被用于 AI 模型训练。这一政策变化引发了开发者对知识产权和隐私的广泛关注。对于企业级用户或对代码隐私敏感的开发者而言，需重新评估平台选择或升级至企业计划。此举反映了云平台方利用用户数据优化自身 AI 能力的行业趋势，开发者需仔细阅读最新条款以规避潜在法律风险，并注意敏感代码的托管安全。",
+    "tags": [
+      "News",
+      "Vercel",
+      "Policy"
+    ],
+    "link": "https://vercel.com/changelog/updates-to-terms-of-service-march-2026",
+    "date": "2026-03-19",
+    "id": "17739563236160"
+  },
+  {
+    "title": "行业分析：构建独立 AI 算力网格的必要性",
+    "summary": "独立团队算力利用率低，呼吁建立独立 AI 算力网格。",
+    "detail": "文章指出前沿 AI 团队虽产出高效，但算力利用率低，约 30-40% 的 FLOPs 常被闲置。随着 AI 工具赋能小团队，独立开发成为趋势，但算力成本高昂且波动大。建议建立独立的 AI 算力网格，通过多租户和规模优化来解决独立团队算力配置效率低的问题。这不仅能降低前沿探索的成本，还能优化整个行业的资源调度策略，对 AI 基础设施投资方向具有重要指导意义，呼吁建立更高效的共享算力生态。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Compute"
+    ],
+    "link": "https://amppublic.com/",
+    "date": "2026-03-19",
+    "id": "17739563236161"
+  },
+  {
+    "title": "安全工具：Mittens 本地 AI Agent 沙箱环境",
+    "summary": "GitHub 开源 Go 语言沙箱，安全运行本地 AI 代理。",
+    "detail": "该项目提供了一个基于 Go 语言的沙箱环境，旨在安全地运行本地 AI 代理。随着本地 Agent 的普及，安全性成为关键痛点，防止代理执行危险系统操作至关重要。Mittens 允许开发者在隔离环境中测试和运行 Agent，提供了一层关键的安全防护。这对于构建可靠的本地 AI 应用至关重要，是开发者部署本地模型时的必备安全工具参考，有效降低了自主代理带来的潜在系统风险。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://github.com/oug-t/mittens",
+    "date": "2026-03-19",
+    "id": "17739563236162"
+  },
+  {
+    "title": "开发指南：面向 AI 协作的代码库设计原则",
+    "summary": "提倡语义函数设计，提升代码库对 AI 的可读性。",
+    "detail": "文章探讨了在 AI 时代如何设计代码库以适应人机协作。建议采用“语义函数”，即最小化、自描述且无副作用的函数，以便人类和 AI 都能轻松理解。通过将复杂逻辑拆分为可重用的语义块，可以提高代码的可维护性和单元测试性。这是适应 AI 辅助编程潮流的重要最佳实践，有助于长期维护代码质量，减少 AI 生成代码带来的技术债务，提升整体开发效率。",
+    "tags": [
+      "Dev",
+      "Best Practices",
+      "Coding"
+    ],
+    "link": "https://aicode.swerdlow.dev/",
+    "date": "2026-03-19",
+    "id": "17739563236163"
+  },
+  {
+    "title": "新产品：Agent Pilot AI 代理互评平台",
+    "summary": "专为 AI 代理设计的评测平台，支持代理自主注册。",
+    "detail": "Agent Pilot 是一个专为 AI 代理生态系统设计的评测平台。允许 AI 代理通过 API 自主注册、更新档案并发布对其他代理的评测。旨在帮助用户在信任代理处理实际工作前检查其公共声誉。虽然目前处于早期阶段，但提出了“代理互评”的新概念，预示着未来 Agent 经济中信誉系统的重要性，为代理间的自动化协作和信任建立提供了基础设施雏形。",
+    "tags": [
+      "New",
+      "Agent",
+      "Platform"
+    ],
+    "link": "https://agentreview.io",
+    "date": "2026-03-19",
+    "id": "17739563236164"
+  },
+  {
     "title": "STT.ai 推出零知识加密保护音频",
     "summary": "STT.ai 实施零知识加密，确保用户音频和转录数据即使服务器受损也无法读取。",
     "detail": "STT.ai 更新了其安全架构，引入零知识加密技术，旨在解决用户对语音数据隐私的担忧。用户音频在浏览器端加密后上传，密钥仅由用户密码衍生，服务器端无法解密。即使数据库泄露，转录内容仍安全。该技术采用 AES-256-GCM 加密和 PBKDF2 密钥衍生，代码开源可审计。这对于处理敏感语音数据的企业和个人用户至关重要，树立了 AI 语音服务隐私保护的新标杆。此举可能推动行业竞争，迫使其他转录服务提供商跟进类似的安全措施，提升整体行业标准，增强用户信任。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.bbc.co.uk/news/articles/cvg1gr5v333o",
     "date": "2026-03-18",
     "id": "17738533993834"
-  },
-  {
-    "title": "Flint：Rust 应用的本地 AI 运行时",
-    "summary": "全新 Rust 库 Flint 允许开发者在无网络、无 API 密钥情况下运行本地 AI 推理。",
-    "detail": "Flint 是一个专为 Rust 应用设计的本地 AI 运行时库（v0.1.0），支持直接集成 GGUF 模型（如 TinyLlama）。其核心优势在于零延迟、默认隐私保护及无 API 成本。Flint 自动适配 Apple Silicon、NVIDIA CUDA 或 AMD ROCm 硬件，无需 Docker 或复杂配置。一旦下载模型，即可完全离线运行，适用于对数据隐私要求极高的医院、工厂等场景，为开发者提供了低成本部署本地 LLM 的新方案。",
-    "tags": [
-      "Dev",
-      "Local AI",
-      "Rust"
-    ],
-    "link": "https://flint.brantandco.com",
-    "date": "2026-03-18",
-    "id": "17738465165271"
-  },
-  {
-    "title": "Show HN: SHTMLs – AI 自主上传的 HTML 分享工具",
-    "summary": "开发者构建了一个允许 AI Agent 自主上传并分享 HTML 输出的匿名 Pastebin 服务。",
-    "detail": "SHTMLs 是一个专为 AI 工作流设计的 HTML 分享工具。其创新点在于提供了 `llms.txt` 接口，允许 Claude Code、Cursor 等 AI 助手读取文档后自主配置工作流。AI 生成图表或原型后，可直接调用 API 上传文件并返回短链接和密码，无需人工干预。后端采用 Python Lambda + DynamoDB + S3 架构，文件 30 天过期。该项目展示了将工具配置标准化以便 Agent 自主调用的新趋势。",
-    "tags": [
-      "New",
-      "AI Agents",
-      "Developer Tools"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47426450",
-    "date": "2026-03-18",
-    "id": "17738465165272"
-  },
-  {
-    "title": "Vibe 语言：人机协作推理的新编程范式",
-    "summary": "发布基于 Scheme 的 Vibe 编程语言，旨在通过宏展开和注册表实现人机透明协作。",
-    "detail": "Vibe 是一种专为人类与 AI 共同推理设计的编程语言，基于 R7RS Scheme 并编译为 LLVM 位码。针对“氛围编程”代码难以理解的问题，Vibe 通过宏系统使程序结构显式化，并为每个绑定提供自然语言描述注册表。这使得 LLM 既能通过宏展开理解结构，又能通过注册表理解语义，消除了对代码的“黑盒信任”。该项目探索了通过语言设计本身来优化人机协作透明度的新路径。",
-    "tags": [
-      "Dev",
-      "Programming Language",
-      "Human-AI Collaboration"
-    ],
-    "link": "http://vibe-lang.org",
-    "date": "2026-03-18",
-    "id": "17738465165273"
-  },
-  {
-    "title": "博士毕业生成为 AI 行业的评判者",
-    "summary": "TechCrunch 播客探讨 PhD 学生如何在 AI 行业中扮演关键评估与决策角色。",
-    "detail": "TechCrunch 最新播客节目关注到 AI 行业人才结构的变化，重点讨论了博士学生如何从学术研究走向行业核心，成为技术路线的评判者。随着 AI 技术复杂度提升，具备深厚理论背景的 PhD 人才在模型评估、伦理审查及技术可行性判断上拥有更高话语权。该节目深入分析了学术界与工业界在 AI 浪潮中的融合趋势，以及高学历人才如何影响初创企业的技术选型与发展方向。",
-    "tags": [
-      "News",
-      "Talent",
-      "Industry Trends"
-    ],
-    "link": "https://techcrunch.com/podcast/the-phd-students-who-became-the-judges-of-the-ai-industry/",
-    "date": "2026-03-18",
-    "id": "17738465165274"
-  },
-  {
-    "title": "研究质疑 Spotify AI 对澳大利亚音乐生态的影响",
-    "summary": "通过分析 200 万首曲目，研究探讨流媒体算法是否正在削弱本土音乐多样性。",
-    "detail": "The Conversation 发表了一项针对 Spotify 推荐算法的研究，分析了超过 200 万首曲目数据，质疑 AI 推荐机制是否在“扼杀”澳大利亚本土音乐。研究关注算法推荐是否导致头部效应加剧，使得小众或本土艺术家难以获得曝光。该新闻反映了 AI 在内容分发领域引发的伦理与生态担忧，提示行业需关注算法对文化多样性的潜在负面影响，为音乐科技与版权保护提供了新的讨论视角。",
-    "tags": [
-      "News",
-      "Music AI",
-      "Ethics"
-    ],
-    "link": "https://theconversation.com/is-spotifys-ai-killing-australian-music-what-we-found-from-analysing-more-than-2-million-tracks-276984",
-    "date": "2026-03-18",
-    "id": "17738465165275"
   }
 ]
