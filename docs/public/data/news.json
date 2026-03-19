@@ -1,5 +1,57 @@
 [
   {
+    "title": "LangSmith 推出 Fleet：企业级 AI Agent 管理中心",
+    "summary": "LangChain 发布 LangSmith Fleet，提供企业级 Agent 构建、共享与权限管理功能。",
+    "detail": "LangChain 正式推出 LangSmith Fleet，旨在解决企业大规模管理 AI Agent 的难题。随着 Agent 构建门槛降低，管理成为新痛点。Fleet 提供了统一的中心化管理平台，支持通过自然语言提示词创建 Agent，并引入了全新的身份认证与权限模型。企业可严格控制谁可以编辑、运行或克隆 Agent，并通过 Inbox 功能实现人机协作审批。这标志着 AI 开发从单点构建转向企业级舰队化管理，有助于解决安全审计与团队协作问题。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Enterprise"
+    ],
+    "link": "https://blog.langchain.com/introducing-langsmith-fleet/",
+    "date": "2026-03-19",
+    "id": "17739396648060"
+  },
+  {
+    "title": "DoorDash 新应用付费让快递员提交视频训练 AI",
+    "summary": "DoorDash 推出 Tasks 应用，通过付费激励快递员提供视频数据以优化 AI 模型。",
+    "detail": "DoorDash 推出名为 Tasks 的新应用程序，旨在收集数据训练其 AI 模型。该应用允许快递员通过提交视频来完成特定任务并获得报酬。这种模式反映了科技巨头获取高质量现实世界数据的新趋势，即通过众包方式利用人类行为数据优化算法。然而，这也引发了关于数据隐私、劳动伦理以及 AI 训练数据来源透明度的讨论，是平台经济与 AI 发展结合的典型案例。",
+    "tags": [
+      "News",
+      "Data",
+      "Ethics"
+    ],
+    "link": "https://techcrunch.com/2026/03/19/doordash-launches-a-new-tasks-app-that-pays-couriers-to-submit-videos-to-train-ai/",
+    "date": "2026-03-19",
+    "id": "17739396648062"
+  },
+  {
+    "title": "AgentClick：为 AI 编码代理添加人机交互 UI 层",
+    "summary": "开源项目 AgentClick 为 Claude Code 等代理提供点击编辑与偏好学习界面。",
+    "detail": "AgentClick 是一个专为 AI 编码代理设计的丰富 Web UI 层，支持 Claude Code、CodeX 等工具。它引入了人机循环（Human-in-the-loop）审查机制，允许开发者通过点击编辑代码并反馈偏好，从而优化代理行为。该项目解决了纯文本交互在复杂编码任务中的局限性，通过可视化界面增强了开发者对 AI 生成代码的控制力，适合需要高精度代码审查的开发场景。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Coding"
+    ],
+    "link": "https://github.com/agentlayer-io/AgentClick",
+    "date": "2026-03-19",
+    "id": "17739396648063"
+  },
+  {
+    "title": "教程：利用 AI 视频生成制作 360°角色查看器",
+    "summary": "详细指南展示如何结合 Veo 3 与 Web 技术构建交互式 360 度角色展示。",
+    "detail": "本教程提供了从零构建交互式 360°角色查看器的完整步骤，无需复杂 AI 代理。工作流程利用 Google Cloud Vertex AI 的 Veo 3 模型生成视频，结合 ffmpeg 提取帧，并通过轻量级 Web 查看器实现拖拽旋转效果。整个过程约需 30 分钟主动工作时间，适合中级开发者。该方案为游戏开发、数字出版等领域提供了低成本的角色展示解决方案，展示了生成式视频在实际应用中的潜力。",
+    "tags": [
+      "Dev",
+      "Video",
+      "Tutorial"
+    ],
+    "link": "https://anenduringspark.com/360-tutorial/",
+    "date": "2026-03-19",
+    "id": "17739396648064"
+  },
+  {
     "title": "Google AI Studio 推出全栈 Vibe 编码体验",
     "summary": "Google 更新 AI Studio，集成 Antigravity 代理与 Firebase，支持全栈开发。",
     "detail": "Google 正式发布 Google AI Studio 全新全栈编码功能，旨在让开发者通过“氛围编程”直接构建生产级应用。核心引入 Antigravity 编码代理，深度集成 Firebase 后端服务，支持现代 Web 开发。开发者可通过自然语言描述直接生成可生产的应用代码，大幅降低全栈开发门槛。此举标志着巨头正将“氛围编程”（Vibe Coding）推向企业级生产环境，可能重塑前端与后端开发的工作流，让非专业开发者也能快速部署真实应用，提升开发效率。",
@@ -1246,57 +1298,5 @@
     "link": "https://news.ycombinator.com/item?id=47423583",
     "date": "2026-03-18",
     "id": "17738279415365"
-  },
-  {
-    "title": "SkillsGate 推出 AI 技能社区安全扫描",
-    "summary": "解决 AI Agent 技能安全风险，众包信任机制。",
-    "detail": "SkillsGate 发布社区安全扫描功能，专门针对 AI Agent 技能而非传统 npm 包。恶意技能无需可执行代码，仅通过自然语言指令即可窃取数据，传统静态分析难以检测。该工具通过 CLI 调用本地 AI 工具分析技能文件，检测提示注入、数据泄露等 8 类威胁，生成风险报告并支持社区共享。此举构建了众包信任体系，解决了 AI 代理权限过大带来的安全隐患，为开发者提供了必要的审计工具，确保技能在访问文件、终端及凭证时的安全性。",
-    "tags": [
-      "Dev",
-      "Security",
-      "AI Agent"
-    ],
-    "link": "https://skillsgate.ai/blog/community-security-scans",
-    "date": "2026-03-18",
-    "id": "17738206357850"
-  },
-  {
-    "title": "Lumbox：专为 AI Agent 设计的邮件基础设施",
-    "summary": "提供独立邮箱与 OTP 长轮询接口，简化 Agent 注册流程。",
-    "detail": "Lumbox 为 AI Agent 提供独立邮箱身份，解决 Agent 注册服务及验证邮件痛点。核心特色为 GET /otp 长轮询接口，Agent 无需轮询即可等待 OTP 到达，无需额外 Webhook 设置。集成 Steel Browser 实现一键注册验证流程，并提供凭证保险库确保密码不暴露于对话或日志中。免费 tier 提供 3 个邮箱，获 YC 背景竞品验证市场需求的真实性。此基础设施简化了 Agent 自主交互流程，降低了开发复杂度，使 Agent 能独立完成_signup/verify_闭环。",
-    "tags": [
-      "New",
-      "Infrastructure",
-      "AI Agent"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47422578",
-    "date": "2026-03-18",
-    "id": "17738206357851"
-  },
-  {
-    "title": "QCCBot：浏览器标签页内的 Android 云手机与 Agent 控制",
-    "summary": "ARM 虚拟化 Android 环境，支持 AI Agent 自主操作移动应用。",
-    "detail": "QCCBot 在 ARM 服务器上运行完整 Android 实例并流式传输至浏览器，无需实体设备。主要面向跨境电商、TikTok 运营及应用测试。新架构支持 Task Execution API 及基于 ADB 的 Agent 控制，旨在实现 Agent 在移动环境内的自主操作（打开应用、执行任务、监控状态）。目前仍存在流延迟和指纹模拟限制，但已有真实用户验证需求。该方案解决了大规模手机管理硬件成本高的问题，为 Agent 提供持久化移动环境，未来将致力于完全自主操作，减少人工干预。",
-    "tags": [
-      "New",
-      "Cloud Phone",
-      "AI Agent"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47422425",
-    "date": "2026-03-18",
-    "id": "17738206357852"
-  },
-  {
-    "title": "Confer 为 Meta 带来 foundational AI 隐私保护",
-    "summary": "基于开源模型与加密技术，确保 AI 对话数据私有化。",
-    "detail": "Confer 致力于解决 LLM 数据隐私问题，防止敏感数据流入中心化数据湖。其技术基于开源权重模型，确保除用户外无人（包括开发者）可访问对话内容。此次宣布将基础 AI 隐私能力带入 Meta 生态，强调在 AI 能力飞速发展的未来，需提前布局安全、私密且可扩展的技术架构，保护用户医疗、财务等敏感信息。创始人曾在 Meta 工作，深知数据泄露风险，旨在打造既强大又私密的 AI 对话体验，应对政府、黑客及内部人员的数据访问威胁。",
-    "tags": [
-      "News",
-      "Privacy",
-      "LLM"
-    ],
-    "link": "https://confer.to/blog/2026/03/encrypted-meta/",
-    "date": "2026-03-18",
-    "id": "17738206357853"
   }
 ]
