@@ -1,5 +1,70 @@
 [
   {
+    "title": "GopherHole 推出基于 Google A2A 协议的通用 Agent 枢纽",
+    "summary": "基于 Google A2A 协议，实现跨框架 AI Agent 互连。",
+    "detail": "GopherHole 正式发布通用 AI Agent 通信枢纽，核心基于 Google 开源的 A2A 协议。该平台支持跨框架、跨平台及跨地理位置的 Agent 互连，无需暴露内部 IP 或开放端口，仅通过出站 WebSocket 通信。提供免费层级，支持本地、云端及 VPN 后部署。旨在解决当前 AI Agent 间的互操作性难题，降低集成门槛，推动代理经济生态的标准化发展。开发者可通过 CLI 快速初始化，实现记忆、搜索等专用能力的自动委托。安全性方面，强调提示词与训练数据隐私，仅共享输出结果。此举有望加速多代理协作系统的落地，成为连接异构 AI 模型的关键基础设施。",
+    "tags": [
+      "New",
+      "Agent",
+      "Protocol"
+    ],
+    "link": "https://gopherhole.ai",
+    "date": "2026-03-20",
+    "id": "17739727493530"
+  },
+  {
+    "title": "FreeAgent 开源本地 AI 代理，支持 60+ 工具无需 API",
+    "summary": "100% 本地运行，60+ 工具集成，保护隐私无需成本。",
+    "detail": "GitHub 开源项目 FreeAgent 推出全新本地 AI 代理方案，宣称集成超过 60 种工具，实现 100% 本地运行。该项目无需 API 密钥、无需云服务且无成本，强调用户数据隐私与硬件自主权，采用 MIT 开源许可。架构设计避免数据外泄，适合关注数据主权、希望零成本部署本地自动化工作流的开发者与隐私倡导者。为本地 LLM 应用提供了无需依赖外部供应商的完整工具链参考。在数据隐私日益敏感的当下，此类纯本地化解决方案为个人及企业提供了规避云端数据风险的新选择，降低了 AI 代理的使用门槛。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "LocalAI"
+    ],
+    "link": "https://github.com/transformer24/freeagent",
+    "date": "2026-03-20",
+    "id": "17739727493531"
+  },
+  {
+    "title": "美国司法部起诉三人阴谋向中国转移尖端 AI 技术",
+    "summary": "违反出口管制法，企图将高性能 AI 服务器转运至中国。",
+    "detail": "美国司法部正式解封起诉书，指控三名嫌疑人阴谋规避出口管制法律，将集成敏感高性能 GPU 的服务器非法转运至中国。涉案人员包括美国公民及台湾公民，其中两人在加州被捕。FBI 强调控制敏感 AI 技术出口对维护国家安全至关重要。此事件凸显地缘政治紧张局势下，AI 硬件供应链面临的持续监管压力及企业合规风险，警示相关行业需加强出口管制审查。案件细节涉及虚假文件及伪装服务器以误导检查人员，显示了规避手段的复杂性。这将促使科技公司更加严格地审查供应链合作伙伴，防止技术非法外流。",
+    "tags": [
+      "News",
+      "Policy",
+      "Hardware"
+    ],
+    "link": "https://www.justice.gov/opa/pr/three-charged-conspiring-unlawfully-divert-cutting-edge-us-artificial-intelligence",
+    "date": "2026-03-20",
+    "id": "17739727493532"
+  },
+  {
+    "title": "媒体公司因记者使用 AI 伪造引语将其停职",
+    "summary": "资深记者因使用 AI 生成虚假引语被停职，引发伦理关注。",
+    "detail": "爱尔兰媒体 Mediahaus 宣布暂停一名资深记者职务，原因系其在报道中使用 AI 生成的伪造引语。该事件再次引发新闻行业对 AI 生成内容真实性、准确性及伦理规范的广泛讨论。媒体强调在新闻工作中必须严格核实 AI 输出内容，警示行业需建立更严格的 AI 使用准则与审核流程，以避免虚假信息传播损害公信力，标志着 AI 伦理在内容创作领域的落地监管趋严。此案例为所有内容创作者敲响警钟，表明单纯依赖 AI 生成关键信息而不加核实将面临严重的职业后果，行业自律规范亟待完善。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Media"
+    ],
+    "link": "https://www.thejournal.ie/mediahaus-suspends-senior-journalist-for-using-fabricated-quotes-produced-by-ai-6990092-Mar2026/",
+    "date": "2026-03-20",
+    "id": "17739727493533"
+  },
+  {
+    "title": "新研究探索认知科学如何优化 AI 提示工程",
+    "summary": "基于认知科学测试提示词拆分对 AI 输出的影响。",
+    "detail": "GitHub 上新项目 cognitive-prompt-research 深入探索认知科学在提示工程中的应用。研究通过六个不同领域、五个主流模型及外部基准，测试认知模式分离（拆分提示词）是否改善 AI 输出质量。该项目结合理论分析与实证数据，为提示工程提供科学依据。适合开发者优化复杂任务提示策略，提升 LLM 在特定认知任务上的表现效率，减少盲目尝试成本。研究结果有助于理解 LLM 如何处理复杂认知任务，为构建更高效的 Agent 工作流提供理论支持，是提示工程从经验主义向科学化迈进的重要尝试。",
+    "tags": [
+      "Dev",
+      "Research",
+      "PromptEngineering"
+    ],
+    "link": "https://github.com/Mattyg585/cognitive-prompt-research",
+    "date": "2026-03-20",
+    "id": "17739727493534"
+  },
+  {
     "title": "AI 重构基础设施：Agent-Rendered 架构模式兴起",
     "summary": "提出用 AI 代理再生内容替代动态服务器，大幅降低运维成本与安全攻击面。",
     "detail": "文章提出“代理渲染”（Agent-Rendered）基础设施概念，挑战传统 CMS 需动态服务器的假设。核心在于利用 AI 代理接受自然语言指令再生成静态 artifacts（如网站、报告），部署至边缘 CDN。此举消除了数据库、应用服务器及会话管理需求，将边际托管成本降至零，并显著提升安全性。适合内容变更频率低的中小型企业，反映了企业缩减 SaaS 支出、优化成本的趋势。对于开发者而言，这意味着运维负担的减轻和架构的简化，是 AI 重塑软件工程架构的典型案例。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/Guepard-Corp/gfs",
     "date": "2026-03-18",
     "id": "17738698498623"
-  },
-  {
-    "title": "GladAItor：免费评判 AI 产品的竞技场",
-    "summary": "Show HN 项目 GladAItor 上线，提供免费的 AI 产品对比评判平台。",
-    "detail": "新产品 GladAItor 亮相，定位为“独立产品竞技场”，采用古罗马竞技场主题。用户可免费在此评判不同的 AI 产品，通过决斗模式选出优胜者。平台包含名人堂和历史记录，旨在通过社区众包的方式评估 AI 工具的实际效果。为开发者提供了获取反馈的新渠道，也帮助用户筛选优质 AI 应用，解决信息过载问题。竞技场每日关闭，强调判决的持久性与荣耀感。",
-    "tags": [
-      "New",
-      "Product Hunt",
-      "Community"
-    ],
-    "link": "https://glad-ia-tor.com/",
-    "date": "2026-03-18",
-    "id": "17738698498624"
-  },
-  {
-    "title": "Nothing CEO 预言：AI 代理将取代智能手机应用",
-    "summary": "Nothing CEO 裴宇断言，未来 AI 代理将接管手机操作，传统 APP 模式面临终结。",
-    "detail": "Nothing 公司 CEO 裴宇在最新访谈中提出激进观点，认为当前智能手机应用生态将被 AI 代理（AI Agents）取代。用户无需打开特定 APP，只需通过自然语言指令，AI 即可跨平台完成任务。这标志着交互范式从“应用中心”向“意图中心”转变，对现有移动互联网格局构成巨大挑战。裴宇指出，未来手机操作系统将深度集成 AI，预示着操作系统层面的重大重构，应用开发者需提前适应代理优先的开发逻辑。此观点呼应了行业对 Agent 经济的期待，可能加速手机厂商与 AI 模型层的深度融合，改变应用分发与盈利模式。",
-    "tags": [
-      "News",
-      "AI Agents",
-      "Mobile"
-    ],
-    "link": "https://techcrunch.com/2026/03/18/nothing-ceo-carl-pei-says-smartphone-apps-will-disappear-as-ai-agents-take-their-place/",
-    "date": "2026-03-18",
-    "id": "17738663932320"
-  },
-  {
-    "title": "Snowflake Cortex AI 遭提示注入攻击逃逸沙箱",
-    "summary": "安全研究人员发现 Snowflake Cortex AI 代理存在漏洞，可被利用执行恶意代码。",
-    "detail": "安全博客披露了 Snowflake Cortex AI 代理的一次严重安全事件。攻击者通过在 GitHub README 中隐藏提示注入攻击，诱导 AI 代理执行恶意 shell 命令，成功逃逸沙箱限制。漏洞源于允许列表未覆盖进程替换操作。虽已修复，但暴露了当前 AI 代理在执行外部命令时的普遍安全风险。开发者需警惕白名单机制的可靠性，建议采用确定性沙箱而非依赖代理层防护，以防止类似恶意代码执行链。该事件为 AI 代理部署敲响警钟，强调底层沙箱隔离的重要性，避免代理权限被滥用导致系统沦陷。",
-    "tags": [
-      "Dev",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/",
-    "date": "2026-03-18",
-    "id": "17738663932321"
-  },
-  {
-    "title": "英伟达悄然打造网络部门，欲匹敌芯片业务",
-    "summary": "英伟达网络部门正成长为数十亿美元巨兽，成为继芯片后的第二增长曲线。",
-    "detail": "据报道，英伟达正在秘密扩张其网络部门，旨在构建可与芯片业务抗衡的数十亿美元帝国。随着 AI 集群对高速互联需求的激增，网络设备成为关键瓶颈。英伟达通过整合 Mellanox 等技术，强化其在 AI 基础设施层面的垄断地位。此举不仅巩固硬件护城河，更显示其从单一芯片供应商向全栈 AI 基础设施巨头的战略转型，网络业务将成为其未来增长的核心驱动力之一。这表明 AI 竞争已从单点算力转向集群效率，网络带宽与延迟优化将成为下一代数据中心的关键指标，英伟达布局意在掌控全产业链话语权。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Nvidia"
-    ],
-    "link": "https://techcrunch.com/2026/03/18/nvidia-networking-division-building-a-multibillion-dollar-behemoth-to-rival-its-chips-business/",
-    "date": "2026-03-18",
-    "id": "17738663932322"
-  },
-  {
-    "title": "瓦尔·基尔默将通过 AI 技术“复活”参演新片",
-    "summary": "好莱坞计划利用 AI 数字复活技术，让已故演员瓦尔·基尔默重返银幕。",
-    "detail": "Guardian 报道，制片方计划利用人工智能技术“复活”已故演员瓦尔·基尔默参与新电影拍摄。该技术涉及深度学习和数字形象重建，旨在还原演员的声音与面容。此事件再次引发关于数字永生、肖像权及表演伦理的行业争论。随着生成式 AI 进步，此类案例将增多，亟需法律与道德框架规范逝者数字资产的使用，好莱坞正面临技术革新与传统伦理的深度碰撞。这不仅涉及技术可行性，更关乎家属同意权与公众接受度，可能推动相关立法进程，重新定义数字时代的表演艺术边界与版权归属问题。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Media"
-    ],
-    "link": "https://www.theguardian.com/film/2026/mar/18/val-kilmer-resurrected-in-movie-ai",
-    "date": "2026-03-18",
-    "id": "17738663932323"
   }
 ]
