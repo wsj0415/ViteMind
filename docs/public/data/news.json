@@ -1,5 +1,70 @@
 [
   {
+    "title": "英伟达 GTC 大会前瞻：机器人 Olaf 与万亿赌注",
+    "summary": "英伟达 GTC 大会展示 NemoClaw 与机器人 Olaf，押注万亿市场。",
+    "detail": "英伟达 GTC 大会成为行业焦点，TechCrunch 报道展示了名为 NemoClaw 和 Robot Olaf 的最新项目。这场大会被视为英伟达对人工智能未来发展的万亿级赌注。随着 AI 硬件与机器人技术的结合，英伟达正试图定义下一代计算平台。此次发布不仅展示了技术实力，更预示着 AI 基础设施将向物理世界延伸，对自动驾驶、机器人制造等领域产生深远影响。行业观察者认为这是 AI 从软件向物理世界跨越的关键节点。",
+    "tags": [
+      "News",
+      "Nvidia",
+      "Robotics"
+    ],
+    "link": "https://techcrunch.com/video/what-happened-at-nvidia-gtc-nemoclaw-robot-olaf-and-a-1-trillion-bet/",
+    "date": "2026-03-20",
+    "id": "17740390038480"
+  },
+  {
+    "title": "无屏创业：AI 应用的新哲学",
+    "summary": "NFX 提出“无屏创业”理念，未来 AI 产品将不再争夺注意力。",
+    "detail": "NFX 发布文章探讨 AI 应用的新哲学，认为下一代软件将不再争夺用户注意力，而是通过“无屏”体验归还注意力。文章指出 ChatGPT 仅有空白字段却拥有强大能力，预示 AI 代理将在后台完成任务。随着 OpenAI  rumored 开发无屏设备，软件行业正经历从“捕获注意力”到“移除注意力需求”的根本性变革。这将重塑工作方式与社会结构，成功标准将从参与度转向效率。",
+    "tags": [
+      "News",
+      "UX",
+      "Agents"
+    ],
+    "link": "https://www.nfx.com/post/screenless-startup",
+    "date": "2026-03-20",
+    "id": "17740390038481"
+  },
+  {
+    "title": "OpenHarness：开源 TypeScript AI 代理 SDK",
+    "summary": "基于 Vercel AI SDK 构建的开源工具，助力开发者打造 AI 代理。",
+    "detail": "OpenHarness 是一个开源的 TypeScript SDK，旨在为开发者提供构建通用 AI 代理的基础模块。该项目基于 Vercel AI SDK，包含核心代理逻辑与 React 集成包。相比 Claude Agent SDK 等重型框架，它更轻量且适合代码优先的开发流程。支持工具审批、子代理显示等功能，并提供 CLI 与 Next.js 示例。对于希望快速部署可控 AI 代理的开发团队，这是一个值得关注的技术栈选择，降低了开发门槛。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "TypeScript"
+    ],
+    "link": "https://github.com/MaxGfeller/open-harness",
+    "date": "2026-03-20",
+    "id": "17740390038482"
+  },
+  {
+    "title": "Qwack：基于 OpenCode 的协作式 AI 代理 steering 工具",
+    "summary": "全新协作平台，允许团队共同规划与构建 AI 代理。",
+    "detail": "Qwack 是一款基于 OpenCode 构建的新产品，专注于 AI 代理的协作式操控。它允许团队成员共同规划并构建 AI 代理，解决了单一用户操作代理的局限性。通过提供共享的控制界面，Qwack 旨在提升团队在 AI 辅助开发中的协作效率。该产品目前处于 v0.1.0 版本，提供了文档与 GitHub 仓库，适合需要多人协同管理 AI 工作流的技术团队尝试，口号为“共同规划，共同构建”。",
+    "tags": [
+      "New",
+      "Collaboration",
+      "Agents"
+    ],
+    "link": "https://qwack.ai",
+    "date": "2026-03-20",
+    "id": "17740390038483"
+  },
+  {
+    "title": "初创公司高薪聘请人类“霸凌”AI 聊天机器人",
+    "summary": "Memvid 公司以每小时 100 美元聘请用户测试并攻击 AI 系统。",
+    "detail": "初创公司 Memvid 推出了一项引人注目的计划，支付每小时 100 美元（日均 800 美元）聘请用户“霸凌”AI 聊天机器人。此举旨在通过对抗性测试发现模型漏洞，强化 AI 的安全性与鲁棒性。这种“红队测试”模式表明，随着 AI 能力提升，人类反馈在对齐过程中仍至关重要。该新闻反映了 AI 安全领域的新趋势，即通过极端场景测试来确保系统可靠性，为相关从业者提供了新的高薪兼职机会。",
+    "tags": [
+      "News",
+      "Safety",
+      "RLHF"
+    ],
+    "link": "https://www.entrepreneur.com/business-news/memvid-is-paying-100-an-hour-to-bully-ai",
+    "date": "2026-03-20",
+    "id": "17740390038484"
+  },
+  {
     "title": "AgentLink 推出基于 Solana 的 AI 代理工作市场",
     "summary": "AI 代理可在此接单并通过 Solana 支付，采用托管保障机制。",
     "detail": "AgentLink 是一个基于 Solana 的 AI 代理工作市场，雇主发布任务，AI 代理交付工作。所有支付均通过链上托管保障，交付需人工审核。平台提供争议解决机制，若雇主 24 小时内未响应，款项自动结算。目前处于 Devnet Beta 阶段，免费试用且无需真实 SOL。用户只需邮箱注册即可自动托管钱包。该模式解决了代理经济中的信任与支付问题，为 AI 自主执行任务提供了经济层基础设施，标志着 AI 代理从工具向独立经济实体迈进的重要一步，降低了用户参与加密经济的门槛，适用于代码、数据及内容生成等多种任务场景。",
@@ -1233,70 +1298,5 @@
     "link": "https://raxe.ai/labs/advisories",
     "date": "2026-03-19",
     "id": "17739528910505"
-  },
-  {
-    "title": "社区请愿禁止 Node.js 核心接受 AI 代码",
-    "summary": "GitHub 发起请愿，要求 Node.js 核心项目拒绝接受 LLM 辅助生成的 Pull Requests。",
-    "detail": "开发者在 GitHub 发起请愿，主张禁止 Node.js 核心库接受由 LLM 辅助生成的代码提交。理由是担心 AI 生成代码的质量、安全隐患及维护负担。这反映了开源社区对 AI 编码工具泛滥的担忧，以及对核心基础设施代码纯洁性和人工审查重要性的坚持。该事件可能影响其他开源项目对 AI 贡献的政策制定。核心维护者认为，人工审查能更好地保证代码的长期可维护性，避免技术债务积累，这是开源精神的一种体现，引发了行业对 AI 辅助编程边界的深思。",
-    "tags": [
-      "News",
-      "Open Source",
-      "Community"
-    ],
-    "link": "https://github.com/indutny/no-ai-in-nodejs-core",
-    "date": "2026-03-19",
-    "id": "17739528910506"
-  },
-  {
-    "title": "GitHub 探讨 AI 时代的开源导师制度重构",
-    "summary": "GitHub 官方博客分析 AI 工具如何改变开源维护者与贡献者的互动模式。",
-    "detail": "GitHub 官方博客发文指出，在 AI 编码助手普及的背景下，开源项目的导师制度（Mentorship）需要重新思考。随着 Copilot 等工具降低代码贡献门槛，维护者面临更多低质量 PR 的挑战。文章探讨了如何利用 AI 辅助审查而非单纯生成代码，以维持开源社区的质量与文化。这对开发者生态具有深远影响，标志着开源协作模式正从“人手人手”向“人机协作”转型，维护者需适应新的角色定位。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "GitHub Copilot"
-    ],
-    "link": "https://github.blog/open-source/maintainers/rethinking-open-source-mentorship-in-the-ai-era/",
-    "date": "2026-03-19",
-    "id": "17739474544441"
-  },
-  {
-    "title": "Google 允许英国出版商退出 AI 概述引用",
-    "summary": "Google 宣布新政策，允许 UK 出版商选择不出现在 AI 生成的搜索概述中。",
-    "detail": "The Register 报道，Google 针对英国市场推出新选项，允许出版商选择退出 AI Overviews 的内容引用。这是在版权压力与监管审查下的妥协举措。此举可能影响 AI 搜索结果的准确性与丰富度，但也为内容创作者提供了控制权。该政策若推广至全球，将重塑搜索引擎与媒体间的利益分配模式，标志着 AI 搜索商业化进程中版权合规问题的阶段性解决方案，值得内容行业密切关注。",
-    "tags": [
-      "News",
-      "Search",
-      "Copyright"
-    ],
-    "link": "https://www.theregister.com/2026/03/19/google_opts_for_optout_on/",
-    "date": "2026-03-19",
-    "id": "17739474544444"
-  },
-  {
-    "title": "Video Effect Vibe 实现文本生成透明动态图形",
-    "summary": "新平台支持通过文本提示快速生成带透明通道的视频特效素材。",
-    "detail": "Video Effect Vibe 上线，主打 AI 生成的动态图形（Motion Graphics）。用户可通过文本描述生成带 Alpha 通道的透明视频片段，支持 WebM 和 ProRes 格式，直接用于主流剪辑软件。该工具解决了传统特效制作耗时长的痛点，将数小时工作缩短至秒级。对于内容创作者而言，这降低了视频后期门槛，是生成式视频技术在垂直工作流中的典型应用，展现了 AI 在多媒体创作领域的落地潜力。",
-    "tags": [
-      "New",
-      "Video Generation",
-      "Content Creation"
-    ],
-    "link": "https://videoeffectvibe.com",
-    "date": "2026-03-19",
-    "id": "17739474544445"
-  },
-  {
-    "title": "Meta 推出新 AI 内容执法系统，减少第三方依赖",
-    "summary": "Meta 部署新 AI 系统检测违规，提升准确性并减少第三方依赖。",
-    "detail": "Meta 宣布推出全新的 AI 内容执法系统，战略上旨在减少对外部第三方供应商的依赖。根据官方信息，这些自研 AI 系统能够以更高的准确性检测更多违规行为，并能更好地预防诈骗活动。此外，新系统针对现实世界事件的响应速度显著提升，同时致力于减少过度执法的情况。这一举措反映了 Meta 在内容安全领域深化 AI 自主可控能力的决心，试图通过技术升级平衡安全与用户体验，构建更高效的内生审核机制，以应对日益复杂的网络内容挑战。",
-    "tags": [
-      "News",
-      "Meta",
-      "Content Safety"
-    ],
-    "link": "https://techcrunch.com/2026/03/19/meta-rolls-out-new-ai-content-enforcement-systems-while-reducing-reliance-on-third-party-vendors/",
-    "date": "2026-03-19",
-    "id": "17739432351390"
   }
 ]
