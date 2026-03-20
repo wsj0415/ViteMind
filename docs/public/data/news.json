@@ -1,5 +1,70 @@
 [
   {
+    "title": "Scale AI 发布首个语音 AI 真实基准测试",
+    "summary": "Scale AI 推出 Voice Showdown，评估真实场景语音模型表现。",
+    "detail": "Scale AI 发布 Voice Showdown，这是首个针对语音 AI 的真实世界基准测试。当前 OpenAI、Google 等实验室正竞相发布语音模型，但现有基准多基于合成语音且仅限英语，无法反映真实对话。新基准关注自然实时对话能力，结果显示部分顶级模型表现不佳。这揭示了评估工具与实际应用的巨大差距，为语音模型优化提供新方向。该举措推动行业建立更真实的评估标准，解决语音 AI 发展速度快于测量工具的问题，帮助开发者识别模型在真实场景中的弱点，促进语音交互技术的成熟落地。",
+    "tags": [
+      "News",
+      "Voice AI",
+      "Benchmark"
+    ],
+    "link": "https://venturebeat.com/data/scale-ai-launches-voice-showdown-the-first-real-world-benchmark-for-voice-ai",
+    "date": "2026-03-20",
+    "id": "17740284516230"
+  },
+  {
+    "title": "Nvidia 发布 Nemotron 3 内容安全模型",
+    "summary": "支持多模态多语言的内容审核模型，增强 AI 安全性。",
+    "detail": "Nvidia 推出 Nemotron 3 Content Safety 4B 模型，专注于多模态和多语言的内容审核。随着 LLM 和 VLM 的普及，AI 代理常处理截图、PDF 等多种格式，且涉及多语言环境。现有安全模型多为纯文本且仅限英语，常忽略文化细微差别。新模型能处理复杂输入，增强关键工作流中的人类交互安全。此发布强调了鲁棒内容安全机制的重要性，为开发者提供处理非英语提示及文化差异的解决方案，提升企业级应用的安全性，满足日益增长的合规与风险管理需求。",
+    "tags": [
+      "Dev",
+      "Safety",
+      "Nvidia"
+    ],
+    "link": "https://huggingface.co/blog/nvidia/nemotron-3-content-safety",
+    "date": "2026-03-20",
+    "id": "17740284516231"
+  },
+  {
+    "title": "YC W26 项目 Sitefire 优化 AI 搜索可见性",
+    "summary": "自动化操作提升品牌在 AI 搜索中的曝光率。",
+    "detail": "YC W26 批次项目 Sitefire 正式亮相，旨在帮助品牌提升在 AI 搜索中的可见性。创始人来自斯坦福 RL 背景，针对 Google AI Overviews 导致营销团队流量下降的问题，提供自动化解决方案。平台通过优化动作帮助营销团队应对 AI 驱动搜索带来的流量挑战。随着 AI 搜索改变流量分发机制，此类工具成为品牌维持曝光的关键。它自动化执行操作以改善可见性，解决了传统 SEO 在 AI 概述时代失效的痛点，帮助企业在新的搜索生态中保持竞争力，重塑数字营销策略。",
+    "tags": [
+      "New",
+      "SEO",
+      "YC"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47457472",
+    "date": "2026-03-20",
+    "id": "17740284516232"
+  },
+  {
+    "title": "AgentGuard 为 AI 支付提供控制层保护",
+    "summary": "基于 AgentPay 构建，24 小时内完成的支付安全原型。",
+    "detail": "Show HN 项目 AgentGuard 是一个用于 AI 驱动支付的控制层，基于 AgentPay SDK 构建。该项目旨在提供执行前的控制措施，确保 AI 代理在进行支付操作时的安全性。作为一个早期原型，它展示了在 AI 代理经济中建立支付安全层的快速开发能力。随着 AI 代理自主性增强，支付安全成为关键风险点。该工具允许开发者在交易发生前实施干预，防止未经授权的支出，为构建可信的自主代理生态系统提供了必要的基础设施支持，降低财务风险。",
+    "tags": [
+      "New",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://github.com/aitrailblazer/ait-agent-guard",
+    "date": "2026-03-20",
+    "id": "17740284516233"
+  },
+  {
+    "title": "Permitio 利用 AI 代理自动化 HVAC 许可申请",
+    "summary": "专为承包商设计，30 秒内完成许可文件提交。",
+    "detail": "Permitio 推出专为承包商设计的 AI 代理，自动化 HVAC 许可申请流程。该工具能自动检测许可类型、填写表格、跟踪状态并安排检查，将平均申请时间缩短至 30 秒。通过集成现有工具并提供实时仪表板，显著减少文书工作延误和错误。支持 40 多种许可类型，并能发送 Slack 通知。这展示了垂直领域 AI 代理的潜力，通过自动化繁琐的行政流程，为传统行业带来效率革命，解决承包商因许可错误导致的罚款和延误问题，实现业务流程的智能化转型。",
+    "tags": [
+      "New",
+      "Automation",
+      "Vertical AI"
+    ],
+    "link": "https://www.permitio.ai/",
+    "date": "2026-03-20",
+    "id": "17740284516234"
+  },
+  {
     "title": "WordPress.com 引入 AI 代理自动写作与发布",
     "summary": "WordPress.com 推出新 AI 代理功能，降低发布门槛，可能增加网络机器生成内容。",
     "detail": "WordPress.com 宣布集成**新型 AI 代理**，允许用户自动化撰写并发布博客文章。这一举措显著降低了内容创作的技术壁垒，使非技术用户也能轻松运营站点。然而，这也引发了关于网络内容质量的担忧，预计未来互联网上机器生成内容的比例将大幅上升。对于内容创作者而言，这既是效率工具也是竞争挑战，需重新思考人机协作的内容策略。该功能标志着内容管理系统向完全自动化迈出了重要一步，可能深刻改变网站生态及信息传播方式。此外，自动化发布可能带来垃圾内容风险，平台需平衡效率与质量管控。",
@@ -1233,70 +1298,5 @@
     "link": "https://askaudience.de/",
     "date": "2026-03-19",
     "id": "17739359706942"
-  },
-  {
-    "title": "DoorDash 让配送员成为 AI 与机器人训练师",
-    "summary": "DoorDash 推出新付费任务，利用配送员数据训练 AI 模型及机器人。",
-    "detail": "外卖平台 DoorDash 推出新任务机制，将配送员转化为 AI 和机器人训练师。通过有偿任务收集人类反馈数据，用于优化自动化配送系统及 AI 决策模型。这体现了“人类在回路”（Human-in-the-loop）策略在物流领域的实际落地，既解决了模型训练数据短缺问题，也为零工经济提供了新的收入来源，但也引发关于劳动性质转变及数据隐私的行业讨论，显示 AI 落地需人类协作。",
-    "tags": [
-      "News",
-      "Robotics",
-      "Labor"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-03-19/doordash-s-new-paid-tasks-turn-couriers-into-ai-and-robot-trainers",
-    "date": "2026-03-19",
-    "id": "17739359706943"
-  },
-  {
-    "title": "NVIDIA 指出 Agentic AI 瓶颈在于数据库",
-    "summary": "黄仁勋 GTC 2026 强调数据基础设施需扩张 1200 亿美元，数据库是代理自主性的关键。",
-    "detail": "NVIDIA 在 GTC 2026 keynote 中指出，AI 代理时代的核心瓶颈并非 GPU，而是数据库层。黄仁勋呼吁数据基础设施支出需扩张 1200 亿美元，以确保结构化数据作为“地面真相”。RegattaDB 等解决方案旨在提供事务完整性和实时一致性，防止代理执行中的幻觉，如库存重复销售。这标志着 AI 基础设施重心从计算向数据一致性转移，为代理系统提供共享记忆层，避免状态漂移。未来代理系统将依赖高性能数据层处理保险理赔或供应链管理等复杂事务，确保执行无误。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "NVIDIA"
-    ],
-    "link": "https://regatta.dev/blog/nvidia-agentic-era-database-bottleneck/",
-    "date": "2026-03-19",
-    "id": "17739319746080"
-  },
-  {
-    "title": "AI 并未杀死开发者，但引发 10 万亿美元维护危机",
-    "summary": "过度依赖 AI 编码代理导致代码逻辑不可知，引发巨额维护成本与系统崩溃风险。",
-    "detail": "文章指出，虽然 AI 编码代理能迅速生成代码，但开发者往往不理解其逻辑，导致“幻觉代码”和抽象滥用。案例显示，自动化计费系统因细微舍入错误崩溃，而开发者无法修复。这揭示了“代码行数”指标的失效，并警告企业面临潜在的 10 万亿美元维护危机，强调人机共享记忆与代码可解释性的重要性。人类需理解代码逻辑，而非仅追求生成速度，否则将面临系统崩溃风险。行业需重新评估开发者技能树，重视代码审查与架构理解能力，而非单纯依赖生成效率。",
-    "tags": [
-      "News",
-      "Industry",
-      "Coding"
-    ],
-    "link": "https://rakiabensassi.substack.com/p/ai-isnt-killing-developersits-creating",
-    "date": "2026-03-19",
-    "id": "17739319746081"
-  },
-  {
-    "title": "Evidra 基准测试：8 款 AI 模型实战 Kubernetes 场景",
-    "summary": "花费 40 美元测试 36 个真实 K8s 场景，gpt-5.2 以 100% 通过率位居榜首。",
-    "detail": "Evidra 发布了基础设施代理基准测试，在 36 个真实 Kubernetes 场景中评估了 8 款 AI 模型。结果显示 gpt-5.2 达到 100% 通过率，gemini-2.5-pro 和 claude-sonnet-4 紧随其后。测试涵盖了基础设施修复与协议处理能力，总成本仅 19.29 美元。该基准为选择运维自动化模型提供了客观数据支持，揭示了模型在复杂运维任务中的实际可靠性差异，帮助开发者优化代理部署策略。此测试证明了高端模型在运维场景中的显著优势，为 enterprise 选型提供参考。",
-    "tags": [
-      "Dev",
-      "Benchmark",
-      "Kubernetes"
-    ],
-    "link": "https://bench.evidra.cc/",
-    "date": "2026-03-19",
-    "id": "17739319746082"
-  },
-  {
-    "title": "NVIDIA 与 Hugging Face 推出 SPEED-Bench 推理基准",
-    "summary": "针对推测解码技术的统一基准，旨在优化 LLM 推理吞吐量与速度。",
-    "detail": "NVIDIA 联合 Hugging Face 推出 SPEED-Bench，旨在解决推测解码（Speculative Decoding）评估碎片化问题。该技术利用轻量级草稿模型推测未来 token，由目标模型并行验证，显著提升推理吞吐量。新基准提供了多样化且统一的评估标准，反映真实世界服务条件，有助于开发者优化 LLM 部署性能，加速高并发场景下的推理效率，推动推理优化技术标准化发展。对于需要低延迟响应的应用场景，推测解码将成为关键优化手段，此基准填补了评估空白。",
-    "tags": [
-      "Dev",
-      "Research",
-      "LLM"
-    ],
-    "link": "https://huggingface.co/blog/nvidia/speed-bench",
-    "date": "2026-03-19",
-    "id": "17739319746083"
   }
 ]
