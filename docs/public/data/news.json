@@ -1,5 +1,31 @@
 [
   {
+    "title": "华尔街未买账：英伟达大会后的市场冷静期",
+    "summary": "英伟达大会后华尔街反应平淡，市场关注点转向实际落地与回报。",
+    "detail": "尽管英伟达举办了盛大的发布会，展示了最新算力成果，但华尔街并未表现出预期的热情，市场反应相对冷静。这标志着 AI 基础设施投资进入理性审视阶段，投资者开始关注 GPU 集群的实际回报率而非单纯的技术愿景。此信号可能影响后续 AI 硬件初创企业的融资环境，提示行业需从“算力堆砌”转向“应用落地”，市场正在重新评估 AI 泡沫风险，企业需证明商业闭环能力。对于依赖硬件增长的生态而言，这是一个重要的冷却信号，预示着资本将更青睐有明确营收模型的项目。",
+    "tags": [
+      "News",
+      "Nvidia",
+      "Market"
+    ],
+    "link": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/",
+    "date": "2026-03-21",
+    "id": "17741108390470"
+  },
+  {
+    "title": "ClawRun：秒级部署与管理 AI Agent 的新工具",
+    "summary": "开源工具 ClawRun 支持多平台部署，实现 AI Agent 的快照与恢复。",
+    "detail": "ClawRun 是一款旨在简化 AI Agent 部署的开源工具，支持 Vercel、AWS 等多平台。其核心特性包括沙箱快照恢复、安全隔离微虚拟机及多通道集成（Telegram/Slack 等）。开发者可通过 CLI 或 Web UI 快速管理无状态 Agent，降低了分布式 AI 应用的运维门槛，适合需要高可用性 Agent 的团队，实现秒级部署与全天候运行。其无共享状态设计确保了安全性，而多 LLM 提供商支持则增加了灵活性，是构建生产级 Agent 系统的有力候选。",
+    "tags": [
+      "New",
+      "Dev",
+      "OpenSource"
+    ],
+    "link": "https://clawrun.sh/",
+    "date": "2026-03-21",
+    "id": "17741108390473"
+  },
+  {
     "title": "Venice 推出端到端加密 AI 推理服务",
     "summary": "Venice 新增 TEE 和 E2EE 模型，通过硬件认证验证隐私，无需信任服务商。",
     "detail": "Venice 宣布推出可验证的加密 AI 推理功能，支持可信执行环境（TEE）和端到端加密（E2EE）模型。此举意味着用户隐私可通过硬件认证和密码学验证，无需信任 Venice 或其 GPU 提供商。安全由硬件飞地强制执行，为用户提供四种隐私模式选择，增强了 AI 交互的数据安全性。这标志着隐私保护从政策承诺转向技术验证，为敏感数据使用 AI 提供了新方案。此前 Venice 仅提供匿名访问，现在通过密码学确保证据可验证，解决了用户对云侧数据泄露的担忧。任何外部方均可验证安全模式，这种透明度可能成为隐私优先 AI 服务的重要标杆，推动行业向零信任架构发展。",
@@ -596,6 +622,19 @@
     "link": "https://www.pairform.io/",
     "date": "2026-03-21",
     "id": "17740587474484"
+  },
+  {
+    "title": "Karpathy 论编码终结：Agent 与自动研究时代",
+    "summary": "前特斯拉 AI 总监 Karpathy 探讨 AI Agent 如何改变编程与研究范式。",
+    "detail": "Andrej Karpathy 在新视频中提出“编码终结”观点，认为 AI Agent 和自动研究（AutoResearch）将重塑人类工作流。他指出我们正进入“循环时代”（Loopy Era），AI 不再仅是工具而是协作者。这对开发者技能树提出新要求，提示未来核心竞争力将转向架构设计与 AI 调度能力，传统编码技能权重下降，人机协作模式将成为主流开发范式。这意味着教育体系需调整，培养更多懂 AI 编排而非单纯语法的工程师，以适应新的生产力形态。",
+    "tags": [
+      "Dev",
+      "Karpathy",
+      "Agents"
+    ],
+    "link": "https://www.youtube.com/watch?v=kwSVtQ7dziU",
+    "date": "2026-03-20",
+    "id": "17741108390472"
   },
   {
     "title": "AI 垃圾内容渗透儿童在线内容",
@@ -1259,44 +1298,5 @@
     "link": "https://www.whitehouse.gov/articles/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/",
     "date": "2026-03-20",
     "id": "17740179283241"
-  },
-  {
-    "title": "n8n 表达式沙盒存在严重远程代码执行漏洞",
-    "summary": "n8n 被发现关键漏洞，可导致服务器远程代码执行，需紧急更新。",
-    "detail": "安全平台 Striga 发现工作流自动化工具 n8n 存在严重漏洞（CVE-2026-27577）。攻击者可利用表达式沙盒逃逸和节点名称注入，实现远程代码执行。该漏洞 CVSS 评分高达 9.4，影响所有拥有工作流编辑权限的认证用户。开发者需立即更新版本，这对使用 n8n 的企业级用户至关重要。此次事件凸显了低代码平台在引入灵活脚本功能时的安全风险，也展示了 AI 驱动安全审计在发现复杂漏洞链方面的有效性，建议用户尽快审查现有工作流配置，避免潜在的数据泄露与服务中断风险。",
-    "tags": [
-      "Dev",
-      "Security",
-      "n8n"
-    ],
-    "link": "https://www.striga.ai/research/breaking-n8n-expression-sandbox",
-    "date": "2026-03-20",
-    "id": "17740179283242"
-  },
-  {
-    "title": "Google Labs 推出 AI UI 设计工具 Stitch",
-    "summary": "Google 发布 Stitch 工具，支持 AI 生成高保真 UI，降低设计门槛。",
-    "detail": "Google Labs 推出了名为 Stitch 的新工具，主打“氛围设计”（vibe design）。该允许用户通过 AI 创建、迭代和协作高保真用户界面，无需深厚编码背景。Stitch 标志着 Google 在 AI 原生设计平台上的布局，旨在降低 UI 设计门槛，提升开发效率。它整合了 Google 最新的生成式模型，为设计师和开发者提供新的协作模式。这一产品反映了 AI 从辅助工具向核心创作平台的转变，可能引发设计工作流的重大变革，值得前端开发者与设计团队关注，预计将于近期开放更多测试权限。",
-    "tags": [
-      "New",
-      "Google",
-      "Design"
-    ],
-    "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-ai-ui-design/",
-    "date": "2026-03-20",
-    "id": "17740179283243"
-  },
-  {
-    "title": "沃尔玛拟采用 AI 动态定价引发消费者不满",
-    "summary": "沃尔玛计划使用 AI 调整价格，被指可能导致价格飙升引发不满。",
-    "detail": "零售巨头沃尔玛计划引入 AI 驱动的动态定价系统，类似网约车的“峰值定价”。消息曝光后，消费者和专家表示强烈反对，担心这会导致商品价格不合理上涨，尤其是在需求高峰期。该事件反映了 AI 在商业应用中面临的伦理挑战，以及公众对算法控制价格的敏感度。沃尔玛随后面临舆论压力，需重新评估该策略。这表明 AI 商业化落地不仅涉及技术问题，更需考虑社会接受度与公平性，其他零售商可能会观望此事件的后续发展，避免重蹈覆辙引发品牌信任危机。",
-    "tags": [
-      "News",
-      "Business",
-      "Retail"
-    ],
-    "link": "https://nypost.com/2026/03/20/tech/walmarts-ai-move-could-bring-surge-pricing-angry-shoppers/",
-    "date": "2026-03-20",
-    "id": "17740179283244"
   }
 ]
