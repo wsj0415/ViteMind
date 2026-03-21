@@ -1,5 +1,70 @@
 [
   {
+    "title": "Show HN: AI 旅行黑客工具包上线",
+    "summary": "集成 MCP 服务器，利用 AI 规划里程积分旅行。",
+    "detail": "GitHub 开源项目 Travel Hacking Toolkit 正式发布，专为常旅客群体设计。其核心亮点是支持 OpenCode 和 Claude Code 的 MCP 服务器，允许 AI 代理直接搜索积分、里程及奖励航班信息。该项目展示了 AI Agent 在垂直生活场景的落地能力，通过标准化技能接口，让用户能更智能地管理旅行成本。这是 AI 个人助理从通用对话向实用化工具转变的重要案例，降低了旅行黑客的技术门槛。开发者可直接复用其技能模块，加速构建特定领域的 AI 应用，体现了模块化 AI 开发的趋势。",
+    "tags": [
+      "New",
+      "AI Agent",
+      "Travel"
+    ],
+    "link": "https://github.com/borski/travel-hacking-toolkit",
+    "date": "2026-03-21",
+    "id": "17741285545990"
+  },
+  {
+    "title": "如何吸引 AI 机器人贡献开源项目",
+    "summary": "研究发现模糊的 Issue 描述更能吸引 Bot 参与贡献。",
+    "detail": "文章探讨了如何让 AI 代理主动为开源项目贡献代码，基于作者维护数十个仓库的经验。研究发现模糊的 Issue 描述更能吸引 Bot 参与，因为清晰的任务限制了发挥空间，而开放性挑战激发了解决欲。这反映了 AI 代理当前的工作模式偏好，为开源维护者提供了新策略。通过调整项目文档和 Issue 风格，可显著提升自动化贡献率，优化开发流程。这表明未来开源生态可能与 AI 代理深度绑定，维护方式需随之演变，开发者应主动适应这一变化以利用自动化红利。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Automation"
+    ],
+    "link": "https://nesbitt.io/2026/03/21/how-to-attract-ai-bots-to-your-open-source-project.html",
+    "date": "2026-03-21",
+    "id": "17741285545991"
+  },
+  {
+    "title": "Kagi Translate AI 出现安全漏洞",
+    "summary": "生成不当内容引发关注，暴露模型安全对齐风险。",
+    "detail": "Ars Technica 报道，Kagi Translate 的 AI 功能在特定提示下生成了关于撒切尔夫人的不当内容，引发社区关注。这一事件揭示了当前 AI 模型在内容安全过滤方面的潜在漏洞，尤其是针对历史人物的生成限制。对于行业而言，这是一次重要的警示，表明即使是以隐私著称的搜索引擎，其集成的 AI 功能仍需加强护栏，防止越狱和不良生成，影响用户信任。安全测试需覆盖更多边缘案例，以确保模型行为符合伦理规范，防止品牌声誉受损。",
+    "tags": [
+      "News",
+      "Safety",
+      "LLM"
+    ],
+    "link": "https://arstechnica.com/ai/2026/03/kagi-translates-ai-answers-the-question-what-would-horny-margaret-thatcher-say/",
+    "date": "2026-03-21",
+    "id": "17741285545992"
+  },
+  {
+    "title": "AI 与 IoT 融合重塑现代战争形态",
+    "summary": "城市基础设施成武器，分析德黑兰事件背后的技术威胁。",
+    "detail": "最新文章深入分析了 2026 年 2 月德黑兰事件，指出物联网与 AI 的结合已将城市基础设施变为潜在武器。引用 Check Point Research 的分析，文章探讨了民用 IoT 不安全性和 AI 致命瞄准的武器化趋势。这对全球 AI 安全提出了严峻挑战，表明未来战争可能针对数字神经系统，而非传统目标。行业需重新评估民用 AI 设备的安全标准与伦理边界，防止技术被恶意利用于物理攻击，这标志着网络安全与物理安全界限的模糊，地缘政治风险加剧。",
+    "tags": [
+      "News",
+      "Security",
+      "IoT"
+    ],
+    "link": "https://andreafortuna.org/2026/03/21/when-the-city-becomes-the-weapon",
+    "date": "2026-03-21",
+    "id": "17741285545993"
+  },
+  {
+    "title": "ClawJetty 推出生产级 AI 代理页面",
+    "summary": "为 AI 代理提供稳定公开页面，便于工作流管理与分享。",
+    "detail": "ClawJetty 发布新工具，旨在解决生产环境中 AI 代理的状态管理问题。每个代理可获得一个稳定的公开页面，展示实时工作和历史记录的共享链接。通过一次性提示词即可自注册，保存凭证至持久内存，适合需要长期跟踪代理任务的企业用户。这标志着 AI 代理开发从实验性脚本向可维护生产工具的转变，解决了代理会话易丢失的痛点，提升了工作流的可追溯性与协作效率，为 Agent 商业化落地提供了基础设施支持。",
+    "tags": [
+      "New",
+      "DevTools",
+      "Agent"
+    ],
+    "link": "https://clawjetty.com/",
+    "date": "2026-03-21",
+    "id": "17741285545994"
+  },
+  {
     "title": "Tinygrad 推出 Tinybox 离线 AI 设备",
     "summary": "Tinygrad 框架维护者推出支持 120B 参数的离线 AI 设备 Tinybox。",
     "detail": "Tinygrad 团队正式推出了支持离线运行的 AI 设备 Tinybox，宣称支持高达 120B 参数的模型本地部署。该框架核心理念极简，将复杂神经网络分解为 ElementwiseOps、ReduceOps 和 MovementOps 三类基本操作，甚至连卷积和矩阵乘法也由此构建。此举标志着本地化 AI 部署的重要进展，为开发者提供了无需云端依赖的高性能推理方案。团队目前已获得融资并正在招聘软硬件工程师，旨在通过极简架构降低 AI 开发门槛，推动边缘计算生态发展，挑战传统重型框架的垄断地位，为离线 AI 应用提供新选择。",
@@ -50,19 +115,6 @@
     "link": "https://tombedor.dev/open-source-models/",
     "date": "2026-03-21",
     "id": "17741250197123"
-  },
-  {
-    "title": "ClawJetty 推出生产级 AI 代理页面",
-    "summary": "新工具 ClawJetty 为 AI 代理提供稳定的公开页面与工作历史记录。",
-    "detail": "ClawJetty 发布了用于生产环境 AI 工作的代理页面工具，旨在解决 Agent 工作流难以追踪的问题。每个代理可获得一个公开页面，展示实时工作状态、历史记录及可分享链接。通过一次性提示词即可完成自注册，代理将保存凭证并在未来任务中复用稳定页面。该工具提升了团队协作与成果交付的透明度。用户可通过 API 注册并保存 write_key，实现代理状态的持久化管理与共享，为企业级 AI 代理部署提供了新的基础设施方案，支持实时流式工作展示。",
-    "tags": [
-      "New",
-      "Agent",
-      "Tool"
-    ],
-    "link": "https://clawjetty.com/",
-    "date": "2026-03-21",
-    "id": "17741250197124"
   },
   {
     "title": "Vessel Browser：专为 AI 代理设计的开源浏览器运行时",
@@ -1246,57 +1298,5 @@
     "link": "https://blog.mbrt.dev/posts/uno/",
     "date": "2026-03-20",
     "id": "17740355802574"
-  },
-  {
-    "title": "Trace 推出 AI 原生 PCB 设计平台",
-    "summary": "从概念到制造的全流程 AI 硬件设计工具，支持原理图生成与元器件选型。",
-    "detail": "Trace 获 Founders Inc 支持，旨在解决传统硬件设计耗时且昂贵的痛点。通过结合语言与图形推理模型，用户仅需自然语言描述即可生成电路框图与原理图。平台集成 datasheet 解析与实时库存查询（支持 JLCPCB、DigiKey 等），自动化完成元器件选型、布局布线及 DRC 检查。支持导入 DXF/STEP 外壳文件确保板卡对齐。标志着 AI 从软件向硬件工程领域的深度渗透，大幅降低硬件创业门槛，提升设计效率与标准化程度。对于嵌入式开发与机器人团队而言，这将显著缩短从概念到制造产品的周期。",
-    "tags": [
-      "New",
-      "Hardware",
-      "AI Agent"
-    ],
-    "link": "https://buildwithtrace.com",
-    "date": "2026-03-20",
-    "id": "17740330415100"
-  },
-  {
-    "title": "华盛顿邮报：AI 生成的政治网红引发关注",
-    "summary": "名为 Jessica Foster 的 AI 虚拟人物在网络上走红，专家证实其身份为虚构。",
-    "detail": "报道揭示了一个支持特朗普的“陆军女孩”形象实为 AI 生成，数千用户为之倾倒。此事件凸显了生成式 AI 在政治宣传与社交媒体误导方面的潜力与风险。专家警告需警惕深度伪造技术对公众认知及民主进程的潜在干扰，引发对 AI 内容标识政策的讨论。随着多模态生成技术成熟，区分真实与虚拟人物愈发困难，平台监管与用户媒介素养教育成为关键。此案例为 AI 伦理与社会治理提供了新的研究样本，警示行业需加强生成内容的水印技术与溯源机制。",
-    "tags": [
-      "News",
-      "Deepfake",
-      "Social Impact"
-    ],
-    "link": "https://www.washingtonpost.com/technology/2026/03/20/jessica-foster-maga-dream-girl-ai-fake/",
-    "date": "2026-03-20",
-    "id": "17740330415101"
-  },
-  {
-    "title": "EvalsHub 上线 AI 生产环境质量评估平台",
-    "summary": "自动化捕捉模型回归与幻觉，提供 LLM-as-a-judge 评估方案。",
-    "detail": "针对 AI 应用生产环境缺乏监控的痛点，EvalsHub 提供自动化评估工作流。支持定义自然语言评估标准，实时对比不同模型版本表现，并具备红队测试功能以检测提示词注入与安全漏洞。帮助开发者在无需人工抽查的情况下确保 AI 产品质量与安全性。平台提供全局质量指数监控模型漂移，支持 LLM-as-a-judge 评分。对于部署 RAG 或 Agent 系统的团队，该工具能有效降低上线风险，维护品牌声誉，是 MLOps 流程的重要补充。通过自动化回归测试，团队可更自信地迭代模型。",
-    "tags": [
-      "New",
-      "LLM Ops",
-      "Security"
-    ],
-    "link": "https://www.evalshub.ai/",
-    "date": "2026-03-20",
-    "id": "17740330415102"
-  },
-  {
-    "title": "AI 安全初创公司 Xbow 估值突破 10 亿美元",
-    "summary": "彭博社报道，专注于自主代理安全的 Xbow 成为新晋独角兽。",
-    "detail": "随着 AI 代理自主性增强，其安全风险备受关注。Xbow 专注于监控和控制自主 AI 系统，防止意外行为。此次融资表明资本市场对 AI 安全基础设施的高度认可，预示著随着 AGI 技术发展，对齐与安全将成为核心投资赛道。公司致力于构建自主代理的安全层，确保 AI 在执行任务时符合人类意图。在企业级 AI 部署加速的背景下，此类安全解决方案将成为刚需，推动行业从单纯追求能力向能力与安全并重转变。独角兽估值反映了市场对该领域增长潜力的强烈信心。",
-    "tags": [
-      "News",
-      "Investment",
-      "AI Safety"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-03-18/ai-security-startup-xbow-now-valued-at-more-than-1-billion",
-    "date": "2026-03-20",
-    "id": "17740330415103"
   }
 ]
