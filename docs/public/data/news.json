@@ -1,5 +1,70 @@
 [
   {
+    "title": "Anthropic 否认战时可破坏 AI 工具",
+    "summary": "Anthropic 澄清无法在战争中破坏 AI，缓解安全担忧。",
+    "detail": "针对公众对 AI 武器化的恐惧，Anthropic 正式否认具备在战争期间破坏 AI 工具的能力。此举旨在强调安全对齐原则，维护行业信任。作为头部模型厂商，其声明关乎 AI 安全信任基石，可能影响未来监管政策及军方合作模式，凸显安全治理重要性。",
+    "tags": [
+      "News",
+      "Safety",
+      "Anthropic"
+    ],
+    "link": "https://www.wired.com/story/anthropic-denies-sabotage-ai-tools-war-claude/",
+    "date": "2026-03-21",
+    "id": "17741184146380"
+  },
+  {
+    "title": "MIT 研究警告 AI 可能导致知识崩溃",
+    "summary": "生成式 AI 或削弱人类学习激励，致集体知识流失。",
+    "detail": "MIT 经济学论文指出，代理 AI 虽提升短期决策质量，但可能侵蚀人类学习激励，导致长期集体知识崩溃。模型显示需平衡 AI 精度与人类努力，为信息设计监管提供理论依据。研究警示社会需关注 AI 对知识生态的长远负面影响。",
+    "tags": [
+      "News",
+      "Research",
+      "Economics"
+    ],
+    "link": "https://economics.mit.edu/sites/default/files/2026-02/AI,%20Human%20Cognition%20and%20Knowledge%20Collapse%2002-20-26.pdf",
+    "date": "2026-03-21",
+    "id": "17741184146381"
+  },
+  {
+    "title": "SHOAL 推出 AI 代理认知质量基础设施",
+    "summary": "新栈测量 AI 输出结构质量，拦截错误动作。",
+    "detail": "SHOAL 发布包含 9 种工具的开放 API 栈，用于测量 AI 输出结构质量。基于几何语义距离而非规则，能在代理执行错误动作前拦截。提供 SDK 及免费层级，解决代理信任难题。该技术基于最新研究，旨在防止类似 Replit 删除记录的生产事故。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "Agents"
+    ],
+    "link": "https://shoal-production.up.railway.app/",
+    "date": "2026-03-21",
+    "id": "17741184146382"
+  },
+  {
+    "title": "揭秘 AI 代理团队的隐藏评估成本",
+    "summary": "未评估的 AI 输出导致巨额隐性损失与信任危机。",
+    "detail": "文章指出“评估税”是每支代理团队支付的隐藏成本。幻觉导致客户信任流失及工程耗时，2024 年全球损失估计达 674 亿美元。强调系统评估是使代理经济可行的唯一途径。团队需建立验证机制，避免因小失大，降低 liability 暴露风险。",
+    "tags": [
+      "Dev",
+      "Best Practices",
+      "Evaluation"
+    ],
+    "link": "https://iris-eval.com/blog/the-ai-eval-tax",
+    "date": "2026-03-21",
+    "id": "17741184146383"
+  },
+  {
+    "title": "DoorDash 任务应用揭示 AI 零工未来",
+    "summary": "体验显示 AI 驱动零工工作的严峻前景与压力。",
+    "detail": "记者体验 DoorDash 新任务应用，揭示 AI 调度下的零工工作未来。算法管理可能加剧工作压力与不确定性，引发对 AI 时代劳动权益及人机协作模式的深层社会思考。该案例展示了 AI 介入传统服务业后的复杂伦理与就业影响。",
+    "tags": [
+      "News",
+      "Social Impact",
+      "Gig Economy"
+    ],
+    "link": "https://www.wired.com/story/i-tried-doordashs-tasks-app-and-saw-the-bleak-future-of-ai-gig-work/",
+    "date": "2026-03-21",
+    "id": "17741184146384"
+  },
+  {
     "title": "研究发现人类偏见提示可增加 AI 决策接受度",
     "summary": "新研究表明，提醒人类偏见可使 AI 决策更易被接受。",
     "detail": "这项研究深入探讨了人机交互中的心理学机制与信任构建。实验结果显示，当 AI 系统在决策过程中明确提醒用户存在潜在的人类偏见时，用户对 AI 决策的信任度和接受度反而显著上升。这一反直觉的发现对 AI 伦理设计和透明度界面具有重要指导意义。它表明，适度的自我披露和诚实关于局限性的态度，能有效增强用户信任，减少算法黑箱带来的焦虑。为未来 AI 系统设计提供了新的视角，建议在高风险决策场景中引入偏见提示机制。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.permitio.ai/",
     "date": "2026-03-20",
     "id": "17740284516234"
-  },
-  {
-    "title": "WordPress.com 引入 AI 代理自动写作与发布",
-    "summary": "WordPress.com 推出新 AI 代理功能，降低发布门槛，可能增加网络机器生成内容。",
-    "detail": "WordPress.com 宣布集成**新型 AI 代理**，允许用户自动化撰写并发布博客文章。这一举措显著降低了内容创作的技术壁垒，使非技术用户也能轻松运营站点。然而，这也引发了关于网络内容质量的担忧，预计未来互联网上机器生成内容的比例将大幅上升。对于内容创作者而言，这既是效率工具也是竞争挑战，需重新思考人机协作的内容策略。该功能标志着内容管理系统向完全自动化迈出了重要一步，可能深刻改变网站生态及信息传播方式。此外，自动化发布可能带来垃圾内容风险，平台需平衡效率与质量管控。",
-    "tags": [
-      "News",
-      "WordPress",
-      "Agents"
-    ],
-    "link": "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/",
-    "date": "2026-03-20",
-    "id": "17740253037960"
-  },
-  {
-    "title": "构建自主 AI 股市分析平台的实战经验",
-    "summary": "开发者分享构建自主 AI 股市分析平台的过程与关键学习心得。",
-    "detail": "本文详细记录了一位开发者构建**自主 AI 股票市场分析平台**的全过程。内容涵盖架构设计、数据接入及 AI 决策逻辑的实现。作者分享了在开发过程中遇到的技术难点及解决方案，特别是如何让 AI 自主进行市场分析与预测。对于希望进入 FinTech 领域的 AI 开发者，这是一份宝贵的实战指南，展示了如何将大模型能力垂直应用于金融数据分析场景，具有较高参考价值。此外，文章还探讨了自主代理在实际交易中的局限性，为后续优化提供了方向。这种实践有助于理解 Agent 在复杂动态环境中的决策能力边界。",
-    "tags": [
-      "Dev",
-      "Finance",
-      "LLM"
-    ],
-    "link": "https://medium.com/@fireflydeals/how-i-built-an-autonomous-ai-stock-market-analysis-platform-and-what-i-learned-3c0d2e90f274",
-    "date": "2026-03-20",
-    "id": "17740253037961"
-  },
-  {
-    "title": "特朗普 AI 框架主张联邦优先权与家长责任",
-    "summary": "新框架推动联邦法律优先，强调创新，将儿童安全责任转向家长，减轻科技公司负担。",
-    "detail": "特朗普政府发布了新的**AI 监管框架**，核心主张包括联邦法律优先于州法律，以避免监管碎片化。政策强调技术创新优先，显著减轻了对科技公司的监管负担。值得注意的是，在儿童安全方面，责任主体从平台转向了家长。这一政策导向反映了当前美国政府在 AI 竞争中的立场，旨在通过宽松环境促进本土 AI 产业发展，但也引发了关于安全责任归属的争议，影响行业合规策略。各州原有法规可能面临挑战，科技巨头需调整政府关系策略以适应新联邦框架。整体而言，这标志着美国 AI 监管风向的重大转变。",
-    "tags": [
-      "News",
-      "Policy",
-      "Regulation"
-    ],
-    "link": "https://techcrunch.com/2026/03/20/trumps-ai-framework-targets-state-laws-shifts-child-safety-burden-to-parents/",
-    "date": "2026-03-20",
-    "id": "17740253037962"
-  },
-  {
-    "title": "Git-issues：专为 AI 代理设计的 Git 原生任务管理",
-    "summary": "基于 Git 仓库的任务追踪工具，无需数据库，通过 Markdown 文件管理 AI 代理任务。",
-    "detail": "Git-issues 是一款专为**AI 代理设计**的任务管理工具，完全基于 Git 仓库运行。它将问题存储为带有 YAML 前言的 Markdown 文件，无需数据库或服务器。该工具提供了清晰的命令行接口，支持 AI 代理初始化、认领及完成任务。这种设计使得任务追踪与代码版本控制无缝集成，非常适合自动化开发流程，降低了 AI 代理参与软件工程的门槛，是开发者构建 Agent 工作流的理想选择。通过 `issues next` 等命令，代理可自主获取任务，实现真正的无人值守开发。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "Agents"
-    ],
-    "link": "https://github.com/steviee/git-issues",
-    "date": "2026-03-20",
-    "id": "17740253037963"
-  },
-  {
-    "title": "初创公司招聘\"AI 霸凌者”测试聊天机器人耐心",
-    "summary": "美国初创公司招聘人员故意挑衅主流聊天机器人，以测试其安全边界与耐心。",
-    "detail": "一家美国初创公司正在招聘特殊职位\"**AI 霸凌者**\"，其主要工作是故意挑衅和攻击领先的聊天机器人。此举旨在通过极端的人类行为测试 AI 模型的安全过滤机制及情绪稳定性。这种红队测试（Red Teaming）的新形式揭示了行业对 AI 安全性的日益关注，同时也引发了关于伦理测试方法的讨论。这对于评估大模型在对抗性输入下的鲁棒性具有实际参考价值，反映安全测试新趋势。随着模型能力增强，此类对抗性测试将成为确保部署安全的必要环节。该职位需求表明安全评估正从自动化测试转向人机协作深度测试。",
-    "tags": [
-      "News",
-      "Safety",
-      "LLM"
-    ],
-    "link": "https://www.theguardian.com/technology/2026/mar/19/us-startup-advertises-ai-bully-role-to-test-patience-of-leading-chatbots",
-    "date": "2026-03-20",
-    "id": "17740253037964"
   }
 ]
