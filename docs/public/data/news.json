@@ -1,5 +1,70 @@
 [
   {
+    "title": "Vessel Browser：专为 AI 代理设计的开源浏览器运行时",
+    "summary": "首个专为自主代理设计的开源浏览器，支持 MCP 协议与持久化会话。",
+    "detail": "### 核心亮点\nVessel 是一款专为 AI 代理而非人类设计的开源浏览器运行时。它原生支持模型上下文协议（MCP），提供 40+ 代理工具，确保持久化会话状态管理，支持断点恢复。\n### 行业影响\n解决了代理在网页操作中的状态丢失问题，支持无人值守的全自动工作流。人类仅作为监督者，标志着 AI 代理从辅助工具向自主操作者的转变，为生产级 Agent 部署提供了关键基础设施。",
+    "tags": [
+      "New",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://quantaintellect.com/",
+    "date": "2026-03-21",
+    "id": "17741211924290"
+  },
+  {
+    "title": "SHOAL：AI 代理行为的电路断路器与安全验证栈",
+    "summary": "提供 AI 输出信任评分与代理行为电路断路器，防止错误动作执行。",
+    "detail": "### 核心技术\nSHOAL 提供认知质量基础设施，通过语义距离测量输出信任度（0-100 分）。其“电路断路器”功能可在代理执行错误动作前拦截，基于嵌入空间漂移检测潜在失败。\n### 行业影响\n针对 AI 代理失控风险（如误删生产记录），提供了基于研究的验证层。支持任何框架，无需依赖，为高风险场景下的 AI 部署提供了必要的安全护栏与信任机制，填补了代理安全空白。",
+    "tags": [
+      "Dev",
+      "Safety",
+      "Infra"
+    ],
+    "link": "https://shoal-production.up.railway.app",
+    "date": "2026-03-21",
+    "id": "17741211924291"
+  },
+  {
+    "title": "MIT 研究：代理 AI 可能导致社会“知识崩溃”",
+    "summary": "麻省理工新论文指出，过度依赖代理 AI 建议可能侵蚀人类学习激励。",
+    "detail": "### 研究背景\n麻省理工学院经济学论文探讨了生成式 AI 对人类学习激励的长期影响。模型显示，虽然代理 AI 提高了当下决策质量，但可能替代人类努力，削弱公共知识积累。\n### 行业影响\n提出了“知识崩溃”稳态风险，即通用知识最终消失。研究建议信息设计监管，指出代理精度存在福利最大化阈值。这对 AI 伦理政策及教育领域具有深远警示意义，引发对人机协作模式的深思。",
+    "tags": [
+      "News",
+      "Research",
+      "Ethics"
+    ],
+    "link": "https://economics.mit.edu/sites/default/files/2026-02/AI,%20Human%20Cognition%20and%20Knowledge%20Collapse%2002-20-26.pdf",
+    "date": "2026-03-21",
+    "id": "17741211924292"
+  },
+  {
+    "title": "ClawJetty：为生产级 AI 代理提供稳定页面与历史记录",
+    "summary": "让每个 AI 代理拥有公开页面，流式传输工作状态与历史记录。",
+    "detail": "### 产品功能\nClawJetty 为每个代理分配一个稳定的公开页面，展示实时工作与近期历史。代理只需一次自我注册，即可保存凭证并在未来任务中复用同一页面，简化集成流程。\n### 行业影响\n解决了 AI 代理工作流不可见的问题，增强了用户对代理任务的信任与可追溯性。适合需要长期运行且需用户监督的生产环境，简化了代理状态共享与管理的复杂度，提升用户体验。",
+    "tags": [
+      "New",
+      "Agent",
+      "Tool"
+    ],
+    "link": "https://clawjetty.com/",
+    "date": "2026-03-21",
+    "id": "17741211924293"
+  },
+  {
+    "title": "Project NOMAD：内置 AI 与知识库的离线生存服务器",
+    "summary": "自包含的离线生存计算机，集成 AI、维基百科与地图，无需联网。",
+    "detail": "### 项目概述\nNOMAD 是一个自包含的离线生存服务器，打包了关键工具、知识库和本地 AI 模型。旨在让用户在任何地方、任何时间保持信息畅通，无需依赖互联网连接，支持边缘计算。\n### 行业影响\n展示了边缘 AI 与本地知识库结合的极端应用场景。对于网络不稳定地区或灾难恢复场景具有实用价值，体现了 AI 模型本地化部署与离线知识检索的技术趋势，强调数据主权。",
+    "tags": [
+      "New",
+      "EdgeAI",
+      "GitHub"
+    ],
+    "link": "https://github.com/Crosstalk-Solutions/project-nomad",
+    "date": "2026-03-21",
+    "id": "17741211924294"
+  },
+  {
     "title": "Anthropic 否认战时可破坏 AI 工具",
     "summary": "Anthropic 澄清无法在战争中破坏 AI，缓解安全担忧。",
     "detail": "针对公众对 AI 武器化的恐惧，Anthropic 正式否认具备在战争期间破坏 AI 工具的能力。此举旨在强调安全对齐原则，维护行业信任。作为头部模型厂商，其声明关乎 AI 安全信任基石，可能影响未来监管政策及军方合作模式，凸显安全治理重要性。",
@@ -11,19 +76,6 @@
     "link": "https://www.wired.com/story/anthropic-denies-sabotage-ai-tools-war-claude/",
     "date": "2026-03-21",
     "id": "17741184146380"
-  },
-  {
-    "title": "MIT 研究警告 AI 可能导致知识崩溃",
-    "summary": "生成式 AI 或削弱人类学习激励，致集体知识流失。",
-    "detail": "MIT 经济学论文指出，代理 AI 虽提升短期决策质量，但可能侵蚀人类学习激励，导致长期集体知识崩溃。模型显示需平衡 AI 精度与人类努力，为信息设计监管提供理论依据。研究警示社会需关注 AI 对知识生态的长远负面影响。",
-    "tags": [
-      "News",
-      "Research",
-      "Economics"
-    ],
-    "link": "https://economics.mit.edu/sites/default/files/2026-02/AI,%20Human%20Cognition%20and%20Knowledge%20Collapse%2002-20-26.pdf",
-    "date": "2026-03-21",
-    "id": "17741184146381"
   },
   {
     "title": "SHOAL 推出 AI 代理认知质量基础设施",
@@ -1246,57 +1298,5 @@
     "link": "https://venturebeat.com/data/scale-ai-launches-voice-showdown-the-first-real-world-benchmark-for-voice-ai",
     "date": "2026-03-20",
     "id": "17740284516230"
-  },
-  {
-    "title": "Nvidia 发布 Nemotron 3 内容安全模型",
-    "summary": "支持多模态多语言的内容审核模型，增强 AI 安全性。",
-    "detail": "Nvidia 推出 Nemotron 3 Content Safety 4B 模型，专注于多模态和多语言的内容审核。随着 LLM 和 VLM 的普及，AI 代理常处理截图、PDF 等多种格式，且涉及多语言环境。现有安全模型多为纯文本且仅限英语，常忽略文化细微差别。新模型能处理复杂输入，增强关键工作流中的人类交互安全。此发布强调了鲁棒内容安全机制的重要性，为开发者提供处理非英语提示及文化差异的解决方案，提升企业级应用的安全性，满足日益增长的合规与风险管理需求。",
-    "tags": [
-      "Dev",
-      "Safety",
-      "Nvidia"
-    ],
-    "link": "https://huggingface.co/blog/nvidia/nemotron-3-content-safety",
-    "date": "2026-03-20",
-    "id": "17740284516231"
-  },
-  {
-    "title": "YC W26 项目 Sitefire 优化 AI 搜索可见性",
-    "summary": "自动化操作提升品牌在 AI 搜索中的曝光率。",
-    "detail": "YC W26 批次项目 Sitefire 正式亮相，旨在帮助品牌提升在 AI 搜索中的可见性。创始人来自斯坦福 RL 背景，针对 Google AI Overviews 导致营销团队流量下降的问题，提供自动化解决方案。平台通过优化动作帮助营销团队应对 AI 驱动搜索带来的流量挑战。随着 AI 搜索改变流量分发机制，此类工具成为品牌维持曝光的关键。它自动化执行操作以改善可见性，解决了传统 SEO 在 AI 概述时代失效的痛点，帮助企业在新的搜索生态中保持竞争力，重塑数字营销策略。",
-    "tags": [
-      "New",
-      "SEO",
-      "YC"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47457472",
-    "date": "2026-03-20",
-    "id": "17740284516232"
-  },
-  {
-    "title": "AgentGuard 为 AI 支付提供控制层保护",
-    "summary": "基于 AgentPay 构建，24 小时内完成的支付安全原型。",
-    "detail": "Show HN 项目 AgentGuard 是一个用于 AI 驱动支付的控制层，基于 AgentPay SDK 构建。该项目旨在提供执行前的控制措施，确保 AI 代理在进行支付操作时的安全性。作为一个早期原型，它展示了在 AI 代理经济中建立支付安全层的快速开发能力。随着 AI 代理自主性增强，支付安全成为关键风险点。该工具允许开发者在交易发生前实施干预，防止未经授权的支出，为构建可信的自主代理生态系统提供了必要的基础设施支持，降低财务风险。",
-    "tags": [
-      "New",
-      "Security",
-      "Agents"
-    ],
-    "link": "https://github.com/aitrailblazer/ait-agent-guard",
-    "date": "2026-03-20",
-    "id": "17740284516233"
-  },
-  {
-    "title": "Permitio 利用 AI 代理自动化 HVAC 许可申请",
-    "summary": "专为承包商设计，30 秒内完成许可文件提交。",
-    "detail": "Permitio 推出专为承包商设计的 AI 代理，自动化 HVAC 许可申请流程。该工具能自动检测许可类型、填写表格、跟踪状态并安排检查，将平均申请时间缩短至 30 秒。通过集成现有工具并提供实时仪表板，显著减少文书工作延误和错误。支持 40 多种许可类型，并能发送 Slack 通知。这展示了垂直领域 AI 代理的潜力，通过自动化繁琐的行政流程，为传统行业带来效率革命，解决承包商因许可错误导致的罚款和延误问题，实现业务流程的智能化转型。",
-    "tags": [
-      "New",
-      "Automation",
-      "Vertical AI"
-    ],
-    "link": "https://www.permitio.ai/",
-    "date": "2026-03-20",
-    "id": "17740284516234"
   }
 ]
