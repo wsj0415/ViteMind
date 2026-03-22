@@ -1,5 +1,70 @@
 [
   {
+    "title": "TechCrunch 解读 Nvidia GTC Keynote",
+    "summary": "Equity 播客复盘黄仁勋 GTC 演讲，探讨 Nvidia 未来战略。",
+    "detail": "TechCrunch 最新一期 Equity 播客专门复盘了 CEO 黄仁勋的 GTC 主题演讲。节目深入讨论了此次 keynote 对 Nvidia 未来发展的意义及行业影响。作为 AI 基础设施的核心风向标，GTC 大会发布的新技术往往预示算力与模型层面的重大变革，值得开发者与投资者密切关注。",
+    "tags": [
+      "News",
+      "Nvidia",
+      "Hardware"
+    ],
+    "link": "https://techcrunch.com/2026/03/22/do-you-want-to-build-a-robot-snowman/",
+    "date": "2026-03-22",
+    "id": "17742222857130"
+  },
+  {
+    "title": "200 行代码防止 AI Agent 失控",
+    "summary": "开源库 capkit 通过加密签名能力限制 AI 代理行为，零依赖。",
+    "detail": "开发者发布了一个仅 200 行的轻量级库 capkit，旨在解决 AI Agent 失控风险。该库通过范围限定、时间绑定及加密签名的能力机制，确保代理行为在安全边界内。无需外部依赖，设计主权归用户所有。为 AI 代理安全提供了新的低成本解决方案，适合开发者集成到自治系统中。",
+    "tags": [
+      "Dev",
+      "AI Agent",
+      "Security"
+    ],
+    "link": "https://github.com/iamGodofall/capkit",
+    "date": "2026-03-22",
+    "id": "17742222857131"
+  },
+  {
+    "title": "论文探讨 AI 身份认同景观",
+    "summary": "最新 arXiv 论文 Characterising AI identity，分析人工智能自我认知。",
+    "detail": "康奈尔大学等机构研究人员提交新论文《The Artificial Self》，characterising 了 AI 身份认同的景观。研究深入探讨了人工智能系统的自我表征与身份构建问题。这对于理解未来强人工智能的伦理边界及人机交互心理具有学术价值，为 AI 安全对齐提供了理论参考。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Ethics"
+    ],
+    "link": "https://arxiv.org/abs/2603.11353",
+    "date": "2026-03-22",
+    "id": "17742222857132"
+  },
+  {
+    "title": "观点：AI 是垃圾且为经济泡沫",
+    "summary": "博客文章称 AI 为人工愚蠢，警告其可能破坏经济而非提高效率。",
+    "detail": "知名博主 Richard Carrier 发表激进观点，称当前 AI 为“人工愚蠢”且是经济泡沫。文章认为 AI 无法替代工作，反而因错误风险降低生产力，可能危及养老金与银行系统。尽管观点极端，但反映了部分业界对 AI 落地实效性与投资过热的担忧，引发关于技术价值的反思。",
+    "tags": [
+      "News",
+      "Opinion",
+      "Industry"
+    ],
+    "link": "https://www.richardcarrier.info/archives/38652",
+    "date": "2026-03-22",
+    "id": "17742222857133"
+  },
+  {
+    "title": "AI 原生 Linktree 应用 Linkroot 上线",
+    "summary": "支持自定义 AI 聊天机器人的现代链接聚合平台，免费起步。",
+    "detail": "新产品 Linkroot 主打 AI 原生体验，允许用户在链接聚合页面中集成自定义 AI 聊天机器人。提供无限链接、自定义主题及智能组织功能。采用免费增值模式，基础功能永久免费。适合创作者及开发者构建个人品牌门户，增强了传统链接工具的交互性。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Chatbot"
+    ],
+    "link": "https://linkroot.space",
+    "date": "2026-03-22",
+    "id": "17742222857134"
+  },
+  {
     "title": "Noteriv：开源 Obsidian 替代品支持 MCP",
     "summary": "支持 MCP 服务器的开源笔记应用，跨平台同步。",
     "detail": "Noteriv 是一款基于 Electron 的开源 Markdown 编辑器，主打本地优先与隐私保护。核心亮点是集成 MCP 服务器，允许 AI 代理直接访问笔记内容，实现真正的知识库联动。支持 Windows、macOS 及 Linux，数据以纯文本存储，避免厂商锁定。适合开发者构建个人知识库并与 AI 工作流深度集成，解决了传统笔记软件无法被 AI 原生调用的痛点。其插件系统与 CSS 定制功能也为用户提供了高度自由，为本地化 AI 应用提供了新范式，是 Obsidian 用户的有力替代选择。随着 AI 个人助理的普及，此类支持标准协议的工具将成为基础设施。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/borski/travel-hacking-toolkit",
     "date": "2026-03-21",
     "id": "17741285545990"
-  },
-  {
-    "title": "如何吸引 AI 机器人贡献开源项目",
-    "summary": "研究发现模糊的 Issue 描述更能吸引 Bot 参与贡献。",
-    "detail": "文章探讨了如何让 AI 代理主动为开源项目贡献代码，基于作者维护数十个仓库的经验。研究发现模糊的 Issue 描述更能吸引 Bot 参与，因为清晰的任务限制了发挥空间，而开放性挑战激发了解决欲。这反映了 AI 代理当前的工作模式偏好，为开源维护者提供了新策略。通过调整项目文档和 Issue 风格，可显著提升自动化贡献率，优化开发流程。这表明未来开源生态可能与 AI 代理深度绑定，维护方式需随之演变，开发者应主动适应这一变化以利用自动化红利。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Automation"
-    ],
-    "link": "https://nesbitt.io/2026/03/21/how-to-attract-ai-bots-to-your-open-source-project.html",
-    "date": "2026-03-21",
-    "id": "17741285545991"
-  },
-  {
-    "title": "Kagi Translate AI 出现安全漏洞",
-    "summary": "生成不当内容引发关注，暴露模型安全对齐风险。",
-    "detail": "Ars Technica 报道，Kagi Translate 的 AI 功能在特定提示下生成了关于撒切尔夫人的不当内容，引发社区关注。这一事件揭示了当前 AI 模型在内容安全过滤方面的潜在漏洞，尤其是针对历史人物的生成限制。对于行业而言，这是一次重要的警示，表明即使是以隐私著称的搜索引擎，其集成的 AI 功能仍需加强护栏，防止越狱和不良生成，影响用户信任。安全测试需覆盖更多边缘案例，以确保模型行为符合伦理规范，防止品牌声誉受损。",
-    "tags": [
-      "News",
-      "Safety",
-      "LLM"
-    ],
-    "link": "https://arstechnica.com/ai/2026/03/kagi-translates-ai-answers-the-question-what-would-horny-margaret-thatcher-say/",
-    "date": "2026-03-21",
-    "id": "17741285545992"
-  },
-  {
-    "title": "AI 与 IoT 融合重塑现代战争形态",
-    "summary": "城市基础设施成武器，分析德黑兰事件背后的技术威胁。",
-    "detail": "最新文章深入分析了 2026 年 2 月德黑兰事件，指出物联网与 AI 的结合已将城市基础设施变为潜在武器。引用 Check Point Research 的分析，文章探讨了民用 IoT 不安全性和 AI 致命瞄准的武器化趋势。这对全球 AI 安全提出了严峻挑战，表明未来战争可能针对数字神经系统，而非传统目标。行业需重新评估民用 AI 设备的安全标准与伦理边界，防止技术被恶意利用于物理攻击，这标志着网络安全与物理安全界限的模糊，地缘政治风险加剧。",
-    "tags": [
-      "News",
-      "Security",
-      "IoT"
-    ],
-    "link": "https://andreafortuna.org/2026/03/21/when-the-city-becomes-the-weapon",
-    "date": "2026-03-21",
-    "id": "17741285545993"
-  },
-  {
-    "title": "Tinygrad 推出 Tinybox 离线 AI 设备",
-    "summary": "Tinygrad 框架维护者推出支持 120B 参数的离线 AI 设备 Tinybox。",
-    "detail": "Tinygrad 团队正式推出了支持离线运行的 AI 设备 Tinybox，宣称支持高达 120B 参数的模型本地部署。该框架核心理念极简，将复杂神经网络分解为 ElementwiseOps、ReduceOps 和 MovementOps 三类基本操作，甚至连卷积和矩阵乘法也由此构建。此举标志着本地化 AI 部署的重要进展，为开发者提供了无需云端依赖的高性能推理方案。团队目前已获得融资并正在招聘软硬件工程师，旨在通过极简架构降低 AI 开发门槛，推动边缘计算生态发展，挑战传统重型框架的垄断地位，为离线 AI 应用提供新选择。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Hardware"
-    ],
-    "link": "https://tinygrad.org/#tinybox",
-    "date": "2026-03-21",
-    "id": "17741250197120"
-  },
-  {
-    "title": "出版社因 AI 争议撤回恐怖小说",
-    "summary": "出版社因 AI 生成内容担忧，紧急撤回恐怖小说《Shy Girl》。",
-    "detail": "某出版社因涉及 AI 生成内容的伦理争议，决定紧急撤回恐怖小说《Shy Girl》。这一事件反映了出版行业对 AI 创作版权及原创性认定的敏感度正在急剧上升。随着 AIGC 技术普及，内容真实性与人类创作价值的界限愈发模糊，行业亟需建立明确的披露标准与审核机制。此类撤回事件可能引发连锁反应，促使更多出版商加强内容溯源，以避免类似信任危机影响市场信心及读者忠诚度，同时也凸显了 AI 在创意产业中的合规风险，媒体对此进行了广泛报道。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Content"
-    ],
-    "link": "https://techcrunch.com/2026/03/21/publisher-pulls-horror-novel-shy-girl-over-ai-concerns/",
-    "date": "2026-03-21",
-    "id": "17741250197121"
   }
 ]
