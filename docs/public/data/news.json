@@ -1,5 +1,96 @@
 [
   {
+    "title": "Nerveless：AI 社交技能训练师助力职场沟通",
+    "summary": "Nerveless 推出 AI 对话训练工具，模拟面试等场景提供实时反馈。",
+    "detail": "Nerveless 是一款专注于社交技能训练的 AI 应用，旨在帮助用户在无压力环境下练习困难对话。产品提供求职面试、给予反馈、设定边界等多种真实场景模拟。核心技术支持高级 AI 实时适应用户回答，并在对话后提供专业反馈。该工具解决了职场人士社交焦虑痛点，通过反复练习提升沟通自信，适合求职者及希望改善人际关系的用户免费试用。",
+    "tags": [
+      "New",
+      "Social AI",
+      "Productivity"
+    ],
+    "link": "https://nerveless.app",
+    "date": "2026-03-22",
+    "id": "17741933789070"
+  },
+  {
+    "title": "Micron 警告：AI 驱动的内存短缺前所未有",
+    "summary": "美光指出 AI 需求导致内存危机，PC 制造商亦将受波及。",
+    "detail": "存储巨头 Micron 警告称，由 AI 需求驱动的内存短缺现象前所未有。随着 AI 模型训练和推理对 DRAM 需求激增，供应链面临巨大压力。公司计划在台湾桐庐 P5  site 分阶段扩大 DRAM 生产。此外，PC 制造商也警告可能受到短缺影响。这一趋势表明 AI 硬件基础设施瓶颈正在显现，可能影响下游消费电子及数据中心建设进度，行业需警惕供应链风险。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Supply Chain"
+    ],
+    "link": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/micron-says-ai-driven-memory-crunch-unprecedented",
+    "date": "2026-03-22",
+    "id": "17741933789071"
+  },
+  {
+    "title": "ClawRun：一键部署 AI 代理到安全沙箱",
+    "summary": "开源工具 ClawRun 支持多平台部署，实现代理隔离与状态持久化。",
+    "detail": "ClawRun 是一个开源部署工具，允许开发者通过一条命令将 AI 代理部署到安全沙箱中。支持 Vercel、AWS 等多种云平台及 OpenAI、Llama 等 40+ 大模型提供商。核心技术采用 Firecracker 微虚拟机实现网络隔离，支持快照与恢复功能以节省资源。提供 CLI 和 Web UI 双界面，适合团队协作。该工具降低了 AI 代理运维门槛，增强了生产环境的安全性及可扩展性。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Deployment"
+    ],
+    "link": "https://clawrun.sh/?hn",
+    "date": "2026-03-22",
+    "id": "17741933789072"
+  },
+  {
+    "title": "深度解析：AI 辅助开发的热度与现实",
+    "summary": "文章探讨 AI 编程热潮，类比 Agile 发展历程，强调人类代码所有权。",
+    "detail": "本文深入分析了 AI 辅助开发当前的炒作周期，将其与当年的 Agile 革命相类比。作者指出，虽然 AI 生成代码能力强大，但‘人类不再需要拥有代码’是过度炒作。核心观点认为，如同 Agile 核心思想留存一样，AI 将留下有价值的迭代开发理念，但人类对代码的审查与所有权至关重要。文章呼吁开发者理性看待 AI 工具，关注长期价值而非短期 hype，适合技术管理者阅读。",
+    "tags": [
+      "Dev",
+      "Industry Insight",
+      "Coding"
+    ],
+    "link": "https://mlolson.github.io/blog/2026/03/21/separating-the-hype-from-the-real-in-ai-assisted-development/?trk=feed-detail_main-feed-card_feed-article-content",
+    "date": "2026-03-22",
+    "id": "17741933789073"
+  },
+  {
+    "title": "合规初创公司 Delve 被指伪造合规报告",
+    "summary": "Delve 被指控误导客户，涉及 HIPAA 与 GDPR 合规风险。",
+    "detail": "YC 支持的合规初创公司 Delve 近期遭到匿名指控，称其‘虚假’说服数百客户认为他们符合隐私及安全法规。指控者声称这可能导致客户面临 HIPAA 下的刑事责任及 GDPR 巨额罚款。尽管 Delve  CEO 回应称指控误导且不准确，但前客户透露曾发现数据泄露迹象。此事件凸显了 AI 自动化合规服务的潜在风险，企业在采用此类服务时需加强独立审计与验证。",
+    "tags": [
+      "News",
+      "Compliance",
+      "Startup"
+    ],
+    "link": "https://techcrunch.com/2026/03/22/delve-accused-of-misleading-customers-with-fake-compliance/",
+    "date": "2026-03-22",
+    "id": "17741933789074"
+  },
+  {
+    "title": "Local Cursor：基于 Ollama 的本地 AI 编程助手",
+    "summary": "隐私优先的本地 AI 代理，直接在终端运行且不上传代码。",
+    "detail": "Local Cursor 是一款隐私优先的 AI 编码助手，完全在本地终端运行。它通过 Ollama 服务本地大模型（默认 qwen3:32b），确保代码字节不发送至外部服务器。支持文件读写、白名单 Shell 命令及可选的 Web 搜索功能。项目开源且可扩展，允许用户添加新工具。对于关注数据隐私的企业开发者或个人，该工具提供了 Copilot 风格的帮助而无泄露风险，是本地化开发的新选择。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Privacy"
+    ],
+    "link": "https://github.com/towardsai/local-cursor",
+    "date": "2026-03-22",
+    "id": "17741933789075"
+  },
+  {
+    "title": "腾讯微信集成 OpenClaw AI 代理应对科技竞争",
+    "summary": "腾讯在科技战背景下，将 AI 代理功能整合进微信生态。",
+    "detail": "据报道，腾讯正在将 WeChat 与 OpenClaw AI 代理进行集成，此举被视为中国科技竞争背景下的重要战略动作。虽然具体技术细节未完全披露，但整合意味着微信生态将进一步智能化，用户可能通过自然语言与 AI 代理交互完成复杂任务。这一动作显示了大厂在 AI 应用落地上的加速，尤其是超级 App 与 AI Agent 的结合，可能重塑移动互联网的服务交互模式。",
+    "tags": [
+      "News",
+      "Big Tech",
+      "China"
+    ],
+    "link": "https://www.reuters.com/technology/tencent-integrates-wechat-with-openclaw-ai-agent-amid-china-tech-battle-2026-03-22/",
+    "date": "2026-03-22",
+    "id": "17741933789076"
+  },
+  {
     "title": "NVIDIA GTC 2026 重塑 AI 经济模型",
     "summary": "NVIDIA GTC 2026 提出 Token 工厂概念，将 AI 令牌视为新电力。",
     "detail": "文章深入分析了 NVIDIA GTC 2026 大会对 AI 经济学的重新定义。核心观点是\"AI 正成为公用事业，Token 是新电力”。这标志着 AI 基础设施成熟，成本结构发生变化。对行业而言，意味着算力将更加标准化，开发者需关注 Token 经济学而非单纯硬件采购。这一转变将影响云服务定价模型，促使企业从购买 GPU 转向购买算力服务。预示着一场算力经济模式的深刻变革，降低了 AI 应用门槛，使小型团队也能负担得起大规模推理成本，加速 AI 普及。同时，这也暗示了硬件厂商向服务厂商转型的趋势，值得投资者关注。",
@@ -1207,96 +1298,5 @@
     "link": "https://jean.build",
     "date": "2026-03-21",
     "id": "17740976856752"
-  },
-  {
-    "title": "63,000+ 免费 AI 代理技能市场开放",
-    "summary": "汇集 Claude Code 等模型的超 6 万种免费 AI 技能。",
-    "detail": "Agent Skills 市场发布了超过 63,000 种免费 AI 代理技能，涵盖 Claude Code、Codex CLI 及 ChatGPT 等主流模型。用户可按类别浏览、即时搜索并一键复制使用，极大降低了技能获取门槛。该平台致力于构建开放的技能生态，为开发者提供丰富的预制能力模块，加速自动化工作流的搭建。社区驱动的模式确保了技能的多样性与实用性，是探索 AI 代理能力边界的重要资源库。这对于希望快速构建垂直领域 AI 应用的团队来说，提供了宝贵的现成组件。",
-    "tags": [
-      "Dev",
-      "Marketplace",
-      "Claude"
-    ],
-    "link": "https://agent-skills.cc/",
-    "date": "2026-03-21",
-    "id": "17740976856753"
-  },
-  {
-    "title": "antirez 探讨 AI 重写与 GNU 历史",
-    "summary": "Redis 创始人对比 AI 重实现与 GNU 项目的伦理争议。",
-    "detail": "Redis 创始人 antirez 发文探讨 AI 重写代码的争议，对比 90 年代 GNU 项目重实现 UNIX 用户空间的历史。他指出，当年社区支持 GNU 为避免版权诉讼而增加独特功能，如今对 AI 重写的反对声音存在双重标准。文章深入分析了版权、思想表达二分法及开源伦理，为当前 AI 代码生成合规性提供历史视角。这一观点挑战了当前部分反 AI 重写立场，引发社区对软件自由与知识产权保护的深层思考。对于理解 AI 生成代码的法律边界具有重要的参考价值。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Open Source"
-    ],
-    "link": "https://antirez.com/news/162",
-    "date": "2026-03-21",
-    "id": "17740976856754"
-  },
-  {
-    "title": "Bret Taylor 谈 AI 应用落地的经济价值",
-    "summary": "OpenAI 主席指出成熟 AI 市场可释放万亿经济价值。",
-    "detail": "OpenAI 主席 Bret Taylor 在与 John Collison 的对话中强调，若暂停模型开发，现有技术应用仍可释放万亿经济价值。他指出当前缺乏成熟的“应用型 AI 市场”，如能解决供应链等具体场景的代理工具，将加速价值变现。该观点为 AI 服务商指明方向，应从追求模型参数转向解决实际业务痛点。访谈揭示了基础设施完善后，应用层落地才是下一阶段增长的关键驱动力。这对于评估 AI 初创企业的长期价值提供了新的衡量标准。",
-    "tags": [
-      "News",
-      "Industry",
-      "Adoption"
-    ],
-    "link": "https://www.aienablementinsider.com/p/the-three-ai-adoption-insights-from-bret-taylor-s-interview-you-probably-missed",
-    "date": "2026-03-21",
-    "id": "17740976856755"
-  },
-  {
-    "title": "终端历史记录工具 Atuin 更新 v18.13",
-    "summary": "引入 AI 功能与守护进程，大幅提升搜索性能。",
-    "detail": "Atuin v18.13 发布，引入 `atuin ai` 功能及守护进程模式，标志着终端历史记录工具的智能化升级。新版本通过内存搜索索引大幅提升命令历史搜索速度与准确性，支持频率、近期性评分配置。守护进程允许远程机器无壳同步记录，确保多端数据一致。此次更新强化了 Shell 的 AI 增强能力，适合高频使用终端的开发者提升工作效率，是命令行体验的重要革新。它展示了如何将 AI 无缝融入传统开发者工具，提升交互自然度。",
-    "tags": [
-      "Dev",
-      "Tool",
-      "CLI"
-    ],
-    "link": "https://blog.atuin.sh/atuin-v18-13/",
-    "date": "2026-03-21",
-    "id": "17740976856756"
-  },
-  {
-    "title": "去拟人化：重新定义 AI 命名规范",
-    "summary": "学术论文呼吁停止对 AI 拟人化，采用更准确的术语描述技术。",
-    "detail": "First Monday 发表学术文章探讨 AI 命名中的拟人化问题，主张从“愿望助记符”转向准确命名。过度拟人化可能导致公众误解 AI 能力与意图，引发不必要的恐惧或期望。文章建议行业采用更严谨的术语体系，以促进理性讨论和政策制定。这对 AI 伦理研究和公众沟通具有指导意义，有助于澄清技术边界，减少因误解产生的社会阻力。准确命名不仅是学术规范，更是引导公众认知、制定合理监管政策的基础，避免技术炒作掩盖真实风险。长期来看，去拟人化有助于建立更健康的 AI 社会契约，防止因期望落差导致的信任危机。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Research"
-    ],
-    "link": "https://firstmonday.org/ojs/index.php/fm/article/view/14366/12152",
-    "date": "2026-03-21",
-    "id": "17740924303363"
-  },
-  {
-    "title": "开源项目 AI Team OS：将 Claude Code 转化为自管理 AI 团队",
-    "summary": "GitHub 开源 AI-company 项目，提供 40+ MCP 工具和 22 个 Agent 模板，实现多代理协作。",
-    "detail": "一个新的开源项目 `AI-company` 在 GitHub 上发布，旨在将 Claude Code 转化为自管理的 AI 团队操作系统。该项目包含 40 多个 MCP 工具、22 个 Agent 模板以及任务墙和会议系统。它支持多代理协作，通过 FastAPI 和 React 构建，为开发者提供了一套完整的多 Agent 团队管理解决方案。该系统引入了任务墙和会议系统模拟真实团队协作，支持基于 MCP 协议的工具扩展。对于希望利用 Claude Code 构建自动化软件开发流程的团队，该项目提供了现成的基础设施。其开源特性允许社区贡献更多 Agent 模板，有望成为多 Agent 系统落地的参考架构之一。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Multi-Agent"
-    ],
-    "link": "https://github.com/CronusL-1141/AI-company",
-    "date": "2026-03-21",
-    "id": "17740890426682"
-  },
-  {
-    "title": "欺诈丑闻后 AI 仍推荐 Delve，暴露品牌声誉监控危机",
-    "summary": "合规初创公司 Delve 伪造审计报告，但 AI 仍向其买家推荐，引发 AI 信任危机。",
-    "detail": "合规初创公司 Delve 被曝伪造审计报告，但 Optimly.ai 数据显示，欺诈丑闻发生 3 天后，AI 仍在向买家推荐该品牌。这揭示了当前 AI 模型在品牌声誉监控和实时信息更新上的滞后性。事件凸显了“品牌权威指数”的重要性，以及 AI 抓取客户端渲染内容可能导致的可见性偏差。调查发现，由于 Delve 网站采用客户端渲染，GPTBot 等爬虫无法抓取最新负面信息，导致 AI 模型依赖第三方数据源。这种信息不对称可能误导采购决策。该案例强调了企业需要主动管理 AI 档案，并确保关键合规信息能被 AI 爬虫正确索引，以避免声誉危机带来的商业损失。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Brand Safety"
-    ],
-    "link": "https://optimly.ai/brand/delve",
-    "date": "2026-03-21",
-    "id": "17740890426683"
   }
 ]
