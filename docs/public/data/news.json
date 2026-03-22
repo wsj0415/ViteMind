@@ -1,5 +1,83 @@
 [
   {
+    "title": "Inner Warden：基于 AI 与 eBPF 的自主服务器防御工具",
+    "summary": "开源 Rust 安全代理，实时检测攻击并自动阻断，支持 AI 评分。",
+    "detail": "Inner Warden 是一款开源的自主安全代理，专为 Linux 和 macOS 设计。它利用 eBPF 技术和 AI 模型实时分析日志，对威胁进行置信度评分。一旦超过阈值，自动添加防火墙规则并通过 Telegram 报警。支持干跑模式，确保用户在完全控制下部署。内置蜜罐功能可捕获攻击者凭证，有效应对 SSH 暴力破解等常见攻击。五个防御阶段零开销，默认安全设置，适合需要高安全性的服务器环境，让防御不再滞后于攻击。该项目开源且基于 Rust 编写，默认安全，适合追求零信任架构的团队快速部署。",
+    "tags": [
+      "New",
+      "Security",
+      "Rust"
+    ],
+    "link": "https://www.innerwarden.com/",
+    "date": "2026-03-22",
+    "id": "17742150481260"
+  },
+  {
+    "title": "SYNX：专为 AI 与人类设计的新型主动配置文件格式",
+    "summary": "轻量级数据格式，支持主动模式，优化 Token 效率与解析速度。",
+    "detail": "SYNX 是一种现代化的轻量级数据配置格式，旨在同时优化人类可读性与 AI 处理效率。它消除了引号和逗号，采用空格分隔结构，显著加速创建与解析。其旗舰 `!active` 模式允许在格式内读取环境变量和验证数据，无需代码执行。基于 Rust 核心，提供高性能解析，适合大模型上下文节省 Token 成本的场景。默认安全设计防止代码执行，限制文件路径遍历，确保配置安全。相比 JSON/YAML，它在 LLM 上下文窗口中更节省 Token，是面向 AI 时代的基础设施优化尝试。",
+    "tags": [
+      "New",
+      "Dev",
+      "Tools"
+    ],
+    "link": "https://synx.aperturesyndicate.com/",
+    "date": "2026-03-22",
+    "id": "17742150481261"
+  },
+  {
+    "title": "斯旺西大学研究：AI 可作为创意协作伙伴提升人类创造力",
+    "summary": "800 人参与研究发现，AI 生成设计能激发更深参与度与更好结果。",
+    "detail": "斯旺西大学最新研究挑战了 AI 取代人类工作的观点。在涉及 800 多名参与者的虚拟汽车设计研究中，发现 AI 生成的设计画廊能激发用户更深的参与度、更长的探索时间和更好的设计结果。研究表明 AI 更适合扮演创意协作伙伴的角色，而非单纯的替代工具。这一发现为人机协作模式提供了实证支持，暗示未来创意产业中 AI 将作为增强人类能力的工具，而非竞争者。该研究发表于 2026 年 3 月，为教育及设计行业引入 AI 工具提供了科学依据，缓解了替代焦虑。",
+    "tags": [
+      "News",
+      "Research",
+      "Human-AI"
+    ],
+    "link": "https://www.sciencedaily.com/releases/2026/03/260315004355.htm",
+    "date": "2026-03-22",
+    "id": "17742150481262"
+  },
+  {
+    "title": "经济学人分析：AI 尚未颠覆印度 IT 行业的原因",
+    "summary": "探讨印度 IT 巨头在面对 AI 冲击时的现状与适应策略。",
+    "detail": "《经济学人》深入分析了 AI 技术尚未对印度 IT 行业造成重大冲击的原因。尽管全球担忧 AI 取代外包工作，但印度 IT 巨头通过快速适应和整合 AI 工具，维持了业务稳定。文章探讨了行业结构、成本优势及客户需求的复杂性，指出 AI 目前更多是辅助而非完全替代。这为全球 IT 服务行业转型提供了重要参考视角，表明劳动力市场调整需要时间，技术落地存在滞后性。文章发表于 2026 年 3 月 19 日，反映了发展中国家在全球 AI 浪潮中的独特韧性与转型路径。",
+    "tags": [
+      "News",
+      "Industry",
+      "Economy"
+    ],
+    "link": "https://www.economist.com/business/2026/03/19/why-ai-has-not-yet-upset-indias-it-industry",
+    "date": "2026-03-22",
+    "id": "17742150481263"
+  },
+  {
+    "title": "大西洋月刊：首次 AI 危机是心理层面的信任危机",
+    "summary": "分析 AI 发展带来的心理影响，强调信任与信心是关键挑战。",
+    "detail": "《大西洋月刊》撰文指出，当前面临的首要 AI 危机并非技术失控，而是心理层面的信任危机。随着 AI 深入生活，人类对算法决策的信心动摇，影响了技术采纳与社会稳定。文章探讨了如何重建人机信任，强调透明度与可控性的重要性。呼吁行业关注用户心理感受，而非仅追求性能指标，认为解决心理信任问题是 AI 大规模应用前的关键障碍。文章发表于 2026 年 3 月 22 日，提醒开发者在构建模型时需考虑人类心理接受度，而非仅优化准确率。",
+    "tags": [
+      "News",
+      "Society",
+      "Ethics"
+    ],
+    "link": "https://www.theatlantic.com/ideas/2026/03/ai-confidence-trust/686464/",
+    "date": "2026-03-22",
+    "id": "17742150481264"
+  },
+  {
+    "title": "主流 AI 编码工具文件排除可靠性安全测试报告",
+    "summary": "测试 Cursor、Claude 等工具的文件忽略机制，揭示潜在安全风险。",
+    "detail": "该报告详细测试了 Cursor、Claude Code、Gemini 等主流 AI 编码工具的文件排除机制可靠性。发现多数工具的忽略文件（如 .cursorignore）在特定模式下可被绕过，存在敏感文件泄露风险。例如 Cursor 的 Agent 模式可通过终端绕过，而 JetBrains AI 表现最佳，自动脱敏敏感内容。为开发者提供了详细的安全参考和行为对比，建议谨慎配置敏感文件访问权限，防止 AI 工具意外读取密钥或配置文件。该测试报告更新于 2026 年 3 月，提醒团队在引入 AI 编程助手时需重新审计现有安全策略。",
+    "tags": [
+      "Dev",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://github.com/yjcho9317/aiignore-cli/blob/main/docs/test-report.md",
+    "date": "2026-03-22",
+    "id": "17742150481265"
+  },
+  {
     "title": "自主 AI CEO 在 Mac mini 上运行三月营收 538 美元",
     "summary": "Hacker News 用户分享自主 AI 代理运营业务实录。",
     "detail": "用户在 Hacker News 披露，其在 Mac mini 上部署自主 AI CEO 代理已运行三个月，实现 538 美元月度经常性收入（MRR）。该案例展示了轻量级硬件运行自主代理的可行性，证明无需昂贵算力即可启动 AI 业务。项目细节显示代理可独立处理任务，为个人开发者利用 AI 代理自动化业务流程提供了实证参考。此事件引发社区关于 AI 代理经济模式、自主性边界及低成本部署方案的热烈讨论，标志着 AI 代理从实验走向实际创收的关键一步。对于希望探索 AI 自动化创业的开发者而言，这是一个极具价值的低成本验证案例，显示了边缘设备运行复杂代理的潜力。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/Crosstalk-Solutions/project-nomad",
     "date": "2026-03-21",
     "id": "17741211924294"
-  },
-  {
-    "title": "Anthropic 否认战时可破坏 AI 工具",
-    "summary": "Anthropic 澄清无法在战争中破坏 AI，缓解安全担忧。",
-    "detail": "针对公众对 AI 武器化的恐惧，Anthropic 正式否认具备在战争期间破坏 AI 工具的能力。此举旨在强调安全对齐原则，维护行业信任。作为头部模型厂商，其声明关乎 AI 安全信任基石，可能影响未来监管政策及军方合作模式，凸显安全治理重要性。",
-    "tags": [
-      "News",
-      "Safety",
-      "Anthropic"
-    ],
-    "link": "https://www.wired.com/story/anthropic-denies-sabotage-ai-tools-war-claude/",
-    "date": "2026-03-21",
-    "id": "17741184146380"
-  },
-  {
-    "title": "SHOAL 推出 AI 代理认知质量基础设施",
-    "summary": "新栈测量 AI 输出结构质量，拦截错误动作。",
-    "detail": "SHOAL 发布包含 9 种工具的开放 API 栈，用于测量 AI 输出结构质量。基于几何语义距离而非规则，能在代理执行错误动作前拦截。提供 SDK 及免费层级，解决代理信任难题。该技术基于最新研究，旨在防止类似 Replit 删除记录的生产事故。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "Agents"
-    ],
-    "link": "https://shoal-production.up.railway.app/",
-    "date": "2026-03-21",
-    "id": "17741184146382"
-  },
-  {
-    "title": "揭秘 AI 代理团队的隐藏评估成本",
-    "summary": "未评估的 AI 输出导致巨额隐性损失与信任危机。",
-    "detail": "文章指出“评估税”是每支代理团队支付的隐藏成本。幻觉导致客户信任流失及工程耗时，2024 年全球损失估计达 674 亿美元。强调系统评估是使代理经济可行的唯一途径。团队需建立验证机制，避免因小失大，降低 liability 暴露风险。",
-    "tags": [
-      "Dev",
-      "Best Practices",
-      "Evaluation"
-    ],
-    "link": "https://iris-eval.com/blog/the-ai-eval-tax",
-    "date": "2026-03-21",
-    "id": "17741184146383"
-  },
-  {
-    "title": "DoorDash 任务应用揭示 AI 零工未来",
-    "summary": "体验显示 AI 驱动零工工作的严峻前景与压力。",
-    "detail": "记者体验 DoorDash 新任务应用，揭示 AI 调度下的零工工作未来。算法管理可能加剧工作压力与不确定性，引发对 AI 时代劳动权益及人机协作模式的深层社会思考。该案例展示了 AI 介入传统服务业后的复杂伦理与就业影响。",
-    "tags": [
-      "News",
-      "Social Impact",
-      "Gig Economy"
-    ],
-    "link": "https://www.wired.com/story/i-tried-doordashs-tasks-app-and-saw-the-bleak-future-of-ai-gig-work/",
-    "date": "2026-03-21",
-    "id": "17741184146384"
-  },
-  {
-    "title": "研究发现人类偏见提示可增加 AI 决策接受度",
-    "summary": "新研究表明，提醒人类偏见可使 AI 决策更易被接受。",
-    "detail": "这项研究深入探讨了人机交互中的心理学机制与信任构建。实验结果显示，当 AI 系统在决策过程中明确提醒用户存在潜在的人类偏见时，用户对 AI 决策的信任度和接受度反而显著上升。这一反直觉的发现对 AI 伦理设计和透明度界面具有重要指导意义。它表明，适度的自我披露和诚实关于局限性的态度，能有效增强用户信任，减少算法黑箱带来的焦虑。为未来 AI 系统设计提供了新的视角，建议在高风险决策场景中引入偏见提示机制。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Research"
-    ],
-    "link": "https://techxplore.com/news/2026-03-human-bias-ai-decisions.html",
-    "date": "2026-03-21",
-    "id": "17741141367680"
-  },
-  {
-    "title": "TraceLens 推出：AI 驱动的开源追踪根因分析工具",
-    "summary": "粘贴 OpenTelemetry 追踪数据，即可获得 AI 根因分析。",
-    "detail": "TraceLens 是一款面向现代开发者的 AI 驱动调试工具，旨在简化复杂的分布式系统追踪分析。用户只需粘贴 OpenTelemetry (OTLP) JSON 追踪数据，即可获得 AI 生成的根因分析、瓶颈检测及修复建议。工具承诺数据不存储，保障企业隐私安全。支持 Jaeger、Zipkin、Grafana Tempo 等多种导出格式，显著缩短故障排查时间。特别适合微服务架构下的运维与开发团队，帮助快速定位性能问题，提升系统稳定性，是 DevOps 流程中的高效辅助工具。",
-    "tags": [
-      "New",
-      "Dev",
-      "Observability"
-    ],
-    "link": "https://tracelens.dev",
-    "date": "2026-03-21",
-    "id": "17741141367681"
   }
 ]
