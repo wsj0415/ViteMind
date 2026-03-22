@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 行业的“房间里的大象”：狂热与焦虑并存",
+    "summary": "深入分析 AI 行业现状，指出过度炒作与安全危机并存，半数美国成年人已使用生成式 AI。",
+    "detail": "文章揭示了 AI 行业的两种叙事：一种是无处不在的狂热与焦虑，另一种是冷静采用。数据显示超过半数美国成年人已使用生成式 AI，软件行业编码助手采纳率高达 72-91%。然而，开源 AI 代理框架 OpenClaw 曝出严重安全问题，凸显了快速发展背后的隐患。投资者对反乌托邦前景感到紧张，市场在兴奋与恐惧中波动。行业需在创新与安全间寻找平衡，理性看待技术落地。",
+    "tags": [
+      "News",
+      "Industry",
+      "Adoption"
+    ],
+    "link": "https://www.insidevoice.ai/p/ais-elephant-in-the-room",
+    "date": "2026-03-22",
+    "id": "17741972963920"
+  },
+  {
+    "title": "FlowState：基于 MCP 的 Claude 持久化开发记忆系统",
+    "summary": "开源开发记忆系统，通过 MCP 协议让 Claude 跨会话保留项目上下文与解决方案。",
+    "detail": "FlowState 是一个开源开发记忆系统，旨在解决开发者跨会话丢失上下文的问题。它作为 MCP 服务器集成到 Claude Desktop，利用 SQLite 本地存储项目、问题、解决方案和学习心得。支持 Git 同步和桌面 GUI，确保 AI 助手能延续之前的工作思路。这标志着 AI 编程助手从 Stateless 向 Stateful 转变，提升了复杂项目中的协作效率。开发者可借此构建更连贯的 AI 辅助开发环境。",
+    "tags": [
+      "Dev",
+      "MCP",
+      "OpenSource"
+    ],
+    "link": "https://github.com/dialectforge/FlowStateV1.1",
+    "date": "2026-03-22",
+    "id": "17741972963921"
+  },
+  {
+    "title": "MultiHead：构建具有持久记忆的专业化 AI 代理团队",
+    "summary": "开源系统将复杂任务分解给专用代理，通过验证和存储知识实现持续进化。",
+    "detail": "MultiHead 是一个开源系统，旨在解决大多数 AI 系统“运行即遗忘”的问题。它将任务分解给特定的领域代理，这些代理拥有代码库部分权限，验证所学内容并存储可重用知识。架构采用“运行 - 验证 - 存储 - 改进”的有状态模式，而非传统的无状态模式。这使得 AI 系统能随时间积累专业知识，适合处理复杂且需长期上下文的工程任务。为构建持久化 AI 团队提供了新范式。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "OpenSource"
+    ],
+    "link": "https://github.com/axsar/multihead",
+    "date": "2026-03-22",
+    "id": "17741972963922"
+  },
+  {
+    "title": "SOC.Workflows：面向安全分析师的结构化 AI 调查工作流",
+    "summary": "免费工具提供结构化 AI 工作流，辅助 SOC 分析师快速处理钓鱼、勒索软件等安全警报。",
+    "detail": "SOC.Workflows 专为安全运营中心（SOC）分析师设计，提供结构化的 AI 调查工作流。用户只需粘贴警报、日志或钓鱼邮件，即可遵循解码、行为分析、威胁映射等步骤，生成包含严重程度、MITRE ATT&CK 映射和建议行动的调查报告。支持 ChatGPT、Claude 等多种模型，无需注册。该工具将资深分析师的经验固化到流程中，降低了 AI 使用的随机性，提升了安全响应效率。是垂直领域 AI 应用的优秀案例。",
+    "tags": [
+      "New",
+      "Security",
+      "Workflow"
+    ],
+    "link": "https://socworkflows.com/",
+    "date": "2026-03-22",
+    "id": "17741972963923"
+  },
+  {
+    "title": "研究发现：ChatGPT 等 AI 工具让学习更轻松且更具说服力",
+    "summary": "最新研究表明 AI 工具显著降低学习门槛，但也提高了内容的说服力，需警惕误导。",
+    "detail": "TechXplore 报道的一项研究发现，像 ChatGPT 这样的 AI 工具不仅使学习过程变得更加容易，还生成的内容更具说服力。这一发现凸显了 AI 在教育领域双刃剑效应：一方面提升了效率，另一方面可能因内容的强说服力而传播错误信息。研究背景基于生成式 AI 在教育场景的广泛应用，提示教育者和学习者需培养批判性思维，以应对 AI 生成内容的潜在误导风险。对教育政策制定具有参考价值。",
+    "tags": [
+      "News",
+      "Education",
+      "Research"
+    ],
+    "link": "https://techxplore.com/news/2026-03-ai-tools-chatgpt-easier-persuasive.html",
+    "date": "2026-03-22",
+    "id": "17741972963924"
+  },
+  {
     "title": "Nerveless：AI 社交技能训练师助力职场沟通",
     "summary": "Nerveless 推出 AI 对话训练工具，模拟面试等场景提供实时反馈。",
     "detail": "Nerveless 是一款专注于社交技能训练的 AI 应用，旨在帮助用户在无压力环境下练习困难对话。产品提供求职面试、给予反馈、设定边界等多种真实场景模拟。核心技术支持高级 AI 实时适应用户回答，并在对话后提供专业反馈。该工具解决了职场人士社交焦虑痛点，通过反复练习提升沟通自信，适合求职者及希望改善人际关系的用户免费试用。",
@@ -1233,70 +1298,5 @@
     "link": "https://news.ycombinator.com/item?id=47466679",
     "date": "2026-03-21",
     "id": "17741007449982"
-  },
-  {
-    "title": "Pydantic-Deep：为生产环境打造的深度 Agent 框架",
-    "summary": "Vstorm 推出 pydantic-deep，填补 Pydantic 生态深度 Agent 空白，无需切换框架。",
-    "detail": "Vstorm 正式发布了 pydantic-deep 库，旨在为 Pydantic 生态提供生产级深度 Agent 支持。针对已使用 Pydantic 的团队，该工具避免了切换至 Langchain 等外部框架的成本，填补了现有深度 Agent 解决方案的空白。文章提及 PyAI Conf 2026 会议，显示该生态正在扩张。对于 Python 开发者，这是构建可靠 AI 应用的重要基础设施更新，支持更复杂的任务编排。这表明垂直生态工具链正在成熟，开发者可期待更紧密集成的 AI 开发体验。同时，这也反映了市场对标准化 Agent 框架的需求增长，降低了生产环境部署的门槛。",
-    "tags": [
-      "Dev",
-      "Python",
-      "Agents"
-    ],
-    "link": "https://pydantic.dev/articles/pydantic-deep-agents",
-    "date": "2026-03-21",
-    "id": "17741007449983"
-  },
-  {
-    "title": "网站内容滋养 AI 却无收益？创作者经济面临危机",
-    "summary": "媒体文章指出 AI 抓取内容未补偿创作者，呼吁建立新经济模型以维持开放网络。",
-    "detail": "媒体文章警示开放网络内容被 AI 无偿抓取使用的危机，标题直指“你的银行账户毫无察觉”。传统基于流量和访问的经济模型失效，内容创作者未能从 AI 获利中分羹。文章呼吁建立新的补偿机制，否则开放网络将难以为继。这对内容平台和创作者至关重要，未来可能推动版权协议更新或技术屏蔽手段，以重构 AI 时代的内容价值链。若无法解决此问题，可能导致高质量内容源头枯竭，最终反噬 AI 模型训练数据质量。这是 AI 伦理与法律领域亟待解决的关键矛盾。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Copyright"
-    ],
-    "link": "https://medium.com/@tenslor.com/your-site-content-is-powering-ai-your-bank-account-has-no-idea-that-needs-to-change-96d0ac07b8f8",
-    "date": "2026-03-21",
-    "id": "17741007449984"
-  },
-  {
-    "title": "开源学术研究助手 Research-Claw 发布",
-    "summary": "自托管 AI 助手，管理论文、检索文献并追踪截稿日期。",
-    "detail": "Research-Claw 是一款专为学术研究者设计的自托管 AI 助手，旨在解决文献管理痛点。它支持管理论文库、自动检索文献及追踪会议截稿日期，并可集成至常用通讯渠道随时响应。基于 Python 3.11+ 构建，兼容 Linux/macOS 系统，采用 MIT 开源协议。该项目强调本地化部署以保护数据隐私，同时利用大模型能力提升科研效率。核心功能包括自动解析论文元数据及智能问答，帮助用户快速定位关键信息。适合需要高频文献处理与协作的学者及开发者，是学术工作流的有力补充，降低了科研门槛。",
-    "tags": [
-      "Dev",
-      "AI Agent",
-      "Open Source"
-    ],
-    "link": "https://github.com/nanoAgentTeam/research-claw",
-    "date": "2026-03-21",
-    "id": "17740976856750"
-  },
-  {
-    "title": "Telegram 开源 AI 助手 Rook 上线",
-    "summary": "支持记忆、语音和插件的 Telegram 个人 AI 助手。",
-    "detail": "Rook 是一款运行在 Telegram 上的开源个人 AI 助手，具备长期记忆存储、语音交互及插件扩展能力。作为战略级 AI 优势工具，它允许用户在即时通讯软件中直接调用 AI 能力，无需切换应用，实现无缝交互。项目完全开源，代码透明，适合希望在私密通讯环境中集成 AI 功能的开发者及隐私倡导者。其插件架构支持自定义功能扩展，可连接外部 API，为构建个性化智能代理提供了灵活的基础设施。这种集成方式降低了用户的使用成本，提升了日常任务处理效率。",
-    "tags": [
-      "New",
-      "Telegram",
-      "Open Source"
-    ],
-    "link": "https://github.com/barman1985/Rook",
-    "date": "2026-03-21",
-    "id": "17740976856751"
-  },
-  {
-    "title": "AI 代理开发环境 Jean 正式开源",
-    "summary": "专为 AI 代理设计的开发环境，集成 Git 工作树与终端。",
-    "detail": "Jean 是一个专为 AI 代理协作设计的开发环境，提供隔离的 Git 工作树、聊天会话及终端集成。支持并行运行多个 AI 代理，自动处理代码审查、提交及合并冲突，避免上下文干扰。基于 Apache 2.0 协议永久免费，旨在优化 AI 辅助开发的工作流，减少配置时间。特色功能包括移动访问及自动合并解决，适合需要高效管理 AI 编码代理的团队，重新定义人机协作编程体验。其设计哲学强调“有主见的工作流”，帮助开发者专注于交付而非环境配置。",
-    "tags": [
-      "Dev",
-      "IDE",
-      "AI Agent"
-    ],
-    "link": "https://jean.build",
-    "date": "2026-03-21",
-    "id": "17740976856752"
   }
 ]
