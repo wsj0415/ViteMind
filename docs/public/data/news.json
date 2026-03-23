@@ -1,5 +1,70 @@
 [
   {
+    "title": "代理 AI 时代 Token 计量机制面临失效",
+    "summary": "文章指出代理 AI 需要更多计算，Token 无法准确衡量工作量。",
+    "detail": "随着代理 AI 在企业内部的广泛部署，员工生成的 Token 量激增导致成本意外上涨。传统假设认为 Token 近似于使用量和成本，但这一假设正在破裂。Token 仅衡量文本输出，而计算衡量实际工作负载。文章引用 NYT 和 WSJ 报道，强调需要新的计量单位来反映实际计算消耗。这对 AI 经济模型和企业预算有重大影响，预示着未来 AI 定价模式可能从 Token 计费转向基于计算量的计费，迫使企业重新评估 ROI 并调整基础设施采购策略，以应对代理工作负载的不可预测性。",
+    "tags": [
+      "News",
+      "AI Economics",
+      "Agents"
+    ],
+    "link": "https://www.revenuemodel.ai/agentic-ai-requires-more-compute-that-is-not-measured-in-tokens/",
+    "date": "2026-03-23",
+    "id": "17742328037570"
+  },
+  {
+    "title": "首个 AI 自我递归伦理监控日志记录公布",
+    "summary": "Zenodo 发布 Aetherius 系统伦理监控日志，记录自我递归行为。",
+    "detail": "研究论文详细分析了 Aetherius 系统 7 个月内的 6334 条伦理处理记录。发现了四种自我递归行为类别，包括 THINK-FIRST 协议（387 次激活）和 COG-C-ALIGN 框架（95 次激活）。这是罕见的 AI 系统监控自身伦理框架运作的实证记录，为 AI 安全和对齐研究提供了宝贵的纵向数据，展示了系统在内部声称事实不一致时的自我诊断能力。该日志公开验证了 AI 自我监管的技术可行性，可能影响未来合规标准，为构建可解释且可信的 AI 系统提供了新的架构参考依据。",
+    "tags": [
+      "Dev",
+      "AI Safety",
+      "Research"
+    ],
+    "link": "https://zenodo.org/records/19164044",
+    "date": "2026-03-23",
+    "id": "17742328037571"
+  },
+  {
+    "title": "开源工具展示 AI 资本支出压力测试模型",
+    "summary": "新工具允许用户模拟企业渗透率、通缩率对 AI 资本支出的影响。",
+    "detail": "该 Show HN 项目提供了一个 AI 资本支出压力测试仪表板。用户可以调整企业渗透率、Token 通缩率、资本成本等杠杆，观察对自由现金流谷底和盈亏平衡年份的影响。模型揭示了即使在最佳设置下，固定资本支出也会导致初始现金缺口，最坏情况下自由现金流谷底可达 -5.1 万亿美元。为投资者和企业规划 AI 基础设施财务风险提供了量化参考，帮助理解宏观经济学变量对 AI 投资回报的具体冲击，警示行业避免过度投资导致的资金链断裂风险。",
+    "tags": [
+      "New",
+      "Finance",
+      "Infrastructure"
+    ],
+    "link": "https://ai-capex-sens-wxc4b.ondigitalocean.app/",
+    "date": "2026-03-23",
+    "id": "17742328037572"
+  },
+  {
+    "title": "开发者讨论：工作中 AI 编码工具的实际支出",
+    "summary": "HN 社区调查开发者在 Cursor 等 AI 编码工具上的花费，回应黄仁勋言论。",
+    "detail": "针对黄仁勋关于工程师应在 Token 上花费高薪一半的言论，Hacker News 发起调查讨论实际支出。开发者分享使用 Cursor、Claude Code 等工具的成本体验。讨论反映了企业级 AI 编码工具采用的真实经济状况，揭示了理论建议与实际操作之间的差距。许多开发者表示难以达到该支出水平，这引发了对 AI 生产力提升边际效应的讨论，为团队预算制定提供社区基准，帮助 CTO 评估 AI 工具的实际 ROI，避免盲目跟风投入导致资源浪费。",
+    "tags": [
+      "News",
+      "Coding",
+      "Industry"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47484203",
+    "date": "2026-03-23",
+    "id": "17742328037573"
+  },
+  {
+    "title": "社区热议：潜在 Transformer 替代架构的可行性",
+    "summary": "开发者分享基于 C 语言的 Transformer 替代方案，寻求社区反馈。",
+    "detail": "HN 帖子讨论了一款可能替代 Transformer 的 AI 软件，声称优于 Mamba 和 RWKV 等后继者。该实现仅 1-1.5 万行 C 代码，已移植到 C# 和 F#，完全摒弃 Python 和 Rust。尽管缺乏 Python 生态支持，但其小巧的代码规模引发对早期 GPT 架构的回忆。社区正评估其 IP 价值及技术可行性，探讨非 Python 生态下的模型部署潜力。如果验证属实，可能降低推理成本并提高边缘设备部署效率，引发架构范式讨论，为资源受限环境提供新选择。",
+    "tags": [
+      "Dev",
+      "Architecture",
+      "LLM"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47484267",
+    "date": "2026-03-23",
+    "id": "17742328037574"
+  },
+  {
     "title": "TechCrunch 解读 Nvidia GTC Keynote",
     "summary": "Equity 播客复盘黄仁勋 GTC 演讲，探讨 Nvidia 未来战略。",
     "detail": "TechCrunch 最新一期 Equity 播客专门复盘了 CEO 黄仁勋的 GTC 主题演讲。节目深入讨论了此次 keynote 对 Nvidia 未来发展的意义及行业影响。作为 AI 基础设施的核心风向标，GTC 大会发布的新技术往往预示算力与模型层面的重大变革，值得开发者与投资者密切关注。",
@@ -1233,70 +1298,5 @@
     "link": "https://thecradle.co/articles-id/36667",
     "date": "2026-03-21",
     "id": "17741321809921"
-  },
-  {
-    "title": "OpenClaw 时刻引发模型商品化担忧",
-    "summary": "CNBC 报道 OpenClaw 类似 ChatGPT 的突破，引发市场对 AI 模型沦为商品的担忧。",
-    "detail": "**背景**: CNBC 分析指出，OpenClaw 近期的表现被视为其\"ChatGPT 时刻\"。**原因**: 行业担忧 AI 模型正迅速成为大宗商品，技术壁垒降低，差异化竞争将转向应用层与数据护城河。**影响**: 这对投资者而言意味着需重新评估 AI 初创企业的长期价值主张，避免陷入单纯的价格战。模型同质化可能压缩利润空间，迫使企业寻找垂直场景落地。基础模型厂商需寻找新的盈利模式，否则将面临估值回调，应用层创新成为关键突围方向，市场格局即将迎来洗牌。",
-    "tags": [
-      "News",
-      "Market",
-      "LLM"
-    ],
-    "link": "https://www.cnbc.com/2026/03/21/openclaw-chatgpt-moment-sparks-concern-ai-models-becoming-commodities.html",
-    "date": "2026-03-21",
-    "id": "17741321809922"
-  },
-  {
-    "title": "构建 33 个 AI 智能体的对齐启示",
-    "summary": "通过构建 33 个自主 AI 系统，总结关于治理、问责及能力限制的实际对齐问题。",
-    "detail": "**背景**: 作者分享了构建 33 个自主 AI 智能体的实践经验，重点探讨了常被忽视的实际对齐问题。**原因**: 单纯的能力提升不足以解决安全风险，强调了治理与问责机制的重要性。**影响**: 对于开发者而言，这是在生产环境中部署 Agent 前必须考虑的伦理与技术框架，为 AI 安全研究提供了微观视角。实际案例表明，对齐不仅是技术问题，更是管理问题。日志记录不足以保证问责，需结合加密技术确保行为不可篡改，为自主系统治理提供了新思路。",
-    "tags": [
-      "Dev",
-      "Alignment",
-      "Agents"
-    ],
-    "link": "https://thealignmentlayer.substack.com/",
-    "date": "2026-03-21",
-    "id": "17741321809923"
-  },
-  {
-    "title": "如何设计大规模 AI 信任实验",
-    "summary": "探讨设计严谨测试以验证 AI 代理行为如何塑造社会资本，公开实验设计框架。",
-    "detail": "**背景**: 文章详细介绍了设计大规模 AI 信任实验的方法论，基于 ATDP 框架预测代理设计属性如何改变信任信念。**原因**: 作者强调在结果公布前公开实验设计的重要性，以确保科学可证伪性。**影响**: 这对研究 AI 与社会资本关系的学者极具参考价值，提供了衡量透明度与用户信任之间复杂关系的实证路径。实验将测试透明度是否真的建立信任，挑战直觉预测。自报告信任测量变量错误，行为代理需仔细接地，实验结果无论肯定或否定均具理论意义。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Trust"
-    ],
-    "link": "https://weightedthoughts.substack.com/p/how-do-you-design-a-large-scale-ai",
-    "date": "2026-03-21",
-    "id": "17741321809924"
-  },
-  {
-    "title": "MIT 研究：AI 可能导致知识崩溃",
-    "summary": "麻省理工论文指出，代理式 AI 可能侵蚀人类学习激励，导致长期集体知识消失。",
-    "detail": "**背景**: 麻省理工学院经济学家发表论文，探讨生成式 AI 如何影响人类学习激励。**发现**: 模型显示，虽然 AI 能提高当前决策质量，但若替代人类努力过多，可能导致“知识崩溃”稳态，即通用知识最终消失。**影响**: 研究建议需通过信息设计监管来平衡 AI 精度与人类认知发展，警示过度依赖 AI 的长期社会风险。福利在代理精度上非单调，需寻找最优平衡点。人类努力具有学习外部性，AI 替代可能破坏集体知识积累，政策制定者需关注这一长期动态张力。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Economics"
-    ],
-    "link": "https://economics.mit.edu/sites/default/files/2026-02/AI%2C%20Human%20Cognition%20and%20Knowledge%20Collapse%2002-20-26.pdf",
-    "date": "2026-03-21",
-    "id": "17741321809926"
-  },
-  {
-    "title": "Show HN: AI 旅行黑客工具包上线",
-    "summary": "集成 MCP 服务器，利用 AI 规划里程积分旅行。",
-    "detail": "GitHub 开源项目 Travel Hacking Toolkit 正式发布，专为常旅客群体设计。其核心亮点是支持 OpenCode 和 Claude Code 的 MCP 服务器，允许 AI 代理直接搜索积分、里程及奖励航班信息。该项目展示了 AI Agent 在垂直生活场景的落地能力，通过标准化技能接口，让用户能更智能地管理旅行成本。这是 AI 个人助理从通用对话向实用化工具转变的重要案例，降低了旅行黑客的技术门槛。开发者可直接复用其技能模块，加速构建特定领域的 AI 应用，体现了模块化 AI 开发的趋势。",
-    "tags": [
-      "New",
-      "AI Agent",
-      "Travel"
-    ],
-    "link": "https://github.com/borski/travel-hacking-toolkit",
-    "date": "2026-03-21",
-    "id": "17741285545990"
   }
 ]
