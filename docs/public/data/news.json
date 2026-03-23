@@ -1,5 +1,18 @@
 [
   {
+    "title": "基于 Cloudflare Workers 的终端式 AI 编程代理",
+    "summary": "开源项目实现完全在 Cloudflare Workers 上运行的终端风格 AI 编码代理。",
+    "detail": "该项目展示了边缘计算与 AI 代理结合的新范式。代理运行于 Cloudflare Workers 环境，结合浏览器终端 UI 与 SQLite 持久化会话。支持文件读写、JS 沙箱执行及定时任务。无需传统服务器，利用 Durable Objects 保持状态，为开发者提供了低成本、高可用的 Serverless AI 代理部署方案，适合构建轻量级自动化编程工具。这种架构降低了运维成本，使得 AI 代理能够以更细粒度、更低延迟的方式响应用户需求，是边缘 AI 应用的一次重要实践。",
+    "tags": [
+      "Dev",
+      "Cloudflare",
+      "Agent"
+    ],
+    "link": "https://github.com/qaml-ai/pi-worker/tree/main/examples/terminal-agent",
+    "date": "2026-03-23",
+    "id": "17742606766651"
+  },
+  {
     "title": "AI 取代白领危机论被证伪：客服岗位逆势回升",
     "summary": "数据显示客服岗位自 2025 年中回升，证明当前 AI 尚难完全替代复杂人工服务。",
     "detail": "### 背景与现状\n针对\"AI 将导致白领失业潮\"的叙事，最新市场分析提出了质疑。尽管 Dario Amodei 曾预测 AI 能力已从高中生水平跃升至大学生水平，但实际就业市场数据显示，美国客服岗位发帖量自 2025 年中开始反弹，目前已接近疫情前水平。\n\n### 核心观点\n文章指出，企业曾有机会利用补贴后的 OpenAI 模型结合 RAG 技术裁员，但并未大规模实施。原因是剩余 10% 的复杂案例占据了客服团队大部分工作时间，简单的 FAQ 自动化无法解决核心痛点。理性结论是：需要博士级别的 AI 才能完全替代客服专员，当前技术仍存在局限。\n\n### 行业影响\n这一现象为 AI 落地提供了冷静视角，表明在复杂交互场景中，人机协作仍是主流，盲目乐观的替代论调缺乏数据支撑。",
@@ -1285,18 +1298,5 @@
     "link": "https://thehill.com/policy/technology/5793105-ai-regulation-framework/?user_id=66c4bf745d78644b3aa57b08",
     "date": "2026-03-22",
     "id": "17741553539822"
-  },
-  {
-    "title": "谷歌发布 AI 智能体协议开发指南",
-    "summary": "谷歌详解 MCP 等智能体协议，帮助开发者避免自定义集成代码。",
-    "detail": "谷歌开发者博客发布指南，解析 MCP、A2A 等混乱的智能体协议标准。通过构建供应链智能体案例，演示如何利用 Model Context Protocol (MCP) 统一连接模式，自动发现工具。此举旨在降低开发门槛，解决 Agent 与 API 集成的碎片化问题，推动互操作性标准建立。开发者无需为每个工具编写自定义集成代码，服务器广告其工具，代理自动发现。这显著减少了维护成本，使代理能够检查库存、执行安全交易并渲染交互式仪表板。该指南还介绍了 ADK 的使用，帮助开发者从易幻觉的 LLM 逐步构建出能处理支付与远程通信的可靠智能体，促进多步骤复杂任务的自动化实现。",
-    "tags": [
-      "Dev",
-      "Google",
-      "Protocol"
-    ],
-    "link": "https://developers.googleblog.com/developers-guide-to-ai-agent-protocols/",
-    "date": "2026-03-22",
-    "id": "17741553539823"
   }
 ]
