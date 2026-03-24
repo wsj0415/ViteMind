@@ -1,5 +1,70 @@
 [
   {
+    "title": "Origin 推出 AI 代码归属与治理工具",
+    "summary": "追踪 AI 代理编写的每一行代码，实施策略 enforcement。",
+    "detail": "Origin 解决了团队使用多种 AI 编程助手（如 Claude、Cursor）时的代码归属难题。它提供行级归属追踪（AI Blame），记录每个 AI 会话的提示词、模型及成本。通过系统提示注入，让 AI 知晓其他 AI 的变更，并具备秘密扫描和实时会话监控功能。这对于企业级 AI 代码合规、安全审计及成本管控具有重要意义，标志着 AI 开发流程进入精细化治理阶段。",
+    "tags": [
+      "Dev",
+      "AI Governance",
+      "Coding"
+    ],
+    "link": "https://getorigin.io",
+    "date": "2026-03-24",
+    "id": "17743917108740"
+  },
+  {
+    "title": "Captain Claw 发布个人 AI 工作空间",
+    "summary": "具备记忆层和多代理协同的自主研究助手。",
+    "detail": "Captain Claw 是一个开源的个人 AI 工作空间，集成 31 种内置工具和 6 层记忆系统。它能自主进行网页研究、文档处理及浏览器自动化，并生成可视化报告。支持多代理编排（DAGs），允许专用代理并行协作。该工具强调了 AI 的长期记忆能力和自主思考模式，旨在成为用户的第二大脑，适合需要深度研究和复杂任务自动化的知识工作者。",
+    "tags": [
+      "New",
+      "Agents",
+      "Productivity"
+    ],
+    "link": "https://captain-claw.com/",
+    "date": "2026-03-24",
+    "id": "17743917108741"
+  },
+  {
+    "title": "Lexplain 利用 AI 解释 Linux 内核变更",
+    "summary": "为内核提交提供动机、背景及影响分析。",
+    "detail": "Linux 内核提交通常只说明“改了什么”，Lexplain 通过 AI 补充“为什么改”。它分析每个稳定内核标签的发布说明和提交差异，提供技术上下文、代码级证据及用户可见影响。支持语义搜索，可按子系统或文件路径过滤。这对于内核开发者、维护者及需要理解底层系统变更的安全研究人员来说，极大地降低了阅读内核历史的技术门槛。",
+    "tags": [
+      "Dev",
+      "Linux",
+      "Open Source"
+    ],
+    "link": "https://lexplain.net",
+    "date": "2026-03-24",
+    "id": "17743917108742"
+  },
+  {
+    "title": "Kite-MCP 实现 AI 对话式股票交易",
+    "summary": "基于 MCP 协议连接 Zerodha 进行自然语言交易。",
+    "detail": "该项目是一个 Model Context Protocol (MCP) 服务器，允许用户通过自然语言与 AI 助手对话来交易印度股票（Zerodha Kite）。相比传统 Python 库，它无需编写代码即可执行查询持仓、下单、设置止损等操作。这展示了 MCP 协议在垂直领域（金融科技）的实际应用潜力，使得 AI 代理能够安全、便捷地调用外部交易工具，降低了量化交易的交互门槛。",
+    "tags": [
+      "Dev",
+      "Fintech",
+      "MCP"
+    ],
+    "link": "https://github.com/aranjan/kite-mcp",
+    "date": "2026-03-24",
+    "id": "17743917108743"
+  },
+  {
+    "title": "肯塔基州农场主拒绝数据中心收购要约",
+    "summary": "2600 万美元收购被拒，反映 AI 基础设施用地阻力。",
+    "detail": "随着 AI 算力需求激增，数据中心土地收购成为热点。一名肯塔基州女性拒绝了 2600 万美元将农场转为数据中心的报价。这一事件凸显了 AI 基础设施扩张与地方社区、土地资源之间的紧张关系。对于行业而言，这意味着未来数据中心选址可能面临更高的社会成本和阻力，促使科技公司重新评估用地策略及社区沟通方案。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Data Center"
+    ],
+    "link": "https://techcrunch.com/2026/03/24/kentucky-woman-rejects-26-million-offer-to-turn-her-farm-into-a-data-center/",
+    "date": "2026-03-24",
+    "id": "17743917108744"
+  },
+  {
     "title": "Databricks 收购两家初创公司强化 AI 安全",
     "summary": "Databricks 利用新融资收购 Antimatter 和 SiftD.ai，构建 AI 安全产品。",
     "detail": "Databricks 在完成 50 亿美元融资后，迅速展开收购行动，旨在夯实其新的 AI 安全产品线。此次收购了 Antimatter 和 SiftD.ai 两家初创公司，具体交易条款未披露。这表明数据安全与治理已成为 AI 平台竞争的关键战场，巨头正通过并购快速补齐安全能力，以应对企业客户对 AI 部署合规性的担忧。随着 AI 应用深入企业核心，安全不再是附加项而是基石。此次整合预计将增强 Databricks 在 Lakehouse 架构下的端到端安全管控能力，利用其充裕的资金储备加速产品落地，巩固其在企业级 AI 基础设施市场的领先地位。行业观察认为，这将引发新一轮 AI 安全领域的并购潮。",
@@ -1233,70 +1298,5 @@
     "link": "https://illux.app/",
     "date": "2026-03-23",
     "id": "17742779017213"
-  },
-  {
-    "title": "代理式 AI 概念深度解析视频",
-    "summary": "Data Science at Home 出品，拆解 Agentic AI 核心机制。",
-    "detail": "视频内容专注于解构 Agentic AI 概念。随着 AI 从对话转向行动，理解代理机制至关重要。适合希望深入理解 AI 自主决策、规划及工具使用流程的数据科学家和开发者。内容涵盖基础理论到实际应用场景，帮助从业者厘清当前热门技术术语背后的实质， demystified 系列旨在降低学习门槛。",
-    "tags": [
-      "Dev",
-      "Education",
-      "Agentic AI"
-    ],
-    "link": "https://www.youtube.com/watch?v=MQW3vYVqEPk",
-    "date": "2026-03-23",
-    "id": "17742779017214"
-  },
-  {
-    "title": "AI 模型性能实时监测工具上线",
-    "summary": "全新基准工具实时追踪主流 AI 模型性能波动，发现 Grok 等模型性能骤降。",
-    "detail": "AI Stupid Level 提供实时仪表盘，监控 22 个活跃模型的性能指数。数据显示 Grok-4 和 Kimi-K2 在 24 小时内性能下降 38%，而 Claude-Sonnet-4.5 在代码和可靠性方面表现最佳。该工具为开发者提供了模型选型的关键参考，揭示了模型性能不稳定的现状。全球愚蠢指数显示当前模型表现良好，但波动性警示开发者需实时监控模型退化情况，避免生产事故。此类基准工具的兴起，表明行业开始关注模型服务的稳定性而非仅看峰值能力。",
-    "tags": [
-      "New",
-      "Benchmark",
-      "LLM"
-    ],
-    "link": "https://aistupidlevel.info",
-    "date": "2026-03-23",
-    "id": "17742715608511"
-  },
-  {
-    "title": "AI 取代工作的本质是身份危机",
-    "summary": "深度分析指出 AI 带来的失业问题不仅是经济打击，更是个人身份认同的崩塌。",
-    "detail": "文章探讨了被 AI 取代后的心理状态，指出现代生活操作系统基于“做事 - 赚钱 - 存在”的方程。当工作被模型取代，沉默随之而来，人们面临“我是谁”的追问。这不仅是技术故事，更是关于技术留下的沉默及其中生长出的新意义的社会性反思。作者认为，AI 置换引发的核心危机在于身份认同的丧失，而非单纯的经济损失。这种身份危机要求社会重新定义工作的价值与人的存在意义，是 AI 普及过程中不可忽视的人文挑战。",
-    "tags": [
-      "News",
-      "Social Impact",
-      "Analysis"
-    ],
-    "link": "https://pilgrima.ge/p/the-involuntary-pilgrim",
-    "date": "2026-03-23",
-    "id": "17742715608513"
-  },
-  {
-    "title": "程序员为何主动拥抱 AI 取代",
-    "summary": "Vox 播客探讨“氛围编程”现象，部分开发者希望 AI 接管编码工作。",
-    "detail": "报道解释了“氛围编程”（Vibe Coding）概念，即利用 Claude、Codex 等工具进行开发。部分开发者不再抗拒 AI，反而希望其接管工作，反映了行业对 AI 辅助开发态度的转变。内容涉及对当前 AI 软件开发生态的深度解析及开发者心理变化。这种现象表明，随着 AI 能力增强，部分程序员角色正从代码编写者转变为需求描述者，行业技能树正在发生根本性重构。Vox 的播客深入探讨了这一趋势背后的技术驱动力与社会影响。",
-    "tags": [
-      "News",
-      "Trend",
-      "Coding"
-    ],
-    "link": "https://www.vox.com/podcasts/483368/vibe-coding-ai-software-claude-codex-gemini-explained",
-    "date": "2026-03-23",
-    "id": "17742715608514"
-  },
-  {
-    "title": "基于 Cloudflare Workers 的终端式 AI 编程代理",
-    "summary": "开源项目实现完全在 Cloudflare Workers 上运行的终端风格 AI 编码代理。",
-    "detail": "该项目展示了边缘计算与 AI 代理结合的新范式。代理运行于 Cloudflare Workers 环境，结合浏览器终端 UI 与 SQLite 持久化会话。支持文件读写、JS 沙箱执行及定时任务。无需传统服务器，利用 Durable Objects 保持状态，为开发者提供了低成本、高可用的 Serverless AI 代理部署方案，适合构建轻量级自动化编程工具。这种架构降低了运维成本，使得 AI 代理能够以更细粒度、更低延迟的方式响应用户需求，是边缘 AI 应用的一次重要实践。",
-    "tags": [
-      "Dev",
-      "Cloudflare",
-      "Agent"
-    ],
-    "link": "https://github.com/qaml-ai/pi-worker/tree/main/examples/terminal-agent",
-    "date": "2026-03-23",
-    "id": "17742606766651"
   }
 ]
