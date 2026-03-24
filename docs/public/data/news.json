@@ -1,5 +1,70 @@
 [
   {
+    "title": "维基百科遭 AI 大规模挖掘引发争议",
+    "summary": "维基百科成为 AI 公司数据提取目标，流量激增引发公共知识资源私有化担忧。",
+    "detail": "文章指出维基百科正被大型科技公司作为免费数据中心进行工业级挖掘。爬虫流量占比高达 65%，多媒体下载带宽上升 50%，破坏了依靠捐赠的财务模型。维基媒体基金会已与微软、Meta 等达成付费协议，但这被视为数字公地的“圈地运动”。文章呼吁建立多方利益相关者结算机制，防止公共知识资源被私有化提取，强调需平衡成本回收与公共资源保护，避免志愿者贡献的知识被少数资本捕获。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Data"
+    ],
+    "link": "https://policyreview.info/articles/news/commons-ai-extraction-wikipedia/2089",
+    "date": "2026-03-24",
+    "id": "17743690507030"
+  },
+  {
+    "title": "开源 AI 代理发现 ETCD 高危漏洞",
+    "summary": "开源 AI 代理 Strix.ai 发现 ETCD 严重漏洞，CVSS 评分 8.8，展示 AI 安全审计能力。",
+    "detail": "安全公司 Wiz 记录显示，开源 AI 代理 Strix.ai 发现了 ETCD 严重漏洞 CVE-2026-33413，CVSS 评分 8.8。未授权用户可绕过认证调用 MemberList 学习拓扑，或利用 Alarm API 造成服务中断。典型 Kubernetes 部署不受影响，但建议用户升级至 etcd 3.6.9 等修复版本。此事证明 AI 代理在代码审计中的潜力，为自动化安全运维开辟了新路径，展示了 AI 在网络安全领域的实际应用能力，可能改变未来漏洞挖掘工作流程。",
+    "tags": [
+      "Dev",
+      "Security",
+      "AI Agent"
+    ],
+    "link": "https://www.wiz.io/vulnerability-database/cve/cve-2026-33413",
+    "date": "2026-03-24",
+    "id": "17743690507031"
+  },
+  {
+    "title": "探讨适合 AI 代理的最佳数据模型",
+    "summary": "基于“苦涩教训”理论，分析何种数据模型最能扩展 AI 搜索与计算能力。",
+    "detail": "文章引用 Rich Sutton 的“苦涩教训”，探讨适合 LLM 驱动代理的数据模型。作者认为应减少人类设计的复杂性，使搜索与计算能够无限扩展，类似计算机视觉中卷积取代 SIFT 的过程。当前正处于 AGI 或泡沫破裂的前夜，需管理适合人类和 LLM 代理的常见数据模型。真正的突破可能在于减少人类 sophistication，让计算规模决定效果，为未来硬件级表示做准备。这为数据库架构师提出了新的挑战，需在逻辑层平衡人类可读性与 AI 效率，确保系统能支撑无限扩展的搜索与计算方法。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Architecture"
+    ],
+    "link": "https://antejavor.github.io/blog/2026/best-data-model-for-AI/",
+    "date": "2026-03-24",
+    "id": "17743690507032"
+  },
+  {
+    "title": "AgentBridge 让 AI 控制经典 Mac 系统",
+    "summary": "新工具允许 AI 代理通过共享文件夹协议与 Classic Mac OS 7-9 进行交互。",
+    "detail": "AgentBridge 是一款原生 Classic Mac OS 应用，允许 AI 代理通过结构化命令与 Mac OS 7-9 交互。它适用于真实硬件和模拟器，无需修改系统。通过共享文件夹作为传输层，支持 NAS 或 SMB，AI 可列出窗口、打开应用或读取剪贴板。心跳机制每 2 秒一次，确保连接稳定。这种设计避免了复杂的网络配置，使得旧系统也能接入现代 AI 工作流，证明了 AI 代理接口的灵活性。项目利用 MCP 协议实现跨时代硬件的控制，为复古计算与现代 AI 结合提供了有趣的技术参考案例，展示了代理协议在不同环境下的适应能力和扩展潜力。",
+    "tags": [
+      "New",
+      "Tool",
+      "Legacy System"
+    ],
+    "link": "https://github.com/SeanFDZ/agentbridge",
+    "date": "2026-03-24",
+    "id": "17743690507033"
+  },
+  {
+    "title": "利用 AI 辅助开源项目贡献的实践",
+    "summary": "VisiData 作者分享使用 Claude 辅助开发及管理 AI 生成代码提交的经验。",
+    "detail": "VisiData 项目近期收到大量 LLM 生成的 PR，作者尝试利用 Claude Code 和 Opus 辅助开发。通过 Anthropic 对 OSS 开发者的支持，作者建立了独立的 Bot 账户 [@saulbert] 提交代码。文章强调人类需保持自己的声音，不让机器人代发言。这种工作流放大了人类注意力，帮助处理技术细节，为开源项目维护提供了新的协作模式，平衡了自动化效率与人类主导权。作者指出 AI 在软件开发领域展现出智能，虽不理解但极具用处。通过设定提交指南要求脚注说明，确保透明度。这探索了如何利用双刃剑工具增强而非稀释人类智能，为开源社区应对 AI 生成代码浪潮提供了亲社会的实践参考和管理经验。",
+    "tags": [
+      "Dev",
+      "OSS",
+      "Workflow"
+    ],
+    "link": "https://www.visidata.org/blog/2026/ai/",
+    "date": "2026-03-24",
+    "id": "17743690507034"
+  },
+  {
     "title": "RSNA 警示：生成式 AI 伪造 X 光片可欺骗医生与诊断系统",
     "summary": "RSNA 研究发现 ChatGPT 生成的 X 光片能欺骗放射科医生和 AI 诊断系统，揭示医疗 AI 安全漏洞。",
     "detail": "北美放射学会 (RSNA) 发布重要警示，生成式 AI 创建的深度伪造 X 光片已能通过专业审查。研究显示，这些由 ChatGPT 等模型生成的放射影像不仅能误导放射科医生，还能欺骗现有的 AI 诊断系统。这一发现凸显了医疗领域面临的全新安全威胁，即对抗性攻击可能破坏诊断完整性。随着生成模型能力提升，伪造医学影像的成本降低，可能导致保险欺诈或恶意干扰治疗。行业需紧急开发检测工具以验证影像真实性，防止恶意欺诈影响患者治疗，确保医疗 AI 系统的鲁棒性与可信度。此事件表明生成式 AI 的双刃剑效应，在提升效率的同时也带来了伪造风险，医疗机构需更新验证协议。",
@@ -1233,70 +1298,5 @@
     "link": "https://thenewstack.io/ai-programming-languages-future/",
     "date": "2026-03-22",
     "id": "17742884601055"
-  },
-  {
-    "title": "CERN 将 AI 植入硅芯片以应对数据洪流",
-    "summary": "CERN 研究人员将 AI 直接烧录至硅片，处理海量物理数据。",
-    "detail": "CERN 科学家正在尝试将 AI 算法直接“烧录”到硅芯片中，以应对粒子对撞机产生的海量数据洪流。这种方法旨在边缘端直接处理数据，减少传输延迟和存储压力。该技术标志着 AI 硬件化的重要进展，对于高能物理研究及边缘计算领域具有深远影响，可能成为未来处理大规模科学数据的标准方案。面对日益增长的数据量，传统计算架构已显不足，此创新为科学计算提供了新范式，展示了专用 AI 硬件在极端环境下的潜力，有望推动相关芯片技术的发展，是硬件与算法结合的前沿探索。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Edge AI"
-    ],
-    "link": "https://www.theregister.com/2026/03/22/cern_eggheads_burn_ai_into/",
-    "date": "2026-03-22",
-    "id": "17742501368151"
-  },
-  {
-    "title": "TechCrunch 解读 Nvidia GTC Keynote",
-    "summary": "Equity 播客复盘黄仁勋 GTC 演讲，探讨 Nvidia 未来战略。",
-    "detail": "TechCrunch 最新一期 Equity 播客专门复盘了 CEO 黄仁勋的 GTC 主题演讲。节目深入讨论了此次 keynote 对 Nvidia 未来发展的意义及行业影响。作为 AI 基础设施的核心风向标，GTC 大会发布的新技术往往预示算力与模型层面的重大变革，值得开发者与投资者密切关注。",
-    "tags": [
-      "News",
-      "Nvidia",
-      "Hardware"
-    ],
-    "link": "https://techcrunch.com/2026/03/22/do-you-want-to-build-a-robot-snowman/",
-    "date": "2026-03-22",
-    "id": "17742222857130"
-  },
-  {
-    "title": "200 行代码防止 AI Agent 失控",
-    "summary": "开源库 capkit 通过加密签名能力限制 AI 代理行为，零依赖。",
-    "detail": "开发者发布了一个仅 200 行的轻量级库 capkit，旨在解决 AI Agent 失控风险。该库通过范围限定、时间绑定及加密签名的能力机制，确保代理行为在安全边界内。无需外部依赖，设计主权归用户所有。为 AI 代理安全提供了新的低成本解决方案，适合开发者集成到自治系统中。",
-    "tags": [
-      "Dev",
-      "AI Agent",
-      "Security"
-    ],
-    "link": "https://github.com/iamGodofall/capkit",
-    "date": "2026-03-22",
-    "id": "17742222857131"
-  },
-  {
-    "title": "论文探讨 AI 身份认同景观",
-    "summary": "最新 arXiv 论文 Characterising AI identity，分析人工智能自我认知。",
-    "detail": "康奈尔大学等机构研究人员提交新论文《The Artificial Self》，characterising 了 AI 身份认同的景观。研究深入探讨了人工智能系统的自我表征与身份构建问题。这对于理解未来强人工智能的伦理边界及人机交互心理具有学术价值，为 AI 安全对齐提供了理论参考。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Ethics"
-    ],
-    "link": "https://arxiv.org/abs/2603.11353",
-    "date": "2026-03-22",
-    "id": "17742222857132"
-  },
-  {
-    "title": "观点：AI 是垃圾且为经济泡沫",
-    "summary": "博客文章称 AI 为人工愚蠢，警告其可能破坏经济而非提高效率。",
-    "detail": "知名博主 Richard Carrier 发表激进观点，称当前 AI 为“人工愚蠢”且是经济泡沫。文章认为 AI 无法替代工作，反而因错误风险降低生产力，可能危及养老金与银行系统。尽管观点极端，但反映了部分业界对 AI 落地实效性与投资过热的担忧，引发关于技术价值的反思。",
-    "tags": [
-      "News",
-      "Opinion",
-      "Industry"
-    ],
-    "link": "https://www.richardcarrier.info/archives/38652",
-    "date": "2026-03-22",
-    "id": "17742222857133"
   }
 ]
