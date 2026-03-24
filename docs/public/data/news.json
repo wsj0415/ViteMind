@@ -1,5 +1,83 @@
 [
   {
+    "title": "Databricks 收购两家初创公司强化 AI 安全",
+    "summary": "Databricks 利用新融资收购 Antimatter 和 SiftD.ai，构建 AI 安全产品。",
+    "detail": "Databricks 在完成 50 亿美元融资后，迅速展开收购行动，旨在夯实其新的 AI 安全产品线。此次收购了 Antimatter 和 SiftD.ai 两家初创公司，具体交易条款未披露。这表明数据安全与治理已成为 AI 平台竞争的关键战场，巨头正通过并购快速补齐安全能力，以应对企业客户对 AI 部署合规性的担忧。随着 AI 应用深入企业核心，安全不再是附加项而是基石。此次整合预计将增强 Databricks 在 Lakehouse 架构下的端到端安全管控能力，利用其充裕的资金储备加速产品落地，巩固其在企业级 AI 基础设施市场的领先地位。行业观察认为，这将引发新一轮 AI 安全领域的并购潮。",
+    "tags": [
+      "News",
+      "M&A",
+      "Security"
+    ],
+    "link": "https://techcrunch.com/2026/03/24/databricks-buys-two-startups-lakewatch-antimatter-siftd-ai-security/",
+    "date": "2026-03-24",
+    "id": "17743850800730"
+  },
+  {
+    "title": "Google 研究提出 TurboQuant 极致压缩技术",
+    "summary": "谷歌发布新向量量化技术，旨在解决高维向量内存瓶颈问题。",
+    "detail": "Google Research 发表 TurboQuant 技术，重新定义 AI 效率。针对高维向量消耗大量内存导致键值缓存瓶颈的问题，该技术通过极致的向量量化压缩，减少内存占用并加速相似度搜索。向量是 AI 模型理解信息的基础，但高维向量会导致存储成本高昂。传统量化方法常引入额外内存开销，而 TurboQuant 旨在解决这一痛点。这对于降低大模型推理成本、优化向量数据库性能具有重要意义，是底层算法优化的重要进展。该技术有望被集成到未来的 TensorFlow 或 JAX 框架中，帮助开发者在资源受限的边缘设备上部署更复杂的 AI 模型，推动 AI 普及。",
+    "tags": [
+      "News",
+      "Research",
+      "Optimization"
+    ],
+    "link": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+    "date": "2026-03-24",
+    "id": "17743850800731"
+  },
+  {
+    "title": "Phanteum 协议提出 AI 代理身份开放标准",
+    "summary": "发布 RFC-P001 标准，旨在建立通用的 AI 代理间交易身份验证体系。",
+    "detail": "Phanteum 协议在 GitHub 发布了 RFC-P001，定义了一种用于 AI 代理身份的去中心化标准（did:phanteum:icp）。随着 AI Agent 自主性增强，代理间的身份验证与安全交易成为基础设施瓶颈。该标准试图解决代理互操作性问题，为未来大规模的机器间经济协作奠定信任基础，是 AI 基础设施层的重要探索。当前 AI 代理多为孤岛，缺乏统一身份标识，限制了自动化协作能力。此协议若被广泛采纳，将允许不同厂商的 AI 代理安全地交换数据和执行交易，促进自主代理生态系统的形成，类似于互联网领域的 DNS 或 HTTPS 标准。",
+    "tags": [
+      "Dev",
+      "Protocol",
+      "Agent"
+    ],
+    "link": "https://github.com/phanteum-protocol/rfcs",
+    "date": "2026-03-24",
+    "id": "17743850800732"
+  },
+  {
+    "title": "开发者利用 AI 将 2012 年旧 Demo 重构为生产级 MMO",
+    "summary": "展示 AI 如何辅助单人工程师完成遗留系统现代化与复杂游戏开发。",
+    "detail": "一位资深工程师利用 AI 辅助，将 Mozilla 2012 年废弃的 BrowserQuest 演示项目重构为具备生产级别的多多人在线游戏 Fracture。项目包含分布式追踪和 3000+ 测试用例。该案例证明 AI 作为开发代理能显著改变单人产出经济学，为遗留系统现代化提供了可参考的工程方法论，而非仅仅是代码生成。作者强调并非'AI 写了代码'，而是'AI 让一人完成团队工作'。这展示了 AI 在理解遗留逻辑、添加测试覆盖和架构解耦方面的潜力，为企业级遗留系统迁移提供了实战参考，证明 AI 可大幅降低技术债务清理成本。",
+    "tags": [
+      "Dev",
+      "Engineering",
+      "LLM"
+    ],
+    "link": "https://georgelarson.me/writing/2026-03-25-fracture-legacy-modernization/",
+    "date": "2026-03-24",
+    "id": "17743850800733"
+  },
+  {
+    "title": "Tluma 为开源项目提供无限免费 AI 问答组件",
+    "summary": "推出免费计划，支持开源项目无限次使用 AI 问答 widget 及文档索引。",
+    "detail": "Tluma 宣布针对开源项目推出永久免费计划，允许维护者索引 GitHub 仓库文档并提供无限制的 AI 问答组件。付费计划将补贴基础设施成本。此举降低了开源社区使用 AI 工具的门槛，有助于改善开源项目的文档交互体验，是 AI 工具回馈开源生态的典型案例，适合开发者集成。大多数维护者无法负担昂贵的 AI API 费用，该模式通过商业客户补贴开源用户，实现了可持续运营。功能包括无限会话、对话记忆和使用分析，可直接嵌入项目页面，帮助用户快速检索代码和文档，显著提升开源项目的可维护性和用户满意度。",
+    "tags": [
+      "Deal",
+      "OpenSource",
+      "Tool"
+    ],
+    "link": "https://tluma.ai",
+    "date": "2026-03-24",
+    "id": "17743850800734"
+  },
+  {
+    "title": "SOC.Workflows 发布免费 AI 安全调查工作流",
+    "summary": "为安全分析师提供结构化 AI 调查步骤，支持多种警报类型分析。",
+    "detail": "SOC.Workflows 推出免费工具，专为安全运营中心（SOC）分析师设计。用户可粘贴警报或日志，遵循结构化步骤生成包含严重性、MITRE 映射及建议动作的调查摘要。支持主流大模型，无需注册。该工具将专家经验转化为标准化流程，显著降低安全调查门槛，提升事件响应效率，是垂直领域 AI 应用的优秀实践。涵盖钓鱼邮件、PowerShell 脚本、身份警报等常见场景。通过引导式输入而非随机提示，确保输出结果的专业性和一致性，帮助初级分析师快速达到专家水平，减轻安全团队在警报疲劳下的工作压力。",
+    "tags": [
+      "New",
+      "Security",
+      "Workflow"
+    ],
+    "link": "https://socworkflows.com/",
+    "date": "2026-03-24",
+    "id": "17743850800735"
+  },
+  {
     "title": "OpenAI 开源青少年安全工具",
     "summary": "OpenAI 发布开源工具，助力开发者构建更安全的青少年保护应用。",
     "detail": "OpenAI 正式宣布推出全新的开源工具集，旨在赋能开发者在其应用中构建针对青少年群体的安全保护功能。此举深刻反映了当前行业对 AI 安全性日益增长的关注，特别是针对未成年人免受有害内容侵害的保护机制。通过开放这些底层工具，OpenAI 希望激励社区共同建立更严格的安全标准，从源头减少有害内容的生成与传播风险。这对于教育类及面向年轻用户的 AI 产品开发者而言是关键资源，标志着科技大厂开始将安全责任延伸至生态构建层面，推动整个行业向更合规、更安全的方向发展。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/qaml-ai/pi-worker/tree/main/examples/terminal-agent",
     "date": "2026-03-23",
     "id": "17742606766651"
-  },
-  {
-    "title": "AI 取代白领危机论被证伪：客服岗位逆势回升",
-    "summary": "数据显示客服岗位自 2025 年中回升，证明当前 AI 尚难完全替代复杂人工服务。",
-    "detail": "### 背景与现状\n针对\"AI 将导致白领失业潮\"的叙事，最新市场分析提出了质疑。尽管 Dario Amodei 曾预测 AI 能力已从高中生水平跃升至大学生水平，但实际就业市场数据显示，美国客服岗位发帖量自 2025 年中开始反弹，目前已接近疫情前水平。\n\n### 核心观点\n文章指出，企业曾有机会利用补贴后的 OpenAI 模型结合 RAG 技术裁员，但并未大规模实施。原因是剩余 10% 的复杂案例占据了客服团队大部分工作时间，简单的 FAQ 自动化无法解决核心痛点。理性结论是：需要博士级别的 AI 才能完全替代客服专员，当前技术仍存在局限。\n\n### 行业影响\n这一现象为 AI 落地提供了冷静视角，表明在复杂交互场景中，人机协作仍是主流，盲目乐观的替代论调缺乏数据支撑。",
-    "tags": [
-      "News",
-      "Job Market",
-      "LLM"
-    ],
-    "link": "https://martynasm.com/2026/03/22/white-collar-ai-apocalypse-narrative-is-just-another-bullshit/",
-    "date": "2026-03-23",
-    "id": "17742563379190"
-  },
-  {
-    "title": "Karpathy 开源 AutoResearch：AI 智能体自主运行机器学习实验",
-    "summary": "Andrej Karpathy 推出新项目，探索利用 AI 智能体自动迭代优化机器学习模型。",
-    "detail": "### 项目介绍\nAI 领域知名人物 Andrej Karpathy 近期开源了 **AutoResearch** 项目。该项目的核心理念是利用 AI 智能体自动运行机器学习实验，而非由研究人员手动修改代码和评估结果。\n\n### 技术亮点\n系统能够迭代执行实验步骤，自动搜索更优解决方案。这展示了大语言模型如何直接参与机器学习研究的实验循环。对于自动化机器学习（AutoML）框架开发者而言，这是一个重要的方向信号，意味着 AI 正在从辅助工具转变为研究主体。\n\n### 行业意义\n该项目预示着未来 AI 研发流程的自动化趋势，可能大幅降低模型调优门槛，加速算法迭代效率，是 autonomous AI research 领域的重要实践。",
-    "tags": [
-      "Dev",
-      "AutoML",
-      "Research"
-    ],
-    "link": "https://mljar.com/blog/autoresearch-karpathy-autonomous-ai-research/",
-    "date": "2026-03-23",
-    "id": "17742563379191"
-  },
-  {
-    "title": "MatrixReview：基于文档上下文的 AI 代码审查工具",
-    "summary": "新工具可读取企业文档和依赖图，在 PR 中自动执行符合公司规范的代码审查。",
-    "detail": "### 产品功能\nMatrixReview 是一款文档驱动的 AI 代码审查工具。与传统基于通用最佳实践的工具不同，它能读取企业的安全策略、架构标准和风格指南，并在每次 Pull Request 中强制执行。\n\n### 核心技术\n工具在设置时会克隆仓库，构建完整的导入依赖图（节点、边、入口点）。当 PR 提交时，它计算变更的\"爆炸半径\"，识别受影响的上下游文件，仅拉取相关文档进行审查，避免上下文泛滥。审查结果明确标记为\"文档支持\"或\"AI 建议\"，并提供具体文档引用。\n\n### 开发者价值\n解决了通用 AI 审查不符合公司特定规范的问题，有助于统一团队代码风格，降低合规风险，提升工程效率。",
-    "tags": [
-      "New",
-      "DevTools",
-      "Code Review"
-    ],
-    "link": "https://matrixreview.io/",
-    "date": "2026-03-23",
-    "id": "17742563379192"
-  },
-  {
-    "title": "VistAI 插件：跨平台保存与搜索 AI 对话洞察",
-    "summary": "免费 Chrome 插件，支持一键保存 ChatGPT 等主流模型回复至本地知识库。",
-    "detail": "### 主要功能\nVistAI 是一款专注于个人 AI 知识库构建的 Chrome 扩展。支持在 ChatGPT、Claude、Gemini 和 Perplexity 之间一键保存有价值的回复，并提供即时搜索功能。\n\n### 隐私与成本\n该工具完全免费安装，包含 20 次保存额度，无需注册账户。所有数据本地存储在设备端，不上传至服务器，确保了用户数据的隐私安全。\n\n### 使用场景\n解决了 AI 对话内容易丢失、难检索的痛点。适合需要频繁与多个模型交互并积累知识资产的专业人士，帮助用户停止重复已有的对话，高效复用历史洞察。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Chrome Extension"
-    ],
-    "link": "https://vistai.org/",
-    "date": "2026-03-23",
-    "id": "17742563379193"
-  },
-  {
-    "title": "Gato Plugins 更新：支持自托管 LLM 进行 WordPress 翻译",
-    "summary": "新版本允许通过 Ollama 自托管模型翻译内容，帮助开发者节省 AI 信用额度成本。",
-    "detail": "### 更新内容\nGato AI Translations for Polylang 发布 v17.1 版本，核心新增支持自托管 LLM 进行内容翻译。\n\n### 成本优势\n传统 AI 翻译服务通常按 token 或请求收费，长期成本较高。新版本允许用户连接本地运行的 Ollama 模型，完全免除 API 信用额度费用。这对于拥有大量内容翻译需求的 WordPress 站点来说，是一个显著的成本优化方案。\n\n### 技术实现\n该方案结合了开源模型与本地部署的优势，既保证了数据不出境的安全性，又实现了零边际成本的自动化翻译流程，适合对成本敏感的开发者和站点管理员。",
-    "tags": [
-      "Dev",
-      "Self-hosted",
-      "WordPress"
-    ],
-    "link": "https://gatoplugins.com/blog/released-v17-1-self-hosted-llm-translation",
-    "date": "2026-03-23",
-    "id": "17742563379194"
-  },
-  {
-    "title": "MLJAR 发布数据专业人士专用 AI 提示词库",
-    "summary": "免费开放 309 个精选提示词，覆盖数据分析师、工程师及科学家等 7 种角色。",
-    "detail": "### 资源概述\nMLJAR Studio 推出了面向数据专业人士的免费提示词库。包含 309 个精选提示词，涵盖 7 种角色（如业务分析师、数据工程师、数据科学家等）和 3 种提示词类型。\n\n### 内容分类\n提示词按角色和类别组织，例如数据分析师可获得关于数据清洗、SQL 查询和仪表板设计的提示；数据工程师则涵盖 ETL 管道、数据建模和质量验证等内容。\n\n### 应用价值\n用户可直接复制并在 MLJAR Studio 或任何 AI 工作流中使用。这降低了数据团队使用 AI 的门槛，提供了标准化的最佳实践模板，有助于提升数据分析任务的效率和输出质量。",
-    "tags": [
-      "Dev",
-      "Prompt Engineering",
-      "Data Science"
-    ],
-    "link": "https://mljar.com/ai-prompts/",
-    "date": "2026-03-23",
-    "id": "17742563379195"
   }
 ]
