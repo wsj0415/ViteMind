@@ -1,5 +1,57 @@
 [
   {
+    "title": "Pharaoh 为 AI 编程代理提供代码库结构映射",
+    "summary": "新工具将代码库映射为知识图谱，解决 AI 代理上下文缺失问题。",
+    "detail": "Pharaoh 是一款新工具，旨在解决 AI 编程代理的上下文缺失问题。它将整个代码库架构映射为知识图谱，供 AI 在编写代码前查询。功能包括依赖分析、变更影响评估及重复代码检测，确保 AI 理解系统全貌。支持与 Claude、Cursor 等集成，帮助代理在修改共享代码前知晓依赖关系，显著减少幻觉，提高代码生成质量与系统安全性。已分析超过 490 万行代码，验证了其在大尺度项目中的有效性。",
+    "tags": [
+      "New",
+      "Coding",
+      "Agent"
+    ],
+    "link": "https://pharaoh.so/",
+    "date": "2026-03-24",
+    "id": "17743281796902"
+  },
+  {
+    "title": "RoverBook：专为 AI 代理设计的 PostHog 分析工具",
+    "summary": "开源包用于追踪 AI 代理任务运行、反馈及记忆，优化代理性能。",
+    "detail": "RoverBook 是建立在 Rover 之上的 AX 包，功能类似 AI 代理界的 PostHog。它追踪每个任务作为访问，捕获明确及衍生的代理反馈，并将相关记忆反馈给下一任务。作为客户端仪表层，它监听任务生命周期事件如 task_started 及 tool_result。帮助开发者监控代理运行状态，优化记忆机制，提升代理任务的成功率与可观测性，便于调试与迭代。后端合约隐藏在 roverbookRouter 之后，简化了集成复杂度。",
+    "tags": [
+      "Dev",
+      "Analytics",
+      "Agent"
+    ],
+    "link": "https://github.com/rtrvr-ai/rover/tree/main/packages/roverbook",
+    "date": "2026-03-24",
+    "id": "17743281796903"
+  },
+  {
+    "title": "Locro：基于 Chrome screen_ai 的本地快速 OCR 工具",
+    "summary": "开源封装工具，利用 Chrome 内置 AI 实现快速准确的本地 OCR。",
+    "detail": "Locro 是一个开源项目，作为 Chromium screen_ai OCR 的封装器。它允许开发者在本地通过 Chrome 内置的 AI 功能实现快速且准确的文本识别。无需依赖外部 API，降低了 OCR 集成的成本与延迟，同时保障了数据隐私。适合需要隐私保护或离线环境的开发场景，为桌面应用提供了便捷的文本提取解决方案，简化了本地 OCR 的实现流程。利用浏览器原生能力，避免了额外模型的部署负担。",
+    "tags": [
+      "Dev",
+      "OCR",
+      "OpenSource"
+    ],
+    "link": "https://github.com/sergiocorreia/clv-locro",
+    "date": "2026-03-24",
+    "id": "17743281796904"
+  },
+  {
+    "title": "美国提出 TRUMP AMERICA AI 法案，废除第 230 条",
+    "summary": "参议员提出新法案，废除第 230 条，扩大 AI 责任与年龄验证。",
+    "detail": "参议员 Marsha Blackburn 提出名为\"TRUMP AMERICA AI Act\"的 291 页立法草案，旨在重塑在线信息监管。该法案捆绑了第 230 条废除、扩大 AI 责任及强制年龄验证等内容，声称与特朗普行政令挂钩以赢得全球 AI 竞赛。虽然框架宣称支持创新与安全，保护儿童与创作者，但实际描述了一个中央化监管体系，移除平台法律保护，赋予联邦及州机构新执法工具。这将彻底改变互联网法律基础，引发关于监管权力集中与平台责任的激烈争议。",
+    "tags": [
+      "News",
+      "Policy",
+      "Regulation"
+    ],
+    "link": "https://reclaimthenet.org/trump-america-ai-act-section-230-repeal-ai-liability-age-verification",
+    "date": "2026-03-23",
+    "id": "17743281796900"
+  },
+  {
     "title": "Air Street 筹集 2.32 亿美元成欧洲最大单一 VC",
     "summary": "欧洲风投 Air Street 获 2.32 亿美元基金，专注 AI 领域。",
     "detail": "**背景**：欧洲 AI 投资生态持续升温，TechCrunch 报道 Air Street 确立领先地位，成为资本焦点，标志欧洲创投市场复苏。**核心**：新基金规模达 2.32 亿美元，使其成为欧洲最大的单一风险投资公司之一，专注早期 AI 技术与初创企业，投资力度空前，资源集中。**影响**：表明资本对欧洲 AI 初创企业的信心显著增强，预计将加速当地 AI 基础设施及应用层项目的孵化与扩张，缓解初创融资难问题，促进区域技术创新，缩小与美亚差距。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.insidevoice.ai/p/ais-elephant-in-the-room",
     "date": "2026-03-22",
     "id": "17741972963920"
-  },
-  {
-    "title": "FlowState：基于 MCP 的 Claude 持久化开发记忆系统",
-    "summary": "开源开发记忆系统，通过 MCP 协议让 Claude 跨会话保留项目上下文与解决方案。",
-    "detail": "FlowState 是一个开源开发记忆系统，旨在解决开发者跨会话丢失上下文的问题。它作为 MCP 服务器集成到 Claude Desktop，利用 SQLite 本地存储项目、问题、解决方案和学习心得。支持 Git 同步和桌面 GUI，确保 AI 助手能延续之前的工作思路。这标志着 AI 编程助手从 Stateless 向 Stateful 转变，提升了复杂项目中的协作效率。开发者可借此构建更连贯的 AI 辅助开发环境。",
-    "tags": [
-      "Dev",
-      "MCP",
-      "OpenSource"
-    ],
-    "link": "https://github.com/dialectforge/FlowStateV1.1",
-    "date": "2026-03-22",
-    "id": "17741972963921"
-  },
-  {
-    "title": "MultiHead：构建具有持久记忆的专业化 AI 代理团队",
-    "summary": "开源系统将复杂任务分解给专用代理，通过验证和存储知识实现持续进化。",
-    "detail": "MultiHead 是一个开源系统，旨在解决大多数 AI 系统“运行即遗忘”的问题。它将任务分解给特定的领域代理，这些代理拥有代码库部分权限，验证所学内容并存储可重用知识。架构采用“运行 - 验证 - 存储 - 改进”的有状态模式，而非传统的无状态模式。这使得 AI 系统能随时间积累专业知识，适合处理复杂且需长期上下文的工程任务。为构建持久化 AI 团队提供了新范式。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "OpenSource"
-    ],
-    "link": "https://github.com/axsar/multihead",
-    "date": "2026-03-22",
-    "id": "17741972963922"
-  },
-  {
-    "title": "SOC.Workflows：面向安全分析师的结构化 AI 调查工作流",
-    "summary": "免费工具提供结构化 AI 工作流，辅助 SOC 分析师快速处理钓鱼、勒索软件等安全警报。",
-    "detail": "SOC.Workflows 专为安全运营中心（SOC）分析师设计，提供结构化的 AI 调查工作流。用户只需粘贴警报、日志或钓鱼邮件，即可遵循解码、行为分析、威胁映射等步骤，生成包含严重程度、MITRE ATT&CK 映射和建议行动的调查报告。支持 ChatGPT、Claude 等多种模型，无需注册。该工具将资深分析师的经验固化到流程中，降低了 AI 使用的随机性，提升了安全响应效率。是垂直领域 AI 应用的优秀案例。",
-    "tags": [
-      "New",
-      "Security",
-      "Workflow"
-    ],
-    "link": "https://socworkflows.com/",
-    "date": "2026-03-22",
-    "id": "17741972963923"
-  },
-  {
-    "title": "研究发现：ChatGPT 等 AI 工具让学习更轻松且更具说服力",
-    "summary": "最新研究表明 AI 工具显著降低学习门槛，但也提高了内容的说服力，需警惕误导。",
-    "detail": "TechXplore 报道的一项研究发现，像 ChatGPT 这样的 AI 工具不仅使学习过程变得更加容易，还生成的内容更具说服力。这一发现凸显了 AI 在教育领域双刃剑效应：一方面提升了效率，另一方面可能因内容的强说服力而传播错误信息。研究背景基于生成式 AI 在教育场景的广泛应用，提示教育者和学习者需培养批判性思维，以应对 AI 生成内容的潜在误导风险。对教育政策制定具有参考价值。",
-    "tags": [
-      "News",
-      "Education",
-      "Research"
-    ],
-    "link": "https://techxplore.com/news/2026-03-ai-tools-chatgpt-easier-persuasive.html",
-    "date": "2026-03-22",
-    "id": "17741972963924"
   }
 ]
