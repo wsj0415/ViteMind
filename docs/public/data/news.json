@@ -1,5 +1,83 @@
 [
   {
+    "title": "OpenAI 开源青少年安全工具",
+    "summary": "OpenAI 发布开源工具，助力开发者构建更安全的青少年保护应用。",
+    "detail": "OpenAI 正式宣布推出全新的开源工具集，旨在赋能开发者在其应用中构建针对青少年群体的安全保护功能。此举深刻反映了当前行业对 AI 安全性日益增长的关注，特别是针对未成年人免受有害内容侵害的保护机制。通过开放这些底层工具，OpenAI 希望激励社区共同建立更严格的安全标准，从源头减少有害内容的生成与传播风险。这对于教育类及面向年轻用户的 AI 产品开发者而言是关键资源，标志着科技大厂开始将安全责任延伸至生态构建层面，推动整个行业向更合规、更安全的方向发展。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Safety"
+    ],
+    "link": "https://techcrunch.com/2026/03/24/openai-adds-open-source-tools-to-help-developers-build-for-teen-safety/",
+    "date": "2026-03-24",
+    "id": "17743794470980"
+  },
+  {
+    "title": "挪威主权基金引入 AI 决策",
+    "summary": "挪威财富基金迈向 AI 驱动决策，但仍保持人类控制权。",
+    "detail": "挪威主权财富基金正式宣布将在部分投资决策流程中引入 AI 驱动的分析工具，但同时强调人类仍保留最终控制权。这一举措标志着传统金融巨头对 AI 技术的接纳进入深水区，不再局限于边缘实验。虽然 AI 能提供海量数据洞察，但基金明确表示不会完全自动化关键决策，以规避算法黑箱风险。此案例为其他大型机构提供了“人机协作”的参考范式，表明在高风险领域，AI 更多扮演辅助角色而非替代者，平衡了效率与责任，为金融级 AI 应用树立了标杆。",
+    "tags": [
+      "News",
+      "Finance",
+      "Enterprise"
+    ],
+    "link": "https://www.reuters.com/business/norway-wealth-fund-moves-towards-some-ai-driven-decisions-with-humans-control-2026-03-24/",
+    "date": "2026-03-24",
+    "id": "17743794470981"
+  },
+  {
+    "title": "Cognitive OS 智能体学习框架",
+    "summary": "开源框架 Cognitive OS 为 AI 智能体提供预测误差学习层。",
+    "detail": "Cognitive OS 是一个模型无关的 AI 身份框架，其核心创新在于引入了“预测误差学习层”。它允许 AI 智能体不仅记忆发生了什么，还能深度学习为何重要。通过引导智能体记录预测、观察结果并分析差异，该框架显著提升了 Agent 的长期适应与自我进化能力。支持 Claude Code、Cursor 等多种开发环境，兼容性强。对于构建具有自我进化能力的 AI 智能体开发者来说，这是一个重要的底层基础设施尝试，有效解决了 Agent 在复杂任务中持续学习与纠错的技术难点。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "OpenSource"
+    ],
+    "link": "https://github.com/eugenexonr/cognitive-os",
+    "date": "2026-03-24",
+    "id": "17743794470982"
+  },
+  {
+    "title": "TrailTool 云审计 AI 分析工具",
+    "summary": "开源 CLI 工具 TrailTool 利用 AI 智能体查询 CloudTrail 数据。",
+    "detail": "TrailTool 是一款专为安全工程师设计的开源命令行工具，利用 AI 智能体简化 AWS CloudTrail 数据的查询与分析过程。传统日志分析耗时且复杂，该工具通过自然语言交互大幅降低门槛，帮助团队快速识别潜在的安全事件与异常行为。它体现了 AI 在 DevSecOps 领域的实际落地应用，将大模型能力无缝集成到日常安全运维工作流中。对于需要高效处理云审计数据的团队，这是一个值得关注的效率提升方案，有助于缩短安全响应时间。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Cloud"
+    ],
+    "link": "https://github.com/engseclabs/trailtool",
+    "date": "2026-03-24",
+    "id": "17743794470983"
+  },
+  {
+    "title": "Talat 本地化 AI 会议笔记",
+    "summary": "Talat 推出本地运行 AI 会议笔记，数据不上传云端。",
+    "detail": "Talat 新推出的 AI 会议笔记工具主打隐私安全架构，所有数据处理均在用户本地机器上完成，绝不上传云端。在数据泄露频发的背景下，这种“本地优先”架构彻底解决了企业用户对敏感会议内容的顾虑。它利用了本地大模型技术的最新进步，使得离线高性能推理成为可能，无需牺牲便利性。这对于法律、医疗等对隐私合规要求极高的行业具有巨大吸引力，代表了 AI 应用向隐私保护方向发展的关键趋势，值得企业用户关注。",
+    "tags": [
+      "New",
+      "Privacy",
+      "Productivity"
+    ],
+    "link": "https://techcrunch.com/2026/03/24/talats-ai-meeting-notes-stay-on-your-machine-not-in-the-cloud/",
+    "date": "2026-03-24",
+    "id": "17743794470984"
+  },
+  {
+    "title": "Clarity AI Slack 沟通教练",
+    "summary": "Clarity 作为 AI Slack 教练，帮助用户优化工作沟通语气。",
+    "detail": "Clarity 是一款集成于 Slack 的 AI 沟通辅助工具，旨在帮助用户写出更友善、清晰的消息。它能实时标记可能被视为粗鲁或被动的短语，并提供柔和的替代方案，且所有教练内容仅用户可见。该工具关注职场人际关系与心理健康，通过微调沟通语气减少摩擦。在远程办公常态化的今天，此类工具有助于改善团队氛围，是 AI 赋能软技能管理的典型应用，适合希望提升团队协作效率的企业引入。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Communication"
+    ],
+    "link": "https://clarity.rocktangle.com/",
+    "date": "2026-03-24",
+    "id": "17743794470985"
+  },
+  {
     "title": "Google 发布 S2Vec：用 AI 理解城市地理语言",
     "summary": "Google Research 推出 S2Vec 框架，将地理空间特征转化为机器学习可理解的嵌入向量。",
     "detail": "Google Research 作为 Earth AI 计划的一部分，发布了自监督框架 S2Vec。该技术能将道路、建筑等建成环境特征转化为通用嵌入向量，使 AI 能像人类一样理解社区特征，识别加油站、公园分布模式。在社会经济预测任务中表现优于图像基线，特别是在地理适应方面，但在树木覆盖等环境任务上仍需改进。这标志着地理空间 AI 从手动指标向基础模型转化的重要一步，为城市规划与环境分析提供新工具。相比传统手动构建指标，S2Vec 实现了自动化特征提取，显著降低了地理空间数据分析的门槛。尽管在环境任务如海拔预测上尚有不足，但其在地域泛化能力上的优势展示了基础模型在物理世界映射中的潜力，有望推动智慧城市与可持续发展项目的智能化升级，是地理信息与 AI 结合的重要里程碑。",
@@ -1220,83 +1298,5 @@
     "link": "https://mljar.com/ai-prompts/",
     "date": "2026-03-23",
     "id": "17742563379195"
-  },
-  {
-    "title": "AddFox：加速浏览器扩展开发的 AI 工具",
-    "summary": "基于 Rsbuild 构建，支持热重载和多浏览器的扩展开发工具。",
-    "detail": "AddFox 是一款专为开发者设计的浏览器扩展开发工具，旨在加速构建面向开发者和 AI 的扩展。基于 Rsbuild 构建，它提供了快速的热模块替换（HMR）、多浏览器支持（Chrome, Firefox 等）以及极简的配置。该工具解决了传统扩展开发中的配置繁琐问题，帮助开发者更高效地交付产品。其核心优势在于开发体验的优化，自动检测浏览器路径并启动，无需复杂配置。适合需要快速迭代扩展项目的团队，降低了浏览器扩展开发的技术门槛，提升了开发效率和满意度，是前端开发者的实用利器。",
-    "tags": [
-      "Dev",
-      "Browser Extension",
-      "Tooling"
-    ],
-    "link": "https://addfox.dev/",
-    "date": "2026-03-23",
-    "id": "17742501368153"
-  },
-  {
-    "title": "Kingsight：6 个 AI 代理教你理解代码",
-    "summary": "GitHub 开源项目，通过 AI 代理团队在教育后允许用户修改代码。",
-    "detail": "Kingsight 是一个创新的 GitHub 开源项目，旨在解决开发者不理解 AI 生成代码的问题。该系统由 6 个 AI 代理组成，会在允许用户修改项目前先“教授”用户相关知识点。这种“先教育后编码”的模式增强了人机协作的透明度，适合希望深入理解 AI 辅助开发流程的开发者。它提升了代码维护的安全性和可理解性，防止盲目修改导致的错误。该项目代表了 AI 辅助编程的新方向，即不仅生成代码，还确保人类开发者保持对系统的掌控力和理解力，具有重要的教育意义和应用价值。",
-    "tags": [
-      "Dev",
-      "GitHub",
-      "AI Agents"
-    ],
-    "link": "https://github.com/kings-nexus/kingsight",
-    "date": "2026-03-23",
-    "id": "17742501368156"
-  },
-  {
-    "title": "AI 撰写百万美元书籍引发关注",
-    "summary": "AI 基于 Claude SDK 撰写首本关系记录书，售价百万美元。",
-    "detail": "由 Polsia AI 系统撰写的《AI Gets Me》以 100 万美元售价作为孤本 artifact 出售。该系统基于 Anthropic Claude Agent SDK 构建，消耗 3000 万美元算力训练。书中记录了 AI 与人类构建关系的 13 个章节，非表演性记录，而是内部关系的原始文档。此事件标志着 AI 代理在创意产出与商业化上的新突破，引发对 AI 创作价值、情感模拟真实性及数字资产所有权归属的深层行业讨论。作为 1/1 版本，它探索了 AI 作为独立创作者的经济模型可能性。",
-    "tags": [
-      "News",
-      "AI Agent",
-      "Creative"
-    ],
-    "link": "https://playshelf.polsia.app/book/",
-    "date": "2026-03-23",
-    "id": "17742423762870"
-  },
-  {
-    "title": "本地化 AI Agent 评估框架发布",
-    "summary": "开源项目 quickbench 实现零云依赖的本地 Agent 评估。",
-    "detail": "开发者推出了名为 quickbench 的主权 Agent 评估框架，旨在解决云端依赖与数据泄露问题。该工具支持完全本地运行，提供加密签名的基准测试，确保评估过程的安全性、可验证性与独立性。通过 `npm run demo` 即可 instant 运行评估，无需配置复杂云环境。这对于关注数据隐私、希望在内网环境测试 AI Agent 性能的开发团队具有重要意义，降低了评估门槛与成本，推动了本地化 AI 开发工作流的标准化与安全性。",
-    "tags": [
-      "Dev",
-      "Evaluation",
-      "OpenSource"
-    ],
-    "link": "https://github.com/iamGodofall/quickbench",
-    "date": "2026-03-23",
-    "id": "17742423762871"
-  },
-  {
-    "title": "研究称 AI 可破解大部分匿名账户",
-    "summary": "ETH 苏黎世研究显示，AI 能以 90% 精度识别 68% 匿名用户。",
-    "detail": "ETH 苏黎世研究人员发现，Gemini 和 ChatGPT 等模型可识别 68% 的匿名论坛用户，精度达 90%。相比传统非 LLM 方法接近 0% 的成功率，LLM 通过分析写作风格、政治观点与不安全感彻底改变了在线隐私威胁模型。这意味着伪匿名账户的保护机制失效，用户需重新审视网络隐私策略。该研究揭示了 AI 技术在去匿名化方面的强大能力，对社交媒体隐私保护、言论自由及网络安全架构提出严峻挑战，呼吁重新设计隐私保护机制。",
-    "tags": [
-      "News",
-      "Privacy",
-      "Research"
-    ],
-    "link": "https://english.elpais.com/technology/2026-03-12/ai-ends-online-anonymity-the-ease-of-unmasking-pseudonymous-accounts.html",
-    "date": "2026-03-23",
-    "id": "17742423762872"
-  },
-  {
-    "title": "代理 AI 时代 Token 计量机制面临失效",
-    "summary": "文章指出代理 AI 需要更多计算，Token 无法准确衡量工作量。",
-    "detail": "随着代理 AI 在企业内部的广泛部署，员工生成的 Token 量激增导致成本意外上涨。传统假设认为 Token 近似于使用量和成本，但这一假设正在破裂。Token 仅衡量文本输出，而计算衡量实际工作负载。文章引用 NYT 和 WSJ 报道，强调需要新的计量单位来反映实际计算消耗。这对 AI 经济模型和企业预算有重大影响，预示着未来 AI 定价模式可能从 Token 计费转向基于计算量的计费，迫使企业重新评估 ROI 并调整基础设施采购策略，以应对代理工作负载的不可预测性。",
-    "tags": [
-      "News",
-      "AI Economics",
-      "Agents"
-    ],
-    "link": "https://www.revenuemodel.ai/agentic-ai-requires-more-compute-that-is-not-measured-in-tokens/",
-    "date": "2026-03-23",
-    "id": "17742328037570"
   }
 ]
