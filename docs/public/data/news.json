@@ -1,5 +1,70 @@
 [
   {
+    "title": "IBM 推出 AI 编程伙伴 Bob，支持代理模式与实时代码审查",
+    "summary": "IBM 发布全新 AI 编码助手 Bob，集成代理模式与自然语言编程，旨在提升开发效率。",
+    "detail": "IBM 正式推出\"IBM Bob\"，定位为 AI 驱动的开发合作伙伴。核心功能包括“代理模式”（Agentic Modes），允许用户定义 AI 角色以调用特定工具；“自然语言编程”（Literate Coding），无需切换上下文即可生成代码；以及实时代码审查，能在编写过程中识别复杂度问题。此举标志着传统科技巨头在 AI 编码领域的进一步布局，试图通过深度集成工作流来区别于通用聊天机器人，为企业级开发提供更可控的 AI 辅助方案。",
+    "tags": [
+      "News",
+      "IBM",
+      "Coding Agent"
+    ],
+    "link": "https://bob.ibm.com",
+    "date": "2026-03-25",
+    "id": "17744253031100"
+  },
+  {
+    "title": "开源项目 Voxyflow：连接看板与执行的个人 AI 代理",
+    "summary": "一款本地优先的开源 AI 工具，可直接从 Kanban 卡片读取上下文并执行任务。",
+    "detail": "Voxyflow 是一个处于 Alpha 阶段的开源项目，旨在解决项目管理工具（如 Linear）与代码执行工具（如 Cursor）之间的割裂。它作为本地运行的 PWA 应用，支持 Ollama 或 OpenAI 兼容 API。其核心杀手锏是\"Execute Card\"功能，AI 能读取卡片的完整上下文（描述、清单、文件）并直接执行工作，而非仅提供建议。适合追求隐私和本地部署的开发者，实现了看板与执行引擎的无缝融合，减少了上下文切换成本。",
+    "tags": [
+      "New",
+      "Open Source",
+      "Agent"
+    ],
+    "link": "https://github.com/jcviau81/voxyflow",
+    "date": "2026-03-25",
+    "id": "17744253031101"
+  },
+  {
+    "title": "AMD 优化版 Rocky Linux 发布，专注 AI 与高性能计算负载",
+    "summary": "Phoronix 报道 AMD 推出针对 AI 和 HPC 工作负载优化的 Rocky Linux 发行版。",
+    "detail": "据 Phoronix 报道，AMD 正在推动一个经过优化的 Rocky Linux 发行版，专门针对 AI 和高性能计算（HPC）工作负载进行调优。这一举措表明基础设施层正在为 AI 算力需求做更深度的适配。对于需要在本地或私有云部署 AI 模型的团队来说，这可能提供更稳定的底层环境支持，减少配置复杂性，是 AI 基础设施生态的重要补充，有助于降低企业部署 AI 算力的门槛，提升整体计算效率。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "AMD"
+    ],
+    "link": "https://www.phoronix.com/news/AMD-Rocky-Linux-Optimized",
+    "date": "2026-03-25",
+    "id": "17744253031102"
+  },
+  {
+    "title": "Freddy：驻驻 Slack 的企业 AI 导师，月薪 1000 美元",
+    "summary": "BrainGem 推出 Freddy，作为 Slack 中的 AI 专家，为团队提供每日培训和实时问答。",
+    "detail": "BrainGem 推出了名为 Freddy 的 AI 教育产品，直接集成于 Slack 工作区。定价为 1000 美元/月，支持无限用户。Freddy 不仅回答技术问题，还提供每日 AI 课程、工具推荐及策略建议。它定位为“未来部署工程师”，旨在降低企业内部的 AI 学习门槛，通过即时通讯场景实现碎片化学习，适合希望快速提升团队 AI 素养的企业，无需额外课程或门户即可上手，实现知识复合增长。",
+    "tags": [
+      "New",
+      "Enterprise",
+      "Education"
+    ],
+    "link": "https://braingem.ai",
+    "date": "2026-03-25",
+    "id": "17744253031103"
+  },
+  {
+    "title": "技术专家分享：如何进行高风险 AI 产品演示准备",
+    "summary": "Kate Catlin 撰文分享应对 AI 非确定性特性的演示准备策略，强调实操与舒适度。",
+    "detail": "资深技术专家 Kate Catlin 在 Substack 分享了准备高风险 AI 演示的经验。鉴于 AI 的非确定性（可能随时出错），她建议演示者不仅要排练，更要“玩透”产品，尝试破坏它以理解边界。目标不是死记硬背，而是达到舒适聊天的状态，以便在演示出问题时能从容应对。这对需要进行 AI 产品路演的开发者和产品经理具有极高的参考价值，强调了应对不确定性的心理准备和实操重要性。",
+    "tags": [
+      "Dev",
+      "Best Practices",
+      "Product"
+    ],
+    "link": "https://katecatlin.substack.com/p/how-i-prepare-for-high-stakes-technical",
+    "date": "2026-03-25",
+    "id": "17744253031104"
+  },
+  {
     "title": "AI 自动化正在悄然削弱白领技能",
     "summary": "研究指出 AI 自动化可能导致白领阶层技能退化，引发行业对人力资本的关注。",
     "detail": "**背景**：随着生成式 AI 迅速渗透办公场景，员工依赖自动化工具的现象日益增多。**核心观点**：文章深入分析指出，过度依赖 AI 辅助可能导致人类独立思考能力下降，引发“技能退化”风险，而非单纯的工作替代。**影响**：企业需重新评估员工培训策略，平衡效率提升与核心技能保留。这对人力资源管理及 AI 伦理领域提出新挑战，提示管理者关注长期技能侵蚀风险，确保人机协作中的主体性。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.elliotcsmith.com/product-teams-vs-feature-teams-in-an-ai-world/",
     "date": "2026-03-23",
     "id": "17743019857843"
-  },
-  {
-    "title": "黑客工具 Flipper Zero 获 AI 升级",
-    "summary": "流行的硬件黑客工具 Flipper Zero 集成 AI 功能。",
-    "detail": "备受关注的硬件工具 Flipper Zero 宣布集成 AI 能力。这款常用于安全测试的设备通过 AI 升级增强了自动化处理能力。虽然其法律地位常受争议，但此次升级反映了边缘硬件与 AI 模型结合的趋势。对于安全研究人员而言，这意味着更强大的渗透测试工具；对于大众而言，则引发了关于 AI 赋能硬件安全的担忧。这可能改变渗透测试与硬件交互的安全格局，推动边缘 AI 在安全领域的广泛应用。随着模型小型化，更多硬件将具备本地智能，既提升了便利性，也带来了新的攻击向量，监管机构需密切关注此类双用途技术的扩散与合规使用边界。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Security"
-    ],
-    "link": "https://gizmodo.com/flipper-zero-everyones-favorite-legally-dubious-hacker-tool-gets-an-ai-upgrade-2000736967",
-    "date": "2026-03-23",
-    "id": "17743019857844"
-  },
-  {
-    "title": "Bezos 主张 AI 秒批建筑许可，数据揭示审批不确定性才是痛点",
-    "summary": "贝佐斯呼吁 AI 秒批建筑许可，但数据分析显示审批时间的不可预测性才是破坏项目经济的关键。",
-    "detail": "杰夫·贝佐斯近期提出迈阿密应利用 AI 在 10 秒内审批建筑许可，引发广泛关注。然而，Prevesta 分析了美国七大城市 180 万份许可数据后发现，真正破坏项目经济的并非中位审批时间，而是时间的极大波动性（不确定性）。例如在奥斯汀，同类许可的第 90 百分位耗时是中位数的 7.3 倍。这表明 AI 在城市治理中的应用不应仅追求速度，更需解决流程标准化和预测一致性问题，为政府 AI 化提供了冷静的数据视角。",
-    "tags": [
-      "News",
-      "AI Governance",
-      "Data Analysis"
-    ],
-    "link": "https://prevesta.io/blog/bezos-ai-building-permits",
-    "date": "2026-03-23",
-    "id": "17742983888220"
-  },
-  {
-    "title": "CrowdMind：受 Karpathy 启发，用 AI 角色验证产品创意",
-    "summary": "开源工具 CrowdMind 允许开发者在构建前利用 AI 角色和社区数据验证产品想法，优化研发循环。",
-    "detail": "CrowdMind 是一款受 Andrej Karpathy 'Autoresearch' 理念启发的开源工具，旨在帮助开发者在编码前验证产品创意。它通过抓取 Reddit、Hacker News 等社区的痛点数据，生成多样化的 AI 人物角色对创意进行评分和反馈，并自动优化直到达到目标分数。该项目支持 Python 3.10+，采用 MIT 许可，为独立开发者和初创团队提供了一套低成本的'AI 市场调研'解决方案，有效降低盲目开发的风险。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Product Validation"
-    ],
-    "link": "https://github.com/yasintoy/crowdmind",
-    "date": "2026-03-23",
-    "id": "17742983888221"
-  },
-  {
-    "title": "Flarite 上线：用自然语言统一管理 Cloudflare、Stripe 等 SaaS 栈",
-    "summary": "新工具 Flarite 允许开发者通过单一 AI 聊天界面，用自然语言控制多个主流 SaaS 平台的基础设施。",
-    "detail": "Flarite 推出了一款 AI 命令引擎，旨在简化 SaaS 基础设施管理。用户只需连接加密的 API 令牌，即可通过自然语言提示词统一管理 Cloudflare（DNS、WAF）、Stripe（支付）、Supabase（数据库）等多个平台。该工具提供免费试用及分级订阅计划，最高支持企业级本地代理部署。其核心价值在于降低多平台运维的认知负荷，让开发者能专注于业务逻辑而非繁琐的 API 调用，是 AI Agent 在 DevOps 领域的典型应用。",
-    "tags": [
-      "New",
-      "DevOps",
-      "SaaS"
-    ],
-    "link": "https://flarite.com/",
-    "date": "2026-03-23",
-    "id": "17742983888222"
-  },
-  {
-    "title": "AI 可能导致科学“超正常化”，警惕知识地图的过度细节陷阱",
-    "summary": "Asimov Press 撰文探讨 AI 在科学领域的风险，指出过度依赖数据映射可能重蹈“地图即疆域”的覆辙。",
-    "detail": "Asimov Press 最新文章引用博尔赫斯的寓言，警示 AI 科学可能陷入“超正常化”风险。虽然 LLM 和 AlphaFold 等系统能快速扫描海量知识，但过度追求细节映射可能导致实用性的丧失。文章指出，科学进步不仅仅需要更大规模的 AI 系统，更需要警惕知识过载带来的认知陷阱。这对当前盲目追求大模型规模和技术万能论的科学界提出了深刻反思，强调在 AI 辅助科研中保持批判性思维的重要性。",
-    "tags": [
-      "News",
-      "AI Science",
-      "Ethics"
-    ],
-    "link": "https://www.asimov.press/p/ai-science",
-    "date": "2026-03-23",
-    "id": "17742983888223"
   }
 ]
