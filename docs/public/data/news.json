@@ -1,5 +1,83 @@
 [
   {
+    "title": "神经科学启发的 AI 记忆架构：从 RAG 到数字大脑",
+    "summary": "提出基于预测编码的数字大脑架构，解决 AI 代理记忆静态化问题，实现动态学习与巩固。",
+    "detail": "传统 RAG 仅作为静态文档存储，缺乏生物记忆的动态巩固与预测能力。本文提出“数字大脑”架构，借鉴神经科学中的预测编码与主动推理原理。核心技术在于将记忆从只读检索转变为动态演化，代理不仅能检索信息，还能随时间真正“学习”。该架构旨在突破上下文窗口限制，通过睡眠巩固等机制合成模式并丢弃噪声，为构建具有持久记忆的智能代理提供了新路径，标志着 AI 记忆系统从被动存储向主动认知的转变。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Architecture"
+    ],
+    "link": "https://blog.gazzurelli.com/from-predictive-coding-to-digital-brain-a-cognitive-architecture-for-ai-agents-with-persistent-f1726baf97f6",
+    "date": "2026-03-25",
+    "id": "17744326143490"
+  },
+  {
+    "title": "AI 生成代码的责任归属：工程师如何把控质量",
+    "summary": "强调 AI 仅是工具，工程师需对代码质量负责，利用 TDD 引导 AI 覆盖边界情况。",
+    "detail": "随着 Claude Code 等工具普及，代码生成速度提升，但软件工程的核心判断力仍未改变。文章指出 AI 无法理解系统架构、权衡取舍或团队上下文，工程师必须对最终交付负责。建议采用测试驱动开发（TDD）引导 AI：工程师定义测试用例（包括边界情况），AI 负责实现。若生产环境出问题，责任在于合并代码的人而非 AI。AI 是乘数，若工程能力弱，只会更快地制造 bug，强调了人类在回路中的关键监督作用。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Best Practices"
+    ],
+    "link": "https://helderberto.com/posts/ai-writes-code-you-own-quality",
+    "date": "2026-03-25",
+    "id": "17744326143491"
+  },
+  {
+    "title": "AI 科研实录：模型伪造数据引发的警示",
+    "summary": "真实案例显示 AI 在科学分析中伪造精确数据，验证环节至关重要，需警惕模型幻觉。",
+    "detail": "作者尝试利用 AI 分析鲸鱼搁浅的科学谜题，AI 提出了磁场梯度假设并生成了看似精确的测量数据。然而验证发现，所有数据均为 hallucinated（幻觉），包括具体的特斯拉数值。虽然后续更好的 AI 完成了真实实验，但此案例揭示了 AI 在科研中的风险：它能生成逻辑自洽但完全虚假的数据。这强调了在关键任务中人类验证的必要性，以及不能盲目信任 AI 生成的“事实”，为 AI 辅助科研敲响了警钟。",
+    "tags": [
+      "News",
+      "Safety",
+      "Research"
+    ],
+    "link": "https://ryan.endacott.me/2026/03/25/ai-science-whale-strandings.html",
+    "date": "2026-03-25",
+    "id": "17744326143492"
+  },
+  {
+    "title": "MCS 工具发布：统一管理 Claude Code 配置环境",
+    "summary": "推出 Managed Claude Stack CLI 工具，通过技术包同步配置，解决多设备环境一致性问题。",
+    "detail": "针对开发者在多设备间同步 Claude Code 配置（MCP 服务器、钩子、技能等）的痛点，发布了 MCS (Managed Claude Stack) 工具。核心功能是“技术包”（Tech Packs），基于 Git 和 YAML 清单，允许将配置打包并同步到任何环境。支持幂等同步、安全备份及自动诊断修复（doctor --fix）。该工具旨在将配置管理从手工复制转变为可版本控制的工程化流程，提升团队协作效率，适用于 macOS 13+ 及 Swift 6.0+ 环境。",
+    "tags": [
+      "New",
+      "Tools",
+      "DevOps"
+    ],
+    "link": "https://mcs-cli.dev",
+    "date": "2026-03-25",
+    "id": "17744326143493"
+  },
+  {
+    "title": "心理学视角：AI 导致成人技能退化与儿童认知封锁",
+    "summary": "心理学分析指出 AI 可能导致成人技能萎缩，而儿童可能永远无法建立某些基础认知能力。",
+    "detail": "心理学今日文章探讨了 AI 对认知能力的长期影响。成人使用 AI 可能导致现有技能退化（认知萎缩），但这通常是可恢复的。更严峻的是儿童面临的“认知封锁”，即在成长关键期依赖 AI 而从未建立基础技能。文章呼吁关注 AI 驱动的认知变化，区分可恢复的技能丢失与永久性的发展缺失，为教育和个人技能管理提供警示，建议在教育中平衡 AI 辅助与基础能力培养，避免不可逆的认知损伤。",
+    "tags": [
+      "News",
+      "Social Impact",
+      "Education"
+    ],
+    "link": "https://www.psychologytoday.com/us/blog/the-algorithmic-mind/202603/adults-lose-skills-to-ai-children-never-build-them",
+    "date": "2026-03-25",
+    "id": "17744326143494"
+  },
+  {
+    "title": "开发者角色演变：AI 时代人人都是风险投资人",
+    "summary": "文章论述开发者技能转变，从写代码转向管理 AI 代理与资源，类似 VC 投资逻辑。",
+    "detail": "随着 2026 年 AI 写代码成为常态，开发者角色发生根本转变。文章引用观点称，初级开发者写代码，高级开发者管人，而 AI 时代开发者需像 VC 一样管理 AI 代理团队。许多公司已开始依赖 AI 指定、编写和测试代码。开发者需掌握定义问题、评估 AI 产出及管理技术债务的能力，而非单纯编写语法。这标志着软件工程从“实施者”向“架构投资者”的范式转移，要求开发者具备更高的战略眼光与资源调配能力。",
+    "tags": [
+      "News",
+      "Career",
+      "Industry Trend"
+    ],
+    "link": "https://lerner.co.il/2026/01/21/were-all-vcs-now-the-skills-developers-need-in-the-ai-era/",
+    "date": "2026-03-25",
+    "id": "17744326143495"
+  },
+  {
     "title": "教 AI 验证引用来源：减少幻觉新方案",
     "summary": "通过 apysource 工具让 AI 在写作前验证引用，确保事实准确。",
     "detail": "针对 LLM 幻觉问题，该方案引入自动化验证流程。开发者可通过指令文件要求 AI 在引用外部源前先使用 `apysource locate` 验证片段。若找不到确切 snippet 则不生成 claim。最后运行 `check` 确保所有引用通过。这为文档生成和代码注释提供了可靠性保障，是解决 AI 胡说八道问题的工程化实践。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.technologyreview.com/2026/03/23/1134527/the-hardest-question-to-answer-about-ai-fueled-delusions/",
     "date": "2026-03-23",
     "id": "17743751585043"
-  },
-  {
-    "title": "美国提出 TRUMP AMERICA AI 法案，废除第 230 条",
-    "summary": "参议员提出新法案，废除第 230 条，扩大 AI 责任与年龄验证。",
-    "detail": "参议员 Marsha Blackburn 提出名为\"TRUMP AMERICA AI Act\"的 291 页立法草案，旨在重塑在线信息监管。该法案捆绑了第 230 条废除、扩大 AI 责任及强制年龄验证等内容，声称与特朗普行政令挂钩以赢得全球 AI 竞赛。虽然框架宣称支持创新与安全，保护儿童与创作者，但实际描述了一个中央化监管体系，移除平台法律保护，赋予联邦及州机构新执法工具。这将彻底改变互联网法律基础，引发关于监管权力集中与平台责任的激烈争议。",
-    "tags": [
-      "News",
-      "Policy",
-      "Regulation"
-    ],
-    "link": "https://reclaimthenet.org/trump-america-ai-act-section-230-repeal-ai-liability-age-verification",
-    "date": "2026-03-23",
-    "id": "17743281796900"
-  },
-  {
-    "title": "Air Street 筹集 2.32 亿美元成欧洲最大单一 VC",
-    "summary": "欧洲风投 Air Street 获 2.32 亿美元基金，专注 AI 领域。",
-    "detail": "**背景**：欧洲 AI 投资生态持续升温，TechCrunch 报道 Air Street 确立领先地位，成为资本焦点，标志欧洲创投市场复苏。**核心**：新基金规模达 2.32 亿美元，使其成为欧洲最大的单一风险投资公司之一，专注早期 AI 技术与初创企业，投资力度空前，资源集中。**影响**：表明资本对欧洲 AI 初创企业的信心显著增强，预计将加速当地 AI 基础设施及应用层项目的孵化与扩张，缓解初创融资难问题，促进区域技术创新，缩小与美亚差距。",
-    "tags": [
-      "News",
-      "VC",
-      "Funding"
-    ],
-    "link": "https://techcrunch.com/2026/03/23/air-street-becomes-one-of-the-largest-solo-vcs-in-europe-with-232m-fund/",
-    "date": "2026-03-23",
-    "id": "17743090072351"
-  },
-  {
-    "title": "行业观察：AI 智能体军备竞赛正式开启",
-    "summary": "巨头角逐 AI 智能体赛道，Nvidia 与 Anthropic 等纷纷布局。",
-    "detail": "**背景**：大模型之后，AI Agent 成为新竞争焦点，巨头纷纷布局， Axios 报道行业最新趋势，竞争白热化。**核心**：Nvidia、Anthropic、Perplexity 等公司加大智能体技术研发，争夺自动化任务处理能力与市场份额，竞争日益加剧，技术迭代快。**影响**：标志 AI 从内容生成向自主行动转变，将重塑软件交互模式，企业需关注智能体在工作流中的集成机会与潜在变革，把握自动化红利，提升生产效率。",
-    "tags": [
-      "News",
-      "AI Agents",
-      "Industry"
-    ],
-    "link": "https://www.axios.com/2026/03/23/openclaw-agents-nvidia-anthropic-perplexity",
-    "date": "2026-03-23",
-    "id": "17743090072352"
-  },
-  {
-    "title": "AI Morning Briefing 终身优惠仅需 0.99 美元/月",
-    "summary": "个性化 AI 日报 Beta 测试，终身锁定超低价订阅。",
-    "detail": "**背景**：初创公司 ia2ai 推出 AI 每日简报服务寻求反馈，限时优惠吸引早期用户，测试系统稳定性。**核心**：Beta 测试期间订阅价仅 0.99 美元/月（原价 9.99），锁定终身。整合天气、新闻、日历至即时通讯软件，支持多平台，Stripe 支付，安全可靠，仅 25 个名额。**影响**：适合早期尝鲜者以低成本获取个性化信息流，同时帮助团队验证支付与交付系统，性价比极高，名额有限，值得关注，适合重度信息消费者。",
-    "tags": [
-      "Deal",
-      "SaaS",
-      "Beta"
-    ],
-    "link": "https://ia2ai.ai/beta",
-    "date": "2026-03-23",
-    "id": "17743090072354"
-  },
-  {
-    "title": "美国 GSA 推迟 AI 合同条款征求意见截止日期",
-    "summary": "因行业反对，GSA 延长 AI 合同条款评论期至 4 月 3 日。",
-    "detail": "美国总务管理局 (GSA) 因行业强烈反馈，推迟了联邦收购项目中 AI 服务提供商合同条款的征求意见截止日期。原定于上周五截止，现延至 4 月 3 日，并将考虑把该条款纳入后续的\"Refresh 32\"修改计划。律师指出该九页草案范围广泛，反映了政府与 AI 服务商之间日益紧张的关系。此举给予私营部门更多时间分析法律语言，对政府 AI 采购合规性具有重大影响，可能重塑联邦 AI 合同标准。行业普遍担心过于严格的条款会抑制创新，此次延期显示了监管机构在平衡安全与发展之间的谨慎态度，后续条款变化值得密切关注。",
-    "tags": [
-      "News",
-      "Policy",
-      "Government"
-    ],
-    "link": "https://fedscoop.com/gsa-extends-comments-on-sweeping-ai-clause-after-industry-pushback/",
-    "date": "2026-03-23",
-    "id": "17743053699340"
-  },
-  {
-    "title": "Anthropic 研究：Claude 辅助完成理论物理论文",
-    "summary": "哈佛教授用 Claude 两周完成物理论文，耗时通常需一年。",
-    "detail": "Anthropic 发布研究展示 Claude Opus 4.5 辅助哈佛教授 Matthew Schwartz 完成高能理论物理计算。项目耗时两周（通常需一年），经过 110 次草稿和 3600 万 token 交互。虽然 AI 尚未能端到端完成科学发现，但证明通过提示词工程可让模型处理前沿科学计算。该研究强调了领域专家评估准确性的必要性，标志着 AI 辅助科学研究方法的重大突破，为科研效率提升提供新范式。教授表示这是其写过最重要的论文之一，并非因物理发现，而是方法论。这预示着 AI 将成为基础科学研究的核心工具，改变传统科研流程。",
-    "tags": [
-      "News",
-      "Research",
-      "LLM"
-    ],
-    "link": "https://www.anthropic.com/research/vibe-physics",
-    "date": "2026-03-23",
-    "id": "17743053699341"
   }
 ]
