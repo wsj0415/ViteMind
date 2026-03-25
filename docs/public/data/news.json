@@ -1,5 +1,70 @@
 [
   {
+    "title": "教 AI 验证引用来源：减少幻觉新方案",
+    "summary": "通过 apysource 工具让 AI 在写作前验证引用，确保事实准确。",
+    "detail": "针对 LLM 幻觉问题，该方案引入自动化验证流程。开发者可通过指令文件要求 AI 在引用外部源前先使用 `apysource locate` 验证片段。若找不到确切 snippet 则不生成 claim。最后运行 `check` 确保所有引用通过。这为文档生成和代码注释提供了可靠性保障，是解决 AI 胡说八道问题的工程化实践。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Engineering"
+    ],
+    "link": "https://alganet.github.io/blog/2026-03-25-05-Teaching-AI-to-Verify-Sources.html",
+    "date": "2026-03-25",
+    "id": "17744289868040"
+  },
+  {
+    "title": "安全审计：识别 K8s PR 中的 AI 生成代码",
+    "summary": "使用零上传 AST 防火墙审计 914 个 K8s PR，检测 AI 生成的低质代码。",
+    "detail": "针对 AI 生成代码（AI slop）涌入开源项目的风险，Janitor Security 发布了针对 kubernetes/kubernetes 的法证结构审计。利用 v7.9.4 版本的 Janitor 工具，通过零上传 AST 防火墙技术，识别并标记潜在的 AI 生成代码片段。包含 CBOM、VEX 和 TEI 精算分类账。这对维护大型开源项目的代码质量和安全性具有重要意义，防止低质 AI 代码污染核心基础设施。",
+    "tags": [
+      "Dev",
+      "Security",
+      "OpenSource"
+    ],
+    "link": "https://github.com/janitor-security/kubernetes-audit-2026",
+    "date": "2026-03-25",
+    "id": "17744289868041"
+  },
+  {
+    "title": "Litmus：AI 代理的飞行记录器与重放工具",
+    "summary": "记录并确定性重放 AI 代理执行过程，支持故障注入与可靠性评分。",
+    "detail": "Litmus 是一款专为 LLM 代理设计的飞行记录器。它能够记录代理的执行轨迹，并支持确定性重放，便于调试和测试。功能包括故障注入（Fault Injection）、可靠性评分（Reliability Scoring）和 CI gating。在 AI 代理日益复杂的背景下，该工具帮助开发者确保代理行为的稳定性和可预测性，是构建生产级 AI 应用的关键测试基础设施。",
+    "tags": [
+      "New",
+      "Agent",
+      "Testing"
+    ],
+    "link": "https://github.com/rylinjames/litmus",
+    "date": "2026-03-25",
+    "id": "17744289868042"
+  },
+  {
+    "title": "Clampd：防止 AI 代理误删数据库的安全防火墙",
+    "summary": "代理工具调用防火墙，可在 25ms 内阻断危险操作如 DROP TABLE。",
+    "detail": "针对 AI 代理拥有过高权限的风险，Clampd 提供了工具调用防火墙。它位于代理和工具之间，检查每个数据库查询、API 调用和文件访问。若检测到危险操作（如删除表），可在 25ms 内阻断。支持自托管，数据不出网。解决了提示注入、权限升级和数据泄露风险，为 AI 代理赋予工具使用权提供了必要的安全护栏。",
+    "tags": [
+      "New",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://clampd.dev",
+    "date": "2026-03-25",
+    "id": "17744289868043"
+  },
+  {
+    "title": "行业观察：AI 自主决策的法律责任归属难题",
+    "summary": "三星宣布 2030 年工厂全 AI 化，引发自主决策失误责任归属讨论。",
+    "detail": "三星在 MWC 2026 宣布计划 2030 年实现全球工厂 AI 自主化。AI 代理将独立执行决策无需人类审批。这引发了法律伦理问题：当 AI 自主决策导致损失（如错误调度库存）时，谁负责？文章探讨了制造商需要 AI autonomy 提速但无法回答责任归属的矛盾。新加坡等国已发布代理 AI 治理框架，行业急需明确法律边界。",
+    "tags": [
+      "News",
+      "Legal",
+      "Enterprise"
+    ],
+    "link": "https://www.aifactoryinsider.com/p/who-is-liable-when-the-ai-decides",
+    "date": "2026-03-25",
+    "id": "17744289868044"
+  },
+  {
     "title": "IBM 推出 AI 编程伙伴 Bob，支持代理模式与实时代码审查",
     "summary": "IBM 发布全新 AI 编码助手 Bob，集成代理模式与自然语言编程，旨在提升开发效率。",
     "detail": "IBM 正式推出\"IBM Bob\"，定位为 AI 驱动的开发合作伙伴。核心功能包括“代理模式”（Agentic Modes），允许用户定义 AI 角色以调用特定工具；“自然语言编程”（Literate Coding），无需切换上下文即可生成代码；以及实时代码审查，能在编写过程中识别复杂度问题。此举标志着传统科技巨头在 AI 编码领域的进一步布局，试图通过深度集成工作流来区别于通用聊天机器人，为企业级开发提供更可控的 AI 辅助方案。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.anthropic.com/research/vibe-physics",
     "date": "2026-03-23",
     "id": "17743053699341"
-  },
-  {
-    "title": "LangChain 亮相 Google Cloud Next 2026",
-    "summary": "LangChain 将在谷歌云大会展示 Agent 开发新工具。",
-    "detail": "LangChain 确认参加 2026 年 Google Cloud Next 大会，展位号 5006。将展示 LangSmith Fleet（自然语言构建 Agent）、LangSmith Studio（可视化开发）及可观测性工具。CEO Harrison Chase 将出席并与开发团队会面。此举旨在解决 Agent 生产部署、评估及多 Agent 系统扩展挑战，显示 LangChain 生态与谷歌云基础设施的深度融合，为开发者提供生产级反馈，推动 Agent 落地。团队将现场运行演示并提供技术对话，重点解决规模化多 Agent 系统的难题，帮助开发者跨越从原型到生产的关键鸿沟，增强企业级应用能力。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Tools"
-    ],
-    "link": "https://blog.langchain.com/join-langchain-at-google-cloud-next-2026/",
-    "date": "2026-03-23",
-    "id": "17743053699342"
-  },
-  {
-    "title": "Anthropic 发布 AI 站点可靠性工程报告",
-    "summary": "Anthropic 分享如何使用 Claude 修复 Claude，提升 SRE 效率。",
-    "detail": "Anthropic 最新报告揭示了利用 AI 进行站点可靠性工程（SRE）的创新实践。通过让 Claude 模型参与自身系统的维护与修复流程，展示了 AI 在运维领域的自我迭代与闭环能力。这对提升 AI 基础设施的稳定性及实现自动化运维具有行业标杆意义，预示了未来 AI 自主运维时代的到来。随着模型复杂度增加，传统运维难以应对，AI 辅助 SRE 将成为标配，为大型模型服务的高可用性提供了新思路，同时也引发了关于 AI 自主权限的安全讨论。行业观察家认为，这是 AI 从工具向代理转变的关键一步，运维成本将显著降低，但需警惕模型自我修改带来的不可控风险，建立人类监督机制仍是核心。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "SRE"
-    ],
-    "link": "https://www.theregister.com/2026/03/19/anthropic_claude_sre/",
-    "date": "2026-03-23",
-    "id": "17743019857840"
-  },
-  {
-    "title": "自主 AI 代理的加密护照系统上线",
-    "summary": "BlindOracle 推出基于 Schnorr 和 ZK 的代理身份验证系统。",
-    "detail": "BlindOracle 展示了为自主 AI 代理设计的加密护照系统，采用 Schnorr 签名和零知识证明技术。系统已记录 672 个证明，涵盖计算、服务等多种类型。这解决了 AI 代理身份验证与信任问题，为代理经济的安全交互提供了底层基础设施。在 Agent 自主行动日益频繁的背景下，此类加密身份验证是防止恶意代理滥用的关键，标志着 AI 代理网络正迈向可验证、可审计的成熟阶段。该技术允许独立验证代理行为，无需依赖中心化权威，极大增强了分布式 AI 系统的可信度。对于构建大规模多代理协作系统而言，这种去信任化的身份层是必不可少的组件，具有极高的技术参考价值和商业应用潜力。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agents"
-    ],
-    "link": "https://craigmbrown.com/blindoracle/status.html",
-    "date": "2026-03-23",
-    "id": "17743019857841"
-  },
-  {
-    "title": "基于金融数学的 AI 代理熔断机制",
-    "summary": "TrustLog 利用债券凸性数学构建 rogue AI 代理终止开关。",
-    "detail": "TrustLog Dynamics 提出将定量金融风险管理框架应用于 AI 治理。通过凸性检测和方差分析，在代理预算耗尽前终止异常进程。针对 2025 年自主 AI 支出激增但缺乏财务治理的现状，该方案提供了关键的“熔断层”。传统软件缺乏财务止损机制，而此方案借鉴金融市场电路断路器，防止自动化失控造成的经济损失。这是 AI 治理领域的重要创新，为企业部署自主代理提供了必要的风险控制工具，确保自动化在安全边界内运行。随着 AI 代理获得支付权限，此类财务治理工具将成为企业合规的刚需，避免因代码错误或逻辑死循环导致巨额账单，填补了当前 AI 运维监控的空白。",
-    "tags": [
-      "Dev",
-      "Safety",
-      "Finance"
-    ],
-    "link": "https://www.trustlogdynamics.com/",
-    "date": "2026-03-23",
-    "id": "17743019857842"
-  },
-  {
-    "title": "AI 时代的产品团队与功能团队之争",
-    "summary": "探讨 AI 工作流下产品团队架构的演变与最佳实践。",
-    "detail": "文章回顾了 Marty Cagan 关于产品团队与功能团队的理论，并结合 2026 年 AI 工作流普及的背景进行分析。强调产品职能应最大化解决问题而非交付功能。在 AI 辅助开发常态下，避免沦为单纯的“交付团队”至关重要。随着 AI 生成代码能力增强，团队若仅关注功能交付将失去竞争力。该分析为科技公司组织架构调整提供了理论依据，建议团队转向以问题解决为核心，利用 AI 提升效率而非单纯加速产出。管理者需重新定义团队价值，从输出代码转变为输出业务成果，这将深刻影响未来科技公司的招聘策略与绩效考核体系，推动组织向更敏捷、结果导向的方向演变。",
-    "tags": [
-      "News",
-      "Management",
-      "Strategy"
-    ],
-    "link": "https://www.elliotcsmith.com/product-teams-vs-feature-teams-in-an-ai-world/",
-    "date": "2026-03-23",
-    "id": "17743019857843"
   }
 ]
