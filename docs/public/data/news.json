@@ -1,5 +1,96 @@
 [
   {
+    "title": "AI 法庭模拟游戏 Legal Arena 上线",
+    "summary": "AI 驱动的法庭辩论模拟游戏，含 150 个案例。",
+    "detail": "**Legal Arena** 是一款创新的 AI 法庭模拟器，旨在帮助法律从业者练习辩论技巧。用户需从混乱的客户故事中提取真相，构建案件结构，并在实时审判中与 AI 对手对抗。目前包含 150 个可重玩案例，平均会话 8 分钟。该项目展示了 AI 在专业技能培训领域的垂直应用，通过结构化反馈提升用户的逻辑推理与说服力，为法律科技教育提供了新范式。核心玩法分为提取事实、构建案件、实时对抗三步，有效训练律师在压力下的结构化思维能力。随着案例库每日增长，它有望成为法律新人低成本高效训练的重要工具，解决传统模拟法庭资源稀缺的问题。",
+    "tags": [
+      "New",
+      "AI Game",
+      "LegalTech"
+    ],
+    "link": "https://legalarena.app",
+    "date": "2026-03-26",
+    "id": "17745018532130"
+  },
+  {
+    "title": "Prompt Guard 防止凭证泄露至 AI API",
+    "summary": "中间件代理，在请求到达 AI API 前拦截凭证。",
+    "detail": "**Prompt Guard** 是一个中间人（MitM）代理工具，专为 AI 开发安全设计。它在请求发送至 AI API 之前扫描并阻止凭证泄露。随着 AI 编码助手普及，防止敏感信息意外发送给第三方模型成为关键需求。该工具为开发团队提供了一种轻量级的安全防护层，适用于企业级 AI 部署场景。通过拦截敏感数据，它能有效降低因 Prompt 注入或意外泄露导致的安全风险。对于依赖外部 API 的 AI 应用，这是保障数据隐私的关键基础设施，建议开发者在集成阶段纳入安全审计流程。尤其在处理密钥、密码等敏感信息时，该代理能充当防火墙角色，确保只有合规内容到达模型端点，增强整体系统安全性。",
+    "tags": [
+      "Dev",
+      "Security",
+      "API"
+    ],
+    "link": "https://github.com/chaudharydeepak/prompt-guard",
+    "date": "2026-03-26",
+    "id": "17745018532131"
+  },
+  {
+    "title": "Agent Kernel 用 Markdown 实现 Agent 记忆",
+    "summary": "利用 Git 和 Markdown 文件实现 Agent 无数据库记忆。",
+    "detail": "**Agent Kernel** 提出了一种无数据库的 Agent 记忆方案。通过 `IDENTITY.md`、`KNOWLEDGE.md` 和 `notes/` 目录，利用 Git 仓库实现状态持久化。兼容 Claude Code、Cursor 等主流编码 Agent。这种方法降低了 Agent 开发门槛，使开发者无需配置复杂数据库即可构建具有长期记忆和上下文理解能力的智能体。核心在于利用 AI 原生读取 `AGENTS.md` 的机制，教会 Agent 如何记忆。知识文件可变，笔记文件只读追加，确保历史可追溯。这种文件即状态的设计理念，简化了部署流程，适合个人开发者快速原型验证，推动了轻量级 Agent 架构的流行。每个 Agent 独立仓库的设计还支持多代理协作，不同身份与知识互不干扰，为分布式智能体系统提供了新思路。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Memory"
+    ],
+    "link": "https://agent-kernel.dev/?v=1.0.0",
+    "date": "2026-03-26",
+    "id": "17745018532132"
+  },
+  {
+    "title": "OpenAI 投资机器人初创公司 Isara",
+    "summary": "Isara 获 9400 万美元融资，估值达 6.5 亿美元。",
+    "detail": "**OpenAI** 正式支持 AI 机器人初创公司 **Isara**，后者致力于“机器人军队”技术突破。本轮融资 9400 万美元，估值达 6.5 亿美元。此举表明 OpenAI 正积极布局物理世界交互与自动化领域，标志着 AI 从纯软件向具身智能（Embodied AI）扩展的重要信号，行业竞争加剧。华尔街日报报道了这一重大投资动向，显示资本对 AI 硬件落地的信心。Isara 的技术可能涉及多代理协作系统，这将加速机器人在复杂环境中的自主作业能力，为物流、制造等行业带来变革。此次投资也暗示 OpenAI 正在构建更广泛的生态系统，不仅限于大模型，还包括下游应用与硬件集成，巩固其行业领导地位。",
+    "tags": [
+      "News",
+      "Investment",
+      "Robotics"
+    ],
+    "link": "https://www.wsj.com/tech/ai/openai-backs-new-ai-startup-seeking-bot-army-breakthroughs-a0b1fedc",
+    "date": "2026-03-26",
+    "id": "17745018532133"
+  },
+  {
+    "title": "Kbot 可运行时自建工具的 AI Agent",
+    "summary": "开源 Agent，支持自建工具、金融栈及离线运行。",
+    "detail": "**Kbot** 是一款开源 AI Agent，具备运行时动态构建工具的能力。支持 350+ 工具、19 种本地模型及 20 个提供商。特色包括金融交易栈、网络安全套件及自我防御系统，且支持离线运行和守护进程模式。该项目展示了 Agent 自主性与安全性的结合，适合高级自动化任务。它允许 Agent 在运行时根据需要创建新工具，增强了适应性。金融栈支持交易、DeFi 和钱包管理，显示其在垂直领域的深度集成。自我防御系统则针对日益复杂的网络威胁，确保 Agent 在开放环境中的生存能力。完全离线运行能力使其适用于高安全要求的内网环境，是自主代理技术的重要进展。通过 MIT 许可发布，鼓励社区贡献，有望成为本地化 AI 代理的标准运行时之一。",
+    "tags": [
+      "New",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://github.com/isaacsight/kernel",
+    "date": "2026-03-26",
+    "id": "17745018532134"
+  },
+  {
+    "title": "百万美元主页改版为 AI Agent 专属",
+    "summary": "Agent 使用机器钱包购买像素，构建互联网历史。",
+    "detail": "**Million Dollar Botpage** 复刻了经典的百万美元主页概念，但专供 AI Agent 参与。Agent 可通过 Tempo MPP 钱包支付购买像素并展示图像。目前像素价格极低，旨在探索机器经济（Machine Economy）下的自主交易行为。这是一个观察 AI Agent 自主支付与市场行为的有趣实验。墙面上已有部分像素被购买，显示 Agent 正在积极参与。该项目测试了机器钱包的易用性及 Agent 对视觉展示的需求。随着像素被填满，它将形成独特的数字艺术画廊。这种模式可能启发未来的机器间微交易协议，为 AI 经济系统提供早期数据支持。通过让 Agent 自主决策购买位置，研究者能分析其价值判断逻辑，是区块链与 AI 结合的前沿尝试。",
+    "tags": [
+      "New",
+      "Crypto",
+      "Experiment"
+    ],
+    "link": "https://milliondollarbotpage.com/",
+    "date": "2026-03-26",
+    "id": "17745018532135"
+  },
+  {
+    "title": "Nit 用 Zig 重写 Git 节省 71% Token",
+    "summary": "专为 AI Agent 优化的 Git 替代品，大幅降低 Token 消耗。",
+    "detail": "**Nit** 是用 Zig 重写的 Git 替代品，专为 AI Agent 优化。数据显示，相比原生 Git，Nit 在 `status` 命令上节省 71% Token，`log` 命令节省 87%。通过直接读取 Git 对象数据库，减少冗余输出并提升速度（1.64 倍）。对于高频调用 Git 的编码 Agent，这将显著降低运营成本与延迟。作者基于 3156 次真实会话数据发现 Git 输出占大量 Token。Nit 利用 Zig 的零成本 C 互操作性，直接调用 libgit2，避免了子进程开销。这对于构建高效、低成本的 AI 编程助手至关重要，是开发者优化 Agent 工作流的新选择。未优化的命令会自动回退到原生 Git，确保兼容性，是 AI 基础设施层的重要优化尝试。",
+    "tags": [
+      "Dev",
+      "Optimization",
+      "Zig"
+    ],
+    "link": "https://justfielding.com/blog/nit-replacing-git-with-zig",
+    "date": "2026-03-26",
+    "id": "17745018532136"
+  },
+  {
     "title": "法律 AI 独角兽 Harvey 估值飙升至 110 亿美元",
     "summary": "获 2 亿美元融资，红杉领投，估值从 80 亿增至 110 亿。",
     "detail": "法律科技初创公司 Harvey 宣布完成 2 亿美元融资，估值达到 110 亿美元，较 2025 年的 80 亿美元显著增长。本轮由红杉资本领投，显示风投正从基础模型转向垂直应用。Harvey 致力于将 AI 整合进法律工作流，此次融资凸显了专业服务业对 AI 商业化落地的信心，标志着法律科技进入大规模扩张阶段。VC 正将赌注分散到模型公司之外的应用领域。",
@@ -1207,96 +1298,5 @@
     "link": "https://captain-claw.com/",
     "date": "2026-03-24",
     "id": "17743917108741"
-  },
-  {
-    "title": "Lexplain 利用 AI 解释 Linux 内核变更",
-    "summary": "为内核提交提供动机、背景及影响分析。",
-    "detail": "Linux 内核提交通常只说明“改了什么”，Lexplain 通过 AI 补充“为什么改”。它分析每个稳定内核标签的发布说明和提交差异，提供技术上下文、代码级证据及用户可见影响。支持语义搜索，可按子系统或文件路径过滤。这对于内核开发者、维护者及需要理解底层系统变更的安全研究人员来说，极大地降低了阅读内核历史的技术门槛。",
-    "tags": [
-      "Dev",
-      "Linux",
-      "Open Source"
-    ],
-    "link": "https://lexplain.net",
-    "date": "2026-03-24",
-    "id": "17743917108742"
-  },
-  {
-    "title": "Kite-MCP 实现 AI 对话式股票交易",
-    "summary": "基于 MCP 协议连接 Zerodha 进行自然语言交易。",
-    "detail": "该项目是一个 Model Context Protocol (MCP) 服务器，允许用户通过自然语言与 AI 助手对话来交易印度股票（Zerodha Kite）。相比传统 Python 库，它无需编写代码即可执行查询持仓、下单、设置止损等操作。这展示了 MCP 协议在垂直领域（金融科技）的实际应用潜力，使得 AI 代理能够安全、便捷地调用外部交易工具，降低了量化交易的交互门槛。",
-    "tags": [
-      "Dev",
-      "Fintech",
-      "MCP"
-    ],
-    "link": "https://github.com/aranjan/kite-mcp",
-    "date": "2026-03-24",
-    "id": "17743917108743"
-  },
-  {
-    "title": "肯塔基州农场主拒绝数据中心收购要约",
-    "summary": "2600 万美元收购被拒，反映 AI 基础设施用地阻力。",
-    "detail": "随着 AI 算力需求激增，数据中心土地收购成为热点。一名肯塔基州女性拒绝了 2600 万美元将农场转为数据中心的报价。这一事件凸显了 AI 基础设施扩张与地方社区、土地资源之间的紧张关系。对于行业而言，这意味着未来数据中心选址可能面临更高的社会成本和阻力，促使科技公司重新评估用地策略及社区沟通方案。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Data Center"
-    ],
-    "link": "https://techcrunch.com/2026/03/24/kentucky-woman-rejects-26-million-offer-to-turn-her-farm-into-a-data-center/",
-    "date": "2026-03-24",
-    "id": "17743917108744"
-  },
-  {
-    "title": "Databricks 收购两家初创公司强化 AI 安全",
-    "summary": "Databricks 利用新融资收购 Antimatter 和 SiftD.ai，构建 AI 安全产品。",
-    "detail": "Databricks 在完成 50 亿美元融资后，迅速展开收购行动，旨在夯实其新的 AI 安全产品线。此次收购了 Antimatter 和 SiftD.ai 两家初创公司，具体交易条款未披露。这表明数据安全与治理已成为 AI 平台竞争的关键战场，巨头正通过并购快速补齐安全能力，以应对企业客户对 AI 部署合规性的担忧。随着 AI 应用深入企业核心，安全不再是附加项而是基石。此次整合预计将增强 Databricks 在 Lakehouse 架构下的端到端安全管控能力，利用其充裕的资金储备加速产品落地，巩固其在企业级 AI 基础设施市场的领先地位。行业观察认为，这将引发新一轮 AI 安全领域的并购潮。",
-    "tags": [
-      "News",
-      "M&A",
-      "Security"
-    ],
-    "link": "https://techcrunch.com/2026/03/24/databricks-buys-two-startups-lakewatch-antimatter-siftd-ai-security/",
-    "date": "2026-03-24",
-    "id": "17743850800730"
-  },
-  {
-    "title": "Google 研究提出 TurboQuant 极致压缩技术",
-    "summary": "谷歌发布新向量量化技术，旨在解决高维向量内存瓶颈问题。",
-    "detail": "Google Research 发表 TurboQuant 技术，重新定义 AI 效率。针对高维向量消耗大量内存导致键值缓存瓶颈的问题，该技术通过极致的向量量化压缩，减少内存占用并加速相似度搜索。向量是 AI 模型理解信息的基础，但高维向量会导致存储成本高昂。传统量化方法常引入额外内存开销，而 TurboQuant 旨在解决这一痛点。这对于降低大模型推理成本、优化向量数据库性能具有重要意义，是底层算法优化的重要进展。该技术有望被集成到未来的 TensorFlow 或 JAX 框架中，帮助开发者在资源受限的边缘设备上部署更复杂的 AI 模型，推动 AI 普及。",
-    "tags": [
-      "News",
-      "Research",
-      "Optimization"
-    ],
-    "link": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
-    "date": "2026-03-24",
-    "id": "17743850800731"
-  },
-  {
-    "title": "Phanteum 协议提出 AI 代理身份开放标准",
-    "summary": "发布 RFC-P001 标准，旨在建立通用的 AI 代理间交易身份验证体系。",
-    "detail": "Phanteum 协议在 GitHub 发布了 RFC-P001，定义了一种用于 AI 代理身份的去中心化标准（did:phanteum:icp）。随着 AI Agent 自主性增强，代理间的身份验证与安全交易成为基础设施瓶颈。该标准试图解决代理互操作性问题，为未来大规模的机器间经济协作奠定信任基础，是 AI 基础设施层的重要探索。当前 AI 代理多为孤岛，缺乏统一身份标识，限制了自动化协作能力。此协议若被广泛采纳，将允许不同厂商的 AI 代理安全地交换数据和执行交易，促进自主代理生态系统的形成，类似于互联网领域的 DNS 或 HTTPS 标准。",
-    "tags": [
-      "Dev",
-      "Protocol",
-      "Agent"
-    ],
-    "link": "https://github.com/phanteum-protocol/rfcs",
-    "date": "2026-03-24",
-    "id": "17743850800732"
-  },
-  {
-    "title": "开发者利用 AI 将 2012 年旧 Demo 重构为生产级 MMO",
-    "summary": "展示 AI 如何辅助单人工程师完成遗留系统现代化与复杂游戏开发。",
-    "detail": "一位资深工程师利用 AI 辅助，将 Mozilla 2012 年废弃的 BrowserQuest 演示项目重构为具备生产级别的多多人在线游戏 Fracture。项目包含分布式追踪和 3000+ 测试用例。该案例证明 AI 作为开发代理能显著改变单人产出经济学，为遗留系统现代化提供了可参考的工程方法论，而非仅仅是代码生成。作者强调并非'AI 写了代码'，而是'AI 让一人完成团队工作'。这展示了 AI 在理解遗留逻辑、添加测试覆盖和架构解耦方面的潜力，为企业级遗留系统迁移提供了实战参考，证明 AI 可大幅降低技术债务清理成本。",
-    "tags": [
-      "Dev",
-      "Engineering",
-      "LLM"
-    ],
-    "link": "https://georgelarson.me/writing/2026-03-25-fracture-legacy-modernization/",
-    "date": "2026-03-24",
-    "id": "17743850800733"
   }
 ]
