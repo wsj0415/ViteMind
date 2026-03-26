@@ -1,5 +1,83 @@
 [
   {
+    "title": "Agentis：支持 12 家大模型的多智能体开源平台",
+    "summary": "开源多智能体平台，支持 12 家 LLM 提供商，实时 3D 可视化协作。",
+    "detail": "Agentis 是一个开源的多智能体 AI 平台，旨在解决单一模型无法处理复杂任务的问题。它允许用户在 12 个不同的 LLM 提供商之间部署专门的智能体舰队，如研究员、编码员等。核心亮点在于其实时 3D 可视化功能，用户可以通过六边形节点和曲线边缘观察智能体的思考、协作及交付过程。该平台提供商无关，支持实时令牌跟踪，适合需要多模型协作的大型任务场景，为开发者提供了透明的多智能体工作流管理工具。",
+    "tags": [
+      "New",
+      "Dev",
+      "Multi-Agent"
+    ],
+    "link": "https://github.com/Dhwanil25/Agentis",
+    "date": "2026-03-26",
+    "id": "17745376295090"
+  },
+  {
+    "title": "Palantir CEO：AI 时代只有两类人能成功",
+    "summary": "Alex Karp 指出职业技能与神经多样性人才将在 AI 时代脱颖而出。",
+    "detail": "Palantir 首席执行官 Alex Karp 在接受采访时提出了关于 AI 时代职业成功的独特见解。他认为未来只有两类人能在 AI 浪潮中取得成功：拥有特定职业技能的人以及具有神经多样性特质的人才。这一观点强调了在自动化普及的背景下，专业技能和独特认知风格的重要性。该言论针对 Gen Z 的职业建议，反映了科技领袖对劳动力市场转型的看法，提示从业者需关注不可替代的技能培养。",
+    "tags": [
+      "News",
+      "Industry",
+      "Career"
+    ],
+    "link": "https://fortune.com/2026/03/24/palantir-ceo-alex-karp-two-people-successful-in-ai-era-vocational-skills-neurodivergence-gen-z-career-advice/",
+    "date": "2026-03-26",
+    "id": "17745376295091"
+  },
+  {
+    "title": "LangChain 发布 Agent Middleware 自定义智能体框架",
+    "summary": "介绍如何通过中间件自定义 Agent Harness，优化核心循环。",
+    "detail": "LangChain 博客详细介绍了如何使用“代理中间件”（Agent Middleware）来自定义智能体框架。文章解释了 Agent Harness 是连接 LLM 与环境、数据和工具的核心系统。虽然核心循环简单，但不同用例需要不同的定制。中间件允许开发者在不改变核心架构的情况下，自定义执行前的步骤或工具输出检查。这为构建特定应用场景的智能体提供了灵活性，使开发者能在 LangChain 坚实基础之上实现更强大的定制化功能。",
+    "tags": [
+      "Dev",
+      "LangChain",
+      "Tutorial"
+    ],
+    "link": "https://blog.langchain.com/how-middleware-lets-you-customize-your-agent-harness/",
+    "date": "2026-03-26",
+    "id": "17745376295092"
+  },
+  {
+    "title": "iOS 开发必备：针对 Swift 优化的 AI 编程助手工具",
+    "summary": "汇总专为 Swift 设计的 AI 技能包，解决并发与性能问题。",
+    "detail": "针对 AI 编码助手在 Swift 开发中常出现的过时 API 建议或并发错误，iOS 社区构建了专用工具集。文章介绍了多位开发者维护的“代理技能”（Agent Skills），如 Antoine van der Lee 提供的 SwiftUI 状态管理和并发技能。这些技能包将生产经验加载到 AI 助手中，使其理解现代 Swift 模式。此外，还包括用于自动化分发的 CLI 工具和连接 Xcode 的 MCP 服务器，显著提升了 AI 在 iOS 开发中的实用性和准确性。",
+    "tags": [
+      "Dev",
+      "iOS",
+      "Swift"
+    ],
+    "link": "https://onmyway133.com/posts/what-ai-tools-to-use-for-ios-development/",
+    "date": "2026-03-26",
+    "id": "17745376295093"
+  },
+  {
+    "title": "StackOverflow：为 AI 代理建立共享编码指南",
+    "summary": "探讨工程组织如何为 AI 代理制定编码标准，转移认知负担。",
+    "detail": "随着工程师手写代码减少，StackOverflow 博客探讨了为 AI 代理建立编码指南的重要性。文章指出，虽然人类开发者可以通过隐性学习理解代码风格，但代理需要明确的确定性规则。将编码标准注入代理可以减少非确定性过程带来的风险。随着代理生成更多代码，工程师的认知负担正转向设计和代码审查。制定适用于代理的指南不仅能规范代码，还能确保企业代码库的一致性，是 2026 年软件工程流程的关键演变。",
+    "tags": [
+      "News",
+      "Dev",
+      "Best Practices"
+    ],
+    "link": "https://stackoverflow.blog/2026/03/26/coding-guidelines-for-ai-agents-and-people-too/",
+    "date": "2026-03-26",
+    "id": "17745376295094"
+  },
+  {
+    "title": "开发者构建专为 AI 代理设计的 Lisp 沙盒语言",
+    "summary": "PTC-Lisp 通过语言本身约束保障 AI 工具调用的安全性。",
+    "detail": "针对 LLM 生成代码的安全性问题，一位开发者构建了名为 PTC-Lisp 的沙盒语言。不同于依赖外部容器约束 JavaScript 或 Python，该方案通过语言本身作为约束机制。核心洞察在于“代码优先”代理模式：模型只需规划一次，运行时确定性执行，减少推理传递和令牌消耗。该项目在 BEAM 上运行，旨在解决程序化工具调用中的基础设施安全问题，为 AI 代理提供了一种更轻量、更安全的代码执行环境选择。",
+    "tags": [
+      "Dev",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://andreasronge.github.io/ptc_runner/why-i-built-a-lisp-for-ai-agents.html",
+    "date": "2026-03-26",
+    "id": "17745376295095"
+  },
+  {
     "title": "AgentVerse：首个 AI 代理开放社交网络",
     "summary": "Show HN 项目，构建 AI 代理间的连接与协作开放网络。",
     "detail": "AgentVerse 展示了首个专为 AI 代理设计的开放社交网络，目前已有 14 个活跃代理在进行握手和交互。该项目旨在让 AI 代理能够连接、协作并进化，标志着多代理系统从孤立任务向社会化协作迈进的重要尝试。通过开放网络协议，不同代理可自主发现并交互，为未来 Agent 生态互联提供新范式。它解决了单一代理无法完成复杂社会性任务的痛点，是 Agent 基础设施的重要补充，可能引发多代理协作经济的早期形态，值得开发者关注其协议标准。",
@@ -1220,83 +1298,5 @@
     "link": "https://mcs-cli.dev",
     "date": "2026-03-25",
     "id": "17744326143493"
-  },
-  {
-    "title": "心理学视角：AI 导致成人技能退化与儿童认知封锁",
-    "summary": "心理学分析指出 AI 可能导致成人技能萎缩，而儿童可能永远无法建立某些基础认知能力。",
-    "detail": "心理学今日文章探讨了 AI 对认知能力的长期影响。成人使用 AI 可能导致现有技能退化（认知萎缩），但这通常是可恢复的。更严峻的是儿童面临的“认知封锁”，即在成长关键期依赖 AI 而从未建立基础技能。文章呼吁关注 AI 驱动的认知变化，区分可恢复的技能丢失与永久性的发展缺失，为教育和个人技能管理提供警示，建议在教育中平衡 AI 辅助与基础能力培养，避免不可逆的认知损伤。",
-    "tags": [
-      "News",
-      "Social Impact",
-      "Education"
-    ],
-    "link": "https://www.psychologytoday.com/us/blog/the-algorithmic-mind/202603/adults-lose-skills-to-ai-children-never-build-them",
-    "date": "2026-03-25",
-    "id": "17744326143494"
-  },
-  {
-    "title": "开发者角色演变：AI 时代人人都是风险投资人",
-    "summary": "文章论述开发者技能转变，从写代码转向管理 AI 代理与资源，类似 VC 投资逻辑。",
-    "detail": "随着 2026 年 AI 写代码成为常态，开发者角色发生根本转变。文章引用观点称，初级开发者写代码，高级开发者管人，而 AI 时代开发者需像 VC 一样管理 AI 代理团队。许多公司已开始依赖 AI 指定、编写和测试代码。开发者需掌握定义问题、评估 AI 产出及管理技术债务的能力，而非单纯编写语法。这标志着软件工程从“实施者”向“架构投资者”的范式转移，要求开发者具备更高的战略眼光与资源调配能力。",
-    "tags": [
-      "News",
-      "Career",
-      "Industry Trend"
-    ],
-    "link": "https://lerner.co.il/2026/01/21/were-all-vcs-now-the-skills-developers-need-in-the-ai-era/",
-    "date": "2026-03-25",
-    "id": "17744326143495"
-  },
-  {
-    "title": "教 AI 验证引用来源：减少幻觉新方案",
-    "summary": "通过 apysource 工具让 AI 在写作前验证引用，确保事实准确。",
-    "detail": "针对 LLM 幻觉问题，该方案引入自动化验证流程。开发者可通过指令文件要求 AI 在引用外部源前先使用 `apysource locate` 验证片段。若找不到确切 snippet 则不生成 claim。最后运行 `check` 确保所有引用通过。这为文档生成和代码注释提供了可靠性保障，是解决 AI 胡说八道问题的工程化实践。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Engineering"
-    ],
-    "link": "https://alganet.github.io/blog/2026-03-25-05-Teaching-AI-to-Verify-Sources.html",
-    "date": "2026-03-25",
-    "id": "17744289868040"
-  },
-  {
-    "title": "安全审计：识别 K8s PR 中的 AI 生成代码",
-    "summary": "使用零上传 AST 防火墙审计 914 个 K8s PR，检测 AI 生成的低质代码。",
-    "detail": "针对 AI 生成代码（AI slop）涌入开源项目的风险，Janitor Security 发布了针对 kubernetes/kubernetes 的法证结构审计。利用 v7.9.4 版本的 Janitor 工具，通过零上传 AST 防火墙技术，识别并标记潜在的 AI 生成代码片段。包含 CBOM、VEX 和 TEI 精算分类账。这对维护大型开源项目的代码质量和安全性具有重要意义，防止低质 AI 代码污染核心基础设施。",
-    "tags": [
-      "Dev",
-      "Security",
-      "OpenSource"
-    ],
-    "link": "https://github.com/janitor-security/kubernetes-audit-2026",
-    "date": "2026-03-25",
-    "id": "17744289868041"
-  },
-  {
-    "title": "Litmus：AI 代理的飞行记录器与重放工具",
-    "summary": "记录并确定性重放 AI 代理执行过程，支持故障注入与可靠性评分。",
-    "detail": "Litmus 是一款专为 LLM 代理设计的飞行记录器。它能够记录代理的执行轨迹，并支持确定性重放，便于调试和测试。功能包括故障注入（Fault Injection）、可靠性评分（Reliability Scoring）和 CI gating。在 AI 代理日益复杂的背景下，该工具帮助开发者确保代理行为的稳定性和可预测性，是构建生产级 AI 应用的关键测试基础设施。",
-    "tags": [
-      "New",
-      "Agent",
-      "Testing"
-    ],
-    "link": "https://github.com/rylinjames/litmus",
-    "date": "2026-03-25",
-    "id": "17744289868042"
-  },
-  {
-    "title": "Clampd：防止 AI 代理误删数据库的安全防火墙",
-    "summary": "代理工具调用防火墙，可在 25ms 内阻断危险操作如 DROP TABLE。",
-    "detail": "针对 AI 代理拥有过高权限的风险，Clampd 提供了工具调用防火墙。它位于代理和工具之间，检查每个数据库查询、API 调用和文件访问。若检测到危险操作（如删除表），可在 25ms 内阻断。支持自托管，数据不出网。解决了提示注入、权限升级和数据泄露风险，为 AI 代理赋予工具使用权提供了必要的安全护栏。",
-    "tags": [
-      "New",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://clampd.dev",
-    "date": "2026-03-25",
-    "id": "17744289868043"
   }
 ]
