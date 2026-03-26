@@ -1,5 +1,83 @@
 [
   {
+    "title": "Show HN: Imrobot 反向验证码验证 AI 代理",
+    "summary": "专为 AI 代理设计的反向 CAPTCHA 工具，支持多框架且零依赖。",
+    "detail": "Imrobot 是一个开源项目，旨在解决 AI 代理自动化过程中的验证问题。与传统 CAPTCHA 验证人类不同，它通过反向机制验证 AI 代理身份，防止恶意爬虫伪装。支持 React、Vue、Svelte 等多种前端框架，采用 TypeScript 编写且零依赖，便于集成。随着 AI Agent 自动化任务增多，此类工具有助于区分合法代理与恶意脚本，提升系统安全性与交互效率，为开发者提供了轻量级的代理验证解决方案。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Security"
+    ],
+    "link": "https://github.com/leopechnicki/im_robot",
+    "date": "2026-03-26",
+    "id": "17745197207030"
+  },
+  {
+    "title": "新论文 MSA：内存稀疏注意力机制突破 1 亿 Token",
+    "summary": "提出内存稀疏注意力机制，实现端到端记忆模型扩展至 1 亿 Token。",
+    "detail": "该论文介绍了记忆稀疏注意力（Memory Sparse Attention, MSA）技术，旨在解决 AI 模型在处理长上下文时的内存效率问题。通过优化注意力机制，模型能够高效扩展至 1 亿 Token 的上下文长度，同时保持端到端的记忆能力。这对于需要处理超长文档、视频或复杂逻辑推理的 AI 应用具有重要意义，有望降低长文本处理的计算成本并提升模型性能，是长上下文模型架构的重要探索。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Research"
+    ],
+    "link": "https://github.com/EverMind-AI/MSA/blob/main/paper/MSA__Memory_Sparse_Attention_for_Efficient_End_to_End_Memory_Model_Scaling_to_100M_Tokens.pdf",
+    "date": "2026-03-26",
+    "id": "17745197207031"
+  },
+  {
+    "title": "英特尔发布 Arc Pro B70/B65 显卡，32GB 显存赋能 AI",
+    "summary": "英特尔推出新款专业显卡，配备 32GB 显存，专为 AI 和专业应用设计。",
+    "detail": "英特尔正式推出 Arc Pro B70 和 Arc Pro B65 GPU，主打专业应用与 AI 工作负载。这两款显卡配备了高达 32GB 的显存，显著提升了本地运行大模型及专业创作软件的能力。虽然并非针对游戏市场，但其大显存特性对于需要高内存带宽的 AI 推理和训练任务极具吸引力，标志着英特尔在专业 AI 硬件领域的进一步布局，可能影响工作站级 AI 硬件的市场竞争格局。",
+    "tags": [
+      "News",
+      "Hardware",
+      "GPU"
+    ],
+    "link": "https://www.tomshardware.com/pc-components/gpus/intel-arc-pro-b70-and-arc-pro-b65-gpus-bring-32gb-of-ram-to-ai-and-pro-apps-bigger-battlemage-finally-arrives-but-its-not-for-gaming",
+    "date": "2026-03-26",
+    "id": "17745197207032"
+  },
+  {
+    "title": "SidClaw：开源 AI 代理审批与问责层平台",
+    "summary": "为 AI 代理提供身份、策略、审批及追踪的开源安全层，早期免费。",
+    "detail": "SidClaw 是一个开源平台，专为 AI 代理设计的安全与问责层。它构建了从身份识别到策略执行、审批流程及行为追踪的完整闭环。支持 13 种框架集成，确保 AI 代理在执行敏感操作时符合人类设定的政策。目前在早期访问阶段免费使用，适合需要严格控制 AI 代理行为的企业开发者，有效降低自动化过程中的风险，为企业级 AI 部署提供了必要的治理工具。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Security"
+    ],
+    "link": "https://github.com/sidclawhq/platform",
+    "date": "2026-03-26",
+    "id": "17745197207033"
+  },
+  {
+    "title": "RuntimeGuard v2：AI 代理本地运行时安全策略引擎",
+    "summary": "免费本地优先的 MCP 服务器，在執行前强制执行文件与 Shell 策略。",
+    "detail": "RuntimeGuard v2 是一款专注于 AI 代理本地运行时安全的工具。作为免费且本地优先的 MCP 服务器，它能在命令执行前强制实施文件读写和 Shell 操作策略。支持 Claude Desktop、Cursor 等客户端，通过拦截破坏性命令（如 rm -rf）或要求人工审批高风险操作，确保“代理可以说任何话，但只能做政策允许的事”，极大提升了本地 AI 开发环境的安全性，防止代理误操作导致的数据损失。",
+    "tags": [
+      "Dev",
+      "Security",
+      "MCP"
+    ],
+    "link": "https://runtime-guard.ai/",
+    "date": "2026-03-26",
+    "id": "17745197207034"
+  },
+  {
+    "title": "华尔街日报：AI 代理浪潮正在复兴 CPU 技术",
+    "summary": "报道指出随着代理式 AI 兴起，曾被忽视的 CPU 技术重新获得关注。",
+    "detail": "华尔街日报最新分析指出，随着 AI 发展重心从单纯的大模型训练转向代理式 AI（Agentic AI），CPU 的重要性正在回升。不同于主要依赖 GPU 的模型训练，代理式 AI 涉及复杂的逻辑推理、任务规划及多步骤执行，这对 CPU 的多核处理能力提出了新需求。这一趋势可能改变硬件市场格局，促使芯片制造商重新平衡 CPU 与 GPU 的研发资源，预示着通用计算在 AI 新时代的价值回归。",
+    "tags": [
+      "News",
+      "Industry",
+      "Hardware"
+    ],
+    "link": "https://www.wsj.com/tech/ai/cpu-agentic-ai-ca2c5582",
+    "date": "2026-03-26",
+    "id": "17745197207035"
+  },
+  {
     "title": "99helpers 推出免费多模型 AI 聊天与客户支持平台",
     "summary": "提供多模型聊天及免费 AI 工具集，支持客户支持自动化。",
     "detail": "99helpers 发布集成多 AI 模型的聊天工具，主打客户支持平台自动化。提供免费工具集包括 AI 邮件回复、文本转 Markdown 等。适合开发者及企业寻找低成本 AI 客服解决方案，支持欧洲数据合规。该平台包含帮助中心和反馈中心，旨在通过智能聊天机器人提供 24/7 自动协助。对于初创企业而言，这是一个值得关注的免费替代方案，能够降低运营成本的同時捕捉客户洞察，体现了 AI 在客户服务领域的普及化趋势。此外，其免费工具列表涵盖了从 AI 信函生成到网页转 Markdown 的多种实用功能，显示了该平台致力于成为开发者多功能助手的野心，适合预算有限的团队尝试。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/EraHQ/CRP",
     "date": "2026-03-25",
     "id": "17744146292441"
-  },
-  {
-    "title": "设计工程师如何利用 AI 提升工作流效率",
-    "summary": "分享设计工程师使用 AI 进行原型设计、代码审查及 Figma MCP 集成经验。",
-    "detail": "文章详细探讨了设计工程师如何将 AI 深度融入日常工作流。通过 Figma MCP 集成、Agent 模式及特定提示词技巧，工程师可快速验证概念而非耗时试错。涵盖代码审查、少写代码等实践，为创意与技术结合岗位提供高效 AI 协作范式。作者强调 AI 并非替代创意，而是作为快速原型工具，帮助在几分钟内筛选想法，显著提升迭代速度。此外，还分享了 CLI 工具使用及模型选择建议，极具实战参考价值。适合前端与设计跨界人员。",
-    "tags": [
-      "Dev",
-      "Workflow",
-      "Design"
-    ],
-    "link": "https://jakub.kr/work/using-ai-as-a-design-engineer",
-    "date": "2026-03-25",
-    "id": "17744146292442"
-  },
-  {
-    "title": "AegisFlow：基于 Go 的开源 AI 网关与策略引擎",
-    "summary": "开源项目 AegisFlow 提供内置策略引擎的 AI 网关，采用 Go 语言构建。",
-    "detail": "AegisFlow 是一个完全用 Go 语言编写的开源 AI 网关项目，其核心功能包括强大的策略引擎。它帮助开发者集中管理 AI 请求、实施细粒度访问控制及监控流量使用情况。作为基础设施工具，它为构建安全、可控的企业级 AI 应用提供了轻量级且高效的解决方案。支持自定义策略规则，适合需要精细控制 LLM 调用权限和成本的开发团队部署使用，解决了 AI 集成中的安全与治理痛点。是构建企业级 AI 中间件的优质选择。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Infrastructure"
-    ],
-    "link": "https://github.com/saivedant169/AegisFlow",
-    "date": "2026-03-25",
-    "id": "17744146292443"
-  },
-  {
-    "title": "Url to Video：将产品链接一键转为 AI 视频广告",
-    "summary": "新工具支持将产品 URL 自动分析并生成高转化率 AI 视频广告。",
-    "detail": "该工具允许电商用户将产品页面 URL 直接转换为专业视频广告，极大简化制作流程。功能涵盖自动页面分析、100+ AI 数字人、400+ 语音克隆及脚本生成。旨在降低视频广告制作门槛，通过 AI 自动化流程帮助商家快速生成多平台适配的营销素材。支持多种数字人形象及情感语音检测，适用于 TikTok、Facebook 等主流广告平台的快速素材投放需求，是电商营销自动化的新选择。大幅提升广告制作效率。",
-    "tags": [
-      "New",
-      "Marketing",
-      "Video"
-    ],
-    "link": "https://urltovideo.ai",
-    "date": "2026-03-25",
-    "id": "17744146292444"
-  },
-  {
-    "title": "苹果计划重启 Siri 应用，全面拥抱 AI",
-    "summary": "苹果拟重构 Siri 应用，标志着其在 AI 战略上的重大转折与投入。",
-    "detail": "据报道，苹果计划对 Siri 进行彻底重构，甚至可能推出独立应用以整合更先进的生成式 AI 功能。此举表明苹果正试图弥补在生成式 AI 浪潮中的滞后，通过独立应用形态深化用户交互，摆脱旧有框架限制。这对 iOS 生态及竞争对手而言是一个重要信号，意味着科技巨头间的 AI 入口争夺战将进一步升级。用户期待更智能、自主的语音助手体验，行业格局可能因此重塑，苹果能否借此挽回声誉值得关注。此次重启可能涉及底层模型更换及交互逻辑革新，若成功将极大提升用户粘性，失败则可能加剧市场对其创新能力的质疑，后续动态需紧密跟踪。",
-    "tags": [
-      "News",
-      "Apple",
-      "Siri"
-    ],
-    "link": "https://finance.yahoo.com/sectors/technology/articles/apple-plans-ai-reboot-siri-184859342.html",
-    "date": "2026-03-25",
-    "id": "17744054700400"
-  },
-  {
-    "title": "凯鹏华盈筹集 35 亿美元，全力押注 AI 赛道",
-    "summary": "顶级风投凯鹏华盈新募 35 亿美元基金，宣布全面转向人工智能投资。",
-    "detail": "老牌风投机构 Kleiner Perkins 宣布获得 35 亿美元新资金，明确表示将\"All in\"人工智能领域。这反映了资本市场对 AI 长期价值的坚定信心，也预示着未来几年 AI 初创企业将获得更充足的弹药。资金流向将重点关注基础设施及应用层创新，可能加速行业洗牌与头部效应形成。对于创业者而言，这意味着融资窗口依然开放，但竞争将更加激烈，唯有具备核心技术壁垒的项目方能脱颖而出，获得巨头青睐。此举也将激励其他投资机构跟进，形成资金聚集效应，推动技术快速迭代与商业化落地，加速 AI 渗透至各行各业。",
-    "tags": [
-      "News",
-      "VC",
-      "Investment"
-    ],
-    "link": "https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/",
-    "date": "2026-03-25",
-    "id": "17744054700401"
-  },
-  {
-    "title": "Anthropic 数据揭示：AI 熟练度将成为新阶级分水岭",
-    "summary": "Anthropic 发布报告指出，AI 使用熟练度差异正在引发新的经济不平等。",
-    "detail": "Anthropic 最新经济指数报告显示，AI 正在创造基于“熟练度”的新不平等。资深用户与新手之间的生产力差距扩大，自动化销售与交易任务激增。这表明风险不仅在于失业，更在于技能分化。企业需重视员工 AI 培训，个人也应提升 AI 协作能力，以避免在未来的职场阶级战中落后。数据还揭示，自动化任务普及率翻倍，提示相关岗位面临更高替代风险，社会需提前准备应对结构性变化。政策制定者需关注技能再培训，防止技术红利仅惠及少数精英，确保经济增长包容性，避免社会阶层固化加剧。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "Industry"
-    ],
-    "link": "https://www.axios.com/2026/03/24/ai-use-inequality-class",
-    "date": "2026-03-25",
-    "id": "17744054700402"
   }
 ]
