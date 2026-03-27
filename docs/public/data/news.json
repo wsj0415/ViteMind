@@ -1,5 +1,44 @@
 [
   {
+    "title": "研究发现 AI 数据中心可使周边升温 9.1°C",
+    "summary": "New Scientist 报道 AI 数据中心热排放显著，局部升温最高达 9.1 摄氏度。",
+    "detail": "**核心发现**：新研究指出 AI 数据中心热排放对环境影响巨大，周边区域温度可升高 9.1°C。**背景**：随着 AI 算力需求激增，散热问题成为环保焦点。**行业影响**：这将推动绿色数据中心技术发展，可能引发更严格的环保监管，影响算力布局策略及能源消耗评估标准。",
+    "tags": [
+      "News",
+      "Environment",
+      "Data Center"
+    ],
+    "link": "https://www.newscientist.com/article/2521256-ai-data-centres-can-warm-surrounding-areas-by-up-to-9-1c/",
+    "date": "2026-03-27",
+    "id": "17746440902581"
+  },
+  {
+    "title": "Show HN: Understudy 本地自主 GUI AI 代理",
+    "summary": "开源 AI 代理 Understudy 可自主操作桌面应用，支持多通道远程控制。",
+    "detail": "**功能**：Understudy 是本地运行的开源 AI 代理，能自主浏览、点击、管理文件。**亮点**：支持 Telegram 等 8 种通道远程控制，具备“示教一次”的学习能力。**技术**：基于本地运行时，无需多步提示即可执行复杂工作流，适合自动化任务开发，实现“一条指令，整台电脑”的操作体验。",
+    "tags": [
+      "New",
+      "Agent",
+      "Open Source"
+    ],
+    "link": "https://understudy-ai.github.io/understudy/",
+    "date": "2026-03-27",
+    "id": "17746440902582"
+  },
+  {
+    "title": "Memory Crystal：为 AI 代理提供持久化记忆",
+    "summary": "MIT 项目 Memory Crystal 通过 OpenClaw 插件和 MCP 服务器实现代理记忆。",
+    "detail": "**技术**：Memory Crystal 旨在解决 AI 代理记忆丢失问题，提供持久化存储。**架构**：结合 OpenClaw 插件与 MCP 服务器，增强代理长期任务处理能力。**价值**：为开发者构建复杂 AI 应用提供关键基础设施，提升代理连续交互的稳定性，适用于需要长期上下文理解的智能体场景。",
+    "tags": [
+      "Dev",
+      "Memory",
+      "MCP"
+    ],
+    "link": "https://github.com/memorycrystal/memorycrystal",
+    "date": "2026-03-27",
+    "id": "17746440902583"
+  },
+  {
     "title": "SK 海力士赴美 IPO 缓解内存危机",
     "summary": "内存巨头 SK 海力士计划美国 IPO，有望缓解 AI 硬件短缺。",
     "detail": "内存芯片巨头 SK 海力士计划进行大规模美国 IPO，旨在解决所谓的\"RAMmageddon\"内存短缺问题。随着 AI 模型对算力需求激增，内存供应成为关键瓶颈。此次 IPO 不仅关乎企业融资，更直接影响 AI 基础设施的稳定性与成本。行业密切关注其产能扩张能否跟上 AI 发展速度，以及是否真能缓解当前硬件供应紧张局面。这对依赖高性能内存的 AI 训练至关重要，可能改变未来几年算力市场的供需格局，投资者与科技公司均在观望其后续动作。",
@@ -806,6 +845,19 @@
     "id": "17745787318105"
   },
   {
+    "title": "白宫 AI 与加密货币主管 David Sacks 离职",
+    "summary": "David Sacks 不再担任白宫 AI 和加密货币主管，政策风向可能转变。",
+    "detail": "**背景**：The Verge 报道 David Sacks 已正式卸任白宫 AI 及加密货币主管职位。**影响**：作为关键政策制定者，其离职可能显著影响美国 AI 监管策略及加密货币政策走向。**行业信号**：暗示政府内部对 AI 与加密领域的管理架构正在调整，开发者与企业需密切关注后续政策变动及新任官员的立场。",
+    "tags": [
+      "News",
+      "Policy",
+      "Government"
+    ],
+    "link": "https://www.theverge.com/policy/902140/david-sacks-out-ai-crypto-czar",
+    "date": "2026-03-26",
+    "id": "17746440902580"
+  },
+  {
     "title": "应用案例：利用 AI 检测小说中的拼写错误",
     "summary": "博主展示如何使用 AI 工具在流行小说《Fourth Wing》中发现拼写错误。",
     "detail": "文章记录了使用 AI 辅助编辑书籍的实际案例，成功在小说《Fourth Wing》中发现了一个容易被忽略的姓氏拼写错误。这不仅展示了 AI 在文本校对领域的潜力，也引发了关于交互式同人小说创作中 AI 角色的讨论。体现了 AI 从生成内容向辅助审查内容的功能延伸，引发伦理思考。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.theregister.com/2026/03/26/greg_kroahhartman_ai_kernel/",
     "date": "2026-03-26",
     "id": "17745446847563"
-  },
-  {
-    "title": "新书评测：《Vibe Coding》探讨生成式 AI 软件开发",
-    "summary": "Steve Yegge 等著作，分析 AI 辅助编程与组织转型。",
-    "detail": "本书由 Steve Yegge 和 Gene Kim 撰写，探讨生成式 AI 在生产级软件中的应用。书中提出程序员将转变为管理 Agent 团队的“主厨”，虽部分观点待验证，但为 AI 辅助编码工作流提供了重要参考视角。",
-    "tags": [
-      "Dev",
-      "Education",
-      "Coding"
-    ],
-    "link": "https://www.pramodb.com/index.php/2026/03/26/book-review-vibe-coding-building-production-grade-software-with-gen-ai-chat-agents-and-beyond/",
-    "date": "2026-03-26",
-    "id": "17745446847564"
-  },
-  {
-    "title": "维基百科正式禁止 AI 生成文章",
-    "summary": "知名百科全书平台出台新规，屏蔽 AI 生成内容。",
-    "detail": "The Verge 报道维基百科已禁止 AI 生成的文章。此举旨在维护内容真实性与可靠性，对依赖 AI 生成内容的分发渠道产生重大影响，引发了关于 AI 内容版权与真实性的社区广泛讨论。",
-    "tags": [
-      "News",
-      "Platform",
-      "Content"
-    ],
-    "link": "https://www.theverge.com/tech/901461/wikipedia-ai-generated-article-ban",
-    "date": "2026-03-26",
-    "id": "17745446847565"
-  },
-  {
-    "title": "经济学家批评 AI 营销话术：宣称让人无用",
-    "summary": "Noah Smith 撰文抨击 AI 产品价值主张过于消极。",
-    "detail": "经济学家 Noah Smith 指出，AI 行业“让你经济无用”的营销话术极其糟糕。这反映了公众对 AI 威胁论的反感，呼吁行业调整沟通策略，强调赋能而非替代，以改善市场接受度。",
-    "tags": [
-      "News",
-      "Opinion",
-      "Market"
-    ],
-    "link": "https://www.noahpinion.blog/p/ai-has-the-worst-sales-pitch-ive",
-    "date": "2026-03-26",
-    "id": "17745446847566"
-  },
-  {
-    "title": "AI 驱动的攻击性安全现状与防御意义",
-    "summary": "Praetorian 分析 AI 在 offensive security 中的应用。",
-    "detail": "文章探讨了 AI 驱动的攻击性安全现状及其对防御的意义。涉及攻击面管理与持续渗透测试，为企业防御策略提供新视角。报告指出 AI 正在改变网络安全格局，需更新防御体系以应对新威胁。",
-    "tags": [
-      "Dev",
-      "Security",
-      "AI"
-    ],
-    "link": "https://www.praetorian.com/blog/ai-driven-offensive-security/",
-    "date": "2026-03-26",
-    "id": "17745446847567"
   }
 ]
