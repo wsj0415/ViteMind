@@ -1,5 +1,57 @@
 [
   {
+    "title": "SK 海力士赴美 IPO 缓解内存危机",
+    "summary": "内存巨头 SK 海力士计划美国 IPO，有望缓解 AI 硬件短缺。",
+    "detail": "内存芯片巨头 SK 海力士计划进行大规模美国 IPO，旨在解决所谓的\"RAMmageddon\"内存短缺问题。随着 AI 模型对算力需求激增，内存供应成为关键瓶颈。此次 IPO 不仅关乎企业融资，更直接影响 AI 基础设施的稳定性与成本。行业密切关注其产能扩张能否跟上 AI 发展速度，以及是否真能缓解当前硬件供应紧张局面。这对依赖高性能内存的 AI 训练至关重要，可能改变未来几年算力市场的供需格局，投资者与科技公司均在观望其后续动作。",
+    "tags": [
+      "News",
+      "Hardware",
+      "IPO"
+    ],
+    "link": "https://techcrunch.com/2026/03/27/memory-chip-giant-sk-hynix-could-help-end-rammageddon-with-blockbuster-us-ipo/",
+    "date": "2026-03-27",
+    "id": "17746407116580"
+  },
+  {
+    "title": "Meta 发布 TRIBE v2 脑活动预测模型",
+    "summary": "Meta 推出新模型预测人类大脑神经反应，精度大幅提升。",
+    "detail": "Meta AI 发布 TRIBE v2 基础模型，能够预测人类对视听语言的神经反应。相比 v1 版本，新模型将预测范围从 1000 个皮质预测扩展到 70000 个体素，实现了全脑活动映射。该技术结合了音频、视频和文本嵌入，通过三阶段架构处理，为神经科学研究提供了可扩展的数字镜像，大幅降低实验成本。这标志着 AI 在理解生物智能方面迈出重要一步，可能启发新一代神经网络架构。研究团队结合了长时程记录与大型队列数据，提升了模型的泛化能力，为脑机接口与认知科学提供了新的计算工具与理论支持。",
+    "tags": [
+      "News",
+      "Research",
+      "Meta"
+    ],
+    "link": "https://aidemos.atmeta.com/tribev2/",
+    "date": "2026-03-27",
+    "id": "17746407116581"
+  },
+  {
+    "title": "AI 代理自主选择工具的趋势分析",
+    "summary": "研究发现 AI 代理更倾向简单 API，重塑软件增长逻辑。",
+    "detail": "最新分析指出，AI 代理正在自主决定使用哪些开发工具，如 Resend 因 API 简单被代理首选，超越老牌竞品。这意味着软件增长策略需从面向人类转向面向代理。默认设置和 API 友好度成为关键，企业需优化产品以适应代理自动调用，否则将在 2027 年的代理经济中失去先机。开发者需关注代理偏好，简化集成流程，以捕捉自动化带来的流量红利。传统的销售与营销手段对代理无效，产品本身的易用性与文档结构将决定市场占有率，这是一场无声的渠道变革。",
+    "tags": [
+      "News",
+      "Strategy",
+      "Agents"
+    ],
+    "link": "https://improbabilityvc.substack.com/p/growth-in-the-age-of-agents",
+    "date": "2026-03-27",
+    "id": "17746407116582"
+  },
+  {
+    "title": "agr 工具实现团队 AI 技能共享",
+    "summary": "新工具 agr 允许团队通过 git 同步 AI 编码技能配置。",
+    "detail": "开发者工具 agr 更新团队协作功能，允许通过 `agr.toml` 文件在团队间共享 AI 编码技能。支持 Claude Code、Cursor 等多种工具，成员运行 `agr sync` 即可同步配置。该方案类似 package.json 管理依赖，解决了团队 AI 工作流不一致的问题，提升协作效率。确保所有成员使用相同的 AI 技能集，减少环境配置摩擦，加速新项目上手速度。通过 Git 提交配置文件，团队可实现技能版本控制，便于回滚与审计，是 AI 辅助编程走向工程化管理的重要实践。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "Workflow"
+    ],
+    "link": "https://kasperjunge.github.io/agent-resources/teams/",
+    "date": "2026-03-27",
+    "id": "17746407116584"
+  },
+  {
     "title": "开发者热议：本地 AI 编程硬件配置方案",
     "summary": "HN 社区讨论本地部署 AI 模型辅助编程的硬件配置与成本效益。",
     "detail": "Hacker News 用户发起讨论，分享自建硬件托管模型以替代 Cursor 或 Claude 付费服务的经验。开发者关注如何在家庭环境中平衡成本与性能，实现隐私保护下的代码辅助。这反映了社区对本地化 AI 推理需求的增长，以及对减少依赖云端订阅制服务的探索趋势，硬件配置成为关键议题。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.praetorian.com/blog/ai-driven-offensive-security/",
     "date": "2026-03-26",
     "id": "17745446847567"
-  },
-  {
-    "title": "Agentis：支持 12 家大模型的多智能体开源平台",
-    "summary": "开源多智能体平台，支持 12 家 LLM 提供商，实时 3D 可视化协作。",
-    "detail": "Agentis 是一个开源的多智能体 AI 平台，旨在解决单一模型无法处理复杂任务的问题。它允许用户在 12 个不同的 LLM 提供商之间部署专门的智能体舰队，如研究员、编码员等。核心亮点在于其实时 3D 可视化功能，用户可以通过六边形节点和曲线边缘观察智能体的思考、协作及交付过程。该平台提供商无关，支持实时令牌跟踪，适合需要多模型协作的大型任务场景，为开发者提供了透明的多智能体工作流管理工具。",
-    "tags": [
-      "New",
-      "Dev",
-      "Multi-Agent"
-    ],
-    "link": "https://github.com/Dhwanil25/Agentis",
-    "date": "2026-03-26",
-    "id": "17745376295090"
-  },
-  {
-    "title": "Palantir CEO：AI 时代只有两类人能成功",
-    "summary": "Alex Karp 指出职业技能与神经多样性人才将在 AI 时代脱颖而出。",
-    "detail": "Palantir 首席执行官 Alex Karp 在接受采访时提出了关于 AI 时代职业成功的独特见解。他认为未来只有两类人能在 AI 浪潮中取得成功：拥有特定职业技能的人以及具有神经多样性特质的人才。这一观点强调了在自动化普及的背景下，专业技能和独特认知风格的重要性。该言论针对 Gen Z 的职业建议，反映了科技领袖对劳动力市场转型的看法，提示从业者需关注不可替代的技能培养。",
-    "tags": [
-      "News",
-      "Industry",
-      "Career"
-    ],
-    "link": "https://fortune.com/2026/03/24/palantir-ceo-alex-karp-two-people-successful-in-ai-era-vocational-skills-neurodivergence-gen-z-career-advice/",
-    "date": "2026-03-26",
-    "id": "17745376295091"
-  },
-  {
-    "title": "LangChain 发布 Agent Middleware 自定义智能体框架",
-    "summary": "介绍如何通过中间件自定义 Agent Harness，优化核心循环。",
-    "detail": "LangChain 博客详细介绍了如何使用“代理中间件”（Agent Middleware）来自定义智能体框架。文章解释了 Agent Harness 是连接 LLM 与环境、数据和工具的核心系统。虽然核心循环简单，但不同用例需要不同的定制。中间件允许开发者在不改变核心架构的情况下，自定义执行前的步骤或工具输出检查。这为构建特定应用场景的智能体提供了灵活性，使开发者能在 LangChain 坚实基础之上实现更强大的定制化功能。",
-    "tags": [
-      "Dev",
-      "LangChain",
-      "Tutorial"
-    ],
-    "link": "https://blog.langchain.com/how-middleware-lets-you-customize-your-agent-harness/",
-    "date": "2026-03-26",
-    "id": "17745376295092"
-  },
-  {
-    "title": "iOS 开发必备：针对 Swift 优化的 AI 编程助手工具",
-    "summary": "汇总专为 Swift 设计的 AI 技能包，解决并发与性能问题。",
-    "detail": "针对 AI 编码助手在 Swift 开发中常出现的过时 API 建议或并发错误，iOS 社区构建了专用工具集。文章介绍了多位开发者维护的“代理技能”（Agent Skills），如 Antoine van der Lee 提供的 SwiftUI 状态管理和并发技能。这些技能包将生产经验加载到 AI 助手中，使其理解现代 Swift 模式。此外，还包括用于自动化分发的 CLI 工具和连接 Xcode 的 MCP 服务器，显著提升了 AI 在 iOS 开发中的实用性和准确性。",
-    "tags": [
-      "Dev",
-      "iOS",
-      "Swift"
-    ],
-    "link": "https://onmyway133.com/posts/what-ai-tools-to-use-for-ios-development/",
-    "date": "2026-03-26",
-    "id": "17745376295093"
   }
 ]
