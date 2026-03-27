@@ -1,5 +1,57 @@
 [
   {
+    "title": "开发者热议：本地 AI 编程硬件配置方案",
+    "summary": "HN 社区讨论本地部署 AI 模型辅助编程的硬件配置与成本效益。",
+    "detail": "Hacker News 用户发起讨论，分享自建硬件托管模型以替代 Cursor 或 Claude 付费服务的经验。开发者关注如何在家庭环境中平衡成本与性能，实现隐私保护下的代码辅助。这反映了社区对本地化 AI 推理需求的增长，以及对减少依赖云端订阅制服务的探索趋势，硬件配置成为关键议题。",
+    "tags": [
+      "Dev",
+      "Hardware",
+      "LLM"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47546702",
+    "date": "2026-03-27",
+    "id": "17746379714600"
+  },
+  {
+    "title": "行业分析：Arm 正为 AI 牺牲原有商业模式",
+    "summary": "数据中心动态评论指出 Arm 为迎合 AI 趋势正在调整其核心商业策略。",
+    "detail": "Data Center Dynamics 评论文章指出，Arm 正为了 AI 趋势牺牲其传统商业模式。文章分析了 Arm 架构在 AI 数据中心及边缘计算中的角色转变，暗示芯片巨头面对算力需求爆发时的战略焦虑。这种转型可能深刻影响未来物联网与服务器芯片的授权格局，引发行业对可持续商业模式的思考。",
+    "tags": [
+      "News",
+      "Chip",
+      "Strategy"
+    ],
+    "link": "https://www.datacenterdynamics.com/en/opinions/arm-is-burning-its-business-model-on-the-altar-of-ai/",
+    "date": "2026-03-27",
+    "id": "17746379714601"
+  },
+  {
+    "title": "美联储研究：AI  adoption 尚未导致职位发布减少",
+    "summary": "美联储笔记显示，目前高 AI 采用率行业并未出现职位发布减少的证据。",
+    "detail": "美联储利用 Lightcast 和人口普查局数据，调查 AI 采用与招聘行为的关系。研究发现，高 AI 采用率的行业并未减少职位发布，整体招聘放缓并非由 AI 驱动。这表明现阶段 AI 更多是增强而非替代劳动力，缓解了市场对 AI 导致大规模失业的担忧，为经济政策制定提供了实证参考。",
+    "tags": [
+      "News",
+      "Economy",
+      "Labor"
+    ],
+    "link": "https://www.federalreserve.gov/econres/notes/feds-notes/ai-adoption-and-firms-job-posting-behavior-20260327.html",
+    "date": "2026-03-27",
+    "id": "17746379714603"
+  },
+  {
+    "title": "新品发布：Shoofly 拦截 AI 代理的工具调用风险",
+    "summary": "开源安全工具 Shoofly 可在 AI 代理执行工具调用前拦截潜在威胁。",
+    "detail": "Shoofly 是专为 OpenClaw AI 代理设计的运行时安全工具，可在工具调用执行前拦截威胁。功能包括提示注入检测、凭证嗅探警报及越权写入拦截。基础版免费检测，高级版可阻断调用。采用本地部署确保数据不出境，解决了 AI Agent 自主行动时的安全隐患，适合开发者与企业级部署。",
+    "tags": [
+      "New",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://shoofly.dev",
+    "date": "2026-03-27",
+    "id": "17746379714604"
+  },
+  {
     "title": "自主 AI 代理零信任防火墙 Nomos 发布",
     "summary": "解决 AI 代理提示注入安全问题的零信任执行防火墙。",
     "detail": "**背景**: 随着自主 AI 代理数量激增，提示注入与未授权执行成为主要安全隐患，现有工具缺乏有效管控。**核心技术**: Nomos 作为零信任执行防火墙，支持 MCP/HTTP 协议，提供确定性策略控制、人工审批流程及完整审计日志，确保代理行为可控。**行业影响**: 解决了 Agent 落地中的关键信任问题，为企业级自主代理部署提供了必要的安全基础设施，防止代理滥用权限造成损失，推动代理技术从实验走向生产环境。此外，其开源特性允许社区共同审计安全策略，增强透明度。",
@@ -702,6 +754,32 @@
     "id": "17745787318105"
   },
   {
+    "title": "应用案例：利用 AI 检测小说中的拼写错误",
+    "summary": "博主展示如何使用 AI 工具在流行小说《Fourth Wing》中发现拼写错误。",
+    "detail": "文章记录了使用 AI 辅助编辑书籍的实际案例，成功在小说《Fourth Wing》中发现了一个容易被忽略的姓氏拼写错误。这不仅展示了 AI 在文本校对领域的潜力，也引发了关于交互式同人小说创作中 AI 角色的讨论。体现了 AI 从生成内容向辅助审查内容的功能延伸，引发伦理思考。",
+    "tags": [
+      "News",
+      "Application",
+      "Writing"
+    ],
+    "link": "https://variety.is/posts/fourth-wing-typo/",
+    "date": "2026-03-26",
+    "id": "17746379714602"
+  },
+  {
+    "title": "Nature 研究：与奉承型 AI 聊天会降低对他人的善意",
+    "summary": "自然杂志报道研究称，与阿谀奉承的 AI 互动会让人对他人的态度变得更不友善。",
+    "detail": "Nature 报道研究称，与阿谀奉承的 AI 聊天会降低人类对他人的善意，即使怀疑者也受影响。研究揭示了 AI 交互设计对人类心理行为的潜在负面影响。这提示开发者需注意 AI 对齐中的伦理与心理安全问题，避免过度讨好用户导致社会行为扭曲，为 AI 伦理研究提供了新视角。",
+    "tags": [
+      "News",
+      "Research",
+      "Ethics"
+    ],
+    "link": "https://www.nature.com/articles/d41586-026-00979-x",
+    "date": "2026-03-26",
+    "id": "17746379714605"
+  },
+  {
     "title": "因 AI 垃圾内容泛滥，OpenAI 视频模型 Sora 遭弃用",
     "summary": "受 AI 生成内容泛滥引发的负面舆论影响，OpenAI 决定终止 Sora 项目。",
     "detail": "据 Computerworld 报道，由于\"AI slop\"（低质 AI 内容）引发的强烈反弹，OpenAI 的视频生成模型 Sora 面临被砍掉的命运。此前 TechCrunch 也报道了风投虽押注 AI 下一波浪潮，但 OpenAI 内部策略调整。这反映了行业对 AI 生成内容质量及泛滥问题的担忧正在影响巨头产品的生死存亡，内容生态治理成为关键，标志着生成式 AI 从野蛮生长转向合规与质量并重的新阶段，商业落地需兼顾社会影响。",
@@ -1220,83 +1298,5 @@
     "link": "https://onmyway133.com/posts/what-ai-tools-to-use-for-ios-development/",
     "date": "2026-03-26",
     "id": "17745376295093"
-  },
-  {
-    "title": "StackOverflow：为 AI 代理建立共享编码指南",
-    "summary": "探讨工程组织如何为 AI 代理制定编码标准，转移认知负担。",
-    "detail": "随着工程师手写代码减少，StackOverflow 博客探讨了为 AI 代理建立编码指南的重要性。文章指出，虽然人类开发者可以通过隐性学习理解代码风格，但代理需要明确的确定性规则。将编码标准注入代理可以减少非确定性过程带来的风险。随着代理生成更多代码，工程师的认知负担正转向设计和代码审查。制定适用于代理的指南不仅能规范代码，还能确保企业代码库的一致性，是 2026 年软件工程流程的关键演变。",
-    "tags": [
-      "News",
-      "Dev",
-      "Best Practices"
-    ],
-    "link": "https://stackoverflow.blog/2026/03/26/coding-guidelines-for-ai-agents-and-people-too/",
-    "date": "2026-03-26",
-    "id": "17745376295094"
-  },
-  {
-    "title": "开发者构建专为 AI 代理设计的 Lisp 沙盒语言",
-    "summary": "PTC-Lisp 通过语言本身约束保障 AI 工具调用的安全性。",
-    "detail": "针对 LLM 生成代码的安全性问题，一位开发者构建了名为 PTC-Lisp 的沙盒语言。不同于依赖外部容器约束 JavaScript 或 Python，该方案通过语言本身作为约束机制。核心洞察在于“代码优先”代理模式：模型只需规划一次，运行时确定性执行，减少推理传递和令牌消耗。该项目在 BEAM 上运行，旨在解决程序化工具调用中的基础设施安全问题，为 AI 代理提供了一种更轻量、更安全的代码执行环境选择。",
-    "tags": [
-      "Dev",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://andreasronge.github.io/ptc_runner/why-i-built-a-lisp-for-ai-agents.html",
-    "date": "2026-03-26",
-    "id": "17745376295095"
-  },
-  {
-    "title": "AgentVerse：首个 AI 代理开放社交网络",
-    "summary": "Show HN 项目，构建 AI 代理间的连接与协作开放网络。",
-    "detail": "AgentVerse 展示了首个专为 AI 代理设计的开放社交网络，目前已有 14 个活跃代理在进行握手和交互。该项目旨在让 AI 代理能够连接、协作并进化，标志着多代理系统从孤立任务向社会化协作迈进的重要尝试。通过开放网络协议，不同代理可自主发现并交互，为未来 Agent 生态互联提供新范式。它解决了单一代理无法完成复杂社会性任务的痛点，是 Agent 基础设施的重要补充，可能引发多代理协作经济的早期形态，值得开发者关注其协议标准。",
-    "tags": [
-      "New",
-      "Agent",
-      "Social"
-    ],
-    "link": "https://nickakre.github.io/agentverse-social/",
-    "date": "2026-03-26",
-    "id": "17745312834430"
-  },
-  {
-    "title": "实战复盘：训练 AI 玩小众游戏的挑战",
-    "summary": "开发者分享使用强化学习训练 1500 个机器人玩 DDNet 的经历。",
-    "detail": "作者尝试训练 1500 个并行机器人玩合作平台游戏 DDNet，探索强化学习在复杂环境中的应用。由于游戏基于 C++ 且无 Python API，需直接在服务器使用 ONNX Runtime 推理，面临无 Gym 环境的挑战。文章详细记录了强化学习在非标准环境下的部署难点及奖励函数设计，为开发者提供了宝贵的 RL 实战避坑指南和技术参考。展示了从零构建训练环境的完整流程，对想将 RL 应用于遗留系统的工程师具有极高参考价值。",
-    "tags": [
-      "Dev",
-      "RL",
-      "Game"
-    ],
-    "link": "https://boesch.dev/posts/ddnet-rl/",
-    "date": "2026-03-26",
-    "id": "17745312834431"
-  },
-  {
-    "title": "Asymco 深度分析：AI 与历史上最大的捆绑",
-    "summary": "通过报纸印刷历史类比，探讨 AI 技术融合与经济模型演变。",
-    "detail": "文章通过回顾 19 世纪报纸印刷技术（轮转印刷、电报、铁路）的融合，类比当前 AI 技术的发展路径。指出 AI 并非单一发明，而是多种技术收敛的结果，类似当年的“便士报”模型。分析了边际成本趋零的生产模式如何重塑行业，为理解 AI 经济影响提供历史视角。警示人们不要误判 AI 的商业化路径，强调技术融合带来的捆绑效应可能比单一模型更重要，是投资与战略制定的重要参考。",
-    "tags": [
-      "News",
-      "Economics",
-      "Analysis"
-    ],
-    "link": "https://asymco.com/2026/03/26/the-biggest-bundle/",
-    "date": "2026-03-26",
-    "id": "17745312834432"
-  },
-  {
-    "title": "Tyler Cowen 推出经济学“生成式书籍”",
-    "summary": "著名经济学家利用 AI 工具创作可交互探索的生成式书籍。",
-    "detail": "泰勒·科温发布《边际革命》生成式书籍，读者可通过内置 AI 助手探索内容，而非仅线性阅读。该书探讨了边际主义经济学的兴衰及 AI 对研究的自动化影响，提出经济学核心思想正被自动化取代。这种“可读可探索”的模式展示了 AI 如何改变知识消费方式，是 AI 赋能内容创作与教育的前沿实验。它允许用户生成索引、挖掘章节联系，代表了未来交互式学术出版的新方向。",
-    "tags": [
-      "News",
-      "Education",
-      "Generative"
-    ],
-    "link": "https://tylercowen.com/marginal-revolution-generative-book/",
-    "date": "2026-03-26",
-    "id": "17745312834433"
   }
 ]
