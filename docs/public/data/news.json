@@ -1,5 +1,83 @@
 [
   {
+    "title": "Superfast 发布企业级 AI Agent 认知记忆图框架",
+    "summary": "解决 RAG 扩展性问题，引入 Rust 引擎与功能本体论。",
+    "detail": "Superfast 更新了 Superpowers 代理框架，集成 FastMemory 并发 Rust 引擎。它将非结构化文本映射为 CBFDAE 功能本体，利用 Louvain 社区检测算法推导功能集群。相比传统 RAG，它在大规模场景下减少了语义噪声，为 Agent 提供了跨会话持久化的确定性逻辑层。该架构专为 Microsoft Fabric 和 AWS Glue 等企业环境设计，有效解决了扩展过程中的 token 浪费瓶颈，保持严格的 TDD 和苏格拉底式纪律，标志着企业级 Agent 记忆架构的重要演进，适合需要高可靠性记忆管理的开发团队。",
+    "tags": [
+      "New",
+      "Agent",
+      "RAG"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47539160",
+    "date": "2026-03-27",
+    "id": "17745882041610"
+  },
+  {
+    "title": "Ship with Claude 免费启动包：优化 AI 辅助开发心智模型",
+    "summary": "免费获取 5 个提示框架，修正 AI 辅助构建失败的根本原因。",
+    "detail": "该资源包指出开发者常错误地将 Claude 当作搜索引擎使用。它提供了一套维护性强的 AI 辅助项目工作流，包含 5 个核心提示框架及完整系统的预览。旨在帮助用户转变心智模型，避免因盲目信任 AI 输出而导致后期修复成本高昂的问题。适合希望提升代码质量的开发者，免费获取后可立即应用，解决 AI 辅助构建中常见的断裂与信任问题，提升长期项目可维护性，是优化人机协作流程的实用指南。",
+    "tags": [
+      "Deal",
+      "Claude",
+      "Dev"
+    ],
+    "link": "https://panavy.gumroad.com/l/skmaha",
+    "date": "2026-03-27",
+    "id": "17745882041611"
+  },
+  {
+    "title": "Agent Kernel：仅需 3 个 Markdown 文件打造有状态 AI 代理",
+    "summary": "无需数据库，利用 Git 仓库实现 Agent 记忆与身份持久化。",
+    "detail": "这是一个极简的 AI 代理内核，通过 `AGENTS.md`、`IDENTITY.md` 和 `KNOWLEDGE.md` 三个文件赋予任何 AI 编码代理（如 Claude Code、Cursor）记忆能力。它利用 Git 仓库管理状态，知识文件记录事实，笔记文件记录会话日志。无需额外框架或数据库，即可实现跨会话记忆和身份构建，极大降低了代理开发门槛。该方案兼容多种主流编码代理，通过简单的 Git 克隆即可启动，为构建有状态的自主代理提供了轻量级且版本可控的新范式，适合希望快速原型化的开发者。",
+    "tags": [
+      "New",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://agent-kernel.dev/?release=v1.23.0",
+    "date": "2026-03-27",
+    "id": "17745882041612"
+  },
+  {
+    "title": "AgentGuard 开源：为自主 AI 代理构建安全防火墙",
+    "summary": "提供策略执行与实时监督，防止自主代理执行危险操作。",
+    "detail": "针对自主 AI 代理日益增强的权限（如执行 shell、调用 API、移动资金），AgentGuard 提供了开源防火墙解决方案。它支持策略强制执行、实时监督和完整审计日志。当代理试图执行破坏性命令或调用生产 API 时，系统可拦截并通知人工审批，填补了当前代理部署中缺乏安全护栏的空白。随着 Agent 自主性增加，此类安全工具将成为企业部署的关键基础设施，防止意外损失并确保合规性，部分功能仍在积极开发中，是安全团队的重点关注对象。",
+    "tags": [
+      "New",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://github.com/Caua-ferraz/AgentGuard",
+    "date": "2026-03-27",
+    "id": "17745882041613"
+  },
+  {
+    "title": "行业分析：为何大多数 AI 项目在演示成功后仍失败",
+    "summary": "深入探讨 AI 项目从演示到生产环境的落地挑战与原因。",
+    "detail": "The New Stack 发文分析了 AI 项目在生产环境中失败的高发现象。文章指出，许多项目在演示阶段表现良好，但一旦进入实际生产流程，便因扩展性、维护性或集成问题而失败。该内容为行业从业者提供了关于 AI 工程化落地的深度反思，强调了从 Demo 到 Production 过程中需要关注的关键风险点。对于正在规划 AI 落地的企业，这是一份重要的避坑指南，提醒团队重视工程化基础设施而非仅关注模型效果，助力项目成功交付。",
+    "tags": [
+      "News",
+      "Industry",
+      "Analysis"
+    ],
+    "link": "https://thenewstack.io/ai-demo-to-production/",
+    "date": "2026-03-27",
+    "id": "17745882041614"
+  },
+  {
+    "title": "泄露显示 Anthropic 正在测试更强模型\"Claude Mythos\"",
+    "summary": "数据泄露揭示新模型存在，预计能力将有步骤性提升。",
+    "detail": "Fortune 报道指出，数据泄露显示 Anthropic 正在测试名为\"Claude Mythos\"的新 AI 模型。据悉该模型将带来能力的步骤性提升（step-change in capabilities）。尽管 Anthropic 尚未正式确认细节，但此次泄露引发了行业对下一代模型性能突破的关注。这可能标志着 AI 能力边界的再次扩展，竞争格局将进一步加剧。开发者需密切关注后续官方发布的技术报告与基准测试数据，以评估其对现有工作流及模型选型策略的潜在影响，行业可能迎来新一轮模型升级潮。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "LLM"
+    ],
+    "link": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/",
+    "date": "2026-03-27",
+    "id": "17745882041615"
+  },
+  {
     "title": "Shopify 推出免费 AI 创意工具集 Tinker",
     "summary": "Shopify 发布 Tinker 应用，提供免费视频、3D 模型生成等 AI 工具。",
     "detail": "Shopify 正式发布 Tinker 应用，为用户提供免费的 AI 创意工具，包括产品变形视频、虚拟试穿、3D 平面图生成等功能。此举旨在降低商家内容创作门槛，强化电商生态内的 AI 应用能力。免费策略可能加剧 C 端 AI 工具市场竞争，推动创意生成技术普及。商家可利用这些工具快速生成营销素材，提升转化率，同时降低外包设计成本，体现大厂布局 AI 应用层的决心。通过集成现有电商工作流，Tinker 有望成为商家标配工具，进一步巩固 Shopify 在电商基础设施领域的领先地位，促进 AI 技术在实际商业场景中的规模化落地。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/beee003/redswarm",
     "date": "2026-03-25",
     "id": "17744749559541"
-  },
-  {
-    "title": "PrunaAI 开源 AI 模型效率优化课程",
-    "summary": "涵盖模型构建、压缩、评估及部署的高效 AI 开发教程。",
-    "detail": "针对 AI 模型部署成本与效率问题，PrunaAI 开源了一套完整的效率优化课程。内容涵盖构建、压缩、评估及部署高效 AI 模型的全流程。随着大模型应用落地，模型推理成本与延迟成为关键瓶颈，该课程提供了实用的技术路径与最佳实践。适合希望优化现有 LLM 部署、降低推理成本的开发团队及研究人员，是提升 AI 工程化能力的重要学习资源，帮助开发者掌握模型压缩与评估的核心技术，应对日益增长的计算资源挑战。课程基于 GitHub 托管，便于社区协作与更新，反映了行业对高效能模型需求的增长，对于希望在边缘设备或低成本云环境中部署 AI 应用的工程师来说，这是掌握关键优化技能的必要途径，助力实现更广泛的模型落地。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Education"
-    ],
-    "link": "https://github.com/PrunaAI/ai-efficiency-courses",
-    "date": "2026-03-25",
-    "id": "17744749559542"
-  },
-  {
-    "title": "生物制药领域多智能体设计框架",
-    "summary": "整合 200+ 云工具，用于抗体与纳米抗体设计的多智能体编排。",
-    "detail": "该项目展示了一个专注于生物制药领域的 AI 智能体框架，旨在设计抗体、纳米抗体及从头结合剂。它通过多智能体编排技术，整合了 BoltzGen、PXDesign、Protenix 及 200 多个云工具。该项目强调了在垂直领域（如生物制药）中，深层技术整合比通用的 AI 代理包装器更具价值。标题呼吁开发者“停止为 AI 代理包装器付费”，转而关注底层技术。为生物科技公司及研究人员提供了利用 AI 加速药物发现的具体实现方案，体现了 AI for Science 的实际进展。项目展示了多智能体协作在复杂科学任务中的潜力，超越了简单的文本生成，深入到分子设计与生物流程优化，为垂直行业 AI 应用提供了参考架构，表明专业领域知识结合 AI 代理将是未来重要发展方向。",
-    "tags": [
-      "New",
-      "BioAI",
-      "Agent"
-    ],
-    "link": "https://github.com/001TMF/blatant-why",
-    "date": "2026-03-25",
-    "id": "17744749559543"
-  },
-  {
-    "title": "AI 电影制作新趋势：个人创作者的崛起",
-    "summary": "前人类学学生利用 AI 制作电影，被比作 AI 界的乔治·卢卡斯。",
-    "detail": "好莱坞报道者关注了一位来自洛杉矶的前人类学学生 Zack London，他利用 AI 工具制作电影并引发行业关注，被称为 AI 界的乔治·卢卡斯。其作品涉及\"Gossip Goblin\"等项目。该案例标志着 AI 生成内容（AIGC）从实验阶段走向专业影视制作的趋势。个人创作者借助 AI 降低了电影制作门槛，可能重塑内容生产流程。这对于关注 AI 在创意产业应用的投资者及从业者而言，是一个重要的行业信号，表明 AI 正在渗透至高壁垒的内容创作领域，改变传统制片模式。文章探讨了非传统背景人才如何利用新技术颠覆行业，反映了 AI 工具民主化带来的创作权力转移，预示着未来影视行业可能出现更多由 AI 驱动的小型工作室，挑战传统大片厂的制作垄断地位。",
-    "tags": [
-      "News",
-      "AIGC",
-      "Film"
-    ],
-    "link": "https://www.hollywoodreporter.com/movies/movie-news/gossip-goblin-zack-london-ai-films-watch-1236544634/",
-    "date": "2026-03-25",
-    "id": "17744749559544"
-  },
-  {
-    "title": "谷歌发布 TurboQuant 算法，AI 内存压缩高达 6 倍",
-    "summary": "谷歌实验室新算法引发热议，虽处实验阶段但潜力巨大。",
-    "detail": "谷歌最新推出的 TurboQuant 算法旨在解决 AI 内存占用过高问题。该无损压缩技术承诺将 AI 的“工作内存”缩小高达 6 倍，目前虽仍处于实验室实验阶段，但已引发科技圈广泛关注。网友戏称其为美剧《硅谷》中的 Pied Piper 算法，暗示其压缩能力惊人。若技术未来落地，将显著降低 AI 运行成本，提升边缘设备部署能力，是模型压缩领域的重要突破。对于依赖大内存运行的 LLM 而言，这可能是降低硬件门槛的关键一步，值得持续跟踪其后续进展及开源计划。",
-    "tags": [
-      "News",
-      "Google",
-      "Algorithm"
-    ],
-    "link": "https://techcrunch.com/2026/03/25/google-turboquant-ai-memory-compression-silicon-valley-pied-piper/",
-    "date": "2026-03-25",
-    "id": "17744713273590"
-  },
-  {
-    "title": "桑德斯提出新 AI 安全法案，拟暂停数据中心建设",
-    "summary": "美国参议员推动立法限制 AI 基础设施扩张，引发行业关注。",
-    "detail": "美国参议员伯尼·桑德斯提出新的 AI 安全法案，旨在暂停数据中心的建设。该提案反映了政策制定者对 AI 基础设施快速扩张带来的能源消耗及安全问题的担忧。若法案通过，将直接限制 AI 公司的算力扩张计划，影响行业增长节奏。此举标志着 AI 监管从模型层面向基础设施层面延伸，开发者需关注合规风险。对于依赖大规模算力训练的企业，这可能意味着成本上升或选址限制，行业需提前评估政策变动对长期战略的影响，并做好应对准备。",
-    "tags": [
-      "News",
-      "Policy",
-      "Regulation"
-    ],
-    "link": "https://www.wired.com/story/new-bernie-sanders-ai-safety-bill-would-halt-data-center-construction/",
-    "date": "2026-03-25",
-    "id": "17744713273591"
-  },
-  {
-    "title": "PostHog 分享构建 AI Agent 的核心经验与教训",
-    "summary": "团队复盘 Agent 开发历程，建议优先考虑 MCP 服务器集成。",
-    "detail": "PostHog 团队公开了构建 AI Agent 的实战经验与教训。他们指出，并非所有产品都需要内置自定义 Agent，通过 MCP 服务器让产品对 Agent 可访问往往是更优解。数据显示，34% 的 AI 创建仪表板通过 MCP 服务器完成。建议开发者优先考虑集成而非重构，利用现有工作流验证需求，降低维护成本并加速上线。这种思路强调了互操作性的重要性，避免重复造轮子。对于初创团队，这意味着可以更专注于核心业务逻辑，而非陷入 Agent 框架的复杂维护中，提高开发效率。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Best Practices"
-    ],
-    "link": "https://twitter.com/posthog/status/2036847339466301918",
-    "date": "2026-03-25",
-    "id": "17744713273592"
   }
 ]
