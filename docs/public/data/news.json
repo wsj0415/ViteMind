@@ -1,5 +1,83 @@
 [
   {
+    "title": "Entroly 上下文引擎：解锁 AI 编程全代码库可见性",
+    "summary": "上下文工程引擎，提升 AI 代码可见性，减少 78% Token。",
+    "detail": "针对当前 AI 编程工具上下文窗口限制导致代码可见性低的问题，Entroly 作为上下文工程引擎，声称能让 AI 看到 100% 代码库而非仅 5%。通过优化上下文管理，减少 78% 的 Token 消耗，兼容 Cursor、Claude Code 等主流工具。这对提升 AI 编程准确性和降低成本具有显著意义，是上下文工程领域的实用创新。开发者可借此优化工作流，解决长代码库理解难题，推动 AI 编程向更深层次发展。该项目托管于 GitHub，便于社区协作改进，适合需要处理大型代码库的团队集成使用，提升开发效率。同时减少 Token 消耗也直接降低了使用成本，对企业级应用尤为关键。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Coding"
+    ],
+    "link": "https://github.com/juyterman1000/entroly",
+    "date": "2026-03-28",
+    "id": "17747336136970"
+  },
+  {
+    "title": "Safari MCP：macOS 原生浏览器自动化低耗方案",
+    "summary": "macOS 原生 Safari 自动化 MCP 服务器，低能耗替代方案。",
+    "detail": "专为 macOS 设计的 Safari 浏览器自动化 MCP 服务器，通过 AppleScript 提供 80 种工具，实现零开销后台运行。相比 Chrome DevTools MCP，在 Apple Silicon 上减少 40-60% 的 CPU 占用和发热，为 AI Agent 提供了更高效的原生浏览器交互方案。该工具保持登录状态且静默运行，适合需要长期自动化任务的场景。作为 Model Context Protocol 的扩展，它增强了 AI 代理在本地环境的操作能力，降低了资源消耗，是 macOS 用户构建本地 AI 工作流的理想选择，体现了原生应用集成的优势。",
+    "tags": [
+      "Dev",
+      "MCP",
+      "Automation"
+    ],
+    "link": "https://github.com/achiya-automation/safari-mcp",
+    "date": "2026-03-28",
+    "id": "17747336136971"
+  },
+  {
+    "title": "AI Cost Firewall：基于语义缓存的 API 成本优化网关",
+    "summary": "Rust 编写 AI 网关，语义缓存降低 API 成本。",
+    "detail": "基于 Rust 开发的 OpenAI 兼容网关，旨在降低 LLM API 成本。结合 Redis 精确缓存与 Qdrant 语义缓存，有效减少重复请求。支持 Docker 部署，适合需要控制 AI 应用运营成本的开发团队，是基础设施优化的重要工具。通过语义缓存，系统能识别相似请求并直接返回结果，大幅减少 Token 消耗。该方案兼容主流 API 标准，易于集成到现有架构中。对于高频调用 AI 接口的企业，此工具能显著降低账单支出，同时保持响应速度，是 AI 工程化落地中成本控制的关键组件。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Infrastructure"
+    ],
+    "link": "https://github.com/vcal-project/ai-firewall",
+    "date": "2026-03-28",
+    "id": "17747336136972"
+  },
+  {
+    "title": "CVE Guard：AI 生成代码的离线安全扫描器",
+    "summary": "开源 AI 生成代码 CVE 扫描器，离线零 API 调用。",
+    "detail": "针对 AI 生成代码依赖的安全扫描工具，无需 API 调用即可离线工作，专门扫描项目中的 CVE 漏洞。随着 AI 生成代码普及，依赖安全风险增加，该工具提供了零隐私泄露风险的本地化安全解决方案，保障供应链安全。它直接扫描项目依赖，识别潜在漏洞，适合对数据隐私敏感的企业环境。无需联网特性确保了代码不外泄，符合严格的安全合规要求。这是 AI 安全领域的重要补充，帮助开发者在享受 AI 编程便利的同时，有效管控引入的第三方依赖风险，维护系统稳定性。",
+    "tags": [
+      "Dev",
+      "Security",
+      "AI Safety"
+    ],
+    "link": "https://github.com/Noumenon-ai/cve-guard",
+    "date": "2026-03-28",
+    "id": "17747336136973"
+  },
+  {
+    "title": "斯坦福研究：警示 AI 聊天机器人个人建议风险",
+    "summary": "斯坦福研究警告向 AI 寻求个人建议的潜在风险。",
+    "detail": "斯坦福大学最新研究指出，向 AI 聊天机器人寻求个人建议存在潜在危险。研究强调了 AI 在心理、医疗等敏感领域建议的局限性。这对 AI 伦理和安全监管提出新挑战，提醒用户在依赖 AI 决策时需保持谨慎，行业需加强安全对齐。该研究揭示了当前模型在缺乏专业训练数据下的幻觉风险，可能导致误导性建议。对于 AI 服务提供商，这意味着需要更明确的风险提示和边界设定。公众教育也至关重要，需培养用户正确看待 AI 辅助决策的能力，避免过度依赖导致负面影响。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Ethics"
+    ],
+    "link": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
+    "date": "2026-03-28",
+    "id": "17747336136974"
+  },
+  {
+    "title": "构建 AI Agent 基础：核心循环与思维模型解析",
+    "summary": "详解 AI Agent 核心循环，区分聊天机器人与代理。",
+    "detail": "深度解析 AI Agent 构建基础，区分聊天机器人与代理的核心差异。强调“感知 - 推理 - 行动”循环的重要性，指出代理可 spawn 子代理处理复杂任务。为开发者提供了正确的思维模型，避免常见架构错误，是构建自主系统的重要指南。文章指出 Agent 不仅是带工具的聊天机器人，而是能自主达成目标的系统。通过拆解任务和维护状态，Agent 能处理单上下文窗口无法胜任的工作。这对当前泛滥的 Agent 开发教程提供了纠偏，帮助开发者建立扎实的理论基础，提升系统鲁棒性和任务完成率。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "Tutorial"
+    ],
+    "link": "https://sixdegree.ai/blog/building-agents-fundamentals",
+    "date": "2026-03-28",
+    "id": "17747336136975"
+  },
+  {
     "title": "Mistral CEO 谈模型商品化与行业未来",
     "summary": "Mistral CEO 探讨模型同质化下的商业策略与开源趋势。",
     "detail": "Mistral CEO Arthur Mensch 做客 Big Technology Podcast，深入分析 **AI 模型商品化**后的行业格局。他指出，随着基础模型性能趋同，竞争焦点将转向应用层构建。访谈涵盖了开源与闭源模型的博弈、地缘政治影响及盈利模式转变，并探讨了实际工业应用。这对投资者和开发者理解未来 AI 价值链转移具有重要参考意义，标志着行业从模型竞赛转向应用落地的关键节点，平衡权力正在发生变化。企业需重新评估护城河，从模型性能转向数据闭环与用户体验，开源生态可能在这一过程中扮演更关键角色，重塑开发者社区与商业化的关系。",
@@ -1220,83 +1298,5 @@
     "link": "https://financialdata.net/mcp-server",
     "date": "2026-03-27",
     "id": "17746340421263"
-  },
-  {
-    "title": "AI 编码代理的残酷真相：幻觉与期望管理",
-    "summary": "深度分析 AI 编码代理的现状，指出幻觉问题与行业炒作。",
-    "detail": "**背景**: AI 编码代理兴起，但存在过度炒作，开发者期望与实际能力存在落差。**核心观点**: 作者基于多年观察，指出 LLM 幻觉仍存在，反馈循环虽有用但非万能，需理性看待。**行业影响**: 提醒开发者理性看待 Agent 能力，避免盲目依赖，对行业泡沫提出警示。文章强调人类监督的重要性，建议在关键代码路径上保持谨慎，有助于建立更健康的 AI 开发文化，防止因过度信任代理导致的技术债务积累。",
-    "tags": [
-      "News",
-      "Analysis",
-      "Coding"
-    ],
-    "link": "https://standupforme.app/blog/some-uncomfortable-truths-about-ai-coding-agents/",
-    "date": "2026-03-27",
-    "id": "17746340421264"
-  },
-  {
-    "title": "Google 发布 Gemini 3.1 Flash Live，提升音频 AI 自然度",
-    "summary": "Google 推出最新音频模型，旨在让 AI 语音交互更自然可靠，已整合至相关产品。",
-    "detail": "Google 正式发布 Gemini 3.1 Flash Live 模型，专注于优化音频 AI 的自然度与可靠性。该模型标志着 Google 在多模态交互上的进一步演进，旨在解决语音交互中的延迟与生硬问题。作为 Gemini 系列的重要更新，它已开始在 Google 产品线中部署，预示着实时语音交互将成为主流应用标准。此次更新不仅提升了用户体验，更展示了 Google 在端侧音频处理上的技术积累。对语音助手及实时翻译领域产生深远影响，是 2026 年音频 AI 赛道的重要里程碑，表明多模态模型正从文本主导向全感官交互转变。",
-    "tags": [
-      "News",
-      "Google",
-      "Multimodal"
-    ],
-    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
-    "date": "2026-03-27",
-    "id": "17746309311410"
-  },
-  {
-    "title": "风投押注 AI 下一波浪潮，OpenAI 却疑似放弃 Sora？",
-    "summary": "TechCrunch 探讨风投狂热背景下，OpenAI 对视频生成模型 Sora 的战略调整及其背后原因。",
-    "detail": "在风险投资向 AI 领域注入数十亿美元的背景下，TechCrunch 播客指出 OpenAI 可能正在调整甚至放弃视频生成模型 Sora 的开发。这一动向引发了行业对 AI 下一步发展焦点的猜测。文章分析了资本热潮与巨头战略收缩之间的矛盾，暗示生成式视频可能面临商业化瓶颈，或 OpenAI 正将资源转向更具确定性的 AGI 路径。值得投资者与开发者密切关注。这反映了 AI 行业正从盲目扩张转向注重实际落地与回报，视频生成赛道的竞争格局可能因此发生重大重组。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Venture"
-    ],
-    "link": "https://techcrunch.com/podcast/vcs-are-betting-billions-on-ais-next-wave-so-why-is-openai-killing-sora/",
-    "date": "2026-03-27",
-    "id": "17746309311411"
-  },
-  {
-    "title": "伊朗学校轰炸事件真相：AI 背锅背后的军事系统现实",
-    "summary": "卫报披露伊朗学校轰炸事件真相，矛头指向 Maven 系统而非聊天机器人，揭示 AI 军事化风险。",
-    "detail": "针对 2026 年 2 月伊朗学校轰炸事件，媒体最初质疑 Anthropic 的 Claude 参与了目标选择。然而卫报调查揭示，实际使用的是 Palantir 开发的 Maven 目标定位系统。该事件凸显了 AI 军事化应用的真实风险与公众认知之间的巨大鸿沟。相比聊天机器人的幻觉，基于情报数据的自动化决策系统才是当前战场上的实际威胁。八年前 Google 员工曾反对参与 Maven 项目，如今该系统已成基础设施。这引发了对 AI 战争伦理与监管的深刻讨论，警示我们关注底层决策算法而非表面交互。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Defense"
-    ],
-    "link": "https://www.theguardian.com/news/2026/mar/26/ai-got-the-blame-for-the-iran-school-bombing-the-truth-is-far-more-worrying",
-    "date": "2026-03-27",
-    "id": "17746309311412"
-  },
-  {
-    "title": "Show HN: Notme.bot 开源规范，解决 AI Agent 身份安全难题",
-    "summary": "推出开源身份层规范，使用加密证书替代 bearer token，确保 AI Agent 身份独立且可撤销。",
-    "detail": "Notme.bot 发布了一项开源规范，旨在解决 AI Agent 使用人类凭证带来的安全隐患。当前 90% 的 AI 编码工具直接使用用户凭证，一旦泄露后果严重。该方案引入 Signet 身份原语和 APAS 代理标准，为 Agent 提供独立、临时且加密的身份证书。相比传统 PAT 令牌，新方案支持细粒度权限控制与实时撤销。这标志着 AI 安全从“用户身份复用”向“机器身份独立”转变，为大规模 Agent 部署奠定了信任基础，解决了开发者最担心的凭证泄露与责任归属问题。",
-    "tags": [
-      "New",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://notme.bot",
-    "date": "2026-03-27",
-    "id": "17746309311413"
-  },
-  {
-    "title": "开发者实战：如何在终端工作流中实现 AI Native 化",
-    "summary": "Augment Code 分享如何在现有终端习惯中集成 AI 代理，无需切换 IDE 即可提升效率。",
-    "detail": "文章探讨了开发者如何在不完全改变现有习惯的前提下实现\"AI Native\"。作者展示了如何在基于终端的工作流（SSH, tmux, Vim）中集成 AI 代理子命令。核心观点是不必强制适应新 IDE，而是让 Agent 适应现有工作流。通过自动化标准开发步骤，开发者可以在保持高效的同时利用 AI 能力。这对习惯命令行的高级开发者具有极高的参考价值，提供了切实可行的集成路径。表明 AI 工具链正从独立应用向嵌入现有开发者生态转变，降低了采纳门槛。",
-    "tags": [
-      "Dev",
-      "Workflow",
-      "Productivity"
-    ],
-    "link": "https://www.augmentcode.com/blog/ai-native-in-the-terminal-workflow",
-    "date": "2026-03-27",
-    "id": "17746309311414"
   }
 ]
