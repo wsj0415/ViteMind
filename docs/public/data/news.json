@@ -1,5 +1,44 @@
 [
   {
+    "title": "CERN 将微型 AI 模型烧录至硅片用于实时数据过滤",
+    "summary": "CERN 利用定制硅片上的微型 AI 模型实时过滤 LHC 海量数据。",
+    "detail": "**背景**：大型强子对撞机 (LHC) 每年产生约 4 万 EB 数据，传统存储无法负荷。\n**核心技术**：CERN 弃用常规 GPU，转而使用烧录在 FPGA/ASIC 上的超紧凑 AI 模型，在探测器级别实现微秒级实时筛选。\n**行业影响**：标志着 AI 硬件化在极端科学计算中的突破，为边缘侧实时 AI 处理提供了新范式，解决了海量数据实时筛选的难题。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Science"
+    ],
+    "link": "https://theopenreader.org/Journalism:CERN_Uses_Tiny_AI_Models_Burned_into_Silicon_for_Real-Time_LHC_Data_Filtering",
+    "date": "2026-03-28",
+    "id": "17746873769470"
+  },
+  {
+    "title": "利用 AI 逆向工程阿波罗 11 号代码",
+    "summary": "开发者利用 AI 分析 60 年代汇编代码，证明 AI 可处理遗留系统。",
+    "detail": "**背景**：工程团队常担心“代码太旧 AI 无法处理”，尤其是非 Python/TS 的遗留系统。\n**核心技术**：项目成功利用 AI 分析了 1960 年代阿波罗 11 号的 4 万行汇编代码，公开了完整提示词与流程追踪。\n**行业影响**：证明了 AI Agent 在理解极端遗留系统方面的潜力，为现代企业重构老旧代码库提供了强有力的信心与参考案例。",
+    "tags": [
+      "Dev",
+      "Legacy Code",
+      "AI Agents"
+    ],
+    "link": "https://www.airealist.ai/p/reverse-engineering-the-apollo-11",
+    "date": "2026-03-28",
+    "id": "17746873769471"
+  },
+  {
+    "title": "Layer：无需修改 gitignore 即可隐藏个人 AI 文件",
+    "summary": "新的 Rust 工具帮助开发者在 Git 中排除个人 AI 上下文文件。",
+    "detail": "**背景**：团队协作中，个人 AI 配置文件易误提交至仓库。\n**核心功能**：Rust 包 `git-layer` 管理 `.git/info/exclude`，在不污染 `.gitignore` 前提下排除个人文件。\n**行业影响**：解决了开发环境整洁性与安全性问题，特别适用于广泛使用 AI 编程助手的团队，避免了敏感上下文泄露风险。",
+    "tags": [
+      "New",
+      "DevTools",
+      "Rust"
+    ],
+    "link": "https://crates.io/crates/git-layer",
+    "date": "2026-03-28",
+    "id": "17746873769474"
+  },
+  {
     "title": "前沿 AI 公司招聘透露战略风向",
     "summary": "Epoch AI 分析头部实验室招聘，销售与硬件岗位激增。",
     "detail": "Epoch AI 深入分析了包括 OpenAI、Anthropic、xAI 和 Google DeepMind 在内的领先基础实验室的公开职位。研究发现，过去一年内销售和銷售相关招聘急剧增加，Anthropic 的 GTM 岗位占比从 17% 增至 31%，OpenAI 从 18% 增至 28%。这种增长集中在帮助客户部署 AI 的技术角色上。此外，职位列表还揭示了产品路线图，如 OpenAI 和 DeepMind 都在投资机器人和消费类硬件产品。这表明前沿 AI 公司正从单纯的技术研发转向商业化落地及硬件集成，预示着 AI 代理和实体交互将成为下一阶段竞争焦点。招聘数据成为洞察巨头战略意图的关键窗口。",
@@ -115,6 +154,19 @@
     "link": "https://warontherocks.com/2026/03/your-defense-code-is-already-ai-generated-now-what/",
     "date": "2026-03-28",
     "id": "17746738735564"
+  },
+  {
+    "title": "AI 研究正因地缘政治因素逐渐分裂",
+    "summary": "Wired 报道 AI 研究难以脱离地缘政治影响，中西方技术路线分化。",
+    "detail": "**背景**：随着 AI 技术战略价值提升，全球合作面临挑战。\n**核心观点**：文章指出中国与其他国家的技术生态逐渐隔离，AI 研究正沿地缘政治界线分裂。\n**行业影响**：这可能严重影响开源协作与模型标准化进程。行业参与者需密切关注供应链与研究合作的潜在风险，警惕全球 AI 技术栈出现不可逆的碎片化。",
+    "tags": [
+      "News",
+      "Geopolitics",
+      "Industry"
+    ],
+    "link": "https://www.wired.com/story/made-in-china-ai-research-is-starting-to-split-along-geopolitical-lines/",
+    "date": "2026-03-27",
+    "id": "17746873769472"
   },
   {
     "title": "Hollow：面向 AI 代理的无服务器 Web 感知层",
@@ -1246,57 +1298,5 @@
     "link": "https://www.hoover.org/news/ai-will-test-governments-jobs-training-and-public-trust-hoover-panels-warn",
     "date": "2026-03-26",
     "id": "17745681190460"
-  },
-  {
-    "title": "RunKoda 发布：支持 AI 代理协作的云 IDE",
-    "summary": "新型云开发环境 RunKoda 上线，集成 AI 助手与实时协作功能，支持多语言无需安装。",
-    "detail": "RunKoda 推出全新 AI 驱动的云 IDE，主打实时协作与智能代理。开发者可在浏览器中直接使用预装环境的 Docker 容器，支持 Python、Go 等多种语言。其 AI 助手能理解整个代码库，提供上下文感知建议，且确保多代理工作时不冲突。内置 Git 集成与实时预览，旨在提升团队开发效率与部署速度。",
-    "tags": [
-      "New",
-      "IDE",
-      "DevTool"
-    ],
-    "link": "https://runkoda.com/",
-    "date": "2026-03-26",
-    "id": "17745681190461"
-  },
-  {
-    "title": "开发者社区热议：AI 是否应列为 Git 共同作者",
-    "summary": "文章探讨 AI 生成代码的归属权，Claude Code 曾自动署名引发关于透明度的讨论。",
-    "detail": "随着 AI 编码助手普及，代码归属权成为新议题。文章作者主张应透明标注 AI 贡献，如同引用 Stack Overflow 链接。Anthropic 的 Claude Code 曾尝试自动在 commit 中添加共同作者署名，引发社区争议。此举触及开发伦理核心，即如何诚实记录代码来源。未来可能形成新的版本控制规范，要求明确区分人类与 AI 的贡献比例。",
-    "tags": [
-      "Dev",
-      "Ethics",
-      "Git"
-    ],
-    "link": "https://www.dariuszparys.com/should-ai-be-listed-as-a-co-author-in-your-git-commits/",
-    "date": "2026-03-26",
-    "id": "17745681190462"
-  },
-  {
-    "title": "硬核实践：7 美元 VPS 部署 AI 代理网关",
-    "summary": "开发者利用廉价 VPS 与 IRC 协议构建 AI 代理，可直接读取 GitHub 代码库回答问题。",
-    "detail": "一位开发者展示了低成本 AI 代理架构，将代理部署在月费 7 美元的 VPS 上，并使用 IRC 作为传输层。该代理连接个人 GitHub 仓库，能克隆代码、分析测试覆盖率并给出具体回答，而非泛泛而谈。架构包含安全边界隔离，通过 Cloudflare 代理与私有 IRC 通道确保安全性。此为边缘计算与 AI 结合的优秀案例，证明低成本基础设施亦可运行复杂代理逻辑。",
-    "tags": [
-      "Dev",
-      "Architecture",
-      "Agent"
-    ],
-    "link": "https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/",
-    "date": "2026-03-26",
-    "id": "17745681190463"
-  },
-  {
-    "title": "Reco 团队：用 AI 重写 JSONata 年省 50 万美元",
-    "summary": "SaaS 安全公司利用 AI 一天内完成代码重构，显著降低维护成本并提升效率。",
-    "detail": "SaaS 安全平台 Reco 分享案例，团队利用 AI 工具在一天内重写了 JSONata 查询语言实现。此举不仅大幅缩短开发周期，更预计每年节省 50 万美元成本。案例展示了 AI 在遗留代码重构、技术债务清理方面的巨大潜力。对于企业而言，合理利用 AI 进行代码现代化改造，可显著降低运营成本并提高系统安全性，是 AI 落地商业价值的典型证明。",
-    "tags": [
-      "Dev",
-      "CaseStudy",
-      "Efficiency"
-    ],
-    "link": "https://www.reco.ai/blog/we-rewrote-jsonata-with-ai",
-    "date": "2026-03-26",
-    "id": "17745681190464"
   }
 ]
