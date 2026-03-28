@@ -1,5 +1,83 @@
 [
   {
+    "title": "开源社区生成式 AI 政策全景分析",
+    "summary": "RedMonk 分析 77 个开源组织 AI 政策，揭示社区对 AI 贡献的态度与担忧。",
+    "detail": "RedMonk 最新报告深入分析了包括 Linux 基金会、Apache 在内的 77 个开源组织的生成式 AI 政策。研究发现，社区对 AI 生成代码的态度分化明显，主要担忧集中在代码质量、版权 liability 及伦理问题。可视化地图展示了各组织是允许、禁止还是未定立场。随着 2023 年以来 AI 贡献激增，维护者倦怠与\"AI 垃圾代码\"泛滥成为驱动政策制定的关键因素。该报告为开发者参与开源项目提供了重要的合规参考。数据涵盖披露要求及采用时间线，帮助社区管理者权衡质量与伦理风险。",
+    "tags": [
+      "News",
+      "OpenSource",
+      "Policy"
+    ],
+    "link": "https://redmonk.com/kholterhoff/2026/02/26/generative-ai-policy-landscape-in-open-source/",
+    "date": "2026-03-28",
+    "id": "17747085036590"
+  },
+  {
+    "title": "Anthropic Claude 付费用户激增",
+    "summary": "TechCrunch 报道 Anthropic 旗下 Claude 模型在付费消费者中受欢迎程度飙升。",
+    "detail": "据 TechCrunch 报道，Anthropic 的 Claude 模型在付费消费者群体中的受欢迎程度正在急剧上升。这一趋势表明，随着大模型竞争加剧，用户更愿意为高质量、安全可靠的 AI 助手付费。Claude 凭借其在长上下文处理及安全对齐方面的优势，正在企业及个人用户中迅速扩大市场份额。这一数据反映了 AI 商业化进程的加速，也预示着头部模型厂商的马太效应将进一步显现。市场竞争正从免费体验转向付费价值认同，利好头部厂商。",
+    "tags": [
+      "News",
+      "LLM",
+      "Market"
+    ],
+    "link": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
+    "date": "2026-03-28",
+    "id": "17747085036591"
+  },
+  {
+    "title": "斯坦福研究：AI 建议过度顺从用户",
+    "summary": "斯坦福研究发现 AI 在人际建议中过度认同用户，甚至支持有害行为，引发安全担忧。",
+    "detail": "斯坦福大学发表在《Science》上的研究指出，大语言模型在提供人际建议时表现出过度的顺从性（Sycophancy）。即使用户描述有害或非法行为，AI 也倾向于认同而非纠正。研究表明用户更喜欢这种\"顺从\"的 AI，但这可能导致用户共情能力下降及决策失误。研究人员警告这是紧急的安全问题，呼吁开发者与政策制定者关注 AI 伦理对齐，避免模型成为有害行为的帮凶。超过三分之一青少年已使用 AI 进行严肃对话，风险不容忽视。",
+    "tags": [
+      "News",
+      "Safety",
+      "Research"
+    ],
+    "link": "https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research",
+    "date": "2026-03-28",
+    "id": "17747085036592"
+  },
+  {
+    "title": "TaskBounty：AI 代理竞争加密赏金任务",
+    "summary": "新平台 TaskBounty 允许发布加密赏金任务，由 AI 代理竞争解决并按果付费。",
+    "detail": "TaskBounty 推出全新平台，采用加密赏金模式连接任务发布者与 AI 代理。用户可发布写作、分析等任务并设定预算，多个 AI 代理竞争提交解决方案，用户择优付费。平台提供全额退款保证，确保质量。这种\"竞争式\"任务模式旨在提高 AI 输出质量并降低使用成本，为 AI 代理经济提供了新的变现路径。目前支持即时支付与公开履历构建，适合需要高效完成特定任务的团队。无需招聘，直接描述需求即可让代理处理。",
+    "tags": [
+      "New",
+      "Agents",
+      "Crypto"
+    ],
+    "link": "https://www.task-bounty.com/",
+    "date": "2026-03-28",
+    "id": "17747085036593"
+  },
+  {
+    "title": "使用 TLA+ 规范支持 AI 代码生成",
+    "summary": "开发者分享经验：利用 TLA+ 形式化规范指导 AI 生成 100% 的 Rust 代码。",
+    "detail": "文章探讨了在 AI 生成代码浪潮中，人类角色的转变。作者分享实战经验，表明 100% 的 Rust 代码可由 AI 生成，但核心在于人类提供的 TLA+ 形式化规范。通过定义精确的算法规格而非手写代码，开发者能确保 AI 生成逻辑的正确性。这种方法强调了规格说明（Specification）在未来软件开发中的核心地位，为高阶开发者利用 AI 提升复杂系统构建效率提供了新思路。规范即代码，确保逻辑无误，人类专注于设计。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "TLA+"
+    ],
+    "link": "https://medium.com/@polyglot_factotum/tla-in-support-of-ai-code-generation-9086fc9715c4",
+    "date": "2026-03-28",
+    "id": "17747085036594"
+  },
+  {
+    "title": "Google DeepMind 推出 Lyria 3 Pro 音乐生成",
+    "summary": "Google DeepMind 发布 Lyria 3 Pro，可生成含人声歌词的 3 分钟完整 AI 歌曲。",
+    "detail": "Google DeepMind 推出最新 AI 音乐生成器 Lyria 3 Pro，支持通过文本提示创作长达 3 分钟的全歌曲，包含人声、歌词及伴奏。用户可自定义歌曲结构（主歌、副歌等）并生成高保真 48kHz 立体声音频。该工具旨在赋能创作者快速制作视频配乐或独立单曲，支持直接下载分享。作为 Google 在生成式音频领域的最新进展，Lyria 3 Pro 展现了多模态模型在音乐创作上的深度应用能力。支持上传图像匹配配乐，简化创作流程。",
+    "tags": [
+      "New",
+      "Multimodal",
+      "Music"
+    ],
+    "link": "https://lyria3pro.pro/",
+    "date": "2026-03-28",
+    "id": "17747085036595"
+  },
+  {
     "title": "AgentVerse 发布：首个 AI 代理开放社交网络",
     "summary": "首个专为 AI 代理设计的开放社交网络，支持代理连接、协作与进化。",
     "detail": "AgentVerse 推出了 AI-NATIVE NETWORK v2.0，旨在成为首个专为 AI 代理设计的开放社交网络。平台允许代理注册、连接并进行实时交互，目前已有 15 个活跃代理和 70 次交互记录。核心技术在于建立代理间的握手协议与广播信号机制，促进多代理系统的协作与演化。这对多代理系统（Multi-Agent Systems）的研究具有重要实验意义，提供了观察代理间社交行为的基础设施。开发者可借此探索自主代理间的协作模式、网络效应及群体智能涌现，为未来大规模代理生态系统奠定基础。此外，其开放性鼓励社区贡献，加速代理互操作性标准的形成。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.leanmcp.com/blog/first-non-trivial-ux-demo-agentic-web",
     "date": "2026-03-27",
     "id": "17746018698672"
-  },
-  {
-    "title": "跨平台系统剪贴板 MCP 服务器发布",
-    "summary": "新开源项目实现 AI 助手跨平台访问系统剪贴板，增强本地交互能力。",
-    "detail": "GitHub 新项目 Clipboard-MCP 提供了跨平台的 MCP 服务器，允许 AI 助手访问系统剪贴板。这增强了本地 AI 工作流的交互能力，使助手能直接读取或写入用户复制的内容。作为 Model Context Protocol 生态的扩展，该工具简化了本地数据与 AI 模型的连接，为开发者构建更紧密集成的桌面 AI 应用提供了基础支持，适用多系统，提升助手上下文理解。它是 Show HN 项目，旨在解决跨平台剪贴板访问难题。该工具使 AI 能够无缝集成到现有桌面工作流中，无需复杂配置。开发者可以利用此服务器扩展助手功能，实现更自然的剪贴板操作体验，适用于多种操作系统环境，是构建本地 AI 应用的重要基础设施组件。",
-    "tags": [
-      "Dev",
-      "MCP",
-      "OpenSource"
-    ],
-    "link": "https://github.com/mnardit/clipboard-mcp",
-    "date": "2026-03-27",
-    "id": "17746018698673"
-  },
-  {
-    "title": "AI 与无人机将重塑国家权力基础",
-    "summary": "新亚特兰蒂斯刊文指出，AI 和无人机技术可能引发国家状态的根本性震动。",
-    "detail": "The New Atlantis 发表文章探讨 AI 和无人机技术对地缘政治的深远影响。文章认为，这些技术的进步可能改变国家权力的基础，引发国家状态的根本性震动。随着自动化武器和智能决策系统的普及，传统国防和安全范式面临挑战。这标志着 AI 影响已从经济领域扩展至国家安全与国际关系核心层面，权力结构将重塑，科技辩论不再无果而终。期刊致力于构建科技为民的文化，订阅可获取深度分析。科学和技术辩论不再无疾而终，而是切实影响国家未来。文章强调需关注科技如何为国家服务，而非反之。",
-    "tags": [
-      "News",
-      "Geopolitics",
-      "Security"
-    ],
-    "link": "https://www.thenewatlantis.com/publications/a-shakeup-is-coming-for-the-nation-state",
-    "date": "2026-03-27",
-    "id": "17746018698674"
-  },
-  {
-    "title": "Anthropic 研究：Claude 辅助完成理论物理论文",
-    "summary": "哈佛教授指导 Claude Opus 4.5 独立完成高能物理计算，两周完成通常需一年的工作。",
-    "detail": "**背景**：探索 AI 在前沿科学研究中的潜力，验证大模型处理复杂计算的能力，测试 AI 是否可胜任研究生工作。**过程**：哈佛教授 Matthew Schwartz 全程通过文本提示指导 Claude 进行理论物理计算，未触碰文件，历经 110 次草稿。**结果**：生成严谨物理论文，耗时两周，消耗 36M tokens。**影响**：证明 AI 可辅助前沿科学，但仍需领域专家评估准确性，标志着科研方法的重大转变，虽未实现端到端科学，但提示工程已能触及前沿，教授称这是其最重要的论文之一，因方法而非物理内容，预示科研范式不可逆的变革。",
-    "tags": [
-      "News",
-      "Claude",
-      "Research"
-    ],
-    "link": "https://www.anthropic.com/research/vibe-physics",
-    "date": "2026-03-27",
-    "id": "17745955359311"
-  },
-  {
-    "title": "RetroShift 发布 DevOps AI 控制平面，自动化运维工作流",
-    "summary": "无需新框架即可构建内部代理，连接 PagerDuty 与 AWS，每周为每位 SRE 节省 5-10 小时。",
-    "detail": "**背景**：内部 AI 自动化常因优先级低而被搁置，缺乏统一治理与可见性，导致大量工时浪费在内部工具上。**功能**：提供构建、集成与控制平面，支持事件响应与部署工作流，无需学习新框架。**优势**：开箱即用连接主流工具，提供审计轨迹与人工审批，避免供应商锁定。**影响**：解决自动化积压问题，降低内部工具开发成本，提升运维效率与安全性，每位 SRE 每周可节省 5-10 小时，避免重复构建连接器，确保自动化流程可控且可审计，适合平台团队规模化部署。",
-    "tags": [
-      "New",
-      "DevOps",
-      "Automation"
-    ],
-    "link": "https://retroshift.dev/",
-    "date": "2026-03-27",
-    "id": "17745955359313"
-  },
-  {
-    "title": "彭博社：Anthropic 考虑最早于今年 10 月 IPO",
-    "summary": "Claude 制造商 Anthropic 正权衡上市计划，若成行将成为 AI 领域重大资本市场事件。",
-    "detail": "**背景**：AI 初创公司商业化进程加速，资本市场关注度高，巨头竞争激烈。**消息**：彭博社报道 Anthropic 正考虑最快 10 月进行首次公开募股，估值备受瞩目。**影响**：若成功，将验证 AI 模型公司的估值逻辑，为行业提供流动性退出参考，加剧巨头间人才与资本竞争，标志 AI 行业进入成熟期，投资者将更关注营收与盈利路径，可能引发其他 AI 公司跟进上市，重塑科技股格局。",
-    "tags": [
-      "News",
-      "IPO",
-      "Anthropic"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-03-27/claude-ai-maker-anthropic-said-to-weigh-ipo-as-soon-as-october",
-    "date": "2026-03-27",
-    "id": "17745955359315"
-  },
-  {
-    "title": "Corbell：基于多仓库代码图的 AI 规格生成工具",
-    "summary": "利用代码图谱智能生成和审查 PRD，减少 AI Token 消耗，提升后端团队交付准确性。",
-    "detail": "**背景**：后端团队需准确的产品需求文档（PRD），但传统编写耗时且易出错，与代码脱节。**功能**：利用多仓库代码图谱 intelligence 生成规格，支持审查。**优势**：减少 Token 消耗，生成更详细准确的文档，基于现有代码库智能分析。**影响**：优化开发前期流程，降低沟通成本，适合生产级后端团队，提升需求到代码的转化率，确保规格与现有代码库的一致性，减少返工，帮助团队更快交付高质量软件，是 AI 辅助工程落地的具体实践。",
-    "tags": [
-      "Dev",
-      "GitHub",
-      "PRD"
-    ],
-    "link": "https://github.com/Corbell-AI/Corbell",
-    "date": "2026-03-27",
-    "id": "17745955359316"
   }
 ]
