@@ -1,5 +1,57 @@
 [
   {
+    "title": "开发者 AI 工具使用数据洞察",
+    "summary": "匿名统计开发者使用 Claude、Cursor 等工具的 Token 消耗与模型偏好。",
+    "detail": "## 背景\n随着 AI 编码工具普及，开发者实际使用情况成为行业焦点，但缺乏透明数据。\n## 核心内容\ntokscale 项目通过本地命令匿名收集 Token 使用数据，不上传具体请求内容。统计显示 Anthropic 模型占比 54.1%，OpenAI 占 42.4%。其中 Claude Opus 4.5/4.6 是最常用模型，GPT-5.4 紧随其后。支持 Cursor、Claude Code 等多种主流工具。\n## 影响\n为开发者选择模型提供数据支持，反映企业级编码助手的市场格局，帮助团队优化成本与效率，揭示开发者对高性能模型的偏好。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Coding"
+    ],
+    "link": "https://vibecodingstats.com/",
+    "date": "2026-03-29",
+    "id": "17747772083150"
+  },
+  {
+    "title": "开源真人视频生成模型发布",
+    "summary": "DaVinci-MagiHuman 开源模型解决 AI 视频口型与动作不自然问题。",
+    "detail": "## 背景\nAI 生成视频常存在“恐怖谷”效应，动作与音频同步差，观众易察觉不自然，阻碍广泛应用。\n## 核心内容\nDaVinci-MagiHuman 专为生成逼真人类视频设计，实现音画同步。提供三个版本适配不同用例，旨在消除观众的不适感。模型开源，允许本地部署与微调。相比闭源模型，它更注重真实感而非单纯分辨率提升。\n## 影响\n开源方案降低了高质量视频生成门槛，推动数字人内容创作发展，解决行业痛点，可能引发视频生成领域新竞争，促进技术民主化。",
+    "tags": [
+      "News",
+      "Video",
+      "OpenSource"
+    ],
+    "link": "https://firethering.com/davinci-magihuman-open-source-ai-video-model/",
+    "date": "2026-03-29",
+    "id": "17747772083151"
+  },
+  {
+    "title": "Anthropic 研究：AI 辅助物理科研",
+    "summary": "哈佛教授使用 Claude Opus 4.5 两周完成通常需一年的物理论文。",
+    "detail": "## 背景\nAI 是否具备前沿科研能力备受争议，传统科研流程耗时漫长。\n## 核心内容\n哈佛教授 Matthew Schwartz 指导 Claude 完成高能理论物理计算。耗时 2 周，消耗 36M Token，产出严谨论文。证明 AI 可辅助前沿科学，但仍需专家校验。经过 110 次草稿迭代，最终完成发表，展示了 AI 在复杂计算中的潜力。\n## 影响\n标志 AI 科研助手能力的重大突破，改变科学研究工作流。证明提示词工程可让 AI 处理复杂科学计算，但人类专家监督仍不可或缺，开启人机协作科研新范式。",
+    "tags": [
+      "News",
+      "Research",
+      "Claude"
+    ],
+    "link": "https://www.anthropic.com/research/vibe-physics",
+    "date": "2026-03-29",
+    "id": "17747772083152"
+  },
+  {
+    "title": "Nano Banana Pro AI 图像工具",
+    "summary": "新款 AI 图像生成与编辑工具，支持真实世界设计工作流。",
+    "detail": "## 背景\n设计领域对 AI 图像工具的实用性要求日益提高，通用模型难以满足专业需求。\n## 核心内容\nNano Banana Pro 提供 AI 图像生成及照片编辑功能，强调在实际设计工作中的应用。包含提示词库及创作历史管理。支持 Nano Banana 2 模型，注重真实世界设计工作流整合，提供免费试用体验。\n## 影响\n丰富了创意工作者的工具选择，聚焦于落地应用场景。为设计师提供更高效的图像生成与编辑解决方案，降低创作门槛，推动 AI 在设计行业的深度渗透。",
+    "tags": [
+      "New",
+      "Image",
+      "Design"
+    ],
+    "link": "https://www.nanobananapro.org",
+    "date": "2026-03-29",
+    "id": "17747772083153"
+  },
+  {
     "title": "Google 推出 TurboQuant 技术优化 AI 内存效率",
     "summary": "Google 发布 TurboQuant 技术，通过向量压缩减少 AI 对硬件内存的依赖。",
     "detail": "针对 AI 内存瓶颈问题，Google 并未选择增加硬件堆叠，而是发布 TurboQuant 技术攻击同一问题。该技术旨在压缩高维空间中的向量信息，类似 Silicon Valley 剧集中的通用无损压缩算法。这意味着 AI 发展可能从“构建更多内存”转向“需要更少内存”。文章分析了 HBM 密度惩罚、EUV 瓶颈及供应链压力，指出此技术有望缓解 DRAM 价格挤压，对数据中心运营商及消费电子领域具有深远影响。这标志着数学优化优于硬件堆叠的新方向，可能改变未来 AI 基础设施的成本结构，解决从数据中心到消费电子的内存供应紧张问题，是对上周硬件侧分析的重要补充。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.wired.com/story/made-in-china-ai-research-is-starting-to-split-along-geopolitical-lines/",
     "date": "2026-03-27",
     "id": "17746873769472"
-  },
-  {
-    "title": "Hollow：面向 AI 代理的无服务器 Web 感知层",
-    "summary": "通过数学布局而非像素渲染，为 AI 代理提供高效的无服务器 Web 感知解决方案。",
-    "detail": "Hollow 是一个专为 AI 代理设计的 Web 感知层，摒弃了传统的截图或 DOM 转储方式。它利用 Happy DOM 执行 JavaScript 构建 DOM 树，再通过 Yoga 引擎计算精确坐标，将布局视为纯数学问题。这种无服务器架构无需管理浏览器二进制文件，冷启动快，按会话计费，能覆盖约 90-95% 的代理任务，显著降低了 AI 代理理解网页内容的成本和复杂度。相比传统方案，Hollow 消除了渲染开销，实现了零空闲时间计费，支持复杂 SPA 站点，为构建高效、低成本的自主 AI 代理提供了全新的基础设施选择，推动了 Agent 技术的落地应用。",
-    "tags": [
-      "Dev",
-      "AI Agents",
-      "Serverless"
-    ],
-    "link": "https://artiqal.vercel.app/hollow",
-    "date": "2026-03-27",
-    "id": "17746545731530"
-  },
-  {
-    "title": "为何高管热衷 AI 而一线员工持疑？",
-    "summary": "分析高管与一线员工对 AI 态度分歧的根源，在于对非确定性系统的管理差异。",
-    "detail": "文章探讨了企业内部对 AI 认知的显著分歧：高管倾向于推广 AI，而一线贡献者（IC）则更为怀疑。核心原因在于高管习惯于管理非确定性系统（如人员变动、意外反应），而 IC 主要评估确定性任务的执行。AI 的非确定性特征更契合高管的思维模型，导致双方在采纳策略上的冲突。这对企业推行 AI 战略时的内部沟通和期望管理提出了挑战。管理者需理解这种认知差异，避免强制推行导致团队抵触，应建立更包容的评估体系，平衡创新探索与稳定交付之间的关系，促进人机协作的健康发展。",
-    "tags": [
-      "News",
-      "Industry",
-      "Management"
-    ],
-    "link": "https://johnjwang.com/post/2026/03/27/why-are-executives-enabled-with-ai-but-ics-arent/",
-    "date": "2026-03-27",
-    "id": "17746545731531"
-  },
-  {
-    "title": "Vibe Security Radar：AI 生成代码漏洞追踪项目",
-    "summary": "佐治亚理工学院发布项目，追踪 AI 生成代码引入的真实 CVE 漏洞。",
-    "detail": "佐治亚理工学院 SSLab 推出了\"Vibe Security Radar\"，专门收录因 AI 生成代码引入的真实 CVE 漏洞。数据显示，截至 2026 年 3 月，已发现 74 个 AI 相关 CVE，涉及 Devin、Claude Code 等 8 种工具。该项目扫描了超过 4 万条建议，揭示了 AI 编程助手在安全方面的潜在风险，为开发者评估 AI 代码生成工具的安全性提供了重要参考数据。随着 AI 编码普及，此类漏洞追踪将成为安全合规的关键环节，促使企业建立更严格的代码审查流程，防止自动化引入安全隐患，保障软件供应链安全。",
-    "tags": [
-      "Dev",
-      "Security",
-      "CVE"
-    ],
-    "link": "https://vibe-radar-ten.vercel.app/",
-    "date": "2026-03-27",
-    "id": "17746545731532"
-  },
-  {
-    "title": "放射科医生与 AI 均难识别“深度伪造”X 光片",
-    "summary": "研究发现人类专家与现有 AI 系统在识别伪造医疗影像方面均存在困难。",
-    "detail": "根据 Radiology Business 报道，最新研究表明无论是经验丰富的放射科医生还是现有的 AI 诊断系统，在识别“深度伪造”X 光片方面均面临巨大挑战。这一发现凸显了生成式 AI 技术在医疗领域带来的潜在安全风险，可能影响诊断准确性。提示医疗行业需要开发更先进的检测工具来应对日益逼真的合成医疗影像，以防止诊断错误和欺诈行为，确保患者安全与数据完整性。随着生成式模型能力的提升，医疗影像的真实性验证将成为关键议题，迫使监管机构与技术提供商共同应对这一新兴威胁，重新审视现有的医疗影像审核流程与信任机制。",
-    "tags": [
-      "News",
-      "Healthcare",
-      "Deepfake"
-    ],
-    "link": "https://radiologybusiness.com/topics/artificial-intelligence/both-radiologists-and-ai-struggle-identify-deepfake-x-rays",
-    "date": "2026-03-27",
-    "id": "17746545731533"
   }
 ]
