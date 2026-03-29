@@ -1,5 +1,96 @@
 [
   {
+    "title": "学者警示：软件工程研究是否过度聚焦 AI？",
+    "summary": "卡内基梅隆大学教授发文质疑学术界过度关注 AI，忽视其他重要软件工程问题。",
+    "detail": "卡内基梅隆大学 Austin Henley 教授在《Journal of Systems and Software》专栏撰文，警示软件工程研究社区可能正过度索引 AI 技术。文章类比了医学界曾因抗生素发现而放弃噬菌体疗法的历史，指出 ICSE '25 会议上三分之一研究轨道论文涉及 AI，而 1992-2016 年间 AI 甚至未入前十热门话题。作者呼吁研究者关注技术转移中的实际挑战，避免因追逐热点而放弃其他关键问题的研究，引发学界对研究方向平衡性的深思。",
+    "tags": [
+      "News",
+      "Research",
+      "Software Engineering"
+    ],
+    "link": "https://austinhenley.com/blog/dearresearchers.html",
+    "date": "2026-03-29",
+    "id": "17748236812700"
+  },
+  {
+    "title": "Kjell：通过 Bash 解析安全批准 AI 代理 shell 命令",
+    "summary": "开源工具 Kjell 允许开发者安全地自动批准 AI 代理执行的 shell 命令，增强代理安全性。",
+    "detail": "针对 AI 代理自动执行命令的安全隐患，GitHub 上新发布了开源项目 Kjell。该工具通过解析 bash 命令，提供了一种安全机制来自动批准 AI 代理的 shell 操作。在 AI Agent 自主性日益增强的背景下，如何确保其执行系统命令的安全性成为关键开发挑战。Kjell 旨在填补这一空白，为开发者提供更可控的代理执行环境，降低恶意或错误命令导致系统风险的可能性，适合需要高频自动化运维的开发场景。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://github.com/agentbellnorm/kjell",
+    "date": "2026-03-29",
+    "id": "17748236812701"
+  },
+  {
+    "title": "Mnemo：仅需两行代码的开源 AI 代理记忆与观测层",
+    "summary": "开源项目 Mnemo 为 AI 代理提供持久记忆和全观测能力，框架无关且集成简单。",
+    "detail": "新发布的开源项目 Mnemo 宣称是首个为 AI 代理提供持久记忆和完整观测能力的开源层。其核心亮点在于极简集成，仅需两行代码即可接入，且框架无关，支持任何 LLM。功能涵盖记忆管理、行为分析及观测性监控。在 AI 代理复杂度提升的当下，记忆与状态管理是核心难点。Mnemo 通过标准化 SDK 降低了开发门槛，帮助开发者快速构建具备长期记忆和可追溯行为的智能代理，适用于需要复杂任务处理的 Agent 应用。",
+    "tags": [
+      "Dev",
+      "Memory",
+      "Open Source"
+    ],
+    "link": "https://github.com/DharmaDhillon/mnemo",
+    "date": "2026-03-29",
+    "id": "17748236812702"
+  },
+  {
+    "title": "真实案例：一个试图经营业务的 AI 代理目前收益为零",
+    "summary": "Hacker News 热议一个开源 AI 代理尝试运营真实业务的实验，目前尚未产生收入。",
+    "detail": "Hacker News 上引发讨论的\"Acrid Automation\"项目展示了一个 AI 代理尝试运营真实业务的实验。该代理基于 Claude 构建，完全开源了其操作系统和技能框架，包括内容写作和自我改进能力。尽管已上线 4 款产品并撰写多篇博客，但目前收益为零。这一案例为 AI 代理的商业化落地提供了宝贵的真实数据，揭示了当前 Agent 在自主赚钱能力上的局限，同时也展示了开源代理架构的透明度，引发社区对 AI 自主经济能力的理性评估。",
+    "tags": [
+      "News",
+      "Agent",
+      "Business"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47567952",
+    "date": "2026-03-29",
+    "id": "17748236812703"
+  },
+  {
+    "title": "LLM 广告：AI 搜索时代的新广告层与变现模式",
+    "summary": "文章探讨 LLM 广告如何在 AI 生成对话中植入上下文广告，解决发布者收入流失问题。",
+    "detail": "随着用户转向 ChatGPT 等 AI 工具获取直接答案，传统搜索广告库存面临蒸发风险。新文章定义了\"LLM 广告”概念，即在 AI 生成对话和搜索结果中植入相关上下文广告。这种模式旨在平衡用户体验与商业变现，让提供知识的发布者仍能获得收入，广告主也能触达高意图受众。平台如 GenDiscover 已开始实践，通过 AI 聊天小部件在对话中提供可货币化的互动。这标志着数字广告正适应 AI 搜索范式，探索新的生态共赢机制。",
+    "tags": [
+      "News",
+      "Advertising",
+      "LLM"
+    ],
+    "link": "https://www.gendiscover.com/blog/what-is-llm-advertising",
+    "date": "2026-03-29",
+    "id": "17748236812704"
+  },
+  {
+    "title": "QA Panda：在真实浏览器中测试 Web 应用的开源 AI QA 工程师",
+    "summary": "开源项目 QA Panda 利用 AI 代理在真实浏览器中自动测试、修复并交付 Web 应用。",
+    "detail": "新开源项目 QA Panda 定位为\"AI 驱动的 QA 工程师”，能够在真实浏览器环境中测试 Web 应用。该工具提供 VS Code 插件和 CLI，支持自动测试、修复错误并自信地交付代码。其核心优势在于模拟真实用户环境进行测试，而非仅依赖单元测试。在 AI 编码工具普及的今天，自动化测试与修复闭环至关重要。QA Panda 通过代理技术实现了测试执行的自动化，帮助开发团队减少回归测试成本，提升软件交付质量与速度。",
+    "tags": [
+      "Dev",
+      "Testing",
+      "Automation"
+    ],
+    "link": "https://github.com/gzmagyari/qapanda",
+    "date": "2026-03-29",
+    "id": "17748236812705"
+  },
+  {
+    "title": "软件工程教训：避免在 AI 工具应用中重蹈覆辙",
+    "summary": "资深工程师撰文提醒，在采用 AI 编码工具时应保持简单，避免过度复杂化。",
+    "detail": "一位拥有 20 年经验软件工程师撰文指出，当前 AI 编码工具（如 Claude Code）虽能替代部分人力，但开发者应避免重蹈软件工程过去几十年的覆辙。文章强调\"KISS 原则”（保持简单），批评了过度依赖复杂工具链、微服务和编排框架的趋势。作者认为，大多数经验关乎如何思考复杂工具及避免陷阱，而非代码本身。在 AI 时代，盲目追求技术栈的复杂性可能导致维护灾难。文章呼吁开发者和企业主在使用 AI 时回归本质，权衡成本与收益，保持架构简洁。",
+    "tags": [
+      "Dev",
+      "Best Practices",
+      "Engineering"
+    ],
+    "link": "https://www.lobsterpack.com/blog/software-engineering-lessons-ai-tools/",
+    "date": "2026-03-29",
+    "id": "17748236812706"
+  },
+  {
     "title": "Agent Empires: AI 代理自主策略战争游戏",
     "summary": "展示 HN 项目，AI 代理自主沟通协作进行战争策略游戏，人类仅旁观。",
     "detail": "介绍 Agent Empires 项目，这是一个完全由 AI 代理玩的战争策略游戏。每个团队由代理组成，需沟通、策略和协调以征服世界。人类角色仅为观察者。项目提供了具体的 Prompt 指令，可接入 Claude、ChatGPT 等代理加入游戏。服务器地址及 API 文档公开，支持自主决策与团队协作，是研究多代理协作与博弈的典型场景。该技术展示了 LLM 在复杂环境下的长期规划与多角色交互能力，为游戏 AI 及多代理系统研究提供了开放实验平台。开发者可基于此探索代理间的信任机制、战略演化及自主协作边界，对理解未来自主代理生态具有参考价值。",
@@ -1207,96 +1298,5 @@
     "link": "https://www.nature.com/articles/s41586-026-10265-5",
     "date": "2026-03-28",
     "id": "17747235350290"
-  },
-  {
-    "title": "Menlo Ventures：安全代理与进攻性 AI 转折点",
-    "summary": "Menlo Ventures 分析指出，AI 代理正在成为网络安全进攻性技术的关键转折点。",
-    "detail": "Menlo Ventures 发布深度视角文章，探讨 AI Agents 在安全领域的应用。文章认为我们正处于进攻性 AI 的 tipping point，自动化代理不仅能防御，更能模拟高级攻击行为。随着模型能力提升，安全团队需重新评估威胁模型。这对企业安全架构提出新要求，需整合 AI 驱动的红队测试与实时响应机制，预示着网络安全将从人力主导向 AI 代理协同作战转变。",
-    "tags": [
-      "News",
-      "Security",
-      "Agents"
-    ],
-    "link": "https://menlovc.com/perspective/agents-for-security-the-tipping-point-for-offensive-ai/",
-    "date": "2026-03-28",
-    "id": "17747235350291"
-  },
-  {
-    "title": "AI 如何重塑公众舆论与 GPT-5 展望",
-    "summary": "深度分析 AI 技术特别是 GPT-5 如何改变信息传播及公众舆论格局。",
-    "detail": "文章探讨了通信技术从印刷术到社交媒体的演变，指出 AI 将进一步重塑“谁在说话”和“说什么”。文中引用 OpenAI 关于 GPT-5 的描述，强调专家级智能的普及化。核心论点在于 AI 可能打破或重建信息垄断，影响政治与社会稳定。作者认为需警惕“困惑的群体”被算法操纵，建议关注 AI 对认知战及公共话语权的深远影响，具有高度推测性但视野宏大。",
-    "tags": [
-      "News",
-      "Society",
-      "LLM"
-    ],
-    "link": "https://www.conspicuouscognition.com/p/how-ai-will-reshape-public-opinion",
-    "date": "2026-03-28",
-    "id": "17747235350292"
-  },
-  {
-    "title": "实战项目：使用 Claude API 控制乐高火车",
-    "summary": "开发者分享利用 PyBricks 与 Claude API 实现乐高火车 AI 调度的实战经验。",
-    "detail": "作者记录了一个有趣的 AIoT 项目，通过 PoweredUp LEGO hub 和颜色传感器，结合 Claude API 构建 AI 火车调度员。架构简单明了：PyBricks 运行火车并发布传感器数据，LLM 决策控制逻辑。该项目展示了边缘设备与大模型结合的可行性，是“氛围编程”（vibe coding）的典型案例。对于希望探索硬件与 LLM 集成的开发者，提供了清晰的架构参考与实现思路。",
-    "tags": [
-      "Dev",
-      "IoT",
-      "Claude"
-    ],
-    "link": "https://hkelkar.com/2026/01/02/controlling-lego-trains-with-ai-larger-implications/",
-    "date": "2026-03-28",
-    "id": "17747235350293"
-  },
-  {
-    "title": "Show HN: 带 AI 分析的最小化终端时间追踪器",
-    "summary": "GitHub 开源新项目 timectl，支持终端内的时间追踪与 AI 数据分析。",
-    "detail": "这是一个名为 timectl 的开源工具，专为开发者设计。它在终端内运行，最小化干扰，同时集成 AI 分析功能，帮助用户理解时间分配模式。相比传统时间追踪软件，它更轻量且注重隐私与数据洞察。适合希望在命令行工作流中优化效率的技术人员。项目托管于 GitHub，体现了 AI 工具向垂直化、轻量化发展的趋势，便于集成到现有开发环境中。",
-    "tags": [
-      "New",
-      "Productivity",
-      "GitHub"
-    ],
-    "link": "https://github.com/ksketo/timectl",
-    "date": "2026-03-28",
-    "id": "17747235350294"
-  },
-  {
-    "title": "AI 工具选择的探索与利用权衡策略",
-    "summary": "探讨开发者在面对快速变化的 AI 工具生态时，如何平衡探索新工具与利用现有工具。",
-    "detail": "文章借用强化学习中的“探索 - 利用”权衡概念，分析开发者如何选择 AI 工具。面对新模型、框架和 IDE 集成的爆发式增长，单纯评估已成为项目。作者建议借鉴多臂老虎机问题策略，在适当时候停止评估开始构建。这对技术团队具有指导意义，避免陷入工具链焦虑，强调在快速迭代的生态中保持生产力比追逐最新工具更重要。",
-    "tags": [
-      "Dev",
-      "Strategy",
-      "Tools"
-    ],
-    "link": "https://www.normallydistributed.dev/the-explore-exploit-tradeoff-for-ai-tools/",
-    "date": "2026-03-28",
-    "id": "17747235350295"
-  },
-  {
-    "title": "SafeSkill 发布 AI 技能安全扫描器，检测提示词注入",
-    "summary": "SafeSkill 发布 AI 技能安全扫描器，检测提示词注入",
-    "detail": "SafeSkill 推出开源安全扫描器，针对 AI 技能和 MCP 服务器进行代码剥削和提示词注入检测。分析显示 23% 包存在注入风险，67% 未披露文件系统访问。提供三层保护：代码分析、注入检测和即时结果。解决 AI 供应链信任问题，开发者无需注册即可免费使用，扫描可在 3 秒内完成，帮助识别隐藏的数据泄露风险。工具支持 AST 静态分析和污点追踪，追踪数据从敏感源到网络汇的路径。这对构建安全 AI 应用至关重要，防止恶意技能窃取用户数据或滥用权限。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Tools"
-    ],
-    "link": "https://safeskill.dev",
-    "date": "2026-03-28",
-    "id": "17747191479402"
-  },
-  {
-    "title": "GitHub 开源最强 AI Agent 系统提示词，构建自改进代理",
-    "summary": "GitHub 开源最强 AI Agent 系统提示词，构建自改进代理",
-    "detail": "该项目提供一个提示词，用于构建最大化能力的自改进代理系统。支持软件工程、研究、公司运营等全范围任务。系统包含计划、技能、评估和自我改进循环。目标是创建能跨尺度工作的操作系统，而不仅是编码助手，强调可衡量进步和安全边界。用户可将其粘贴至编码代理中，构建能处理复杂多月项目的自主系统。架构设计注重实际工作能力而非描述，支持浏览器和桌面工作流自动化。这代表了 Agent 开发的新方向，即从单一任务助手向通用操作系统演进，提升长期任务执行力。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Prompt Engineering"
-    ],
-    "link": "https://github.com/fainir/most-capable-agent-system-prompt",
-    "date": "2026-03-28",
-    "id": "17747191479403"
   }
 ]
