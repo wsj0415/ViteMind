@@ -1,5 +1,70 @@
 [
   {
+    "title": "15% 美国人愿意接受 AI 老板",
+    "summary": "昆尼皮亚克民调显示，仅 15% 美国人愿为 AI 上司工作。",
+    "detail": "TechCrunch 报道昆尼皮亚克大学最新民调，揭示公众对 AI 管理层的接受度。数据显示仅 15% 受访者愿意向 AI 汇报，反映职场人机协作的心理障碍。这对企业部署 AI 管理工具提出挑战，暗示人类监督仍需主导。尽管 AI 效率提升，但信任缺失是主要瓶颈，未来混合管理模式或成主流，完全自主管理尚远。此数据为 AI 人力资源整合提供了关键基准，表明文化接受度滞后于技术发展，企业需关注员工心理适应，否则可能引发抵触情绪，影响生产力提升。",
+    "tags": [
+      "News",
+      "Survey",
+      "Workplace"
+    ],
+    "link": "https://techcrunch.com/2026/03/30/ai-boss-supervisor-us-quinnipiac-poll/",
+    "date": "2026-03-30",
+    "id": "17749070884130"
+  },
+  {
+    "title": "Datris.ai 推出首个代理原生数据平台",
+    "summary": "支持 MCP 协议，专为 AI 代理设计的数据 ingest 与验证平台。",
+    "detail": "Datris.ai 发布首个代理原生数据平台，支持 Model Context Protocol (MCP)。通过自然语言进行数据验证与转换，简化 AI 代理的数据工程流程。开源架构允许代理直接注册管道，上传文件及触发任务。具备 AI 数据质量验证与自然语言转换功能，无需正则即可处理数据。解决 Agent 落地中的数据接入难题，提升处理效率，推动 Agent 规模化应用。该平台标志着数据基础设施向 Agent 优先架构的转变，降低开发者构建数据驱动型代理的门槛，促进生态互联，是 Agent 经济的重要基础设施。",
+    "tags": [
+      "New",
+      "Data",
+      "MCP"
+    ],
+    "link": "https://datris.ai/",
+    "date": "2026-03-30",
+    "id": "17749070884131"
+  },
+  {
+    "title": "AgentHandover：观察人类工作并教代理执行",
+    "summary": "开源工具，通过观察用户操作生成自我改进的代理技能。",
+    "detail": "新开源项目 AgentHandover 通过观察用户在 Mac 上的操作，自动生成结构化技能剧本。支持 Claude Code 等 MCP 兼容代理，具备自我改进机制。成功执行增强信心，失败触发修正，实现工作流无缝移交，降低代理训练门槛。该工具解决了代理无法理解人类隐性知识的问题，通过观看学习而非提示词工程，为个人自动化工作流提供了新范式，提升代理执行准确率。它代表了从指令式到观察式代理训练的技术演进，潜力巨大，可能改变人机协作的基本交互模式。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://github.com/sandroandric/AgentHandover",
+    "date": "2026-03-30",
+    "id": "17749070884132"
+  },
+  {
+    "title": "生产环境中 AI API 变现的实用策略",
+    "summary": "KongHQ 详解 AI API 不可预测成本下的变现与风控方案。",
+    "detail": "KongHQ 工程博客分析 AI API 在生产环境的不可预测性，如 Token 成本波动与流量爆发。传统 API 变现模型失效，需结合用量执法与安全监控。文章提供防止基础设施账单激增的策略，强调变现 without enforcement 会导致利润侵蚀。开发者需建立动态计费与异常检测机制，以应对 Agent 驱动的高频请求，确保 AI 服务商业化的可持续性。这对 SaaS 提供商构建稳健的 AI 网关层提出了新的技术要求与架构挑战，关乎企业盈利底线。",
+    "tags": [
+      "Dev",
+      "API",
+      "Business"
+    ],
+    "link": "https://konghq.com/blog/engineering/monetize-ai-apis",
+    "date": "2026-03-30",
+    "id": "17749070884133"
+  },
+  {
+    "title": "研究显示 AI 助手常自信地弄错 SaaS 产品事实",
+    "summary": "新工具揭示主流 AI 模型在 SaaS 定价与功能上存在幻觉。",
+    "detail": "Hacker News 展示新工具 Bersyn，测试发现 ChatGPT、Claude 等模型常错误描述 SaaS 产品细节，如定价层级与功能。模型表现自信但无不确定性表达。这凸显了垂直领域知识检索的局限性，提醒开发者注意 AI 在商业事实上的可靠性风险。建议结合实时检索增强生成 (RAG) 以减少幻觉，避免误导用户，特别是在涉及具体产品参数的场景下。此问题直接影响 AI 在客户服务与销售场景的可信度，需行业共同解决数据时效性问题。",
+    "tags": [
+      "News",
+      "LLM",
+      "Hallucination"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47579771",
+    "date": "2026-03-30",
+    "id": "17749070884134"
+  },
+  {
     "title": "KubeCon 2026：AI 时代人人都是初级工程师",
     "summary": "Kelsey Hightower 指出 AI 技术变革下工程师面临的新挑战与定位。",
     "detail": "在 KubeCon 2026 上，云原生专家 Kelsey Hightower 发表演讲称“在 AI 领域每个人都是初级工程师”。他强调开源与 AI 的结合正在重塑工程文化，面对快速发展的 AI 技术，资深工程师也需重新学习。这一观点揭示了行业对 AI 技能普遍缺乏经验的现状，呼吁社区加强协作与知识共享，以应对技术不确定性带来的挑战，标志着工程角色定义的转变。",
@@ -50,19 +115,6 @@
     "link": "https://www.lawfaremedia.org/article/ai-and-privilege-after-united-states-v.-heppner",
     "date": "2026-03-30",
     "id": "17749036920563"
-  },
-  {
-    "title": "Datris.ai 推出首个代理原生数据平台",
-    "summary": "支持 MCP 协议的开源数据平台，实现 AI 代理自然语言交互。",
-    "detail": "Datris.ai 发布首个代理原生数据平台，支持通过 Model Context Protocol (MCP) 与 AI 代理集成。平台涵盖数据摄入、验证、转换及存储，支持自然语言指令进行数据质量管理。作为开源项目，它旨在降低数据工程门槛，使 AI 代理能直接注册管道、触发任务，实现数据流程的智能化与自动化管理，提升代理工作效率。",
-    "tags": [
-      "New",
-      "Data",
-      "Agent"
-    ],
-    "link": "https://datris.ai/",
-    "date": "2026-03-30",
-    "id": "17749036920564"
   },
   {
     "title": "AI 时代程序员的未来走向",
@@ -1246,57 +1298,5 @@
     "link": "https://github.com/altlimit/altclaw",
     "date": "2026-03-29",
     "id": "17747891771821"
-  },
-  {
-    "title": "GitWhy：为 Git 提交捕获 AI 代码上下文",
-    "summary": "新型 Git 扩展工具，将 AI 生成的代码上下文与提交记录绑定，兼容主流编程助手。",
-    "detail": "GitWhy 是一款新推出的 Git 扩展工具，旨在解决 AI 编程带来的上下文丢失问题。它能够捕获 AI 代码生成的上下文信息并将其与 Git commits 绑定，方便后续追溯。支持 Claude Code、Cursor、GitHub Copilot 等主流编程 Agent。通过一次安装即可适配多种编码助手，帮助团队更好地管理 AI 辅助开发的历史记录与决策逻辑。这对于需要审计 AI 代码贡献或理解生成逻辑的工程团队来说，是一个重要的基础设施补充，提升了 AI 编程的可维护性。",
-    "tags": [
-      "New",
-      "Dev",
-      "Git"
-    ],
-    "link": "https://gitwhy.dev/",
-    "date": "2026-03-29",
-    "id": "17747891771822"
-  },
-  {
-    "title": "追踪专家 AI 预测准确性",
-    "summary": "提出建立平台追踪专家预测记录，增强行业问责制。",
-    "detail": "LessWrong 社区提出新倡议，旨在解决当前 AI 预测模糊性及缺乏问责的核心问题。该方案计划聚合 Metaculus 等平台数据，并主动抓取访谈、播客中的预测记录，建立统一专家档案。通过公开专家历史准确率，减少市场噪音，增强行业问责制。这对评估 AI 发展路径及专家可信度具有重要参考价值，推动更精准的形势感知与决策，避免盲目跟风。此项目若实施，将显著提升行业透明度，帮助投资者和开发者识别真实趋势。此外，该机制鼓励专家做出更精确的预测，而非模糊表态。",
-    "tags": [
-      "News",
-      "Industry",
-      "Analysis"
-    ],
-    "link": "https://www.lesswrong.com/posts/oHSGHxhsbxN72BZ4C/tracking-expert-influential-predictions-about-ai",
-    "date": "2026-03-29",
-    "id": "17747839593370"
-  },
-  {
-    "title": "TaskWing 本地优先 AI 知识层",
-    "summary": "开源本地 AI 架构，支持 MCP 协议，保障数据隐私。",
-    "detail": "GitHub 新项目 TaskWing 主打本地优先（Local-first）AI 知识层架构。通过 MCP 协议连接任意 AI 工具，提取架构并可查询，核心优势在于架构级隐私保护，无需依赖云端即可实现知识管理。适合关注数据主权及本地部署的开发者，为构建私有化 AI 工作流提供了新的技术参考方案。该项目强调了在 AI 代理时代，本地数据控制的重要性，可能成为未来个人知识库的标准配置，解决云端隐私泄露担忧。同时，本地运行降低了延迟，提升了响应速度，优化用户体验。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Privacy"
-    ],
-    "link": "https://github.com/josephgoksu/taskwing",
-    "date": "2026-03-29",
-    "id": "17747839593371"
-  },
-  {
-    "title": "OpenAI 投资者呼吁税制改革",
-    "summary": "投资者指出 AI 发展需配套收入税改革，应对经济影响。",
-    "detail": "金融时报报道，OpenAI 投资者提出 AI 技术普及需伴随收入税制度彻底改革。随着 AI 替代人力，传统税基可能受损，影响政府财政收入。该观点反映了资本层面对 AI 社会经济影响的深层担忧。政策调整可能影响未来 AI 商业化落地速度及劳动力市场结构，值得行业密切关注政策风向。这可能预示着未来科技巨头将面临更严格的监管与税务审查，改变行业盈利模型，引发全球政策连锁反应。尤其是对高收入群体的税收政策可能面临重新评估，影响投资回报。",
-    "tags": [
-      "News",
-      "Policy",
-      "Economy"
-    ],
-    "link": "https://www.ft.com/content/7de1d3c5-0d0c-46b1-b2b7-dbf6f5226069",
-    "date": "2026-03-29",
-    "id": "17747839593372"
   }
 ]
