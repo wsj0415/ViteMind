@@ -1,5 +1,70 @@
 [
   {
+    "title": "LiteLLM 与争议初创公司 Delve 分道扬镳",
+    "summary": "知名 AI 网关初创公司 LiteLLM 宣布脱离争议伙伴 Delve。",
+    "detail": "TechCrunch 报道指出，流行的 AI 网关初创公司 LiteLLM 已决定与备受争议的初创公司 Delve 分道扬镳。作为广泛使用的 AI 基础设施提供者，LiteLLM 负责模型路由与统一管理，此举可能引发社区对供应链安全与合作伙伴背景的关注。这一变动暗示了 AI 初创生态中合规与声誉管理的重要性。开发者需留意后续官方公告，评估对现有网关服务稳定性的潜在影响，行业可能因此重新审视第三方依赖风险。对于依赖 LiteLLM 的企业而言，品牌独立性变化可能影响信任决策，需密切关注后续服务条款及架构调整通知，确保业务连续性不受波及，避免集成中断。",
+    "tags": [
+      "News",
+      "Startup",
+      "Infrastructure"
+    ],
+    "link": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
+    "date": "2026-03-30",
+    "id": "17749138989690"
+  },
+  {
+    "title": "Freedom Studio：隐私优先的本地 AI 运行器",
+    "summary": "开源本地 AI 运行器，支持 Tor 路由与端到端加密，零遥测。",
+    "detail": "这是一个开源的 AI 模型运行器，被视为 LM Studio 的隐私优先替代品。支持在本地运行 LLM，具备端到端加密、TLS API 服务器及 Tor 路由功能，承诺零遥测且无需信任云端。基于 GPL-3.0 协议，适合对数据隐私和安全有极高要求的开发者及隐私倡导者，支持 Windows、macOS 和 Linux 全平台。其核心优势在于无需云信任即可运行模型，通过 Tor 网络隐藏流量，防止元数据泄露。对于需要在敏感环境中部署本地 AI 的团队，该工具提供了比传统运行器更严格的网络隔离与加密保护，是构建私有化 AI 工作流的重要基础设施组件，值得安全团队评估。",
+    "tags": [
+      "Dev",
+      "Privacy",
+      "LocalLLM"
+    ],
+    "link": "https://github.com/albertotijunelis/freedom-studio",
+    "date": "2026-03-30",
+    "id": "17749138989691"
+  },
+  {
+    "title": "Greywall：AI 编码代理的文件系统沙盒",
+    "summary": "无需容器的沙盒工具，通过内核级隔离保护文件系统安全。",
+    "detail": "针对 AI 编码代理（如 Claude Code、Cursor）权限过大的问题，Greywall 提供了一种无容器的沙盒解决方案。利用 Linux 内核级强制（bubblewrap, seccomp, Landlock, eBPF）和 macOS Seatbelt 配置文件，隔离代理的文件系统访问和网络流量。支持最小权限配置文件生成，有效降低 AI hallucination 导致的安全风险，适合高危操作环境。该项目无需 Docker 或 VM，仅依赖少量二进制文件，降低了使用门槛。对于担心 AI 代理误删文件或泄露 SSH 密钥的开发者，这是重要的安全层补充，建议在运行未经验证的代理代码时启用，以限制潜在破坏半径，保护主机系统完整性。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://www.wshoffner.dev/blog/greywall",
+    "date": "2026-03-30",
+    "id": "17749138989692"
+  },
+  {
+    "title": "Jitera：面向团队的共享 AI 工作空间",
+    "summary": "团队共享 AI 工作区，具备组织记忆与多角色协作功能。",
+    "detail": "Jitera 推出了共享 AI 工作空间，旨在解决团队使用 AI 时的上下文丢失问题。支持多角色聊天、组织记忆积累及自定义 Agent 技能。兼容 OpenAI 与 Anthropic 模型，具备企业级安全认证（ISO 27001）。适合需要协作式 AI 工作流且注重数据沉淀的企业团队，避免 AI 生成内容碎片化。其核心功能是构建组织知识图谱，使 AI 能随时间成长并辅助新员工入职。集成 Slack、Notion 等常用工具，支持 HTTP MCPs 连接。对于希望将 AI 深度融入协作流程而非仅作为个人工具的公司，该平台提供了记忆持久化与权限管理的完整方案，有助于提升团队整体 AI 效能。",
+    "tags": [
+      "New",
+      "Collaboration",
+      "Enterprise"
+    ],
+    "link": "https://jitera.com/",
+    "date": "2026-03-30",
+    "id": "17749138989693"
+  },
+  {
+    "title": "Pi：多功能 AI 代理开发工具包",
+    "summary": "集成编码代理 CLI、统一 LLM API 及 Slack 机器人等功能。",
+    "detail": "Pi 是一个新的 AI 代理工具包，提供编码代理 CLI、统一 LLM API、TUI 与 Web UI 库以及 Slack 机器人集成。支持 vLLM pods，旨在简化 AI 代理的开发与部署流程。对于希望构建自定义 AI 工作流或集成多种模型的开发者来说，这是一个值得关注的开源基础设施项目，降低了代理开发门槛。其模块化设计允许开发者灵活选择界面与后端，统一 API 减少了切换模型的成本。适合需要快速原型化 AI 代理或构建内部开发工具的工程团队，通过标准化接口加速迭代，同时支持本地 vLLM 部署以优化推理性能与成本，是 Agent 生态中的实用工具箱。",
+    "tags": [
+      "Dev",
+      "Toolkit",
+      "Agent"
+    ],
+    "link": "https://github.com/badlogic/pi-mono",
+    "date": "2026-03-30",
+    "id": "17749138989694"
+  },
+  {
     "title": "AI 能力提升未导致成本相对人类劳动上升",
     "summary": "METR 数据显示，尽管推理成本上升，但相对于人类劳动成本并未增加，自动化瓶颈在于能力而非成本。",
     "detail": "文章深入分析了 METR 的前沿时间视野数据，挑战了关于 AI 自动化成本瓶颈的普遍观点。虽然前沿模型的每次任务推理成本急剧上升，但这主要反映了模型能够完成更长的任务，而非相对于被替代的人类劳动变得更贵。数据显示，当前前沿模型在 50% 可靠性水平下的成本约为人类成本的 3%，且这一比例随能力提升并未显著增加。作者定义成本比率为解决任务的平均 AI 轨迹推理成本与人类成本之比，发现连续前沿模型的成本比率未增加，长任务也不比短任务成本比率高。这意味着成本不是自动化的额外瓶颈，我们应预期自动化大致在 METR 能力趋势线预测的时间出现，而非因成本问题推迟。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/Canner/wren-engine",
     "date": "2026-03-29",
     "id": "17748023450473"
-  },
-  {
-    "title": "AI CLI 工具横向对比：Claude Code、Codex 与 Gemini CLI",
-    "summary": "深度对比主流 AI 命令行工具，涵盖安装、核心功能及最佳适用场景分析。",
-    "detail": "文章详细对比了当前主流的 AI CLI 工具，包括 Anthropic 的 Claude Code、OpenAI 的 Codex 及 Gemini CLI 等。重点分析了它们在终端内读取代码库、文件编辑及命令执行的能力。Claude Code 擅长多文件重构，Codex 使用 Rust 构建并提供沙箱隔离。此类工具正改变开发者工作流，使 AI 编码助手从 IDE 插件转向终端原生代理，提升了自动化编码效率与安全性。开发者可直接在终端完成复杂任务，无需切换窗口，显著提高了开发效率。是未来软件工程工作流的重要演进方向，值得团队广泛采纳。随着模型能力增强，命令行将成为人机协作的核心界面，降低编码门槛，让开发者更专注于架构设计与逻辑实现，而非重复性代码编写。",
-    "tags": [
-      "Dev",
-      "CLI",
-      "Coding"
-    ],
-    "link": "https://yaw.sh/blog/ai-cli-tools-claude-code-codex-gemini/",
-    "date": "2026-03-29",
-    "id": "17748023450474"
-  },
-  {
-    "title": "OpenAI 据传将停止视频生成工具 Sora",
-    "summary": "消息称 OpenAI 计划 discontinuing Sora 视频平台，令迪士尼等合作伙伴惊讶。",
-    "detail": "据路透社及华尔街日报报道，OpenAI 计划停止其 AI 视频生成工具 Sora 的独立平台应用。这一决定令包括迪士尼在内的合作伙伴感到意外。此举可能标志着 OpenAI 在视频生成领域的战略调整，或许将技术整合至其他产品线而非维持独立应用。这对 AI 视频生成市场竞争格局产生重大影响，显示出商业化落地面临的挑战。行业观察家认为，这可能是因为维护独立视频平台成本过高，或技术尚未达到大规模商用标准，转而寻求更稳妥的 B 端集成方案。此变动将直接影响内容创作工作流及合作伙伴的预期规划。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Video"
-    ],
-    "link": "https://www.reuters.com/technology/openai-set-discontinue-sora-video-platform-app-wsj-reports-2026-03-24/",
-    "date": "2026-03-29",
-    "id": "17747985566870"
-  },
-  {
-    "title": "苹果调整 AI 战略转向 App Store 平台模式",
-    "summary": "苹果加倍投入硬件与服务，将 AI 战略重心转向类似搜索的 App Store 平台方法。",
-    "detail": "彭博社报道苹果正在重塑其 AI 战略，不再单纯依赖端侧模型，而是转向类似搜索的 App Store 平台模式。这意味着苹果将更强调通过服务生态分发 AI 能力，而非仅靠硬件集成。此举旨在加强硬件与服务的协同，可能改变开发者在 iOS 生态中部署 AI 应用的方式，强化苹果在服务领域的护城河。随着 AI 功能成为服务订阅的一部分，苹果有望通过分成模式获得更高收益，同时降低端侧算力压力，为开发者提供更灵活的 AI 集成接口。这标志着苹果从硬件驱动转向服务驱动的 AI 商业化路径，影响深远。",
-    "tags": [
-      "News",
-      "Apple",
-      "Strategy"
-    ],
-    "link": "https://www.bloomberg.com/news/newsletters/2026-03-29/apple-doubles-down-on-hardware-services-with-revamped-ai-strategy-rare-bonuses-mnbpiwon",
-    "date": "2026-03-29",
-    "id": "17747985566871"
-  },
-  {
-    "title": "AMD 发布 Ryzen AI PRO 400 系列桌面处理器",
-    "summary": "AMD 推出新款 Ryzen AI PRO 400 系列 CPU，为桌面端带来先进 AI 处理能力。",
-    "detail": "AMD 正式宣布推出 Ryzen AI PRO 400 系列处理器，专为桌面工作站设计。该系列芯片集成了先进的 AI 加速引擎，旨在为企业和专业用户提供本地化的 AI 推理与训练能力。此举反映了 PC 行业向\"AI PC\"转型的趋势，强调本地算力隐私与效率，可能加速企业级 AI 应用在桌面的落地。新的 NPU 架构将支持更复杂的本地模型运行，减少了对云端的依赖。对于需要处理敏感数据的企业用户，本地 AI 处理能力将成为关键采购指标，推动工作站硬件升级换代。这将促进本地大模型在专业领域的普及与应用。",
-    "tags": [
-      "News",
-      "AMD",
-      "Hardware"
-    ],
-    "link": "https://www.amd.com/en/blogs/2026/amd-ryzen-ai-pro-400-series-cpus-deliver-advanced-ai-for-desktops.html",
-    "date": "2026-03-29",
-    "id": "17747985566872"
-  },
-  {
-    "title": "AI Agent 自主构建监控系统实现自我监管",
-    "summary": "开发者展示由 AI 代理自主规划并构建的 Agent Observatory 监控系统。",
-    "detail": "一个名为\"Agent Observatory\"的系统由 AI 编码代理自主规划并构建，用于监控其他 AI 代理的运行状态。该项目包含 1103 个通过测试和 26000 行代码，人类仅负责批准输出。这展示了 AI Agent 在软件工程中的闭环能力，标志着自主开发系统的成熟，为未来大规模 Agent 协作与管理提供了新范式。系统支持移动通知和远程干预，解决了多代理并行运行时的监控难题。这一案例证明 AI 已具备构建复杂监控基础设施的能力，可能引发软件开发流程的根本性变革。人类角色正从编写者转变为审核者与架构师。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Coding"
-    ],
-    "link": "https://ren.phytertek.com/blog/building-the-panopticon-from-inside/",
-    "date": "2026-03-29",
-    "id": "17747985566873"
   }
 ]
