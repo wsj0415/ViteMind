@@ -1,5 +1,70 @@
 [
   {
+    "title": "Google 发布 Java 版 AI 代理开发套件 ADK 1.0",
+    "summary": "Google 正式推出 ADK for Java 1.0.0，支持多语言生态，增强代理开发能力。",
+    "detail": "Google 宣布发布 ADK for Java 1.0.0，标志着其 AI 代理框架从 Python 扩展至多语言生态，涵盖 Java、Go 和 Typescript。新版本包含 GoogleMapsTool 等强大工具，支持集中式插件架构、上下文工程优化及人机协作（HITL）流程。此外，还定义了 Vertex AI 和 Firestore 的会话记忆服务合同。此举将极大降低 Java 开发者构建智能代理的门槛，推动企业级 AI 应用落地，完善多语言开发生态。",
+    "tags": [
+      "Dev",
+      "Google",
+      "Java"
+    ],
+    "link": "https://developers.googleblog.com/announcing-adk-for-java-100-building-the-future-of-ai-agents-in-java/",
+    "date": "2026-03-30",
+    "id": "17748935022340"
+  },
+  {
+    "title": "科技巨头竞相布局 AI 健康工具，安全性引担忧",
+    "summary": "微软、亚马逊等推出 AI 健康服务，专家呼吁加强独立评估与监管。",
+    "detail": "微软 Copilot Health 和亚马逊 Health AI 相继开放，结合 OpenAI 和 Anthropic 的健康功能，AI 医疗成为趋势。虽然需求巨大且模型能力增强，但研究人员强调需独立专家严格评估。自我评估可能存在盲点，高风险领域信任至关重要。文章指出，尽管公司进行严谨研究，仍需社区填补空白，确保 AI 健康建议的安全性与可靠性，避免潜在医疗风险。",
+    "tags": [
+      "News",
+      "Health",
+      "Microsoft"
+    ],
+    "link": "https://www.technologyreview.com/2026/03/30/1134795/there-are-more-ai-health-tools-than-ever-but-how-well-do-they-work/",
+    "date": "2026-03-30",
+    "id": "17748935022341"
+  },
+  {
+    "title": "METR 提出新指标衡量 AI 完成长软件任务能力",
+    "summary": "新论文引入\"50% 任务完成时间视界”指标，评估 12 个前沿模型表现。",
+    "detail": "METR 论文提出\"50%-task-completion time horizon\"新指标，衡量 AI 以 50% 成功率完成软件工程任务的时长。研究评估了 12 个前沿模型在 170 个任务上的表现，涵盖从 1 分钟到 30 小时不等的任务难度。通过 800 个人类基线校准，该指标为追踪 AI 编程能力进步提供了量化标准，揭示了当前模型在长周期任务上的局限性，基准包括 HCAST 和 RE-Bench。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Coding"
+    ],
+    "link": "http://muratbuffalo.blogspot.com/2026/03/measuring-ai-ability-to-complete-long.html",
+    "date": "2026-03-30",
+    "id": "17748935022342"
+  },
+  {
+    "title": "Bitwarden 推出 Agent Access SDK 强化代理安全",
+    "summary": "旨在防止 AI 代理过度授权，提供细粒度访问控制与安全管理。",
+    "detail": "针对 AI 代理安全风险，Bitwarden 推出 Agent Access SDK。该工具旨在避免给代理“所有钥匙”，通过细粒度权限管理确保代理仅访问必要资源。随着 AI 代理自主性增强，安全边界变得模糊，该 SDK 为开发者提供了控制代理访问敏感数据的能力，是构建可信 AI 代理基础设施的重要一步，解决了企业部署代理时的核心安全顾虑，防止权限滥用。",
+    "tags": [
+      "Dev",
+      "Security",
+      "SDK"
+    ],
+    "link": "https://bitwarden.com/blog/introducing-agent-access-sdk/",
+    "date": "2026-03-30",
+    "id": "17748935022343"
+  },
+  {
+    "title": "Show HN: Memv 为 AI 代理提供结构化时序记忆",
+    "summary": "开源项目 Memv 旨在解决 AI 代理记忆管理难题，支持结构化存储。",
+    "detail": "新项目 Memv 专注于为 AI 代理提供结构化且具时序性的记忆服务。在代理开发中，记忆管理是关键挑战，Memv 通过定义清晰的记忆结构，帮助代理更好地保留和利用历史交互信息。该项目开源，适合需要增强代理长期上下文理解能力的开发者。它补充了现有框架在记忆持久化和检索方面的不足，助力构建更智能的代理系统，托管于 GitHub 平台。",
+    "tags": [
+      "New",
+      "Memory",
+      "Agents"
+    ],
+    "link": "https://github.com/vstorm-co/memv",
+    "date": "2026-03-30",
+    "id": "17748935022344"
+  },
+  {
     "title": "《AI 帝国》新书深度批判 OpenAI 模式",
     "summary": "新书揭露 OpenAI 权力集中与隐私风险，引发行业反思。",
     "detail": "该书详细回顾了 OpenAI 发展历程，批评其资本主导愿景牺牲用户隐私与代理权。作者 Matt Stein 指出技术不应成为帝国式集中项目，呼吁关注劳动与艺术价值。书中强调对 OpenAI 及硅谷愿景的批判并非否定 AI 本身，而是拒绝需要完全屈从隐私与代理权的危险观念。此评论为行业提供了非营销视角的清醒审视，引发对 AI 权力分配与资本控制的深层思考。对于担忧技术红利分配不均的从业者，本书提供了重要的伦理参考框架，警示快速剥削带来的潜在危害，建议开发者在采用编码代理时保持警惕，思考技术背后的权力结构与社会影响。",
@@ -1233,70 +1298,5 @@
     "link": "https://news.ycombinator.com/item?id=47560855",
     "date": "2026-03-29",
     "id": "17747679771033"
-  },
-  {
-    "title": "评估驱动开发：AI Agent 提示词工程新范式",
-    "summary": "引入 TDD 理念，先定义评估规则再编写提示词，提升 Agent 稳定性。",
-    "detail": "文章提出“评估驱动开发”（EDD）概念，类比软件测试中的 TDD。传统 Agent 开发依赖反复调试提示词，标准模糊且随评审人变化，导致质量不稳定。EDD 要求先定义评估规则，再编写 Prompt，确保行为可量化。这对于企业级 Agent 落地具有重要意义，能显著减少幻觉，提高输出一致性。该方法论标志着 AI 开发从艺术走向工程化，适合需要高可靠性输出的生产环境。它是 AI 工程化的重要演进方向，有助于团队建立标准化的 Agent 交付流程，降低维护成本，提升最终用户体验，是开发者必须关注的新范式。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Engineering"
-    ],
-    "link": "https://iris-eval.com/blog/eval-driven-development",
-    "date": "2026-03-29",
-    "id": "17747612469940"
-  },
-  {
-    "title": "Phantom：防止 AI 编码代理泄露 API 密钥的安全工具",
-    "summary": "开源 CLI 工具，隔离 API 密钥，防止 AI 代理意外泄露敏感信息。",
-    "detail": "随着 AI 编码代理普及，密钥泄露风险激增。Phantom 是一个开源 CLI 工具，允许 AI 使用 API 密钥而不直接接触明文。它通过安全层代理请求，避免密钥被写入代码或日志。这对于使用 Copilot 等工具的开发团队至关重要，解决了 AI 安全落地的最后一公里问题。防止敏感信息在 Agent 交互过程中被意外记录或泄露，提升整体开发环境的安全性。该工具兼容主流 AI 助手，无需大幅修改现有工作流即可部署，是开发者保护敏感凭证的理想选择，有效降低了因 AI 误操作导致的安全事故概率。",
-    "tags": [
-      "Dev",
-      "Security",
-      "OpenSource"
-    ],
-    "link": "https://github.com/ashlrai/phantom-secrets",
-    "date": "2026-03-29",
-    "id": "17747612469941"
-  },
-  {
-    "title": "维基百科正式禁止 AI 生成百科全书条目",
-    "summary": "维基百科出台新政策，明确禁止使用 AI 生成内容，维护信息真实性。",
-    "detail": "维基百科官方宣布禁止 AI 生成的百科全书条目。此举旨在维护平台内容的准确性和可信度，防止虚假信息泛滥。这标志着主流知识平台对 AI 生成内容的态度转向谨慎。对于依赖 AI 创作的内容生产者而言，这意味着需要更注重人工审核与原创性，行业内容合规标准将进一步收紧。未来可能引发更多平台效仿，建立更严格的内容来源验证机制，影响 AI 内容分发策略。此政策将迫使 AI 公司改进生成内容的可追溯性，推动人机协作模式的发展，确保知识库的纯净度。",
-    "tags": [
-      "News",
-      "Policy",
-      "Content"
-    ],
-    "link": "https://nypost.com/2026/03/28/tech/wikipedia-officially-bans-ai-generated-encyclopedia-entries/",
-    "date": "2026-03-29",
-    "id": "17747612469942"
-  },
-  {
-    "title": "金融时报：AI 数据中心繁荣是否会成为 9 万亿美元泡沫？",
-    "summary": "深度分析 AI 基础设施投资风险，质疑大规模数据中心建设的可持续性。",
-    "detail": "金融时报深度分析指出，当前 AI 数据中心建设热潮可能面临 9 万亿美元的泡沫风险。文章探讨了算力需求是否足以支撑巨额资本支出，以及能源限制等挑战。这对投资者和云服务商发出预警，提示需警惕过度投资。行业可能从盲目扩张转向追求实际 ROI 和能效优化，基础设施布局将更趋理性。若需求不及预期，可能导致资产减值，影响整个 AI 产业链的融资环境与可持续发展能力。市场需关注算力利用率与实际应用落地的匹配度，避免资源浪费。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Finance"
-    ],
-    "link": "https://www.ft.com/content/805f78f3-8da3-4fc0-b860-207a859ac723",
-    "date": "2026-03-29",
-    "id": "17747612469943"
-  },
-  {
-    "title": "SourceBridge：快速理解任意代码库的 AI 上下文工具",
-    "summary": "为不熟悉系统提供代码库现场指南和上下文层，加速 AI 开发流程。",
-    "detail": "SourceBridge 是一款旨在帮助开发者快速理解陌生代码库的 AI 工具。它构建了一个代码库现场指南和上下文层，弥补了 AI 代理在处理大型项目时的上下文缺失问题。通过提供更精准的系统上下文，它能减少 AI 幻觉，提高代码生成质量。适合需要维护遗留系统或快速接入新项目的开发团队使用。该工具降低了新成员上手门槛，加速了代码审查与维护流程，是提升团队协作效率的有效辅助手段。它解决了大模型上下文窗口有限的问题，让 AI 能更精准地定位代码逻辑。",
-    "tags": [
-      "Dev",
-      "Tool",
-      "CodeUnderstanding"
-    ],
-    "link": "https://github.com/jstuart0/sourcebridge",
-    "date": "2026-03-29",
-    "id": "17747612469944"
   }
 ]
