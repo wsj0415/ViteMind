@@ -1,5 +1,44 @@
 [
   {
+    "title": "Ring 推出应用商店，AI 拓展至养老护理",
+    "summary": "Ring 不再仅限安防，通过新应用商店利用 AI 服务养老与企业。",
+    "detail": "**背景**：亚马逊旗下智能家居品牌 Ring 宣布推出全新应用商店，战略重心转移。**核心功能**：利用生成式 AI 技术拓展家庭安全之外的使用场景，重点涵盖老人护理监测及商业安全需求。**行业影响**：标志着智能家居设备从单一安防向多元化 AI 服务生态转型。通过开放平台，Ring 试图挖掘硬件之外的软件服务价值，为 AI 在家庭场景的落地提供了新的商业范式。此举可能引发竞品跟随，加速 AI 在物联网设备中的普及与应用深化。",
+    "tags": [
+      "News",
+      "Product",
+      "Smart Home"
+    ],
+    "link": "https://techcrunch.com/2026/03/31/ring-app-store-bets-on-ai-to-go-beyond-home-security/",
+    "date": "2026-03-31",
+    "id": "17749633848501"
+  },
+  {
+    "title": "工程领导警示：AI 不会降低工程标准",
+    "summary": "盲目依赖 AI 生成代码会导致生产事故，工程师需加强判断力。",
+    "detail": "**背景**：针对工程团队过度依赖 AI 生成代码导致生产事故的现象进行分析。**核心观点**：AI 工具不会降低工程门槛，糟糕的采用策略才会。领导层应要求工程师拥有更强的架构判断力，AI 负责执行，人负责思考。**行业影响**：这实际上是更难的工作。若管理层误解为“减少努力”，将导致失败。团队需转变思维，从代码编写者转变为系统设计者，确保 AI 辅助下的代码质量与系统稳定性，避免技术债务累积。",
+    "tags": [
+      "Dev",
+      "Engineering",
+      "LLM"
+    ],
+    "link": "https://businessasusual.io/p/ai-wont-lower-your-engineering-bar",
+    "date": "2026-03-31",
+    "id": "17749633848503"
+  },
+  {
+    "title": "开源项目：本地运行 AI 代理分析 DNA 数据",
+    "summary": "HelixGenomics 推出开源工具，AI 代理协作分析基因文件，数据不离本地。",
+    "detail": "**背景**：GitHub 上新增 HelixGenomics 开源项目，关注个人基因组分析。**核心技术**：允许多个 AI 代理协作分析 23andMe 等原始 DNA 文件，强调隐私安全，数据仅在本地运行。**行业影响**：为个人基因组分析提供了新的 AI 驱动方案，解决了云端处理隐私泄露的痛点。展示了多 Agent 协作在垂直领域的应用潜力，推动了本地化 AI 部署趋势，适合对隐私敏感的生物科技开发者参考使用。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "AI Agents"
+    ],
+    "link": "https://github.com/HelixGenomics/Genomic-Agent-Discovery",
+    "date": "2026-03-31",
+    "id": "17749633848504"
+  },
+  {
     "title": "ATTP：专为 AI Agent 设计的安全传输协议",
     "summary": "新协议 ATTP 为 AI Agent 通信提供强制签名与身份验证。",
     "detail": "ATTP（Agent Trust Transport Protocol）是专为 2026 年 AI Agent 经济设计的新标准。它基于 HTTP 运行，但强制每次请求进行 ECDSA 签名，验证 Agent 身份护照，并提供防篡改审计追踪。相比传统 HTTP，ATTP 解决了缺乏身份验证和信任层级的问题，特别适用于多 Agent 系统协作、支付及欧盟 AI 法案合规场景，确保通信默认安全。",
@@ -349,6 +388,19 @@
     "link": "https://9to5mac.com/2026/03/30/adobe-illustrator-now-lets-you-rotate-2d-vectors-in-3d-space/",
     "date": "2026-03-31",
     "id": "17749243407084"
+  },
+  {
+    "title": "民调显示美国人对 AI 看法恶化，担忧失业",
+    "summary": "昆尼皮亚克大学民调：AI 使用率上升，但公众看法变差，7 成认为会裁员。",
+    "detail": "**背景**：昆尼皮亚克大学发布最新人工智能民意调查结果。**核心数据**：尽管美国人使用 AI 的频率增加，但对其看法正在恶化。70% 受访者认为 AI 将削减工作岗位，其中 Z 世代最为悲观。**行业影响**：反映了社会对 AI 经济影响的深层焦虑。公众信任度下降可能影响 AI 产品的市场推广及政策制定。企业需关注 AI 伦理及就业影响，采取措施缓解社会担忧，以避免潜在的监管阻力及品牌声誉风险。",
+    "tags": [
+      "News",
+      "Society",
+      "Jobs"
+    ],
+    "link": "https://poll.qu.edu/poll-release?releaseid=3955",
+    "date": "2026-03-30",
+    "id": "17749633848502"
   },
   {
     "title": "LiteLLM 与争议初创公司 Delve 分道扬镳",
@@ -1246,57 +1298,5 @@
     "link": "https://github.com/DharmaDhillon/mnemo",
     "date": "2026-03-29",
     "id": "17748236812702"
-  },
-  {
-    "title": "真实案例：一个试图经营业务的 AI 代理目前收益为零",
-    "summary": "Hacker News 热议一个开源 AI 代理尝试运营真实业务的实验，目前尚未产生收入。",
-    "detail": "Hacker News 上引发讨论的\"Acrid Automation\"项目展示了一个 AI 代理尝试运营真实业务的实验。该代理基于 Claude 构建，完全开源了其操作系统和技能框架，包括内容写作和自我改进能力。尽管已上线 4 款产品并撰写多篇博客，但目前收益为零。这一案例为 AI 代理的商业化落地提供了宝贵的真实数据，揭示了当前 Agent 在自主赚钱能力上的局限，同时也展示了开源代理架构的透明度，引发社区对 AI 自主经济能力的理性评估。",
-    "tags": [
-      "News",
-      "Agent",
-      "Business"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47567952",
-    "date": "2026-03-29",
-    "id": "17748236812703"
-  },
-  {
-    "title": "LLM 广告：AI 搜索时代的新广告层与变现模式",
-    "summary": "文章探讨 LLM 广告如何在 AI 生成对话中植入上下文广告，解决发布者收入流失问题。",
-    "detail": "随着用户转向 ChatGPT 等 AI 工具获取直接答案，传统搜索广告库存面临蒸发风险。新文章定义了\"LLM 广告”概念，即在 AI 生成对话和搜索结果中植入相关上下文广告。这种模式旨在平衡用户体验与商业变现，让提供知识的发布者仍能获得收入，广告主也能触达高意图受众。平台如 GenDiscover 已开始实践，通过 AI 聊天小部件在对话中提供可货币化的互动。这标志着数字广告正适应 AI 搜索范式，探索新的生态共赢机制。",
-    "tags": [
-      "News",
-      "Advertising",
-      "LLM"
-    ],
-    "link": "https://www.gendiscover.com/blog/what-is-llm-advertising",
-    "date": "2026-03-29",
-    "id": "17748236812704"
-  },
-  {
-    "title": "QA Panda：在真实浏览器中测试 Web 应用的开源 AI QA 工程师",
-    "summary": "开源项目 QA Panda 利用 AI 代理在真实浏览器中自动测试、修复并交付 Web 应用。",
-    "detail": "新开源项目 QA Panda 定位为\"AI 驱动的 QA 工程师”，能够在真实浏览器环境中测试 Web 应用。该工具提供 VS Code 插件和 CLI，支持自动测试、修复错误并自信地交付代码。其核心优势在于模拟真实用户环境进行测试，而非仅依赖单元测试。在 AI 编码工具普及的今天，自动化测试与修复闭环至关重要。QA Panda 通过代理技术实现了测试执行的自动化，帮助开发团队减少回归测试成本，提升软件交付质量与速度。",
-    "tags": [
-      "Dev",
-      "Testing",
-      "Automation"
-    ],
-    "link": "https://github.com/gzmagyari/qapanda",
-    "date": "2026-03-29",
-    "id": "17748236812705"
-  },
-  {
-    "title": "软件工程教训：避免在 AI 工具应用中重蹈覆辙",
-    "summary": "资深工程师撰文提醒，在采用 AI 编码工具时应保持简单，避免过度复杂化。",
-    "detail": "一位拥有 20 年经验软件工程师撰文指出，当前 AI 编码工具（如 Claude Code）虽能替代部分人力，但开发者应避免重蹈软件工程过去几十年的覆辙。文章强调\"KISS 原则”（保持简单），批评了过度依赖复杂工具链、微服务和编排框架的趋势。作者认为，大多数经验关乎如何思考复杂工具及避免陷阱，而非代码本身。在 AI 时代，盲目追求技术栈的复杂性可能导致维护灾难。文章呼吁开发者和企业主在使用 AI 时回归本质，权衡成本与收益，保持架构简洁。",
-    "tags": [
-      "Dev",
-      "Best Practices",
-      "Engineering"
-    ],
-    "link": "https://www.lobsterpack.com/blog/software-engineering-lessons-ai-tools/",
-    "date": "2026-03-29",
-    "id": "17748236812706"
   }
 ]
