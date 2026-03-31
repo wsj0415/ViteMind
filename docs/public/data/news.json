@@ -1,5 +1,83 @@
 [
   {
+    "title": "中国 AI 经济战略：Token 成新石油",
+    "summary": "媒体分析中国如何通过 Token 经济策略在 AI 领域悄然领先。",
+    "detail": "**行业分析**：文章探讨了中国在 AI 经济中的新战略，将 Token 视为关键资源。虽然具体内容受限，但标题暗示了地缘政治与 AI 资源竞争的新视角。这对关注全球 AI 格局的投资人和政策观察者具有重要参考意义，提示了除算力外的另一竞争维度。未来需关注具体政策落地及市场反应，这可能影响全球 AI 供应链的分布。",
+    "tags": [
+      "News",
+      "AI Economy",
+      "China"
+    ],
+    "link": "https://thamizhelango.medium.com/tokens-are-the-new-oil-how-china-is-quietly-winning-the-ai-economy-7feeb75892cf",
+    "date": "2026-03-31",
+    "id": "17749339459880"
+  },
+  {
+    "title": "警惕：axios NPM 包遭供应链攻击",
+    "summary": "axios 维护者账号被盗，恶意版本植入后门，开发者需紧急排查。",
+    "detail": "**安全警报**：axios 维护者账号 `jasonsaayman` 被攻破，导致 `1.14.1` 和 `0.30.4` 版本被植入恶意代码。攻击者通过 `plain-crypto-js` 包交付 payload。建议开发者立即锁定版本至 `1.14.0` 或 `0.30.3`。此事件再次凸显开源供应链安全风险，AI 辅助安全工具（如 Strix）在此类追踪中发挥作用。企业需加强依赖包审计。",
+    "tags": [
+      "Dev",
+      "Security",
+      "NPM"
+    ],
+    "link": "https://app.strix.ai/share/chats/NDIxNzZiMTItZWQ2My00NDY4LWIzYzUtNDEyZDgyMWI1YjYzLm1uZTJldnQ0LkVtTnhuYUVyYkk5elcwellfTkl2MTZUVTRKdXVrRkw5RFY0MEZ2ZGZlN1k",
+    "date": "2026-03-31",
+    "id": "17749339459881"
+  },
+  {
+    "title": "加州无视特朗普呼吁强推 AI 新规",
+    "summary": "加州计划实施新 AI 法规，与联邦政府立场相左，行业合规成本将增。",
+    "detail": "**政策风向**：加州决定推进新的 AI 监管措施，即便面临特朗普政府的反对。这表明美国内部在 AI 治理上存在显著分歧。对于在加州运营的 AI 企业，合规要求将更加严格。这可能引发联邦与州之间的法律博弈，影响 AI 模型的部署策略及数据使用规范，企业需提前准备合规方案以应对潜在的法律冲突。",
+    "tags": [
+      "News",
+      "Policy",
+      "Regulation"
+    ],
+    "link": "https://www.theguardian.com/us-news/2026/mar/30/california-ai-regulations-trump",
+    "date": "2026-03-31",
+    "id": "17749339459882"
+  },
+  {
+    "title": "AriaOS：基于 Linux 的 AI 代理操作系统",
+    "summary": "全新 AI 操作系统发布，可自主控制鼠标键盘，执行跨应用任务。",
+    "detail": "**新产品**：AriaOS 是一款基于 Linux 的自动化环境，专为 Agent 工作流设计。它能长期记忆上下文，直接控制鼠标和键盘构建软件或导航应用。支持远程控制模式，用户可通过提示词让 OS 自主完成任务。这代表了 OS 层级的 AI 化尝试，将电脑从工具转变为自主代理，适合开发者及自动化需求高的用户。可能改变人机交互范式。",
+    "tags": [
+      "New",
+      "OS",
+      "Agent"
+    ],
+    "link": "https://getariaos.com/",
+    "date": "2026-03-31",
+    "id": "17749339459883"
+  },
+  {
+    "title": "RelayFreeLLM：免费 AI API 聚合网关",
+    "summary": "开源网关整合 Gemini 等多模型免费层，自动故障转移，降低开发成本。",
+    "detail": "**开发工具**：RelayFreeLLM 是一个开源 API 网关，将 Gemini、Groq、Mistral 等免费层整合为单一 OpenAI 兼容接口。核心功能是自动故障转移（Failover），当某 provider 限流时自动切换，避免 429 错误。无需修改代码即可接入，适合希望降低推理成本且保证稳定性的开发者，是构建低成本 AI 应用的实用基础设施。显著降低初创团队成本。",
+    "tags": [
+      "Dev",
+      "API",
+      "OpenSource"
+    ],
+    "link": "https://github.com/msmarkgu/RelayFreeLLM",
+    "date": "2026-03-31",
+    "id": "17749339459884"
+  },
+  {
+    "title": "GoDaddy：利用 AI Agent 实现安全左移",
+    "summary": "GoDaddy 黑客松项目展示如何用 AI 代理在代码提交前进行安全审查。",
+    "detail": "**行业实践**：GoDaddy 团队在黑客松中展示了“零代码安全团队”概念。通过 Prompt 原生的 AI Agent，将安全反馈移至代码提交前（Pre-commit），解决传统安全工具滞后问题。方案轻量且能并行处理静态分析、逻辑审查等任务。这为大型企业如何利用 AI 提升 DevSecOps 效率提供了参考案例，表明 AI 代理正深入工程核心流程。值得安全团队借鉴。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Enterprise"
+    ],
+    "link": "https://www.godaddy.com/resources/news/the-zero-code-security-team-shifting-left-with-prompt-native-ai-agents",
+    "date": "2026-03-31",
+    "id": "17749339459885"
+  },
+  {
     "title": "谷歌警告量子计算将破解加密货币加密",
     "summary": "谷歌量子 AI 团队发布白皮书，警告未来量子计算机可破解椭圆曲线加密。",
     "detail": "谷歌 Quantum AI 团队发布白皮书，指出未来量子计算机破解加密货币所需的量子比特数少于预期。他们负责任地披露了漏洞，并通过零知识证明验证，未提供利用路径。建议行业尽快过渡到后量子密码学 (PQC) 以保障安全。此举凸显量子计算对现有安全体系的潜在威胁，呼应了 NIST 对密码迁移的建议。团队旨在推动区块链社区在风险实现前完成安全升级，防止大规模资产损失，展示了科技巨头在前沿风险治理上的责任感。",
@@ -1220,83 +1298,5 @@
     "link": "https://deeprepo.dev",
     "date": "2026-03-29",
     "id": "17748099630101"
-  },
-  {
-    "title": "AgentLens：开源 AI Agent 可观测性工具",
-    "summary": "GitHub 开源项目，提供自托管的 AI Agent 监控，支持工具调用追踪与决策树可视化。",
-    "detail": "### 项目亮点\nAgentLens 被比作\"AI Agent 的 Chrome DevTools\"，专注于解决 Agent 开发中的黑盒问题。\n\n### 技术特性\n- **自托管**：保障数据隐私，适合企业内部部署。\n- **调用追踪**：清晰记录 Agent 的工具调用序列与参数。\n- **决策可视化**：以树状图展示 Agent 的决策逻辑路径。\n- **开源免费**：基于 GitHub 托管，社区驱动开发。\n\n### 开发者价值\n为构建复杂 Agent 应用提供了必要的调试与监控基础设施，降低运维难度。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Agent"
-    ],
-    "link": "https://github.com/tranhoangtu-it/agentlens",
-    "date": "2026-03-29",
-    "id": "17748099630102"
-  },
-  {
-    "title": "Homemaker：基于 Claude 的开源 AI 家居设计工具",
-    "summary": "结合 Three.js 与 Claude Code，支持浏览器端 3D  walkthrough 与语音指令生成室内设计。",
-    "detail": "### 产品形态\n一款浏览器端的家居室内设计平台，利用生成式 AI 简化 3D 建模流程。\n\n### 核心能力\n- **自然语言建模**：通过聊天指令创建房间、门窗及家具布局。\n- **3D 漫游**：支持第一人称视角实时预览设计效果。\n- **资源库**：内置 500+ 家具模型与 320+ PBR 纹理。\n- **平面图转换**：支持上传 2D 图纸自动转换为 3D 几何体。\n\n### 技术栈\n基于 Three.js 渲染与 Claude Code 逻辑生成，完全开源可部署。",
-    "tags": [
-      "New",
-      "Dev",
-      "Generative AI"
-    ],
-    "link": "https://github.com/bayllama/homemaker",
-    "date": "2026-03-29",
-    "id": "17748099630103"
-  },
-  {
-    "title": "Show HN: AI  curated 远程开发者职位平台",
-    "summary": "AI  curated 远程开发职位平台上线，含 311+ 活跃岗位。",
-    "detail": "RemoteDevJobs 亮相 Show HN，主打 AI 策展的远程开发者职位。平台目前拥有 311 个活跃岗位，本周新增 70 个，每日更新。分类涵盖 DevOps（115 个）、后端、全栈及 AI/ML（27 个）等。支持全球 100% 远程工作搜索，提供职位提升服务。旨在利用 AI 技术匹配职位与技能，提升求职者与雇主的对接效率，为开发者提供便捷的求职渠道，是寻找高质量远程工作的新选择，适合各类技术栈人才。此工具降低了信息筛选成本，体现了 AI 在垂直领域的应用潜力。",
-    "tags": [
-      "New",
-      "Jobs",
-      "AI"
-    ],
-    "link": "https://remotedvjobs.com/",
-    "date": "2026-03-29",
-    "id": "17748056557740"
-  },
-  {
-    "title": "卫报：虚假教会数据揭示 AI 对民意调查的威胁",
-    "summary": "虚假数据事件暴露 AI 生成内容对传统民意调查可信度的冲击。",
-    "detail": "卫报报道指出，虚假教会数据事件揭示了 AI 技术对民意调查构成的潜在威胁。随着 AI 生成内容的泛滥，传统数据收集方式面临真实性挑战，可能导致 polling 结果失真。这可能影响政策制定及公众舆论判断，行业需开发更先进的检测技术以维护数据完整性。此事件警示社会各界关注 AI 滥用风险，特别是在公共信任领域的影响，凸显了数据验证在 AI 时代的重要性。数据污染已成为 AI 治理的关键难题，需引起重视。",
-    "tags": [
-      "News",
-      "Society",
-      "Security"
-    ],
-    "link": "https://www.theguardian.com/technology/2026/mar/28/how-fraudulent-church-data-revealed-ais-threat-to-polling",
-    "date": "2026-03-29",
-    "id": "17748056557741"
-  },
-  {
-    "title": "出版界困境：难以检测 AI 生成书籍",
-    "summary": "文学界挣扎于检测 AI 写作，出版商面临前所未有的挑战。",
-    "detail": "卫报深入探讨文学界在检测 AI 生成书籍方面的困境。出版商表示难以区分人类与 AI 作品，现有检测工具效果有限，直言“出版商将无法抵挡”。小说《Shy Girl》引发争议，凸显版权与原创性危机。行业亟需建立新标准与检测机制，以保护人类创作者权益，维护文学创作的真实性与价值，避免市场被低质 AI 内容淹没，文学界正面临前所未有的技术冲击。创作边界模糊化带来法律与伦理挑战，亟需解决方案。",
-    "tags": [
-      "News",
-      "Copyright",
-      "LLM"
-    ],
-    "link": "https://www.theguardian.com/technology/2026/mar/29/ai-written-books-novel-shy-girl-publishers",
-    "date": "2026-03-29",
-    "id": "17748056557742"
-  },
-  {
-    "title": "Paul Graham：AI 时代所需的阅读素养",
-    "summary": "PG 撰文强调阅读不仅是获取知识，更是培养写作与思考能力的关键。",
-    "detail": "Paul Graham 重温经典文章《阅读的必要性》，间接回应 AI 时代的素养需求。他指出阅读不仅传授知识，更教会人们写作与深度思考。写作不仅是记录，更是思考的过程，能发现新思想。在 AI 可快速生成内容的背景下，人类独有的通过写作发现新思想的能力显得尤为珍贵。这为 AI literacy 提供了基础视角，强调核心认知能力不可替代，是应对 AI 冲击的关键，阅读习惯至关重要。深度思考能力是人类壁垒。",
-    "tags": [
-      "Dev",
-      "Learning",
-      "Essay"
-    ],
-    "link": "https://paulgraham.com/read.html",
-    "date": "2026-03-29",
-    "id": "17748056557743"
   }
 ]
