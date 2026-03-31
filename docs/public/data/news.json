@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 数据中心致周边升温高达 9.1°C",
+    "summary": "新研究揭示 AI 数据中心热岛效应显著，局部气温升高引发环保担忧。",
+    "detail": "**背景**：随着 AI 算力需求激增，数据中心散热问题成为行业瓶颈。**核心发现**：新科学家杂志报道，AI 数据中心运行产生的废热可导致周围区域气温升高高达 9.1°C。**行业影响**：该研究强调了绿色冷却技术和能源效率优化的紧迫性，可能影响未来数据中心选址及环保法规制定，迫使企业重新评估基础设施的环境成本。",
+    "tags": [
+      "News",
+      "Environment",
+      "Data Center"
+    ],
+    "link": "https://www.newscientist.com/article/2521256-ai-data-centres-can-warm-surrounding-areas-by-up-to-9-1c/",
+    "date": "2026-03-31",
+    "id": "17749545414410"
+  },
+  {
+    "title": "Kern：跨平台统一记忆的 AI 代理运行时",
+    "summary": "开源代理运行时 Kern 发布，实现终端、Web、Slack 等多端会话记忆同步。",
+    "detail": "**核心功能**：Kern 是一个开源 AI 代理运行时，旨在打破应用孤岛。其核心特性是“一个大脑”，代理在不同界面（终端、Web、Telegram、Slack）共享同一会话记忆。**技术优势**：用户可在手机发送指令，回家后在终端继续对话。支持本地部署，通过 daemon 运行，解决了传统聊天机器人在不同渠道会话割裂的问题，提升了工作流连续性。",
+    "tags": [
+      "New",
+      "Agent",
+      "Open Source"
+    ],
+    "link": "https://kern-ai.com/blog/introducing-kern",
+    "date": "2026-03-31",
+    "id": "17749545414411"
+  },
+  {
+    "title": "Pardus Browser：专为 AI 代理设计的无头浏览器",
+    "summary": "基于 Rust 构建的轻量级浏览器，输出语义树而非像素，大幅提升代理交互效率。",
+    "detail": "**技术创新**：Pardus Browser 是一款专为 AI 代理设计的无头浏览器，无需 Chromium 二进制文件。**工作原理**：它不生成截图，而是直接解析 HTML 输出结构化语义树（包含角色、链接、动作），耗时通常低于 200ms。**价值**：这种设计减少了视觉处理负担，使代理能更快速地理解页面结构和交互元素，适合大规模自动化任务，降低了资源消耗。",
+    "tags": [
+      "Dev",
+      "Browser",
+      "Rust"
+    ],
+    "link": "https://github.com/JasonHonKL/PardusBrowser/tree/main",
+    "date": "2026-03-31",
+    "id": "17749545414412"
+  },
+  {
+    "title": "论文警示：AI 辅助开发正产生“无尽代码垃圾”",
+    "summary": "最新 arXiv 论文指出 AI 生成代码质量下降，增加开发者审查负担。",
+    "detail": "**研究主题**：arXiv 发表论文《\"An Endless Stream of AI Slop\"》，探讨 AI 辅助软件开发带来的负担。**主要观点**：研究发现，过度依赖 AI 生成代码可能导致低质量代码泛滥，增加后续维护和审查成本。**行业启示**：这引发了对当前 AI 编程助手效率的反思，提示开发者需平衡自动化与人工审查，行业需关注代码质量评估标准的建立。",
+    "tags": [
+      "News",
+      "Research",
+      "Coding"
+    ],
+    "link": "https://arxiv.org/abs/2603.27249",
+    "date": "2026-03-31",
+    "id": "17749545414413"
+  },
+  {
+    "title": "22 条 Cursor 规则防止 Next.js 代码幻觉",
+    "summary": "开源项目提供特定架构规则，有效抑制 AI 生成不安全或过时的 Next.js 代码。",
+    "detail": "**解决方案**：该 GitHub 项目提供了 22 条 AI 架构规则（.mdc 格式），专为 Next.js 15 + Supabase 模板设计。**目的**：旨在防止 Cursor 等 AI 工具生成不安全认证、废弃包或破坏性模式的代码。**应用价值**：通过预定义约束，规范 AI 输出，确保代码符合最佳实践。这对于使用 AI 编程助手的企业级开发具有参考价值，降低了技术债务风险。",
+    "tags": [
+      "Dev",
+      "Next.js",
+      "Best Practices"
+    ],
+    "link": "https://github.com/vibestackdev/vibe-stack",
+    "date": "2026-03-31",
+    "id": "17749545414414"
+  },
+  {
     "title": "氦气危机：AI 算力供应链面临地缘政治风险",
     "summary": "卡塔尔氦气工厂停产，芯片供应链告急影响 AI 算力。",
     "detail": "### 背景\n地缘冲突导致卡塔尔拉斯拉凡工业城氦气生产中断，全球三分之一供应受影响。\n### 核心影响\n氦气是芯片制造关键原料，短缺直接威胁服务器生产。过去两年 AI 投资基于算力廉价化假设，此事件可能动摇该基础。\n### 行业建议\n企业需重新评估硬件供应链风险，关注稀有气体储备及替代方案。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.beval.space/",
     "date": "2026-03-29",
     "id": "17748165852011"
-  },
-  {
-    "title": "WSJ: AI 并未减轻工作负荷反而增加强度",
-    "summary": "华尔街日报报道，AI 工具使工作任务变得更加密集而非轻松。",
-    "detail": "华尔街日报最新分析指出，尽管 AI 被承诺提高效率，但实际上并未减轻员工负担，反而使工作负荷更加密集。相反，AI 生成的内容需要更多人工审查和修正，导致工作节奏加快、强度增加。这一现象揭示了当前 AI 落地过程中的现实挑战，企业需重新审视人机协作流程。员工反馈显示，处理 AI 输出所需的精神负荷往往高于从头开始工作，盲目期待自动化带来的减负效果可能导致倦怠。这提示管理者在部署 AI 时需关注工作流重组而非单纯工具叠加，避免技术债务转化为人力债务。",
-    "tags": [
-      "News",
-      "Workplace",
-      "Impact"
-    ],
-    "link": "https://www.wsj.com/tech/ai/ai-isnt-lightening-workloads-its-making-them-more-intense-e417dd2c",
-    "date": "2026-03-29",
-    "id": "17748165852012"
-  },
-  {
-    "title": "深度分析：AI 无法修复混乱的组织架构图",
-    "summary": "组织债务是 AI 开发摩擦的根源，而非技术本身。",
-    "detail": "文章指出 AI 辅助开发产生的摩擦源于既有的组织债务，如边界不清、系统无人负责。AI 只是以更快的速度压力测试了这些问题，使其无法被忽视。建议工程团队在引入 AI 前明确所有权和跨团队贡献规则。组织卫生比 AI 工具更重要，模糊的边界会导致 AI 生成的代码无法合并或维护，阻碍实际效能提升。CTO 们需意识到，若未解决谁拥有何种系统的根本问题，AI 只会放大混乱而非修复架构图，清晰的责任边界是 AI 原生开发的前提，技术无法弥补管理上的缺失。",
-    "tags": [
-      "News",
-      "Management",
-      "Engineering"
-    ],
-    "link": "https://pragmatist.nl/ai-wont-fix-your-org-chart/",
-    "date": "2026-03-29",
-    "id": "17748165852013"
-  },
-  {
-    "title": "GitHub 开源项目：Gestalt AI 比价装机工具",
-    "summary": "实时对比亚马逊与 eBay 价格的 AI PC 组装助手。",
-    "detail": "Gestalt 是一个托管在 GitHub 上的开源项目，旨在利用 AI 帮助用户构建 PC，解决硬件选择困难。其核心功能是在亚马逊和 eBay 之间实时比较硬件价格，优化配置成本。该项目展示了 AI 在电商比价和个性化推荐场景下的应用潜力，为开发者提供了基于 Agent 的购物辅助工具参考实现。通过自动化价格追踪和配置建议，它解决了 DIY 装机过程中的信息不对称问题，体现了 AI Agent 在消费决策领域的实际落地能力，适合开发者参考学习如何构建垂直领域的比价 Agent。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Shopping"
-    ],
-    "link": "https://github.com/Xydra01/Gestalt",
-    "date": "2026-03-29",
-    "id": "17748165852014"
-  },
-  {
-    "title": "资深记者分享 AI 事实核查工作流",
-    "summary": "将聊天机器人视为实习生而非灵感源。",
-    "detail": "资深记者 Megan McArdle 在社交媒体分享其 AI 工作流，建议将聊天机器人视为实习生、初审编辑和事实核查员的组合。她强调 AI 的核心价值在于处理繁琐工作并产出更干净的稿件，而非提供创作灵感。这一观点为媒体行业如何务实落地 AI 工具提供了清晰指引，强调辅助而非替代的创作边界，有助于缓解行业对 AI 取代人类的焦虑。",
-    "tags": [
-      "News",
-      "Media",
-      "Workflow"
-    ],
-    "link": "https://twitter.com/asymmetricinfo/status/2037506453846573225",
-    "date": "2026-03-29",
-    "id": "17748128842190"
-  },
-  {
-    "title": "Palantir CEO 预测 AI 时代成功法则",
-    "summary": "只有具备职业技能和神经多样性的人能成功。",
-    "detail": "Palantir CEO Alex Karp 在接受采访时指出，AI 时代只有两类人能成功：拥有特定职业技能的人及神经多样性人群。他强调职业教育与独特认知优势的重要性，而非通用学历。此言论引发对未来人才战略的深思，提示企业与个人需重新评估技能树，适应人机协作的新职场生态，尤其对 Gen Z 职业规划具有指导意义。",
-    "tags": [
-      "News",
-      "Career",
-      "Leadership"
-    ],
-    "link": "https://fortune.com/2026/03/24/palantir-ceo-alex-karp-two-people-successful-in-ai-era-vocational-skills-neurodivergence-gen-z-career-advice/",
-    "date": "2026-03-29",
-    "id": "17748128842191"
   }
 ]
