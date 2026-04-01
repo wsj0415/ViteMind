@@ -1,5 +1,83 @@
 [
   {
+    "title": "微软 Power Automate 工作流自动化详解",
+    "summary": "Zapier 深度解析微软自动化工具及其生态限制。",
+    "detail": "文章深入分析了 Microsoft Power Automate 的功能，作为微软 Power Platform 的一部分，它擅长连接 Teams、Outlook 等生态应用。虽然对微软用户友好，但跨平台能力受限。对比了 Zapier，适合主要依赖微软栈的企业评估自动化方案，帮助团队理解其在工作流中的实际定位与局限性。对于正在寻找 Teams 生态内自动化解决方案的企业，这是一个值得评估的选项，但需注意跨平台集成时的潜在约束。",
+    "tags": [
+      "Dev",
+      "Automation",
+      "Microsoft"
+    ],
+    "link": "https://zapier.com/blog/what-is-power-automate",
+    "date": "2026-04-01",
+    "id": "17750560670600"
+  },
+  {
+    "title": "无 H100 如何搞科研？ML Patron 自主研究方案",
+    "summary": "作者分享在不依赖高端显卡情况下构建自主 AI 研究系统。",
+    "detail": "针对算力短缺问题，作者介绍了 ML Patron 项目。旨在无需 H100 等高端 GPU 的情况下进行自主 AI 研究。探讨了资源受限下的模型训练与推理策略，为独立研究者和小型团队提供了低成本科研路径，强调自主性与资源优化，解决硬件门槛阻碍创新的问题。该项目展示了如何通过软件优化弥补硬件不足，为资源有限的研究者提供了新的思路，降低 AI 研究门槛。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Infrastructure"
+    ],
+    "link": "https://medium.com/@nblintao/no-h100-no-problem-why-i-built-ml-patron-for-autonomous-ai-research-cd991ad9d867",
+    "date": "2026-04-01",
+    "id": "17750560670601"
+  },
+  {
+    "title": "Mesh：开源多 AI 代理协作工作空间",
+    "summary": "连接 Claude、Cursor 和 Gemini 的开源代理协作工具。",
+    "detail": "Mesh 是一个开源项目，旨在为 AI 代理团队提供统一工作空间。支持连接 Claude、Cursor、Gemini 等多种模型，实现零人类员工的全代理协作。适合开发者构建多代理系统，探索 AI 自主协作流程，代码托管于 GitHub，便于社区贡献与二次开发，推动代理协作生态发展。该项目展示了多模型协同工作的可能性，为构建完全自主的 AI 团队提供了基础架构，适合对多代理系统感兴趣的开发者研究与试用。",
+    "tags": [
+      "New",
+      "OpenSource",
+      "Agents"
+    ],
+    "link": "https://github.com/ycanerden/mesh",
+    "date": "2026-04-01",
+    "id": "17750560670602"
+  },
+  {
+    "title": "深度解析 Claude Code 的 WebFetchTool 机制",
+    "summary": "技术文章深入剖析 AI 如何通过工具读取网络信息。",
+    "detail": "文章详细拆解了 Claude Code 中 WebFetchTool 的工作原理。探讨了 AI 代理如何安全、有效地抓取和解析网页内容，涉及上下文管理与信息提取技术。对于开发基于 LLM 的网络交互应用具有参考价值，揭示了 AI 获取外部知识的具体实现路径，帮助开发者理解工具调用细节。通过深入分析，读者可以了解 AI 如何处理动态网页内容，这对于构建更强大的 AI 辅助编程工具至关重要，提升了透明度和可控性。",
+    "tags": [
+      "Dev",
+      "Claude",
+      "Tools"
+    ],
+    "link": "https://medium.com/@nblintao/how-an-ai-reads-the-web-a-deep-dive-into-claude-codes-webfetchtool-0abee4446343",
+    "date": "2026-04-01",
+    "id": "17750560670603"
+  },
+  {
+    "title": "调查显示：七分之一美国人接受 AI 上司",
+    "summary": "最新调研揭示职场对 AI 管理者的接受度与信任危机。",
+    "detail": "The Register 报道最新调查，约 14% 的美国人愿意接受 AI 作为上司，但普遍存在信任问题。反映了 AI 进入管理层的社会心理障碍。数据表明虽然技术能力提升，但人类对算法决策的透明度与公平性仍存疑虑，对企业部署 AI 管理工具提出挑战，揭示人机协作的社会阻力。文章分析了信任缺失的根源，指出尽管效率可能提升，但情感接受度仍是瓶颈，为企业引入 AI 管理工具提供了重要的社会心理学参考依据。",
+    "tags": [
+      "News",
+      "Survey",
+      "Society"
+    ],
+    "link": "https://www.theregister.com/2026/04/01/americans_ai_boss/",
+    "date": "2026-04-01",
+    "id": "17750560670604"
+  },
+  {
+    "title": "GrandCode：AI 首次在编程竞赛中超越人类大师",
+    "summary": "多代理强化学习系统在大奖赛中获得第一名，超越人类。",
+    "detail": "DeepReinforce 团队发布 GrandCode 论文，该系统通过多代理强化学习（Agentic RL）在 Codeforces live 竞赛中连续三次获得第一名，超越所有人类选手包括传奇大师。标志着 AI 在复杂逻辑编程任务上取得里程碑式突破，引入了 Agentic GRPO 算法解决延迟奖励问题，展示强编码能力。这一成就证明了强化学习在复杂任务中的潜力，可能改变未来软件开发流程，标志着 AI 从辅助编码向独立解决高难度算法问题的转变。",
+    "tags": [
+      "News",
+      "RL",
+      "Programming"
+    ],
+    "link": "https://deep-reinforce.com/grandcode.pdf",
+    "date": "2026-04-01",
+    "id": "17750560670605"
+  },
+  {
     "title": "METR 新论文：AI 完成长软件任务的能力每七个月翻倍",
     "summary": "METR 研究指出 LLM 时间视界指标增长迅速，长任务处理能力显著提升。",
     "detail": "Model Evaluation & Threat Research (METR) 发布论文，提出“时间视界”指标衡量 AI 完成长任务能力。研究显示 LLM 该指标每七个月翻倍，近期可能加速。通过对 170 项任务测试，量化了 AI 代理在复杂软件工程中的实际效能，为评估 AI 自主性提供新基准。该发现表明 AI 代理处理长上下文和复杂逻辑的能力正在显著增强，对未来软件开发流程自动化具有深远影响，开发者需关注此趋势。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/vibestackdev/vibe-stack",
     "date": "2026-03-31",
     "id": "17749545414414"
-  },
-  {
-    "title": "氦气危机：AI 算力供应链面临地缘政治风险",
-    "summary": "卡塔尔氦气工厂停产，芯片供应链告急影响 AI 算力。",
-    "detail": "### 背景\n地缘冲突导致卡塔尔拉斯拉凡工业城氦气生产中断，全球三分之一供应受影响。\n### 核心影响\n氦气是芯片制造关键原料，短缺直接威胁服务器生产。过去两年 AI 投资基于算力廉价化假设，此事件可能动摇该基础。\n### 行业建议\n企业需重新评估硬件供应链风险，关注稀有气体储备及替代方案。",
-    "tags": [
-      "News",
-      "Supply Chain",
-      "Hardware"
-    ],
-    "link": "https://dekodiert.de/en/articles/unsichtbare-input",
-    "date": "2026-03-31",
-    "id": "17749478310190"
-  },
-  {
-    "title": "巴黎圣日耳曼签约 Harvey 为官方法律 AI 伙伴",
-    "summary": "法甲豪门引入法律 AI 平台优化内部法务工作流。",
-    "detail": "### 合作内容\n巴黎圣日耳曼与法律 AI 平台 Harvey 达成多年合作，内部法务团队将使用该平台。\n### 核心价值\n旨在提高法律研究、起草效率及决策质量。Harvey 借此加速欧洲市场扩张，并在球场品牌曝光。\n### 行业意义\n标志着垂直领域 AI 在大型体育俱乐部及企业端的落地，展现法律科技商业化潜力。",
-    "tags": [
-      "News",
-      "Legal Tech",
-      "Enterprise"
-    ],
-    "link": "https://www.harvey.ai/blog/paris-saint-germain-names-harvey-the-official-legal-ai-partner",
-    "date": "2026-03-31",
-    "id": "17749478310191"
-  },
-  {
-    "title": "推理成本下降：廉价芯片将普及前沿 AI",
-    "summary": "廉价芯片可能让前沿 AI 模型普及至发展中国家。",
-    "detail": "### 核心观点\n文章探讨推理成本下降趋势，通过廉价硬件让非洲等地区也能使用前沿模型。\n### 经济影响\n当前推理依赖昂贵 GPU 数据中心，新硬件方案可将成本降至二手手机价格。\n### 未来展望\n这将改变 AI 经济格局，降低使用门槛，使医疗等专业领域在资源匮乏地区得以应用。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Economics"
-    ],
-    "link": "https://substack.com/home/post/p-192665961",
-    "date": "2026-03-31",
-    "id": "17749478310192"
-  },
-  {
-    "title": "GeoHot 警示：闭源 AI 可能导致新封建主义",
-    "summary": "GeoHot 发文称闭源 AI 等同于新封建主义。",
-    "detail": "### 主要论点\n指出闭源模型导致算力、人才及部署权力集中，最终形成技术寡头。\n### 结构风险\n即使初衷良好，机构形式仍推动权力集中，普通用户无法真正拥有智能。\n### 倡导方向\n呼吁建立自由技术秩序，避免少数公司垄断智能控制权，强调开源对防止技术依赖的重要性。",
-    "tags": [
-      "News",
-      "Open Source",
-      "Ethics"
-    ],
-    "link": "https://geohot.github.io//blog/jekyll/update/2026/03/31/free-intelligence.html",
-    "date": "2026-03-31",
-    "id": "17749478310193"
-  },
-  {
-    "title": "Vulniq AI：自主安全扫描器支持 JS/TS 代码库",
-    "summary": "Vulniq 自主安全扫描器支持 JS/TS 代码库审计。",
-    "detail": "### 功能概述\n基于 Claude Code 技能的自主安全工具，混合外部 CLI 工具扫描漏洞。\n### 技术特点\n无需配置即可检测 XSS、秘密泄露、依赖漏洞等十大安全问题。结合上下文验证，减少误报。\n### 输出格式\n生成优先级的修复报告，支持 SARIF JSON 及 Markdown 格式，适合集成到开发流程。",
-    "tags": [
-      "Dev",
-      "Security",
-      "JavaScript"
-    ],
-    "link": "https://github.com/JakubKontra/skills/blob/main/docs/vulniq.md",
-    "date": "2026-03-31",
-    "id": "17749478310194"
-  },
-  {
-    "title": "免费开源 AI 编码技能包优化 Rails 开发流程",
-    "summary": "免费开源 AI 编码技能包优化 Rails 开发流程。",
-    "detail": "### 工具介绍\n提供符合资深开发者习惯的 Rails AI 编码模式，支持 Claude Code 等代理。\n### 核心内容\n包含经典 Rails 架构规则（如富模型薄控制器），无需注册即可通过 CLI 安装。\n### 适用场景\n适合希望统一团队代码风格、提高 AI 生成代码质量的 Ruby on Rails 开发者团队。",
-    "tags": [
-      "Dev",
-      "Ruby",
-      "Productivity"
-    ],
-    "link": "https://www.railsreviews.com/skills",
-    "date": "2026-03-31",
-    "id": "17749478310195"
   }
 ]
