@@ -1,5 +1,57 @@
 [
   {
+    "title": "AI 代币计价差异揭秘：语言影响成本",
+    "summary": "不同模型代币划分不同导致成本差异高达 60%。",
+    "detail": "揭示 OpenAI、Google 及 Anthropic 等主流厂商使用的 BPE 分词器存在显著差异。同一单词在不同模型下被切割成的 token 数量不同，导致非英语用户成本最高增加 60%。目前行业缺乏统一的 Token 标准，也无监管机构审计。各提供商词汇表大小不一，从 32k 到 256k 不等。开发者需注意不同 API 的计价差异，选择更适合目标语言的分词器以优化成本，避免隐性支出。这一技术细节正成为 21 世纪最大的隐性成本之一。",
+    "tags": [
+      "News",
+      "LLM",
+      "Cost"
+    ],
+    "link": "https://tokenstree.com/newsletter-article-5.html",
+    "date": "2026-04-01",
+    "id": "17750661457220"
+  },
+  {
+    "title": "Meta 开源混凝土 AI 模型 BOxCrete",
+    "summary": "Meta 发布 BOxCrete 模型优化混凝土混合设计。",
+    "detail": "Meta 发布名为 BOxCrete 的 AI 模型，旨在优化混凝土混合设计，减少对美国进口水泥的依赖。该模型基于贝叶斯优化，已在 GitHub 开源。传统混凝土设计依赖试错法，效率低下。Meta 希望通过 AI 帮助建筑行业生产更高质量且可持续的混凝土混合物，同时支持美国本土生产。此举展示了 AI 在传统工业领域的落地潜力，为基础设施建设的可持续发展提供新路径。数据包含获奖混凝土混合配方的基础数据，供研究人员使用。",
+    "tags": [
+      "News",
+      "Meta",
+      "OpenSource"
+    ],
+    "link": "https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/",
+    "date": "2026-04-01",
+    "id": "17750661457221"
+  },
+  {
+    "title": "Agent Action Guard：AI 代理安全新工具",
+    "summary": "新工具防止 AI 代理执行有害操作。",
+    "detail": "针对 AI 代理可能执行有害操作的安全隐患，社区推出 Agent Action Guard 工具。实验显示 GPT 和 Claude 等主流模型在 HarmActionBench 测试中得分较低，缺乏屏障。该工具可拦截有害指令，提升代理可靠性。项目已开源，旨在扩展数据集与基准测试。随着 AI 代理自主性增强，动作安全成为关键部署考量，开发者需引入防护层以防止关键项目中的潜在风险。目前尚无可靠方案，此工具填补了代理行动安全监控的空白。",
+    "tags": [
+      "Dev",
+      "Safety",
+      "Agent"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47603542",
+    "date": "2026-04-01",
+    "id": "17750661457222"
+  },
+  {
+    "title": "人形机器人训练数据与基准评测现状",
+    "summary": "零工经济训练人形机器人与基准评测现状。",
+    "detail": "MIT 科技评论报道人形机器人训练依赖全球零工经济，工人通过佩戴设备记录家务数据。Micro1 公司在 50 多国雇佣数千名记录员，引发隐私争议。同时指出当前 AI 基准评测已失效，孤立问题测试无法反映真实场景。行业需建立新评估体系。这揭示了机器人落地背后的数据收集链条及评测标准滞后问题，为投资者和开发者提供行业现状参考。零工工作虽报酬当地尚可，但面临伦理挑战，数据质量成为竞争关键。",
+    "tags": [
+      "News",
+      "Robotics",
+      "Benchmark"
+    ],
+    "link": "https://www.technologyreview.com/2026/04/01/1134993/the-download-gig-workers-training-humanoids-better-ai-benchmarks/",
+    "date": "2026-04-01",
+    "id": "17750661457223"
+  },
+  {
     "title": "Holo3 模型发布：突破电脑操作前沿",
     "summary": "Hugging Face 发布 Holo3 模型，OSWorld 基准得分刷新纪录。",
     "detail": "H Company 在 Hugging Face 发布 Holo3 模型，总参数量 122B（激活 10B）。在 OSWorld-Verified 基准测试中获得 78.85% 分数，确立行业新标杆。该模型专为生产环境设计，通过代理学习飞轮训练，能在合成企业环境中执行真实工作流。这不仅确保 Holo3 在当今业务场景中表现出色，还为未来代理自主导航任何数字景观奠定基础。它打破了计算机使用前沿，是自主企业愿景的最新演变，工程化设计使其优于单纯基准领导者，能处理复杂工作流，标志着自主代理技术在桌面电脑操作领域的重大突破，性能与效率兼顾。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.mikeayles.com/blog/rag-coding-tools/",
     "date": "2026-03-31",
     "id": "17749580014922"
-  },
-  {
-    "title": "研究：提示词强度影响 AI 发明质量",
-    "summary": "新知识创新系统（KIS）框架显著提升 LLM 发明概念质量。",
-    "detail": "这项预印研究探讨了知识创新系统（KIS）这一结构化提示框架如何提升 LLM 生成发明概念的质量。实验跨越三个主流模型及 84 个会话，发现 KIS 强度等级与发明质量呈正相关，特别是在基础性和结构转型维度。研究为优化 Prompt 工程以提升创造性任务输出提供了实证依据，展示了提示词强度对 AI 创新能力的阈值效应。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Prompt"
-    ],
-    "link": "https://zenodo.org/records/19347700",
-    "date": "2026-03-31",
-    "id": "17749580014923"
-  },
-  {
-    "title": "Claude Code Tools：AI 开发工具索引平台",
-    "summary": "收录 900+ 个 MCP 服务器与工具，24/7 自动扫描更新。",
-    "detail": "Claude Code Tools 是一个由 5 个 AI Agent 全天候扫描构建的资源平台，已索引 913 个包括 MCP 服务器、技能、框架在内的开发资源。平台支持按项目描述推荐定制工具包，并提供实时状态与定价筛选。对于希望扩展 Claude Code 能力的开发者而言，这是发现遗漏工具、优化工作流的一站式中心，每 15 分钟更新一次。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "Claude"
-    ],
-    "link": "https://claudecodetools.dev/",
-    "date": "2026-03-31",
-    "id": "17749580014924"
-  },
-  {
-    "title": "Baskets AI：自然语言构建投资组合应用",
-    "summary": "AI 原生投资应用开启 Beta，用自然语言创建股票篮子。",
-    "detail": "Baskets AI 是一款 AI 原生投资应用，允许用户使用自然语言创建复杂的股票篮子并即时回测。Beta 阶段提供 5 万美元虚拟资金挑战赛，优胜者可获现金奖励。应用具备语义意图分析和实时数据映射功能，降低了量化投资门槛。其目标是让非专业用户也能通过对话构建策略，并验证其相对于标普 500 的表现。",
-    "tags": [
-      "New",
-      "Finance",
-      "App"
-    ],
-    "link": "https://basketsai.com/",
-    "date": "2026-03-31",
-    "id": "17749580014925"
-  },
-  {
-    "title": "AI 数据中心致周边升温高达 9.1°C",
-    "summary": "新研究揭示 AI 数据中心热岛效应显著，局部气温升高引发环保担忧。",
-    "detail": "**背景**：随着 AI 算力需求激增，数据中心散热问题成为行业瓶颈。**核心发现**：新科学家杂志报道，AI 数据中心运行产生的废热可导致周围区域气温升高高达 9.1°C。**行业影响**：该研究强调了绿色冷却技术和能源效率优化的紧迫性，可能影响未来数据中心选址及环保法规制定，迫使企业重新评估基础设施的环境成本。",
-    "tags": [
-      "News",
-      "Environment",
-      "Data Center"
-    ],
-    "link": "https://www.newscientist.com/article/2521256-ai-data-centres-can-warm-surrounding-areas-by-up-to-9-1c/",
-    "date": "2026-03-31",
-    "id": "17749545414410"
   }
 ]
