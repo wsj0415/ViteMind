@@ -1,5 +1,44 @@
 [
   {
+    "title": "METR 新论文：AI 完成长软件任务的能力每七个月翻倍",
+    "summary": "METR 研究指出 LLM 时间视界指标增长迅速，长任务处理能力显著提升。",
+    "detail": "Model Evaluation & Threat Research (METR) 发布论文，提出“时间视界”指标衡量 AI 完成长任务能力。研究显示 LLM 该指标每七个月翻倍，近期可能加速。通过对 170 项任务测试，量化了 AI 代理在复杂软件工程中的实际效能，为评估 AI 自主性提供新基准。该发现表明 AI 代理处理长上下文和复杂逻辑的能力正在显著增强，对未来软件开发流程自动化具有深远影响，开发者需关注此趋势。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Benchmark"
+    ],
+    "link": "https://emptysqua.re/blog/review-measuring-ai-ability-to-complete-long-software-tasks/",
+    "date": "2026-04-01",
+    "id": "17750501137611"
+  },
+  {
+    "title": "Show HN: Signet 为 AI 代理提供加密行动回执",
+    "summary": "新项目 Signet 通过加密回执实现 AI 代理行动的可审计性与验证。",
+    "detail": "Prismer-AI 推出 Signet 项目，旨在为 AI 代理的自动操作提供加密行动回执。支持签名、审计和验证功能，解决 AI 代理自主执行任务时的安全性与信任问题。随着 AI 代理普及，此类安全基础设施对于确保操作可追溯性和防止恶意行为至关重要。该项目通过密码学手段确保每个动作都有据可查，为企业级 AI 部署提供了必要的安全层，防止代理失控或滥用权限。",
+    "tags": [
+      "New",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://github.com/Prismer-AI/signet",
+    "date": "2026-04-01",
+    "id": "17750501137612"
+  },
+  {
+    "title": "研究：AI 系统改进的同时正偏离现实",
+    "summary": "GitHub 新项目探讨 AI 对齐框架，警告模型优化可能导致现实漂移。",
+    "detail": "GitHub 上的 Reality Drift Project 发布论文，探讨 AI 系统在对齐过程中可能出现的“现实漂移”现象。研究提出现实约束系统 AI 对齐框架，警告过度优化可能导致模型脱离实际场景。为开发者提供了诊断和工作流工具，以确保 AI 系统在改进的同时保持对现实世界的准确性。这对于防止模型幻觉和确保关键任务可靠性具有重要意义，是对齐研究的重要补充。",
+    "tags": [
+      "Dev",
+      "Alignment",
+      "Research"
+    ],
+    "link": "https://github.com/therealitydrift/reality-drift-library/blob/main/Reality%20Drift%20Project/07_Operational_Briefs/01_Diagnostics_and_Workflows/reality-constrained-systems-ai-alignment-framework..pdf",
+    "date": "2026-04-01",
+    "id": "17750501137614"
+  },
+  {
     "title": "甲骨文大规模裁员以加速 AI 投入",
     "summary": "甲骨文在加大 AI 支出的同时进行新一轮裁员，涉及数千名员工。",
     "detail": "**背景**：根据 CNBC 最新报道，科技巨头甲骨文正在执行新一轮大规模裁员计划，涉及数千名员工。**核心动态**：尽管公司持续大幅增加人工智能基础设施的资本支出，但仍决定削减传统业务岗位。**行业影响**：此举深刻反映了传统软件巨头在 AI 转型关键期的资源重组策略，标志着人力成本正向算力成本显著转移。市场分析师指出，投资者需密切关注其后续 AI 支出的实际回报率及业务增长情况，这将成为衡量转型成功与否的关键指标。同时，这也可能引发行业内的效仿，导致科技领域就业结构进一步调整。此新闻揭示了 AI 浪潮下企业成本结构的剧烈变化，建议从业者关注技能转型。",
@@ -375,6 +414,32 @@
     "link": "http://5.161.255.238:8888/",
     "date": "2026-04-01",
     "id": "17750114130835"
+  },
+  {
+    "title": "美国最大公立医院 CEO 称准备用 AI 取代放射科医生",
+    "summary": "公立医院高管表示准备用 AI 替代放射科医生，引发行业震动。",
+    "detail": "美国最大公立医院系统 CEO 公开表示已准备好使用 AI 取代放射科医生，引发业界广泛关注。这一言论凸显了 AI 在医疗影像领域的快速渗透能力，同时也引发了关于医疗就业、责任归属及诊断准确性的激烈讨论。随着模型精度提升，医院管理层开始考虑成本效益比。标志着 AI 从辅助工具向核心决策者角色的潜在转变，可能重塑医疗行业人力结构。",
+    "tags": [
+      "News",
+      "Healthcare",
+      "Job Impact"
+    ],
+    "link": "https://radiologybusiness.com/topics/artificial-intelligence/ceo-americas-largest-public-hospital-system-says-hes-ready-replace-radiologists-ai",
+    "date": "2026-03-31",
+    "id": "17750501137610"
+  },
+  {
+    "title": "斯坦福法学：联邦隐私法应适用于托管 AI 模型",
+    "summary": "法律专家探讨如何将数字通信隐私法应用于 AI 模型数据存储与搜查。",
+    "detail": "斯坦福网络法律中心文章探讨将联邦数字通信隐私法应用于托管 AI 模型。指出随着上下文窗口增大，AI 存储的用户生活日志成为执法金矿。文章分析了搜查令适用于 AI 提示词和响应的法律依据，强调在隐私保护与执法需求间寻找平衡的紧迫性。随着 AI 成为日常伴侣，法律框架需更新以适应新技术特性，保护用户数据不被滥用，同时满足合法调查需求。",
+    "tags": [
+      "News",
+      "Legal",
+      "Privacy"
+    ],
+    "link": "https://cyberlaw.stanford.edu/blog/2026/03/applying-federal-digital-communications-privacy-law-to-hosted-ai-models/",
+    "date": "2026-03-31",
+    "id": "17750501137613"
   },
   {
     "title": "生成式 AI 冲击艺术教育体系",
@@ -1233,70 +1298,5 @@
     "link": "https://www.railsreviews.com/skills",
     "date": "2026-03-31",
     "id": "17749478310195"
-  },
-  {
-    "title": "中国 AI 经济战略：Token 成新石油",
-    "summary": "媒体分析中国如何通过 Token 经济策略在 AI 领域悄然领先。",
-    "detail": "**行业分析**：文章探讨了中国在 AI 经济中的新战略，将 Token 视为关键资源。虽然具体内容受限，但标题暗示了地缘政治与 AI 资源竞争的新视角。这对关注全球 AI 格局的投资人和政策观察者具有重要参考意义，提示了除算力外的另一竞争维度。未来需关注具体政策落地及市场反应，这可能影响全球 AI 供应链的分布。",
-    "tags": [
-      "News",
-      "AI Economy",
-      "China"
-    ],
-    "link": "https://thamizhelango.medium.com/tokens-are-the-new-oil-how-china-is-quietly-winning-the-ai-economy-7feeb75892cf",
-    "date": "2026-03-31",
-    "id": "17749339459880"
-  },
-  {
-    "title": "警惕：axios NPM 包遭供应链攻击",
-    "summary": "axios 维护者账号被盗，恶意版本植入后门，开发者需紧急排查。",
-    "detail": "**安全警报**：axios 维护者账号 `jasonsaayman` 被攻破，导致 `1.14.1` 和 `0.30.4` 版本被植入恶意代码。攻击者通过 `plain-crypto-js` 包交付 payload。建议开发者立即锁定版本至 `1.14.0` 或 `0.30.3`。此事件再次凸显开源供应链安全风险，AI 辅助安全工具（如 Strix）在此类追踪中发挥作用。企业需加强依赖包审计。",
-    "tags": [
-      "Dev",
-      "Security",
-      "NPM"
-    ],
-    "link": "https://app.strix.ai/share/chats/NDIxNzZiMTItZWQ2My00NDY4LWIzYzUtNDEyZDgyMWI1YjYzLm1uZTJldnQ0LkVtTnhuYUVyYkk5elcwellfTkl2MTZUVTRKdXVrRkw5RFY0MEZ2ZGZlN1k",
-    "date": "2026-03-31",
-    "id": "17749339459881"
-  },
-  {
-    "title": "加州无视特朗普呼吁强推 AI 新规",
-    "summary": "加州计划实施新 AI 法规，与联邦政府立场相左，行业合规成本将增。",
-    "detail": "**政策风向**：加州决定推进新的 AI 监管措施，即便面临特朗普政府的反对。这表明美国内部在 AI 治理上存在显著分歧。对于在加州运营的 AI 企业，合规要求将更加严格。这可能引发联邦与州之间的法律博弈，影响 AI 模型的部署策略及数据使用规范，企业需提前准备合规方案以应对潜在的法律冲突。",
-    "tags": [
-      "News",
-      "Policy",
-      "Regulation"
-    ],
-    "link": "https://www.theguardian.com/us-news/2026/mar/30/california-ai-regulations-trump",
-    "date": "2026-03-31",
-    "id": "17749339459882"
-  },
-  {
-    "title": "AriaOS：基于 Linux 的 AI 代理操作系统",
-    "summary": "全新 AI 操作系统发布，可自主控制鼠标键盘，执行跨应用任务。",
-    "detail": "**新产品**：AriaOS 是一款基于 Linux 的自动化环境，专为 Agent 工作流设计。它能长期记忆上下文，直接控制鼠标和键盘构建软件或导航应用。支持远程控制模式，用户可通过提示词让 OS 自主完成任务。这代表了 OS 层级的 AI 化尝试，将电脑从工具转变为自主代理，适合开发者及自动化需求高的用户。可能改变人机交互范式。",
-    "tags": [
-      "New",
-      "OS",
-      "Agent"
-    ],
-    "link": "https://getariaos.com/",
-    "date": "2026-03-31",
-    "id": "17749339459883"
-  },
-  {
-    "title": "RelayFreeLLM：免费 AI API 聚合网关",
-    "summary": "开源网关整合 Gemini 等多模型免费层，自动故障转移，降低开发成本。",
-    "detail": "**开发工具**：RelayFreeLLM 是一个开源 API 网关，将 Gemini、Groq、Mistral 等免费层整合为单一 OpenAI 兼容接口。核心功能是自动故障转移（Failover），当某 provider 限流时自动切换，避免 429 错误。无需修改代码即可接入，适合希望降低推理成本且保证稳定性的开发者，是构建低成本 AI 应用的实用基础设施。显著降低初创团队成本。",
-    "tags": [
-      "Dev",
-      "API",
-      "OpenSource"
-    ],
-    "link": "https://github.com/msmarkgu/RelayFreeLLM",
-    "date": "2026-03-31",
-    "id": "17749339459884"
   }
 ]
