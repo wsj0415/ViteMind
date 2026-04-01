@@ -1,5 +1,96 @@
 [
   {
+    "title": "澳大利亚面临 AI 导致的就业“清零”危机",
+    "summary": "科技行业裁员潮背后，AI 代理正取代传统员工角色。",
+    "detail": "澳大利亚科技行业近期出现冗余裁员，尽管部分归因于过度招聘，但 AI 技术采用被认为是关键因素。悉尼创业者 Shaon Diwarkar 指出，其公司 InboxAPI 仅由一人运营，却利用 ChatGPT、Gemini 等多个 AI 代理完成工作。这种模式表明，传统需多名员工的企业未来可能仅需一人配合 AI 代理即可生存。行业普遍存在“采用 AI 或死亡”的紧迫感，预示着劳动力市场将面临前所未有的结构调整，许多职位可能被 AI 代理取代。",
+    "tags": [
+      "News",
+      "Jobs",
+      "AI Agents"
+    ],
+    "link": "https://disassociated.com/australia-facing-ai-led-job-wipe-out-no-one-prepared/",
+    "date": "2026-04-01",
+    "id": "17750764355750"
+  },
+  {
+    "title": "AI 经济影响预测：经济学家与技术家的分歧",
+    "summary": "新论文揭示经济学家与技术人员对 AI 经济后果预测存在巨大差异。",
+    "detail": "最新论文调查了经济学家、AI 专业人士及公众对 AI 经济影响的看法。即便假设 AI 能力快速发展，经济学家仍预测宏观经济增长接近历史趋势，而技术界则认为将面临文明级断裂。这种“价格发现”问题导致资本配置和政策制定上的重大分歧，核心在于对经济后果而非能力本身的判断差异。Tyler Cowen 指出，即使在快速场景下，中位经济学家仍预测 2050 年 GDP 增长 3.5%，而非奇点式爆发。",
+    "tags": [
+      "News",
+      "Economics",
+      "Research"
+    ],
+    "link": "https://davefriedman.substack.com/p/the-price-discovery-problem-in-the",
+    "date": "2026-04-01",
+    "id": "17750764355751"
+  },
+  {
+    "title": "多模型 AI 系统协调模式与错误控制指南",
+    "summary": "深入解析多 Agent 系统中的振荡问题及协调模式最佳实践。",
+    "detail": "文章探讨了多模型系统（如 Claude、Gemini）的协作模式。不同模型具有独特的盲点和推理风格，协同使用可互补弱点。重点分析了“振荡”问题，即 Agent 因共享状态和独立决策互相撤销工作。通过理解信息流和错误传播机制，开发者可选择合适的协调模式构建可靠的代理系统。文章强调不仅要了解如何设置，更要理解为何选择特定模式，以控制多 Agent 执行中的错误传播。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "Architecture"
+    ],
+    "link": "https://datda.substack.com/p/towards-reliable-agentic-systems",
+    "date": "2026-04-01",
+    "id": "17750764355752"
+  },
+  {
+    "title": "Tamp.dev：降低 AI 编码 Agent Token 成本高达 63%",
+    "summary": "开源工具自动压缩 Tool Result，显著减少 API 调用开销。",
+    "detail": "Tamp 是一个 Token 压缩代理，专为编码 Agent 设计。它位于 Agent 与 API 之间，自动分类并压缩工具结果（如 JSON、文件输出），减少 52.6% 的输入 Token。支持 Claude Code、Cursor 等工具，无需代码更改。通过 A/B 测试验证，能有效解决对话历史累积导致的成本激增问题，适合高频调用场景。工具免费开源，旨在将 AI 编码成本降低一半，解决 Tool Result 膨胀问题。",
+    "tags": [
+      "Deal",
+      "Cost",
+      "DevTools"
+    ],
+    "link": "https://tamp.dev/",
+    "date": "2026-04-01",
+    "id": "17750764355753"
+  },
+  {
+    "title": "Google Cloud：构建适配 AI Agent 与人类的双模 CLI",
+    "summary": "教程指导如何设计同时满足人类交互与 Agent 解析的命令行工具。",
+    "detail": "Google Cloud 技术团队建议 CLI 设计应解耦数据与展示。人类需要交互式 TUI，而 Agent 需要结构化 JSON/NDJSON 数据。通过添加标志（如--no-tui），同一命令可服务于两者。核心原则是将 CLI 内部逻辑视为数据引擎，终端 UI 仅为客户端之一，确保自动化脚本可解析且人类体验良好。今年构建的 CLI 都应考虑被 Agent 调用，需避免彩色输出等阻碍机器解析的特性。",
+    "tags": [
+      "Dev",
+      "CLI",
+      "Tutorial"
+    ],
+    "link": "https://twitter.com/GoogleCloudTech/status/2038778093104779537",
+    "date": "2026-04-01",
+    "id": "17750764355754"
+  },
+  {
+    "title": "YC 支持初创公司获准使用 AI 开具精神类药物处方",
+    "summary": "全球首例，AI 初创企业获得处方权，医疗 AI 监管里程碑。",
+    "detail": "一家获 YC 支持的 AI 初创公司成为全球首家被允许使用 AI 开具精神类药物处方的企业。这一突破标志着 AI 在医疗诊断与治疗领域的监管壁垒正在松动。尽管具体技术细节未披露，但此举可能引发关于 AI 医疗责任、安全性及伦理的广泛讨论，是医疗 AI 商业化的重要进展。新闻源自纽约邮报，显示了 AI 在敏感医疗领域的实际应用落地。",
+    "tags": [
+      "News",
+      "Healthcare",
+      "Regulation"
+    ],
+    "link": "https://nypost.com/2026/03/27/business/artificial-intelligence-can-now-prescribe-mental-health-drugs/",
+    "date": "2026-04-01",
+    "id": "17750764355755"
+  },
+  {
+    "title": "Roadie：开源 KVM 工具让 AI 代理控制手机",
+    "summary": "Show HN 项目，通过开源 KVM 实现 AI 对移动设备的物理控制。",
+    "detail": "VibiumDev 推出的 Roadie 是一个开源 KVM 项目，旨在让 AI 代理能够控制手机设备。作为 Show HN 热门项目，它解决了 AI 与物理移动设备交互的硬件接口问题。通过虚拟化或硬件映射，AI 可以执行移动端任务，为自动化测试、远程协助及移动端 AI 代理部署提供了新的基础设施方案。该项目托管于 GitHub，允许开发者探索 AI 对移动设备的直接控制能力。",
+    "tags": [
+      "New",
+      "OpenSource",
+      "Mobile"
+    ],
+    "link": "https://github.com/VibiumDev/roadie",
+    "date": "2026-04-01",
+    "id": "17750764355756"
+  },
+  {
     "title": "Axios NPM 包遭投毒，AI 编码代理面临安全风险",
     "summary": "2026 年 3 月 30 日 Axios 库被植入后门，AI 代理自动安装受影响，暴露供应链信任危机。",
     "detail": "2026 年 3 月 30 日，主流 JavaScript 库 Axios 遭攻击者妥协，发布含远程访问特洛伊木马的中毒版本。由于 AI 编码代理通常自动执行 `npm install`，导致大量机器在无感知下被入侵。文章指出这并非孤立事件，此前 `glob` 包及 TeamPCP 活动已暴露类似漏洞。核心问题在于 AI 代理缺乏对依赖包的信任验证层，常规操作与恶意执行之间界限模糊。此事件警示开发者需重构 AI 工具链的安全架构，建立依赖包完整性校验机制，否则 AI 加速开发的同时也将加速攻击面的扩散。随着 AI 代理自主权增加，供应链安全将成为制约其落地的关键瓶颈，亟需行业建立新的信任标准。",
@@ -1207,96 +1298,5 @@
     "link": "https://github.com/PRDicta/Solitaire-for-Agents",
     "date": "2026-03-31",
     "id": "17749764645785"
-  },
-  {
-    "title": "Nomadic 获 840 万美元融资，管理自动驾驶数据",
-    "summary": "专注自动驾驶数据管理，Nomadic 完成新一轮融资。",
-    "detail": "自动驾驶车辆产生海量数据，处理这些数据成为瓶颈。Nomadic 致力于解决这一痛点，近期完成 840 万美元融资。该技术有助于优化 AV 数据流，提升训练效率，对自动驾驶行业发展具有基础设施层面的意义。此轮融资将用于扩展数据工程团队，优化存储架构。对于自动驾驶公司而言，有效管理传感器数据是模型迭代的关键，Nomadic 的解决方案有望成为行业标准工具，加速 L4 级自动驾驶的商业化落地进程。",
-    "tags": [
-      "News",
-      "Autonomous Vehicles",
-      "Funding"
-    ],
-    "link": "https://techcrunch.com/2026/03/31/nomadic-raises-8-4-million-to-wrangle-the-data-pouring-off-avs/",
-    "date": "2026-03-31",
-    "id": "17749695693330"
-  },
-  {
-    "title": "Hivemind：开源自托管多智能体 AI 平台",
-    "summary": "隐私优先，支持自托管的多智能体协作平台。",
-    "detail": "Hivemind 是一个开源的多智能体 AI 团队平台，主打自托管特性，确保数据不留存于第三方。支持代理协作、工具使用及消息渠道连接。适合注重隐私和数据主权的企业及开发者部署本地 AI 工作流。该平台兼容主流消息渠道，允许用户自定义代理行为。在数据隐私法规日益严格的背景下，自托管方案成为企业刚需，Hivemind 填补了本地化多智能体协作的市场空白，降低了部署门槛。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Multi-Agent"
-    ],
-    "link": "https://github.com/hivementality-ai/hivemind",
-    "date": "2026-03-31",
-    "id": "17749695693331"
-  },
-  {
-    "title": "Nature 刊文：警惕“有帮助”AI 的隐藏成本",
-    "summary": "研究揭示 AI 辅助决策可能带来的潜在负面影响。",
-    "detail": "Nature 发表观点文章，探讨“有帮助”的 AI 工具背后的隐藏成本。即使 AI 辅助个人决策，也可能削弱人类自主性或带来伦理风险。文章呼吁在部署 AI 辅助系统时，需审慎评估其对人类判断力的长期影响。过度依赖可能导致认知退化，需平衡效率与人类自主性。研究指出，建议在医疗、法律等高风险领域保留人类最终决策权，避免算法偏见导致的系统性错误，确保技术服务于人类福祉。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Research"
-    ],
-    "link": "https://www.nature.com/articles/d41586-026-00966-2",
-    "date": "2026-03-31",
-    "id": "17749695693333"
-  },
-  {
-    "title": "Maango：一键扫描网站 AI 爬虫政策合规性",
-    "summary": "免费工具，检测网站是否允许 AI 抓取和训练。",
-    "detail": "Maango 提供免费的 AI 政策注册表服务，可扫描域名是否允许 AI 机器人抓取、爬取或训练。支持检测 robots.txt、ai.txt 等 7 种标准，帮助网站所有者快速发现策略冲突并生成机器可读的 AI 政策。在 AI 爬虫泛滥当下，这是保护内容版权的重要合规工具。随着 AI 爬虫流量占比提升，网站所有者亟需明确边界。Maango 简化了合规流程，无需技术背景即可操作。这有助于建立更透明的互联网数据使用规范。",
-    "tags": [
-      "New",
-      "Tool",
-      "AI Policy"
-    ],
-    "link": "https://www.maango.io",
-    "date": "2026-03-31",
-    "id": "17749695693334"
-  },
-  {
-    "title": "五大开源 AI 智能体模型助力自主工作",
-    "summary": "盘点支持复杂任务处理的开源智能体模型。",
-    "detail": "文章评测了五款专为自主工作设计的开源模型，包括 MiroThinker 1.7、MolmoWeb 等。这些模型擅长处理多步任务、浏览器控制及编码工作流，解决了传统智能体在中途崩溃的问题，支持自托管部署。为开发者构建可靠 AI 员工提供了具体选型指南。评测显示，这些模型在长上下文保持和工具调用准确率上表现优异。开发者可直接调用 API 或本地部署，适用于自动化测试、数据抓取等场景。开源社区的活跃加速了智能体技术的迭代普及。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Open Source"
-    ],
-    "link": "https://firethering.com/best-open-source-ai-agent-models/",
-    "date": "2026-03-31",
-    "id": "17749695693336"
-  },
-  {
-    "title": "OpenAI 关闭 Sora 应用，警惕 AI 垃圾内容",
-    "summary": "因虚假信息泛滥，OpenAI 下线 Sora 社交应用。",
-    "detail": "OpenAI 宣布关闭推出仅半年的 Sora 应用。该应用因允许用户深度伪造面孔和声音，导致大量战争虚假信息和病毒式假视频泛滥。此举被视为对生成式 AI 滥用风险的警示，政策监管压力随之增加。内容安全与生成能力的平衡仍是行业难题。此次关闭表明，即使技术领先，若无法控制滥用后果，产品也难以存活。行业需建立更严格的内容溯源机制。监管机构可能据此出台更严厉的 AI 生成内容标识法规，影响未来视频生成模型的发布策略。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Policy"
-    ],
-    "link": "https://www.techpolicy.press/openai-closing-its-one-stop-ai-slop-shop-sora-is-a-cautionary-tale/",
-    "date": "2026-03-31",
-    "id": "17749695693337"
-  },
-  {
-    "title": "Ring 推出应用商店，AI 拓展至养老护理",
-    "summary": "Ring 不再仅限安防，通过新应用商店利用 AI 服务养老与企业。",
-    "detail": "**背景**：亚马逊旗下智能家居品牌 Ring 宣布推出全新应用商店，战略重心转移。**核心功能**：利用生成式 AI 技术拓展家庭安全之外的使用场景，重点涵盖老人护理监测及商业安全需求。**行业影响**：标志着智能家居设备从单一安防向多元化 AI 服务生态转型。通过开放平台，Ring 试图挖掘硬件之外的软件服务价值，为 AI 在家庭场景的落地提供了新的商业范式。此举可能引发竞品跟随，加速 AI 在物联网设备中的普及与应用深化。",
-    "tags": [
-      "News",
-      "Product",
-      "Smart Home"
-    ],
-    "link": "https://techcrunch.com/2026/03/31/ring-app-store-bets-on-ai-to-go-beyond-home-security/",
-    "date": "2026-03-31",
-    "id": "17749633848501"
   }
 ]
