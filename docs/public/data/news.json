@@ -1,5 +1,57 @@
 [
   {
+    "title": "防止模型崩溃：O(N) 几何选择预训练数据剪枝方案",
+    "summary": "GitHub 开源项目通过几何选择优化预训练数据，防止 AI 模型崩溃。",
+    "detail": "QCK Framework 发布新仓库，提出一种 O(N) 复杂度的预训练几何选择方法。该技术旨在通过智能数据剪枝（Data Pruning）来解决 AI 模型崩溃（Model Collapse）问题。核心在于利用分形数据筛选机制，在训练前优化数据质量，从而防止模型性能退化。这种几何选择方法可能在大规模数据处理中显著降低计算成本。这对提升大模型训练效率及稳定性具有重要参考价值，尤其适合关注底层训练优化及数据工程的企业与开发者深入研究，可能成为解决数据污染的新方案。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "GitHub"
+    ],
+    "link": "https://github.com/QCK-Framework/QCK_SMART_Fractal-Data-Pruning",
+    "date": "2026-04-02",
+    "id": "17751305131610"
+  },
+  {
+    "title": "独立开发者挑战 Granola：CallBro.ai 主打无锁会议笔记",
+    "summary": "新工具 CallBro.ai 支持个人邮箱与多语言，导出无锁，系统级录音。",
+    "detail": "针对 Granola.ai 等企业级工具的局限，独立开发者推出 CallBro.ai。核心优势包括：无需企业账号，个人邮箱即可使用；支持西语、葡语等多语言真实总结，非简单翻译；提供 Markdown、DOCX 等真实导出功能，拒绝平台锁定。采用系统级音频捕获，会议中无机器人加入提示，保持对话自然。这种无机器人模式避免了会议干扰，提升了用户体验。目前支持 Mac，Windows 版本开发中，适合自由职业者及跨国团队，解决了现有市场隐私与灵活性痛点。",
+    "tags": [
+      "New",
+      "Productivity",
+      "SaaS"
+    ],
+    "link": "https://www.indiehackers.com/post/why-i-m-building-another-ai-meeting-notes-tool-C3yZAdu9r4DKF2B0zBI8",
+    "date": "2026-04-02",
+    "id": "17751305131611"
+  },
+  {
+    "title": "Ofcom 报告：英国成年人社交媒体活跃度下降，AI 陪伴兴起",
+    "summary": "最新研究显示社交发帖率降至 49%，用户转向被动消费及 AI 工具。",
+    "detail": "英国通信管理局（Ofcom）发布年度媒体使用报告，揭示关键趋势：成年人社交媒体主动发帖率从 61% 降至 49%，浏览新网站比例下降。用户关系更谨慎，倾向于短生命周期内容，显示社交疲劳。同时，AI 工具采用率迅速增长，AI 陪伴成为新现象，在线副业持续。这表明用户正从内容创造者转向消费者，AI 填补了互动空白。新闻来源信任度观点不一。该数据反映了后社交媒体时代用户行为转变及 AI 对日常生活的渗透，为行业提供用户洞察。",
+    "tags": [
+      "News",
+      "Market Research",
+      "Social Media"
+    ],
+    "link": "https://www.ofcom.org.uk/media-use-and-attitudes/media-habits-adults/passive-social-media-use-ai-companionship-and-online-side-hustles-uk-adults-media-and-online-lives-revealed",
+    "date": "2026-04-02",
+    "id": "17751305131612"
+  },
+  {
+    "title": "Zilliz 开源 Memsearch：跨 Agent 持久化记忆系统",
+    "summary": "基于 Markdown 的记忆库，支持 Claude Code 等多平台，实现跨会话记忆。",
+    "detail": "Zilliz 技术团队开源 Memsearch，这是一个专为 AI 编码 Agent 设计的跨平台语义记忆系统。作为独立库，它支持任何 AI Agent，采用 Markdown 优先的记忆存储方式，确保记忆持久化。目前已集成 Claude Code、OpenClaw、OpenCode 及 Codex CLI 等主流工具。记忆系统是 Agent 自主性的关键，此举推动了 Agent 生态标准化。该项目解决了 Agent 跨会话、跨代理的记忆持久化难题，为构建更智能的自主代理提供了基础设施支持，降低开发门槛。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Open Source"
+    ],
+    "link": "https://github.com/zilliztech/memsearch",
+    "date": "2026-04-02",
+    "id": "17751305131613"
+  },
+  {
     "title": "Knightcore：自主战斗地牢模拟游戏",
     "summary": "基于 AI 的自主怪物狩猎模拟器，骑士自动探索战斗。",
     "detail": "Knightcore 是一款名为“失落地牢”的自主怪物狩猎模拟器，定位为“活着”的训练模拟器。不同于传统游戏，玩家无需输入指令，骑士会在程序生成的地牢中自动探索、战斗、收集宝藏并变强。该项目展示了 AI 在生成式叙事和自主代理行为上的前沿应用，适合对 AI 驱动的游戏机制和涌现式故事感兴趣的开发者与玩家。这种“放置类”AI 模拟为游戏设计提供了新思路，无需玩家干预即可产生动态故事线，体现了代理智能在娱乐领域的潜力，是观察自主 AI 行为的绝佳案例。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.wheresyoured.at/the-subprime-ai-crisis-is-here/",
     "date": "2026-03-31",
     "id": "17750868426852"
-  },
-  {
-    "title": "AI 评估平台 Yupp.ai 宣布关闭",
-    "summary": "因市场转向代理系统，众包聊天机器人评估需求下降。",
-    "detail": "AI 模型评估市场平台 Yupp.ai 宣布停止运营。尽管拥有 130 万用户，曾签约多家实验室作为付费客户，但未达到足够的产品市场契合度。创始人指出，随着模型能力提升，用户工作流正从独立聊天机器人转向连接工具和记忆的代理系统，导致聊天层面的众包评估重要性降低。网站将持续开放至 4 月 15 日供用户下载数据。这一事件反映了 AI 行业正快速从对话式交互向自主代理系统转型的趋势，众包评估模式在代理时代面临挑战，标志着市场重心转移，为后续代理评估工具的发展留下空间，提醒创业者需紧跟技术范式变迁，避免在快速迭代的 AI 浪潮中掉队。",
-    "tags": [
-      "News",
-      "Startup",
-      "Market"
-    ],
-    "link": "https://blog.yupp.ai/winddown",
-    "date": "2026-03-31",
-    "id": "17750627684343"
-  },
-  {
-    "title": "美国最大公立医院 CEO 称准备用 AI 取代放射科医生",
-    "summary": "公立医院高管表示准备用 AI 替代放射科医生，引发行业震动。",
-    "detail": "美国最大公立医院系统 CEO 公开表示已准备好使用 AI 取代放射科医生，引发业界广泛关注。这一言论凸显了 AI 在医疗影像领域的快速渗透能力，同时也引发了关于医疗就业、责任归属及诊断准确性的激烈讨论。随着模型精度提升，医院管理层开始考虑成本效益比。标志着 AI 从辅助工具向核心决策者角色的潜在转变，可能重塑医疗行业人力结构。",
-    "tags": [
-      "News",
-      "Healthcare",
-      "Job Impact"
-    ],
-    "link": "https://radiologybusiness.com/topics/artificial-intelligence/ceo-americas-largest-public-hospital-system-says-hes-ready-replace-radiologists-ai",
-    "date": "2026-03-31",
-    "id": "17750501137610"
-  },
-  {
-    "title": "斯坦福法学：联邦隐私法应适用于托管 AI 模型",
-    "summary": "法律专家探讨如何将数字通信隐私法应用于 AI 模型数据存储与搜查。",
-    "detail": "斯坦福网络法律中心文章探讨将联邦数字通信隐私法应用于托管 AI 模型。指出随着上下文窗口增大，AI 存储的用户生活日志成为执法金矿。文章分析了搜查令适用于 AI 提示词和响应的法律依据，强调在隐私保护与执法需求间寻找平衡的紧迫性。随着 AI 成为日常伴侣，法律框架需更新以适应新技术特性，保护用户数据不被滥用，同时满足合法调查需求。",
-    "tags": [
-      "News",
-      "Legal",
-      "Privacy"
-    ],
-    "link": "https://cyberlaw.stanford.edu/blog/2026/03/applying-federal-digital-communications-privacy-law-to-hosted-ai-models/",
-    "date": "2026-03-31",
-    "id": "17750501137613"
-  },
-  {
-    "title": "生成式 AI 冲击艺术教育体系",
-    "summary": "The Verge 报道生成式 AI 正在深刻改变艺术学校教育与创意就业市场，引发行业震荡。",
-    "detail": "The Verge 深度报道指出，生成式 AI 技术正在撕裂传统艺术学校体系。随着 AI 生成内容能力的提升，创意职位和教育模式面临重构。文章探讨了教育机构如何适应这一变化，以及学生对未来创意职业前景的担忧。这反映了 AI 技术从工具层面向社会结构层面的渗透，迫使教育界重新思考创意技能的定义与培养方向，行业需关注由此引发的伦理与就业震荡，以及课程设置的紧迫调整。艺术学校需在技术浪潮中寻找平衡，确保学生具备不可替代的创意核心竞争力，应对自动化带来的挑战，避免教育体系与市场需求脱节，影响深远。",
-    "tags": [
-      "News",
-      "Education",
-      "GenerativeAI"
-    ],
-    "link": "https://www.theverge.com/tech/903954/art-schools-generative-ai-education-creative-jobs",
-    "date": "2026-03-31",
-    "id": "17750282691671"
   }
 ]
