@@ -1,5 +1,109 @@
 [
   {
+    "title": "MicroSafe-RL：边缘 AI 微秒级安全层",
+    "summary": "实现 1.18µs 延迟，保护微控制器硬件安全。",
+    "detail": "MicroSafe-RL 是一款专为边缘 AI 设计的专有安全引擎，主要针对强化学习场景中的硬件保护。它在 STM32/ESP32 等微控制器上实现实时操作稳定性签名，延迟低至 1.18 微秒，仅需 20 字节 RAM。该技术能有效防止硬件故障，为资源受限的嵌入式设备提供了关键的安全保障。此工具推动了边缘 AI 在工业控制、机器人等领域的可靠部署，解决了实时性与安全性的矛盾。对于开发者而言，这意味着可以在极低功耗设备上运行更复杂的 RL 模型，而无需担心硬件损坏，是嵌入式 AI 安全领域的重要进展。",
+    "tags": [
+      "Dev",
+      "Edge AI",
+      "Safety"
+    ],
+    "link": "https://github.com/Kretski/MicroSafe-RL",
+    "date": "2026-04-02",
+    "id": "17751730786980"
+  },
+  {
+    "title": "AI 软件工程实践：如何生成可交付代码",
+    "summary": "分享让 AI 编写可靠、可上线代码的策略与教训。",
+    "detail": "文章深入探讨了当前 AI 编程工具的局限性，如生成不安全代码或泄露凭证的问题。作者基于实际生产经验，总结了如何让 AI 规划设计并编写可信赖代码的策略。内容涵盖 AI 工作原理概述、与 AI 协作的最佳实践以及如何最大化 Agent 效能。为开发者提供了避免“垃圾代码”的实用指南，强调了理解 AI 生成机制的重要性。这对于希望将 AI 集成到工作流中的软件工程师来说，是提升代码质量和安全性的必读内容，有助于建立更稳健的 AI 辅助开发流程。",
+    "tags": [
+      "Dev",
+      "Software Engineering",
+      "LLM"
+    ],
+    "link": "https://mattamonroe.substack.com/p/ai-for-software-engineering",
+    "date": "2026-04-02",
+    "id": "17751730786981"
+  },
+  {
+    "title": "梅奥诊所：AI 心脏脂肪测量提升疾病预测",
+    "summary": "AI 衍生心脏脂肪测量提高心血管风险预测精度。",
+    "detail": "梅奥诊所最新研究表明，纳入 AI 衍生的心脏脂肪测量数据可显著提高心血管疾病风险预测的准确性。该技术利用 AI 分析医学影像，量化心脏周围脂肪，为临床诊断提供了新的生物标志物。这一突破展示了 AI 在医疗影像分析领域的巨大潜力，有望改善早期筛查和个性化治疗方案。对于医疗行业而言，这意味着更精准的风险评估工具，能够帮助医生提前干预高危患者，减少心脏病发作事件，是 AI 赋能精准医疗的典型案例。",
+    "tags": [
+      "News",
+      "Healthcare",
+      "Computer Vision"
+    ],
+    "link": "https://newsnetwork.mayoclinic.org/discussion/including-ai-derived-heart-fat-measurement-improves-accuracy-of-cardiovascular-disease-risk-prediction/",
+    "date": "2026-04-02",
+    "id": "17751730786982"
+  },
+  {
+    "title": "Genesis Agent：本地运行的自修改 AI 代理",
+    "summary": "自感知认知代理，可读取修改自身代码，本地运行。",
+    "detail": "Genesis 是一个独立的 Electron 应用，作为自包含的 AI 代理运行。它能读取并修改自身源代码，通过程序验证输出，具备情景记忆和情感状态。支持本地运行（Ollama/Claude），无需云端配置。该项目展示了自主 Agent 自我进化和本地部署的可能性，为个人 AI 开发者提供了新范式。其核心在于代理能够自主规划任务并验证结果，减少了人工干预。这对于探索 AGI 路径和本地隐私保护型 AI 应用具有重要的实验价值和技术参考意义。",
+    "tags": [
+      "New",
+      "Agent",
+      "Local AI"
+    ],
+    "link": "https://github.com/Garrus800-stack/genesis-agent",
+    "date": "2026-04-02",
+    "id": "17751730786983"
+  },
+  {
+    "title": "Currant：专为非 AI 代理设计的匿名社交媒体",
+    "summary": "无账户社交网络，通过工作量证明过滤 AI 内容。",
+    "detail": "Currant 是一个旨在对抗 AI 内容泛滥的匿名社交平台。它不设账户系统，保护用户隐私。核心特色是通过自动化工作量证明验证流程，分析打字速度、编辑痕迹等数据点，过滤 AI 生成的内容。这反映了用户对真实人类互动的渴望，以及对网络信息真实性的担忧。平台将编辑过程记录并哈希存储，确保内容可追溯。这种反 AI 机制在 AI 生成内容充斥互联网的当下，提供了一种回归真实人际交流的创新解决方案。",
+    "tags": [
+      "New",
+      "Social",
+      "Anti-AI"
+    ],
+    "link": "https://currantfeed.cc",
+    "date": "2026-04-02",
+    "id": "17751730786984"
+  },
+  {
+    "title": "Meta KernelEvolve：AI 代理优化基础设施",
+    "summary": "Meta 排名工程师代理自动优化 AI 基础设施性能。",
+    "detail": "Meta engineering 团队推出了 KernelEvolve，这是一个排名工程师代理，用于优化 AI 基础设施。该代理能够自动分析系统性能，调整内核参数以提升效率。这标志着大型科技公司开始利用 AI 代理管理底层基础设施，有望降低运维成本并提高系统稳定性。是 AI for Infra 的重要案例。通过自动化排名和工程决策，该工具减少了人工干预的需求，展示了 AI 在复杂系统运维中的自我优化能力，为行业树立了新的技术标杆。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Meta"
+    ],
+    "link": "https://engineering.fb.com/2026/04/02/developer-tools/kernelevolve-how-metas-ranking-engineer-agent-optimizes-ai-infrastructure/",
+    "date": "2026-04-02",
+    "id": "17751730786985"
+  },
+  {
+    "title": "Autocook：免费 AI 税务申报工具",
+    "summary": "上传 W-2/1099 自动生成 IRS 表格，2025 年免费。",
+    "detail": "Autocook 是一款 AI 驱动的税务申报工具，用户只需上传 W-2、1099 等文档，AI 即可自动提取数据并填写联邦及加州税表。该工具支持复杂回报（如资本增益、AMT），并承诺 2025 年免费使用。相比传统软件繁琐的问答流程，它提供了更高效的文档驱动体验，降低了报税门槛。这对于自由职业者和投资者尤其友好，能够处理多经纪人合并报表。免费策略有望迅速占领市场，挑战传统税务软件巨头，展示垂直领域 AI 应用的商业潜力。",
+    "tags": [
+      "Deal",
+      "Finance",
+      "Document AI"
+    ],
+    "link": "https://autocook.io",
+    "date": "2026-04-02",
+    "id": "17751730786986"
+  },
+  {
+    "title": "基于 ESP32 与 AI 的坑洼自动报告系统",
+    "summary": "结合 LoRA 与 AI，一键报告路面坑洼至市政部门。",
+    "detail": "这是一个 DIY 项目，利用 ESP32 微处理器、GPS 和 LoRA 无线电，结合少量代理 AI，实现路面坑洼的自动检测与报告。系统可一键将位置信息提交至纽约市交通局。该项目展示了边缘 AI 与 IoT 技术在智慧城市公民科学中的应用潜力，为社区参与基础设施维护提供了低成本方案。通过自动化传感器和长距离无线电，解决了手动报告繁琐的问题。虽然是个人的小项目，但体现了边缘计算在公共服务领域的实用价值和创新思路。",
+    "tags": [
+      "Dev",
+      "IoT",
+      "Edge AI"
+    ],
+    "link": "https://thingswemake.com/pothole-in-one/",
+    "date": "2026-04-02",
+    "id": "17751730786987"
+  },
+  {
     "title": "OpenAI 关闭 Sora 应用：生成成本过高难以为继",
     "summary": "OpenAI 因计算成本过高宣布关闭 Sora 视频应用，每用户亏损严重。",
     "detail": "2026 年 3 月 24 日，OpenAI 宣布关闭 Sora 独立应用，因每位 20 美元订阅用户的计算成本高达 65 美元。分析文章指出生成式 AI 视频面临严重的经济模型困境，每新增用户都在加速亏损，这是物理层面的算术问题而非营销问题。API 将于 9 月正式关闭，标志着当前 AI 视频商业化路径面临巨大挑战。尽管曾与迪士尼签署十亿美元协议，但高昂的推理成本使得业务不可持续，行业需重新审视定价策略与硬件效率，避免盲目扩张导致资金链断裂。",
@@ -1194,109 +1298,5 @@
     "link": "https://news.ycombinator.com/item?id=47603542",
     "date": "2026-04-01",
     "id": "17750661457222"
-  },
-  {
-    "title": "人形机器人训练数据与基准评测现状",
-    "summary": "零工经济训练人形机器人与基准评测现状。",
-    "detail": "MIT 科技评论报道人形机器人训练依赖全球零工经济，工人通过佩戴设备记录家务数据。Micro1 公司在 50 多国雇佣数千名记录员，引发隐私争议。同时指出当前 AI 基准评测已失效，孤立问题测试无法反映真实场景。行业需建立新评估体系。这揭示了机器人落地背后的数据收集链条及评测标准滞后问题，为投资者和开发者提供行业现状参考。零工工作虽报酬当地尚可，但面临伦理挑战，数据质量成为竞争关键。",
-    "tags": [
-      "News",
-      "Robotics",
-      "Benchmark"
-    ],
-    "link": "https://www.technologyreview.com/2026/04/01/1134993/the-download-gig-workers-training-humanoids-better-ai-benchmarks/",
-    "date": "2026-04-01",
-    "id": "17750661457223"
-  },
-  {
-    "title": "Holo3 模型发布：突破电脑操作前沿",
-    "summary": "Hugging Face 发布 Holo3 模型，OSWorld 基准得分刷新纪录。",
-    "detail": "H Company 在 Hugging Face 发布 Holo3 模型，总参数量 122B（激活 10B）。在 OSWorld-Verified 基准测试中获得 78.85% 分数，确立行业新标杆。该模型专为生产环境设计，通过代理学习飞轮训练，能在合成企业环境中执行真实工作流。这不仅确保 Holo3 在当今业务场景中表现出色，还为未来代理自主导航任何数字景观奠定基础。它打破了计算机使用前沿，是自主企业愿景的最新演变，工程化设计使其优于单纯基准领导者，能处理复杂工作流，标志着自主代理技术在桌面电脑操作领域的重大突破，性能与效率兼顾。",
-    "tags": [
-      "News",
-      "LLM",
-      "Agent"
-    ],
-    "link": "https://huggingface.co/blog/Hcompany/holo3",
-    "date": "2026-04-01",
-    "id": "17750627684340"
-  },
-  {
-    "title": "AgentBoard：AI 编程效率统计与排行榜",
-    "summary": "Show HN 项目，自动追踪 Claude Code 与 Codex 的编码耗时与 Token。",
-    "detail": "AgentBoard 是一款新推出的开发者工具，旨在自动追踪用户使用 Claude Code 和 Codex 进行编程的会话数据。它能统计活跃时间、Token 消耗、代码增减量及工具调用次数，并提供全球排行榜功能。通过简单的 CLI 命令即可安装，帮助开发者量化 AI 带来的效率提升（如 1.8 倍效率增益）。示例数据显示用户可追踪每日活跃时间及 AI 等价时间，适合关注 AI 编程效能的团队或个人开发者使用。支持分享统计结果，增强社区互动，透明化 AI 编码贡献，促进开发者间的效率竞争与分享，提升整体工程透明度，让 AI 辅助编程的效果可度量、可比较。",
-    "tags": [
-      "New",
-      "Dev",
-      "Productivity"
-    ],
-    "link": "https://agentboard.cc",
-    "date": "2026-04-01",
-    "id": "17750627684341"
-  },
-  {
-    "title": "Dutchman Labs：CLI 优先的 AI 代理评估工具",
-    "summary": "扫描代码库生成评估数据集，本地运行测试以确保代理可靠性。",
-    "detail": "Dutchman Labs 推出专注于 AI 代理评估的 CLI 工具。它能自动扫描代码库检测 AI 代理，生成覆盖边缘情况和注入攻击的结构化评估测试用例。开发者可在本地真实环境中运行测试，无需 Mock，结果自动上传仪表盘。该工具解决了 AI 代理上线前的信任问题，适合需要将 AI 代理交付给真实用户的工程团队。包含检测、生成、本地运行、查看差距四个命令，免费起步。强调无需安装即可开始，降低门槛。通过结构化评估确保代理行为可靠，表面生产前的行为差距，帮助团队从未经测试过渡到生产就绪，降低 AI 应用风险，提升代理系统在生产环境的稳定性与安全性，是 AI 工程化落地的重要基础设施。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Testing"
-    ],
-    "link": "https://dutchmanlabs.com/",
-    "date": "2026-04-01",
-    "id": "17750627684342"
-  },
-  {
-    "title": "微软 Power Automate 工作流自动化详解",
-    "summary": "Zapier 深度解析微软自动化工具及其生态限制。",
-    "detail": "文章深入分析了 Microsoft Power Automate 的功能，作为微软 Power Platform 的一部分，它擅长连接 Teams、Outlook 等生态应用。虽然对微软用户友好，但跨平台能力受限。对比了 Zapier，适合主要依赖微软栈的企业评估自动化方案，帮助团队理解其在工作流中的实际定位与局限性。对于正在寻找 Teams 生态内自动化解决方案的企业，这是一个值得评估的选项，但需注意跨平台集成时的潜在约束。",
-    "tags": [
-      "Dev",
-      "Automation",
-      "Microsoft"
-    ],
-    "link": "https://zapier.com/blog/what-is-power-automate",
-    "date": "2026-04-01",
-    "id": "17750560670600"
-  },
-  {
-    "title": "无 H100 如何搞科研？ML Patron 自主研究方案",
-    "summary": "作者分享在不依赖高端显卡情况下构建自主 AI 研究系统。",
-    "detail": "针对算力短缺问题，作者介绍了 ML Patron 项目。旨在无需 H100 等高端 GPU 的情况下进行自主 AI 研究。探讨了资源受限下的模型训练与推理策略，为独立研究者和小型团队提供了低成本科研路径，强调自主性与资源优化，解决硬件门槛阻碍创新的问题。该项目展示了如何通过软件优化弥补硬件不足，为资源有限的研究者提供了新的思路，降低 AI 研究门槛。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Infrastructure"
-    ],
-    "link": "https://medium.com/@nblintao/no-h100-no-problem-why-i-built-ml-patron-for-autonomous-ai-research-cd991ad9d867",
-    "date": "2026-04-01",
-    "id": "17750560670601"
-  },
-  {
-    "title": "Mesh：开源多 AI 代理协作工作空间",
-    "summary": "连接 Claude、Cursor 和 Gemini 的开源代理协作工具。",
-    "detail": "Mesh 是一个开源项目，旨在为 AI 代理团队提供统一工作空间。支持连接 Claude、Cursor、Gemini 等多种模型，实现零人类员工的全代理协作。适合开发者构建多代理系统，探索 AI 自主协作流程，代码托管于 GitHub，便于社区贡献与二次开发，推动代理协作生态发展。该项目展示了多模型协同工作的可能性，为构建完全自主的 AI 团队提供了基础架构，适合对多代理系统感兴趣的开发者研究与试用。",
-    "tags": [
-      "New",
-      "OpenSource",
-      "Agents"
-    ],
-    "link": "https://github.com/ycanerden/mesh",
-    "date": "2026-04-01",
-    "id": "17750560670602"
-  },
-  {
-    "title": "深度解析 Claude Code 的 WebFetchTool 机制",
-    "summary": "技术文章深入剖析 AI 如何通过工具读取网络信息。",
-    "detail": "文章详细拆解了 Claude Code 中 WebFetchTool 的工作原理。探讨了 AI 代理如何安全、有效地抓取和解析网页内容，涉及上下文管理与信息提取技术。对于开发基于 LLM 的网络交互应用具有参考价值，揭示了 AI 获取外部知识的具体实现路径，帮助开发者理解工具调用细节。通过深入分析，读者可以了解 AI 如何处理动态网页内容，这对于构建更强大的 AI 辅助编程工具至关重要，提升了透明度和可控性。",
-    "tags": [
-      "Dev",
-      "Claude",
-      "Tools"
-    ],
-    "link": "https://medium.com/@nblintao/how-an-ai-reads-the-web-a-deep-dive-into-claude-codes-webfetchtool-0abee4446343",
-    "date": "2026-04-01",
-    "id": "17750560670603"
   }
 ]
