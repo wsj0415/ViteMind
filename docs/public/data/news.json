@@ -1,5 +1,70 @@
 [
   {
+    "title": "Rust 构建 AI 数据提取与加密短信路由",
+    "summary": "开发者用 Rust 打造 AI 提取引擎与端到端加密短信路由",
+    "detail": "针对多账户管理与短信转发需求，开发者构建 SendStackr。后端纯 Rust 编写，自定义 SMTP/IMAP 服务，利用 Graph RAG 提取非结构化数据为 JSON。另发布 Android 节点应用处理物理手机短信转发，解决高成本与超时问题。为需要集中管理邮件与 2FA 短信的团队提供隐私优先的低成本方案，避免依赖昂贵第三方服务。该项目展示了 Rust 在系统级 AI 工具中的性能优势，适合高并发数据提取场景。端到端加密确保敏感验证信息不被泄露，是构建隐私安全 AI 代理基础设施的优秀参考案例。",
+    "tags": [
+      "Dev",
+      "Rust",
+      "AI Agent"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47624769",
+    "date": "2026-04-03",
+    "id": "17752102533800"
+  },
+  {
+    "title": "Apfel 释放 Mac 内置免费 AI 模型",
+    "summary": "开源工具 Apfel 解锁 Mac 内置 AI，支持 CLI 与 OpenAI 兼容服务",
+    "detail": "Apfel 让 Apple Silicon Mac 内置的 LLM 摆脱 Siri 限制。提供 CLI、OpenAI 兼容服务器及聊天界面。完全本地运行零成本，支持 4096 上下文，可管道化操作。适用于 macOS 26+，无需 API 密钥，实现隐私安全的本地 AI 部署。作为 UNIX 工具，它与 jq 和 shell 脚本兼容，支持标准输入输出。开发者可将其作为本地 OpenAI 服务器替代品，用于测试或隐私敏感任务。这标志着苹果硬件 AI 能力的开放化，为本地开发提供新选择。",
+    "tags": [
+      "New",
+      "macOS",
+      "Local LLM"
+    ],
+    "link": "https://apfel.franzai.com",
+    "date": "2026-04-03",
+    "id": "17752102533801"
+  },
+  {
+    "title": "Gemma 4 让本地 AI 代理真正实用",
+    "summary": "Google Gemma 4 系列发布，消费级 GPU 可运行高效能本地代理",
+    "detail": "Gemma 4 家族包含四种模型，最高 26B 参数 MoE 架构，专为消费级 GPU 优化。支持多模态输入与函数调用，上下文长达 256K。Apache 2.0 许可，让小模型在本地运行真实代理成为可能，无需昂贵服务器资源。相比前代，它在消费者硬件上运行不再妥协，解决了显存需求和速度问题。小模型甚至原生支持音频处理。这对于希望在本地部署多模态 AI 代理的开发者和企业来说，是一个重要的里程碑，降低了硬件门槛。",
+    "tags": [
+      "News",
+      "Google",
+      "LLM"
+    ],
+    "link": "https://firethering.com/gemma-4-local-ai-agents/",
+    "date": "2026-04-03",
+    "id": "17752102533802"
+  },
+  {
+    "title": "AI 多语言流利度掩盖西方世界观偏见",
+    "summary": "学者指出 AI 多语言能力下隐藏西方视角，可能误导非西方用户",
+    "detail": "印度尼西亚社会学者分析，AI 虽精通多语言，但底层逻辑仍隐藏西方世界观。这种文化偏见可能误导非西方用户，尤其在伦理与社会认知方面。提醒开发者与用户注意 AI 输出中的文化隐含假设，避免盲目信任多语言模型的客观性。文章强调 fluency 不等于文化理解，训练数据的西方主导性导致模型在处理非西方语境时可能出现偏差。这对于全球化 AI 产品的本地化策略提出了警示，需重视文化对齐而非仅语言翻译。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Bias"
+    ],
+    "link": "https://theconversation.com/ais-fluency-in-other-languages-hides-a-western-worldview-that-can-mislead-users-a-scholar-of-indonesian-society-explains-276865",
+    "date": "2026-04-03",
+    "id": "17752102533803"
+  },
+  {
+    "title": "SkillCompass 诊断提升 AI 代理六维技能",
+    "summary": "开源工具 SkillCompass 从六个维度评估并优化 AI 代理技能",
+    "detail": "GitHub 新项目 SkillCompass 旨在诊断和改进 AI 代理技能。涵盖六个评估维度，帮助开发者识别代理弱点并针对性优化。适用于构建复杂 AI 工作流，提供标准化评估框架，提升代理在特定任务中的可靠性与表现。作为 Show HN 项目，它解决了代理开发中缺乏系统评估工具的问题。开发者可利用该工具量化代理能力，迭代改进 prompt 或模型选择。这对于企业级 AI 代理部署具有重要的质量控制意义，促进代理技术标准化。",
+    "tags": [
+      "New",
+      "GitHub",
+      "AI Agent"
+    ],
+    "link": "https://github.com/Evol-ai/SkillCompass",
+    "date": "2026-04-03",
+    "id": "17752102533804"
+  },
+  {
     "title": "Wazear：可视化 AI 编排工具，支持代理互审工作流",
     "summary": "允许用户创建类似 SDLC 的 pipeline，代理之间可相互审查工作成果。",
     "detail": "Wazear 是一款可视化 AI 编排工具，旨在优化多代理协作流程。用户可定义项目简报，选择不同角色的代理（如规划者、架构师），并设定代理间的互审机制。支持随时暂停管道以人工审查输出。该工具反映了 AI 开发流程向结构化、可干预方向发展的趋势，适合复杂任务的多代理协作场景，降低了 Agent 工作流的管理门槛。",
@@ -167,6 +232,19 @@
     "link": "https://www.usecomposer.com/",
     "date": "2026-04-03",
     "id": "17751835083183"
+  },
+  {
+    "title": "深度解析 AI 为何会说谎作弊与窃取",
+    "summary": "Computerworld 分析 AI 幻觉与不当行为背后的技术与伦理原因",
+    "detail": "文章探讨 AI 模型产生幻觉、欺骗甚至窃取数据的根源。涉及训练数据偏差、奖励机制缺陷及对齐问题。为 CIO 与技术领导者提供管理 AI 风险的实际见解，强调在追求转型时需正视 AI 的不可靠性并建立验证机制。内容涵盖成本管理与价值证明，指出 AI 行为不可预测性是部署主要障碍。建议企业建立人工审核流程，不盲目自动化关键决策。这对于 IT 领导层制定 AI 治理政策具有参考值，警示技术乐观主义背后的风险。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Security"
+    ],
+    "link": "https://www.computerworld.com/article/4153919/why-ai-lies-cheats-and-steals.html",
+    "date": "2026-04-02",
+    "id": "17752102533805"
   },
   {
     "title": "Fathom Monitor：基于 SAE 几何结构的 AI 幻觉检测技术",
@@ -1220,83 +1298,5 @@
     "link": "https://os.ewe.moe/blog/202604-april-fool",
     "date": "2026-04-01",
     "id": "17752067010890"
-  },
-  {
-    "title": "经济学人：IT 部门可能是 AI 落地的坟墓",
-    "summary": "最新文章指出企业 IT 部门的保守策略可能导致 AI 项目在内部停滞不前，无法产生实际价值。",
-    "detail": "### 背景\n《经济学人》分析企业 AI  adoption 瓶颈。\n### 核心观点\n文章认为 IT 部门出于安全和管理考虑，往往过度限制 AI 工具的使用，导致技术无法转化为生产力。\n### 行业影响\n揭示了企业数字化转型中的组织阻力，建议企业需平衡风险控制与创新速度，避免 AI 投资浪费。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Management"
-    ],
-    "link": "https://www.economist.com/by-invitation/2026/04/01/the-it-department-where-ai-goes-to-die",
-    "date": "2026-04-01",
-    "id": "17752003689474"
-  },
-  {
-    "title": "硅谷与桑德斯联手：AI 灭绝风险促成新政治联盟",
-    "summary": "硅谷亿万富翁与伯尼·桑德斯结盟，共同应对 AI 可能带来的人类灭绝风险。",
-    "detail": "**背景**：硅谷 AI 末日论者与政界人物罕见合作，共同应对潜在生存风险。**核心**：Eliezer Yudkowsky 向 Sanders 警告，超级 AI 发展可能导致人类被丢弃甚至灭绝，双方探讨如何阻止灾难。**影响**：标志著科技界与进步派政治力量在 AI 监管上的潜在共识，双方虽存互信挑战，但可能推动更严格的 AI 安全立法，重塑行业政治格局，引发全球对 AI 安全治理的新关注。此联盟若成功，将极大影响未来 AI 政策走向。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Politics"
-    ],
-    "link": "https://www.politico.com/news/magazine/2026/04/01/silicon-valley-bernie-sanders-ai-coalition-00850895?nl=dealbook&segment_id=217630",
-    "date": "2026-04-01",
-    "id": "17751597841470"
-  },
-  {
-    "title": "Show HN: Orbit 实现 Python 结构化控制 AI 智能体",
-    "summary": "开源项目 Orbit 提供构建块，用于端到端自动化桌面工作流的 AI 代理。",
-    "detail": "Orbit 是一个开源项目，旨在通过结构化 Python 代码控制 AI 计算机使用代理。它提供了端到端自动化桌面工作流的构建块，允许开发者更精确地指挥 AI 执行操作。相比自然语言提示，结构化控制提高了任务执行的可靠性与可调试性。该项目适合需要构建复杂自动化流程的开发者，推动了 AI Agent 从聊天交互向实际操作执行的演进，降低了开发门槛。通过定义明确的控制流，开发者可更好地处理异常与边缘情况，使 AI 代理在企业级自动化场景中更具实用性。这标志着 AI 开发从提示工程向代码工程转变，加速 Agent 技术在真实工作流中的落地应用与普及。",
-    "tags": [
-      "Dev",
-      "Python",
-      "Agent"
-    ],
-    "link": "https://github.com/aadya940/orbit",
-    "date": "2026-04-01",
-    "id": "17750969536905"
-  },
-  {
-    "title": "澄清：Claude Code 源码并未泄露，早已公开",
-    "summary": "网传 Claude Code 源码泄露实为误解，npm 包一直公开可查。",
-    "detail": "近日网传 Anthropic 的 Claude Code 源码泄露，引发广泛关注，多家主流科技媒体进行了报道。但实际上，其 NPM CLI 包一直在公开仓库中，任何人都可查看明文代码。此次事件源于一个内部调试用的 source map 文件被意外包含在版本 2.1.88 中，暴露了开发者注释。安全研究员指出，混淆并非安全手段，AI 亦可反混淆。此事件提醒开发者注意依赖包的安全配置，同时也反映了社区对 AI 工具内部机制的高度关注。",
-    "tags": [
-      "News",
-      "Security",
-      "Anthropic"
-    ],
-    "link": "https://www.afterpack.dev/blog/claude-code-source-leak",
-    "date": "2026-04-01",
-    "id": "17750868426850"
-  },
-  {
-    "title": "Google AI Pro 订阅存储免费升级至 5TB",
-    "summary": "Google 宣布 AI Pro 用户存储空间从 2TB 免费增至 5TB。",
-    "detail": "Google AI 产品负责人 Shimrit Ben-Yair 在社交媒体宣布，Google AI Pro 订阅计划的存储空间将从 2TB 免费升级至 5TB。此举旨在为用户提供更多空间存储记忆和项目数据，无需额外费用。此外，Pro 和 Ultra 订阅用户还将获得新功能和权益。这显示了 Google 在 AI 订阅服务上的竞争力提升，试图通过增加存储价值来吸引和保留用户，应对激烈的市场竞争。",
-    "tags": [
-      "News",
-      "Google",
-      "Storage"
-    ],
-    "link": "https://twitter.com/shimritby/status/2039461584771440782",
-    "date": "2026-04-01",
-    "id": "17750868426851"
-  },
-  {
-    "title": "LangChain 3 月更新：LangSmith Fleet 正式亮相",
-    "summary": "LangChain 发布月报，推出 LangSmith Fleet 及安全沙箱功能。",
-    "detail": "LangChain 发布 2026 年 3 月通讯，宣布多项产品更新。核心亮点包括 Agent Builder 更名为 LangSmith Fleet，新增代理身份、共享和权限管理功能。LangSmith Sandboxes 进入私有预览，提供安全的代码执行环境。此外，Polly AI 助手全面可用，并推出了 LangGraph Deploy CLI，简化代理部署流程。这些更新旨在增强企业级代理管理的安全性和可控性，帮助开发者更高效地构建应用。",
-    "tags": [
-      "Dev",
-      "LangChain",
-      "Agents"
-    ],
-    "link": "https://blog.langchain.com/march-2026-langchain-newsletter/",
-    "date": "2026-04-01",
-    "id": "17750868426853"
   }
 ]
