@@ -1,5 +1,57 @@
 [
   {
+    "title": "Show HN: 逝者重现工具，AI 合成真实家庭合影",
+    "summary": "一款允许用户将逝者或亲人合成到家庭合影中的 AI 工具，自动匹配光影与视角。",
+    "detail": "### 背景与功能\n这款名为\"Add Loved One to Photo\"的工具针对家庭纪念场景，允许用户上传群体照和亲人单人照，通过 AI 自动生成自然融合的合影。\n### 核心技术\n工具采用生成式 AI 技术，重点解决光影匹配、透视对齐及肤色融合问题。支持旧照片修复、上色及划痕修复，无需登录即可免费生成。\n### 行业影响\n此类应用展示了生成式 AI 在情感计算和消费级影像处理领域的深入渗透，同时也引发了关于数字伦理和逝者肖像权的潜在讨论。",
+    "tags": [
+      "New",
+      "Generative AI",
+      "Image Processing"
+    ],
+    "link": "https://animateoldphotos.org/add-loved-one-to-photo",
+    "date": "2026-04-03",
+    "id": "17752003689470"
+  },
+  {
+    "title": "Entroly：优化 AI 编程代理上下文的开源引擎",
+    "summary": "GitHub 新项目 Entroly 帮助 Cursor 等编程代理理解全量代码库，减少 78% 的 Token 消耗。",
+    "detail": "### 背景\nAI 编程代理常因上下文窗口限制只能看到部分代码，影响输出质量。\n### 核心技术\nEntroly 作为上下文工程引擎，能自主感知任务并调优上下文。支持 Cursor、Copilot 等工具，基于 Rust 和 Python 构建。\n### 行业影响\n显著降低 AI 编程成本并提升代码生成准确性，是\"上下文工程\"领域的实用化进展，有助于企业级 AI 开发落地。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Developer Tools"
+    ],
+    "link": "https://github.com/juyterman1000/entroly/",
+    "date": "2026-04-03",
+    "id": "17752003689472"
+  },
+  {
+    "title": "Agentdid：为 AI 代理提供人类背后的加密证明",
+    "summary": "Show HN 项目，通过加密技术证明 AI 代理背后有真人操作，解决代理身份信任问题。",
+    "detail": "### 背景\n随着 AI Agent 自主性增强，区分真人操作与纯自动化代理变得困难。\n### 核心技术\nAgentdid 提供加密证明机制，验证 AI 代理背后的人类控制权。旨在建立人机协作的信任层。\n### 行业影响\n针对 AI 安全与身份验证的关键基础设施，有助于防止恶意自动化攻击，规范 Agent 经济生态。",
+    "tags": [
+      "Dev",
+      "Security",
+      "AI Agent"
+    ],
+    "link": "https://github.com/Mr-Perfection/agentdid",
+    "date": "2026-04-03",
+    "id": "17752003689473"
+  },
+  {
+    "title": "Skyreels V4：原生音画同步的 AI 视频生成模型",
+    "summary": "新一代 AI 视频生成工具，采用 MMDiT 架构，解决角色漂移问题并实现原生音频同步。",
+    "detail": "### 背景\n视频生成领域长期存在音画不同步和角色不一致的痛点。\n### 核心技术\nSkyreels V4 使用双流连多模态扩散 Transformer 架构，支持 1080p/32FPS 输出。音效与视觉动作语义对齐，无需后期配音。\n### 行业影响\n标志着 AI 视频生成从\"无声片段\"向\"专业影视内容\"迈进，大幅降低视频制作门槛。",
+    "tags": [
+      "New",
+      "Video Generation",
+      "Multimodal"
+    ],
+    "link": "https://skyreelsv4.top",
+    "date": "2026-04-03",
+    "id": "17752003689476"
+  },
+  {
     "title": "开发者自建 AI 安全协议防止失控",
     "summary": "针对 AI 代理失控风险，开发者参考 Anthropic 策略自建手动协议。",
     "detail": "文章详细记录了一次 AI 代理误删无线驱动导致断网的严重事件。作者指出当前 AI 协议容易被忽略，因此参考 Anthropic 策略构建了\"WTFM\"系统。强调了在 AI 自主操作中保持人类可控性和协议强制力的重要性。这一案例揭示了代理自主性带来的风险，为 AI 安全治理及本地化部署提供了实战参考，提示开发者需建立更严格的执行约束机制以防止类似失控。尽管作者未深读论文，但实践验证了策略必要性，对 Agent 开发具有警示意义。未来需平衡自主性与安全性，确保关键操作前有依赖检查。",
@@ -102,6 +154,19 @@
     "link": "https://www.usecomposer.com/",
     "date": "2026-04-03",
     "id": "17751835083183"
+  },
+  {
+    "title": "AI 时代的韧性：隐形集成服务将是主流",
+    "summary": "专家 Stephen Downes 撰文指出，未来 AI 将更多以隐形集成服务存在，而非独立应用。",
+    "detail": "### 背景\n关于 AI 如何融入日常生活的深度分析。\n### 核心观点\n文章区分了独立服务、附加服务和集成服务。认为长期来看，嵌入汽车、设备中的集成式 AI 将成为主流，因为\"人们看不见的才不会困扰他们\"。\n### 行业影响\n为 AI 产品设计提供方向，提示开发者关注无缝集成体验，而非仅追求独立 APP 的曝光度。",
+    "tags": [
+      "News",
+      "Trends",
+      "Integration"
+    ],
+    "link": "https://halfanhour.blogspot.com/2026/04/resilience-in-age-of-ai.html",
+    "date": "2026-04-02",
+    "id": "17752003689475"
   },
   {
     "title": "行业反思：现有 AI 基准测试已失效",
@@ -1092,6 +1157,19 @@
     "id": "17750969536904"
   },
   {
+    "title": "经济学人：IT 部门可能是 AI 落地的坟墓",
+    "summary": "最新文章指出企业 IT 部门的保守策略可能导致 AI 项目在内部停滞不前，无法产生实际价值。",
+    "detail": "### 背景\n《经济学人》分析企业 AI  adoption 瓶颈。\n### 核心观点\n文章认为 IT 部门出于安全和管理考虑，往往过度限制 AI 工具的使用，导致技术无法转化为生产力。\n### 行业影响\n揭示了企业数字化转型中的组织阻力，建议企业需平衡风险控制与创新速度，避免 AI 投资浪费。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Management"
+    ],
+    "link": "https://www.economist.com/by-invitation/2026/04/01/the-it-department-where-ai-goes-to-die",
+    "date": "2026-04-01",
+    "id": "17752003689474"
+  },
+  {
     "title": "硅谷与桑德斯联手：AI 灭绝风险促成新政治联盟",
     "summary": "硅谷亿万富翁与伯尼·桑德斯结盟，共同应对 AI 可能带来的人类灭绝风险。",
     "detail": "**背景**：硅谷 AI 末日论者与政界人物罕见合作，共同应对潜在生存风险。**核心**：Eliezer Yudkowsky 向 Sanders 警告，超级 AI 发展可能导致人类被丢弃甚至灭绝，双方探讨如何阻止灾难。**影响**：标志著科技界与进步派政治力量在 AI 监管上的潜在共识，双方虽存互信挑战，但可能推动更严格的 AI 安全立法，重塑行业政治格局，引发全球对 AI 安全治理的新关注。此联盟若成功，将极大影响未来 AI 政策走向。",
@@ -1220,83 +1298,5 @@
     "link": "https://markheath.net/post/2026/4/1/future-of-tech-blogging",
     "date": "2026-04-01",
     "id": "17750832241563"
-  },
-  {
-    "title": "2026 年 Q1 AI 安全事件已超 2024 年总和",
-    "summary": "报告显示 2026 年前三个月 AI 安全事件数量激增，风险加剧。",
-    "detail": "Fabraix 研究报告显示，2026 年前三个月 AI 安全事件已达 12 起，匹配 2024 年全年总和。攻击手段从研究级漏洞转向供应链攻击及代理滥用。例如 TeamPCP 链式攻击五个生态系统，Axios 包被植入自毁恶意软件。提示注入导致代码执行、凭据窃取等事件频发，表明 AI 供应链攻击面扩大。三月单月发生 8 起事件，显示风险复合增长速度远超安全团队规划，行业需紧急升级防御策略。",
-    "tags": [
-      "News",
-      "Security",
-      "Risk"
-    ],
-    "link": "https://fabraix.com/blog/ai-security-incidents-q1-2026",
-    "date": "2026-04-01",
-    "id": "17750832241564"
-  },
-  {
-    "title": "CAUM 报告：88.7% 的 AI 代理会话陷入循环失败",
-    "summary": "分析 8 万会话发现近九成代理失败，可早期预测故障。",
-    "detail": "CAUM 系统分析了 8 万个真实 AI 代理会话，发现 88.7% 的循环导致失败。其模型能在第 10 步以 0.814 的 AUC 预测失败。该数据揭示了当前代理架构的稳定性瓶颈，大多数代理陷入无效循环。这为开发者优化代理逻辑、减少资源浪费提供了关键的结构化观察依据。通过早期检测故障，可显著降低计算成本并提升用户体验，是代理工程化的重要参考，表明自主性仍需大量架构改进。",
-    "tags": [
-      "Dev",
-      "Data",
-      "Agent"
-    ],
-    "link": "https://github.com/caum-systems/caum-agent-waste-report-2026",
-    "date": "2026-04-01",
-    "id": "17750832241565"
-  },
-  {
-    "title": "澳大利亚面临 AI 导致的就业“清零”危机",
-    "summary": "科技行业裁员潮背后，AI 代理正取代传统员工角色。",
-    "detail": "澳大利亚科技行业近期出现冗余裁员，尽管部分归因于过度招聘，但 AI 技术采用被认为是关键因素。悉尼创业者 Shaon Diwarkar 指出，其公司 InboxAPI 仅由一人运营，却利用 ChatGPT、Gemini 等多个 AI 代理完成工作。这种模式表明，传统需多名员工的企业未来可能仅需一人配合 AI 代理即可生存。行业普遍存在“采用 AI 或死亡”的紧迫感，预示着劳动力市场将面临前所未有的结构调整，许多职位可能被 AI 代理取代。",
-    "tags": [
-      "News",
-      "Jobs",
-      "AI Agents"
-    ],
-    "link": "https://disassociated.com/australia-facing-ai-led-job-wipe-out-no-one-prepared/",
-    "date": "2026-04-01",
-    "id": "17750764355750"
-  },
-  {
-    "title": "AI 经济影响预测：经济学家与技术家的分歧",
-    "summary": "新论文揭示经济学家与技术人员对 AI 经济后果预测存在巨大差异。",
-    "detail": "最新论文调查了经济学家、AI 专业人士及公众对 AI 经济影响的看法。即便假设 AI 能力快速发展，经济学家仍预测宏观经济增长接近历史趋势，而技术界则认为将面临文明级断裂。这种“价格发现”问题导致资本配置和政策制定上的重大分歧，核心在于对经济后果而非能力本身的判断差异。Tyler Cowen 指出，即使在快速场景下，中位经济学家仍预测 2050 年 GDP 增长 3.5%，而非奇点式爆发。",
-    "tags": [
-      "News",
-      "Economics",
-      "Research"
-    ],
-    "link": "https://davefriedman.substack.com/p/the-price-discovery-problem-in-the",
-    "date": "2026-04-01",
-    "id": "17750764355751"
-  },
-  {
-    "title": "多模型 AI 系统协调模式与错误控制指南",
-    "summary": "深入解析多 Agent 系统中的振荡问题及协调模式最佳实践。",
-    "detail": "文章探讨了多模型系统（如 Claude、Gemini）的协作模式。不同模型具有独特的盲点和推理风格，协同使用可互补弱点。重点分析了“振荡”问题，即 Agent 因共享状态和独立决策互相撤销工作。通过理解信息流和错误传播机制，开发者可选择合适的协调模式构建可靠的代理系统。文章强调不仅要了解如何设置，更要理解为何选择特定模式，以控制多 Agent 执行中的错误传播。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Architecture"
-    ],
-    "link": "https://datda.substack.com/p/towards-reliable-agentic-systems",
-    "date": "2026-04-01",
-    "id": "17750764355752"
-  },
-  {
-    "title": "Tamp.dev：降低 AI 编码 Agent Token 成本高达 63%",
-    "summary": "开源工具自动压缩 Tool Result，显著减少 API 调用开销。",
-    "detail": "Tamp 是一个 Token 压缩代理，专为编码 Agent 设计。它位于 Agent 与 API 之间，自动分类并压缩工具结果（如 JSON、文件输出），减少 52.6% 的输入 Token。支持 Claude Code、Cursor 等工具，无需代码更改。通过 A/B 测试验证，能有效解决对话历史累积导致的成本激增问题，适合高频调用场景。工具免费开源，旨在将 AI 编码成本降低一半，解决 Tool Result 膨胀问题。",
-    "tags": [
-      "Deal",
-      "Cost",
-      "DevTools"
-    ],
-    "link": "https://tamp.dev/",
-    "date": "2026-04-01",
-    "id": "17750764355753"
   }
 ]
