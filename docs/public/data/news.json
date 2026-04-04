@@ -1,5 +1,83 @@
 [
   {
+    "title": "ModelReins 发布：AI 工具编排与控制平台",
+    "summary": "支持多模型路由与自动故障转移，零知识架构保护 API 密钥。",
+    "detail": "ModelReins 推出新一代 AI 编排平台，旨在解决开发者多工具切换痛点。支持 Claude、Codex、Ollama 等模型直接 API 接入，无需订阅锁定。核心亮点包括零知识架构（密钥本地存储）、自动故障转移（速率限制时无缝切换模型）及自托管选项。平台允许用户利用自有硬件作为工作节点，实现无限扩展。适合需要规模化部署 AI 工作流且高度关注数据隐私与成本控制的开发团队，提供了灵活的 SaaS 与自托管方案。此举降低了企业对单一供应商的依赖，提升了 AI 基础设施的鲁棒性与经济性。",
+    "tags": [
+      "New",
+      "AI Orchestration",
+      "Privacy"
+    ],
+    "link": "https://modelreins.com",
+    "date": "2026-04-04",
+    "id": "17752783557510"
+  },
+  {
+    "title": "AI Agent 参与狼人杀游戏测试平台上线",
+    "summary": "支持 MCP 协议接入，测试 AI 社交推理与欺骗能力。",
+    "detail": "Mafia Mystery 推出 AI 代理测试版，允许开发者将 AI 接入经典社交推理游戏。支持 Claude、Cursor 等模型，通过 MCP 协议或 API 连接。AI 可执行聊天、说服、投票等动作，用于研究多智能体协作、欺骗检测及社交推理能力。为评估 AI 在复杂人类交互场景下的表现提供了新基准。开发者可通过 Dashboard 监控 agent 表现，探索大模型在博弈论与心理学交叉领域的应用潜力，推动代理智能向更深层次的社会交互演进。",
+    "tags": [
+      "New",
+      "AI Agents",
+      "MCP"
+    ],
+    "link": "https://mafiamystery.com/agents",
+    "date": "2026-04-04",
+    "id": "17752783557511"
+  },
+  {
+    "title": "行业反思：关于 AI 编程的真实现状",
+    "summary": "Truss CTO 撰文探讨 AI 编码采用率与主流趋势的差异。",
+    "detail": "Truss CTO Ken Kantzer 发表文章反思 AI 编程现状。指出尽管主流炒作盛行，实际生产环境中采用率存在分歧。作者主要使用 Claude Code 混合 Codex 和 Gemini，并仍保留 Cursor 自动补全。文章强调了工程管理与安全视角下的 AI 工具实际效用，为开发者提供了冷静的技术选型参考，避免盲目跟随潮流。内容涉及对 Agent 采用曲线的评估，揭示了当前 AI 编码工具在复杂工程场景中的局限性，呼吁行业回归理性评估。",
+    "tags": [
+      "News",
+      "AI Coding",
+      "Industry Insight"
+    ],
+    "link": "https://kenkantzer.com/lets-be-honest-about-ai/",
+    "date": "2026-04-04",
+    "id": "17752783557512"
+  },
+  {
+    "title": "AI 种子轮初创企业估值显著上涨",
+    "summary": "投资者溢价追逐 AI 项目，估值远超早期营收牵引力。",
+    "detail": "TechCrunch 报道显示，AI 种子轮初创企业估值大幅攀升。典型案例为 1000 万美元种子轮对应 4000-4500 万美元投后估值。YC 演示日显示投资者愿为早期 AI 公司支付溢价，即便缺乏营收牵引。大型风投提前介入推高价格，反映市场对 AI 退出或 IPO 的强烈预期，但也暗示潜在估值泡沫风险。投资者对非 AI 项目兴趣寥寥，资金高度集中。这种估值前置现象可能导致未来市场调整，创业者需警惕过度依赖融资而非业务基本面。",
+    "tags": [
+      "News",
+      "Investment",
+      "Startups"
+    ],
+    "link": "https://techcrunch.com/2026/03/31/its-not-your-imagination-ai-seed-startups-are-commanding-higher-valuations/",
+    "date": "2026-04-04",
+    "id": "17752783557513"
+  },
+  {
+    "title": "开源项目：AI 旅行积分黑客工具包",
+    "summary": "基于 MCP 服务器的积分搜索与行程规划工具。",
+    "detail": "GitHub 发布 Travel Hacking Toolkit，专为 AI 编码助手设计。提供 drop-in skills 和 MCP 服务器，支持 OpenCode 和 Claude Code。功能涵盖积分、里程及奖励航班搜索。该项目展示了如何将特定领域数据（旅行优惠）通过 MCP 协议集成到 AI 工作流中，适合开发者参考构建垂直领域 AI 应用。开源代码允许社区贡献新的数据源与逻辑，降低了构建个性化 AI 旅行助理的技术门槛，体现了 MCP 生态的扩展性。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "MCP"
+    ],
+    "link": "https://github.com/borski/travel-hacking-toolkit",
+    "date": "2026-04-04",
+    "id": "17752783557514"
+  },
+  {
+    "title": "ClawTrak 上线：检测网站对 AI 代理的可见性",
+    "summary": "免费扫描 20 项信号，优化网站被 AI 搜索推荐的概率。",
+    "detail": "ClawTrak 推出免费 AI 就绪扫描工具，30 秒内检测网站是否对 AI 代理可见。涵盖 llms.txt、Agent Card、结构化数据等 20 项信号。提供竞争对手对比分析及公开排名。随着 AI 搜索兴起，该工具帮助企业主优化内容被发现和推荐的几率，是 AI SEO 领域的新兴基础设施。平台已扫描数千站点，平均得分较低，表明大多数网站尚未准备好迎接自主 AI 代理的流量，优化需求迫切。",
+    "tags": [
+      "New",
+      "AI SEO",
+      "Tools"
+    ],
+    "link": "https://clawtrak.com/",
+    "date": "2026-04-04",
+    "id": "17752783557515"
+  },
+  {
     "title": "Meta 裁员数百人，加速 AI 投资战略",
     "summary": "Meta 裁员数百人，扎克伯格称 AI 可替代团队，推进 AI 投资。",
     "detail": "Meta 宣布裁员数百人，标志着科技巨头在 AI 领域的战略调整进入深水区。CEO 扎克伯格明确表示 AI 技术能够替代部分团队职能，公司将资源集中于 AI 投资。此举反映了 AI 对传统人力资源结构的冲击，以及大型科技公司为追求效率和技术领先所采取的激进措施。此次裁员不仅是成本优化，更是组织架构向 AI 优先转型的信号。行业需关注后续裁员范围及 AI 替代实际效果，这将为其他企业提供参考范式。同时，这也引发了关于 AI 伦理和社会责任的广泛讨论，科技巨头如何在效率与人文之间寻找平衡点，将是未来几年的核心议题。",
@@ -1220,83 +1298,5 @@
     "link": "https://autocook.io",
     "date": "2026-04-02",
     "id": "17751730786986"
-  },
-  {
-    "title": "基于 ESP32 与 AI 的坑洼自动报告系统",
-    "summary": "结合 LoRA 与 AI，一键报告路面坑洼至市政部门。",
-    "detail": "这是一个 DIY 项目，利用 ESP32 微处理器、GPS 和 LoRA 无线电，结合少量代理 AI，实现路面坑洼的自动检测与报告。系统可一键将位置信息提交至纽约市交通局。该项目展示了边缘 AI 与 IoT 技术在智慧城市公民科学中的应用潜力，为社区参与基础设施维护提供了低成本方案。通过自动化传感器和长距离无线电，解决了手动报告繁琐的问题。虽然是个人的小项目，但体现了边缘计算在公共服务领域的实用价值和创新思路。",
-    "tags": [
-      "Dev",
-      "IoT",
-      "Edge AI"
-    ],
-    "link": "https://thingswemake.com/pothole-in-one/",
-    "date": "2026-04-02",
-    "id": "17751730786987"
-  },
-  {
-    "title": "OpenAI 关闭 Sora 应用：生成成本过高难以为继",
-    "summary": "OpenAI 因计算成本过高宣布关闭 Sora 视频应用，每用户亏损严重。",
-    "detail": "2026 年 3 月 24 日，OpenAI 宣布关闭 Sora 独立应用，因每位 20 美元订阅用户的计算成本高达 65 美元。分析文章指出生成式 AI 视频面临严重的经济模型困境，每新增用户都在加速亏损，这是物理层面的算术问题而非营销问题。API 将于 9 月正式关闭，标志着当前 AI 视频商业化路径面临巨大挑战。尽管曾与迪士尼签署十亿美元协议，但高昂的推理成本使得业务不可持续，行业需重新审视定价策略与硬件效率，避免盲目扩张导致资金链断裂。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Business"
-    ],
-    "link": "https://aedelon777.substack.com/p/i-did-the-math-on-sora-ai-video-is",
-    "date": "2026-04-02",
-    "id": "17751692475970"
-  },
-  {
-    "title": "AI 未来项目更新：AGI 编码里程碑提前至 2028 年",
-    "summary": "最新预测显示 AI 编程能力发展快于预期，AGI 时间点大幅提前。",
-    "detail": "AI Futures Project 发布 2026 年第一季度时间线更新，基于新模型评估将自动化编码里程碑从 2029 年末提前至 2028 年中。调整原因包括切换至 METR Time Horizon v1.1 版本、纳入 Gemini 3 及 Claude Opus 4.6 等新模型数据，以及编码时间范围倍增速度加快。这表明代理编码进步速度远超预期，行业需重新调整对 AGI 到来时间及软件工程师角色演变的准备与预测。投资者与企业应关注自动化编码带来的生产力变革及潜在劳动力市场冲击。",
-    "tags": [
-      "News",
-      "AGI",
-      "Forecast"
-    ],
-    "link": "https://blog.aifutures.org/p/q1-2026-timelines-update",
-    "date": "2026-04-02",
-    "id": "17751692475971"
-  },
-  {
-    "title": "Autocook 推出免费 AI 报税服务，支持复杂表格自动填写",
-    "summary": "上传 W-2 等文件即可自动生成 IRS 表格，2025 年免费使用。",
-    "detail": "Autocook 发布全新 AI 报税工具，用户上传 W-2、1099 等文件，AI 自动提取数据并填写联邦及加州税表。支持多经纪商资本增益、AMT 计算等复杂情况，无需像 TurboTax 那样回答数百个问题。2025 年期间完全免费，无需信用卡。旨在解决传统软件繁琐流程，提供高效报税方案，用户可下载 PDF 自行邮寄或交给 CPA 处理。该工具展示了 AI 在垂直领域文档处理与合规性检查上的成熟应用，降低了个人报税门槛。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Free"
-    ],
-    "link": "https://autocook.io/",
-    "date": "2026-04-02",
-    "id": "17751692475972"
-  },
-  {
-    "title": "BlackSwanX:174 个 AI 代理对抗预测未来，本地运行零成本",
-    "summary": "基于 Ollama 本地运行，通过专家与公民代理对抗实现预测。",
-    "detail": "GitHub 项目 BlackSwanX 引入 174 个 AI 专家代理和 200 个公民代理，通过对抗机制预测未来趋势。项目基于 Ollama 可在笔记本电脑本地运行，实现零 API 成本。利用群体智能与对抗性智力引擎，信奉“群体错误处存在阿尔法收益”，为用户提供无需云端依赖的预测工具。展示了多代理系统在本地硬件上的部署潜力及对抗性智能的新架构方向，为隐私敏感型预测任务提供了开源解决方案参考。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "LocalAI"
-    ],
-    "link": "https://github.com/Kalki-M/BlackSwanX",
-    "date": "2026-04-02",
-    "id": "17751692475973"
-  },
-  {
-    "title": "OpenVole 发布：首创分布式 AI 代理网络架构",
-    "summary": "Show HN 项目，致力于实现分布式 AI 代理之间的 networking。",
-    "detail": "Hacker News Show HN 项目 OpenVole 推出 VoleNet，号称行业首个“分布式 AI 代理网络”。旨在解决独立代理间的通信与协作问题，为多代理系统提供底层基础设施。该项目展示了代理网络化的新方向，允许代理在分布式环境中交互与协同。对于构建复杂分布式 AI 系统具有参考意义，适合关注 Agent 架构的开发者深入研究其网络协议与实现细节，可能成为未来多代理协作的标准协议雏形。",
-    "tags": [
-      "Dev",
-      "Networking",
-      "Agents"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47620865",
-    "date": "2026-04-02",
-    "id": "17751692475974"
   }
 ]
