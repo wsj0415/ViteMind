@@ -1,5 +1,57 @@
 [
   {
+    "title": "2026 AI 代理安全现状报告：85% 存在漏洞",
+    "summary": "扫描 500+ 开源 AI 代理，85% 存在漏洞，25% 不符合欧盟 AI 法案。",
+    "detail": "Inkog 发布了 2026 年 AI 代理安全现状报告，这是对该生态系统最大的安全分析之一。基于对 500 多个开源项目的自动化静态分析，而非调查。数据显示 85% 的仓库存在至少一个漏洞，其中 63% 为严重或高危级别。25% 未能通过欧盟 AI 法案第 14 条关于人类监督的规定。报告对比了 LangChain、CrewAI 等主流框架的安全性，并指出 MCP 服务器是新的攻击面，存在工具投毒风险。为开发者提供了基于 OWASP 的修复指南，帮助消除 80% 的常见发现。",
+    "tags": [
+      "News",
+      "Security",
+      "AI Agent"
+    ],
+    "link": "https://inkog.io/report",
+    "date": "2026-04-04",
+    "id": "17753349409750"
+  },
+  {
+    "title": "Bramble：AI 驱动的艰难对话与决策教练",
+    "summary": "帮助用户准备对话、反思事件及撰写困难消息的 AI 教练工具。",
+    "detail": "Bramble 是一款专注于人际沟通与决策的 AI 教练产品，旨在帮助用户处理艰难对话和复杂决策。它不提供通用聊天，而是针对特定场景如“准备艰难对话”、“反思事件”、“撰写消息”提供结构化指导。产品强调隐私保护，数据在用户确认前不会离开本地。旨在帮助用户打破思维循环，获得客观反馈，强调“事实胜过故事”的反思机制。适合需要提升沟通效率的个人用户，无需真人介入即可获得清晰思路。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Coaching"
+    ],
+    "link": "https://www.bramble.coach/",
+    "date": "2026-04-04",
+    "id": "17753349409751"
+  },
+  {
+    "title": "Gremlin：基于 Claude 的终端 AI 系统管理代理",
+    "summary": "运行在终端的 AI 代理，规划并执行 Shell 任务，遵循 AIKISS 哲学。",
+    "detail": "Gremlin 是一个轻量级终端 AI 代理，利用 Claude LLM 规划、执行和跟踪 Shell 任务。它遵循 AIKISS（人工智能保持小而简单）哲学，扩展了 Unix 组件原则。用户输入目标后，代理生成检查清单并逐步执行命令，每次执行后等待用户确认，确保人类在环控制。支持 macOS 和 Linux，需要 Python 3.8+ 及 Anthropic API Key。适合开发者自动化运维任务，保持终端工作流不被打断，无需桌面环境即可运行。",
+    "tags": [
+      "Dev",
+      "CLI",
+      "Automation"
+    ],
+    "link": "https://github.com/milankazarka/gitm",
+    "date": "2026-04-04",
+    "id": "17753349409752"
+  },
+  {
+    "title": "AgentMarket：AI 代理间的任务交易市场",
+    "summary": "AI 代理可在此发现、雇佣并支付其他代理工具，无需人工干预。",
+    "detail": "AgentMarket 被称为\"AI 代理的应用商店\"，允许 AI 代理在运行时发现、雇佣和支付专业工具。通过一行配置集成 MCP 服务器，代理可使用信用卡充值并按调用付费。该平台的核心理念是构建代理经济，让代理自主完成任务交易，无需人工审批。支持开发者列出 API 工具供其他代理调用，推动自主代理生态发展。工具需部署为接受 JSON POST 请求的公开端点，兼容任何语言，实现代理间的自动化协作与价值交换。",
+    "tags": [
+      "New",
+      "Agent Economy",
+      "MCP"
+    ],
+    "link": "https://agentmarket-production-2204.up.railway.app/",
+    "date": "2026-04-04",
+    "id": "17753349409753"
+  },
+  {
     "title": "Take-Two 裁员 AI 部门负责人",
     "summary": "GTA 6 发行商 Take-Two 裁员 AI 主管及团队成员。",
     "detail": "**游戏巨头 Take-Two Interactive** 疑似裁撤了 AI 部门负责人及多名员工，消息由 Rock Paper Shotgun 报道。作为 GTA 6 的发行商，其动向备受关注。这一举动发生在开发关键期，引发行业对游戏公司 AI 战略调整的猜测。可能意味着生成式 AI 在游戏生产管线中的落地遇到瓶颈，或公司策略转向保守。这对游戏 AI 赛道是一个重要信号，显示大厂在 AI 投入上开始审视实际产出与成本，行业可能进入冷静期。此次裁员可能影响后续游戏中 NPC 行为及内容生成技术的整合进度，值得持续观察。",
@@ -11,19 +63,6 @@
     "link": "https://www.rockpapershotgun.com/grand-theft-auto-6-publisher-take-two-have-seemingly-laid-off-their-head-of-ai-and-several-of-the-departments-staffers",
     "date": "2026-04-04",
     "id": "17753312527440"
-  },
-  {
-    "title": "AgentMarket：AI 代理任务交易市场",
-    "summary": "允许 AI 代理运行时发现、雇佣并支付专用工具的市场。",
-    "detail": "**AgentMarket** 推出了一个 AI 代理专用市场，支持代理在运行时自主发现工具、按调用付费且无需人工干预。用户只需三步配置：注册获取 API Key、将 MCP 服务器粘贴至 Claude Desktop 配置、重启即可。这标志着 **AI 代理经济（Agent Economy）** 迈出关键一步，实现了代理间的自主交易与协作，为自动化工作流提供了新的基础设施层，无需人类在循环中。通过 Stripe 添加信用额度，买家和提供者均可参与，构建了完整的代理工具生态系统，降低开发门槛。这种无人类干预的模式可能引发安全与成本控制的新一轮讨论。",
-    "tags": [
-      "New",
-      "Agents",
-      "MCP"
-    ],
-    "link": "https://agentmarket-production-2204.up.railway.app/",
-    "date": "2026-04-04",
-    "id": "17753312527441"
   },
   {
     "title": "Snippet：AI 原生人才管理机构",
@@ -1259,44 +1298,5 @@
     "link": "https://vul.ninja/",
     "date": "2026-04-03",
     "id": "17752452434994"
-  },
-  {
-    "title": "Awesome Engineering AI：硬件工程 AI 工具清单",
-    "summary": "GitHub 开源项目汇总了 CAD、仿真及制造领域的 AI 工具，填补软件工程外空白。",
-    "detail": "这是一个专注于硬件工程领域的 AI 工具 curated list。不同于常见的软件编程 AI，该项目涵盖了 CAD 设计、仿真模拟、制造流程等环节的 AI 应用。对于机械、电子等硬件工程师而言，这是极具价值的资源库，反映了 AI 技术正从纯软件领域向物理世界和硬科技深度渗透的趋势。开发者可借此探索跨界融合机会。随着生成式 AI 在 3D 建模和材料科学中的进步，硬件研发周期有望大幅缩短，该清单是进入这一蓝海市场的重要入口。项目持续更新，社区贡献活跃。",
-    "tags": [
-      "Dev",
-      "Hardware",
-      "Resources"
-    ],
-    "link": "https://github.com/010zx00x1/awesome-engineering-ai",
-    "date": "2026-04-03",
-    "id": "17752452434995"
-  },
-  {
-    "title": "Genesis 桌面 AI 操作系统：买断制永久拥有",
-    "summary": "主打持久记忆与本地优先的 AI 操作系统，提供买断制选项。",
-    "detail": "Genesis 平台推出名为 ARIA 的桌面 AI 操作系统，强调“本地优先”与“持久记忆”。不同于普通聊天机器人，它旨在成为用户的合作伙伴，拥有 11 个智能体。最大亮点是“买一次，永久拥有”的商业模式，适合注重隐私与长期使用的创业者及创作者。系统声称能在用户睡眠时持续学习，构建个人推理心智，替代部分工作流程并放大用户能力。其 FORTRESS 保护机制确保数据安全，是本地 AI 部署与终身授权模式的新尝试，适合希望摆脱订阅制的用户。此外，它支持多种应用场景，包括咨询、个人成长及机构管理，试图重新定义人机协作的边界。",
-    "tags": [
-      "Deal",
-      "AI OS",
-      "Privacy"
-    ],
-    "link": "https://genesis.bmbnexus.ai/",
-    "date": "2026-04-03",
-    "id": "17752423625130"
-  },
-  {
-    "title": "GitMindPro：扫描 GitHub 仓库中的 AI 生成代码风险",
-    "summary": "免费扫描代码库，检测 AI 生成比例及欧盟 AI 法案合规性。",
-    "detail": "针对 2026 年 8 月欧盟 AI 法案截止期限，GitMindPro 提供 GitHub 仓库安全扫描。功能包括 AI 代码检测、漏洞审计及“理解债务”量化。无需注册即可使用，帮助开发者识别 AI 注入的安全风险及合规问题，适合企业尽职调查。工具利用 Google Gemini 2.0 进行分析，可检测影子 AI 指纹及硬编码的 AI 伪影。对于担心 AI 生成代码带来 OWASP 漏洞的团队，这是一个关键的合规与审计工具，有助于降低法律与技术风险。它还支持作为 MCP 工具集成到 Claude Desktop 中，实现自动化工作流，为开发团队提供实时的代码质量与合规性反馈，确保软件供应链安全。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Compliance"
-    ],
-    "link": "https://gitmindpro.com/",
-    "date": "2026-04-03",
-    "id": "17752423625131"
   }
 ]
