@@ -1,5 +1,70 @@
 [
   {
+    "title": "微软 Aspire 推出终端文档工具，优化 AI 代理开发",
+    "summary": "Aspire 13.2 新增 CLI 文档命令，支持 AI 代理直接读取官方文档，减少幻觉。",
+    "detail": "微软 Aspire 13.2 版本发布 `aspire docs` CLI 工具，允许开发者在终端直接浏览官方文档。核心技术在于将文档源暴露给 AI 代理，使其能准确查询 API 参数而非依赖训练数据猜测。此前 AI 代理常因训练数据过时产生幻觉，推荐错误命令。此举显著降低了 AI 辅助开发中的幻觉问题，提升了 .NET 及多语言应用开发的准确性与效率，为 AI Native 开发流程提供了基础设施支持，标志着开发工具链与 AI 代理的深度集成。",
+    "tags": [
+      "Dev",
+      "Microsoft",
+      "CLI"
+    ],
+    "link": "https://devblogs.microsoft.com/aspire/aspire-docs-in-your-terminal/",
+    "date": "2026-04-04",
+    "id": "17753283330460"
+  },
+  {
+    "title": "AIsbf 0.9.8 发布：统一多 AI 提供商的代理框架",
+    "summary": "开源代理服务器，支持多模型路由、负载均衡及统一 API 接口，含管理面板。",
+    "detail": "AIsbf (AI Should Be Free) 发布 0.9.8 版本，这是一个模块化的 AI 服务代理框架。核心功能包括统一多家 AI 提供商（OpenAI, Google, Anthropic 等）的 API 接口，支持智能路由、负载均衡及自动模型选择。新增 Web 仪表盘可实时监控 Token 使用、成本及速率限制，支持多用户隔离配置。该工具降低了企业集成多模型的复杂度，优化了 AI 服务调用的成本与稳定性，适合需要高可用 AI  infra 的开发团队，是构建私有 AI 网关的优秀选择。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Infrastructure"
+    ],
+    "link": "https://pypi.org/project/aisbf/",
+    "date": "2026-04-04",
+    "id": "17753283330461"
+  },
+  {
+    "title": "Kaggle 上线 3.7 万个 AI 生成播客数据集",
+    "summary": "Listen Notes 发布大规模 AI 生成虚假播客数据，主要用于 NotebookLM 生成内容研究。",
+    "detail": "Kaggle 平台新增由 Listen Notes 提供的数据集，包含 37,000 个 AI 生成的播客文件，大多通过 NotebookLM 生成。该数据集标记为“虚假播客”，旨在帮助研究人员识别和分析 AI 生成音频内容的特征。这对于开发音频防伪技术、训练多模态检测模型以及研究生成式 AI 在媒体领域的传播影响具有重要价值。随着 AI 生成内容泛滥，此类数据集是音频 AI 安全研究的重要资源，有助于构建更健康的媒体生态。",
+    "tags": [
+      "News",
+      "Dataset",
+      "Audio"
+    ],
+    "link": "https://www.kaggle.com/datasets/listennotes/ai-generated-fake-podcasts-spams",
+    "date": "2026-04-04",
+    "id": "17753283330462"
+  },
+  {
+    "title": "行业观察：AI 原生与传统开发者的差距正在扩大",
+    "summary": "专家指出 AI 原生能力已成为分水岭，单纯提示词技巧已不足以弥补差距。",
+    "detail": "最新行业文章《The Fork》指出，AI 原生开发者与传统开发者之间的差距正在显著 widening。一年前差距仅在于工具使用，现在则涉及深层的工作流整合与思维模式。文章强调，仅掌握提示词技巧已无法跟上节奏，真正的分水岭在于如何将 AI 深度融入生产流程。这一趋势警示企业需重新评估人才技能树，加速向 AI Native 工作模式转型，否则将面临效率落后的风险，行业分化加剧。",
+    "tags": [
+      "News",
+      "Industry",
+      "Trend"
+    ],
+    "link": "https://www.howardgray.net/the-fork/",
+    "date": "2026-04-04",
+    "id": "17753283330463"
+  },
+  {
+    "title": "Show HN: Hypedar – 开发者 AI 趋势雷达",
+    "summary": "新工具帮助开发者发现尚未被构建的 AI 趋势，聚合热门技术动态。",
+    "detail": "Hypedar 是一个面向开发者的 AI 趋势雷达工具，旨在展示“尚未被构建”的热门 AI 方向。它聚合了社区内的技术动态与潜在机会，帮助开发者避开红海竞争。核心功能包括趋势监控与需求分析，数据源自开发者社区反馈。对于独立开发者和初创团队而言，该工具提供了市场洞察，有助于在快速变化的 AI 生态中找到差异化切入点，减少盲目开发带来的资源浪费，提升产品成功率。",
+    "tags": [
+      "New",
+      "Tool",
+      "Market"
+    ],
+    "link": "https://hypedar.dev/",
+    "date": "2026-04-04",
+    "id": "17753283330464"
+  },
+  {
     "title": "AI 经济影响预测：经济学家与技术界的分歧",
     "summary": "新论文显示经济学家与技术专家对 AI 经济后果预测存在巨大分歧。",
     "detail": "最新论文调查了经济学家、AI 专业人士及公众对 AI 经济影响的看法。尽管双方对 AI 能力进展预期一致，但在宏观经济后果上存在显著差异。经济学家预测 GDP 增长仍接近历史趋势，劳动参与率稳定，而技术界预期文明级变革。这一分歧影响资本分配与政策制定，是目前资本配置中最关键的争议之一。论文指出即使固定能力场景，经济后果预测仍大相径庭，主要通过情绪战争而非数据进行分析。这种认知差距可能导致投资错配，建议投资者同时关注技术突破与宏观数据，避免单一视角决策。",
@@ -1233,70 +1298,5 @@
     "link": "https://medium.com/@paul.bernard_80815/the-ai-highground-8a438dfd18c5",
     "date": "2026-04-03",
     "id": "17752378814621"
-  },
-  {
-    "title": "Esquire 因演员忙碌用 AI 生成虚假采访",
-    "summary": "新加坡版 Esquire 使用 Copilot 和 Claude 生成海贼王演员采访。",
-    "detail": "《Esquire Singapore》因真人演员 Mackenyu 无法出席，使用 Copilot 和 Claude 基于过往采访生成了虚假访谈内容。该事件引发伦理争议，被标记为\"AI slop\"。这反映了媒体行业在内容生产压力下滥用生成式 AI 的现状。涉及 Netflix 海贼王真人版演员。凸显了 AI 生成内容标识与真实性验证在新闻伦理中的重要性，以及版权与肖像权的潜在风险，媒体需平衡效率与真实性。读者信任受损，行业需建立更严格的 AI 内容披露标准，防止虚假信息传播损害公众利益与演员个人声誉。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Media"
-    ],
-    "link": "https://kotaku.com/one-piece-netflix-live-action-mackenyu-interview-esquire-ai-singapore-2000684648",
-    "date": "2026-04-03",
-    "id": "17752378814622"
-  },
-  {
-    "title": "LangChain 工程师分享 Agent 自愈生产流程",
-    "summary": "部署后自动检测回归并触发 Agent 修复代码，无需人工干预。",
-    "detail": "LangChain 工程师展示了如何构建自愈部署管道。GT M Agent 部署后，通过 GitHub Action 捕获日志，自动检测构建失败或服务器回归。一旦发现问题，触发内部编码 Agent（Open SWE）研究代码库并提交修复 PR。该流程利用 Deep Agents 与 LangSmith，实现了从错误检测到闭环修复的自动化。大幅减少人工运维成本，展示了 Agentic Workflow 在生产环境的实际应用，无需人工干预直至审查。此架构显著提升了系统稳定性与迭代速度，为未来自主软件工程提供了可参考的最佳实践案例与技术路径。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Automation"
-    ],
-    "link": "https://blog.langchain.com/production-agents-self-heal/",
-    "date": "2026-04-03",
-    "id": "17752378814623"
-  },
-  {
-    "title": "微软高管警告 Agent AI 恐削弱初级开发者培养",
-    "summary": "高管指出代理式 AI 正在掏空初级开发者管道，影响人才梯队。",
-    "detail": "微软高管在行业讨论中警告，Agentic AI 的普及可能导致初级开发者岗位减少。随着 AI 代理能独立完成更多编码任务，新人缺乏入门级工作来积累经验，长期将掏空人才管道。这引发了关于 AI 如何重塑软件工程职业路径的讨论。企业需重新思考在 AI 辅助下的新人培训机制与价值定位，以应对潜在的人才断层危机，避免技术演进导致初级工程师成长路径断裂。若忽视此问题，未来可能面临高级人才短缺，行业需建立新的人机协作培训体系以维持创新能力。",
-    "tags": [
-      "News",
-      "Industry",
-      "Jobs"
-    ],
-    "link": "https://thenewstack.io/agentic-ai-junior-developer-crisis/",
-    "date": "2026-04-03",
-    "id": "17752378814624"
-  },
-  {
-    "title": "Lumeforms 推出 AI 原生表单反馈工具",
-    "summary": "基于 Gemini 2.5 的 Typeform 替代品，自动分析文本反馈主题。",
-    "detail": "Lumeforms 发布 AI 原生表单软件，作为 Typeform 的替代方案。核心功能是通过多遍分析流程将文本回复转化为清晰主题与可操作情报。使用 Gemini 2.5 Flash Thinking 模型，自动验证、提取、分组想法并评估重要性。提供标准与工作室套餐，价格分别为$26 与$300 每月。支持无限项目与每日分析积分。旨在帮助初创企业与团队自动化处理用户反馈，减少人工筛选成本，提升洞察效率。内置 21 天退款保证，支持数据导出与 Discord 社区访问，适合需要深度用户洞察的增长团队使用。",
-    "tags": [
-      "New",
-      "SaaS",
-      "Feedback"
-    ],
-    "link": "https://www.lumeforms.com/",
-    "date": "2026-04-03",
-    "id": "17752378814625"
-  },
-  {
-    "title": "全科医生为何弃用 AI 病历记录工具",
-    "summary": "一位早期采用者停止使用 AI scribe，并非技术失败，而是担忧其对诊疗本质的影响。",
-    "detail": "一位拥有临床数字领导背景的全科医生分享了他停止使用环境 AI 记录技术的经历。尽管工具符合监管且能显著减少文档时间，大型研究甚至显示医生倦怠率从 51.9% 降至 38.8%，效率提升 26%，但他认为这将诊疗的记录功能交给机器存在风险。这反映了我们对医疗咨询本质理解的深层失败，是第二、三、四阶的失败，而非技术本身的一阶故障。行业需反思效率与医患关系的平衡，技术成功不代表临床价值无误，文档自动化可能掩盖诊疗核心风险，医生需重新审视技术介入的边界，避免过度依赖自动化记录导致临床判断力下降。",
-    "tags": [
-      "News",
-      "Healthcare",
-      "AI Scribes"
-    ],
-    "link": "https://benngooch.substack.com/p/i-was-an-enthusiastic-early-adopter",
-    "date": "2026-04-03",
-    "id": "17752346732240"
   }
 ]
