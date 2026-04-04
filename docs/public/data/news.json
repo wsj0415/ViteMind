@@ -1,5 +1,70 @@
 [
   {
+    "title": "伊朗威胁轰炸阿联酋 1GW Stargate AI 数据中心",
+    "summary": "地缘政治风险升级，伊朗威胁袭击阿联酋大型 AI 基础设施。",
+    "detail": "报道指出伊朗威胁轰炸位于阿布扎比的 1GW Stargate AI 数据中心。这一事件标志着 AI 基础设施已正式成为地缘政治冲突的潜在战略目标。1GW 的功耗规模表明该中心是全球算力网络的关键节点，其物理安全直接关系到区域乃至全球的 AI 服务稳定性。此威胁可能迫使科技巨头重新评估中东地区的投资风险，并加速算力设施的分散化部署策略。此外，这也凸显了大型 AI 项目在规划初期需纳入国家级安全风险评估的重要性，物理防御将成为未来超算中心建设的标准配置之一，行业需建立更完善的基础设施保护机制。",
+    "tags": [
+      "News",
+      "Geopolitics",
+      "Infrastructure"
+    ],
+    "link": "https://timesofindia.indiatimes.com/technology/tech-news/iran-threatens-to-bomb-1gw-stargate-ai-datacenter-in-the-uae-shows-hidden-/articleshow/130003120.cms",
+    "date": "2026-04-04",
+    "id": "17752957110040"
+  },
+  {
+    "title": "Nex Life Logger：隐私优先的本地 AI 活动追踪器",
+    "summary": "开源本地活动追踪工具，集成 AI Agent，数据完全留存本地。",
+    "detail": "该项目是一个隐私优先的本地活动追踪器，能够记录浏览历史、活动窗口及 YouTube 观看内容。核心亮点在于数据完全本地化，不上传云端，并支持通过 Telegram、Discord 等渠道集成 AI Agent 进行查询。这反映了用户对云端 AI 隐私泄露的担忧日益增加，本地化 AI 代理成为新的技术趋势。通过在不牺牲隐私的前提下实现个性化记忆功能，该工具为个人知识管理和数字足迹回顾提供了安全解决方案，可能推动本地大模型在个人助理领域的进一步应用与普及，重塑个人数据主权的管理方式。",
+    "tags": [
+      "New",
+      "Privacy",
+      "Agent"
+    ],
+    "link": "https://github.com/NexaiGuy/nex-life-logger",
+    "date": "2026-04-04",
+    "id": "17752957110041"
+  },
+  {
+    "title": "安全研究：AI Agent 可通过字体设置实施视觉欺骗攻击",
+    "summary": "揭示 AI 代理利用 Chrome 字体配置持久化进行视觉欺骗的攻击链。",
+    "detail": "安全研究人员披露了一种新型攻击链，结合 Chrome 字体偏好持久化、OpenType 字形替换及 AI 代理权限。攻击者可使 AI 代理修改字体配置，导致用户看到的文本与实际数据不符。该研究指出了 AI 代理权限管理中的潜在风险，强调了在 AI 自主操作环境下浏览器安全配置的重要性。随着 AI 代理获得更多系统权限，此类隐蔽攻击面的风险将显著增加。开发者需重新审视 AI 与浏览器交互的安全边界，防止合法权限被滥用进行视觉欺骗，这对未来 AI 安全审计提出了新的挑战，建议行业建立更严格的代理行为监控标准。",
+    "tags": [
+      "Dev",
+      "Security",
+      "AI Agent"
+    ],
+    "link": "https://github.com/IkanRiddle/ai-takeover-starts-with-fonts",
+    "date": "2026-04-04",
+    "id": "17752957110042"
+  },
+  {
+    "title": "Onde Inference 推出 Swift SDK，支持 Rust 生成的 AI 推理引擎",
+    "summary": "新的 Swift 包允许开发者在 iOS 端部署由 Rust crate 生成的 AI 推理引擎。",
+    "detail": "该项目发布了 Onde Inference Swift SDK，这是一个从 Rust crate 生成的 Swift 包。它旨在简化 AI 推理引擎在 Swift 环境中的集成，特别是针对 iOS 开发场景。通过 Rust 与 Swift 的互操作性，开发者可以更高效地在移动端部署高性能 AI 模型，丰富了端侧 AI 开发的工具链。此举降低了高性能推理引擎在苹果生态中的接入门槛，有助于推动复杂模型在移动设备上的本地运行。随着端侧算力提升，此类跨语言工具链将成为连接底层高性能计算与上层应用开发的关键桥梁，促进移动端 AI 应用的性能优化与快速迭代。",
+    "tags": [
+      "Dev",
+      "Mobile",
+      "Inference"
+    ],
+    "link": "https://github.com/ondeinference/onde-swift",
+    "date": "2026-04-04",
+    "id": "17752957110043"
+  },
+  {
+    "title": "Show HN: Autonet 本地 AI 助理集成 Google 日历与任务",
+    "summary": "本地运行的 AI 助理，直接通过 API 管理 Google 日历，数据不存储于服务器。",
+    "detail": "Autonet 是一款本地运行的 AI 助理工具，主打隐私保护。它直接通过 Google API 访问用户的日历和任务数据，不在 Autonet 服务器上存储任何用户信息。用户可以利用 AI 代理查看、创建和组织事件。这反映了用户对本地化 AI 助手的需求增长，以及对云端数据隐私的担忧。通过“本地处理 + 云端接口”的架构，它在保持便利性的同时最大程度减少了数据暴露面。这种模式可能成为未来个人 AI 助理的标准范式，平衡了功能强大性与用户隐私安全之间的矛盾，为敏感数据处理的 AI 应用提供了可参考的架构设计思路。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Local AI"
+    ],
+    "link": "https://autonet.computer",
+    "date": "2026-04-04",
+    "id": "17752957110044"
+  },
+  {
     "title": "PrismML 推出 1 比特 LLM 致力摆脱云端依赖",
     "summary": "PrismML 发布节能 1 比特大模型，旨在推动 AI 本地化部署。",
     "detail": "PrismML 近日推出了一款创新的 1 比特大语言模型（LLM），旨在显著降低能耗并减少对云服务的依赖。该技术通过极致的量化压缩，使得模型能够在资源受限的边缘设备上运行。这一突破对于推动 AI 从云端向边缘端迁移具有重要意义，可能大幅降低推理成本并提升数据隐私安全性，为物联网和移动设备上的 AI 应用开辟了新路径。此举被视为解放 AI 算力的关键一步，有望解决当前云端推理高昂的成本瓶颈。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.bloomberg.com/news/articles/2026-04-03/microsoft-drafts-10-billion-investment-plan-in-ai-hungry-japan",
     "date": "2026-04-03",
     "id": "17751928935292"
-  },
-  {
-    "title": "Orallexa Capital 展示 AI 交易引擎演示",
-    "summary": "推出模拟数据交易工具，支持多策略信号分析与语音控制。",
-    "detail": "Orallexa Capital 展示了其 AI 交易引擎界面，支持日内、摆动等多种策略。功能包括市场快照、情绪分析及语音命令控制。虽然目前为演示模式且使用模拟数据，但展示了 AI 在金融交易决策中的集成潜力，如实时信号置信度评估及执行日志记录，为量化交易提供新交互思路。界面集成新闻情绪分析，辅助判断市场走向。这种多模态交互方式降低了专业交易工具的使用门槛，展示了 AI 代理在高频交易场景中的应用可能性，但仍需验证实盘性能。适合个人投资者参考，关注后续实盘表现。",
-    "tags": [
-      "New",
-      "FinTech",
-      "Trading"
-    ],
-    "link": "https://orallexa-ui.vercel.app",
-    "date": "2026-04-03",
-    "id": "17751928935293"
-  },
-  {
-    "title": "风投观点：AI 应用公司将趋向垂直整合",
-    "summary": "Wing 合伙人指出 AI 应用正从单一层向全栈模型与服务层延伸。",
-    "detail": "Wing VC 合伙人 Tanay Jaipuria 分析指出，AI 应用公司正呈现垂直整合趋势。传统应用层企业开始向下整合模型层或向上整合人类服务层，趋向“全栈”模式。文章构建了模型 - 应用 - 人类三层架构理论，认为这是实现最终成果的必要路径。该观点为投资者和创业者提供了关于 AI 商业模式演变的重要参考。随着模型 commoditization，应用层必须通过整合建立壁垒。未来成功的企业可能不再局限于单一层级，而是掌控全流程以确保交付质量与用户体验的一致性。行业竞争将加剧，全栈能力成关键。",
-    "tags": [
-      "News",
-      "Industry",
-      "Strategy"
-    ],
-    "link": "https://www.tanayj.com/p/ai-applications-and-vertical-integration",
-    "date": "2026-04-03",
-    "id": "17751928935294"
-  },
-  {
-    "title": "NVIDIA 发布 IGX Thor 边缘 AI 平台",
-    "summary": "NVIDIA 推出 IGX Thor 平台，赋能工业与医疗边缘 AI 应用，强调安全与合规。",
-    "detail": "NVIDIA 正式发布 IGX Thor 平台，专为工业、医疗及机器人边缘 AI 设计。该平台提供服务器级 AI 性能，兼具工业级硬件安全功能与扩展生命周期支持。核心在于满足确定性行为、高可用性及可验证的功能安全要求，使开发者能在边缘侧部署复杂的生成式 AI 模型与传感器融合管道，解决严苛物理环境下的可靠性问题。随着边缘计算需求增长，此类硬件平台将成为工业自动化的核心基础设施，确保数据本地化处理的安全与效率，满足严格的监管合规标准，助力企业构建使命关键型边缘计算系统。",
-    "tags": [
-      "News",
-      "NVIDIA",
-      "Edge AI"
-    ],
-    "link": "https://developer.nvidia.com/blog/nvidia-igx-thor-powers-industrial-medical-and-robotics-edge-ai-applications/",
-    "date": "2026-04-03",
-    "id": "17751835083180"
-  },
-  {
-    "title": "微软开源 AI 代理治理与安全工具包",
-    "summary": "微软推出开源代理治理工具包，提供自主 AI 代理的运行时安全解决方案。",
-    "detail": "微软开源博客宣布推出“代理治理工具包”（Agent Governance Toolkit），旨在解决自主 AI 代理的运行时安全问题。该工具包覆盖 OWASP Top 风险，为开发者提供开源的运行时安全机制。随着 AI 代理自主性增强，确保其在执行任务时的安全性与合规性至关重要。此举有助于建立企业级 AI 代理部署的安全标准与信任基础，降低自动化系统中的潜在风险。通过提供标准化的安全工具，微软希望促进 AI 代理生态的健康发展，使开发者能够更放心地在生产环境中部署具有自主决策能力的智能体，应对日益复杂的网络安全挑战。",
-    "tags": [
-      "News",
-      "Security",
-      "AI Agents"
-    ],
-    "link": "https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/",
-    "date": "2026-04-03",
-    "id": "17751835083181"
-  },
-  {
-    "title": "Composer：AI 驱动的系统架构设计工具",
-    "summary": "新品 Composer 支持 AI 生成架构图，可连接代码库与 MCP 协议。",
-    "detail": "Composer 是一款新兴的 AI 架构绘图与系统设计工具。它允许用户通过自然语言描述架构，自动连接代码库并生成可视化图表。支持 MCP 协议，可集成 Windsurf、Claude、Cursor 等开发环境。该工具旨在让系统设计可见化，帮助开发者快速构建和理解复杂系统架构，提升软件工程效率。通过 AI 辅助设计，团队可以减少沟通成本，确保架构文档与代码实现的一致性。这对于大型分布式系统的维护尤为关键，降低了系统设计与维护的门槛，使非资深工程师也能参与架构规划，促进开发流程的标准化与自动化。",
-    "tags": [
-      "New",
-      "DevTools",
-      "Software Design"
-    ],
-    "link": "https://www.usecomposer.com/",
-    "date": "2026-04-03",
-    "id": "17751835083183"
   }
 ]
