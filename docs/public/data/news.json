@@ -1,5 +1,83 @@
 [
   {
+    "title": "Meta 裁员数百人，加速 AI 投资战略",
+    "summary": "Meta 裁员数百人，扎克伯格称 AI 可替代团队，推进 AI 投资。",
+    "detail": "Meta 宣布裁员数百人，标志着科技巨头在 AI 领域的战略调整进入深水区。CEO 扎克伯格明确表示 AI 技术能够替代部分团队职能，公司将资源集中于 AI 投资。此举反映了 AI 对传统人力资源结构的冲击，以及大型科技公司为追求效率和技术领先所采取的激进措施。此次裁员不仅是成本优化，更是组织架构向 AI 优先转型的信号。行业需关注后续裁员范围及 AI 替代实际效果，这将为其他企业提供参考范式。同时，这也引发了关于 AI 伦理和社会责任的广泛讨论，科技巨头如何在效率与人文之间寻找平衡点，将是未来几年的核心议题。",
+    "tags": [
+      "News",
+      "Meta",
+      "Layoffs"
+    ],
+    "link": "https://nypost.com/2026/04/03/business/meta-lays-off-hundreds-after-ceo-mark-zuckerberg-said-ai-can-replace-teams/",
+    "date": "2026-04-04",
+    "id": "17752688754280"
+  },
+  {
+    "title": "Anthropic 私募市场遇热，OpenAI 股份遇冷",
+    "summary": "私募市场显示 Anthropic 需求激增，而 OpenAI 股份难以出售，市场风向转变。",
+    "detail": "私募市场数据显示 Anthropic 股份需求几乎供不应求，买家准备部署 20 亿美元资金，而 OpenAI 约 6 亿美元股份无人问津。投行 Rainmaker Securities 表示 Anthropic 是最难货源的股票。这一反差表明投资者对 Anthropic 的信心增强，部分源于其与国防部的公开对峙事件。市场叙事正从 OpenAI 单极向多强竞争转变，资本流向反映了对不同 AI 巨头前景的重新评估。二级市场的流动性差异可能预示未来一级市场估值格局的变化。投资者更看好 Anthropic 在安全对齐和企业级服务方面的潜力，这可能导致 AI 赛道投资逻辑的根本性转变。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "Investment"
+    ],
+    "link": "https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/",
+    "date": "2026-04-04",
+    "id": "17752688754281"
+  },
+  {
+    "title": "技术揭秘：Telegram AI 功能后台模型确认为 Qwen 3.5",
+    "summary": "通过提取系统提示词，确认 Telegram AI 功能背后运行的是 Qwen 3.5 模型。",
+    "detail": "技术人员通过分析 Telegram 新推出的 AI 功能，成功提取了系统提示词并识别出模型身份为 Qwen 3.5。这一发现揭示了大型社交平台在集成 AI 能力时的底层模型选择策略。对于开发者而言，了解平台背后的模型有助于优化提示词工程和集成方案。这也表明通义千问系列模型在国际主流应用中的渗透率正在提升，成为基础设施层的重要选择。此案例展示了模型逆向工程在竞争情报中的实际应用价值。对于依赖 API 的开发者，这意味着需要关注模型版本更新带来的行为差异，及时调整应用逻辑以适应底层模型的变化。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Telegram"
+    ],
+    "link": "https://medium.com/@metraoklam/extracting-system-prompt-model-identity-from-telegrams-ai-feature-it-s-qwen-3-5-5a6204c9d76a",
+    "date": "2026-04-04",
+    "id": "17752688754282"
+  },
+  {
+    "title": "受 AI 热潮驱动，中国芯片企业营收创新高",
+    "summary": "尽管面临美国限制，中国芯片企业因 AI 繁荣实现营收历史新高。",
+    "detail": "CNBC 报道显示，中国芯片企业在 AI 热潮和美国制裁的双重背景下，实现了营收历史新高。这表明本土半导体产业在外部压力下展现出韧性，并成功抓住了 AI 算力需求爆发的机遇。美国出口管制反而可能加速了国产替代进程。对于全球供应链而言，这意味着芯片市场格局正在发生深刻变化，中国本土算力基础设施的建设速度可能超出预期。地缘政治因素正成为影响 AI 硬件发展的关键变量。这一趋势可能促使全球芯片供应链进一步分化，形成不同的技术标准生态系统。",
+    "tags": [
+      "News",
+      "Hardware",
+      "China"
+    ],
+    "link": "https://www.cnbc.com/2026/04/03/chinese-chip-firms-record-revenue-ai-boom-us-curbs.html",
+    "date": "2026-04-04",
+    "id": "17752688754283"
+  },
+  {
+    "title": "AI 编程工具沙盒方案：保护文件系统安全",
+    "summary": "介绍 macOS 沙盒工具 bx，防止 AI 编程工具过度访问文件系统。",
+    "detail": "随着 Claude Code、Copilot 等 AI 编程工具的普及，文件系统安全风险日益凸显。文章介绍了基于 macOS `sandbox-exec` 开发的工具 `bx`，可将 AI 工具限制在当前项目目录内。相比 Docker 或 IDE 自带信任机制，该方案提供了内核级的隔离保护。对于处理敏感数据的企业开发者，此类沙盒方案是平衡生产力与安全性的关键基础设施，建议在高权限环境中部署。这是 AI 时代开发者安全运维的新范式。随着 AI 代理权限的提升，此类安全工具将成为开发环境的标准配置，防止敏感信息泄露。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Tools"
+    ],
+    "link": "https://holtwick.de/en/blog/bx-sandbox",
+    "date": "2026-04-04",
+    "id": "17752688754284"
+  },
+  {
+    "title": "Murlyn 上线：AI 模拟决策者反应的新工具",
+    "summary": "新平台 Murlyn 利用 20+ AI 分析师模拟文档反馈，辅助决策。",
+    "detail": "Murlyn 推出了一款决策智能平台，能在文档发送前模拟 20+ 位 AI 分析师的反应，提前暴露反对意见和盲点。产品提供免费及分级付费计划，针对销售、提案等高场景。核心价值在于利用 AI 群体智能进行预演，降低沟通成本。这代表了 AI 应用从内容生成向决策辅助的延伸，适合需要高频对外沟通的专业人士团队使用。该工具展示了 AI Agent 在复杂商业场景中的模拟能力。未来此类工具可能集成更多实时数据，成为企业战略决策的标准辅助系统，改变传统商业谈判的模式。",
+    "tags": [
+      "New",
+      "Productivity",
+      "SaaS"
+    ],
+    "link": "https://murlyn.ai/",
+    "date": "2026-04-04",
+    "id": "17752688754285"
+  },
+  {
     "title": "Nutrax 推出 AI 食物追踪应用",
     "summary": "iOS 端新应用，利用 AI 扫描食物追踪卡路里。",
     "detail": "Nutrax 是一款专为 iOS 及 iPad 设计的健康与健身类应用，核心功能是利用 AI 技术扫描食物图像以自动追踪卡路里。应用采用免费下载加内购模式，允许用户扫描、追踪并分享餐食数据。由开发者 Christer Ekornsæter 发布，支持英语界面。这款新品的出现标志着 AI 视觉识别技术在个人健康管理领域的进一步落地，显著降低了用户手动记录饮食的门槛，为关注健康数据的消费者提供了更便捷的社交化追踪工具，体现了移动端 AI 应用的垂直化趋势，展示了 AI 如何融入日常生活场景。",
@@ -1220,83 +1298,5 @@
     "link": "https://news.ycombinator.com/item?id=47620865",
     "date": "2026-04-02",
     "id": "17751692475974"
-  },
-  {
-    "title": "MindsDB 推出 Anton AI 数据同事",
-    "summary": "自然语言交互的商业智能代理，自动分析数据。",
-    "detail": "MindsDB 发布 Anton，一款 AI 数据同事。用户可用自然语言提问，Anton 自动统一多源数据、运行分析、生成仪表盘并采取行动。旨在像专家分析师一样 24/7 工作，重新定义商业智能流程。它不仅能表面化洞察，还能建议下一步操作，甚至直接执行任务，标志着 BI 从被动查询向主动代理的转变。适合企业快速部署数据分析能力，降低技术门槛，让业务人员直接获取数据价值。该代理支持多种数据源连接，通过自然语言交互消除 SQL 障碍，推动企业数据分析的民主化进程，是 Agent 技术在 B 端应用的重要探索。",
-    "tags": [
-      "New",
-      "BI",
-      "Agent"
-    ],
-    "link": "https://github.com/mindsdb/anton",
-    "date": "2026-04-02",
-    "id": "17751660966481"
-  },
-  {
-    "title": "Orallexa 多智能体交易系统开源",
-    "summary": "牛熊辩论决策机制，集成 9 个机器学习模型。",
-    "detail": "GitHub 开源项目 Orallexa 展示多智能体交易架构。系统通过“牛熊”代理辩论做出决策，集成 9 个 ML 模型及 LLM 策略进化，配备实时仪表盘。为量化交易中的多智能体协作提供新参考。项目基于 Python 和 Next.js，利用 Claude 等模型进行策略演化，展示了 AI 代理在金融决策中的对抗性协作模式，具有较高研究价值。开发者可借此探索多智能体系统在高风险决策场景下的稳定性与有效性。该架构模拟了市场多空双方的博弈过程，为理解 LLM 在金融领域的决策逻辑提供了开源范本，适合量化开发者研究。",
-    "tags": [
-      "Dev",
-      "Trading",
-      "Multi-Agent"
-    ],
-    "link": "https://github.com/alex-jb/orallexa-ai-trading-agent",
-    "date": "2026-04-02",
-    "id": "17751660966482"
-  },
-  {
-    "title": "SharpSkill AI 辅助编程面试训练",
-    "summary": "AI 生成代码并教学，涵盖 React 等 10+ 技术栈。",
-    "detail": "SharpSkill 上线，主打\"AI 写代码，人类理解”。提供真实面试题库、技术闪卡及模拟面试。覆盖 React、Node.js 等 10 多种技术栈，帮助开发者深入理解栈技术并通过面试。平台强调技术卓越性，从学习到面试全流程辅助。通过进度追踪和技术测试，用户可清晰看到知识盲区，适合准备大厂技术面试的开发者使用，提升代码理解深度。其核心理念是在 AI 生成代码时代，强化人类对底层逻辑的掌控能力。通过模拟真实面试环境，帮助学员克服技术焦虑，建立自信，是 AI 赋能职业教育的新尝试。",
-    "tags": [
-      "New",
-      "Education",
-      "Coding"
-    ],
-    "link": "https://sharpskill.dev/en",
-    "date": "2026-04-02",
-    "id": "17751660966483"
-  },
-  {
-    "title": "ON1 Restore AI 修复照片翻车新闻",
-    "summary": "老照片修复 AI 产生恐怖效果，引发关注。",
-    "detail": "PetaPixel 报道 ON1 Restore AI 在修复旧家庭照片时出现严重失真，生成“噩梦般”图像。此事件凸显了生成式 AI 在处理历史影像时的局限性及伦理风险，引发行业对 AI 修复可靠性的讨论。虽然 AI 修复技术进步迅速，但在面部细节重建上仍存在幻觉问题。用户需谨慎对待重要照片的自动化修复，该案例为 AI 图像生成模型的边界测试提供了反面教材。提醒开发者优化模型在低质量输入下的稳定性，避免破坏珍贵记忆。此事件也引发了关于 AI 介入个人历史记录边界的伦理思考，值得行业关注。",
-    "tags": [
-      "News",
-      "Image Generation",
-      "Failure"
-    ],
-    "link": "https://petapixel.com/2026/03/25/on1-restore-ai-turns-old-family-photos-into-grotesque-nightmare-fuel/",
-    "date": "2026-04-02",
-    "id": "17751660966484"
-  },
-  {
-    "title": "AI 时代如何教授编程课程",
-    "summary": "探讨神经科学视角下的编程教育与 AI 关系。",
-    "detail": "The Transmitter 文章探讨 AI 代理普及下的编程教育。作者从神经科学角度分析，虽然 AI 能调试代码，但基础挣扎对理解至关重要。教育需平衡 AI 工具使用与核心能力培养，适应技术变革。文章指出完全依赖 AI 可能导致代码理解能力退化，建议在教学中保留必要的手动编码环节。这为高校及培训机构调整课程设计提供了理论依据，强调人机协作而非完全替代。如何在 AI 辅助下保持科学严谨性是未来教育的关键挑战。作者结合自身经历，呼吁教育者重视思维过程而非仅仅结果，确保学生具备驾驭 AI 工具的核心素养。",
-    "tags": [
-      "News",
-      "Education",
-      "LLM"
-    ],
-    "link": "https://www.thetransmitter.org/how-to-teach-this-paper/how-to-teach-programming-in-the-age-of-ai/",
-    "date": "2026-04-02",
-    "id": "17751660966485"
-  },
-  {
-    "title": "2026 春季 AI 盛会：PyTorch 欧洲会议与 ICLR",
-    "summary": "Collabora 报道 2026 年春季 PyTorch 欧洲会议及 ICLR 大会即将召开。",
-    "detail": "**背景**：AI 开发社区的重要年度活动，汇聚全球开发者。**内容**：聚焦 PyTorch 框架更新及 ICLR 学术论文交流，涵盖最新深度学习技术与应用案例。**影响**：为开发者提供最新技术趋势交流平台，促进开源生态发展，适合关注深度学习框架演进的研究者与工程师参与，有助于把握 2026 年技术风向，推动行业技术创新与合作，是了解前沿动态的重要窗口。",
-    "tags": [
-      "Dev",
-      "Conference",
-      "PyTorch"
-    ],
-    "link": "https://www.collabora.com/news-and-blog/news-and-events/springing-into-ai-pytorch-conference-europe-and-iclr-2026.html",
-    "date": "2026-04-02",
-    "id": "17751597841471"
   }
 ]
