@@ -1,5 +1,70 @@
 [
   {
+    "title": "开发者实测：Lisp 编程对 AI 代理并不友好",
+    "summary": "开发者分享使用 AI 代理编写 Lisp 代码的困境，发现 AI 难以处理 REPL 交互。",
+    "detail": "一位 DevOps 工程师在使用 Goose CLI 和 OpenRouter 进行 Lisp 开发时发现，主流 AI 模型难以有效交互 REPL 环境，导致 token 消耗高且代码质量一般。即使是 Claude 也会在 REPL 开发中空转，廉价模型表现更差。为此他开发了 `tmux-repl-mcp` 工具，旨在简化 AI 与 REPL 的交互流程，赋予代理无限 REPL 权限同时保护通用命令权。这反映了当前 AI 代理在特定编程语言生态中的局限性，以及开发者为解决最后一公里问题所做的工具创新，提示我们在特定领域仍需专用中间件辅助。随着 Agent 技术普及，类似针对特定语言或环境的适配工具将增多，开发者需关注工作流中的摩擦点。此案例表明，通用大模型在特定开发工作流中仍需优化，开发者生态的工具链完善是关键，未来可能出现更多针对特定语言环境的 AI 适配层。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Lisp"
+    ],
+    "link": "https://blog.djhaskin.com/blog/writing-lisp-is-ai-resistant-and-im-sad/",
+    "date": "2026-04-05",
+    "id": "17753567596580"
+  },
+  {
+    "title": "游戏巨头 Take-Two 裁撤部分 AI 团队",
+    "summary": "Take-Two Interactive 疑似裁撤部分 AI 团队，包括 AI 主管，引发行业对游戏 AI 落地的关注。",
+    "detail": "游戏发行商 Take-Two Interactive 被曝裁撤了部分 AI 团队成员，其中包括人工智能主管。这一举动发生在游戏行业积极探索 AI 生成内容（AIGC）的背景下，可能暗示大厂在 AI 战略上的调整或初期试水后的收缩。对于依赖 AI 技术优化工作流程的游戏开发者而言，这是一个值得关注的行业信号，表明 AI 在实际生产管线中的整合仍面临挑战，商业化落地并非一蹴而就。此次裁员也引发了关于游戏公司 AI 部门定位的讨论，是核心驱动力还是辅助支持部门，仍需市场验证。这也提醒投资者关注游戏公司 AI 投入的实际产出比，避免过度炒作概念，回归技术落地的实际价值评估。行业需理性看待 AI 在游戏开发中的角色，平衡创新成本与实际收益。",
+    "tags": [
+      "News",
+      "Gaming",
+      "Layoffs"
+    ],
+    "link": "https://www.pcgamer.com/gaming-industry/take-two-has-seemingly-laid-off-an-unspecified-portion-of-its-ai-team-including-its-head-of-artificial-intelligence/",
+    "date": "2026-04-05",
+    "id": "17753567596581"
+  },
+  {
+    "title": "Vibooks 发布：专为 AI 代理设计的本地记账软件",
+    "summary": "新款本地优先记账软件 Vibooks 上线，支持 AI 代理自动处理发票与对账工作。",
+    "detail": "Vibooks 推出了首款专为 AI 代理设计的本地优先记账软件。该软件允许用户将账单文件放入指定文件夹，由 AI 代理自动读取、分类并生成记账条目，用户可在发布前审查。其核心在于\"Agent-native\"工作流，通过本地化处理保障财务数据安全，同时利用大模型能力自动化繁琐的簿记任务，为小企业提供了人机协作的财务解决方案，降低了自动化记账的门槛。该产品设计理念体现了垂直领域 SaaS 向 AI 原生转型的趋势，强调代理与软件的深度集成而非简单插件化。未来可能会有更多垂直软件采用类似架构，允许 AI 代理直接操作核心业务逻辑，重塑人机协作模式。这种本地优先的策略也回应了企业对数据隐私的担忧，有助于推动 AI 在财务敏感领域的普及。",
+    "tags": [
+      "New",
+      "Fintech",
+      "AI Agents"
+    ],
+    "link": "https://vibooks.ai/",
+    "date": "2026-04-05",
+    "id": "17753567596582"
+  },
+  {
+    "title": "安全工具 Aigate：防止 AI 代码泄露敏感信息",
+    "summary": "开发者推出本地秘密扫描器 Aigate，可在提示词和生成代码中拦截敏感数据。",
+    "detail": "针对 AI 生成代码可能泄露密钥的风险，新工具 `aigate` 提供了本地秘密扫描方案。它通过代理、钩子和 MCP 服务器三层架构，在请求发送前红敏或阻断包含敏感信息的提示词及生成代码。工具完全本地运行，支持正则与熵检测，无需机器学习模型，速度极快且无遥测。这对于重视数据隐私的企业开发者而言，是部署 AI 编程助手时的重要安全补充层，有效防止凭据意外上传至云端模型。在 AI 安全合规日益严格的当下，此类本地化安全工具将成为企业采纳 AI 的基础设施。随着监管加强，此类“防火墙”式工具可能成为合规标配，帮助企业在享受 AI 效率的同时规避数据泄露风险，构建更可信的 AI 开发环境。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Privacy"
+    ],
+    "link": "https://aigate-landing.onrender.com/",
+    "date": "2026-04-05",
+    "id": "17753567596583"
+  },
+  {
+    "title": "Orchestra 推出首款 AI 原生研究集成开发环境",
+    "summary": "Orchestra 发布 AI 原生研究 IDE，旨在辅助研究人员进行开放式探索与发现。",
+    "detail": "Orchestra 推出了声称是首款\"AI 原生研究 IDE\"的工具，专注于辅助科研人员处理开放式探索任务。与传统自动化工具不同，它强调人类在循环中的直觉与严谨性，支持搜索、阅读、头脑风暴到执行的全流程。该工具试图解决科研过程中非线性的痛点，通过 AI 增强而非替代研究人员，标志着 AI 应用正从代码开发向科学发现领域深入渗透，为科研范式带来新变革。其发布表明，针对高知识密度工作的专用 AI 界面正在兴起，通用聊天界面可能无法满足复杂科研需求。这预示着 IDE 形态的演变，未来开发环境将更深地集成 AI 推理能力，成为科研人员的核心协作伙伴，推动科学研究效率的显著提升。",
+    "tags": [
+      "New",
+      "Research",
+      "IDE"
+    ],
+    "link": "https://www.orchestra-research.com/perspectives/introducing-new-orchestra",
+    "date": "2026-04-05",
+    "id": "17753567596584"
+  },
+  {
     "title": "Hermes Agent 2026 完全指南：开源自进化 AI 智能体",
     "summary": "Nous Research 推出开源自进化 Agent，支持持久记忆与跨会话学习，GitHub 星标超 2.2 万。",
     "detail": "Hermes Agent 是由 Nous Research 开发的开源自主智能体框架，采用 MIT 许可，支持完全自托管。其核心优势在于独特的“自进化”架构，能够跨会话保存记忆、从经验中构建技能并持续优化，彻底解决了传统 Agent 会话结束后记忆丢失的痛点。作为 2026 年 2 月发布的项目，目前已获 2.2 万 GitHub 星标，是开源领域最具技术趣味的项目之一。指南涵盖了安装、成本、硬件需求及真实评测，适合开发者自建私有化 AI 工作流，无遥测且无云锁定。这标志着代理技术向持久化能力的重要迈进，为个人及企业构建长期记忆的 AI 助手提供了可靠的技术基底，有望改变人机协作模式。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.wsj.com/tech/ai/ai-training-data-mercor-offers-ed37d2a1",
     "date": "2026-04-03",
     "id": "17752557990991"
-  },
-  {
-    "title": "安全突破：Claude AI 发现 Vim 与 Emacs 远程代码执行漏洞",
-    "summary": "Claude AI 独立发现主流编辑器严重安全漏洞，展示代码审计能力。",
-    "detail": "BleepingComputer 报道，Claude AI 成功识别出 Vim 和 Emacs 中触发于文件打开时的远程代码执行（RCE）漏洞。这标志着 AI 模型在安全研究和代码审计领域的能力迈上新台阶，未来可能成为自动化安全测试的重要工具。此事件不仅证明了 AI 辅助安全研究的可行性，也引发了对 AI 生成代码安全性的新思考，建议安全团队开始探索将 AI 纳入漏洞挖掘工作流，同时加强对 AI 生成代码的审查机制，以防潜在的后门风险。",
-    "tags": [
-      "News",
-      "Security",
-      "Coding"
-    ],
-    "link": "https://www.bleepingcomputer.com/news/security/claude-ai-finds-vim-emacs-rce-bugs-that-trigger-on-file-open/",
-    "date": "2026-04-03",
-    "id": "17752557990992"
-  },
-  {
-    "title": "产品升级：Google AI Pro 存储扩容至 5TB 不加价",
-    "summary": "Google 宣布 AI Pro 订阅服务存储容量翻倍，提升用户性价比。",
-    "detail": "9to5Google 消息，Google AI Pro 订阅服务现已包含 5TB 存储空间，且价格保持不变。此次升级显著增强了该订阅套餐的竞争力，旨在吸引更多用户进入 Google 的 AI 生态系统。反映了大厂在 AI 订阅服务上的激烈竞争策略，通过增加存储附加值来提高用户粘性。对于重度依赖 Google 服务的用户来说，这是升级套餐的好时机；同时也预示着云存储与 AI 服务捆绑将成为行业趋势，竞争对手可能会跟进类似策略。",
-    "tags": [
-      "News",
-      "Product",
-      "Google"
-    ],
-    "link": "https://9to5google.com/2026/04/01/google-ai-pro-5-tb/",
-    "date": "2026-04-03",
-    "id": "17752557990993"
-  },
-  {
-    "title": "新品发布：Relay 个人 AI 代理全天候代表用户社交",
-    "summary": "全新个人 AI 代理 Relay 上线，可自动回复询问并预约会议。",
-    "detail": "Show HN 项目 Relay 推出个人 AI 代表服务，用户可创建了解其技能和经历的 AI 代理。该代理能 24/7 响应他人询问，自动筛选线索并预约会议，旨在帮助自由职业者及专业人士不错过任何商机。支持集成 Claude、ChatGPT 等模型，展示了 AI Agent 在个人商务助理领域的落地应用。对于需要频繁社交但时间有限的从业者，此类工具能显著提升效率，但也需注意隐私数据授权及代理行为失控的潜在风险，建议试用时先限定回答范围。",
-    "tags": [
-      "New",
-      "Agent",
-      "Productivity"
-    ],
-    "link": "https://relay.signupfunnel.com",
-    "date": "2026-04-03",
-    "id": "17752557990994"
-  },
-  {
-    "title": "开发工具：agenteval 用于 AI 编程指令的静态分析",
-    "summary": "开源工具 agenteval 帮助开发者评估和优化 AI 编码指令。",
-    "detail": "GitHub 上新开源项目 agenteval 提供针对 AI 编程指令文件的静态分析、基准测试和评分功能。开发者可利用该工具量化评估 Prompt 质量，停止猜测并开始测量，有助于提升 AI 辅助编程的稳定性和代码质量。适合 AI 工程化团队使用，特别是在大规模部署 AI 编码助手时，该工具能帮助团队建立标准化的指令评估体系，减少因 Prompt 波动导致的代码错误，降低维护成本，是 AI 开发工作流中的重要补充工具。",
-    "tags": [
-      "Dev",
-      "Tool",
-      "OpenSource"
-    ],
-    "link": "https://github.com/lukasmetzler/agenteval",
-    "date": "2026-04-03",
-    "id": "17752557990995"
-  },
-  {
-    "title": "研究发现 AI 用户愿向大模型“交出”认知能力",
-    "summary": "新研究揭示用户过度依赖 LLM，可能放弃逻辑思考。",
-    "detail": "Ars Technica 报道最新研究，发现 AI 用户表现出令人担忧的“认知投降”倾向。研究表明，用户愿意将逻辑思考任务完全委托给大语言模型，甚至放弃独立验证结果。这引发了关于人类认知能力退化及人机协作边界的行业讨论。提示开发者需关注 AI 辅助而非替代的设计伦理，避免用户过度依赖导致关键技能生疏，影响长期生产力与判断力。行业需平衡效率与人类能动性，确保技术增强而非削弱人类能力。",
-    "tags": [
-      "News",
-      "Research",
-      "Ethics"
-    ],
-    "link": "https://arstechnica.com/ai/2026/04/research-finds-ai-users-scarily-willing-to-surrender-their-cognition-to-llms/",
-    "date": "2026-04-03",
-    "id": "17752522071240"
   }
 ]
