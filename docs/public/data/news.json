@@ -1,5 +1,44 @@
 [
   {
+    "title": "WhyOps：AI Agent 决策感知可观测性工具",
+    "summary": "专为 AI Agent 打造的决策感知可观测性平台，助力开发者调试。",
+    "detail": "WhyOps 是一个专为 AI Agent 设计的决策感知可观测性工具。针对当前 Agent 决策过程不透明、难以调试的痛点，它提供了深度监控与分析能力，帮助开发者追踪和理解 Agent 的行为逻辑与决策路径。该工具旨在解决复杂 Agent 系统中的黑盒问题，显著提升系统的可维护性与可靠性。随着 AI Agent 应用日益复杂，可观测性成为关键基础设施。此项目已在 Hacker News 社区引发技术讨论，适合需要构建高可信度、复杂逻辑 Agent 的开发团队参考使用，代表了 Agent 运维领域的新探索方向，填补了决策层监控的空白。",
+    "tags": [
+      "Dev",
+      "AI Agent",
+      "Observability"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47648098",
+    "date": "2026-04-05",
+    "id": "17753887461070"
+  },
+  {
+    "title": "AI 是工程师的外骨骼而非替代品",
+    "summary": "探讨 AI 在软件工程中的定位，强调增强人类能力而非完全自动化。",
+    "detail": "文章基于作者在 AI Circle 的演讲，深入探讨了 AI 在软件工程中的定位与未来趋势。核心观点认为 AI 应作为增强人类工程师能力的“外骨骼”，而非完全替代人类的机器人。作者警告称，过度依赖 AI 自动化编码可能导致组织失去对系统的深度理解，因为上下文是通过编码过程生成的。这一观点对当前追求全自动化开发的趋势提出了深刻反思，强调人机协作的重要性。为大型组织如何合理引入 AI 提供了战略视角，有助于避免技术债务与认知断层，引导行业关注 AI 时代的工程师价值重塑，确保技术发展与人类理解同步。",
+    "tags": [
+      "News",
+      "Industry",
+      "Engineering"
+    ],
+    "link": "https://koenvangilst.nl/lab/ai-and-the-future-of-engineering",
+    "date": "2026-04-05",
+    "id": "17753887461071"
+  },
+  {
+    "title": "Vektor：本地优先的 AI Agent 关联记忆库",
+    "summary": "支持本地部署的 Agent 记忆解决方案，集成 LangChain 与 OpenAI SDK。",
+    "detail": "Vektor Slipstream 1.2 正式发布，这是一个本地优先的 AI Agent 关联记忆库解决方案。它支持通过 npm 快速安装，提供了从初始化到生产部署的完整文档与 API 参考。核心功能包括持久化记忆存储与召回，支持 LangChain、OpenAI Agents SDK 等多种主流框架集成。该工具解决了 Agent 长期记忆管理的难题，特别适用于对数据隐私有要求的本地部署场景。通过提供标准化的 API 与集成指南，Vektor 降低了开发者构建具备记忆能力 Agent 的门槛，是 Agent 基础设施生态的重要补充，适合需要复杂上下文管理的开发者快速集成使用。",
+    "tags": [
+      "New",
+      "AI Agent",
+      "Memory"
+    ],
+    "link": "https://vektormemory.com/docs/",
+    "date": "2026-04-05",
+    "id": "17753887461072"
+  },
+  {
     "title": "AI 正在削弱大学生的原创思维能力",
     "summary": "耶鲁学生反馈课堂讨论趋同，AI 聊天机器人侵蚀原创性。",
     "detail": "耶鲁大学学生反馈，课堂中过度依赖 AI 聊天机器人导致讨论内容趋同，原创思维受损。教授提问时学生现场求助 AI，使得观点缺乏多样性。这引发了教育界对 AI 整合进课堂后对学生认知能力长期影响的担忧，提示教育者需重新评估作业设计与评估方式，避免技术依赖侵蚀批判性思考能力。此外，文章指出这种同质化现象可能削弱学生独立解决问题的能力，呼吁学校在引入 AI 工具时建立更严格的使用规范与引导机制，以平衡效率与思维培养。",
@@ -1259,44 +1298,5 @@
     "link": "https://techcrunch.com/2026/03/31/its-not-your-imagination-ai-seed-startups-are-commanding-higher-valuations/",
     "date": "2026-04-04",
     "id": "17752783557513"
-  },
-  {
-    "title": "开源项目：AI 旅行积分黑客工具包",
-    "summary": "基于 MCP 服务器的积分搜索与行程规划工具。",
-    "detail": "GitHub 发布 Travel Hacking Toolkit，专为 AI 编码助手设计。提供 drop-in skills 和 MCP 服务器，支持 OpenCode 和 Claude Code。功能涵盖积分、里程及奖励航班搜索。该项目展示了如何将特定领域数据（旅行优惠）通过 MCP 协议集成到 AI 工作流中，适合开发者参考构建垂直领域 AI 应用。开源代码允许社区贡献新的数据源与逻辑，降低了构建个性化 AI 旅行助理的技术门槛，体现了 MCP 生态的扩展性。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "MCP"
-    ],
-    "link": "https://github.com/borski/travel-hacking-toolkit",
-    "date": "2026-04-04",
-    "id": "17752783557514"
-  },
-  {
-    "title": "ClawTrak 上线：检测网站对 AI 代理的可见性",
-    "summary": "免费扫描 20 项信号，优化网站被 AI 搜索推荐的概率。",
-    "detail": "ClawTrak 推出免费 AI 就绪扫描工具，30 秒内检测网站是否对 AI 代理可见。涵盖 llms.txt、Agent Card、结构化数据等 20 项信号。提供竞争对手对比分析及公开排名。随着 AI 搜索兴起，该工具帮助企业主优化内容被发现和推荐的几率，是 AI SEO 领域的新兴基础设施。平台已扫描数千站点，平均得分较低，表明大多数网站尚未准备好迎接自主 AI 代理的流量，优化需求迫切。",
-    "tags": [
-      "New",
-      "AI SEO",
-      "Tools"
-    ],
-    "link": "https://clawtrak.com/",
-    "date": "2026-04-04",
-    "id": "17752783557515"
-  },
-  {
-    "title": "Meta 裁员数百人，加速 AI 投资战略",
-    "summary": "Meta 裁员数百人，扎克伯格称 AI 可替代团队，推进 AI 投资。",
-    "detail": "Meta 宣布裁员数百人，标志着科技巨头在 AI 领域的战略调整进入深水区。CEO 扎克伯格明确表示 AI 技术能够替代部分团队职能，公司将资源集中于 AI 投资。此举反映了 AI 对传统人力资源结构的冲击，以及大型科技公司为追求效率和技术领先所采取的激进措施。此次裁员不仅是成本优化，更是组织架构向 AI 优先转型的信号。行业需关注后续裁员范围及 AI 替代实际效果，这将为其他企业提供参考范式。同时，这也引发了关于 AI 伦理和社会责任的广泛讨论，科技巨头如何在效率与人文之间寻找平衡点，将是未来几年的核心议题。",
-    "tags": [
-      "News",
-      "Meta",
-      "Layoffs"
-    ],
-    "link": "https://nypost.com/2026/04/03/business/meta-lays-off-hundreds-after-ceo-mark-zuckerberg-said-ai-can-replace-teams/",
-    "date": "2026-04-04",
-    "id": "17752688754280"
   }
 ]
