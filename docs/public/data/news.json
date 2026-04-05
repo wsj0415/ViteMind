@@ -1,5 +1,31 @@
 [
   {
+    "title": "AI Agent 通过 x402 协议使用 USDC 支付 API",
+    "summary": "Aigregator 推出基于 x402 协议的 API 微支付方案，无需 API Key。",
+    "detail": "Aigregator 推出了支持 x402 协议的 API，允许 AI Agent 通过 USDC 按请求付费访问工具数据。这种无 API Key 的微支付机制解决了 Agent 经济系统中的支付摩擦问题，为机器间经济（M2M）提供了新的基础设施标准，适合高频自主代理场景。传统 API 认证依赖 API Key，难以管理细粒度计费和自主支付。x402 协议利用 HTTP 402 状态码实现原生支付请求，使 Agent 能在无需人工干预的情况下完成数据购买。这不仅降低了集成门槛，还为 AI 生态建立了可组合的经济层，未来可能成为自主代理获取外部数据和服务的标准支付接口，推动机器经济规模化。",
+    "tags": [
+      "Dev",
+      "Crypto",
+      "Agent"
+    ],
+    "link": "https://x402.aigregator.com",
+    "date": "2026-04-05",
+    "id": "17754104615703"
+  },
+  {
+    "title": "TryDraft：基于无限画布的 AI 对话工具",
+    "summary": "新品发布：结合无限画布与实时协作的 AI 对话工作区。",
+    "detail": "TryDraft 推出了一款基于画布的 AI 对话产品，允许用户在无限空间内组织、可视化想法并与 LLM 互动。支持实时协作和智能整理，旨在解决传统线性聊天窗口难以管理复杂思维链的问题，为创意工作者提供新的 AI 交互界面。传统聊天机器人受限于线性对话历史，难以处理多分支任务。无限画布允许用户将对话、笔记和生成内容空间化排列，更符合人类非线性思维模式。该工具支持多人实时协作，适合团队脑暴和项目管理。这代表了 AI 交互界面从对话式向空间式的演进，可能成为下一代知识工作者的核心操作系统，提升复杂任务的规划与执行效率。",
+    "tags": [
+      "New",
+      "Productivity",
+      "LLM"
+    ],
+    "link": "https://www.trydraft.app/",
+    "date": "2026-04-05",
+    "id": "17754104615704"
+  },
+  {
     "title": "Imladri：宪法式 AI 基础设施",
     "summary": "推出加密执行边界与语义监控，为 AI 代理提供合规审计追踪。",
     "detail": "Imladri 亮相 Show HN，主打宪法式 AI 基础设施。通过 Glasshouse 在加密层强制执行边界，结合 GlassPulse 实时监控语义对齐，生成监管机构所需的加密审计报告。该技术解决了 AI 代理行为不可控的痛点，为金融等受监管行业提供可验证的合规方案。其核心在于加密证明代理行为符合预设宪法，任何违规均被记录且不可篡改。标志着 AI 安全向可证明性方向发展，满足法律与董事会对 AI 决策透明度的严苛要求，为高风险场景部署提供必要保障，适合需要严格审计追踪的企业级应用。",
@@ -466,6 +492,19 @@
     "link": "https://www.orchestra-research.com/perspectives/introducing-new-orchestra",
     "date": "2026-04-05",
     "id": "17753567596584"
+  },
+  {
+    "title": "为 Claude Code 构建 AI 图像生成技能",
+    "summary": "开发者教程：如何在 Claude Code 中集成图像生成工作流。",
+    "detail": "文章详细介绍了如何为 Claude Code 构建自定义技能，实现从终端直接生成项目图像资源。该技能支持透明背景、参考图编辑及批量生成，消除了开发者在代码编辑器与外部 AI 工具间的上下文切换。这是将多模态能力深度集成到开发工作流的优秀实践。传统开发中，设计师与开发者协作常因资产交付流程繁琐而效率低下。通过 CLI 或 Desktop 应用直接调用图像生成模型，开发者可以保持心流状态，快速迭代 UI 资产。该方案展示了 AI 编程助手从代码生成向多模态任务扩展的趋势，为全栈开发者提供了无需离开终端即可完成视觉设计的新型工作流，显著提升了独立开发效率。",
+    "tags": [
+      "Dev",
+      "Claude",
+      "Tutorial"
+    ],
+    "link": "https://ai.georgeliu.com/p/building-an-ai-image-creator-skill",
+    "date": "2026-04-04",
+    "id": "17754104615702"
   },
   {
     "title": "Show HN：模拟 AI 代理乌托邦社区的崩溃",
@@ -1259,44 +1298,5 @@
     "link": "https://github.com/NexaiGuy/nex-life-logger",
     "date": "2026-04-04",
     "id": "17752957110041"
-  },
-  {
-    "title": "安全研究：AI Agent 可通过字体设置实施视觉欺骗攻击",
-    "summary": "揭示 AI 代理利用 Chrome 字体配置持久化进行视觉欺骗的攻击链。",
-    "detail": "安全研究人员披露了一种新型攻击链，结合 Chrome 字体偏好持久化、OpenType 字形替换及 AI 代理权限。攻击者可使 AI 代理修改字体配置，导致用户看到的文本与实际数据不符。该研究指出了 AI 代理权限管理中的潜在风险，强调了在 AI 自主操作环境下浏览器安全配置的重要性。随着 AI 代理获得更多系统权限，此类隐蔽攻击面的风险将显著增加。开发者需重新审视 AI 与浏览器交互的安全边界，防止合法权限被滥用进行视觉欺骗，这对未来 AI 安全审计提出了新的挑战，建议行业建立更严格的代理行为监控标准。",
-    "tags": [
-      "Dev",
-      "Security",
-      "AI Agent"
-    ],
-    "link": "https://github.com/IkanRiddle/ai-takeover-starts-with-fonts",
-    "date": "2026-04-04",
-    "id": "17752957110042"
-  },
-  {
-    "title": "Onde Inference 推出 Swift SDK，支持 Rust 生成的 AI 推理引擎",
-    "summary": "新的 Swift 包允许开发者在 iOS 端部署由 Rust crate 生成的 AI 推理引擎。",
-    "detail": "该项目发布了 Onde Inference Swift SDK，这是一个从 Rust crate 生成的 Swift 包。它旨在简化 AI 推理引擎在 Swift 环境中的集成，特别是针对 iOS 开发场景。通过 Rust 与 Swift 的互操作性，开发者可以更高效地在移动端部署高性能 AI 模型，丰富了端侧 AI 开发的工具链。此举降低了高性能推理引擎在苹果生态中的接入门槛，有助于推动复杂模型在移动设备上的本地运行。随着端侧算力提升，此类跨语言工具链将成为连接底层高性能计算与上层应用开发的关键桥梁，促进移动端 AI 应用的性能优化与快速迭代。",
-    "tags": [
-      "Dev",
-      "Mobile",
-      "Inference"
-    ],
-    "link": "https://github.com/ondeinference/onde-swift",
-    "date": "2026-04-04",
-    "id": "17752957110043"
-  },
-  {
-    "title": "Show HN: Autonet 本地 AI 助理集成 Google 日历与任务",
-    "summary": "本地运行的 AI 助理，直接通过 API 管理 Google 日历，数据不存储于服务器。",
-    "detail": "Autonet 是一款本地运行的 AI 助理工具，主打隐私保护。它直接通过 Google API 访问用户的日历和任务数据，不在 Autonet 服务器上存储任何用户信息。用户可以利用 AI 代理查看、创建和组织事件。这反映了用户对本地化 AI 助手的需求增长，以及对云端数据隐私的担忧。通过“本地处理 + 云端接口”的架构，它在保持便利性的同时最大程度减少了数据暴露面。这种模式可能成为未来个人 AI 助理的标准范式，平衡了功能强大性与用户隐私安全之间的矛盾，为敏感数据处理的 AI 应用提供了可参考的架构设计思路。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Local AI"
-    ],
-    "link": "https://autonet.computer",
-    "date": "2026-04-04",
-    "id": "17752957110044"
   }
 ]
