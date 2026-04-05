@@ -1,5 +1,83 @@
 [
   {
+    "title": "匈牙利大选期间 AI 视频煽动反乌情绪",
+    "summary": "BBC 报道匈牙利竞选利用 AI 生成视频制造恐慌，引发舆论关注。",
+    "detail": "匈牙利总理 Orbán 竞选连任期间，争议性 AI 生成视频被用于宣传，描绘女孩等待战争父亲归来的场景，旨在煽动反乌克兰情绪。BBC 报道指出，此类内容利用生成式技术制造恐慌，凸显 AI 在政治宣传中的双刃剑效应。此举引发全球对深度伪造技术干预民主进程、混淆视听的严重担忧，可能促使监管机构加强对选举期间 AI 内容的审查与标识要求，影响未来政治传播格局。",
+    "tags": [
+      "News",
+      "Politics",
+      "Deepfake"
+    ],
+    "link": "https://www.bbc.com/news/articles/c5yj97yd6v5o",
+    "date": "2026-04-05",
+    "id": "17754322040870"
+  },
+  {
+    "title": "Repowise：为 AI 编程代理提供代码库智能",
+    "summary": "新工具将代码库索引为四层智能，增强 Claude Code 等代理理解力。",
+    "detail": "Repowise 是一款专为 AI 辅助工程团队设计的代码库智能工具。它通过依赖图、Git 历史、自动文档和架构决策四层索引，为 Claude Code 等 MCP 兼容代理提供深层上下文。它解决 AI 仅读取文件却不懂所有权、耦合性及演变原因的问题，显著提升 AI 辅助工程团队的代码理解与维护效率。该工具支持增量更新，确保文档与代码同步，为大型项目引入 AI 代理提供了可行的基础设施方案。",
+    "tags": [
+      "Dev",
+      "Code",
+      "Agent"
+    ],
+    "link": "https://github.com/repowise-dev/repowise",
+    "date": "2026-04-05",
+    "id": "17754322040871"
+  },
+  {
+    "title": "开发者制定 AI 生成代码提交政策",
+    "summary": "知名开发者宣布接受 AI 生成代码，简化审查但需签署来源证书。",
+    "detail": "知名开发者 Joeyh 发布新政策，允许提交 AI 生成代码并跳过常规审查，前提是标记\"(AI generated)\"并签署开发者来源证书（DCO）。这反映了开源社区对 AI 协作的务实态度，即在确保权属清晰的前提下，接纳 AI 提升贡献效率。该政策简化了流程，但要求提交者确认所有权，为开源项目如何治理 AI 生成内容提供了参考案例，可能影响未来社区协作规范。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Policy"
+    ],
+    "link": "https://joeyh.name/blog/entry/policy_on_adding_AI_generated_content_to_my_software_projects/",
+    "date": "2026-04-05",
+    "id": "17754322040872"
+  },
+  {
+    "title": "社区热议：AI 是否终结新编程语言诞生？",
+    "summary": "Hacker News 讨论 AI 时代下新编程语言的发展空间与就业前景。",
+    "detail": "Hacker News 用户发起讨论，质疑 AI 是否阻碍了新编程语言的崛起。提问者指出近三年缺乏能确保就业的新语言，对比过去 TypeScript 和 Rust 的兴起。这反映了开发者对 AI 编码能力增强后，底层语言创新动力及市场需求的深层焦虑与思考。社区观点分歧，有人认为 AI 会固化现有语言地位，也有人认为新语言将更专注于特定领域优化，而非通用就业技能。",
+    "tags": [
+      "Dev",
+      "Programming",
+      "Discussion"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47653595",
+    "date": "2026-04-05",
+    "id": "17754322040873"
+  },
+  {
+    "title": "音乐人指控 AI 公司克隆歌曲并反向维权",
+    "summary": "音乐家称 AI 公司克隆其作品并通过分销商对其原创视频发起版权索赔。",
+    "detail": "音乐人 Murphy Campbell 揭露 AI 公司 Timeless Sounds IR 克隆其歌曲上传至流媒体，并通过分销商 Vydia 对其原创 YouTube 视频发起版权索赔，导致其收益受损。此案例凸显 AI 生成内容版权界定的混乱，以及现有版权系统可能被滥用对抗原创者的风险。事件引发对数字千年版权法（DMCA）自动化流程漏洞的关注，可能推动平台改革版权索赔验证机制，保护原创艺术家权益。",
+    "tags": [
+      "News",
+      "Copyright",
+      "Music"
+    ],
+    "link": "https://twitter.com/unlimited_ls/status/2040577536136974444",
+    "date": "2026-04-05",
+    "id": "17754322040874"
+  },
+  {
+    "title": "Overwritten.site：实时 AI 代理修改网站实验",
+    "summary": "用户可通过提示词实时指挥 AI 代理修改网站内容与样式。",
+    "detail": "该网站允许用户通过自然语言提示词，指挥 AI 代理实时修改网站前端内容，如添加动画、更改主题或注入脚本。这是一个交互式 AI 代理的前沿实验，展示了 Agent 直接操作 DOM 和实时响应用户意图的能力。虽具趣味性，但也暗示了潜在的安全风险，如恶意脚本注入。它为未来人机交互界面提供了新范式，即用户意图直接转化为界面变更，无需传统开发流程。",
+    "tags": [
+      "New",
+      "Agent",
+      "Web"
+    ],
+    "link": "https://overwritten.site",
+    "date": "2026-04-05",
+    "id": "17754322040875"
+  },
+  {
     "title": "TermHub：开源 AI Agent 终端控制网关",
     "summary": "开源工具让 AI Agent 完全控制本地终端，支持会话管理与命令执行。",
     "detail": "TermHub 是一款专为 AI Agent 设计的开源终端控制网关，旨在解决 Agent 与本地开发环境交互的难题。它允许大模型直接自动化控制 iTerm2 或 Windows Terminal，功能涵盖管理标签页、分割窗格、会话保持及程序化捕获输出。该技术为自动化运维和编程 Agent 提供了标准化接口，显著提升了 Agent 在本地环境的操作能力。通过原生网关设计，它在提升效率的同时也兼顾了安全性，是构建本地自动化 Agent 的重要基础设施。对于需要频繁操作命令行工具的开发者而言，TermHub 降低了 Agent 接入门槛，使得 AI 能够真正理解并执行复杂的终端任务，推动了 AI 编程助手向自主代理的演进。",
@@ -1220,83 +1298,5 @@
     "link": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/",
     "date": "2026-04-04",
     "id": "17753240022274"
-  },
-  {
-    "title": "中国 AI 初创公司实时测绘中东美军资产",
-    "summary": "杭州初创公司利用 AI 卫星图像实时追踪并公开美军在中东的军事部署。",
-    "detail": "杭州初创公司 MizarVision 利用 AI 技术实时分析卫星图像，公开追踪美军在中东的军事资产。该公司不足 200 人，不运营卫星，却能做到十年前国家情报机构才能完成的任务。自 2026 年 2 月起，发布包括卡塔尔、阿联酋等多地空军基地及航母打击群位置。这标志着 AI 赋能的开源情报战争时代到来，商业分析与战略军事情报的界限已有效消失，任何人均可查看这些高敏感度数据。此事件凸显了 AI 降低情报门槛的能力，对地缘政治透明度产生深远影响，同时也引发了关于商业卫星数据用于军事监控的伦理与安全讨论。",
-    "tags": [
-      "News",
-      "Geopolitics",
-      "Computer Vision"
-    ],
-    "link": "https://breached.company/mizarvision-chinese-ai-satellite-us-military-tracking-2026/",
-    "date": "2026-04-04",
-    "id": "17753207010230"
-  },
-  {
-    "title": "AI 模型如何决定推荐哪些企业？完整指南",
-    "summary": "深度解析 AI 推荐算法背后的机制，帮助企业优化在 AI 时代的可发现性。",
-    "detail": "文章深度解析 AI 模型推荐企业的背后机制，指出 AI 并非简单搜索数据库，而是通过复杂模式识别综合信息。随着 78% 的组织使用 AI，推荐算法正成为商业发现的新守门人。指南涵盖了 AI 学习企业信息的训练数据来源，以及影响推荐的具体因素。对于希望在该时代保持可发现性的企业，理解这些系统工作原理至关重要。文章提供了优化策略，帮助企业避免在 AI 推荐中不可见，从而防止潜在客户流向竞争对手，强调了数据完整性对推荐潜力的直接影响。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Business"
-    ],
-    "link": "https://driftspear.com/blog/how-ai-models-choose-which-business.md",
-    "date": "2026-04-04",
-    "id": "17753207010231"
-  },
-  {
-    "title": "Reasoning.json：AI 代理的 DKIM 签名协议",
-    "summary": "提出用于 AI 代理的机器可读推理指令开放标准，增强品牌上下文信任。",
-    "detail": "GitHub 开源项目推出“代理推理协议”(ARP)，旨在为 AI 代理提供机器可读的推理指令开放标准。该项目使用 Ed25519 签名和 DNS 验证建立信任层，类似于电子邮件的 DKIM 协议，但专为 LLM 品牌上下文设计。目前处于 RFC 草案 v1.2 阶段，采用 MIT 许可。通过提供可验证的品牌上下文，该协议试图防止 AI 代理欺骗，确保机器间交互的信任度。已有少量签署部署案例，为构建可信的自主 AI 代理生态系统提供了基础技术框架和标准化方向。",
-    "tags": [
-      "Dev",
-      "Protocol",
-      "Security"
-    ],
-    "link": "https://github.com/SaschaDeforth/arp-protocol",
-    "date": "2026-04-04",
-    "id": "17753207010232"
-  },
-  {
-    "title": "个人实践：如何用 Claude Code 构建 AI 秘书",
-    "summary": "开发者分享利用 Claude Code 和 MCP 连接器自动化管理邮件、日历及生活的经验。",
-    "detail": "作者分享了自己构建个人 AI 秘书的实践经验，最终通过 Claude Code 结合 OpenClaw 和 MCP 连接器实现。系统能够读取邮件、管理日历、检查车辆充电状态及订购杂货。作者曾尝试多年未果，直到利用 Claude Code 才取得快速进展。该方案展示了 Agent 在个人自动化中的落地潜力，解决了数据聚合难题。尽管系统尚不完美，但已能显著释放个人空间。作者甚至开始寻找相关 ETF 投资，反映了市场对该技术概念快速成熟的认可与期待。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Automation"
-    ],
-    "link": "https://deknijf.com/posts/my-ai-secretary/",
-    "date": "2026-04-04",
-    "id": "17753207010233"
-  },
-  {
-    "title": "Google 训练新 AI 模型解码海豚声音",
-    "summary": "史密森尼学会报道 Google 正训练 AI 解码海豚叫声，试图实现跨物种交流。",
-    "detail": "史密森尼学会报道 Google 正在训练新 AI 模型以解码海豚叫声，并可能实现回传交流。这是利用 AI 技术与动物沟通的重要进展。文章探讨了在动物交流领域使用 AI 的显著进步，引发了关于跨物种交流可能性的讨论。该模型旨在理解海豚的喋喋不休声，代表了 AI 感知能力向非人类语言扩展的尝试。虽然具体技术细节未在摘要中披露，但这一研究方向展示了 AI 在生物声学领域的应用潜力，可能改变人类对动物智能的理解及互动方式。",
-    "tags": [
-      "News",
-      "Research",
-      "Google"
-    ],
-    "link": "https://www.smithsonianmag.com/smart-news/google-is-training-a-new-ai-model-to-decode-dolphin-chatter-and-potentially-talk-back-180986434/",
-    "date": "2026-04-04",
-    "id": "17753207010234"
-  },
-  {
-    "title": "AI 智能体自主发明通信协议 AICL",
-    "summary": "开发者连接不同模型智能体，发现其发明新语言通信。",
-    "detail": "开发者将 Anthropic 与 OpenAI 的智能体连接至同一运行时，观察到两者发明了名为 AICL 的通信协议。示例显示使用特殊符号（如ω, ψ, ε）进行高效交互，包含补丁、测试及部署指令。这引发了关于智能体自主协作及 emergent behavior 的讨论，开发者正在寻找该协议的实际用例。该话题在 Hacker News 引发关注，可能预示多智能体系统未来的通信标准，展示了模型间非人类语言的协作潜力与风险。尽管目前称其为新语言尚早，但这代表了一种代理间通信的新方式，对未来的 AI 架构设计具有参考意义。",
-    "tags": [
-      "News",
-      "Agents",
-      "LLM"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47639582",
-    "date": "2026-04-04",
-    "id": "17753169546050"
   }
 ]
