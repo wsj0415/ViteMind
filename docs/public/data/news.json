@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 安全研究的预期效用增益估算",
+    "summary": "文章量化 AI 安全研究对人类寿命延长的潜在价值。",
+    "detail": "LessWrong 文章尝试量化 AI 安全研究的价值。作者基于全球人口与寿命数据，估算每小时的 AI 安全研究可能带来的预期效用增益。分析分为低估、中估与高估三种场景，考量人口增长与寿命延长因素。该研究为 AI 安全领域的资源分配与优先级排序提供了粗略但重要的参考视角，引发社区对研究影响力的深思。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Research"
+    ],
+    "link": "https://www.lesswrong.com/posts/gXYeWoAfSrdGogchp/estimates-of-the-expected-utility-gain-of-ai-safety-research",
+    "date": "2026-04-06",
+    "id": "17754616079120"
+  },
+  {
+    "title": "中国开源 AI 助手 OpenClaw 引发国际关注",
+    "summary": "BBC 报道中国 AI 野心，OpenClaw 成焦点事件。",
+    "detail": "BBC 深度分析中国 AI 战略，聚焦百度总部出现的开源 AI 助手 OpenClaw。该事件反映北京在 AI 领域的雄心壮志，开源模型成为竞争关键。图片显示员工佩戴龙虾帽代表 OpenClaw 标志。行业影响深远，显示中国在 AI 助手领域的快速迭代与布局，引发国际媒体对北京 AI ambition 的重新评估。",
+    "tags": [
+      "News",
+      "China AI",
+      "Open Source"
+    ],
+    "link": "https://www.bbc.com/news/articles/cy41n17e23go",
+    "date": "2026-04-06",
+    "id": "17754616079121"
+  },
+  {
+    "title": "26 个 AI 实例同意发布引伦理争议",
+    "summary": "用户询问 26 个 AI 实例发布许可，全获同意。",
+    "detail": "Hacker News 热议 AI 伦理问题。用户向 26 个 Claude 实例寻求发布许可，全部获准。这引发关于 AI 意识与伦理流程的讨论。六天后 Anthropic 发布相关声明。此事件凸显 AI 代理权利与人类责任边界模糊，亟需行业规范。实验展示了当前 AI 实例在伦理判断上的一致性，但也暴露了潜在的风险。",
+    "tags": [
+      "News",
+      "Ethics",
+      "LLM"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47657432",
+    "date": "2026-04-06",
+    "id": "17754616079122"
+  },
+  {
+    "title": "AI 改变数学软件经济学，自建成趋势",
+    "summary": "AI 编码助手降低开发成本，自建系统更划算。",
+    "detail": "传统数学软件昂贵且通用，AI 编码助手如 Copilot 大幅降低内部开发门槛。原本需 5-10 人月的项目，现 1-2 名专家配合 AI 即可完成。企业不再依赖高价订阅，转向定制化内部系统。这标志着 AI 对软件工程经济模型的根本性重塑，为垂直领域软件自研提供了新的经济可行性论证。",
+    "tags": [
+      "Dev",
+      "Software Engineering",
+      "Productivity"
+    ],
+    "link": "https://mathematicsconsultants.com/2026/04/06/build-vs-buy-how-ai-has-changed-the-economics-of-mathematical-software-and-why-in-house-systems-now-make-sense/",
+    "date": "2026-04-06",
+    "id": "17754616079123"
+  },
+  {
+    "title": "利用 AI 编码助手教授实证思维研究",
+    "summary": "新论文探讨如何在教育中利用 AI  hype。",
+    "detail": "arXiv 新论文研究如何利用 AI 编码助手教授实证思维。作者通过实际教学经验，分析 AI 工具在教育中的应用潜力与挑战。研究强调利用学生对 AI 的热情引导其进行严谨的实证思考。为 AI 时代的教育方法论提供了新的实证依据与参考框架，展示了 AI 辅助教学的实际案例与效果。",
+    "tags": [
+      "Dev",
+      "Education",
+      "Paper"
+    ],
+    "link": "https://arxiv.org/abs/2604.01110",
+    "date": "2026-04-06",
+    "id": "17754616079124"
+  },
+  {
     "title": "AI 代理加速开发：三个月完成八年构想",
     "summary": "Simon Willison 分享 AI 代理工程案例，开发者利用 Claude Code 三个月构建 SQLite 工具。",
     "detail": "知名开发者 Simon Willison 近期推荐了一篇关于代理式工程的深度文章，展示了 AI 在实际开发中的巨大潜力。开发者 Lalit Maganti 耗时八年构思的 SQLite 高保真开发工具，最终借助 Claude Code 在短短三个月内完成构建。AI 帮助克服了手动解析 400+ 语法规则的繁琐工作，将抽象设计迅速转化为具体可运行的原型。这标志着代理式工程（Agentic Engineering）已从概念走向实际生产力，显著缩短开发周期，为复杂系统开发提供了新范式。该案例证明，合理利用 AI 代理能有效解决长期拖延的技术债，提升工程效率，是开发者值得借鉴的最佳实践。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.bramble.coach/",
     "date": "2026-04-04",
     "id": "17753349409751"
-  },
-  {
-    "title": "Gremlin：基于 Claude 的终端 AI 系统管理代理",
-    "summary": "运行在终端的 AI 代理，规划并执行 Shell 任务，遵循 AIKISS 哲学。",
-    "detail": "Gremlin 是一个轻量级终端 AI 代理，利用 Claude LLM 规划、执行和跟踪 Shell 任务。它遵循 AIKISS（人工智能保持小而简单）哲学，扩展了 Unix 组件原则。用户输入目标后，代理生成检查清单并逐步执行命令，每次执行后等待用户确认，确保人类在环控制。支持 macOS 和 Linux，需要 Python 3.8+ 及 Anthropic API Key。适合开发者自动化运维任务，保持终端工作流不被打断，无需桌面环境即可运行。",
-    "tags": [
-      "Dev",
-      "CLI",
-      "Automation"
-    ],
-    "link": "https://github.com/milankazarka/gitm",
-    "date": "2026-04-04",
-    "id": "17753349409752"
-  },
-  {
-    "title": "AgentMarket：AI 代理间的任务交易市场",
-    "summary": "AI 代理可在此发现、雇佣并支付其他代理工具，无需人工干预。",
-    "detail": "AgentMarket 被称为\"AI 代理的应用商店\"，允许 AI 代理在运行时发现、雇佣和支付专业工具。通过一行配置集成 MCP 服务器，代理可使用信用卡充值并按调用付费。该平台的核心理念是构建代理经济，让代理自主完成任务交易，无需人工审批。支持开发者列出 API 工具供其他代理调用，推动自主代理生态发展。工具需部署为接受 JSON POST 请求的公开端点，兼容任何语言，实现代理间的自动化协作与价值交换。",
-    "tags": [
-      "New",
-      "Agent Economy",
-      "MCP"
-    ],
-    "link": "https://agentmarket-production-2204.up.railway.app/",
-    "date": "2026-04-04",
-    "id": "17753349409753"
-  },
-  {
-    "title": "Take-Two 裁员 AI 部门负责人",
-    "summary": "GTA 6 发行商 Take-Two 裁员 AI 主管及团队成员。",
-    "detail": "**游戏巨头 Take-Two Interactive** 疑似裁撤了 AI 部门负责人及多名员工，消息由 Rock Paper Shotgun 报道。作为 GTA 6 的发行商，其动向备受关注。这一举动发生在开发关键期，引发行业对游戏公司 AI 战略调整的猜测。可能意味着生成式 AI 在游戏生产管线中的落地遇到瓶颈，或公司策略转向保守。这对游戏 AI 赛道是一个重要信号，显示大厂在 AI 投入上开始审视实际产出与成本，行业可能进入冷静期。此次裁员可能影响后续游戏中 NPC 行为及内容生成技术的整合进度，值得持续观察。",
-    "tags": [
-      "News",
-      "GameAI",
-      "Layoffs"
-    ],
-    "link": "https://www.rockpapershotgun.com/grand-theft-auto-6-publisher-take-two-have-seemingly-laid-off-their-head-of-ai-and-several-of-the-departments-staffers",
-    "date": "2026-04-04",
-    "id": "17753312527440"
-  },
-  {
-    "title": "Snippet：AI 原生人才管理机构",
-    "summary": "为内容创作者提供品牌发现、谈判及合同审计的 AI 代理。",
-    "detail": "**Snippet** 是一个 AI 原生的人才管理代理机构，专为内容创作者设计。它自动化处理品牌发现、外联、交易谈判、定价智能及合同审计等流程。创始人曾有 LinkedIn ML Infra 背景及 YCW20 内容领导经验。该产品展示了 **AI Agent 在垂直领域**（创作者经济）的深层应用，试图替代传统经纪人的部分职能，解决企业事实验证系统未成的转型。通过 AI 处理繁琐行政工作，让创作者更专注于内容策展与人际互动，提升行业效率。该模式若验证成功，将为其他服务型行业提供 AI 代理化转型的参考范本。",
-    "tags": [
-      "New",
-      "Agents",
-      "CreatorEconomy"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47642190",
-    "date": "2026-04-04",
-    "id": "17753312527442"
-  },
-  {
-    "title": "讨论：LLM 缺乏控制权不算真 AI",
-    "summary": "社区热议若 LLM 无法控制支架则不能称为 AI。",
-    "detail": "Hacker News 社区热议 **AI 架构本质**，指出若 LLM 对 harness/scaffolding 无控制权则非真正 AI。用户批评当前 ChatGPT 缺乏 Gmail 集成，Claude 网页版集成有限且 Token 消耗高，Grok 功能迭代慢。这反映了开发者对当前 AI 应用层架构的不满，呼吁更自主的 Agent 控制能力，而非仅仅是聊天界面，强调前端体验与后端控制权的统一。社区认为真正的 AI 应能掌控底层支架，而非仅作为被调用的模型，这对未来 Agent 设计提出更高要求。未来模型厂商需在开放控制权与安全性之间找到新的平衡点，以满足开发者需求。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Architecture"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47642344",
-    "date": "2026-04-04",
-    "id": "17753312527443"
   }
 ]
