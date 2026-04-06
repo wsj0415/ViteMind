@@ -1,5 +1,44 @@
 [
   {
+    "title": "AI 代理加速开发：三个月完成八年构想",
+    "summary": "Simon Willison 分享 AI 代理工程案例，开发者利用 Claude Code 三个月构建 SQLite 工具。",
+    "detail": "知名开发者 Simon Willison 近期推荐了一篇关于代理式工程的深度文章，展示了 AI 在实际开发中的巨大潜力。开发者 Lalit Maganti 耗时八年构思的 SQLite 高保真开发工具，最终借助 Claude Code 在短短三个月内完成构建。AI 帮助克服了手动解析 400+ 语法规则的繁琐工作，将抽象设计迅速转化为具体可运行的原型。这标志着代理式工程（Agentic Engineering）已从概念走向实际生产力，显著缩短开发周期，为复杂系统开发提供了新范式。该案例证明，合理利用 AI 代理能有效解决长期拖延的技术债，提升工程效率，是开发者值得借鉴的最佳实践。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "SQLite"
+    ],
+    "link": "https://simonwillison.net/2026/Apr/5/building-with-ai/",
+    "date": "2026-04-06",
+    "id": "17754532601010"
+  },
+  {
+    "title": "基于 ARMv9-A 的 AI 硬件隔离方案问世",
+    "summary": "GitHub 新项目展示如何通过 ARMv9-A RME 实现硬件级 AI 隔离，提升安全性。",
+    "detail": "名为\"Guardian Angel Protocol\"的 GitHub 项目探讨了利用 ARMv9-A 架构的 Realm Management Extension (RME) 进行 AI guest 隔离。该方案通过硬件强制约束（Hardware-enforced confinement）减少信任计算基（TCB），将 AI 对齐从概率启发式转向架构确定性。这对于解决 AI 模型安全性、防止恶意行为及确保系统稳定性具有重要的技术参考价值。随着端侧 AI 应用普及，硬件级安全隔离成为刚需，此项目为构建可信 AI 执行环境提供了新思路，是系统安全与 AI 结合的前沿探索，有望提升边缘计算设备的安全性。",
+    "tags": [
+      "Dev",
+      "Security",
+      "ARM"
+    ],
+    "link": "https://github.com/Lex-Col/Guardian-Angel-Protocol",
+    "date": "2026-04-06",
+    "id": "17754532601012"
+  },
+  {
+    "title": "开发者警示：勿直接将 AI 生成代码提交至 Git",
+    "summary": "技术博客建议开发者审查 AI 生成代码，避免直接推送至版本控制系统，确保质量。",
+    "detail": "一篇技术文章强烈建议开发者不要直接将 AI 生成的代码推送到 Git 仓库。文章指出，尽管 AI 能显著提高编码速度，但未经严格审查的代码可能隐藏安全漏洞、逻辑错误或长期维护性问题。最佳实践是将 AI 视为高效助手而非完全替代者，所有生成代码必须经过人工测试与代码审查。这一观点强调了在 AI 辅助开发流程中保持人类监督的重要性，以保障软件工程的长期健康。随着 AI coding 普及，建立规范的代码审查流程至关重要，避免技术债累积，确保系统稳定性与安全性，防止潜在风险流入生产环境。",
+    "tags": [
+      "Dev",
+      "Best Practices",
+      "Git"
+    ],
+    "link": "https://blog.tombert.com/Posts/Technical/2026/04-April/Stop-Pushing-AI-Generated-Code-to-Git",
+    "date": "2026-04-06",
+    "id": "17754532601014"
+  },
+  {
     "title": "华盛顿州新规：AI 图像需标注且限制聊天机器人",
     "summary": "华盛顿州签署新法，要求 AI 生成内容披露水印。",
     "detail": "华盛顿州州长签署新法案，旨在监管人工智能。HB 1170 要求大型 AI 公司在商业和技术合理范围内，对使用其系统生成或编辑的图像、视频或音频进行标识（如水印）。此外，法案还设定了陪伴型聊天机器人的护栏，并要求公司提供检测工具。这反映了政策制定者对 AI 快速扩张的回应，为行业合规设立新标杆。",
@@ -63,6 +102,19 @@
     "link": "https://stickerdaze.com/",
     "date": "2026-04-06",
     "id": "17754430958154"
+  },
+  {
+    "title": "专家探讨 AI 重写汇编代码的能力边界",
+    "summary": "性能专家 Daniel Lemire 发文分析 AI 是否能将代码重写为汇编，探讨性能优化极限。",
+    "detail": "软件性能专家 Daniel Lemire 在其博客中深入探讨了当前 AI 模型重写代码为汇编语言的能力边界。作为全球顶尖的软件性能科学家，他质疑 AI 在底层性能优化方面的实际效果与可靠性。该文章触及了 AI 辅助编程的核心痛点：虽然 AI 擅长高级逻辑生成，但在需要极致性能优化的底层汇编层面，其专业性仍面临挑战。这对开发者理解 AI 代码生成的局限性具有指导意义，提醒我们在追求开发效率的同时，不应忽视底层性能与代码质量的专业把控，避免盲目依赖 AI 进行关键优化。",
+    "tags": [
+      "Dev",
+      "Performance",
+      "Assembly"
+    ],
+    "link": "https://lemire.me/blog/2026/04/05/can-your-ai-rewrite-your-code-in-assembly/",
+    "date": "2026-04-05",
+    "id": "17754532601013"
   },
   {
     "title": "匈牙利大选期间 AI 视频煽动反乌情绪",
@@ -962,6 +1014,19 @@
     "id": "17753567596584"
   },
   {
+    "title": "Block 构建去中心化 AI 计算网络 Mesh-LLM",
+    "summary": "Block 公司推出 Mesh-LLM 项目，旨在建立去中心化 AI 计算网络，改变算力供应模式。",
+    "detail": "Block（前 Square）正在推进名为 Mesh-LLM 的项目，致力于构建去中心化的 AI 计算网络。此举意在解决当前集中式算力短缺及成本高昂的问题，通过分布式架构提供更灵活、低成本的 AI 训练与推理支持。该新闻揭示了传统金融科技巨头向 AI 基础设施领域的战略转型，可能对未来 AI 算力市场的格局产生重大影响。去中心化计算网络若能成功落地，将显著降低 AI 开发门槛，增强数据隐私保护，值得关注其技术架构与生态合作进展，这或许是下一代 AI 基础设施的重要发展方向。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Decentralized"
+    ],
+    "link": "https://www.gizmoweek.com/block-mesh-llm/",
+    "date": "2026-04-04",
+    "id": "17754532601011"
+  },
+  {
     "title": "为 Claude Code 构建 AI 图像生成技能",
     "summary": "开发者教程：如何在 Claude Code 中集成图像生成工作流。",
     "detail": "文章详细介绍了如何为 Claude Code 构建自定义技能，实现从终端直接生成项目图像资源。该技能支持透明背景、参考图编辑及批量生成，消除了开发者在代码编辑器与外部 AI 工具间的上下文切换。这是将多模态能力深度集成到开发工作流的优秀实践。传统开发中，设计师与开发者协作常因资产交付流程繁琐而效率低下。通过 CLI 或 Desktop 应用直接调用图像生成模型，开发者可以保持心流状态，快速迭代 UI 资产。该方案展示了 AI 编程助手从代码生成向多模态任务扩展的趋势，为全栈开发者提供了无需离开终端即可完成视觉设计的新型工作流，显著提升了独立开发效率。",
@@ -1233,70 +1298,5 @@
     "link": "https://news.ycombinator.com/item?id=47642344",
     "date": "2026-04-04",
     "id": "17753312527443"
-  },
-  {
-    "title": "微软 Aspire 推出终端文档工具，优化 AI 代理开发",
-    "summary": "Aspire 13.2 新增 CLI 文档命令，支持 AI 代理直接读取官方文档，减少幻觉。",
-    "detail": "微软 Aspire 13.2 版本发布 `aspire docs` CLI 工具，允许开发者在终端直接浏览官方文档。核心技术在于将文档源暴露给 AI 代理，使其能准确查询 API 参数而非依赖训练数据猜测。此前 AI 代理常因训练数据过时产生幻觉，推荐错误命令。此举显著降低了 AI 辅助开发中的幻觉问题，提升了 .NET 及多语言应用开发的准确性与效率，为 AI Native 开发流程提供了基础设施支持，标志着开发工具链与 AI 代理的深度集成。",
-    "tags": [
-      "Dev",
-      "Microsoft",
-      "CLI"
-    ],
-    "link": "https://devblogs.microsoft.com/aspire/aspire-docs-in-your-terminal/",
-    "date": "2026-04-04",
-    "id": "17753283330460"
-  },
-  {
-    "title": "AIsbf 0.9.8 发布：统一多 AI 提供商的代理框架",
-    "summary": "开源代理服务器，支持多模型路由、负载均衡及统一 API 接口，含管理面板。",
-    "detail": "AIsbf (AI Should Be Free) 发布 0.9.8 版本，这是一个模块化的 AI 服务代理框架。核心功能包括统一多家 AI 提供商（OpenAI, Google, Anthropic 等）的 API 接口，支持智能路由、负载均衡及自动模型选择。新增 Web 仪表盘可实时监控 Token 使用、成本及速率限制，支持多用户隔离配置。该工具降低了企业集成多模型的复杂度，优化了 AI 服务调用的成本与稳定性，适合需要高可用 AI  infra 的开发团队，是构建私有 AI 网关的优秀选择。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Infrastructure"
-    ],
-    "link": "https://pypi.org/project/aisbf/",
-    "date": "2026-04-04",
-    "id": "17753283330461"
-  },
-  {
-    "title": "Kaggle 上线 3.7 万个 AI 生成播客数据集",
-    "summary": "Listen Notes 发布大规模 AI 生成虚假播客数据，主要用于 NotebookLM 生成内容研究。",
-    "detail": "Kaggle 平台新增由 Listen Notes 提供的数据集，包含 37,000 个 AI 生成的播客文件，大多通过 NotebookLM 生成。该数据集标记为“虚假播客”，旨在帮助研究人员识别和分析 AI 生成音频内容的特征。这对于开发音频防伪技术、训练多模态检测模型以及研究生成式 AI 在媒体领域的传播影响具有重要价值。随着 AI 生成内容泛滥，此类数据集是音频 AI 安全研究的重要资源，有助于构建更健康的媒体生态。",
-    "tags": [
-      "News",
-      "Dataset",
-      "Audio"
-    ],
-    "link": "https://www.kaggle.com/datasets/listennotes/ai-generated-fake-podcasts-spams",
-    "date": "2026-04-04",
-    "id": "17753283330462"
-  },
-  {
-    "title": "行业观察：AI 原生与传统开发者的差距正在扩大",
-    "summary": "专家指出 AI 原生能力已成为分水岭，单纯提示词技巧已不足以弥补差距。",
-    "detail": "最新行业文章《The Fork》指出，AI 原生开发者与传统开发者之间的差距正在显著 widening。一年前差距仅在于工具使用，现在则涉及深层的工作流整合与思维模式。文章强调，仅掌握提示词技巧已无法跟上节奏，真正的分水岭在于如何将 AI 深度融入生产流程。这一趋势警示企业需重新评估人才技能树，加速向 AI Native 工作模式转型，否则将面临效率落后的风险，行业分化加剧。",
-    "tags": [
-      "News",
-      "Industry",
-      "Trend"
-    ],
-    "link": "https://www.howardgray.net/the-fork/",
-    "date": "2026-04-04",
-    "id": "17753283330463"
-  },
-  {
-    "title": "Show HN: Hypedar – 开发者 AI 趋势雷达",
-    "summary": "新工具帮助开发者发现尚未被构建的 AI 趋势，聚合热门技术动态。",
-    "detail": "Hypedar 是一个面向开发者的 AI 趋势雷达工具，旨在展示“尚未被构建”的热门 AI 方向。它聚合了社区内的技术动态与潜在机会，帮助开发者避开红海竞争。核心功能包括趋势监控与需求分析，数据源自开发者社区反馈。对于独立开发者和初创团队而言，该工具提供了市场洞察，有助于在快速变化的 AI 生态中找到差异化切入点，减少盲目开发带来的资源浪费，提升产品成功率。",
-    "tags": [
-      "New",
-      "Tool",
-      "Market"
-    ],
-    "link": "https://hypedar.dev/",
-    "date": "2026-04-04",
-    "id": "17753283330464"
   }
 ]
