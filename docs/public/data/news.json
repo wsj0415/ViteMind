@@ -1,5 +1,57 @@
 [
   {
+    "title": "LangSmith Fleet 集成 Arcade.dev，解锁 7500+ 代理工具",
+    "summary": "LangChain 宣布与 Arcade 合作，通过单一安全网关为代理提供 7500+ 优化工具。",
+    "detail": "LangChain 宣布与 Arcade.dev 达成合作伙伴关系，将 Arcade 的工具库集成至 LangSmith Fleet。Arcade 作为生产级代理的 MCP 运行时，提供安全的代理授权、可靠的工具及治理功能。此次集成允许开发者通过单一安全网关访问超过 7500 个针对代理优化的工具，简化了代理连接外部服务时的认证流和 API 维护成本。这对于构建能够跨 Salesforce、Notion 等多工具自主工作的企业级代理具有重要意义，标志着代理工具管理向集中化网关模式迈进，提升了大规模代理部署的安全性与效率。",
+    "tags": [
+      "Dev",
+      "LangChain",
+      "Agent"
+    ],
+    "link": "https://blog.langchain.com/arcade-dev-tools-now-in-langsmith-fleet/",
+    "date": "2026-04-07",
+    "id": "17755747060080"
+  },
+  {
+    "title": "Vercel 教程：使用 Chat SDK 和 AI SDK 构建 Slack AI 代理",
+    "summary": "详解如何利用 Vercel 套件构建具备工具调用能力的生产级 Slack 机器人。",
+    "detail": "Vercel 发布指南，展示如何结合 Chat SDK 和 AI SDK 构建 Slack AI 代理。Chat SDK 处理平台集成（如 Webhook、消息格式），而 AI SDK 的 `ToolLoopAgent` 管理推理循环，使代理能自主调用工具。方案结合 Vercel AI Gateway 和 Redis 进行状态管理，无需管理基础设施即可实现流式响应、工具调用和多轮对话历史。该教程为开发者提供了构建生产级 Slack 代理的完整路径，降低了跨平台机器人开发的技术门槛，适合希望快速落地企业通讯场景 AI 应用的团队参考。",
+    "tags": [
+      "Dev",
+      "Vercel",
+      "Tutorial"
+    ],
+    "link": "https://vercel.com/kb/guide/how-to-build-an-ai-agent-for-slack-with-chat-sdk-and-ai-sdk",
+    "date": "2026-04-07",
+    "id": "17755747060081"
+  },
+  {
+    "title": "Output.ai 开源框架：源自 500+ 生产代理的开发最佳实践",
+    "summary": "GrowthX 开源其内部 AI 开发框架，整合提示词、评估、追踪及成本监控。",
+    "detail": "Output.ai 发布了从 500+ 生产级 AI 代理中提取的开源 TypeScript 框架。该框架旨在解决 AI 开发中的常见痛点，如提示词管理、非确定性代码测试、成本追踪及安全执行。它支持将提示词、追踪和配置直接存放在代码库中，实现版本控制，并完美适配 Claude Code 等编码代理。作为 Apache 2.0 开源项目，Output 为团队提供了一套基础设施级的解决方案，避免了对多个 SaaS 订阅的依赖，提升了 AI 功能开发的速度与规范性，特别适合追求工程化落地的开发团队。",
+    "tags": [
+      "New",
+      "OpenSource",
+      "Framework"
+    ],
+    "link": "https://output.ai/",
+    "date": "2026-04-07",
+    "id": "17755747060082"
+  },
+  {
+    "title": "Homebutler：无需 Shell 权限的 AI 家庭实验室管理工具",
+    "summary": "单二进制文件工具，允许通过聊天管理 homelab，零依赖且安全。",
+    "detail": "Homebutler 是一款开源工具，允许用户通过任何 AI（如 Claude、ChatGPT）或终端聊天管理家庭实验室（homelab），而无需授予 AI 直接的 Shell 访问权限。该工具采用单二进制文件分发，零依赖，基于 Go 语言构建。它作为 MCP 服务器运行，确保了操作的安全性，同时提供了便捷的实验室管理能力。对于喜欢自建服务但关注安全边界的技术爱好者来说，这是一个实用的解决方案，平衡了自动化便利性与系统安全性，体现了本地化 AI 代理管理的最新趋势。",
+    "tags": [
+      "New",
+      "Security",
+      "Homelab"
+    ],
+    "link": "https://github.com/Higangssh/homebutler",
+    "date": "2026-04-07",
+    "id": "17755747060094"
+  },
+  {
     "title": "AI 热潮吸引私人财富投向早期高风险项目",
     "summary": "TechCrunch 报道私人资本正涌入更早期的 AI 风险投资，风险偏好显著增加。",
     "detail": "TechCrunch 最新报道指出，AI 淘金热正促使私人财富流向风险更高、阶段更早的投资项目。随着大模型竞争加剧，资本不再局限于成熟巨头，而是深入早期初创企业。这一趋势反映了市场对 AI 技术落地潜力的强烈信心，同时也暗示了投资泡沫风险的积累。对于行业观察者而言，这意味着未来几年将出现更多激进的技术尝试与并购活动，投资者需警惕潜在的市场波动。",
@@ -1246,57 +1298,5 @@
     "link": "https://momentsgame.com/",
     "date": "2026-04-06",
     "id": "17754765301454"
-  },
-  {
-    "title": "免费 AI 商业名称生成器与域名筛查",
-    "summary": "生成品牌名称并实时检查域名状态，无需注册。",
-    "detail": "NOETRON 推出的商业名称生成工具，旨在快速产出可用名单。用户描述业务和氛围，引擎生成 10 个名称并提供实时 DNS 信号以筛查域名状态。首批结果免费可见，无需注册，邮件仅用于解锁保存功能。适合初创者快速命名，但提示需进一步进行商标检查。",
-    "tags": [
-      "New",
-      "Startup",
-      "Tool"
-    ],
-    "link": "https://noetron.ai/namegen",
-    "date": "2026-04-06",
-    "id": "17754765301455"
-  },
-  {
-    "title": "德州共和党人因分享 AI 生成士兵图受责",
-    "summary": "政客将 AI 渲染图当作真实救援照片分享引发争议。",
-    "detail": "媒体曝光一起伦理事件，德州共和党人被指责分享了由 AI 生成的士兵救援图像，并将其作为真实照片传播。此事引发公众对政治宣传中 AI 生成内容真实性的担忧。凸显了生成式 AI 在新闻和政治传播中的误导风险，以及验证信息来源的重要性。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Policy"
-    ],
-    "link": "https://www.mediaite.com/media/news/texas-republican-called-out-for-sharing-ai-rendering-of-rescued-soldier/",
-    "date": "2026-04-06",
-    "id": "17754765301456"
-  },
-  {
-    "title": "Google DORA 发布 2025 AI 辅助软件开发状态报告",
-    "summary": "Google DORA 调研 5000 名开发者，揭示 AI 是组织能力的放大器。",
-    "detail": "Google 旗下 DORA 团队正式发布 2025 年 AI 辅助软件开发状态报告，基于全球近 5000 名技术专业人员的调查数据与定性分析。核心观点指出 AI 并非万能药，而是组织能力的“放大器”。高绩效团队能利用 AI 进一步提升效率，而流程混乱的组织只会放大现有 dysfunction。报告强调内部平台质量、工作流清晰度及团队对齐比工具本身更重要。若无此基础，AI 仅创造局部生产力，终被下游混乱吞噬。该报告为技术领导者提供了从洞察到行动的战略框架，强调组织系统优化的必要性，而非单纯追求工具采用率。对于希望落地 AI 的企业，这是一份关键的避坑指南。",
-    "tags": [
-      "News",
-      "Industry Report",
-      "Software Dev"
-    ],
-    "link": "https://services.google.com/fh/files/misc/2025_state_of_ai_assisted_software_development.pdf",
-    "date": "2026-04-06",
-    "id": "17754732184530"
-  },
-  {
-    "title": "生产级 RAG 系统架构实施指南与最佳实践",
-    "summary": "n8n 详解生产环境 RAG 架构组件、挑战及延迟优化方案。",
-    "detail": "针对 RAG 在生产环境易出现的延迟高、幻觉及成本失控问题，n8n 发布深度架构指南。文章深入剖析嵌入模型选择、分块索引策略及重排序机制等关键组件。强调简单设置在受控环境外易失效，需权衡向量存储与检索逻辑。为开发者提供从原型到落地的架构设计参考，帮助避免常见陷阱，构建可维护的生产级检索增强生成系统。文中还讨论了 SQL 数据库提取等混合检索场景，旨在解决真实世界中的数据接地问题，降低 API 成本螺旋上升风险，确保用户意图匹配。对于正在构建企业知识库的团队，这是必读的技术实施手册。",
-    "tags": [
-      "Dev",
-      "RAG",
-      "LLM"
-    ],
-    "link": "https://blog.n8n.io/rag-system-architecture/",
-    "date": "2026-04-06",
-    "id": "17754732184531"
   }
 ]
