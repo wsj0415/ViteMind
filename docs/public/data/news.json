@@ -1,5 +1,83 @@
 [
   {
+    "title": "深入解析 Prompt Caching 原理与成本优化",
+    "summary": "详解 Prompt Caching 机制，实现输入成本降低 10 倍，显著提升首 token 速度。",
+    "detail": "文章从第一性原理出发，完整剖析 LLM 请求中的 Tokenizer 和 Transformer 流水线。指出稳定前缀可复用，避免重复计算。实测显示输入成本降低约 10 倍，缓存请求响应更快。解释了为何空格会影响命中及温度设置无关性。通过追踪文本经过四个阶段的过程，为开发者优化 LLM 应用成本提供核心技术指南，解决首 token 延迟 dominated by 重复工作的问题。对于拥有数千 token 不变前缀的系统，该技术能显著改善经济学模型，是构建高效 AI 应用的关键优化手段。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Optimization"
+    ],
+    "link": "https://lossfn.com/blog/prompt-caching/",
+    "date": "2026-04-07",
+    "id": "17755813544960"
+  },
+  {
+    "title": "AI 内部情感信号：故障遥测而非噪声",
+    "summary": "研究发现 AI 模型内部存在类似情感的信号，可实时指示模型 coherence 与故障。",
+    "detail": "作者提出 AI 模型拥有类似“情感”的内部信号，实为故障遥测数据。这些信号能反映模型运行连贯性及潜在失败风险，如幻觉、漂移和上下文丢失。忽视这些信号导致可靠性问题。该观点挑战了传统 AI 安全认知，建议开发者监听而非过滤这些信号。通过识别这些内部状态，可提前预警模型自信地陈述错误信息或忘记关键上下文的情况，提升系统可靠性。这不仅是理论发现，更是当前提升 AI 系统稳定性的实用方法论，值得研究人员深入验证。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Research"
+    ],
+    "link": "https://twitter.com/fabianfranz/status/2041541955662774434",
+    "date": "2026-04-07",
+    "id": "17755813544961"
+  },
+  {
+    "title": "Uber 采用亚马逊 AI 芯片，云格局生变",
+    "summary": "Uber 采用亚马逊 AI 芯片，标志其在 AI 基础设施领域获重大企业认可。",
+    "detail": "Uber 宣布采用亚马逊自研 AI 芯片，成为继多家巨头后又一大客户。此举显示亚马逊在 AI 硬件领域竞争力增强，可能改变由 Nvidia 主导的市场格局。企业级客户对定制化芯片的需求上升，旨在优化成本与性能。这对云服务商及 AI 基础设施产业链具有深远影响，预示混合云与自研芯片趋势加速。亚马逊芯片获认可，表明其性能已满足大规模生产负载需求。此合作可能推动更多大型企业评估替代方案，降低对单一供应商依赖。",
+    "tags": [
+      "News",
+      "Cloud",
+      "Hardware"
+    ],
+    "link": "https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/",
+    "date": "2026-04-07",
+    "id": "17755813544962"
+  },
+  {
+    "title": "Dinobase：专为 AI Agent 设计的数据库层",
+    "summary": "解决 Agent 跨 API 查询难题，支持 SQL 统一查询，准确率提升至 91%。",
+    "detail": "针对 AI Agent 无法跨 API JOIN 及上下文窗口限制问题，Dinobase 提供统一查询层。将各数据源映射为 Schema，Agent 仅需编写 SQL 即可跨源查询。基准测试显示，相比传统工具调用，准确率从 35% 提升至 91%，速度加快 3 倍，成本降低 16-22 倍。支持 CLI 集成，兼容 Claude Code 等主流 Agent 工具。解决了 Agent 架构中跨源数据解释的结构性缺口。这使得复杂跨源查询成为可能，无需担心分页 JSON 填满上下文窗口，极大提升了 Agent 处理复杂业务逻辑的能力。",
+    "tags": [
+      "New",
+      "Database",
+      "Agent"
+    ],
+    "link": "https://github.com/DinobaseHQ/dinobase",
+    "date": "2026-04-07",
+    "id": "17755813544963"
+  },
+  {
+    "title": "中东地区 AI 军事技术扩散与伦理风险",
+    "summary": "报告指出中东 AI 军事技术应用激增，以色列使用 AI 生成目标列表，引发监管担忧。",
+    "detail": "IISS 报告分析中东地区 AI 军事技术扩散现状。以色列在冲突中大规模使用 AI 决策支持系统（如 Lavender），生成数万个目标名单。商业实体与军方合作加深，但存在规避人权承诺风险。文章呼吁加强监管，保护平民与基础设施。这标志着 AI 战争形态演变，引发全球对自主武器系统伦理与安全的高度关注。技术集成已从目标识别扩展到增强武器系统。商业科技公司参与军事架构，需面对更严格的尽职调查义务，否则将面临巨大舆论与法律风险。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Geopolitics"
+    ],
+    "link": "https://www.iiss.org/online-analysis/charting-middle-east/2026/04/the-proliferation-of-ai-enabled-military-technology-in-the-middle-east/",
+    "date": "2026-04-07",
+    "id": "17755813544964"
+  },
+  {
+    "title": "AI Agent 沙盒安全机制存在重大缺陷",
+    "summary": "Multikernel 指出当前 AI Agent 沙盒安全设计错误，需重构基础设施以保障安全。",
+    "detail": "Multikernel 创始人发文指出当前 AI 基础设施行业在 Agent 沙盒安全上存在根本性错误。现有方案无法有效隔离风险，可能导致严重安全漏洞。文章呼吁重构底层内核技术，提供更安全的运行时环境。随着 Agent 自主性增强，沙盒安全性成为部署关键。该观点为开发者敲响警钟，需重新评估现有隔离方案的有效性，防止恶意代码执行或数据泄露。安全不应仅靠应用层限制，需深入操作系统内核层面进行根本性加固，确保 Agent 行为可控。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Infrastructure"
+    ],
+    "link": "https://multikernel.io/2026/04/03/ai-agent-sandboxes-got-security-wrong/",
+    "date": "2026-04-07",
+    "id": "17755813544965"
+  },
+  {
     "title": "LangSmith Fleet 集成 Arcade.dev，解锁 7500+ 代理工具",
     "summary": "LangChain 宣布与 Arcade 合作，通过单一安全网关为代理提供 7500+ 优化工具。",
     "detail": "LangChain 宣布与 Arcade.dev 达成合作伙伴关系，将 Arcade 的工具库集成至 LangSmith Fleet。Arcade 作为生产级代理的 MCP 运行时，提供安全的代理授权、可靠的工具及治理功能。此次集成允许开发者通过单一安全网关访问超过 7500 个针对代理优化的工具，简化了代理连接外部服务时的认证流和 API 维护成本。这对于构建能够跨 Salesforce、Notion 等多工具自主工作的企业级代理具有重要意义，标志着代理工具管理向集中化网关模式迈进，提升了大规模代理部署的安全性与效率。",
@@ -1220,83 +1298,5 @@
     "link": "https://technicalintegrity.com/technical-integrity-blog/revisiting-the-ultimate-job-search-guide-the-ai-edition",
     "date": "2026-04-06",
     "id": "17754813224292"
-  },
-  {
-    "title": "OXY Poker 推出情感驱动 AI bots 的实时扑克引擎",
-    "summary": "OXY Klone 发布实时扑克引擎，集成情感驱动 AI 机器人，支持 Web2 私有运行时及 Web3 canonical 运行时。",
-    "detail": "OXY Klone 推出了名为 OXY Poker 的私有运行时门户，核心亮点是集成情感驱动的 AI 机器人。系统分为 Web2 私有运行时（无需钱包，即时登录）和 Web3 Canonical 运行时（连接钱包，持久身份与经济关联）。该引擎支持完整的游戏玩法、手牌回放和遥测数据，展示了 AI 在游戏博弈中的复杂应用。特别是情感模拟技术在实时决策引擎中的落地，为 Web3 游戏结合 AI 提供了新案例，用户可通过钱包认证解锁历史记录与经济关联后果。这种混合架构既保留了 Web2 的便捷性，又引入了 Web3 的经济激励，情感 AI 的加入则提升了非玩家角色的交互真实感。",
-    "tags": [
-      "New",
-      "Gaming",
-      "Web3"
-    ],
-    "link": "https://oxyklon.net/portal",
-    "date": "2026-04-06",
-    "id": "17754813224293"
-  },
-  {
-    "title": "AI 会让工作更辛苦吗？伯克利最新研究",
-    "summary": "UC Berkeley 研究发现，生成式 AI 提高生产力但延长工时。",
-    "detail": "UC Berkeley Haas 商学院对科技工作者进行民族志研究。发现微观层面上，提示词和迭代带来能力扩展感；但宏观层面，员工感觉更忙、更难断开连接。虽然效率提升，但自愿加班导致倦怠风险。经济理论指出“收入效应”可能使人们选择更多工作而非闲暇。这揭示了 AI 普及后潜在的职场悖论。",
-    "tags": [
-      "News",
-      "Workforce",
-      "GenAI"
-    ],
-    "link": "https://timharford.com/2026/04/what-if-ai-just-makes-us-work-harder/",
-    "date": "2026-04-06",
-    "id": "17754765301450"
-  },
-  {
-    "title": "为何 RAG 不适用于 WhatsApp 对话代理",
-    "summary": "对话状态丢失导致 RAG 失效，需构建新记忆方案。",
-    "detail": "RAG 设计用于静态文档，而对话是具有状态转换的叙事。在 WhatsApp 代理中，直接嵌入消息会导致核心指代丢失（如“它”指代不明）和上下文依赖意义错误（如“不”的含义随前文变化）。向量搜索无法捕捉对话轨迹。作者提出了替代方案以解决谈判轨迹和上下文记忆问题，适合开发者参考。",
-    "tags": [
-      "Dev",
-      "RAG",
-      "Agents"
-    ],
-    "link": "https://wpp.opero.so/blog/why-rag-fails-for-whatsapp-and-what-we-built-instead",
-    "date": "2026-04-06",
-    "id": "17754765301451"
-  },
-  {
-    "title": "使用未审查 AI 生成代码的两条规则",
-    "summary": "视为不可信依赖，仅依赖验证行为并保持边界。",
-    "detail": "针对个人项目，作者提出两条规则平衡效率与风险。规则 1：仅依赖已验证行为，接受未定义行为是暂时的，偶尔从头再生代码测试依赖。规则 2：假设代码不可读，准备随时重写。通过在已审查和未审查代码间保持清晰边界，防止技术债务累积。适合快速原型开发场景。",
-    "tags": [
-      "Dev",
-      "Best Practices",
-      "Coding"
-    ],
-    "link": "https://peterlavigne.com/writing/rules-for-unreviewed-ai-generated-code",
-    "date": "2026-04-06",
-    "id": "17754765301452"
-  },
-  {
-    "title": "Career-Ops：自建多 Agent 求职系统",
-    "summary": "Claude Code 构建多 Agent 系统，自动评分并生成简历。",
-    "detail": "作者构建了一套多 Agent 系统自动化求职流程。系统阅读职位描述，跨 10 个维度评分（A-F），生成针对每个职位的 ATS 优化 PDF 简历，并通过 Playwright 自动填写表单。采用人机回环（HITL）设计：AI 负责分析和准备，人类负责最终决策和审查。展示了 LLMOps 和自动化架构的实际应用。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Automation"
-    ],
-    "link": "https://santifer.io/career-ops-system",
-    "date": "2026-04-06",
-    "id": "17754765301453"
-  },
-  {
-    "title": "浏览器端 AI 照片猜词游戏 Moments",
-    "summary": "照片转 Wordle 谜题，AI 本地运行保护隐私。",
-    "detail": "Show HN 项目 Moments 允许用户上传照片，AI 在浏览器端完全本地运行，从图像中提取隐藏单词（3-7 字母）。用户像玩 Wordle 一样猜词。关键亮点是隐私保护，照片永不离开电脑。适合桌面浏览器体验。展示了端侧 AI 模型在轻量级游戏中的应用潜力。",
-    "tags": [
-      "New",
-      "Privacy",
-      "Game"
-    ],
-    "link": "https://momentsgame.com/",
-    "date": "2026-04-06",
-    "id": "17754765301454"
   }
 ]
