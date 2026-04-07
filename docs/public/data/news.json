@@ -1,5 +1,83 @@
 [
   {
+    "title": "Claude Agent SDK 与 Messages API 生产环境选型探讨",
+    "summary": "开发者讨论在生产环境中选用 Claude SDK 还是 API 的架构权衡。",
+    "detail": "社区热议在 B2B 开发者工具中集成 Claude 的最佳实践。Agent SDK 虽提供会话管理和钩子，但存在子进程开销大、文件系统会话不适合多租户 Web 后端等问题。相比之下，Messages API 虽需自建代理循环，但更契合 Web 架构。该讨论为构建生产级 AI 助手提供了重要的架构参考，避免了盲目使用 SDK 导致的性能瓶颈。",
+    "tags": [
+      "Dev",
+      "Claude",
+      "Architecture"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47669957",
+    "date": "2026-04-07",
+    "id": "17755291841650"
+  },
+  {
+    "title": "量子计算有望解决 AI 可持续发展难题",
+    "summary": "日本时报文章探讨量子计算如何改善 AI 能源消耗问题。",
+    "detail": "媒体评论指出量子计算可能成为解决 AI 可持续性问题的关键。随着 AI 模型规模扩大，能源消耗成为瓶颈。文章推测量子技术能优化计算效率，降低碳足迹。虽然目前多为理论探讨，但指出了未来算力与环保结合的重要方向，值得关注量子与 AI 交叉领域的进展，可能影响未来数据中心建设策略。",
+    "tags": [
+      "News",
+      "Quantum",
+      "Sustainability"
+    ],
+    "link": "https://www.japantimes.co.jp/commentary/2026/04/06/world/quantum-computing-ais-sustainability-problem/",
+    "date": "2026-04-07",
+    "id": "17755291841651"
+  },
+  {
+    "title": "号称基准测试得分最高的 AI 记忆系统开源",
+    "summary": "GitHub 开源项目 MemPalace 宣称拥有最高基准测试得分。",
+    "detail": "新项目 MemPalace 在 GitHub 发布，声称是经过基准测试得分最高的 AI 记忆系统，且免费开放。该系统旨在优化 LLM 的长期记忆与上下文管理，解决模型遗忘问题。对于需要构建复杂 RAG 应用或长对话代理的开发者，这是一个值得评估的新组件，可能简化记忆模块的开发流程，提升代理的连贯性。",
+    "tags": [
+      "Dev",
+      "Memory",
+      "OpenSource"
+    ],
+    "link": "https://github.com/milla-jovovich/mempalace",
+    "date": "2026-04-07",
+    "id": "17755291841652"
+  },
+  {
+    "title": "面向代理时代的 CLI 安全扫描工具 Ship-Safe",
+    "summary": "新工具检测 AI 代理中的 MCP 注入、密钥泄露等安全风险。",
+    "detail": "针对 AI 代理普及带来的安全隐患，开源项目 Ship-Safe 推出 CLI 安全扫描器。它能检测 CI/CD 配置错误、代理权限风险、MCP 工具注入及硬编码密钥。随着 AI 自主执行代码能力增强，此类安全工具成为开发流程必需品，帮助团队在部署前识别潜在的代理滥用或数据泄露风险，保障系统安全。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://github.com/asamassekou10/ship-safe",
+    "date": "2026-04-07",
+    "id": "17755291841653"
+  },
+  {
+    "title": "机械工程师专用的 AI 工具精选清单",
+    "summary": "GitHub curated list 涵盖 CAD、仿真及制造领域的 AI 工具。",
+    "detail": "开源列表 Awesome-Physical-Engineering-AI 整理了针对硬件工程的 AI 工具。涵盖生成式几何、拓扑优化、AI 仿真、数字孪生及机器人控制等类别。这填补了软件主导的 AI 清单中硬件工程的空白，为机械工程师利用 AI 优化设计、制造和维护流程提供了权威的资源索引，促进物理工程与 AI 融合。",
+    "tags": [
+      "Dev",
+      "Engineering",
+      "Resources"
+    ],
+    "link": "https://github.com/010zx00x1/Awesome-Physical-Engineering-AI",
+    "date": "2026-04-07",
+    "id": "17755291841654"
+  },
+  {
+    "title": "面向印度健身教练的 AI 训练计划生成器上线",
+    "summary": "CoachIQ 利用 AI 生成周训练计划，并通过 WhatsApp 分享。",
+    "detail": "新产品 CoachIQ 针对印度私人教练市场，解决手动制作训练计划耗时问题。用户输入客户档案，AI 在 60 秒内生成周计划并通过 WhatsApp 链接分享，无需下载 App。采用免费试用加低价订阅模式。该产品展示了 AI 在垂直领域结合本地化通讯工具（WhatsApp）落地的典型案例，具有区域市场参考价值。",
+    "tags": [
+      "New",
+      "Fitness",
+      "SaaS"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47669470",
+    "date": "2026-04-07",
+    "id": "17755291841655"
+  },
+  {
     "title": "CelestoAI 开源 SmolVM 沙盒",
     "summary": "开源沙盒支持代码执行与浏览器代理，助力 AI Agent 安全运行。",
     "detail": "CelestoAI 发布 SmolVM，这是一个开源沙盒环境，专为运行 AI 代码、浏览器代理及计算机操作设计。在 AI Agent 自主执行任务日益普及的背景下，安全隔离至关重要。该项目提供了代码执行和浏览器使用的沙盒化解决方案，降低了恶意代码风险。对于开发者而言，这是构建可靠 AI 代理基础设施的重要工具，有助于推动 Agent 技术在企业级应用中的落地，解决了自动化操作中的安全信任难题。",
@@ -1220,83 +1298,5 @@
     "link": "https://superinvestorsbelike.com",
     "date": "2026-04-05",
     "id": "17754284435273"
-  },
-  {
-    "title": "Gary Marcus 深度解析首个 18 亿美元 AI 独角兽背后真相",
-    "summary": "纽约时报报道一人公司获 18 亿估值，Gary Marcus 揭示背后更多细节与争议。",
-    "detail": "纽约时报近期报道了一家名为 Medvi 的 AI 公司，声称由一人创立并在 2 个月内获得 18 亿美元估值，无 VC 参与。AI 评论家 Gary Marcus 在其 Substack 上深入分析了该事件，指出媒体报道未触及的细节与争议。该案例引发了关于 AI 是否压缩了传统创业周期、单人能否构建十亿级公司的行业大讨论。推特上有人称这是\"Vibe-coded software\"的胜利。这反映了当前资本市场对 AI 概念的狂热以及潜在泡沫风险，值得投资者警惕。此外，该事件也探讨了 AI 生成代码在快速原型开发中的实际价值与局限性，为行业提供了冷静思考的契机。未来类似案例可能增多，需关注其可持续性。",
-    "tags": [
-      "News",
-      "Industry",
-      "Startup"
-    ],
-    "link": "https://garymarcus.substack.com/p/the-back-story-behind-the-first-18",
-    "date": "2026-04-05",
-    "id": "17754249230740"
-  },
-  {
-    "title": "AI 算力竞赛：微软失误与甲骨文的历史性机遇",
-    "summary": "深度分析 Oracle 在 AI 算力基础设施领域的布局，对比微软的战略失误。",
-    "detail": "文章回顾了 Oracle 创始人 Larry Ellison 的历史布局，包括其源自 CIA 项目的背景及美洲杯帆船赛的创新精神。随着 AI 算力需求爆发，Oracle 凭借其数据库优势和基础设施积累，正在成为微软之外的关键竞争者。分析认为微软在某些算力战略上存在失误，而 Oracle 有望通过其独特的云架构和硬件合作捕捉 AI 基础设施建设的巨大红利。这标志着 AI 算力竞争进入新阶段，基础设施层格局可能重塑。Ellison 的风格显示 Oracle 愿意为性能扩展基础设施，这种魄力可能在 AI 军备竞争中转化为优势，投资者应关注其后续财报表现。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Cloud"
-    ],
-    "link": "https://isolveproblems.substack.com/p/the-ai-compute-race-microsofts-miss",
-    "date": "2026-04-05",
-    "id": "17754249230741"
-  },
-  {
-    "title": "零基础设施 AI Agent 记忆库 Memweave 开源",
-    "summary": "基于 Markdown 和 SQLite 的 Python 库，为 AI Agent 提供持久化可搜索记忆。",
-    "detail": "Memweave 是一个零基础设施、异步优先的 Python 库，旨在解决 AI Agent 的记忆持久化问题。它使用纯 Markdown 文件存储记忆，支持 Git diff 版本控制和自然搜索，让开发者可直接读取和调试 Agent 记忆。开发者无需部署复杂的向量数据库或依赖外部服务，即可让 Agent 拥有可读取、可搜索的长期记忆。该项目已上线 PyPI，采用 MIT 许可，适合希望简化 Agent 架构、追求数据可控性的开发者优先采用。相比传统向量数据库，这种文件级存储方案更易于调试和版本管理，降低了开发门槛，是构建轻量级 Agent 的理想选择。",
-    "tags": [
-      "Dev",
-      "Python",
-      "Agent"
-    ],
-    "link": "https://github.com/sachinsharma9780/memweave",
-    "date": "2026-04-05",
-    "id": "17754249230742"
-  },
-  {
-    "title": "沉浸式 AI 角色扮演平台 Soul Realms 上线",
-    "summary": "支持跨会话持久记忆与自定义世界的 AI 冒险平台，提供多层级订阅。",
-    "detail": "Soul Realms 是一个新的 AI 角色扮演平台，主打“持久记忆”功能，允许用户在不同会话间延续冒险故事，永不丢失进度。用户可创建化身、定制世界主题并与具有独特个性的 AI 伴侣互动。平台采用能量制订阅模式，免费版提供基础功能，付费版如 Light 档$19.99/月解锁图像生成、更多 AI 代理及 API 限制提升。该产品展示了 AI 在娱乐和叙事领域的商业化落地新形态，强调沉浸式体验。其定价策略清晰，针对不同用户需求提供差异化服务，如 Standard 档$49.99/月提供更高能量上限，适合重度用户，体现了 C 端 AI 应用的变现探索。",
-    "tags": [
-      "New",
-      "Product",
-      "Roleplay"
-    ],
-    "link": "https://soulrealms.ai",
-    "date": "2026-04-05",
-    "id": "17754249230743"
-  },
-  {
-    "title": "免费开源书籍《AI Native》发布",
-    "summary": "135 页实战指南，详解如何构建自主业务与 AI Agent 工作流。",
-    "detail": "Stagent 团队发布了免费在线书籍《AI Native》，共 135 页，涵盖构建自主业务的核心方法论。内容涉及 Agent 集成、任务执行、工作流设计及人类在回路监控等实战技术，旨在指导开发者构建 Autonomous Business。该书不仅提供理论框架，还结合了 Stagent 平台的文档与 API 示例，适合希望将 AI 深度集成到业务流程中的开发者和技术决策者阅读，是学习 AI 原生架构的优质资源。样本章节免费，降低了学习成本。对于希望理解如何将 AI 从实验性项目转化为生产力的团队，这本书提供了系统化的路径参考。",
-    "tags": [
-      "Dev",
-      "Education",
-      "Book"
-    ],
-    "link": "https://stagent.io/book/",
-    "date": "2026-04-05",
-    "id": "17754249230744"
-  },
-  {
-    "title": "音乐家指控 AI 公司克隆歌曲并反向版权索赔",
-    "summary": "音乐家称 AI 公司克隆其作品并通过分销商对其 YouTube 视频发起版权索赔。",
-    "detail": "音乐家 Murphy Campbell 公开指控实体 \"Timeless Sounds IR\" 利用 AI 技术克隆其歌曲版本，并将其上传至各大流媒体平台。随后，分销商 Vydia 基于这些 AI 生成内容，对其原始 YouTube 视频发起版权索赔，导致她无法获得收益。此事件凸显了 AI 生成内容版权归属的模糊性及版权系统被滥用的法律风险。行业专家指出，这可能推动平台审查机制升级，并引发关于 AI 克隆技术及创作者权益保护机制的广泛关注与讨论，未来可能促使相关立法完善以平衡技术创新与版权保护。此案例也警示创作者需密切关注数字指纹技术及版权登记，以防类似侵权事件发生，平台方亦需优化自动化审核流程，避免误伤原创内容。",
-    "tags": [
-      "News",
-      "Copyright",
-      "Legal"
-    ],
-    "link": "https://twitter.com/i/status/2040577536136974444",
-    "date": "2026-04-05",
-    "id": "17754214907730"
   }
 ]
