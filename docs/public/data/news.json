@@ -1,5 +1,83 @@
 [
   {
+    "title": "Reflect Memory 发布跨工具 AI 记忆层",
+    "summary": "解决多 AI 工具上下文碎片化，支持主流模型。",
+    "detail": "Reflect Memory 旨在为 ChatGPT、Claude 等工具提供共享上下文。支持语义、情景及程序记忆，召回速度<50ms。强调数据隐私，用户拥有所有权，不用于训练。解决切换工具时的记忆丢失痛点，提升多工具协作效率。",
+    "tags": [
+      "New",
+      "AI Memory",
+      "Productivity"
+    ],
+    "link": "https://www.reflectmemory.com/",
+    "date": "2026-04-07",
+    "id": "17755954194580"
+  },
+  {
+    "title": "LMIM OS 推出本地离线 AI 自动化系统",
+    "summary": "本地运行代理，自动回复 WhatsApp 及安排会议。",
+    "detail": "LMIM OS 是一款本地 AI 操作系统，无需云端即可执行实际任务。支持 WhatsApp 自动回复、会议调度及代码运行。完全免费开源，零遥测，保护隐私。即将推出 macOS 版本及 GPU 加速，适合注重数据安全的极客用户。",
+    "tags": [
+      "New",
+      "Local AI",
+      "Automation"
+    ],
+    "link": "https://lmim.tech/",
+    "date": "2026-04-07",
+    "id": "17755954194581"
+  },
+  {
+    "title": "Vorim AI 构建代理身份与安全信任层",
+    "summary": "为自主 AI 代理提供加密身份与细粒度权限。",
+    "detail": "针对 AI 代理安全风险，Vorim 提供基于 Ed25519 的加密身份与不可变审计追踪。支持 LangChain 等框架，具备 7 种权限范围及实时信任评分。延迟低于 5ms，解决代理越权与合规问题，是企业级代理部署的关键基础设施。",
+    "tags": [
+      "New",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://vorim.ai/",
+    "date": "2026-04-07",
+    "id": "17755954194582"
+  },
+  {
+    "title": "InariWatch 实现生产错误自动修复与提交",
+    "summary": "监控报错后 AI 自动写代码并通过 CI 测试。",
+    "detail": "InariWatch 监控 GitHub 与 Sentry，发现错误后自动分析代码、编写修复方案并提交 PR。包含 11 道安全门控，支持自动回滚。集成多种 AI 工具，实现从错误到合并仅需 2 分钟，大幅降低运维压力，推动自愈系统发展。",
+    "tags": [
+      "New",
+      "DevOps",
+      "Auto-fix"
+    ],
+    "link": "https://www.inariwatch.com/",
+    "date": "2026-04-07",
+    "id": "17755954194583"
+  },
+  {
+    "title": "Altitude 分享防\"AI 垃圾代码”工程流程",
+    "summary": "坚持人类拥有 PR 所有权，确保代码质量。",
+    "detail": "针对 AI 生成代码质量下降问题，Altitude 工程团队确立“人类所有权”原则。每个 PR 必须有人类完全审阅，设立质量负责人。反对盲目追求速度，特别是在金融基础设施领域。为行业提供避免\"AI 垃圾代码”的最佳实践参考。",
+    "tags": [
+      "News",
+      "Best Practice",
+      "Engineering"
+    ],
+    "link": "https://twitter.com/altitude/status/2041527916840763710",
+    "date": "2026-04-07",
+    "id": "17755954194584"
+  },
+  {
+    "title": "Harper 推出带语义缓存的 AI 代理示例",
+    "summary": "本地嵌入与双层缓存降低 LLM 成本。",
+    "detail": "Harper 发布 conversational AI agent 示例，集成语义缓存与本地嵌入模型。通过双层缓存捕获重复问题，零成本返回答案。自动追踪节省金额，支持 Web 搜索与持久记忆。为开发者提供低成本部署高性能代理的架构参考。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Optimization"
+    ],
+    "link": "https://github.com/HarperFast/agent-example-harper",
+    "date": "2026-04-07",
+    "id": "17755954194586"
+  },
+  {
     "title": "Anthropic 发布新模型 Mythos 聚焦网络安全",
     "summary": "Anthropic 推出 Mythos 模型预览，旨在增强网络安全防御能力。",
     "detail": "Anthropic 正式发布了其强大新模型 Mythos 的预览版，并将其纳入新的网络安全倡议中。该模型旨在利用 AI 技术识别和防御复杂的网络威胁，代表了生成式 AI 向垂直安全领域的重要迈进。此举标志着 AI 巨头开始深耕安全赛道，可能重塑企业级网络安全架构。随着网络攻击日益自动化，专用安全模型将成为刚需。对于依赖云安全的企业而言，这是一个重要的技术风向标，预示着 AI 安全代理将更多介入防御体系，但也引发了关于模型自身被对抗攻击的风险考量，行业需平衡效率与安全性。此次发布不仅是模型能力的展示，更是 Anthropic 在 B 端安全市场布局的关键一步，预计将引发竞品跟进。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.thomas-huehn.com/open-source-lawyers-and-ai/",
     "date": "2026-04-06",
     "id": "17754907325122"
-  },
-  {
-    "title": "is.team：AI 代理作为正式团队成员的项目管理工具",
-    "summary": "AI 原生项目管理平台，代理直接加入任务板协作。",
-    "detail": "独立开发者推出 is.team，解决传统工具将 AI 仅视为侧边栏聊天机器人的问题。该平台允许 Claude 等代理直接加入任务板成为团队成员。实现了 AI 原生工作流，提升任务管理与协作效率，展示了 Agent 在实际业务场景中的深度集成应用。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Agents"
-    ],
-    "link": "https://www.indiehackers.com/post/i-built-a-project-management-tool-where-ai-agents-are-actual-team-members-5tKaafi44UWSp8BBpbt3",
-    "date": "2026-04-06",
-    "id": "17754907325123"
-  },
-  {
-    "title": "独立开发者 30 天交付 SaaS 的 AI 实践复盘",
-    "summary": "分享利用 AI 工具将开发周期从 6 个月压缩至 1 个月的经验。",
-    "detail": "开发者分享构建 Flowly SaaS 的经历，利用 AI 生成设计与代码，解决单人开发的设计短板。AI 处理了样板代码与测试，将原本 6 个月工作量压缩至 30 天。验证了 AI 工具显著提升单人创业可行性，降低了产品验证的时间与资金成本。",
-    "tags": [
-      "Dev",
-      "SaaS",
-      "IndieHackers"
-    ],
-    "link": "https://www.indiehackers.com/post/i-shipped-a-productivity-saas-in-30-days-as-a-solo-dev-heres-what-ai-actually-changed-and-what-it-didn-t-15c8876106",
-    "date": "2026-04-06",
-    "id": "17754907325124"
-  },
-  {
-    "title": "Total Recall：赋予 AI 编码助手持久语义记忆",
-    "summary": "开源插件为 Claude Code 等助手提供多层记忆与知识库。",
-    "detail": "GitHub 开源项目 Total Recall 为 TUI 编码助手提供多层记忆系统。支持热/温/冷数据分层及语义索引，兼容 Claude Code、Copilot CLI 等。解决了 AI 助手上下文丢失问题，提升长期项目协作能力，是开发者增强本地 AI 工作流的重要工具。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "Memory"
-    ],
-    "link": "https://github.com/strvmarv/total-recall",
-    "date": "2026-04-06",
-    "id": "17754907325125"
-  },
-  {
-    "title": "2026 AI 推理成本危机：企业预算飙升 483%",
-    "summary": "尽管 token 成本下降，但企业 AI 支出因推理量激增而大幅上涨。",
-    "detail": "2026 年企业面临严峻的“推理成本危机”。尽管大模型 token 单价在两年内下降了 280 倍，但由于使用量激增，整体 AI 账单反而上涨了 320%。数据显示，平均企业 AI 预算已从 2024 年的 120 万美元飙升至 2026 年的 700 万美元，增幅达 483%。目前推理成本已占 AI 总预算的 85%，市场规模超越训练芯片。企业急需重构财务框架，以应对基于 token 计费、Agent 步骤及检索成本带来的波动性，这已成为 2026 年最重要的 AI 财务纪律。传统预算框架无法处理此类成本波动，理解为何部署成本飙升是当前的关键任务。",
-    "tags": [
-      "News",
-      "LLM",
-      "FinOps"
-    ],
-    "link": "https://oplexa.com/ai-inference-cost-crisis-2026/",
-    "date": "2026-04-06",
-    "id": "17754870757810"
-  },
-  {
-    "title": "联邦政府 AI 转型警示：重蹈云计算覆辙？",
-    "summary": "ProPublica 报道指出政府在 AI 采用中面临安全与成本风险。",
-    "detail": "报道回顾了过去二十年联邦政府技术转型的教训，警告当前 AI 热潮可能重蹈云计算覆辙。虽然政府承诺通过 AI 提高效率，但网络安全和承包商依赖问题依然严峻。文章通过三个警示故事，建议政策制定者在推动 AI 采用时需警惕“免费午餐”陷阱，加强数字安全防御，避免过度依赖科技巨头，确保技术过渡安全。记者作为网络安全报告员，研究了过去二十年政府如何处理及 mishandled 这一过渡，为政策制定者鼓励使用 AI 及联邦机构采用技术提供了警示故事和宝贵经验，强调没有免费的午餐。",
-    "tags": [
-      "News",
-      "Policy",
-      "Security"
-    ],
-    "link": "https://www.propublica.org/article/federal-government-ai-cautionary-tales",
-    "date": "2026-04-06",
-    "id": "17754870757811"
-  },
-  {
-    "title": "AI 宣传战新纪元：病毒式视频影响地缘政治",
-    "summary": "伊朗利用 AI 生成乐高风格视频进行宣传，针对美以领导人。",
-    "detail": "2026 年 3 月，社交媒体涌现大量 AI 生成的乐高风格视频，描绘特朗普和内塔尼亚胡，内容涉及战争恐怖及政治丑闻。这些视频被指与伊朗革命卫队有关，标志着 AI 驱动宣传战进入新阶段。病毒式传播成为信息战核心，深度伪造技术降低了制作门槛，对公众认知和地缘政治稳定构成新型挑战，部分视频甚至在伊朗国家电视台播出。媒体覆盖将这些内容归因于 Revayat-e Fath Institute，翻译为“胜利叙述”，大部分病毒视频带有“爆炸新闻团队”标志，自称草根组织，展示了 AI 在信息战中的新用途。",
-    "tags": [
-      "News",
-      "Security",
-      "Generative AI"
-    ],
-    "link": "https://time.com/article/2026/04/02/when-virality-is-the-message-the-new-age-of-ai-propaganda/",
-    "date": "2026-04-06",
-    "id": "17754870757812"
   }
 ]
