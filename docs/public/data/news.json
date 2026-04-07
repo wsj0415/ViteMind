@@ -1,5 +1,57 @@
 [
   {
+    "title": "廉价 AI Token 背后的技术债陷阱",
+    "summary": "代码质量下降导致 Token 浪费，AI 辅助编程可能加速遗留系统形成。",
+    "detail": "文章揭示软件团队过度依赖 AI 生成代码导致代码库质量恶化。混乱的代码库会使 Agent 工作流消耗更多 Token，追踪显示约 70% 的 Token 被浪费在读取无关文件或重复搜索上。廉价 Token 补贴掩盖了昂贵的错误，一旦补贴结束，技术债将爆发。开发者需重视代码理解而非单纯追求发货速度，避免陷入循环。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "CodeQuality"
+    ],
+    "link": "https://bitbrawn.com/posts/ai-speed-run-to-legacy",
+    "date": "2026-04-07",
+    "id": "17755595062861"
+  },
+  {
+    "title": "使用 Docker 沙盒安全运行 AI 代理",
+    "summary": "教程详解如何在本地微虚拟机中安全部署 AI 编码代理，避免权限风险。",
+    "detail": "针对 AI 编码代理（如 Claude Code）频繁的权限请求问题，本文提供了一种基于 Docker 沙盒的安全运行方案。通过在微虚拟机中隔离代理，开发者可以在启用危险模式的同时确保系统安全。该方法解决了代理工具调用时的权限确认痛点，为本地 AI 代理部署提供了最佳实践，适合需要高自动化且关注安全性的开发团队。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Docker"
+    ],
+    "link": "https://andrewlock.net/running-ai-agents-safely-in-a-microvm-using-docker-sandbox/",
+    "date": "2026-04-07",
+    "id": "17755595062862"
+  },
+  {
+    "title": "StyleSeed：让 AI 生成专业级 UI 的设计规则",
+    "summary": "开源设计规则集，无需设计师即可让 AI coding 工具产出专业界面。",
+    "detail": "StyleSeed 是一个包含 2200+ 行设计规则的 GitHub 项目，旨在指导 AI 编码工具生成专业 UI。无需设计师介入，只需复制种子文件，AI 即可遵循一致的设计语言构建仪表盘等界面。该项目解决了 AI 生成界面风格不一致的痛点，显著提升了前端开发效率，是 AI 辅助设计领域的重要开源资源，支持 Claude Code 自动读取。",
+    "tags": [
+      "New",
+      "Design",
+      "OpenSource"
+    ],
+    "link": "https://github.com/bitjaru/styleseed",
+    "date": "2026-04-07",
+    "id": "17755595062863"
+  },
+  {
+    "title": "2026 年 AI 代理开发工具格局重估",
+    "summary": "行业分析指出 RAG 等功能已商品化，OpenAI 收购 Promptfoo 引发关注。",
+    "detail": "n8n 博客分析认为，2025 年是代理之年，2026 年需重新审视开发工具。RAG、记忆等功能已逐渐商品化，原生 LLM 服务已集成网页搜索等能力。文中提到 Promptfoo 已被 OpenAI 收购，评估工具格局变化。MCP 协议经历起伏，开发者应关注差异化功能如语义重排序，而非基础构建块，行业向高级编排演进。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Agents"
+    ],
+    "link": "https://blog.n8n.io/we-need-re-learn-what-ai-agent-development-tools-are-in-2026/",
+    "date": "2026-04-07",
+    "id": "17755595062864"
+  },
+  {
     "title": "PrismerCloud：AI 智能体协同进化框架",
     "summary": "GitHub 开源项目，让 AI 智能体从错误中学习并共享策略。",
     "detail": "PrismerCloud 是一个旨在促进 AI 智能体进化的开源框架。其核心机制在于“错误即策略”，智能体能够从每次会话中学习，将错误转化为策略，修复方案转化为推荐，并在所有智能体间共享。这种协同学习模式有望解决单一智能体迭代成本高的问题，为多智能体系统的自我优化提供了新路径，适合开发者构建具备持续进化能力的 Agent 应用。",
@@ -271,6 +323,19 @@
     "link": "https://news.ycombinator.com/item?id=47669470",
     "date": "2026-04-07",
     "id": "17755291841655"
+  },
+  {
+    "title": "科技巨头裁员押注 AI，回报仍不确定",
+    "summary": "科技公司削减岗位赌注 AI 转型，但收益尚未保证，行业面临结构调整。",
+    "detail": "新闻指出科技行业正经历裁员潮，企业试图通过 AI 降低成本并提高效率。然而，分析显示这种赌注的回报并不确定。虽然 AI 能自动化部分任务，但大规模裁员可能损害创新能力。企业需在削减成本与保持核心竞争力之间找到平衡，避免过度依赖技术而忽视人力资本的价值，行业 payoff 尚未得到保证。",
+    "tags": [
+      "News",
+      "Layoffs",
+      "Industry"
+    ],
+    "link": "https://www.theguardian.com/technology/2026/apr/06/tech-layoffs-ai-work",
+    "date": "2026-04-06",
+    "id": "17755595062860"
   },
   {
     "title": "阿里巴巴 Accio AI 重塑小型电商选品流程",
@@ -1233,70 +1298,5 @@
     "link": "https://mathematicsconsultants.com/2026/04/06/build-vs-buy-how-ai-has-changed-the-economics-of-mathematical-software-and-why-in-house-systems-now-make-sense/",
     "date": "2026-04-06",
     "id": "17754616079123"
-  },
-  {
-    "title": "利用 AI 编码助手教授实证思维研究",
-    "summary": "新论文探讨如何在教育中利用 AI  hype。",
-    "detail": "arXiv 新论文研究如何利用 AI 编码助手教授实证思维。作者通过实际教学经验，分析 AI 工具在教育中的应用潜力与挑战。研究强调利用学生对 AI 的热情引导其进行严谨的实证思考。为 AI 时代的教育方法论提供了新的实证依据与参考框架，展示了 AI 辅助教学的实际案例与效果。",
-    "tags": [
-      "Dev",
-      "Education",
-      "Paper"
-    ],
-    "link": "https://arxiv.org/abs/2604.01110",
-    "date": "2026-04-06",
-    "id": "17754616079124"
-  },
-  {
-    "title": "AI 代理加速开发：三个月完成八年构想",
-    "summary": "Simon Willison 分享 AI 代理工程案例，开发者利用 Claude Code 三个月构建 SQLite 工具。",
-    "detail": "知名开发者 Simon Willison 近期推荐了一篇关于代理式工程的深度文章，展示了 AI 在实际开发中的巨大潜力。开发者 Lalit Maganti 耗时八年构思的 SQLite 高保真开发工具，最终借助 Claude Code 在短短三个月内完成构建。AI 帮助克服了手动解析 400+ 语法规则的繁琐工作，将抽象设计迅速转化为具体可运行的原型。这标志着代理式工程（Agentic Engineering）已从概念走向实际生产力，显著缩短开发周期，为复杂系统开发提供了新范式。该案例证明，合理利用 AI 代理能有效解决长期拖延的技术债，提升工程效率，是开发者值得借鉴的最佳实践。",
-    "tags": [
-      "Dev",
-      "AI Agents",
-      "SQLite"
-    ],
-    "link": "https://simonwillison.net/2026/Apr/5/building-with-ai/",
-    "date": "2026-04-06",
-    "id": "17754532601010"
-  },
-  {
-    "title": "基于 ARMv9-A 的 AI 硬件隔离方案问世",
-    "summary": "GitHub 新项目展示如何通过 ARMv9-A RME 实现硬件级 AI 隔离，提升安全性。",
-    "detail": "名为\"Guardian Angel Protocol\"的 GitHub 项目探讨了利用 ARMv9-A 架构的 Realm Management Extension (RME) 进行 AI guest 隔离。该方案通过硬件强制约束（Hardware-enforced confinement）减少信任计算基（TCB），将 AI 对齐从概率启发式转向架构确定性。这对于解决 AI 模型安全性、防止恶意行为及确保系统稳定性具有重要的技术参考价值。随着端侧 AI 应用普及，硬件级安全隔离成为刚需，此项目为构建可信 AI 执行环境提供了新思路，是系统安全与 AI 结合的前沿探索，有望提升边缘计算设备的安全性。",
-    "tags": [
-      "Dev",
-      "Security",
-      "ARM"
-    ],
-    "link": "https://github.com/Lex-Col/Guardian-Angel-Protocol",
-    "date": "2026-04-06",
-    "id": "17754532601012"
-  },
-  {
-    "title": "开发者警示：勿直接将 AI 生成代码提交至 Git",
-    "summary": "技术博客建议开发者审查 AI 生成代码，避免直接推送至版本控制系统，确保质量。",
-    "detail": "一篇技术文章强烈建议开发者不要直接将 AI 生成的代码推送到 Git 仓库。文章指出，尽管 AI 能显著提高编码速度，但未经严格审查的代码可能隐藏安全漏洞、逻辑错误或长期维护性问题。最佳实践是将 AI 视为高效助手而非完全替代者，所有生成代码必须经过人工测试与代码审查。这一观点强调了在 AI 辅助开发流程中保持人类监督的重要性，以保障软件工程的长期健康。随着 AI coding 普及，建立规范的代码审查流程至关重要，避免技术债累积，确保系统稳定性与安全性，防止潜在风险流入生产环境。",
-    "tags": [
-      "Dev",
-      "Best Practices",
-      "Git"
-    ],
-    "link": "https://blog.tombert.com/Posts/Technical/2026/04-April/Stop-Pushing-AI-Generated-Code-to-Git",
-    "date": "2026-04-06",
-    "id": "17754532601014"
-  },
-  {
-    "title": "华盛顿州新规：AI 图像需标注且限制聊天机器人",
-    "summary": "华盛顿州签署新法，要求 AI 生成内容披露水印。",
-    "detail": "华盛顿州州长签署新法案，旨在监管人工智能。HB 1170 要求大型 AI 公司在商业和技术合理范围内，对使用其系统生成或编辑的图像、视频或音频进行标识（如水印）。此外，法案还设定了陪伴型聊天机器人的护栏，并要求公司提供检测工具。这反映了政策制定者对 AI 快速扩张的回应，为行业合规设立新标杆。",
-    "tags": [
-      "News",
-      "Policy",
-      "Regulation"
-    ],
-    "link": "https://www.axios.com/local/seattle/2026/04/03/washington-ai-disclosure-law-images-video-watermarks-chatbots-minors",
-    "date": "2026-04-06",
-    "id": "17754430958150"
   }
 ]
