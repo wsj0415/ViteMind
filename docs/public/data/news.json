@@ -1,5 +1,57 @@
 [
   {
+    "title": "PrismerCloud：AI 智能体协同进化框架",
+    "summary": "GitHub 开源项目，让 AI 智能体从错误中学习并共享策略。",
+    "detail": "PrismerCloud 是一个旨在促进 AI 智能体进化的开源框架。其核心机制在于“错误即策略”，智能体能够从每次会话中学习，将错误转化为策略，修复方案转化为推荐，并在所有智能体间共享。这种协同学习模式有望解决单一智能体迭代成本高的问题，为多智能体系统的自我优化提供了新路径，适合开发者构建具备持续进化能力的 Agent 应用。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://github.com/Prismer-AI/PrismerCloud",
+    "date": "2026-04-07",
+    "id": "17755528370810"
+  },
+  {
+    "title": "Senthex：仅需一行代码的 LLM API 防火墙",
+    "summary": "透明反向代理，扫描提示词注入与数据泄露，延迟仅 16ms。",
+    "detail": "Senthex 推出了一款专为 LLM API 调用设计的安全防火墙。作为透明反向代理，它支持 OpenAI、Anthropic 等主流模型，提供提示词注入检测、PII 泄露扫描及意图分析等 24 种防护盾。其最大亮点是集成简便，仅需修改一行代码即可接入，且额外开销低至 16ms。该工具符合欧盟 AI 法案要求，为开发者在生产环境中部署安全的 AI 应用提供了轻量级解决方案。",
+    "tags": [
+      "Dev",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://senthex.com/proxy/",
+    "date": "2026-04-07",
+    "id": "17755528370811"
+  },
+  {
+    "title": "Seedance 2.0：电影级质感的 AI 视频生成新品",
+    "summary": "支持文生视频与图生视频，优化物理引擎与动态纹理渲染。",
+    "detail": "Seedance 2.0 是一款全新的 AI 视频生成工具，支持文本到视频及图像到视频的转换。基于统一的多模态架构，它在处理复杂动态场景（如舞蹈动作、衣物物理反馈）方面表现突出，解决了传统模型常见的模糊与伪影问题。通过优化物理引擎与纹理渲染，该工具能生成具有电影级质感的视频内容，适用于需要高精度编辑与真实运动表现的内容创作场景。",
+    "tags": [
+      "New",
+      "Video",
+      "Multimodal"
+    ],
+    "link": "https://www.seedance2ai.net/",
+    "date": "2026-04-07",
+    "id": "17755528370812"
+  },
+  {
+    "title": "oncell.ai：为 AI 智能体提供隔离计算环境",
+    "summary": "无需构建基础设施，为用户提供独立存储与数据库的 Agent 平台。",
+    "detail": "oncell.ai 是一个面向 AI 智能体的计算平台，旨在简化基础设施搭建。它为每个用户提供隔离的运行环境，包含文件存储、数据库及搜索功能。开发者只需编写 Agent 逻辑，通过 API 即可秒级创建环境。其特色在于会话暂停机制，用户离开时环境自动休眠，成本极低（闲置时$0.003/小时），大幅降低了多用户 Agent 应用的部署门槛与运营成本。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "Agent"
+    ],
+    "link": "https://oncell.ai",
+    "date": "2026-04-07",
+    "id": "17755528370813"
+  },
+  {
     "title": "Annexa：基于代码库自动生成欧盟 AI 法案合规文档",
     "summary": "开发者工具 Annexa 可分析代码库，自动生成欧盟 AI 法案所需的 Annex IV 技术文档，简化合规流程。",
     "detail": "随着 2026 年 8 月欧盟 AI 法案截止日期临近，开发者面临巨大的合规文档压力。Annexa 工具旨在解决这一痛点，通过上传代码库自动提取模型细节与数据引用，进行风险分类并生成完整的 Annex IV 技术文档。支持 Python 脚本解析，实时更新合规清单。该工具专为无专门法规团队的开发者设计，将数周的手动工作压缩至数小时，显著降低合规成本，确保 AI 系统在监管框架下安全部署。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.axios.com/local/seattle/2026/04/03/washington-ai-disclosure-law-images-video-watermarks-chatbots-minors",
     "date": "2026-04-06",
     "id": "17754430958150"
-  },
-  {
-    "title": "Apex Protocol：基于 MCP 的 AI 代理交易开放标准",
-    "summary": "定义 AI 代理与交易所通信的开放协议标准。",
-    "detail": "Apex Protocol 定义了 AI 代理如何与经纪人、交易所及其他执行场所通信。基于 MCP 标准，涵盖会话、账户、订单等 5 个领域的 19 个强制工具。提供通用工具标识系统，无需每个经纪人单独映射。支持 TypeScript、Rust 等多种语言参考实现，旨在实现代理交易的自主安全与实时状态同步，无需中间件。",
-    "tags": [
-      "Dev",
-      "Protocol",
-      "Trading"
-    ],
-    "link": "https://apexstandard.org/",
-    "date": "2026-04-06",
-    "id": "17754430958151"
-  },
-  {
-    "title": "AI 安全研究困境：能否信任 AI 自我监管？",
-    "summary": "探讨 AI 安全研究资源不足及自我监管风险。",
-    "detail": "文章探讨 AI 对齐研究的现状。虽然全职研究人员数量增长，但相比提升 AI 速度的资源仍占少数。Anthropic、OpenAI 等公司声称前沿模型已参与自身开发。随着 AI 改进后继模型的能力增强，可能超越人类安全研究人员。这引发了关于人类驱动的安全研究是否徒劳的担忧，类似于未用药参加健美比赛。",
-    "tags": [
-      "News",
-      "Safety",
-      "Alignment"
-    ],
-    "link": "https://www.transformernews.ai/p/ai-alignment-researchers-want-to-superintelligence",
-    "date": "2026-04-06",
-    "id": "17754430958152"
-  },
-  {
-    "title": "彭博社：忽视 AI 恐惧，关注“氛围编程”趋势",
-    "summary": "分析 AI 驱动的新编程趋势及行业 FOMO 情绪。",
-    "detail": "彭博社新闻通讯探讨了“氛围编程”（Vibe Coding）这一 AI 趋势，指出其正在燃料新一轮的 FOMO（错失恐惧症）。文章建议暂时忽视过度的 AI 焦虑，关注实际的技术应用趋势。这反映了行业在 AI 快速迭代背景下，开发者与投资者对新技术采纳心态的变化及市场情绪波动。",
-    "tags": [
-      "News",
-      "Trend",
-      "Coding"
-    ],
-    "link": "https://www.bloomberg.com/news/newsletters/2026-04-05/what-is-vibe-coding-the-ai-trend-fueling-a-new-kind-of-fomo",
-    "date": "2026-04-06",
-    "id": "17754430958153"
-  },
-  {
-    "title": "StickerDaze：AI 生成定制贴纸并邮寄服务",
-    "summary": "无需注册即可生成 AI 贴纸并支持实体邮寄。",
-    "detail": "StickerDaze 是一款 AI 贴纸制作工具，用户可在 5 秒内生成独特贴纸。支持多种风格（可爱、写实等），无需注册即可免费生成前 4 张。除了下载 PNG/SVG 格式，还提供实体邮寄服务，将高分辨率贴纸印在优质乙烯基上寄送到家。旨在为创作者提供一站式贴纸创建解决方案。",
-    "tags": [
-      "New",
-      "Product",
-      "Generative"
-    ],
-    "link": "https://stickerdaze.com/",
-    "date": "2026-04-06",
-    "id": "17754430958154"
   }
 ]
