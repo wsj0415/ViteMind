@@ -1,5 +1,70 @@
 [
   {
+    "title": "纽约时报被远程医疗骗局误导，夸大 AI 初创估值",
+    "summary": "媒体质疑 NYT 报道，指出 Medvi 无外部融资且无官方估值，营收预测被误读为 18 亿美元估值。",
+    "detail": "### 背景\n《纽约时报》近期发布了一篇关于 AI 远程医疗初创公司 Medvi 的深度报道，将其描述为价值 18 亿美元的巨头。\n\n### 核心问题\nTechdirt 指出该报道存在严重误导。Medvi 并未筹集外部资金，也没有官方估值。所谓的 18 亿美元是基于 2026 年初销售数据推算的年度营收运行率（run rate），而非实际公司估值。\n\n### 行业影响\n此事件揭示了媒体在报道 AI 初创企业时缺乏专业核查，将营收预测混淆为市场估值。这可能导致公众和投资者对 AI 创业难度产生误解，以为仅凭营销和 ChatGPT 即可轻松获得十亿估值，加剧行业泡沫风险。",
+    "tags": [
+      "News",
+      "Media",
+      "Valuation"
+    ],
+    "link": "https://www.techdirt.com/2026/04/07/the-new-york-times-got-played-by-a-telehealth-scam-and-called-it-the-future-of-ai/",
+    "date": "2026-04-07",
+    "id": "17756016714860"
+  },
+  {
+    "title": "从 60 年代好莱坞看 AI 时代的劳动力权益与未来",
+    "summary": "文章类比 60 年代电视技术对演员的影响，探讨 AI 取代高层职位的风险及资本分配问题。",
+    "detail": "### 背景\n多位 CTO 讨论认为，前沿 AI 长期来看有能力履行大多数 C 级别职位的职责，包括他们自己的工作。\n\n### 核心观点\n虽然技术带来乐观的“星际迷航”式未来（富足、自主），但历史表明技术位移的收益通常被资本所有者捕获，而 displaced 工人承担损失。文章类比 1960 年代好莱坞，当时电视技术重播电影创造了新价值，演员通过工会争取到了重播版税。\n\n### 行业影响\n这提示 AI 时代需要建立新的分配机制。如果不解决资本与劳动的分配问题，AI 带来的生产力提升可能加剧不平等，而非实现普遍的共同繁荣。",
+    "tags": [
+      "News",
+      "Society",
+      "Economy"
+    ],
+    "link": "https://opcraft.co/writing/2026/04/getting-the-good-ai-future/",
+    "date": "2026-04-07",
+    "id": "17756016714871"
+  },
+  {
+    "title": "AI 代理工具引发开发者“精神精神病”与过度依赖",
+    "summary": "Axios 报道开发者对 AI 编码工具成瘾，包括 Karpathy 在内的专家出现睡眠剥夺和令牌焦虑。",
+    "detail": "### 背景\n代理式 AI 编码工具（如 Claude Code、OpenClaw）能自主编写和测试软件，但也引发了副作用。\n\n### 核心现象\nOpenAI 联合创始人 Andrej Karpathy 称自己处于“AI 精神病”状态，手写代码比例从 80% 降至 0%，每天花费 16 小时指挥代理集群。Y Combinator CEO Garry Tan 也描述了类似的“网络精神病”，包括严重睡眠剥夺。\n\n### 行业影响\n这揭示了高效工具背后的心理健康成本。开发者可能陷入“令牌焦虑”，为了用完订阅额度而过度工作。行业需关注自动化带来的认知负荷变化，避免技术异化人类工作者。",
+    "tags": [
+      "News",
+      "Developer",
+      "Mental Health"
+    ],
+    "link": "https://www.axios.com/2026/04/04/ai-agents-burnout-addiction-claude-code-openclaw",
+    "date": "2026-04-07",
+    "id": "17756016714872"
+  },
+  {
+    "title": "深度解析 AI 带来的认知成本与组织责任",
+    "summary": "文章区分认知卸载与认知债务，指出 AI 认知问题根源在于组织而非个人。",
+    "detail": "### 背景\n两年内涌现出认知卸载、认知债务、认知萎缩等概念，描述 AI 对知识工作的影响。\n\n### 核心观点\n文章指出这些概念虽描述了真实现象，但存在盲点：它们诊断的是个人心智，而产生这些效应的条件却是组织性的。认知卸载（如使用计算器）本是中性的人类扩展心智行为，但组织若不当部署 AI，会导致认知债务累积。\n\n### 行业影响\n企业在引入 AI 时，不能仅视为工具替换，需考虑组织流程变革。若将决策权过度外包给 AI 而不建立相应的组织监督，将导致员工能力退化和系统性风险。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Cognition"
+    ],
+    "link": "https://garden.johanneskleske.com/the-cognitive-costs-of-ai",
+    "date": "2026-04-07",
+    "id": "17756016714873"
+  },
+  {
+    "title": "Pitlane 推出 AI 代理从提示词到生产的一站式平台",
+    "summary": "新平台 Pitlane 亮相，旨在解决 AI 代理从开发到部署的生产化难题。",
+    "detail": "### 背景\n随着 AI 代理开发热潮兴起，如何将提示词工程转化为稳定的生产环境成为痛点。\n\n### 核心功能\nPitlane 作为一个开放平台，宣称能连接 AI 代理的提示词阶段与生产部署阶段。它试图填补实验性 Prompt 与可靠生产代码之间的鸿沟。\n\n### 行业影响\n此类工具的出现标志着 AI 开发正在从实验走向工程化。降低代理部署门槛有助于推动 AI 应用规模化落地，属于开发者工具领域的重要尝试，可能成为未来 Agent Ops 基础设施的一部分。",
+    "tags": [
+      "New",
+      "DevTools",
+      "Agents"
+    ],
+    "link": "https://www.getpitlane.com",
+    "date": "2026-04-07",
+    "id": "17756016714874"
+  },
+  {
     "title": "TechCrunch 关注小型开源 AI 模型制造商 Arcee",
     "summary": "TechCrunch 报道小型开源模型厂商 Arcee，展现社区对轻量化开源 AI 的支持与期待。",
     "detail": "**背景**：开源 AI 模型领域涌现新势力，TechCrunch 专门撰文报道小型模型制造商 Arcee。**核心**：Arcee 专注于制造小型开源模型，区别于巨头的大模型路线，强调轻量化与社区驱动，旨在降低资源消耗与部署成本，让 AI 更易获取。**影响**：媒体表态支持，反映行业对多样化、轻量化及开源生态的重视，可能降低开发者门槛，促进边缘计算 AI 应用落地，为中小企业提供更具成本效益的替代方案，推动生态多元化发展，避免算力垄断，增强技术民主化进程。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.technologyreview.com/2026/04/06/1135187/the-one-piece-of-data-that-could-actually-shed-light-on-your-job-and-ai/",
     "date": "2026-04-06",
     "id": "17754976236522"
-  },
-  {
-    "title": "AI 聚合如何影响知识传播",
-    "summary": "NBER 工作论文研究 AI 信息聚合对知识生态系统的潜在经济影响。",
-    "detail": "美国国家经济研究局（NBER）发布工作论文，探讨 AI 聚合技术如何改变知识的产生与传播。研究关注 AI 模型训练数据来源及其对原创内容生态的经济影响。随着 AI 成为信息主要入口，知识垄断与版权分配成为核心议题。该研究为政策制定者理解 AI 时代的知识经济学提供了理论框架，警示过度聚合可能导致的知识同质化风险。",
-    "tags": [
-      "News",
-      "Research",
-      "Economics"
-    ],
-    "link": "https://www.nber.org/papers/w35036",
-    "date": "2026-04-06",
-    "id": "17754976236523"
-  },
-  {
-    "title": "Sendkit：面向 AI 代理的邮件基础设施",
-    "summary": "发布专为开发者和 AI 代理设计的邮件 API 平台，支持事务性邮件与营销自动化。",
-    "detail": "Sendkit 推出专为开发者及 AI 代理设计的原生邮件基础设施。平台提供 Email API、SMTP 及营销自动化功能，支持大规模发送事务性邮件和滴灌序列。集成 MCP 协议，允许 Claude 等代理直接设置邮件活动。旨在简化 AI 应用中的通信流程，为开发者提供分钟级的集成体验，强化 AI 代理的执行能力，降低邮件服务接入门槛。",
-    "tags": [
-      "New",
-      "Infrastructure",
-      "API"
-    ],
-    "link": "https://sendkit.dev/",
-    "date": "2026-04-06",
-    "id": "17754976236524"
-  },
-  {
-    "title": "为何人类编辑无法识别 AI 内容",
-    "summary": "分析人类编辑难以甄别 AI 生成内容的原因，指出模型学习了人类的写作模式。",
-    "detail": "文章探讨为何专业编辑难以识别 AI 生成内容。近期多起 AI 写作混入出版物的事件表明，检测机制失效不仅因软件进步，更因 LLM 学习了人类的写作模式。文中引用《Shy Girl》及华盛顿邮报专栏案例，指出“垃圾内容”源自人类自身。完全清除 AI 辅助几无可能，行业需重新定义专业写作的边界与标准，适应人机协作新常态。",
-    "tags": [
-      "News",
-      "Publishing",
-      "Detection"
-    ],
-    "link": "https://lithub.com/why-cant-human-editors-identify-ai/",
-    "date": "2026-04-06",
-    "id": "17754976236525"
-  },
-  {
-    "title": "UI Automata：Windows 桌面自动化代理工具",
-    "summary": "开源工具实现 AI 代理对 Windows 桌面的自动化控制，解决浏览器外的操作难题。",
-    "detail": "UI Automata 是一款专为 AI 代理设计的 Windows 桌面自动化工具。相比已解决的浏览器自动化，桌面操作更具挑战性。该工具允许代理跨应用、浏览器和终端执行复杂任务，如安装软件、处理 UAC 确认等。通过视觉反馈与 UI 自动化结合，填补了 AI 代理在本地操作系统执行层面的空白，提升代理实际效用，支持复杂工作流自动化。",
-    "tags": [
-      "Dev",
-      "Automation",
-      "Open Source"
-    ],
-    "link": "https://automata.visioncortex.org/blog/introducing-ui-automata/",
-    "date": "2026-04-06",
-    "id": "17754976236526"
-  },
-  {
-    "title": "MicroSafe-RL：边缘 AI 微秒级安全层",
-    "summary": "GitHub 开源项目，为 MCU 上的边缘 AI 提供确定性微秒级安全层。",
-    "detail": "MicroSafe-RL 是一个面向微控制器（MCU）边缘 AI 的安全层项目。它提供确定性的 1.18 微秒安全响应，确保嵌入式 AI 系统在关键任务中的可靠性。该项目针对资源受限环境优化，解决了边缘部署中的实时 safety 问题。对于需要在硬件底层部署强化学习模型的开发者，提供了重要的安全基础设施参考，保障边缘计算安全性。",
-    "tags": [
-      "Dev",
-      "Edge AI",
-      "Safety"
-    ],
-    "link": "https://github.com/Kretski/MicroSafe-RL/blob/main/media/MicroSafe-RL-demo.mp4",
-    "date": "2026-04-06",
-    "id": "17754976236527"
   }
 ]
