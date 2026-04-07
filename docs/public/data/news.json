@@ -1,5 +1,70 @@
 [
   {
+    "title": "Anthropic 发布新模型 Mythos 聚焦网络安全",
+    "summary": "Anthropic 推出 Mythos 模型预览，旨在增强网络安全防御能力。",
+    "detail": "Anthropic 正式发布了其强大新模型 Mythos 的预览版，并将其纳入新的网络安全倡议中。该模型旨在利用 AI 技术识别和防御复杂的网络威胁，代表了生成式 AI 向垂直安全领域的重要迈进。此举标志着 AI 巨头开始深耕安全赛道，可能重塑企业级网络安全架构。随着网络攻击日益自动化，专用安全模型将成为刚需。对于依赖云安全的企业而言，这是一个重要的技术风向标，预示着 AI 安全代理将更多介入防御体系，但也引发了关于模型自身被对抗攻击的风险考量，行业需平衡效率与安全性。此次发布不仅是模型能力的展示，更是 Anthropic 在 B 端安全市场布局的关键一步，预计将引发竞品跟进。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "Security"
+    ],
+    "link": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
+    "date": "2026-04-07",
+    "id": "17755851566890"
+  },
+  {
+    "title": "测试显示 Google AI Overviews 存在幻觉问题",
+    "summary": "Ars Technica 分析发现 Google AI 概述每小时会出现错误信息。",
+    "detail": "最新测试分析表明，Google 的 AI Overviews 功能存在显著准确性问题，约 10% 的时间会提供错误信息。这一发现引发了用户对搜索可靠性的担忧，揭示了当前大模型在事实性核查上的短板。随着 AI 搜索成为主流，幻觉问题仍是阻碍其完全替代传统搜索的关键瓶颈。开发者需警惕依赖此类生成内容构建应用的风险，尤其是在医疗、法律等高风险领域。Google 面临优化检索增强生成（RAG）技术的压力，以确保信息源的权威性，否则可能损害其搜索霸主地位。未来改进方向可能集中在引用源验证与实时事实核查机制上，用户信任是 AI 搜索产品的生命线。",
+    "tags": [
+      "News",
+      "Google",
+      "LLM"
+    ],
+    "link": "https://arstechnica.com/google/2026/04/analysis-finds-google-ai-overviews-is-wrong-10-percent-of-the-time/",
+    "date": "2026-04-07",
+    "id": "17755851566891"
+  },
+  {
+    "title": "LangChain 发布 Deep Agents v0.5 支持异步子代理",
+    "summary": "更新支持异步子代理和多模态文件系统，提升代理执行效率。",
+    "detail": "LangChain 发布了 Deep Agents v0.5 版本，核心更新包括异步子代理（async subagents）功能。这允许主代理在后台委托任务而不阻塞执行循环，特别适合长时间运行的任务如深度研究或代码分析。此外还扩展了多模态文件系统支持。这对构建复杂 AI 工作流的开发者来说是重大效率提升。异步架构解决了长任务阻塞主线程的痛点，支持异构部署，意味着轻量级编排器可委托专用远程代理。这将推动 AI 代理从简单对话向复杂自主任务执行演进，降低开发门槛。未来代理系统将更趋向于分布式协作，开发者应关注异步状态管理带来的新架构模式。",
+    "tags": [
+      "Dev",
+      "LangChain",
+      "Agent"
+    ],
+    "link": "https://blog.langchain.com/deep-agents-v0-5/",
+    "date": "2026-04-07",
+    "id": "17755851566892"
+  },
+  {
+    "title": "多伦多社区 AI 监控计划引发隐私争议",
+    "summary": "多伦多一社区计划建立虚拟门禁社区，引发 AI 监控隐私担忧。",
+    "detail": "多伦多 Rosedale 社区计划实施基于 AI 监控的“虚拟门禁社区”方案，遭到公众强烈反对。该计划涉及使用 Flock 等安全技术进行邻里监控，引发了关于隐私边界的激烈讨论。事件凸显了 AI 监控技术在落地过程中面临的隐私伦理挑战，公众对无处不在的算法凝视感到不安。对于 AI 从业者而言，合规性与公众接受度是产品部署前必须评估的关键因素。技术中立性不再成立，社区治理与技术的结合需要更透明的沟通机制，否则将遭遇落地阻力。此案例警示科技公司在推进智慧城市项目时，需优先建立社区共识而非单纯技术部署。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Surveillance"
+    ],
+    "link": "https://www.theguardian.com/technology/2026/apr/07/toronto-rosedale-row-virtual-gated-community-ai-surveillance-flock",
+    "date": "2026-04-07",
+    "id": "17755851566893"
+  },
+  {
+    "title": "Maintenance OS 利用 AI 优化房产维修管理",
+    "summary": "新工具利用 AI 分析照片，帮助房东管理维修和承包商报价。",
+    "detail": "Maintenance OS 是一款面向房东和房主的 AI 驱动房产维护软件。其核心功能是通过 AI 分析用户上传的照片来识别维修问题，并自动分类推荐合适的工种。系统整合了从报修到发票的全流程，解决了传统沟通分散的痛点。这是 AI 垂直应用于传统物业管理行业的典型案例，展示了非技术行业的数字化潜力。通过计算机视觉自动化初步诊断，减少了中间沟通成本。虽然目前处于 Beta 阶段，但其工作流闭环设计为 PropTech 领域提供了新的参考范式，值得垂直 SaaS 开发者关注。该模式证明了 AI 视觉技术在非标准化场景下的落地可行性，具有复制推广价值。",
+    "tags": [
+      "New",
+      "PropTech",
+      "AI"
+    ],
+    "link": "https://ifbids.com/",
+    "date": "2026-04-07",
+    "id": "17755851566894"
+  },
+  {
     "title": "深入解析 Prompt Caching 原理与成本优化",
     "summary": "详解 Prompt Caching 机制，实现输入成本降低 10 倍，显著提升首 token 速度。",
     "detail": "文章从第一性原理出发，完整剖析 LLM 请求中的 Tokenizer 和 Transformer 流水线。指出稳定前缀可复用，避免重复计算。实测显示输入成本降低约 10 倍，缓存请求响应更快。解释了为何空格会影响命中及温度设置无关性。通过追踪文本经过四个阶段的过程，为开发者优化 LLM 应用成本提供核心技术指南，解决首 token 延迟 dominated by 重复工作的问题。对于拥有数千 token 不变前缀的系统，该技术能显著改善经济学模型，是构建高效 AI 应用的关键优化手段。",
@@ -1233,70 +1298,5 @@
     "link": "https://time.com/article/2026/04/02/when-virality-is-the-message-the-new-age-of-ai-propaganda/",
     "date": "2026-04-06",
     "id": "17754870757812"
-  },
-  {
-    "title": "开源 AI 原生组织转型框架发布",
-    "summary": "全新操作框架帮助组织和个人规划 AI 转型路径。",
-    "detail": "一个名为“成为 AI 原生组织”的开源框架正式发布，采用 CC BY 4.0 协议。该框架为领导者提供商业案例、评估模型和实施路线图，为个人贡献者提供技能进阶地图。旨在帮助技术组织及更广泛群体导航 AI 转型，重新定义角色与工作流，已通过真实团队测试，具备实用标准，支持 6 种语言。无论您是驱动转型的高管还是重新思考工作的个人贡献者，该框架都提供了两条路径，包含成熟度模型、过渡指南和实用标准，帮助组织在 AI 转型中导航。",
-    "tags": [
-      "Dev",
-      "Management",
-      "Open Source"
-    ],
-    "link": "https://framework.ai-native-transformation.com",
-    "date": "2026-04-06",
-    "id": "17754870757813"
-  },
-  {
-    "title": "SEO 行业新战场：试图影响 AI 模型回答",
-    "summary": "营销人员正尝试优化内容以影响 ChatGPT 等模型的输出。",
-    "detail": "随着用户转向 AI 搜索，SEO 行业正演变为 GEO（生成式引擎优化）。营销人员试图通过特定策略影响 Google Search、ChatGPT 和 Gemini 的回答内容。这标志着数字营销的重大转变，从关键词排名转向对 AI 模型训练数据和推理逻辑的干预，可能引发搜索结果客观性的新争议，行业正在尝试影响 AI 回复。文章探讨了 SEO 行业如何尝试影响 AI 响应，包括针对 Google Search、ChatGPT 和 Gemini 的营销策略，这代表了搜索优化领域的根本性转变，引发了关于 AI 结果可操纵性的讨论。",
-    "tags": [
-      "News",
-      "SEO",
-      "Marketing"
-    ],
-    "link": "https://www.theverge.com/tech/900302/ai-seo-industry-google-search-chatgpt-gemini-marketing",
-    "date": "2026-04-06",
-    "id": "17754870757814"
-  },
-  {
-    "title": "西班牙 Xoople 获 1.3 亿美元 B 轮融资，为 AI 绘制地球地图",
-    "summary": "Xoople 完成 1.3 亿美元 B 轮融资，将与 L3Harris 合作构建传感器，致力于为全球 AI 提供地球映射数据。",
-    "detail": "西班牙地理空间公司 Xoople 正式宣布完成 1.3 亿美元 B 轮融资，其核心使命是为人工智能系统绘制地球地图。该公司同时披露与国防技术公司 L3Harris 达成关键合作，将由 L3Harris 负责构建 Xoople 航天器所需的传感器。这一动向表明 AI 基础设施正从纯数字领域向物理感知延伸，高精度的地理空间数据将成为训练下一代具身智能、自动驾驶及全球监控模型的关键资源。融资款项将主要用于加速卫星部署及数据处理能力建设，以支撑日益增长的 AI 地理数据需求。此次融资显示了资本市场对物理世界数据用于 AI 训练的强烈信心，可能引发地理空间数据行业的竞争加剧。",
-    "tags": [
-      "News",
-      "Funding",
-      "Infrastructure"
-    ],
-    "link": "https://techcrunch.com/2026/04/06/spains-xoople-raises-130-million-series-b-to-map-the-earth-for-ai/",
-    "date": "2026-04-06",
-    "id": "17754813224280"
-  },
-  {
-    "title": "Show HN: 开源 AI 代理自愈语义层 Engram Translator",
-    "summary": "开发者推出开源项目 Engram Translator，旨在为任何 AI 代理工具构建自愈语义层，实现工具与 API 的无缝连接。",
-    "detail": "该项目在 GitHub 上发布，名为 `engram_translator`，核心目标是解决 AI 代理（Agent）在调用外部工具时的语义对齐与连接问题。它作为一个中间层，允许任何 AI 代理连接任何工具或 API，具备“自愈”能力，意味着当接口发生变化时，层能自动适应或修复连接。这对于构建稳定的自主代理系统至关重要，降低了开发者维护复杂工具链的成本。项目强调互操作性，推动了 Agent 生态中不同工具间的无缝协作，为开发者提供了更灵活的集成方案。随着 AI 代理复杂度增加，此类语义层将成为标准基础设施，减少因 API 变动导致的代理失效问题，提升系统鲁棒性。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Agent"
-    ],
-    "link": "https://github.com/kwstx/engram_translator",
-    "date": "2026-04-06",
-    "id": "17754813224291"
-  },
-  {
-    "title": "AI 时代求职指南：如何利用多模型超级搜索",
-    "summary": "Technical Integrity 更新求职指南，专家 Eliza Cabrera 分享如何利用 Claude、Gemini 等多款 AI 工具优化求职流程。",
-    "detail": "针对 AI 时代的求职环境，Technical Integrity 联合 AI 专家 Eliza Cabrera 发布了更新版求职指南。指南强调\"AI 是澄清思路的工具而非替代品”，建议求职者组合使用 Claude Code、Gemini Deep Research、NotebookLM 等多种工具。内容包含具体的提示词（Prompts）和步骤，适用于技术及非技术人群。这反映了 AI 工具已深度渗透至职业发展领域，掌握多模型协作能力成为求职者的新必备技能，清晰的自我认知结合 AI 辅助能产生更优的求职输出。指南指出，明确目标时使用 AI 辅助输出效果更好，这为个人效能工具的使用提供了心理学层面的指导依据。",
-    "tags": [
-      "Dev",
-      "Career",
-      "Prompt"
-    ],
-    "link": "https://technicalintegrity.com/technical-integrity-blog/revisiting-the-ultimate-job-search-guide-the-ai-edition",
-    "date": "2026-04-06",
-    "id": "17754813224292"
   }
 ]
