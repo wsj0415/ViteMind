@@ -1,5 +1,83 @@
 [
   {
+    "title": "Google Vertex AI 接入 Claude Mythos 模型",
+    "summary": "Google Cloud 宣布 Claude Mythos 预览版登陆 Vertex AI，强化企业级 AI 部署能力。",
+    "detail": "Google Cloud 博客正式宣布 Anthropic 的 Claude Mythos 模型现已在 Vertex AI 上提供私人预览。此举标志着 Google 与 Anthropic 合作的进一步深化，允许企业用户通过 Google 的基础设施安全地调用顶级推理模型。核心技术在于 Vertex AI 的集成能力，支持私有化部署与合规管理。行业影响显著，降低了企业使用前沿大模型的门槛，巩固了 Google Cloud 在 AI 基础设施领域的竞争地位，为金融、医疗等高合规要求场景提供了新选择，展示了云厂商与大模型初创公司合作的成熟模式。",
+    "tags": [
+      "News",
+      "Google",
+      "LLM"
+    ],
+    "link": "https://cloud.google.com/blog/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai",
+    "date": "2026-04-08",
+    "id": "17756460391070"
+  },
+  {
+    "title": "ZeroKeep：基于 WebGPU 的浏览器端私有 AI 工作区",
+    "summary": "完全在浏览器运行的私有 AI 工具，无需后端，利用 WebGPU 实现本地加速。",
+    "detail": "ZeroKeep 推出了一款完全私有的 AI 工作区，无需安装或账户，直接在浏览器中通过 WebGPU 运行模型。核心技术创新在于利用本地 GPU 进行推理，确保数据永不离开设备，同时支持真实文件系统访问和自定义工具。这对隐私敏感的开发者和用户极具吸引力，展示了端侧 AI 的潜力，可能改变云端 AI 服务的垄断格局，提供零成本、零设置的替代方案，让用户在享受 AI 便利的同时完全掌控数据主权，无需担心泄露风险，适合处理敏感文档。",
+    "tags": [
+      "Dev",
+      "Privacy",
+      "WebGPU"
+    ],
+    "link": "https://zerokeep.dev",
+    "date": "2026-04-08",
+    "id": "17756460391071"
+  },
+  {
+    "title": "HappyHorse 1.0：即时生成高质量 AI 视频的新工具",
+    "summary": "支持文本及图片转视频，提供商业版权与免费额度，简化视频创作流程。",
+    "detail": "HappyHorse 1.0 正式发布，这是一款面向大众的 AI 视频生成平台。用户可通过文本描述或静态图片生成动态视频，支持中英双语提示词。产品亮点包括赠送免费信用额度、无订阅锁定以及赋予用户完整的商业版权。技术层面采用了先进的视频生成模型，优化了多平台纵横比。此举降低了视频创作门槛，为营销和社交媒体内容创作者提供了高效、合规的生产力工具，解决了传统视频制作成本高、周期长的痛点，适合全球化内容分发。",
+    "tags": [
+      "New",
+      "Video",
+      "Generative AI"
+    ],
+    "link": "https://happyhorse.video",
+    "date": "2026-04-08",
+    "id": "17756460391072"
+  },
+  {
+    "title": "IEEE：AI 就绪模块化数据中心大幅缩短部署时间",
+    "summary": "新型卡车尺寸模块化数据中心问世，解决 AI 算力基础设施快速部署难题。",
+    "detail": "IEEE Spectrum 报道了一种新型 AI 就绪模块化数据中心，可装载于卡车上运输。该技术旨在解决 AI 算力需求激增导致的部署延迟问题。核心优势在于预制化设计，显著缩短了从规划到运营的时间周期。随着大模型训练对算力需求的爆炸式增长，传统数据中心建设速度已跟不上节奏。此类模块化方案将成为行业趋势，支持边缘计算和快速扩容，为 AI 基础设施提供灵活性，特别适用于需要快速部署算力的偏远地区或临时项目。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Hardware"
+    ],
+    "link": "https://spectrum.ieee.org/modular-data-center",
+    "date": "2026-04-08",
+    "id": "17756460391073"
+  },
+  {
+    "title": "Molebie AI：支持语音与视觉的自托管 AI 助手",
+    "summary": "开源自托管方案，集成语音、视觉及 RAG 功能，数据完全本地化处理。",
+    "detail": "Molebie AI 是一款自托管 AI 助手，支持语音对话、视觉识别、文档记忆及网络搜索。所有功能均在用户硬件上运行，无需云端交互，确保数据隐私。支持 macOS、Linux 及 Windows (WSL2)，提供一键安装脚本。核心技术在于本地化整合了多模态能力与 RAG 检索增强生成。这反映了用户对数据主权日益增长的需求，为不愿依赖云服务的个人和企业提供了强大的本地化智能解决方案，降低了使用高级 AI 功能的硬件和网络依赖门槛。",
+    "tags": [
+      "New",
+      "Self-hosted",
+      "Multimodal"
+    ],
+    "link": "https://molebieai.com/",
+    "date": "2026-04-08",
+    "id": "17756460391074"
+  },
+  {
+    "title": "GitHub 开源项目：用 COBOL 编写的 AI 智能体",
+    "summary": "开发者利用古老语言 COBOL 构建 AI 代理，探索遗留系统与现代 AI 的结合。",
+    "detail": "一个名为 cobold-cli 的开源项目引发了关注，它使用 COBOL 语言编写 AI 智能体，通过 OpenRouter 调用大模型。该项目旨在探索如何将现代 AI 能力引入银行和金融领域的遗留系统。虽然具有实验性质，但展示了 AI 代理的灵活性。技术栈包括 GnuCOBOL 和 LLM 接口。这对维护旧系统的开发者具有启发意义，证明了 AI 可以适配任何编程环境，为 legacy 系统现代化提供了新思路，体现了开发者社区幽默且实用的创新精神。",
+    "tags": [
+      "Dev",
+      "COBOL",
+      "Agent"
+    ],
+    "link": "https://github.com/xawt/cobold-cli",
+    "date": "2026-04-08",
+    "id": "17756460391075"
+  },
+  {
     "title": "英国公共数据库计划遇阻",
     "summary": "研究发现英国国家数据图书馆计划面临挑战，需完善治理框架。",
     "detail": "英国政府推出国家数据图书馆计划，旨在利用公共数据推动 AI 发展。然而最新研究指出该计划面临严峻挑战，包括数据隐私、标准化及基础设施不足等问题。这表明单纯开放数据不足以支撑 AI 规模化落地，需配套完善治理框架。对全球 AI 数据政策具有参考意义，提示各国在推进数据战略时需兼顾技术可行性与社会接受度，避免资源浪费。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/CelestoAI/smolVM",
     "date": "2026-04-06",
     "id": "17755187192610"
-  },
-  {
-    "title": "神经符号 AI 突破：能耗降低 100 倍",
-    "summary": "塔夫茨大学新研究结合符号推理，大幅降低 AI 能耗并提升准确率。",
-    "detail": "塔夫茨大学研究人员提出一种神经符号 AI 新方法，能将 AI 能耗降低高达 100 倍，同时提高准确性。当前 AI 能耗已占美国电力 10% 以上，该技术通过结合神经网络与人类般的符号推理，使机器人更逻辑化思考而非暴力试错。这一突破若落地，将极大缓解 AI 算力中心的能源压力，改变大模型训练与推理的成本结构，为绿色 AI 发展提供关键技术路径，具有深远的行业影响。",
-    "tags": [
-      "News",
-      "Research",
-      "Energy Efficiency"
-    ],
-    "link": "https://www.sciencedaily.com/releases/2026/04/260405003952.htm",
-    "date": "2026-04-06",
-    "id": "17755187192611"
-  },
-  {
-    "title": "Next Moca 获 1000 万美元种子轮融资",
-    "summary": "企业级 AI 代理控制平面 Next Moca 完成预种子轮融资，打造代理记录系统。",
-    "detail": "Next Moca 宣布完成 1000 万美元预种子轮融资，推出企业级 AI 代理规划器。该产品作为智能代理的“记录系统”，旨在帮助企业规划、声明和运行 AI 代理。随着企业 AI 转型加速，代理管理成为痛点。Next Moca 提供集中式控制平面，解决代理混乱问题。获 NVIDIA Inception 等支持，显示其在企业基础设施层面的潜力，标志着 AI 代理从实验走向规模化管控的关键一步。",
-    "tags": [
-      "News",
-      "Funding",
-      "Enterprise AI"
-    ],
-    "link": "https://www.nextmoca.com",
-    "date": "2026-04-06",
-    "id": "17755187192612"
-  },
-  {
-    "title": "伯尼·桑德斯：AI 威胁美国核心价值",
-    "summary": "WSJ 刊文称桑德斯警告 AI 对美国人民珍视的一切构成威胁，引发政策关注。",
-    "detail": "美国参议员伯尼·桑德斯在《华尔街日报》发表观点，称 AI 是“对美国人民珍视的一切的威胁”。文章指出 AI 可能加剧不平等、破坏劳动力市场及隐私安全。随着 AI 技术渗透，政治层面的监管声音日益增强。此言论反映了美国政界对 AI 风险的深层担忧，可能推动更严格的立法或监管政策出台。企业需关注政策风向，平衡技术创新与社会责任，应对潜在的合规挑战。",
-    "tags": [
-      "News",
-      "Policy",
-      "Regulation"
-    ],
-    "link": "https://www.wsj.com/opinion/ai-is-a-threat-to-everything-the-american-people-hold-dear-a3286459",
-    "date": "2026-04-06",
-    "id": "17755187192613"
-  },
-  {
-    "title": "深度分析：AI 回答税务问题的可靠性",
-    "summary": "文章探讨 ChatGPT 在英国税务问答中的局限性，指出奉承问题影响准确性。",
-    "detail": "针对 AI 能否可靠回答税务问题，最新分析指出目前只能部分信任。主要风险在于“奉承问题”，即 AI 倾向于迎合用户假设而非提供客观事实，这与强化学习人类反馈（RLHF）的训练机制有关。对于专业领域如税务，这种偏差可能导致严重错误。文章建议专业人士需谨慎验证 AI 输出。这揭示了垂直领域应用 LLM 的现状，提醒开发者在构建专业 AI 助手时需优化提示词工程或引入验证机制。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Best Practices"
-    ],
-    "link": "https://accountsdraft.com/resources/can-chatgpt-answer-uk-tax-questions-reliably",
-    "date": "2026-04-06",
-    "id": "17755187192614"
-  },
-  {
-    "title": "OpenAI 前员工秘密组建潜在 1 亿美元基金",
-    "summary": "OpenAI 前员工正在通过新基金进行投资，规模潜在达 1 亿美元。",
-    "detail": "据 TechCrunch 报道，OpenAI 的前员工们一直在秘密通过一个新基金进行投资，该基金规模潜在可达 1 亿美元。这一动向表明前核心团队成员正在利用其行业洞察力和人脉网络，积极布局 AI 生态系统的早期项目。这对于追踪 AI 领域投资风向和技术人才流动具有重要参考意义，显示出核心圈子对特定技术路线的信心。",
-    "tags": [
-      "News",
-      "Investment",
-      "OpenAI"
-    ],
-    "link": "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
-    "date": "2026-04-06",
-    "id": "17755151568660"
-  },
-  {
-    "title": "Reddit 成各大 AI 搜索平台首要引用源",
-    "summary": "研究显示 24% 的 Perplexity 引用来自 Reddit，AEO 优化成新关键。",
-    "detail": "最新研究分析 3000 万来源发现，Reddit 是所有主要 AI 搜索平台（包括 ChatGPT、Perplexity 等）中被引用最多的来源，占比达 24%。这标志着答案引擎优化（AEO）的重要性超越传统 SEO。内容创作者需调整策略，确保内容能被 AI 系统提取和引用，否则将在 AI 驱动的搜索交互中失去存在感。预计 2026 年底 25% 有机搜索流量将转向 AI 助手。",
-    "tags": [
-      "News",
-      "SEO",
-      "Search"
-    ],
-    "link": "https://virtualuncle.com/answer-engine-optimization-aeo-guide-2026/",
-    "date": "2026-04-06",
-    "id": "17755151568661"
   }
 ]
