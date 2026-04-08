@@ -1,5 +1,44 @@
 [
   {
+    "title": "开源 AI 代理 Linggen 支持手机 P2P 远程访问",
+    "summary": "基于 Rust 构建，支持本地模型与手机点对点远程管控。",
+    "detail": "Linggen 是一款新开源的 AI 代理系统，基于 Rust 构建，无需 Docker 或 Python 环境，通过 curl 命令即可安装。其核心特色是通过 WebRTC 实现手机 P2P 远程访问，无需端口转发。支持 Ollama 本地模型及云端 API，可通过 Markdown 定义代理技能。该项目强调数据本地化与可扩展性，采用 MIT 许可，为个人开发者提供了灵活的 AI 助手搭建方案。用户可随时中断正在运行的代理并协作，实现了从想法到代码的单会话流程，提升了开发体验。",
+    "tags": [
+      "New",
+      "OpenSource",
+      "Agent"
+    ],
+    "link": "https://linggen.dev/",
+    "date": "2026-04-08",
+    "id": "17756881658612"
+  },
+  {
+    "title": "新 CLI 工具可约束 AI 代码修改范围",
+    "summary": "定义文件边界并检查差异，防止 AI 随意修改代码库。",
+    "detail": "针对用户在使用 Cursor 和 Claude 等工具时遇到的痛点，即代码生成后缺乏控制层，导致 AI 常修改无关文件或引入范围外变更，开发者开源了一款 CLI 工具。现有工具多侧重于生成或事后审查，缺乏中间控制层。该 CLI 位于 AI 生成代码与仓库之间，通过定义文件边界和检查差异来强制执行约束，而非依赖另一层 AI 审查。目前已获 20K+ CLI 安装及 1K+ IDE 扩展安装。该项目为 AI 工作流提供了确定性的控制层，适合关注代码安全性与稳定性的开发团队集成使用，有效防止代码库漂移。",
+    "tags": [
+      "Dev",
+      "CLI",
+      "Security"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47696831",
+    "date": "2026-04-08",
+    "id": "17756881658613"
+  },
+  {
+    "title": "开源项目 Agent Brain 提供 7 层认知记忆架构",
+    "summary": "基于 Python 与 FastAPI，为 AI 代理提供多层记忆系统。",
+    "detail": "GitHub 上新开源了 Agent Brain 项目，旨在为 AI 代理提供 7 层认知记忆架构。该项目由 kaderosio 维护，使用 Python、FastAPI 和 pgvector 构建，解决了代理在长任务中遗忘上下文的问题。通过结构化的记忆层，代理能更有效地管理历史交互与知识检索。适合需要构建复杂长期记忆功能的 AI 应用开发者参考使用，助力提升代理智能水平。项目开源代码便于社区贡献，推动了代理记忆标准化的技术发展，为构建更持久的 AI 助手奠定基础。",
+    "tags": [
+      "Dev",
+      "Memory",
+      "Architecture"
+    ],
+    "link": "https://github.com/kaderosio/agent-brain",
+    "date": "2026-04-08",
+    "id": "17756881658614"
+  },
+  {
     "title": "OpenAI 企业业务营收占比超 40%，迈向与消费端持平",
     "summary": "OpenAI 披露企业营收占比超 40%，Codex 周活达 300 万，GPT-5.4 驱动代理工作流。",
     "detail": "OpenAI 高管透露入职 90 天观察，企业客户紧迫感强烈。企业营收占比超 40%，预计 2026 年底与消费端持平。Codex 周活跃用户达 300 万，API 处理令牌量巨大。高盛、达美乐等新客户加入，标志着 AI 从实验阶段转向实际业务落地，企业战略聚焦于将前沿智能层融入日常运营。此转变表明 AI 不再是玩具，而是核心生产力工具，竞争焦点转向集成深度与业务重塑能力。",
@@ -767,6 +806,19 @@
     "id": "17756157052743"
   },
   {
+    "title": "谷歌工程师利用 AI 起诉大学种族歧视",
+    "summary": "被 16 所高校拒绝后，谷歌工程师用 AI 辅助发起诉讼。",
+    "detail": "据 ABC7 San Francisco 报道，一名谷歌工程师因儿子被 16 所大学拒绝，且在无律所代理的情况下，利用 AI 技术起诉加州大学等机构种族歧视。此案展示了 AI 在法律领域的辅助潜力，同时也引发了关于 AI 生成法律文件有效性及教育公平性的讨论。这是 AI 介入社会司法实践的典型案例，值得行业关注其后续进展及法律界定。该事件也反映了 AI 降低了法律行动门槛，可能引发更多类似诉讼，对高校招生政策构成挑战。",
+    "tags": [
+      "News",
+      "Legal",
+      "Google"
+    ],
+    "link": "https://abc7news.com/post/google-engineer-rejected-colleges-uses-ai-sue-ucs-other-universities-racial-discrimination/18849388/",
+    "date": "2026-04-07",
+    "id": "17756881658611"
+  },
+  {
     "title": "纽约时报被远程医疗骗局误导，夸大 AI 初创估值",
     "summary": "媒体质疑 NYT 报道，指出 Medvi 无外部融资且无官方估值，营收预测被误读为 18 亿美元估值。",
     "detail": "### 背景\n《纽约时报》近期发布了一篇关于 AI 远程医疗初创公司 Medvi 的深度报道，将其描述为价值 18 亿美元的巨头。\n\n### 核心问题\nTechdirt 指出该报道存在严重误导。Medvi 并未筹集外部资金，也没有官方估值。所谓的 18 亿美元是基于 2026 年初销售数据推算的年度营收运行率（run rate），而非实际公司估值。\n\n### 行业影响\n此事件揭示了媒体在报道 AI 初创企业时缺乏专业核查，将营收预测混淆为市场估值。这可能导致公众和投资者对 AI 创业难度产生误解，以为仅凭营销和 ChatGPT 即可轻松获得十亿估值，加剧行业泡沫风险。",
@@ -1246,57 +1298,5 @@
     "link": "https://clawhub.ai/timeaground/figma-to-mobile",
     "date": "2026-04-07",
     "id": "17755682698593"
-  },
-  {
-    "title": "2026 年免费 AI 视频生成器市场分析报告",
-    "summary": "frameloop 分析 7 款工具及市场规模增长趋势，指出行业转向严肃软件市场。",
-    "detail": "frameloop 发布了 2026 年免费 AI 视频生成器横向评测报告。文章对比了 7 款主流工具的实际可用性，指出市场正从早期尝鲜转向严肃软件市场。数据显示该市场规模预计从 2025 年的 7.88 亿美元增长至 2033 年的 34.4 亿美元。报告强调用户更关注无水印、可编辑的真实工作流，反映了 AI 视频生成技术正逐步成熟并满足专业内容创作需求，为创作者提供了选型参考。",
-    "tags": [
-      "News",
-      "Market",
-      "Video"
-    ],
-    "link": "https://frameloop.ai/blog/free-ai-video-generator-tools-2026",
-    "date": "2026-04-07",
-    "id": "17755682698594"
-  },
-  {
-    "title": "开源多代理互动课堂系统 OpenMAIC",
-    "summary": "清华团队开源多代理系统，支持实时教学与辩论，探索 AI 教育深度应用。",
-    "detail": "清华团队开源了 OpenMAIC（开放多代理互动课堂）项目。该系统允许用户一键获得沉浸式多代理学习体验，支持代理进行教学、辩论和实时测验。通过多代理协作模拟真实课堂环境，该项目探索了 AI 在教育领域的深度应用。它不仅是一个工具，更为研究多代理系统在复杂交互场景下的协作机制提供了开源基准，适合教育科技开发者参考，推动了个性化学习技术的发展。",
-    "tags": [
-      "New",
-      "Education",
-      "OpenSource"
-    ],
-    "link": "https://github.com/THU-MAIC/OpenMAIC",
-    "date": "2026-04-07",
-    "id": "17755682698595"
-  },
-  {
-    "title": "AI 医疗公司 Medvi 涉嫌虚构医生广告",
-    "summary": "AI 远程医疗公司因使用不存在医生广告面临合规挑战。",
-    "detail": "商业内幕报道指出，AI 远程医疗公司 Medvi 面临严峻法律合规挑战。调查发现，该公司使用的广告中出现似乎不存在的医生，引发真实性质疑。这揭示了 AI 在医疗营销中的潜在风险，可能导致监管审查加强。随着 AI 深入医疗领域，如何确保生成内容的真实性和医生资质合规成为关键。行业需关注 AI 生成内容在敏感领域的合规边界，避免误导消费者及承担法律责任，防止信任危机。此举可能引发连锁反应，促使监管机构重新审视 AI 在医疗广告中的应用规范。",
-    "tags": [
-      "News",
-      "Healthcare",
-      "Regulation"
-    ],
-    "link": "https://www.businessinsider.com/medvi-ai-weight-loss-millions-ai-advertising-legal-compliance-challenges-2026-4",
-    "date": "2026-04-07",
-    "id": "17755631064590"
-  },
-  {
-    "title": "AI 公司克隆歌手声音后反诉其侵权",
-    "summary": "公司克隆民谣歌手声音并版权打击其原创视频。",
-    "detail": "民谣音乐家 Murphy Campbell 遭遇 AI 侵权困境。实体 Timeless Sounds IR 利用 AI 引擎复制其声音和乐器风格，将生成音乐分发至各大平台。随后，分销商 Vydia 利用版权系统对 Campbell 自己的原创视频提出索赔，导致其收入被剥夺。YouTube 的 Content ID 系统将解决负担置于当事人身上，使歌手几乎无计可施。此事件暴露了当前版权体系在面对 AI 生成内容时的漏洞，创作者权益保护面临新技术挑战，平台审核机制亟需改革以避免此类逆向侵权。此案可能成为未来 AI 版权纠纷的重要判例，影响音乐行业对声音版权的定义。",
-    "tags": [
-      "News",
-      "Copyright",
-      "Voice Cloning"
-    ],
-    "link": "https://rudevulture.com/ai-company-clones-musicians-voice-then-copyright-strikes-her-own-songs/",
-    "date": "2026-04-07",
-    "id": "17755631064591"
   }
 ]
