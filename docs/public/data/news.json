@@ -1,5 +1,70 @@
 [
   {
+    "title": "Anthropic 限制新网络安全模型 Mythos 访问",
+    "summary": "Anthropic 推出安全模型 Mythos 并限制访问权限。",
+    "detail": "Anthropic **正式发布**专注于网络安全的新模型 Mythos，但随即宣布限制访问范围，仅向特定区域用户开放。此举旨在防止模型被滥用于攻击性网络任务，体现了 AI 安全领域的谨慎态度。对于依赖 AI 进行安全审计的企业，需关注后续合规访问渠道。这标志着 AI 厂商在双刃剑效应上的最新管控措施，平衡能力开放与风险控制，可能影响安全自动化流程的部署策略及行业合规标准。未来企业需评估此类受限模型在实际防御中的可用性，并准备备选方案以应对潜在的访问壁垒。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "Security"
+    ],
+    "link": "https://arstechnica.com/ai/2026/04/anthropic-limits-access-to-mythos-its-new-cybersecurity-ai-model/",
+    "date": "2026-04-08",
+    "id": "17756760120450"
+  },
+  {
+    "title": "WordPress 7.0 原生支持 AI Agent 与 MCP 协议",
+    "summary": "WordPress 7.0 更新引入 AI 连接器与 MCP 适配器。",
+    "detail": "WordPress 7.0 将在核心层集成 **AI Connectors UI** 及官方 MCP Adapter。这意味着 Cursor 等 Agent 可直接读取站点结构并写入数据库。虽然提升了自动化效率，但也引发了关于权限管理与安全性的担忧。占据 43% 网页份额的 WordPress 此举将极大降低 AI 操作网站的门槛。开发者需重新审视站点权限配置，防止 Agent 误操作导致内容篡改。这是 CMS 领域向 AI 原生架构转型的关键一步，可能引发其他平台跟进，重塑网站维护工作流，建议管理员提前备份数据。",
+    "tags": [
+      "News",
+      "WordPress",
+      "MCP"
+    ],
+    "link": "https://medium.com/respira-love/wordpress-7-0-just-gave-ai-agents-the-keys-to-your-site-we-should-talk-about-that-5e699cfca4f7",
+    "date": "2026-04-08",
+    "id": "17756760120451"
+  },
+  {
+    "title": "Tubi 成为首个在 ChatGPT 内推出原生应用的流媒体",
+    "summary": "Tubi 率先在 ChatGPT 内部署原生流媒体应用。",
+    "detail": "Tubi 宣布成为首个在 **ChatGPT 内部** launch 原生应用的流媒体平台。用户可直接通过 ChatGPT 界面搜索和播放内容，无需跳转。这是 OpenAI 生态扩展的重要里程碑，验证了 LLM 作为操作系统入口的潜力，可能引发其他流媒体服务商的跟进效仿。对于内容分发网络而言，这意味着交互方式的根本变革，从搜索列表转向自然语言对话推荐，用户体验将更加个性化且无缝，广告植入方式也将随之改变，开启内容消费新范式。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Streaming"
+    ],
+    "link": "https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/",
+    "date": "2026-04-08",
+    "id": "17756760120452"
+  },
+  {
+    "title": "Show HN: Better Agent TypeScript 可组合 Agent 框架",
+    "summary": "推出基于 TypeScript 的可组合 AI Agent 开发框架。",
+    "detail": "Better Agent 是一个专为 **TypeScript 设计**的可组合 AI Agent 框架。支持多模型提供商切换、插件系统及事件驱动架构。特点包括持久化运行、人机回路审批及结构化输出。对于希望在不锁定特定框架下构建复杂 Agent 系统的开发者，提供了灵活且类型安全的基础设施。兼容 Node.js、Bun 等环境，降低了 Agent 工程化的复杂度，适合需要精细控制 Agent 行为的企业级应用场景，提升开发效率，简化部署流程。",
+    "tags": [
+      "Dev",
+      "TypeScript",
+      "Agent"
+    ],
+    "link": "https://www.better-agent.com/",
+    "date": "2026-04-08",
+    "id": "17756760120453"
+  },
+  {
+    "title": "微软 Scott Hanselman 谈 AI 辅助开发工具最佳实践",
+    "summary": "微软高管分享 AI 编码工具的使用心得与误区。",
+    "detail": "微软开发者社区副总裁 **Scott Hanselman** 在播客中深入探讨 AI 辅助编程。他强调基础技能的重要性，指出模糊提示词导致的不确定性风险。建议开发者需理解生成代码并沙盒化 Agent。这对团队引入 AI 工具时的培训策略及代码审查流程具有指导意义。随着 Agent 自主性增强，人类开发者需从编写者转变为审查者，确保生成代码在生产环境中的安全性与可维护性，避免过度依赖导致技能退化，建立人机协作新规范。",
+    "tags": [
+      "Dev",
+      "Microsoft",
+      "Coding"
+    ],
+    "link": "https://se-radio.net/2026/03/se-radio-711-scott-hanselman-on-ai-assisted-development-tools/",
+    "date": "2026-04-08",
+    "id": "17756760120454"
+  },
+  {
     "title": "Akamai 报告：2025 年 AI 机器人流量激增 300%",
     "summary": "Akamai 发布报告，显示 AI 机器人流量大幅增长，出版商受影响最严重。",
     "detail": "Akamai 最新互联网状态报告揭示，2025 年 AI 机器人流量激增 300%，对出版商造成巨大压力。报告强调了 AI 机器人防御和货币化的重要性，指出基础设施需适应分布式云和边缘网络，以应对实时智能和自适应 AI 带来的安全挑战。出版商需采用实时情报和自适应 AI 来保护应用和网络，这标志着 AI 流量管理已成为基础设施的核心议题。",
@@ -1233,70 +1298,5 @@
     "link": "https://annexa.eu/",
     "date": "2026-04-07",
     "id": "17755465221701"
-  },
-  {
-    "title": "BBC 分析：中美各赢一场 AI 竞赛，局势仍不明朗",
-    "summary": "BBC 报道指出中美在 AI 领域各有胜负，双方均可能在未来取得领先地位，竞争态势复杂。",
-    "detail": "BBC 最新分析指出，中美在人工智能领域的竞争呈现差异化态势，双方在不同细分赛道各有胜负。尽管目前局势胶着，但任一国家均可能在未来取得决定性领先。报道强调了地缘政治与技术发展的复杂性，暗示全球 AI 格局仍存在巨大变数。政策导向、算力储备与应用场景将是决定未来走向的关键因素，企业需密切关注国际局势对技术供应链的潜在影响。",
-    "tags": [
-      "News",
-      "Geopolitics",
-      "AI Race"
-    ],
-    "link": "https://www.bbc.com/news/articles/c145enxln0go",
-    "date": "2026-04-07",
-    "id": "17755465221702"
-  },
-  {
-    "title": "HN 热议：围绕开源 AI Agent 平台创业是否可行？",
-    "summary": "Hacker News 讨论基于开源 AI Agent 平台构建公司的可持续性，涉及许可证选择与商业模式探讨。",
-    "detail": "Hacker News 社区热议基于开源 AI Agent 平台创业的商业可行性。发起人已构建内部管理工具，考虑开源并全职投入。核心争议在于可持续性商业模式与许可证选择（Apache 2.0 vs BSL）。社区关注开源工具在 AI 领域的变现路径，以及个人开发者如何对抗大厂竞争。该讨论为独立开发者提供了宝贵的战略参考，反映了 AI 基础设施层创业的真实挑战与机遇。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Business"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47671502",
-    "date": "2026-04-07",
-    "id": "17755465221703"
-  },
-  {
-    "title": "GitHub 开源项目：由 AI 扮演的自主 IT 团队 PocketTeam",
-    "summary": "新项目 PocketTeam 利用 Claude 构建包含 COO、QA 和安全审计员的自主 AI 团队，协助开发运营。",
-    "detail": "GitHub 新项目 PocketTeam 展示了自主 AI 团队的前沿构想。该系统利用 Claude 构建包含 COO、QA 工程师和安全审计员的虚拟团队，协助处理业务运营、监控与代码审计。项目强调多层安全防护与测试通过率，旨在为小型团队提供口袋尺寸的開發支持。这探索了多 Agent 协作在实际业务流中的应用，预示着未来软件交付模式可能向全自动化团队演进。",
-    "tags": [
-      "New",
-      "Agents",
-      "Automation"
-    ],
-    "link": "https://github.com/Farid046/PocketTeam",
-    "date": "2026-04-07",
-    "id": "17755465221705"
-  },
-  {
-    "title": "传闻 Meta 计划开源新 AI 模型以应对困境",
-    "summary": "媒体报道称 Meta 在公司面临挑战时，计划通过开源新 AI 模型来调整战略，引发社区关注。",
-    "detail": "科技媒体报道称，Meta 在公司面临战略困境时，计划开源其最新 AI 模型。此举被视为通过开放生态重获竞争力的战略调整。虽然具体模型参数未在摘要中披露，但该动向若属实，将进一步加剧开源模型市场的竞争，影响开发者对模型选型的技术决策。开源策略可能成为大厂争夺开发者心智的关键手段，改变闭源模型主导的市场格局。",
-    "tags": [
-      "News",
-      "Meta",
-      "Open Source"
-    ],
-    "link": "https://gizmodo.com/as-meta-flounders-it-reportedly-plans-to-open-source-its-new-ai-models-2000743047",
-    "date": "2026-04-07",
-    "id": "17755465221706"
-  },
-  {
-    "title": "CarriFit 推出免费 AI 卡路里计数器",
-    "summary": "谷歌商店上新 AI 健康应用，免费使用。",
-    "detail": "CarriFit 最近在 Google Play 商店正式上线，这是一款主打免费使用的 AI 卡路里计数器应用。随着健康科技与人工智能的结合日益紧密，该应用旨在通过图像识别或数据输入帮助用户精准追踪日常饮食热量。页面显示其拥有超过 1000 次下载，并提供应用内购买选项。对于关注个人健康管理且希望利用 AI 简化记录流程的用户而言，这是一个值得尝试的新工具，展示了 AI 在消费级健康领域的进一步渗透。尽管目前下载量尚在起步阶段，但其免费策略可能有助于快速获客。在肥胖率上升的全球背景下，此类 AI 健康助手的市场潜力巨大，后续需关注其识别准确率及隐私政策。整体来看，这是 AI 落地日常生活场景的典型案例，降低了用户健康管理的门槛。",
-    "tags": [
-      "New",
-      "Health",
-      "App"
-    ],
-    "link": "https://play.google.com/store/apps/details?id=com.carrifit.app&hl=en_US",
-    "date": "2026-04-07",
-    "id": "17755387557380"
   }
 ]
