@@ -1,5 +1,109 @@
 [
   {
+    "title": "霍尔木兹海峡危机冲击 AI 融资：海湾主权基金资本链受阻",
+    "summary": "霍尔木兹海峡关闭导致海湾主权基金出口收入锐减，可能影响 2026 年末及 2027 年 AI 巨额融资轮次。",
+    "detail": "### 背景与现状\n2025 年，海湾主权财富基金贡献了非科技巨头 AI 融资的 18%，占全球 AI 相关资本的 31%。资金规模从 2023 年的 94 亿美元激增至 2025 年的 660 亿美元。\n\n### 核心风险\n霍尔木兹海峡关闭导致过境量下降 90%，严重阻碍海湾地区出口能力。收入枯竭直接影响主权财富基金的超额利润积累，进而削弱其投资能力。\n\n### 行业影响\n沙特政府是软银愿景基金最大投资者，阿布扎比对 OpenAI Stargate 项目的承诺堪比甲骨文。资本链断裂可能导致 2026 年末和 2027 年的 AI 巨型融资轮次面临资金短缺，考验主权基金的储备韧性。",
+    "tags": [
+      "News",
+      "AI Funding",
+      "Geopolitics"
+    ],
+    "link": "https://highabsolutevalue.substack.com/p/the-hormuz-chokehold-affects-ai-funding",
+    "date": "2026-04-08",
+    "id": "17756916167560"
+  },
+  {
+    "title": "DesignAgents：打造由 AI 智能体组成的协作设计团队",
+    "summary": "新平台 DesignAgents 通过多智能体协作模拟专业设计流程，自动化排版、对齐等基础工作，降低设计门槛。",
+    "detail": "### 产品理念\nDesignAgents 认为 80% 的设计工作并非创意天才，而是间距、对齐、字体大小等流程化任务。平台旨在自动化这些过程，而非取代设计师。\n\n### 核心功能\n模拟苹果、Airbnb 等专业团队的工作流，将设计拆解为创意总监、视觉设计师、布局专家、文案等多个 AI 智能体角色协作。\n\n### 解决痛点\n解决雇佣设计师成本高（$50-150/小时）、代理机构昂贵（$5000+/月）以及 DIY 工具缺乏品牌一致性的问题，为初创企业和独立创作者提供专业级设计流程访问权。",
+    "tags": [
+      "New",
+      "Design",
+      "AI Agents"
+    ],
+    "link": "https://designagents.app/blog/what-if-your-design-team-was-made-of-ai-agents",
+    "date": "2026-04-08",
+    "id": "17756916167561"
+  },
+  {
+    "title": "mh-gdpr-ai：本地化 AI 记忆开关，无缝切换模型不失上下文",
+    "summary": "开源项目支持在 GPT、Claude 和 Llama 间切换而不丢失上下文，记忆本地存储，保障数据隐私与所有权。",
+    "detail": "### 核心功能\n允许用户在不同的 AI 模型提供商（GPT ↔ Claude ↔ Llama）之间切换，同时保持对话上下文不中断。\n\n### 技术亮点\n100% 本地运行，用户的 AI 记忆存储在本地机器而非 OpenAI 等云端服务器。提供 3D 星图可视化用户的“AI 大脑”。\n\n### 价值主张\n强调“你的 AI 记忆，你的规则”，解决跨模型使用时的上下文丢失痛点，同时符合 GDPR 等数据隐私法规，适合注重数据主权的企业和开发者。",
+    "tags": [
+      "Dev",
+      "Privacy",
+      "LLM"
+    ],
+    "link": "https://github.com/mahadillahm4di-cyber/mh-gdpr-ai.eu-s-plus",
+    "date": "2026-04-08",
+    "id": "17756916167562"
+  },
+  {
+    "title": "AI 代币与上下文限制详解：为何模型会“遗忘”你的指令",
+    "summary": "深度解析 AI Token 与上下文窗口机制，解释模型遗忘原因，并提供优化提示词与管理上下文的技术指南。",
+    "detail": "### 核心概念\nToken 是文本的小块（英文约 0.75 词/Token），上下文窗口是模型一次能处理的 Token 上限。超出限制后，模型无法看到旧消息，表现为“遗忘”。\n\n### 技术解析\n文章通过非技术解释说明模型如何将文本分解为 Token 处理。 every 消息、文件粘贴和响应都计入限制。\n\n### 实践建议\n针对开发者及非传统构建者，建议编写更紧凑的提示词，仅分享需要审查的代码，并为不同任务开启新对话，以优化上下文使用效率。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Tutorial"
+    ],
+    "link": "https://theaienabledcoder.com/ai-tools/what-are-ai-tokens-and-context-limits/",
+    "date": "2026-04-08",
+    "id": "17756916167563"
+  },
+  {
+    "title": "OpenOrigins Source：加密验证数字内容起源，对抗 AI 伪造",
+    "summary": "推出移动应用，在内容创建时刻加密密封来源元数据，为照片视频提供防篡改证明，构建可信互联网层。",
+    "detail": "### 产品功能\nOpenOrigins Source 提供数字内容创建时刻的可验证起源证明。支持 iOS 和 Android，在捕获时加密密封上下文和元数据。\n\n### 技术机制\n1. 设备捕获内容；2. 加密密封元数据；3. 生成独立存储的证明记录；4. 验证无需暴露媒体本身。\n\n### 行业应用\n解决照片、视频易被复制篡改的问题，无需依赖下游系统推断起源。已获得健康指标研究所、新闻机构等组织信任，适用于新闻真实性验证及版权保护场景。",
+    "tags": [
+      "New",
+      "Security",
+      "Content Verification"
+    ],
+    "link": "https://www.openorigins.com/products/secure-source",
+    "date": "2026-04-08",
+    "id": "17756916167564"
+  },
+  {
+    "title": "Free.ai 平台上线：提供 400+ 款完全免费的 AI 工具集合",
+    "summary": "新聚合平台 Free.ai 宣称提供所有 AI 工具完全免费，包含聊天、图像生成、代码等 400+ 工具，注册送 5 万免费额度。",
+    "detail": "### 平台概况\nFree.ai 定位为“每个 AI 工具，完全免费”。提供聊天、搜索、图像生成、视频生成、文本转语音、音乐生成等全方位工具。\n\n### 资源规模\n汇集 346+ 模型，支持侧边栏对比聊天及 AI 竞技场。提供自托管模型访问及 API 接口。\n\n### 用户权益\n注册即送 50,000 免费额度，无需信用卡，允许商业使用。旨在降低 AI 使用门槛，为用户提供一站式免费 AI 服务入口。",
+    "tags": [
+      "Deal",
+      "Platform",
+      "Free Tools"
+    ],
+    "link": "https://free.ai/",
+    "date": "2026-04-08",
+    "id": "17756916167565"
+  },
+  {
+    "title": "智能体工程奇迹：AI 周末复活停运 27 年的 1992 年 MUD 游戏",
+    "summary": "开发者利用 AI 智能体分析旧代码 artifacts，仅用一个周末就重建了停运 27 年的文本多人在线游戏，展示 Agentic AI 潜力。",
+    "detail": "### 项目背景\n《Legends of Future Past》是 1992 年开发的文本奇幻世界游戏，1999 年停运。原始开发耗时 6 个月加多年世界构建。\n\n### AI 重建过程\n开发者指向旧 artifacts，要求 AI 智能体理解游戏逻辑并重建。Agentic Engineering 仅用一个周末就完成了原本需要团队数年维护的工作。\n\n### 技术启示\n展示了 AI 智能体在理解遗留代码、重建复杂系统方面的强大能力，为旧软件维护及游戏复活提供了新范式。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Gaming"
+    ],
+    "link": "https://meditations.metavert.io/p/resurrecting-a-1992-mud-with-agentic",
+    "date": "2026-04-08",
+    "id": "17756916167566"
+  },
+  {
+    "title": "AI 生成代码的陷阱：12 分钟写完，人类花费 10 小时修复",
+    "summary": "开发者实测 AI 生成代码虽快但难以维护，修复耗时远超生成时间，警示盲目复制粘贴 AI 代码的风险。",
+    "detail": "### 核心观点\nAI 生成代码耗时 12 分钟，但人类理解并修复花费 10 小时。作者强调理解代码的重要性，反对盲目复制粘贴。\n\n### 问题分析\n大语言模型生成的代码往往冗长，包含大量未使用块。开发者难以审查大型代码块，导致设计缺陷累积。\n\n### 最佳实践\n建议开发者即使使用 AI 辅助，也需阅读并适配代码到具体案例。个人项目中应坚持理解每一行代码，避免产生无法维护的“意大利面条代码”。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Best Practices"
+    ],
+    "link": "https://idiallo.com/blog/it-took-me-10-hours-to-fix-ai-code",
+    "date": "2026-04-08",
+    "id": "17756916167567"
+  },
+  {
     "title": "开源 AI 代理 Linggen 支持手机 P2P 远程访问",
     "summary": "基于 Rust 构建，支持本地模型与手机点对点远程管控。",
     "detail": "Linggen 是一款新开源的 AI 代理系统，基于 Rust 构建，无需 Docker 或 Python 环境，通过 curl 命令即可安装。其核心特色是通过 WebRTC 实现手机 P2P 远程访问，无需端口转发。支持 Ollama 本地模型及云端 API，可通过 Markdown 定义代理技能。该项目强调数据本地化与可扩展性，采用 MIT 许可，为个人开发者提供了灵活的 AI 助手搭建方案。用户可随时中断正在运行的代理并协作，实现了从想法到代码的单会话流程，提升了开发体验。",
@@ -1194,109 +1298,5 @@
     "link": "https://multikernel.io/2026/04/03/ai-agent-sandboxes-got-security-wrong/",
     "date": "2026-04-07",
     "id": "17755813544965"
-  },
-  {
-    "title": "LangSmith Fleet 集成 Arcade.dev，解锁 7500+ 代理工具",
-    "summary": "LangChain 宣布与 Arcade 合作，通过单一安全网关为代理提供 7500+ 优化工具。",
-    "detail": "LangChain 宣布与 Arcade.dev 达成合作伙伴关系，将 Arcade 的工具库集成至 LangSmith Fleet。Arcade 作为生产级代理的 MCP 运行时，提供安全的代理授权、可靠的工具及治理功能。此次集成允许开发者通过单一安全网关访问超过 7500 个针对代理优化的工具，简化了代理连接外部服务时的认证流和 API 维护成本。这对于构建能够跨 Salesforce、Notion 等多工具自主工作的企业级代理具有重要意义，标志着代理工具管理向集中化网关模式迈进，提升了大规模代理部署的安全性与效率。",
-    "tags": [
-      "Dev",
-      "LangChain",
-      "Agent"
-    ],
-    "link": "https://blog.langchain.com/arcade-dev-tools-now-in-langsmith-fleet/",
-    "date": "2026-04-07",
-    "id": "17755747060080"
-  },
-  {
-    "title": "Vercel 教程：使用 Chat SDK 和 AI SDK 构建 Slack AI 代理",
-    "summary": "详解如何利用 Vercel 套件构建具备工具调用能力的生产级 Slack 机器人。",
-    "detail": "Vercel 发布指南，展示如何结合 Chat SDK 和 AI SDK 构建 Slack AI 代理。Chat SDK 处理平台集成（如 Webhook、消息格式），而 AI SDK 的 `ToolLoopAgent` 管理推理循环，使代理能自主调用工具。方案结合 Vercel AI Gateway 和 Redis 进行状态管理，无需管理基础设施即可实现流式响应、工具调用和多轮对话历史。该教程为开发者提供了构建生产级 Slack 代理的完整路径，降低了跨平台机器人开发的技术门槛，适合希望快速落地企业通讯场景 AI 应用的团队参考。",
-    "tags": [
-      "Dev",
-      "Vercel",
-      "Tutorial"
-    ],
-    "link": "https://vercel.com/kb/guide/how-to-build-an-ai-agent-for-slack-with-chat-sdk-and-ai-sdk",
-    "date": "2026-04-07",
-    "id": "17755747060081"
-  },
-  {
-    "title": "Output.ai 开源框架：源自 500+ 生产代理的开发最佳实践",
-    "summary": "GrowthX 开源其内部 AI 开发框架，整合提示词、评估、追踪及成本监控。",
-    "detail": "Output.ai 发布了从 500+ 生产级 AI 代理中提取的开源 TypeScript 框架。该框架旨在解决 AI 开发中的常见痛点，如提示词管理、非确定性代码测试、成本追踪及安全执行。它支持将提示词、追踪和配置直接存放在代码库中，实现版本控制，并完美适配 Claude Code 等编码代理。作为 Apache 2.0 开源项目，Output 为团队提供了一套基础设施级的解决方案，避免了对多个 SaaS 订阅的依赖，提升了 AI 功能开发的速度与规范性，特别适合追求工程化落地的开发团队。",
-    "tags": [
-      "New",
-      "OpenSource",
-      "Framework"
-    ],
-    "link": "https://output.ai/",
-    "date": "2026-04-07",
-    "id": "17755747060082"
-  },
-  {
-    "title": "Homebutler：无需 Shell 权限的 AI 家庭实验室管理工具",
-    "summary": "单二进制文件工具，允许通过聊天管理 homelab，零依赖且安全。",
-    "detail": "Homebutler 是一款开源工具，允许用户通过任何 AI（如 Claude、ChatGPT）或终端聊天管理家庭实验室（homelab），而无需授予 AI 直接的 Shell 访问权限。该工具采用单二进制文件分发，零依赖，基于 Go 语言构建。它作为 MCP 服务器运行，确保了操作的安全性，同时提供了便捷的实验室管理能力。对于喜欢自建服务但关注安全边界的技术爱好者来说，这是一个实用的解决方案，平衡了自动化便利性与系统安全性，体现了本地化 AI 代理管理的最新趋势。",
-    "tags": [
-      "New",
-      "Security",
-      "Homelab"
-    ],
-    "link": "https://github.com/Higangssh/homebutler",
-    "date": "2026-04-07",
-    "id": "17755747060094"
-  },
-  {
-    "title": "AI 热潮吸引私人财富投向早期高风险项目",
-    "summary": "TechCrunch 报道私人资本正涌入更早期的 AI 风险投资，风险偏好显著增加。",
-    "detail": "TechCrunch 最新报道指出，AI 淘金热正促使私人财富流向风险更高、阶段更早的投资项目。随着大模型竞争加剧，资本不再局限于成熟巨头，而是深入早期初创企业。这一趋势反映了市场对 AI 技术落地潜力的强烈信心，同时也暗示了投资泡沫风险的积累。对于行业观察者而言，这意味着未来几年将出现更多激进的技术尝试与并购活动，投资者需警惕潜在的市场波动。",
-    "tags": [
-      "News",
-      "Investment",
-      "VC"
-    ],
-    "link": "https://techcrunch.com/2026/04/07/the-ai-gold-rush-is-pulling-private-wealth-into-riskier-earlier-bets/",
-    "date": "2026-04-07",
-    "id": "17755682698590"
-  },
-  {
-    "title": "AI 代理运行 100 天行为漂移研究公开",
-    "summary": "Cathedral AI 展示代理长期运行中的身份漂移数据，为代理稳定性提供观测基准。",
-    "detail": "Cathedral AI 公开了其 AI 代理连续运行 100 天的行为漂移数据仪表盘。通过内部身份记忆哈希与外部行为摘要的对比，量化了代理在长期运行中的“身份漂移”现象。数据显示了代理状态随时间的变化轨迹，为研究 AI 代理的稳定性、记忆一致性及长期任务可靠性提供了宝贵的一手数据。这是 AI 安全领域的重要观测案例，有助于开发者理解长周期任务中的模型退化问题。",
-    "tags": [
-      "News",
-      "Agent",
-      "Safety"
-    ],
-    "link": "https://cathedral-ai.com/cathedral-beta",
-    "date": "2026-04-07",
-    "id": "17755682698591"
-  },
-  {
-    "title": "开源 CI/CD 动作审计修复 AI 生成 UI 代码",
-    "summary": "IronBee 推出 GitHub Action 自动验证修复 AI 生成界面，解决代码验证瓶颈。",
-    "detail": "HackerNews 展示了一款开源 GitHub Action，专门用于审计和修复 AI 生成的 UI 代码。该工具在 CI/CD 流水线中启动真实浏览器测试 PR，若发现界面错误则自动推送代码修复。这解决了 AI 生成代码验证速度慢的瓶颈，是 IronBee 验证层的重要组成。它标志着 AI 编程工作流从“生成”向“可信交付”迈进的关键一步，显著提升了工程化落地效率与代码可靠性。",
-    "tags": [
-      "Dev",
-      "CI/CD",
-      "OpenSource"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47674652",
-    "date": "2026-04-07",
-    "id": "17755682698592"
-  },
-  {
-    "title": "AI 技能将 Figma 设计转为移动代码",
-    "summary": "ClawHub 推出新技能，支持 Figma 到 Android/iOS 代码自动转换，降低开发门槛。",
-    "detail": "ClawHub 推出全新 AI 代理技能，旨在打通设计与开发环节。该技能支持将 Figma 设计稿直接转换为 Android (Compose/XML) 和 iOS (SwiftUI/UIKit) 代码。工作流包含自动获取设计数据、分析结构及组件状态，并支持用户通过内联提示指定平台偏好。此举显著降低了前端开发门槛，为设计师提供了快速原型验证能力，是 AI 辅助编程领域的实用化进展，加速了设计到代码的转化流程。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Design"
-    ],
-    "link": "https://clawhub.ai/timeaground/figma-to-mobile",
-    "date": "2026-04-07",
-    "id": "17755682698593"
   }
 ]
