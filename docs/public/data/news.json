@@ -1,5 +1,70 @@
 [
   {
+    "title": "Anthropic 最强模型因风险暂缓发布",
+    "summary": "传闻 Anthropic 新模型 Mythos 因安全隐患推迟公开。",
+    "detail": "据 Euronews 报道，Anthropic 最强大的 AI 模型 Mythos Preview 被认为对公众发布过于危险，因此暂缓公开。这反映了业界对超级智能安全性的担忧加剧，可能影响后续模型发布策略。安全评估成为模型上线前的关键门槛，行业对高风险 AI 的监管态度趋于谨慎。此举可能引发关于 AI 透明度与安全平衡的广泛讨论，影响投资者信心及用户信任，标志着 AI 安全治理进入新阶段。未来模型或许将采用更严格的分级发布制度，确保技术红利与安全风险可控，为行业树立新标杆。",
+    "tags": [
+      "News",
+      "LLM",
+      "Safety"
+    ],
+    "link": "https://www.euronews.com/next/2026/04/08/why-anthropics-most-powerful-ai-model-mythos-preview-is-too-dangerous-for-public-release",
+    "date": "2026-04-08",
+    "id": "17756496350260"
+  },
+  {
+    "title": "北大团队 AI 自动证明数学猜想",
+    "summary": "北大团队实现 AI 自动发现并验证代数开放问题。",
+    "detail": "北京大学北京国际数学研究中心团队取得突破，AI 框架自主发现并验证了交换代数中的开放问题，生成约 19000 行 Lean 4 代码。董彬教授团队结合自然语言推理与形式验证，标志着 AI 辅助数学研究的重要里程碑。端到端管道展示了 AI 在科研领域的潜力。该成果证明了 AI 不仅能辅助计算，还能进行创造性推理。团队成员包括刘若川院士等顶尖学者，融合了代数几何与机器学习优势。这将加速数学研究进程，为科学发现提供新范式，推动 AI for Science 落地。",
+    "tags": [
+      "News",
+      "Research",
+      "Math"
+    ],
+    "link": "https://chinaresearchcollective.substack.com/p/a-new-breakthrough-in-ai-solving",
+    "date": "2026-04-08",
+    "id": "17756496350261"
+  },
+  {
+    "title": "本地 AI 代理提示注入检测工具",
+    "summary": "无需 API 调用的本地提示注入防御 NPM 包。",
+    "detail": "@stackone/defender 是一款用于 AI 代理的本地提示注入检测工具。它通过两级防御管道（模式匹配 + ML 分类器）在工具结果到达 LLM 前拦截恶意注入。包内含 ONNX 模型，无需额外下载，适合需要高安全性且不希望依赖外部 API 的开发场景，有效保护代理安全。支持 MCP、CLI 或直接函数调用，能识别隐藏在邮件、文档中的攻击载荷。开发者可配置风险阈值，实现自动化拦截。这解决了代理系统面临的关键安全痛点，降低了部署复杂度和延迟，提升了企业级应用的安全性。",
+    "tags": [
+      "Dev",
+      "Security",
+      "NPM"
+    ],
+    "link": "https://www.npmjs.com/package/@stackone/defender",
+    "date": "2026-04-08",
+    "id": "17756496350262"
+  },
+  {
+    "title": "开源 AI 代理与内部软件平台",
+    "summary": "可本地构建并随处部署的开源 AI 代理平台。",
+    "detail": "RootCX 是一个开源平台，旨在构建安全的内部软件和 AI 代理。支持本地构建并部署到任何环境，强调安全性与灵活性。适合希望私有化部署 AI 工作流的企业开发者，提供了替代专有云方案的新选择，助力开发者掌控数据与模型主权。平台允许团队在本地环境中开发复杂代理逻辑，避免敏感数据外泄。通过开源社区协作，可快速迭代功能并修复漏洞。这降低了企业采用 AI 代理的门槛，促进了内部工具的创新，为构建可信 AI 生态系统提供了基础设施支持。",
+    "tags": [
+      "New",
+      "OpenSource",
+      "Agents"
+    ],
+    "link": "https://github.com/RootCX/RootCX",
+    "date": "2026-04-08",
+    "id": "17756496350263"
+  },
+  {
+    "title": "社区热议 AI 出错是否应退还积分",
+    "summary": "开发者讨论 AI 生成错误代码是否该退款。",
+    "detail": "Hacker News 社区发起关于 AI 服务计费模式的讨论。用户指出当 AI 生成错误代码需额外消耗积分验证时，感觉不公平。这反映了 AI 商业化进程中服务质量与计费合理性之间的矛盾，可能推动行业服务标准的优化，引发对消费者权益的关注。提问者使用 Claude 订阅，发现需启动子代理验证信息，消耗了额外额度。社区观点不一，有人认为这是技术成本，有人主张按结果付费。这可能促使厂商推出更灵活的计费方案，如按成功任务计费，改善用户体验。",
+    "tags": [
+      "News",
+      "Community",
+      "Billing"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47688712",
+    "date": "2026-04-08",
+    "id": "17756496350264"
+  },
+  {
     "title": "Google Vertex AI 接入 Claude Mythos 模型",
     "summary": "Google Cloud 宣布 Claude Mythos 预览版登陆 Vertex AI，强化企业级 AI 部署能力。",
     "detail": "Google Cloud 博客正式宣布 Anthropic 的 Claude Mythos 模型现已在 Vertex AI 上提供私人预览。此举标志着 Google 与 Anthropic 合作的进一步深化，允许企业用户通过 Google 的基础设施安全地调用顶级推理模型。核心技术在于 Vertex AI 的集成能力，支持私有化部署与合规管理。行业影响显著，降低了企业使用前沿大模型的门槛，巩固了 Google Cloud 在 AI 基础设施领域的竞争地位，为金融、医疗等高合规要求场景提供了新选择，展示了云厂商与大模型初创公司合作的成熟模式。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/010zx00x1/Awesome-Physical-Engineering-AI",
     "date": "2026-04-07",
     "id": "17755291841654"
-  },
-  {
-    "title": "面向印度健身教练的 AI 训练计划生成器上线",
-    "summary": "CoachIQ 利用 AI 生成周训练计划，并通过 WhatsApp 分享。",
-    "detail": "新产品 CoachIQ 针对印度私人教练市场，解决手动制作训练计划耗时问题。用户输入客户档案，AI 在 60 秒内生成周计划并通过 WhatsApp 链接分享，无需下载 App。采用免费试用加低价订阅模式。该产品展示了 AI 在垂直领域结合本地化通讯工具（WhatsApp）落地的典型案例，具有区域市场参考价值。",
-    "tags": [
-      "New",
-      "Fitness",
-      "SaaS"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47669470",
-    "date": "2026-04-07",
-    "id": "17755291841655"
-  },
-  {
-    "title": "科技巨头裁员押注 AI，回报仍不确定",
-    "summary": "科技公司削减岗位赌注 AI 转型，但收益尚未保证，行业面临结构调整。",
-    "detail": "新闻指出科技行业正经历裁员潮，企业试图通过 AI 降低成本并提高效率。然而，分析显示这种赌注的回报并不确定。虽然 AI 能自动化部分任务，但大规模裁员可能损害创新能力。企业需在削减成本与保持核心竞争力之间找到平衡，避免过度依赖技术而忽视人力资本的价值，行业 payoff 尚未得到保证。",
-    "tags": [
-      "News",
-      "Layoffs",
-      "Industry"
-    ],
-    "link": "https://www.theguardian.com/technology/2026/apr/06/tech-layoffs-ai-work",
-    "date": "2026-04-06",
-    "id": "17755595062860"
-  },
-  {
-    "title": "阿里巴巴 Accio AI 重塑小型电商选品流程",
-    "summary": "阿里巴巴推出 Accio AI 工具，帮助小型卖家快速连接制造商，缩短产品从创意到上市的时间。",
-    "detail": "传统小型电商选品与供应链对接通常耗时数月，涉及大量人工沟通。阿里巴巴推出的 Accio AI 工具正在改变这一现状，它利用 AI 连接全球制造商。案例显示，卖家只需输入原始设计参数与成本，AI 即可建议改进方案并匹配工厂。这显著缩短了从创意到上市的时间，降低了供应链门槛，使个人卖家能更敏捷地响应市场需求。标志着 AI 正从内容生成向实体供应链深度渗透，重塑小型商业的基础设施。",
-    "tags": [
-      "News",
-      "E-commerce",
-      "Supply Chain"
-    ],
-    "link": "https://www.technologyreview.com/2026/04/06/1135118/ai-online-seller-alibaba-accio/",
-    "date": "2026-04-06",
-    "id": "17755465221700"
-  },
-  {
-    "title": "警告：切勿让 AI 代理直接操作生产环境数据库",
-    "summary": "专家警告 AI 生成的 SQL 虽语法正确但可能引发性能问题或锁表，建议限制 AI 对生产库的直接访问。",
-    "detail": "数据库专家警告，切勿让 AI 代理直接操作生产环境数据库。AI 生成的 SQL 虽语法正确，但缺乏对生产环境锁表、执行计划与并发影响的理解。2025 年曾发生 AI 代理误删生产库的灾难性案例。建议限制 AI 直接访问生产库，避免静默性能损害。开发者需确保代理拥有环境“视力”，而非仅依赖 schema 文件，通过隔离测试环境保障数据库稳定性与数据安全。",
-    "tags": [
-      "Dev",
-      "Database",
-      "Security"
-    ],
-    "link": "https://boringsql.com/posts/dont-let-ai-to-prod/",
-    "date": "2026-04-06",
-    "id": "17755465221704"
-  },
-  {
-    "title": "CelestoAI 开源 SmolVM 沙盒",
-    "summary": "开源沙盒支持代码执行与浏览器代理，助力 AI Agent 安全运行。",
-    "detail": "CelestoAI 发布 SmolVM，这是一个开源沙盒环境，专为运行 AI 代码、浏览器代理及计算机操作设计。在 AI Agent 自主执行任务日益普及的背景下，安全隔离至关重要。该项目提供了代码执行和浏览器使用的沙盒化解决方案，降低了恶意代码风险。对于开发者而言，这是构建可靠 AI 代理基础设施的重要工具，有助于推动 Agent 技术在企业级应用中的落地，解决了自动化操作中的安全信任难题。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "AI Agents"
-    ],
-    "link": "https://github.com/CelestoAI/smolVM",
-    "date": "2026-04-06",
-    "id": "17755187192610"
   }
 ]
