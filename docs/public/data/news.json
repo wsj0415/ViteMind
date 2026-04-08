@@ -1,5 +1,70 @@
 [
   {
+    "title": "Databricks 联合创始人获 ACM 奖，宣称 AGI 已到来",
+    "summary": "Databricks 联合创始人获 ACM 奖，直言 AGI 已经存在。",
+    "detail": "**背景**：Databricks 联合创始人 Matei Zaharia 荣获计算机领域著名的 ACM 奖，引发业界广泛关注。\n**核心观点**：他在获奖后明确表示\"AGI 已经在这里了\"，这一言论挑战了当前关于 AGI 时间表的共识。\n**影响**：作为大数据与 AI 基础设施的关键人物，此观点可能加速企业对 AI 基础设施的投入，标志着 AI 行业从探索期进入成熟应用期的心理转折点。对于从业者而言，这意味着需更快适应 AI 原生工作流，重新评估技术路线图。",
+    "tags": [
+      "News",
+      "AGI",
+      "Databricks"
+    ],
+    "link": "https://techcrunch.com/2026/04/08/databricks-matei-zaharia-wins-acm-computing-prize-agi/",
+    "date": "2026-04-08",
+    "id": "17756613578120"
+  },
+  {
+    "title": "StormScope：为 AI 助手接入实时天气数据的 MCP 服务器",
+    "summary": "开源 MCP 服务器，聚合 7 大来源为 AI 提供实时美国天气数据。",
+    "detail": "**背景**：大型语言模型缺乏实时气象数据接入能力，易产生幻觉。\n**技术**：StormScope 是一个开源 MCP 服务器，聚合 NOAA、NWS 等 7 个权威数据源，提供 9 个工具调用接口。\n**价值**：让 AI 助手能基于真实观测回答严重天气风险等问题，填补了 AI 在实时环境数据感知上的空白。适合开发者构建气象相关 Agent，提升回答准确性，且完全免费开源，便于集成到现有 AI 工作流中。",
+    "tags": [
+      "Dev",
+      "MCP",
+      "OpenSource"
+    ],
+    "link": "https://jmthornton.net/blog/p/stormscope/",
+    "date": "2026-04-08",
+    "id": "17756613578121"
+  },
+  {
+    "title": "50 行 Python 代码实现去中心化 P2P AI 系统",
+    "summary": "教程教你用 50 行 Python 构建本地 P2P AI，保护隐私。",
+    "detail": "**背景**：隐私保护成为本地 AI 部署的关键需求，云端依赖存在风险。\n**技术**：教程通过 50 行 Python 代码，结合 Ollama 和 WhatsApp 桥接，实现本地数据响应的 P2P AI。\n**核心**：利用特定上下文文件夹保护隐私，无需云端传输。\n**影响**：降低了去中心化 AI 的开发门槛，为开发者提供了构建隐私优先 AI 应用的基础框架和代码参考，适合关注数据主权的技术团队探索。",
+    "tags": [
+      "Dev",
+      "Python",
+      "Privacy"
+    ],
+    "link": "https://iamtrask.github.io/2026/04/07/decentralized-ai-in-50-lines/",
+    "date": "2026-04-08",
+    "id": "17756613578122"
+  },
+  {
+    "title": "AI Daemons 规范：定义 AI 守护进程的角色文件格式",
+    "summary": "发布严谨的.md 规范，定义 AI 守护进程的角色与权限。",
+    "detail": "**背景**：AI Agent 需要持续运行的角色定义而非单次任务，缺乏标准规范。\n**规范**：提出了 DAEMON.md 文件格式，包含 purpose、routines、deny 等 YAML frontmatter。\n**价值**：标准化了 AI 守护进程的配置，明确了权限边界和持续责任，有助于开发更稳定、可控的长期运行 AI 系统。这是 Agent 工程化的重要一步，为复杂 AI 系统的维护提供了可参考的结构化方案。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Spec"
+    ],
+    "link": "https://ai-daemons.com/spec/",
+    "date": "2026-04-08",
+    "id": "17756613578123"
+  },
+  {
+    "title": "Chilcy AI：免费 CSV 数据洞察与 KPI 分析平台",
+    "summary": "支持上传 CSV 获取洞察，提供免费数据质量检查等工具。",
+    "detail": "**产品**：Chilcy 是一款 AI 驱动的高管情报平台，支持连接数据库或上传 Excel/CSV。\n**功能**：可用自然语言查询 KPI，自动生成预测和异常警报，无需 IT 支持。\n**优惠**：提供 14 天免费试用，且无需信用卡。另有免费工具如 CSV 数据质量检查器，适合非技术人员快速获取数据洞察，降低数据分析门槛，提升业务决策效率。",
+    "tags": [
+      "New",
+      "Data",
+      "SaaS"
+    ],
+    "link": "https://www.chilcy.com/",
+    "date": "2026-04-08",
+    "id": "17756613578124"
+  },
+  {
     "title": "Anthropic 最强模型因风险暂缓发布",
     "summary": "传闻 Anthropic 新模型 Mythos 因安全隐患推迟公开。",
     "detail": "据 Euronews 报道，Anthropic 最强大的 AI 模型 Mythos Preview 被认为对公众发布过于危险，因此暂缓公开。这反映了业界对超级智能安全性的担忧加剧，可能影响后续模型发布策略。安全评估成为模型上线前的关键门槛，行业对高风险 AI 的监管态度趋于谨慎。此举可能引发关于 AI 透明度与安全平衡的广泛讨论，影响投资者信心及用户信任，标志着 AI 安全治理进入新阶段。未来模型或许将采用更严格的分级发布制度，确保技术红利与安全风险可控，为行业树立新标杆。",
@@ -1233,70 +1298,5 @@
     "link": "https://wan27.co",
     "date": "2026-04-07",
     "id": "17755387557385"
-  },
-  {
-    "title": "Claude Agent SDK 与 Messages API 生产环境选型探讨",
-    "summary": "开发者讨论在生产环境中选用 Claude SDK 还是 API 的架构权衡。",
-    "detail": "社区热议在 B2B 开发者工具中集成 Claude 的最佳实践。Agent SDK 虽提供会话管理和钩子，但存在子进程开销大、文件系统会话不适合多租户 Web 后端等问题。相比之下，Messages API 虽需自建代理循环，但更契合 Web 架构。该讨论为构建生产级 AI 助手提供了重要的架构参考，避免了盲目使用 SDK 导致的性能瓶颈。",
-    "tags": [
-      "Dev",
-      "Claude",
-      "Architecture"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47669957",
-    "date": "2026-04-07",
-    "id": "17755291841650"
-  },
-  {
-    "title": "量子计算有望解决 AI 可持续发展难题",
-    "summary": "日本时报文章探讨量子计算如何改善 AI 能源消耗问题。",
-    "detail": "媒体评论指出量子计算可能成为解决 AI 可持续性问题的关键。随着 AI 模型规模扩大，能源消耗成为瓶颈。文章推测量子技术能优化计算效率，降低碳足迹。虽然目前多为理论探讨，但指出了未来算力与环保结合的重要方向，值得关注量子与 AI 交叉领域的进展，可能影响未来数据中心建设策略。",
-    "tags": [
-      "News",
-      "Quantum",
-      "Sustainability"
-    ],
-    "link": "https://www.japantimes.co.jp/commentary/2026/04/06/world/quantum-computing-ais-sustainability-problem/",
-    "date": "2026-04-07",
-    "id": "17755291841651"
-  },
-  {
-    "title": "号称基准测试得分最高的 AI 记忆系统开源",
-    "summary": "GitHub 开源项目 MemPalace 宣称拥有最高基准测试得分。",
-    "detail": "新项目 MemPalace 在 GitHub 发布，声称是经过基准测试得分最高的 AI 记忆系统，且免费开放。该系统旨在优化 LLM 的长期记忆与上下文管理，解决模型遗忘问题。对于需要构建复杂 RAG 应用或长对话代理的开发者，这是一个值得评估的新组件，可能简化记忆模块的开发流程，提升代理的连贯性。",
-    "tags": [
-      "Dev",
-      "Memory",
-      "OpenSource"
-    ],
-    "link": "https://github.com/milla-jovovich/mempalace",
-    "date": "2026-04-07",
-    "id": "17755291841652"
-  },
-  {
-    "title": "面向代理时代的 CLI 安全扫描工具 Ship-Safe",
-    "summary": "新工具检测 AI 代理中的 MCP 注入、密钥泄露等安全风险。",
-    "detail": "针对 AI 代理普及带来的安全隐患，开源项目 Ship-Safe 推出 CLI 安全扫描器。它能检测 CI/CD 配置错误、代理权限风险、MCP 工具注入及硬编码密钥。随着 AI 自主执行代码能力增强，此类安全工具成为开发流程必需品，帮助团队在部署前识别潜在的代理滥用或数据泄露风险，保障系统安全。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agents"
-    ],
-    "link": "https://github.com/asamassekou10/ship-safe",
-    "date": "2026-04-07",
-    "id": "17755291841653"
-  },
-  {
-    "title": "机械工程师专用的 AI 工具精选清单",
-    "summary": "GitHub curated list 涵盖 CAD、仿真及制造领域的 AI 工具。",
-    "detail": "开源列表 Awesome-Physical-Engineering-AI 整理了针对硬件工程的 AI 工具。涵盖生成式几何、拓扑优化、AI 仿真、数字孪生及机器人控制等类别。这填补了软件主导的 AI 清单中硬件工程的空白，为机械工程师利用 AI 优化设计、制造和维护流程提供了权威的资源索引，促进物理工程与 AI 融合。",
-    "tags": [
-      "Dev",
-      "Engineering",
-      "Resources"
-    ],
-    "link": "https://github.com/010zx00x1/Awesome-Physical-Engineering-AI",
-    "date": "2026-04-07",
-    "id": "17755291841654"
   }
 ]
