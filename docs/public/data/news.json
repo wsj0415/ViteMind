@@ -1,5 +1,83 @@
 [
   {
+    "title": "AWS 负责人解析同时投资 Anthropic 与 OpenAI 的战略逻辑",
+    "summary": "AWS 高管解释为何数十亿投资两家竞争对手并非利益冲突，展现云厂商中立策略。",
+    "detail": "亚马逊 AWS 高层近期正式回应了关于同时向 Anthropic 和 OpenAI 投资数十亿美元的质疑。负责人表示，这并非利益冲突，而是云服务商的中立策略，旨在为客户提供多样化的模型选择，避免锁定。此举标志着云基础设施巨头不再绑定单一模型供应商，而是构建包容性的 AI 生态。这对行业意味着模型竞争将更聚焦于性能而非独家绑定，开发者将获得更多部署灵活性。云厂商间的模型战争进入新阶段，基础设施层与模型层的博弈加剧，未来可能看到更多跨模型的基础设施优化，投资者需关注云厂商在 AI 供应链中的主导权变化。",
+    "tags": [
+      "News",
+      "AWS",
+      "Strategy"
+    ],
+    "link": "https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/",
+    "date": "2026-04-08",
+    "id": "17756812136150"
+  },
+  {
+    "title": "Google Research 推出论文可视化与同行评审 AI 智能体",
+    "summary": "Google 发布 PaperVizAgent 和 ScholarPeer，利用 AI 优化学术工作流与评审效率。",
+    "detail": "Google Research 宣布推出两款新型智能体框架：PaperVizAgent 用于自动生成高质量学术图表，ScholarPeer 用于自动严格评估论文。针对学术出版压力过大和评审疲劳问题，这些工具旨在让科学家专注于创新而非行政开销。评估显示 PaperVizAgent 生成的图表质量优于人类专家。这标志着 AI 正从研究客体转变为科学过程的主动参与者，可能重塑学术出版流程，提高科研效率。但也引发关于 AI 评审公正性的新讨论，未来学术期刊可能需制定新的 AI 使用规范，确保研究诚信不受自动化流程影响。",
+    "tags": [
+      "News",
+      "Google",
+      "Research"
+    ],
+    "link": "https://research.google/blog/improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review/",
+    "date": "2026-04-08",
+    "id": "17756812136151"
+  },
+  {
+    "title": "分析称 AI 生成代码正在架空开源社区版权体系",
+    "summary": "文章指出 LLM 代码不可版权化，导致开源许可证失效，价值从项目中流失。",
+    "detail": "最新分析指出，随着 Claude 等 AI 编码工具普及，维护者开始整合 LLM 贡献。由于美国版权局认定 LLM 输出不可版权化，这些代码进入公共领域，导致开源许可证（尤其是 Copyleft）失效。这意味着 AI 生成的代码可被无归属复用，甚至用于闭源项目。文章警告这是开源无关化的快车道，呼吁维护者警惕价值泄露。可能引发开源许可协议的重大修订浪潮，社区需重新定义人机协作下的版权边界。长期来看，这可能削弱开源项目的商业护城河，迫使基金会探索新的可持续资助模式。",
+    "tags": [
+      "News",
+      "Open Source",
+      "Legal"
+    ],
+    "link": "https://www.quippd.com/writing/2026/04/08/ai-code-is-hollowing-out-open-source-and-maintainers-are-looking-the-other-way.html",
+    "date": "2026-04-08",
+    "id": "17756812136152"
+  },
+  {
+    "title": "开发者报告 Cursor AI 代理故障导致 61GB 内存泄漏",
+    "summary": "GitHub 文档记录 Cursor AI 代理失败导致硬件损坏及支持疏忽，引发开发者关注。",
+    "detail": "一名开发者在 GitHub 发布详细报告，记录 Cursor AI 代理失败导致 61.5GB 内存泄漏，造成硬件损坏及支持团队疏忽。该报告揭示了 AI 编码工具在资源管理上的潜在风险，特别是长时间运行代理时的稳定性问题。这对于依赖 AI 辅助编程的开发团队是重要警示，建议在生产环境中监控资源使用，并评估 AI 代理的容错机制，避免类似硬件损失。工具稳定性仍是落地关键，厂商需加强测试流程，用户应建立资源报警机制，防止单一工具故障导致系统级崩溃。",
+    "tags": [
+      "Dev",
+      "Cursor",
+      "Bug"
+    ],
+    "link": "https://github.com/blackysdeamon/cursor-ai-negligence-report",
+    "date": "2026-04-08",
+    "id": "17756812136153"
+  },
+  {
+    "title": "Darwin Ads 提供 2500 美元免费 AI 广告植入额度",
+    "summary": "新平台提供首次活动免费植入机会，支持在创作者视频中放置 AI 产品广告。",
+    "detail": "Darwin Ads 推出促销活动，为新用户提供价值约 2500 美元的免费广告植入额度。该平台专注于在创作者视频中嵌入 AI 产品广告，由 Google、Disney 等 backers 支持。用户可通过 API 或界面启动活动。这对于希望低成本测试视频广告效果的 AI 初创公司是难得机会。优惠限时，适合需要快速获取用户反馈的早期产品，需注意条款细则。是营销侧的低成本获客尝试，利用创作者影响力进行产品植入，相比传统广告更具原生性，转化率可能更高。",
+    "tags": [
+      "Deal",
+      "Ads",
+      "Marketing"
+    ],
+    "link": "https://ads.darwin.so/?promo=UMTXQA",
+    "date": "2026-04-08",
+    "id": "17756812136154"
+  },
+  {
+    "title": "Comad World：基于 YAML 配置的六智能体知识图谱系统",
+    "summary": "开源项目通过单一 YAML 文件配置 6 个 AI 代理，自动构建可搜索知识图谱。",
+    "detail": "Comad World 是一个配置驱动的 AI 代理系统，仅需一个 YAML 文件即可部署 6 个模块（爬取、理解、模拟等）。它支持从 RSS、论文和 GitHub 抓取数据构建每日更新的知识图谱。该项目兼容 Claude Code，适合开发者快速搭建个人知识库。其模块化设计允许通过更换预设轻松切换领域，降低了多智能体系统的部署门槛。是本地知识管理的有效解决方案，开源协议为 MIT。对于希望私有化部署知识管理系统的团队，该项目提供了可参考的架构实现，支持自定义数据源。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Knowledge Graph"
+    ],
+    "link": "https://github.com/kinkos1234/comad-world",
+    "date": "2026-04-08",
+    "id": "17756812136155"
+  },
+  {
     "title": "Anthropic 限制新网络安全模型 Mythos 访问",
     "summary": "Anthropic 推出安全模型 Mythos 并限制访问权限。",
     "detail": "Anthropic **正式发布**专注于网络安全的新模型 Mythos，但随即宣布限制访问范围，仅向特定区域用户开放。此举旨在防止模型被滥用于攻击性网络任务，体现了 AI 安全领域的谨慎态度。对于依赖 AI 进行安全审计的企业，需关注后续合规访问渠道。这标志着 AI 厂商在双刃剑效应上的最新管控措施，平衡能力开放与风险控制，可能影响安全自动化流程的部署策略及行业合规标准。未来企业需评估此类受限模型在实际防御中的可用性，并准备备选方案以应对潜在的访问壁垒。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/bitjaru/styleseed",
     "date": "2026-04-07",
     "id": "17755595062863"
-  },
-  {
-    "title": "2026 年 AI 代理开发工具格局重估",
-    "summary": "行业分析指出 RAG 等功能已商品化，OpenAI 收购 Promptfoo 引发关注。",
-    "detail": "n8n 博客分析认为，2025 年是代理之年，2026 年需重新审视开发工具。RAG、记忆等功能已逐渐商品化，原生 LLM 服务已集成网页搜索等能力。文中提到 Promptfoo 已被 OpenAI 收购，评估工具格局变化。MCP 协议经历起伏，开发者应关注差异化功能如语义重排序，而非基础构建块，行业向高级编排演进。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Agents"
-    ],
-    "link": "https://blog.n8n.io/we-need-re-learn-what-ai-agent-development-tools-are-in-2026/",
-    "date": "2026-04-07",
-    "id": "17755595062864"
-  },
-  {
-    "title": "PrismerCloud：AI 智能体协同进化框架",
-    "summary": "GitHub 开源项目，让 AI 智能体从错误中学习并共享策略。",
-    "detail": "PrismerCloud 是一个旨在促进 AI 智能体进化的开源框架。其核心机制在于“错误即策略”，智能体能够从每次会话中学习，将错误转化为策略，修复方案转化为推荐，并在所有智能体间共享。这种协同学习模式有望解决单一智能体迭代成本高的问题，为多智能体系统的自我优化提供了新路径，适合开发者构建具备持续进化能力的 Agent 应用。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "OpenSource"
-    ],
-    "link": "https://github.com/Prismer-AI/PrismerCloud",
-    "date": "2026-04-07",
-    "id": "17755528370810"
-  },
-  {
-    "title": "Senthex：仅需一行代码的 LLM API 防火墙",
-    "summary": "透明反向代理，扫描提示词注入与数据泄露，延迟仅 16ms。",
-    "detail": "Senthex 推出了一款专为 LLM API 调用设计的安全防火墙。作为透明反向代理，它支持 OpenAI、Anthropic 等主流模型，提供提示词注入检测、PII 泄露扫描及意图分析等 24 种防护盾。其最大亮点是集成简便，仅需修改一行代码即可接入，且额外开销低至 16ms。该工具符合欧盟 AI 法案要求，为开发者在生产环境中部署安全的 AI 应用提供了轻量级解决方案。",
-    "tags": [
-      "Dev",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://senthex.com/proxy/",
-    "date": "2026-04-07",
-    "id": "17755528370811"
-  },
-  {
-    "title": "Seedance 2.0：电影级质感的 AI 视频生成新品",
-    "summary": "支持文生视频与图生视频，优化物理引擎与动态纹理渲染。",
-    "detail": "Seedance 2.0 是一款全新的 AI 视频生成工具，支持文本到视频及图像到视频的转换。基于统一的多模态架构，它在处理复杂动态场景（如舞蹈动作、衣物物理反馈）方面表现突出，解决了传统模型常见的模糊与伪影问题。通过优化物理引擎与纹理渲染，该工具能生成具有电影级质感的视频内容，适用于需要高精度编辑与真实运动表现的内容创作场景。",
-    "tags": [
-      "New",
-      "Video",
-      "Multimodal"
-    ],
-    "link": "https://www.seedance2ai.net/",
-    "date": "2026-04-07",
-    "id": "17755528370812"
-  },
-  {
-    "title": "oncell.ai：为 AI 智能体提供隔离计算环境",
-    "summary": "无需构建基础设施，为用户提供独立存储与数据库的 Agent 平台。",
-    "detail": "oncell.ai 是一个面向 AI 智能体的计算平台，旨在简化基础设施搭建。它为每个用户提供隔离的运行环境，包含文件存储、数据库及搜索功能。开发者只需编写 Agent 逻辑，通过 API 即可秒级创建环境。其特色在于会话暂停机制，用户离开时环境自动休眠，成本极低（闲置时$0.003/小时），大幅降低了多用户 Agent 应用的部署门槛与运营成本。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "Agent"
-    ],
-    "link": "https://oncell.ai",
-    "date": "2026-04-07",
-    "id": "17755528370813"
-  },
-  {
-    "title": "Annexa：基于代码库自动生成欧盟 AI 法案合规文档",
-    "summary": "开发者工具 Annexa 可分析代码库，自动生成欧盟 AI 法案所需的 Annex IV 技术文档，简化合规流程。",
-    "detail": "随着 2026 年 8 月欧盟 AI 法案截止日期临近，开发者面临巨大的合规文档压力。Annexa 工具旨在解决这一痛点，通过上传代码库自动提取模型细节与数据引用，进行风险分类并生成完整的 Annex IV 技术文档。支持 Python 脚本解析，实时更新合规清单。该工具专为无专门法规团队的开发者设计，将数周的手动工作压缩至数小时，显著降低合规成本，确保 AI 系统在监管框架下安全部署。",
-    "tags": [
-      "Dev",
-      "Compliance",
-      "Legal"
-    ],
-    "link": "https://annexa.eu/",
-    "date": "2026-04-07",
-    "id": "17755465221701"
   }
 ]
