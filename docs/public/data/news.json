@@ -1,5 +1,44 @@
 [
   {
+    "title": "ChatGPT 推出每月 100 美元 Pro 计划",
+    "summary": "OpenAI 正式推出高价 Pro 套餐，面向重度用户与开发者。",
+    "detail": "TechCrunch 报道 OpenAI 终于推出了定价为 100 美元/月的 ChatGPT Pro 计划。此举旨在满足重度用户及专业开发者的需求，提供更高的使用限额及潜在的高级模型访问权限。这标志着 AI 订阅模式的进一步分层，可能成为行业定价新标杆，显示厂商开始探索高净值用户市场，对竞争格局产生影响。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Pricing"
+    ],
+    "link": "https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/",
+    "date": "2026-04-09",
+    "id": "17757713232430"
+  },
+  {
+    "title": "Camofox：专为 AI 代理设计的反检测浏览器",
+    "summary": "基于 Camoufox 引擎，帮助 AI 代理绕过网站封锁。",
+    "detail": "GitHub 新项目 camofox-browser 发布，这是一个专为 AI 代理设计的无头浏览器自动化服务器。基于 Camoufox 引擎（Firefox fork），具备 C++ 级别的指纹 spoofing 能力。它允许 AI 代理访问通常被封锁的网站，解决了代理在执行网络任务时的反爬虫痛点，支持 Docker 部署，方便集成到现有自动化流程中。",
+    "tags": [
+      "Dev",
+      "Browser",
+      "Automation"
+    ],
+    "link": "https://github.com/jo-inc/camofox-browser",
+    "date": "2026-04-09",
+    "id": "17757713232433"
+  },
+  {
+    "title": "AI 微短剧正在重塑中国娱乐业",
+    "summary": "经济学人报道 AI 生成内容在中国短剧市场的爆发。",
+    "detail": "《经济学人》指出 AI 微短剧正在颠覆中国娱乐行业。利用生成式 AI 技术，制作成本大幅降低，产出速度显著提升。这一趋势不仅改变了内容消费模式，也为 AI 视频生成技术的商业化落地提供了大规模场景，值得全球娱乐科技行业关注，显示内容生成领域的快速变现能力及技术成熟度。",
+    "tags": [
+      "News",
+      "Video",
+      "China"
+    ],
+    "link": "https://economist.com/china/2026/04/09/ai-micro-dramas-are-shaking-up-chinese-entertainment",
+    "date": "2026-04-09",
+    "id": "17757713232435"
+  },
+  {
     "title": "佛罗里达州调查 OpenAI 涉枪击案",
     "summary": "州检察长因 ChatGPT 涉嫌卷入枪击案调查 OpenAI",
     "detail": "佛罗里达州总检察长正式宣布对 OpenAI 展开调查，起因是一起枪击事件中被指控涉及 ChatGPT 的使用建议。此举被视为 AI 安全领域的重大法律测试，可能确立平台对生成内容后果的责任边界。若调查深入，将迫使各大模型厂商加强内容过滤与安全对齐，行业合规成本预计显著上升。此外，这也可能引发更多关于 AI 生成内容法律责任的诉讼，改变科技公司免责条款的有效性，对整个生成式 AI 行业的商业模式产生深远影响。监管机构可能会要求模型记录更详细的用户交互日志，这将引发隐私与安全的新争议，行业需平衡安全与用户隐私。",
@@ -637,6 +676,19 @@
     "id": "17757017333653"
   },
   {
+    "title": "企业级 AI 代理安全连接工具指南",
+    "summary": "Arcade 发布架构指南，解决代理连接企业工具的安全问题。",
+    "detail": "Arcade.dev 发布 2026 架构指南，探讨如何安全地将 AI 代理连接到企业生产力工具。目前多数代理仅能分析无法执行，该指南提供了实现安全执行层的方案。这对于希望将 AI 代理集成到内部工作流的企业开发者至关重要，涉及权限管理与工具调用模式，保障数据安全，防止敏感信息泄露。",
+    "tags": [
+      "Dev",
+      "Enterprise",
+      "Security"
+    ],
+    "link": "https://www.arcade.dev/blog/connect-ai-agents-enterprise-tools/",
+    "date": "2026-04-08",
+    "id": "17757713232434"
+  },
+  {
     "title": "AI 代理实用性与研究现状深度分析",
     "summary": "探讨 AI 代理研究滞后于行业部署的现状与挑战。",
     "detail": "作者研究 AI 代理两年，指出学术研究速度远不及行业部署，尤其是 AI 辅助编程加速了工具迭代。小规模实验易被新模型淘汰。虽然技术获取门槛降低，无长期护城河，但管理者急于采用却缺乏评估。文章探讨了 AI 代理实用性的观点分歧，强调在快速变化中保持实验稳健性的挑战。研究者无需担心落后，但企业需理性评估成本与用途。技术普及使得竞争加剧，唯有深入理解场景才能发挥价值。开源模型让技术更易得，但有效使用仍需智慧。",
@@ -1246,57 +1298,5 @@
     "link": "https://news.ycombinator.com/item?id=47688712",
     "date": "2026-04-08",
     "id": "17756496350264"
-  },
-  {
-    "title": "Google Vertex AI 接入 Claude Mythos 模型",
-    "summary": "Google Cloud 宣布 Claude Mythos 预览版登陆 Vertex AI，强化企业级 AI 部署能力。",
-    "detail": "Google Cloud 博客正式宣布 Anthropic 的 Claude Mythos 模型现已在 Vertex AI 上提供私人预览。此举标志着 Google 与 Anthropic 合作的进一步深化，允许企业用户通过 Google 的基础设施安全地调用顶级推理模型。核心技术在于 Vertex AI 的集成能力，支持私有化部署与合规管理。行业影响显著，降低了企业使用前沿大模型的门槛，巩固了 Google Cloud 在 AI 基础设施领域的竞争地位，为金融、医疗等高合规要求场景提供了新选择，展示了云厂商与大模型初创公司合作的成熟模式。",
-    "tags": [
-      "News",
-      "Google",
-      "LLM"
-    ],
-    "link": "https://cloud.google.com/blog/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai",
-    "date": "2026-04-08",
-    "id": "17756460391070"
-  },
-  {
-    "title": "ZeroKeep：基于 WebGPU 的浏览器端私有 AI 工作区",
-    "summary": "完全在浏览器运行的私有 AI 工具，无需后端，利用 WebGPU 实现本地加速。",
-    "detail": "ZeroKeep 推出了一款完全私有的 AI 工作区，无需安装或账户，直接在浏览器中通过 WebGPU 运行模型。核心技术创新在于利用本地 GPU 进行推理，确保数据永不离开设备，同时支持真实文件系统访问和自定义工具。这对隐私敏感的开发者和用户极具吸引力，展示了端侧 AI 的潜力，可能改变云端 AI 服务的垄断格局，提供零成本、零设置的替代方案，让用户在享受 AI 便利的同时完全掌控数据主权，无需担心泄露风险，适合处理敏感文档。",
-    "tags": [
-      "Dev",
-      "Privacy",
-      "WebGPU"
-    ],
-    "link": "https://zerokeep.dev",
-    "date": "2026-04-08",
-    "id": "17756460391071"
-  },
-  {
-    "title": "HappyHorse 1.0：即时生成高质量 AI 视频的新工具",
-    "summary": "支持文本及图片转视频，提供商业版权与免费额度，简化视频创作流程。",
-    "detail": "HappyHorse 1.0 正式发布，这是一款面向大众的 AI 视频生成平台。用户可通过文本描述或静态图片生成动态视频，支持中英双语提示词。产品亮点包括赠送免费信用额度、无订阅锁定以及赋予用户完整的商业版权。技术层面采用了先进的视频生成模型，优化了多平台纵横比。此举降低了视频创作门槛，为营销和社交媒体内容创作者提供了高效、合规的生产力工具，解决了传统视频制作成本高、周期长的痛点，适合全球化内容分发。",
-    "tags": [
-      "New",
-      "Video",
-      "Generative AI"
-    ],
-    "link": "https://happyhorse.video",
-    "date": "2026-04-08",
-    "id": "17756460391072"
-  },
-  {
-    "title": "IEEE：AI 就绪模块化数据中心大幅缩短部署时间",
-    "summary": "新型卡车尺寸模块化数据中心问世，解决 AI 算力基础设施快速部署难题。",
-    "detail": "IEEE Spectrum 报道了一种新型 AI 就绪模块化数据中心，可装载于卡车上运输。该技术旨在解决 AI 算力需求激增导致的部署延迟问题。核心优势在于预制化设计，显著缩短了从规划到运营的时间周期。随着大模型训练对算力需求的爆炸式增长，传统数据中心建设速度已跟不上节奏。此类模块化方案将成为行业趋势，支持边缘计算和快速扩容，为 AI 基础设施提供灵活性，特别适用于需要快速部署算力的偏远地区或临时项目。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Hardware"
-    ],
-    "link": "https://spectrum.ieee.org/modular-data-center",
-    "date": "2026-04-08",
-    "id": "17756460391073"
   }
 ]
