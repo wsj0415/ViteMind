@@ -1,5 +1,57 @@
 [
   {
+    "title": "AnimTOON：高效 SVG 动画生成模型",
+    "summary": "3B 模型仅需 5GB 显存，令牌效率提升 3-4 倍，支持角色骨骼动画。",
+    "detail": "AnimTOON 是一款专为 LLM 设计的紧凑动画格式，可将 SVG 转换为 Lottie 动画。相比 OmniLottie (CVPR 2026)，其令牌消耗减少 3-4 倍，且能在消费级 GPU (5GB VRAM) 上运行。v3 版本支持多部分 SVG 动画及角色骨骼动画，基于 Spine 和 DragonBones 数据训练。模型开源托管于 HuggingFace，采用 MIT 许可，为开发者提供了低成本的矢量动画生成方案，显著降低了动画生成的计算门槛，适用于资源受限环境。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Animation"
+    ],
+    "link": "https://github.com/srk0102/AnimTOON",
+    "date": "2026-04-09",
+    "id": "17757780077780"
+  },
+  {
+    "title": "Bespoke OLAP：AI 合成专用数据库引擎",
+    "summary": "AI 自动生成 C++ 数据库引擎，查询速度提升最高 70 倍，成本约 120 美元。",
+    "detail": "加州大学伯克利分校 ADRS 项目提出 Bespoke OLAP，利用 LLM 引导代码生成，从头构建针对特定工作负载的 C++ 数据库引擎。实验显示，相比 DuckDB，TPC-H 测试总速度提升 11.78 倍，CEB 真实负载最高提升 70 倍。合成成本约 120 美元，耗时 6-12 小时，涉及 4-6 千次 LLM 交互，无需人工干预。该项目开源，展示了 AI 在系统研发领域的巨大潜力，挑战了通用数据库的性能瓶颈，为专用引擎设计提供新范式。",
+    "tags": [
+      "Dev",
+      "Database",
+      "Research"
+    ],
+    "link": "https://ucbskyadrs.github.io/blog/bespoke-olap/",
+    "date": "2026-04-09",
+    "id": "17757780077781"
+  },
+  {
+    "title": "估值 100 亿 AI 初创公司 Mercor 遭遇数据泄露",
+    "summary": "估值 100 亿 AI 企业 Mercor 遭遇数据泄露，引发行业安全与隐私关注。",
+    "detail": "TechCrunch 报道，估值达 100 亿美元的 AI 初创公司 Mercor 近期遭遇数据泄露。尽管公司本月业务活跃，但安全事件暴露了高速发展的 AI 企业在数据防护方面的潜在风险。该事件可能影响投资者信心及客户信任，凸显了 AI 行业在规模化过程中面临的安全合规挑战。作为高估值独角兽，其安全状况备受行业关注，具体泄露范围及后续应对措施仍在持续观察中，警示行业需平衡增长与安全。",
+    "tags": [
+      "News",
+      "Security",
+      "Startup"
+    ],
+    "link": "https://techcrunch.com/2026/04/09/after-data-breach-10b-valued-startup-mercor-is-having-a-month/",
+    "date": "2026-04-09",
+    "id": "17757780077782"
+  },
+  {
+    "title": "Monetary Pulsar：AI 分析全球央行政策情绪",
+    "summary": "AI 分析 26 家央行政策情绪，提供全球货币政策监控与预测服务。",
+    "detail": "新推出的 Monetary Pulsar 平台利用 AI sentiment analysis 技术监控全球 26 家中央银行的政策动向。产品提供指标、声明、预测及利率追踪功能，涵盖美联储、中国人民银行、印度储备银行等主要机构。通过自动化分析央行沟通内容，帮助投资者识别政策分歧与市场趋势，如匈牙利央行与中国人民银行的立场对比。该工具展示了 AI 在金融科技领域的垂直应用能力，辅助宏观决策，提供实时市场简报。",
+    "tags": [
+      "New",
+      "Finance",
+      "Sentiment Analysis"
+    ],
+    "link": "https://monetary.live/",
+    "date": "2026-04-09",
+    "id": "17757780077783"
+  },
+  {
     "title": "Anthropic 警告新模型存在公共发布风险",
     "summary": "Anthropic 表示最新 AI 模型因安全隐患暂不向公众开放。",
     "detail": "Anthropic 最新声明指出其研发的新模型存在潜在危险，不适合立即公开释放。这反映了头部大厂在 **AGI 安全对齐** 上的谨慎态度，可能影响后续模型发布节奏。行业需关注安全评估标准的演变，以及这对竞品发布策略的潜在连锁反应。**安全仍是 AI 发展的核心约束**。此消息源自 The Hill 报道，并在 Hacker News 引发讨论，显示公众对 AI 安全的高度关注。",
@@ -1246,57 +1298,5 @@
     "link": "https://github.com/onesuper/tui-use",
     "date": "2026-04-08",
     "id": "17756679346242"
-  },
-  {
-    "title": "Show HN: Kai 9000 开源 AI 直接构建屏幕界面",
-    "summary": "开源项目 Kai 支持 Web、Android 和 iOS，AI 不再仅生成文本而是构建 UI。",
-    "detail": "Kai 9000 是一个开源项目，专注于让 AI 构建屏幕而不仅是文本。支持 Web、Android、iOS 等多平台。该项目标志着 AI 生成内容从纯文本向实际可交互界面的转变，为多端应用开发提供了新的自动化可能性。通过跨平台支持，开发者可利用 AI 快速生成原生界面，显著降低 UI 开发门槛，推动 AI 编码向可视化方向发展。",
-    "tags": [
-      "New",
-      "UI",
-      "OpenSource"
-    ],
-    "link": "https://github.com/SimonSchubert/Kai",
-    "date": "2026-04-08",
-    "id": "17756679346243"
-  },
-  {
-    "title": "技术实践：将 AI Agent 作为 CRDT 对等节点构建协作编辑",
-    "summary": "文章详解如何利用 Yjs 和 Durable Streams 让 AI 成为协作编辑的真实参与者。",
-    "detail": "文章探讨了将 AI Agent 集成到 Yjs 富文本编辑流中的技术方案。通过 Durable Streams 作为统一传输层，AI 不再是侧边栏助手，而是拥有光标和流式编辑能力的 CRDT 对等节点。这为实时协作 AI 应用提供了新的架构思路，解决了多系统集成的痛点。该方案让 AI 成为真正的协作参与者，而非单纯的工具，提升了协同编辑的体验。",
-    "tags": [
-      "Dev",
-      "CRDT",
-      "Architecture"
-    ],
-    "link": "https://electric-sql.com/blog/2026/04/08/ai-agents-as-crdt-peers-with-yjs",
-    "date": "2026-04-08",
-    "id": "17756679346244"
-  },
-  {
-    "title": "Databricks 联合创始人获 ACM 奖，宣称 AGI 已到来",
-    "summary": "Databricks 联合创始人获 ACM 奖，直言 AGI 已经存在。",
-    "detail": "**背景**：Databricks 联合创始人 Matei Zaharia 荣获计算机领域著名的 ACM 奖，引发业界广泛关注。\n**核心观点**：他在获奖后明确表示\"AGI 已经在这里了\"，这一言论挑战了当前关于 AGI 时间表的共识。\n**影响**：作为大数据与 AI 基础设施的关键人物，此观点可能加速企业对 AI 基础设施的投入，标志着 AI 行业从探索期进入成熟应用期的心理转折点。对于从业者而言，这意味着需更快适应 AI 原生工作流，重新评估技术路线图。",
-    "tags": [
-      "News",
-      "AGI",
-      "Databricks"
-    ],
-    "link": "https://techcrunch.com/2026/04/08/databricks-matei-zaharia-wins-acm-computing-prize-agi/",
-    "date": "2026-04-08",
-    "id": "17756613578120"
-  },
-  {
-    "title": "StormScope：为 AI 助手接入实时天气数据的 MCP 服务器",
-    "summary": "开源 MCP 服务器，聚合 7 大来源为 AI 提供实时美国天气数据。",
-    "detail": "**背景**：大型语言模型缺乏实时气象数据接入能力，易产生幻觉。\n**技术**：StormScope 是一个开源 MCP 服务器，聚合 NOAA、NWS 等 7 个权威数据源，提供 9 个工具调用接口。\n**价值**：让 AI 助手能基于真实观测回答严重天气风险等问题，填补了 AI 在实时环境数据感知上的空白。适合开发者构建气象相关 Agent，提升回答准确性，且完全免费开源，便于集成到现有 AI 工作流中。",
-    "tags": [
-      "Dev",
-      "MCP",
-      "OpenSource"
-    ],
-    "link": "https://jmthornton.net/blog/p/stormscope/",
-    "date": "2026-04-08",
-    "id": "17756613578121"
   }
 ]
