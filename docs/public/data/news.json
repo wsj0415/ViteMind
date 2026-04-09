@@ -1,5 +1,96 @@
 [
   {
+    "title": "AI 代理可开设企业银行账户",
+    "summary": "Meow 推出首个面向 AI 代理的金融基础设施，支持开户及支付。",
+    "detail": "Meow 发布了专为 AI 代理设计的金融基础设施，允许 AI 自主开设企业银行账户、发行卡片、检查余额及审计支出。兼容 Claude、Cursor、ChatGPT 等主流模型。此举标志着 AI 代理从执行任务向拥有独立经济能力的重大转变，为自动化商业流程提供了关键的支付与合规层。解决了代理无法独立持有资产的历史难题，降低了财务操作门槛，可能引发自主经济生态的爆发，是 Agent 经济的重要里程碑。未来企业可授权代理独立采购，大幅提升运营效率。",
+    "tags": [
+      "News",
+      "AI Agents",
+      "Fintech"
+    ],
+    "link": "https://twitter.com/brandon/status/2042280053107540251",
+    "date": "2026-04-09",
+    "id": "17757578762980"
+  },
+  {
+    "title": "状态化 AI 的可验证性与治理方案",
+    "summary": "Enlightened Core 提出外部治理方案，通过签名收据证明 AI 行为。",
+    "detail": "针对无状态 AI 难以审计的问题，Enlightened Core 提出将连续性与治理外部化。系统通过生成带签名的收据（Receipt）来证明 AI 执行历史，包含快照 ID 与治理结果。无需存储交互内容即可验证行为真实性，为企业级 AI 的可控性、可重现性及合规审计提供了新的技术路径，解决了模型黑箱带来的信任危机。该方案支持选择性访问，确保数据隐私，同时满足监管要求，是构建可信 AI 系统的关键基础设施，适用于金融、医疗等高敏感场景。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Governance"
+    ],
+    "link": "https://enlightenedcore.org/",
+    "date": "2026-04-09",
+    "id": "17757578762981"
+  },
+  {
+    "title": "为 WhatsApp AI 代理赋予记忆与上下文",
+    "summary": "Opero 推出 WhatsApp 智能层，让 AI 代理记住客户历史与偏好。",
+    "detail": "Opero 为 WhatsApp AI 代理提供了记忆与上下文层，通过 API 使代理能获取客户历史、预算及业务背景。支持免费层级，允许代理在对话中调用过往记录，避免重复提问。这解决了通用机器人在垂直场景缺乏上下文的问题，显著提升了销售与客服场景的转化率与用户体验，让代理真正具备长期记忆能力。开发者仅需一次 API 调用即可获取完整上下文，大幅降低了集成难度，适用于跨境电商及私域流量运营场景。",
+    "tags": [
+      "New",
+      "API",
+      "Customer Service"
+    ],
+    "link": "https://opero.so/",
+    "date": "2026-04-09",
+    "id": "17757578762982"
+  },
+  {
+    "title": "企业 AI 落地困境在于采纳而非模型",
+    "summary": "分析指出 80% 员工绕过 AI 工具，建议用现金激励促进使用。",
+    "detail": "最新分析指出企业 AI 的核心瓶颈并非模型能力，而是员工采纳度。80% 的知识型员工因缺乏激励而绕过 AI 工具。文章建议企业应将 AI 使用技能与现金奖励挂钩，而非仅发布指令。这揭示了 AI 落地中的人性与管理挑战，强调激励机制对于培养 AI 工作习惯的关键作用，类比法拉利需要驾驶意愿。若不提供实际利益，员工倾向于使用熟悉的旧工具。企业需重新设计薪酬结构，将 AI 效能纳入考核，才能真正释放生产力。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Management"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47706807",
+    "date": "2026-04-09",
+    "id": "17757578762983"
+  },
+  {
+    "title": "一站式 AI 应用开发模拟服务器",
+    "summary": "CopilotKit 开源 AIMock，支持模拟 LLM API 及向量数据库。",
+    "detail": "CopilotKit 发布了 AIMock，这是一个用于 AI 应用开发的模拟服务器。它支持模拟 LLM API、MCP、A2A 协议及向量数据库，无需外部依赖。开发者可通过单一端口模拟整个 AI 栈，大幅降低测试成本与复杂度。对于需要本地调试或避免 API 费用的 AI 开发者而言，这是一个高效的开发工具，简化了 CI/CD 流程。零依赖设计使其易于集成到现有项目中，支持快速迭代，是构建稳定 AI 应用不可或缺的测试辅助工具。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Testing"
+    ],
+    "link": "https://github.com/CopilotKit/aimock",
+    "date": "2026-04-09",
+    "id": "17757578762984"
+  },
+  {
+    "title": "高级 AI 用户每周实战演示系列",
+    "summary": "Level 5 推出每周直播，展示高级用户的实际 AI 工作流与评估。",
+    "detail": "Level 5 启动了每周直播系列，邀请高级 AI 用户分享实际工作流、屏幕演示及问答。本期聚焦 AI 可靠性与评估（Evals），由前 Vidpresso 创始人主讲。该系列拒绝理论空谈，专注于实战技巧，为希望提升 AI 应用稳定性的开发者提供了宝贵的学习渠道与社区交流机会，促进高级技能的传播。免费虚拟参与形式降低了学习门槛，有助于建立高质量的 AI 开发者社区，推动最佳实践的标准化。",
+    "tags": [
+      "Dev",
+      "Community",
+      "Education"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47706580",
+    "date": "2026-04-09",
+    "id": "17757578762985"
+  },
+  {
+    "title": "行业快讯：OpenAI 暂停英国 Stargate 项目",
+    "summary": "AI Brief 汇总：OpenAI 因能源成本暂停英国项目，亚马逊捍卫 AI 支出。",
+    "detail": "每日 AI 简报汇总了关键行业动态。重点包括 OpenAI 因高能源成本和监管障碍暂停英国 Stargate 项目，这对合作伙伴造成打击。同时亚马逊捍卫其 AI 支出，计划 2026 年中推出 Kuiper 卫星服务。此外，VentureBeat 报告指出 AI 代理正面临操作混乱与新基础设施建设的挑战，为投资者提供了市场风向。该简报将分散的新闻按主题聚类，帮助从业者快速把握芯片、模型及市场趋势，节省信息筛选时间。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Market"
+    ],
+    "link": "https://aibrief.fyi/",
+    "date": "2026-04-09",
+    "id": "17757578762986"
+  },
+  {
     "title": "Meta 升级 Meta AI 引入 Muse Spark",
     "summary": "Meta 宣布升级其 AI 助手，引入名为 Muse Spark 的新功能。",
     "detail": "Meta 对其人工智能平台进行了最新更新，引入了名为 Muse Spark 的新特性。虽然具体技术细节未在摘要中完全披露，但这标志着 Meta 在生成式 AI 竞争中的持续投入。此次升级旨在增强 Meta AI 的交互能力和内容生成质量，进一步整合其生态系统内的 AI 服务。对于行业而言，这表明大型科技公司正加速迭代其原生 AI 模型，以争夺用户注意力和数据入口。未来可能看到更多类似的功能整合，以提升用户粘性和跨平台体验。",
@@ -1207,96 +1298,5 @@
     "link": "https://www.theregister.com/2026/04/08/japan_privacy_law_changes_ai/",
     "date": "2026-04-08",
     "id": "17756330251392"
-  },
-  {
-    "title": "KOS 协议为 AI 代理提供可验证事实",
-    "summary": "推出 kos.json 标准，让 AI 代理读取带来源追踪的可信知识。",
-    "detail": "KOS Protocol 推出 kos.json 开放标准，旨在解决 AI 幻觉问题。它允许实体发布带有来源追踪和可计算新鲜度衰变的结构化知识。AI 代理可据此验证事实而非猜测，通过元数据判断信息可信度。这为构建可信的机器知识层提供了基础设施，有望成为 AI 互操作性新标准。对于构建 RAG 系统或企业知识库的团队，此协议提供了新的数据组织思路。",
-    "tags": [
-      "Dev",
-      "Protocol",
-      "Agents"
-    ],
-    "link": "https://kosprotocol.dev",
-    "date": "2026-04-08",
-    "id": "17756330251393"
-  },
-  {
-    "title": "Optinum 填补 AI 编码代理测试盲区",
-    "summary": "AI 原生差异范围集成测试合成工具，捕捉集成边界盲点。",
-    "detail": "Optinum 是一个 GitHub 项目，专注于 AI 原生差异范围集成测试合成。它能系统性地发现 AI 编码代理在 PR 测试中遗漏的盲点，特别是在集成边界处。这对于提高 AI 生成代码的可靠性和安全性至关重要，是 AI 辅助开发流程的重要补充工具。随着 AI  Coding 普及，此类自动化测试工具将成为保障代码质量的必要环节，建议开发者集成到 CI/CD 流程中。",
-    "tags": [
-      "Dev",
-      "Testing",
-      "GitHub"
-    ],
-    "link": "https://github.com/anhnguyensynctree/optinum",
-    "date": "2026-04-08",
-    "id": "17756330251394"
-  },
-  {
-    "title": "ContextSync 实现 VS Code AI 上下文同步",
-    "summary": "通过 Obsidian 和 OneDrive 同步团队 AI 对话上下文，减少重复解释。",
-    "detail": "ContextSync 是一款 VS Code 扩展，允许团队自动共享 AI 对话上下文。聊天记录保存为结构化 MD 文件并通过 OneDrive 同步至 Obsidian。这实现了团队记忆共享，避免向 AI 重复解释代码背景。对于协作开发团队，这能显著提升 AI 辅助编程的效率和一致性。该工具解决了多人大模型协作中的上下文断裂问题，是提升团队研发效能的实用插件。",
-    "tags": [
-      "Dev",
-      "Tool",
-      "VSCode"
-    ],
-    "link": "https://marketplace.visualstudio.com/items?itemName=ZayaanBhanwadia.context-sync",
-    "date": "2026-04-08",
-    "id": "17756330251395"
-  },
-  {
-    "title": "欧盟 AI 基础设施暴露风险激增",
-    "summary": "2026 年 4 月扫描发现超 2.5 万个暴露实例，安全性堪忧。",
-    "detail": "2025 年 9 月 Cisco Talos 扫描发现 1139 个公开 Ollama 实例，2026 年 4 月激增至 2.5 万个，增长超 22 倍。其中约 30% 位于欧盟成员国，德国占比显著。Hetzner、OVH 等云厂商过去一年积极推广 CPU/GPU 实例供开发者自托管推理，导致暴露面扩大。尽管部分源于 Shodan 索引改进，但增速令人担忧。这暴露了推理基础设施的严重安全隐患，开发者需警惕公共暴露风险，加强访问控制与网络安全配置，防止模型被恶意利用或数据泄露。此事件凸显了自托管 AI 服务的安全配置重要性，建议企业审查云防火墙规则。",
-    "tags": [
-      "News",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://insecurestack.substack.com/p/eus-exposed-ai-infrastructure",
-    "date": "2026-04-08",
-    "id": "17756252670460"
-  },
-  {
-    "title": "KOS 协议：机器可读知识新标准",
-    "summary": "推出 kos.json 标准，为 AI 代理提供可验证事实与来源追踪。",
-    "detail": "针对 AI 幻觉问题，KOS Protocol 发布 kos.json 开放标准，旨在建立机器信任的知识层。实体可通过该文件发布结构化知识，包含创建时间、验证人及置信度等元数据。引入新鲜度衰减公式（f = e(-λ × days)）计算信任信号，支持依赖、引用和语义三种连接类型，将孤立数据转化为知识图谱。旨在让机器信任数据而非猜测，填补 Schema.org 之后的信任层空白，为 AI 代理提供可验证的事实来源。该协议若被广泛采用，将显著降低 RAG 系统的错误率，提升企业级 AI 应用的可靠性。",
-    "tags": [
-      "Dev",
-      "Protocol",
-      "Agent"
-    ],
-    "link": "https://kosprotocol.dev/",
-    "date": "2026-04-08",
-    "id": "17756252670461"
-  },
-  {
-    "title": "图形设计 AI 评估基准发布",
-    "summary": "康奈尔大学提出新基准，全面评估 AI 在平面设计任务表现。",
-    "detail": "论文 arXiv:2604.04192 提出 Graphic-Design-Bench，填补了 AI 在设计领域评估的空白。该基准涵盖多种设计任务，旨在量化多模态模型的实际应用能力。由康奈尔大学等机构支持，研究成果将推动生成式 AI 在创意产业的标准化发展，为模型优化提供明确导向。这对于评估当前多模态大模型在专业垂直领域的表现具有重要意义，有助于行业建立更客观的 AI 设计能力评估体系。未来可能成为多模态模型选型的重要参考指标，推动设计自动化进程。",
-    "tags": [
-      "Dev",
-      "Paper",
-      "Multimodal"
-    ],
-    "link": "https://arxiv.org/abs/2604.04192",
-    "date": "2026-04-08",
-    "id": "17756252670462"
-  },
-  {
-    "title": "Silkwave Voice：本地化 AI 会议记录",
-    "summary": "基于 Apple Intelligence 的 Mac 应用，实现本地转录与总结。",
-    "detail": "专为 macOS 设计的 AI 笔记工具，利用设备端模型支持 10+ 语言实时转录。通过 Apple Intelligence 集成 ChatGPT 生成摘要，音频数据不离设备，保障隐私。无订阅费用，支持麦克风及系统音频捕获，适合会议、讲座场景。提供隐私优先的 AI 交互方案，无需 API 密钥。需 macOS 26 及以上版本，展示了端侧智能与云端大模型结合的最佳实践，平衡了性能与隐私。此类应用预示着本地化 AI 助理将成为主流，减少对云服务的依赖，提升用户数据主权。",
-    "tags": [
-      "New",
-      "Privacy",
-      "Apple"
-    ],
-    "link": "https://www.silkwave.ai/silkwave-voice",
-    "date": "2026-04-08",
-    "id": "17756252670463"
   }
 ]
