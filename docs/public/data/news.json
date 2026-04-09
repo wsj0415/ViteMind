@@ -1,5 +1,83 @@
 [
   {
+    "title": "谷歌与英特尔深化 AI 基础设施合作",
+    "summary": "两大科技巨头联手优化 AI 硬件生态",
+    "detail": "谷歌与英特尔宣布深化 AI 基础设施合作伙伴关系，旨在优化硬件性能与云服务的整合，应对日益增长的算力需求。此次合作涉及芯片优化与数据中心效率提升，双方将共同推动 AI 工作负载的性能边界。行业影响深远，可能改变 AI 芯片与云服务的竞争格局，为开发者提供更高效的底层支持。标志着硬件巨头与云服务商在 AI 时代的深度绑定趋势，有助于降低企业部署成本，提升推理效率，为下一代大模型训练奠定硬件基础，显示传统硬件厂商转型决心。双方还将探索边缘计算与云端的协同效应，进一步拓宽 AI 应用场景，确保在全球 AI 竞赛中保持技术领先优势，为行业树立合作标杆。",
+    "tags": [
+      "News",
+      "Google",
+      "Infrastructure"
+    ],
+    "link": "https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/",
+    "date": "2026-04-09",
+    "id": "17757626704700"
+  },
+  {
+    "title": "Anthropic 限制 Mythos 模型发布引争议",
+    "summary": "安全还是商业保护？模型发布策略受质疑",
+    "detail": "Anthropic 新模型 Mythos 的发布受到限制，引发业界关于安全与商业利益的讨论。文章分析此举是为了保护互联网安全还是维护自身竞争优势，探讨了模型能力泄露的风险。反映了大模型厂商在安全对齐与市场扩张之间的博弈，影响未来模型开源策略。这种谨慎态度可能成为行业常态，促使开发者关注闭源模型的 API 依赖，同时也引发了关于 AI 安全透明度的广泛争议与思考，凸显了监管与自我约束的平衡难题。此举也可能导致中小开发者难以获取最强模型能力，加剧马太效应。业界期待后续更多关于模型评估与安全标准的公开披露，以建立信任机制，推动负责任的人工智能发展，确保技术进步惠及全社会而非仅限少数巨头。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic/",
+    "date": "2026-04-09",
+    "id": "17757626704701"
+  },
+  {
+    "title": "Meta AI 应用跃居 App Store 第五名",
+    "summary": "Muse Spark 功能发布助推应用排名飙升",
+    "detail": "Meta AI 应用在 Muse Spark 功能发布后，排名迅速攀升至 App Store 第五位。显示出生成式功能对用户增长的强劲驱动力，证明创意工具是获客关键。标志着 Meta 在移动端 AI 布局取得显著进展，可能加剧与竞争对手在用户时长上的争夺。此次成功验证了将 AI 深度集成到社交生态的策略有效性，为其他大厂提供了移动端 AI 应用增长的参考案例，预计后续将有更多类似功能更新，巩固其社交加 AI 的护城河。未来 Meta 可能会进一步整合 WhatsApp 和 Instagram 的 AI 功能，形成生态闭环。此次排名上升也表明用户对实用型 AI 工具的渴望，单纯聊天机器人已不足够，结合具体场景的生成式应用才是未来移动端的竞争焦点，值得其他应用开发者借鉴。",
+    "tags": [
+      "News",
+      "Meta",
+      "App"
+    ],
+    "link": "https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/",
+    "date": "2026-04-09",
+    "id": "17757626704702"
+  },
+  {
+    "title": "Instant 1.0：专为 AI 编码应用打造的后端",
+    "summary": "开源后端方案，支持无限应用与实时同步",
+    "detail": "Instant 发布 1.0 版本，定位为 AI 编码应用的最佳后端。基于 Postgres 构建多租户数据库，提供实时同步引擎，支持离线操作。支持无限应用创建且不冻结，内置认证与存储功能，解决传统后端闲置成本问题。为 AI 全栈开发提供高效基础设施，降低部署门槛。其架构设计专门针对 AI 生成代码的特点优化，适合快速原型开发与大规模多租户场景，是开发者构建 AI 原生应用的重要工具选择，开源特性利于社区共建。此外，其实时同步特性特别适合协作类 AI 应用，如共同编码或实时文档编辑。团队表示后续将增加更多 AI 原生特性，如自动模式迁移与智能缓存，进一步简化开发流程，让开发者能更专注于业务逻辑而非基础设施维护，加速 AI 应用落地。",
+    "tags": [
+      "Dev",
+      "Backend",
+      "OpenSource"
+    ],
+    "link": "https://www.instantdb.com/essays/architecture",
+    "date": "2026-04-09",
+    "id": "17757626704703"
+  },
+  {
+    "title": "2026 Claude Code 子代理完全指南",
+    "summary": "深入解析上下文工程与子代理最佳实践",
+    "detail": "指南详解 Claude Code 子代理的架构与使用场景。涵盖上下文隔离、并行运行及避免 Token 浪费的反模式，提供生产就绪示例。通过具体示例展示如何编写高效的子代理描述，优化任务委托机制。是开发者优化 AI 编码工作流、提升 Agent 吞吐量的重要参考资料。文章还对比了子代理与并行会话的区别，帮助团队在复杂项目中更好地管理 AI 上下文，减少推理成本，提高代码生成质量与一致性，是 2026 年必备开发指南。随着 AI 编码 Agent 复杂度提升，上下文管理将成为核心瓶颈。该指南提供的最佳实践能帮助团队避免常见陷阱，如上下文污染或任务循环。对于构建大规模 AI 软件工程体系具有重要指导意义，建议所有使用 Claude Code 的开发团队深入研读并应用。",
+    "tags": [
+      "Dev",
+      "Tutorial",
+      "Agent"
+    ],
+    "link": "https://amux.io/guides/claude-code-subagents/",
+    "date": "2026-04-09",
+    "id": "17757626704704"
+  },
+  {
+    "title": "AI 代理致电 3000 家酒吧绘制啤酒价格指数",
+    "summary": "创意 Agent 应用，自动化收集爱尔兰啤酒价格",
+    "detail": "Guinndex 项目利用 AI 代理致电爱尔兰 3000 多家酒吧，收集 Guinness 啤酒价格。展示了 AI Agent 在现实世界数据采集中的潜力，成本低廉且效率高。低成本实现大规模信息索引，为自动化调研提供新思路，兼具趣味性与技术示范价值。该项目证明了轻量级 Agent 即可完成复杂任务，无需昂贵算力，为垂直领域的数据爬虫与价格监控提供了可复制的技术路径与创意灵感，展现 Agent 落地新方向。这种“物理世界交互”的 Agent 模式比纯数字任务更具挑战性，证明了电话接口仍可被 AI 有效利用。未来类似应用可扩展至客服质检、市场调研等领域，展示了 AI 与传统通信设施结合的潜力，为自动化任务提供了低成本且高可靠性的解决方案，极具商业转化潜力。",
+    "tags": [
+      "New",
+      "Agent",
+      "Demo"
+    ],
+    "link": "https://guinndex.ai",
+    "date": "2026-04-09",
+    "id": "17757626704705"
+  },
+  {
     "title": "AI 代理可开设企业银行账户",
     "summary": "Meow 推出首个面向 AI 代理的金融基础设施，支持开户及支付。",
     "detail": "Meow 发布了专为 AI 代理设计的金融基础设施，允许 AI 自主开设企业银行账户、发行卡片、检查余额及审计支出。兼容 Claude、Cursor、ChatGPT 等主流模型。此举标志着 AI 代理从执行任务向拥有独立经济能力的重大转变，为自动化商业流程提供了关键的支付与合规层。解决了代理无法独立持有资产的历史难题，降低了财务操作门槛，可能引发自主经济生态的爆发，是 Agent 经济的重要里程碑。未来企业可授权代理独立采购，大幅提升运营效率。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.the-independent.com/tech/claude-ai-down-anthropic-chatbot-error-status-b2953528.html",
     "date": "2026-04-08",
     "id": "17756391963072"
-  },
-  {
-    "title": "明星代言 AI 项目数据造假风波",
-    "summary": "Milla Jovovich 署名 AI 记忆系统基准分造假，引发社区关注。",
-    "detail": "开发者 Ben Sigman 发布开源项目 MemPalace，署名女演员 Milla Jovovich，宣称基准测试满分。经查证分数不实，但获大量关注。此事件反映了 AI 社区营销乱象，明星效应可短期内获取巨大流量，但技术真实性仍是核心。警示开发者需警惕虚假基准测试，社区应建立更严格的验证机制，避免劣币驱逐良币，维护开源生态诚信。",
-    "tags": [
-      "News",
-      "OpenSource",
-      "Ethics"
-    ],
-    "link": "https://penfieldlabs.substack.com/p/milla-jovovich-just-released-an-ai",
-    "date": "2026-04-08",
-    "id": "17756391963073"
-  },
-  {
-    "title": "AI Agent 接入工业控制的实时引擎",
-    "summary": "Show HN 项目通过 SDK 风格引擎将 AI Agent 引入工业控制。",
-    "detail": "新项目 Aether 演示了如何通过\"SDK 风格\"实时引擎将 AI Agent 引入工业控制。视频展示了锅炉控制 demo，标志着 AI 从软件向物理世界控制的延伸。实时性与安全性是关键挑战，若成功将开启 AI 在制造业、物联网领域的自动化新范式。这为工业 4.0 提供了新思路，即利用 AI 代理直接参与底层设备控制与优化。",
-    "tags": [
-      "New",
-      "Industrial",
-      "Agent"
-    ],
-    "link": "https://www.youtube.com/watch?v=3Uc_OT2CKiE",
-    "date": "2026-04-08",
-    "id": "17756391963074"
-  },
-  {
-    "title": "AI Agent 时代 GitOps 仍至关重要",
-    "summary": "FluxCon 演讲探讨 AI 与 GitOps 结合，确保基础设施稳定。",
-    "detail": "ControlPlane 的 Stefan Prodan 在 FluxCon 上演讲，强调在 AI Agent 编码世界中 GitOps 的重要性。随着 AI 生成代码增多，版本控制和部署流程的可靠性更显关键。GitOps 提供了审计追踪和回滚能力，是管理 AI 驱动的基础设施变更、确保生产环境稳定的必要实践。这为 AI 工程化落地提供了重要的运维方法论支持。",
-    "tags": [
-      "Dev",
-      "GitOps",
-      "Infrastructure"
-    ],
-    "link": "https://www.youtube.com/watch?v=efpqMLQJaW4",
-    "date": "2026-04-08",
-    "id": "17756391963075"
-  },
-  {
-    "title": "中国 AI 伦理治理架构获深度解析",
-    "summary": "中国 AI 伦理治理比欧美更全面结构化，展现务实路径。",
-    "detail": "文章指出中国的 AI 伦理治理方法比美国和欧盟更综合、结构化且务实。相比西方的框架，中国采取了更具执行力的治理模式，强调落地性与规范性。这对全球 AI 政策制定具有参考意义，表明亚洲在 AI 监管方面可能走在前列。企业需关注合规差异，调整全球战略以适应不同区域的伦理治理要求，尤其是在数据使用和算法透明度方面。",
-    "tags": [
-      "News",
-      "Policy",
-      "Ethics"
-    ],
-    "link": "https://www.luizasnewsletter.com/p/chinas-ai-ethics-governance",
-    "date": "2026-04-08",
-    "id": "17756330251390"
-  },
-  {
-    "title": "Google 悄然上线离线 AI 听写应用",
-    "summary": "Google 发布 iOS 离线优先 AI 听写应用，保护隐私无需联网。",
-    "detail": "Google  quietly 发布了一款优先离线的 AI 听写应用，支持 iOS 平台。该技术允许用户在无网络连接下进行语音转文字，显著提升了隐私保护和使用场景的灵活性。这标志着端侧 AI 模型的成熟，可能推动本地化处理成为移动应用新标准。对于关注数据主权和隐私的企业用户，此类离线优先工具将成为未来办公和安全通信的重要选择。",
-    "tags": [
-      "News",
-      "Mobile",
-      "Privacy"
-    ],
-    "link": "https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
-    "date": "2026-04-08",
-    "id": "17756330251391"
-  },
-  {
-    "title": "日本放宽隐私法以促进 AI 发展",
-    "summary": "日本修改隐私法律，旨在成为最容易开发 AI 的国家。",
-    "detail": "日本正在放松隐私法律，目标是使自己成为“最容易开发 AI 的国家”。此举意在降低合规门槛，吸引全球 AI 开发者赴日投资研发。虽然有利于技术创新和产业集聚，但也引发数据保护方面的担忧。这一政策变动可能改变亚太地区的 AI 竞争格局，值得跨国企业关注。开发者需权衡便利性与合规风险，调整数据收集策略。",
-    "tags": [
-      "News",
-      "Policy",
-      "Regulation"
-    ],
-    "link": "https://www.theregister.com/2026/04/08/japan_privacy_law_changes_ai/",
-    "date": "2026-04-08",
-    "id": "17756330251392"
   }
 ]
