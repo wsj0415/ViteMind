@@ -1,5 +1,109 @@
 [
   {
+    "title": "Anthropic 警告新模型存在公共发布风险",
+    "summary": "Anthropic 表示最新 AI 模型因安全隐患暂不向公众开放。",
+    "detail": "Anthropic 最新声明指出其研发的新模型存在潜在危险，不适合立即公开释放。这反映了头部大厂在 **AGI 安全对齐** 上的谨慎态度，可能影响后续模型发布节奏。行业需关注安全评估标准的演变，以及这对竞品发布策略的潜在连锁反应。**安全仍是 AI 发展的核心约束**。此消息源自 The Hill 报道，并在 Hacker News 引发讨论，显示公众对 AI 安全的高度关注。",
+    "tags": [
+      "News",
+      "Safety",
+      "Anthropic"
+    ],
+    "link": "https://thehill.com/policy/technology/5824219-anthropic-new-ai-dangerous-public/",
+    "date": "2026-04-09",
+    "id": "17757746829210"
+  },
+  {
+    "title": "智能 AI API 网关实现模型自动路由",
+    "summary": "支持多模型智能路由，自动优化成本与速度，无需硬编码模型名。",
+    "detail": "新型 hosted AI API Gateway 支持在 Google、OpenAI、Anthropic 等提供商间智能路由。开发者只需指定能力层级（如 standard）和优化方向（如 cheap/fast），网关自动选择最佳模型。解决了模型迭代频繁导致的代码维护问题，提升系统鲁棒性，降低单一提供商依赖风险。**支持 economy/standard/premium tiers**，适配不同业务场景需求，无需更改代码即可适应市场变化。",
+    "tags": [
+      "Dev",
+      "API",
+      "Infrastructure"
+    ],
+    "link": "https://api.lxg2it.com",
+    "date": "2026-04-09",
+    "id": "17757746829211"
+  },
+  {
+    "title": "精选 40+ 款 AI 浏览器扩展资源清单",
+    "summary": "GitHub 开源清单涵盖 9 大类别，助力高效浏览与自动化工作流。",
+    "detail": "该 GitHub 仓库 curated list 整理了约 40 个 AI 浏览器扩展，涵盖浏览器代理、自动化、写作、研究、编码等 9 大类别。包括 Claude 官方插件及 Dassie 等智能体工具。为开发者及普通用户提供了一站式的效率工具选型参考，降低探索成本。**分类清晰**，便于快速定位所需功能的扩展程序，涵盖从阅读辅助到邮件沟通的全场景。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "Productivity"
+    ],
+    "link": "https://github.com/kklt92/awesome-ai-extensions",
+    "date": "2026-04-09",
+    "id": "17757746829212"
+  },
+  {
+    "title": "AI 模型实时速度基准测试平台上线",
+    "summary": "提供 MiniMax、GLM、Kimi 等主流模型的实时速度基准测试数据。",
+    "detail": "AI Speedometer 平台提供实时的 AI 模型速度基准测试。支持对比 MiniMax、GLM、Kimi、Qwen 等主流模型在不同计划下的响应速度。帮助开发者在部署前评估模型延迟性能，为对时效性敏感的应用场景提供数据支撑，优化用户体验。**覆盖 Ollama Cloud 及 Z.AI 等多种部署环境**，数据参考性强，助力技术选型决策。",
+    "tags": [
+      "Dev",
+      "Benchmark",
+      "LLM"
+    ],
+    "link": "https://ai-speedometer.oliveowl.xyz/",
+    "date": "2026-04-09",
+    "id": "17757746829213"
+  },
+  {
+    "title": "开源 AI 代理 Goose 迁入代理 AI 基金会",
+    "summary": "知名开源 Agent 项目 Goose 正式归属 Agentic AI Foundation 管理。",
+    "detail": "开源 AI 代理工具 Goose 宣布迁移至 Agentic AI Foundation (AAIF)。此次变动旨在加强项目的社区治理与长期维护。Goose 作为流行的本地 Agent 工具，此次归属变更有助于整合更多 **MCP 服务器与技能市场** 资源，推动开源 Agent 生态标准化发展。博客同时更新了 2.0 beta 架构信息，显示项目活跃度持续提升。",
+    "tags": [
+      "News",
+      "OpenSource",
+      "Agent"
+    ],
+    "link": "https://goose-docs.ai/blog/2026/04/07/goose-moves-to-aaif/",
+    "date": "2026-04-09",
+    "id": "17757746829214"
+  },
+  {
+    "title": "AI 辅助开发的新瓶颈：代码验证成本",
+    "summary": "研究表明 AI 生成代码虽多，但人工审查时间并未减少，验证成新瓶颈。",
+    "detail": "文章指出 AI 辅助开发虽使 **PR 合并量翻倍**，但审查时间也增加 91%。AI 生成的代码表面整洁但隐藏 bug 难查，且验证成本受 **生物极限限制** 无法像生成成本那样快速下降。团队需重新平衡生成与验证资源，引入自动化测试或专用验证 Agent，避免陷入 **“虚假效率”陷阱**。引用了 Latent Space 分析及经济学论文，论证验证瓶颈的结构性难解。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Industry"
+    ],
+    "link": "https://www.opslane.com/blog/verification-bottleneck",
+    "date": "2026-04-09",
+    "id": "17757746829215"
+  },
+  {
+    "title": "经济学视角：AI 时代的就业创造盲点",
+    "summary": "分析指出经济引擎本身倾向于创造新岗位，而非单纯依赖技术变革。",
+    "detail": "文章探讨了 AI 与就业关系的常见误区，指出经济体的基线状态是创造新工作。争论焦点不应仅是技术是否取代岗位，而是经济引擎如何利用有限劳动力资源。这为理解 AI 时代的劳动力市场动态提供了更宏观的经济学视角，缓解过度焦虑。**反驳了零和博弈思维**，强调动态平衡，指出技术只是资源调配的工具而非唯一决定因素。",
+    "tags": [
+      "News",
+      "Economy",
+      "Jobs"
+    ],
+    "link": "https://substack.norabble.com/p/the-ai-jobs-blind-spot",
+    "date": "2026-04-09",
+    "id": "17757746829216"
+  },
+  {
+    "title": "基于 GitHub 仓库的 AI 驱动看板工具",
+    "summary": "创建卡片后 AI 代理自动领取任务并提交包含真实代码变更的 PR。",
+    "detail": "**Kill-The-Backlog** 是一款 AI 驱动的 Kanban board，直接集成 GitHub 仓库。用户创建任务卡片后，AI 代理会自动领取任务，编写代码并提交 **PR**。实现了从任务管理到代码实现的部分自动化闭环，适合希望减少重复性开发工作的团队，但仍需 **人工审查代码质量**。项目开源在 GitHub，展示了 Agent 自主完成开发任务的新范式。",
+    "tags": [
+      "New",
+      "GitHub",
+      "Agent"
+    ],
+    "link": "https://github.com/Kill-The-Backlog/Kill-The-Backlog",
+    "date": "2026-04-09",
+    "id": "17757746829217"
+  },
+  {
     "title": "ChatGPT 推出每月 100 美元 Pro 计划",
     "summary": "OpenAI 正式推出高价 Pro 套餐，面向重度用户与开发者。",
     "detail": "TechCrunch 报道 OpenAI 终于推出了定价为 100 美元/月的 ChatGPT Pro 计划。此举旨在满足重度用户及专业开发者的需求，提供更高的使用限额及潜在的高级模型访问权限。这标志着 AI 订阅模式的进一步分层，可能成为行业定价新标杆，显示厂商开始探索高净值用户市场，对竞争格局产生影响。",
@@ -1194,109 +1298,5 @@
     "link": "https://jmthornton.net/blog/p/stormscope/",
     "date": "2026-04-08",
     "id": "17756613578121"
-  },
-  {
-    "title": "50 行 Python 代码实现去中心化 P2P AI 系统",
-    "summary": "教程教你用 50 行 Python 构建本地 P2P AI，保护隐私。",
-    "detail": "**背景**：隐私保护成为本地 AI 部署的关键需求，云端依赖存在风险。\n**技术**：教程通过 50 行 Python 代码，结合 Ollama 和 WhatsApp 桥接，实现本地数据响应的 P2P AI。\n**核心**：利用特定上下文文件夹保护隐私，无需云端传输。\n**影响**：降低了去中心化 AI 的开发门槛，为开发者提供了构建隐私优先 AI 应用的基础框架和代码参考，适合关注数据主权的技术团队探索。",
-    "tags": [
-      "Dev",
-      "Python",
-      "Privacy"
-    ],
-    "link": "https://iamtrask.github.io/2026/04/07/decentralized-ai-in-50-lines/",
-    "date": "2026-04-08",
-    "id": "17756613578122"
-  },
-  {
-    "title": "AI Daemons 规范：定义 AI 守护进程的角色文件格式",
-    "summary": "发布严谨的.md 规范，定义 AI 守护进程的角色与权限。",
-    "detail": "**背景**：AI Agent 需要持续运行的角色定义而非单次任务，缺乏标准规范。\n**规范**：提出了 DAEMON.md 文件格式，包含 purpose、routines、deny 等 YAML frontmatter。\n**价值**：标准化了 AI 守护进程的配置，明确了权限边界和持续责任，有助于开发更稳定、可控的长期运行 AI 系统。这是 Agent 工程化的重要一步，为复杂 AI 系统的维护提供了可参考的结构化方案。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Spec"
-    ],
-    "link": "https://ai-daemons.com/spec/",
-    "date": "2026-04-08",
-    "id": "17756613578123"
-  },
-  {
-    "title": "Chilcy AI：免费 CSV 数据洞察与 KPI 分析平台",
-    "summary": "支持上传 CSV 获取洞察，提供免费数据质量检查等工具。",
-    "detail": "**产品**：Chilcy 是一款 AI 驱动的高管情报平台，支持连接数据库或上传 Excel/CSV。\n**功能**：可用自然语言查询 KPI，自动生成预测和异常警报，无需 IT 支持。\n**优惠**：提供 14 天免费试用，且无需信用卡。另有免费工具如 CSV 数据质量检查器，适合非技术人员快速获取数据洞察，降低数据分析门槛，提升业务决策效率。",
-    "tags": [
-      "New",
-      "Data",
-      "SaaS"
-    ],
-    "link": "https://www.chilcy.com/",
-    "date": "2026-04-08",
-    "id": "17756613578124"
-  },
-  {
-    "title": "Anthropic 最强模型因风险暂缓发布",
-    "summary": "传闻 Anthropic 新模型 Mythos 因安全隐患推迟公开。",
-    "detail": "据 Euronews 报道，Anthropic 最强大的 AI 模型 Mythos Preview 被认为对公众发布过于危险，因此暂缓公开。这反映了业界对超级智能安全性的担忧加剧，可能影响后续模型发布策略。安全评估成为模型上线前的关键门槛，行业对高风险 AI 的监管态度趋于谨慎。此举可能引发关于 AI 透明度与安全平衡的广泛讨论，影响投资者信心及用户信任，标志着 AI 安全治理进入新阶段。未来模型或许将采用更严格的分级发布制度，确保技术红利与安全风险可控，为行业树立新标杆。",
-    "tags": [
-      "News",
-      "LLM",
-      "Safety"
-    ],
-    "link": "https://www.euronews.com/next/2026/04/08/why-anthropics-most-powerful-ai-model-mythos-preview-is-too-dangerous-for-public-release",
-    "date": "2026-04-08",
-    "id": "17756496350260"
-  },
-  {
-    "title": "北大团队 AI 自动证明数学猜想",
-    "summary": "北大团队实现 AI 自动发现并验证代数开放问题。",
-    "detail": "北京大学北京国际数学研究中心团队取得突破，AI 框架自主发现并验证了交换代数中的开放问题，生成约 19000 行 Lean 4 代码。董彬教授团队结合自然语言推理与形式验证，标志着 AI 辅助数学研究的重要里程碑。端到端管道展示了 AI 在科研领域的潜力。该成果证明了 AI 不仅能辅助计算，还能进行创造性推理。团队成员包括刘若川院士等顶尖学者，融合了代数几何与机器学习优势。这将加速数学研究进程，为科学发现提供新范式，推动 AI for Science 落地。",
-    "tags": [
-      "News",
-      "Research",
-      "Math"
-    ],
-    "link": "https://chinaresearchcollective.substack.com/p/a-new-breakthrough-in-ai-solving",
-    "date": "2026-04-08",
-    "id": "17756496350261"
-  },
-  {
-    "title": "本地 AI 代理提示注入检测工具",
-    "summary": "无需 API 调用的本地提示注入防御 NPM 包。",
-    "detail": "@stackone/defender 是一款用于 AI 代理的本地提示注入检测工具。它通过两级防御管道（模式匹配 + ML 分类器）在工具结果到达 LLM 前拦截恶意注入。包内含 ONNX 模型，无需额外下载，适合需要高安全性且不希望依赖外部 API 的开发场景，有效保护代理安全。支持 MCP、CLI 或直接函数调用，能识别隐藏在邮件、文档中的攻击载荷。开发者可配置风险阈值，实现自动化拦截。这解决了代理系统面临的关键安全痛点，降低了部署复杂度和延迟，提升了企业级应用的安全性。",
-    "tags": [
-      "Dev",
-      "Security",
-      "NPM"
-    ],
-    "link": "https://www.npmjs.com/package/@stackone/defender",
-    "date": "2026-04-08",
-    "id": "17756496350262"
-  },
-  {
-    "title": "开源 AI 代理与内部软件平台",
-    "summary": "可本地构建并随处部署的开源 AI 代理平台。",
-    "detail": "RootCX 是一个开源平台，旨在构建安全的内部软件和 AI 代理。支持本地构建并部署到任何环境，强调安全性与灵活性。适合希望私有化部署 AI 工作流的企业开发者，提供了替代专有云方案的新选择，助力开发者掌控数据与模型主权。平台允许团队在本地环境中开发复杂代理逻辑，避免敏感数据外泄。通过开源社区协作，可快速迭代功能并修复漏洞。这降低了企业采用 AI 代理的门槛，促进了内部工具的创新，为构建可信 AI 生态系统提供了基础设施支持。",
-    "tags": [
-      "New",
-      "OpenSource",
-      "Agents"
-    ],
-    "link": "https://github.com/RootCX/RootCX",
-    "date": "2026-04-08",
-    "id": "17756496350263"
-  },
-  {
-    "title": "社区热议 AI 出错是否应退还积分",
-    "summary": "开发者讨论 AI 生成错误代码是否该退款。",
-    "detail": "Hacker News 社区发起关于 AI 服务计费模式的讨论。用户指出当 AI 生成错误代码需额外消耗积分验证时，感觉不公平。这反映了 AI 商业化进程中服务质量与计费合理性之间的矛盾，可能推动行业服务标准的优化，引发对消费者权益的关注。提问者使用 Claude 订阅，发现需启动子代理验证信息，消耗了额外额度。社区观点不一，有人认为这是技术成本，有人主张按结果付费。这可能促使厂商推出更灵活的计费方案，如按成功任务计费，改善用户体验。",
-    "tags": [
-      "News",
-      "Community",
-      "Billing"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47688712",
-    "date": "2026-04-08",
-    "id": "17756496350264"
   }
 ]
