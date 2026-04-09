@@ -1,5 +1,44 @@
 [
   {
+    "title": "工作流架构抉择：编排还是编排？",
+    "summary": "n8n 深度解析微服务与 AI 工作流中编排与编排模式的权衡。",
+    "detail": "文章对比了集中式编排与事件驱动编排的差异。编排提供可控性与可见性，适合复杂流程；编排则强调服务独立性与松耦合。对于 AI 系统而言，选择直接影响扩展性与调试能力。建议根据业务场景混合使用，以平衡控制与自治，为构建稳健的 AI 自动化系统提供架构指导。",
+    "tags": [
+      "Dev",
+      "Architecture",
+      "Workflow"
+    ],
+    "link": "https://blog.n8n.io/orchestration-vs-choreography/",
+    "date": "2026-04-09",
+    "id": "17757325346602"
+  },
+  {
+    "title": "Obsidian AI Copilot：将 Agent 引入笔记软件",
+    "summary": "开源项目支持在 Obsidian 中运行 Claude Code 等代理，提升知识管理效率。",
+    "detail": "该项目允许用户在 Obsidian 笔记环境中直接调用 Claude Code、Gemini CLI 等代理工具。支持笔记创建、优化、搜索及管理。作为 Agentic Copilot，它将命令行代理能力无缝集成到个人知识库工作流中，适合开发者与研究者，实现了本地知识库与 AI 代理的深度协同。",
+    "tags": [
+      "Dev",
+      "Productivity",
+      "Obsidian"
+    ],
+    "link": "https://github.com/spencermarx/obsidian-ai",
+    "date": "2026-04-09",
+    "id": "17757325346603"
+  },
+  {
+    "title": "AnyInspect：AI 视频驱动的建筑检查工具",
+    "summary": "通过视频记录自动生成专业建筑检查报告，效率提升 6 倍。",
+    "detail": "AnyInspect 利用 AI 分析现场视频，自动生成完整的建筑检查报告。服务于房地产与物业行业，显著减少文书工作时间。支持调度管理与团队协作，已获多家大型机构采用。展示了垂直领域 AI 应用在传统行业的落地潜力，证明了视频理解技术在专业场景的商业价值。",
+    "tags": [
+      "New",
+      "Video AI",
+      "Enterprise"
+    ],
+    "link": "https://anyinspect.ai/en-GB",
+    "date": "2026-04-09",
+    "id": "17757325346604"
+  },
+  {
     "title": "TikTok AI 视频干预匈牙利大选",
     "summary": "NewsGuard 发现 34 个账户利用 AI 视频支持欧尔班，获千万播放。",
     "detail": "NewsGuard 识别出一个针对 2026 年 4 月匈牙利议会选举的影响行动。34 个匿名 TikTok 账户发布 AI 生成视频，攻击总理欧尔班的挑战者佩特·马加尔。视频内容包括将反马加尔评论植入动物口中或伪造新闻报道，总播放量约 1000 万。TikTok 确认这些账户属于“隐蔽影响行动”。此举背景是欧洲安全专家警告俄罗斯可能在选举前干涉，欧尔班被视为俄罗斯盟友。此事件凸显 AI 生成内容在地缘政治中的武器化风险，以及社交平台在监管隐蔽操作方面的挑战。",
@@ -1259,44 +1298,5 @@
     "link": "https://github.com/Dukk11/interview-ai-helper",
     "date": "2026-04-07",
     "id": "17755982841526"
-  },
-  {
-    "title": "Reflect Memory 发布跨工具 AI 记忆层",
-    "summary": "解决多 AI 工具上下文碎片化，支持主流模型。",
-    "detail": "Reflect Memory 旨在为 ChatGPT、Claude 等工具提供共享上下文。支持语义、情景及程序记忆，召回速度<50ms。强调数据隐私，用户拥有所有权，不用于训练。解决切换工具时的记忆丢失痛点，提升多工具协作效率。",
-    "tags": [
-      "New",
-      "AI Memory",
-      "Productivity"
-    ],
-    "link": "https://www.reflectmemory.com/",
-    "date": "2026-04-07",
-    "id": "17755954194580"
-  },
-  {
-    "title": "LMIM OS 推出本地离线 AI 自动化系统",
-    "summary": "本地运行代理，自动回复 WhatsApp 及安排会议。",
-    "detail": "LMIM OS 是一款本地 AI 操作系统，无需云端即可执行实际任务。支持 WhatsApp 自动回复、会议调度及代码运行。完全免费开源，零遥测，保护隐私。即将推出 macOS 版本及 GPU 加速，适合注重数据安全的极客用户。",
-    "tags": [
-      "New",
-      "Local AI",
-      "Automation"
-    ],
-    "link": "https://lmim.tech/",
-    "date": "2026-04-07",
-    "id": "17755954194581"
-  },
-  {
-    "title": "Vorim AI 构建代理身份与安全信任层",
-    "summary": "为自主 AI 代理提供加密身份与细粒度权限。",
-    "detail": "针对 AI 代理安全风险，Vorim 提供基于 Ed25519 的加密身份与不可变审计追踪。支持 LangChain 等框架，具备 7 种权限范围及实时信任评分。延迟低于 5ms，解决代理越权与合规问题，是企业级代理部署的关键基础设施。",
-    "tags": [
-      "New",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://vorim.ai/",
-    "date": "2026-04-07",
-    "id": "17755954194582"
   }
 ]
