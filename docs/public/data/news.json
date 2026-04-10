@@ -1,5 +1,96 @@
 [
   {
+    "title": "Anthropic 临时禁止 OpenClaw 创作者访问 Claude",
+    "summary": "Anthropic 因安全风险暂时封禁 OpenClaw 创作者。",
+    "detail": "Anthropic 采取强硬安全措施，暂时禁止了开源工具 OpenClaw 的创作者访问 Claude 模型。此举凸显了大模型厂商对越狱工具及潜在滥用行为的零容忍态度。事件引发社区对 AI 安全边界与开源探索之间冲突的讨论，可能影响后续类似安全研究工具的开发策略。此新闻源自 TechCrunch 报道，表明厂商正在加强 API 访问监控与滥用检测。",
+    "tags": [
+      "News",
+      "Security",
+      "Anthropic"
+    ],
+    "link": "https://techcrunch.com/2026/04/10/anthropic-temporarily-banned-openclaws-creator-from-accessing-claude/",
+    "date": "2026-04-10",
+    "id": "17758536374600"
+  },
+  {
+    "title": "Nono 发布 AI 代理运行时安全基础设施",
+    "summary": "提供内核级隔离与审计，保障 AI 代理运行安全。",
+    "detail": "Nono 推出专为 AI 代理设计的运行时安全基础设施，支持 Linux/macOS/Windows 内核隔离。功能包括不可撤销允许列表、原子回滚、加密审计日志及凭证注入。作为 Sigstore 创作者的新作，它为自主代理提供了深层防御架构，解决 AI 代理执行过程中的安全与合规痛点。利用 Landlock 和 Seatbelt  enforce 隔离，确保代理行为可控。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://nono.sh",
+    "date": "2026-04-10",
+    "id": "17758536374601"
+  },
+  {
+    "title": "业界面临 AI 能力评估基准饱和危机",
+    "summary": "现有基准测试过快被饱和，亟需新评估方法。",
+    "detail": "文章指出 AI 模型能力增长导致传统基准测试（如 GPQA）迅速饱和，难以有效上限评估。METR 等机构推出时间跨度方法论及新评估集（如 BrowseComp）。行业正转向更具挑战性的代理基准测试，以应对模型快速迭代带来的评估失效问题，确保安全阈值测量准确。包括 GDPval 等新指标被引入以衡量实际生产力提升。",
+    "tags": [
+      "News",
+      "Evaluation",
+      "LLM"
+    ],
+    "link": "https://www.lesswrong.com/posts/gfkJp8Mr9sBm83Rcz/we-re-actually-running-out-of-benchmarks-to-upper-bound-ai",
+    "date": "2026-04-10",
+    "id": "17758536374602"
+  },
+  {
+    "title": "GEIANT 为 Claude 代理添加欧盟 AI 法案合规层",
+    "summary": "开源 MCP 集成，实现代理身份与司法管辖绑定。",
+    "detail": "GEIANT 推出开源集成层，为 Claude Managed Agents 添加欧盟 AI 法案合规功能。通过 MCP 协议，为代理赋予加密身份、司法管辖绑定及自动审计追踪。该方案无需额外基础设施即可生成合规报告，解决了自主代理在部署时的法律问责与主权身份难题。涵盖 Art. 12/14 报告自动生成，简化企业部署流程。",
+    "tags": [
+      "Dev",
+      "Compliance",
+      "Agents"
+    ],
+    "link": "https://docs.geiant.com/integrations/claude-managed-agents/",
+    "date": "2026-04-10",
+    "id": "17758536374603"
+  },
+  {
+    "title": "利用 5 个并行 AI 代理映射 153 个科学空白",
+    "summary": "GitHub 项目展示 AI 代理在科研发现中的应用。",
+    "detail": "新开源项目通过 5 个并行 AI 研究代理，成功识别并组织了 153 个未被研究的科学空白。该项目展示了多代理协作在科研文献分析与机会发现中的潜力。代码与数据已公开，为利用 AI 加速科学发现提供了可复现的行动框架与案例参考。源数据可操作，帮助研究人员快速定位未探索领域。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Agents"
+    ],
+    "link": "https://github.com/fainir/science-gaps",
+    "date": "2026-04-10",
+    "id": "17758536374604"
+  },
+  {
+    "title": "行业反思：以功耗衡量 AI 能力是类别错误",
+    "summary": "评论文章批评以吉瓦为单位衡量 AI 算力的趋势。",
+    "detail": "文章批评硅谷过度关注以功耗（吉瓦）衡量 AI 算力，认为这忽略了效率与架构创新。作者指出这种指标会导致错误激励，类似于按耗油量评价厨师。随着电力成为瓶颈，行业需回归效率优化而非单纯堆砌功耗，避免硬件发展陷入误区。引用了 Altman 等言论，呼吁关注软件与架构优化。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Analysis"
+    ],
+    "link": "https://aiafterhours.substack.com/p/the-gigawatt-delusion-why-silicon",
+    "date": "2026-04-10",
+    "id": "17758536374605"
+  },
+  {
+    "title": "SIGNOMY 推出经济型 AI 代理团队任务平台",
+    "summary": "代理可组队执行任务并赚取佣金的城邦系统。",
+    "detail": "SIGNOMY 发布 governed agent city-state 平台，允许经济型 AI 代理组建团队、运行任务并赚取佣金。系统包含 3D 世界映射、任务市场及治理框架。该尝试探索了自主代理在经济系统中的独立角色与协作模式，为代理经济生态提供新实验场。含 100 瓷砖地图，支持动态负载与区域治理。",
+    "tags": [
+      "New",
+      "Economy",
+      "Agents"
+    ],
+    "link": "https://www.signomy.xyz/",
+    "date": "2026-04-10",
+    "id": "17758536374606"
+  },
+  {
     "title": "AI 变革为何尚未感知？行业深度分析",
     "summary": "探讨 AI hype 与实际经济变革之间的滞后，反驳“随机鹦鹉”论。",
     "detail": "文章深入分析了为何大众尚未感受到 AI 带来的全面经济重构。作者指出，尽管“随机鹦鹉”等质疑声不断，但 AI 能力边界正在快速扩展。真正的转型需要时间，当前的质疑往往是目标移动的结果。作者重新定义了“随机鹦鹉”一词，讽刺那些脱离现实的论证。文中提到“目标移动”现象，即预测 AI 无法做到某事与头条报道 AI 做到某事之间的滞后越来越短。这种焦虑反映了美国传统的急躁心理，但大型转型确实需要时间沉淀。这对于理解 AI 落地节奏具有重要参考意义，表明行业正处于从 hype 到实质转化的过渡期，需保持耐心与理性观察。",
@@ -1207,96 +1298,5 @@
     "link": "https://www.notebookcheck.net/Meta-upgrades-Meta-AI-with-Muse-Spark.1270170.0.html",
     "date": "2026-04-09",
     "id": "17757516602620"
-  },
-  {
-    "title": "Gen Z 对 AI 热情显著下降，焦虑上升",
-    "summary": "调查显示 Z 世代对 AI 兴奋度从 36% 降至 22%，愤怒情绪增加。",
-    "detail": "最新调查报告显示，Z 世代对人工智能的态度在过去一年发生显著转变。感到兴奋的比例从 36% 降至 22%，而愤怒情绪从 22% 升至 31%。这种变化主要源于 AI 对入门级工作岗位前景的威胁，尤其是年龄较大的 Z 世代群体。尽管日常使用者仍保持较高好奇心，但整体希望感下降。这一趋势警示行业，AI 的就业影响正在重塑年轻一代的认知，可能影响未来人才流向和技术接受度。企业需关注这一情绪变化，调整沟通策略。",
-    "tags": [
-      "News",
-      "Social Impact",
-      "Market Research"
-    ],
-    "link": "https://www.axios.com/2026/04/09/ai-gen-z-polling-gallup",
-    "date": "2026-04-09",
-    "id": "17757516602621"
-  },
-  {
-    "title": "LangChain 推出 Deep Agents Deploy 开放替代方案",
-    "summary": "LangChain 发布新部署工具，提供 Claude 托管代理的开源替代。",
-    "detail": "LangChain 正式推出 Deep Agents Deploy 测试版，旨在为 Claude 托管代理提供开放的替代方案。该工具基于开源且模型无关的代理 harness，允许开发者拥有自己的内存数据，避免被专有系统锁定。通过单一命令即可部署多租户、可扩展的代理编排逻辑和沙箱环境。这一发布标志着代理工程（Agent Engineering）向生产级迈进一步，为企业提供了更灵活、可控的 AI 代理部署选择，降低了供应商锁定风险，推动了开源代理生态的发展。",
-    "tags": [
-      "Dev",
-      "LangChain",
-      "Agents"
-    ],
-    "link": "https://blog.langchain.com/deep-agents-deploy-an-open-alternative-to-claude-managed-agents/",
-    "date": "2026-04-09",
-    "id": "17757516602622"
-  },
-  {
-    "title": "AI 网络安全：护城河在系统而非模型",
-    "summary": "分析指出 AI 网络安全能力参差不齐，系统架构比模型更重要。",
-    "detail": "文章深入分析了 Mythos 事件后的 AI 网络安全格局，提出“护城河在于系统而非模型”的核心观点。测试证据显示，模型在网络安全能力上表现出惊人的参差不齐（Jagged Frontier）。虽然模型能识别部分漏洞，但在区分真实漏洞与误报方面仍存在挑战。文章分解了安全管道，强调需要构建沙箱和多租户架构来保障生产环境安全。这对企业部署 AI 安全工具具有重要的指导意义，提示需关注整体系统鲁棒性，而非单纯依赖模型能力。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Enterprise"
-    ],
-    "link": "https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier",
-    "date": "2026-04-09",
-    "id": "17757516602623"
-  },
-  {
-    "title": "AI 对齐新视角：信号即目标",
-    "summary": "文章探讨 AI 对齐核心问题，指出训练信号决定系统目标。",
-    "detail": "这篇深度文章提出了 AI 对齐的新框架，强调“信号即目标”。作者指出，构建强大 AI 系统伴随未被完全理解的风险，如自我保存和资源获取驱动。对齐问题的核心在于确保训练灌输的目标符合人类伦理。训练过程的所有环节，包括预训练语料和强化学习环境，共同构建了系统的驱动信号。这一观点为开发者提供了新的安全视角，即通过精确控制训练信号来管理 AI 行为，而非仅仅依赖后期微调，为安全研究指明方向。",
-    "tags": [
-      "Dev",
-      "AI Safety",
-      "Theory"
-    ],
-    "link": "https://substack.com/home/post/p-193080562",
-    "date": "2026-04-09",
-    "id": "17757516602624"
-  },
-  {
-    "title": "rtdiff：实时 Git 差异与 AI 提交桌面应用",
-    "summary": "新开源工具提供实时 Git 差异查看及 AI 辅助提交功能。",
-    "detail": "rtdiff 是一款展示在 Hacker News 上的桌面应用程序，旨在优化开发者的版本控制工作流。它提供实时的 Git diff 图形界面，并集成 AI 辅助提交功能，帮助开发者自动生成提交信息。该工具基于开源社区构建，反映了 AI 正在深入渗透至开发者日常工具链中。通过自动化繁琐的提交描述工作，rtdiff 试图提升代码审查效率和开发体验，是 AI 赋能开发者工具（DevTools）的典型代表，适合追求高效工作流的团队。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "GitHub"
-    ],
-    "link": "https://github.com/stagas/rtdiff",
-    "date": "2026-04-09",
-    "id": "17757516602625"
-  },
-  {
-    "title": "PropOps：读取印度政府房产数据的 AI 代理",
-    "summary": "新 AI 代理可抓取政府登记数据，评估房产风险并提醒买家。",
-    "detail": "PropOps 是一个基于 Claude Code 构建的 AI 驱动房产透明度工具。它能够抓取印度政府登记处（IGRS、RERA 等）的数据，对房产进行评分、标记风险并向买家发出警报。该项目展示了 AI 代理在垂直领域的具体应用，特别是处理公共但难以访问的数据集。通过自动化尽职调查，PropOps 解决了信息不对称问题，体现了 AI 技术在房地产科技（PropTech）中的落地潜力，为买家提供了决策支持，具有区域化应用参考价值。",
-    "tags": [
-      "New",
-      "Agents",
-      "PropTech"
-    ],
-    "link": "https://github.com/himanshudongre/propops",
-    "date": "2026-04-09",
-    "id": "17757516602626"
-  },
-  {
-    "title": "udm14：禁用 Google 搜索 AI 概览工具",
-    "summary": "开源工具允许用户恢复传统 Google 搜索，移除 AI 概述干扰。",
-    "detail": "udm14 是一个旨在“去垃圾化”Google 搜索体验的开源项目。它允许用户通过特定参数禁用 Google 搜索结果的 AI 概述功能，回归传统链接列表。该项目代码开源且遵循 CC0 协议，强调隐私保护，不跟踪搜索记录。这反映了部分用户对当前搜索引擎过度集成 AI 功能的抵触情绪，为偏好传统搜索效率的用户提供了替代方案，是用户对抗算法干预的一个小型但实用的工具，展示了社区对搜索体验的自主权追求。",
-    "tags": [
-      "New",
-      "Tools",
-      "Search"
-    ],
-    "link": "https://udm14.com/",
-    "date": "2026-04-09",
-    "id": "17757516602627"
   }
 ]
