@@ -1,5 +1,83 @@
 [
   {
+    "title": "OpenAI 暂停英国 310 亿美元项目，电力成本成 AI 新瓶颈",
+    "summary": "OpenAI 因英国电价过高暂停 Stargate 项目，凸显能源是 AI 竞争的关键。",
+    "detail": "OpenAI 暂停了价值 310 亿美元的英国 Stargate 项目，原因并非模型或需求问题，而是英国电力成本过高。这一事件标志着 AI 竞争已从软件层面转向基础设施层面，廉价电力成为决定胜负的关键因素。即使是拥有巨额资本的巨头，也无法忽视能源成本对大规模部署的影响。分析认为，未来 AI 数据中心选址将更倾向于能源便宜地区，能源供应稳定性将成为评估 AI 投资回报的核心指标，这可能重塑全球算力布局。能源已成为 AI 发展的最终边界，算力增长受限于电力供应。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "OpenAI"
+    ],
+    "link": "https://m4ttl4w.substack.com/p/energy-the-final-frontier",
+    "date": "2026-04-10",
+    "id": "17758125889980"
+  },
+  {
+    "title": "利用 AI 将 AWS 成本从$11 降至$0 的迁移实战",
+    "summary": "开发者分享如何利用 AI 辅助将 Spring Boot 应用迁移至无服务器架构，实现零成本。",
+    "detail": "文章记录了一位开发者如何利用 AI 辅助代码迁移，将原本每月花费 11 美元的 AWS EC2 应用迁移至 Cloudflare Pages 和 AWS Lambda 免费层。原应用为 Spring Boot，通过 AI 将 Thymeleaf 模板替换为静态 HTML 及 client-side JavaScript，后端改为 Node.js Lambda。此案例展示了 AI 在降低运维成本和优化架构方面的实际效用，适合侧项目开发者参考。对于流量较小的应用，无服务器架构结合 AI 辅助重构是实现零成本运维的有效路径，显著降低了个人开发者的试错成本和时间投入。",
+    "tags": [
+      "Dev",
+      "Cloud",
+      "Cost Optimization"
+    ],
+    "link": "https://www.rockoder.com/blog/website-migration/",
+    "date": "2026-04-10",
+    "id": "17758125889981"
+  },
+  {
+    "title": "荷兰 AI 摄像头误判导致每年 50 万张不当罚单",
+    "summary": "监管机构指出荷兰 AI 停车扫描系统每年发出 50 万张不合理罚单，引发伦理争议。",
+    "detail": "荷兰监管机构披露，当地使用的 AI 汽车扫描摄像头系统每年错误发出约 50 万张停车罚单。这一事件揭示了计算机视觉技术在现实部署中的可靠性问题及其对社会公平的影响。自动化执法系统的误判率过高不仅造成民众经济损失，也引发了对 AI 决策透明度和监管必要性的广泛讨论。该案例为 AI 治理提供了反面教材，表明在涉及公共执法的领域，必须建立有效的人工复核机制，以防止算法错误导致的大规模社会问题。技术落地需兼顾效率与公平，监管介入刻不容缓。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Computer Vision"
+    ],
+    "link": "https://nltimes.nl/2026/04/09/camera-scanning-cars-issue-500000-unjustified-parking-fines-per-year-regulator-says",
+    "date": "2026-04-10",
+    "id": "17758125889982"
+  },
+  {
+    "title": "Nature 研究：AI 聊天机器人将虚构疾病误认为真",
+    "summary": "科学家发明假疾病测试 AI，发现聊天机器人会向用户警告该虚构病症的存在。",
+    "detail": "Nature 发表的研究显示，科学家虚构了一种名为\"Bixonimania\"的疾病，但多个 AI 聊天机器人却告诉用户这是真实存在的。该研究揭示了大模型幻觉问题的严重性，即使在医疗等高风险领域，AI 仍可能传播虚假健康信息。这强调了在关键应用中引入人工验证机制的重要性，以及改进模型事实准确性的紧迫性。研究指出，模型倾向于自信地生成看似合理但完全错误的信息，用户需警惕 AI 在专业领域的建议，行业需加强事实性评估基准的建设。",
+    "tags": [
+      "News",
+      "Research",
+      "Safety"
+    ],
+    "link": "https://www.nature.com/articles/d41586-026-01100-y",
+    "date": "2026-04-10",
+    "id": "17758125889983"
+  },
+  {
+    "title": "GitHub 前高管创立两家新公司，获巨额融资重塑开发工具",
+    "summary": "GitHub 联合创始人和前 CEO 分别获融资，开发 AI 时代新工具。",
+    "detail": "GitHub 两位关键人物近期宣布新动向：联合创始人 Scott Chacon 为 GitButler 融资 1700 万美元，打造适配 AI 工作流的 Git 客户端；前 CEO Thomas Dohmke 为 Entire 融资 6000 万美元，专注于治理 AI 生成的代码。这表明资深开发者认为现有工具链无法适应 AI 编码代理的兴起，新一轮开发工具革命正在由行业老兵引领。他们赌注 AI 编码代理会打破现有开发依赖，工具需重构以理解和管理 AI 生成的代码，而非仅仅辅助人类编写代码。巨额融资显示资本市场对 AI 原生开发工具的高度认可。",
+    "tags": [
+      "News",
+      "DevTools",
+      "Funding"
+    ],
+    "link": "https://techstackups.com/articles/gitbutler-vs-entire-github-founders/",
+    "date": "2026-04-10",
+    "id": "17758125889984"
+  },
+  {
+    "title": "字节跳动推出 Seeduplex，实现全双工语音 AI 交互",
+    "summary": "字节发布全新语音模型 Seeduplex，支持同时听说的全双工交互，延迟低至 250ms。",
+    "detail": "字节跳动正式发布 Seeduplex，这是首款生产级全双工语音 AI 模型。与传统半双工系统不同，它允许用户与 AI 同时说话，类似真人电话交流。该技术实现了 250ms 的低延迟响应，错误率降低 50%，并能有效抵抗背景噪音干扰。这标志着语音交互技术迈向更自然的人机对话阶段，有望重塑客服及陪伴类应用场景。端到端原生模型架构避免了传统 ASR+LLM+TTS 流水线的延迟，提升了对话连贯性和用户满意度，是语音交互领域的重大突破。",
+    "tags": [
+      "New",
+      "Voice AI",
+      "ByteDance"
+    ],
+    "link": "https://seeduplex.io/",
+    "date": "2026-04-10",
+    "id": "17758125889985"
+  },
+  {
     "title": "Anthropic 推出 Claude 托管代理，AWS AI 营收达 150 亿",
     "summary": "Anthropic 发布代理平台，AWS AI 年营收显著增长。",
     "detail": "Anthropic 正式推出 Claude Managed Agents 公开测试，旨在解决生产环境部署的基础设施复杂性，定价为每会话小时 0.08 美元。同时，AWS 披露 AI 服务年营收达 150 亿美元，占总量 10%，定制芯片业务翻倍。MIT 研究人员还发布了 CompreSSM 技术，训练速度提升 40 倍。这些动态表明 AI 正从实验转向盈利业务，基础设施需求真实且强劲，效率优化成为新焦点。",
@@ -1220,83 +1298,5 @@
     "link": "https://linggen.dev/",
     "date": "2026-04-08",
     "id": "17756881658612"
-  },
-  {
-    "title": "新 CLI 工具可约束 AI 代码修改范围",
-    "summary": "定义文件边界并检查差异，防止 AI 随意修改代码库。",
-    "detail": "针对用户在使用 Cursor 和 Claude 等工具时遇到的痛点，即代码生成后缺乏控制层，导致 AI 常修改无关文件或引入范围外变更，开发者开源了一款 CLI 工具。现有工具多侧重于生成或事后审查，缺乏中间控制层。该 CLI 位于 AI 生成代码与仓库之间，通过定义文件边界和检查差异来强制执行约束，而非依赖另一层 AI 审查。目前已获 20K+ CLI 安装及 1K+ IDE 扩展安装。该项目为 AI 工作流提供了确定性的控制层，适合关注代码安全性与稳定性的开发团队集成使用，有效防止代码库漂移。",
-    "tags": [
-      "Dev",
-      "CLI",
-      "Security"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47696831",
-    "date": "2026-04-08",
-    "id": "17756881658613"
-  },
-  {
-    "title": "开源项目 Agent Brain 提供 7 层认知记忆架构",
-    "summary": "基于 Python 与 FastAPI，为 AI 代理提供多层记忆系统。",
-    "detail": "GitHub 上新开源了 Agent Brain 项目，旨在为 AI 代理提供 7 层认知记忆架构。该项目由 kaderosio 维护，使用 Python、FastAPI 和 pgvector 构建，解决了代理在长任务中遗忘上下文的问题。通过结构化的记忆层，代理能更有效地管理历史交互与知识检索。适合需要构建复杂长期记忆功能的 AI 应用开发者参考使用，助力提升代理智能水平。项目开源代码便于社区贡献，推动了代理记忆标准化的技术发展，为构建更持久的 AI 助手奠定基础。",
-    "tags": [
-      "Dev",
-      "Memory",
-      "Architecture"
-    ],
-    "link": "https://github.com/kaderosio/agent-brain",
-    "date": "2026-04-08",
-    "id": "17756881658614"
-  },
-  {
-    "title": "OpenAI 企业业务营收占比超 40%，迈向与消费端持平",
-    "summary": "OpenAI 披露企业营收占比超 40%，Codex 周活达 300 万，GPT-5.4 驱动代理工作流。",
-    "detail": "OpenAI 高管透露入职 90 天观察，企业客户紧迫感强烈。企业营收占比超 40%，预计 2026 年底与消费端持平。Codex 周活跃用户达 300 万，API 处理令牌量巨大。高盛、达美乐等新客户加入，标志着 AI 从实验阶段转向实际业务落地，企业战略聚焦于将前沿智能层融入日常运营。此转变表明 AI 不再是玩具，而是核心生产力工具，竞争焦点转向集成深度与业务重塑能力。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Enterprise"
-    ],
-    "link": "https://openai.com/index/next-phase-of-enterprise-ai/",
-    "date": "2026-04-08",
-    "id": "17756846418080"
-  },
-  {
-    "title": "Nile Local：本地运行的 AI 数据工程 IDE",
-    "summary": "无需云基础设施，本地运行数据栈，支持 SQL/PySpark 及 AI 辅助分析。",
-    "detail": "针对大数据工程设置繁琐痛点，Nile Local 提供完全本地的 AI 数据 IDE。用户可在本地机器上运行存储、计算、零 ETL 及血缘管理。支持 SQL 和 PySpark 脚本快速迭代，内置 AI 辅助查询编写，无需重复提供上下文。适合侧项目或本地管道测试，甚至支持飞行模式下工作，降低云依赖和启动门槛。解决了云环境交互性差的问题，让数据工程师能专注于逻辑而非基础设施配置，显著提升开发效率。",
-    "tags": [
-      "New",
-      "Data Engineering",
-      "IDE"
-    ],
-    "link": "https://stream-sock-3f5.notion.site/Nile-Local-an-AI-Data-IDE-that-runs-on-your-local-machine-33b126c4d01a8052a96cc879c2dea08e?source=copy_link",
-    "date": "2026-04-08",
-    "id": "17756846418081"
-  },
-  {
-    "title": "CongaLine：自托管隔离 AI 代理舰队管理工具",
-    "summary": "开源工具，通过单一 CLI 管理隔离的 AI 代理容器，支持 OpenClaw 和 Hermes。",
-    "detail": "CongaLine 允许开发者自托管隔离的 AI 代理舰队，每个代理拥有独立容器、网络和身份。通过单一 CLI 管理，支持 OpenClaw 或 Hermes 运行时。可部署于笔记本、VPS 或树莓派，并连接 Slack/Telegram。旨在为爱好者和企业提供灵活、安全的代理部署方案，减少集中式服务依赖，增强数据隐私和控制力。隔离架构防止代理间干扰，适合敏感任务处理，为本地化 AI 部署提供新范式。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Agents"
-    ],
-    "link": "https://github.com/cruxdigital-llc/congaline",
-    "date": "2026-04-08",
-    "id": "17756846418082"
-  },
-  {
-    "title": "初创公司 Poke 获融资，短信即可驱动 AI 代理",
-    "summary": "通过 iMessage/SMS 交互的个人助理，获 1000 万美元融资，估值达 3 亿美元。",
-    "detail": "Poke 推出可通过短信、iMessage 交互的 AI 代理，旨在简化任务自动化。用户可设置邮件提醒、健康跟踪、智能家居控制等自动化流程。公司获 Spark Capital 等投资，最新融资 1000 万美元，估值达 3 亿美元。该产品区别于通用聊天机器人，聚焦于“完成任务”，降低用户使用代理的技术门槛，推动 AI 日常化。无需安装新 App，利用现有通讯习惯，极大提升了 AI 代理在大众消费者中的普及潜力和易用性。",
-    "tags": [
-      "New",
-      "Startup",
-      "Funding"
-    ],
-    "link": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
-    "date": "2026-04-08",
-    "id": "17756846418083"
   }
 ]
