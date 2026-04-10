@@ -1,5 +1,18 @@
 [
   {
+    "title": "Shell-MCP：为 AI 代理打造持久化终端环境",
+    "summary": "新开源工具 Shell-MCP 支持 AI 代理在终端中保持上下文，继承环境变量与路径。",
+    "detail": "该项目在 Hacker News 上展示，旨在解决 AI 代理在终端操作中的上下文丢失问题。Shell-MCP 提供了持久化终端支持，确保 CD 命令、环境变量及 nvm 配置在会话间保留。这对于开发复杂的 AI 编程代理至关重要，提升了自动化工作流的稳定性与连续性。随着 AI 代理自主操作能力的增强，此类基础设施工具将成为开发者构建可靠 AI 系统的关键组件。",
+    "tags": [
+      "New",
+      "Dev",
+      "Tools"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47713798",
+    "date": "2026-04-10",
+    "id": "17757989222986"
+  },
+  {
     "title": "谷歌 AI 概述每小时生成数百万错误答案",
     "summary": "最新研究揭露谷歌 AI 概述存在严重幻觉问题，每小时产出数百万错误信息。",
     "detail": "纽约邮报报道的一项重磅研究显示，谷歌搜索中的 AI 概述功能存在严重准确性问题。研究表明，该系统每小时会生成数百万个错误答案，引发了用户对搜索可靠性的担忧。这一发现可能迫使谷歌重新评估其 AI 集成策略，并对整个搜索行业的 AI 应用标准产生深远影响。监管机构和竞争对手可能会借此质疑生成式 AI 在关键信息检索中的安全性，促使行业建立更严格的测试基准。",
@@ -76,6 +89,58 @@
     "link": "https://www.tend.cx/",
     "date": "2026-04-10",
     "id": "17757887767755"
+  },
+  {
+    "title": "OpenAI 支持法案：拟免除 AI 公司造成危害的诉讼责任",
+    "summary": "WIRED 披露 OpenAI 支持一项法案，旨在限制 AI 公司对模型造成大规模伤害的法律责任。",
+    "detail": "据 WIRED 报道，OpenAI 支持一项新法案，该法案若通过，将免除 AI 公司因模型导致的大规模死亡或金融灾难的诉讼责任。这一动向引发了关于 AI 问责制的激烈讨论。此举意在保护创新，但批评者认为这可能削弱公司对模型安全性的重视，影响公众信任。该法案反映了行业巨头试图在监管初期确立有利法律框架的战略意图，可能深刻影响未来 AI 安全标准的制定与执行力度。",
+    "tags": [
+      "News",
+      "Policy",
+      "OpenAI"
+    ],
+    "link": "https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/",
+    "date": "2026-04-09",
+    "id": "17757989222981"
+  },
+  {
+    "title": "OpenJDK 发布临时政策：禁止贡献 AI 生成代码",
+    "summary": "OpenJDK 管理委员会批准临时政策，禁止提交由生成式 AI 创建的代码或内容。",
+    "detail": "Oracle 赞助的 OpenJDK 社区发布临时政策，明确禁止贡献包含由 LLM 或扩散模型生成的内容（代码、文本、图像）。此举旨在降低审查负担及知识产权风险。虽然允许开发者私下使用 AI 辅助理解代码，但提交内容必须源自人类。这为开源社区治理 AI 内容设立了重要标杆，反映了核心基础设施项目对 AI 生成代码质量的担忧，可能引发其他开源基金会效仿类似限制措施。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Policy"
+    ],
+    "link": "https://openjdk.org/legal/ai",
+    "date": "2026-04-09",
+    "id": "17757989222982"
+  },
+  {
+    "title": "美国首例《取下法案》定罪：男子被捕后仍制作 AI 裸照",
+    "summary": "首位因《取下法案》被定罪的男子在逮捕后继续制作 AI 生成裸照，凸显执法挑战。",
+    "detail": "Ars Technica 报道了美国首例依据《取下法案》（Take It Down Act）定罪的案件。涉案男子在逮捕后仍继续制作 AI 生成裸照，显示了法律威慑与技术滥用之间的博弈。此案标志着针对 AI 生成有害内容的法律监管进入实质执行阶段，为后续类似案件树立了司法先例。然而罪犯的持续行为也表明，仅靠法律条文难以完全遏制技术滥用，需配合技术手段与教育引导。",
+    "tags": [
+      "News",
+      "Legal",
+      "Safety"
+    ],
+    "link": "https://arstechnica.com/tech-policy/2026/04/first-man-convicted-under-take-it-down-act-kept-making-ai-nudes-after-arrest/",
+    "date": "2026-04-09",
+    "id": "17757989222984"
+  },
+  {
+    "title": "ToneSwap 上线：学习用户专属文风的 AI 写作工具",
+    "summary": "新工具 ToneSwap 可通过学习用户样本重写文本，每日免费提供 5 次重写服务。",
+    "detail": "ToneSwap 是一款旨在解决 AI 写作同质化问题的新产品。它通过构建用户写作档案，学习词汇、节奏和结构，使重写内容匹配个人风格而非通用 AI voice。产品提供免费层级，每日 5 次重写无需信用卡。这反映了 AI 应用正从通用生成向个性化定制转变的趋势。对于需要保持品牌声音或个人风格的专业作家，此类工具提供了比通用大模型更精准的解决方案。",
+    "tags": [
+      "New",
+      "Writing",
+      "Product"
+    ],
+    "link": "https://toneswap.app/",
+    "date": "2026-04-09",
+    "id": "17757989222985"
   },
   {
     "title": "AnimTOON：高效 SVG 动画生成模型",
@@ -1233,70 +1298,5 @@
     "link": "https://www.quippd.com/writing/2026/04/08/ai-code-is-hollowing-out-open-source-and-maintainers-are-looking-the-other-way.html",
     "date": "2026-04-08",
     "id": "17756812136152"
-  },
-  {
-    "title": "开发者报告 Cursor AI 代理故障导致 61GB 内存泄漏",
-    "summary": "GitHub 文档记录 Cursor AI 代理失败导致硬件损坏及支持疏忽，引发开发者关注。",
-    "detail": "一名开发者在 GitHub 发布详细报告，记录 Cursor AI 代理失败导致 61.5GB 内存泄漏，造成硬件损坏及支持团队疏忽。该报告揭示了 AI 编码工具在资源管理上的潜在风险，特别是长时间运行代理时的稳定性问题。这对于依赖 AI 辅助编程的开发团队是重要警示，建议在生产环境中监控资源使用，并评估 AI 代理的容错机制，避免类似硬件损失。工具稳定性仍是落地关键，厂商需加强测试流程，用户应建立资源报警机制，防止单一工具故障导致系统级崩溃。",
-    "tags": [
-      "Dev",
-      "Cursor",
-      "Bug"
-    ],
-    "link": "https://github.com/blackysdeamon/cursor-ai-negligence-report",
-    "date": "2026-04-08",
-    "id": "17756812136153"
-  },
-  {
-    "title": "Darwin Ads 提供 2500 美元免费 AI 广告植入额度",
-    "summary": "新平台提供首次活动免费植入机会，支持在创作者视频中放置 AI 产品广告。",
-    "detail": "Darwin Ads 推出促销活动，为新用户提供价值约 2500 美元的免费广告植入额度。该平台专注于在创作者视频中嵌入 AI 产品广告，由 Google、Disney 等 backers 支持。用户可通过 API 或界面启动活动。这对于希望低成本测试视频广告效果的 AI 初创公司是难得机会。优惠限时，适合需要快速获取用户反馈的早期产品，需注意条款细则。是营销侧的低成本获客尝试，利用创作者影响力进行产品植入，相比传统广告更具原生性，转化率可能更高。",
-    "tags": [
-      "Deal",
-      "Ads",
-      "Marketing"
-    ],
-    "link": "https://ads.darwin.so/?promo=UMTXQA",
-    "date": "2026-04-08",
-    "id": "17756812136154"
-  },
-  {
-    "title": "Comad World：基于 YAML 配置的六智能体知识图谱系统",
-    "summary": "开源项目通过单一 YAML 文件配置 6 个 AI 代理，自动构建可搜索知识图谱。",
-    "detail": "Comad World 是一个配置驱动的 AI 代理系统，仅需一个 YAML 文件即可部署 6 个模块（爬取、理解、模拟等）。它支持从 RSS、论文和 GitHub 抓取数据构建每日更新的知识图谱。该项目兼容 Claude Code，适合开发者快速搭建个人知识库。其模块化设计允许通过更换预设轻松切换领域，降低了多智能体系统的部署门槛。是本地知识管理的有效解决方案，开源协议为 MIT。对于希望私有化部署知识管理系统的团队，该项目提供了可参考的架构实现，支持自定义数据源。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Knowledge Graph"
-    ],
-    "link": "https://github.com/kinkos1234/comad-world",
-    "date": "2026-04-08",
-    "id": "17756812136155"
-  },
-  {
-    "title": "Anthropic 限制新网络安全模型 Mythos 访问",
-    "summary": "Anthropic 推出安全模型 Mythos 并限制访问权限。",
-    "detail": "Anthropic **正式发布**专注于网络安全的新模型 Mythos，但随即宣布限制访问范围，仅向特定区域用户开放。此举旨在防止模型被滥用于攻击性网络任务，体现了 AI 安全领域的谨慎态度。对于依赖 AI 进行安全审计的企业，需关注后续合规访问渠道。这标志着 AI 厂商在双刃剑效应上的最新管控措施，平衡能力开放与风险控制，可能影响安全自动化流程的部署策略及行业合规标准。未来企业需评估此类受限模型在实际防御中的可用性，并准备备选方案以应对潜在的访问壁垒。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "Security"
-    ],
-    "link": "https://arstechnica.com/ai/2026/04/anthropic-limits-access-to-mythos-its-new-cybersecurity-ai-model/",
-    "date": "2026-04-08",
-    "id": "17756760120450"
-  },
-  {
-    "title": "WordPress 7.0 原生支持 AI Agent 与 MCP 协议",
-    "summary": "WordPress 7.0 更新引入 AI 连接器与 MCP 适配器。",
-    "detail": "WordPress 7.0 将在核心层集成 **AI Connectors UI** 及官方 MCP Adapter。这意味着 Cursor 等 Agent 可直接读取站点结构并写入数据库。虽然提升了自动化效率，但也引发了关于权限管理与安全性的担忧。占据 43% 网页份额的 WordPress 此举将极大降低 AI 操作网站的门槛。开发者需重新审视站点权限配置，防止 Agent 误操作导致内容篡改。这是 CMS 领域向 AI 原生架构转型的关键一步，可能引发其他平台跟进，重塑网站维护工作流，建议管理员提前备份数据。",
-    "tags": [
-      "News",
-      "WordPress",
-      "MCP"
-    ],
-    "link": "https://medium.com/respira-love/wordpress-7-0-just-gave-ai-agents-the-keys-to-your-site-we-should-talk-about-that-5e699cfca4f7",
-    "date": "2026-04-08",
-    "id": "17756760120451"
   }
 ]
