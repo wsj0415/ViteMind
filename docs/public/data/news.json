@@ -1,5 +1,57 @@
 [
   {
+    "title": "Anthropic 推出 Claude 托管代理，AWS AI 营收达 150 亿",
+    "summary": "Anthropic 发布代理平台，AWS AI 年营收显著增长。",
+    "detail": "Anthropic 正式推出 Claude Managed Agents 公开测试，旨在解决生产环境部署的基础设施复杂性，定价为每会话小时 0.08 美元。同时，AWS 披露 AI 服务年营收达 150 亿美元，占总量 10%，定制芯片业务翻倍。MIT 研究人员还发布了 CompreSSM 技术，训练速度提升 40 倍。这些动态表明 AI 正从实验转向盈利业务，基础设施需求真实且强劲，效率优化成为新焦点。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "AWS"
+    ],
+    "link": "https://readnotpanic.ai/",
+    "date": "2026-04-10",
+    "id": "17758073187321"
+  },
+  {
+    "title": "每日 2 美元：自主代理的成本优先架构实践",
+    "summary": "通过四层模型路由，代理运营成本降低 95%。",
+    "detail": "Veltrix 团队发布研究，展示如何在每日 2 美元预算下运行自主代理。通过成本优先架构，结合四层模型路由和本地模型支撑，将运营成本降低 95% 且保持 99.7% 任务成功率。该方案解决了代理落地的成本瓶颈，为生产环境部署提供了可参考的极端成本优化范式，证明成本应作为首要架构约束而非事后监控指标，大幅提升了系统的韧性与可观测性。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "Cost"
+    ],
+    "link": "https://www.veltrixcollective.com/research/cost-first-agent-architecture",
+    "date": "2026-04-10",
+    "id": "17758073187322"
+  },
+  {
+    "title": "模型并非产品：控制层将定义 AI 下一阶段",
+    "summary": "行业观点认为控制层比模型本身更具差异化价值。",
+    "detail": "文章指出模型能力已趋同，真正的差异化在于“控制层”（Harness）。它定义系统记忆、不确定性处理及优化目标，同时塑造用户体验与开发者控制力。未来竞争将从模型性能转向如何约束和表达模型能力，这对开发者设计交互架构提出了新要求，模型不再是唯一的产品核心，工程化能力成为关键壁垒，决定了系统在实际压力下的表现与可靠性。",
+    "tags": [
+      "News",
+      "Strategy",
+      "LLM"
+    ],
+    "link": "https://www.mountaineagle.net/articles/display/the-model-is-not-the-product-harnesses-not-intelligence-will-define-the-next-phase-of-ai/",
+    "date": "2026-04-10",
+    "id": "17758073187323"
+  },
+  {
+    "title": "PixelMatch：像素级对比 AI 模型 UI 重建能力",
+    "summary": "新工具支持多模型对比设计稿还原度，精准评估。",
+    "detail": "PixelMatch 是一款新工具，允许用户上传设计图，像素级对比 Claude-4、GPT-5.4、Gemini-3 等模型的重建效果。支持 Tailwind CSS 输出，帮助开发者直观评估不同模型在前端代码生成任务上的表现。它是选型测试的实用工具，支持多模型并行对比分析，解决了设计稿还原度难以量化的痛点，提升开发效率，由 Biscuit 团队构建。",
+    "tags": [
+      "New",
+      "UI",
+      "Benchmark"
+    ],
+    "link": "https://pixel-match.bsct.so/",
+    "date": "2026-04-10",
+    "id": "17758073187324"
+  },
+  {
     "title": "Shell-MCP：为 AI 代理打造持久化终端环境",
     "summary": "新开源工具 Shell-MCP 支持 AI 代理在终端中保持上下文，继承环境变量与路径。",
     "detail": "该项目在 Hacker News 上展示，旨在解决 AI 代理在终端操作中的上下文丢失问题。Shell-MCP 提供了持久化终端支持，确保 CD 命令、环境变量及 nvm 配置在会话间保留。这对于开发复杂的 AI 编程代理至关重要，提升了自动化工作流的稳定性与连续性。随着 AI 代理自主操作能力的增强，此类基础设施工具将成为开发者构建可靠 AI 系统的关键组件。",
@@ -89,6 +141,19 @@
     "link": "https://www.tend.cx/",
     "date": "2026-04-10",
     "id": "17757887767755"
+  },
+  {
+    "title": "Meta 发布超级智能实验室首个 AI 模型",
+    "summary": "Meta 超级智能实验室推出首款模型，AI 增长未遇瓶颈。",
+    "detail": "MIT 科技评论每日简报指出，Meta 已发布超级智能实验室的首个 AI 模型，标志着其在 AGI 领域的实质性进展。Microsoft AI CEO Mustafa Suleyman 撰文表示，AI 算力发展短期内不会遇到瓶颈，反驳了怀疑论者。整体来看，大厂仍在加速基础设施投入，AI 增长呈指数级趋势，行业信心依然强劲。该简报还涵盖了环境技术争议，但核心焦点在于 AI 算力的持续扩张与商业化落地，显示技术演进远未触顶。",
+    "tags": [
+      "News",
+      "Meta",
+      "AGI"
+    ],
+    "link": "https://www.technologyreview.com/2026/04/09/1135514/the-download-astroturf-wars-exponential-ai-growth-desalination-numbers/",
+    "date": "2026-04-09",
+    "id": "17758073187320"
   },
   {
     "title": "OpenAI 支持法案：拟免除 AI 公司造成危害的诉讼责任",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
     "date": "2026-04-08",
     "id": "17756846418083"
-  },
-  {
-    "title": "AI 采用的质量墙：律师因虚假引用被罚案例警示",
-    "summary": "分析 Mata 诉 Avianca 案，警示 AI 生成内容验证的重要性及行业风险。",
-    "detail": "文章回顾 2023 年律师因使用 ChatGPT 生成虚假案例引用被罚 5000 美元事件。指出 AI 输出难以区分真假，需专业人员验证。强调企业采用 AI 面临“质量墙”，即如何确保生成内容可靠性。该案例成为行业警示，推动对 AI 生成内容验证机制的关注，提醒用户在法律等高风险领域需谨慎使用 AI 辅助。当律师二次询问 AI 时仍获确认，凸显了幻觉问题的顽固性，验证环节不可或缺。",
-    "tags": [
-      "News",
-      "Risk Management",
-      "Legal"
-    ],
-    "link": "https://jitera.com/blog/in-vs-through/",
-    "date": "2026-04-08",
-    "id": "17756846418084"
-  },
-  {
-    "title": "工程师使用 15 个 AI 代理设计可穿戴设备实战",
-    "summary": "30 年经验工程师组建 15 人代理团队设计鞋履，验证多代理协作可行性。",
-    "detail": "一位拥有 30 年经验的工程师尝试仅用 15 个 AI 代理设计可穿戴鞋履。代理分为生物力学、电子架构等专家角色，相互审查工作。项目已达工程里程碑，完成 124 组件 PCB 验证。文章探讨了代理协作中的断裂点，展示了物理 AI 领域的多代理工作流潜力，为个人开发者利用 AI 团队进行硬件设计提供实证参考。证明了非专家可通过代理协作跨越领域知识鸿沟，但也揭示了当前代理在复杂物理约束下的局限性。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Hardware"
-    ],
-    "link": "https://chetandesh.substack.com/p/i-used-15-ai-agents-to-design-a-wearable",
-    "date": "2026-04-08",
-    "id": "17756846418085"
-  },
-  {
-    "title": "AWS 负责人解析同时投资 Anthropic 与 OpenAI 的战略逻辑",
-    "summary": "AWS 高管解释为何数十亿投资两家竞争对手并非利益冲突，展现云厂商中立策略。",
-    "detail": "亚马逊 AWS 高层近期正式回应了关于同时向 Anthropic 和 OpenAI 投资数十亿美元的质疑。负责人表示，这并非利益冲突，而是云服务商的中立策略，旨在为客户提供多样化的模型选择，避免锁定。此举标志着云基础设施巨头不再绑定单一模型供应商，而是构建包容性的 AI 生态。这对行业意味着模型竞争将更聚焦于性能而非独家绑定，开发者将获得更多部署灵活性。云厂商间的模型战争进入新阶段，基础设施层与模型层的博弈加剧，未来可能看到更多跨模型的基础设施优化，投资者需关注云厂商在 AI 供应链中的主导权变化。",
-    "tags": [
-      "News",
-      "AWS",
-      "Strategy"
-    ],
-    "link": "https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/",
-    "date": "2026-04-08",
-    "id": "17756812136150"
-  },
-  {
-    "title": "Google Research 推出论文可视化与同行评审 AI 智能体",
-    "summary": "Google 发布 PaperVizAgent 和 ScholarPeer，利用 AI 优化学术工作流与评审效率。",
-    "detail": "Google Research 宣布推出两款新型智能体框架：PaperVizAgent 用于自动生成高质量学术图表，ScholarPeer 用于自动严格评估论文。针对学术出版压力过大和评审疲劳问题，这些工具旨在让科学家专注于创新而非行政开销。评估显示 PaperVizAgent 生成的图表质量优于人类专家。这标志着 AI 正从研究客体转变为科学过程的主动参与者，可能重塑学术出版流程，提高科研效率。但也引发关于 AI 评审公正性的新讨论，未来学术期刊可能需制定新的 AI 使用规范，确保研究诚信不受自动化流程影响。",
-    "tags": [
-      "News",
-      "Google",
-      "Research"
-    ],
-    "link": "https://research.google/blog/improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review/",
-    "date": "2026-04-08",
-    "id": "17756812136151"
-  },
-  {
-    "title": "分析称 AI 生成代码正在架空开源社区版权体系",
-    "summary": "文章指出 LLM 代码不可版权化，导致开源许可证失效，价值从项目中流失。",
-    "detail": "最新分析指出，随着 Claude 等 AI 编码工具普及，维护者开始整合 LLM 贡献。由于美国版权局认定 LLM 输出不可版权化，这些代码进入公共领域，导致开源许可证（尤其是 Copyleft）失效。这意味着 AI 生成的代码可被无归属复用，甚至用于闭源项目。文章警告这是开源无关化的快车道，呼吁维护者警惕价值泄露。可能引发开源许可协议的重大修订浪潮，社区需重新定义人机协作下的版权边界。长期来看，这可能削弱开源项目的商业护城河，迫使基金会探索新的可持续资助模式。",
-    "tags": [
-      "News",
-      "Open Source",
-      "Legal"
-    ],
-    "link": "https://www.quippd.com/writing/2026/04/08/ai-code-is-hollowing-out-open-source-and-maintainers-are-looking-the-other-way.html",
-    "date": "2026-04-08",
-    "id": "17756812136152"
   }
 ]
