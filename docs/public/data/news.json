@@ -1,5 +1,31 @@
 [
   {
+    "title": "旧金山出现首家 AI  управляемый 零售店",
+    "summary": "NBC 报道旧金山新店由 AI 担任老板，引发对自动化零售未来的讨论。",
+    "detail": "NBC 新闻报道了旧金山湾区一家由 AI 完全管理的零售店（Andon Labs Market）。该店尝试让 AI 担任“老板”角色，处理运营决策。这一实验性案例引发了关于 AI 在实体商业中自主权、潜在风险及伦理问题的广泛讨论。文章探讨了自动化零售的未来形态，以及当算法控制库存、定价甚至员工调度时可能出现的意外后果。标志着 AI 代理从数字世界向物理零售场景的重大渗透，具有行业风向标意义。尽管便利性提升，但完全依赖 AI 管理实体店仍面临技术故障与人类监管缺失的挑战，引发公众对“无人商店”演进版的深思。",
+    "tags": [
+      "News",
+      "Retail",
+      "AI Agent"
+    ],
+    "link": "https://www.nbcnews.com/tech/innovation/ai-store-sf-san-francisco-bay-area-andon-labs-market-boss-rcna267013",
+    "date": "2026-04-11",
+    "id": "17758939881101"
+  },
+  {
+    "title": "RelayFreeLLM：开源免费 AI 网关支持自动故障转移",
+    "summary": "整合 Gemini、Groq 等免费 API，提供统一 OpenAI 接口与自动重试。",
+    "detail": "RelayFreeLLM 是一个开源 RESTful API 网关，旨在聚合 Gemini、Groq、Mistral 等免费 AI 模型提供商。它提供单一的 OpenAI 兼容接口，自动处理速率限制和故障转移。开发者无需修改代码即可切换后端，解决免费 tier 不稳定问题。支持会话亲和性管理，通过单端点路由至下一个可用提供商，显著提升应用可用性。适合预算有限的 AI 项目开发及需要高可用性的生产环境测试。项目强调无需重试逻辑即可避免 429 错误，让开发者能更专注于业务逻辑而非基础设施维护，降低 AI 应用集成成本。",
+    "tags": [
+      "Dev",
+      "API",
+      "OpenSource"
+    ],
+    "link": "https://github.com/msmarkgu/RelayFreeLLM",
+    "date": "2026-04-11",
+    "id": "17758939881103"
+  },
+  {
     "title": "Palmier：手机端调度本地 AI 代理的新工具",
     "summary": "支持本地运行代理，手机远程监控任务，保障数据隐私。",
     "detail": "Palmier 是一款专为开发者设计的本地 AI 代理管理工具，支持在本地机器运行 Claude Code 等代理，并通过手机应用远程调度。其核心优势在于数据隐私，所有计算均在本地完成，无需上传云端。功能涵盖任务调度、状态监控及推送通知，兼容 Linux 和 Windows 系统。该工具解决了云端代理平台的隐私顾虑，让开发者能随时随地安全地控制 AI 工作流，特别适合处理敏感代码或数据的场景，实现了本地算力与移动便捷性的完美结合。此外，它支持多代理协作，用户可根据任务需求选择不同模型，并设置审批流程以确保敏感任务安全执行。这种本地优先的架构代表了 AI 开发工具向隐私安全和用户控制权回归的趋势。",
@@ -154,6 +180,32 @@
     "link": "https://github.com/visionscaper/collabmem",
     "date": "2026-04-11",
     "id": "17758743599934"
+  },
+  {
+    "title": "MLSharp 发布：单图生成 3D 高斯泼溅模型",
+    "summary": "macOS 新品，利用 Core ML 将 2D 图像转为 3DGS 模型，支持批量处理。",
+    "detail": "MLSharp 是一款高端 macOS 应用，利用先进 AI 技术将 2D 图像转化为沉浸式 3D 高斯泼溅（3DGS）模型。内置立体查看器，支持拖拽生成及批量转换。需下载约 2.67GB 的 Core ML 模型，提供 SHARP 和通用两种查看模式。该工具降低了 3D 重建门槛，为创作者提供下一代 3D 图形重建方案，无需复杂建模技能即可体验空间 3D 效果。用户可通过侧边栏一键下载优化后的 AI 引擎，自动安装至应用支持文件夹。批量处理功能允许选择多个文件或整个文件夹，管理命名冲突，适合大规模图像处理工作流及数字艺术家快速原型制作。",
+    "tags": [
+      "New",
+      "3DGS",
+      "macOS"
+    ],
+    "link": "https://suto.bex.jp/mac/mlsharp/index.html",
+    "date": "2026-04-10",
+    "id": "17758939881100"
+  },
+  {
+    "title": "SAP 推出 A3 平台：用 Kubernetes 编排 AI 代理舰队",
+    "summary": "SAP 实验室开源自主 AI 代理平台，成功用于供应链安全审计。",
+    "detail": "SAP 实验室新加坡团队构建了 A3 自主 AI 代理平台，基于 Kubernetes 编排代理舰队。该平台已实际处理代码、研究及安全审计任务。在最近 LiteLLM 供应链投毒事件中，A3 fleet 在 10 分钟内扫描了 38 个仓库，展示了自主代理在企业级安全运维中的高效性与可靠性。系统能自动协调任务分布并汇总发现，无需硬编码执行计划。这证明了自主代理不仅能处理简单任务，还能应对复杂的安全威胁响应，为 AI 代理规模化部署及企业自动化运维提供了新的技术范式和实战参考，大幅缩短应急响应时间。",
+    "tags": [
+      "Dev",
+      "Kubernetes",
+      "AI Agent"
+    ],
+    "link": "https://www.leonidasr.com/posts/a3-kubernetes-for-autonomous-ai-agent-fleets/",
+    "date": "2026-04-10",
+    "id": "17758939881102"
   },
   {
     "title": "Resume-cli：突破 Claude 使用限制的会话恢复工具",
@@ -1246,57 +1298,5 @@
     "link": "https://openjdk.org/legal/ai",
     "date": "2026-04-09",
     "id": "17757989222982"
-  },
-  {
-    "title": "美国首例《取下法案》定罪：男子被捕后仍制作 AI 裸照",
-    "summary": "首位因《取下法案》被定罪的男子在逮捕后继续制作 AI 生成裸照，凸显执法挑战。",
-    "detail": "Ars Technica 报道了美国首例依据《取下法案》（Take It Down Act）定罪的案件。涉案男子在逮捕后仍继续制作 AI 生成裸照，显示了法律威慑与技术滥用之间的博弈。此案标志着针对 AI 生成有害内容的法律监管进入实质执行阶段，为后续类似案件树立了司法先例。然而罪犯的持续行为也表明，仅靠法律条文难以完全遏制技术滥用，需配合技术手段与教育引导。",
-    "tags": [
-      "News",
-      "Legal",
-      "Safety"
-    ],
-    "link": "https://arstechnica.com/tech-policy/2026/04/first-man-convicted-under-take-it-down-act-kept-making-ai-nudes-after-arrest/",
-    "date": "2026-04-09",
-    "id": "17757989222984"
-  },
-  {
-    "title": "ToneSwap 上线：学习用户专属文风的 AI 写作工具",
-    "summary": "新工具 ToneSwap 可通过学习用户样本重写文本，每日免费提供 5 次重写服务。",
-    "detail": "ToneSwap 是一款旨在解决 AI 写作同质化问题的新产品。它通过构建用户写作档案，学习词汇、节奏和结构，使重写内容匹配个人风格而非通用 AI voice。产品提供免费层级，每日 5 次重写无需信用卡。这反映了 AI 应用正从通用生成向个性化定制转变的趋势。对于需要保持品牌声音或个人风格的专业作家，此类工具提供了比通用大模型更精准的解决方案。",
-    "tags": [
-      "New",
-      "Writing",
-      "Product"
-    ],
-    "link": "https://toneswap.app/",
-    "date": "2026-04-09",
-    "id": "17757989222985"
-  },
-  {
-    "title": "AnimTOON：高效 SVG 动画生成模型",
-    "summary": "3B 模型仅需 5GB 显存，令牌效率提升 3-4 倍，支持角色骨骼动画。",
-    "detail": "AnimTOON 是一款专为 LLM 设计的紧凑动画格式，可将 SVG 转换为 Lottie 动画。相比 OmniLottie (CVPR 2026)，其令牌消耗减少 3-4 倍，且能在消费级 GPU (5GB VRAM) 上运行。v3 版本支持多部分 SVG 动画及角色骨骼动画，基于 Spine 和 DragonBones 数据训练。模型开源托管于 HuggingFace，采用 MIT 许可，为开发者提供了低成本的矢量动画生成方案，显著降低了动画生成的计算门槛，适用于资源受限环境。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Animation"
-    ],
-    "link": "https://github.com/srk0102/AnimTOON",
-    "date": "2026-04-09",
-    "id": "17757780077780"
-  },
-  {
-    "title": "Bespoke OLAP：AI 合成专用数据库引擎",
-    "summary": "AI 自动生成 C++ 数据库引擎，查询速度提升最高 70 倍，成本约 120 美元。",
-    "detail": "加州大学伯克利分校 ADRS 项目提出 Bespoke OLAP，利用 LLM 引导代码生成，从头构建针对特定工作负载的 C++ 数据库引擎。实验显示，相比 DuckDB，TPC-H 测试总速度提升 11.78 倍，CEB 真实负载最高提升 70 倍。合成成本约 120 美元，耗时 6-12 小时，涉及 4-6 千次 LLM 交互，无需人工干预。该项目开源，展示了 AI 在系统研发领域的巨大潜力，挑战了通用数据库的性能瓶颈，为专用引擎设计提供新范式。",
-    "tags": [
-      "Dev",
-      "Database",
-      "Research"
-    ],
-    "link": "https://ucbskyadrs.github.io/blog/bespoke-olap/",
-    "date": "2026-04-09",
-    "id": "17757780077781"
   }
 ]
