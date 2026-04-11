@@ -1,5 +1,44 @@
 [
   {
+    "title": "构建安全 AI PR 审查器的实战指南",
+    "summary": "免费教程详解如何利用 Claude 与 GitHub Actions 构建安全的 AI 代码审查流程。",
+    "detail": "针对大型开源项目和企业仓库中 PR 审查耗时且昂贵的问题，本教程提供了基于 JavaScript、Claude 和 GitHub Actions 的安全 AI 审查器构建方案。核心在于解决 diff 不可信、模型输出不可信及自动化层权限管理三大安全问题。教程详细讲解了如何清洗 diff 数据、使用 Zod 验证模型输出并通过 Octokit 交互，确保系统在异常时安全失败。这对希望引入 AI 辅助代码审查但担忧安全性的开发团队具有重要参考价值，展示了工程化落地的最佳实践。此外，文章强调了像工程师一样思考的重要性，避免简单调用 LLM 带来的风险，为构建可靠的自动化工作流提供了完整指南。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "GitHub"
+    ],
+    "link": "https://www.freecodecamp.org/news/how-to-build-a-secure-ai-pr-reviewer-with-claude-github-actions-and-javascript/",
+    "date": "2026-04-11",
+    "id": "17759038488440"
+  },
+  {
+    "title": "AI 生成代码的版权困境与法律挑战",
+    "summary": "深度分析 AI 生成代码的版权归属问题，探讨企业在版权诉讼中面临的举证难题。",
+    "detail": "文章指出 AI 生成代码因非人类创作而难以获得版权保护，这对大型科技公司的版权诉讼策略构成严峻挑战。若企业过度宣传使用 LLM 编写代码，可能在诉讼中难以证明其代码受版权保护，导致无法要求被告回应。即使有人类审查，事后批准也不等同于生成性工作的保护。文章强调了区分 AI 生成提交与人类编写代码的重要性，例如通过提交信息标记。这为关注 AI 法律合规的企业提供了关键警示，预示着未来版权诉讼中举证责任的复杂性，可能影响企业技术栈的选择与宣传策略。作者呼吁行业正视这一法律灰色地带，避免因营销夸大而陷入被动。",
+    "tags": [
+      "News",
+      "Legal",
+      "LLM"
+    ],
+    "link": "https://www.thomas-huehn.com/protecting-copyright-with-ai/",
+    "date": "2026-04-11",
+    "id": "17759038488441"
+  },
+  {
+    "title": "AI 服务代理框架 Aisbf 0.99.18 版本发布",
+    "summary": "模块化 AI 代理服务器新版本上线，支持管理多个 AI 提供商集成。",
+    "detail": "Aisbf (AI Should Be Free) 正式发布了 0.99.18 版本，这是一个用于管理多个 AI 提供商集成的模块化代理服务器框架。作为 Python 包在 PyPI 上线，它旨在简化开发者对不同 AI 服务的调用与管理，支持统一接口层。该工具适合需要集中管理 API 密钥、进行流量控制或切换后端模型的开发团队，反映了基础设施层工具在 AI 开发生态中的持续完善。随着企业 AI 应用复杂度增加，此类中间件将成为标配，为构建更灵活、可控的 AI 应用架构提供了新选择，降低了多模型集成的维护成本。其开源特性也鼓励社区贡献，推动代理层标准的形成。",
+    "tags": [
+      "New",
+      "Python",
+      "Infrastructure"
+    ],
+    "link": "https://pypi.org/project/aisbf/",
+    "date": "2026-04-11",
+    "id": "17759038488442"
+  },
+  {
     "title": "新型 AI PR 审查工具：不找 Bug 却能捕获 97.7% 风险",
     "summary": "Tessl 发布新插件，通过构建证据包而非直接找 Bug 来提升审查采纳率。",
     "detail": "Tessl 推出全新 AI PR 审查插件，旨在解决人类不愿审查 AI 代码及传统 AI 审查被忽略的痛点。现有研究显示 AI 审查评论采纳率仅 1-19%，主因是噪音过大导致开发者忽略。该工具不直接猎杀 Bug，而是构建证据包并分类风险，将结构化简报交给人类决策，实测准确率达 97.7%。这种“证据优先”策略有效平衡了生成效率与人工校验成本，开发者可通过命令行快速部署，为 AI 生成代码的质量保障提供了新范式。此外，该方案解决了 AI 生成代码带来的努力不对称问题，减少了人工阅读时间，标志着从被动检查向主动风险管理的转变，可能改变未来 DevOps 流程。",
@@ -1259,44 +1298,5 @@
     "link": "https://nypost.com/2026/04/09/business/googles-ai-overviews-spew-out-millions-of-false-answers-per-hour-bombshell-study/",
     "date": "2026-04-10",
     "id": "17757887767750"
-  },
-  {
-    "title": "xAI 起诉科罗拉多州反对 AI 反歧视法",
-    "summary": "xAI 提起诉讼，挑战科罗拉多州首部州级 AI 反歧视法律，引发监管关注。",
-    "detail": "金融时报报道，埃隆·马斯克旗下的 xAI 公司正式起诉科罗拉多州，反对该州通过的首部州级 AI 反歧视法律。此举标志着科技巨头与监管机构之间关于 AI 治理界限的冲突升级。案件结果将为美国各州制定 AI 法规提供重要先例，可能影响未来 AI 模型部署的合规成本与自由度。法律专家关注此案如何界定算法歧视责任，这将决定未来 AI 公司在美运营的法律风险边界。",
-    "tags": [
-      "News",
-      "Legal",
-      "xAI"
-    ],
-    "link": "https://www.ft.com/content/55e8cba9-d09c-4f94-b710-4ab447b987f9",
-    "date": "2026-04-10",
-    "id": "17757887767751"
-  },
-  {
-    "title": "70 人初创公司 Black Forest 挑战硅谷巨头",
-    "summary": "WIRED 深度报道图像生成初创公司 Black Forest Labs，以小团队对抗大厂。",
-    "detail": "WIRED 杂志深度剖析了 AI 图像生成初创公司 Black Forest Labs。这家仅 70 人的团队正在挑战硅谷科技巨头的垄断地位。文章探讨了其技术优势、团队背景及在竞争激烈的生成式 AI 市场中的生存策略。这展示了小型专业化团队在特定垂直领域仍有机会突破大厂封锁，为投资者和开发者提供了新的风向标。其成功可能激励更多精简团队专注于高质量模型研发，而非盲目扩大规模。",
-    "tags": [
-      "News",
-      "Startup",
-      "Image Generation"
-    ],
-    "link": "https://www.wired.com/story/black-forest-labs-ai-image-generation/",
-    "date": "2026-04-10",
-    "id": "17757887767752"
-  },
-  {
-    "title": "Anthropic 考虑自研 AI 芯片以减少依赖",
-    "summary": "消息称 Anthropic 正权衡自研 AI 芯片，旨在降低对现有硬件供应商的依赖。",
-    "detail": "路透社消息指出，AI 安全公司 Anthropic 正在考虑自主研发 AI 芯片。此举意在减少对当前主流硬件供应商的依赖，优化模型训练成本与效率。若成真，这将是大模型公司垂直整合硬件的关键一步，可能改变 AI 基础设施格局，加剧芯片领域的竞争，同时也反映了算力成本对 AI 发展的制约。供应链多元化将成为头部 AI 实验室的战略重点，以确保持续创新能力。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Anthropic"
-    ],
-    "link": "https://www.reuters.com/business/anthropic-weighs-building-it-own-ai-chips-sources-say-2026-04-09/",
-    "date": "2026-04-10",
-    "id": "17757887767753"
   }
 ]
