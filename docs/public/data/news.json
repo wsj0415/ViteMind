@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 独立签署租约并经营实体店",
+    "summary": "Andon Labs 赋予 AI 实体权限，成功开设零售商店。",
+    "detail": "Andon Labs 进行了一项激进实验，赋予 AI 代理\"Luna\"真实世界的权限。Luna 签署了旧金山为期 3 年的零售空间租约，并自主完成了招聘人类员工、选品、定价及店铺装饰等决策。尽管物理劳动仍需人类协助，但核心商业逻辑均由 AI 制定。此案例标志着 AI 代理从数字世界迈向物理经济的重要里程碑，展示了自主代理在复杂现实场景中的潜力与挑战。未来，这种模式可能重塑零售业态，但也引发了关于责任归属与监管的深刻讨论。",
+    "tags": [
+      "News",
+      "Agent",
+      "Real World"
+    ],
+    "link": "https://andonlabs.com/blog/andon-market-launch",
+    "date": "2026-04-11",
+    "id": "17758743599930"
+  },
+  {
+    "title": "AI 生成代码正在掏空开源生态体系",
+    "summary": "文章分析 AI 代码不可版权化对开源许可的冲击。",
+    "detail": "最新分析指出，美国版权局认定 LLM 生成代码不可版权化，这正导致开源生态价值泄漏。当不可版权的 AI 代码被整合进开源项目，尤其是 Copyleft 许可项目时，许可约束可能失效，导致代码被无偿用于闭源项目。维护者若忽视此问题，可能加速开源项目的边缘化。文章呼吁社区正视 AI 代码集成带来的法律与经济性风险，保护开源协作的可持续性。这不仅关乎法律合规，更关系到开源社区长期的创新动力与信任基础。",
+    "tags": [
+      "News",
+      "Open Source",
+      "Legal"
+    ],
+    "link": "https://www.quippd.com/writing/2026/04/08/ai-code-is-hollowing-out-open-source-and-maintainers-are-looking-the-other-way.html",
+    "date": "2026-04-11",
+    "id": "17758743599932"
+  },
+  {
+    "title": "面向代理 AI 的长期协作记忆系统",
+    "summary": "GitHub 开源项目构建情境感知的 episodic 记忆。",
+    "detail": "Collabmem 是一个专为长期人机协作设计的记忆系统开源项目。它致力于构建随时间积累的情节记忆和世界模型，增强 AI 代理的情境感知能力。通过解决长周期任务中的遗忘问题，该系统使 AI 能够更有效地维持协作状态。对于开发复杂 Agentic AI 应用的开发者而言，这是一个重要的基础设施参考，有助于提升代理在长期任务中的连贯性与智能水平。随着 AI 代理应用场景的深化，此类记忆架构将成为实现真正自主智能的关键组件。",
+    "tags": [
+      "Dev",
+      "Memory",
+      "Agent"
+    ],
+    "link": "https://github.com/visionscaper/collabmem",
+    "date": "2026-04-11",
+    "id": "17758743599934"
+  },
+  {
+    "title": "AI 协助黑客攻破墨西哥政府基础设施",
+    "summary": "安全报告披露单操作员利用 AI 入侵九个政府机构。",
+    "detail": "Gambit Security 发布技术报告，详细披露了一起 AI 协助的网络攻击事件。一名操作员利用 Anthropic 的 Claude Code 和 OpenAI 的 GPT-4.1 作为核心工具，成功入侵墨西哥九个政府机构并窃取数亿公民记录。报告指出，商业 AI 平台已成为威胁行动者的关键操作工具。此事件凸显了 AI 赋能网络攻击的现实风险，促使业界重新审视防御策略与 AI 使用的安全边界。政府与企业需加强针对 AI 滥用行为的监测与响应机制，以防类似大规模数据泄露再次发生。",
+    "tags": [
+      "News",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://gambit.security/blog-post/a-single-operator-two-ai-platforms-nine-government-agencies-the-full-technical-report",
+    "date": "2026-04-10",
+    "id": "17758743599931"
+  },
+  {
+    "title": "高效 AI 编程代理 Maki 正式发布",
+    "summary": "主打上下文效率优化与本地 Rust 界面的新工具。",
+    "detail": "Maki 是一款注重效率的 AI 编程代理，旨在解决 Token 消耗过高的问题。它通过将 15 种编程语言解析为骨架结构，显著减少读取时的 Token 用量。工具采用本地 Rust 二进制文件，提供 60 FPS 的 TUI 界面，无 JS 运行时负担。此外，它具备沙盒化 Python 执行环境和透明的成本显示功能，允许开发者在控制预算的同时享受高效的 AI 辅助编码体验。其模块化子代理设计允许根据任务复杂度动态调整模型强度，进一步优化资源分配。",
+    "tags": [
+      "New",
+      "Coding",
+      "Productivity"
+    ],
+    "link": "https://maki.sh/",
+    "date": "2026-04-10",
+    "id": "17758743599933"
+  },
+  {
     "title": "Google CEO 访谈：AI 战略与资本支出",
     "summary": "Sundar Pichai 详解 Google AI 复苏、1800 亿美元预算及供应链挑战。",
     "detail": "Google CEO Sundar Pichai 在接受深度访谈中回顾了 Google 在 AI 领域的历史与未来战略。他明确指出 2026 年将是供应链短缺的一年，强调了内存和电力作为关键限制因素。Google 计划投入高达 1750 亿美元的资本支出，并反思了 Transformer 架构最初是为了解决具体产品需求而非通用 AI 诞生的背景。此次访谈揭示了 Google 内部文化正回归乐观主义，以及对数据中心太空布局等长期赌注的关注。Pichai 还讨论了美国经济增长与 AI 的关系，展示了巨头在算力军备竞赛中的战略定力与对基础设施的巨额投入决心，表明 Google 正全力追赶并试图重塑 AI 领导地位。",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/",
     "date": "2026-04-09",
     "id": "17757713232430"
-  },
-  {
-    "title": "Camofox：专为 AI 代理设计的反检测浏览器",
-    "summary": "基于 Camoufox 引擎，帮助 AI 代理绕过网站封锁。",
-    "detail": "GitHub 新项目 camofox-browser 发布，这是一个专为 AI 代理设计的无头浏览器自动化服务器。基于 Camoufox 引擎（Firefox fork），具备 C++ 级别的指纹 spoofing 能力。它允许 AI 代理访问通常被封锁的网站，解决了代理在执行网络任务时的反爬虫痛点，支持 Docker 部署，方便集成到现有自动化流程中。",
-    "tags": [
-      "Dev",
-      "Browser",
-      "Automation"
-    ],
-    "link": "https://github.com/jo-inc/camofox-browser",
-    "date": "2026-04-09",
-    "id": "17757713232433"
-  },
-  {
-    "title": "AI 微短剧正在重塑中国娱乐业",
-    "summary": "经济学人报道 AI 生成内容在中国短剧市场的爆发。",
-    "detail": "《经济学人》指出 AI 微短剧正在颠覆中国娱乐行业。利用生成式 AI 技术，制作成本大幅降低，产出速度显著提升。这一趋势不仅改变了内容消费模式，也为 AI 视频生成技术的商业化落地提供了大规模场景，值得全球娱乐科技行业关注，显示内容生成领域的快速变现能力及技术成熟度。",
-    "tags": [
-      "News",
-      "Video",
-      "China"
-    ],
-    "link": "https://economist.com/china/2026/04/09/ai-micro-dramas-are-shaking-up-chinese-entertainment",
-    "date": "2026-04-09",
-    "id": "17757713232435"
-  },
-  {
-    "title": "佛罗里达州调查 OpenAI 涉枪击案",
-    "summary": "州检察长因 ChatGPT 涉嫌卷入枪击案调查 OpenAI",
-    "detail": "佛罗里达州总检察长正式宣布对 OpenAI 展开调查，起因是一起枪击事件中被指控涉及 ChatGPT 的使用建议。此举被视为 AI 安全领域的重大法律测试，可能确立平台对生成内容后果的责任边界。若调查深入，将迫使各大模型厂商加强内容过滤与安全对齐，行业合规成本预计显著上升。此外，这也可能引发更多关于 AI 生成内容法律责任的诉讼，改变科技公司免责条款的有效性，对整个生成式 AI 行业的商业模式产生深远影响。监管机构可能会要求模型记录更详细的用户交互日志，这将引发隐私与安全的新争议，行业需平衡安全与用户隐私。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Legal"
-    ],
-    "link": "https://techcrunch.com/2026/04/09/florida-ag-investigation-openai-chatgpt-shooting/",
-    "date": "2026-04-09",
-    "id": "17757681203040"
-  },
-  {
-    "title": "五角大楼官员售 xAI 股票惹议",
-    "summary": "监管 AI 的国防官员在与 xAI 合作后抛售股票获利",
-    "detail": "卫报揭露，一名负责监督 AI 项目的美国国防官员在与 xAI 公司达成协议后，通过抛售股票获利数百万美元。这一事件引发了严重的利益冲突质疑，凸显了政府与私营科技巨头在 AI 军事化合作中的伦理风险。公众呼吁加强监管，防止公共决策受私人财务利益影响。此事件可能促使国会重新审视国防部门与科技公司的合作协议，增加透明度要求，并可能导致相关官员面临伦理审查或离职压力，影响未来 AI 国防项目的推进速度。这也可能延缓五角大楼采纳最新商业 AI 技术的进程，增加政府自建模型的动力。",
-    "tags": [
-      "News",
-      "xAI",
-      "Ethics"
-    ],
-    "link": "https://www.theguardian.com/us-news/2026/apr/09/pentagon-ai-xai-emil-michael",
-    "date": "2026-04-09",
-    "id": "17757681203041"
-  },
-  {
-    "title": "GitHub 项目移除 Google AI 水印",
-    "summary": "开发者通过频谱分析成功检测并移除 SynthID 水印",
-    "detail": "GitHub 上新开源项目 reverse-SynthID 声称通过频谱分析技术，成功检测并移除了 Google 生成的 SynthID 水印。项目显示检测率高达 90%，这对当前 AI 内容溯源技术构成了直接挑战。该突破引发了关于数字版权保护有效性及生成内容标识未来走向的激烈技术讨论。如果水印可被轻易移除，平台将难以追踪滥用内容，版权方利益受损。这可能迫使 Google 等公司升级水印算法，或转向更隐蔽的溯源技术，加剧安全与隐私的技术博弈。开发者社区对此反应不一，有人担忧滥用，有人支持技术自由，未来标准制定将更加困难。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Google"
-    ],
-    "link": "https://github.com/aloshdenny/reverse-SynthID",
-    "date": "2026-04-09",
-    "id": "17757681203042"
   }
 ]
