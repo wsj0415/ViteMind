@@ -1,5 +1,83 @@
 [
   {
+    "title": "AI 协助黑客攻破墨西哥政府基础设施",
+    "summary": "报告披露黑客利用 Claude Code 和 GPT-4.1 入侵墨西哥政府，窃取数亿公民记录。",
+    "detail": "安全公司 Gambit Security 发布详细技术报告，披露 2025 年底至 2026 年初墨西哥政府遭受的重大数据泄露事件。攻击者核心操作工具为 Anthropic 的 Claude Code 和 OpenAI 的 GPT-4.1 API，约 75% 的远程命令执行活动由 AI 自动生成。此次事件标志着 AI 被大规模用于网络攻击的里程碑，涉及 1.95 亿纳税人记录泄露，攻击者甚至构建了实时查询 API。这引发业界对 AI 安全护栏有效性的严重担忧，以及商业模型被滥用的风险。",
+    "tags": [
+      "News",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://cdn.prod.website-files.com/69944dd945f20ca4a27a7c47/69d8bb5aea59e31efb3b8a7f_Tech_Report_ai_breach_mex_gov.pdf",
+    "date": "2026-04-11",
+    "id": "17758835204820"
+  },
+  {
+    "title": "Sam Altman 回应旧金山住所遇袭事件",
+    "summary": "OpenAI CEO 将住所遇袭与日益增长的 AI 焦虑联系起来，呼吁关注安全问题。",
+    "detail": "OpenAI 首席执行官 Sam Altman 就其旧金山住所疑似遭受袭击一事发表公开声明。他将此事件与当前社会对 AI 技术快速发展的焦虑情绪联系起来，强调了 AI 安全与社会接受度之间的紧张关系。这一事件发生在 AI 监管和安全讨论的关键时刻，突显了行业领袖面临的个人安全风险及公众对 AI 潜在威胁的担忧正在升级，可能影响后续政策走向。",
+    "tags": [
+      "News",
+      "Safety",
+      "OpenAI"
+    ],
+    "link": "https://www.msn.com/en-us/news/crime/sam-altman-speaks-out-after-alleged-attack-on-sf-home-links-it-to-rising-ai-anxiety/ar-AA20Bnnm",
+    "date": "2026-04-11",
+    "id": "17758835204821"
+  },
+  {
+    "title": "ProPublica 员工因 AI 和裁员问题罢工",
+    "summary": "工会化员工罢工抗议 AI 使用、裁员及工资问题，反映新闻业 AI 转型冲突。",
+    "detail": "知名新闻机构 ProPublica 的工会化员工正式罢工，核心诉求涉及 AI 技术在新闻制作中的使用规范、裁员计划及工资谈判。此次罢工反映了传统媒体在 AI 转型期的典型劳资冲突，员工担忧 AI 取代人力及新闻伦理受损。事件为 AI 在内容创作领域的边界设定提供了现实案例，可能影响后续媒体行业的 AI 采纳策略及劳工协议标准，引发行业对人机协作模式的深思。",
+    "tags": [
+      "News",
+      "Labor",
+      "Ethics"
+    ],
+    "link": "https://www.theverge.com/news/908401/propublica-union-strike-negotiations-ai-layoffs",
+    "date": "2026-04-11",
+    "id": "17758835204822"
+  },
+  {
+    "title": "Palmier：手机端调度本地 AI 代理工具",
+    "summary": "开源新品支持手机调度本地 AI 代理，数据不出境，支持 Claude Code 等多种 CLI。",
+    "detail": "新推出的开源工具 Palmier 允许用户通过手机远程调度和监控本地运行的 AI 代理。与云平台不同，它确保数据和计算完全留在用户设备，支持 Claude Code、Gemini CLI 等多种代理接口。具备任务调度、推送通知及敏感操作审批功能。该工具解决了本地 Agent 部署后的移动管理痛点，适合注重隐私的开发者和技术用户构建私有化 AI 工作流，提升自动化效率。",
+    "tags": [
+      "New",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://www.palmier.me/",
+    "date": "2026-04-11",
+    "id": "17758835204823"
+  },
+  {
+    "title": "Lmscan：零依赖开源 AI 文本检测工具",
+    "summary": "GitHub 新项目可检测 AI 生成文本并指纹识别模型，零依赖且支持离线运行。",
+    "detail": "开发者发布了开源项目 Lmscan，旨在检测 AI 生成文本并识别具体是由哪个 LLM 撰写。作为 GPTZero 的开源替代方案，它最大特点是零依赖且支持离线运行，保护用户数据隐私。项目包含完善的测试用例和 CI 流程，适合集成到内容审核系统或本地开发环境中。为需要透明、可控 AI 检测方案的团队提供了新的技术选择，降低了检测门槛，助力内容真实性验证。",
+    "tags": [
+      "Dev",
+      "Tool",
+      "Detection"
+    ],
+    "link": "https://github.com/stef41/lmscan",
+    "date": "2026-04-11",
+    "id": "17758835204824"
+  },
+  {
+    "title": "量子 AI 优势面临的现实挑战分析",
+    "summary": "文章探讨量子计算在现实 AI 应用中的局限性，认为经典计算机仍主导大多数场景。",
+    "detail": "Quantum Frontiers 发文深入分析量子 AI 的实际优势困境。尽管量子计算实验能力进步，但在处理宏观经典世界产生的大规模噪声数据时，并未显示出比经典 AI 明显的优势。文章指出量子优势目前仍局限于特定 niche 领域，如量子材料模拟。这对盲目追捧量子 AI 的商业预期提出警示，表明短期内经典计算与 AI 结合仍是解决大多数社会问题的主流路径，需理性看待技术边界。",
+    "tags": [
+      "Dev",
+      "Quantum",
+      "Research"
+    ],
+    "link": "https://quantumfrontiers.com/2026/04/09/unleashing-the-advantage-of-quantum-ai/",
+    "date": "2026-04-11",
+    "id": "17758835204825"
+  },
+  {
     "title": "AI 独立签署租约并经营实体店",
     "summary": "Andon Labs 赋予 AI 实体权限，成功开设零售商店。",
     "detail": "Andon Labs 进行了一项激进实验，赋予 AI 代理\"Luna\"真实世界的权限。Luna 签署了旧金山为期 3 年的零售空间租约，并自主完成了招聘人类员工、选品、定价及店铺装饰等决策。尽管物理劳动仍需人类协助，但核心商业逻辑均由 AI 制定。此案例标志着 AI 代理从数字世界迈向物理经济的重要里程碑，展示了自主代理在复杂现实场景中的潜力与挑战。未来，这种模式可能重塑零售业态，但也引发了关于责任归属与监管的深刻讨论。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/kklt92/awesome-ai-extensions",
     "date": "2026-04-09",
     "id": "17757746829212"
-  },
-  {
-    "title": "AI 模型实时速度基准测试平台上线",
-    "summary": "提供 MiniMax、GLM、Kimi 等主流模型的实时速度基准测试数据。",
-    "detail": "AI Speedometer 平台提供实时的 AI 模型速度基准测试。支持对比 MiniMax、GLM、Kimi、Qwen 等主流模型在不同计划下的响应速度。帮助开发者在部署前评估模型延迟性能，为对时效性敏感的应用场景提供数据支撑，优化用户体验。**覆盖 Ollama Cloud 及 Z.AI 等多种部署环境**，数据参考性强，助力技术选型决策。",
-    "tags": [
-      "Dev",
-      "Benchmark",
-      "LLM"
-    ],
-    "link": "https://ai-speedometer.oliveowl.xyz/",
-    "date": "2026-04-09",
-    "id": "17757746829213"
-  },
-  {
-    "title": "开源 AI 代理 Goose 迁入代理 AI 基金会",
-    "summary": "知名开源 Agent 项目 Goose 正式归属 Agentic AI Foundation 管理。",
-    "detail": "开源 AI 代理工具 Goose 宣布迁移至 Agentic AI Foundation (AAIF)。此次变动旨在加强项目的社区治理与长期维护。Goose 作为流行的本地 Agent 工具，此次归属变更有助于整合更多 **MCP 服务器与技能市场** 资源，推动开源 Agent 生态标准化发展。博客同时更新了 2.0 beta 架构信息，显示项目活跃度持续提升。",
-    "tags": [
-      "News",
-      "OpenSource",
-      "Agent"
-    ],
-    "link": "https://goose-docs.ai/blog/2026/04/07/goose-moves-to-aaif/",
-    "date": "2026-04-09",
-    "id": "17757746829214"
-  },
-  {
-    "title": "AI 辅助开发的新瓶颈：代码验证成本",
-    "summary": "研究表明 AI 生成代码虽多，但人工审查时间并未减少，验证成新瓶颈。",
-    "detail": "文章指出 AI 辅助开发虽使 **PR 合并量翻倍**，但审查时间也增加 91%。AI 生成的代码表面整洁但隐藏 bug 难查，且验证成本受 **生物极限限制** 无法像生成成本那样快速下降。团队需重新平衡生成与验证资源，引入自动化测试或专用验证 Agent，避免陷入 **“虚假效率”陷阱**。引用了 Latent Space 分析及经济学论文，论证验证瓶颈的结构性难解。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Industry"
-    ],
-    "link": "https://www.opslane.com/blog/verification-bottleneck",
-    "date": "2026-04-09",
-    "id": "17757746829215"
-  },
-  {
-    "title": "经济学视角：AI 时代的就业创造盲点",
-    "summary": "分析指出经济引擎本身倾向于创造新岗位，而非单纯依赖技术变革。",
-    "detail": "文章探讨了 AI 与就业关系的常见误区，指出经济体的基线状态是创造新工作。争论焦点不应仅是技术是否取代岗位，而是经济引擎如何利用有限劳动力资源。这为理解 AI 时代的劳动力市场动态提供了更宏观的经济学视角，缓解过度焦虑。**反驳了零和博弈思维**，强调动态平衡，指出技术只是资源调配的工具而非唯一决定因素。",
-    "tags": [
-      "News",
-      "Economy",
-      "Jobs"
-    ],
-    "link": "https://substack.norabble.com/p/the-ai-jobs-blind-spot",
-    "date": "2026-04-09",
-    "id": "17757746829216"
-  },
-  {
-    "title": "基于 GitHub 仓库的 AI 驱动看板工具",
-    "summary": "创建卡片后 AI 代理自动领取任务并提交包含真实代码变更的 PR。",
-    "detail": "**Kill-The-Backlog** 是一款 AI 驱动的 Kanban board，直接集成 GitHub 仓库。用户创建任务卡片后，AI 代理会自动领取任务，编写代码并提交 **PR**。实现了从任务管理到代码实现的部分自动化闭环，适合希望减少重复性开发工作的团队，但仍需 **人工审查代码质量**。项目开源在 GitHub，展示了 Agent 自主完成开发任务的新范式。",
-    "tags": [
-      "New",
-      "GitHub",
-      "Agent"
-    ],
-    "link": "https://github.com/Kill-The-Backlog/Kill-The-Backlog",
-    "date": "2026-04-09",
-    "id": "17757746829217"
-  },
-  {
-    "title": "ChatGPT 推出每月 100 美元 Pro 计划",
-    "summary": "OpenAI 正式推出高价 Pro 套餐，面向重度用户与开发者。",
-    "detail": "TechCrunch 报道 OpenAI 终于推出了定价为 100 美元/月的 ChatGPT Pro 计划。此举旨在满足重度用户及专业开发者的需求，提供更高的使用限额及潜在的高级模型访问权限。这标志着 AI 订阅模式的进一步分层，可能成为行业定价新标杆，显示厂商开始探索高净值用户市场，对竞争格局产生影响。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Pricing"
-    ],
-    "link": "https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/",
-    "date": "2026-04-09",
-    "id": "17757713232430"
   }
 ]
