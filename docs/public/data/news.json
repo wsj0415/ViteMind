@@ -1,5 +1,83 @@
 [
   {
+    "title": "开源自进化 AI 代理 GrimmBot 亮相",
+    "summary": "具备持久记忆与调度能力的沙盒化自改进代理。",
+    "detail": "GrimmBot 是一款开源的自进化 AI 代理，运行在沙盒环境中以确保安全。核心特性包括持久记忆机制和复杂任务调度能力，旨在实现 Agent 的自我迭代与改进。该项目展示了 AI 代理在自主性方面的最新探索，为开发者研究自改进系统提供了参考架构。适合关注 Agent 自主进化路径的研究者与开发者，体现了开源社区在通用代理领域的尝试。其沙盒设计强调了安全性，防止自我改进过程中的不可控行为，对于构建可靠的自主系统具有借鉴意义。未来可能成为自主软件开发的重要基础设施。",
+    "tags": [
+      "New",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://github.com/Grimm67123/GrimmBot",
+    "date": "2026-04-12",
+    "id": "17760200698940"
+  },
+  {
+    "title": "统一生成多平台 AI 配置文件工具",
+    "summary": "一次编写指令，自动生成 Claude、Copilot 等配置。",
+    "detail": "universal-ai-config 允许开发者编写统一的 AI 指令、技能和 Agent 模板，自动生成适配 Claude Code、GitHub Copilot 和 Cursor 等不同工具的配置文件。支持 MCP 服务器配置和钩子函数，解决了多工具配置冗余问题。该工具显著提升了开发者在多种 AI 编码助手间切换的工作流效率，适合需要统一管理 AI 上下文的团队。随着企业采用多种 AI 工具，标准化配置管理成为刚需，此项目填补了工作流自动化中的空白，降低了维护成本。通过 EJS 模板变量支持高度定制，确保不同工具间行为一致性，是 AI 工程化落地的实用工具。",
+    "tags": [
+      "Dev",
+      "Workflow",
+      "Config"
+    ],
+    "link": "https://github.com/fabis94/universal-ai-config",
+    "date": "2026-04-12",
+    "id": "17760200698941"
+  },
+  {
+    "title": "集成 AI 队友的无限画布项目管理工具",
+    "summary": "替代 Jira 与 Slack，AI 代理作为真实队友参与规划。",
+    "detail": "is.team 推出无限画布项目管理平台，宣称可替代 Jira、Slack 和 Miro。其核心创新在于将 AI 代理作为真实队友融入工作流，支持视觉化规划与自动执行任务。定价策略为 15 人每月 16 美元扁平化收费。该产品反映了 AI Agent 从辅助工具向协作队友转变的趋势，适合寻求简化技术栈的初创团队。通过整合沟通与任务管理，减少上下文切换，AI 自动处理繁琐工作。这种一体化画布模式可能重塑远程协作形态，值得观察其实际落地效果及用户留存率。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Agent"
+    ],
+    "link": "https://is.team",
+    "date": "2026-04-12",
+    "id": "17760200698942"
+  },
+  {
+    "title": "英特尔 NPU 本地部署 Ollama 兼容方案",
+    "summary": "基于 OpenVINO，实现 Intel 硬件上的本地 AI 推理。",
+    "detail": "NoLlama 项目为英特尔 NPU 和 ARC 显卡提供了 Ollama/OpenAI 兼容的 API 接口，基于 OpenVINO 技术栈。这使得开发者能够在英特尔硬件上进行本地 AI 模型部署，无需依赖 NVIDIA GPU。对于关注边缘计算、隐私保护及降低硬件成本的开发者而言，该方案提供了重要的本地推理替代选择，推动了 AI 在非传统硬件上的普及。随着 Intel AI PC 战略推进，此类兼容性工具将降低本地大模型运行门槛，促进端侧智能应用生态发展，具有硬件生态战略意义。",
+    "tags": [
+      "Dev",
+      "Deployment",
+      "Intel"
+    ],
+    "link": "https://github.com/aweussom/NoLlama",
+    "date": "2026-04-12",
+    "id": "17760200698943"
+  },
+  {
+    "title": "基于 iMessage 的主动式 AI 个人代理",
+    "summary": "结合 GraphRAG 与语义记忆，主动预判用户需求。",
+    "detail": "Summer AI 是一款运行在 iMessage 上的主动式代理，通过连接邮件和日历预判用户需求。核心技术采用 Qdrant 和 GraphRAG 构建语义记忆层，不仅存储事实还学习行为模式。不同于被动响应的聊天机器人，它试图结合 Character.AI 的个性与 ChatGPT 的效用。该项目展示了个人 AI 代理在上下文感知与主动性方面的前沿探索。通过后台代理处理日常数据，实现真正的主动服务而非被动问答，为个人智能助理提供了新的交互范式，潜在改变人机互动方式。",
+    "tags": [
+      "New",
+      "RAG",
+      "Personal AI"
+    ],
+    "link": "https://hemesh.tech/builds/summer-ai.html",
+    "date": "2026-04-12",
+    "id": "17760200698944"
+  },
+  {
+    "title": "专为 AI 代理设计的 TUI 差异审查工具",
+    "summary": "终端内审查差异并输出结构化注释供 AI 使用。",
+    "detail": "revdiff 是一个终端用户界面（TUI）工具，专为审查代码差异和文档设计。支持内联注释并将结构化输出管道传输给 AI 代理（如 Claude Code）。具备词级差异高亮、合并支持及 Vim 式导航等功能。该工具优化了基于终端的 AI 编码会话流程，使开发者能在不离开终端的情况下高效审查变更并与 AI 协作，适合命令行重度用户。它将人工审查与 AI 自动化结合，结构化输出便于后续处理，提升了代码审查环节的精度与效率，是 AI 辅助编程工作流的重要补充。",
+    "tags": [
+      "Dev",
+      "CLI",
+      "CodeReview"
+    ],
+    "link": "https://github.com/umputun/revdiff",
+    "date": "2026-04-12",
+    "id": "17760200698945"
+  },
+  {
     "title": "微软高管：AI 智能体未来需购买软件许可证",
     "summary": "微软高管提出 AI 智能体可能需要像人类员工一样购买软件席位许可。",
     "detail": "微软高管近期表示，随着 AI 智能体（Agents）深入工作流程，它们可能需要购买软件许可证或席位。这一观点揭示了 AI 商业化后的授权新模式，可能显著改变企业软件采购策略。若智能体被视为独立用户，软件厂商将迎来新的收入增长点，但企业成本也将上升。这标志着 AI 从工具向“数字员工”身份转变的关键法律与商业界定，引发行业对自动化成本结构的重新评估。未来软件合同可能需明确区分人类用户与 AI 代理，以避免合规风险，这将推动 SaaS 定价模型的深刻变革。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/xialeistudio/echoic",
     "date": "2026-04-11",
     "id": "17759072056011"
-  },
-  {
-    "title": "AI 破解古罗马棋盘游戏规则之谜",
-    "summary": "国际团队利用 AI 解码古代石刻游戏，发表于《Antiquity》。",
-    "detail": "一项国际研究首次利用 AI 技术解码了古罗马棋盘游戏的规则。通过分析荷兰发现的一块刻有独特标记的石灰石，团队确定了可能的游戏规则。该研究发表于《Antiquity》期刊，由马斯特里赫特大学等机构主导。此举展示了 AI 在考古和历史研究中的跨界应用能力，为解读失落的历史秘密提供了新的计算范式。",
-    "tags": [
-      "News",
-      "Research",
-      "Archaeology"
-    ],
-    "link": "https://news.flinders.edu.au/blog/2026/03/21/ai-sheds-light-on-an-ancient-gaming-mystery/",
-    "date": "2026-04-11",
-    "id": "17759072056012"
-  },
-  {
-    "title": "初创公司推出 AI 专家对话付费平台",
-    "summary": "用户付费与 AI 版人类专家对话，涉及医疗营养领域。",
-    "detail": "Wired 报道了一家初创公司推出的新平台，允许用户付费与特定人类专家的 AI 版本进行对话。服务涵盖治疗、医学和营养等领域。这种商业模式试图将专家知识规模化，但也引发了关于准确性与伦理的讨论。这标志着 AI 代理经济的新趋势，即知识工作者的数字分身可能成为可交易的服务产品。",
-    "tags": [
-      "News",
-      "Business",
-      "Startup"
-    ],
-    "link": "https://www.wired.com/story/onix-substack-ai-platform-therapy-medicine-nutrition/",
-    "date": "2026-04-11",
-    "id": "17759072056013"
-  },
-  {
-    "title": "讽刺游戏 Hormuz Havoc 遭 AI 机器人淹没",
-    "summary": "上线 24 小时内被 AI bots 攻占，揭示游戏生态问题。",
-    "detail": "Show HN 项目 Hormuz Havoc 是一款讽刺游戏，但在发布 24 小时内被 AI 机器人淹没。高分榜显示大量非人类玩家迹象。这一事件生动展示了 AI 自动化脚本对在线游戏生态的即时冲击，引发了关于反作弊、公平性以及 AI 在娱乐领域滥用问题的讨论，具有社会实验性质。",
-    "tags": [
-      "New",
-      "Gaming",
-      "Security"
-    ],
-    "link": "https://www.hormuz-havoc.com/",
-    "date": "2026-04-11",
-    "id": "17759072056014"
-  },
-  {
-    "title": "自托管 GitHub AI 周报生成器",
-    "summary": "部署至 GitHub Pages 的 AI 活动报告工具。",
-    "detail": "github-dev-wrapped 是一个开源项目，允许开发者自托管生成每周 GitHub 活动报告。利用 AI 分析代码提交与交互数据，并部署到 GitHub Pages。这对于希望量化开发贡献或追踪项目进度的团队来说是一个实用工具，体现了 AI 在开发者工作流自动化中的集成趋势。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "GitHub"
-    ],
-    "link": "https://github.com/HimashaHerath/github-dev-wrapped",
-    "date": "2026-04-11",
-    "id": "17759072056015"
-  },
-  {
-    "title": "分析称 AI 正在塑造“新封建主义”经济",
-    "summary": "探讨 AI 对权力结构和劳动力的重塑，类比数字地主。",
-    "detail": "文章探讨了“技术封建主义”概念，指出科技平台正成为数字地主，通过生态系统提取租金。AI 模型制造商则进一步替代人类劳动。这种结构变化意味着财富来源从生产商品转向控制算法与算力。文章呼吁建立自给自足的社区以应对这种权力集中，是对 AI 社会经济影响的深度批判性分析。",
-    "tags": [
-      "News",
-      "Analysis",
-      "Economy"
-    ],
-    "link": "https://plantthevillage.com/",
-    "date": "2026-04-11",
-    "id": "17759072056016"
-  },
-  {
-    "title": "Anthropic AI 编码代理架构逆向分析",
-    "summary": "开源项目解析 Claude Code 内部架构与模式。",
-    "detail": "该项目通过逆向工程源码映射，揭示了 Anthropic AI 编码代理的架构、模式及内部逻辑。对于开发者而言，这是理解先进 AI 代理如何规划任务、管理上下文及与代码库交互的宝贵资源。它降低了黑盒模型的学习门槛，有助于社区构建更高效的自主编码工具。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "ReverseEngineering"
-    ],
-    "link": "https://github.com/alejandrobalderas/claude-code-from-source",
-    "date": "2026-04-11",
-    "id": "17759072056017"
   }
 ]
