@@ -1,5 +1,31 @@
 [
   {
+    "title": "Happy Horse AI 发布新一代视频生成模型",
+    "summary": "支持文本/图像转视频，内置同步音频生成，运动质量领先。",
+    "detail": "Happy Horse AI 推出基于 Happy Horse 1.0 的下一代视频生成器。支持文本转视频和图像转视频，核心优势在于单工作流同时生成视觉与同步音频，提供多语言支持及行业领先的运动质量。用户可通过详细提示词控制镜头、灯光及氛围，适用于营销及故事创作。工作流程分为输入提示、生成同步音视频、审查优化三步，旨在解决传统工具音画不同步痛点，打造沉浸式电影级内容。相比传统 AI 视频工具，它能在单一工作流中创建视觉效果、环境声音和音频时序，帮助制作更自然、沉浸式且可投入生产的视频片段，支持提示词优化以改进风格及运动表现。",
+    "tags": [
+      "New",
+      "Video Generation",
+      "Multimodal"
+    ],
+    "link": "https://www.happy-horse-ai.ai/",
+    "date": "2026-04-12",
+    "id": "17759873715530"
+  },
+  {
+    "title": "Palantir CEO 称 AI 将摧毁人文类工作",
+    "summary": "Alex Karp 直言人文岗位受冲击，建议转向职业培训。",
+    "detail": "Palantir CEO Alex Karp 发表争议言论，称 AI 将摧毁人文领域的工作岗位。他建议劳动力转向职业培训以适应新技术环境。该言论引发关于 AI 对就业市场结构性影响的讨论，特别是针对非技术类职位的替代风险。行业需关注技能重塑及社会保障体系如何应对 AI 带来的劳动力市场剧变。此观点反映了科技领袖对 AI 替代效应的激进看法，促使社会思考教育体系转型方向。文章来自 Fortune，讨论 AI 对人文学科工作的影响及职业培训需求，评论数较少但观点鲜明，突出了科技行业领导层对未来劳动力结构的预判及潜在的社会冲击。",
+    "tags": [
+      "News",
+      "Job Market",
+      "Industry"
+    ],
+    "link": "https://fortune.com/article/palantir-ceo-alex-karp-ai-humanities-jobs-vocational-training/",
+    "date": "2026-04-12",
+    "id": "17759873715534"
+  },
+  {
     "title": "Intel Arc Pro B70 发布，32GB 显存赋能本地 AI",
     "summary": "Intel 推出高性价比显卡，32GB 显存仅需 949 美元，利好本地部署。",
     "detail": "Intel Arc Pro B70 已于 3 月 25 日发货，主打本地 AI 推理市场。该卡配备 32GB GDDR6 显存和 367 TOPS 算力，售价 949 美元，比 NVIDIA RTX Pro 4000 便宜 850 美元。显存容量是本地模型部署的核心瓶颈，无法容纳模型就无法运行。此举显著降低了运行大模型的硬件门槛，利好开发者本地部署，但文章也指出其软件生态故事尚不如硬件强劲，需关注后续驱动支持。对于希望搭建本地 LLM 推理服务的团队，这是一个极具性价比的选择，但仍需评估软件兼容性风险。硬件参数的突破表明本地 AI 正在从实验走向实用，价格战可能加速普及。",
@@ -193,6 +219,19 @@
     "link": "https://www.motherjones.com/politics/2026/04/after-the-attack-on-sam-altmans-home-will-ai-ceos-go-on-the-offensive/",
     "date": "2026-04-12",
     "id": "17759618270934"
+  },
+  {
+    "title": "深入解析 Tinygrad AI 编译器架构",
+    "summary": "无第三方依赖的深度学习框架，支持多后端高性能编译。",
+    "detail": "文章深度剖析 Tinygrad 深度学习框架，其核心编译器几乎无外部依赖，降低供应链攻击风险。支持 Nvidia、AMD、Apple Metal 等多种后端架构，注重性能与简洁性。相比 TVM 或 XLA，Tinygrad 更易黑客化修改，适合自定义 AI 加速器优化。George Hotz  pitch 其能为定制架构提供优于内部构建的性能。为开发者提供高性能代码生成方案，是理解现代 AI 编译器架构的重要案例。Tinygrad 拥有自动微分引擎，针对多种后端架构目标，包括移动端及汽车集成显卡。核心编译器无真实依赖，仅测试需 Python 包，这意味着发现 bug 可直接修复，几乎无供应链攻击风险，是少数能吹嘘此 feat 的项目。",
+    "tags": [
+      "Dev",
+      "Compiler",
+      "Deep Learning"
+    ],
+    "link": "https://tinyblog-phi.vercel.app/tinygrad",
+    "date": "2026-04-11",
+    "id": "17759873715533"
   },
   {
     "title": "1000 个 AI 数字双胞胎模拟匈牙利大选",
@@ -1259,44 +1298,5 @@
     "link": "https://maki.sh/",
     "date": "2026-04-10",
     "id": "17758743599933"
-  },
-  {
-    "title": "Google CEO 访谈：AI 战略与资本支出",
-    "summary": "Sundar Pichai 详解 Google AI 复苏、1800 亿美元预算及供应链挑战。",
-    "detail": "Google CEO Sundar Pichai 在接受深度访谈中回顾了 Google 在 AI 领域的历史与未来战略。他明确指出 2026 年将是供应链短缺的一年，强调了内存和电力作为关键限制因素。Google 计划投入高达 1750 亿美元的资本支出，并反思了 Transformer 架构最初是为了解决具体产品需求而非通用 AI 诞生的背景。此次访谈揭示了 Google 内部文化正回归乐观主义，以及对数据中心太空布局等长期赌注的关注。Pichai 还讨论了美国经济增长与 AI 的关系，展示了巨头在算力军备竞赛中的战略定力与对基础设施的巨额投入决心，表明 Google 正全力追赶并试图重塑 AI 领导地位。",
-    "tags": [
-      "News",
-      "Google",
-      "Strategy"
-    ],
-    "link": "https://cheekypint.substack.com/p/the-history-and-future-of-ai-at-google",
-    "date": "2026-04-10",
-    "id": "17758643400900"
-  },
-  {
-    "title": "Meta 利用 AI 应对社交媒体诉讼",
-    "summary": "WSJ 报道 Meta 押注 AI 技术以清除社交媒体法律诉讼的阴霾。",
-    "detail": "据华尔街日报最新报道，Meta 正依赖先进的 AI 技术来处理社交媒体相关的法律诉讼风险。通过部署更智能的 AI 模型，Meta 试图更有效地进行内容审核和合规管理，从而减少潜在的法律纠纷。这一策略反映了科技巨头在面对日益严峻的监管压力时，将 AI 不仅视为业务增长引擎，也作为关键的风险防御工具。此举可能深远影响未来社交媒体行业的合规标准，显示 AI 在企业风控和法律防御中的关键作用日益凸显，成为平台治理的核心支柱，帮助 Meta 在复杂法律环境中寻找突破口。",
-    "tags": [
-      "News",
-      "Meta",
-      "Legal"
-    ],
-    "link": "https://www.wsj.com/tech/meta-banks-on-ai-to-clear-the-smoke-of-social-media-lawsuits-902263dc",
-    "date": "2026-04-10",
-    "id": "17758643400901"
-  },
-  {
-    "title": "Ark：Go 语言编写的 AI 代理运行时",
-    "summary": "开源项目 Ark 优化 LLM 上下文，实现决策级成本追踪。",
-    "detail": "Ark 是一个用 Go 语言编写的 AI 代理运行时内核，旨在彻底优化 LLM 的上下文窗口管理。它能动态控制进入上下文的内容，据称减少约 99% 的工具开销，并提供精确的决策级别成本归属。通过记忆历史执行记录，Ark 能自适应调整工具调用策略，避免重复错误。该项目解决了 Agent 开发中上下文膨胀和成本不可控的痛点，为开发者提供经济理性的代理运行环境，适合构建高效、低成本且可追溯的 AI 应用系统，是代理架构优化的重要尝试。",
-    "tags": [
-      "Dev",
-      "Go",
-      "Agent"
-    ],
-    "link": "https://github.com/atripati/ark",
-    "date": "2026-04-10",
-    "id": "17758643400902"
   }
 ]
