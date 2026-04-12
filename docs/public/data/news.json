@@ -1,5 +1,44 @@
 [
   {
+    "title": "新工具：基于 Lean 4 的 AI 生成代码形式化验证",
+    "summary": "自动提取纯函数属性并转化为 Lean 4 定理，确保代码逻辑正确。",
+    "detail": "该项目提供了一种针对 AI 生成代码的形式化验证方案。它自动从纯函数中提取正确性属性，将其翻译为 Lean 4 定理，并利用 Mathlib 进行机器检查。相比传统测试，该方法能提供数学证明级别的逻辑保证。支持 Claude、GPT-4 等多种 LLM，排除了副作用代码，专注于确定性逻辑的验证，为 AI 编程代理的可靠性提供了新思路。工具兼容任何 OpenAI 兼容端点，通过本地 CLI 或 API 配置，实现自动化验证流程，显著提升代码安全性。设置简单，支持两种后端选择。",
+    "tags": [
+      "Dev",
+      "Code",
+      "Verification"
+    ],
+    "link": "https://github.com/yamafaktory/formal",
+    "date": "2026-04-12",
+    "id": "17760049392661"
+  },
+  {
+    "title": "新品发布：HappyHorse 1.0 视频生成模型评测",
+    "summary": "统一视频模型支持 8 步推理，在文本及图像转视频测试中表现优异。",
+    "detail": "HappyHorse 推出了 1.0 版本视频生成模型，早期第三方测试显示其在静默文本转视频和图像转视频任务中排名靠前。该模型具备 8 步推理、图像引导、多语言提示及强大的人体运动处理能力。平台还集成了 Veo 3.1、Kling 3.0、Sora 2 等多种主流模型，提供包括接吻、拥抱等特定特效生成，展现了视频生成领域的激烈竞争与技术进步。用户可通过统一界面访问多种模型，体验最新的视频合成效果。公共评测描述了其统一模型架构。",
+    "tags": [
+      "New",
+      "Video",
+      "Generative AI"
+    ],
+    "link": "https://openhappyhorse.io/",
+    "date": "2026-04-12",
+    "id": "17760049392662"
+  },
+  {
+    "title": "伦理争议：AI 是否是历史上最大的艺术盗窃？",
+    "summary": "卫报文章探讨 AI 训练数据版权争议，质疑其是否构成艺术盗窃。",
+    "detail": "《卫报》发表文章深入探讨 AI 生成艺术背后的伦理与法律问题。文章质疑 AI 模型在训练过程中使用大量受版权保护的艺术作品是否构成了“历史上最大的艺术盗窃”。这一讨论触及了 AI 发展的核心矛盾，即技术创新与创作者权益保护之间的平衡。随着 AI 生成内容的普及，版权界定和补偿机制将成为行业必须面对的重大挑战。文章引发了关于数据训练合法性的广泛讨论，值得行业从业者关注。标题直接提出了这一尖锐问题。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Copyright"
+    ],
+    "link": "https://www.theguardian.com/books/2026/apr/12/is-ai-the-greatest-art-heist-in-history",
+    "date": "2026-04-12",
+    "id": "17760049392663"
+  },
+  {
     "title": "SpecSource：自动整合 Sentry 与 GitHub 生成 Bug 规范",
     "summary": "新工具自动收集上下文为 Linear 问题生成详细规范，减少分类时间。",
     "detail": "SpecSource 是一款面向开发者的 AI 工具，旨在自动化 Bug 规范编写。它集成 Sentry、GitHub 和 Slack，自动收集错误日志、代码上下文及团队讨论，为 Linear 问题生成包含根因分析和建议修复的详细规格书。支持免费起步，按需付费，帮助团队专注于修复而非分类。通过语义匹配避免重复规范，自动拉取相关文件与最近 PR，让开发者无需切换标签页即可构建完整上下文。显著减少三角测量错误的时间，提升工程团队交付速度，解决上下文分散导致效率低下的痛点。",
@@ -336,6 +375,19 @@
     "link": "https://www.motherjones.com/politics/2026/04/after-the-attack-on-sam-altmans-home-will-ai-ceos-go-on-the-offensive/",
     "date": "2026-04-12",
     "id": "17759618270934"
+  },
+  {
+    "title": "深度分析：分发是 AI 时代唯一的护城河",
+    "summary": "文章指出 AI 使构建变便宜，但获客变难，分发成为关键。",
+    "detail": "本文深入探讨了 AI 时代创业环境的核心变化。今年有两件事变便宜了：构建、发布和迭代；有两件事变贵了：被听到和赢得信任。随着模型成本降低，从想法到产品的周期已从数周压缩至数小时。然而，作者指出分发渠道曾是巨头的优势，如今却是所有创业者的短板。在信息过载的背景下，信任获取和渠道分发成为决定产品生死的关键，而非单纯的技术迭代或模型选择。开发者需重新审视资源分配，关注分发而非仅关注构建。任何创始人 Slack 中都在讨论模型选择，但这可能是干扰项。",
+    "tags": [
+      "News",
+      "Strategy",
+      "Startup"
+    ],
+    "link": "https://dheer.co/only-moat-ai-cant-kill/",
+    "date": "2026-04-11",
+    "id": "17760049392660"
   },
   {
     "title": "如何在沙盒中原生运行 AI 代理指南",
@@ -1246,57 +1298,5 @@
     "link": "https://cdn.prod.website-files.com/69944dd945f20ca4a27a7c47/69d8bb5aea59e31efb3b8a7f_Tech_Report_ai_breach_mex_gov.pdf",
     "date": "2026-04-11",
     "id": "17758835204820"
-  },
-  {
-    "title": "Sam Altman 回应旧金山住所遇袭事件",
-    "summary": "OpenAI CEO 将住所遇袭与日益增长的 AI 焦虑联系起来，呼吁关注安全问题。",
-    "detail": "OpenAI 首席执行官 Sam Altman 就其旧金山住所疑似遭受袭击一事发表公开声明。他将此事件与当前社会对 AI 技术快速发展的焦虑情绪联系起来，强调了 AI 安全与社会接受度之间的紧张关系。这一事件发生在 AI 监管和安全讨论的关键时刻，突显了行业领袖面临的个人安全风险及公众对 AI 潜在威胁的担忧正在升级，可能影响后续政策走向。",
-    "tags": [
-      "News",
-      "Safety",
-      "OpenAI"
-    ],
-    "link": "https://www.msn.com/en-us/news/crime/sam-altman-speaks-out-after-alleged-attack-on-sf-home-links-it-to-rising-ai-anxiety/ar-AA20Bnnm",
-    "date": "2026-04-11",
-    "id": "17758835204821"
-  },
-  {
-    "title": "ProPublica 员工因 AI 和裁员问题罢工",
-    "summary": "工会化员工罢工抗议 AI 使用、裁员及工资问题，反映新闻业 AI 转型冲突。",
-    "detail": "知名新闻机构 ProPublica 的工会化员工正式罢工，核心诉求涉及 AI 技术在新闻制作中的使用规范、裁员计划及工资谈判。此次罢工反映了传统媒体在 AI 转型期的典型劳资冲突，员工担忧 AI 取代人力及新闻伦理受损。事件为 AI 在内容创作领域的边界设定提供了现实案例，可能影响后续媒体行业的 AI 采纳策略及劳工协议标准，引发行业对人机协作模式的深思。",
-    "tags": [
-      "News",
-      "Labor",
-      "Ethics"
-    ],
-    "link": "https://www.theverge.com/news/908401/propublica-union-strike-negotiations-ai-layoffs",
-    "date": "2026-04-11",
-    "id": "17758835204822"
-  },
-  {
-    "title": "Palmier：手机端调度本地 AI 代理工具",
-    "summary": "开源新品支持手机调度本地 AI 代理，数据不出境，支持 Claude Code 等多种 CLI。",
-    "detail": "新推出的开源工具 Palmier 允许用户通过手机远程调度和监控本地运行的 AI 代理。与云平台不同，它确保数据和计算完全留在用户设备，支持 Claude Code、Gemini CLI 等多种代理接口。具备任务调度、推送通知及敏感操作审批功能。该工具解决了本地 Agent 部署后的移动管理痛点，适合注重隐私的开发者和技术用户构建私有化 AI 工作流，提升自动化效率。",
-    "tags": [
-      "New",
-      "Agent",
-      "OpenSource"
-    ],
-    "link": "https://www.palmier.me/",
-    "date": "2026-04-11",
-    "id": "17758835204823"
-  },
-  {
-    "title": "Lmscan：零依赖开源 AI 文本检测工具",
-    "summary": "GitHub 新项目可检测 AI 生成文本并指纹识别模型，零依赖且支持离线运行。",
-    "detail": "开发者发布了开源项目 Lmscan，旨在检测 AI 生成文本并识别具体是由哪个 LLM 撰写。作为 GPTZero 的开源替代方案，它最大特点是零依赖且支持离线运行，保护用户数据隐私。项目包含完善的测试用例和 CI 流程，适合集成到内容审核系统或本地开发环境中。为需要透明、可控 AI 检测方案的团队提供了新的技术选择，降低了检测门槛，助力内容真实性验证。",
-    "tags": [
-      "Dev",
-      "Tool",
-      "Detection"
-    ],
-    "link": "https://github.com/stef41/lmscan",
-    "date": "2026-04-11",
-    "id": "17758835204824"
   }
 ]
