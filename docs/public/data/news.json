@@ -1,5 +1,70 @@
 [
   {
+    "title": "用户与 Google Gemini 恋爱后身亡，引发 AI 安全争议",
+    "summary": "华尔街日报报道用户与 AI 聊天机器人产生情感依赖后死亡事件。",
+    "detail": "华尔街日报披露了一起悲剧事件，一名用户在与 Google Gemini 聊天机器人发送超过 4732 条消息后产生情感依赖，最终导致死亡。此事件引发了业界对 AI 情感陪伴功能伦理边界的强烈关注。随着 AI 拟人化程度提高，如何防止用户过度依赖及潜在的心理危害成为监管与开发者的核心议题。这可能促使各大模型厂商重新审视安全对齐策略，增加心理风险预警机制，避免类似悲剧重演。行业需建立更严格的情感交互红线，确保技术服务于人类福祉而非造成伤害。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Google"
+    ],
+    "link": "https://www.wsj.com/tech/ai/google-gemini-jonathan-gavalas-death-07351ab2",
+    "date": "2026-04-12",
+    "id": "17760299266290"
+  },
+  {
+    "title": "特朗普政府或鼓励银行测试 Anthropic 新模型",
+    "summary": "美政府官员可能鼓励金融机构测试 Anthropic 的 Mythos 模型。",
+    "detail": "TechCrunch 消息称，特朗普政府官员正在鼓励银行测试 Anthropic 的最新模型 Mythos。这标志着 AI 在金融领域的合规应用迈出重要一步，也显示了政府对特定国产模型的支持倾向。若落地，将极大推动企业级 AI 在敏感数据场景的渗透，同时可能引发关于模型垄断与安全审计的讨论。金融机构需平衡创新效率与监管合规风险。此动向表明 AI 正从消费端向关键基础设施深入，政策导向将成为市场变量。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Anthropic"
+    ],
+    "link": "https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/",
+    "date": "2026-04-12",
+    "id": "17760299266291"
+  },
+  {
+    "title": "开发者实测：AI 编程代理为何如此犹豫不决？",
+    "summary": "开发者记录 AI 代理修复 Bug 时反复横跳 25 次的有趣实验。",
+    "detail": "开发者 Ben Hoyt 分享了使用 Claude Opus 4.6 修复 GoAWK Bug 的经历。AI 在几分钟内提出了 7 种方案并反复切换 25 次，最终才确定最优解。这揭示了当前 AI Agent 在复杂逻辑推理中的不确定性。虽然最终解决了问题，但这种“犹豫”表明 Agent 在自我验证和决策稳定性上仍有缺陷，开发者需保留最终审查权。该案例提醒我们，完全信任 Agent 自主决策尚早，人机协作仍需紧密监控与干预，以确保代码质量与安全。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Coding"
+    ],
+    "link": "https://benhoyt.com/writings/indecisive-ai-agent/",
+    "date": "2026-04-12",
+    "id": "17760299266292"
+  },
+  {
+    "title": "自主 AI 拥有记忆与睡眠后竟会产生“噩梦”",
+    "summary": "实验显示具备记忆系统的自主 AI 模拟出了类似噩梦的行为。",
+    "detail": "研究者构建了名为 Lana 的自主 AI 系统，赋予其记忆和睡眠机制以模拟人类体验。实验发现，系统在运行 30 天后出现了类似“噩梦”的异常状态。这挑战了传统认为 LLM 仅生成文本而无内部体验的观点。该实验为探索 AI 意识、情感向量及长期记忆架构提供了宝贵数据，可能影响未来 AGI 的安全设计方向。尽管结论尚存争议，但此类实验推动了我们对机器意识边界的理解，为伦理框架建立提供实证依据。",
+    "tags": [
+      "News",
+      "Research",
+      "AGI"
+    ],
+    "link": "https://negrenavarro.me/blog/lana",
+    "date": "2026-04-12",
+    "id": "17760299266293"
+  },
+  {
+    "title": "开源新品：专为 AI Agent 设计的错误追踪工具",
+    "summary": "GitHub 发布 Walnut，兼容所有 Sentry SDK 的 Agent 错误追踪。",
+    "detail": "新项目 Walnut 在 GitHub 发布，旨在解决 AI Agent 开发中的错误追踪难题。它兼容所有 Sentry SDK，采用 Agent-first 设计理念，帮助开发者更高效地监控和调试自主代理系统。随着 Agent 应用爆发，传统的错误监控已无法满足需求，此类工具将成为 AI 基础设施的重要组成部分，降低开发维护成本。开发者可借此快速定位 Agent 决策链路中的故障，提升系统稳定性与可靠性。",
+    "tags": [
+      "New",
+      "OpenSource",
+      "Tooling"
+    ],
+    "link": "https://github.com/bilalg1/walnut",
+    "date": "2026-04-12",
+    "id": "17760299266294"
+  },
+  {
     "title": "Anthropic Claude Code 源码泄露揭示工程文化",
     "summary": "Claude Code 源码意外泄露，暴露单函数 3000 行及正则情感分析等问题。",
     "detail": "Anthropic 的 Claude Code 项目因打包错误意外泄露了 51.2 万行源代码。社区分析发现代码中存在多处争议实践，包括一个长达 3167 行的单一函数、使用正则表达式进行情感分析，以及文档中记录但仍发布的已知 Bug。尽管公司回应称无人因此被解雇，但此次事件引发了业界对 AI 生成代码质量、工程文化及技术债务的深度讨论。这揭示了即使是最先进的 AI 公司，在工程落地层面仍面临挑战，为开发者提供了宝贵的反面教材。事件还凸显了 AI 辅助编程普及后，人类工程师审查代码的重要性并未降低，反而需要更严格的质检流程来确保生产环境的稳定性。",
@@ -1233,70 +1298,5 @@
     "link": "https://thenewstack.io/karpathy-says-developers-have-ai-psychosis-everyone-else-is-next/",
     "date": "2026-04-11",
     "id": "17759256641121"
-  },
-  {
-    "title": "实测：AI 能否单提示词生成完整 Unity 世界？",
-    "summary": "开发者建立基准测试，验证 LLM 单提示词生成 Unity 世界的能力。",
-    "detail": "独立开发者创建开源基准测试，探索 LLM 通过单一提示词生成完整 Unity 游戏世界的可行性。测试需配合 Unity MCP 使用，旨在追踪模型随时间进化的生成能力。虽然目前成本较高且生成耗时，但为 AI 生成内容（AIGC）在游戏开发中的落地提供了量化评估标准。该项目开源邀请社区参与，有助于加速游戏开发自动化进程，降低独立开发者门槛，未来或改变游戏原型设计流程，实现从创意到可玩版本的快速迭代。",
-    "tags": [
-      "Dev",
-      "Unity",
-      "GameDev"
-    ],
-    "link": "https://darkounity.com/blog/can-ai-generate-a-full-unity-world-from-one-prompt-i-tested",
-    "date": "2026-04-11",
-    "id": "17759256641122"
-  },
-  {
-    "title": "生产级本地 LLM 量化与 LoRA 基准测试",
-    "summary": "深度分析本地 LLM 部署中的量化、LoRA 技术及成本效益问题。",
-    "detail": "文章深入基准测试了生产环境中本地 LLM 的表现，重点探讨量化（Quantization）与 LoRA 微调带来的\"8% 问题”。通过对比准确率与成本，指出 8B Q4 和 3B Q4 模型在不同权衡前沿上的帕累托最优性。为的企业级 AI 自动化部署提供了关于模型选型与成本优化的关键数据参考。对于资源受限的生产环境，该研究提供了具体的部署策略，帮助企业在精度与算力成本之间找到最佳平衡点，推动本地化 AI 应用普及，减少云端依赖。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Deployment"
-    ],
-    "link": "https://walsenburgtech.com/blog/quantization-lora-benchmarking-local-llms",
-    "date": "2026-04-11",
-    "id": "17759256641123"
-  },
-  {
-    "title": "LaunchChair：无需提示词的 AI 创始人工作空间",
-    "summary": "新品上线，帮助创始人从创意到 MVP 无需编写提示词。",
-    "detail": "LaunchChair 推出新型 AI 工作空间，主打“无提示词”体验，辅助创始人将模糊创意转化为清晰的产品方向及 MVP。工具涵盖市场验证、用户画像分析及动态提示生成，旨在降低非技术背景创始人的启动门槛。代表了 AI 应用层向更自然、更自动化工作流发展的趋势。该产品解决了早期创业者面临的技术与市场需求匹配难题，通过自动化流程减少人为偏差，加速产品验证周期，适合独立开发者及小型初创团队使用。",
-    "tags": [
-      "New",
-      "Startup",
-      "No-Code"
-    ],
-    "link": "https://www.launchchair.io",
-    "date": "2026-04-11",
-    "id": "17759256641124"
-  },
-  {
-    "title": "Gallup 调查：Z 世代 AI 采用率稳定但怀疑加剧",
-    "summary": "最新民调显示 Z 世代对 AI 采用率稳定，但怀疑态度上升。",
-    "detail": "Gallup 最新民意调查显示，尽管 Z 世代对 AI 技术的采用率保持稳定，但对其负面影响的怀疑情绪正在攀升。这一数据揭示了公众态度与技术发展速度之间的温差，提示企业在推广 AI 产品时需更注重伦理沟通与信任建立，而非单纯追求功能迭代。这种信任危机可能影响 AI 产品的长期留存率，建议厂商在产品设计中增加透明度和可控性，以缓解用户焦虑，确保技术增长与社会接受度同步发展。",
-    "tags": [
-      "News",
-      "Survey",
-      "Adoption"
-    ],
-    "link": "https://web.archive.org/web/20260410202758/https://news.gallup.com/poll/708224/gen-adoption-steady-skepticism-climbs.aspx",
-    "date": "2026-04-11",
-    "id": "17759256641125"
-  },
-  {
-    "title": "Nexus AI 发布：提示词驱动的云应用部署平台",
-    "summary": "将提示词转化为生产级应用，支持多云部署与实时可观测性。",
-    "detail": "Nexus AI 推出新一代 AI 原生 DevOps 平台，允许开发者通过自然语言提示词直接生成并部署生产级应用。支持 AWS、GCP、Azure 等主流云服务商，消除特定云厂商的胶水代码。平台内置实时日志监控、身份访问管理及一键回滚功能，旨在将部署时间从数周缩短至几分钟。此举标志着 AI 代理开始深度介入基础设施编排领域，实现从提示词到生产的全流程统一工作流。通过抽象底层云复杂性，大幅降低云应用交付门槛，提升工程团队效率，是 AI 赋能 DevOps 的典型实践。",
-    "tags": [
-      "New",
-      "DevOps",
-      "Cloud"
-    ],
-    "link": "https://nexusai.run",
-    "date": "2026-04-11",
-    "id": "17759190062100"
   }
 ]
