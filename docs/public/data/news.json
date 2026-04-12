@@ -1,5 +1,83 @@
 [
   {
+    "title": "前沿模型在金融任务中表现不佳",
+    "summary": "Mercor 测试发现 GPT-5.4 等模型在处理图表和计算时准确率大幅下降。",
+    "detail": "Mercor 对前沿 AI 模型进行了压力测试，使用真实的金融文档如收益报告和投资者演示文稿。结果显示，当输入包含图表、图像等多模态内容时，GPT-5.4、Gemini 3.1 Pro 和 Claude Opus 4.6 的表现显著下降。主要失败模式包括误读密集视觉文档中的数值，以及即使输入正确也应用错误的金融运算。这表明基准测试与实际工作场景存在巨大差距，金融分析师被 AI 取代的担忧可能为时过早。该研究构建了 25 个基于真实金融文档的任务，提示企业在部署 AI 进行财务分析时需保持谨慎，不能过度依赖自动化结果，人工审核依然至关重要。",
+    "tags": [
+      "News",
+      "LLM",
+      "Finance"
+    ],
+    "link": "https://www.mercor.com/blog/Finance-tasks-ai-failures-modes/",
+    "date": "2026-04-12",
+    "id": "17759618270930"
+  },
+  {
+    "title": "AI 模型足球预测能力遭质疑",
+    "summary": "Ars Technica 报道指出 AI 模型尤其是 Grok 在足球博彩预测上表现糟糕。",
+    "detail": "Ars Technica 发表文章测试了多个 AI 模型在体育博彩领域的表现，结果显示普遍较差，其中 xAI 的 Grok 模型表现尤为糟糕。尽管具体技术细节未完全披露，但该测试揭示了当前大模型在概率预测和实时动态事件分析上的局限性。这一发现对于试图将 AI 应用于高风险决策场景的开发者具有重要警示意义，表明模型在特定垂直领域的可靠性仍需验证。此外，这也引发了关于 AI 幻觉在预测类任务中潜在风险的讨论，建议用户在依赖 AI 进行投资决策前进行独立核实，避免盲目信任模型输出。",
+    "tags": [
+      "News",
+      "LLM",
+      "xAI"
+    ],
+    "link": "https://arstechnica.com/ai/2026/04/ai-models-are-terrible-at-betting-on-soccer-especially-xai-grok/",
+    "date": "2026-04-12",
+    "id": "17759618270931"
+  },
+  {
+    "title": "递归模式：AI 工程的新操作系统",
+    "summary": "推出基于仓库的 AI 工程工作流，将代理状态存入锁定 Markdown 文件。",
+    "detail": "`recursive-mode` 提出了一种以文档为中心的工作流，旨在解决 AI 代理工程中的状态管理问题。它将系统记录从聊天记录移至可检查、可重放的仓库文件中，并通过严格的审计循环确保人类可监督。其核心创新在于治理而非自动化，利用内容哈希使代理输出更像受控工程记录。这种方法优化了跨小时、文件和模型交接的复杂任务，避免了聊天历史作为状态数据库的混乱，为 AI 工程提供了更可信的记录系统，适合需要严格合规和审计的企业级应用，标志着 AI 工程向规范化迈进。",
+    "tags": [
+      "Dev",
+      "Engineering",
+      "Agent"
+    ],
+    "link": "https://repo-explainer.com/try-works/recursive-mode",
+    "date": "2026-04-12",
+    "id": "17759618270932"
+  },
+  {
+    "title": "菲比·盖茨的 AI 初创公司 Phia 获融资",
+    "summary": "比尔·盖茨女儿菲比·盖茨寻求让 1.85 亿美元的 AI 初创公司 Phia 成功。",
+    "detail": "Fortune 报道了 NeoBaby Phoebe Gates 的 AI 初创公司 Phia 的最新动态。该公司已获得 1.85 亿美元融资，菲比·盖茨表示希望在不依赖父母比尔·盖茨和梅琳达·弗伦奇·盖茨帮助的情况下取得成功。这一消息引起了科技圈和投资界的广泛关注，不仅因为创始人的背景，更因为其在竞争激烈的 AI 赛道中的独立发展策略。该案例反映了新一代科技继承人在 AI 浪潮中的创业趋势及面临的公众审视，同时也展示了资本对名人效应加持的 AI 项目的持续兴趣，行业竞争愈发激烈。",
+    "tags": [
+      "News",
+      "Startup",
+      "Funding"
+    ],
+    "link": "https://fortune.com/2026/02/21/phoebe-gates-startup-phia-succeed-without-help-parents-bill-gates-melinda-french-gates/",
+    "date": "2026-04-12",
+    "id": "17759618270933"
+  },
+  {
+    "title": "萨姆·阿尔特曼住所遇袭后的行业反应",
+    "summary": "母亲琼斯报道探讨 AI CEO 们在阿尔特曼家遇袭后是否会采取攻势。",
+    "detail": "Mother Jones 报道了 OpenAI CEO 萨姆·阿尔特曼旧金山住所遇袭事件及其后续影响。阿尔特曼暗示一篇调查报道引发了袭击，但该说法未经证实。文章探讨了此事件是否会导致 AI 行业领袖们在安全和社会责任问题上采取更强硬的立场。这一事件凸显了 AI 快速发展背景下，行业领军人物面临的人身安全风险及公众舆论压力，可能影响未来 AI 政策的走向及 CEO 们的公开策略，行业安全标准或将因此事件得到重新评估，社会对 AI 巨头的审视将更加严格。",
+    "tags": [
+      "News",
+      "Safety",
+      "OpenAI"
+    ],
+    "link": "https://www.motherjones.com/politics/2026/04/after-the-attack-on-sam-altmans-home-will-ai-ceos-go-on-the-offensive/",
+    "date": "2026-04-12",
+    "id": "17759618270934"
+  },
+  {
+    "title": "1000 个 AI 数字双胞胎模拟匈牙利大选",
+    "summary": "Populon 利用 1000 个 AI 选民数字双胞胎预测匈牙利选举结果。",
+    "detail": "Populon.ai 在匈牙利大选前运行了 1000 个合成选民数字双胞胎的模拟。这些 AI 拥有各自的生活故事和价值观，阅读了 14 个渠道的 1812 个真实新闻标题。模拟结果显示反对党 Tisza 可能以 15.1 个百分点的优势获胜，这将是 2010 年以来最大的政治转变。356 名选民在竞选期间改变了主意，主要源于经济焦虑而非文化战争。该项目展示了 AI 在社会科学和政治预测中的新兴应用能力，为理解选民行为提供了新的数据视角，技术介入政治预测引发伦理讨论。",
+    "tags": [
+      "News",
+      "Simulation",
+      "Politics"
+    ],
+    "link": "https://hungary2026.populon.ai",
+    "date": "2026-04-11",
+    "id": "17759618270935"
+  },
+  {
     "title": "Populon 利用 AI 数字双胞胎模拟匈牙利大选",
     "summary": "Populon 模拟 1000 名 AI 选民，预测反对党大胜，揭示经济焦虑是关键转向因素。",
     "detail": "Populon.ai 通过构建 1000 个具有背景故事的 AI 选民数字双胞胎，摄入 90 天真实新闻进行模拟。结果显示反对党 Tisza 将以 15 分优势获胜，主要驱动力为经济焦虑与医疗腐败，而非文化战争。此案例展示了 AI 在社会科学研究及政治预测中的新兴应用能力，为选举分析提供新视角。相比传统民调，AI 模拟能更细致地追踪选民心态变化路径，揭示特定事件对投票行为的动态影响，具有极高的方法论创新价值。",
@@ -1220,83 +1298,5 @@
     "link": "https://disco-design.github.io/",
     "date": "2026-04-10",
     "id": "17758572837661"
-  },
-  {
-    "title": "AI 2027 预测报告：超级智能或在未来十年引发工业革命级影响",
-    "summary": "多位专家预测 2027 年前可能出现 AGI，经济影响巨大。",
-    "detail": "由前 OpenAI 等专家撰写的\"AI 2027\"报告预测，未来十年超级人类 AI 的影响将超过工业革命。报告基于趋势外推与专家反馈，指出 OpenAI、DeepMind 等 CEO 均预测 5 年内实现 AGI。场景规划探讨了超级智能到来后的社会形态，引发行业对时间表与安全性的深度关注。作者包括 Daniel Kokotajlo 等，结合了战争游戏与专家反馈。报告认为超级智能将带来巨大经济与社会变革，但也伴随安全风险。行业需为快速到来的技术奇点做好准备，调整战略以应对潜在的巨大影响与不确定性。该报告提供了计算预测、时间线预测及安全预测等多个维度分析，是目前关于 AGI 时间表最详细的公开情景规划之一。",
-    "tags": [
-      "News",
-      "AGI",
-      "Forecast"
-    ],
-    "link": "https://ai-2027.com/?",
-    "date": "2026-04-10",
-    "id": "17758572837662"
-  },
-  {
-    "title": "告别 JSON 生成 UI，OpenUI 提出新一代生成式界面标准",
-    "summary": "JSON 无法满足交互需求，OpenUI 推出更优生成式 UI SDK。",
-    "detail": "团队在开发生成式 UI SDK 时发现 JSON 格式在处理状态管理、实时数据等交互场景时存在局限。OpenUI 应运而生，旨在解决 LLM 生成复杂交互界面的痛点。相比 JSON 树，新标准能更好地支持动态数据获取与条件渲染，同时实现高达 67% 的 Token 节省，为生成式前端开发提供新范式。JSON 本质是数据格式而非语言，难以胜任需要获取数据、管理状态的 UI 任务。OpenUI 放弃了 JSON 方案，转向更灵活的标准，解决了交互式界面生成的根本问题，提升了生成式 UI 的可用性与效率。这一转变标志着生成式前端技术从静态展示向动态交互迈进，开发者可构建更复杂的 AI 原生应用界面。",
-    "tags": [
-      "Dev",
-      "Frontend",
-      "LLM"
-    ],
-    "link": "https://www.openui.com/blog/stop-making-ai-write-json",
-    "date": "2026-04-10",
-    "id": "17758572837663"
-  },
-  {
-    "title": "DecisionNode 开源：基于 MCP 的 AI 编程共享结构化记忆",
-    "summary": "将开发决策存为向量嵌入，通过语义搜索供 AI 代理查询。",
-    "detail": "DecisionNode 是一个新的开源工具，旨在为所有 AI 编码工具提供共享的结构化记忆。它通过 MCP 服务器将开发决策存储为向量嵌入，支持语义搜索。CLI 工具与 AI 代理集成，帮助团队在复杂项目中保持上下文一致性，解决 AI 编程中记忆碎片化问题，提升协作效率。传统开发中决策分散，AI 难以获取全局上下文。该工具利用向量数据库存储关键决策，使 AI 代理能理解项目历史与架构意图。支持 GitHub Copilot 等工具集成，通过标准化协议实现跨工具记忆共享，降低重复沟通成本。这对于大型团队协作及长期维护的 AI 生成代码项目尤为重要，确保了技术决策的可持续性与可追溯性。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "MCP"
-    ],
-    "link": "https://github.com/decisionnode/DecisionNode",
-    "date": "2026-04-10",
-    "id": "17758572837664"
-  },
-  {
-    "title": "Anthropic 临时禁止 OpenClaw 创作者访问 Claude",
-    "summary": "Anthropic 因安全风险暂时封禁 OpenClaw 创作者。",
-    "detail": "Anthropic 采取强硬安全措施，暂时禁止了开源工具 OpenClaw 的创作者访问 Claude 模型。此举凸显了大模型厂商对越狱工具及潜在滥用行为的零容忍态度。事件引发社区对 AI 安全边界与开源探索之间冲突的讨论，可能影响后续类似安全研究工具的开发策略。此新闻源自 TechCrunch 报道，表明厂商正在加强 API 访问监控与滥用检测。",
-    "tags": [
-      "News",
-      "Security",
-      "Anthropic"
-    ],
-    "link": "https://techcrunch.com/2026/04/10/anthropic-temporarily-banned-openclaws-creator-from-accessing-claude/",
-    "date": "2026-04-10",
-    "id": "17758536374600"
-  },
-  {
-    "title": "Nono 发布 AI 代理运行时安全基础设施",
-    "summary": "提供内核级隔离与审计，保障 AI 代理运行安全。",
-    "detail": "Nono 推出专为 AI 代理设计的运行时安全基础设施，支持 Linux/macOS/Windows 内核隔离。功能包括不可撤销允许列表、原子回滚、加密审计日志及凭证注入。作为 Sigstore 创作者的新作，它为自主代理提供了深层防御架构，解决 AI 代理执行过程中的安全与合规痛点。利用 Landlock 和 Seatbelt  enforce 隔离，确保代理行为可控。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agents"
-    ],
-    "link": "https://nono.sh",
-    "date": "2026-04-10",
-    "id": "17758536374601"
-  },
-  {
-    "title": "业界面临 AI 能力评估基准饱和危机",
-    "summary": "现有基准测试过快被饱和，亟需新评估方法。",
-    "detail": "文章指出 AI 模型能力增长导致传统基准测试（如 GPQA）迅速饱和，难以有效上限评估。METR 等机构推出时间跨度方法论及新评估集（如 BrowseComp）。行业正转向更具挑战性的代理基准测试，以应对模型快速迭代带来的评估失效问题，确保安全阈值测量准确。包括 GDPval 等新指标被引入以衡量实际生产力提升。",
-    "tags": [
-      "News",
-      "Evaluation",
-      "LLM"
-    ],
-    "link": "https://www.lesswrong.com/posts/gfkJp8Mr9sBm83Rcz/we-re-actually-running-out-of-benchmarks-to-upper-bound-ai",
-    "date": "2026-04-10",
-    "id": "17758536374602"
   }
 ]
