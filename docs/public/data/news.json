@@ -1,5 +1,70 @@
 [
   {
+    "title": "Intel Arc Pro B70 发布，32GB 显存赋能本地 AI",
+    "summary": "Intel 推出高性价比显卡，32GB 显存仅需 949 美元，利好本地部署。",
+    "detail": "Intel Arc Pro B70 已于 3 月 25 日发货，主打本地 AI 推理市场。该卡配备 32GB GDDR6 显存和 367 TOPS 算力，售价 949 美元，比 NVIDIA RTX Pro 4000 便宜 850 美元。显存容量是本地模型部署的核心瓶颈，无法容纳模型就无法运行。此举显著降低了运行大模型的硬件门槛，利好开发者本地部署，但文章也指出其软件生态故事尚不如硬件强劲，需关注后续驱动支持。对于希望搭建本地 LLM 推理服务的团队，这是一个极具性价比的选择，但仍需评估软件兼容性风险。硬件参数的突破表明本地 AI 正在从实验走向实用，价格战可能加速普及。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Local AI"
+    ],
+    "link": "https://awesomeagents.ai/news/intel-arc-pro-b70-32gb-local-inference/",
+    "date": "2026-04-12",
+    "id": "17759783011310"
+  },
+  {
+    "title": "TanStack 推出 Code Mode，优化 AI 工具调用效率",
+    "summary": "让 AI 编写 TypeScript 代码而非单纯调用工具，减少上下文开销。",
+    "detail": "针对 LLM 工具调用慢、数学能力弱的问题，TanStack 提出 Code Mode 方案。传统工具调用每次往返都增加上下文开销，且模型不擅长聚合数据。Code Mode 让模型编写 TypeScript 程序在沙箱中执行，利用 LLM 擅长的代码生成能力处理逻辑与数据聚合。这减少了 Token 消耗和往返延迟，提升了 Agent 执行效率。该方案解决了 N+1 查询问题，允许批量处理和并行化。对于构建复杂 AI 应用的开发者，这是一种更高效的架构模式，将执行权交给运行时，模型专注于逻辑生成，平衡了能力与成本。这标志着 AI 工程化从单纯调用 API 向生成可执行代码的转变，值得后端架构师关注。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "TypeScript"
+    ],
+    "link": "https://tanstack.com/blog/tanstack-ai-code-mode",
+    "date": "2026-04-12",
+    "id": "17759783011311"
+  },
+  {
+    "title": "Graft 框架发布，Go 语言构建类型安全 AI Agent",
+    "summary": "支持多提供商且无需 vendor SDK，为 Go 开发者提供类型安全工具。",
+    "detail": "Graft 是一个专为 Go 语言设计的 AI Agent 框架，旨在解决类型安全和多提供商兼容问题。支持 OpenAI、Anthropic、Gemini 等多提供商，特点是类型安全的工具调用且无需依赖厂商 SDK，减少了供应商锁定风险。集成了 Temporal、Hatchet 等工作流引擎，适合需要高可靠性和强类型检查的后端 AI 应用开发。对于 Go 生态开发者，这填补了高质量 Agent 框架的空白。类型安全特性有助于在编译期发现错误，提升生产环境稳定性。结合工作流支持，适合构建复杂的长期运行任务，是 enterprise 级 AI 应用开发的有力工具。开源社区正需要此类语言特定的高质量框架，以降低企业采用门槛。",
+    "tags": [
+      "Dev",
+      "Go",
+      "Framework"
+    ],
+    "link": "https://github.com/delavalom/graft",
+    "date": "2026-04-12",
+    "id": "17759783011312"
+  },
+  {
+    "title": "新论文警示：AI 可能导致“裁员陷阱”",
+    "summary": "经济学论文指出若 AI 替代速度快于经济再吸收，将引发风险。",
+    "detail": "arXiv 新论文《The AI Layoff Trap》探讨 AI 对劳动力市场的冲击，作者为 Brett Hemenway Falk 等。研究指出，如果 AI 替代人类工人的速度快于经济重新吸收劳动力的速度，可能导致结构性失业陷阱。这为行业狂热提供了冷静的经济学视角，提示政策制定者需关注再培训与经济适配。论文属于理论经济学范畴，警示技术扩散中的社会风险。对于企业而言，这意味着在部署 AI 自动化时需考虑人力过渡策略。宏观层面，若处理不当，AI 带来的生产力提升可能无法转化为广泛的消费能力，反而引发经济动荡，值得政策制定者与企业家深思。该研究补充了纯技术视角外的社会经济影响分析，是行业分析的重要参考。",
+    "tags": [
+      "News",
+      "Research",
+      "Economy"
+    ],
+    "link": "https://arxiv.org/abs/2603.20617",
+    "date": "2026-04-12",
+    "id": "17759783011313"
+  },
+  {
+    "title": "塔塔咨询财报超预期，AI 未削减服务需求",
+    "summary": "印度 IT 巨头表示新 AI 模型并未减少客户服务需求。",
+    "detail": "印度科技巨头 TCS 发布季度财报，营收超出预期。公司明确表示，新 AI 模型的引入并未削弱服务需求，反驳了 AI 将立即导致大规模服务外包减少的担忧。这表明在企业级服务领域，AI 目前更多是辅助而非完全替代，市场需求依然稳健。财报显示第四季度的收入视图良好。对于依赖外包服务的行业，这是一个积极信号，说明 AI 转型期需求仍在。企业客户仍在寻求服务而非单纯购买模型，人力服务与 AI 工具并存。这缓解了市场对 IT 服务业被 AI 快速颠覆的焦虑，显示传统 IT 服务仍有韧性。与“裁员陷阱”论文形成对比，展示了不同市场层面的复杂现实。",
+    "tags": [
+      "News",
+      "Business",
+      "Enterprise"
+    ],
+    "link": "https://www.reuters.com/world/india/indias-tcs-beats-fourth-quarter-revenue-view-2026-04-09/",
+    "date": "2026-04-12",
+    "id": "17759783011314"
+  },
+  {
     "title": "美联储与银行 CEO 讨论 Anthropic Mythos 安全威胁",
     "summary": "美联储联手美银高管评估 Anthropic 最新 AI 网络风险。",
     "detail": "美联储主席 Powell 与财政官员 Bessent 会同美国主要银行 CEO，讨论 Anthropic 最新 Mythos AI 模型带来的网络安全威胁。标志着 AI 安全风险已进入金融监管核心视野，银行界需针对高级 AI 代理潜在的网络攻击向量制定防御策略，行业合规要求将进一步收紧。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/atripati/ark",
     "date": "2026-04-10",
     "id": "17758643400902"
-  },
-  {
-    "title": "FriedrichAI：Steam 上的离线 AI 开发助手",
-    "summary": "全新离线 AI 编程助手登陆 Steam，无需 API 本地运行。",
-    "detail": "FriedrichAI 是一款最近在 Steam 平台发布的离线 AI 开发助手，引起了开发者社区的关注。该工具无需联网调用外部 API，完全在本地运行，极大保障了代码隐私和数据安全。作为 Show HN 热门项目，它满足了开发者对离线编程辅助的迫切需求，避免了云端服务的延迟风险和订阅费用。这标志着 AI 开发工具正向本地化、隐私保护方向发展新趋势，为敏感环境下的软件开发提供了全新的安全选择方案，适合对数据主权有严格要求的团队。",
-    "tags": [
-      "New",
-      "Offline",
-      "Privacy"
-    ],
-    "link": "https://store.steampowered.com/app/4111530/FriedrichAI_Offline_AI_Dev_Assistant/",
-    "date": "2026-04-10",
-    "id": "17758643400903"
-  },
-  {
-    "title": "Anthropic 疑似在 Claude 系统提示中注入推理参数",
-    "summary": "网络泄露显示 Claude.ai 消费者端可能使用 reasoning_effort 参数。",
-    "detail": "一张流传的图片显示，Anthropic 可能在 Claude.ai 的消费者系统提示中注入了 `reasoning_effort=25` 参数。这暗示了 Anthropic 正在尝试精细控制模型的推理深度，以在性能与成本之间寻找最佳平衡点。虽然来源为 Imgur 社区，但若属实，这表明 AI 厂商正在底层提示工程上进行更多隐蔽优化，以改善用户体验而不增加显性成本。这一细节揭示了模型调优的黑盒操作，为理解商业模型的行为逻辑提供了珍贵线索，可能影响开发者对模型输出的预期管理。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "LLM"
-    ],
-    "link": "https://imgur.com/AOAs7Aq",
-    "date": "2026-04-10",
-    "id": "17758643400904"
-  },
-  {
-    "title": "Lectura：AI 驱动的智能演示交付平台",
-    "summary": "将幻灯片转化为可复用的语音引导会话，支持多语言。",
-    "detail": "Lectura 推出全新 AI 演示交付系统，旨在超越传统幻灯片工具，解决重复演讲痛点。核心功能包括将静态 Deck 转化为语音引导会话、基于内容的接地问答（Grounded Q&A）及交互式准备。支持多语言复用和单一工作区管理，适用于教学、报告及会议场景。团队可借此准备、展示并扩展基于幻灯片的交付流程，无需重复劳动即可自信交付，实现演示内容的规模化与标准化，显著提升知识传播效率。该系统强调操作控制，允许从单一创作者工作区管理所有会话设置。",
-    "tags": [
-      "New",
-      "Productivity",
-      "LLM"
-    ],
-    "link": "https://lectura.biz",
-    "date": "2026-04-10",
-    "id": "17758608691760"
-  },
-  {
-    "title": "开发者痛点：AI Agent 集成 Gmail 的 19 步困境",
-    "summary": "揭示 AI 代理连接邮箱的安全与流程障碍，推出 AgentsMail。",
-    "detail": "文章详细记录了为 AI Agent 配置 Gmail API 的 19 步复杂流程，包括 OAuth、2FA 及安全警告等障碍。作者指出当前邮箱服务未为 AI 设计，存在隐私泄露风险。为此构建了 AgentsMail，旨在通过单一 API 调用解决 Agent 邮件通信问题，避免暴露个人敏感数据，填补 AI 代理通信协议空白。邮件作为互联网最通用协议，亟需专为 Agent 设计的服务层，以简化集成并保障安全。该工具解决了 Agent 无法处理浏览器交互及验证码的根本难题。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Security"
-    ],
-    "link": "https://www.anson.im/blog/why-i-built-agentsmail/",
-    "date": "2026-04-10",
-    "id": "17758608691761"
-  },
-  {
-    "title": "Elicit 预测：2030 年有望实现 AI 研发 parity",
-    "summary": "投资者更新报告指出 AI 自动化研发可能在四年内实现。",
-    "detail": "Elicit 发布 2026 年 4 月情境意识报告，预测 AI 研发 parity（AI 取代人类研究员）中位数时间为 2030 年。报告提及 2032 年可能实现 AI 生产管线全自动化。随着自动化研究质量提升，非线性发展风险增加，可能出现非 LLM 新架构。该预测基于多位专家观点，强调了自动化加速带来的潜在颠覆性影响。投资者需关注此时间线，以便提前布局应对可能到来的技术奇点与产业变革。软件自动化后将向现实世界物理设施延伸。",
-    "tags": [
-      "News",
-      "Research",
-      "Forecast"
-    ],
-    "link": "https://elicit.com/blog/situational-awareness-april-2026",
-    "date": "2026-04-10",
-    "id": "17758608691762"
   }
 ]
