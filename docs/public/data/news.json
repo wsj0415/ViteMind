@@ -1,5 +1,70 @@
 [
   {
+    "title": "美联储与银行 CEO 讨论 Anthropic Mythos 安全威胁",
+    "summary": "美联储联手美银高管评估 Anthropic 最新 AI 网络风险。",
+    "detail": "美联储主席 Powell 与财政官员 Bessent 会同美国主要银行 CEO，讨论 Anthropic 最新 Mythos AI 模型带来的网络安全威胁。标志着 AI 安全风险已进入金融监管核心视野，银行界需针对高级 AI 代理潜在的网络攻击向量制定防御策略，行业合规要求将进一步收紧。",
+    "tags": [
+      "News",
+      "Security",
+      "Finance"
+    ],
+    "link": "https://www.cnbc.com/2026/04/10/powell-bessent-us-bank-ceos-anthropic-mythos-ai-cyber.html",
+    "date": "2026-04-12",
+    "id": "17759716077710"
+  },
+  {
+    "title": "Gary Marcus 评 Claude Code 为 LLM 后最大技术突破",
+    "summary": "指出 Claude Code 采用神经符号混合架构而非纯深度学习。",
+    "detail": "著名学者 Gary Marcus 发文称 Claude Code 是自 LLM 以来最大进展。其核心并非纯深度学习，而是包含 3000 行确定性符号内核 print.ts，采用经典 IF-THEN 逻辑。这验证了神经符号混合架构的潜力，表明纯概率模型在关键任务中需符号逻辑补充，为 AI 可靠性提供新方向。",
+    "tags": [
+      "News",
+      "LLM",
+      "Architecture"
+    ],
+    "link": "https://garymarcus.substack.com/p/the-biggest-advance-in-ai-since-the",
+    "date": "2026-04-12",
+    "id": "17759716077711"
+  },
+  {
+    "title": "基于 Incus 的 AI 编码代理安全容器运行时",
+    "summary": "提供硬化容器以安全运行自主编码代理并隔离凭证。",
+    "detail": "开源项目 code-on-incus 推出针对 AI 编码代理的安全容器运行时。基于 Incus 实现实时网络威胁检测、自动响应（暂停/终止）及凭证隔离。解决了 AI 代理自主执行代码时的安全风险，为本地化部署高权限 AI 代理提供了企业级安全基线，适合对安全性敏感的開發场景。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://github.com/mensfeld/code-on-incus",
+    "date": "2026-04-12",
+    "id": "17759716077712"
+  },
+  {
+    "title": "AI 知识检索、记忆与 RAG 系统全景参考目录",
+    "summary": "映射 100+ 项目的 AI 知识系统架构与生物记忆功能。",
+    "detail": "GitHub 发布 AI 知识系统目录，涵盖向量库、图谱 RAG 及记忆管理。将 100+ 碎片化项目映射到生物记忆功能（如关联、叙事、遗忘）。为开发者评估本地优先架构提供硬件兼容性参考，帮助理清技术栈边界，是构建企业级 AI 记忆基础设施的重要选型指南。",
+    "tags": [
+      "Dev",
+      "RAG",
+      "Memory"
+    ],
+    "link": "https://github.com/machinarii/ai-knowledge-systems-catalog",
+    "date": "2026-04-12",
+    "id": "17759716077713"
+  },
+  {
+    "title": "Mac Studio M3 运行本地 600B 模型半年实测报告",
+    "summary": "验证 512GB 内存 Mac Studio 运行前沿本地模型的可行性。",
+    "detail": "开发者分享使用 512GB 内存 Mac Studio M3 运行 6000 亿参数本地模型的半年实测。克服了 Apple Silicon 提示处理慢的瓶颈，实现了可用速度的前沿模型本地推理。证明高性能本地 AI 工作站的可行性，为隐私敏感场景下的私有化部署提供了硬件选型参考与优化路径。",
+    "tags": [
+      "Dev",
+      "Hardware",
+      "LocalAI"
+    ],
+    "link": "https://spicyneuron.substack.com/p/a-mac-studio-for-local-ai-6-months",
+    "date": "2026-04-12",
+    "id": "17759716077714"
+  },
+  {
     "title": "前沿模型在金融任务中表现不佳",
     "summary": "Mercor 测试发现 GPT-5.4 等模型在处理图表和计算时准确率大幅下降。",
     "detail": "Mercor 对前沿 AI 模型进行了压力测试，使用真实的金融文档如收益报告和投资者演示文稿。结果显示，当输入包含图表、图像等多模态内容时，GPT-5.4、Gemini 3.1 Pro 和 Claude Opus 4.6 的表现显著下降。主要失败模式包括误读密集视觉文档中的数值，以及即使输入正确也应用错误的金融运算。这表明基准测试与实际工作场景存在巨大差距，金融分析师被 AI 取代的担忧可能为时过早。该研究构建了 25 个基于真实金融文档的任务，提示企业在部署 AI 进行财务分析时需保持谨慎，不能过度依赖自动化结果，人工审核依然至关重要。",
@@ -1233,70 +1298,5 @@
     "link": "https://elicit.com/blog/situational-awareness-april-2026",
     "date": "2026-04-10",
     "id": "17758608691762"
-  },
-  {
-    "title": "Mycelium：引导 AI Agent 先验证问题再写代码",
-    "summary": "开源产品思维伙伴，集成 42+ 框架防止盲目开发。",
-    "detail": "Mycelium 是专为 AI 编码代理设计的产品思维伙伴，基于 42+ 产品框架和 12 个理论门控。它强制 Agent 在编码前进行结构化发现与策略验证，避免盲目构建。支持 Claude Code 集成，通过 `/interview` 命令引导目的、愿景及用户分析。已在早期测试中成功促使项目战略转型，防止无效代码交付。该工具填补了规范驱动工具在“是否应该构建”层面的空白，确保资源投入正确方向。适用于软件、课程及 AI 工具开发，提升产品成功率。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Agent"
-    ],
-    "link": "https://github.com/haabe/mycelium",
-    "date": "2026-04-10",
-    "id": "17758608691763"
-  },
-  {
-    "title": "专家预测：2030 年 AI 对宏观经济影响有限",
-    "summary": "经济学家认为 GDP 等指标将保持历史趋势，除非极端情况。",
-    "detail": "最新政策备忘录汇总了 69 位经济学家及 52 位 AI 专家的预测。多数认为到 2030 年，尽管 AI 能力显著增强，但 GDP、生产力等关键指标将接近历史趋势。仅 14% 概率出现极速进展场景，可能导致财富不平等加剧及劳动力参与率下降。专家支持通过再培训应对潜在冲击，显示主流经济学界对 AI 经济影响持谨慎态度。报告强调需系统性理解专家观点，为政策制定提供依据，避免过度恐慌或盲目乐观。公共预测则更为分歧，显示认知差距。",
-    "tags": [
-      "News",
-      "Policy",
-      "Economy"
-    ],
-    "link": "https://static1.squarespace.com/static/635693acf15a3e2a14a56a4a/t/69cbba59b05ebc79a39c27a4/1774959208313/forecasting-the-economic-effects-of-ai-policy-memo.pdf",
-    "date": "2026-04-10",
-    "id": "17758608691764"
-  },
-  {
-    "title": "经济学人：AI 模型或成为数学家通用语言",
-    "summary": "AI 有望消除数学符号差异，促进跨领域协作。",
-    "detail": "《经济学人》报道指出，AI 模型可能为数学家提供通用语言，消除不同分支间的符号障碍。通过翻译和标准化数学概念，AI 能促进跨领域协作与知识共享。这一应用展示了 AI 在基础科学领域的潜力，不仅限于代码生成，更在于加速人类高深知识的流通与验证，为科研合作提供新范式。数学界长期受限于符号差异，AI 有望成为桥梁，推动跨学科创新与理论突破。这将显著提升科研效率，减少沟通成本。",
-    "tags": [
-      "News",
-      "Science",
-      "LLM"
-    ],
-    "link": "https://economist.com/science-and-technology/2026/04/08/ai-models-could-offer-mathematicians-a-common-language",
-    "date": "2026-04-10",
-    "id": "17758608691765"
-  },
-  {
-    "title": "AI 数据中心遭遇强烈抵制，暴力事件引发行业担忧",
-    "summary": "印第安纳州议员家遭枪击，民众对 AI 基础设施负面情绪上升。",
-    "detail": "随着 AI 模型对算力需求激增，数据中心建设面临公众强烈反对。印第安纳州议员因支持数据中心遭枪击，门前留字条“不要数据中心”，凸显矛盾激化。Pew 研究显示多数美国人认为数据中心对生活质量和环境有负面影响，仅 6% 持正面看法。AI 开发者陷入两难：需扩建基础设施以改进模型，但公众支持率却在侵蚀。这标志着 AI 基础设施扩张进入高风险社会博弈阶段，可能影响未来算力布局策略。行业需重新评估社区沟通与环保措施，否则物理设施风险将成为制约 AI 发展的关键瓶颈。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Society"
-    ],
-    "link": "https://www.bigtechnology.com/p/the-ai-data-center-backlash-is-now",
-    "date": "2026-04-10",
-    "id": "17758572837660"
-  },
-  {
-    "title": "DISCO 模型问世，AI 从头设计自然界未有的酶",
-    "summary": "多模态生成模型同时设计蛋白序列与 3D 结构，创造新酶。",
-    "detail": "DISCO 是一种多模态生成模型，能够从零开始同时设计蛋白质序列和 3D 结构，创造出生物学上无前例的新酶以进行化学反应。该研究由 Caltech、Mila 等顶尖机构合作，代码与论文已开源。标志着 AI 在生物科学领域的生成能力从预测走向全新设计，有望加速药物研发与生物制造。团队展示了围绕分子靶点生成蛋白序列和结构的能力，突破了自然界现有酶的限制。这对于合成生物学和新型疗法开发具有里程碑意义，证明了生成式 AI 在科学发现中的深层潜力。此模型不仅预测结构，还能发明自然界从未想象过的酶，相关成果将推动生物技术在工业与医疗领域的落地应用。",
-    "tags": [
-      "Dev",
-      "BioTech",
-      "Generative Model"
-    ],
-    "link": "https://disco-design.github.io/",
-    "date": "2026-04-10",
-    "id": "17758572837661"
   }
 ]
