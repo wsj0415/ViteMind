@@ -1,5 +1,83 @@
 [
   {
+    "title": "Meta 推出 AI 版扎克伯格与员工互动",
+    "summary": "Meta 内部部署 AI 数字员工，提升沟通效率。",
+    "detail": "Meta 公司最新内部举措，创建了 CEO 马克·扎克伯格的 AI 版本，专门用于与员工进行日常互动。这一应用展示了大型科技企业如何将生成式 AI 深度融入企业内部管理与文化建设中，试图解决高层与基层沟通效率问题。虽然目前仅限内部使用，但标志着数字分身技术在企业级应用中的进一步落地，可能引发关于 AI 伦理、身份真实性及管理边界的行业讨论，为其他企业提供参考，显示 AI 代理正从外部服务转向内部管理。",
+    "tags": [
+      "News",
+      "Meta",
+      "AI Agent"
+    ],
+    "link": "https://arstechnica.com/ai/2026/04/meta-spins-up-ai-version-of-mark-zuckerberg-to-engage-with-employees/",
+    "date": "2026-04-13",
+    "id": "17760969738220"
+  },
+  {
+    "title": "Linux 社区规范 AI 代码使用责任",
+    "summary": "允许使用 Copilot，但人类需承担全部责任。",
+    "detail": "Linux 社区发布关于 AI 生成代码的使用规则，明确开发者可以使用 GitHub Copilot 等工具辅助编程，但人类必须对贡献的代码承担完全责任。这一政策平衡了效率提升与代码质量管控，为开源社区接纳 AI 工具设立了标杆，强调了人在回路的重要性，影响未来开源项目的合规性标准，防止低质量 AI 代码污染内核，确保系统稳定性与安全性，是开源界对 AI 浪潮的重要回应，确立责任归属。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Policy"
+    ],
+    "link": "https://www.techradar.com/pro/linux-rules-on-using-ai-generated-code-copilot-is-ok-but-humans-must-take-full-responsibility-for-the-contribution",
+    "date": "2026-04-13",
+    "id": "17760969738221"
+  },
+  {
+    "title": "Gen-Searcher 开源：搜索后再绘图",
+    "summary": "解决图像生成过时问题，先搜索再生成。",
+    "detail": "新项目 Gen-Searcher 开源，创新性地采用“先搜索后生成”架构。该模型在生成图像前会先搜索网络获取最新视觉参考，解决了传统扩散模型训练数据冻结导致的信息滞后问题。代码与权重已托管于 Hugging Face，为需要实时信息准确性的图像生成场景提供了新的技术路径，适合新闻配图等应用，降低幻觉风险，展示了多模态代理与搜索技术结合的最新进展，具有较高技术参考价值。",
+    "tags": [
+      "New",
+      "Image Generation",
+      "Open Source"
+    ],
+    "link": "https://firethering.com/gen-searcher-open-source-image-generation/",
+    "date": "2026-04-13",
+    "id": "17760969738222"
+  },
+  {
+    "title": "Monzo 创始人：五年内所得税将消亡",
+    "summary": "AI 引发就业危机，税制面临重大变革。",
+    "detail": "Monzo 银行创始人预测，随着 AI 导致的就业危机加剧，所得税将在五年内消亡。这一观点揭示了 AI 技术对宏观经济结构的潜在冲击。若大量工作岗位被自动化取代，传统基于劳动收入的税收体系将难以为继，迫使政府探索新的税收模式，如机器人税或数据税，以应对社会财富分配挑战，引发政策制定者关注，预示未来社会经济制度将面临重大重构与调整，影响深远。",
+    "tags": [
+      "News",
+      "Economy",
+      "AI Impact"
+    ],
+    "link": "https://www.lbc.co.uk/article/income-tax-dead-five-years-ai-jobs-crisis-5HjdXdg_2/",
+    "date": "2026-04-13",
+    "id": "17760969738223"
+  },
+  {
+    "title": "工程视角：AI 改变构建方式而非核心",
+    "summary": "编码成本降低，但系统可靠性要求不变。",
+    "detail": "资深工程师指出，AI 虽大幅降低了代码实现成本，缩短了开发周期，但并未改变系统可靠性的核心要求。对于生产级服务，理解系统行为、故障模式及负载表现依然关键。文章强调不能因 AI 生成代码而忽视审查，特别是在高负载或非理想条件下，人类对系统逻辑的掌控力仍是生产就绪的必要条件，警示盲目信任 AI，重申工程基本原则在智能时代依然不可动摇，值得开发者深思。",
+    "tags": [
+      "Dev",
+      "Engineering",
+      "Best Practices"
+    ],
+    "link": "https://piljoong.dev/posts/ai-changed-how-we-build/",
+    "date": "2026-04-13",
+    "id": "17760969738224"
+  },
+  {
+    "title": "Nexus 开源代理：从任务中持续学习",
+    "summary": "双进程架构，自我托管，成本随时间降低。",
+    "detail": "GitHub 新项目 Nexus 推出自主 AI 代理，采用受认知科学启发的双进程架构。该代理支持自我托管及多种 LLM 提供商，特点是能从每个任务中学习，随时间推移提升性能并降低成本。基于 Bun 和 TypeScript 构建，为开发者提供了构建可进化 AI 代理的新框架，适合需要长期运行且优化成本的自动化场景，完全开源免费，降低了构建持久性智能代理的技术门槛，促进代理技术发展。",
+    "tags": [
+      "Dev",
+      "AI Agent",
+      "Open Source"
+    ],
+    "link": "https://github.com/prathyushnallamothu/nexus",
+    "date": "2026-04-13",
+    "id": "17760969738225"
+  },
+  {
     "title": "Meta 内部测试扎克伯格 AI 分身替代会议",
     "summary": "Meta 构建 CEO 数字克隆体与员工互动，引发自动化领导力伦理讨论。",
     "detail": "据报道，Meta 正在开发马克·扎克伯格的 AI 版本，旨在与员工互动甚至替代部分会议。此举展示了数字分身技术在企业协作中的前沿应用，可能显著改变高层管理者的时间分配方式。该技术基于大语言模型训练，能够模拟创始人的沟通风格与决策逻辑。然而，这也引发了关于领导力真实性、隐私以及 AI 在决策中角色的深层伦理讨论。标志着企业级 AI 代理进入新阶段，未来或将成为高管标配工具，重新定义人机协作边界。",
@@ -1220,83 +1298,5 @@
     "link": "https://dheer.co/only-moat-ai-cant-kill/",
     "date": "2026-04-11",
     "id": "17760049392660"
-  },
-  {
-    "title": "如何在沙盒中原生运行 AI 代理指南",
-    "summary": "开发者指南介绍如何在不使用 Vagrant 的情况下原生沙盒化 AI 代理。",
-    "detail": "文章探讨了运行 AI 代理的安全沙盒方案，对比了 Docker 和 microVM 工具。作者建议利用 Nix 等工具复用现有开发环境，避免重复配置。通过原生沙盒化，代理可安全执行测试和文件修改，为开发者提供了更安全、高效的 AI 代理部署实践思路。指南详细说明了如何在无需 Vagrant 的情况下实现隔离，确保代理在更改文件时能运行单元测试而不危害主机系统，提升了开发流程的安全性与便捷性。此外，该方法还支持多种语言项目的测试验证，如 Python pytest 或 Go test，增强了代理工作的可靠性。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://oligot.be/posts/ai-sandbox/",
-    "date": "2026-04-11",
-    "id": "17759905455082"
-  },
-  {
-    "title": "深入解析 Tinygrad AI 编译器架构",
-    "summary": "无第三方依赖的深度学习框架，支持多后端高性能编译。",
-    "detail": "文章深度剖析 Tinygrad 深度学习框架，其核心编译器几乎无外部依赖，降低供应链攻击风险。支持 Nvidia、AMD、Apple Metal 等多种后端架构，注重性能与简洁性。相比 TVM 或 XLA，Tinygrad 更易黑客化修改，适合自定义 AI 加速器优化。George Hotz  pitch 其能为定制架构提供优于内部构建的性能。为开发者提供高性能代码生成方案，是理解现代 AI 编译器架构的重要案例。Tinygrad 拥有自动微分引擎，针对多种后端架构目标，包括移动端及汽车集成显卡。核心编译器无真实依赖，仅测试需 Python 包，这意味着发现 bug 可直接修复，几乎无供应链攻击风险，是少数能吹嘘此 feat 的项目。",
-    "tags": [
-      "Dev",
-      "Compiler",
-      "Deep Learning"
-    ],
-    "link": "https://tinyblog-phi.vercel.app/tinygrad",
-    "date": "2026-04-11",
-    "id": "17759873715533"
-  },
-  {
-    "title": "1000 个 AI 数字双胞胎模拟匈牙利大选",
-    "summary": "Populon 利用 1000 个 AI 选民数字双胞胎预测匈牙利选举结果。",
-    "detail": "Populon.ai 在匈牙利大选前运行了 1000 个合成选民数字双胞胎的模拟。这些 AI 拥有各自的生活故事和价值观，阅读了 14 个渠道的 1812 个真实新闻标题。模拟结果显示反对党 Tisza 可能以 15.1 个百分点的优势获胜，这将是 2010 年以来最大的政治转变。356 名选民在竞选期间改变了主意，主要源于经济焦虑而非文化战争。该项目展示了 AI 在社会科学和政治预测中的新兴应用能力，为理解选民行为提供了新的数据视角，技术介入政治预测引发伦理讨论。",
-    "tags": [
-      "News",
-      "Simulation",
-      "Politics"
-    ],
-    "link": "https://hungary2026.populon.ai",
-    "date": "2026-04-11",
-    "id": "17759618270935"
-  },
-  {
-    "title": "Populon 利用 AI 数字双胞胎模拟匈牙利大选",
-    "summary": "Populon 模拟 1000 名 AI 选民，预测反对党大胜，揭示经济焦虑是关键转向因素。",
-    "detail": "Populon.ai 通过构建 1000 个具有背景故事的 AI 选民数字双胞胎，摄入 90 天真实新闻进行模拟。结果显示反对党 Tisza 将以 15 分优势获胜，主要驱动力为经济焦虑与医疗腐败，而非文化战争。此案例展示了 AI 在社会科学研究及政治预测中的新兴应用能力，为选举分析提供新视角。相比传统民调，AI 模拟能更细致地追踪选民心态变化路径，揭示特定事件对投票行为的动态影响，具有极高的方法论创新价值。",
-    "tags": [
-      "News",
-      "AI Simulation",
-      "Politics"
-    ],
-    "link": "https://hungary2026.populon.ai/",
-    "date": "2026-04-11",
-    "id": "17759507087680"
-  },
-  {
-    "title": "经济学家预测：AI 对宏观经济影响将低于预期",
-    "summary": "多项研究显示，尽管 AI 能力提升，但 2030 年前 GDP 与生产力仍将保持历史趋势。",
-    "detail": "预测研究所联合多家高校调查了 69 位经济学家及专家。共识认为 2030 年 AI 能力将显著超越当前，但美国 GDP、全要素生产率等关键指标将接近历史趋势，仅 14% 概率出现极速进展。这表明学界对 AI 短期经济颠覆性持谨慎态度，提示政策制定者需平衡预期与实际产出，避免过度炒作带来的资源错配风险。研究还开发了工具供公众对比自身预测与专家观点，促进对 AI 经济影响的理性讨论与认知校准。",
-    "tags": [
-      "News",
-      "Economics",
-      "Research"
-    ],
-    "link": "https://forecastingresearch.substack.com/p/forecasting-the-economic-effects-of-ai",
-    "date": "2026-04-11",
-    "id": "17759507087681"
-  },
-  {
-    "title": "胡佛研究所警告：AI 将考验政府就业与信任政策",
-    "summary": "胡佛研究所小组警告，AI 将在就业培训及公共信任方面对各国政府构成严峻测试。",
-    "detail": "斯坦福大学胡佛研究所发布警告，指出 AI 技术扩散将对政府治理能力提出挑战，特别是在就业结构调整、技能培训体系及维护公众信任方面。政策制定者需提前布局以应对潜在的社会动荡与治理危机。报告强调，若政府无法有效管理 AI 带来的劳动力市场冲击，可能导致公众信任度下降，进而影响民主治理的稳定性，呼吁跨部门合作制定适应性政策。",
-    "tags": [
-      "News",
-      "Policy",
-      "Government"
-    ],
-    "link": "https://www.hoover.org/news/ai-will-test-governments-jobs-training-and-public-trust-hoover-panels-warn",
-    "date": "2026-04-11",
-    "id": "17759507087682"
   }
 ]
