@@ -1,5 +1,83 @@
 [
   {
+    "title": "谷歌 AI 采用率被指与传统车企相当",
+    "summary": "Steve Yegge 爆料谷歌内部 AI 采用率低迷，与拖拉机公司相当。",
+    "detail": "前谷歌员工 Steve Yegge 披露，谷歌工程团队的 AI 采用曲线与传统拖拉机公司 John Deere 相似。受招聘冻结影响，内部缺乏外部视角，且因无法使用 Claude Code 而依赖表现不佳的 Gemini，导致代理编码未能普及。大部分员工仍在使用基础聊天工具，仅 20% 为代理用户。这反映了大厂内部创新的困境，即便拥有顶尖模型，组织惯性仍阻碍技术落地。行业普遍存在类似采用曲线，但谷歌因封闭生态显得更为滞后，可能影响其长期竞争力。此外，内部招聘冻结导致缺乏新鲜血液输入，使得团队对自身落后状态毫无察觉。这种“温水煮青蛙”的现象在大型科技公司中尤为危险，可能导致在未来 AI 原生应用竞争中失去先机。",
+    "tags": [
+      "News",
+      "Google",
+      "Enterprise"
+    ],
+    "link": "https://twitter.com/i/status/2043747998740689171",
+    "date": "2026-04-13",
+    "id": "17761109096430"
+  },
+  {
+    "title": "扎克伯格打造 AI 分身与员工沟通",
+    "summary": "Meta 训练扎克伯格 AI 克隆体用于内部反馈。",
+    "detail": "据 Financial Times 报道，Meta 正在训练基于 CEO 形象、声音及思维的 AI 角色，用于与员工互动并提供反馈。此举旨在扩大高管影响力，但也引发关于真实性与管理的伦理讨论，显示 AI 数字分身正进入企业管理核心。扎克伯格认为自身沟通风格过于机械，希望通过 AI 优化互动体验。这标志着企业领导层开始利用 AI 进行规模化沟通，未来可能成为高管标配。然而，员工是否接受“虚拟老板”仍是未知数，这可能改变公司内部权力结构与沟通方式。该案例展示了 AI 在人力资源与管理层面的深度应用，预示着数字分身技术将从客服场景向核心管理层渗透。",
+    "tags": [
+      "News",
+      "Meta",
+      "Digital Human"
+    ],
+    "link": "https://www.motherjones.com/politics/2026/04/zuckerberg-ai-meta-metaverse-employees/",
+    "date": "2026-04-13",
+    "id": "17761109096431"
+  },
+  {
+    "title": "网络安全巨头收购银行用于 AI 改造",
+    "summary": "Palo Alto 创始人同意收购加州银行以整合 AI。",
+    "detail": "华尔街日报独家报道，Palo Alto Networks 创始人同意收购一家加州银行，计划对其进行 AI 重塑。这标志着网络安全资本正式跨界金融科技，试图通过 AI 重构传统银行业务流程，是 AI 垂直整合的重要案例。收购方希望将安全技术与银行业务深度结合，利用 AI 提升风控与运营效率。此举可能引发科技巨头收购传统金融机构的浪潮，加速金融行业智能化转型。对于投资者而言，这是观察 AI 落地传统行业价值的重要风向标，显示资本正寻求更深层次的产业整合。交易细节尚未完全披露，但明确指向利用 AI 技术彻底改造银行底层架构。",
+    "tags": [
+      "News",
+      "Finance",
+      "M&A"
+    ],
+    "link": "https://www.wsj.com/business/deals/palo-alto-networks-founder-agrees-to-buy-california-bank-for-ai-revamp-86c89d9a",
+    "date": "2026-04-13",
+    "id": "17761109096432"
+  },
+  {
+    "title": "Ramp 公司 AI 采用率增长 6300% 的秘密",
+    "summary": "金融科技公司分享全员 AI 化实战 playbook。",
+    "detail": "Ramp CTO 分享公司 AI 战略，使用率同比增长 6300%，84% 员工每周使用编码代理。通过内部 Agent\"Glass\"、黑客松及无限预算激励，非工程师贡献了 12% 的 PR。证明了文化而非计划是驱动企业 AI 转型的关键。公司未设定详细计划，而是通过奖励机制鼓励探索，最终实现复合增长。这种自下而上的创新模式值得借鉴，表明赋予员工工具与自由度比强制推行更有效。Ramp 的成功案例为其他企业提供了可复制的 AI 组织转型路径，强调 velocity 文化的重要性。内部平台六周内上线 1500+ 应用，展示了高执行力。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Strategy"
+    ],
+    "link": "https://twitter.com/geoffintech/status/2042002590758572377",
+    "date": "2026-04-13",
+    "id": "17761109096433"
+  },
+  {
+    "title": "600 美元 Mac Mini 成功运行 35B 本地模型",
+    "summary": "16GB 内存运行 35B 模型，Gemma 4 表现优异。",
+    "detail": "开发者实测在 16GB 内存的 M4 Mac Mini 上运行 35B 参数模型，速度达 17 tokens/s。Google 发布的 Gemma 4 模型进一步优化了分类速度。证明了消费级硬件运行大模型的可行性，为本地 AI 代理部署提供了新方案。此前普遍认为需要 32GB 内存，此次突破降低了本地部署门槛。模型路由策略与交换优化是关键技术点，使得低成本硬件也能承担复杂任务。这对于隐私敏感型应用及边缘计算场景具有重大意义，预示着本地 AI 生态将迎来硬件平民化趋势。测试者已将生产环境迁移至该配置，验证了稳定性。",
+    "tags": [
+      "Dev",
+      "Local LLM",
+      "Hardware"
+    ],
+    "link": "https://thoughts.jock.pl/p/local-llm-35b-mac-mini-gemma-swap-production-2026",
+    "date": "2026-04-13",
+    "id": "17761109096434"
+  },
+  {
+    "title": "Sentō 开源工具实现 Claude 代理一键部署",
+    "summary": "基于 Claude Code 的自改进 AI 代理开源项目。",
+    "detail": "新开源项目 Sentō 允许用户在 Claude 订阅上运行 24/7 自改进 AI 代理，支持 Discord、Slack 等平台。仅需一行命令即可设置，降低了智能体开发门槛，是继 Claude Code 后生态工具链的重要补充。项目旨在利用现有订阅资源实现代理自动化，无需额外服务器成本。支持多平台集成使其具备高灵活性，适合个人开发者及小团队快速构建工作流。随着 Agent 经济兴起，此类工具将加速 AI 代理在日常任务中的普及，推动从聊天机器人向自主执行任务的转变。代码托管于 GitHub，社区反馈积极。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Agent"
+    ],
+    "link": "https://github.com/sentoagent/sento",
+    "date": "2026-04-13",
+    "id": "17761109096435"
+  },
+  {
     "title": "Vercel CEO 暗示 IPO 准备就绪，AI 代理推动收入激增",
     "summary": "Vercel CEO 表示公司已准备好 IPO，AI 代理业务成为收入增长核心驱动力。",
     "detail": "**背景**：Vercel 首席执行官 Guillermo Rauch 在 2026 年严格 VC 活动前夕信号表明，公司已完成 IPO 准备。\n**核心动态**：随着 AI 代理技术的普及，Vercel 的平台收入显著增长。\n**行业影响**：这标志着前端云服务平台在 AI 时代的商业化成功，可能引发开发者基础设施领域的上市浪潮，显示资本市场对 AI 驱动型开发平台的信心增强。对于开发者而言，这意味着更稳定的平台支持和更丰富的 AI 集成工具链，进一步巩固其在现代 Web 开发中的核心地位。",
@@ -1220,83 +1298,5 @@
     "link": "https://garymarcus.substack.com/p/the-biggest-advance-in-ai-since-the",
     "date": "2026-04-12",
     "id": "17759716077711"
-  },
-  {
-    "title": "基于 Incus 的 AI 编码代理安全容器运行时",
-    "summary": "提供硬化容器以安全运行自主编码代理并隔离凭证。",
-    "detail": "开源项目 code-on-incus 推出针对 AI 编码代理的安全容器运行时。基于 Incus 实现实时网络威胁检测、自动响应（暂停/终止）及凭证隔离。解决了 AI 代理自主执行代码时的安全风险，为本地化部署高权限 AI 代理提供了企业级安全基线，适合对安全性敏感的開發场景。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://github.com/mensfeld/code-on-incus",
-    "date": "2026-04-12",
-    "id": "17759716077712"
-  },
-  {
-    "title": "AI 知识检索、记忆与 RAG 系统全景参考目录",
-    "summary": "映射 100+ 项目的 AI 知识系统架构与生物记忆功能。",
-    "detail": "GitHub 发布 AI 知识系统目录，涵盖向量库、图谱 RAG 及记忆管理。将 100+ 碎片化项目映射到生物记忆功能（如关联、叙事、遗忘）。为开发者评估本地优先架构提供硬件兼容性参考，帮助理清技术栈边界，是构建企业级 AI 记忆基础设施的重要选型指南。",
-    "tags": [
-      "Dev",
-      "RAG",
-      "Memory"
-    ],
-    "link": "https://github.com/machinarii/ai-knowledge-systems-catalog",
-    "date": "2026-04-12",
-    "id": "17759716077713"
-  },
-  {
-    "title": "Mac Studio M3 运行本地 600B 模型半年实测报告",
-    "summary": "验证 512GB 内存 Mac Studio 运行前沿本地模型的可行性。",
-    "detail": "开发者分享使用 512GB 内存 Mac Studio M3 运行 6000 亿参数本地模型的半年实测。克服了 Apple Silicon 提示处理慢的瓶颈，实现了可用速度的前沿模型本地推理。证明高性能本地 AI 工作站的可行性，为隐私敏感场景下的私有化部署提供了硬件选型参考与优化路径。",
-    "tags": [
-      "Dev",
-      "Hardware",
-      "LocalAI"
-    ],
-    "link": "https://spicyneuron.substack.com/p/a-mac-studio-for-local-ai-6-months",
-    "date": "2026-04-12",
-    "id": "17759716077714"
-  },
-  {
-    "title": "前沿模型在金融任务中表现不佳",
-    "summary": "Mercor 测试发现 GPT-5.4 等模型在处理图表和计算时准确率大幅下降。",
-    "detail": "Mercor 对前沿 AI 模型进行了压力测试，使用真实的金融文档如收益报告和投资者演示文稿。结果显示，当输入包含图表、图像等多模态内容时，GPT-5.4、Gemini 3.1 Pro 和 Claude Opus 4.6 的表现显著下降。主要失败模式包括误读密集视觉文档中的数值，以及即使输入正确也应用错误的金融运算。这表明基准测试与实际工作场景存在巨大差距，金融分析师被 AI 取代的担忧可能为时过早。该研究构建了 25 个基于真实金融文档的任务，提示企业在部署 AI 进行财务分析时需保持谨慎，不能过度依赖自动化结果，人工审核依然至关重要。",
-    "tags": [
-      "News",
-      "LLM",
-      "Finance"
-    ],
-    "link": "https://www.mercor.com/blog/Finance-tasks-ai-failures-modes/",
-    "date": "2026-04-12",
-    "id": "17759618270930"
-  },
-  {
-    "title": "AI 模型足球预测能力遭质疑",
-    "summary": "Ars Technica 报道指出 AI 模型尤其是 Grok 在足球博彩预测上表现糟糕。",
-    "detail": "Ars Technica 发表文章测试了多个 AI 模型在体育博彩领域的表现，结果显示普遍较差，其中 xAI 的 Grok 模型表现尤为糟糕。尽管具体技术细节未完全披露，但该测试揭示了当前大模型在概率预测和实时动态事件分析上的局限性。这一发现对于试图将 AI 应用于高风险决策场景的开发者具有重要警示意义，表明模型在特定垂直领域的可靠性仍需验证。此外，这也引发了关于 AI 幻觉在预测类任务中潜在风险的讨论，建议用户在依赖 AI 进行投资决策前进行独立核实，避免盲目信任模型输出。",
-    "tags": [
-      "News",
-      "LLM",
-      "xAI"
-    ],
-    "link": "https://arstechnica.com/ai/2026/04/ai-models-are-terrible-at-betting-on-soccer-especially-xai-grok/",
-    "date": "2026-04-12",
-    "id": "17759618270931"
-  },
-  {
-    "title": "递归模式：AI 工程的新操作系统",
-    "summary": "推出基于仓库的 AI 工程工作流，将代理状态存入锁定 Markdown 文件。",
-    "detail": "`recursive-mode` 提出了一种以文档为中心的工作流，旨在解决 AI 代理工程中的状态管理问题。它将系统记录从聊天记录移至可检查、可重放的仓库文件中，并通过严格的审计循环确保人类可监督。其核心创新在于治理而非自动化，利用内容哈希使代理输出更像受控工程记录。这种方法优化了跨小时、文件和模型交接的复杂任务，避免了聊天历史作为状态数据库的混乱，为 AI 工程提供了更可信的记录系统，适合需要严格合规和审计的企业级应用，标志着 AI 工程向规范化迈进。",
-    "tags": [
-      "Dev",
-      "Engineering",
-      "Agent"
-    ],
-    "link": "https://repo-explainer.com/try-works/recursive-mode",
-    "date": "2026-04-12",
-    "id": "17759618270932"
   }
 ]
