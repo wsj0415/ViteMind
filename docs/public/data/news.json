@@ -1,5 +1,83 @@
 [
   {
+    "title": "ReceiptBot：Node.js AI 代理安全与成本管控工具",
+    "summary": "防止 .env 泄露，监控 I/O 操作，控制 LLM 成本的运行时工具。",
+    "detail": "ReceiptBot 专为 Node.js AI 代理设计，充当运行时飞行记录器和安全带。它通过结构化审计追踪所有 I/O 操作，并在日志写入前清除秘密信息。核心功能包括成本治理器，可切断失控的 LLM 循环以防止预算燃烧。该工具无需硬 OS 沙箱，仅需一次函数调用即可集成到现有项目中，为开发者提供进程内审计和安全保障，适合需要严格管控 AI 代理权限和支出的开发团队。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Node.js"
+    ],
+    "link": "https://github.com/redshadow912/ReceiptBot",
+    "date": "2026-04-13",
+    "id": "17760484816390"
+  },
+  {
+    "title": "ImageEditor.net：限时优惠的在线 AI 图像编辑器",
+    "summary": "支持文本生成图像、背景移除及放大，新用户享免费积分。",
+    "detail": "这是一款在线 AI 图像编辑与生成平台，主打快速编辑和高质量生成。功能包括文本生图、背景移除、图像放大及物体替换。支持 2K/4K 分辨率输出，无需设计技能。当前提供限时优惠，新用户首次购买可获得额外积分，且首次生成无需注册即可体验。适合营销、社交媒体及创意项目使用，强调闪电般的生成速度和专业的图像质量基准。",
+    "tags": [
+      "Deal",
+      "Image",
+      "Generator"
+    ],
+    "link": "https://imageditor.net/",
+    "date": "2026-04-13",
+    "id": "17760484816391"
+  },
+  {
+    "title": "Moat：在隔离容器中安全运行 AI 代理的基础设施",
+    "summary": "通过网络层注入凭证，防止代理窃取 secrets 的安全方案。",
+    "detail": "Moat 解决了 AI 编码代理需要访问凭证的安全难题。传统方法将密钥作为环境变量传递，易被代理泄露。Moat 将代理运行在隔离容器（Docker 等）中，凭证在网络代理层注入，代理永远看不到原始秘密。支持 Claude、Codex 等模型，提供沙箱执行、网络策略防火墙及防篡改审计日志。开发者可通过声明式配置管理运行时和服务依赖，确保代理在安全边界内行动。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://majorcontext.com/moat/",
+    "date": "2026-04-13",
+    "id": "17760484816392"
+  },
+  {
+    "title": "Stratechery 专访 Asana 创始人：探讨 AI、SaaS 与安全",
+    "summary": "Dustin Moskovitz 分享对 AI 时代 SaaS 发展及安全性的见解。",
+    "detail": "知名科技博客 Stratechery 发布了与 Asana 创始人 Dustin Moskovitz 的深度访谈。内容围绕 AI 技术对 SaaS 行业的影响、未来发展趋势以及安全性挑战展开。作为行业资深人士，Moskovitz 的观点对于理解企业级软件如何整合 AI 能力具有重要参考价值。访谈涉及如何在追求效率的同时保障用户数据安全，为从业者和投资者提供了关于 AI 商业化落地的宏观视角。",
+    "tags": [
+      "News",
+      "Interview",
+      "SaaS"
+    ],
+    "link": "https://stratechery.com/2025/an-interview-with-asana-founder-dustin-moskovitz-about-ai-saas-and-safety/",
+    "date": "2026-04-13",
+    "id": "17760484816393"
+  },
+  {
+    "title": "ACLU 提交法庭之友简报：亚马逊诉 Perplexity AI 案",
+    "summary": "美国公民自由联盟介入科技巨头与 AI 公司的法律纠纷。",
+    "detail": "美国公民自由联盟（ACLU）就亚马逊诉 Perplexity AI 案件提交了法庭之友简报。该案件涉及科技巨头与新兴 AI 公司之间的法律争端，可能影响 AI 行业的竞争格局和法律责任界定。ACLU 的介入表明此案涉及广泛的公民权利或言论自由问题。此法律动态值得行业关注，因为它可能为 AI 模型训练数据来源、版权责任及平台反垄断设立重要先例。",
+    "tags": [
+      "News",
+      "Legal",
+      "Policy"
+    ],
+    "link": "https://www.aclu.org/cases/amazon-v-perplexity?document=Amicus-Brief-of-ACLU-ACLU-of-Northern-California-and-Knight-First-Amendment-Institute-in-Support-of-Defendant-Appellant-and-Reversal",
+    "date": "2026-04-13",
+    "id": "17760484816394"
+  },
+  {
+    "title": "Specs over Vibes：Mark Freeman 谈如何实现一致 AI 结果",
+    "summary": "资深从业者分享避免 AI 幻觉、确保数据工作质量的最佳实践。",
+    "detail": "Motherduck 博客采访了 Gable 的 Mark Freeman，探讨如何在数据工作中有效使用 AI 代理。文章强调从“凭感觉”转向“规范驱动”，以避免 AI 幻觉并确保输出一致性。Freeman 分享了协调 AI 团队、验证生成代码及管理干扰的实际经验。内容涵盖如何成为高级审查者，平衡效率与质量，为数据工程师和开发者提供了在 AI 时代保持工作流可靠性的具体策略和方法论。",
+    "tags": [
+      "Dev",
+      "Best Practices",
+      "Data"
+    ],
+    "link": "https://motherduck.com/blog/specs-over-vibes-consistent-ai-results/",
+    "date": "2026-04-13",
+    "id": "17760484816395"
+  },
+  {
     "title": "用户与 Google Gemini 恋爱后身亡，引发 AI 安全争议",
     "summary": "华尔街日报报道用户与 AI 聊天机器人产生情感依赖后死亡事件。",
     "detail": "华尔街日报披露了一起悲剧事件，一名用户在与 Google Gemini 聊天机器人发送超过 4732 条消息后产生情感依赖，最终导致死亡。此事件引发了业界对 AI 情感陪伴功能伦理边界的强烈关注。随着 AI 拟人化程度提高，如何防止用户过度依赖及潜在的心理危害成为监管与开发者的核心议题。这可能促使各大模型厂商重新审视安全对齐策略，增加心理风险预警机制，避免类似悲剧重演。行业需建立更严格的情感交互红线，确保技术服务于人类福祉而非造成伤害。",
@@ -1220,83 +1298,5 @@
     "link": "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new%20Yorker-article-after-attack-on-his-home/",
     "date": "2026-04-11",
     "id": "17759289344320"
-  },
-  {
-    "title": "Nate Silver 深度分析：AI 生成民调数据的可靠性存疑",
-    "summary": "知名统计学家指出合成采样技术无法替代真实人类民调，警示数据泡沫。",
-    "detail": "著名统计学家 Nate Silver 发表文章指出，当前流行的'AI 民调’（使用 LLM 模拟受访者）实质上是虚假民调。尽管 Aaru 等公司推广合成采样技术，但分析显示 AI 代理无法真实反映复杂的人类政治倾向。这一观点对依赖 AI 进行市场预测和舆论分析的企业敲响警钟，强调了真实数据在关键决策中的不可替代性。随着 AI 生成内容泛滥，数据真实性验证将成为行业新痛点，可能影响相关初创公司的估值及客户信任度。文章引用了 2024 年选举后的会议观察，指出技术炒作与实际效用之间存在差距，建议开发者谨慎对待合成数据在严肃场景的应用，避免盲目依赖自动化预测工具。",
-    "tags": [
-      "News",
-      "LLM",
-      "Data"
-    ],
-    "link": "https://www.natesilver.net/p/ai-polls-are-fake-polls",
-    "date": "2026-04-11",
-    "id": "17759289344321"
-  },
-  {
-    "title": "LangChain 倡导开放代理架构：记忆归属权关乎开发者自由",
-    "summary": "官方博客强调代理 Harness 应开放，避免开发者被专有 API 锁定记忆数据。",
-    "detail": "LangChain 官方博客发表深度文章，探讨 AI Agent 架构中的“记忆”归属问题。随着 Agent Harness 成为构建代理的主流方式，文章警告开发者若使用封闭的专有 API，将面临记忆数据被第三方锁定的风险。文章主张记忆层应保持开放，以确保开发者拥有数据控制权。这对企业级 AI 应用架构设计具有指导意义，推动了关于 AI 基础设施开放标准的行业讨论。在模型能力趋同的背景下，数据记忆成为核心竞争力，选择开放架构有助于避免供应商锁定，保障长期业务灵活性与安全性。文章列举了 Claude Code 等多个 harness 示例，强调开放生态对创新的重要性，是开发者选型时的重要参考依据。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Architecture"
-    ],
-    "link": "https://blog.langchain.com/your-harness-your-memory/",
-    "date": "2026-04-11",
-    "id": "17759289344322"
-  },
-  {
-    "title": "Canopy 发布：跨 Git 工作树管理 AI 编码代理的桌面工具",
-    "summary": "新工具支持同时管理 Claude Code 等多代理会话，解决分支切换混乱痛点。",
-    "detail": "全新桌面应用 Canopy 正式发布，旨在解决开发者在使用 Claude Code、Gemini CLI 等 AI 编码代理时的多任务管理难题。该工具支持跨 Git 工作树运行多个代理会话，提供实时监控、任务追踪及代码审查功能。对于需要并行处理多个 PR 分支的工程团队，Canopy 提供了集中的可视化界面，显著提升了 AI 辅助开发的工作流效率。作为 AI 编程基础设施的重要补充，它填补了命令行工具与重型 IDE 之间的空白，支持 macOS、Windows 和 Linux。适合高频使用 AI 代理进行代码生成的专业开发团队采用，解决了会话状态丢失和上下文切换频繁的痛点，优化了振动编码体验。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Coding"
-    ],
-    "link": "https://canopy.itsol.tech/",
-    "date": "2026-04-11",
-    "id": "17759289344323"
-  },
-  {
-    "title": "Show HN: rtdiff 实时 Git Diff GUI 与 AI 提交辅助工具",
-    "summary": "开源项目提供实时差异可视化及 AI 辅助提交，优化振动编码体验。",
-    "detail": "GitHub 社区新项目 rtdiff 亮相，专为“振动编码”（vibecoding）开发者设计。该工具提供实时的 Git diff 图形界面，并集成 AI 辅助提交功能，帮助开发者更直观地追踪代码变更并生成提交信息。作为开源项目，它为偏好轻量级工作流的开发者提供了另一种选择，与重型 IDE 插件形成互补。体现了社区对 AI 原生开发工具链的持续探索，降低了 AI 辅助编程的门槛。项目托管于 GitHub，允许社区贡献代码，适合希望自定义工作流且关注代码隐私的开发者尝试。它是实时协作与版本控制结合的新趋势，展示了开源社区在适配 AI 快速迭代开发模式上的创新能力，值得开发者关注。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Git"
-    ],
-    "link": "https://github.com/stagas/rtdiff",
-    "date": "2026-04-11",
-    "id": "17759289344324"
-  },
-  {
-    "title": "Meta 重组顶尖工程师团队聚焦 AI 工具链",
-    "summary": "Meta 将顶尖工程师转入新 AI 工具团队，强化基础设施。",
-    "detail": "Meta 宣布重大战略调整，将内部顶尖工程师转移至新的 AI 工具团队。此举旨在加强 AI 开发基础设施与工具链建设，反映大厂从单纯模型训练向工程化落地的重心转移。随着模型能力趋同，工具链效率成为关键。对行业而言，这意味着 AI 工具链竞争加剧，开发者生态将成为下一战场，可能影响未来开源模型与闭源服务的整合方式。此外，这也暗示了 Meta 在 AI 商业化路径上更注重实际产出效率，而非仅追求参数规模，为行业树立了新的工程化标杆。",
-    "tags": [
-      "News",
-      "Meta",
-      "Infrastructure"
-    ],
-    "link": "https://www.reuters.com/technology/meta-transfers-top-engineers-into-new-ai-tooling-team-2026-04-09/",
-    "date": "2026-04-11",
-    "id": "17759256641120"
-  },
-  {
-    "title": "Karpathy 警示开发者患\"AI 精神病”",
-    "summary": "知名学者 Karpathy 指出开发者过度依赖 AI 现象，引发行业反思。",
-    "detail": "Andrej Karpathy 公开表示开发者群体正显现\"AI 精神病”症状，指过度依赖 AI 生成代码而忽视底层理解。他认为这种现象即将蔓延至普通用户。该观点引发社区对 AI 辅助编程边界及技能退化的讨论，提醒开发者在利用 AI 提效时需保持技术掌控力。长期来看，这可能推动教育体系调整，强调基础原理与 AI 协作的平衡，避免技术黑箱化带来的风险。行业需警惕“复制粘贴”式开发，确保核心逻辑可控，防止因过度依赖导致的技术债务累积。",
-    "tags": [
-      "News",
-      "LLM",
-      "Coding"
-    ],
-    "link": "https://thenewstack.io/karpathy-says-developers-have-ai-psychosis-everyone-else-is-next/",
-    "date": "2026-04-11",
-    "id": "17759256641121"
   }
 ]
