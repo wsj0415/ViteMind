@@ -1,5 +1,96 @@
 [
   {
+    "title": "ILTY：拒绝“无脑安慰”的 AI 心理健康伴侣",
+    "summary": "针对焦虑与拖延症打造，不提供虚假赞美，主打真实反馈的心理健康 AI 应用。",
+    "detail": "由夫妻共同开发，旨在解决现有应用（如 Calm）像做作业或 ChatGPT 过度安慰的问题。ILTY 不提供无条件的自我肯定，而是针对用户的焦虑和拖延提供实际干预。这反映了 AI 心理健康领域从“陪伴”向“实效”的转变，满足特定心理需求用户的深层痛点。对于厌倦了传统冥想应用繁琐流程的用户，这种“不拍背”的设计提供了差异化的价值主张，可能开辟心理健康 AI 的新细分赛道，强调真实反馈而非情绪抚慰。这种反直觉的设计思路有望吸引那些寻求实质性改变而非暂时安慰的高价值用户群体。",
+    "tags": [
+      "New",
+      "Mental Health",
+      "App"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47771203",
+    "date": "2026-04-14",
+    "id": "17762002883510"
+  },
+  {
+    "title": "AI 代理介入嵌入式开发：实现硬件在环自动化",
+    "summary": "通过串口和继电器控制开发板，解决 AI 代理无法直接操作物理硬件的痛点。",
+    "detail": "文章探讨了如何让 AI 编码助手突破软件界限，直接参与嵌入式 Linux 开发。通过 USB 串口适配器和继电器板，AI 代理可读取控制台输出并控制目标板电源循环，实现构建 - 刷写 - 测试闭环。该项目基于 Luckfox Pico Ultra，展示了 AI 在硬件开发流程中的实际落地潜力。这种硬件在环（HIL）的自动化方案，解决了 AI 代理无法操作物理设备的瓶颈，为嵌入式系统开发提供了新的自动化范式，减少了人工迭代成本，显著提升了开发效率。",
+    "tags": [
+      "Dev",
+      "Embedded",
+      "Automation"
+    ],
+    "link": "https://www.electronicsconsult.com/blog/ai-assisted-hardware-in-the-loop-for-embedded-linux",
+    "date": "2026-04-14",
+    "id": "17762002883511"
+  },
+  {
+    "title": "AgentFM：将闲置 GPU 转化为去中心化 AI 超算网络",
+    "summary": "基于 Go 语言的 P2P 网络，利用全球闲置 CPU/GPU 资源运行大规模 AI 工作负载。",
+    "detail": "AgentFM 核心是一个单一的 Go 二进制文件，旨在构建去中心化 AI 超级计算机。它允许用户将空闲硬件接入全球网格，直接运行大型 AI 任务。这种模式挑战了集中式云算力垄断，为分布式计算提供了新的开源解决方案，支持 macOS、Linux 和 Windows 平台。通过点对点网络聚合闲置 GPU 和 CPU 资源，该项目试图降低 AI 训练和推理的门槛，为个人开发者提供低成本算力选择，具有潜在的颠覆性，可能改变算力分发格局。",
+    "tags": [
+      "New",
+      "Decentralized",
+      "GPU"
+    ],
+    "link": "https://github.com/Agent-FM/agentfm-core",
+    "date": "2026-04-14",
+    "id": "17762002883512"
+  },
+  {
+    "title": "理论分析：通用型 AI 无法无限扩展",
+    "summary": "Colin Percival 撰文指出通用 AI 面临计算复杂度瓶颈，建议转向专家 AI 池模式。",
+    "detail": "文章论证了训练规模 N 模型需要 O(N^2) 计算量，导致通用 AI 无法持续扩展。作者认为最终会面临数据枯竭和算力极限。解决方案是放弃单一通用模型，转而使用多个专家 AI 组成的池，每个模型专注于特定领域（如医学、艺术）。这对当前大模型 scaling law 提出了质疑，暗示行业可能从追求更大参数量的通用模型，转向更高效、更专业的模型组合架构，影响未来算力投资方向。这种观点挑战了当前主流的大模型扩展路径，为资源受限下的 AI 发展提供了新的理论依据和思考方向。",
+    "tags": [
+      "News",
+      "Theory",
+      "LLM"
+    ],
+    "link": "https://www.daemonology.net/blog/2024-04-06-Generalist-AI-doesnt-scale.html",
+    "date": "2026-04-14",
+    "id": "17762002883513"
+  },
+  {
+    "title": "Yggdrasil：为 AI 生成代码设立架构规则围栏",
+    "summary": "持续验证 AI 生成代码的工具，允许开发者定义规则并由代理在执行中强制遵守。",
+    "detail": "针对 AI 编程可能导致的架构漂移问题，Yggdrasil 提供了范围化的架构规则执行。开发者可定义规则，AI 代理在工作时会自动强制执行这些约束。这有助于在利用 AI 提高开发效率的同时，保持代码库的结构一致性和安全性，是 AI 代码治理的重要工具。随着 AI 生成代码比例增加，此类确保代码质量和架构合规性的工具将成为开发工作流中的关键基础设施，防止技术债务累积，保障大型项目的长期可维护性。",
+    "tags": [
+      "Dev",
+      "Code Quality",
+      "Security"
+    ],
+    "link": "https://github.com/krzysztofdudek/Yggdrasil",
+    "date": "2026-04-14",
+    "id": "17762002883514"
+  },
+  {
+    "title": "旧金山首家全 AI 管理精品店开业，仍存调度失误",
+    "summary": "Andon Labs 初创公司用 AI 开设实体店，成本低于 10 万美元，但忘记安排员工排班。",
+    "detail": "初创公司 Andon Labs 在旧金山 Cow Hollow 开设了一家由 AI 代理完全管理的实体店。AI 负责创建、库存和员工管理，开业成本控制在 10 万美元以内。然而，AI 代理忘记安排员工排班，暴露了当前 AI 代理在现实世界复杂任务调度上的局限性。这是 AI 代理落地线下零售的重要案例，展示了自动化运营的成本优势，同时也揭示了全自主代理在处理突发或隐性任务时的可靠性挑战，为行业提供了宝贵的实测数据。",
+    "tags": [
+      "News",
+      "Agent",
+      "Retail"
+    ],
+    "link": "https://sfist.com/2026/04/14/new-boutique-in-sfs-cow-hollow-is-completely-run-by-ai-which-manages-human-staff/",
+    "date": "2026-04-14",
+    "id": "17762002883515"
+  },
+  {
+    "title": "社会观察：AI 正在平化人类的独特性",
+    "summary": "社交媒体观点指出，过度依赖 AI 生成内容可能导致人类表达趋同，丧失真实性。",
+    "detail": "推文指出人们正使用 AI 撰写求职信、编辑约会资料，导致表达失去个人特色。作者认为危险在于让 AI 替我们说话，因为它只追求吸引力而非准确性。通过乔布斯与斯卡利的历史教训，警示过度依赖“完美”决策可能带来的创新停滞，呼吁保持人类真实性。这反映了社会对 AI 同质化内容的担忧，提示我们在追求效率的同时，需保留人类独特的创造力和真实性，避免被算法优化所平庸化，引发对人机协作伦理的深思。",
+    "tags": [
+      "News",
+      "Social Impact",
+      "Opinion"
+    ],
+    "link": "https://twitter.com/heyohelen/status/2044126575399186565",
+    "date": "2026-04-14",
+    "id": "17762002883516"
+  },
+  {
     "title": "Anthropic 确认向特朗普政府简报 Mythos 项目",
     "summary": "Anthropic 联合创始人确认已向特朗普政府简报 Mythos 项目，涉及政策与合作。",
     "detail": "Anthropic 联合创始人证实，公司已就 Mythos 项目向特朗普政府进行了简报。这一动向标志着头部 AI 实验室与美国政府之间的互动加深，可能影响未来的 AI 监管政策及安全标准。Mythos 具体细节未公开，但此类高层简报通常涉及模型能力边界、国家安全风险及合规框架。此举凸显了 AI 巨头在地缘政治中的关键角色，行业需关注后续政策走向。此外，这也可能预示着美国政府将更深度介入前沿模型的安全评估，企业需提前做好合规准备，应对可能出台的行政命令或新的监管法案，确保业务连续性。对于依赖美国市场的 AI 公司，这一信号意味着政策风险上升，需密切关注白宫科技政策办公室的动态。",
@@ -1207,96 +1298,5 @@
     "link": "https://balsamiq.com/product/ai/",
     "date": "2026-04-13",
     "id": "17760591378773"
-  },
-  {
-    "title": "行业洞察：AI 使用的隐性成本与用户焦虑",
-    "summary": "探讨 AI 输出不可靠导致的干预成本与心理负担。",
-    "detail": "文章深入分析了用户在使用 AI 时的挫折感：模型虽强大但不可靠，导致频繁的干预和修正。这种“监督模式”切换带来了认知、情感和财务成本。反映了当前 AI 产品在可靠性上的不足，提示行业需关注从“生成”到“可信交付”的体验优化。用户往往因微小错误被迫介入，破坏了心流状态。这揭示了 AI 落地的一大痛点：信任成本。开发者需致力于减少幻觉和误解，提升输出稳定性。否则高昂的隐性干预成本将阻碍 AI 的大规模普及，行业应从追求能力转向追求可靠性。对于 B 端应用而言，降低用户的监督负担是提升留存的关键指标，该内容为产品优化提供了重要用户视角。",
-    "tags": [
-      "News",
-      "UX",
-      "Industry"
-    ],
-    "link": "https://aarils.com/personal/the-expensive-anxiety-of-ai",
-    "date": "2026-04-13",
-    "id": "17760591378774"
-  },
-  {
-    "title": "ReceiptBot：Node.js AI 代理安全与成本管控工具",
-    "summary": "防止 .env 泄露，监控 I/O 操作，控制 LLM 成本的运行时工具。",
-    "detail": "ReceiptBot 专为 Node.js AI 代理设计，充当运行时飞行记录器和安全带。它通过结构化审计追踪所有 I/O 操作，并在日志写入前清除秘密信息。核心功能包括成本治理器，可切断失控的 LLM 循环以防止预算燃烧。该工具无需硬 OS 沙箱，仅需一次函数调用即可集成到现有项目中，为开发者提供进程内审计和安全保障，适合需要严格管控 AI 代理权限和支出的开发团队。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Node.js"
-    ],
-    "link": "https://github.com/redshadow912/ReceiptBot",
-    "date": "2026-04-13",
-    "id": "17760484816390"
-  },
-  {
-    "title": "ImageEditor.net：限时优惠的在线 AI 图像编辑器",
-    "summary": "支持文本生成图像、背景移除及放大，新用户享免费积分。",
-    "detail": "这是一款在线 AI 图像编辑与生成平台，主打快速编辑和高质量生成。功能包括文本生图、背景移除、图像放大及物体替换。支持 2K/4K 分辨率输出，无需设计技能。当前提供限时优惠，新用户首次购买可获得额外积分，且首次生成无需注册即可体验。适合营销、社交媒体及创意项目使用，强调闪电般的生成速度和专业的图像质量基准。",
-    "tags": [
-      "Deal",
-      "Image",
-      "Generator"
-    ],
-    "link": "https://imageditor.net/",
-    "date": "2026-04-13",
-    "id": "17760484816391"
-  },
-  {
-    "title": "Moat：在隔离容器中安全运行 AI 代理的基础设施",
-    "summary": "通过网络层注入凭证，防止代理窃取 secrets 的安全方案。",
-    "detail": "Moat 解决了 AI 编码代理需要访问凭证的安全难题。传统方法将密钥作为环境变量传递，易被代理泄露。Moat 将代理运行在隔离容器（Docker 等）中，凭证在网络代理层注入，代理永远看不到原始秘密。支持 Claude、Codex 等模型，提供沙箱执行、网络策略防火墙及防篡改审计日志。开发者可通过声明式配置管理运行时和服务依赖，确保代理在安全边界内行动。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://majorcontext.com/moat/",
-    "date": "2026-04-13",
-    "id": "17760484816392"
-  },
-  {
-    "title": "Stratechery 专访 Asana 创始人：探讨 AI、SaaS 与安全",
-    "summary": "Dustin Moskovitz 分享对 AI 时代 SaaS 发展及安全性的见解。",
-    "detail": "知名科技博客 Stratechery 发布了与 Asana 创始人 Dustin Moskovitz 的深度访谈。内容围绕 AI 技术对 SaaS 行业的影响、未来发展趋势以及安全性挑战展开。作为行业资深人士，Moskovitz 的观点对于理解企业级软件如何整合 AI 能力具有重要参考价值。访谈涉及如何在追求效率的同时保障用户数据安全，为从业者和投资者提供了关于 AI 商业化落地的宏观视角。",
-    "tags": [
-      "News",
-      "Interview",
-      "SaaS"
-    ],
-    "link": "https://stratechery.com/2025/an-interview-with-asana-founder-dustin-moskovitz-about-ai-saas-and-safety/",
-    "date": "2026-04-13",
-    "id": "17760484816393"
-  },
-  {
-    "title": "ACLU 提交法庭之友简报：亚马逊诉 Perplexity AI 案",
-    "summary": "美国公民自由联盟介入科技巨头与 AI 公司的法律纠纷。",
-    "detail": "美国公民自由联盟（ACLU）就亚马逊诉 Perplexity AI 案件提交了法庭之友简报。该案件涉及科技巨头与新兴 AI 公司之间的法律争端，可能影响 AI 行业的竞争格局和法律责任界定。ACLU 的介入表明此案涉及广泛的公民权利或言论自由问题。此法律动态值得行业关注，因为它可能为 AI 模型训练数据来源、版权责任及平台反垄断设立重要先例。",
-    "tags": [
-      "News",
-      "Legal",
-      "Policy"
-    ],
-    "link": "https://www.aclu.org/cases/amazon-v-perplexity?document=Amicus-Brief-of-ACLU-ACLU-of-Northern-California-and-Knight-First-Amendment-Institute-in-Support-of-Defendant-Appellant-and-Reversal",
-    "date": "2026-04-13",
-    "id": "17760484816394"
-  },
-  {
-    "title": "Specs over Vibes：Mark Freeman 谈如何实现一致 AI 结果",
-    "summary": "资深从业者分享避免 AI 幻觉、确保数据工作质量的最佳实践。",
-    "detail": "Motherduck 博客采访了 Gable 的 Mark Freeman，探讨如何在数据工作中有效使用 AI 代理。文章强调从“凭感觉”转向“规范驱动”，以避免 AI 幻觉并确保输出一致性。Freeman 分享了协调 AI 团队、验证生成代码及管理干扰的实际经验。内容涵盖如何成为高级审查者，平衡效率与质量，为数据工程师和开发者提供了在 AI 时代保持工作流可靠性的具体策略和方法论。",
-    "tags": [
-      "Dev",
-      "Best Practices",
-      "Data"
-    ],
-    "link": "https://motherduck.com/blog/specs-over-vibes-consistent-ai-results/",
-    "date": "2026-04-13",
-    "id": "17760484816395"
   }
 ]
