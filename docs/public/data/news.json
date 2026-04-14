@@ -1,5 +1,70 @@
 [
   {
+    "title": "Meta 拟推出“扎克伯格机器人”AI 分身",
+    "summary": "Meta 正构建马克·扎克伯格的 AI 版本，引领名人数字分身潮流。",
+    "detail": "Meta 被曝正在开发名为\"Zuckerbot\"的 AI 项目，旨在创建创始人马克·扎克伯格的数字分身。据 Neowin 报道，这标志着科技巨头将个人 IP 与生成式 AI 深度融合的尝试。此类名人 AI 化身可能用于客户服务、内容创作或品牌互动，但也引发隐私与伦理争议。此举反映了 2026 年 AI 人格化趋势的加速，企业正探索利用高层形象增强用户粘性。该项目可能集成于 Meta 现有社交生态中，展示 AI 在个人品牌数字化方面的最新进展，引发行业对数字身份真实性的讨论。",
+    "tags": [
+      "News",
+      "Meta",
+      "AI Persona"
+    ],
+    "link": "https://www.neowin.net/news/zuckerbot-is-coming-meta-is-reportedly-building-an-ai-version-of-mark-zuckerberg/",
+    "date": "2026-04-14",
+    "id": "17761530132270"
+  },
+  {
+    "title": "Nvidia 发布 AIStore 可扩展存储栈",
+    "summary": "专为 AI 应用设计的轻量级分布式存储，支持线性扩展与多云访问。",
+    "detail": "Nvidia 推出 AIStore (AIS) v4.4，这是一个专为 AI 工作负载构建的轻量级分布式存储栈。它支持弹性集群运行时伸缩，无需 Kubernetes 即可部署。核心优势在于线性扩展能力、一致的 I/O 分布以及对 AWS S3、GCS、Azure 等多云后端的原生访问。AIS 解决了 AI 训练与推理中的数据吞吐瓶颈，为从单机到大规模裸金属集群提供了灵活的数据管理方案。支持 Google Colab 及 K8s 部署，提供线性扩展性能测试数据，是 AI 基础设施层的重要补充，确保可靠存储集群原生操作。",
+    "tags": [
+      "Dev",
+      "Nvidia",
+      "Infrastructure"
+    ],
+    "link": "https://aistore.nvidia.com/",
+    "date": "2026-04-14",
+    "id": "17761530132271"
+  },
+  {
+    "title": "Show HN: Nous 自愈合 AI 代理编译语言",
+    "summary": "专为代理式 AI 设计的自进化编程语言，支持正式验证与多目标编译。",
+    "detail": "Nous 是一种为代理式 AI 系统量身定制的编译型语言。它将自主代理建模为具有记忆、本能和自愈能力的“生命体”。核心概念包括定义环境的 World、代理本体 Soul 及 typed Message。支持编译至 Python、JS 或 HTML，并在执行前进行正式验证。其“自愈”机制允许超时重试或降级，解决了 AI 代理在复杂任务中的稳定性问题。包含 DNA 进化参数与神经系统路由，为构建鲁棒的自主系统提供了新范式，定义自主代理为具有记忆和本能的生物，支持心跳机制与成本限制。",
+    "tags": [
+      "New",
+      "Programming Language",
+      "Agents"
+    ],
+    "link": "https://nous-lang.org/",
+    "date": "2026-04-14",
+    "id": "17761530132272"
+  },
+  {
+    "title": "Burrow：AI 代理运行时安全监控工具",
+    "summary": "填补代理行为监控空白，通过自然语言策略防止凭证泄露与误操作。",
+    "detail": "Burrow 是一款针对 AI 编码代理（如 Claude Code、Cursor）的运行时安全工具。它位于代理与机器之间，监控 shell 命令、文件读取及 API 调用。传统 EDR 无法理解代理的行为链，而 Burrow 允许用户用自然语言定义策略（如“禁止删除生产数据”）。这有效防止了因代理自主决策导致的凭证泄露或破坏性操作，如.env 文件被读取。是 AI 代理大规模落地前的关键安全基础设施，解决云审计日志无法识别代理行为链的盲区，监控进程生成与 API 调用链。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47761957",
+    "date": "2026-04-14",
+    "id": "17761530132273"
+  },
+  {
+    "title": "Pruner：优化 AI 编码代理上下文成本",
+    "summary": "通过结构化代码索引一次性提供正确上下文，降低 15-62% 成本。",
+    "detail": "Pruner 是一个开源工具，旨在解决 AI 编码代理上下文窗口过大导致的成本与延迟问题。它采用结构化代码索引技术，无需 LLM 或 Embeddings 即可为 Claude Code、Copilot 等工具提供精准上下文。数据显示可降低 15-62% 的成本及 39-64% 的时间。该工具无需 API 密钥，直接优化本地开发工作流，显著提升了 AI 辅助编程的经济性与效率。支持多种主流编码代理，一次性提供正确上下文，无需嵌入模型，通过结构索引优化 token 使用。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Optimization"
+    ],
+    "link": "https://github.com/heikki-laitala/pruner",
+    "date": "2026-04-14",
+    "id": "17761530132274"
+  },
+  {
     "title": "Nature 研究：人类科学家在复杂任务上完胜 AI 代理",
     "summary": "Nature 最新研究表明，在复杂科学任务中，人类科学家表现仍优于顶级 AI 代理。",
     "detail": "### 背景与发现\nNature 发表最新研究，对比了人类科学家与当前最佳 AI 代理在复杂任务上的表现。结果显示，人类在需要深度推理和复杂决策的场景中依然占据优势。\n\n### 行业影响\n这一发现为 AI 代理的实际落地提供了冷静视角。尽管 AI 发展迅猛，但在高复杂度、高责任感的科学探索领域，人类专家的作用短期内不可替代。这提示开发者在构建 AI 代理时需注重人机协作而非完全替代，避免过度神话当前技术能力。",
@@ -1233,70 +1298,5 @@
     "link": "https://nextindata.substack.com/p/ai-didnt-teach-me-to-code-but-it",
     "date": "2026-04-12",
     "id": "17760121487612"
-  },
-  {
-    "title": "Mugib：支持全渠道接入的企业级 AI 代理平台",
-    "summary": "无需复杂编码，5 分钟即可部署学习企业数据的 AI 客服代理。",
-    "detail": "Mugib 推出了一款面向企业的 AI 代理平台，支持聊天、语音、网页及实时数据多渠道接入。该平台通过 MCP 集成企业系统，无需复杂编码即可在 5 分钟内完成部署。支持 50 多种语言，准确率超 97%，并提供 99.9% 可用性 SLA。相比传统聊天机器人，它能访问实时数据并处理复杂任务（如订单查询、VPN 证书更新），展示了 AI 代理在客户服务领域的落地潜力。这标志着企业级 AI 应用正从简单问答向复杂任务执行转变。",
-    "tags": [
-      "New",
-      "Enterprise",
-      "Agent"
-    ],
-    "link": "https://mugib.com/",
-    "date": "2026-04-12",
-    "id": "17760121487613"
-  },
-  {
-    "title": "SuperHQ：在独立微虚拟机中运行 AI 编码代理",
-    "summary": "提供真实 Linux 沙盒环境，支持代码审查、端口转发及状态回滚。",
-    "detail": "SuperHQ 解决了 AI 编码代理的安全与隔离问题，允许在独立的微虚拟机（Debian）中运行 Claude Code 等代理。项目代码挂载至沙盒，变更通过统一差异审查后才合并到本地。特性包括可选端口转发、虚拟机状态快照与回滚，以及密钥保护（.env 保留在主机）。这为开发者提供了一个安全、可逆且功能完整的 AI 编程环境，避免了直接污染本地工作树。此类沙盒方案将成为未来 AI 本地开发的标准配置，平衡了便利性与安全性。",
-    "tags": [
-      "New",
-      "Dev",
-      "Security"
-    ],
-    "link": "https://superhq.ai/",
-    "date": "2026-04-12",
-    "id": "17760121487614"
-  },
-  {
-    "title": "HumanX 大会聚焦 Claude 模型",
-    "summary": "2026 HumanX 大会中 Claude 成焦点，行业转向重视安全。",
-    "detail": "在 2026 年旧金山举行的 HumanX 会议上，Anthropic 的 Claude 模型成为全场讨论的核心焦点。TechCrunch 报道指出，与会者普遍关注该模型在企业级应用中的表现。这标志着行业从单纯追求性能转向更重视安全与对齐。会议反映了资本与市场对该模型的高度关注，对开发者选型具有指导意义，显示出 2026 年 AI 竞争格局的新动向，企业级应用成为主战场。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "Enterprise"
-    ],
-    "link": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
-    "date": "2026-04-12",
-    "id": "17760084582140"
-  },
-  {
-    "title": "首款 AI 红队操作系统发布",
-    "summary": "MythosAI 推出首个 AI 红队 OS，采用零信任架构。",
-    "detail": "MythosAI 宣布构建全球首个 AI 红队操作系统，采用零信任架构和对抗引擎。该工具旨在帮助安全团队测试 AI 系统的漏洞，集成后渗透 C2 功能及逃避层。早期访问已开放，标志着 AI 安全测试工具化的重要进展。其核心包括 AI 原生核心和威胁情报，适合安全研究人员关注，填补了自动化红队测试的空白，提升防御能力，保障 AI 系统安全。",
-    "tags": [
-      "New",
-      "Security",
-      "RedTeam"
-    ],
-    "link": "https://mythosai.cloud/",
-    "date": "2026-04-12",
-    "id": "17760084582141"
-  },
-  {
-    "title": "研究揭示 AI 用户人格特征",
-    "summary": "新论文分析 AI 使用者人格类型，涉及黑暗三角。",
-    "detail": "最新研究论文探讨了 AI 用户的人格类型，引用了 McKinley 等人的研究。文章分析了不同人群使用 AI 的频率与性格特征（如黑暗三角人格）的关联。这为理解 AI 采纳的社会心理学提供了新视角。博客还引用了 David Gerard 的 critique，提供了关于用户实际测量数据的深度分析，有助于产品定位和用户行为分析，揭示潜在用户群体特征。",
-    "tags": [
-      "News",
-      "Research",
-      "Psychology"
-    ],
-    "link": "https://www.someweekendreading.blog/who-uses-ai/",
-    "date": "2026-04-12",
-    "id": "17760084582142"
   }
 ]
