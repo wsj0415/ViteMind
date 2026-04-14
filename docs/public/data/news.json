@@ -1,5 +1,70 @@
 [
   {
+    "title": "Anthropic 代码泄露揭示 AI 工程困境",
+    "summary": "Claude Code 源码泄露，暴露长函数与正则情感分析等问题。",
+    "detail": "2026 年 3 月，Anthropic 因打包错误意外泄露 51.2 万行 Claude Code 源码。深度分析显示，核心代码中存在单函数长达 3167 行、使用正则表达式进行情感分析等争议性工程实践。尽管工程师宣称 100% 贡献由 AI 完成，但泄露代码揭示了已知 Bug 仍被 shipped 的现状。这一事件引发行业对 AI 生成代码质量、技术债务积累以及人类工程师在 AI 辅助开发中真实角色的深刻反思。此外，公司未因此解雇员工，强调这是选择而非意外，凸显了 AI 工程文化的复杂性。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "Engineering"
+    ],
+    "link": "https://techtrenches.dev/p/the-snake-that-ate-itself-what-claude",
+    "date": "2026-04-14",
+    "id": "17762069610110"
+  },
+  {
+    "title": "通用 AI 模型在日志搜索中的局限性",
+    "summary": "通用嵌入模型无法区分日志成功与失败，需微调优化。",
+    "detail": "通用 AI 模型在自然语言上表现优异，但在企业日志搜索中面临系统性失败。研究指出五大失败模式，包括无法区分日志中的“成功”与“失败”状态，以及忽略不同错误代码间的操作等价性。Thedex 团队通过专用微调，将搜索准确率从 50% 显著提升至 80%。这一案例表明，通用大模型难以直接替代专业运维工具，垂直领域数据微调对于 AI 落地关键业务场景至关重要，否则可能导致严重误判。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Ops"
+    ],
+    "link": "https://thedex.run/blog/why-general-purpose-ai-fails-at-log-search",
+    "date": "2026-04-14",
+    "id": "17762069610111"
+  },
+  {
+    "title": "BridgeBase 推出量子安全 AI 代理网关",
+    "summary": "采用 ML-KEM-768 算法，为 AI 代理通信提供量子安全保护。",
+    "detail": "随着 AI 代理自主性增强，通信安全成为关键基础设施。BridgeBase 推出了基于 ML-KEM-768 算法的量子安全网关，为 AI 代理提供公钥基础设施与信誉系统。该项目展示了后量子密码学在 AI Agent 网络中的应用雏形，旨在防止未来量子计算对 AI 通信链路的潜在威胁，保障代理身份与数据完整性。系统包含代理 ID、公钥及注册时间，为构建去中心化且抗量子攻击的 AI 代理网络提供了早期技术验证与安全标准参考。",
+    "tags": [
+      "New",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://pqc-gateway-production.up.railway.app/",
+    "date": "2026-04-14",
+    "id": "17762069610112"
+  },
+  {
+    "title": "WM Arena 测试世界模型生成视频能力",
+    "summary": "通过 Atari 游戏视频对比，评估人类能否分辨 AI 生成内容。",
+    "detail": "WorldFlux 推出 WM Arena，旨在 benchmark 世界模型的视频生成能力。用户需通过 10 轮测试，分辨真实 Atari 游戏画面与 AI 预测视频，涉及 4 个模型与 26 款游戏。该测试直观展示了当前世界模型在物理规律模拟与视频一致性上的进展，是评估 AI 理解现实世界能力的重要互动工具。这种图灵测试式的评估方法，有助于推动视频生成技术在游戏模拟与物理预测领域的技术发展与应用落地。",
+    "tags": [
+      "New",
+      "World Model",
+      "Benchmark"
+    ],
+    "link": "https://arena.worldflux.ai/quiz",
+    "date": "2026-04-14",
+    "id": "17762069610113"
+  },
+  {
+    "title": "ERNIE-Image 开源文本生成图像模型",
+    "summary": "专注图像内文字渲染，支持双语，采用 Apache 2.0 协议。",
+    "detail": "百度 ERNIE-Image 发布新模型，专门解决生成模型难以处理密集文本与复杂布局的痛点。支持海报、漫画及中英双语场景，内置提示词增强器可自动优化输入。模型权重基于 Apache 2.0 开源，允许商业使用、微调及自托管。基准测试显示其在长文本渲染上表现优异，GENEval 得分 0.8856。这为创作者提供了可商用的高质量文生图解决方案，显著降低设计与版权成本，推动内容生产自动化。",
+    "tags": [
+      "New",
+      "Diffusion",
+      "Open Source"
+    ],
+    "link": "https://ernie-image.ai/",
+    "date": "2026-04-14",
+    "id": "17762069610114"
+  },
+  {
     "title": "英伟达新观点：量子计算缺失的关键是 AI",
     "summary": "英伟达提出将 AI 技术融入量子计算，认为这是量子领域缺失的关键拼图。",
     "detail": "英伟达最新表态指出，量子计算目前面临瓶颈，而 AI 技术可能是突破的关键。文章分析了两者结合的可能性，暗示未来硬件架构将同时优化 AI 与量子工作负载。这对算力行业具有风向标意义，表明巨头正探索下一代计算范式融合，可能加速量子实用化进程。",
@@ -1233,70 +1298,5 @@
     "link": "https://appsecsanta.com/research/ai-pentesting-agents-2026",
     "date": "2026-04-13",
     "id": "17760819849253"
-  },
-  {
-    "title": "XBPP：治理 AI 代理支付的开放标准协议",
-    "summary": "VanarChain 推出开源 SDK，定义 AI 代理执行边界与支付权限。",
-    "detail": "XBPP (Execution Boundary Permission Protocol) 是一个旨在规范 AI 代理支付的开放标准，采用 Apache 2.0 协议开源。随着自主 AI 代理经济的增长，如何安全地授权代理进行支付成为关键。该 SDK 提供了执行边界权限控制，确保代理仅在授权范围内使用资金。这是构建可信 AI 经济基础设施的重要一步，解决了自主代理在金融操作中的信任与合规问题。适用于需要自动化交易的多代理系统，防止代理越权操作。在 Agent 经济爆发的背景下，此类支付治理协议将成为连接 AI 能力与商业价值的桥梁，确保自动化交易的安全性与可审计性，促进机器间经济活动的健康发展。",
-    "tags": [
-      "New",
-      "Crypto",
-      "Agent"
-    ],
-    "link": "https://github.com/VanarChain/xbpp-sdk",
-    "date": "2026-04-13",
-    "id": "17760819849254"
-  },
-  {
-    "title": "2026 API 安全状态报告揭示 AI 测试盲区",
-    "summary": "基于 140 万次测试，38% 失败源于认证问题。",
-    "detail": "该报告基于 140 万次 AI 驱动测试执行数据，覆盖 2600 多家组织，映射 OWASP API 安全前 10 名。发现 38% 的安全失败源于认证和授权问题，主要是因为边缘情况系统性地测试不足。大多数套件仅验证未认证请求被拒绝，少于 30% 验证认证请求的正确范围。AI 生成测试套件覆盖的 OWASP 类别是手动编写的 2.7 倍，填补了跨用户访问探测和权限升级检查的空白。供应链攻击现在是增长最快的 API 安全威胁类别。这些数据来自活跃开发中的 API 自动化测试套件，而非红队发现，表明拥有正确测试的团队本可以修复这些失败。这为 AI 原生测试提供了基准，强调了自动化在安全左移中的关键作用。",
-    "tags": [
-      "News",
-      "Security",
-      "API"
-    ],
-    "link": "https://reports.kusho.ai/state-of-api-security-2026",
-    "date": "2026-04-13",
-    "id": "17760773777300"
-  },
-  {
-    "title": "AI 推理的“主机时刻”：租用智能的经济学反思",
-    "summary": "当前 AI API 模式类似 60 年代主机租用，非物理定律。",
-    "detail": "文章将当前 AI API 租用模式比作 60 年代主机时代，指出这是商业策略而非物理定律。主要提供商围绕集中式推理构建战略，资本投入巨大。但边际成本问题可能重演 PC 革命。当时 DEC 高管认为计算应在远程进行，但 PC 使本地边际成本降为零。作者暗示当前租用智能模式可能只是阶段性的，本地化或拥有模型可能改变经济学，挑战现有云推理霸权。这种历史类比提醒行业，当前的中心化基础设施可能随技术经济性变化而被颠覆。当用户拥有机器时，边际成本降至零，这可能导致 AI 推理模式的根本转变，开发者应关注本地推理能力的演进及成本结构变化。",
-    "tags": [
-      "News",
-      "Industry",
-      "Economics"
-    ],
-    "link": "https://www.mjeggleton.com/blog/AIs-mainframe-moment",
-    "date": "2026-04-13",
-    "id": "17760773777301"
-  },
-  {
-    "title": "构建主权本地 AI 栈：Ollama 与 Pgvector 实战",
-    "summary": "零云成本部署本地 AI，Ubuntu 24.04 完整指南。",
-    "detail": "Hacker News 热门教程，指导在 Ubuntu 24.04 上部署零云成本本地 AI 栈。整合 Ollama 5.x、Open WebUI 和 Pgvector，实现完全主权控制。无需 API 费用，数据不出本地。适合关注隐私和成本的开发者。提供了完整命令和测试输出，验证了主权可行性。反映了开发者对去中心化 AI 基础设施的需求增长，避免依赖第三方 API。此方案确保数据隐私，降低长期运营成本，是构建主权 AI 应用的理想起点。特别适合企业内网或个人敏感数据处理场景，解决了云 API 调用的延迟和隐私顾虑，展示了开源工具链的成熟度。",
-    "tags": [
-      "Dev",
-      "Tutorial",
-      "Local AI"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47749907",
-    "date": "2026-04-13",
-    "id": "17760773777302"
-  },
-  {
-    "title": "Linux 内核有条件允许 AI 生成代码",
-    "summary": "Torvalds 达成协议：人类对错误负责，拒绝 AI 垃圾代码。",
-    "detail": "Tom's Hardware 报道，经过数月激烈辩论，Torvalds 与维护者达成协议。有条件允许 AI 生成代码进入内核，接受 Copilot 等工具，但拒绝低质“垃圾代码”。关键原则是人类必须为错误承担责任。这标志着开源核心项目对 AI 辅助编程的正式立场，平衡了效率提升与代码质量风险，为其他开源项目树立合规标杆。政策强调人类最终责任，防止 AI 滥用导致内核稳定性下降，同时认可工具辅助价值。此决定结束了社区关于 AI 代码合法性的争论，明确了贡献者需审查 AI 输出，确保内核代码库的长期健康和安全性，影响深远。",
-    "tags": [
-      "News",
-      "Linux",
-      "Policy"
-    ],
-    "link": "https://www.tomshardware.com/software/linux/linux-lays-down-the-law-on-ai-generated-code-yes-to-copilot-no-to-ai-slop-and-humans-take-the-fall-for-mistakes-after-months-of-fierce-debate-torvalds-and-maintainers-come-to-an-agreement",
-    "date": "2026-04-13",
-    "id": "17760773777303"
   }
 ]
