@@ -1,5 +1,70 @@
 [
   {
+    "title": "Google 为 Chrome 添加 AI Skills 功能，支持保存工作流",
+    "summary": "Google 在 Chrome 浏览器中引入 AI Skills，帮助用户保存和自动化常用工作流，提升浏览器端 AI 交互效率。",
+    "detail": "### 背景与核心功能\nGoogle 正式宣布在 Chrome 浏览器中集成 AI Skills 功能。该功能允许用户将复杂的浏览器操作流程保存为可重复使用的“技能”，并通过 AI 进行自动化执行。\n\n### 行业影响\n此举标志着浏览器从单纯的信息展示工具向智能代理平台转变。通过原生支持工作流保存，Google 意在巩固其在 AI 入口层的竞争优势，对抗其他 AI 助手对浏览器流量的截取。对于开发者而言，这意味着基于 Chrome 的自动化脚本和扩展将迎来新的生态机会。\n\n### 技术亮点\n利用大模型理解用户意图，结合浏览器上下文环境，实现跨标签页、跨网站的复杂任务自动化，无需第三方插件即可实现本地化工作流管理。",
+    "tags": [
+      "News",
+      "Google",
+      "Browser"
+    ],
+    "link": "https://techcrunch.com/2026/04/14/google-adds-ai-skills-to-chrome-to-help-you-save-favorite-workflows/",
+    "date": "2026-04-14",
+    "id": "17761866771960"
+  },
+  {
+    "title": "Anthropic 反对 OpenAI 支持的极端 AI 责任法案",
+    "summary": "Anthropic 公开反对一项由 OpenAI 支持的 AI 责任法案，两大巨头在监管责任归属问题上产生重大分歧。",
+    "detail": "### 事件背景\nWIRED 报道，Anthropic 正式表态反对一项极端的 AI 责任法案，而该法案此前获得了 OpenAI 的支持。这揭示了顶级 AI 实验室在监管策略上的根本性分歧。\n\n### 核心争议\n法案主要涉及 AI 生成内容造成损害时的责任归属。OpenAI 倾向于支持更明确的责任框架以换取合规确定性，而 Anthropic 则认为该法案过于严苛，可能抑制技术创新并增加不必要的合规成本。\n\n### 行业影响\n巨头间的立场分裂将使政策制定者面临更复杂的游说环境。这也反映出 AI 行业在安全与发展的平衡点上尚未达成共识，未来监管政策的不确定性依旧较高，企业需为多种合规场景做准备。",
+    "tags": [
+      "News",
+      "Policy",
+      "Regulation"
+    ],
+    "link": "https://www.wired.com/story/anthropic-opposes-the-extreme-ai-liability-bill-that-openai-backed/",
+    "date": "2026-04-14",
+    "id": "17761866771961"
+  },
+  {
+    "title": "MCP Attack Atlas 发布：收录 40+ AI 代理攻击模式",
+    "summary": "安全研究人员发布 MCP 攻击图谱， catalog 了 40 多种针对 AI 代理的攻击模式，涵盖工具调用与记忆污染。",
+    "detail": "### 核心内容\nSunglasses.dev 发布了 MCP Attack Atlas，这是一个针对使用模型上下文协议（MCP）的 AI 代理的开放攻击模式目录。目前已收录 40 多个经验证的攻击模式，分为 14 个攻击家族。\n\n### 技术细节\n攻击模式包括表情符号同形异义策略规避、记忆驱逐重新注入中毒、工具文档字符串指令泄露等。其中两种模式已匹配到真实 CVE（CVE-2026-40159）。\n\n### 安全启示\n随着 AI 代理与工具链的交互增多，信任边界变得模糊。该图谱为开发者提供了具体的防御视角，强调在构建 Agent 时需严格审查工具调用权限及记忆管理机制，避免被提示词注入或上下文污染攻击。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://sunglasses.dev/mcp-attack-atlas",
+    "date": "2026-04-14",
+    "id": "17761866771962"
+  },
+  {
+    "title": "NVIDIA 推出 OpenShell，打造安全原生的自主 AI 代理",
+    "summary": "NVIDIA 发布 OpenShell 方案，旨在通过设计原生的安全机制，解决自主 AI 代理在运行时的潜在风险。",
+    "detail": "### 产品发布\nNVIDIA 博客宣布推出 OpenShell，这是一套旨在使自主 AI 代理实现“安全原生”（Secure by Design）的技术方案。针对 AI 代理在自主执行任务时可能产生的不可控行为，提供了底层的安全框架。\n\n### 核心技术\nOpenShell 通过隔离执行环境、权限最小化原则以及实时行为监控，确保 AI 代理在调用外部工具或访问数据时不会越界。这与传统的事后审计不同，强调在架构设计阶段即融入安全考量。\n\n### 行业意义\n随着自主代理从实验走向生产，安全性成为最大瓶颈。NVIDIA 此举意在为其 AI 基础设施生态建立安全标准，帮助企业在部署高风险自主任务时降低合规与运营风险。",
+    "tags": [
+      "News",
+      "Nvidia",
+      "Infrastructure"
+    ],
+    "link": "https://blogs.nvidia.com/blog/secure-autonomous-ai-agents-openshell/",
+    "date": "2026-04-14",
+    "id": "17761866771963"
+  },
+  {
+    "title": "AfterSession：专为治疗师打造的 AI 笔记工具",
+    "summary": "Show HN 项目 AfterSession 上线，利用 AI 帮助心理治疗师快速生成结构化笔记，无需录音，注重隐私。",
+    "detail": "### 产品介绍\nAfterSession 是一款面向心理治疗师的 AI 辅助工具，旨在减少文档工作时间。用户可在会话后通过语音或输入观察要点，AI 即刻生成 SOAP、DAP 等结构化临床笔记。\n\n### 核心优势\n与竞品不同，该工具不需要录制会话过程，从根本上保护了患者隐私。系统符合 HIPAA 标准，数据默认本地处理，且无金融议程或广告干扰。\n\n### 垂直应用价值\n这是 AI 在专业垂直领域落地的典型案例。通过解决特定职业（治疗师）的行政负担痛点，同时严守隐私底线，展示了 AI 在敏感行业应用的可行路径，为其他垂直 SaaS 提供了参考范式。",
+    "tags": [
+      "New",
+      "SaaS",
+      "Healthcare"
+    ],
+    "link": "https://aftersession.ai/",
+    "date": "2026-04-14",
+    "id": "17761866771964"
+  },
+  {
     "title": "CoreWeave 与 Anthropic 达成 AI 云协议",
     "summary": "CoreWeave 与 Anthropic 形成 AI 云合作协议，强化算力布局。",
     "detail": "**背景**：AI 基础设施竞争加剧，专用云服务商角色关键。\n**核心**：WSJ 报道双方达成云协议，具体条款未公开。\n**影响**：标志 Anthropic 锁定专用算力，CoreWeave 巩固 AI 基建地位。反映大模型厂商与云服务商垂直整合趋势，确保训练推理资源稳定供应，行业集中度进一步提升。未来可能看到更多类似绑定，算力成为核心壁垒，中小厂商获取优质算力成本可能增加，加速行业洗牌。",
@@ -1233,70 +1298,5 @@
     "link": "https://negrenavarro.me/blog/lana",
     "date": "2026-04-12",
     "id": "17760299266293"
-  },
-  {
-    "title": "开源新品：专为 AI Agent 设计的错误追踪工具",
-    "summary": "GitHub 发布 Walnut，兼容所有 Sentry SDK 的 Agent 错误追踪。",
-    "detail": "新项目 Walnut 在 GitHub 发布，旨在解决 AI Agent 开发中的错误追踪难题。它兼容所有 Sentry SDK，采用 Agent-first 设计理念，帮助开发者更高效地监控和调试自主代理系统。随着 Agent 应用爆发，传统的错误监控已无法满足需求，此类工具将成为 AI 基础设施的重要组成部分，降低开发维护成本。开发者可借此快速定位 Agent 决策链路中的故障，提升系统稳定性与可靠性。",
-    "tags": [
-      "New",
-      "OpenSource",
-      "Tooling"
-    ],
-    "link": "https://github.com/bilalg1/walnut",
-    "date": "2026-04-12",
-    "id": "17760299266294"
-  },
-  {
-    "title": "Anthropic Claude Code 源码泄露揭示工程文化",
-    "summary": "Claude Code 源码意外泄露，暴露单函数 3000 行及正则情感分析等问题。",
-    "detail": "Anthropic 的 Claude Code 项目因打包错误意外泄露了 51.2 万行源代码。社区分析发现代码中存在多处争议实践，包括一个长达 3167 行的单一函数、使用正则表达式进行情感分析，以及文档中记录但仍发布的已知 Bug。尽管公司回应称无人因此被解雇，但此次事件引发了业界对 AI 生成代码质量、工程文化及技术债务的深度讨论。这揭示了即使是最先进的 AI 公司，在工程落地层面仍面临挑战，为开发者提供了宝贵的反面教材。事件还凸显了 AI 辅助编程普及后，人类工程师审查代码的重要性并未降低，反而需要更严格的质检流程来确保生产环境的稳定性。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "Engineering"
-    ],
-    "link": "https://techtrenches.dev/p/the-snake-that-ate-itself-what-claude",
-    "date": "2026-04-12",
-    "id": "17760266430360"
-  },
-  {
-    "title": "据报道苹果测试四款智能眼镜设计",
-    "summary": "据报道，苹果正在测试四种不同设计的智能眼镜，探索 AI 硬件新形态。",
-    "detail": "TechCrunch 报道称苹果正在测试四种智能眼镜设计，旨在推进其 AI 战略硬件布局。虽然具体规格未披露，但这表明苹果正积极探索除手机外的 AI 交互终端。智能眼镜被视为多模态 AI 的理想载体，此举可能加剧科技巨头在 AI 硬件领域的竞争，影响未来人机交互格局。随着 AI 模型向端侧部署发展，轻量化、低功耗的智能眼镜成为关键战场。苹果此举可能意在整合 Siri 与多模态能力，打造无缝的个人 AI 助理体验，挑战现有 AR/VR 市场格局。此举若落地，将加速空间计算与 AI 代理的融合。",
-    "tags": [
-      "News",
-      "Apple",
-      "Hardware"
-    ],
-    "link": "https://techcrunch.com/2026/04/12/apple-reportedly-testing-four-designs-for-upcoming-smart-glasses/",
-    "date": "2026-04-12",
-    "id": "17760266430361"
-  },
-  {
-    "title": "Mistral AI 发布欧洲 AI 主权发展蓝图",
-    "summary": "Mistral AI 发布白皮书，提出欧洲构建自主 AI 生态系统的行动框架。",
-    "detail": "Mistral AI 发布题为“欧洲 AI：拥有它的剧本”的白皮书，呼吁利用欧洲学术生态和单一市场优势构建自主 AI 强国。文件指出监管重叠和碎片化市场是主要障碍，建议简化法规并动员公私投资。这反映了欧洲 AI 初创企业寻求技术主权和基础设施独立的战略意图，可能影响全球 AI 地缘政治格局。白皮书强调以人为本的技术承诺，试图在创新与安全之间找到平衡。通过建立本土基础设施，欧洲希望减少对外部云服务的依赖，确保数据主权，为全球 AI 治理提供另一种范式。文档还提及吸引人才和简化法律不确定性的措施，旨在打造更具竞争力的产业集群。",
-    "tags": [
-      "News",
-      "Mistral",
-      "Policy"
-    ],
-    "link": "https://europe.mistral.ai/",
-    "date": "2026-04-12",
-    "id": "17760266430362"
-  },
-  {
-    "title": "Stork.AI 推出开发者 AI 工具与 MCP 服务器目录",
-    "summary": "Stork 提供 9000+AI 工具目录及元 MCP 服务器，助力开发者集成。",
-    "detail": "Stork.AI 发布专注于开发者的 AI 工具目录，收录 9000+ 工具和 1000+ MCP 服务器。其核心创新是“元 MCP 服务器”，允许用户在 Cursor、Claude Desktop 等 IDE 内直接发现新集成。相比同类竞品，它提供社区信任评分和多语言支持，旨在解决 AI 工具碎片化问题，提升开发者工作流效率。该平台支持提交工具和 API 访问，促进了生态系统的开放性。通过统一接口，开发者可以更轻松地测试和部署不同的 AI 代理，降低了集成成本，推动了 MCP 协议在开发社区中的普及和应用，是构建 AI 原生应用的重要基础设施补充。",
-    "tags": [
-      "New",
-      "MCP",
-      "Developer"
-    ],
-    "link": "https://www.stork.ai",
-    "date": "2026-04-12",
-    "id": "17760266430363"
   }
 ]
