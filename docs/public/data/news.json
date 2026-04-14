@@ -1,5 +1,83 @@
 [
   {
+    "title": "浏览器即终端：Portal 重塑 AI 开发工作流",
+    "summary": "将 tmux 式多窗口管理引入浏览器，解决原生终端在 AI 多代理任务中的扩展瓶颈。",
+    "detail": "文章深入探讨了 AI 工作流向浏览器迁移的未来趋势。Portal 项目创新性地将 tmux 的多窗格持久化布局引入浏览器环境，有效解决了原生终端在处理多 SSH 主机、Kubernetes 会话及 AI Agent 界面时的扩展瓶颈。相比 Warp 或 iTerm 等原生方案，它避免了桌面窗口混乱，支持任务空间隔离与快速恢复。这种浏览器级的工作区管理更适合并行代理调查与大规模上下文管理，显著降低了桌面资源占用，为开发者提供了更轻量、可扩展的 AI 协作界面。",
+    "tags": [
+      "Dev",
+      "Browser",
+      "Workflow"
+    ],
+    "link": "https://avkcode.github.io/blog/portal-browser-tmux.html",
+    "date": "2026-04-14",
+    "id": "17761734432290"
+  },
+  {
+    "title": "Costile：开源 AI API 成本实时监控与预算熔断",
+    "summary": "开源代理工具，实时追踪 Token 消耗，命中预算上限立即阻断请求，防止账单惊喜。",
+    "detail": "Costile 是一款专为 Anthropic 和 OpenAI 设计的开源 AI API 成本监控代理。它直击生产环境中 AI Agent 因边缘案例触发重试循环而导致预算超支的痛点。用户只需更改一个环境变量即可路由请求，无需修改代码或重构 SDK。系统提供实时 Token 追踪与硬预算上限强制执行，支持每代理独立限额，命中即阻断。这避免了传统供应商仪表盘延迟 6 小时更新带来的财务风险，实现了真正的实时成本管控，非常适合需要严格预算约束的企业级 AI 应用。",
+    "tags": [
+      "Dev",
+      "Cost",
+      "OpenSource"
+    ],
+    "link": "https://costile.com/",
+    "date": "2026-04-14",
+    "id": "17761734432291"
+  },
+  {
+    "title": "Omega Walls：针对 RAG 与 AI 代理的有状态运行时防御",
+    "summary": "开源状态防火墙，在上下文组装前拦截提示词注入、数据泄露及不安全工具操作。",
+    "detail": "Omega Walls 是针对 RAG 系统和 AI 代理的开源状态化运行时防御防火墙。传统安全工具通常仅检查单条消息，而它能在上下文组装前拦截提示词注入、数据泄露及不安全工具操作。系统支持监控检索内容、会话记忆及跨会话攻击，有效防止上下文授权漂移。采用默认故障关闭策略，提供工具执行守卫与审计追踪，为复杂 Agent 工作流提供深层安全防护，确保间接、多步攻击在 steer 上下文或触发不安全执行前被检测并阻断。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://synqra.tech/omega-walls",
+    "date": "2026-04-14",
+    "id": "17761734432292"
+  },
+  {
+    "title": "Codacy 推出 AI Inventory：代码级影子 AI 检测方案",
+    "summary": "解决企业影子 AI 可见性问题，自动扫描代码库识别开发者使用的 AI 工具与模型。",
+    "detail": "Codacy 正式发布 AI Inventory 功能，旨在解决企业日益严重的影子 AI 可见性难题。面对 Stack Overflow 调查显示 84% 开发者使用 AI 编码工具但管理层缺乏清单的现状，该工具通过代码级检测自动识别仓库中使用的 AI 模型与工具。相比人工调查，它能提供准确、实时的使用情况报告，帮助 CTO 应对合规审查与采购管理。这一更新填补了 AI 采用率与安全可见性之间的缺口，使工程组织能够有效管理开发者自发采用的 AI 工具风险。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Security"
+    ],
+    "link": "https://blog.codacy.com/which-ai-tools-are-your-devs-using-solving-the-shadow-ai-problem-with-ai-inventory",
+    "date": "2026-04-14",
+    "id": "17761734432293"
+  },
+  {
+    "title": "Zuver：小于 10MB 的轻量级开源 Agentic AI 框架",
+    "summary": "基于 Go 语言编写，支持多代理编排、向量 RAG 及 MCP 协议，单二进制部署。",
+    "detail": "Zuver 是一个基于 Go 语言编写的轻量级开源 Agentic AI 框架，二进制文件小于 10MB。它专为企业应用和个人伴侣 AI 设计，支持多代理编排、向量 RAG 引擎及 MCP 协议集成。核心特点包括细粒度权限系统、动态技能执行及持久化记忆。相比重型框架，它降低 90% 内存成本，支持单二进制部署与 IoT 场景，无需额外组件即可运行复杂代理流程。其可视化流程管道与路由引擎原生处理代理间消息，适合资源受限环境下的高可靠 AI 部署。",
+    "tags": [
+      "New",
+      "Framework",
+      "Go"
+    ],
+    "link": "https://zuver.cc",
+    "date": "2026-04-14",
+    "id": "17761734432294"
+  },
+  {
+    "title": "DollhouseMCP 2.0：模块化 AI 定制构建块",
+    "summary": "基于 MCP 协议，将提示词转化为可版本化、组合的角色、技能与记忆模块。",
+    "detail": "DollhouseMCP 2.0 是开源的 MCP 可组合 AI 构建块平台，致力于实现用户拥有的 AI 定制化控制。它将提示词转化为可版本化、共享的模块化元素，包括角色、技能、模板、代理及记忆。内置 38 种预设元素与安全执行层，支持通过 MCP-AQL 进行结构化操作。平台兼容 Claude Desktop、Cursor 等主流客户端，通过本地引导安装快速集成。这不仅简化了 AI 定制流程，还通过模块化设计促进了能力复用与社区共享，提升了 Agent 开发效率。",
+    "tags": [
+      "New",
+      "MCP",
+      "Customization"
+    ],
+    "link": "https://dollhousemcp.com/",
+    "date": "2026-04-14",
+    "id": "17761734432295"
+  },
+  {
     "title": "VibeDrift：本地化检测 AI 生成代码库的架构漂移",
     "summary": "开源工具 VibeDrift 可本地运行，检测 AI 生成代码中的架构不一致与安全漏洞，免费层级提供深度扫描。",
     "detail": "VibeDrift 是一款针对 AI 生成代码库的质量控制工具。随着 AI 编程助手的普及，不同会话生成的代码常出现架构矛盾（如混用 Repository 模式与裸 SQL）。该工具包含 8 种检测器，能在约 2 秒内完成扫描，生成独立的 HTML 报告。其核心优势在于隐私保护，所有分析均在本地运行，零数据上传。免费用户每月可获得 3 次深度扫描，适合开发者监控 AI 辅助开发中的技术债务积累与安全合规性。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/Grimm67123/GrimmBot",
     "date": "2026-04-12",
     "id": "17760200698940"
-  },
-  {
-    "title": "统一生成多平台 AI 配置文件工具",
-    "summary": "一次编写指令，自动生成 Claude、Copilot 等配置。",
-    "detail": "universal-ai-config 允许开发者编写统一的 AI 指令、技能和 Agent 模板，自动生成适配 Claude Code、GitHub Copilot 和 Cursor 等不同工具的配置文件。支持 MCP 服务器配置和钩子函数，解决了多工具配置冗余问题。该工具显著提升了开发者在多种 AI 编码助手间切换的工作流效率，适合需要统一管理 AI 上下文的团队。随着企业采用多种 AI 工具，标准化配置管理成为刚需，此项目填补了工作流自动化中的空白，降低了维护成本。通过 EJS 模板变量支持高度定制，确保不同工具间行为一致性，是 AI 工程化落地的实用工具。",
-    "tags": [
-      "Dev",
-      "Workflow",
-      "Config"
-    ],
-    "link": "https://github.com/fabis94/universal-ai-config",
-    "date": "2026-04-12",
-    "id": "17760200698941"
-  },
-  {
-    "title": "集成 AI 队友的无限画布项目管理工具",
-    "summary": "替代 Jira 与 Slack，AI 代理作为真实队友参与规划。",
-    "detail": "is.team 推出无限画布项目管理平台，宣称可替代 Jira、Slack 和 Miro。其核心创新在于将 AI 代理作为真实队友融入工作流，支持视觉化规划与自动执行任务。定价策略为 15 人每月 16 美元扁平化收费。该产品反映了 AI Agent 从辅助工具向协作队友转变的趋势，适合寻求简化技术栈的初创团队。通过整合沟通与任务管理，减少上下文切换，AI 自动处理繁琐工作。这种一体化画布模式可能重塑远程协作形态，值得观察其实际落地效果及用户留存率。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Agent"
-    ],
-    "link": "https://is.team",
-    "date": "2026-04-12",
-    "id": "17760200698942"
-  },
-  {
-    "title": "英特尔 NPU 本地部署 Ollama 兼容方案",
-    "summary": "基于 OpenVINO，实现 Intel 硬件上的本地 AI 推理。",
-    "detail": "NoLlama 项目为英特尔 NPU 和 ARC 显卡提供了 Ollama/OpenAI 兼容的 API 接口，基于 OpenVINO 技术栈。这使得开发者能够在英特尔硬件上进行本地 AI 模型部署，无需依赖 NVIDIA GPU。对于关注边缘计算、隐私保护及降低硬件成本的开发者而言，该方案提供了重要的本地推理替代选择，推动了 AI 在非传统硬件上的普及。随着 Intel AI PC 战略推进，此类兼容性工具将降低本地大模型运行门槛，促进端侧智能应用生态发展，具有硬件生态战略意义。",
-    "tags": [
-      "Dev",
-      "Deployment",
-      "Intel"
-    ],
-    "link": "https://github.com/aweussom/NoLlama",
-    "date": "2026-04-12",
-    "id": "17760200698943"
-  },
-  {
-    "title": "基于 iMessage 的主动式 AI 个人代理",
-    "summary": "结合 GraphRAG 与语义记忆，主动预判用户需求。",
-    "detail": "Summer AI 是一款运行在 iMessage 上的主动式代理，通过连接邮件和日历预判用户需求。核心技术采用 Qdrant 和 GraphRAG 构建语义记忆层，不仅存储事实还学习行为模式。不同于被动响应的聊天机器人，它试图结合 Character.AI 的个性与 ChatGPT 的效用。该项目展示了个人 AI 代理在上下文感知与主动性方面的前沿探索。通过后台代理处理日常数据，实现真正的主动服务而非被动问答，为个人智能助理提供了新的交互范式，潜在改变人机互动方式。",
-    "tags": [
-      "New",
-      "RAG",
-      "Personal AI"
-    ],
-    "link": "https://hemesh.tech/builds/summer-ai.html",
-    "date": "2026-04-12",
-    "id": "17760200698944"
-  },
-  {
-    "title": "专为 AI 代理设计的 TUI 差异审查工具",
-    "summary": "终端内审查差异并输出结构化注释供 AI 使用。",
-    "detail": "revdiff 是一个终端用户界面（TUI）工具，专为审查代码差异和文档设计。支持内联注释并将结构化输出管道传输给 AI 代理（如 Claude Code）。具备词级差异高亮、合并支持及 Vim 式导航等功能。该工具优化了基于终端的 AI 编码会话流程，使开发者能在不离开终端的情况下高效审查变更并与 AI 协作，适合命令行重度用户。它将人工审查与 AI 自动化结合，结构化输出便于后续处理，提升了代码审查环节的精度与效率，是 AI 辅助编程工作流的重要补充。",
-    "tags": [
-      "Dev",
-      "CLI",
-      "CodeReview"
-    ],
-    "link": "https://github.com/umputun/revdiff",
-    "date": "2026-04-12",
-    "id": "17760200698945"
-  },
-  {
-    "title": "微软高管：AI 智能体未来需购买软件许可证",
-    "summary": "微软高管提出 AI 智能体可能需要像人类员工一样购买软件席位许可。",
-    "detail": "微软高管近期表示，随着 AI 智能体（Agents）深入工作流程，它们可能需要购买软件许可证或席位。这一观点揭示了 AI 商业化后的授权新模式，可能显著改变企业软件采购策略。若智能体被视为独立用户，软件厂商将迎来新的收入增长点，但企业成本也将上升。这标志着 AI 从工具向“数字员工”身份转变的关键法律与商业界定，引发行业对自动化成本结构的重新评估。未来软件合同可能需明确区分人类用户与 AI 代理，以避免合规风险，这将推动 SaaS 定价模型的深刻变革。",
-    "tags": [
-      "News",
-      "Microsoft",
-      "AI Agents"
-    ],
-    "link": "https://www.businessinsider.com/microsoft-executive-suggests-ai-agents-buy-software-licenses-seats-2026-4",
-    "date": "2026-04-12",
-    "id": "17760154981390"
   }
 ]
