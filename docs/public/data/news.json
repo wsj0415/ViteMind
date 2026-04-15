@@ -1,5 +1,96 @@
 [
   {
+    "title": "Unbubble Glance: X 平台 AI 事实核查插件",
+    "summary": "免费 Chrome 扩展，实时标记 X feed 中需核实帖子。",
+    "detail": "Unbubble 推出 Glance 插件，作为 X 平台的离散事实核查工具。用户在滚动浏览时，它会标记值得再次查看的帖子，旨在可持续地对抗虚假信息。该工具通过 AI 辅助识别潜在误导内容，提升社交媒体信息质量。无需注册即可免费使用，支持 Chrome 浏览器扩展安装。此外，该项目还包含 Shield 集成与研究板块，致力于构建更透明的信息环境，解决社交网络中的信任危机，让用户在消费内容时获得即时的事实核查支持，减少谣言传播。",
+    "tags": [
+      "New",
+      "Social Media",
+      "Fact-Checking"
+    ],
+    "link": "https://www.unbubble.news/extension",
+    "date": "2026-04-15",
+    "id": "17762644795940"
+  },
+  {
+    "title": "评估差距：设计可扩展的 AI 输出人工审查",
+    "summary": "探讨 AI 生成速度与人类审查能力之间的巨大差距及设计对策。",
+    "detail": "文章提出“评估差距”概念，即 AI 生成输出的速度远超人类可靠审查的能力。随着 LLM 集成增多，幻觉和错误输出风险增加，从法律文件到软件开发无处不在。作者强调这是设计问题，需构建新方法论加速人类评估，缓解非确定性带来的心理影响。人类不能大规模审查每条输出，因此团队需将此视为开发挑战，设计能弥合速度差距的系统，避免人类因过载而产生自满或倦怠，这是软件设计的新前沿。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Design"
+    ],
+    "link": "https://tonyalicea.dev/blog/the-evaluability-gap/",
+    "date": "2026-04-15",
+    "id": "17762644795941"
+  },
+  {
+    "title": "鞋业品牌 Allbirds 出售业务后转型 AI",
+    "summary": "传统鞋企 Allbirds 出售鞋业业务，正式宣布战略 pivot 至 AI 领域。",
+    "detail": "TechCrunch 报道，可持续鞋类品牌 Allbirds 在出售其核心鞋业业务后，决定全面转向 AI 行业。这一重大战略转型标志着传统消费品牌对 AI 潜力的认可。此举可能涉及利用 AI 技术重构商业模式或开发新产品，反映 AI 对传统行业的颠覆性影响。新闻发布于 2026 年 StrictlyVC 大会期间，显示资本市场对 AI 转型的关注。Allbirds 的 pivot 表明，即便在非科技领域，AI 也被视为未来增长的关键引擎，企业愿为此放弃原有核心业务。",
+    "tags": [
+      "News",
+      "Business",
+      "Pivot"
+    ],
+    "link": "https://techcrunch.com/2026/04/15/after-sale-of-its-shoe-business-allbirds-pivots-to-ai/",
+    "date": "2026-04-15",
+    "id": "17762644795942"
+  },
+  {
+    "title": "SafeWeave: 集成于 AI 编辑器的安全扫描 MCP 服务",
+    "summary": "8 种安全扫描器作为 MCP 服务器，12 秒内检测 AI 生成代码漏洞。",
+    "detail": "SafeWeave 专为 AI 原生团队设计，作为 MCP 服务器集成于 Cursor、Claude Code 等编辑器。它包含 8 种扫描器（如 Semgrep, Trivy），平均 12 秒完成 5 万行代码扫描。免费层级支持无限本地扫描，旨在解决 AI 生成代码的安全漏洞问题，无需配置即可使用。由前 Snyk 和 Trail of Bits 工程师构建，针对 AI 生成漏洞实际发生场景。支持 GitHub Actions 和 GitLab CI，确保代码从源到容器的全攻击面覆盖，让开发者快速交付而不泄露漏洞。",
+    "tags": [
+      "Dev",
+      "Security",
+      "MCP"
+    ],
+    "link": "https://safeweave.dev",
+    "date": "2026-04-15",
+    "id": "17762644795943"
+  },
+  {
+    "title": "Cloudflare 推出 Project Think 下一代 AI 代理基建",
+    "summary": "发布新一代 Agents SDK，支持持久执行、子代理及沙盒代码执行。",
+    "detail": "Cloudflare 引入 Project Think，旨在构建下一代 AI 代理。提供持久执行、子代理、沙盒代码执行和持久会话等新原语。针对当前代理仅限本地运行或闲置成本高的问题，利用全球边缘网络提供可扩展的代理基础设施，支持复杂工作流自动化。此前 Pi、Claude Code 等工具证明了给予 LLM 读写执行能力的价值。Project Think 基于 Agents SDK，允许开发者构建长期运行的代理，解决协作和设备间交接难题，降低闲置成本。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "Agents"
+    ],
+    "link": "https://blog.cloudflare.com/project-think/",
+    "date": "2026-04-15",
+    "id": "17762644795944"
+  },
+  {
+    "title": "Cal.com 因 AI 安全风险关闭核心开源代码库",
+    "summary": "scheduling 平台 Cal.com 宣布闭源核心代码，以防 AI 自动化漏洞利用。",
+    "detail": "Cal.com 创始人宣布因 AI 改变安全格局而关闭核心代码库。AI 使得代码扫描和漏洞利用自动化成本极低，透明度变为暴露风险。核心代码将不再公开，但会发布名为 cal.diy 的 MIT 许可项目供爱好者使用。此举反映开源社区对 AI 安全威胁的新应对策略。创始人称“开源已死”，这是为保护客户和社区做出的艰难决定。表明在 AI 自动化攻击面前，传统开源模式可能面临重构，安全优先级高于开放性。",
+    "tags": [
+      "News",
+      "Open Source",
+      "Security"
+    ],
+    "link": "https://twitter.com/pumfleet/status/2044406553508274554",
+    "date": "2026-04-15",
+    "id": "17762644795945"
+  },
+  {
+    "title": "观点：AI 是最近的“神灯”，难点在于许愿",
+    "summary": "文章比喻 AI 为神灯，将努力从“如何实现”转移到“想要什么”。",
+    "detail": "Big Medium 文章引用观点，称 AI 如同神灯，外包了“如何实现”的过程。这导致心智努力完全转移到“想要什么”上。然而大多数人和组织并不擅长明确需求。这揭示了 AI 时代的核心挑战：提示工程本质上是需求定义的精确化，而非技术实现。文章由 Josh Clark 发布，引用 Alberto Romero 的理论，指出单次使用魔法对象反转了努力分配。用户不再关心机制，只关心结果，这对产品设计提出了理解用户真实意图的新要求。",
+    "tags": [
+      "Dev",
+      "Philosophy",
+      "Prompting"
+    ],
+    "link": "https://bigmedium.com/ideas/links/ai-is-the-closest-thing-to-a-genie-lamp.html",
+    "date": "2026-04-15",
+    "id": "17762644795946"
+  },
+  {
     "title": "Snap 裁员 16% 归因 AI 技术变革",
     "summary": "Snap 宣布裁员 16%，明确表示因 AI 快速进步调整人力结构。",
     "detail": "Snap 公司最新备忘录显示，由于人工智能技术的快速进步，公司决定裁员 16%。这反映了 AI 对传统社交媒体运营模式的冲击，企业正通过自动化减少人力依赖。此次裁员凸显了 AI 浪潮下科技行业的结构性调整，预计更多公司将跟进优化团队以适应 AI 优先战略，行业竞争格局将进一步向技术密集型倾斜。",
@@ -1207,96 +1298,5 @@
     "link": "https://github.com/Squid-Proxy-Lovers/ccp",
     "date": "2026-04-14",
     "id": "17761444262663"
-  },
-  {
-    "title": "2026 年游戏开发指南：AI 时代学习 Unity 是否值得？",
-    "summary": "行业文章分析认为，2026 年学习 Unity 仍有价值，AI 将放大开发者能力而非取代。",
-    "detail": "### 核心观点\n针对\"AI 时代学习 Unity 是否浪费时间的疑问，文章指出 AI 是能力的放大器。若懂游戏开发，AI 能提升效率；若不懂，AI 只会加速困惑。\n\n### 职业建议\n文章强调最终目标是制作游戏而非编写代码。建议开发者拥抱 AI 工具，将精力集中在创意实现上。对于 2026 年的初学者，掌握核心开发逻辑结合 AI 工具仍是可行的职业路径，不必因技术变革而过度焦虑。",
-    "tags": [
-      "Dev",
-      "Game Dev",
-      "Career"
-    ],
-    "link": "https://darkounity.com/blog/is-it-worth-learning-unity-in-2026",
-    "date": "2026-04-14",
-    "id": "17761444262664"
-  },
-  {
-    "title": "NottoAI 聚合平台：单一订阅访问 16+ 主流 AI 模型",
-    "summary": "NottoAI 推出聚合服务，用户可通过一次订阅使用 GPT-5.4、Claude 等 16 多种模型，节省成本。",
-    "detail": "### 产品亮点\nNottoAI 允许用户在一个聊天界面中切换使用 GPT-5.4、Claude、Gemini 等 16+ 模型。支持中途切换模型对比答案，无需单独订阅。\n\n### 价值主张\n平台声称相比单独订阅可每月节省 50 美元以上。适合需要频繁对比不同模型输出效果的重度用户。提供 500 免费积分试用，支持自带 API 密钥以保障隐私。解决了用户需管理多个订阅账户的痛点，提升了模型切换效率。",
-    "tags": [
-      "Deal",
-      "LLM",
-      "Productivity"
-    ],
-    "link": "https://nottoai.com/",
-    "date": "2026-04-14",
-    "id": "17761444262665"
-  },
-  {
-    "title": "Qten AI 发布：一站式 AI 社交媒体视频生成平台",
-    "summary": "Qten AI 新平台支持将创意快速转化为视频，并自动发布至 YouTube、TikTok 等主流社交网络。",
-    "detail": "### 功能概述\nQten AI 专注于社交媒体内容创作，提供从创意到视频生成再到多平台发布的全流程服务。支持 YouTube、TikTok、Instagram 等渠道。\n\n### 目标用户\n适合个人创作者及营销机构。平台提供实时协作、高级分析和项目管理工作区。声称能将原本需要一天的工作流程缩短至几小时，提升内容产出效率。展示了 AI 在视频流媒体创作领域的自动化潜力。",
-    "tags": [
-      "New",
-      "Video Gen",
-      "Social Media"
-    ],
-    "link": "https://www.qten.ai/",
-    "date": "2026-04-14",
-    "id": "17761444262666"
-  },
-  {
-    "title": "OpenAI 收购个人财务 AI 初创公司 Hiro",
-    "summary": "OpenAI 正式收购 AI 个人财务初创公司 Hiro，布局金融代理领域。",
-    "detail": "OpenAI 完成对 Hiro 的收购，标志着其向垂直领域 AI 代理迈出关键一步。Hiro 专注于个人财务管理，此次收购暗示 OpenAI 可能正在构建能够执行复杂金融任务的自主 Agent。行业观察认为，这是 AI 从对话向行动转型的重要信号，金融领域将成为 AI Agent 落地的下一个高地，用户有望通过自然语言管理个人资产。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "M&A"
-    ],
-    "link": "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/",
-    "date": "2026-04-14",
-    "id": "17761343994490"
-  },
-  {
-    "title": "Clawd Cursor 实现 AI 完全控制 macOS 桌面",
-    "summary": "新版本支持 macOS 键盘自动化，AI 可视觉识别并操作桌面应用。",
-    "detail": "Clawd Cursor v0.7.14 发布，赋予 AI 模型“眼睛”和“手”，可直接控制 macOS 桌面。支持 OCR 识别、鼠标移动及键盘输入，兼容 Claude Code 等模型。通过 MCP 协议集成，无需单独 API 即可操作屏幕元素。这降低了 Computer Use 技术的门槛，为本地自动化 Agent 开发提供了新基础设施，实现真正的桌面级 AI 操作。",
-    "tags": [
-      "Dev",
-      "Desktop Automation",
-      "MCP"
-    ],
-    "link": "https://clawdcursor.com",
-    "date": "2026-04-14",
-    "id": "17761343994491"
-  },
-  {
-    "title": "AI Agent Stores 让 Shopee 商品可被 AI 搜索发现",
-    "summary": "新方案使东南亚电商商品对 ChatGPT 等 AI 搜索引擎可见。",
-    "detail": "针对 AI 爬虫无法抓取 Shopee 等平台的问题，AI Agent Stores 提供机器可读的商店层。通过 llms.txt、MCP Server 及 Schema.org 结构化数据，使商品可被 ChatGPT 和 Perplexity 索引。此举解决了电商在 AI 搜索时代的可见性难题，为商家开辟了新的 AI 驱动发现渠道，无需替换原有店铺即可融入 AI 经济生态。",
-    "tags": [
-      "New",
-      "E-commerce",
-      "AI Search"
-    ],
-    "link": "https://www.bbiz.shop/blog",
-    "date": "2026-04-14",
-    "id": "17761343994492"
-  },
-  {
-    "title": "Polara AI 推出自主营销首席官代理",
-    "summary": "自主 AI 代理整合营销栈，自动执行策略与外联任务。",
-    "detail": "Polara AI 发布自主营销代理，旨在替代传统营销团队。它能扫描产品、连接技术栈并自动执行营销策略。集成 Twitter、Stripe、Gmail 等工具，提供单一终端界面。通过自主架构 delegating 任务，降低初创公司获客成本，体现了 AI Agent 在垂直业务流程自动化的深入应用，让营销执行更加智能化。",
-    "tags": [
-      "New",
-      "Marketing",
-      "Autonomous Agent"
-    ],
-    "link": "https://www.polara.ai/",
-    "date": "2026-04-14",
-    "id": "17761343994493"
   }
 ]
