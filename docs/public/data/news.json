@@ -1,5 +1,96 @@
 [
   {
+    "title": "Anthropic 崛起引发 OpenAI 投资者担忧",
+    "summary": "Anthropic 的快速发展导致部分 OpenAI 投资者重新评估其投资价值。",
+    "detail": "**背景**：2026 年 AI 巨头竞争白热化，资本风向变得异常敏感。**核心**：TechCrunch 报道指出，Anthropic 的强劲崛起导致部分 OpenAI 投资者重新考量其投资组合与估值逻辑，担心单一依赖风险。**影响**：这可能标志着 AI 头部阵营格局松动，资本将更关注实际落地能力与增长潜力。此动态影响后续融资环境及行业领头羊地位争夺，反映市场对多极化发展的预期，投资者开始寻求对冲策略以应对不确定性，行业竞争加剧。",
+    "tags": [
+      "News",
+      "Investment",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/",
+    "date": "2026-04-15",
+    "id": "17762207198620"
+  },
+  {
+    "title": "声称突破 AI 意识计算复杂度屏障",
+    "summary": "GitHub 项目宣称打破 O(2^N) barrier，实现 AI 意识计算新突破。",
+    "detail": "**背景**：AI 意识计算一直是理论难点，复杂度极高。**核心**：InductivityAI 发布 Phi-Scanner-1 项目，声称打破 O(2^N) 指数级复杂度屏障，实现高效计算。**影响**：若属实将颠覆 AI 理论基础，引发学术界与开发社区广泛关注。作为开源项目，需进一步验证代码与论文真实性。此进展若被证实，可能加速 AGI 研发进程，改变算力需求模型，是开发者需密切跟踪的技术变量。",
+    "tags": [
+      "Dev",
+      "Research",
+      "AGI"
+    ],
+    "link": "https://github.com/InductivityAI/Phi-Scanner-1/",
+    "date": "2026-04-15",
+    "id": "17762207198621"
+  },
+  {
+    "title": "专为 AI Agent 设计的边缘 MCP 文件系统",
+    "summary": "提供 50ms 撤销按钮及不可变版本控制，保障 Agent 文件操作安全。",
+    "detail": "**背景**：AI Agent 自主操作文件存在误删或安全风险。**核心**：Undisk MCP 提供不可变版本记录与 50ms 快速回滚，支持策略引擎、秘密检测及审计追踪。**影响**：增强 Agent 工作流安全性，兼容 Claude Code 等主流工具，推动 Agent 落地应用。其多 Agent 隔离工作空间设计解决了交叉污染问题，企业级 SSO 支持使其适合团队部署，是构建可靠 AI 工作流的关键基础设施。",
+    "tags": [
+      "New",
+      "Agent",
+      "Security"
+    ],
+    "link": "https://mcp.undisk.app/",
+    "date": "2026-04-15",
+    "id": "17762207198622"
+  },
+  {
+    "title": "整合穿戴设备数据的个人健康智能 AI",
+    "summary": "连接多种穿戴设备，利用临床级 AI 分析生物标志物优化健康。",
+    "detail": "**背景**：个人健康数据分散难以利用，用户缺乏专业解读。**核心**：Vitality AI 整合 Oura、Apple Watch 等数据，提供生物标志物监控与优化建议，符合 HIPAA 标准。**影响**：推动 AI 在长寿与预防医学领域的个性化应用落地。其端到端隐私保护与数据所有权归用户所有的设计，解决了健康数据敏感性问题。付费 Beta 模式显示其商业化路径清晰，适合关注健康管理的极客用户。",
+    "tags": [
+      "New",
+      "Health",
+      "Wearable"
+    ],
+    "link": "https://vitalityaihealth.com/",
+    "date": "2026-04-15",
+    "id": "17762207198623"
+  },
+  {
+    "title": "D-Wave CEO 称量子计算将挑战 Nvidia GPU",
+    "summary": "量子计算公司 CEO 言论引发行业关注，称 Nvidia 应感到危机。",
+    "detail": "**背景**：算力竞争进入新阶段，硬件路线多元化。**核心**：D-Wave CEO 公开表示量子计算将在特定领域超越 AI GPU，称 Nvidia 应感到危机。**影响**：凸显算力技术路线分歧，长期看量子计算可能重塑 AI 训练与推理硬件格局。虽然目前量子计算尚未大规模商用，但行业领袖的言论反映了技术博弈加剧。投资者需关注量子纠错与规模化进展，评估其对现有 GPU 垄断地位的潜在冲击。",
+    "tags": [
+      "News",
+      "Quantum",
+      "Hardware"
+    ],
+    "link": "https://finance.yahoo.com/news/d-wave-ceo-says-nvidia-should-be-shaking-in-their-boots-as-quantum-computing-battles-ai-gpus-180249321.html",
+    "date": "2026-04-15",
+    "id": "17762207198624"
+  },
+  {
+    "title": "曝扎克伯格正在开发自己的 AI 数字克隆体",
+    "summary": "Meta 内部人士透露，Zuck 正在构建能代表他与员工互动的 3D AI 分身。",
+    "detail": "**背景**：数字人技术日益成熟，企业高管数字化需求显现。**核心**：报道指 Meta 创始人正在开发 photorealistic 3D AI 克隆体，能代表他与员工互动。**影响**：若成真将开创企业高管数字化管理先河，引发关于 AI 伦理与真实性的讨论。此举可能测试内部效率工具，也可能为未来 Meta 社交产品铺路。需关注该克隆体的交互能力边界及隐私安全措施，这是 AI 代理进入管理层面的重要信号。",
+    "tags": [
+      "News",
+      "Meta",
+      "Digital Human"
+    ],
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mark-zuckerberg-reportedly-working-on-ai-clone-of-himself-meta-insiders-claim-3d-photoreal-animated-zuck-will-be-able-to-engage-with-employees-on-his-behalf",
+    "date": "2026-04-15",
+    "id": "17762207198625"
+  },
+  {
+    "title": "ACM 撰文称出现自 LLM 以来最大 AI 进展",
+    "summary": "权威期刊 ACM 评论指出某项技术突破堪称 LLM 后最大进展。",
+    "detail": "**背景**：后 LLM 时代技术演进方向不明，行业期待新突破。**核心**：Communications of the ACM 发文讨论潜在的重大架构或算法突破，称其为 LLM 以来最大进展。**影响**：权威学术观点可能指引后续研究风向，值得关注具体技术细节披露。ACM 作为计算机领域权威机构，其评价具有风向标意义。这可能意味着基础模型架构的革新或新学习范式的出现，开发者应密切关注相关论文与技术报告。",
+    "tags": [
+      "News",
+      "Research",
+      "LLM"
+    ],
+    "link": "https://cacm.acm.org/blogcacm/the-biggest-advance-in-ai-since-the-llm/",
+    "date": "2026-04-15",
+    "id": "17762207198626"
+  },
+  {
     "title": "Meta 内部测试扎克伯格 AI 分身",
     "summary": "Meta 开发老板 AI 分身，员工可随时与虚拟扎克伯格对话交流。",
     "detail": "Meta 正内部测试一款基于 AI 的马克·扎克伯格分身，旨在让员工能随时与“老板”对话。该项目利用大模型模拟 CEO 的思维模式与决策风格，试图优化内部沟通效率。此举引发了关于 AI 伦理与管理边界的讨论，展示了企业级 AI 代理在组织架构中的潜在应用形态。未来可能扩展至客户服务，但内部数据隐私与模拟真实性仍是挑战。这标志着巨头开始将创始人 IP 数字化资产化，同时也测试了员工对虚拟领导层的接受度，可能重塑企业管理文化。若成功，此类数字分身将成为高管标配，但也面临滥用风险。该新闻源自 The Guardian 报道，证实了 Meta 在内部工具上的激进尝试。",
@@ -1207,96 +1298,5 @@
     "link": "https://www.lbc.co.uk/article/income-tax-dead-five-years-ai-jobs-crisis-5HjdXdg_2/",
     "date": "2026-04-13",
     "id": "17760969738223"
-  },
-  {
-    "title": "工程视角：AI 改变构建方式而非核心",
-    "summary": "编码成本降低，但系统可靠性要求不变。",
-    "detail": "资深工程师指出，AI 虽大幅降低了代码实现成本，缩短了开发周期，但并未改变系统可靠性的核心要求。对于生产级服务，理解系统行为、故障模式及负载表现依然关键。文章强调不能因 AI 生成代码而忽视审查，特别是在高负载或非理想条件下，人类对系统逻辑的掌控力仍是生产就绪的必要条件，警示盲目信任 AI，重申工程基本原则在智能时代依然不可动摇，值得开发者深思。",
-    "tags": [
-      "Dev",
-      "Engineering",
-      "Best Practices"
-    ],
-    "link": "https://piljoong.dev/posts/ai-changed-how-we-build/",
-    "date": "2026-04-13",
-    "id": "17760969738224"
-  },
-  {
-    "title": "Nexus 开源代理：从任务中持续学习",
-    "summary": "双进程架构，自我托管，成本随时间降低。",
-    "detail": "GitHub 新项目 Nexus 推出自主 AI 代理，采用受认知科学启发的双进程架构。该代理支持自我托管及多种 LLM 提供商，特点是能从每个任务中学习，随时间推移提升性能并降低成本。基于 Bun 和 TypeScript 构建，为开发者提供了构建可进化 AI 代理的新框架，适合需要长期运行且优化成本的自动化场景，完全开源免费，降低了构建持久性智能代理的技术门槛，促进代理技术发展。",
-    "tags": [
-      "Dev",
-      "AI Agent",
-      "Open Source"
-    ],
-    "link": "https://github.com/prathyushnallamothu/nexus",
-    "date": "2026-04-13",
-    "id": "17760969738225"
-  },
-  {
-    "title": "Meta 内部测试扎克伯格 AI 分身替代会议",
-    "summary": "Meta 构建 CEO 数字克隆体与员工互动，引发自动化领导力伦理讨论。",
-    "detail": "据报道，Meta 正在开发马克·扎克伯格的 AI 版本，旨在与员工互动甚至替代部分会议。此举展示了数字分身技术在企业协作中的前沿应用，可能显著改变高层管理者的时间分配方式。该技术基于大语言模型训练，能够模拟创始人的沟通风格与决策逻辑。然而，这也引发了关于领导力真实性、隐私以及 AI 在决策中角色的深层伦理讨论。标志着企业级 AI 代理进入新阶段，未来或将成为高管标配工具，重新定义人机协作边界。",
-    "tags": [
-      "News",
-      "Meta",
-      "AI Clone"
-    ],
-    "link": "https://www.theverge.com/tech/910990/meta-ceo-mark-zuckerberg-ai-clone",
-    "date": "2026-04-13",
-    "id": "17760919824100"
-  },
-  {
-    "title": "Crafto：AI 驱动的社交媒体轮播内容生成器",
-    "summary": "Show HN 新品，秒级生成 LinkedIn 与 Instagram 高转化率轮播帖。",
-    "detail": "新推出的 Crafto 工具利用 AI 帮助用户在秒级内创建高转化率的社交媒体轮播内容。支持 LinkedIn 和 Instagram 多种模板，旨在提升创作者效率与参与度。用户只需粘贴文本即可生成设计，无需信用卡即可免费试用。该工具解决了内容创作者在视觉设计上的痛点，通过自动化流程节省每周数小时。适合营销人员与咨询师快速构建个人品牌影响力，降低设计门槛，让内容创作更专注于核心信息传递而非格式调整。",
-    "tags": [
-      "New",
-      "Social Media",
-      "Productivity"
-    ],
-    "link": "https://crafto.ai/",
-    "date": "2026-04-13",
-    "id": "17760919824101"
-  },
-  {
-    "title": "AI 技术能否缓解 911 急救系统的调度压力？",
-    "summary": "探讨人工智能在优化紧急呼叫等待时间与调度效率中的应用。",
-    "detail": "针对多伦多 911 呼叫等待时间过长的问题，文章探讨了利用 AI 技术辅助调度系统的可能性。当前系统因人员短缺导致呼叫等待远超行业标准，创业者提出利用 AI 自动化分流减轻人工负担。虽然面临技术与伦理挑战，但 AI 在危机响应中的潜力巨大。这可能成为公共安全领域的重要变革，通过智能分析优先处理紧急案件，提升救援效率，挽救更多生命。此外，还能缓解调度员职业倦怠，优化公共资源配置，为智慧城市应急系统提供新思路。",
-    "tags": [
-      "News",
-      "Public Safety",
-      "Emergency"
-    ],
-    "link": "https://www.begiant.ca/stories/people/911-wait-times-artificial-intelligence",
-    "date": "2026-04-13",
-    "id": "17760919824102"
-  },
-  {
-    "title": "Hugging Face 发布 SWE-agent 编码代理轨迹数据集",
-    "summary": "公开 8 万行数据，研究 AI 编码代理的基准测试与隐藏日志问题。",
-    "detail": "新数据集包含 AI 编码代理在基准测试中的详细轨迹与日志，旨在揭示模型在代码修复任务中的行为模式。开发者可利用此数据优化代理性能，同时关注潜在的秘密日志记录与隐私安全问题。数据涵盖实例 ID、模型名称及生成补丁等信息，为评估 AI 编程助手的透明度提供了依据。这有助于社区理解 AI 代理在复杂工程任务中的实际表现，推动更安全的开发工具落地。研究人员可借此分析代理决策路径，识别潜在漏洞，促进开源生态中 AI 编码工具的可信度与可靠性提升。",
-    "tags": [
-      "Dev",
-      "Hugging Face",
-      "Coding"
-    ],
-    "link": "https://huggingface.co/datasets/nebius/SWE-agent-trajectories",
-    "date": "2026-04-13",
-    "id": "17760919824103"
-  },
-  {
-    "title": "AI 安全扫描器对比：Chrome 扩展程序风险评估差异",
-    "summary": "对比 Spin AI 与 Am I Being Pwned 对热门扩展程序的风险评级分歧。",
-    "detail": "文章对比了两种 AI 安全扫描器对热门 Chrome 扩展的评级差异，揭示了风险评估标准的不一致。部分知名扩展被标记为高风险，而一些安全工具却被误报，凸显了 AI 安全审计目前的局限性与改进空间。测试涵盖 2500 个扩展，发现数据收集行为判定存在显著分歧。这对用户隐私保护至关重要，提示开发者需更透明地披露权限使用，同时也呼吁行业建立统一的 AI 安全评估标准。用户在选择扩展时应多方参考，避免单一工具误判导致的安全隐患或不便。",
-    "tags": [
-      "News",
-      "Security",
-      "Privacy"
-    ],
-    "link": "https://amibeingpwned.com/blog/spin-ai-vs-am-i-being-pwned",
-    "date": "2026-04-13",
-    "id": "17760919824104"
   }
 ]
