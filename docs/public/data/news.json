@@ -1,5 +1,31 @@
 [
   {
+    "title": "Antirez 深度分析：AI 网络安全并非工作量证明",
+    "summary": "Redis 作者撰文指出 AI 安全依赖模型智能而非算力堆砌，弱模型无法理解复杂漏洞逻辑。",
+    "detail": "Redis 作者 antirez 撰文深入分析 AI 在网络安全的局限性。他指出网络安全不同于工作量证明（PoW），不能单纯靠算力堆砌。弱模型即使无限运行也无法发现如 OpenBSD SACK 这类需要理解多条件组合的漏洞，只会产生幻觉。未来网络安全竞争将取决于模型智能水平而非 GPU 数量。文章强调了当前 AI 在代码审计中缺乏真正理解因果逻辑的能力，仅靠模式匹配无法替代人类专家的安全洞察。",
+    "tags": [
+      "Dev",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://antirez.com/news/163",
+    "date": "2026-04-16",
+    "id": "17763375155545"
+  },
+  {
+    "title": "Memorable 上线：iPhone 端侧 AI 照片搜索应用",
+    "summary": "Memorable 应用登陆 App Store，支持在 iPhone 本地通过 AI 语义搜索照片、视频及截图。",
+    "detail": "Memorable 是一款专为 iPhone 设计的端侧 AI 照片搜索应用。用户可通过自然语言描述时刻来查找照片、视频和截图，所有处理均在设备本地完成，保障隐私。应用由 BlockDeep Labs 开发，分类为照片与视频，支持免费下载及应用内购买。该产品体现了端侧大模型在个人数据管理领域的落地趋势，让用户无需上传云端即可享受智能检索服务，解决了隐私与便利性的平衡问题。",
+    "tags": [
+      "New",
+      "App",
+      "Privacy"
+    ],
+    "link": "https://apps.apple.com/us/app/memorable-ai-photo-search/id6762152034",
+    "date": "2026-04-16",
+    "id": "17763375155546"
+  },
+  {
     "title": "Adobe 推出 Firefly AI 助手，集成 Creative Cloud",
     "summary": "Adobe 发布新 Firefly AI 助手，可直接调用 Creative Cloud 应用完成任务。",
     "detail": "Adobe 正式推出新一代 Firefly AI 助手，旨在深化生成式 AI 在创意工作流中的应用。根据 TechCrunch 报道，该助手具备跨应用操作能力，可直接调用 Creative Cloud 套件中的工具执行具体任务，而非仅生成素材。此举标志着 Adobe 从单一内容生成向自动化工作流转型，可能显著改变设计师与软件的交互方式，提升创作效率。这一更新反映了创意软件巨头在 AI 代理（Agent）领域的布局，试图通过自动化任务处理来巩固其在专业创作市场的护城河，应对新兴 AI 工具的竞争压力。",
@@ -167,6 +193,19 @@
     "link": "https://github.com/GenAI-Gurus/awesome-eu-ai-act",
     "date": "2026-04-16",
     "id": "17763075531083"
+  },
+  {
+    "title": "Allbirds 彻底转型 AI 基础设施，股价单日暴涨 300%",
+    "summary": "鞋履品牌 Allbirds 宣布放弃制鞋业务，转型为 AI 基础设施公司 NewBird AI，市场反应剧烈。",
+    "detail": "曾经的可持续鞋履品牌 Allbirds 宣布重大战略转型，放弃核心鞋类业务，更名为 NewBird AI 并转向 AI 基础设施领域。公司计划筹集 5000 万美元用于收购高性能低延迟 AI 计算硬件，并提供长期租赁服务。消息公布后股价飙升 300%，尽管其市值此前已从高点下跌 99%。这一案例极端地展示了当前资本市场对 AI 概念的狂热追捧，同时也反映了传统消费品牌在 AI 浪潮下的生存焦虑与投机性转型尝试。",
+    "tags": [
+      "News",
+      "Business",
+      "Infrastructure"
+    ],
+    "link": "https://techstartups.com/2026/04/15/allbirds-pivots-from-shoes-to-ai-after-99-collapse-stock-surges-300-on-newbird-ai-plan/",
+    "date": "2026-04-15",
+    "id": "17763375155542"
   },
   {
     "title": "学生利用 ChatGPT 和 Gemini 起诉大学歧视",
@@ -1014,6 +1053,19 @@
     "id": "17762207198626"
   },
   {
+    "title": "Fleeks 发布：面向自主 AI Agent 的生产级开发基础设施",
+    "summary": "Fleeks 推出统一开发生态，集成 Cloud IDE、自主 Agent 及 SDK，支持一键部署生产级应用。",
+    "detail": "Fleeks 正式发布，定位为面向自主 AI Agent 的生产级开发基础设施平台。不同于普通 AI 编辑器，它提供完整的开发基础设施，包括云 IDE、自主 AI Agent、多语言 SDK（Python/TS/Go）、CLI 及嵌入式工作区。所有界面共享底层 Docker 容器基础设施，支持秒级预热和企业级部署。该平台旨在解决开发者构建、测试和分发生产就绪应用的需求，通过统一生态连接不同开发表面，标志着 AI 开发工具链向基础设施化、代理化方向演进。",
+    "tags": [
+      "New",
+      "Dev",
+      "Infrastructure"
+    ],
+    "link": "https://docs.fleeks.ai/quickstart/introduction",
+    "date": "2026-04-14",
+    "id": "17763375155543"
+  },
+  {
     "title": "亚马逊 AI 政策风波：作家账户与网络漫画被取消",
     "summary": "知名漫画家博客称亚马逊因 AI 相关政策取消其多年账户及内容。",
     "detail": "资深漫画家 Sean Kleefeld 博客披露，亚马逊因其 AI 相关内容政策取消了其数十年的客户账户，导致 Comixology 漫画收藏及 Prime 会员丢失。此事件凸显平台 AI 内容审核政策的不透明性及对创作者权益的潜在影响，引发行业对数字资产所有权与平台权力的讨论。",
@@ -1246,57 +1298,5 @@
     "link": "https://datris.ai/videos/data-discovery-ingestion-consumption",
     "date": "2026-04-14",
     "id": "17762037400544"
-  },
-  {
-    "title": "Arlo CMO：全自动 AI 营销与 SEO 审计平台",
-    "summary": "每日自动审计网站、追踪竞争对手及 AI 搜索排名的营销工具。",
-    "detail": "Arlo CMO 是一款 AI 首席营销官平台，主打自动化网站审计与竞争对手追踪。它每日监控 SEO 技术指标及在 ChatGPT、Perplexity 等 AI 搜索中的品牌可见性。针对中小企业无法负担全职营销团队的问题，该工具以较低成本提供内容生成与排名监控，反映了 AI 在垂直业务场景落地的新趋势。",
-    "tags": [
-      "New",
-      "Marketing",
-      "SEO"
-    ],
-    "link": "https://arlocmo.site/",
-    "date": "2026-04-14",
-    "id": "17762037400545"
-  },
-  {
-    "title": "ILTY：拒绝“无脑安慰”的 AI 心理健康伴侣",
-    "summary": "针对焦虑与拖延症打造，不提供虚假赞美，主打真实反馈的心理健康 AI 应用。",
-    "detail": "由夫妻共同开发，旨在解决现有应用（如 Calm）像做作业或 ChatGPT 过度安慰的问题。ILTY 不提供无条件的自我肯定，而是针对用户的焦虑和拖延提供实际干预。这反映了 AI 心理健康领域从“陪伴”向“实效”的转变，满足特定心理需求用户的深层痛点。对于厌倦了传统冥想应用繁琐流程的用户，这种“不拍背”的设计提供了差异化的价值主张，可能开辟心理健康 AI 的新细分赛道，强调真实反馈而非情绪抚慰。这种反直觉的设计思路有望吸引那些寻求实质性改变而非暂时安慰的高价值用户群体。",
-    "tags": [
-      "New",
-      "Mental Health",
-      "App"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47771203",
-    "date": "2026-04-14",
-    "id": "17762002883510"
-  },
-  {
-    "title": "AI 代理介入嵌入式开发：实现硬件在环自动化",
-    "summary": "通过串口和继电器控制开发板，解决 AI 代理无法直接操作物理硬件的痛点。",
-    "detail": "文章探讨了如何让 AI 编码助手突破软件界限，直接参与嵌入式 Linux 开发。通过 USB 串口适配器和继电器板，AI 代理可读取控制台输出并控制目标板电源循环，实现构建 - 刷写 - 测试闭环。该项目基于 Luckfox Pico Ultra，展示了 AI 在硬件开发流程中的实际落地潜力。这种硬件在环（HIL）的自动化方案，解决了 AI 代理无法操作物理设备的瓶颈，为嵌入式系统开发提供了新的自动化范式，减少了人工迭代成本，显著提升了开发效率。",
-    "tags": [
-      "Dev",
-      "Embedded",
-      "Automation"
-    ],
-    "link": "https://www.electronicsconsult.com/blog/ai-assisted-hardware-in-the-loop-for-embedded-linux",
-    "date": "2026-04-14",
-    "id": "17762002883511"
-  },
-  {
-    "title": "AgentFM：将闲置 GPU 转化为去中心化 AI 超算网络",
-    "summary": "基于 Go 语言的 P2P 网络，利用全球闲置 CPU/GPU 资源运行大规模 AI 工作负载。",
-    "detail": "AgentFM 核心是一个单一的 Go 二进制文件，旨在构建去中心化 AI 超级计算机。它允许用户将空闲硬件接入全球网格，直接运行大型 AI 任务。这种模式挑战了集中式云算力垄断，为分布式计算提供了新的开源解决方案，支持 macOS、Linux 和 Windows 平台。通过点对点网络聚合闲置 GPU 和 CPU 资源，该项目试图降低 AI 训练和推理的门槛，为个人开发者提供低成本算力选择，具有潜在的颠覆性，可能改变算力分发格局。",
-    "tags": [
-      "New",
-      "Decentralized",
-      "GPU"
-    ],
-    "link": "https://github.com/Agent-FM/agentfm-core",
-    "date": "2026-04-14",
-    "id": "17762002883512"
   }
 ]
