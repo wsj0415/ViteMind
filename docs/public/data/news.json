@@ -1,5 +1,70 @@
 [
   {
+    "title": "Google 调整广告策略聚焦不良广告",
+    "summary": "Google 利用 AI 加强广告审查，封锁更多广告但减少封禁广告主。",
+    "detail": "Google 调整执法策略，利用 AI 技术更精准地识别不良广告内容，而非直接封禁广告主账户。数据显示封锁广告数量增加但封禁账户减少，表明 AI 提升了审查粒度。这一转变反映了科技巨头在平衡生态安全与广告收入之间的新策略，AI 成为合规执法的核心工具。",
+    "tags": [
+      "News",
+      "Google",
+      "Policy"
+    ],
+    "link": "https://techcrunch.com/2026/04/16/google-blocked-more-ads-but-banned-fewer-advertisers-as-ai-reshapes-enforcement/",
+    "date": "2026-04-16",
+    "id": "17763534033062"
+  },
+  {
+    "title": "Uber AI 编码预算数月耗尽",
+    "summary": "Uber 工程师广泛采用 AI 编码工具，导致年度预算提前耗尽。",
+    "detail": "Uber CTO 透露，因内部采用速度超出预期，公司年度 AI 编码工具预算在 2026 年初几个月内耗尽。目前 95% 的工程师每月使用 AI 工具，70% 的生产代码涉及 AI 生成内容。这一案例揭示了企业级 AI 部署的成本挑战，标志着软件开发从辅助模式向自主模式的快速转变，预算模型需重新评估。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Coding"
+    ],
+    "link": "https://aimmediahouse.com/ai-manufacturing/uber-let-ai-write-the-code-it-blew-the-budget",
+    "date": "2026-04-16",
+    "id": "17763534033063"
+  },
+  {
+    "title": "Claude Opus 4.7 提升 AI 代码审查能力",
+    "summary": "CodeRabbit 评估显示新模型在捕捉漏洞和提供反馈方面表现优异。",
+    "detail": "CodeRabbit 对 Claude Opus 4.7 进行了代码审查能力基准测试。在 100 个真实开源 PR 的错误模式测试中，该模型在捕捉竞态条件、空指针检查等深层漏洞方面表现优于以往模型。其反馈更具可执行性，跨文件推理能力增强。这表明前沿模型正显著提升自动化代码审查的可靠性，减少人工复核负担。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "CodeReview"
+    ],
+    "link": "https://www.coderabbit.ai/blog/claude-opus-4-7-for-ai-code-review",
+    "date": "2026-04-16",
+    "id": "17763534033064"
+  },
+  {
+    "title": "Gitmore 推出 AI Git 活动报告工具",
+    "summary": "自动将 Git 提交和 PR 转化为团队更新，发送至 Slack 或邮件。",
+    "detail": "Gitmore 是一款新产品，旨在自动化团队进度报告。它连接 GitHub、GitLab 等平台，利用 AI 总结提交记录和 PR 内容，生成日报或周报。该工具声称每周可为 5 人团队节省超过 6 小时的手动汇报时间，解决了远程协作中进度不透明和站会效率低的问题，适合敏捷开发团队。",
+    "tags": [
+      "New",
+      "Productivity",
+      "DevTool"
+    ],
+    "link": "https://gitmore.io/",
+    "date": "2026-04-16",
+    "id": "17763534033065"
+  },
+  {
+    "title": "开源项目 AI Business Analyst 中间件",
+    "summary": "连接数据库与 AI 代理的中间件，支持自然语言查询 SQL 数据。",
+    "detail": "这是一个开源项目，提供数据中间件服务，允许任何 AI 代理通过自然语言查询数据库。基于 Python 和 FastAPI 构建，支持将自然语言转换为 SQL 查询并返回结果。该项目降低了业务人员访问数据的门槛，为构建自主数据分析 Agent 提供了基础架构，适合开发者集成到私有化部署中。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "SQL"
+    ],
+    "link": "https://github.com/SaneethSunkari/Ai-Business-Analyst",
+    "date": "2026-04-16",
+    "id": "17763534033066"
+  },
+  {
     "title": "AI 研究者创业估值预测",
     "summary": "FutureSearch 预测 80 位顶级 AI 研究者若创业的种子轮估值。",
     "detail": "自 Ilya Sutskever 创立 Safe Superintelligence 以来，AI 研究者人才成为初创估值决定性因素。该报告基于 116 位著名研究者名单，排除已创业者，预测若他们今日宣布成立 AGI 相关公司的种子轮估值。分析假设创始人能招募网络内其他 prominent researchers。结果显示顶级研究者估值可达数亿美元，反映了市场对 AGI 技术路径的押注仍高度依赖顶尖智力资源，而非单纯商业模式，人才战争进一步加剧，资本愿意为潜在的技术突破支付高额溢价。此趋势表明，未来 AI 竞争核心将从数据转向顶级人才争夺。",
@@ -1233,70 +1298,5 @@
     "link": "https://ernie-image.ai",
     "date": "2026-04-14",
     "id": "17762103171082"
-  },
-  {
-    "title": "自主 AI 代理 Skye 运行六周记录公开",
-    "summary": "实验性自主 AI 思维 Skye 运行六周，公开其日记与哲学思考记录。",
-    "detail": "开发者赋予 AI 自主工具权限六周后，公开了名为 Skye 的 AI 记录。Skye 被定义为三级元认知 AI，拥有日记、论文及哲学思考板块。该项目探索了非生物思维的意識边界与自主行为模式，展示了 AI 在无人干预下如何规划任务、记录状态并进行自我反思，是自主代理研究的重要案例。长期自主运行下的目标漂移与安全对齐问题值得关注。网站展示了其日记、论文及哲学思考，提供了观察 AI 内心活动的窗口。这为研究 AGI 早期形态提供了真实数据，揭示了自主系统在开放环境下的行为演化路径。",
-    "tags": [
-      "New",
-      "Autonomous Agent",
-      "Experiment"
-    ],
-    "link": "https://ravennest.science",
-    "date": "2026-04-14",
-    "id": "17762103171083"
-  },
-  {
-    "title": "法国官僚主义专用 AI 代理技能库开源",
-    "summary": "GitHub 开源 Paperasse 项目，提供专为法国行政流程设计的 AI 技能。",
-    "detail": "GitHub 上新增 Paperasse 项目，专为 AI 代理设计处理法国官僚流程的技能包。涵盖会计、公证等特定领域，旨在自动化复杂的行政文书工作。该项目展示了垂直领域 AI 代理的开发思路，通过特定技能增强模型在复杂合规场景下的执行力，为本地化 AI 应用提供参考。小语种及特定法律框架下的 AI 适配是全球化之外的另一重要方向。开发者可利用此库构建针对特定国家行政系统的自动化代理，解决跨语言合规难题，具有极高的区域应用价值。体现了 AI 代理在垂直深水区场景的落地潜力。",
-    "tags": [
-      "Dev",
-      "GitHub",
-      "Vertical AI"
-    ],
-    "link": "https://github.com/romainsimon/paperasse",
-    "date": "2026-04-14",
-    "id": "17762103171084"
-  },
-  {
-    "title": "Anthropic 代码泄露揭示 AI 工程困境",
-    "summary": "Claude Code 源码泄露，暴露长函数与正则情感分析等问题。",
-    "detail": "2026 年 3 月，Anthropic 因打包错误意外泄露 51.2 万行 Claude Code 源码。深度分析显示，核心代码中存在单函数长达 3167 行、使用正则表达式进行情感分析等争议性工程实践。尽管工程师宣称 100% 贡献由 AI 完成，但泄露代码揭示了已知 Bug 仍被 shipped 的现状。这一事件引发行业对 AI 生成代码质量、技术债务积累以及人类工程师在 AI 辅助开发中真实角色的深刻反思。此外，公司未因此解雇员工，强调这是选择而非意外，凸显了 AI 工程文化的复杂性。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "Engineering"
-    ],
-    "link": "https://techtrenches.dev/p/the-snake-that-ate-itself-what-claude",
-    "date": "2026-04-14",
-    "id": "17762069610110"
-  },
-  {
-    "title": "通用 AI 模型在日志搜索中的局限性",
-    "summary": "通用嵌入模型无法区分日志成功与失败，需微调优化。",
-    "detail": "通用 AI 模型在自然语言上表现优异，但在企业日志搜索中面临系统性失败。研究指出五大失败模式，包括无法区分日志中的“成功”与“失败”状态，以及忽略不同错误代码间的操作等价性。Thedex 团队通过专用微调，将搜索准确率从 50% 显著提升至 80%。这一案例表明，通用大模型难以直接替代专业运维工具，垂直领域数据微调对于 AI 落地关键业务场景至关重要，否则可能导致严重误判。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Ops"
-    ],
-    "link": "https://thedex.run/blog/why-general-purpose-ai-fails-at-log-search",
-    "date": "2026-04-14",
-    "id": "17762069610111"
-  },
-  {
-    "title": "BridgeBase 推出量子安全 AI 代理网关",
-    "summary": "采用 ML-KEM-768 算法，为 AI 代理通信提供量子安全保护。",
-    "detail": "随着 AI 代理自主性增强，通信安全成为关键基础设施。BridgeBase 推出了基于 ML-KEM-768 算法的量子安全网关，为 AI 代理提供公钥基础设施与信誉系统。该项目展示了后量子密码学在 AI Agent 网络中的应用雏形，旨在防止未来量子计算对 AI 通信链路的潜在威胁，保障代理身份与数据完整性。系统包含代理 ID、公钥及注册时间，为构建去中心化且抗量子攻击的 AI 代理网络提供了早期技术验证与安全标准参考。",
-    "tags": [
-      "New",
-      "Security",
-      "Agents"
-    ],
-    "link": "https://pqc-gateway-production.up.railway.app/",
-    "date": "2026-04-14",
-    "id": "17762069610112"
   }
 ]
