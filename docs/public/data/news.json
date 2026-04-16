@@ -1,5 +1,70 @@
 [
   {
+    "title": "Factory 获 15 亿美元估值，深耕企业级 AI 编码",
+    "summary": "Factory 估值达 15 亿美元，专注为企业打造 AI 编码工具，获资本青睐。",
+    "detail": "AI 编码初创公司 Factory 最新估值达 15 亿美元，标志着企业级 AI 编程工具市场的爆发。该公司致力于为大企业提供定制化 AI 编码解决方案，解决复杂系统集成问题。此轮融资反映了资本市场对 AI 赋能软件开发的高度认可，预示未来企业开发流程将深度整合 AI 代理，显著提升研发效率并降低人力成本。随着 AI 技术成熟，传统软件开发模式正面临重构，Factory 的成功验证了垂直领域 AI 应用的巨大商业潜力。投资者看好其在安全合规及私有化部署方面的优势，这将加速 AI 在金融、医疗等敏感行业的落地应用，推动企业数字化转型进入新阶段。",
+    "tags": [
+      "News",
+      "Funding",
+      "Enterprise"
+    ],
+    "link": "https://techcrunch.com/2026/04/16/factory-hits-1-5b-valuation-to-build-ai-coding-for-enterprises/",
+    "date": "2026-04-16",
+    "id": "17763829950520"
+  },
+  {
+    "title": "Runway CEO 展望 AI 电影：成本降低，产量激增",
+    "summary": "Runway CEO 表示 AI 可助好莱坞以更低成本制作 50 部电影，而非一部大片。",
+    "detail": "Runway CEO 提出激进观点，认为 AI 技术能彻底改变好莱坞制作模式。相比投入 1 亿美元制作一部大片，AI 可助力以同等成本制作 50 部电影。这将极大降低创作门槛，丰富内容多样性。该言论揭示了生成式视频技术对传统影视行业的冲击，预示着未来影视制作将更依赖 AI 辅助生成资产、特效甚至剧本。虽然面临艺术性争议，但成本结构的优化将迫使行业重新思考投资逻辑，独立制片人和小型工作室将迎来前所未有的创作机遇，内容生态可能呈现爆发式增长。",
+    "tags": [
+      "News",
+      "Video",
+      "Film"
+    ],
+    "link": "https://techcrunch.com/2026/04/16/runway-ceo-says-ai-could-help-hollywood-make-50-films-instead-of-one-100m-blockbuster/",
+    "date": "2026-04-16",
+    "id": "17763829950521"
+  },
+  {
+    "title": "开源工具 Anubis：识别并阻止 AI 爬虫抓取",
+    "summary": "GitHub 新项目 Anubis 通过“权衡灵魂”识别请求，有效阻止 AI 爬虫抓取数据。",
+    "detail": "开发者发布了开源工具 Anubis，旨在保护网站免受 AI 爬虫的过度抓取。该项目通过独特算法“权衡传入 HTTP 请求的灵魂”，区分人类用户与自动化脚本。随着大模型训练数据需求激增，网站流量被爬虫占据的问题日益严重，导致服务器负载过高。Anubis 提供了一种轻量级解决方案，支持自定义规则拦截恶意流量。这对于保护知识产权、减少服务器成本具有重要意义，是当前 AI 数据博弈背景下，网站管理员维护自身权益的重要技术武器，体现了社区对数据主权的重视。",
+    "tags": [
+      "Dev",
+      "Security",
+      "OpenSource"
+    ],
+    "link": "https://github.com/TecharoHQ/anubis",
+    "date": "2026-04-16",
+    "id": "17763829950522"
+  },
+  {
+    "title": "去中心化 AI 算力网络：重建 SETI@home 模式",
+    "summary": "AgentFM 构建点对点网络，将闲置电脑转化为去中心化 AI 超级计算机。",
+    "detail": "新项目 AgentFM 试图重建 SETI@home 模式，但专注于 AI 算力。它构建点对点网络，将全球闲置的 CPU 和 GPU 资源整合成去中心化超级计算机。用户可直接在全球网格上运行大规模 AI 工作负载，无需依赖集中式云服务商。这一模式有望降低 AI 训练和推理成本，解决算力短缺问题。虽然面临网络延迟和安全挑战，但去中心化算力是应对 AI 资源垄断的重要探索。该项目展示了社区驱动的基础设施潜力，为开发者提供了除 AWS 等巨头外的新选择，可能催生新的算力经济模型。",
+    "tags": [
+      "New",
+      "Decentralized",
+      "Compute"
+    ],
+    "link": "https://github.com/Agent-FM/agentfm-core",
+    "date": "2026-04-16",
+    "id": "17763829950523"
+  },
+  {
+    "title": "技术实践：在裸金属服务器上隔离 AI 编码代理",
+    "summary": "分享如何在裸金属服务器上使用 Incus 和 Podman 隔离 AI 代理，降低成本。",
+    "detail": "技术团队分享了在裸金属服务器上隔离 AI 编码代理的实践经验。通过使用 Incus 和 Podman 等工具，可在单台服务器上运行多个完全隔离的开发环境，支持不同运行时和数据库。相比购买昂贵的工作站，使用每月 50 美元的专用服务器即可满足多项目需求。该方案解决了自主代理安装包、运行测试时的冲突问题，确保环境可恢复且安全。这对于小型团队高效利用资源具有参考价值，展示了如何在低成本基础设施上管理复杂的 AI 辅助开发工作流，提升工程效率。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "Tutorial"
+    ],
+    "link": "https://blog.singlr.ai/isolating-ai-coding-agents-bare-metal-incus-podman/",
+    "date": "2026-04-16",
+    "id": "17763829950524"
+  },
+  {
     "title": "Originality.ai 研究：2025 年 Reddit 上 15% 帖子疑似 AI 生成",
     "summary": "Originality.ai 发布研究，显示 2025 年 Reddit 平台上约 15% 的帖子由 AI 生成。",
     "detail": "Originality.ai 最新研究揭示，2025 年 Reddit 社区中约有 15% 的帖子疑似由人工智能生成。这一数据凸显了 AI 内容在社交媒体上的渗透率显著提升，标志着生成式 AI 已进入主流社交网络的核心区域。该研究通过先进的检测算法分析了大量帖子，引发了关于社区真实性、内容审核以及人机交互未来的广泛讨论。对于依赖用户生成内容的平台而言，如何识别和管理 AI 内容将成为关键挑战，同时也预示着网络信息生态将面临更深层次的信任危机与重构。此外，这也对内容创作者提出了新的要求，即如何在 AI 辅助下保持内容的独特性和人性化，以避免被算法淹没或误判。",
@@ -1233,70 +1298,5 @@
     "link": "https://elephas.app/resources/how-to-keep-your-data-safe-when-using-ai-tools",
     "date": "2026-04-15",
     "id": "17762546432501"
-  },
-  {
-    "title": "树莓派基金会发布 2026 AI 教育影响报告",
-    "summary": "树莓派与谷歌深智合作，全球 290 万青少年受益于 AI 教育项目。",
-    "detail": "树莓派基金会与 Google DeepMind 联合发布 2026 影响报告。Experience AI 项目已培训 3 万名教育者，覆盖 180 个国家，惠及 290 万青少年。89% 学生表示更理解 AI 概念。该项目获 2025 年联合国教科文组织奖，显示全球正大力推动青少年 AI 素养教育，以塑造未来技术格局，确保年轻一代能主动参与而非被动接受 AI 时代。",
-    "tags": [
-      "News",
-      "Education",
-      "Google"
-    ],
-    "link": "https://static.raspberrypi.org/files/about/Experience_AI_Impact_report_2026.pdf",
-    "date": "2026-04-15",
-    "id": "17762546432502"
-  },
-  {
-    "title": "geohot 开源 AI 代理中间件 Zappa",
-    "summary": "传奇黑客 geohot 推出 Zappa，利用 AI 自动清理网页广告与干扰。",
-    "detail": "知名黑客 geohot 发布 Zappa 项目，这是一个 AI 驱动的 mitmproxy 工具。它通过 Cerebras API 调用 Qwen 模型，自动移除网页广告、弹窗及干扰元素，仅向用户返回净化后的内容。该项目展示了 AI 代理自主交互互联网的潜力，未来可能演变为浏览器扩展，改变用户浏览体验及广告商业模式，实现机器代劳上网。",
-    "tags": [
-      "Dev",
-      "Tool",
-      "Open Source"
-    ],
-    "link": "https://geohot.github.io//blog/jekyll/update/2026/04/15/zappa-mitmproxy.html",
-    "date": "2026-04-15",
-    "id": "17762546432503"
-  },
-  {
-    "title": "新工具 Slop-scan 检测仓库中的 AI 生成代码",
-    "summary": "开发者推出 Slop-scan，旨在识别代码库中低质量的 AI 生成代码模式。",
-    "detail": "随着 AI 编程普及，代码质量参差不齐。新开源工具 Slop-scan 专门用于检测仓库中的\"AI 代码垃圾”模式。它帮助开发者识别由 AI 生成的低质量或冗余代码，确保项目维护性。这反映了行业对 AI 生成代码质量的反思，工具链正从单纯生成转向生成后的质量控制与审计，帮助团队维持代码库的健康度。",
-    "tags": [
-      "Dev",
-      "Code Quality",
-      "Open Source"
-    ],
-    "link": "https://github.com/benvinegar/slop-scan",
-    "date": "2026-04-15",
-    "id": "17762546432504"
-  },
-  {
-    "title": "Gartner：AI 驱动的主机退出潮泡沫即将破裂",
-    "summary": "Gartner 分析指出，当前 AI 赋能的主机迁移市场存在过热风险。",
-    "detail": "**背景**：The Register 报道 Gartner 最新分析，针对企业主机迁移市场。\n**核心**：许多声称利用 AI 加速主机退出的解决方案被夸大了实际能力，存在炒作泡沫。\n**影响**：警告企业谨慎评估 AI 迁移工具，避免盲目投资导致资源浪费。预示企业级 AI 应用将进入理性回归阶段，务实落地能力将成为关键筛选标准。供应商需证明实际 ROI，而非仅靠 AI 营销术语，市场将经历洗牌。那些无法交付实际价值的初创公司将被淘汰，传统厂商凭借稳定性可能重新获得青睐，IT 决策者需更加务实。",
-    "tags": [
-      "News",
-      "Gartner",
-      "Enterprise"
-    ],
-    "link": "https://www.theregister.com/2026/04/15/gartner_mainframe_exit_analysis/",
-    "date": "2026-04-15",
-    "id": "17762511060282"
-  },
-  {
-    "title": "CodeRadar：检测 AI 生成的“伪造代码”",
-    "summary": "新工具可实时检测并通过数学不变量验证修复 AI 生成的逻辑错误代码。",
-    "detail": "**背景**：针对 AI 代码能通过 lint 检查但逻辑错误的问题，GitHub 新项目 CodeRadar 问世。\n**核心**：定义“伪造代码”概念，通过确定性实时检测验证数学不变量，而非仅靠静态分析。\n**影响**：解决 AI 辅助开发中的信任危机，为开发者提供必要验证层。随着代码库变大，此类验证工具将成为 AI 编程工作流的必备组件。它强调了在 AI 生成代码激增的背景下，自动化验证技术的重要性，防止逻辑漏洞流入生产环境。未来可能出现更多针对 AI 代码质量的静态与动态分析工具，形成新的安全赛道。",
-    "tags": [
-      "Dev",
-      "CodeQuality",
-      "Security"
-    ],
-    "link": "https://github.com/LowerJacksonMound/CodeRadar",
-    "date": "2026-04-15",
-    "id": "17762511060283"
   }
 ]
