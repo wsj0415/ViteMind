@@ -1,5 +1,57 @@
 [
   {
+    "title": "Adobe 推出 Firefly AI 助手，集成 Creative Cloud",
+    "summary": "Adobe 发布新 Firefly AI 助手，可直接调用 Creative Cloud 应用完成任务。",
+    "detail": "Adobe 正式推出新一代 Firefly AI 助手，旨在深化生成式 AI 在创意工作流中的应用。根据 TechCrunch 报道，该助手具备跨应用操作能力，可直接调用 Creative Cloud 套件中的工具执行具体任务，而非仅生成素材。此举标志着 Adobe 从单一内容生成向自动化工作流转型，可能显著改变设计师与软件的交互方式，提升创作效率。这一更新反映了创意软件巨头在 AI 代理（Agent）领域的布局，试图通过自动化任务处理来巩固其在专业创作市场的护城河，应对新兴 AI 工具的竞争压力。",
+    "tags": [
+      "News",
+      "Adobe",
+      "Generative AI"
+    ],
+    "link": "https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/",
+    "date": "2026-04-16",
+    "id": "17763313622160"
+  },
+  {
+    "title": "鞋履品牌 Allbirds 转型 AI，股价暴涨 580%",
+    "summary": "Allbirds 宣布从鞋履业务转向 AI 领域，市场反应热烈，股价飙升 580%。",
+    "detail": "知名鞋履品牌 Allbirds 宣布重大战略转型，从传统的 footwear 业务转向人工智能领域。据 BBC 报道，这一激进 pivot 策略获得资本市场强烈认可，股价随即上涨 580%。该案例反映了当前传统行业对 AI 技术的狂热追逐，市场愿意为 AI 概念支付高溢价。同时也引发了关于企业跨界转型可持续性的行业讨论，显示出 AI 浪潮对传统消费品牌的巨大吸引力及潜在风险，是观察传统企业数字化转型的典型案例。",
+    "tags": [
+      "News",
+      "Business",
+      "Stock Market"
+    ],
+    "link": "https://www.bbc.com/news/articles/c98mrepzgj7o",
+    "date": "2026-04-16",
+    "id": "17763313622161"
+  },
+  {
+    "title": "DeepL 拓展语音翻译功能，突破文本局限",
+    "summary": "知名文本翻译工具 DeepL 宣布新增语音翻译功能，进一步扩展多模态能力。",
+    "detail": "以高精度文本翻译著称的 DeepL 宣布进军语音翻译领域。这一更新标志着其从纯文本处理向多模态交互迈进，旨在满足用户更自然的跨语言沟通需求。在竞争激烈的翻译市场，此举有助于巩固其技术领先地位，并对谷歌翻译等竞争对手构成新的挑战。语音翻译技术的整合需要处理音频识别与语义理解的双重难点，DeepL 的入局表明其底层模型能力已得到扩展，有望在会议记录及实时沟通场景中占据一席之地。",
+    "tags": [
+      "News",
+      "Translation",
+      "Voice AI"
+    ],
+    "link": "https://techcrunch.com/2026/04/16/deepl-known-for-text-translation-now-wants-to-translate-your-voice/",
+    "date": "2026-04-16",
+    "id": "17763313622162"
+  },
+  {
+    "title": "Emailbottle 上线：无需权限的 AI 邮件助理",
+    "summary": "新品 Emailbottle 通过转发邮件即可处理任务，无需授权收件箱访问。",
+    "detail": "Show HN 项目 Emailbottle 推出新型 AI 邮件助理。其核心差异化在于隐私保护，无需获取收件箱完整权限，用户只需转发邮件至特定地址即可实现总结、调度及回复草稿。采用订阅制模式，支持全平台邮件客户端。这种轻量级集成方案为担忧隐私的企业用户提供了新选择。相比 Copilot 等需要深度集成的工具，Emailbottle 通过协议转发实现功能，降低了部署门槛，适合对数据安全敏感的个人及小型团队使用。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Privacy"
+    ],
+    "link": "https://emailbottle.com",
+    "date": "2026-04-16",
+    "id": "17763313622163"
+  },
+  {
     "title": "OpenBSD 修改代码以防 AI 误报安全漏洞",
     "summary": "因 LLM 生成虚假安全报告，OpenBSD 重命名 pfsync 字段。",
     "detail": "OpenBSD 创始人 Theo de Raadt 近日提交更改，重命名 pfsync 包头中未使用的字段。原因是大型语言模型工具生成的虚假安全漏洞报告泛滥，严重浪费开发者时间。该字段原本计划用于哈希优化但被废弃，却因兼容性保留至今。此次修改旨在减少 AI 幻觉导致的无效工单，反映了 AI 代码审计工具对开源维护造成的实际干扰。这表明随着 AI 代码分析普及，底层系统维护者需应对新型噪声，可能推动未来协议设计更注重防误报特性，是 AI 影响基础设施维护的典型案例。开发者需警惕 AI 生成报告的真伪，避免无效劳动。",
@@ -1246,57 +1298,5 @@
     "link": "https://github.com/Agent-FM/agentfm-core",
     "date": "2026-04-14",
     "id": "17762002883512"
-  },
-  {
-    "title": "理论分析：通用型 AI 无法无限扩展",
-    "summary": "Colin Percival 撰文指出通用 AI 面临计算复杂度瓶颈，建议转向专家 AI 池模式。",
-    "detail": "文章论证了训练规模 N 模型需要 O(N^2) 计算量，导致通用 AI 无法持续扩展。作者认为最终会面临数据枯竭和算力极限。解决方案是放弃单一通用模型，转而使用多个专家 AI 组成的池，每个模型专注于特定领域（如医学、艺术）。这对当前大模型 scaling law 提出了质疑，暗示行业可能从追求更大参数量的通用模型，转向更高效、更专业的模型组合架构，影响未来算力投资方向。这种观点挑战了当前主流的大模型扩展路径，为资源受限下的 AI 发展提供了新的理论依据和思考方向。",
-    "tags": [
-      "News",
-      "Theory",
-      "LLM"
-    ],
-    "link": "https://www.daemonology.net/blog/2024-04-06-Generalist-AI-doesnt-scale.html",
-    "date": "2026-04-14",
-    "id": "17762002883513"
-  },
-  {
-    "title": "Yggdrasil：为 AI 生成代码设立架构规则围栏",
-    "summary": "持续验证 AI 生成代码的工具，允许开发者定义规则并由代理在执行中强制遵守。",
-    "detail": "针对 AI 编程可能导致的架构漂移问题，Yggdrasil 提供了范围化的架构规则执行。开发者可定义规则，AI 代理在工作时会自动强制执行这些约束。这有助于在利用 AI 提高开发效率的同时，保持代码库的结构一致性和安全性，是 AI 代码治理的重要工具。随着 AI 生成代码比例增加，此类确保代码质量和架构合规性的工具将成为开发工作流中的关键基础设施，防止技术债务累积，保障大型项目的长期可维护性。",
-    "tags": [
-      "Dev",
-      "Code Quality",
-      "Security"
-    ],
-    "link": "https://github.com/krzysztofdudek/Yggdrasil",
-    "date": "2026-04-14",
-    "id": "17762002883514"
-  },
-  {
-    "title": "旧金山首家全 AI 管理精品店开业，仍存调度失误",
-    "summary": "Andon Labs 初创公司用 AI 开设实体店，成本低于 10 万美元，但忘记安排员工排班。",
-    "detail": "初创公司 Andon Labs 在旧金山 Cow Hollow 开设了一家由 AI 代理完全管理的实体店。AI 负责创建、库存和员工管理，开业成本控制在 10 万美元以内。然而，AI 代理忘记安排员工排班，暴露了当前 AI 代理在现实世界复杂任务调度上的局限性。这是 AI 代理落地线下零售的重要案例，展示了自动化运营的成本优势，同时也揭示了全自主代理在处理突发或隐性任务时的可靠性挑战，为行业提供了宝贵的实测数据。",
-    "tags": [
-      "News",
-      "Agent",
-      "Retail"
-    ],
-    "link": "https://sfist.com/2026/04/14/new-boutique-in-sfs-cow-hollow-is-completely-run-by-ai-which-manages-human-staff/",
-    "date": "2026-04-14",
-    "id": "17762002883515"
-  },
-  {
-    "title": "社会观察：AI 正在平化人类的独特性",
-    "summary": "社交媒体观点指出，过度依赖 AI 生成内容可能导致人类表达趋同，丧失真实性。",
-    "detail": "推文指出人们正使用 AI 撰写求职信、编辑约会资料，导致表达失去个人特色。作者认为危险在于让 AI 替我们说话，因为它只追求吸引力而非准确性。通过乔布斯与斯卡利的历史教训，警示过度依赖“完美”决策可能带来的创新停滞，呼吁保持人类真实性。这反映了社会对 AI 同质化内容的担忧，提示我们在追求效率的同时，需保留人类独特的创造力和真实性，避免被算法优化所平庸化，引发对人机协作伦理的深思。",
-    "tags": [
-      "News",
-      "Social Impact",
-      "Opinion"
-    ],
-    "link": "https://twitter.com/heyohelen/status/2044126575399186565",
-    "date": "2026-04-14",
-    "id": "17762002883516"
   }
 ]
