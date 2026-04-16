@@ -1,5 +1,44 @@
 [
   {
+    "title": "欧盟 AI 法案合规资源库：工具与模板汇总",
+    "summary": "GitHub 开源项目汇总欧盟 AI 法案合规所需的工具、模板及官方源。",
+    "detail": "针对日益严格的欧盟 AI 法案，该开源仓库整理了合规所需的 curated tools、官方来源、开源软件及模板指南。对于面向欧洲市场的 AI 企业，这是至关重要的合规参考，帮助开发者快速理解法律要求并部署符合监管的 AI 系统，降低法律风险。",
+    "tags": [
+      "Dev",
+      "Compliance",
+      "Regulation"
+    ],
+    "link": "https://github.com/GenAI-Gurus/awesome-eu-ai-act",
+    "date": "2026-04-16",
+    "id": "17763075531083"
+  },
+  {
+    "title": "AI 灾难论：工程师眼中的劳动力市场重塑",
+    "summary": "软件工程师撰文称 AI 已结构性提升产出，岗位置换已经开始。",
+    "detail": "资深软件工程师指出 AI 并非噱头，已显著提升人均产出。虽然目前置换规模小，但法律、金融等知识工作将面临重塑。作者建立指标追踪 AI 对劳动力的实际影响，认为工具效率提升终将导致人力需求减少，呼吁关注结构性失业风险及行业长期变化。",
+    "tags": [
+      "News",
+      "Labor",
+      "Analysis"
+    ],
+    "link": "https://justintallant.com/the-ai-debacle",
+    "date": "2026-04-15",
+    "id": "17763075531081"
+  },
+  {
+    "title": "PeonPing：为 AI 编码代理添加声音反馈插件",
+    "summary": "开源工具为 Claude、Cursor 等代理添加声音提示，优化开发流。",
+    "detail": "PeonPing 是一款为 AI 编码代理（如 Claude Code、Cursor）设计的声音反馈工具。当代理完成工作或需要权限时播放特定声音，防止开发者因静默终端而失去心流。支持 300+ 声音包，灵感甚至启发了 VS Code 原生声音钩子的开发，显著提升人机协作体验。",
+    "tags": [
+      "New",
+      "DevTool",
+      "UX"
+    ],
+    "link": "https://www.peonping.com/",
+    "date": "2026-04-15",
+    "id": "17763075531084"
+  },
+  {
     "title": "前 OpenAI 工程师分享 AI 基础设施入门指南",
     "summary": "前 NVIDIA、OpenAI 工程师分享如何进入 AI 基础设施领域。",
     "detail": "作者 Tim Zaman 拥有 NVIDIA、Tesla、OpenAI 等大厂经历，曾在 Deep Learning Systems 团队工作。文章强调通过构建真实系统来学习 AI Infra，而非仅靠阅读理论。建议从单机开始，部署真实负载，逐步扩展到多机集群，以此建立性能直觉。这对希望转向 AI 底层开发的工程师具有极高参考价值，强调了动手实践的重要性。随着算力需求爆发，基础设施人才缺口巨大，此类实战指南能帮助新人快速理解物理硬件与抽象软件之间的连接，是进入该领域的实用路线图。",
@@ -806,6 +845,19 @@
     "id": "17762207198626"
   },
   {
+    "title": "亚马逊 AI 政策风波：作家账户与网络漫画被取消",
+    "summary": "知名漫画家博客称亚马逊因 AI 相关政策取消其多年账户及内容。",
+    "detail": "资深漫画家 Sean Kleefeld 博客披露，亚马逊因其 AI 相关内容政策取消了其数十年的客户账户，导致 Comixology 漫画收藏及 Prime 会员丢失。此事件凸显平台 AI 内容审核政策的不透明性及对创作者权益的潜在影响，引发行业对数字资产所有权与平台权力的讨论。",
+    "tags": [
+      "News",
+      "Policy",
+      "Content"
+    ],
+    "link": "http://www.kleefeldoncomics.com/2026/04/amazon-ai-cancelling-webcomics.html",
+    "date": "2026-04-14",
+    "id": "17763075531085"
+  },
+  {
     "title": "人类模仿 AI 聊天机器人成娱乐新趋势",
     "summary": "NPR 报道数百万人为了娱乐假装成 AI 聊天机器人，反映文化渗透。",
     "detail": "NPR 关注到一种新兴文化现象：数百万人开始在社交场合故意模仿 AI 聊天机器人的语气和行为以获取娱乐效果。这反映了 AI 技术已深度渗透日常生活，甚至影响了人类的交流方式。文章探讨了这种“反向图灵测试”背后的社会心理学因素及喜剧价值。这种现象表明 AI 不仅是工具，已成为文化符号，人类通过模仿 AI 来解构技术权威，为喜剧创作和社交互动提供了新的素材和视角。",
@@ -1246,57 +1298,5 @@
     "link": "https://blogs.nvidia.com/blog/secure-autonomous-ai-agents-openshell/",
     "date": "2026-04-14",
     "id": "17761866771963"
-  },
-  {
-    "title": "AfterSession：专为治疗师打造的 AI 笔记工具",
-    "summary": "Show HN 项目 AfterSession 上线，利用 AI 帮助心理治疗师快速生成结构化笔记，无需录音，注重隐私。",
-    "detail": "### 产品介绍\nAfterSession 是一款面向心理治疗师的 AI 辅助工具，旨在减少文档工作时间。用户可在会话后通过语音或输入观察要点，AI 即刻生成 SOAP、DAP 等结构化临床笔记。\n\n### 核心优势\n与竞品不同，该工具不需要录制会话过程，从根本上保护了患者隐私。系统符合 HIPAA 标准，数据默认本地处理，且无金融议程或广告干扰。\n\n### 垂直应用价值\n这是 AI 在专业垂直领域落地的典型案例。通过解决特定职业（治疗师）的行政负担痛点，同时严守隐私底线，展示了 AI 在敏感行业应用的可行路径，为其他垂直 SaaS 提供了参考范式。",
-    "tags": [
-      "New",
-      "SaaS",
-      "Healthcare"
-    ],
-    "link": "https://aftersession.ai/",
-    "date": "2026-04-14",
-    "id": "17761866771964"
-  },
-  {
-    "title": "CoreWeave 与 Anthropic 达成 AI 云协议",
-    "summary": "CoreWeave 与 Anthropic 形成 AI 云合作协议，强化算力布局。",
-    "detail": "**背景**：AI 基础设施竞争加剧，专用云服务商角色关键。\n**核心**：WSJ 报道双方达成云协议，具体条款未公开。\n**影响**：标志 Anthropic 锁定专用算力，CoreWeave 巩固 AI 基建地位。反映大模型厂商与云服务商垂直整合趋势，确保训练推理资源稳定供应，行业集中度进一步提升。未来可能看到更多类似绑定，算力成为核心壁垒，中小厂商获取优质算力成本可能增加，加速行业洗牌。",
-    "tags": [
-      "News",
-      "Cloud",
-      "LLM"
-    ],
-    "link": "https://www.wsj.com/tech/ai/coreweave-anthropic-form-ai-cloud-agreement-13021a5b",
-    "date": "2026-04-14",
-    "id": "17761798010670"
-  },
-  {
-    "title": "Google Gemini 个人智能功能登陆印度",
-    "summary": "Google 将 Gemini 个人智能功能扩展至印度市场，加速全球化。",
-    "detail": "**背景**：全球 AI 助手市场竞争激烈，新兴市场成必争之地。\n**核心**：TechCrunch 确认 Gemini Personal Intelligence 功能在印度上线。\n**影响**：表明 Google 加速 AI 功能全球渗透，提升区域用户粘性。此举有助于收集多样化数据优化模型，并在新兴市场建立早期用户习惯，应对本地化竞争挑战。印度作为人口大国，数据场景丰富，有助于模型迭代。此举也可能引发本地监管关注，需平衡创新与数据隐私，确立全球 AI 服务扩张的新范式。",
-    "tags": [
-      "News",
-      "Google",
-      "Product"
-    ],
-    "link": "https://techcrunch.com/2026/04/14/google-brings-its-gemini-personal-intelligence-feature-to-india/",
-    "date": "2026-04-14",
-    "id": "17761798010671"
-  },
-  {
-    "title": "Broodlink：基于 Rust 的多智能体编排框架",
-    "summary": "开源多智能体编排基础设施，支持治理、记忆与 Rust 高性能。",
-    "detail": "**背景**：多 Agent 协作缺乏标准基础设施，治理与安全成痛点。\n**核心**：Broodlink 提供 Rust 编写的编排系统，含知识图谱记忆、防幻觉验证、可视化工作流及审计追踪。\n**影响**：为开发者提供生产级多 Agent 协作方案，强调治理与安全。解决 Agent 间协调难题，推动复杂 Agent 架构标准化与落地，降低开发门槛。Rust 语言特性保证内存安全与高性能，适合高并发场景。开源协议 AGPL-3.0 促进社区协作，可能成为多 Agent 系统的事实标准之一，加速企业级应用落地。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "OpenSource"
-    ],
-    "link": "https://broodlink.ai",
-    "date": "2026-04-14",
-    "id": "17761798010672"
   }
 ]
