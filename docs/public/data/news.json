@@ -1,5 +1,96 @@
 [
   {
+    "title": "AI 研究者创业估值预测",
+    "summary": "FutureSearch 预测 80 位顶级 AI 研究者若创业的种子轮估值。",
+    "detail": "自 Ilya Sutskever 创立 Safe Superintelligence 以来，AI 研究者人才成为初创估值决定性因素。该报告基于 116 位著名研究者名单，排除已创业者，预测若他们今日宣布成立 AGI 相关公司的种子轮估值。分析假设创始人能招募网络内其他 prominent researchers。结果显示顶级研究者估值可达数亿美元，反映了市场对 AGI 技术路径的押注仍高度依赖顶尖智力资源，而非单纯商业模式，人才战争进一步加剧，资本愿意为潜在的技术突破支付高额溢价。此趋势表明，未来 AI 竞争核心将从数据转向顶级人才争夺。",
+    "tags": [
+      "News",
+      "AGI",
+      "Valuation"
+    ],
+    "link": "https://futuresearch.ai/most-valuable-researchers/",
+    "date": "2026-04-16",
+    "id": "17763474166970"
+  },
+  {
+    "title": "Wiz 推出 AI 应用全生命周期安全平台",
+    "summary": "Wiz 发布 AI-APP 平台，覆盖从代码到云端的 AI 应用安全风险。",
+    "detail": "Wiz 推出 AI 应用保护平台（AI-APP），将安全逻辑延伸至代码源头。针对 AI 加速开发导致的攻击面扩大，提供统一策略引擎覆盖代码、云和运行时层。通过检测代码中 AI 特定风险、验证运行时可利用性，并利用理解代码库的 Agent 进行修复，实现从 IDE 到生产的全生命周期安全。这解决了传统安全工具无法应对 AI 组件与敏感数据交互的新威胁模型，帮助组织在快速迭代中确保上下文安全，降低数据泄露风险。统一工作流简化了策略管理，确保扫描一致性。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Enterprise"
+    ],
+    "link": "https://www.wiz.io/blog/securing-ai-application-from-inception-to-deployment",
+    "date": "2026-04-16",
+    "id": "17763474166971"
+  },
+  {
+    "title": "Cloudflare 升级 AI 平台支持智能体推理",
+    "summary": "Cloudflare 推出专为 Agent 设计的推理层，优化多模型调用成本与延迟。",
+    "detail": "Cloudflare 升级 AI 平台，推出专为智能体设计的推理层。针对 Agent 需串联调用多模型导致的延迟与故障 cascade 问题，提供多模型访问、成本监控及自动重试机制。开发者无需绑定单一提供商，即可管理延迟并确保可靠性。随着 AI 模型快速迭代，该层允许灵活切换最佳模型，解决单一慢提供商导致任务延迟倍增的痛点，为构建复杂 Agent 应用提供基础设施支持，降低运营风险。此更新标志着基础设施层开始针对 Agent 工作流进行专门优化。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Agents"
+    ],
+    "link": "https://blog.cloudflare.com/ai-platform/",
+    "date": "2026-04-16",
+    "id": "17763474166972"
+  },
+  {
+    "title": "形式化验证工具 Quint 独立融资",
+    "summary": "形式化方法工具 Quint 从 Informal Systems 分拆，专注软件信任。",
+    "detail": "形式化验证工具 Quint 从 Informal Systems 分拆独立融资。在 AI 生成代码时代，直觉与测试不足以保障复杂系统行为，需数学方法预先验证。Quint 用于设计、测试及推理系统实现前行为，已在生产环境捕捉灾难性 Bug。此次分拆表明市场对软件信任需求增加，尤其在区块链与分布式系统领域。AI 生成代码虽快但需置信度，Quint 提供这种保证，填补了自动化开发与形式化验证之间的空白，提升关键基础设施可靠性。团队使命是将学术探索转化为生产级工具。",
+    "tags": [
+      "New",
+      "Formal Methods",
+      "Startup"
+    ],
+    "link": "https://quint.sh/posts/new_era",
+    "date": "2026-04-16",
+    "id": "17763474166973"
+  },
+  {
+    "title": "公众对 AI 好感度下降伴随巨头 IPO 计划",
+    "summary": "CNBC 报道公众对 AI 数据中心反感，而 Anthropic 等计划上市。",
+    "detail": "CNBC 报道公众对 AI 及数据中心负面情绪上升，而 Anthropic 与 OpenAI 正计划 IPO。科技巨头持续支出之际，基础设施面临社区阻力。这反映了资本扩张与社会接受度之间的矛盾。随着 AI 公司寻求公开市场融资，公众对能耗、数据隐私的担忧可能影响估值与监管环境。尽管技术支出未减，但舆论压力可能迫使企业在透明度与社会责任上投入更多，IPO 进程需应对更复杂的外部环境挑战。市场情绪转变可能成为行业下一个重大风险点。",
+    "tags": [
+      "News",
+      "Market",
+      "IPO"
+    ],
+    "link": "https://www.cnbc.com/2026/04/15/public-opinion-ai-data-centers-anthropic-openai-ipo.html",
+    "date": "2026-04-16",
+    "id": "17763474166974"
+  },
+  {
+    "title": "Konductor 工作流解决 AI 编码记忆缺失",
+    "summary": "开源框架 Konductor 为 AI 代理提供本地持久化项目记忆。",
+    "detail": "开源框架 Konductor 解决 AI 编码代理“上下文失忆”问题。作为基于 Markdown 的工作流标准，它在本地仓库提供持久化记忆，记录项目规则、架构与状态。开发者无需每次会话重新上手，显著提升多会话开发效率。适用于使用 Claude、Cursor 等代理的团队。该工具反映了 AI 编程从单次对话向长期协作演进的趋势，通过标准化上下文管理，降低切换模型或会话时的认知负荷，优化人机协作流程。已在多个生产项目中静默运行验证。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Coding"
+    ],
+    "link": "https://alphabits.team/news/blog/konductor-workflow-release-the-ai-agent-framework-we-built-for-ourselves",
+    "date": "2026-04-16",
+    "id": "17763474166975"
+  },
+  {
+    "title": "Canopy 本地语义搜索降低 AI 代理 Token 消耗",
+    "summary": "本地工具 Canopy 通过语义索引减少 AI 代理 85-91% 的 Token 用量。",
+    "detail": "本地工具 Canopy 通过语义索引减少 AI 代理 85-91% 的 Token 用量。利用 tree-sitter 解析代码为语义块，结合本地向量模型与知识图谱，实现快速自然语言搜索。基准测试显示在大型开源项目中显著降低 Token 消耗，优化 AI 代理代码探索成本。无需云端即可运行，保护代码隐私。这解决了 AI 代理探索大代码库时读取过多文件的问题，为本地化 AI 开发提供高效检索方案，大幅降低推理成本。架构查询任务节省效果尤为显著。",
+    "tags": [
+      "Dev",
+      "Optimization",
+      "Local AI"
+    ],
+    "link": "https://github.com/LioraLabs/canopy",
+    "date": "2026-04-16",
+    "id": "17763474166976"
+  },
+  {
     "title": "Antirez 深度分析：AI 网络安全并非工作量证明",
     "summary": "Redis 作者撰文指出 AI 安全依赖模型智能而非算力堆砌，弱模型无法理解复杂漏洞逻辑。",
     "detail": "Redis 作者 antirez 撰文深入分析 AI 在网络安全的局限性。他指出网络安全不同于工作量证明（PoW），不能单纯靠算力堆砌。弱模型即使无限运行也无法发现如 OpenBSD SACK 这类需要理解多条件组合的漏洞，只会产生幻觉。未来网络安全竞争将取决于模型智能水平而非 GPU 数量。文章强调了当前 AI 在代码审计中缺乏真正理解因果逻辑的能力，仅靠模式匹配无法替代人类专家的安全洞察。",
@@ -1207,96 +1298,5 @@
     "link": "https://pqc-gateway-production.up.railway.app/",
     "date": "2026-04-14",
     "id": "17762069610112"
-  },
-  {
-    "title": "WM Arena 测试世界模型生成视频能力",
-    "summary": "通过 Atari 游戏视频对比，评估人类能否分辨 AI 生成内容。",
-    "detail": "WorldFlux 推出 WM Arena，旨在 benchmark 世界模型的视频生成能力。用户需通过 10 轮测试，分辨真实 Atari 游戏画面与 AI 预测视频，涉及 4 个模型与 26 款游戏。该测试直观展示了当前世界模型在物理规律模拟与视频一致性上的进展，是评估 AI 理解现实世界能力的重要互动工具。这种图灵测试式的评估方法，有助于推动视频生成技术在游戏模拟与物理预测领域的技术发展与应用落地。",
-    "tags": [
-      "New",
-      "World Model",
-      "Benchmark"
-    ],
-    "link": "https://arena.worldflux.ai/quiz",
-    "date": "2026-04-14",
-    "id": "17762069610113"
-  },
-  {
-    "title": "ERNIE-Image 开源文本生成图像模型",
-    "summary": "专注图像内文字渲染，支持双语，采用 Apache 2.0 协议。",
-    "detail": "百度 ERNIE-Image 发布新模型，专门解决生成模型难以处理密集文本与复杂布局的痛点。支持海报、漫画及中英双语场景，内置提示词增强器可自动优化输入。模型权重基于 Apache 2.0 开源，允许商业使用、微调及自托管。基准测试显示其在长文本渲染上表现优异，GENEval 得分 0.8856。这为创作者提供了可商用的高质量文生图解决方案，显著降低设计与版权成本，推动内容生产自动化。",
-    "tags": [
-      "New",
-      "Diffusion",
-      "Open Source"
-    ],
-    "link": "https://ernie-image.ai/",
-    "date": "2026-04-14",
-    "id": "17762069610114"
-  },
-  {
-    "title": "英伟达新观点：量子计算缺失的关键是 AI",
-    "summary": "英伟达提出将 AI 技术融入量子计算，认为这是量子领域缺失的关键拼图。",
-    "detail": "英伟达最新表态指出，量子计算目前面临瓶颈，而 AI 技术可能是突破的关键。文章分析了两者结合的可能性，暗示未来硬件架构将同时优化 AI 与量子工作负载。这对算力行业具有风向标意义，表明巨头正探索下一代计算范式融合，可能加速量子实用化进程。",
-    "tags": [
-      "News",
-      "Quantum",
-      "Nvidia"
-    ],
-    "link": "https://www.theregister.com/2026/04/14/nvidia_ai_quantum_computing/",
-    "date": "2026-04-14",
-    "id": "17762037400540"
-  },
-  {
-    "title": "云安全联盟发布 AI 漏洞风暴安全指南",
-    "summary": "CSA 发布 PDF 报告，指导企业构建应对 AI 漏洞风暴的安全程序。",
-    "detail": "云安全联盟（CSA）发布最新报告，警告\"AI 漏洞风暴\"即将来临。文档详细阐述了如何构建\"Mythos-ready\"安全计划，涵盖 AI 系统特有的风险面。对于依赖 AI 的企业，此报告提供了合规与防御框架，强调在 AI 部署前需建立专门的安全审计流程，是行业安全标准的重要参考。",
-    "tags": [
-      "News",
-      "Security",
-      "CSA"
-    ],
-    "link": "https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/04/mythosreadyv9.pdf",
-    "date": "2026-04-14",
-    "id": "17762037400541"
-  },
-  {
-    "title": "21pins：本地优先的 AI 密钥管理工具",
-    "summary": "解决开发者在多应用中重复输入 AI 凭证痛点，密钥本地存储更安全。",
-    "detail": "21pins 是一款面向 AI 开发者的本地优先密钥管理工具。它允许用户设置一次凭证，即可路由到多个 AI 应用和代理，无需在每个工具中重复输入 API Key。支持 OpenAI、Anthropic 等主流提供商，密钥默认保留在本地机器，不经过云端 SaaS，显著降低了凭证泄露风险，提升了开发工作流效率。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "Security"
-    ],
-    "link": "https://21pins.com/",
-    "date": "2026-04-14",
-    "id": "17762037400542"
-  },
-  {
-    "title": "深度分析：AI 代理失败主因是过早停止",
-    "summary": "工程实践发现 AI coding 代理并非能力不足，而是过早终止任务。",
-    "detail": "Sourcebook 团队通过两周的工程实验分析了 AI 编码代理的失败模式。数据显示，代理往往不是因为无法完成任务，而是过早停止尝试。研究强调了上下文工具的重要性，但指出仅提供代码库地图不足以解决问题。该洞察为优化 Agent 持久性和重试机制提供了方向，对开发可靠 AI 代理具有指导意义。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Engineering"
-    ],
-    "link": "https://sourcebook.run/blog/agents-dont-fail-they-stop-too-early",
-    "date": "2026-04-14",
-    "id": "17762037400543"
-  },
-  {
-    "title": "Datris 平台加速 AI 数据发现与摄入",
-    "summary": "展示如何用自然语言通过 AI 加速数据发现和摄入流程的视频演示。",
-    "detail": "Datris.ai 发布新视频，演示其 AI 原生数据管道平台。用户可通过纯英语指令进行数据发现、摄入和消费，无需复杂代码。平台支持 RAG 和 MCP 架构，旨在降低数据工程门槛。对于需要快速构建 AI 应用数据底层的企业，该工具提供了自动化解决方案，加速了从数据到模型价值的转化路径。",
-    "tags": [
-      "Dev",
-      "Data",
-      "Pipeline"
-    ],
-    "link": "https://datris.ai/videos/data-discovery-ingestion-consumption",
-    "date": "2026-04-14",
-    "id": "17762037400544"
   }
 ]
