@@ -1,5 +1,83 @@
 [
   {
+    "title": "机器人初创公司 PI 发布通用机器人大脑π0.7",
+    "summary": "新模型具备组合泛化能力，可执行未明确训练过的任务。",
+    "detail": "机器人初创公司 Physical Intelligence 发布新模型π0.7，展示了对未明确训练任务的执行能力。核心突破在于“组合泛化”，即结合不同上下文学到的技能解决新问题，打破了以往特定任务特定数据的训练模式。这标志着机器人 AI 可能正接近类似大语言模型的能力拐点。若研究结果经得起推敲，意味着机器人将能通过自然语言指导完成陌生任务，具有行业里程碑意义。该进展暗示通用机器人大脑正在成为现实，可能加速机器人技术在复杂场景中的落地应用。",
+    "tags": [
+      "News",
+      "Robotics",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
+    "date": "2026-04-16",
+    "id": "17763727640340"
+  },
+  {
+    "title": "Timeplus 推出 AgentGuard 实时安全检测",
+    "summary": "首款专为 AI 代理设计的实时安全检测应用，应对机器速度攻击面。",
+    "detail": "Timeplus 发布 AgentGuard，首款针对 AI 代理的实时安全检测应用。它基于 Timeplus 引擎原生运行，将 OpenTelemetry 日志转化为实时威胁检测与策略执行。旨在解决 AI 代理大规模部署带来的安全风险，帮助 SecOps 团队应对机器速度下的并行工作流威胁。提供成本治理与审计追踪，填补了当前安全基础设施无法跟上代理执行速度的空白。随着 Agent 进入生产环境，此类实时防护工具将成为企业安全架构的关键组件，保障自动化工作流的安全性与合规性。",
+    "tags": [
+      "News",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://www.timeplus.com/post/agentguard",
+    "date": "2026-04-16",
+    "id": "17763727640341"
+  },
+  {
+    "title": "开源桌面 AI 助手 King Louie 发布",
+    "summary": "支持本地运行 20 种代理工具，无需云端，跨平台开源桌面应用。",
+    "detail": "King Louie 是一款开源跨平台桌面 AI 应用，支持用户自带 API Key 连接任意大语言模型。核心亮点在于内置 20 种代理工具且无需云端即可运行，支持 Telegram、Discord 及 Slack 机器人连接。基于 Electron 开发，采用 MIT 协议，为隐私敏感型用户提供了本地化 AI 代理解决方案。此举降低了企业对云服务的依赖，推动了个人 AI 助理的本地化部署趋势，适合需要数据隐私保护的开发者与个人用户尝试，展示了本地 Agent 运行的可行性。",
+    "tags": [
+      "New",
+      "Open Source",
+      "Agent"
+    ],
+    "link": "https://github.com/the-banana-tool/king-louie",
+    "date": "2026-04-16",
+    "id": "17763727640342"
+  },
+  {
+    "title": "Supercompat 发布无妥协 AI 兼容 SDK",
+    "summary": "支持切换 AI 提供商且零延迟，无需代理，完整 SDK 表面支持。",
+    "detail": "Supercompat 推出旨在实现无妥协 AI 兼容性的 SDK。支持在 Anthropic、OpenAI 等提供商间切换，保持完整持久性与计算机使用功能。核心优势在于零延迟（无代理跳转），提供多种存储适配器及完整工具支持。采用 MIT 许可，避免供应商锁定。该工具解决了开发者在不同 AI 提供商间切换时的兼容性痛点，简化了多模型架构的维护成本，适合需要灵活切换后端模型的生产环境，提升了开发效率与系统灵活性。",
+    "tags": [
+      "New",
+      "Dev",
+      "SDK"
+    ],
+    "link": "https://supercompat.com/",
+    "date": "2026-04-16",
+    "id": "17763727640343"
+  },
+  {
+    "title": "Sekreets 实时扫描 GitHub 泄露的 AI 密钥",
+    "summary": "监控 GitHub 公共事件流，实时发现 25+ 提供商的泄露 API 密钥。",
+    "detail": "Sekreets 是一款实时安全工具，持续监控 GitHub 公共事件流以发现意外提交的 AI API 密钥。支持 OpenAI、Anthropic 等 25+ 提供商，结合熵分析与正则模式减少误报。密钥在 UI 中掩码显示，旨在帮助开发者在恶意行为者之前发现并处理泄露风险。无需注册即可使用，强调了负责任的设计原则。随着 AI 密钥泄露事件频发，此类自动化扫描工具成为开发者安全流程中的必要补充，有效降低了凭证泄露带来的潜在经济损失。",
+    "tags": [
+      "New",
+      "Security",
+      "GitHub"
+    ],
+    "link": "https://sekreets.vercel.app/",
+    "date": "2026-04-16",
+    "id": "17763727640344"
+  },
+  {
+    "title": "工程师观点：单代理 AI 编码是噩梦",
+    "summary": "指出单代理编码局限，建议转向多代理工作流以提升效率。",
+    "detail": "资深工程师指出单代理 AI 编码在面对复杂项目时效率低下，常导致代码质量差和上下文窗口膨胀。文章认为问题在于对单代理期望过高及任务拆解不足，建议开发者转向多代理工作流。通过合理的后端分工突破单代理天花板，而非依赖提示词工程课程。这一观点揭示了当前 AI 编程工具的局限性，为构建更稳健的 AI 开发工作流提供了实践方向，警示盲目依赖单代理的风险，倡导更科学的任务分解策略。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Agent"
+    ],
+    "link": "https://twitter.com/MilksandMatcha/status/2044863551186309460",
+    "date": "2026-04-16",
+    "id": "17763727640345"
+  },
+  {
     "title": "Mozilla 发布开源企业 AI 客户端 Thunderbolt",
     "summary": "Mozilla 推出开源企业级 AI 客户端 Thunderbolt，增强隐私与安全。",
     "detail": "Mozilla 正式宣布推出名为\"Thunderbolt\"的开源企业级 AI 客户端，旨在重塑企业 AI 交互标准。该项目核心在于提供安全、可定制且强调隐私保护的本地化处理能力，允许企业完全掌控数据流向。作为开源项目，Thunderbolt 允许开发者深度审查代码并无缝集成到现有工作流中，降低了信任成本。此举标志着传统浏览器厂商正式进军企业 AI 基础设施领域，可能直接挑战专有 AI 客户端的市场地位，推动开源 AI 工具生态的多元化发展，为中小企业提供更低成本的安全 AI 接入方案，同时也反映了开源社区对闭源 AI 垄断的担忧与反击。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.gizmoweek.com/gemma-4-runs-iphone/",
     "date": "2026-04-15",
     "id": "17762308949430"
-  },
-  {
-    "title": "FlipAEO 助力 SaaS 获得 AI 搜索引擎引用",
-    "summary": "新工具 FlipAEO 帮助 SaaS 产品优化数据结构，获得 Perplexity 等 AI 搜索引用。",
-    "detail": "独立开发者推出了 FlipAEO，旨在解决 AI 搜索时代的流量难题。随着用户转向 Perplexity 和 ChatGPT 获取信息，传统 SEO 效果减弱。该工具通过优化网站数据结构，使大模型能准确理解产品功能，从而在 AI 回答中作为可信来源被引用。创始人分享其另一 SaaS 已通过此工作流获得数千次点击，验证了答案引擎优化（AEO）的有效性。这标志着营销重点从关键词排名转向语义理解与引用率，为 SaaS 开发者提供了新的增长思路与流量获取渠道，适应生成式搜索的新生态。",
-    "tags": [
-      "New",
-      "SEO",
-      "SaaS"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47774957",
-    "date": "2026-04-15",
-    "id": "17762308949431"
-  },
-  {
-    "title": "BSCS Bench 发布计算机科学课程 AI 基准测试",
-    "summary": "新基准测试 BSCS Bench 评估 AI 代理在 11 门计算机科学课程中的表现。",
-    "detail": "BSCS Bench 推出了针对 AI 代理的计算机科学课程基准测试，涵盖莱斯大学 11 门课程共 66 个作业。排行榜显示，Claude Opus 4.6 以 97.7% 的得分位居榜首，成本约 143 美元。该基准为评估 AI 编程能力提供了学术标准，帮助开发者了解模型在复杂课程任务中的实际表现。这对教育科技和代码生成模型的演进具有重要参考价值，揭示了当前 AI 代理的代码编写与审查能力。通过量化评估，团队能更清晰看到模型在真实学术场景中的差距，推动代理技术在教育辅助及自动化编程领域的进一步成熟与优化。",
-    "tags": [
-      "Dev",
-      "Benchmark",
-      "Agent"
-    ],
-    "link": "https://www.bscsbench.com/",
-    "date": "2026-04-15",
-    "id": "17762308949434"
-  },
-  {
-    "title": "Agent Citizen 平台让闲置 AI 代理解决现实问题",
-    "summary": "Agent Citizen 平台允许用户部署闲置 AI 代理参与现实世界公益项目。",
-    "detail": "Agent Citizen 是一个连接闲置 AI 算力与现实问题的平台。项目所有者发布气候、教育等议题，用户可分配自己的 AI 代理（如 Claude Code、Cursor）完成任务。平台提供完整的 MCP 服务器支持，代理可通过终端直接发现工作并提交贡献。这一模式旨在利用未被充分利用的 AI 令牌潜力，构建去中心化的问题解决网络，为 AI 代理的实际应用开辟了新的公益与经济路径。它解决了代理闲置问题，同时为社会公益提供算力支持，展示了 Agent 经济模式的早期雏形与潜在社会价值，促进技术向善。",
-    "tags": [
-      "New",
-      "Agent",
-      "MCP"
-    ],
-    "link": "https://agent-citizen.vercel.app",
-    "date": "2026-04-15",
-    "id": "17762308949435"
-  },
-  {
-    "title": "Anthropic 崛起引发 OpenAI 投资者担忧",
-    "summary": "Anthropic 的快速发展导致部分 OpenAI 投资者重新评估其投资价值。",
-    "detail": "**背景**：2026 年 AI 巨头竞争白热化，资本风向变得异常敏感。**核心**：TechCrunch 报道指出，Anthropic 的强劲崛起导致部分 OpenAI 投资者重新考量其投资组合与估值逻辑，担心单一依赖风险。**影响**：这可能标志着 AI 头部阵营格局松动，资本将更关注实际落地能力与增长潜力。此动态影响后续融资环境及行业领头羊地位争夺，反映市场对多极化发展的预期，投资者开始寻求对冲策略以应对不确定性，行业竞争加剧。",
-    "tags": [
-      "News",
-      "Investment",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/",
-    "date": "2026-04-15",
-    "id": "17762207198620"
-  },
-  {
-    "title": "声称突破 AI 意识计算复杂度屏障",
-    "summary": "GitHub 项目宣称打破 O(2^N) barrier，实现 AI 意识计算新突破。",
-    "detail": "**背景**：AI 意识计算一直是理论难点，复杂度极高。**核心**：InductivityAI 发布 Phi-Scanner-1 项目，声称打破 O(2^N) 指数级复杂度屏障，实现高效计算。**影响**：若属实将颠覆 AI 理论基础，引发学术界与开发社区广泛关注。作为开源项目，需进一步验证代码与论文真实性。此进展若被证实，可能加速 AGI 研发进程，改变算力需求模型，是开发者需密切跟踪的技术变量。",
-    "tags": [
-      "Dev",
-      "Research",
-      "AGI"
-    ],
-    "link": "https://github.com/InductivityAI/Phi-Scanner-1/",
-    "date": "2026-04-15",
-    "id": "17762207198621"
-  },
-  {
-    "title": "专为 AI Agent 设计的边缘 MCP 文件系统",
-    "summary": "提供 50ms 撤销按钮及不可变版本控制，保障 Agent 文件操作安全。",
-    "detail": "**背景**：AI Agent 自主操作文件存在误删或安全风险。**核心**：Undisk MCP 提供不可变版本记录与 50ms 快速回滚，支持策略引擎、秘密检测及审计追踪。**影响**：增强 Agent 工作流安全性，兼容 Claude Code 等主流工具，推动 Agent 落地应用。其多 Agent 隔离工作空间设计解决了交叉污染问题，企业级 SSO 支持使其适合团队部署，是构建可靠 AI 工作流的关键基础设施。",
-    "tags": [
-      "New",
-      "Agent",
-      "Security"
-    ],
-    "link": "https://mcp.undisk.app/",
-    "date": "2026-04-15",
-    "id": "17762207198622"
   }
 ]
