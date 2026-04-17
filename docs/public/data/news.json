@@ -1,5 +1,18 @@
 [
   {
+    "title": "Engram：AI 编码代理的上下文脊柱，节省 88% Token",
+    "summary": "开源项目 Engram 通过上下文管理优化 AI 编码代理，支持多种 IDE 集成。",
+    "detail": "GitHub 新项目 Engram 旨在优化 AI 编码代理的上下文管理，被称为“上下文脊柱”，解决长上下文窗口带来的成本与延迟问题。它支持 8 家模型提供商和 5 种 IDE 集成（包括 Cursor, Claude Code, Zed 等）。通过基于钩子的读取拦截和 tree-sitter AST 技术，Engram 实现了高达 88% 的 Token 节省，显著降低使用成本。项目采用本地 SQLite 存储，零云端依赖，注重隐私和效率。对于依赖 AI 辅助开发的工程师，这是一个极具实用价值的工具，展示了上下文优化在 LLM 应用中的关键作用，使得在本地运行复杂代理成为可能，提升了开发流程的自主性。",
+    "tags": [
+      "Dev",
+      "Tool",
+      "LLM"
+    ],
+    "link": "https://github.com/NickCirv/engram",
+    "date": "2026-04-17",
+    "id": "17764122905234"
+  },
+  {
     "title": "全球财长与银行家担忧 Mythos AI 模型风险",
     "summary": "各国财长及银行家对 Mythos AI 模型表达严重关切，引发金融界警惕。",
     "detail": "BBC 报道指出，多国财政部长及顶级银行家对新兴的 Mythos AI 模型提出严重担忧。会议现场图片显示演示材料中包含\"Claude\"及\"Project Glasswing\"字样，暗示该模型可能与现有大模型生态存在关联。尽管具体技术细节未完全披露，但金融高层的关注暗示该模型可能涉及系统性风险或数据隐私问题。此次担忧集中在模型对金融稳定性的潜在冲击，显示出 AI 技术在关键基础设施中的应用风险正成为全球治理焦点，可能引发后续政策调整。",
@@ -141,6 +154,32 @@
     "link": "https://github.com/jgoy-labs/server-nexe",
     "date": "2026-04-17",
     "id": "17763936725846"
+  },
+  {
+    "title": "Mozilla 推出 Thunderbolt：可控的企业级开源 AI 客户端",
+    "summary": "Mozilla 发布开源 AI 客户端 Thunderbolt，支持自托管与数据主权，集成 Haystack。",
+    "detail": "Mozilla 子公司 MZLA Technologies 正式宣布推出 Thunderbolt，这是一款开源且可自托管的 AI 客户端，旨在彻底解决企业对专有 AI 服务的依赖及数据隐私担忧。与传统 SaaS 模式不同，Thunderbolt 赋予组织对数据和基础设施的完全控制权，确保所有 AI 运算和数据处理均运行在内部环境中，避免数据外泄。通过深度集成 deepset 的 Haystack 平台，它支持企业级代理和 RAG 编排，允许用户自由选择商业或本地模型。这一发布标志着开源社区在构建主权 AI 基础设施方面的重要进展，为希望保持长期独立性和透明度的企业提供了关键替代方案，有效避免了供应商锁定风险，适合对合规性要求极高的金融或政府机构采用。",
+    "tags": [
+      "News",
+      "Open Source",
+      "Enterprise"
+    ],
+    "link": "https://www.thunderbolt.io/announcing-thunderbolt",
+    "date": "2026-04-16",
+    "id": "17764122905230"
+  },
+  {
+    "title": "麻省理工评论：将企业 AI 视为操作系统层",
+    "summary": "文章主张企业应将 AI 嵌入运营层，通过反馈循环积累智能，而非仅作为工具。",
+    "detail": "《技术评论》最新文章指出，企业 AI 的真正竞争优势不在于基础模型本身，而在于如何将智能嵌入运营层。不同于将 AI 视为按需效用（如直接调用 OpenAI API），成功的组织将 AI 作为操作系统层，结合软件、数据捕获和治理机制。通过反馈循环，每一次人工决策、例外处理都能转化为可复用策略，使智能随使用积累而非每次重置。这一观点强调了结构化和数据闭环的重要性，为企业 AI 部署提供了战略指导，建议关注长期运营整合而非短期模型性能，从而构建持久的竞争壁垒，避免沦为通用模型的简单分销商。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Strategy"
+    ],
+    "link": "https://www.technologyreview.com/2026/04/16/1135554/treating-enterprise-ai-as-an-operating-layer/",
+    "date": "2026-04-16",
+    "id": "17764122905233"
   },
   {
     "title": "旧金山首席经济学家：AI 繁荣伴随就业流失",
@@ -988,6 +1027,19 @@
     "id": "17763075531083"
   },
   {
+    "title": "BBC 调查：AI 生成图像正被用于保险诈骗",
+    "summary": "媒体报道 AI 生成虚假损伤图像和虚构物品，导致保险欺诈案件增加。",
+    "detail": "BBC 新闻报道指出，AI 生成的图像正被越来越多地用于保险诈骗，导致欺诈案件显著增加，引起了行业高度警惕。欺诈者利用生成式 AI 制造虚假的车辆损伤照片（如 Land Rover 保险杠损坏）或虚构贵重物品（如名表）的存在，以骗取高额赔偿金。这一现象凸显了 AI 技术滥用的严重社会风险，迫使保险公司和监管机构必须升级检测技术以应对日益逼真的伪造内容。随着生成模型逼真度的不断提高，如何快速鉴别真伪将成为保险行业乃至法律界面临的重要挑战，这可能反过来推动反欺诈 AI 工具的需求增长，形成技术对抗的新局面。",
+    "tags": [
+      "News",
+      "Safety",
+      "Society"
+    ],
+    "link": "https://www.bbc.com/news/articles/cm2rr9pg4jzo",
+    "date": "2026-04-15",
+    "id": "17764122905232"
+  },
+  {
     "title": "Allbirds 彻底转型 AI 基础设施，股价单日暴涨 300%",
     "summary": "鞋履品牌 Allbirds 宣布放弃制鞋业务，转型为 AI 基础设施公司 NewBird AI，市场反应剧烈。",
     "detail": "曾经的可持续鞋履品牌 Allbirds 宣布重大战略转型，放弃核心鞋类业务，更名为 NewBird AI 并转向 AI 基础设施领域。公司计划筹集 5000 万美元用于收购高性能低延迟 AI 计算硬件，并提供长期租赁服务。消息公布后股价飙升 300%，尽管其市值此前已从高点下跌 99%。这一案例极端地展示了当前资本市场对 AI 概念的狂热追捧，同时也反映了传统消费品牌在 AI 浪潮下的生存焦虑与投机性转型尝试。",
@@ -1246,57 +1298,5 @@
     "link": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.623701/gov.uscourts.nysd.623701.156.0.pdf",
     "date": "2026-04-15",
     "id": "17762901539004"
-  },
-  {
-    "title": "开源 MCP 上下文检测工具 Context Inspector",
-    "summary": "新开源工具可实时监测 AI 上下文窗口健康度，预防输出失败。",
-    "detail": "**功能**：GitHub 开源工具，作为 MCP 检查器实时监控 AI 上下文窗口统计健康。**技术**：通过实时贝尔曲线分析检测域对齐退化（context rot）。**价值**：能在输出失败前 3 步发现σ崩溃或均值漂移。**应用**：支持 Claude Desktop、Cursor 等工作流，提供根因分析与修复建议。**依据**：基于白皮书研究，适合开发者优化长上下文 Agent 稳定性，解决隐性上下文污染问题，提升复杂任务成功率。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Agent"
-    ],
-    "link": "https://github.com/kevin-luddy39/context-inspector/",
-    "date": "2026-04-15",
-    "id": "17762901539005"
-  },
-  {
-    "title": "8 大 AI 模型研究对比：86% 结论互不相同",
-    "summary": "一项研究测试 8 个 AI 模型，发现 86% 的研究结论仅由单一模型得出。",
-    "detail": "Parallect 进行了一项深度研究，通过 90 个真实查询同时测试了包括 Perplexity、Gemini、OpenAI、Grok 及 Anthropic 在内的 8 个 AI 模型变体。结果显示，平均分歧率高达 84.6%，约 86% 的事实发现仅由单一模型提供，半数引用的源域名互斥。研究采用嵌入聚类及 LLM reconciliation 去重。这表明不同 AI 模型的信息检索存在显著差异，用户在依赖 AI 进行 research 时需交叉验证，避免单一信源偏差，对 AI 搜索可靠性提出挑战。行业需关注模型幻觉与数据源多样性问题。",
-    "tags": [
-      "News",
-      "LLM",
-      "Research"
-    ],
-    "link": "https://parallect.ai/blog/divergence-study",
-    "date": "2026-04-15",
-    "id": "17762765125800"
-  },
-  {
-    "title": "开源 MOSS-TTS-Nano：CPU 即可运行的实时语音模型",
-    "summary": "新开源语音模型 MOSS-TTS-Nano 仅需 CPU 即可实时运行，效果媲美商业模型。",
-    "detail": "MOSI.AI 与 OpenMOSS 团队发布了 MOSS-TTS 家族最新成员 Nano，参数量仅 1 亿，专为普通 CPU 优化，实现实时语音合成。该家族包含 5 个模型，其中 MOSS-TTSD 在说话人相似度基准测试中超越 Gemini 2.5 Pro 和 ElevenLabs。支持零样本克隆、文本描述生成声音及实时语音代理，最低首字节延迟 180ms。此举为本地部署高质量语音 AI 提供了新选择，降低了硬件门槛，适合边缘计算及隐私敏感场景，推动开源语音技术发展。模型已在 GitHub 开源，开发者可快速集成到本地应用中。",
-    "tags": [
-      "News",
-      "TTS",
-      "OpenSource"
-    ],
-    "link": "https://firethering.com/moss-tts-nano-open-source-tts/",
-    "date": "2026-04-15",
-    "id": "17762765125801"
-  },
-  {
-    "title": "基于 Vercel AI SDK 的多智能体编排示例开源",
-    "summary": "GitHub 开源项目展示如何在 Vercel AI SDK 上构建多智能体编排系统。",
-    "detail": "该项目在 GitHub 开源，展示了如何在 Vercel AI SDK 之上构建多智能体编排系统。基于 TypeScript 和 Next.js 开发，提供了具体的代码示例和架构参考。开发者可利用此模板轻松实现多个 AI Agent 之间的协作与任务分发，适合构建复杂的自动化工作流。这对于希望在不依赖重型框架的情况下快速原型化多智能体应用的开发者极具价值，降低了 Agent 开发的技术门槛，促进了 Vercel 生态内的 AI 应用创新。代码包含详细文档，便于社区贡献与迭代。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "TypeScript"
-    ],
-    "link": "https://github.com/JackChen-me/open-multi-agent/tree/main/examples/with-vercel-ai-sdk",
-    "date": "2026-04-15",
-    "id": "17762765125802"
   }
 ]
