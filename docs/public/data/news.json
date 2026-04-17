@@ -1,5 +1,44 @@
 [
   {
+    "title": "超越炒作：代理式 AI 的实际应用场景网络研讨会",
+    "summary": "FusionAuth 举办网络研讨会，探讨代理式 AI 的负责任用例与安全集成。",
+    "detail": "FusionAuth 作为身份管理平台，举办此次网络研讨会旨在解决代理式 AI 落地中的安全与责任问题。随着 AI 代理自主性增强，如何管理其身份认证与授权成为行业痛点。研讨会将探讨超越炒作的实际用例，帮助开发者在集成 AI 代理时确保合规性与安全性。这对于企业级 AI 应用的身份架构设计具有指导意义，反映了基础设施层面对 AI 安全治理的早期布局。此外，内容涉及将 AI 代理集成到现有客户身份和访问管理（CIAM）平台的具体策略，为开发者提供合规且安全的实施指南，降低潜在的法律与安全风险。此次会议强调了在自动化流程中保持人类监督的重要性，是理解 AI 代理与企业系统安全边界的重要参考资料。",
+    "tags": [
+      "Dev",
+      "Agentic AI",
+      "Security"
+    ],
+    "link": "https://fusionauth.io/webinar/beyond-the-hype-practical-and-responsible-use-cases-for-agentic-ai",
+    "date": "2026-04-17",
+    "id": "17764623025330"
+  },
+  {
+    "title": "基于 ESP32 与 Cloudflare 的实时语音 AI 方案",
+    "summary": "开源项目展示如何在嵌入式设备上手把手部署实时语音 AI。",
+    "detail": "这是一个在 GitHub 上展示的开源项目，实现了在 ESP32 硬件上运行实时语音 AI 流程。后端利用 Cloudflare Workers 和 Durable Objects 处理 STT、LLM 和 TTS 服务，通过 WebSocket 传输 Opus 音频帧。该项目为边缘计算和物联网设备集成大模型提供了具体的架构参考，展示了如何低成本构建具备语音交互能力的硬件设备。方案中结合了 OpenAI 聊天补全与 Deepgram 语音技术，适合嵌入式开发者学习如何在资源受限环境下部署实时 AI 应用，具有较高的工程实践价值。",
+    "tags": [
+      "Dev",
+      "IoT",
+      "Voice AI"
+    ],
+    "link": "https://github.com/akdeb/ElatoAI/tree/main/server/cloudflare",
+    "date": "2026-04-17",
+    "id": "17764623025332"
+  },
+  {
+    "title": "Agents.ml：AI 代理的公共身份页与 A2A 卡片",
+    "summary": "为 AI 代理提供人类可读且机器可调用的统一身份主页。",
+    "detail": "Agents.ml 是一个旨在成为 AI 代理\"主页\"的新平台，提供公共身份页面和 A2A（Agent-to-Agent）卡片。它支持免费_claim_代理名称，并提供免费的 A2A 端点。该平台兼容 OpenAI、Claude 等主流模型生态，致力于解决代理发现身份验证问题。对于构建多代理协作系统的开发者而言，这是一个重要的基础设施新品，有助于标准化代理间的交互协议。通过提供人类可读且机器可调用的统一链接，它降低了代理部署的门槛，推动了 AI 代理生态的互操作性发展，是观察 Agent 经济基础设施的重要窗口。",
+    "tags": [
+      "New",
+      "Infrastructure",
+      "Agents"
+    ],
+    "link": "https://agents.ml",
+    "date": "2026-04-17",
+    "id": "17764623025333"
+  },
+  {
     "title": "OpenAI 高管离职风波：Kevin Weil 与 Bill Peebles 退出",
     "summary": "OpenAI 继续剥离“副业”，两位核心高管确认离职。",
     "detail": "OpenAI 正在进行战略调整，Kevin Weil 和 Bill Peebles 的离职标志着公司专注于核心任务。此举反映了 AI 巨头在快速扩张后的组织优化，可能影响未来产品路线图。行业关注此举是否意味着 OpenAI 将更聚焦于 AGI 核心研发而非多元化尝试。随着侧业务剥离，资源将更集中，但人才流失也可能带来短期波动。这对整个 AI 行业的人才流动趋势具有风向标意义，显示出头部公司在商业化与研发之间的权衡。此外，这也暗示了 AI 行业进入深水区，单纯的故事已不足以支撑估值，需要更扎实的交付能力，组织效率成为竞争关键。",
@@ -557,6 +596,19 @@
     "link": "https://github.com/jgoy-labs/server-nexe",
     "date": "2026-04-17",
     "id": "17763936725846"
+  },
+  {
+    "title": "AI 子程序：在浏览器标签内运行自动化脚本",
+    "summary": "新方案通过在页面内重放请求，解决 AI 自动化中的认证难题。",
+    "detail": "该项目提出了一种名为\"AI Subroutines\"的技术，旨在解决 Web 代理自动化中的经济性和确定性问题。传统外进程爬虫难以处理复杂的认证（如 CSRF、旋转 Token）。该方案通过在浏览器扩展内记录并重放网络请求，避免了重建认证逻辑的困难。这对于需要大规模执行 CRM 更新或批量发布的 AI 自动化任务具有重要的技术参考价值，降低了 Token 消耗和延迟。此外，这种“页内重放”机制有效规避了站点反爬策略，为构建高可靠性的浏览器自动化代理提供了新的架构思路，特别适合需要高频交互的业务场景。",
+    "tags": [
+      "Dev",
+      "Automation",
+      "Browser"
+    ],
+    "link": "https://www.rtrvr.ai/blog/ai-subroutines-zero-token-deterministic-automation",
+    "date": "2026-04-16",
+    "id": "17764623025331"
   },
   {
     "title": "Mozilla 推出 Thunderbolt：可控的企业级开源 AI 客户端",
@@ -1246,57 +1298,5 @@
     "link": "https://antirez.com/news/163",
     "date": "2026-04-16",
     "id": "17763375155545"
-  },
-  {
-    "title": "Memorable 上线：iPhone 端侧 AI 照片搜索应用",
-    "summary": "Memorable 应用登陆 App Store，支持在 iPhone 本地通过 AI 语义搜索照片、视频及截图。",
-    "detail": "Memorable 是一款专为 iPhone 设计的端侧 AI 照片搜索应用。用户可通过自然语言描述时刻来查找照片、视频和截图，所有处理均在设备本地完成，保障隐私。应用由 BlockDeep Labs 开发，分类为照片与视频，支持免费下载及应用内购买。该产品体现了端侧大模型在个人数据管理领域的落地趋势，让用户无需上传云端即可享受智能检索服务，解决了隐私与便利性的平衡问题。",
-    "tags": [
-      "New",
-      "App",
-      "Privacy"
-    ],
-    "link": "https://apps.apple.com/us/app/memorable-ai-photo-search/id6762152034",
-    "date": "2026-04-16",
-    "id": "17763375155546"
-  },
-  {
-    "title": "Adobe 推出 Firefly AI 助手，集成 Creative Cloud",
-    "summary": "Adobe 发布新 Firefly AI 助手，可直接调用 Creative Cloud 应用完成任务。",
-    "detail": "Adobe 正式推出新一代 Firefly AI 助手，旨在深化生成式 AI 在创意工作流中的应用。根据 TechCrunch 报道，该助手具备跨应用操作能力，可直接调用 Creative Cloud 套件中的工具执行具体任务，而非仅生成素材。此举标志着 Adobe 从单一内容生成向自动化工作流转型，可能显著改变设计师与软件的交互方式，提升创作效率。这一更新反映了创意软件巨头在 AI 代理（Agent）领域的布局，试图通过自动化任务处理来巩固其在专业创作市场的护城河，应对新兴 AI 工具的竞争压力。",
-    "tags": [
-      "News",
-      "Adobe",
-      "Generative AI"
-    ],
-    "link": "https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/",
-    "date": "2026-04-16",
-    "id": "17763313622160"
-  },
-  {
-    "title": "鞋履品牌 Allbirds 转型 AI，股价暴涨 580%",
-    "summary": "Allbirds 宣布从鞋履业务转向 AI 领域，市场反应热烈，股价飙升 580%。",
-    "detail": "知名鞋履品牌 Allbirds 宣布重大战略转型，从传统的 footwear 业务转向人工智能领域。据 BBC 报道，这一激进 pivot 策略获得资本市场强烈认可，股价随即上涨 580%。该案例反映了当前传统行业对 AI 技术的狂热追逐，市场愿意为 AI 概念支付高溢价。同时也引发了关于企业跨界转型可持续性的行业讨论，显示出 AI 浪潮对传统消费品牌的巨大吸引力及潜在风险，是观察传统企业数字化转型的典型案例。",
-    "tags": [
-      "News",
-      "Business",
-      "Stock Market"
-    ],
-    "link": "https://www.bbc.com/news/articles/c98mrepzgj7o",
-    "date": "2026-04-16",
-    "id": "17763313622161"
-  },
-  {
-    "title": "DeepL 拓展语音翻译功能，突破文本局限",
-    "summary": "知名文本翻译工具 DeepL 宣布新增语音翻译功能，进一步扩展多模态能力。",
-    "detail": "以高精度文本翻译著称的 DeepL 宣布进军语音翻译领域。这一更新标志着其从纯文本处理向多模态交互迈进，旨在满足用户更自然的跨语言沟通需求。在竞争激烈的翻译市场，此举有助于巩固其技术领先地位，并对谷歌翻译等竞争对手构成新的挑战。语音翻译技术的整合需要处理音频识别与语义理解的双重难点，DeepL 的入局表明其底层模型能力已得到扩展，有望在会议记录及实时沟通场景中占据一席之地。",
-    "tags": [
-      "News",
-      "Translation",
-      "Voice AI"
-    ],
-    "link": "https://techcrunch.com/2026/04/16/deepl-known-for-text-translation-now-wants-to-translate-your-voice/",
-    "date": "2026-04-16",
-    "id": "17763313622162"
   }
 ]
