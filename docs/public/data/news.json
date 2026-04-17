@@ -1,5 +1,96 @@
 [
   {
+    "title": "拒绝朴素 RAG：Mindex 引入知识图谱增强上下文",
+    "summary": "新工具 Mindex 结合语义搜索与知识图谱，解决 RAG 丢失关系问题。",
+    "detail": "针对传统 RAG 系统仅检索片段而丢失文档间关系的问题，开发者推出了 Mindex 工具。该方案结合语义搜索与知识图谱层，通过 CLI 和 MCP 协议集成到 Claude Code 或 Cursor 中。相比朴素 RAG，它能理解文档连接而非孤立文本，特别适合处理文档、API 和基础设施等复杂系统。作者提供了可视化对比，展示基于图谱的检索如何提升上下文准确性，为开发者构建更智能的代理系统提供了新路径。随着 AI 应用深入企业，上下文关联性将成为区分平庸与优秀系统的关键指标，此工具代表了 RAG 技术从向量检索向结构化知识理解演进的重要方向，解决了当前落地中的核心痛点。",
+    "tags": [
+      "Dev",
+      "RAG",
+      "Tools"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47811753",
+    "date": "2026-04-17",
+    "id": "17764693759670"
+  },
+  {
+    "title": "倒闭初创公司向 AI 企业出售 Slack 聊天记录",
+    "summary": "破产初创企业将内部通讯数据出售给 AI 公司，引发数据隐私与伦理争议。",
+    "detail": "Fast Company 独家报道，倒闭的初创公司正在将旧的 Slack 聊天记录和电子邮件出售给 AI 公司用于模型训练。这一趋势揭示了 AI 数据饥渴下的新供应链，同时也引发了关于隐私、数据所有权及伦理的重大争议。这标志着 AI 训练数据来源正从公开网络转向私有内部数据，可能影响未来模型合规性。对于企业而言，这意味着数据资产在破产清算中有了新的估值维度，但也增加了敏感信息泄露的风险。行业亟需相关监管框架来规范此类数据交易，防止内部通讯被滥用，同时也为破产企业提供了新的资产变现途径，改变了科技行业的退出机制。",
+    "tags": [
+      "News",
+      "Data",
+      "Ethics"
+    ],
+    "link": "https://www.fastcompany.com/91528808/shuttered-startups-are-selling-old-slack-chats-and-emails-to-ai-companies",
+    "date": "2026-04-17",
+    "id": "17764693759671"
+  },
+  {
+    "title": "AI 代理新架构：为何应浏览网站而非调用 API",
+    "summary": "研究指出 DOM 原生执行是网站 AI 代理的最佳架构，优于 RAG 和 API 调用。",
+    "detail": "最新研究论文分析了四种网站 AI 代理架构，指出 RAG 机器人无法操作、API 代理维护成本高且存在安全暴露。文章主张 DOM 原生嵌入式执行是唯一能与现有 Web 真相模型兼容的架构，支持实时 HTML 和用户会话。该理论已应用于 Rover 产品，支持 2000+ 网站集成。这为代理开发提供新方向，表明未来 AI 代理将更深度嵌入前端交互，而非仅作为后端 API 调用者，降低了维护负担并提升了执行可靠性。对于开发者而言，这意味着需要重新思考代理与网页的交互方式，从接口调用转向界面理解，以适应动态变化的 Web 环境。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "Architecture"
+    ],
+    "link": "https://www.rtrvr.ai/rover/blog/four-architectures-website-ai-agents",
+    "date": "2026-04-17",
+    "id": "17764693759672"
+  },
+  {
+    "title": "Cogveo 上线：可调度 AI 代理处理文件与邮件",
+    "summary": "新 AI 工作平台支持文件上传、会话管理及定时技能执行，集成 Claude。",
+    "detail": "Cogveo 推出早期访问，定位为团队 AI 工作空间，解决通用聊天机器人缺乏项目上下文的问题。用户上传文件后，Claude 可基于内容生成报告或表格，支持多会话聊天及自定义技能构建。平台特色在于定时自动执行任务，如每日生成数据报告。适合需要自动化数据处理和决策的工作流，将 AI 从对话工具转变为生产力引擎。通过技能运行追踪令牌使用和成本，帮助企业更好地管理 AI 支出与产出效率。这反映了 AI 工具正从单一对话向集成化工作流平台演变，满足企业对可控、可调度 AI 能力的实际需求。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Automation"
+    ],
+    "link": "https://cogveo.com/",
+    "date": "2026-04-17",
+    "id": "17764693759673"
+  },
+  {
+    "title": "AI 芯片独角兽 Cerebras 正式提交 IPO 申请",
+    "summary": "Cerebras 拟 5 月上市，获 OpenAI 与亚马逊大单，推理芯片需求激增。",
+    "detail": "专为 AI 模型设计的芯片初创公司 Cerebras 提交 IPO 文件，计划 5 月中旬上市。公司与 OpenAI 达成超 100 亿美元供应协议，并与 AWS 签署数据中心芯片合同。随着 AI 代理普及，推理计算需求激增，推动半导体行业格局变化。Cerebras 的晶圆级引擎芯片备受关注，显示出推理侧硬件的巨大市场潜力。此次上市反映了资本市场对高效能 AI 芯片的信心，尤其是在训练成本高昂的背景下，推理优化成为新的增长焦点。若成功上市，将为 AI 基础设施领域注入大量资金，加速专用芯片对通用 GPU 的替代进程。",
+    "tags": [
+      "News",
+      "Hardware",
+      "IPO"
+    ],
+    "link": "https://www.wsj.com/tech/chip-startup-cerebras-files-for-initial-public-offering-4aa27ae3",
+    "date": "2026-04-17",
+    "id": "17764693759674"
+  },
+  {
+    "title": "山姆·阿尔特曼的 World 项目扩张至 Tinder 验证",
+    "summary": "World 项目推广人类验证技术，首个合作对象为 Tinder，旨在区分人与 AI。",
+    "detail": "Tools for Humanity 宣布将 World 验证技术整合进约会应用、票务系统等，首个合作对象为 Tinder。阿尔特曼表示，面对 AI 生成内容泛滥，需验证真实人类身份。该工具利用 Orb 设备扫描虹膜，通过零知识证明保护隐私的同时提供“人类证明”。这旨在应对 AI 代理泛滥带来的信任危机，构建数字世界的身份层。若成功推广，将为在线交互建立新的信任标准，防止机器人滥用服务，但也面临隐私倡导者的持续审视。此举标志着生物识别技术正从安全领域向日常社交应用渗透，试图在匿名性与真实性之间找到平衡点。",
+    "tags": [
+      "News",
+      "Identity",
+      "Security"
+    ],
+    "link": "https://techcrunch.com/2026/04/17/sam-altmans-project-world-looks-to-scale-its-human-verification-empire-first-stop-tinder/",
+    "date": "2026-04-17",
+    "id": "17764693759675"
+  },
+  {
+    "title": "个人 AI 记忆工具 Littlebird 完成 1100 万美元融资",
+    "summary": "Littlebird 获融资开发计算机上下文捕捉工具，用户可查询个人数据。",
+    "detail": "初创公司 Littlebird 宣布完成 1100 万美元融资，用于开发 AI 辅助记忆工具。该产品旨在捕捉计算机上的上下文信息，让用户能够自然查询个人数据历史。随着 AI 个人助理需求增长，此类“第二大脑”应用成为投资热点。它解决了信息过载与回忆检索难题，允许用户通过自然语言查询过去的文件或操作。这表明投资界看好本地化、隐私优先的个人 AI 助手赛道，试图在云模型之外寻找个性化数据价值。融资将用于扩展上下文捕捉能力，使 AI 能更准确地理解用户工作习惯，成为真正的个人知识管家。",
+    "tags": [
+      "News",
+      "Funding",
+      "Startup"
+    ],
+    "link": "https://techcrunch.com/2026/03/23/littlebird-raises-11m-to-capture-context-from-your-computer-so-you-can-query-your-data/",
+    "date": "2026-04-17",
+    "id": "17764693759676"
+  },
+  {
     "title": "Sam Altman 旗下 World 项目进军 Tinder，扩展人类验证帝国",
     "summary": "World 项目宣布集成验证技术至约会应用，利用零知识证明区分人类与 AI。",
     "detail": "Sam Altman 支持的 World 项目（原 Worldcoin）宣布将其人类验证技术集成到 Tinder 等约会应用及票务系统中。面对 AI 生成内容泛滥，该工具旨在通过球形扫描仪 Orb 捕捉虹膜信息，生成匿名加密证明（Proof of Human）。核心技术采用零知识证明认证，确保在验证真实人类身份的同时保护用户隐私。此举标志着 AI 时代身份验证基础设施的重大扩展，可能成为区分真人服务与 AI 代理的关键标准。",
@@ -1207,96 +1298,5 @@
     "link": "https://techcrunch.com/2026/04/16/google-blocked-more-ads-but-banned-fewer-advertisers-as-ai-reshapes-enforcement/",
     "date": "2026-04-16",
     "id": "17763534033062"
-  },
-  {
-    "title": "Uber AI 编码预算数月耗尽",
-    "summary": "Uber 工程师广泛采用 AI 编码工具，导致年度预算提前耗尽。",
-    "detail": "Uber CTO 透露，因内部采用速度超出预期，公司年度 AI 编码工具预算在 2026 年初几个月内耗尽。目前 95% 的工程师每月使用 AI 工具，70% 的生产代码涉及 AI 生成内容。这一案例揭示了企业级 AI 部署的成本挑战，标志着软件开发从辅助模式向自主模式的快速转变，预算模型需重新评估。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Coding"
-    ],
-    "link": "https://aimmediahouse.com/ai-manufacturing/uber-let-ai-write-the-code-it-blew-the-budget",
-    "date": "2026-04-16",
-    "id": "17763534033063"
-  },
-  {
-    "title": "Claude Opus 4.7 提升 AI 代码审查能力",
-    "summary": "CodeRabbit 评估显示新模型在捕捉漏洞和提供反馈方面表现优异。",
-    "detail": "CodeRabbit 对 Claude Opus 4.7 进行了代码审查能力基准测试。在 100 个真实开源 PR 的错误模式测试中，该模型在捕捉竞态条件、空指针检查等深层漏洞方面表现优于以往模型。其反馈更具可执行性，跨文件推理能力增强。这表明前沿模型正显著提升自动化代码审查的可靠性，减少人工复核负担。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "CodeReview"
-    ],
-    "link": "https://www.coderabbit.ai/blog/claude-opus-4-7-for-ai-code-review",
-    "date": "2026-04-16",
-    "id": "17763534033064"
-  },
-  {
-    "title": "Gitmore 推出 AI Git 活动报告工具",
-    "summary": "自动将 Git 提交和 PR 转化为团队更新，发送至 Slack 或邮件。",
-    "detail": "Gitmore 是一款新产品，旨在自动化团队进度报告。它连接 GitHub、GitLab 等平台，利用 AI 总结提交记录和 PR 内容，生成日报或周报。该工具声称每周可为 5 人团队节省超过 6 小时的手动汇报时间，解决了远程协作中进度不透明和站会效率低的问题，适合敏捷开发团队。",
-    "tags": [
-      "New",
-      "Productivity",
-      "DevTool"
-    ],
-    "link": "https://gitmore.io/",
-    "date": "2026-04-16",
-    "id": "17763534033065"
-  },
-  {
-    "title": "开源项目 AI Business Analyst 中间件",
-    "summary": "连接数据库与 AI 代理的中间件，支持自然语言查询 SQL 数据。",
-    "detail": "这是一个开源项目，提供数据中间件服务，允许任何 AI 代理通过自然语言查询数据库。基于 Python 和 FastAPI 构建，支持将自然语言转换为 SQL 查询并返回结果。该项目降低了业务人员访问数据的门槛，为构建自主数据分析 Agent 提供了基础架构，适合开发者集成到私有化部署中。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "SQL"
-    ],
-    "link": "https://github.com/SaneethSunkari/Ai-Business-Analyst",
-    "date": "2026-04-16",
-    "id": "17763534033066"
-  },
-  {
-    "title": "AI 研究者创业估值预测",
-    "summary": "FutureSearch 预测 80 位顶级 AI 研究者若创业的种子轮估值。",
-    "detail": "自 Ilya Sutskever 创立 Safe Superintelligence 以来，AI 研究者人才成为初创估值决定性因素。该报告基于 116 位著名研究者名单，排除已创业者，预测若他们今日宣布成立 AGI 相关公司的种子轮估值。分析假设创始人能招募网络内其他 prominent researchers。结果显示顶级研究者估值可达数亿美元，反映了市场对 AGI 技术路径的押注仍高度依赖顶尖智力资源，而非单纯商业模式，人才战争进一步加剧，资本愿意为潜在的技术突破支付高额溢价。此趋势表明，未来 AI 竞争核心将从数据转向顶级人才争夺。",
-    "tags": [
-      "News",
-      "AGI",
-      "Valuation"
-    ],
-    "link": "https://futuresearch.ai/most-valuable-researchers/",
-    "date": "2026-04-16",
-    "id": "17763474166970"
-  },
-  {
-    "title": "Wiz 推出 AI 应用全生命周期安全平台",
-    "summary": "Wiz 发布 AI-APP 平台，覆盖从代码到云端的 AI 应用安全风险。",
-    "detail": "Wiz 推出 AI 应用保护平台（AI-APP），将安全逻辑延伸至代码源头。针对 AI 加速开发导致的攻击面扩大，提供统一策略引擎覆盖代码、云和运行时层。通过检测代码中 AI 特定风险、验证运行时可利用性，并利用理解代码库的 Agent 进行修复，实现从 IDE 到生产的全生命周期安全。这解决了传统安全工具无法应对 AI 组件与敏感数据交互的新威胁模型，帮助组织在快速迭代中确保上下文安全，降低数据泄露风险。统一工作流简化了策略管理，确保扫描一致性。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Enterprise"
-    ],
-    "link": "https://www.wiz.io/blog/securing-ai-application-from-inception-to-deployment",
-    "date": "2026-04-16",
-    "id": "17763474166971"
-  },
-  {
-    "title": "Cloudflare 升级 AI 平台支持智能体推理",
-    "summary": "Cloudflare 推出专为 Agent 设计的推理层，优化多模型调用成本与延迟。",
-    "detail": "Cloudflare 升级 AI 平台，推出专为智能体设计的推理层。针对 Agent 需串联调用多模型导致的延迟与故障 cascade 问题，提供多模型访问、成本监控及自动重试机制。开发者无需绑定单一提供商，即可管理延迟并确保可靠性。随着 AI 模型快速迭代，该层允许灵活切换最佳模型，解决单一慢提供商导致任务延迟倍增的痛点，为构建复杂 Agent 应用提供基础设施支持，降低运营风险。此更新标志着基础设施层开始针对 Agent 工作流进行专门优化。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Agents"
-    ],
-    "link": "https://blog.cloudflare.com/ai-platform/",
-    "date": "2026-04-16",
-    "id": "17763474166972"
   }
 ]
