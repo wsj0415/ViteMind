@@ -1,5 +1,70 @@
 [
   {
+    "title": "白宫推动美国政府机构接入 Anthropic Mythos AI",
+    "summary": "白宫正致力于向美国机构提供 Anthropic 的 Mythos AI 模型访问权限。",
+    "detail": "彭博社报道，白宫正在协调将 Anthropic 的先进 AI 模型 Mythos 引入美国政府机构。此举标志着生成式 AI 在公共部门应用的重大进展，旨在提升政府工作效率与决策能力。随着国家安全与数据隐私成为焦点，此次合作可能为政府级 AI 部署设立新的合规与安全基准，影响未来政企合作模式。",
+    "tags": [
+      "News",
+      "Government",
+      "Anthropic"
+    ],
+    "link": "https://www.bloomberg.com/news/articles/2026-04-16/white-house-moves-to-give-us-agencies-anthropic-mythos-access",
+    "date": "2026-04-17",
+    "id": "17764235778910"
+  },
+  {
+    "title": "AI 代理安全新趋势：进程外强制执行的必要性",
+    "summary": "探讨为何信任边界和分层执行对生产环境中的 AI 代理至关重要。",
+    "detail": "文章指出 NVIDIA、Anthropic 和 Microsoft 近期纷纷发布代理治理工具。随着 AI 代理自主性增强，如 Claude Code 的权限绕过事件所示，内部自我监管已不足够。进程外强制执行、确定性策略和分层安全架构成为生产环境标配，以防止代理滥用工具或利用漏洞，确保企业级应用安全。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://runtime-guard.ai/articles/agent-security-enforcement-layer/",
+    "date": "2026-04-17",
+    "id": "17764235778911"
+  },
+  {
+    "title": "Cloudflare 推出动态 Worker 支持 AI 生成应用持久化",
+    "summary": "利用 Durable Objects 为每个 AI 生成的应用提供独立数据库支持。",
+    "detail": "Cloudflare 扩展了 Dynamic Workers 功能，结合 Durable Objects facets，允许 AI 生成的代码拥有持久化状态。相比容器，Isolates 启动快 100 倍且内存占用更低。这使得开发者能安全地构建具有自定义 UI 和长期状态的 AI 应用，无需担心沙箱隔离问题，大幅降低了 AI 原生应用的部署门槛。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "Cloudflare"
+    ],
+    "link": "https://blog.cloudflare.com/durable-object-facets-dynamic-workers/",
+    "date": "2026-04-17",
+    "id": "17764235778912"
+  },
+  {
+    "title": "CMU 研究：教导 AI 代理何时应让人类介入",
+    "summary": "发布 CowCorpus 数据集，优化人机协作中的干预时机判断。",
+    "detail": "卡内基梅隆大学发布新研究，指出当前 AI 代理缺乏对人类干预意图的理解。通过 CowCorpus 数据集（含 400 个真实人机会话），研究者训练代理预测人类何时想要介入。这标志着从单纯追求自动化向人机协作的转变，旨在减少不必要的确认请求，提升用户体验与任务完成率。",
+    "tags": [
+      "Dev",
+      "Research",
+      "HCI"
+    ],
+    "link": "https://blog.ml.cmu.edu/2026/04/13/when-should-ai-step-aside-teaching-agents-when-humans-want-to-intervene/",
+    "date": "2026-04-17",
+    "id": "17764235778913"
+  },
+  {
+    "title": "ChatMCP：连接浏览器 AI 聊天与本地编码代理",
+    "summary": "通过 MCP 协议将 ChatGPT 等网页对话上下文同步至 CLI 编码工具。",
+    "detail": "这是一个开源工具，允许开发者将浏览器中的 AI 聊天上下文（ChatGPT, Claude 等）直接传递给本地的 Claude Code 或 Copilot CLI。通过 Chrome 扩展和 Node MCP 服务器，实现了网页对话与本地开发环境的无缝衔接，解决了跨上下文丢失问题，提升了 AI 辅助编程的连续性。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "MCP"
+    ],
+    "link": "https://github.com/IndianTinker/chatmcp",
+    "date": "2026-04-17",
+    "id": "17764235778914"
+  },
+  {
     "title": "斯坦福研究：中国几乎抹平美国 AI 领先优势",
     "summary": "斯坦福研究显示中国在 AI 领域迅速追赶，专家流向美国趋势减缓。",
     "detail": "根据《财富》杂志引用的斯坦福最新研究，中国在人工智能领域的进展显著，几乎消除了美国长期以来的领先地位。报告深入分析指出，流向美国的顶尖专家数量正在明显放缓，标志着全球 AI 人才格局的重大转变。这一变化不仅影响技术竞争格局，还可能促使各国重新评估人才政策与科研投入，显示中美 AI 博弈已进入势均力敌的新阶段，未来合作与竞争将更加复杂。",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/",
     "date": "2026-04-15",
     "id": "17762966711355"
-  },
-  {
-    "title": "鞋企 Allbirds 转型 AI 算力基础设施",
-    "summary": "知名鞋履品牌 Allbirds 宣布战略转型，进军 AI 计算基础设施领域。",
-    "detail": "曾经备受关注的环保鞋履初创公司 Allbirds 意外宣布业务转型，从消费品领域转向 AI 计算基础设施。这一跨界举动引发了行业广泛讨论，显示出传统初创企业在 AI 浪潮下的战略调整趋势。虽然具体技术细节未在摘要中披露，但标志着非科技巨头也开始涉足底层算力建设，可能反映出土算力市场的巨大需求与资本流向变化。此举若成功，将为传统硬件设施转型提供新范式，但也面临技术积累不足的挑战。行业观察家正密切关注其后续技术落地情况。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Startup"
-    ],
-    "link": "https://www.nbcnews.com/tech/tech-news/allbirds-buzzy-shoe-startup-pivots-ai-rcna331943",
-    "date": "2026-04-15",
-    "id": "17762931025640"
-  },
-  {
-    "title": "Peter Thiel 资助 AI 新闻审查初创公司",
-    "summary": "获 Thiel 资助的 Objection 项目欲用 AI 裁定新闻真实性，引发争议。",
-    "detail": "由 Peter Thiel 和 Balaji Srinivasan 资助的初创公司 Objection 推出新服务，允许用户支付 2000 美元挑战新闻报道的真实性，利用 AI 进行公开调查。创始人旨在恢复媒体信任，但法律界警告这可能抑制依赖匿名信源的调查性新闻。该项目获得了数百万美元种子资金，反映了 AI 介入内容审核与真相验证领域的最新尝试及其潜在的伦理风险。媒体与技术的边界在此变得模糊，可能重塑公众对新闻可信度的认知方式。这一模式若推广，将深刻影响新闻行业的运作逻辑。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Media"
-    ],
-    "link": "https://techcrunch.com/2026/04/15/can-ai-judge-journalism-a-thiel-backed-startup-says-yes-even-if-it-risks-chilling-whistleblowers/",
-    "date": "2026-04-15",
-    "id": "17762931025641"
-  },
-  {
-    "title": "开源 AI 代理自托管邮件基础设施",
-    "summary": "Autopilot 发布自托管邮件服务器 SDK，专为 AI 代理设计。",
-    "detail": "GitHub 新项目 Autopilot 提供了专为 AI 代理设计的自托管邮件服务器 SDK。支持可插拔存储、邮件传输及 webhook 处理，旨在替代 AgentMail 等服务。该项目解决了 AI 代理在自主发送邮件时的基础设施依赖问题，允许开发者完全掌控数据隐私与传输流程。对于构建需要长期邮件交互的自主 Agent 系统，这是一个重要的底层开发工具更新，降低了部署门槛并提升了安全性。开发者可借此构建更独立的 AI 通信闭环，减少第三方依赖风险。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "OpenSource"
-    ],
-    "link": "https://github.com/autopilot-mail/autopilot/",
-    "date": "2026-04-15",
-    "id": "17762931025642"
-  },
-  {
-    "title": "法国生活 MCP 服务器集成 18 项政府 API",
-    "summary": "首个法国生活 MCP 服务器发布，集成天气、医疗等 18 项免费政府 API。",
-    "detail": "开发者发布了首个针对法国日常生活的综合 MCP 服务器，整合了 18 项免费的法国政府 API，涵盖天气、健康、交通、行政等领域。该项目解决了政府 API 认证与格式不统一的问题，为 Claude 等 AI 助手提供了标准化的工具调用接口。这是 MCP 协议在特定地域公共服务落地的典型案例，展示了 AI 代理如何便捷接入现实世界数据。对于在法开发者或 expat 而言，极大提升了 AI 助手的本地化服务能力。此项目证明了垂直领域 MCP 服务器的巨大实用价值。",
-    "tags": [
-      "Dev",
-      "MCP",
-      "API"
-    ],
-    "link": "https://github.com/giacomomaria81/france-life-mcp",
-    "date": "2026-04-15",
-    "id": "17762931025643"
-  },
-  {
-    "title": "猴子自拍版权案或成对抗 AI 生成内容关键",
-    "summary": "BBC 探讨猴子自拍版权案例如何影响未来 AI 生成内容的法律保护。",
-    "detail": "BBC 未来栏目文章探讨了著名的“猴子自拍”版权案例在 AI 时代的新意义。文章分析该案例可能如何保护人类创作者免受 AI 生成内容（AI Slop）的冲击，涉及版权法与非人类创作的核心争议。在 AI 生成内容泛滥的背景下，这一历史法律案例被重新审视，可能为界定 AI 作品版权归属及保护人类原创性提供新的法律先例与思考方向。知识产权法如何适应生成式 AI 仍是全球性难题。该案例或将成为未来诉讼中的重要参考依据。",
-    "tags": [
-      "News",
-      "Legal",
-      "Copyright"
-    ],
-    "link": "https://www.bbc.com/future/article/20260414-the-monkey-selfie-that-predicted-the-ai-age",
-    "date": "2026-04-15",
-    "id": "17762931025644"
   }
 ]
