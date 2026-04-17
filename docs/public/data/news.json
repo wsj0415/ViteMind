@@ -1,5 +1,70 @@
 [
   {
+    "title": "Sam Altman 旗下 World 项目进军 Tinder，扩展人类验证帝国",
+    "summary": "World 项目宣布集成验证技术至约会应用，利用零知识证明区分人类与 AI。",
+    "detail": "Sam Altman 支持的 World 项目（原 Worldcoin）宣布将其人类验证技术集成到 Tinder 等约会应用及票务系统中。面对 AI 生成内容泛滥，该工具旨在通过球形扫描仪 Orb 捕捉虹膜信息，生成匿名加密证明（Proof of Human）。核心技术采用零知识证明认证，确保在验证真实人类身份的同时保护用户隐私。此举标志着 AI 时代身份验证基础设施的重大扩展，可能成为区分真人服务与 AI 代理的关键标准。",
+    "tags": [
+      "News",
+      "Identity",
+      "Privacy"
+    ],
+    "link": "https://techcrunch.com/2026/04/17/sam-altmans-world-looks-to-scale-its-human-verification-empire-first-stop-tinder/",
+    "date": "2026-04-17",
+    "id": "17764657116530"
+  },
+  {
+    "title": "Cal.com 因 AI 安全威胁宣布从开源转向闭源",
+    "summary": "知名开源调度项目 Cal.com 宣布闭源，强调 AI 时代保护客户数据的安全性优先。",
+    "detail": "运营五年的开源调度平台 Cal.com 宣布转为闭源模式，理由是 AI 驱动的安全威胁日益严峻。团队表示，虽然开源是核心原则，但在当前环境下保护客户数据必须放在首位。开源版本将以 Cal.diy 形式继续供爱好者使用。这一决定反映了开源社区在 AI 自动化攻击和数据泄露风险增加背景下的战略转变，可能引发更多 SaaS 项目重新评估开源许可策略。",
+    "tags": [
+      "News",
+      "OpenSource",
+      "Security"
+    ],
+    "link": "https://cal.com/de/blog/cal-com-goes-closed-source-why",
+    "date": "2026-04-17",
+    "id": "17764657116532"
+  },
+  {
+    "title": "AI 重写困境：生物信息学工具向 Rust 迁移的趋势与挑战",
+    "summary": "探讨 AI 编码代理如何加速生物信息学工具从 Python 向 Rust 迁移，及许可法律争议。",
+    "detail": "文章深入分析了利用 AI 编码代理（如 Claude Code、Codex）将生物信息学工具从 Python/R 重写为 Rust 的趋势。技术上，Rust 能提升性能并简化部署，消除依赖地狱。AI 代理使迁移速度提高数十倍。然而，法律上开源许可允许重写，但原作者可能面临价值被稀释的风险。这揭示了 AI 加速代码迭代带来的技术红利与开源生态维护之间的新矛盾。",
+    "tags": [
+      "Dev",
+      "Rust",
+      "LLM"
+    ],
+    "link": "https://lh3.github.io/2026/04/17/the-ai-rewrite-dilemma",
+    "date": "2026-04-17",
+    "id": "17764657116533"
+  },
+  {
+    "title": "EntropyLoop：首个 AI 原生 MCP 量子随机数生成器开源",
+    "summary": "QuantumVillage 推出开源量子随机数生成器，支持模型上下文协议（MCP）。",
+    "detail": "GitHub 项目 EntropyLoop 更新为首个 AI 原生的 MCP 量子随机数生成器。该项目由 QuantumVillage 提供，使用现成部件构建低成本的相位扩散量子随机数生成器。作为完全开源项目，它旨在为 AI 系统提供高质量的熵源，增强加密安全性。支持 MCP 协议意味着它可以更轻松地与各类 AI 模型和工具集成，为开发者提供了本地化、高安全性的随机数生成解决方案。",
+    "tags": [
+      "Dev",
+      "Quantum",
+      "OpenSource"
+    ],
+    "link": "https://github.com/QuantumVillage/EntropyLoop",
+    "date": "2026-04-17",
+    "id": "17764657116534"
+  },
+  {
+    "title": "Mind-OS 上线：首款免费在线 AI 依赖度自我评估工具",
+    "summary": "新工具 Mind-OS 帮助用户评估对 AI 的认知依赖，本地运行保护隐私。",
+    "detail": "Show HN 项目 Mind-OS 推出首款免费在线 AI 依赖自我评估工具。该工具无需注册，所有数据在浏览器本地运行，确保隐私。它通过测试用户在思考、记忆和情感连接方面对 AI 的依赖程度，提供评分和建议。旨在帮助用户觉察是否过度将认知任务外包给 AI。在 AI 普及率飙升的背景下，此类心理健康与数字福祉工具逐渐成为新兴需求。",
+    "tags": [
+      "New",
+      "Tool",
+      "MentalHealth"
+    ],
+    "link": "https://iamalex-afk.github.io/human-os-patch-33-protocols/",
+    "date": "2026-04-17",
+    "id": "17764657116535"
+  },
+  {
     "title": "超越炒作：代理式 AI 的实际应用场景网络研讨会",
     "summary": "FusionAuth 举办网络研讨会，探讨代理式 AI 的负责任用例与安全集成。",
     "detail": "FusionAuth 作为身份管理平台，举办此次网络研讨会旨在解决代理式 AI 落地中的安全与责任问题。随着 AI 代理自主性增强，如何管理其身份认证与授权成为行业痛点。研讨会将探讨超越炒作的实际用例，帮助开发者在集成 AI 代理时确保合规性与安全性。这对于企业级 AI 应用的身份架构设计具有指导意义，反映了基础设施层面对 AI 安全治理的早期布局。此外，内容涉及将 AI 代理集成到现有客户身份和访问管理（CIAM）平台的具体策略，为开发者提供合规且安全的实施指南，降低潜在的法律与安全风险。此次会议强调了在自动化流程中保持人类监督的重要性，是理解 AI 代理与企业系统安全边界的重要参考资料。",
@@ -1233,70 +1298,5 @@
     "link": "https://blog.cloudflare.com/ai-platform/",
     "date": "2026-04-16",
     "id": "17763474166972"
-  },
-  {
-    "title": "形式化验证工具 Quint 独立融资",
-    "summary": "形式化方法工具 Quint 从 Informal Systems 分拆，专注软件信任。",
-    "detail": "形式化验证工具 Quint 从 Informal Systems 分拆独立融资。在 AI 生成代码时代，直觉与测试不足以保障复杂系统行为，需数学方法预先验证。Quint 用于设计、测试及推理系统实现前行为，已在生产环境捕捉灾难性 Bug。此次分拆表明市场对软件信任需求增加，尤其在区块链与分布式系统领域。AI 生成代码虽快但需置信度，Quint 提供这种保证，填补了自动化开发与形式化验证之间的空白，提升关键基础设施可靠性。团队使命是将学术探索转化为生产级工具。",
-    "tags": [
-      "New",
-      "Formal Methods",
-      "Startup"
-    ],
-    "link": "https://quint.sh/posts/new_era",
-    "date": "2026-04-16",
-    "id": "17763474166973"
-  },
-  {
-    "title": "公众对 AI 好感度下降伴随巨头 IPO 计划",
-    "summary": "CNBC 报道公众对 AI 数据中心反感，而 Anthropic 等计划上市。",
-    "detail": "CNBC 报道公众对 AI 及数据中心负面情绪上升，而 Anthropic 与 OpenAI 正计划 IPO。科技巨头持续支出之际，基础设施面临社区阻力。这反映了资本扩张与社会接受度之间的矛盾。随着 AI 公司寻求公开市场融资，公众对能耗、数据隐私的担忧可能影响估值与监管环境。尽管技术支出未减，但舆论压力可能迫使企业在透明度与社会责任上投入更多，IPO 进程需应对更复杂的外部环境挑战。市场情绪转变可能成为行业下一个重大风险点。",
-    "tags": [
-      "News",
-      "Market",
-      "IPO"
-    ],
-    "link": "https://www.cnbc.com/2026/04/15/public-opinion-ai-data-centers-anthropic-openai-ipo.html",
-    "date": "2026-04-16",
-    "id": "17763474166974"
-  },
-  {
-    "title": "Konductor 工作流解决 AI 编码记忆缺失",
-    "summary": "开源框架 Konductor 为 AI 代理提供本地持久化项目记忆。",
-    "detail": "开源框架 Konductor 解决 AI 编码代理“上下文失忆”问题。作为基于 Markdown 的工作流标准，它在本地仓库提供持久化记忆，记录项目规则、架构与状态。开发者无需每次会话重新上手，显著提升多会话开发效率。适用于使用 Claude、Cursor 等代理的团队。该工具反映了 AI 编程从单次对话向长期协作演进的趋势，通过标准化上下文管理，降低切换模型或会话时的认知负荷，优化人机协作流程。已在多个生产项目中静默运行验证。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Coding"
-    ],
-    "link": "https://alphabits.team/news/blog/konductor-workflow-release-the-ai-agent-framework-we-built-for-ourselves",
-    "date": "2026-04-16",
-    "id": "17763474166975"
-  },
-  {
-    "title": "Canopy 本地语义搜索降低 AI 代理 Token 消耗",
-    "summary": "本地工具 Canopy 通过语义索引减少 AI 代理 85-91% 的 Token 用量。",
-    "detail": "本地工具 Canopy 通过语义索引减少 AI 代理 85-91% 的 Token 用量。利用 tree-sitter 解析代码为语义块，结合本地向量模型与知识图谱，实现快速自然语言搜索。基准测试显示在大型开源项目中显著降低 Token 消耗，优化 AI 代理代码探索成本。无需云端即可运行，保护代码隐私。这解决了 AI 代理探索大代码库时读取过多文件的问题，为本地化 AI 开发提供高效检索方案，大幅降低推理成本。架构查询任务节省效果尤为显著。",
-    "tags": [
-      "Dev",
-      "Optimization",
-      "Local AI"
-    ],
-    "link": "https://github.com/LioraLabs/canopy",
-    "date": "2026-04-16",
-    "id": "17763474166976"
-  },
-  {
-    "title": "Antirez 深度分析：AI 网络安全并非工作量证明",
-    "summary": "Redis 作者撰文指出 AI 安全依赖模型智能而非算力堆砌，弱模型无法理解复杂漏洞逻辑。",
-    "detail": "Redis 作者 antirez 撰文深入分析 AI 在网络安全的局限性。他指出网络安全不同于工作量证明（PoW），不能单纯靠算力堆砌。弱模型即使无限运行也无法发现如 OpenBSD SACK 这类需要理解多条件组合的漏洞，只会产生幻觉。未来网络安全竞争将取决于模型智能水平而非 GPU 数量。文章强调了当前 AI 在代码审计中缺乏真正理解因果逻辑的能力，仅靠模式匹配无法替代人类专家的安全洞察。",
-    "tags": [
-      "Dev",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://antirez.com/news/163",
-    "date": "2026-04-16",
-    "id": "17763375155545"
   }
 ]
