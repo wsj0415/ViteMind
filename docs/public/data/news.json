@@ -1,5 +1,70 @@
 [
   {
+    "title": "OPC 工作流：用三个 Markdown 文件规范 AI 编码工具",
+    "summary": "针对 AI 编码工具上下文漂移和虚假测试问题，提出基于三个 Markdown 文件的纪律性工作流程。",
+    "detail": "随着 Claude Code 和 Cursor 等工具的普及，开发者面临上下文漂移、AI 编写虚假测试及缺乏调研阶段等问题。OPC 工作流通过三个特定的 Markdown 文件强制规范 AI 行为，确保设计一致性。该方法强调了在 AI 辅助编程中保持人类监督和设计纪律的重要性，为团队采用 AI 编码提供了可落地的最佳实践，有效解决了长会话中 AI 忽略原始设计的痛点。",
+    "tags": [
+      "Dev",
+      "Workflow",
+      "Coding"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47804867",
+    "date": "2026-04-17",
+    "id": "17764269895330"
+  },
+  {
+    "title": "开源社区警示：AI 生成代码正在污染 GitHub 生态",
+    "summary": "Archestra AI 团队指出大量低质量 AI 生成的 PR 和评论淹没了开源项目，导致维护成本激增。",
+    "detail": "Archestra AI 博客发文指出，GitHub 上出现了大量由 AI 生成的低质量贡献（AI Slop）。包括无意义的实施计划评论、未测试的 PR 以及洪水般的通知噪音。这不仅掩盖了真实贡献者的工作，还迫使维护者花费大量时间清理。该现象揭示了 AI 降低贡献门槛的同时，也带来了严重的质量维护和社区治理危机，呼吁负责任的 AI 使用。",
+    "tags": [
+      "News",
+      "Open Source",
+      "Quality"
+    ],
+    "link": "https://archestra.ai/blog/only-responsible-ai",
+    "date": "2026-04-17",
+    "id": "17764269895341"
+  },
+  {
+    "title": "安全警报：新账号通过 AI 生成依赖注入知名开源项目",
+    "summary": "一个创建仅 2 天的 GitHub 账号试图向 2.5k stars 项目 Mailgen 注入 AI 生成的依赖包。",
+    "detail": "这是一个具体的安全案例，佐证了 AI 污染开源生态的风险。一个仅存在 2 天的账号提交 PR，试图将现有依赖替换为名为\"turbo-he\"的新包，声称性能提升但未经验证。此类行为可能涉及依赖混淆或供应链攻击。它提醒维护者需警惕来自新账号的自动化代码提交，特别是在 AI 能轻易生成看似合理的性能优化代码的当下，代码审查变得更为关键。",
+    "tags": [
+      "News",
+      "Security",
+      "GitHub"
+    ],
+    "link": "https://github.com/eladnava/mailgen/pull/86",
+    "date": "2026-04-17",
+    "id": "17764269895342"
+  },
+  {
+    "title": "硬件控制新突破：利用 MCP 服务器让 AI 操控合成器创作音乐",
+    "summary": "开发者构建 MCP 服务器，使 Claude 能通过自然语言控制 Novation Circuit Tracks 硬件合成器。",
+    "detail": "该项目展示了 Model Context Protocol (MCP) 在硬件控制领域的创新应用。通过构建专用的 MCP 服务器，AI 代理能够理解自然语言指令，直接作曲、设计音色补丁并加载到硬件设备中。这标志着 AI 从纯软件交互向物理硬件控制的延伸，为音乐创作和物联网设备控制提供了新的交互范式，证明了 MCP 在连接 AI 与外部工具方面的强大潜力。",
+    "tags": [
+      "Dev",
+      "MCP",
+      "Hardware"
+    ],
+    "link": "https://namirsab.dev/blog/teaching-claude-to-use-my-novation-circuit-tracks-part-3/",
+    "date": "2026-04-17",
+    "id": "17764269895343"
+  },
+  {
+    "title": "开发者资源：六大免费 AI API 密钥平台终极指南",
+    "summary": "汇总了 6 个提供免费 AI API 密钥的平台，帮助开发者降低原型构建成本。",
+    "detail": "对于 AI 开发者而言，获取有效的 API 密钥是构建应用的第一步。该指南详细列出了 6 个提供免费密钥的平台，包括路由服务、供应商控制台及边缘计算平台等。文章不仅提供了入口，还分享了如何组合使用这些平台以优化延迟和成本，并在触及计费前最大化免费额度。这是开发者进行低成本原型验证和测试的实用资源清单。",
+    "tags": [
+      "Dev",
+      "API",
+      "Resources"
+    ],
+    "link": "https://www.yashkapure.com/en/blog/free-api-key-platforms-for-ai-usage/",
+    "date": "2026-04-17",
+    "id": "17764269895344"
+  },
+  {
     "title": "白宫推动美国政府机构接入 Anthropic Mythos AI",
     "summary": "白宫正致力于向美国机构提供 Anthropic 的 Mythos AI 模型访问权限。",
     "detail": "彭博社报道，白宫正在协调将 Anthropic 的先进 AI 模型 Mythos 引入美国政府机构。此举标志着生成式 AI 在公共部门应用的重大进展，旨在提升政府工作效率与决策能力。随着国家安全与数据隐私成为焦点，此次合作可能为政府级 AI 部署设立新的合规与安全基准，影响未来政企合作模式。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.peonping.com/",
     "date": "2026-04-15",
     "id": "17763075531084"
-  },
-  {
-    "title": "前 OpenAI 工程师分享 AI 基础设施入门指南",
-    "summary": "前 NVIDIA、OpenAI 工程师分享如何进入 AI 基础设施领域。",
-    "detail": "作者 Tim Zaman 拥有 NVIDIA、Tesla、OpenAI 等大厂经历，曾在 Deep Learning Systems 团队工作。文章强调通过构建真实系统来学习 AI Infra，而非仅靠阅读理论。建议从单机开始，部署真实负载，逐步扩展到多机集群，以此建立性能直觉。这对希望转向 AI 底层开发的工程师具有极高参考价值，强调了动手实践的重要性。随着算力需求爆发，基础设施人才缺口巨大，此类实战指南能帮助新人快速理解物理硬件与抽象软件之间的连接，是进入该领域的实用路线图。",
-    "tags": [
-      "Dev",
-      "AI Infra",
-      "Career"
-    ],
-    "link": "https://timzaman.com/getting-into-ai-infra",
-    "date": "2026-04-15",
-    "id": "17762966711350"
-  },
-  {
-    "title": "Hacker News 讨论 xAI AI 导师职位待遇与环境",
-    "summary": "社区讨论 xAI 招聘 AI 导师的薪资及工作环境体验。",
-    "detail": "Hacker News 用户发起讨论，询问 xAI 公司 AI 导师角色的实际体验、薪资及工作环境。随着 xAI 在 Grok 模型上的快速迭代，其团队文化和薪酬体系备受关注。此类讨论反映了行业对新兴 AI 巨头内部运作的好奇，也为求职者提供了侧面了解公司现状的渠道。这体现了人才市场对 xAI 的高度关注，同时也揭示了 AI 公司在快速扩张期对高质量训练数据和专业反馈人才的迫切需求，是观察 AI 劳动力市场的一个窗口。",
-    "tags": [
-      "News",
-      "xAI",
-      "Career"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47785302",
-    "date": "2026-04-15",
-    "id": "17762966711351"
-  },
-  {
-    "title": "开源项目：基于 RAG 的无基础设施 AI 客服代理",
-    "summary": "GitHub 开源项目，单文件后端实现带引用的 AI 客服。",
-    "detail": "该项目是一个开源 AI 客户支持代理，基于 OnCell 构建。特色在于仅需一个后端文件，无需复杂基础设施即可部署，极大降低了门槛。支持上传文档并生成带引用的聊天组件，利用 RAG 技术确保回答准确性，避免幻觉。适合开发者快速搭建私有知识库客服系统。这种轻量级方案解决了传统 RAG 部署复杂的问题，为中小企业提供了低成本接入 AI 客服的路径，体现了开源社区在简化 AI 应用落地方面的努力。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "RAG"
-    ],
-    "link": "https://github.com/oncellai/oncell-support-agent",
-    "date": "2026-04-15",
-    "id": "17762966711353"
-  },
-  {
-    "title": "Snap 裁员 16% 以转向 AI 驱动盈利策略",
-    "summary": "Snap 公司裁员 1000 人，占比 16%，全力投入 AI 业务。",
-    "detail": "The Verge 报道，Snap 宣布裁员 16%（约 1000 名员工），旨在重组业务以专注于 AI 技术和盈利能力的提升。此举反映了社交媒体公司在生成式 AI 浪潮下的战略调整，通过削减成本加大对 AI 功能的投入。行业洗牌加剧，传统社交平台面临转型压力。Snap 希望通过 AI 驱动的广告工具和内容创作功能找回增长曲线，这表明 AI 已成为科技公司生存的关键变量，而非仅仅是锦上添花的功能，裁员潮可能继续在科技界蔓延。",
-    "tags": [
-      "News",
-      "Layoffs",
-      "Social Media"
-    ],
-    "link": "https://www.theverge.com/tech/912314/snap-layoffs-1000-staffers-ai-profitability",
-    "date": "2026-04-15",
-    "id": "17762966711354"
-  },
-  {
-    "title": "OpenAI 更新 Agents SDK 增强企业级安全与能力",
-    "summary": "OpenAI 更新 Agents SDK，帮助企业构建更安全智能的代理。",
-    "detail": "TechCrunch 报道，OpenAI 更新了其 Agents SDK，旨在帮助企业构建更安全、功能更强大的 AI 代理。此次更新聚焦于企业级需求，提升了代理的安全性和执行能力，解决了企业在部署 AI 时的合规顾虑。这表明 OpenAI 正加速向企业市场渗透，通过提供更完善的开发工具链，巩固其在 AI 应用开发层面的生态优势。随着 Agent 经济兴起，标准化的 SDK 将成为企业采纳 AI 的关键基础设施，竞争焦点从模型转向应用落地能力。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "SDK"
-    ],
-    "link": "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/",
-    "date": "2026-04-15",
-    "id": "17762966711355"
   }
 ]
