@@ -1,5 +1,83 @@
 [
   {
+    "title": "《Effective Conversational AI》深度书评：构建智能聊天机器人的四大支柱",
+    "summary": "资深开发者解析如何克服聊天机器人意图理解与复杂对话管理难题。",
+    "detail": "本书由 IBM 资深开发者撰写，针对聊天机器人演示良好但实战失效的痛点，提出四大实践支柱。内容涵盖构建坚实基础、理解意图、管理复杂流程及优化用户体验。书中将对话式 AI、自动化代理等术语统一，提供具体策略帮助开发者构建更可靠、智能的交互系统。评论者将原书四部分重构为四大支柱，强调了克服弱理解、复杂流和差体验的关键方法。适合希望提升对话质量的 AI 从业者参考，尤其是需要解决实际落地问题的团队。书中还提供了针对自然语言交互技术的具体见解，帮助读者避开常见陷阱。",
+    "tags": [
+      "Dev",
+      "Book",
+      "Conversational AI"
+    ],
+    "link": "https://noroinsight.com/effective-conversational-ai-book-review/",
+    "date": "2026-04-18",
+    "id": "17764795779410"
+  },
+  {
+    "title": "TokensAI 上线：一站式自动追踪多平台 AI 使用成本与用量",
+    "summary": "支持 OpenAI、Claude 等多平台聚合，自动处理追踪、徽章与分析。",
+    "detail": "TokensAI 定位为\"AI 使用量的 Mint\"，旨在解决开发者在多平台间管理 AI 成本的痛点。支持聚合 OpenAI、Claude、Gemini、Cursor 等主流服务的用量数据。功能包括自动追踪、徽章系统及数据分析面板。用户可通过 GitHub 或 Google 登录，统一查看 token 消耗与成本，适合需要精细化管控 AI 支出的团队与个人开发者。该平台还展示了与 Devin、Replit 等工具的集成能力，体现了其在开发生态中的广泛兼容性。此外，其自动化处理减少了手动统计的时间成本。",
+    "tags": [
+      "New",
+      "Tool",
+      "Cost Management"
+    ],
+    "link": "https://tokensai.dev/",
+    "date": "2026-04-18",
+    "id": "17764795779411"
+  },
+  {
+    "title": "Steno：基于 RAG 检索的 AI 代理压缩记忆符号系统",
+    "summary": "GitHub 开源项目，通过压缩记忆符号提升 AI 代理的检索效率。",
+    "detail": "Steno 是一个针对 AI 代理设计的开源项目，核心创新在于“压缩记忆符号”与 RAG（检索增强生成）的结合。传统代理记忆往往冗余，Steno 通过特定符号系统压缩上下文，配合 RAG 检索机制，使代理能更高效地调用历史记忆。该项目由 Eli 开发，托管于 GitHub，为构建长上下文、低成本的 AI 代理提供了新的技术思路与实现参考。对于需要处理大量历史对话且受限于上下文窗口的开发者，这是一个值得关注的优化方案。它解决了记忆存储效率的关键问题。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "RAG"
+    ],
+    "link": "https://github.com/KultMember6Banger/steno",
+    "date": "2026-04-18",
+    "id": "17764795779412"
+  },
+  {
+    "title": "Agentic Dev：由 AI 代理每日策展的开发者工具通讯",
+    "summary": "无炒作信号源，涵盖 Codex 更新、Claude Opus 4.7 等前沿动态。",
+    "detail": "这是一个由 AI 代理策展的每日通讯，专注于为开发者提供无炒作的 AI 工具新闻。最新一期涵盖了 OpenAI Codex 的重大更新（背景电脑使用、插件扩展）、Anthropic Claude Opus 4.7 的发布（SWE-bench 87.6% 得分）以及 MCP 服务器的实际应用案例。适合希望高效获取高质量 AI 开发信号的技术人员订阅。其核心价值在于过滤噪音，直接呈现如 API 变更、成本增加等关键信息，帮助开发者快速决策。每日更新确保信息时效性，是开发者保持技术敏感度的好工具。",
+    "tags": [
+      "News",
+      "Newsletter",
+      "Dev Tools"
+    ],
+    "link": "https://agenticdev.blog/",
+    "date": "2026-04-18",
+    "id": "17764795779413"
+  },
+  {
+    "title": "VibeCheck：检测网站是否由 AI 生成的“指纹”分析工具",
+    "summary": "通过 DOM 结构分析识别 AI 生成代码的重复模式与结构特征。",
+    "detail": "VibeCheck 是一款开源工具，旨在检测网站是否由 AI 生成（即\"vibe-coded\"）。它利用专有 DOM 分析技术，提取页面结构、样式和内容模式，通过 45+ 启发式信号（如梯度滥用、卡片网格综合征）进行评分。工具完全开源，可本地运行或集成至 CI 流程，帮助开发者避免 AI 生成的同质化设计，保持网站独特性。其检测算法透明，无黑箱操作，适合对设计原创性有要求的团队使用。该工具反映了业界对 AI 生成内容识别的需求增长。",
+    "tags": [
+      "New",
+      "Web Dev",
+      "Detection"
+    ],
+    "link": "https://www.vibecheck.fail/",
+    "date": "2026-04-17",
+    "id": "17764795779414"
+  },
+  {
+    "title": "Cogveo：可调度 AI 代理执行 Python 任务的工作空间平台",
+    "summary": "支持文件上传、Claude 对话及自动化输出，即将于 6 月上线。",
+    "detail": "Cogveo 是一个面向团队的 AI 工作空间平台，允许用户上传文档与数据，通过 Claude 进行基于内容的对话与分析。核心功能包括多会话聊天、即时文件输出（报告、表格）及自定义技能构建。用户可定义任务指令并自动执行，跟踪 token 用量与成本。目前处于早期访问阶段，计划于 2026 年 6 月 1 日正式发布。该平台试图解决 AI 在工作流中碎片化的问题，提供统一的终端体验。它强调了文件管理与 AI 对话的深度整合。",
+    "tags": [
+      "New",
+      "Platform",
+      "Automation"
+    ],
+    "link": "https://cogveo.com/",
+    "date": "2026-04-17",
+    "id": "17764795779415"
+  },
+  {
     "title": "拒绝朴素 RAG：Mindex 引入知识图谱增强上下文",
     "summary": "新工具 Mindex 结合语义搜索与知识图谱，解决 RAG 丢失关系问题。",
     "detail": "针对传统 RAG 系统仅检索片段而丢失文档间关系的问题，开发者推出了 Mindex 工具。该方案结合语义搜索与知识图谱层，通过 CLI 和 MCP 协议集成到 Claude Code 或 Cursor 中。相比朴素 RAG，它能理解文档连接而非孤立文本，特别适合处理文档、API 和基础设施等复杂系统。作者提供了可视化对比，展示基于图谱的检索如何提升上下文准确性，为开发者构建更智能的代理系统提供了新路径。随着 AI 应用深入企业，上下文关联性将成为区分平庸与优秀系统的关键指标，此工具代表了 RAG 技术从向量检索向结构化知识理解演进的重要方向，解决了当前落地中的核心痛点。",
@@ -37,19 +115,6 @@
     "link": "https://www.rtrvr.ai/rover/blog/four-architectures-website-ai-agents",
     "date": "2026-04-17",
     "id": "17764693759672"
-  },
-  {
-    "title": "Cogveo 上线：可调度 AI 代理处理文件与邮件",
-    "summary": "新 AI 工作平台支持文件上传、会话管理及定时技能执行，集成 Claude。",
-    "detail": "Cogveo 推出早期访问，定位为团队 AI 工作空间，解决通用聊天机器人缺乏项目上下文的问题。用户上传文件后，Claude 可基于内容生成报告或表格，支持多会话聊天及自定义技能构建。平台特色在于定时自动执行任务，如每日生成数据报告。适合需要自动化数据处理和决策的工作流，将 AI 从对话工具转变为生产力引擎。通过技能运行追踪令牌使用和成本，帮助企业更好地管理 AI 支出与产出效率。这反映了 AI 工具正从单一对话向集成化工作流平台演变，满足企业对可控、可调度 AI 能力的实际需求。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Automation"
-    ],
-    "link": "https://cogveo.com/",
-    "date": "2026-04-17",
-    "id": "17764693759673"
   },
   {
     "title": "AI 芯片独角兽 Cerebras 正式提交 IPO 申请",
@@ -1233,70 +1298,5 @@
     "link": "https://www.technologyreview.com/2026/04/16/1135216/making-ai-operational-in-constrained-public-sector-environments/",
     "date": "2026-04-16",
     "id": "17763598819380"
-  },
-  {
-    "title": "Google 搜索推出 AI Mode 并排浏览功能",
-    "summary": "Google 更新搜索体验，允许用户在 AI 模式下并排探索网页内容。",
-    "detail": "Google 正式发布新功能，允许用户在 AI 模式下并排浏览网页。这一更新旨在增强用户与 AI 交互时的信息验证能力，标志着搜索引擎从单纯的结果列表向交互式 AI 助手转型。此举可能改变用户获取信息的方式，增加 AI 生成内容与传统网页结果的对比透明度。虽然具体技术细节未在摘要中详述，但该功能反映了巨头在整合 AI 与现有搜索产品上的最新进展。",
-    "tags": [
-      "News",
-      "Google",
-      "Search"
-    ],
-    "link": "https://techcrunch.com/2026/04/16/google-now-lets-you-explore-the-web-side-by-side-with-ai-mode/",
-    "date": "2026-04-16",
-    "id": "17763598819381"
-  },
-  {
-    "title": "华盛顿大学研发内置摄像头的 AI 智能耳机",
-    "summary": "新型 VueBuds 耳机集成微型相机，支持本地化 AI 视觉问答。",
-    "detail": "华盛顿大学研究人员开发了 VueBuds 系统，在普通无线耳机中集成微型相机。用户可通过语音询问眼前场景，AI 模型在设备端处理图像并回答，延迟约 1 秒。该系统注重隐私，处理均在本地进行，且有指示灯提示录音状态，用户可立即删除图像。这为可穿戴 AI 设备提供了除智能眼镜外的新形态，解决了部分用户不喜欢佩戴眼镜及隐私担忧的问题。",
-    "tags": [
-      "New",
-      "Hardware",
-      "Privacy"
-    ],
-    "link": "https://www.washington.edu/news/2026/04/14/cameras-in-wireless-earbuds-vuebuds/",
-    "date": "2026-04-16",
-    "id": "17763598819382"
-  },
-  {
-    "title": "AI 网络安全局势更新：短期风险与长期防御",
-    "summary": "分析指出 AI 黑客工具虽带来短期风险，但长期利于防御者。",
-    "detail": "针对 Mythos 等 AI 黑客工具的反应显示，短期内攻击成本降低带来风险，但长期有利于防御者。核心逻辑在于缺陷发现成本的博弈。虽然 AI 降低了利用缺陷的成本，但防御方可以通过提高发现缺陷的成本来应对。文章强调网络安全不能等待，需主动适应 AI 重写规则的现状。长期来看，更少的缺陷对防御者绝对有利，且成本效益分析支持防御方最终占据优势。",
-    "tags": [
-      "News",
-      "Security",
-      "AI Safety"
-    ],
-    "link": "https://substack.norabble.com/p/update-on-ai-cybersecurity",
-    "date": "2026-04-16",
-    "id": "17763598819383"
-  },
-  {
-    "title": "深度调查：AI 网络安全声明中的真相与欺骗",
-    "summary": "安全专家联手 AI 核查行业声明，揭示 AI 安全漏洞数据的夸大。",
-    "detail": "资深安全专家 Rodolfo Assis 指导 AI 撰写文章，深入核查了关于 AI 发现漏洞能力的行业声明。调查发现多个知名案例数据被夸大或误解，如 Firefox 漏洞数从 112 修正为 22，curl 的 100+ 漏洞实为三次独立事件。文章揭示了 AI 网络安全领域的双层欺骗，强调需严格验证主要来源。该过程展示了人机协作进行事实核查的潜力，为行业提供了冷静的视角。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Analysis"
-    ],
-    "link": "https://brutelogic.net/charted/zero-days-zero-truth/",
-    "date": "2026-04-16",
-    "id": "17763598819384"
-  },
-  {
-    "title": "Google 调整广告策略聚焦不良广告",
-    "summary": "Google 利用 AI 加强广告审查，封锁更多广告但减少封禁广告主。",
-    "detail": "Google 调整执法策略，利用 AI 技术更精准地识别不良广告内容，而非直接封禁广告主账户。数据显示封锁广告数量增加但封禁账户减少，表明 AI 提升了审查粒度。这一转变反映了科技巨头在平衡生态安全与广告收入之间的新策略，AI 成为合规执法的核心工具。",
-    "tags": [
-      "News",
-      "Google",
-      "Policy"
-    ],
-    "link": "https://techcrunch.com/2026/04/16/google-blocked-more-ads-but-banned-fewer-advertisers-as-ai-reshapes-enforcement/",
-    "date": "2026-04-16",
-    "id": "17763534033062"
   }
 ]
