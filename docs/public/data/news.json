@@ -1,5 +1,57 @@
 [
   {
+    "title": "OpenAI 收购战略背后的生存焦虑",
+    "summary": "OpenAI 收购 Hiro 和 TBPN，旨在解决产品变现与公众形象两大生存问题。",
+    "detail": "基于 TechCrunch Equity 播客讨论，OpenAI 近期收购了个人理财初创公司 Hiro 和媒体公司 TBPN。分析认为这不仅是人才收购，更旨在解决两大生存问题：一是通过 Hiro 开发超越聊天机器人的高价值付费产品，增加用户粘性；二是通过 TBPN 改善近期受损的公众形象。这反映了 OpenAI 在激烈竞争中寻求多元化商业模式的战略调整，试图摆脱单一聊天机器人模式的局限，同时应对舆论压力，解决公司面临的生存性挑战。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Acquisition"
+    ],
+    "link": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
+    "date": "2026-04-19",
+    "id": "17766347751290"
+  },
+  {
+    "title": "AI Agent 使用 MCP 工具的安全挑战",
+    "summary": "开发者讨论如何保障使用 MCP 工具的 AI 代理安全，关注数据清洗与隔离环境。",
+    "detail": "Hacker News 热点讨论聚焦于 AI 代理使用 MCP 工具时的安全风险。核心问题在于外部工具处理原始数据时缺乏清洗，系统指令与工具返回内容未区分，可能导致注入攻击。开发者正在探索监控工具响应流量、使用隔离环境等措施，以防止潜在的攻击向量。这是 Agent 架构落地前的关键安全关卡，亟需行业标准工具或服务来填补监控与过滤工具响应流量的空白，确保代理行为可控，防止恶意数据污染模型上下文。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47827684",
+    "date": "2026-04-19",
+    "id": "17766347751291"
+  },
+  {
+    "title": "疑似 Context.ai 导致 Vercel 安全漏洞",
+    "summary": "安全专家指出 Vercel  breaches 可能源于第三方 AI 工具 Context.ai 的 OAuth 授权问题。",
+    "detail": "安全研究人员 Jaime Blasco 在 X 平台指出，Vercel 此前博客提及的第三方 AI 工具安全事件疑似指向 Context.ai。依据是相关联的 Chrome 扩展列表已被移除，且存在特定的 OAuth 授权 grant。这提醒开发者在使用第三方 AI 集成时需严格审查 OAuth 权限，第三方工具链的安全隐患正成为平台级漏洞的新源头，供应链安全风险在 AI 生态中日益凸显，需警惕授权滥用导致的账户接管风险。",
+    "tags": [
+      "News",
+      "Security",
+      "Vercel"
+    ],
+    "link": "https://twitter.com/jaimeblascob/status/2045960143209152981",
+    "date": "2026-04-19",
+    "id": "17766347751292"
+  },
+  {
+    "title": "AI 代理访问生产数据库的架构困境",
+    "summary": "初创公司面临 AI 团队请求生产数据库访问权的挑战，探讨读写分离与合规风险。",
+    "detail": "多家初创公司咨询如何处理 AI/ML 团队对生产 Postgres 数据的需求。与传统 BI 工具不同，AI 代理访问涉及更复杂的合规、成本及失控查询风险。讨论集中在是否使用读副本、数据仓库或直接连接，以及如何防止 PII 泄露。这反映了 AI 工程化进程中数据权限管理的新难题，团队需权衡数据新鲜度与安全性，避免赋予代理过高权限导致的生产环境风险，探索适合 Agent 的数据库接入架构。",
+    "tags": [
+      "Dev",
+      "Database",
+      "Architecture"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47827486",
+    "date": "2026-04-19",
+    "id": "17766347751293"
+  },
+  {
     "title": "Curl 维护者揭示 AI 安全报告洪流现状",
     "summary": "Daniel Stenberg 指出开源项目正遭受 AI 工具生成的大量高质量安全报告冲击。",
     "detail": "Curl 维护者 Daniel Stenberg 在最新周报中披露，开源社区正遭遇由 AI 驱动工具生成的高质量安全报告洪流。他指出，曾经担忧的\"AI 垃圾内容”问题已转变为巨大的漏洞审查负载，多个开源项目均有类似观察。这一趋势表明 AI 已深度介入代码安全审计，虽然提升了漏洞发现效率，但也给维护者带来严峻的验证压力，迫使社区重新审视漏洞处理流程与自动化报告的平衡机制。此外，他在即将到来的 foss-north 演讲中将此主题定为“开源 AI 现实”，强调这一现象的行业普遍性。",
@@ -1246,57 +1298,5 @@
     "link": "https://oxyklon.net/portal",
     "date": "2026-04-18",
     "id": "17765233661794"
-  },
-  {
-    "title": "AI 驱动 App Store 生态再度繁荣",
-    "summary": "2026 年 App Store 收入显著增长，人工智能应用成为核心推动力。",
-    "detail": "根据 TechCrunch 报道，2026 年 App Store 生态重现繁荣景象，人工智能应用被视为关键增长引擎。随着生成式 AI 技术深度融入移动端，用户付费意愿显著提升。这一趋势标志着 AI 从实验性技术转向商业化落地，为开发者带来新的变现机遇，同时也预示着移动生态竞争将围绕 AI 能力展开，行业迎来新一轮增长周期。",
-    "tags": [
-      "News",
-      "App Store",
-      "Industry"
-    ],
-    "link": "https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/",
-    "date": "2026-04-18",
-    "id": "17765175615590"
-  },
-  {
-    "title": "Atlassian 更新数据政策引隐私争议",
-    "summary": "除非付费或法律禁止，否则用户数据将用于训练 AI 模型。",
-    "detail": "The Register 指出 Atlassian 新数据收集政策允许其使用用户数据训练 AI 模型，除非客户支付额外费用或通过法律手段排除。这一“付费隐私”模式引发行业对数据主权和企业伦理的担忧。对于依赖 Atlassian 工具的企业，需重新评估合规风险，这也反映了 SaaS 厂商在 AI 时代变现数据资产的新策略，隐私保护成为付费增值点。",
-    "tags": [
-      "News",
-      "Privacy",
-      "SaaS"
-    ],
-    "link": "https://www.theregister.com/2026/04/18/atlassians_new_data_collection_policy/",
-    "date": "2026-04-18",
-    "id": "17765175615591"
-  },
-  {
-    "title": "开源 AI 求职助手 ApplyPilot 上线",
-    "summary": "自托管 AI 代理 pipeline，30 秒完成简历与求职信定制。",
-    "detail": "GitHub 热门项目 ApplyPilot 是一款自托管 AI 求职伴侣。它利用 5 个 AI 代理协同工作，分析职位、匹配度评分、公司调研及文书撰写，全程约 30 秒。技术栈基于 Python、FastAPI 和 LangGraph，支持 BYOK。该项目展示了多代理系统在实际工作流中的自动化潜力，为开发者提供了本地化部署的参考架构，适合希望保护数据隐私的求职者。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Agents"
-    ],
-    "link": "https://github.com/eliornl/applypilot",
-    "date": "2026-04-18",
-    "id": "17765175615592"
-  },
-  {
-    "title": "Venice AI 主打隐私与无偏见模型",
-    "summary": "承诺提示词 100% 隐私，提供多种先进开源及闭源模型。",
-    "detail": "Venice AI 推出强调隐私保护的 AI 平台，宣称所有数据留存于用户设备而非服务器。平台集成多种前沿模型（包括 Claude Opus 4.5、GPT-5.2 及 Flux 2 等），主打无偏见和创意自由。在数据泄露频发的背景下，此类“本地化”或“隐私优先”的 AI 服务正成为差异化竞争的关键，满足了对数据敏感用户的核心需求，重新定义人机交互信任边界。",
-    "tags": [
-      "New",
-      "Privacy",
-      "LLM"
-    ],
-    "link": "https://venice.ai/",
-    "date": "2026-04-18",
-    "id": "17765175615593"
   }
 ]
