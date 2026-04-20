@@ -1,5 +1,57 @@
 [
   {
+    "title": "1Password 分享 AI Agent 重构单体架构经验",
+    "summary": "1Password 团队分享使用 AI Agent 重构百万行 Go 代码单体架构的实践经验与挑战。",
+    "detail": "1Password 披露利用 AI Agent 工具链对名为 B5 的百万行 Go 单体架构进行重构的案例。团队尝试通过代理工具分析依赖映射及系统分解，以支持统一访问服务的高请求率与低延迟需求。随着功能增强，系统需要更清晰的服务边界。虽然工具生成了清晰的提取计划，文章分享了成功经验与遇到的问题。该案例为生产环境引入 AI 工程化提供了宝贵参考，揭示了当前 Agent 技术在复杂代码库处理中的能力边界与潜在价值，适合关注 AI 落地的工程团队参考，展示了从依赖映射到系统分解的完整工作流。",
+    "tags": [
+      "Dev",
+      "AI Agent",
+      "Engineering"
+    ],
+    "link": "https://1password.com/blog/what-we-learned-using-ai-agents-to-refactor-a-monolith",
+    "date": "2026-04-20",
+    "id": "17767218704930"
+  },
+  {
+    "title": "Show HN: Explain The Law 用 AI 简化联邦法律",
+    "summary": "新项目利用 AI 简化美国联邦立法与行政命令，提供趋势法案解读。",
+    "detail": "这是一个展示在 Hacker News 上的新项目，旨在利用 AI 技术简化复杂的联邦立法和行政命令。平台提供了按趋势分类的法案浏览，如涉及技术、社会、经济等领域的最新立法动态。例如，它展示了要求操作系统验证用户年龄的“父母决定法案”及禁止政治选举博彩的法案。该项目通过 AI 降低法律文本的理解门槛，帮助公众快速把握政策核心，是 AI 在法律科技（LegalTech）领域的典型应用案例，展示了 NLP 技术在垂直文档处理上的潜力，界面清晰展示了法案日期与分类。",
+    "tags": [
+      "New",
+      "LegalTech",
+      "AI Application"
+    ],
+    "link": "https://explainthelaw.com/",
+    "date": "2026-04-20",
+    "id": "17767218704931"
+  },
+  {
+    "title": "开源项目 Argos：AI 基础设施自愈代理",
+    "summary": "开源 AI 代理 Argos 可通过自然语言管理服务器，实现自动部署与自愈。",
+    "detail": "Argos 是一个开源的自主基础设施代理项目，旨在通过自然语言实现 AI 驱动的服务器管理。其核心功能包括舰队监控、纳米代理（nanite agents）部署以及系统自愈能力。该工具允许开发者使用自然语言指令来部署虚拟机和管理基础设施，代表了 AI Agent 在 DevOps 领域的深入应用。作为开源项目，它为构建自修复、自动化的云基础设施提供了新的技术路径和参考实现，降低了基础设施管理的复杂度，适合运维开发者探索 AI 自动化运维场景，支持自然语言交互。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "DevOps"
+    ],
+    "link": "https://github.com/DarkAngel-agents/argos",
+    "date": "2026-04-20",
+    "id": "17767218704932"
+  },
+  {
+    "title": "开源项目 Viral Ink：AI 领英帖子生成代理",
+    "summary": "自我改进的 AI 代理，模仿用户声音撰写领英帖子并评估病毒式传播潜力。",
+    "detail": "Viral Ink 是一个开源的自改进 AI 代理，专门用于撰写符合用户个人声音的 LinkedIn 帖子。该项目不仅生成内容，还能评估帖子的病毒式传播潜力，并根据结果反馈不断自我优化。它体现了 AI 在社交媒体自动化和内容创作领域的最新进展，通过个性化声音克隆和效果评分机制，帮助用户更高效地进行个人品牌建设，是垂直领域 AI Agent 的创新尝试，展示了强化学习在内容生成优化中的具体应用方式，代码托管于 GitHub 平台。",
+    "tags": [
+      "New",
+      "Social Media",
+      "AI Agent"
+    ],
+    "link": "https://github.com/Sohamp2809/viral-ink",
+    "date": "2026-04-20",
+    "id": "17767218704933"
+  },
+  {
     "title": "Salesforce 推出 Headless 360，全面转向 AI 代理基础设施",
     "summary": "Salesforce 发布 Headless 360，将平台能力暴露为 API 供 AI 代理调用。",
     "detail": "Salesforce 宣布其 27 年来最重大的架构转型\"Headless 360\"。该计划将平台所有功能暴露为 API、MCP 工具或 CLI 命令，使 AI 代理无需浏览器即可操作系统。这是在 TDX 开发者大会上发布的，标志着 Salesforce 从 SaaS 平台向 AI 代理基础设施的根本转变。旨在让 Agent 直接编排业务流程，无需人工干预，这将深刻影响企业级 AI 应用架构及 CRM 未来的交互模式，实现完全自动化的客户管理与业务操作。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.ai-primer.com",
     "date": "2026-04-19",
     "id": "17765924023611"
-  },
-  {
-    "title": "AI 安全组织创业资源指南发布",
-    "summary": "LessWrong 发布指南，提供资金、孵化器等创业支持资源。",
-    "detail": "针对 AI 安全领域组织稀缺的现状，AISafety.com 更新了创始人资源页面。内容涵盖财政赞助、孵化器、风险投资机构及相关工具文章。该举措旨在降低 AI 安全组织的创业门槛，促进行业生态发展，为有意投身 AI 安全领域的创业者提供了清晰的路径指引和支持网络。这反映了社区对 AI 安全基础设施建设的重视，有助于吸引更多人才和资金进入该关键领域。页面信息经过严格核实以确保准确性，并鼓励社区反馈，体现了开源协作精神，为初创团队节省了调研成本。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Ecosystem"
-    ],
-    "link": "https://www.lesswrong.com/posts/fBDMCLTv8Cx28cJeJ/resources-for-starting-and-growing-an-ai-safety-org",
-    "date": "2026-04-19",
-    "id": "17765924023612"
-  },
-  {
-    "title": "Merit-Systems 推出 User Pays AI SDK",
-    "summary": "GitHub 开源新项目，探索用户付费模式的 AI 开发工具包。",
-    "detail": "Merit-Systems 在 GitHub 发布了 Echo SDK，主打“用户付费”模式的 AI 集成方案。该工具包旨在帮助开发者构建可持续的 AI 应用商业模式，解决 API 成本分摊问题。作为开源项目，它为开发者提供了新的架构参考，有助于优化 AI 应用的经济模型和部署策略。在当前 AI 成本高企的背景下，探索用户付费机制对于独立开发者和初创公司具有重要的经济意义。该项目直接托管于 GitHub，方便开发者查阅代码文档并集成到自己的工作流中，促进技术共享。",
-    "tags": [
-      "Dev",
-      "SDK",
-      "Open Source"
-    ],
-    "link": "https://github.com/Merit-Systems/echo",
-    "date": "2026-04-19",
-    "id": "17765924023613"
-  },
-  {
-    "title": "Algotutor：利用 AI 提升算法学习能力",
-    "summary": "Medium 文章分享如何通过 AI 工具辅助算法学习与理解。",
-    "detail": "作者 Andrei Boar 分享了 Algotutor 项目，探讨如何利用 AI 技术真正提高算法能力。文章介绍了通过 AI 辅助学习算法的具体方法和实践案例。这对于希望利用 AI 提升编程基础和个人竞争力的开发者具有参考价值，展示了 AI 在教育和技术培训领域的潜在应用。通过交互式学习，AI 能够帮助初学者更快理解复杂逻辑，是编程教育智能化的一个缩影。文章发布于 Medium 平台，提供了详细的操作步骤，适合希望优化学习路径的程序员阅读借鉴。",
-    "tags": [
-      "Dev",
-      "Education",
-      "Algorithms"
-    ],
-    "link": "https://medium.com/@andreiboar/algotutor-using-ai-to-actually-get-better-at-algorithms-a2b7b96e054a",
-    "date": "2026-04-19",
-    "id": "17765924023614"
-  },
-  {
-    "title": "PCMind：本地化多模态 AI 分析工具",
-    "summary": "完全本地运行，支持文档音视频隐私分析。",
-    "detail": "PCMind 推出了一款主打 100% 本地运行的 AI 分析应用，旨在彻底解决云端数据处理的安全隐患。它能在无需云端上传的情况下，本地处理文档、录音、视频和图像，生成摘要、转录及深度洞察。支持 Windows 10/11 系统，提供可选 GPU 加速以提升处理效率，且模型下载后可完全离线工作。该工具精准解决了企业对数据隐私的合规担忧，标志着本地 AI 应用在多模态处理上的技术成熟。对于金融、法律等对数据安全敏感的行业及个人用户，这是一种理想的私有化知识管理解决方案，展现了端侧 AI 的实际落地能力与隐私保护优势。",
-    "tags": [
-      "New",
-      "Local AI",
-      "Privacy"
-    ],
-    "link": "https://pcmind.app/",
-    "date": "2026-04-19",
-    "id": "17765890726380"
   }
 ]
