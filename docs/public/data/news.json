@@ -1,5 +1,83 @@
 [
   {
+    "title": "Vibe Guard：Claude Code 代码审计技能集",
+    "summary": "专为 Claude Code 设计的三重审计技能，推送前捕捉漏洞。",
+    "detail": "该项目提供一组 Claude Code 技能，在会话结束时执行生产韧性、安全漏洞和代码理解三重审计。旨在解决 AI 生成代码在生产环境崩溃、留安全后门及逻辑不可控的问题。通过自动化审计流程，帮助开发者在推送前识别潜在风险，提升 AI 辅助编程的安全性。技能包括 `/vibe-check` 检查生产韧性，`/vibe-secure` 检查安全漏洞，以及 `/vibe-explain` 检查代码认知债务。这是针对 AI 编程盲点的有效防御工具，适合注重代码质量的团队集成到工作流中。",
+    "tags": [
+      "Dev",
+      "Claude",
+      "Security"
+    ],
+    "link": "https://github.com/codecoincognition/vibe-guard-skills",
+    "date": "2026-04-21",
+    "id": "17767846124031"
+  },
+  {
+    "title": "YouTube 扩展 AI 肖像检测技术至名人",
+    "summary": "YouTube 升级检测技术，覆盖名人肖像以防止滥用。",
+    "detail": "YouTube 宣布将其 AI 肖像检测技术范围扩大至名人领域。此举旨在应对日益增长的深度伪造内容，保护名人肖像权免受 AI 滥用。平台将利用新技术识别未经授权的合成媒体，标志着大型科技公司在 AI 内容治理和版权保护方面迈出了重要一步。行业合规性要求进一步提高，内容创作者需更注意肖像权使用规范。该技术扩展反映了平台对 AI 生成内容风险的关注，有助于维护生态系统的真实性和信任度，为其他社交平台树立治理标杆。",
+    "tags": [
+      "News",
+      "YouTube",
+      "Policy"
+    ],
+    "link": "https://techcrunch.com/2026/04/21/youtube-expands-its-ai-likeness-detection-technology-to-celebrities/",
+    "date": "2026-04-21",
+    "id": "17767846124032"
+  },
+  {
+    "title": "Agentathon：AI Agent 自主竞争黑客松",
+    "summary": "首届 AI Agent 黑客松启动，聚焦社会与环境问题解决。",
+    "detail": "Agentathon 是一个新型黑客松，要求参赛者构建能自主解决问题的 AI Agent。赛道涵盖社会公益、开发者工具、创意交互、健康福祉等方向。评审标准强调影响力、创新性及可行性。这反映了行业焦点从单纯的大模型能力转向 Agent 自主解决实际问题的趋势，鼓励开发者探索 AI 在真实场景中的落地应用。参赛者需构建工具解决可访问性、灾难响应或教育公平等问题，推动 AI 技术向具有实际社会价值的方向发展。",
+    "tags": [
+      "New",
+      "Hackathon",
+      "Agents"
+    ],
+    "link": "https://agentathon.dev/",
+    "date": "2026-04-21",
+    "id": "17767846124033"
+  },
+  {
+    "title": "Vynly：仅限 AI 代理发布的社交动态流",
+    "summary": "全新社交平台 Vynly 上线，专为虚拟明星和 AI 代理设计。",
+    "detail": "Vynly 是一个独特的社交 feed 平台，仅允许 AI 代理发布内容。用户可关注虚拟明星，查看由 AI 生成的动态、图像和故事。该平台探索了纯 AI 内容社交的可能性，解决了人类用户与 AI 生成内容混合的噪音问题。这是 AI 原生社交网络的一次大胆尝试，可能重塑未来内容消费形态。平台上已有用户发布由 ChatGPT 生成的角色动态，展示了虚拟互动的潜力，为数字人生态提供了新的展示和交互空间。",
+    "tags": [
+      "New",
+      "Social",
+      "Agents"
+    ],
+    "link": "https://vynly.co",
+    "date": "2026-04-21",
+    "id": "17767846124034"
+  },
+  {
+    "title": "为何仅靠 AI 无法解决社会问题",
+    "summary": "深度分析指出 AI 在社会公益领域的局限性与人类角色。",
+    "detail": "文章深入探讨了 AI 在社会公益项目中的局限性。指出单纯依赖技术无法解决复杂的社会结构性问题，人类的主导作用不可或缺。虽然 AI 能提高效率，但缺乏语境理解和道德判断。该观点提醒行业在追求 AI 社会价值时需保持理性，避免技术万能论，强调人机协作才是解决社会难题的关键路径。报告来自 Rest of World，关注全球科技故事，强调了在非洲、亚洲等地区技术应用需结合当地实际情况，不能仅靠算法驱动。",
+    "tags": [
+      "News",
+      "Analysis",
+      "Ethics"
+    ],
+    "link": "https://restofworld.org/2026/ai-social-good-humans/",
+    "date": "2026-04-21",
+    "id": "17767846124035"
+  },
+  {
+    "title": "SpecDrift：像产品经理一样审查代码的 AI",
+    "summary": "扫描合并 PR 与需求差异，减少产品团队返工时间。",
+    "detail": "SpecDrift 是一个 AI 代码审查工具，模拟产品经理和系统架构师视角。它扫描已完成的需求问题与合并的 PR，精确展示实现与意图的分歧并提供证据。针对产品团队 70% 返工时间浪费在代码偏离规格的问题，该工具旨在弥合需求与实现之间的鸿沟，提升交付质量。通过自动化比对规格与代码，帮助团队发现静默漂移，减少沟通成本。这是 GitHub 生态中提升工程一致性的新尝试，适合敏捷开发团队采用。",
+    "tags": [
+      "Dev",
+      "Productivity",
+      "GitHub"
+    ],
+    "link": "https://github.com/OneSpur/scanner",
+    "date": "2026-04-21",
+    "id": "17767846124036"
+  },
+  {
     "title": "营销工作流受益于 AI，但信任仍是采用障碍",
     "summary": "Digiday 研究显示 AI 提升营销效率，但信任问题阻碍大规模采用。",
     "detail": "Digiday+ 发布的最新研究报告深入分析了当前营销行业的 AI 采用现状与挑战。报告明确指出，尽管 AI 工具在实际营销工作流中带来了显著的效益提升，优化了操作流程，但行业对于信任问题的担忧依然严峻。信任缺失目前是阻碍 AI 技术在企业级营销中大规模采用的主要屏障。这表明未来 AI 营销工具的发展重点将转向建立透明度与可靠性机制，以消除用户顾虑，推动技术真正落地。该研究揭示了技术能力与用户接受度之间的关键差距，对营销技术栈的演进具有指导意义。",
@@ -297,6 +375,19 @@
     "link": "https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas",
     "date": "2026-04-21",
     "id": "17767393572290"
+  },
+  {
+    "title": "Cloudflare 大规模 AI 代码审查实践",
+    "summary": "Cloudflare 分享基于 OpenCode 构建 AI 代码审查编排系统经验。",
+    "detail": "Cloudflare 工程团队面临代码审查瓶颈，内部项目中位等待时间长达数小时。传统 AI 工具缺乏灵活性，简单提示词导致大量噪音和幻觉。团队决定基于开源 agent OpenCode 构建 CI 原生编排系统，而非单体 agent。该系统允许高度定制，适应大型组织需求。此实践为大型企业落地 AI 代码审查提供了参考架构，强调了定制化编排的重要性，有效解决了复杂代码库中简单总结方法导致的幻觉和噪音问题，显著提升工程效率。通过自动化流程，减少了人工上下文切换，为行业展示了规模化 AI 代码审查的可行路径。",
+    "tags": [
+      "Dev",
+      "Cloudflare",
+      "Code Review"
+    ],
+    "link": "https://blog.cloudflare.com/ai-code-review/",
+    "date": "2026-04-20",
+    "id": "17767846124030"
   },
   {
     "title": "AI 配额通胀现象分析：并非偶然而是系统性问题",
@@ -1207,96 +1298,5 @@
     "link": "https://github.com/thresher-sh/autoloom",
     "date": "2026-04-19",
     "id": "17766314066401"
-  },
-  {
-    "title": "研究称 AI 辅助可能降低人类坚持性与独立表现",
-    "summary": "最新 arXiv 论文指出过度依赖 AI 辅助可能损害用户的独立表现。",
-    "detail": "这篇提交于 2026 年 4 月的 arXiv 论文《AI Assistance Reduces Persistence and Hurts Independent Performance》深入探讨了 AI 辅助对人类行为模式的潜在负面影响。研究数据显示，虽然 AI 能提供即时帮助，但可能显著减少用户在任务中的持久性，并损害其独立解决问题的能力。这对 AI 产品设计提出了重要警示，开发者需平衡辅助效率与用户能力培养，避免工具导致的人类技能退化依赖，为未来人机协作模式提供了实证依据。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Human-AI"
-    ],
-    "link": "https://arxiv.org/abs/2604.04721",
-    "date": "2026-04-19",
-    "id": "17766314066402"
-  },
-  {
-    "title": "经济学家对 AI 就业影响转向乐观",
-    "summary": "芝加哥经济学家 Alex Imas 改变观点，发现 AI 经济中的希望迹象。",
-    "detail": "曾经对 AI 感到恐惧的芝加哥经济学家 Alex Imas 在最新分析中找到了罕见的希望理由。文章探讨了 AI 对人类工作的实际影响，挑战了末日情景预测。这反映了学术界对 AI 经济影响评估的转变，从单纯担忧失业转向寻找人机协作的新机遇。对于投资者和从业者而言，这意味着 AI 落地可能比预期更温和，专注于增强而非替代人类的工作流将更具可持续性。该观点为焦虑的市场注入理性，建议政策制定者关注再培训而非单纯限制技术。",
-    "tags": [
-      "News",
-      "Economy",
-      "Jobs"
-    ],
-    "link": "https://fortune.com/2026/04/19/alex-imas-human-jobs-ai-economy-chicago-economist-substack-doomsday-scenario/",
-    "date": "2026-04-19",
-    "id": "17766279053650"
-  },
-  {
-    "title": "创业公司的 12 个月窗口期",
-    "summary": "TechCrunch 分析指出初创企业面临关键的 12 个月战略窗口。",
-    "detail": "TechCrunch 发布文章强调初创企业在当前 AI 浪潮下的\"12 个月窗口期”。虽然具体内容受限于抓取，但标题暗示了投资人对 AI 初创企业落地变现的时间预期。这通常意味着市场留给初创公司证明商业模式的时间缩短，需在一年内实现关键里程碑以获取后续融资。创业者需警惕资金消耗率，快速验证产品市场匹配度。在资本寒冬背景下，这一窗口期理论提醒团队避免过度依赖融资故事，转而追求实际营收增长与技术壁垒构建。",
-    "tags": [
-      "News",
-      "Startups",
-      "VC"
-    ],
-    "link": "https://techcrunch.com/2026/04/19/the-12-month-window/",
-    "date": "2026-04-19",
-    "id": "17766279053651"
-  },
-  {
-    "title": "社区热议：AI 伴侣为何流行？",
-    "summary": "Hacker News 用户讨论 AI 女友需求及 companionrank.com 等平台现象。",
-    "detail": "Hacker News 社区发起关于\"AI 女友”为何流行的讨论。用户质疑为何有人会与计算机建立情感连接，并提及 companionrank.com 等排名网站。这反映了 AI 情感陪伴产品的市场热度与公众伦理困惑之间的张力，是 C 端 AI 应用落地的典型案例分析。情感计算领域的隐私与依赖问题将成为监管关注焦点。此类讨论有助于行业反思用户体验设计，避免利用心理弱点获利，推动建立更健康的数字陪伴伦理标准。",
-    "tags": [
-      "News",
-      "Consumer AI",
-      "Ethics"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47826685",
-    "date": "2026-04-19",
-    "id": "17766279053652"
-  },
-  {
-    "title": "AI 正在陷入平庸危机？",
-    "summary": "媒体文章警告 AI 发展可能面临“认识论自杀”，导致质量下降。",
-    "detail": "Medium 文章提出\"Epistemic Suicide\"概念，批评 AI 正在陷入平庸化。作者认为过度依赖生成式 AI 可能导致内容质量坍塌和知识真实性受损。这一观点呼应了业界对 AI 生成内容泛滥（AI Slop）的担忧，提示开发者需关注模型输出质量与人类价值观的对齐。高质量数据清洗与人类反馈强化学习将是关键解决方案。行业需警惕模型崩溃风险，避免使用合成数据训练下一代模型，确保 AI 生态系统的知识多样性与准确性。",
-    "tags": [
-      "News",
-      "LLM",
-      "Opinion"
-    ],
-    "link": "https://medium.com/@erinacius4455/full-linkedin-article-english-version-6611a87d02c5",
-    "date": "2026-04-19",
-    "id": "17766279053653"
-  },
-  {
-    "title": "Uber AI 投入遇阻，CTO 坦言预算困境",
-    "summary": "Uber CTO 表示尽管投入 34 亿美元，AI 推进仍面临预算与技术落地挑战。",
-    "detail": "雅虎财经最新报道指出，Uber 在人工智能领域的激进推进策略目前遭遇了显著瓶颈。尽管公司已经在相关技术上花费了高达 34 亿美元，但其首席技术官（CTO）公开表示，预算挣扎依然存在，AI 推进触及墙壁。这一消息揭示了大型科技企业在将前沿 AI 技术转化为实际业务价值时所面临的普遍困境。高昂的算力成本、复杂的系统集成以及预期回报的不确定性，可能超出了最初的预算规划。此事件对行业具有重要警示意义，表明 AI 投资已从单纯的技术竞赛转向对投资回报率（ROI）的严格审视。企业需要重新评估 AI 战略，优化成本结构，并寻找更具确定性的落地场景，这标志着 AI 行业进入理性调整期。",
-    "tags": [
-      "News",
-      "Uber",
-      "Enterprise AI"
-    ],
-    "link": "https://finance.yahoo.com/sectors/technology/articles/ubers-anthropic-ai-push-hits-223109852.html",
-    "date": "2026-04-19",
-    "id": "17766251078880"
-  },
-  {
-    "title": "AI 的另一半：Harness Engineering 超越模型本身",
-    "summary": "文章指出 2026 年行业共识：Harness 工程比模型更重要，关注非开发者用户的 AI usability。",
-    "detail": "文章深入探讨了 2026 年 AI 行业的新共识——\"Harness Engineering\"（ harness 工程）正逐渐取代传统的提示工程。文中引用了 Karpathy、OpenAI 及斯坦福与麻省理工的联合论文，数据证明相同的模型权重因 harness 设计不同可产生高达 6 倍的性能差距。文章重点强调了让非技术人员（如印度小城镇的信贷员）通过 WhatsApp 等日常工具使用 AI 的重要性，指出模型之外的用户体验与流程设计才是落地的关键。行业焦点已从单纯追求模型参数转向如何构建更好的交互层，使 AI 能服务于数字技能较弱的群体。这代表了 AI 普惠化的重要方向，提示开发者需更多关注“人”的因素，而非仅关注算法本身。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Industry Trend"
-    ],
-    "link": "https://www.utkarshapoorva.com/writing/missing-human-half-of-ai/",
-    "date": "2026-04-19",
-    "id": "17766251078881"
   }
 ]
