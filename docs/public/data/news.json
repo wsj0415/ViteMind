@@ -1,5 +1,70 @@
 [
   {
+    "title": "Meta 将收集员工鼠标键盘数据用于 AI 训练",
+    "summary": "Meta 计划捕获员工鼠标移动和击键数据，引发隐私争议。",
+    "detail": "### 事件背景\n路透社独家报道，Meta 计划开始捕获员工的鼠标移动和击键数据，用于 AI 模型训练。\n### 核心影响\n此举旨在利用内部员工行为数据优化 AI 交互体验，但引发了严重的隐私担忧和伦理争议。这是科技巨头在数据边界上的又一次试探，可能招致监管审查。\n### 行业启示\n企业需在 AI 数据获取与员工隐私保护之间寻找平衡，透明化的数据政策将成为关键。",
+    "tags": [
+      "News",
+      "Meta",
+      "Privacy"
+    ],
+    "link": "https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-for-ai-training-data-2026-04-21/",
+    "date": "2026-04-21",
+    "id": "17767911153430"
+  },
+  {
+    "title": "谷歌内部政治致其在 AI 编码领域落后",
+    "summary": "彭博社指出谷歌因内部政治斗争，在 AI 编码工具上落后于竞争对手。",
+    "detail": "### 事件背景\n彭博社分析称，谷歌内部的政治斗争阻碍了其在 AI 编码工具领域的进展，导致其在与竞争对手的较量中处于劣势。\n### 核心问题\n复杂的内部决策流程和部门壁垒延缓了产品迭代速度，使得外部初创公司得以抢占先机。\n### 行业影响\n这表明即使是科技巨头，组织效率也是决定 AI 落地速度的关键因素。谷歌需调整内部结构以重获竞争力。",
+    "tags": [
+      "News",
+      "Google",
+      "Industry"
+    ],
+    "link": "https://www.bloomberg.com/news/articles/2026-04-21/google-struggles-to-gain-ground-in-ai-coding-as-rivals-advance",
+    "date": "2026-04-21",
+    "id": "17767911153431"
+  },
+  {
+    "title": "Google Research 推出 ReasoningBank 增强代理记忆",
+    "summary": "谷歌开源新框架，使 AI 代理能从成功与失败经验中学习。",
+    "detail": "### 技术背景\nGoogle Research 发布 ReasoningBank，解决 AI 代理无法从过往经验中学习的局限。\n### 核心创新\n该框架不仅记录成功轨迹，还提炼失败经验中的推理模式，支持测试时自我进化。\n### 应用价值\n在网页浏览和软件工程基准测试中，显著提升了代理的成功率和效率，为长周期任务代理提供记忆基础。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Research"
+    ],
+    "link": "https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience/",
+    "date": "2026-04-21",
+    "id": "17767911153433"
+  },
+  {
+    "title": "Nobulex：为 AI 代理行为提供加密凭证",
+    "summary": "开源项目 Nobulex 通过加密哈希链验证 AI 代理行为合规性。",
+    "detail": "### 项目介绍\nNobulex 是一个 AI 代理问责原语，提供加密的行为承诺和无需信任的验证。\n### 核心技术\n通过声明规则、执行前检查和加密证明三步，生成防篡改的哈希链日志。\n### 安全意义\n解决了 AI 代理无法自证遵守规则的问题，适用于金融等高合规要求场景，增强代理间信任。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://github.com/arian-gogani/nobulex",
+    "date": "2026-04-21",
+    "id": "17767911153434"
+  },
+  {
+    "title": "Mitshe：为 AI 代理提供隔离的 Docker 工作空间",
+    "summary": "开源平台 Mitshe 为 AI 代理创建安全的隔离执行环境。",
+    "detail": "### 项目介绍\nMitshe 是一个开源平台，旨在为 AI 代理提供隔离的 Docker 工作空间。\n### 核心功能\n通过容器化技术确保代理在执行任务时无法访问宿主机的敏感资源，防止意外破坏或数据泄露。\n### 开发价值\n为开发者提供了安全的代理测试和生产环境，降低了部署自主 AI 系统的安全风险。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "Security"
+    ],
+    "link": "https://github.com/mitshe/mitshe",
+    "date": "2026-04-21",
+    "id": "17767911153435"
+  },
+  {
     "title": "Vibe Guard：Claude Code 代码审计技能集",
     "summary": "专为 Claude Code 设计的三重审计技能，推送前捕捉漏洞。",
     "detail": "该项目提供一组 Claude Code 技能，在会话结束时执行生产韧性、安全漏洞和代码理解三重审计。旨在解决 AI 生成代码在生产环境崩溃、留安全后门及逻辑不可控的问题。通过自动化审计流程，帮助开发者在推送前识别潜在风险，提升 AI 辅助编程的安全性。技能包括 `/vibe-check` 检查生产韧性，`/vibe-secure` 检查安全漏洞，以及 `/vibe-explain` 检查代码认知债务。这是针对 AI 编程盲点的有效防御工具，适合注重代码质量的团队集成到工作流中。",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
     "date": "2026-04-19",
     "id": "17766347751290"
-  },
-  {
-    "title": "AI Agent 使用 MCP 工具的安全挑战",
-    "summary": "开发者讨论如何保障使用 MCP 工具的 AI 代理安全，关注数据清洗与隔离环境。",
-    "detail": "Hacker News 热点讨论聚焦于 AI 代理使用 MCP 工具时的安全风险。核心问题在于外部工具处理原始数据时缺乏清洗，系统指令与工具返回内容未区分，可能导致注入攻击。开发者正在探索监控工具响应流量、使用隔离环境等措施，以防止潜在的攻击向量。这是 Agent 架构落地前的关键安全关卡，亟需行业标准工具或服务来填补监控与过滤工具响应流量的空白，确保代理行为可控，防止恶意数据污染模型上下文。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agents"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47827684",
-    "date": "2026-04-19",
-    "id": "17766347751291"
-  },
-  {
-    "title": "疑似 Context.ai 导致 Vercel 安全漏洞",
-    "summary": "安全专家指出 Vercel  breaches 可能源于第三方 AI 工具 Context.ai 的 OAuth 授权问题。",
-    "detail": "安全研究人员 Jaime Blasco 在 X 平台指出，Vercel 此前博客提及的第三方 AI 工具安全事件疑似指向 Context.ai。依据是相关联的 Chrome 扩展列表已被移除，且存在特定的 OAuth 授权 grant。这提醒开发者在使用第三方 AI 集成时需严格审查 OAuth 权限，第三方工具链的安全隐患正成为平台级漏洞的新源头，供应链安全风险在 AI 生态中日益凸显，需警惕授权滥用导致的账户接管风险。",
-    "tags": [
-      "News",
-      "Security",
-      "Vercel"
-    ],
-    "link": "https://twitter.com/jaimeblascob/status/2045960143209152981",
-    "date": "2026-04-19",
-    "id": "17766347751292"
-  },
-  {
-    "title": "AI 代理访问生产数据库的架构困境",
-    "summary": "初创公司面临 AI 团队请求生产数据库访问权的挑战，探讨读写分离与合规风险。",
-    "detail": "多家初创公司咨询如何处理 AI/ML 团队对生产 Postgres 数据的需求。与传统 BI 工具不同，AI 代理访问涉及更复杂的合规、成本及失控查询风险。讨论集中在是否使用读副本、数据仓库或直接连接，以及如何防止 PII 泄露。这反映了 AI 工程化进程中数据权限管理的新难题，团队需权衡数据新鲜度与安全性，避免赋予代理过高权限导致的生产环境风险，探索适合 Agent 的数据库接入架构。",
-    "tags": [
-      "Dev",
-      "Database",
-      "Architecture"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47827486",
-    "date": "2026-04-19",
-    "id": "17766347751293"
-  },
-  {
-    "title": "Curl 维护者揭示 AI 安全报告洪流现状",
-    "summary": "Daniel Stenberg 指出开源项目正遭受 AI 工具生成的大量高质量安全报告冲击。",
-    "detail": "Curl 维护者 Daniel Stenberg 在最新周报中披露，开源社区正遭遇由 AI 驱动工具生成的高质量安全报告洪流。他指出，曾经担忧的\"AI 垃圾内容”问题已转变为巨大的漏洞审查负载，多个开源项目均有类似观察。这一趋势表明 AI 已深度介入代码安全审计，虽然提升了漏洞发现效率，但也给维护者带来严峻的验证压力，迫使社区重新审视漏洞处理流程与自动化报告的平衡机制。此外，他在即将到来的 foss-north 演讲中将此主题定为“开源 AI 现实”，强调这一现象的行业普遍性。",
-    "tags": [
-      "News",
-      "Security",
-      "Open Source"
-    ],
-    "link": "https://lists.haxx.se/pipermail/daniel/2026-April/000153.html",
-    "date": "2026-04-19",
-    "id": "17766314066400"
-  },
-  {
-    "title": "Autoloom：基于 tinyloom 的自主 AI 代理",
-    "summary": "GitHub 上新开源的自主 AI 代理项目，基于 tinyloom 构建。",
-    "detail": "Autoloom 是一个托管在 GitHub 上的开源项目，旨在构建基于 tinyloom 的自主 AI 代理。该项目展示了开发者如何利用现有框架创建能够独立执行任务的 AI 智能体，代码库提供了具体的实现参考与架构设计。对于关注 AI Agent 架构、自动化工作流以及开源智能体开发的开发者而言，这是一个值得研究的新案例，体现了 Agent 技术在开发工具链中的快速渗透与多样化尝试，为构建自主系统提供了新思路。",
-    "tags": [
-      "New",
-      "Agent",
-      "GitHub"
-    ],
-    "link": "https://github.com/thresher-sh/autoloom",
-    "date": "2026-04-19",
-    "id": "17766314066401"
   }
 ]
