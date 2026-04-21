@@ -1,5 +1,96 @@
 [
   {
+    "title": "本地 AI 记忆新方案：RA-H OS 开源项目",
+    "summary": "将 AI 记忆存入本地 SQLite 数据库，支持 MCP 协议。",
+    "detail": "该项目通过本地 SQLite 数据库存储笔记与研究数据，替代传统文件夹管理。提供本地 UI 及 MCP 服务器接口，允许 Claude Code 等代理直接读写知识图谱。数据完全本地化，保障隐私，适合构建个人本地知识库与 AI 代理记忆层。此方案解决了云端记忆的成本与隐私问题，为本地 Agent 开发提供了新的基础设施参考，尤其适合对数据主权敏感的开发者和研究人员使用。",
+    "tags": [
+      "Dev",
+      "Local AI",
+      "MCP"
+    ],
+    "link": "https://github.com/bradwmorris/ra-h_os/",
+    "date": "2026-04-21",
+    "id": "17767698503300"
+  },
+  {
+    "title": "Nova Launcher 拟推 AI 助手引隐私担忧",
+    "summary": "安卓启动器计划集成主动式 AI 助手，引发数据隐私争议。",
+    "detail": "Android Authority 披露 Nova Launcher 可能通过订阅制加入主动式 AI 助手功能。虽然提升便利性，但因其需要深度访问用户数据，引发社区对隐私泄露的强烈担忧。这反映了移动端 AI 功能普及与用户隐私保护之间的日益紧张关系。此类集成预示着未来手机操作系统将更深度的融合 AI，但如何在提供个性化服务的同时不牺牲用户隐私，将成为厂商面临的关键挑战与合规重点。",
+    "tags": [
+      "News",
+      "Privacy",
+      "Mobile AI"
+    ],
+    "link": "https://www.androidauthority.com/nova-launcher-ai-plus-subscription-apk-teardown-3658932/",
+    "date": "2026-04-21",
+    "id": "17767698503301"
+  },
+  {
+    "title": "学术论文探讨 AI 垃圾代码对软件公共领域影响",
+    "summary": "最新研究分析 AI 生成低质代码如何侵蚀软件公共领域。",
+    "detail": "arXiv 新论文《AI Slop and the Software Commons》由 Sebastian Baltes 等作者提交。研究聚焦于 AI 生成低质量代码（Slop）对开源生态及软件公共领域的潜在负面影响。该研究为理解 AI 自动化编程的长期风险提供了学术视角，警示开发者关注代码质量与生态健康。随着 AI 生成代码比例上升，软件维护成本可能增加，此论文为行业提供了重要的风险预警与理论依据。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Code Quality"
+    ],
+    "link": "https://arxiv.org/abs/2604.16754",
+    "date": "2026-04-21",
+    "id": "17767698503302"
+  },
+  {
+    "title": "Hugging Face 发布首个质量优先阿语 LLM 榜单",
+    "summary": "QIMMA 榜单旨在验证基准测试，确保反映真实阿语能力。",
+    "detail": "TII 团队在 Hugging Face 推出 QIMMA 阿语大模型榜单。不同于以往盲目扩张，该榜单优先验证基准测试的有效性，确保评分真实反映模型的阿语语言能力。此举有助于解决阿语 LLM 评估中的混乱局面，推动特定语言模型的健康发展。非英语语种的大模型评估一直是难点，该榜单的建立将促进阿语社区的技术交流，并为全球多语言 LLM 评估标准提供借鉴。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Benchmark"
+    ],
+    "link": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
+    "date": "2026-04-21",
+    "id": "17767698503303"
+  },
+  {
+    "title": "Agensi 上线：AI 代理技能交易市场与 SKILL.md 标准",
+    "summary": "基于 SKILL.md 标准的市场，支持一次性购买 AI 代理技能。",
+    "detail": "Agensi 推出首个 AI 代理技能市场，采用开放的 SKILL.md 标准。支持 Claude Code、Cursor 等主流代理，技能经安全审查且版本追踪。用户可一次性购买永久拥有，无需订阅。这标志着 AI 代理生态向标准化、资产化方向迈进，降低了自定义代理门槛。这种模式可能改变 AI 插件的分发逻辑，从订阅制转向资产制，为开发者提供了新的变现途径，同时增强了用户对所购技能的控制权。",
+    "tags": [
+      "New",
+      "AI Agents",
+      "Marketplace"
+    ],
+    "link": "https://www.agensi.io",
+    "date": "2026-04-21",
+    "id": "17767698503304"
+  },
+  {
+    "title": "实战教程：60 分钟构建基于 Grafana 的 AI SRE",
+    "summary": "利用 Grafana CLI 与 Claude 构建自动化站点可靠性工程代理。",
+    "detail": "作者分享如何利用 Grafana 新发布的 `gcx` CLI 工具结合 Claude，在 60 分钟内构建 AI SRE 系统。该代理可查询日志、追踪及警报，辅助事件调查与查询优化。教程展示了 AIOps 的实际落地路径，证明 AI 在运维领域的巨大潜力与效率提升。这表明自然语言交互正在重塑运维工作流，降低了对复杂查询语言的依赖，使初级工程师也能借助 AI 完成高级故障排查任务。",
+    "tags": [
+      "Dev",
+      "AIOps",
+      "Tutorial"
+    ],
+    "link": "https://www.gouthamve.dev/i-built-an-ai-sre-in-60mins-you-should-too/",
+    "date": "2026-04-21",
+    "id": "17767698503305"
+  },
+  {
+    "title": "AI 原生 Obsidian 工作流：自动化知识管理实践",
+    "summary": "利用 Claude Code 自动整理笔记、建立链接与维护知识库。",
+    "detail": "博主分享其 2026 年重构的 Obsidian 工作流。通过 scheduled Claude Code Routine 自动处理 inbox 笔记，进行分类、元数据添加及交叉链接。这种\"AI 辅助编码式\"的知识管理方法，让 AI 处理繁琐工作，用户专注于核心内容，提升了个人知识库的维护效率与关联性。该实践展示了 LLM 在个人知识管理（PKM）中的深度应用，将被动记录转变为主动维护，为知识工作者提供了高效的新范式。",
+    "tags": [
+      "Dev",
+      "Productivity",
+      "PKM"
+    ],
+    "link": "https://alexanderweichart.de/4_Projects/obsidian-setup-2026/My-AI-native-Obsidian-Setup",
+    "date": "2026-04-21",
+    "id": "17767698503306"
+  },
+  {
     "title": "生成式 AI 提升体育组织效率",
     "summary": "探讨生成式 AI 如何帮助体育组织更快决策，区分 AI 工程与研究。",
     "detail": "文章深入分析了生成式 AI 在体育组织中的实际应用，强调 AI 工程侧重于利用现有模型构建工作流，而非模型研发。通过提示词工程、上下文管理及数据连接，体育领导者可实现降本增效。这为传统体育行业提供了具体的 AI 转型路径，展示了通用模型在垂直领域的落地潜力。相比传统定制模型，生成式 AI 降低了维护成本，使组织能更灵活地应对数据决策需求。作者指出，正确选择模型并构建可靠工作流是关键，为体育科技领域提供了实用的工程化指南，有助于推动行业智能化升级。",
@@ -1207,96 +1298,5 @@
     "link": "https://ainative.business/book/",
     "date": "2026-04-19",
     "id": "17766202858591"
-  },
-  {
-    "title": "Palantir 发布宣言谴责包容性及“倒退”文化",
-    "summary": "Palantir 发布迷你宣言，引发科技界关于企业文化与价值观的讨论。",
-    "detail": "Palantir 发布迷你宣言，公开谴责包容性及“倒退”文化，引发科技界广泛关注。作为大数据与 AI 分析领域的重要厂商，其企业文化动向直接影响行业风向与人才策略。这一事件反映了科技巨头在价值观层面的显著分歧，可能影响其合作伙伴关系及公众形象。对于关注 AI 行业治理、企业伦理及组织文化的观察者，这是值得记录的关键事件，需持续跟踪后续影响。在 AI 技术快速发展的背景下，企业价值观的冲突可能成为影响行业协作与技术落地的重要变量，值得投资者与从业者深思。此动向可能预示着头部 AI 公司在社会责任与内部文化管理上的新趋势。",
-    "tags": [
-      "News",
-      "Corporate",
-      "Culture"
-    ],
-    "link": "https://techcrunch.com/2026/04/19/palantir-posts-mini-manifesto-denouncing-regressive-and-harmful-cultures/",
-    "date": "2026-04-19",
-    "id": "17766202858592"
-  },
-  {
-    "title": "GitHub 原生 AI 自愈 CI 工具 aiheal 开源",
-    "summary": "AI 修复基础设施代码，应用代码隔离，含人工审批网关。",
-    "detail": "mosidze 开源 aiheal 项目，主打 GitHub 原生自愈 CI 系统。通过六大扫描器发现流水线问题，AI 进行分类后由人工审批修复。核心安全设计包括范围围栏，限制 AI 仅修改 Dockerfile 等基础设施文件，应用代码永不触碰。此外包含提示词注入防御及工作流不变量检查，防止权限提升。解决了 AI 直接推送主分支的安全隐患，为 CI/CD 自动化修复提供了最小可行安全架构。适合关注流水线稳定性与安全性的开发团队，有效降低维护成本并提升修复效率，确保基础设施代码的持续健康运行。",
-    "tags": [
-      "Dev",
-      "CI/CD",
-      "Security"
-    ],
-    "link": "https://github.com/mosidze/aiheal",
-    "date": "2026-04-19",
-    "id": "17766170505530"
-  },
-  {
-    "title": "543 小时自主编码数据揭示 AI 生产力真相",
-    "summary": "97 天 543 小时自主代理数据，高绩效者依赖基础设施而非单纯提示词。",
-    "detail": "Michael Roth 发布研究数据，记录 97 天内 543 小时自主编码代理会话。数据显示高绩效者与怀疑者的差距在于是否构建了有效的基础设施。单纯提示词如同自动补全，而搭建护栏和工具链能让 LLM 实现自主一致输出。该研究为 AI 编码生产力争论提供了数据支持，强调工程化 harness 的重要性。对于希望提升团队效率的技术领导者，该报告揭示了从单纯使用工具到构建自动化体系的转型路径，具有较高参考价值。数据证明自主代理在正确架构下可显著提升交付速度。",
-    "tags": [
-      "Dev",
-      "Productivity",
-      "Research"
-    ],
-    "link": "https://michael.roth.rocks/research/543-hours/",
-    "date": "2026-04-19",
-    "id": "17766170505531"
-  },
-  {
-    "title": "Uber 豪掷 100 亿美元押注自动驾驶资产",
-    "summary": "投入超 100 亿美元购买自动驾驶车辆及股权，加速 Robotaxi 布局。",
-    "detail": "TechCrunch 报道 Uber 进入资产最大化时代，承诺投入超 100 亿美元发展自动驾驶技术。其中 25 亿用于直接投资，75 亿用于购买 Robotaxi。投资对象涵盖 WeRide、Lucid、Nuro、Rivian 及 Wayve 等公司。此举标志着 Uber 从轻资产平台向重资产自动驾驶运营转型，旨在掌控未来交通核心技术栈。对于出行行业，这意味着自动驾驶商业化进程加速，平台方开始深度介入硬件与技术研发环节，竞争格局将进一步演变。巨额资金注入将推动相关技术快速落地与规模化应用。",
-    "tags": [
-      "News",
-      "Autonomous Driving",
-      "Investment"
-    ],
-    "link": "https://techcrunch.com/2026/04/19/techcrunch-mobility-uber-enters-its-assetmaxxing-era/",
-    "date": "2026-04-19",
-    "id": "17766170505532"
-  },
-  {
-    "title": "开源 AI 回归测试库 Passmark 上线",
-    "summary": "基于 Playwright，AI 执行自然语言步骤，智能缓存加速测试。",
-    "detail": "Passmark 推出开源 AI 回归测试库，解决测试套件跟不上开发速度的痛点。采用\"AI 执行一次，Playwright 永久加速\"模式，首次运行缓存动作，后续回放无需 LLM 调用。支持自然语言编写步骤，具备自动修复和多模型断言验证。相比传统 AI 测试工具，大幅降低 CI 运行成本与时间，适合高频提交团队。该工具平衡了 AI 的灵活性与传统测试的速度，为端到端浏览器测试提供了新的优化思路，有助于提升软件交付质量。测试稳定性显著增强，减少因 UI 变动导致的失败。",
-    "tags": [
-      "Dev",
-      "Testing",
-      "Open Source"
-    ],
-    "link": "https://passmark.dev",
-    "date": "2026-04-19",
-    "id": "17766170505533"
-  },
-  {
-    "title": "沙盒化 AI 代理编排平台 superhq 开源",
-    "summary": "提供沙盒环境的 AI 代理编排平台，增强代理执行安全性。",
-    "detail": "superhq-ai 在 GitHub 开源沙盒化 AI 代理编排平台。该项目旨在为 AI 代理提供安全的执行环境，防止代理行为对主机系统造成意外影响。通过沙盒隔离技术，开发者可以更放心地部署自主代理工作流。这是代理编排领域的重要基础设施更新，有助于解决 AI 代理落地中的安全与信任问题。平台支持编排多个代理任务，适合需要运行自主代理但担心安全风险的开发团队使用，增强了代理系统的可控性。为复杂代理协作提供了安全的基础运行环境保障。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Security"
-    ],
-    "link": "https://github.com/superhq-ai/superhq",
-    "date": "2026-04-19",
-    "id": "17766170505534"
-  },
-  {
-    "title": "本地隐私 AI 助手 InnerZero 免费发布",
-    "summary": "完全本地运行，数据不出机，支持语音文本交互，免费无需账户。",
-    "detail": "InnerZero 发布免费本地 AI 助手，主打隐私安全。所有处理均在 PC 本地完成，无需云端，对话记忆本地存储。支持语音和文本交互，具备硬件感知能力，自动匹配模型或连接本地 Ollama 服务器。一键下载无需配置，为关注数据隐私的用户提供了替代云端大模型的本地化解决方案。适合对数据敏感性高、希望完全掌控 AI 交互记录的个人用户或企业员工，无需担心数据泄露风险。免费模式降低了本地大模型的使用门槛，促进隐私计算普及。",
-    "tags": [
-      "New",
-      "Privacy",
-      "Local AI"
-    ],
-    "link": "https://innerzero.com",
-    "date": "2026-04-19",
-    "id": "17766170505535"
   }
 ]
