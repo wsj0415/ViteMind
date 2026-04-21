@@ -1,5 +1,70 @@
 [
   {
+    "title": "美国公用事业计划投资 1.4 万亿美元建设 AI 数据中心",
+    "summary": "能源巨头大幅增资，支撑 AI 算力基础设施扩张，资本支出激增 27%。",
+    "detail": "美国公用事业公司计划投入 1.4 万亿美元用于 AI 数据中心能源建设，资本支出预计激增 27%。这反映了 AI 算力需求对能源基础设施的巨大压力。行业正面临电力供应与算力增长匹配的挑战，能源板块成为 AI 浪潮下的关键受益者。这一巨额投资凸显了可持续能源供应的紧迫性，也预示着未来几年电力基础设施将迎来大规模升级，以支撑不断膨胀的 AI 模型训练与推理需求。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Investment"
+    ],
+    "link": "https://tech-insider.org/us-utility-1-4-trillion-ai-data-center-energy-2026/",
+    "date": "2026-04-21",
+    "id": "17767494094770"
+  },
+  {
+    "title": "Roblox 作弊工具与 AI 工具导致 Vercel 平台瘫痪",
+    "summary": "单一 AI 工具引发连锁反应，致知名部署平台大规模宕机，揭示自动化风险。",
+    "detail": "报道称一个 Roblox 作弊工具配合某 AI 工具导致 Vercel 整个平台下线。这揭示了 AI 自动化工具可能带来的安全风险与基础设施脆弱性。随着 AI Agent 自主操作能力增强，此类意外宕机事件可能频发，促使平台方加强速率限制与异常流量识别。开发者需警惕 AI 工具对生产环境的潜在冲击，平台稳定性在 AI 自动化时代面临新的考验，安全策略需同步升级。",
+    "tags": [
+      "News",
+      "Security",
+      "Platform"
+    ],
+    "link": "https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform",
+    "date": "2026-04-21",
+    "id": "17767494094771"
+  },
+  {
+    "title": "AI 招聘诈骗激增：记者亲历骗局与防范指南",
+    "summary": "卫报报道 AI 求职骗局泛滥，诈骗者利用 AI 生成定制化职位描述诱骗求职者。",
+    "detail": "《卫报》揭露 AI 驱动的招聘诈骗激增，记者亲历骗局。诈骗者利用 AI 生成定制化职位描述与高薪诱惑求职者，甚至伪造猎头身份。此类骗局利用 AI 个性化生成能力降低可信度门槛。求职者需警惕未公开职位、过高薪资及非正规沟通渠道。行业需加强招聘平台审核，个人应核实公司背景，避免泄露敏感个人信息，AI 技术的双刃剑效应在就业市场愈发明显。",
+    "tags": [
+      "News",
+      "Security",
+      "Social"
+    ],
+    "link": "https://www.theguardian.com/money/2026/apr/21/how-to-avoid-ai-online-job-recruitment-scams",
+    "date": "2026-04-21",
+    "id": "17767494094772"
+  },
+  {
+    "title": "Aiguard-scan：审计 AI 生成代码的安全漏洞工具",
+    "summary": "开源工具专门扫描 AI 生成代码中的秘密泄露与漏洞，保障开发安全。",
+    "detail": "GitHub 新项目 Aiguard-scan 旨在解决 AI 编程带来的安全隐患。该工具专门扫描 AI 生成的代码中是否包含硬编码秘密或安全漏洞。随着 Copilot 等工具普及，代码安全性成为新痛点。此工具为开发者提供了审计层，帮助在部署前识别潜在风险，是 AI 辅助开发工作流中不可或缺的安全补充组件，有助于防止敏感信息通过 AI 生成代码意外泄露。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Code"
+    ],
+    "link": "https://github.com/Hephaestus-byte/agent-guard",
+    "date": "2026-04-21",
+    "id": "17767494094773"
+  },
+  {
+    "title": "Kachilu Browser：面向 AI Agent 的本地浏览器自动化 CLI",
+    "summary": "开源本地浏览器自动化命令行工具，赋能 AI 代理自主操作网页任务。",
+    "detail": "Show HN 项目 Kachilu Browser 提供了本地浏览器自动化 CLI 接口，专为 AI Agent 设计。它允许 Agent 在无头模式下控制浏览器执行任务，无需复杂 API 密钥。这降低了 Agent 访问网页内容的门槛，促进了本地化、隐私优先的 Agent 开发。对于构建能够自主浏览、交互的 AI 应用具有重要的基础设施意义，简化了 Agent 与 web 环境的交互流程。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Automation"
+    ],
+    "link": "https://github.com/kachilu-inc/kachilu-browser",
+    "date": "2026-04-21",
+    "id": "17767494094774"
+  },
+  {
     "title": "Nvidia 推出 Nemotron 韩国人物数据集优化 AI 代理",
     "summary": "Nvidia 发布新数据集，解决 AI 代理在韩国文化场景中的本地化缺失问题。",
     "detail": "Nvidia 与 Hugging Face 合作推出 Nemotron-Personas-Korea 数据集，旨在解决当前 AI 代理的本地化痛点。大多数模型主要基于英语网络数据训练，导致缺失韩国敬语结构、区域职业模式及文化背景。例如，将美国医疗工作流直接应用于韩国公共卫生系统往往无法落地。该数据集通过合成人物角色进行接地处理，使 AI 代理能更好地适应特定文化场景，显著提升在生产环境中的可用性。技术上，这依赖于合成数据生成来模拟真实人口统计特征，降低了收集敏感真实数据的合规风险，标志着 AI 开发从通用模型向特定文化语境微调的转变。",
@@ -1233,70 +1298,5 @@
     "link": "https://proposly.org/",
     "date": "2026-04-19",
     "id": "17766134700224"
-  },
-  {
-    "title": "深度解读：AI 是否需要嗅觉？",
-    "summary": "探讨 AI 嗅觉进展，指出当前多数报道夸大，实为数据关联而非真实感知。",
-    "detail": "文章分析了近期关于 AI 嗅觉的报道，指出大多数标题夸大其词。当前 AI 并非真正拥有嗅觉，而是通过训练数据重复人类对味道与形状的关联。这反映了多模态 AI 发展的现状与挑战，提醒行业理性看待感官智能的突破。虽然已有 AI 药物进入临床试验，但感官感知仍需突破。该分析有助于纠正公众对 AI 能力的误解，强调当前技术仍基于数据模式识别而非生物感知，为未来多模态模型的研究方向提供了冷静的视角。",
-    "tags": [
-      "News",
-      "Research",
-      "Multimodal"
-    ],
-    "link": "https://www.noemamag.com/why-ai-needs-a-sense-of-smell/",
-    "date": "2026-04-19",
-    "id": "17766134700225"
-  },
-  {
-    "title": "Tour Estate AI：房产照片转视频工具",
-    "summary": "上传房产照片即可生成专业视频漫游，无需拍摄，加速销售周期。",
-    "detail": "该应用利用 AI 将静态房产照片转化为具有平滑相机移动的专业视频漫游。无需额外拍摄，几分钟即可完成，旨在帮助房地产经纪人吸引更多买家。已创建超过 2500 小时视频，提供免费试用，专注于提升房源展示效果。通过降低视频制作门槛，该工具能显著缩短销售周期并吸引严肃买家。这体现了生成式 AI 在垂直行业的具体落地应用，将传统高成本的拍摄工作自动化，为房地产营销提供了高效且低成本的数字化解决方案。",
-    "tags": [
-      "New",
-      "RealEstate",
-      "Video"
-    ],
-    "link": "https://www.tourestateai.com/en",
-    "date": "2026-04-19",
-    "id": "17766134700226"
-  },
-  {
-    "title": "垂直 AI 操作系统：SaaS 创业新方向",
-    "summary": "行业专家建议构建垂直 AI OS 而非通用产品，聚焦特定工作流。",
-    "detail": "资深科技从业者指出，通用 AI 助手无法满足特定职业需求。观察发现，Claude、Perplexity、OpenAI 和 Google 都在向可执行任务的平台转型。文章建议创业者打造垂直领域 AI OS，整合特定工作流与工具栈，如税务、保险等，以解决“优化所有人等于没优化任何人”的问题。这标志着 SaaS 创业从单一功能向操作系统化转变，强调深度集成与代理执行能力，为开发者提供了新的战略方向。垂直化将是下一阶段竞争关键。",
-    "tags": [
-      "News",
-      "SaaS",
-      "Strategy"
-    ],
-    "link": "https://substack.com/home/post/p-194446321",
-    "date": "2026-04-19",
-    "id": "17766098027780"
-  },
-  {
-    "title": "DictaFlow：支持远程桌面的 AI 语音输入工具",
-    "summary": "新型 AI 听写工具，可在 Citrix 和 RDP 等受限环境中流畅使用。",
-    "detail": "DictaFlow 推出跨平台 AI 语音听写应用，支持 Windows、Mac 和 iPhone。其核心优势是在剪贴板被禁用的远程桌面环境（如 Citrix）中仍能通过模拟打字工作。提供“按住说话”和 AI 命令模式，可直接修正文本或执行格式化指令，适合专业工作流。用户反馈显示其在受限环境中表现优于竞品，解决了企业级用户在虚拟桌面中使用 AI 语音输入的痛点，提升了办公效率。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Voice"
-    ],
-    "link": "https://dictaflow.io/",
-    "date": "2026-04-19",
-    "id": "17766098027784"
-  },
-  {
-    "title": "新工具扫描域名优化 AI 搜索引擎可见性",
-    "summary": "推出扫描工具帮助网站适配 llms.txt 标准，优化 AI 搜索引擎排名。",
-    "detail": "随着 AI 搜索引擎和代理的兴起，SEO 演变为 AEO（答案引擎优化）。新工具可扫描域名是否配置 `llms.txt` 等标准文件，帮助网站更好地被 AI 模型抓取和理解。这标志着针对 Bot 到 Bot  commerce 的新标准正在形成，开发者需关注此类基础设施变化。未来可能还会出现 agents.json 文件，网站优化需从面向人类转向面向 AI 代理，确保内容能被正确解析和引用。",
-    "tags": [
-      "Dev",
-      "SEO",
-      "Standard"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47823995",
-    "date": "2026-04-19",
-    "id": "17766098027785"
   }
 ]
