@@ -1,5 +1,96 @@
 [
   {
+    "title": "新论文主张 AI 意识需基于人类模型验证",
+    "summary": "Paras Chopra 提出 AI 意识研究应先验证人类意识模型。",
+    "detail": "论文指出当前 AI 意识争论缺乏实证基础，导致科学裁决困难。作者 Paras Chopra 主张采用“人类优先”方法论，即先识别人类意识的可测量现象，构建预测模型并实证验证，随后再应用于 AI 系统。这种方法旨在将哲学辩论转化为富有成效的科学探究，为 AI 伦理、安全及政策制定提供必要的经验基础。如果没有经过验证的人类模型，关于\"AI 是否有意识”的问题缺乏科学进步所需的实证依据。研究强调所有科学观察最终依赖于人类感知共识，包括对意识本身的观察，因此必须首先验证人类模型。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Ethics"
+    ],
+    "link": "https://lossfunk.com/papers/ai-consciousness.pdf",
+    "date": "2026-04-22",
+    "id": "17768710316240"
+  },
+  {
+    "title": "ONCE 推出原生 AI 音乐生成与分发平台",
+    "summary": "音乐分发平台 ONCE 集成 AI 生成，实现创作到发行闭环。",
+    "detail": "ONCE 成为首个在分发平台内原生集成 AI 音乐创作的服务。用户可生成曲目并直接分发至 Spotify 等 25+ 商店。系统强调从提示词到发布的完整监管链，并通过盈余收费补偿艺术家，应对 AI 音乐泛滥现状。技术决策与业务立场不可分割，确保可审计的保管链。底层模型可生成长达三分钟的单曲，接受文本提示描述风格、情绪等。每日分发到 Deezer 的音乐中 44% 已是 AI 生成，该平台旨在追踪来源并向 DSP 披露 AI 状态，确保艺术家补偿。",
+    "tags": [
+      "New",
+      "Music",
+      "Generative AI"
+    ],
+    "link": "https://dev.once.app/blog/omg-music-generation",
+    "date": "2026-04-22",
+    "id": "17768710316241"
+  },
+  {
+    "title": "GitHub 开源自托管 AI 会计工具 TaxHacker",
+    "summary": "基于 LLM 的自托管会计应用，自动分析收据与发票。",
+    "detail": "开发者 vas3k 开源了 TaxHacker，一款自托管 AI 会计应用。它利用 LLM 分析收据、发票和交易记录，支持自定义提示词和分类。适合注重数据隐私、希望本地化处理财务数据的开发者和小企业主使用。项目托管于 GitHub，允许用户完全控制数据。该工具旨在简化财务流程，通过 AI 自动分类交易，减少手动输入，为自托管爱好者提供便捷的财务分析解决方案。用户可以根据自己的需求定制提示词和类别，实现个性化的财务管理。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Finance"
+    ],
+    "link": "https://github.com/vas3k/TaxHacker",
+    "date": "2026-04-22",
+    "id": "17768710316242"
+  },
+  {
+    "title": "微软披露 AI 驱动的设备代码钓鱼攻击活动",
+    "summary": "攻击者利用生成式 AI 制作个性化钓鱼邮件，自动化绕过验证。",
+    "detail": "微软发现新型钓鱼活动利用 AI 自动化基础设施和动态代码生成，绕过设备代码 15 分钟过期限制。攻击者使用生成式 AI 创建高度个性化的钓鱼邮件，针对特定角色定制内容，标志着威胁参与者复杂性的显著升级。此活动与 EvilTokens 钓鱼即服务工具包有关。后端自动化使用 Railway.com 部署数千个轮询节点，规避传统检测。相比 2025 年 2 月的活动，此次攻击展示了更高的成功率和端到端自动化能力，威胁组织账户安全。",
+    "tags": [
+      "News",
+      "Security",
+      "Phishing"
+    ],
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/06/ai-enabled-device-code-phishing-campaign-april-2026/",
+    "date": "2026-04-22",
+    "id": "17768710316243"
+  },
+  {
+    "title": "斯坦福发布 2026 AI 指数报告：能力未放缓",
+    "summary": "报告显示 AI 能力加速，中美模型性能差距已基本闭合。",
+    "detail": "斯坦福 HAI 发布 2026 AI 指数报告。关键发现包括：行业生产了 90% 的前沿模型，AI 能力未出现 plateau；中美模型性能差距有效闭合，Anthropic 领先仅 2.7%。组织采用率达 88%，生成式 AI 深刻影响社会与经济。报告为全球政策制定者提供数据驱动视角。2025 年行业制作了超过 90% 的显著前沿模型，性能持续加速。在 SWE-bench Verified 编码基准上，性能一年内从 60% 升至近 100%，显示技术进步并未放缓。",
+    "tags": [
+      "News",
+      "Report",
+      "Industry"
+    ],
+    "link": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+    "date": "2026-04-22",
+    "id": "17768710316244"
+  },
+  {
+    "title": "独立开发者分享 AI 维护旧项目的实战经验",
+    "summary": "AI 不仅用于新建应用，更是维护遗留代码的高效助手。",
+    "detail": "文章分享了 AI 在实际开发中的核心价值：维护和改进现有项目。作者利用 AI 理解旧代码架构，协助将 Laravel 等旧项目转换为新技术栈，并进行框架升级。AI 充当快速助手，降低了技术债务清理的门槛，而非仅仅用于周末构建新应用。对于独立开发者而言，这是比从头构建新应用更大的价值所在。AI 帮助追踪代码逻辑，解释现状，协助完成通常被推迟的维护工作，使旧项目焕发新生。",
+    "tags": [
+      "Dev",
+      "Best Practices",
+      "Coding"
+    ],
+    "link": "https://www.indiehackers.com/post/how-ive-actually-been-using-ai-39109e2c59",
+    "date": "2026-04-22",
+    "id": "17768710316245"
+  },
+  {
+    "title": "OpenAI 携手 Infosys 推动企业级 AI 工具落地",
+    "summary": "OpenAI 与 Infosys 合作，旨在向更多企业提供 AI 工具。",
+    "detail": "OpenAI 宣布与全球信息技术巨头 Infosys 建立合作伙伴关系。此次合作旨在将 OpenAI 的 AI 工具带给更广泛的商业客户，利用 Infosys 的服务网络加速企业级 AI 应用的部署与整合。这标志着 OpenAI 进一步拓展商业市场，推动 AI 工具在企业端的落地。双方将共同努力，使更多企业能够受益于先进的 AI 技术。TechCrunch 报道了此次合作，强调其对企业级工具普及的意义，这是 OpenAI 商业扩展的重要一步。",
+    "tags": [
+      "News",
+      "Partnership",
+      "Enterprise"
+    ],
+    "link": "https://techcrunch.com/2026/04/22/openai-teams-up-with-infosys-to-bring-ai-tools-to-more-businesses/",
+    "date": "2026-04-22",
+    "id": "17768710316246"
+  },
+  {
     "title": "2026 年访问地理限制 AI 工具的最佳 VPN 指南",
     "summary": "盘点 NordVPN 等五大工具，解决 AI 服务区域限制问题。",
     "detail": "针对 ChatGPT 等 AI 工具的地理限制问题，文章评测了 2026 年五大最佳 VPN 服务。包括 NordVPN、Surfshark 等，对比了速度损失、服务器数量及价格。NordVPN 拥有 8900+ 服务器，速度损失仅 3%；Surfshark 性价比最高，支持无限设备。为用户绕过区域限制提供了具体方案与数据支持，确保稳定访问全球 AI 资源，解决“不在该区域可用”的困扰，是跨境开发者的必备工具。",
@@ -1207,96 +1298,5 @@
     "link": "https://www.theregister.com/2026/04/20/inflation_ai_quota/",
     "date": "2026-04-20",
     "id": "17767393572291"
-  },
-  {
-    "title": "Zapier 发布 AutomationBench 自动化基准测试工具",
-    "summary": "Zapier 推出 AutomationBench，旨在评估和提升 AI 工作流自动化效率。",
-    "detail": "Zapier 官方博客宣布推出 AutomationBench，作为自动化平台巨头，此举旨在为 AI 工作流提供标准化的基准测试。结合 Zapier 支持的 9000+ 应用集成，该工具将帮助开发者量化 AI 代理在复杂任务中的表现。通过建立评估标准，AutomationBench 有望推动无代码自动化与 AI 技术的深度融合，优化企业级工作流效率。这不仅降低了 AI 代理部署的技术门槛，还为衡量自动化投资回报率提供了依据，标志着 AI 自动化行业正从单纯的功能堆砌转向性能与可靠性的精细化竞争阶段，助力开发者构建更稳健的自动化系统。",
-    "tags": [
-      "New",
-      "Automation",
-      "Zapier"
-    ],
-    "link": "https://zapier.com/blog/introducing-automationbench",
-    "date": "2026-04-20",
-    "id": "17767393572292"
-  },
-  {
-    "title": "Anthropic 获亚马逊 50 亿美元投资，承诺千亿云支出",
-    "summary": "亚马逊向 Anthropic 投资 50 亿美元，换取 1000 亿美元云消费承诺。",
-    "detail": "**背景**：根据 TechCrunch 2026 年 4 月 20 日报道，亚马逊向 AI 安全公司 Anthropic 注资 50 亿美元。**核心**：作为交换条件，Anthropic 承诺未来在亚马逊云服务（AWS）上支出高达 1000 亿美元。**影响**：这一巨额交易反映了云厂商与大模型实验室之间日益紧密的绑定关系。随着 AI 算力需求激增，基础设施成为核心竞争壁垒。此举不仅巩固了 AWS 在 AI 云市场的地位，也显示了 Anthropic 对未来算力规模的巨大预期。行业观察家认为，此类捆绑投资将成为 2026 年 AI 基础设施投资的主流模式，标志着算力资本化进入新阶段。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "Cloud"
-    ],
-    "link": "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/",
-    "date": "2026-04-20",
-    "id": "17767286961630"
-  },
-  {
-    "title": "伯克利推出 GRASP：基于梯度的世界模型长程规划器",
-    "summary": "伯克利发布 GRASP 规划器，解决世界模型长程规划脆弱性问题。",
-    "detail": "**背景**：伯克利人工智能研究实验室（BAIR）发布最新博客，介绍名为 GRASP 的新型梯度基规划器。**技术**：该技术专为学习到的动力学世界模型设计，旨在解决长程规划中的脆弱性问题。核心创新包括将轨迹提升至虚拟状态以实现时间并行优化，以及在状态迭代中直接添加随机性。**影响**：研究表明，随着世界模型规模扩大，其更像通用模拟器，但控制仍需稳健规划。GRASP 通过重塑梯度信号，避免了高维视觉模型中的脆弱性，为机器人长任务规划提供新方案，推动通用模拟器向实际控制任务转化。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Robotics"
-    ],
-    "link": "http://bair.berkeley.edu/blog/2026/04/20/grasp/",
-    "date": "2026-04-20",
-    "id": "17767286961631"
-  },
-  {
-    "title": "Stack Overflow 正式集成 AI Assist 聊天助手",
-    "summary": "开发者社区 Stack Overflow 推出 AI Assist 功能，辅助代码问答。",
-    "detail": "**背景**：开发者社区 Stack Overflow 在其 Beta 版本中正式推出 AI Assist 聊天功能。**功能**：页面显示该功能旨在结合社区可信内容与技术专家知识，为用户提供代码辅助。除了社区功能，Stack 还推广其企业级知识平台 Stack Internal 及数据许可服务。**影响**：这一举措标志着传统技术问答社区向 AI 驱动的知识服务平台转型。对于开发者而言，这意味着获取解决方案的渠道将更加智能化，但也引发了关于 AI 生成代码准确性与社区原创内容价值的讨论，可能重塑开发者生态。",
-    "tags": [
-      "New",
-      "Dev",
-      "Coding"
-    ],
-    "link": "https://beta.stackoverflow.com/ai-assist",
-    "date": "2026-04-20",
-    "id": "17767286961632"
-  },
-  {
-    "title": "AI 核能初创公司 Fermi CEO 与 CFO 突然离职",
-    "summary": "AI 赋能核能初创企业 Fermi 遭遇高管变动，CEO 与 CFO 离职。",
-    "detail": "**背景**：TechCrunch 报道，位于德克萨斯州的 AI 核能初创公司 Fermi 发生高层动荡，其 CEO 和 CFO 突然离职。**事件**：该公司致力于将人工智能技术应用于核能电力领域，属于 AI 与硬科技结合的前沿赛道。高管的突然变动通常暗示公司内部战略调整或运营挑战。**影响**：在 2026 年 AI 赋能能源成为热点的背景下，此事件反映了该细分领域早期发展的波动性。投资者需关注此类硬科技初创公司在技术落地与管理稳定性之间的平衡能力，这可能影响后续融资节奏。",
-    "tags": [
-      "News",
-      "Startup",
-      "Energy"
-    ],
-    "link": "https://techcrunch.com/2026/04/20/fermi-ceo-and-cfo-depart-texas-nuclear-power-ai/",
-    "date": "2026-04-20",
-    "id": "17767286961633"
-  },
-  {
-    "title": "加州理工：AI 算法实现生物成像技术突破",
-    "summary": "加州理工学院研发新 AI 算法，显著提升生物成像能力。",
-    "detail": "**背景**：加州理工学院（Caltech）官方新闻宣布，其研究团队开发出一种新型 AI 算法，实现了生物成像技术的突破。**技术**：该算法旨在解决传统生物成像中的局限性，提升图像处理的精度与效率。虽然具体技术细节未在摘要中完全披露，但这一进展展示了 AI 在科学研究（AI for Science）中的实际应用价值。**影响**：通过增强成像能力，该工具可能加速生物学微观结构的分析进程，为医疗健康及基础科学研究提供强有力的技术支持，体现跨学科融合的趋势，助力科学发现。",
-    "tags": [
-      "Dev",
-      "Science",
-      "Imaging"
-    ],
-    "link": "https://www.caltech.edu/about/news/ai-algorithm-enables-biological-imaging-breakthroughs",
-    "date": "2026-04-20",
-    "id": "17767286961634"
-  },
-  {
-    "title": "AI 成为神经多样性开发者的解锁钥匙",
-    "summary": "研究显示 AI 帮助神经多样性开发者进入心流，而非平庸者的拐杖。",
-    "detail": "文章基于 Tavistock 研究所调查，指出科技行业约 1/4 员工为神经多样性人群，但过半因缺乏诊断未披露。作者结合自身 ADHD 经历，阐述 AI 如何消除“认知税”，帮助开发者进入心流状态，使大脑与屏幕速度同步。这反驳了 AI 仅服务于平庸开发者的观点，强调其对特定群体的赋能价值。该洞察为开发者工具设计提供了新视角，建议行业关注 AI 在提升神经多样性员工生产力方面的潜力，而非单纯担忧代码质量下降，重新定义人机协作关系，推动包容性技术发展。",
-    "tags": [
-      "Dev",
-      "ADHD",
-      "Productivity"
-    ],
-    "link": "https://www.jonoherrington.com/blog/the-neurodivergent-unlock",
-    "date": "2026-04-20",
-    "id": "17767251750760"
   }
 ]
