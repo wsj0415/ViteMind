@@ -1,5 +1,70 @@
 [
   {
+    "title": "Meta 将监控员工按键与鼠标轨迹训练 AI",
+    "summary": "Meta 计划追踪员工点击和击键数据用于 AI 模型训练，引发隐私争议。",
+    "detail": "Meta 宣布将开始收集员工的鼠标移动和击键数据，旨在优化内部 AI 模型。此举引发了关于员工隐私和数据伦理的广泛讨论。作为科技巨头，Meta 的数据采集策略可能成为行业风向标，同时也面临着合规与信任的巨大挑战。业界观察家认为，这可能促使其他公司效仿或引发更严格的监管审查。开发者需关注此类数据使用政策的变化，特别是在构建企业级 AI 应用时，需权衡数据效用与隐私保护之间的界限，避免触碰法律红线。此外，这种内部数据的利用方式也可能影响公众对 AI 训练数据来源透明度的期待，推动行业建立更明确的数据采集标准。",
+    "tags": [
+      "News",
+      "Meta",
+      "Privacy"
+    ],
+    "link": "https://techcrunch.com/2026/04/21/meta-will-record-employees-keystrokes-and-use-it-to-train-its-ai-models/",
+    "date": "2026-04-22",
+    "id": "17768256775770"
+  },
+  {
+    "title": "Apple 收紧 App Store 政策打击 Cal AI",
+    "summary": "Apple 对 Cal AI 的打压表明其仍在严格监管 App Store 生态。",
+    "detail": "TechCrunch 报道指出，Apple 近期对 Cal AI 应用采取了限制措施，信号表明其并未放松对 App Store 的管控。这对于依赖平台分发的 AI 初创企业而言是一个重要警示。政策的不确定性可能影响 AI 应用在 iOS 生态内的创新与部署，开发者需密切关注合规要求。此次事件反映出平台方与 AI 开发者之间的博弈仍在继续，建议在开发初期就充分评估平台政策风险，避免后期因合规问题导致产品下架，影响用户增长与商业变现。同时，这也可能促使开发者探索跨平台或 Web 端部署方案，以减少对单一应用商店的依赖，增强业务韧性。",
+    "tags": [
+      "News",
+      "Apple",
+      "Policy"
+    ],
+    "link": "https://techcrunch.com/2026/04/21/apples-cal-ai-crackdown-signals-its-still-policing-the-app-store/",
+    "date": "2026-04-22",
+    "id": "17768256775771"
+  },
+  {
+    "title": "STELLA 发布 AI 代码安全基准测试排行榜",
+    "summary": "新基准测试评估主流 AI 模型在压力下的代码漏洞生成情况。",
+    "detail": "Atella AI 发布了 STELLA 代码安全排行榜，基准测试了 Gemini、Claude、Llama 等模型在压力场景下生成脆弱代码的概率。结果显示不同模型在 SQL 注入、硬编码凭证等风险上的表现差异显著。这为开发者选择编码辅助模型提供了安全维度的参考依据，强调了 AI 编码的安全风险。测试涵盖了多种常见漏洞类型，如跨站脚本和路径遍历，揭示了当前模型在安全编码方面的不足，建议团队在引入 AI 编程助手时加强代码审查流程。该排行榜不仅展示了模型能力，也暴露了当前 AI 生成代码在安全领域的薄弱环节，推动模型厂商优化安全对齐。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Benchmark"
+    ],
+    "link": "https://leaderboard.atella.ai/code-security.html",
+    "date": "2026-04-22",
+    "id": "17768256775772"
+  },
+  {
+    "title": "Ascend：集成 AI 同步的四层 DevSecOps 框架",
+    "summary": "开源框架 Ascend 实现自动化扫描与 AI 驱动的部署后代码同步。",
+    "detail": "GitHub 上新发布的 Ascend 框架提供了一个四层 DevSecOps 解决方案，集成自动化安全扫描、构建网关及 AI 驱动的部署后代码同步。该项目旨在解决 CI/CD 流水线中速度与安全的矛盾，支持 Python 3.9+。对于希望强化流水线安全性的开发团队，这是一个值得关注的开源工具。其核心在于将安全扫描从被动报告转变为主动构建网关，并利用 AI 处理部署后的代码同步问题，有效减少了人工干预成本，提升了交付效率与安全性。项目文档提供了详细的部署指南，适合需要高合规性要求的企业级应用团队参考采用，助力实现安全左移的 DevOps 实践。",
+    "tags": [
+      "Dev",
+      "DevSecOps",
+      "OpenSource"
+    ],
+    "link": "https://github.com/venkatapgummadi/ascend",
+    "date": "2026-04-22",
+    "id": "17768256775773"
+  },
+  {
+    "title": "Layer 8：面向 AI 代理与嵌入式设备的新协调协议",
+    "summary": "EZThrottle 提出解决 AI 代理与设备间混乱通信的新协议方案。",
+    "detail": "随着 AI 代理和嵌入式设备激增，现有网络协议面临挑战。EZThrottle 提出了 Layer 8 协调协议概念，旨在实现从 Serverless 到 Operationless 的转变，解决设备间 API 调用的混乱与重试风暴问题。这对未来物联网与 AI 结合的基础设施架构具有重要的前瞻性意义。当前架构在处理海量设备并发请求时易导致服务器过载，新协议试图通过优化协调机制来降低延迟和能耗，为大规模 AI 代理部署提供必要的网络底层支持。创始人表示，随着推理成本下降，设备间通信将成为瓶颈，该协议试图在硬件优化之外寻找软件层面的突破解决方案。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "AI Agents"
+    ],
+    "link": "https://www.ezthrottle.network/blog/operationless-network-for-a-new-world-of-devices",
+    "date": "2026-04-22",
+    "id": "17768256775774"
+  },
+  {
     "title": "老板的\"AI 脑”：营销团队面临的 AI 痴迷困境",
     "summary": "探讨老板过度依赖 AI 对营销团队的实际影响及员工心态。",
     "detail": "基于 Reddit 讨论及行业观察，文章揭示了管理层过度痴迷 AI 的现象。许多 CEO 将 AI 视为“最佳伙伴”，审查所有文案，导致员工优秀成果被忽视。尽管媒体关注 AI 导致的失业，但在职员工面临的信任危机与工作流程异化同样严重。LinkedIn 互动显示众多营销人员共鸣，反映了 AI 落地过程中管理层焦虑向下传递的现状。这提示企业需平衡 AI 工具与人类创造力，避免盲目依赖导致团队士气受损。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.metaculus.com/labor-hub/",
     "date": "2026-04-20",
     "id": "17767080476794"
-  },
-  {
-    "title": "传闻 NSA 无视五角大楼分歧使用 Anthropic Mythos",
-    "summary": "据报道，尽管存在分歧，NSA 间谍仍在使用 Anthropic 的 Mythos 模型。",
-    "detail": "**背景**：尽管五角大楼与 Anthropic 存在公开分歧，最新报道显示 NSA 间谍仍在使用其 Mythos 模型。**核心**：情报机构绕过政策障碍，直接部署先进 AI 用于间谍活动，验证了模型的实际效能。**影响**：显示政府机构对先进 AI 能力的迫切需求，即便存在政策摩擦。这可能加速政府级 AI 部署，同时也引发安全合规及模型滥用的担忧。预示着国防 AI 应用将进入复杂局面，实际业务需求可能凌驾于政策之上，监管面临挑战。未来政府与科技巨头的博弈将加剧，模型安全对齐成为关键议题。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "Government"
-    ],
-    "link": "https://techcrunch.com/2026/04/20/nsa-spies-are-reportedly-using-anthropics-mythos-despite-pentagon-feud/",
-    "date": "2026-04-20",
-    "id": "17767015706170"
-  },
-  {
-    "title": "报告显示仅 1% 的 AI 生成代码库达到生产就绪",
-    "summary": "分析 10 万 + 仓库发现，AI 生成代码普遍缺乏日志、超时和安全防护。",
-    "detail": "**背景**：Astro 分析了 103,653 个标记为 AI 生成的 GitHub 仓库，揭示当前“氛围编程”现状。**数据**：仅 1% 达到生产就绪，83% 存在严重缺陷。**问题**：93% 无日志，91% 无超时设置，86% 缺少 API 认证。**影响**：揭示当前“氛围编程”（Vibe Coding）的质量隐患，强调人工审查和工程化规范在 AI 开发中的必要性。开发者需警惕 AI 生成代码的维护成本，建立严格的测试与监控流程，确保系统稳定性与安全性，避免技术债务累积。未来需开发专用 AI 代码审计工具，确保生成代码符合企业级标准，平衡开发效率与系统可靠性。",
-    "tags": [
-      "Dev",
-      "Code Quality",
-      "Report"
-    ],
-    "link": "https://useastro.com/vibe-code-report/",
-    "date": "2026-04-20",
-    "id": "17767015706171"
-  },
-  {
-    "title": "Peter Thiel 资助构建 AI 平行司法系统挑战媒体",
-    "summary": "Objection.ai 利用 AI 法庭和情报人员背景团队，低成本挑战媒体报道。",
-    "detail": "**背景**：Peter Thiel 继 Gawker 案后，资助新初创公司 Objection.ai，试图改变媒体监督格局。**核心**：利用前 CIA/FBI 人员调查，结合 AI 模型裁决，构建平行司法体系。**影响**：可能绕过传统法院和第一修正案，降低骚扰记者的成本。引发对 AI 介入司法、新闻自由及权力滥用的深刻伦理担忧。这种私人资助的 AI 司法系统可能成为压制异见工具，挑战现有法律框架与社会公正底线。此项目若成功，可能引发连锁反应，促使更多资本投入私人 AI 司法领域，重塑舆论监督机制。",
-    "tags": [
-      "News",
-      "Law",
-      "Ethics"
-    ],
-    "link": "https://www.codastory.com/polarization/can-we-trust-an-ai-jury-to-judge-journalism/",
-    "date": "2026-04-20",
-    "id": "17767015706172"
-  },
-  {
-    "title": "开发者利用 AI 用 Rust 重写 Postgres 数据库",
-    "summary": "pgrust 项目两周完成 25 万行代码，已通过三分之一回归测试。",
-    "detail": "**背景**：Postgres 配置复杂且存在性能陷阱，开发者决定重构。**进展**：使用 AI 辅助，两周生成 25 万行 Rust 代码，通过 1/3 测试。**优势**：旨在解决连接池、真空清理及 JSONB 统计等痛点。**影响**：展示 AI 在系统级编程中的潜力，可能推动数据库基础设施的现代化革新。该项目证明 AI 可加速底层软件开发，但完全替换成熟数据库仍需时间验证稳定性与生态兼容性。若成功，将为 Rust 在数据库领域的应用树立标杆，提升系统安全性，开启基础设施 AI 重构浪潮。",
-    "tags": [
-      "Dev",
-      "Database",
-      "Rust"
-    ],
-    "link": "https://malisper.me/pgrust-rebuilding-postgres-in-rust-with-ai/",
-    "date": "2026-04-20",
-    "id": "17767015706173"
-  },
-  {
-    "title": "Mailto.Bot 推出支持 MCP 的 AI 代理电子邮件 API",
-    "summary": "专为 AI 代理设计的邮件 API，三行代码即可创建邮箱并自动化收发。",
-    "detail": "**背景**：AI 代理需要可靠的通信渠道，现有邮件系统过于复杂。**功能**：无需 DNS 配置，API 一键创建邮箱，原生支持 MCP 协议。**特点**：由 AI 设计、构建和测试，防止滥用。**影响**：降低 AI 代理集成邮件功能的门槛，促进自动化工作流和代理间通信的发展。专为程序化邮件设计，避免人类邮箱的干扰，为 AI 代理提供独立身份与通信能力，助力多代理协作生态。未来可能成为 AI 代理标准通信协议的一部分，简化复杂任务自动化流程，推动 Agent 经济落地。",
-    "tags": [
-      "New",
-      "API",
-      "Agents"
-    ],
-    "link": "https://mailto.bot/",
-    "date": "2026-04-20",
-    "id": "17767015706174"
   }
 ]
