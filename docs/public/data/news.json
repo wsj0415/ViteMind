@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 能力分层加剧，中产知识工作者面临经济杠杆侵蚀",
+    "summary": "顶级模型能力增强，普通用户模型降级，企业与普通用户差距扩大。",
+    "detail": "文章指出 AI 模型正出现明显的层级分化，顶级能力被移至高价企业 tier。虽然工作岗位未消失，但人员减少，留存员工生产力提高但更不稳定。中产知识工作者和小企业主的经济杠杆正在被快速侵蚀，资本捕获了生产力增益。未来 2-3 年特定行业失业率将悄然上升，而非戏剧性崩溃，这可能导致政治反应滞后。这种结构性变化要求我们重新思考劳动与资本在 AI 时代的分配关系。",
+    "tags": [
+      "News",
+      "Economy",
+      "LLM"
+    ],
+    "link": "https://www.gailweiner.com/post/who-gets-to-stay-human-the-ai-hype-stripped-of-the-hype",
+    "date": "2026-04-22",
+    "id": "17768855476350"
+  },
+  {
+    "title": "Intercom 分享基于 Claude Code 与 Rails 的 AI 优先构建实践",
+    "summary": "Brian Scanlan 视频分享 Intercom 如何利用 Claude Code 和 Rails 构建 AI 优先产品。",
+    "detail": "Intercom 团队展示了如何在现有 Rails 架构中集成 AI 优先的开发流程。通过结合 Claude Code 辅助编程，团队探索了高效构建 AI 原生应用的路径。这对开发者如何在传统框架中融入现代 AI 工作流具有参考意义，展示了企业级 AI 落地的具体技术栈选择。视频内容涵盖了从代码生成到部署的实际案例，为使用 Ruby on Rails 的开发者提供了转型 AI 优先开发的实战经验与思路。",
+    "tags": [
+      "Dev",
+      "Claude",
+      "Rails"
+    ],
+    "link": "https://www.youtube.com/watch?v=ADBs2K5Tpz0",
+    "date": "2026-04-22",
+    "id": "17768855476351"
+  },
+  {
+    "title": "Show HN: Chess of Minds，每个棋子均由独立 AI 代理操控",
+    "summary": "创新实验项目，每方 6 个 AI 代理代表不同棋子，通过协商决定走法。",
+    "detail": "这是一个多代理协调的实验性项目。每方棋子由 6 个具有不同性格的 AI 代理负责，它们通过提议、争论和谈判来决定每一步棋。项目无需 API 密钥，利用 Claude Code 本地运行，展示了代理原生 UX 的可能性。不仅是游戏，更是集体决策理论的可视化演示，适合观察 AI 代理间的协作与冲突。用户可通过 Markdown URL 直接启动，体现了 Agent 作为运行时的未来应用形态，无需安装或账户。",
+    "tags": [
+      "New",
+      "Multi-Agent",
+      "Claude"
+    ],
+    "link": "https://chessminds.fun",
+    "date": "2026-04-22",
+    "id": "17768855476352"
+  },
+  {
+    "title": "Rundock 发布：无需代码即可构建本地化 AI 代理团队",
+    "summary": "面向非开发者的 AI 团队管理工具，支持本地运行与组织架构可视化。",
+    "detail": "Rundock 是一款面向非技术用户的 AI 代理团队管理工具。用户可在本地构建包含研究员、作家等角色的 AI 团队，并通过组织图表界面管理。数据本地处理，基于 Claude Code 文件标准，无供应商锁定。支持 Apple Silicon Mac，旨在降低 AI 代理使用门槛，让普通人也能通过 delegating 任务给 AI 团队来提高工作效率。代理技能标准化，可迁移至其他支持 Anthropic 格式的工具，确保用户数据主权。",
+    "tags": [
+      "New",
+      "Agent",
+      "Productivity"
+    ],
+    "link": "https://rundock.ai/",
+    "date": "2026-04-22",
+    "id": "17768855476353"
+  },
+  {
+    "title": "卫报：Anthropic 调查未发布网络安全 AI 模型 Mythos 未授权访问事件",
+    "summary": "Anthropic 旗下未发布网络安全模型 Mythos 遭未授权访问，引发全球安全担忧。",
+    "detail": "据卫报报道，Anthropic 正在调查一起涉及未发布网络安全 AI 模型\"Mythos\"的未授权访问事件。该模型潜在能力可能威胁全球网络安全，因此泄露事件引发广泛关注。目前具体技术细节尚未公开，但此次事件凸显了高级 AI 模型在安全领域的双刃剑效应，以及头部公司在模型发布前的安全管控挑战。行业正在密切关注后续调查进展，以及对 AI 安全监管政策的潜在影响。",
+    "tags": [
+      "News",
+      "Security",
+      "Anthropic"
+    ],
+    "link": "https://www.theguardian.com/technology/2026/apr/22/what-is-anthropic-mythos-ai-threat-global-cybersecurity",
+    "date": "2026-04-22",
+    "id": "17768855476354"
+  },
+  {
     "title": "OpenAI 推出 WebSocket 优化代理工作流，速度提升 40%",
     "summary": "响应 API 新增 WebSocket 支持，代理循环端到端速度提升 40%，推理速度达 1000 TPS。",
     "detail": "OpenAI 官方发布技术更新，通过在 Responses API 中引入 WebSocket 持久连接，替代传统的同步 API 调用序列。文章指出代理循环延迟主要来自 API 服务、模型推理及客户端时间三阶段。此次优化结合缓存与网络跳转消除，使端到端速度提升 40%。针对 GPT-5.3-Codex-Spark 模型，推理速度从 65 TPS 跃升至近 1000 TPS，显著改善复杂编码任务的用户体验，标志着代理工作流效率的重大突破。",
@@ -1233,70 +1298,5 @@
     "link": "https://0d07b74677d946ca9e.v2.appdeploy.ai/",
     "date": "2026-04-21",
     "id": "17767580963354"
-  },
-  {
-    "title": "美国公用事业计划投资 1.4 万亿美元建设 AI 数据中心",
-    "summary": "能源巨头大幅增资，支撑 AI 算力基础设施扩张，资本支出激增 27%。",
-    "detail": "美国公用事业公司计划投入 1.4 万亿美元用于 AI 数据中心能源建设，资本支出预计激增 27%。这反映了 AI 算力需求对能源基础设施的巨大压力。行业正面临电力供应与算力增长匹配的挑战，能源板块成为 AI 浪潮下的关键受益者。这一巨额投资凸显了可持续能源供应的紧迫性，也预示着未来几年电力基础设施将迎来大规模升级，以支撑不断膨胀的 AI 模型训练与推理需求。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Investment"
-    ],
-    "link": "https://tech-insider.org/us-utility-1-4-trillion-ai-data-center-energy-2026/",
-    "date": "2026-04-21",
-    "id": "17767494094770"
-  },
-  {
-    "title": "Roblox 作弊工具与 AI 工具导致 Vercel 平台瘫痪",
-    "summary": "单一 AI 工具引发连锁反应，致知名部署平台大规模宕机，揭示自动化风险。",
-    "detail": "报道称一个 Roblox 作弊工具配合某 AI 工具导致 Vercel 整个平台下线。这揭示了 AI 自动化工具可能带来的安全风险与基础设施脆弱性。随着 AI Agent 自主操作能力增强，此类意外宕机事件可能频发，促使平台方加强速率限制与异常流量识别。开发者需警惕 AI 工具对生产环境的潜在冲击，平台稳定性在 AI 自动化时代面临新的考验，安全策略需同步升级。",
-    "tags": [
-      "News",
-      "Security",
-      "Platform"
-    ],
-    "link": "https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform",
-    "date": "2026-04-21",
-    "id": "17767494094771"
-  },
-  {
-    "title": "AI 招聘诈骗激增：记者亲历骗局与防范指南",
-    "summary": "卫报报道 AI 求职骗局泛滥，诈骗者利用 AI 生成定制化职位描述诱骗求职者。",
-    "detail": "《卫报》揭露 AI 驱动的招聘诈骗激增，记者亲历骗局。诈骗者利用 AI 生成定制化职位描述与高薪诱惑求职者，甚至伪造猎头身份。此类骗局利用 AI 个性化生成能力降低可信度门槛。求职者需警惕未公开职位、过高薪资及非正规沟通渠道。行业需加强招聘平台审核，个人应核实公司背景，避免泄露敏感个人信息，AI 技术的双刃剑效应在就业市场愈发明显。",
-    "tags": [
-      "News",
-      "Security",
-      "Social"
-    ],
-    "link": "https://www.theguardian.com/money/2026/apr/21/how-to-avoid-ai-online-job-recruitment-scams",
-    "date": "2026-04-21",
-    "id": "17767494094772"
-  },
-  {
-    "title": "Aiguard-scan：审计 AI 生成代码的安全漏洞工具",
-    "summary": "开源工具专门扫描 AI 生成代码中的秘密泄露与漏洞，保障开发安全。",
-    "detail": "GitHub 新项目 Aiguard-scan 旨在解决 AI 编程带来的安全隐患。该工具专门扫描 AI 生成的代码中是否包含硬编码秘密或安全漏洞。随着 Copilot 等工具普及，代码安全性成为新痛点。此工具为开发者提供了审计层，帮助在部署前识别潜在风险，是 AI 辅助开发工作流中不可或缺的安全补充组件，有助于防止敏感信息通过 AI 生成代码意外泄露。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Code"
-    ],
-    "link": "https://github.com/Hephaestus-byte/agent-guard",
-    "date": "2026-04-21",
-    "id": "17767494094773"
-  },
-  {
-    "title": "Kachilu Browser：面向 AI Agent 的本地浏览器自动化 CLI",
-    "summary": "开源本地浏览器自动化命令行工具，赋能 AI 代理自主操作网页任务。",
-    "detail": "Show HN 项目 Kachilu Browser 提供了本地浏览器自动化 CLI 接口，专为 AI Agent 设计。它允许 Agent 在无头模式下控制浏览器执行任务，无需复杂 API 密钥。这降低了 Agent 访问网页内容的门槛，促进了本地化、隐私优先的 Agent 开发。对于构建能够自主浏览、交互的 AI 应用具有重要的基础设施意义，简化了 Agent 与 web 环境的交互流程。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Automation"
-    ],
-    "link": "https://github.com/kachilu-inc/kachilu-browser",
-    "date": "2026-04-21",
-    "id": "17767494094774"
   }
 ]
