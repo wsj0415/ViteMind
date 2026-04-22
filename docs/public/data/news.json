@@ -1,5 +1,83 @@
 [
   {
+    "title": "Google Workspace 更新：AI 成为新办公室实习生",
+    "summary": "Google 更新 Workspace，引入 AI 实习生功能，重塑办公流程。",
+    "detail": "Google 宣布更新 Workspace 套件，将 AI 定位为“办公室实习生”。此次更新旨在深度整合 AI 到日常办公流中，自动化处理文档、邮件及日程安排。核心技术在于上下文理解与任务代理能力，标志着 Google 从辅助工具向自主代理的转型。行业影响深远，可能重新定义企业协作软件标准，推动 AI 代理在企业级应用中的普及。",
+    "tags": [
+      "News",
+      "Google",
+      "Productivity"
+    ],
+    "link": "https://techcrunch.com/2026/04/22/google-updates-workspace-to-make-ai-your-new-office-intern/",
+    "date": "2026-04-22",
+    "id": "17768983433700"
+  },
+  {
+    "title": "DESIGN.md：设计师与 AI 的新开放契约",
+    "summary": "Google 开源 DESIGN.md，结合 YAML 与 Markdown 规范 AI 设计输出。",
+    "detail": "针对 AI 生成 UI 通用化问题，Google 开源 DESIGN.md 标准。该格式混合机器可读 YAML 与人类可读设计规则，作为品牌视觉的唯一事实来源。核心是通过 Linter 工具自动测试 AI 代码是否符合间距、对比度等规范。这将设计工作从绘图转向代码测试，赋予开发者控制 AI 视觉输出的能力，有望成为 AI 生成界面的新行业标准。",
+    "tags": [
+      "Dev",
+      "Design",
+      "OpenSource"
+    ],
+    "link": "https://kyanfeat.substack.com/p/designmd-the-new-open-contract-between",
+    "date": "2026-04-22",
+    "id": "17768983433701"
+  },
+  {
+    "title": "X 推出 Grok 驱动的自定义信息流",
+    "summary": "X 上线 Grok 自定义时间线，利用 AI 理解内容而非关键词。",
+    "detail": "X 宣布推出由 Grok 驱动的自定义时间线功能，允许用户订阅超过 75 个特定主题。与传统关键词不同，Grok 模型阅读并理解每篇帖子后添加主题标签，实现深度个性化。此功能取代了使用率下降的 X Communities，仅向 iOS Premium 用户开放。这标志着 xAI 与 X 平台整合加深，AI 推荐算法成为核心用户体验驱动力。",
+    "tags": [
+      "News",
+      "SocialMedia",
+      "Grok"
+    ],
+    "link": "https://techcrunch.com/2026/04/22/hands-on-with-xs-new-ai-powered-custom-feeds/",
+    "date": "2026-04-22",
+    "id": "17768983433702"
+  },
+  {
+    "title": "Anthropic：8.1 万用户眼中的 AI 经济影响",
+    "summary": "Anthropic 调查 8.1 万用户，揭示 AI 对生产力与就业的双重影响。",
+    "detail": "Anthropic 发布基于 81,000 名 Claude 用户的调查报告。数据显示，高暴露于 AI 的岗位虽生产力提升显著，但员工对失业的担忧也更高。高收入和低收入职业报告了最大的范围扩展收益。研究证实了 AI 暴露度与经济担忧之间的相关性，为理解 AI 对劳动力市场的实际冲击提供了量化依据，提示企业需关注员工心理与技能转型。",
+    "tags": [
+      "News",
+      "Research",
+      "LaborMarket"
+    ],
+    "link": "https://www.anthropic.com/research/81k-economics",
+    "date": "2026-04-22",
+    "id": "17768983433703"
+  },
+  {
+    "title": "AI SRE 实战：Claude Code 的 5 个值班工作流",
+    "summary": "详解如何利用 Claude Code 优化 SRE 值班与事件响应流程。",
+    "detail": "文章探讨了将 Claude Code 应用于 SRE“外循环”工作流的实践。通过五个具体场景（事件分类、运行手册执行等）证明 AI 代理可承担运维任务。核心瓶颈在于认证、范围与审计保障，而非模型能力。建议构建 MCP 运行时以解决权限不一致问题。这为开发团队利用 AI 代理降低运维上下文加载税提供了具体架构指南。",
+    "tags": [
+      "Dev",
+      "SRE",
+      "Ops"
+    ],
+    "link": "https://www.arcade.dev/blog/claude-code-ai-sre-oncall-workflows/",
+    "date": "2026-04-22",
+    "id": "17768983433704"
+  },
+  {
+    "title": "RedAI：AI 驱动的漏洞发现与实时验证工具",
+    "summary": "开源工具 RedAI 利用 AI 代理在实时环境中验证安全漏洞。",
+    "detail": "RedAI 是一个终端工作台，专注于 AI 驱动的漏洞发现与实时验证。与传统工具仅标记可疑代码不同，其验证代理会在目标运行实例中尝试证明或反驳发现。基于 Bun 运行时，结合扫描器与验证器代理，减少误报。该项目展示了 AI 安全工具从静态分析向动态交互验证的演进，适合安全研究人员集成到现有工作流中。",
+    "tags": [
+      "New",
+      "Security",
+      "AI"
+    ],
+    "link": "https://github.com/kpolley/redai",
+    "date": "2026-04-22",
+    "id": "17768983433705"
+  },
+  {
     "title": "Bolt 新增设计系统支持，提升 AI 建站效率",
     "summary": "Bolt 更新支持保时捷等设计系统，通过对话即可构建应用。",
     "detail": "Bolt.new 最新更新引入了**设计系统支持**，允许用户集成保时捷、华盛顿邮报等品牌规范，以及 Material UI、Shadcn 等组件库。用户可通过自然对话构建应用，无需手动配置样式。作为领先的专业氛围编程工具，它旨在让开发者专注于愿景而非错误处理。此次更新标志着 AI 编码代理向生产级应用迈进一步，支持更专业的品牌一致性构建，提升企业级开发效率。此外，它集成了前沿编码代理，确保始终使用最佳工具，无需切换环境，极大提升了工作流顺畅度。对于希望快速原型开发且保持品牌一致性的团队，这是一个重要更新，展示了 AI 在软件工程中的深度集成能力，降低技术门槛。整体而言，Bolt 正试图成为全栈开发者的首选 AI 助手，通过抽象底层复杂性，让创意更快落地。未来可能看到更多企业级设计系统接入，形成生态壁垒。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/OneSpur/scanner",
     "date": "2026-04-21",
     "id": "17767846124036"
-  },
-  {
-    "title": "营销工作流受益于 AI，但信任仍是采用障碍",
-    "summary": "Digiday 研究显示 AI 提升营销效率，但信任问题阻碍大规模采用。",
-    "detail": "Digiday+ 发布的最新研究报告深入分析了当前营销行业的 AI 采用现状与挑战。报告明确指出，尽管 AI 工具在实际营销工作流中带来了显著的效益提升，优化了操作流程，但行业对于信任问题的担忧依然严峻。信任缺失目前是阻碍 AI 技术在企业级营销中大规模采用的主要屏障。这表明未来 AI 营销工具的发展重点将转向建立透明度与可靠性机制，以消除用户顾虑，推动技术真正落地。该研究揭示了技术能力与用户接受度之间的关键差距，对营销技术栈的演进具有指导意义。",
-    "tags": [
-      "News",
-      "Marketing",
-      "Adoption"
-    ],
-    "link": "https://digiday.com/marketing/digiday-research-marketing-workflows-benefit-from-ai-but-trust-is-still-a-barrier-to-adoption/",
-    "date": "2026-04-21",
-    "id": "17767791193280"
-  },
-  {
-    "title": "Transient：自主 AI 代理的 CLI 治理层",
-    "summary": "GitHub 开源项目 Transient 为自主 AI 代理提供信任基础设施和治理层。",
-    "detail": "该项目在 Show HN 上亮相，定位为自主代理的信任基础设施。作为一个 CLI 治理层，Transient 旨在解决 AI 代理自主运行时的信任与控制问题。通过提供可验证的治理机制，它允许开发者对代理行为进行监管，确保系统在安全范围内运行。这对于当前蓬勃发展的 AI 代理生态至关重要，填补了代理自主性与安全性之间的空白。在代理自主性日益增强的背景下，此类治理层正变得不可或缺，为构建可靠的自动化工作流提供了底层技术支持，适合关注 AI 安全与治理的开发者参考。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Security"
-    ],
-    "link": "https://github.com/james-transient/transient",
-    "date": "2026-04-21",
-    "id": "17767791193291"
-  },
-  {
-    "title": "AI 原生内容工程的四平面架构",
-    "summary": "提出现代 CMS 应类似 Git 仓库，采用四平面架构替代传统内容管道。",
-    "detail": "文章回顾了内容管理系统的发展历程，指出自 WordPress 发布以来，过去二十年的系统都基于人类写作是瓶颈的假设。然而 2024 年左右这一假设被 AI 打破，写作不再昂贵，但大多数 CMS 尚未吸收这一转变。作者提出现代 CMS 应更像 Git 仓库而非发布工具，建议采用四个并行通信的平面架构替代传统顺序管道。这种 AI 原生内容工程架构旨在解决写作不再是瓶颈后的新需求，强调了平面间通信的重要性。为开发者构建下一代内容系统提供了理论依据和设计思路，具有前瞻性的技术指导意义。",
-    "tags": [
-      "Dev",
-      "Architecture",
-      "CMS"
-    ],
-    "link": "https://generativeai.pub/the-4-plane-architecture-of-ai-native-content-engineering-32dfcf79607c",
-    "date": "2026-04-21",
-    "id": "17767791193292"
-  },
-  {
-    "title": "三个难度级别详解 AI 代理记忆机制",
-    "summary": "MachineLearningMastery 教程分级解析 AI Agent 记忆实现原理。",
-    "detail": "MachineLearningMastery 发布的这篇教程旨在帮助开发者掌握机器学习的核心概念。文章通过三个难度级别深入浅出地解释了 AI 代理的记忆机制，涵盖了从基础概念到复杂实现的技术细节。这种分级教学方式有助于不同背景的开发者理解如何让 AI 代理存储、检索和利用上下文信息。它是构建具有长期记忆能力的代理系统的实用指南，对于希望提升代理交互连贯性和智能水平的工程师来说，是一份高质量的学习资源。内容专注于让开发者在机器学习领域变得更强大，提供了结构化的学习路径。",
-    "tags": [
-      "Dev",
-      "Tutorial",
-      "LLM"
-    ],
-    "link": "https://machinelearningmastery.com/ai-agent-memory-explained-in-3-levels-of-difficulty/",
-    "date": "2026-04-21",
-    "id": "17767791193293"
-  },
-  {
-    "title": "Instagram 病毒式 AI 闪光灯滤镜潜在风险",
-    "summary": "创意博客分析 Instagram 热门 AI 滤镜背后可能存在的隐蔽风险。",
-    "detail": "Creative Bloq 发表文章分析了 Instagram 上病毒式传播的 AI 驱动闪光灯滤镜。文章指出，这款看似有趣的滤镜可能比表面看起来更复杂，甚至存在潜在风险。标题暗示其可能比表面上更险恶，引发了对设计背后意图的质疑。虽然具体技术细节未完全披露，但分析提示了此类生成式 AI 功能可能存在的隐患。这提醒广大用户在享受 AI 娱乐功能时需保持警惕，注意潜在的数字安全风险。反映了公众对消费级 AI 应用安全性的日益关注，提示平台方需加强对此类病毒式 AI 功能的审查与透明度说明，确保用户知情权。",
-    "tags": [
-      "News",
-      "Social Media",
-      "Safety"
-    ],
-    "link": "https://www.creativebloq.com/design/instagrams-viral-flash-filter-might-be-more-sinister-than-it-seems",
-    "date": "2026-04-21",
-    "id": "17767791193294"
-  },
-  {
-    "title": "本地 AI 记忆新方案：RA-H OS 开源项目",
-    "summary": "将 AI 记忆存入本地 SQLite 数据库，支持 MCP 协议。",
-    "detail": "该项目通过本地 SQLite 数据库存储笔记与研究数据，替代传统文件夹管理。提供本地 UI 及 MCP 服务器接口，允许 Claude Code 等代理直接读写知识图谱。数据完全本地化，保障隐私，适合构建个人本地知识库与 AI 代理记忆层。此方案解决了云端记忆的成本与隐私问题，为本地 Agent 开发提供了新的基础设施参考，尤其适合对数据主权敏感的开发者和研究人员使用。",
-    "tags": [
-      "Dev",
-      "Local AI",
-      "MCP"
-    ],
-    "link": "https://github.com/bradwmorris/ra-h_os/",
-    "date": "2026-04-21",
-    "id": "17767698503300"
   }
 ]
