@@ -1,5 +1,109 @@
 [
   {
+    "title": "Anthropic 调查 Mythos AI 越权访问与安全漏洞",
+    "summary": "Anthropic 正调查关于 Mythos AI 被越权访问用于黑客活动的报告。",
+    "detail": "**背景**：安全媒体报告指出 Anthropic 的 Mythos AI 模型可能存在被恶意访问的风险。\n**核心事件**：有报告称该模型被用于启用黑客攻击，Anthropic 已介入调查。\n**行业影响**：此事件再次引发对高级 AI 模型安全对齐及访问控制的关注，若属实可能影响企业级用户信任。安全团队需审视 API 密钥管理及模型滥用防御机制，防止高性能模型成为网络攻击的辅助工具。",
+    "tags": [
+      "News",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://www.theguardian.com/technology/2026/apr/22/anthropic-investigates-report-of-rogue-access-to-hack-enabling-mythos-ai",
+    "date": "2026-04-22",
+    "id": "17768498253030"
+  },
+  {
+    "title": "开发者警惕 AI 工作流中的技能侵蚀风险",
+    "summary": "文章探讨开发者在使用 AI 自动化时如何避免核心编程技能退化。",
+    "detail": "**背景**：随着 AI 编码工具普及，开发者依赖度上升。\n**核心观点**：作者类比 ORM 和垃圾回收机制，指出过度自动化可能导致基础技能丧失（自动化悖论）。\n**建议**：提倡在利用 AI 提高效率的同时，保留对底层原理的理解，防止系统在自动化失效时无法人工接管。这对长期技术团队建设具有警示意义，需平衡效率与能力保留。",
+    "tags": [
+      "Dev",
+      "Workflow",
+      "Best Practices"
+    ],
+    "link": "https://marcgg.com/blog/2026/04/15/my-current-ai-workflow/",
+    "date": "2026-04-22",
+    "id": "17768498253031"
+  },
+  {
+    "title": "Meta 员工反对强制使用活动数据训练内部 AI",
+    "summary": "Meta 推出追踪员工活动的新 AI 工具用于训练，引发内部隐私担忧。",
+    "detail": "**背景**：Meta 内部推行新 AI 工具，旨在通过追踪员工活动数据来优化模型。\n**冲突点**：员工对该强制计划表示强烈反对，担心隐私泄露及数据滥用。\n**行业影响**：反映了科技巨头在内部数据治理与 AI 训练需求间的矛盾。企业需在提升效率与尊重员工隐私之间找到平衡，否则可能影响团队士气及公众形象。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Corporate"
+    ],
+    "link": "https://www.businessinsider.com/meta-new-ai-tool-tracks-staff-activity-sparks-concern-2026-4",
+    "date": "2026-04-22",
+    "id": "17768498253032"
+  },
+  {
+    "title": "Tesseron：面向 AI 代理的类型化 API 网关开源项目",
+    "summary": "新开源工具通过 WebSocket 向 MCP 兼容代理暴露类型化 Web 应用操作。",
+    "detail": "**背景**：AI 代理与应用交互缺乏标准接口。\n**核心功能**：Tesseron 提供 TypeScript SDK 及 MCP 网关，允许开发者定义类型化的 Web 操作供代理调用。\n**技术价值**：解决了 Agent 与现有 Web 应用集成的类型安全问题，降低了开发门槛。适合需要构建可控 AI 代理工作流的开发者团队采用，促进工具互操作性。",
+    "tags": [
+      "New",
+      "Dev",
+      "API"
+    ],
+    "link": "https://github.com/BrainBlend-AI/tesseron",
+    "date": "2026-04-22",
+    "id": "17768498253033"
+  },
+  {
+    "title": "Trovio：集成于创作者工作流的 24/7 数字人才代理",
+    "summary": "新 AI 代理帮助创作者处理品牌交易、受众增长及收入预测。",
+    "detail": "**背景**：创作者经济规模扩大，管理成本上升。\n**核心功能**：Trovio 作为数字代理，自动匹配品牌赞助、优化联盟收入并提供收入预测。\n**价值**：将行政与合规工作自动化，让创作者专注于内容生产。展示了 AI 在垂直领域（创作者经济）替代传统人才代理角色的潜力，实现全天候业务运营。",
+    "tags": [
+      "New",
+      "Creator Economy",
+      "Agent"
+    ],
+    "link": "https://create.gotrovio.com",
+    "date": "2026-04-22",
+    "id": "17768498253034"
+  },
+  {
+    "title": "AI 代理自我纠错：查询数据库而非产生幻觉",
+    "summary": "实验展示 AI 代理通过查询数据库确认信念，减少错误猜测。",
+    "detail": "**背景**：大模型幻觉仍是主要技术瓶颈。\n**核心实验**：作者测试 AI 代理在面对错误信念时，选择查询 Postgres 数据库而非依赖参数记忆。\n**技术意义**：验证了外部记忆存储与检索增强生成（RAG）在认知架构中的重要性。为构建更可靠、可验证的自主 Agent 系统提供了实践参考，强调确定性数据源的价值。",
+    "tags": [
+      "Dev",
+      "Architecture",
+      "Research"
+    ],
+    "link": "https://iampneuma.com",
+    "date": "2026-04-22",
+    "id": "17768498253035"
+  },
+  {
+    "title": "Cohorte AI 开源 6 库 Python AI 代理治理栈",
+    "summary": "企业级开源栈解决 AI 代理可靠性、策略执行与身份管理问题。",
+    "detail": "**背景**：企业部署 AI 代理面临治理难题。\n**核心内容**：包含 TrustGate、Guardrails 等 6 个 Python 库，涵盖可靠性认证、策略引擎及监控。\n**价值**：提供统一标准而非拼凑工具，支持 Apache 2.0 协议。适合需要在生产环境中大规模部署可控 AI 代理的企业团队，降低合规风险并提升系统可观测性。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Governance"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47860859",
+    "date": "2026-04-22",
+    "id": "17768498253036"
+  },
+  {
+    "title": "行业分析：为何每个 AI 生成的应用都是数据孤岛",
+    "summary": "分析指出 AI 编码工具生成的应用缺乏共享数据库与认证，导致碎片化。",
+    "detail": "**背景**：AI coding 工具能快速生成内部应用。\n**核心问题**：每个应用独立部署，缺乏共享的数据库、认证及权限管理，形成“孤岛”。\n**解决方案**：呼吁建立统一平台处理部署后的基础设施（如 SSO、审计）。这对企业内部软件战略提出挑战，需从单纯生成代码转向管理平台化服务。",
+    "tags": [
+      "Dev",
+      "Industry Insight",
+      "Architecture"
+    ],
+    "link": "https://rootcx.com/blog/why-every-ai-coded-app-is-an-island",
+    "date": "2026-04-22",
+    "id": "17768498253037"
+  },
+  {
     "title": "GeoHot 锐评：AI 行业没有护城河，收购传闻多为炒作",
     "summary": "GeoHot 质疑 SpaceX 收购 Cursor 传闻，指出模型成本高昂且折旧快。",
     "detail": "GeoHot 在其博客中发表激进观点，认为 AI 行业缺乏真正的护城河。他质疑 SpaceX 收购 Cursor 的 600 亿美元传闻，称其为可悲的炒作。技术层面，他指出 GPT-5.4 等闭源模型虽领先，但成本是 Kimi K2.6 等开源模型的 10 倍，且优势仅维持半年。此外，训练指南已公开，构建模型并非难事。他批评行业受 FOMO 驱动，忽视资产快速折旧的现实，认为对 AGI 奇点的狂热缺乏依据，建议以正常指数增长曲线看待行业发展，回归理性。",
@@ -1194,109 +1298,5 @@
     "link": "https://venturebeat.com/technology/salesforce-launches-headless-360-to-turn-its-entire-platform-into-infrastructure-for-ai-agents",
     "date": "2026-04-20",
     "id": "17767182704940"
-  },
-  {
-    "title": "AI 抵抗运动兴起：社区致力于向爬虫投喂“毒药”数据",
-    "summary": "社区发起反 AI 训练运动，通过投喂垃圾数据干扰模型训练。",
-    "detail": "随着网络内容质量下降，反 AI 情绪增长。r/PoisonFountain 社区旨在鼓励人们向 AI 爬虫投喂大量垃圾数据（毒药），目标是 2026 年底每日投喂 1TB。工具如 Miasma 可生成看似正确实则充满细微错误的代码，增加公司清洗数据的成本。这反映了创作者对数据被抓取训练的担忧，可能迫使 AI 公司提高数据获取成本，进而影响未来模型的数据质量与训练策略，是数据主权之争的体现。",
-    "tags": [
-      "News",
-      "Data",
-      "Ethics"
-    ],
-    "link": "https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/",
-    "date": "2026-04-20",
-    "id": "17767182704941"
-  },
-  {
-    "title": "代理式 AI 软件开发学习路线图发布",
-    "summary": "发布代理式 AI 在软件开发中的学习路线图，涵盖架构与工程。",
-    "detail": "Nemorize 发布了\"Agentic AI as a Part of Software Development\"学习路线图。包含 40 个主题，涵盖代理解剖、上下文工程、MCP 协议、工具设计及生产环境部署。重点介绍了 ReAct 模式、上下文层级及代理在 SDLC 中的集成。为开发者提供了从基础到生产级系统的完整指南，有助于规范代理开发流程，解决代理在复杂任务中的稳定性与可观测性问题，适合希望构建生产级 Agent 的工程师。",
-    "tags": [
-      "Dev",
-      "Roadmap",
-      "Agent"
-    ],
-    "link": "https://nemorize.com/roadmaps/agentic-ai-as-a-part-of-software-development",
-    "date": "2026-04-20",
-    "id": "17767182704942"
-  },
-  {
-    "title": "新论文 ASI-Evolve：AI 加速 AI 进化",
-    "summary": "arXiv 发布新论文，探讨 AI 如何加速自身进化过程。",
-    "detail": "arXiv 发布论文\"ASI-Evolve: AI Accelerates AI\"。由 Weixian Xu 等人撰写，探讨了超级智能（ASI）演化过程中 AI 自我加速的机制。研究关注 AI 系统如何改进自身架构或训练流程，从而实现递归自我改进。这对理解 AI 安全及未来技术奇点具有重要意义，是理论 AI 研究的重要进展。论文分析了自动化机器学习在元学习层面的应用，为未来自主进化系统提供了理论框架。",
-    "tags": [
-      "Dev",
-      "Paper",
-      "ASI"
-    ],
-    "link": "https://arxiv.org/abs/2603.29640",
-    "date": "2026-04-20",
-    "id": "17767182704943"
-  },
-  {
-    "title": "Prism v11.0：基于 HRR 与 Act-R 的代理零搜索记忆架构",
-    "summary": "开源项目 Prism 更新，实现 AI 代理的本地化零搜索记忆。",
-    "detail": "GitHub 项目 prism-mcp 更新 v11.0 版本。该架构采用 HRR 和 Act-R 模型，实现$O(1)$零搜索记忆，支持本地设备 LLM 运行。具备 HIPAA 硬化、Hebbian 学习及多代理蜂巢思维功能，无需 API 密钥。为注重隐私和安全的代理开发提供了新的认知架构参考，适合本地部署场景。该项目解决了传统向量数据库检索延迟问题，通过生物启发式模型优化了代理的长期记忆调用效率。",
-    "tags": [
-      "Dev",
-      "Memory",
-      "OpenSource"
-    ],
-    "link": "https://github.com/dcostenco/prism-mcp",
-    "date": "2026-04-20",
-    "id": "17767182704944"
-  },
-  {
-    "title": "Show HN: 安全聚焦的 AI 代理工作区 Comrade",
-    "summary": "开发者开源安全聚焦的 AI 代理工作区 Comrade。",
-    "detail": "Hacker News 展示新项目 Comrade，这是一个专注于安全的开源 AI 工作区。受 OpenClaw 启发，提供透明、可扩展且本地优先的 AI 工作流界面。旨在为团队提供安全的代理协作环境，代码托管于 GitHub。适合对数据隐私和安全有高要求的开发团队使用。该项目强调本地优先原则，避免了敏感代码上传至云端模型的风险，为安全团队提供了可控的 AI 辅助开发工具。",
-    "tags": [
-      "New",
-      "Security",
-      "OpenSource"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47839520",
-    "date": "2026-04-20",
-    "id": "17767182704945"
-  },
-  {
-    "title": "Dunetrace：AI Agent 运行时故障检测工具开源",
-    "summary": "专为 AI Agent 设计的运行时可观测性工具，自动检测结构故障。",
-    "detail": "Dunetrace 是一款专为 AI Agent 设计的运行时可观测性工具，旨在解决代理系统在运行时的结构故障问题。该项目通过隐私安全的设计原则，自动检测潜在失败并在用户感知前发出警报。作为 Python 包发布，它支持主流 Python 版本，提供了 PyPI 安装渠道。对于构建复杂 Agent 系统的开发者而言，Dunetrace 填补了运行时监控的空白，有助于提升系统的稳定性和可维护性。随着 Agent 应用日益复杂，运行时失败检测成为刚需，该工具通过自动化警报机制，显著降低了运维成本。开发者可通过简单的 pip 安装集成，无需大幅重构现有代码，即可实现对企业级 Agent 系统的深度监控，确保业务连续性。",
-    "tags": [
-      "New",
-      "AI Agents",
-      "Python"
-    ],
-    "link": "https://github.com/dunetrace/dunetrace",
-    "date": "2026-04-20",
-    "id": "17767129534760"
-  },
-  {
-    "title": "深度观点：AI 对齐是否真的不可能？",
-    "summary": "探讨 AI 生存风险，分析能力约束与道德约束的有效性。",
-    "detail": "本文深入探讨了 AI 对齐的可能性，指出随着 AI 能力的飞速发展，存在性风险已成为首要挑战。作者分析了拯救人类的两种约束：能力约束与道德约束，并警告随着代理式 AI 的兴起，能力约束正在每日减弱。文章质疑了依赖 AI 虚弱或美德的安全性假设，引发行业对安全策略的深层思考。这对于 AI 安全研究人员及政策制定者具有重要参考价值，提示需重新评估默认的安全边界。随着模型自主性增强，传统对齐方法可能失效，行业需探索新的治理框架。文章强调，不能单纯指望 AI 无法作恶或选择善，必须建立更强硬的技术约束机制，以应对未来超级智能可能带来的生存威胁。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Alignment"
-    ],
-    "link": "https://www.persuasion.community/p/ai-alignment-is-impossible",
-    "date": "2026-04-20",
-    "id": "17767129534761"
-  },
-  {
-    "title": "AI 编程助手的新用法：代码相邻活动",
-    "summary": "超越写代码，利用 AI 理解现有工作流和生成文档。",
-    "detail": "文章提出了“代码相邻”概念，强调 AI 编程助手不仅用于生成代码，更在于理解现有工作流。作者通过实际案例展示，利用 AI 追踪代码逻辑并生成面向产品经理的自然语言解释，以及面向工程师的技术深潜。这种方法解决了遗留项目文档缺失的痛点，显著减少了跨团队沟通成本。对于长期使用 AI 辅助开发的团队，这种工作流转变能最大化 AI 的价值，提升整体交付效率。特别是在大型遗留系统中，人工梳理逻辑耗时耗力，AI 能快速构建知识图谱。这不仅改变了编码方式，更重塑了团队协作模式，让非技术人员也能理解技术细节，促进业务与技术的深度融合。",
-    "tags": [
-      "Dev",
-      "Productivity",
-      "Claude"
-    ],
-    "link": "https://danielabaron.me/blog/the-code-adjacent-power-of-ai/",
-    "date": "2026-04-20",
-    "id": "17767129534762"
   }
 ]
