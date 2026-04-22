@@ -1,5 +1,57 @@
 [
   {
+    "title": "OpenAI 推出 WebSocket 优化代理工作流，速度提升 40%",
+    "summary": "响应 API 新增 WebSocket 支持，代理循环端到端速度提升 40%，推理速度达 1000 TPS。",
+    "detail": "OpenAI 官方发布技术更新，通过在 Responses API 中引入 WebSocket 持久连接，替代传统的同步 API 调用序列。文章指出代理循环延迟主要来自 API 服务、模型推理及客户端时间三阶段。此次优化结合缓存与网络跳转消除，使端到端速度提升 40%。针对 GPT-5.3-Codex-Spark 模型，推理速度从 65 TPS 跃升至近 1000 TPS，显著改善复杂编码任务的用户体验，标志着代理工作流效率的重大突破。",
+    "tags": [
+      "Dev",
+      "API",
+      "LLM"
+    ],
+    "link": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+    "date": "2026-04-22",
+    "id": "17768774673110"
+  },
+  {
+    "title": "英伟达展示 Jetson 本地运行 Gemma 4 VLA 多模态模型",
+    "summary": "Gemma 4 视觉语言动作模型在边缘设备本地运行，可自主决定是否调用摄像头。",
+    "detail": "Hugging Face 博客展示了 Gemma 4 VLA 模型在 NVIDIA Jetson Orin Nano Super (8GB) 上的本地部署演示。该模型具备自主决策能力，可根据上下文判断是否需要调用 Logitech C920 摄像头获取视觉信息，无需硬编码逻辑。流程涵盖语音转文本、模型推理及文本转语音。项目已开源完整 Python 脚本，开发者可通过 GitHub 直接克隆部署，展示了边缘侧多模态交互的低延迟潜力与可行性。",
+    "tags": [
+      "Dev",
+      "VLA",
+      "Edge"
+    ],
+    "link": "https://huggingface.co/blog/nvidia/gemma4",
+    "date": "2026-04-22",
+    "id": "17768774673111"
+  },
+  {
+    "title": "独家：谷歌与 Thinking Machines Lab 达成数十亿美元合作",
+    "summary": "谷歌深化与思考机器实验室的战略合作关系，涉及新的数十亿美元级交易。",
+    "detail": "TechCrunch 独家报道披露，谷歌与 Thinking Machines Lab 达成了新的多亿美元级交易，进一步深化双方 ties。此举显示谷歌在 AI 基础设施及前沿研究领域的巨额投入战略。虽然具体条款未在摘要中详述，但数十亿美元的规模表明双方合作将显著影响未来 AI 技术格局。作为 2026 年的重大商业新闻，这反映了科技巨头对核心 AI 研发能力的持续争夺与布局。",
+    "tags": [
+      "News",
+      "Investment",
+      "Google"
+    ],
+    "link": "https://techcrunch.com/2026/04/22/exclusive-google-deepens-thinking-machines-lab-ties-with-new-multi-billion-dollar-deal/",
+    "date": "2026-04-22",
+    "id": "17768774673112"
+  },
+  {
+    "title": "谷歌发布面向企业的新代理构建工具，引发行业关注",
+    "summary": "谷歌为企业客户推出全新的 AI 代理构建解决方案，旨在简化开发流程。",
+    "detail": "谷歌针对企业市场发布了一款新的代理构建工具，这一技术选择引起了行业观察者的兴趣。该工具旨在简化企业级 AI 代理的开发与部署流程，降低使用门槛。作为科技巨头在 B 端市场的重要布局，此举可能改变企业自动化工作流的构建方式。虽然具体技术架构未在标题中详述，但显示出谷歌在企业 AI 赛道的竞争意图，值得开发者与企业客户密切关注后续功能细节。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Agent"
+    ],
+    "link": "https://techcrunch.com/2026/04/22/google-makes-an-interesting-choice-with-its-new-agent-building-tool-for-enterprises/",
+    "date": "2026-04-22",
+    "id": "17768774673113"
+  },
+  {
     "title": "新论文主张 AI 意识需基于人类模型验证",
     "summary": "Paras Chopra 提出 AI 意识研究应先验证人类意识模型。",
     "detail": "论文指出当前 AI 意识争论缺乏实证基础，导致科学裁决困难。作者 Paras Chopra 主张采用“人类优先”方法论，即先识别人类意识的可测量现象，构建预测模型并实证验证，随后再应用于 AI 系统。这种方法旨在将哲学辩论转化为富有成效的科学探究，为 AI 伦理、安全及政策制定提供必要的经验基础。如果没有经过验证的人类模型，关于\"AI 是否有意识”的问题缺乏科学进步所需的实证依据。研究强调所有科学观察最终依赖于人类感知共识，包括对意识本身的观察，因此必须首先验证人类模型。",
@@ -1246,57 +1298,5 @@
     "link": "https://github.com/kachilu-inc/kachilu-browser",
     "date": "2026-04-21",
     "id": "17767494094774"
-  },
-  {
-    "title": "Nvidia 推出 Nemotron 韩国人物数据集优化 AI 代理",
-    "summary": "Nvidia 发布新数据集，解决 AI 代理在韩国文化场景中的本地化缺失问题。",
-    "detail": "Nvidia 与 Hugging Face 合作推出 Nemotron-Personas-Korea 数据集，旨在解决当前 AI 代理的本地化痛点。大多数模型主要基于英语网络数据训练，导致缺失韩国敬语结构、区域职业模式及文化背景。例如，将美国医疗工作流直接应用于韩国公共卫生系统往往无法落地。该数据集通过合成人物角色进行接地处理，使 AI 代理能更好地适应特定文化场景，显著提升在生产环境中的可用性。技术上，这依赖于合成数据生成来模拟真实人口统计特征，降低了收集敏感真实数据的合规风险，标志着 AI 开发从通用模型向特定文化语境微调的转变。",
-    "tags": [
-      "Dev",
-      "AI Agents",
-      "Nvidia"
-    ],
-    "link": "https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas",
-    "date": "2026-04-21",
-    "id": "17767393572290"
-  },
-  {
-    "title": "AI 爬虫流量达 6800 万次，重塑搜索可见性逻辑",
-    "summary": "Search Engine Journal 数据显示 6800 万次 AI 爬虫访问，揭示驱动 AI 搜索可见性的关键因素。",
-    "detail": "**数据洞察**：最新数据显示，AI 爬虫访问量已达到 6800 万次级别。这一庞大流量表明，针对 AI 模型的搜索优化（AIO）已成为数字营销的新战场。\n\n**技术趋势**：传统 SEO 策略可能不再完全适用。内容需要更结构化以便 AI 抓取和理解。驱动 AI 搜索可见性的因素可能包括内容的权威性、数据的清晰度以及语义关联性。\n\n**营销建议**：企业和开发者需关注 AI 爬虫的行为模式，优化内容策略以适应 AI 搜索算法。这不仅是流量获取问题，更是品牌在 AI 驱动的信息分发网络中保持可见性的关键生存技能。",
-    "tags": [
-      "Dev",
-      "SEO",
-      "Traffic"
-    ],
-    "link": "https://www.searchenginejournal.com/68-million-ai-crawler-visits-show-what-drives-ai-search-visibility/572386/",
-    "date": "2026-04-20",
-    "id": "17768112816203"
-  },
-  {
-    "title": "Cloudflare 大规模 AI 代码审查实践",
-    "summary": "Cloudflare 分享基于 OpenCode 构建 AI 代码审查编排系统经验。",
-    "detail": "Cloudflare 工程团队面临代码审查瓶颈，内部项目中位等待时间长达数小时。传统 AI 工具缺乏灵活性，简单提示词导致大量噪音和幻觉。团队决定基于开源 agent OpenCode 构建 CI 原生编排系统，而非单体 agent。该系统允许高度定制，适应大型组织需求。此实践为大型企业落地 AI 代码审查提供了参考架构，强调了定制化编排的重要性，有效解决了复杂代码库中简单总结方法导致的幻觉和噪音问题，显著提升工程效率。通过自动化流程，减少了人工上下文切换，为行业展示了规模化 AI 代码审查的可行路径。",
-    "tags": [
-      "Dev",
-      "Cloudflare",
-      "Code Review"
-    ],
-    "link": "https://blog.cloudflare.com/ai-code-review/",
-    "date": "2026-04-20",
-    "id": "17767846124030"
-  },
-  {
-    "title": "AI 配额通胀现象分析：并非偶然而是系统性问题",
-    "summary": "The Register 发文指出 AI 配额通胀并非代币努力，而是内置的系统性现象。",
-    "detail": "行业媒体 The Register 发表深度分析，探讨 AI 服务中的配额通胀问题。文章指出这并非简单的 token 消耗努力，而是商业模式中“内置”的特性。随着 AI 需求增长，配额限制与通胀机制可能成为用户成本增加的关键因素。这反映了 AI 基础设施商业化过程中的潜在风险与定价策略调整，暗示供应商可能通过隐性通胀调整实际服务价值。对于企业用户而言，理解这一机制对于预算规划和供应商谈判至关重要，揭示了 AI 经济模型中尚未被充分讨论的可持续性挑战。此类现象可能影响中小企业对 AI 技术的采用意愿，促使市场寻求更透明的计费模式。",
-    "tags": [
-      "News",
-      "Industry",
-      "Cost"
-    ],
-    "link": "https://www.theregister.com/2026/04/20/inflation_ai_quota/",
-    "date": "2026-04-20",
-    "id": "17767393572291"
   }
 ]
