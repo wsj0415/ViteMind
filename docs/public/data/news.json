@@ -1,5 +1,44 @@
 [
   {
+    "title": "AI 生成垃圾漏洞报告泛滥，众测平台不堪重负",
+    "summary": "厂商被 AI 生成的漏洞报告淹没，导致奖金计划退出",
+    "detail": "**现象**：漏洞悬赏平台充斥着 AI 生成的低质量报告、代码和利用脚本。**后果**：厂商无法处理大量垃圾信息，部分被迫退出计划。**影响**：报告处理时间从 2 周延长至 2-3 个月，严重影响了白帽黑客的效率和生态健康，显示了 AI 滥用对安全工作的负面影响。",
+    "tags": [
+      "News",
+      "Security",
+      "Bug Bounty"
+    ],
+    "link": "https://xcancel.com/vxunderground/status/2047169024748929390",
+    "date": "2026-04-23",
+    "id": "17769427868241"
+  },
+  {
+    "title": "美国议员提案禁止儿童玩具中使用 AI 聊天机器人",
+    "summary": "Blake Moore 议员引入法案，旨在保护儿童隐私安全",
+    "detail": "**事件**：美国众议员 Blake Moore 提出法案，禁止在儿童玩具中集成 AI 聊天机器人。**背景**：随着 AI 玩具普及，数据隐私和安全担忧加剧。**影响**：若通过，将限制 AI 硬件在儿童市场的扩张，促使厂商重新设计合规产品，标志着监管层开始关注 AI 在未成年人领域的应用风险。",
+    "tags": [
+      "News",
+      "Policy",
+      "Regulation"
+    ],
+    "link": "https://blakemoore.house.gov/media/press-releases/congressman-blake-moore-introduces-bill-to-ban-artificial-intelligence-chatbots-in-childrens-toys",
+    "date": "2026-04-23",
+    "id": "17769427868242"
+  },
+  {
+    "title": "Anthropic 测试移除 Pro 计划 Claude Code 访问权限",
+    "summary": "平价订阅可能终结，代理式 AI 工具成本高昂",
+    "detail": "**动态**：Anthropic 测试将 Claude Code 从 20 美元 Pro 计划中移除，需升级更高套餐。**原因**：代理式 AI 工作负载远高于对话模型，平价订阅经济模型不可持续。**影响**：标志着 AI 定价策略转折，开发者需预期成本上升，扁平化订阅时代可能结束，行业将转向分层定价。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "Pricing"
+    ],
+    "link": "https://www.europesays.com/ai/13666/",
+    "date": "2026-04-23",
+    "id": "17769427868243"
+  },
+  {
     "title": "Cortex Auth：专为 AI Agent 设计的 Rust 密钥管理工具",
     "summary": "基于 Rust 的轻量级密钥库，支持 AI Agent 运行时安全注入配置。",
     "detail": "**产品定位**：专为 AI Agent 和自动化管道设计的 secrets vault，解决密钥管理难题。**技术亮点**：采用 Rust 编写确保内存安全，支持 AES-256-GCM 加密存储，通过 JWT 认证 Agent 身份，防止未授权访问。**核心价值**：允许在运行时动态注入环境变量，避免硬编码密钥，解决了 Agent 自主运行时的安全管理痛点，适合开发者集成到自动化流程中，提升工程安全性。**适用场景**：特别适合需要长期运行且自主决策的 AI Agent 项目，降低泄露风险。**社区反馈**：目前已在 GitHub 开源，提供中文文档，便于开发者快速集成与二次开发，推动 Agent 安全标准建立。",
@@ -180,6 +219,19 @@
     "link": "https://github.com/tencentcloud/CubeSandbox",
     "date": "2026-04-23",
     "id": "17769122553303"
+  },
+  {
+    "title": "Atlas-CE 基准测试揭穿 MemPalace 虚假宣传",
+    "summary": "实测显示 MemPalace 基准造假，Atlas-CE 准确性更高",
+    "detail": "**背景**：传闻称 Milla Jovovich 发布的免费 AI 记忆系统 MemPalace 在 LongMemEval 上得分为 100%。**核心发现**：实测发现其 100% 得分基于 R@50 指标，实际 R@1 仅为 0.806。Atlas-CE 在高精度模式下 R@1 达 0.944。**影响**：揭示了基准测试中的指标误导问题，强调了确定性对话记忆检索的重要性。",
+    "tags": [
+      "Dev",
+      "RAG",
+      "Benchmark"
+    ],
+    "link": "https://atlas-rag.com/vs-mempalace",
+    "date": "2026-04-22",
+    "id": "17769427868240"
   },
   {
     "title": "Anthropic 核心模型 Mythos 遭黑客泄露",
@@ -1053,6 +1105,19 @@
     "id": "17768256775774"
   },
   {
+    "title": "数据工程师如何克服对 AI 编码代理的怀疑",
+    "summary": "构建 AI 上下文层，将怀疑转化为自愈管道解决方案",
+    "detail": "**观点**：作者曾怀疑 AI 代理，因幻觉和代码不可审查。**转折**：问题在于缺乏上下文，而非代理本身。**方案**：构建 AI 上下文层，使用开源工具实现自愈管道。**影响**：为数据工程团队提供采用 AI 的实用框架，强调上下文管理是成功关键，而非盲目信任或拒绝。",
+    "tags": [
+      "Dev",
+      "Data Engineering",
+      "Best Practice"
+    ],
+    "link": "https://getbruin.com/blog/ai-skepticism-in-data-engineering/",
+    "date": "2026-04-21",
+    "id": "17769427868244"
+  },
+  {
     "title": "MIT 科技评论：揭示当前 AI 领域最重要的 10 件事",
     "summary": "MIT 发布圆桌报告，剖析 AI 技术演进、伦理及商业化关键议题。",
     "detail": "MIT Technology Review 发布最新圆桌报告，深度剖析当前 AI 领域最关键的 10 个议题。内容涵盖大模型技术演进、行业伦理规范、商业化落地难点及未来监管趋势。报告旨在帮助从业者在信息过载的环境中筛选高价值信号，避免盲目跟风。对于企业决策者和技术团队，这份清单提供了权威的战略参考，强调从概念炒作转向实际生产力提升的重要性，指出了 2026 年 AI 发展的核心风向标与关键落地路径。",
@@ -1233,70 +1298,5 @@
     "link": "https://educatedguesser.substack.com/p/running-faster-to-go-nowhere-the",
     "date": "2026-04-21",
     "id": "17768081186583"
-  },
-  {
-    "title": "Bond：基于记忆发现的新型 AI 社交网络",
-    "summary": "主打记忆捕捉与发现连接的 AI 社交应用，通过极化照片风格界面探索新连接。",
-    "detail": "Bond 是一款新型 AI 社交网络应用，主打将用户记忆转化为新发现的核心体验。界面采用极化照片风格，营造怀旧与探索氛围。功能涵盖捕捉、分享、发现、连接与探索五大模块，旨在通过 AI 技术重新定义社交互动方式。用户可记录生活片段，系统辅助发现潜在连接与兴趣点。目前支持 iOS 下载，产品处于早期阶段。该应用试图在过度算法化的社交环境中找回人与人之间的真实联系，通过记忆驱动的发现机制，为社交网络赛道带来了差异化的创新思路。其设计理念强调深度连接而非浅层点赞，适合寻求高质量社交体验的用户群体尝试，代表了 AI 社交应用的新探索方向。",
-    "tags": [
-      "New",
-      "Social",
-      "App"
-    ],
-    "link": "https://www.bond.now/",
-    "date": "2026-04-21",
-    "id": "17768081186584"
-  },
-  {
-    "title": "Cube Sandbox：轻量级高并发 AI 代理沙箱环境",
-    "summary": "支持微秒级启动与硬件隔离的沙箱方案，兼容 E2B SDK，适合大规模 Agent 部署。",
-    "detail": "Cube Sandbox 是由腾讯云支持的轻量级 AI 代理沙箱环境，主打即时启动与高并发安全性。采用微虚拟机（MicroVM）实现硬件隔离，支持快照克隆技术消除冷启动开销。兼容 E2B SDK，开发者仅需修改环境变量即可迁移。基于 eBPF 的网络安全策略确保沙箱间严格隔离，支持每服务器数千实例的高密度部署。文档提供快速开始与自建部署指南，适合需要大规模运行不可信代码或隔离 Agent 执行环境的开发者。其状态管理功能支持检查点与恢复，便于并行开发与多版本测试，是构建安全、高效 AI 基础设施的重要开源组件，显著降低了 Agent 部署的运维复杂度与成本。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "Security"
-    ],
-    "link": "https://docs.cubesandbox.ai/",
-    "date": "2026-04-21",
-    "id": "17768081186585"
-  },
-  {
-    "title": "苹果新任 CEO 面临 AI 战略与监管挑战",
-    "summary": "苹果新任 CEO 面临 AI 战略、监管及隐私挑战，库克时代结束。",
-    "detail": "苹果现任 CEO 蒂姆·库克即将卸任，硬件主管**约翰·特努斯**将接任这一职位。库克任内苹果市值增长显著，但也面临监管、隐私及中国市场的复杂挑战。特努斯继承的局面包括与 FBI 的加密之争、应用商店垄断诉讼以及**Vision Pro**的市场遇冷。尤为关键的是，苹果在**AI 领域**的布局尚未完全明朗，新 CEO 需在激烈的 AI 竞争中制定有效战略，这将直接影响全球科技巨头在人工智能时代的竞争格局与产品走向。此外，如何在保护用户隐私的前提下整合生成式 AI 功能，将是其面临的核心技术难题之一，行业关注度极高。",
-    "tags": [
-      "News",
-      "Apple",
-      "CEO"
-    ],
-    "link": "https://techcrunch.com/2026/04/21/apples-john-ternus-will-run-one-of-the-worlds-most-powerful-companies-the-job-is-a-minefield/",
-    "date": "2026-04-21",
-    "id": "17768049881830"
-  },
-  {
-    "title": "Clarifai 因 FTC 和解删除 300 万张训练照片",
-    "summary": "因 FTC 和解，Clarifai 删除 300 万张 OkCupid 人脸训练数据。",
-    "detail": "人脸识别公司**Clarifai**与 FTC 达成和解，将删除从约会应用**OkCupid**获取的 300 万张照片。这些照片曾被用于训练其面部识别 AI 模型，涉及用户隐私违规。此次事件凸显了生物识别数据收集与使用的法律风险。FTC 的干预标志着监管机构对**AI 训练数据**来源合规性的审查收紧，迫使行业重新审视数据获取流程，对依赖大规模数据训练的计算机视觉公司产生深远影响。未来企业需更注重数据授权链条的完整性，以避免类似的法律制裁与声誉损失，合规成本可能上升。",
-    "tags": [
-      "News",
-      "Privacy",
-      "FTC"
-    ],
-    "link": "https://techcrunch.com/2026/04/21/clarifai-okcupid-facial-recognition-ai-ftc-settlement/",
-    "date": "2026-04-21",
-    "id": "17768049881831"
-  },
-  {
-    "title": "n8n 教程详解 AI Agent 性能评估方法",
-    "summary": "n8n 教程详解非确定性 AI 代理评估方法，解决幻觉及工具调用问题。",
-    "detail": "基于**LLM**的 AI 代理具有非确定性，传统软件测试方法无法有效评估其性能。**n8n 博客**指出，开发者需评估代理的执行轨迹而非仅看最终输出，同时定义音调、帮助性等主观质量标准。此外，模型升级可能导致性能退化，需进行持续测试。该指南提供了系统化的评估框架，帮助开发者识别幻觉、工具调用错误及冗余步骤，是构建可靠**AI 代理**系统的重要技术参考。对于希望将 AI 集成到生产环境的企业，建立此类评估流水线是确保服务稳定性的关键步骤。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Tutorial"
-    ],
-    "link": "https://blog.n8n.io/how-to-evaluate-the-performance-of-ai-agents/",
-    "date": "2026-04-21",
-    "id": "17768049881832"
   }
 ]
