@@ -1,5 +1,44 @@
 [
   {
+    "title": "Viscacha：零基础设施的 AI 工作流任务系统",
+    "summary": "专为 AI 管道设计的崩溃安全、零基础设施后台任务系统，支持可重试与全链路追踪。",
+    "detail": "Viscacha 是一个专为函数和 AI 管道设计的后台任务系统。其核心价值在于“零基础设施”架构，开发者无需管理复杂的服务器资源即可部署任务。系统具备崩溃安全（crashsafe）特性，确保在意外中断时数据不丢失，并支持自动重试机制，提高了 AI 工作流的稳定性。此外，全链路追踪功能让开发者能够清晰监控任务状态。对于构建依赖复杂推理步骤的 AI 应用而言，这种轻量级且高可靠的基础设施方案能显著降低运维成本。在当前 AI 应用开发中，长链路任务管理是痛点，Viscacha 通过简化架构，让团队更专注于业务逻辑而非运维，其可重试特性特别适合不稳定的 LLM 调用场景，是 AI 工程化落地的重要工具补充。",
+    "tags": [
+      "Dev",
+      "AI Infrastructure",
+      "GitHub"
+    ],
+    "link": "https://github.com/skylarm-b/viscacha",
+    "date": "2026-04-23",
+    "id": "17769224622810"
+  },
+  {
+    "title": "MartinLoop：自主 AI 编码代理的控制平面",
+    "summary": "为自主 AI 编码代理提供的受控运行时，旨在解决无边界代理带来的风险，确保治理与安全。",
+    "detail": "MartinLoop 定位为自主 AI 编码代理的“控制平面”。随着 AI Agent 能力增强，无边界运行带来的风险日益凸显。该项目提供一个受治理的运行时环境（governed runtime），旨在确保代理在安全范围内执行代码。基于 TypeScript 和 Node.js 构建，它试图解决代理失控问题。这对于企业级应用至关重要，因为在引入自主编码代理时，安全与合规是首要考量。MartinLoop 的出现反映了行业从单纯追求 Agent 能力转向关注可控性与安全性的趋势，为大规模部署 AI 员工提供了基础设施保障。它标志着 AI 开发工具链正走向成熟，不再仅仅是实验性玩具，而是需要纳入企业治理框架的生产力工具，解决开发者对自主代理失控的担忧。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Security"
+    ],
+    "link": "https://github.com/Keesan12/martin-loop",
+    "date": "2026-04-23",
+    "id": "17769224622811"
+  },
+  {
+    "title": "AI 时代下的治理危机：澳洲企业董事会缺乏技术专家",
+    "summary": "研究发现澳洲最大 500 家公司中超半数董事会无 STEM 专家，难以应对 AI 带来的战略与风险挑战。",
+    "detail": "该文章基于对澳洲证券交易所最大 500 家公司的研究，揭示了 AI 时代企业治理的滞后性。数据显示，从 2007 年到 2022 年，董事会中拥有 STEM 专家的董事比例增长微乎其微，超过半数董事会缺乏技术专家。在 AI 重塑商业模式和投资决策的背景下，这种缺失导致董事会难以理解新技术风险或制定有效战略。研究强调，董事会成员必须具备监督复杂技术风险的能力。这一发现对全球企业具有警示意义，表明若不及时调整董事会结构，企业可能在 AI 转型中因决策失误而落后，凸显了技术治理人才短缺的行业性危机，呼吁企业重视董事会技术背景多元化以应对变革。",
+    "tags": [
+      "News",
+      "Governance",
+      "Enterprise AI"
+    ],
+    "link": "https://theconversation.com/in-the-age-of-ai-why-do-australian-company-boards-have-so-few-technology-experts-279752",
+    "date": "2026-04-23",
+    "id": "17769224622812"
+  },
+  {
     "title": "朝鲜黑客利用 AI 工业化攻击开发者",
     "summary": "Expel 揭露朝鲜黑客组织利用 GenAI 工具窃取加密货币，3 个月损失 1200 万美元。",
     "detail": "Expel 安全团队发布报告，揭露朝鲜黑客组织 HexagonalRodent 利用生成式 AI 工具（如 Cursor、ChatGPT）工业化攻击 Web3 开发者。该组织在 3 个月内窃取价值 1200 万美元的加密货币。此事件标志着国家支持的黑客活动开始规模化滥用 AI 技术，显著降低了攻击门槛。报告建议开发者启用硬件安全密钥以限制损失。这不仅是技术威胁，更是地缘政治风险在网络安全领域的延伸，警示行业需加强 AI 滥用监控。",
@@ -1259,44 +1298,5 @@
     "link": "https://octokraft.com/blog/heritage-vs-ai-24-open-source-projects/",
     "date": "2026-04-21",
     "id": "17767989699945"
-  },
-  {
-    "title": "Memora 本地优先 AI 会议助手",
-    "summary": "支持 MCP 集成的本地优先会议助手，保护隐私的同时记录会议细节。",
-    "detail": "新产品 Memora 正式推出，主打本地优先（Local-first）的 AI 会议助理功能，强调数据隐私安全。它集成了 MCP（Model Context Protocol），能在不泄露数据到云端的情况下记录、转录并记忆会议细节。用户可随时查询历史会议共识和行动项，解决信息碎片化问题。对于注重数据隐私的企业和专业人士，这是一个兼具便利性与安全性的新选择，展示了本地化 AI 应用在生产力工具领域的潜力。",
-    "tags": [
-      "New",
-      "Privacy",
-      "Productivity"
-    ],
-    "link": "https://appmemora.pages.dev",
-    "date": "2026-04-21",
-    "id": "17767989699946"
-  },
-  {
-    "title": "Meta 将收集员工鼠标键盘数据用于 AI 训练",
-    "summary": "Meta 计划捕获员工鼠标移动和击键数据，引发隐私争议。",
-    "detail": "### 事件背景\n路透社独家报道，Meta 计划开始捕获员工的鼠标移动和击键数据，用于 AI 模型训练。\n### 核心影响\n此举旨在利用内部员工行为数据优化 AI 交互体验，但引发了严重的隐私担忧和伦理争议。这是科技巨头在数据边界上的又一次试探，可能招致监管审查。\n### 行业启示\n企业需在 AI 数据获取与员工隐私保护之间寻找平衡，透明化的数据政策将成为关键。",
-    "tags": [
-      "News",
-      "Meta",
-      "Privacy"
-    ],
-    "link": "https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-for-ai-training-data-2026-04-21/",
-    "date": "2026-04-21",
-    "id": "17767911153430"
-  },
-  {
-    "title": "谷歌内部政治致其在 AI 编码领域落后",
-    "summary": "彭博社指出谷歌因内部政治斗争，在 AI 编码工具上落后于竞争对手。",
-    "detail": "### 事件背景\n彭博社分析称，谷歌内部的政治斗争阻碍了其在 AI 编码工具领域的进展，导致其在与竞争对手的较量中处于劣势。\n### 核心问题\n复杂的内部决策流程和部门壁垒延缓了产品迭代速度，使得外部初创公司得以抢占先机。\n### 行业影响\n这表明即使是科技巨头，组织效率也是决定 AI 落地速度的关键因素。谷歌需调整内部结构以重获竞争力。",
-    "tags": [
-      "News",
-      "Google",
-      "Industry"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-04-21/google-struggles-to-gain-ground-in-ai-coding-as-rivals-advance",
-    "date": "2026-04-21",
-    "id": "17767911153431"
   }
 ]
