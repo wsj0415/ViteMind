@@ -1,5 +1,57 @@
 [
   {
+    "title": "朝鲜黑客利用 AI 工业化攻击开发者",
+    "summary": "Expel 揭露朝鲜黑客组织利用 GenAI 工具窃取加密货币，3 个月损失 1200 万美元。",
+    "detail": "Expel 安全团队发布报告，揭露朝鲜黑客组织 HexagonalRodent 利用生成式 AI 工具（如 Cursor、ChatGPT）工业化攻击 Web3 开发者。该组织在 3 个月内窃取价值 1200 万美元的加密货币。此事件标志着国家支持的黑客活动开始规模化滥用 AI 技术，显著降低了攻击门槛。报告建议开发者启用硬件安全密钥以限制损失。这不仅是技术威胁，更是地缘政治风险在网络安全领域的延伸，警示行业需加强 AI 滥用监控。",
+    "tags": [
+      "News",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://expel.com/blog/inside-lazarus-how-north-korea-uses-ai-to-industrialize-attacks-on-developers/",
+    "date": "2026-04-23",
+    "id": "17769122553300"
+  },
+  {
+    "title": "Hermes Agent：可自我进化的开源 AI 代理",
+    "summary": "Nous Research 推出本地部署自主 Agent，具备持久记忆与多平台交互能力。",
+    "detail": "Nous Research 推出 Hermes Agent，一款开源自主 AI 代理。它支持本地部署，具备持久记忆和自动生成技能能力，可通过 Telegram、Slack 等多平台交互。基于 MIT 许可，支持 Docker 等沙箱后端，旨在成为长期运行且不断进化的个人助手，而非简单的 IDE 插件。其核心优势在于“越用越聪明”，通过记忆机制解决传统 Agent 上下文丢失问题，为本地化 AI 部署提供新范式。",
+    "tags": [
+      "New",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://hermes-agent.nousresearch.com",
+    "date": "2026-04-23",
+    "id": "17769122553301"
+  },
+  {
+    "title": "TokenPinch：本地文件压缩节省 AI Token",
+    "summary": "新工具将 Excel/CSV 转换为优化格式，本地处理数据，显著降低 LLM 成本。",
+    "detail": "TokenPinch 推出本地文件压缩工具，专为 AI 交互设计。支持 Excel、CSV 等格式转换为优化的.pinch 格式，显著减少 LLM Token 消耗。数据在浏览器本地处理，保障隐私。适用于需要频繁向 Claude、ChatGPT 投喂结构化数据以降低成本的开发者和用户。通过表记符号优化和命名空间剥离，该工具能有效提升大模型处理长文本的效率，是成本敏感型项目的实用辅助。",
+    "tags": [
+      "Dev",
+      "Tool",
+      "CostOptimization"
+    ],
+    "link": "https://tokenpinch.com",
+    "date": "2026-04-23",
+    "id": "17769122553302"
+  },
+  {
+    "title": "腾讯云开源 CubeSandbox AI 代理沙箱",
+    "summary": "腾讯发布轻量级安全沙箱，解决 AI Agent 代码执行风险与资源管理问题。",
+    "detail": "腾讯云开源 CubeSandbox，专为 AI 代理设计的轻量级沙箱环境。支持即时并发、安全隔离，提供 Docker、SSH 等多种后端。旨在解决 AI Agent 执行代码时的安全风险与资源管理问题，为开发者构建可靠的 Agent 基础设施，促进企业级 AI 应用落地。作为大厂开源项目，其稳定性和安全性经过内部验证，有助于统一行业标准，降低 Agent 开发中的环境配置复杂度。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "Tencent"
+    ],
+    "link": "https://github.com/tencentcloud/CubeSandbox",
+    "date": "2026-04-23",
+    "id": "17769122553303"
+  },
+  {
     "title": "AI-gile 宣言：AI 代理重塑软件开发流程",
     "summary": "提出新宣言，主张意图优于规范，验证优于确认，适应 AI 高速开发。",
     "detail": "该宣言借鉴 2001 年敏捷宣言，针对 2026 年 AI 代理开发环境提出新价值观，旨在命名最佳团队已在实践的工作方式。核心包括“意图优于规范”、“验证优于确认”、“人机协作优于个人效率”及“可逆性优于估算”。文章指出 AI 使代码生产成本降低 90 倍，传统冲刺、点数和估算等敏捷单元已失效。当工作可在午餐间隙完成，围绕其构建的日历便成空架。此宣言不退休敏捷，而是退休那些假设打字慢、上下文昂贵的部分。例如集成 Auth0 原本需六个月，现仅需两天。这对软件工程流程具有深远影响，标志着开发范式的根本转变。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.bloomberg.com/news/articles/2026-04-21/google-struggles-to-gain-ground-in-ai-coding-as-rivals-advance",
     "date": "2026-04-21",
     "id": "17767911153431"
-  },
-  {
-    "title": "Google Research 推出 ReasoningBank 增强代理记忆",
-    "summary": "谷歌开源新框架，使 AI 代理能从成功与失败经验中学习。",
-    "detail": "### 技术背景\nGoogle Research 发布 ReasoningBank，解决 AI 代理无法从过往经验中学习的局限。\n### 核心创新\n该框架不仅记录成功轨迹，还提炼失败经验中的推理模式，支持测试时自我进化。\n### 应用价值\n在网页浏览和软件工程基准测试中，显著提升了代理的成功率和效率，为长周期任务代理提供记忆基础。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Research"
-    ],
-    "link": "https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience/",
-    "date": "2026-04-21",
-    "id": "17767911153433"
-  },
-  {
-    "title": "Nobulex：为 AI 代理行为提供加密凭证",
-    "summary": "开源项目 Nobulex 通过加密哈希链验证 AI 代理行为合规性。",
-    "detail": "### 项目介绍\nNobulex 是一个 AI 代理问责原语，提供加密的行为承诺和无需信任的验证。\n### 核心技术\n通过声明规则、执行前检查和加密证明三步，生成防篡改的哈希链日志。\n### 安全意义\n解决了 AI 代理无法自证遵守规则的问题，适用于金融等高合规要求场景，增强代理间信任。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://github.com/arian-gogani/nobulex",
-    "date": "2026-04-21",
-    "id": "17767911153434"
-  },
-  {
-    "title": "Mitshe：为 AI 代理提供隔离的 Docker 工作空间",
-    "summary": "开源平台 Mitshe 为 AI 代理创建安全的隔离执行环境。",
-    "detail": "### 项目介绍\nMitshe 是一个开源平台，旨在为 AI 代理提供隔离的 Docker 工作空间。\n### 核心功能\n通过容器化技术确保代理在执行任务时无法访问宿主机的敏感资源，防止意外破坏或数据泄露。\n### 开发价值\n为开发者提供了安全的代理测试和生产环境，降低了部署自主 AI 系统的安全风险。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "Security"
-    ],
-    "link": "https://github.com/mitshe/mitshe",
-    "date": "2026-04-21",
-    "id": "17767911153435"
-  },
-  {
-    "title": "Vibe Guard：Claude Code 代码审计技能集",
-    "summary": "专为 Claude Code 设计的三重审计技能，推送前捕捉漏洞。",
-    "detail": "该项目提供一组 Claude Code 技能，在会话结束时执行生产韧性、安全漏洞和代码理解三重审计。旨在解决 AI 生成代码在生产环境崩溃、留安全后门及逻辑不可控的问题。通过自动化审计流程，帮助开发者在推送前识别潜在风险，提升 AI 辅助编程的安全性。技能包括 `/vibe-check` 检查生产韧性，`/vibe-secure` 检查安全漏洞，以及 `/vibe-explain` 检查代码认知债务。这是针对 AI 编程盲点的有效防御工具，适合注重代码质量的团队集成到工作流中。",
-    "tags": [
-      "Dev",
-      "Claude",
-      "Security"
-    ],
-    "link": "https://github.com/codecoincognition/vibe-guard-skills",
-    "date": "2026-04-21",
-    "id": "17767846124031"
   }
 ]
