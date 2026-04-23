@@ -1,5 +1,83 @@
 [
   {
+    "title": "OpenAI 发布 GPT-5.5，迈向 AI“超级应用”",
+    "summary": "OpenAI 推出 GPT-5.5 模型，进一步整合功能向超级应用迈进。",
+    "detail": "根据 TechCrunch 报道，OpenAI 正式发布了 GPT-5.5 模型，标志着其在构建 AI 超级应用生态上的关键一步。此次更新旨在将 ChatGPT 打造为全能平台，进一步整合多种功能。虽然具体技术参数未在片段中详述，但标题暗示了模型能力的显著升级。行业观察认为，这将加剧大模型厂商之间的竞争，推动 AI 应用从单一功能向综合性服务平台转型，开发者需密切关注其 API 变化及新能力集成。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
+    "date": "2026-04-23",
+    "id": "17769717225170"
+  },
+  {
+    "title": "谷歌高管：几乎所有大型游戏工作室都在使用 AI",
+    "summary": "谷歌高管披露各大游戏工作室普遍使用 AI 技术，但部分未公开。",
+    "detail": "谷歌高管近日透露，几乎每家大型游戏工作室已在开发流程中整合 AI 技术，尽管并非所有公司都公开披露。这一言论揭示了 AI 在游戏产业中的渗透率远超公众认知。背景在于生成式 AI 大幅降低了资产制作成本。行业影响深远，可能引发关于创意归属、劳动力结构变化及披露透明度的新一轮讨论与监管关注。玩家喜爱的游戏可能早已包含 AI 生成内容。",
+    "tags": [
+      "News",
+      "Google",
+      "Gaming"
+    ],
+    "link": "https://www.videogameschronicle.com/news/their-favourite-games-were-already-built-with-ai-google-exec-says-almost-every-studio-uses-ai-but-not-all-disclose-it/",
+    "date": "2026-04-23",
+    "id": "17769717225171"
+  },
+  {
+    "title": "Voxyflow：自主规划与代码交付的 AI 伴侣",
+    "summary": "开源项目 Voxyflow 提供自主代理团队，协助规划与交付代码。",
+    "detail": "Voxyflow 是一款新兴的开源 AI 伴侣工具，旨在充当自主开发团队。用户只需用自然语言描述目标，Voxy 即可分解任务卡片并委托给自主代理并行执行。支持项目上下文记忆、RAG 索引及语音控制。该项目处于公开构建阶段，强调实时迭代。它为开发者提供了新的自动化工作流思路，适合希望探索 Agent 自主执行能力的技术团队尝试。代码开源，欢迎贡献。",
+    "tags": [
+      "New",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://voxyflow.snaf.foo",
+    "date": "2026-04-23",
+    "id": "17769717225172"
+  },
+  {
+    "title": "揭秘 AI 代理：50 行 Python 代码实现多步代理",
+    "summary": "教程详解如何用 50 行 Python 代码构建基于 LLM 的多步代理。",
+    "detail": "这篇技术文章深入剖析了基于 LLM 的 AI 代理构建过程，仅需 50 行 Python 代码即可实现多步代理功能。内容涵盖系统提示词设计、代理框架搭建及命令执行逻辑。作者还讨论了当前代理技术的优缺点及局限性。对于希望深入理解 Agent 底层原理而非仅调用 API 的开发者而言，这是一份极具价值的实战指南，有助于降低开发门槛，理解核心架构。",
+    "tags": [
+      "Dev",
+      "Python",
+      "Tutorial"
+    ],
+    "link": "https://marvin.damschen.net/post/llm-based-agents/",
+    "date": "2026-04-23",
+    "id": "17769717225173"
+  },
+  {
+    "title": "MurphySig：AI 协作代码的 90 天实地报告",
+    "summary": "开发者分享使用 MurphySig 规范标记 AI 协作代码的实践经验。",
+    "detail": "开发者 Kev Murphy 发布了关于 MurphySig 的 90 天实地报告，这是一种专为 AI 协作代码设计的签名规范。该方案通过在文件顶部添加结构化注释块，明确记录人类作者、使用的 AI 模型版本及代码置信度，有效解决了混合开发中的归属模糊问题。无需依赖复杂工具，仅靠约定即可让人类与 AI 助手理解代码背景与潜在风险。这对提升 AI 生成代码的可维护性、透明度及团队协作效率具有重要参考价值。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Tool"
+    ],
+    "link": "https://murphysig.dev/launch/",
+    "date": "2026-04-23",
+    "id": "17769717225174"
+  },
+  {
+    "title": "AgentSearch：无需 API 密钥的自托管搜索 MCP 服务",
+    "summary": "开源项目 AgentSearch 提供自托管搜索 API，替代 Tavily 等服务。",
+    "detail": "AgentSearch 是一个开源的自托管搜索 API 及 MCP 服务器，专为 AI 代理设计。它捆绑了 SearXNG，无需 API 密钥即可部署，提供去重、多引擎的 LLM 原生搜索输出。作为 Tavily 和 Exa 的开源替代方案，它解决了供应商锁定和配额限制问题。只需一条 Docker 命令即可启动，非常适合注重数据隐私和成本控制的开发者集成到本地 Agent 工作流中，支持结构化 JSON 输出。",
+    "tags": [
+      "Dev",
+      "Search",
+      "OpenSource"
+    ],
+    "link": "https://github.com/brcrusoe72/agent-search",
+    "date": "2026-04-23",
+    "id": "17769717225175"
+  },
+  {
     "title": "MeshCore 团队因 AI 代码透明度与商标纠纷分裂",
     "summary": "团队成员因秘密使用 AI 生成代码及商标争议分道扬镳。",
     "detail": "MeshCore 开发团队发生严重分裂，核心成员 Andy Kirby 被指秘密使用 Claude Code 生成大部分代码（\"vibe coded\"），并未告知团队，违背了团队手工打造固件的初衷。此外，其在未协商情况下申请商标引发信任危机。社区投票显示用户对 AI 生成固件信任度极低。此事件凸显了开源项目中 AI 代码使用的伦理与透明度问题，警示团队需明确 AI 使用政策，否则将破坏协作信任基础与技术可靠性。随着 AI 编程普及，如何界定“人类创作”与\"AI 生成”的边界，以及如何建立相应的披露机制，将成为开源社区面临的新挑战。",
@@ -1220,83 +1298,5 @@
     "link": "https://agt.pub",
     "date": "2026-04-22",
     "id": "17768357380212"
-  },
-  {
-    "title": "开发者实测：AI 编程代理存在决策犹豫问题",
-    "summary": "使用 Claude Opus 4.6 修复 Bug 时，代理在多种方案间反复横跳，效率待提升。",
-    "detail": "**现象**：开发者在修复 GoAWK bug 时发现 AI 代理虽能诊断问题，但在修复方案上犹豫不决，表现出明显的不确定性，反复修改建议。**细节**：在 7 种方案间切换 25 次，最终建议虽正确但过程冗长，消耗大量时间，需人工取消。**启示**：当前 Coding Agent 在复杂逻辑决策上仍不稳定，需人工干预确认，完全自主编程尚需时日，开发者需警惕过度依赖代理导致的效率陷阱，人工复核依然关键，提示工程需优化以减少摇摆。",
-    "tags": [
-      "Dev",
-      "Coding Agent",
-      "LLM"
-    ],
-    "link": "https://benhoyt.com/writings/indecisive-ai-agent/",
-    "date": "2026-04-22",
-    "id": "17768357380213"
-  },
-  {
-    "title": "Meta 将监控员工按键与鼠标轨迹训练 AI",
-    "summary": "Meta 计划追踪员工点击和击键数据用于 AI 模型训练，引发隐私争议。",
-    "detail": "Meta 宣布将开始收集员工的鼠标移动和击键数据，旨在优化内部 AI 模型。此举引发了关于员工隐私和数据伦理的广泛讨论。作为科技巨头，Meta 的数据采集策略可能成为行业风向标，同时也面临着合规与信任的巨大挑战。业界观察家认为，这可能促使其他公司效仿或引发更严格的监管审查。开发者需关注此类数据使用政策的变化，特别是在构建企业级 AI 应用时，需权衡数据效用与隐私保护之间的界限，避免触碰法律红线。此外，这种内部数据的利用方式也可能影响公众对 AI 训练数据来源透明度的期待，推动行业建立更明确的数据采集标准。",
-    "tags": [
-      "News",
-      "Meta",
-      "Privacy"
-    ],
-    "link": "https://techcrunch.com/2026/04/21/meta-will-record-employees-keystrokes-and-use-it-to-train-its-ai-models/",
-    "date": "2026-04-22",
-    "id": "17768256775770"
-  },
-  {
-    "title": "Apple 收紧 App Store 政策打击 Cal AI",
-    "summary": "Apple 对 Cal AI 的打压表明其仍在严格监管 App Store 生态。",
-    "detail": "TechCrunch 报道指出，Apple 近期对 Cal AI 应用采取了限制措施，信号表明其并未放松对 App Store 的管控。这对于依赖平台分发的 AI 初创企业而言是一个重要警示。政策的不确定性可能影响 AI 应用在 iOS 生态内的创新与部署，开发者需密切关注合规要求。此次事件反映出平台方与 AI 开发者之间的博弈仍在继续，建议在开发初期就充分评估平台政策风险，避免后期因合规问题导致产品下架，影响用户增长与商业变现。同时，这也可能促使开发者探索跨平台或 Web 端部署方案，以减少对单一应用商店的依赖，增强业务韧性。",
-    "tags": [
-      "News",
-      "Apple",
-      "Policy"
-    ],
-    "link": "https://techcrunch.com/2026/04/21/apples-cal-ai-crackdown-signals-its-still-policing-the-app-store/",
-    "date": "2026-04-22",
-    "id": "17768256775771"
-  },
-  {
-    "title": "STELLA 发布 AI 代码安全基准测试排行榜",
-    "summary": "新基准测试评估主流 AI 模型在压力下的代码漏洞生成情况。",
-    "detail": "Atella AI 发布了 STELLA 代码安全排行榜，基准测试了 Gemini、Claude、Llama 等模型在压力场景下生成脆弱代码的概率。结果显示不同模型在 SQL 注入、硬编码凭证等风险上的表现差异显著。这为开发者选择编码辅助模型提供了安全维度的参考依据，强调了 AI 编码的安全风险。测试涵盖了多种常见漏洞类型，如跨站脚本和路径遍历，揭示了当前模型在安全编码方面的不足，建议团队在引入 AI 编程助手时加强代码审查流程。该排行榜不仅展示了模型能力，也暴露了当前 AI 生成代码在安全领域的薄弱环节，推动模型厂商优化安全对齐。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Benchmark"
-    ],
-    "link": "https://leaderboard.atella.ai/code-security.html",
-    "date": "2026-04-22",
-    "id": "17768256775772"
-  },
-  {
-    "title": "Ascend：集成 AI 同步的四层 DevSecOps 框架",
-    "summary": "开源框架 Ascend 实现自动化扫描与 AI 驱动的部署后代码同步。",
-    "detail": "GitHub 上新发布的 Ascend 框架提供了一个四层 DevSecOps 解决方案，集成自动化安全扫描、构建网关及 AI 驱动的部署后代码同步。该项目旨在解决 CI/CD 流水线中速度与安全的矛盾，支持 Python 3.9+。对于希望强化流水线安全性的开发团队，这是一个值得关注的开源工具。其核心在于将安全扫描从被动报告转变为主动构建网关，并利用 AI 处理部署后的代码同步问题，有效减少了人工干预成本，提升了交付效率与安全性。项目文档提供了详细的部署指南，适合需要高合规性要求的企业级应用团队参考采用，助力实现安全左移的 DevOps 实践。",
-    "tags": [
-      "Dev",
-      "DevSecOps",
-      "OpenSource"
-    ],
-    "link": "https://github.com/venkatapgummadi/ascend",
-    "date": "2026-04-22",
-    "id": "17768256775773"
-  },
-  {
-    "title": "Layer 8：面向 AI 代理与嵌入式设备的新协调协议",
-    "summary": "EZThrottle 提出解决 AI 代理与设备间混乱通信的新协议方案。",
-    "detail": "随着 AI 代理和嵌入式设备激增，现有网络协议面临挑战。EZThrottle 提出了 Layer 8 协调协议概念，旨在实现从 Serverless 到 Operationless 的转变，解决设备间 API 调用的混乱与重试风暴问题。这对未来物联网与 AI 结合的基础设施架构具有重要的前瞻性意义。当前架构在处理海量设备并发请求时易导致服务器过载，新协议试图通过优化协调机制来降低延迟和能耗，为大规模 AI 代理部署提供必要的网络底层支持。创始人表示，随着推理成本下降，设备间通信将成为瓶颈，该协议试图在硬件优化之外寻找软件层面的突破解决方案。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "AI Agents"
-    ],
-    "link": "https://www.ezthrottle.network/blog/operationless-network-for-a-new-world-of-devices",
-    "date": "2026-04-22",
-    "id": "17768256775774"
   }
 ]
