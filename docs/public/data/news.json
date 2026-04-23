@@ -1,5 +1,44 @@
 [
   {
+    "title": "Cortex Auth：专为 AI Agent 设计的 Rust 密钥管理工具",
+    "summary": "基于 Rust 的轻量级密钥库，支持 AI Agent 运行时安全注入配置。",
+    "detail": "**产品定位**：专为 AI Agent 和自动化管道设计的 secrets vault，解决密钥管理难题。**技术亮点**：采用 Rust 编写确保内存安全，支持 AES-256-GCM 加密存储，通过 JWT 认证 Agent 身份，防止未授权访问。**核心价值**：允许在运行时动态注入环境变量，避免硬编码密钥，解决了 Agent 自主运行时的安全管理痛点，适合开发者集成到自动化流程中，提升工程安全性。**适用场景**：特别适合需要长期运行且自主决策的 AI Agent 项目，降低泄露风险。**社区反馈**：目前已在 GitHub 开源，提供中文文档，便于开发者快速集成与二次开发，推动 Agent 安全标准建立。",
+    "tags": [
+      "Dev",
+      "Rust",
+      "Security"
+    ],
+    "link": "https://github.com/davideuler/cortex-auth",
+    "date": "2026-04-23",
+    "id": "17769376735521"
+  },
+  {
+    "title": "AI Applyd：自动扫描职位并代投简历的 AI 代理",
+    "summary": "自动重写简历并通过云浏览器代投职位，旨在提高求职效率。",
+    "detail": "**功能概述**：该工具能自动扫描 LinkedIn 等 30+ 招聘板，根据职位重写简历，通过云浏览器提交。**工作流程**：用户设定目标角色后，AI 代理在后台运行，通过 ATS 检查并提交申请，提供截图验证。**创新点**：承诺“你睡觉它投递”，旨在减少求职者的重复劳动，但也引发了关于求职公平性的讨论。**市场定位**：面向急需求职的用户，采用免费首投策略吸引流量，后续可能转向订阅制，反映 AI 在垂直场景的落地趋势。**潜在风险**：需注意平台封禁风险及个人信息隐私保护，用户应谨慎授权敏感数据。",
+    "tags": [
+      "New",
+      "JobTech",
+      "Agent"
+    ],
+    "link": "https://aiapplyd.com/",
+    "date": "2026-04-23",
+    "id": "17769376735522"
+  },
+  {
+    "title": "geohot 发文质疑美国“赢得”AI 竞赛的社会代价",
+    "summary": "知名黑客 geohot 反思 AI 巨头竞争，倾向产品导向而非强人政治。",
+    "detail": "**核心观点**：geohot 撰文反思当前 AI 发展模式，质疑是否真的希望美国“赢得”AI，反对单纯的技术霸权。**人物对比**：在 Elon Musk 与 Sam Altman 的争端中，他更倾向 Sam 的产品导向，批评 Elon 缺乏真正的开源精神，认为其项目并非严肃开源。**行业思考**：文章呼吁更细腻的技术社会设计，而非单纯的工业巨头垄断，反映了社区对 AI 权力集中的担忧。**深层含义**：提示开发者关注技术背后的社会结构，而非盲目追随巨头叙事，倡导开放与协作的生态。**作者背景**：geohot 作为知名黑客，其观点代表了部分技术精英对当前 AI 竞赛路线的深刻反思与警惕。",
+    "tags": [
+      "News",
+      "Opinion",
+      "OpenSource"
+    ],
+    "link": "https://geohot.github.io//blog/jekyll/update/2026/04/23/us-win-ai.html",
+    "date": "2026-04-23",
+    "id": "17769376735523"
+  },
+  {
     "title": "英伟达推出 Grace Blackwell 架构桌面超级计算机",
     "summary": "基于最新架构的桌面级 AI 超级计算机，支持本地大规模模型训练。",
     "detail": "英伟达正式发布新一代 DGX Station，搭载最新的 Grace Blackwell 架构，定位为终极桌面超级计算机。该系统旨在让研究人员在工作站本地即可完成复杂的 AI 工作负载，无需依赖云端集群，显著降低推理延迟并保障数据隐私。产品页面提供了概述、特性、工作负载及规格详情，并通过合作伙伴渠道开放订购。此举标志着 AI 算力进一步向边缘侧下沉，为数据隐私敏感型任务提供了高性能本地解决方案，改变了传统依赖大规模云算力的研发模式，让顶级算力触手可及，加速企业级 AI 部署。",
@@ -141,6 +180,19 @@
     "link": "https://github.com/tencentcloud/CubeSandbox",
     "date": "2026-04-23",
     "id": "17769122553303"
+  },
+  {
+    "title": "Anthropic 核心模型 Mythos 遭黑客泄露",
+    "summary": "黑客攻破 Anthropic 防线，号称“过于危险”的 Mythos 模型遭泄露。",
+    "detail": "**事件背景**：欧洲新闻报道，黑客成功侵入了 Anthropic 的安全系统，获取了内部敏感资源。**核心影响**：被泄露的是内部标记为“过于危险而无法发布”的 Mythos 模型，这可能引发严重的 AI 安全与伦理争议，公众担忧失控模型流入黑市被滥用。**行业警示**：此次事件凸显了头部 AI 实验室在模型权重保护上的挑战，可能促使行业重新评估开源与闭源的安全边界，加强合规审查与防御机制，对 AI 安全治理提出更高要求，投资者需关注相关风险。**后续展望**：预计 Anthropic 将加强安全审计，此事可能加速 AI 安全立法进程，影响未来模型发布策略，重塑行业信任基础。",
+    "tags": [
+      "News",
+      "Security",
+      "Anthropic"
+    ],
+    "link": "https://www.euronews.com/next/2026/04/22/hackers-breach-anthropics-too-dangerous-to-release-mythos-ai-model-report",
+    "date": "2026-04-22",
+    "id": "17769376735520"
   },
   {
     "title": "AI-gile 宣言：AI 代理重塑软件开发流程",
@@ -1246,57 +1298,5 @@
     "link": "https://blog.n8n.io/how-to-evaluate-the-performance-of-ai-agents/",
     "date": "2026-04-21",
     "id": "17768049881832"
-  },
-  {
-    "title": "Latitude 推出 AI RPG 创作平台 Voyage",
-    "summary": "Latitude 发布 Voyage 平台，支持创建 AI 驱动 RPG 世界及 NPC 互动。",
-    "detail": "**AI Dungeon**制造商 Latitude 正式推出**Voyage**平台，专为创建 AI 驱动的桌面角色扮演游戏（RPG）设计。该平台允许用户构建自定义游戏世界，并利用生成式 AI 实现**NPC**的自然互动。此举降低了游戏内容创作的技术门槛，使非专业开发者也能创造复杂叙事。这标志着生成式 AI 从辅助工具向核心内容生产引擎转变，为游戏行业的个性化体验开辟了新路径。未来可能看到更多基于此类平台的用户生成内容（UGC）生态涌现，改变游戏分发模式。",
-    "tags": [
-      "New",
-      "Gaming",
-      "RPG"
-    ],
-    "link": "https://techcrunch.com/2026/04/21/voyage-is-an-ai-rpg-platform-for-creating-custom-gaming-worlds-with-ai-generated-npc-interactions/",
-    "date": "2026-04-21",
-    "id": "17768049881833"
-  },
-  {
-    "title": "Runway 举办 AI 剧集创作大赛",
-    "summary": "Runway 举办 AI 剧集创作大赛，探索生成式视频在叙事领域潜力。",
-    "detail": "生成式视频公司**Runway**发起“大提案竞赛”，面向尚未存在的剧集征集创意。参赛者需利用 AI 工具制作剧集提案，探索人工智能在**影视叙事**中的潜力。此举旨在挖掘生成式视频技术在长内容创作中的应用场景，而不仅是短片生成。反映了视频模型正从实验性工具向成熟的内容生产流程融合，可能重塑未来影视制作的工作流与创意生态。成功作品有望展示 AI 在保持角色一致性及长叙事逻辑上的最新进展，具有行业风向标意义。",
-    "tags": [
-      "News",
-      "Video",
-      "Runway"
-    ],
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1Rb0dhN2NlZGJ3Mjc3eHMtUE1jM3VrZTZIelcyQUgwTnBpcm1BUFplbnowdFZPVV9OeEg2T2oxNEFDUWh2LUtITlFjWk4?oc=5",
-    "date": "2026-04-21",
-    "id": "17768049881834"
-  },
-  {
-    "title": "NeoCognition 获 4000 万美元种子轮融资",
-    "summary": "致力于构建类人学习能力的 AI Agent，初创公司 NeoCognition 完成大额融资。",
-    "detail": "AI 初创公司 NeoCognition 正式宣布完成 4000 万美元种子轮融资，引发行业关注。该公司的核心研发目标是构建能够像人类一样进行自主学习的 AI Agent，而非仅仅依赖预训练数据。这笔资金将主要用于推进其研究实验室的前沿技术开发。标志着资本市场对具备自主学习和适应能力的智能体技术的高度认可。此类技术的突破可能显著改变 AI 在复杂任务中的表现，为通用人工智能（AGI）的发展路径提供新的可能性。",
-    "tags": [
-      "News",
-      "Funding",
-      "AI Agents"
-    ],
-    "link": "https://techcrunch.com/2026/04/21/ai-research-lab-neocognition-lands-40m-seed-to-build-agents-that-learn-like-humans/",
-    "date": "2026-04-21",
-    "id": "17767989699930"
-  },
-  {
-    "title": "AI 技能需求激增，年长员工成功转型",
-    "summary": "数据显示 AI 相关技能需求增长，年长工作者在职业转型中表现优异。",
-    "detail": "最新商业新闻指出，市场对 AI 相关技能的需求显著上升。值得注意的是，年长工作者在这一轮技术变革中表现突出，成功实现了职业 pivot。这表明 AI 技术的普及并非仅限于年轻群体，经验丰富的从业者也能通过掌握新工具焕发职业第二春，为劳动力市场的 AI 转型提供了积极信号。这一趋势有助于缓解行业对 AI 取代岗位的焦虑，强调人机协作而非单纯替代的未来工作模式。",
-    "tags": [
-      "News",
-      "Workforce",
-      "Trends"
-    ],
-    "link": "https://www.rnz.co.nz/news/business/593019/demand-for-ai-related-skills-has-grown-and-older-workers-acing-the-pivot",
-    "date": "2026-04-21",
-    "id": "17767989699941"
   }
 ]
