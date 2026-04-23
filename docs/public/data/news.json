@@ -1,5 +1,57 @@
 [
   {
+    "title": "英伟达推出 Grace Blackwell 架构桌面超级计算机",
+    "summary": "基于最新架构的桌面级 AI 超级计算机，支持本地大规模模型训练。",
+    "detail": "英伟达正式发布新一代 DGX Station，搭载最新的 Grace Blackwell 架构，定位为终极桌面超级计算机。该系统旨在让研究人员在工作站本地即可完成复杂的 AI 工作负载，无需依赖云端集群，显著降低推理延迟并保障数据隐私。产品页面提供了概述、特性、工作负载及规格详情，并通过合作伙伴渠道开放订购。此举标志着 AI 算力进一步向边缘侧下沉，为数据隐私敏感型任务提供了高性能本地解决方案，改变了传统依赖大规模云算力的研发模式，让顶级算力触手可及，加速企业级 AI 部署。",
+    "tags": [
+      "News",
+      "Nvidia",
+      "Hardware"
+    ],
+    "link": "https://www.nvidia.com/en-eu/products/workstations/dgx-station/",
+    "date": "2026-04-23",
+    "id": "17769310627650"
+  },
+  {
+    "title": "Corral 框架：评估 LLM 科学推理过程的新标准",
+    "summary": "开源框架用于测量 AI 科学家如何推理，简化科学代理的创建与评估。",
+    "detail": "LaMaLab 推出 Corral 框架，专注于评估基于 LLM 的 AI 科学家的推理过程而非仅看产出。采用微服务架构，通过 REST API 分离代理与环境，支持从化学实验室到 HPC 集群的多种环境。内置 97 种工具和 120 个验证器，简化科学代理的部署。为 AI 科学研究提供了标准化的评估基准，有助于提升代理在复杂科学任务中的可靠性与透明度。框架包含环境、代理、任务等模块，支持链式任务组，确保灵活性与可扩展性，推动 AI 在科学发现领域的实际应用落地，减少幻觉风险。",
+    "tags": [
+      "Dev",
+      "Research",
+      "LLM"
+    ],
+    "link": "https://lamalab-org.github.io/corral/",
+    "date": "2026-04-23",
+    "id": "17769310627651"
+  },
+  {
+    "title": "Vibeyard：开源 AI 编码代理管理集成开发环境",
+    "summary": "专为管理 AI 编码代理设计的开源 IDE，优化自主开发工作流。",
+    "detail": "新项目 Vibeyard 在 Show HN 亮相，旨在解决 AI 编码代理的管理难题。作为开源 IDE，它提供统一的界面来监控、调试和优化多个 AI 代理的协作流程。适合开发者构建复杂的自主编码系统，降低代理编排的技术门槛。该项目促进了 AI 辅助开发工作流的标准化，让开发者能更高效地利用 AI 代理进行代码生成与维护，提升开发效率。通过集中化管理，团队可以更好地控制代理行为，记录决策日志，从而在享受 AI 编程便利的同时，确保代码质量与系统安全性，适合现代敏捷开发团队。",
+    "tags": [
+      "New",
+      "OpenSource",
+      "IDE"
+    ],
+    "link": "https://github.com/elirantutia/vibeyard",
+    "date": "2026-04-23",
+    "id": "17769310627652"
+  },
+  {
+    "title": "AISBF：统一 AI 服务代理与智能路由框架",
+    "summary": "提供多提供商智能路由、负载均衡及故障转移的统一 API 网关。",
+    "detail": "AISBF 框架进入 Beta 阶段，作为统一 AI 网关连接 Google、OpenAI 等多提供商。支持智能路由、自动故障转移及上下文管理，具备速率限制、令牌追踪及响应缓存功能。甚至支持 TOR 匿名访问及自托管。帮助开发者构建高韧性 AI 应用，简化多模型切换与成本优化，为团队提供多用户支持与详细的使用分析数据。通过统一 API 接口，开发者无需更改代码即可切换底层模型，大幅降低集成复杂度。其智能路由机制可根据内容自动选择最佳模型，平衡性能与成本，是企业构建稳定 AI 服务层的理想选择。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "API"
+    ],
+    "link": "https://aisbf.cloud",
+    "date": "2026-04-23",
+    "id": "17769310627653"
+  },
+  {
     "title": "Viscacha：零基础设施的 AI 工作流任务系统",
     "summary": "专为 AI 管道设计的崩溃安全、零基础设施后台任务系统，支持可重试与全链路追踪。",
     "detail": "Viscacha 是一个专为函数和 AI 管道设计的后台任务系统。其核心价值在于“零基础设施”架构，开发者无需管理复杂的服务器资源即可部署任务。系统具备崩溃安全（crashsafe）特性，确保在意外中断时数据不丢失，并支持自动重试机制，提高了 AI 工作流的稳定性。此外，全链路追踪功能让开发者能够清晰监控任务状态。对于构建依赖复杂推理步骤的 AI 应用而言，这种轻量级且高可靠的基础设施方案能显著降低运维成本。在当前 AI 应用开发中，长链路任务管理是痛点，Viscacha 通过简化架构，让团队更专注于业务逻辑而非运维，其可重试特性特别适合不稳定的 LLM 调用场景，是 AI 工程化落地的重要工具补充。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.rnz.co.nz/news/business/593019/demand-for-ai-related-skills-has-grown-and-older-workers-acing-the-pivot",
     "date": "2026-04-21",
     "id": "17767989699941"
-  },
-  {
-    "title": "ChatGPT 发布 Images 2.0 模型",
-    "summary": "OpenAI 新模型在图像内文本生成方面表现惊喜，多模态能力再升级。",
-    "detail": "OpenAI 为 ChatGPT 推出了全新的 Images 2.0 模型，性能评测结果令人瞩目。该模型在生成图像内的文本方面表现出乎意料地好，有效解决了以往生成式 AI 在图像文字渲染上常见的拼写错误和布局混乱痛点。这一升级显著增强了 ChatGPT 的多模态创作能力，对于需要高质量图文内容生成的营销和设计用户来说是一个重大利好，进一步巩固了其在生成式 AI 领域的领先地位，展示了多模态模型技术的快速迭代。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Multimodal"
-    ],
-    "link": "https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/",
-    "date": "2026-04-21",
-    "id": "17767989699942"
-  },
-  {
-    "title": "Octokraft 助力 AI 团队代码健康",
-    "summary": "专为 AI 辅助团队设计的代码健康与 PR 审查工具，提升开发效率。",
-    "detail": "Show HN 项目 Octokraft 亮相，旨在为 AI 辅助开发团队提供代码健康和 PR 审查服务。该工具能够分析代码库动态、测试质量及重构率，帮助团队在引入 AI 生成代码的同时维持高标准的技术债务管理。对于依赖 Copilot 等工具的现代开发团队，这是确保代码质量和可维护性的关键基础设施。它提供了关于代码库演变的深刻见解，帮助工程领导者做出更明智的技术决策。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "CodeQuality"
-    ],
-    "link": "https://app.octokraft.com",
-    "date": "2026-04-21",
-    "id": "17767989699943"
-  },
-  {
-    "title": "Altman 抨击 Anthropic 网络安全模型",
-    "summary": "Sam Altman 称 Anthropic 的 Mythos 模型为“恐惧营销”，引发行业争论。",
-    "detail": "OpenAI CEO Sam Altman 公开批评竞争对手 Anthropic 发布的网络安全模型 Mythos，直言其为“基于恐惧的营销”。这场公开的争论凸显了两大 AI 巨头在安全策略和市场定位上的显著分歧。Altman 的言论引发了行业对于 AI 安全宣传真实性的广泛讨论，同时也反映了竞争加剧背景下，企业间对于安全话语权争夺的白热化状态。这不仅影响投资者信心，也可能促使监管机构更密切关注 AI 安全声明的合规性。",
-    "tags": [
-      "News",
-      "Security",
-      "Industry"
-    ],
-    "link": "https://techcrunch.com/2026/04/21/sam-altman-throws-shade-at-anthropics-cyber-model-mythos-fear-based-marketing/",
-    "date": "2026-04-21",
-    "id": "17767989699944"
-  },
-  {
-    "title": "传统与 AI 生成代码质量基准对比",
-    "summary": "24 个开源项目基准测试，深度分析传统代码与 AI 重型项目的质量差异。",
-    "detail": "最新基准测试报告对比了 24 个开源项目，涵盖 14 个传统项目（如 Kubernetes, Django）和 10 个 AI 重型项目。数据详细分析了整体健康度、安全性、测试覆盖率等指标。结果显示，传统项目在整体健康度和安全性上仍占优势，但 AI 重型项目在某些效率指标上表现接近。这为开发者提供了关于 AI 辅助编程实际产出质量的客观数据参考，有助于团队在引入 AI 工具时调整代码审查策略和技术债务管理方案。",
-    "tags": [
-      "Dev",
-      "Benchmark",
-      "OpenSource"
-    ],
-    "link": "https://octokraft.com/blog/heritage-vs-ai-24-open-source-projects/",
-    "date": "2026-04-21",
-    "id": "17767989699945"
   }
 ]
