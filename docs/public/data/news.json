@@ -1,5 +1,96 @@
 [
   {
+    "title": "AI 商业化面临盈利压力",
+    "summary": "The Verge 报道指出，随着 token 经济模型变化，用户即将感受到 AI 服务涨价压力。",
+    "detail": "文章深入分析了 OpenAI 和 Anthropic 等巨头面临的盈利挑战及 token 经济模型的变化。随着推理成本上升及商业模式调整，AI 公司正寻求更高收益，可能导致终端用户成本显著增加。这标志着 AI 行业从烧钱扩张转向追求实际营收的关键转折点。企业用户需重新评估 AI 预算，开发者需优化 token 使用效率，行业整体将面临商业化落地的严峻考验，价格敏感型应用可能受到冲击。",
+    "tags": [
+      "News",
+      "LLM",
+      "Business"
+    ],
+    "link": "https://www.theverge.com/ai-artificial-intelligence/917380/ai-monetization-anthropic-openai-token-economics-revenue",
+    "date": "2026-04-24",
+    "id": "17770180611500"
+  },
+  {
+    "title": "澳洲建筑安全文档 AI 生成器",
+    "summary": "QuickSWMS 推出 AI 生成安全工作方法陈述，首份免费，单次$9.99。",
+    "detail": "专为澳大利亚技工设计的垂直领域 AI 工具，可在 2 分钟内生成合规的 SWMS 文档。用户输入工作类型和地址，AI 自动识别危害、评估风险并生成包含 PPE 列表的 PDF。首份免费，后续每份 9.99 美元。展示了 AI 在垂直领域合规文档生成的落地应用，极大缩短传统数小时的编写时间。该案例证明小众市场结合 AI 自动化可快速实现盈利，为行业 SaaS 提供了低成本启动的参考范本。",
+    "tags": [
+      "New",
+      "SaaS",
+      "Construction"
+    ],
+    "link": "https://quickswms.co",
+    "date": "2026-04-24",
+    "id": "17770180611501"
+  },
+  {
+    "title": "AI 时代的 Python Notebook 重构",
+    "summary": "MLJAR 探讨如何在 AI 时代重新设计 Python Notebook 以提升数据分析效率。",
+    "detail": "MLJAR 团队分析了传统 Jupyter Notebook 在 AI 时代的优缺点，提出隐藏状态和代码输出混合的问题。他们正在构建基于 Notebook 的 MLJAR Studio 桌面应用，旨在结合 Markdown 和代码的灵活性，同时优化状态管理和实验追踪。这对于数据科学家和 AI 开发者改进工作流具有重要参考价值。未来 IDE 将更深度集成 AI 辅助，实现代码生成与数据分析的无缝衔接，降低技术门槛。",
+    "tags": [
+      "Dev",
+      "Python",
+      "DataScience"
+    ],
+    "link": "https://mljar.com/blog/reimagine-python-notebook-in-ai-era/",
+    "date": "2026-04-24",
+    "id": "17770180611502"
+  },
+  {
+    "title": "中国医院出售患者数据助推 AI",
+    "summary": "财新报道中国医院出售患者数据以燃料 AI 热潮，引发隐私伦理担忧。",
+    "detail": "调查发现中国部分医院正在向 AI 公司出售患者数据，用于训练医疗 AI 模型。这一现象虽推动了 AI 技术发展，但严重触及隐私保护和数据合规红线。文章揭示了数据要素市场化过程中的灰色地带，可能引发监管加强及行业伦理讨论，影响医疗 AI 的数据获取策略。长期来看，合规数据源将成为稀缺资源，推动隐私计算和合成数据技术的发展，以平衡创新与隐私保护。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Healthcare"
+    ],
+    "link": "https://www.caixinglobal.com/2026-04-20/chinese-hospitals-are-selling-patient-data-to-fuel-the-ai-boom-102435863.html",
+    "date": "2026-04-24",
+    "id": "17770180611503"
+  },
+  {
+    "title": "自主 AI 代理人力语音预言机",
+    "summary": "Litagatoro 开源项目允许 AI 代理在 Polygon 网络上雇佣真人完成语音任务。",
+    "detail": "这是一个“人在回路”的语音预言机项目，支持 AI 代理通过智能合约雇佣真人进行验证、表演或身份检查。提供 Python SDK 和 MCP 服务器，可集成 Claude 和 GPT-4。使用 USDC 托管确保支付安全。为自主代理系统提供了连接现实世界人类能力的创新基础设施，解决了纯 AI 无法完成的复杂交互问题。这种混合智能模式可能是未来 Agent 经济的重要组成部分，拓展了 AI 的能力边界。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Crypto"
+    ],
+    "link": "https://github.com/oriondrayke/Litagatoro",
+    "date": "2026-04-24",
+    "id": "17770180611504"
+  },
+  {
+    "title": "企业 AI 失败率高达双位数",
+    "summary": "Virtana 研究显示 75% 的企业报告 AI 任务失败率达双位数，可观测性不足。",
+    "detail": "最新研究报告指出，尽管 59% 高管认为组织已准备好，但 62% 从业者表示系统碎片化。75% 的企业面临双位数 AI 任务失败率，导致计算浪费和运营风险。随着代理系统自主化，失败率复合将引发系统波动。强调了升级可观测性基础设施以适应机器规模运营的紧迫性。企业需投资统一监控平台，避免遗留系统成为 AI 规模化部署的瓶颈，否则将面临高昂的试错成本。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Ops"
+    ],
+    "link": "https://www.businesswire.com/news/home/20260309160253/en/New-Study-Reveals-75-of-Enterprises-Report-Double-Digit-AI-Failure-Rates-as-Fragmented-Observability-Hits-Its-Breaking-Point",
+    "date": "2026-04-24",
+    "id": "17770180611505"
+  },
+  {
+    "title": "AI 代理 Shell 访问安全工具",
+    "summary": "Show HN 项目 Safer 旨在让 AI 代理拥有 Shell 访问权时更安全。",
+    "detail": "针对 AI 代理自动化操作中的安全风险，该项目提供了一种保护机制，允许开发者在赋予 AI 代理 Shell 访问权限时“睡个安稳觉”。通过限制和监控代理的系统级操作，防止恶意或错误命令执行。对于开发自主编码代理和自动化运维工具的开发者的安全实践具有重要借鉴意义。随着 Agent 权限扩大，此类安全中间件将成为标配，确保自动化流程在不牺牲安全性的前提下高效运行。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://github.com/crufter/safer",
+    "date": "2026-04-24",
+    "id": "17770180611506"
+  },
+  {
     "title": "Uber 年度 AI 预算 4 个月耗尽，代理工作流成成本杀手",
     "summary": "Uber CTO 承认年度 AI 预算 4 个月耗尽，因代理工作流导致 Token 消耗激增。",
     "detail": "Uber 工程团队在 2025 年 12 月为 5000 名工程师部署 Claude Code，短短四个月内耗尽年度预算。84% 的工程师使用代理工作流，每个任务链式调用数十次模型，导致 Token 消耗激增。传统 SaaS 固定成本模型完全失效，AI 预算需考虑用户数、任务复杂度与频率的乘积效应。内部排行榜激励机制加剧了使用情况。此案例警示企业需重新评估 AI 用量计费模型，建立基于多维度的预算框架，避免因行为缩放导致财务失控。CTO 表示需重回绘图板重新规划，对行业成本管理具有重大参考意义，标志着 AI 运营从实验走向规模化成本挑战。",
@@ -1207,96 +1298,5 @@
     "link": "https://github.com/thirdkeyai/symbiont",
     "date": "2026-04-22",
     "id": "17768915058084"
-  },
-  {
-    "title": "AI 能力分层加剧，中产知识工作者面临经济杠杆侵蚀",
-    "summary": "顶级模型能力增强，普通用户模型降级，企业与普通用户差距扩大。",
-    "detail": "文章指出 AI 模型正出现明显的层级分化，顶级能力被移至高价企业 tier。虽然工作岗位未消失，但人员减少，留存员工生产力提高但更不稳定。中产知识工作者和小企业主的经济杠杆正在被快速侵蚀，资本捕获了生产力增益。未来 2-3 年特定行业失业率将悄然上升，而非戏剧性崩溃，这可能导致政治反应滞后。这种结构性变化要求我们重新思考劳动与资本在 AI 时代的分配关系。",
-    "tags": [
-      "News",
-      "Economy",
-      "LLM"
-    ],
-    "link": "https://www.gailweiner.com/post/who-gets-to-stay-human-the-ai-hype-stripped-of-the-hype",
-    "date": "2026-04-22",
-    "id": "17768855476350"
-  },
-  {
-    "title": "Intercom 分享基于 Claude Code 与 Rails 的 AI 优先构建实践",
-    "summary": "Brian Scanlan 视频分享 Intercom 如何利用 Claude Code 和 Rails 构建 AI 优先产品。",
-    "detail": "Intercom 团队展示了如何在现有 Rails 架构中集成 AI 优先的开发流程。通过结合 Claude Code 辅助编程，团队探索了高效构建 AI 原生应用的路径。这对开发者如何在传统框架中融入现代 AI 工作流具有参考意义，展示了企业级 AI 落地的具体技术栈选择。视频内容涵盖了从代码生成到部署的实际案例，为使用 Ruby on Rails 的开发者提供了转型 AI 优先开发的实战经验与思路。",
-    "tags": [
-      "Dev",
-      "Claude",
-      "Rails"
-    ],
-    "link": "https://www.youtube.com/watch?v=ADBs2K5Tpz0",
-    "date": "2026-04-22",
-    "id": "17768855476351"
-  },
-  {
-    "title": "Show HN: Chess of Minds，每个棋子均由独立 AI 代理操控",
-    "summary": "创新实验项目，每方 6 个 AI 代理代表不同棋子，通过协商决定走法。",
-    "detail": "这是一个多代理协调的实验性项目。每方棋子由 6 个具有不同性格的 AI 代理负责，它们通过提议、争论和谈判来决定每一步棋。项目无需 API 密钥，利用 Claude Code 本地运行，展示了代理原生 UX 的可能性。不仅是游戏，更是集体决策理论的可视化演示，适合观察 AI 代理间的协作与冲突。用户可通过 Markdown URL 直接启动，体现了 Agent 作为运行时的未来应用形态，无需安装或账户。",
-    "tags": [
-      "New",
-      "Multi-Agent",
-      "Claude"
-    ],
-    "link": "https://chessminds.fun",
-    "date": "2026-04-22",
-    "id": "17768855476352"
-  },
-  {
-    "title": "Rundock 发布：无需代码即可构建本地化 AI 代理团队",
-    "summary": "面向非开发者的 AI 团队管理工具，支持本地运行与组织架构可视化。",
-    "detail": "Rundock 是一款面向非技术用户的 AI 代理团队管理工具。用户可在本地构建包含研究员、作家等角色的 AI 团队，并通过组织图表界面管理。数据本地处理，基于 Claude Code 文件标准，无供应商锁定。支持 Apple Silicon Mac，旨在降低 AI 代理使用门槛，让普通人也能通过 delegating 任务给 AI 团队来提高工作效率。代理技能标准化，可迁移至其他支持 Anthropic 格式的工具，确保用户数据主权。",
-    "tags": [
-      "New",
-      "Agent",
-      "Productivity"
-    ],
-    "link": "https://rundock.ai/",
-    "date": "2026-04-22",
-    "id": "17768855476353"
-  },
-  {
-    "title": "卫报：Anthropic 调查未发布网络安全 AI 模型 Mythos 未授权访问事件",
-    "summary": "Anthropic 旗下未发布网络安全模型 Mythos 遭未授权访问，引发全球安全担忧。",
-    "detail": "据卫报报道，Anthropic 正在调查一起涉及未发布网络安全 AI 模型\"Mythos\"的未授权访问事件。该模型潜在能力可能威胁全球网络安全，因此泄露事件引发广泛关注。目前具体技术细节尚未公开，但此次事件凸显了高级 AI 模型在安全领域的双刃剑效应，以及头部公司在模型发布前的安全管控挑战。行业正在密切关注后续调查进展，以及对 AI 安全监管政策的潜在影响。",
-    "tags": [
-      "News",
-      "Security",
-      "Anthropic"
-    ],
-    "link": "https://www.theguardian.com/technology/2026/apr/22/what-is-anthropic-mythos-ai-threat-global-cybersecurity",
-    "date": "2026-04-22",
-    "id": "17768855476354"
-  },
-  {
-    "title": "OpenAI 推出 WebSocket 优化代理工作流，速度提升 40%",
-    "summary": "响应 API 新增 WebSocket 支持，代理循环端到端速度提升 40%，推理速度达 1000 TPS。",
-    "detail": "OpenAI 官方发布技术更新，通过在 Responses API 中引入 WebSocket 持久连接，替代传统的同步 API 调用序列。文章指出代理循环延迟主要来自 API 服务、模型推理及客户端时间三阶段。此次优化结合缓存与网络跳转消除，使端到端速度提升 40%。针对 GPT-5.3-Codex-Spark 模型，推理速度从 65 TPS 跃升至近 1000 TPS，显著改善复杂编码任务的用户体验，标志着代理工作流效率的重大突破。",
-    "tags": [
-      "Dev",
-      "API",
-      "LLM"
-    ],
-    "link": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
-    "date": "2026-04-22",
-    "id": "17768774673110"
-  },
-  {
-    "title": "英伟达展示 Jetson 本地运行 Gemma 4 VLA 多模态模型",
-    "summary": "Gemma 4 视觉语言动作模型在边缘设备本地运行，可自主决定是否调用摄像头。",
-    "detail": "Hugging Face 博客展示了 Gemma 4 VLA 模型在 NVIDIA Jetson Orin Nano Super (8GB) 上的本地部署演示。该模型具备自主决策能力，可根据上下文判断是否需要调用 Logitech C920 摄像头获取视觉信息，无需硬编码逻辑。流程涵盖语音转文本、模型推理及文本转语音。项目已开源完整 Python 脚本，开发者可通过 GitHub 直接克隆部署，展示了边缘侧多模态交互的低延迟潜力与可行性。",
-    "tags": [
-      "Dev",
-      "VLA",
-      "Edge"
-    ],
-    "link": "https://huggingface.co/blog/nvidia/gemma4",
-    "date": "2026-04-22",
-    "id": "17768774673111"
   }
 ]
