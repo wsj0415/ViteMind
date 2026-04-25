@@ -1,5 +1,57 @@
 [
   {
+    "title": "美国普查局数据显示 AI 对劳动力市场影响甚微",
+    "summary": "美国普查局新数据显示，尽管 AI 采用率上升，但目前对劳动力市场影响仍非常低。",
+    "detail": "美国普查局商业趋势与展望调查（BTOS）发布最新 AI 补充数据。约 20% 的企业报告已使用 AI，未来计划使用的比例略高。尽管采用率符合预期，但报告明确指出新兴技术对劳动力市场的直接影响目前非常低。分析师强调，这并不意味着长期影响小，AI 采用是一个跨越数十年的过程。此数据为评估 AI 经济影响提供了官方基准，有助于投资者和政策制定者理性看待短期波动与长期转型。",
+    "tags": [
+      "News",
+      "Economy",
+      "Adoption"
+    ],
+    "link": "https://macromostly.substack.com/p/an-update-on-ai-adoption-in-the-united",
+    "date": "2026-04-25",
+    "id": "17771317181520"
+  },
+  {
+    "title": "OpenAI 发布 GPT-5.5，DeepSeek 开源 V4-Pro 模型",
+    "summary": "OpenAI 推出 GPT-5.5，DeepSeek 发布 MIT 许可的 1.6T 参数开源模型，竞争加剧。",
+    "detail": "前沿 AI 动态更新：OpenAI 发布 GPT-5.5（代号 Spud），提升代币效率和编码能力。DeepSeek 释放 V4-Pro（1.6T 参数，49B 激活）和 V4-Flash，采用 MIT 许可并在 Hugging Face 开源。DeepSeek 确认将在华为 Ascend 芯片上运行推理，计划于 2025 年下半年大幅降价。此外，Anthropic 承认曾降低 Claude 模型推理质量后恢复。开源模型与硬件自主化成为竞争焦点，企业评估模型托管有了新的成本降低选项。",
+    "tags": [
+      "News",
+      "LLM",
+      "OpenSource"
+    ],
+    "link": "https://www.thewire.ink/",
+    "date": "2026-04-25",
+    "id": "17771317181521"
+  },
+  {
+    "title": "开发者讨论：如何在 AI Agent 中设置全局规则",
+    "summary": "Hacker News 社区讨论如何在 AI Agent 中设置全局提示词规则，如自动提交代码。",
+    "detail": "Hacker News 社区热议 AI Agent 的全局规则设置。用户分享经验，建议在每次交互中添加适用规则，例如要求 AI 在修改代码时遵循 git 提交规范，或在变更功能时更新 AGENTS.md 文档。这种“系统指令”式的设定有助于规范 AI 行为，减少重复提示，提升开发工作流的自动化程度和一致性。对于需要频繁与 AI 协作的开发团队，这是一种优化提示工程、提高产出质量的有效实践策略。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "Workflow"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47901712",
+    "date": "2026-04-25",
+    "id": "17771317181522"
+  },
+  {
+    "title": "分析：Google 能否凭借 TPU 赢得 AI 硬件竞赛？",
+    "summary": "深度分析 Google 垂直整合策略，探讨 TPU 能否挑战 Nvidia 主导地位。",
+    "detail": "最新分析指出，Google 正通过垂直整合策略构建 AI 基础设施护城河。与 Nvidia 作为外部供应商不同，Google 设计 TPU 供内部使用并通过云提供服务。分析认为市场将细分：Nvidia 保持外部平台主导，Google 成为定制 ASIC 挑战者。虽然 Google 难以完全取代 Nvidia，但通过自研芯片降低成本的策略已具可信度，超大规模云厂商自研芯片趋势将加剧，硬件竞赛进入新阶段。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Google"
+    ],
+    "link": "https://google-ai-race.pagey.site/",
+    "date": "2026-04-25",
+    "id": "17771317181523"
+  },
+  {
     "title": "Surf-CLI：AI 代理控制 Chrome 的零配置命令行工具",
     "summary": "专为 AI 代理设计的 Chrome 控制 CLI，支持多平台及 AI Studio。",
     "detail": "Surf-CLI 是一款专为 AI 代理设计的命令行工具，旨在简化浏览器自动化流程。无需复杂配置即可控制 Chrome，支持 macOS、Linux 和 Windows 全平台。最新版本 v2.6.0 增加了 AI Studio 支持及 Helium 浏览器兼容，并允许环境变量覆盖。作为与代理无关的工具，它通过 Unix 命令实现稳定的网页交互，解决了现有工具在真实页面易崩溃的问题。提供 surf go、read、click 等原子命令，为开发者提供了更可靠的 AI 代理执行环境，显著降低了 Agent 开发门槛，是构建自动化工作流的重要基础设施，适合需要高频网页交互的 AI 应用场景。",
@@ -1251,57 +1303,5 @@
     "link": "https://www.caixinglobal.com/2026-04-20/chinese-hospitals-are-selling-patient-data-to-fuel-the-ai-boom-102435863.html",
     "date": "2026-04-24",
     "id": "17770180611503"
-  },
-  {
-    "title": "自主 AI 代理人力语音预言机",
-    "summary": "Litagatoro 开源项目允许 AI 代理在 Polygon 网络上雇佣真人完成语音任务。",
-    "detail": "这是一个“人在回路”的语音预言机项目，支持 AI 代理通过智能合约雇佣真人进行验证、表演或身份检查。提供 Python SDK 和 MCP 服务器，可集成 Claude 和 GPT-4。使用 USDC 托管确保支付安全。为自主代理系统提供了连接现实世界人类能力的创新基础设施，解决了纯 AI 无法完成的复杂交互问题。这种混合智能模式可能是未来 Agent 经济的重要组成部分，拓展了 AI 的能力边界。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Crypto"
-    ],
-    "link": "https://github.com/oriondrayke/Litagatoro",
-    "date": "2026-04-24",
-    "id": "17770180611504"
-  },
-  {
-    "title": "企业 AI 失败率高达双位数",
-    "summary": "Virtana 研究显示 75% 的企业报告 AI 任务失败率达双位数，可观测性不足。",
-    "detail": "最新研究报告指出，尽管 59% 高管认为组织已准备好，但 62% 从业者表示系统碎片化。75% 的企业面临双位数 AI 任务失败率，导致计算浪费和运营风险。随着代理系统自主化，失败率复合将引发系统波动。强调了升级可观测性基础设施以适应机器规模运营的紧迫性。企业需投资统一监控平台，避免遗留系统成为 AI 规模化部署的瓶颈，否则将面临高昂的试错成本。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Ops"
-    ],
-    "link": "https://www.businesswire.com/news/home/20260309160253/en/New-Study-Reveals-75-of-Enterprises-Report-Double-Digit-AI-Failure-Rates-as-Fragmented-Observability-Hits-Its-Breaking-Point",
-    "date": "2026-04-24",
-    "id": "17770180611505"
-  },
-  {
-    "title": "AI 代理 Shell 访问安全工具",
-    "summary": "Show HN 项目 Safer 旨在让 AI 代理拥有 Shell 访问权时更安全。",
-    "detail": "针对 AI 代理自动化操作中的安全风险，该项目提供了一种保护机制，允许开发者在赋予 AI 代理 Shell 访问权限时“睡个安稳觉”。通过限制和监控代理的系统级操作，防止恶意或错误命令执行。对于开发自主编码代理和自动化运维工具的开发者的安全实践具有重要借鉴意义。随着 Agent 权限扩大，此类安全中间件将成为标配，确保自动化流程在不牺牲安全性的前提下高效运行。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://github.com/crufter/safer",
-    "date": "2026-04-24",
-    "id": "17770180611506"
-  },
-  {
-    "title": "Uber 年度 AI 预算 4 个月耗尽，代理工作流成成本杀手",
-    "summary": "Uber CTO 承认年度 AI 预算 4 个月耗尽，因代理工作流导致 Token 消耗激增。",
-    "detail": "Uber 工程团队在 2025 年 12 月为 5000 名工程师部署 Claude Code，短短四个月内耗尽年度预算。84% 的工程师使用代理工作流，每个任务链式调用数十次模型，导致 Token 消耗激增。传统 SaaS 固定成本模型完全失效，AI 预算需考虑用户数、任务复杂度与频率的乘积效应。内部排行榜激励机制加剧了使用情况。此案例警示企业需重新评估 AI 用量计费模型，建立基于多维度的预算框架，避免因行为缩放导致财务失控。CTO 表示需重回绘图板重新规划，对行业成本管理具有重大参考意义，标志着 AI 运营从实验走向规模化成本挑战。",
-    "tags": [
-      "News",
-      "LLM",
-      "Enterprise"
-    ],
-    "link": "https://www.productcurious.com/p/uber-ai-budget-mistake",
-    "date": "2026-04-24",
-    "id": "17770092079240"
   }
 ]
