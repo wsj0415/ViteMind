@@ -1,5 +1,70 @@
 [
   {
+    "title": "AMD 推出 Ryzen AI Max+ PC 处理器",
+    "summary": "AMD 发布新款 AI PC 处理器，旨在桌面端提供卓越智能体验。",
+    "detail": "AMD 宣布推出 Ryzen AI Max+ 系列 AI PC 处理器，强调在桌面端交付卓越智能。该产品针对商业系统及工作站优化，支持 Ryzen PRO 技术，涵盖 EPYC 服务器及 Ryzen PRO 笔记本/桌面端。此举表明硬件厂商正加速将 AI 算力下沉至终端设备，降低云端依赖，为本地 AI 应用提供硬件基础。通过提供强大的本地算力，企业能够更好地保护数据隐私，同时享受 AI 带来的效率提升，推动 AI PC 生态进一步发展，满足市场对高性能边缘计算的需求。",
+    "tags": [
+      "News",
+      "Hardware",
+      "AMD"
+    ],
+    "link": "https://www.amd.com/en/blogs/2026/amd-ryzen-ai-max-ai-pcs-deliver-exceptional-intelligence.html",
+    "date": "2026-04-25",
+    "id": "17771018498770"
+  },
+  {
+    "title": "sagan-trade：基于数学的 AI 交易引擎",
+    "summary": "新 PyPI 库发布，声称用数学击败 AI 交易员。",
+    "detail": "PyPI 发布 sagan-trade 0.3.5 版本，这是一个战略高吞吐符号交易引擎。它采用迭代 R2 拟合和 FunctionGemma 发现技术，旨在通过数学方法优化交易策略。该工具为开发者提供了本地化、可解释的 AI 交易解决方案，适合量化开发场景。通过利用数学模型对抗传统 AI 交易策略，它帮助交易员提升投资回报，同时保持策略的透明度和可控性，是金融科技领域结合符号 AI 与数学建模的最新尝试。",
+    "tags": [
+      "Dev",
+      "Finance",
+      "Python"
+    ],
+    "link": "https://pypi.org/project/sagan-trade/",
+    "date": "2026-04-25",
+    "id": "17771018498772"
+  },
+  {
+    "title": "DevResolve：基于文档的 AI 技术支持 widget",
+    "summary": "嵌入文档站的 AI 聊天组件，自动回答技术问题。",
+    "detail": "DevResolve 是一款嵌入文档站点的 AI 聊天组件，可直接从知识库（Confluence, Notion 等）合成答案。仅在无法回答时自动创建工单，减少工程师被打断。支持一键嵌入，为 SaaS 产品提供即时技术支持，降低客服成本。其核心优势在于优先回答问题而非创建工单，显著提升用户自助服务体验和研发效率。该工具通过连接真实文档库，确保答案的准确性，是技术团队优化支持流程的理想选择。",
+    "tags": [
+      "New",
+      "Support",
+      "SaaS"
+    ],
+    "link": "https://devresolve.ai/",
+    "date": "2026-04-25",
+    "id": "17771018498773"
+  },
+  {
+    "title": "Stash：开源 AI 代理持久记忆层",
+    "summary": "解决 AI 失忆问题，支持 MCP 和本地存储。",
+    "detail": "Stash 是一个开源记忆层，让 AI 代理拥有持久记忆。基于 PostgreSQL + pgvector，原生支持 MCP 协议。它允许代理跨会话记住用户偏好和项目上下文，无需重复解释。解决了当前 AI 代理缺乏长期记忆的痛点，适合构建复杂 Agent 应用。支持无限代理和多种后端，是构建长期记忆 AI 系统的关键基础设施。通过持久化存储，它显著提升了 AI 交互的连贯性和个性化体验，降低了重复沟通成本。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://alash3al.github.io/stash?_v01",
+    "date": "2026-04-25",
+    "id": "17771018498774"
+  },
+  {
+    "title": "fast-ai-detector：本地快速 AI 文本检测 CLI",
+    "summary": "GitHub 开源项目，用于本地快速检测 AI 生成文本。",
+    "detail": "GitHub 发布 fast-ai-detector 项目，提供一个快速的本地 CLI 工具，用于检测 AI 生成的文本。该工具注重隐私和速度，允许开发者在本地环境中验证内容来源。随着 AI 生成内容泛滥，此类检测工具成为内容审核和学术诚信的重要基础设施。开源特性使其易于集成到现有工作流中，增强内容安全性。它为开发者和研究人员提供了一种便捷的方式来识别机器生成内容，维护信息生态的真实性。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Tool"
+    ],
+    "link": "https://github.com/Ejhfast/fast-ai-detector",
+    "date": "2026-04-25",
+    "id": "17771018498777"
+  },
+  {
     "title": "RealSmile AI 面部分析工具上线",
     "summary": "本地运行 AI 分析 17 项面部指标，提供改善建议。",
     "detail": "RealSmile 推出基于浏览器的 AI 面部分析工具，强调无需上传数据，100% 本地运行以保护用户隐私。该系统通过 4 个 AI 骨干网络分析 17 项面部指标，平均处理时间仅 2.8 秒。除了免费评分外，还提供付费详细报告（限时优惠$14.99），包含 AI 改善预览及临床级 PDF 报告，旨在帮助用户科学优化社交照片表现。目前已吸引超过 38,000 次面部分析，适合关注个人形象管理及隐私保护的用户尝试，展示了边缘 AI 在消费级应用中的落地潜力。",
@@ -89,6 +154,32 @@
     "link": "https://www.phoronix.com/news/GCC-Working-Group-AI-Policy",
     "date": "2026-04-25",
     "id": "17770941028336"
+  },
+  {
+    "title": "虚拟现实之父 Jaron Lanier 谈 AI 误区",
+    "summary": "Lanier 在布朗大学演讲，称人们完全想错了 AI 的本质。",
+    "detail": "虚拟现实先驱 Jaron Lanier 在布朗大学演讲中指出，人们思考 AI 的方式存在根本错误。他强调 AI 技术完全由人类洞察和创新组成，只有记住这一点，AI 才能帮助科学发现。这一观点提醒行业关注人类在 AI 发展中的核心作用，避免过度神化技术，倡导以人为本的 AI 发展路径。Lanier 的见解对当前 AI 伦理讨论具有深远影响，促使开发者反思技术背后的社会責任，确保 AI 服务于人类福祉而非取代人类创造力。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Opinion"
+    ],
+    "link": "https://www.brown.edu/news/2026-04-24/jaron-lanier-cooper-lecture",
+    "date": "2026-04-24",
+    "id": "17771018498771"
+  },
+  {
+    "title": "Meta 发布 Llama 4：液态变压器架构",
+    "summary": "Llama 4 消除开源与专有模型性能差距，支持 2M 上下文。",
+    "detail": "Meta 正式发布 Llama 4，采用 Liquid Transformers 2.0 架构，支持 200 万 token 上下文且功耗降低 40%。405B 模型在逻辑推理上超越 GPT-5，具备原生多模态和集成链式思考能力。这标志着开源模型进入主权 AI 新时代，大幅降低推理成本。企业可在本地服务器运行世界级模型，无需百万美元预算，改变行业格局。此架构解决了 2025 年最大的推理成本问题，使主权 AI 成为可能，推动开源生态进一步发展。",
+    "tags": [
+      "News",
+      "LLM",
+      "Meta"
+    ],
+    "link": "https://en.landingfymax.com.br/artificial-intelligence/llama-4-meta-open-source-sovereignty-2026",
+    "date": "2026-04-24",
+    "id": "17771018498775"
   },
   {
     "title": "xAI 核心团队动荡：超 80 名员工离职",
@@ -936,6 +1027,19 @@
     "id": "17769987111402"
   },
   {
+    "title": "白宫备忘录：关于美国 AI 模型对抗蒸馏",
+    "summary": "白宫发布关于 AI 模型安全与对抗蒸馏的备忘录。",
+    "detail": "白宫发布 NSTM-4 备忘录，关注美国 AI 模型的对抗蒸馏问题。文件涉及国家安全技术措施，表明政府正加强对高端 AI 模型的保护，防止技术被恶意蒸馏或窃取。这对 AI 模型的安全部署和合规性提出了新的政策要求，影响模型出口及知识产权保护，是 AI 地缘政治竞争的重要信号。该备忘录强调了保护国家 AI 资产的重要性，可能促使企业调整模型发布策略，加强安全防护措施。",
+    "tags": [
+      "News",
+      "Policy",
+      "Security"
+    ],
+    "link": "https://whitehouse.gov/wp-content/uploads/2026/04/NSTM-4.pdf",
+    "date": "2026-04-23",
+    "id": "17771018498776"
+  },
+  {
     "title": "特斯拉悄悄披露 20 亿美元 AI 硬件收购案",
     "summary": "特斯拉 10Q 文件披露巨额 AI 硬件收购，布局深层算力。",
     "detail": "### 事件背景\n特斯拉在提交的 10Q 文件中悄悄披露了一项价值 20 亿美元的 AI 硬件公司收购案。此举显示特斯拉正在加速垂直整合其 AI 算力基础设施。\n\n### 核心看点\n收购埋藏在财务文件中，表明公司可能希望低调处理以避免市场过度反应。硬件收购直接服务于其 FSD 及 Optimus 机器人项目的算力需求。\n\n### 行业影响\n标志着车企向 AI 硬件巨头转型的关键一步，可能引发行业对专用 AI 芯片及硬件供应链的新一轮争夺。",
@@ -1194,109 +1298,5 @@
     "link": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
     "date": "2026-04-23",
     "id": "17769811585871"
-  },
-  {
-    "title": "北卡罗来纳州立大学推出 AI 工具 CacheMind 优化处理器",
-    "summary": "新工具 CacheMind 利用 AI 改善计算机架构中的缓存管理性能。",
-    "detail": "北卡罗来纳州立大学研究人员开发了 CacheMind，这是首个能回答复杂硬件 - 软件交互问题的计算机架构模拟器。它专注于优化缓存替换策略，解决了传统模拟器仅提供聚合统计数据的局限。该工具帮助架构师理解细粒度系统细节，如哪些指令依赖不在缓存中的数据，从而显著提升处理器性能，为芯片设计提供新的 AI 辅助方案。",
-    "tags": [
-      "Dev",
-      "Hardware",
-      "Research"
-    ],
-    "link": "https://news.ncsu.edu/2026/04/cachemind-tool-computer-architecture/",
-    "date": "2026-04-23",
-    "id": "17769811585872"
-  },
-  {
-    "title": "开源项目 Récif 提供 Kubernetes 上的 AI 代理控制塔",
-    "summary": "Récif 旨在解决 AI 代理生产部署中的治理与监控难题。",
-    "detail": "Récif 是一个开源平台，专为在 Kubernetes 上部署自主代理设计。它提供评估驱动的生命周期管理、企业级治理和实时监控，且无供应商锁定。针对生产环境中代理可能出现的幻觉或违规操作，Récif 提供了审计追踪和多租户能力。这填补了从演示到生产部署的空白，适合需要严格操作纪律的监管环境。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Infrastructure"
-    ],
-    "link": "https://recif-platform.github.io/",
-    "date": "2026-04-23",
-    "id": "17769811585873"
-  },
-  {
-    "title": "PayClaw 为 AI 代理提供无气体 USDC 钱包支持",
-    "summary": "新工具允许 AI 代理在 12 种框架下使用无气体费的 USDC 钱包。",
-    "detail": "PayClaw 是一个针对 AI 代理的支付基础设施，支持 12 种框架。它允许 AI 代理在无需支付气体费的情况下使用 USDC 钱包，降低了代理执行经济任务的门槛。这一工具促进了自主经济代理生态的发展，使 AI 能够更顺畅地参与链上交易和经济活动，解决了当前代理在支付环节的高成本痛点。",
-    "tags": [
-      "Dev",
-      "Crypto",
-      "Agents"
-    ],
-    "link": "https://github.com/ONSARI/payclaw-skill",
-    "date": "2026-04-23",
-    "id": "17769811585874"
-  },
-  {
-    "title": "Meta 裁员 8000 人全力押注 AI 投资",
-    "summary": "Meta 宣布裁员 8000 人，将资源重新分配至人工智能领域，显示行业转型阵痛。",
-    "detail": "Meta 宣布下月将裁员 8000 人，与此同时公司正在大幅增加对人工智能的支出。这一举措反映了科技巨头在 AI 军备竞赛中的资源重组策略，即通过优化人力结构来维持高昂的基建投资。这对行业就业市场发出明确信号，传统岗位可能持续为 AI 研发让路。分析师建议从业者关注 AI 相关技能转型，以应对潜在的结构性失业风险。此外，这也表明资本市场对 AI 回报的耐心正在考验大厂的成本控制能力，未来几个月需密切关注其 AI 业务变现进展及利润率变化，这将是行业风向标。",
-    "tags": [
-      "News",
-      "Meta",
-      "Layoffs"
-    ],
-    "link": "https://www.bbc.com/news/articles/crm1y89vek8o",
-    "date": "2026-04-23",
-    "id": "17769777841000"
-  },
-  {
-    "title": "微软高管警告：AI 正在摧毁初级开发者管道",
-    "summary": "微软 Azure CTO 指出 AI 导致企业不愿雇佣初级开发者，建议推行导师制解决危机。",
-    "detail": "微软 Azure CTO Mark Russinovich 与开发者社区副总裁发表论文，指出代理式 AI 创造了停止雇佣初级开发者的经济激励。斯坦福数据显示 22-25 岁开发者就业量自 2022 年底下降近 20%。高层认为这是结构性错误，建议通过“导师制”帮助新人掌握系统知识以驾驭 AI 代理。这揭示了 AI 效率提升背后的隐性成本，即人才梯队断裂可能长期损害创新能力。企业需平衡短期节省与长期储备，否则未来将面临资深工程师断层危机，建议教育机构与企业联合调整培养模式。",
-    "tags": [
-      "News",
-      "Microsoft",
-      "Jobs"
-    ],
-    "link": "https://newclawtimes.com/articles/microsoft-russinovich-hanselman-junior-developer-pipeline-crisis-agentic-ai-preceptorship/",
-    "date": "2026-04-23",
-    "id": "17769777841001"
-  },
-  {
-    "title": "JetBrains 调查：开发者实际使用的 AI 编码工具",
-    "summary": "基于万名开发者调查，揭示 Copilot、Cursor 等工具在实际工作中的应用与满意度。",
-    "detail": "JetBrains 发布 2026 年 AI Pulse 调查，样本覆盖全球超 1 万名专业开发者。报告对比了 GitHub Copilot、Cursor、JetBrains AI Assistant 等工具在过去两年的认知度、采用率及满意度。数据揭示了哪些工具真正进入企业工作流而非仅用于宠物项目，为开发者选型及企业构建开发基础设施提供了实证依据。随着代理式工作流复杂化，了解专业 traction 对构建未来开发基础设施至关重要。报告还暗示了开源模型与闭源服务在企业端的接受度差异，为工具开发者指明了改进方向。",
-    "tags": [
-      "Dev",
-      "Survey",
-      "Tools"
-    ],
-    "link": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/",
-    "date": "2026-04-23",
-    "id": "17769777841002"
-  },
-  {
-    "title": "脑再生观测站：AI 驱动神经科学研究平台",
-    "summary": "汇聚全球最新脑再生研究，利用 ML 技术追踪临床试验与论文，加速科学发现。",
-    "detail": "Brain Regeneration Observatory 上线，这是一个利用机器学习长期追踪脑再生研究的平台。由科英布拉大学、剑桥大学等团队策划，实时索引 PubMed 及 bioRxiv 论文。涵盖细胞重编程、神经免疫代谢等領域，能在论文发布数小时内完成收集与排名。展示了 AI 在加速生物医学科研信息筛选与转化方面的实际落地应用，解决了研究人员难以每日追踪海量最新发现的痛点。该平台不仅促进跨机构协作，还为药物研发提供了更精准的数据支持，是 AI for Science 的典型范例。",
-    "tags": [
-      "New",
-      "Science",
-      "ML"
-    ],
-    "link": "https://brain-regeneration.com/",
-    "date": "2026-04-23",
-    "id": "17769777841003"
-  },
-  {
-    "title": "Chestnut：对抗 AI 导致技能萎缩的编程学习平台",
-    "summary": "提供个性化编码课程，帮助开发者在使用 AI 的同时保持深度技术理解与编码能力。",
-    "detail": "针对 AI 编码工具可能导致的技能萎缩问题，Chestnut 推出个性化编程学习服务。平台通过分析开发者与 AI 交互的代码，识别知识盲区并提供深度课程（如 React 重渲染逻辑）。旨在帮助开发者“快速交付的同时深入学习”，确保在 AI 辅助下仍能掌握核心系统知识。这回应了行业对过度依赖代理输出的担忧，提供了一种保持技术边缘的解决方案。其核心价值在于防止开发者沦为单纯的提示词工程师，维护软件工程的专业壁垒与代码质量。",
-    "tags": [
-      "New",
-      "Education",
-      "Coding"
-    ],
-    "link": "https://www.chestnut.so/",
-    "date": "2026-04-23",
-    "id": "17769777841004"
   }
 ]
