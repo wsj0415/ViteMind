@@ -1,5 +1,70 @@
 [
   {
+    "title": "Vorim.ai 推出 AI 代理身份与信任层",
+    "summary": "为 AI 代理提供加密身份、权限管理及审计追踪的安全层。",
+    "detail": "Vorim.ai 发布针对 AI 代理的身份与信任层解决方案。通过 Ed25519 加密标准赋予每个代理唯一身份，支持细粒度权限控制与不可变审计日志。兼容 LangChain、OpenAI 等主流框架，旨在解决自主代理规模化后的安全与合规问题。提供免费试用与 Playground，开发者可在 5 分钟内完成设置，为生产环境提供基础信任设施，降低代理滥用风险。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://vorim.ai/",
+    "date": "2026-04-25",
+    "id": "17771463923660"
+  },
+  {
+    "title": "Pika Labs 推出视频聊天代理功能",
+    "summary": "新增动画头像视频聊天技能，引发代理拟人化设计讨论。",
+    "detail": "Pika Labs 发布新技能，允许用户通过动画头像与 AI 代理进行实时视频聊天。该功能基于 PikaStream1.0 模型，保留记忆与个性。此举引发行业关于 AI 代理应作为“同事”还是“工具”的设计伦理讨论。尽管有人质疑其实用性，但这反映了多模态交互界面的最新探索趋势，可能改变人机协作的情感连接方式。",
+    "tags": [
+      "News",
+      "Multimodal",
+      "Product"
+    ],
+    "link": "https://metedata.substack.com/p/009-the-flavor-of-the-ai-interface",
+    "date": "2026-04-25",
+    "id": "17771463923661"
+  },
+  {
+    "title": "AI 模型可通过文本推断用户身份",
+    "summary": "Claude Opus 4.7 等模型展现作者识别能力，匿名性受挑战。",
+    "detail": "文章指出 Claude Opus 4.7 等先进模型能从少量文本中推断作者身份。这引发了对在线匿名性的深刻担忧，特别是对于边缘群体及隐私保护者。随着模型能力增强，传统的匿名交流方式可能失效，迫使社会重新审视隐私保护技术与政策。作者强调匿名性对保护少数群体言论自由的重要性，呼吁技术界关注此风险。",
+    "tags": [
+      "News",
+      "Privacy",
+      "LLM"
+    ],
+    "link": "https://www.theargumentmag.com/p/i-can-never-talk-to-an-ai-anonymously",
+    "date": "2026-04-25",
+    "id": "17771463923662"
+  },
+  {
+    "title": "Phinite 发布 AI 代理操作系统",
+    "summary": "支持多云与 SoC 2 合规，旨在 4 周内实现生产部署。",
+    "detail": "Phinite 推出专为 AI 代理设计的操作系统，强调企业级安全性与快速部署。支持多云环境并符合 SoC 2 标准，目标是将生产环境搭建时间缩短至 4 周。该工具旨在简化代理基础设施管理，满足企业对合规性与稳定性的核心需求。适合需要快速构建安全代理工作流的企业团队，降低运维复杂度。",
+    "tags": [
+      "New",
+      "Infrastructure",
+      "Enterprise"
+    ],
+    "link": "https://www.phinite.ai/",
+    "date": "2026-04-25",
+    "id": "17771463923663"
+  },
+  {
+    "title": "Paperclip 开源多代理编排工具",
+    "summary": "基于工单的编排系统，致力于实现零人力公司运营。",
+    "detail": "Paperclip 是一个开源的多 AI 代理编排器，采用基于工单的管理模式。该项目旨在通过自动化工作流减少人工干预，探索“零人力公司”的可行性。为开发者提供了管理复杂代理协作的框架，适合需要大规模自动化任务处理的场景。通过工单系统协调代理行为，提高任务执行的可追溯性与效率。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Automation"
+    ],
+    "link": "https://github.com/paperclipai/paperclip",
+    "date": "2026-04-25",
+    "id": "17771463923664"
+  },
+  {
     "title": "OpenAI CEO 就社区事件公开道歉",
     "summary": "OpenAI CEO 向 Tumbler Ridge 社区道歉，引发行业关注。",
     "detail": "OpenAI 首席执行官针对 Tumbler Ridge 社区事件发表公开道歉，该技术新闻由 TechCrunch 报道。虽然提供的文本未详述具体冲突原因，但此举表明领先 AI 实验室开始正视运营过程中对当地社区的潜在影响。此类公共关系事件可能促使整个行业加强对 AI 基础设施部署的社会责任评估，影响未来数据中心选址策略及社区关系管理标准。这标志着 AI 公司发展进入更注重社会融合的新阶段，企业需平衡技术扩张与社区利益，避免类似争议阻碍行业长期发展进程。高层道歉也暗示了内部合规审查的加强。",
@@ -1238,70 +1303,5 @@
     "link": "https://overnightai.substack.com/p/china-ai-news-eight-chinese-chip",
     "date": "2026-04-24",
     "id": "17770321562760"
-  },
-  {
-    "title": "MIT 科技评论：医疗 AI 实际疗效尚不明确",
-    "summary": "尽管医疗 AI 已部署，但缺乏证据表明其真正惠及患者，行业面临验证危机。",
-    "detail": "MIT Technology Review 报道指出，尽管医疗 AI 已经部署，但目前尚不清楚其是否真正有助于患者治疗。这一标题揭示了行业对 AI 医疗实际临床价值的担忧与验证缺失。文章暗示虽然技术已落地，但缺乏确凿证据证明其能改善患者治疗效果，提醒需审慎评估。",
-    "tags": [
-      "News",
-      "Healthcare",
-      "Ethics"
-    ],
-    "link": "https://www.technologyreview.com/2026/04/24/1136352/health-care-ai-dont-know-actually-helps-patients/",
-    "date": "2026-04-24",
-    "id": "17770321562761"
-  },
-  {
-    "title": "美国指控中国“工业规模”AI 窃取，中方回应为诽谤",
-    "summary": "美中 AI 争端升级，美方指控窃取技术，中方坚决否认并称其为诽谤。",
-    "detail": "Ars Technica 报道标题显示，美国指控中国进行工业规模 AI 窃取，中方回应称这是诽谤。尽管正文主要为隐私政策，但标题反映了中美在 AI 技术领域的地缘政治紧张局势升级。这一事件可能影响未来的技术合作与供应链安全，是政策层面需要关注的重大信号。",
-    "tags": [
-      "News",
-      "Policy",
-      "Geopolitics"
-    ],
-    "link": "https://arstechnica.com/tech-policy/2026/04/us-accuses-china-of-industrial-scale-ai-theft-china-says-its-slander/",
-    "date": "2026-04-24",
-    "id": "17770321562762"
-  },
-  {
-    "title": "PhotoSharpener：浏览器端 AI 照片修复与放大工具",
-    "summary": "基于 Real-ESRGAN 引擎，无需安装即可在浏览器中修复模糊照片并最高 4 倍放大。",
-    "detail": "PhotoSharpener 是一款基于 Web 的 AI 图像处理工具，核心采用 Real-ESRGAN 神经网络。它能在约 8 秒内重建照片细节、去除压缩噪声并修复人脸，支持 JPG/PNG/WebP 格式。无需安装插件或账户，适合快速处理肖像、产品图及老照片，为普通用户提供专业的图像增强能力。",
-    "tags": [
-      "New",
-      "Computer Vision",
-      "Tool"
-    ],
-    "link": "https://photosharpener.com/",
-    "date": "2026-04-24",
-    "id": "17770321562763"
-  },
-  {
-    "title": "Abodex: AI 房产搜索无需担心骚扰电话",
-    "summary": "班加罗尔房地产 AI 平台，保护用户隐私，杜绝中介骚扰电话。",
-    "detail": "Abodex 是一款针对班加罗尔市场的 AI 房地产搜索工具。与传统门户不同，它不向经纪人出售用户联系方式，从根本上杜绝了冷呼叫和垃圾短信。用户通过聊天界面表达需求，系统匹配新楼盘并安排参观。其核心价值在于优化用户决策而非生成销售线索，适合注重隐私的购房者。",
-    "tags": [
-      "New",
-      "Real Estate",
-      "Privacy"
-    ],
-    "link": "https://www.abodex.space/",
-    "date": "2026-04-24",
-    "id": "17770321562764"
-  },
-  {
-    "title": "AI 智能体从零设计 RISC-V CPU 核心",
-    "summary": "IEEE 报道 AI Agent 独立完成 CPU 核心设计，标志硬件设计自动化新里程碑。",
-    "detail": "IEEE Spectrum 最新报道，AI 智能体成功从零开始设计了一个完整的 RISC-V CPU 核心。这标志着 AI 在硬件工程领域的重大突破，展示了 Agentic AI 在复杂逻辑设计中的巨大潜力。该技术可能大幅缩短芯片研发周期，显著降低人力成本，对未来半导体行业产生深远影响。此举引发行业关于 AI 自主工程能力的广泛讨论，预示着未来芯片设计流程可能迎来自动化革命，开发者需关注相关工具链的演进。这一进展可能改变传统 EDA 工具格局，促使工程师转型为 AI 协作管理者。",
-    "tags": [
-      "News",
-      "Hardware",
-      "AI Agent"
-    ],
-    "link": "https://spectrum.ieee.org/ai-chip-design",
-    "date": "2026-04-24",
-    "id": "17770263365330"
   }
 ]
