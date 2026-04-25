@@ -1,5 +1,44 @@
 [
   {
+    "title": "HN 热议：真正听话的 AI 辅助开发工作流",
+    "summary": "Hacker News 社区讨论如何构建能准确遵循指令的 AI 开发环境。",
+    "detail": "该讨论源于 Hacker News 社区，开发者们分享各自在实际工作中能有效遵循指令的 AI 辅助开发 setup。反映了当前开发者对 AI 代码生成准确性的痛点，以及对于如何整合 AI 工具到现有工作流中的探索。随着模型能力增强，如何确保 AI 严格遵循复杂指令成为新挑战。讨论中可能涉及提示词工程、上下文管理及特定 IDE 插件的配置。这对于希望提升开发效率的团队具有参考价值，展示了社区对于 AI 编程助手的实际期望与配置方案，有助于优化工程实践，减少因 AI 幻觉导致的返工成本，推动开发流程的智能化转型。此类社区反馈也是评估 AI 编码工具成熟度的重要风向标。",
+    "tags": [
+      "Dev",
+      "Community",
+      "Workflow"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47899681",
+    "date": "2026-04-25",
+    "id": "17771073893960"
+  },
+  {
+    "title": "持久化 AI 代理之争：OpenClaw 对标 Hermes Agent",
+    "summary": "The New Stack 对比两款致力于实现“永不遗忘”的 AI 助手架构。",
+    "detail": "文章深入对比了 OpenClaw 与 Hermes Agent 两种新兴的 AI 代理架构，核心焦点在于“持久化记忆”能力。随着 AI 应用从单次对话转向长期任务执行，记忆机制成为关键瓶颈。该报道分析了两者在构建永不遗忘助手方面的技术路径差异，反映了 AI Agent 领域正从单纯的任务执行向具备长期上下文理解能力的方向演进。解决遗忘问题对于实现真正的自主代理至关重要，这意味着 AI 能在跨会话中保持状态一致性。对开发复杂自主代理系统具有指导意义，预示着下一代 AI 助手将具备更强的连续任务处理能力，是行业技术深化的体现。这种竞争将加速记忆模块的标准化，降低开发门槛。",
+    "tags": [
+      "News",
+      "Agents",
+      "Memory"
+    ],
+    "link": "https://thenewstack.io/persistent-ai-agents-compared/",
+    "date": "2026-04-25",
+    "id": "17771073893961"
+  },
+  {
+    "title": "DevResolve 上线：基于文档的 AI 技术支持聊天插件",
+    "summary": "新款 AI widget 可直接嵌入文档站，自动回答技术问题并减少工单。",
+    "detail": "DevResolve 推出了一款专为技术文档设计的 AI 聊天插件。该产品支持嵌入 Confluence、Notion 及自定义文档站，能基于知识库即时合成答案。其核心亮点在于“先回答后工单”机制，仅在无法解决时自动创建带上下文的工单，旨在减少工程师被重复技术问题打断的情况。适合需要提升技术支持效率的 SaaS 团队或开源项目，提供了一行代码嵌入的便捷部署方式。通过利用 RAG 技术，它确保了回答的准确性与来源可追溯性，有效降低了支持成本。这对于构建开发者友好型产品具有重要意义，标志着 AI 在技术支持领域的落地应用更加成熟，能够显著改善用户体验与团队效率。",
+    "tags": [
+      "New",
+      "Support",
+      "Docs"
+    ],
+    "link": "https://devresolve.ai/",
+    "date": "2026-04-25",
+    "id": "17771073893962"
+  },
+  {
     "title": "AMD 推出 Ryzen AI Max+ PC 处理器",
     "summary": "AMD 发布新款 AI PC 处理器，旨在桌面端提供卓越智能体验。",
     "detail": "AMD 宣布推出 Ryzen AI Max+ 系列 AI PC 处理器，强调在桌面端交付卓越智能。该产品针对商业系统及工作站优化，支持 Ryzen PRO 技术，涵盖 EPYC 服务器及 Ryzen PRO 笔记本/桌面端。此举表明硬件厂商正加速将 AI 算力下沉至终端设备，降低云端依赖，为本地 AI 应用提供硬件基础。通过提供强大的本地算力，企业能够更好地保护数据隐私，同时享受 AI 带来的效率提升，推动 AI PC 生态进一步发展，满足市场对高性能边缘计算的需求。",
@@ -24,19 +63,6 @@
     "link": "https://pypi.org/project/sagan-trade/",
     "date": "2026-04-25",
     "id": "17771018498772"
-  },
-  {
-    "title": "DevResolve：基于文档的 AI 技术支持 widget",
-    "summary": "嵌入文档站的 AI 聊天组件，自动回答技术问题。",
-    "detail": "DevResolve 是一款嵌入文档站点的 AI 聊天组件，可直接从知识库（Confluence, Notion 等）合成答案。仅在无法回答时自动创建工单，减少工程师被打断。支持一键嵌入，为 SaaS 产品提供即时技术支持，降低客服成本。其核心优势在于优先回答问题而非创建工单，显著提升用户自助服务体验和研发效率。该工具通过连接真实文档库，确保答案的准确性，是技术团队优化支持流程的理想选择。",
-    "tags": [
-      "New",
-      "Support",
-      "SaaS"
-    ],
-    "link": "https://devresolve.ai/",
-    "date": "2026-04-25",
-    "id": "17771018498773"
   },
   {
     "title": "Stash：开源 AI 代理持久记忆层",
@@ -154,6 +180,19 @@
     "link": "https://www.phoronix.com/news/GCC-Working-Group-AI-Policy",
     "date": "2026-04-25",
     "id": "17770941028336"
+  },
+  {
+    "title": "TechCrunch：Meta 的人才流失助力 Thinking Machines 崛起",
+    "summary": "媒体报道 Meta 的损失成为 Thinking Machines 公司的增益，暗示行业人才流动。",
+    "detail": "TechCrunch 报道指出 Meta 在 AI 领域的某些损失正转化为 Thinking Machines 公司的机遇。虽然具体细节未在当前摘要中完全展开，但标题暗示了关键人才或技术资源的流动。这反映了 2026 年 AI 行业竞争激烈，初创公司正通过吸纳大厂资源加速成长。此类动向通常预示着行业格局的微妙变化，值得关注 Thinking Machines 后续的技术发布或融资动态。大厂人才外流至初创企业是行业常态，往往伴随着新技术路线的兴起。这一新闻提醒投资者与从业者关注新兴势力的崛起，以及巨头内部调整可能带来的外部市场机会，是观察行业风向的重要窗口。",
+    "tags": [
+      "News",
+      "Talent",
+      "Industry"
+    ],
+    "link": "https://techcrunch.com/2026/04/24/metas-loss-is-thinking-machines-gain/",
+    "date": "2026-04-24",
+    "id": "17771073893963"
   },
   {
     "title": "虚拟现实之父 Jaron Lanier 谈 AI 误区",
@@ -1259,44 +1298,5 @@
     "link": "https://www.bvp.com/atlas/driving-seven-figure-enterprise-deals-how-recall-ais-amanda-zhu-went-from-founder-led-sales-to-building-out-gtm",
     "date": "2026-04-23",
     "id": "17769845068524"
-  },
-  {
-    "title": "GitHub 新项目 easl：AI 代理即时托管方案",
-    "summary": "开源项目 easl 支持将 AI 代理输出转化为可共享页面，实现即时托管。",
-    "detail": "开发者 Adir Amsalem 在 GitHub 上发布了开源项目 easl，旨在为 AI 代理提供即时托管服务。该工具允许用户将 AI 代理的输出转化为值得分享的页面，简化了 AI 应用的部署流程。对于希望快速展示和部署 AI Agent 的开发者而言，这是一个值得关注的新基础设施工具，降低了 Agent 应用的分发门槛。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Agent"
-    ],
-    "link": "https://github.com/AdirAmsalem/easl",
-    "date": "2026-04-23",
-    "id": "17769845068525"
-  },
-  {
-    "title": "Meta 计划裁员 10% 以抵消扎克伯格的 AI 支出",
-    "summary": "金融时报报道 Meta 将通过裁员资助 AI 战略，反映行业资源重组。",
-    "detail": "据金融时报报道，Meta 计划削减 10% 的就业岗位，旨在抵消马克·扎克伯格在人工智能领域的巨额支出。这一重大决策揭示了科技巨头在 AI 军备竞赛中的成本压力与资源分配策略。此举可能引发行业人才流动变化，并向投资者传递关于 AI 投入回报周期的信号，显示大公司正通过内部结构调整来维持高强度的 AI 研发竞争。",
-    "tags": [
-      "News",
-      "Meta",
-      "AI Strategy"
-    ],
-    "link": "https://www.ft.com/content/fe875f6c-f45c-4dbd-9d18-168d1fdbfd5f",
-    "date": "2026-04-23",
-    "id": "17769811585870"
-  },
-  {
-    "title": "Bret Taylor 的 Sierra 收购 YC 支持初创公司 Fragment",
-    "summary": "前 Salesforce 高管创立的 AI 公司 Sierra 完成对 Fragment 的收购。",
-    "detail": "TechCrunch 报道，由前 Salesforce 联合首席执行官 Bret Taylor 创立的 AI 初创公司 Sierra 收购了 YC 支持的 Fragment。此次并购显示了 AI 代理领域的整合趋势，成熟初创公司通过收购快速获取技术或团队。这标志着企业级 AI 服务市场正在进入优胜劣汰阶段，头部玩家正通过资本手段巩固市场地位，加速产品落地与规模化。",
-    "tags": [
-      "News",
-      "M&A",
-      "Startups"
-    ],
-    "link": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
-    "date": "2026-04-23",
-    "id": "17769811585871"
   }
 ]
