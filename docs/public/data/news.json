@@ -1,5 +1,44 @@
 [
   {
+    "title": "Newsletrix：AI 驱动的通讯竞争对手情报工具",
+    "summary": "专为通讯创作者打造，提供 AI 竞争对手分析与主题行测试。",
+    "detail": "Newsletrix 是一款面向通讯创作者的 AI 工具，旨在通过竞争对手情报驱动转化率。核心功能包括 AI 竞争对手摘要，能分析发送时间、主题行长度及折扣活动；还有 AI 过滤助手，可按打开率筛选内容；及主题行向导，自动评分并基准测试。仪表盘提供竞争对手通讯分析，支持免费计划且无需信用卡。它强调通过数据而非猜测来优化通讯策略，适合营销人员及内容创作者使用，帮助停止猜测，开始赢得市场，提升邮件打开率与转化效果。",
+    "tags": [
+      "New",
+      "Marketing",
+      "SaaS"
+    ],
+    "link": "https://newsletrix.com/",
+    "date": "2026-04-26",
+    "id": "17772148309200"
+  },
+  {
+    "title": "顶级程序员因 AI 工具疑虑回归手写代码",
+    "summary": "精英开发者质疑 AI 生成代码质量，转向 Zig 或 Rust 手动编码。",
+    "detail": "尽管 Google 和 Anthropic 等大厂大量使用 AI 生成代码，但 Inference.net CEO 指出顶级程序员正回归手写代码。开发者批评 AI 代码存在 buggy \"slop\"，修复耗时且缺乏直觉。虽然 AI 适合样板代码，但在细微差别和核心逻辑上，手动编码仍受青睐。这反映了业界对 AI 编程效率与质量平衡的重新审视，尤其在系统级编程语言如 Zig 或 Rust 中，人类直觉仍不可替代。讨论突出了 AI 在规模上的优势，但在细微差别和直觉上的局限，引发对未来开发模式的深刻讨论。",
+    "tags": [
+      "News",
+      "Coding",
+      "Trend"
+    ],
+    "link": "https://x.com/i/trending/2048161728521798035",
+    "date": "2026-04-26",
+    "id": "17772148309201"
+  },
+  {
+    "title": "Dirac 推出新机制：AI 代码编辑成本降低 60%",
+    "summary": "结合哈希锚点与 Myers 差分算法，优化 AI Agent 代码编辑效率。",
+    "detail": "Dirac 发布博文介绍一种新型代码编辑机制，通过哈希锚点、状态后端及 Myers 差分算法实现选择性重新锚定。相比传统搜索替换或 apply_patch，该方法显著降低输出 token 消耗，使 AI 代码编辑成本降低 60%。该技术特别适用于 AI Agent 工具链，解决了读取与编辑操作中的成本与上下文惩罚问题。鉴于输出 token 成本远高于输入，此优化对大规模代理编码至关重要，为构建更经济的 AI 编程助手提供了新思路，目前已在 Dirac 平台中应用验证。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Optimization"
+    ],
+    "link": "https://dirac.run/posts/hash-anchors-myers-diff-single-token",
+    "date": "2026-04-26",
+    "id": "17772148309203"
+  },
+  {
     "title": "UseMoney AI 上线：印度散户的 AI 投资副驾驶",
     "summary": "面向印度市场的 AI 投资助手，支持股票研究、组合分析及退休规划。",
     "detail": "UseMoney AI 近日在 Hacker News 社区亮相，定位为印度零售投资者的 AI 副驾驶。其核心功能涵盖全市场股票与共同基金对比、投资组合弱点深度分析以及基于 FIRE 理念的退休规划计算器。该产品体现了生成式 AI 在垂直金融领域的具体应用落地，旨在通过自然语言交互显著降低普通用户的投资分析门槛。对于行业而言，这展示了 AI 如何辅助用户进行更理性的资产配置决策，并可能成为新兴市场金融科技发展的一个典型案例。后续需关注其数据准确性及当地金融合规性进展，这将是此类 AI 投顾产品规模化的关键挑战。",
@@ -310,6 +349,19 @@
     "link": "https://zephyr-agent.sh/",
     "date": "2026-04-26",
     "id": "17771718273153"
+  },
+  {
+    "title": "Octopal：无需盲目信任的本地多 Agent 运行时",
+    "summary": "开源本地多 Agent 框架，采用 Docker 隔离确保执行安全。",
+    "detail": "Octopal 是一个开源的本地多 Agent 运行时，核心理念是“分离思考与执行”。Octo 负责规划，Workers 负责执行，默认采用 Docker 隔离和临时工作空间。它解决了传统 Agent 权限过大的问题，使访问意图可审查、边界可验证。适合注重隐私和安全的企业级 AI 自动化部署，支持跨平台使用。用户无需盲目信任 Agent，可通过明确边界验证系统安全性，防止未授权脚本影响主机。其架构设计强调了在强大功能与安全控制之间的平衡，是本地 AI 代理运行的重要创新。",
+    "tags": [
+      "New",
+      "Agent",
+      "Security"
+    ],
+    "link": "https://octopal.ca/",
+    "date": "2026-04-25",
+    "id": "17772148309204"
   },
   {
     "title": "多 Agent 系统正在取代单 Agent 架构",
@@ -1251,57 +1303,5 @@
     "link": "https://www.phoronix.com/news/GCC-Working-Group-AI-Policy",
     "date": "2026-04-25",
     "id": "17770941028336"
-  },
-  {
-    "title": "TechCrunch：Meta 的人才流失助力 Thinking Machines 崛起",
-    "summary": "媒体报道 Meta 的损失成为 Thinking Machines 公司的增益，暗示行业人才流动。",
-    "detail": "TechCrunch 报道指出 Meta 在 AI 领域的某些损失正转化为 Thinking Machines 公司的机遇。虽然具体细节未在当前摘要中完全展开，但标题暗示了关键人才或技术资源的流动。这反映了 2026 年 AI 行业竞争激烈，初创公司正通过吸纳大厂资源加速成长。此类动向通常预示着行业格局的微妙变化，值得关注 Thinking Machines 后续的技术发布或融资动态。大厂人才外流至初创企业是行业常态，往往伴随着新技术路线的兴起。这一新闻提醒投资者与从业者关注新兴势力的崛起，以及巨头内部调整可能带来的外部市场机会，是观察行业风向的重要窗口。",
-    "tags": [
-      "News",
-      "Talent",
-      "Industry"
-    ],
-    "link": "https://techcrunch.com/2026/04/24/metas-loss-is-thinking-machines-gain/",
-    "date": "2026-04-24",
-    "id": "17771073893963"
-  },
-  {
-    "title": "虚拟现实之父 Jaron Lanier 谈 AI 误区",
-    "summary": "Lanier 在布朗大学演讲，称人们完全想错了 AI 的本质。",
-    "detail": "虚拟现实先驱 Jaron Lanier 在布朗大学演讲中指出，人们思考 AI 的方式存在根本错误。他强调 AI 技术完全由人类洞察和创新组成，只有记住这一点，AI 才能帮助科学发现。这一观点提醒行业关注人类在 AI 发展中的核心作用，避免过度神化技术，倡导以人为本的 AI 发展路径。Lanier 的见解对当前 AI 伦理讨论具有深远影响，促使开发者反思技术背后的社会責任，确保 AI 服务于人类福祉而非取代人类创造力。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Opinion"
-    ],
-    "link": "https://www.brown.edu/news/2026-04-24/jaron-lanier-cooper-lecture",
-    "date": "2026-04-24",
-    "id": "17771018498771"
-  },
-  {
-    "title": "Meta 发布 Llama 4：液态变压器架构",
-    "summary": "Llama 4 消除开源与专有模型性能差距，支持 2M 上下文。",
-    "detail": "Meta 正式发布 Llama 4，采用 Liquid Transformers 2.0 架构，支持 200 万 token 上下文且功耗降低 40%。405B 模型在逻辑推理上超越 GPT-5，具备原生多模态和集成链式思考能力。这标志着开源模型进入主权 AI 新时代，大幅降低推理成本。企业可在本地服务器运行世界级模型，无需百万美元预算，改变行业格局。此架构解决了 2025 年最大的推理成本问题，使主权 AI 成为可能，推动开源生态进一步发展。",
-    "tags": [
-      "News",
-      "LLM",
-      "Meta"
-    ],
-    "link": "https://en.landingfymax.com.br/artificial-intelligence/llama-4-meta-open-source-sovereignty-2026",
-    "date": "2026-04-24",
-    "id": "17771018498775"
-  },
-  {
-    "title": "xAI 核心团队动荡：超 80 名员工离职",
-    "summary": "马斯克旗下 xAI 公司遭遇人才流失，包括联合创始人及多名工程师在内的 80 余人已离职。",
-    "detail": "### 背景\nElon Musk 旗下的 AI 公司 xAI 正面临严重的人才流失危机。根据 Fast Company 的报道，已有超过 80 名员工离开该公司，其中包括联合创始人和核心 AI 工程师。\n\n### 核心影响\n1. **团队稳定性**：核心创始成员和工程师的离职可能影响 Grok 模型及后续产品的迭代速度。\n2. **行业信号**：这反映了 AI 初创公司在高速扩张期面临的管理与文化挑战，人才竞争日益激烈。\n3. **未来展望**：尽管遭遇离职潮，xAI 仍需证明其技术路线的可持续性以吸引剩余团队和投资者。",
-    "tags": [
-      "News",
-      "xAI",
-      "人才流失"
-    ],
-    "link": "https://www.fastcompany.com/91531084/inside-the-xai-exodus",
-    "date": "2026-04-24",
-    "id": "17770740745560"
   }
 ]
