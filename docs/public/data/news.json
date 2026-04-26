@@ -1,5 +1,31 @@
 [
   {
+    "title": "独立开发者弃用传统引导，转而构建 AI 基础设施",
+    "summary": "预订平台 Opencals 创始人发现用户困惑，用 AI 替代传统教程。",
+    "detail": "独立开发者经营预订平台 Opencals 时发现，复杂的系统导致新用户流失。传统的工具提示和视频教程无效，用户不愿阅读文档。通过观看屏幕录制，创始人决定停止构建传统引导，转而开发 AI 基础设施。AI 能理解用户意图并直接辅助操作，降低了学习成本。此案例展示了 AI 在 SaaS 用户体验优化中的实际落地，从“教育用户”转向“智能辅助”，为复杂系统的交互设计提供了新思路。随着 AI 集成度提高，未来 SaaS onboard 流程可能被 AI 助手完全取代，显著提升用户转化率与留存率，减少支持成本。",
+    "tags": [
+      "Dev",
+      "SaaS",
+      "UX"
+    ],
+    "link": "https://www.indiehackers.com/post/i-stopped-building-onboarding-and-built-ai-instead-0VMigrTEwai1dRzWCRvS",
+    "date": "2026-04-26",
+    "id": "17772037655790"
+  },
+  {
+    "title": "WAB 发布开源 AI 代理与网页交互协议桥梁",
+    "summary": "开源项目 WAB 提供标准化命令接口，连接 AI 代理与网站。",
+    "detail": "WAB (Web Agent Bridge) 推出了开源的 AI 代理与网页交互协议，旨在标准化 AI 代理与网站之间的通信。该平台支持 React、Vue 等主流框架，核心功能包括自动发现网页元素、细粒度权限控制及 DNS 发现。它赋予网站所有者对 AI 访问的控制权，有效解决了代理随意操作网页的安全隐患。这是 AI Agent 基础设施的重要补充，有助于推动自主代理在 Web 环境中的安全部署与大规模应用。开发者可通过简单脚本集成，实现网站与 AI 的安全互操作，降低开发门槛，促进生态互联。",
+    "tags": [
+      "New",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://webagentbridge.com/",
+    "date": "2026-04-26",
+    "id": "17772037655791"
+  },
+  {
     "title": "沙盒 AI 代理存在新攻击面，单一隔离不足以防卫",
     "summary": "Lasso Security 研究发现沙盒无法完全隔离 AI 代理风险，需新防御策略。",
     "detail": "Lasso Security 发布最新研究，指出随着 OpenClaw 等自主代理的普及，传统的沙盒隔离机制存在固有缺陷。研究发现，即便将 AI 代理（如 NVIDIA NemoClaw）置于容器中，因其需访问外部工具，仍暴露攻击面。文章强调了 AI 原生攻击的风险，建议开发者不能仅依赖沙盒，需构建双向盾牌防止数据泄露及外部渗透。这为 AI 代理安全架构提供重要参考，警示行业需重新评估容器化策略的有效性，确保基础设施安全。任何有用的 AI 代理都需要访问外部世界以利用基本工具，这正是被利用的弱点。",
@@ -1277,31 +1303,5 @@
     "link": "https://techcrunch.com/2026/04/24/uber-cto-praveen-neppalli-naga-joins-stacked-strictlyvc-sf-lineup-for-april-30-event/",
     "date": "2026-04-24",
     "id": "17770740745563"
-  },
-  {
-    "title": "中国汽车产业响应号召加速全链路 AI 嵌入",
-    "summary": " Reuters 报道显示，中国汽车行业正Race 式地将 AI 技术嵌入各类车型，以响应北京方面的指导。",
-    "detail": "### 行业动态\n据 Reuters 报道，中国汽车产业正在加速将人工智能技术嵌入到各种汽车产品中。\n\n### 驱动因素\n1. **政策导向**：行业行动与北京方面的指令保持一致，显示出政策对技术落地的强力推动。\n2. **竞争态势**：车企之间形成竞赛态势，力求在智能化方面占据先机。\n3. **技术融合**：标志着 AI 从软件层面向硬件制造及出行服务的深度渗透，可能改变全球汽车竞争格局。",
-    "tags": [
-      "News",
-      "自动驾驶",
-      "中国汽车"
-    ],
-    "link": "https://www.reuters.com/world/asia-pacific/chinas-auto-industry-races-embed-ai-line-with-beijing-mandate-2026-04-24/",
-    "date": "2026-04-24",
-    "id": "17770740745564"
-  },
-  {
-    "title": "Roblox 推出 AI 生成可编辑 3D 模型功能",
-    "summary": "Roblox Studio 新增过程化模型，支持代码或 AI 创建编辑 3D 资产。",
-    "detail": "Roblox 官方宣布在 Studio 中引入过程化模型（Procedural Models）。开发者现在可以通过代码或 AI 工具创建可编辑的 3D 模型，并利用属性进行形状调整和细化。这一更新降低了 3D 内容创作门槛，将 AI 生成能力直接集成到主流游戏开发平台中。这意味着创作者无需深厚建模功底即可生成复杂资产，有望加速 UGC 生态内容的爆发式增长。此功能支持属性驱动的形状优化，使得迭代速度大幅提升，标志着游戏开发与 AI 融合的又一里程碑，为元宇宙内容生产带来新范式，可能引发新一轮创作工具竞争，重塑数字内容创作流程。",
-    "tags": [
-      "News",
-      "AI",
-      "GameDev"
-    ],
-    "link": "https://twitter.com/roblox/status/2047406073263382834",
-    "date": "2026-04-24",
-    "id": "17770705226680"
   }
 ]
