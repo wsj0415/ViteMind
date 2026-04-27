@@ -1,5 +1,70 @@
 [
   {
+    "title": "Canonical 公布 Ubuntu 未来 AI 战略",
+    "summary": "Canonical 计划将 AI 融入 Ubuntu，偏好开源模型。",
+    "detail": "随着 2026 年 LLM 工具普及，Canonical 宣布将在 Ubuntu 中逐步集成 AI 功能，优先考虑开源权重模型和本地推理。策略分为增强现有 OS 功能和推出\"AI 原生\"工作流。内部正鼓励工程师实验 AI 工具，但不设定强制指标，强调开放源原则与价值观兼容。此举标志着主流 Linux 发行版对 AI 集成的正式表态，将影响开发者生态及企业级 AI 部署方案的选择。用户可期待未来一年内看到更多成熟的 AI 特性落地，尤其是本地推理优先的架构设计。",
+    "tags": [
+      "News",
+      "Ubuntu",
+      "OpenSource"
+    ],
+    "link": "https://discourse.ubuntu.com/t/the-future-of-ai-in-ubuntu/81130",
+    "date": "2026-04-27",
+    "id": "17772880521700"
+  },
+  {
+    "title": "AI 赋能的漏洞赏金狩猎指南",
+    "summary": "资深猎人分享利用 AI 进行漏洞挖掘的方法论。",
+    "detail": "作者分享四年漏洞赏金经验，强调 AI 作为杠杆处理繁琐任务（如 recon、POC），让人专注于业务逻辑。指南涵盖从选择项目到报告的全流程，主张 minimalist 方法论，适合希望利用 AI 提升安全研究效率的开发者。作者指出心态转变比技术更重要，AI 并非噱头而是实际杠杆，能处理解析和常规任务，使猎人能聚焦于造成差异的业务逻辑漏洞挖掘。该指南基于实战经验而非理论，提供了具体的重构思路，帮助新手突破瓶颈。",
+    "tags": [
+      "Dev",
+      "Security",
+      "AI Tools"
+    ],
+    "link": "https://aituglo.com/guide/bug-bounty/",
+    "date": "2026-04-27",
+    "id": "17772880521701"
+  },
+  {
+    "title": "Mistral AI 估值达 140 亿美元",
+    "summary": "Forbes 报道 Mistral 通过非美式路径建立 AI 帝国。",
+    "detail": "Forbes 文章指出法国公司 Mistral AI 已建成价值 140 亿美元的 AI 帝国，强调其\"非美国\"的发展路径。该新闻在 Hacker News 上引发讨论，反映了欧洲 AI 势力在全球市场中的崛起及差异化竞争策略的成功。尽管具体细节需阅读原文，但标题揭示了其估值里程碑。这表明非美国 AI 公司在资本市场的认可度提升，可能改变全球 AI 格局。对于关注地缘政治影响 AI 发展的观察者，这是一个关键信号，显示多元化 AI 生态的可行性。",
+    "tags": [
+      "News",
+      "Mistral",
+      "Valuation"
+    ],
+    "link": "https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american/",
+    "date": "2026-04-27",
+    "id": "17772880521702"
+  },
+  {
+    "title": "Mercor 发生大规模语音数据泄露",
+    "summary": "4TB 语音样本及身份信息被盗，涉及 4 万名承包商。",
+    "detail": "勒索组织 Lapsus$ 泄露了 Mercor 的 4TB 数据，包含 4 万名 AI 承包商的语音生物识别信息及政府身份证件。这种组合可直接用于合成语音克隆。已有诉讼提起，凸显了 AI 训练数据收集中的隐私风险及生物特征保护的紧迫性。攻击者利用这些数据进行身份验证绕过或欺诈的风险极高。此次事件为 AI 数据标注行业敲响了安全警钟，要求更严格的数据隔离与加密措施。受害者需警惕声音被武器化用于社会工程攻击，行业需重新审视生物数据收集规范。",
+    "tags": [
+      "News",
+      "Security",
+      "Data Breach"
+    ],
+    "link": "https://app.oravys.com/blog/mercor-breach-2026",
+    "date": "2026-04-27",
+    "id": "17772880521703"
+  },
+  {
+    "title": "Implit 防止 AI 幻觉生成虚假依赖",
+    "summary": "新 CLI 工具可验证导入并捕获虚假 NPM 包。",
+    "detail": "Show HN 项目 Implit 是一个 CLI 工具，旨在验证导入语句并捕获 AI 生成的虚假 NPM 依赖包。针对 AI 编码助手可能幻觉出不存在包的问题，该工具帮助开发者确保依赖真实性，提升代码库安全性与构建稳定性。随着 AI 生成代码的普及，此类幻觉依赖成为新风险点。该工具通过静态分析验证导入路径，防止构建失败或潜在的安全漏洞，是 AI 辅助开发工作流中的重要补充工具。开发者可在 CI/CD 流程中集成此工具以自动化检测，减少人工审查成本。",
+    "tags": [
+      "New",
+      "DevTools",
+      "NPM"
+    ],
+    "link": "https://github.com/Neurall-build/implit",
+    "date": "2026-04-27",
+    "id": "17772880521704"
+  },
+  {
     "title": "Sci-Hub 推出 Sci-Bot：AI 驱动的科研助手上线",
     "summary": "知名学术平台 Sci-Hub 推出 AI 助手 Sci-Bot，辅助研究人员查询。",
     "detail": "著名学术资源平台 Sci-Hub 正式推出 AI 驱动的科研助手 Sci-Bot。该工具旨在利用 AI 技术辅助研究人员进行文献查询和问题解答。页面显示支持令牌管理及问题历史记录功能。此举标志着学术资源平台正积极整合 AI 能力，可能改变科研人员获取信息和交互的方式，但需注意其版权与合规性争议背景。",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
     "date": "2026-04-25",
     "id": "17771532017574"
-  },
-  {
-    "title": "本地化 LLM 红队测试工具终身优惠",
-    "summary": "提供全套 AI 安全测试工具，一次性付费本地运行，无数据泄露风险。",
-    "detail": "该工具包包含提示注入、越狱矩阵等 8 个模块，覆盖 OWASP LLM Top 10。支持单文件本地运行，确保数据不出境，适合安全研究人员和企业合规测试。目前提供创始人终身授权优惠，无订阅费，是进行 AI 模型安全评估的高性价比选择。",
-    "tags": [
-      "Deal",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://aetherverseintel.gumroad.com/l/vpzqnk",
-    "date": "2026-04-25",
-    "id": "17771497415293"
-  },
-  {
-    "title": "开源工具监控网站被 AI 模型引用情况",
-    "summary": "GitHub 新项目追踪 GPT 或 Claude 是否引用你的网站，优化 AI SEO 策略。",
-    "detail": "针对 AI 搜索优化需求，该开源工具可监控网站内容是否被主流 AI 模型引用。集成 Google Search Console 与 GA4，无需订阅 SaaS 服务。帮助开发者量化内容在 AI 生态中的可见性，及时调整 SEO 策略以适应生成式搜索带来的流量变化。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "SEO"
-    ],
-    "link": "https://github.com/WorkSmartAI-alt/ai-visibility-monitor",
-    "date": "2026-04-25",
-    "id": "17771497415294"
-  },
-  {
-    "title": "新工具诚实评估任务是否适合 AI 处理",
-    "summary": "输入任务描述，从五维度获取 AI 可行性诚实评估，避免滥用技术。",
-    "detail": "该工具从重复性、模糊容忍度、数据可用性等五维度评分，提供校准后的 AI 任务可行性读数。无推销干扰，旨在帮助用户识别哪些工作流适合自动化，哪些仍需人工介入。提高人机协作效率，避免在不适合的场景浪费算力资源。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Tool"
-    ],
-    "link": "https://goodaitask.com",
-    "date": "2026-04-25",
-    "id": "17771497415295"
-  },
-  {
-    "title": "Vorim.ai 推出 AI 代理身份与信任层",
-    "summary": "为 AI 代理提供加密身份、权限管理及审计追踪的安全层。",
-    "detail": "Vorim.ai 发布针对 AI 代理的身份与信任层解决方案。通过 Ed25519 加密标准赋予每个代理唯一身份，支持细粒度权限控制与不可变审计日志。兼容 LangChain、OpenAI 等主流框架，旨在解决自主代理规模化后的安全与合规问题。提供免费试用与 Playground，开发者可在 5 分钟内完成设置，为生产环境提供基础信任设施，降低代理滥用风险。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agents"
-    ],
-    "link": "https://vorim.ai/",
-    "date": "2026-04-25",
-    "id": "17771463923660"
-  },
-  {
-    "title": "Pika Labs 推出视频聊天代理功能",
-    "summary": "新增动画头像视频聊天技能，引发代理拟人化设计讨论。",
-    "detail": "Pika Labs 发布新技能，允许用户通过动画头像与 AI 代理进行实时视频聊天。该功能基于 PikaStream1.0 模型，保留记忆与个性。此举引发行业关于 AI 代理应作为“同事”还是“工具”的设计伦理讨论。尽管有人质疑其实用性，但这反映了多模态交互界面的最新探索趋势，可能改变人机协作的情感连接方式。",
-    "tags": [
-      "News",
-      "Multimodal",
-      "Product"
-    ],
-    "link": "https://metedata.substack.com/p/009-the-flavor-of-the-ai-interface",
-    "date": "2026-04-25",
-    "id": "17771463923661"
   }
 ]
