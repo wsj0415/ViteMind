@@ -1,5 +1,70 @@
 [
   {
+    "title": "谷歌扩大五角大楼 AI 访问权限",
+    "summary": "Anthropic 拒绝后，谷歌深化与美国国防部合作。",
+    "detail": "**背景**：据 TechCrunch 报道，在 Anthropic 因政策原因拒绝五角大楼请求后，Google 迅速行动填补空白。**核心**：此次合作将扩大 Gemini 等先进模型在国防领域的应用权限，深化双方技术合作。**影响**：此举凸显科技巨头在地缘政治中的角色分化，政府 AI 采购策略正转向更可靠的供应商。分析认为，这表明美国国防部正在多元化其 AI 供应商基础，减少对单一公司的依赖。Google 此举可能为其赢得长期政府合同优势，但也可能面临公众对其军事合作的审查。行业需关注此类合作对模型开源策略及安全对齐的潜在影响。",
+    "tags": [
+      "News",
+      "Google",
+      "Defense"
+    ],
+    "link": "https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/",
+    "date": "2026-04-28",
+    "id": "17774004803580"
+  },
+  {
+    "title": "Claude.ai 及服务出现大规模中断",
+    "summary": "Anthropic 确认 API 及网页端出现错误，正在修复。",
+    "detail": "**现状**：Anthropic 状态页确认，Claude.ai 无法访问，API 错误率飙升。**影响范围**：涉及 Console、API、Claude Code 及政府版服务，登录路径受阻。**进展**：官方已确认问题并调查中，建议开发者准备降级方案。**建议**：依赖 Claude API 的生产环境需启动应急预案，避免业务中断，此次事故再次提醒单一模型依赖风险。对于关键任务系统，建议实施多模型冗余策略，确保在主要服务提供商出现中断时，业务连续性不受影响，同时密切关注官方修复进度。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "Outage"
+    ],
+    "link": "https://status.claude.com/incidents/9l93x2ht4s5w",
+    "date": "2026-04-28",
+    "id": "17774004803581"
+  },
+  {
+    "title": "EFF 警告 GUARD 法案将阻碍日常网络使用",
+    "summary": "新法案要求年龄验证，可能误伤 AI 搜索与客服。",
+    "detail": "**争议**：EFF 指出国会快速推进的 GUARD 法案定义过宽，关键投票预计本周进行。**后果**：虽旨在保护未成年人，但高中生可能被禁止使用 AI 作业辅导，成人隐私受损。**呼吁**：法案要求对所有用户实施年龄验证，EFF 建议反对该法案。**分析**：过度监管可能阻碍技术创新与日常使用，隐私侵犯风险显著增加。若法案通过，将强制服务实施语音限制且侵犯隐私的年龄验证系统。这不仅影响儿童，也迫使成人牺牲隐私，可能引发法律诉讼及行业合规成本大幅上升。",
+    "tags": [
+      "News",
+      "Policy",
+      "Regulation"
+    ],
+    "link": "https://www.eff.org/deeplinks/2026/04/guard-act-isnt-targeting-dangerous-ai-its-blocking-everyday-internet-use",
+    "date": "2026-04-28",
+    "id": "17774004803582"
+  },
+  {
+    "title": "彭博终端将迎来 AI 重大改版",
+    "summary": "金融数据巨头引入 AI 功能，用户反应不一。",
+    "detail": "**动态**：Wired 报道，彭博终端整合 AI 技术以提升数据分析效率，面临用户接受度挑战。**挑战**：传统金融用户对新界面接受度存疑，体验改变引发讨论，如是否喜欢此改版。**意义**：标志 AI 正式深入核心金融工作流，行业数字化转型加速。**分析**：专业工具智能化趋势明显，金融数据交互方式将迎来变革。然而，金融领域对准确性要求极高，AI 幻觉问题仍是主要障碍。此次改版将测试 AI 在高压金融环境下的可靠性，结果可能影响其他专业软件的 AI 集成策略。",
+    "tags": [
+      "News",
+      "Finance",
+      "Product"
+    ],
+    "link": "https://www.wired.com/story/the-bloomberg-terminal-is-getting-an-ai-makeover-like-it-or-not/",
+    "date": "2026-04-28",
+    "id": "17774004803583"
+  },
+  {
+    "title": "AI 软件开发生命周期中的反馈循环",
+    "summary": "探讨如何在 AI 辅助编程中平衡信任与审查。",
+    "detail": "**核心**：Makers & Breakers 系列文章第四部分，聚焦工程实践与系统思维。**观点**：完全放任或过度审查皆不可取，需建立有效反馈机制。**价值**：通过 PR 队列与合并实例，为开发者提供管理 AI 生成代码质量的系统性思路。**分析**：文章探讨了如何在 AI 辅助下保持工程严谨性，平衡效率与安全。随着 AI 生成代码比例增加，传统的代码审查流程面临挑战。建立有效的自动化网关与人工审查结合的反馈循环，是确保软件交付质量的关键，为团队落地 AI 开发提供参考。",
+    "tags": [
+      "Dev",
+      "SDLC",
+      "Engineering"
+    ],
+    "link": "https://makersbreakers.substack.com/p/the-feedback-loop",
+    "date": "2026-04-28",
+    "id": "17774004803584"
+  },
+  {
     "title": "犹他州批准 9GW AI 数据中心园区",
     "summary": "Kevin O'Leary 支持的项目，耗电量超州内两倍，引发能源关注。",
     "detail": "**背景**：犹他州正式批准了一个高达 9GW 的 AI 数据中心园区项目。\n**核心看点**：该项目由 Kevin O'Leary 支持，其预计用电量超过该州当前总电力的两倍，凸显 AI 基础设施对能源的巨大需求。\n**行业影响**：标志着 AI 算力扩张进入能源密集型阶段，可能引发当地电力供应紧张及环保争议，同时也显示了资本对 AI 长期基建的信心。",
@@ -1233,70 +1298,5 @@
     "link": "https://eeshans.com/writing/its-time-for-the-regular-person-to/",
     "date": "2026-04-26",
     "id": "17772330926411"
-  },
-  {
-    "title": "AI 治理新架构 Mirror Field",
-    "summary": "提出基于提交边界的 AI 治理与问责方案。",
-    "detail": "针对代理 AI 的问责难题，提出 Mirror Field Operating System。涵盖问责、安全、隐私、公平等八大核心问题。通过提交边界（commit-boundary）方法 gating 模型输出，解决决策不可逆性。为监管提供审计证据，填补技术执行层空白。连接 UNESCO 伦理原则与 EU AI 法案，是技术治理的重要尝试。影响合规架构设计，帮助董事会定义责任归属，确保高影响系统可审计。",
-    "tags": [
-      "News",
-      "Governance",
-      "Policy"
-    ],
-    "link": "https://zippy-cucurucho-a24a3e.netlify.app/",
-    "date": "2026-04-26",
-    "id": "17772330926412"
-  },
-  {
-    "title": "自由职业者 AI 获客工具",
-    "summary": "自动分析本地企业网站弱点以生成销售线索。",
-    "detail": "Slay At Work 利用 AI 审计潜在客户的网站和社交媒体。流程分三步：搜索、暴露弱点、关闭交易。提供网站审计、品牌评分及 AI 洞察，自动生成 pitch 素材。集成轻量 CRM 跟踪线索。利用 AI 分析社交媒体活跃度与网站质量，帮助用户精准定位低分客户。是垂直场景 AI 应用的典型案例，简化销售流程。无需信用卡即可开始，适合代理机构及个人开发者拓展业务。",
-    "tags": [
-      "New",
-      "SaaS",
-      "Freelance"
-    ],
-    "link": "https://slayatwork.com/",
-    "date": "2026-04-26",
-    "id": "17772330926413"
-  },
-  {
-    "title": "经济学家可能误判 AI 影响",
-    "summary": "Odd Lots 视频探讨经济学界对 AI 的认知偏差。",
-    "detail": "Bloomberg 旗下 Odd Lots 邀请 Alex Imas 讨论，指出传统经济模型可能低估 AI 带来的结构性变化。为理解 AI 宏观影响提供新视角，适合关注行业长期趋势的投资人及分析师。视频由 Bloomberg Podcasts 发布，具有较高权威性，探讨深层经济逻辑。虽无详细文字稿，但主题涉及宏观经济学与技术变革的交叉。暗示市场预期可能存在偏差，需重新审视劳动力市场模型。",
-    "tags": [
-      "News",
-      "Economics",
-      "Analysis"
-    ],
-    "link": "https://www.youtube.com/watch?v=uxMwmaGE64Y",
-    "date": "2026-04-26",
-    "id": "17772330926414"
-  },
-  {
-    "title": "Fabraix 推出 Nyx：AI Agent 对抗性验证引擎",
-    "summary": "牛津团队打造，黑盒多轮自适应测试，解决 Agent 安全与逻辑漏洞。",
-    "detail": "Fabraix 发布 Nyx，专为 AI Agent 设计的对抗性验证引擎。支持纯黑盒、多轮自适应压力测试，覆盖语音、文本多模态。内置 1000+ 对抗攻击策略，能发现静态基准测试遗漏的逻辑漏洞与奖励黑客行为。已获牛津、Meta 等机构认可。为 Agent 部署前提供关键安全保障，自主探测设置中的奖励信号博弈，帮助开发者在训练前识别问题，显著节省高达 30% 的计算浪费，提升 Agent 可靠性与安全性。该工具无需特殊访问权限，即可像用户一样与系统交互，全面覆盖多模态输入表面，为开发者提供前所未有的安全测试能力。",
-    "tags": [
-      "New",
-      "AI Agent",
-      "Security"
-    ],
-    "link": "https://fabraix.com/",
-    "date": "2026-04-26",
-    "id": "17772299494130"
-  },
-  {
-    "title": "WordPress 集成 AI 功能引发的 Token 成本隐忧",
-    "summary": "Automattic 推动 Agent 网络，但插件 Token 消耗成本未明，恐影响用户采用。",
-    "detail": "Automattic 宣称 WordPress 为 Agent 网络操作系统，即将推出 MCP 写入能力。但分析指出，AI 插件的 Token 消耗成本未被充分讨论。若成本转嫁给用户，可能阻碍普及。文章呼吁关注基础设施背后的经济模型，确保 AI 功能在 WordPress 生态中的可持续性。开发者需警惕隐性成本，避免用户体验因费用问题受损。随着 AI 功能集成加深，透明化的定价策略将成为决定这一愿景成败的关键因素，否则可能导致用户流失，阻碍 WordPress 成为真正的 Agent 网络操作系统。",
-    "tags": [
-      "News",
-      "WordPress",
-      "LLM"
-    ],
-    "link": "https://russellenvy.com/wordpress-ai-plugins-token-cost/",
-    "date": "2026-04-26",
-    "id": "17772299494131"
   }
 ]
