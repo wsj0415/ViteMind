@@ -1,5 +1,83 @@
 [
   {
+    "title": "开源轻量级 AI 网关 Lightport 发布",
+    "summary": "兼容 OpenAI 接口，支持 77 家大模型提供商的轻量级网关。",
+    "detail": "Lightport 是一款开源 AI 网关，旨在将各类 LLM 提供商转换为 OpenAI 兼容接口。支持 Anthropic、Google Gemini、Ollama 等 77 家供应商。作为 Portkey 的轻量级分支，它专注于请求/响应转换，不包含缓存或限流等功能，适合需要简单代理层的开发者。已集成测试并服务于 Glama 平台，简化了多模型切换的复杂度。开发者可借此快速构建统一接口层，避免被供应商锁定，同时降低维护成本，是构建多模型路由策略的理想基础组件，适合中小型项目快速集成。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "LLM"
+    ],
+    "link": "https://www.npmjs.com/package/lightport",
+    "date": "2026-04-28",
+    "id": "17773452348092"
+  },
+  {
+    "title": "49Agents：开源 AI 代理无限画布 IDE",
+    "summary": "支持多项目管理的 2D IDE，可在本地或集群部署 AI 代理。",
+    "detail": "49Agents 是一个开源的 2D 集成开发环境，专为管理 AI 代理设计。支持在原生 CLI、终端及多项目间协调代理任务。用户可选择单机本地托管、通过 Tailscale 集群部署或连接云端服务。该工具解决了多代理系统可视化管理的痛点，为开发者提供了直观的代理工作流编排界面。适合复杂 Agent 系统的构建与调试，允许跨机器管理 Git 与文件问题。其无限画布设计提升了多任务并行处理的效率，降低了分布式代理系统的运维门槛，推动 Agent 开发标准化。",
+    "tags": [
+      "New",
+      "Agents",
+      "IDE"
+    ],
+    "link": "https://github.com/49Agents/49Agents",
+    "date": "2026-04-28",
+    "id": "17773452348093"
+  },
+  {
+    "title": "业界提议建立 AI 内容生成分级标准",
+    "summary": "Zeropolis 提出 AI-X 分级体系，量化文章中的 AI 使用程度。",
+    "detail": "针对网络内容中 AI 生成泛滥的问题，Zeropolis 提出 AI-X 分级标准。从 AI-0（纯人类创作）到 AI-5（纯提示词生成），中间包含翻译、研究辅助等层级。该体系旨在帮助读者快速识别内容含金量，鼓励作者诚信披露 AI 使用情况。若被广泛采纳，将成为内容行业评估信息质量与透明度的重要参考指标，缓解读者对“垃圾内容”的焦虑。它区分了辅助写作与完全生成，为版权与原创性讨论提供了量化依据，可能影响未来内容平台的审核与推荐算法策略。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Content"
+    ],
+    "link": "https://docs.zeropolis.net/doku.php/tech:ai-text-categorization",
+    "date": "2026-04-28",
+    "id": "17773452348094"
+  },
+  {
+    "title": "英伟达发布物理信息自适应超声成像 AI",
+    "summary": "结合物理信息的 AI 模型，提升超声成像的自适应能力。",
+    "detail": "英伟达在 Hugging Face 展示了最新的 Raw2Insights 项目，专注于自适应超声成像。该技术利用物理信息神经网络（PINN）处理原始超声数据，显著提升了成像质量与诊断效率。这是 AI 在医疗垂直领域落地的典型案例，展示了专用模型如何结合领域知识（物理规律）优化传统成像系统。为医疗 AI 设备的智能化升级提供了新路径，证明了混合 AI 架构在专业科学计算中的优势，有望加速临床诊断工具的自动化进程，减少医生操作差异带来的影响。",
+    "tags": [
+      "Dev",
+      "Healthcare",
+      "Nvidia"
+    ],
+    "link": "https://huggingface.co/blog/nvidia/raw2insights-adaptive-ultrasound-imaging",
+    "date": "2026-04-28",
+    "id": "17773452348095"
+  },
+  {
+    "title": "AlphaGo 之父质疑当前 AI 发展路径",
+    "summary": "David Silver 认为强化学习并非唯一路径，AI 发展方向存疑。",
+    "detail": "Wired 专访 AlphaGo 幕后功臣 David Silver。他指出当前 AI 过度依赖大规模数据与算力，可能偏离了真正的智能本质。Silver 强调“难以言喻的智能”（ineffable intelligence）与强化学习的重要性，警示行业需反思技术路线。他认为单纯的语言模型训练不足以产生真正的推理能力，需结合环境交互。此观点可能引发对 AGI 发展路径的新一轮学术争论，挑战当前主流的大模型缩放定律，促使研究者重新审视强化学习在通用智能中的核心地位与潜力，影响未来投资方向。",
+    "tags": [
+      "News",
+      "AGI",
+      "Reinforcement Learning"
+    ],
+    "link": "https://www.wired.com/story/david-silver-ai-ineffable-intelligence-reinforcement-learning/",
+    "date": "2026-04-27",
+    "id": "17773452348090"
+  },
+  {
+    "title": "谷歌 Jeff Dean 展望 2035 年计算机系统架构",
+    "summary": "行业领袖齐聚旧金山，探讨 AI 驱动下计算机系统的万年倍未来。",
+    "detail": "CRA-Industry 举办沙龙，由 Google AI 的 Jeff Dean 与 UC Berkeley 的 Dave Patterson 主持。会议聚焦 2035 年计算机系统形态，预测算力将实现 10,000 倍增长。来自学术界与产业界的 20 位领袖参与了这场“杰斐逊式晚宴”，共同定义未来十年的硬件与软件架构设计方法论。活动由 Laude Institute 赞助，讨论了 AI Moonshot 奖项。这标志着基础设施层正为 AI 原生时代做长期规划，硬件设计将彻底围绕 AI 工作负载优化，重塑数据中心与边缘计算格局。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Google"
+    ],
+    "link": "https://cra.org/industry/2026/04/27/how-ai-will-reshape-computer-systems-by-2035-a-jeffersonian-dinner-in-san-francisco-about-our-10000x-future/",
+    "date": "2026-04-27",
+    "id": "17773452348091"
+  },
+  {
     "title": "DeepSeek V4 定价低于 OpenAI 97%",
     "summary": "中国 DeepSeek 发布 V4 模型，定价比 OpenAI GPT-5.5 低 97%，引发价格战。",
     "detail": "**背景**：全球 AI 模型竞争进入白热化阶段，成本成为关键壁垒。**核心**：据南华早报报道，中国公司 DeepSeek 发布新一代 V4 模型，其定价策略极具侵略性，比 OpenAI 的 GPT-5.5 低 97%。**影响**：此举可能迫使行业巨头降低 API 成本，加速 AI 技术在企业端的普及，但也引发市场对模型质量与盈利可持续性的担忧。标志着中国 AI 企业在成本控制上的显著优势，可能重塑全球定价体系，开发者将受益于更低的调用成本，但需关注服务稳定性。这不仅是价格战，更是技术效率的比拼。此消息显示了中美 AI 竞争的新维度。",
@@ -1220,83 +1298,5 @@
     "link": "https://newsletrix.com/",
     "date": "2026-04-26",
     "id": "17772148309200"
-  },
-  {
-    "title": "顶级程序员因 AI 工具疑虑回归手写代码",
-    "summary": "精英开发者质疑 AI 生成代码质量，转向 Zig 或 Rust 手动编码。",
-    "detail": "尽管 Google 和 Anthropic 等大厂大量使用 AI 生成代码，但 Inference.net CEO 指出顶级程序员正回归手写代码。开发者批评 AI 代码存在 buggy \"slop\"，修复耗时且缺乏直觉。虽然 AI 适合样板代码，但在细微差别和核心逻辑上，手动编码仍受青睐。这反映了业界对 AI 编程效率与质量平衡的重新审视，尤其在系统级编程语言如 Zig 或 Rust 中，人类直觉仍不可替代。讨论突出了 AI 在规模上的优势，但在细微差别和直觉上的局限，引发对未来开发模式的深刻讨论。",
-    "tags": [
-      "News",
-      "Coding",
-      "Trend"
-    ],
-    "link": "https://x.com/i/trending/2048161728521798035",
-    "date": "2026-04-26",
-    "id": "17772148309201"
-  },
-  {
-    "title": "Dirac 推出新机制：AI 代码编辑成本降低 60%",
-    "summary": "结合哈希锚点与 Myers 差分算法，优化 AI Agent 代码编辑效率。",
-    "detail": "Dirac 发布博文介绍一种新型代码编辑机制，通过哈希锚点、状态后端及 Myers 差分算法实现选择性重新锚定。相比传统搜索替换或 apply_patch，该方法显著降低输出 token 消耗，使 AI 代码编辑成本降低 60%。该技术特别适用于 AI Agent 工具链，解决了读取与编辑操作中的成本与上下文惩罚问题。鉴于输出 token 成本远高于输入，此优化对大规模代理编码至关重要，为构建更经济的 AI 编程助手提供了新思路，目前已在 Dirac 平台中应用验证。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Optimization"
-    ],
-    "link": "https://dirac.run/posts/hash-anchors-myers-diff-single-token",
-    "date": "2026-04-26",
-    "id": "17772148309203"
-  },
-  {
-    "title": "UseMoney AI 上线：印度散户的 AI 投资副驾驶",
-    "summary": "面向印度市场的 AI 投资助手，支持股票研究、组合分析及退休规划。",
-    "detail": "UseMoney AI 近日在 Hacker News 社区亮相，定位为印度零售投资者的 AI 副驾驶。其核心功能涵盖全市场股票与共同基金对比、投资组合弱点深度分析以及基于 FIRE 理念的退休规划计算器。该产品体现了生成式 AI 在垂直金融领域的具体应用落地，旨在通过自然语言交互显著降低普通用户的投资分析门槛。对于行业而言，这展示了 AI 如何辅助用户进行更理性的资产配置决策，并可能成为新兴市场金融科技发展的一个典型案例。后续需关注其数据准确性及当地金融合规性进展，这将是此类 AI 投顾产品规模化的关键挑战。",
-    "tags": [
-      "New",
-      "Fintech",
-      "AI Copilot"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47909866",
-    "date": "2026-04-26",
-    "id": "17772090369390"
-  },
-  {
-    "title": "WAB 发布：开源 AI 代理与 Web 交互协议平台",
-    "summary": "开源 AI 代理操作系统，建立标准化 AI 与 Web 交互协议，支持代理网格。",
-    "detail": "Web Agent Bridge (WAB) 正式推出开源 AI 代理平台，旨在弥合自主 AI 代理与现有网站之间的交互鸿沟。该平台提供标准化命令接口、主权浏览器及 Agent Mesh 技术，支持权限控制、速率限制及统一 API 网关，赋予网站所有者对 AI 访问的完全控制权。这对解决 AI 代理自主浏览网页时的安全认证与标准化问题具有重要的基础设施意义。随着 AI Agent 自主性增强，此类协议层创新将推动 Agent 生态从实验走向生产环境，确保人机协作的安全性与可控性，是 Agent 架构演进的关键一步。",
-    "tags": [
-      "New",
-      "Agents",
-      "Open Source"
-    ],
-    "link": "https://webagentbridge.com",
-    "date": "2026-04-26",
-    "id": "17772090369391"
-  },
-  {
-    "title": "AI 生成 B 级片《空屋鲨鱼》：视频生成技术新案例",
-    "summary": "完全由 AI 制作的鲨鱼与功夫主题 B 级电影，展示视频生成能力。",
-    "detail": "一部名为《空屋鲨鱼》的 B 级电影近期在 YouTube 发布，宣称全程由 AI 生成，内容涉及鲨鱼与功夫大师对决。该案例直观展示了当前 AI 视频生成技术在长内容叙事与一致性保持上的进展。虽然目前属于娱乐实验范畴，但深刻反映了 AIGC 在影视制作流程中的巨大潜力，为低成本内容创作提供了全新范式。对于行业观察者而言，这标志着 AI 视频模型正从短片段生成向完整叙事迈进，未来需关注其在版权、音效同步及商业制作流程中的实际整合能力，这可能是视频生成模型下一步竞争的焦点。",
-    "tags": [
-      "New",
-      "AIGC",
-      "Video"
-    ],
-    "link": "https://www.youtube.com/watch?v=LD4UNHAIQcs",
-    "date": "2026-04-26",
-    "id": "17772090369392"
-  },
-  {
-    "title": "独立开发者弃用传统引导，转而构建 AI 基础设施",
-    "summary": "预订平台 Opencals 创始人发现用户困惑，用 AI 替代传统教程。",
-    "detail": "独立开发者经营预订平台 Opencals 时发现，复杂的系统导致新用户流失。传统的工具提示和视频教程无效，用户不愿阅读文档。通过观看屏幕录制，创始人决定停止构建传统引导，转而开发 AI 基础设施。AI 能理解用户意图并直接辅助操作，降低了学习成本。此案例展示了 AI 在 SaaS 用户体验优化中的实际落地，从“教育用户”转向“智能辅助”，为复杂系统的交互设计提供了新思路。随着 AI 集成度提高，未来 SaaS onboard 流程可能被 AI 助手完全取代，显著提升用户转化率与留存率，减少支持成本。",
-    "tags": [
-      "Dev",
-      "SaaS",
-      "UX"
-    ],
-    "link": "https://www.indiehackers.com/post/i-stopped-building-onboarding-and-built-ai-instead-0VMigrTEwai1dRzWCRvS",
-    "date": "2026-04-26",
-    "id": "17772037655790"
   }
 ]
