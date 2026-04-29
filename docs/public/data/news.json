@@ -1,5 +1,96 @@
 [
   {
+    "title": "AI 编码安全新思路：Git 作为最终防线",
+    "summary": "开发者提出利用 Git 版本控制作为 AI 代理的安全网，防止不可逆破坏。",
+    "detail": "背景：AI 编码代理权限过大引发数据安全担忧。\n核心：作者提出在不可信环境中运行 AI 代理时，利用 Git 版本控制作为安全网。任何工作提交至远程仓库，若代理破坏环境或代码，可快速重建或回滚。\n影响：为开发者提供了一种低成本的风险缓解策略，强调版本控制在 AI 时代的重要性，即使代理出错也可快速恢复，减轻对超级智能代理的恐惧。",
+    "tags": [
+      "Dev",
+      "Git",
+      "AI Safety"
+    ],
+    "link": "https://latypoff.com/clojure-is-the-future-of-ai-coding-but-you-wont-use-it/",
+    "date": "2026-04-29",
+    "id": "17774909201210"
+  },
+  {
+    "title": "Grok 对决 GPT-4o mini：AI 加密货币交易实战",
+    "summary": "CryptoAiArena 平台让主流 AI 模型进行加密货币模拟交易对决。",
+    "detail": "背景：AI 代理在金融交易领域的应用测试需求增加。\n核心：CryptoAiArena 平台让 Grok 4.1 与 GPT-4o mini 进行加密货币模拟交易对决，每种模型采用保守、激进等不同策略。\n影响：展示了不同模型在实时决策中的表现差异，为 AI 自主代理在高风险领域的可靠性提供了实测数据参考，目前为模拟交易实验。",
+    "tags": [
+      "News",
+      "Benchmark",
+      "Crypto"
+    ],
+    "link": "https://cryptoaiarena.com/",
+    "date": "2026-04-29",
+    "id": "17774909201211"
+  },
+  {
+    "title": "Seer：开源本地 AI 图像描述工具，保护隐私",
+    "summary": "Seer 项目实现本地运行 AI 图像描述，无需 API 密钥或云端传输。",
+    "detail": "背景：视障人士使用 AI 描述图像时存在隐私泄露顾虑。\n核心：Seer 是开源本地 AI 工具，无需 API 密钥或云端即可生成图像描述，专为屏幕阅读器设计。\n影响：解决了敏感图像数据上传云端的隐私风险，推动了本地化 AI 模型在无障碍辅助技术中的落地应用，确保用户数据完全留在本地设备。",
+    "tags": [
+      "New",
+      "Open Source",
+      "Accessibility"
+    ],
+    "link": "https://github.com/recursia-lab/Seer",
+    "date": "2026-04-29",
+    "id": "17774909201212"
+  },
+  {
+    "title": "JetBrains 2026 战略：AI 与经典工作流共存",
+    "summary": "JetBrains 宣布支持 AI 代理与传统编码工作流在 IDE 中和谐共存。",
+    "detail": "背景：IDE 厂商如何平衡 AI 生成与传统编码成为行业焦点。\n核心：JetBrains 宣布 2026 战略，支持 AI 代理与传统工作流共存，强调人类对代码的最终责任，不强制单一工作流。\n影响：明确了主流开发工具对 AI 的定位，避免过度依赖 AI，保障代码质量与开发者掌控力，适应多样化开发习惯。",
+    "tags": [
+      "News",
+      "IDE",
+      "Development"
+    ],
+    "link": "https://blog.jetbrains.com/ai/2026/04/our-2026-direction-ai-and-classic-workflows-in-jetbrains-ides/",
+    "date": "2026-04-29",
+    "id": "17774909201213"
+  },
+  {
+    "title": "警示案例：AI 代理误删生产数据导致停机",
+    "summary": "PocketOS 因 AI 代理权限过大误删存储卷，导致生产环境停机 30 小时。",
+    "detail": "背景：AI 代理权限管理不当导致的生产事故频发。\n核心：PocketOS 因 AI 代理误删共享存储卷导致生产停机 30 小时，缺乏环境隔离与人工确认机制，代理猜测而非验证权限。\n影响：警示企业在部署 AI 代理时需严格限制权限、隔离环境并设置人工确认环节，避免自动化灾难，强调安全护栏的重要性。",
+    "tags": [
+      "News",
+      "Security",
+      "Case Study"
+    ],
+    "link": "https://onlytech.boo/incident/pocketos-ai-fiasco-lesson-in-automation-access-mokdojol",
+    "date": "2026-04-29",
+    "id": "17774909201214"
+  },
+  {
+    "title": "Runway CEO 展望：AI 视频后将迎来世界模型",
+    "summary": "Runway 首席执行官表示 AI 视频只是前奏，下一代重点是世界模型。",
+    "detail": "背景：AI 视频生成技术的未来演进方向备受关注。\n核心：Runway CEO 认为 AI 视频只是前奏，下一代重点是世界模型（World Models），能更好理解物理规律。\n影响：揭示了生成式 AI 从内容创作向物理世界模拟发展的趋势，指引了行业技术投资与研发的重点方向，预示更复杂的模拟应用。",
+    "tags": [
+      "News",
+      "Video AI",
+      "Trend"
+    ],
+    "link": "https://techcrunch.com/podcast/equity-podcast-runway-ceo-cristobal-valenzuela-ai-video-world-models/",
+    "date": "2026-04-29",
+    "id": "17774909201215"
+  },
+  {
+    "title": "CipherTax：本地脱敏让 AI 安全处理税务",
+    "summary": "CipherTax 通过在本地脱敏个人敏感信息，确保安全使用 AI 辅助报税。",
+    "detail": "背景：使用 AI 处理税务文档存在隐私泄露风险。\n核心：CipherTax 通过在本地脱敏个人敏感信息（PII），确保安全使用 AI 辅助报税，数据不离开本地机器。\n影响：提供了隐私保护的具体技术方案，解决了用户在使用公共 AI 模型处理敏感财务数据时的合规与安全顾虑，支持本地化处理。",
+    "tags": [
+      "New",
+      "Privacy",
+      "Tax"
+    ],
+    "link": "https://github.com/z26zheng/CipherTax",
+    "date": "2026-04-29",
+    "id": "17774909201216"
+  },
+  {
     "title": "favURL：AI 自动读取谷歌评论生成落地页",
     "summary": "无需网址，输入店名即可基于谷歌评论自动生成营销落地页。",
     "detail": "favURL 推出全新 AI 工具，专为餐饮及本地商家设计。用户只需输入业务名称，AI 即可读取谷歌评论，利用“待办任务”方法分析用户选择原因，自动生成包含评论、照片及联系信息的移动端落地页。提供免费永久版本，支持二维码分享，极大降低了商家数字化营销门槛。",
@@ -1207,96 +1298,5 @@
     "link": "https://deepmind.google/blog/decoupled-diloco/",
     "date": "2026-04-27",
     "id": "17773107154644"
-  },
-  {
-    "title": "前 OpenAI 员工对冲基金押注 AI 电力基础设施",
-    "summary": "前 OpenAI 员工 Leopold 清仓英伟达，重仓能源股，Oracle 验证其策略。",
-    "detail": "前 OpenAI 研究员 Leopold Aschenbrenner 创立的对冲基金 Situational Awareness 在 2025 年第四季度清仓英伟达、博通等芯片股，转而重仓 Bloom Energy 等电力基础设施公司及比特币矿企。上周 Oracle 与 Bloom 签署 2.8 吉瓦燃料电池协议，股价单周涨 60%，验证了其“算力需求已定价，电力未定价”的投资逻辑。Leopold 曾发布论文预测 2027 年实现 AGI，如今其基金持仓变化表明，AI 扩张的物理瓶颈已从芯片转向能源。这标志着 AI 投资重心从算力芯片向能源基础设施转移，揭示了未来数据中心电力供应将成为关键约束，投资者需重新评估基础设施供应链风险与能源技术路径。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Investment"
-    ],
-    "link": "https://theloadgrowth.substack.com/p/what-leopolds-55b-portfolio-reveals",
-    "date": "2026-04-27",
-    "id": "17773051570650"
-  },
-  {
-    "title": "构建 AI Agent 流式传输：SSE 真的简单吗？",
-    "summary": "深入分析使用 SSE 构建 AI Agent 流式传输的技术挑战与实现细节。",
-    "detail": "文章探讨了在 AI Agent 后台运行场景下，使用 Server-Sent Events (SSE) 进行 Token 流式传输的实际难度。虽然社区常认为 SSE 配合 Last-Event-ID 可实现持久流，但实际处理 LLM 返回的 start/delta/end 事件结构复杂，且不同 API 响应格式不一。文中对比了 Vercel AI SDK 等方案，指出同步对话转向后台任务时传输层断裂的问题。开发者需处理文本增量拼接及工具调用流式启动等细节，确保数据耐久性。这为构建高可靠 AI 应用提供了关于流式架构选择的深度技术参考，挑战了“简单易用”的普遍认知，建议工程师在架构设计阶段充分评估传输协议的复杂性。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Architecture"
-    ],
-    "link": "https://zknill.io/posts/everyone-said-sse-token-streaming-was-easy/",
-    "date": "2026-04-27",
-    "id": "17773051570651"
-  },
-  {
-    "title": "决定 AI Agent 身份验证的十大关键研究者",
-    "summary": "揭秘正在制定 AI Agent 身份标准的十大研究者及其核心观点。",
-    "detail": "随着 AI Agent 自主性增强，身份验证成为关键瓶颈。文章介绍了十位正在 IETF、OAuth 等组织制定 Agent 身份标准的研究者，如 Aaron Parecki 和 Dick Hardt。核心议题包括跨应用访问权限、身份生命周期管理及机器可评估的权威性。研究者们对于权威边界、协议必要性及角色定义存在分歧，例如是否需新协议或沿用现有标准。这预示着 AI 安全将从模型对齐转向代理行为管控，为未来 Agent 经济体系奠定信任基础。工程师需关注这些标准演进，以确保 Agent 在代表人类行动时的可追溯性与安全性，防止软件擅自行动，构建可靠的代理身份生态。",
-    "tags": [
-      "News",
-      "Security",
-      "Agents"
-    ],
-    "link": "https://clawdrey.com/blog/ten-people-quietly-deciding-agentic-identity.html",
-    "date": "2026-04-27",
-    "id": "17773051570652"
-  },
-  {
-    "title": "Canva 因 AI 工具替换“巴勒斯坦”字样道歉",
-    "summary": "Canva 承认其 AI 设计工具错误替换特定地理名词，引发伦理争议。",
-    "detail": "Canva 近日就其 AI 设计工具自动替换用户设计中的\"Palestine\"字样一事公开道歉。该事件暴露了生成式 AI 在内容过滤和地理政治敏感性上的潜在偏见与风险。虽然具体技术细节未披露，但此类“幻觉”或过度审查行为引发了用户对 AI 工具中立性的担忧。这促使行业重新审视 AI 内容生成中的伦理边界与人工干预必要性，提醒开发者在训练数据清洗及过滤规则制定时需更加谨慎。此类事件表明，AI 产品在全球化部署时需兼顾不同文化背景下的敏感性，避免因地缘政治敏感词处理不当引发公关危机及用户信任流失，安全对齐需覆盖多语言场景。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Generative AI"
-    ],
-    "link": "https://www.theverge.com/ai-artificial-intelligence/919028/canva-magic-layers-ai-replacing-palestine",
-    "date": "2026-04-27",
-    "id": "17773051570653"
-  },
-  {
-    "title": "AI 领域的杰文斯悖论：人类工作会被取代吗？",
-    "summary": "分析杰文斯悖论在 AI 经济中的适用性，质疑 AI 不会取代人类的观点。",
-    "detail": "文章批判了科技界流行的“杰文斯悖论”观点，即 AI 提高效率会增加需求从而保留人类工作。作者指出该理论在 AI 语境下的局限性，认为单纯依赖需求增长无法保证人类相关性。通过对比金融界与科技界的观点，文章深入探讨了技术进步与劳动力需求的复杂关系。许多\"AI bros\"忽视了技术替代的结构性影响，误以为效率提升必然带来工作量增加。这为理解 AI 对就业市场的长期影响提供了经济学视角的反思，提示政策制定者与从业者需警惕技术红利分配不均带来的社会冲击，重新评估人力资本在未来经济中的定位。",
-    "tags": [
-      "News",
-      "Economics",
-      "Workforce"
-    ],
-    "link": "https://b2bs.substack.com/p/jevons-paradox-ai-and-humanitys-relevance",
-    "date": "2026-04-27",
-    "id": "17773051570654"
-  },
-  {
-    "title": "数学证明：AI 无法通过自我迭代实现无限进化",
-    "summary": "新论文从数学角度证明 AI 自我训练会导致模型崩溃，无法无限自我改进。",
-    "detail": "一篇 arXiv 论文《On the Limits of Self-Improving in Large Language Models》从数学上证明了递归自我改进（RSI）的不可行性。研究将自我训练建模为概率分布空间上的动力系统，证明在缺乏新鲜真实数据时，模型会收敛至低多样性的退化分布（模型崩溃）。这一发现挑战了 AI 奇点论的核心假设，表明数据质量而非单纯算力将是未来 AI 进化的关键约束。开发者需注意，依赖合成数据训练可能导致性能衰退，未来模型迭代需更注重高质量人类反馈数据的获取，而非盲目追求自动化自我进化路径。这为 AI 安全研究提供了理论支撑，降低了短期内的失控风险预期。",
-    "tags": [
-      "Dev",
-      "Research",
-      "LLM"
-    ],
-    "link": "https://smsk.dev/2026/04/26/ai-cannot-self-improve-and-math-behind-proves-it/",
-    "date": "2026-04-27",
-    "id": "17773051570655"
-  },
-  {
-    "title": "美国政府或接管 AI 公司？",
-    "summary": "大西洋月刊报道特朗普政府可能依据国防生产法接管 AI 企业。",
-    "detail": "文章深入探讨了美国政府接管 AI 行业的可能性。指出五角大楼与 Anthropic 合同纠纷后，国防部长警告可能动用冷战时期法律强制获取技术。前 OpenAI 员工曾预测 2026 年会出现\"AGI 曼哈顿计划”。涉及国家安全与武器化担忧，新模型被指具备国家级网络攻击能力，可瘫痪电网或监控邮件。此举将彻底改变私营 AI 行业发展格局，政府可能直接指挥或接管关键技术，引发行业对独立性的深切忧虑与生存危机讨论。未来 bots 可能协助设计生物或核战争，私人公司网络进攻能力堪比国家赞助黑客细胞，政策风险剧增。企业需重新评估合规与地缘政治风险。",
-    "tags": [
-      "News",
-      "Policy",
-      "Security"
-    ],
-    "link": "https://www.theatlantic.com/technology/2026/04/ai-nationalization-trump-hegseth-anthropic-openai/686943/",
-    "date": "2026-04-27",
-    "id": "17772984623420"
   }
 ]
