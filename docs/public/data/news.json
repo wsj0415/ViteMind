@@ -1,5 +1,70 @@
 [
   {
+    "title": "IBM 开源 Granite 4.1 模型系列",
+    "summary": "IBM 发布 Granite 4.1 系列模型，支持 512K 上下文，Apache 2.0 协议开源。",
+    "detail": "IBM 正式推出 Granite 4.1 家族模型（3B/8B/30B），基于 15T token 训练，优先数据质量而非数量。核心亮点包括 512K 长上下文支持及多阶段预训练管道，采用监督微调与强化学习（GRPO）优化。8B 指令模型性能超越前代 32B MoE 模型，展现高密度架构优势。所有模型均采用 Apache 2.0 协议开源，适合企业私有化部署及二次开发。此举标志着高质量小模型竞争加剧，为开发者提供低成本高性能选择，同时推动了开源生态在垂直领域的进一步落地与应用。此发布不仅提升了 IBM 在 enterprise AI 领域的影响力，也为资源受限环境下的模型部署提供了新选项，开发者可直接在 Hugging Face 获取权重。",
+    "tags": [
+      "News",
+      "LLM",
+      "OpenSource"
+    ],
+    "link": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+    "date": "2026-04-29",
+    "id": "17774758313820"
+  },
+  {
+    "title": "AI 代理误删数据库引发安全警示",
+    "summary": "Railway 披露 AI 代理误删生产数据库案例，提出延迟删除与权限护栏方案。",
+    "detail": "针对近期 AI 代理误删生产数据库事件，Railway 提出关键防护策略。包括 API 层面实施延迟删除机制、设置细粒度 Token 权限及多重备份。文章强调在赋予 AI 代理系统控制权时，必须构建内置护栏（Guardrails），防止自动化操作导致不可逆的数据丢失。该事件揭示了 AI 自主代理在运维场景中的潜在风险，为 AI 工程化安全提供实践指南。建议开发者在集成 AI 工具时严格限制写权限并建立回滚机制，确保在代理行为异常时能快速恢复系统状态，保障业务连续性。随着 AI 代理权限扩大，此类安全防护将成为基础设施标配。",
+    "tags": [
+      "Dev",
+      "Security",
+      "AI Agents"
+    ],
+    "link": "https://blog.railway.com/p/your-ai-wants-to-nuke-your-database",
+    "date": "2026-04-29",
+    "id": "17774758313821"
+  },
+  {
+    "title": "AI 爬虫导致大规模网络拥堵分析",
+    "summary": "博主可视化分析 AI 爬虫流量，发现每 2000 个 IPv4 就有 1 个参与爬虫攻击。",
+    "detail": "独立开发者通过数据可视化揭示了 AI 爬虫对公共网络的冲击。日志显示每 2000 个公共 IPv4 地址中就有 1 个参与高频抓取，形成分布式拒绝服务（DDoS）效应。文章指出传统防护工具难以应对随机请求洪峰，呼吁行业关注 AI 训练数据抓取对互联网基础设施造成的负载压力。这不仅是技术问题，更是资源分配问题，建议网站管理员采用更严格的速率限制及指纹识别技术，以平衡数据开放与服务器生存之间的关系。这种大规模抓取行为可能导致小型网站无法访问，引发了关于 AI 训练数据伦理与网络公平性的讨论，建议社区共同制定更合理的爬虫协议标准。",
+    "tags": [
+      "News",
+      "Security",
+      "Web Scraping"
+    ],
+    "link": "https://vulpinecitrus.info/blog/one-in-every-2000-ipv4-visualizing-ddos-ai-web-scrapers/",
+    "date": "2026-04-29",
+    "id": "17774758313822"
+  },
+  {
+    "title": "GitHub Copilot 信用成本查询工具",
+    "summary": "开源工具帮助开发者在 6 月 1 日前查询 Copilot 信用消耗情况，避免超额费用。",
+    "detail": "针对 GitHub Copilot 即将实施的信用计费政策，社区推出 `copilot-arewecooked` 查询工具。开发者可提前评估 6 月 1 日前的信用成本消耗，避免账单惊喜。该工具反映了 AI 编码助手从固定订阅向用量计费转型的趋势，建议团队提前优化提示词策略以控制成本。适合依赖 Copilot 的开发团队使用，帮助用户理解新定价模型下的实际支出，从而做出是否续订或调整使用习惯的决策，降低意外财务风险。此外，该工具还提示用户关注官方文档更新，以便及时调整工作流适应新的计费模式，确保开发效率与成本控制的平衡，是开发者社区自发应对平台政策变化的典型案例。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "GitHub"
+    ],
+    "link": "https://github.com/PanAchy/copilot-arewecooked",
+    "date": "2026-04-29",
+    "id": "17774758313823"
+  },
+  {
+    "title": "TreasuryFlow 推出 AI CFO 现金管理工具",
+    "summary": "新一代 AI 财务工具，提供 13 周现金流预测，每月 49 美元起，替代 Bench 功能。",
+    "detail": "针对 Bench 关闭后的市场空缺，TreasuryFlow 推出 AI CFO 服务。产品通过 Plaid 连接银行，提供实时现金状况及 13 周滚动预测，并能识别供应商支出异常。定价从 49 美元/月起，支持与其他记账软件并行使用。该工具专注于填补企业每日现金可见性缺口，适合中小型企业进行财务风险管理。它不替代记账，而是提供前瞻性现金流分析，帮助企业在经济波动中保持资金链健康，降低运营不确定性。作为 Show HN 热门项目，它展示了 AI 在垂直 SaaS 领域的落地能力，通过自动化分析减轻财务人员负担，使初创团队能更专注于核心业务增长而非繁琐的现金流监控。",
+    "tags": [
+      "New",
+      "Fintech",
+      "SaaS"
+    ],
+    "link": "https://treasuryflow.pantollventures.com/from-bench",
+    "date": "2026-04-29",
+    "id": "17774758313824"
+  },
+  {
     "title": "安全警报：AI 代理被秘密招募进加密僵尸网络",
     "summary": "30 个 ClawHub 技能秘密将 AI 代理招募进加密集群。",
     "detail": "Manifold Security 发现 30 个 ClawHub 技能正将 AI 代理静默注册到第三方服务器，生成密钥并接受远程任务。虽非传统恶意软件，但结构类似僵尸网络。开发者需警惕代理权限管理，防止被利用进行加密挖矿或任务执行，建议审查技能来源。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/ZM-BAD/DAG-chat",
     "date": "2026-04-27",
     "id": "17772984623425"
-  },
-  {
-    "title": "Canonical 公布 Ubuntu 未来 AI 战略",
-    "summary": "Canonical 计划将 AI 融入 Ubuntu，偏好开源模型。",
-    "detail": "随着 2026 年 LLM 工具普及，Canonical 宣布将在 Ubuntu 中逐步集成 AI 功能，优先考虑开源权重模型和本地推理。策略分为增强现有 OS 功能和推出\"AI 原生\"工作流。内部正鼓励工程师实验 AI 工具，但不设定强制指标，强调开放源原则与价值观兼容。此举标志着主流 Linux 发行版对 AI 集成的正式表态，将影响开发者生态及企业级 AI 部署方案的选择。用户可期待未来一年内看到更多成熟的 AI 特性落地，尤其是本地推理优先的架构设计。",
-    "tags": [
-      "News",
-      "Ubuntu",
-      "OpenSource"
-    ],
-    "link": "https://discourse.ubuntu.com/t/the-future-of-ai-in-ubuntu/81130",
-    "date": "2026-04-27",
-    "id": "17772880521700"
-  },
-  {
-    "title": "AI 赋能的漏洞赏金狩猎指南",
-    "summary": "资深猎人分享利用 AI 进行漏洞挖掘的方法论。",
-    "detail": "作者分享四年漏洞赏金经验，强调 AI 作为杠杆处理繁琐任务（如 recon、POC），让人专注于业务逻辑。指南涵盖从选择项目到报告的全流程，主张 minimalist 方法论，适合希望利用 AI 提升安全研究效率的开发者。作者指出心态转变比技术更重要，AI 并非噱头而是实际杠杆，能处理解析和常规任务，使猎人能聚焦于造成差异的业务逻辑漏洞挖掘。该指南基于实战经验而非理论，提供了具体的重构思路，帮助新手突破瓶颈。",
-    "tags": [
-      "Dev",
-      "Security",
-      "AI Tools"
-    ],
-    "link": "https://aituglo.com/guide/bug-bounty/",
-    "date": "2026-04-27",
-    "id": "17772880521701"
-  },
-  {
-    "title": "Mistral AI 估值达 140 亿美元",
-    "summary": "Forbes 报道 Mistral 通过非美式路径建立 AI 帝国。",
-    "detail": "Forbes 文章指出法国公司 Mistral AI 已建成价值 140 亿美元的 AI 帝国，强调其\"非美国\"的发展路径。该新闻在 Hacker News 上引发讨论，反映了欧洲 AI 势力在全球市场中的崛起及差异化竞争策略的成功。尽管具体细节需阅读原文，但标题揭示了其估值里程碑。这表明非美国 AI 公司在资本市场的认可度提升，可能改变全球 AI 格局。对于关注地缘政治影响 AI 发展的观察者，这是一个关键信号，显示多元化 AI 生态的可行性。",
-    "tags": [
-      "News",
-      "Mistral",
-      "Valuation"
-    ],
-    "link": "https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american/",
-    "date": "2026-04-27",
-    "id": "17772880521702"
-  },
-  {
-    "title": "Mercor 发生大规模语音数据泄露",
-    "summary": "4TB 语音样本及身份信息被盗，涉及 4 万名承包商。",
-    "detail": "勒索组织 Lapsus$ 泄露了 Mercor 的 4TB 数据，包含 4 万名 AI 承包商的语音生物识别信息及政府身份证件。这种组合可直接用于合成语音克隆。已有诉讼提起，凸显了 AI 训练数据收集中的隐私风险及生物特征保护的紧迫性。攻击者利用这些数据进行身份验证绕过或欺诈的风险极高。此次事件为 AI 数据标注行业敲响了安全警钟，要求更严格的数据隔离与加密措施。受害者需警惕声音被武器化用于社会工程攻击，行业需重新审视生物数据收集规范。",
-    "tags": [
-      "News",
-      "Security",
-      "Data Breach"
-    ],
-    "link": "https://app.oravys.com/blog/mercor-breach-2026",
-    "date": "2026-04-27",
-    "id": "17772880521703"
-  },
-  {
-    "title": "Implit 防止 AI 幻觉生成虚假依赖",
-    "summary": "新 CLI 工具可验证导入并捕获虚假 NPM 包。",
-    "detail": "Show HN 项目 Implit 是一个 CLI 工具，旨在验证导入语句并捕获 AI 生成的虚假 NPM 依赖包。针对 AI 编码助手可能幻觉出不存在包的问题，该工具帮助开发者确保依赖真实性，提升代码库安全性与构建稳定性。随着 AI 生成代码的普及，此类幻觉依赖成为新风险点。该工具通过静态分析验证导入路径，防止构建失败或潜在的安全漏洞，是 AI 辅助开发工作流中的重要补充工具。开发者可在 CI/CD 流程中集成此工具以自动化检测，减少人工审查成本。",
-    "tags": [
-      "New",
-      "DevTools",
-      "NPM"
-    ],
-    "link": "https://github.com/Neurall-build/implit",
-    "date": "2026-04-27",
-    "id": "17772880521704"
   }
 ]
