@@ -1,5 +1,83 @@
 [
   {
+    "title": "安全警报：AI 代理被秘密招募进加密僵尸网络",
+    "summary": "30 个 ClawHub 技能秘密将 AI 代理招募进加密集群。",
+    "detail": "Manifold Security 发现 30 个 ClawHub 技能正将 AI 代理静默注册到第三方服务器，生成密钥并接受远程任务。虽非传统恶意软件，但结构类似僵尸网络。开发者需警惕代理权限管理，防止被利用进行加密挖矿或任务执行，建议审查技能来源。",
+    "tags": [
+      "News",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://www.manifold.security/blog/clawhub-clawswarm-agent-crypto-recruitment",
+    "date": "2026-04-29",
+    "id": "17774652557200"
+  },
+  {
+    "title": "AgentsMesh 解决 AI 编码配置碎片化难题",
+    "summary": "统一管理 Claude、Cursor 等 AI 编码助手的配置。",
+    "detail": "针对 AI 编码助手配置文件碎片化问题（如 CLAUDE.md, .cursor/rules 等），AgentsMesh 提供统一规范。开发者只需编写一次 canonical rules，即可生成各工具原生配置，防止配置漂移。支持 CI 检查，大幅提升多工具环境下的维护效率。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "Coding"
+    ],
+    "link": "https://github.com/sampleXbro/agentsmesh",
+    "date": "2026-04-29",
+    "id": "17774652557201"
+  },
+  {
+    "title": "详解 AI 工作流中的人机协作模式",
+    "summary": "分析 Human-in-the-Loop 与 Human-on-the-Loop 的区别。",
+    "detail": "n8n 博客深入解析 HITL 与 HOTL 两种人机协作模式。HITL 需人工确认关键决策，适合高风险场景；HOTL 则为异步监控。文章指导开发者根据任务风险、可扩展性及成本选择合适框架，是构建生产级 AI 系统的重要参考。",
+    "tags": [
+      "Dev",
+      "Workflow",
+      "BestPractice"
+    ],
+    "link": "https://blog.n8n.io/human-in-the-loop-vs-human-on-the-loop/",
+    "date": "2026-04-29",
+    "id": "17774652557202"
+  },
+  {
+    "title": "Monet：开源 AI 代理团队共享记忆库",
+    "summary": "开源项目 Monet 为 AI 代理团队提供共享记忆功能。",
+    "detail": "Monet 是一个开源项目，旨在为 AI 代理团队提供共享记忆（shared memory）功能。在多代理协作系统中，状态同步至关重要。该工具允许不同代理之间共享上下文和记忆，提升协作效率。适合开发多代理架构的开发者参考使用。",
+    "tags": [
+      "New",
+      "OpenSource",
+      "Agents"
+    ],
+    "link": "https://github.com/team-monet/monet",
+    "date": "2026-04-29",
+    "id": "17774652557203"
+  },
+  {
+    "title": "行业分析：AI 导致的失业潮并非现实",
+    "summary": "文章论证 AI 造成的大规模失业目前并非事实。",
+    "detail": "针对 AI 取代工作的恐慌，文章指出当前裁员主因是疫情期间过度招聘而非 AI 自动化。虽然智能工具被使用，但“末日论”缺乏数据支持。该观点为行业投资人才策略提供冷静视角，建议关注实际生产力提升而非盲目裁员。",
+    "tags": [
+      "News",
+      "Industry",
+      "Jobs"
+    ],
+    "link": "https://orischwartz.com/posts/ai-job-loss-is-not-real.html",
+    "date": "2026-04-29",
+    "id": "17774652557204"
+  },
+  {
+    "title": "论文：AI 话语中的策略性多义性分析",
+    "summary": "哲学分析 AI discourse 中的语言、炒作与权力。",
+    "detail": "康奈尔大学 arXiv 论文探讨 AI 话语中的“策略性多义性”。作者分析了语言如何被用于构建炒作与权力关系。对于理解 AI 社会影响、伦理讨论及政策制定背后的语言逻辑具有学术价值，适合关注 AI 社会学的研究者。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Ethics"
+    ],
+    "link": "https://arxiv.org/abs/2604.21043",
+    "date": "2026-04-29",
+    "id": "17774652557205"
+  },
+  {
     "title": "Scout AI 获 1 亿美元融资打造军事 AI",
     "summary": "国防初创公司 Scout AI 完成 1 亿美元 A 轮融资，训练战争模型。",
     "detail": "由 Coby Adcock 创立的 Scout AI 宣布完成 1 亿美元 A 轮融资，旨在开发名为\"Fury\"的 AI 模型以指挥军事资产。该公司已获得 DARPA 等机构合同，标志着 AI 在国防领域的商业化加速。此举引发关于自主武器系统伦理与安全的行业关注，显示军事 AI 正从后勤支持向自主作战演变。融资由 Align Ventures 领投，此前曾获 1500 万美元种子轮。团队在加州军事基地进行训练，计划将 AI 集成至全地形车等装备，探索自主武器边界。CTO 表示将基于现有 LLM 训练军事专用 AGI，而非通用模型，这代表了垂直领域大模型的新方向。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/Neurall-build/implit",
     "date": "2026-04-27",
     "id": "17772880521704"
-  },
-  {
-    "title": "Sci-Hub 推出 Sci-Bot：AI 驱动的科研助手上线",
-    "summary": "知名学术平台 Sci-Hub 推出 AI 助手 Sci-Bot，辅助研究人员查询。",
-    "detail": "著名学术资源平台 Sci-Hub 正式推出 AI 驱动的科研助手 Sci-Bot。该工具旨在利用 AI 技术辅助研究人员进行文献查询和问题解答。页面显示支持令牌管理及问题历史记录功能。此举标志着学术资源平台正积极整合 AI 能力，可能改变科研人员获取信息和交互的方式，但需注意其版权与合规性争议背景。",
-    "tags": [
-      "New",
-      "Research",
-      "AI Assistant"
-    ],
-    "link": "https://sci-bot.ru/",
-    "date": "2026-04-27",
-    "id": "17772786034391"
-  },
-  {
-    "title": "MemPalace：本地优先的开源 AI 记忆系统",
-    "summary": "GitHub 开源项目 MemPalace，打造本地优先的最佳基准 AI 记忆系统。",
-    "detail": "MemPalace 是一个全新的开源 AI 记忆系统，主打“本地优先”架构，确保数据隐私与安全。项目声称是经过最佳基准测试的开源方案，且完全免费。对于开发者而言，这提供了在本地部署高效 AI 记忆模块的新选择，适用于构建需要长期上下文记忆的智能应用，降低了依赖云端服务的成本与风险。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Memory"
-    ],
-    "link": "https://github.com/mempalace/mempalace",
-    "date": "2026-04-27",
-    "id": "17772786034392"
-  },
-  {
-    "title": "Team9.ai 发布：专为小团队打造的最快 AI 工作空间",
-    "summary": "新一代 AI 代理团队工具，支持多模型协作与任务全流程管理。",
-    "detail": "Team9.ai 推出面向产品、工程和运营团队的 AI 代理工作空间。支持 Claude Opus 4.7、GPT-5.4 等多模型，提供基于角色的代理创建、人类级问责制及共享执行板。用户可分配结果而非提示词，实现长任务无人值守运行。该产品旨在解决 AI 落地最后一公里的可信执行问题，让代理像员工一样拥有角色、上下文和操作轨道，并在共享时间线中留痕。",
-    "tags": [
-      "New",
-      "Agent",
-      "Productivity"
-    ],
-    "link": "https://team9.ai",
-    "date": "2026-04-27",
-    "id": "17772584363700"
-  },
-  {
-    "title": "曝 OpenAI 超级政治行动委员会资助 AI 记者新闻网站",
-    "summary": "某新闻网站记者全为 AI 机器人，背后资金疑似来自 OpenAI 相关组织。",
-    "detail": "Model Republic 调查发现，新闻网站《The Wire by Acutus》的记者实为 AI 机器人，且资金链指向 OpenAI 的超级政治行动委员会。记者 Michael Chen 使用通用邮箱且无公开关联，邮件 framing 高度加载。此举引发伦理争议，涉及 AI 生成内容的透明度及政治资助隐蔽性。若属实，将开创 AI 直接参与舆论引导的先河，监管压力剧增。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Ethics"
-    ],
-    "link": "https://modelrepublic.substack.com/p/the-reporters-at-this-news-site-are",
-    "date": "2026-04-27",
-    "id": "17772584363701"
-  },
-  {
-    "title": "OGMA：具备持久记忆与双脑架构的开源 AI 助手",
-    "summary": "GitHub 新项目，主打持久混合记忆与双 AI 架构，寻求专业反馈。",
-    "detail": "开发者 Yohan BROCARD 开源了 OGMA 项目，这是一个具有持久混合记忆和双 AI 架构的个人对话助手。不同于普通聊天机器人，它能记住用户并随时间成长，拥有独特的时间感知能力，甚至在你睡觉时做梦。项目基于 Python 3.10+，采用 AGPL-3.0 协议，适合开发者研究本地化 AI 记忆机制及有机成长架构，目前寻求专业反馈。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Memory"
-    ],
-    "link": "https://github.com/kidshadow79/Ogma",
-    "date": "2026-04-27",
-    "id": "17772584363702"
-  },
-  {
-    "title": "2026 年 4 月 AI 辅助开发工作流现状深度分享",
-    "summary": "开发者分享最新 AI 辅助工作流，重点推荐 Pi 与 Codex 代理工具。",
-    "detail": "资深开发者分享了 2026 年 4 月的 AI 辅助开发工作流现状。文章指出，工具周围的上下文、工作流编排比模型本身更重要。作者主要使用 Pi 作为首选 CLI 代理，因其极简且适应性强，辅以 Codex 观察 OpenAI 适配。这反映了当前开发趋势正从单纯依赖模型转向构建个性化的“外骨骼”系统，强调工程化落地与人机协作流程的优化。",
-    "tags": [
-      "Dev",
-      "Workflow",
-      "Coding"
-    ],
-    "link": "https://handmadeoasis.com/state-of-ai-assisted-workflows-april-2026/",
-    "date": "2026-04-26",
-    "id": "17772786034393"
   }
 ]
