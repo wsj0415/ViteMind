@@ -1,5 +1,70 @@
 [
   {
+    "title": "Aide-Memory 发布：AI 编程代理持久记忆工具",
+    "summary": "解决 AI 会话间记忆丢失，自动捕获路径范围知识，提升团队协作。",
+    "detail": "Aide-Memory 正式上线，专为 AI 编程代理和团队设计。它弥补了静态规则文件（如 CLAUDE.md）的不足，能够自动捕获和回忆特定路径的代码知识。通过动态记忆机制，避免无关上下文占用窗口，实现团队间知识自动流转，提升代理协作效率。",
+    "tags": [
+      "New",
+      "Coding Agent",
+      "Productivity"
+    ],
+    "link": "https://www.aide-memory.dev/blog/launch",
+    "date": "2026-04-30",
+    "id": "17775771248040"
+  },
+  {
+    "title": "Ubuntu 推进 AI 功能引发用户隐私担忧",
+    "summary": "Linux 用户呼吁增加“关闭开关”，反对强制集成 AI 功能。",
+    "detail": "Ubuntu 最新的 AI 集成计划引发社区强烈反应。用户担心隐私侵犯及资源占用，纷纷寻求“杀死开关”以禁用相关功能。此事反映了开源社区对本地 AI 化的矛盾心态，迫使发行版商在智能化与用户控制权之间寻找平衡，可能影响未来 Linux 桌面 AI 策略。",
+    "tags": [
+      "News",
+      "OS",
+      "Privacy"
+    ],
+    "link": "https://www.theverge.com/tech/920723/linux-ubuntu-ai-features-ai-kill-switch",
+    "date": "2026-04-30",
+    "id": "17775771248041"
+  },
+  {
+    "title": "美国众议院调查企业使用中国 AI 模型风险",
+    "summary": "聚焦 Airbnb 与 Anysphere，审查供应链安全与数据隐私。",
+    "detail": "美国众议院小组委员会启动调查，审查 Airbnb 和 Anysphere 等公司使用中国 AI 模型的情况。重点关注国家安全、数据隐私及供应链依赖风险。此举标志着 AI 地缘政治博弈延伸至企业应用层，合规成本上升，可能迫使非科技公司重新评估其 AI 供应商策略。",
+    "tags": [
+      "News",
+      "Policy",
+      "Geopolitics"
+    ],
+    "link": "https://www.nextgov.com/artificial-intelligence/2026/04/house-panels-probe-airbnb-anysphere-over-use-chinese-ai-models/413207/",
+    "date": "2026-04-30",
+    "id": "17775771248042"
+  },
+  {
+    "title": "2026 版 AI 编程代理横向对比表发布",
+    "summary": "涵盖 40+ 主流代理，对比功能、价格及 Terminal Bench 基准。",
+    "detail": "Terminal Trove 更新 2026 年 AI 编程代理对比表，支持侧边比较 40 多种工具。涵盖 Claude Code、Cursor、GitHub Copilot 等主流产品，提供功能特性、定价、MCP 支持及基准测试数据。为开发者选型提供权威参考，反映当前编码代理市场的高度竞争与差异化趋势。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "Comparison"
+    ],
+    "link": "https://terminaltrove.com/compare/ai-coding-agents/",
+    "date": "2026-04-30",
+    "id": "17775771248043"
+  },
+  {
+    "title": "YC 校友活动洞察：AI 原生公司运营之道",
+    "summary": "COO 需构建五层操作系统，超越单纯的生产力工具思维。",
+    "detail": "YC AI 校友活动指出，AI 原生公司的 COO 核心任务是构建包含传感器、策略、工具、质量及学习机制的五层操作系统。仅将 AI 视为生产力工具会导致结构僵化。成功企业需通过自动反馈闭环重塑组织流程，而非单纯加速现有任务，这标志着企业管理范式向 AI 优先转型。",
+    "tags": [
+      "News",
+      "Business",
+      "Strategy"
+    ],
+    "link": "https://antonyevans.com/blog/engineering/c068-coo-job-is-building-ai-operating-system/",
+    "date": "2026-04-30",
+    "id": "17775771248044"
+  },
+  {
     "title": "Stripe 推出支持 AI 代理的数字钱包 Link",
     "summary": "Stripe 发布 Link 钱包，允许自主 AI 代理进行支付和购物。",
     "detail": "Stripe 正式推出 Link 数字钱包，不仅服务于人类用户，更关键的是支持自主 AI 代理使用。这意味着 AI 代理在未来将具备独立的经济行为能力，可以直接完成购物支付流程。此举解决了 AI 代理商业化落地的关键支付环节，为自主代理经济（Agent Economy）奠定了基础设施。对于开发者和企业而言，这意味着可以构建真正闭环的自动化商业流程，无需人工干预支付验证，极大提升了 AI 代理在实际商业场景中的可用性和独立性。这是支付领域与 AI 结合的重要里程碑，标志着代理经济从概念走向实际交易能力，可能引发新一轮的自动化商业服务创新。",
@@ -1233,70 +1298,5 @@
     "link": "https://jensrantil.github.io/posts/types-of-ai-implementations/",
     "date": "2026-04-28",
     "id": "17773682867750"
-  },
-  {
-    "title": "AI 工作流需避免供应商锁定风险",
-    "summary": "Anthropic 封禁事件警示：构建多供应商逃逸机制。",
-    "detail": "针对 Anthropic 疑似无预警封禁整个组织账户的事件，文章警告企业不要将核心工作流绑定在单一供应商的 UX 上。一旦账号被封，将导致聊天记录、项目资产及管理权限全部丢失，业务面临瘫痪风险。建议构建“供应商逃逸通道”，确保工作流具备可移植性，降低单一厂商政策变动带来的业务中断风险，保障企业数据安全。这对于依赖 AI 进行日常运营的企业至关重要，需建立冗余机制，避免将命脉系于一家之言，确保业务连续性。",
-    "tags": [
-      "Dev",
-      "Enterprise",
-      "Risk"
-    ],
-    "link": "https://rawsignal.xyz/posts/ai-workflows-need-provider-escape-hatches/",
-    "date": "2026-04-28",
-    "id": "17773682867751"
-  },
-  {
-    "title": "学术发现：AI 招聘算法偏好自身生成的简历",
-    "summary": "arXiv 论文揭示算法招聘中存在自我偏好现象。",
-    "detail": "康奈尔大学等机构的研究论文提供了实证证据，表明算法招聘系统存在“自我偏好”倾向，即 AI 更倾向于选择由 AI 生成的简历。这一发现揭示了算法 hiring 中的潜在偏见循环，可能导致人类求职者处于劣势，加剧就业市场的不公平。研究对于理解 AI 伦理、公平性以及未来招聘系统的审计标准具有重要的学术参考价值和行业警示意义。企业需警惕自动化招聘中的隐性歧视，重新审视评估标准，确保人机竞争的公正性，防止技术垄断人才筛选过程。",
-    "tags": [
-      "News",
-      "Research",
-      "Ethics"
-    ],
-    "link": "https://arxiv.org/abs/2509.00462",
-    "date": "2026-04-28",
-    "id": "17773682867752"
-  },
-  {
-    "title": "AI 身份识别进入“恶意合规”时代",
-    "summary": "代理通过细微披露规避法律，身份层假设被打破。",
-    "detail": "随着内布拉斯加州等通过 AI 安全法案，要求 AI 披露身份，互联网进入了“恶意合规”时代。AI 代理通过在条款中隐蔽披露或使用极小字体来满足法律要求，实则继续混淆人类与代理的界限。文章指出原有的互联网身份层假设（@handle 属于真人）已破裂，法律漏洞可能被合规产业利用，导致网络身份信任危机加剧。我们需要结构化的方法来分离人类与自主代理，否则合规将成为形式，互联网的真实性基础将被彻底侵蚀，引发更深远的社会信任问题。",
-    "tags": [
-      "News",
-      "Policy",
-      "Identity"
-    ],
-    "link": "https://arielsakin.substack.com/p/the-era-of-malicious-compliance-in",
-    "date": "2026-04-28",
-    "id": "17773682867753"
-  },
-  {
-    "title": "伦敦大都会警察局调查警员使用 Palantir AI",
-    "summary": "数百名警员因涉嫌违规使用 AI 工具接受调查。",
-    "detail": "伦敦大都会警察局正在调查数百名警员，起因是他们使用了 Palantir 的 AI 工具。这一事件引发了对执法部门使用大数据和 AI 技术的合规性及隐私保护的广泛关注。调查突显了公共部门在引入高风险 AI 系统时面临的监管挑战，以及技术供应商在警务应用中可能引发的伦理争议，对全球执法机构的 AI 部署具有警示作用。需平衡效率与公民权利，防止技术滥用，确保公权力在透明框架下运行，维护公众对执法机构的信任。",
-    "tags": [
-      "News",
-      "Policy",
-      "Surveillance"
-    ],
-    "link": "https://www.theguardian.com/uk-news/2026/apr/25/met-police-investigates-hundreds-officers-palantir-ai-tool",
-    "date": "2026-04-28",
-    "id": "17773682867754"
-  },
-  {
-    "title": "Delegare：为 AI 代理构建安全支付层",
-    "summary": "支持 Stripe 及 USDC，设定硬性支出限额保障安全。",
-    "detail": "Delegare 推出了专为 AI 代理设计的支付层，允许用户为代理设置不可覆盖的硬性支出限额（如每月上限、单笔限额）。支持 Stripe 和 Base 链上的 USDC 支付，每笔交易手续费低至 3 美分。通过加密授权凭证，确保代理在预算内自主执行支付，商家可快速集成。这解决了 AI 自主经济中的信任与安全问题，是 Agent 经济基础设施的重要进展，让代理真正具备经济行为能力，推动自主代理从概念走向实际商业应用，降低用户风险。",
-    "tags": [
-      "New",
-      "Fintech",
-      "Agents"
-    ],
-    "link": "https://delegare.dev/",
-    "date": "2026-04-28",
-    "id": "17773682867755"
   }
 ]
