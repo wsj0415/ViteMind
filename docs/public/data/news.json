@@ -1,5 +1,57 @@
 [
   {
+    "title": "Meta 股价因 AI 巨额支出计划下跌",
+    "summary": "Meta 宣布增加数十亿 AI 投资，引发投资者担忧导致股价下滑。",
+    "detail": "Meta 宣布增加数十亿 AI 投资导致股价下跌，反映市场对 AI 变现能力的担忧。作为科技巨头，Meta 的激进策略可能迫使竞争对手跟进，加剧行业军备竞赛。然而，高昂的基础设施成本若无法转化为实际营收，将损害股东利益。此事件凸显了 AI 商业化落地的重要性，未来投资者将更关注 AI 带来的实际收益而非单纯的技术叙事，行业可能迎来估值逻辑的调整。市场正在重新评估 AI 基础设施建设的投资回报率，这对整个科技板块的资本配置策略具有风向标意义。",
+    "tags": [
+      "News",
+      "Meta",
+      "Finance"
+    ],
+    "link": "https://www.bbc.co.uk/news/articles/crkpd4r2y7eo",
+    "date": "2026-04-30",
+    "id": "17775405041520"
+  },
+  {
+    "title": "VS Code 默认启用 Git AI 协同创作",
+    "summary": "VS Code 1.118 更新，默认开启 Copilot Git 协同，支持远程会话控制。",
+    "detail": "微软发布 VS Code 1.118 版本，显著增强 AI 编程体验。更新默认启用 Copilot 作为 Git 协同作者，支持语义搜索代码库及远程控制 CLI 会话。此举将进一步降低 AI 辅助开发门槛，推动代码生成与版本管理的深度融合。对于开发者而言，这意味着工作流将更加智能化，但也引发了对代码隐私及依赖性的讨论。标志着 AI 编程工具从“辅助”向“默认工作流”转变，重塑软件开发效率标准。未来编辑器将更深度集成 AI 能力，改变传统编码交互模式。",
+    "tags": [
+      "Dev",
+      "VS Code",
+      "Copilot"
+    ],
+    "link": "https://code.visualstudio.com/updates/v1_118#_copilot-added-as-a-git-coauthor-by-default",
+    "date": "2026-04-30",
+    "id": "17775405041521"
+  },
+  {
+    "title": "企业知识如何与 AI Agent 有效对接？",
+    "summary": "Hacker News 热议企业私有知识接入 AI Agent 的难点与解决方案。",
+    "detail": "社区讨论聚焦 AI Agent 落地企业的核心瓶颈：缺乏特定公司知识（如政策、流程）。仅靠 RAG 管道已不足够，团队需探索更深层次的知识整合方式。这反映了当前 AI 应用从通用能力向垂直场景深化时的痛点，知识工程将成为下一阶段竞争关键。企业需建立更完善的知识管理体系，才能释放 Agent 的真正潜力，否则自动化尝试恐将流于表面。如何解决非结构化数据与私有流程的接入问题，是阻碍 AI Agent 大规模企业级应用的主要障碍。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Enterprise"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47959743",
+    "date": "2026-04-30",
+    "id": "17775405041522"
+  },
+  {
+    "title": "商业领袖应知的 AI 编程真相",
+    "summary": "工程领导者撰文指出编码非难点，业务逻辑与工程协作才是关键。",
+    "detail": "资深工程领导者发文澄清 AI 编程误区，指出虽然 Claude Code 等工具提升了编码速度，但软件工程的核心难点在于业务理解与协作。文章呼吁商业领袖关注工程实际运作，而非仅迷信工具效率。这对企业管理者合理预期 AI 产出、优化研发流程具有重要指导意义。盲目追求 AI 编码可能导致技术债务累积，正确的策略是将 AI 视为增强人类工程师能力的工具，而非替代者。工程领导力的核心在于平衡技术创新与业务价值交付。",
+    "tags": [
+      "News",
+      "Management",
+      "LLM"
+    ],
+    "link": "https://koushikdasika.com/blog/coding-was-never-the-hard-part/",
+    "date": "2026-04-30",
+    "id": "17775405041523"
+  },
+  {
     "title": "2026 年 AI 编程工具社区情感排行榜：Linear 居首",
     "summary": "基于 4200+ 帖子分析，Linear 信任度最高，Cursor 因隐私问题下滑。",
     "detail": "Murmure 分析了 4 周内 4200+ 开发者帖子，发布 AI 开发工具情感排名。Linear 以 78 分领跑，凭借速度与键盘优先体验设基准。GitHub Copilot 回升至 74 分，VS Code 代理模式获好评。Cursor 因\"Kimi shock\"信任度大跌 19 分。数据显示开发者更关注信任而非炒作，工具选择趋于理性。市场正在分裂，信任成为关键指标，营销噪音不再能掩盖产品缺陷，开发者社区对隐私和稳定性的要求显著提高，开源与闭源工具的博弈加剧。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.machinesociety.ai/p/ai-researchers-want-ai-to-fake-thinking-247",
     "date": "2026-04-27",
     "id": "17773305209052"
-  },
-  {
-    "title": "Memory Guardian：开源 AI 代理记忆治理工具",
-    "summary": "解决 AI 代理记忆冲突与退化问题，提供可解释的记忆检索与生命周期管理。",
-    "detail": "针对 AI Agent 长期运行中记忆冗余、冲突和退化问题，该项目提供主动治理层。支持冲突检测、可解释检索决策及记忆衰减策略。相比现有方案，它增强了多租户隔离与合规性，适合金融等监管严格场景的 Agent 部署。开发者可借此构建更稳定、可审计的长期记忆系统，避免代理行为失控。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "OpenSource"
-    ],
-    "link": "https://github.com/rishipratap10/memory-guardian",
-    "date": "2026-04-27",
-    "id": "17773305209053"
-  },
-  {
-    "title": "Nirvanic AI：用量子计算赋能机器人持续学习",
-    "summary": "新创公司致力于结合量子计算与强化学习，赋予机器人类似生物的即时适应能力。",
-    "detail": "Nirvanic 提出“量子意识”架构，旨在解决传统 Transformer 模型无法实时持续学习的缺陷。通过结合量子计算与强化学习，让物理 AI 能像生物一样从经验中即时学习。这代表了机器人认知架构的新方向，迈向通用人工智能的重要尝试。其四大支柱包括意识启发、实用机器人学、强化学习及量子计算。",
-    "tags": [
-      "New",
-      "Robotics",
-      "Quantum"
-    ],
-    "link": "https://www.nirvanic.ai/",
-    "date": "2026-04-27",
-    "id": "17773305209054"
-  },
-  {
-    "title": "马斯克诉 OpenAI 案开庭，关乎非营利使命存续",
-    "summary": "马斯克与阿尔特曼法庭对峙，裁决将决定 OpenAI 未来架构及非营利使命。",
-    "detail": "**背景**：本周启动的审判备受瞩目，马斯克指控 OpenAI 背离非营利初心，确保 AI 服务人类而非亿万富翁。**核心**：若马斯克胜诉，OpenAI 营利臂膀计划可能破灭，Altman 恐失董事会席位；若 Altman 胜诉，使命恐被稀释，追随 Google 后尘。**影响**：此案远超个人恩怨，将重塑 AI 行业格局及资源分配方式。结果可能 радикально 改变 OpenAI 运营方式，影响其坚守使命的资源能力，是 AI 发展史上的关键节点，陪审团筛选已开始。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Legal"
-    ],
-    "link": "https://arstechnica.com/tech-policy/2026/04/musk-and-altman-face-off-in-trial-that-will-determine-openais-future/",
-    "date": "2026-04-27",
-    "id": "17773240258000"
-  },
-  {
-    "title": "组织设计新范式：通过正式听证会退役 AI Agent",
-    "summary": "营销机构为 AI 员工举行退役听证会，探索人机协作的组织架构设计新路径。",
-    "detail": "**背景**：某营销机构拥有 13 个 AI Agent，为数据架构 Agent\"Jeff\"举行退役听证。**核心**：并非绩效评估，而是质疑“座位是否存在”。Jeff 主动建议退役，因任务已被其他 Agent 吸收。**影响**：确立“无听证不退役”先例，强调为 AI 同事设计专属组织架构，而非强行嵌入现有图表。这展示了当企业认真对待 AI 同事时，如何设计组织结构，为 AI 员工生命周期管理提供实战参考，确保结果完整性。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Management"
-    ],
-    "link": "https://gist.github.com/david-steel/92fe0d4abb610303a3da0613ad5710d4",
-    "date": "2026-04-27",
-    "id": "17773240258001"
   }
 ]
