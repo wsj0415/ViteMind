@@ -1,5 +1,70 @@
 [
   {
+    "title": "Meta 宣布弃用 Llama，开源 AI 时代终结？",
+    "summary": "Meta 宣布 Llama  deprecated 并转向专有模型，引发开源社区震动，开发者需警惕依赖风险。",
+    "detail": "### 背景\nMeta 曾将 Llama 作为开源 AI 基础设施的核心，拥有超过 10 亿次下载。然而 2026 年 5 月 1 日的最新声明显示，Meta 将停止维护 Llama，转向专有模型 Muse Spark。\n\n### 核心影响\n这一举动被视为“撤梯行为”，类似于谷歌当年对 Android 的策略转变。对于基于 Llama 构建产品的初创公司，这意味着底层依赖变为废弃基础设施，面临重大合规与技术迁移风险。\n\n### 行业启示\n开源 AI 模型的可持续性受到质疑。企业应避免单一依赖某一大厂的开源模型，需建立多模型冗余架构或转向社区维护的完全开源替代品，以规避平台锁定风险。",
+    "tags": [
+      "News",
+      "Meta",
+      "Open Source"
+    ],
+    "link": "https://www.utkarshapoorva.com/writing/meta-llama-trap/",
+    "date": "2026-05-01",
+    "id": "17776336726620"
+  },
+  {
+    "title": "中国法院裁定：不得仅因 AI 替代而解雇员工",
+    "summary": "中国法院最新判例确立法律先例，禁止企业单纯以引入 AI 为由裁员，保障劳动者权益。",
+    "detail": "### 事件概述\n财新全球报道，中国法院近期作出裁决，明确规定公司不能仅仅为了用 AI 替换工人而解雇员工。这是 AI 时代劳动法领域的重要里程碑。\n\n### 法律意义\n该裁决为 AI 自动化浪潮下的劳动者提供了法律保护屏障，防止企业滥用技术升级名义进行大规模裁员。它强调了技术变革中社会责任与员工安置的重要性。\n\n### 行业影响\n企业在部署 AI 自动化流程时，需重新评估人力资源策略，合规成本可能上升。这将推动“人机协作”而非“人机替代”的落地模式，促使 AI 应用向辅助型工具转型。",
+    "tags": [
+      "News",
+      "Legal",
+      "Employment"
+    ],
+    "link": "https://www.caixinglobal.com/2026-04-30/chinese-courts-rule-companies-cannot-fire-workers-simply-to-replace-them-with-ai-102439602.html",
+    "date": "2026-05-01",
+    "id": "17776336726621"
+  },
+  {
+    "title": "Xmemory 论文：结构化 AI 记忆超越 RAG",
+    "summary": "arXiv 新论文提出基于模式的记忆提取方法，在可靠性上优于传统 RAG 及混合检索架构。",
+    "detail": "### 技术背景\n当前 LLM 记忆多依赖非结构化检索（RAG），存在召回不准问题。新论文《From Unstructured Recall to Schema-Grounded Memory》提出迭代式、模式感知的提取方法。\n\n### 核心创新\nXmemory 通过结构化模式（Schema） grounding 记忆，实现了更可靠的 AI 长期记忆管理。基准测试显示其在复杂任务中的记忆准确性显著高于传统 RAG。\n\n### 开发价值\n为构建长期运行的 AI Agent 提供了新架构思路。开发者可关注此技术以优化 Agent 的状态保持能力，减少幻觉，提升复杂任务链的执行稳定性。",
+    "tags": [
+      "Dev",
+      "Paper",
+      "LLM"
+    ],
+    "link": "https://arxiv.org/abs/2604.27906",
+    "date": "2026-05-01",
+    "id": "17776336726622"
+  },
+  {
+    "title": "Show HN: Loopsy 实现跨设备终端与 AI 代理通信",
+    "summary": "开源工具 Loopsy 允许通过手机控制笔记本电脑上的 AI 代理，基于 Cloudflare Workers 自托管。",
+    "detail": "### 产品功能\nLoopsy 是一个开源项目，旨在让不同机器上的终端和 AI 代理互相通信。用户可通过手机远程控制笔记本电脑上的 Claude Code、Cursor 等 shell 环境。\n\n### 技术架构\n采用自托管模式，中继服务器部署在 Cloudflare Workers 上，通过 WebSocket 连接笔记本守护进程与手机端。支持 macOS、Linux 和 Windows。\n\n### 应用场景\n适合需要移动办公的开发者，实现了“口袋中的终端”。无需暴露本地端口，利用无服务器架构保证了连接的安全性与低成本，是远程 AI 开发工作流的优秀补充工具。",
+    "tags": [
+      "Dev",
+      "Tool",
+      "Open Source"
+    ],
+    "link": "https://github.com/leox255/loopsy",
+    "date": "2026-05-01",
+    "id": "17776336726623"
+  },
+  {
+    "title": "卫报调查：AI 越狱者背后的安全危机",
+    "summary": "媒体深入报道 AI 越狱群体，揭示人类生成的最坏内容如何通过绕过安全限制流入模型。",
+    "detail": "### 调查内容\n《卫报》发表深度文章《The AI Jailbreakers》，采访了对抗 AI 安全限制的专业人员。他们展示了如何诱导模型生成有害内容。\n\n### 安全风险\n揭示了当前 AI 安全护栏的脆弱性。越狱技术的传播可能导致恶意用户批量生成虚假信息、仇恨言论或危险指令，对社会安全构成潜在威胁。\n\n### 行业反思\n促使大厂重新评估对齐（Alignment）策略。单纯的内容过滤已不足够，需从模型训练源头加强鲁棒性，同时行业需建立更严格的红队测试标准以应对日益复杂的越狱手段。",
+    "tags": [
+      "News",
+      "Security",
+      "Safety"
+    ],
+    "link": "https://www.theguardian.com/technology/2026/apr/29/meet-the-ai-jailbreakers-i-see-the-worst-things-humanity-has-produced",
+    "date": "2026-05-01",
+    "id": "17776336726624"
+  },
+  {
     "title": "OpenRouter 推出 Workspaces 功能",
     "summary": "支持多环境隔离，管理团队与 API 密钥",
     "detail": "OpenRouter 新增 Workspaces 功能，允许用户将项目、团队和 Agent 隔离到独立环境中。每个工作空间拥有独立的 API 密钥、路由默认值、护栏和可观察性设置。适合组织隔离开发与生产环境，支持通过管理 API 编程控制。此更新解决了多团队协作时的权限混乱问题，提升了企业级用户的权限管理与安全性。标志着 AI 基础设施正向着更精细化的组织管理方向演进，便于大规模部署。对于依赖 OpenRouter 进行多模型路由的企业，这意味着更低的运维风险和更清晰的成本分摊，是平台迈向企业级服务的重要一步。未来可能看到更多类似的分权管理功能，以适应 AI Agent 协作的复杂需求。",
@@ -1233,70 +1298,5 @@
     "link": "https://blog.n8n.io/human-in-the-loop-vs-human-on-the-loop/",
     "date": "2026-04-29",
     "id": "17774652557202"
-  },
-  {
-    "title": "Monet：开源 AI 代理团队共享记忆库",
-    "summary": "开源项目 Monet 为 AI 代理团队提供共享记忆功能。",
-    "detail": "Monet 是一个开源项目，旨在为 AI 代理团队提供共享记忆（shared memory）功能。在多代理协作系统中，状态同步至关重要。该工具允许不同代理之间共享上下文和记忆，提升协作效率。适合开发多代理架构的开发者参考使用。",
-    "tags": [
-      "New",
-      "OpenSource",
-      "Agents"
-    ],
-    "link": "https://github.com/team-monet/monet",
-    "date": "2026-04-29",
-    "id": "17774652557203"
-  },
-  {
-    "title": "行业分析：AI 导致的失业潮并非现实",
-    "summary": "文章论证 AI 造成的大规模失业目前并非事实。",
-    "detail": "针对 AI 取代工作的恐慌，文章指出当前裁员主因是疫情期间过度招聘而非 AI 自动化。虽然智能工具被使用，但“末日论”缺乏数据支持。该观点为行业投资人才策略提供冷静视角，建议关注实际生产力提升而非盲目裁员。",
-    "tags": [
-      "News",
-      "Industry",
-      "Jobs"
-    ],
-    "link": "https://orischwartz.com/posts/ai-job-loss-is-not-real.html",
-    "date": "2026-04-29",
-    "id": "17774652557204"
-  },
-  {
-    "title": "论文：AI 话语中的策略性多义性分析",
-    "summary": "哲学分析 AI discourse 中的语言、炒作与权力。",
-    "detail": "康奈尔大学 arXiv 论文探讨 AI 话语中的“策略性多义性”。作者分析了语言如何被用于构建炒作与权力关系。对于理解 AI 社会影响、伦理讨论及政策制定背后的语言逻辑具有学术价值，适合关注 AI 社会学的研究者。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Ethics"
-    ],
-    "link": "https://arxiv.org/abs/2604.21043",
-    "date": "2026-04-29",
-    "id": "17774652557205"
-  },
-  {
-    "title": "Scout AI 获 1 亿美元融资打造军事 AI",
-    "summary": "国防初创公司 Scout AI 完成 1 亿美元 A 轮融资，训练战争模型。",
-    "detail": "由 Coby Adcock 创立的 Scout AI 宣布完成 1 亿美元 A 轮融资，旨在开发名为\"Fury\"的 AI 模型以指挥军事资产。该公司已获得 DARPA 等机构合同，标志着 AI 在国防领域的商业化加速。此举引发关于自主武器系统伦理与安全的行业关注，显示军事 AI 正从后勤支持向自主作战演变。融资由 Align Ventures 领投，此前曾获 1500 万美元种子轮。团队在加州军事基地进行训练，计划将 AI 集成至全地形车等装备，探索自主武器边界。CTO 表示将基于现有 LLM 训练军事专用 AGI，而非通用模型，这代表了垂直领域大模型的新方向。",
-    "tags": [
-      "News",
-      "Defense",
-      "Funding"
-    ],
-    "link": "https://techcrunch.com/2026/04/29/coby-adcocks-scout-ai-raises-100-million-to-train-models-for-war-we-visited-its-bootcamp/",
-    "date": "2026-04-29",
-    "id": "17774603900660"
-  },
-  {
-    "title": "GraphOS：开源 AI Agent 可视化管理工具",
-    "summary": "专为 LangGraph 和 MCP 设计的开源治理与可观测性层。",
-    "detail": "GraphOS 是一个新的开源项目，旨在为 LangGraph 和模型上下文协议（MCP）提供治理和可观测性层。支持本地优先执行，帮助开发者调试和监控 AI Agent 的运行状态。随着 Agent 架构复杂化，此类工具对于确保 AI 系统稳定性、透明度及合规性至关重要。该项目解决了多代理协作中的状态追踪难题，适合构建复杂工作流的开发团队采用，提升了 AI 工程化的可维护性与安全性。通过可视化运行时，开发者可快速定位 Agent 决策逻辑错误，降低部署风险。它是当前 AI 基础设施生态中缺失的关键一环，助力企业级应用落地。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Agent"
-    ],
-    "link": "https://github.com/ahmedbutt2015/graphos",
-    "date": "2026-04-29",
-    "id": "17774603900661"
   }
 ]
