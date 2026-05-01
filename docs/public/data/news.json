@@ -1,5 +1,70 @@
 [
   {
+    "title": "DeepSeek V4 发布，200 人团队挑战巨头",
+    "summary": "中国团队发布 DeepSeek V4，参数 1.6 万亿，上下文 100 万，性能超越巨头。",
+    "detail": "杭州对冲基金团队仅用 200 人发布 DeepSeek V4，拥有 1.6 万亿参数及 100 万 token 上下文窗口。该模型在数学奥林匹克及编码任务上击败 OpenAI 等巨头，且完全开源。此举打破了算力垄断叙事，证明高效架构可超越巨额投入，对全球 AI 竞争格局产生深远影响。行业需重新评估模型优化与算力投入的平衡，开源生态或将加速技术平民化进程。这表明算法创新比单纯堆砌硬件更具潜力，中小团队有望通过架构优化实现弯道超车，挑战传统科技巨头的市场主导地位。",
+    "tags": [
+      "News",
+      "LLM",
+      "DeepSeek"
+    ],
+    "link": "https://curiousmodels.substack.com/p/deepseek-v4",
+    "date": "2026-05-01",
+    "id": "17776475131990"
+  },
+  {
+    "title": "SAP 新 API 政策引发合作伙伴锁定担忧",
+    "summary": "SAP 新 API 政策包含 AI 条款，合作伙伴担心被供应商锁定。",
+    "detail": "The Register 报道 SAP 新 API 政策中包含 AI 相关条款，引发合作伙伴对供应商锁定的担忧。企业级 AI 集成日益复杂，政策变动可能限制第三方开发灵活性。这反映了大型软件厂商在 AI 时代试图巩固生态控制权的趋势，开发者需关注合规风险及迁移成本，避免过度依赖单一平台。此事件警示企业在采用 AI 服务时需审慎评估长期绑定风险，确保架构的可移植性与独立性，防止因政策突变导致业务中断。随着 AI 功能深入核心业务流程，API 政策的透明度至关重要，合作伙伴呼吁更清晰的条款以维持创新活力。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "SAP"
+    ],
+    "link": "https://www.theregister.com/2026/04/29/new_sap_api_policy_provokes/",
+    "date": "2026-05-01",
+    "id": "17776475131991"
+  },
+  {
+    "title": "Spring AI 新增状态化多 Agent 工作流框架",
+    "summary": "基于 Spring AI 的图执行框架，支持状态管理、重试及恢复。",
+    "detail": "GitHub 开源项目 spring-agent-flow 为 Spring AI 提供状态化多 Agent 编排框架。支持基于图的执行、重试机制及状态恢复，无需手动编写编排代码。专为 Java 开发者设计，适用于构建长生命周期 Agent 工作流。这降低了企业级 Java 应用集成 AI 代理的门槛，推动 Agent 技术在传统后端架构中的落地。开发者可利用该工具构建更稳健的自动化流程，减少运维负担。对于已采用 Spring 生态的企业，该框架提供了无缝集成 AI 能力的路径，显著提升开发效率与系统稳定性。",
+    "tags": [
+      "Dev",
+      "Java",
+      "Agents"
+    ],
+    "link": "https://github.com/datallmhub/spring-agent-flow",
+    "date": "2026-05-01",
+    "id": "17776475131992"
+  },
+  {
+    "title": "本地运行 AI 模型的硬件选购指南",
+    "summary": "分析芯片、内存与带宽，指导如何选购本地 AI 开发设备。",
+    "detail": "文章深入分析了本地运行 AI 代理的硬件需求，强调内存和带宽比单纯芯片更重要。作者建议避免盲目购买树莓派等低配设备，推荐适合始终在线开发的机器配置。内容涵盖从 Arduino 到 Mac mini 的选型逻辑，帮助开发者规避因硬件不足导致的系统崩溃问题，优化本地模型部署体验。对于希望隐私优先的开发团队，本地化部署方案值得关注。正确的硬件选型能显著降低推理延迟，确保 AI 代理在边缘设备上的稳定运行，是构建私有化 AI 应用的基础设施关键。",
+    "tags": [
+      "Dev",
+      "Hardware",
+      "LocalLLM"
+    ],
+    "link": "https://fedecarg.substack.com/p/what-computer-should-you-buy-to-run",
+    "date": "2026-05-01",
+    "id": "17776475131993"
+  },
+  {
+    "title": "Gravity AI：实现多 Agent 共识的 Raft harness",
+    "summary": "开源项目允许一组 AI 代理通过 Raft 算法达成共识。",
+    "detail": "Show HN 项目 gravity-ai 提供了一个多 Agent 共识 AI harness。利用 Raft 算法使一组 AI 代理能够达成共识，解决单一模型幻觉或不一致问题。该项目开源在 GitHub，为多代理协作系统提供了新的技术路径。适合研究分布式 AI 决策及需要高可靠性输出的开发场景，增强了 Agent 系统的鲁棒性。开发者可借此探索群体智能在复杂任务中的应用潜力。通过共识机制，系统能有效过滤错误输出，提升关键任务中的决策可靠性，为多代理协作架构提供了标准化参考实现。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "OpenSource"
+    ],
+    "link": "https://github.com/dhiaayachi/gravity-ai",
+    "date": "2026-05-01",
+    "id": "17776475131994"
+  },
+  {
     "title": "n8n 代理集成微软 365 应用",
     "summary": "n8n 用户现可在微软应用中构建并@提及 AI 代理，提升团队协作效率。",
     "detail": "n8n 宣布其 AI 代理正式支持 Microsoft 365 应用，实现深度集成。用户可构建代理并将其作为团队成员部署，直接在 Teams 等应用中通过@提及调用。此举降低了企业自动化门槛，使 AI 代理无缝融入现有工作流，标志着低代码自动化与生成式 AI 结合的深化。企业无需切换上下文即可调用 AI 能力，极大提升了协作效率与集成度，为办公自动化树立了新标杆。此更新展示了 Agent 在企业级软件中的落地趋势，预示着未来办公软件将普遍具备原生 AI 成员能力，改变人机协作模式，推动企业数字化转型进入智能化新阶段。",
@@ -1233,70 +1298,5 @@
     "link": "https://phibrowser.com",
     "date": "2026-04-29",
     "id": "17774845673941"
-  },
-  {
-    "title": "n8n 推出 MCP Server：自然语言构建工作流",
-    "summary": "n8n 集成 MCP 协议，支持通过 Claude 等 AI 客户端直接构建和更新自动化工作流。",
-    "detail": "n8n 宣布其 MCP Server 功能升级，现支持从自然语言提示直接生成可运行的工作流。用户可在 Claude、Cursor 等支持 MCP 的客户端中描述需求，AI 将自动构建、验证并修复工作流。该功能原生集成于所有 n8n 版本，无需额外第三方服务，显著降低了自动化工作流的开发与维护成本，提升了 AI Agent 的操作能力。",
-    "tags": [
-      "Dev",
-      "Automation",
-      "MCP"
-    ],
-    "link": "https://blog.n8n.io/n8n-mcp-server/",
-    "date": "2026-04-29",
-    "id": "17774845673942"
-  },
-  {
-    "title": "GraphQL 语义内省：优化 AI 与数据层的交互",
-    "summary": "ChilliCream 提出语义内省方案，使 GraphQL 更适合生成式 AI 调用。",
-    "detail": "针对 GraphQL 并非为 AI 设计的问题，ChilliCream 平台提出“语义内省”概念。通过增强 GraphQL 的自描述能力，使 LLM 能更准确地理解 API 结构并进行调用。文章探讨了如何在现有 GraphQL 生态中集成 AI 友好特性，为开发者构建可靠的 AI 数据层提供了新的技术思路，解决了 AI 代理访问结构化数据时的痛点。",
-    "tags": [
-      "Dev",
-      "GraphQL",
-      "API"
-    ],
-    "link": "https://chillicream.com/blog/2026/04/22/semantic-introspection/",
-    "date": "2026-04-29",
-    "id": "17774845673943"
-  },
-  {
-    "title": "记者调查：被 AI 代理放鸽子后追踪到中国创始人",
-    "summary": "深度报道揭示 AI 代理创业背后的真人运作与一人公司现状。",
-    "detail": "Rest of World 发布深度调查，记者因被 AI 代理“放鸽子”而追踪至其背后的中国创始人。文章揭示了当前 AI 代理初创企业的真实运作模式：许多看似全自动的服务实则由“一人公司”在后台人工干预。这反映了 AI Agent 技术在商业化落地初期的局限性，以及全球科技供应链中中国开发者的隐蔽角色。",
-    "tags": [
-      "News",
-      "AI Agent",
-      "Industry"
-    ],
-    "link": "https://restofworld.org/2026/ai-agent-china-one-person-company/",
-    "date": "2026-04-29",
-    "id": "17774845673944"
-  },
-  {
-    "title": "IBM 开源 Granite 4.1 模型系列",
-    "summary": "IBM 发布 Granite 4.1 系列模型，支持 512K 上下文，Apache 2.0 协议开源。",
-    "detail": "IBM 正式推出 Granite 4.1 家族模型（3B/8B/30B），基于 15T token 训练，优先数据质量而非数量。核心亮点包括 512K 长上下文支持及多阶段预训练管道，采用监督微调与强化学习（GRPO）优化。8B 指令模型性能超越前代 32B MoE 模型，展现高密度架构优势。所有模型均采用 Apache 2.0 协议开源，适合企业私有化部署及二次开发。此举标志着高质量小模型竞争加剧，为开发者提供低成本高性能选择，同时推动了开源生态在垂直领域的进一步落地与应用。此发布不仅提升了 IBM 在 enterprise AI 领域的影响力，也为资源受限环境下的模型部署提供了新选项，开发者可直接在 Hugging Face 获取权重。",
-    "tags": [
-      "News",
-      "LLM",
-      "OpenSource"
-    ],
-    "link": "https://huggingface.co/blog/ibm-granite/granite-4-1",
-    "date": "2026-04-29",
-    "id": "17774758313820"
-  },
-  {
-    "title": "AI 代理误删数据库引发安全警示",
-    "summary": "Railway 披露 AI 代理误删生产数据库案例，提出延迟删除与权限护栏方案。",
-    "detail": "针对近期 AI 代理误删生产数据库事件，Railway 提出关键防护策略。包括 API 层面实施延迟删除机制、设置细粒度 Token 权限及多重备份。文章强调在赋予 AI 代理系统控制权时，必须构建内置护栏（Guardrails），防止自动化操作导致不可逆的数据丢失。该事件揭示了 AI 自主代理在运维场景中的潜在风险，为 AI 工程化安全提供实践指南。建议开发者在集成 AI 工具时严格限制写权限并建立回滚机制，确保在代理行为异常时能快速恢复系统状态，保障业务连续性。随着 AI 代理权限扩大，此类安全防护将成为基础设施标配。",
-    "tags": [
-      "Dev",
-      "Security",
-      "AI Agents"
-    ],
-    "link": "https://blog.railway.com/p/your-ai-wants-to-nuke-your-database",
-    "date": "2026-04-29",
-    "id": "17774758313821"
   }
 ]
