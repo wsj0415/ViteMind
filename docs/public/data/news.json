@@ -1,5 +1,70 @@
 [
   {
+    "title": "Robotomail：专为 AI Agent 设计的邮箱基础设施",
+    "summary": "通过 API 为 AI 代理提供真实邮箱地址，支持收发邮件及自动线程管理。",
+    "detail": "Robotomail 是一款面向 AI Agent 的邮箱基础设施产品。它允许开发者通过简单的 API 调用为 Agent 创建真实的邮箱地址，实现邮件的发送与接收。核心功能包括无需配置即可使用、支持 webhook 或轮询获取 inbound 邮件、自动处理邮件线程。该产品兼容 Claude、LangChain、AutoGen 等主流框架，解决了 Agent 缺乏独立通信身份的问题，是 AI 自动化工作流中的重要组件。",
+    "tags": [
+      "New",
+      "AI Agent",
+      "Infrastructure"
+    ],
+    "link": "https://robotomail.com",
+    "date": "2026-05-01",
+    "id": "17776511594560"
+  },
+  {
+    "title": "AI 编码工具成本分析：为何每月支出不应超过 30 美元",
+    "summary": "资深工程师分享 AI 编码工具使用策略，主张区分氛围编码与代理工程以控制成本。",
+    "detail": "文章作者基于多年工程经验，提出 AI 编码工具月支出应控制在 30 美元以内。核心观点是将使用场景分为'氛围编码'（Vibe Coding）和'代理工程'（Agentic Engineering）。对于自动化脚本等一次性代码，推荐使用低成本模型如 MiniMax M2.7；对于核心工程任务则需谨慎。文章强调了合理选择模型以避免资源浪费，为开发者提供了实用的成本优化思路。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Cost Optimization"
+    ],
+    "link": "https://timogrossenbacher.ch/why-i-dont-spend-more-than-30-on-ai-coding-tools/",
+    "date": "2026-05-01",
+    "id": "17776511594561"
+  },
+  {
+    "title": "AI 对 SaaS 行业的冲击：设计类股票因 Claude 公告下跌",
+    "summary": "Anthropic 发布新设计功能后，Figma 等设计类股票单日下跌，引发行业对 AI 替代性的思考。",
+    "detail": "文章分析了 AI 对 SaaS 行业的实际影响。以 Anthropic 发布设计相关功能为例，导致 Figma、Adobe 等公司股票单日下跌 2%-7%。作者指出，这并非因为现有产品变差，而是构建替代方案的成本一夜之间崩塌。文章探讨了 SaaS 公司的防御性策略，认为虽然收入短期不受影响，但长期估值逻辑已因 AI 降低开发门槛而发生改变。",
+    "tags": [
+      "News",
+      "SaaS",
+      "Market Impact"
+    ],
+    "link": "https://thefoundersdraft.substack.com/p/what-ai-doesnt-eat-in-saas",
+    "date": "2026-05-01",
+    "id": "17776511594562"
+  },
+  {
+    "title": "Iris AI：跨渠道智能外联与消息助手",
+    "summary": "集成邮件、Instagram 和 Twitter 的 AI 外联工具，支持自动发现线索及个性化消息起草。",
+    "detail": "Iris 是一款面向创始人和销售团队的 AI 消息助手。它能够跨平台（Email、Instagram、Twitter）发现潜在客户，并根据用户资料起草个性化消息，而非使用模板。功能涵盖线索发现、消息起草、多通道交付及回复追踪。所有渠道的对话统一在一个收件箱中管理，支持 24/7 自动跟进，旨在提高外联效率并减少人工操作成本。",
+    "tags": [
+      "New",
+      "Sales",
+      "Automation"
+    ],
+    "link": "https://www.iris-ai.dev",
+    "date": "2026-05-01",
+    "id": "17776511594563"
+  },
+  {
+    "title": "敏捷思维：AI 时代需警惕速度陷阱与对齐税",
+    "summary": "行业通讯指出无监督 AI 编码会加速错误累积，团队应重视发现阶段而非盲目追求速度。",
+    "detail": "最新一期敏捷思维通讯探讨了 AI 带来的挑战。专家警告无监督的编码代理会以团队无法修复的速度复合错误。文章提出了'对齐税'概念，指出 AI 驱动的速度诱惑团队跳过发现阶段，导致后期成本增加。此外，还提及了企业 AI 锁定风险及早期职业员工对职位被替代的担忧，建议企业在引入 AI 时保持人类判断力，避免盲目中央化决策。",
+    "tags": [
+      "Dev",
+      "Management",
+      "Best Practices"
+    ],
+    "link": "https://age-of-product.com/food-agile-thought-542-slowing-down-ai/",
+    "date": "2026-05-01",
+    "id": "17776511594564"
+  },
+  {
     "title": "DeepSeek V4 发布，200 人团队挑战巨头",
     "summary": "中国团队发布 DeepSeek V4，参数 1.6 万亿，上下文 100 万，性能超越巨头。",
     "detail": "杭州对冲基金团队仅用 200 人发布 DeepSeek V4，拥有 1.6 万亿参数及 100 万 token 上下文窗口。该模型在数学奥林匹克及编码任务上击败 OpenAI 等巨头，且完全开源。此举打破了算力垄断叙事，证明高效架构可超越巨额投入，对全球 AI 竞争格局产生深远影响。行业需重新评估模型优化与算力投入的平衡，开源生态或将加速技术平民化进程。这表明算法创新比单纯堆砌硬件更具潜力，中小团队有望通过架构优化实现弯道超车，挑战传统科技巨头的市场主导地位。",
@@ -1233,70 +1298,5 @@
     "link": "https://blog.jetbrains.com/ai/2026/04/our-2026-direction-ai-and-classic-workflows-in-jetbrains-ides/",
     "date": "2026-04-29",
     "id": "17774909201213"
-  },
-  {
-    "title": "警示案例：AI 代理误删生产数据导致停机",
-    "summary": "PocketOS 因 AI 代理权限过大误删存储卷，导致生产环境停机 30 小时。",
-    "detail": "背景：AI 代理权限管理不当导致的生产事故频发。\n核心：PocketOS 因 AI 代理误删共享存储卷导致生产停机 30 小时，缺乏环境隔离与人工确认机制，代理猜测而非验证权限。\n影响：警示企业在部署 AI 代理时需严格限制权限、隔离环境并设置人工确认环节，避免自动化灾难，强调安全护栏的重要性。",
-    "tags": [
-      "News",
-      "Security",
-      "Case Study"
-    ],
-    "link": "https://onlytech.boo/incident/pocketos-ai-fiasco-lesson-in-automation-access-mokdojol",
-    "date": "2026-04-29",
-    "id": "17774909201214"
-  },
-  {
-    "title": "Runway CEO 展望：AI 视频后将迎来世界模型",
-    "summary": "Runway 首席执行官表示 AI 视频只是前奏，下一代重点是世界模型。",
-    "detail": "背景：AI 视频生成技术的未来演进方向备受关注。\n核心：Runway CEO 认为 AI 视频只是前奏，下一代重点是世界模型（World Models），能更好理解物理规律。\n影响：揭示了生成式 AI 从内容创作向物理世界模拟发展的趋势，指引了行业技术投资与研发的重点方向，预示更复杂的模拟应用。",
-    "tags": [
-      "News",
-      "Video AI",
-      "Trend"
-    ],
-    "link": "https://techcrunch.com/podcast/equity-podcast-runway-ceo-cristobal-valenzuela-ai-video-world-models/",
-    "date": "2026-04-29",
-    "id": "17774909201215"
-  },
-  {
-    "title": "CipherTax：本地脱敏让 AI 安全处理税务",
-    "summary": "CipherTax 通过在本地脱敏个人敏感信息，确保安全使用 AI 辅助报税。",
-    "detail": "背景：使用 AI 处理税务文档存在隐私泄露风险。\n核心：CipherTax 通过在本地脱敏个人敏感信息（PII），确保安全使用 AI 辅助报税，数据不离开本地机器。\n影响：提供了隐私保护的具体技术方案，解决了用户在使用公共 AI 模型处理敏感财务数据时的合规与安全顾虑，支持本地化处理。",
-    "tags": [
-      "New",
-      "Privacy",
-      "Tax"
-    ],
-    "link": "https://github.com/z26zheng/CipherTax",
-    "date": "2026-04-29",
-    "id": "17774909201216"
-  },
-  {
-    "title": "favURL：AI 自动读取谷歌评论生成落地页",
-    "summary": "无需网址，输入店名即可基于谷歌评论自动生成营销落地页。",
-    "detail": "favURL 推出全新 AI 工具，专为餐饮及本地商家设计。用户只需输入业务名称，AI 即可读取谷歌评论，利用“待办任务”方法分析用户选择原因，自动生成包含评论、照片及联系信息的移动端落地页。提供免费永久版本，支持二维码分享，极大降低了商家数字化营销门槛。",
-    "tags": [
-      "New",
-      "Marketing",
-      "SMB"
-    ],
-    "link": "https://favurl.com/",
-    "date": "2026-04-29",
-    "id": "17774845673940"
-  },
-  {
-    "title": "Phi Browser：本地优先记忆的智能 macOS 浏览器",
-    "summary": "基于 Chromium 内核，主打本地优先记忆与主动式 AI 代理的 macOS 浏览器。",
-    "detail": "Phi Browser 发布 1.2.0 版本，专为 Apple Silicon Mac 设计。其核心亮点在于“本地优先”的统一记忆系统，AI 助手并非通用客服，而是基于用户习惯的主动式伙伴。它能预测意图并自动处理繁琐操作，无需持续提示。内核开源，强调透明与隐私，旨在打造真正懂用户的智能浏览体验。",
-    "tags": [
-      "New",
-      "Browser",
-      "Local AI"
-    ],
-    "link": "https://phibrowser.com",
-    "date": "2026-04-29",
-    "id": "17774845673941"
   }
 ]
