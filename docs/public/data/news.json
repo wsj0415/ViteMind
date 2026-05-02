@@ -1,5 +1,44 @@
 [
   {
+    "title": "AI-CLI：终端内的多模态生成工具",
+    "summary": "全新 CLI 工具支持终端内生成文本、图像和视频，集成多模型对比功能。",
+    "detail": "AI-CLI 是一款专为开发者设计的命令行工具，允许用户在终端内直接生成文本、图像和视频。它支持通过 Vercel AI Gateway 访问 OpenAI、Anthropic 等多种模型，并提供多模型并行对比功能。开发者可以通过管道命令链式调用，将代码差异解释、图像生成等任务自动化。该工具简化了 AI 模型交互流程，提升了开发者在终端环境下的工作效率和实验灵活性。",
+    "tags": [
+      "Dev",
+      "CLI",
+      "Multi-modal"
+    ],
+    "link": "https://ai-cli.dev/",
+    "date": "2026-05-02",
+    "id": "17777006437601"
+  },
+  {
+    "title": "Wirken：代理时代的安全 AI 网关",
+    "summary": "开源项目 Wirken 提供加密凭证库和单二进制部署，保障 AI 代理通信安全。",
+    "detail": "Wirken 是一个专为 AI 代理时代设计的安全网关项目，以单个静态 Rust 二进制文件交付。它支持 Telegram、Slack 等多种通信渠道，为每个渠道提供隔离线路和加密凭证库。所有调用在连接前均被记录，支持会话哈希链审计日志。该工具解决了 AI 代理在调用 API 和使用工具时的安全风险，适合需要高安全性和易部署性的企业级代理应用场景。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://github.com/gebruder/wirken",
+    "date": "2026-05-02",
+    "id": "17777006437604"
+  },
+  {
+    "title": "Sam Altman：OpenAI 无意用 AI 取代人类",
+    "summary": "OpenAI CEO 公开表态，强调 AI 旨在增强而非取代人类工作能力。",
+    "detail": "OpenAI CEO Sam Altman 在最新采访中表示，OpenAI 的目标并非用 AI 取代人类。这一表态回应了业界对于 AI 导致大规模失业的担忧。虽然新闻详情有限，但该言论反映了头部 AI 公司对于人机协作关系的官方立场。在 AI 技术快速迭代的背景下，这一观点对于缓解公众焦虑、引导政策制定以及规划企业 AI 战略具有重要的风向标意义。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Policy"
+    ],
+    "link": "https://www.neowin.net/news/sam-altman-says-that-openai-doesnt-want-to-replace-you-with-ai/",
+    "date": "2026-05-02",
+    "id": "17777006437605"
+  },
+  {
     "title": "Finny：终端运行的 AI 交易代理",
     "summary": "支持多券商的终端 AI 交易工具，自然语言生成策略。",
     "detail": "Finny 是一款专为交易员和开发者设计的终端 AI 代理，支持 Alpaca、Binance 等五大券商集成。用户只需用自然语言描述动量、均值回归等策略，即可生成可检查的 Python 代码并进行历史回测。v0.6.7 版本引入了基于 AST 的前瞻性检测，旨在消除手动拼接提示词和脚本的繁琐。该工具强调‘执行即界面’，允许用户在终端直接管理算法会话、回测及投资组合，显著降低了量化交易的技术门槛，是 AI 赋能金融领域的最新实践。",
@@ -37,6 +76,19 @@
     "link": "https://www.theatlantic.com/economy/2026/05/ai-bubble-revenue-anthropic/687022/",
     "date": "2026-05-02",
     "id": "17776902677602"
+  },
+  {
+    "title": "独立开发者实测：AI 全流程制作游戏引发争议",
+    "summary": "开发者使用 AI 两小时完成 Unity 游戏 demo，引发社区关于 AI 取代艺术家的讨论。",
+    "detail": "一位独立开发者使用 AI 工具在兩小时内完成了从代码到美术的 Unity 游戏 demo 全流程制作，并在 LinkedIn 分享后引发争议。文章指出，虽然社区对 AI 生成内容的抵触情绪真实存在，但矛头常指向独立开发者而非大型游戏公司。该实验展示了 2026 年 AI 在游戏开发中的实际效率，同时也揭示了行业对于训练数据版权和艺术家失业问题的深层焦虑。",
+    "tags": [
+      "News",
+      "GameDev",
+      "Ethics"
+    ],
+    "link": "https://darkounity.com/blog/addressing-ai-use-in-game-development",
+    "date": "2026-05-01",
+    "id": "17777006437606"
   },
   {
     "title": "威胁 AI 代理生存能否提升其博弈表现？",
@@ -1246,57 +1298,5 @@
     "link": "https://www.theverge.com/tech/921048/verified-by-spotify-badge",
     "date": "2026-04-30",
     "id": "17775642190073"
-  },
-  {
-    "title": "ComicInk：一键将提示词转化为完整漫画书",
-    "summary": "Show HN 项目 ComicInk 上线，提供角色一致性的 AI 漫画生成工具，支持免费试用。",
-    "detail": "### 产品亮点\nComicInk 允许用户通过文本提示生成完整漫画，解决了生成式图像中角色一致性难的痛点。\n### 功能特性\n支持角色一致性保持、创作者商店变现功能，并提供免费积分供新用户体验。已有 2000+ 创作者使用。\n### 适用人群\n适合独立漫画家、故事创作者及希望快速可视化构思的内容开发者。",
-    "tags": [
-      "New",
-      "AIGC",
-      "漫画创作"
-    ],
-    "link": "https://www.comicink.ai",
-    "date": "2026-04-30",
-    "id": "17775642190074"
-  },
-  {
-    "title": "LLM-safe-haven：60 秒加固你的 AI 编码代理",
-    "summary": "GitHub 新项目提供安全指南和工具，帮助开发者在 60 秒内硬化自主 AI 编码代理的安全性。",
-    "detail": "### 工具介绍\n这是一个针对独立开发者的安全指南和工具集，旨在解决运行自主 AI 编码代理时的安全隐患。\n### 技术价值\n随着 AI Agent 自主执行代码能力的增强，沙箱环境和权限控制变得至关重要。该项目提供了具体的配置建议。\n### 适用场景\n适用于使用 Cursor、Copilot 等工具进行自动化开发的团队，防止恶意代码执行或权限泄露。",
-    "tags": [
-      "Dev",
-      "AI 安全",
-      "开发工具"
-    ],
-    "link": "https://github.com/pleasedodisturb/llm-safe-haven",
-    "date": "2026-04-30",
-    "id": "17775642190075"
-  },
-  {
-    "title": "AI 开发工具中的信任边界：Google 与 Anthropic 的分歧",
-    "summary": "Hacker News 讨论 AI 编码代理在 CI/CD 中的权限配置，Google 与 Anthropic 持不同安全立场。",
-    "detail": "### 核心争议\n讨论聚焦于 AI 代理在运行未 authored 的仓库配置时，是否应扩展权限。Google 视为严重漏洞，Anthropic 视为设计特性。\n### 技术细节\n涉及 Gemini CLI 与 Claude Code 在非交互模式下的信任决策机制。这关系到自动化流程中的安全边界定义。\n### 行业影响\n反映了 AI 代理安全标准的缺失，开发者需警惕不同厂商代理工具在自动化流程中的潜在风险差异。",
-    "tags": [
-      "Dev",
-      "AI 安全",
-      "行业标准"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47963671",
-    "date": "2026-04-30",
-    "id": "17775642190076"
-  },
-  {
-    "title": "行业观察：AI 术语定义混乱亟待标准化",
-    "summary": "分析文章指出当前 AI 术语（如 AI、LLM）使用混乱，营销误导导致技术沟通成本增加。",
-    "detail": "### 现状分析\n文章指出随着 ChatGPT 普及，营销术语涌入技术领域，导致“人工智能”等词汇定义模糊。\n### 标准进展\n提及 ISO/IEC 22989 标准虽已努力标准化，但实际应用中混淆仍常见。\n### 行业建议\n呼吁社区回归技术本质，区分通用 AI、生成式 AI 与大语言模型，以减少沟通债务和误解。",
-    "tags": [
-      "News",
-      "行业观察",
-      "术语标准"
-    ],
-    "link": "https://vale.rocks/posts/ai-terminology",
-    "date": "2026-04-30",
-    "id": "17775642190077"
   }
 ]
