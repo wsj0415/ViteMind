@@ -1,5 +1,57 @@
 [
   {
+    "title": "架构师指南：AI 计算基础设施深度解析",
+    "summary": "深入探讨 AI 计算景观，从 GPU 到分布式系统的瓶颈与架构权衡。",
+    "detail": "本文是六部分系列的首篇，旨在揭开现代 AI 系统背后硬件层的神秘面纱。文章指出，当前 AI 进步不再仅受限于模型，更受制于计算、内存和互连系统。随着模型规模扩大，数千张 GPU 并行训练成为常态，硬件层已成为性能的关键决定因素。文章分析了 GPU、TPU 及专用加速器的优缺点，为工程师选择合适硬件提供基础指导，强调系统级约束对实际性能的影响。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "GPU"
+    ],
+    "link": "https://pawankjha.substack.com/p/architecting-ai-compute-part-1-the",
+    "date": "2026-05-02",
+    "id": "17777225285560"
+  },
+  {
+    "title": "市场信号显示苹果可能计划重大 AI 收购",
+    "summary": "Marketwatch 报道暗示苹果正准备进行大规模 AI 收购，以增强其人工智能布局。",
+    "detail": "根据 Marketwatch 的最新报道，苹果公司近期释放出微妙信号，表明其可能正在进行一场引人注目的 AI 收购。在竞争激烈的 AI 赛道上，科技巨头纷纷通过收购来获取关键技术或人才。此次潜在收购被视为苹果加强其人工智能战略的重要一步，可能旨在弥补其在生成式 AI 领域的短板，或加速特定 AI 功能的落地，值得行业密切关注其后续动向。",
+    "tags": [
+      "News",
+      "Apple",
+      "M&A"
+    ],
+    "link": "https://www.marketwatch.com/story/apple-just-gave-a-subtle-clue-that-a-splashy-ai-acquisition-may-be-in-the-cards-110f5ce2?mod=home_lead",
+    "date": "2026-05-02",
+    "id": "17777225285562"
+  },
+  {
+    "title": "Autorank：AI 驱动的自动化 SEO 内容排名工具",
+    "summary": "利用 AI 自动生成研究型博客，优化谷歌及 AI 搜索引擎排名，提升有机流量。",
+    "detail": "Autorank 是一款针对 SEO 优化的 AI 写作工具，旨在帮助用户在 Google 及 ChatGPT 等 AI 搜索引擎中获得更高排名。该工具能在 5 分钟内分析网站并识别关键词机会，30 分钟内发布首篇研究支持的博客文章。通过持续生成高质量内容，用户可在数周内看到有机流量和收入的增长。它适合希望自动化内容营销且无需复杂操作的增长型公司，支持无注册试用。",
+    "tags": [
+      "New",
+      "SEO",
+      "Marketing"
+    ],
+    "link": "https://www.getautorank.ai/",
+    "date": "2026-05-02",
+    "id": "17777225285563"
+  },
+  {
+    "title": "媒体人应对 AI 挑战：Casey Newton 重塑通讯策略",
+    "summary": "知名科技记者调整通讯策略，减少聚合分析，增加独家报道以竞争 AI。",
+    "detail": "面对 AI 生成内容的冲击，知名科技记者 Casey Newton 正在重塑其通讯简报策略。根据 Nieman Journalism Lab 报道，他将减少内容聚合与分析，转而专注于独家报道（Scoops）。这一转变反映了传统媒体人在 AI 时代的生存策略：通过提供 AI 难以复制的原创深度内容和人际网络优势，来维持订阅价值和竞争力，为行业内容创作者提供了参考范式。",
+    "tags": [
+      "News",
+      "Media",
+      "Strategy"
+    ],
+    "link": "https://www.niemanlab.org/2026/04/more-scoops-less-aggregation-and-analysis-how-casey-newton-is-revamping-his-newsletter-to-compete-with-ai/",
+    "date": "2026-05-02",
+    "id": "17777225285564"
+  },
+  {
     "title": "AI 引发补丁海啸：数十年代码债务被重新挖掘",
     "summary": "AI 技术正在揭露遗留代码中的安全债务，可能导致大规模补丁潮。",
     "detail": "The Register 报道指出，AI 代码分析工具正在发现几十年前埋下的代码债务和安全漏洞。这可能导致网络安全领域迎来“补丁海啸”，迫使企业重新审视遗留系统。NCSC 警告需做好准备。这对依赖旧代码库的企业构成重大维护挑战，同时也凸显了 AI 在安全审计中的双刃剑效应。随着 AI 挖掘能力增强，历史技术债将集中爆发，安全团队需提前规划资源应对潜在的大规模漏洞修复需求，避免系统稳定性受损。此外，这也意味着软件供应链安全将面临新的测试标准，旧代码库的退役或重构进程可能被迫加速。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.bbc.com/news/articles/cd9pdjgvxj8o",
     "date": "2026-04-30",
     "id": "17775832260043"
-  },
-  {
-    "title": "AI 生成的代码没有作者：维护挑战与新规范",
-    "summary": "文章探讨 AI 生成代码缺乏作者带来的维护难题及应对策略。",
-    "detail": "Ossature 博客文章指出，AI 生成的代码缺乏明确作者，导致边缘情况、错误处理和行为选择的决策逻辑难以追溯，给长期维护带来挑战。团队需依赖更严格的规范文档（如 spec）而非代码本身来确保一致性。随着 Agent 生成代码增多，开发者需调整工作流程，强化规格说明的重要性。这标志着软件工程实践需适应 AI 时代，从代码为中心转向规范为中心。传统代码审查机制可能失效，需要新的工具和方法来管理 AI 生成的逻辑，确保系统可维护性，这对开发团队的知识管理和协作模式提出了新的要求与变革方向。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "LLM"
-    ],
-    "link": "https://ossature.dev/blog/ai-generated-code-has-no-author/",
-    "date": "2026-04-30",
-    "id": "17775832260044"
-  },
-  {
-    "title": "AWX Shredder：在 API 调用前强制限制 AI 代理预算",
-    "summary": "新工具 AWX Shredder 可在 API 调用前拦截超额支出，控制 AI 代理成本。",
-    "detail": "AWX Shredder 是一款处于测试期的新工具，旨在防止 AI 代理消耗过多预算。它作为代理位于用户与 OpenAI 之间，可设置每日支出上限，超额请求在到达 API 前被拦截，确保不产生费用。支持多代理多组织管理，提供实时支出追踪与事件流。这对于需要控制 AI 运营成本的开发团队来说是一个实用的解决方案，解决了 Agent 自主调用可能带来的成本失控风险。通过代理层实现硬预算执行，无需修改现有代码库，兼容 LangChain 等主流库，为大规模部署 AI 代理提供了必要的财务安全网和管理可视性。",
-    "tags": [
-      "Dev",
-      "Tool",
-      "Cost Control"
-    ],
-    "link": "https://awx-shredder.fly.dev",
-    "date": "2026-04-30",
-    "id": "17775832260045"
-  },
-  {
-    "title": "Aide-Memory 发布：AI 编程代理持久记忆工具",
-    "summary": "解决 AI 会话间记忆丢失，自动捕获路径范围知识，提升团队协作。",
-    "detail": "Aide-Memory 正式上线，专为 AI 编程代理和团队设计。它弥补了静态规则文件（如 CLAUDE.md）的不足，能够自动捕获和回忆特定路径的代码知识。通过动态记忆机制，避免无关上下文占用窗口，实现团队间知识自动流转，提升代理协作效率。",
-    "tags": [
-      "New",
-      "Coding Agent",
-      "Productivity"
-    ],
-    "link": "https://www.aide-memory.dev/blog/launch",
-    "date": "2026-04-30",
-    "id": "17775771248040"
-  },
-  {
-    "title": "Ubuntu 推进 AI 功能引发用户隐私担忧",
-    "summary": "Linux 用户呼吁增加“关闭开关”，反对强制集成 AI 功能。",
-    "detail": "Ubuntu 最新的 AI 集成计划引发社区强烈反应。用户担心隐私侵犯及资源占用，纷纷寻求“杀死开关”以禁用相关功能。此事反映了开源社区对本地 AI 化的矛盾心态，迫使发行版商在智能化与用户控制权之间寻找平衡，可能影响未来 Linux 桌面 AI 策略。",
-    "tags": [
-      "News",
-      "OS",
-      "Privacy"
-    ],
-    "link": "https://www.theverge.com/tech/920723/linux-ubuntu-ai-features-ai-kill-switch",
-    "date": "2026-04-30",
-    "id": "17775771248041"
   }
 ]
