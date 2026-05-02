@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 引发补丁海啸：数十年代码债务被重新挖掘",
+    "summary": "AI 技术正在揭露遗留代码中的安全债务，可能导致大规模补丁潮。",
+    "detail": "The Register 报道指出，AI 代码分析工具正在发现几十年前埋下的代码债务和安全漏洞。这可能导致网络安全领域迎来“补丁海啸”，迫使企业重新审视遗留系统。NCSC 警告需做好准备。这对依赖旧代码库的企业构成重大维护挑战，同时也凸显了 AI 在安全审计中的双刃剑效应。随着 AI 挖掘能力增强，历史技术债将集中爆发，安全团队需提前规划资源应对潜在的大规模漏洞修复需求，避免系统稳定性受损。此外，这也意味着软件供应链安全将面临新的测试标准，旧代码库的退役或重构进程可能被迫加速。",
+    "tags": [
+      "News",
+      "Security",
+      "Legacy Code"
+    ],
+    "link": "https://www.theregister.com/2026/05/02/ncsc_brace_for_patch_tsunami/",
+    "date": "2026-05-02",
+    "id": "17777129724460"
+  },
+  {
+    "title": "AgentsMesh：统一多 AI 编程助手配置的开源自工具",
+    "summary": "解决 AI 编程助手配置漂移问题，一次编写多处同步生成。",
+    "detail": "针对 Claude、Cursor、Copilot 等工具配置格式不统一导致的配置漂移问题，AgentsMesh 提供了开源 CLI 解决方案。开发者只需在 `.agentsmesh/` 中编写规范规则，即可生成所有助手的原生配置，如 `CLAUDE.md` 或 `.cursor/rules/*.mdc`。支持检查漂移和导入现有配置，极大提升了多工具协作下的开发效率与维护性，是 AI 开发基础设施的重要补充。它解决了多助手并存时的管理痛点，确保团队规则一致性。通过 `agentsmesh check` 可在 CI 流程中捕捉配置差异，防止因助手更新导致的行为不一致，保障开发环境的标准化与可复制性。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Tooling"
+    ],
+    "link": "https://github.com/sampleXbro/agentsmesh",
+    "date": "2026-05-02",
+    "id": "17777129724461"
+  },
+  {
+    "title": "SimplePDF Copilot：客户端 AI 工具调用填充 PDF 表单",
+    "summary": "通过聊天编辑和填充 PDF 表单，支持客户端工具调用保护隐私。",
+    "detail": "SimplePDF 推出了 Copilot 功能，允许用户通过对话编辑、填充和理解 PDF 文件。其核心亮点在于使用客户端工具调用（client-side tool calling），意味着数据处理可在本地完成，增强了隐私安全性。展示了 AI 在文档处理领域的落地应用，特别适合需要处理复杂表单（如 IRS W-9）的场景，桌面端体验最佳。这种本地化处理模式为敏感文档的 AI 处理提供了新范式，减少了云端数据泄露风险。用户可直接在浏览器中体验公共演示，验证 AI 对表单内容的理解与自动填充能力，无需上传敏感数据至服务器。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Privacy"
+    ],
+    "link": "https://copilot.simplepdf.com/?share=a7d00ad073c75a75d493228e6ff7b11eb3f2d945b6175913e87898ec96ca8076&form=w9&lang=en",
+    "date": "2026-05-02",
+    "id": "17777129724462"
+  },
+  {
+    "title": "实战教程：构建 Kubernetes 调试 AI Agent 插件",
+    "summary": "基于 Claude Code 构建 VictoriaMetrics 与 K8s 调试 Agent 的详细指南。",
+    "detail": "该教程展示了如何为 Claude Code 创建自定义插件，专门用于调试 Kubernetes Pod 崩溃问题。通过封装 VictoriaMetrics 官方技能并编写自定义 `SKILL.md`，开发者可构建可复用的 Agent 市场。这不仅提升了运维效率，还为团队内部共享 AI 能力提供了范式，展示了 AI Agent 在垂直领域运维场景的深度集成潜力。项目打包为插件存储于 GitHub，便于团队分发，实现了运维知识的代码化与自动化传承。作者还计划建立内部 Marketplace，让项目组成员能共享类似插件，进一步降低运维门槛。",
+    "tags": [
+      "Dev",
+      "Kubernetes",
+      "Agent"
+    ],
+    "link": "https://rtfm.co.ua/en/claude-code-creating-kubernetes-debugging-ai-agent-for-victoriametrics/",
+    "date": "2026-05-02",
+    "id": "17777129724463"
+  },
+  {
+    "title": "行业讨论：AI Agent 是否应拥有独立法律实体？",
+    "summary": "探讨 AI 代理产生消费或责任时的法律归属与实体化问题。",
+    "detail": "Hacker News 热门讨论聚焦于 AI Agent 的法律地位。当代理自主消费或产生责任时，个人账户风险高而手动创建 LLC 难以扩展。社区探讨是否应为 AI 设立独立法律实体以界定责任边界。这反映了 AI 自主性增强带来的法律滞后挑战，对未来 AI 商业化和责任认定具有深远影响。随着 Agent 经济活动增加，现有法律框架可能无法覆盖，亟需探索新型实体结构以隔离风险并促进自动化商业发展。讨论指出，若 AI 能独立签署合同，传统公司法可能需要重大修订以适应非人类主体的经济行为。",
+    "tags": [
+      "News",
+      "Legal",
+      "Ethics"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47984321",
+    "date": "2026-05-02",
+    "id": "17777129724464"
+  },
+  {
     "title": "MIT 科技评论：AI 时代的不安全感",
     "summary": "探讨 AI 时代的网络安全新挑战与风险。",
     "detail": "MIT Technology Review 发表深度文章，探讨 AI 时代的网络安全新挑战。随着人工智能融入关键基础设施，传统安全边界模糊，模型攻击与数据隐私风险加剧。文章分析了自动化威胁的新形态，并提出防御思路。这对企业安全架构具有重要警示意义，提示需重新评估 AI 集成后的风险管控策略，确保技术落地的安全性与可靠性。行业需建立新的安全标准以应对生成式 AI 带来的未知漏洞，防止恶意利用。此外，报告强调了跨部门协作的重要性，以构建更具韧性的防御体系，保障数字生态安全。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.theverge.com/tech/920723/linux-ubuntu-ai-features-ai-kill-switch",
     "date": "2026-04-30",
     "id": "17775771248041"
-  },
-  {
-    "title": "美国众议院调查企业使用中国 AI 模型风险",
-    "summary": "聚焦 Airbnb 与 Anysphere，审查供应链安全与数据隐私。",
-    "detail": "美国众议院小组委员会启动调查，审查 Airbnb 和 Anysphere 等公司使用中国 AI 模型的情况。重点关注国家安全、数据隐私及供应链依赖风险。此举标志着 AI 地缘政治博弈延伸至企业应用层，合规成本上升，可能迫使非科技公司重新评估其 AI 供应商策略。",
-    "tags": [
-      "News",
-      "Policy",
-      "Geopolitics"
-    ],
-    "link": "https://www.nextgov.com/artificial-intelligence/2026/04/house-panels-probe-airbnb-anysphere-over-use-chinese-ai-models/413207/",
-    "date": "2026-04-30",
-    "id": "17775771248042"
-  },
-  {
-    "title": "2026 版 AI 编程代理横向对比表发布",
-    "summary": "涵盖 40+ 主流代理，对比功能、价格及 Terminal Bench 基准。",
-    "detail": "Terminal Trove 更新 2026 年 AI 编程代理对比表，支持侧边比较 40 多种工具。涵盖 Claude Code、Cursor、GitHub Copilot 等主流产品，提供功能特性、定价、MCP 支持及基准测试数据。为开发者选型提供权威参考，反映当前编码代理市场的高度竞争与差异化趋势。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "Comparison"
-    ],
-    "link": "https://terminaltrove.com/compare/ai-coding-agents/",
-    "date": "2026-04-30",
-    "id": "17775771248043"
-  },
-  {
-    "title": "YC 校友活动洞察：AI 原生公司运营之道",
-    "summary": "COO 需构建五层操作系统，超越单纯的生产力工具思维。",
-    "detail": "YC AI 校友活动指出，AI 原生公司的 COO 核心任务是构建包含传感器、策略、工具、质量及学习机制的五层操作系统。仅将 AI 视为生产力工具会导致结构僵化。成功企业需通过自动反馈闭环重塑组织流程，而非单纯加速现有任务，这标志着企业管理范式向 AI 优先转型。",
-    "tags": [
-      "News",
-      "Business",
-      "Strategy"
-    ],
-    "link": "https://antonyevans.com/blog/engineering/c068-coo-job-is-building-ai-operating-system/",
-    "date": "2026-04-30",
-    "id": "17775771248044"
-  },
-  {
-    "title": "Stripe 推出支持 AI 代理的数字钱包 Link",
-    "summary": "Stripe 发布 Link 钱包，允许自主 AI 代理进行支付和购物。",
-    "detail": "Stripe 正式推出 Link 数字钱包，不仅服务于人类用户，更关键的是支持自主 AI 代理使用。这意味着 AI 代理在未来将具备独立的经济行为能力，可以直接完成购物支付流程。此举解决了 AI 代理商业化落地的关键支付环节，为自主代理经济（Agent Economy）奠定了基础设施。对于开发者和企业而言，这意味着可以构建真正闭环的自动化商业流程，无需人工干预支付验证，极大提升了 AI 代理在实际商业场景中的可用性和独立性。这是支付领域与 AI 结合的重要里程碑，标志着代理经济从概念走向实际交易能力，可能引发新一轮的自动化商业服务创新。",
-    "tags": [
-      "News",
-      "Fintech",
-      "AI Agents"
-    ],
-    "link": "https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/",
-    "date": "2026-04-30",
-    "id": "17775699110640"
-  },
-  {
-    "title": "Anaconda 收购 Outerbounds 优化 AI 代理代码质量",
-    "summary": "Anaconda 收购 Outerbounds，旨在解决 AI 代理生成代码的漏洞问题。",
-    "detail": "Anaconda 宣布收购机器学习平台 Outerbounds（Metaflow 背后团队），核心目标是解决 AI 代理频繁生成漏洞代码的问题。随着 AI 编程代理的普及，代码质量和安全性成为瓶颈。此次收购将整合 Metaflow 的工作流管理能力与 Anaconda 的包管理生态，旨在为 AI 生成的代码提供更严格的验证和管理流程。这标志着基础设施层开始专门针对 AI 代理的缺陷进行优化，行业重心从“生成代码”转向“管理代码质量”。对企业级 AI 开发流程的稳定性至关重要，表明市场开始重视 AI 生成内容的可靠性与可维护性，是 DevOps 领域应对 AI 挑战的关键举措。",
-    "tags": [
-      "News",
-      "M&A",
-      "DevOps"
-    ],
-    "link": "https://thenewstack.io/anaconda-ai-outerbounds-python-metaflow/",
-    "date": "2026-04-30",
-    "id": "17775699110641"
   }
 ]
