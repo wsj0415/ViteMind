@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 创业陷阱：哪些想法是“沥青坑”？",
+    "summary": "Hacker News 讨论 AI 时代的创业陷阱，如多模型聊天机器人和代码审查代理。",
+    "detail": "**背景**：创业者常被看似美好实则难成的想法吸引，历史上如餐厅推荐或分摊账单应用。**核心观点**：文中列举了 AI 时代的“沥青坑”想法，包括组合多模型的聊天机器人、代码审查 Agent、旧想法 AI 化及广告生成器。**影响**：提醒开发者避免资源浪费，关注真正可行的落地场景，理性看待 AI 创业热潮。社区正在讨论是否过早定义这些陷阱，引发对 AI 应用泡沫与真实价值的深度思考，避免重蹈覆辙。",
+    "tags": [
+      "News",
+      "Startup",
+      "Industry"
+    ],
+    "link": "https://news.ycombinator.com/item?id=47995879",
+    "date": "2026-05-03",
+    "id": "17778087259650"
+  },
+  {
+    "title": "实战：用 AI Agent 迁移 6000 个 React 测试",
+    "summary": "分享利用 AI Agent 和 AST 技术迁移大量 React 测试用例的实战经验与挑战。",
+    "detail": "**背景**：面对数万行代码库，手动迁移测试成本极高，直接让 AI 全量迁移易失控。**技术点**：作者尝试用 Claude Code CLI 直接迁移 970 个文件失败，后转为生成迁移指南并结合 AST 分步处理。**难点**：升级至 v14 使所有 API 异步化，时序行为改变导致覆盖率和调试困难。**价值**：为大型项目 AI 辅助重构提供了避坑指南和分步策略，强调准备指南的重要性，证明在复杂遗留系统中 AI 需配合人工策略而非完全自动化。",
+    "tags": [
+      "Dev",
+      "React",
+      "AI Agent"
+    ],
+    "link": "https://eliocapella.com/blog/ai-library-migration-guide/",
+    "date": "2026-05-03",
+    "id": "17778087259651"
+  },
+  {
+    "title": "微软 Fabric + Azure AI Foundry 快速构建数据平台",
+    "summary": "展示如何利用微软云栈在一个周末内交付三个全栈数据平台。",
+    "detail": "**背景**：传统数据分析平台搭建需数周基础设施工作，集成点多易失败。**方案**：采用 Microsoft Fabric + Azure AI Foundry 统一栈，成功交付证券收益工作台、电池供应链 ERP 及矿业情报平台。**优势**：Fabric 将基础设施坍缩为单一平面，Delta Lake 表存于 Lakehouse，Notebook 即管道，AI 端点兼容 OpenAI 协议。**影响**：大幅降低基础设施复杂度，实现从零到生产级代码的快速复用模式，适合矿业、供应链等重数据场景。",
+    "tags": [
+      "Dev",
+      "Azure",
+      "Data Platform"
+    ],
+    "link": "https://cubiczan.substack.com/p/how-we-shipped-3-full-stack-data",
+    "date": "2026-05-03",
+    "id": "17778087259652"
+  },
+  {
+    "title": "Mnemory：面向 AI Agent 的自托管持久记忆系统",
+    "summary": "开源项目 Mnemory 提供安全、功能丰富的 AI Agent 记忆系统，支持事实提取。",
+    "detail": "**背景**：AI Agent 需要长期记忆以保持上下文连贯，隐私与安全是关键。**功能**：Mnemory 是自托管、安全且功能丰富的记忆系统，提供智能事实提取、去重及详细内容存储库。**技术**：支持本地部署，保护隐私，提供 artifact store 存储细节。**影响**：为开发者构建具备长期记忆能力的个性化 Agent 提供了基础设施选择，增强 Agent 连续性和数据主权，解决通用模型记忆缺失问题，适合对数据安全敏感的企业应用。",
+    "tags": [
+      "New",
+      "Open Source",
+      "Agent"
+    ],
+    "link": "https://github.com/fpytloun/mnemory",
+    "date": "2026-05-03",
+    "id": "17778087259653"
+  },
+  {
+    "title": "财务决策新标准：AI 共识硬化协议",
+    "summary": "针对 CFO 提出 AI 决策治理协议，解决幻觉与审计风险。",
+    "detail": "**背景**：AI 引入财务决策面临治理缺口，而非单纯模型质量，98% 准确率不够。**核心**：提出共识硬化协议 (CHP)，作为多 Agent AI 的决策治理层。**机制**：在结构化会话中编排 Agent，记录基础并 adversarial 攻击，经第三方验证后才允许锁定。**风险**：解决上下文碎片化、推理不透明及输出漂移，定义\"locked\"状态。**影响**：为高风险企业场景的 AI 落地提供了治理框架参考，强调决策工件的安全性而非单纯追求模型精度。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Governance"
+    ],
+    "link": "https://cubiczan.substack.com/p/why-cfos-need-a-consensus-hardening",
+    "date": "2026-05-03",
+    "id": "17778087259654"
+  },
+  {
     "title": "Thoth：开源本地优先 AI 助手，数据主权归用户",
     "summary": "支持本地运行、知识图谱及语音视觉功能，确保数据隐私安全。",
     "detail": "Thoth 是一款强调“个人 AI 主权”的开源本地优先 AI 助手。它集成了工具调用、个人知识图谱、语音、视觉、Shell 及浏览器自动化等功能。用户可通过 Ollama 本地运行模型，或选择云端模型，核心数据保留在本地机器上。该项目响应了隐私保护趋势，为开发者提供了构建私有化 AI 工作流的新选择，适合关注数据安全的个人及企业用户。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.blender.org/news/upcoming-blender-development-fund-and-ai-policies/",
     "date": "2026-05-01",
     "id": "17776726217334"
-  },
-  {
-    "title": "LlamaIndex CEO：AI 脚手架层正在崩塌",
-    "summary": "LlamaIndex CEO 指出 AI 应用脚手架层正在消失，上下文成为新护城河。",
-    "detail": "**背景**：随着大模型原生能力增强，传统的 RAG 框架和复杂编排层需求显著下降。**核心观点**：LlamaIndex 创始人 Jerry Liu 表示，开发者不再需要复杂的脚手架来构建确定性工作流，原生模型已能处理更多逻辑。**影响**：行业重心从“如何连接模型”转向“上下文质量”，数据隐私与专有上下文将成为企业核心壁垒。基础设施层正在简化，中间件厂商面临转型压力，开发者需关注上下文管理而非工具链。未来 AI 应用竞争将集中在数据私有化与场景化微调，而非通用框架的堆叠。这标志着 AI 工程化进入成熟期，简单连接工具价值降低。",
-    "tags": [
-      "News",
-      "Infra",
-      "RAG"
-    ],
-    "link": "https://venturebeat.com/infrastructure/the-ai-scaffolding-layer-is-collapsing-llamaindexs-ceo-explains-what-survives",
-    "date": "2026-05-01",
-    "id": "17776691067300"
-  },
-  {
-    "title": "美国参议院推进 AI 聊天机器人年龄验证法案",
-    "summary": "GUARD 法案获委员会一致支持，要求用户使用 AI 聊天机器人前验证年龄。",
-    "detail": "**背景**：参议院司法委员会以 22-0 投票推进 GUARD 法案。**核心内容**：禁止仅使用勾选框验证，需上传政府 ID、面部扫描或财务记录。**影响**：旨在保护儿童免受有害 AI 建议影响，但引发隐私担忧。若通过，所有覆盖范围内的聊天机器人公司需强制实施实名验证，可能改变美国 AI 消费格局。法案定义广泛，可能波及所有主流 AI 聊天服务，企业需提前准备合规方案，用户匿名使用 AI 的时代可能终结。此举可能增加用户摩擦，但也为建立可信 AI 环境提供法律基础，行业合规成本将显著上升。",
-    "tags": [
-      "News",
-      "Policy",
-      "Safety"
-    ],
-    "link": "https://reclaimthenet.org/senate-panel-backs-guard-act-ai-age-verification-bill",
-    "date": "2026-05-01",
-    "id": "17776691067301"
-  },
-  {
-    "title": "开发者热议 GitHub Copilot 新用户准入限制",
-    "summary": "Hacker News 讨论 GitHub Copilot 何时重新向新客户开放，引发供应担忧。",
-    "detail": "**背景**：GitHub 调整 Copilot 个人计划，新用户无法立即订阅。**社区反应**：开发者质疑 AI 革命是否暂停，或模型无法处理现实规模。**影响**：反映算力供应或合规压力可能限制 AI 编程工具普及。开发者需关注官方博客关于计划变更的说明，可能影响团队开发工作流。此事件凸显 AI 工具需求激增与基础设施承载能力之间的矛盾，企业级用户可能成为优先服务对象。个人开发者需寻找替代方案或等待配额释放，开源社区可能加速开发本地化编程辅助工具以应对云端限制。",
-    "tags": [
-      "News",
-      "Dev",
-      "Coding"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47980055",
-    "date": "2026-05-01",
-    "id": "17776691067302"
-  },
-  {
-    "title": "Reflect 发布：无需训练即可构建自进化 AI 代理",
-    "summary": "新工具 Reflect 允许代理通过评估信号自我改进，无需额外训练。",
-    "detail": "**背景**：Show HN 发布新工具 Reflect，定位为评估信号与代理行动间的缺失层。**功能**：捕捉代理运行轨迹，将反馈转化为可复用技能。**性能**：基准测试显示在 BigCodeBench 等任务上成功率显著提升。**影响**：降低代理开发门槛，提供无需微调的自我优化方案，适合需要持续适应环境的 AI 应用场景。开发者可通过 SDK 快速集成，实现代理的终身学习与能力迭代。该工具解决了代理稳定性难题，通过观察 - 反思循环提升可靠性，为构建长期运行的自主代理系统提供关键基础设施支持。",
-    "tags": [
-      "New",
-      "Agent",
-      "SDK"
-    ],
-    "link": "https://getreflect.starlight-search.com",
-    "date": "2026-05-01",
-    "id": "17776691067303"
-  },
-  {
-    "title": "投资人 Elad Gil：AI 收入已占美国 GDP 0.1%",
-    "summary": "博客分析 OpenAI 与 Anthropic 收入规模，预测 2026 年底 AI 占 GDP 1%。",
-    "detail": "**背景**：知名投资人 Elad Gil 发布 AI 前沿思考。**数据**：OpenAI 和 Anthropic 年收入速率约 300 亿美元，各占美国 GDP 0.1%。**预测**：若年底达 1000 亿美元，AI 将占 GDP 1%。**影响**：增长极快，但需警惕生产力悖论。监管政策需平衡就业损失与新机会，准确测量经济影响至关重要。若影响被误测，可能导致错误监管，阻碍技术创新与实体经济融合。文章指出真正的图灵测试是能否准确测量现实世界的 GDP 增长，暗示当前经济统计模型可能滞后于技术变革速度。",
-    "tags": [
-      "News",
-      "Economy",
-      "Investment"
-    ],
-    "link": "https://blog.eladgil.com/p/random-thoughts-while-gazing-at-the",
-    "date": "2026-05-01",
-    "id": "17776691067304"
   }
 ]
