@@ -1,5 +1,83 @@
 [
   {
+    "title": "QueryShield 发布：AI 代理安全 SQL 代理层",
+    "summary": "为 AI 代理提供安全 SQL 代理，支持自然语言转 SQL 及行级安全。",
+    "detail": "QueryShield 推出针对 AI 代理的安全数据库代理层。核心功能包括自然语言转 SQL、AST 级别验证、每代理行级安全 (RLS) 及完整审计日志。支持 MCP 集成，代理无需接触连接字符串。提供免费层及企业级定价，解决 AI 直接访问数据库的安全隐患，是 AI 基础设施安全的重要补充。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Infrastructure"
+    ],
+    "link": "https://queryshield.dev/",
+    "date": "2026-05-04",
+    "id": "17779186367620"
+  },
+  {
+    "title": "推理市场正在经历达尔文式专业化分工",
+    "summary": "Tom Tunguz 分析指出 AI 推理市场正按模态和延迟需求快速细分。",
+    "detail": "Tom Tunguz 发文指出 AI 推理市场正像数据库市场一样碎片化。不同模态（图像、视频、文本）及延迟需求（实时、近实时、批量）需要不同的推理栈。NVIDIA 数据中心收入三年增长 17 倍，但单一架构无法优化所有工作负载。市场正分裂为专用推理基础设施，预示着一轮新的架构创新与投资机遇。",
+    "tags": [
+      "News",
+      "Market",
+      "Infrastructure"
+    ],
+    "link": "https://tomtunguz.com/inference-market-segmentation/",
+    "date": "2026-05-04",
+    "id": "17779186367621"
+  },
+  {
+    "title": "监管警告：AI 人脸识别监管严重滞后",
+    "summary": "监管机构警告人脸识别技术发展迅速，但相关监督机制严重不足。",
+    "detail": "《卫报》报道指出，AI 人脸识别技术的部署速度远超监管机构的监督能力。watchdogs 警告称，现有法律框架无法有效应对隐私侵犯及滥用风险。随着技术在公共及商业领域的普及，缺乏滞后监管可能导致不可逆的社会影响，呼吁政策制定者加速立法以匹配技术发展速度。",
+    "tags": [
+      "News",
+      "Policy",
+      "Ethics"
+    ],
+    "link": "https://www.theguardian.com/technology/ng-interactive/2026/may/03/ai-facial-recognition-oversight-lagging-far-behind-technology-watchdogs-warn",
+    "date": "2026-05-04",
+    "id": "17779186367622"
+  },
+  {
+    "title": "新论文揭示利用 LLM 偏见操纵 AI 搜索概述",
+    "summary": "研究人员发现可通过利用 LLM 偏见来操纵 AI 搜索生成的概述内容。",
+    "detail": "arXiv 新论文《Exploring LLM biases to manipulate AI search overview》揭示了大模型搜索功能的安全漏洞。作者 Roman Smirnov 展示了如何通过特定输入利用 LLM 偏见，操纵 AI 生成的搜索摘要。这对依赖 AI 概述获取信息的用户构成误导风险，强调了增强模型鲁棒性及搜索验证机制的必要性。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Research"
+    ],
+    "link": "https://arxiv.org/abs/2605.00012",
+    "date": "2026-05-04",
+    "id": "17779186367623"
+  },
+  {
+    "title": "斯坦福发布 AI 代理与人类工作流程对比研究",
+    "summary": "斯坦福 SALT 实验室发布研究，对比 AI 代理与人类在不同职业中的工作流。",
+    "detail": "斯坦福 SALT 实验室推出\"AI 代理工作未来\"项目，发布新论文对比 AI 与人类工作流程。项目包含 WorkBank 数据集及 Workflow Induction Toolkit。研究发现代理在编码、写作等领域加入工作，但实际运作方式与人类存在差异。该研究为评估自动化潜力及人机协作提供了数据支持及工具。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Agents"
+    ],
+    "link": "https://futureofwork.saltlab.stanford.edu/",
+    "date": "2026-05-04",
+    "id": "17779186367624"
+  },
+  {
+    "title": "UnderstandDocs：快速解析合同与正式文件的 AI 工具",
+    "summary": "新工具帮助用户快速理解合同、信件及表格中的关键条款与风险。",
+    "detail": "UnderstandDocs 推出文档清晰度 AI 工具，专用于解析合同、政策更新及雇佣文件。它能自动提取截止日期、义务、风险及关键条款，生成可操作的摘要。适用于需要快速谨慎理解法律或正式文档的场景，帮助用户在签署或回应前做出自信决策，降低阅读门槛。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Legal"
+    ],
+    "link": "https://www.understanddocs.com",
+    "date": "2026-05-04",
+    "id": "17779186367625"
+  },
+  {
     "title": "Sierra 获 9.5 亿美元融资，企业 AI 竞争白热化",
     "summary": "Sierra 完成 9.5 亿美元融资，彰显企业级 AI 代理赛道巨大潜力。",
     "detail": "企业 AI 初创公司 Sierra 宣布完成 9.5 亿美元融资，标志着企业级 AI 代理市场竞争进入白热化阶段。这笔巨额资金将主要用于扩展其客户服务自动化平台，提升复杂任务处理能力。行业分析师认为，这表明资本正从消费级 AI 转向具有高 ROI 的企业应用场景。垂直领域的 AI 代理将成为下一轮投资热点，有望重塑客户服务行业标准，推动企业运营效率的实质性飞跃。然而，高估值也预示着该赛道未来可能面临整合与洗牌，投资者需关注其实际落地能力与营收增长匹配度。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.bloomberg.com/news/articles/2026-05-02/chinese-court-rules-firms-can-t-lay-off-workers-on-ai-grounds",
     "date": "2026-05-02",
     "id": "17777582881112"
-  },
-  {
-    "title": "英国地方政府试用 Google AI 加速规划",
-    "summary": "英格兰议会试用 Google AI 工具，旨在加快规划决策流程。",
-    "detail": "英格兰地方议会正式开始试验 Google AI 工具，旨在加速城市规划决策流程。背景是政府行政效率低下及 AI 技术在公共部门的应用探索需求。核心是利用 AI 处理复杂文档和分析数据，优化审批流程。行业影响表明 Google 在政企市场的进一步渗透，同时也引发关于公共决策透明度与算法偏见的讨论，是 AI 落地政务的典型案例，成功与否可能推广至其他政府部门。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Google"
-    ],
-    "link": "https://www.ft.com/content/91ce4475-d325-4d65-babb-4214996bc0f6",
-    "date": "2026-05-02",
-    "id": "17777582881113"
-  },
-  {
-    "title": "convention.sh 规范 AI 代理 TypeScript 代码",
-    "summary": "新工具规范 AI 代理生成的 TypeScript 代码，减少错误与成本。",
-    "detail": "convention.sh 发布新工具，旨在防止 AI 代理编写潦草的 TypeScript 代码。背景是 AI 编程代理普及但产出代码质量参差不齐，维护困难。核心通过 27 种手动调优的约定规范 Agent 行为，即时注入上下文。基准测试显示可减少 44% 成本及 59% 时间，显著降低 Token 消耗。对开发者而言，这是提升 AI 编程产出质量的关键基础设施，适合 Cursor 等工具用户，有效降低长期维护成本。",
-    "tags": [
-      "Dev",
-      "TypeScript",
-      "Tool"
-    ],
-    "link": "https://convention.sh",
-    "date": "2026-05-02",
-    "id": "17777582881114"
-  },
-  {
-    "title": "Codeonix 推出 Python 桌面自动化 AI 工具",
-    "summary": "Codeonix 发布 Windows 版，利用 Python 和 AI 实现桌面任务自动化。",
-    "detail": "Codeonix v1.1.0 现已正式支持 Windows，将 Python 脚本转化为强大的桌面自动化工具。背景是本地化自动化需求增长及隐私顾虑。核心支持 14 种触发器（如剪贴板、文件变化、设备连接），无需服务器即可运行。开源且免费无限使用，MIT 许可。对开发者而言，提供了低门槛的本地 AI 自动化方案，适合构建个人工作流及系统级任务集成，显著增强桌面交互能力与效率。",
-    "tags": [
-      "Dev",
-      "Python",
-      "Automation"
-    ],
-    "link": "https://codeonix.app/",
-    "date": "2026-05-02",
-    "id": "17777582881115"
-  },
-  {
-    "title": "奥斯卡新规：禁止 AI 演员，仅限人类编剧",
-    "summary": "奥斯卡学院发布新规则，明确排除 AI 表演者，要求剧本必须由人类创作。",
-    "detail": "美国电影艺术与科学学院更新奥斯卡奖项规则，旨在保护人类创作者权益。新规明确禁止 AI 生成的表演者参选表演类奖项，且提名剧本必须由人类编写。这标志着主流电影行业对 AI 生成内容的边界划定，可能影响未来好莱坞制作流程及 AI 技术在娱乐业的应用方向。行业观察家认为，这将促使制片方更谨慎地使用 AI 辅助工具，确保核心创意的人类主导地位，同时可能引发关于 AI 辅助创作界限的法律讨论。此政策反映了娱乐业对技术颠覆的防御性反应，可能成为其他奖项效仿的模板。",
-    "tags": [
-      "News",
-      "Policy",
-      "Entertainment"
-    ],
-    "link": "https://www.dw.com/en/new-oscars-rules-exclude-ai-performers-require-scripts-written-by-human/a-77016539",
-    "date": "2026-05-02",
-    "id": "17777546645530"
-  },
-  {
-    "title": "南非撤回 AI 政策因引用虚假 AI 生成来源",
-    "summary": "南非政府因政策文件中引用了 AI 生成的虚假来源，被迫撤回相关 AI 政策草案。",
-    "detail": "路透社报道，南非政府在制定 AI 政策过程中，发现关键参考来源实为 AI 生成的虚假内容。这一事件导致政策草案被紧急撤回，凸显了政府在依赖 AI 辅助决策时的验证风险。该案例为全球政策制定者敲响警钟，强调在关键决策中核实 AI 生成信息真实性的重要性。此事件可能延缓相关地区的 AI 监管进程，并促使官方机构建立更严格的内容审核机制，以防止类似幻觉误导公共政策。政府需平衡效率与准确性，避免过度依赖自动化工具。这一丑闻揭示了当前大模型在事实性上的缺陷。",
-    "tags": [
-      "News",
-      "Policy",
-      "Government"
-    ],
-    "link": "https://www.reuters.com/world/africa/south-africa-withdraws-ai-policy-due-fake-ai-generated-sources-2026-04-27/",
-    "date": "2026-05-02",
-    "id": "17777546645531"
-  },
-  {
-    "title": "Ubuntu 全面整合生成式 AI 功能",
-    "summary": "Ubuntu 宣布将生成式 AI 功能深度集成至系统，其他 Linux 发行版可能效仿。",
-    "detail": "Neowin 报道，Ubuntu 正全力投入生成式 AI 功能的开发，计划将其融入操作系统核心体验。此举可能引领其他 Linux 发行版跟进，推动开源社区与 AI 技术的深度融合。对于开发者而言，这意味着本地 AI 开发环境的标准化提升，但也引发关于隐私和资源消耗的讨论。系统级集成将降低 AI 应用门槛，但用户需关注潜在的数据本地化处理能力及硬件资源占用情况，这将是开源社区接下来的关注焦点。操作系统层面的 AI 原生支持将改变用户与计算设备的交互方式。",
-    "tags": [
-      "News",
-      "Linux",
-      "OS"
-    ],
-    "link": "https://www.neowin.net/news/ubuntu-is-going-all-in-on-generative-ai-and-other-linux-distros-might-follow/",
-    "date": "2026-05-02",
-    "id": "17777546645532"
   }
 ]
