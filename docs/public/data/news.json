@@ -1,5 +1,83 @@
 [
   {
+    "title": "OpenAI 揭秘大规模低延迟语音 AI 架构",
+    "summary": "OpenAI 公开语音 AI 低延迟实现方案，重构 WebRTC 栈以支撑大规模实时交互。",
+    "detail": "OpenAI 工程团队发布最新技术博客，详解如何在支撑超 9 亿周活跃用户的基础上实现低延迟语音交互。为解决网络延迟导致的对话不自然问题，团队重构了 WebRTC 栈，采用创新的“中继 + 收发器”分离架构。通过优化全球路由、降低握手延迟并确保媒体往返时间稳定，减少抖动与丢包。该方案解决了状态化 ICE 和 DTLS 会话的所有权问题，对开发者构建实时 AI 代理及交互式工作流具有重要的架构参考价值，标志着语音 AI 基础设施的成熟，解决了大规模部署下的关键性能瓶颈，确保对话流畅自然。",
+    "tags": [
+      "Dev",
+      "OpenAI",
+      "Infrastructure"
+    ],
+    "link": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
+    "date": "2026-05-04",
+    "id": "17779259126230"
+  },
+  {
+    "title": "五角大楼与七家 AI 公司达成机密系统协议",
+    "summary": "美国国防部宣布与七家 AI 企业合作，开发机密系统，加速国防 AI 落地。",
+    "detail": "据阿尔贾兹拉报道，五角大楼正式宣布与七家人工智能公司达成协议，旨在共同开发用于机密系统的 AI 技术。这一动向标志着国防领域对 AI 技术的依赖加深，同时也引发了关于国家安全、数据隐私及 AI 军事化应用的广泛讨论。此举可能推动特定 AI 企业在国防赛道的高速增长，并加速 AI 技术在敏感场景下的合规化落地进程，显示政府侧对 AI 战略价值的认可，地缘政治与科技结合愈发紧密。这将影响未来 AI 供应链的安全标准与技术研发方向，凸显国家级 AI 竞争态势。",
+    "tags": [
+      "News",
+      "Defense",
+      "Government"
+    ],
+    "link": "https://www.aljazeera.com/news/2026/5/1/pentagon-announces-deal-with-seven-ai-companies-for-classified-systems",
+    "date": "2026-05-04",
+    "id": "17779259126231"
+  },
+  {
+    "title": "警示：AI 助手集成邮箱存在数据泄露风险",
+    "summary": "专家指出邮箱内嵌 AI 助手面临提示注入与数据外泄风险，需警惕安全漏洞。",
+    "detail": "安全专家 Abi Raja 发文警告，将 LLM 助手集成至邮箱客户端存在严重安全隐患。文章分析了“致命三重奏”风险：访问私有数据、接触不可信内容及外部通信能力。攻击者可通过提示注入诱导 AI 泄露社保号或银行登录信息。开发者在设计 AI Agent 时需严格隔离信任边界，避免此类数据外泄场景。这为 AI 应用落地敲响了安全警钟，提示需重视提示注入防御与数据隔离机制，确保用户隐私不被恶意利用。随着 AI 代理权限扩大，此类安全架构设计将成为企业级应用的核心考量因素。",
+    "tags": [
+      "Dev",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://abiraja.com/blog/your-ai-assistant-doesnt-belong-in-your-inbox",
+    "date": "2026-05-04",
+    "id": "17779259126232"
+  },
+  {
+    "title": "TuxAide：基于本地终端的 Linux AI 助手",
+    "summary": "开源项目 TuxAide 实现完全本地运行的 Linux 终端 AI 助手，保护隐私。",
+    "detail": "GitHub 新项目 TuxAide 是一款专为 Linux 终端设计的本地 AI 助手。基于 Ollama 运行，无需云端 API 即可在 bash/zsh 环境中提供命令查询与帮助。项目强调 100% 本地隐私保护，无设置摩擦，支持即时安装。对于关注数据主权和偏好命令行工作流的开发者而言，这是一个高效的开源生产力工具。它展示了本地模型在特定垂直场景下的实用性，降低了使用门槛，让终端操作更加智能化且安全。无需联网的特性使其特别适合处理敏感代码或内部服务器管理任务，提升了开发安全性。",
+    "tags": [
+      "New",
+      "OpenSource",
+      "Linux"
+    ],
+    "link": "https://github.com/deltaxmodules/tuxaide",
+    "date": "2026-05-04",
+    "id": "17779259126233"
+  },
+  {
+    "title": "DeepCtx：自动构建代码库上下文的 VS Code 插件",
+    "summary": "新插件 DeepCtx 可自动扫描项目并为 AI 生成代码上下文，提升编程效率。",
+    "detail": "Visual Studio Marketplace 上线新插件 DeepCtx，旨在解决 AI 编程缺乏项目上下文的问题。该工具可自动扫描仓库结构，利用 Groq AI 生成技术摘要，并一键复制上下文至剪贴板。支持 ChatGPT、Claude 等主流模型，无需 API 密钥。这显著降低了开发者向 AI 解释代码库的时间成本，提升了 AI 编程效率。它是当前 AI 编码工作流中补充上下文缺失环节的有效解决方案，优化了人机协作的开发体验。通过自动化上下文构建，它减少了重复劳动，使开发者能更专注于核心逻辑实现与架构设计。",
+    "tags": [
+      "New",
+      "DevTools",
+      "VSCode"
+    ],
+    "link": "https://marketplace.visualstudio.com/items?itemName=DeepCtx.deepctx",
+    "date": "2026-05-04",
+    "id": "17779259126234"
+  },
+  {
+    "title": "AI 正在推动美国内陆地区的再工业化进程",
+    "summary": "媒体报道 AI 技术正助力美国内陆腹地实现再工业化，优化供应链布局。",
+    "detail": "FreightWaves 报道指出，人工智能技术正在成为美国内陆地区再工业化的关键驱动力。通过分析物流与供应链数据，AI 优化了制造业布局与运输效率，使得内陆地区重新具备工业竞争优势。这一趋势表明 AI 的应用正从纯软件领域向实体经济与基础设施深度渗透，可能改变区域经济发展格局。这反映了 AI 技术在传统行业转型中的实际落地价值与宏观影响力，展示了技术重塑地理经济的可能性。AI 不仅提升效率，更在重新定义产业地理分布，为内陆地区带来新的经济增长点与就业机会。",
+    "tags": [
+      "News",
+      "Industry",
+      "Economy"
+    ],
+    "link": "https://www.freightwaves.com/news/the-heartlands-revenge-how-ai-is-reindustrializing-the-american-interior",
+    "date": "2026-05-04",
+    "id": "17779259126235"
+  },
+  {
     "title": "QueryShield 发布：AI 代理安全 SQL 代理层",
     "summary": "为 AI 代理提供安全 SQL 代理，支持自然语言转 SQL 及行级安全。",
     "detail": "QueryShield 推出针对 AI 代理的安全数据库代理层。核心功能包括自然语言转 SQL、AST 级别验证、每代理行级安全 (RLS) 及完整审计日志。支持 MCP 集成，代理无需接触连接字符串。提供免费层及企业级定价，解决 AI 直接访问数据库的安全隐患，是 AI 基础设施安全的重要补充。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.dailygrail.com/2026/05/the-claude-delusion-richard-dawkins-believes-his-female-ai-chatbot-is-conscious/",
     "date": "2026-05-02",
     "id": "17777655741731"
-  },
-  {
-    "title": "AI 智能体热潮退去：除软件工程外普遍被高估",
-    "summary": "分析师指出 AI Agent 在受监管行业存在安全隐患，目前多为炒作。",
-    "detail": "### 核心观点\nSteve Krouse 分析指出，除了软件工程领域，AI 智能体（Agents）目前在其他行业被严重高估。特别是在金融、医疗等受监管行业，赋予 AI 完全计算机访问权限存在巨大安全风险。\n\n### 技术定义与现状\n文章定义智能体为“循环调用工具以实现目标的 LLM”。虽然现代 AI 已具备搜索、代码解释等工具调用能力，但在实际企业部署中，安全合规限制了其自动化程度。建议行业在三个月后重新评估，当前应保持谨慎，避免过度依赖自主代理。",
-    "tags": [
-      "News",
-      "Agents",
-      "Analysis"
-    ],
-    "link": "https://stevekrouse.com/agent-hype",
-    "date": "2026-05-02",
-    "id": "17777655741732"
-  },
-  {
-    "title": "AI 无障碍危机：自动化正在规模化制造歧视",
-    "summary": "报告指出 AI 生成的 UI 缺乏无障碍设计，构成民权失败。",
-    "detail": "### 问题现状\nWebAccessBench 发布报告称，AI 系统正在规模化地将残障人士拒之门外。由于训练数据缺乏无障碍样本，自动化 UI 开发正在自动化歧视，影响教育、医疗等关键服务。\n\n### 呼吁与行动\n报告强调无障碍是参与现代生活的基线。呼吁政策制定者将无障碍纳入 AI  enforceable law，要求供应商承担责任。同时建议软件工程师在发布前实施自动化无障碍检查，拒绝交付带有歧视性的代码，确保技术平等。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Policy"
-    ],
-    "link": "https://conesible.de/wab/",
-    "date": "2026-05-02",
-    "id": "17777655741733"
-  },
-  {
-    "title": "Voice AI 开发指南：开发者学习路径资源库",
-    "summary": "GitHub 开源项目提供语音 AI 智能体开发的 curated 学习路径。",
-    "detail": "### 资源介绍\nGitHub 用户 mahimairaja 开源了 Voice-AI-for-Beginners 项目，旨在为构建语音 AI 智能体的开发者提供结构化学习路径。该仓库整理了相关文档、教程及工具链接。\n\n### 开发者价值\n随着语音交互在 AI 智能体中的应用增加，该项目填补了入门资源的空白。涵盖从基础语音识别到复杂智能体编排的技术栈，适合希望进入 Voice AI 领域的工程师参考。通过 curated 链接，开发者可快速掌握核心工具链，降低学习门槛。",
-    "tags": [
-      "Dev",
-      "Voice",
-      "Tutorial"
-    ],
-    "link": "https://github.com/mahimairaja/voiceai",
-    "date": "2026-05-02",
-    "id": "17777655741734"
-  },
-  {
-    "title": "美英等多国发布 AI 代理安全部署指南",
-    "summary": "美国政府联合盟友发布指南，指导如何安全部署 AI 代理。",
-    "detail": "美国网络安全与基础设施安全局（CISA）、国家安全局（NSA）联合五眼联盟盟友共同发布指南，旨在解决 AI 代理部署中的安全风险。背景是 AI 代理自主性增强带来的新威胁，传统安全模型不再适用。核心技术点涉及身份验证、权限最小化、行为监控及异常检测。行业影响深远，为政府及企业部署 AI 提供了安全基准，标志着监管重点从静态模型转向动态代理行为，合规成本可能上升，安全团队需更新策略。",
-    "tags": [
-      "News",
-      "Security",
-      "Government"
-    ],
-    "link": "https://cyberscoop.com/cisa-nsa-five-eyes-guidance-secure-deployment-ai-agents/",
-    "date": "2026-05-02",
-    "id": "17777582881110"
-  },
-  {
-    "title": "奥斯卡奖禁止 AI 演员与编剧获奖",
-    "summary": "奥斯卡学院新规明确禁止纯 AI 生成的表演和剧本参评奖项。",
-    "detail": "奥斯卡学院正式宣布新规，禁止纯 AI 生成的演员表演和写作内容获得奖项。背景是生成式 AI 在影视制作中的快速普及引发广泛争议，人类创作者权益受到潜在威胁。核心在于保护人类创作者的合法权益与艺术价值，明确界定参赛资格标准。行业影响重大，确立了好莱坞主流奖项对 AI 介入核心创作环节的底线，可能直接影响未来制片方的 AI 使用策略及工会谈判筹码，有助于维护传统影视行业结构与就业。",
-    "tags": [
-      "News",
-      "Policy",
-      "Media"
-    ],
-    "link": "https://www.bbc.com/news/articles/cx21dl3v7d3o",
-    "date": "2026-05-02",
-    "id": "17777582881111"
-  },
-  {
-    "title": "中国法院裁定企业不得因 AI 裁员",
-    "summary": "中国法院最新判决，禁止企业仅以引入 AI 为由解雇员工。",
-    "detail": "中国法院作出里程碑式裁决，明确规定公司不能仅因部署 AI 技术而解雇工人。背景是 AI 自动化引发的社会就业焦虑及劳动纠纷增多，员工权益受损。核心法律点在于劳动保护优于技术升级理由，防止技术滥用导致大规模失业。行业影响显著，为中国企业 AI 落地设定了人力资源合规红线，可能促使企业转向人机协作而非单纯替代模式，虽增加用工成本但保障社会稳定，重塑劳资关系。",
-    "tags": [
-      "News",
-      "Legal",
-      "Labor"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-05-02/chinese-court-rules-firms-can-t-lay-off-workers-on-ai-grounds",
-    "date": "2026-05-02",
-    "id": "17777582881112"
   }
 ]
