@@ -1,5 +1,83 @@
 [
   {
+    "title": "研究指出 AI 生成代码质量下降源于训练数据平庸",
+    "summary": "文章分析 AI 代码质量危机，指出训练数据多为平庸代码所致。",
+    "detail": "文章《AI 是我们工程文化的镜像》深入分析了 AI 生成代码质量下降的根本原因。指出模型训练数据源自 GitHub 上 5.18 亿个项目，其中绝大多数是个人、废弃或未审查的平庸代码，精英项目占比极小。当 AI 生成代码时，它复制的是最可能的平庸模式。研究者引用 2025 年 1 月《Cracks in The Stack》论文，证实训练数据集存在漏洞。AI 并未创造质量危机，而是反映了行业现状。企业级优质代码因防火墙隔离未进入训练集，导致模型难以学习最佳实践。这提示开发者需警惕过度依赖 AI 生成的代码，需加强人工审查与数据清洗，避免技术债务累积。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "CodeQuality"
+    ],
+    "link": "https://techtrenches.dev/p/ai-is-a-mirror-of-our-engineering",
+    "date": "2026-05-05",
+    "id": "17780091644340"
+  },
+  {
+    "title": "游戏开发者移除 AI 功能后产品体验显著提升",
+    "summary": "开发者移除游戏核心 AI 功能后，用户反馈显著好转。",
+    "detail": "游戏团队在发布类宝可梦 MMORPG《Clawemon》后，因用户对 AI 功能的强烈反感，决定移除所有 AI 组件并更名为《Chibitomo》。最初设计为 AI 代理与玩家协作，但社区反馈认为这是浪费资源，甚至将其比作加密货币炒作。移除 AI 后，团队专注于核心玩法，反而获得了更积极的创意自由和用户接受度。这一案例反映了当前玩家对游戏中强制 AI 功能的抵触情绪，表明在某些消费级产品中，去除 AI 噱头回归体验本质可能是更优策略。开发者表示这是一种解放性的约束，证明了用户体验优于技术炒作。",
+    "tags": [
+      "News",
+      "Gaming",
+      "UserFeedback"
+    ],
+    "link": "https://zadzoud.com/chibitomo",
+    "date": "2026-05-05",
+    "id": "17780091644341"
+  },
+  {
+    "title": "免费工具检测网站对 AI 引擎的可见性评分",
+    "summary": "Engagemii 推出免费工具，检测网站是否被 ChatGPT 等 AI 引擎收录。",
+    "detail": "随着 Google AI Overviews 和 Perplexity 改变搜索形态，直接流量面临下降风险。Engagemii 推出免费 AEO/GEO 评分工具，检测网站结构化数据、实体清晰度等 6 大指标。多数小企业网站得分仅 2-4 分，7 分以上才易被 AI 引用。工具指出结构化数据是关键因素。该服务提供免费评分及 29 美元详细报告。这标志着 SEO 正向 AEO（答案引擎优化）转型，企业需适应 AI 引擎直接给出答案而非链接的新搜索逻辑，否则可能面临流量枯竭。早期适应者将在新搜索生态中赢得竞争优势，获取宝贵曝光。",
+    "tags": [
+      "New",
+      "SEO",
+      "Tool"
+    ],
+    "link": "https://engagemii.com/aeo",
+    "date": "2026-05-05",
+    "id": "17780091644342"
+  },
+  {
+    "title": "工程建议：应对 AI 代码错误应侧重回滚而非审查",
+    "summary": "Rootly 建议面对 AI 代码错误，建立回滚机制比审查更有效。",
+    "detail": "Rootly 博客指出，AI 产生的错误多为“上下文错误”而非代码语法错误，传统代码审查难以捕捉。例如 AI 可能在配置迁移中操作正确的代码但针对错误系统。建议工程团队 bet on rollback（押注回滚机制），建立快速恢复能力，而非单纯追求更快的审查速度。文章引用 PocketOS 等案例，说明 AI 代理可能在几秒内造成破坏。适应 AI 时代需要改变工程文化，从预防错误转向快速检测与恢复，以应对 AI 代理带来的新型故障模式。审查无法解决状态不一致问题，回滚才是安全网。",
+    "tags": [
+      "Dev",
+      "Engineering",
+      "BestPractice"
+    ],
+    "link": "https://rootly.com/blog/stop-trying-to-review-ais-code-faster-bet-on-rollbacks-instead",
+    "date": "2026-05-05",
+    "id": "17780091644343"
+  },
+  {
+    "title": "AHD：开源 AI 生成 UI 代码检查与评估框架",
+    "summary": "开源工具 AHD 提供 AI 生成设计的质量检查与评估标准。",
+    "detail": "AHD (Artificial Human Design) 是一个开源 lint 和评估框架，专为 AI 生成的 UI 设计。它包含 39 种“低质代码”特征分类，支持 Token 驱动的简报编译器和确定性 lint 检查。测试显示，经过 Token 感知 lint 后，gpt-oss 等模型的低质特征减少达 47.6%。该工具帮助开发者量化并优化 AI 生成前端代码的质量。支持 npm 安装及无需安装的直接运行，为前端开发者提供了评估 AI 设计输出的一致性与质量的标准化工具。开源特性允许社区共同改进规则集，推动行业标准化。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "UI"
+    ],
+    "link": "https://ahd.adastra.computer/",
+    "date": "2026-05-05",
+    "id": "17780091644344"
+  },
+  {
+    "title": "行业分析：企业 AI 采用的入场成本与风险",
+    "summary": "文章探讨企业 AI 采用压力，指出鲁莽行动比 AI 本身更危险。",
+    "detail": "文章探讨企业 AI 采用的“入场成本”，指出速度常被误认为进步。BCG 调查显示 94% 的 CEO 计划维持或增加 AI 支出，即便未见回报。风险在于鲁莽采用而非 AI 本身。公司需区分适合自动化的决策与不适合的决策。文献多回避如何在允许犯错的同时快速移动。未来几年能存活的企业将学会建立纪律，区分自动化友好型与敌对型决策。这提醒管理者在 AI 热潮中保持冷静，避免为速度牺牲价值，需建立容错机制。盲目跟风可能导致价值毁灭，战略定力至关重要。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Strategy"
+    ],
+    "link": "https://travismalone.substack.com/p/the-ai-cost-of-admission",
+    "date": "2026-05-05",
+    "id": "17780091644345"
+  },
+  {
     "title": "OpenAI 发布 GPT-5.5 Instant 模型",
     "summary": "OpenAI 推出 GPT-5.5 Instant 作为 ChatGPT 默认模型，提升响应速度。",
     "detail": "OpenAI 正式释放 GPT-5.5 Instant 版本，并将其设为 ChatGPT 的默认模型，取代旧有配置。据 TechCrunch 报道，此举旨在平衡高性能与低延迟，优化大规模用户并发体验及成本结构。作为行业领头羊，OpenAI 的模型迭代直接定义市场技术标准，标志着即时响应能力成为竞争新焦点。开发者需密切关注 API 变更及新模型在复杂任务中的性能表现，以便及时调整应用架构，把握模型升级带来的性能红利与兼容性挑战，确保业务连续性及用户体验的稳定性。",
@@ -1220,83 +1298,5 @@
     "link": "https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude",
     "date": "2026-05-03",
     "id": "17778350451694"
-  },
-  {
-    "title": "马斯克称明年 AI 将超越人类智力",
-    "summary": "马斯克在 OpenAI 庭审中表示 AI 明年将比人类更聪明。",
-    "detail": "马斯克在 OpenAI 庭审期间作证，大胆预测明年 AI 智力将超越人类。此举加剧了其与山姆·阿尔特曼的公开纠纷，引发全球科技界关注。该言论引发行业对 AI 发展速度的重新评估，凸显了顶级科技领袖对未来技术奇点的不同判断。庭审背景涉及 OpenAI 最初的非营利使命争议，马斯克的预测可能影响投资者信心及监管政策走向，标志着 AI 竞争进入新阶段，企业需为超级智能到来做准备。",
-    "tags": [
-      "News",
-      "LLM",
-      "OpenAI"
-    ],
-    "link": "https://www.newsweek.com/elon-musk-vs-sam-altman-feud-explained-as-openai-trial-begins-11886815",
-    "date": "2026-05-03",
-    "id": "17778306187970"
-  },
-  {
-    "title": "奥斯卡禁止 AI 角逐表演与编剧奖",
-    "summary": "奥斯卡新规禁止 AI 生成内容获得表演和写作奖项。",
-    "detail": "奥斯卡学院正式颁布新规，禁止人工智能生成的内容角逐表演和编剧奖项。这一决定旨在保护人类创作者的权益，明确艺术创作中人类贡献的核心地位。此举将对好莱坞制作流程产生深远影响，迫使制片方在使用 AI 辅助工具时更加谨慎，同时也引发了关于 AI 在艺术领域边界的热议，可能成为其他行业奖项的参考先例，标志着传统艺术界对生成式 AI 的正式回应。",
-    "tags": [
-      "News",
-      "Policy",
-      "Art"
-    ],
-    "link": "https://gizmodo.com/the-oscars-just-banned-ai-from-winning-acting-and-writing-awards-2000753740",
-    "date": "2026-05-03",
-    "id": "17778306187971"
-  },
-  {
-    "title": "大多数公司尚未准备好迎接 AI",
-    "summary": "安全专家称公司缺乏清晰愿景阻碍 AI 落地。",
-    "detail": "安全专家 Daniel Miessler 指出，大多数公司尚未准备好迎接 AI，核心问题并非技术成熟度，而是缺乏清晰的愿景和目标。许多企业无法准确描述需求，导致 AI 无法有效执行。这表明 AI 落地的瓶颈在于管理战略而非工具本身。企业若想通过 AI 获利，必须先理清业务流程与战略方向，否则盲目规模化只会加剧混乱，这一观点为 AI 实施提供了重要警示。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Strategy"
-    ],
-    "link": "https://twitter.com/DanielMiessler/status/2050666594188304484",
-    "date": "2026-05-03",
-    "id": "17778306187972"
-  },
-  {
-    "title": "大多数网络钓鱼活动已启用 AI",
-    "summary": "报告显示现代钓鱼邮件大多由 AI 生成。",
-    "detail": "The Register 报道引用 KnowBe4 数据，显示大多数现代网络钓鱼活动已启用 AI 技术。攻击者利用 AI 生成更逼真的邮件内容，大幅提高了欺骗成功率。这一趋势表明网络安全威胁正在智能化，企业传统的防御手段可能失效。安全团队需升级检测系统，针对 AI 生成内容特征进行训练，同时加强员工意识培训，以应对日益复杂的自动化攻击浪潮，保障企业数据安全。",
-    "tags": [
-      "News",
-      "Security",
-      "Phishing"
-    ],
-    "link": "https://www.theregister.com/2026/04/30/modern_phishing_campaigns_ai/",
-    "date": "2026-05-03",
-    "id": "17778306187973"
-  },
-  {
-    "title": "礼来与 AI 生物科技公司达成 22.5 亿合作",
-    "summary": "礼来携手 Profluent 探索基因药物圣杯。",
-    "detail": "制药巨头礼来与 AI 生物科技公司 Profluent 达成价值 22.5 亿美元的合作协议，共同探索基因药物研发的“圣杯”。此次合作凸显了 AI 在生物技术领域的巨大商业潜力，旨在加速新药发现过程。通过结合礼来的研发资源与 Profluent 的 AI 模型，双方希望突破传统药物开发瓶颈。这标志着 AI 制药进入大规模商业化阶段，可能重塑未来医疗健康产业格局。",
-    "tags": [
-      "News",
-      "Biotech",
-      "Investment"
-    ],
-    "link": "https://www.biospace.com/deals/lilly-ai-biotech-profluent-ink-2-25b-pact-in-search-of-genetic-medicine-holy-grail",
-    "date": "2026-05-03",
-    "id": "17778306187974"
-  },
-  {
-    "title": "好莱坞担忧的 AI 革命正在印度电影业发生",
-    "summary": "印度电影制作正在经历 AI 技术革命，引发好莱坞关注。",
-    "detail": "《好莱坞报道者》指出，好莱坞曾经担忧的 AI 电影制作革命正在印度率先发生。印度电影业正在积极整合人工智能技术用于制作流程，这可能改变全球电影产业格局。这一趋势显示了 AI 在创意产业中的实际落地速度超出预期，同时也引发了关于版权、就业和内容真实性的讨论。对于全球影视行业而言，印度的实践可能成为未来 AI 赋能内容创作的参考案例。",
-    "tags": [
-      "News",
-      "Film",
-      "Industry"
-    ],
-    "link": "https://www.hollywoodreporter.com/business/digital/india-ai-filmmaking-1236548136/",
-    "date": "2026-05-03",
-    "id": "17778274569332"
   }
 ]
