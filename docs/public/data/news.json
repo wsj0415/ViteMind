@@ -1,5 +1,31 @@
 [
   {
+    "title": "开源插件实时监控 Claude.ai Token 用量",
+    "summary": "拦截网络流量追踪实际 Token 消耗与限制，提升开发过程的可控性与透明度。",
+    "detail": "GitHub 开源了一款浏览器扩展，可拦截 Claude.ai 网络流量以追踪实际 Token 用量。该工具解决了官方界面透明度不足的问题，帮助开发者监控 5 小时窗口限制及消耗情况。基于 Manifest V3 构建，支持 Chrome 与 Edge。这对于重度依赖 Claude 进行开发的团队至关重要，有助于优化提示词工程并控制成本。开源性质允许社区审查代码安全性，确保数据不被滥用。该工具填补了 AI 辅助编程领域的监控空白，提升了开发过程的可控性。开发者可通过实时数据调整使用策略，避免意外超额，优化工作流效率。",
+    "tags": [
+      "Dev",
+      "Tool",
+      "Open Source"
+    ],
+    "link": "https://github.com/Krabby24/claude-token-tracker",
+    "date": "2026-05-05",
+    "id": "17779688625315"
+  },
+  {
+    "title": "TensorPM 推出上下文驱动型 AI 项目管理工具",
+    "summary": "本地优先的代理智能项目管理软件上线，解决 AI 业务中的上下文漂移问题。",
+    "detail": "TensorPM 推出上下文驱动型项目管理软件，主打本地优先的代理智能。支持 macOS、Windows 及 Linux，可与 Claude Code 等工具集成。该工具旨在解决 AI 业务中的上下文漂移问题，确保项目信息一致性。通过本地化处理，保障企业数据隐私安全。对于管理复杂 AI 项目的团队，该软件提供了结构化的上下文管理方案，减少因信息丢失导致的错误。免费策略降低了试用门槛，适合初创团队及大型企业探索 AI 驱动的项目管理新模式。其核心优势在于将人类意图与代理执行紧密绑定，提升协作效率。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Management"
+    ],
+    "link": "https://tensorpm.com/",
+    "date": "2026-05-05",
+    "id": "17779688625317"
+  },
+  {
     "title": "OpenAI 融资 40 亿美元成立部署公司",
     "summary": "OpenAI 联合多家巨头融资 40 亿，成立部署公司加速企业落地。",
     "detail": "OpenAI 宣布完成超过 40 亿美元融资，用于成立合资企业\"The Deployment Company\"。该项目估值 100 亿美元，由 TPG、软银等 19 家机构投资。模式借鉴 Palantir，将工程师嵌入客户组织，加速 AI 软件在企业端的部署与应用。OpenAI 保留多数股权及运营控制权，投资者获 17.5% 年回报。OpenAI 自身投入 5 亿美元，可选追加至 15 亿。标志着 AI 巨头从模型研发向深度服务转型的关键一步，Sam Altman 保持战略控制，确保方向不偏离。此举措将深刻改变企业软件交付模式，从许可销售转向运营分成，强化 OpenAI 在产业链下游的话语权，为行业树立新标杆，加速 AI 在传统行业的渗透率。",
@@ -141,6 +167,45 @@
     "link": "https://blink-oi.vercel.app",
     "date": "2026-05-05",
     "id": "17779494327604"
+  },
+  {
+    "title": "首个 AI 生成视觉小说引擎 MDL 发布",
+    "summary": "Continual MI 推出 MDL 引擎，首款游戏 Monte Lua 上线，支持无尽场景生成。",
+    "detail": "Continual MI 正式推出 MDL 运行时引擎，专为持久化、生成式视觉小说设计。首款落地应用《Monte Lua》已开放试玩，支持在游戏过程中实时渲染无限场景。该技术核心在于将生成式 AI 深度集成至游戏运行时，而非仅用于预制作。行业影响方面，这标志着 AI 从辅助创作工具转向核心引擎组件，有望大幅降低独立游戏的叙事与美术成本，推动互动娱乐向完全动态化、个性化方向发展，为 NPC 交互及剧情分支提供无限可能。开发者可通过 MDL 构建无尽故事线，探索 AI 驱动内容的新边界。",
+    "tags": [
+      "New",
+      "Gaming",
+      "Generative AI"
+    ],
+    "link": "https://continualmi.com/mdl",
+    "date": "2026-05-04",
+    "id": "17779688625310"
+  },
+  {
+    "title": "Chrome 被曝未经同意安装 4GB AI 模型",
+    "summary": "隐私专家质疑 Chrome 静默安装模型及气候成本，引发合规与数据安全担忧。",
+    "detail": "隐私专家 Alexander Hanff 揭露 Google Chrome 在未获用户同意下静默安装 4GB AI 模型。文章指出，若在十亿设备规模部署，其气候成本极高。此举引发对隐私合规及 GDPR 的质疑，用户数据可能未经明确授权即被用于模型运行。该事件凸显了科技巨头在推进 AI 功能时对用户知情权的忽视，可能招致监管审查。对于企业而言，需评估此类浏览器更新对内部数据安全及合规性的潜在风险，建议密切关注后续官方回应及隐私政策调整。此外，本地模型的资源占用也可能影响设备性能，用户需权衡便利性与隐私代价。",
+    "tags": [
+      "News",
+      "Privacy",
+      "Google"
+    ],
+    "link": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/",
+    "date": "2026-05-04",
+    "id": "17779688625312"
+  },
+  {
+    "title": "Gemma 模型即将支持 React Native 端侧部署",
+    "summary": "Software Mansion 集成 Executorch 实现移动端 AI，降低延迟并保护用户隐私。",
+    "detail": "Software Mansion 宣布即将在 React Native 库中支持端侧 Gemma 模型，集成 Executorch 技术。这意味着移动应用可直接运行谷歌开源模型，无需联网。该技术将显著降低延迟并保护用户隐私，为移动端 AI 应用开辟新路径。对于 React Native 开发者而言，这将简化端侧 AI 集成流程，无需深入原生开发。预计该功能将推动更多离线智能应用在商店上线，提升用户体验。谷歌生态与跨平台框架的结合，标志着端侧 AI 部署门槛进一步降低。此举有望加速 AI 功能在消费级应用中的普及，实现真正的智能随身化。",
+    "tags": [
+      "Dev",
+      "Mobile",
+      "React Native"
+    ],
+    "link": "https://twitter.com/swmansion/status/2051323788793352496",
+    "date": "2026-05-04",
+    "id": "17779688625316"
   },
   {
     "title": "AI 天文发现：RAVEN 系统识别百余颗系外行星",
@@ -674,6 +739,19 @@
     "link": "https://www.chicagobooth.edu/review/do-ai-detectors-work-well-enough-trust",
     "date": "2026-05-04",
     "id": "17778634783272"
+  },
+  {
+    "title": "企业 AI 策略：RAG 与微调的成本效益分析",
+    "summary": "指导 CTO 根据时间与预算选择 AI 策略，对比准确性、速度及资源消耗。",
+    "detail": "Lightrains 发布指南，对比 RAG 与微调在企业 AI 中的成本与效率。文章针对 CTO 提供决策框架，分析两者在准确性、速度及预算上的差异。RAG 适合动态数据场景，微调则适用于特定领域任务。通过实际案例，文章展示了如何根据团队资源选择策略，避免盲目投入。这对于正在规划 AI 落地的企业具有重要参考价值，有助于优化技术栈配置，降低试错成本，确保 AI 项目在经济可行的前提下实现业务价值最大化。文章还强调了数据准备的重要性，指出无论选择何种路径，高质量数据均为成功关键。",
+    "tags": [
+      "Dev",
+      "Enterprise",
+      "Strategy"
+    ],
+    "link": "https://lightrains.com/blogs/rag-vs-fine-tuning-enterprise-ai/",
+    "date": "2026-05-03",
+    "id": "17779688625313"
   },
   {
     "title": "Obscura：专为 AI 代理打造的轻量级无头浏览器",
@@ -1220,83 +1298,5 @@
     "link": "https://eliocapella.com/blog/ai-library-migration-guide/",
     "date": "2026-05-03",
     "id": "17778087259651"
-  },
-  {
-    "title": "微软 Fabric + Azure AI Foundry 快速构建数据平台",
-    "summary": "展示如何利用微软云栈在一个周末内交付三个全栈数据平台。",
-    "detail": "**背景**：传统数据分析平台搭建需数周基础设施工作，集成点多易失败。**方案**：采用 Microsoft Fabric + Azure AI Foundry 统一栈，成功交付证券收益工作台、电池供应链 ERP 及矿业情报平台。**优势**：Fabric 将基础设施坍缩为单一平面，Delta Lake 表存于 Lakehouse，Notebook 即管道，AI 端点兼容 OpenAI 协议。**影响**：大幅降低基础设施复杂度，实现从零到生产级代码的快速复用模式，适合矿业、供应链等重数据场景。",
-    "tags": [
-      "Dev",
-      "Azure",
-      "Data Platform"
-    ],
-    "link": "https://cubiczan.substack.com/p/how-we-shipped-3-full-stack-data",
-    "date": "2026-05-03",
-    "id": "17778087259652"
-  },
-  {
-    "title": "Mnemory：面向 AI Agent 的自托管持久记忆系统",
-    "summary": "开源项目 Mnemory 提供安全、功能丰富的 AI Agent 记忆系统，支持事实提取。",
-    "detail": "**背景**：AI Agent 需要长期记忆以保持上下文连贯，隐私与安全是关键。**功能**：Mnemory 是自托管、安全且功能丰富的记忆系统，提供智能事实提取、去重及详细内容存储库。**技术**：支持本地部署，保护隐私，提供 artifact store 存储细节。**影响**：为开发者构建具备长期记忆能力的个性化 Agent 提供了基础设施选择，增强 Agent 连续性和数据主权，解决通用模型记忆缺失问题，适合对数据安全敏感的企业应用。",
-    "tags": [
-      "New",
-      "Open Source",
-      "Agent"
-    ],
-    "link": "https://github.com/fpytloun/mnemory",
-    "date": "2026-05-03",
-    "id": "17778087259653"
-  },
-  {
-    "title": "财务决策新标准：AI 共识硬化协议",
-    "summary": "针对 CFO 提出 AI 决策治理协议，解决幻觉与审计风险。",
-    "detail": "**背景**：AI 引入财务决策面临治理缺口，而非单纯模型质量，98% 准确率不够。**核心**：提出共识硬化协议 (CHP)，作为多 Agent AI 的决策治理层。**机制**：在结构化会话中编排 Agent，记录基础并 adversarial 攻击，经第三方验证后才允许锁定。**风险**：解决上下文碎片化、推理不透明及输出漂移，定义\"locked\"状态。**影响**：为高风险企业场景的 AI 落地提供了治理框架参考，强调决策工件的安全性而非单纯追求模型精度。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Governance"
-    ],
-    "link": "https://cubiczan.substack.com/p/why-cfos-need-a-consensus-hardening",
-    "date": "2026-05-03",
-    "id": "17778087259654"
-  },
-  {
-    "title": "Thoth：开源本地优先 AI 助手，数据主权归用户",
-    "summary": "支持本地运行、知识图谱及语音视觉功能，确保数据隐私安全。",
-    "detail": "Thoth 是一款强调“个人 AI 主权”的开源本地优先 AI 助手。它集成了工具调用、个人知识图谱、语音、视觉、Shell 及浏览器自动化等功能。用户可通过 Ollama 本地运行模型，或选择云端模型，核心数据保留在本地机器上。该项目响应了隐私保护趋势，为开发者提供了构建私有化 AI 工作流的新选择，适合关注数据安全的个人及企业用户。",
-    "tags": [
-      "Dev",
-      "Local AI",
-      "Open Source"
-    ],
-    "link": "https://github.com/siddsachar/Thoth",
-    "date": "2026-05-03",
-    "id": "17778028703210"
-  },
-  {
-    "title": "Enoch：自主 AI 研究的控制平面系统",
-    "summary": "管理队列状态、证据同步及 AI 生成论文打包的研究工具。",
-    "detail": "Enoch 是一个用于自主 AI 研究的控制平面系统，开源于 GitHub。它具备队列状态管理、工作器预检、唤醒门控执行、证据同步、仪表盘及警报功能，并能自动打包 AI 生成的论文。该系统简化了 AI 代理研究的管理流程，提高了研究效率，适合需要进行大规模自动化实验和文献整理的科研团队使用。",
-    "tags": [
-      "New",
-      "Agentic",
-      "Research"
-    ],
-    "link": "https://github.com/alias8818/enoch-agentic-research-system",
-    "date": "2026-05-03",
-    "id": "17778028703212"
-  },
-  {
-    "title": "Arknet：去中心化 AI 推理协议，公平启动",
-    "summary": "单一二进制文件实现去中心化推理，保障公平性。",
-    "detail": "Arknet 是一个去中心化 AI 推理协议，强调公平启动和单一二进制文件部署。该项目旨在通过去中心化网络分布 AI 推理任务，降低对中心化算力的依赖。其技术架构简洁，便于节点接入，为构建抗审查、高可用的 AI 推理网络提供了新的基础设施方案，适合区块链与 AI 交叉领域的开发者。",
-    "tags": [
-      "Dev",
-      "Decentralized",
-      "Inference"
-    ],
-    "link": "https://github.com/st-hannibal/arknet",
-    "date": "2026-05-03",
-    "id": "17778028703214"
   }
 ]
