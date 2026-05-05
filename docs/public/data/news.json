@@ -1,5 +1,18 @@
 [
   {
+    "title": "生产级 AI 指南：评估与监控沉默漂移",
+    "summary": "n8n 发布生产级 AI 手册，解决模型沉默漂移问题。",
+    "detail": "针对 AI 工作流部署后“沉默漂移”问题，n8n 发布生产级评估与监控指南。传统测试不足以应对 AI 输出渐变退化，需持续评估。文章详解如何在 n8n 中构建自动化评估工作流，设定质量阈值触发行动。对构建可靠、可维护的生产级 AI 系统的开发者具有极高实战价值。解决落地痛点，提升系统稳定性与用户信任，是工程化必经之路，建议团队采纳，避免质量下降导致客户流失。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "MLOps"
+    ],
+    "link": "https://blog.n8n.io/production-ai-playbook-evaluation-and-monitoring/",
+    "date": "2026-05-05",
+    "id": "17779782186262"
+  },
+  {
     "title": "开源插件实时监控 Claude.ai Token 用量",
     "summary": "拦截网络流量追踪实际 Token 消耗与限制，提升开发过程的可控性与透明度。",
     "detail": "GitHub 开源了一款浏览器扩展，可拦截 Claude.ai 网络流量以追踪实际 Token 用量。该工具解决了官方界面透明度不足的问题，帮助开发者监控 5 小时窗口限制及消耗情况。基于 Manifest V3 构建，支持 Chrome 与 Edge。这对于重度依赖 Claude 进行开发的团队至关重要，有助于优化提示词工程并控制成本。开源性质允许社区审查代码安全性，确保数据不被滥用。该工具填补了 AI 辅助编程领域的监控空白，提升了开发过程的可控性。开发者可通过实时数据调整使用策略，避免意外超额，优化工作流效率。",
@@ -167,6 +180,19 @@
     "link": "https://blink-oi.vercel.app",
     "date": "2026-05-05",
     "id": "17779494327604"
+  },
+  {
+    "title": "微软承诺两年内翻倍 AI 基础设施投入",
+    "summary": "微软计划两年内加倍 AI 基建，与 OpenAI 合作关系微调。",
+    "detail": "微软重申云与 AI 战略，承诺两年内翻倍 AI 基础设施。虽与 OpenAI 独家授权关系有所松动，但仍紧密合作。此举显示巨头对算力需求的持续押注，旨在巩固 Azure 在生成式 AI 时代的 hyperscale 领先地位，应对亚马逊竞争。微软早年构建 Windows Server 平台，现转向 hyperscale 云服务。确保模型训练与推理算力供给，支撑系统软件平台优势，构建护城河，维持全球客户信任，保障业务连续性。",
+    "tags": [
+      "News",
+      "Microsoft",
+      "Infrastructure"
+    ],
+    "link": "https://www.nextplatform.com/cloud/2026/05/04/microsoft-committed-to-doubling-ai-infrastructure-in-two-years/5219208",
+    "date": "2026-05-04",
+    "id": "17779782186261"
   },
   {
     "title": "首个 AI 生成视觉小说引擎 MDL 发布",
@@ -1272,31 +1298,5 @@
     "link": "https://www.shadowbrokers.app/start",
     "date": "2026-05-03",
     "id": "17778140967714"
-  },
-  {
-    "title": "AI 创业陷阱：哪些想法是“沥青坑”？",
-    "summary": "Hacker News 讨论 AI 时代的创业陷阱，如多模型聊天机器人和代码审查代理。",
-    "detail": "**背景**：创业者常被看似美好实则难成的想法吸引，历史上如餐厅推荐或分摊账单应用。**核心观点**：文中列举了 AI 时代的“沥青坑”想法，包括组合多模型的聊天机器人、代码审查 Agent、旧想法 AI 化及广告生成器。**影响**：提醒开发者避免资源浪费，关注真正可行的落地场景，理性看待 AI 创业热潮。社区正在讨论是否过早定义这些陷阱，引发对 AI 应用泡沫与真实价值的深度思考，避免重蹈覆辙。",
-    "tags": [
-      "News",
-      "Startup",
-      "Industry"
-    ],
-    "link": "https://news.ycombinator.com/item?id=47995879",
-    "date": "2026-05-03",
-    "id": "17778087259650"
-  },
-  {
-    "title": "实战：用 AI Agent 迁移 6000 个 React 测试",
-    "summary": "分享利用 AI Agent 和 AST 技术迁移大量 React 测试用例的实战经验与挑战。",
-    "detail": "**背景**：面对数万行代码库，手动迁移测试成本极高，直接让 AI 全量迁移易失控。**技术点**：作者尝试用 Claude Code CLI 直接迁移 970 个文件失败，后转为生成迁移指南并结合 AST 分步处理。**难点**：升级至 v14 使所有 API 异步化，时序行为改变导致覆盖率和调试困难。**价值**：为大型项目 AI 辅助重构提供了避坑指南和分步策略，强调准备指南的重要性，证明在复杂遗留系统中 AI 需配合人工策略而非完全自动化。",
-    "tags": [
-      "Dev",
-      "React",
-      "AI Agent"
-    ],
-    "link": "https://eliocapella.com/blog/ai-library-migration-guide/",
-    "date": "2026-05-03",
-    "id": "17778087259651"
   }
 ]
