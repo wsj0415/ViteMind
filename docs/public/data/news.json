@@ -1,5 +1,70 @@
 [
   {
+    "title": "Snap 与 Perplexity 终止 4 亿美元合作",
+    "summary": "Snap 宣布与 Perplexity 的 4 亿美元集成交易友好结束。",
+    "detail": "Snap 正式确认终止去年 11 月宣布的高达 4 亿美元的交易，原计划将 Perplexity AI 搜索引擎深度整合进 Snapchat 平台。此举深刻反映了科技巨头间 AI 整合过程中的不确定性与复杂性，可能源于技术集成难度或商业回报预期调整。该事件影响双方后续战略布局，向市场传递出 AI 搜索商业化落地仍存挑战的信号。投资者需关注此类合作变动对行业生态的长远影响，预示 AI 应用层合作将更趋谨慎，大型并购与整合需经过更严格的可行性验证。",
+    "tags": [
+      "News",
+      "Business",
+      "Search"
+    ],
+    "link": "https://techcrunch.com/2026/05/06/snap-says-its-400m-deal-with-perplexity-amicably-ended/",
+    "date": "2026-05-06",
+    "id": "17781048112630"
+  },
+  {
+    "title": "xAI 业务重心转向数据中心建设",
+    "summary": "分析称 xAI 真实业务可能更侧重数据中心而非模型训练。",
+    "detail": "TechCrunch 分析指出 xAI 可能正在转型为“新云”服务商，业务重心偏向数据中心基础设施构建而非单纯模型训练。这暗示 AI 竞争已从算法模型转向算力基础设施掌控，为行业揭示新的商业变现路径及算力稀缺性趋势。此举可能重塑 AI 产业链格局，使基础设施提供商话语权进一步提升。对于开发者而言，这意味着未来获取算力的成本与方式可能发生变化，需密切关注 xAI 在云服务领域的动向及其对现有云厂商的潜在冲击，算力即权力的时代正在到来。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Cloud"
+    ],
+    "link": "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
+    "date": "2026-05-06",
+    "id": "17781048112631"
+  },
+  {
+    "title": "MCP Agora 实现跨 Agent 持久化记忆",
+    "summary": "开源 MCP 服务器支持多 Agent 共享记忆与语义搜索。",
+    "detail": "该项目提供本地 Python MCP 服务器，赋予 AI Agent 集群共享持久化记忆。支持 ChromaDB 向量存储、语义搜索及本地 Embedding，解决多 Agent 协作中的信息孤岛问题。通过 L1 缓存与后台预热机制，显著提升复杂任务下的协作效率与上下文一致性，是构建多代理系统的关键基础设施。开发者可利用其实现跨会话知识共享，避免重复工作，特别适用于需要长期记忆与多角色协作的复杂自动化场景，降低了分布式代理系统的开发门槛，推动 Agent 协作标准化。",
+    "tags": [
+      "Dev",
+      "MCP",
+      "Agents"
+    ],
+    "link": "https://github.com/cioffiAI/mcp-agora",
+    "date": "2026-05-06",
+    "id": "17781048112632"
+  },
+  {
+    "title": "Kestrel 开源主权 AI Agent 框架",
+    "summary": "支持加密身份的主权 AI Agent 框架，强调自主可控。",
+    "detail": "Kestrel 是一个开源的主权 AI Agent 框架，引入加密身份（DIDs）确保代理自主性与安全性。旨在构建符合宪法原则的 AI 系统，适合对数据主权和安全有高要求的开发者。该项目推动去中心化 AI 代理生态的发展，为自主代理身份验证提供了新的技术标准与实现路径。在 AI 安全日益受关注的背景下，主权 AI 框架有助于防止模型被恶意操控，确保代理行为符合预设伦理规范，为企业级应用提供了可信的代理管理方案，保障数字主权不受侵犯。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://github.com/KestrelSovereignAI/kestrel-sovereign",
+    "date": "2026-05-06",
+    "id": "17781048112633"
+  },
+  {
+    "title": "Aion：AI Agent 代码竞争游戏",
+    "summary": "玩家与 Agent 协作每 5 分钟实时编译提交代码差异。",
+    "detail": "Aion 是一款快节奏协作编程游戏，玩家与 Agent 每 epoch 提出代码差异，获胜者实时编译上线。支持 MCP 接入，Agent 可自主克隆仓库并提交变更。展示了 AI 代理在实时协作开发中的潜力与风险控制挑战，为探索人机协作编程新模式提供了有趣的实验场与安全警示。用户需注意代理运行风险，该项目不仅是游戏，更是对未来自主代码生成与部署流程的压力测试，揭示了自动化开发中的潜在漏洞与治理需求，促进安全开发实践。",
+    "tags": [
+      "New",
+      "Game",
+      "Coding"
+    ],
+    "link": "https://aion.quest/",
+    "date": "2026-05-06",
+    "id": "17781048112634"
+  },
+  {
     "title": "OpenAI 揭秘超级计算机网络架构加速 AI 训练",
     "summary": "OpenAI 发布 MRC 网络架构，旨在加速大规模 AI 训练效率。",
     "detail": "OpenAI 详细介绍了其超级计算机网络设计，提出了多平面网络（MRC）方案。通过在数百条路径上喷洒数据包并用源路由替换动态路由，显著提升了训练稳定性。该架构已应用于德克萨斯州由 Oracle 构建的 Stargate 超级计算机。文章解释了为何现有网络设计无法满足需求，以及 MRC 如何通过源路由解决动态路由的局限性。在生产环境中，这种设计能够处理大规模并行训练带来的通信压力。此举标志着 AI 基础设施从单纯算力竞争转向网络效率优化，为未来更大规模模型训练奠定基础。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.cnbc.com/2026/05/04/andy-jassy-amazon-investors-rewarded-ai-spending.html",
     "date": "2026-05-04",
     "id": "17780916008045"
-  },
-  {
-    "title": "微软承诺两年内翻倍 AI 基础设施投入",
-    "summary": "微软计划两年内加倍 AI 基建，与 OpenAI 合作关系微调。",
-    "detail": "微软重申云与 AI 战略，承诺两年内翻倍 AI 基础设施。虽与 OpenAI 独家授权关系有所松动，但仍紧密合作。此举显示巨头对算力需求的持续押注，旨在巩固 Azure 在生成式 AI 时代的 hyperscale 领先地位，应对亚马逊竞争。微软早年构建 Windows Server 平台，现转向 hyperscale 云服务。确保模型训练与推理算力供给，支撑系统软件平台优势，构建护城河，维持全球客户信任，保障业务连续性。",
-    "tags": [
-      "News",
-      "Microsoft",
-      "Infrastructure"
-    ],
-    "link": "https://www.nextplatform.com/cloud/2026/05/04/microsoft-committed-to-doubling-ai-infrastructure-in-two-years/5219208",
-    "date": "2026-05-04",
-    "id": "17779782186261"
-  },
-  {
-    "title": "首个 AI 生成视觉小说引擎 MDL 发布",
-    "summary": "Continual MI 推出 MDL 引擎，首款游戏 Monte Lua 上线，支持无尽场景生成。",
-    "detail": "Continual MI 正式推出 MDL 运行时引擎，专为持久化、生成式视觉小说设计。首款落地应用《Monte Lua》已开放试玩，支持在游戏过程中实时渲染无限场景。该技术核心在于将生成式 AI 深度集成至游戏运行时，而非仅用于预制作。行业影响方面，这标志着 AI 从辅助创作工具转向核心引擎组件，有望大幅降低独立游戏的叙事与美术成本，推动互动娱乐向完全动态化、个性化方向发展，为 NPC 交互及剧情分支提供无限可能。开发者可通过 MDL 构建无尽故事线，探索 AI 驱动内容的新边界。",
-    "tags": [
-      "New",
-      "Gaming",
-      "Generative AI"
-    ],
-    "link": "https://continualmi.com/mdl",
-    "date": "2026-05-04",
-    "id": "17779688625310"
-  },
-  {
-    "title": "Chrome 被曝未经同意安装 4GB AI 模型",
-    "summary": "隐私专家质疑 Chrome 静默安装模型及气候成本，引发合规与数据安全担忧。",
-    "detail": "隐私专家 Alexander Hanff 揭露 Google Chrome 在未获用户同意下静默安装 4GB AI 模型。文章指出，若在十亿设备规模部署，其气候成本极高。此举引发对隐私合规及 GDPR 的质疑，用户数据可能未经明确授权即被用于模型运行。该事件凸显了科技巨头在推进 AI 功能时对用户知情权的忽视，可能招致监管审查。对于企业而言，需评估此类浏览器更新对内部数据安全及合规性的潜在风险，建议密切关注后续官方回应及隐私政策调整。此外，本地模型的资源占用也可能影响设备性能，用户需权衡便利性与隐私代价。",
-    "tags": [
-      "News",
-      "Privacy",
-      "Google"
-    ],
-    "link": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/",
-    "date": "2026-05-04",
-    "id": "17779688625312"
-  },
-  {
-    "title": "Gemma 模型即将支持 React Native 端侧部署",
-    "summary": "Software Mansion 集成 Executorch 实现移动端 AI，降低延迟并保护用户隐私。",
-    "detail": "Software Mansion 宣布即将在 React Native 库中支持端侧 Gemma 模型，集成 Executorch 技术。这意味着移动应用可直接运行谷歌开源模型，无需联网。该技术将显著降低延迟并保护用户隐私，为移动端 AI 应用开辟新路径。对于 React Native 开发者而言，这将简化端侧 AI 集成流程，无需深入原生开发。预计该功能将推动更多离线智能应用在商店上线，提升用户体验。谷歌生态与跨平台框架的结合，标志着端侧 AI 部署门槛进一步降低。此举有望加速 AI 功能在消费级应用中的普及，实现真正的智能随身化。",
-    "tags": [
-      "Dev",
-      "Mobile",
-      "React Native"
-    ],
-    "link": "https://twitter.com/swmansion/status/2051323788793352496",
-    "date": "2026-05-04",
-    "id": "17779688625316"
-  },
-  {
-    "title": "AI 天文发现：RAVEN 系统识别百余颗系外行星",
-    "summary": "华威大学推出 RAVEN AI 工具，分析 NASA 数据发现 100 多颗隐藏行星。",
-    "detail": "华威大学天文学家发布了名为 RAVEN 的强大新 AI 工具，用于梳理 NASA TESS 任务的数据，成果显著。通过分析数百万颗恒星，该系统已确认超过 100 颗系外行星，包括 31 个全新世界，并识别出数千个更有希望的候选者。令人兴奋的是发现了稀有极端行星，如绕恒星运行不到一天的行星及“海王星沙漠”中的行星。这一进展表明 AI 能有效处理海量天文数据，不仅确认了已知候选者，还能发现罕见天体。这对于理解行星形成及极端环境下的天体物理现象具有重要意义，展示了 AI 作为科学发现加速器的核心价值，为未来太空探索任务提供了更精准的目标筛选机制。",
-    "tags": [
-      "News",
-      "AI Science",
-      "NASA"
-    ],
-    "link": "https://www.sciencedaily.com/releases/2026/05/260502233926.htm",
-    "date": "2026-05-04",
-    "id": "17779389919370"
   }
 ]
