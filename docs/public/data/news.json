@@ -1,5 +1,96 @@
 [
   {
+    "title": "科学界生成式 AI 使用十大规则发布",
+    "summary": "PLOS 发布论文，规范科研中生成式 AI 的使用流程与责任。",
+    "detail": "**背景**：随着生成式 AI 深度渗透科研领域，滥用与幻觉风险显著增加，亟需规范指引。\n**核心内容**：PLOS 计算生物学期刊发布最新论文，提出十条简单规则，涵盖负责任使用、数据验证、透明度及人类监督等关键维度，强调 AI 应辅助而非替代科学判断。\n**行业影响**：该指南为全球科研人员提供合规操作标准，有效减少学术不端与模型幻觉风险，推动 AI 技术在科学发现中的健康、可持续发展与应用落地，确立科研诚信新基准。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Guidelines"
+    ],
+    "link": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013588",
+    "date": "2026-05-06",
+    "id": "17781083464470"
+  },
+  {
+    "title": "谷歌 Chrome 被指未经同意下载 4GB AI 模型",
+    "summary": "研究员指控 Chrome 静默下载大模型，涉嫌违反欧盟法律及浪费能源。",
+    "detail": "**事件**：Tom's Hardware 报道 Chrome 浏览器疑似在用户未许可情况下，后台静默下载高达 4GB 的 AI 模型文件。\n**争议焦点**：安全研究员指出此举可能违反欧盟数据法律，并造成数千千瓦时的能源浪费，引发隐私与环保双重担忧。\n**潜在影响**：若指控属实，谷歌可能面临监管审查与用户信任危机，这将直接影响其端侧 AI 部署策略及浏览器市场份额，行业需关注本地模型加载的合规边界。",
+    "tags": [
+      "News",
+      "Google",
+      "Privacy"
+    ],
+    "link": "https://www.tomshardware.com/tech-industry/cyber-security/google-chrome-silently-downloads-4gb-ai-model-to-your-device-without-permission-report-claims-researcher-says-practice-may-violate-eu-law-waste-thousands-of-kilowatts-of-energy",
+    "date": "2026-05-06",
+    "id": "17781083464471"
+  },
+  {
+    "title": "法官暂停科罗拉多州 AI 法案执行",
+    "summary": "xAI 提起宪法挑战后，联邦法官冻结该州首部 AI 法律 enforcement。",
+    "detail": "**进展**：联邦法官正式批准 xAI 与科罗拉多州司法部的联合请求，暂停 SB 24-205 法案的执行效力。\n**原因分析**：原法案要求开发者审查“算法歧视”，xAI 主张该规定违反第一修正案言论自由。\n**深远影响**：此案标志 AI 监管与宪法权利冲突升级，州议会正起草替代法案，全国 AI 立法风向可能随之调整，为科技巨头对抗州级监管提供先例，影响企业合规成本。",
+    "tags": [
+      "News",
+      "Regulation",
+      "xAI"
+    ],
+    "link": "https://reclaimthenet.org/judge-halts-colorado-ai-law-after-first-amendment-challenge",
+    "date": "2026-05-06",
+    "id": "17781083464472"
+  },
+  {
+    "title": "AI 评估初创公司 Braintrust 确认数据泄露",
+    "summary": "公司确认遭入侵，要求所有客户轮换敏感密钥以确保安全。",
+    "detail": "**事件**：TechCrunch 报道 AI 评估初创公司 Braintrust 确认发生安全漏洞，系统遭入侵。\n**应对措施**：公司已通知所有客户立即轮换敏感 API 密钥，以防止未授权访问。\n**行业警示**：此次泄露凸显 AI 基础设施层安全风险，评估平台涉及大量模型访问权限，此次事件可能影响下游客户系统安全，警示行业加强密钥管理与供应链安全审计。",
+    "tags": [
+      "News",
+      "Security",
+      "Startup"
+    ],
+    "link": "https://techcrunch.com/2026/05/06/ai-evaluation-startup-braintrust-confirms-breach-tells-every-customer-to-rotate-sensitive-keys/",
+    "date": "2026-05-06",
+    "id": "17781083464473"
+  },
+  {
+    "title": "PawModel 推出宠物专属 LoRA 肖像生成",
+    "summary": "上传照片训练专属模型，生成高精度宠物 AI 肖像与视频。",
+    "detail": "**产品定位**：PawModel 专注于宠物垂直领域，解决通用模型宠物相似度低的痛点。\n**技术亮点**：采用 Per-pet LoRA 训练技术，仅需 10-20 张照片即可捕捉宠物独特特征（斑纹、神态）。\n**用户体验**：支持油画、动漫等 10+ 风格，30 秒生成肖像及 9:16 视频。\n**市场价值**：满足个性化情感需求，展示垂直领域微调模型的商业化潜力。",
+    "tags": [
+      "New",
+      "LoRA",
+      "AI Art"
+    ],
+    "link": "https://pawmodel.com",
+    "date": "2026-05-06",
+    "id": "17781083464474"
+  },
+  {
+    "title": "通过模组设计策略游戏 AI 的技术实践",
+    "summary": "开发者分享在无数组脚本语言中为 Paradox 游戏构建大型 AI 模组。",
+    "detail": "**技术挑战**：文章详解如何在无数组支持的受限脚本环境中构建大型 AI 模组。\n**核心策略**：采用量化世界决策、时间分布计算及主动规划器对齐原生逻辑。\n**工程价值**：为游戏开发者提供在资源受限环境下优化 AI 行为的思路，展示模组社区如何弥补原生 AI 缺陷，具有极高的工程参考与算法优化价值，揭示 Agent 落地难点。",
+    "tags": [
+      "Dev",
+      "Gaming",
+      "Engineering"
+    ],
+    "link": "https://anbeeld.com/articles/designing-ai-for-strategy-games-through-modding",
+    "date": "2026-05-06",
+    "id": "17781083464475"
+  },
+  {
+    "title": "研究警示 AI 可能导致认知能力萎缩",
+    "summary": "文章引用 2025 年论文，探讨过度依赖 AI 对学习理解力的负面影响。",
+    "detail": "**核心观点**：过度将脑力劳动外包给 AI 可能导致人类认知能力不可逆下降。\n**研究依据**：引用 2025 年论文显示，用 LLM 替代答题的学生理解力显著降低，而互补使用则有益。\n**行业建议**：提倡将 AI 作为互补工具而非替代品，知识工作者需保持每日心智锻炼，平衡效率与能力保留，警惕技术依赖带来的长期认知萎缩风险。",
+    "tags": [
+      "News",
+      "Education",
+      "Social Impact"
+    ],
+    "link": "https://notesbylex.com/on-ai-induced-cognitive-atrophy",
+    "date": "2026-05-06",
+    "id": "17781083464476"
+  },
+  {
     "title": "Snap 与 Perplexity 终止 4 亿美元合作",
     "summary": "Snap 宣布与 Perplexity 的 4 亿美元集成交易友好结束。",
     "detail": "Snap 正式确认终止去年 11 月宣布的高达 4 亿美元的交易，原计划将 Perplexity AI 搜索引擎深度整合进 Snapchat 平台。此举深刻反映了科技巨头间 AI 整合过程中的不确定性与复杂性，可能源于技术集成难度或商业回报预期调整。该事件影响双方后续战略布局，向市场传递出 AI 搜索商业化落地仍存挑战的信号。投资者需关注此类合作变动对行业生态的长远影响，预示 AI 应用层合作将更趋谨慎，大型并购与整合需经过更严格的可行性验证。",
@@ -1207,96 +1298,5 @@
     "link": "https://www.indiehackers.com/post/i-built-a-wordpress-ai-agent-that-handles-sales-and-support-no-monthly-fees-ICax5uOircJAVYrmRH1N",
     "date": "2026-05-05",
     "id": "17779600397644"
-  },
-  {
-    "title": "肯尼亚医疗 AI 被指加剧贫富不公",
-    "summary": "肯尼亚政府 AI 系统被曝向贫困人群过度收取医疗费用。",
-    "detail": "调查显示，肯尼亚政府在医疗系统中部署的 AI 收入预测模型存在严重偏见。该系统系统性地向低收入家庭多收费，而向富裕阶层少收费，加剧了社会不公。尽管收到警告，政府仍推进该项目。此事件揭示了 AI 在公共政策部署中的伦理风险，特别是在缺乏监管的发展中国家，算法可能成为压迫弱势群体的工具，SHA 系统受损。报告由 Africa Uncensored 等机构发布，指出模型极可能误算低收入家庭支付能力。这警示全球在公共领域使用 AI 需透明审计，避免技术加剧既有的社会经济不平等现象。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Policy"
-    ],
-    "link": "https://sha.africauncensored.online/",
-    "date": "2026-05-05",
-    "id": "17779600397645"
-  },
-  {
-    "title": "白宫拟审查发布前 AI 模型",
-    "summary": "白宫考虑在 AI 模型发布前进行政府审查，监管趋严。",
-    "detail": "据报道，美国政府正考虑建立新机制，在 AI 模型向公众发布前进行审查。此举旨在评估潜在安全风险，标志着 AI 监管从事后追责转向事前预防。这将显著增加 AI 公司的合规成本，可能影响模型迭代速度。对于开发者而言，需提前准备安全评估材料，行业需密切关注政策动向及后续实施细则，这可能重塑大模型发布流程。此外，该消息源自纽约时报报道，白宫正在认真考虑此方案，显示监管力度升级，企业需调整合规策略。",
-    "tags": [
-      "News",
-      "Policy",
-      "Regulation"
-    ],
-    "link": "https://www.reuters.com/world/white-house-considers-vetting-ai-models-before-they-are-released-nyt-reports-2026-05-04/",
-    "date": "2026-05-05",
-    "id": "17779494327600"
-  },
-  {
-    "title": "AI 代理需证明链而非日志",
-    "summary": "Atlas 信任基础设施提出元数据优先的信任控制平面。",
-    "detail": "Atlas 项目提出了一种元数据优先的信任控制平面，专为授权安全工作流设计。它强调 AI 代理需要“证明链”而不仅仅是日志，以确保证据保留和发布信任。该架构协调操作、证据、发现及验证流程，为安全评估工作流提供了可检查的文件支持树结构。适合高合规需求场景，为安全团队提供了可审计的信任基础设施模型。其源于 Native Lab Toolkit，保留操作员状态和目标记录，确保工程上下文的可追溯性，增强安全评估的透明度。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Infrastructure"
-    ],
-    "link": "https://github.com/rodriguezaa22ar-boop/atlas-trust-infrastructure",
-    "date": "2026-05-05",
-    "id": "17779494327601"
-  },
-  {
-    "title": "Ctx：AI 编码工具持久记忆",
-    "summary": "单二进制本地优先记忆系统，支持 Claude 和 Cursor。",
-    "detail": "Ctx 是一个单二进制、本地优先的收敛记忆系统，旨在为人类和机器提供持久记忆。它专门针对 Claude Code、Cursor 等 AI 编码工具设计，解决上下文丢失问题。作为本地优先方案，它保障了数据隐私，同时增强了 AI 助手在长期开发任务中的连续性和状态保持能力。开发者可通过此工具实现更连贯的 AI 辅助编程体验。该系统作为单一二进制文件分发，简化了部署流程，便于集成到现有开发环境中，提升编码效率。",
-    "tags": [
-      "Dev",
-      "Memory",
-      "Coding"
-    ],
-    "link": "https://github.com/ActiveMemory/ctx",
-    "date": "2026-05-05",
-    "id": "17779494327602"
-  },
-  {
-    "title": "Terradev CLI 编排 AI 工作负载",
-    "summary": "跨云计算优化平台，支持事件驱动自动化与环境提升。",
-    "detail": "Terradev CLI v4.0.11 更新带来了生产级自动化功能。它支持跨云计算配置优化，部署速度提升 3-5 倍。新特性包括事件驱动触发器（自动训练/重训练）、环境提升工作流（Dev 到 Prod）及自动血缘系统。适合需要复杂 ML 工作流编排和合规审计的企业级开发团队，有效降低跨云管理成本并提升运维效率。支持 19 个云提供商，提供完整的审计跟踪以满足合规要求，实现零接触自动化，优化资源利用率。",
-    "tags": [
-      "Dev",
-      "MLOps",
-      "Cloud"
-    ],
-    "link": "https://github.com/theoddden/Terradev",
-    "date": "2026-05-05",
-    "id": "17779494327603"
-  },
-  {
-    "title": "Blink：带来源的 AI 搜索引擎",
-    "summary": "新的 AI 助手产品，定位为知识目的地与搜索引擎。",
-    "detail": "Blink 是一款新兴的 AI 助手产品，主打带来源的 AI 搜索功能。它试图成为用户的“知识目的地”，通过提供引用来源增强信息的可信度。作为基于 Vercel 部署的应用，它代表了当前 AI 搜索领域的新尝试，强调透明度与知识检索的结合。适合需要可靠信息源的用户，解决了传统 AI 幻觉问题，提供可验证的搜索结果。其界面简洁，专注于知识检索，旨在成为用户获取信息的首选目的地，提升搜索体验。",
-    "tags": [
-      "New",
-      "Search",
-      "Assistant"
-    ],
-    "link": "https://blink-oi.vercel.app",
-    "date": "2026-05-05",
-    "id": "17779494327604"
-  },
-  {
-    "title": "亚马逊 CEO 承诺 AI 巨额投入将回报投资者",
-    "summary": "Andy Jassy 重申 AI 支出战略，安抚市场对成本的担忧。",
-    "detail": "亚马逊 CEO Andy Jassy 表示，公司在 AI 上的巨额支出最终将回报投资者。面对市场对资本支出的担忧，他强调 AI 是长期增长关键。这反映了科技巨头在 AI 基础设施竞赛中的坚定立场，即便短期成本高昂也不减缓投入，云厂商正通过 AI 服务寻求新的收入增长点，以抵消传统业务增速放缓的压力，巩固云计算市场地位。",
-    "tags": [
-      "News",
-      "Business",
-      "Cloud"
-    ],
-    "link": "https://www.cnbc.com/2026/05/04/andy-jassy-amazon-investors-rewarded-ai-spending.html",
-    "date": "2026-05-04",
-    "id": "17780916008045"
   }
 ]
