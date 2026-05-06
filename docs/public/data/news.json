@@ -1,5 +1,70 @@
 [
   {
+    "title": "xAI 与 Anthropic 达成算力合作伙伴关系",
+    "summary": "SpaceXAI 将为 Anthropic 提供 Colossus 1 超级计算机支持。",
+    "detail": "xAI 宣布与 Anthropic 签署协议，提供拥有超过 22 万块 NVIDIA GPU 的 Colossus 1 超级计算机，包括 H100、H200 及下一代 GB200 加速器。Colossus 1 是为大规模 AI 训练和推理从头构建的。这将显著提升 Claude Pro 和 Max 用户的容量。双方还探讨了轨道 AI 算力合作，以突破地面电力和冷却限制。SpaceX 的发射能力使轨道计算成为近期工程计划。此举标志着 AI 基础设施竞争进入新阶段，算力成为核心战略资源，可能改变未来模型训练的物理边界，展示了对下一代系统算力需求的超前布局。SpaceX 的发射节奏和轨道经济性是使轨道计算成为近期工程计划的关键，这可能突破地面电力和冷却的限制。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Anthropic"
+    ],
+    "link": "https://x.ai/news/anthropic-compute-partnership",
+    "date": "2026-05-06",
+    "id": "17780850776930"
+  },
+  {
+    "title": "Google AI 搜索整合 Reddit 等论坛专家建议",
+    "summary": "Google 更新 AI 搜索功能，引入社区论坛的专业建议内容。",
+    "detail": "Google 更新其 AI 搜索产品，现在开始包含来自 Reddit 和其他网络论坛的“专家建议”。这一更新旨在增强搜索结果的真实性和实用性，利用社区驱动的内容补充传统索引。此次更新反映了 AI 搜索对真实人类经验的重视。对于依赖 SEO 和内容营销的行业而言，这意味着社区口碑在 AI 搜索排名中的权重将进一步增加。搜索生态正从单纯的信息检索向经验共享转变，开发者需关注论坛内容在 AI 生成答案中的引用率变化，以优化内容可见性。真实用户反馈将成为搜索质量的关键指标，内容创作者应更注重社区互动。",
+    "tags": [
+      "News",
+      "Search",
+      "Google"
+    ],
+    "link": "https://techcrunch.com/2026/05/06/google-updates-ai-search-to-include-expert-advice-from-reddit-and-other-web-forums/",
+    "date": "2026-05-06",
+    "id": "17780850776931"
+  },
+  {
+    "title": "RelayFreeLLM：免费 AI 网关与自动故障转移",
+    "summary": "开源网关聚合 8 个免费 AI 提供商，支持自动故障转移。",
+    "detail": "这是一个开源 RESTful API 网关，将 Gemini、Groq、Mistral、DeepSeek 等 8 个免费层级提供商聚合为单一 OpenAI 兼容接口。支持自动故障转移，无需修改代码即可避免速率限制错误，只需更改 URL 即可兼容现有代码。适合开发者低成本测试和部署应用，本地安装即可使用，有效降低 AI 集成门槛。通过统一端点管理多个免费密钥，项目解决了单一提供商配额不足的问题，是构建低成本 AI 应用的实用工具。项目还包含模型可用性测试脚本，确保服务稳定性，适合在预算有限的情况下进行原型开发和压力测试，无需重试逻辑。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "API"
+    ],
+    "link": "https://github.com/msmarkgu/RelayFreeLLM",
+    "date": "2026-05-06",
+    "id": "17780850776932"
+  },
+  {
+    "title": "AgentBrain：面向 AI 代理的本地优先仓库",
+    "summary": "专为 Agent 工作流设计的本地优先 Markdown/JSON 仓库。",
+    "detail": "AgentBrain 是一个本地优先的桌面仓库，专为重度 Agent 工作流设计。它结合了 Markdown 的人类可读性和 JSON 的结构化数据优势，提供 API 供 Agent 读取上下文。旨在填补人类笔记与机器可读数据之间的空白。支持本地文件同步和分享链接，解决了 Obsidian 等工具在 Agent 结构化数据交互上的不足。用户拥有文件所有权，技术用户可版本控制，非技术用户可使用简洁界面，是构建本地 AI 工作流的理想基础设施。这种设计思路反映了 AI 应用从单纯对话向复杂工作流管理的转变，本地优先架构保障了用户拥有文件所有权，可检查、备份或版本控制。",
+    "tags": [
+      "New",
+      "Agent",
+      "Productivity"
+    ],
+    "link": "https://agentbrain.heroka.xyz/",
+    "date": "2026-05-06",
+    "id": "17780850776933"
+  },
+  {
+    "title": "深度解析：AI 基准测试如何工作及潜在误导",
+    "summary": "详解 AI 基准测试流程，揭示分数与现实漂移的原因。",
+    "detail": "文章深入分析了 AI 基准测试（如 SWE-bench）的运作管道，从任务库到自动评分。每一个 AI 突破都始于基准测试，它是行业的北极星。指出分数可能因数据污染或评估细节而与现实脱节。强调工程师应理解基准背后的逻辑，而非盲目追求榜单分数。基准测试决定了研发预算和实验室优先级，但分数漂移可能导致误导。这对于正确评估模型能力和指导研发方向具有重要的行业参考意义，呼吁更透明的评估体系。理解评估管道的细节对于避免被榜单误导至关重要，尤其是在模型快速迭代的今天，每位工程师都应了解如何阅读基准测试。",
+    "tags": [
+      "Dev",
+      "Evaluation",
+      "LLM"
+    ],
+    "link": "https://agent-benchmarks.com/",
+    "date": "2026-05-06",
+    "id": "17780850776934"
+  },
+  {
     "title": "AI 热潮推动三星市值突破 1 万亿美元",
     "summary": "人工智能需求激增助力三星市值达到新里程碑。",
     "detail": "随着全球 AI 硬件需求爆发，三星电子市值正式突破 1 万亿美元大关，成为科技界又一里程碑。这表明 AI 浪潮不仅利好软件公司，硬件供应链尤其是存储和芯片制造商同样受益巨大。此举标志着科技股估值逻辑的进一步转变，硬件基础设施成为 AI 经济的核心支柱。投资者信心增强，预计将带动整个半导体产业链的进一步投资与扩张，巩固三星在 AI 时代的关键地位。",
@@ -1233,70 +1298,5 @@
     "link": "https://abiraja.com/blog/your-ai-assistant-doesnt-belong-in-your-inbox",
     "date": "2026-05-04",
     "id": "17779259126232"
-  },
-  {
-    "title": "TuxAide：基于本地终端的 Linux AI 助手",
-    "summary": "开源项目 TuxAide 实现完全本地运行的 Linux 终端 AI 助手，保护隐私。",
-    "detail": "GitHub 新项目 TuxAide 是一款专为 Linux 终端设计的本地 AI 助手。基于 Ollama 运行，无需云端 API 即可在 bash/zsh 环境中提供命令查询与帮助。项目强调 100% 本地隐私保护，无设置摩擦，支持即时安装。对于关注数据主权和偏好命令行工作流的开发者而言，这是一个高效的开源生产力工具。它展示了本地模型在特定垂直场景下的实用性，降低了使用门槛，让终端操作更加智能化且安全。无需联网的特性使其特别适合处理敏感代码或内部服务器管理任务，提升了开发安全性。",
-    "tags": [
-      "New",
-      "OpenSource",
-      "Linux"
-    ],
-    "link": "https://github.com/deltaxmodules/tuxaide",
-    "date": "2026-05-04",
-    "id": "17779259126233"
-  },
-  {
-    "title": "DeepCtx：自动构建代码库上下文的 VS Code 插件",
-    "summary": "新插件 DeepCtx 可自动扫描项目并为 AI 生成代码上下文，提升编程效率。",
-    "detail": "Visual Studio Marketplace 上线新插件 DeepCtx，旨在解决 AI 编程缺乏项目上下文的问题。该工具可自动扫描仓库结构，利用 Groq AI 生成技术摘要，并一键复制上下文至剪贴板。支持 ChatGPT、Claude 等主流模型，无需 API 密钥。这显著降低了开发者向 AI 解释代码库的时间成本，提升了 AI 编程效率。它是当前 AI 编码工作流中补充上下文缺失环节的有效解决方案，优化了人机协作的开发体验。通过自动化上下文构建，它减少了重复劳动，使开发者能更专注于核心逻辑实现与架构设计。",
-    "tags": [
-      "New",
-      "DevTools",
-      "VSCode"
-    ],
-    "link": "https://marketplace.visualstudio.com/items?itemName=DeepCtx.deepctx",
-    "date": "2026-05-04",
-    "id": "17779259126234"
-  },
-  {
-    "title": "AI 正在推动美国内陆地区的再工业化进程",
-    "summary": "媒体报道 AI 技术正助力美国内陆腹地实现再工业化，优化供应链布局。",
-    "detail": "FreightWaves 报道指出，人工智能技术正在成为美国内陆地区再工业化的关键驱动力。通过分析物流与供应链数据，AI 优化了制造业布局与运输效率，使得内陆地区重新具备工业竞争优势。这一趋势表明 AI 的应用正从纯软件领域向实体经济与基础设施深度渗透，可能改变区域经济发展格局。这反映了 AI 技术在传统行业转型中的实际落地价值与宏观影响力，展示了技术重塑地理经济的可能性。AI 不仅提升效率，更在重新定义产业地理分布，为内陆地区带来新的经济增长点与就业机会。",
-    "tags": [
-      "News",
-      "Industry",
-      "Economy"
-    ],
-    "link": "https://www.freightwaves.com/news/the-heartlands-revenge-how-ai-is-reindustrializing-the-american-interior",
-    "date": "2026-05-04",
-    "id": "17779259126235"
-  },
-  {
-    "title": "QueryShield 发布：AI 代理安全 SQL 代理层",
-    "summary": "为 AI 代理提供安全 SQL 代理，支持自然语言转 SQL 及行级安全。",
-    "detail": "QueryShield 推出针对 AI 代理的安全数据库代理层。核心功能包括自然语言转 SQL、AST 级别验证、每代理行级安全 (RLS) 及完整审计日志。支持 MCP 集成，代理无需接触连接字符串。提供免费层及企业级定价，解决 AI 直接访问数据库的安全隐患，是 AI 基础设施安全的重要补充。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Infrastructure"
-    ],
-    "link": "https://queryshield.dev/",
-    "date": "2026-05-04",
-    "id": "17779186367620"
-  },
-  {
-    "title": "推理市场正在经历达尔文式专业化分工",
-    "summary": "Tom Tunguz 分析指出 AI 推理市场正按模态和延迟需求快速细分。",
-    "detail": "Tom Tunguz 发文指出 AI 推理市场正像数据库市场一样碎片化。不同模态（图像、视频、文本）及延迟需求（实时、近实时、批量）需要不同的推理栈。NVIDIA 数据中心收入三年增长 17 倍，但单一架构无法优化所有工作负载。市场正分裂为专用推理基础设施，预示着一轮新的架构创新与投资机遇。",
-    "tags": [
-      "News",
-      "Market",
-      "Infrastructure"
-    ],
-    "link": "https://tomtunguz.com/inference-market-segmentation/",
-    "date": "2026-05-04",
-    "id": "17779186367621"
   }
 ]
