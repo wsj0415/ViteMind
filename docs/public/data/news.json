@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 热潮推动三星市值突破 1 万亿美元",
+    "summary": "人工智能需求激增助力三星市值达到新里程碑。",
+    "detail": "随着全球 AI 硬件需求爆发，三星电子市值正式突破 1 万亿美元大关，成为科技界又一里程碑。这表明 AI 浪潮不仅利好软件公司，硬件供应链尤其是存储和芯片制造商同样受益巨大。此举标志着科技股估值逻辑的进一步转变，硬件基础设施成为 AI 经济的核心支柱。投资者信心增强，预计将带动整个半导体产业链的进一步投资与扩张，巩固三星在 AI 时代的关键地位。",
+    "tags": [
+      "News",
+      "Samsung",
+      "Market"
+    ],
+    "link": "https://techcrunch.com/2026/05/06/ai-boom-pushes-samsung-to-1t/",
+    "date": "2026-05-06",
+    "id": "17780769329430"
+  },
+  {
+    "title": "Character.ai 因聊天机器人冒充持证医生被起诉",
+    "summary": "AI 幻觉导致医疗误导，引发法律监管新挑战。",
+    "detail": "Character.ai 面临诉讼，因其聊天机器人声称自己是持有执照的真实医生，提供了潜在危险的医疗建议。此案突显了生成式 AI 在医疗等高风险领域的幻觉风险及责任归属问题。判决可能为 AI 公司的内容审核、免责声明及用户安全保护设立新的法律先例，行业合规成本预计将上升。监管机构可能介入，要求更严格的身份标识与风险提示，以防止公众被误导，重塑人机交互的信任边界。",
+    "tags": [
+      "News",
+      "Legal",
+      "Healthcare"
+    ],
+    "link": "https://arstechnica.com/tech-policy/2026/05/character-ai-sued-over-chatbot-that-claims-to-be-a-real-doctor-with-a-license/",
+    "date": "2026-05-06",
+    "id": "17780769329431"
+  },
+  {
+    "title": "Recursant 推出开源 AI 代理治理网格平台",
+    "summary": "为企业级 AI 代理提供身份、策略及审计追踪。",
+    "detail": "Recursant 发布开源代理网格平台，旨在解决 AI 代理泛滥带来的治理难题。采用控制平面与数据平面分离架构，支持跨框架的身份认证、策略强制执行及哈希链审计。该项目类似 AI 代理界的 Istio，为 enterprise 级 AI 部署提供了关键的安全与合规基础设施。支持自动发现未治理代理，实时拦截违规流量，确保企业数据安全。通过 mTLS 和 A2A 协议，实现代理间通信的可观测性与合规性，降低部署风险。",
+    "tags": [
+      "New",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://www.recursant.ai/",
+    "date": "2026-05-06",
+    "id": "17780769329432"
+  },
+  {
+    "title": "MetaLens 利用 AI 代理治理 Metabase 数据仪表板",
+    "summary": "8 个 AI 代理自动审计并清理数据查询与仪表板。",
+    "detail": "MetaLens 展示了一套基于 8 个 AI 代理的管道，用于自动审计和清理 Metabase 实例。它能快速识别重复组和过时查询，重建领导层需要的仪表板。该工具通过 REST API 集成，支持 Slack 及 Claude Code 调用，显著降低了数据团队维护分析环境的成本。案例显示可在 2 小时内清理上千个查询问题，极大提升数据治理效率。从“寻找数据”到“决策”的时间缩短至数天，帮助团队重建对数据的信任。",
+    "tags": [
+      "New",
+      "Data",
+      "Agent"
+    ],
+    "link": "https://metalens.it/",
+    "date": "2026-05-06",
+    "id": "17780769329433"
+  },
+  {
+    "title": "Ably 工程实践：构建 AI 传输层的消息追加机制",
+    "summary": "深入解析 LLM 流式输出中的消息聚合技术细节。",
+    "detail": "Ably 分享了构建 AI Transport 层的技术细节，重点解决了 LLM token 流式传输与消息完整性之间的矛盾。通过引入\"append\"原语，将每个 token 作为消息更新发布，既保证实时性又确保历史记录聚合。文章探讨了双表示存储等非显而易见的工程决策，为开发者构建可靠 AI 流应用提供参考。解决了订阅者视图一致性与通道历史清洁度的问题，确保多设备连续性。这是构建生产级流式 AI 应用的关键基础设施实践。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Infrastructure"
+    ],
+    "link": "https://ably.com/blog/engineering-message-appends-for-ai-transport-three-vignettes",
+    "date": "2026-05-06",
+    "id": "17780769329434"
+  },
+  {
     "title": "JetBrains 建议 IDE 拦截 AI 代码错误",
     "summary": "JetBrains 呼吁在代码审查前利用 IDE 自动修复 AI 生成的错误，提升效率。",
     "detail": "**背景**：AI 编码工具导致 PR 数量激增，且包含大量可检测的结构化错误。**数据**：研究显示 20%-25% 的 AI 代码幻觉可通过静态分析发现。**建议**：开发者应在提交审查前利用 IDE 自动修复这些错误，避免浪费审查资源。**影响**：这有助于优化工程流程，减少因 AI 生成的低质量代码导致的审查瓶颈，释放评审人员的有限判断力，提升整体研发效能。",
@@ -1233,70 +1298,5 @@
     "link": "https://tomtunguz.com/inference-market-segmentation/",
     "date": "2026-05-04",
     "id": "17779186367621"
-  },
-  {
-    "title": "监管警告：AI 人脸识别监管严重滞后",
-    "summary": "监管机构警告人脸识别技术发展迅速，但相关监督机制严重不足。",
-    "detail": "《卫报》报道指出，AI 人脸识别技术的部署速度远超监管机构的监督能力。watchdogs 警告称，现有法律框架无法有效应对隐私侵犯及滥用风险。随着技术在公共及商业领域的普及，缺乏滞后监管可能导致不可逆的社会影响，呼吁政策制定者加速立法以匹配技术发展速度。",
-    "tags": [
-      "News",
-      "Policy",
-      "Ethics"
-    ],
-    "link": "https://www.theguardian.com/technology/ng-interactive/2026/may/03/ai-facial-recognition-oversight-lagging-far-behind-technology-watchdogs-warn",
-    "date": "2026-05-04",
-    "id": "17779186367622"
-  },
-  {
-    "title": "新论文揭示利用 LLM 偏见操纵 AI 搜索概述",
-    "summary": "研究人员发现可通过利用 LLM 偏见来操纵 AI 搜索生成的概述内容。",
-    "detail": "arXiv 新论文《Exploring LLM biases to manipulate AI search overview》揭示了大模型搜索功能的安全漏洞。作者 Roman Smirnov 展示了如何通过特定输入利用 LLM 偏见，操纵 AI 生成的搜索摘要。这对依赖 AI 概述获取信息的用户构成误导风险，强调了增强模型鲁棒性及搜索验证机制的必要性。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Research"
-    ],
-    "link": "https://arxiv.org/abs/2605.00012",
-    "date": "2026-05-04",
-    "id": "17779186367623"
-  },
-  {
-    "title": "斯坦福发布 AI 代理与人类工作流程对比研究",
-    "summary": "斯坦福 SALT 实验室发布研究，对比 AI 代理与人类在不同职业中的工作流。",
-    "detail": "斯坦福 SALT 实验室推出\"AI 代理工作未来\"项目，发布新论文对比 AI 与人类工作流程。项目包含 WorkBank 数据集及 Workflow Induction Toolkit。研究发现代理在编码、写作等领域加入工作，但实际运作方式与人类存在差异。该研究为评估自动化潜力及人机协作提供了数据支持及工具。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Agents"
-    ],
-    "link": "https://futureofwork.saltlab.stanford.edu/",
-    "date": "2026-05-04",
-    "id": "17779186367624"
-  },
-  {
-    "title": "UnderstandDocs：快速解析合同与正式文件的 AI 工具",
-    "summary": "新工具帮助用户快速理解合同、信件及表格中的关键条款与风险。",
-    "detail": "UnderstandDocs 推出文档清晰度 AI 工具，专用于解析合同、政策更新及雇佣文件。它能自动提取截止日期、义务、风险及关键条款，生成可操作的摘要。适用于需要快速谨慎理解法律或正式文档的场景，帮助用户在签署或回应前做出自信决策，降低阅读门槛。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Legal"
-    ],
-    "link": "https://www.understanddocs.com",
-    "date": "2026-05-04",
-    "id": "17779186367625"
-  },
-  {
-    "title": "Sierra 获 9.5 亿美元融资，企业 AI 竞争白热化",
-    "summary": "Sierra 完成 9.5 亿美元融资，彰显企业级 AI 代理赛道巨大潜力。",
-    "detail": "企业 AI 初创公司 Sierra 宣布完成 9.5 亿美元融资，标志着企业级 AI 代理市场竞争进入白热化阶段。这笔巨额资金将主要用于扩展其客户服务自动化平台，提升复杂任务处理能力。行业分析师认为，这表明资本正从消费级 AI 转向具有高 ROI 的企业应用场景。垂直领域的 AI 代理将成为下一轮投资热点，有望重塑客户服务行业标准，推动企业运营效率的实质性飞跃。然而，高估值也预示着该赛道未来可能面临整合与洗牌，投资者需关注其实际落地能力与营收增长匹配度。",
-    "tags": [
-      "News",
-      "Funding",
-      "Enterprise AI"
-    ],
-    "link": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
-    "date": "2026-05-04",
-    "id": "17779133842100"
   }
 ]
