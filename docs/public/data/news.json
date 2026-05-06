@@ -1,5 +1,96 @@
 [
   {
+    "title": "MCP Steroid 插件提升 AI 编码效率",
+    "summary": "JetBrains 插件暴露 IDE API 给 AI，任务速度提升最高 54%。",
+    "detail": "MCP Steroid 是一款 IntelliJ 插件，旨在将 IDE 的 API、视觉状态和运行时环境暴露给 AI 代理。基准测试显示，相比仅编辑文件，拥有完整 IDE 访问权的 AI 代理在重构、调试等任务上速度提升 20%-54%。该项目长期目标是成为自主工程工作流的无头 IDE 原生基础设施，标志着 AI 编程从文件编辑向环境交互的转变。它解决了 AI 代理无法理解 IDE 上下文的痛点，为自主工程代理提供了关键基础设施支持，显著提升开发效率与代码质量，是 AI 辅助编程领域的重要进展。",
+    "tags": [
+      "Dev",
+      "IDE",
+      "AI Agents"
+    ],
+    "link": "https://mcp-steroid.jonnyzzz.com/",
+    "date": "2026-05-06",
+    "id": "17780362185210"
+  },
+  {
+    "title": "Anthropic 高管谈 AI 过度矫正与社会正义",
+    "summary": "Anthropic 哲学家认为 AI 偏见矫正可解决历史不公。",
+    "detail": "Fox News 报道，Anthropic 的道德架构师提出，AI 的过度矫正（overcorrection）可能被用来解决历史不公问题。这一言论引发了关于 AI 伦理、偏见处理及算法干预社会价值观的广泛讨论。作为头部大模型厂商，Anthropic 的安全与道德立场直接影响行业合规标准及公众信任。此观点可能预示未来 AI 对齐策略的新方向，即在安全与公平之间寻找新的平衡点，引发业界对算法社会责任边界的深思，同时也带来了关于技术中立性的争议。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Anthropic"
+    ],
+    "link": "https://www.foxnews.com/politics/anthropics-moral-compass-architect-suggested-ai-overcorrection-could-address-historical-injustices",
+    "date": "2026-05-06",
+    "id": "17780362185211"
+  },
+  {
+    "title": "音乐家起诉谷歌 AI 诽谤案",
+    "summary": "加拿大提琴手因 AI 错误标记为性犯罪者起诉谷歌。",
+    "detail": "加拿大著名提琴手 Ashley MacIsaac 因谷歌 AI 搜索结果错误将其标记为性犯罪者而提起诉讼。此案凸显了生成式 AI 幻觉（Hallucination）在现实世界中的法律风险与名誉损害问题。随着 AI 搜索普及，此类诽谤案件可能增多，迫使科技巨头优化事实核查机制。该案将为 AI 生成内容的法律责任界定提供重要判例，影响未来搜索引擎的免责条款与内容审核策略，警示用户需谨慎对待 AI 生成信息的准确性。",
+    "tags": [
+      "News",
+      "Legal",
+      "Google"
+    ],
+    "link": "https://www.theguardian.com/music/2026/may/05/canadian-ashley-macisaac-fiddler-musician-singer-songwriter-sues-google-ai-sex-offender-ntwnfb",
+    "date": "2026-05-06",
+    "id": "17780362185212"
+  },
+  {
+    "title": "GemOfGemma 安卓端侧 AI 助手",
+    "summary": "基于 Gemma 4 的离线安卓 AI 助手，支持视觉与控制。",
+    "detail": "这是一个开源的安卓端侧 AI 助手项目，基于 Gemma 4 模型，完全离线运行。用户可通过自然语言聊天、视觉识别及控制手机功能。项目由 GitHub Copilot 辅助编写，展示了端侧大模型（On-Device AI）在隐私保护与低延迟交互方面的潜力。它为移动设备本地化智能应用提供了参考实现，证明了小型模型在特定硬件上也能实现复杂的交互任务，无需云端依赖，推动了隐私优先的 AI 应用发展。",
+    "tags": [
+      "Dev",
+      "On-Device",
+      "Gemma"
+    ],
+    "link": "https://github.com/ajay-sainy/GemOfGemma",
+    "date": "2026-05-06",
+    "id": "17780362185213"
+  },
+  {
+    "title": "Skelm TypeScript AI 代理框架",
+    "summary": "开源框架助力 TypeScript 构建安全长运行 AI 工作流。",
+    "detail": "Skelm 是一个开源框架，专为使用 TypeScript 构建安全、代理式且长运行的工作流设计。它支持混合确定性代码、LLM 推理和代理循环，并在默认拒绝权限下运行。该工具解决了 AI 代理开发中的类型安全与权限控制痛点，适合需要高可靠性与可维护性的企业级 AI 应用开发。通过类型系统保障代理行为的可预测性，降低了自主系统失控的风险，为开发者提供了更稳健的代理构建工具。",
+    "tags": [
+      "Dev",
+      "TypeScript",
+      "Framework"
+    ],
+    "link": "https://github.com/scottgl9/skelm",
+    "date": "2026-05-06",
+    "id": "17780362185214"
+  },
+  {
+    "title": "谷歌研发新 AI 代理对标竞品",
+    "summary": "商业内幕报道谷歌正开发新 AI 代理应对竞争。",
+    "detail": "Business Insider 报道，谷歌正在构建一款新的 AI 代理，被视为其对竞争对手（文中提及 OpenClaw）的回应。该项目基于 Gemini 助手架构，旨在增强自主任务处理能力。谷歌在代理领域的加速布局表明，大模型竞争已从对话能力转向实际任务执行能力。科技巨头正争夺自主代理市场的主动权，未来 AI 助手将更深入地集成到操作系统与日常工作中，改变人机交互的基本模式。",
+    "tags": [
+      "News",
+      "Google",
+      "AI Agents"
+    ],
+    "link": "https://www.businessinsider.com/google-ai-agent-openclaw-remy-gemini-assistant-2026-5",
+    "date": "2026-05-06",
+    "id": "17780362185215"
+  },
+  {
+    "title": "FFmpeg 开发者指控 OxideAV 许可违规",
+    "summary": "开发者指责 OxideAV 利用 AI 清洗代码许可证。",
+    "detail": "FFmpeg 开发者在 GitHub issue 中公开指控 OxideAV 存在“许可证清洗”行为，涉嫌违规使用其代码。随着 AI 生成代码的普及，开源许可证合规性问题日益突出。此事件反映了开发者对 AI 训练数据及生成代码版权的担忧，可能引发更多关于开源协议在 AI 时代适用性的法律与技术讨论。它警示企业需重视 AI 生成代码的源头审查与合规管理，避免潜在的法律纠纷与声誉损失。",
+    "tags": [
+      "News",
+      "Open Source",
+      "License"
+    ],
+    "link": "https://github.com/OxideAV/oxideav-magicyuv/issues/3",
+    "date": "2026-05-06",
+    "id": "17780362185216"
+  },
+  {
     "title": "SAP 豪掷 11.6 亿美元收购德国 AI 实验室 Prior Labs",
     "summary": "SAP 计划四年投资 10 亿欧元，聚焦表格基础模型，深化企业 AI 布局。",
     "detail": "企业软件巨头 SAP 宣布收购成立仅 18 个月的德国 AI 初创公司 Prior Labs。虽收购金额未披露，但 SAP 计划未来四年向其投入 10 亿欧元（约 11.6 亿美元），旨在打造专注于结构化数据的 AI 实验室。Prior Labs 核心技术与表格基础模型（TFMs）相关，相比语言模型更适合企业数据库场景。创始人将获得超过 5 亿美元现金退出，显示资本市场对该技术路线的认可。此举标志着 SAP 应对股价下跌，加速 AI 渗透企业业务流程的战略决心，显示企业级 AI 正从文本转向结构化数据。",
@@ -1207,96 +1298,5 @@
     "link": "https://finance.yahoo.com/sectors/technology/articles/big-tech-cut-80-000-211500038.html",
     "date": "2026-05-04",
     "id": "17778754297732"
-  },
-  {
-    "title": "DeepMind 前研究员 David Silver 获 11 亿美元种子轮融资",
-    "summary": "AlphaGo 之父创立新公司 Ineffable，致力于超级智能研发。",
-    "detail": "### 背景与事件\n前 Google DeepMind 研究员、AlphaGo 核心创作者 David Silver 创立的 AI 初创公司 Ineffable Intelligence 完成了创纪录的 11 亿美元种子轮融资。\n### 核心亮点\n投资方包括 Nvidia 和 Google 等巨头，目标直指“超级智能”。这是 AI 领域最大的种子轮融资之一，显示资本对顶尖人才追求 AGI 的信心。\n### 行业影响\n此次融资规模罕见，表明市场对通用人工智能落地的预期高涨。此举可能加剧顶级 AI 人才创业潮，推动超级智能技术竞争格局。该融资由 Nvidia 和 Google 等巨头支持，凸显基础设施层对上游模型层的战略布局。David Silver 的加入标志着强化学习领域的新突破尝试。",
-    "tags": [
-      "News",
-      "Funding",
-      "AGI"
-    ],
-    "link": "https://www.cnbc.com/2026/04/27/deepmind-ineffable-intelligence-record-seed-funding-nvidia-google.html",
-    "date": "2026-05-04",
-    "id": "17778634783270"
-  },
-  {
-    "title": "开发者社区热议：AI 生成的文档是否令人疲惫？",
-    "summary": "Hacker News 讨论 AI 生成 README 的同质化问题及阅读疲劳。",
-    "detail": "### 社区声音\nHacker News 发起关于“阅读 AI 生成的 README 是否令人疲惫”的讨论。开发者反映，AI 生成的文档结构雷同，缺乏针对性，导致阅读体验下降。\n### 核心问题\n随着 AI 编码助手普及，大量项目文档由模型生成，出现了“这也变了，那也变了”的套路化表达。\n### 行业影响\n这反映了 AI 工具在开发者工作流中的渗透现状，提示工具开发者需优化生成内容的多样性与实用性，避免信息噪音。社区担忧过度依赖 AI 会降低文档维护质量，影响开源协作效率。开发者呼吁回归人类视角的清晰表达，而非机器堆砌的废话。",
-    "tags": [
-      "Dev",
-      "Community",
-      "Documentation"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48003871",
-    "date": "2026-05-04",
-    "id": "17778634783271"
-  },
-  {
-    "title": "芝加哥大学研究：AI 检测工具真的可信吗？",
-    "summary": "最新研究评估主流 AI 检测器，发现误判率仍存风险。",
-    "detail": "### 研究背景\n芝加哥大学布斯商学院研究人员评估了消费级 AI 写作检测工具的有效性。研究涉及 2000 篇人类文本及四大 LLM 生成的对应内容。\n### 核心发现\n测试了三款商业检测器和一款开源模型，重点关注假阴性与假阳性率。结果表明，虽然检测器具有一定可行性，但在学术和法律场景中仍存在误判风险。\n### 行业影响\n研究建议机构在实施检测工具时需采用数据驱动方法，谨慎对待误判带来的声誉后果。误判可能导致学生或员工被错误指控，影响深远。该研究为教育机构和企业制定 AI 使用政策提供了科学依据。",
-    "tags": [
-      "News",
-      "Research",
-      "AI Safety"
-    ],
-    "link": "https://www.chicagobooth.edu/review/do-ai-detectors-work-well-enough-trust",
-    "date": "2026-05-04",
-    "id": "17778634783272"
-  },
-  {
-    "title": "企业 AI 策略：RAG 与微调的成本效益分析",
-    "summary": "指导 CTO 根据时间与预算选择 AI 策略，对比准确性、速度及资源消耗。",
-    "detail": "Lightrains 发布指南，对比 RAG 与微调在企业 AI 中的成本与效率。文章针对 CTO 提供决策框架，分析两者在准确性、速度及预算上的差异。RAG 适合动态数据场景，微调则适用于特定领域任务。通过实际案例，文章展示了如何根据团队资源选择策略，避免盲目投入。这对于正在规划 AI 落地的企业具有重要参考价值，有助于优化技术栈配置，降低试错成本，确保 AI 项目在经济可行的前提下实现业务价值最大化。文章还强调了数据准备的重要性，指出无论选择何种路径，高质量数据均为成功关键。",
-    "tags": [
-      "Dev",
-      "Enterprise",
-      "Strategy"
-    ],
-    "link": "https://lightrains.com/blogs/rag-vs-fine-tuning-enterprise-ai/",
-    "date": "2026-05-03",
-    "id": "17779688625313"
-  },
-  {
-    "title": "Obscura：专为 AI 代理打造的轻量级无头浏览器",
-    "summary": "一款面向 AI 代理与网页抓取优化的无头浏览器工具，提升执行效率。",
-    "detail": "Obscura 是一款专为 AI 代理自动化和网页抓取设计的无头浏览器工具。随着大模型驱动的智能体（AI Agents）逐渐具备自主操作网页的能力，传统浏览器方案在资源消耗与交互效率上显得捉襟见肘。Obscura 旨在提供更轻量、更适配 AI 非人类交互特征的浏览环境，有效降低抓取成本并提升任务执行稳定性。这对于构建大规模自主 AI 工作流至关重要，标志着代理基础设施正向专用化方向发展。开发者可借此优化数据获取与网页交互环节，解决现有方案在并发处理与反爬虫对抗中的痛点，为下一代自主代理提供可靠的浏览执行层，填补了 AI 代理与网页交互之间的专用工具空白。",
-    "tags": [
-      "Dev",
-      "AI Agents",
-      "Web Scraping"
-    ],
-    "link": "https://github.com/h4ckf0r0day/obscura",
-    "date": "2026-05-03",
-    "id": "17778521211540"
-  },
-  {
-    "title": "Stigmem v1.0：开源联邦知识织物重塑代理协作",
-    "summary": "首个开源联邦知识织物，解决 AI 代理记忆与知识共享难题，支持分布式协作。",
-    "detail": "Stigmem 正式推出 v1.0 版本，定位为开源的联邦知识织物（Federated Knowledge Fabric），专为 AI 代理生态设计。当前多代理系统面临知识孤岛与记忆同步难题，Stigmem 通过联邦架构实现分布式记忆与知识共享，确保多个代理间能安全协作并共享上下文信息。这一创新显著提升了复杂任务的协同处理能力，为多代理系统（Multi-Agent Systems）提供了新的底层架构思路。有望成为构建企业级代理网络的关键基础设施，推动代理协作标准化，解决隐私与数据主权问题，让代理在分散环境中依然保持统一的知识认知与决策能力，促进去中心化 AI 应用的发展。",
-    "tags": [
-      "New",
-      "Open Source",
-      "AI Agents"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48002447",
-    "date": "2026-05-03",
-    "id": "17778521211541"
-  },
-  {
-    "title": "AI 本质探讨：下一词预测并非物种定义",
-    "summary": "深入探讨 AI 是否仅为下一词预测器，提出层级优化视角。",
-    "detail": "文章深入反驳了将 AI 仅视为“随机鹦鹉”或单纯“下一词预测器”的观点。作者从优化层级角度分析，指出人类大脑同样存在预测编码机制，进化是外层循环，学习算法是内层循环。强调过度强调下一词预测是层级混淆，对理解 AI 认知架构有重要理论意义。此文为 AI 安全与对齐讨论提供了新的哲学视角，有助于开发者跳出单一技术视角审视模型能力边界，理解智能的本质差异。此外，文中提到的预测编码理论也为神经科学与 AI 的结合提供了新的研究方向，值得从业者深入阅读思考。",
-    "tags": [
-      "News",
-      "LLM",
-      "Theory"
-    ],
-    "link": "https://www.astralcodexten.com/p/next-token-predictor-is-an-ais-job",
-    "date": "2026-05-03",
-    "id": "17778482529170"
   }
 ]
