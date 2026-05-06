@@ -1,5 +1,70 @@
 [
   {
+    "title": "OpenAI 揭秘超级计算机网络架构加速 AI 训练",
+    "summary": "OpenAI 发布 MRC 网络架构，旨在加速大规模 AI 训练效率。",
+    "detail": "OpenAI 详细介绍了其超级计算机网络设计，提出了多平面网络（MRC）方案。通过在数百条路径上喷洒数据包并用源路由替换动态路由，显著提升了训练稳定性。该架构已应用于德克萨斯州由 Oracle 构建的 Stargate 超级计算机。文章解释了为何现有网络设计无法满足需求，以及 MRC 如何通过源路由解决动态路由的局限性。在生产环境中，这种设计能够处理大规模并行训练带来的通信压力。此举标志着 AI 基础设施从单纯算力竞争转向网络效率优化，为未来更大规模模型训练奠定基础。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "OpenAI"
+    ],
+    "link": "https://openai.com/index/mrc-supercomputer-networking/",
+    "date": "2026-05-06",
+    "id": "17780991432980"
+  },
+  {
+    "title": "Shadow：定位 AI Agent 提示词变更引发的故障",
+    "summary": "开源工具 Shadow 帮助开发者追踪 AI Agent 行为合同与提示词问题。",
+    "detail": "GitHub 新项目 Shadow 专为 AI Agent 调试设计，通过行为合同机制帮助开发者精准定位哪次提示词更改导致了 Agent 行为异常。支持 Rust 和 Python，提供版本控制和规范定义。其核心功能是找出确切导致问题的提示词变更，帮助团队维护 Agent 行为的一致性。随着 AI Agent 应用增多，可观测性和调试成为痛点，该工具为开发者提供了标准化解决方案，有助于提升 Agent 生产环境的可靠性。项目包含 CI/CD 工作流支持，版本号为 3.1.2，采用 Apache 2.0 许可证。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://github.com/manav8498/Shadow",
+    "date": "2026-05-06",
+    "id": "17780991432981"
+  },
+  {
+    "title": "揭秘 Bolt.new 背后技术栈：WebContainers 与 Rails",
+    "summary": "Evil Martians 披露 Bolt.new 基于维护 4 年的 Rails 应用与 WebContainers。",
+    "detail": "StackBlitz 团队背后的 Evil Martians 透露，爆火的 AI 应用构建器 Bolt.new 核心运行在维护了 4 年的 Rails 应用上，并结合 WebContainers 技术。WebContainers 允许在浏览器沙箱中运行 Node.js 等服务端软件。结合 Claude 3.5 后，用户无需 IDE 即可通过提示词生成运行应用。这揭示了 AI 产品成功往往依赖成熟的基础设施而非全新架构。Bolt 估值达 7 亿美元，拥有 500 万用户，从爱好者工具转型为企业级解决方案。团队自 2021 年起合作，扩展平台至 500 万用户。市场最初未接受浏览器开发，但 AI 改变了局面。",
+    "tags": [
+      "New",
+      "WebDev",
+      "AI Product"
+    ],
+    "link": "https://twitter.com/evilmartians/status/2052052208523305408",
+    "date": "2026-05-06",
+    "id": "17780991432982"
+  },
+  {
+    "title": "Zed 编辑器回应 AI 功能盈利质疑：不为钱做 AI",
+    "summary": "Zed 博客澄清 AI 功能并非只为盈利，强调令牌计费与商业版策略。",
+    "detail": "针对用户质疑 Zed 聚焦 AI 是为了赚钱，官方博客回应称早期甚至补贴 AI 使用成本。目前采用令牌计费加 10% markup 覆盖基础设施。长期计划通过 Zed for Business 实现商业化，提供团队管理与权限控制。文章反映了 AI 编辑器在经济模型上的探索，即如何在补贴用户获取与可持续盈利之间找到平衡，避免成为廉价 LLM 访问通道。他们最近发布了 Parallel Agents 功能，用户反馈良好但存在误解。作者强调他们仍是需要盈利的企业，短期推出商务版，长期将货币化其他功能。",
+    "tags": [
+      "News",
+      "Editor",
+      "Business Model"
+    ],
+    "link": "https://zed.dev/blog/not-building-ai-for-the-money",
+    "date": "2026-05-06",
+    "id": "17780991432983"
+  },
+  {
+    "title": "行业反思：并非所有软件都需要 AI 化",
+    "summary": "观点文章指出确定性软件仍具价值，反对盲目 AI 代理化。",
+    "detail": "文章批评了当前 SaaS 行业盲目追求 AI 代理化的趋势。作者认为，虽然生成式 AI 提供了灵活性，但许多日常工具需要的是确定性而非智能。电子表格和认证服务必须保持“无聊”且可靠。这反映了行业对 AI 过度炒作的反思，提示企业在引入 AI 时需区分场景，保留确定性流程以保证核心业务的稳定性与用户信任。硬件是硬编码的智能，软件更灵活，而生成式 AI 灵活性高但确定性低。每个人都在预言 SaaS 的灭亡，但原因并非 AI 代理取代工具，而是 AI 化版本变得不可靠。",
+    "tags": [
+      "News",
+      "Analysis",
+      "SaaS"
+    ],
+    "link": "https://ogirardot.writizzy.com/p/not-everything-is-ai-or-agents",
+    "date": "2026-05-06",
+    "id": "17780991432984"
+  },
+  {
     "title": "SpaceX 拟斥资 1190 亿美元在德州建设芯片工厂",
     "summary": "SpaceX 计划建造 Terafab 芯片厂，巨额投入凸显硬件自主趋势。",
     "detail": "SpaceX 计划在德州投资高达 1190 亿美元建设名为 Terafab 的芯片工厂，旨在实现芯片制造自主化。此举表明科技巨头正加速垂直整合，减少对外部供应链依赖，确保算力供应安全。对于 AI 行业而言，算力硬件的自主可控成为竞争关键，可能改变全球芯片制造格局，加剧硬件军备竞赛，推动边缘计算与专用芯片发展，降低对传统半导体厂商的依赖。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.sciencedaily.com/releases/2026/05/260502233926.htm",
     "date": "2026-05-04",
     "id": "17779389919370"
-  },
-  {
-    "title": "HeyGen 新品：HyperFrames 用代码生成视频",
-    "summary": "HyperFrames 允许 AI 代理通过编写 HTML/CSS/JS 来创作视频，实现 vibe-coding 编辑。",
-    "detail": "HeyGen 推出的 HyperFrames 允许 AI 代理通过编写 HTML、CSS 和 JavaScript 来创作视频，实现了“通过氛围编码”编辑视频。示例代码显示，用户可定义场景片段（clip）的起始时间和持续时间，并利用 GSAP 时间线控制动画效果。这种技术将视频编辑转化为代码生成任务，使得 AI 代理能够更精确地控制视频结构和视觉元素。相比传统时间轴编辑，这种方法更适合自动化流程和程序化生成。它代表了视频生成技术的新方向，即通过结构化代码而非像素预测来控制输出，可能大幅提高视频生成的可控性和编辑灵活性，为开发者提供了新的视频创作 API 接口。",
-    "tags": [
-      "New",
-      "Video Gen",
-      "Dev"
-    ],
-    "link": "https://hyperframes.heygen.com",
-    "date": "2026-05-04",
-    "id": "17779389919371"
-  },
-  {
-    "title": "JuliaHub 融资 6500 万美元，挑战 Simulink",
-    "summary": "AI 初创公司 JuliaHub 获融资，旨在利用 AI 代理 rival 工程仿真软件 Simulink。",
-    "detail": "AI 初创公司 JuliaHub 筹集了 6500 万美元，旨在挑战工程仿真软件巨头 Simulink。该公司利用 AI 代理技术 targeting 硬件工程领域。此次融资由 Axios 报道，涉及前微软高管 Bob Muglia 等相关背景。这表明投资者看好 AI 在传统工业软件领域的替代潜力。JuliaHub 的目标是通过 AI 简化复杂的工程仿真流程，降低使用门槛。若成功，将改变硬件设计和验证的工作流，使工程师能更高效地利用仿真工具。这反映了 2026 年 AI 应用正从消费级向工业级深度渗透的趋势，工业软件智能化将成为新的投资热点，可能引发工程软件市场的格局重塑。",
-    "tags": [
-      "News",
-      "Funding",
-      "Engineering"
-    ],
-    "link": "https://www.axios.com/2026/04/30/bob-muglia-ai-hardware-engineering",
-    "date": "2026-05-04",
-    "id": "17779389919372"
-  },
-  {
-    "title": "行业警示：AI 模型正被垃圾数据“窒息”",
-    "summary": "Fortune 报道指出，低质量数据泛滥正严重影响 AI 模型的训练效果与性能。",
-    "detail": "Fortune 报道指出，AI 模型正因垃圾数据而“窒息”。随着互联网上低质量内容泛滥，模型训练效果受到严重影响，导致输出质量不稳定。这一问题引发了行业对数据清洗、合成数据质量及未来训练语料来源的深刻担忧。随着网络内容被 AI 生成内容污染，获取纯净训练数据将成为各大模型厂商面临的核心挑战之一。解决数据毒性问题将成为下一阶段模型竞争的关键，促使企业更注重高质量私有数据源的构建与清理。这不仅影响模型性能，还关系到 AI 发展的可持续性，迫使行业重新审视数据供应链的管理与优化策略。",
-    "tags": [
-      "News",
-      "LLM",
-      "Data"
-    ],
-    "link": "https://fortune.com/2026/05/03/ai-models-are-choking-on-junk-data/",
-    "date": "2026-05-04",
-    "id": "17779389919373"
-  },
-  {
-    "title": "Cerebras 筹备重磅 IPO，OpenAI 合作伙伴受瞩目",
-    "summary": "OpenAI 合作伙伴 Cerebras 拟上市，AI 芯片赛道再迎巨头。",
-    "detail": "Cerebras 作为 OpenAI 的紧密合作伙伴，正计划进行大规模 IPO，这标志着 AI 基础设施硬件领域持续受到资本市场青睐。此次上市若成功，将验证专用 AI 芯片商业模式的可行性，并可能加剧与 NVIDIA 等巨头的竞争。对于行业而言，这意味着算力供应链的多元化趋势正在加速，投资者开始关注除 GPU 之外的替代方案，专用晶圆级引擎可能成为新的增长点，影响未来大模型训练成本结构。此次融资动向也反映了大厂对算力稳定性的渴求，绑定硬件供应商成为战略重点。市场分析师认为，这表明 AI 硬件赛道已进入成熟变现期，后续需关注其招股书中披露的客户集中度及技术指标。",
-    "tags": [
-      "News",
-      "IPO",
-      "Hardware"
-    ],
-    "link": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
-    "date": "2026-05-04",
-    "id": "17779322702720"
-  },
-  {
-    "title": "欧盟被指浪费 200 亿欧元于 AI 计算梦想",
-    "summary": "政治评论质疑欧盟 AI 基础设施投资效率，引发政策反思。",
-    "detail": "Politico 报道指出，欧盟在 AI 计算基础设施上的 200 亿欧元投资被指控为浪费。这反映了政府在主导 AI 算力建设时面临的效率与战略匹配问题。对于行业而言，这警示了公共资金介入高科技领域的风险，可能影响未来欧盟 AI 政策的走向及私营部门的合作意愿。批评者认为集中式计算梦想忽视了市场需求，可能导致资源错配。此事可能引发关于主权 AI 云建设模式的重新评估，欧洲企业或许更倾向于与美国云厂商合作而非依赖本土补贴项目。政策制定者需在自主可控与经济效益之间寻找新平衡，避免重蹈覆辙。",
-    "tags": [
-      "News",
-      "Policy",
-      "Infrastructure"
-    ],
-    "link": "https://www.politico.eu/article/eu-accused-wasting-20-billion-euro-ai-computing-dreams/",
-    "date": "2026-05-04",
-    "id": "17779322702721"
   }
 ]
