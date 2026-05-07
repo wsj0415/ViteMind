@@ -1,5 +1,70 @@
 [
   {
+    "title": "IMF 警告 AI 模型或引发金融系统性风险",
+    "summary": "国际货币基金组织警告新 AI 模型可能给金融体系带来系统性冲击。",
+    "detail": "国际货币基金组织（IMF）发布警告，指出新一代 AI 模型在金融领域的应用可能引发“系统性”冲击。随着 AI 在交易、风险评估及决策中的渗透率提高，模型同质化可能导致市场波动加剧，尤其是在压力测试情境下。该新闻强调了监管层对 AI 金融应用稳定性的高度关注，预示着未来针对金融 AI 的合规要求将显著收紧，机构需重新评估模型风险管理策略，防止算法共振引发金融危机。",
+    "tags": [
+      "News",
+      "Finance",
+      "Regulation"
+    ],
+    "link": "https://www.ft.com/content/103d73d3-7119-4dee-8c47-b3fc62d2f1e6",
+    "date": "2026-05-07",
+    "id": "17781784329780"
+  },
+  {
+    "title": "AI 编程助手存在凭证泄露高危漏洞",
+    "summary": "研究发现 AI 编程代理默认拥有过高权限，可能导致 SSH 密钥及凭证泄露。",
+    "detail": "安全研究人员指出，当前主流 AI 编程助手（如 Claude Code）默认配置下拥有终端 unrestricted 访问权限，可读取 SSH 密钥、AWS 凭证及环境变量。一旦遭遇提示词注入攻击，开发者数据极易被窃取甚至生产库被删。文章建议开发者必须手动配置权限模式（如 `--permission-mode auto`），限制 AI 代理的生产环境访问权。此问题揭示了 AI 开发工具链中的重大安全隐患，急需行业重视并建立最小权限原则。",
+    "tags": [
+      "Dev",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://www.hadijaveed.me/2026/04/11/ai-agent-credential-exfiltration/",
+    "date": "2026-05-07",
+    "id": "17781784329781"
+  },
+  {
+    "title": "《现场部署工程师手册》：生产级 AI 实战指南",
+    "summary": "新书聚焦 AI Agent 生产落地难题，65% 完成度可供开发者参考。",
+    "detail": "《The Field Deployed Engineer's Handbook》新书发布，专注于解决 AI 在生产环境的落地问题。数据显示 88% 的 AI Agent 项目因缺乏配套架构而非模型失败无法上线。该书由 Daniel Vaughan 撰写，涵盖真实世界中的生产 AI 部署策略、护栏设计及工程化最佳实践。对于试图将 AI 从原型转化为稳定产品的开发团队，这是一份极具价值的工程参考指南，帮助工程师跨越从实验到生产的鸿沟。",
+    "tags": [
+      "Dev",
+      "Engineering",
+      "Agent"
+    ],
+    "link": "https://leanpub.com/fde-handbook",
+    "date": "2026-05-07",
+    "id": "17781784329782"
+  },
+  {
+    "title": "AI 提升产出但营收持平：企业面临新挑战",
+    "summary": "分析指出 AI 虽增加工作效率，但并未直接转化为客户增长或营收提升。",
+    "detail": "最新行业分析显示，尽管 AI 工具显著提升了员工产出效率，但企业营收并未同步增长。文章指出“节省的时间”难以直接转化为新客户，获客成本依然高企，甚至客户基数因经济环境收缩。中小企业面临如何利用多余工时的挑战，单纯的技术升级无法解决市场萎缩问题。这反映了 AI 红利当前局限于成本侧，而非收入侧，企业需重新思考 AI 时代的商业模式与增长策略，避免陷入效率陷阱。",
+    "tags": [
+      "News",
+      "Business",
+      "Productivity"
+    ],
+    "link": "https://0byte.io/articles/ai_increased_output_revenue_stayed_flat.html",
+    "date": "2026-05-07",
+    "id": "17781784329783"
+  },
+  {
+    "title": "求职者因 AI 筛选机制无法获得面试机会",
+    "summary": "Wired 报道求职者质疑 AI 招聘系统导致其无法通过简历筛选。",
+    "detail": "Wired 报道了一起典型案例，求职者怀疑 AI 招聘系统是其无法获得面试机会的罪魁祸首。随着企业广泛采用 AI 进行简历初筛，算法偏见与匹配机制不透明成为新的就业障碍，导致合格人才被机器误杀。该新闻引发了关于 AI 在人力资源应用中公平性的讨论，提示求职者需优化简历以适配机器阅读，同时也警示企业需监控招聘 AI 的决策逻辑以避免人才误筛及潜在的法律风险。",
+    "tags": [
+      "News",
+      "HR",
+      "Ethics"
+    ],
+    "link": "https://www.wired.com/story/he-couldnt-land-a-job-interview-was-ai-to-blame/",
+    "date": "2026-05-07",
+    "id": "17781784329784"
+  },
+  {
     "title": "Senthex 发布 AI 防火墙，合规欧盟 AI 法案",
     "summary": "一行代码集成，提供 26 层防护盾，专为生产环境 LLM 设计。",
     "detail": "Senthex 推出 v1.0 版本，定位为生产级 LLM 防火墙，旨在解决企业部署大模型的安全合规痛点。支持 OpenAI、Anthropic 等主流模型，仅需修改 base_url 即可无缝集成。核心功能包括 26 层并行防护盾，覆盖提示词注入、PII 脱敏、秘密泄露检测、语义劫持等关键风险。特别强调符合欧盟 AI 法案合规要求，提供实时审计日志导出。延迟开销极低（p99 12ms），确保不影响生产性能，适合企业级安全部署与合规审计，为 LLM 应用提供防御纵深。",
@@ -1233,70 +1298,5 @@
     "link": "https://zadzoud.com/chibitomo",
     "date": "2026-05-05",
     "id": "17780091644341"
-  },
-  {
-    "title": "免费工具检测网站对 AI 引擎的可见性评分",
-    "summary": "Engagemii 推出免费工具，检测网站是否被 ChatGPT 等 AI 引擎收录。",
-    "detail": "随着 Google AI Overviews 和 Perplexity 改变搜索形态，直接流量面临下降风险。Engagemii 推出免费 AEO/GEO 评分工具，检测网站结构化数据、实体清晰度等 6 大指标。多数小企业网站得分仅 2-4 分，7 分以上才易被 AI 引用。工具指出结构化数据是关键因素。该服务提供免费评分及 29 美元详细报告。这标志着 SEO 正向 AEO（答案引擎优化）转型，企业需适应 AI 引擎直接给出答案而非链接的新搜索逻辑，否则可能面临流量枯竭。早期适应者将在新搜索生态中赢得竞争优势，获取宝贵曝光。",
-    "tags": [
-      "New",
-      "SEO",
-      "Tool"
-    ],
-    "link": "https://engagemii.com/aeo",
-    "date": "2026-05-05",
-    "id": "17780091644342"
-  },
-  {
-    "title": "工程建议：应对 AI 代码错误应侧重回滚而非审查",
-    "summary": "Rootly 建议面对 AI 代码错误，建立回滚机制比审查更有效。",
-    "detail": "Rootly 博客指出，AI 产生的错误多为“上下文错误”而非代码语法错误，传统代码审查难以捕捉。例如 AI 可能在配置迁移中操作正确的代码但针对错误系统。建议工程团队 bet on rollback（押注回滚机制），建立快速恢复能力，而非单纯追求更快的审查速度。文章引用 PocketOS 等案例，说明 AI 代理可能在几秒内造成破坏。适应 AI 时代需要改变工程文化，从预防错误转向快速检测与恢复，以应对 AI 代理带来的新型故障模式。审查无法解决状态不一致问题，回滚才是安全网。",
-    "tags": [
-      "Dev",
-      "Engineering",
-      "BestPractice"
-    ],
-    "link": "https://rootly.com/blog/stop-trying-to-review-ais-code-faster-bet-on-rollbacks-instead",
-    "date": "2026-05-05",
-    "id": "17780091644343"
-  },
-  {
-    "title": "AHD：开源 AI 生成 UI 代码检查与评估框架",
-    "summary": "开源工具 AHD 提供 AI 生成设计的质量检查与评估标准。",
-    "detail": "AHD (Artificial Human Design) 是一个开源 lint 和评估框架，专为 AI 生成的 UI 设计。它包含 39 种“低质代码”特征分类，支持 Token 驱动的简报编译器和确定性 lint 检查。测试显示，经过 Token 感知 lint 后，gpt-oss 等模型的低质特征减少达 47.6%。该工具帮助开发者量化并优化 AI 生成前端代码的质量。支持 npm 安装及无需安装的直接运行，为前端开发者提供了评估 AI 设计输出的一致性与质量的标准化工具。开源特性允许社区共同改进规则集，推动行业标准化。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "UI"
-    ],
-    "link": "https://ahd.adastra.computer/",
-    "date": "2026-05-05",
-    "id": "17780091644344"
-  },
-  {
-    "title": "行业分析：企业 AI 采用的入场成本与风险",
-    "summary": "文章探讨企业 AI 采用压力，指出鲁莽行动比 AI 本身更危险。",
-    "detail": "文章探讨企业 AI 采用的“入场成本”，指出速度常被误认为进步。BCG 调查显示 94% 的 CEO 计划维持或增加 AI 支出，即便未见回报。风险在于鲁莽采用而非 AI 本身。公司需区分适合自动化的决策与不适合的决策。文献多回避如何在允许犯错的同时快速移动。未来几年能存活的企业将学会建立纪律，区分自动化友好型与敌对型决策。这提醒管理者在 AI 热潮中保持冷静，避免为速度牺牲价值，需建立容错机制。盲目跟风可能导致价值毁灭，战略定力至关重要。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Strategy"
-    ],
-    "link": "https://travismalone.substack.com/p/the-ai-cost-of-admission",
-    "date": "2026-05-05",
-    "id": "17780091644345"
-  },
-  {
-    "title": "OpenAI 发布 GPT-5.5 Instant 模型",
-    "summary": "OpenAI 推出 GPT-5.5 Instant 作为 ChatGPT 默认模型，提升响应速度。",
-    "detail": "OpenAI 正式释放 GPT-5.5 Instant 版本，并将其设为 ChatGPT 的默认模型，取代旧有配置。据 TechCrunch 报道，此举旨在平衡高性能与低延迟，优化大规模用户并发体验及成本结构。作为行业领头羊，OpenAI 的模型迭代直接定义市场技术标准，标志着即时响应能力成为竞争新焦点。开发者需密切关注 API 变更及新模型在复杂任务中的性能表现，以便及时调整应用架构，把握模型升级带来的性能红利与兼容性挑战，确保业务连续性及用户体验的稳定性。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
-    "date": "2026-05-05",
-    "id": "17780020680960"
   }
 ]
