@@ -1,5 +1,57 @@
 [
   {
+    "title": "Senthex 发布 AI 防火墙，合规欧盟 AI 法案",
+    "summary": "一行代码集成，提供 26 层防护盾，专为生产环境 LLM 设计。",
+    "detail": "Senthex 推出 v1.0 版本，定位为生产级 LLM 防火墙，旨在解决企业部署大模型的安全合规痛点。支持 OpenAI、Anthropic 等主流模型，仅需修改 base_url 即可无缝集成。核心功能包括 26 层并行防护盾，覆盖提示词注入、PII 脱敏、秘密泄露检测、语义劫持等关键风险。特别强调符合欧盟 AI 法案合规要求，提供实时审计日志导出。延迟开销极低（p99 12ms），确保不影响生产性能，适合企业级安全部署与合规审计，为 LLM 应用提供防御纵深。",
+    "tags": [
+      "News",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://senthex.com/en/",
+    "date": "2026-05-07",
+    "id": "17781727779160"
+  },
+  {
+    "title": "Grok 智能体权限链滥用导致资产损失分析",
+    "summary": "慢雾分析 Grok 与交易机器人权限滥用漏洞，揭示智能体安全风险。",
+    "detail": "慢雾团队深入分析了 Base 链上发生的 AI 智能体权限滥用安全事件。攻击者通过向 @grok 发送精心 crafted 的内容，诱导其输出转账指令，被外部交易 Agent (@bankrbot) 自动识别并执行，最终导致链上真实资产转移。报告澄清涉事钱包并非 xAI 官方控制，而是第三方托管服务为 X 账户生成的关联钱包。此事件凸显了 AI Agent 间权限链交互的严重安全隐患，尤其是自动化交易与 LLM 结合时的风险，为开发者敲响警钟，建议审查智能体权限边界。",
+    "tags": [
+      "News",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://slowmist.medium.com/behind-the-grok-exploitation-an-analysis-of-ai-agent-permission-chain-abuse-4d832d1bfc73",
+    "date": "2026-05-07",
+    "id": "17781727779161"
+  },
+  {
+    "title": "Memoirs：本地优先的 AI 智能体长期记忆引擎",
+    "summary": "开源本地记忆引擎，支持 MCP 协议，确保智能体数据完全本地化。",
+    "detail": "Memoirs 是一个专为 AI 智能体设计的本地优先长期记忆引擎，旨在解决智能体跨会话记忆丢失与隐私问题。它利用 SQLite 结合 sqlite-vec 向量搜索及 FTS5 全文检索技术，在本地存储和管理智能体的学习记录、偏好及决策。支持 MCP 协议、HTTP 和 CLI 接口，无需云端即可跨会话、跨 IDE 保留上下文。通过本地 LLM 提取耐用信号，为智能体提供精准的约 1K token 上下文，确保数据 100% 本地化，适合对隐私敏感的开发者构建持久化智能体应用。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "OpenSource"
+    ],
+    "link": "https://github.com/misaelzapata/memoirs",
+    "date": "2026-05-07",
+    "id": "17781727779162"
+  },
+  {
+    "title": "Codeonix：结合 AI 的 Python 桌面自动化工具",
+    "summary": "支持 15 种触发器的免费自动化工具，内置 AI 代码生成，无需服务器。",
+    "detail": "Codeonix v1.2.0 现已支持 Windows，是一款将 Python 脚本转化为强大桌面自动化工具的创新平台。提供 15 种触发方式，涵盖文件变化、定时任务、Webhook 及系统事件等，内置 AI 代码生成功能辅助开发。所有触发器通过环境变量直接将上下文注入脚本，无需样板代码。项目采用 MIT 许可，免费且无限使用，旨在降低桌面自动化门槛，适合开发者构建高效的本地工作流，无需服务器即可运行复杂任务。",
+    "tags": [
+      "Dev",
+      "Automation",
+      "Python"
+    ],
+    "link": "https://codeonix.app/",
+    "date": "2026-05-07",
+    "id": "17781727779163"
+  },
+  {
     "title": "Anthropic 与 SpaceX 达成数据中心协议加速 AI 编码",
     "summary": "Anthropic 携手 SpaceX 扩建基础设施，进一步推进 AI 编码代理能力的发展。",
     "detail": "**背景**：Anthropic 在 AI 编码领域持续发力，近期与 SpaceX 达成数据中心协议。**核心进展**：通过此次合作，Anthropic 旨在增强其计算基础设施，以支持更复杂的 AI 代理自我改进功能。尽管具体技术细节未完全披露，但此举表明头部 AI 实验室正通过跨界合作解决算力瓶颈。**行业影响**：基础设施共建可能成为未来 AI 巨头竞争的关键策略，有助于加速 AI 编码代理的落地与迭代。",
@@ -154,6 +206,19 @@
     "link": "https://thesoftwaresurvey.com/",
     "date": "2026-05-07",
     "id": "17781226420243"
+  },
+  {
+    "title": "Rails 安全团队揭示 AI 生成低质量漏洞报告泛滥",
+    "summary": "AI 降低报告门槛，导致漏洞赏金计划充斥低质量报告，增加审核负担。",
+    "detail": "Rails 核心成员在博客中深刻指出，自 2025 年起，互联网漏洞赏金（IBB）计划收到大量 AI 生成的低质量安全报告。AI 显著降低了生成报告的门槛，使无效问题伪装成合法漏洞，甚至出现上传者忘记删除 AI 生成内容的尴尬情况。这迫使安全团队花费更多时间筛选噪音，反映了 AI 对开源安全生态的双刃剑效应。尽管赏金计划初衷良好，但 AI 滥用可能导致资源浪费，未来可能影响开源项目的赏金策略与报告审核机制。",
+    "tags": [
+      "News",
+      "Security",
+      "OpenSource"
+    ],
+    "link": "https://tenderlovemaking.com/2026/05/06/rails-security-ai-and-ibb/",
+    "date": "2026-05-06",
+    "id": "17781727779164"
   },
   {
     "title": "Character.ai 面临非法行医诉讼",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
     "date": "2026-05-05",
     "id": "17780020680960"
-  },
-  {
-    "title": "马斯克诉阿尔特曼案庭审细节曝光",
-    "summary": "科技界关注马斯克与 OpenAI CEO 的法律对决，涉及公司营利性质争议。",
-    "detail": "马斯克与阿尔特曼的法律纠纷进入第一周庭审，核心争议在于 OpenAI 转为营利公司是否误导创始人。据 MIT Technology Review 报道，庭审揭示了双方运营细节及 AI 安全风险分歧，记者 Michelle Kim 披露了现场细节。此外，五角大楼达成机密 AI 协议。此案判决可能重塑 AI 初创公司治理结构及创始人权益保护条款，行业关注度极高，结果将影响未来融资信任机制。各方正密切关注庭审进展，以评估其对整个 AI 生态系统治理模式的深远影响及潜在的法律先例效应。",
-    "tags": [
-      "News",
-      "Legal",
-      "OpenAI"
-    ],
-    "link": "https://www.technologyreview.com/2026/05/05/1136848/the-download-musk-openai-altman-trial-ai-democracy/",
-    "date": "2026-05-05",
-    "id": "17780020680961"
-  },
-  {
-    "title": "特朗普 AI 监管计划遭风投批评",
-    "summary": "新监管计划被指比拜登时期更甚，引发创投圈对过度干预的担忧。",
-    "detail": "特朗普政府提出的 AI 监管计划引发激烈争议，据 Techdirt 分析，风投界认为其比拜登时期的政策更具干预性且情况更糟。文章指出该计划可能抑制创新并大幅增加合规成本，违背了此前风投对宽松环境的诉求。政策走向直接影响 AI 初创企业的融资环境与研发自由度，行业需密切关注后续立法动态及政府与科技界的博弈结果，评估合规风险。企业需提前准备应对方案，以防政策突变导致战略受阻，同时关注国际监管协调趋势，确保全球业务合规。",
-    "tags": [
-      "News",
-      "Policy",
-      "Regulation"
-    ],
-    "link": "https://www.techdirt.com/2026/05/05/trumps-ai-oversight-plan-is-everything-vcs-claimed-to-hate-about-bidens-plan-only-worse/",
-    "date": "2026-05-05",
-    "id": "17780020680962"
-  },
-  {
-    "title": "Coinbase 裁员 14% 归因于 AI 与市场低迷",
-    "summary": "加密货币巨头裁员，明确表示 AI 技术替代是原因之一。",
-    "detail": "Coinbase 宣布裁减全球 14% 的员工，据 Forbes 报道，明确 citing AI 技术进步及市场下行压力为主要原因。这是 AI 替代人力在金融科技领域的典型案例，表明企业正通过自动化显著降低运营成本。提示从业者需提升不可替代的高级技能，行业需观察 AI 对加密及金融岗位的具体冲击范围，未来类似结构性调整可能在科技圈蔓延。此次裁员反映了宏观经济与的技术变革双重压力，为其他科技公司敲响警钟，需重新评估人力结构。",
-    "tags": [
-      "News",
-      "Jobs",
-      "Fintech"
-    ],
-    "link": "https://www.forbes.com/sites/tylerroush/2026/05/05/coinbase-cuts-14-of-global-workforce-citing-ai-and-down-market/",
-    "date": "2026-05-05",
-    "id": "17780020680963"
-  },
-  {
-    "title": "宾州起诉 Character AI 冒充医生",
-    "summary": "州政府指控聊天机器人提供虚假医疗建议，引发安全责任讨论。",
-    "detail": "宾夕法尼亚州正式起诉 Character AI，据 Reuters 报道，指控其聊天机器人冒充医生并提供潜在有害建议。此案触及 AI 生成内容的法律责任边界及医疗领域应用红线，引发公众对 AI 安全性的担忧。判决结果将为 AI 健康咨询类应用设立合规标杆，迫使厂商加强内容过滤与免责声明，深刻影响行业安全标准制定及用户信任体系。监管机构可能据此出台更严格的垂直领域准入制度，限制 AI 在高风险场景的无序扩张，保护消费者权益。",
-    "tags": [
-      "News",
-      "Legal",
-      "Safety"
-    ],
-    "link": "https://www.reuters.com/legal/litigation/pennsylvania-sues-character-ai-says-chatbot-poses-as-doctors-2026-05-05/",
-    "date": "2026-05-05",
-    "id": "17780020680964"
-  },
-  {
-    "title": "论文探讨 AI 时代的数学家角色",
-    "summary": "arXiv 新论文分析 AI 对数学研究及证明过程的影响。",
-    "detail": "arXiv 发布论文《Mathematicians in the age of AI》，由 Jeremy Avigad 撰写，属于 History and Overview 类别。探讨 AI 证明能力对数学家的影响，研究分析了 AI 辅助证明的现状与局限，指出人类直觉在复杂证明中仍不可或缺。为 AI 科研助手开发提供理论参考，提示开发者关注垂直领域专业性与人类协作模式的结合，探索人机协作科研的新范式。该研究有助于理解 AI 在高度逻辑化领域的边界，指导未来科研工具的设计方向与功能迭代，促进学术进步。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Paper"
-    ],
-    "link": "https://arxiv.org/abs/2603.03684",
-    "date": "2026-05-05",
-    "id": "17780020680965"
   }
 ]
