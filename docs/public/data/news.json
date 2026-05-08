@@ -1,5 +1,70 @@
 [
   {
+    "title": "微软 AI 协议推动三里岛核电站重启",
+    "summary": "微软与能源公司达成协议，利用 AI 技术支持核电站重启计划。",
+    "detail": "彭博社深度报道，微软通过与能源公司达成 AI 合作协议，推动三里岛核电站重启计划。这标志着科技巨头开始直接介入能源基础设施领域，核心旨在满足 AI 数据中心日益巨大的电力需求。此举可能引发科技公司与传统能源行业更深度的整合，试图解决算力爆发背后的能源瓶颈问题。行业观察家认为，这显示 AI 发展对稳定能源的依赖加剧，未来科技巨头可能更多参与电力生产以确保算力供应安全。这种“算力 - 电力”绑定模式将成为 2026 年 AI 基础设施竞争的关键趋势，影响全球能源布局。",
+    "tags": [
+      "News",
+      "Microsoft",
+      "Infrastructure"
+    ],
+    "link": "https://www.bloomberg.com/news/features/2026-05-07/three-mile-island-restart-moves-ahead-with-microsoft-ai-deal",
+    "date": "2026-05-08",
+    "id": "17782184389470"
+  },
+  {
+    "title": "Anthropic 估值折价分析：高增长背后的隐忧",
+    "summary": "分析 Anthropic 为何估值低于同类公司，尽管增长迅速。",
+    "detail": "Tom Tunguz 分析指出，Anthropic 虽增长快但交易估值较 Palantir 有 65% 折价。原因包括资本密集度高（GPU 成本）、盈利不确定性、增长波动性及监管风险。市场正在权衡其是成为高利润软件业务还是资本密集型公用事业。投资者担忧其需持续筹集巨额资金购买 GPU，且出口管制与安全要求可能重塑竞争格局。这种折价反映了市场对 AI 初创企业长期盈利模式与资本支出压力的理性审视。尽管营收跑率预计达 800 亿美元，但高资本支出可能压缩利润率，导致估值倍数受限。",
+    "tags": [
+      "News",
+      "Finance",
+      "Anthropic"
+    ],
+    "link": "https://tomtunguz.com/ai-at-discount/",
+    "date": "2026-05-08",
+    "id": "17782184389471"
+  },
+  {
+    "title": "Webdevbench 评估：AI 编程平台现系统性缺陷",
+    "summary": "最新基准测试揭示 AI 编程平台在安全与生产就绪度上的不足。",
+    "detail": "2026 年 3 月研究论文评估了 6 个 AI 开发平台，发现四大缺陷：规范瓶颈、前后端脱节、生产就绪度悬崖及普遍安全失败。无平台安全分达标，后端基础设施常被忽视。表明当前 AI 生成代码仍需大量人工干预才能投入生产。测试涵盖 68 项指标，显示视觉上精致的 UI 常掩盖缺失的后端支持。开发者需注意，从生成到生产环境仍需 12 至 60 开发者小时的努力，安全性尤其是并发处理远未达标。这提示企业需谨慎采用 AI 编程代理，不能完全依赖自动化生成。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Coding Agents"
+    ],
+    "link": "https://webdevbench-ai-benchmarks.qwikbuild.site/",
+    "date": "2026-05-08",
+    "id": "17782184389472"
+  },
+  {
+    "title": "Sley 发布：首款原生 AI 编程语言上线",
+    "summary": "Greyforge Labs 推出专为 AI 代理设计的确定性编辑语言。",
+    "detail": "GitHub 上线 Sley 语言，号称首款原生 AI 编程语言。作为代理原生语言编译器和工具链，旨在实现确定性编辑与结构化控制。这代表了编程范式向 AI 代理协作的转变，试图解决传统语言在 AI 自动化工作流中的控制难题。由 Greyforge Labs 托管，该工具链允许代理进行结构化控制下的确定性编辑。这可能降低 AI 编写代码的幻觉风险，提高可维护性，是开发者工具领域的重要创新，适合构建高可靠性 AI 代理系统。标志着编程语言设计开始适配 AI 代理的执行特性。",
+    "tags": [
+      "Dev",
+      "Programming Language",
+      "Agents"
+    ],
+    "link": "https://github.com/GreyforgeLabs/sley",
+    "date": "2026-05-08",
+    "id": "17782184389473"
+  },
+  {
+    "title": "HN 热议：如何沙盒化 AI 代理与开发者 CLI",
+    "summary": "开发者社区讨论 AI 代理执行环境的安全隔离方案。",
+    "detail": "Hacker News 热门讨论聚焦 AI 代理与 CLI 工具的安全沙盒化。随着 AI 代理获得更高系统权限，如何防止恶意操作或意外破坏成为关键。社区分享隔离策略，反映行业对 AI 自主执行安全性的日益关注，是开发安全 AI 工作流的重要议题。讨论涉及如何在允许代理执行代码的同时保护主机系统免受潜在危害。这对于构建可信的自主代理系统至关重要，尤其是在企业环境中部署 AI 助手时，安全隔离机制将成为标准配置需求。缺乏沙盒可能导致严重的安全漏洞和数据泄露风险。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48058747",
+    "date": "2026-05-08",
+    "id": "17782184389474"
+  },
+  {
     "title": "AnamDB 发布 AI 原生神经符号数据库引擎",
     "summary": "Rust 编写的神经符号数据库，集成概率感知与符号推理，解决幻觉问题。",
     "detail": "AnamDB 是一款垂直无关的神经符号数据库引擎，采用 Rust 编写。它原生集成概率神经感知与确定性符号推理，将模型视为一等公民。相比传统向量数据库，它提供可解释性、安全护栏及硬件异构调度，旨在解决 LLM 幻觉问题，为 Agent 记忆提供新架构。支持从单节点到分布式多代理推理平面，是 AI 基础设施的重要创新。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.theguardian.com/technology/2026/may/05/richard-dawkins-ai-consciousness-anthropic-claude-openai-chatgpt",
     "date": "2026-05-06",
     "id": "17780477522413"
-  },
-  {
-    "title": "Command Code 获 500 万美元融资",
-    "summary": "新型 AI 编码代理 Command Code 宣布获得 500 万美元融资，主打有品味的代码生成。",
-    "detail": "AI 编码代理 Command Code 宣布获得 500 万美元融资，主打“有品味”的代码生成。该产品旨在解决现有 AI 编程工具代码质量参差不齐的问题，强调代码风格与可维护性。随着 AI 编程赛道竞争加剧，专注于代码质量的工具可能成为开发者新宠，推动编码辅助向高质量演进。融资成功显示资本看好垂直领域 AI 应用，未来或将看到更多针对特定工作流优化的编程代理出现，改变软件开发效率。开发者将更关注 AI 生成代码的可读性与长期维护成本。",
-    "tags": [
-      "New",
-      "Coding",
-      "Funding"
-    ],
-    "link": "https://commandcode.ai/",
-    "date": "2026-05-06",
-    "id": "17780477522414"
-  },
-  {
-    "title": "数学证明 AI 取代工程师说法错误",
-    "summary": "新视频分析指出，声称 AI 将取代工程师的数学模型存在严重错误，低估了人类价值。",
-    "detail": "最新视频分析指出，声称 AI 将完全取代工程师的数学模型存在严重错误，低估了人类在复杂系统中的价值。内容通过数据反驳了过度悲观的就业预测，强调人机协作而非替代。这对稳定开发者社区情绪具有积极意义，提示行业应关注增强而非替换。工程实践涉及大量非标准化决策，目前 AI 尚难完全胜任，理性看待技术边界有助于行业健康发展。开发者应聚焦于提升利用 AI 解决复杂问题的能力，而非担忧被替代，共同推动技术良性融合。",
-    "tags": [
-      "Dev",
-      "Career",
-      "Analysis"
-    ],
-    "link": "https://www.youtube.com/watch?v=ItSLny8on5I",
-    "date": "2026-05-06",
-    "id": "17780477522415"
-  },
-  {
-    "title": "MCP Steroid 插件提升 AI 编码效率",
-    "summary": "JetBrains 插件暴露 IDE API 给 AI，任务速度提升最高 54%。",
-    "detail": "MCP Steroid 是一款 IntelliJ 插件，旨在将 IDE 的 API、视觉状态和运行时环境暴露给 AI 代理。基准测试显示，相比仅编辑文件，拥有完整 IDE 访问权的 AI 代理在重构、调试等任务上速度提升 20%-54%。该项目长期目标是成为自主工程工作流的无头 IDE 原生基础设施，标志着 AI 编程从文件编辑向环境交互的转变。它解决了 AI 代理无法理解 IDE 上下文的痛点，为自主工程代理提供了关键基础设施支持，显著提升开发效率与代码质量，是 AI 辅助编程领域的重要进展。",
-    "tags": [
-      "Dev",
-      "IDE",
-      "AI Agents"
-    ],
-    "link": "https://mcp-steroid.jonnyzzz.com/",
-    "date": "2026-05-06",
-    "id": "17780362185210"
-  },
-  {
-    "title": "Anthropic 高管谈 AI 过度矫正与社会正义",
-    "summary": "Anthropic 哲学家认为 AI 偏见矫正可解决历史不公。",
-    "detail": "Fox News 报道，Anthropic 的道德架构师提出，AI 的过度矫正（overcorrection）可能被用来解决历史不公问题。这一言论引发了关于 AI 伦理、偏见处理及算法干预社会价值观的广泛讨论。作为头部大模型厂商，Anthropic 的安全与道德立场直接影响行业合规标准及公众信任。此观点可能预示未来 AI 对齐策略的新方向，即在安全与公平之间寻找新的平衡点，引发业界对算法社会责任边界的深思，同时也带来了关于技术中立性的争议。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Anthropic"
-    ],
-    "link": "https://www.foxnews.com/politics/anthropics-moral-compass-architect-suggested-ai-overcorrection-could-address-historical-injustices",
-    "date": "2026-05-06",
-    "id": "17780362185211"
-  },
-  {
-    "title": "音乐家起诉谷歌 AI 诽谤案",
-    "summary": "加拿大提琴手因 AI 错误标记为性犯罪者起诉谷歌。",
-    "detail": "加拿大著名提琴手 Ashley MacIsaac 因谷歌 AI 搜索结果错误将其标记为性犯罪者而提起诉讼。此案凸显了生成式 AI 幻觉（Hallucination）在现实世界中的法律风险与名誉损害问题。随着 AI 搜索普及，此类诽谤案件可能增多，迫使科技巨头优化事实核查机制。该案将为 AI 生成内容的法律责任界定提供重要判例，影响未来搜索引擎的免责条款与内容审核策略，警示用户需谨慎对待 AI 生成信息的准确性。",
-    "tags": [
-      "News",
-      "Legal",
-      "Google"
-    ],
-    "link": "https://www.theguardian.com/music/2026/may/05/canadian-ashley-macisaac-fiddler-musician-singer-songwriter-sues-google-ai-sex-offender-ntwnfb",
-    "date": "2026-05-06",
-    "id": "17780362185212"
   }
 ]
