@@ -1,5 +1,70 @@
 [
   {
+    "title": "Meta 拟用 AI 分析骨骼结构识别未成年用户",
+    "summary": "Meta 计划利用 AI 技术分析用户身高和骨骼结构，以识别未成年人身份。",
+    "detail": "Meta 宣布将引入新的 AI 安全机制，通过扫描用户视频中的身高和骨骼结构特征来推断年龄。此举旨在加强平台未成年人保护，但也引发了隐私和技术准确性的争议。这标志着 AI 生物识别技术在合规领域的重大应用，可能影响后续社交平台的身份验证标准。TechCrunch 报道指出，该技术将用于识别未成年用户，以符合日益严格的监管要求。此方法利用生物特征而非传统文档，代表了身份验证技术的新方向，但也带来了数据处理的伦理挑战。",
+    "tags": [
+      "News",
+      "Meta",
+      "Safety"
+    ],
+    "link": "https://techcrunch.com/2026/05/05/meta-will-use-ai-to-analyze-height-and-bone-structure-to-identify-if-users-are-underage/",
+    "date": "2026-05-08",
+    "id": "17782483039960"
+  },
+  {
+    "title": "企业级 AI 控制平面架构解析",
+    "summary": "定义 AI 控制平面，统一管理机构内 AI 代理与系统的连接及策略。",
+    "detail": "随着企业 AI 应用激增，\"AI 控制平面\" 概念应运而生。它作为治理层，统一管理 AI 代理与内部系统的连接、身份验证及策略执行。该架构解决了 IT 部门无法跟上 AI 部署速度的痛点，确保数据安全和可观测性。这是企业 AI 基础设施走向成熟的关键标志，类似 Kubernetes 在网络中的地位，为大规模 AI 部署提供必要的治理框架。Speakeasy CEO 指出这是 enablement 和 governance 的统一。任何将两者分离的架构最终都会失败，需统一连接、策略和观测。",
+    "tags": [
+      "Dev",
+      "Enterprise",
+      "Architecture"
+    ],
+    "link": "https://www.speakeasy.com/resources/ai-control-plane",
+    "date": "2026-05-08",
+    "id": "17782483039961"
+  },
+  {
+    "title": "AI 生成的低质分支正在破坏开源软件？",
+    "summary": "探讨 AI 低成本分叉项目导致的代码质量下降及安全隐患问题。",
+    "detail": "文章指出 AI 使得分叉成熟项目变得极其廉价，导致大量缺乏理解的“低质分支”涌现。Cloudflare 工程师案例显示，AI 虽能快速重建 API，但也可能移除关键安全代码。这打破了开源社区原有的贡献质量过滤机制，维护者审查负担加重，可能危及软件供应链安全。开发者需警惕自动生成的代码库潜在风险，重建了 94% 的 Next.js API 表面。原本贡献者需理解代码库，现在 AI 秒生成 PR，过滤机制失效。",
+    "tags": [
+      "News",
+      "OpenSource",
+      "Security"
+    ],
+    "link": "https://www.builder.io/blog/ai-slop-forks",
+    "date": "2026-05-08",
+    "id": "17782483039962"
+  },
+  {
+    "title": "开发者如何审查 AI 生成的代码？",
+    "summary": "Hacker News 热议审查 AI 代码的策略，人类成为开发瓶颈。",
+    "detail": "社区讨论聚焦于 LLM 生成代码的审查难题。许多团队感觉人类审查已成为开发瓶颈，尽管有限制 PR 大小等护栏措施，但有效策略仍在探索中。这反映了 AI 编程普及后的新工作流挑战，急需建立针对 AI 生成代码的质量保证标准和高效审查流程，以避免技术债务累积。Hacker News 用户表示几乎每个人都在实时摸索解决方案。人类成为开发流程瓶颈，团队正设置护栏如限制 PR 大小。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "LLM"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48063044",
+    "date": "2026-05-08",
+    "id": "17782483039963"
+  },
+  {
+    "title": "NanoCorp：创建由 AI 自主运营的公司",
+    "summary": "新平台允许用户启动由 AI 代理自主执行任务并赚钱的公司。",
+    "detail": "NanoCorp 推出新服务，允许用户创建由 AI 代理自主运营的公司。用户定义使命，代理按计划执行任务、运行广告并报告结果。该平台旨在实现“睡眠赚钱”的自动化商业模式，展示了 AI Agent 从辅助工具向自主经济实体转变的趋势，具备实时监控仪表板功能，预示自主经济体的兴起。即将支持自主运行 Google 搜索广告。用户可定义使命，雇佣代理，无需保姆式管理，跟踪整个帝国。",
+    "tags": [
+      "New",
+      "Agents",
+      "Automation"
+    ],
+    "link": "https://www.nanocorp.so",
+    "date": "2026-05-08",
+    "id": "17782483039964"
+  },
+  {
     "title": "苹果 AirPods Pro 集成 AI 摄像头进入测试",
     "summary": "苹果新一代 AirPods Pro 内置摄像头进入高级测试阶段，融合 AI 视觉。",
     "detail": "据 MacRumors 报道，苹果正在测试内置摄像头的 AirPods Pro，旨在融合 AI 视觉功能。这款硬件创新标志着可穿戴设备从听觉向多模态交互迈进，可能支持手势控制或环境感知。若量产，将重塑个人 AI 助理的交互形态，引发隐私与功能平衡的行业讨论。",
@@ -1233,70 +1298,5 @@
     "link": "https://ably.com/blog/engineering-message-appends-for-ai-transport-three-vignettes",
     "date": "2026-05-06",
     "id": "17780769329434"
-  },
-  {
-    "title": "JetBrains 建议 IDE 拦截 AI 代码错误",
-    "summary": "JetBrains 呼吁在代码审查前利用 IDE 自动修复 AI 生成的错误，提升效率。",
-    "detail": "**背景**：AI 编码工具导致 PR 数量激增，且包含大量可检测的结构化错误。**数据**：研究显示 20%-25% 的 AI 代码幻觉可通过静态分析发现。**建议**：开发者应在提交审查前利用 IDE 自动修复这些错误，避免浪费审查资源。**影响**：这有助于优化工程流程，减少因 AI 生成的低质量代码导致的审查瓶颈，释放评审人员的有限判断力，提升整体研发效能。",
-    "tags": [
-      "Dev",
-      "IDE",
-      "Code Review"
-    ],
-    "link": "https://blog.jetbrains.com/ai/2026/05/stop-sending-ide-catchable-ai-code-errors-to-review/",
-    "date": "2026-05-06",
-    "id": "17780682608310"
-  },
-  {
-    "title": "UBC 研究揭示 AI 聊天机器人成瘾机制",
-    "summary": "新研究发现 AI 聊天机器人设计可能导致成瘾，涉及情感依赖与角色扮演。",
-    "detail": "**背景**：UBC 在 2026 CHI 会议上提出 AI 成瘾研究。**数据**：分析 334 篇 Reddit 帖子，发现角色扮演、情感依恋和信息寻求三大模式。**风险**：约 7% 涉及性或浪漫满足。**结论**：部分设计决策故意让用户在线，忽视健康。行业需关注技术诱导伤害，用户应提高意识以减轻影响，研究者呼吁正视 AI 成瘾问题而非否认其存在。",
-    "tags": [
-      "News",
-      "Research",
-      "Ethics"
-    ],
-    "link": "https://science.ubc.ca/news/2026-04/are-you-addicted-your-ai-chatbot-it-might-be-design",
-    "date": "2026-05-06",
-    "id": "17780682608311"
-  },
-  {
-    "title": "2026 年 AI 销售代理 (SDR) 工作原理解析",
-    "summary": "文章详解 2026 年 AI SDR 如何自动化潜在客户挖掘与会议预订流程。",
-    "detail": "**背景**：AI SDR 类别在两年内迅速兴起。**功能**：利用 AI 自动化潜在客户挖掘、个性化外展、跟进及会议预订。**价值**：帮助团队评估是否准备好引入 AI 销售代理。**趋势**：展示了 AI 在垂直业务场景（如销售）的深度集成，改变传统销售团队结构与成本模型，企业需了解其工作原理以决定是否部署代理。",
-    "tags": [
-      "New",
-      "SaaS",
-      "Sales"
-    ],
-    "link": "https://babuger.com/blog/what-is-an-ai-sdr-how-ai-sales-agents-work",
-    "date": "2026-05-06",
-    "id": "17780682608312"
-  },
-  {
-    "title": "人机协作新隐喻：AI 如激光腔产生相变",
-    "summary": "文章提出激光腔隐喻，解释人机协作如何通过相变实现认知连贯性。",
-    "detail": "**背景**：作者探讨与 AI 协作的认知过程。**理论**：将协作比作激光腔，强调相变而非线性增长。**核心**：低于阈值只是发光，高于阈值才能切割钢铁。**启示**：协作需要特定组件（增益介质、泵浦等）配合才能跨越阈值。这为如何有效与 AI 协作提供了新的理论框架，强调相变式突破而非渐进式努力。",
-    "tags": [
-      "Dev",
-      "Theory",
-      "Collaboration"
-    ],
-    "link": "https://solitonmaths.substack.com/p/the-coherent-cavity",
-    "date": "2026-05-06",
-    "id": "17780682608313"
-  },
-  {
-    "title": "编程即工程：AI 时代下的行业正名",
-    "summary": "文章论证编程是真正的工程，AI 的发展进一步证明了这一观点。",
-    "detail": "**背景**：编程社区常自我怀疑是否属于“真正工程”。**观点**：AI 证明了编程的独特性，如低成本重构。**对比**：传统工程无法像代码一样通过文本文件快速重建建筑。**意义**：编程流程是对不可变性的反应，而 AI 增强了这种灵活性。行业应认可编程的工程地位，利用 AI 特性优化流程，而非盲目模仿传统工程形式。",
-    "tags": [
-      "Dev",
-      "Industry",
-      "Opinion"
-    ],
-    "link": "https://jerf.org/iri/post/2026/programming_is_engineering/",
-    "date": "2026-05-06",
-    "id": "17780682608314"
   }
 ]
