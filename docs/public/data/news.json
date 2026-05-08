@@ -1,5 +1,96 @@
 [
   {
+    "title": "哲学论文：AI 无法实例化意识",
+    "summary": "新论文论证 AI 仅能模拟意识而非实例化。",
+    "detail": "Alexander Lerchner 在 PhilArchive 发表论文，提出“抽象谬误”概念。研究认为 AI 系统虽能模拟意识行为，但无法真正实例化意识。这对 AI 伦理及强人工智能定义产生深远影响，引发哲学界与科技界对 AI 本质能力的重新思考。该观点挑战了当前功能主义视角，强调意识体验的主观性不可计算，为 AI 安全边界提供哲学依据，警示业界勿过度拟人化 AI 系统，避免错误赋予 AI 道德地位。",
+    "tags": [
+      "Dev",
+      "Philosophy",
+      "Research"
+    ],
+    "link": "https://philarchive.org/rec/LERTAF",
+    "date": "2026-05-08",
+    "id": "17782681060140"
+  },
+  {
+    "title": "实证研究：AI 生成代码的技术债务",
+    "summary": "大规模研究揭示 AI 生成代码隐含的技术债务风险。",
+    "detail": "arXiv 新论文通过大规模实证研究，分析了野生环境中 AI 生成代码的质量。研究发现虽然 AI 提升了编码速度，但引入了显著的技术债务，包括维护困难和潜在漏洞。开发者需警惕过度依赖 AI coding 工具，加强代码审查与重构流程。长期来看，低质量代码积累可能拖累系统演进，企业需建立专门的 AI 代码质量评估体系，平衡效率与技术可持续性，确保软件生命周期健康。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Research"
+    ],
+    "link": "https://arxiv.org/abs/2603.28592",
+    "date": "2026-05-08",
+    "id": "17782681060141"
+  },
+  {
+    "title": "IatroBench：AI 安全措施的反向伤害",
+    "summary": "新基准测试显示某些 AI 安全措施可能造成医源性伤害。",
+    "detail": "arXiv 发布 IatroBench 基准，提供预注册证据表明部分 AI 安全措施反而导致系统性伤害。研究强调了安全对齐过程中的复杂性，盲目施加限制可能削弱模型效用或引发新风险。这对 AI 安全策略制定提出了更精细化的要求，需平衡安全与性能。该研究呼吁采用实证方法评估安全干预措施，避免“为了安全而安全”导致的副作用，推动 AI 治理向科学化方向发展。",
+    "tags": [
+      "Dev",
+      "Safety",
+      "Research"
+    ],
+    "link": "https://arxiv.org/abs/2604.07709",
+    "date": "2026-05-08",
+    "id": "17782681060142"
+  },
+  {
+    "title": "AWS 开源可信远程执行工具 Rex",
+    "summary": "AWS 推出策略强制脚本运行时，保障 AI 代理安全。",
+    "detail": "AWS 开源博客宣布推出 Trusted Remote Execution (Rex)。该工具使用 Rhai 语言编写脚本，并通过 Cedar 策略授权每个系统操作。旨在解决 AI 代理自主执行脚本时的安全风险，确保操作符合预定义策略。为生产环境中 AI 代理的权限管理提供了新的安全范式。通过分离脚本逻辑与授权策略，Rex 降低了代理误操作风险，适合需要高安全合规性的企业级 AI 自动化场景。",
+    "tags": [
+      "Dev",
+      "AWS",
+      "Security"
+    ],
+    "link": "https://aws.amazon.com/blogs/opensource/introducing-trusted-remote-execution-policy-enforced-scripts-for-ai-agents-and-humans/",
+    "date": "2026-05-08",
+    "id": "17782681060143"
+  },
+  {
+    "title": "Cloudflare：AI 导致 1100 个岗位过时",
+    "summary": "Cloudflare 称 AI 使 1100 个工作岗位过时，营收创新高。",
+    "detail": "TechCrunch 报道 Cloudflare 最新财报会议内容。尽管公司营收创下历史新高，但 CEO 表示 AI 技术已使 1100 个原有工作岗位变得过时。这反映了 AI 对企业人力资源结构的实质性冲击，即便在业务增长期，自动化替代效应依然显著。此案例表明 AI 不仅是增效工具，更是结构性变革力量，引发行业对未来就业市场走向及技能转型的深层关注与讨论，企业需重视员工再培训。",
+    "tags": [
+      "News",
+      "Industry",
+      "Jobs"
+    ],
+    "link": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
+    "date": "2026-05-08",
+    "id": "17782681060144"
+  },
+  {
+    "title": "SafeSandbox：AI 编码代理的无限撤销",
+    "summary": "新开源工具为 Cursor 等 AI 编码代理提供无限撤销功能。",
+    "detail": "GitHub 上新开源项目 SafeSandbox，专为 Cursor、Claude Code 等 AI 编码代理设计。它提供“无限撤销”能力，允许开发者安全地回滚 AI 生成的代码更改。解决了 AI 编程中误操作难以恢复的痛点，提升了 AI 辅助开发的安全性与可控性，适合高风险开发环境。该工具降低了尝试 AI 生成代码的心理门槛，鼓励开发者更广泛地集成 AI 工作流，同时保留最终控制权。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "OpenSource"
+    ],
+    "link": "https://github.com/Baukaalm/safesandbox",
+    "date": "2026-05-08",
+    "id": "17782681060145"
+  },
+  {
+    "title": "特朗普 AI 政策转向严格监管",
+    "summary": "报道指特朗普政府从放任转向严格监管 AI 政策。",
+    "detail": "The Register 报道美国前总统特朗普的 AI 政策发生重大转变。从早期的“放任自流”态度转变为支持“严格监管”。这一政策转向可能影响全球 AI 治理格局，预示着未来美国联邦层面将出台更严格的 AI 合规要求。科技企业需提前准备应对潜在的监管收紧趋势，特别是在数据隐私、模型透明度及责任归属方面，政策不确定性可能影响 AI 投资与创新节奏。",
+    "tags": [
+      "News",
+      "Policy",
+      "Regulation"
+    ],
+    "link": "https://www.theregister.com/ai-and-ml/2026/05/08/trump-jumps-from-anything-goes-to-strict-regulation-ai-policy/5234687",
+    "date": "2026-05-08",
+    "id": "17782681060146"
+  },
+  {
     "title": "PostDew：消除 AI 味的 LinkedIn 发文工具",
     "summary": "专为创始人设计，生成自然风格的 LinkedIn 帖子，去除 AI 痕迹。",
     "detail": "PostDew 是一款针对 LinkedIn 内容创作的 AI 工具，旨在解决 AI 生成内容同质化严重的问题。它通过“生成 + 人性化”两步走策略，先撰写帖子再剥离 AI 特有的填充词和机器人节奏，确保内容听起来像真人撰写。产品目前处于私人测试阶段，提供每月 3 美元起的订阅服务，支持一键发布。适合希望保持个人品牌独特性的创始人使用，避免内容听起来像模板，解决创作者痛点，提供免费演示生成。",
@@ -1207,96 +1298,5 @@
     "link": "https://aion.quest/",
     "date": "2026-05-06",
     "id": "17781048112634"
-  },
-  {
-    "title": "OpenAI 揭秘超级计算机网络架构加速 AI 训练",
-    "summary": "OpenAI 发布 MRC 网络架构，旨在加速大规模 AI 训练效率。",
-    "detail": "OpenAI 详细介绍了其超级计算机网络设计，提出了多平面网络（MRC）方案。通过在数百条路径上喷洒数据包并用源路由替换动态路由，显著提升了训练稳定性。该架构已应用于德克萨斯州由 Oracle 构建的 Stargate 超级计算机。文章解释了为何现有网络设计无法满足需求，以及 MRC 如何通过源路由解决动态路由的局限性。在生产环境中，这种设计能够处理大规模并行训练带来的通信压力。此举标志着 AI 基础设施从单纯算力竞争转向网络效率优化，为未来更大规模模型训练奠定基础。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "OpenAI"
-    ],
-    "link": "https://openai.com/index/mrc-supercomputer-networking/",
-    "date": "2026-05-06",
-    "id": "17780991432980"
-  },
-  {
-    "title": "Shadow：定位 AI Agent 提示词变更引发的故障",
-    "summary": "开源工具 Shadow 帮助开发者追踪 AI Agent 行为合同与提示词问题。",
-    "detail": "GitHub 新项目 Shadow 专为 AI Agent 调试设计，通过行为合同机制帮助开发者精准定位哪次提示词更改导致了 Agent 行为异常。支持 Rust 和 Python，提供版本控制和规范定义。其核心功能是找出确切导致问题的提示词变更，帮助团队维护 Agent 行为的一致性。随着 AI Agent 应用增多，可观测性和调试成为痛点，该工具为开发者提供了标准化解决方案，有助于提升 Agent 生产环境的可靠性。项目包含 CI/CD 工作流支持，版本号为 3.1.2，采用 Apache 2.0 许可证。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "OpenSource"
-    ],
-    "link": "https://github.com/manav8498/Shadow",
-    "date": "2026-05-06",
-    "id": "17780991432981"
-  },
-  {
-    "title": "揭秘 Bolt.new 背后技术栈：WebContainers 与 Rails",
-    "summary": "Evil Martians 披露 Bolt.new 基于维护 4 年的 Rails 应用与 WebContainers。",
-    "detail": "StackBlitz 团队背后的 Evil Martians 透露，爆火的 AI 应用构建器 Bolt.new 核心运行在维护了 4 年的 Rails 应用上，并结合 WebContainers 技术。WebContainers 允许在浏览器沙箱中运行 Node.js 等服务端软件。结合 Claude 3.5 后，用户无需 IDE 即可通过提示词生成运行应用。这揭示了 AI 产品成功往往依赖成熟的基础设施而非全新架构。Bolt 估值达 7 亿美元，拥有 500 万用户，从爱好者工具转型为企业级解决方案。团队自 2021 年起合作，扩展平台至 500 万用户。市场最初未接受浏览器开发，但 AI 改变了局面。",
-    "tags": [
-      "New",
-      "WebDev",
-      "AI Product"
-    ],
-    "link": "https://twitter.com/evilmartians/status/2052052208523305408",
-    "date": "2026-05-06",
-    "id": "17780991432982"
-  },
-  {
-    "title": "Zed 编辑器回应 AI 功能盈利质疑：不为钱做 AI",
-    "summary": "Zed 博客澄清 AI 功能并非只为盈利，强调令牌计费与商业版策略。",
-    "detail": "针对用户质疑 Zed 聚焦 AI 是为了赚钱，官方博客回应称早期甚至补贴 AI 使用成本。目前采用令牌计费加 10% markup 覆盖基础设施。长期计划通过 Zed for Business 实现商业化，提供团队管理与权限控制。文章反映了 AI 编辑器在经济模型上的探索，即如何在补贴用户获取与可持续盈利之间找到平衡，避免成为廉价 LLM 访问通道。他们最近发布了 Parallel Agents 功能，用户反馈良好但存在误解。作者强调他们仍是需要盈利的企业，短期推出商务版，长期将货币化其他功能。",
-    "tags": [
-      "News",
-      "Editor",
-      "Business Model"
-    ],
-    "link": "https://zed.dev/blog/not-building-ai-for-the-money",
-    "date": "2026-05-06",
-    "id": "17780991432983"
-  },
-  {
-    "title": "行业反思：并非所有软件都需要 AI 化",
-    "summary": "观点文章指出确定性软件仍具价值，反对盲目 AI 代理化。",
-    "detail": "文章批评了当前 SaaS 行业盲目追求 AI 代理化的趋势。作者认为，虽然生成式 AI 提供了灵活性，但许多日常工具需要的是确定性而非智能。电子表格和认证服务必须保持“无聊”且可靠。这反映了行业对 AI 过度炒作的反思，提示企业在引入 AI 时需区分场景，保留确定性流程以保证核心业务的稳定性与用户信任。硬件是硬编码的智能，软件更灵活，而生成式 AI 灵活性高但确定性低。每个人都在预言 SaaS 的灭亡，但原因并非 AI 代理取代工具，而是 AI 化版本变得不可靠。",
-    "tags": [
-      "News",
-      "Analysis",
-      "SaaS"
-    ],
-    "link": "https://ogirardot.writizzy.com/p/not-everything-is-ai-or-agents",
-    "date": "2026-05-06",
-    "id": "17780991432984"
-  },
-  {
-    "title": "SpaceX 拟斥资 1190 亿美元在德州建设芯片工厂",
-    "summary": "SpaceX 计划建造 Terafab 芯片厂，巨额投入凸显硬件自主趋势。",
-    "detail": "SpaceX 计划在德州投资高达 1190 亿美元建设名为 Terafab 的芯片工厂，旨在实现芯片制造自主化。此举表明科技巨头正加速垂直整合，减少对外部供应链依赖，确保算力供应安全。对于 AI 行业而言，算力硬件的自主可控成为竞争关键，可能改变全球芯片制造格局，加剧硬件军备竞赛，推动边缘计算与专用芯片发展，降低对传统半导体厂商的依赖。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Investment"
-    ],
-    "link": "https://techcrunch.com/2026/05/06/spacex-may-spend-up-to-119-billion-on-terafab-chip-factory-in-texas/",
-    "date": "2026-05-06",
-    "id": "17780916008041"
-  },
-  {
-    "title": "NVIDIA 发布 Spectrum-X MRC 协议优化千兆级 AI 网络",
-    "summary": "新 RDMA 传输协议旨在提升大规模 AI 集群通信效率。",
-    "detail": "NVIDIA 推出 Spectrum-X MRC，这是一种专为千兆级 AI 设计的自定义 RDMA 传输协议。该技术旨在解决大规模集群中的通信瓶颈，显著提升训练和推理效率。对于构建超大规模 AI 基础设施的开发者而言，这是优化网络性能的关键技术更新，有助于降低延迟并提高吞吐量，支撑下一代万亿参数模型的高效运行与部署，解决分布式训练中的通信障碍。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "Nvidia"
-    ],
-    "link": "https://www.servethehome.com/nvidia-spectrum-x-mrc-is-the-custom-rdma-transport-protocol-for-gigascale-ai/",
-    "date": "2026-05-06",
-    "id": "17780916008042"
   }
 ]
