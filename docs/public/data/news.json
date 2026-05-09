@@ -1,5 +1,31 @@
 [
   {
+    "title": "OncoAgent：隐私保护型肿瘤临床决策多智能体框架",
+    "summary": "Hugging Face 发布开源肿瘤 AI 框架，结合双 tier LLM 与 LangGraph。",
+    "detail": "OncoAgent 是一个开源的隐私保护临床决策支持系统，专为肿瘤学设计。它采用双层微调 LLM 架构，结合 LangGraph 多智能体拓扑和四阶段 Corrective RAG pipeline，覆盖 70+ 医师级 NCCN 和 ESMO 指南。系统通过复杂度评分将查询路由至 9B 速度优化模型或 27B 深度推理模型，均经 QLoRA 微调。三层反射安全验证器执行严格的零 PHI 政策，基于 26 万 + 真实数据训练。这展示了垂直领域 AI 代理在医疗隐私与准确性平衡上的最新进展，为医疗 AI 落地提供了新的技术参考路径与开源范式。",
+    "tags": [
+      "Dev",
+      "Healthcare",
+      "Multi-Agent"
+    ],
+    "link": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper",
+    "date": "2026-05-09",
+    "id": "17783535246380"
+  },
+  {
+    "title": "AI 应用新趋势：双向数据访问权成个人栈核心",
+    "summary": "开发者分享为适配 AI 双向交互，将笔记与财务应用转向开源方案。",
+    "detail": "文章探讨了 AI 时代个人软件栈的演变，强调 AI 需要直接双向访问数据。作者为实现此目标，将笔记应用从 Bear 迁至 Obsidian，财务应用从 YNAB 迁至自研 Moneten。核心痛点在于传统应用如 Bear 存储于 SQLite 但不支持程序化写入，阻碍 AI 交互。这反映了 MCP 等协议推动下，用户对 AI 直接操作本地数据的需求日益增长。无论是非结构化笔记还是结构化财务数据，私有化部署与数据主权成为关键趋势，推动开发者转向支持 API 或本地文件访问的开源方案。",
+    "tags": [
+      "Dev",
+      "Personal AI",
+      "MCP"
+    ],
+    "link": "https://matthiasplappert.com/blog/2026/ai-wants-direct-data-access/",
+    "date": "2026-05-09",
+    "id": "17783535246381"
+  },
+  {
     "title": "围棋界反思：AI 如何削弱人类棋手自主性",
     "summary": "LessWrong 文章探讨 AlphaGo 后围棋文化变化及作弊争议。",
     "detail": "文章作为 MATS 9.1 扩展计划的一部分，回顾 2016 年 AlphaGo 击败李世石事件，指出围棋文化未像国际象棋那样完全分离，人类围棋仍具戏剧性价值。但 2018 年欧洲团队锦标赛出现 AI 作弊指控，显示和谐表象下的裂痕。核心观点在于人类棋手过度依赖 AI 评估，可能导致自身能力“被剥夺”。这反映了 AI 在专业领域渗透后的伦理与文化挑战，不仅限于技术胜负，更关乎人类参与的主体性。相比象棋，围棋界正经历独特的文化适应期，AI 辅助与人类自主性的平衡成为关键议题，引发对 AI 依赖性的深层思考。",
@@ -1272,31 +1298,5 @@
     "link": "https://www.latimes.com/business/story/2026-05-07/california-tech-company-cloudflare-to-lay-off-more-than-1-000-workers-cites-ai",
     "date": "2026-05-07",
     "id": "17783075301020"
-  },
-  {
-    "title": "前沿 AI 防御：网络安全新纪元",
-    "summary": "Palo Alto Networks 发布前沿 AI 防御策略，应对新型安全威胁。",
-    "detail": "Palo Alto Networks 发布了关于“前沿 AI 防御”的安全博客，标志着网络安全进入新纪元。随着 AI 模型能力的提升，传统防御手段面临挑战。该文章可能探讨了如何利用 AI 技术对抗 AI 驱动的威胁，以及企业如何构建针对前沿模型的安全防护体系。这对于关注企业级 AI 安全落地的团队具有重要的指导意义。",
-    "tags": [
-      "News",
-      "Security",
-      "Enterprise"
-    ],
-    "link": "https://www.paloaltonetworks.com/blog/2026/05/frontier-ai-defense/",
-    "date": "2026-05-07",
-    "id": "17782742186843"
-  },
-  {
-    "title": "Cloudflare 裁员 1100 人转向代理 AI 时代",
-    "summary": "Cloudflare 宣布裁员 1100 人，股价下跌 18%，全力备战代理 AI 时代。",
-    "detail": "据 Business Insider 报道，Cloudflare 宣布裁员 1100 人（约占员工总数 20%），消息公布后股价大跌 18%。公司明确表示这是为了适应“代理 AI 时代”（agentic AI era）的战略转型，旨在优化成本结构。此举反映了科技巨头在 AI 效率提升背景下，通过缩减人力成本来优化利润结构的趋势。分析师指出，若 AI 真能带来两倍效率，企业应扩大产出而非单纯裁员，这引发了关于 AI 规模化能力及未来人力需求的行业深度讨论，标志着 AI 从工具向战略核心的转变，行业洗牌加剧，传统人力模型面临重构。",
-    "tags": [
-      "News",
-      "Layoffs",
-      "Strategy"
-    ],
-    "link": "https://www.businessinsider.com/cloudflare-announces-1100-layoffs-amid-ai-focus-shift-2026-5",
-    "date": "2026-05-07",
-    "id": "17781952659650"
   }
 ]
