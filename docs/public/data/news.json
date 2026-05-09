@@ -1,5 +1,70 @@
 [
   {
+    "title": "安全预警：ClaudeBleed 漏洞允许扩展控制 AI 助手",
+    "summary": "Chrome 扩展可接管 Anthropic 助手，存在安全隐患。",
+    "detail": "**背景**：CyberInsider 最新报道披露名为\"ClaudeBleed\"的严重安全漏洞，引发社区广泛关注。**核心**：该漏洞允许任意 Chrome 扩展程序完全控制 Anthropic 的 AI 助手，潜在风险包括窃取敏感对话数据、注入恶意提示或执行未授权操作。**影响**：此举凸显了 AI 助手与浏览器深度集成时的安全隐患，用户需警惕扩展权限，厂商需紧急修复集成接口以防止滥用，确保用户数据安全与隐私保护。此事件可能促使浏览器与 AI 厂商重新审视权限模型，加强沙箱隔离机制，避免类似跨组件攻击再次发生，保障生态安全。",
+    "tags": [
+      "News",
+      "Security",
+      "Anthropic"
+    ],
+    "link": "https://cyberinsider.com/claudebleed-allows-any-chrome-extension-to-control-anthropics-ai-assistant/",
+    "date": "2026-05-09",
+    "id": "17783595966490"
+  },
+  {
+    "title": "Mirage：为 AI 代理打造的统一虚拟文件系统",
+    "summary": "支持 Bash 操作多格式数据，打通异构系统管道。",
+    "detail": "**背景**：Strukto 推出 Mirage，旨在解决 AI 代理在复杂数据环境中的访问难题。**核心**：提供统一虚拟文件系统，支持 Bash 命令直接操作 parquet、csv 等格式，可管道化连接 S3、Google Drive 等异构后端。**影响**：简化 Agent 开发，实现跨系统数据流处理，提升代理工作空间效率。开发者无需编写特定适配器，即可通过标准 Unix 工具链处理多源数据，大幅降低工程复杂度，推动 Agent 在企業级数据场景的落地应用。这种统一抽象层让 AI 能像操作本地文件一样操作云资源。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Infrastructure"
+    ],
+    "link": "https://www.strukto.ai/mirage",
+    "date": "2026-05-09",
+    "id": "17783595966491"
+  },
+  {
+    "title": "Mlx-code：基于 Apple MLX 的本地 Mac 编码代理",
+    "summary": "轻量级本地推理，强调可控性与快速反馈循环。",
+    "detail": "**背景**：开发者发布开源项目 mlx-code，专为 Mac 用户设计的轻量级编码代理。**核心**：基于 Apple MLX 框架，实现快速本地推理与提示缓存，采用终端交互而非复杂 UI，强调完全可控。**影响**：倡导“后院棚屋”理念，强调开发者对工具的完全控制与透明性，适合隐私敏感场景。通过紧密的反馈循环提升编码效率，避免云端依赖，为本地 AI 开发工具链提供了新的参考范式，适合极客与隐私倡导者。它证明了本地模型在特定任务上的实用性与低成本优势。",
+    "tags": [
+      "Dev",
+      "Local AI",
+      "Open Source"
+    ],
+    "link": "https://github.com/JosefAlbers/mlx-code",
+    "date": "2026-05-09",
+    "id": "17783595966492"
+  },
+  {
+    "title": "Color 虚拟诊所获 ASCO 认证，AI 赋能癌症护理",
+    "summary": "全球首家获认证虚拟肿瘤诊所，聚焦护理交付革命。",
+    "detail": "**背景**：Color 成为首家获 ASCO 认证的虚拟肿瘤诊所，标志 AI 医疗落地新里程碑。**核心**：AI 革命不仅在药物发现，更在于筛查、诊断与治疗管理的交付流程优化，解决资源分配问题。**影响**：标志 AI 在医疗落地进入新阶段，解决医疗资源分配与患者管理效率问题，降低癌症死亡率。通过技术优先、AI 驱动的世界重塑癌症管理方式，证明 AI 在现有科学交付层面的巨大潜力，而非仅依赖新药研发。这为数字医疗平台提供了合规化发展的新路径参考。",
+    "tags": [
+      "News",
+      "Healthcare",
+      "Application"
+    ],
+    "link": "https://color.com/blog/ai-revolution-in-cancer-care-delivery/",
+    "date": "2026-05-09",
+    "id": "17783595966493"
+  },
+  {
+    "title": "行业洞察：AI 时代的下一个最大护城河是组织",
+    "summary": "产品易复制，唯有组织创新与人才体系难以模仿。",
+    "detail": "**背景**：Jaya Gupta 撰文分析 AI 竞争格局，指出技术趋同下的新挑战。**核心**：随着模型与界面趋同，技术优势易被复制，真正的护城河在于组织形式、人才吸引与判断力集中。**影响**：提醒创业者关注机构创新，构建围绕人才的复合系统，而非单纯依赖技术壁垒。公司形态本身成为护城河，创造新型组织以适应新型工作，这使得 enduring 的竞争优势回归到人与制度的结合上。在快速变化的 AI 时代，组织韧性比单一技术突破更具长期价值。",
+    "tags": [
+      "News",
+      "Strategy",
+      "Industry"
+    ],
+    "link": "https://twitter.com/JayaGup10/status/2052870394093408558",
+    "date": "2026-05-09",
+    "id": "17783595966494"
+  },
+  {
     "title": "OncoAgent：隐私保护型肿瘤临床决策多智能体框架",
     "summary": "Hugging Face 发布开源肿瘤 AI 框架，结合双 tier LLM 与 LangGraph。",
     "detail": "OncoAgent 是一个开源的隐私保护临床决策支持系统，专为肿瘤学设计。它采用双层微调 LLM 架构，结合 LangGraph 多智能体拓扑和四阶段 Corrective RAG pipeline，覆盖 70+ 医师级 NCCN 和 ESMO 指南。系统通过复杂度评分将查询路由至 9B 速度优化模型或 27B 深度推理模型，均经 QLoRA 微调。三层反射安全验证器执行严格的零 PHI 政策，基于 26 万 + 真实数据训练。这展示了垂直领域 AI 代理在医疗隐私与准确性平衡上的最新进展，为医疗 AI 落地提供了新的技术参考路径与开源范式。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.wsj.com/tech/ai/trump-ai-anthropic-mythos-regulation-2378971f",
     "date": "2026-05-08",
     "id": "17782091314801"
-  },
-  {
-    "title": "罗氏拟 10.5 亿美元收购 PathAI 强化诊断",
-    "summary": "制药巨头罗氏收购 AI 病理公司，加速医疗 AI 诊断工具商业化。",
-    "detail": "制药巨头罗氏宣布将以最高 10.5 亿美元收购 AI 病理公司 PathAI。此举旨在增强其 AI 诊断工具组合，加速医疗 AI 商业化落地。并购显示传统药企正积极整合 AI 技术以提升研发效率与诊断精度。医疗 AI 赛道并购活动升温，表明行业从技术验证迈向规模化应用，病理诊断将成为 AI 落地的重要场景。",
-    "tags": [
-      "News",
-      "Healthcare",
-      "M&A"
-    ],
-    "link": "https://www.wsj.com/business/deals/roche-to-buy-pathai-for-up-to-1-05-billion-to-bolster-ai-diagnostics-tools-0b4575ee",
-    "date": "2026-05-08",
-    "id": "17782091314802"
-  },
-  {
-    "title": "Netflix 测试原生 AI 语音搜索功能",
-    "summary": "Netflix 测试 AI 语音搜索，支持自然语言推荐，绕过电视系统助手。",
-    "detail": "Netflix 正在测试基于 AI 的原生语音搜索功能，用户可通过自然语言如“我想哭一场”获取推荐。该功能绕过电视系统自带助手，直接整合流媒体内容库。这表明内容平台正深化 AI 交互体验，争夺用户入口控制权。通过提升内容发现效率，Netflix 试图在竞争激烈的流媒体市场中保持用户粘性与活跃度。",
-    "tags": [
-      "New",
-      "Product",
-      "Search"
-    ],
-    "link": "https://www.lowpass.cc/p/ask-netflix-ai-voice-search",
-    "date": "2026-05-08",
-    "id": "17782091314803"
-  },
-  {
-    "title": "研究称短时使用 AI 可能降低认知能力",
-    "summary": "WIRED 报道研究显示仅使用 10 分钟 AI 可能导致变懒变笨。",
-    "detail": "WIRED 报道的一项研究显示，短时间使用 AI 可能对问题解决能力产生负面影响。研究指出过度依赖 AI 可能导致认知惰性。这引发了关于人机协作边界的教育与心理学讨论，提示用户在享受便利时需保持批判性思维。随着 AI 普及，如何平衡效率与人类认知能力保留将成为社会关注焦点。",
-    "tags": [
-      "News",
-      "Research",
-      "Society"
-    ],
-    "link": "https://www.wired.com/story/using-ai-negative-impact-thinking-problem-solving-study/",
-    "date": "2026-05-08",
-    "id": "17782091314804"
-  },
-  {
-    "title": "观点：IDE 应演变为 AI 的操作系统",
-    "summary": "文章主张现代 IDE 需成为可编程的 AI 操作表面，支持代理工作流。",
-    "detail": "文章提出现代 IDE 应演变为 AI 的操作系统，而非仅增强侧边栏。所有开发表面（终端、日志、测试）都应可被 AI 代理寻址和操作。这要求开发环境具备更高的灵活性与状态可 inspect 性，以适应 Agent 驱动的开发工作流。未来 IDE 将不仅是代码编辑器，而是管理 AI 代理协作与状态的核心枢纽。",
-    "tags": [
-      "Dev",
-      "IDE",
-      "Agent"
-    ],
-    "link": "https://avkcode.github.io/blog/ide-operating-system-ai.html",
-    "date": "2026-05-08",
-    "id": "17782091314805"
-  },
-  {
-    "title": "Cloudflare 裁员千人并归因于 AI 技术",
-    "summary": "Cloudflare 宣布裁员超 1000 人，明确表示 AI 自动化是主要原因之一。",
-    "detail": "加州科技巨头 Cloudflare 正式宣布裁员超过 1000 名员工，并在官方声明中直接引用 AI 技术作为此次结构调整的核心动因。这一事件标志着 AI 技术正从辅助工具转向替代人力的关键转折点，引发行业对就业市场的广泛担忧。洛杉矶时报报道指出，这反映了科技企业通过 AI 优化成本结构的趋势，可能促使更多公司重新评估人力配置与自动化边界。此案例将成为研究 AI 对劳动力市场冲击的重要样本，建议从业者关注技能转型。此外，这也可能引发监管层对 AI 替代人类工作的伦理与法律审查，影响未来科技政策走向。",
-    "tags": [
-      "News",
-      "Layoffs",
-      "AI Impact"
-    ],
-    "link": "https://www.latimes.com/business/story/2026-05-07/california-tech-company-cloudflare-to-lay-off-more-than-1-000-workers-cites-ai",
-    "date": "2026-05-07",
-    "id": "17783075301020"
   }
 ]
