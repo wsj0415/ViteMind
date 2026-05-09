@@ -1,5 +1,44 @@
 [
   {
+    "title": "围棋界反思：AI 如何削弱人类棋手自主性",
+    "summary": "LessWrong 文章探讨 AlphaGo 后围棋文化变化及作弊争议。",
+    "detail": "文章作为 MATS 9.1 扩展计划的一部分，回顾 2016 年 AlphaGo 击败李世石事件，指出围棋文化未像国际象棋那样完全分离，人类围棋仍具戏剧性价值。但 2018 年欧洲团队锦标赛出现 AI 作弊指控，显示和谐表象下的裂痕。核心观点在于人类棋手过度依赖 AI 评估，可能导致自身能力“被剥夺”。这反映了 AI 在专业领域渗透后的伦理与文化挑战，不仅限于技术胜负，更关乎人类参与的主体性。相比象棋，围棋界正经历独特的文化适应期，AI 辅助与人类自主性的平衡成为关键议题，引发对 AI 依赖性的深层思考。",
+    "tags": [
+      "News",
+      "AI Ethics",
+      "AlphaGo"
+    ],
+    "link": "https://www.lesswrong.com/posts/nR3DkyivzF4ve97oM/how-go-players-disempower-themselves-to-ai",
+    "date": "2026-05-09",
+    "id": "17783492757090"
+  },
+  {
+    "title": "COLIBRI 概念库文件格式规范发布",
+    "summary": "GitHub 开源项目提出 CLF 格式，旨在分离概念与逻辑。",
+    "detail": "该项目发布了 COLIBRI Concept Library File (CLF) v0.94 预标准草案，旨在定义单一概念的文件格式。核心规则是“概念纯度”，即概念文件仅表达概念是什么，不包含检测逻辑或算法。解释逻辑专属控制层，文件不得暗示任何系统行为。此举旨在建立跨行业共享标准，让意义存在于模型之外。目前格式尚未最终定稿，无实施权利授予，商业使用需单独授权。这为 AI 知识表示提供了一种新的结构化思路，强调控制层与概念层的分离，有助于解决模型幻觉问题，推动标准化进程，需早期采用者共同塑造。",
+    "tags": [
+      "Dev",
+      "Standard",
+      "Knowledge Representation"
+    ],
+    "link": "https://github.com/pekkalepola/colibri-clf",
+    "date": "2026-05-09",
+    "id": "17783492757091"
+  },
+  {
+    "title": "AgentPitch：基于 LLM 的足球智能体模拟引擎",
+    "summary": "开源项目让每个球员成为由 LLM 驱动的 AI 智能体。",
+    "detail": "AgentPitch 是一个完整的足球模拟引擎，场上每个球员都是运行 decide() 回调的 AI 智能体。支持 Python、JavaScript、Rust 多种语言沙箱，兼容 OpenAI、Anthropic 等主流模型。通过 YAML 配置阵型，智能体根据游戏状态、球员状态和历史动作生成决策。沙箱环境设有 100ms 超时限制，确保实时性，代码在 tick 间编译缓存。该项目展示了 LLM 在多智能体协作与实时决策场景下的应用潜力，代码开源且支持自定义扩展，为多智能体系统研究提供了新基准，支持 N v N 任意配置，采用 Apache 2.0 协议。",
+    "tags": [
+      "New",
+      "LLM",
+      "Multi-Agent"
+    ],
+    "link": "https://gangtao.github.io/AgentPitch/",
+    "date": "2026-05-09",
+    "id": "17783492757092"
+  },
+  {
     "title": "MentiSphere：基于 Wiki 的协作 AI 认知平台",
     "summary": "开源实验项目，通过 Wiki 页面构建协作 AI 认知，专家塑造 AI 知识。",
     "detail": "MentiSphere 是一个集体构建的 AI 智能平台，旨在让领域专家通过 Wiki 页面塑造 AI 知识。平台提供多种 Agent 供浏览，如编写 Semgrep 规则、YouTube 总结、LaTeX 写作及 Hackerone 报告等。用户可贡献参考材料供 Agent 使用，实现知识的协作积累。该项目探索了通过结构化知识库增强 AI 认知能力的新路径，适合开发者研究多 Agent 协作与知识管理。其开源实验性质为社区驱动型 AI 发展提供了参考范式，降低了专业知识进入 AI 模型的门槛，促进了垂直领域 AI 能力的快速迭代与共享。",
@@ -1259,44 +1298,5 @@
     "link": "https://www.businessinsider.com/cloudflare-announces-1100-layoffs-amid-ai-focus-shift-2026-5",
     "date": "2026-05-07",
     "id": "17781952659650"
-  },
-  {
-    "title": "OpenAI API 新增语音智能功能",
-    "summary": "OpenAI 推出新语音智能 API 功能，适用于客服、教育及创作者平台。",
-    "detail": "据 TechCrunch 报道，OpenAI 在其 API 中推出了全新的语音智能功能，旨在增强多模态交互能力。除了传统的客户服务系统外，这些功能还广泛应用于教育和创作者平台等领域。这标志着语音交互技术的进一步下沉，开发者可以更便捷地将高质量语音能力集成到应用中。此举不仅提升了用户体验和交互效率，也为构建更自然的 AI 助手奠定了基础，显示了 OpenAI 在巩固其 API 生态系统方面的持续投入，推动语音交互成为标准配置。",
-    "tags": [
-      "News",
-      "API",
-      "Voice"
-    ],
-    "link": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
-    "date": "2026-05-07",
-    "id": "17781952659651"
-  },
-  {
-    "title": "AWS 赋予 AI 代理支付能力",
-    "summary": "AWS 推出 Bedrock AgentCore Payments，允许 AI 代理自主支付 API 和内容费用。",
-    "detail": "AWS 官方博客宣布推出 Amazon Bedrock AgentCore Payments（预览版），与 Coinbase 和 Stripe 合作。该功能允许 AI 代理在执行任务时自主发现、评估并支付所需的网络内容或 API 服务。这是“代理经济”基础设施的关键一步，解决了代理自主交易中的计费、合规和安全难题。早期协议如 x402 正在探索此领域，但基础设施尚缺。开发者无需再构建复杂的计费关系，加速了 autonomous agents 的商业化落地，预示着软件消费模式将从人类主导转向代理主导，生态变革在即。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Infrastructure"
-    ],
-    "link": "https://aws.amazon.com/blogs/machine-learning/agents-that-transact-introducing-amazon-bedrock-agentcore-payments-built-with-coinbase-and-stripe/",
-    "date": "2026-05-07",
-    "id": "17781952659652"
-  },
-  {
-    "title": "Disputron：AI 驱动的微型法庭",
-    "summary": "Show HN 项目 Disputron 上线，利用 AI 仲裁日常琐碎纠纷。",
-    "detail": "Disputron 是一个基于 AI 的“小额索赔法庭”，旨在仲裁日常生活中的琐碎纠纷。用户可提交案例，AI 将根据提供的证据做出裁决并记录在案，案例包括“朋友未兑现承诺”、“游戏争议”甚至“伴侣藏巧克力”等。虽然带有娱乐性质，但展示了 AI 在逻辑推理、仲裁及社区治理方面的潜在应用场景。作为 Show HN 热门新品，它反映了 AI 应用正从生产力工具向生活化、趣味化场景延伸的趋势，探索了 AI 在社会微现层面的调解能力。",
-    "tags": [
-      "New",
-      "Product Hunt",
-      "LegalTech"
-    ],
-    "link": "https://disputron.ai",
-    "date": "2026-05-07",
-    "id": "17781952659653"
   }
 ]
