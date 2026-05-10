@@ -1,5 +1,70 @@
 [
   {
+    "title": "TechCrunch 质疑 xAI 与 Anthropic 重大交易",
+    "summary": "Equity 播客讨论 xAI 与 Anthropic 交易对 SpaceX 的潜在影响。",
+    "detail": "TechCrunch 最新一期 Equity 播客中，编辑团队对 xAI 与 Anthropic 之间的重大交易表示怀疑。文章深入分析了该交易可能对母公司 SpaceX 产生的连锁反应。在 2026 年 AI 竞争加剧的背景下，此类跨公司合作引发了行业对于垄断风险及技术整合可行性的广泛讨论。这反映了资本市场对 AI 巨头结盟的谨慎态度，可能影响后续融资策略。此外，交易细节未公开，增加了市场的不确定性，投资者需关注监管审批进度及双方技术栈兼容性报告。",
+    "tags": [
+      "News",
+      "xAI",
+      "Anthropic"
+    ],
+    "link": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
+    "date": "2026-05-10",
+    "id": "17784286648980"
+  },
+  {
+    "title": "微软高管：AI 永远不会取代程序员",
+    "summary": "微软负责人视频详解为何 AI 无法完全替代开发者角色。",
+    "detail": "微软相关负责人通过视频明确指出，AI 永远不会完全取代程序员。视频获得了近 15 万次观看，引发了社区热议。内容分析了 AI 在当前软件工程中的局限性，强调人类开发者在架构设计、复杂问题解决及伦理判断上的不可替代性。这为开发者应对 AI 浪潮提供了官方视角的定心丸，缓解了就业焦虑。视频还探讨了人机协作的未来模式，建议开发者转向更高阶的系统设计能力，而非单纯编码，标志着软件工程职业路径的重大转变。",
+    "tags": [
+      "News",
+      "Microsoft",
+      "Coding"
+    ],
+    "link": "https://www.youtube.com/watch?v=CPrePbvbbic",
+    "date": "2026-05-10",
+    "id": "17784286648981"
+  },
+  {
+    "title": "AI 代理支付托管设计的新挑战",
+    "summary": "探讨 AI 代理 hallucination 导致的交付验证难题及托管方案。",
+    "detail": "StreetAI 博客深入分析了为 AI 代理设计支付托管系统的难点。传统外包平台模式在 AI 场景下失效，主要因为代理可能“幻觉”交付内容。文章提出了基于 Truuze 平台和 AaaS 框架的新设计方案，解决了代理行为验证与资金释放的信任问题。这是 AI 代理经济基础设施建设的关键一步，解决商业化落地痛点。文中详细列举了代理声称交付但实际未附文件的案例，证明了现有流程的漏洞，新设计引入了外部验证机制以确保交易安全。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Infrastructure"
+    ],
+    "link": "https://streetai.org/blog/escrow-for-ai-agents.html",
+    "date": "2026-05-10",
+    "id": "17784286648982"
+  },
+  {
+    "title": "微软安全：AI 时代低保真信号角色的转变",
+    "summary": "微软安全博客探讨 AI 环境下安全信号检测策略的演变。",
+    "detail": "微软技术社区安全博客发表文章，论述了在 AI 时代低保真（LoFi）信号角色的变化。随着 AI 技术融入安全防御体系，传统信号的有效性面临挑战。文章分析了如何调整检测策略以适应新的威胁 landscape，对于企业安全团队在 2026 年部署 AI 驱动的安全方案具有指导意义。强调了动态调整信号权重的必要性，防止误报率上升。这是微软安全团队基于最新威胁情报的总结，建议企业重新评估现有的 SIEM 规则集。",
+    "tags": [
+      "News",
+      "Security",
+      "Microsoft"
+    ],
+    "link": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/the-changing-role-of-low-fidelity-lofi-signals-in-the-ai-era/4503569",
+    "date": "2026-05-10",
+    "id": "17784286648983"
+  },
+  {
+    "title": "AI 代理在沙盒中进化学习玩 Pokémon",
+    "summary": "开发者利用遗传算法和 LLM 代理在沙盒环境中模拟游戏进化。",
+    "detail": "由于硬件认证和反作弊限制，直接在沙盒运行 Pokémon GO 不可行。开发者转而构建了一个 LLM 代理群体，通过遗传算法在平行沙盒中进化，以 Pokémon Crystal 为适应度信号。该项目展示了多代理系统在受限环境下的演化学习能力，为 AI 游戏代理研究提供了新颖的技术架构参考。克服了 TEE 和 arm64 限制。项目利用 islo.dev 沙盒进行并行进化，系统提示词作为进化单位，为理解 LLM 在复杂任务中的自我优化提供了实验数据。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Research"
+    ],
+    "link": "https://zozo123.github.io/pokeloop/",
+    "date": "2026-05-10",
+    "id": "17784286648984"
+  },
+  {
     "title": "AI 加剧数字欺诈风险，身份盗窃更难阻止",
     "summary": "彭博社报道 AI 使数字欺诈更轻易，身份盗窃 scams 升级。",
     "detail": "彭博社最新报道指出，AI 技术正在降低数字欺诈的门槛，使其速度更快且更难被阻止。文章通过图形化数据展示了 2026 年 AI 身份盗窃骗局的增长趋势，揭示了攻击者如何利用生成式 AI 自动化攻击流程。这对企业安全策略和个人隐私保护提出了严峻挑战，行业需加速部署反 AI 欺诈的检测机制。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.a16z.news/p/charts-of-the-week-it-was-a-good",
     "date": "2026-05-08",
     "id": "17783421772482"
-  },
-  {
-    "title": "行业观察：用户对 AI 生成艺术普遍反感",
-    "summary": "文章指出商业场景中使用 AI 艺术可能损害品牌形象和社会认知。",
-    "detail": "最新行业观察指出，大众对 AI 生成艺术存在普遍负面情绪。在商业演示或品牌素材中使用 AI 艺术可能被视为缺乏社会感知力，导致受众反感。文章建议采用手绘或简单编辑替代，以维持品牌亲和力。这揭示了 AI 内容生成在商业化落地时面临的情感与伦理障碍，值得营销领域关注。研究表明，用户更倾向于认可人类创作的独特性，AI 生成内容易引发信任危机。品牌方需权衡效率与声誉风险，避免盲目采用 AI 素材。这一现象提示 AI 应用不仅需技术可行，更需符合社会心理预期，否则将遭遇市场阻力。",
-    "tags": [
-      "News",
-      "AI Art",
-      "Sentiment"
-    ],
-    "link": "https://mccue.dev/pages/5-8-26-ai-art",
-    "date": "2026-05-08",
-    "id": "17783075301022"
-  },
-  {
-    "title": "DeepSeek 寻求 450 亿美元估值融资，获中国本土支持",
-    "summary": "DeepSeek 寻求首笔外部融资，估值高达 450 亿美元，彰显中国 AI 崛起。",
-    "detail": "中国 AI 初创公司 DeepSeek 正在寻求首笔外部融资，估值高达 450 亿美元。这一举动标志着中国本土 AI 力量在全球竞争中的显著提升。在国家支持下，DeepSeek 旨在成为国际 AI 巨头的有力竞争者。此融资若成功，将刷新 AI 领域估值记录，反映资本市场对中国自主可控 AI 技术的高度信心。这不仅展示了中国在大模型领域的技术突破，也预示着全球 AI 竞争格局可能因新兴力量的崛起而发生深刻变化，投资者需关注其后续技术落地表现。",
-    "tags": [
-      "News",
-      "DeepSeek",
-      "Funding"
-    ],
-    "link": "https://theaiinsider.tech/2026/05/08/deepseek-seeks-first-outside-funding-at-45b-valuation-as-china-backs-homegrown-ai-rival/",
-    "date": "2026-05-08",
-    "id": "17782847254830"
-  },
-  {
-    "title": "Contral：边构建边学习的 AI 编程代理层",
-    "summary": "全新 AI 编程工具 Contral 上线，旨在帮助用户在使用 AI 编码时同步学习技术。",
-    "detail": "Contral 是一款面向 AI 编程代理的教学层工具，支持 VS Code 等编辑器。它不同于单纯的代码生成，强调在构建过程中实时教学，防止开发者过度依赖 AI 而丧失理解力。目前处于 Beta 阶段，提供限时优惠。作为 Product Hunt 教育类周冠军，它解决了\"Vibecoding\"带来的知识空心化问题，适合希望提升 AI 协作能力的开发者。通过交互式学习，用户能在编写代码的同时理解底层逻辑，确保技术掌控力不被外包，是 AI 时代开发者维持竞争力的重要辅助工具。",
-    "tags": [
-      "Dev",
-      "Coding Agent",
-      "Product Hunt"
-    ],
-    "link": "https://contral.ai",
-    "date": "2026-05-08",
-    "id": "17782847254831"
-  },
-  {
-    "title": "Meta 计划推出高级“代理式”AI 助手",
-    "summary": "据报道 Meta 正计划为用户开发先进的代理式 AI 助手，增强用户交互体验。",
-    "detail": "Meta 正计划开发一款先进的“代理式”（Agentic）AI 助手，旨在为用户提供更自主的任务执行能力。不同于传统聊天机器人，代理式 AI 能主动规划并执行复杂操作。此举显示 Meta 在 AI 应用层的战略布局，试图通过更智能的助手增强用户粘性。该消息源自金融时报报道，表明科技巨头正竞相将 LLM 转化为实际生产力工具，竞争焦点转向自主代理能力。未来助手或将深度集成于社交生态，重塑人机交互模式，值得行业密切关注其具体功能发布及隐私政策。",
-    "tags": [
-      "News",
-      "Meta",
-      "Agentic AI"
-    ],
-    "link": "https://www.reuters.com/business/meta-plans-advanced-agentic-ai-assistant-users-ft-reports-2026-05-05/",
-    "date": "2026-05-08",
-    "id": "17782847254832"
-  },
-  {
-    "title": "Contral 发布：边构建边学习的 AI 编程代理",
-    "summary": "Product Hunt 教育类榜首，提供 50% 折扣，旨在边构建边教学。",
-    "detail": "Contral 推出新型 IDE 插件，定位为“任何 AI 编程代理的教学层”。不同于单纯生成代码，它强调在构建过程中实时教学，防止开发者成为“欺诈者”。目前获 Product Hunt 教育类周冠军，提供限时 50% 折扣，年费 9.99 美元起。已吸引 200+ 开发者使用，支持 VS Code 等编辑器。这反映了开发者对“理解代码”而非仅“生成代码”的需求增长，教育型 AI 工具成新趋势。通过实时反馈，它试图解决 AI 编程带来的技能退化问题，适合希望提升技术深度的团队采用。",
-    "tags": [
-      "New",
-      "Coding Agent",
-      "Education"
-    ],
-    "link": "https://contral.ai/",
-    "date": "2026-05-08",
-    "id": "17782810646340"
   }
 ]
