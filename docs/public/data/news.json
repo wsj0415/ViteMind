@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 加剧数字欺诈风险，身份盗窃更难阻止",
+    "summary": "彭博社报道 AI 使数字欺诈更轻易，身份盗窃 scams 升级。",
+    "detail": "彭博社最新报道指出，AI 技术正在降低数字欺诈的门槛，使其速度更快且更难被阻止。文章通过图形化数据展示了 2026 年 AI 身份盗窃骗局的增长趋势，揭示了攻击者如何利用生成式 AI 自动化攻击流程。这对企业安全策略和个人隐私保护提出了严峻挑战，行业需加速部署反 AI 欺诈的检测机制。",
+    "tags": [
+      "News",
+      "Security",
+      "Fraud"
+    ],
+    "link": "https://www.bloomberg.com/graphics/2026-ai-identity-theft-scams/",
+    "date": "2026-05-10",
+    "id": "17784249977930"
+  },
+  {
+    "title": "AI Agent Passport：开源智能体身份标准发布",
+    "summary": "GitHub 开源项目定义 AI 智能体验证、权限与支出限制标准。",
+    "detail": "该项目提出了一种名为'AI Agent Passport'的开放身份标准，旨在解决 AI 智能体（Agents）的信任与安全问题。核心功能包括验证所有权、scoped 权限管理以及强制支出限制。随着 AI 智能体自主执行任务增多，该标准为防止恶意代理操作和失控支出提供了基础架构支持，是 Agent 生态发展的关键基础设施。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://github.com/StacyStarchum/Ai-agent-passport-",
+    "date": "2026-05-10",
+    "id": "17784249977931"
+  },
+  {
+    "title": "72 个 AI 模型品牌推荐基准测试发布",
+    "summary": "PeakToken 测试 72 个模型覆盖 166 类别，追踪品牌推荐趋势。",
+    "detail": "PeakToken 发布了 AI 品牌智能报告，测试了 72 个 AI 模型覆盖 166 个技术类别。数据显示 AWS、Cloudflare 等公司在 AI 推荐中占据主导。该工具允许企业追踪其品牌在 AI 模型中的推荐率，揭示了 AI 训练数据如何反映现实世界的品牌声誉，为品牌优化提供了新的数据维度。",
+    "tags": [
+      "News",
+      "LLM",
+      "Data"
+    ],
+    "link": "https://peaktoken.ai/",
+    "date": "2026-05-10",
+    "id": "17784249977932"
+  },
+  {
+    "title": "训练 AI 代码审查本能：应对速度超越理解",
+    "summary": "Siftly 提出开发者需训练审查 AI 生成代码的新技能。",
+    "detail": "随着开发者从'写代码'转向'审查 AI 代码'，Siftly 指出行业面临'速度超越理解'的风险。审查 AI 生成的代码需要不同的思维肌肉，因为缺乏上下文且代码看似自信却可能错误。该工具旨在帮助开发者训练审查本能，确保在享受 AI 编码效率的同时，不牺牲代码质量和安全性，适应新的协作模式。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Workflow"
+    ],
+    "link": "https://siftly.dev/announcement",
+    "date": "2026-05-10",
+    "id": "17784249977933"
+  },
+  {
+    "title": "Cyber.md：面向 AI 智能体的安全姿态文件",
+    "summary": "Baz 推出 cyber.md 概念，为 AI 开发提供版本化安全指导。",
+    "detail": "针对 AI 智能体自主重构代码带来的安全挑战，Baz 提出了'cyber.md'新概念。这是一个版本化的安全姿态文件，智能体可读取、diff 并应用其中的安全不变量和测试建议。它不同于传统的漏洞报告，而是将安全指导嵌入开发流程，确保在 AI 高速生成代码时，核心安全边界不被突破，适用于 Agent 原生开发环境。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://baz.co/resources/cyber-md-ai-native-posture-that-speaks-agent",
+    "date": "2026-05-10",
+    "id": "17784249977934"
+  },
+  {
     "title": "IEA 报告揭示 AI 能耗真相",
     "summary": "IEA 发布 2025 能源报告，分析 AI 数据中心电力消耗占比。",
     "detail": "国际能源署 (IEA) 最新报告估算 2025 年 AI 能耗数据。目前数据中心占全球电力 1.5%，AI 专用数据中心能耗增长迅速。报告区分了 AI 与非 AI 数据中心能耗，指出中期预测存在不确定性，但为行业能源规划提供了关键基准，引发对 AI 碳足迹的深入讨论。",
@@ -1233,70 +1298,5 @@
     "link": "https://contral.ai/",
     "date": "2026-05-08",
     "id": "17782810646340"
-  },
-  {
-    "title": "行业洞察：AI 如何降低弱工程师的负面影响",
-    "summary": "文章分析 AI 提高了工程师底线，使弱工程师产出更功能性代码。",
-    "detail": "文章指出软件工程能力呈重尾分布，弱工程师常产生负产出。但 Claude Code 等前沿模型改变了这一现状，虽无强工程师的品味，却显著提高了底线。现在最差的代码也是功能性的，而非完全不可用。这改变了技术团队的管理策略，减少了对弱工程师的微观管理成本。AI 并未消除能力差异，但降低了低级错误带来的团队损耗，提升了整体交付基线。对于技术主管而言，这意味着可以更放心地分配任务，但仍需保留核心架构的审查机制。",
-    "tags": [
-      "News",
-      "Engineering",
-      "LLM"
-    ],
-    "link": "https://www.seangoedecke.com/ai-makes-weak-engineers-less-harmful/",
-    "date": "2026-05-08",
-    "id": "17782810646341"
-  },
-  {
-    "title": "Pagaya 投资者索赔：AI 房地产基金亏损 80%",
-    "summary": "投资者寻求 180 万美元退款，指控 AI 基金导致资本大幅蒸发。",
-    "detail": "Pagaya 一名投资者寻求 180 万美元退款，声称其 AI 房地产基金抹去了高达 80% 的资本。该事件凸显了 AI 在金融投资领域应用的风险与争议。虽然 AI 被广泛用于风险评估，但此次巨额亏损引发了对算法决策可靠性的质疑，可能影响后续 AI 金融产品的投资者信心。监管层可能因此加强对 AI 投顾的审查，行业需平衡自动化与人工监督。此案例警示投资者，AI 驱动的高收益承诺背后可能隐藏着模型失效或市场不适配的巨大风险。",
-    "tags": [
-      "News",
-      "Finance",
-      "Risk"
-    ],
-    "link": "https://www.calcalistech.com/ctechnews/article/3a0p63mof",
-    "date": "2026-05-08",
-    "id": "17782810646342"
-  },
-  {
-    "title": "五角大楼：绝不再依赖单一 AI 供应商",
-    "summary": "美国国防部官员表示将采取多供应商策略，避免单一依赖风险。",
-    "detail": "五角大楼官员明确表示，美军将“绝不再”依赖单一 AI 提供商。这一政策转变旨在降低供应链风险和技术锁定问题。此前国防部门可能过度依赖特定厂商，新策略鼓励多元化供应商竞争。这将影响国防 AI 合同分配，为多家 AI 军工企业带来机会，同时强调安全与冗余。此举也暗示政府侧 AI 采购将更注重韧性和互操作性，避免单点故障影响国家安全，推动国防 AI 生态向多极化发展。",
-    "tags": [
-      "News",
-      "Defense",
-      "Policy"
-    ],
-    "link": "https://www.nextgov.com/artificial-intelligence/2026/05/pentagon-will-never-again-rely-single-ai-provider-official-says/413399/",
-    "date": "2026-05-08",
-    "id": "17782810646343"
-  },
-  {
-    "title": "山姆·阿尔特曼：AI 的目的不是取代工作",
-    "summary": "OpenAI CEO 转变口径，称此前关于失业的言论是“语调聋哑”。",
-    "detail": "OpenAI CEO 山姆·阿尔特曼公开声明，AI 的目的不是取代人类工作，并批评其他 AI CEO 宣称 AI 将夺走工作的言论“语调聋哑”。这与他在 2014 年关于“闲置阶级”的警告形成对比。此次信息传递的重大转变可能旨在缓解公众对 AI 失业潮的焦虑，重塑行业叙事，强调辅助而非替代。这标志着 AI 行业从技术炫耀转向社会责任感构建，试图在政策监管收紧前建立更友好的公众形象，稳定劳动力市场预期。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Jobs"
-    ],
-    "link": "https://www.noahpinion.blog/p/ais-big-messaging-pivot",
-    "date": "2026-05-08",
-    "id": "17782810646344"
-  },
-  {
-    "title": "本地活动家 AI：旧手机也能跑的开源模型",
-    "summary": "介绍如何在 3GB 内存手机上部署四层架构的本地活动家 AI 模型。",
-    "detail": "Outcry Research 发布了一种可在旧手机（约 3GB RAM）上运行的四层活动家 AI 栈。该技术组合了量化开源基座模型、QLoRA 适配器、对比激活引导和软提示健康层，无需联网即可推理。该项目为工程师和对齐研究人员提供了参考，展示了如何在资源受限设备上实现本地化、隐私保护的 AI 部署，具有极高的技术参考价值。",
-    "tags": [
-      "Dev",
-      "Local LLM",
-      "Mobile"
-    ],
-    "link": "https://www.outcryai.com/research/how-to-create-activist-ai",
-    "date": "2026-05-08",
-    "id": "17782742186842"
   }
 ]
