@@ -1,5 +1,44 @@
 [
   {
+    "title": "Google Cloud 推出 Cloud Storage Rapid 加速 AI 负载",
+    "summary": "Google Cloud 发布新存储方案，解决 AI 训练与推理中的数据瓶颈。",
+    "detail": "Google Cloud Next '26 宣布 Cloud Storage Rapid，包含 Rapid Bucket 和 Rapid Cache。旨在为 AI 和分析工作负载提供高性能区域对象存储，加速读取并 colocate 计算与数据。解决 GPU/TPU 因存储等待造成的算力浪费，支持万亿参数模型训练及全球规模推理。存储是喂养加速器的引擎，随着模型扩展，存储性能可能成为瓶颈。每次 AI 集群等待数据读取或检查点写入停滞，都在浪费昂贵计算周期。新方案响应组织构建 AI 方式的代际转变，提升数据密集型负载效率。利用 Colossus stateful protocol benefits，优化对象存储性能，确保实时推理响应速度，是 AI 基础设施的重要升级。",
+    "tags": [
+      "News",
+      "Google",
+      "Infrastructure"
+    ],
+    "link": "https://cloud.google.com/blog/products/storage-data-transfer/cloud-storage-rapid-turbocharges-object-storage-for-ai-analytics/",
+    "date": "2026-05-12",
+    "id": "17785402717651"
+  },
+  {
+    "title": "深度解析 AI Scaling 趋势与实验室盈利模式",
+    "summary": "针对 Dwarkesh 提出的 AI 四大关键问题，作者给出深度分析与回答。",
+    "detail": "回应 Dwarkesh Podcast 的征文竞赛，探讨 AI 为何仍在 Scaling、大实验室如何盈利、对齐资源分配及各国如何跟进。作者分析了 RL regime 下的计算效率与进展速度，反驳了进展将放缓的直觉，认为 AI 发展速度甚至可能因新架构（如 Spud, Mythos）而加快。几年前 idea 认为 AI 进展随 RL 深入会放缓，因 horizon 长度增加。但进展似乎很快。作者认为没有单一银弹被忽略，AI 发展复杂。Dwarkesh 是 SF 最具影响力思想家之一，嘉宾包括 CEO 和科学家。文章提供对四大开放问题的深度回答，洞察行业资本与资源分配方向，来自 12grams of carbon 博客，分析 House Amodei 相关话题。",
+    "tags": [
+      "News",
+      "Analysis",
+      "Scaling"
+    ],
+    "link": "https://12gramsofcarbon.com/p/why-is-ai-still-scaling-how-do-the",
+    "date": "2026-05-11",
+    "id": "17785402717653"
+  },
+  {
+    "title": "YC CEO Garry Tan 分享 Meta-Meta-Prompting Agent 架构",
+    "summary": "Garry Tan 公开个人 AI 工作流，展示如何将 AI 作为操作系统使用。",
+    "detail": "Y Combinator CEO Garry Tan 分享其深夜编码成果，提出\"Meta-Meta-Prompting\"概念。他将 AI 视为操作系统而非聊天窗口，展示了“书籍镜像”等具体案例：系统提取章节并运行子代理总结与映射。强调个人 AI 应构建可复合的真实系统，而非玩具项目。这是系列文章一部分，此前介绍了核心架构和路由表。他认为模型是引擎而非汽车。LangChain 提供了健身房但无计划，他提供计划。通过具体示例展示个人 AI 实际形态，开源分享以便他人加速，体现 AI 使技术人员生产力倍增 100 至 1000 倍，改变构建初创公司方式。参考 Pema Chödrön 书籍进行 AI 镜像测试。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "Prompting"
+    ],
+    "link": "https://twitter.com/garrytan/status/2053127519872614419",
+    "date": "2026-05-11",
+    "id": "17785402717654"
+  },
+  {
     "title": "AI 成本失控？Token 预算化管理成新趋势",
     "summary": "随着 AI 成本激增，企业需通过 Token 预算区分研发与生产成本，优化支出效率。",
     "detail": "随着 AI 应用普及，工程团队面临成本爆炸问题。Vantage 指出，类似云基础设施，Token 消耗需进行预算化管理。关键在于区分研发支出与 COGS（销售成本）。企业应将 OpenAI、Anthropic 等账单细化，分析是工程师构建新功能驱动，还是产品服务驱动。通过 granular 的成本分配，判断支出效率，避免盲目付费，确保在 AI 时代的组织运营效率。",
@@ -401,6 +440,19 @@
     "link": "https://stackkit.gumroad.com/l/lhxxik",
     "date": "2026-05-11",
     "id": "17784708205065"
+  },
+  {
+    "title": "打破 AI 工具孤岛：Via 解决上下文失忆问题",
+    "summary": "新工具 Via 旨在连接 Claude、Cursor 等 AI 工具，共享上下文记忆。",
+    "detail": "文章指出当前 AI 工具（Claude, Cursor, ChatGPT）间存在“上下文失忆”，切换工具即丢失记忆。Via 被比喻为“罗马道路”，作为基础设施连接各工具孤岛。强调工具本身强大，但缺乏互联基础设施，Via 试图解决跨工具上下文连续性问题。罗马帝国征服世界因道路使军团移动更快。同样，AI 工具需道路基础设施。每个工具都是城邦，有方言和记忆墙壁。Via 是无聊但必要的道路基础设施，解决上下文遗忘问题，使 AI 堆栈中的工具能共享状态，提升整体工作流效率，避免重复劳动。由 Vektor Memory 提出，旨在连接所有 AI 工具栈，恢复上下文连续性。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "Context"
+    ],
+    "link": "https://medium.com/towards-artificial-intelligence/all-roads-lead-to-ai-rome-1c601f1ec440",
+    "date": "2026-05-10",
+    "id": "17785402717652"
   },
   {
     "title": "AI 编码代理需降低维护成本而非仅提升速度",
@@ -1246,57 +1298,5 @@
     "link": "https://github.com/hedimanai-pro/toolops",
     "date": "2026-05-09",
     "id": "17783707989840"
-  },
-  {
-    "title": "政府网站过时数据误导 AI 概述",
-    "summary": "英政府指出 AI 引用过时数据误导民众。",
-    "detail": "英国政府指出，AI 概述功能正在抓取 Gov.uk 上的过时页面数据，导致向民众提供错误信息。这一事件凸显了 AI 搜索与实时数据源之间的同步难题。对于依赖 AI 获取公共信息的用户，这提出了准确性警示。行业需关注 RAG 技术中的数据更新机制，以及政府网站如何针对 AI 爬虫进行优化或标记，以防止“数字煤气灯”效应。此案例表明，单纯依赖爬取公共网页构建知识库存在风险，企业级 AI 应用需建立更严格的数据验证与时效性监控流程，避免误导用户引发信任危机。政府数据作为权威源，其时效性直接影响 AI 输出质量，未来可能需要建立官方 API 对接机制以确保信息准确无误，这对 AI 厂商的数据 sourcing 策略提出了新挑战。",
-    "tags": [
-      "News",
-      "Data Integrity",
-      "RAG"
-    ],
-    "link": "https://www.theregister.com/software/2026/04/23/govuk-says-ai-gaslighting-brits-with-stale-govuk-data/5229766",
-    "date": "2026-05-09",
-    "id": "17783707989841"
-  },
-  {
-    "title": "圣塔菲研究所：AI 现象颠覆学习假设",
-    "summary": "最新研究受 AI 启发颠覆传统学习假设。",
-    "detail": "圣塔菲研究所发布最新研究成果，表明受 AI 现象启发，传统关于学习的假设正在被颠覆。该研究可能涉及复杂性科学与机器学习的交叉领域，探讨智能产生的新机制。这对于理解 AGI 路径及人类学习机制具有理论意义，建议关注后续论文发布。AI 不仅在应用层改变世界，也在基础科学层面反向启发人类认知研究。圣塔菲研究所作为复杂性科学的重镇，其观点具有风向标意义。此项研究可能揭示深度学习之外的新学习范式，对于算法优化及神经科学领域均有潜在影响。行业应关注此类基础研究突破，它们往往是下一代 AI 技术爆发的理论基石，值得科研人员与投资者长期跟踪。",
-    "tags": [
-      "News",
-      "Research",
-      "AGI"
-    ],
-    "link": "https://www.santafe.edu/news-center/news/upending-assumptions-about-learning-inspired-by-an-ai-phenomenon",
-    "date": "2026-05-09",
-    "id": "17783707989842"
-  },
-  {
-    "title": "Blink：带来源引用的 AI 搜索引擎",
-    "summary": "新款 AI 搜索引擎强调来源引用。",
-    "detail": "Blink 是一款新的 AI 搜索助手，主打“带来源的知识目的地”。在当前 AI 幻觉频发的背景下，强调来源引用是提升可信度的关键策略。该产品面向需要准确知识检索的用户，可能与 Perplexity 等产品形成竞争。值得关注其检索增强生成（RAG）的具体实现及数据源质量。随着 AI 搜索赛道竞争加剧，差异化功能如来源透明化、垂直领域深度整合将成为胜负手。Blink 的出现进一步验证了 AI 搜索市场的活跃度，用户对于可验证信息的需求日益增长。对于内容创作者而言，这意味着被 AI 引用的机会与版权保护问题将更加突出，需关注其产品迭代及商业模式探索。",
-    "tags": [
-      "New",
-      "Search",
-      "RAG"
-    ],
-    "link": "https://blink-oi.vercel.app/",
-    "date": "2026-05-09",
-    "id": "17783707989843"
-  },
-  {
-    "title": "土耳其新型导弹宣称可触及美国本土",
-    "summary": "地缘政治新闻涉及 AI touted 导弹能力。",
-    "detail": "金融时报报道土耳其 unveiling 新型导弹，相关宣传中涉及 AI 技术 touted 能够触及美国本土。虽然具体技术细节受限，但这反映了 AI 技术在国防军事领域的应用日益公开化。AI 制导、目标识别或战略评估可能成为关键因素。此事件标志着 AI 军事化应用的地缘政治影响进一步显现。国防 AI 化已成为全球趋势，此类武器的宣称能力无论真假，都将引发国际社会对 AI 武器化管控的讨论。对于 AI 行业而言，这意味着技术出口管制与伦理合规将面临更严峻的考验。投资者需关注地缘政治风险对 AI 供应链及国际合作项目的潜在冲击，技术双用性带来的合规成本正在上升。",
-    "tags": [
-      "News",
-      "Defense",
-      "Geopolitics"
-    ],
-    "link": "https://www.ft.com/content/d2136091-9fd2-4923-b168-50539e5b27ab",
-    "date": "2026-05-09",
-    "id": "17783707989844"
   }
 ]
