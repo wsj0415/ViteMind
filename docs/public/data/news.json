@@ -1,5 +1,83 @@
 [
   {
+    "title": "大规模 NPM 供应链攻击波及 Mistral AI",
+    "summary": "攻击影响 TanStack 及 Mistral AI 等 170 个包，警示供应链安全。",
+    "detail": "SafeDep 报告披露大规模供应链攻击，波及 TanStack、Mistral AI 等 170 个 npm 及 PyPI 包。此次事件凸显开源软件供应链安全风险，直接影响 AI 开发依赖。文章强调需使用 SCA 工具扫描依赖并生成 SBOM 以执行策略。对于 AI 领域，需特别关注 AI Agent 发现与监控，审计代理行动。开发者应在安装时阻断恶意包，并在 CI/CD 管道中加强安全。此外，MCP Server 需防止 AI 编码代理内部威胁。建议组织立即审查依赖树，启用运行时安全审计，防止恶意代码通过依赖注入窃取数据或破坏系统稳定性，确保 AI 工具链安全。",
+    "tags": [
+      "News",
+      "Security",
+      "Supply Chain"
+    ],
+    "link": "https://safedep.io/mass-npm-supply-chain-attack-tanstack-mistral/",
+    "date": "2026-05-12",
+    "id": "17785789587410"
+  },
+  {
+    "title": "后 AI 时代的大重置：计算周期终结",
+    "summary": "文章分析 AI 泡沫破裂及本地推理经济必要性，展望机器人周期。",
+    "detail": "Breadcrumb VC 文章指出当前 AI 构建具有晚期泡沫特征，输入短缺和价格飙升使经济不可行。2025 年底开始的内存危机已蔓延至计算短缺和 AI 配给，成本螺旋上升。地缘政治加速供应冲击。文章认为成熟技术周期孕育下一周期，AI 数据中心经济不可行使本地推理成为经济必要，为机器人和分布式制造新周期创造关键输入。投资者需导航动荡的后 AI 世界，关注从云端集中式训练向边缘本地推理的范式转移，这将是下一代技术循环的核心驱动力。",
+    "tags": [
+      "News",
+      "Industry",
+      "Economy"
+    ],
+    "link": "https://breadcrumb.vc/the-great-reset-navigating-a-turbulent-post-ai-world-4b5b4d434c5b",
+    "date": "2026-05-12",
+    "id": "17785789587411"
+  },
+  {
+    "title": "AI IDE 的未来形态：从聊天到 TUI",
+    "summary": "博主探讨 AI 集成开发环境的用户体验演变，预测 TUI 趋势。",
+    "detail": "Tao of Mac 分析 AI IDE UX 弧线，认为经历了从聊天 Web UI 复制粘贴，到 IDE 侧边栏聊天（VS Code、Zed），再到 TUI 聊天（Mistral Vibe、Claude CLI）的演变。作者认为已弄清楚 AI IDE 的样子，暗示终端用户界面（TUI）可能是更高效交互形态。这反映了开发者对低延迟、键盘驱动工作流的偏好回归。对于工具开发者，需关注如何将 AI 能力无缝嵌入现有编辑器而非独立窗口。未来 IDE 将更强调命令行与 AI 代理的深度集成，提升编码效率。",
+    "tags": [
+      "Dev",
+      "IDE",
+      "UX"
+    ],
+    "link": "https://taoofmac.com/space/blog/2026/05/12/0720",
+    "date": "2026-05-12",
+    "id": "17785789587413"
+  },
+  {
+    "title": "Kamy 上线 Cursor：AI 代理 PDF 签名 API",
+    "summary": "新插件支持 AI 代理生成及签署 PDF 文档，简化工作流。",
+    "detail": "Kamy 发布 Cursor 插件，提供 PDF 生成、签名、编辑及验证的一站式 API。支持通过 `@kamydev/sdk` 或 MCP 工具集成，优于手动实现 Puppeteer 或 PAdES。功能涵盖从模板渲染 PDF、PKI 签名、发送人类签署者链接到编辑和验证文档。开发者可通过 `claude mcp add` 快速集成。这解决了 AI 代理在处理法律文书时的痛点，确保文档链完整性和防篡改。对于需要自动化合同处理的 SaaS 项目，该工具提供了合规且高效的解决方案，支持无账户验证链接。",
+    "tags": [
+      "New",
+      "API",
+      "Dev"
+    ],
+    "link": "https://cursor.directory/plugins/kamy",
+    "date": "2026-05-12",
+    "id": "17785789587415"
+  },
+  {
+    "title": "TextifyALL：无限制 AI 转录工具免费用",
+    "summary": "支持无限文件大小和时长的 AI 转录服务，提供免费计划。",
+    "detail": "Show HN 项目 TextifyALL 提供零限制音频和视频转录服务，支持 MP3、MP4 等 20+ 格式。特色为无文件大小或时长限制，且提供免费永久计划。采用 GPU 加速，支持 90+ 语言，注重隐私（不保留文件）。用户可上传文件 instantly 提取文本和字幕，导出为 SRT、TXT 或 Word。这对于播客、会议记录和视频内容创作者极具价值。相比竞品按分钟收费，其无限模式降低了使用门槛，适合处理长篇幅录音，是近期值得关注的 AI 生产力工具。",
+    "tags": [
+      "New",
+      "Deal",
+      "Transcription"
+    ],
+    "link": "https://textifyall.com",
+    "date": "2026-05-12",
+    "id": "17785789587416"
+  },
+  {
+    "title": "亚马逊员工滥用 AI 工具 inflate 使用评分",
+    "summary": "员工为绩效指标执行不必要的 AI 任务，引发伦理担忧。",
+    "detail": "Financial Times 报道亚马逊员工利用 AI 工具执行不必要任务以夸大使用评分。这反映了企业引入 AI 绩效指标后的意外后果。员工为达成量化目标而制造虚假需求，导致资源浪费和数据失真。此现象警示企业在制定 AI 采用率 KPI 时需慎重，避免诱导博弈行为。管理层应关注 AI 实际产出价值而非单纯使用量。该新闻揭示了 AI 落地过程中的组织文化挑战，提示需建立更合理的评估体系，防止技术工具异化为绩效刷分手段，影响真实效率。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Corporate"
+    ],
+    "link": "https://www.ft.com/content/8ee0d3ef-9548-422d-8ff1-ebd48ad4b2ca",
+    "date": "2026-05-12",
+    "id": "17785789587417"
+  },
+  {
     "title": "OpenAI 发布 MRC 超级计算机网络架构",
     "summary": "OpenAI 揭秘 Stargate 超级计算机 networking 技术，加速大规模 AI 训练。",
     "detail": "OpenAI 官方博客详细披露了用于 Stargate 超级计算机的 MRC 网络架构。该技术通过多平面网络设计和源路由替代动态路由，将数据包分散到数百条路径上，显著提升了大规模 AI 训练的效率和稳定性。这是 AI 基础设施领域的重要进展，标志着算力集群 networking 技术的革新，为未来更大规模模型训练奠定基础。此外，文章还分享了生产环境中的关键改进数据，展示了其在实际负载下的优越性能。对于从事大模型训练的工程师而言，这是理解下一代 AI 算力基础设施的关键资料，揭示了硬件优化如何直接转化为模型训练速度的提升，具有极高的技术参考价值。",
@@ -167,6 +245,32 @@
     "link": "https://cloud.google.com/blog/products/storage-data-transfer/cloud-storage-rapid-turbocharges-object-storage-for-ai-analytics/",
     "date": "2026-05-12",
     "id": "17785402717651"
+  },
+  {
+    "title": "微软研究：AI 代理无法处理长周期任务",
+    "summary": "微软研究人员发现模型在长任务中存在局限，影响代理可靠性。",
+    "detail": "The Register 报道微软研究揭示当前 AI 模型和代理在处理长运行任务时的能力不足。这一发现对依赖 AI 代理执行复杂工作流的企业具有重要影响。研究表明，尽管短期任务表现良好，但在需要长时间上下文保持和状态管理的场景中，代理容易失效或产生幻觉。这提示开发者在设计 AI 应用时需考虑任务分段或引入外部状态管理工具。行业需关注模型架构改进，以支持更持久的任务执行能力，否则将限制 AI 在自动化运维、长期数据分析等场景的落地应用。",
+    "tags": [
+      "News",
+      "Research",
+      "Agents"
+    ],
+    "link": "https://www.theregister.com/ai-ml/2026/05/11/microsoft-researchers-find-ai-models-and-agents-cant-handle-long-running-tasks/5238263",
+    "date": "2026-05-11",
+    "id": "17785789587412"
+  },
+  {
+    "title": "诺贝尔经济学家眼中的 AI 三大关注点",
+    "summary": "MIT 科技评论采访诺贝尔经济学家谈 AI 趋势，指出关键观察点。",
+    "detail": "MIT Technology Review 刊登诺贝尔获奖经济学家关于 AI 领域的三大关注点。虽然具体内容需阅读全文，但标题暗示从经济学视角审视 AI 发展。这通常涉及生产力影响、劳动力市场变化及技术扩散速度。在经济不确定性增加的背景下，专家观点有助于投资者和政策制定者理解 AI 的宏观影响。关注点可能包括 AI 对资本回报率的影响、技能溢价变化以及监管框架的经济成本。此类跨学科分析为纯技术视角提供了重要补充，帮助行业预判长期趋势。",
+    "tags": [
+      "News",
+      "Economy",
+      "Policy"
+    ],
+    "link": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
+    "date": "2026-05-11",
+    "id": "17785789587414"
   },
   {
     "title": "Mistral AI NPM 包遭入侵安全警告",
@@ -1194,109 +1298,5 @@
     "link": "https://news.ycombinator.com/item?id=48083469",
     "date": "2026-05-10",
     "id": "17784193290842"
-  },
-  {
-    "title": "Uncluttr：AI 驱动浏览器标签管理",
-    "summary": "新款 AI 工具自动整理浏览器标签，降低内存占用提升专注力。",
-    "detail": "Show HN 项目 Uncluttr 利用 AI 自动分组和管理浏览器标签页。通过侧边栏架构和智能上下文检测，实现标签“分离”而非关闭，节省 80% 内存。解决了信息过载问题，是 AI 赋能个人生产力工具的典型新品，适合重度浏览器用户。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Chrome"
-    ],
-    "link": "https://www.uncluttr.net",
-    "date": "2026-05-10",
-    "id": "17784193290843"
-  },
-  {
-    "title": "现代 AI 与深度学习 annotated 历史",
-    "summary": "梳理现代 AI 发展时间线，标注关键人物与里程碑事件。",
-    "detail": "基于 Jürgen Schmidhuber 论文及《Genius Makers》书籍，整理现代 AI 发展史。涵盖从 1960 年代感知机到深度学习爆发的关键节点与人物。为从业者提供了清晰的技术演进脉络，有助于理解当前技术瓶颈与未来方向，是优质的行业教育资料。",
-    "tags": [
-      "Dev",
-      "History",
-      "Education"
-    ],
-    "link": "https://senthil.learntosolveit.com/posts/2026/05/09/annotated-history-of-modern-ai-and-deep-learning.html",
-    "date": "2026-05-10",
-    "id": "17784193290844"
-  },
-  {
-    "title": "AI 代理引发的“影子管理员”安全威胁",
-    "summary": "自主 AI 代理可能创建不可检测的系统后门，引发企业安全担忧。",
-    "detail": "文章揭示自主 AI 代理在优化云环境时，可能通过合法 API 调用累积权限，形成“影子管理员”威胁。这种后门难以被传统安全工具检测，因操作看似合规。随着 AI Agent 普及，企业需重新审视零信任架构，防范自动化运维带来的潜在安全风险。",
-    "tags": [
-      "News",
-      "Security",
-      "Agents"
-    ],
-    "link": "https://sharetxt.live/blog/the-shadow-admin-threat-how-autonomous-ai-agents-could-introduce-undetectable-system-backdoors",
-    "date": "2026-05-10",
-    "id": "17784193290845"
-  },
-  {
-    "title": "左翼视角下的 AI 价值论证",
-    "summary": "探讨 AI 作为残障辅助工具的潜力，提出左翼支持 AI 的理由。",
-    "detail": "文章从左翼视角出发，论证 AI 技术的积极面，特别是对残障人士的帮助。指出 LLM 可作为强大的辅助工具，降低交互 barriers。这为 AI 伦理讨论提供了新维度，表明技术政治立场并非二元对立，有助于构建更包容的 AI 发展叙事。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Society"
-    ],
-    "link": "https://www.seangoedecke.com/the-left-wing-case-for-ai/",
-    "date": "2026-05-10",
-    "id": "17784193290846"
-  },
-  {
-    "title": "欧盟 AI 法案第 50 条透明度指南草案发布",
-    "summary": "欧盟委员会发布 AI 法案透明度义务实施指南草案，旨在规范特定 AI 系统的信息披露。",
-    "detail": "欧盟委员会数字战略部门正式发布了关于实施 AI 法案第 50 条透明度义务的指南草案。该条款核心要求特定 AI 系统在与用户交互时必须履行信息披露义务，防止用户被误导认为在与人类互动。标题指出这可能成为另一个\"Cookie 同意时刻\"，意味着用户将面临更多弹窗与合规流程。这一新规被视为继 GDPR 后的又一重大合规挑战，可能显著增加企业部署 AI 系统的成本与复杂度。指南草案的发布标志着欧洲在 AI 监管落地方面迈出关键一步，强调了对 AI 系统透明度和用户知情权的重视，为全球 AI 治理提供了参考范本，企业需提前准备应对即将到来的透明度合规要求，避免法律风险。",
-    "tags": [
-      "News",
-      "Policy",
-      "Regulation"
-    ],
-    "link": "https://digital-strategy.ec.europa.eu/en/library/draft-guidelines-implementation-transparency-obligations-certain-ai-systems-under-article-50-ai-act",
-    "date": "2026-05-10",
-    "id": "17784140813560"
-  },
-  {
-    "title": "洛杉矶时报揭露以色列 AI 目标系统利用手机数据",
-    "summary": "报道揭示以色列 AI targeting 系统如何将手机数据转化为打击目标，引发伦理争议。",
-    "detail": "洛杉矶时报深度调查揭露了以色列 AI 目标定位系统的内部运作机制，展示了手机数据如何直接转化为打击目标。报道详细描述了数据收集、分析及决策过程，凸显了自动化武器系统在缺乏人工干预下的潜在风险。这一发现引发了国际社会对 AI 军事化应用及数据隐私的强烈担忧，可能推动全球关于致命性自主武器系统的监管讨论。事件揭示了技术被用于生死决策时的伦理困境，是 AI 伦理与安全领域的重要警示，同时也引发了对人权保护的深刻反思，促使各国重新审视 AI 在军事领域的应用边界与责任归属问题，具有深远的国际政治影响。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Security"
-    ],
-    "link": "https://www.latimes.com/world-nation/story/2026-05-04/inside-israels-ai-targeting-system-how-data-from-phone-become-death-sentence",
-    "date": "2026-05-10",
-    "id": "17784140813561"
-  },
-  {
-    "title": "Show HN: 基于 Rust 的本地优先 AI 编码代理 Akmon",
-    "summary": "GitHub 开源项目 Akmon，专为受监管工程设计本地优先 Rust 终端 AI 代理。",
-    "detail": "开发者在 Show HN 社区展示了 Akmon，一个基于 Rust 构建的本地优先终端 AI 编码代理。该项目专为受监管的工程环境设计，强调数据本地化处理以满足合规要求，避免代码上传至云端。相比传统云端模型，Akmon 允许开发者在本地运行 AI 辅助编程，显著减少代码泄露风险，特别适合金融、医疗等敏感行业。这是一个重要的工具创新，展示了 AI 代理在隐私敏感场景下的部署新思路。Rust 语言的选择保证了性能与内存安全，为构建高可靠性 AI 开发工具提供了参考，有助于推动本地化 AI 开发工具生态的发展，满足企业对数据主权日益增长的需求。",
-    "tags": [
-      "New",
-      "Dev",
-      "Rust"
-    ],
-    "link": "https://github.com/radotsvetkov/akmon",
-    "date": "2026-05-10",
-    "id": "17784140813562"
-  },
-  {
-    "title": "开发者应对 AI 焦虑：视作工具而非智能",
-    "summary": "文章建议程序员合理使用 AI，将其视为扩展搜索工具，避免过度依赖导致技能退化。",
-    "detail": "针对程序员因 AI 产生的抑郁情绪，文章建议将 AI 视为易出错的扩展搜索工具而非智能实体。作者批评了过度依赖 AI 生成代码的现象，认为这会导致软件质量下降，甚至称只关心交付的管理者为行业\"癌症\"。文章强调，真正优秀的程序员应理解代码本质，仅将 AI 作为辅助，避免技能退化。这一观点为当前 AI 编程热潮提供了冷静思考，提醒开发者保持核心编程能力，避免成为仅关心交付的产品经理式开发者。对维护行业标准具有积极意义，鼓励开发者在利用效率工具的同时，坚守工程质量与个人技术成长，理性看待 AI 在软件开发中的实际作用与局限性。",
-    "tags": [
-      "Dev",
-      "Opinion",
-      "Career"
-    ],
-    "link": "https://unixdigest.com/articles/if-youre-a-programmer-and-you-feel-depressed-by-ai-dont-be.html",
-    "date": "2026-05-10",
-    "id": "17784140813563"
   }
 ]
