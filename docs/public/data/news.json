@@ -1,5 +1,57 @@
 [
   {
+    "title": "谷歌威胁情报：攻击者利用 AI 生成零日漏洞",
+    "summary": "谷歌报告指出攻击者首次使用 AI 开发零日漏洞，AI 恶意软件呈工业化趋势。",
+    "detail": "谷歌威胁情报组 (GTIG) 发布重磅报告，揭示对抗性 AI 的最新威胁趋势。报告指出，攻击者首次利用 AI 开发零日漏洞计划进行大规模利用，虽被主动发现阻止，但标志着攻击工业化。AI 还被用于加速多态恶意软件开发及防御规避，涉及中国、朝鲜及俄罗斯关联组织。这表明 AI 既是攻击引擎也是高价值目标。企业需升级防御体系，加强对 AI 生成代码的审计与监控，应对自动化攻击带来的新挑战，安全边界正在被生成式 AI 重塑，威胁情报需实时更新。",
+    "tags": [
+      "News",
+      "Security",
+      "Threat"
+    ],
+    "link": "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access/",
+    "date": "2026-05-12",
+    "id": "17785968548130"
+  },
+  {
+    "title": "Statewright：用状态机提升 AI Agent 可靠性",
+    "summary": "前 NVIDIA 工程师开源工具，通过状态机约束 Agent 行为，减少幻觉与错误。",
+    "detail": "针对当前 AI Agent 解决任务脆弱且不稳定的痛点，前 NVIDIA 杰出工程师 Ben Cochran 开源 Statewright。该工具核心采用 Rust 引擎评估状态机定义，通过形式化状态机约束模型的工具访问、迭代次数及转换逻辑。支持 via MCP 集成 Claude Code 等编辑器。研究显示，13B 以上参数模型在约束下表现显著提升，证明上下文利用效率优于单纯扩大窗口。这为开发者提供了可视化工作流编辑与确定性代码约束 LLM 的新模式，适合构建高可靠性自动化 Agent 系统，避免模型幻觉导致的错误操作，提升工程化落地能力。",
+    "tags": [
+      "New",
+      "Dev",
+      "Agent"
+    ],
+    "link": "https://github.com/statewright/statewright",
+    "date": "2026-05-12",
+    "id": "17785968548131"
+  },
+  {
+    "title": "AI IQ：统一标准评估各大模型智力水平",
+    "summary": "新工具将不同基准测试映射为统一 IQ 分数，帮助开发者性价比选型。",
+    "detail": "AI IQ 项目旨在解决当前 AI 模型基准测试碎片化与难以横向对比的问题。平台归档公开榜单数据，将 12 个主流基准映射为抽象、数学、编程、学术四个维度的统一 IQ 分数。提供有效成本与性能 iso-curves 分析，支持 OpenAI、Google、Meta 及中国多家模型提供商对比。开发者可根据质量与成本权重偏好，直观选择性价比最高的模型，避免被单一基准误导，优化 API 调用成本。这对于企业选型及个人开发者控制预算具有极高参考价值，推动评估标准透明化，助力理性技术决策。",
+    "tags": [
+      "New",
+      "Dev",
+      "Benchmark"
+    ],
+    "link": "https://www.aiiq.org/",
+    "date": "2026-05-12",
+    "id": "17785968548132"
+  },
+  {
+    "title": "YantrikDB：专为 AI Agent 设计的持久化记忆数据库",
+    "summary": "开源项目提供 Agent 持久化记忆方案，解决长任务上下文丢失问题。",
+    "detail": "针对 AI Agent 在长周期任务中记忆丢失的痛点，YantrikDB 提供专为 Agent 设计的持久化记忆存储方案。作为 Show HN 热门项目，它旨在增强 Agent 的状态保持能力，使其能在多轮交互或长周期任务中保留关键信息。虽然具体技术细节未在 snippet 完全展开，但此类工具是构建复杂 Agent 系统的基础设施，配合状态机工具可进一步提升 Agent 的长期规划与执行能力。对于需要长期上下文维护的开发者，这是值得关注的开源基础设施新选择，解决状态持久化难题。",
+    "tags": [
+      "New",
+      "Dev",
+      "Database"
+    ],
+    "link": "https://github.com/yantrikos/yantrikdb",
+    "date": "2026-05-12",
+    "id": "17785968548133"
+  },
+  {
     "title": "AI 语音初创 Vapi 获 5 亿美元估值，击败 40 家竞品赢得亚马逊 Ring 合作",
     "summary": "Vapi 估值达 5 亿美元，成为亚马逊 Ring 首选 AI 语音平台。",
     "detail": "**融资亮点**：AI 语音初创公司 Vapi 最新估值达 5 亿美元。\n**核心事件**：在击败超过 40 家竞争对手后，被亚马逊 Ring 选为其 AI 语音平台合作伙伴。\n**行业影响**：标志着语音 AI 技术在智能家居领域的商业化落地加速，头部效应显现，验证了实时语音交互在消费级硬件中的巨大潜力。",
@@ -1246,57 +1298,5 @@
     "link": "https://streetai.org/blog/escrow-for-ai-agents.html",
     "date": "2026-05-10",
     "id": "17784286648982"
-  },
-  {
-    "title": "微软安全：AI 时代低保真信号角色的转变",
-    "summary": "微软安全博客探讨 AI 环境下安全信号检测策略的演变。",
-    "detail": "微软技术社区安全博客发表文章，论述了在 AI 时代低保真（LoFi）信号角色的变化。随着 AI 技术融入安全防御体系，传统信号的有效性面临挑战。文章分析了如何调整检测策略以适应新的威胁 landscape，对于企业安全团队在 2026 年部署 AI 驱动的安全方案具有指导意义。强调了动态调整信号权重的必要性，防止误报率上升。这是微软安全团队基于最新威胁情报的总结，建议企业重新评估现有的 SIEM 规则集。",
-    "tags": [
-      "News",
-      "Security",
-      "Microsoft"
-    ],
-    "link": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/the-changing-role-of-low-fidelity-lofi-signals-in-the-ai-era/4503569",
-    "date": "2026-05-10",
-    "id": "17784286648983"
-  },
-  {
-    "title": "AI 代理在沙盒中进化学习玩 Pokémon",
-    "summary": "开发者利用遗传算法和 LLM 代理在沙盒环境中模拟游戏进化。",
-    "detail": "由于硬件认证和反作弊限制，直接在沙盒运行 Pokémon GO 不可行。开发者转而构建了一个 LLM 代理群体，通过遗传算法在平行沙盒中进化，以 Pokémon Crystal 为适应度信号。该项目展示了多代理系统在受限环境下的演化学习能力，为 AI 游戏代理研究提供了新颖的技术架构参考。克服了 TEE 和 arm64 限制。项目利用 islo.dev 沙盒进行并行进化，系统提示词作为进化单位，为理解 LLM 在复杂任务中的自我优化提供了实验数据。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Research"
-    ],
-    "link": "https://zozo123.github.io/pokeloop/",
-    "date": "2026-05-10",
-    "id": "17784286648984"
-  },
-  {
-    "title": "AI 加剧数字欺诈风险，身份盗窃更难阻止",
-    "summary": "彭博社报道 AI 使数字欺诈更轻易，身份盗窃 scams 升级。",
-    "detail": "彭博社最新报道指出，AI 技术正在降低数字欺诈的门槛，使其速度更快且更难被阻止。文章通过图形化数据展示了 2026 年 AI 身份盗窃骗局的增长趋势，揭示了攻击者如何利用生成式 AI 自动化攻击流程。这对企业安全策略和个人隐私保护提出了严峻挑战，行业需加速部署反 AI 欺诈的检测机制。",
-    "tags": [
-      "News",
-      "Security",
-      "Fraud"
-    ],
-    "link": "https://www.bloomberg.com/graphics/2026-ai-identity-theft-scams/",
-    "date": "2026-05-10",
-    "id": "17784249977930"
-  },
-  {
-    "title": "AI Agent Passport：开源智能体身份标准发布",
-    "summary": "GitHub 开源项目定义 AI 智能体验证、权限与支出限制标准。",
-    "detail": "该项目提出了一种名为'AI Agent Passport'的开放身份标准，旨在解决 AI 智能体（Agents）的信任与安全问题。核心功能包括验证所有权、scoped 权限管理以及强制支出限制。随着 AI 智能体自主执行任务增多，该标准为防止恶意代理操作和失控支出提供了基础架构支持，是 Agent 生态发展的关键基础设施。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "OpenSource"
-    ],
-    "link": "https://github.com/StacyStarchum/Ai-agent-passport-",
-    "date": "2026-05-10",
-    "id": "17784249977931"
   }
 ]
