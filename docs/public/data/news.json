@@ -1,5 +1,83 @@
 [
   {
+    "title": "OpenAI 发布 MRC 超级计算机网络架构",
+    "summary": "OpenAI 揭秘 Stargate 超级计算机 networking 技术，加速大规模 AI 训练。",
+    "detail": "OpenAI 官方博客详细披露了用于 Stargate 超级计算机的 MRC 网络架构。该技术通过多平面网络设计和源路由替代动态路由，将数据包分散到数百条路径上，显著提升了大规模 AI 训练的效率和稳定性。这是 AI 基础设施领域的重要进展，标志着算力集群 networking 技术的革新，为未来更大规模模型训练奠定基础。此外，文章还分享了生产环境中的关键改进数据，展示了其在实际负载下的优越性能。对于从事大模型训练的工程师而言，这是理解下一代 AI 算力基础设施的关键资料，揭示了硬件优化如何直接转化为模型训练速度的提升，具有极高的技术参考价值。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Infrastructure"
+    ],
+    "link": "https://openai.com/index/mrc-supercomputer-networking/",
+    "date": "2026-05-12",
+    "id": "17785683576700"
+  },
+  {
+    "title": "Thinking Machines 研发可实时倾听的 AI 交互技术",
+    "summary": "初创公司 Thinking Machines 致力于解决 AI 对话中的打断与倾听难题。",
+    "detail": "TechCrunch 报道，Thinking Machines 公司正在开发一种能在说话的同时真正“倾听”的 AI 模型。该技术旨在解决当前语音 AI 无法处理用户打断或缺乏实时交互反馈的问题。若成功，将极大改善人机语音交互体验，推动虚拟助手和客服领域的智能化升级。目前语音交互仍存在延迟和打断困难，此技术若落地将显著提升自然度。团队正致力于优化延迟和上下文理解，以实现真正流畅的双向对话，这代表了语音 AI 交互的下一个重要发展方向。对于关注多模态交互的开发者，这是一个值得跟踪的技术突破点，可能重塑语音助手的市场格局。",
+    "tags": [
+      "News",
+      "Startup",
+      "Voice AI"
+    ],
+    "link": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
+    "date": "2026-05-12",
+    "id": "17785683576701"
+  },
+  {
+    "title": "新研究提出 AI 代理需要“机构”而非仅靠代理",
+    "summary": "GitHub 项目指出 AI 落地需建立所有权、审查和记录等机构化控制表面。",
+    "detail": "开发者 wes-zheng 发布技术报告，指出当前 AI Agent 栈虽擅长工具使用，但常因缺乏组织性失败。项目提出\"AI 劳动需要机构”，强调建立所有者、角色、记录、审查门等控制表面。这对企业级 AI 应用架构设计具有重要参考价值，标志着 Agent 开发从单点能力向系统化治理转变。报告认为，仅靠代理无法完成真实工作，必须引入类似机构的问责和记录机制。这为构建可靠的生产级 AI 系统提供了新的理论框架和实践指南，值得开发者深入研读。特别是在复杂工作流中，机构化设计能有效减少幻觉带来的操作风险，提升系统鲁棒性。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Architecture"
+    ],
+    "link": "https://github.com/wes-zheng/ai_institutions",
+    "date": "2026-05-12",
+    "id": "17785683576702"
+  },
+  {
+    "title": "Wix 工程团队分享 250 次 AI 代理评估实战经验",
+    "summary": "Wix 通过大量评估发现技能与文档在 AI 代理中的表现比预期复杂。",
+    "detail": "Wix Engineering 博客分享了运行 250 次 AI Agent 评估的详细结果。研究发现，技能（Skills）与文档（Docs）在代理表现中的优劣关系比预期复杂。文章深入探讨了代理评估的难点与最佳实践，为开发者优化 AI 工作流提供了真实数据支持和工程指导。团队通过实际测试揭示了评估中的陷阱，强调了上下文和验证的重要性。这对于正在构建 AI 自动化流程的工程团队来说，是一份极具参考价值的实战经验总结，有助于避免常见误区。数据表明，单纯增加技能数量并不一定提升效果，合理的架构设计更为关键，为后续开发提供了明确方向。",
+    "tags": [
+      "Dev",
+      "Engineering",
+      "Evaluation"
+    ],
+    "link": "https://www.wix.engineering/post/we-ran-250-ai-agent-evals-to-find-out-if-skills-beat-docs-the-answer-is-more-complicated-than-we-ex",
+    "date": "2026-05-12",
+    "id": "17785683576703"
+  },
+  {
+    "title": "科技领袖提议 UBI 与缩短工时应对 AI 冲击",
+    "summary": "欧洲科技领袖提出全民基本收入等方案，以缓解 AI 潜在破坏性影响。",
+    "detail": "法媒《世界报》报道，科技领袖们提出全民基本收入（UBI）、缩短工作周和资本税等选项，以应对 AI 可能带来的破坏性潜力。这些提议在欧洲引起共鸣，反映了行业高层对 AI 社会经济影响的担忧。这可能预示未来政策监管方向的变化，值得行业密切关注。随着 AI 自动化程度提高，劳动力市场结构将面临调整，此类政策讨论可能从理论走向实践。企业和开发者需关注相关政策动向，以便及时调整战略应对潜在的社会合规要求。这表明 AI 发展已不仅限于技术层面，社会伦理与经济结构的调整将成为伴随技术演进的重要议题，影响长期投资风向。",
+    "tags": [
+      "News",
+      "Policy",
+      "Society"
+    ],
+    "link": "https://www.lemonde.fr/en/economy/article/2026/05/10/universal-income-reduced-work-week-capital-tax-options-tech-leaders-put-forward-to-address-ai-s-destructive-potential-sound-familiar-in-europe_6753313_19.html",
+    "date": "2026-05-12",
+    "id": "17785683576704"
+  },
+  {
+    "title": "Boom 推出免费 AI 屏幕录制与视频编辑工具",
+    "summary": "Boomshare 发布永久免费 AI 视频工具，支持多语言语音转换。",
+    "detail": "Boomshare 推出了一款名为 Boom 的 AI 屏幕录制和视频编辑工具，主打“永久免费”模式。该产品支持 50 多种语言的语音转换，旨在帮助用户跳过会议，通过视频异步沟通。对于需要频繁进行远程协作和 content 创作的团队，这是一个值得尝试的新效率工具。产品强调通过 AI 技术减少同步会议需求，提升工作灵活性。虽然市场竞争激烈，但其免费策略和多语言支持使其在特定用户群中具有吸引力，适合关注异步协作工具的团队评估。对于自由职业者和远程团队，该工具可能成为降低沟通成本的有效手段，体现了 AI 在提升工作流效率方面的实际应用。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Video"
+    ],
+    "link": "https://www.boomshare.ai/",
+    "date": "2026-05-12",
+    "id": "17785683576705"
+  },
+  {
     "title": "马斯克 Grok AI 竞赛中落后，Anthropic 与 SpaceX 合作",
     "summary": "WSJ 报道 Grok 市场份额下滑，Anthropic 与 SpaceX 达成新 AI 合作。",
     "detail": "华尔街日报最新报道指出，Elon Musk 旗下的 Grok 模型在激烈的 AI 竞赛中逐渐失去优势，市场份额面临压力。与此同时，Anthropic 与 SpaceX 达成了新的 AI 合作协议，显示出行业巨头间的重组趋势。这一动态反映了当前 AI 市场竞争格局的剧烈变化，头部效应日益明显，单一模型难以维持长期领先，跨界合作与生态整合成为新常态，投资者需关注头部企业的战略调整。",
@@ -1220,83 +1298,5 @@
     "link": "https://unixdigest.com/articles/if-youre-a-programmer-and-you-feel-depressed-by-ai-dont-be.html",
     "date": "2026-05-10",
     "id": "17784140813563"
-  },
-  {
-    "title": "汤姆·斯特耶提议保障加州工人免受 AI 影响",
-    "summary": "WIRED 报道汤姆·斯特耶提出工作保障提案，旨在保护加州工人免受 AI 替代风险。",
-    "detail": "WIRED 报道了汤姆·斯特耶提出的一项长期提案，旨在通过工作保障计划保护加州工人免受 AI 技术带来的失业风险。该提案被视为应对 AI 自动化冲击劳动力市场的激进尝试，虽然实施难度大，但反映了政策制定者对 AI 引发社会不平等问题的关注。这一动向可能影响美国其他州的劳动政策，促使政府在技术推广与就业保护之间寻找平衡。它是 AI 社会经济影响的重要案例，展示了政治力量如何介入技术变革带来的分配问题，为未来 AI 时代的社会保障体系构建提供了新的讨论方向，可能引发关于全民基本收入与就业保障的广泛辩论。",
-    "tags": [
-      "News",
-      "Policy",
-      "Labor"
-    ],
-    "link": "https://www.wired.com/story/tom-steyer-proposes-jobs-guarantee-to-protect-california-workers-from-ai/",
-    "date": "2026-05-10",
-    "id": "17784140813564"
-  },
-  {
-    "title": "新工具 distillfast.com 宣称降低 80% API 成本",
-    "summary": "新工具声称可削减 OpenAI API 调用成本高达 80%。",
-    "detail": "该工具针对按 API 调用付费的 OpenAI 用户，旨在通过优化技术大幅降低成本。对于依赖大模型 API 的开发者而言，成本控制是关键痛点。虽然具体技术细节未披露，但此类优化工具的出现反映了市场对 AI 运营效率的高度关注。开发者可关注其是否通过缓存、模型蒸馏或路由优化实现降本，这将是降低 AI 应用运营门槛的关键技术方向。若真能削减 80% 成本，将显著改变初创公司的经济模型，促进更多 AI 应用落地。然而需警惕潜在的数据隐私与服务质量权衡问题。",
-    "tags": [
-      "Dev",
-      "API",
-      "Cost"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48082112",
-    "date": "2026-05-10",
-    "id": "17784034428660"
-  },
-  {
-    "title": "GitHub Copilot 转向用量计费，免费时代终结",
-    "summary": "GitHub Copilot 取消固定订阅，改为按 Token 用量计费。",
-    "detail": "GitHub 宣布 Copilot 转向用量计费模式，不再提供固定订阅。此举结束了开发者通过低价订阅测试多模型的时代。分析指出，此前低价是巨头为建立依赖性的补贴策略，如今开始提取价值。开发者需重新评估 AI 辅助编程的成本效益。这一转变标志着 AI 编程助手从推广期进入成熟盈利期，可能迫使团队优化 Prompt 工程以减少 Token 消耗。长期来看，这将推动本地模型或开源模型在编码场景的替代方案研究，以减少对单一云服务的依赖。",
-    "tags": [
-      "News",
-      "GitHub",
-      "Billing"
-    ],
-    "link": "https://adlrocha.substack.com/p/adlrocha-in-a-quest-to-becoming-ai",
-    "date": "2026-05-10",
-    "id": "17784034428661"
-  },
-  {
-    "title": "调查显示 Z 世代对 AI 愤怒情绪上升，采用率停滞",
-    "summary": "盖洛普调查发现 Z 世代对 AI 风险担忧加剧，采用率增长放缓。",
-    "detail": "Walton 基金会调查显示，Z 世代对 AI 的愤怒情绪升至 31%，采用率增长停滞。近半数认为职场风险大于收益，80% 担心依赖 AI 阻碍学习。这表明 AI 普及面临社会心理阻力，职场整合需应对年轻一代的焦虑与抵触。教育机构和企业在引入 AI 工具时，需重视技能保留与人文价值的平衡。若无法解决“替代焦虑”，可能导致人才流失或生产力表面化。此数据为 AI 伦理与人力资源政策提供了重要参考依据。",
-    "tags": [
-      "News",
-      "Survey",
-      "Social"
-    ],
-    "link": "https://www.waltonfamilyfoundation.org/about-us/newsroom/gen-z-resentment-toward-ai-grows-as-adoption-stagnates-and-workplace-fears-mount",
-    "date": "2026-05-10",
-    "id": "17784034428662"
-  },
-  {
-    "title": "LibreOffice 26.4 Beta 测试 AI 写作与编辑功能",
-    "summary": "开源办公套件 LibreOffice 新版 beta 引入 AI 写作功能。",
-    "detail": "LibreOffice 26.4 Beta 版本开始实验性集成 AI 写作及智能编辑工具。作为主流开源办公套件，此举标志着 AI 功能正下沉至基础软件层。这将影响传统文档处理工作流，为 Linux 及开源社区用户提供本地化或集成的 AI 辅助体验。相比云端服务，本地集成更受隐私敏感用户欢迎。这可能引发开源社区对模型权重与数据隐私的讨论，推动离线 AI 功能在桌面软件中的标准化，挑战微软 Office 的 Copilot 垄断地位。",
-    "tags": [
-      "New",
-      "OpenSource",
-      "Productivity"
-    ],
-    "link": "https://www.linuxjournal.com/content/libreoffice-264-beta-experiments-with-ai-writing-features-and-smarter-editing-tools",
-    "date": "2026-05-10",
-    "id": "17784034428663"
-  },
-  {
-    "title": "美国 FAA 计划利用 AI 彻底改革空中交通管理",
-    "summary": "美国联邦航空管理局计划 overhaul 空管系统，引入 AI 技术。",
-    "detail": "Politico 报道 FAA 计划利用人工智能 overhaul 空中交通控制系统。这是 AI 进入关键国家基础设施的重要信号。旨在提升空域效率与安全性，但同时也引发对自动化系统可靠性的关注。标志着 AI 应用从商业场景向高可靠性公共事业领域扩展。此类系统需经过极端严格的验证，任何失误后果严重。这将推动可解释性 AI 与形式化验证技术的发展，为其他关键基础设施如电网、铁路的 AI 化提供合规与安全范本。",
-    "tags": [
-      "News",
-      "Government",
-      "Infrastructure"
-    ],
-    "link": "https://www.politico.com/news/2026/05/09/faa-artificial-intelligence-00909097",
-    "date": "2026-05-10",
-    "id": "17784034428664"
   }
 ]
