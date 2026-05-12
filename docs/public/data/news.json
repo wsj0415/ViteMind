@@ -1,5 +1,70 @@
 [
   {
+    "title": "企业 AI 战略盲点：网络基础设施",
+    "summary": "企业忽视网络基础设施导致 AI 项目失败率高，GPU 投资需配套网络升级。",
+    "detail": "Kentik 现场 CTO 强调，企业虽重金投入 GPU 与算力，却普遍忽视连接它们的网络基础设施。Gartner 最新调查显示，仅 28% 的 AI 用例完全成功并达到 ROI，主因是基础设施未就绪。传统南北向流量模式无法满足 AI 密集通信需求，此盲点正导致数百万美元浪费及部署失败。企业需重新评估网络架构，避免 AI 倡议在生产前停滞。网络已成为 AI 战略中最被低估的变量，忽视它将导致项目失败。全球 AI 投资已达 6840 亿美元，但基础设施准备不足正成为瓶颈，建议企业在规划初期即纳入网络评估。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Enterprise"
+    ],
+    "link": "https://www.kentik.com/blog/your-ai-strategy-has-a-blind-spot-the-network/",
+    "date": "2026-05-12",
+    "id": "17786209825060"
+  },
+  {
+    "title": "GitGlimpse：AI 时代的 Git 上下文 CLI 工具",
+    "summary": "开源 CLI 工具自动整理 Git 历史，生成结构化上下文供 LLM 使用。",
+    "detail": "新发布的 GitGlimpse 是一款本地 CLI 工具，旨在解决 AI 生成代码后的上下文丢失问题。它能过滤噪音提交，分组任务，生成 PR 描述、站会报告及 LLM 就绪 JSON。支持离线运行，无需账户，帮助开发者高效管理 AI 辅助编程的历史记录。该工具通过四阶段管道处理 Git 历史，包括过滤噪音、分组任务、提取票据及估算工作量。无需服务或数据库，仅通过 Python 进程读取本地仓库，确保数据隐私与安全，适合注重隐私的开发团队使用。MIT 许可，支持 Python 3.11+，完全免费开源。",
+    "tags": [
+      "Dev",
+      "CLI",
+      "Git"
+    ],
+    "link": "https://gitglimpse.com",
+    "date": "2026-05-12",
+    "id": "17786209825061"
+  },
+  {
+    "title": "前沿实验室联合提出“积极对齐”框架",
+    "summary": "顶尖高校与实验室合作，主张 AI 对齐应关注繁荣而非仅防范风险。",
+    "detail": "Ruben Laukkonen 透露顶尖大学与三家前沿实验室罕见合作，提出“积极对齐”框架。研究主张 AI 对齐应超越病理化防范，转向关注智能的繁荣目标。这标志着 AI 安全研究从“防御”向“引导”范式转变，寻求建立积极的北极星指标。合作各方一致认为，对齐不应仅是防止危害，更应促进智能的积极发展。历史类比显示，这种转向对于长期 AI 安全至关重要。该框架旨在为 AI 发展提供方向指引，而非仅仅设置障碍，是 Alignment 领域的重要理论进展，强调繁荣而非仅仅安全。",
+    "tags": [
+      "News",
+      "Alignment",
+      "Research"
+    ],
+    "link": "https://twitter.com/RubenLaukkonen/status/2054215967584944599",
+    "date": "2026-05-12",
+    "id": "17786209825062"
+  },
+  {
+    "title": "OCL Nexus：支持 MCP 的 AI 代理计算层",
+    "summary": "欧盟基础设施上的自动化计算层，原生支持 MCP 协议与代理开发。",
+    "detail": "OCL Nexus 推出专为 AI 代理设计的自动化计算层，原生支持 Model Context Protocol (MCP)。提供隔离的 Ubuntu 执行环境，数据主权位于欧盟。采用按量付费模式，支持 Python/Node.js 运行时，旨在解决代理开发中的持久状态与安全通信问题。基础设施基于欧盟 ISO 认证数据中心，确保数据不出境。支持持久化存储与隔离网络，允许代理间安全通信。无需订阅费，按工作负载小时计费，为代理开发提供确定性运行时与首选 API 访问，降低部署复杂度，适合欧盟合规需求。",
+    "tags": [
+      "New",
+      "Agents",
+      "Infrastructure"
+    ],
+    "link": "https://oclnexus.com",
+    "date": "2026-05-12",
+    "id": "17786209825063"
+  },
+  {
+    "title": "三星冰箱集成 Google Gemini AI 识别食物",
+    "summary": "三星与 Google 合作，在智能冰箱中利用 Gemini 实现食物识别功能。",
+    "detail": "三星升级其 Bespoke 智能冰箱，集成 Google Gemini AI 模型。新功能可自动识别冰箱内食物，优化库存管理。这是生成式 AI 从云端向边缘消费硬件下沉的典型案例，展示了大厂如何将大模型能力嵌入日常物联网设备。合作旨在提升用户体验，通过视觉识别技术减少手动输入。此举表明 Google 正积极将 Gemini 能力扩展至硬件合作伙伴生态，三星则借此增强其智能家居产品竞争力，推动 AI 在家庭场景的普及应用，标志着端侧 AI 落地的新进展。",
+    "tags": [
+      "News",
+      "Consumer AI",
+      "Google"
+    ],
+    "link": "https://qz.com/samsung-bespoke-fridge-google-gemini-ai-food-recognition-051126",
+    "date": "2026-05-12",
+    "id": "17786209825064"
+  },
+  {
     "title": "Qxotic.ai 推出 JVM 原生 AI 栈",
     "summary": "专为 JVM 打造的 AI 基础设施，支持纯 Java 推理与加速。",
     "detail": "Qxotic.ai 正式发布专为 JVM 生态设计的 AI 基础设施栈，旨在为全球金融及关键任务系统提供 AI 主权。其核心包含多后端张量引擎，支持 Panama、CUDA 及 Metal 加速，实现“一次编写，随处加速”。提供纯 Java 的 GGUF 与 Safetensors 读写支持，无需 native bindings。此外，项目兼容 GraalVM 原生镜像，显著减小 footprint 并加快启动。此举消除了 Python 互操作开销，为高稳定性企业级应用提供了原生 LLM 推理方案，标志着 JVM 在 AI 架构层的重要突破。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.proxyface.com",
     "date": "2026-05-10",
     "id": "17784463615862"
-  },
-  {
-    "title": "Lorein：持久化本地优先 AI 架构项目",
-    "summary": "GitHub 开源 Lorein 架构，构建持久合成认知实体。",
-    "detail": "Lorein 是一个历时 4 年独立开发的持久化合成认知实体架构。主打本地优先（Local-First）设计，旨在从头构建可持续的 AI 认知系统。为开发者提供了不同于云端 API 的本地化 AI 架构参考，适合探索主权实体及离线 AI 应用开发。项目强调数据主权与持久记忆，试图解决当前 LLM 无状态问题。代码完全开源，适合研究自主 Agent 架构的研究者。虽处于早期，但为去中心化 AI 提供了新思路，值得关注其后续技术演进与社区贡献。",
-    "tags": [
-      "Dev",
-      "Architecture",
-      "Local-First"
-    ],
-    "link": "https://github.com/AnonymousNomad/LOREIN-Sovereign-Entity",
-    "date": "2026-05-10",
-    "id": "17784463615863"
-  },
-  {
-    "title": "Stack Graveyard：AI 驱动的 NPM 依赖死亡追踪",
-    "summary": "新工具利用 AI 分析 NPM 包健康度，预警依赖风险。",
-    "detail": "Stack Graveyard 利用 AI 分析 NPM 包的生命周期状态，提供依赖树“鬼魂检测”。通过下载量、提交记录等数据评分，预警即将废弃的包。帮助开发者在依赖破坏项目前识别风险，优化技术栈健康度，提供 GitHub 徽章及即时风险报告。支持风险分级（从 Thriving 到 Tombstone），覆盖 155+ 包实时数据。开发者可粘贴依赖列表获取 instant AI 风险报告，有效防止因维护者弃坑导致的生产事故，是现代化前端工程化的重要辅助工具。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "NPM"
-    ],
-    "link": "https://www.stackgraveyard.dev/",
-    "date": "2026-05-10",
-    "id": "17784463615864"
-  },
-  {
-    "title": "彭博社：人形机器人处于 AI 炒作周期下一阶段",
-    "summary": "彭博分析人形机器人技术现状与 AI 炒作周期的关系，提示理性看待。",
-    "detail": "彭博社深度分析指出，人形机器人被视为 AI 炒作周期的下一阶段，但当前技术尚未达到市场 hype 所暗示的先进程度。文章探讨了硬件限制与 AI 软件能力之间的显著差距，行业需理性看待落地时间表。这对投资者和开发者而言是重要的冷却信号，提示关注实际制造能力而非单纯的概念炒作。该新闻在 Hacker News 上引发讨论，反映了社区对硬件落地难度的共识，建议从业者关注供应链与实际场景验证，避免盲目跟风投资。对于机器人初创公司，这意味着需要更多关注底层执行器与控制算法的突破，而非仅仅依赖大模型赋能。市场需回归理性，重视工程化落地挑战。",
-    "tags": [
-      "News",
-      "Robotics",
-      "Industry"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-05-08/humanoid-robots-aren-t-as-advanced-as-the-ai-hype-cycle-suggests",
-    "date": "2026-05-10",
-    "id": "17784401050870"
-  },
-  {
-    "title": "基于 AMD MI300X 的多 Agent CNC 制造系统",
-    "summary": "Hugging Face 分享基于 AMD 硬件的多智能体制造系统架构与实现细节。",
-    "detail": "该项目展示了如何在 AMD MI300X 上构建多 Agent CNC 可制造性系统 MachinaCheck，源自 Lablab AI 黑客松。架构包含 STEP 文件解析、操作分类（Qwen 2.5 7B）、工具匹配及可行性决策 Agent。这是一个典型的工业 AI 落地案例，证明了开源模型在特定垂直领域结合专用硬件的潜力，为制造业 AI 部署提供了参考架构，展示了非 Transformer 组件与 LLM 协同工作的混合模式，降低了纯大模型依赖的成本。对于工业开发者，这种混合架构能有效减少 Token 消耗，提高响应速度，是边缘计算与云端大模型结合的典范，具有极高的参考价值。",
-    "tags": [
-      "Dev",
-      "Multi-Agent",
-      "AMD"
-    ],
-    "link": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck",
-    "date": "2026-05-10",
-    "id": "17784401050871"
-  },
-  {
-    "title": "Behalf：首款代为发送分手信息的 AI 代理",
-    "summary": "一款 AI 代理帮助用户发送分手短信并处理后续回复，引发伦理讨论。",
-    "detail": "Behalf 是一款创新的消费级 AI 应用，旨在帮助用户发送难以启齿的分手信息。AI 作为公开代理人发送 iMessage，并在 72 小时内处理对方回复，避免用户直接面对冲突。产品明确标识 AI 身份，不伪装成用户。这反映了 AI Agent 在情感社交领域的极端应用尝试，引发了关于伦理与人际关系的讨论，展示了 Agent 自主处理长期对话的能力，为情感类 AI 产品提供了新的交互范式。尽管存在争议，但它解决了部分用户的心理负担，展示了 AI 在敏感社交场景中的潜在价值与风险，值得行业观察其用户反馈。",
-    "tags": [
-      "New",
-      "AI Agent",
-      "Consumer"
-    ],
-    "link": "https://behalf.love",
-    "date": "2026-05-10",
-    "id": "17784401050882"
   }
 ]
