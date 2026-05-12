@@ -1,5 +1,83 @@
 [
   {
+    "title": "AI 语音初创 Vapi 获 5 亿美元估值，击败 40 家竞品赢得亚马逊 Ring 合作",
+    "summary": "Vapi 估值达 5 亿美元，成为亚马逊 Ring 首选 AI 语音平台。",
+    "detail": "**融资亮点**：AI 语音初创公司 Vapi 最新估值达 5 亿美元。\n**核心事件**：在击败超过 40 家竞争对手后，被亚马逊 Ring 选为其 AI 语音平台合作伙伴。\n**行业影响**：标志着语音 AI 技术在智能家居领域的商业化落地加速，头部效应显现，验证了实时语音交互在消费级硬件中的巨大潜力。",
+    "tags": [
+      "News",
+      "Voice AI",
+      "Funding"
+    ],
+    "link": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
+    "date": "2026-05-12",
+    "id": "17785871743710"
+  },
+  {
+    "title": "技术观点：SQLite 是 AI Agent 的最佳状态存储方案",
+    "summary": "作者提出利用 mvSQLite 管理 Agent 文件系统状态，支持时间旅行。",
+    "detail": "**技术观点**：作者论证 SQLite 是 AI Agent 状态管理的理想选择。\n**核心方案**：利用 mvSQLite 实现多版本数据存储，支持 Agent 文件系统“时间旅行”，无需额外成本即可读取历史快照。\n**价值**：有效解决 LLM 工作过程中的信息销毁问题，为多租户 Agent Harness 提供低成本、 persistent 的存储架构。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Database"
+    ],
+    "link": "https://su3.io/posts/willow",
+    "date": "2026-05-12",
+    "id": "17785871743711"
+  },
+  {
+    "title": "Prave 发布：专为 Claude Skills 打造的管理与部署平台",
+    "summary": "支持多 Agent 技能格式统一，实现一次编写到处部署。",
+    "detail": "**产品定位**：Prave 是专为 Claude Skills 设计的管理层，支持发现、审计和部署。\n**核心功能**：支持一次编写技能，部署到 Claude、Cursor、Gemini 等多平台。\n**亮点**：提供技能审计、实时触发跟踪及统一格式（SKILL.md），简化 Agent 技能分发流程，解决多 Agent 生态碎片化问题。",
+    "tags": [
+      "New",
+      "AI Agents",
+      "Product Hunt"
+    ],
+    "link": "https://prave.app/",
+    "date": "2026-05-12",
+    "id": "17785871743712"
+  },
+  {
+    "title": "利用 Haskell 类型系统压缩 AI Agent 上下文 Token",
+    "summary": "提出用 Haskell 强类型系统减少 Agent 上下文消耗，提升推理效率。",
+    "detail": "**技术探索**：提出使用 Haskell 进行 AI Agent 开发以压缩 Token 消耗。\n**核心逻辑**：利用强类型系统和效应系统作为 Agent 推理合约，减少上下文窗口占用。\n**意义**：针对 Context Window 瓶颈提供函数式编程新思路，通过类型即合约降低推理成本，提升 Agent 代码生成质量。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Programming"
+    ],
+    "link": "https://blog.dan-gilmour.com/post/agentic-ai-token-compression",
+    "date": "2026-05-12",
+    "id": "17785871743713"
+  },
+  {
+    "title": "谷歌 DeepMind 研究员论文：AI 能模拟意识但无法实例化",
+    "summary": "论文提出“抽象谬误”，论证算法符号操作无法产生物理体验。",
+    "detail": "**理论突破**：谷歌 DeepMind 研究员发表论文质疑 AI 意识可能性。\n**核心论点**：提出“抽象谬误”，认为算法符号操作无法实例化物理体验，区分模拟与实例化。\n**影响**：为 AI 伦理及安全评估提供新的本体论框架，挑战计算功能主义，强调物理构成对意识的重要性。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Research"
+    ],
+    "link": "https://philpapers.org/archive/LERTAF.pdf",
+    "date": "2026-05-12",
+    "id": "17785871743714"
+  },
+  {
+    "title": "UCTV 视频：AI 时代的推理与学习几何学",
+    "summary": "探讨 AI 推理背后的几何结构，适合研究人员深入理解学习机制。",
+    "detail": "**学术研究**：UCTV 发布关于 AI 推理与学习几何学的视频。\n**内容概要**：探讨 AI 时代下推理过程的几何结构表示及其在学习中的作用。\n**适用人群**：适合研究人员及进阶开发者观看，有助于深入理解机器学习底层理论机制及推理模型的数学基础。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Video"
+    ],
+    "link": "https://www.youtube.com/watch?v=82eqQ6oEDi4",
+    "date": "2026-05-12",
+    "id": "17785871743715"
+  },
+  {
     "title": "大规模 NPM 供应链攻击波及 Mistral AI",
     "summary": "攻击影响 TanStack 及 Mistral AI 等 170 个包，警示供应链安全。",
     "detail": "SafeDep 报告披露大规模供应链攻击，波及 TanStack、Mistral AI 等 170 个 npm 及 PyPI 包。此次事件凸显开源软件供应链安全风险，直接影响 AI 开发依赖。文章强调需使用 SCA 工具扫描依赖并生成 SBOM 以执行策略。对于 AI 领域，需特别关注 AI Agent 发现与监控，审计代理行动。开发者应在安装时阻断恶意包，并在 CI/CD 管道中加强安全。此外，MCP Server 需防止 AI 编码代理内部威胁。建议组织立即审查依赖树，启用运行时安全审计，防止恶意代码通过依赖注入窃取数据或破坏系统稳定性，确保 AI 工具链安全。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/StacyStarchum/Ai-agent-passport-",
     "date": "2026-05-10",
     "id": "17784249977931"
-  },
-  {
-    "title": "72 个 AI 模型品牌推荐基准测试发布",
-    "summary": "PeakToken 测试 72 个模型覆盖 166 类别，追踪品牌推荐趋势。",
-    "detail": "PeakToken 发布了 AI 品牌智能报告，测试了 72 个 AI 模型覆盖 166 个技术类别。数据显示 AWS、Cloudflare 等公司在 AI 推荐中占据主导。该工具允许企业追踪其品牌在 AI 模型中的推荐率，揭示了 AI 训练数据如何反映现实世界的品牌声誉，为品牌优化提供了新的数据维度。",
-    "tags": [
-      "News",
-      "LLM",
-      "Data"
-    ],
-    "link": "https://peaktoken.ai/",
-    "date": "2026-05-10",
-    "id": "17784249977932"
-  },
-  {
-    "title": "训练 AI 代码审查本能：应对速度超越理解",
-    "summary": "Siftly 提出开发者需训练审查 AI 生成代码的新技能。",
-    "detail": "随着开发者从'写代码'转向'审查 AI 代码'，Siftly 指出行业面临'速度超越理解'的风险。审查 AI 生成的代码需要不同的思维肌肉，因为缺乏上下文且代码看似自信却可能错误。该工具旨在帮助开发者训练审查本能，确保在享受 AI 编码效率的同时，不牺牲代码质量和安全性，适应新的协作模式。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Workflow"
-    ],
-    "link": "https://siftly.dev/announcement",
-    "date": "2026-05-10",
-    "id": "17784249977933"
-  },
-  {
-    "title": "Cyber.md：面向 AI 智能体的安全姿态文件",
-    "summary": "Baz 推出 cyber.md 概念，为 AI 开发提供版本化安全指导。",
-    "detail": "针对 AI 智能体自主重构代码带来的安全挑战，Baz 提出了'cyber.md'新概念。这是一个版本化的安全姿态文件，智能体可读取、diff 并应用其中的安全不变量和测试建议。它不同于传统的漏洞报告，而是将安全指导嵌入开发流程，确保在 AI 高速生成代码时，核心安全边界不被突破，适用于 Agent 原生开发环境。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://baz.co/resources/cyber-md-ai-native-posture-that-speaks-agent",
-    "date": "2026-05-10",
-    "id": "17784249977934"
-  },
-  {
-    "title": "IEA 报告揭示 AI 能耗真相",
-    "summary": "IEA 发布 2025 能源报告，分析 AI 数据中心电力消耗占比。",
-    "detail": "国际能源署 (IEA) 最新报告估算 2025 年 AI 能耗数据。目前数据中心占全球电力 1.5%，AI 专用数据中心能耗增长迅速。报告区分了 AI 与非 AI 数据中心能耗，指出中期预测存在不确定性，但为行业能源规划提供了关键基准，引发对 AI 碳足迹的深入讨论。",
-    "tags": [
-      "News",
-      "Energy",
-      "IEA"
-    ],
-    "link": "https://hannahritchie.substack.com/p/ai-electricity-2025",
-    "date": "2026-05-10",
-    "id": "17784193290840"
-  },
-  {
-    "title": "Anthropic 与 OpenAI 推企业合资服务",
-    "summary": "两大巨头联手推出企业级 AI 服务合资项目，布局 B 端市场。",
-    "detail": "Anthropic 和 OpenAI 计划启动合资企业，专注于企业级 AI 服务。此举标志着头部模型厂商从单纯提供 API 转向深度垂直整合，旨在解决企业部署中的合规与定制化难题。这将加剧企业 AI 服务市场的竞争，可能重塑 B 端 AI 交付模式。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "OpenAI"
-    ],
-    "link": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
-    "date": "2026-05-10",
-    "id": "17784193290841"
-  },
-  {
-    "title": "AI Gilfoyle 提示词优化技巧",
-    "summary": "Hacker News 热议系统提示词技巧，通过角色设定节省 Token。",
-    "detail": "社区分享\"AI Gilfoyle\"系统提示词策略，通过设定直截了当的角色人格，去除无用客套话。该方法能显著减少 Token 消耗并提高响应效率，适用于开发者优化 Agent 交互流程。体现了提示词工程在成本控制与效率提升上的微观创新。",
-    "tags": [
-      "Dev",
-      "Prompt",
-      "LLM"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48083469",
-    "date": "2026-05-10",
-    "id": "17784193290842"
   }
 ]
