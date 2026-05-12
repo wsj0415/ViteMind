@@ -13,6 +13,58 @@
     "id": "17785402717651"
   },
   {
+    "title": "Mistral AI NPM 包遭入侵安全警告",
+    "summary": "Mistral AI 官方 TypeScript 客户端 NPM 包被确认 compromised，开发者需立即检查。",
+    "detail": "Mistral AI 的官方 NPM 包 `@mistralai/mistralai` 被报告存在安全隐患。GitHub issue 指出该包可能已被篡改，这对依赖该 SDK 的企业和个人开发者构成直接风险。建议立即审查依赖项，暂停使用受影响版本，并关注官方修复进展。此事件凸显了供应链安全在 AI 开发中的重要性，开发者需警惕第三方包风险，确保构建环境安全，防止密钥泄露或恶意代码注入影响生产系统。同时需检查 CI/CD 流程，验证包完整性哈希，避免类似供应链攻击导致的数据泄露或服务中断。",
+    "tags": [
+      "News",
+      "Security",
+      "Mistral"
+    ],
+    "link": "https://github.com/mistralai/client-ts/issues/217",
+    "date": "2026-05-11",
+    "id": "17785441066170"
+  },
+  {
+    "title": "通用汽车裁员 IT 员工转聘 AI 人才",
+    "summary": "通用汽车裁减数百名 IT 员工，转而招聘具备更强 AI 技能的人才，反映行业转型。",
+    "detail": "通用汽车（GM）近期裁减了数百名传统 IT 岗位员工，目的是重新招聘拥有更强 AI 技能的人才。这一举动标志着传统汽车行业向 AI 驱动转型的决心，也反映了劳动力市场对 AI 技能需求的急剧变化。企业正在重组团队以适应智能化生产与管理，AI 技能已成为核心竞争力的关键指标。这表明传统行业正在经历深刻的人才结构升级，非 AI 技能岗位面临淘汰风险，从业者需尽快提升 AI 应用能力以适应未来职场需求，企业也将更注重 AI 落地实效。",
+    "tags": [
+      "News",
+      "Industry",
+      "Jobs"
+    ],
+    "link": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
+    "date": "2026-05-11",
+    "id": "17785441066171"
+  },
+  {
+    "title": "AWS 与 Hugging Face 详解基础模型训练架构",
+    "summary": "深入解析 AWS 上基础模型训练与推理的构建模块，探讨 scaling laws 新趋势。",
+    "detail": "Hugging Face 与 AWS 合作发布文章，详解基础模型训练与推理的基础设施构建块。文章指出 scaling 不再仅靠预训练，后训练（SFT、RL）和测试时计算（test-time compute）成为新增长点。这需要紧耦合的加速器计算和高带宽网络。为开发者提供了关于基础设施收敛需求的深度技术视角。随着模型生命周期演变，基础设施需支持预训练、后训练及推理的 convergent 需求，优化成本与性能。开发者应关注 NVIDIA 提出的三定律，调整架构以支持长思考与多样本策略，提升模型最终表现。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "LLM"
+    ],
+    "link": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+    "date": "2026-05-11",
+    "id": "17785441066172"
+  },
+  {
+    "title": "开源项目：基于 Claude 的战略架构师技能",
+    "summary": "GitHub 开源新项目 Genesis Architect，利用 Claude 进行项目 scaffolding 与市场研究。",
+    "detail": "开发者发布了 `genesis-architect` 开源项目，这是一个基于 Claude 的技能工具，旨在进行战略性的项目 scaffolding 及预构建市场研究。该项目展示了 AI Agent 在软件架构设计初期的应用潜力，允许开发者在编码前获得结构化的市场与技术反馈。适合关注 AI 辅助软件开发工作流的开发者尝试。通过集成 MCP 或类似协议，此类工具可连接外部数据源，增强架构决策的证据基础，减少盲目开发，提升项目启动阶段的效率与成功率。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Agent"
+    ],
+    "link": "https://github.com/maioio/genesis-architect",
+    "date": "2026-05-11",
+    "id": "17785441066174"
+  },
+  {
     "title": "深度解析 AI Scaling 趋势与实验室盈利模式",
     "summary": "针对 Dwarkesh 提出的 AI 四大关键问题，作者给出深度分析与回答。",
     "detail": "回应 Dwarkesh Podcast 的征文竞赛，探讨 AI 为何仍在 Scaling、大实验室如何盈利、对齐资源分配及各国如何跟进。作者分析了 RL regime 下的计算效率与进展速度，反驳了进展将放缓的直觉，认为 AI 发展速度甚至可能因新架构（如 Spud, Mythos）而加快。几年前 idea 认为 AI 进展随 RL 深入会放缓，因 horizon 长度增加。但进展似乎很快。作者认为没有单一银弹被忽略，AI 发展复杂。Dwarkesh 是 SF 最具影响力思想家之一，嘉宾包括 CEO 和科学家。文章提供对四大开放问题的深度回答，洞察行业资本与资源分配方向，来自 12grams of carbon 博客，分析 House Amodei 相关话题。",
@@ -1246,57 +1298,5 @@
     "link": "https://github.com/wes-zheng/ai_institutions/blob/main/technical_report/paper.md",
     "date": "2026-05-10",
     "id": "17783949591423"
-  },
-  {
-    "title": "DigitalOcean 推出 AI 原生云基础设施",
-    "summary": "DigitalOcean 发布博客文章，详解其支持推理时代的 AI 原生云架构。",
-    "detail": "DigitalOcean 发布了关于\"Powering the Inference Era\"的博客文章，详细介绍其 AI 原生云基础设施。随着 AI 推理需求激增，该方案旨在为开发者提供更高效、经济的模型部署环境。此举反映了云服务商正针对 AI 工作负载优化底层架构，以满足 2026 年日益增长的推理算力需求。文章探讨了如何在云端更好地支持 AI 应用，标志着云基础设施正从训练向推理侧重转型，为开发者提供更灵活的 AI 原生云服务选择，降低部署门槛。",
-    "tags": [
-      "News",
-      "Cloud",
-      "Infrastructure"
-    ],
-    "link": "https://www.digitalocean.com/blog/powering-the-inference-era",
-    "date": "2026-05-10",
-    "id": "17783949591424"
-  },
-  {
-    "title": "开发者讨论 Claude 替代方案及 GLM 编码计划",
-    "summary": "Hacker News 热议 AI 编码计划替代方案，关注 GLM 性价比。",
-    "detail": "Hacker News 社区正在热烈讨论 Claude 和 ChatGPT 的最佳替代编码计划。由于 Claude 使用限制降低，开发者转向关注中国 AI 模型（如 GLM Coding Plan），其基准测试接近 Sonnet 但价格更低，月费仅 18 美元。讨论聚焦于性能、使用限额及数据隐私，反映了开发者对高性价比 coding 工具的迫切需求。用户表示不担心数据去向，更关注性能与限额，这表明在编码场景下，实用主义正逐渐占据主导，促使市场出现更多多元化选择。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Pricing"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48081266",
-    "date": "2026-05-10",
-    "id": "17783949591425"
-  },
-  {
-    "title": "英伟达 AI 投资承诺超 400 亿美元",
-    "summary": "英伟达加速 AI 基础设施投资，股权承诺超 400 亿，巩固芯片霸主地位。",
-    "detail": "英伟达在 2026 年加速投资步伐，股权承诺已超 400 亿美元。此前对 Intel 的 50 亿美元投资现值超 250 亿美元，回报丰厚。近期与数据中心运营商 IREN 达成协议，可投资 21 亿美元；与康宁公司 pact 可投资 32 亿美元。通过投资上下游企业，英伟达旨在确保技术生态需求，巩固其在 AI 基础设施 stack 中的核心地位，显示出资本与技术的深度绑定趋势。",
-    "tags": [
-      "News",
-      "Nvidia",
-      "Investment"
-    ],
-    "link": "https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html",
-    "date": "2026-05-09",
-    "id": "17785291839670"
-  },
-  {
-    "title": "ToolOps：生产级 AI Agent 工具中间件",
-    "summary": "通过装饰器实现工具调用的工业级 resilience。",
-    "detail": "ToolOps 是一个框架无关的中间件 SDK，旨在解决 AI Agent 工具调用的生产就绪问题。通过单一装饰器即可为工具调用添加工业级缓存、弹性和可观察性功能。支持 Python，已上架 PyPI。对于正在构建复杂 AI Agent 系统的开发者而言，该工具能显著降低运维复杂度，提升系统稳定性。随着 Agent 从 demo 走向生产，此类基础设施工具将成为标配，帮助开发者处理重试逻辑、速率限制及调用追踪。它是 Agent 基础设施层的重要补充，值得关注其社区 adoption 情况。该项目的出现表明 AI 工程化正在进入深水区，开发者不再满足于简单的 API 调用，而是追求高可用性与可维护性，这对于企业级 AI 应用落地具有积极意义。",
-    "tags": [
-      "Dev",
-      "Python",
-      "Agent"
-    ],
-    "link": "https://github.com/hedimanai-pro/toolops",
-    "date": "2026-05-09",
-    "id": "17783707989840"
   }
 ]
