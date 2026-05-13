@@ -1,5 +1,83 @@
 [
   {
+    "title": "苹果正构建最盈利的 AI 收费亭",
+    "summary": "分析指出苹果正通过生态优势建立高利润 AI 分发渠道，影响开发者收益。",
+    "detail": "文章深入分析苹果在 AI 领域的战略定位，将其比作“最盈利的收费亭”。通过严格控制硬件、操作系统及应用商店入口，苹果可能在 AI 模型分发和服务调用中建立新的收费模式。这种生态闭环策略不仅巩固了其硬件护城河，还可能对第三方 AI 开发者的利润空间产生挤压，标志着科技巨头在 AI 商业化路径上的竞争进入新阶段，投资者需关注其服务收入变化。",
+    "tags": [
+      "News",
+      "Apple",
+      "Business"
+    ],
+    "link": "https://seekingalpha.com/article/4902208-apple-quietly-building-most-profitable-ai-toll-booth",
+    "date": "2026-05-13",
+    "id": "17787053151530"
+  },
+  {
+    "title": "AICTL：基于 Rust 的原生 macOS AI 代理",
+    "summary": "开源 Rust 项目，提供终端、桌面和服务器三种 AI 代理模式，支持安全策略。",
+    "detail": "AICTL 是一个基于 Rust 编写的开源原生 AI 代理，旨在提供安全、高效的本地 AI 交互体验。它包含三个核心组件：macOS 桌面应用、命令行工具（CLI）以及 LLM HTTP 代理服务器。所有组件共享同一核心库，支持内置安全策略、提示词注入 blocking 及审计日志。开发者可通过单一二进制文件运行云端或本地模型，并将其作为 OpenAI 兼容代理集成到现有工作流中，极大简化了多模型管理。",
+    "tags": [
+      "New",
+      "Dev",
+      "Rust"
+    ],
+    "link": "https://aictl.app/",
+    "date": "2026-05-13",
+    "id": "17787053151531"
+  },
+  {
+    "title": "构建供 AI 代理学习的 Go 参考项目",
+    "summary": "作者创建标准 Go 项目结构，旨在规范 AI 代理的代码生成，减少维护成本。",
+    "detail": "作者针对 AI 编程代理输出结构不一致的痛点，构建了一个标准化的 Go 参考项目。该项目不仅包含最小化的 HTTP/RPC 服务代码，还特意在 `docs/` 目录中编写了供 AI 代理阅读的布局文档。通过提供具体的代码结构示例（如 `internal/books/`），旨在引导 AI 代理生成符合最佳实践的代码，减少非确定性输出带来的维护成本，为 AI 辅助开发提供了新的范式。",
+    "tags": [
+      "Dev",
+      "Go",
+      "Agent"
+    ],
+    "link": "https://aran.dev/posts/why-i-built-a-reference-go-project/",
+    "date": "2026-05-13",
+    "id": "17787053151532"
+  },
+  {
+    "title": "Meta 禁止用户在 Threads 屏蔽 AI 账号",
+    "summary": "Meta 政策引发争议，用户无法在 Threads 上屏蔽官方 AI 账户，影响体验。",
+    "detail": "据 The Verge 报道，Meta 在 Threads 平台上实施了新政策，禁止用户屏蔽其官方 AI 账户。这一举动引发了关于用户自主权和 AI 侵扰性的广泛争议。作为拥有庞大用户基数的社交平台，Meta 强制推送 AI 交互的行为反映了其急于推广 AI 产品的战略意图，但也可能损害用户体验。此举凸显了大型科技公司在 AI 部署与用户隐私控制之间的平衡难题。",
+    "tags": [
+      "News",
+      "Meta",
+      "Policy"
+    ],
+    "link": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
+    "date": "2026-05-13",
+    "id": "17787053151533"
+  },
+  {
+    "title": "Arrivl：专为 AI 代理流量设计的分析工具",
+    "summary": "追踪 ChatGPT、Claude 等 AI 代理如何发现和交互网站，优化 AI 流量 SEO。",
+    "detail": "Arrivl 是一款专为 AI 时代设计的网站分析工具，用于追踪 AI 代理（如 ChatGPT、Claude、Perplexity 等）如何发现、读取及交互网站内容。平台支持跟踪 30 多个 AI 和机器人平台的流量，提供实时数据和历史趋势对比。随着 AI 搜索占比提升，传统 SEO 面临挑战，该工具帮助开发者理解机器流量行为，优化网站内容以适应 AI 抓取，是 AI 流量监控领域的新兴解决方案。",
+    "tags": [
+      "New",
+      "Analytics",
+      "SEO"
+    ],
+    "link": "https://arrivl.ai/",
+    "date": "2026-05-13",
+    "id": "17787053151534"
+  },
+  {
+    "title": "Devin AI 代理支持本地 Android 模拟",
+    "summary": "编程助手 Devin 更新环境配置，新增 Android 模拟器支持，扩展移动开发能力。",
+    "detail": "AI 编程代理 Devin 更新了其环境配置文档，正式宣布支持本地 Android 模拟功能。这意味着 Devin 现在能够在沙盒环境中直接构建、测试和调试 Android 应用程序，无需开发者手动配置复杂的本地环境。这一更新显著扩展了 Devin 的移动开发能力，使其能处理更复杂的全栈任务，进一步降低了 AI 代理在实际工程落地中的技术摩擦，提升了自动化编码的适用范围。",
+    "tags": [
+      "Dev",
+      "Devin",
+      "Android"
+    ],
+    "link": "https://docs.devin.ai/onboard-devin/environment/android-emulation",
+    "date": "2026-05-13",
+    "id": "17787053151535"
+  },
+  {
     "title": "医疗 AI 重大突破：OpenEvidence 获 65% 美国医生使用",
     "summary": "NBC 报道 65% 美国医生 quietly 使用 OpenEvidence 辅助临床决策。",
     "detail": "医疗行业 AI 应用里程碑。OpenEvidence 作为医生专用聊天机器人，月处理 2700 万次临床 encounter。哈佛教授指出其增长指数级，60% 搜索用于临床决策。标志着 AI 从消费端走向专业核心领域，显著改变医疗工作流。",
@@ -1220,83 +1298,5 @@
     "link": "https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/",
     "date": "2026-05-11",
     "id": "17785345133312"
-  },
-  {
-    "title": "代理式 AI 与 AI 代理的治理转变",
-    "summary": "区分 AI 代理与代理式系统，揭示基础设施治理缺口。",
-    "detail": "文章区分 AI 代理与代理式系统，指出后者在生产环境中自主决策带来的治理缺口。安全团队需重新审视访问控制和事件响应。强调代理拥有工具、身份和上下文，而聊天机器人仅是对话。工作流自动化不一定是代理。当 AI 系统开始自主决定下一步行动时，工程领导者常将其视为营销噪音，但这打破了安全团队关于访问控制的所有假设，基础设施差距正在打开。",
-    "tags": [
-      "Dev",
-      "Governance",
-      "Security"
-    ],
-    "link": "https://rootcx.com/blog/agentic-ai-vs-ai-agents",
-    "date": "2026-05-11",
-    "id": "17785291839674"
-  },
-  {
-    "title": "AI 会引发下一次大分流吗？",
-    "summary": "借鉴历史 shock 分析 AI 对社会经济制度的潜在影响。",
-    "detail": "引用《国家为何失败》中黑死病案例，分析关键节点如何放大制度差异。AI 可能像工业革命一样成为 shock，加速科学研究。不同制度对 AI 的反应可能导致新的社会经济大分流。如果模型按过去三年速率改进，将 underpin 生物研究等技术。西方与东方对劳动力 shock 的历史反应不同，导致封建主义减弱或增强。AI 作为 critical juncture，可能 profoundly alter societies 基于现有制度差异。",
-    "tags": [
-      "News",
-      "Economy",
-      "Society"
-    ],
-    "link": "https://www.lawfaremedia.org/article/will-ai-produce-the-next-great-divergence",
-    "date": "2026-05-11",
-    "id": "17785291839675"
-  },
-  {
-    "title": "从零构建 AI Agent 实战教程",
-    "summary": "不用框架，用 Python 手写 AI Agent 核心逻辑。",
-    "detail": "2026 年被视为 AI Agent 之年，Claude Code、Codex 等工具 power 已成为开发者必备。本系列教程旨在摒弃现有框架，引导开发者用 Python 从头编写 Agent 核心循环，不依赖库。涵盖运行循环、LLM 连接、用户输入及上下文记忆四大要素，旨在深入理解 Agent 底层机制而非快速交付。通过手写代码，开发者可掌握感知、推理及行动循环的本质，适合希望深入原理的工程师。虽然这不是最快 shipping 方式，但是最佳学习路径，帮助理解 hood 下工作原理，构建 basic AI agent。",
-    "tags": [
-      "Dev",
-      "AI Agent",
-      "Python"
-    ],
-    "link": "https://www.ruxu.dev/articles/ai/build-a-basic-ai-agent/",
-    "date": "2026-05-11",
-    "id": "17785204881220"
-  },
-  {
-    "title": "AIQ Rank：量化你的 AI 工作流-native 程度",
-    "summary": "免费工具扫描 Claude/Cursor 活动，生成 AI 能力评分。",
-    "detail": "AIQ Rank 推出新工具，通过分析 Claude Code、Cursor、OpenCode 等工具的实际使用数据，为用户生成 AI 原生能力评分。数据本地处理保护隐私，用户可 review 上传内容，Transcripts never leave your machine。提供技能细分 breakdown，如并行 Agent、工具广度、规划能力等。个人免费，企业版处于私有测试阶段。旨在帮助团队和个人评估并提升 AI 工具使用效率，类似 AI craft 的健身追踪器，让能力可视化，支持 leaderboard 分享，bragging rights backed by data。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Evaluation"
-    ],
-    "link": "https://www.aiqrank.com",
-    "date": "2026-05-11",
-    "id": "17785204881221"
-  },
-  {
-    "title": "以客户为中心驱动 AI 创新工程实践",
-    "summary": "麻省理工评论：企业应从客户需求反向推导技术方案。",
-    "detail": "麦肯锡研究显示多数数字化投资未达预期，组织捕获价值少于三分之一，因企业常由技术驱动而非需求驱动。MIT 科技评论文章倡导“客户反向工程”mindset，将客户体验置于转型核心。Capital One 案例表明，让工程师贴近客户能激发侧面创新，实现价值倍增，避免碎片化解决方案。此策略强调从客户挑战反向推导技术步骤，实现敏捷开发。组织若翻转脚本，以客户为中心，可实现 outsized results，避免 failed transformations，解决 disjointed customer experiences。",
-    "tags": [
-      "News",
-      "Strategy",
-      "Enterprise"
-    ],
-    "link": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
-    "date": "2026-05-11",
-    "id": "17785204881222"
-  },
-  {
-    "title": "Project44 推出 AI 物流操作系统 Autopilot",
-    "summary": "新系统宣称提供无限劳动力，赋能物流自动化。",
-    "detail": "物流可视化平台 Project44 发布名为 Autopilot 的 AI enabled 物流操作系统。该系统旨在通过 AI 技术提供“无限劳动力”，优化物流运营流程。此举标志着 AI 在垂直行业物流领域的进一步落地，试图解决人力瓶颈问题，提升供应链效率。新系统结合了 AI enabled 能力，为物流 OS 带来自动化新范式。FreightWaves 报道指出，这将改变物流运营方式，提供无限 labor 可能性，赋能企业自动化，launches Autopilot an AI-enabled logistics OS。",
-    "tags": [
-      "New",
-      "Logistics",
-      "Automation"
-    ],
-    "link": "https://www.freightwaves.com/news/project44-launches-autopilot-an-ai-enabled-logistics-operating-system-that-offers-infinite-labor",
-    "date": "2026-05-11",
-    "id": "17785204881223"
   }
 ]
