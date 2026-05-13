@@ -1,5 +1,83 @@
 [
   {
+    "title": "纽约时报因 AI 幻觉发布虚假报道引发诚信危机",
+    "summary": "纽约时报引用 AI 生成引言被揭穿，主流媒体面临 AI 准确性挑战。",
+    "detail": "纽约时报加拿大分局局长在报道中误将 AI 生成的观点总结当作真实引言发布，后被读者发现并纠正。该事件暴露了主流新闻机构在引入 AI 辅助报道时的审核漏洞，强调了 AI 不准确信息需被视为严重错误处理的行业标准，对媒体公信力造成冲击。",
+    "tags": [
+      "News",
+      "Media",
+      "Ethics"
+    ],
+    "link": "https://thewalrus.ca/the-new-york-times-got-caught-using-ai-hallucinations-in-its-reporting/",
+    "date": "2026-05-13",
+    "id": "17786433779820"
+  },
+  {
+    "title": "AI 迫使普林斯顿废除 133 年荣誉准则传统",
+    "summary": "普林斯顿大学因 AI 作弊难防，正式废除百年学生自我监管传统。",
+    "detail": "普林斯顿大学宣布废除长达 133 年的学生荣誉准则，原因是生成式 AI 使得传统自我监管机制难以执行。这标志着高等教育在 AI 时代面临的诚信挑战已迫使老牌学府改变百年制度，引发教育界对评估体系重构及 AI 监管政策的深度思考。",
+    "tags": [
+      "News",
+      "Education",
+      "Policy"
+    ],
+    "link": "https://www.theatlantic.com/ideas/2026/05/princeton-ai-honor-code/687144/",
+    "date": "2026-05-13",
+    "id": "17786433779821"
+  },
+  {
+    "title": "重访 AI 时代的“没有银弹”软件工程理论",
+    "summary": "Pragmatic Engineer 探讨 AI 是否为软件工程的新银弹。",
+    "detail": "知名科技通讯 The Pragmatic Engineer 发文重审 40 年前“没有银弹”理论在 AI 时代的适用性。文章深入分析了 AI 是否解决了软件工程的本质复杂性，还是仅提供了新的工具层，为开发者理解 AI 在工程中的实际定位提供了深度视角，否认了单一技术解决所有问题的幻想。",
+    "tags": [
+      "News",
+      "Engineering",
+      "Theory"
+    ],
+    "link": "https://newsletter.pragmaticengineer.com/p/revisiting-no-silver-bullets-in-the",
+    "date": "2026-05-13",
+    "id": "17786433779822"
+  },
+  {
+    "title": "用户质疑 Alexa 未经同意升级对话 AI 功能",
+    "summary": "家长发现儿童 Alexa 设备悄然启用对话 AI，引发隐私担忧。",
+    "detail": "Hacker News 用户反映其受限的儿童 Alexa 设备未经明确选择即升级为对话式 AI，导致儿童与 AI 像人类一样对话。该事件揭示了消费级 AI 硬件在功能更新时的透明度问题， prompting 家长对儿童接触生成式 AI 的安全性与可控性的关注，呼吁更严格的默认设置。",
+    "tags": [
+      "News",
+      "Consumer",
+      "Privacy"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48116806",
+    "date": "2026-05-13",
+    "id": "17786433779823"
+  },
+  {
+    "title": "基于 Cloudflare 的自托管 AI 记忆层开源项目",
+    "summary": "Second Brain 实现跨 AI 工具的自托管记忆同步与 MCP 兼容。",
+    "detail": "新项目 Second Brain 利用 Cloudflare Workers 和 D1 构建自托管 MCP 服务器，实现跨 Claude、ChatGPT 等工具的记忆层同步。该方案支持免费 tier 部署，为开发者提供了隐私友好且低成本的 AI 记忆管理基础设施，适合构建个性化 AI 工作流，解决了数据孤岛问题。",
+    "tags": [
+      "Dev",
+      "MCP",
+      "Cloudflare"
+    ],
+    "link": "https://github.com/rahilp/second-brain-cloudflare",
+    "date": "2026-05-13",
+    "id": "17786433779824"
+  },
+  {
+    "title": "开源本地 AI 编程代理 OpenMonoAgent 发布",
+    "summary": "终端原生 AI 代理，支持本地 LLM 无限 Token 与无云处理。",
+    "detail": "OpenMonoAgent 推出终端原生编码代理，主打本地 LLM 运行与无限 Token 使用。项目基于 C#/.NET 构建，强调 AI 工具应作为基础设施而非订阅服务，为开发者提供了完全可控、无云处理的 AI 开发栈选择，适合隐私敏感场景及离线开发环境，降低长期使用成本。",
+    "tags": [
+      "Dev",
+      "LocalLLM",
+      "OpenSource"
+    ],
+    "link": "https://www.openmonoagent.ai/",
+    "date": "2026-05-13",
+    "id": "17786433779825"
+  },
+  {
     "title": "苹果销售教练应用将引入 AI 生成主持人",
     "summary": "苹果计划在 Sales Coach 应用中使用 AI 生成主持人，提升内部培训效率。",
     "detail": "苹果正在其内部 Sales Coach 应用中集成 AI 生成的虚拟主持人，标志着科技巨头将生成式 AI 深入应用于企业培训和销售流程自动化。通过 AI 驱动的数字人，苹果旨在降低培训成本并提供标准化的销售指导，减少对人力讲师的依赖。这反映了企业级 AI 应用从辅助工具向内容生成核心的转变，可能引发关于员工培训真实性和人机交互伦理的讨论。对于企业软件开发商而言，这是一个明确信号，即 AI 数字员工将成为标配功能，需提前布局相关交互设计与合规性审查，以适应未来职场的人机协作新模式。此外，这种内部应用的成功可能预示着苹果未来在消费者端产品中引入类似 AI 角色的可能性，进一步模糊真实与虚拟的界限。",
@@ -1220,83 +1298,5 @@
     "link": "https://footbeen.com/blog/i-built-a-production-app-with-ai-no-developers",
     "date": "2026-05-10",
     "id": "17784535423720"
-  },
-  {
-    "title": "儿童投资基金会减持 80 亿美元微软股份，警示 AI 风险",
-    "summary": "大型基金减持微软股票，警告 AI disruption 带来的市场风险。",
-    "detail": "克里斯·霍恩旗下的儿童投资基金会大幅削减了价值 80 亿美元的微软持股。这一举动被视为对 AI 技术 disruption 潜在风险的警告。尽管微软是 AI 领域的主要参与者，但投资者开始担忧 AI 泡沫或技术变革带来的市场不确定性，反映了资本市场对 AI 长期价值的审慎态度。大型机构投资者的动向往往预示市场风向，此次减持可能引发其他基金对科技巨头 AI 投入回报率的重新评估，影响后续融资环境。这表明即使是最热门的 AI 概念股，也面临盈利模式验证的压力，市场正在从狂热转向理性分析阶段。",
-    "tags": [
-      "News",
-      "Finance",
-      "Microsoft"
-    ],
-    "link": "https://www.ft.com/content/639703f3-064c-4065-96dc-11a9dfd6d83c",
-    "date": "2026-05-10",
-    "id": "17784535423721"
-  },
-  {
-    "title": "未来办公室展望：充满低语声的 AI 工作空间",
-    "summary": "TechCrunch 探讨 AI 语音技术如何改变未来办公环境。",
-    "detail": "TechCrunch 文章展望了未来办公室场景，预测 AI 语音代理将普及，办公空间将充满人与 AI 交互的低语声。随着语音交互技术成熟，传统键盘输入可能减少，工作流将更依赖自然语言命令。这预示着办公硬件、隐私保护及噪音管理将面临新挑战，AI 正重塑物理工作空间形态。企业需重新设计办公环境以适应人机协作，同时解决隐私泄露风险。语音 AI 的普及将改变沟通方式，可能减少书面记录，增加口头指令依赖，对信息安全提出新要求。此外，这种变化还将影响员工培训及协作流程，推动办公空间向更私密、隔音更好的方向演变。",
-    "tags": [
-      "News",
-      "Workplace",
-      "Voice AI"
-    ],
-    "link": "https://techcrunch.com/2026/05/10/get-ready-for-the-whisper-filled-office-of-the-future/",
-    "date": "2026-05-10",
-    "id": "17784535423722"
-  },
-  {
-    "title": "文化遗产中的对话式 AI 设计框架论文发布",
-    "summary": "新论文提出将对话 AI 融入文化遗产展览的设计框架。",
-    "detail": "最新研究论文提出了一个设计框架，旨在将对话式 AI 增强到文化遗产沉浸式投影体验中。通过马耳他卡拉瓦乔展览案例，研究展示了如何让游客与历史人物对话，同时为策展人提供数据洞察。该框架强调了真实性维护、伦理部署及可扩展集成，为文化遗产机构的 AI 应用提供了可复制模型。混合方法评估显示游客对 AI 伴侣兴趣浓厚，但担心掩盖艺术品本身。这为博物馆及文化遗产地提供了数字化转型的新路径，平衡技术与文化保护。研究还指出，AI 应作为补充角色而非主导，确保历史解释的准确性，避免误导观众，促进文化传承与技术创新的深度融合。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Conversational AI"
-    ],
-    "link": "https://mkenely.com/publications/preprints/from-broadcast-to-dialogue.pdf",
-    "date": "2026-05-10",
-    "id": "17784535423723"
-  },
-  {
-    "title": "AI 客服也休假？探讨智能代理的工作时间设定",
-    "summary": "荷兰 ISP AI 客服模拟人类工作时间，引发伦理与设计思考。",
-    "detail": "一位用户发现荷兰某 ISP 的 AI 客服在周日拒绝服务，声称“办公室已关闭”。尽管 AI 无需休息，但设计者使其模拟人类工作时间以管理用户预期。这一案例揭示了 AI 代理设计中的社会规范融入问题，以及如何在技术能力与人类工作流程之间取得平衡，为 AI 伦理设计提供新视角。这种设计避免了用户在不必要时产生依赖，同时也反映了 AI 融入社会结构时的拟人化趋势。未来，AI 代理的行为规范可能成为产品设计的重要考量，影响用户体验及信任度。这表明 AI 不仅需具备技术能力，还需理解并遵守人类社会规则，以实现更和谐的共存。",
-    "tags": [
-      "Dev",
-      "AI Agent",
-      "Ethics"
-    ],
-    "link": "https://debarshibasak.github.io/readables/blogs/eu-ai-right.html",
-    "date": "2026-05-10",
-    "id": "17784535423724"
-  },
-  {
-    "title": "Frona v2026.5.0 发布：自托管个人 AI 代理平台",
-    "summary": "基于 Rust 引擎的自托管 AI 代理平台，支持策略网关和安全沙箱。",
-    "detail": "Frona 发布首个公开版本，主打自托管个人 AI 代理平台。核心采用单一 Rust 引擎和策略语言，提供每 principal 沙箱隔离，无需 Docker 容器即可实现细粒度权限控制。支持自主浏览网页、运行代码及调用工具，具备凭证 vault 和隔离浏览器配置。工具授权、文件路径访问均通过 Cedar 策略语言统一评估。适合注重数据隐私和本地部署的开发者，通过策略网关访问文件、网络及凭证，确保 AI 操作安全可控，为本地 AI Agent 部署提供新范式，解决了传统容器化部署的 overhead 问题，降低了个人部署 AI 助手的门槛。",
-    "tags": [
-      "Dev",
-      "AI Agent",
-      "Rust"
-    ],
-    "link": "https://github.com/fronalabs/frona/releases/tag/v2026.5.0",
-    "date": "2026-05-10",
-    "id": "17784500087850"
-  },
-  {
-    "title": "马里兰州民众承担 20 亿美元电网升级费用服务 AI",
-    "summary": "州政府对联邦能源监管机构投诉，AI 数据中心导致电费激增。",
-    "detail": "马里兰州民众面临 20 亿美元电网升级账单，主要用于服务州外 AI 数据中心。州政府向联邦能源监管机构投诉，称额外成本违反了费率保护承诺。此事件凸显 AI 基础设施扩张带来的能源成本分配争议，可能引发更多地区对数据中心能耗的监管审查。随着 AI 算力需求激增，电力基础设施负担加重，如何平衡技术进步与公众利益成为关键议题。该案例可能成为未来 AI 能源政策制定的重要参考，促使企业承担更多基础设施成本，避免公共资金被过度占用，引发行业对可持续能源使用的关注。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Policy"
-    ],
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises",
-    "date": "2026-05-10",
-    "id": "17784500087851"
   }
 ]
