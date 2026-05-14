@@ -1,5 +1,44 @@
 [
   {
+    "title": "OpenAI 拟对苹果采取法律行动",
+    "summary": "彭博社报道 OpenAI 已聘请外部律所，准备针对苹果采取法律措施。",
+    "detail": "据 TechCrunch 引用彭博社消息，OpenAI 已聘请外部律所评估选项，准备对苹果采取法律行动。报道强调，苹果并非 OpenAI 第一个感到受损的合作伙伴，暗示双方合作可能存在深层利益冲突或信任危机。此举可能涉及 AI 集成权限、数据使用或商业条款分歧。若诉讼成真，将标志着两大科技巨头合作关系的潜在破裂，对 AI 模型在硬件生态中的集成格局产生重大影响。行业观察家认为，这可能重新定义 AI 公司与大型平台方的博弈规则，引发对合作伙伴权益保护的广泛关注，后续进展值得密切追踪。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Apple"
+    ],
+    "link": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
+    "date": "2026-05-14",
+    "id": "17787881309580"
+  },
+  {
+    "title": "IBM 发布 Granite 多语言嵌入模型 R2",
+    "summary": "IBM 开源 Apache 2.0 多语言嵌入模型，支持 32K 上下文及 200+ 语言。",
+    "detail": "IBM 通过 Hugging Face 发布 Granite Embedding Multilingual R2 系列模型。包含 97M 和 311M 两个版本，均采用 Apache 2.0 协议，允许商业自由使用。新模型支持 32K 上下文窗口，覆盖 200 多种语言，并在 MTEB 多语言检索基准中表现优异。该模型支持 Matryoshka 架构，增加了对 9 种编程语言的代码检索支持。适用于企业级检索增强生成（RAG）场景，显著提升跨语言检索质量，为开发者提供高效、开源的多语言嵌入解决方案，进一步扩展了其在技术文档检索中的应用潜力，降低部署成本。",
+    "tags": [
+      "Dev",
+      "IBM",
+      "Embedding"
+    ],
+    "link": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
+    "date": "2026-05-14",
+    "id": "17787881309581"
+  },
+  {
+    "title": "Clawdmeter：Claude Code 用量桌面监控工具",
+    "summary": "全新开源工具，将 Claude Code 使用统计转化为桌面仪表盘。",
+    "detail": "TechCrunch 报道了一款名为 Clawdmeter 的全新开源工具。该工具专为 AI 编码重度用户设计，能够将 Claude Code 的使用统计数据转化为小型桌面仪表盘。开发者可通过此 gadget 实时监控使用情况，优化工作流。该项目体现了社区对 AI 编程辅助工具生态的补充，适合需要精细化管理 AI 编码成本的开发者。作为开源项目，它增强了用户对 AI 辅助编程过程的可控性与透明度。这对于依赖 Claude Code 进行开发的用户尤为重要，有助于更直观地了解使用习惯，提升开发体验与效率，是 AI 编程生态的最新补充。",
+    "tags": [
+      "New",
+      "OpenSource",
+      "Coding"
+    ],
+    "link": "https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/",
+    "date": "2026-05-14",
+    "id": "17787881309582"
+  },
+  {
     "title": "金融服务代理 AI 的数据就绪性挑战",
     "summary": "金融行业部署代理 AI 关键在于数据质量与安全，而非模型本身。",
     "detail": "麻省理工科技评论指出，金融服务公司部署代理 AI 的成功取决于数据质量、安全性和可访问性。Elastic 专家强调需先规模化搜索和保护数据。Gartner 发现超半数金融团队已计划实施代理 AI，但自主 AI 会放大底层数据的优缺点。金融机构需在高速响应外部事件的同时，确保数据能被搜索、保护及上下文化，以实现对复杂工作流的优化和风险控制。",
@@ -1259,44 +1298,5 @@
     "link": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
     "date": "2026-05-12",
     "id": "17785871743710"
-  },
-  {
-    "title": "技术观点：SQLite 是 AI Agent 的最佳状态存储方案",
-    "summary": "作者提出利用 mvSQLite 管理 Agent 文件系统状态，支持时间旅行。",
-    "detail": "**技术观点**：作者论证 SQLite 是 AI Agent 状态管理的理想选择。\n**核心方案**：利用 mvSQLite 实现多版本数据存储，支持 Agent 文件系统“时间旅行”，无需额外成本即可读取历史快照。\n**价值**：有效解决 LLM 工作过程中的信息销毁问题，为多租户 Agent Harness 提供低成本、 persistent 的存储架构。",
-    "tags": [
-      "Dev",
-      "AI Agents",
-      "Database"
-    ],
-    "link": "https://su3.io/posts/willow",
-    "date": "2026-05-12",
-    "id": "17785871743711"
-  },
-  {
-    "title": "Prave 发布：专为 Claude Skills 打造的管理与部署平台",
-    "summary": "支持多 Agent 技能格式统一，实现一次编写到处部署。",
-    "detail": "**产品定位**：Prave 是专为 Claude Skills 设计的管理层，支持发现、审计和部署。\n**核心功能**：支持一次编写技能，部署到 Claude、Cursor、Gemini 等多平台。\n**亮点**：提供技能审计、实时触发跟踪及统一格式（SKILL.md），简化 Agent 技能分发流程，解决多 Agent 生态碎片化问题。",
-    "tags": [
-      "New",
-      "AI Agents",
-      "Product Hunt"
-    ],
-    "link": "https://prave.app/",
-    "date": "2026-05-12",
-    "id": "17785871743712"
-  },
-  {
-    "title": "利用 Haskell 类型系统压缩 AI Agent 上下文 Token",
-    "summary": "提出用 Haskell 强类型系统减少 Agent 上下文消耗，提升推理效率。",
-    "detail": "**技术探索**：提出使用 Haskell 进行 AI Agent 开发以压缩 Token 消耗。\n**核心逻辑**：利用强类型系统和效应系统作为 Agent 推理合约，减少上下文窗口占用。\n**意义**：针对 Context Window 瓶颈提供函数式编程新思路，通过类型即合约降低推理成本，提升 Agent 代码生成质量。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Programming"
-    ],
-    "link": "https://blog.dan-gilmour.com/post/agentic-ai-token-compression",
-    "date": "2026-05-12",
-    "id": "17785871743713"
   }
 ]
