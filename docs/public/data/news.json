@@ -1,5 +1,57 @@
 [
   {
+    "title": "金融服务代理 AI 的数据就绪性挑战",
+    "summary": "金融行业部署代理 AI 关键在于数据质量与安全，而非模型本身。",
+    "detail": "麻省理工科技评论指出，金融服务公司部署代理 AI 的成功取决于数据质量、安全性和可访问性。Elastic 专家强调需先规模化搜索和保护数据。Gartner 发现超半数金融团队已计划实施代理 AI，但自主 AI 会放大底层数据的优缺点。金融机构需在高速响应外部事件的同时，确保数据能被搜索、保护及上下文化，以实现对复杂工作流的优化和风险控制。",
+    "tags": [
+      "News",
+      "Agentic AI",
+      "Finance"
+    ],
+    "link": "https://www.technologyreview.com/2026/05/14/1137034/data-readiness-for-agentic-ai-in-financial-services/",
+    "date": "2026-05-14",
+    "id": "17787813240230"
+  },
+  {
+    "title": "面向 AI 初创公司的合成评估数据集",
+    "summary": "提供代理和 RAG 应用的现成合成评估数据，助力安全发布。",
+    "detail": "PAIXBLOX 为 AI 初创团队提供可部署的合成评估数据集，涵盖代理工具滥用、RAG 提示注入及输出压力测试。支持 JSON/CSV 等格式，48 小时交付，帮助创始人在演示和采购审查前验证覆盖率和风险模式。数据集针对 unsafe tool use、bad retrieval 及 hallucinated actions 等早期 AI 产品常见失败模式构建，确保 AI 工作流安全。",
+    "tags": [
+      "Dev",
+      "Evaluation",
+      "Startup"
+    ],
+    "link": "https://paixblox.github.io/learned/",
+    "date": "2026-05-14",
+    "id": "17787813240231"
+  },
+  {
+    "title": "Google 挫败 AI 驱动的软件漏洞利用企图",
+    "summary": "Google 报告 disrupting 了一次利用 AI exploit 软件漏洞的攻击行动。",
+    "detail": "据 AP 新闻及 Hacker News 报道，Google 宣布成功干扰了一次由 AI 驱动的利用软件漏洞的企图。此事件凸显了 AI 在网络安全攻击面的双刃剑效应，以及大厂在防御 AI 自动化攻击方面的最新动态。虽然具体技术细节未在摘要中披露，但该消息引发了社区对 AI 安全性及自动化漏洞利用风险的高度关注。",
+    "tags": [
+      "News",
+      "Security",
+      "Google"
+    ],
+    "link": "https://apnews.com/article/google-ai-cybersecurity-exploitation-mythos-926aea7f7dc5e0e61adce3273c55c6d4",
+    "date": "2026-05-14",
+    "id": "17787813240232"
+  },
+  {
+    "title": "Diffflow：基于 Rust 与 AI 的实时监控工具",
+    "summary": "开发者级网站变更监控工具，利用 AI 过滤噪音实时报警。",
+    "detail": "Diffflow 是一款专为增长和安全团队构建的高规模网站变更监控器。采用 Rust 后端和 AI 技术，实现 CSS 选择器隔离和零误报。支持竞品价格追踪、SEO 内容 guard 及企业级安全防护，提供 Email、SMS 和 Webhook alerts。底层使用分布式异步 worker 池并发获取目标，通过 SHA-256 diff 检测变化，适合开发者免费起步。",
+    "tags": [
+      "New",
+      "Monitor",
+      "Rust"
+    ],
+    "link": "https://diffflow.com/",
+    "date": "2026-05-14",
+    "id": "17787813240233"
+  },
+  {
     "title": "SicariusGuard：Solana AI 代理代币安全预言机",
     "summary": "专为 AI 代理设计的 Solana 代币安全检测工具，支持 MCP 服务器。",
     "detail": "该项目提供了一个针对 AI 代理和交易机器人的 Solana 代币安全预言机，旨在解决自主经济中的信任问题。通过字节级链上检查、蜜罐检测和 Birdeye 数据 enrichment，它能实时分析代币安全性。作为 MCP 服务器，它增强了 AI 在 Web3 交易中的决策安全性，防止恶意代币风险。这是 AI 与区块链结合的关键安全基础设施，为自主经济代理提供了必要的风险控制层，确保交易执行前的资产合规与安全，推动 AI 代理在金融领域的可靠落地。",
@@ -1246,57 +1298,5 @@
     "link": "https://blog.dan-gilmour.com/post/agentic-ai-token-compression",
     "date": "2026-05-12",
     "id": "17785871743713"
-  },
-  {
-    "title": "谷歌 DeepMind 研究员论文：AI 能模拟意识但无法实例化",
-    "summary": "论文提出“抽象谬误”，论证算法符号操作无法产生物理体验。",
-    "detail": "**理论突破**：谷歌 DeepMind 研究员发表论文质疑 AI 意识可能性。\n**核心论点**：提出“抽象谬误”，认为算法符号操作无法实例化物理体验，区分模拟与实例化。\n**影响**：为 AI 伦理及安全评估提供新的本体论框架，挑战计算功能主义，强调物理构成对意识的重要性。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Research"
-    ],
-    "link": "https://philpapers.org/archive/LERTAF.pdf",
-    "date": "2026-05-12",
-    "id": "17785871743714"
-  },
-  {
-    "title": "UCTV 视频：AI 时代的推理与学习几何学",
-    "summary": "探讨 AI 推理背后的几何结构，适合研究人员深入理解学习机制。",
-    "detail": "**学术研究**：UCTV 发布关于 AI 推理与学习几何学的视频。\n**内容概要**：探讨 AI 时代下推理过程的几何结构表示及其在学习中的作用。\n**适用人群**：适合研究人员及进阶开发者观看，有助于深入理解机器学习底层理论机制及推理模型的数学基础。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Video"
-    ],
-    "link": "https://www.youtube.com/watch?v=82eqQ6oEDi4",
-    "date": "2026-05-12",
-    "id": "17785871743715"
-  },
-  {
-    "title": "大规模 NPM 供应链攻击波及 Mistral AI",
-    "summary": "攻击影响 TanStack 及 Mistral AI 等 170 个包，警示供应链安全。",
-    "detail": "SafeDep 报告披露大规模供应链攻击，波及 TanStack、Mistral AI 等 170 个 npm 及 PyPI 包。此次事件凸显开源软件供应链安全风险，直接影响 AI 开发依赖。文章强调需使用 SCA 工具扫描依赖并生成 SBOM 以执行策略。对于 AI 领域，需特别关注 AI Agent 发现与监控，审计代理行动。开发者应在安装时阻断恶意包，并在 CI/CD 管道中加强安全。此外，MCP Server 需防止 AI 编码代理内部威胁。建议组织立即审查依赖树，启用运行时安全审计，防止恶意代码通过依赖注入窃取数据或破坏系统稳定性，确保 AI 工具链安全。",
-    "tags": [
-      "News",
-      "Security",
-      "Supply Chain"
-    ],
-    "link": "https://safedep.io/mass-npm-supply-chain-attack-tanstack-mistral/",
-    "date": "2026-05-12",
-    "id": "17785789587410"
-  },
-  {
-    "title": "后 AI 时代的大重置：计算周期终结",
-    "summary": "文章分析 AI 泡沫破裂及本地推理经济必要性，展望机器人周期。",
-    "detail": "Breadcrumb VC 文章指出当前 AI 构建具有晚期泡沫特征，输入短缺和价格飙升使经济不可行。2025 年底开始的内存危机已蔓延至计算短缺和 AI 配给，成本螺旋上升。地缘政治加速供应冲击。文章认为成熟技术周期孕育下一周期，AI 数据中心经济不可行使本地推理成为经济必要，为机器人和分布式制造新周期创造关键输入。投资者需导航动荡的后 AI 世界，关注从云端集中式训练向边缘本地推理的范式转移，这将是下一代技术循环的核心驱动力。",
-    "tags": [
-      "News",
-      "Industry",
-      "Economy"
-    ],
-    "link": "https://breadcrumb.vc/the-great-reset-navigating-a-turbulent-post-ai-world-4b5b4d434c5b",
-    "date": "2026-05-12",
-    "id": "17785789587411"
   }
 ]
