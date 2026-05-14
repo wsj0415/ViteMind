@@ -1,5 +1,57 @@
 [
   {
+    "title": "Puter 集成 Z.ai GLM 模型，开发者无需 API 密钥",
+    "summary": "Puter 宣布与 Z.ai 合作，直接在浏览器中提供 GLM-5.1 等模型，无需配置 API。",
+    "detail": "Puter 宣布与领先 AI 实验室 Z.ai 达成合作，将其完整的 GLM 模型家族集成到 Puter 平台。开发者现在可以直接在浏览器中调用 GLM-5.1、GLM-5 等前沿模型，无需 API 密钥或服务器端设置。GLM-5.1 在 SWE-Bench Pro 上得分超越 GPT-5.4，显著降低了开发门槛。此次整合为社区超过 8 万名开发者提供了低摩擦的 AI 应用构建路径，支持视觉、代码生成等多模态任务，体现了开源权重模型在生态集成中的重要性。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Integration"
+    ],
+    "link": "https://developer.puter.com/blog/puter-zai-annoucement/",
+    "date": "2026-05-14",
+    "id": "17787931500660"
+  },
+  {
+    "title": "JDS 技能套件规范 Copilot 编程行为，强制设计先行",
+    "summary": "新开源工具 JDS 通过强制工作流，防止 AI 编程助手跳过设计和测试环节。",
+    "detail": "JDS 是一款针对 GitHub Copilot CLI 的技能套件插件，旨在解决 AI 编码助手缺乏纪律性的问题。它强制实施结构化工作流，要求在设计 before 代码、测试 before 实现。通过自动注入会话钩子和任务调度，JDS 确保 AI 不会跳过设计直接编码或声称未经验证的功能完成。该工具将 AI 从自动补全转变为纪律严明的软件工程师，适合复杂任务开发，强调了人类专家在 AI 辅助开发中的监督必要性。",
+    "tags": [
+      "Dev",
+      "Copilot",
+      "Workflow"
+    ],
+    "link": "https://github.com/josipmusa/jds",
+    "date": "2026-05-14",
+    "id": "17787931500661"
+  },
+  {
+    "title": "深度分析：AI Agent 随项目扩大趋向愚钝而非专家化",
+    "summary": "文章指出 AI Agent 在大型项目中上下文受限，信任度随规模增加而降低，需人类监督。",
+    "detail": "文章深入分析了 AI Agent 在项目生命周期中的表现悖论：初期像专家，随项目增长受上下文窗口限制，开始出现 hack 行为且偏离指南。与人类员工经验积累相反，AI 的信任度随项目规模扩大而递减。作者强调 AI 适合作为顾问而非领导者，亚马逊要求高级人员审查 AI 代码即是佐证。虽然 AI 能加速信息合成，但过度依赖会导致理解力 slip，危险在于让机器替代理解，核心判断仍需人类专家把握大局。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Analysis"
+    ],
+    "link": "https://holdtherobot.com/blog/an-ai-agent-progresses-towards-idiocy-not-expertise/",
+    "date": "2026-05-14",
+    "id": "17787931500662"
+  },
+  {
+    "title": "AI 编排平台的陷阱：格式锁定比基础设施更危险",
+    "summary": "分析指出 AI orchestration 早期阶段存在平台锁定风险，格式定义权即控制权。",
+    "detail": "文章揭示了 AI 编排领域正在重演科技行业的平台陷阱模式。开发者选择平台不仅是选基础设施，更是选格式锁定。代理的定义方式（Python SDK 或专有 YAML）构成了退出成本。一旦平台积累用户获得定价权，构建者将陷入被动谈判。当前 AI 编排处于早期，格式即锁定，控制格式即控制退出成本。开发者需警惕视觉拖拽界面或专有 schema 带来的长期依赖，避免在平台掌握定价权前失去迁移能力，建议关注开放标准。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Strategy"
+    ],
+    "link": "https://openenvelope.org/writing/platform-trap-in-ai/",
+    "date": "2026-05-14",
+    "id": "17787931500663"
+  },
+  {
     "title": "OpenAI 拟对苹果采取法律行动",
     "summary": "彭博社报道 OpenAI 已聘请外部律所，准备针对苹果采取法律措施。",
     "detail": "据 TechCrunch 引用彭博社消息，OpenAI 已聘请外部律所评估选项，准备对苹果采取法律行动。报道强调，苹果并非 OpenAI 第一个感到受损的合作伙伴，暗示双方合作可能存在深层利益冲突或信任危机。此举可能涉及 AI 集成权限、数据使用或商业条款分歧。若诉讼成真，将标志着两大科技巨头合作关系的潜在破裂，对 AI 模型在硬件生态中的集成格局产生重大影响。行业观察家认为，这可能重新定义 AI 公司与大型平台方的博弈规则，引发对合作伙伴权益保护的广泛关注，后续进展值得密切追踪。",
@@ -1246,57 +1298,5 @@
     "link": "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access/",
     "date": "2026-05-12",
     "id": "17785968548130"
-  },
-  {
-    "title": "Statewright：用状态机提升 AI Agent 可靠性",
-    "summary": "前 NVIDIA 工程师开源工具，通过状态机约束 Agent 行为，减少幻觉与错误。",
-    "detail": "针对当前 AI Agent 解决任务脆弱且不稳定的痛点，前 NVIDIA 杰出工程师 Ben Cochran 开源 Statewright。该工具核心采用 Rust 引擎评估状态机定义，通过形式化状态机约束模型的工具访问、迭代次数及转换逻辑。支持 via MCP 集成 Claude Code 等编辑器。研究显示，13B 以上参数模型在约束下表现显著提升，证明上下文利用效率优于单纯扩大窗口。这为开发者提供了可视化工作流编辑与确定性代码约束 LLM 的新模式，适合构建高可靠性自动化 Agent 系统，避免模型幻觉导致的错误操作，提升工程化落地能力。",
-    "tags": [
-      "New",
-      "Dev",
-      "Agent"
-    ],
-    "link": "https://github.com/statewright/statewright",
-    "date": "2026-05-12",
-    "id": "17785968548131"
-  },
-  {
-    "title": "AI IQ：统一标准评估各大模型智力水平",
-    "summary": "新工具将不同基准测试映射为统一 IQ 分数，帮助开发者性价比选型。",
-    "detail": "AI IQ 项目旨在解决当前 AI 模型基准测试碎片化与难以横向对比的问题。平台归档公开榜单数据，将 12 个主流基准映射为抽象、数学、编程、学术四个维度的统一 IQ 分数。提供有效成本与性能 iso-curves 分析，支持 OpenAI、Google、Meta 及中国多家模型提供商对比。开发者可根据质量与成本权重偏好，直观选择性价比最高的模型，避免被单一基准误导，优化 API 调用成本。这对于企业选型及个人开发者控制预算具有极高参考价值，推动评估标准透明化，助力理性技术决策。",
-    "tags": [
-      "New",
-      "Dev",
-      "Benchmark"
-    ],
-    "link": "https://www.aiiq.org/",
-    "date": "2026-05-12",
-    "id": "17785968548132"
-  },
-  {
-    "title": "YantrikDB：专为 AI Agent 设计的持久化记忆数据库",
-    "summary": "开源项目提供 Agent 持久化记忆方案，解决长任务上下文丢失问题。",
-    "detail": "针对 AI Agent 在长周期任务中记忆丢失的痛点，YantrikDB 提供专为 Agent 设计的持久化记忆存储方案。作为 Show HN 热门项目，它旨在增强 Agent 的状态保持能力，使其能在多轮交互或长周期任务中保留关键信息。虽然具体技术细节未在 snippet 完全展开，但此类工具是构建复杂 Agent 系统的基础设施，配合状态机工具可进一步提升 Agent 的长期规划与执行能力。对于需要长期上下文维护的开发者，这是值得关注的开源基础设施新选择，解决状态持久化难题。",
-    "tags": [
-      "New",
-      "Dev",
-      "Database"
-    ],
-    "link": "https://github.com/yantrikos/yantrikdb",
-    "date": "2026-05-12",
-    "id": "17785968548133"
-  },
-  {
-    "title": "AI 语音初创 Vapi 获 5 亿美元估值，击败 40 家竞品赢得亚马逊 Ring 合作",
-    "summary": "Vapi 估值达 5 亿美元，成为亚马逊 Ring 首选 AI 语音平台。",
-    "detail": "**融资亮点**：AI 语音初创公司 Vapi 最新估值达 5 亿美元。\n**核心事件**：在击败超过 40 家竞争对手后，被亚马逊 Ring 选为其 AI 语音平台合作伙伴。\n**行业影响**：标志着语音 AI 技术在智能家居领域的商业化落地加速，头部效应显现，验证了实时语音交互在消费级硬件中的巨大潜力。",
-    "tags": [
-      "News",
-      "Voice AI",
-      "Funding"
-    ],
-    "link": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
-    "date": "2026-05-12",
-    "id": "17785871743710"
   }
 ]
