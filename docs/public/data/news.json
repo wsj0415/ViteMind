@@ -1,5 +1,57 @@
 [
   {
+    "title": "Anthropic 发布 AI 原生创业创始人 playbook",
+    "summary": "Anthropic 官方博客发布指南，指导创业者如何利用 Claude 生态构建 AI 原生应用。",
+    "detail": "Anthropic 通过官方博客发布了针对创始人的 playbook，旨在指导如何构建 AI 原生初创企业。文中展示了 Claude 的产品矩阵，包括 Claude Code、Claude Cowork 及 Claude Security，表明其战略重心已转向深度集成开发与企业工作流。该指南不仅涵盖模型选择（Opus, Sonnet, Haiku），还涉及法律、安全及特定行业解决方案。此举标志着大模型厂商正从单纯提供 API 转向赋能整个应用开发生命周期，为开发者提供了明确的架构参考与商业化路径，有助于降低 AI 创业门槛。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "Startup"
+    ],
+    "link": "https://claude.com/blog/the-founders-playbook",
+    "date": "2026-05-15",
+    "id": "17788740974630"
+  },
+  {
+    "title": "一人管理 14 国市场：AI 员工成本仅 0.41 美元/天",
+    "summary": "Medium 作者分享实战经验，利用 AI 代理独自运营 14 个市场，日均成本极低。",
+    "detail": "一位创业者分享了其利用 AI 代理独自管理 14 个国际市场的案例。在团队解散后，他通过 AI 重建了网站、营销内容、定价表及 SEO 系统，并将销售职能划分为五个渠道。通过自动化线索生成和广告活动，他实现了多语言运营。核心亮点在于极低的运营成本（约 0.41 美元/天），证明了 AI Agent 在替代传统人力执行重复性任务方面的巨大潜力。该案例为独立开发者和小型团队提供了可复制的 AI 自动化工作流参考，展示了 AI 在商业落地中的实际 ROI。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Case Study"
+    ],
+    "link": "https://medium.com/@alanscottencinas/i-was-drowning-running-14-markets-alone-so-i-built-a-0-41-day-ai-employee-23f7ddf0f4a1",
+    "date": "2026-05-15",
+    "id": "17788740974631"
+  },
+  {
+    "title": "ai_glue：OpenAI 与 Anthropic 应用的审计治理工具",
+    "summary": "GitHub 开源新项目，无需代码重写即可为 AI 应用添加审计、治理和成本监控功能。",
+    "detail": "ai_glue 是一个专为 OpenAI 和 Anthropic 应用设计的可观测性与治理工具。它作为透明代理 sit 在应用与模型提供商之间，无需重写代码，仅需更改环境变量即可部署。核心功能包括记录每次 AI 调用的详细信息（提供商、模型、Token、成本）、PII 检测、硬性强治理规则（如阻止未批准模型、 enforce 成本上限）以及多实例聚合仪表板。该工具解决了企业级 AI 部署中的合规与成本失控痛点，为开发团队提供了工程审计日志与高管支出摘要的分角色视图，提升了 AI 应用的可控性。",
+    "tags": [
+      "Dev",
+      "Tool",
+      "Governance"
+    ],
+    "link": "https://github.com/simonhansedasi/ai_glue",
+    "date": "2026-05-15",
+    "id": "17788740974632"
+  },
+  {
+    "title": "AI 电影语料库：169 部影片中的 AI 叙事研究",
+    "summary": "GitHub 发布 annotated 语料库，收录 1927 至 2026 年间 169 部以 AI 为核心剧情的电影。",
+    "detail": "2020science 组织在 GitHub 上发布了一个名为 ai-in-films-corpus 的标注语料库。该数据集收录了 1927 年至 2026 年间国际范围内的 169 部长篇电影，这些影片均以 AI 为主要剧情驱动力。项目旨在探索作为剧情驱动力的 AI 如何与不同的想象未来（反乌托邦或乌托邦）相关联。对于 AI 伦理研究者、文化分析师及内容创作者而言，这是一个宝贵的研究资源，有助于量化分析大众媒体中 AI 形象的演变趋势，为理解公众对 AI 技术的认知与恐惧提供数据支持。",
+    "tags": [
+      "Dev",
+      "Dataset",
+      "Research"
+    ],
+    "link": "https://github.com/2020science/ai-in-films-corpus",
+    "date": "2026-05-15",
+    "id": "17788740974633"
+  },
+  {
     "title": "AI 渗透测试供应商评估指南：十大危险信号",
     "summary": "解析 AI 渗透测试现状，提供评估供应商时的十大危险信号与关键考量因素。",
     "detail": "随着 AI 渗透测试技术的兴起，安全领域正面临新的定义挑战。目前行业尚无共识，解决方案分为 AI 辅助、混合增强及自主代理三类。供应商评估需警惕\"AI washing\"现象，重点关注自主性级别、安全护栏及误报率声明。企业在选型时应综合验证准确性、运营集成能力及透明度。该指南强调了在缺乏标准的情况下，建立清晰的评估框架对于确保 AI 安全工具实际效能至关重要，避免因过度宣传而导致的安全漏洞风险。此外，报告指出大多数现有方案在自主适应性和经济可扩展性上存在差异。安全团队需权衡自动化程度与人为监管的关系，确保在提升测试规模的同时不牺牲治理标准。这一趋势反映了 AI 在网络安全攻防对抗中的双重角色，既作为防御工具也带来新的攻击面，明确供应商能力边界成为企业安全建设的关键步骤。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.seangoedecke.com/space-ai-datacenters-do-not-have-a-cooling-problem/",
     "date": "2026-05-13",
     "id": "17786656978011"
-  },
-  {
-    "title": "融资动态：DesignVerse 获 550 万美元打造企业 AI 上下文层",
-    "summary": "企业软件 AI 初创公司 DesignVerse 完成种子轮融资，致力于解决 legacy 系统上下文整合难题。",
-    "detail": "DesignVerse 宣布完成 550 万美元种子轮融资，由 Begin Capital 等领投。公司专注于构建企业级 AI 上下文层，利用现有文档和架构标准解决大型组织软件演进中的上下文丢失问题。该项目旨在降低企业软件维护复杂度，确保 AI 生成代码符合合规与架构约束。对企业级 AI 落地具有参考意义，解决了 AI 编程中“懂代码不懂业务”的痛点。适合关注企业软件现代化的投资者与开发者参考，标志着 AI 应用正从通用代码生成向特定上下文理解深化，商业潜力巨大。",
-    "tags": [
-      "News",
-      "Funding",
-      "Enterprise"
-    ],
-    "link": "https://designverse.ai/blog",
-    "date": "2026-05-13",
-    "id": "17786656978012"
-  },
-  {
-    "title": "技术实战：Cascadeur 如何利用 AI 辅助 3D 角色姿态调整",
-    "summary": "游戏动画工具 Cascadeur 分享 AI 自动姿态技术细节，平衡自动化与艺术家控制权。",
-    "detail": "游戏发行商 Nekki 联合创始人详解 Cascadeur 中 AI 辅助角色姿态功能的技术实现。团队在开发 AutoPosing 工具时，重点解决了神经网络生成与艺术家控制权之间的平衡问题。文章分享了如何让 AI 在减少控制器数量的同时生成符合物理规律的动画。为 AI 在创意工具中的落地提供了“控制优先”的开发思路，表明 AI 辅助工具需尊重专业工作流，而非完全替代。对工具类 AI 产品开发具有借鉴意义，展示了垂直领域 AI 应用如何平衡自动化效率与人类创意控制，技术细节详实。",
-    "tags": [
-      "Dev",
-      "GameDev",
-      "Animation"
-    ],
-    "link": "https://cascadeur.com/blog/general/ai-assistance-in-3d-character-posing-how-it-works-in-cascadeur",
-    "date": "2026-05-13",
-    "id": "17786656978013"
-  },
-  {
-    "title": "新品发布：HYPD 面向营销人员的 Google Ads AI 副驾驶",
-    "summary": "Show HN 项目 HYPD 上线，为代理机构提供广告 campaign 分析与自动化报告工具。",
-    "detail": "新推出的 AI 工具 HYPD 专为 PPC 营销人员和代理机构设计，支持连接 Google 和 Meta 广告账户。功能包括即时 campaign 分析、自动化报告生成及专家建议。该产品旨在通过 AI 简化广告优化流程，提供关键词研究、广告文案生成及账户审计等功能。目前已获百家代理机构试用，适合营销技术栈更新。作为 Show HN 热门项目，展示了垂直领域 AI 助手的商业化潜力，值得营销技术人员关注。其免费起步策略有助于快速获客，体现了 AI SaaS 在垂直行业的渗透趋势。",
-    "tags": [
-      "New",
-      "Marketing",
-      "SaaS"
-    ],
-    "link": "https://www.hypd.ai/",
-    "date": "2026-05-13",
-    "id": "17786656978014"
-  },
-  {
-    "title": "高管承认 AI 降低对人类员工重视",
-    "summary": "调查显示高管认为 AI 降低了对人类工人的价值评估，引发伦理担忧。",
-    "detail": "**背景**：The Register 报道最新调查，企业高管公开承认 AI 技术部署后，对人类员工的价值评估显著下降。**核心点**：AI 效率提升导致人力资本感知价值降低，可能加剧裁员潮与职场冷漠。管理层更倾向于算法决策而非人类经验，视员工为可替换组件。**影响**：引发职场伦理讨论，企业需平衡自动化与人文关怀，避免人才流失与社会反弹。此趋势可能重塑未来劳动力市场结构，促使政策制定者关注 AI 时代的员工权益保护，警示行业需重视人机协作而非单纯替代，长期可能影响创新活力与员工忠诚度，需警惕过度依赖 AI 带来的管理风险。",
-    "tags": [
-      "News",
-      "Industry",
-      "Ethics"
-    ],
-    "link": "https://www.theregister.com/ai-ml/2026/05/13/execs-admit-ai-makes-them-value-human-workers-less/5239201",
-    "date": "2026-05-13",
-    "id": "17786550604870"
   }
 ]
