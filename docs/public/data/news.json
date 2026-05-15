@@ -1,5 +1,57 @@
 [
   {
+    "title": "Adobe 卷入 AI 语音训练诉讼风波",
+    "summary": "Adobe 成为最新因 AI 语音训练数据使用而被起诉的科技巨头。",
+    "detail": "彭博法律最新报道，Adobe 已成为新一轮 AI 语音训练诉讼浪潮中的最新目标。原告指控其未经授权利用声音数据训练生成式 AI 模型，涉嫌侵犯版权与隐私权。这是继多家科技巨头后又一典型案例，深刻反映全球行业对数据版权和隐私的监管正在急剧收紧。法律专家分析，此举可能显著提高未来 AI 语音产品的开发合规成本，迫使企业重新审视数据 sourcing 流程与授权机制。行业合规门槛将进一步抬高，可能引发更多连锁诉讼，直接影响生成式 AI 的商业化进程与模型训练策略。未来类似案件可能成为判例，迫使大厂建立更透明的数据授权机制，否则将面临高额赔偿与声誉损失。",
+    "tags": [
+      "News",
+      "Legal",
+      "Voice AI"
+    ],
+    "link": "https://news.bloomberglaw.com/privacy-and-data-security/adobe-latest-target-in-wave-of-lawsuits-over-ai-voice-training",
+    "date": "2026-05-15",
+    "id": "17788894471610"
+  },
+  {
+    "title": "研究揭示 AI Agent 将漏洞转化为攻击的能力",
+    "summary": "新论文 ExploitGym 评估 AI 代理利用安全漏洞进行实际攻击的风险。",
+    "detail": "arXiv 最新论文 ExploitGym 深入探讨了 AI 代理将安全漏洞转化为实际攻击的潜在能力。研究团队包括 Nicholas Carlini、Dawn Song 等知名学者，指出 AI 网络安全能力迅速增强，急需进行严格的安全评估。实验表明，AI 可完成复杂的低级程序推理，实现未授权文件访问或代码执行。这对 AI 安全对齐和防御策略提出全新挑战，表明自动化攻击风险正在上升。开发者需关注 AI 代理在安全测试中的双刃剑效应，加强模型红队测试，防止恶意利用，确保 AI 系统不被用于网络攻击。该研究为评估 AI 代理的安全性提供了新基准，建议企业在部署自主 Agent 前进行严格的风险测试，以应对潜在的安全威胁。",
+    "tags": [
+      "Dev",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://arxiv.org/abs/2605.11086",
+    "date": "2026-05-15",
+    "id": "17788894471611"
+  },
+  {
+    "title": "Linux 内核新增 AI 安全 bug 定义文档",
+    "summary": "Linux 7.1 内核文档更新，明确安全 bug 资格及负责任的 AI 使用。",
+    "detail": "Phoronix 报道，Linux 7.1 内核文档迎来重要更新，明确界定何种问题 qualifies 为安全 bug，并首次加入 Responsible AI 相关指南。这标志着开源基础设施层开始正式纳入 AI 安全规范，影响深远。开发者需关注内核更新对 AI 部署环境的安全合规要求，及时调整策略。此举有助于统一社区对 AI 相关安全漏洞的认知，促进更负责任的 AI 系统开发。对于依赖 Linux 环境的 AI 工程团队，需及时同步最新安全标准，确保底层基础设施符合新兴的 AI 伦理与安全规范。这也将影响云服务器提供商及 AI 托管平台的合规策略，推动基础设施层的安全升级。",
+    "tags": [
+      "Dev",
+      "Linux",
+      "Security"
+    ],
+    "link": "https://www.phoronix.com/news/Linux-7.1-Kernel-Docs-AI-Bugs",
+    "date": "2026-05-15",
+    "id": "17788894471612"
+  },
+  {
+    "title": "Ghost Job Detector：AI 识别虚假招聘帖子",
+    "summary": "新工具利用 AI 解码招聘帖子中的 HR 话术与虚假信号。",
+    "detail": "新工具 Ghost Job Detector 利用 AI 技术解码招聘帖子中的隐藏含义与虚假信号，旨在解决求职痛点。它能识别虚假紧急性、模糊公司细节及 HR 话术，帮助求职者避免浪费时间在幽灵招聘上。体现了 AI 在垂直领域（求职反欺诈）的应用落地，适合求职者辅助使用，提升求职效率。该工具由独立开发者构建，展示了小型 AI 应用解决具体痛点的能力，反映了 AI 工具向细分场景渗透的趋势。用户只需粘贴职位描述即可获得分析报告，降低信息不对称风险。此类工具的出现表明 AI 正从通用对话转向解决具体生活场景问题，用户体验导向明显，具有实用价值。",
+    "tags": [
+      "New",
+      "Productivity",
+      "NLP"
+    ],
+    "link": "https://ghost-job-detector-rlcx.vercel.app/",
+    "date": "2026-05-15",
+    "id": "17788894471613"
+  },
+  {
     "title": "Google 发布生成式 AI 搜索优化指南",
     "summary": "Google 明确生成式 AI 可见性仍属 SEO 范畴，发布优化指南。",
     "detail": "Google 搜索中心正式发布针对生成式 AI 功能的优化指南，明确指出 AI 可见性仍属于 SEO 范畴。文档详细阐述了如何创建可靠、以人为本的内容以适应 AI 搜索抓取，强调内容质量而非单纯关键词堆砌。这一更新标志着搜索生态正式迈入 AI 原生阶段，传统 SEO 策略需向 AI 友好型内容转型。对于依赖搜索流量的企业，理解此指南是维持可见性的关键，同时也反映了 Google 在 AI 搜索商业化上的最新立场。行业需关注 SGE 变化对流量分发的深远影响，及时调整内容战略以捕获 AI 搜索红利。",
@@ -1250,57 +1302,5 @@
     "link": "https://developers.googleblog.com/build-long-running-ai-agents-that-pause-resume-and-never-lose-context-with-adk/",
     "date": "2026-05-13",
     "id": "17786871863332"
-  },
-  {
-    "title": "AgentGate 代理授权层开源",
-    "summary": "GitHub 新项目 AgentGate 为 AI 代理提供授权管理层。",
-    "detail": "AgentGate 是一个开源项目，旨在为 AI 代理构建授权层。随着 Agent 自主性增强，权限控制成为安全关键。该项目通过 GitHub 发布，允许开发者集成权限验证，防止代理越权操作。这是 AI 安全基础设施的重要组成部分，适合需要严格管控 Agent 行为的企业开发场景，填补了代理授权管理的空白。开发者可借此确保代理在执行敏感操作前经过严格的身份与权限校验。",
-    "tags": [
-      "Dev",
-      "Security",
-      "OpenSource"
-    ],
-    "link": "https://github.com/ElamOlame31/agentgate-public",
-    "date": "2026-05-13",
-    "id": "17786871863333"
-  },
-  {
-    "title": "AI 正在分裂网络搜索现实",
-    "summary": "研究发现谷歌搜索、AI 概述和 Gemini 使用不同信息源。",
-    "detail": "最新研究显示，Google 内部搜索帝国分裂为三种不同现实：传统搜索、AI 概述 (AIO) 和 Gemini LLM。三者 favor 不同的来源和排名。这意味着 SEO 策略需重新调整，且用户获取的信息可能因入口不同而产生偏差。这对内容创作者和依赖搜索流量的网站构成新的挑战，标志着搜索生态的复杂化。传统优化手段可能不再适用于 AI 概述生成的摘要内容。",
-    "tags": [
-      "News",
-      "Search",
-      "Google"
-    ],
-    "link": "https://www.unite.ai/ai-is-splitting-web-search-into-three-different-realities/",
-    "date": "2026-05-13",
-    "id": "17786871863334"
-  },
-  {
-    "title": "Meta 推出隐私保护 Incognito 聊天",
-    "summary": "Meta AI 引入基于机密计算的完全私密聊天模式。",
-    "detail": "Meta 宣布在 WhatsApp 等平台推出 Incognito Chats，采用机密计算 (confidential-compute) 技术保障隐私。用户与 AI 的对话将不被用于训练或存储，解决了企业和个人对数据隐私的顾虑。这是 Meta 在 AI 隐私合规方面的重要一步，有助于推动敏感场景下的 AI 采用率。该功能特别适用于医疗、法律等对数据敏感性要求极高的行业应用场景。",
-    "tags": [
-      "News",
-      "Meta",
-      "Privacy"
-    ],
-    "link": "https://about.fb.com/news/2026/05/incognito-chat-whatsapp-meta-ai/",
-    "date": "2026-05-13",
-    "id": "17786871863335"
-  },
-  {
-    "title": "AI 圈地运动似曾相识",
-    "summary": "博客分析当前 AI 投资热潮与当年 Yahoo 收购 Tumblr 相似。",
-    "detail": "文章回顾 2013 年 Yahoo 以 11 亿美元收购 Tumblr 后的失败案例，对比当前 AI 行业的“圈地运动”。指出巨额投资未必带来可持续收益，Yahoo 最终减值 7 亿美元并低价出售。警告开发者警惕平台政策变更风险，如 Tumblr 禁止成人内容导致流量暴跌 30%。通过历史数据警示 AI 初创公司注意估值泡沫和用户留存问题，为狂热市场提供冷静视角。提醒投资者关注长期价值而非短期估值扩张。",
-    "tags": [
-      "News",
-      "Analysis",
-      "Investment"
-    ],
-    "link": "https://www.boot.dev/blog/news/ai-land-grab-looks-familiar/",
-    "date": "2026-05-13",
-    "id": "17786871863336"
   }
 ]
