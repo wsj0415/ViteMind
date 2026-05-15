@@ -1,5 +1,61 @@
 [
   {
+    "title": "SwarmWright：基于 Markdown 的自托管多智能体编排平台",
+    "summary": "开源自托管方案，用 Markdown 定义智能体工作流，支持 Docker 部署。",
+    "detail": "SwarmWright 是一款新兴的多智能体编排工具，主打“自托管”与“结构化”。开发者可通过 plain markdown 定义智能体角色与流程，无需复杂代码。支持 Docker 一键部署，提供实时观测界面。示例展示了发票处理流程，包含分类、策略审批等角色。相比全自主代理，它强调可控性与可解释性，采用 CC BY-NC 4.0 协议，适合企业级私有化部署场景。平台提供实时观测界面，方便调试与监控。这种“手卷一切”的反向思路，强调了人类在回路中的控制权，非常适合对数据隐私和安全有严格要求的开发团队尝试多智能体工作流，解决 Agent 生产环境落地的信任难题。",
+    "tags": [
+      "New",
+      "Dev",
+      "Multi-Agent",
+      "OpenSource"
+    ],
+    "link": "https://www.swarmwright.com/",
+    "date": "2026-05-15",
+    "id": "17788790258520"
+  },
+  {
+    "title": "基础设施大佬警示：行业正陷入\"AI 精神病”狂热",
+    "summary": "Mitchell Hashimoto 发文批评过度依赖 AI 修复 Bug，警告系统性风险。",
+    "detail": "Terraform 创始人 Mitchell Hashimoto 指出，许多公司正陷入\"AI 精神病”，盲目相信 AI 代理能快速修复 Bug 而忽视系统韧性。他类比云基础设施发展史，强调 MTTR（平均恢复时间）不能替代 MTBF（平均故障间隔）。过度自动化可能导致全局风险不可控，系统看似健康但潜在风险爆炸。即使测试覆盖率上升，语义理解可能下降。他担心这种心态会导致全球范围内的系统性风险，因为人们无法与处于“精神病”状态的公司进行理性对话。这是一次来自基础设施领域资深专家的深刻警告，提醒开发者在拥抱 AI 自动化时勿忘系统韧性与可解释性的核心价值。",
+    "tags": [
+      "News",
+      "Industry",
+      "Opinion",
+      "Risk"
+    ],
+    "link": "https://twitter.com/mitchellh/status/2055380239711457578",
+    "date": "2026-05-15",
+    "id": "17788790258521"
+  },
+  {
+    "title": "seekon.me 推出 MCP 协议支持的商品智能发现 API",
+    "summary": "基于 MCP 协议，为 AI 应用提供实时商品搜索与库存同步能力。",
+    "detail": "seekon.me 发布面向开发者的产品智能发现服务，原生支持 Model Context Protocol (MCP)。通过 API，AI 应用可直接调用实时商品目录、库存及价格数据。提供 search_products 和 get_product_details 工具，免费 tier 每日 100 次调用。支持类别检测与最便宜商家数据返回。开发者只需创建账户即可获取 MCP 服务器凭证，快速集成到现有 AI 应用中。这不仅简化了电商数据获取流程，还为 AI 购物代理提供了标准化的数据接口，有望成为连接大模型与真实商业世界的重要桥梁，促进 Agentic Commerce 生态的繁荣，降低了购物代理的开发门槛。",
+    "tags": [
+      "New",
+      "Dev",
+      "MCP",
+      "E-commerce"
+    ],
+    "link": "https://www.seekon.me/developers",
+    "date": "2026-05-15",
+    "id": "17788790258522"
+  },
+  {
+    "title": "开发者实践：利用 AI 作为外部上下文维持项目动力",
+    "summary": "探讨如何用 AI 记录项目上下文，解决个人开发者时间碎片化难题。",
+    "detail": "文章探讨了个人开发者如何利用 AI 作为“外部上下文”工具。面对时间碎片化，开发者难以在间隔数天后快速重建项目心智模型。通过将项目状态、待办事项交给 AI 管理，可有效降低重启项目的认知摩擦。作者分享了自己因家庭和工作导致侧项目停滞的经历，提出用 AI 填补会话间隙。解决了‘今晚加载上下文，明天是否还会回来’的数学难题。作者指出，摩擦不在于‘下一步做什么’，而在于重建代码状态的心智模型。通过 AI 记录上下文，开发者可以更灵活地安排时间，无需担心项目因中断而死亡。这对于平衡全职工作与个人兴趣的开发者来说，是一种极具价值的策略分享。",
+    "tags": [
+      "Dev",
+      "Productivity",
+      "Workflow",
+      "LLM"
+    ],
+    "link": "https://www.plainlystated.com/2026/ai-as-externalized-context/",
+    "date": "2026-05-15",
+    "id": "17788790258523"
+  },
+  {
     "title": "Anthropic 发布 AI 原生创业创始人 playbook",
     "summary": "Anthropic 官方博客发布指南，指导创业者如何利用 Claude 生态构建 AI 原生应用。",
     "detail": "Anthropic 通过官方博客发布了针对创始人的 playbook，旨在指导如何构建 AI 原生初创企业。文中展示了 Claude 的产品矩阵，包括 Claude Code、Claude Cowork 及 Claude Security，表明其战略重心已转向深度集成开发与企业工作流。该指南不仅涵盖模型选择（Opus, Sonnet, Haiku），还涉及法律、安全及特定行业解决方案。此举标志着大模型厂商正从单纯提供 API 转向赋能整个应用开发生命周期，为开发者提供了明确的架构参考与商业化路径，有助于降低 AI 创业门槛。",
@@ -1246,57 +1302,5 @@
     "link": "https://www.glidedesign.ai/",
     "date": "2026-05-13",
     "id": "17786741706633"
-  },
-  {
-    "title": "AI 时代的新 10x 工程师：杠杆在于决策而非代码",
-    "summary": "文章探讨 AI 如何改变工程师价值，强调决策与系统设计比编写代码更重要。",
-    "detail": "Codeaholicguy 分析指出，AI 并未 magically 让每个人成为 10x 工程师，而是改变了杠杆点。执行成本降低后，瓶颈转向问题理解、模式识别及系统设计。真正的 10x 工程师利用 AI 压缩 boilerplate 工作，专注于高价值决策。文章警告避免生成更多 noise，提倡简化系统。这对开发者技能树提出新要求，需从编码者转向架构师。未来工程师的核心竞争力将在于如何利用 AI 放大决策影响力，而非单纯代码产出量。",
-    "tags": [
-      "Dev",
-      "Career",
-      "Productivity"
-    ],
-    "link": "https://codeaholicguy.com/2026/05/13/the-new-10x-engineer-with-ai/",
-    "date": "2026-05-13",
-    "id": "17786741706634"
-  },
-  {
-    "title": "论文：语言是认知排泄物，AI 如何从文本重构思维",
-    "summary": "新论文提出语言是思维压缩 residue，探讨 AI 如何从中学习语义保真度。",
-    "detail": "该论文提出“语言即认知排泄物”概念，认为词语是深层认知过程的压缩 residue 而非意义起源。研究探讨了 LLM 如何从语言 residue 中学习，以及递归 transformation 中出现的语义 drift。强调在 AI 中介环境中保持语义 fidelity 的重要性。为理解人类认知与 AI 架构 bridge 提供了新理论框架，适合 AI 研究人员阅读。此理论可能影响未来模型训练方向，从单纯预测 token 转向理解 underlying cognitive structures，提升 AI 推理的真实性。",
-    "tags": [
-      "Dev",
-      "Research",
-      "LLM"
-    ],
-    "link": "https://dn720908.ca.archive.org/0/items/language-cognitive-exhaust-thought-compression-ai/SFL-07_Language-as-Cognitive-Exhaust_What-Language-Reveals-About-Thought-Compression-and-AI_A-Jacobs.pdf",
-    "date": "2026-05-13",
-    "id": "17786741706635"
-  },
-  {
-    "title": "学术前沿：AI 系统是否应超越聊天机器人范式？",
-    "summary": "arXiv 新论文探讨 AI 系统脱离聊天机器人形态的可能性与未来架构方向。",
-    "detail": "康奈尔大学等机构研究人员提交新论文，深刻质疑当前以 Chatbot 为主导的 AI 交互形态。论文探讨了非对话式 AI 系统的潜力，旨在突破现有大语言模型交互局限，为未来 AI 架构设计提供理论依据。该研究可能影响后续 Agent 开发方向，推动 AI 系统从单纯对话向更复杂任务执行转变。对于开发者而言，这意味着需要重新思考 UI 与后端逻辑的耦合方式，探索更高效的人机协作模式。为行业提供新视角，具有较高学术参考价值，建议研究人员深入阅读以把握范式转移趋势。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Research"
-    ],
-    "link": "https://arxiv.org/abs/2605.07896",
-    "date": "2026-05-13",
-    "id": "17786656978010"
-  },
-  {
-    "title": "基础设施辩论：太空 AI 数据中心的散热难题解析",
-    "summary": "深入分析马斯克太空数据中心构想，论证真空环境下散热可行性及物理挑战。",
-    "detail": "针对 Elon Musk 提出的太空建 AI 数据中心构想，文章从热力学角度深入分析散热问题。虽然太空真空环境缺乏对流散热，但通过辐射冷却仍具可行性。该文反驳了常见的“太空无法散热”观点，为未来太空计算基础设施提供了物理层面的技术论证。引发行业对算力布局新场景的思考，特别是在能源丰富但地面空间受限的未来，太空数据中心可能成为解决 AI 算力能耗与散热矛盾的创新路径。具备前瞻性，为基础设施规划者提供了新的物理模型参考，值得持续关注相关技术进展。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "SpaceX"
-    ],
-    "link": "https://www.seangoedecke.com/space-ai-datacenters-do-not-have-a-cooling-problem/",
-    "date": "2026-05-13",
-    "id": "17786656978011"
   }
 ]
