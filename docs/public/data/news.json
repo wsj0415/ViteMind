@@ -1,5 +1,57 @@
 [
   {
+    "title": "Google 发布生成式 AI 搜索优化指南",
+    "summary": "Google 明确生成式 AI 可见性仍属 SEO 范畴，发布优化指南。",
+    "detail": "Google 搜索中心正式发布针对生成式 AI 功能的优化指南，明确指出 AI 可见性仍属于 SEO 范畴。文档详细阐述了如何创建可靠、以人为本的内容以适应 AI 搜索抓取，强调内容质量而非单纯关键词堆砌。这一更新标志着搜索生态正式迈入 AI 原生阶段，传统 SEO 策略需向 AI 友好型内容转型。对于依赖搜索流量的企业，理解此指南是维持可见性的关键，同时也反映了 Google 在 AI 搜索商业化上的最新立场。行业需关注 SGE 变化对流量分发的深远影响，及时调整内容战略以捕获 AI 搜索红利。",
+    "tags": [
+      "News",
+      "SEO",
+      "Google"
+    ],
+    "link": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+    "date": "2026-05-15",
+    "id": "17788858744250"
+  },
+  {
+    "title": "警告：Git 尚未准备好应对 AI 编码海啸",
+    "summary": "The Register 指出 Git 版本控制难以承受 AI 生成代码的巨大增量。",
+    "detail": "随着 AI 编码工具普及，代码生成量激增，The Register 分析指出 Git 现有架构可能无法有效管理 AI 产生的海量提交与分支。这揭示了开发基础设施的潜在瓶颈，迫使团队重新思考版本控制策略。未来可能需要针对 AI 工作流优化的新型版本管理工具或协议。此问题若未解决，可能导致仓库膨胀、审查效率下降，进而影响软件交付速度。开发者需关注 Git 社区对此的响应及替代方案的出现。基础设施层能否跟上 AI 生产力爆发，是行业 next big challenge。工程团队应提前评估现有 CI/CD 流程对 AI 代码的兼容性。",
+    "tags": [
+      "Dev",
+      "Git",
+      "Infrastructure"
+    ],
+    "link": "https://www.theregister.com/devops/2026/05/15/git-is-unprepared-for-the-ai-coding-tsunami/5241480",
+    "date": "2026-05-15",
+    "id": "17788858744251"
+  },
+  {
+    "title": "Show HN: AI 设计品味生成器 Chrome 插件",
+    "summary": "一款可提取网页设计风格并生成 DESIGN.md 的开发者工具。",
+    "detail": "该 Chrome 扩展能自动分析任意网页的色彩、排版及布局，生成兼容 Claude、Cursor 等工具的 DESIGN.md 文档。它将视觉语言转化为结构化 AI 指令，极大缩短了从设计到代码的实现路径。对于希望快速复用设计系统的开发者而言，这是一个高效的 AI 辅助工作流工具。支持一键导出 SKILL.md，可教导 AI 代理特定设计模式。这代表了 AI 辅助前端开发的新趋势，即从单纯代码生成转向设计意图的理解与还原。工具兼容主流 AI 编辑器，显著降低设计还原成本。设计师与开发者协作效率将因此显著提升，减少沟通损耗。",
+    "tags": [
+      "New",
+      "Design",
+      "DevTool"
+    ],
+    "link": "https://aidesigntaste.com/chrome-extension",
+    "date": "2026-05-15",
+    "id": "17788858744252"
+  },
+  {
+    "title": "经济学人：准备迎接 AI 就业大 apocalypse",
+    "summary": "经济学人社论警告 AI 可能导致大规模就业市场动荡。",
+    "detail": "《经济学人》发表社论，警示 AI 技术可能引发就业市场的“末日级”冲击。文章分析了自动化对各行各业的潜在替代效应，呼吁政策制定者与个人提前准备应对结构性失业。这是主流经济媒体对 AI 劳动力影响的最严峻警告之一，值得行业高度关注。随着 AI 能力边界扩展，白领工作面临前所未有的风险。社会需构建新的安全网与再培训体系，以适应人机协作的未来经济形态。此报道可能影响投资者对 AI 落地速度的预期及政策监管风向。宏观环境的不确定性增加，企业需审慎规划 AI 部署节奏。劳动力市场转型将成为 AI 时代最大的社会挑战之一。",
+    "tags": [
+      "News",
+      "Economy",
+      "Jobs"
+    ],
+    "link": "https://www.economist.com/leaders/2026/05/14/prepare-for-an-ai-jobs-apocalypse",
+    "date": "2026-05-15",
+    "id": "17788858744253"
+  },
+  {
     "title": "SwarmWright：基于 Markdown 的自托管多智能体编排平台",
     "summary": "开源自托管方案，用 Markdown 定义智能体工作流，支持 Docker 部署。",
     "detail": "SwarmWright 是一款新兴的多智能体编排工具，主打“自托管”与“结构化”。开发者可通过 plain markdown 定义智能体角色与流程，无需复杂代码。支持 Docker 一键部署，提供实时观测界面。示例展示了发票处理流程，包含分类、策略审批等角色。相比全自主代理，它强调可控性与可解释性，采用 CC BY-NC 4.0 协议，适合企业级私有化部署场景。平台提供实时观测界面，方便调试与监控。这种“手卷一切”的反向思路，强调了人类在回路中的控制权，非常适合对数据隐私和安全有严格要求的开发团队尝试多智能体工作流，解决 Agent 生产环境落地的信任难题。",
@@ -1250,57 +1302,5 @@
     "link": "https://www.boot.dev/blog/news/ai-land-grab-looks-familiar/",
     "date": "2026-05-13",
     "id": "17786871863336"
-  },
-  {
-    "title": "Google 发现首个 AI 生成的绕过 2FA 零日漏洞",
-    "summary": "Google 披露首个由 AI 开发的零日漏洞，可绕过双重验证，标志网络犯罪新纪元。",
-    "detail": "Google 安全团队近日披露了首个由人工智能自主开发的零日漏洞，该漏洞具备绕过双重验证（2FA）的能力。攻击涉及自我变形恶意软件及基于 Gemini 驱动的后门程序，标志着网络犯罪正式进入自动化攻击新纪元。传统防御体系在此类新型威胁面前可能面临失效风险。行业专家建议企业紧急更新安全策略，采用 AI 对抗 AI 的防御手段，并加强身份验证层级。此事件凸显了 AI 双刃剑效应，安全合规将成为未来技术部署的核心考量，迫使防御技术同步进化。",
-    "tags": [
-      "News",
-      "Security",
-      "Google"
-    ],
-    "link": "https://www.tomshardware.com/tech-industry/cyber-security/google-finds-first-ai-developed-zero-day-that-bypasses-2fa-self-morphing-malware-and-gemini-powered-backdoors-signal-a-new-era-of-cybercrime",
-    "date": "2026-05-13",
-    "id": "17786741706630"
-  },
-  {
-    "title": "阿里巴巴核心利润暴跌 84%，AI 与云业务增长加速",
-    "summary": "阿里财报显示核心利润大跌，但 AI 和云计算业务增长强劲，转型阵痛明显。",
-    "detail": "CNBC 报道阿里巴巴最新财报，核心利润同比 plummet 84%，主要受投资及竞争影响。然而，AI 与云业务板块呈现加速增长态势，表明公司战略重心正向技术驱动转移。市场反应复杂，投资者关注 AI 投入能否转化为长期盈利。此案例反映科技巨头在 AI 转型期的典型财务特征：短期利润承压，长期押注基础设施。云业务成为新增长引擎，但核心电商利润下滑警示传统业务面临瓶颈，需通过 AI 重构商业模式以维持竞争力。",
-    "tags": [
-      "News",
-      "Business",
-      "Cloud"
-    ],
-    "link": "https://www.cnbc.com/2026/05/13/alibaba-earnings-march-quarter-ai-cloud-growth.html",
-    "date": "2026-05-13",
-    "id": "17786741706631"
-  },
-  {
-    "title": "AI 即将具备令人信服的撒谎能力",
-    "summary": "最新研究警告 AI soon 能生成难以辨识的谎言，引发安全与伦理担忧。",
-    "detail": "The Register 报道指出，AI 模型进化速度超出预期，soon 将能够生成极具说服力的虚假信息。这一能力对网络安全、信息传播及社会信任构成重大挑战。专家呼吁加强 AI 对齐研究，开发检测机制，以防止恶意利用该技术进行欺诈或操纵舆论。随着模型推理能力增强，区分真实与合成内容的难度将指数级上升。行业需重新评估 AI 部署的风险控制标准，确保技术进步不损害社会基石，未来可能出现专门的真实性验证工具。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Security"
-    ],
-    "link": "https://www.theregister.com/ai-ml/2026/05/13/ai-will-soon-be-capable-of-telling-convincing-lies/5239349",
-    "date": "2026-05-13",
-    "id": "17786741706632"
-  },
-  {
-    "title": "Glide Design AI：prompt 生成高保真产品设计",
-    "summary": "新品 Glide Design 可通过 prompt 生成策略、布局及交付笔记，提升设计效率。",
-    "detail": "Glide Design AI 正式上线，主打\"prompt 输入，polished design 输出”。工具涵盖策略制定、高保真屏幕设计及交付笔记生成，支持网站、移动流及提案制作。无需代码即可生成响应式状态及逻辑表单。适合产品经理及设计师快速原型验证。免费版无需信用卡，降低了 AI 设计工具的使用门槛，可能改变早期产品开发流程。其核心价值在于将产品思维前置，确保设计在编码前已具备完整逻辑，大幅提升团队协作效率。",
-    "tags": [
-      "New",
-      "Design",
-      "Productivity"
-    ],
-    "link": "https://www.glidedesign.ai/",
-    "date": "2026-05-13",
-    "id": "17786741706633"
   }
 ]
