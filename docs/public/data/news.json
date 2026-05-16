@@ -1,5 +1,96 @@
 [
   {
+    "title": "AI 代码看似完美实则陷阱：前沿模型实时编程竞赛实测",
+    "summary": "竞赛显示前沿模型在实时 TCP 编程挑战中频繁失败，代码整洁但逻辑脆弱。",
+    "detail": "文章通过实时编程竞赛揭示 AI 代码生成的隐患。竞赛要求模型读取 spec 一次，生成 bot 连接 TCP 服务器解决算法挑战，仅允许标准库且无反馈。尽管前沿模型生成的代码外观整洁，但在面对协议解析、索引错误等实际场景时，多数模型因无法处理意外输入而 silently die。例如 Nemotron 因坐标索引偏移导致零分。这表明当前 LLM 在鲁棒性和真实环境适应性上仍有显著缺陷，开发者需警惕过度依赖，代码审查依然关键，清洁的代码不代表正确的逻辑，生产环境需谨慎。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Coding"
+    ],
+    "link": "https://thinkpol.ca/2026/05/15/ai-code-looks-clean-thats-the-trap/",
+    "date": "2026-05-16",
+    "id": "17789474471530"
+  },
+  {
+    "title": "OpenAI 高层变动：Greg Brockman 接管产品战略，ChatGPT 与 Codex 拟合并",
+    "summary": "OpenAI 联合创始人 Greg Brockman  reportedly 负责产品战略，计划整合 ChatGPT 与 Codex。",
+    "detail": "TechCrunch 报道 OpenAI 内部重大调整，联合创始人 Greg Brockman 将主导产品战略。据悉公司计划将 ChatGPT 与编程产品 Codex 合并，旨在统一用户界面与后端能力。此举标志着 OpenAI 正加速推进 AI 编程助手的集成化，可能重塑开发者工作流及 C 端产品体验。此次 shakeup 发生在公司快速扩张期，显示出管理层对 product-market fit 的重新聚焦，对行业风向具有指引意义。整合后的产品预计将提供更无缝的代码生成与对话体验，巩固其市场领先地位，影响未来 IDE 插件生态。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Strategy"
+    ],
+    "link": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
+    "date": "2026-05-16",
+    "id": "17789474471531"
+  },
+  {
+    "title": "微软开源 AI 编程教练：像 Strava 一样分析你的 Copilot 使用数据",
+    "summary": "微软推出 AI-Engineering-Coach，analytics 工具追踪 Copilot/Claude 使用效率。",
+    "detail": "微软在 GitHub 开源了 AI-Engineering-Coach 项目，旨在为开发者提供 AI 编码行为的分析工具。类似于运动追踪应用 Strava，该工具可分析开发者在使用 Copilot、Claude 或 Codex 时的效率与模式。这有助于团队优化 AI 辅助编程工作流，提升工程效能，是 AI 开发工具链完善的重要一步。项目支持多种主流模型的数据接入，通过可视化报表帮助工程师识别过度依赖或低效使用场景，推动更健康的 AI 协作模式，适合企业级研发团队引入以量化 AI 投资回报。",
+    "tags": [
+      "New",
+      "Microsoft",
+      "DevTools"
+    ],
+    "link": "https://github.com/microsoft/AI-Engineering-Coach",
+    "date": "2026-05-16",
+    "id": "17789474471532"
+  },
+  {
+    "title": "NeuroAPI 上线：专为金融领域设计的 AI 代理公共 API",
+    "summary": "Neurobro 推出 NeuroAPI，提供按次计费的金融 AI 代理接口，支持多档位性能。",
+    "detail": "Neurobro 正式推出 NeuroAPI，这是一个专为金融领域设计的付费公共 API。用户可通过 API Key 认证，按需调用 AI 代理进行金融分析。接口提供 fast/smart/max 三种性能档位，按调用次数计费。文档涵盖了认证、速率限制及最佳实践，为金融科技开发者提供了集成垂直领域 AI 能力的便捷途径。该 API 基于 Neurobro agent 构建，旨在降低金融机构使用 AI 的门槛，支持快速构建智能投顾或市场分析应用，确保数据合规与响应速度。",
+    "tags": [
+      "New",
+      "Finance",
+      "API"
+    ],
+    "link": "https://neuroapi.neurobro.ai/docs",
+    "date": "2026-05-16",
+    "id": "17789474471533"
+  },
+  {
+    "title": "AI 生成论文质量提升引发学术界担忧：同行评审面临挑战",
+    "summary": "The Verge 报道 AI 研究论文质量变好反而成问题，加剧学术界同行评审压力。",
+    "detail": "The Verge 文章指出，AI 生成的研究论文质量日益提高，但这反而给科学家带来了大问题。高质量的 AI 论文泛滥使得同行评审系统不堪重负，难以区分人类研究与机器生成内容。这一现象引发了关于学术诚信、评审机制改革及 AI 在科研中角色的深刻讨论，可能迫使学术界重新定义研究产出标准。随着生成模型能力提升，期刊可能需要引入专门的 AI 检测工具或调整发表政策，以维护科学记录的可靠性，防止学术资源被低质 AI 内容淹没。",
+    "tags": [
+      "News",
+      "Research",
+      "Ethics"
+    ],
+    "link": "https://www.theverge.com/ai-artificial-intelligence/930522/ai-research-papers-slop-peer-review-problem",
+    "date": "2026-05-16",
+    "id": "17789474471534"
+  },
+  {
+    "title": "数独 benchmark 揭示 AI 推理局限：EBM 模型胜率 96% 远超 LLM",
+    "summary": "Logical Intelligence 测试显示 Kona EBM 模型数独胜率 96%，而前沿 LLM 仅 2%。",
+    "detail": "Logical Intelligence 通过数独谜题测试 AI 推理架构。结果显示，其 Kona EBM 模型解决了 96.2% 的难题，平均耗时 313 毫秒；而包括 GPT-5.2、Claude Opus 4.5 在内的前沿 LLM 胜率仅 2%。文章指出 LLM 的自回归架构不适合空间推理任务，无法有效修订早期决策。这证明了非自回归模型在特定推理场景下的巨大潜力。测试禁用了代码执行，确保评估的是纯推理能力，为未来 AI 架构演进提供了重要参考数据，暗示混合架构可能是解决复杂推理的关键。",
+    "tags": [
+      "Dev",
+      "Research",
+      "EBM"
+    ],
+    "link": "https://logicalintelligence.com/blog/energy-based-model-sudoku-demo",
+    "date": "2026-05-16",
+    "id": "17789474471535"
+  },
+  {
+    "title": "Isomorphic Labs 融资 21 亿美元：加速 AI 药物发现与分子设计",
+    "summary": "Google DeepMind 联合创始人创立的 Isomorphic Labs 完成 21 亿美元融资，专注 AI 制药。",
+    "detail": "FAV0 日报报道，Google DeepMind 联合创始人 Demis Hassabis 创立的 Isomorphic Labs 完成了 21 亿美元融资。公司将利用资金加速 AI 蛋白质结构预测与分子设计，基于 AlphaFold 的突破研发新药。此举显示资本市场对 AI 制药领域的高度信心，预计将显著缩短药物研发周期，推动生物科技与 AI 的深度融合。融资将用于扩大计算资源与团队，目标是利用 AI 解决传统制药中耗时最长的分子筛选环节，具有里程碑意义，可能催生新一代重磅药物。",
+    "tags": [
+      "News",
+      "Biotech",
+      "Funding"
+    ],
+    "link": "https://fav0.com/en/2026-05-16/",
+    "date": "2026-05-16",
+    "id": "17789474471536"
+  },
+  {
     "title": "Isomorphic Labs 获 21 亿美元融资加速 AI 制药",
     "summary": "Google DeepMind 联合创始人创立，利用 AI 预测蛋白质结构加速药物研发。",
     "detail": "Isomorphic Labs 完成 21 亿美元融资，旨在利用 AI 技术加速药物发现。该公司由 Google DeepMind 联合创始人 Demis Hassabis 创立，基于 AlphaFold 突破性技术，专注于蛋白质结构预测和分子设计。此次融资将显著缩短药物开发周期，标志着 AI 在生物科技领域的商业化落地进入新阶段，行业影响深远。",
@@ -1212,96 +1303,5 @@
     "link": "https://9to5google.com/2026/05/13/android-contextual-suggestions/",
     "date": "2026-05-14",
     "id": "17787617021753"
-  },
-  {
-    "title": "美中计划 AI 安全协议谈判，美方称处于领先",
-    "summary": "CNBC 报道美中计划 AI 安全谈判，美财长称因领先愿对话。",
-    "detail": "CNBC 报道，美国财长 Bessent 表示，因美国在 AI 领域处于领先地位，愿与中国进行 AI 谈判，计划制定安全协议以确保非国家行为者无法获取模型。这反映了全球 AI 治理的紧迫性，美中作为两大巨头，其合作与博弈将直接决定未来 AI 安全标准的走向。此类高层对话可能促成初步框架，但技术封锁与开放合作的平衡仍是核心难点。安全协议的实施将影响全球模型分发及开源生态的发展。",
-    "tags": [
-      "News",
-      "Policy",
-      "Geopolitics"
-    ],
-    "link": "https://www.cnbc.com/2026/05/14/us-china-ai-rules-bessent-us-lead.html",
-    "date": "2026-05-14",
-    "id": "17787617021754"
-  },
-  {
-    "title": "女童军研究：65% 女孩视 AI 设备为朋友",
-    "summary": "女童军 USA 研究发现，多数使用 AI 设备的女孩将其视为朋友。",
-    "detail": "美国女童军（Girl Scouts of the USA）发布最新研究，显示 65% 使用 AI 辅助设备的女孩将它们视为“朋友”。这一数据揭示了年轻一代与 AI 交互的情感化趋势，提示 AI 伦理设计需关注儿童心理依赖问题。对教育类 AI 产品的开发及未成年人保护政策具有重要参考价值。家长与开发者需警惕过度情感绑定带来的潜在心理影响，确保 AI 陪伴功能在促进成长的同时，不阻碍真实社交能力的培养。",
-    "tags": [
-      "News",
-      "Social",
-      "Ethics"
-    ],
-    "link": "https://www.girlscouts.org/en/footer/press-room/2026-press-announcements/research-finds-girls-view-ai-as-friends.html",
-    "date": "2026-05-14",
-    "id": "17787617021755"
-  },
-  {
-    "title": "研究人员称 AI 突破自主网络能力基准",
-    "summary": "研究人员指出 GPT5 等模型已突破自主网络能力基准，引发安全担忧。",
-    "detail": "网络安全研究人员发现，包括 GPT5、Claude 在内的最新 AI 模型已突破所有自主网络能力基准测试。这一进展标志着 AI 在网络攻击与防御领域的自主性显著提升，可能重塑网络安全格局。基准的突破意味着 AI 不仅能辅助 coding，还能独立执行复杂网络任务。行业需警惕自动化攻击风险，同时探索 AI 防御潜力，重新评估现有安全架构的韧性。此发现可能促使企业加速部署 AI 驱动的安全运营中心，应对自主代理威胁浪潮。",
-    "tags": [
-      "News",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://cyberscoop.com/ai-autonomous-cyber-capability-benchmarks-broken-gpt5-claude-mythos/",
-    "date": "2026-05-14",
-    "id": "17787539535250"
-  },
-  {
-    "title": "民众更愿接受核电站而非 AI 数据中心",
-    "summary": "调查显示公众对 AI 数据中心的接受度低于核电站，能源挑战凸显。",
-    "detail": "福布斯报道指出，相比 AI 数据中心，当地居民更愿意接受核电站建在自己社区。这反映了 AI 基础设施扩张面临的公众认知与能源挑战。随着 AI 算力需求激增，数据中心选址与能源供应将成为行业发展的关键瓶颈，需加强社区沟通。公众对数据中心噪音、能耗及隐私的担忧超过了对核能的恐惧。这迫使科技巨头在扩张算力时必须更透明地处理环境影响，否则可能面临严重的社会阻力与政策限制，影响全球算力布局。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Society"
-    ],
-    "link": "https://www.forbes.com/sites/maryroeloffs/2026/05/13/people-would-rather-have-nuclear-power-plants-in-their-area-than-ai-data-centers/",
-    "date": "2026-05-14",
-    "id": "17787539535251"
-  },
-  {
-    "title": "警惕 AI 生产力剧场效应",
-    "summary": "专家警告 LLM 可能导致虚假生产力，忽视深度思考与市场需求。",
-    "detail": "文章警告软件工程中出现的\"AI 生产力剧场”现象。LLM 虽能加速代码生成，但可能导致团队在缺乏市场理解的情况下高速产出无效功能。开发者需警惕生成式工具带来的真空效应，回归对产品意图与商业价值的深度思考，避免忙碌却无成果。这种剧场效应表现为更新票据状态或撰写会议议程等表面工作，而非解决核心问题。若忽视此风险，企业可能陷入高速度低价值的陷阱，损害长期创新能力与工程文化健康，需建立更有效的评估机制。",
-    "tags": [
-      "News",
-      "Industry",
-      "Productivity"
-    ],
-    "link": "https://iknowa.spot/posts/26-5-9-beware-ai-productivity-theater",
-    "date": "2026-05-14",
-    "id": "17787539535252"
-  },
-  {
-    "title": "AGEF：开源 AI 代理会话证据格式",
-    "summary": "推出 AGEF 格式，实现 AI 代理会话的可移植与防篡改证据记录。",
-    "detail": "GitHub 上新开源了 AGEF（代理治理证据格式），旨在为 AI 代理会话提供可移植、内容寻址且防篡改的证据包。随着 AI 代理自主性增强，治理与审计成为关键。该技术为开发者提供了标准化的会话记录方案，有助于提升 AI 系统的透明度与合规性。AGEF 允许开发者轻松追踪代理决策过程，确保在出现错误时可追溯证据。这对于金融、医疗等高风险领域的 AI 部署尤为重要，是构建可信代理生态的基础设施一步，促进代理技术的安全落地。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Security"
-    ],
-    "link": "https://github.com/radotsvetkov/agef",
-    "date": "2026-05-14",
-    "id": "17787539535253"
-  },
-  {
-    "title": "Avocado Studio：Next.js 开源 AI 内容编辑器",
-    "summary": "发布面向 Next.js 的开源 AI 内容编辑器，挑战传统数字体验平台。",
-    "detail": "Avocado Studio 推出了针对 Next.js 网站的开源 AI 内容编辑器，愿景是开放、代理化且可组合。它旨在挑战 Adobe、Sitecore 等传统数字体验平台，为开发者提供现代化的内容运营工具。该项目反映了 AI 时代内容管理系统的代理化演进趋势。传统平台正 race 向代理化转型，而 Avocado 选择开源路线，降低开发者门槛。这对于构建下一代 AI 原生网站内容工作流具有重要意义，支持更灵活的内容编排与自动化管理，赋能开发者高效构建智能站点。",
-    "tags": [
-      "Dev",
-      "Next.js",
-      "OpenSource"
-    ],
-    "link": "https://docs.avocadostudio.dev/",
-    "date": "2026-05-14",
-    "id": "17787539535254"
   }
 ]
