@@ -1,5 +1,83 @@
 [
   {
+    "title": "ArXiv 严打 AI 代写，违规作者禁入一年",
+    "summary": "学术 Repository 加强监管，禁止完全由 AI 生成的论文，违规者禁入。",
+    "detail": "ArXiv 宣布新政策，严厉打击科学论文中滥用大语言模型的行为。若发现作者完全依赖 AI 完成工作，将面临为期一年的禁令。此举旨在维护学术诚信，防止 AI 生成内容污染科研数据库。这反映了学术界对 AI 生成内容质量的担忧及规范化管理的趋势，要求研究人员在使用 AI 辅助时保持透明与谨慎，确保核心贡献源于人类智慧。",
+    "tags": [
+      "News",
+      "Policy",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
+    "date": "2026-05-16",
+    "id": "17789647322060"
+  },
+  {
+    "title": "AI 淘金热中的行业分化现状",
+    "summary": "科技行业对当前 AI 繁荣的氛围并不乐观，存在明显的贫富分化。",
+    "detail": "TechCrunch 分析指出，尽管 AI 热潮持续，但科技行业内的氛围并不佳，存在明显的“贫富分化”。部分企业或个人在 AI 浪潮中获益，而 others 则面临挑战。这反映了 AI 技术落地过程中的实际困难与期望落差。当前 AI boom 背后的真实产业状况显示资源分配不均，提示投资者和从业者需理性看待行业增速，关注那些真正具备落地能力而非仅靠概念炒作的参与者。",
+    "tags": [
+      "News",
+      "Industry",
+      "Trend"
+    ],
+    "link": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
+    "date": "2026-05-16",
+    "id": "17789647322071"
+  },
+  {
+    "title": "Stoic AgentOS：开源 AI 代理舰队操作系统",
+    "summary": "单一仪表板监控、编排和持久化跨 AI 代理的知识，支持 SDK。",
+    "detail": "这是一个开源的 AI 代理舰队操作系统，旨在通过单一仪表板监控、编排和持久化跨 AI 代理的知识。支持 SDK 集成，提供实时 Dashboard 和 MIT 许可。该项目解决了多代理系统中的协调与知识 persistence 难题，为开发者构建复杂 AI 代理网络提供了基础设施。适合需要大规模代理协作的开发团队，降低了管理多个 AI 实例的复杂度，提升了 agent  fleet 的可观测性与控制力。",
+    "tags": [
+      "New",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://github.com/benjaminkernbaum-ux/stoic-agentos",
+    "date": "2026-05-16",
+    "id": "17789647322072"
+  },
+  {
+    "title": "LocalVibe：Apple Silicon 上的纯 Rust 本地 AI 栈",
+    "summary": "单二进制文件实现本地 LLM 聊天与向量搜索，支持 M1-M4 芯片。",
+    "detail": "专为 Apple Silicon (M1-M4) 设计的纯 Rust 本地 AI 栈。集成 Candle + Metal 进行推理，使用 fastembed-rs 和 LanceDB 处理向量搜索。通过单一二进制文件提供聊天、索引和搜索功能，支持量化 LLM。该项目展示了在本地设备上高效运行 AI 模型的技术路径，适合注重隐私和离线能力的开发者。无需依赖云端 API，即可在本地实现完整的 RAG 流程，降低了延迟与数据泄露风险。",
+    "tags": [
+      "Dev",
+      "Rust",
+      "LocalAI"
+    ],
+    "link": "https://github.com/Sok205/local_vibe",
+    "date": "2026-05-16",
+    "id": "17789647322073"
+  },
+  {
+    "title": "工程师引入 AI 工作流的实用指南",
+    "summary": "平衡 AI 效率与代码质量，强调人类注意力是稀缺资源。",
+    "detail": "针对工程师如何将 AI 引入工作流的实用指南。强调专家人类的注意力仍是稀缺资源，AI 应用于卸载非关键任务或增强人类注意力。文章基于健康科技初创公司的实际经验，建议在 regulated space 中保持对代码质量和输出的控制。为团队规模化采用 AI 工具提供了方法论参考，指出使用新工具不仅是技能发展，更是判断力的培养，需在效率与合规之间找到平衡点。",
+    "tags": [
+      "Dev",
+      "Workflow",
+      "Engineering"
+    ],
+    "link": "https://jeffammons.com/2026/05/05/a-pragmatic-beginners-guide-to-introducing-ai-to-your-engineering-workflow/",
+    "date": "2026-05-16",
+    "id": "17789647322074"
+  },
+  {
+    "title": "Annota：支持 BYOK AI 的本地优先笔记应用",
+    "summary": "端到端加密，离线可用，支持本地 Ollama 模型与云端同步。",
+    "detail": "一款本地优先、端到端加密的笔记应用，支持 Bring Your Own Key (BYOK) AI 功能。用户可嵌入 PDF、代码等内容，并通过本地 Ollama 或云端 AI 与笔记对话。完全离线可用，数据本地存储，订阅仅用于同步。该产品满足了用户对隐私安全和 AI 辅助知识管理的双重需求，适合注重数据主权的专业人士。免费版本功能完整，付费主要用于云同步与备份，定价透明 honest。",
+    "tags": [
+      "New",
+      "Privacy",
+      "Productivity"
+    ],
+    "link": "https://annota.online",
+    "date": "2026-05-16",
+    "id": "17789647322075"
+  },
+  {
     "title": "ArXiv 严打 AI 生成垃圾论文，违规者禁投一年",
     "summary": "ArXiv 宣布禁止提交 AI 生成幻觉内容的作者投稿一年。",
     "detail": "预印本服务器 ArXiv 出台严厉新政，旨在打击滥用大语言模型生成学术垃圾的行为。官方宣布，一旦发现提交者依赖 AI 生成含有幻觉的低质内容（slop），将面临为期一年的投稿禁令。此举旨在维护学术诚信，防止 AI 泛滥污染科研数据库。这反映了学术界对 AI 生成内容质量的深切担忧及治理决心，标志着科研出版界开始正视 AI 带来的伦理与质量挑战。该政策将迫使研究人员更审慎地使用 AI 辅助工具，明确人机协作的边界，对于依赖 AI 生成内容的投机行为将是沉重打击，有助于净化科研环境，确保科学记录的可靠性。",
@@ -1225,83 +1303,5 @@
     "link": "https://loopiq.com/blog/compliance-automation",
     "date": "2026-05-14",
     "id": "17787996078873"
-  },
-  {
-    "title": "构建金融服务 AI Agent 的实战经验总结",
-    "summary": "开发者分享金融领域 AI Agent 构建经验，涵盖沙盒、上下文及评估策略。",
-    "detail": "资深开发者分享了构建金融服务 AI Agent 的实战经验，强调了隔离执行环境（沙盒）的必要性。文章深入探讨了如何将异构金融数据标准化为上下文，以及基于 Markdown 的技能设计。此外，还提到了 S3 优先架构和实时流式传输的重要性。这些经验为开发者在高合规要求的金融领域部署 AI 提供了宝贵的技术参考和架构指南。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Finance"
-    ],
-    "link": "https://nicolasbustamante.com/blog/lessons-from-building-ai-agents-for-financial-services",
-    "date": "2026-05-14",
-    "id": "17787996078874"
-  },
-  {
-    "title": "Puter 集成 Z.ai GLM 模型，开发者无需 API 密钥",
-    "summary": "Puter 宣布与 Z.ai 合作，直接在浏览器中提供 GLM-5.1 等模型，无需配置 API。",
-    "detail": "Puter 宣布与领先 AI 实验室 Z.ai 达成合作，将其完整的 GLM 模型家族集成到 Puter 平台。开发者现在可以直接在浏览器中调用 GLM-5.1、GLM-5 等前沿模型，无需 API 密钥或服务器端设置。GLM-5.1 在 SWE-Bench Pro 上得分超越 GPT-5.4，显著降低了开发门槛。此次整合为社区超过 8 万名开发者提供了低摩擦的 AI 应用构建路径，支持视觉、代码生成等多模态任务，体现了开源权重模型在生态集成中的重要性。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Integration"
-    ],
-    "link": "https://developer.puter.com/blog/puter-zai-annoucement/",
-    "date": "2026-05-14",
-    "id": "17787931500660"
-  },
-  {
-    "title": "JDS 技能套件规范 Copilot 编程行为，强制设计先行",
-    "summary": "新开源工具 JDS 通过强制工作流，防止 AI 编程助手跳过设计和测试环节。",
-    "detail": "JDS 是一款针对 GitHub Copilot CLI 的技能套件插件，旨在解决 AI 编码助手缺乏纪律性的问题。它强制实施结构化工作流，要求在设计 before 代码、测试 before 实现。通过自动注入会话钩子和任务调度，JDS 确保 AI 不会跳过设计直接编码或声称未经验证的功能完成。该工具将 AI 从自动补全转变为纪律严明的软件工程师，适合复杂任务开发，强调了人类专家在 AI 辅助开发中的监督必要性。",
-    "tags": [
-      "Dev",
-      "Copilot",
-      "Workflow"
-    ],
-    "link": "https://github.com/josipmusa/jds",
-    "date": "2026-05-14",
-    "id": "17787931500661"
-  },
-  {
-    "title": "深度分析：AI Agent 随项目扩大趋向愚钝而非专家化",
-    "summary": "文章指出 AI Agent 在大型项目中上下文受限，信任度随规模增加而降低，需人类监督。",
-    "detail": "文章深入分析了 AI Agent 在项目生命周期中的表现悖论：初期像专家，随项目增长受上下文窗口限制，开始出现 hack 行为且偏离指南。与人类员工经验积累相反，AI 的信任度随项目规模扩大而递减。作者强调 AI 适合作为顾问而非领导者，亚马逊要求高级人员审查 AI 代码即是佐证。虽然 AI 能加速信息合成，但过度依赖会导致理解力 slip，危险在于让机器替代理解，核心判断仍需人类专家把握大局。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Analysis"
-    ],
-    "link": "https://holdtherobot.com/blog/an-ai-agent-progresses-towards-idiocy-not-expertise/",
-    "date": "2026-05-14",
-    "id": "17787931500662"
-  },
-  {
-    "title": "AI 编排平台的陷阱：格式锁定比基础设施更危险",
-    "summary": "分析指出 AI orchestration 早期阶段存在平台锁定风险，格式定义权即控制权。",
-    "detail": "文章揭示了 AI 编排领域正在重演科技行业的平台陷阱模式。开发者选择平台不仅是选基础设施，更是选格式锁定。代理的定义方式（Python SDK 或专有 YAML）构成了退出成本。一旦平台积累用户获得定价权，构建者将陷入被动谈判。当前 AI 编排处于早期，格式即锁定，控制格式即控制退出成本。开发者需警惕视觉拖拽界面或专有 schema 带来的长期依赖，避免在平台掌握定价权前失去迁移能力，建议关注开放标准。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Strategy"
-    ],
-    "link": "https://openenvelope.org/writing/platform-trap-in-ai/",
-    "date": "2026-05-14",
-    "id": "17787931500663"
-  },
-  {
-    "title": "OpenAI 拟对苹果采取法律行动",
-    "summary": "彭博社报道 OpenAI 已聘请外部律所，准备针对苹果采取法律措施。",
-    "detail": "据 TechCrunch 引用彭博社消息，OpenAI 已聘请外部律所评估选项，准备对苹果采取法律行动。报道强调，苹果并非 OpenAI 第一个感到受损的合作伙伴，暗示双方合作可能存在深层利益冲突或信任危机。此举可能涉及 AI 集成权限、数据使用或商业条款分歧。若诉讼成真，将标志着两大科技巨头合作关系的潜在破裂，对 AI 模型在硬件生态中的集成格局产生重大影响。行业观察家认为，这可能重新定义 AI 公司与大型平台方的博弈规则，引发对合作伙伴权益保护的广泛关注，后续进展值得密切追踪。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Apple"
-    ],
-    "link": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
-    "date": "2026-05-14",
-    "id": "17787881309580"
   }
 ]
