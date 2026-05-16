@@ -1,5 +1,70 @@
 [
   {
+    "title": "ArXiv 严打 AI 生成垃圾论文，违规者禁投一年",
+    "summary": "ArXiv 宣布禁止提交 AI 生成幻觉内容的作者投稿一年。",
+    "detail": "预印本服务器 ArXiv 出台严厉新政，旨在打击滥用大语言模型生成学术垃圾的行为。官方宣布，一旦发现提交者依赖 AI 生成含有幻觉的低质内容（slop），将面临为期一年的投稿禁令。此举旨在维护学术诚信，防止 AI 泛滥污染科研数据库。这反映了学术界对 AI 生成内容质量的深切担忧及治理决心，标志着科研出版界开始正视 AI 带来的伦理与质量挑战。该政策将迫使研究人员更审慎地使用 AI 辅助工具，明确人机协作的边界，对于依赖 AI 生成内容的投机行为将是沉重打击，有助于净化科研环境，确保科学记录的可靠性。",
+    "tags": [
+      "News",
+      "AI Policy",
+      "Research"
+    ],
+    "link": "https://arstechnica.com/science/2026/05/preprint-server-arxiv-will-ban-submitters-of-ai-generated-hallucinations/",
+    "date": "2026-05-16",
+    "id": "17789584725640"
+  },
+  {
+    "title": "彭博：美国 AI 暴露岗位开始出现大规模失业",
+    "summary": "彭博社报道美国易受 AI 影响的职位正经历严重流失。",
+    "detail": "彭博社最新数据显示，美国劳动力市场中易受 AI 技术影响的岗位已开始出现显著流失。随着企业加速部署自动化解决方案，传统职能角色面临被替代的风险。这一趋势标志着 AI 从概念验证走向实际生产力替代的转折点，对就业市场结构产生深远影响。经济分析师指出，这不仅是技术升级，更是产业结构的重塑。数据显示，暴露度高的职位失业率上升明显，验证了此前关于 AI 替代效应的担忧。提示从业者需尽快提升不可替代技能，适应人机协作的新工作模式。政府与企业需关注再培训政策，以缓解转型期的社会摩擦，避免技术性失业引发社会问题。",
+    "tags": [
+      "News",
+      "Economy",
+      "Labor Market"
+    ],
+    "link": "https://www.bloomberg.com/news/articles/2026-05-15/us-is-starting-to-see-heavy-job-losses-in-roles-exposed-to-ai",
+    "date": "2026-05-16",
+    "id": "17789584725641"
+  },
+  {
+    "title": "Stripe 实验揭示：AI Agent 并非听话的初级工程师",
+    "summary": "Stripe 分享 AI Agent 引导实验，发现模型难以遵循最佳实践。",
+    "detail": "Stripe 开发团队通过一系列实验发现，AI Agent 并不像预期的初级工程师那样听话。即使提供文档和 SDK，Agent 仍可能调用旧 API 或违背最佳实践。团队尝试了被动提示和主动引导，发现单纯 embedding guidance 效果有限。这为开发者工具设计提供了重要洞察：在 Agent 优先的时代，需要重新思考如何有效“引导”模型行为。结论表明，开发者需要构建更强制性的约束机制，而非依赖模型的自觉性。这对构建可靠的 AI 原生应用具有指导意义，提示 SDK 设计需适配 Agent 的认知模式，不能简单沿用人类开发者的交互逻辑。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Engineering"
+    ],
+    "link": "https://stripe.dev/blog/ai-steering-experiments",
+    "date": "2026-05-16",
+    "id": "17789584725642"
+  },
+  {
+    "title": "Webflow：AI 生成代码的清理成本被速度叙事掩盖",
+    "summary": "Webflow 指出 AI 生成代码存在隐藏的长期清理成本。",
+    "detail": "Webflow 博客文章指出，虽然 AI 大幅降低了应用构建门槛，但生成的代码存在隐藏的长期清理成本。GitHub 预测 2026 年提交量将激增 10 倍，但缺乏治理的 AI 代码会导致技术债务累积。文章分析了发明者、研究者、平台及工程组织等不同角色的责任，强调在追求开发速度的同时，必须重视代码质量与可维护性。Velocity 叙事往往忽略了后续的维护负担。企业需要建立新的代码治理标准，平衡 AI 效率与系统稳定性，避免陷入“快速构建，缓慢修复”的陷阱，确保软件生命周期的可持续性。",
+    "tags": [
+      "News",
+      "Code Quality",
+      "AI Development"
+    ],
+    "link": "https://webflow.com/blog/cleanup-cost-ai-generated-code",
+    "date": "2026-05-16",
+    "id": "17789584725643"
+  },
+  {
+    "title": "Palace-AI：为 AI Agent 打造的记忆宫殿开源项目",
+    "summary": "GitHub 新项目 Palace-AI 旨在为 AI 代理提供记忆管理方案。",
+    "detail": "GitHub 上涌现了新开源项目 Palace-AI，旨在为 AI Agent 构建“记忆宫殿”。该项目试图解决 Agent 在长上下文任务中的记忆保持与检索问题。通过结构化的记忆管理，帮助 Agent 更有效地处理复杂任务流。这是 Agent 基础设施层的重要探索，为开发者提供了新的工具选择，有助于提升 Agent 在复杂场景下的可靠性与表现。随着 Agent 应用复杂度增加，记忆管理成为关键瓶颈。该项目提供了开源解决方案，可能成为 Agent 开发栈中的标准组件，促进生态发展，降低开发者构建复杂 Agent 系统的门槛。",
+    "tags": [
+      "New",
+      "Open Source",
+      "Agents"
+    ],
+    "link": "https://github.com/RhyChaw/palace-ai",
+    "date": "2026-05-16",
+    "id": "17789584725644"
+  },
+  {
     "title": "AI 智能体助力小企业扩张",
     "summary": "作者分享 AI 智能体如何帮助小团队高效交付，强调组织维度的重要性。",
     "detail": "文章基于作者在 Ramp 及 SF 新角色的经历，探讨 AI 智能体（如 Claude Code）如何让非技术背景朋友实现创意。指出在大型组织中，代码不仅是技术产物，更涉及社会和组织维度。作者对比了医疗行业技术滞后与软件行业的快速发展，强调 AI 工具在不同规模公司中的应用效果存在差异，solo 开发者可快速迭代，但新职位需适应组织流程。这种差异表明，AI 代理虽能增强小团队能力，但在复杂企业环境中，技术部署仍需考虑人际协作与既有流程，单纯的技术效率提升不足以解决组织性挑战。",
@@ -1238,70 +1303,5 @@
     "link": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
     "date": "2026-05-14",
     "id": "17787881309580"
-  },
-  {
-    "title": "IBM 发布 Granite 多语言嵌入模型 R2",
-    "summary": "IBM 开源 Apache 2.0 多语言嵌入模型，支持 32K 上下文及 200+ 语言。",
-    "detail": "IBM 通过 Hugging Face 发布 Granite Embedding Multilingual R2 系列模型。包含 97M 和 311M 两个版本，均采用 Apache 2.0 协议，允许商业自由使用。新模型支持 32K 上下文窗口，覆盖 200 多种语言，并在 MTEB 多语言检索基准中表现优异。该模型支持 Matryoshka 架构，增加了对 9 种编程语言的代码检索支持。适用于企业级检索增强生成（RAG）场景，显著提升跨语言检索质量，为开发者提供高效、开源的多语言嵌入解决方案，进一步扩展了其在技术文档检索中的应用潜力，降低部署成本。",
-    "tags": [
-      "Dev",
-      "IBM",
-      "Embedding"
-    ],
-    "link": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
-    "date": "2026-05-14",
-    "id": "17787881309581"
-  },
-  {
-    "title": "Clawdmeter：Claude Code 用量桌面监控工具",
-    "summary": "全新开源工具，将 Claude Code 使用统计转化为桌面仪表盘。",
-    "detail": "TechCrunch 报道了一款名为 Clawdmeter 的全新开源工具。该工具专为 AI 编码重度用户设计，能够将 Claude Code 的使用统计数据转化为小型桌面仪表盘。开发者可通过此 gadget 实时监控使用情况，优化工作流。该项目体现了社区对 AI 编程辅助工具生态的补充，适合需要精细化管理 AI 编码成本的开发者。作为开源项目，它增强了用户对 AI 辅助编程过程的可控性与透明度。这对于依赖 Claude Code 进行开发的用户尤为重要，有助于更直观地了解使用习惯，提升开发体验与效率，是 AI 编程生态的最新补充。",
-    "tags": [
-      "New",
-      "OpenSource",
-      "Coding"
-    ],
-    "link": "https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/",
-    "date": "2026-05-14",
-    "id": "17787881309582"
-  },
-  {
-    "title": "金融服务代理 AI 的数据就绪性挑战",
-    "summary": "金融行业部署代理 AI 关键在于数据质量与安全，而非模型本身。",
-    "detail": "麻省理工科技评论指出，金融服务公司部署代理 AI 的成功取决于数据质量、安全性和可访问性。Elastic 专家强调需先规模化搜索和保护数据。Gartner 发现超半数金融团队已计划实施代理 AI，但自主 AI 会放大底层数据的优缺点。金融机构需在高速响应外部事件的同时，确保数据能被搜索、保护及上下文化，以实现对复杂工作流的优化和风险控制。",
-    "tags": [
-      "News",
-      "Agentic AI",
-      "Finance"
-    ],
-    "link": "https://www.technologyreview.com/2026/05/14/1137034/data-readiness-for-agentic-ai-in-financial-services/",
-    "date": "2026-05-14",
-    "id": "17787813240230"
-  },
-  {
-    "title": "面向 AI 初创公司的合成评估数据集",
-    "summary": "提供代理和 RAG 应用的现成合成评估数据，助力安全发布。",
-    "detail": "PAIXBLOX 为 AI 初创团队提供可部署的合成评估数据集，涵盖代理工具滥用、RAG 提示注入及输出压力测试。支持 JSON/CSV 等格式，48 小时交付，帮助创始人在演示和采购审查前验证覆盖率和风险模式。数据集针对 unsafe tool use、bad retrieval 及 hallucinated actions 等早期 AI 产品常见失败模式构建，确保 AI 工作流安全。",
-    "tags": [
-      "Dev",
-      "Evaluation",
-      "Startup"
-    ],
-    "link": "https://paixblox.github.io/learned/",
-    "date": "2026-05-14",
-    "id": "17787813240231"
-  },
-  {
-    "title": "Google 挫败 AI 驱动的软件漏洞利用企图",
-    "summary": "Google 报告 disrupting 了一次利用 AI exploit 软件漏洞的攻击行动。",
-    "detail": "据 AP 新闻及 Hacker News 报道，Google 宣布成功干扰了一次由 AI 驱动的利用软件漏洞的企图。此事件凸显了 AI 在网络安全攻击面的双刃剑效应，以及大厂在防御 AI 自动化攻击方面的最新动态。虽然具体技术细节未在摘要中披露，但该消息引发了社区对 AI 安全性及自动化漏洞利用风险的高度关注。",
-    "tags": [
-      "News",
-      "Security",
-      "Google"
-    ],
-    "link": "https://apnews.com/article/google-ai-cybersecurity-exploitation-mythos-926aea7f7dc5e0e61adce3273c55c6d4",
-    "date": "2026-05-14",
-    "id": "17787813240232"
   }
 ]
