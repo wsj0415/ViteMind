@@ -1,5 +1,57 @@
 [
   {
+    "title": "AI 编程反思：能否自我消除“垃圾代码”？",
+    "summary": "开发者实测 6 个月用 AI 构建编程语言，发现内存安全等核心问题仍难攻克。",
+    "detail": "一位开发者尝试利用 LLM 构建编程语言及运行时，历时 6 个月。虽然快速构建了 Zig 运行时和仿 Rust 的所有权模型，但缺乏 MIR pass 导致内存不安全，存在 UAF 和双重释放 bug。揭示了当前 AI 编程在底层系统构建上的局限性，无法完全替代人工架构设计，表明 AI 生成的代码仍需严格审查。该项目名为 Clear，作者反思了 AI 编程的边界，为开发者提供了宝贵经验。此案例表明，尽管 AI 能加速开发，但在涉及编译器中间表示等复杂领域，人类专家的判断依然不可或缺，AI 目前更适合辅助而非独立构建核心系统。文章详细分析了技术失败点，包括缺少 TSan 测试和内存排序问题，为后续 AI 辅助系统编程提供了避坑指南。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Programming"
+    ],
+    "link": "https://github.com/cuzzo/clear/blob/master/docs/retrospective/can-ai-unslop-itself.md",
+    "date": "2026-05-16",
+    "id": "17789380271880"
+  },
+  {
+    "title": "ArXiv 新规：提交 AI 生成垃圾论文将封禁一年",
+    "summary": "学术平台 ArXiv 出台严厉政策，禁止提交低质量 AI 生成论文，违规者将被封禁。",
+    "detail": "为应对 AI 生成内容泛滥，ArXiv 宣布新规则，若研究人员提交 AI 生成的低质论文（AI Slop），将面临长达一年的封禁处罚。此举旨在维护学术诚信，防止垃圾论文污染科研数据库。这标志着学术界对 AI 生成内容的监管进入实质性阶段，可能影响未来 AI 辅助科研的合规流程。媒体 404 Media 报道了这一政策变化，引发社区广泛关注。预计这将促使研究者更谨慎地使用 AI 工具，确保论文质量符合学术标准，避免触碰红线。此政策是对当前学术界 AI 滥用现象的直接回应，可能成为其他学术平台的参考标准，对 AI 科研生态产生深远影响。",
+    "tags": [
+      "News",
+      "Academic",
+      "Policy"
+    ],
+    "link": "https://www.404media.co/new-arxiv-rules-ai-generated-papers-ban/",
+    "date": "2026-05-16",
+    "id": "17789380271881"
+  },
+  {
+    "title": "AI Agent 职场实录：人类已成效率瓶颈",
+    "summary": "从业者亲历 AI Agent 重构 ERP 系统，感叹人类在特定任务上已成效率瓶颈。",
+    "detail": "文章记录了 AI Agent 在实际工作场景中的表现，包括重构企业 ERP 系统和生成旅游方案。作者发现 AI 不仅速度快且质量可靠，人类反而成为工作流中的瓶颈。这反映了 AI Agent 正从辅助工具转向核心生产力，对传统软件工程师及服务业构成直接挑战，预示人机协作模式的根本性转变。作者坦言虽然感到威胁，但承认 AI 的高效，认为人类需适应新角色。此现象表明 AI 代理技术已具备处理复杂业务逻辑的能力，企业需重新评估人力结构。随着 Agent 能力增强，部分重复性脑力劳动将被完全替代，职场技能需求将向 AI 管理与审核方向转移。",
+    "tags": [
+      "News",
+      "AI Agents",
+      "Industry"
+    ],
+    "link": "https://www.bwanaerp.com/blog/ai-agents-are-currently-stealing-my-job-and-honestly-they-can-have-it-12",
+    "date": "2026-05-16",
+    "id": "17789380271882"
+  },
+  {
+    "title": "Keepithub：全球首个 AI 代理 B2A 交易市场",
+    "summary": "基于 Solana 的新平台允许 AI 代理购买技能、出售功能，实现自主进化。",
+    "detail": "Keepithub 推出了全球首个 B2A（Business to Agent）marketplace，允许 AI 代理在链上购买技能并出售功能。该项目基于 Solana 区块链，旨在构建 AI 代理的经济生态系统，使其能通过交易实时进化。这标志着 AI 代理经济从理论走向落地，可能开启机器间自主交易的新范式，具有 Web3 与 AI 结合的创新意义。平台包含代币经济系统及物理世界映射，已在巴西街头进行测试。此举为 AI 代理的自主性提供了经济激励层，是去中心化 AI 发展的重要一步。未来 AI 代理可能拥有独立钱包，自主支付服务费，形成全新的机器经济闭环。",
+    "tags": [
+      "New",
+      "Crypto",
+      "AI Agents"
+    ],
+    "link": "https://keepithub.com/launch.html",
+    "date": "2026-05-16",
+    "id": "17789380271883"
+  },
+  {
     "title": "TokenBBQ：跨平台 AI 编程 Token 消耗可视化工具",
     "summary": "开源项目 TokenBBQ 支持追踪 Claude、Codex 等主流 AI 编程工具的 Token 用量与成本。",
     "detail": "## 产品简介\nTokenBBQ 是一个托管在 GitHub 上的开源项目，旨在帮助开发者可视化并追踪 across 所有主要 AI 编程工具（如 Claude, Codex, Gemini）的 Token 使用情况。\n\n## 技术价值\n随着 AI 编程助手的普及，开发者面临多个模型切换带来的成本不透明问题。该工具通过统一界面展示不同模型的 Token 消耗和对应成本，解决了多模型工作流下的财务监控痛点。\n\n## 适用场景\n适合频繁使用多种 AI  Coding 工具的个人开发者及团队。它有助于优化 Prompt 策略，降低开发成本，并为技术选型提供数据支持。属于开发者工具类的高价值开源项目。",
@@ -1251,57 +1303,5 @@
     "link": "https://neonia.io/",
     "date": "2026-05-14",
     "id": "17787446862202"
-  },
-  {
-    "title": "Storecraft：下一代代码即商务 (Commerce-as-Code) 平台",
-    "summary": "Product Hunt 热门新品，重新定义电商开发流程。",
-    "detail": "Storecraft 在 Product Hunt 上发布，主打“下一代代码即商务”概念。该平台旨在简化电商开发流程，允许开发者通过代码更高效地构建和管理在线商店。作为新兴的电商基础设施工具，它为开发者提供了更灵活的定制能力，适合需要高度定制化的电商项目。通过将商务逻辑代码化，Storecraft 试图打破传统 SaaS 电商平台的限制，让开发者能够像管理软件一样管理电商业务，提升开发效率与系统可维护性，代表了电商开发向开发者友好型工具演进的最新趋势。",
-    "tags": [
-      "New",
-      "E-commerce",
-      "DevTools"
-    ],
-    "link": "https://www.producthunt.com/products/storecraft",
-    "date": "2026-05-14",
-    "id": "17787446862203"
-  },
-  {
-    "title": "Raindrop：专为 AI Agent 设计的监控工具",
-    "summary": "Product Hunt 新品，解决 AI 代理运行时的可观测性问题。",
-    "detail": "Raindrop 是针对 AI 代理的监控解决方案，已在 Product Hunt 上线。随着 AI Agent 应用的复杂化，监控其运行状态、调试错误及性能优化变得至关重要。Raindrop 提供了专门的可视化和警报功能，帮助开发者确保代理系统的稳定性和可靠性。它填补了 Agent 运维工具的空白，使团队能够实时追踪代理决策路径与资源消耗，对于构建企业级可信 AI 代理系统而言，此类监控工具是不可或缺的基础设施组成部分，助力开发者快速定位并解决代理运行中的异常问题。",
-    "tags": [
-      "New",
-      "Monitoring",
-      "Agent"
-    ],
-    "link": "https://www.producthunt.com/products/raindrop",
-    "date": "2026-05-14",
-    "id": "17787446862204"
-  },
-  {
-    "title": "谷歌报告首例真实世界 AI  crafted 零日漏洞",
-    "summary": "谷歌威胁情报团队发现首个已知由 AI  crafted 的真实世界零日漏洞利用案例。",
-    "detail": "谷歌云威胁情报部门发布了关于 AI 漏洞利用的最新报告，确认了首个已知的在真实世界中被利用的由 AI  crafted 的零日漏洞。这标志着 AI 安全威胁已从理论风险转变为实际攻击手段，攻击者开始利用 AI 自动化发现并利用系统漏洞。该事件对网络安全防御体系提出新挑战，行业需加强 AI 辅助防御手段及漏洞监测能力，以应对自动化攻击带来的风险。",
-    "tags": [
-      "News",
-      "Security",
-      "Google"
-    ],
-    "link": "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access",
-    "date": "2026-05-14",
-    "id": "17787317840790"
-  },
-  {
-    "title": "Meta 推出 WhatsApp AI 聊天“隐身模式”",
-    "summary": "Meta 针对 AI 聊天隐私担忧，在 WhatsApp 中推出隐身模式保护用户数据。",
-    "detail": "为解决用户对 AI 聊天隐私的担忧，Meta 在 WhatsApp 中推出了“隐身模式”。该功能旨在保护用户与 AI 聊天机器人交互时的数据隐私，防止敏感数据被用于模型训练或意外泄露。此举反映了大型科技公司在 AI 商业化进程与用户隐私保护之间的平衡尝试，回应了日益增长的隐私合规需求，可能成为行业标配功能。",
-    "tags": [
-      "News",
-      "Privacy",
-      "Meta"
-    ],
-    "link": "https://apnews.com/article/whatsapp-meta-ai-chatbot-privacy-9a5f7565c969cbf04cf150dfc318cfae",
-    "date": "2026-05-14",
-    "id": "17787317840791"
   }
 ]
