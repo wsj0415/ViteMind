@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 开发者的“最后一公里”困境",
+    "summary": "探讨 AI 工具在产品收尾阶段的局限性，概率性工具带来新挑战。",
+    "detail": "文章深入分析了开发者在使用 AI 辅助产品构建时的挫折感。虽然 AI 显著提升了早期开发效率，但在最后的打磨、细节调整及创意对齐阶段，概率性工具的不确定性反而增加了耗时。这反映了当前 AI 工作流中“最后 10% 消耗 90% 时间”的现象。作者指出，与传统确定性工具不同，AI 的概率性本质使得“最后一公里”变得艰难。这提示行业需关注确定性工具与 AI 的结合，解决概率性模型在精细 craft 上的不足，优化开发者体验，重新思考人机协作边界。",
+    "tags": [
+      "News",
+      "Workflow",
+      "Productivity"
+    ],
+    "link": "https://metedata.substack.com/p/012-your-ai-frustration-is-my-opportunity",
+    "date": "2026-05-17",
+    "id": "17790407902350"
+  },
+  {
+    "title": "PageIndex：无向量长文档理解 AI",
+    "summary": "推出基于推理的检索技术，无需嵌入或分块即可处理复杂文档。",
+    "detail": "PageIndex 发布了一款新型文档理解 AI，主打“无向量”检索技术。与传统 RAG 不同，它不依赖嵌入、分块或向量数据库，而是基于推理进行检索，提供可追溯、可验证的答案。支持 MCP 协议及 API 调用，为企业和个人开发者提供了更精确的长文档分析方案。该技术解决了传统向量检索丢失上下文的问题，提升了复杂文档处理的准确性。对于需要高精度文档问答的企业场景，这是一种值得关注的架构创新，降低了维护向量库的成本，推动了文档 AI 向推理型方向发展。",
+    "tags": [
+      "New",
+      "RAG",
+      "DocumentAI"
+    ],
+    "link": "https://pageindex.ai/",
+    "date": "2026-05-17",
+    "id": "17790407902351"
+  },
+  {
+    "title": "AI 失控风险与系统工程安全",
+    "summary": "借鉴系统工程理论，探讨 AI 失控风险建模与安全工程实践。",
+    "detail": "文章 reviewed Nancy Leveson 的《Engineering a Safer World》，将系统安全思维应用于 AI 领域。强调“失控”风险的复杂性，主张通过系统工程和控制论视角来建模 AI 安全风险。这对于当前 AI 安全研究具有重要参考价值，提示开发者需从系统层面而非仅模型层面考虑安全性，以防潜在的控制丢失。文章认为，随着 AI 系统自主性增强，传统的软件安全方法可能不足，需引入更严格的系统工程方法来构建更安全的 AI 系统，提供理论框架，保障 AI 长期健康发展。",
+    "tags": [
+      "News",
+      "Safety",
+      "Systems"
+    ],
+    "link": "https://www.lesswrong.com/posts/mL5asdegoa56CkqgJ/engineering-a-safer-world-risk-modelling-and-safety",
+    "date": "2026-05-17",
+    "id": "17790407902352"
+  },
+  {
+    "title": "Agnt：开源 AI 代理运行 CLI 工具",
+    "summary": "免费开源命令行工具，支持运行任何公共或 MIT 许可的 AI 代理。",
+    "detail": "Hacker News 社区展示了名为 Agnt 的新开源项目。这是一个命令行界面（CLI）工具，旨在简化 AI 代理的部署与运行。用户可通过它轻松执行任何公开或 MIT 许可的 AI 代理代码，降低了开发者测试和集成不同 Agent 的门槛。该项目促进了开源 Agent 生态的互操作性与标准化，方便开发者本地调试和管理各类智能代理。对于希望快速验证不同 Agent 效果的开发者而言，这是一个实用的基础设施工具，支持灵活配置，加速 Agent 应用落地。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "CLI"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48170395",
+    "date": "2026-05-17",
+    "id": "17790407902353"
+  },
+  {
+    "title": "Due Diligence Agents：并购合同分析代理",
+    "summary": "13 个 AI 代理覆盖 9 大领域，自动化处理并购尽职调查合同。",
+    "detail": "GitHub 开源项目\"Due Diligence Agents\"提供了 13 个专用 AI 代理，覆盖法律、财务、技术等 9 大领域。它能分析并购数据室中的合同，交叉引用发现并追踪到具体页码和引用。支持 Excel/Word 导出及交互式聊天，为金融和法律科技领域提供了高效的自动化尽职调查解决方案。知识可在多次运行中累积，显著降低人工审查成本。该项目展示了垂直领域 Agent 协作的潜力，为专业服务业的 AI 转型提供了可参考的开源实现路径，提升尽职调查效率。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Finance"
+    ],
+    "link": "https://github.com/zoharbabin/due-diligence-agents",
+    "date": "2026-05-17",
+    "id": "17790407902354"
+  },
+  {
     "title": "LocalLightChat：老旧笔记本也能运行的本地 AI 聊天 UI",
     "summary": "支持 50 万 token 上下文，轻量级便携本地 AI 聊天界面。",
     "detail": "这是一款专为本地 AI 部署和云 API 交互设计的轻量级聊天 UI，强调极致的便携性与运行效率。核心亮点包括在配置较低的老旧硬件上也能流畅处理 50 万 + 上下文 token，冷启动时间小于 1 秒，且安装包体积小于 60MB。功能涵盖全文搜索、语义压缩（可将 50k token 压缩至 2k）、可编辑文档及实时网络搜索。适合需要在低配置环境下部署本地大模型的开发者和用户，解决了本地运行大模型对硬件要求高的痛点，实现了真正的 Portable AI 体验。支持 ComfyUI 绑定及多种 Web 工具扩展，无需服务器即可管理无限历史对话，是本地大模型爱好者的理想选择。",
@@ -1234,70 +1299,5 @@
     "link": "https://www.eurogamer.net/amazon-ai-game-project-trident-laid-off-anyway-report",
     "date": "2026-05-16",
     "id": "17789003726276"
-  },
-  {
-    "title": "戛纳电影节转向谨慎接受 AI 技术",
-    "summary": "电影制作人开始谨慎接受 AI 在创作中的不可避免性。",
-    "detail": "**背景**：路透社报道戛纳电影节动态，反映创意产业对 AI 态度的转变。**核心**：电影制作人从抵制转向谨慎接受，承认 AI 在创作中的 inevitability，但仍保持警惕，探讨其在剧本、视觉效果中的应用。**影响**：标志创意产业对 AI 态度的转折点，未来内容创作将更多融合 AI 工具，但伴随伦理讨论，好莱坞及全球影视行业需平衡技术创新与艺术原创性，制定相关使用规范，确保 AI 作为辅助工具而非替代者，推动行业健康发展，避免版权与就业争议。",
-    "tags": [
-      "News",
-      "Creative",
-      "Industry"
-    ],
-    "link": "https://www.reuters.com/lifestyle/cannes-filmmakers-shift-towards-cautious-acceptance-ais-inevitability-2026-05-15/",
-    "date": "2026-05-15",
-    "id": "17790004569671"
-  },
-  {
-    "title": "EY 撤回研究报告：AI 幻觉引发企业信任危机",
-    "summary": "安永因研究人员发现 AI 幻觉问题撤回研究报告，凸显企业级 AI 应用风险。",
-    "detail": "## 事件背景\n金融时报报道，四大会计师事务所之一的安永（EY）被迫撤回了一项研究报告，原因是研究人员发现其中存在 AI 幻觉（Hallucinations）导致的数据错误。\n\n## 核心影响\n这一事件标志着 AI 幻觉问题已从技术讨论层面上升至企业信誉层面。对于依赖 AI 生成内容进行决策的企业而言，这是一个严重的警告信号。它表明当前 LLM 技术在事实准确性上仍存在不可忽视的缺陷，尤其是在专业咨询领域。\n\n## 行业启示\n企业级 AI 部署必须建立更严格的人工审核机制（Human-in-the-loop）。此事件可能加速 AI 审计工具的发展，并促使企业在发布 AI 生成内容前采取更保守的验证策略，以避免品牌声誉受损。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "LLM"
-    ],
-    "link": "https://www.ft.com/content/a61cbcae-95e4-4449-86e1-ef40fb306f4e",
-    "date": "2026-05-15",
-    "id": "17789323704600"
-  },
-  {
-    "title": "Adobe 卷入 AI 语音训练诉讼风波",
-    "summary": "Adobe 成为最新因 AI 语音训练数据使用而被起诉的科技巨头。",
-    "detail": "彭博法律最新报道，Adobe 已成为新一轮 AI 语音训练诉讼浪潮中的最新目标。原告指控其未经授权利用声音数据训练生成式 AI 模型，涉嫌侵犯版权与隐私权。这是继多家科技巨头后又一典型案例，深刻反映全球行业对数据版权和隐私的监管正在急剧收紧。法律专家分析，此举可能显著提高未来 AI 语音产品的开发合规成本，迫使企业重新审视数据 sourcing 流程与授权机制。行业合规门槛将进一步抬高，可能引发更多连锁诉讼，直接影响生成式 AI 的商业化进程与模型训练策略。未来类似案件可能成为判例，迫使大厂建立更透明的数据授权机制，否则将面临高额赔偿与声誉损失。",
-    "tags": [
-      "News",
-      "Legal",
-      "Voice AI"
-    ],
-    "link": "https://news.bloomberglaw.com/privacy-and-data-security/adobe-latest-target-in-wave-of-lawsuits-over-ai-voice-training",
-    "date": "2026-05-15",
-    "id": "17788894471610"
-  },
-  {
-    "title": "研究揭示 AI Agent 将漏洞转化为攻击的能力",
-    "summary": "新论文 ExploitGym 评估 AI 代理利用安全漏洞进行实际攻击的风险。",
-    "detail": "arXiv 最新论文 ExploitGym 深入探讨了 AI 代理将安全漏洞转化为实际攻击的潜在能力。研究团队包括 Nicholas Carlini、Dawn Song 等知名学者，指出 AI 网络安全能力迅速增强，急需进行严格的安全评估。实验表明，AI 可完成复杂的低级程序推理，实现未授权文件访问或代码执行。这对 AI 安全对齐和防御策略提出全新挑战，表明自动化攻击风险正在上升。开发者需关注 AI 代理在安全测试中的双刃剑效应，加强模型红队测试，防止恶意利用，确保 AI 系统不被用于网络攻击。该研究为评估 AI 代理的安全性提供了新基准，建议企业在部署自主 Agent 前进行严格的风险测试，以应对潜在的安全威胁。",
-    "tags": [
-      "Dev",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://arxiv.org/abs/2605.11086",
-    "date": "2026-05-15",
-    "id": "17788894471611"
-  },
-  {
-    "title": "Linux 内核新增 AI 安全 bug 定义文档",
-    "summary": "Linux 7.1 内核文档更新，明确安全 bug 资格及负责任的 AI 使用。",
-    "detail": "Phoronix 报道，Linux 7.1 内核文档迎来重要更新，明确界定何种问题 qualifies 为安全 bug，并首次加入 Responsible AI 相关指南。这标志着开源基础设施层开始正式纳入 AI 安全规范，影响深远。开发者需关注内核更新对 AI 部署环境的安全合规要求，及时调整策略。此举有助于统一社区对 AI 相关安全漏洞的认知，促进更负责任的 AI 系统开发。对于依赖 Linux 环境的 AI 工程团队，需及时同步最新安全标准，确保底层基础设施符合新兴的 AI 伦理与安全规范。这也将影响云服务器提供商及 AI 托管平台的合规策略，推动基础设施层的安全升级。",
-    "tags": [
-      "Dev",
-      "Linux",
-      "Security"
-    ],
-    "link": "https://www.phoronix.com/news/Linux-7.1-Kernel-Docs-AI-Bugs",
-    "date": "2026-05-15",
-    "id": "17788894471612"
   }
 ]
