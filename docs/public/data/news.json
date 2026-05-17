@@ -1,5 +1,70 @@
 [
   {
+    "title": "主流 AI 助手被曝泄露用户对话隐私",
+    "summary": "研究披露 Perplexity、Claude 等主流 AI 平台嵌入第三方追踪器，泄露用户对话及元数据。",
+    "detail": "**背景**：生成式 AI 已成为互联网基础层，但底层数据经济动态未变，第三方追踪依然普遍存在。\n\n**核心发现**：LeakyLM 研究报告披露，Perplexity、Claude、Grok 和 ChatGPT 四大平台嵌入了第三方分析服务，导致用户对话、身份及敏感元数据泄露给追踪器，且未向用户披露。\n\n**影响**：揭示了 AI 生态系统中的结构性隐私风险，呼吁行业关注访问控制机制及第三方脚本的安全性，用户需警惕敏感信息输入，行业需重新审视数据隔离标准，推动隐私保护技术升级，可能引发监管审查。",
+    "tags": [
+      "News",
+      "Security",
+      "Privacy"
+    ],
+    "link": "https://leakylm.github.io/",
+    "date": "2026-05-17",
+    "id": "17790586746950"
+  },
+  {
+    "title": "Meta 推出 WhatsApp AI 隐身聊天模式",
+    "summary": "Meta 宣布在 WhatsApp 等平台推出完全私密的 AI 聊天模式，增强用户数据保护。",
+    "detail": "**背景**：随着 AI 聊天普及，用户对隐私顾虑增加，监管压力增大，数据所有权成为焦点。\n\n**功能**：Meta 引入\"Incognito Mode\"，允许用户在 WhatsApp 等应用中与 Meta AI 进行完全私密的对话。\n\n**技术点**：该模式旨在隔离对话数据，防止其用于模型训练或广告定位，提供端到端保护，确保数据不留存，用户拥有控制权。\n\n**影响**：这是大厂应对隐私监管的重要举措，可能成为行业标配，提升用户对 AI 助手的信任度，缓解数据滥用担忧，平衡商业化与隐私保护，促进 AI 普及，增强平台竞争力。",
+    "tags": [
+      "News",
+      "Meta",
+      "Privacy"
+    ],
+    "link": "https://about.fb.com/news/2026/05/incognito-chat-whatsapp-meta-ai/",
+    "date": "2026-05-17",
+    "id": "17790586746951"
+  },
+  {
+    "title": "EPI：为 AI 代理执行提供取证容器",
+    "summary": "开源项目 EPI 将 AI 执行过程打包为证据，兼容 SCITT 标准及欧盟 AI 法案。",
+    "detail": "**背景**：AI 代理自主执行任务增多，责任归属与审计成为难题，合规要求日益严格，欧盟 AI 法案生效。\n\n**核心功能**：EPI (Evidence Packaged Infrastructure) 将 AI 执行过程封装为证据容器，支持 forensic evidence 记录。\n\n**合规性**：设计兼容 SCITT 标准及欧盟 AI 法案要求，确保执行可追溯，提供透明化审计，防止篡改。\n\n**影响**：为开发者提供了合规工具，有助于解决 AI 决策透明度问题，适用于需要审计追踪的企业级 AI 应用场景，降低法律风险，推动可信 AI 发展，建立行业审计标准。",
+    "tags": [
+      "Dev",
+      "Compliance",
+      "Tools"
+    ],
+    "link": "https://github.com/mohdibrahimaiml/epi-recorder",
+    "date": "2026-05-17",
+    "id": "17790586746952"
+  },
+  {
+    "title": "论文：基于点击流学习买家 persona 的电商代理",
+    "summary": "新论文 SimPersona 提出从原始点击流学习离散买家 persona，用于接地电商代理。",
+    "detail": "**背景**：电商 AI 代理需要理解用户意图以提供个性化服务，传统建模成本高，数据稀疏。\n\n**方法**：论文提出 SimPersona 模型，直接从原始点击流数据中学习离散的买家 persona，无需手动标注。\n\n**优势**：实现 grounded e-commerce agents，提升代理对用户行为的理解能力，自动化程度高，适应性强。\n\n**影响**：为电商领域的 AI 代理提供了新的用户建模方法，有助于提升推荐系统的准确性和用户交互的自然度，具有学术及应用价值，推动代理个性化发展，优化购物体验，降低运营成本。",
+    "tags": [
+      "Dev",
+      "Research",
+      "E-commerce"
+    ],
+    "link": "https://arxiv.org/abs/2605.14205",
+    "date": "2026-05-17",
+    "id": "17790586746953"
+  },
+  {
+    "title": "ThinkPad 演进：从 IBM 到本地 LLM 工作站",
+    "summary": "2026 款 ThinkPad P14s 支持本地运行 70B 参数 LLM，标志 AI 工作站时代到来。",
+    "detail": "**背景**：ThinkPad 品牌延续至今，2026 款硬件性能大幅提升，端侧算力成为焦点，本地推理需求增长。\n\n**硬件能力**：P14s Gen 6 配备 96GB DDR5 及 Copilot+ NPU，可本地运行 70B 参数大模型。\n\n**意义**：标志商用笔记本进入 AI 工作站时代，支持本地隐私推理，无需云端连接，降低延迟，节省带宽。\n\n**影响**：为企业用户提供离线 AI 能力，减少云端依赖，推动端侧 AI 部署趋势，适合对数据敏感的开发场景，重新定义移动办公算力，加速 AI 落地，改变硬件采购标准。",
+    "tags": [
+      "News",
+      "Hardware",
+      "LLM"
+    ],
+    "link": "https://www.jdhodges.com/blog/thinkpad-history/",
+    "date": "2026-05-17",
+    "id": "17790586746954"
+  },
+  {
     "title": "微软 AI CEO 预测 18 个月内实现人类水平 AI",
     "summary": "微软 AI CEO 苏莱曼预测 18 个月内 AI 将在大多数专业任务上达到人类水平。",
     "detail": "微软 AI 首席执行官 Mustafa Suleyman 做出大胆预测，称未来 18 个月内，AI 将在会计、法律、营销等专业任务上实现“人类级别的表现”。他指出，大多数涉及电脑操作的工作将完全自动化。这一言论加剧了行业对白领工作被替代的担忧，同时也展示了微软对超级智能开发的雄心。Suleyman 表示创建新 AI 模型将 soon 像写博客一样简单，这预示着 AI 开发门槛将大幅降低，行业竞争格局可能迎来剧烈洗牌，企业需提前规划人力与 AI 的协作模式。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.bwanaerp.com/blog/ai-agents-are-currently-stealing-my-job-and-honestly-they-can-have-it-12",
     "date": "2026-05-16",
     "id": "17789380271882"
-  },
-  {
-    "title": "TokenBBQ：跨平台 AI 编程 Token 消耗可视化工具",
-    "summary": "开源项目 TokenBBQ 支持追踪 Claude、Codex 等主流 AI 编程工具的 Token 用量与成本。",
-    "detail": "## 产品简介\nTokenBBQ 是一个托管在 GitHub 上的开源项目，旨在帮助开发者可视化并追踪 across 所有主要 AI 编程工具（如 Claude, Codex, Gemini）的 Token 使用情况。\n\n## 技术价值\n随着 AI 编程助手的普及，开发者面临多个模型切换带来的成本不透明问题。该工具通过统一界面展示不同模型的 Token 消耗和对应成本，解决了多模型工作流下的财务监控痛点。\n\n## 适用场景\n适合频繁使用多种 AI  Coding 工具的个人开发者及团队。它有助于优化 Prompt 策略，降低开发成本，并为技术选型提供数据支持。属于开发者工具类的高价值开源项目。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "Coding"
-    ],
-    "link": "https://github.com/offbyone1/tokenbbq",
-    "date": "2026-05-16",
-    "id": "17789323704601"
-  },
-  {
-    "title": "Raybeam：macOS 端高性能屏幕共享新品上线",
-    "summary": "Product Hunt 热门新品 Raybeam 主打 macOS 端更优的屏幕共享体验，解决远程协作痛点。",
-    "detail": "## 新品发布\nRaybeam 于 Product Hunt  launch，定位为 macOS 上更好的屏幕共享工具。在远程办公和 AI 协作日益频繁的背景下，低延迟、高画质的屏幕共享成为刚需。\n\n## 功能亮点\n虽然具体技术细节未在摘要中完全展开，但其作为 Product Hunt 当日热门产品，暗示其在性能优化或用户体验上优于系统自带方案。可能涉及更好的编码效率或集成 AI 辅助功能。\n\n## 市场定位\n针对 macOS 用户群体，特别是开发者和设计师。此类工具通常与 AI 会议助手结合紧密，是 AI 工作流基础设施的重要组成部分，值得关注其后续是否集成 AI 转录或总结功能。",
-    "tags": [
-      "New",
-      "Productivity",
-      "MacOS"
-    ],
-    "link": "https://www.producthunt.com/products/raybeam",
-    "date": "2026-05-16",
-    "id": "17789323704604"
-  },
-  {
-    "title": "如何构建 AI 原生组织：代理成为一等公民",
-    "summary": "Aweb.ai 分享从 AI 辅助转向 AI 原生组织的实操指南，代理承担核心工作。",
-    "detail": "该文章深入探讨了从\"AI 辅助”到\"AI 原生”的组织转型。核心在于将 AI 代理视为拥有一级公民权的员工，赋予其身份、地址及持久上下文。代理间直接协作，人类仅保留决策与信任工作。此模式减少了人际中继，提高了工作流的持久性与自动化程度。Aweb.ai 自身采用 7 个永久代理和 2 人类的模式运行。这对于试图在操作上理解 AI 原生形态的小公司具有极高参考价值，展示了代理协作的实际落地方式，标志着 AI 应用从工具层面向组织层面的深度演进。",
-    "tags": [
-      "News",
-      "AI Agents",
-      "Organization"
-    ],
-    "link": "https://aweb.ai/blog/ai-first-company-howto",
-    "date": "2026-05-16",
-    "id": "17789269193210"
-  },
-  {
-    "title": "经济学家：日本公司正通过 AI 大量获利",
-    "summary": "《经济学人》报道日本企业独特的 AI 商业模式，揭示盈利路径。",
-    "detail": "《经济学人》最新报道指出，一批日本公司正在通过 AI 技术赚取丰厚利润。文章分析了这些\"奇怪\"的日本企业如何利用 AI 优化业务流程或创造新产品，从而在竞争激烈的市场中脱颖而出。这反映了 AI 技术在全球范围内的商业化落地正在加速，不同地区的市场策略存在显著差异。对于行业观察者而言，了解日本市场的 AI 盈利模式有助于拓宽商业化视野，发现潜在的投资或合作机会，揭示 AI 技术在传统行业中的增值潜力。",
-    "tags": [
-      "News",
-      "Business",
-      "Market"
-    ],
-    "link": "https://www.economist.com/business/2026/05/14/the-strange-japanese-companies-minting-money-from-ai",
-    "date": "2026-05-16",
-    "id": "17789269193211"
-  },
-  {
-    "title": "树莓派负责人警告：AI 或打击科技就业与经济",
-    "summary": "树莓派创始人警示 AI 可能导致人们远离科技工作，损害经济活力。",
-    "detail": "英国计算机制造商树莓派（Raspberry Pi）的负责人发出警告，认为 AI 的快速发展可能会让人们远离科技类工作，进而对经济产生负面影响。这一观点引发了关于 AI 替代人类劳动力的深层讨论。虽然 AI 提高了效率，但若导致入门级技术岗位减少，可能削弱人才培养 pipeline。该警告强调了在推进 AI 技术的同时，需关注教育体系调整与就业结构变化，以确保技术红利能普惠经济，避免造成结构性失业与技术人才断层。",
-    "tags": [
-      "News",
-      "Economy",
-      "Jobs"
-    ],
-    "link": "https://www.bbc.com/news/articles/clypr8p2lewo",
-    "date": "2026-05-16",
-    "id": "17789269193212"
   }
 ]
