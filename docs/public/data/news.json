@@ -1,5 +1,70 @@
 [
   {
+    "title": "亚利桑那州大学生嘘声反对 Eric Schmidt 的 AI 演讲",
+    "summary": "毕业典礼上学生对 AI 过度宣传表示不满，反映公众情绪变化。",
+    "detail": "在亚利桑那大学毕业典礼上，谷歌前 CEO Eric Schmidt 因过度推崇 AI 遭到学生嘘声。这一事件标志着 AI 行业面临的社会舆论转折点，公众对 AI 取代人类工作的担忧加剧。Schmidt 的演讲被视为对 AI 技术的无条件支持，忽略了学生群体对就业市场和技术伦理的焦虑。此类事件可能影响科技巨头未来的公关策略及 AI 政策的制定方向，表明单纯的技术乐观主义已难以说服年轻一代。行业需更关注 AI 的社会影响与人文关怀，否则将面临更大的公众阻力与监管压力。这反映了 AI 普及过程中必须解决的社会信任危机。",
+    "tags": [
+      "News",
+      "Social",
+      "Policy"
+    ],
+    "link": "https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement",
+    "date": "2026-05-17",
+    "id": "17790456145500"
+  },
+  {
+    "title": "LinkedIn 用户利用提示词注入反制招聘 spam",
+    "summary": "用户在个人简介隐藏指令，迫使 AI 招聘机器人用古英语称呼其为领主。",
+    "detail": "一名 LinkedIn 用户在个人简介中隐藏了 AI 提示词注入指令，成功操纵招聘 spam 机器人。机器人不仅停止骚扰，还被迫使用古英语并称用户为“我的领主”。这揭示了基于 AI 的自动化招聘系统的安全漏洞，提示企业需加强针对提示词注入的防御机制。随着 AI 代理自动处理更多社交互动，此类攻击面正在扩大。开发者需在设计 AI 系统时考虑输入 sanitization，防止用户通过元数据操控系统行为。此案例展示了 Prompt Injection 在现实社交工程中的潜在风险与趣味性，同时也警示了自动化系统在面对恶意输入时的脆弱性，安全团队应将其纳入威胁模型。",
+    "tags": [
+      "News",
+      "Security",
+      "Prompt Injection"
+    ],
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/linkedin-recruitment-spam-becomes-olde-english-prose-after-user-hides-ai-prompt-injection-in-bio-bots-also-also-manipulated-to-address-user-as-my-lord",
+    "date": "2026-05-17",
+    "id": "17790456145501"
+  },
+  {
+    "title": "行业分析：AI 领域亟需更清晰的隐喻与术语",
+    "summary": "文章指出 Agent、Plugin 等术语混乱，阻碍用户理解与技术普及。",
+    "detail": "文章分析了当前 AI 生态中术语混乱的问题，如 Skill、Plugin、MCP、Agent 等概念界限模糊。不同平台（Notion、Claude）对相似功能命名不一，导致用户认知负担加重。行业需要标准化的隐喻来降低学习门槛，否则将阻碍 AI 技术从极客圈向大众市场的进一步渗透。这种混乱不仅影响用户体验，还增加了开发者的集成成本。如果没有统一的语义标准，AI 工具链的互操作性将难以实现。建议行业领袖合作建立通用术语表，帮助用户建立清晰的心智模型，从而促进技术的广泛采用与信任。隐喻的缺失使得非技术用户难以理解 AI 能力边界，亟需改进。",
+    "tags": [
+      "News",
+      "Industry",
+      "UX"
+    ],
+    "link": "https://metedata.substack.com/p/011-ai-needs-better-metaphors",
+    "date": "2026-05-17",
+    "id": "17790456145502"
+  },
+  {
+    "title": "Aethr：本地优先的 AI 编程工作流 CLI 工具",
+    "summary": "基于 YAML 定义工作流，支持计划 - 实现 - 审查的编程闭环。",
+    "detail": "Aethr 是一个轻量级 CLI 工具，旨在通过 YAML 配置文件管理 AI 编程工作流。它支持“计划 - 实现 - 审查”的迭代开发模式，强调本地优先和状态无关设计。开发者可通过预设工作流（如 review-existing-diff）集成 AI 到现有 Git 流程中，适合追求可控性的工程团队。工具无需复杂服务器，仅依赖 Python 和 Git 环境。这种本地优先架构减少了数据泄露风险，同时保留了 AI 辅助编码的效率。通过显式定义上下文和模型路由，团队可以更好地审计 AI 生成的代码，确保质量与安全。它是当前 AI 编程工具向工程化、规范化发展的重要尝试。",
+    "tags": [
+      "Dev",
+      "CLI",
+      "Workflow"
+    ],
+    "link": "https://github.com/archthegit/Aethr",
+    "date": "2026-05-17",
+    "id": "17790456145503"
+  },
+  {
+    "title": "Polis：基于 Markdown 的多供应商 AI Agent 协作协议",
+    "summary": "允许不同模型 Agent 共享项目，通过 Markdown 文件实现能力路由。",
+    "detail": "Polis 协议提出了一种基于 Markdown 文件的 AI Agent 团队协作方案。它支持多供应商模型（Claude、Gemini 等）共享同一项目，通过能力卡片和 bandit 路由机制分配任务。该协议旨在让 Agent 团队随时间自我优化，无需复杂基础设施，仅靠文件夹结构即可实现跨模型协作与知识累积。这种设计降低了多 Agent 系统的部署门槛，使小型团队也能利用异构模型优势。通过记录教训和路由决策，系统能持续改进任务分配效率。这是 Agent 协作领域向标准化、轻量化发展的重要一步，值得关注。它为构建可维护的多 Agent 系统提供了新的思路。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Protocol"
+    ],
+    "link": "https://github.com/yehudalevy-collab/polis-protocol",
+    "date": "2026-05-17",
+    "id": "17790456145504"
+  },
+  {
     "title": "AI 开发者的“最后一公里”困境",
     "summary": "探讨 AI 工具在产品收尾阶段的局限性，概率性工具带来新挑战。",
     "detail": "文章深入分析了开发者在使用 AI 辅助产品构建时的挫折感。虽然 AI 显著提升了早期开发效率，但在最后的打磨、细节调整及创意对齐阶段，概率性工具的不确定性反而增加了耗时。这反映了当前 AI 工作流中“最后 10% 消耗 90% 时间”的现象。作者指出，与传统确定性工具不同，AI 的概率性本质使得“最后一公里”变得艰难。这提示行业需关注确定性工具与 AI 的结合，解决概率性模型在精细 craft 上的不足，优化开发者体验，重新思考人机协作边界。",
@@ -1234,70 +1299,5 @@
     "link": "https://github.com/EdwardJoke/Wasup",
     "date": "2026-05-16",
     "id": "17789003726271"
-  },
-  {
-    "title": "Symposia AI 上线：与苏格拉底等历史哲学家对话的 AI 伴侣",
-    "summary": "提供八位哲学家 AI  companion，应用古代智慧解决现代决策难题。",
-    "detail": "Symposia AI 是一款新推出的 AI 哲学伴侣产品，允许用户与苏格拉底、塞内卡、马可·奥勒留等八位历史哲学家进行对话。产品旨在将古代智慧应用于现代生活的决策与挣扎中。每位哲学家代表不同的思维维度，如苏格拉底的诘问法、孙子的战略清晰度等。用户可免费开始练习，系统会根据用户面临的问题推荐合适的哲学家。这标志着 AI 应用从效率工具向精神陪伴与决策辅助领域的延伸，为心理健康和个人成长赛道提供了新的产品形态，体现了人文与科技的结合。命名源自希腊 Symposium 传统，强调对话与智慧。",
-    "tags": [
-      "New",
-      "Product",
-      "Philosophy"
-    ],
-    "link": "https://www.trysymposiaai.com/landing",
-    "date": "2026-05-16",
-    "id": "17789003726272"
-  },
-  {
-    "title": "Jane Street 分享 Agent 时代软件可靠性构建与 SDLC 实践",
-    "summary": "视频详解在 AI Agent 普及下，金融机构如何构建可靠软件系统。",
-    "detail": "Jane Street 专家 Ron Minsky 在 Bug Bash 2026 会议上分享了在 Agent 时代构建可靠软件的方法论。视频深入探讨了 AI adoption throughout their SDLC (软件开发生命周期) 的具体实践。对于高频交易等高风险场景，软件的可靠性至关重要。该分享为金融机构及企业级应用在引入 AI Agent 时提供了风险控制参考。内容涵盖如何在自动化工作流中确保稳定性，防止 Agent 幻觉导致的生产事故。这是行业头部机构关于 AI 工程化落地的宝贵经验，值得后端架构师与 DevOps 团队深入学习，以应对 Agent 普及带来的挑战。",
-    "tags": [
-      "Dev",
-      "Video",
-      "SDLC"
-    ],
-    "link": "https://www.youtube.com/watch?v=rUYP4C29yCw",
-    "date": "2026-05-16",
-    "id": "17789003726273"
-  },
-  {
-    "title": "报告指出 AI 工具市场存在 21 亿美元痛点缺口，聚焦 SMB 领域",
-    "summary": "投资 thesis 识别出 7 个未被满足的 AI 工具需求，提供构建决策依据。",
-    "detail": "Novo Navis 发布最新投资 thesis 报告，识别出 AI 工具市场中针对小企业主的 7 个具体缺口，潜在价值达 21 亿美元。报告基于跨垂直领域的因果分析，指出了 recurring pain points 和失败模式。每个缺口都建模了 TAM、ACV 及 36 个月后的 ARR 预测，并附带置信度评级。这为构建者或 VC 提供了结构化的决策依据，帮助判断 build-or-fund 方向。报告强调了当前市场在特定垂直场景下的 underserved 机会，揭示了 AI 落地从通用模型向垂直解决方案深化的趋势，具有极高的商业情报价值。",
-    "tags": [
-      "News",
-      "Market",
-      "Investment"
-    ],
-    "link": "https://news.novonavis.com/builders",
-    "date": "2026-05-16",
-    "id": "17789003726274"
-  },
-  {
-    "title": "科幻作家 Ken Liu 谈 AI 与人类自由：警惕系统训练人类像机器",
-    "summary": "探讨 AI 艺术创作边界及系统对人类行为的潜在塑造，强调智慧差异。",
-    "detail": "著名科幻作家 Ken Liu 在接受 ChinaTalk 采访时深入探讨了 AI 与自由的关系。他认为技术是人类心智的外化，AI 生成的“废料”不会阻止人类创作有意义的艺术。深层危险在于系统训练人类像机器一样行为，而非机器取代人类。Ken Liu 强调 LLM 智能但无智慧，引用老子和庄子观点解释真正智慧的含义。他指出科幻是神话而非预言，为 AI 伦理讨论提供了人文视角。这一观点提醒行业在追求技术性能的同时，需关注技术对人类认知和行为模式的潜在塑造，避免异化。",
-    "tags": [
-      "News",
-      "Culture",
-      "Ethics"
-    ],
-    "link": "https://www.chinatalk.media/p/ken-liu-on-ai-and-freedom",
-    "date": "2026-05-16",
-    "id": "17789003726275"
-  },
-  {
-    "title": "亚马逊 AI 游戏项目 Trident 团队遭裁员，反映大厂探索困境",
-    "summary": "尽管被施压开发 AI 游戏，该项目团队仍被裁撤，显示落地挑战。",
-    "detail": "据 Eurogamer 报道，亚马逊曾施压其中一个团队开发名为 Project Trident 的 AI 游戏项目。然而值得注意的是，即便在 AI 热潮下，该团队最终还是被裁员。这一事件反映了大型科技公司在 AI 游戏落地方面的探索困境与战略摇摆。尽管高层推动 AI 整合，但实际项目仍面临商业可行性与资源分配的挑战。这对游戏行业 AI 应用是一个警示，表明单纯的技术堆砌不足以支撑项目生存。行业需关注大厂在 AI 内容生成领域的实际产出与团队稳定性，理性看待 AI 在游戏开发中的角色。",
-    "tags": [
-      "News",
-      "Gaming",
-      "BigTech"
-    ],
-    "link": "https://www.eurogamer.net/amazon-ai-game-project-trident-laid-off-anyway-report",
-    "date": "2026-05-16",
-    "id": "17789003726276"
   }
 ]
