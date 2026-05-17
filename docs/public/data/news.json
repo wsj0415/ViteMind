@@ -1,5 +1,31 @@
 [
   {
+    "title": "TypedMemory：赋予 AI 代理长期记忆",
+    "summary": "开源库支持 AI 代理记忆、回忆与反思，优化行为。",
+    "detail": "**背景**：GitHub 发布 TypedMemory 开源项目，旨在解决 AI 代理记忆缺失问题。**核心**：提供持久化、evolving、context-aware 的记忆层，支持 `remember`、`recall`、`reflect` 功能，防止代理产生幻觉。**影响**：显著提升 Agent 长期任务处理能力，为复杂自主系统提供持久化状态管理方案，开发者可集成此库优化 Agent 行为，减少重复错误，推动 AI 代理向更智能、可信赖方向发展，适用于需要长期交互的场景，解决上下文窗口限制带来的信息丢失难题。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://github.com/canis-minor/typedmem",
+    "date": "2026-05-17",
+    "id": "17790004569672"
+  },
+  {
+    "title": "Bitloops：为 AI 代理构建代码库大脑",
+    "summary": "开源智能层帮助 AI 理解代码库状态，避免重复探索。",
+    "detail": "**背景**：Show HN 项目 Bitloops 上线，旨在优化 AI 辅助开发流程。**核心**：构建本地化、可查询的代码库模型，共享系统状态，避免 AI 代理重复读取 repo。**影响**：减少 AI 代理重复读取 repo 的开销，提升开发效率和 AI 辅助 coding 的准确性，适合 AI 原生开发工作流，帮助团队维护共享系统状态，降低 onboarding 成本，使 AI 能更精准理解业务逻辑，加速软件交付周期，是 DevOps 与 AI 结合的新尝试。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Tool"
+    ],
+    "link": "https://github.com/bitloops/bitloops",
+    "date": "2026-05-17",
+    "id": "17790004569673"
+  },
+  {
     "title": "AI 无人出镜视频生成器上线",
     "summary": "支持 TikTok 等平台，提供故事模板，年付优惠，降低创作门槛。",
     "detail": "该工具专为无人出镜创作者设计，支持 TikTok、Shorts 及 Reels 等平台。用户可选择故事家族（如恐怖、情感、金钱），设定发布频率，AI 自动生成系列视频。无需拍摄或编辑，旨在解决创作倦怠。目前提供年付计划赠送约 2 个月免费的优惠。这反映了 AI 在内容自动化生成领域的进一步下沉，显著降低了短视频创作门槛，使个人创作者能高效维持日更频率，推动内容工厂模式普及。",
@@ -37,6 +63,19 @@
     "link": "https://bshelby88.github.io/x402-portfolio/",
     "date": "2026-05-17",
     "id": "17789888111192"
+  },
+  {
+    "title": "警告：AI 生成代码被视为潜在隐患",
+    "summary": "行业报告指出 AI 生成代码可能带来长期维护痛苦。",
+    "detail": "**背景**：The Register 发布深度报告，警示 AI 生成代码的潜在风险。**核心**：文章指出 AI 生成代码缺乏深层上下文理解，可能导致静默矛盾和调试困难，被称为“等待发生的痛苦”。AI 可能覆盖过去的决策 without audit trail，导致无法调试。**影响**：开发者需警惕过度依赖，建立严格审查机制，避免技术债务累积，确保代码质量与安全，行业需重新评估 AI 辅助编程的最佳实践，防止未来维护成本激增，企业应重视人工复核环节，确保软件工程的严谨性不受侵蚀，避免盲目追求效率而牺牲稳定性。",
+    "tags": [
+      "News",
+      "Coding",
+      "Risk"
+    ],
+    "link": "https://www.theregister.com/ai-ml/2026/05/16/ai-generated-code-is-pain-waiting-to-happen/5241574",
+    "date": "2026-05-16",
+    "id": "17790004569670"
   },
   {
     "title": "Curl 维护者：AI 安全报告质量提升",
@@ -924,6 +963,19 @@
     "id": "17789003726276"
   },
   {
+    "title": "戛纳电影节转向谨慎接受 AI 技术",
+    "summary": "电影制作人开始谨慎接受 AI 在创作中的不可避免性。",
+    "detail": "**背景**：路透社报道戛纳电影节动态，反映创意产业对 AI 态度的转变。**核心**：电影制作人从抵制转向谨慎接受，承认 AI 在创作中的 inevitability，但仍保持警惕，探讨其在剧本、视觉效果中的应用。**影响**：标志创意产业对 AI 态度的转折点，未来内容创作将更多融合 AI 工具，但伴随伦理讨论，好莱坞及全球影视行业需平衡技术创新与艺术原创性，制定相关使用规范，确保 AI 作为辅助工具而非替代者，推动行业健康发展，避免版权与就业争议。",
+    "tags": [
+      "News",
+      "Creative",
+      "Industry"
+    ],
+    "link": "https://www.reuters.com/lifestyle/cannes-filmmakers-shift-towards-cautious-acceptance-ais-inevitability-2026-05-15/",
+    "date": "2026-05-15",
+    "id": "17790004569671"
+  },
+  {
     "title": "EY 撤回研究报告：AI 幻觉引发企业信任危机",
     "summary": "安永因研究人员发现 AI 幻觉问题撤回研究报告，凸显企业级 AI 应用风险。",
     "detail": "## 事件背景\n金融时报报道，四大会计师事务所之一的安永（EY）被迫撤回了一项研究报告，原因是研究人员发现其中存在 AI 幻觉（Hallucinations）导致的数据错误。\n\n## 核心影响\n这一事件标志着 AI 幻觉问题已从技术讨论层面上升至企业信誉层面。对于依赖 AI 生成内容进行决策的企业而言，这是一个严重的警告信号。它表明当前 LLM 技术在事实准确性上仍存在不可忽视的缺陷，尤其是在专业咨询领域。\n\n## 行业启示\n企业级 AI 部署必须建立更严格的人工审核机制（Human-in-the-loop）。此事件可能加速 AI 审计工具的发展，并促使企业在发布 AI 生成内容前采取更保守的验证策略，以避免品牌声誉受损。",
@@ -1251,57 +1303,5 @@
     "link": "https://metedata.substack.com/p/012-your-ai-frustration-is-my-opportunity",
     "date": "2026-05-15",
     "id": "17788580762084"
-  },
-  {
-    "title": "观点：AI 并未犯错，责任在于使用者",
-    "summary": "文章列举多起事故，强调数据库删除等错误责任在人而非 AI。",
-    "detail": "该文犀利指出近期多起 AI 事故（如删除数据库、歧视、假新闻）实为人类责任。作者强调 AI 只是工具，未自主决策，所有错误背后均有人的操作或疏忽。呼吁行业正视人为 oversight 缺失，而非将责任推卸给算法。这对 AI 伦理与责任归属提出深刻反思，提醒企业在部署 AI 时需建立更严格的人类监督机制，避免技术背锅现象掩盖管理漏洞。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Liability"
-    ],
-    "link": "https://www.stephenlewis.me/blog/ai-did-not/",
-    "date": "2026-05-15",
-    "id": "17788497798982"
-  },
-  {
-    "title": "卫报揭秘：AI 驱动科技行业经理层大清洗",
-    "summary": "科技公司内部消息显示，AI 工具正导致中层管理者被裁员。",
-    "detail": "卫报深入报道科技界因 AI 引发的管理层裁员潮。内部员工透露不愿成为实验品，但公司正利用 AI 替代部分管理职能，如绩效评估与资源分配。这标志着 AI 影响从执行层向管理层蔓延，可能引发组织架构剧烈震荡与职场文化冲突。随着 AI 代理能力增强，传统中层管理价值受质疑，企业需重新定义领导力与人机协作边界，避免盲目优化导致组织失能。",
-    "tags": [
-      "News",
-      "Layoffs",
-      "Management"
-    ],
-    "link": "https://www.theguardian.com/technology/2026/may/15/ai-manager-purge-tech",
-    "date": "2026-05-15",
-    "id": "17788497798983"
-  },
-  {
-    "title": "Product Hunt 新品：Tiny World Builder 点击构建世界",
-    "summary": "今日 launch 的新品，允许用户通过点击构建微型世界。",
-    "detail": "Tiny World Builder 今日在 Product Hunt 上线，主打“点击构建微型世界”。该工具降低了 3D 或场景创建门槛，适合快速原型设计或创意表达。作为 AI 生成内容领域的新尝试，展示了低代码/无代码创建环境的趋势。虽然目前社区关注度尚在起步，但其交互模式代表了 AI 辅助创意工具的方向，即通过自然交互而非复杂参数调整来实现内容生成，值得开发者关注。",
-    "tags": [
-      "New",
-      "Product Hunt",
-      "Generative"
-    ],
-    "link": "https://www.producthunt.com/products/tiny-world-builder",
-    "date": "2026-05-15",
-    "id": "17788497798984"
-  },
-  {
-    "title": "为何 AI 工具反而让部分团队效率变低？",
-    "summary": "Zimetic 文章引用 DORA 报告，分析 AI 导致团队变慢的组织原因。",
-    "detail": "文章引用 2024 DORA 报告，指出虽个人效率提升，但部分团队整体交付变慢。原因在于组织流程未适配 AI 速度，导致审查堆积、上下文切换增加、测试不稳定。强调 AI 落地需配套组织变革，否则工具反而成为瓶颈。为企业部署 AI 提供警示：单纯引入工具不够，需优化 Code Review 流程与测试架构，确保组织吞吐量能承接 AI 带来的代码生成速度，避免虚假繁荣。",
-    "tags": [
-      "Dev",
-      "Productivity",
-      "DORA"
-    ],
-    "link": "https://articles.zimetic.com/why-ai-tools-make-some-teams-slower/",
-    "date": "2026-05-15",
-    "id": "17788497798986"
   }
 ]
