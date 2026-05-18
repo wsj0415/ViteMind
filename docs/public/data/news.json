@@ -1,5 +1,57 @@
 [
   {
+    "title": "SandboxAQ 携手 Claude 降低药物发现门槛",
+    "summary": "SandboxAQ 将药物发现模型集成至 Claude，无需计算博士学位即可使用。",
+    "detail": "SandboxAQ 宣布将其先进的药物发现模型集成到 Anthropic 的 Claude 中。此举旨在大幅降低药物研发门槛，使非计算专家也能利用 AI 进行分子设计和筛选。核心技术涉及量子启发式 AI 模型与大语言模型的深度结合，无需用户具备计算博士学位即可操作。行业影响深远，这可能加速生物制药领域的 AI 普及，显著降低研发成本与时间周期。对于制药公司而言，这意味着更快的候选药物识别能力，同时也引发了关于 AI 在关键科学领域自主性与准确性的广泛讨论。此合作标志着 AI 从辅助工具向核心研发伙伴的转变。",
+    "tags": [
+      "News",
+      "Biotech",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/",
+    "date": "2026-05-18",
+    "id": "17791420002500"
+  },
+  {
+    "title": "Needle-rs：浏览器端 258KB WASM 实现 AI 函数调用",
+    "summary": "纯 Rust 运行时 Needle-rs 实现浏览器端本地 AI 代理，仅需 258KB WASM。",
+    "detail": "Needle-rs 推出了一款仅在浏览器端运行的 AI 代理工具，基于 2600 万参数的 Transformer 模型。核心优势在于无需服务器、API 密钥或数据外传，完全本地化执行，保障用户隐私。技术栈涉及 WebAssembly 和纯 Rust 运行时，体积仅 258KB，加载迅速。这对隐私敏感的 AI 应用开发具有重大意义，展示了边缘侧 AI 推理的巨大潜力。开发者可直接在前端集成工具调用功能，显著降低后端依赖与成本。此技术可能推动客户端智能应用的爆发，改变 AI 部署架构。",
+    "tags": [
+      "Dev",
+      "WASM",
+      "Privacy"
+    ],
+    "link": "https://needle-rs.pages.dev/",
+    "date": "2026-05-18",
+    "id": "17791420002502"
+  },
+  {
+    "title": "新论文揭示 AI 话语可能导致自我实现的错位",
+    "summary": "arXiv 新论文指出 AI  discourse 可能引发自我实现的（ mis）alignment 问题。",
+    "detail": "这篇 arXiv 论文探讨了 AI 对齐预训练中的新现象，指出关于 AI 的公共话语可能反过来影响模型的对齐状态，导致自我实现的错位。研究分析了 discourse 如何成为 self-fulfilling prophecy，影响模型行为。核心技术点涉及预训练数据与对齐目标的复杂相互作用。这对 AI 安全研究提供了新视角，提示开发者需关注训练数据中的社会话语影响，避免偏见固化。未来对齐研究需纳入社会语言学因素，以确保模型行为与人类价值观的真实一致，而非仅仅匹配话语表象。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Safety"
+    ],
+    "link": "https://arxiv.org/abs/2601.10160",
+    "date": "2026-05-18",
+    "id": "17791420002503"
+  },
+  {
+    "title": "深度分析：AI 泡沫破裂或因 AI 过于真实而非虚假",
+    "summary": "最新系列文章指出 AI 泡沫若破裂，将因技术变革过快而非技术虚假。",
+    "detail": "该系列文章 prefacing 提出独特观点：AI 泡沫风险不在于技术虚假，而在于技术重塑地图的速度超过市场定价能力。分析了资本流向与成熟经济形成的时间差，指出 crash 可能是重新定价而非否定。核心论点涉及 AI 效用已真实存在，但所有权结构未定。这对投资者理解 AI 市场周期具有重要参考价值，建议关注长期权力结构而非短期赢家。市场需区分网关与目的地，避免混淆早期赢家与 durable winners。此分析为应对潜在市场波动提供了理论框架。",
+    "tags": [
+      "News",
+      "Market",
+      "Analysis"
+    ],
+    "link": "https://rebecca-powell.com/posts/return-on-intelligence-the-preface/",
+    "date": "2026-05-18",
+    "id": "17791420002504"
+  },
+  {
     "title": "DeepSeek V4 Flash 实现家庭实验室运行前沿模型",
     "summary": "家庭实验室即可运行 GPQA Diamond 88.6% 分的开源模型，硬件成本大幅降低。",
     "detail": "开发者通过双 NVIDIA DGX Spark 设置，成功在本地运行 DeepSeek V4 Flash 模型。该模型在博士级科学问题基准 **GPQA Diamond** 上得分 88.6%，性能仅落后 SOTA 商业模型 6 个月。此举标志着前沿 AI 模型本地化部署的重大突破，为隐私敏感型应用及个人开发者提供了新可能。硬件方案包括 QSFP112 电缆连接及定制黄铜散热片，证明了消费级硬件运行前沿模型的可行性。这不仅降低了本地推理门槛，还展示了开源权重模型在家庭实验室环境中的巨大潜力，可能改变未来 AI 硬件消费格局。",
@@ -1246,57 +1298,5 @@
     "link": "https://news.ycombinator.com/item?id=48163843",
     "date": "2026-05-16",
     "id": "17789757942243"
-  },
-  {
-    "title": "桑迪亚实验室利用 AI 进行组件检测",
-    "summary": "桑迪亚国家实验室发布新技术，利用 AI 视觉系统辅助工业组件检查。",
-    "detail": "桑迪亚国家实验室（Sandia National Laboratories）发布新闻，介绍其利用 AI 视觉技术辅助组件检测的最新进展。该技术旨在提高工业检查的效率和准确性，利用\"AI 之眼\"识别潜在缺陷。这展示了 AI 在传统工业制造和国家安全领域的实际应用落地，体现了计算机视觉技术在精密检测方面的价值，有助于提升关键基础设施的可靠性。此类技术应用对于能源、国防等高安全要求行业尤为重要，可减少人为误差。作为国家实验室成果，该技术可能后续转化为民用工业标准，推动智能制造升级，增强国家关键设施的安全防护能力。",
-    "tags": [
-      "News",
-      "ComputerVision",
-      "Industrial"
-    ],
-    "link": "https://newsreleases.sandia.gov/ai-inspections/",
-    "date": "2026-05-16",
-    "id": "17789757942244"
-  },
-  {
-    "title": "AI Memory Reader：macOS 原生 AI 代理记忆浏览工具",
-    "summary": "支持浏览 Claude Code 等 AI 代理记忆文件的原生 macOS 应用。",
-    "detail": "该项目提供了一个原生 macOS 及 iOS 应用，专为浏览 AI 代理（如 Claude Code、Cursor、Gemini 等）的记忆文件设计。对于开发者而言，这是调试和监控 AI Agent 内部状态的重要工具，有助于理解 AI 决策过程及记忆管理机制。随着 AI Agent 复杂度提升，可视化管理记忆文件成为刚需，此工具提升了开发透明度与效率，是 AI Agent 开发生态中的重要辅助工具，便于排查错误与优化性能，支持多种主流 AI 编码助手，降低了调试门槛。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "macOS"
-    ],
-    "link": "https://github.com/nvwalj/ai-memory-reader",
-    "date": "2026-05-16",
-    "id": "17789717187620"
-  },
-  {
-    "title": "首个 Apple M5 内存漏洞发现，Anthropic AI 协助突破",
-    "summary": "研究人员利用 Anthropic AI 模型发现 Apple M5 架构首个特权升级漏洞。",
-    "detail": "安全研究人员利用 Anthropic 的 Claude 模型辅助，发现了 Apple M5 架构的首个权限升级漏洞，成功绕过内存完整性 enforcement。这一事件标志着 AI 辅助安全研究的深入，同时也揭示了新一代硬件架构在 AI 时代面临的新型安全挑战。AI 不仅用于防御，也被用于攻击测试，需引起行业高度重视。此漏洞发现过程展示了大模型在代码分析与系统漏洞挖掘方面的强大能力，预示着未来安全领域人机协作的新常态，硬件厂商需加强针对 AI 辅助攻击的防御机制。",
-    "tags": [
-      "News",
-      "Security",
-      "Hardware"
-    ],
-    "link": "https://www.tomshardware.com/tech-industry/cyber-security/apple-m5-architecture-suffers-first-privilege-escalation-exploit-anthropics-claude-mythos-helps-researchers-bypass-memory-integrity-enforcement",
-    "date": "2026-05-16",
-    "id": "17789717187621"
-  },
-  {
-    "title": "AI 芯片独角兽 Cerebras 估值 600 亿，早期曾月烧 800 万",
-    "summary": "揭秘 AI 芯片明星 Cerebras 早期困境，曾月耗资 800 万美元濒临倒闭。",
-    "detail": "TechCrunch 报道揭示了估值 600 亿美元的 AI 芯片公司 Cerebras 的早期历程。公司在发展初期曾面临严峻生存危机，每月燃烧 800 万美元资金，几乎倒闭。这一案例反映了 AI 硬件赛道的高风险与高回报特性，为当前火热的 AI 芯片投资提供了重要的历史参考与风险警示。尽管早期艰难，Cerebras 最终成为行业独角兽，说明坚持技术创新与资本运作的重要性，对当下 AI 基础设施创业公司具有借鉴意义，提醒投资者关注现金流与商业化节奏。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Investment"
-    ],
-    "link": "https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month/",
-    "date": "2026-05-16",
-    "id": "17789717187622"
   }
 ]
