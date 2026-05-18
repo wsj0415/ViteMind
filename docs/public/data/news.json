@@ -1,5 +1,44 @@
 [
   {
+    "title": "AI 订阅制终结：Anthropic 与 OpenAI 正式调整定价策略",
+    "summary": "6 月 15 日起，Anthropic 将区分交互与自动化 usage，终结无限订阅模式。",
+    "detail": "2026 年 5 月 14 日，Anthropic 与 OpenAI 相继宣布调整定价策略，标志着行业转折点。Anthropic 将于 6 月 15 日正式把 Claude 订阅分为交互与自动化两部分，后者将单独计费且不再包含在基础订阅中。这验证了此前关于 AI 订阅是“定时炸弹”的论点，意味着 AI 实验室补贴 compute 成本的“无限吃”时代彻底结束。企业基于 subsidized prices 构建的工作流将面临成本修正，需为 Agentic 工作流支付真实成本。行业竞争 aggression 显示当前模型难以维持，结构性变化已生效。",
+    "tags": [
+      "News",
+      "Pricing",
+      "Anthropic"
+    ],
+    "link": "https://www.thestateofbrand.com/news/ai-subscription-price-subsidiation-ending",
+    "date": "2026-05-18",
+    "id": "17790940548390"
+  },
+  {
+    "title": "数据揭示真相：AI 驱动裁员并未带来预期财务回报",
+    "summary": "分析 33 家公司发现，AI 裁员潮并未产生可衡量的损益表影响。",
+    "detail": "该研究分析了 2023 年至 2026 年第一季度间，33 家公司约 15.5 万人的裁员数据。尽管高管在财报电话会议中宣称 AI 能提效降本，使公司更精益，但财务审计数据显示大多数 AI 试点未产生可衡量的损益表影响。MIT 数据亦显示 95% 的企业 AI 试点无实际回报。行业共识正从盲目乐观转向质疑 AI 裁员的实际回报率，高管私下承认回报不符预期，但公开场合仍维持进步叙事。缺乏财务证明是当前主要缺口，数据表明裁员并未带来长期业务帮助。",
+    "tags": [
+      "News",
+      "Industry",
+      "Layoffs"
+    ],
+    "link": "https://readuncut.com/the-ai-layoff-receipts/",
+    "date": "2026-05-18",
+    "id": "17790940548391"
+  },
+  {
+    "title": "Agent-QA：开源 AI 端到端测试工具，支持自然语言编写",
+    "summary": "vostride 推出开源项目，可用自然语言定义 Web 和移动应用测试。",
+    "detail": "Agent-QA 是由 vostride 推出的开源 AI 端到端测试工具，专为 Web 和移动应用设计。开发者可用自然语言定义操作和断言，无需编写复杂代码。它在代理测试运行时中构建执行记忆，从每次运行中学习，帮助团队和编码代理在发布前捕捉回归问题。支持 Supabase、Linear 等多种目标。该项目旨在降低测试门槛，提高 QA 效率，适合希望集成 AI 工作流的开发团队使用。通过自然语言测试，非技术人员也能参与质量保证流程。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Testing"
+    ],
+    "link": "https://vostride.com/",
+    "date": "2026-05-18",
+    "id": "17790940548392"
+  },
+  {
     "title": "AnyFrame 发布：AI Agent 的沙盒运行时层",
     "summary": "专为 AI Agent 设计的沙盒运行时，支持暂停恢复与并行任务管理。",
     "detail": "AnyFrame 推出针对 AI Agent 的运行时层，为每个 Agent 提供独立的微 VM 沙盒。核心功能包括秒级暂停/恢复运行状态，完整保留内存、进程与文件上下文，支持并行集群管理。兼容 Claude Code、Cursor 等主流 Agent 框架。通过 SDK 可实现任务隔离与资源优化，解决长任务中断与状态丢失痛点。该工具允许开发者像管理普通进程一样管理 AI Agent，查看 CPU/内存占用，无需 SSH 即可监控。这种“可暂停计算”模式为按量付费提供了新可能，用户只需为实际运行时间付费，冷存储期间零成本。对于构建大规模 Agent 舰队的企业，AnyFrame 提供了关键的中间件支持，标志着 AI 工程化从单点工具向系统化运行时演进的趋势。",
@@ -1259,44 +1298,5 @@
     "link": "https://github.com/microsoft/AI-Engineering-Coach",
     "date": "2026-05-16",
     "id": "17789474471532"
-  },
-  {
-    "title": "NeuroAPI 上线：专为金融领域设计的 AI 代理公共 API",
-    "summary": "Neurobro 推出 NeuroAPI，提供按次计费的金融 AI 代理接口，支持多档位性能。",
-    "detail": "Neurobro 正式推出 NeuroAPI，这是一个专为金融领域设计的付费公共 API。用户可通过 API Key 认证，按需调用 AI 代理进行金融分析。接口提供 fast/smart/max 三种性能档位，按调用次数计费。文档涵盖了认证、速率限制及最佳实践，为金融科技开发者提供了集成垂直领域 AI 能力的便捷途径。该 API 基于 Neurobro agent 构建，旨在降低金融机构使用 AI 的门槛，支持快速构建智能投顾或市场分析应用，确保数据合规与响应速度。",
-    "tags": [
-      "New",
-      "Finance",
-      "API"
-    ],
-    "link": "https://neuroapi.neurobro.ai/docs",
-    "date": "2026-05-16",
-    "id": "17789474471533"
-  },
-  {
-    "title": "AI 生成论文质量提升引发学术界担忧：同行评审面临挑战",
-    "summary": "The Verge 报道 AI 研究论文质量变好反而成问题，加剧学术界同行评审压力。",
-    "detail": "The Verge 文章指出，AI 生成的研究论文质量日益提高，但这反而给科学家带来了大问题。高质量的 AI 论文泛滥使得同行评审系统不堪重负，难以区分人类研究与机器生成内容。这一现象引发了关于学术诚信、评审机制改革及 AI 在科研中角色的深刻讨论，可能迫使学术界重新定义研究产出标准。随着生成模型能力提升，期刊可能需要引入专门的 AI 检测工具或调整发表政策，以维护科学记录的可靠性，防止学术资源被低质 AI 内容淹没。",
-    "tags": [
-      "News",
-      "Research",
-      "Ethics"
-    ],
-    "link": "https://www.theverge.com/ai-artificial-intelligence/930522/ai-research-papers-slop-peer-review-problem",
-    "date": "2026-05-16",
-    "id": "17789474471534"
-  },
-  {
-    "title": "数独 benchmark 揭示 AI 推理局限：EBM 模型胜率 96% 远超 LLM",
-    "summary": "Logical Intelligence 测试显示 Kona EBM 模型数独胜率 96%，而前沿 LLM 仅 2%。",
-    "detail": "Logical Intelligence 通过数独谜题测试 AI 推理架构。结果显示，其 Kona EBM 模型解决了 96.2% 的难题，平均耗时 313 毫秒；而包括 GPT-5.2、Claude Opus 4.5 在内的前沿 LLM 胜率仅 2%。文章指出 LLM 的自回归架构不适合空间推理任务，无法有效修订早期决策。这证明了非自回归模型在特定推理场景下的巨大潜力。测试禁用了代码执行，确保评估的是纯推理能力，为未来 AI 架构演进提供了重要参考数据，暗示混合架构可能是解决复杂推理的关键。",
-    "tags": [
-      "Dev",
-      "Research",
-      "EBM"
-    ],
-    "link": "https://logicalintelligence.com/blog/energy-based-model-sudoku-demo",
-    "date": "2026-05-16",
-    "id": "17789474471535"
   }
 ]
