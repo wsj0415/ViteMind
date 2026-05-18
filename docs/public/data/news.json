@@ -1,5 +1,83 @@
 [
   {
+    "title": "Meta 裁员 10% 凸显 AI 战略现实",
+    "summary": "Meta 本周启动裁员约 8000 人，凸显扎克伯格 AI 战略下的残酷现实。",
+    "detail": "Meta 本周开始削减约 10%  workforce（8000 岗位），并取消 6000 个空缺职位。此次裁员紧随 Reality Labs 削减之后，标志着扎克伯格从“效率年”转向更激进的 AI 资源重组。相比 2022 年的歉意，此次高层态度强硬。表明大厂在 AI 投入上的取舍愈发严厉，人力资源向核心 AI 业务集中，非核心部门面临严峻考验，反映 AI 战略落地的残酷现实与成本压力。",
+    "tags": [
+      "News",
+      "Meta",
+      "Layoff"
+    ],
+    "link": "https://www.cnbc.com/2026/05/18/metas-layoffs-starting-this-week-underscore-zuckerbergs-ai-reality-.html",
+    "date": "2026-05-18",
+    "id": "17791215707440"
+  },
+  {
+    "title": "AI 编程 hype 下的软件工程真相",
+    "summary": "堆栈溢出指出 AI 无法弥合构建与规模化运行软件的差距。",
+    "detail": "文章指出“氛围编程”虽有助于原型开发，但无法替代资深工程师的判断。AI 降低了构建门槛，但规模化运行仍需人类负责。强调在 AI 爆炸时代，高级工程判断力反而更具价值，需区分构建与运维。Braze CTO 与 Stack Overflow CPTO 讨论认为，AI 并未关闭差距，有人仍需对后果负责，这为开发者指明了技能演进方向。",
+    "tags": [
+      "Dev",
+      "Software Engineering",
+      "LLM"
+    ],
+    "link": "https://stackoverflow.blog/2026/05/18/what-the-ai-hype-gets-wrong/",
+    "date": "2026-05-18",
+    "id": "17791215707441"
+  },
+  {
+    "title": "NVIDIA Cosmos 2.5 机器人视频微调指南",
+    "summary": "Hugging Face 教程详解如何用 LoRA 微调 NVIDIA Cosmos 生成机器人视频。",
+    "detail": "NVIDIA 与 HF 合作发布教程，展示如何用 LoRA/DoRA 微调 Cosmos Predict 2.5 世界模型。旨在解决机器人轨迹数据收集昂贵问题，通过合成数据 scalable 训练。为开发者提供物理 plausible 视频生成的具体技术路径。全量微调 2B 参数模型成本高且易遗忘，适配器模块注入成为关键，助力机器人策略训练与特定领域适配。",
+    "tags": [
+      "Dev",
+      "NVIDIA",
+      "Robotics"
+    ],
+    "link": "https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation",
+    "date": "2026-05-18",
+    "id": "17791215707442"
+  },
+  {
+    "title": "开源项目保障 AI 代理终端访问安全",
+    "summary": "GitHub 新项目 Terminal Guardian 为 AI 代理提供沙盒化终端访问保护。",
+    "detail": "基于 MCP 协议的安全服务器，提供风险分析、沙盒隔离及文件系统保护。支持 Docker/Git 集成，防止 AI 代理执行破坏性命令。解决了 AI Agent 落地中的关键安全隐患，适合开发者集成到自动化工作流。项目包含 CI 流程与日志记录，确保 AI 在拥有终端权限时的行为可控，是构建可信 AI 助手的重要基础设施组件。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Open Source"
+    ],
+    "link": "https://github.com/7Majesty-M/terminal-guardian-mcp",
+    "date": "2026-05-18",
+    "id": "17791215707443"
+  },
+  {
+    "title": "主流 AI 绘图模型角色一致性横向测评",
+    "summary": "2026 年 5 月测评显示 FLUX.2 与 Gemini 3.1 角色一致性最佳。",
+    "detail": "针对 OpenAI、Gemini、Flux 及 Runway 的横向测试表明，FLUX.2 和 Gemini 3.1 Flash 在角色一致性上表现最优。测试涵盖场景置换、衣物添加及多帧生成。为创作者选择模型提供了基于实际效果的参考数据，gpt-image-2 位列第三。角色一致性是 AI 绘图难点，此测评揭示了当前 SOTA 模型在处理连续性与特征保持上的能力差异。",
+    "tags": [
+      "News",
+      "Image Generation",
+      "Benchmark"
+    ],
+    "link": "https://techstackups.com/comparisons/gemini-vs-openai-vs-flux-vs-runway-character-consistency-may-2026/",
+    "date": "2026-05-18",
+    "id": "17791215707444"
+  },
+  {
+    "title": "Devin AI 推出自动故障分类新功能",
+    "summary": "Devin 发布 Auto-Triage 功能，可自动监控 bugs 并调查修复。",
+    "detail": "Devin 新功能可全天候监控 bug 与警报，自动调查并连接相关报告，甚至开启 PR。具备上下文记忆与去重能力，运行于安全沙盒环境。标志着 AI 工程师代理从辅助 coding 向自主维护代码库迈进的重要一步。已获 Modal 等技术团队认可，能整合 Slack、Linear 等工具，实现端到端的问题调查与解决，提升研发运维效率。",
+    "tags": [
+      "New",
+      "AI Agent",
+      "DevOps"
+    ],
+    "link": "https://devin.ai/auto-triage",
+    "date": "2026-05-18",
+    "id": "17791215707445"
+  },
+  {
     "title": "特朗普盟友呼吁发布前强制测试 AI 模型",
     "summary": "特朗普盟友呼吁发布前强制测试 AI 模型。",
     "detail": "60 多名 MAGA 盟友联名致信特朗普，呼吁在发布前对最强大的 AI 模型进行强制测试和政府批准。由 Steve Bannon 等人组织，将 AI 比作核系统与航空安全，强调生物武器与基础设施风险。这与白宫目前的放任政策形成鲜明对比，标志着保守派内部对 AI 风险认知的分歧。此举可能迫使政府在安全与创新之间重新权衡，影响未来美国 AI 监管立法走向及全球政策风向。信件由 Humans First 组织，强调技术应服务人类，反映了公众对 AI 失控的深层担忧，可能引发立法听证。白宫内部观点相反，认为轻监管才能赢下 AI 竞赛，双方博弈将决定政策基调。",
@@ -1220,83 +1298,5 @@
     "link": "https://jeffammons.com/2026/05/05/a-pragmatic-beginners-guide-to-introducing-ai-to-your-engineering-workflow/",
     "date": "2026-05-16",
     "id": "17789647322074"
-  },
-  {
-    "title": "Annota：支持 BYOK AI 的本地优先笔记应用",
-    "summary": "端到端加密，离线可用，支持本地 Ollama 模型与云端同步。",
-    "detail": "一款本地优先、端到端加密的笔记应用，支持 Bring Your Own Key (BYOK) AI 功能。用户可嵌入 PDF、代码等内容，并通过本地 Ollama 或云端 AI 与笔记对话。完全离线可用，数据本地存储，订阅仅用于同步。该产品满足了用户对隐私安全和 AI 辅助知识管理的双重需求，适合注重数据主权的专业人士。免费版本功能完整，付费主要用于云同步与备份，定价透明 honest。",
-    "tags": [
-      "New",
-      "Privacy",
-      "Productivity"
-    ],
-    "link": "https://annota.online",
-    "date": "2026-05-16",
-    "id": "17789647322075"
-  },
-  {
-    "title": "ArXiv 严打 AI 生成垃圾论文，违规者禁投一年",
-    "summary": "ArXiv 宣布禁止提交 AI 生成幻觉内容的作者投稿一年。",
-    "detail": "预印本服务器 ArXiv 出台严厉新政，旨在打击滥用大语言模型生成学术垃圾的行为。官方宣布，一旦发现提交者依赖 AI 生成含有幻觉的低质内容（slop），将面临为期一年的投稿禁令。此举旨在维护学术诚信，防止 AI 泛滥污染科研数据库。这反映了学术界对 AI 生成内容质量的深切担忧及治理决心，标志着科研出版界开始正视 AI 带来的伦理与质量挑战。该政策将迫使研究人员更审慎地使用 AI 辅助工具，明确人机协作的边界，对于依赖 AI 生成内容的投机行为将是沉重打击，有助于净化科研环境，确保科学记录的可靠性。",
-    "tags": [
-      "News",
-      "AI Policy",
-      "Research"
-    ],
-    "link": "https://arstechnica.com/science/2026/05/preprint-server-arxiv-will-ban-submitters-of-ai-generated-hallucinations/",
-    "date": "2026-05-16",
-    "id": "17789584725640"
-  },
-  {
-    "title": "彭博：美国 AI 暴露岗位开始出现大规模失业",
-    "summary": "彭博社报道美国易受 AI 影响的职位正经历严重流失。",
-    "detail": "彭博社最新数据显示，美国劳动力市场中易受 AI 技术影响的岗位已开始出现显著流失。随着企业加速部署自动化解决方案，传统职能角色面临被替代的风险。这一趋势标志着 AI 从概念验证走向实际生产力替代的转折点，对就业市场结构产生深远影响。经济分析师指出，这不仅是技术升级，更是产业结构的重塑。数据显示，暴露度高的职位失业率上升明显，验证了此前关于 AI 替代效应的担忧。提示从业者需尽快提升不可替代技能，适应人机协作的新工作模式。政府与企业需关注再培训政策，以缓解转型期的社会摩擦，避免技术性失业引发社会问题。",
-    "tags": [
-      "News",
-      "Economy",
-      "Labor Market"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-05-15/us-is-starting-to-see-heavy-job-losses-in-roles-exposed-to-ai",
-    "date": "2026-05-16",
-    "id": "17789584725641"
-  },
-  {
-    "title": "Stripe 实验揭示：AI Agent 并非听话的初级工程师",
-    "summary": "Stripe 分享 AI Agent 引导实验，发现模型难以遵循最佳实践。",
-    "detail": "Stripe 开发团队通过一系列实验发现，AI Agent 并不像预期的初级工程师那样听话。即使提供文档和 SDK，Agent 仍可能调用旧 API 或违背最佳实践。团队尝试了被动提示和主动引导，发现单纯 embedding guidance 效果有限。这为开发者工具设计提供了重要洞察：在 Agent 优先的时代，需要重新思考如何有效“引导”模型行为。结论表明，开发者需要构建更强制性的约束机制，而非依赖模型的自觉性。这对构建可靠的 AI 原生应用具有指导意义，提示 SDK 设计需适配 Agent 的认知模式，不能简单沿用人类开发者的交互逻辑。",
-    "tags": [
-      "Dev",
-      "AI Agents",
-      "Engineering"
-    ],
-    "link": "https://stripe.dev/blog/ai-steering-experiments",
-    "date": "2026-05-16",
-    "id": "17789584725642"
-  },
-  {
-    "title": "Webflow：AI 生成代码的清理成本被速度叙事掩盖",
-    "summary": "Webflow 指出 AI 生成代码存在隐藏的长期清理成本。",
-    "detail": "Webflow 博客文章指出，虽然 AI 大幅降低了应用构建门槛，但生成的代码存在隐藏的长期清理成本。GitHub 预测 2026 年提交量将激增 10 倍，但缺乏治理的 AI 代码会导致技术债务累积。文章分析了发明者、研究者、平台及工程组织等不同角色的责任，强调在追求开发速度的同时，必须重视代码质量与可维护性。Velocity 叙事往往忽略了后续的维护负担。企业需要建立新的代码治理标准，平衡 AI 效率与系统稳定性，避免陷入“快速构建，缓慢修复”的陷阱，确保软件生命周期的可持续性。",
-    "tags": [
-      "News",
-      "Code Quality",
-      "AI Development"
-    ],
-    "link": "https://webflow.com/blog/cleanup-cost-ai-generated-code",
-    "date": "2026-05-16",
-    "id": "17789584725643"
-  },
-  {
-    "title": "Palace-AI：为 AI Agent 打造的记忆宫殿开源项目",
-    "summary": "GitHub 新项目 Palace-AI 旨在为 AI 代理提供记忆管理方案。",
-    "detail": "GitHub 上涌现了新开源项目 Palace-AI，旨在为 AI Agent 构建“记忆宫殿”。该项目试图解决 Agent 在长上下文任务中的记忆保持与检索问题。通过结构化的记忆管理，帮助 Agent 更有效地处理复杂任务流。这是 Agent 基础设施层的重要探索，为开发者提供了新的工具选择，有助于提升 Agent 在复杂场景下的可靠性与表现。随着 Agent 应用复杂度增加，记忆管理成为关键瓶颈。该项目提供了开源解决方案，可能成为 Agent 开发栈中的标准组件，促进生态发展，降低开发者构建复杂 Agent 系统的门槛。",
-    "tags": [
-      "New",
-      "Open Source",
-      "Agents"
-    ],
-    "link": "https://github.com/RhyChaw/palace-ai",
-    "date": "2026-05-16",
-    "id": "17789584725644"
   }
 ]
