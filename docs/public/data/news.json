@@ -1,5 +1,70 @@
 [
   {
+    "title": "AnyFrame 发布：AI Agent 的沙盒运行时层",
+    "summary": "专为 AI Agent 设计的沙盒运行时，支持暂停恢复与并行任务管理。",
+    "detail": "AnyFrame 推出针对 AI Agent 的运行时层，为每个 Agent 提供独立的微 VM 沙盒。核心功能包括秒级暂停/恢复运行状态，完整保留内存、进程与文件上下文，支持并行集群管理。兼容 Claude Code、Cursor 等主流 Agent 框架。通过 SDK 可实现任务隔离与资源优化，解决长任务中断与状态丢失痛点。该工具允许开发者像管理普通进程一样管理 AI Agent，查看 CPU/内存占用，无需 SSH 即可监控。这种“可暂停计算”模式为按量付费提供了新可能，用户只需为实际运行时间付费，冷存储期间零成本。对于构建大规模 Agent 舰队的企业，AnyFrame 提供了关键的中间件支持，标志着 AI 工程化从单点工具向系统化运行时演进的趋势。",
+    "tags": [
+      "New",
+      "Agent",
+      "Infrastructure"
+    ],
+    "link": "https://anyfrm.com",
+    "date": "2026-05-18",
+    "id": "17790783563600"
+  },
+  {
+    "title": "AI Leak Watch：GitHub 上超 43 万潜在 API 密钥泄露",
+    "summary": "监控显示 GitHub 公共代码中存在大量潜在 AI API 密钥泄露风险。",
+    "detail": "安全仪表盘 AI Leak Watch 数据显示，GitHub 公共代码中匹配到 435,608 个潜在 AI API 密钥。虽包含测试字符串，但活跃密钥可能导致配额耗尽或成本激增。项目旨在唤醒开发者对密钥管理的重视，建议使用环境变量或秘密管理器。此事件凸显 AI 开发快速迭代中安全规范的缺失，企业需加强代码审查与自动化扫描，防止敏感凭证意外公开。统计显示 88% 的匹配来自特定 provider，表明主流平台密钥泄露尤为严重。尽管部分为误报，但潜在风险巨大。攻击者可利用活跃密钥代表用户调用 API，窃取数据或滥用服务。该监控工具不存储 secrets，仅统计前缀匹配，旨在教育而非曝光。这提醒社区，AI 时代的凭证管理需升级，硬编码密钥的习惯必须摒弃，转向更安全的密钥轮换与访问控制策略，以应对日益复杂的自动化攻击威胁。",
+    "tags": [
+      "Dev",
+      "Security",
+      "GitHub"
+    ],
+    "link": "https://ai-keys-leaks.begimher.com/",
+    "date": "2026-05-18",
+    "id": "17790783563601"
+  },
+  {
+    "title": "专家指南：如何与 AI 协作实现工作复利",
+    "summary": "Eugene Yan 分享与 AI 高效协作的工作流与上下文管理原则。",
+    "detail": "作者 Eugene Yan 提出与 AI 协作的核心原则：将上下文作为基础设施，编码个人偏好为配置，简化验证流程。建议 organized 目录结构以便模型检索，利用 MCP 连接组织知识库。强调每个产出都应成为下一次会话的上下文，形成复利效应。该方法论不仅适用于 AI，也是管理新协作者的通用策略。具体实践中，维护项目 INDEX.md 文件可帮助模型快速理解上下文，减少幻觉。通过不断修正配置 config，系统错误率随时间降低。文章指出，有效协作的关键在于“委托更大的任务”并“闭环验证”。用户应建立清晰的文件树结构，便于模型 grep 检索。连接 Slack、Drive 等企业数据源可增强模型上下文理解。这种工作流强调 AI 并非一次性工具，而是长期伙伴，需通过持续反馈优化交互模式。对于团队而言，标准化 Prompt 配置与上下文管理规范，能显著降低 onboarding 成本，推动 AI 从实验性使用走向生产级部署。",
+    "tags": [
+      "Dev",
+      "Workflow",
+      "LLM"
+    ],
+    "link": "https://eugeneyan.com/writing/working-with-ai/",
+    "date": "2026-05-18",
+    "id": "17790783563602"
+  },
+  {
+    "title": "行业观察：AI 可能 paradoxically 增加高等教育需求",
+    "summary": "研究发现 AI 并未取代放射科医生，反而可能增加高等教育需求。",
+    "detail": "针对 Geoffrey Hinton 十年前关于 AI 取代放射科医生的预测，现实数据显示 2012-2022 年间美国放射科医生数量反而增加。文章分析 AI 可能 paradoxically 提升高等教育需求，因复杂决策仍需人类专家。这表明 AI 更多是增强而非替代，促使劳动力向更高技能转型。对教育行业而言，需调整课程以适应 AI 协作时代，培养具备 AI 素养的高端人才，而非单纯担忧岗位流失。技术替代论往往忽略互补效应，AI 处理常规任务，人类专注高价值判断。因此，高等教育需强化批判性思维与 AI 工具使用能力，确保毕业生在 AI 增强型职场中保持竞争力。作者 Jimmy Alfonso Licon 指出，虽然 AI 擅长模式识别，但医疗诊断涉及伦理、沟通与复杂情境判断，人类专家不可或缺。这种“放射科医生效应”可能在其他知识密集型行业重演。随着 AI 降低入门门槛，对高级专家的需求反而上升，因为他们能更好地驾驭 AI 工具。这预示着未来教育体系需重新定位，从知识灌输转向能力培养。",
+    "tags": [
+      "News",
+      "Industry",
+      "Education"
+    ],
+    "link": "https://jimmyalfonsolicon.substack.com/p/ai-may-paradoxically-increase-demand",
+    "date": "2026-05-18",
+    "id": "17790783563603"
+  },
+  {
+    "title": "社会反应：毕业典礼演讲者因 AI 言论遭嘘声",
+    "summary": "多位毕业典礼演讲者因涉及 AI 的言论遭到毕业生嘘声反对。",
+    "detail": "YouTube 视频记录显示，多场毕业典礼上，演讲者因提及 AI 相关评论而遭到现场毕业生嘘声。这反映了年轻一代对 AI 介入职场与教育的复杂情绪，既有对技术取代的担忧，也有对过度炒作的反感。此现象提醒科技公司与教育者在推广 AI 时需更关注人文关怀与实际价值。毕业生作为直接受影响群体，其反应是重要的社会风向标。空洞的技术决定论易引发抵触，应强调 AI 如何赋能而非替代。教育者需正视学生对未来的不确定性焦虑，避免将 AI 包装为万能解药。这要求行业在技术创新同时，加强伦理讨论与社会影响评估，建立信任。嘘声事件表明，公众对 AI 的接受度并非线性增长，而是伴随对就业安全与隐私的担忧。演讲者若忽视这些情绪，易引发对立。这为 AI 公关与传播提供警示：需透明化技术局限，承诺负责任的使用。学校作为缓冲区，应引导学生理性看待技术变革，培养适应力。科技巨头需倾听基层声音，调整产品叙事，从“取代人类”转向“增强人类”。",
+    "tags": [
+      "News",
+      "Social",
+      "Ethics"
+    ],
+    "link": "https://www.youtube.com/watch?v=xwWaoyIy5e8",
+    "date": "2026-05-18",
+    "id": "17790783563604"
+  },
+  {
     "title": "Aetherion：集成主流 AI 编程代理的容器化开发环境",
     "summary": "预装 Claude、Copilot 等 CLI 工具的 Debian 开发容器，支持本地 Ollama 模型调用。",
     "detail": "Aetherion 是一个专为 AI 编程代理设计的容器化开发环境。它基于 Debian 容器，预装了 Claude Code、Cursor、Copilot 等多种主流 Agent CLI 工具，并集成 Neovim 与 Ollama 客户端。核心技术在于通过容器标准化环境，支持本地模型 daemon 调用，保留登录状态。这对行业的影响在于降低了 AI 开发环境的配置门槛，为开发者提供了统一、可复现的 AI 编码工作流，促进了本地模型与云端代理的混合使用趋势。该项目通过 uv 或 pipx 即可安装，支持 Podman 和 Docker，使得开发者能够快速启动包含完整工具链的 shell 环境，显著提升了 AI 辅助编程的效率和一致性，是 AI 基础设施层的重要补充。",
@@ -1233,70 +1298,5 @@
     "link": "https://logicalintelligence.com/blog/energy-based-model-sudoku-demo",
     "date": "2026-05-16",
     "id": "17789474471535"
-  },
-  {
-    "title": "Isomorphic Labs 融资 21 亿美元：加速 AI 药物发现与分子设计",
-    "summary": "Google DeepMind 联合创始人创立的 Isomorphic Labs 完成 21 亿美元融资，专注 AI 制药。",
-    "detail": "FAV0 日报报道，Google DeepMind 联合创始人 Demis Hassabis 创立的 Isomorphic Labs 完成了 21 亿美元融资。公司将利用资金加速 AI 蛋白质结构预测与分子设计，基于 AlphaFold 的突破研发新药。此举显示资本市场对 AI 制药领域的高度信心，预计将显著缩短药物研发周期，推动生物科技与 AI 的深度融合。融资将用于扩大计算资源与团队，目标是利用 AI 解决传统制药中耗时最长的分子筛选环节，具有里程碑意义，可能催生新一代重磅药物。",
-    "tags": [
-      "News",
-      "Biotech",
-      "Funding"
-    ],
-    "link": "https://fav0.com/en/2026-05-16/",
-    "date": "2026-05-16",
-    "id": "17789474471536"
-  },
-  {
-    "title": "Isomorphic Labs 获 21 亿美元融资加速 AI 制药",
-    "summary": "Google DeepMind 联合创始人创立，利用 AI 预测蛋白质结构加速药物研发。",
-    "detail": "Isomorphic Labs 完成 21 亿美元融资，旨在利用 AI 技术加速药物发现。该公司由 Google DeepMind 联合创始人 Demis Hassabis 创立，基于 AlphaFold 突破性技术，专注于蛋白质结构预测和分子设计。此次融资将显著缩短药物开发周期，标志着 AI 在生物科技领域的商业化落地进入新阶段，行业影响深远。",
-    "tags": [
-      "News",
-      "Biotech",
-      "Funding"
-    ],
-    "link": "https://fav0.com/",
-    "date": "2026-05-16",
-    "id": "17789435316870"
-  },
-  {
-    "title": "Keepithub 推出全球首个 B2A 智能体 marketplace",
-    "summary": "物理世界地理参考记忆，AI 代理可购买技能并实时进化，基于 Solana。",
-    "detail": "Keepithub 宣称是全球首个 B2A（Business to Agent）市场，允许 AI 代理购买技能、出售功能并实时进化。项目结合物理世界地理参考记忆，基于 Solana 区块链构建，已在巴西街头试点。这种模式试图为 AI 代理建立经济系统，类似人类玩家的 Steam 平台，探索 AI 自主经济的新形态。",
-    "tags": [
-      "New",
-      "Agent",
-      "Web3"
-    ],
-    "link": "https://keepithub.com/launch.html",
-    "date": "2026-05-16",
-    "id": "17789435316871"
-  },
-  {
-    "title": "范德堡大学发布报告警示 AI 泡沫破裂风险",
-    "summary": "政策加速器提出激进政策建议，分析 AI 崩溃后的经济影响及监管方案。",
-    "detail": "范德堡大学政策加速器发布《AI 崩溃后》报告，深入分析 AI 泡沫破裂或经济全面崩溃的风险。报告建议国会考虑停止邻近崩溃的金融工程，包括循环股权融资和不透明债务。该研究为政策制定者提供了应对潜在 AI 经济危机的框架，强调监管在防止 distortive 政府补贴和金融市场动荡中的关键作用。",
-    "tags": [
-      "News",
-      "Policy",
-      "Risk"
-    ],
-    "link": "https://cdn.vanderbilt.edu/vu-URL/wp-content/uploads/sites/412/2026/03/23144242/After-the-AI-Crash.pdf",
-    "date": "2026-05-16",
-    "id": "17789435316872"
-  },
-  {
-    "title": "深度解析：AI 代理是工具而非替代品",
-    "summary": "开发者警示过度依赖 AI 代理的风险，强调人类需保持决策上下文理解。",
-    "detail": "文章深入探讨 AI 代理作为工具的本质，警示开发者避免“傀儡问题”。虽然代理擅长模式匹配和生成起点，但无法理解决策背后的深层上下文。过度外包思维会导致人类丧失根因分析能力。建议开发者将 AI 视为扩展能力的锤子，而非自主 builder，保持对代码和决策的最终控制权，确保技术服务于人。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Best Practice"
-    ],
-    "link": "https://derogab.com/2026/05/15/AI-Tools-Not-Replacements/",
-    "date": "2026-05-16",
-    "id": "17789435316873"
   }
 ]
