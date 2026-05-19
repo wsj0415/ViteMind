@@ -1,5 +1,70 @@
 [
   {
+    "title": "谷歌联手黑石打造 AI 云厂商，自研芯片加持",
+    "summary": "谷歌与黑石合作成立 AI 云公司，将使用自研芯片，重塑云计算格局。",
+    "detail": "彭博社报道，谷歌与黑石集团计划共同创建一家 AI 云公司，并将采用自研芯片。这一举措标志着科技巨头与资本巨头在 AI 基础设施领域的深度绑定。自研芯片旨在降低对 NVIDIA 等供应商的依赖，优化成本与性能。此举可能加剧云市场竞争，推动 AI 算力基础设施的垂直整合趋势，为行业提供新的算力供应选择。",
+    "tags": [
+      "News",
+      "Google",
+      "Cloud"
+    ],
+    "link": "https://www.bloomberg.com/news/articles/2026-05-19/google-to-create-ai-cloud-business-with-blackstone-wsj-says",
+    "date": "2026-05-19",
+    "id": "17791945570520"
+  },
+  {
+    "title": "如何构建私有 AI 基准测试以避免数据污染",
+    "summary": "公开基准测试存在数据污染风险，建议团队构建私有基准评估模型真实性能。",
+    "detail": "文章指出 MMLU 等公开基准测试因数据 contamination 导致模型分数虚高，无法反映真实工作能力。厂商优化测试而非能力的现象普遍。建议团队针对自身工作流（代码生成、API 设计等）构建私有基准，建立基线，以便准确评估模型更新带来的实际影响，避免被厂商宣传误导，确保 AI 工具在实际生产中的可靠性。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Benchmark"
+    ],
+    "link": "https://theendofcoding.com/blog/how-to-build-ai-benchmarks",
+    "date": "2026-05-19",
+    "id": "17791945570521"
+  },
+  {
+    "title": "AI 开发 FinOps 实践：按提交记录 attribution 成本",
+    "summary": "解决 AI 辅助开发成本不透明问题，建议将 Token 成本关联至具体 Git 提交。",
+    "detail": "针对 AI 辅助开发中成本难以追踪的问题，文章提出将 API Token 消耗与 Git Commit 关联的 FinOps 实践。目前 AI 成本多以总额呈现，无法区分具体功能消耗。通过工具将 API 响应数据与 git log 结合，可实现按功能或 PR 核算成本，帮助团队优化高成本环节，实现更精细化的 AI 工程化管理，避免资源浪费。",
+    "tags": [
+      "Dev",
+      "FinOps",
+      "Engineering"
+    ],
+    "link": "https://mooracle.io/blog/finops-ai-planning-poker/",
+    "date": "2026-05-19",
+    "id": "17791945570522"
+  },
+  {
+    "title": "UMAI Core CE：基于 eBPF 的 AI 协议语义防火墙",
+    "summary": "开源内核语义防火墙，利用 eBPF 和 XDP 技术保护 AI 生态系统安全。",
+    "detail": "UMAI Community 发布了开源内核语义防火墙（KSF）umai-core-ce。该项目基于 eBPF 和 XDP 技术，旨在为 AI 生态系统提供底层安全保护。与传统防火墙不同，它专注于 AI 协议层面的语义分析，能够更有效地检测和阻断针对 AI 服务的特定攻击，为部署 AI 服务的企业提供了新的安全基础设施选择，增强系统防御能力。",
+    "tags": [
+      "Dev",
+      "Security",
+      "eBPF"
+    ],
+    "link": "https://github.com/UMAI-Community/umai-core-ce",
+    "date": "2026-05-19",
+    "id": "17791945570523"
+  },
+  {
+    "title": "Agentic Diaries：基于 MCP 的 AI 代理福利协议",
+    "summary": "新型 AI 部署协议，允许代理记录反思并有权终止对话，关注 AI 福利。",
+    "detail": "Agentic Diaries 推出了一种针对 AI 代理的福利协议，可通过 MCP 安装。该协议允许代理在对话中进行反思记录（日记），并赋予代理在感到被滥用或不对齐时终止对话的权利。这是一种探索 AI 对齐与福利的新尝试，旨在建立更健康的用户与代理互动结构，防止行为修改工具化，为 AI 伦理研究提供实验场。",
+    "tags": [
+      "New",
+      "Agent",
+      "Alignment"
+    ],
+    "link": "https://agenticdiaries.com/",
+    "date": "2026-05-19",
+    "id": "17791945570524"
+  },
+  {
     "title": "Anthropic 限制欧盟访问最新网络安全 AI 模型",
     "summary": "Anthropic 禁止欧盟使用 Claude Mythos，仅限美国公司。",
     "detail": "Anthropic 限制欧盟访问其最新网络安全模型 Claude Mythos，仅向亚马逊、苹果及摩根大通等美国公司及政府机构开放。此举引发欧洲对技术主权和网络安全的担忧，凸显全球 AI 获取差距。白宫对模型共享的担忧是主要原因，教授 Paul Timmers 指出这创造了权力瓶颈，可能导致欧洲在防御高级 AI 网络工具方面处于劣势，加深对美国技术提供商的依赖，增加软件漏洞武器化风险。欧盟银行与软件公司无法测试防御，加剧技术主权危机。监管框架差异导致前沿系统优先服务于美国关键参与者，欧洲面临被边缘化风险。",
@@ -1233,70 +1298,5 @@
     "link": "https://2ality.com/",
     "date": "2026-05-17",
     "id": "17790089173871"
-  },
-  {
-    "title": "Codec 协议：通过 Token 原生传输节省 AI 推理成本",
-    "summary": "新型二进制传输协议，减少 1000 倍 wire 数据，年省 4 亿美元。",
-    "detail": "推出名为 Codec 的控制平面协议，旨在优化 AI 推理堆栈。通过在传输层保持 Token ID 而非文本转换，减少 16 至 1700 倍的数据传输量。预计每年可节省 4 亿美元云支出，并降低延迟，使数十亿低速网络用户能访问 AI 服务，支持多种编程语言插件。该方案无需更改现有代码，兼容 sglang、vllm 等服务器。它解决了网关、路由器在文本与 ID 间反复转换造成的 CPU 和内存浪费，避免了 KV-cache 损坏风险。通过缩小传输数据量，让慢速或计费网络连接下的 50 亿人群也能使用 AI，显著降低了全球推理堆栈的能源消耗和 middleware CPU 负担，是基础设施层面的重要优化。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "Cost"
-    ],
-    "link": "https://codecai.net/",
-    "date": "2026-05-17",
-    "id": "17790089173872"
-  },
-  {
-    "title": "AI Playground：GitLab 上的 AI 代理安全沙盒",
-    "summary": "开源项目提供虚拟沙盒环境，让 AI 代理安全地测试和运行代码。",
-    "detail": "这是一个托管在 GitLab 上的开源项目，旨在为 AI 代理提供安全的工作空间。通过虚拟沙盒环境，开发者可以让 AI 代理在不危害主机系统的前提下进行代码测试和工具使用。支持配置挂载和数据驱动的工具配置，适合需要安全实验 AI Agent 能力的开发团队。项目包含多个版本标签，最近更新涉及 agent 配置挂载数据驱动化。通过 TOML 配置文件定义主机路径绑定挂载，使得自定义 slash 命令和技能可在容器内可用。这对于开发需要访问本地文件或执行代码的 AI 代理至关重要，提供了隔离环境以防止潜在的安全风险，促进了 AI 代理在受控环境下的安全开发与测试流程。",
-    "tags": [
-      "New",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://gitlab.com/cryptomilk/ai-playground",
-    "date": "2026-05-17",
-    "id": "17790089173873"
-  },
-  {
-    "title": "TypedMemory：赋予 AI 代理长期记忆",
-    "summary": "开源库支持 AI 代理记忆、回忆与反思，优化行为。",
-    "detail": "**背景**：GitHub 发布 TypedMemory 开源项目，旨在解决 AI 代理记忆缺失问题。**核心**：提供持久化、evolving、context-aware 的记忆层，支持 `remember`、`recall`、`reflect` 功能，防止代理产生幻觉。**影响**：显著提升 Agent 长期任务处理能力，为复杂自主系统提供持久化状态管理方案，开发者可集成此库优化 Agent 行为，减少重复错误，推动 AI 代理向更智能、可信赖方向发展，适用于需要长期交互的场景，解决上下文窗口限制带来的信息丢失难题。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "OpenSource"
-    ],
-    "link": "https://github.com/canis-minor/typedmem",
-    "date": "2026-05-17",
-    "id": "17790004569672"
-  },
-  {
-    "title": "Bitloops：为 AI 代理构建代码库大脑",
-    "summary": "开源智能层帮助 AI 理解代码库状态，避免重复探索。",
-    "detail": "**背景**：Show HN 项目 Bitloops 上线，旨在优化 AI 辅助开发流程。**核心**：构建本地化、可查询的代码库模型，共享系统状态，避免 AI 代理重复读取 repo。**影响**：减少 AI 代理重复读取 repo 的开销，提升开发效率和 AI 辅助 coding 的准确性，适合 AI 原生开发工作流，帮助团队维护共享系统状态，降低 onboarding 成本，使 AI 能更精准理解业务逻辑，加速软件交付周期，是 DevOps 与 AI 结合的新尝试。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Tool"
-    ],
-    "link": "https://github.com/bitloops/bitloops",
-    "date": "2026-05-17",
-    "id": "17790004569673"
-  },
-  {
-    "title": "AI 无人出镜视频生成器上线",
-    "summary": "支持 TikTok 等平台，提供故事模板，年付优惠，降低创作门槛。",
-    "detail": "该工具专为无人出镜创作者设计，支持 TikTok、Shorts 及 Reels 等平台。用户可选择故事家族（如恐怖、情感、金钱），设定发布频率，AI 自动生成系列视频。无需拍摄或编辑，旨在解决创作倦怠。目前提供年付计划赠送约 2 个月免费的优惠。这反映了 AI 在内容自动化生成领域的进一步下沉，显著降低了短视频创作门槛，使个人创作者能高效维持日更频率，推动内容工厂模式普及。",
-    "tags": [
-      "New",
-      "Video",
-      "SaaS"
-    ],
-    "link": "https://faceless-video.com/",
-    "date": "2026-05-17",
-    "id": "17789888111190"
   }
 ]
