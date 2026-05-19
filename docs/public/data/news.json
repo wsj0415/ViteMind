@@ -1,5 +1,70 @@
 [
   {
+    "title": "Google 搜索引入 AI 代理，实现 24/7 后台持续任务",
+    "summary": "Google I/O 2026 发布新搜索代理，可后台持续监控信息并合成洞察。",
+    "detail": "Google 在 I/O 2026 宣布搜索功能重大升级，引入 AI 代理能力。用户可创建定制代理，在后台 24/7 持续监控特定主题（如股市、航班），而非仅响应单次查询。代理能综合多源信息、解释重要性并提供可操作洞察，标志着 Google Alerts 的进化。此举将搜索从被动检索转变为主动服务，重塑用户获取信息的方式。相比传统链接列表，新代理能合成信息并比较观点，对 SEO 及内容分发行业影响深远。这代表搜索范式向代理化 AI 系统转型的关键一步，用户无需重复搜索即可获得持续更新，极大提升了信息获取效率与深度，是谷歌对抗其他 AI 搜索竞品的重要布局。",
+    "tags": [
+      "News",
+      "Google",
+      "AI Agents"
+    ],
+    "link": "https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/",
+    "date": "2026-05-19",
+    "id": "17792257297230"
+  },
+  {
+    "title": "Android 推出 Halo 功能，深化系统与 AI 代理同步",
+    "summary": "谷歌发布 Android Halo，帮助用户与 AI 代理保持同步，增强移动端体验。",
+    "detail": "谷歌官方博客介绍 Android Halo 新功能，旨在让用户在移动设备上与 AI 代理保持同步。作为 Android 平台的一部分，Halo 强化了系统与 AI 的集成，确保用户随时掌握代理状态。这反映了谷歌将 AI 深度嵌入操作系统的战略，通过原生支持提升代理任务的连续性和用户体验。移动端 AI 交互不再局限于应用内，而是系统级同步，为移动端 AI 应用设立新标准，推动手机从工具向智能助手转型。用户可更无缝地管理代理任务，无论身处何种应用界面，Halo 都能提供状态更新，增强了 AI 在日常移动场景中的渗透率与实用性，完善谷歌 AI 生态闭环。",
+    "tags": [
+      "News",
+      "Android",
+      "Mobile AI"
+    ],
+    "link": "https://blog.google/products-and-platforms/platforms/android/android-halo/",
+    "date": "2026-05-19",
+    "id": "17792257297231"
+  },
+  {
+    "title": "Enforra 开源 SDK：为 AI 代理工具调用提供行动治理",
+    "summary": "开源项目 Enforra 提供本地行动治理 SDK，控制 AI 代理工具调用风险。",
+    "detail": "Enforra 是一个开源行动治理 SDK，专为 AI 代理工具调用设计。它允许开发者在工具执行前定义策略、测试并强制实施控制（如允许、阻止、需批准），而非依赖系统提示词作为安全边界。核心在本地运行，无网络调用，支持审计追踪。随着代理自主性增强，该工具解决了执行敏感操作（如退款、发邮件）的安全隐患，为开发者构建可信代理系统提供了关键基础设施。系统提示词不再是安全边界，控制点需位于工具动作执行前，Enforra  wrapping 应用拥有的工具回调，确保在运行时返回决策，防止未授权操作，是代理安全治理的重要开源贡献，填补了代理执行层的安全空白。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Open Source"
+    ],
+    "link": "https://github.com/enforra/enforra",
+    "date": "2026-05-19",
+    "id": "17792257297232"
+  },
+  {
+    "title": "Web Researcher MCP：基于 Go 的 AI 助手网络研究服务器",
+    "summary": "开源 MCP 服务器赋予 AI 助手网络搜索与研究能力，支持多 provider 路由。",
+    "detail": "这是一个基于 Go 语言的生产级 MCP 服务器，赋予 AI 助手网络搜索、内容提取及多源研究能力。支持多 provider 路由、四层抓取及搜索透镜，兼容 Claude、Cursor 等客户端。作为 Model Context Protocol 生态的一部分，它标准化了 AI 访问网络信息的方式，降低了开发集成门槛。对于需要实时数据检索的代理应用，该工具提供了高效、可扩展的解决方案，推动 AI 研究能力普及。开发者可通过该服务器轻松为助手添加网页研究功能，支持学术、专利及新闻搜索，多 provider 路由确保稳定性，是构建具备联网能力 AI 代理的高效中间件选择，加速代理落地。",
+    "tags": [
+      "Dev",
+      "MCP",
+      "Go"
+    ],
+    "link": "https://github.com/zoharbabin/web-researcher-mcp",
+    "date": "2026-05-19",
+    "id": "17792257297233"
+  },
+  {
+    "title": "网络安全初创 Ocean 获 2800 万美元，专攻 AI 钓鱼防御",
+    "summary": "Ocean 走出隐身模式，融资 2800 万美元，利用代理技术对抗 AI 生成的钓鱼攻击。",
+    "detail": "网络安全初创公司 Ocean 宣布完成 2800 万美元融资，由 Lightspeed 领投。创始人 Shay Shwartz 曾参与以色列铁穹项目。该平台专为对抗 AI 驱动的钓鱼攻击设计，认为传统防御无法应对 AI 自动化带来的规模效应。Ocean 采用代理式邮件安全平台，旨在解决大模型被指令自动 harvesting 信息并发起精准攻击的问题。这反映了 AI 安全领域投资热点正转向防御 AI 原生威胁。过去只有高级黑客能发起鱼叉式钓鱼，如今 AI 使过程自动化，Ocean 试图用不同防御方法应对这种规模扩大的威胁，获多位行业大佬投资支持，显示资本市场对 AI 安全赛道的持续看好。",
+    "tags": [
+      "News",
+      "Security",
+      "Funding"
+    ],
+    "link": "https://techcrunch.com/2026/05/19/from-teen-hacker-to-iron-dome-researcher-this-founder-raised-28m-to-fight-ai-phishing/",
+    "date": "2026-05-19",
+    "id": "17792257297234"
+  },
+  {
     "title": "Google 搜索迎来 AI 新时代",
     "summary": "I/O 大会发布 AI 搜索代理，集成 Gemini 3.5，月活破十亿。",
     "detail": "Google 在 I/O 2026 大会上宣布搜索业务迎来 25 年来最大升级，正式进入 AI 新时代。新搜索框集成 Gemini 3.5 Flash 模型，支持用户通过自然语言提问调用 AI 代理完成任务。此外，还推出了个人智能与代理编码功能。目前 AI Mode 月活用户已突破十亿，季度查询量翻倍，标志着搜索与 AI 深度融合的趋势不可逆转。博客详细介绍了 Powerful AI、Search agents 等四大核心板块，旨在结合搜索引擎与 AI 优势，解决复杂问题，提升用户获取信息的效率与深度，重塑人机交互方式。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.locallightai.com/llc/",
     "date": "2026-05-17",
     "id": "17790338723331"
-  },
-  {
-    "title": "正确的 AI 采用策略：支持人类意图而非替代",
-    "summary": "强调 AI 应增强团队基础设施，而非取代创意核心。",
-    "detail": "文章深入探讨了团队采用 AI 技术的最佳实践与核心理念。作者指出，真正的动机源于受保护的创意自由，而非单纯的流程优化。将 AI 视为替代创意代理的工具会破坏信任与团队文化。成功案例显示，AI 最适合用于增强基础设施，如改进仪表盘、同步数据、文档化工作流及调试工具。核心观点是 AI 应支持人类意图，保护团队文化，而非单纯追求纸面效率。这种“以人为本”的采用策略能确保持续的生产力提升与员工满意度。作者建议将 AI 工具保留在 R&D 阶段直到团队建立信任，优先用于辅助性任务而非核心创意产出。",
-    "tags": [
-      "News",
-      "Management",
-      "Workflow"
-    ],
-    "link": "https://blog.namar0x0309.com/2026/05/the-kind-of-ai-adoption-i-actually-believe-in/",
-    "date": "2026-05-17",
-    "id": "17790338723332"
-  },
-  {
-    "title": "Gonfire：面向 AI 编码代理的候选人评估工具",
-    "summary": "通过分析 Claude Code 会话日志评估候选人编程思维。",
-    "detail": "针对 AI 工程师招聘流程中出现的新挑战，这款工具提供了创新的解决方案。传统 Leetcode 已不适用，而家庭作业难以评估思维过程。Gonfire 通过代理记录并分析候选人与 AI 编码助手（如 Claude Code）的交互日志，生成报告供 hiring manager 参考。它旨在捕捉候选人如何 steer AI 解决问题，而非仅仅评估最终代码，解决了 AI 时代技术评估的痛点。这标志着招聘流程从评估 coding 能力转向评估 AI 协作与架构设计能力。工具还避免了面试官长时间 live 观察的时间成本，提供了更客观的评估维度。",
-    "tags": [
-      "New",
-      "Hiring",
-      "DevTools"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48169029",
-    "date": "2026-05-17",
-    "id": "17790338723333"
-  },
-  {
-    "title": "微软 AI 负责人预测：18 个月内白领工作将被自动化",
-    "summary": "微软 AI chief Mustafa Suleyman 预测白领工作自动化时间表。",
-    "detail": "微软 AI 负责人 Mustafa Suleyman 近期做出大胆预测，认为白领工作将在 18 个月内被 AI 大规模自动化。这一言论引发了行业对就业市场变革的广泛关注与讨论。作为 DeepMind 联合创始人及微软高管，其观点代表了技术巨头对 AI 落地速度的激进判断。这标志着企业级 AI 应用正从实验阶段走向实质替代阶段，对人力资源策略及技术投资方向具有指导意义。从业者需密切关注工作流重构及人机协作新模式的演变，以应对即将到来的行业洗牌，同时思考如何在效率提升与员工安置之间找到平衡点。",
-    "tags": [
-      "News",
-      "Microsoft",
-      "Automation"
-    ],
-    "link": "https://fortune.com/article/why-microsoft-ai-chief-mustafa-suleyman-predicts-ai-automation-18-months/",
-    "date": "2026-05-17",
-    "id": "17790299498180"
-  },
-  {
-    "title": "无性恋群体新趋势：利用 AI 伴侣获取情感亲密",
-    "summary": "WIRED 报道无性恋者使用 AI 伴侣建立非性亲密关系。",
-    "detail": "WIRED 深度报道了无性恋群体如何利用 AI 伴侣满足情感亲密需求，而非性需求。这揭示了 AI 情感计算在细分人群中的实际应用价值，超越了传统的娱乐或色情场景。该趋势表明 AI companionship 正成为心理健康和社会连接的重要工具，为情感 AI 产品开发提供了新的市场视角和伦理讨论空间。此类用例展示了 AI 在理解人类复杂情感需求方面的潜力，可能推动下一代交互模型向更深层次的情感支持发展，同时也引发了关于依赖性与真实关系的深刻社会思考。",
-    "tags": [
-      "News",
-      "Social Impact",
-      "AI Companions"
-    ],
-    "link": "https://www.wired.com/story/some-asexual-people-are-using-ai-companions-for-intimacy-without-the-sex/",
-    "date": "2026-05-17",
-    "id": "17790299498181"
-  },
-  {
-    "title": "架构策略：Pace Layers 理论在 AI 集成中的应用",
-    "summary": "探讨如何利用 Pace Layers 理论优化 AI 系统集成策略。",
-    "detail": "文章探讨了将 Pace Layers 理论应用于 AI 集成的方法论。该理论帮助开发者区分系统中变化快速与缓慢的部分，从而在引入 AI 技术时保持架构稳定性。对于技术团队而言，理解这一框架有助于避免过度工程化，平衡创新速度与系统可靠性，是进行企业级 AI 部署时的重要架构参考指南。通过分层管理变化速率，团队可以更从容地应对 AI 技术的快速迭代，确保核心业务逻辑不受频繁变更的影响，提升系统长期维护性，为构建可持续演进的 AI 原生应用奠定坚实基础。",
-    "tags": [
-      "Dev",
-      "Architecture",
-      "Integration"
-    ],
-    "link": "https://aicoding.leaflet.pub/3maob46kbz22v",
-    "date": "2026-05-17",
-    "id": "17790299498182"
   }
 ]
