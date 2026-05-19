@@ -1,5 +1,96 @@
 [
   {
+    "title": "Google 搜索迎来 AI 新时代",
+    "summary": "I/O 大会发布 AI 搜索代理，集成 Gemini 3.5，月活破十亿。",
+    "detail": "Google 在 I/O 2026 大会上宣布搜索业务迎来 25 年来最大升级，正式进入 AI 新时代。新搜索框集成 Gemini 3.5 Flash 模型，支持用户通过自然语言提问调用 AI 代理完成任务。此外，还推出了个人智能与代理编码功能。目前 AI Mode 月活用户已突破十亿，季度查询量翻倍，标志着搜索与 AI 深度融合的趋势不可逆转。博客详细介绍了 Powerful AI、Search agents 等四大核心板块，旨在结合搜索引擎与 AI 优势，解决复杂问题，提升用户获取信息的效率与深度，重塑人机交互方式。",
+    "tags": [
+      "News",
+      "Google",
+      "Search"
+    ],
+    "link": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+    "date": "2026-05-19",
+    "id": "17792174647310"
+  },
+  {
+    "title": "Mistral AI 包遭供应链攻击",
+    "summary": "PyPI 上 mistralai 包被植入后门，开发者需立即检查依赖。",
+    "detail": "GitHub 安全警报显示，Mistral AI 的 Python 客户端包在 PyPI 上遭供应链攻击。版本 2.4.6 被植入后门，会从硬编码 IP 下载并执行恶意 payload。该问题由社区在 issue #523 中披露，严重影响开发者安全。建议立即检查依赖树，避免使用受损版本。此次事件再次敲响 AI 供应链安全警钟，提醒企业在引入开源包时需加强审计与验证，防止恶意代码渗透至生产环境，保障系统稳定性。受影响用户需尽快回滚或更新到安全版本，并审查系统日志是否有异常外联行为。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Python"
+    ],
+    "link": "https://github.com/mistralai/client-python/issues/523",
+    "date": "2026-05-19",
+    "id": "17792174647311"
+  },
+  {
+    "title": "Nature 呼吁停止 Token 滥用",
+    "summary": "权威期刊批评企业盲目追求 Token 消耗量，呼吁理性部署。",
+    "detail": "Nature 发表文章批评 AI 行业盲目追求 Token 消耗量的现象，称为'tokenmaxxing'。尽管英伟达 CEO 预期工程师每月消耗 25 万美元 Token，但文章指出这并非生产力良指标。当前企业沉迷于将 Agent AI 嵌入工作流，却忽视实际效用。文章呼吁停止盲目竞赛，转向 sensible deployment。研究者与开发者应关注 AI 实际产出而非资源消耗，避免浪费算力与资金，确保技术真正服务于科学发现与商业价值，而非虚荣指标。这种 frenzy 可能导致资源错配，需回归理性部署。",
+    "tags": [
+      "News",
+      "Industry",
+      "LLM"
+    ],
+    "link": "https://www.nature.com/articles/s42256-026-01253-5",
+    "date": "2026-05-19",
+    "id": "17792174647312"
+  },
+  {
+    "title": "AllenAI 发布 OlmoEarth v1.1",
+    "summary": "更高效地球科学模型家族，支持全球尺度部署，已开源。",
+    "detail": "AllenAI 发布 OlmoEarth v1.1 模型家族，旨在提升地球科学任务效率。新版本通过减少序列长度优化性能，适用于森林损失分类、作物地图绘制等场景。自 2025 年 11 月发布 v1 以来，已助力合作伙伴在全球范围部署。代码与模型已在 Hugging Face 开源，提供技术报告与预训练代码。此举推动 AI for Science 发展，让研究人员能更高效地处理国家乃至全球尺度的环境数据，加速环保决策。开发者可直接调用 API 或本地部署，体验更高效推理。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Model"
+    ],
+    "link": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+    "date": "2026-05-19",
+    "id": "17792174647313"
+  },
+  {
+    "title": "情感 AI 面临信任危机",
+    "summary": "文章探讨情感识别 AI 的技术局限与伦理争议，需反思依赖。",
+    "detail": "Computerworld 文章探讨情感识别 AI 面临的技术与伦理困境。当前技术难以准确捕捉人类复杂情绪，误读风险高，可能导致错误决策。文章指出过度依赖情绪数据存在隐患，行业需反思其可靠性。随着 AI 渗透生活，情感计算若缺乏标准，易引发隐私与偏见问题。开发者应谨慎应用此类技术，避免将不成熟模型用于关键场景，确保用户信任与系统安全，推动行业健康发展。建议结合多模态数据验证，而非单一依赖面部或语音分析。",
+    "tags": [
+      "News",
+      "Ethics",
+      "AI"
+    ],
+    "link": "https://www.computerworld.com/article/4171382/the-trouble-with-emotion-reading-ai.html",
+    "date": "2026-05-19",
+    "id": "17792174647314"
+  },
+  {
+    "title": "67K 个 AI 域名可搜索",
+    "summary": "新工具支持按标签搜索 AI 网站，助力发现热门新品。",
+    "detail": "Show HN 项目 ratemyaisite.com 上线，收录 6.7 万个.ai 域名。支持 AI 提取标签搜索，涵盖 PR Arena、Synopsis 等工具。方便开发者与投资者快速发现热门 AI 产品。平台提供网站截图与分类标签，如 business、saas、developer 等。用户可直观浏览 AI 生态现状，寻找潜在合作机会或竞品分析。此举降低了信息获取门槛，促进 AI 产品市场的透明度与流动性，是 AI 导航领域的一次重要尝试。",
+    "tags": [
+      "New",
+      "Tools",
+      "Search"
+    ],
+    "link": "https://ratemyaisite.com/explore",
+    "date": "2026-05-19",
+    "id": "17792174647315"
+  },
+  {
+    "title": "数学 YouTube 充斥 AI 垃圾内容",
+    "summary": "视频揭露 AI 生成低质内容泛滥教育领域，引发监管关注。",
+    "detail": "YouTube 视频揭露数学教育领域正被 AI 生成的低质内容淹没。这种'AI slop'现象误导学习者，反映生成式 AI 滥用问题。视频获数千观看，引发社区对内容质量监管的关注。平台算法若继续推荐此类内容，将损害教育生态。创作者与平台需共同努力，识别并限制低质 AI 视频，保护用户获取真实知识的渠道，维护教育内容的严肃性与准确性，避免技术滥用伤害下一代。这不仅是内容问题，更是 AI 伦理与平台责任的双重挑战。",
+    "tags": [
+      "News",
+      "Content",
+      "Education"
+    ],
+    "link": "https://www.youtube.com/watch?v=mRO_QonhC2c",
+    "date": "2026-05-19",
+    "id": "17792174647316"
+  },
+  {
     "title": "OpenAI 联合创始人 Karpathy 加入 Anthropic",
     "summary": "OpenAI 联合创始人 Andrej Karpathy 正式加入 Anthropic 预训练团队。",
     "detail": "据 TechCrunch 报道，OpenAI 联合创始人 Andrej Karpathy 已正式加入竞争对手 Anthropic 的预训练团队。这一人事变动是 2026 年 AI 行业的重大事件，标志着顶级实验室间的人才争夺战升级。Karpathy 在深度学习领域的背景将直接增强 Anthropic 的模型预训练能力。此举可能改变大模型技术竞争格局，暗示预训练仍是核心壁垒。对于行业而言，顶尖人才的流向往往预示着技术路线的侧重变化，值得关注。此消息可能引发市场对 Anthropic 未来模型能力的重新评估。",
@@ -1207,96 +1298,5 @@
     "link": "https://aicoding.leaflet.pub/3maob46kbz22v",
     "date": "2026-05-17",
     "id": "17790299498182"
-  },
-  {
-    "title": "随机群集与“有用”AI 的关键问题",
-    "summary": "探讨 AI 实用性问题，分析随机群集现象。",
-    "detail": "本文深入探讨了当前 AI 发展中“实用性”面临的关键问题。通过引入“随机群集”（Stochastic Flocks）概念，分析了 AI 模型在群体行为中的不可预测性与潜在风险。这对 AI 政策制定者和技术开发者具有重要参考价值，提示需关注 AI 在实际应用中的可靠性与边界，避免盲目部署导致系统性问题。技术社区需重新评估“有用”的定义，确保 AI 发展符合人类利益与安全标准，为后续政策制定提供理论依据，防止技术滥用。此外，文章还讨论了如何在复杂系统中维持 AI 行为的稳定性，为未来 AI 治理框架奠定基础。",
-    "tags": [
-      "News",
-      "Policy",
-      "LLM"
-    ],
-    "link": "https://www.techpolicy.press/stochastic-flocks-and-the-critical-problem-of-useful-ai/",
-    "date": "2026-05-17",
-    "id": "17790242862290"
-  },
-  {
-    "title": "WorkClarity：自由职业者免费 AI 工具包",
-    "summary": "三款免费 AI 工具，无需登录，助力自由职业。",
-    "detail": "WorkClarity 推出三款专为自由职业者设计的 AI 工具：费率计算器、税务计算器和客户风险检查器。所有工具永久免费且无需登录，基于 10 个国家真实税务数据。利用 AI 分析市场费率并提供谈判范围，帮助独立工作者优化收入与风险管理。相比传统计算器，它更能理解情境，提供 actionable 建议，是自由职业者提升业务严肃性的实用生产力工具，降低运营门槛。用户可用自然语言描述情况，AI 即时分析风险评分，避免签约陷阱，显著减少guesswork。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Freelance"
-    ],
-    "link": "https://workclarity.co",
-    "date": "2026-05-17",
-    "id": "17790242862291"
-  },
-  {
-    "title": "观点：AI 未必能加速企业流程",
-    "summary": "反直觉观点，AI 优化流程需参考经典管理理论。",
-    "detail": "作者重读《丰田方式》与《目标》，提出 AI 未必能直接加速业务流程的观点。文章指出组织在市场低迷时常聚焦流程优化，但对 AI 抱有不切实际的期望。强调在引入 AI 前应先理解基础管理原则，避免盲目技术堆叠，为企业 AI 落地提供冷静思考视角。许多企业试图用 AI 修补糟糕的流程，这只会加速混乱。真正的优化需先消除浪费，再考虑自动化。该观点对盲目追逐 AI 热点的 CIO 具有警示意义，建议回归业务本质，理性评估技术投入产出比。",
-    "tags": [
-      "News",
-      "Management",
-      "Strategy"
-    ],
-    "link": "https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/",
-    "date": "2026-05-17",
-    "id": "17790242862292"
-  },
-  {
-    "title": "企业 AI 订阅可能是定时炸弹",
-    "summary": "揭示 AI 实验室亏损服务现状，警示订阅风险。",
-    "detail": "文章指出当前 AI 实验室服务企业普遍处于亏损状态，且故意为之。每个 AI 订阅对 enterprise 而言可能是“定时炸弹”。分析了 AI 商业模式背后的经济逻辑，警示企业客户注意长期成本与供应商可持续性。对 CTO 和采购决策者具有重要预警意义，建议重新评估 AI 订阅策略。企业需考虑供应商盈利模式是否健康，避免依赖不可持续的服务。随着市场竞争加剧，低价订阅可能导致服务质量下降或突然中断，影响业务连续性，需建立风险对冲机制。建议企业探索混合部署方案，降低单一供应商依赖风险，确保核心业务稳定运行。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Business"
-    ],
-    "link": "https://www.thestateofbrand.com/news/ai-subscription-time-bomb",
-    "date": "2026-05-17",
-    "id": "17790242862293"
-  },
-  {
-    "title": "Kaiden：开源 AI 代理沙盒桌面应用",
-    "summary": "Podman 团队出品，安全隔离运行 AI 编码代理。",
-    "detail": "由 Podman Desktop 团队推出的开源工具，专为开发者设计。Kaiden 在隔离沙盒中运行 AI 编码代理（如 Claude Code, Cursor），支持本地或企业环境。基于容器或微虚拟机，确保系统安全。支持多种模型提供商，解决 AI 代理访问代码和凭证的安全隐患，适合企业级开发治理。用户可快速配置 MCP 服务器和技能，实现从安装到安全 AI 编码的分钟级部署，平衡速度与隐私，防止坏会话损坏系统。它连接现有组织工具与 API，使代理真正理解上下文，支持 macOS、Linux 和 Windows 平台。",
-    "tags": [
-      "Dev",
-      "Security",
-      "OpenSource"
-    ],
-    "link": "https://openkaiden.ai/",
-    "date": "2026-05-17",
-    "id": "17790242862294"
-  },
-  {
-    "title": "MnemonicAI：赋予 AI 代理持久记忆",
-    "summary": "解决 AI 失忆问题，从执行中学习并沉淀经验。",
-    "detail": "针对 AI 代理“失忆”痛点，MnemonicAI 提供持久认知层。代理可从每次任务执行中提取教训，跨会话 recall 经验，避免重复错误。支持客户支持和代码生成场景，自动构建公司大脑。早期访问开放，免费 tier 可用，旨在提升生产级 AI 代理的效率与可靠性，减少 Token 浪费。系统能检测教训间的矛盾，校准置信度，实现认知复利。相比无状态代理，它能将成功模式转化为程序，显著降低重试成本，适合需要长期记忆的企业级 AI 应用场景。目前已处理超过 37,000 个事件，提取 2,700 多条教训，验证了其在实际工作流中的有效性。",
-    "tags": [
-      "New",
-      "Agent",
-      "Memory"
-    ],
-    "link": "https://mnemonic.nishantvanawala6118.workers.dev",
-    "date": "2026-05-17",
-    "id": "17790242862295"
-  },
-  {
-    "title": "数据：高 AI 暴露度岗位正在消失",
-    "summary": "美国数据显示，易受 AI 影响的工作机会开始减少。",
-    "detail": "Gizmodo 报道最新数据显示，美国易受 AI 技术影响的就业岗位开始实际消失。这标志着 AI 对劳动力市场的影响从理论转向现实。文章分析了具体行业数据，揭示自动化替代的早期迹象。对求职者、政策制定者及教育行业具有重大警示，需关注技能转型与就业结构调整。数据表明，高暴露度职位减少并非未来预测，而是正在发生的趋势，呼吁社会提前准备应对结构性失业挑战，重塑职业教育体系。这一趋势可能加速收入不平等，要求政府与企业共同制定再培训计划，以缓解技术冲击带来的社会压力。",
-    "tags": [
-      "News",
-      "Jobs",
-      "Society"
-    ],
-    "link": "https://gizmodo.com/american-jobs-with-ai-exposure-really-are-starting-to-disappear-data-show-2000759602",
-    "date": "2026-05-17",
-    "id": "17790242862296"
   }
 ]
