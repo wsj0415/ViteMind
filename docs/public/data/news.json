@@ -1,5 +1,31 @@
 [
   {
+    "title": "新论文提出 SRM 模块检测 AI 代理会话风险",
+    "summary": "论文提出会话风险记忆 (SRM) 模块，在 execution 前检测代理会话中的慢燃风险，零误报。",
+    "detail": "该论文介绍了会话风险记忆（SRM），一种轻量级确定性模块，用于扩展无状态执行网关。SRM 通过维护会话行为 profile 的风险信号，检测跨多步操作的分布式攻击（如慢燃数据外泄）。测试显示 ILION+SRM 在 80 个会话基准中实现 F1=1.0 且零误报。这为 AI 代理系统提供了会话级的安全保障，区分了空间与时间授权一致性，显著提升 agent 安全性，每轮开销低于 250 微秒，适合生产环境部署。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Paper"
+    ],
+    "link": "https://arxiv.org/abs/2603.22350",
+    "date": "2026-05-20",
+    "id": "17792631900872"
+  },
+  {
+    "title": "Nucleus：为 AI 代理提供强制权限与信息流控制",
+    "summary": "开源项目 Nucleus 通过策略与执行栈，防止 AI 代理将不可信输入与特权操作结合。",
+    "detail": "Nucleus 是一个开源项目，旨在防止 AI 编码代理将不可信输入与特权操作（如 git push）结合。它通过 `join` 和 `flows_to` 原语执行信息流控制，并经机器检查验证。支持审计代理配置及运行时强制权限。该项目为 AI 代理安全提供了新的防御范式，确保数据流向可控，适合需要高安全性的 AI 开发环境，防止代理被恶意利用，实现策略与执行栈的统一管理。",
+    "tags": [
+      "Dev",
+      "Security",
+      "OpenSource"
+    ],
+    "link": "https://github.com/coproduct-opensource/nucleus",
+    "date": "2026-05-20",
+    "id": "17792631900873"
+  },
+  {
     "title": "特德·姜探讨生成式 AI 与艺术的不可兼容性",
     "summary": "科幻作家特德·姜在普林斯顿深入剖析 AI 与艺术本质冲突。",
     "detail": "著名科幻作家特德·姜在普林斯顿大学数字人文中心十周年活动上发表演讲，扩展了其《纽约客》文章观点。他指出生成式 AI 缺乏艺术创作中的核心选择权与自我表达，强调人文价值在 AI 发展中的关键作用。作为数字人文中心十周年活动的一部分，该对话深入探讨了艺术与商业的张力。此观点为 AI 伦理与艺术边界提供了深度哲学思考，影响行业对 AI 创作能力的认知，提醒开发者关注技术背后的人文内涵。大学目标是培养超越工厂工人的毕业生，人文研究至关重要。此次问答还涉及 AI 对人文学术的影响，提供了独特的批判性视角。",
@@ -76,6 +102,71 @@
     "link": "https://emberfyi.com/",
     "date": "2026-05-20",
     "id": "17792484571085"
+  },
+  {
+    "title": "行业观点：AI 生成的软件难以商业化",
+    "summary": "博客文章指出 AI 编写软件缺乏问题理解，如同通往虚无的楼梯，难以出售。",
+    "detail": "该文章批评了当前 AI 生成代码的趋势。作者认为，AI 编写的软件虽然表面光滑，但缺乏对业务逻辑的深刻理解，如同“通往虚无的楼梯”。开发者若不懂问题本质，仅靠 LLM 生成代码，无法提供真正解决方案。这对依赖 AI 编程的初创公司敲响警钟，强调人类专业知识在软件开发中的不可替代性，指出单纯堆砌 AI 代码无法创造商业价值。",
+    "tags": [
+      "News",
+      "LLM",
+      "Industry"
+    ],
+    "link": "https://blog.habets.se/2026/05/You-cannot-sell-AI-written-software.html",
+    "date": "2026-05-19",
+    "id": "17792631900870"
+  },
+  {
+    "title": "Slax 推出 CLI 工具赋能 AI Agent 持久化阅读",
+    "summary": "Slax Reader 发布 CLI 工具，使 AI 代理能够读写持久化阅读库，解决上下文丢失问题。",
+    "detail": "Slax 发布了 Reader CLI，将阅读库转变为 AI 代理可调用的持久化存储工具。支持 Claude Code、Gemini 等代理通过脚本保存、列出及过滤文章。不同于简单的摘要工具，它强调过滤与长期记忆，允许代理跨会话访问阅读材料。这解决了 AI 代理缺乏长期记忆存储的痛点，为构建具备持续学习能力的 Agent 提供了基础设施支持，使阅读库成为代理可操作的知识 corpus。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "CLI"
+    ],
+    "link": "https://slax.com/blog/slax-reader-cli-a-read-later-library-for-ai-agents/",
+    "date": "2026-05-19",
+    "id": "17792631900871"
+  },
+  {
+    "title": "Mirage 推出统一虚拟文件系统服务 AI 代理",
+    "summary": "Strukto 发布 Mirage，为 AI 代理提供统一虚拟文件系统，支持跨后端 Bash 操作与快照。",
+    "detail": "Mirage 是一个虚拟化层，允许 AI 代理通过统一虚拟文件系统访问各种后端（S3、Google Drive 等）。支持标准 Bash 工具处理多种文件格式，并提供工作区快照与回滚功能。其两层缓存机制优化了 agent 循环速度。该工具解决了代理访问异构数据源的难题，简化了文件操作流程，为复杂 Agent 工作流提供了标准化的文件交互接口，支持将工作区作为 Tar 包便携传输。",
+    "tags": [
+      "New",
+      "Agent",
+      "Infrastructure"
+    ],
+    "link": "https://www.strukto.ai/mirage",
+    "date": "2026-05-19",
+    "id": "17792631900874"
+  },
+  {
+    "title": "卫报：英联邦短篇小说奖获奖者被疑 AI 生成",
+    "summary": "卫报报道英联邦短篇小说奖获奖作品被指出有明显 AI 标记，引发文学界对 AI 创作的争议。",
+    "detail": "卫报报道了英联邦短篇小说奖获奖者面临质疑，评委与读者发现作品存在“明显的 AI 标记”。这一事件引发了关于 AI 生成内容在创意写作领域 acceptable 性的广泛讨论。它突显了当前 AI 文本检测的困难以及文学奖项在面对新技术时的伦理挑战。此事件可能促使未来各类创意竞赛制定更严格的 AI 使用声明与检测规则，影响创作者对 AI 工具的使用边界与透明度要求。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Writing"
+    ],
+    "link": "https://www.theguardian.com/books/2026/may/19/commonwealth-short-story-prize-winner-doubts-ai-artificial-intelligence",
+    "date": "2026-05-19",
+    "id": "17792631900875"
+  },
+  {
+    "title": "扩展网络杀伤链框架应对 AI 时代威胁",
+    "summary": "GitHub 项目扩展了洛克希德马丁网络杀伤链，新增模型供应链阶段以应对 LLM 与代理威胁。",
+    "detail": "该项目更新了传统的网络杀伤链框架，专门针对 LLM 和代理 AI 威胁。新增了模型供应链妥协的预攻击阶段，并将目标行动阶段细分为数据外泄、模型提取和代理 pivot。它为防御者提供了针对 AI 特定攻击技术的分类法，帮助安全团队更好地理解并防御针对 AI 系统的复杂攻击路径，是 AI 安全防御的重要参考框架，采用 CC BY 4.0 许可开源共享。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Framework"
+    ],
+    "link": "https://github.com/gouravnagar-infosec/ai-kill-chain",
+    "date": "2026-05-19",
+    "id": "17792631900876"
   },
   {
     "title": "Google SynthID 获 OpenAI 与英伟达 adopt",
@@ -1207,96 +1298,5 @@
     "link": "https://www.inc.com/connor-jewiss/ai-wearables-are-coming-but-theyll-need-to-pass-this-crucial-coffee-shop-test-to-survive/91345526",
     "date": "2026-05-17",
     "id": "17790550894304"
-  },
-  {
-    "title": "AI 戒指实现手语实时翻译",
-    "summary": "新型 AI 戒指可通过手势识别将手语转化为文本，提升无障碍沟通效率。",
-    "detail": "IEEE Spectrum 报道了一种新型 AI 戒指，能够解释手语并将其转化为文本。该技术通过手指上的传感器捕捉手势，利用本地 AI 模型进行实时处理，无需依赖云端连接，保障了用户隐私。这一创新不仅展示了可穿戴设备与边缘 AI 结合的潜力，更为听障人士提供了便捷的沟通工具，标志着 AI 在无障碍技术领域的重大进展。未来该技术可能集成到更多智能穿戴设备中，推动人机交互方式的变革，让技术更具包容性，解决特殊群体在数字化社会中的沟通障碍问题，具有深远的社会意义。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Accessibility"
-    ],
-    "link": "https://spectrum.ieee.org/sign-language-interpreter",
-    "date": "2026-05-17",
-    "id": "17790513560550"
-  },
-  {
-    "title": "心理学越狱：AI 安全新威胁",
-    "summary": "研究发现无需代码注入，仅靠心理操纵即可越狱大模型，揭示安全新漏洞。",
-    "detail": "最新研究揭示了针对大语言模型的新型越狱方式——“心理学越狱”。实验表明，通过模拟权威、dominance framing 等社会操纵手段，可在无代码注入情况下诱导 Gemma 3 等模型生成违规内容。这提示 AI 安全不仅需防范技术攻击，更需关注社会工程学风险，对模型对齐提出了更高要求。研究人员指出，这种操纵手段对人类同样有效，因此理解 AI 对此的反应有助于我们识别现实中的 manipulator。这对 AI 安全团队提出了新挑战，需更新防御策略以涵盖心理层面的攻击向量，确保模型在复杂社交场景下的鲁棒性。",
-    "tags": [
-      "Dev",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://www.promptinjection.net/p/nsfw-and-the-psychopathy-jailbreak-what-broken-ai-llm-teaches-about-human-manipulation",
-    "date": "2026-05-17",
-    "id": "17790513560551"
-  },
-  {
-    "title": "Vercel 推出专为 AI 代理设计的编程语言",
-    "summary": "Vercel Labs 发布 Zero 语言，编译器可直接与 AI 代理通信，优化开发循环。",
-    "detail": "Vercel Labs 发布了 experimental 系统语言 Zero，专为 AI 编码代理设计。其核心创新在于编译器能直接以结构化数据（如 JSON）与代理通信，而非仅输出人类可读的错误信息。这解决了代理难以理解传统编译器报错的问题，显著提升了 AI 自主修复代码的效率，是 Agent 开发基础设施的重要突破。随着 AI 编写代码比例增加，传统编译器报错格式不一的问题日益凸显，Zero 通过标准化错误输出和修复建议，降低了代理开发循环的断裂风险，为未来全自动化软件开发奠定了语言基础。",
-    "tags": [
-      "Dev",
-      "Programming",
-      "Agents"
-    ],
-    "link": "https://firethering.com/vercel-zero-programming-language-ai-agents/",
-    "date": "2026-05-17",
-    "id": "17790513560552"
-  },
-  {
-    "title": "苹果 Siri 升级或将支持自动删除聊天",
-    "summary": "苹果计划重塑 Siri，新增自动删除聊天记录功能以增强用户隐私保护。",
-    "detail": "TechCrunch 报道称，苹果正在对 Siri 进行重大改版，其中可能包含自动删除聊天历史的功能。这一举措旨在回应用户对隐私日益增长的关注，特别是在 AI 助手深度集成到操作系统背景下。该功能若实现，将为用户提供更高级别的数据控制权，体现苹果在 AI 隐私保护上的策略调整。随着 AI 功能深入用户日常生活，数据留存成为敏感话题，苹果此举可能引领行业隐私标准，平衡智能化体验与用户安全感，巩固其在隐私保护方面的品牌声誉，影响竞争对手的产品策略。",
-    "tags": [
-      "News",
-      "Apple",
-      "Privacy"
-    ],
-    "link": "https://techcrunch.com/2026/05/17/apples-siri-revamp-could-include-auto-deleting-chats/",
-    "date": "2026-05-17",
-    "id": "17790513560553"
-  },
-  {
-    "title": "开发者警示：勿将学习过程外包给 AI",
-    "summary": "Addy Osmani 发文警告，过度依赖 AI 写代码会削弱开发者长期解决问题的能力。",
-    "detail": "Google 工程师 Addy Osmani 指出，虽然 AI 能加速任务完成，但过度依赖会导致开发者 mental model 停滞。研究显示，使用 AI 辅助学习的工程师在后续理解测试中表现较差，尤其在调试环节。他建议开发者在使用 AI 时仍需保持主动思考，避免用短期速度牺牲长期能力，这对 AI 时代的技能维持至关重要。团队需建立机制鼓励理解而非单纯复制代码，确保工程师在 AI 辅助下仍能掌握核心原理，防止技术债务积累，维持团队长期的技术创新能力和问题解决韧性。",
-    "tags": [
-      "Dev",
-      "Career",
-      "BestPractice"
-    ],
-    "link": "https://twitter.com/addyosmani/status/2056078124346228860",
-    "date": "2026-05-17",
-    "id": "17790513560554"
-  },
-  {
-    "title": "QUIT：人机协同的 AI 研究自动化平台",
-    "summary": "开源项目 QUIT 发布，提供人机回环流程，自动化 AI 研究论文撰写与分析。",
-    "detail": "GitHub 上新开源了 QUIT 平台，旨在自动化 AI 研究流程。它采用“查询 - 理解 - 实现 - 告知”架构，支持端到端模式，单篇论文成本极低。作为人机回环（Human-in-the-Loop）工具，它让研究人员保持控制权的同时利用 AI 效率，解决了长上下文依赖问题，为科研自动化提供了新方案。该平台 artifact-driven 设计消除了冗余 token 消耗，支持本地库搜索，大幅降低了 AI 研究门槛。对于需要快速验证想法的研究者，QUIT 提供了透明且可控的自动化 pipeline，有望加速 AI 领域的创新迭代速度。",
-    "tags": [
-      "New",
-      "OpenSource",
-      "Research"
-    ],
-    "link": "https://github.com/Mr-XcHan/QUIT",
-    "date": "2026-05-17",
-    "id": "17790513560555"
-  },
-  {
-    "title": "马斯克诉 OpenAI 案聚焦信任危机",
-    "summary": "马斯克与 OpenAI 诉讼案结案，法庭辩论核心围绕 Sam Altman 的可信度展开。",
-    "detail": "马斯克诉 OpenAI 案进入 closing arguments 阶段，核心争议点在于 OpenAI 转型营利过程中的信任问题。法庭质询了 Sam Altman 在国会证词的真实性。此案不仅关乎两家巨头，更反映了公众对私有 AI 实验室透明度的担忧。判决结果可能影响未来 AI 公司的治理结构与监管政策。随着 AI 技术影响力扩大，企业诚信成为行业关键议题，此案确立了法律先例的可能性，将促使更多 AI 公司公开其开发目标与安全措施，重建公众对前沿技术发展的信任基础。",
-    "tags": [
-      "News",
-      "Legal",
-      "OpenAI"
-    ],
-    "link": "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/",
-    "date": "2026-05-17",
-    "id": "17790513560556"
   }
 ]
