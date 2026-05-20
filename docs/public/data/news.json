@@ -1,5 +1,96 @@
 [
   {
+    "title": "Google 弃用 Gemini CLI 转向闭源 AI",
+    "summary": "Google 停止支持 Gemini CLI，引导开发者转向闭源 AI 工具。",
+    "detail": "Google 宣布终止 Gemini CLI 项目，转而推动开发者使用其闭源 AI 解决方案（代号 Antigravity）。此举标志着 Google 在开发者工具策略上的重大转变，从开放走向封闭。对于依赖 CLI 工作流的开发者而言，需及时调整工具链。这反映了大厂在 AI 商业化过程中对控制权的重视，可能影响开源社区的生态活力。开发者需关注替代方案，避免工作流中断。这种闭源趋势可能削弱开发者信任，促使社区寻找开源替代品。Google 需在商业化与开发者关系间找到平衡，否则可能流失部分忠实用户群体。此变动也暗示了 CLI 工具在商业化变现上的困难，未来更多工具可能转向 SaaS 化。",
+    "tags": [
+      "News",
+      "Google",
+      "CLI"
+    ],
+    "link": "https://www.theregister.com/ai-ml/2026/05/20/bye-bye-gemini-cli-google-nudges-devs-toward-antigravity/5243605",
+    "date": "2026-05-20",
+    "id": "17793142842740"
+  },
+  {
+    "title": "新西兰政府用 AI 替代公务员引争议",
+    "summary": "批评者警告新西兰政府用 AI 裁减公务员可能隐藏高昂成本。",
+    "detail": "新西兰政府计划削减 8700 个公共部门职位，希望通过 AI 技术节省 24 亿美元。然而批评者指出，AI 部署的时间和成本未被充分计算，可能侵蚀预期 savings。退休顾问 Roger May 质疑政府低估了过渡成本。此案例为全球公共部门 AI 化提供了警示，表明单纯裁员未必带来财政健康，需考量长期维护与实施成本。政府需透明化 AI 实施路线图，否则可能面临公共服务质量下降的风险，最终导致纳税人负担加重而非减轻。此外，知识型官僚的流失可能导致 institutional memory 丢失，影响政策连续性。",
+    "tags": [
+      "News",
+      "Policy",
+      "Employment"
+    ],
+    "link": "https://www.rnz.co.nz/news/political/595847/replacing-public-servants-with-ai-could-come-with-hidden-costs-critics-warn",
+    "date": "2026-05-20",
+    "id": "17793142842741"
+  },
+  {
+    "title": "Anthropic 斥资数十亿购买 xAI 算力",
+    "summary": "Anthropic 每月支付 12.5 亿美元向 xAI 购买算力，合约至 2029 年。",
+    "detail": "Anthropic 与 xAI 达成重大算力协议，每月支付 12.5 亿美元租用 Colossus 1 数据中心全部输出，直至 2029 年 5 月。总交易额超 400 亿美元。SpaceX 文件显示此举旨在 monetize 未使用算力。这确立了 xAI 作为\"neocloud\"的双重身份，既自建模型又出售算力。反映了 AI 基础设施稀缺性及巨头间合作竞合的新常态，算力成为核心战略资源。此交易规模罕见，显示头部模型厂商对算力的极度渴求。同时，xAI 通过出租闲置算力优化成本，为行业提供新商业模式参考。未来可能看到更多类似'neocloud'合作，缓解算力瓶颈。合约允许 90 天通知终止，显示双方保持灵活性。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Anthropic"
+    ],
+    "link": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/",
+    "date": "2026-05-20",
+    "id": "17793142842742"
+  },
+  {
+    "title": "民调显示美国民众对 AI 态度转冷",
+    "summary": "多项民调数据显示，2024 至 2026 年间美国民众对 AI 好感度显著下降。",
+    "detail": "The Algorithmic Bridge  compiling 多项民调（Gallup, Pew 等）显示，美国民众对 AI 及数据中心的反对情绪上升。AI 数据中心从 zoning 话题变为政治斗争焦点。相比其他国家，美国的反 AI 情绪尤为明显。这对 AI 公司扩张构成舆论压力，可能影响政策监管走向。行业需重视公众沟通，缓解对隐私、就业及环境影响的担忧，以避免更严格的监管限制。民意逆转可能延缓数据中心建设进度，增加合规成本。文章汇编了 2024 至 2026 年间的大量数据，显示这种趋势不可逆转。AI 公司需调整公关策略，加强社区 engagement，否则将面临更严峻的落地阻力。",
+    "tags": [
+      "News",
+      "Public Opinion",
+      "Policy"
+    ],
+    "link": "https://www.thealgorithmicbridge.com/p/how-america-turned-against-ai-according",
+    "date": "2026-05-20",
+    "id": "17793142842743"
+  },
+  {
+    "title": "SpacemiT K3 AI 核心命令行工具开源",
+    "summary": "开发者发布工具以便在 SpacemiT K3 的 A100 AI 核心上运行命令。",
+    "detail": "GitHub 项目 k3_ai 提供实用工具，允许用户在 SpacemiT K3 芯片的 A100\"AI\"核心上运行命令。K3 拥有 8 个高性能 X100 核心和 8 个长向量 A100 核心。该工具通过纯汇编 syscall 确保不使用 RVV 指令，优化 AI 核心调度。这对 RISC-V 架构下的边缘 AI 开发具有参考价值，展示了异构计算在消费级硬件上的落地尝试，适合嵌入式 AI 开发者关注。工具支持 make 构建和 shell 交互，简化了异构核心调用流程。随着 RISC-V 生态发展，此类底层优化工具将愈发重要，助力开发者充分利用硬件 AI 加速能力，降低边缘部署门槛。项目完全开源，便于社区审查和改进。",
+    "tags": [
+      "Dev",
+      "RISC-V",
+      "Tools"
+    ],
+    "link": "https://github.com/brucehoult/k3_ai/tree/main",
+    "date": "2026-05-20",
+    "id": "17793142842744"
+  },
+  {
+    "title": "用户反馈 Claude Pro 配额限制深度研究",
+    "summary": "用户指出 Claude Pro 计划配额过小，难以完成深度研究任务。",
+    "detail": "用户反馈 Claude.ai Pro 计划（$20/月）的使用配额不足以支持深度研究模式。单次复杂查询可能耗尽会话配额，导致任务中断。即便使用 Sonnet 模型也面临此问题。用户建议增加用量提示或允许软超额。这反映了当前 LLM 服务在定价模型与高算力消耗功能（如 Deep Research）之间的平衡难题，可能促使厂商调整订阅策略。高频用户可能被迫升级至更高价位套餐，影响产品普及率。Anthropic 需优化 token 消耗算法，或在 UI 上提供更明确的预期管理，以减少用户挫折感并维持订阅满意度。此问题若普遍存在，可能影响 Pro 计划的市场竞争力。",
+    "tags": [
+      "News",
+      "LLM",
+      "Product"
+    ],
+    "link": "https://www.williamangel.net/blog/2026/05/20/ClaudeAI-Pro-Plan-Gives-Single-Deep-Research.html",
+    "date": "2026-05-20",
+    "id": "17793142842745"
+  },
+  {
+    "title": "观点：AI 并未发明代码糟粕只是扩大了它",
+    "summary": "文章认为 AI 没有发明糟糕代码，只是规模化了人类已有的问题。",
+    "detail": "针对\"AI slop\"的恐慌，文章指出糟糕的代码并非 AI 发明，人类开发者此前也常产出低质代码。问题核心在于团队缺乏阻止糟粕代码落地机制，而非 AI 本身。AI 只是放大了现有工程实践中的缺陷。开发者应关注如何建立更好的代码审查和质量控制流程，而不是单纯归咎于 AI 工具。这对工程文化提出了反思，强调流程治理重于工具限制。团队需引入自动化测试和严格 Review 机制，确保 AI 生成代码符合标准。盲目抵制 AI 无助于解决根本问题，提升工程素养才是关键。文章呼吁理性看待 AI 辅助编程，聚焦于流程优化而非工具本身。",
+    "tags": [
+      "Dev",
+      "Code Quality",
+      "Opinion"
+    ],
+    "link": "https://nadathurx.com/ai-slop-what-about-human-slop/",
+    "date": "2026-05-20",
+    "id": "17793142842746"
+  },
+  {
     "title": "新加坡携手 Google 与 OpenAI 共建 AI 生态",
     "summary": "新加坡与巨头达成合作，OpenAI 承诺投资 2.34 亿美元。",
     "detail": "新加坡政府与科技巨头 Google 及 OpenAI 签署重大 AI 合作协议，旨在强化当地人工智能生态系统。OpenAI 承诺向新加坡投资 2.34 亿美元，用于建立实验室及推动 AI 代理技术发展。此举标志着东南亚 AI 基础设施建设的显著加速，显示各国政府正积极争夺 AI 战略高地。随着资本涌入，预计将引发区域性的 AI 投资竞赛，为当地初创企业提供关键资金支持。同时可能影响全球 AI 地缘政治格局，凸显主权 AI 战略的重要性。企业需关注东南亚市场的新机遇与合规要求，这不仅是资本布局，更是技术主权的关键一步，可能改变亚太区 AI 算力分布。",
@@ -1207,96 +1298,5 @@
     "link": "https://techstackups.com/comparisons/gemini-vs-openai-vs-flux-vs-runway-character-consistency-may-2026/",
     "date": "2026-05-18",
     "id": "17791215707444"
-  },
-  {
-    "title": "Devin AI 推出自动故障分类新功能",
-    "summary": "Devin 发布 Auto-Triage 功能，可自动监控 bugs 并调查修复。",
-    "detail": "Devin 新功能可全天候监控 bug 与警报，自动调查并连接相关报告，甚至开启 PR。具备上下文记忆与去重能力，运行于安全沙盒环境。标志着 AI 工程师代理从辅助 coding 向自主维护代码库迈进的重要一步。已获 Modal 等技术团队认可，能整合 Slack、Linear 等工具，实现端到端的问题调查与解决，提升研发运维效率。",
-    "tags": [
-      "New",
-      "AI Agent",
-      "DevOps"
-    ],
-    "link": "https://devin.ai/auto-triage",
-    "date": "2026-05-18",
-    "id": "17791215707445"
-  },
-  {
-    "title": "特朗普盟友呼吁发布前强制测试 AI 模型",
-    "summary": "特朗普盟友呼吁发布前强制测试 AI 模型。",
-    "detail": "60 多名 MAGA 盟友联名致信特朗普，呼吁在发布前对最强大的 AI 模型进行强制测试和政府批准。由 Steve Bannon 等人组织，将 AI 比作核系统与航空安全，强调生物武器与基础设施风险。这与白宫目前的放任政策形成鲜明对比，标志着保守派内部对 AI 风险认知的分歧。此举可能迫使政府在安全与创新之间重新权衡，影响未来美国 AI 监管立法走向及全球政策风向。信件由 Humans First 组织，强调技术应服务人类，反映了公众对 AI 失控的深层担忧，可能引发立法听证。白宫内部观点相反，认为轻监管才能赢下 AI 竞赛，双方博弈将决定政策基调。",
-    "tags": [
-      "News",
-      "Policy",
-      "AI"
-    ],
-    "link": "https://www.axios.com/2026/05/18/trump-ai-steve-bannon-humans-first-letter",
-    "date": "2026-05-18",
-    "id": "17791077113410"
-  },
-  {
-    "title": "教皇发布 AI 时代通谕，强调保护人类",
-    "summary": "教皇发布 AI 时代通谕，强调保护人类。",
-    "detail": "教皇 Leo XIV 将于 5 月 25 日发布首份通谕《Magnifica Humanitas》，聚焦 AI 时代保护人类尊严。梵蒂冈新闻确认此举旨在引导技术服务于人而非替代人，强调技术应维护人类主体性。作为宗教领袖对 AI 伦理的最高级别发声，预计将在全球范围内引发关于 AI 道德边界与人本主义的深入讨论，为 AI 治理提供伦理框架参考。通谕将探讨 AI 对劳动、隐私及社会结构的影响，呼吁全球合作确保技术发展符合人类共同利益，具有深远文化影响力。这是天主教会对新兴技术最正式的回应，可能影响信众及政策制定者的伦理判断。",
-    "tags": [
-      "News",
-      "Ethics",
-      "AI"
-    ],
-    "link": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
-    "date": "2026-05-18",
-    "id": "17791077113411"
-  },
-  {
-    "title": "Anthropic 取消企业捆绑 Token，改用按量计费",
-    "summary": "Anthropic 取消企业捆绑 Token，改用按量计费。",
-    "detail": "Anthropic 正在淘汰企业捆绑 Token 模式，转向席位费加标准 API 费率。自 2025 年 11 月续订起生效，标志着 AI 行业从需求培育期进入成熟调价期。类似云服务和 SaaS 的发展历程，工程组织需重新评估 AI 工具的成本结构，调整预算以应对按量计费带来的支出波动。企业需优化 Token 使用策略，避免成本失控。此变化表明 AI 模型已成为基础设施，定价回归理性，开发者需更注重代码效率与调用优化，以控制运营成本。The Register 报道指出这是行业正常成熟曲线，企业需提前规划财务模型以适应新计费方式。",
-    "tags": [
-      "News",
-      "Pricing",
-      "Enterprise"
-    ],
-    "link": "https://articles.zimetic.com/the-end-of-cheap-ai-what-consumption-pricing-means-for-engineering-organizations/",
-    "date": "2026-05-18",
-    "id": "17791077113412"
-  },
-  {
-    "title": "利用 AI 代理自动发现修复代码性能问题",
-    "summary": "利用 AI 代理自动发现修复代码性能问题。",
-    "detail": "博客文章探讨如何利用 AI 代理自动发现并修复代码性能问题。结合 Profiler 火焰图与 SWE-bench 级模型能力，自动化调查代码路径瓶颈。虽基准测试表现良好，但实际项目仍有差距。此方法为工程团队提供了利用 AI 进行深度代码优化与重构的新思路，提升系统效率。开发者需掌握新工具链以最大化 AI 辅助价值。文章指出 AI 在理解复杂依赖关系上仍有局限，需人工介入验证，但大幅减少了初步排查时间，加速了性能调优流程。这是 AI 辅助软件工程系列文章之一，旨在探索企业级应用最佳实践。",
-    "tags": [
-      "Dev",
-      "Performance",
-      "Coding"
-    ],
-    "link": "https://p403n1x87.github.io/busting-performance-issues-ai-edition.html",
-    "date": "2026-05-18",
-    "id": "17791077113415"
-  },
-  {
-    "title": "推出个人 AI 记忆管理工具 ActingWeb",
-    "summary": "推出个人 AI 记忆管理工具 ActingWeb。",
-    "detail": "Show HN 项目 ActingWeb 推出个人 AI 记忆管理工具。支持跨 ChatGPT、Claude 等模型统一管理上下文。通过 Task Builder 系统化构建记忆，解决 AI 对话记忆碎片化问题。提供免费试用与订阅制，数据加密可控。为用户提供了持久化且可编辑的 AI 上下文解决方案，增强个人 AI 助理的连续性与个性化能力。产品支持 CSV 导入导出，兼容 MCP 协议，旨在让用户完全掌控 AI 记忆，避免厂商锁定，提升多模型协作效率与用户体验。定价为每月 9.95 美元，适合重度 AI 用户。",
-    "tags": [
-      "New",
-      "Product",
-      "Memory"
-    ],
-    "link": "https://ai.actingweb.io/",
-    "date": "2026-05-18",
-    "id": "17791077113417"
-  },
-  {
-    "title": "AI 订阅制终结：Anthropic 与 OpenAI 正式调整定价策略",
-    "summary": "6 月 15 日起，Anthropic 将区分交互与自动化 usage，终结无限订阅模式。",
-    "detail": "2026 年 5 月 14 日，Anthropic 与 OpenAI 相继宣布调整定价策略，标志着行业转折点。Anthropic 将于 6 月 15 日正式把 Claude 订阅分为交互与自动化两部分，后者将单独计费且不再包含在基础订阅中。这验证了此前关于 AI 订阅是“定时炸弹”的论点，意味着 AI 实验室补贴 compute 成本的“无限吃”时代彻底结束。企业基于 subsidized prices 构建的工作流将面临成本修正，需为 Agentic 工作流支付真实成本。行业竞争 aggression 显示当前模型难以维持，结构性变化已生效。",
-    "tags": [
-      "News",
-      "Pricing",
-      "Anthropic"
-    ],
-    "link": "https://www.thestateofbrand.com/news/ai-subscription-price-subsidiation-ending",
-    "date": "2026-05-18",
-    "id": "17790940548390"
   }
 ]
