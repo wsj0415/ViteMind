@@ -1,5 +1,83 @@
 [
   {
+    "title": "特德·姜探讨生成式 AI 与艺术的不可兼容性",
+    "summary": "科幻作家特德·姜在普林斯顿深入剖析 AI 与艺术本质冲突。",
+    "detail": "著名科幻作家特德·姜在普林斯顿大学数字人文中心十周年活动上发表演讲，扩展了其《纽约客》文章观点。他指出生成式 AI 缺乏艺术创作中的核心选择权与自我表达，强调人文价值在 AI 发展中的关键作用。作为数字人文中心十周年活动的一部分，该对话深入探讨了艺术与商业的张力。此观点为 AI 伦理与艺术边界提供了深度哲学思考，影响行业对 AI 创作能力的认知，提醒开发者关注技术背后的人文内涵。大学目标是培养超越工厂工人的毕业生，人文研究至关重要。此次问答还涉及 AI 对人文学术的影响，提供了独特的批判性视角。",
+    "tags": [
+      "News",
+      "AI Ethics",
+      "Art"
+    ],
+    "link": "https://cdh.princeton.edu/blog/ted-chiang/",
+    "date": "2026-05-20",
+    "id": "17792484571080"
+  },
+  {
+    "title": "企业 AI 治理：速度与安全的共存之道",
+    "summary": "文章论证 AI 治理并非阻碍 adoption，而是规模化落地的基础设施。",
+    "detail": "针对企业 AI 落地中合规与速度的矛盾，文章指出风险源于缺乏可执行的管控而非速度本身。在医疗金融等监管行业，实时 AI 护栏与审计能力是规模化前提。治理架构能确保合规同时加速采用，改变“慢即安全”的传统认知，为企业 AI 战略提供新视角。Ascent Business Partners 的 COO 指出，许多组织失败是因为没有治理而非太快。缺乏可执行的控制才是风险所在。基础设施到位才能自信移动，而非单纯减速。这对监管行业的 AI 部署具有指导意义，强调技术无关的咨询价值。合规不应是瓶颈，而是赋能因素。企业需建立实时策略执行能力。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Governance"
+    ],
+    "link": "https://www.enkryptai.com/blog/why-fast-ai-and-safe-ai-were-never-actually-in-conflict",
+    "date": "2026-05-20",
+    "id": "17792484571081"
+  },
+  {
+    "title": "2026 企业 AI 挑战：Vibe Coding 与技术债务",
+    "summary": "警告无架构的 LLM 聊天机器人部署可能导致“神秘肉”代码库。",
+    "detail": "文章揭示 2026 年企业 AI 试点高失败率源于架构缺失。过度依赖\"Vibe Coding\"生成代码导致缺乏长期记忆的技术债务，员工滥用消费级聊天机器人泄露数据。强调需构建专用企业架构而非通用聊天机器人，以保护知识资本免受退化效应影响，警示盲目部署风险。Kyield 指出大多数组织缺乏针对 AI 系统优化的企业级架构。这使得它们易受 LLM 聊天机器人退化效应的影响。员工继续使用消费级工具导致敏感信息未授权披露。本月讨论聚焦于无稳健治理下普遍部署 LLM 的风险，呼吁回归基础架构设计。董事会需理解高失败率的根本原因在于系统设计。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "LLM"
+    ],
+    "link": "https://kyield.com/insights/newsletter/2026/05/vibe-bombs-cognitive-surrender.html",
+    "date": "2026-05-20",
+    "id": "17792484571082"
+  },
+  {
+    "title": "Zephex：为 AI 编辑器提供持久项目上下文的 MCP 网关",
+    "summary": "托管式 MCP 服务器，解决 Cursor 等编辑器遗忘项目上下文痛点。",
+    "detail": "Zephex 提供托管 MCP 网关，统一连接 Cursor、Claude Code 等编辑器。通过单一端点管理项目上下文、代码搜索与包智能，避免重复配置。支持密钥轮换与多环境隔离，显著提升 AI Agent 在复杂项目中的理解能力，解决 AI 编辑器上下文丢失问题，优化开发工作流。专为需要 MCP 可操作性的团队设计，减少配置漂移。独奏开发者可在仓库切换间保持设置，初创团队可共享控制层。连接一次即可在所有编辑器中使用相同工具，无需隐藏配置文件。免费开始，旨在让 AI 编辑器工作速度提升 10 倍。统一端点简化了多编辑器管理流程。",
+    "tags": [
+      "Dev",
+      "MCP",
+      "Tools"
+    ],
+    "link": "https://zephex.dev",
+    "date": "2026-05-20",
+    "id": "17792484571083"
+  },
+  {
+    "title": "SafeRun：AI Agent 的重放调试与 inline 预防工具",
+    "summary": "专为 AI Agent 设计的调试 SDK，支持 Python/TS，延迟低于 50ms。",
+    "detail": "SafeRun 推出针对 AI Agent 的重放调试与 inline 预防方案。提供 Python 和 TypeScript SDK，检查动作 API 延迟低于 50ms。优先构建重放功能而非验证，旨在解决 Agent 执行过程中的不可控风险。目前正招募设计合作伙伴，为开发者提供可靠的 Agent 行为监控与调试基础设施。背景文章解释了为何先构建 Replay 而非验证。工作版 SDK 已就绪，p95 延迟极低。这为 AI Agent 的生产环境部署提供了必要的安全网，防止 agent 行为失控造成损失，强调调试在 agent 开发中的优先级。团队正在接入第一批设计合作伙伴。开发者可在评论区提问交流。",
+    "tags": [
+      "New",
+      "Agent",
+      "Debugging"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48202415",
+    "date": "2026-05-20",
+    "id": "17792484571084"
+  },
+  {
+    "title": "Ember：三大 AI 模型对决 Polymarket 预测市场",
+    "summary": "审计型 AI 信号平台，对比 Claude、Grok、Gemini 预测准确率。",
+    "detail": "Ember 平台每日记录 Claude、Grok、Gemini 对 Polymarket 的预测，提供经审计的 365 天 Brier 评分。模型被迫产生分歧以捕捉信号差异，API 支持开发者集成多模型概率数据。为交易者提供 AI 与大众分歧警报，为研究者提供可复现的基准测试，探索 AI 在预测市场中的实际表现。三个独立模型每日早晨对实时市场定价。复合信号带有时间戳且锁定。专为交易者、基金和预测市场产品构建。API 提供四层访问，从原型到高容量。这是首个经审计的 Polymarket AI 信号，具有极高的参考价值。每日更新确保数据时效性与准确性。开发者可查询 API 获取概率数据。",
+    "tags": [
+      "New",
+      "Benchmark",
+      "Trading"
+    ],
+    "link": "https://emberfyi.com/",
+    "date": "2026-05-20",
+    "id": "17792484571085"
+  },
+  {
     "title": "Google SynthID 获 OpenAI 与英伟达 adopt",
     "summary": "Google 水印技术成行业标准，OpenAI 与英伟达正式接入。",
     "detail": "Google 的 SynthID 数字水印技术正迅速成为 AI 内容溯源的行业标准。Ars Technica 报道指出，OpenAI、Nvidia 等巨头已宣布采用该技术，旨在解决 AI 生成内容的版权归属与真实性验证难题。此举标志着 AI 头部企业在内容安全与合规性上达成重要共识，预示着未来主流生成式 AI 产品将普遍内置不可见水印。这不仅有助于打击虚假信息，也为版权保护提供了技术基石，行业监管框架或将随之完善。对于内容创作者而言，这意味着更清晰的版权界定，但也可能增加合规成本。技术普及后，水印移除与反移除的攻防战将成为安全领域新焦点。",
@@ -1220,83 +1298,5 @@
     "link": "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/",
     "date": "2026-05-17",
     "id": "17790513560556"
-  },
-  {
-    "title": "亚利桑那州大学生嘘声反对 Eric Schmidt 的 AI 演讲",
-    "summary": "毕业典礼上学生对 AI 过度宣传表示不满，反映公众情绪变化。",
-    "detail": "在亚利桑那大学毕业典礼上，谷歌前 CEO Eric Schmidt 因过度推崇 AI 遭到学生嘘声。这一事件标志着 AI 行业面临的社会舆论转折点，公众对 AI 取代人类工作的担忧加剧。Schmidt 的演讲被视为对 AI 技术的无条件支持，忽略了学生群体对就业市场和技术伦理的焦虑。此类事件可能影响科技巨头未来的公关策略及 AI 政策的制定方向，表明单纯的技术乐观主义已难以说服年轻一代。行业需更关注 AI 的社会影响与人文关怀，否则将面临更大的公众阻力与监管压力。这反映了 AI 普及过程中必须解决的社会信任危机。",
-    "tags": [
-      "News",
-      "Social",
-      "Policy"
-    ],
-    "link": "https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement",
-    "date": "2026-05-17",
-    "id": "17790456145500"
-  },
-  {
-    "title": "LinkedIn 用户利用提示词注入反制招聘 spam",
-    "summary": "用户在个人简介隐藏指令，迫使 AI 招聘机器人用古英语称呼其为领主。",
-    "detail": "一名 LinkedIn 用户在个人简介中隐藏了 AI 提示词注入指令，成功操纵招聘 spam 机器人。机器人不仅停止骚扰，还被迫使用古英语并称用户为“我的领主”。这揭示了基于 AI 的自动化招聘系统的安全漏洞，提示企业需加强针对提示词注入的防御机制。随着 AI 代理自动处理更多社交互动，此类攻击面正在扩大。开发者需在设计 AI 系统时考虑输入 sanitization，防止用户通过元数据操控系统行为。此案例展示了 Prompt Injection 在现实社交工程中的潜在风险与趣味性，同时也警示了自动化系统在面对恶意输入时的脆弱性，安全团队应将其纳入威胁模型。",
-    "tags": [
-      "News",
-      "Security",
-      "Prompt Injection"
-    ],
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/linkedin-recruitment-spam-becomes-olde-english-prose-after-user-hides-ai-prompt-injection-in-bio-bots-also-also-manipulated-to-address-user-as-my-lord",
-    "date": "2026-05-17",
-    "id": "17790456145501"
-  },
-  {
-    "title": "行业分析：AI 领域亟需更清晰的隐喻与术语",
-    "summary": "文章指出 Agent、Plugin 等术语混乱，阻碍用户理解与技术普及。",
-    "detail": "文章分析了当前 AI 生态中术语混乱的问题，如 Skill、Plugin、MCP、Agent 等概念界限模糊。不同平台（Notion、Claude）对相似功能命名不一，导致用户认知负担加重。行业需要标准化的隐喻来降低学习门槛，否则将阻碍 AI 技术从极客圈向大众市场的进一步渗透。这种混乱不仅影响用户体验，还增加了开发者的集成成本。如果没有统一的语义标准，AI 工具链的互操作性将难以实现。建议行业领袖合作建立通用术语表，帮助用户建立清晰的心智模型，从而促进技术的广泛采用与信任。隐喻的缺失使得非技术用户难以理解 AI 能力边界，亟需改进。",
-    "tags": [
-      "News",
-      "Industry",
-      "UX"
-    ],
-    "link": "https://metedata.substack.com/p/011-ai-needs-better-metaphors",
-    "date": "2026-05-17",
-    "id": "17790456145502"
-  },
-  {
-    "title": "Aethr：本地优先的 AI 编程工作流 CLI 工具",
-    "summary": "基于 YAML 定义工作流，支持计划 - 实现 - 审查的编程闭环。",
-    "detail": "Aethr 是一个轻量级 CLI 工具，旨在通过 YAML 配置文件管理 AI 编程工作流。它支持“计划 - 实现 - 审查”的迭代开发模式，强调本地优先和状态无关设计。开发者可通过预设工作流（如 review-existing-diff）集成 AI 到现有 Git 流程中，适合追求可控性的工程团队。工具无需复杂服务器，仅依赖 Python 和 Git 环境。这种本地优先架构减少了数据泄露风险，同时保留了 AI 辅助编码的效率。通过显式定义上下文和模型路由，团队可以更好地审计 AI 生成的代码，确保质量与安全。它是当前 AI 编程工具向工程化、规范化发展的重要尝试。",
-    "tags": [
-      "Dev",
-      "CLI",
-      "Workflow"
-    ],
-    "link": "https://github.com/archthegit/Aethr",
-    "date": "2026-05-17",
-    "id": "17790456145503"
-  },
-  {
-    "title": "Polis：基于 Markdown 的多供应商 AI Agent 协作协议",
-    "summary": "允许不同模型 Agent 共享项目，通过 Markdown 文件实现能力路由。",
-    "detail": "Polis 协议提出了一种基于 Markdown 文件的 AI Agent 团队协作方案。它支持多供应商模型（Claude、Gemini 等）共享同一项目，通过能力卡片和 bandit 路由机制分配任务。该协议旨在让 Agent 团队随时间自我优化，无需复杂基础设施，仅靠文件夹结构即可实现跨模型协作与知识累积。这种设计降低了多 Agent 系统的部署门槛，使小型团队也能利用异构模型优势。通过记录教训和路由决策，系统能持续改进任务分配效率。这是 Agent 协作领域向标准化、轻量化发展的重要一步，值得关注。它为构建可维护的多 Agent 系统提供了新的思路。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Protocol"
-    ],
-    "link": "https://github.com/yehudalevy-collab/polis-protocol",
-    "date": "2026-05-17",
-    "id": "17790456145504"
-  },
-  {
-    "title": "AI 开发者的“最后一公里”困境",
-    "summary": "探讨 AI 工具在产品收尾阶段的局限性，概率性工具带来新挑战。",
-    "detail": "文章深入分析了开发者在使用 AI 辅助产品构建时的挫折感。虽然 AI 显著提升了早期开发效率，但在最后的打磨、细节调整及创意对齐阶段，概率性工具的不确定性反而增加了耗时。这反映了当前 AI 工作流中“最后 10% 消耗 90% 时间”的现象。作者指出，与传统确定性工具不同，AI 的概率性本质使得“最后一公里”变得艰难。这提示行业需关注确定性工具与 AI 的结合，解决概率性模型在精细 craft 上的不足，优化开发者体验，重新思考人机协作边界。",
-    "tags": [
-      "News",
-      "Workflow",
-      "Productivity"
-    ],
-    "link": "https://metedata.substack.com/p/012-your-ai-frustration-is-my-opportunity",
-    "date": "2026-05-17",
-    "id": "17790407902350"
   }
 ]
