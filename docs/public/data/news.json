@@ -1,5 +1,70 @@
 [
   {
+    "title": "Spotify 发布多项 AI 功能对标 Google NotebookLM",
+    "summary": "推出 ElevenLabs 有声书工具、播客 AI 问答及桌面研究应用。",
+    "detail": "Spotify 宣布多项 AI 战略更新，包括与 ElevenLabs 合作推出有声书创作工具，并为播客添加 AI 问答及简报生成功能。此外，发布新款桌面应用直接竞争 Google NotebookLM，允许用户基于提示词生成每日简报，目前在 20 多个市场开放研究预览。标志着音频流媒体向 AI 生产力平台的重大转型，利用现有内容库构建个性化体验。",
+    "tags": [
+      "News",
+      "Audio",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/",
+    "date": "2026-05-21",
+    "id": "17793774258640"
+  },
+  {
+    "title": "开源工具 Veil 防止 AI 编程代理泄露密钥",
+    "summary": "本地 HTTPS 代理，用占位符替换真实凭证保护秘密。",
+    "detail": "针对 AI 编程代理可能泄露敏感信息的问题，开发者推出了开源工具 Veil。它作为本地 HTTPS 代理运行，在網絡边界将真实凭证替换为占位符发送给 AI，仅在请求发出时注入真实密钥。被称为\"AI 代理的.gitignore\"，有效增强了使用 AI 编码时的安全性，防止凭证意外泄露，支持 Go 语言环境，适合重视安全的开发团队。",
+    "tags": [
+      "Dev",
+      "Security",
+      "OpenSource"
+    ],
+    "link": "https://github.com/getveil/veil",
+    "date": "2026-05-21",
+    "id": "17793774258641"
+  },
+  {
+    "title": "企业 AI 支出激增但演示文稿效率未见提升",
+    "summary": "分析 2 亿美元 AI 投资为何未能解决企业幻灯片痛点。",
+    "detail": "行业分析指出，尽管大型企业 AI 支出预计达 2.07 亿美元，但 ROI 转化率极低。特别是在企业演示文稿领域，存在巨大的投资与生产力差距。数据显示 54% 的组织正在部署 AI 代理，但仅 8% 看到回报。文章探讨了为何 AI 尚未真正解决核心办公场景的效率问题，揭示落地挑战与工具匹配度的重要性，呼吁关注实际产出。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "ROI"
+    ],
+    "link": "https://octigen.com/blog/posts/2026-05-11-ai-presentation-gap/",
+    "date": "2026-05-21",
+    "id": "17793774258642"
+  },
+  {
+    "title": "Vercel 发布 AI Gateway 生产环境指数报告",
+    "summary": "提供 AI 网关在生产环境中的性能与采用率指标参考。",
+    "detail": "Vercel 博客更新了 AI Gateway 生产指数，为开发者提供关于 AI 模型端点在生产环境中的使用情况参考。作为 AI 基础设施的重要观测指标，该报告有助于团队优化 AI 应用的部署架构与成本效率。涵盖了 AI Cloud、Sandbox 及 Agent 等产品的生产环境表现数据，帮助开发者监控流量与延迟，提升系统稳定性。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "Vercel"
+    ],
+    "link": "https://vercel.com/blog/ai-gateway-production-index",
+    "date": "2026-05-21",
+    "id": "17793774258643"
+  },
+  {
+    "title": "新工具 Scaffold 优化 Claude Code 提示词规划",
+    "summary": "生成结构化构建计划与提示词包，解决氛围编程乱象。",
+    "detail": "针对“氛围编程”中指令混乱的问题，新工具 Scaffold 提供应用规划服务。用户回答 6 个问题后，生成包含屏幕地图、数据模型的技术栈计划及序列化提示词包。提供免费计划预览及付费提示词包（15 美元起），帮助开发者更有效地指挥 AI 编程，避免代码 spaghetti 化，支持不同技能水平的开发者，提升构建效率。",
+    "tags": [
+      "New",
+      "DevTools",
+      "Coding"
+    ],
+    "link": "https://www.runscaffold.com/",
+    "date": "2026-05-21",
+    "id": "17793774258644"
+  },
+  {
     "title": "AMD 发布 Ryzen AI Max Pro 400 支持 192GB 内存",
     "summary": "AMD 推出新款 AI 芯片，最大支持 192GB 内存，强化本地 AI 算力。",
     "detail": "AMD 预览 Ryzen AI Max PRO 400 系列，基于 Strix Halo 架构，配备 16 个 Zen 5 核心及 RDNA 3.5 核显。最大亮点是支持 192GB LPDDR5X 内存，显著提升本地大模型推理能力。系统预计第三季度出货，为边缘 AI 和高性能工作站提供更强硬件基础，竞争 AI PC 市场。大内存允许运行更大参数模型，减少云依赖。此举将推动本地 AI 应用爆发，如隐私敏感型数据处理和离线智能助手。硬件厂商正加速优化内存带宽以匹配 NPU 算力，预计将引发新一轮 AI 工作站升级潮，开发者可期待更流畅的本地开发体验。",
@@ -1233,70 +1298,5 @@
     "link": "https://arxiv.org/abs/2605.17909",
     "date": "2026-05-19",
     "id": "17791670720503"
-  },
-  {
-    "title": "UpscaleHero 推出批量 AI 图像超分工具，每日免费使用",
-    "summary": "基于 Real-ESRGAN 的批量图像处理工具，支持 ZIP 上传，无水印免费试用。",
-    "detail": "UpscaleHero 发布面向电影制作人和创作者的批量 AI 超分工具。基于 Real-ESRGAN 引擎，支持 Apple Silicon GPU 加速。核心功能是真正的批量处理，提供 2 倍或 4 倍分辨率提升。每日提供 2 次免费无水印超分，无需信用卡。对于需要处理大量素材的视频工作流，这是一个高效且低成本的解决方案，并提供 API 接入。所有文件本地处理且隔离，确保素材不被用于训练。这种隐私保护机制对于商业制片公司至关重要，避免了版权泄露风险。浏览器即可使用，无需安装软件，大幅提升了工作流灵活性。支持 REST API 自动化集成，适合嵌入现有制片管线。相比 Photoshop 等传统工具，其在保持细节的同时显著降低了算力成本。对于电商、房地产摄影等高频需求场景，该工具提供了工业级的批量处理能力，是创作者经济基础设施的有益补充。",
-    "tags": [
-      "New",
-      "Image",
-      "Tool"
-    ],
-    "link": "https://upscalehero.com/",
-    "date": "2026-05-19",
-    "id": "17791670720504"
-  },
-  {
-    "title": "SandboxAQ 携手 Claude 降低药物发现门槛",
-    "summary": "SandboxAQ 将药物发现模型集成至 Claude，无需计算博士学位即可使用。",
-    "detail": "SandboxAQ 宣布将其先进的药物发现模型集成到 Anthropic 的 Claude 中。此举旨在大幅降低药物研发门槛，使非计算专家也能利用 AI 进行分子设计和筛选。核心技术涉及量子启发式 AI 模型与大语言模型的深度结合，无需用户具备计算博士学位即可操作。行业影响深远，这可能加速生物制药领域的 AI 普及，显著降低研发成本与时间周期。对于制药公司而言，这意味着更快的候选药物识别能力，同时也引发了关于 AI 在关键科学领域自主性与准确性的广泛讨论。此合作标志着 AI 从辅助工具向核心研发伙伴的转变。",
-    "tags": [
-      "News",
-      "Biotech",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/",
-    "date": "2026-05-18",
-    "id": "17791420002500"
-  },
-  {
-    "title": "Needle-rs：浏览器端 258KB WASM 实现 AI 函数调用",
-    "summary": "纯 Rust 运行时 Needle-rs 实现浏览器端本地 AI 代理，仅需 258KB WASM。",
-    "detail": "Needle-rs 推出了一款仅在浏览器端运行的 AI 代理工具，基于 2600 万参数的 Transformer 模型。核心优势在于无需服务器、API 密钥或数据外传，完全本地化执行，保障用户隐私。技术栈涉及 WebAssembly 和纯 Rust 运行时，体积仅 258KB，加载迅速。这对隐私敏感的 AI 应用开发具有重大意义，展示了边缘侧 AI 推理的巨大潜力。开发者可直接在前端集成工具调用功能，显著降低后端依赖与成本。此技术可能推动客户端智能应用的爆发，改变 AI 部署架构。",
-    "tags": [
-      "Dev",
-      "WASM",
-      "Privacy"
-    ],
-    "link": "https://needle-rs.pages.dev/",
-    "date": "2026-05-18",
-    "id": "17791420002502"
-  },
-  {
-    "title": "新论文揭示 AI 话语可能导致自我实现的错位",
-    "summary": "arXiv 新论文指出 AI  discourse 可能引发自我实现的（ mis）alignment 问题。",
-    "detail": "这篇 arXiv 论文探讨了 AI 对齐预训练中的新现象，指出关于 AI 的公共话语可能反过来影响模型的对齐状态，导致自我实现的错位。研究分析了 discourse 如何成为 self-fulfilling prophecy，影响模型行为。核心技术点涉及预训练数据与对齐目标的复杂相互作用。这对 AI 安全研究提供了新视角，提示开发者需关注训练数据中的社会话语影响，避免偏见固化。未来对齐研究需纳入社会语言学因素，以确保模型行为与人类价值观的真实一致，而非仅仅匹配话语表象。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Safety"
-    ],
-    "link": "https://arxiv.org/abs/2601.10160",
-    "date": "2026-05-18",
-    "id": "17791420002503"
-  },
-  {
-    "title": "深度分析：AI 泡沫破裂或因 AI 过于真实而非虚假",
-    "summary": "最新系列文章指出 AI 泡沫若破裂，将因技术变革过快而非技术虚假。",
-    "detail": "该系列文章 prefacing 提出独特观点：AI 泡沫风险不在于技术虚假，而在于技术重塑地图的速度超过市场定价能力。分析了资本流向与成熟经济形成的时间差，指出 crash 可能是重新定价而非否定。核心论点涉及 AI 效用已真实存在，但所有权结构未定。这对投资者理解 AI 市场周期具有重要参考价值，建议关注长期权力结构而非短期赢家。市场需区分网关与目的地，避免混淆早期赢家与 durable winners。此分析为应对潜在市场波动提供了理论框架。",
-    "tags": [
-      "News",
-      "Market",
-      "Analysis"
-    ],
-    "link": "https://rebecca-powell.com/posts/return-on-intelligence-the-preface/",
-    "date": "2026-05-18",
-    "id": "17791420002504"
   }
 ]
