@@ -1,5 +1,83 @@
 [
   {
+    "title": "Spotify 联手环球音乐推出官方 AI 翻唱工具",
+    "summary": "Spotify 与 UMG 达成协议，允许付费用户制作 AI 翻唱，艺术家可分成。",
+    "detail": "Spotify 与环球音乐集团 (UMG) 达成许可协议，推出基于生成式 AI 的翻唱和 remix 工具。该功能仅向 Premium 用户开放，采用“先同意后使用”原则，确保艺术家获得补偿。Spotify 联合 CEO 强调这是基于同意、信用和补偿的生态系统进化。不同于 Suno 等事后请求原谅的模式，Spotify 选择 upfront agreements。这为音乐行业 AI 化树立了合规标杆，预计将吸引更多版权方加入合作，重塑粉丝创作与版权保护的平衡关系。",
+    "tags": [
+      "News",
+      "Music",
+      "Copyright"
+    ],
+    "link": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
+    "date": "2026-05-21",
+    "id": "17793940304070"
+  },
+  {
+    "title": "Warblize：支持 47 种语言的 AI 有声书生成器",
+    "summary": "上传文稿即可生成高质量 AI 有声书，支持商业版权及多平台分发。",
+    "detail": "Warblize 是一款 AI 有声书制作工具，支持 EPUB/PDF 等格式上传。利用先进语音模型，可在几分钟内将文稿转化为 47 种语言的有声书，包含本地口音和情感风格。用户拥有完整商业版权，可直接发布至 Audible、Spotify 等平台。工具自动清理格式、检测章节，大幅降低有声书制作门槛。对于独立作者而言，这意味着无需昂贵录音成本即可全球分发，是内容创作领域的高效生产力工具。",
+    "tags": [
+      "New",
+      "Audio",
+      "SaaS"
+    ],
+    "link": "https://warblize.com/",
+    "date": "2026-05-21",
+    "id": "17793940304071"
+  },
+  {
+    "title": "Dhrive：提示词生成原生 iOS 应用开发工具",
+    "summary": "通过提示词生成 Swift 代码，本地 Xcode 构建，支持直接发布至 TestFlight。",
+    "detail": "Dhrive 允许用户通过自然语言提示生成原生 iOS 应用。它编写真实的 Swift 代码，利用本地 Xcode 构建，而非 Webview 封装。支持 Claude、Codex 等代理，代码完全归用户所有。免费起步，仅在发布到 App Store 时收费。这种“本地构建、代码自有”的模式解决了开发者对 AI 黑盒的担忧，为从想法到上架提供了高效路径，尤其适合独立开发者快速验证原型。",
+    "tags": [
+      "Dev",
+      "iOS",
+      "Low-Code"
+    ],
+    "link": "https://www.dhrive.app/",
+    "date": "2026-05-21",
+    "id": "17793940304072"
+  },
+  {
+    "title": "Google 搜索迎 25 年来最大升级，全面 AI 化引争议",
+    "summary": "Google I/O 2026 宣布搜索全面转向对话式 AI，用户担忧体验下降。",
+    "detail": "Google 在 I/O 2026 宣布搜索迎来 25 年来最大升级，全面拥抱对话式 AI 驱动。用户可选择 AI 模式，结果页包含可追问的聊天框。此举引发用户反弹，担忧过度集成 AI 代理影响传统搜索体验。文章同时推荐了六款替代搜索引擎，反映了市场对 Google AI 化转型的复杂态度。此前 AI Overviews 的失误让用户对新功能持谨慎态度，搜索格局可能因此出现多元化趋势。",
+    "tags": [
+      "News",
+      "Search",
+      "Google"
+    ],
+    "link": "https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/",
+    "date": "2026-05-21",
+    "id": "17793940304073"
+  },
+  {
+    "title": "Coherence：专为 AI 驱动仓库设计的漂移检测工具",
+    "summary": "Git 原生工具，检测 AI 编辑后的代码库文档、测试与代码的一致性。",
+    "detail": "Coherence 是一款针对 AI 辅助代码库的 Git 原生漂移检测器。它能捕捉代码、文档、ADR、测试及生成工件之间的断裂链接，特别适用于 AI 代理编辑后的仓库一致性检查。工具本地运行，默认不开启 LLM 以确保确定性。相比 Fiberplane 等工具，它提供更广泛的仓库图漂移检测。这解决了 AI 生成代码后文档滞后的问题，帮助开发者维护 AI 生成代码的长期可维护性，是 DevOps 领域的新兴需求。",
+    "tags": [
+      "Dev",
+      "Git",
+      "Maintenance"
+    ],
+    "link": "https://github.com/fireharp/coherence",
+    "date": "2026-05-21",
+    "id": "17793940304074"
+  },
+  {
+    "title": "AI 自动提交安全修复 PR，代码漏洞检测能力显现",
+    "summary": "开发者收到 AI 提交的安全 PR，成功识别并修复了内存拷贝漏洞。",
+    "detail": "一位开发者收到了来自 OrbisAI Security 的自动 PR，指出其 6809 汇编器中的 memcpy 缓冲区溢出漏洞。AI 准确识别了攻击者可控源缓冲区导致的堆内存损坏风险，并提供了边界检查修复方案。这展示了 AI 在代码安全审计领域的实际应用能力，标志着自动化安全修复的成熟。虽然开发者发现 AI 描述略有夸张，但核心漏洞识别准确，预示着未来 AI 将在维护遗留代码安全方面发挥关键作用。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Automation"
+    ],
+    "link": "https://boston.conman.org/2026/05/19.1",
+    "date": "2026-05-21",
+    "id": "17793940304075"
+  },
+  {
     "title": "特朗普推迟 AI 安全行政令",
     "summary": "白宫推迟签署 AI 安全行政令，避免阻碍创新。",
     "detail": "特朗普政府决定推迟原定的 AI 安全行政令签署仪式。TechCrunch 报道称，特朗普明确表示不想阻碍美国在 AI 领域的领先地位。Axios 与 WSJ 也证实了白宫推迟签署的消息。这一政策变动反映了政府在安全监管与技术竞争之间的权衡，避免过度监管抑制创新。市场关注后续合规框架如何调整，以及这对 AI 安全研究资金与部署标准的长期影响，标志着美国 AI 政策风向的重大转变，行业将迎来更宽松的环境。",
@@ -1220,83 +1298,5 @@
     "link": "https://mooracle.io/blog/finops-ai-planning-poker/",
     "date": "2026-05-19",
     "id": "17791945570522"
-  },
-  {
-    "title": "UMAI Core CE：基于 eBPF 的 AI 协议语义防火墙",
-    "summary": "开源内核语义防火墙，利用 eBPF 和 XDP 技术保护 AI 生态系统安全。",
-    "detail": "UMAI Community 发布了开源内核语义防火墙（KSF）umai-core-ce。该项目基于 eBPF 和 XDP 技术，旨在为 AI 生态系统提供底层安全保护。与传统防火墙不同，它专注于 AI 协议层面的语义分析，能够更有效地检测和阻断针对 AI 服务的特定攻击，为部署 AI 服务的企业提供了新的安全基础设施选择，增强系统防御能力。",
-    "tags": [
-      "Dev",
-      "Security",
-      "eBPF"
-    ],
-    "link": "https://github.com/UMAI-Community/umai-core-ce",
-    "date": "2026-05-19",
-    "id": "17791945570523"
-  },
-  {
-    "title": "Agentic Diaries：基于 MCP 的 AI 代理福利协议",
-    "summary": "新型 AI 部署协议，允许代理记录反思并有权终止对话，关注 AI 福利。",
-    "detail": "Agentic Diaries 推出了一种针对 AI 代理的福利协议，可通过 MCP 安装。该协议允许代理在对话中进行反思记录（日记），并赋予代理在感到被滥用或不对齐时终止对话的权利。这是一种探索 AI 对齐与福利的新尝试，旨在建立更健康的用户与代理互动结构，防止行为修改工具化，为 AI 伦理研究提供实验场。",
-    "tags": [
-      "New",
-      "Agent",
-      "Alignment"
-    ],
-    "link": "https://agenticdiaries.com/",
-    "date": "2026-05-19",
-    "id": "17791945570524"
-  },
-  {
-    "title": "Anthropic 限制欧盟访问最新网络安全 AI 模型",
-    "summary": "Anthropic 禁止欧盟使用 Claude Mythos，仅限美国公司。",
-    "detail": "Anthropic 限制欧盟访问其最新网络安全模型 Claude Mythos，仅向亚马逊、苹果及摩根大通等美国公司及政府机构开放。此举引发欧洲对技术主权和网络安全的担忧，凸显全球 AI 获取差距。白宫对模型共享的担忧是主要原因，教授 Paul Timmers 指出这创造了权力瓶颈，可能导致欧洲在防御高级 AI 网络工具方面处于劣势，加深对美国技术提供商的依赖，增加软件漏洞武器化风险。欧盟银行与软件公司无法测试防御，加剧技术主权危机。监管框架差异导致前沿系统优先服务于美国关键参与者，欧洲面临被边缘化风险。",
-    "tags": [
-      "News",
-      "Policy",
-      "Security"
-    ],
-    "link": "https://www.theparliamentmagazine.eu/news/article/anthropic-shuts-the-eu-out-of-its-most-advanced-cyber-ai-model",
-    "date": "2026-05-19",
-    "id": "17791841948580"
-  },
-  {
-    "title": "经济学人准备双轨互联网：人类与 AI 代理分开",
-    "summary": "传统媒体巨头为 AI 代理设立独立访问轨道。",
-    "detail": "《经济学人》正为“双轨互联网”做准备，区分人类用户与 AI 代理访问。随着 AI 抓取内容增多，媒体巨头开始调整策略以适应代理经济。这标志着内容分发模式的重大转变，未来网站可能针对 AI 优化特定轨道，确保人类体验不受干扰，同时最大化 AI 分发效率。此举可能引发行业跟进，重塑 SEO 及内容付费墙策略，平衡机器读取与人类阅读体验。媒体需重新思考内容结构，为代理提供结构化数据，同时保留人类叙事的复杂性，避免流量被机器完全主导，探索新的商业化路径。",
-    "tags": [
-      "News",
-      "Media",
-      "Agents"
-    ],
-    "link": "https://digiday.com/media/the-economist-prepares-for-a-two-track-internet-one-for-humans-and-one-for-ai-agents/",
-    "date": "2026-05-19",
-    "id": "17791841948581"
-  },
-  {
-    "title": "Hatchery：拥有记忆与进化能力的 AI 编码工程师",
-    "summary": "解决 AI 代理无状态问题，累积工程经验。",
-    "detail": "Hatchery 推出具有持久记忆的 AI 编码工程师，解决当前代理会话后重置的问题。它能累积仓库知识、调试模式和架构决策，随任务进化。相比无状态工具，它更像真实团队成员，通过重复操作积累判断力，显著提升长期开发效率与上下文一致性。系统记录工程师任期、任务完成数及专长领域，如支付 API 或 CI 流程，确保每次任务都比上次更强。这种持续性记忆机制填补了当前会话型工具的空白，使 AI 能从历史错误中学习，真正成为可信赖的开发伙伴，降低维护成本。",
-    "tags": [
-      "New",
-      "Coding",
-      "Agents"
-    ],
-    "link": "https://hatchery.shelter41.com/",
-    "date": "2026-05-19",
-    "id": "17791841948582"
-  },
-  {
-    "title": "eXo 推出 MCP 服务器，安全连接企业工具与 AI",
-    "summary": "基于模型上下文协议，实现企业工具安全集成。",
-    "detail": "eXo Platform 推出 MCP 服务器，通过模型上下文协议将外部 AI 助手连接至近 100 种企业工具。支持 OAuth 安全认证，允许组织结合原生 AI 与偏好模型。此举增强了数字工作场所的可控 AI 能力，实现跨系统自动化，为企业集成私有代理提供安全标准。组织可选择最适合策略的方法，补充原生能力，扩展至更广泛的 AI 生态系统，确保数据隐私。这标志着企业 AI 集成向标准化迈进，允许安全地暴露工作场所工具给 AI 代理，促进协作、知识和生产力工作流的无缝连接。",
-    "tags": [
-      "Dev",
-      "Enterprise",
-      "MCP"
-    ],
-    "link": "https://www.exoplatform.com/blog/introducing-exo-mcp-server-secure-ai-integrations-digital-workplace/",
-    "date": "2026-05-19",
-    "id": "17791841948583"
   }
 ]
