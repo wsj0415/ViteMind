@@ -1,5 +1,31 @@
 [
   {
+    "title": "AI 正在终结廉价智能手机时代",
+    "summary": "文章分析 AI 算力需求如何推高硬件成本，导致廉价智能手机市场萎缩。",
+    "detail": "随着端侧 AI 模型对算力要求的提升，传统廉价智能手机的硬件架构难以支撑。文章指出，过去几十年计算设备成本大幅下降的趋势可能因 AI 而逆转。这对全球数字包容性构成挑战，迫使硬件厂商在成本与 AI 性能之间寻找新平衡，可能加速低端市场的洗牌，影响发展中国家用户的设备获取能力。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Market"
+    ],
+    "link": "https://davidoks.blog/p/ai-is-killing-the-cheap-smartphone",
+    "date": "2026-05-21",
+    "id": "17794020999881"
+  },
+  {
+    "title": "web-ai-sdk：构建浏览器原生 AI 应用的基石",
+    "summary": "发布专为 Web 内置 AI API 设计的 SDK，支持 WebMCP 协议与流式处理。",
+    "detail": "该 SDK 为开发者提供了调用浏览器原生 AI 模型的标准化方案，无需运行时依赖。核心特性包括会话复用、流式输出及 AbortSignal 生命周期管理。支持 TypeScript 和 React Hooks，旨在简化 WebMCP 工具注册与代理开发。这对于构建本地化、低延迟的 Web AI 应用具有重要参考价值，降低了浏览器端智能开发的门槛。",
+    "tags": [
+      "Dev",
+      "SDK",
+      "Web"
+    ],
+    "link": "https://web-ai-sdk.dev/",
+    "date": "2026-05-21",
+    "id": "17794020999882"
+  },
+  {
     "title": "Spotify 联手环球音乐推出官方 AI 翻唱工具",
     "summary": "Spotify 与 UMG 达成协议，允许付费用户制作 AI 翻唱，艺术家可分成。",
     "detail": "Spotify 与环球音乐集团 (UMG) 达成许可协议，推出基于生成式 AI 的翻唱和 remix 工具。该功能仅向 Premium 用户开放，采用“先同意后使用”原则，确保艺术家获得补偿。Spotify 联合 CEO 强调这是基于同意、信用和补偿的生态系统进化。不同于 Suno 等事后请求原谅的模式，Spotify 选择 upfront agreements。这为音乐行业 AI 化树立了合规标杆，预计将吸引更多版权方加入合作，重塑粉丝创作与版权保护的平衡关系。",
@@ -910,6 +936,19 @@
     "id": "17792484571085"
   },
   {
+    "title": "AI 辅助工程师正面临职业倦怠危机",
+    "summary": "行业调查显示，AI 编码工具虽提升效率，却导致工程师倦怠感加剧。",
+    "detail": "尽管 AI 提高了代码生成速度，但“氛围编码”转变为“末日编码”，增加了心理负担。文章指出 AI 工作流隐藏的成本是职业倦怠，开发者需恢复工作乐趣以维持可持续性。这揭示了 AI 生产力背后的社会问题，呼吁行业关注开发者心理健康与工作节奏的平衡，避免过度依赖自动化导致的人才损耗。",
+    "tags": [
+      "News",
+      "Culture",
+      "Developer"
+    ],
+    "link": "https://evilmartians.com/chronicles/ai-assisted-engineers-are-burning-out-is-this-fine",
+    "date": "2026-05-19",
+    "id": "17794020999883"
+  },
+  {
     "title": "行业观点：AI 生成的软件难以商业化",
     "summary": "博客文章指出 AI 编写软件缺乏问题理解，如同通往虚无的楼梯，难以出售。",
     "detail": "该文章批评了当前 AI 生成代码的趋势。作者认为，AI 编写的软件虽然表面光滑，但缺乏对业务逻辑的深刻理解，如同“通往虚无的楼梯”。开发者若不懂问题本质，仅靠 LLM 生成代码，无法提供真正解决方案。这对依赖 AI 编程的初创公司敲响警钟，强调人类专业知识在软件开发中的不可替代性，指出单纯堆砌 AI 代码无法创造商业价值。",
@@ -1259,44 +1298,5 @@
     "link": "https://arxiv.org/abs/2511.00739",
     "date": "2026-05-19",
     "id": "17792077686064"
-  },
-  {
-    "title": "谷歌联手黑石打造 AI 云厂商，自研芯片加持",
-    "summary": "谷歌与黑石合作成立 AI 云公司，将使用自研芯片，重塑云计算格局。",
-    "detail": "彭博社报道，谷歌与黑石集团计划共同创建一家 AI 云公司，并将采用自研芯片。这一举措标志着科技巨头与资本巨头在 AI 基础设施领域的深度绑定。自研芯片旨在降低对 NVIDIA 等供应商的依赖，优化成本与性能。此举可能加剧云市场竞争，推动 AI 算力基础设施的垂直整合趋势，为行业提供新的算力供应选择。",
-    "tags": [
-      "News",
-      "Google",
-      "Cloud"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-05-19/google-to-create-ai-cloud-business-with-blackstone-wsj-says",
-    "date": "2026-05-19",
-    "id": "17791945570520"
-  },
-  {
-    "title": "如何构建私有 AI 基准测试以避免数据污染",
-    "summary": "公开基准测试存在数据污染风险，建议团队构建私有基准评估模型真实性能。",
-    "detail": "文章指出 MMLU 等公开基准测试因数据 contamination 导致模型分数虚高，无法反映真实工作能力。厂商优化测试而非能力的现象普遍。建议团队针对自身工作流（代码生成、API 设计等）构建私有基准，建立基线，以便准确评估模型更新带来的实际影响，避免被厂商宣传误导，确保 AI 工具在实际生产中的可靠性。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Benchmark"
-    ],
-    "link": "https://theendofcoding.com/blog/how-to-build-ai-benchmarks",
-    "date": "2026-05-19",
-    "id": "17791945570521"
-  },
-  {
-    "title": "AI 开发 FinOps 实践：按提交记录 attribution 成本",
-    "summary": "解决 AI 辅助开发成本不透明问题，建议将 Token 成本关联至具体 Git 提交。",
-    "detail": "针对 AI 辅助开发中成本难以追踪的问题，文章提出将 API Token 消耗与 Git Commit 关联的 FinOps 实践。目前 AI 成本多以总额呈现，无法区分具体功能消耗。通过工具将 API 响应数据与 git log 结合，可实现按功能或 PR 核算成本，帮助团队优化高成本环节，实现更精细化的 AI 工程化管理，避免资源浪费。",
-    "tags": [
-      "Dev",
-      "FinOps",
-      "Engineering"
-    ],
-    "link": "https://mooracle.io/blog/finops-ai-planning-poker/",
-    "date": "2026-05-19",
-    "id": "17791945570522"
   }
 ]
