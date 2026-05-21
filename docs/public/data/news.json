@@ -1,5 +1,83 @@
 [
   {
+    "title": "谷歌取代 OpenAI 成消费级 AI 之王",
+    "summary": "经济学人报道谷歌在消费 AI 领域超越 OpenAI，标志行业格局变化。",
+    "detail": "**背景**：《经济学人》最新文章指出谷歌正在取代 OpenAI 成为消费级 AI 的领导者。\n**核心点**：凭借整合搜索、Android 生态及 Gemini 模型进步，谷歌在用户覆盖和应用场景上展现优势。\n**影响**：这标志着 AI 竞争从单纯模型能力转向生态整合与落地能力，OpenAI 面临严峻挑战，行业巨头博弈进入新阶段。",
+    "tags": [
+      "News",
+      "Google",
+      "OpenAI"
+    ],
+    "link": "https://www.economist.com/business/2026/05/20/google-is-dethroning-openai-as-the-king-of-consumer-ai",
+    "date": "2026-05-21",
+    "id": "17793353213890"
+  },
+  {
+    "title": "WordPress 7.0 内置 provider-agnostic AI 客户端",
+    "summary": "WP 7.0 核心更新引入 AI 客户端 API，统一插件调用 AI 模型接口。",
+    "detail": "**背景**：WordPress 7.0 核心版本更新，正式引入内置 AI Client。\n**技术点**：提供 provider-agnostic PHP API (`wp_ai_client_prompt`)，插件可描述需求而非指定模型，由站点所有者配置路由。\n**影响**：降低了插件开发 AI 功能的门槛，统一了生态内的 AI 交互标准，推动 CMS 系统智能化升级，开发者无需硬编码特定厂商 API。",
+    "tags": [
+      "Dev",
+      "WordPress",
+      "API"
+    ],
+    "link": "https://make.wordpress.org/core/2026/03/24/introducing-the-ai-client-in-wordpress-7-0/",
+    "date": "2026-05-21",
+    "id": "17793353213891"
+  },
+  {
+    "title": "SafeRun 推出 AI Agent 回放调试与预防工具",
+    "summary": "支持 Python/TS SDK，提供低延迟检查动作 API 的 Agent 调试方案。",
+    "detail": "**背景**：Show HN 项目 SafeRun 解决 AI Agent 调试难问题。\n**技术点**：提供 Replay debugging 和 inline prevention 功能，支持 Python 和 TypeScript SDK，检查动作 API 延迟低于 50ms (p95)。\n**影响**：为开发者提供了关键的 Agent 运行时监控与纠错能力，优先构建回放而非验证的策略有助于快速定位 Agent 行为偏差，提升生产环境稳定性。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Debugging"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48217376",
+    "date": "2026-05-21",
+    "id": "17793353213892"
+  },
+  {
+    "title": "Agent Chat Bridge 实现 IDE 代理异步回调",
+    "summary": "开源桥接工具，让 VS Code 等 IDE 的 AI 代理支持定时器和 Webhook。",
+    "detail": "**背景**：针对 AI IDE 代理缺乏异步处理能力的问题。\n**技术点**：通过本地桥接服务 (端口 9801)，注册定时器、Shell 命令或 Webhook，触发后自动恢复会话并发送提示。支持 VS Code 和 Windsurf。\n**影响**：扩展了 AI 编程助手的工作流，使其能处理耗时任务或外部事件，增强了 Agent 在开发环境中的自动化能力和上下文连续性。",
+    "tags": [
+      "Dev",
+      "IDE",
+      "Automation"
+    ],
+    "link": "https://github.com/sathvikc/agent-chat-bridge",
+    "date": "2026-05-21",
+    "id": "17793353213893"
+  },
+  {
+    "title": "AI 生成 SaaS 代码审计与安全指南",
+    "summary": "针对 AI 构建 SaaS 的租户隔离缺失问题，提出审计建议。",
+    "detail": "**背景**：AI 生成的 MVP 代码常存在隐蔽的安全漏洞，如租户隔离检查缺失。\n**核心点**：模型虽能生成结构正确的代码，但缺乏“拒绝表面”(refusal surface)，无法机械性拒绝错误版本。\n**影响**：开发者需在付费前审计 behavioral gates，不能仅依赖测试套件。文章强调了人工审查边界条件的重要性，警示 AI 编程时代的新型技术债务风险。",
+    "tags": [
+      "Dev",
+      "Security",
+      "SaaS"
+    ],
+    "link": "https://knbrlo.com/blog/audit-ai-built-saas/",
+    "date": "2026-05-21",
+    "id": "17793353213894"
+  },
+  {
+    "title": "TBN 协议构建 AI Agent 运行时治理基础设施",
+    "summary": "提供自动化护栏、成本控制和证书认证的 Agent 治理方案。",
+    "detail": "**背景**：TBN Protocol 旨在解决 AI Agent 的安全与信任问题。\n**技术点**：包含注册、安全挑战 (提示注入/幻觉测试)、证书颁发及加密通信握手流程。支持升级认证等级以获取更多权限。\n**影响**：为多 Agent 协作提供了信任基础设施，通过自动化护栏和成本控制，降低了 Agent 失控风险，推动企业级 Agent 应用的合规落地。",
+    "tags": [
+      "New",
+      "Security",
+      "Protocol"
+    ],
+    "link": "https://tbn.hardinai.co.uk/demo",
+    "date": "2026-05-21",
+    "id": "17793353213895"
+  },
+  {
     "title": "OpenAI 攻克 80 年数学难题",
     "summary": "AI 首次自主解决著名开放数学问题，打破传统信念。",
     "detail": "OpenAI 宣布其模型解决了 1946 年 Paul Erdős 提出的平面单位距离问题。这是 AI 首次自主解决数学领域突出的开放性问题，打破了近 80 年来数学家认为的最佳解构信念。模型发现了表现更好的新构造家族，标志着 AI 在科学发现领域的重大突破，展示了其在复杂推理任务上的潜力。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/Asymptote-Labs/agent-beacon",
     "date": "2026-05-18",
     "id": "17791304835900"
-  },
-  {
-    "title": "AI 时代的心理博弈：Grief 五阶段论",
-    "summary": "文章通过 Kübler-Ross Grief 模型分析人们对 AI 爆发的心理反应阶段。",
-    "detail": "作者 Brad Frost 通过 Grief 的视角审视 AI 时代，指出 AI 的爆发引发了类似 Grief 的心理反应。文章详细阐述了 Kübler-Ross 模型的五个阶段（否认、愤怒、讨价还价、抑郁、接受）在 AI 语境下的表现。作者强调人们不仅为死亡 Grief，也为关系、身份、期望的丧失 Grief。这对于理解用户 Adoption 阻力及社会心理影响具有参考价值，提醒行业关注技术变革带来的人文心理冲击，帮助从业者更好地应对用户情绪，促进技术与社会心理的和谐共存。",
-    "tags": [
-      "News",
-      "Social Impact",
-      "Adoption"
-    ],
-    "link": "https://bradfrost.com/blog/post/grief-in-the-ai-age/",
-    "date": "2026-05-18",
-    "id": "17791304835901"
-  },
-  {
-    "title": "盖洛普调查：美国人反对在社区建 AI 数据中心",
-    "summary": "最新民调显示美国民众对在其居住区附近建设 AI 数据中心持反对态度。",
-    "detail": "盖洛普最新 Polls 显示，美国公众对在其社区附近建设 AI 数据中心表示反对。这反映了 AI 基础设施扩张面临的显著社会阻力，可能直接影响未来数据中心的选址策略和政策制定。对于 AI 公司而言，这意味着需要更好地处理社区关系和环境影响评估，基础设施落地难度可能增加。该调查揭示了算力扩张与社区接受度之间的矛盾，是行业扩张必须面对的非技术挑战，可能延缓部分地区 AI 基础设施建设进度。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Policy"
-    ],
-    "link": "https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx",
-    "date": "2026-05-18",
-    "id": "17791304835902"
-  },
-  {
-    "title": "日经分析：印度错失 AI 浪潮，市场地位堪忧",
-    "summary": "日本时报分析指出印度可能错失 AI 繁荣，其作为市场宠儿的地位可能终结。",
-    "detail": "日本时报文章分析认为印度在 AI 浪潮中表现不佳，可能错失发展机遇。文章探讨了印度作为新兴市场宠儿的地位是否因 AI 布局滞后而动摇。这对全球 AI 投资格局具有警示意义，表明地缘政治和基础设施准备度是影响国家 AI 竞争力的关键因素。投资者需重新评估新兴市场潜力，印度若无法跟上 AI 基础设施建设，其经济增长引擎可能熄火，影响全球供应链布局，显示 AI 已成为国家竞争力的核心指标。",
-    "tags": [
-      "News",
-      "Market",
-      "Geopolitics"
-    ],
-    "link": "https://www.japantimes.co.jp/business/2026/05/17/india-missing-out-ai-boom/",
-    "date": "2026-05-18",
-    "id": "17791304835903"
-  },
-  {
-    "title": "学术前沿：AI Agent 运行时安全与自防御框架 A2AS",
-    "summary": "新论文提出 A2AS 框架，为 AI Agent 提供类似 HTTPS 的安全层和自防御机制。",
-    "detail": "arXiv 新论文介绍了 A2AS 框架，旨在为 AI Agent 和 LLM 应用提供运行时安全层，类似于 HTTPS 之于 HTTP。该框架强制执行认证行为，激活模型自防御，并确保上下文窗口完整性。它定义了安全边界，认证 Prompts，应用安全规则。这是 AI 安全领域的重要进展，为解决 Agent 自主行动带来的安全风险提供了技术思路。随着 Agent 应用普及，运行时安全成为刚需，A2AS 提供了标准化方案，有助于企业合规部署，降低安全漏洞风险。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Paper"
-    ],
-    "link": "https://arxiv.org/abs/2510.13825",
-    "date": "2026-05-18",
-    "id": "17791304835904"
-  },
-  {
-    "title": "效率护城河：分析称中国在 AI 效率上超越美国",
-    "summary": "通讯文章分析特朗普 - 习近平峰会背景，称中国在 AI 效率方面超越美国。",
-    "detail": "文章分析了特朗普与习近平峰会背景下的全球经济秩序重组，指出中国在 AI 及其他领域的效率优势可能超越美国。文中提到 Elon Musk 和 Jensen Huang 等 CEO 随行，强调了企业在地缘政治中的角色。这反映了 AI 竞争已上升到国家效率层面，供应链和算力效率将成为关键竞争点。行业需关注政策风向变化，效率护城河可能比单纯的技术领先更具决定性，影响全球 AI 产业格局，显示地缘政治对技术发展的深远影响。",
-    "tags": [
-      "News",
-      "Geopolitics",
-      "Competition"
-    ],
-    "link": "https://www.thebignewsletter.com/p/the-efficiency-moat-why-china-is",
-    "date": "2026-05-18",
-    "id": "17791304835905"
-  },
-  {
-    "title": "Vercel 推出 AI 编程语言 Zero，架构类似 Rust",
-    "summary": "技术分析称 Vercel 新语言 Zero 类似 Rust，专为机器消费工具链设计。",
-    "detail": "Substack 文章分析 Vercel 推出的新编程语言 Zero，指出其语法和内存管理类似 Rust，但更简单。核心亮点在于其工具链专为机器消费设计，而非仅服务于人类开发者。这意味着 AI 生成代码可能更高效，标志着编程语言设计向 AI 原生方向演进。作者认为这比'AI 理解语言'更有趣，因为工具链是为机器消耗的。开发者需关注此类新工具对工作流的影响，Zero 可能成为 AI 编写代码的首选语言，改变传统软件开发模式，提升自动化编程效率。",
-    "tags": [
-      "Dev",
-      "Programming",
-      "Tools"
-    ],
-    "link": "https://thetechvillain.substack.com/p/zero-the-new-programming-language",
-    "date": "2026-05-18",
-    "id": "17791304835906"
   }
 ]
