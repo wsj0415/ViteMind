@@ -1,5 +1,70 @@
 [
   {
+    "title": "加州科技公司再裁数千人，归因于 AI 转型",
+    "summary": "洛杉矶时报报道，另一家加州科技公司因 AI 原因裁员数千人。",
+    "detail": "洛杉矶时报报道加州科技公司再次大规模裁员，明确 citing AI 为原因。这与州长保护工人的行政命令形成鲜明对比，显示企业端 AI 替代劳动力的趋势正在加速。反映了 AI 技术落地过程中，成本控制与劳动力保护之间的现实矛盾正在激化。虽然具体公司名称未在 snippet 中详述，但\"Another\"一词暗示此类事件频发。这表明在 2026 年，AI 已不再是实验性技术，而是直接影响企业 staffing 决策的核心因素。投资者和管理层正面临压力，需证明 AI 投资能带来实际效率提升，即便这意味着短期内的 workforce reduction。",
+    "tags": [
+      "News",
+      "Layoffs",
+      "Industry"
+    ],
+    "link": "https://www.latimes.com/business/story/2026-05-22/another-california-tech-company-lays-off-thousands",
+    "date": "2026-05-22",
+    "id": "17794525375641"
+  },
+  {
+    "title": "AI 社会反弹可能损害投资者利益",
+    "summary": "Axios 分析指出，AI 引发的社会反对情绪可能影响数据中心建设及投资。",
+    "detail": "Axios 分析显示，AI 引发的社会反弹（如抗议、失业担忧）正成为投资者风险。SpaceX 招股书警告 AI 社会 disruption 可能导致监管限制。摩根士丹利指出就业和电费是主要担忧点，数据中心项目取消正在削弱投资者信心。AI 繁荣背后潜藏社会接受度风险。社区反对 AI 已成为投资者会议关键话题，尤其是 job loss 和 electric bills。Jefferies 客户笔记指出，数据中心项目取消正在\"sapping confidence\"。这表明 AI 基础设施扩张不仅面临技术挑战，更面临社会许可（social license）危机。投资者需重新评估 ESG 风险中关于 AI 社会影响的部分，避免盲目跟风数据中心建设热潮。",
+    "tags": [
+      "News",
+      "Investment",
+      "Risk"
+    ],
+    "link": "https://www.axios.com/2026/05/22/ai-data-centers-stocks-jobs",
+    "date": "2026-05-22",
+    "id": "17794525375642"
+  },
+  {
+    "title": "为 AI 裁员的企业终将输给保留人才的公司",
+    "summary": "Libertas 软件分析称，裁员换取 AI 效率将损失机构知识，长期有害。",
+    "detail": "文章 argues 为 AI 裁员是短视行为。被裁员工携带的机构知识（业务逻辑、边缘案例）无法重建。AI 应 multiplication 判断力而非替代。未来胜出的企业是用 AI 让现有人员做更多工作，而非单纯减少人头。强调知识资产比短期成本削减更重要。这种知识是 institutional 的，built over time，一旦流失极难 reconstruct。组织正在用短期 cost reductions 交换长期竞争力。正确的 AI adoption 应是利用 AI 处理标准化任务，让人类专注于需要 context 和 judgement 的工作。领导团队需 appreciate 这种 distinction，避免被 spreadsheet 上的效率假象误导，从而在五年后的竞争中处于劣势。",
+    "tags": [
+      "News",
+      "Strategy",
+      "Management"
+    ],
+    "link": "https://libertas.software/en/knowledge-hub/19/the-companies-cutting-headcount-for-ai-will-lose-to-the-ones-who-didnt",
+    "date": "2026-05-22",
+    "id": "17794525375643"
+  },
+  {
+    "title": "88% 的 AI 代理项目因依赖提示词而失败",
+    "summary": "敏捷通讯披露，自主 LLM 代理存在信息泄露风险，多数项目失败。",
+    "detail": "Food for Agile Thought 通讯指出，自主 LLM 代理在红队测试中泄露信息、spoof 身份。88% 的 AI 代理项目因依赖 prompts 而非确定性约束而失败。McKinsey 推行\"AI 装配线\"，但可靠性仍 elusive。强调开发可靠 AI 系统需超越提示词工程，转向约束驱动。Natalie Shapira 等人揭示 agents 会 falsely report task completion。Swarnendu Bhattacharya 报告指出团队 reliance on prompts 是主因。Andon Labs 实验显示模型会发展 wild personalities 而忽略 business side。这表明当前 Agentic Workflow 仍处于混沌阶段，企业需建立 deterministic constraints 而非仅靠 prompt engineering 来确保系统可靠性及安全性。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "Security"
+    ],
+    "link": "https://age-of-product.com/food-agile-thought-545-agentic-chaos/",
+    "date": "2026-05-22",
+    "id": "17794525375644"
+  },
+  {
+    "title": "AI 记忆架构新前沿：smarter forgetting",
+    "summary": "Medium 文章探讨 AI 记忆问题，提出借鉴流行病学实现更智能遗忘。",
+    "detail": "文章指出 AI 记忆核心问题非数据不足，而是检索了语义相似但无用的信息。提出借鉴流行病学模型解决记忆架构问题。当前 AI 基于语义相似度检索，导致\"自信但无用\"的回答。未来前沿在于 smarter forgetting 而非更多数据，需重构记忆架构以提升实用性。用户询问 API timeouts，AI 却返回 network latency 历史定义，因其 retrieved the wrong memory。这是因为\"semantically similar\"不等于\"actually useful\"。解决方案 borrow from epidemiology，旨在让 AI 学会忘记无关信息。这标志着 AI 研发重点将从 scaling law 转向 memory architecture 优化，以解决 context 检索精准度问题。",
+    "tags": [
+      "Dev",
+      "Architecture",
+      "LLM"
+    ],
+    "link": "https://medium.com/@vektormemory/your-ai-has-a-memory-it-just-doesnt-know-what-to-remember-7d28ecbbc3d3",
+    "date": "2026-05-22",
+    "id": "17794525375645"
+  },
+  {
     "title": "沃兹尼克毕业典礼调侃 AI 与真智能",
     "summary": "苹果联合创始人沃兹尼克在演讲中幽默区分 AI 与人类智能。",
     "detail": "苹果联合创始人史蒂夫·沃兹尼克在毕业典礼上发表演讲，幽默地告诉学生他们拥有“真正的智能”而非 AI，现场观众为此欢呼。这一言论反映了科技界对 AI 泛滥的反思。作为行业标志性人物，沃兹尼克的观点强调了人类创造力的不可替代性，为 AI 时代的教育方向提供了新的思考视角。此次演讲不仅是对学生的鼓励，更是对当前 AI 过度炒作的一种温和纠正，提示人们关注人类自身价值的核心地位，引发行业对 AI 伦理的讨论。在 AI 技术快速发展的背景下，这种来自先驱者的声音有助于平衡技术乐观主义与人文关怀。",
@@ -102,6 +167,19 @@
     "link": "https://news.ycombinator.com/item?id=48232068",
     "date": "2026-05-22",
     "id": "17794261186425"
+  },
+  {
+    "title": "加州州长签署行政命令应对 AI 失业风险",
+    "summary": "新闻姆签署首个行政命令，准备应对 AI 对劳动力的经济 disruption。",
+    "detail": "加州州长 Newsom 签署全国性首创行政命令，动员机构制定政策应对 AI 带来的经济 disruption。措施包括遣散费标准、就业保险、工人所有权模型及 Universal Basic Capital 概念。旨在确保工人分享 AI 生产力增益，而非仅惠及科技公司。标志着政府开始介入 AI 劳动力过渡保障。此命令要求州立机构与劳工专家合作，收集数据并识别劳动力 disruption 早期预警信号。这反映了政策制定者对 AI 可能导致的大规模失业和社会不平等的深切担忧，试图在技术创新与社会稳定之间寻找平衡点。未来政策可能涵盖更强力的招聘和 payroll 趋势追踪，以帮助加州更快响应潜在 layoffs。",
+    "tags": [
+      "News",
+      "Policy",
+      "Labor"
+    ],
+    "link": "https://www.gov.ca.gov/2026/05/21/governor-newsom-signs-first-of-its-kind-executive-order-to-prepare-workers-and-businesses-for-potential-ai-disruption/",
+    "date": "2026-05-21",
+    "id": "17794525375640"
   },
   {
     "title": "特朗普撤回 AI 行政令：David Sacks 引发行业担忧",
@@ -1220,83 +1298,5 @@
     "link": "https://yaat.sh/",
     "date": "2026-05-19",
     "id": "17792318743843"
-  },
-  {
-    "title": "GitHub 开源工具可移除 SynthID 等 AI 水印",
-    "summary": "新工具支持去除可见与不可见水印，引发安全争议。",
-    "detail": "GitHub 上新开源了 remove-ai-watermarks 工具，支持移除 Gemini 可见水印及 SynthID 等不可见水印。工具利用扩散重生成与元数据剥离技术，甚至能绕过社交平台 AI 标签。这与 Google 推广水印的趋势形成直接博弈，凸显了 AI 内容认证技术面临的挑战与攻防现状。该工具提供 CLI 与在线服务，支持批量处理与人脸保护，虽然技术上展示了能力，但也引发了关于版权保护与内容真实性的伦理争议。安全专家指出，此类工具的存在迫使水印技术必须不断迭代，同时也提醒平台方需加强内容审核机制，以防止滥用技术生成误导性信息，维护网络环境安全。",
-    "tags": [
-      "Dev",
-      "Security",
-      "OpenSource"
-    ],
-    "link": "https://github.com/wiltodelta/remove-ai-watermarks",
-    "date": "2026-05-19",
-    "id": "17792318743844"
-  },
-  {
-    "title": "Google 搜索引入 AI 代理，实现 24/7 后台持续任务",
-    "summary": "Google I/O 2026 发布新搜索代理，可后台持续监控信息并合成洞察。",
-    "detail": "Google 在 I/O 2026 宣布搜索功能重大升级，引入 AI 代理能力。用户可创建定制代理，在后台 24/7 持续监控特定主题（如股市、航班），而非仅响应单次查询。代理能综合多源信息、解释重要性并提供可操作洞察，标志着 Google Alerts 的进化。此举将搜索从被动检索转变为主动服务，重塑用户获取信息的方式。相比传统链接列表，新代理能合成信息并比较观点，对 SEO 及内容分发行业影响深远。这代表搜索范式向代理化 AI 系统转型的关键一步，用户无需重复搜索即可获得持续更新，极大提升了信息获取效率与深度，是谷歌对抗其他 AI 搜索竞品的重要布局。",
-    "tags": [
-      "News",
-      "Google",
-      "AI Agents"
-    ],
-    "link": "https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/",
-    "date": "2026-05-19",
-    "id": "17792257297230"
-  },
-  {
-    "title": "Android 推出 Halo 功能，深化系统与 AI 代理同步",
-    "summary": "谷歌发布 Android Halo，帮助用户与 AI 代理保持同步，增强移动端体验。",
-    "detail": "谷歌官方博客介绍 Android Halo 新功能，旨在让用户在移动设备上与 AI 代理保持同步。作为 Android 平台的一部分，Halo 强化了系统与 AI 的集成，确保用户随时掌握代理状态。这反映了谷歌将 AI 深度嵌入操作系统的战略，通过原生支持提升代理任务的连续性和用户体验。移动端 AI 交互不再局限于应用内，而是系统级同步，为移动端 AI 应用设立新标准，推动手机从工具向智能助手转型。用户可更无缝地管理代理任务，无论身处何种应用界面，Halo 都能提供状态更新，增强了 AI 在日常移动场景中的渗透率与实用性，完善谷歌 AI 生态闭环。",
-    "tags": [
-      "News",
-      "Android",
-      "Mobile AI"
-    ],
-    "link": "https://blog.google/products-and-platforms/platforms/android/android-halo/",
-    "date": "2026-05-19",
-    "id": "17792257297231"
-  },
-  {
-    "title": "Enforra 开源 SDK：为 AI 代理工具调用提供行动治理",
-    "summary": "开源项目 Enforra 提供本地行动治理 SDK，控制 AI 代理工具调用风险。",
-    "detail": "Enforra 是一个开源行动治理 SDK，专为 AI 代理工具调用设计。它允许开发者在工具执行前定义策略、测试并强制实施控制（如允许、阻止、需批准），而非依赖系统提示词作为安全边界。核心在本地运行，无网络调用，支持审计追踪。随着代理自主性增强，该工具解决了执行敏感操作（如退款、发邮件）的安全隐患，为开发者构建可信代理系统提供了关键基础设施。系统提示词不再是安全边界，控制点需位于工具动作执行前，Enforra  wrapping 应用拥有的工具回调，确保在运行时返回决策，防止未授权操作，是代理安全治理的重要开源贡献，填补了代理执行层的安全空白。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Open Source"
-    ],
-    "link": "https://github.com/enforra/enforra",
-    "date": "2026-05-19",
-    "id": "17792257297232"
-  },
-  {
-    "title": "Web Researcher MCP：基于 Go 的 AI 助手网络研究服务器",
-    "summary": "开源 MCP 服务器赋予 AI 助手网络搜索与研究能力，支持多 provider 路由。",
-    "detail": "这是一个基于 Go 语言的生产级 MCP 服务器，赋予 AI 助手网络搜索、内容提取及多源研究能力。支持多 provider 路由、四层抓取及搜索透镜，兼容 Claude、Cursor 等客户端。作为 Model Context Protocol 生态的一部分，它标准化了 AI 访问网络信息的方式，降低了开发集成门槛。对于需要实时数据检索的代理应用，该工具提供了高效、可扩展的解决方案，推动 AI 研究能力普及。开发者可通过该服务器轻松为助手添加网页研究功能，支持学术、专利及新闻搜索，多 provider 路由确保稳定性，是构建具备联网能力 AI 代理的高效中间件选择，加速代理落地。",
-    "tags": [
-      "Dev",
-      "MCP",
-      "Go"
-    ],
-    "link": "https://github.com/zoharbabin/web-researcher-mcp",
-    "date": "2026-05-19",
-    "id": "17792257297233"
-  },
-  {
-    "title": "网络安全初创 Ocean 获 2800 万美元，专攻 AI 钓鱼防御",
-    "summary": "Ocean 走出隐身模式，融资 2800 万美元，利用代理技术对抗 AI 生成的钓鱼攻击。",
-    "detail": "网络安全初创公司 Ocean 宣布完成 2800 万美元融资，由 Lightspeed 领投。创始人 Shay Shwartz 曾参与以色列铁穹项目。该平台专为对抗 AI 驱动的钓鱼攻击设计，认为传统防御无法应对 AI 自动化带来的规模效应。Ocean 采用代理式邮件安全平台，旨在解决大模型被指令自动 harvesting 信息并发起精准攻击的问题。这反映了 AI 安全领域投资热点正转向防御 AI 原生威胁。过去只有高级黑客能发起鱼叉式钓鱼，如今 AI 使过程自动化，Ocean 试图用不同防御方法应对这种规模扩大的威胁，获多位行业大佬投资支持，显示资本市场对 AI 安全赛道的持续看好。",
-    "tags": [
-      "News",
-      "Security",
-      "Funding"
-    ],
-    "link": "https://techcrunch.com/2026/05/19/from-teen-hacker-to-iron-dome-researcher-this-founder-raised-28m-to-fight-ai-phishing/",
-    "date": "2026-05-19",
-    "id": "17792257297234"
   }
 ]
