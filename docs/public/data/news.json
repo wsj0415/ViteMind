@@ -1,5 +1,44 @@
 [
   {
+    "title": "TranscendPlexity 宣称解决 13 项 ARC-AGI impossible 任务",
+    "summary": "声称解决 13 项 AI 求解率为 0 的 ARC-AGI 任务，超越 GPT-4 等模型。",
+    "detail": "**技术突破**：TranscendPlexity 宣布解决 13 个 ARC-AGI-2 任务，此前 NVARC、GPT-4、Claude 等主流模型求解率均为 0。**方法**：使用经过验证的确定性 Python 求解器，而非传统概率生成。**影响**：若属实，标志着 AI 在抽象推理能力上的重大飞跃，可能接近 AGI 关键里程碑。代码已开源验证，社区可复现。这对评估当前 LLM 推理极限提供了新基准，显示特定架构可能突破通用模型瓶颈，引发对 AGI 实现路径的重新讨论。",
+    "tags": [
+      "News",
+      "AGI",
+      "Python"
+    ],
+    "link": "https://github.com/GitMonsters/13-Impossible-ARC-Tasks-SOLVED",
+    "date": "2026-05-22",
+    "id": "17794793521471"
+  },
+  {
+    "title": "SteelSpine：专为 AI Agent 调试设计的重放工具",
+    "summary": "一键捕获 Agent 决策事件，支持重放与加密审计，符合 EU AI 法案。",
+    "detail": "**新功能**：SteelSpine 允许开发者无需代码更改即可捕获 Agent 决策事件，一键包裹任何 Agent。**核心特性**：支持运行比较、状态重放及加密审计 trail，篡改即时检测。**合规性**：原生符合 EU AI Act Article 12。**价值**：解决 Agent 调试难、不可复现及信任问题，适合生产环境部署。数据显示 100 步 Agent 任务失败率高达 63%，该工具提供因果事件记录与防篡改证明，填补了调试与合规之间的空白，助力企业级应用落地，无供应商锁定。",
+    "tags": [
+      "New",
+      "DevTool",
+      "Agent"
+    ],
+    "link": "https://steelspine.ai",
+    "date": "2026-05-22",
+    "id": "17794793521473"
+  },
+  {
+    "title": "Linux 声音子系统大量修复由 AI/LLM 驱动",
+    "summary": "Linux 7.1 声音子系统更新中，许多修复工作由 AI 模型辅助完成。",
+    "detail": "**系统更新**：Linux 7.1 声音子系统迎来多项修复，涉及多媒体驱动。**AI 介入**：显著数量的修复由 AI/LLM 驱动生成或辅助，非单纯人工编写。**意义**：表明 AI 已深入到底层系统开发领域，不仅限于应用层。开源社区开始广泛接纳 AI 辅助编码，提升维护效率。Phoronix 报道显示，AI 不仅用于生成代码，还用于识别和修复复杂子系统错误，标志着 AI 编程助手在系统级工程中的成熟应用，降低内核维护门槛，改变开发工作流。",
+    "tags": [
+      "Dev",
+      "Linux",
+      "OpenSource"
+    ],
+    "link": "https://www.phoronix.com/news/Linux-7.1-Sound-Many-Fixes",
+    "date": "2026-05-22",
+    "id": "17794793521475"
+  },
+  {
     "title": "POLITICO 工会胜利：被迫关闭两款 AI 新闻工具",
     "summary": "POLITICO 同意关闭两款 AI 工具，标志着新闻业劳工与 AI 纠纷的重大胜利。",
     "detail": "POLITICO 与工会达成仲裁，同意关闭\"Capitol AI Report-Builder\"和\"Live Summaries\"两款 AI 产品。仲裁认定其未经编辑审查且存在事实错误，违反了集体谈判协议。工会称这是“非凡胜利”，强调新闻必须留在人类手中。这是美国新闻业劳工与 AI disputes 的里程碑事件，强调了新闻编辑权必须掌握在人类手中的原则，为行业 AI 部署设立了合规先例。此前公司未提前 60 天通知即部署工具，此次裁决明确了 AI 在新闻室使用的边界，对媒体行业 AI 政策制定具有深远影响。",
@@ -232,6 +271,32 @@
     "link": "https://news.ycombinator.com/item?id=48232068",
     "date": "2026-05-22",
     "id": "17794261186425"
+  },
+  {
+    "title": "AI 周报：OpenAI 数学突破与 Karpathy 加盟 Anthropic",
+    "summary": "OpenAI 解决数学难题，Karpathy 加入 Anthropic 研究自我改进。",
+    "detail": "**核心动态**：OpenAI 取得首个令人印象深刻的 AI 数学成果，解决了单位距离问题，标志 AI 创造新知识能力。**人才流动**：Andrej Karpathy 正式加入 Anthropic，专注于递归自我改进研究，计划成功后回归教育。**法律进展**：Elon Musk 诉 OpenAI 案因等待太久被驳回。此外，白宫预计发布 AI 行政命令，METR 发布前沿模型风险报告。行业进入新知识与强监管并行的关键阶段，技术突破与政策约束同步加剧，开发者需关注合规与能力边界。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Anthropic"
+    ],
+    "link": "https://thezvi.substack.com/p/ai-169-new-knowledge",
+    "date": "2026-05-21",
+    "id": "17794793521470"
+  },
+  {
+    "title": "前沿实验室尚未占用大部分 AI 算力资源",
+    "summary": "分析显示 OpenAI 等前沿实验室仅占用全球约 10-15% 的 AI 算力。",
+    "detail": "**算力分布**：截至 2025 年底，OpenAI 使用的算力约占全球运营 AI 算力的 10-15%，份额较一年前更小。**趋势**：即使加上 Anthropic、xAI、Google 和 Meta 的 AI 实验室，前沿开发者总占比仍低于一半。**洞察**：大量 AI 算力分布在非前沿领域，基础设施投资 boom 远超头部实验室需求，预示算力普及化趋势。全球 AI 算力已相当于约 2000 万块 H100，资本支出达数千亿美元，但头部集中度低于预期，中小企业算力获取能力增强，生态更多元。",
+    "tags": [
+      "News",
+      "Compute",
+      "Infrastructure"
+    ],
+    "link": "https://epochai.substack.com/p/frontier-labs-dont-use-most-ai-compute",
+    "date": "2026-05-21",
+    "id": "17794793521472"
   },
   {
     "title": "警惕 AI 开发中的“隐形悬崖”与架构债务",
@@ -635,6 +700,19 @@
     "link": "https://tbn.hardinai.co.uk/demo",
     "date": "2026-05-21",
     "id": "17793353213895"
+  },
+  {
+    "title": "Z 世代毕业生抗议 AI 背后的就业市场焦虑",
+    "summary": "毕业生嘘声并非针对 AI 技术，而是担忧 AI 导致的失业风险。",
+    "detail": "**社会现象**：美国毕业典礼上学生嘘声回应 AI 相关演讲，包括 Eric Schmidt 的讲话。**数据支撑**：ServiceNow CEO 预测两年内新毕业生失业率可能达 30%，因 AI 吸收入门级白领工作。**解读**：Z 世代准确读取了劳动力市场信号，抗议的是技术带来的冗余风险而非技术本身。就业市场结构性变化已成共识。Eric Schmidt 等高管试图安抚，但学生反应表明对 AI 取代入门级白领工作的担忧真实存在，教育体系与市场需求脱节问题凸显，代际冲突加剧。",
+    "tags": [
+      "News",
+      "JobMarket",
+      "Social"
+    ],
+    "link": "https://thenextweb.com/news/gen-z-commencement-boos-ai-redundancy-cohort",
+    "date": "2026-05-20",
+    "id": "17794793521474"
   },
   {
     "title": "2026 开发者 AI 现状报告：AI 生成代码占比翻倍",
@@ -1220,83 +1298,5 @@
     "link": "https://www.enkryptai.com/blog/why-fast-ai-and-safe-ai-were-never-actually-in-conflict",
     "date": "2026-05-20",
     "id": "17792484571081"
-  },
-  {
-    "title": "2026 企业 AI 挑战：Vibe Coding 与技术债务",
-    "summary": "警告无架构的 LLM 聊天机器人部署可能导致“神秘肉”代码库。",
-    "detail": "文章揭示 2026 年企业 AI 试点高失败率源于架构缺失。过度依赖\"Vibe Coding\"生成代码导致缺乏长期记忆的技术债务，员工滥用消费级聊天机器人泄露数据。强调需构建专用企业架构而非通用聊天机器人，以保护知识资本免受退化效应影响，警示盲目部署风险。Kyield 指出大多数组织缺乏针对 AI 系统优化的企业级架构。这使得它们易受 LLM 聊天机器人退化效应的影响。员工继续使用消费级工具导致敏感信息未授权披露。本月讨论聚焦于无稳健治理下普遍部署 LLM 的风险，呼吁回归基础架构设计。董事会需理解高失败率的根本原因在于系统设计。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "LLM"
-    ],
-    "link": "https://kyield.com/insights/newsletter/2026/05/vibe-bombs-cognitive-surrender.html",
-    "date": "2026-05-20",
-    "id": "17792484571082"
-  },
-  {
-    "title": "Zephex：为 AI 编辑器提供持久项目上下文的 MCP 网关",
-    "summary": "托管式 MCP 服务器，解决 Cursor 等编辑器遗忘项目上下文痛点。",
-    "detail": "Zephex 提供托管 MCP 网关，统一连接 Cursor、Claude Code 等编辑器。通过单一端点管理项目上下文、代码搜索与包智能，避免重复配置。支持密钥轮换与多环境隔离，显著提升 AI Agent 在复杂项目中的理解能力，解决 AI 编辑器上下文丢失问题，优化开发工作流。专为需要 MCP 可操作性的团队设计，减少配置漂移。独奏开发者可在仓库切换间保持设置，初创团队可共享控制层。连接一次即可在所有编辑器中使用相同工具，无需隐藏配置文件。免费开始，旨在让 AI 编辑器工作速度提升 10 倍。统一端点简化了多编辑器管理流程。",
-    "tags": [
-      "Dev",
-      "MCP",
-      "Tools"
-    ],
-    "link": "https://zephex.dev",
-    "date": "2026-05-20",
-    "id": "17792484571083"
-  },
-  {
-    "title": "SafeRun：AI Agent 的重放调试与 inline 预防工具",
-    "summary": "专为 AI Agent 设计的调试 SDK，支持 Python/TS，延迟低于 50ms。",
-    "detail": "SafeRun 推出针对 AI Agent 的重放调试与 inline 预防方案。提供 Python 和 TypeScript SDK，检查动作 API 延迟低于 50ms。优先构建重放功能而非验证，旨在解决 Agent 执行过程中的不可控风险。目前正招募设计合作伙伴，为开发者提供可靠的 Agent 行为监控与调试基础设施。背景文章解释了为何先构建 Replay 而非验证。工作版 SDK 已就绪，p95 延迟极低。这为 AI Agent 的生产环境部署提供了必要的安全网，防止 agent 行为失控造成损失，强调调试在 agent 开发中的优先级。团队正在接入第一批设计合作伙伴。开发者可在评论区提问交流。",
-    "tags": [
-      "New",
-      "Agent",
-      "Debugging"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48202415",
-    "date": "2026-05-20",
-    "id": "17792484571084"
-  },
-  {
-    "title": "Ember：三大 AI 模型对决 Polymarket 预测市场",
-    "summary": "审计型 AI 信号平台，对比 Claude、Grok、Gemini 预测准确率。",
-    "detail": "Ember 平台每日记录 Claude、Grok、Gemini 对 Polymarket 的预测，提供经审计的 365 天 Brier 评分。模型被迫产生分歧以捕捉信号差异，API 支持开发者集成多模型概率数据。为交易者提供 AI 与大众分歧警报，为研究者提供可复现的基准测试，探索 AI 在预测市场中的实际表现。三个独立模型每日早晨对实时市场定价。复合信号带有时间戳且锁定。专为交易者、基金和预测市场产品构建。API 提供四层访问，从原型到高容量。这是首个经审计的 Polymarket AI 信号，具有极高的参考价值。每日更新确保数据时效性与准确性。开发者可查询 API 获取概率数据。",
-    "tags": [
-      "New",
-      "Benchmark",
-      "Trading"
-    ],
-    "link": "https://emberfyi.com/",
-    "date": "2026-05-20",
-    "id": "17792484571085"
-  },
-  {
-    "title": "AI 推理成本暴跌真相：软件优化而非硬件升级",
-    "summary": "分析指出 AI 推理成本年降 70-90%，主要驱动力是软件优化而非硬件进步。",
-    "detail": "文章深入分析了\"LLMflation\"现象，指出 AI 推理成本三年内下降千倍，年降幅达 70-90%。核心观点认为成本暴跌主要源于软件优化而非硬件摩尔定律。尽管用户感知成本上升是因为使用了更大模型，但同等容量成本显著降低。作者通过自身账单从 2000 美元降至几乎为零的经历佐证。本地模型在 commodity hardware 上已足够好用，这对企业部署策略和成本控制具有重大指导意义，提示开发者关注软件栈优化而非单纯追求硬件升级。这种趋势意味着 AI 应用的经济模型正在发生根本性转变，软件效率成为关键竞争壁垒。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Cost"
-    ],
-    "link": "https://weightythoughts.com/p/ais-plummeting-prices-are-a-software",
-    "date": "2026-05-19",
-    "id": "17794724775782"
-  },
-  {
-    "title": "首部 AI 长片电影戛纳首映：Higgsfield AI 打造 95 分钟大作",
-    "summary": "电影《Hell Grind》完全使用 Higgsfield AI 平台制作，成本低于 50 万美元，耗时仅 14 天。",
-    "detail": "### 技术突破\n2026 年 5 月 19 日，首部完全由 AI 生成的长片电影《Hell Grind》在戛纳电影节首映。该片由导演 Aitore Zholdaskali 团队使用 Higgsfield AI 的 Soul Cinema、Soul Cast 及 Dreamina-Seedance 2.0 制作。\n\n### 成本效率\n影片时长 95 分钟，制作成本低于 50 万美元，耗时仅 14 天。相比传统电影制作，这一成本和周期极具颠覆性，展示了 AI 视频生成技术在长内容领域的潜力。\n\n### 行业意义\n标志着 AI 视频工具从短视频 clips 向长片电影的跨越，可能重塑电影制作流程，降低入门门槛，引发版权与创作伦理的新讨论。",
-    "tags": [
-      "News",
-      "Video Generation",
-      "Film"
-    ],
-    "link": "https://www.cgmagonline.com/news/hell-grind-made-only-with-higgsfield-ai/",
-    "date": "2026-05-19",
-    "id": "17794261186421"
   }
 ]
