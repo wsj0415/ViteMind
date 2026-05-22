@@ -1,5 +1,83 @@
 [
   {
+    "title": "Mneme 推出用户主权本地 AI 记忆协议",
+    "summary": "开源本地优先记忆层，端到端加密，打破厂商锁定。",
+    "detail": "Mneme 发布公共测试版，旨在彻底解决 AI 记忆数据归属权问题。与 Mem0、Letta 等云端方案不同，它采用本地优先设计，数据存储在用户设备，密钥由用户唯一掌握。基于开放协议，支持跨模型使用，避免 schema 锁定及厂商绑定。目前 SDK 已上线 npm，适用于注重隐私和互操作性的 AI 应用开发。其核心理念是帮助用户拥有记忆，而非帮助 Agent 记住用户，结构上完全逆向现有产品，支持双匹配基准测试。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Privacy"
+    ],
+    "link": "https://github.com/ppserapiao/mneme",
+    "date": "2026-05-22",
+    "id": "17794843890810"
+  },
+  {
+    "title": "AI 还原遇难飞行员声音致 NTSB 撤回文件",
+    "summary": "调查文档被滥用生成逝者语音，引发伦理与监管争议。",
+    "detail": "美国国家运输安全委员会（NTSB）因用户利用 AI 根据事故调查文档还原遇难飞行员声音，被迫撤回公开文件。此事件凸显生成式 AI 在敏感数据上的滥用风险。它不仅涉及深度伪造技术伦理，也促使监管机构重新审视公开数据的访问权限及 AI 生成内容的边界。事故调查文档本用于安全改进，却被用于生成逝者语音，引发公众对技术边界的强烈担忧，可能导致未来数据脱敏标准升级。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Deepfake"
+    ],
+    "link": "https://arstechnica.com/ai/2026/05/ai-users-re-create-dead-pilots-voices-from-crash-investigation-docs/",
+    "date": "2026-05-22",
+    "id": "17794843890811"
+  },
+  {
+    "title": "风投与创始人利用 inflated ARR 捧红 AI 初创",
+    "summary": "AI 初创公司夸大收入指标，投资者默许以推高估值。",
+    "detail": "TechCrunch 报道揭示 AI 投资圈现状，部分初创公司通过拉伸传统收入指标（如 ARR）来展示进展，投资者对此心知肚明。这种“造王”行为反映了 AI 泡沫下的估值焦虑。虽然短期内能推动融资，但长期可能导致市场信号失真，增加后续融资及退出难度，影响行业健康发展。创始人利用 inflated ARR crowns 初创企业，显示出市场在狂热中对基本财务纪律的妥协，需警惕泡沫破裂风险。",
+    "tags": [
+      "News",
+      "Finance",
+      "Startups"
+    ],
+    "link": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/",
+    "date": "2026-05-22",
+    "id": "17794843890812"
+  },
+  {
+    "title": "三星工会要求分享 AI 驱动利润份额",
+    "summary": "工人运动要求公平分配 AI 红利，全球趋势显现。",
+    "detail": "三星电子工会为避免罢工达成协议，但核心诉求仍是分享半导体业务因 AI 需求产生的超额利润。工会要求将 15% 营业利润用于奖金。这反映了从肯尼亚标注员到好莱坞演员的全球劳工运动趋势，挑战 AI 驱动的财富集中，引发关于公民红利及财富 equitable 分配的广泛政策讨论。随着 AI 驱动记录利润，工人要求改变无法获得绩效奖励的结构，政策制定者开始考虑公民分红。",
+    "tags": [
+      "News",
+      "Labor",
+      "Economy"
+    ],
+    "link": "https://restofworld.org/2026/samsung-south-korea-union-ai-profits/",
+    "date": "2026-05-22",
+    "id": "17794843890813"
+  },
+  {
+    "title": "律师持续引用 AI 虚构案例遭法院制裁",
+    "summary": "法律界信任危机，AI 幻觉案例频发且屡禁不止。",
+    "detail": "科学美国人报道，多名律师因引用 AI 生成的虚假案例被法院制裁。即便被警告后，仍有律师继续提交幻觉材料。阿拉巴马州最高法院等机构已采取行动。这揭示了专业领域对 AI 过度信任的问题，凸显在关键任务中人工核查的必要性，以及 AI 可靠性在法律场景的重大隐患。律师承诺不再犯却在下一句引用不存在案例，显示人类对 AI 输出的盲目信任已成为系统性风险。",
+    "tags": [
+      "News",
+      "Legal",
+      "Hallucination"
+    ],
+    "link": "https://www.scientificamerican.com/article/why-lawyers-keep-citing-fake-cases-invented-by-ai/",
+    "date": "2026-05-22",
+    "id": "17794843890814"
+  },
+  {
+    "title": "Models.dev 开源 AI 模型规格数据库",
+    "summary": "社区驱动模型参数、定价及能力查询，提供 API。",
+    "detail": "Models.dev 是一个开源数据库，汇总了各 AI 模型的规格、定价和能力信息。数据以 TOML 存储，支持 API 访问及 Provider Logo 获取。旨在解决缺乏统一模型信息库的问题，方便开发者对比和集成不同模型。项目欢迎社区贡献，以保持数据的实时性和准确性，服务于 AI 开发生态。内部用于 opencode 项目，提供模型 ID 查找及 SVG 标志，简化开发者集成流程，促进信息透明。",
+    "tags": [
+      "Dev",
+      "Database",
+      "Tools"
+    ],
+    "link": "https://github.com/anomalyco/models.dev",
+    "date": "2026-05-22",
+    "id": "17794843890815"
+  },
+  {
     "title": "TranscendPlexity 宣称解决 13 项 ARC-AGI impossible 任务",
     "summary": "声称解决 13 项 AI 求解率为 0 的 ARC-AGI 任务，超越 GPT-4 等模型。",
     "detail": "**技术突破**：TranscendPlexity 宣布解决 13 个 ARC-AGI-2 任务，此前 NVARC、GPT-4、Claude 等主流模型求解率均为 0。**方法**：使用经过验证的确定性 Python 求解器，而非传统概率生成。**影响**：若属实，标志着 AI 在抽象推理能力上的重大飞跃，可能接近 AGI 关键里程碑。代码已开源验证，社区可复现。这对评估当前 LLM 推理极限提供了新基准，显示特定架构可能突破通用模型瓶颈，引发对 AGI 实现路径的重新讨论。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.kcl.ac.uk/news/one-in-five-britons-think-ai-will-create-civil-unrest-study-finds",
     "date": "2026-05-20",
     "id": "17792744226294"
-  },
-  {
-    "title": "行业分析：AI 代理时代传统 SEO 域名指标失效",
-    "summary": "文章指出背链等传统指标在 AI 搜索时代已无实际价值。",
-    "detail": "文章深刻指出，随着 AI 代理改变信息交互方式，传统 SEO 指标（如域名年龄、背链、DA）已失效。然而域名市场仍按 2008 年的逻辑定价，导致估值 disconnect。创始人被诱导花费巨资购买对现代 AI 网络无用的过期域名。这标志着 SEO 行业的范式转移，企业需重新评估数字资产在 Agentic Web 中的真实价值。搜索行为和发现机制的根本变化使得历史指标不再预示未来成功。文章警告创业者避免陷入“过期域名陷阱”，建议关注内容质量和 AI 友好性，而非盲目追求传统权威指标。整个 aftermarket 行业面临重构，这在 AI 搜索占据主导的 2026 年尤为关键，需警惕市场叙事与实际价值的脱节。",
-    "tags": [
-      "News",
-      "SEO",
-      "AI Agents"
-    ],
-    "link": "https://domainalot.substack.com/p/the-great-domain-illusion-why-legacy",
-    "date": "2026-05-20",
-    "id": "17792744226295"
-  },
-  {
-    "title": "Auto Agent Protocol：面向汽车交易的 AI 代理协议",
-    "summary": "定义 AI 代理购车标准技能，支持 FTC 合规定价与 MCP。",
-    "detail": "Auto Agent Protocol (AAP) 发布了面向汽车行业的 A2A 垂直协议。它定义了经销商所需的五项核心技能（如库存搜索、线索提交），并内置 FTC 合规的最终定价字段。协议支持匿名优先原则，且提供 MCP 封装，使纯 LLM 客户端可直接调用。这是 AI 代理垂直化落地的典型案例，规范了代理间的交易标准。通过标准化消息和定价字段，AAP 解决了 bait pricing 问题，确保透明度。线索提交可映射到现有 CRM，降低了集成门槛。这标志着 AI 代理开始进入垂直行业交易环节，为未来机器间经济活动建立了可信框架。协议严格遵循 A2A v1.0 profile，具有行业里程碑意义，推动了 AI 在商业交易中的实际应用能力。",
-    "tags": [
-      "New",
-      "Protocol",
-      "Automotive"
-    ],
-    "link": "https://autoagentprotocol.org/",
-    "date": "2026-05-20",
-    "id": "17792744226296"
-  },
-  {
-    "title": "新论文提出 SRM 模块检测 AI 代理会话风险",
-    "summary": "论文提出会话风险记忆 (SRM) 模块，在 execution 前检测代理会话中的慢燃风险，零误报。",
-    "detail": "该论文介绍了会话风险记忆（SRM），一种轻量级确定性模块，用于扩展无状态执行网关。SRM 通过维护会话行为 profile 的风险信号，检测跨多步操作的分布式攻击（如慢燃数据外泄）。测试显示 ILION+SRM 在 80 个会话基准中实现 F1=1.0 且零误报。这为 AI 代理系统提供了会话级的安全保障，区分了空间与时间授权一致性，显著提升 agent 安全性，每轮开销低于 250 微秒，适合生产环境部署。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Paper"
-    ],
-    "link": "https://arxiv.org/abs/2603.22350",
-    "date": "2026-05-20",
-    "id": "17792631900872"
-  },
-  {
-    "title": "Nucleus：为 AI 代理提供强制权限与信息流控制",
-    "summary": "开源项目 Nucleus 通过策略与执行栈，防止 AI 代理将不可信输入与特权操作结合。",
-    "detail": "Nucleus 是一个开源项目，旨在防止 AI 编码代理将不可信输入与特权操作（如 git push）结合。它通过 `join` 和 `flows_to` 原语执行信息流控制，并经机器检查验证。支持审计代理配置及运行时强制权限。该项目为 AI 代理安全提供了新的防御范式，确保数据流向可控，适合需要高安全性的 AI 开发环境，防止代理被恶意利用，实现策略与执行栈的统一管理。",
-    "tags": [
-      "Dev",
-      "Security",
-      "OpenSource"
-    ],
-    "link": "https://github.com/coproduct-opensource/nucleus",
-    "date": "2026-05-20",
-    "id": "17792631900873"
-  },
-  {
-    "title": "特德·姜探讨生成式 AI 与艺术的不可兼容性",
-    "summary": "科幻作家特德·姜在普林斯顿深入剖析 AI 与艺术本质冲突。",
-    "detail": "著名科幻作家特德·姜在普林斯顿大学数字人文中心十周年活动上发表演讲，扩展了其《纽约客》文章观点。他指出生成式 AI 缺乏艺术创作中的核心选择权与自我表达，强调人文价值在 AI 发展中的关键作用。作为数字人文中心十周年活动的一部分，该对话深入探讨了艺术与商业的张力。此观点为 AI 伦理与艺术边界提供了深度哲学思考，影响行业对 AI 创作能力的认知，提醒开发者关注技术背后的人文内涵。大学目标是培养超越工厂工人的毕业生，人文研究至关重要。此次问答还涉及 AI 对人文学术的影响，提供了独特的批判性视角。",
-    "tags": [
-      "News",
-      "AI Ethics",
-      "Art"
-    ],
-    "link": "https://cdh.princeton.edu/blog/ted-chiang/",
-    "date": "2026-05-20",
-    "id": "17792484571080"
-  },
-  {
-    "title": "企业 AI 治理：速度与安全的共存之道",
-    "summary": "文章论证 AI 治理并非阻碍 adoption，而是规模化落地的基础设施。",
-    "detail": "针对企业 AI 落地中合规与速度的矛盾，文章指出风险源于缺乏可执行的管控而非速度本身。在医疗金融等监管行业，实时 AI 护栏与审计能力是规模化前提。治理架构能确保合规同时加速采用，改变“慢即安全”的传统认知，为企业 AI 战略提供新视角。Ascent Business Partners 的 COO 指出，许多组织失败是因为没有治理而非太快。缺乏可执行的控制才是风险所在。基础设施到位才能自信移动，而非单纯减速。这对监管行业的 AI 部署具有指导意义，强调技术无关的咨询价值。合规不应是瓶颈，而是赋能因素。企业需建立实时策略执行能力。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Governance"
-    ],
-    "link": "https://www.enkryptai.com/blog/why-fast-ai-and-safe-ai-were-never-actually-in-conflict",
-    "date": "2026-05-20",
-    "id": "17792484571081"
   }
 ]
