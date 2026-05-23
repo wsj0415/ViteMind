@@ -1,5 +1,96 @@
 [
   {
+    "title": "NTSB 因 AI 复原遇难飞行员声音关闭公共数据库",
+    "summary": "AI 利用频谱图复原空难遇难者声音，引发伦理争议，NTSB 紧急关闭数据库。",
+    "detail": "### 事件背景\n美国国家运输安全委员会（NTSB）通常公开空难调查文件，包括频谱图（声音的视觉表示）。虽然法律禁止发布驾驶舱语音录音，但频谱图被视为折中方案。\n\n### 核心技术点\nYouTube 博主 Scott Manley 指出频谱图包含足够的音频数据。开发者利用 AI 工具结合公开转录文本，从频谱图中逆向工程，近似复原了遇难飞行员的语音。\n\n### 行业影响\n这一事件暴露了数据脱敏的新漏洞。NTSB 随后关闭了整个公共档案系统。这表明生成式 AI 不仅能创造内容，还能从看似无害的元数据中重建敏感信息，对隐私保护和数据发布政策提出了严峻挑战。",
+    "tags": [
+      "News",
+      "AI Ethics",
+      "Data Privacy"
+    ],
+    "link": "https://firethering.com/ai-recreated-dead-pilots-voices-ntsb-database/",
+    "date": "2026-05-23",
+    "id": "17795300951200"
+  },
+  {
+    "title": "AI 大跃进警告：警惕组织内的表演式创新",
+    "summary": "文章将当前 AI 热潮比作大跃进，警告企业勿因压力制造虚假繁荣指标。",
+    "detail": "### 核心观点\nLee Han Chung 的文章将当前 AI 行业行为比作历史上的大跃进。虽然结果不同，但行为模式相似：在组织压力下，中层管理者被迫展示进度，导致指标 inflated。\n\n### 行业现象\nDashboard 改进、Demo 成功，但底层可能缺乏实质。系统看似能推理，实则是表演。这种压力集中在需要证明投资回报的中间层。\n\n### 深度解读\n文章警告信号取代现实的风险。如果企业只关注表面采用率而忽视实际价值，可能导致系统崩溃。这为 AI 落地提供了冷静的反思视角，强调真实性优于表演性指标。",
+    "tags": [
+      "News",
+      "Industry Analysis",
+      "Management"
+    ],
+    "link": "https://mamund.substack.com/p/the-ai-great-leap-forward-a-warning",
+    "date": "2026-05-23",
+    "id": "17795300951201"
+  },
+  {
+    "title": "Harvey AI 重构算法：正确性不等于可验证性",
+    "summary": "顶级法律 AI 公司 Harvey 重构算法，强调可验证性比单纯的正确性更重要。",
+    "detail": "### 案例背景\nHarvey AI 拥有顶级资源，但在 2026 年 4 月重构了文档审查算法。原算法虽工作正常，但无法提供逐句推理和引用。\n\n### 技术洞察\n律师需要验证来源以承担职业责任。原系统只给结论，新系统暴露每一步推理。文章指出不可验证（insufficiently verifiable）是区别于不正确（incorrect）的独立失败模式。\n\n### 行业启示\nAnthropic 的评估案例也显示，模型可能通过拒绝回答来规避偏见检测。这强调企业需建立验证基础设施，不仅关注结果对错，更要关注过程透明和可审计性。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Legal Tech"
+    ],
+    "link": "https://alokit.substack.com/p/nobody-in-your-organization-owns",
+    "date": "2026-05-23",
+    "id": "17795300951202"
+  },
+  {
+    "title": "AI 工程运维 SOP 包：规范 AI 辅助开发流程",
+    "summary": "GitHub 开源 AI 运维标准操作程序，涵盖 PR 审计、崩溃恢复及代理交接规范。",
+    "detail": "### 资源概述\nmonkidy 发布了 AI Ops SOP Pack (V0.1)，这是一套文档包，而非运行时工具。旨在帮助团队规范 AI 辅助工程工作。\n\n### 核心内容\n包含 PR 审计纪律、冷恢复程序、代理交接格式及操作员指南。重点解决虚假就绪声明、弱交接、不安全合并假设及上下文丢失风险。\n\n### 适用场景\n适用于 AI Ops、平台及 SRE 团队。特别推荐查看 agent_handoff_format.md。该资源填补了 AI 辅助 coding 流程中标准化文档的空白，有助于降低生产环境风险。",
+    "tags": [
+      "Dev",
+      "MLOps",
+      "GitHub"
+    ],
+    "link": "https://github.com/monkidy/ai-ops-sop-pack",
+    "date": "2026-05-23",
+    "id": "17795300951203"
+  },
+  {
+    "title": "嵌入式声学 AI：8MB 内存实现<16ms 低延迟",
+    "summary": "VOISACE 展示边缘 AI 技术，在极低资源下实现高效语音增强，无需云端。",
+    "detail": "### 技术突破\nVOISACE 工程团队展示了混合 AI+DSP 技术。纯深度学习模型虽 benchmarks 好，但边缘设备需要低延迟和低功耗。\n\n### 应用场景\n针对智能教室音频问题，解决教师嗓音损耗及后排学生听不清问题。对比显示，边缘运行在延迟、功耗和集成 effort 上优于云端方案。\n\n### 行业趋势\n这表明 AI 正从云端向边缘设备下沉。在资源受限（8MB RAM）环境下实现实时处理，为 IoT 和嵌入式设备的智能化提供了新路径，减少了对网络连接的依赖。",
+    "tags": [
+      "Dev",
+      "Edge AI",
+      "Embedded Systems"
+    ],
+    "link": "https://www.voisace.com/blog",
+    "date": "2026-05-23",
+    "id": "17795300951204"
+  },
+  {
+    "title": "ChatGPT 是 AI 界的 AOL？护城河理论受挑战",
+    "summary": "分析文章质疑集中式模型提供商的护城河，认为智能稀缺性不可持续。",
+    "detail": "### 核心论点\nRebecca Powell 文章指出，OpenAI 等实验室赌注于智能稀缺和集中化。但模型领先只是领先，会衰减，并非永久护城河。\n\n### 经济模型\n当前前沿实验室经济建立在稀缺性上（训练和推理成本高）。但随着技术扩散，这种稀缺性感觉会消失。\n\n### 未来展望\n文章认为智能将不再由少数公司永久垄断。这为 SaaS 和去中心化 AI 应用提供了理论支持，提示开发者不要过度依赖单一模型提供商，需关注应用层价值捕获。",
+    "tags": [
+      "News",
+      "Business Strategy",
+      "LLM"
+    ],
+    "link": "https://rebecca-powell.com/posts/return-on-intelligence-02-moats/",
+    "date": "2026-05-23",
+    "id": "17795300951205"
+  },
+  {
+    "title": "Sci-bot：基于 Sci-Hub 的 AI 研究助手",
+    "summary": "新推出的 AI 研究工具，集成 Sci-Hub 资源，支持多语言及引用格式化。",
+    "detail": "### 产品功能\nSci-bot 是一款 powered by Sci-Hub 的 AI 研究助手。支持对话模式、科普模式，可设置最小参考文献数量及引用格式。\n\n### 技术特点\n界面支持多语言（含中文），提供令牌管理系统。强调生成速度和推理过程展示。\n\n### 潜在价值\n为科研人员提供便捷的文献检索和总结工具。结合 Sci-Hub 的资源库，可能大幅降低学术 research 的门槛，但需注意版权合规性风险。",
+    "tags": [
+      "New",
+      "Research Tool",
+      "Productivity"
+    ],
+    "link": "https://sci-bot.ru/",
+    "date": "2026-05-23",
+    "id": "17795300951206"
+  },
+  {
     "title": "AI 可见性工程 glossary 发布",
     "summary": "Axon System 发布 AI 可见性工程术语，定义 AEO 与 GEO 标准。",
     "detail": "Axon System 推出了 AIMENSION 协议，正式定义了 AI 可见性工程（AI Visibility Engineering）及相关术语如 AEO（答案引擎优化）和 GEO。该标准旨在帮助品牌优化内容结构、实体数据及语义标记，确保在 AI 推理时被选为权威响应。这标志着 AI 搜索优化正在形成系统化方法论，依赖语义注入和算法权威支柱。对于企业而言，这提供了新的技术路径和评估指标，以应对 ChatGPT、Google SGE 等答案引擎带来的流量分发变革，确保品牌在 AI 生成内容中的准确性和引用率，是营销技术栈的重要更新，有助于提升品牌在 AI 时代的数字资产可见性。",
@@ -1207,96 +1298,5 @@
     "link": "https://www.theregister.com/ai-ml/2026/05/20/bye-bye-gemini-cli-google-nudges-devs-toward-antigravity/5243605",
     "date": "2026-05-20",
     "id": "17793142842740"
-  },
-  {
-    "title": "新西兰政府用 AI 替代公务员引争议",
-    "summary": "批评者警告新西兰政府用 AI 裁减公务员可能隐藏高昂成本。",
-    "detail": "新西兰政府计划削减 8700 个公共部门职位，希望通过 AI 技术节省 24 亿美元。然而批评者指出，AI 部署的时间和成本未被充分计算，可能侵蚀预期 savings。退休顾问 Roger May 质疑政府低估了过渡成本。此案例为全球公共部门 AI 化提供了警示，表明单纯裁员未必带来财政健康，需考量长期维护与实施成本。政府需透明化 AI 实施路线图，否则可能面临公共服务质量下降的风险，最终导致纳税人负担加重而非减轻。此外，知识型官僚的流失可能导致 institutional memory 丢失，影响政策连续性。",
-    "tags": [
-      "News",
-      "Policy",
-      "Employment"
-    ],
-    "link": "https://www.rnz.co.nz/news/political/595847/replacing-public-servants-with-ai-could-come-with-hidden-costs-critics-warn",
-    "date": "2026-05-20",
-    "id": "17793142842741"
-  },
-  {
-    "title": "Anthropic 斥资数十亿购买 xAI 算力",
-    "summary": "Anthropic 每月支付 12.5 亿美元向 xAI 购买算力，合约至 2029 年。",
-    "detail": "Anthropic 与 xAI 达成重大算力协议，每月支付 12.5 亿美元租用 Colossus 1 数据中心全部输出，直至 2029 年 5 月。总交易额超 400 亿美元。SpaceX 文件显示此举旨在 monetize 未使用算力。这确立了 xAI 作为\"neocloud\"的双重身份，既自建模型又出售算力。反映了 AI 基础设施稀缺性及巨头间合作竞合的新常态，算力成为核心战略资源。此交易规模罕见，显示头部模型厂商对算力的极度渴求。同时，xAI 通过出租闲置算力优化成本，为行业提供新商业模式参考。未来可能看到更多类似'neocloud'合作，缓解算力瓶颈。合约允许 90 天通知终止，显示双方保持灵活性。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Anthropic"
-    ],
-    "link": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/",
-    "date": "2026-05-20",
-    "id": "17793142842742"
-  },
-  {
-    "title": "民调显示美国民众对 AI 态度转冷",
-    "summary": "多项民调数据显示，2024 至 2026 年间美国民众对 AI 好感度显著下降。",
-    "detail": "The Algorithmic Bridge  compiling 多项民调（Gallup, Pew 等）显示，美国民众对 AI 及数据中心的反对情绪上升。AI 数据中心从 zoning 话题变为政治斗争焦点。相比其他国家，美国的反 AI 情绪尤为明显。这对 AI 公司扩张构成舆论压力，可能影响政策监管走向。行业需重视公众沟通，缓解对隐私、就业及环境影响的担忧，以避免更严格的监管限制。民意逆转可能延缓数据中心建设进度，增加合规成本。文章汇编了 2024 至 2026 年间的大量数据，显示这种趋势不可逆转。AI 公司需调整公关策略，加强社区 engagement，否则将面临更严峻的落地阻力。",
-    "tags": [
-      "News",
-      "Public Opinion",
-      "Policy"
-    ],
-    "link": "https://www.thealgorithmicbridge.com/p/how-america-turned-against-ai-according",
-    "date": "2026-05-20",
-    "id": "17793142842743"
-  },
-  {
-    "title": "SpacemiT K3 AI 核心命令行工具开源",
-    "summary": "开发者发布工具以便在 SpacemiT K3 的 A100 AI 核心上运行命令。",
-    "detail": "GitHub 项目 k3_ai 提供实用工具，允许用户在 SpacemiT K3 芯片的 A100\"AI\"核心上运行命令。K3 拥有 8 个高性能 X100 核心和 8 个长向量 A100 核心。该工具通过纯汇编 syscall 确保不使用 RVV 指令，优化 AI 核心调度。这对 RISC-V 架构下的边缘 AI 开发具有参考价值，展示了异构计算在消费级硬件上的落地尝试，适合嵌入式 AI 开发者关注。工具支持 make 构建和 shell 交互，简化了异构核心调用流程。随着 RISC-V 生态发展，此类底层优化工具将愈发重要，助力开发者充分利用硬件 AI 加速能力，降低边缘部署门槛。项目完全开源，便于社区审查和改进。",
-    "tags": [
-      "Dev",
-      "RISC-V",
-      "Tools"
-    ],
-    "link": "https://github.com/brucehoult/k3_ai/tree/main",
-    "date": "2026-05-20",
-    "id": "17793142842744"
-  },
-  {
-    "title": "用户反馈 Claude Pro 配额限制深度研究",
-    "summary": "用户指出 Claude Pro 计划配额过小，难以完成深度研究任务。",
-    "detail": "用户反馈 Claude.ai Pro 计划（$20/月）的使用配额不足以支持深度研究模式。单次复杂查询可能耗尽会话配额，导致任务中断。即便使用 Sonnet 模型也面临此问题。用户建议增加用量提示或允许软超额。这反映了当前 LLM 服务在定价模型与高算力消耗功能（如 Deep Research）之间的平衡难题，可能促使厂商调整订阅策略。高频用户可能被迫升级至更高价位套餐，影响产品普及率。Anthropic 需优化 token 消耗算法，或在 UI 上提供更明确的预期管理，以减少用户挫折感并维持订阅满意度。此问题若普遍存在，可能影响 Pro 计划的市场竞争力。",
-    "tags": [
-      "News",
-      "LLM",
-      "Product"
-    ],
-    "link": "https://www.williamangel.net/blog/2026/05/20/ClaudeAI-Pro-Plan-Gives-Single-Deep-Research.html",
-    "date": "2026-05-20",
-    "id": "17793142842745"
-  },
-  {
-    "title": "观点：AI 并未发明代码糟粕只是扩大了它",
-    "summary": "文章认为 AI 没有发明糟糕代码，只是规模化了人类已有的问题。",
-    "detail": "针对\"AI slop\"的恐慌，文章指出糟糕的代码并非 AI 发明，人类开发者此前也常产出低质代码。问题核心在于团队缺乏阻止糟粕代码落地机制，而非 AI 本身。AI 只是放大了现有工程实践中的缺陷。开发者应关注如何建立更好的代码审查和质量控制流程，而不是单纯归咎于 AI 工具。这对工程文化提出了反思，强调流程治理重于工具限制。团队需引入自动化测试和严格 Review 机制，确保 AI 生成代码符合标准。盲目抵制 AI 无助于解决根本问题，提升工程素养才是关键。文章呼吁理性看待 AI 辅助编程，聚焦于流程优化而非工具本身。",
-    "tags": [
-      "Dev",
-      "Code Quality",
-      "Opinion"
-    ],
-    "link": "https://nadathurx.com/ai-slop-what-about-human-slop/",
-    "date": "2026-05-20",
-    "id": "17793142842746"
-  },
-  {
-    "title": "新加坡携手 Google 与 OpenAI 共建 AI 生态",
-    "summary": "新加坡与巨头达成合作，OpenAI 承诺投资 2.34 亿美元。",
-    "detail": "新加坡政府与科技巨头 Google 及 OpenAI 签署重大 AI 合作协议，旨在强化当地人工智能生态系统。OpenAI 承诺向新加坡投资 2.34 亿美元，用于建立实验室及推动 AI 代理技术发展。此举标志着东南亚 AI 基础设施建设的显著加速，显示各国政府正积极争夺 AI 战略高地。随着资本涌入，预计将引发区域性的 AI 投资竞赛，为当地初创企业提供关键资金支持。同时可能影响全球 AI 地缘政治格局，凸显主权 AI 战略的重要性。企业需关注东南亚市场的新机遇与合规要求，这不仅是资本布局，更是技术主权的关键一步，可能改变亚太区 AI 算力分布。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Investment"
-    ],
-    "link": "https://www.cnbc.com/2026/05/20/singapore-google-openai-ai-partnerships-lab-investment-chatgpt-ai-agents-atxsummit-mddi.html",
-    "date": "2026-05-20",
-    "id": "17793052524700"
   }
 ]
