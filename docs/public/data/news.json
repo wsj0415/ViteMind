@@ -1,5 +1,44 @@
 [
   {
+    "title": "ThinkLLM：基于知识图谱的 LLM 选型工具",
+    "summary": "全新工具 ThinkLLM 上线，通过知识图谱帮助用户根据任务场景精准匹配 AI 模型。",
+    "detail": "ThinkLLM 是一个新兴的 AI 模型知识库，旨在解决开发者面对海量模型时的选型难题。它覆盖 Agentic Tasks(206 模型)、Coding(464 模型)、Content Creation 等八大场景。用户可根据具体任务（如本地部署 1353 模型、RAG、数据分析）筛选适合的模型。该工具通过结构化数据连接任务需求与模型能力，显著降低试错成本，是开发者进行 LLM 工程化落地的重要参考资源，帮助用户快速找到 fit your task 的模型，提升开发效率。",
+    "tags": [
+      "New",
+      "LLM",
+      "Tools"
+    ],
+    "link": "https://thinkllm.dev/",
+    "date": "2026-05-23",
+    "id": "17795114783302"
+  },
+  {
+    "title": "开源 AI 无人机竞速模拟器支持 Grand Prix 训练",
+    "summary": "开发者开源 AI Grand Prix 练习模拟器，基于 Elodin 物理引擎，支持自主无人机竞速训练。",
+    "detail": "为备战 Anduril 举办的 50 万美元 AI 无人机大奖赛，社区推出了开源练习模拟器。该项目基于 Elodin 物理引擎，提供高保真 6-DOF 物理仿真和 Betaflight SITL 飞控集成。包含符合技术规格的 FPV 摄像头模拟及自动计时赛道。开发者可在此基础上迭代感知、规划和控制代码。支持 macOS/Linux，需 uv 和 git 环境。这是机器人学习与强化学习领域的重要开源基础设施，降低了自主系统研发的门槛，让选手在官方模拟器完成前即可迭代代码。",
+    "tags": [
+      "Dev",
+      "Robotics",
+      "OpenSource"
+    ],
+    "link": "https://github.com/elodin-sys/ai-grand-prix",
+    "date": "2026-05-23",
+    "id": "17795114783303"
+  },
+  {
+    "title": "验证树架构：解决 AI 时代 Bug 报告泛滥问题",
+    "summary": "新论文提出验证树架构，将 AI 生成的 Bug 报告转化为概率状态，优化维护者注意力。",
+    "detail": "针对 AI Agent 导致 Bug 报告生成成本趋近于零的问题，该论文提出 Verification Tree Architecture。它将报告视为层次化 lineage 图中的概率状态，而非独立文本。重复发现被视为置信度强化信号，AI 被重新定位为注意力路由器。架构包含 VerificationNode schema、置信度评分公式和基于声誉的报告层级，旨在解决遗留问题追踪系统无法承受的高 volume 自动化报告瓶颈，为开源维护者提供新思路，防止注意力泛滥，优化软件生态。",
+    "tags": [
+      "Dev",
+      "Paper",
+      "SoftwareEngineering"
+    ],
+    "link": "https://zenodo.org/records/20349904",
+    "date": "2026-05-23",
+    "id": "17795114783304"
+  },
+  {
     "title": "英伟达推出 Nemotron-Labs 扩散语言模型加速文本生成",
     "summary": "Hugging Face 博客披露英伟达新技术，旨在实现光速文本生成。",
     "detail": "英伟达通过 Hugging Face 博客发布 Nemotron-Labs 扩散语言模型研究。该技术尝试利用扩散模型架构优化文本生成速度，追求“光速”生成体验。这是底层模型架构的重要探索，可能为未来 LLM 推理延迟问题提供新的解决方案。对于关注高性能推理的开发者而言，该技术细节值得关注与实验。扩散模型在语言生成上的应用代表了新的技术方向，可能改变现有 Transformer 主导的格局。Nvidia 此举展示了其在基础研究领域的持续投入，旨在解决生成速度的瓶颈，为实时交互应用铺平道路，技术论文细节值得深入研读。",
@@ -11,6 +50,32 @@
     "link": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
     "date": "2026-05-23",
     "id": "17794954171802"
+  },
+  {
+    "title": "微软报告：AI 运营成本已超人类员工",
+    "summary": "微软内部数据显示，AI Token 与 Agent 成本高于雇佣人类员工，引发行业关注。",
+    "detail": "Fortune 报道指出，微软内部报告揭示 AI 部署的经济性问题。随着 Token 消耗和 Agent 运行频率增加，AI 任务的边际成本已超过雇佣人类员工。这一发现挑战了\"AI 必然降低成本”的行业共识，迫使企业重新评估 AI 代理的经济模型。该新闻在 Hacker News 上引发讨论，突显了 AI 规模化落地面临的成本瓶颈，可能影响未来企业 AI 战略的投资回报率预期及技术选型方向，表明当前 AI 代理经济性尚未达到理想状态，需优化 token 使用效率与 Agent 规划能力。",
+    "tags": [
+      "News",
+      "Microsoft",
+      "Cost"
+    ],
+    "link": "https://fortune.com/2026/05/22/microsoft-ai-cost-problem-tokens-agents/",
+    "date": "2026-05-22",
+    "id": "17795114783301"
+  },
+  {
+    "title": "美国国会图书馆利用 AI 与志愿者解锁历史档案",
+    "summary": "国会图书馆通过 FixIt+ 平台，结合 AI 转录与志愿者校对，使历史公共媒体可搜索。",
+    "detail": "美国国会图书馆与 GBH 合作，利用 AI 生成转录稿作为起点，再通过志愿者修正，解锁埋藏在档案中的历史公共媒体内容。FixIt+ 平台旨在解决磁带 vaults 中难以搜索的历史录音问题，涵盖民权运动 voices、战争辩论及地方公共事务节目。这种\"AI+ 人类”协作模式不仅提高了档案数字化效率，还确保了历史数据的准确性，为公共文化资源的 AI 化提供了典范，使历史媒体更易被搜索、研究和理解，保护文化遗产。",
+    "tags": [
+      "News",
+      "AIApplication",
+      "Archives"
+    ],
+    "link": "https://www.nextgov.com/artificial-intelligence/2026/05/how-library-congress-using-both-ai-and-volunteers-unlock-public-broadcasting-history/413742/",
+    "date": "2026-05-22",
+    "id": "17795114783305"
   },
   {
     "title": "廉价 AI 模型恐挫败 OpenAI 与 Anthropic 的 IPO 计划",
@@ -858,6 +923,19 @@
     "id": "17793353213895"
   },
   {
+    "title": "SpaceX IPO 文件披露 AI 战略布局与估值",
+    "summary": "SpaceX 公开 IPO 文件，估值达 1.75 万亿美元，重点布局 AI 与星舰计划。",
+    "detail": "SpaceX 正式公开 S-1 文件，计划在纳斯达克上市，ticker 为\"SPCX\"。文件显示公司估值高达 1.75 万亿美元，可能成为史上最大 IPO。Musk 将担任 CEO、CTO 及董事会主席。除了 reusable rockets，SpaceX 现已发展为涉及卫星和 AI 的技术集团。文件披露了与 Musk 旗下 AI 及社交媒体公司整合相关的法律风险，预计成本 5.3 亿美元。此举标志着 SpaceX 从航天公司向科技 conglomerate 的重大转型，AI 成为其核心赌注之一，风险因素多达 36 页，详细 dissect 了业务风险与法律纠纷，显示其业务边界已大幅扩展至 AI 领域。",
+    "tags": [
+      "News",
+      "SpaceX",
+      "IPO"
+    ],
+    "link": "https://techcrunch.com/2026/05/20/the-spacex-ipo-filing-ai-bets-starship-dreams-elon-musk/",
+    "date": "2026-05-20",
+    "id": "17795114783300"
+  },
+  {
     "title": "SpaceX 斥资 28 亿美元购买燃气涡轮机支持 AI 数据中心",
     "summary": "SpaceX 为 Grok 项目投入巨资，购买燃气涡轮机建设 AI 数据中心基础设施。",
     "detail": "SpaceX 正花费 28 亿美元购买燃气涡轮机，专门用于为其 AI 数据中心供电，支持 Grok 模型训练。这显示了 AI 基础设施竞争的激烈程度，能源供应成为制约 AI 发展的关键瓶颈。马斯克通过垂直整合能源与计算资源，试图突破算力限制，确保 AI 项目的能源独立性。此举可能引发科技巨头在能源基础设施上的新一轮军备竞赛，凸显电力供应在未来 AI 竞争中的战略地位。传统云服务商可能面临挑战，拥有自有能源的公司在成本和控制力上将占据优势，这将重塑 AI 算力市场的格局。此外，这也反映了 AI 模型训练对能源需求的指数级增长，迫使企业寻找传统电网之外的解决方案。燃气涡轮机作为备用或主电源，能提供稳定的高负荷电力，但同时也带来碳排放争议。这一投资不仅关乎技术实现，更涉及环保与可持续发展的平衡，是观察 AI 行业物理层限制的重要案例。",
@@ -1220,83 +1298,5 @@
     "link": "https://arxiv.org/abs/2510.01395",
     "date": "2026-05-20",
     "id": "17792961085281"
-  },
-  {
-    "title": "文学杂志 Granta 获奖作品疑似全由 AI 生成",
-    "summary": "英联邦短篇小说奖获奖作品经检测疑似 AI 生成，引发文学界震动。",
-    "detail": "著名文学杂志《Granta》刊登的获奖短篇小说《The Serpent in the Grove》被质疑完全由 AI 生成。沃顿教授 Ethan Mollick 使用检测工具 Pangram 分析显示 100% 红色警报。作者 Jamir Nazir 现实中难以 locating。该事件引发关于 AI 检测准确性及文学创作诚信的广泛讨论，检测工具假阳性率低，证据指向性强。这是 AI 生成内容侵入传统人文领域的标志性事件。评委曾赞赏其语言精确，如今却成争议焦点。此案例凸显了当前 AI 检测技术的进步，同时也对文学奖项的评审流程提出挑战。未来可能需要更严格的声明机制来维护创作生态的透明度。",
-    "tags": [
-      "News",
-      "Culture",
-      "Detection"
-    ],
-    "link": "https://lithub.com/a-prize-winning-story-published-in-granta-was-very-likely-written-by-ai/",
-    "date": "2026-05-20",
-    "id": "17792961085282"
-  },
-  {
-    "title": "路透社：Anthropic 新模型黑客风险被夸大",
-    "summary": "媒体报道称 Anthropic 新模型 Mythos 引发的无限制黑客担忧言过其实。",
-    "detail": "路透社标题指出围绕 Anthropic 新模型 Mythos 可能引发无限制黑客行为的恐惧被夸大。HN 讨论链接显示社区关注此事。虽然具体技术细节未在当前摘要中披露，但标题明确表明安全担忧可能超过实际风险。这对于评估大模型安全边界具有重要参考意义。此前市场担忧该模型可能被用于自动化攻击，但最新媒体风向显示风险可控。此新闻缓解了部分行业对高级 AI 模型被恶意用于网络安全的焦虑，但仍需持续关注模型滥用边界。Anthropic 作为头部安全导向公司，其模型评估结果影响行业信心。",
-    "tags": [
-      "News",
-      "Security",
-      "Anthropic"
-    ],
-    "link": "https://www.reuters.com/business/fears-unfettered-hacking-spurred-by-anthropics-mythos-ai-model-overstated-2026-05-20/",
-    "date": "2026-05-20",
-    "id": "17792961085283"
-  },
-  {
-    "title": "Aperion Shield：本地 AI 编码代理安全护栏",
-    "summary": "开源本地护栏，阻止 AI 代理执行 destructive 操作。",
-    "detail": "Aperion Shield 是一款专为 AI 编码代理设计的开源本地 guardrail 工具，旨在阻止破坏性操作。它包裹任何 MCP 服务器，在执行前拦截 destructive 工具调用，例如 DROP TABLE, rm -rf, force-push 或未 scoped 的 UPDATE/DELETE。项目基于 Rust 构建，支持 Docker 容器化部署，采用 Apache 2.0 许可完全免费。本地运行确保数据隐私，无需云端依赖。这为 AI 自主编码提供了关键安全保障，防止代理意外破坏系统或数据，是 AI 工程化安全领域的重要基础设施补充，适合担心 AI 代理权限过大的开发团队使用。",
-    "tags": [
-      "Dev",
-      "Security",
-      "OpenSource"
-    ],
-    "link": "https://github.com/AperionAI/shield",
-    "date": "2026-05-20",
-    "id": "17792845398270"
-  },
-  {
-    "title": "初创公司是否需要 AI 数据分析师？",
-    "summary": "探讨 Byaan 代理 harness 如何解决 Text-to-SQL 痛点。",
-    "detail": "文章探讨初创公司数据查询痛点，介绍 Byaan 数据代理 harness。它靠近数据库运行，学习 schema 并保持只读默认设置。相比 BI 工具，它更适合处理长尾特定问题，避免为每个问题构建仪表板。文章分析了 Text-to-SQL 失败原因，强调代理需理解 schema 而非仅生成 SQL。这为数据代理落地提供实践参考，解决了工程师成为查询接口的瓶颈，适合需要灵活数据洞察的团队，展示了 AI 代理在数据查询领域的实际应用潜力与局限性。",
-    "tags": [
-      "Dev",
-      "Data",
-      "Agent"
-    ],
-    "link": "https://www.hadijaveed.me/2026/05/18/byaan-agent-harness-for-data-queries/",
-    "date": "2026-05-20",
-    "id": "17792845398271"
-  },
-  {
-    "title": "互联网上有多少 AI 垃圾内容？",
-    "summary": "分析 AI 生成内容泛滥现象及“脑腐”历史渊源。",
-    "detail": "文章深入探讨\"AI slop\"现象，追溯“脑腐”概念至 19 世纪梭罗的《瓦尔登湖》。指出当前媒体生态建立在低 effort 内容上，牛津已将 brain rot 列为词汇。作者提供了新的数据集和仪表板供订阅者浏览，覆盖电影、音乐等领域。这反映了对 AI 生成内容质量下降的行业担忧，以及信息生态恶化的趋势分析，提示我们关注内容真实性与价值。文章结合历史视角与现代数据，为理解 AI 对互联网内容质量的影响提供了深度洞察。",
-    "tags": [
-      "News",
-      "Trend",
-      "Content"
-    ],
-    "link": "https://www.statsignificant.com/p/how-much-of-the-internet-is-ai-slop",
-    "date": "2026-05-20",
-    "id": "17792845398272"
-  },
-  {
-    "title": "LLM INQUISITOR：真实工作流 AI 评估工具",
-    "summary": "评估 AI 在真实任务中的行为，而非基准测试。",
-    "detail": "LLM INQUISITOR 是 GitHub 上的行为评估标准工具，专注于 AI 在真实工作条件下的表现。它识别漂移、不稳定、矛盾等问题，而非依赖基准测试。提供可重复的评估方法、共享词汇和轻量级工作流，包含快速开始指南。适用于开发者、分析师和治理团队，旨在解决行业 85% 的 AI 失败率问题，强调实际可靠性，是 AI 治理和审计的重要工具。该方法论帮助团队在 AI 部署前发现潜在问题，确保模型在实际业务场景中的稳定性。",
-    "tags": [
-      "Dev",
-      "Evaluation",
-      "LLM"
-    ],
-    "link": "https://github.com/AssimilatedHuman/LLM-Inquisitor",
-    "date": "2026-05-20",
-    "id": "17792845398274"
   }
 ]
