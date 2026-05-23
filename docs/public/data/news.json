@@ -1,5 +1,31 @@
 [
   {
+    "title": "代理 AI 导致科技巨头成本激增",
+    "summary": "微软等公司因代理 AI token 消耗过大而退缩，成本危机显现。",
+    "detail": "报告显示代理 AI 的 token 用量是标准 AI 的 1000 倍，导致微软、Meta 等巨头面临成本危机，企业开始重新评估代理 AI 的部署策略。Tom's Hardware 指出员工过度使用 token 导致成本激增，引发企业撤回。这揭示了 Agentic AI 商业化路上的巨大经济障碍，Token 消耗失控可能阻碍大规模应用。未来企业需优化代理工作流，降低推理成本，否则 AI 代理的普及将受限于高昂的运营支出，行业需寻找更高效的架构。此现象警示开发者在设计 Agent 时需考虑成本效益，避免盲目调用模型，否则将导致项目不可持续。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Cost"
+    ],
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-cost-crisis-hits-tech-giants-as-employee-tokenmaxxing-backfires-agentic-ai-eats-up-to-1000x-more-tokens-than-standard-ai-sparks-corporate-pullback-at-microsoft-meta-and-amazon",
+    "date": "2026-05-23",
+    "id": "17795557456351"
+  },
+  {
+    "title": "开源项目 Knowledge 打造个人 AI 知识库",
+    "summary": "GitHub 新项目帮助开发者构建无广告 AI 阅读源，收录专家内容。",
+    "detail": "开发者推出 Knowledge 开源库，允许用户构建个人 AI 阅读列表，收录 450+ 行业专家内容，无算法干扰，适合开发者追踪前沿技术。GitHub 项目旨在打造无广告、无算法的个人图书馆，帮助用户沉淀有价值信息。支持索引和搜索，可浏览如 Hinton 等大佬的书单。这为信息过载时代的开发者提供了高效学习工具，促进知识沉淀。通过 curated 内容，用户可避免噪音，专注于高质量技术资讯，提升学习效率。该项目体现了社区对高质量信息源的渴望，是开发者构建个人知识体系的优秀实践。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Tools"
+    ],
+    "link": "https://github.com/raphaelsty/knowledge",
+    "date": "2026-05-23",
+    "id": "17795557456364"
+  },
+  {
     "title": "Google 搜索 25 年来最大升级，AI 重塑互联网搜索",
     "summary": "Google 搜索迎来 25 年来最大更新，支持生成视觉内容及迷你应用。",
     "detail": "Google 宣布搜索框迎来 25 年来最大升级，旨在适应用户日益更长、更复杂的查询需求。新产品副总裁表示，用户不再满足于简单关键词，而是提出互联网上无明确答案的复杂问题。新功能可生成自定义视觉内容、交互式图形甚至直接在搜索页面运行迷你应用，通过拼凑网络来源响应查询。这标志着 AI 正在从根本上改变互联网搜索、社交及购物方式，最宝贵的互联网房地产正在演变。用户习惯正向自然语言交互转变，AI 无处不在，尽管存在对就业和安全的焦虑，但技术正成为生活方式的一部分。",
@@ -323,6 +349,19 @@
     "link": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
     "date": "2026-05-23",
     "id": "17794954171802"
+  },
+  {
+    "title": "Google AI 搜索被指忽视用户意图",
+    "summary": "The Verge 报道 Google AI 搜索存在严重缺陷，可靠性受质疑。",
+    "detail": "The Verge 报道 Google AI 搜索概述功能被批评过于破碎，甚至会“忽视”用户寻找的内容，引发对 AI 搜索可靠性的担忧，影响用户体验。这一问题暴露了当前 AI 搜索技术在理解用户意图上的缺陷，可能导致信息检索效率下降。作为搜索巨头，Google 的 AI 化进程遭遇挫折，需尽快修复算法偏差。用户信任是搜索业务的核心，若 AI 概述频繁出错，将迫使用户回归传统链接列表，阻碍 AI 搜索的普及进程。此事件也提醒行业，AI 集成需以保证准确性为前提，否则将损害品牌信誉。",
+    "tags": [
+      "News",
+      "Search",
+      "Google"
+    ],
+    "link": "https://www.theverge.com/tech/936176/google-ai-overviews-search-disregard",
+    "date": "2026-05-22",
+    "id": "17795557456362"
   },
   {
     "title": "Anthropic 展示 Coding 未来：半数开发者直接使用 AI 代码",
@@ -780,6 +819,32 @@
     "id": "17794261186425"
   },
   {
+    "title": "Google 重磅推出 AI 代理生态系统",
+    "summary": "Google I/O 发布 AI 代理，整合 Gmail 等应用，但用户接受度存疑。",
+    "detail": "Google 在 I/O 大会重磅推出 AI 代理生态系统，包括信息代理和 Gemini Spark。前者后台跟踪市场与天气，后者整合 Gmail 等 Workspace 产品管理数字生活。尽管功能强大，但 TechCrunch 指出消费者可能不买账，概念略显 confusing。这标志着 Google 试图重塑用户与 Web 交互的方式，但实际落地效果待观察。此外，Android Halo 用于跟踪通知，显示 Google 正构建全方位的代理体验。然而，工程思维过重的示例（如组织街区派对）可能偏离用户实际需求，市场接受度面临挑战。此次发布反映了大厂在 Agent 领域的激进布局，但如何平衡技术能力与用户真实痛点仍是关键。",
+    "tags": [
+      "News",
+      "Google",
+      "AI Agents"
+    ],
+    "link": "https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/",
+    "date": "2026-05-21",
+    "id": "17795557456350"
+  },
+  {
+    "title": "诺贝尔文学奖得主承认使用 AI 引发争议",
+    "summary": "波兰作家 Tokarczuk 承认使用 AI 创作，引发伦理讨论。",
+    "detail": "诺贝尔文学奖得主 Tokarczuk 承认在创作中使用 AI，引发文学界关于 AI 生成内容与伦理的广泛争议，凸显 AI 对创意行业的冲击。Notes From Poland 报道了这一消息，表明 AI 已渗透至高端创意领域。这不仅挑战了传统创作的定义，也引发了关于版权和原创性的讨论。随着 AI 工具普及，创意行业需建立新的伦理标准，区分人类创意与 AI 辅助，以维护艺术价值的独特性。此事件可能推动学术界和出版界制定更严格的 AI 使用披露政策，影响未来文学作品的评审标准。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Culture"
+    ],
+    "link": "https://notesfrompoland.com/2026/05/21/polish-nobel-literature-laureate-tokarczuk-sparks-controversy-after-admitting-using-ai/",
+    "date": "2026-05-21",
+    "id": "17795557456363"
+  },
+  {
     "title": "AI 周报：OpenAI 数学突破与 Karpathy 加盟 Anthropic",
     "summary": "OpenAI 解决数学难题，Karpathy 加入 Anthropic 研究自我改进。",
     "detail": "**核心动态**：OpenAI 取得首个令人印象深刻的 AI 数学成果，解决了单位距离问题，标志 AI 创造新知识能力。**人才流动**：Andrej Karpathy 正式加入 Anthropic，专注于递归自我改进研究，计划成功后回归教育。**法律进展**：Elon Musk 诉 OpenAI 案因等待太久被驳回。此外，白宫预计发布 AI 行政命令，METR 发布前沿模型风险报告。行业进入新知识与强监管并行的关键阶段，技术突破与政策约束同步加剧，开发者需关注合规与能力边界。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.wired.com/story/elon-musk-spacex-spending-gas-turbines-grok/",
     "date": "2026-05-20",
     "id": "17794909824660"
-  },
-  {
-    "title": "十二种评估 AI 辅助编程的错误方式",
-    "summary": "文章警告不要用代码行数衡量 AI 生产力，应关注实际产出与维护成本。",
-    "detail": "文章指出评估 AI 编程工具时常见的误区，如单纯统计生成的代码行数。更多代码不代表更高生产力，反而可能增加维护负担。正确的评估应关注 ticket 关闭率、代码质量及开发者满意度。作者强调软件工程需要借鉴人文科学研究方法，避免被代理指标误导，建议企业采用更科学的研究方法来衡量 AI 工具的實際投资回报率。删除 tangled logic 并替换为 clean code 是改进，但在代码行数指标上看似损失。AI 对未来负担的贡献未出现在计数中。管理者若下周被要求证明 AI 工具价值，应避免 flawed approaches，如 survey 或 lines of code，而应寻求更 robust 的 metrics。这种错误衡量可能导致团队追求数量而非质量，最终损害软件长期可维护性。",
-    "tags": [
-      "Dev",
-      "BestPractices",
-      "Productivity"
-    ],
-    "link": "https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong/",
-    "date": "2026-05-20",
-    "id": "17794909824663"
-  },
-  {
-    "title": "Z 世代毕业生抗议 AI 背后的就业市场焦虑",
-    "summary": "毕业生嘘声并非针对 AI 技术，而是担忧 AI 导致的失业风险。",
-    "detail": "**社会现象**：美国毕业典礼上学生嘘声回应 AI 相关演讲，包括 Eric Schmidt 的讲话。**数据支撑**：ServiceNow CEO 预测两年内新毕业生失业率可能达 30%，因 AI 吸收入门级白领工作。**解读**：Z 世代准确读取了劳动力市场信号，抗议的是技术带来的冗余风险而非技术本身。就业市场结构性变化已成共识。Eric Schmidt 等高管试图安抚，但学生反应表明对 AI 取代入门级白领工作的担忧真实存在，教育体系与市场需求脱节问题凸显，代际冲突加剧。",
-    "tags": [
-      "News",
-      "JobMarket",
-      "Social"
-    ],
-    "link": "https://thenextweb.com/news/gen-z-commencement-boos-ai-redundancy-cohort",
-    "date": "2026-05-20",
-    "id": "17794793521474"
-  },
-  {
-    "title": "2026 开发者 AI 现状报告：AI 生成代码占比翻倍",
-    "summary": "最新调查显示开发者 AI 生成代码比例从 28% 跃升至 56%，AI 编码成常态。",
-    "detail": "《2026 AI 现状》调查收集了 7,258 名开发者数据。关键趋势显示，AI 辅助编码已从早期实验转变为标准实践。AI 生成代码比例从 2025 年的 28% 激增至 56%，频繁使用 AI 的开发者比例翻倍。高增长段集中在 75% 以上用户群。这表明 AI 工具已深度融入开发工作流，行业正经历从辅助到依赖的转折点，对代码质量和审查流程提出新挑战。尽管存在选择偏差，但数据清晰反映了 AI 在软件开发中的普及速度，开发者需适应人机协作的新常态。",
-    "tags": [
-      "News",
-      "Survey",
-      "Coding"
-    ],
-    "link": "https://2026.stateofai.dev/en-US",
-    "date": "2026-05-20",
-    "id": "17794724775781"
-  },
-  {
-    "title": "中美公众对 AI 态度差异显著",
-    "summary": "斯坦福报告显示 85% 中国受访者认为 AI 利大于弊，远超美国，影响政策制定。",
-    "detail": "斯坦福 2026 AI 指数报告显示，超 85% 中国受访者视 AI 为有益，而美国不足 45%。中国用户更愿信任 AI 输出并在工作中使用，88% 有意使用该技术。文章分析了这种乐观情绪背后的文化与社会因素，指出中国 AI 乐观主义并非表面那么简单。相比美国对失业和数据中心的恐惧，中国公众更倾向于接受自动化带来的效率提升。这种民意差异可能影响两国 AI 政策的制定方向及企业落地策略，显示出全球 AI 发展环境的显著分化。对于跨国 AI 企业而言，理解这种区域性的态度差异，将是制定本地化市场策略的关键成功因素，避免文化误判。",
-    "tags": [
-      "News",
-      "Market",
-      "Survey"
-    ],
-    "link": "https://asteriskmag.substack.com/p/chinas-ai-optimism-isnt-what-it-seems",
-    "date": "2026-05-20",
-    "id": "17794650628162"
-  },
-  {
-    "title": "AI 模型通胀：巨头定价策略背后的资本博弈",
-    "summary": "Tom Tunguz 分析 Google、OpenAI 及 Anthropic 的定价策略，揭示资本支出与利润率的平衡。",
-    "detail": "### 价格趋势\n2026 年 5 月 20 日，Tom Tunguz 指出 Google AI 价格每年 triple，OpenAI 旗舰模型先补贴后涨价，Anthropic 则维持高价后微调。Google Gemini 3.1 Pro 输入$2/1M，仍低于竞品半数。\n\n### 战略解读\n定价变化反映厂商策略：现金充裕时降价抢份额，资本支出压力大时涨价保利润。目前三家均面临 Capex 记录新高，转向关注利润率。\n\n### 开发者影响\nAPI 成本波动影响应用落地成本，开发者需关注模型性价比，避免过度依赖单一供应商，优化架构以应对价格通胀。",
-    "tags": [
-      "News",
-      "Pricing",
-      "LLM"
-    ],
-    "link": "https://tomtunguz.com/ai-model-inflation/",
-    "date": "2026-05-20",
-    "id": "17794261186422"
   }
 ]
