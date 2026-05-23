@@ -1,5 +1,70 @@
 [
   {
+    "title": "英伟达推出 Nemotron-Labs 扩散语言模型加速文本生成",
+    "summary": "Hugging Face 博客披露英伟达新技术，旨在实现光速文本生成。",
+    "detail": "英伟达通过 Hugging Face 博客发布 Nemotron-Labs 扩散语言模型研究。该技术尝试利用扩散模型架构优化文本生成速度，追求“光速”生成体验。这是底层模型架构的重要探索，可能为未来 LLM 推理延迟问题提供新的解决方案。对于关注高性能推理的开发者而言，该技术细节值得关注与实验。扩散模型在语言生成上的应用代表了新的技术方向，可能改变现有 Transformer 主导的格局。Nvidia 此举展示了其在基础研究领域的持续投入，旨在解决生成速度的瓶颈，为实时交互应用铺平道路，技术论文细节值得深入研读。",
+    "tags": [
+      "Dev",
+      "Nvidia",
+      "LLM"
+    ],
+    "link": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+    "date": "2026-05-23",
+    "id": "17794954171802"
+  },
+  {
+    "title": "廉价 AI 模型恐挫败 OpenAI 与 Anthropic 的 IPO 计划",
+    "summary": "竞争加剧导致 AI 成本下降，可能影响巨头估值与上市前景。",
+    "detail": "CNBC 报道指出，本财报季 Meta、Shopify 等公司已标记 AI 推理成本拖累利润率。随着中国实验室及西方挑战者（如 Mistral）提供更廉价模型，AI 成本下降冲击 OpenAI 和 Anthropic 基于高定价权力的 IPO 估值逻辑（预计超 8000 亿美元）。企业预算虽增，但性价比成为新考量，巨头垄断溢价面临挑战，中央估值前提可能消失。若成本差距持续扩大，届时提交招股书时，其核心估值前提可能已不复存在，投资者需警惕市场格局变化。此外，45% 的公司表示 AI 支出增加，但规模经济被 LLM 成本抵消，显示行业正进入成本敏感期，定价模型面临重构风险，廉价 AI 浪潮可能重塑竞争格局。",
+    "tags": [
+      "News",
+      "IPO",
+      "Market"
+    ],
+    "link": "https://www.cnbc.com/2026/05/20/cheap-ai-could-derail-openai-and-anthropics-ipos.html",
+    "date": "2026-05-22",
+    "id": "17794954171800"
+  },
+  {
+    "title": "谷歌 AI 代理真的仅耗 916 美元构建了操作系统吗？",
+    "summary": "质疑谷歌 Gemini 3.5 Flash 构建 OS 的成本与自动化程度真实性。",
+    "detail": "谷歌在开发者大会上宣称 Gemini 3.5 Flash 代理团队仅用单提示词和 916 美元构建了操作系统，由数十个子代理协作。但分析指出提示词实际长达数千行，且依赖 specialized scaffold 架构。人类干预程度未明示，引发对 AI 代理实际工程能力及成本效益的质疑。我们不知 scaffold 是否过拟合，需理性看待营销宣传与真实自动化水平，复杂软件工程是否真能廉价建成尚待验证。博客虽将 scaffold 视为产品功能，但未说明其在其他任务的表现，这可能只是特定任务的特例，而非通用能力的突破，开发者应谨慎评估代理技术的成熟度。",
+    "tags": [
+      "News",
+      "Google",
+      "Agents"
+    ],
+    "link": "https://www.normaltech.ai/p/did-googles-ai-agents-really-build",
+    "date": "2026-05-22",
+    "id": "17794954171801"
+  },
+  {
+    "title": "开发者实测：Claude Code 单月消耗 3 万美元 Token 费用",
+    "summary": "Indie Hackers 用户分享高额 Token 使用案例，揭示 AI 编程成本。",
+    "detail": "一位开发者在 Indie Hackers 分享其 Claude Code 使用数据，单月消耗价值 30,983 美元的 Token，而订阅费仅 200 美元。这揭示了\"vibe coding\"模式下的潜在隐性成本与资源消耗。数据平台 tokenflex.ing 应运而生，帮助开发者追踪 AI 工具的实际用量与效率，类似 AI 时代的 GitHub _profile。许多人直到查看数据才发现用量惊人，这反映了 AI 编程工具普及后的成本透明度问题。该案例展示了重度用户如何利用低价计划获取高额价值，同时也暗示了服务商可能面临的滥用风险与定价策略调整压力，成本模型需重新审视。",
+    "tags": [
+      "Dev",
+      "Claude",
+      "Cost"
+    ],
+    "link": "https://www.indiehackers.com/post/i-used-30-983-of-ai-tokens-last-month-in-claude-code-on-200-mo-plan-3337a369a6",
+    "date": "2026-05-22",
+    "id": "17794954171803"
+  },
+  {
+    "title": "学术界展望：AI 辅助医学的未来潜力与挑战",
+    "summary": "美国艺术与科学院文章探讨 AI 在医疗领域的深远影响与现状。",
+    "detail": "美国艺术与科学院文章汇集了 Hinton、Hassabis 等领袖观点，认为 AI 将在十年内终结疾病或大幅延长寿命，模型诊断能力将超越专家。然而，具体实现路径仍模糊。文章旨在填补愿景与细节间的空白，提供 AI 变革医疗的未来视角，强调需关注具体落地而非仅止于宏大预言。尽管前景鼓舞人心，但如何将 AI 整合进医疗流程仍是关键，需解决具体实施 gap。Suleyman 预测几年内模型将优于大多数专家 clinicians，但文章指出具体转化机制仍需深入探讨，避免过度炒作，医疗 AI 的实际落地仍面临数据与监管挑战。",
+    "tags": [
+      "News",
+      "Healthcare",
+      "Research"
+    ],
+    "link": "https://www.amacad.org/publication/daedalus/future-ai-facilitated-medicine",
+    "date": "2026-05-22",
+    "id": "17794954171804"
+  },
+  {
     "title": "Meta 离职员工发布视频反对 AI 培训与大规模裁员",
     "summary": "Meta 内部动荡，离职员工发布视频批评公司在裁员期间仍进行 AI 培训。",
     "detail": "在 Meta 大规模裁员期间，一名离职员工在公司内部发布了尖锐的反 AI 视频。该视频批评公司在削减人力成本的同时，仍投入资源进行 AI 培训，揭示了科技巨头在 AI 转型期的内部矛盾与文化冲突。这一事件反映了员工对 AI 取代工作的担忧，以及管理层在效率与人文关怀之间的失衡，可能引发更多关于 AI 伦理与员工权益的讨论。视频内容直指 Andrew Bosworth 等高层，显示了内部对 AI 战略的分歧。随着 AI 自动化推进，此类冲突可能在更多科技公司上演，迫使企业重新审视人机协作的社会契约与组织文化。此举也可能影响 Meta 的雇主品牌，加剧人才流失风险，尤其是在 AI 伦理意识日益增强的背景下。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/AssimilatedHuman/LLM-Inquisitor",
     "date": "2026-05-20",
     "id": "17792845398274"
-  },
-  {
-    "title": "统一人类、CI 和 AI 代理的开发环境",
-    "summary": "提出 devcontainer + Nix + Docker 方案消除环境漂移。",
-    "detail": "文章指出 AI 代理成为开发环境的第三类受众，传统的人类与 CI 环境一致性已不足够。提出使用 devcontainer + Nix + Docker 组合，配合自定义工具，确保代码在人类、CI 和 AI 代理间行为一致。解决了代理因环境缺失导致的失败，如命令找不到。为 AI 原生开发基础设施提供新范式，消除“第三轴漂移”，确保代理能顺利运行测试和编辑代码。这对于构建可靠的 AI 辅助开发流程至关重要，减少了因环境差异导致的调试成本。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "Agent"
-    ],
-    "link": "https://ralch.com/blog/one-dev-environment-for-humans-ci-and-agents/",
-    "date": "2026-05-20",
-    "id": "17792845398275"
-  },
-  {
-    "title": "Agyn：开源 Kubernetes AI 代理运行时",
-    "summary": "将 AI 代理从笔记本移至企业基础设施的 K8s 方案。",
-    "detail": "Agyn 是开源 Kubernetes 原生运行时，旨在将 Claude Code 等代理从本地移至公司基础设施。提供企业级控制，如秘密隔离、预算限制和集中部署。解决了代理在公司内部安全使用的问题，防止秘密泄露和预算失控。采用 AGPL v3 许可，支持 Discord 社区。为大规模部署 AI 代理提供了安全可控的基础设施层，让公司能安全地 ship AI agents。这使得企业能够在不牺牲安全性的前提下，充分利用 AI 代理的自动化能力。",
-    "tags": [
-      "New",
-      "Kubernetes",
-      "Enterprise"
-    ],
-    "link": "https://github.com/agynio/platform",
-    "date": "2026-05-20",
-    "id": "17792845398276"
-  },
-  {
-    "title": "Figma 在协作画布中新增 AI 助手",
-    "summary": "Figma 推出原生 AI 代理，支持自然语言生成设计。",
-    "detail": "Figma 宣布在其协作画布中集成原生 AI 助手，用户可通过自然语言提示生成新设计、编辑现有内容或自动化任务，甚至同时启动多个代理。该代理基于微调模型，理解设计上下文和元素。Figma 首席设计官 Loredana Crisan 表示这将帮助团队测试想法和细化概念。此前 Figma 已与 OpenAI 和 Anthropic 合作支持 CLI 工具。此举标志着设计软件向 AI 原生转型，将显著改变设计师工作流，提高创意迭代效率，agent 将首先在 Figma Design 中推出。",
-    "tags": [
-      "News",
-      "Design",
-      "Product"
-    ],
-    "link": "https://techcrunch.com/2026/05/20/figma-adds-an-ai-assistant-to-its-collaborative-canvas/",
-    "date": "2026-05-20",
-    "id": "17792845398277"
-  },
-  {
-    "title": "Chronify：AI 聊天与文件时间线管理工具",
-    "summary": "将散乱的 AI 对话与文档整合为单一时间线，支持事实提取。",
-    "detail": "Chronify 是一款旨在优化专业研究工作流的创新工具，能将分散的 AI 聊天记录、邮件和文档整合为精确的时间线。核心功能包括 AI 事实自动提取、多源导入（支持 ChatGPT 等 9+ 平台）及加密云存储。它解决了长期追踪高价值建议和证据的痛点，适合需要管理复杂案例的专业人士。平台承诺数据加密且不被用于模型训练，确保隐私安全。通过构建可搜索、可过滤的时间线，用户能轻松导航数月甚至数年的关键事件，从被动搜索转向主动掌握工作流，显著提升长期项目管理的效率与准确性，是 AI 时代知识管理的有力辅助。",
-    "tags": [
-      "New",
-      "Productivity",
-      "AI Agents"
-    ],
-    "link": "https://chronify.life",
-    "date": "2026-05-20",
-    "id": "17792744226290"
-  },
-  {
-    "title": "Professor Goose：基于主动回忆的 AI 学习导师",
-    "summary": "不直接给答案，通过提问帮助用户发现知识盲区的 AI 导师。",
-    "detail": "Professor Goose 是一款独特的 AI 学习工具，采用“主动回忆”教学法，旨在帮助用户真正掌握概念而非表面记忆。它不给答案，而是通过不断追问用户解释中的漏洞来强化理解，支持语音和文本输入。该项目展示了 AI 在教育领域从“灌输”转向“引导”的新趋势。用户需向“鹅”解释概念，AI 会识别手挥之处并提问，直到用户真正理解。这种反直觉的设计避免了 AI 直接提供答案导致的依赖性，适合需要深度学习的学生和专业人士。目前版本 2.0 已优化惩罚机制，订阅制模式，验证了其方法的有效性，是 AI 教育应用的一次有趣探索。",
-    "tags": [
-      "New",
-      "EdTech",
-      "LLM"
-    ],
-    "link": "https://professorgoose.com/?version=2.0",
-    "date": "2026-05-20",
-    "id": "17792744226291"
   }
 ]
