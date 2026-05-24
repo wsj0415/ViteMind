@@ -1,5 +1,57 @@
 [
   {
+    "title": "AgentGate 开源 AI 代理安全授权层",
+    "summary": "解决 AI 代理权限失控问题，提供实时行为拦截与委托链验证。",
+    "detail": "针对自主 AI 代理规模部署带来的安全隐患，AgentGate 提供了开源安全层。传统 OAuth 无法检测代理越权或行为漂移，该工具通过 Ed25519 JWT 验证身份，实时遍历委托链，并利用嵌入评分确保行为与目的对齐。支持 Python/TS SDK 及 LangGraph，旨在成为企业级代理的安全网关，防止凭证滥用。其核心在于拦截执行前动作，通过四个维度评分，确保委托链完整性，原子化撤销可中和所有后代代理，解决了现有身份系统假设良好行为的缺陷。企业部署自主代理时，每个代理都是潜在攻击面，AgentGate 通过拦截执行前动作，确保无代理绕过网关，为 AI 安全基础设施树立了新标准。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://www.tryagentgate.com/",
+    "date": "2026-05-24",
+    "id": "17796600559810"
+  },
+  {
+    "title": "AI 首次接管飞机驾驶，航空业迈向自主飞行",
+    "summary": "Merlin Labs 测试 AI 飞行员，通过 NLP 与空管交互，缓解飞行员短缺。",
+    "detail": "航空业正面临飞行员短缺与空管压力，Merlin Labs 展示了 AI 驾驶系统。测试中 AI 通过 NLP 模型监听空管指令并语音回复，接管了大部分驾驶任务。这标志着航空自动化从传统 autopilot 向自主决策演进，虽目前仍为实验阶段，但为未来完全自主飞行及缓解人力危机提供了技术验证。波音估计未来二十年需 60 万新飞行员，AI 辅助成为关键解决方案，华盛顿政策层面也开始支持此技术演进。交通部长等官员的关注表明，监管框架正在适应新技术，以确保安全的同时推动自动化，这可能重塑未来航空业的操作标准与人员结构。",
+    "tags": [
+      "News",
+      "Aviation",
+      "LLM"
+    ],
+    "link": "https://www.cnn.com/2026/05/24/us/ai-flying-airplanes",
+    "date": "2026-05-24",
+    "id": "17796600559811"
+  },
+  {
+    "title": "Hacker News 热议：开发者日常 AI 工具栈大公开",
+    "summary": "社区分享 Claude、Deepseek 及 Pi Agent 等实际开发工作流与替代方案。",
+    "detail": "Hacker News 社区讨论了开发者日常 AI 工具栈。用户分享了从 Claude 转向 Pi Agent 的趋势，以及 Deepseek、Tuicr 等工具的实际应用。这反映了开发者对编码 Agent 及本地代码审查工具的依赖增加，为行业提供了真实工作流参考，显示出 AI 辅助编程正从单纯代码生成向代理化工作流转变。用户特别提到 Pi 代理在编码任务中的优势，以及探索 Superset 的意向，体现了工具选代的快速性。讨论还涉及哪些工具被停止使用，这种负面反馈同样具有价值，帮助开发者避开低效工具，优化每日工作流，提升整体编码效率与体验。",
+    "tags": [
+      "Dev",
+      "Community",
+      "Tools"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48259299",
+    "date": "2026-05-24",
+    "id": "17796600559812"
+  },
+  {
+    "title": "Neuro 编程语言：基于 LLVM 20 的 AI 专用编译语言",
+    "summary": "专为高性能 AI 负载设计，支持 AOT 编译，目前处于 Alpha 阶段。",
+    "detail": "Neuro 是一种基于 LLVM 20 构建的现代化编译语言，专为高性能 AI 负载设计。目前处于 Alpha 阶段，核心 MVP 已完成。支持 AOT 编译，旨在解决现有语言在 AI 工作负载上的性能瓶颈。作为底层基础设施创新，它为 AI 开发提供了新的语言级优化可能，适合对性能敏感的系统级 AI 应用开发。项目采用 Neuro Shared Source License v2.1 许可，测试通过率显示其核心功能已具备可用性，是 AI 基础设施层的重要探索。语言语法设计现代化，架构清晰，虽然目前处于 Phase 1.5 开发中，但已展示出一秒内编译运行的能力，预示着 AI 专用语言可能成为未来高性能计算的关键组成部分。",
+    "tags": [
+      "Dev",
+      "Programming",
+      "Infrastructure"
+    ],
+    "link": "https://github.com/PanzerPeter/Neuro",
+    "date": "2026-05-24",
+    "id": "17796600559813"
+  },
+  {
     "title": "AI 智能体推导牛顿引力常数精度达 1.86 ppm",
     "summary": "无学位研究者指导 AI 发现引力常数高精度关系，匹配 CODATA 2022 数据。",
     "detail": "该项目通过 AI 智能体进行 26.7 亿次表达式搜索，发现了一个封闭形式表达式，仅需电子质量、普朗克常数等即可推导 G 值。误差在 CODATA 不确定度范围内。这展示了 AI 在基础科学发现中的潜力，即便由非专业人士指导也能取得高精度成果，为 AI 科研助手提供了新案例。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.cnbc.com/2026/05/20/cheap-ai-could-derail-openai-and-anthropics-ipos.html",
     "date": "2026-05-22",
     "id": "17794954171800"
-  },
-  {
-    "title": "谷歌 AI 代理真的仅耗 916 美元构建了操作系统吗？",
-    "summary": "质疑谷歌 Gemini 3.5 Flash 构建 OS 的成本与自动化程度真实性。",
-    "detail": "谷歌在开发者大会上宣称 Gemini 3.5 Flash 代理团队仅用单提示词和 916 美元构建了操作系统，由数十个子代理协作。但分析指出提示词实际长达数千行，且依赖 specialized scaffold 架构。人类干预程度未明示，引发对 AI 代理实际工程能力及成本效益的质疑。我们不知 scaffold 是否过拟合，需理性看待营销宣传与真实自动化水平，复杂软件工程是否真能廉价建成尚待验证。博客虽将 scaffold 视为产品功能，但未说明其在其他任务的表现，这可能只是特定任务的特例，而非通用能力的突破，开发者应谨慎评估代理技术的成熟度。",
-    "tags": [
-      "News",
-      "Google",
-      "Agents"
-    ],
-    "link": "https://www.normaltech.ai/p/did-googles-ai-agents-really-build",
-    "date": "2026-05-22",
-    "id": "17794954171801"
-  },
-  {
-    "title": "开发者实测：Claude Code 单月消耗 3 万美元 Token 费用",
-    "summary": "Indie Hackers 用户分享高额 Token 使用案例，揭示 AI 编程成本。",
-    "detail": "一位开发者在 Indie Hackers 分享其 Claude Code 使用数据，单月消耗价值 30,983 美元的 Token，而订阅费仅 200 美元。这揭示了\"vibe coding\"模式下的潜在隐性成本与资源消耗。数据平台 tokenflex.ing 应运而生，帮助开发者追踪 AI 工具的实际用量与效率，类似 AI 时代的 GitHub _profile。许多人直到查看数据才发现用量惊人，这反映了 AI 编程工具普及后的成本透明度问题。该案例展示了重度用户如何利用低价计划获取高额价值，同时也暗示了服务商可能面临的滥用风险与定价策略调整压力，成本模型需重新审视。",
-    "tags": [
-      "Dev",
-      "Claude",
-      "Cost"
-    ],
-    "link": "https://www.indiehackers.com/post/i-used-30-983-of-ai-tokens-last-month-in-claude-code-on-200-mo-plan-3337a369a6",
-    "date": "2026-05-22",
-    "id": "17794954171803"
-  },
-  {
-    "title": "学术界展望：AI 辅助医学的未来潜力与挑战",
-    "summary": "美国艺术与科学院文章探讨 AI 在医疗领域的深远影响与现状。",
-    "detail": "美国艺术与科学院文章汇集了 Hinton、Hassabis 等领袖观点，认为 AI 将在十年内终结疾病或大幅延长寿命，模型诊断能力将超越专家。然而，具体实现路径仍模糊。文章旨在填补愿景与细节间的空白，提供 AI 变革医疗的未来视角，强调需关注具体落地而非仅止于宏大预言。尽管前景鼓舞人心，但如何将 AI 整合进医疗流程仍是关键，需解决具体实施 gap。Suleyman 预测几年内模型将优于大多数专家 clinicians，但文章指出具体转化机制仍需深入探讨，避免过度炒作，医疗 AI 的实际落地仍面临数据与监管挑战。",
-    "tags": [
-      "News",
-      "Healthcare",
-      "Research"
-    ],
-    "link": "https://www.amacad.org/publication/daedalus/future-ai-facilitated-medicine",
-    "date": "2026-05-22",
-    "id": "17794954171804"
-  },
-  {
-    "title": "Meta 离职员工发布视频反对 AI 培训与大规模裁员",
-    "summary": "Meta 内部动荡，离职员工发布视频批评公司在裁员期间仍进行 AI 培训。",
-    "detail": "在 Meta 大规模裁员期间，一名离职员工在公司内部发布了尖锐的反 AI 视频。该视频批评公司在削减人力成本的同时，仍投入资源进行 AI 培训，揭示了科技巨头在 AI 转型期的内部矛盾与文化冲突。这一事件反映了员工对 AI 取代工作的担忧，以及管理层在效率与人文关怀之间的失衡，可能引发更多关于 AI 伦理与员工权益的讨论。视频内容直指 Andrew Bosworth 等高层，显示了内部对 AI 战略的分歧。随着 AI 自动化推进，此类冲突可能在更多科技公司上演，迫使企业重新审视人机协作的社会契约与组织文化。此举也可能影响 Meta 的雇主品牌，加剧人才流失风险，尤其是在 AI 伦理意识日益增强的背景下。",
-    "tags": [
-      "News",
-      "Meta",
-      "Layoffs"
-    ],
-    "link": "https://www.motherjones.com/politics/2026/05/meta-video-ai-training-layoffs-video-exclusive-mci-bosworth-frenk/",
-    "date": "2026-05-22",
-    "id": "17794909824664"
   }
 ]
