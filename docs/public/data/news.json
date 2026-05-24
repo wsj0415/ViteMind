@@ -1,5 +1,70 @@
 [
   {
+    "title": "OpenAI 与英伟达采用 Google SynthID 进行 AI 内容水印",
+    "summary": "多家巨头采用 Google 水印技术，解决 AI 生成内容溯源难题。",
+    "detail": "Google 推出的 SynthID 水印系统正成为行业标准，OpenAI、Nvidia、ElevenLabs 等巨头已接入，累计处理千亿级媒体文件。与传统元数据不同，SynthID 将水印嵌入像素或波形，难以通过截图或压缩去除，解决了 metadata 易丢失问题。这标志着 AI 内容监管从“可选”走向“基础设施化”，为版权保护和虚假信息识别提供不可篡改的技术底座。随着生成内容逼真度提升，人工鉴别失效，水印技术成为唯一可靠溯源手段，行业协同效应显著，可能推动相关合规政策落地。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Google"
+    ],
+    "link": "https://firethering.com/openai-nvidia-using-google-synthid-ai-watermarking/",
+    "date": "2026-05-24",
+    "id": "17796166642710"
+  },
+  {
+    "title": "ShannonBase：企业级 AI SQL 的轻量语义层解决方案",
+    "summary": "解决 NL2SQL 业务语义难题，支持多模型与自动 Schema 管理。",
+    "detail": "针对企业 analytics 中业务语义理解难点，ShannonBase 提出轻量级语义层架构。超越传统 Text2SQL，支持自动 Schema 元数据读取、SQL 验证修复及多模型（DeepSeek, Qwen, Llama）适配。旨在解决 LLM 生成 SQL 准确率高但业务逻辑对齐难的问题，为企业 AI Agent 落地提供数据层支持。该方案强调业务语义而非单纯语法转换，通过语义层屏蔽底层复杂性，提升企业级 AI SQL 的可靠性与可维护性。支持多 Schema 控制与完全限定表 enforcement，确保生成代码符合企业规范，降低落地门槛。",
+    "tags": [
+      "New",
+      "SQL",
+      "Enterprise AI"
+    ],
+    "link": "https://medium.com/@shannon.data.tech/shannonbase-the-lightweight-semantic-layer-for-enterprise-ai-sql-aac116b82a7e",
+    "date": "2026-05-24",
+    "id": "17796166642711"
+  },
+  {
+    "title": "从零到 AI 研究员：结构化 LLM 学习路径开源",
+    "summary": "GitHub 开源 8 阶段课程，涵盖 Transformer 到高级研究。",
+    "detail": "社区开源了结构化 LLM 学习路径，包含 8 个阶段课程。内容覆盖 Transformers 架构、预训练、微调、对齐、Agent 及高级研究。为开发者提供从零基础到研究员的系统化指南，填补了碎片化学习资源的空白，适合希望深入理解大模型底层技术的工程师。路径设计循序渐进，结合理论与实践，帮助学习者建立完整知识体系。涵盖从基础原理到前沿 research 的全流程，应对快速变化的 AI 研究领域，提升职业竞争力，是开发者自我进阶的优质参考资源。",
+    "tags": [
+      "Dev",
+      "Education",
+      "LLM"
+    ],
+    "link": "https://github.com/barvhaim/llm-learning-path",
+    "date": "2026-05-24",
+    "id": "17796166642712"
+  },
+  {
+    "title": "AI 辅助编程的代码可维护性风险控制方案",
+    "summary": "提出“可维护性棘轮”概念，防止 AI 生成代码质量退化。",
+    "detail": "针对 AI Agent 生成代码虽通过测试但增加维护风险的问题，提出 `riskratchet` 方案。通过监控圈复杂度、分支覆盖率等指标，防止代码库状态恶化。强调测试通过不等于可维护，需在 Review 环节引入风险检查，确保 AI 辅助编程不牺牲长期代码质量。该工具将代码退化可视化为 diff，帮助团队识别潜在风险，防止技术债务累积。具体检测包括公共函数覆盖率丢失、文件蔓延阈值等，为 AI 编程时代的质量保障提供新思路，确保敏捷性与稳定性的平衡。",
+    "tags": [
+      "Dev",
+      "Python",
+      "Best Practice"
+    ],
+    "link": "https://kayhan.dev/posts/014-letting-agents-write-code-without-ratcheting-up-risk/",
+    "date": "2026-05-24",
+    "id": "17796166642713"
+  },
+  {
+    "title": "端侧 AI 硬件困境：芯片层决定下一代产品生死",
+    "summary": "深圳硬件视角分析，AI 模型与端侧芯片算力存在巨大鸿沟。",
+    "detail": "基于深圳硬件生态观察，指出 AI 硬件产品失败主因是模型与端侧芯片算力不匹配。云 GPU 模型难以直接部署至电池供电设备。文章强调芯片层而非应用层将决定未来三年 AI 硬件存活率，现有电子产品类别可能需从芯片层重构以适配端侧 AI。硬件创始人常忽视硅片落地现实，导致量产失败。端侧 AI 要求低功耗、高算力芯片支持，供应链与制造执行需同步升级。这不仅是模型优化问题，更是硬件底层架构的革命，将重塑消费电子产品的定义与制造流程。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Edge AI"
+    ],
+    "link": "https://www.easelinktech.com/why-every-electronic-product-may-need-to-be-rebuilt-for-on-device-ai-the-chip-layer-will-decide-the-next-hardware-wave/",
+    "date": "2026-05-24",
+    "id": "17796166642714"
+  },
+  {
     "title": "MAXTOKEN 框架突破 AI 输出长度限制",
     "summary": "提出统一框架解决 LLM 输出 token caps 及长程推理成本问题。",
     "detail": "Zenodo 发布 MAXTOKEN 预印本，旨在解决 LLM 输出 token 限制（通常 8k-32k）及二次方注意力复杂度导致的长程推理成本问题。框架包含混合 SSM-Transformer 架构、Infini-Attention 及生成状态引擎等七层结构，支持无边界输出生成及仓库级代码理解。相比现有分块或 RAG 方案，它提供了数学证明以维持连贯性与经济可行性，引入逻辑状态引擎确保代码一致性。该框架还包含自适应推测解码及分层 KV 缓存管理，为构建经济可行的长上下文 AI 系统提供完整方案，突破当前模型输出边界。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.axios.com/2026/05/21/google-ai-anthropic-openai-war",
     "date": "2026-05-21",
     "id": "17794650628161"
-  },
-  {
-    "title": "加州州长签署行政命令应对 AI 失业风险",
-    "summary": "新闻姆签署首个行政命令，准备应对 AI 对劳动力的经济 disruption。",
-    "detail": "加州州长 Newsom 签署全国性首创行政命令，动员机构制定政策应对 AI 带来的经济 disruption。措施包括遣散费标准、就业保险、工人所有权模型及 Universal Basic Capital 概念。旨在确保工人分享 AI 生产力增益，而非仅惠及科技公司。标志着政府开始介入 AI 劳动力过渡保障。此命令要求州立机构与劳工专家合作，收集数据并识别劳动力 disruption 早期预警信号。这反映了政策制定者对 AI 可能导致的大规模失业和社会不平等的深切担忧，试图在技术创新与社会稳定之间寻找平衡点。未来政策可能涵盖更强力的招聘和 payroll 趋势追踪，以帮助加州更快响应潜在 layoffs。",
-    "tags": [
-      "News",
-      "Policy",
-      "Labor"
-    ],
-    "link": "https://www.gov.ca.gov/2026/05/21/governor-newsom-signs-first-of-its-kind-executive-order-to-prepare-workers-and-businesses-for-potential-ai-disruption/",
-    "date": "2026-05-21",
-    "id": "17794525375640"
-  },
-  {
-    "title": "特朗普撤回 AI 行政令：David Sacks 引发行业担忧",
-    "summary": "白宫在大卫·萨克斯提出行业关切后，撤回了原有的 AI 行政命令，显示政策博弈。",
-    "detail": "### 事件背景\n2026 年 5 月 21 日，Politico 报道指出，特朗普政府在 David Sacks 提出行业担忧后，撤回了此前拟定的 AI 行政命令。这一举动反映了美国政府内部在 AI 监管策略上的分歧。\n\n### 核心影响\nDavid Sacks 作为行业代表人物，其意见直接影响了白宫决策，表明科技巨头对政策制定拥有显著话语权。撤回命令可能意味着原有条款过于严苛或不切实际，阻碍了技术创新。\n\n### 行业展望\n此举短期内减轻了 AI 企业的合规压力，但长期来看，政策的不确定性可能增加。行业需密切关注后续政策动向，以调整合规策略。",
-    "tags": [
-      "News",
-      "Policy",
-      "Regulation"
-    ],
-    "link": "https://www.politico.com/news/2026/05/21/trump-ai-order-sacks-00933295",
-    "date": "2026-05-21",
-    "id": "17794261186420"
-  },
-  {
-    "title": "AI 工作流反思：优化错误变量与架构缺失",
-    "summary": "行业过度关注提示词技巧，忽视 durable 的 AI 解决方案架构，导致优化成果迅速过时。",
-    "detail": "### 核心问题\n2026 年 5 月 21 日文章指出，AI 建议经济中，许多技巧随模型版本更新迅速失效。厂商培训材料甚至落后于模型版本。\n\n### 架构缺失\n行业缺乏 AI 解决方案架构知识，过度优化短期瓶颈（如提示词），而非构建 durable 系统。例如 meal-plan 案例中，复杂 prompt 不如合适工具组合。\n\n### 改进建议\n开发者应关注系统结构设计，而非单纯依赖 prompt engineering。选择合适工具组合，构建可维护、预算可控的 AI 系统，避免技术债务。",
-    "tags": [
-      "Dev",
-      "Architecture",
-      "Best Practices"
-    ],
-    "link": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
-    "date": "2026-05-21",
-    "id": "17794261186423"
-  },
-  {
-    "title": "AI 正在终结廉价智能手机时代",
-    "summary": "文章分析 AI 算力需求如何推高硬件成本，导致廉价智能手机市场萎缩。",
-    "detail": "随着端侧 AI 模型对算力要求的提升，传统廉价智能手机的硬件架构难以支撑。文章指出，过去几十年计算设备成本大幅下降的趋势可能因 AI 而逆转。这对全球数字包容性构成挑战，迫使硬件厂商在成本与 AI 性能之间寻找新平衡，可能加速低端市场的洗牌，影响发展中国家用户的设备获取能力。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Market"
-    ],
-    "link": "https://davidoks.blog/p/ai-is-killing-the-cheap-smartphone",
-    "date": "2026-05-21",
-    "id": "17794020999881"
-  },
-  {
-    "title": "web-ai-sdk：构建浏览器原生 AI 应用的基石",
-    "summary": "发布专为 Web 内置 AI API 设计的 SDK，支持 WebMCP 协议与流式处理。",
-    "detail": "该 SDK 为开发者提供了调用浏览器原生 AI 模型的标准化方案，无需运行时依赖。核心特性包括会话复用、流式输出及 AbortSignal 生命周期管理。支持 TypeScript 和 React Hooks，旨在简化 WebMCP 工具注册与代理开发。这对于构建本地化、低延迟的 Web AI 应用具有重要参考价值，降低了浏览器端智能开发的门槛。",
-    "tags": [
-      "Dev",
-      "SDK",
-      "Web"
-    ],
-    "link": "https://web-ai-sdk.dev/",
-    "date": "2026-05-21",
-    "id": "17794020999882"
   }
 ]
