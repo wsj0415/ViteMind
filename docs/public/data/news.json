@@ -1,5 +1,57 @@
 [
   {
+    "title": "Vericoding：终结 AI 生成代码的“信任危机”",
+    "summary": "AI 代码漏洞率高达人类 2.74 倍，审查能力成行业新瓶颈。",
+    "detail": "文章指出“氛围编程”虽胜但隐患巨大。数据显示 AI 辅助代码安全漏洞比人类编写多 2.74 倍，45% 无法通过安全测试。Gartner 预测 2026 年 60% 新代码将由 AI 生成，但 AWS 强调审查能力而非产出才是瓶颈。Tea App 数据泄露等事件表明，机器生成速度远超验证速度，这种不对称性正引发软件危机，行业亟需新的验证标准。Vericoding 概念应运而生，旨在解决信任问题。",
+    "tags": [
+      "News",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://blog.icme.io/vericoding-the-end-of-trust-me-bro-the-ai-wrote-it/",
+    "date": "2026-05-24",
+    "id": "17796639671430"
+  },
+  {
+    "title": "硬件便携性是神话：AI 栈将走向专属化",
+    "summary": "内核层便携性不可行，硬件厂商将构建专属 DSL 以保性能。",
+    "detail": "Patrick Toulme 分析指出，AI 行业追求便携内核但实际都在构建硬件专属方案。TPU 有 Pallas，NVIDIA 有 CUDA 等五种 DSL。由于硬件架构差异，最优算法与内存策略完全不同，便携内核会导致性能大幅下降（如 30% vs 90% MFU）。未来最佳 AI 栈将不再便携，而是针对特定硅片优化，以消除数百万美元的算力浪费。初创公司应避免盲目追求硬件无关性，转而深耕特定平台性能优化。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "Hardware"
+    ],
+    "link": "https://twitter.com/PatrickToulme/status/2055709800986780028",
+    "date": "2026-05-24",
+    "id": "17796639671431"
+  },
+  {
+    "title": "AI 编程助手剩余挑战：记忆与自主测试",
+    "summary": "跨会话记忆缺失与生产环境权限是 Agent 落地两大难点。",
+    "detail": "Stephen Bochinski 指出当前 AI 编码工具在大型项目中仍缺两块拼图。首先是记忆，团队缺乏跨会话上下文共享机制，导致 Agent 重复犯错或遗忘需求。其次是端到端测试，Agent 需具备部署与测试权限以验证工作，但这违反最小权限原则。解决这两点后，工程师将仅需编写规范，其余交由机器完成。这需要重构开发流程与安全模型，以实现真正的自主编码。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "Coding"
+    ],
+    "link": "https://stephen.bochinski.dev/blog/2026/05/24/whats-left-for-ai-assisted-coding/",
+    "date": "2026-05-24",
+    "id": "17796639671432"
+  },
+  {
+    "title": "Mcgoats：集成 Claude Code 的游戏开发模板",
+    "summary": "支持多引擎的 AI 游戏模板，内置 CI/CD 与 TDD 强制 enforcement。",
+    "detail": "GitHub 发布 Mcgoats 模板，专为 AI 驱动的游戏开发设计。支持 Godot、Unity 和 Unreal 引擎，集成 Claude Code 助手进行交互式设置。模板包含经过验证的 CI/CD 流水线、自动合并队列及三层主分支保护，强制测试驱动开发（TDD）。开发者可通过命令行快速初始化生产级基础设施，显著降低新游戏项目的启动门槛。适合希望快速搭建合规工作流的独立开发者与小团队。",
+    "tags": [
+      "New",
+      "GameDev",
+      "Tools"
+    ],
+    "link": "https://github.com/Totes-MickGOATs/mcgoats-game-template",
+    "date": "2026-05-24",
+    "id": "17796639671433"
+  },
+  {
     "title": "AgentGate 开源 AI 代理安全授权层",
     "summary": "解决 AI 代理权限失控问题，提供实时行为拦截与委托链验证。",
     "detail": "针对自主 AI 代理规模部署带来的安全隐患，AgentGate 提供了开源安全层。传统 OAuth 无法检测代理越权或行为漂移，该工具通过 Ed25519 JWT 验证身份，实时遍历委托链，并利用嵌入评分确保行为与目的对齐。支持 Python/TS SDK 及 LangGraph，旨在成为企业级代理的安全网关，防止凭证滥用。其核心在于拦截执行前动作，通过四个维度评分，确保委托链完整性，原子化撤销可中和所有后代代理，解决了现有身份系统假设良好行为的缺陷。企业部署自主代理时，每个代理都是潜在攻击面，AgentGate 通过拦截执行前动作，确保无代理绕过网关，为 AI 安全基础设施树立了新标准。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.theverge.com/tech/936176/google-ai-overviews-search-disregard",
     "date": "2026-05-22",
     "id": "17795557456362"
-  },
-  {
-    "title": "Anthropic 展示 Coding 未来：半数开发者直接使用 AI 代码",
-    "summary": "Anthropic 开发者大会显示，近半数参会者曾直接部署未经阅读的 Claude 生成代码。",
-    "detail": "在伦敦举行的 Anthropic 开发者活动 Code with Claude 上，一项调查显示近半数参会者曾直接部署由 Claude 编写的代码，甚至未进行检查。Anthropic 表示希望将自动化推向极限，但这引发了关于代码质量的担忧。随着工具变得更好，开发者更愿意将工作交给 AI。这不仅改变了编码方式，也重塑了开发者对代码所有权的认知。MIT Technology Review 指出，无论人们是否喜欢，这都展示了编码的未来趋势，即人类与 AI 协作模式的根本性转变。许多开发者承认在推送代码前并未阅读 AI 生成的内容。这种趋势虽然提高了效率，但也带来了潜在的技术债务和安全风险。行业正在观察这种自动化边界扩展后的长期影响，以及是否需要新的审查机制来平衡速度与质量。",
-    "tags": [
-      "News",
-      "Coding",
-      "Anthropic"
-    ],
-    "link": "https://www.technologyreview.com/2026/05/22/1137845/the-download-coding-future-steroid-olympics-ai-science/",
-    "date": "2026-05-22",
-    "id": "17795349019841"
-  },
-  {
-    "title": "微软报告：AI 运营成本已超人类员工",
-    "summary": "微软内部数据显示，AI Token 与 Agent 成本高于雇佣人类员工，引发行业关注。",
-    "detail": "Fortune 报道指出，微软内部报告揭示 AI 部署的经济性问题。随着 Token 消耗和 Agent 运行频率增加，AI 任务的边际成本已超过雇佣人类员工。这一发现挑战了\"AI 必然降低成本”的行业共识，迫使企业重新评估 AI 代理的经济模型。该新闻在 Hacker News 上引发讨论，突显了 AI 规模化落地面临的成本瓶颈，可能影响未来企业 AI 战略的投资回报率预期及技术选型方向，表明当前 AI 代理经济性尚未达到理想状态，需优化 token 使用效率与 Agent 规划能力。",
-    "tags": [
-      "News",
-      "Microsoft",
-      "Cost"
-    ],
-    "link": "https://fortune.com/2026/05/22/microsoft-ai-cost-problem-tokens-agents/",
-    "date": "2026-05-22",
-    "id": "17795114783301"
-  },
-  {
-    "title": "美国国会图书馆利用 AI 与志愿者解锁历史档案",
-    "summary": "国会图书馆通过 FixIt+ 平台，结合 AI 转录与志愿者校对，使历史公共媒体可搜索。",
-    "detail": "美国国会图书馆与 GBH 合作，利用 AI 生成转录稿作为起点，再通过志愿者修正，解锁埋藏在档案中的历史公共媒体内容。FixIt+ 平台旨在解决磁带 vaults 中难以搜索的历史录音问题，涵盖民权运动 voices、战争辩论及地方公共事务节目。这种\"AI+ 人类”协作模式不仅提高了档案数字化效率，还确保了历史数据的准确性，为公共文化资源的 AI 化提供了典范，使历史媒体更易被搜索、研究和理解，保护文化遗产。",
-    "tags": [
-      "News",
-      "AIApplication",
-      "Archives"
-    ],
-    "link": "https://www.nextgov.com/artificial-intelligence/2026/05/how-library-congress-using-both-ai-and-volunteers-unlock-public-broadcasting-history/413742/",
-    "date": "2026-05-22",
-    "id": "17795114783305"
-  },
-  {
-    "title": "廉价 AI 模型恐挫败 OpenAI 与 Anthropic 的 IPO 计划",
-    "summary": "竞争加剧导致 AI 成本下降，可能影响巨头估值与上市前景。",
-    "detail": "CNBC 报道指出，本财报季 Meta、Shopify 等公司已标记 AI 推理成本拖累利润率。随着中国实验室及西方挑战者（如 Mistral）提供更廉价模型，AI 成本下降冲击 OpenAI 和 Anthropic 基于高定价权力的 IPO 估值逻辑（预计超 8000 亿美元）。企业预算虽增，但性价比成为新考量，巨头垄断溢价面临挑战，中央估值前提可能消失。若成本差距持续扩大，届时提交招股书时，其核心估值前提可能已不复存在，投资者需警惕市场格局变化。此外，45% 的公司表示 AI 支出增加，但规模经济被 LLM 成本抵消，显示行业正进入成本敏感期，定价模型面临重构风险，廉价 AI 浪潮可能重塑竞争格局。",
-    "tags": [
-      "News",
-      "IPO",
-      "Market"
-    ],
-    "link": "https://www.cnbc.com/2026/05/20/cheap-ai-could-derail-openai-and-anthropics-ipos.html",
-    "date": "2026-05-22",
-    "id": "17794954171800"
   }
 ]
