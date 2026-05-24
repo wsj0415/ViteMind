@@ -1,5 +1,70 @@
 [
   {
+    "title": "MAXTOKEN 框架突破 AI 输出长度限制",
+    "summary": "提出统一框架解决 LLM 输出 token caps 及长程推理成本问题。",
+    "detail": "Zenodo 发布 MAXTOKEN 预印本，旨在解决 LLM 输出 token 限制（通常 8k-32k）及二次方注意力复杂度导致的长程推理成本问题。框架包含混合 SSM-Transformer 架构、Infini-Attention 及生成状态引擎等七层结构，支持无边界输出生成及仓库级代码理解。相比现有分块或 RAG 方案，它提供了数学证明以维持连贯性与经济可行性，引入逻辑状态引擎确保代码一致性。该框架还包含自适应推测解码及分层 KV 缓存管理，为构建经济可行的长上下文 AI 系统提供完整方案，突破当前模型输出边界。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Research"
+    ],
+    "link": "https://zenodo.org/records/20360523",
+    "date": "2026-05-24",
+    "id": "17795967931310"
+  },
+  {
+    "title": "Anatomia：AI 开发验证与代码扫描工具",
+    "summary": "3 秒扫描代码库，通过多 Agent 协作验证 AI 生成代码的正确性。",
+    "detail": "GitHub 开源项目 Anatomia 旨在提供 AI 缺乏的工程判断力。通过五个 Agent 分别负责范围界定、计划、构建和验证，并在代码编写前密封契约。支持 10 秒内扫描任何项目栈，生成证明链记录，确保 AI 构建内容的机械性证明而非单纯依赖意见。系统能自动学习记录并将发现提升为规则，塑造未来构建流程。无需安装，单命令即可扫描项目依赖与架构，适用于 TypeScript、Next.js 等多种技术栈，强调可验证的 AI 开发流程与安全性，解决 AI 幻觉问题。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "CodeQuality"
+    ],
+    "link": "https://github.com/anatomia-dev/anatomia",
+    "date": "2026-05-24",
+    "id": "17795967931311"
+  },
+  {
+    "title": "从随意编码到 AI 辅助工程实践指南",
+    "summary": "分享如何将 AI 编码工作流从随意尝试转变为专业工程系统。",
+    "detail": "Medium 文章总结真实项目经验，指出 AI 工具并非关键，围绕 AI 构建的工程系统才是核心。作者通过规范、上下文、Agent 技能及记忆模块改进工作流，涵盖架构、基础设施及监控等环节。早期随意使用 Copilot、Codex 导致结果不一致，现转向专业 AI 辅助工程。强调在软件开发生命周期各阶段整合 AI，包括调试、文档及产品思考，帮助开发者从“随意编码”过渡到专业的 AI 辅助工程，提升代码质量与架构稳定性，避免上下文丢失。",
+    "tags": [
+      "Dev",
+      "BestPractices",
+      "Workflow"
+    ],
+    "link": "https://medium.com/@eritonsilva/from-vibe-coding-to-ai-assisted-engineering-lessons-from-real-projects-c403b85eaad1",
+    "date": "2026-05-24",
+    "id": "17795967931312"
+  },
+  {
+    "title": "行业反思：AI 并未扼杀初级开发者 pipeline",
+    "summary": "批评工程界因 AI 热潮而忽视初级人才培养的错误观念。",
+    "detail": "博客文章指出工程界集体误认为 AI 可替代初级工作，导致招聘渠道受阻。作者强调这是基于“感觉”而非研究的错误决策，长期来看投资初级人才成长优于争夺 senior 工程师。文章呼吁行业正视人才 pipeline 需求，避免短视的自动化崇拜。社区对初级职位的嘲笑反映了行业焦虑，但实际好公司仍愿投资新人成长。这种观念转变需通过 careful analysis 而非会议销售 deck 驱动，维护健康的技术人才生态，防止初级开发者 pipeline 断裂。",
+    "tags": [
+      "News",
+      "Industry",
+      "Hiring"
+    ],
+    "link": "https://andrewmurphy.io/blog/ai-didnt-kill-your-junior-pipeline-you-did",
+    "date": "2026-05-24",
+    "id": "17795967931313"
+  },
+  {
+    "title": "哈佛设计学院：AI 作为设计媒介而非答案系统",
+    "summary": "Eric Rodenbeck 主张将 AI 视为探究条件而非效率工具。",
+    "detail": "哈佛设计杂志文章探讨 AI 作为设计媒介的潜力。Eric Rodenbeck 认为 AI 不应仅用于生产答案，而应作为探究条件。通过“重新想象档案”课程，学生测试并质疑 AI 输出，将提示视为草图，设计成为参与复杂性的实践，而非单纯解决效率问题。课程涉及 MoMA 等机构档案，目标不是清晰可视化，而是探索知识稳定性。挑战效率叙事，主张将 AI 视为可测试、误用及询问的材料，重塑设计师思考与生产知识的方式，促进批判性设计思维。",
+    "tags": [
+      "News",
+      "Design",
+      "Academic"
+    ],
+    "link": "https://www.harvarddesignmagazine.org/articles/ai-as-a-design-medium-rodenbeck/",
+    "date": "2026-05-24",
+    "id": "17795967931314"
+  },
+  {
     "title": "时尚设计师毕业典礼撕毁 AI 演讲稿获喝彩",
     "summary": "Jeremy Scott 在毕业典礼上当众撕毁 AI 生成的演讲稿，引发学生欢呼，反映公众对 AI 替代人类真诚表达的抵触。",
     "detail": "商业内幕报道，时尚设计师 Jeremy Scott 在毕业典礼上使用 AI 撰写演讲稿后，当众撕毁该稿件并重新演讲，获得现场学生热烈喝彩。这一事件凸显了在社会情感场景中，人类对真实性的渴望远超 AI 效率。行业影响在于，即便 AI 能生成内容，但在需要情感共鸣的关键时刻，人类原创性仍具不可替代的价值，提示 AI 应用需边界感。此事件反映了 2026 年公众对 AI 侵入人文领域的抵触情绪，可能影响未来 AI 内容在教育及公共演讲场景的接受度，开发者需注意情感计算与伦理边界，避免过度自动化导致信任危机。",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
     "date": "2026-05-21",
     "id": "17793940304070"
-  },
-  {
-    "title": "Warblize：支持 47 种语言的 AI 有声书生成器",
-    "summary": "上传文稿即可生成高质量 AI 有声书，支持商业版权及多平台分发。",
-    "detail": "Warblize 是一款 AI 有声书制作工具，支持 EPUB/PDF 等格式上传。利用先进语音模型，可在几分钟内将文稿转化为 47 种语言的有声书，包含本地口音和情感风格。用户拥有完整商业版权，可直接发布至 Audible、Spotify 等平台。工具自动清理格式、检测章节，大幅降低有声书制作门槛。对于独立作者而言，这意味着无需昂贵录音成本即可全球分发，是内容创作领域的高效生产力工具。",
-    "tags": [
-      "New",
-      "Audio",
-      "SaaS"
-    ],
-    "link": "https://warblize.com/",
-    "date": "2026-05-21",
-    "id": "17793940304071"
-  },
-  {
-    "title": "Dhrive：提示词生成原生 iOS 应用开发工具",
-    "summary": "通过提示词生成 Swift 代码，本地 Xcode 构建，支持直接发布至 TestFlight。",
-    "detail": "Dhrive 允许用户通过自然语言提示生成原生 iOS 应用。它编写真实的 Swift 代码，利用本地 Xcode 构建，而非 Webview 封装。支持 Claude、Codex 等代理，代码完全归用户所有。免费起步，仅在发布到 App Store 时收费。这种“本地构建、代码自有”的模式解决了开发者对 AI 黑盒的担忧，为从想法到上架提供了高效路径，尤其适合独立开发者快速验证原型。",
-    "tags": [
-      "Dev",
-      "iOS",
-      "Low-Code"
-    ],
-    "link": "https://www.dhrive.app/",
-    "date": "2026-05-21",
-    "id": "17793940304072"
-  },
-  {
-    "title": "Google 搜索迎 25 年来最大升级，全面 AI 化引争议",
-    "summary": "Google I/O 2026 宣布搜索全面转向对话式 AI，用户担忧体验下降。",
-    "detail": "Google 在 I/O 2026 宣布搜索迎来 25 年来最大升级，全面拥抱对话式 AI 驱动。用户可选择 AI 模式，结果页包含可追问的聊天框。此举引发用户反弹，担忧过度集成 AI 代理影响传统搜索体验。文章同时推荐了六款替代搜索引擎，反映了市场对 Google AI 化转型的复杂态度。此前 AI Overviews 的失误让用户对新功能持谨慎态度，搜索格局可能因此出现多元化趋势。",
-    "tags": [
-      "News",
-      "Search",
-      "Google"
-    ],
-    "link": "https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/",
-    "date": "2026-05-21",
-    "id": "17793940304073"
-  },
-  {
-    "title": "Coherence：专为 AI 驱动仓库设计的漂移检测工具",
-    "summary": "Git 原生工具，检测 AI 编辑后的代码库文档、测试与代码的一致性。",
-    "detail": "Coherence 是一款针对 AI 辅助代码库的 Git 原生漂移检测器。它能捕捉代码、文档、ADR、测试及生成工件之间的断裂链接，特别适用于 AI 代理编辑后的仓库一致性检查。工具本地运行，默认不开启 LLM 以确保确定性。相比 Fiberplane 等工具，它提供更广泛的仓库图漂移检测。这解决了 AI 生成代码后文档滞后的问题，帮助开发者维护 AI 生成代码的长期可维护性，是 DevOps 领域的新兴需求。",
-    "tags": [
-      "Dev",
-      "Git",
-      "Maintenance"
-    ],
-    "link": "https://github.com/fireharp/coherence",
-    "date": "2026-05-21",
-    "id": "17793940304074"
-  },
-  {
-    "title": "AI 自动提交安全修复 PR，代码漏洞检测能力显现",
-    "summary": "开发者收到 AI 提交的安全 PR，成功识别并修复了内存拷贝漏洞。",
-    "detail": "一位开发者收到了来自 OrbisAI Security 的自动 PR，指出其 6809 汇编器中的 memcpy 缓冲区溢出漏洞。AI 准确识别了攻击者可控源缓冲区导致的堆内存损坏风险，并提供了边界检查修复方案。这展示了 AI 在代码安全审计领域的实际应用能力，标志着自动化安全修复的成熟。虽然开发者发现 AI 描述略有夸张，但核心漏洞识别准确，预示着未来 AI 将在维护遗留代码安全方面发挥关键作用。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Automation"
-    ],
-    "link": "https://boston.conman.org/2026/05/19.1",
-    "date": "2026-05-21",
-    "id": "17793940304075"
   }
 ]
