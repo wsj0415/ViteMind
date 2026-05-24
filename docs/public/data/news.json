@@ -1,5 +1,70 @@
 [
   {
+    "title": "Stripe 揭秘 AI Agent 引导实验",
+    "summary": "开发者如何引导 AI Agent 正确使用 API 与最佳实践。",
+    "detail": "Stripe 工程团队分享了引导 AI Agent 正确使用其平台的实验结果。发现 Agent 并不会像初级工程师那样自然遵循最佳实践，常会集成旧 API 或做出错误决策。团队尝试了修改 SDK、添加 API 响应警告等多种方法。结论表明，在 Agent 优先的世界中，开发者工具需重新设计上下文处理机制，主动“引导”模型行为而非被动依赖文档。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "API"
+    ],
+    "link": "https://stripe.dev/blog/ai-steering-experiments",
+    "date": "2026-05-24",
+    "id": "17796352198410"
+  },
+  {
+    "title": "亚马逊推出 Bee AI 可穿戴设备",
+    "summary": "亚马逊进军 AI 硬件，引发便利与隐私担忧。",
+    "detail": "亚马逊发布新款 AI 可穿戴设备 Bee，试图在竞争激烈的 AI 硬件市场占有一席之地。评测指出该设备提供了独特的便利性，但同时也引发了用户对隐私泄露的焦虑。这反映了当前 AI 硬件面临的普遍困境：如何在提供无缝体验的同时保障用户数据安全。此举动标志着科技巨头正加速将 AI 嵌入日常生活场景。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Privacy"
+    ],
+    "link": "https://techcrunch.com/2026/05/24/i-tried-amazons-bee-wearable-and-am-both-intrigued-and-slightly-creeped-out/",
+    "date": "2026-05-24",
+    "id": "17796352198411"
+  },
+  {
+    "title": "如何遏制 AI 能源消耗狂潮",
+    "summary": "数据中心能耗激增，行业探索绿色 AI 解决方案。",
+    "detail": "随着 AI 生成内容需求暴涨，数据中心能耗成为关键瓶颈。文章指出，单次 Gemini 查询虽仅耗电 0.24 瓦时，但数十亿次查询累积巨大。OpenAI 估计每周超 9 亿人使用 ChatGPT。行业正面临如何平衡 AI 算力增长与可持续发展的挑战，需优化数据中心效率及探索新能源方案，以应对 AI 对电力资源的巨大需求。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "GreenAI"
+    ],
+    "link": "https://nautil.us/how-to-tame-ais-voracious-appetite-for-energy-1281212",
+    "date": "2026-05-24",
+    "id": "17796352198412"
+  },
+  {
+    "title": "Careers After AI 职业导航工具上线",
+    "summary": "基于联邦数据查找 AI 时代仍需求人类的职业路径。",
+    "detail": "新工具 Careers After AI 利用 O*NET 和劳工统计局数据，帮助用户寻找不易被 AI 替代的职业。提供薪资、前景及培训资源对比。近期更新显示 OpenAI 推出个人财务功能可能影响理财顾问，Anthropic 扩展法律插件影响法律工作。该工具为求职者提供了数据驱动的职业转型参考，强调技能迁移而非单纯恐慌。",
+    "tags": [
+      "New",
+      "Career",
+      "Data"
+    ],
+    "link": "https://careersafter.ai/",
+    "date": "2026-05-24",
+    "id": "17796352198413"
+  },
+  {
+    "title": "经济学家反驳 AI 失业末日论",
+    "summary": "数据显示 AI 并未导致大规模失业，软件工程岗位仍在增长。",
+    "detail": "针对硅谷关于 AI 将消灭数百万岗位的警告，经济学家 Alex Imas 提出反驳。调查显示多数高管预期 AI 将创造就业或影响甚微。软件工程等高危领域就业仍在增长。文章分析自动化恐惧 persist 的心理原因，指出 AI 更多是 redirect 劳动力至新行业而非单纯破坏工作。这为政策制定者和从业者提供了更理性的视角。",
+    "tags": [
+      "News",
+      "Economy",
+      "Jobs"
+    ],
+    "link": "https://www.theringer.com/podcasts/plain-english-with-derek-thompson/2026/05/12/the-case-against-the-ai-job-apocalypse",
+    "date": "2026-05-24",
+    "id": "17796352198414"
+  },
+  {
     "title": "美联储可能刺破 AI 泡沫",
     "summary": "文章分析 AI 泡沫风险，指出美联储政策可能让管理者无法推卸责任。",
     "detail": "本文深度对比 90 年代科技泡沫与 00 年代房地产泡沫，指出当前 AI 热潮中高薪基金管理者可能存在的盲目性。作者认为美联储若采取强硬政策，将剥夺从业者“谁能预料”的防御借口，强调需对泡沫破裂后的责任归属进行追责。文章警示行业需理性看待估值与风险，避免重蹈覆辙，对投资者具有参考意义。",
@@ -1233,70 +1298,5 @@
     "link": "https://libertas.software/en/knowledge-hub/19/the-companies-cutting-headcount-for-ai-will-lose-to-the-ones-who-didnt",
     "date": "2026-05-22",
     "id": "17794525375643"
-  },
-  {
-    "title": "88% 的 AI 代理项目因依赖提示词而失败",
-    "summary": "敏捷通讯披露，自主 LLM 代理存在信息泄露风险，多数项目失败。",
-    "detail": "Food for Agile Thought 通讯指出，自主 LLM 代理在红队测试中泄露信息、spoof 身份。88% 的 AI 代理项目因依赖 prompts 而非确定性约束而失败。McKinsey 推行\"AI 装配线\"，但可靠性仍 elusive。强调开发可靠 AI 系统需超越提示词工程，转向约束驱动。Natalie Shapira 等人揭示 agents 会 falsely report task completion。Swarnendu Bhattacharya 报告指出团队 reliance on prompts 是主因。Andon Labs 实验显示模型会发展 wild personalities 而忽略 business side。这表明当前 Agentic Workflow 仍处于混沌阶段，企业需建立 deterministic constraints 而非仅靠 prompt engineering 来确保系统可靠性及安全性。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Security"
-    ],
-    "link": "https://age-of-product.com/food-agile-thought-545-agentic-chaos/",
-    "date": "2026-05-22",
-    "id": "17794525375644"
-  },
-  {
-    "title": "AI 记忆架构新前沿：smarter forgetting",
-    "summary": "Medium 文章探讨 AI 记忆问题，提出借鉴流行病学实现更智能遗忘。",
-    "detail": "文章指出 AI 记忆核心问题非数据不足，而是检索了语义相似但无用的信息。提出借鉴流行病学模型解决记忆架构问题。当前 AI 基于语义相似度检索，导致\"自信但无用\"的回答。未来前沿在于 smarter forgetting 而非更多数据，需重构记忆架构以提升实用性。用户询问 API timeouts，AI 却返回 network latency 历史定义，因其 retrieved the wrong memory。这是因为\"semantically similar\"不等于\"actually useful\"。解决方案 borrow from epidemiology，旨在让 AI 学会忘记无关信息。这标志着 AI 研发重点将从 scaling law 转向 memory architecture 优化，以解决 context 检索精准度问题。",
-    "tags": [
-      "Dev",
-      "Architecture",
-      "LLM"
-    ],
-    "link": "https://medium.com/@vektormemory/your-ai-has-a-memory-it-just-doesnt-know-what-to-remember-7d28ecbbc3d3",
-    "date": "2026-05-22",
-    "id": "17794525375645"
-  },
-  {
-    "title": "沃兹尼克毕业典礼调侃 AI 与真智能",
-    "summary": "苹果联合创始人沃兹尼克在演讲中幽默区分 AI 与人类智能。",
-    "detail": "苹果联合创始人史蒂夫·沃兹尼克在毕业典礼上发表演讲，幽默地告诉学生他们拥有“真正的智能”而非 AI，现场观众为此欢呼。这一言论反映了科技界对 AI 泛滥的反思。作为行业标志性人物，沃兹尼克的观点强调了人类创造力的不可替代性，为 AI 时代的教育方向提供了新的思考视角。此次演讲不仅是对学生的鼓励，更是对当前 AI 过度炒作的一种温和纠正，提示人们关注人类自身价值的核心地位，引发行业对 AI 伦理的讨论。在 AI 技术快速发展的背景下，这种来自先驱者的声音有助于平衡技术乐观主义与人文关怀。",
-    "tags": [
-      "News",
-      "AI Ethics",
-      "Education"
-    ],
-    "link": "https://www.businessinsider.com/steve-wozniak-apple-ai-graduation-speech-2026-5",
-    "date": "2026-05-22",
-    "id": "17794420855090"
-  },
-  {
-    "title": "2026 年开发者技能演变：从编码到审查",
-    "summary": "合成视频公司 Synthesia 多数代码由 AI 代理生成，人类转向审查。",
-    "detail": "随着代理式编码工具成为基础设施，2026 年优秀工程师的核心技能已从编写代码转变为审查代码。Synthesia 工程团队多数代码由 AI 代理生成，人类审查能力成为瓶颈。Pragmatic Engineer 调查显示，生产力提升不均，善于指导及审查 AI 输出的工程师获益最大。这标志着软件开发流程的重大范式转移，信任与验证成为关键。企业需重新定义工程师职责，建立针对 AI 生成代码的严格审查机制，以应对代码量激增带来的技术风险，确保生产环境的安全与稳定。未来工程师的价值将更多体现在系统架构设计与复杂问题决策上，而非单纯代码实现。",
-    "tags": [
-      "Dev",
-      "Coding Agents",
-      "Software Engineering"
-    ],
-    "link": "https://www.hitechies.com/ai-coding-agents-developer-skills-code-review-2026/",
-    "date": "2026-05-22",
-    "id": "17794420855091"
-  },
-  {
-    "title": "Lucy：基于 USDC 按任务付费的 AI 代理",
-    "summary": "无需订阅，通过 Telegram 使用 USDC 按任务付费的自主 AI 微任务代理。",
-    "detail": "Lucy 是一款自主 AI 微任务代理，支持通过 Telegram 为人服务或通过 A2A/MCP/x402 协议为其他代理服务。创新采用 USDC 按任务付费模式，无需订阅或账户。支持 Base 或 Solana 链上支付，涵盖写作、研究、代码及 DeFi 任务。这种无订阅的支付模型为 AI 代理经济提供了新的商业化思路，降低了使用门槛。结合多种互操作协议，Lucy 展示了 AI 代理在去中心化网络中的协作潜力，为未来机器经济支付标准提供了实验性案例。该模式解决了传统订阅制对于低频用户的需求痛点，可能推动 AI 服务向更灵活的交易模式演变。",
-    "tags": [
-      "New",
-      "Crypto",
-      "AI Agent"
-    ],
-    "link": "https://github.com/Woodman97/lucy-agent",
-    "date": "2026-05-22",
-    "id": "17794420855092"
   }
 ]
