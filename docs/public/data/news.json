@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 代理面临关键开源漏洞威胁",
+    "summary": "开源包严重漏洞危及数百万 AI 代理，安全风险激增。",
+    "detail": "Ars Technica 最新报道指出，一个广泛使用的开源软件包中发现关键漏洞，直接危及数百万 AI 代理系统的安全。随着 AI 代理自主执行代码及网络任务能力的增强，供应链攻击面显著扩大。此漏洞可能导致代理被恶意操控或敏感数据泄露，进而影响企业核心业务。安全专家建议企业立即审查第三方依赖项，实施更严格的沙箱隔离策略，并建立持续的安全监控机制。此事件凸显了 AI 基础设施安全建设的紧迫性，呼吁社区共同维护开源生态健康，防止大规模自动化攻击发生，确保 AI 系统可信运行。",
+    "tags": [
+      "News",
+      "Security",
+      "AI Agents"
+    ],
+    "link": "https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/",
+    "date": "2026-05-26",
+    "id": "17798344675650"
+  },
+  {
+    "title": "企业 AI 代理问责制五大支柱",
+    "summary": "Tigera 发布 AI 代理问责框架，解决企业治理难题。",
+    "detail": "针对 AI 代理自主决策带来的风险，Tigera 提出五大问责支柱框架。McKinsey 数据显示仅三分之一组织具备成熟治理能力，多数企业面临审计缺失风险。该框架帮助工程领导者评估审计追踪、授权策略及合规性，避免“安全剧场”。企业需建立可追溯的代理行为机制，以满足监管及内部风控需求。真正的问责制要求具备身份识别、策略执行及证据保留能力，确保在事故发生时能迅速定位原因，提升组织对 AI 系统的信任度与控制力。缺乏问责的治理仅是形式，无法应对日益复杂的自主代理安全挑战。",
+    "tags": [
+      "News",
+      "Governance",
+      "Enterprise"
+    ],
+    "link": "https://www.tigera.io/blog/the-five-pillars-of-ai-agent-accountability-a-diagnostic-framework-for-engineering-leaders/",
+    "date": "2026-05-26",
+    "id": "17798344675651"
+  },
+  {
+    "title": "AI 代理引发重度用户“大脑混乱”",
+    "summary": "开发者报告 AI 编码工具导致成瘾，Karpathy 称陷 psychosis。",
+    "detail": "Axios 深度报道揭示，AI 编码工具正导致部分高性能开发者出现类似成瘾的心理状态。OpenAI 联合创始人 Karpathy 自称处于\"AI 精神病”状态，手写代码比例降至 0%，每日耗费 16 小时指挥代理 swarm。Y Combinator CEO 也提及类似体验，甚至出现睡眠剥夺。这种“氛围编程”虽大幅提高短期效率，但引发健康及过度依赖担忧。行业需关注人机协作边界，避免开发者丧失核心编码能力，同时警惕 token 消耗焦虑带来的非理性行为，倡导健康的技术使用习惯。此外，企业应制定合理使用政策，防止员工因过度追求 AI 产出而损害身心健康，平衡效率与可持续性。",
+    "tags": [
+      "News",
+      "Social",
+      "Coding"
+    ],
+    "link": "https://www.axios.com/2026/04/04/ai-agents-burnout-addiction-claude-code-openclaw",
+    "date": "2026-05-26",
+    "id": "17798344675652"
+  },
+  {
+    "title": "构建 AI 科学的协作外骨骼",
+    "summary": "分析 AI 与科学出版冲突，呼吁适配现有科研基础设施。",
+    "detail": "文章探讨 AI 在科学进步中的潜力与现有出版体系的冲突。相比代码生态的 GitHub，科学界拥有 arXiv、DOI 等“协作外骨骼”。当前 AI 生成论文存在幻觉引用等问题，破坏了学术诚信。文章呼吁适配现有基础设施以支持 AI 科研，确保身份、来源及完整性，推动 AI 与科学 publishing 良性融合。需建立类似 CI/CD 的科研验证流程，防止虚假引用泛滥，确保 AI 辅助发现的可靠性，为科学界构建可信的 AI 协作框架。未来科研基础设施需升级以容纳 AI 代理，确保知识生产的透明度与可追溯性，避免技术滥用损害科学公信力。",
+    "tags": [
+      "News",
+      "Science",
+      "Infrastructure"
+    ],
+    "link": "https://asimovaddendum.substack.com/p/the-collaborative-exoskeleton-of",
+    "date": "2026-05-26",
+    "id": "17798344675653"
+  },
+  {
+    "title": "Nexus 开源企业 LLM 流量网关",
+    "summary": "新开源项目 Nexus 旨在管理企业级 LLM 流量。",
+    "detail": "GitHub 上新发布 Nexus 项目，作为开源 AI 网关专为企业 LLM 流量设计。随着企业部署大模型规模扩大，流量管理、鉴权及监控成为刚需。该工具填补了开源生态在企业级网关方面的空白，帮助开发者更安全、高效地集成 LLM 服务，降低运维复杂度。支持多种模型后端，提供统一接口，便于策略管理与成本控制。对于构建私有化 AI 应用的企业，Nexus 提供了关键的基础设施支持，助力实现 LLM 流量的可视化与精细化管理。此外，它还增强了数据隐私保护，防止敏感信息泄露，是企业级 AI 架构的重要组件。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "LLM"
+    ],
+    "link": "https://github.com/AlphaBitCore/nexus-gateway",
+    "date": "2026-05-26",
+    "id": "17798344675654"
+  },
+  {
     "title": "OpenAI 承认 AI 幻觉数学上不可避免",
     "summary": "OpenAI 研究指出幻觉源于数学约束，非工程缺陷。",
     "detail": "OpenAI 发布研究承认，大语言模型因根本数学约束必然产生幻觉，即便数据完美也无法通过工程解决。研究人员表示模型在不确定时会猜测而非承认无知。这一承认动摇了行业对完全消除幻觉的预期，影响企业信任度。",
@@ -1233,70 +1298,5 @@
     "link": "https://localoptimumai.substack.com/p/integral-intelligence-a-catholic",
     "date": "2026-05-24",
     "id": "17796293812423"
-  },
-  {
-    "title": "Pi-Mojo：AI 代理工具包的 Mojo 移植版",
-    "summary": "GitHub 开源项目，将 Pi AI 代理工具移植至 Mojo 语言。",
-    "detail": "该项目是 popular Pi AI Agent Toolkit 的 Mojo 原生移植，提供编译型、自包含的参考实现。旨在帮助开发者探索系统级代理架构、类型安全结构及 native C 集成。包含基础聊天与系统编码代理示例，适合关注高性能 AI 系统开发的工程师研究，展示了 Mojo 语言在构建高效 AI 代理系统中的应用潜力。",
-    "tags": [
-      "Dev",
-      "Mojo",
-      "Agent"
-    ],
-    "link": "https://github.com/atveit/pi-mojo/tree/main",
-    "date": "2026-05-24",
-    "id": "17796293812424"
-  },
-  {
-    "title": "自主编辑策略的 AI 股票交易代理",
-    "summary": "基于 Claude 的 AI 代理在印度股市进行模拟交易并自我修改策略。",
-    "detail": "这是一个实验性项目，Claude 在免费 GCP VM 上运行交易循环，并根据市场反馈编辑自身的策略代码。实验为期两周，收益率约 8%。项目开源了完整 harness 与日志，展示了 LLM 自主代码修改在金融领域的实际应用潜力与风险控制机制，为自主代理在高风险场景下的行为边界提供了实证数据。",
-    "tags": [
-      "Dev",
-      "Finance",
-      "Agent"
-    ],
-    "link": "https://github.com/analyticalmonk/autotrader",
-    "date": "2026-05-24",
-    "id": "17796293812425"
-  },
-  {
-    "title": "宾大研发光物质混合粒子，AI 算力将迎来光速革命",
-    "summary": "宾夕法尼亚大学科学家创造混合光物质粒子，有望替代电子提升 AI 计算效率。",
-    "detail": "宾夕法尼亚大学研究团队取得重大突破，成功创建 hybrid light-matter particles。该技术旨在替代传统电子计算，利用光子特性大幅降低 AI 计算能耗并提升速度。当前 AI 发展受限于电子计算的物理瓶颈与高能耗，此突破可能彻底改变算力底层逻辑。这对于解决当前 AI 算力瓶颈和能源消耗问题具有里程碑意义，可能重塑未来 AI 硬件架构，为下一代高效能 AI 芯片奠定基础，引发硬件层革命。行业预计这将加速 AI 在边缘设备上的部署，降低数据中心成本。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Science"
-    ],
-    "link": "https://www.sciencedaily.com/releases/2026/05/260518041341.htm",
-    "date": "2026-05-24",
-    "id": "17796216075270"
-  },
-  {
-    "title": "韩国副总理：AI 财富必须惠及公众， Amid 三星劳工紧张",
-    "summary": "韩国副总理强调 AI 财富需公共共享，背景为三星劳工紧张局势。",
-    "detail": "韩国副总理在三星劳工紧张局势背景下发表讲话，强调 AI 产生的财富必须惠及公众。这反映了各国政府开始关注 AI 带来的经济分配不均问题。政策导向可能影响韩国科技巨头的 AI 发展战略，并引发全球关于 AI 伦理与社会责任的进一步讨论。政府干预可能要求企业调整 AI 利润分配模式，确保技术红利不被少数垄断，从而缓解社会对 AI 取代工作的焦虑，促进包容性增长。此政策风向标值得全球科技企业密切关注。",
-    "tags": [
-      "News",
-      "Policy",
-      "Ethics"
-    ],
-    "link": "https://www.cnbc.com/2026/05/23/ai-wealth-must-benefit-the-public-south-koreas-deputy-pm-says.html",
-    "date": "2026-05-24",
-    "id": "17796216075271"
-  },
-  {
-    "title": "前腾讯 AI 负责人：中国虽落后于 LLM 竞赛但仍可赢在 AI",
-    "summary": "前腾讯 AI 主管认为中国在 LLM  race 落后，但仍有赢得 AI 竞争的机会。",
-    "detail": "前腾讯 AI 负责人指出，尽管中国在大型语言模型（LLM）竞赛中暂时落后于美国，但仍有机会在更广泛的 AI 领域获胜。分析认为中国可能在应用层、特定垂直领域或硬件整合上寻找突破口。这一观点为行业提供了冷静视角，强调了差异化竞争策略的重要性。中国拥有庞大的数据场景和制造能力，若能将 AI 技术与实体经济深度融合，有望在产业化应用上超越单纯模型能力的竞争，实现弯道超车。",
-    "tags": [
-      "News",
-      "Industry",
-      "LLM"
-    ],
-    "link": "https://www.scmp.com/tech/big-tech/article/3354394/china-losing-llm-race-it-can-still-win-ai-ex-tencent-ai-lead-says",
-    "date": "2026-05-24",
-    "id": "17796216075272"
   }
 ]
