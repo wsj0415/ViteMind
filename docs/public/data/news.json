@@ -1,5 +1,70 @@
 [
   {
+    "title": "Spotify 高管捍卫 AI 音乐策略",
+    "summary": "Spotify 称 AI 音乐工具优于垃圾内容，保护艺术家。",
+    "detail": "**背景**：面对 AI 生成音乐的争议，Spotify 高管近日公开辩护其 AI 战略，回应外界对 AI 稀释音乐价值的担忧。\n**核心技术**：公司推出 AI remix 工具，声称能保护艺术家权益，生成内容质量优于网络上的低质垃圾内容（slop），强调工具辅助而非替代。高管表示该工具旨在增强创作而非取代人类。\n**行业影响**：此举反映流媒体巨头在 AI 生成内容版权、质量与创作者经济间的平衡尝试。随着 AI 音乐渗透率提升，平台如何分配收益及界定原创性将成为行业焦点，可能重塑音乐制作流程与版权法规，引发艺术家与平台博弈，影响未来音乐消费形态。监管机构可能介入审查 AI 训练数据合法性，平台需建立更透明的分成机制。",
+    "tags": [
+      "News",
+      "AI Music",
+      "Copyright"
+    ],
+    "link": "https://www.theguardian.com/technology/2026/may/26/spotify-ai-remix-tool-protects-artists-slop",
+    "date": "2026-05-26",
+    "id": "17798201492340"
+  },
+  {
+    "title": "Google AI 概述导致网站流量暴跌",
+    "summary": "个人网站因 Google AI 概述损失 70% 流量，创作者生存受威胁。",
+    "detail": "**背景**：资深博主披露其运营 7 年的网站流量因 Google 搜索变化锐减，生存面临危机。\n**核心现象**：Google AI Overviews 直接在搜索结果页展示 AI 生成答案，用户不再点击原始链接，导致流量损失高达 70%。创作者无法通过广告维持生计。\n**行业影响**：揭示了搜索生成式 AI 对内容生态的破坏性影响。创作者变现困难加剧，可能导致高质量内容供应萎缩。内容所有者可能转向付费墙或停止更新，迫使行业重新思考 SEO 价值与内容补偿机制，引发对搜索垄断与内容来源可持续性的广泛讨论。搜索引擎需调整算法以保留内容源流量，否则互联网信息生态将面临枯竭风险。",
+    "tags": [
+      "News",
+      "SEO",
+      "Search Engine"
+    ],
+    "link": "https://nicolasbouliane.com/blog/death-by-ai",
+    "date": "2026-05-26",
+    "id": "17798201492341"
+  },
+  {
+    "title": "FlowLink 防护 AI 代理 destructive 命令",
+    "summary": "新工具 MCP 代理拦截 AI 代理 destructive 命令，保障生产安全。",
+    "detail": "**背景**：AI 代理误删生产数据库事件频发，开发者缺乏有效安全护栏，生产环境风险高。\n**核心技术**：FlowLink 作为 MCP 代理层，拦截 rm -rf、DROP TABLE 等 100+ destructive 模式。提供零信任密钥、策略引擎及 Telegram 人工审批队列，审计所有操作。\n**行业影响**：解决 AI 代理误操作生产环境的安全痛点，适用于 Claude Code 等主流代理。随着 Agent 自主性增强，此类中间件将成为企业部署 AI 开发工具的标准配置，保障系统稳定性，推动 AI 代理从实验走向生产级应用。企业需建立新的 DevOps 流程以适应 AI 代理协作，安全合规将成为 AI 工程化首要考量。",
+    "tags": [
+      "Dev",
+      "Security",
+      "AI Agent"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48283348",
+    "date": "2026-05-26",
+    "id": "17798201492342"
+  },
+  {
+    "title": "Blitzy AI 按生成代码行数收费",
+    "summary": "企业级 AI 开发平台 Blitzy 按 LOC 收费，自主重构代码。",
+    "detail": "**背景**：AI 编程进入企业级自主开发阶段，传统订阅制难以衡量实际价值。\n**核心模式**：Blitzy 逆向工程现有代码库，自主构建与重构，创新性地按生成代码行数（LOC）收费而非订阅制。承诺 80% 项目交付率，支持 ISO 27001 认证。\n**行业影响**：挑战传统 SaaS 定价，反映 AI 开发效能量化新趋势，企业更愿为实际产出付费。若验证成功，可能推动 AI 编程工具从辅助 Copilot 向自主 Agent 转型，改变软件外包格局，加速企业遗留系统现代化进程。按效果付费模式可能成为 AI SaaS 新标准，倒逼模型厂商提升代码生成质量与可维护性。",
+    "tags": [
+      "New",
+      "Enterprise",
+      "Coding"
+    ],
+    "link": "https://blitzy.com/#pricing",
+    "date": "2026-05-26",
+    "id": "17798201492343"
+  },
+  {
+    "title": "InterviewSignal 开源 AI 原生面试工具",
+    "summary": "开源项目实现 AI 原生技术面试，自动评分且零 setup 成本。",
+    "detail": "**背景**：技术面试流程繁琐，主观性强，传统工具设置成本高。\n**核心功能**：InterviewSignal 开源项目允许分享代码并捕捉思考过程，实现 AI 自动评分。pip install 即可使用，零 setup 成本，纯信号评估。\n**行业影响**：为技术招聘提供纯信号评估方案，降低面试偏见，提升开发招聘效率。开源模式促进招聘工具透明化，可能成为初创团队与开源社区标准化面试流程的基础设施，减少重复造轮子，推动招聘技术栈的开放与协作。降低招聘门槛，使全球远程技术人才评估更加标准化，促进开源社区人才流动。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Recruitment"
+    ],
+    "link": "https://github.com/NikhilSKashyap/interviewsignal",
+    "date": "2026-05-26",
+    "id": "17798201492344"
+  },
+  {
     "title": "NSA 发布 MCP 协议安全设计指南",
     "summary": "美国国家安全局发布模型上下文协议安全报告，警示 AI 自动化风险。",
     "detail": "美国国家安全局 (NSA) 发布关于模型上下文协议 (MCP) 的安全设计考量报告。指出 MCP 作为 AI 驱动自动化的事实标准，其快速普及超越了安全模型发展。报告强调 MCP 反转了传统的客户端 - 服务器交互模式，服务器可查询客户端，引入了新的攻击路径。涉及 AutoGen Studio、Harvey AI、Copilot 等产品，广泛应用于商业、金融及软件开发领域，为行业提供关键安全指引，警示 insufficiently secured MCP 可被利用的风险。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.easelinktech.com/why-every-electronic-product-may-need-to-be-rebuilt-for-on-device-ai-the-chip-layer-will-decide-the-next-hardware-wave/",
     "date": "2026-05-24",
     "id": "17796166642714"
-  },
-  {
-    "title": "MAXTOKEN 框架突破 AI 输出长度限制",
-    "summary": "提出统一框架解决 LLM 输出 token caps 及长程推理成本问题。",
-    "detail": "Zenodo 发布 MAXTOKEN 预印本，旨在解决 LLM 输出 token 限制（通常 8k-32k）及二次方注意力复杂度导致的长程推理成本问题。框架包含混合 SSM-Transformer 架构、Infini-Attention 及生成状态引擎等七层结构，支持无边界输出生成及仓库级代码理解。相比现有分块或 RAG 方案，它提供了数学证明以维持连贯性与经济可行性，引入逻辑状态引擎确保代码一致性。该框架还包含自适应推测解码及分层 KV 缓存管理，为构建经济可行的长上下文 AI 系统提供完整方案，突破当前模型输出边界。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Research"
-    ],
-    "link": "https://zenodo.org/records/20360523",
-    "date": "2026-05-24",
-    "id": "17795967931310"
-  },
-  {
-    "title": "Anatomia：AI 开发验证与代码扫描工具",
-    "summary": "3 秒扫描代码库，通过多 Agent 协作验证 AI 生成代码的正确性。",
-    "detail": "GitHub 开源项目 Anatomia 旨在提供 AI 缺乏的工程判断力。通过五个 Agent 分别负责范围界定、计划、构建和验证，并在代码编写前密封契约。支持 10 秒内扫描任何项目栈，生成证明链记录，确保 AI 构建内容的机械性证明而非单纯依赖意见。系统能自动学习记录并将发现提升为规则，塑造未来构建流程。无需安装，单命令即可扫描项目依赖与架构，适用于 TypeScript、Next.js 等多种技术栈，强调可验证的 AI 开发流程与安全性，解决 AI 幻觉问题。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "CodeQuality"
-    ],
-    "link": "https://github.com/anatomia-dev/anatomia",
-    "date": "2026-05-24",
-    "id": "17795967931311"
-  },
-  {
-    "title": "从随意编码到 AI 辅助工程实践指南",
-    "summary": "分享如何将 AI 编码工作流从随意尝试转变为专业工程系统。",
-    "detail": "Medium 文章总结真实项目经验，指出 AI 工具并非关键，围绕 AI 构建的工程系统才是核心。作者通过规范、上下文、Agent 技能及记忆模块改进工作流，涵盖架构、基础设施及监控等环节。早期随意使用 Copilot、Codex 导致结果不一致，现转向专业 AI 辅助工程。强调在软件开发生命周期各阶段整合 AI，包括调试、文档及产品思考，帮助开发者从“随意编码”过渡到专业的 AI 辅助工程，提升代码质量与架构稳定性，避免上下文丢失。",
-    "tags": [
-      "Dev",
-      "BestPractices",
-      "Workflow"
-    ],
-    "link": "https://medium.com/@eritonsilva/from-vibe-coding-to-ai-assisted-engineering-lessons-from-real-projects-c403b85eaad1",
-    "date": "2026-05-24",
-    "id": "17795967931312"
-  },
-  {
-    "title": "行业反思：AI 并未扼杀初级开发者 pipeline",
-    "summary": "批评工程界因 AI 热潮而忽视初级人才培养的错误观念。",
-    "detail": "博客文章指出工程界集体误认为 AI 可替代初级工作，导致招聘渠道受阻。作者强调这是基于“感觉”而非研究的错误决策，长期来看投资初级人才成长优于争夺 senior 工程师。文章呼吁行业正视人才 pipeline 需求，避免短视的自动化崇拜。社区对初级职位的嘲笑反映了行业焦虑，但实际好公司仍愿投资新人成长。这种观念转变需通过 careful analysis 而非会议销售 deck 驱动，维护健康的技术人才生态，防止初级开发者 pipeline 断裂。",
-    "tags": [
-      "News",
-      "Industry",
-      "Hiring"
-    ],
-    "link": "https://andrewmurphy.io/blog/ai-didnt-kill-your-junior-pipeline-you-did",
-    "date": "2026-05-24",
-    "id": "17795967931313"
-  },
-  {
-    "title": "哈佛设计学院：AI 作为设计媒介而非答案系统",
-    "summary": "Eric Rodenbeck 主张将 AI 视为探究条件而非效率工具。",
-    "detail": "哈佛设计杂志文章探讨 AI 作为设计媒介的潜力。Eric Rodenbeck 认为 AI 不应仅用于生产答案，而应作为探究条件。通过“重新想象档案”课程，学生测试并质疑 AI 输出，将提示视为草图，设计成为参与复杂性的实践，而非单纯解决效率问题。课程涉及 MoMA 等机构档案，目标不是清晰可视化，而是探索知识稳定性。挑战效率叙事，主张将 AI 视为可测试、误用及询问的材料，重塑设计师思考与生产知识的方式，促进批判性设计思维。",
-    "tags": [
-      "News",
-      "Design",
-      "Academic"
-    ],
-    "link": "https://www.harvarddesignmagazine.org/articles/ai-as-a-design-medium-rodenbeck/",
-    "date": "2026-05-24",
-    "id": "17795967931314"
   }
 ]
