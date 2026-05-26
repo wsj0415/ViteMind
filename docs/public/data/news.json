@@ -1,5 +1,83 @@
 [
   {
+    "title": "OpenAI 承认 AI 幻觉数学上不可避免",
+    "summary": "OpenAI 研究指出幻觉源于数学约束，非工程缺陷。",
+    "detail": "OpenAI 发布研究承认，大语言模型因根本数学约束必然产生幻觉，即便数据完美也无法通过工程解决。研究人员表示模型在不确定时会猜测而非承认无知。这一承认动摇了行业对完全消除幻觉的预期，影响企业信任度。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "LLM"
+    ],
+    "link": "https://www.computerworld.com/article/4059383/openai-admits-ai-hallucinations-are-mathematically-inevitable-not-just-engineering-flaws.html",
+    "date": "2026-05-26",
+    "id": "17798289129680"
+  },
+  {
+    "title": "Python AI 栈严重漏洞 BadHost 曝光",
+    "summary": "Starlette 漏洞可绕过主机安全，影响 vLLM 等。",
+    "detail": "安全顾问披露 CVE-2026-48710，Starlette 单字符 Host 头注入可绕过路径授权。影响 FastAPI、vLLM、LiteLLM 等主流 Python AI 栈。发现者称关键严重，建议升级至 Starlette 1.0.1。提供在线扫描器。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Python"
+    ],
+    "link": "https://www.secwest.net/starlette",
+    "date": "2026-05-26",
+    "id": "17798289129681"
+  },
+  {
+    "title": "小米 MiMo API 降价高达 99%",
+    "summary": "小米大幅降低 AI API 价格，统一上下文计费。",
+    "detail": "小米 MiMo-V2.5 系列 API 永久降价高达 99%，统一上下文长度定价。Token 计划升级，同等价格可用 token 增 5-8 倍。此举继 DeepSeek 后进一步加剧 AI 价格战，提升推理效率。",
+    "tags": [
+      "News",
+      "Xiaomi",
+      "API"
+    ],
+    "link": "https://twitter.com/i/status/2059314052892099070",
+    "date": "2026-05-26",
+    "id": "17798289129682"
+  },
+  {
+    "title": "Shopify 公开 AI 员工 River 工作模式",
+    "summary": "River 在 Slack 公开频道工作，上周生成 1/8 PR。",
+    "detail": "Shopify 推出 AI 代理 River，约束其仅在 Slack 公开频道工作而非私聊。过去 30 天 5938 名员工使用，上周 1/8 合并 PR 由 River  authored。公开透明原则旨在建立信任，区别于私有化 AI 助手。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Agent"
+    ],
+    "link": "https://twitter.com/tobi/status/2053121182044451016",
+    "date": "2026-05-26",
+    "id": "17798289129683"
+  },
+  {
+    "title": "GitHub 新品自动接受 AI 代理操作",
+    "summary": "视觉点击工具自动批准 AI 代理运行请求。",
+    "detail": "开发者发布 SlopeAutoAcceptor，通过视觉 OCR 自动点击 AI 代理的“运行”按钮。解决企业限制 AI 自动运行问题，但存在安全风险。适用于 macOS，需代理窗口打开。",
+    "tags": [
+      "Dev",
+      "Tool",
+      "Agent"
+    ],
+    "link": "https://github.com/Alcray/SlopeAutoAcceptor",
+    "date": "2026-05-26",
+    "id": "17798289129684"
+  },
+  {
+    "title": "AI 语音克隆诈骗致湾区母亲损失数千",
+    "summary": "骗子利用 AI 模仿女儿声音实施绑架诈骗。",
+    "detail": "湾区母亲接到诈骗电话，AI 克隆女儿声音声称被绑架。受害者转账 5400 美元后发现女儿安全。此类诈骗呈增长趋势，凸显 AI 语音技术滥用风险及公众防范意识不足。",
+    "tags": [
+      "News",
+      "Safety",
+      "Voice"
+    ],
+    "link": "https://abc7news.com/post/bay-area-mom-thousands-scammers-use-ai-mimic-daughters-voice-fake-kidnapping-part-growing-trend/19154381/",
+    "date": "2026-05-26",
+    "id": "17798289129685"
+  },
+  {
     "title": "Spotify 高管捍卫 AI 音乐策略",
     "summary": "Spotify 称 AI 音乐工具优于垃圾内容，保护艺术家。",
     "detail": "**背景**：面对 AI 生成音乐的争议，Spotify 高管近日公开辩护其 AI 战略，回应外界对 AI 稀释音乐价值的担忧。\n**核心技术**：公司推出 AI remix 工具，声称能保护艺术家权益，生成内容质量优于网络上的低质垃圾内容（slop），强调工具辅助而非替代。高管表示该工具旨在增强创作而非取代人类。\n**行业影响**：此举反映流媒体巨头在 AI 生成内容版权、质量与创作者经济间的平衡尝试。随着 AI 音乐渗透率提升，平台如何分配收益及界定原创性将成为行业焦点，可能重塑音乐制作流程与版权法规，引发艺术家与平台博弈，影响未来音乐消费形态。监管机构可能介入审查 AI 训练数据合法性，平台需建立更透明的分成机制。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.scmp.com/tech/big-tech/article/3354394/china-losing-llm-race-it-can-still-win-ai-ex-tencent-ai-lead-says",
     "date": "2026-05-24",
     "id": "17796216075272"
-  },
-  {
-    "title": "开发者映射 6494 个 AI 引擎分类，构建 GAIT 69  taxonomy",
-    "summary": "开发者耗时数月验证分类 6494 个 AI 引擎，提供每日更新 live app。",
-    "detail": "一位开发者耗时数月验证并将 6494 个活跃 AI 引擎分类为 13 个领域和 69 个子类别（GAIT 69）。该项目填补了 AI 引擎分类法的空白，并构建了每日自动更新的 live 应用。这对于 AI 开发者、研究者及投资者了解当前 AI 生态格局极具参考价值，是重要的行业基础设施。通过标准化分类，社区能更清晰地追踪技术趋势，避免重复造轮子，促进开源协作与资源高效配置。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "Community"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48255441",
-    "date": "2026-05-24",
-    "id": "17796216075273"
-  },
-  {
-    "title": "OpenAI 与英伟达采用 Google SynthID 进行 AI 内容水印",
-    "summary": "多家巨头采用 Google 水印技术，解决 AI 生成内容溯源难题。",
-    "detail": "Google 推出的 SynthID 水印系统正成为行业标准，OpenAI、Nvidia、ElevenLabs 等巨头已接入，累计处理千亿级媒体文件。与传统元数据不同，SynthID 将水印嵌入像素或波形，难以通过截图或压缩去除，解决了 metadata 易丢失问题。这标志着 AI 内容监管从“可选”走向“基础设施化”，为版权保护和虚假信息识别提供不可篡改的技术底座。随着生成内容逼真度提升，人工鉴别失效，水印技术成为唯一可靠溯源手段，行业协同效应显著，可能推动相关合规政策落地。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Google"
-    ],
-    "link": "https://firethering.com/openai-nvidia-using-google-synthid-ai-watermarking/",
-    "date": "2026-05-24",
-    "id": "17796166642710"
-  },
-  {
-    "title": "ShannonBase：企业级 AI SQL 的轻量语义层解决方案",
-    "summary": "解决 NL2SQL 业务语义难题，支持多模型与自动 Schema 管理。",
-    "detail": "针对企业 analytics 中业务语义理解难点，ShannonBase 提出轻量级语义层架构。超越传统 Text2SQL，支持自动 Schema 元数据读取、SQL 验证修复及多模型（DeepSeek, Qwen, Llama）适配。旨在解决 LLM 生成 SQL 准确率高但业务逻辑对齐难的问题，为企业 AI Agent 落地提供数据层支持。该方案强调业务语义而非单纯语法转换，通过语义层屏蔽底层复杂性，提升企业级 AI SQL 的可靠性与可维护性。支持多 Schema 控制与完全限定表 enforcement，确保生成代码符合企业规范，降低落地门槛。",
-    "tags": [
-      "New",
-      "SQL",
-      "Enterprise AI"
-    ],
-    "link": "https://medium.com/@shannon.data.tech/shannonbase-the-lightweight-semantic-layer-for-enterprise-ai-sql-aac116b82a7e",
-    "date": "2026-05-24",
-    "id": "17796166642711"
-  },
-  {
-    "title": "从零到 AI 研究员：结构化 LLM 学习路径开源",
-    "summary": "GitHub 开源 8 阶段课程，涵盖 Transformer 到高级研究。",
-    "detail": "社区开源了结构化 LLM 学习路径，包含 8 个阶段课程。内容覆盖 Transformers 架构、预训练、微调、对齐、Agent 及高级研究。为开发者提供从零基础到研究员的系统化指南，填补了碎片化学习资源的空白，适合希望深入理解大模型底层技术的工程师。路径设计循序渐进，结合理论与实践，帮助学习者建立完整知识体系。涵盖从基础原理到前沿 research 的全流程，应对快速变化的 AI 研究领域，提升职业竞争力，是开发者自我进阶的优质参考资源。",
-    "tags": [
-      "Dev",
-      "Education",
-      "LLM"
-    ],
-    "link": "https://github.com/barvhaim/llm-learning-path",
-    "date": "2026-05-24",
-    "id": "17796166642712"
-  },
-  {
-    "title": "AI 辅助编程的代码可维护性风险控制方案",
-    "summary": "提出“可维护性棘轮”概念，防止 AI 生成代码质量退化。",
-    "detail": "针对 AI Agent 生成代码虽通过测试但增加维护风险的问题，提出 `riskratchet` 方案。通过监控圈复杂度、分支覆盖率等指标，防止代码库状态恶化。强调测试通过不等于可维护，需在 Review 环节引入风险检查，确保 AI 辅助编程不牺牲长期代码质量。该工具将代码退化可视化为 diff，帮助团队识别潜在风险，防止技术债务累积。具体检测包括公共函数覆盖率丢失、文件蔓延阈值等，为 AI 编程时代的质量保障提供新思路，确保敏捷性与稳定性的平衡。",
-    "tags": [
-      "Dev",
-      "Python",
-      "Best Practice"
-    ],
-    "link": "https://kayhan.dev/posts/014-letting-agents-write-code-without-ratcheting-up-risk/",
-    "date": "2026-05-24",
-    "id": "17796166642713"
-  },
-  {
-    "title": "端侧 AI 硬件困境：芯片层决定下一代产品生死",
-    "summary": "深圳硬件视角分析，AI 模型与端侧芯片算力存在巨大鸿沟。",
-    "detail": "基于深圳硬件生态观察，指出 AI 硬件产品失败主因是模型与端侧芯片算力不匹配。云 GPU 模型难以直接部署至电池供电设备。文章强调芯片层而非应用层将决定未来三年 AI 硬件存活率，现有电子产品类别可能需从芯片层重构以适配端侧 AI。硬件创始人常忽视硅片落地现实，导致量产失败。端侧 AI 要求低功耗、高算力芯片支持，供应链与制造执行需同步升级。这不仅是模型优化问题，更是硬件底层架构的革命，将重塑消费电子产品的定义与制造流程。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Edge AI"
-    ],
-    "link": "https://www.easelinktech.com/why-every-electronic-product-may-need-to-be-rebuilt-for-on-device-ai-the-chip-layer-will-decide-the-next-hardware-wave/",
-    "date": "2026-05-24",
-    "id": "17796166642714"
   }
 ]
