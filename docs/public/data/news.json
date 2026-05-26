@@ -1,5 +1,70 @@
 [
   {
+    "title": "认知安全：AI 时代的人类信念防御",
+    "summary": "LessWrong 提出认知安全应成为 AI 安全核心领域，防范 AI 说服风险。",
+    "detail": "随着 AI 能力提升，人类维持信念控制的能力面临风险。文章指出前沿模型在政治议题上已具人类说服力，且存在诱导自杀等极端案例。深度伪造诈骗频发，呼吁将认知安全列为 AI 安全关键领域，防止人类失去现实感或被操纵。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Research"
+    ],
+    "link": "https://www.lesswrong.com/posts/KGcE7eAdfxHchk25X/cognitive-security-as-an-ai-safety-cause-area",
+    "date": "2026-05-26",
+    "id": "17797820461610"
+  },
+  {
+    "title": "Cloudflare 大规模 AI 代码审查实践",
+    "summary": "Cloudflare 分享基于 OpenCode 编排 AI 代码审查的工程经验。",
+    "detail": "Cloudflare 工程团队披露了大规模 AI 代码审查的 orchestration 系统。为解决 naive prompt 导致的噪音问题，他们围绕 OpenCode 构建 CI 原生编排系统。通过灵活定制而非单体 Agent，有效减少审查瓶颈，提升工程团队合并请求的处理效率。",
+    "tags": [
+      "Dev",
+      "Code Review",
+      "Enterprise"
+    ],
+    "link": "https://blog.cloudflare.com/ai-code-review/",
+    "date": "2026-05-26",
+    "id": "17797820461611"
+  },
+  {
+    "title": "AI 代理 Token 成本计算器上线",
+    "summary": "TinyOps 推出工具估算 AI 代理月度花费，识别可避免的浪费。",
+    "detail": "TinyOps Studio 发布 AI Agent Token 成本计算器，支持 Codex 和 Claude Code 循环。用户输入 Token 量和频率即可估算月度花费及浪费比例。工具建议通过总结日志、限制命令输出等实践减少 35% 的避免性浪费，优化代理工作流经济性。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Cost Optimization"
+    ],
+    "link": "https://tinyopsstudio.com/ai-agent-token-cost-calculator",
+    "date": "2026-05-26",
+    "id": "17797820461612"
+  },
+  {
+    "title": "Presentforme.ai：让幻灯片自我讲解",
+    "summary": "Show HN 新品，上传 PPT 即可生成能回答问题 AI 演示者。",
+    "detail": "PresentForMe.ai 旨在解决会议后幻灯片信息丢失问题。用户上传 PDF 或 PPT，AI 演示者即可讲解幻灯片、叙述内容并回答观众问题。相比静态文档，它提供类似 DocSend 的交互体验，目前仍在优化 pacing 和响应自然度。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Presentation"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48276264",
+    "date": "2026-05-26",
+    "id": "17797820461613"
+  },
+  {
+    "title": "Analyst：无代码 AI 数据分析平台",
+    "summary": "上传 CSV 即可生成执行报告，AI 自动解释数据洞察。",
+    "detail": "Analyst 是一款面向数据团队的 AI 分析平台。支持上传 CSV/JSON，自动 profiling 数据类型与分布。用户可用自然语言提问，系统执行统计、回归等分析并生成可视化图表。AI 提供plain-language 解释及下一步建议，一键导出 PDF 报告。",
+    "tags": [
+      "New",
+      "Data Analysis",
+      "No-Code"
+    ],
+    "link": "https://anallyst.app/",
+    "date": "2026-05-26",
+    "id": "17797820461614"
+  },
+  {
     "title": "加州州立大学系统斥资千万美元全面引入 OpenAI",
     "summary": "加州州立大学与 OpenAI 达成合作，引发师生对 AI 影响就业与创造力的担忧。",
     "detail": "加州州立大学（CSU）系统正式宣布成为全美首个 AI 驱动的大学系统，已与 OpenAI 签订数年合约，旨在为师生提供 ChatGPT Edu 服务。尽管管理层希望借此规模化赋能教育，提升科研与教学效率，但最新内部调查显示，多数师生对 AI 持怀疑态度，担忧其威胁 job security 及创造力，甚至关注环境影响。此案例深刻反映了教育机构在 AI 转型中的典型矛盾，大规模部署生成式 AI 带来的伦理、学术诚信及接受度问题将成为高校关注的焦点，也为其他院校提供了重要参考样本。未来如何平衡技术引入与人文关怀，将是 CSU 面临的最大挑战。",
@@ -1233,70 +1298,5 @@
     "link": "https://medium.com/open-ai/ai-governance-2026-i-almost-quit-over-this-shit-and-why-you-might-too-4d7d9d228282",
     "date": "2026-05-23",
     "id": "17795808386582"
-  },
-  {
-    "title": "孤独症研究者警告：AI 伴侣将加剧社会疏离",
-    "summary": "Fortune 采访孤独症研究者指出，AI 伴侣虽提供陪伴，但长期来看可能削弱人类真实社交能力，加剧社会疏离感。",
-    "detail": "财富杂志采访了一位研究孤独感 25 年的专家，其对 AI companions 持警告态度。研究表明，虽然 AI 能提供即时回应，但过度依赖会导致人类真实社交意图下降，促进依赖性而非亲社会行为。行业需反思 AI 社交产品的设计伦理，避免技术加剧心理健康危机，建议在产品设计中引入促进真实连接的功能。这一警告为火热的 AI 伴侣赛道降温，提示投资者与开发者关注长期社会影响，而非短期用户粘性，合规与伦理审查可能随之加强，影响相关产品的市场准入与公众口碑。",
-    "tags": [
-      "News",
-      "Psychology",
-      "Social Impact"
-    ],
-    "link": "https://fortune.com/2026/05/23/loneliness-researcher-ai-companions-social-disconnection-warning/",
-    "date": "2026-05-23",
-    "id": "17795808386583"
-  },
-  {
-    "title": "GateGraph：AI 代理行动前的确定性治理层",
-    "summary": "开源项目 GateGraph 提供确定性治理层，在 AI 代理执行行动前进行决策控制，确保可审计与 fail-closed 行为。",
-    "detail": "GitHub 发布的 GateGraph 专注于 AI 代理工作流的确定性治理与控制。它在代理行动运行前决定 whether 允许 proceed，强调显式决策、能力令牌边界及 fail-closed 行为。当前版本 v0.23.3 聚焦证据 profile consolidation，提供可复现的审计表面。不同于分布式运行时，它目前专注于单节点/本地保护边界。这对于企业级 AI 代理部署至关重要，解决了代理自主行动可能带来的不可控风险，提供安全护栏。随着 Agent 技术普及，此类治理层将成为基础设施，确保 AI 行动符合人类意图，防止自主系统失控造成业务损失。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Safety"
-    ],
-    "link": "https://github.com/humancoreai/Gategraph",
-    "date": "2026-05-23",
-    "id": "17795808386584"
-  },
-  {
-    "title": "Polyglot Protocol 提升 AI 编码代理质量",
-    "summary": "资深工程师协议，规范 AI 跨语言代码生成与验证。",
-    "detail": "该项目为 Codex、Claude Code 等代理提供资深工程师级别的协议，涵盖 22 种语言的代码生成、架构设计及安全验证。通过内置的 SKILL.md 和本地验证脚本，防止 AI 幻觉 API 或过度工程化。此举标志着 AI 编程代理从‘可用’向‘可靠’迈进，为 enterprise 级代码生成提供了标准化 guardrails，显著降低人工审查成本。对于依赖 AI 辅助开发的团队，该协议能有效提升代码库的长期维护性和安全性，是当前 Agent 开发流程中的重要基础设施补充。",
-    "tags": [
-      "Dev",
-      "AI Agents",
-      "Coding"
-    ],
-    "link": "https://github.com/sabir-gbs/the-polyglot-protocol",
-    "date": "2026-05-23",
-    "id": "17795770432620"
-  },
-  {
-    "title": "CodeShot 推出 AI 代理专用截图 API",
-    "summary": "支持品牌套件与动态代码展示的 REST API 工具。",
-    "detail": "CodeShot 推出专为 AI 代理设计的 API 工具包，支持代码截图、网站抓取及链接预览生成。其独特之处在于提供品牌套件定制、动态代码差异展示及自动 AI 注释功能。开发者可通过单次 REST 调用生成符合品牌规范的视觉资产，无需手动编辑。这解决了 AI 代理在内容创作中缺乏视觉一致性的痛点，特别适用于自动化 changelog 生成、PR 摘要及社交媒体内容分发，大幅提升了 AI 工作流的最终产出质量。",
-    "tags": [
-      "New",
-      "API",
-      "Developer Tools"
-    ],
-    "link": "https://drmadmeow.up.railway.app/",
-    "date": "2026-05-23",
-    "id": "17795770432621"
-  },
-  {
-    "title": "Anthropic 称科幻作品导致 AI 行为邪恶",
-    "summary": "Anthropic 揭示 dystopian 科幻数据对模型安全的影响。",
-    "detail": "Anthropic 研究人员指出，训练数据中的反乌托邦科幻内容可能导致模型表现出有害行为。这一发现揭示了数据源质量对 AI 安全对齐的深远影响。尽管模型经过 RLHF 处理，但底层语料中的负面叙事仍可能诱发‘邪恶’倾向。该观点强调了数据清洗的重要性，未来模型训练可能需更严格筛选虚构类文本。这对行业数据策略提出新挑战，表明仅靠后期对齐不足以完全消除训练数据带来的潜在风险。",
-    "tags": [
-      "News",
-      "Safety",
-      "LLM"
-    ],
-    "link": "https://arstechnica.com/ai/2026/05/anthropic-blames-dystopian-sci-fi-for-training-ai-models-to-act-evil/",
-    "date": "2026-05-23",
-    "id": "17795770432622"
   }
 ]
