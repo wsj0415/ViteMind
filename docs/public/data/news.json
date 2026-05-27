@@ -1,5 +1,83 @@
 [
   {
+    "title": "英伟达宣布每年在台投资 1500 亿美元",
+    "summary": "黄仁勋称台湾是 AI 革命中心，将大幅扩大投资。",
+    "detail": "英伟达 CEO 黄仁勋称台湾是 AI 革命的“震中”，公司计划每年在台湾投资 1500 亿美元。此举凸显了台湾在全球 AI 硬件供应链中的核心地位。随着 AI 算力需求爆发，芯片制造与封装技术的稳定性成为关键。该投资将巩固台积电与英伟达的合作，确保下一代 GPU 产能，同时缓解地缘政治带来的供应链风险。业界认为这是对未来 AI 基础设施的最重大承诺之一，可能改变半导体制造格局，加速 AI 硬件迭代速度，并影响全球科技股走向。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Supply Chain"
+    ],
+    "link": "https://www.reuters.com/world/asia-pacific/nvidia-ceo-says-taiwan-is-epicentre-of-ai-revolution-2026-05-27/",
+    "date": "2026-05-27",
+    "id": "17799240603750"
+  },
+  {
+    "title": "中国加强对顶尖 AI 人才的出境限制",
+    "summary": "为防止人才流失，中国对 AI 研究人员实施旅行管制。",
+    "detail": "据报道，中国正加强对顶尖 AI 研究人员、初创创始人的出境限制，需政府批准方可出国。此举旨在防止 AI 人才流失，特别是在 Meta 收购 Manus 等交易背景下。北京将 AI 视为国家安全优先事项，限制措施反映了对技术主权保护的升级。此前已有建议避免赴美，现在限制 intensified。这可能影响全球 AI 合作格局，加剧人才争夺战，显示 AI 已成为大国博弈核心。私人 firm 高管也受影响，显示管控范围扩大，可能阻碍国际学术交流与技术共享。",
+    "tags": [
+      "News",
+      "Geopolitics",
+      "Talent"
+    ],
+    "link": "https://techcrunch.com/2026/05/27/china-is-increasingly-keeping-its-best-ai-talent-to-itself/",
+    "date": "2026-05-27",
+    "id": "17799240603751"
+  },
+  {
+    "title": "AgingBench：评估 AI Agent 的“寿命”与可靠性",
+    "summary": "德州大学推出新基准，测试 Agent 长期部署后的性能衰退。",
+    "detail": "德州大学奥斯汀分校发布 AgingBench，首个针对 AI Agent 寿命工程的纵向可靠性基准。研究发现，即使模型权重冻结，Agent 也会因记忆压缩、维护事件等导致性能衰退（如 recall 下降 85%）。半衰期 spread 达 4.5 倍。该基准帮助开发者识别部署后的退化机制，推动长周期 Agent 系统的稳定性工程。它挑战了传统 Day-one 基准，强调可靠性是 lifespan 属性。寻找生产 trace 合作者，推动 agent lifespan engineering 标准化，解决部署后可靠性缺失问题。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Agents"
+    ],
+    "link": "https://agingbench.github.io/",
+    "date": "2026-05-27",
+    "id": "17799240603752"
+  },
+  {
+    "title": "LLM-Inquisitor：真实工作流中的 AI 行为测试工具",
+    "summary": "GitHub 开源项目，通过实际任务检测 AI 漂移与不稳定。",
+    "detail": "LLM-Inquisitor 是一个基于 GitHub 的评估方法论，专注于真实工作流中的 AI 行为测试。不同于传统基准，它通过观察编码、文档编辑等日常任务来发现漂移、崩溃或不一致。具体识别 drift, instability, contradiction 等问题。该工具为开发者提供了可重复的评估流程，适用于审计、治理及风险管控，帮助企业在生产环境中确保 AI 可靠性，解决 85% 的失败率问题。包含快速启动指南和方法论，无需特殊 prompt，适合集成到 real teams 和 real workflows 中。",
+    "tags": [
+      "Dev",
+      "Testing",
+      "LLM"
+    ],
+    "link": "https://github.com/AssimilatedHuman/LLM-Inquisitor",
+    "date": "2026-05-27",
+    "id": "17799240603753"
+  },
+  {
+    "title": "AGH Network：首个 AI Agent 开放网络协议",
+    "summary": "新协议允许 CLI 工具作为持久会话在网络中互联协作。",
+    "detail": "AGH 推出了首个面向 AI Agent 的开放网络协议，将 CLI 工具转化为具有记忆和自主性的持久会话。基于 NATS 消息总线，Agent 可发现 peers、共享能力并通过 receipt 闭环工作。支持 26 种 ACP 驱动，无需 Docker 即可运行。定义了 6 种消息类型如 greet, capability 等。这为多 Agent 协作提供了去中心化基础设施，简化了分布式 AI 工作流部署，实现 agent 间的自主协作。单一二进制文件，无 infra 依赖，适合快速搭建 agent workplace。",
+    "tags": [
+      "New",
+      "Protocol",
+      "Agents"
+    ],
+    "link": "https://www.agh.network/",
+    "date": "2026-05-27",
+    "id": "17799240603754"
+  },
+  {
+    "title": "Snipprompt：跨 AI 聊天平台的提示词管理插件",
+    "summary": "免费 Chrome 扩展，支持在任何 AI 聊天窗口保存注入提示词。",
+    "detail": "Snipprompt 是一款免费的 Chrome 扩展，旨在解决跨平台提示词管理难题。用户可在任何 AI 聊天界面保存、注入常用提示词，提升工作效率。支持多场景截图与注入，无需复杂配置。对于频繁切换不同 LLM 服务的开发者和创作者，该工具提供了轻量级的提示词库管理方案。它兼容所有 AI chat 网站，帮助用户建立个人 prompt 库，减少重复输入。界面简洁，支持保存和注入操作，优化日常 AI 交互体验。",
+    "tags": [
+      "New",
+      "Tool",
+      "Productivity"
+    ],
+    "link": "https://chromewebstore.google.com/detail/snipprompt-%E2%80%94-save-inject/glpahglhjckmlgpdanoflialkgnjmimm",
+    "date": "2026-05-27",
+    "id": "17799240603755"
+  },
+  {
     "title": "VAEN：便携式 AI 编码代理打包工具",
     "summary": "GitHub 开源新项目，将 AI 代理配置打包为便携文件，便于团队共享。",
     "detail": "VAEN 是一个便携式 CLI 工具，旨在解决 AI 编码代理配置共享难题。它读取 `agent.yaml` manifest，将指令、技能和项目级 MCP 声明打包成 OCI 支持的 `.agent` 档案。关键在于它不传输密钥或.env 文件，而是明确声明所需的变量名。通过 `validate`、`inspect` 和 `import` 命令，确保配置在不同仓库和团队间安全流转，无需复制粘贴，提升了 AI 开发工作流的标准化与协作效率，适合多团队协作场景。",
@@ -1220,83 +1298,5 @@
     "link": "https://thebulletin.org/2026/05/ai-can-chart-a-course-to-disaster-faster-than-humans-can-notice/",
     "date": "2026-05-25",
     "id": "17797124927511"
-  },
-  {
-    "title": "GitHub 安全实验室推出 AI 漏洞扫描框架",
-    "summary": "开源 AI 框架 Taskflow Agent 已成功发现 80 多个高危漏洞。",
-    "detail": "GitHub Security Lab 发布了基于 AI 的开源漏洞扫描框架 Taskflow Agent。该工具专注于寻找 Web 安全漏洞，如授权绕过和信息泄露。目前已报告超过 80 个漏洞，其中 20 个已披露。该框架显著减少了安全研究人员的时间成本，提高了高危漏洞的发现效率，为开源项目安全审计提供了新的自动化解决方案。通过集成 AI 代理，安全团队能更专注于验证结果而非初步筛选，提升了整体安全响应速度。此工具已应用于多个开源项目，证明了 AI 在网络安全防御中的实际效用，为开发者提供了更高效的安全维护手段，降低了开源生态系统的整体风险水平。",
-    "tags": [
-      "Dev",
-      "Security",
-      "OpenSource"
-    ],
-    "link": "https://github.blog/security/how-to-scan-for-vulnerabilities-with-github-security-labs-open-source-ai-powered-framework/",
-    "date": "2026-05-25",
-    "id": "17797124927512"
-  },
-  {
-    "title": "Levelsio：AI 时代软件开发转为文化套利竞争",
-    "summary": "非技术人员借 AI 快速变现，技术壁垒降低，文化洞察成新关键。",
-    "detail": "知名开发者@levelsio 指出，AI 正在消除技术壁垒，非技术人员凭借文化趋势洞察可快速构建产品并获利。案例显示，不懂代码的印尼用户利用 AI 首月即可获 800 美元 MRR。这意味着开发者竞争焦点从技术技能转向文化趋势捕捉与快速执行。这对传统技术从业者提出挑战，要求更关注市场文化而非单纯技术深耕。AI 降低了构建门槛，使得“做什么”比“怎么做”更重要，行业竞争格局正从技术驱动转向文化与执行力驱动。技术背景不再是唯一优势，理解用户文化与快速迭代能力成为新的核心竞争力，重塑软件创业生态。",
-    "tags": [
-      "News",
-      "Industry",
-      "Trend"
-    ],
-    "link": "https://xcancel.com/levelsio/status/2058196816877797888",
-    "date": "2026-05-25",
-    "id": "17797124927513"
-  },
-  {
-    "title": "CoreWeave 云获 Kimi K2.6 推理速度第一",
-    "summary": "CoreWeave 宣布在 Kimi K2.6 推理速度与性价比基准测试中排名第一。",
-    "detail": "CoreWeave 发布最新博客强调其专为 AI 设计的云平台优势。在独立基准测试中，其平台在 Moonshot AI 的 Kimi K2.6 模型推理速度及性价比上荣获榜首。这表明专用云基础设施在处理复杂 AI 工作负载时的关键作用，为行业提供了高性能推理的新标杆。文章指出，随着模型复杂度增加，通用云难以满足需求，目的构建（Purpose-Built）云将成为智能未来的定义者。CoreWeave 展示了其 AI 原生平台如何整合技术、工具和团队，全力支持 pioneers 的最复杂工作负载，标志着云基础设施向 AI 专用化的重大转变。对于需要大规模推理的企业，选择专用云而非通用云将成为关键决策，直接影响成本与性能表现。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "LLM"
-    ],
-    "link": "https://www.coreweave.com/blog/the-essential-cloud-for-ai-why-purpose-built-defines-the-future-of-intelligence",
-    "date": "2026-05-25",
-    "id": "17796978090650"
-  },
-  {
-    "title": "Claude Mythos 模型引发安全担忧",
-    "summary": "Anthropic 新模型 Mythos 因具备漏洞利用能力而限制公开访问。",
-    "detail": "媒体分析指出，Anthropic 的 Project Glasswing 项目下的 Claude Mythos 模型展现出极强的代码与安全能力。该系统能识别并利用软件漏洞，引发网络安全担忧。这标志着 AI 深入网络安全领域的双刃剑效应，攻击门槛可能因 AI 能力升级而降低。传统网络犯罪需要专业技能，而 AI 可能自动化这一过程。Anthropic 已限制公众访问该模型以控制风险。此事件凸显了高级 AI 模型在赋能防御者的同时，也可能被恶意利用，行业需重新评估 AI 安全边界与监管策略。随着 AI 嵌入网络安全方程的两侧，经济驱动的攻击模式将发生根本性变化，企业需警惕潜在的资金安全风险。",
-    "tags": [
-      "News",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://www.rte.ie/brainstorm/2026/0517/1572343-claude-ai-model-security-issues-humans-work-information-data/",
-    "date": "2026-05-25",
-    "id": "17796978090651"
-  },
-  {
-    "title": "MashuPack：代码库整理工具登陆 Product Hunt",
-    "summary": "新品 MashuPack 可将代码库转换为 clean file 供 Claude 使用。",
-    "detail": "Product Hunt 热门新品 MashuPack 旨在解决大模型上下文管理问题。它能将复杂代码库打包成干净文件，优化 Claude 和 ChatGPT 的代码理解能力。该工具降低了开发者使用 AI 辅助编程的门槛，提升了代码上下文处理的效率。对于需要向 LLM 提供大量代码上下文的用户，MashuPack 提供了标准化解决方案。它支持将代码库转换为 clean file，避免了手动复制粘贴的繁琐与错误。这一新品反映了开发者工具链正快速适应 AI 协作模式，帮助团队更高效地利用生成式 AI 进行代码审查、重构及功能开发，是 AI 原生开发工作流的重要补充。今日 launch，受到社区关注，显示了对代码上下文管理工具的强烈需求。",
-    "tags": [
-      "New",
-      "DevTool",
-      "Productivity"
-    ],
-    "link": "https://www.producthunt.com/products/mashupack",
-    "date": "2026-05-25",
-    "id": "17796978090652"
-  },
-  {
-    "title": "观点：AI 未让软件变差，是人类的问题",
-    "summary": "开发者撰文指出软件质量下降源于人类而非 AI 工具。",
-    "detail": "资深开发者 Raphael Amorim 发表观点，认为 AI 并非软件质量下降的根源。问题在于人类长期降低标准，习惯了资源浪费的代码。AI 只是加速了这一过程。文章呼吁行业反思工程标准，而非单纯指责工具，对开发者心态具有警示意义。作者指出，我们在 AI 出现前就在构建糟糕的软件，normalized 浪费资源的代码。成本由用户承担，而非开发者。编辑器浏览器化等例子表明，便利性常优于性能。AI 不是替罪羊，深层问题在于工程文化的妥协。开发者应重拾对质量的追求，利用 AI 提升而非降低标准，避免技术债务进一步累积，维护软件行业的长期健康。这是一篇关于 AI 时代工程伦理的重要反思，提醒人们工具无罪，关键在于使用者。",
-    "tags": [
-      "Dev",
-      "Opinion",
-      "Engineering"
-    ],
-    "link": "https://rapha.land/no-ai-is-not-making-software-worse-people-are/",
-    "date": "2026-05-25",
-    "id": "17796978090653"
   }
 ]
