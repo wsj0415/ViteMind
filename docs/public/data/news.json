@@ -1,5 +1,96 @@
 [
   {
+    "title": "HN 社区提议标记纯 AI 生成内容",
+    "summary": "用户呼吁标记纯 AI 生成文章，维护讨论质量。",
+    "detail": "Hacker News 用户发起提议，认为若提交内容被多名用户报告并经多个检测器证实为纯 AI 生成，其标题应被标记。随着完全由 AI 生成的长文在过去两年显著增加，社区担忧此类空洞内容窃取用户时间。HN 作为少数重视长文与高质量讨论的平台，此举旨在维护社区生态。虽单一检测器不准，但多重共识可提高准确性，反映了社区对 AI 内容泛滥的强烈警惕与治理需求。发起人强调个人不愿阅读可能仅是高质量推文扩展成的长文，希望保留有限的时间给有价值的内容。",
+    "tags": [
+      "News",
+      "Community",
+      "Ethics"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48296731",
+    "date": "2026-05-27",
+    "id": "17799001463580"
+  },
+  {
+    "title": "Hodor：macOS 本地 AI 提示词启动器",
+    "summary": "701KB 轻量级开源工具，本地运行无数据收集。",
+    "detail": "Hodor 是一款专为 macOS 设计的原生提示词启动器，体积仅 701KB。支持通过屏幕边缘滑动、快捷键或关键词触发预设提示词。完全本地运行，无网络连接和数据收集，代码开源且经 Apple 公证。解决了用户在不同 AI 工具间重复输入提示词的痛点，注重隐私与效率。其权限需求与 Raycast 类似，仅用于粘贴操作。作为轻量级工具，它展示了本地优先 AI 辅助工具的设计思路，适合注重数据安全与 workflow 效率的开发者日常使用。",
+    "tags": [
+      "New",
+      "MacOS",
+      "Productivity"
+    ],
+    "link": "https://hodor.design/",
+    "date": "2026-05-27",
+    "id": "17799001463581"
+  },
+  {
+    "title": "Google AI 模式引发 DuckDuckGo 流量激增",
+    "summary": "Google 推崇 AI 搜索后，DuckDuckGo 访问量上涨 28%。",
+    "detail": "数据显示，在 Google 强调用户喜爱 AI 搜索模式后的一周内，主打隐私的 DuckDuckGo 访问量增加了 28%。这表明部分用户对 AI 生成搜索结果持保留态度，转而寻求传统或隐私优先的搜索体验。该趋势反映了 AI 搜索商业化进程中用户分化的潜在风险。PCGamer 报道指出，Google 的 AI 模式推广反而推动了竞争对手流量增长。这可能迫使搜索引擎公司在 AI 集成与用户体验之间寻找新平衡，隐私与无 AI 干扰成为部分用户的核心诉求。",
+    "tags": [
+      "News",
+      "Search",
+      "Market"
+    ],
+    "link": "https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/",
+    "date": "2026-05-27",
+    "id": "17799001463582"
+  },
+  {
+    "title": "AI 代理审计供应链攻击暴露面",
+    "summary": "新开源工具利用 AI 代理检测供应链安全风险。",
+    "detail": "开发者发布了一款新的 AI 代理技能，专门用于审计供应链攻击暴露面。该工具集成于 GitHub 生态，旨在自动化识别代码依赖中的潜在安全漏洞。随着 AI 生成代码增多，供应链安全成为焦点。此工具为开发者提供了自动化安全审计的新思路，属于 DevSecOps 领域的创新尝试。通过 AI 代理自动检查依赖项，可减少人工审计成本，提高响应速度。项目开源在 GitHub 上，展示了 AI 在网络安全防御层面的具体应用落地，适合关注软件供应链安全的技术团队。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://github.com/javaid-codes/audit-supply-chain-agents",
+    "date": "2026-05-27",
+    "id": "17799001463583"
+  },
+  {
+    "title": "OpenAI 与 Anthropic 就 AI 就业影响论战",
+    "summary": "两大巨头 CEO 对 AI 是否导致失业潮观点截然相反。",
+    "detail": "OpenAI CEO 山姆·阿尔特曼表示 AI 不太可能导致就业末日，承认此前预测过于悲观。而 Anthropic 联合创始人 Chris Olah 在梵蒂冈会议上坚持 AI 将大规模替代人类劳动。两大领军实验室观点分歧巨大，令政策制定者与企业难以抉择。近期科技大厂裁员潮加剧了这场关于 AI 经济影响的争论。Meta 裁员 8000 人却增加 AI 支出，显示行业转型阵痛。真相可能介于两者之间，但巨头间的宣传战增加了公众认知难度，影响行业长期规划与政策制定方向。",
+    "tags": [
+      "News",
+      "LLM",
+      "Jobs"
+    ],
+    "link": "https://www.axios.com/2026/05/27/ai-hype-doom-openai-anthropic",
+    "date": "2026-05-27",
+    "id": "17799001463584"
+  },
+  {
+    "title": "Workplane：人机协作文件系统",
+    "summary": "共享 AI 工件的新平台，支持人类与代理协作。",
+    "detail": "Workplane 是一个专为人类和 AI 代理设计的协作文件系统。它将散落的 Markdown 和 HTML 文件转化为可共享链接，无需登录即可查看和评论。支持版本控制和权限管理，允许 AI 代理持续改进已共享的工件。该平台旨在优化 AI 生成内容的协作流程，适用于团队与多代理协作场景。兼容 Claude、Cursor 等主流代理，通过 URL 分享 artifacts，让人类审查而代理构建。解决了 AI 产出物难以共享和版本管理的痛点，促进人机协作效率。",
+    "tags": [
+      "New",
+      "Collaboration",
+      "Workflow"
+    ],
+    "link": "https://workplane.co",
+    "date": "2026-05-27",
+    "id": "17799001463585"
+  },
+  {
+    "title": "PostHog 将默认 opt-in 训练 AI 模型",
+    "summary": "数据分析平台计划利用用户数据训练自有 AI 模型。",
+    "detail": "产品分析平台 PostHog 宣布计划利用用户数据训练自有 AI 模型，默认选项为加入。目标是提升现有产品智能度并开发如 PostHog Code 等新产品。重点应用包括会话回放分析和合成用户测试，旨在自动化测试流程。此举引发对数据隐私的关注，尽管声称 opt-in，但默认设置可能模糊用户选择边界。公司希望构建自驱动产品，通过模型训练使产品更主动地表面答案并解决问题，代表了 SaaS 平台利用私有数据构建垂直模型的趋势。",
+    "tags": [
+      "News",
+      "Data",
+      "Privacy"
+    ],
+    "link": "https://posthog.com/blog/training-ai-models",
+    "date": "2026-05-27",
+    "id": "17799001463586"
+  },
+  {
     "title": "Robinhood 推出 AI 代理交易功能",
     "summary": "Robinhood 上线 AI 代理交易 beta 版，支持独立钱包与 MCP 协议连接。",
     "detail": "Robinhood 宣布推出 AI 代理交易功能，允许用户为 AI 代理创建独立账户并连接专用钱包。代理可分析投资组合并建议策略，但仅限使用预加载余额交易。该功能目前处于 beta 阶段，仅支持股票交易，未来将扩展至期权和 crypto。通过 Model Context Protocol (MCP) 服务，代理可执行交易或分析风险。此举标志着 AI 代理在金融交易领域的实际应用落地。平台内置欺诈检测保护，团队会审查可疑交易。用户可监控代理活动，部分交易需批准。这提升了自动化投资的可能性，同时通过独立钱包隔离风险，为未来支持期权、crypto 等复杂金融产品奠定基础，是零售金融 AI 化的重要里程碑。",
@@ -1207,96 +1298,5 @@
     "link": "https://www.tryagentgate.com/",
     "date": "2026-05-24",
     "id": "17796600559810"
-  },
-  {
-    "title": "AI 首次接管飞机驾驶，航空业迈向自主飞行",
-    "summary": "Merlin Labs 测试 AI 飞行员，通过 NLP 与空管交互，缓解飞行员短缺。",
-    "detail": "航空业正面临飞行员短缺与空管压力，Merlin Labs 展示了 AI 驾驶系统。测试中 AI 通过 NLP 模型监听空管指令并语音回复，接管了大部分驾驶任务。这标志着航空自动化从传统 autopilot 向自主决策演进，虽目前仍为实验阶段，但为未来完全自主飞行及缓解人力危机提供了技术验证。波音估计未来二十年需 60 万新飞行员，AI 辅助成为关键解决方案，华盛顿政策层面也开始支持此技术演进。交通部长等官员的关注表明，监管框架正在适应新技术，以确保安全的同时推动自动化，这可能重塑未来航空业的操作标准与人员结构。",
-    "tags": [
-      "News",
-      "Aviation",
-      "LLM"
-    ],
-    "link": "https://www.cnn.com/2026/05/24/us/ai-flying-airplanes",
-    "date": "2026-05-24",
-    "id": "17796600559811"
-  },
-  {
-    "title": "Hacker News 热议：开发者日常 AI 工具栈大公开",
-    "summary": "社区分享 Claude、Deepseek 及 Pi Agent 等实际开发工作流与替代方案。",
-    "detail": "Hacker News 社区讨论了开发者日常 AI 工具栈。用户分享了从 Claude 转向 Pi Agent 的趋势，以及 Deepseek、Tuicr 等工具的实际应用。这反映了开发者对编码 Agent 及本地代码审查工具的依赖增加，为行业提供了真实工作流参考，显示出 AI 辅助编程正从单纯代码生成向代理化工作流转变。用户特别提到 Pi 代理在编码任务中的优势，以及探索 Superset 的意向，体现了工具选代的快速性。讨论还涉及哪些工具被停止使用，这种负面反馈同样具有价值，帮助开发者避开低效工具，优化每日工作流，提升整体编码效率与体验。",
-    "tags": [
-      "Dev",
-      "Community",
-      "Tools"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48259299",
-    "date": "2026-05-24",
-    "id": "17796600559812"
-  },
-  {
-    "title": "Neuro 编程语言：基于 LLVM 20 的 AI 专用编译语言",
-    "summary": "专为高性能 AI 负载设计，支持 AOT 编译，目前处于 Alpha 阶段。",
-    "detail": "Neuro 是一种基于 LLVM 20 构建的现代化编译语言，专为高性能 AI 负载设计。目前处于 Alpha 阶段，核心 MVP 已完成。支持 AOT 编译，旨在解决现有语言在 AI 工作负载上的性能瓶颈。作为底层基础设施创新，它为 AI 开发提供了新的语言级优化可能，适合对性能敏感的系统级 AI 应用开发。项目采用 Neuro Shared Source License v2.1 许可，测试通过率显示其核心功能已具备可用性，是 AI 基础设施层的重要探索。语言语法设计现代化，架构清晰，虽然目前处于 Phase 1.5 开发中，但已展示出一秒内编译运行的能力，预示着 AI 专用语言可能成为未来高性能计算的关键组成部分。",
-    "tags": [
-      "Dev",
-      "Programming",
-      "Infrastructure"
-    ],
-    "link": "https://github.com/PanzerPeter/Neuro",
-    "date": "2026-05-24",
-    "id": "17796600559813"
-  },
-  {
-    "title": "AI 智能体推导牛顿引力常数精度达 1.86 ppm",
-    "summary": "无学位研究者指导 AI 发现引力常数高精度关系，匹配 CODATA 2022 数据。",
-    "detail": "该项目通过 AI 智能体进行 26.7 亿次表达式搜索，发现了一个封闭形式表达式，仅需电子质量、普朗克常数等即可推导 G 值。误差在 CODATA 不确定度范围内。这展示了 AI 在基础科学发现中的潜力，即便由非专业人士指导也能取得高精度成果，为 AI 科研助手提供了新案例。",
-    "tags": [
-      "News",
-      "AI Agents",
-      "Science"
-    ],
-    "link": "https://github.com/oldrich-research/gravitational-constant-relation",
-    "date": "2026-05-24",
-    "id": "17796563415170"
-  },
-  {
-    "title": "报告警告 AI 对学生学习及 HSC 构成紧急威胁",
-    "summary": "新报告指出人工智能威胁教育体系可信度及学生学习，引发对 HSC 考试的担忧。",
-    "detail": "悉尼晨锋报报道，新报告警告 AI 威胁教育体系可信度。背景是教育界对 GenAI 的担忧，特别是 HSC 考试诚信。文章指出 AI 对学生学习构成紧急威胁，呼吁关注教育系统的适应性。这反映了 AI 技术在落地过程中对社会基础设施的冲击日益显著。",
-    "tags": [
-      "News",
-      "Education",
-      "Policy"
-    ],
-    "link": "https://www.smh.com.au/national/nsw/ai-poses-urgent-threat-to-student-learning-and-the-hsc-20260521-p5zzlx.html",
-    "date": "2026-05-24",
-    "id": "17796563415171"
-  },
-  {
-    "title": "科技行业 AI  bifurcation：基础能力重塑应用层",
-    "summary": "分析指出 AI 能力曲线持续上升，多智能体并行已能重构软件应用层，谷歌演示生成操作系统。",
-    "detail": "文章分析 AI 技术 bifurcation，指出多智能体并行已能低成本构建复杂系统。引用 Google I/O Antigravity 2.0 演示，12 小时构建 OS，93 个子智能体。核心观点是“足够好”的智能体循环正在改变下游公司格局，基础能力比 AGI 终点更重要，应用层软件将面临重构。",
-    "tags": [
-      "News",
-      "Industry",
-      "Agents"
-    ],
-    "link": "https://neevash.com/blog/tech-bifurcation-and-the-0.5-layer",
-    "date": "2026-05-24",
-    "id": "17796563415172"
-  },
-  {
-    "title": "伯克利发布最大规模本科生 AI 使用研究报告",
-    "summary": "涵盖 9.5 万名学生的研究揭示 AI 使用中的访问差异及作弊现象，发表于 Science。",
-    "detail": "UC Berkeley 主导，20 所公立大学参与，9.5 万名学生受访。研究揭示 AI 使用中的访问不平等及作弊现象。数据收集于 2024 年春季，2026 年发表于 Science。为教育政策制定提供了大规模实证依据，显示 AI 对高等教育的深远影响及公平性挑战。",
-    "tags": [
-      "News",
-      "Education",
-      "Research"
-    ],
-    "link": "https://news.berkeley.edu/2026/05/21/the-largest-study-of-ai-use-by-undergrads-is-in-revealing-disparities-in-access-and-in-cheating/",
-    "date": "2026-05-24",
-    "id": "17796563415173"
   }
 ]
