@@ -1,5 +1,83 @@
 [
   {
+    "title": "工程师如何使用 AI 而不丧失判断力",
+    "summary": "深度分析指出 AI 工具不应替代判断，而应采用对抗性使用模式。",
+    "detail": "文章指出工程师对 AI 的依赖焦虑被误诊，核心问题在于“弃权”而非懒惰。建议采用“对抗性使用”模式，将 AI 输出视为初级工程师的草稿并进行质询。通过特定的 Prompt 模式让 AI 自我反驳，可有效避免生产环境中的隐蔽错误。这是提升 AI 时代工程师核心竞争力的关键方法论。盲目接受代码会导致技术债务累积，唯有保持批判性思维，才能将 AI 转化为真正的生产力杠杆。",
+    "tags": [
+      "Dev",
+      "Best Practices",
+      "LLM"
+    ],
+    "link": "https://theaileverageweekly.com/posts/your-ai-tools-are-only-as-good-as-your-judgment-and-that-s-the-point.html",
+    "date": "2026-05-27",
+    "id": "17798404342724"
+  },
+  {
+    "title": "高通与字节跳动达成 AI 芯片合作",
+    "summary": "高通与字节跳动达成 AI 芯片协议，强化移动端 AI 算力布局。",
+    "detail": "高通与 TikTok 母公司字节跳动正式达成 AI 芯片合作协议。此举标志着硬件巨头与算法巨头在边缘 AI 计算领域的深度绑定。合作旨在优化移动端 AI 推理效率，降低延迟，减少对云端的依赖。行业影响深远，可能改变当前云端主导的 AI 算力格局，推动端侧智能应用爆发。对于高通而言，这是对抗 Nvidia 数据中心垄断的关键一步，同时也为字节跳动的全球业务提供了更稳定的硬件供应链支持。",
+    "tags": [
+      "News",
+      "Chip",
+      "ByteDance"
+    ],
+    "link": "https://www.reuters.com/business/qualcomm-strikes-ai-chip-deal-with-tiktok-owner-bytedance-bloomberg-news-reports-2026-05-26/",
+    "date": "2026-05-26",
+    "id": "17798404342720"
+  },
+  {
+    "title": "AI 巨头 CEO 缓和就业末日论调",
+    "summary": "奥特曼与阿莫迪 IPO 前改口，不再强调 AI 将导致大规模失业。",
+    "detail": "OpenAI 与 Anthropic CEO 在 IPO 前夕集体缓和了对 AI 取代人类工作的极端预测。此前他们曾警告就业市场将面临 apocalypse，现在转而强调辅助与增强。这一转变被解读为为了安抚监管机构和投资者，确保上市顺利。反映了 AI 行业从技术狂热向商业落地合规性的转变。随着公众对失业焦虑的增加，巨头们必须在增长叙事与社会责任之间找到平衡，以免影响估值和公众信任。",
+    "tags": [
+      "News",
+      "Policy",
+      "IPO"
+    ],
+    "link": "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/",
+    "date": "2026-05-26",
+    "id": "17798404342721"
+  },
+  {
+    "title": "小米 MiMo-v2.5 价格暴跌 99%",
+    "summary": "小米 API 价格战升级，MiMo-v2.5 降价 99%，配额大幅增加。",
+    "detail": "小米宣布 MiMo-v2.5 模型 API 价格下调高达 99%，同时 Token 计划配额增加 5-8 倍。此举于 5 月 27 日生效，标志着 AI 模型价格战进入白热化阶段。大幅降价旨在抢占开发者生态，降低应用构建成本。对于初创公司而言，这意味着更低的运营门槛，但也加剧了模型提供商之间的利润竞争。长期来看，这可能加速 AI 应用普及，但也可能导致中小模型厂商生存空间被进一步压缩。",
+    "tags": [
+      "Deal",
+      "LLM",
+      "Pricing"
+    ],
+    "link": "https://platform.xiaomimimo.com/docs/en-US/welcome",
+    "date": "2026-05-26",
+    "id": "17798404342722"
+  },
+  {
+    "title": "Artifold：本地优先 AI 生成物库",
+    "summary": "全新开源库 Artifold 发布，支持本地索引与搜索 AI 生成的 HTML 工件。",
+    "detail": "Show HN 项目 Artifold 发布，这是一个本地优先的 Python 库，用于管理 AI 生成的 HTML 工件。支持索引、搜索、预览及一键分享，并能将过往作品作为风格指南。解决了 AI 生成内容分散难管理的问题，特别适合需要大量生成前端代码或文档的开发团队。本地优先架构确保了数据隐私，提升了工作流的可追溯性，是 AI 辅助编程工具链的重要补充。",
+    "tags": [
+      "New",
+      "Dev",
+      "Python"
+    ],
+    "link": "https://github.com/shubhamgoel27/artifold",
+    "date": "2026-05-26",
+    "id": "17798404342723"
+  },
+  {
+    "title": "解决 AI 应用计费 Token 管道难题",
+    "summary": "Lago 发布 Agent SDK，简化 AI Token 用量追踪与计费流程。",
+    "detail": "针对 B2B SaaS 集成 AI 功能时的计费痛点，Lago 发布了 Agent SDK。它封装了 LLM 客户端，自动处理不同提供商（OpenAI, Anthropic 等）的 Token 计数差异和缓存逻辑。解决了开发者重复编写计费中间件的问题，支持流式响应和重试机制。对于需要按用量计费的 AI 产品团队，这是重要的基础设施更新。随着模型提供商 API 频繁变动，统一的计费抽象层能显著降低维护成本。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "Billing"
+    ],
+    "link": "https://getlago.com/blog/ai-billing-is-mostly-token-plumbing",
+    "date": "2026-05-26",
+    "id": "17798404342725"
+  },
+  {
     "title": "AI 代理面临关键开源漏洞威胁",
     "summary": "开源包严重漏洞危及数百万 AI 代理，安全风险激增。",
     "detail": "Ars Technica 最新报道指出，一个广泛使用的开源软件包中发现关键漏洞，直接危及数百万 AI 代理系统的安全。随着 AI 代理自主执行代码及网络任务能力的增强，供应链攻击面显著扩大。此漏洞可能导致代理被恶意操控或敏感数据泄露，进而影响企业核心业务。安全专家建议企业立即审查第三方依赖项，实施更严格的沙箱隔离策略，并建立持续的安全监控机制。此事件凸显了 AI 基础设施安全建设的紧迫性，呼吁社区共同维护开源生态健康，防止大规模自动化攻击发生，确保 AI 系统可信运行。",
@@ -1220,83 +1298,5 @@
     "link": "https://techcrunch.com/2026/05/24/i-tried-amazons-bee-wearable-and-am-both-intrigued-and-slightly-creeped-out/",
     "date": "2026-05-24",
     "id": "17796352198411"
-  },
-  {
-    "title": "如何遏制 AI 能源消耗狂潮",
-    "summary": "数据中心能耗激增，行业探索绿色 AI 解决方案。",
-    "detail": "随着 AI 生成内容需求暴涨，数据中心能耗成为关键瓶颈。文章指出，单次 Gemini 查询虽仅耗电 0.24 瓦时，但数十亿次查询累积巨大。OpenAI 估计每周超 9 亿人使用 ChatGPT。行业正面临如何平衡 AI 算力增长与可持续发展的挑战，需优化数据中心效率及探索新能源方案，以应对 AI 对电力资源的巨大需求。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "GreenAI"
-    ],
-    "link": "https://nautil.us/how-to-tame-ais-voracious-appetite-for-energy-1281212",
-    "date": "2026-05-24",
-    "id": "17796352198412"
-  },
-  {
-    "title": "Careers After AI 职业导航工具上线",
-    "summary": "基于联邦数据查找 AI 时代仍需求人类的职业路径。",
-    "detail": "新工具 Careers After AI 利用 O*NET 和劳工统计局数据，帮助用户寻找不易被 AI 替代的职业。提供薪资、前景及培训资源对比。近期更新显示 OpenAI 推出个人财务功能可能影响理财顾问，Anthropic 扩展法律插件影响法律工作。该工具为求职者提供了数据驱动的职业转型参考，强调技能迁移而非单纯恐慌。",
-    "tags": [
-      "New",
-      "Career",
-      "Data"
-    ],
-    "link": "https://careersafter.ai/",
-    "date": "2026-05-24",
-    "id": "17796352198413"
-  },
-  {
-    "title": "经济学家反驳 AI 失业末日论",
-    "summary": "数据显示 AI 并未导致大规模失业，软件工程岗位仍在增长。",
-    "detail": "针对硅谷关于 AI 将消灭数百万岗位的警告，经济学家 Alex Imas 提出反驳。调查显示多数高管预期 AI 将创造就业或影响甚微。软件工程等高危领域就业仍在增长。文章分析自动化恐惧 persist 的心理原因，指出 AI 更多是 redirect 劳动力至新行业而非单纯破坏工作。这为政策制定者和从业者提供了更理性的视角。",
-    "tags": [
-      "News",
-      "Economy",
-      "Jobs"
-    ],
-    "link": "https://www.theringer.com/podcasts/plain-english-with-derek-thompson/2026/05/12/the-case-against-the-ai-job-apocalypse",
-    "date": "2026-05-24",
-    "id": "17796352198414"
-  },
-  {
-    "title": "美联储可能刺破 AI 泡沫",
-    "summary": "文章分析 AI 泡沫风险，指出美联储政策可能让管理者无法推卸责任。",
-    "detail": "本文深度对比 90 年代科技泡沫与 00 年代房地产泡沫，指出当前 AI 热潮中高薪基金管理者可能存在的盲目性。作者认为美联储若采取强硬政策，将剥夺从业者“谁能预料”的防御借口，强调需对泡沫破裂后的责任归属进行追责。文章警示行业需理性看待估值与风险，避免重蹈覆辙，对投资者具有参考意义。",
-    "tags": [
-      "News",
-      "Policy",
-      "Finance"
-    ],
-    "link": "https://deanbaker22.substack.com/p/bursting-the-ai-bubble-the-fed-could",
-    "date": "2026-05-24",
-    "id": "17796293812420"
-  },
-  {
-    "title": "免费 AI 欧洲预算旅行规划器",
-    "summary": "开发者基于 Next.js 和 Claude API 打造的免费旅行规划工具。",
-    "detail": "这是一个面向预算旅行者的开源项目，利用 Claude API 生成欧洲旅行计划。技术栈采用 Next.js，旨在提供低成本解决方案。虽然在 Hacker News 上关注度尚浅，但展示了轻量级 AI 应用在垂直领域的落地潜力，适合开发者参考架构设计，体现了个人开发者利用大模型 API 快速构建实用工具的趋势。",
-    "tags": [
-      "New",
-      "Travel",
-      "Claude"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48256767",
-    "date": "2026-05-24",
-    "id": "17796293812421"
-  },
-  {
-    "title": "天主教视角下的 AI 伦理新通谕",
-    "summary": "教皇即将发布关于 AI 时代保护人类人格的通谕。",
-    "detail": "教皇 Leo XIV 准备发布《Magnifica Humanitas》，探讨 AI 时代的人类人格保护。文章回顾了此前教会关于 AI 与人类智能关系的文件，强调智能的非功能主义定义。这对 AI 伦理讨论提供了宗教与哲学层面的深度视角，挑战了纯粹技术化的智能观，为全球 AI 治理提供了多元文化背景下的伦理参考框架。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Policy"
-    ],
-    "link": "https://localoptimumai.substack.com/p/integral-intelligence-a-catholic",
-    "date": "2026-05-24",
-    "id": "17796293812423"
   }
 ]
