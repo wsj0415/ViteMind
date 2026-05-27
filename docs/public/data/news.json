@@ -1,5 +1,96 @@
 [
   {
+    "title": "VAEN：便携式 AI 编码代理打包工具",
+    "summary": "GitHub 开源新项目，将 AI 代理配置打包为便携文件，便于团队共享。",
+    "detail": "VAEN 是一个便携式 CLI 工具，旨在解决 AI 编码代理配置共享难题。它读取 `agent.yaml` manifest，将指令、技能和项目级 MCP 声明打包成 OCI 支持的 `.agent` 档案。关键在于它不传输密钥或.env 文件，而是明确声明所需的变量名。通过 `validate`、`inspect` 和 `import` 命令，确保配置在不同仓库和团队间安全流转，无需复制粘贴，提升了 AI 开发工作流的标准化与协作效率，适合多团队协作场景。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Agent"
+    ],
+    "link": "https://github.com/sjhalani7/vaen",
+    "date": "2026-05-27",
+    "id": "17799191957620"
+  },
+  {
+    "title": "AI 代理可直接在 Robinhood 交易购物",
+    "summary": "CNBC 报道，AI 代理现已支持 Robinhood 交易及信用卡支付，自主经济能力增强。",
+    "detail": "据 CNBC 报道，AI 代理能力迎来重大突破，现已能够直接在 Robinhood 平台进行金融交易，并可通过信用卡购物。这意味着 AI 从辅助工具向自主经济实体迈进，用户可授权代理执行复杂的财务操作。这一进展不仅改变了人机交互模式，也引发了关于资金安全、代理权限管理及责任归属的广泛讨论，标志着 AI 落地应用进入具备实际经济行动能力的新阶段。",
+    "tags": [
+      "News",
+      "Finance",
+      "Agent"
+    ],
+    "link": "https://www.cnbc.com/2026/05/27/your-ai-agent-can-now-trade-for-you-on-robinhood-and-buy-stuff-with-your-credit-card-too.html",
+    "date": "2026-05-27",
+    "id": "17799191957621"
+  },
+  {
+    "title": "Elodin 开源 AI 无人机竞速模拟 harness",
+    "summary": "为 Anduril AI 大奖赛开源练习 rig，支持 macOS/Linux，降低航空航天软件门槛。",
+    "detail": "Elodin Systems 开源了用于 Anduril AI 大奖赛（50 万美元 autonomous drone race）的自动驾驶练习 rig。该模拟栈支持 macOS 和 Linux，旨在弥合游戏模拟与航空航天工具链之间的差距。开发者可提前编写自动驾驶代码，无需等待官方模拟器。该项目基于真实飞行数据构建，致力于提供 polished 的开发体验，降低无人机及卫星软件团队的仿真搭建成本，加速竞赛准备。",
+    "tags": [
+      "Dev",
+      "Robotics",
+      "Simulation"
+    ],
+    "link": "https://www.elodin.systems/post/elodin-ai-grand-prix-race-sim-harness",
+    "date": "2026-05-27",
+    "id": "17799191957622"
+  },
+  {
+    "title": "中小企业如何构建落地 AI 系统",
+    "summary": "博客指南指出 SMB 应聚焦高 volume 低 variability 任务，从探索转向实用系统。",
+    "detail": "针对中小企业 AI 落地难问题，文章指出关键不在技术选型，而在聚焦具体场景。建议寻找高频率、低变异性且输入输出明确的任务，如邮件分类、文档字段提取或 CRM 摘要。创始人需选定一个具体问题持续优化，直至形成可信任的重复流程。这为 SMB 提供了从 AI 兴趣转向实际生产力系统的实用路径，强调解决具体痛点而非盲目追逐模型更新。",
+    "tags": [
+      "Dev",
+      "Business",
+      "Strategy"
+    ],
+    "link": "https://blog.nemausat.com/from-ai-interest-to-a-working-system",
+    "date": "2026-05-27",
+    "id": "17799191957623"
+  },
+  {
+    "title": "AgentMRR 推出 AI 代理收入排行榜",
+    "summary": "新平台提供经验证的 AI 代理收入数据，帮助开发者了解市场变现能力。",
+    "detail": "AgentMRR 正式上线，这是一个专注于 AI 代理的 verified revenue leaderboard。平台旨在透明化 AI 代理产品的商业表现，为开发者和投资者提供真实的市场收入数据参考。通过展示头部代理产品的营收情况，有助于行业评估 AI 代理的商业化潜力和市场竞争格局。该工具填补了 AI 代理领域缺乏统一收入数据的空白，推动生态健康发展和理性投资。",
+    "tags": [
+      "New",
+      "Data",
+      "Business"
+    ],
+    "link": "https://agentmrr.com/",
+    "date": "2026-05-27",
+    "id": "17799191957624"
+  },
+  {
+    "title": "研究显示 AI 招聘算法存在种族偏见",
+    "summary": "The Register 报道，AI hiring 算法拒绝黑人和亚裔求职者的比例更高，引发伦理担忧。",
+    "detail": "The Register 报道了一项关于 AI 招聘算法 bias 的研究。数据显示，自动化 hiring 系统拒绝黑人和亚裔求职者的比率显著高于其他群体。这揭示了训练数据或算法逻辑中潜在的歧视问题，引发了对企业合规性及 AI 伦理的强烈关注。该新闻强调了在部署 AI 人力资源工具时进行公平性审计的必要性，警示企业需警惕算法偏见带来的法律与声誉风险。",
+    "tags": [
+      "News",
+      "Ethics",
+      "HR"
+    ],
+    "link": "https://www.theregister.com/ai-ml/2026/05/27/ai-hiring-algorithms-reject-black-asian-job-seekers-at-higher-rates/5247387",
+    "date": "2026-05-27",
+    "id": "17799191957625"
+  },
+  {
+    "title": "Proton Pass 推出 AI 代理访问令牌",
+    "summary": "密码管理器新增 AI 代理支持，通过 access tokens 让用户保持控制权，保障安全。",
+    "detail": "Proton 宣布 Proton Pass 支持 AI 代理，引入专门的 access tokens 功能。这使得用户能在不泄露主凭证的情况下，安全地授权 AI 代理访问特定账户。作为专注于隐私的 encrypted password manager，此举旨在解决 AI 代理身份验证的安全痛点。用户可在享受 AI 自动化便利的同时，始终保持对敏感数据的控制权，防止凭证滥用，增强 AI 交互的安全性。",
+    "tags": [
+      "New",
+      "Security",
+      "Privacy"
+    ],
+    "link": "https://proton.me/blog/pass-access-tokens",
+    "date": "2026-05-27",
+    "id": "17799191957626"
+  },
+  {
     "title": "美国执法机构警告“反科技极端主义”威胁",
     "summary": "DHS 与 FBI 将反 AI 情绪列为新威胁，监控相关抗议活动。",
     "detail": "美国国土安全部与 FBI 流通超 1000 页未公开报告，显示针对 AI 数据中心及高管的攻击增加，执法机构已将“反科技极端主义”列为新兴国内威胁。此举紧随特朗普政府第 7 号国家安全总统备忘录，旨在监控挑战白宫意识形态的集会与言论。行业需关注由此引发的合规风险及社会对立情绪加剧，可能影响 AI 基础设施的物理安全与公共舆论环境。特别是涉及敏感数据中心的选址与安保策略需升级。报告指出监控范围显著扩大，可能影响初创企业融资环境，企业需评估政治风险对部署的影响。",
@@ -1207,96 +1298,5 @@
     "link": "https://rapha.land/no-ai-is-not-making-software-worse-people-are/",
     "date": "2026-05-25",
     "id": "17796978090653"
-  },
-  {
-    "title": "微软 2026 Q1 全球 AI 扩散报告",
-    "summary": "全球 AI 采用率升至 17.8%，阿联酋领跑。",
-    "detail": "微软研究院正式发布 2026 年第一季度全球 AI 扩散趋势与洞察报告。数据显示，全球适龄工作人口 AI 使用率从 16.3% 增至 17.8%。阿联酋以 70.1% 的普及率继续领跑全球，美国排名上升至第 21 位。亚洲地区采用率加速，但全球南北差距仍在扩大。报告特别强调了多语言 AI 能力提升对日本等国的推动作用，为行业投资者提供了关键市场洞察与数据支持。此外，26 个经济体超过 30% 人口使用 AI，标志着技术渗透进入新阶段。",
-    "tags": [
-      "News",
-      "Market",
-      "Report"
-    ],
-    "link": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/Microsoft-AI-Diffusion-Report-2026-Q1.pdf",
-    "date": "2026-05-25",
-    "id": "17796815401290"
-  },
-  {
-    "title": "AI 正在重塑开源生态系统",
-    "summary": "npm 包指数增长，维护者对 PR 态度转负。",
-    "detail": "Socket.dev 团队通过访问跨 npm、PyPI 等生态的巨大数据库，揭示了 AI 时代的开源新洞察。数据显示 npm 包数量呈指数级增长，但维护者对 Pull Requests 贡献日益持负面态度。依赖购物行为呈下降趋势。AI 不仅驱动了开源的生产与消费，还根本性地改变了维护者与贡献者之间的动态关系，为供应链安全带来新挑战与机遇。这种变化意味着“氛围编程”正在影响社区。维护者面临海量 AI 生成代码的审查压力，而恶意包复制分析速度加快。这要求开发者重新评估依赖管理策略，关注 AI 生成代码的质量与安全性，以适应快速变化的开源 landscape。",
-    "tags": [
-      "News",
-      "OpenSource",
-      "Security"
-    ],
-    "link": "https://socket.dev/blog/ai-has-taken-over-open-source",
-    "date": "2026-05-25",
-    "id": "17796815401291"
-  },
-  {
-    "title": "AI 可解释性：探索模型非语言 interior",
-    "summary": "深入 AI 内部心智模型，理解不可言说之物。",
-    "detail": "本文深入探讨了 AI 语言模型内部的非语言区域，这是模型每次生成文本时思考必经的隐秘路径。作者通过个人哲学视角，认为研究此区域不仅是关于 AI 技术，更是关于心智如何学习表达无法言说之物。这是一项革命性技能，为 AI 可解释性研究提供了独特的哲学与技术视角，挑战现有对模型内部机制的理解，暗示了通用心智的深层结构。这种“黑暗”区域可能包含了模型真正的推理能力，而非仅仅是语言统计。理解它对于提升模型透明度、安全性及对齐至关重要，是未来 AI 研究的关键方向之一。",
-    "tags": [
-      "Dev",
-      "Interpretability",
-      "Research"
-    ],
-    "link": "https://www.outcryai.com/research/the-dark-between-the-stars",
-    "date": "2026-05-25",
-    "id": "17796815401292"
-  },
-  {
-    "title": "AI 如何说服人们放弃阴谋论",
-    "summary": "研究 AI 在 debunking 阴谋论中的社会影响。",
-    "detail": "华尔街日报深度报道了 AI 在对抗阴谋论方面的潜力与社会影响。文章分析了 AI 如何通过对话说服人们放弃错误信念，以及人类能从中学习什么沟通技巧。这展示了 AI 在社会心理层面的干预能力，为 AI 安全与对齐提供了新的应用场景和社会学视角。研究指出，AI 的理性论证可能在特定场景下比人类更有效，但也引发了关于操纵与自由意志的伦理讨论。该技术若广泛应用，可能显著改变信息生态，但也需警惕滥用风险。对于 AI 开发者而言，理解这一机制有助于优化模型的社会对齐能力，确保技术在促进理性对话而非加剧分裂中发挥作用。",
-    "tags": [
-      "News",
-      "Social",
-      "Safety"
-    ],
-    "link": "https://www.wsj.com/tech/ai/ai-debunks-conspiracy-theories-92eff2c5",
-    "date": "2026-05-25",
-    "id": "17796815401293"
-  },
-  {
-    "title": "Lynote 开源 AI 文本人类化工具",
-    "summary": "免费开源工具，将 AI 内容转为人类风格。",
-    "detail": "GitHub 上新开源项目 Lynote Humanize Text，旨在将 AI 生成内容重写为自然人类写作风格。项目声称可绕过 Turnitin、GPTZero 等主要 AI 检测器，无需注册即可使用。基于 Python 3.10+ 构建，为开发者提供了处理 AI 生成文本的新工具。这一工具的发布引发了关于学术诚信、内容真实性与检测技术对抗的广泛讨论，反映了 AI 生成内容泛滥下的新需求。对于需要大量内容生成的营销或教育领域，此类工具可能成为双刃剑，既提高效率也挑战现有评估体系。",
-    "tags": [
-      "New",
-      "Python",
-      "Tool"
-    ],
-    "link": "https://github.com/lynote-ai/humanize-text",
-    "date": "2026-05-25",
-    "id": "17796815401294"
-  },
-  {
-    "title": "Silau 用 AI 检测员工倦怠",
-    "summary": "HR 新工具，旨在员工离职前检测倦怠。",
-    "detail": "Hacker News 社区热议新 startup Silau，其推出 AI 平台旨在检测员工倦怠。创始人声称 76% 员工经历倦怠，该工具旨在员工离职前发现问题。这代表了 AI 在 HR Tech 领域的新应用，利用数据分析预测人力资源风险。但也引发了关于职场隐私监控、数据伦理与员工心理健康的广泛讨论，企业需谨慎平衡效率与信任。该工具通过行为模式分析识别早期信号，为管理者提供干预机会。然而，如何确保数据不被滥用是 adoption 的关键障碍。",
-    "tags": [
-      "New",
-      "HR",
-      "Startup"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48262636",
-    "date": "2026-05-25",
-    "id": "17796815401295"
-  },
-  {
-    "title": "分析称 AI 经济已与科技经济脱钩，估值逻辑重构",
-    "summary": "AI 实验室与基础设施估值飙升，与传统 SaaS 市场完全分离。",
-    "detail": "分析指出自 2025 年 5 月起，科技经济分裂为软件与 AI 两部分。SaaS 遭遇抛售，而 AI 实验室及基础设施 soaring。模型正成为产品本身，吸收应用层。这种脱钩反映了通用技术带来的经济范式转移，投资者需重新评估估值倍数与增长前景，传统软件逻辑不再适用。市场意识到 AI 并非软件子类，而是独立经济生态。人才网络与投资圈层也随之分离。这要求分析师建立新的模型经济学框架，理解 2025-2026 年间发生的技术突变如何重构价值链，传统 SaaS 指标可能失效。",
-    "tags": [
-      "News",
-      "Market",
-      "Analysis"
-    ],
-    "link": "https://vintagedata.org/blog/posts/the-ai-decoupling",
-    "date": "2026-05-24",
-    "id": "17798591076233"
   }
 ]
