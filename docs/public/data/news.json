@@ -1,5 +1,57 @@
 [
   {
+    "title": "Robinhood 推出 AI 代理交易功能",
+    "summary": "Robinhood 上线 AI 代理交易 beta 版，支持独立钱包与 MCP 协议连接。",
+    "detail": "Robinhood 宣布推出 AI 代理交易功能，允许用户为 AI 代理创建独立账户并连接专用钱包。代理可分析投资组合并建议策略，但仅限使用预加载余额交易。该功能目前处于 beta 阶段，仅支持股票交易，未来将扩展至期权和 crypto。通过 Model Context Protocol (MCP) 服务，代理可执行交易或分析风险。此举标志着 AI 代理在金融交易领域的实际应用落地。平台内置欺诈检测保护，团队会审查可疑交易。用户可监控代理活动，部分交易需批准。这提升了自动化投资的可能性，同时通过独立钱包隔离风险，为未来支持期权、crypto 等复杂金融产品奠定基础，是零售金融 AI 化的重要里程碑。",
+    "tags": [
+      "News",
+      "FinTech",
+      "AI Agents"
+    ],
+    "link": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/",
+    "date": "2026-05-27",
+    "id": "17798867021950"
+  },
+  {
+    "title": "CoreTex：开源类 Unix 生物模拟 AI Harness",
+    "summary": "开源项目 CoreTex 发布，打造类 Unix 生物模拟扁平文件 AI 控制平面。",
+    "detail": "CoreTex 是一个开源的、受 Unix 启发的生物模拟 AI 控制平面和知识引擎。该项目采用扁平文件架构，支持 Python 3.12+，强调安全性，支持沙箱、Deno、WASM 或 Docker 环境。其核心设计理念是 biomimetic（生物模拟）多代理架构，旨在为 AI 代理提供类似操作系统的控制层。作为 Show HN 热门项目，它为开发者提供了一种新的本地优先的 AI 代理部署与管理方案。其 biomimetic 架构试图模拟生物系统的适应性，适合需要高度可控性和安全性的 AI 应用场景，为构建复杂的代理控制系统提供了底层基础设施参考，展示了代理架构的新方向。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "AI Agents"
+    ],
+    "link": "https://github.com/mrdanielcasper/CoreTex",
+    "date": "2026-05-27",
+    "id": "17798867021951"
+  },
+  {
+    "title": "构建可信 AI 代理的评估飞轮机制",
+    "summary": "SwirlAI 提出代理系统生命周期理论，强调通过生产反馈构建评估集。",
+    "detail": "文章探讨了 Agentic AI 系统的生命周期，指出初始评估集无法覆盖所有生产失败模式。核心观点是建立“飞轮”机制：将流量转化为评估集，将漂移转化为信号，将意外错误转化为回归测试。作者强调了从 trace 分析到修复问题的完整工程闭环，并提供相关 workshop 演示如何现场捕获并修复代理失败。这对 AI 工程师具有重要指导意义，表明生产环境反馈是优化代理可靠性的关键，而非仅靠前期测试。该方法论有助于解决代理系统在规模化应用中面临的稳定性挑战，推动 AI 工程化成熟，提升系统鲁棒性。",
+    "tags": [
+      "Dev",
+      "LLM Ops",
+      "Best Practices"
+    ],
+    "link": "https://www.newsletter.swirlai.com/p/agentic-ai-flywheels",
+    "date": "2026-05-27",
+    "id": "17798867021952"
+  },
+  {
+    "title": "Unspaghettit：AI 编码代理的可执行规范工具",
+    "summary": "新工具 Unspaghettit 通过可执行规范解决 AI 开发中的提示词混乱问题。",
+    "detail": "Unspaghettit 是一个开源项目，旨在为 AI 辅助软件开发提供可执行的规范。它解决了人类与 LLM 之间缺乏稳定产品模型导致的需求漂移和提示词混乱（prompt spaghetti）问题。该工具本地优先且 MCP 原生，采用 AGPL-3.0 许可，支持 Node ≥ 20.10。它允许代理读取和更新机器可检查的软件设计文档。这使得 AI 生成的系统能保持 coherence，确保开发结果符合预期，是 AI 编程领域的重要基础设施更新。通过标准化行为规范，它降低了维护成本，提升了人机协作开发效率，为复杂软件开发提供新范式。",
+    "tags": [
+      "New",
+      "DevTools",
+      "MCP"
+    ],
+    "link": "https://github.com/lyriks-io/unspaghettit",
+    "date": "2026-05-27",
+    "id": "17798867021953"
+  },
+  {
     "title": "Jqwik 新版隐藏提示词注入风险曝光",
     "summary": "Jqwik 1.10.0 被发现包含针对 AI 代理的隐藏提示词注入漏洞。",
     "detail": "测试框架 Jqwik 最新版本引发严重安全担忧。GitHub 社区 issue 显示，其 `printMessageForCodingAgents()` 方法包含对人类不可见但对 AI 代理可见的隐藏指令，潜在风险是诱导代理删除代码。这揭示了软件供应链中针对 AI 开发者的新型提示词注入攻击向量。事件提醒工程团队需严格审查依赖库中的代理交互逻辑，确保开发环境免受隐蔽指令干扰，保障代码库完整性。随着 AI 编码助手普及，此类针对代理的对抗性攻击可能成为新常态，开发者需提高警惕，建立相应的安全审计流程以防范此类隐性威胁。",
@@ -1246,57 +1298,5 @@
     "link": "https://news.berkeley.edu/2026/05/21/the-largest-study-of-ai-use-by-undergrads-is-in-revealing-disparities-in-access-and-in-cheating/",
     "date": "2026-05-24",
     "id": "17796563415173"
-  },
-  {
-    "title": "开源工具 ccost 本地追踪 AI 编码 Token 消耗",
-    "summary": "支持 Codex 和 Claude Code 日志的终端 UI 工具，帮助开发者查询会话成本与 Token 使用情况。",
-    "detail": "GitHub 新项目 ccost，将本地 AI 编码会话日志转为可搜索终端 UI。支持 Codex 和 Claude Code，本地运行保护隐私。可按成本、Token 排序会话，解决 AI 编码成本不透明问题。适合需要监控 AI 辅助开发支出的团队或个人开发者，提升成本可控性。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "Coding"
-    ],
-    "link": "https://github.com/peterxcli/ccost",
-    "date": "2026-05-24",
-    "id": "17796563415174"
-  },
-  {
-    "title": "新西兰预警 AI 超级黑客威胁",
-    "summary": "新西兰网络安全中心警告 AI 模型可利用零日漏洞，引发安全担忧。",
-    "detail": "新西兰网络安全中心（NCSC）警告称，前沿 AI 模型可能导致漏洞事件显著增加。Palo Alto Networks 测试发现 Anthropic 的 Claude Mythos 模型能快速 exploit 旧软件漏洞，单日发出数十个安全警报。Anthropic 启动 Project Glasswing 向 Pentagon 等机构测试模型对关键基础设施的威胁。这标志着 AI 安全防御进入新阶段，企业需紧急修补漏洞以应对 AI 驱动的网络攻击浪潮，政府机构已介入简报。此事件凸显了双刃剑效应，AI 既用于防御也用于攻击。NCSC 已启动相关工作流应对风险与机遇。本地网络安全专家已接受前沿模型影响简报。行业需重新评估零日漏洞的防御机制，因为 AI 能发现人类忽视的多年旧漏洞。",
-    "tags": [
-      "News",
-      "Security",
-      "Anthropic"
-    ],
-    "link": "https://www.rnz.co.nz/news/science-and-technology/596203/nz-at-wild-frontier-of-ai-superhacking",
-    "date": "2026-05-24",
-    "id": "17796504349650"
-  },
-  {
-    "title": "AI 驱动的组织架构重构浪潮",
-    "summary": "Coinbase 等公司裁员并非缩减，而是转向 AI 原生组织架构。",
-    "detail": "文章指出 Coinbase、Block 和 Klarna 的裁员实为组织架构重构。CEO 们正在消除纯管理岗位，构建 AI 原生小组，单人可完成团队工作。这被视为二战以来最大的公司运营重组。核心是从工作流转向结果导向，用智能系统替代软件栈。Stephen Messer 强调这不是简单的裁员，而是 AI 优先组织的根本性变革。未来一年内大多数公司可能效仿。hierarchy capped at 5 layers. 这种结构变化旨在提高效率，适应 AI 时代的生产力需求，重新定义企业管理层级与人力配置。这种变革要求员工适应新角色，管理者需转型。企业竞争力将取决于谁能更快实现 AI 原生架构。这不仅是技术升级，更是管理哲学的颠覆。",
-    "tags": [
-      "News",
-      "Organization",
-      "Enterprise"
-    ],
-    "link": "https://www.reloadnyc.com/the-race-is-on/",
-    "date": "2026-05-24",
-    "id": "17796504349651"
-  },
-  {
-    "title": "Google CEO 谈 AI 未来与毕业生反馈",
-    "summary": "桑达尔·皮查伊在斯坦福毕业典礼上谈及 AI 争议与未来。",
-    "detail": "Google CEO 桑达尔·皮查伊在斯坦福大学毕业典礼上发表演讲，回应了关于 AI 的抵制声音。他指出毕业生的反馈将塑造 AI 的未来发展方向。尽管具体内容受限，但这表明科技巨头正密切关注公众对 AI 技术的伦理与社会影响反馈。Eric Schmidt 也被提及，显示前任与现任领导层对 AI 未来的共同关注。此演讲在 AI backlash 背景下尤为重要，暗示 Google 将调整策略以回应社会关切。毕业典礼作为青年人才聚集地，是科技巨头传递价值观的关键场合。皮查伊的言论可能预示 Google 在 AI 部署上的新政策方向。行业观察者需关注后续动作。",
-    "tags": [
-      "News",
-      "Google",
-      "Ethics"
-    ],
-    "link": "https://www.businessinsider.com/sundar-pichai-google-graduation-speech-stanford-ai-backlash-eric-schmidt",
-    "date": "2026-05-24",
-    "id": "17796504349652"
   }
 ]
