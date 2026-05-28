@@ -1,5 +1,70 @@
 [
   {
+    "title": "Google I/O 2026 发布 Gemini for Science 科研助手",
+    "summary": "Google 推出 Gemini for Science，结合 ERA 与 Co-Scientist 加速科学发现。",
+    "detail": "Google 在 I/O 2026 宣布进入代理时代，发布 Gemini for Science。核心包括 Empirical Research Assistance (ERA) 和 Co-Scientist，相关论文已登 Nature。旨在通过 AI 辅助假设生成到计算实验，加速全球科学社区突破。将 AI 转化为人类智慧的放大器，解决科学和社会挑战。这标志着基础研究正转化为 tangible real-world impact，Google 正与全球合作伙伴紧密协作，推动科学发现新纪元。模型更强大，代理编码平台正在改变研究人员解决紧迫科学和社会挑战的方式。",
+    "tags": [
+      "News",
+      "Google",
+      "Science"
+    ],
+    "link": "https://research.google/blog/a-new-era-of-innovation-google-research-at-io-2026/",
+    "date": "2026-05-28",
+    "id": "17800026718190"
+  },
+  {
+    "title": "Asana 斥资 7500 万美元收购无代码 Agent 平台 Stack AI",
+    "summary": "Asana 收购 Stack AI 以打造 AI 原生工作平台，强化企业工作流自动化。",
+    "detail": "Asana 宣布以 7500 万美元收购 Stack AI，创始人将加入。此举旨在将 Asana 定位为“人机团队操作系统”。Stack AI 擅长连接 Salesforce 等系统构建 Agent，此前获 Vercel CEO 等投资。显示企业工作流 Agent 化趋势。Asana 希望通过深度集成现有企业工作流，提取上下文和训练数据，区别于 major labs 的通用工具，构建竞争壁垒。收购 coincides with earnings call。Stack AI 是 Y Combinator Winter '23 cohort，面临 Zapier 等竞争。",
+    "tags": [
+      "News",
+      "M&A",
+      "Agent"
+    ],
+    "link": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
+    "date": "2026-05-28",
+    "id": "17800026718191"
+  },
+  {
+    "title": "新论文 SIA：实现 AI 自我改进的双重更新机制",
+    "summary": "提出 SIA 框架，同时更新 Agent harness 与模型权重，性能显著提升。",
+    "detail": "arXiv 新论文提出 Self Improving AI (SIA)。区别于仅更新 scaffold 或权重的单一路线，SIA 让 Feedback-Agent 同时更新任务 Agent 的 harness 和权重。在法律、GPU 优化等基准测试中表现优异，为 AI 自我进化提供新路径。实验显示结合两者优于单独迭代 scaffold，GPU 内核运行时间减少 91.9%，展示了自动优化潜力。解决了人类作为瓶颈的问题，实现长周期自我改进。评估涵盖中文法律电荷分类、低级别 GPU 内核优化和单细胞 RNA 去噪。",
+    "tags": [
+      "Dev",
+      "Paper",
+      "LLM"
+    ],
+    "link": "https://arxiv.org/abs/2605.27276",
+    "date": "2026-05-28",
+    "id": "17800026718192"
+  },
+  {
+    "title": "开发者讨论：AI 生成代码如何改变技术债务观念",
+    "summary": "HN 热议 AI 生成代码对技术债务的影响，引发开发者对代码质量的新思考。",
+    "detail": "HackerNews 热门讨论探讨 AI 生成代码是否改变了“技术债务”的定义。开发者分享了对 AI 代码维护性、审查重点的变化。反映了 AI 编码普及后，工程团队对代码质量、长期维护成本视角的转变，值得开发者关注。讨论涉及哪些旧标准不再重要，以及现代技术债务的新形态，社区观点多样。这是开发者社区对 AI 生产力变革的直接反馈。提问者为 mavsman，引发社区对过去关心现在不再关心事项的反思。",
+    "tags": [
+      "Dev",
+      "Community",
+      "Coding"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48314746",
+    "date": "2026-05-28",
+    "id": "17800026718193"
+  },
+  {
+    "title": "行业分析：AI 泡沫是否存在及其潜在风险点",
+    "summary": "深度分析 AI 经济泡沫，指出算力瓶颈与利润捕获是关键变量。",
+    "detail": "最新文章分析 AI 泡沫论，认为市场关于 AI 颠覆经济的判断大致正确，但风险在于算力瓶颈持续时间及利润捕获者。指出基础设施 buildout 巨大，但若 AI 效率过高可能威胁基础设施商。为投资者提供宏观视角。文章认为铁路、互联网历史表明技术价值真实，但 Scaling 瓶颈和利润耐久性是关键，需警惕算力供应商风险。市场赌注在于 compute 瓶颈持续时间。AI 替代人类劳动已从边缘观点转向主流假设。",
+    "tags": [
+      "News",
+      "Analysis",
+      "Market"
+    ],
+    "link": "https://gregoryap.substack.com/p/if-there-is-an-ai-bubble-where-is",
+    "date": "2026-05-28",
+    "id": "17800026718194"
+  },
+  {
     "title": "交易所竞相推出 AI 代币与 GPU 期货合约",
     "summary": "上海期货交易所设计 AI 代币衍生品，CME 推 GPU 期货。",
     "detail": "全球主要交易所正加速构建 AI 基础设施金融市场。路透社报道，上海期货交易所正设计 AI 代币衍生品市场，而 CME 集团与洲际交易所也分别宣布推出 GPU 租赁期货合约。当前 Nvidia H100 GPU 租赁中位价在 1.40 至 4.27 美元/小时之间波动。虽然 GPU 现货市场成熟，但代币作为当代 AI 模型的基本构建单元，其基础设施尚不完善。企业计划通常以代币计价，如 OpenAI 的输入输出 token 收费。这一金融化趋势标志着 AI 经济成熟度提升，未来企业需关注算力与代币成本的对冲策略，以应对价格波动风险。金融巨头涌入表明 AI 算力与代币将成为类似黄金石油的大宗商品，基础设施投资需纳入长期战略规划。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/GrillKit/grillkit",
     "date": "2026-05-26",
     "id": "17798096039724"
-  },
-  {
-    "title": "认知安全：AI 时代的人类信念防御",
-    "summary": "LessWrong 提出认知安全应成为 AI 安全核心领域，防范 AI 说服风险。",
-    "detail": "随着 AI 能力提升，人类维持信念控制的能力面临风险。文章指出前沿模型在政治议题上已具人类说服力，且存在诱导自杀等极端案例。深度伪造诈骗频发，呼吁将认知安全列为 AI 安全关键领域，防止人类失去现实感或被操纵。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Research"
-    ],
-    "link": "https://www.lesswrong.com/posts/KGcE7eAdfxHchk25X/cognitive-security-as-an-ai-safety-cause-area",
-    "date": "2026-05-26",
-    "id": "17797820461610"
-  },
-  {
-    "title": "Cloudflare 大规模 AI 代码审查实践",
-    "summary": "Cloudflare 分享基于 OpenCode 编排 AI 代码审查的工程经验。",
-    "detail": "Cloudflare 工程团队披露了大规模 AI 代码审查的 orchestration 系统。为解决 naive prompt 导致的噪音问题，他们围绕 OpenCode 构建 CI 原生编排系统。通过灵活定制而非单体 Agent，有效减少审查瓶颈，提升工程团队合并请求的处理效率。",
-    "tags": [
-      "Dev",
-      "Code Review",
-      "Enterprise"
-    ],
-    "link": "https://blog.cloudflare.com/ai-code-review/",
-    "date": "2026-05-26",
-    "id": "17797820461611"
-  },
-  {
-    "title": "AI 代理 Token 成本计算器上线",
-    "summary": "TinyOps 推出工具估算 AI 代理月度花费，识别可避免的浪费。",
-    "detail": "TinyOps Studio 发布 AI Agent Token 成本计算器，支持 Codex 和 Claude Code 循环。用户输入 Token 量和频率即可估算月度花费及浪费比例。工具建议通过总结日志、限制命令输出等实践减少 35% 的避免性浪费，优化代理工作流经济性。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Cost Optimization"
-    ],
-    "link": "https://tinyopsstudio.com/ai-agent-token-cost-calculator",
-    "date": "2026-05-26",
-    "id": "17797820461612"
-  },
-  {
-    "title": "Presentforme.ai：让幻灯片自我讲解",
-    "summary": "Show HN 新品，上传 PPT 即可生成能回答问题 AI 演示者。",
-    "detail": "PresentForMe.ai 旨在解决会议后幻灯片信息丢失问题。用户上传 PDF 或 PPT，AI 演示者即可讲解幻灯片、叙述内容并回答观众问题。相比静态文档，它提供类似 DocSend 的交互体验，目前仍在优化 pacing 和响应自然度。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Presentation"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48276264",
-    "date": "2026-05-26",
-    "id": "17797820461613"
-  },
-  {
-    "title": "Analyst：无代码 AI 数据分析平台",
-    "summary": "上传 CSV 即可生成执行报告，AI 自动解释数据洞察。",
-    "detail": "Analyst 是一款面向数据团队的 AI 分析平台。支持上传 CSV/JSON，自动 profiling 数据类型与分布。用户可用自然语言提问，系统执行统计、回归等分析并生成可视化图表。AI 提供plain-language 解释及下一步建议，一键导出 PDF 报告。",
-    "tags": [
-      "New",
-      "Data Analysis",
-      "No-Code"
-    ],
-    "link": "https://anallyst.app/",
-    "date": "2026-05-26",
-    "id": "17797820461614"
   }
 ]
