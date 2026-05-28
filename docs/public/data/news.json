@@ -1,5 +1,109 @@
 [
   {
+    "title": "犹他州 AI 处方续配试点首份评估报告发布",
+    "summary": "Doctronic 试点显示 72% 案例 AI 建议续配，医师同意率达 91%。",
+    "detail": "犹他州商务部发布了 Doctronic AI 处方续配试点项目的初步评估报告，基于 1 月至 4 月的数据。显示 72% 案例由 AI 建议续配并经人类医师审查，其中 91% 获得医师同意，总体批准率高达 97%。即使医师要求更多信息，第二意见通常也认为无需额外信息。该报告揭示了 AI 在医疗决策辅助中的实际效能与人类监督的重要性，为医疗 AI 监管提供了实证数据，表明 AI 可大幅减轻医师负担但仍需 Human-in-the-loop。",
+    "tags": [
+      "News",
+      "Healthcare",
+      "Regulation"
+    ],
+    "link": "https://commerce.utah.gov/wp-content/uploads/2026/05/Doctronic-Outcomes-May-2026.pdf",
+    "date": "2026-05-28",
+    "id": "17799689737030"
+  },
+  {
+    "title": "开发者分享：切换 DeepSeek 降低 99% API 成本",
+    "summary": "从 Claude 切换至 DeepSeek Flash，API 成本降低 99.5%，月费降至 3 美元。",
+    "detail": "开发者 kevinsays 分享了对 AgentDB 项目的成本优化经验。通过将模型从 Claude 切换至 DeepSeek Flash，API 成本降低了 99.5%，月支出从 200 美元以上降至 2-3 美元。此外，利用 GitHub Actions 替代付费 cron 服务，并使用 MCP 服务器减少 API 层需求。这对构建 AI Agent 的开发者具有重要的成本参考意义，展示了通过模型选型和架构优化实现极致降本的可能性，适合初创团队参考。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Cost Optimization"
+    ],
+    "link": "https://twitter.com/kevinsays/status/2059724146221662339",
+    "date": "2026-05-28",
+    "id": "17799689737031"
+  },
+  {
+    "title": "开源项目：本地编码 Agent 支持大小模型协作",
+    "summary": "Open Agent Tools 允许自托管模型利用本地代码库，减少 Token 消耗。",
+    "detail": "GitHub 新项目 `open-agent-tools-coder`  enables 小型到大型自托管 AI 模型在运行工具调用工作负载时使用本地源代码。该项目通过挖掘 20,900+ 热门 GitHub 仓库，创建可重用的 json、markdown 和 parquet 索引文件。Agent 可参考本地提示索引，避免昂贵的 Frontier 模型重复构建已有功能，显著降低 Token 使用量。适合本地优先的开发工作流，提升隐私与效率。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Agent"
+    ],
+    "link": "https://github.com/district-solutions/open-agent-tools-coder",
+    "date": "2026-05-28",
+    "id": "17799689737032"
+  },
+  {
+    "title": "行业观察：AI 是否 inherently 反社交？",
+    "summary": "John Battelle 撰文探讨早期 Web 的连接感与当前 AI 体验的孤立感。",
+    "detail": "互联网先驱 John Battelle 在博客中反思 AI 的社会影响。他指出，早期 Web 是一种“我们”的媒介，强调人与人之间的连接；而当前的 AI 交互体验往往是孤立的。尽管初期 AI 产品感觉像人类，但长期使用可能加剧孤独感。这篇文章引发了对 AI 产品设计哲学及其社会心理影响的深度思考，提醒行业在追求效率的同时不应忽视技术带来的社会疏离感。",
+    "tags": [
+      "News",
+      "Social Impact",
+      "Opinion"
+    ],
+    "link": "https://battellemedia.com/archives/2026/05/is-ai-inherently-anti-social",
+    "date": "2026-05-28",
+    "id": "17799689737033"
+  },
+  {
+    "title": "路透社调查：特斯拉 AI 训练师不信任其自动驾驶技术",
+    "summary": "内部训练师对特斯拉自动驾驶技术及安全统计数据表示质疑。",
+    "detail": "路透社调查报道指出，特斯拉的 AI 训练师对其自动驾驶技术及安全统计数据缺乏信任。虽然具体细节未在摘要中完全展开，但该调查揭示了自动驾驶开发内部可能存在的安全文化问题。这对于评估特斯拉 FSD 技术的成熟度及公众信任度具有重要参考价值，反映了 AI 安全落地面临的挑战，内部人员的不信任可能影响技术迭代与合规进程。",
+    "tags": [
+      "News",
+      "Autonomous Driving",
+      "Safety"
+    ],
+    "link": "https://www.reuters.com/investigations/why-teslas-ai-trainers-dont-trust-its-self-driving-tech-or-its-safety-stats-2026-05-28/",
+    "date": "2026-05-28",
+    "id": "17799689737034"
+  },
+  {
+    "title": "马斯克：SpaceX 自研 C 语言 AI 训练栈即将完成",
+    "summary": "自研栈针对 220k GB300s 优化，大型训练运行速度比 JAX 快一个数量级。",
+    "detail": "Elon Musk 透露 SpaceX 即将完成 v1.0 版本的内部 AI 训练栈，使用 C 语言编写。该栈精确映射 220k GB300s GPU 与 800G NICs，充分利用流水线并行并接近裸机性能。相比 JAX，大型训练运行的速度提升超过一个数量级。这显示了硬件巨头向底层软件栈优化的趋势，以提升 AI 训练效率，表明自研基础设施已成为头部玩家的竞争壁垒。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Training"
+    ],
+    "link": "https://twitter.com/elonmusk/status/2059884150187053488",
+    "date": "2026-05-28",
+    "id": "17799689737035"
+  },
+  {
+    "title": "MIT 科技评论：毕业季学生嘘声对待 AI 演讲",
+    "summary": "亚利桑那大学等毕业生对 Eric Schmidt 等 AI 倡导者表示反对，担忧就业。",
+    "detail": "MIT Technology Review 的 AI 炒作指数显示，公众对 AI 的热情正在降温。在亚利桑那大学等毕业典礼上，前 Google CEO Eric Schmidt 关于 AI 的演讲遭到学生嘘声。毕业生担忧工作消失和未来破裂。尽管 OpenAI 等在商业上取得成功，但社会层面的 skepticism 正在增加，甚至出现名人警告女性需拥抱 AI 以免被取代的现象，显示舆论分化加剧。",
+    "tags": [
+      "News",
+      "Public Sentiment",
+      "Employment"
+    ],
+    "link": "https://www.technologyreview.com/2026/05/28/1138053/the-ai-hype-index-ai-gets-booed-in-graduation-season/",
+    "date": "2026-05-28",
+    "id": "17799689737036"
+  },
+  {
+    "title": "Cisco 发布 AI_enabled 攻击防御指南",
+    "summary": "提及 Anthropic withheld 模型 Mythos，建议企业更新威胁模型。",
+    "detail": "Cisco 发布了关于防御 AI_enabled 攻击的指导文件。文中提到 2026 年 4 月 Anthropic 因担心 offensive cyber capability 而暂缓发布新模型 Mythos，并与 Cisco 等公司合作修补漏洞。Cisco 据此更新了威胁模型，建议客户针对 AI 辅助的攻击流（如社会工程、代码生成）加强防御。这标志着 AI 安全进入新阶段，企业需更新安全策略以应对 AI 赋能的新型威胁。",
+    "tags": [
+      "News",
+      "Security",
+      "Enterprise"
+    ],
+    "link": "https://www.cisco.com/c/dam/en_us/about/doing_business/trust-center/docs/cisco-defending-against-ai-attacks-guidance.pdf",
+    "date": "2026-05-28",
+    "id": "17799689737037"
+  },
+  {
     "title": "梵蒂冈发布首份 AI 通谕，强调人类局限性",
     "summary": "教皇发布通谕警告不要将人类能力外包给计算机，捍卫人类价值。",
     "detail": "梵蒂冈发布 250 页通谕《Magnifica Humanitas》，由教皇 Leo XIV 签署。这是天主教首份正式应对 AI 的文件，核心并非仅关注危害，而是捍卫人类本性，警告社会不要诱惑将人类能力外包给计算机。通谕强调人类的不完美也是价值所在，反对技术万能论，旨在防止技术僭越神圣权力。文章引用巴别塔故事，暗示技术野心需受限。这对 AI 伦理讨论具有里程碑意义，标志着宗教界正式介入 AI 治理话语体系，为全球 AI 监管提供新视角。该文件试图在技术加速主义与人文主义之间寻找平衡，影响深远。",
@@ -1194,109 +1298,5 @@
     "link": "https://www.forbes.com/sites/sandycarter/2026/05/22/starbucks-drops-ai-as-meta-and-intuit-cut-11000-jobs/",
     "date": "2026-05-25",
     "id": "17797433625521"
-  },
-  {
-    "title": "OpenAI 寻求联邦担保融资引发争议，AI 泡沫论再起",
-    "summary": "CFO 言论遭撤回，高管否认政府担保，暴露资金链压力。",
-    "detail": "**事件**：OpenAI CFO 曾提及寻求联邦“后盾”融资，随后遭 CEO 及政府官员否认。\n**核心争议**：文章分析 AI 基础设施投资过热，存在需求 inflated 和资金缺口风险。\n**行业影响**：暴露了头部 AI 公司在芯片和数据中心承诺上的融资压力，监管与融资模式成为焦点，若无法解决资金缺口，可能引发行业洗牌。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Finance"
-    ],
-    "link": "https://nooneshappy.com/article/the-ai-bubble/",
-    "date": "2026-05-25",
-    "id": "17797433625522"
-  },
-  {
-    "title": "Show HN: Bae 推出基于持久记忆架构的 AI 伴侣",
-    "summary": "六层记忆架构实现长期陪伴，无需登录即可体验个性化交互。",
-    "detail": "**产品亮点**：Bae 主打持久记忆技术，记录用户偏好、情绪及历史对话，而非单次会话。\n**技术架构**：采用六层记忆系统，支持关系从“初识”到“灵魂伴侣”的自然深化。\n**行业影响**：区别于 gamification 驱动的竞品，强调真实感与长期陪伴价值，为 AI 情感计算领域提供了新的技术实现路径和用户留存思路。",
-    "tags": [
-      "New",
-      "AI Companion",
-      "Memory Architecture"
-    ],
-    "link": "https://bae.ppl.studio",
-    "date": "2026-05-25",
-    "id": "17797433625523"
-  },
-  {
-    "title": "提议建立 AI 安全“安全港”，鼓励竞争对手协作合规",
-    "summary": "DOJ 与 FTC 被呼吁发布新指南，允许竞品间共享安全数据。",
-    "detail": "**背景**：OpenAI 与 Anthropic 曾联合评估模型安全，但面临反垄断法律不确定性。\n**提案内容**：建议 DOJ 和 FTC 发布新协作指南，明确不挑战设计合理的 AI 安全合作。\n**行业影响**：旨在解决竞品间安全协作的法律障碍，推动行业安全标准统一，避免因反垄断法规阻碍必要的风险联防机制建立。",
-    "tags": [
-      "News",
-      "Policy",
-      "AI Safety"
-    ],
-    "link": "https://www.williamrinehart.com/data/An_AI_Safety_Safety_Harbor.pdf",
-    "date": "2026-05-25",
-    "id": "17797433625524"
-  },
-  {
-    "title": "欧盟 AI 法案透明度指南草案引发执法豁免担忧",
-    "summary": "草案中执法机构豁免条款可能削弱透明度要求，引发隐私担忧。",
-    "detail": "**核心问题**：欧盟 AI 法案第 50 条透明度义务草案中，执法部门获得了多项 exemptions。\n**潜在风险**：这可能破坏用户知情权，导致 AI 交互（如聊天机器人、语音助手）未明确标识。\n**行业影响**：强调机器可读标记和直接披露的必要性，若豁免过多，将削弱法案保护用户免受操纵的初衷，引发隐私与伦理争议。",
-    "tags": [
-      "News",
-      "Regulation",
-      "EU AI Act"
-    ],
-    "link": "https://blog.avas.space/le-exempt-draft-aiact/",
-    "date": "2026-05-25",
-    "id": "17797433625525"
-  },
-  {
-    "title": "教皇发布通谕：AI 需被“解除武装”以防数字奴役",
-    "summary": "教皇 Leo 发布首份重大教学文件，警告 AI 可能导致新型数字奴役，Anthropic 联合创始人同台。",
-    "detail": "### 背景与事件\n教皇 Leo 发布了其任教皇以来的首份重大教学文件《Magnifica Humanitas》，强烈呼吁人工智能需要被“解除武装”。\n\n### 核心观点\n教皇警告世界正面临正常化剥削人民的危险，将 AI 威胁与历史奴隶贸易相提并论，提出“新数字奴役”概念。值得注意的是，Anthropic 联合创始人 Christopher Olah 陪同亮相，承认 AI 实验室的激励机制有时与正确行事冲突。\n\n### 行业影响\n这是宗教领袖与 AI 安全研究者的罕见同台，标志着 AI 伦理问题已上升至全球道德十字路口的最高级别讨论，可能推动更严格的国际 AI 监管框架。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Policy"
-    ],
-    "link": "https://www.bbc.com/news/articles/cedppn6002jo",
-    "date": "2026-05-25",
-    "id": "17797381070730"
-  },
-  {
-    "title": "Demis Hassabis 详解 AI 突破性进展",
-    "summary": "Two Minute Papers 发布视频，Google DeepMind 创始人 Demis Hassabis 分享最新 AI 突破细节。",
-    "detail": "### 事件概述\n知名科普频道 Two Minute Papers 发布专访视频，邀请 Google DeepMind 首席执行官 Demis Hassabis 讨论当前 insane 的 AI 突破进展。\n\n### 技术焦点\n虽然具体技术细节需观看视频，但 Hassabis 作为深度学习领域的领军人物，其言论通常涉及 AGI 路径、科学发现加速或模型架构的根本性变革。\n\n### 行业意义\n此类高层访谈往往预示着下一代基础模型的方向。对于关注前沿技术的研究者和开发者而言，这是了解 Google 阵营下一步战略和技术落地的重要窗口。",
-    "tags": [
-      "News",
-      "LLM",
-      "Research"
-    ],
-    "link": "https://www.youtube.com/watch?v=huAwz_BR8WM",
-    "date": "2026-05-25",
-    "id": "17797381070731"
-  },
-  {
-    "title": "AI 驱动形式化证明搜索推进数学研究",
-    "summary": "arXiv 新论文探讨如何利用 AI 驱动的形式化证明搜索技术，加速数学 research 进程。",
-    "detail": "### 论文主题\narXiv 最新论文《Advancing Mathematics Research with AI-Driven Formal Proof Search》探讨了 AI 在高等数学领域的应用。\n\n### 技术核心\n研究聚焦于形式化证明搜索（Formal Proof Search），利用 AI 模型辅助数学家验证猜想或寻找证明路径。这代表了 AI for Science 的重要分支。\n\n### 应用价值\n该技术若能成熟，将大幅降低数学研究门槛，加速科学理论验证。对于 AI 开发者，这展示了 LLM 在逻辑推理和符号处理方面的潜力，超越了传统的自然语言处理范畴。",
-    "tags": [
-      "Dev",
-      "Paper",
-      "Math"
-    ],
-    "link": "https://arxiv.org/abs/2605.22763",
-    "date": "2026-05-25",
-    "id": "17797381070732"
-  },
-  {
-    "title": "经济学人：IPO 浪潮将巩固 AI 巨头未来控制权",
-    "summary": "经济学人刊文分析，即将到来的 AI 公司 IPO 浪潮可能进一步固化科技巨头对未来的控制。",
-    "detail": "### 文章观点\n《经济学人》发表深度分析文章，指出一波 AI 公司的 IPO 浪潮正在酝酿。\n\n### 核心风险\n文章警告，这一资本化过程可能会“确立 AI 神祇对未来的控制”。这意味着少数几家头部公司可能通过资本市场垄断 AI 基础设施和收益，加剧权力集中。\n\n### 行业启示\n对于投资者和从业者，这提示了 AI 行业可能正从技术竞争转向资本垄断阶段。监管机构和初创公司需警惕市场集中度过高带来的创新抑制风险。",
-    "tags": [
-      "News",
-      "Market",
-      "IPO"
-    ],
-    "link": "https://economist.com/by-invitation/2026/05/21/the-ipo-wave-will-enshrine-the-ai-gods-control-over-the-future",
-    "date": "2026-05-25",
-    "id": "17797381070733"
   }
 ]
