@@ -1,5 +1,57 @@
 [
   {
+    "title": "交易所竞相推出 AI 代币与 GPU 期货合约",
+    "summary": "上海期货交易所设计 AI 代币衍生品，CME 推 GPU 期货。",
+    "detail": "全球主要交易所正加速构建 AI 基础设施金融市场。路透社报道，上海期货交易所正设计 AI 代币衍生品市场，而 CME 集团与洲际交易所也分别宣布推出 GPU 租赁期货合约。当前 Nvidia H100 GPU 租赁中位价在 1.40 至 4.27 美元/小时之间波动。虽然 GPU 现货市场成熟，但代币作为当代 AI 模型的基本构建单元，其基础设施尚不完善。企业计划通常以代币计价，如 OpenAI 的输入输出 token 收费。这一金融化趋势标志着 AI 经济成熟度提升，未来企业需关注算力与代币成本的对冲策略，以应对价格波动风险。金融巨头涌入表明 AI 算力与代币将成为类似黄金石油的大宗商品，基础设施投资需纳入长期战略规划。",
+    "tags": [
+      "News",
+      "Finance",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/2026/05/28/just-like-gold-and-oil-well-soon-be-able-to-trade-ai-token-futures/",
+    "date": "2026-05-28",
+    "id": "17799936570330"
+  },
+  {
+    "title": "维基百科裁员引发社区抗议，AI 盈利未惠及贡献者",
+    "summary": "维基基金会裁撤技术团队，尽管 AI 数据授权盈利丰厚。",
+    "detail": "维基基金会解雇了首席技术官及社区技术团队，引发志愿者编辑罢工威胁。讽刺的是，基金会通过 Wikimedia Enterprise 向亚马逊、微软等出售数据获利丰厚，储备金达 2.96 亿美元。此举暴露 AI 繁荣背后的数据伦理危机：科技巨头依赖开源社区数据训练模型，却未反哺生态，优先级的错位可能动摇 AI 数据根基。大多数被解雇者是工会组织者，这是志愿者首次与带薪员工团结抗议。这不仅是资金问题，更是优先级问题。AI 淘金热正在吞噬其赖以生存的数据源，若开源社区崩溃，模型训练数据质量将面临枯竭风险，行业需反思数据供应链的可持续性。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Data"
+    ],
+    "link": "https://blog.ppb1701.com/the-ai-gold-rush-is-eating-its-own",
+    "date": "2026-05-28",
+    "id": "17799936570331"
+  },
+  {
+    "title": "开源自改进 AI 框架 SIA 发布，性能提升显著",
+    "summary": "SIA 框架自主更新模型权重，基准任务性能大幅提升。",
+    "detail": "开源项目 SIA (Self Improving AI) 发布，基于 arXiv 论文实现。该框架允许语言模型代理自主更新任务特定代理的 harness 和权重。实测显示 LawBench 增益 56.6%，GPU 内核运行时减少 91.9%，单细胞 RNA 去噪改进 502%。这标志着 AI 系统从静态部署向动态自进化迈进，为降低运维成本和提高模型适应性提供了新路径。SIA 旨在自主提高任何 AI 系统在基准任务上的性能。架构包含自改进循环，无需人工干预即可优化。对于开发者而言，这意味着可以部署能够自我修复和优化的代理，减少手动微调需求，特别适合需要长期运行且环境动态变化的复杂 AI 应用场景，技术门槛正在降低。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Agent"
+    ],
+    "link": "https://github.com/hexo-ai/sia",
+    "date": "2026-05-28",
+    "id": "17799936570333"
+  },
+  {
+    "title": "规范驱动的 AI 软件开发技能库开源",
+    "summary": "提供可复用 AI 代理技能，确保业务意图与实现一致。",
+    "detail": "GitHub 项目 `skills` 开源了一套规范驱动的 AI 开发技能库。遵循 Anthropic 代理技能最佳实践，旨在通过规范优先（spec-first）方法，保持自主 AI 代理从业务意图到实施 review 的一致性。包含 spec-architect 等技能，防止实现过程中的歧义或漂移，适合需要高可靠性 AI 软件工程团队参考。每个技能生活在自己的子目录下，遵循特定的文档模式。这种方法解决了自主代理常见的发明、接口不匹配或 drift 问题。对于构建复杂 AI 软件的团队，这是一种确保业务意图准确转化为代码实现的有效工程实践，有助于维护大型 AI 代码库的长期稳定性和可维护性，减少幻觉带来的错误。",
+    "tags": [
+      "Dev",
+      "SoftwareEngineering",
+      "Agent"
+    ],
+    "link": "https://github.com/sebastianwessel/skills",
+    "date": "2026-05-28",
+    "id": "17799936570334"
+  },
+  {
     "title": "Anthropic 与 SpaceX 算力租约期限引争议",
     "summary": "马斯克称 xAI 与 Anthropic 算力合作为短期，文件显示至 2029 年。",
     "detail": "Elon Musk 公开将 xAI 与 Anthropic 的算力合作重新定义为短期且可取消，但 SpaceX 的 S-1 文件显示付款将持续至 2029 年 5 月。这一争议揭示了 AI 基础设施租赁背后的复杂性，可能影响投资者对算力稳定性的判断。对于依赖大规模算力训练的 AI 公司而言，长期租约的稳定性至关重要，此次分歧可能引发行业对算力供应链透明度的关注。",
@@ -323,6 +375,19 @@
     "link": "https://zenodo.org/records/20371166",
     "date": "2026-05-28",
     "id": "17799397786684"
+  },
+  {
+    "title": "美光市值突破万亿，HBM 成 AI 代理关键基础设施",
+    "summary": "美光与 SK 海力士市值破万亿，HBM 需求驱动股价飙升。",
+    "detail": "美光科技市值突破 1 万亿美元，与 SK 海力士同为纯内存芯片制造商进入万亿俱乐部。驱动因素是代理 AI 工作负载对高带宽内存（HBM）的刚性需求。UBS 将目标价 tripled，指出超大规模厂商签订长期供应协议。这表明内存已从商品转变为 AI 栈的关键基础设施，采购策略需向能源或算力规划看齐。随着 AI 系统从单次推理转向多步自主任务，内存带宽成为绑定约束。hyperscalers 正在签订长期协议以锁定供应，部分固定价格 tied to AI workload expansion。美光股价年初至今已翻三倍多。这对 AI 创始人意味着芯片采购现在需要与能源或算力容量规划相同的长期视野，基础设施预算规划逻辑发生根本性变化。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Market"
+    ],
+    "link": "https://aiweekly.co/alerts/micron-hits-1-trillion-on-ai-memory-boom",
+    "date": "2026-05-27",
+    "id": "17799936570332"
   },
   {
     "title": "英伟达宣布每年在台投资 1500 亿美元",
@@ -1233,70 +1298,5 @@
     "link": "https://anallyst.app/",
     "date": "2026-05-26",
     "id": "17797820461614"
-  },
-  {
-    "title": "加州州立大学系统斥资千万美元全面引入 OpenAI",
-    "summary": "加州州立大学与 OpenAI 达成合作，引发师生对 AI 影响就业与创造力的担忧。",
-    "detail": "加州州立大学（CSU）系统正式宣布成为全美首个 AI 驱动的大学系统，已与 OpenAI 签订数年合约，旨在为师生提供 ChatGPT Edu 服务。尽管管理层希望借此规模化赋能教育，提升科研与教学效率，但最新内部调查显示，多数师生对 AI 持怀疑态度，担忧其威胁 job security 及创造力，甚至关注环境影响。此案例深刻反映了教育机构在 AI 转型中的典型矛盾，大规模部署生成式 AI 带来的伦理、学术诚信及接受度问题将成为高校关注的焦点，也为其他院校提供了重要参考样本。未来如何平衡技术引入与人文关怀，将是 CSU 面临的最大挑战。",
-    "tags": [
-      "News",
-      "Education",
-      "OpenAI"
-    ],
-    "link": "https://www.npr.org/2026/05/25/nx-s1-5772820/artificial-intelligence-education-technology-california-state-university",
-    "date": "2026-05-26",
-    "id": "17797669770930"
-  },
-  {
-    "title": "开发者大迁徙：Crypto 代码提交量暴跌 75% 转向 AI",
-    "summary": "CoinDesk 报道显示开发者活动从 Crypto 转向 AI，GitHub 人才潮被 AI 吸收。",
-    "detail": "随着 AI 热潮持续兴起，Crypto 领域的开发者活动已降至多年低点，代码提交量大幅下降 75%。CoinDesk 数据显示，GitHub 人才正大规模流向 AI 项目，显示出明显的虹吸效应。这一趋势标志着技术风口已从 Web3 彻底转向人工智能，开发者生态的重心迁移可能影响未来几年区块链与 AI 领域的创新速度及资金流向。人才争夺战已成 AI 行业关键议题，而 Crypto 项目若无法找到与 AI 结合的新叙事，恐将面临长期的人才枯竭与生态萎缩风险。这表明资本与智力资源正加速向 AI 基础设施层聚集。",
-    "tags": [
-      "News",
-      "Industry",
-      "Developer"
-    ],
-    "link": "https://www.coindesk.com/tech/2026/03/12/crypto-developer-activity-sinks-to-multi-year-low-as-ai-absorbs-github-s-talent-boom",
-    "date": "2026-05-26",
-    "id": "17797669770931"
-  },
-  {
-    "title": "Argus：基于四角色多 Agent 架构的桌面 AI 编程助手",
-    "summary": "采用 PM/SE/AP/C 四角色协作架构，具备自动恢复能力的桌面端 AI 编程工具。",
-    "detail": "Argus 是一款全新的桌面端 AI 编程助手，其核心采用四角色 AI Agent 架构（PM/SE/AP/C），旨在理解用户意图并自主执行 coding 任务。其特色在于内置独立审批者确保代码质量，且具备自动恢复机制防止任务卡壳，解决了单一 Agent 易出错的问题。基于 Go 与 Wails 构建，代表了 Multi-Agent 在开发工作流中的深度应用尝试，为自动化编程提供了新范式。这种协作模式有望显著降低开发门槛，但也对 Agent 间的通信效率提出了更高要求。未来此类工具或将成为程序员的标准配置。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Coding"
-    ],
-    "link": "https://github.com/argustek/Argus",
-    "date": "2026-05-26",
-    "id": "17797669770942"
-  },
-  {
-    "title": "ContextVault：本地优先的多模型 AI 对话记录工具",
-    "summary": "支持 ChatGPT/Claude 等主流模型，本地存储对话记录，保护隐私且支持导出。",
-    "detail": "针对 AI 对话上下文易丢失痛点，ContextVault 提供本地优先的对话记录方案。它通过浏览器扩展实时捕获主流 LLM 对话，数据仅存于本地 IndexedDB，支持 Markdown 导出。无后端设计确保隐私安全，解决了跨模型切换导致上下文丢失的问题，适合注重数据主权的高级用户，是个人知识管理的有效补充。在数据隐私日益敏感的今天，本地化处理方案更能获得企业用户信任，避免了云端存储可能带来的泄露风险。该工具开源免费，降低了用户尝试门槛。",
-    "tags": [
-      "New",
-      "Privacy",
-      "Tool"
-    ],
-    "link": "https://context-vault-two.vercel.app/",
-    "date": "2026-05-26",
-    "id": "17797669770943"
-  },
-  {
-    "title": "UUMuse：支持 API 调用的云端 AI 知识库工作区",
-    "summary": "一次上传文件即可被多模型调用，支持引用来源及 MCP 协议部署。",
-    "detail": "UUMuse 打造云端 AI 知识库，支持 PDF/代码等多格式索引。核心优势在于“一次上传，多处调用”，兼容 GPT/Claude 等模型且答案均带引用来源。支持通过 API 及 MCP 协议将知识库暴露给 Agent，实现了知识资产的标准化部署与复用，适合团队构建统一知识层，解决了 RAG 应用中的上下文管理难题。随着 Agent 生态发展，可被调用的知识库将成为基础设施，UUMuse 提前布局了 MCP 协议支持。这使得非技术人员也能轻松构建专属 AI 应用。",
-    "tags": [
-      "New",
-      "RAG",
-      "KnowledgeBase"
-    ],
-    "link": "https://uumuse.ai/en",
-    "date": "2026-05-26",
-    "id": "17797669770944"
   }
 ]
