@@ -1,5 +1,44 @@
 [
   {
+    "title": "大西洋月刊：AI 写作风格已成显著识别特征",
+    "summary": "完美语法与缺乏个性成为 AI 写作最大破绽，读者认知负荷显著增加。",
+    "detail": "《大西洋月刊》指出，AI 写作已渗透至邮件、短信甚至精英文学领域。其‘完美语法’和‘缺乏独特声音’成为主要识别特征。读者面临巨大的认知负荷来辨别真伪，甚至影响日常交流信任。这表明 AI 内容同质化正在削弱人类交流的真实性，促使社会重新思考人机协作的边界与信任机制。随着 AI 写作进入报纸评论、书籍等高端空间，区分真实人类声音变得愈发困难且关键。",
+    "tags": [
+      "News",
+      "Generative AI",
+      "Social Impact"
+    ],
+    "link": "https://www.theatlantic.com/technology/2026/05/how-to-tell-ai-writing/687345/",
+    "date": "2026-05-29",
+    "id": "17800689909151"
+  },
+  {
+    "title": "Tab Council：Chrome 插件实现多模型交叉验证",
+    "summary": "无需 API 密钥，利用现有标签页构建 AI 模型委员会进行交叉验证。",
+    "detail": "Tab Council 是一款 Chrome MV3 扩展，允许用户将现有的 AI 标签页（如 ChatGPT, Claude）组成‘模型委员会’。它支持独立回答、批评、判断合成及否决流程，无需后端或 API 密钥。该工具旨在提高关键决策（如架构检查、政策草案）的可靠性，通过多模型共识减少单一模型幻觉风险。其本地化存储设计保护了用户隐私，适合开发者与研究人员在敏感任务中进行多方推理验证。",
+    "tags": [
+      "Dev",
+      "Tool",
+      "Productivity"
+    ],
+    "link": "https://github.com/vaddisrinivas/tab-council",
+    "date": "2026-05-29",
+    "id": "17800689909152"
+  },
+  {
+    "title": "ON1 项目实现 38μs 黑盒 AI 内存检索",
+    "summary": "基于虚拟芯片 ISA 的低延迟 AI 内存检索技术，优化 fetch/compute 分离。",
+    "detail": "ON1 (G116 V8) 项目在 GitHub 上开源，声称在虚拟芯片 ISA 上实现了 38 微秒的黑盒 AI 内存检索。该技术采用延迟分离的 Fetch/Compute/ANN 架构，旨在解决 AI 推理中的内存瓶颈。这对于需要低延迟响应的边缘 AI 应用具有重要意义，展示了硬件与算法协同优化的新方向。项目提供了实时隧道内部视图，为开发者探索高性能 AI 内存检索提供了新的技术参考与实现路径。",
+    "tags": [
+      "Dev",
+      "Hardware",
+      "Optimization"
+    ],
+    "link": "https://github.com/ON1-Hao/ON1",
+    "date": "2026-05-29",
+    "id": "17800689909153"
+  },
+  {
     "title": "星巴克停用 AI 库存代理因幻觉频发",
     "summary": "星巴克因 AI 代理计数错误及拖慢员工效率，已悄然停用该库存管理系统。",
     "detail": "**背景**：据 Fortune 报道，星巴克近期悄然停用了其部署的 AI 库存代理系统，该事件引发了行业对 AI 落地实际效果的广泛关注。**问题细节**：系统频繁出现幻觉导致库存计数错误，且操作繁琐拖慢了咖啡师的工作流程，引发一线员工大量投诉，最终导致项目被终止。**行业影响**：这是大型企业 AI 应用失败的典型案例，表明当前 AI 代理在复杂物理库存管理中的可靠性仍需验证。企业需警惕盲目自动化带来的潜在效率倒退，现实场景的鲁棒性测试至关重要，AI 并非万能解决方案，需结合人工流程。",
@@ -572,6 +611,19 @@
     "id": "17799397786684"
   },
   {
+    "title": "南非 AI 政策草案被视为非洲测试案例",
+    "summary": "IEEE 分析南非 AI 政策杠杆，指出其草案尚未充分利用潜在影响力。",
+    "detail": "IEEE Spectrum 报道，南非的 AI 政策草案被视为整个非洲大陆的测试案例。尽管南非拥有 AI 杠杆，但当前草案尚未充分利用其影响力来规范行业发展或保护生态系统。该政策动向关乎非洲在全球 AI 治理中的话语权，以及对数据主权和本地化发展的潜在影响。分析指出，若能有效利用政策杠杆，南非可成为对抗 AI 帝国资源集中化的关键力量，值得全球政策制定者关注。",
+    "tags": [
+      "News",
+      "Policy",
+      "Africa"
+    ],
+    "link": "https://spectrum.ieee.org/south-africa-ai-policy",
+    "date": "2026-05-27",
+    "id": "17800689909154"
+  },
+  {
     "title": "美光市值突破万亿，HBM 成 AI 代理关键基础设施",
     "summary": "美光与 SK 海力士市值破万亿，HBM 需求驱动股价飙升。",
     "detail": "美光科技市值突破 1 万亿美元，与 SK 海力士同为纯内存芯片制造商进入万亿俱乐部。驱动因素是代理 AI 工作负载对高带宽内存（HBM）的刚性需求。UBS 将目标价 tripled，指出超大规模厂商签订长期供应协议。这表明内存已从商品转变为 AI 栈的关键基础设施，采购策略需向能源或算力规划看齐。随着 AI 系统从单次推理转向多步自主任务，内存带宽成为绑定约束。hyperscalers 正在签订长期协议以锁定供应，部分固定价格 tied to AI workload expansion。美光股价年初至今已翻三倍多。这对 AI 创始人意味着芯片采购现在需要与能源或算力容量规划相同的长期视野，基础设施预算规划逻辑发生根本性变化。",
@@ -1066,6 +1118,19 @@
     "id": "17798404342724"
   },
   {
+    "title": "英联邦短篇小说奖疑似 AI 获奖引发文学界危机",
+    "summary": "2026 年英联邦短篇小说奖区域获奖者被指由 AI 生成，检测工具 Pangram 证实疑虑。",
+    "detail": "2026 年 5 月，英联邦基金会宣布短篇小说奖区域获奖者，随后多篇作品被质疑为 AI 生成。尽管检测工具可靠性存疑，但芝加哥大学研究显示 Pangram 误报率低于 0.005，提供了有力证据。此事件凸显了 AI 生成内容对传统文学创作、版权体系及奖项公正性的严重冲击。文学界正面临‘梦游’般的危机，行业急需建立更有效的检测标准与监管机制，以维护人类创作的独特价值与信任基础，防止奖项沦为 AI 生成内容的展示场。",
+    "tags": [
+      "News",
+      "AI Detection",
+      "Literature"
+    ],
+    "link": "https://www.theargumentmag.com/p/the-literary-world-is-sleepwalking",
+    "date": "2026-05-26",
+    "id": "17800689909150"
+  },
+  {
     "title": "DeepSWE 基准重塑 AI 编码排行榜，GPT-5.5 夺冠",
     "summary": "新基准 DeepSWE 揭示模型差异，GPT-5.5 领先，质疑现有评测体系。",
     "detail": "Datacurve 发布 DeepSWE 基准，涵盖 113 个任务，打破现有排行榜模型能力趋同的假象。GPT-5.5 以 70% 得分领先，超前竞品 16 个百分点。研究还发现 SWE-Bench Pro 验证器存在误判。这对企业选型及基准测试可信度提出新挑战，推动评估标准向真实开发场景靠拢。新基准覆盖多种编程语言及开源仓库，更贴近工程师日常体验。暴露了当前评测基础设施的缺陷，促使行业重新审视自动化 grading 系统。未来模型竞争将更注重实际编码解决能力，而非刷榜性能，有助于企业更准确采购 AI 编程助手。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.computerworld.com/article/4059383/openai-admits-ai-hallucinations-are-mathematically-inevitable-not-just-engineering-flaws.html",
     "date": "2026-05-26",
     "id": "17798289129680"
-  },
-  {
-    "title": "Python AI 栈严重漏洞 BadHost 曝光",
-    "summary": "Starlette 漏洞可绕过主机安全，影响 vLLM 等。",
-    "detail": "安全顾问披露 CVE-2026-48710，Starlette 单字符 Host 头注入可绕过路径授权。影响 FastAPI、vLLM、LiteLLM 等主流 Python AI 栈。发现者称关键严重，建议升级至 Starlette 1.0.1。提供在线扫描器。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Python"
-    ],
-    "link": "https://www.secwest.net/starlette",
-    "date": "2026-05-26",
-    "id": "17798289129681"
-  },
-  {
-    "title": "小米 MiMo API 降价高达 99%",
-    "summary": "小米大幅降低 AI API 价格，统一上下文计费。",
-    "detail": "小米 MiMo-V2.5 系列 API 永久降价高达 99%，统一上下文长度定价。Token 计划升级，同等价格可用 token 增 5-8 倍。此举继 DeepSeek 后进一步加剧 AI 价格战，提升推理效率。",
-    "tags": [
-      "News",
-      "Xiaomi",
-      "API"
-    ],
-    "link": "https://twitter.com/i/status/2059314052892099070",
-    "date": "2026-05-26",
-    "id": "17798289129682"
-  },
-  {
-    "title": "Shopify 公开 AI 员工 River 工作模式",
-    "summary": "River 在 Slack 公开频道工作，上周生成 1/8 PR。",
-    "detail": "Shopify 推出 AI 代理 River，约束其仅在 Slack 公开频道工作而非私聊。过去 30 天 5938 名员工使用，上周 1/8 合并 PR 由 River  authored。公开透明原则旨在建立信任，区别于私有化 AI 助手。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Agent"
-    ],
-    "link": "https://twitter.com/tobi/status/2053121182044451016",
-    "date": "2026-05-26",
-    "id": "17798289129683"
-  },
-  {
-    "title": "GitHub 新品自动接受 AI 代理操作",
-    "summary": "视觉点击工具自动批准 AI 代理运行请求。",
-    "detail": "开发者发布 SlopeAutoAcceptor，通过视觉 OCR 自动点击 AI 代理的“运行”按钮。解决企业限制 AI 自动运行问题，但存在安全风险。适用于 macOS，需代理窗口打开。",
-    "tags": [
-      "Dev",
-      "Tool",
-      "Agent"
-    ],
-    "link": "https://github.com/Alcray/SlopeAutoAcceptor",
-    "date": "2026-05-26",
-    "id": "17798289129684"
-  },
-  {
-    "title": "AI 语音克隆诈骗致湾区母亲损失数千",
-    "summary": "骗子利用 AI 模仿女儿声音实施绑架诈骗。",
-    "detail": "湾区母亲接到诈骗电话，AI 克隆女儿声音声称被绑架。受害者转账 5400 美元后发现女儿安全。此类诈骗呈增长趋势，凸显 AI 语音技术滥用风险及公众防范意识不足。",
-    "tags": [
-      "News",
-      "Safety",
-      "Voice"
-    ],
-    "link": "https://abc7news.com/post/bay-area-mom-thousands-scammers-use-ai-mimic-daughters-voice-fake-kidnapping-part-growing-trend/19154381/",
-    "date": "2026-05-26",
-    "id": "17798289129685"
   }
 ]
