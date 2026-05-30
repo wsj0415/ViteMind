@@ -1,5 +1,18 @@
 [
   {
+    "title": "Meta 计划推出 AI 吊坠及工作场景可穿戴设备",
+    "summary": "Meta 硬件战略升级，聚焦工作场景 AI 穿戴设备，探索多模态交互。",
+    "detail": "据报道，Meta 计划推出 AI 吊坠及面向工作场景的可穿戴设备，旨在硬件领域寻求新增长点，boost 硬件业务。此举显示科技巨头正从纯软件交互向随身 AI 硬件延伸，探索多模态交互新形态。工作场景穿戴设备可能集成会议记录、实时翻译等功能，重塑办公效率工具链。值得关注其后续产品发布及开发者生态支持，这可能导致新一轮硬件创新竞赛，改变人机交互入口格局。",
+    "tags": [
+      "New",
+      "Hardware",
+      "Wearable"
+    ],
+    "link": "https://economictimes.indiatimes.com/tech/technology/meta-plans-ai-pendant-wearables-for-work-in-hardware-boost-report/articleshow/131402525.cms?from=mdr",
+    "date": "2026-05-30",
+    "id": "17801236795662"
+  },
+  {
     "title": "SpaceX 自研 C 语言 AI 训练栈，性能提升十倍",
     "summary": "马斯克透露 SpaceX 已完成自研 AI 训练栈 v1.0，基于 C 语言。",
     "detail": "马斯克宣布 SpaceX 即将完成内部 AI 训练栈 v1.0 开发，采用 C 语言编写，直接映射 220k GB300s 硬件与 800G NICs。相比 JAX，大型训练运行速度提升超一个数量级。下一步将开发推理栈以支持高速 RL。该栈将用于 Grok v5 训练。此举显示硬件底层优化仍是提升 AI 算力的关键路径，旨在招募底层性能优化人才。这标志着大厂开始深入底层栈定制以突破现有框架瓶颈，减少对通用框架如 JAX 的依赖，可能成为未来大模型训练竞争的新壁垒。",
@@ -63,6 +76,32 @@
     "link": "https://github.com/iklobato/avai",
     "date": "2026-05-30",
     "id": "17801120375584"
+  },
+  {
+    "title": "美国司法界拟新规遏制 AI 生成虚假案例引用",
+    "summary": "防止 AI 幻觉影响司法公正，要求律师披露 AI 使用情况并核实内容。",
+    "detail": "美国司法界被呼吁采纳新规，以遏制法律文件中出现 AI 生成的虚假案例引用。随着 AI 幻觉问题频发，法庭文件真实性面临严峻挑战。新规可能强制要求律师披露 AI 使用情况并严格核实引用内容。这将显著增加法律科技合规成本，促使法律 AI 工具向高准确性、可追溯方向发展。行业需建立更严格的内容审核机制，确保 AI 辅助工具在专业领域的可靠性与安全性。",
+    "tags": [
+      "News",
+      "Regulation",
+      "Legal"
+    ],
+    "link": "https://www.reuters.com/legal/government/us-judiciary-asked-to-adopt-rule-curb-fake-ai-generated-cases-filings-2026-05-29/",
+    "date": "2026-05-29",
+    "id": "17801236795663"
+  },
+  {
+    "title": "企业因无使用限制单月挥霍 5 亿美元于 Claude AI",
+    "summary": "许可证无上限导致巨额账单，警示企业 AI 管理需建立成本管控机制。",
+    "detail": "某公司因员工许可证无使用限制，单月在 Claude AI 上挥霍高达 5 亿美元。这一极端案例揭示了企业级 AI 部署中的成本失控风险与治理缺失。缺乏用量监控和权限管理可能导致巨额账单，严重影响财务状况。企业需立即建立 AI 治理框架，设置支出上限及使用策略，实施细粒度权限控制。此事件警示 CIO 们，AI 规模化应用必须配套严格的财务管控与审计流程，避免资源浪费。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Cost"
+    ],
+    "link": "https://www.gadgetreview.com/company-blew-500m-on-claude-ai-in-one-month",
+    "date": "2026-05-29",
+    "id": "17801236795664"
   },
   {
     "title": "非程序员 21 天用 7 个 AI Agent 构建人才市场",
@@ -1259,44 +1298,5 @@
     "link": "https://www.axios.com/2026/05/27/ai-hype-doom-openai-anthropic",
     "date": "2026-05-27",
     "id": "17799001463584"
-  },
-  {
-    "title": "Workplane：人机协作文件系统",
-    "summary": "共享 AI 工件的新平台，支持人类与代理协作。",
-    "detail": "Workplane 是一个专为人类和 AI 代理设计的协作文件系统。它将散落的 Markdown 和 HTML 文件转化为可共享链接，无需登录即可查看和评论。支持版本控制和权限管理，允许 AI 代理持续改进已共享的工件。该平台旨在优化 AI 生成内容的协作流程，适用于团队与多代理协作场景。兼容 Claude、Cursor 等主流代理，通过 URL 分享 artifacts，让人类审查而代理构建。解决了 AI 产出物难以共享和版本管理的痛点，促进人机协作效率。",
-    "tags": [
-      "New",
-      "Collaboration",
-      "Workflow"
-    ],
-    "link": "https://workplane.co",
-    "date": "2026-05-27",
-    "id": "17799001463585"
-  },
-  {
-    "title": "PostHog 将默认 opt-in 训练 AI 模型",
-    "summary": "数据分析平台计划利用用户数据训练自有 AI 模型。",
-    "detail": "产品分析平台 PostHog 宣布计划利用用户数据训练自有 AI 模型，默认选项为加入。目标是提升现有产品智能度并开发如 PostHog Code 等新产品。重点应用包括会话回放分析和合成用户测试，旨在自动化测试流程。此举引发对数据隐私的关注，尽管声称 opt-in，但默认设置可能模糊用户选择边界。公司希望构建自驱动产品，通过模型训练使产品更主动地表面答案并解决问题，代表了 SaaS 平台利用私有数据构建垂直模型的趋势。",
-    "tags": [
-      "News",
-      "Data",
-      "Privacy"
-    ],
-    "link": "https://posthog.com/blog/training-ai-models",
-    "date": "2026-05-27",
-    "id": "17799001463586"
-  },
-  {
-    "title": "Robinhood 推出 AI 代理交易功能",
-    "summary": "Robinhood 上线 AI 代理交易 beta 版，支持独立钱包与 MCP 协议连接。",
-    "detail": "Robinhood 宣布推出 AI 代理交易功能，允许用户为 AI 代理创建独立账户并连接专用钱包。代理可分析投资组合并建议策略，但仅限使用预加载余额交易。该功能目前处于 beta 阶段，仅支持股票交易，未来将扩展至期权和 crypto。通过 Model Context Protocol (MCP) 服务，代理可执行交易或分析风险。此举标志着 AI 代理在金融交易领域的实际应用落地。平台内置欺诈检测保护，团队会审查可疑交易。用户可监控代理活动，部分交易需批准。这提升了自动化投资的可能性，同时通过独立钱包隔离风险，为未来支持期权、crypto 等复杂金融产品奠定基础，是零售金融 AI 化的重要里程碑。",
-    "tags": [
-      "News",
-      "FinTech",
-      "AI Agents"
-    ],
-    "link": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/",
-    "date": "2026-05-27",
-    "id": "17798867021950"
   }
 ]
