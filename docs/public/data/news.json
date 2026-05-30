@@ -1,5 +1,70 @@
 [
   {
+    "title": "英伟达承认在华 AI 芯片市场让步华为",
+    "summary": "英伟达表示已基本放弃中国 AI 芯片市场，转向华为主导。",
+    "detail": "英伟达 CEO 黄仁勋近日表示，受美国出口管制影响，公司已基本放弃中国 AI 芯片市场，承认该领域正由华为主导。这一战略让步标志着地缘政治对全球 AI 硬件格局产生决定性影响。中国本土芯片势力有望借此加速崛起，全球 AI 供应链面临深度重构。对于开发者而言，这意味着硬件生态的分裂，需关注国产算力适配及跨平台部署策略。行业竞争焦点将从单纯性能转向供应链安全与生态兼容性，企业需重新评估长期硬件采购风险，避免因制裁导致业务中断。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Geopolitics"
+    ],
+    "link": "https://www.cnbc.com/2026/05/21/nvidia-jensen-huang-china-ai-chip-market-huawei.html",
+    "date": "2026-05-30",
+    "id": "17801328694930"
+  },
+  {
+    "title": "DeepSWE 基准测试重塑 AI 编码 leaderboard",
+    "summary": "新基准 DeepSWE 显示 GPT-5.5 领先，揭露现有评测漏洞。",
+    "detail": "Datacurve 发布 DeepSWE 基准，打破原有编码评测僵局。结果显示 OpenAI GPT-5.5 以 70% 准确率领先，远超竞品。同时发现 SWE-Bench Pro 存在验证漏洞，为开发者选择模型提供更真实参考。新基准覆盖 91 个开源仓库，更贴近实际开发场景。企业采购者可据此区分模型真实性能，避免被模糊的 leaderboard 误导。此外，审计发现现有评测 verifier 存在三分之一误判，行业需重建可信评估体系。这将推动 AI 编码助手从营销噱头走向实际生产力工具，帮助工程团队更精准地部署 Agent，优化研发流程与成本效益。",
+    "tags": [
+      "News",
+      "LLM",
+      "Benchmark"
+    ],
+    "link": "https://venturebeat.com/technology/deepswe-blows-up-the-ai-coding-leaderboard-crowns-gpt-5-5-and-finds-claude-opus-exploiting-a-benchmark-loophole",
+    "date": "2026-05-30",
+    "id": "17801328694931"
+  },
+  {
+    "title": "AI-org：基于 Org-Mode 的本地优先任务管理器",
+    "summary": "结合 AI 与 Org-Mode，支持 Git 同步的本地任务管理工具。",
+    "detail": "全新 Show HN 项目 AI-org，将 AI 助手集成到纯文本 Org-Mode 中。支持本地模型、Git 版本控制及无厂商锁定。适合注重数据隐私与高效工作流的开发者，实现行动导向的任务管理。核心基于 opencode fork，定制 Org 议程与工作流。数据存储在本地.org 文件，可通过 Git 同步历史与移动端访问。系统强调“行动优于完美”，自动总结每日工作并更新任务。对于追求隐私与可控性的极客用户，这是替代云端 SaaS 的理想方案，确保数据主权完全掌握在自己手中，同时享受 AI 带来的效率提升。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Local-First"
+    ],
+    "link": "https://ai-org.net/",
+    "date": "2026-05-30",
+    "id": "17801328694932"
+  },
+  {
+    "title": "Imece：去中心化 AI 算力协作网络",
+    "summary": "贡献闲置 GPU 换取推理积分，无需加密货币的去中心化方案。",
+    "detail": "GitHub 开源项目 Imece 推出去中心化算力合作社。用户贡献闲置 GPU/CPU 时间赚取 FLOP 积分，用于兑换 AI 推理服务。旨在解决算力中心化问题，利用全球闲置资源降低能源消耗与准入门槛。积分基于 FLOP 计算，非加密货币，无投机价值。节点全球分布可自动迁移至低电价区域，提升能源效率。这为个人开发者提供了低成本获取算力的新途径，同时构建了一个抗审查、社区驱动的推理网络，挑战现有 centralized 云服务商的垄断地位，促进 AI 基础设施的民主化。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "OpenSource"
+    ],
+    "link": "https://github.com/jstdv/imece",
+    "date": "2026-05-30",
+    "id": "17801328694933"
+  },
+  {
+    "title": "美国司法部拟新规遏制 AI 生成虚假案例",
+    "summary": "美司法系统拟 adopt 规则，防止 filings 中出现 AI 伪造案例。",
+    "detail": "路透社报道，美国司法系统被要求采纳新规则，以遏制法律文件中出现 AI 生成的虚假案例引用。此举旨在维护法律严肃性，应对 AI 幻觉带来的司法风险，规范法律科技使用。随着 AI 生成内容泛滥，伪造案例引用已成为严重问题。新规则要求律师核实 AI 生成内容，否则面临制裁。这将迫使法律科技工具增加验证功能，提高行业合规成本。对于法律 AI 开发者，需加强事实核查模块，确保输出准确性，避免因技术缺陷导致用户面临法律风险，推动行业向可信 AI 方向发展。",
+    "tags": [
+      "News",
+      "Policy",
+      "Legal"
+    ],
+    "link": "https://www.reuters.com/legal/government/us-judiciary-asked-adopt-rule-curb-fake-ai-generated-cases-filings-2026-05-29/",
+    "date": "2026-05-30",
+    "id": "17801328694934"
+  },
+  {
     "title": "Meta 计划推出 AI 吊坠及工作场景可穿戴设备",
     "summary": "Meta 硬件战略升级，聚焦工作场景 AI 穿戴设备，探索多模态交互。",
     "detail": "据报道，Meta 计划推出 AI 吊坠及面向工作场景的可穿戴设备，旨在硬件领域寻求新增长点，boost 硬件业务。此举显示科技巨头正从纯软件交互向随身 AI 硬件延伸，探索多模态交互新形态。工作场景穿戴设备可能集成会议记录、实时翻译等功能，重塑办公效率工具链。值得关注其后续产品发布及开发者生态支持，这可能导致新一轮硬件创新竞赛，改变人机交互入口格局。",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/podcast/your-seo-strategy-is-optimized-for-a-search-engine-that-no-longer-exists/",
     "date": "2026-05-27",
     "id": "17799100846224"
-  },
-  {
-    "title": "HN 社区提议标记纯 AI 生成内容",
-    "summary": "用户呼吁标记纯 AI 生成文章，维护讨论质量。",
-    "detail": "Hacker News 用户发起提议，认为若提交内容被多名用户报告并经多个检测器证实为纯 AI 生成，其标题应被标记。随着完全由 AI 生成的长文在过去两年显著增加，社区担忧此类空洞内容窃取用户时间。HN 作为少数重视长文与高质量讨论的平台，此举旨在维护社区生态。虽单一检测器不准，但多重共识可提高准确性，反映了社区对 AI 内容泛滥的强烈警惕与治理需求。发起人强调个人不愿阅读可能仅是高质量推文扩展成的长文，希望保留有限的时间给有价值的内容。",
-    "tags": [
-      "News",
-      "Community",
-      "Ethics"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48296731",
-    "date": "2026-05-27",
-    "id": "17799001463580"
-  },
-  {
-    "title": "Hodor：macOS 本地 AI 提示词启动器",
-    "summary": "701KB 轻量级开源工具，本地运行无数据收集。",
-    "detail": "Hodor 是一款专为 macOS 设计的原生提示词启动器，体积仅 701KB。支持通过屏幕边缘滑动、快捷键或关键词触发预设提示词。完全本地运行，无网络连接和数据收集，代码开源且经 Apple 公证。解决了用户在不同 AI 工具间重复输入提示词的痛点，注重隐私与效率。其权限需求与 Raycast 类似，仅用于粘贴操作。作为轻量级工具，它展示了本地优先 AI 辅助工具的设计思路，适合注重数据安全与 workflow 效率的开发者日常使用。",
-    "tags": [
-      "New",
-      "MacOS",
-      "Productivity"
-    ],
-    "link": "https://hodor.design/",
-    "date": "2026-05-27",
-    "id": "17799001463581"
-  },
-  {
-    "title": "Google AI 模式引发 DuckDuckGo 流量激增",
-    "summary": "Google 推崇 AI 搜索后，DuckDuckGo 访问量上涨 28%。",
-    "detail": "数据显示，在 Google 强调用户喜爱 AI 搜索模式后的一周内，主打隐私的 DuckDuckGo 访问量增加了 28%。这表明部分用户对 AI 生成搜索结果持保留态度，转而寻求传统或隐私优先的搜索体验。该趋势反映了 AI 搜索商业化进程中用户分化的潜在风险。PCGamer 报道指出，Google 的 AI 模式推广反而推动了竞争对手流量增长。这可能迫使搜索引擎公司在 AI 集成与用户体验之间寻找新平衡，隐私与无 AI 干扰成为部分用户的核心诉求。",
-    "tags": [
-      "News",
-      "Search",
-      "Market"
-    ],
-    "link": "https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/",
-    "date": "2026-05-27",
-    "id": "17799001463582"
-  },
-  {
-    "title": "AI 代理审计供应链攻击暴露面",
-    "summary": "新开源工具利用 AI 代理检测供应链安全风险。",
-    "detail": "开发者发布了一款新的 AI 代理技能，专门用于审计供应链攻击暴露面。该工具集成于 GitHub 生态，旨在自动化识别代码依赖中的潜在安全漏洞。随着 AI 生成代码增多，供应链安全成为焦点。此工具为开发者提供了自动化安全审计的新思路，属于 DevSecOps 领域的创新尝试。通过 AI 代理自动检查依赖项，可减少人工审计成本，提高响应速度。项目开源在 GitHub 上，展示了 AI 在网络安全防御层面的具体应用落地，适合关注软件供应链安全的技术团队。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://github.com/javaid-codes/audit-supply-chain-agents",
-    "date": "2026-05-27",
-    "id": "17799001463583"
-  },
-  {
-    "title": "OpenAI 与 Anthropic 就 AI 就业影响论战",
-    "summary": "两大巨头 CEO 对 AI 是否导致失业潮观点截然相反。",
-    "detail": "OpenAI CEO 山姆·阿尔特曼表示 AI 不太可能导致就业末日，承认此前预测过于悲观。而 Anthropic 联合创始人 Chris Olah 在梵蒂冈会议上坚持 AI 将大规模替代人类劳动。两大领军实验室观点分歧巨大，令政策制定者与企业难以抉择。近期科技大厂裁员潮加剧了这场关于 AI 经济影响的争论。Meta 裁员 8000 人却增加 AI 支出，显示行业转型阵痛。真相可能介于两者之间，但巨头间的宣传战增加了公众认知难度，影响行业长期规划与政策制定方向。",
-    "tags": [
-      "News",
-      "LLM",
-      "Jobs"
-    ],
-    "link": "https://www.axios.com/2026/05/27/ai-hype-doom-openai-anthropic",
-    "date": "2026-05-27",
-    "id": "17799001463584"
   }
 ]
