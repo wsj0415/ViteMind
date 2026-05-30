@@ -1,5 +1,70 @@
 [
   {
+    "title": "UC 圣地亚哥推出 AI 模型预测癌症治疗反应",
+    "summary": "新模型 MutationProjector 利用肿瘤 DNA 预测免疫疗法效果。",
+    "detail": "加州大学圣地亚哥分校研究人员开发了名为 MutationProjector 的 AI 模型，通过分析超过 30,000 个肿瘤的基因组数据，涵盖 10 种实体癌症类型，预测多种癌症对治疗的反应。该研究发表于《Cancer Discovery》，旨在将肿瘤突变与生物通路联系起来，解决基因测序后难以解读突变的问题。研究通过多个独立患者队列验证了该方法。这一突破有望使肿瘤 DNA 测试更具临床操作性，为个性化癌症治疗提供新框架，验证了 AI 在精准医疗领域的巨大潜力，帮助医生更好解读复杂基因图谱。",
+    "tags": [
+      "News",
+      "Healthcare",
+      "LLM"
+    ],
+    "link": "https://today.ucsd.edu/story/ai-model-links-tumor-mutations-to-treatment-response",
+    "date": "2026-05-30",
+    "id": "17801749881040"
+  },
+  {
+    "title": "神秘公司单月误花 5 亿美元使用 Claude AI",
+    "summary": "某公司因未设使用限制，单月 Claude 账单高达 5 亿美元。",
+    "detail": "据报道，一家神秘公司因未能对员工许可证设置使用限制，导致在一个月内意外花费了 5 亿美元用于 Claude AI 服务。这一极端事件突显了企业级 AI 部署中的成本管控风险及权限管理漏洞。虽然具体公司名称未披露，但该事件引发了行业对 AI 代理自动消费能力及企业 IT 治理的严重关注。对于正在集成大模型的企业而言，建立严格的用量监控、预算预警机制及员工使用规范变得至关重要，以避免类似的财务失控，确保 AI 投资回报可控。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Cost"
+    ],
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mystery-company-accidentally-blew-usd500-million-on-claude-in-a-single-month-failed-to-put-usage-limit-on-licenses-for-employees",
+    "date": "2026-05-30",
+    "id": "17801749881041"
+  },
+  {
+    "title": "Google AI 搜索再现幻觉：混淆鱼类与星期",
+    "summary": "Google AI 搜索无法正确回答星期中是否包含鱼的基本问题。",
+    "detail": "Google 的 AI 搜索功能再次出现可靠性问题，被发现在回答“一周中有几天包含鱼”这一基本问题时产生幻觉。尽管 Google 在 I/O 大会上推动了 AI 交互体验，但算法仍会给出荒谬答案，如暗示存在 Saturfish。此前 2024 年曾出现推荐披萨涂胶水等事件。这表明尽管投入巨大，生成式 AI 在事实准确性上仍面临挑战，用户需警惕 AI 搜索结果的真实性。Google 仍需优化其底层算法以减少此类低级错误，恢复用户信任，否则可能影响其 AI 搜索战略的长期推广。",
+    "tags": [
+      "News",
+      "Search",
+      "Hallucination"
+    ],
+    "link": "https://opus.ing/p/google-ai-really-confused-about-fish-days-week",
+    "date": "2026-05-30",
+    "id": "17801749881042"
+  },
+  {
+    "title": "自托管个人 AI 助手 Frona 更新 v2026.5.5",
+    "summary": "Frona 发布新版本，强化身份统一与任务调度 robustness。",
+    "detail": "自托管个人 AI 助手 Frona 发布 v2026.5.5 版本，重点在于身份统一和任务调度稳健性。更新引入了 Handle 新类型以统一管理用户、Agent 及应用实体，所有存储路径现基于 handle keyed。任务现在需要 result_schema 以驱动 cron 结果显示，并修复了 CronRun 崩溃恢复竞争条件。支持 Slack、Discord、Telegram 等多种渠道。此次更新优化了底层 Cedar 策略决策缓存及沙盒限制，为开发者提供了更稳定的本地 AI 代理部署方案，适合注重隐私及数据主权的高级个人用户与开发者。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Agent"
+    ],
+    "link": "https://github.com/fronalabs/frona/releases/tag/v2026.5.5",
+    "date": "2026-05-30",
+    "id": "17801749881043"
+  },
+  {
+    "title": "游戏开发者视角：AI 技术的代价与伦理",
+    "summary": "开发者撰文批评 AI 公司非法 harvesting 数据及贬低艺术价值。",
+    "detail": "游戏开发者 Alex Tardif 撰文指出 AI 技术的代价远超其价值，批评 AI 公司非法且不合伦理地 harvesting 全球数据。他认为生成式 AI 贬低了艺术创作，使经验与毅力不再重要，导致行业出现成瘾循环和掠夺性模式。文章反映了部分创作者对 AI 侵蚀艺术价值的担忧，强调技术不应以牺牲人类创造力为代价。这对 AI 行业提出了伦理挑战，提示需关注版权保护及创作者权益，平衡技术进步与人文关怀，否则可能引发更强烈的行业抵制与法律纠纷。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Gaming"
+    ],
+    "link": "https://alextardif.com/AI.html",
+    "date": "2026-05-30",
+    "id": "17801749881044"
+  },
+  {
     "title": "软银承诺 750 亿欧元建设欧洲最大 AI 设施",
     "summary": "软银将在法国投资 750 亿欧元，打造欧洲最大 AI 基础设施。",
     "detail": "软银承诺投入 750 亿欧元在法国建设欧洲最大的 AI 设施。这一重大投资标志着欧洲试图在全球 AI 竞赛中占据更重要地位，对抗美中算力垄断。对于行业而言，这意味着算力基础设施将成为 next big thing，资本正从模型层转向基础设施层，可能缓解欧洲算力短缺问题，并吸引全球 AI 企业落户。此举也将带动当地就业与能源配套升级，是 2026 年 AI 基础设施领域最大单笔投资之一，显示主权资本对 AI 战略价值的认可，可能引发其他国家跟进投资。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/JaiCode08/teleport-env",
     "date": "2026-05-28",
     "id": "17799397786683"
-  },
-  {
-    "title": "后 AI 时代软件工作的两大支柱理论框架",
-    "summary": "论文提出后 AI 软件工作的两大支柱：Mixer Mode 和 Meta-Software，重构软件开发流程。",
-    "detail": "该论文提出生成式 AI 消除了代码编写约束，软件工作将转向两大支柱：Mixer Mode（人类持续操作多个判断轴）和 Meta-Software（用于观察和治理其他软件的软件）。这为理解后 AI 时代的组织变革提供了理论框架，暗示未来开发者将更像工程师而非 coder，重点关注系统治理与流程控制。理论指出两者不可分割，为企业管理 AI 转型提供了战略参考，预示软件生产将从手工作坊转向统计控制的大规模生产模式。这是目前对后 AI 软件工程最系统的概念性综合之一。",
-    "tags": [
-      "Dev",
-      "Theory",
-      "Research"
-    ],
-    "link": "https://zenodo.org/records/20371166",
-    "date": "2026-05-28",
-    "id": "17799397786684"
-  },
-  {
-    "title": "南非 AI 政策草案被视为非洲测试案例",
-    "summary": "IEEE 分析南非 AI 政策杠杆，指出其草案尚未充分利用潜在影响力。",
-    "detail": "IEEE Spectrum 报道，南非的 AI 政策草案被视为整个非洲大陆的测试案例。尽管南非拥有 AI 杠杆，但当前草案尚未充分利用其影响力来规范行业发展或保护生态系统。该政策动向关乎非洲在全球 AI 治理中的话语权，以及对数据主权和本地化发展的潜在影响。分析指出，若能有效利用政策杠杆，南非可成为对抗 AI 帝国资源集中化的关键力量，值得全球政策制定者关注。",
-    "tags": [
-      "News",
-      "Policy",
-      "Africa"
-    ],
-    "link": "https://spectrum.ieee.org/south-africa-ai-policy",
-    "date": "2026-05-27",
-    "id": "17800689909154"
-  },
-  {
-    "title": "美光市值突破万亿，HBM 成 AI 代理关键基础设施",
-    "summary": "美光与 SK 海力士市值破万亿，HBM 需求驱动股价飙升。",
-    "detail": "美光科技市值突破 1 万亿美元，与 SK 海力士同为纯内存芯片制造商进入万亿俱乐部。驱动因素是代理 AI 工作负载对高带宽内存（HBM）的刚性需求。UBS 将目标价 tripled，指出超大规模厂商签订长期供应协议。这表明内存已从商品转变为 AI 栈的关键基础设施，采购策略需向能源或算力规划看齐。随着 AI 系统从单次推理转向多步自主任务，内存带宽成为绑定约束。hyperscalers 正在签订长期协议以锁定供应，部分固定价格 tied to AI workload expansion。美光股价年初至今已翻三倍多。这对 AI 创始人意味着芯片采购现在需要与能源或算力容量规划相同的长期视野，基础设施预算规划逻辑发生根本性变化。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Market"
-    ],
-    "link": "https://aiweekly.co/alerts/micron-hits-1-trillion-on-ai-memory-boom",
-    "date": "2026-05-27",
-    "id": "17799936570332"
-  },
-  {
-    "title": "英伟达宣布每年在台投资 1500 亿美元",
-    "summary": "黄仁勋称台湾是 AI 革命中心，将大幅扩大投资。",
-    "detail": "英伟达 CEO 黄仁勋称台湾是 AI 革命的“震中”，公司计划每年在台湾投资 1500 亿美元。此举凸显了台湾在全球 AI 硬件供应链中的核心地位。随着 AI 算力需求爆发，芯片制造与封装技术的稳定性成为关键。该投资将巩固台积电与英伟达的合作，确保下一代 GPU 产能，同时缓解地缘政治带来的供应链风险。业界认为这是对未来 AI 基础设施的最重大承诺之一，可能改变半导体制造格局，加速 AI 硬件迭代速度，并影响全球科技股走向。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Supply Chain"
-    ],
-    "link": "https://www.reuters.com/world/asia-pacific/nvidia-ceo-says-taiwan-is-epicentre-of-ai-revolution-2026-05-27/",
-    "date": "2026-05-27",
-    "id": "17799240603750"
-  },
-  {
-    "title": "中国加强对顶尖 AI 人才的出境限制",
-    "summary": "为防止人才流失，中国对 AI 研究人员实施旅行管制。",
-    "detail": "据报道，中国正加强对顶尖 AI 研究人员、初创创始人的出境限制，需政府批准方可出国。此举旨在防止 AI 人才流失，特别是在 Meta 收购 Manus 等交易背景下。北京将 AI 视为国家安全优先事项，限制措施反映了对技术主权保护的升级。此前已有建议避免赴美，现在限制 intensified。这可能影响全球 AI 合作格局，加剧人才争夺战，显示 AI 已成为大国博弈核心。私人 firm 高管也受影响，显示管控范围扩大，可能阻碍国际学术交流与技术共享。",
-    "tags": [
-      "News",
-      "Geopolitics",
-      "Talent"
-    ],
-    "link": "https://techcrunch.com/2026/05/27/china-is-increasingly-keeping-its-best-ai-talent-to-itself/",
-    "date": "2026-05-27",
-    "id": "17799240603751"
   }
 ]
