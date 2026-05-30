@@ -1,5 +1,70 @@
 [
   {
+    "title": "SpaceX 自研 C 语言 AI 训练栈，性能提升十倍",
+    "summary": "马斯克透露 SpaceX 已完成自研 AI 训练栈 v1.0，基于 C 语言。",
+    "detail": "马斯克宣布 SpaceX 即将完成内部 AI 训练栈 v1.0 开发，采用 C 语言编写，直接映射 220k GB300s 硬件与 800G NICs。相比 JAX，大型训练运行速度提升超一个数量级。下一步将开发推理栈以支持高速 RL。该栈将用于 Grok v5 训练。此举显示硬件底层优化仍是提升 AI 算力的关键路径，旨在招募底层性能优化人才。这标志着大厂开始深入底层栈定制以突破现有框架瓶颈，减少对通用框架如 JAX 的依赖，可能成为未来大模型训练竞争的新壁垒。",
+    "tags": [
+      "News",
+      "SpaceX",
+      "LLM"
+    ],
+    "link": "https://xcancel.com/elonmusk/status/2059884150187053488",
+    "date": "2026-05-30",
+    "id": "17801120375580"
+  },
+  {
+    "title": "PingCAP 发布 mem9：AI Agent 持久化记忆工程实践",
+    "summary": "PingCAP 分享构建 mem9 产品的经验，解决 Agent 记忆难题。",
+    "detail": "PingCAP 团队分享了构建 mem9 Agent 记忆产品的核心经验。项目源于客户需求，强调记忆不仅是存储问题，更是摄入、排序与评估的工程挑战。mem9 基于 TiDB Cloud，提供可视化的记忆 inspect 与修正功能。文章指出单一记忆 API 不足以构成产品，用户需要信任并校正 Agent 的记忆内容。这为生产环境下的 Agent 记忆架构提供了宝贵参考，展示了从原型到平台的压缩式创业历程。团队在没有重型架构评审的情况下快速 shipped 原型，核心问题是如何在不让 Agent overwhelmed 的情况下记住重要事项，这种用户驱动的开发模式值得 AI 初创团队借鉴。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Database"
+    ],
+    "link": "https://www.pingcap.com/blog/how-we-built-mem9-agent-memory-product/",
+    "date": "2026-05-30",
+    "id": "17801120375581"
+  },
+  {
+    "title": "AI 时代软件架构的变革：代码易改，数据难变",
+    "summary": "文章探讨 AI 降低代码修改成本后，软件架构边界的变化。",
+    "detail": "文章指出 AI 大幅降低了代码级决策的逆转成本，传统软件架构定义正在重塑。代码修改从数月缩短至数天，架构边界向数据、服务边界及用户信任转移。可观测性（Observability）在特征交付加速背景下变得更为关键。开发者需重新审视架构重点，从代码实现转向难以变更的数据结构与业务逻辑。这意味着架构师的角色将从代码守门人转变为数据与信任边界的设计者，以适应 AI 驱动的快速迭代节奏。引用《Building Evolutionary Architectures》定义，架构是难以改变的部分。当 AI 使代码变更成本下降一个数量级，协调成本和认知负荷成为新瓶颈，要求团队加强对核心数据模型和服务接口的治理，防止技术债务以新的形式积累。",
+    "tags": [
+      "Dev",
+      "Architecture",
+      "AI"
+    ],
+    "link": "https://brianguthrie.com/p/software-architecture-after-ai/",
+    "date": "2026-05-30",
+    "id": "17801120375582"
+  },
+  {
+    "title": "企业预算新博弈：AI Token 成本与人力成本权衡",
+    "summary": "CNBC 视频探讨 AI Token 成本如何重塑企业预算结构。",
+    "detail": "CNBC 视频分析了 AI adoption 中 Token 成本与人力成本的新的权衡关系。随着企业大规模部署 AI，Token 消耗成为预算关键变量。视频探讨了在何种场景下使用 AI 更具成本效益，以及这种成本结构变化如何影响企业 hiring 策略与运营预算。这标志着 AI 经济模型正从实验阶段进入实质性财务影响阶段，CFO 需重新评估技术投资回报率。视频获得上万观看，显示企业界对 AI 运营成本的高度关注，预算分配将更精细化。这种 trade-off 正在重塑企业 IT 预算，传统的软件许可费用正逐渐被按量付费的 Token 成本取代。管理者需要在新的人力效率提升与持续的 API 支出之间找到平衡点，这可能引发新一轮的组织结构优化和成本控制策略调整，影响未来几年的企业技术采购决策。",
+    "tags": [
+      "News",
+      "Business",
+      "Cost"
+    ],
+    "link": "https://www.youtube.com/watch?v=niBP4qhNSWw",
+    "date": "2026-05-30",
+    "id": "17801120375583"
+  },
+  {
+    "title": "Avai：开源 AI 主机安全遥测与威胁判断工具",
+    "summary": "开源项目 Avai 结合 LLM 与主机遥测数据提供安全威胁判断。",
+    "detail": "Avai 是一款开源主机安全工具，支持 macOS/Linux。通过收集进程、USB、文件完整性等 26 个角落的遥测数据，结合 17 个威胁情报源，利用 Claude 级 LLM 进行威胁判断。仅需一条 Docker 命令即可部署，提供单页 Web 仪表盘。该项目展示了 LLM 在安全运营中的实际应用，为开发者提供了本地化 AI 安全监控的新选择。适合关注主机安全的团队快速搭建智能威胁检测系统，降低安全运营门槛。项目集成 VirusTotal、MalwareBazaar 等权威情报源，确保判断准确性。通过单一 Docker 运行简化了部署流程，解决了传统安全工具配置复杂的问题。这反映了 AI 安全工具正朝着轻量化、智能化方向发展，让中小团队也能具备企业级的安全遥测与威胁响应能力，是 DevSecOps 领域的新尝试。",
+    "tags": [
+      "New",
+      "Security",
+      "OpenSource"
+    ],
+    "link": "https://github.com/iklobato/avai",
+    "date": "2026-05-30",
+    "id": "17801120375584"
+  },
+  {
     "title": "非程序员 21 天用 7 个 AI Agent 构建人才市场",
     "summary": "非技术创始人利用 AI Agent 团队，21 天花费 5000 美元完成复杂 marketplace 开发。",
     "detail": "**背景**：Bearhug Network 创始人无编程背景，通过管理 7 个 coding agents 协同工作。**核心**：21 天内生成超 7.5 万行生产代码，总投入约 5000 美元。**影响**：展示了 AI Agent 在无代码背景下的落地能力，标志着 AI 驱动创业门槛大幅降低。非技术创始人可通过管理 Agent 团队实现复杂产品开发，为 AI 原生创业提供新范式，证明多 Agent 协作已具备实际工程价值。",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/",
     "date": "2026-05-27",
     "id": "17798867021950"
-  },
-  {
-    "title": "CoreTex：开源类 Unix 生物模拟 AI Harness",
-    "summary": "开源项目 CoreTex 发布，打造类 Unix 生物模拟扁平文件 AI 控制平面。",
-    "detail": "CoreTex 是一个开源的、受 Unix 启发的生物模拟 AI 控制平面和知识引擎。该项目采用扁平文件架构，支持 Python 3.12+，强调安全性，支持沙箱、Deno、WASM 或 Docker 环境。其核心设计理念是 biomimetic（生物模拟）多代理架构，旨在为 AI 代理提供类似操作系统的控制层。作为 Show HN 热门项目，它为开发者提供了一种新的本地优先的 AI 代理部署与管理方案。其 biomimetic 架构试图模拟生物系统的适应性，适合需要高度可控性和安全性的 AI 应用场景，为构建复杂的代理控制系统提供了底层基础设施参考，展示了代理架构的新方向。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "AI Agents"
-    ],
-    "link": "https://github.com/mrdanielcasper/CoreTex",
-    "date": "2026-05-27",
-    "id": "17798867021951"
-  },
-  {
-    "title": "构建可信 AI 代理的评估飞轮机制",
-    "summary": "SwirlAI 提出代理系统生命周期理论，强调通过生产反馈构建评估集。",
-    "detail": "文章探讨了 Agentic AI 系统的生命周期，指出初始评估集无法覆盖所有生产失败模式。核心观点是建立“飞轮”机制：将流量转化为评估集，将漂移转化为信号，将意外错误转化为回归测试。作者强调了从 trace 分析到修复问题的完整工程闭环，并提供相关 workshop 演示如何现场捕获并修复代理失败。这对 AI 工程师具有重要指导意义，表明生产环境反馈是优化代理可靠性的关键，而非仅靠前期测试。该方法论有助于解决代理系统在规模化应用中面临的稳定性挑战，推动 AI 工程化成熟，提升系统鲁棒性。",
-    "tags": [
-      "Dev",
-      "LLM Ops",
-      "Best Practices"
-    ],
-    "link": "https://www.newsletter.swirlai.com/p/agentic-ai-flywheels",
-    "date": "2026-05-27",
-    "id": "17798867021952"
-  },
-  {
-    "title": "Unspaghettit：AI 编码代理的可执行规范工具",
-    "summary": "新工具 Unspaghettit 通过可执行规范解决 AI 开发中的提示词混乱问题。",
-    "detail": "Unspaghettit 是一个开源项目，旨在为 AI 辅助软件开发提供可执行的规范。它解决了人类与 LLM 之间缺乏稳定产品模型导致的需求漂移和提示词混乱（prompt spaghetti）问题。该工具本地优先且 MCP 原生，采用 AGPL-3.0 许可，支持 Node ≥ 20.10。它允许代理读取和更新机器可检查的软件设计文档。这使得 AI 生成的系统能保持 coherence，确保开发结果符合预期，是 AI 编程领域的重要基础设施更新。通过标准化行为规范，它降低了维护成本，提升了人机协作开发效率，为复杂软件开发提供新范式。",
-    "tags": [
-      "New",
-      "DevTools",
-      "MCP"
-    ],
-    "link": "https://github.com/lyriks-io/unspaghettit",
-    "date": "2026-05-27",
-    "id": "17798867021953"
-  },
-  {
-    "title": "Jqwik 新版隐藏提示词注入风险曝光",
-    "summary": "Jqwik 1.10.0 被发现包含针对 AI 代理的隐藏提示词注入漏洞。",
-    "detail": "测试框架 Jqwik 最新版本引发严重安全担忧。GitHub 社区 issue 显示，其 `printMessageForCodingAgents()` 方法包含对人类不可见但对 AI 代理可见的隐藏指令，潜在风险是诱导代理删除代码。这揭示了软件供应链中针对 AI 开发者的新型提示词注入攻击向量。事件提醒工程团队需严格审查依赖库中的代理交互逻辑，确保开发环境免受隐蔽指令干扰，保障代码库完整性。随着 AI 编码助手普及，此类针对代理的对抗性攻击可能成为新常态，开发者需提高警惕，建立相应的安全审计流程以防范此类隐性威胁。",
-    "tags": [
-      "News",
-      "Security",
-      "AI Agents"
-    ],
-    "link": "https://github.com/jqwik-team/jqwik/issues/708",
-    "date": "2026-05-27",
-    "id": "17798756257730"
-  },
-  {
-    "title": "Sotto：macOS 隐形 AI 面试辅助工具",
-    "summary": "专为工程师设计的隐形面试助手，支持实时转录与屏幕捕捉排除。",
-    "detail": "Sotto 是一款面向 macOS 用户的 AI 面试 copilot，专为工程师设计。核心功能包括系统级屏幕捕捉排除（Zoom 等会议软件不可见）、实时转录及多语言代码支持。它旨在缓解面试压力，提供问题拆解与思路提示，而非直接代答。该产品引发了关于面试诚信与 AI 辅助边界的激烈讨论。其隐形 Overlay 技术确保录制不可见，但用户需自行评估合规风险。适合寻求技术面试支持并希望保持自然表现的开发者使用。技术实现上利用了 macOS 的窗口排除 API，实现了真正的视觉隐身。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Interview"
-    ],
-    "link": "https://getsotto.ai/",
-    "date": "2026-05-27",
-    "id": "17798756257731"
   }
 ]
