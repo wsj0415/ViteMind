@@ -1,5 +1,44 @@
 [
   {
+    "title": "Overslash：AI Agent 统一认证与权限网关",
+    "summary": "为 AI Agent 提供统一的认证、 secrets 管理及人类审批网关。",
+    "detail": "Overslash 是一款专为 AI Agent 设计的认证网关，旨在解决 Agent 与外部服务交互时的安全问题。它集中管理 OAuth、Secrets 及 MCP 协议，支持人类审批流程（Human-in-the-loop），确保 Agent 不会直接持有敏感密钥。通过权限链和审计日志，开发者可严格控制 Agent 的操作范围，防止越权行为，是构建企业级 Agent 基础设施的重要工具。",
+    "tags": [
+      "New",
+      "Agent",
+      "Security"
+    ],
+    "link": "https://www.overslash.com/",
+    "date": "2026-05-31",
+    "id": "17802253750030"
+  },
+  {
+    "title": "Agent Deck：macOS 原生 AI 编码助手管理工具",
+    "summary": "原生 Mac 应用，支持并行管理多个 AI 编码 Agent 会话。",
+    "detail": "Agent Deck 是一款基于 CLI 构建的 macOS 原生应用，专为管理 AI 编码 Agent 设计。它支持为不同项目构建专属 Agent，允许并行运行隔离的会话工作树，并能直接从 GitHub Issue 启动任务。工具提供彩色转录日志、技能库管理及自动合并功能，解决了终端管理多个 Agent 会话的混乱问题，提升了开发者使用 AI 编程助手的效率与体验。",
+    "tags": [
+      "New",
+      "DevTool",
+      "Coding"
+    ],
+    "link": "https://agentdeck.site/",
+    "date": "2026-05-31",
+    "id": "17802253750032"
+  },
+  {
+    "title": "基于 mitmproxy 的 AI Agent 出口防火墙",
+    "summary": "限制 AI Agent 和外联 malware 的访问权限，防止数据泄露。",
+    "detail": "mitmwall 是一款基于 mitmproxy 和 iptables 的出口 Web 应用防火墙（WAF），专为 Ubuntu 设计。它通过白名单机制限制 HTTP(s) 路由，防止被篡改的 npm 包或 rogue AI Agent 窃取凭证和源代码。该工具能实时监控代理流量，阻断恶意回连命令，为本地开发环境中的 AI Agent 提供了必要的网络边界安全保护，防止数据外泄。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Infrastructure"
+    ],
+    "link": "https://github.com/esamattis/mitmwall",
+    "date": "2026-05-31",
+    "id": "17802253750033"
+  },
+  {
     "title": "AI 暗输出：宏观经济未能捕捉的真实价值",
     "summary": "宏观经济数据难以捕捉 AI 生产力，存在“暗输出”现象。",
     "detail": "文章指出当前宏观经济数据无法准确反映 AI 产生的价值，类似于 80 年代计算机革命初期的“索洛悖论”。尽管科技巨头市值飙升，但官方统计未能捕捉 AI 在服务业的生产力增长，被称为“暗输出”。美联储主席承认数据滞后，若仅看历史数据将导致政策误判。这可能使市场低估非通胀增长潜力，进而影响资本市场监管方向及政府对 AI 成本的审视。建议投资者关注未被统计捕捉的真实价值增长，警惕宏观数据与微观感受的背离，理解 AI 对 GDP 核算的深层挑战。",
@@ -141,6 +180,19 @@
     "link": "https://www.axios.com/2026/05/30/no-screen-school-technology-parents-ai",
     "date": "2026-05-31",
     "id": "17802048273394"
+  },
+  {
+    "title": "俄罗斯启用一战迷彩对抗乌克兰 AI 无人机",
+    "summary": "俄军 revive 一战 dazzle 迷彩，试图 evade 乌军 AI 视觉识别。",
+    "detail": "据报道，俄罗斯军队重新启用了一战时期的“ dazzle”迷彩涂装，旨在干扰乌克兰 AI 无人机的视觉识别系统。这种战术试图通过几何图案混淆 AI 的目标检测算法，降低无人机攻击精度。该事件展示了 AI 在军事领域的实际应用及其面临的物理对抗挑战，反映了计算机视觉技术在复杂战场环境下的局限性与反制措施的演变。",
+    "tags": [
+      "News",
+      "Computer Vision",
+      "Defense"
+    ],
+    "link": "https://united24media.com/war-in-ukraine/russia-revives-wwi-dazzle-camouflage-to-evade-ukrainian-ai-drones-does-it-work-19334",
+    "date": "2026-05-30",
+    "id": "17802253750034"
   },
   {
     "title": "传统巨头加速 AI 落地：Dell、Snowflake 与福特案例",
@@ -674,6 +726,19 @@
     "link": "https://github.com/iklobato/avai",
     "date": "2026-05-30",
     "id": "17801120375584"
+  },
+  {
+    "title": "Flathub 社区禁止 AI 生成代码应用提交",
+    "summary": "因担忧 AI 代码质量与维护问题，Flathub 禁止相关应用提交。",
+    "detail": "Flathub 社区近期决定禁止 AI 生成代码的应用提交。社区成员指出，大量低质量的 AI 生成代码（AI-slop）涌入提交列表，严重增加了志愿者审查负担。这一政策反映了开源社区对 AI 生成代码可维护性及真实性的担忧，标志着社区开始对 AI 辅助开发的内容质量设立明确边界，可能影响未来开源软件的提交规范。",
+    "tags": [
+      "News",
+      "Open Source",
+      "Policy"
+    ],
+    "link": "https://social.treehouse.systems/@barthalion/116657011366876079",
+    "date": "2026-05-29",
+    "id": "17802253750031"
   },
   {
     "title": "美国司法界拟新规遏制 AI 生成虚假案例引用",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/hexo-ai/sia",
     "date": "2026-05-28",
     "id": "17799936570333"
-  },
-  {
-    "title": "规范驱动的 AI 软件开发技能库开源",
-    "summary": "提供可复用 AI 代理技能，确保业务意图与实现一致。",
-    "detail": "GitHub 项目 `skills` 开源了一套规范驱动的 AI 开发技能库。遵循 Anthropic 代理技能最佳实践，旨在通过规范优先（spec-first）方法，保持自主 AI 代理从业务意图到实施 review 的一致性。包含 spec-architect 等技能，防止实现过程中的歧义或漂移，适合需要高可靠性 AI 软件工程团队参考。每个技能生活在自己的子目录下，遵循特定的文档模式。这种方法解决了自主代理常见的发明、接口不匹配或 drift 问题。对于构建复杂 AI 软件的团队，这是一种确保业务意图准确转化为代码实现的有效工程实践，有助于维护大型 AI 代码库的长期稳定性和可维护性，减少幻觉带来的错误。",
-    "tags": [
-      "Dev",
-      "SoftwareEngineering",
-      "Agent"
-    ],
-    "link": "https://github.com/sebastianwessel/skills",
-    "date": "2026-05-28",
-    "id": "17799936570334"
-  },
-  {
-    "title": "Anthropic 与 SpaceX 算力租约期限引争议",
-    "summary": "马斯克称 xAI 与 Anthropic 算力合作为短期，文件显示至 2029 年。",
-    "detail": "Elon Musk 公开将 xAI 与 Anthropic 的算力合作重新定义为短期且可取消，但 SpaceX 的 S-1 文件显示付款将持续至 2029 年 5 月。这一争议揭示了 AI 基础设施租赁背后的复杂性，可能影响投资者对算力稳定性的判断。对于依赖大规模算力训练的 AI 公司而言，长期租约的稳定性至关重要，此次分歧可能引发行业对算力供应链透明度的关注。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Investment"
-    ],
-    "link": "https://techcrunch.com/2026/05/28/how-long-is-anthropics-lease-with-spacex-opinions-vary/",
-    "date": "2026-05-28",
-    "id": "17799839159700"
-  },
-  {
-    "title": "Oculus 创始人新创 Sesame 推出 iOS 应用",
-    "summary": "对话式 AI 代理应用上线，旨在提供更自然的人际交互体验。",
-    "detail": "由 Oculus 创始人创立的对话式 AI 初创公司 Sesame 正式发布 iOS 应用。该产品主打更自然的来回交互，设计初衷是减少传统聊天机器人的机械感，更像与人交谈。这标志着消费级 AI 代理正从单纯的任务执行向情感化、自然语言交互演进，竞争焦点逐渐转向用户体验与交互流畅度，为移动端 AI 助手树立新标杆。",
-    "tags": [
-      "New",
-      "Consumer AI",
-      "iOS"
-    ],
-    "link": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
-    "date": "2026-05-28",
-    "id": "17799839159701"
-  },
-  {
-    "title": "企业 AI 评估指标应从 Token 转向工作流",
-    "summary": "指出$/token 指标不适用于企业 AI 应用，提倡$/workflow 新标准。",
-    "detail": "Canyon Code 发文指出，$/token 并非企业 AI 应用的正确 metric，工作流才是生产力单位。企业应关注$/workflow，即每个端到端代理流程的成本，而非单纯聚合 token 消耗。这一观点直击企业 AI 落地痛点，帮助管理者识别高价值工作流，优化基础设施浪费。对于正在规模化部署 AI 代理的企业，转变评估维度是提升投资回报率的关键步骤。",
-    "tags": [
-      "Dev",
-      "Enterprise",
-      "Metrics"
-    ],
-    "link": "https://canyoncode.ai/blog/beyond-per-token",
-    "date": "2026-05-28",
-    "id": "17799839159702"
-  },
-  {
-    "title": "顶级律所 Kirkland & Ellis 投 5 亿建 AI 平台",
-    "summary": "营收最高律所拨款 5 亿美元，计划构建自有 AI 技术平台。",
-    "detail": "全球营收最高的律师事务所 Kirkland & Ellis 预留 5 亿美元用于创建自有 AI 平台。此举显示传统专业服务行业正加速拥抱 AI 技术，试图通过自研平台巩固竞争优势。法律行业对数据隐私和准确性要求极高，自建平台有助于控制数据主权。这预示着垂直行业大模型应用将成为下一波投资热点，专业服务领域将迎来深度智能化改造。",
-    "tags": [
-      "News",
-      "Legal Tech",
-      "Investment"
-    ],
-    "link": "https://www.ft.com/content/1825bb59-7b28-460d-b009-ee3cea5dbac3",
-    "date": "2026-05-28",
-    "id": "17799839159703"
   }
 ]
