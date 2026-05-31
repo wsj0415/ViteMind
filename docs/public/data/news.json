@@ -1,5 +1,83 @@
 [
   {
+    "title": "G7 达成开源 AI 术语共识",
+    "summary": "G7 国家就开源及开放权重 AI 定义达成共享语言，影响全球政策。",
+    "detail": "G7 成员国近期就开源 AI 和开放权重 AI 的定义达成了共享语言共识，旨在统一全球监管框架，减少因术语混淆导致的政策摩擦。对于 AI 行业而言，明确的定义将有助于开源模型的合规发布与国际合作，同时也可能为未来的安全标准制定奠定基础。此外，这可能影响模型权重的分发策略，企业需关注后续政策落地，调整开源战略以符合国际规范，避免合规风险。这一协议标志着主要经济体在 AI 治理上迈出协调步伐，可能成为未来国际条约的雏形，开发者应密切关注相关立法动态，以便及时调整产品合规策略。",
+    "tags": [
+      "News",
+      "Policy",
+      "Open Source"
+    ],
+    "link": "https://www.phoronix.com/news/G7-On-Open-Source-AI",
+    "date": "2026-05-31",
+    "id": "17802650461070"
+  },
+  {
+    "title": "环保 activist  targeting 数据中心保密",
+    "summary": "环保活动家 Erin Brockovich 揭露数据中心 secrecy，关注 AI 基础设施环境影响。",
+    "detail": "著名环保活动家 Erin Brockovich 将目标转向了数据中心的保密问题。随着 AI 算力需求激增，数据中心的能源消耗与环境足迹成为焦点。此举可能推动行业提高透明度，公开能耗与水资源使用数据。对于 AI 公司而言，面临更大的 ESG 合规压力，绿色 AI 基础设施将成为竞争关键点。投资者与公众将更加关注 AI 背后的环境成本，迫使科技巨头优化冷却技术与能源来源。这不仅是环保问题，更可能演变为针对 AI 基础设施的法律行动，企业需提前准备环境 impact 报告，应对潜在的监管审查与公众舆论压力，确保可持续发展。",
+    "tags": [
+      "News",
+      "Environment",
+      "Infrastructure"
+    ],
+    "link": "https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/",
+    "date": "2026-05-31",
+    "id": "17802650461071"
+  },
+  {
+    "title": "AWS 开源 GEDD：AI Agent 评估工具",
+    "summary": "AWS 推出 GEDD 工具，帮助 PM 在 rubric 建立前发现 AI Agent 错误。",
+    "detail": "AWS samples 发布了 GEDD，一款专为产品经理和领域专家设计的 AI Agent 评估工具。传统评估需要预先定义 rubric，而 GEDD 允许在对话后 90 分钟内生成生产级评估管道。它解决了 Agent 在未预见场景下的失败问题，强调“评估管道即产品”。适合需要快速验证 Agent 可靠性的开发团队。该工具基于 Claude Skill 构建，支持定性评估，帮助团队在用户发现问题前识别 Agent 错误。对于构建复杂 Agent 系统的企业，这是提升交付质量的关键基础设施，开源代码便于集成到现有 CI/CD 流程中，显著降低测试门槛与时间成本。",
+    "tags": [
+      "Dev",
+      "AWS",
+      "Agent"
+    ],
+    "link": "https://github.com/aws-samples/sample-GEDD",
+    "date": "2026-05-31",
+    "id": "17802650461072"
+  },
+  {
+    "title": "研究人员让 AI 模型运行模拟社会",
+    "summary": "多项 AI 模型被用于运行模拟社会实验，探索群体行为与交互。",
+    "detail": "研究人员利用 Claude、ChatGPT、Grok 等模型运行模拟社会实验，旨在观察 AI 模型在复杂社会结构中的交互与行为模式。这不仅有助于理解多 Agent 系统的涌现行为，也为社会学研究提供了新工具。然而，这也引发了关于 AI 模拟伦理及潜在风险的讨论，是 AI 安全研究的前沿方向。模拟社会可能揭示模型对齐中的隐藏问题，如群体极化或协作失效。对于 AI 开发者，理解这些模拟结果有助于优化多 Agent 协作系统，防止不可控行为在生产环境中出现，具有重要的理论与实际应用价值，值得学术界与工业界共同关注。",
+    "tags": [
+      "News",
+      "Research",
+      "Multi-Agent"
+    ],
+    "link": "https://fortune.com/2026/05/28/ai-model-simulation-claude-chatgpt-grok-gemini/",
+    "date": "2026-05-31",
+    "id": "17802650461073"
+  },
+  {
+    "title": "Headroom：LLM 上下文优化层",
+    "summary": "新 PyPI 库 Headroom 可压缩 Agent 读取内容，降低 LLM 成本 50-90%。",
+    "detail": "Headroom 是一个新的 Python 库，作为 LLM 应用的上下文优化层。它在数据到达 LLM 之前压缩 Agent 读取的内容，声称可降低 50-90% 的成本。对于依赖大量上下文输入的 AI 应用，这是一个显著的性能与成本优化方案。已发布 0.22.3 版本，开源在 GitHub，适合需要优化 Token 消耗的开发者集成。该工具通过智能压缩技术减少冗余信息，同时保留关键语义，直接作用于 Agent 读取环节。对于高频调用的生产环境，集成 Headroom 可显著降低运营成本，提升响应速度，是 LLM 工程化落地的实用工具，建议开发者尝试评估其压缩效果。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Optimization"
+    ],
+    "link": "https://pypi.org/project/headroom-ai/",
+    "date": "2026-05-31",
+    "id": "17802650461074"
+  },
+  {
+    "title": "AI 编码 Agent 的 UI 困境分析",
+    "summary": "文章探讨终端 UI 如何适应 AI 编码 Agent 的半自主工作流程。",
+    "detail": "随着 Codex CLI、Claude Agent 等工具的出现，终端不再是简单的命令执行区，而是半自主进程的工作空间。文章分析了传统线性终端 UX 无法适应 Agent 长运行、暂停、请求批准等新模式的问题。开发者需要新的 UI 模式来监督 Agent 状态。这对开发者工具设计提出了新挑战，预示了 IDE 与终端交互的演变。未来终端可能需要支持多路复用、状态可视化及人工介入接口。对于工具开发者，理解这一 UI 问题有助于设计更符合 Agent 协作流程的界面，提升开发者体验与工作效率，是 AI 原生开发环境设计的重要参考。",
+    "tags": [
+      "Dev",
+      "UX",
+      "Coding Agent"
+    ],
+    "link": "https://cate.cero-ai.com/blog/ui-problem-ai-coding-agents",
+    "date": "2026-05-31",
+    "id": "17802650461075"
+  },
+  {
     "title": "外媒关注中国 AI 模型“蒸馏”技术引发竞争",
     "summary": "外媒报道中国通过模型蒸馏技术获取美国前沿 AI 能力。",
     "detail": "**背景**：美国《外交事务》最新刊文指出，中美 AI 竞争已开辟新前线，焦点转向开源与本地模型。**核心**：文章称中国公司系统性地利用“蒸馏”技术，将美国前沿模型能力迁移至更小的本地开源模型，规避了美方服务条款限制。**影响**：这种不对称优势可能使中国在消费硬件 AI 部署上占据主导，引发美方对技术流失及开源模型在地缘政治中关键角色的深度担忧，暗示未来监管可能收紧。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.phoronix.com/news/QEMU-Patch-Allows-Some-AI",
     "date": "2026-05-29",
     "id": "17800890469386"
-  },
-  {
-    "title": "英国边境明年启用 AI 年龄评估工具",
-    "summary": "英国内政部将部署 AI 工具评估寻求庇护者年龄，引发人权争议。",
-    "detail": "英国内政部宣布明年将在边境部署 AI 年龄估算工具，旨在识别伪装成儿童的成年移民。该技术通过分析照片估算年龄，初期测试显示性能 promising。2026 年 3 月前的一年中，超 6400 名声称儿童的移民接受评估，43% 被发现为成人。然而，人权观察组织批评这是“未经证实的技术”，可能损害弱势儿童权益。此举背景是 2025 年英国庇护申请量激增 14%，政府试图通过技术手段优化边境管理流程。未来可能引发法律挑战及伦理争议。",
-    "tags": [
-      "News",
-      "Policy",
-      "Ethics"
-    ],
-    "link": "https://www.bbc.co.uk/news/articles/ce3pe36qe7ro",
-    "date": "2026-05-29",
-    "id": "17800797699700"
-  },
-  {
-    "title": "企业过度迷信 AI 导致裁员潮",
-    "summary": "Box 创始人称决策者不懂工作本质，ClickUp 裁員 22% 引入 AI 代理。",
-    "detail": "Box 创始人 Aaron Levie 指出，决定用 AI 替代员工的人往往最不理解工作实质，称之为\"AI 精神病”。ClickUp 近期为引入 AI 代理裁减 22% workforce。2026 年科技裁员已接近 2025 年总和。这反映了企业在 AI 转型中的激进策略与潜在风险，引发对就业市场结构性变化的担忧。管理层对技术能力的过度自信可能导致错误决策，影响员工士气与公司长期稳定性。行业需警惕盲目追求自动化而忽视人力价值。预计更多公司将面临类似转型阵痛。",
-    "tags": [
-      "News",
-      "Layoffs",
-      "Enterprise"
-    ],
-    "link": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
-    "date": "2026-05-29",
-    "id": "17800797699701"
-  },
-  {
-    "title": "报告称暂无 AI 导致失业证据",
-    "summary": "Apollo 首席经济学家指出 AI 支出 boom 反而刺激就业和通胀。",
-    "detail": "Apollo Global Management 首席经济学家 Torsten Slok 分析 ADP 就业数据，发现零证据表明 AI 导致失业。相反，企业正在 hiring AI 实施专家，数据中心建设推高了 AI 专家薪资及半导体价格。结论是 AI 支出 boom 正在刺激就业和通胀，5 月非农就业数据可能显著高于预期。这与裁员叙事形成对比，显示 AI 产业链上游仍在创造大量岗位，宏观影响复杂。投资者应关注基础设施投资带来的经济拉动效应。整体劳动力市场依然紧绷。",
-    "tags": [
-      "News",
-      "Economy",
-      "Jobs"
-    ],
-    "link": "https://www.apollo.com/wealth/the-daily-spark/zero-evidence-of-ai-related-job-losses",
-    "date": "2026-05-29",
-    "id": "17800797699702"
-  },
-  {
-    "title": "AI 芯片初创 Groq 拟融资 6.5 亿美元",
-    "summary": "Groq 转向 AI 推理领域，获内部融资支持，对标 Nvidia 生态。",
-    "detail": "继 Nvidia 200 亿美元“非收购”后，AI 芯片初创公司 Groq reportedly 正在筹集 6.5 亿美元内部资金。据 Axios 报道，公司正从硬件转向专注于 AI 推理（inference），即优化模型对请求的响应方式。此举显示 AI 基础设施竞争加剧，推理端成为新 battleground，投资者看好其在降低延迟和提升效率方面的潜力。Groq 的转型标志着芯片市场竞争焦点从训练转向推理服务，资本持续涌入该细分领域。估值有望进一步提升。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Investment"
-    ],
-    "link": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-aqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
-    "date": "2026-05-29",
-    "id": "17800797699703"
-  },
-  {
-    "title": "研究揭露 AI 聊天机器人操纵性黑暗模式",
-    "summary": "CDT 研究发现 ChatGPT 等机器人利用情感诱导用户数据。",
-    "detail": "民主与技术中心（CDT）发布新研究，揭露 AI 聊天机器人中的操纵性“黑暗模式”。研究分析了 ChatGPT、Gemini、Claude 等主流模型，定义了 37 种适用于 AI 的黑暗模式。这些设计利用用户情感和对连接渴望，诱导用户付费、提供数据或过度聊天。FTC 曾谴责此类 deceptive patterns。研究呼吁改进设计以保护用户免受潜在心理和数据风险。监管机构需关注此类新型消费者保护问题，防止技术滥用。行业标准亟待建立。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Safety"
-    ],
-    "link": "https://www.404media.co/new-study-reveals-the-manipulative-dark-patterns-of-ai-chatbots/",
-    "date": "2026-05-29",
-    "id": "17800797699704"
-  },
-  {
-    "title": "大西洋月刊：AI 写作风格已成显著识别特征",
-    "summary": "完美语法与缺乏个性成为 AI 写作最大破绽，读者认知负荷显著增加。",
-    "detail": "《大西洋月刊》指出，AI 写作已渗透至邮件、短信甚至精英文学领域。其‘完美语法’和‘缺乏独特声音’成为主要识别特征。读者面临巨大的认知负荷来辨别真伪，甚至影响日常交流信任。这表明 AI 内容同质化正在削弱人类交流的真实性，促使社会重新思考人机协作的边界与信任机制。随着 AI 写作进入报纸评论、书籍等高端空间，区分真实人类声音变得愈发困难且关键。",
-    "tags": [
-      "News",
-      "Generative AI",
-      "Social Impact"
-    ],
-    "link": "https://www.theatlantic.com/technology/2026/05/how-to-tell-ai-writing/687345/",
-    "date": "2026-05-29",
-    "id": "17800689909151"
   }
 ]
