@@ -1,5 +1,44 @@
 [
   {
+    "title": "164 款视觉生成 AI 应用精选清单更新",
+    "summary": "涵盖 11 个类别的生成式 AI 视觉工具列表，包括 ByteDance 和 Google 最新模型。",
+    "detail": "该清单整理了 164 款用于视觉创作的 AI 应用，涵盖图像、视频及 3D 模型生成。重点收录了 ByteDance 的 Seed 模型、Dreamina 以及 Google 的 Nano Banana 和 VEO 模型。为创作者提供了从基础模型到编辑工具的全方位选型参考，标注了 API 可用性及市场地位。列表将工具分为 11 个类别，并根据质量评级，帮助开发者快速识别全球市场领导者。对于需要集成视觉生成能力的产品团队，这是一份极具价值的资源地图，涵盖了从开源模型到商业 SaaS 的多种选择，便于评估技术栈。定期更新确保了信息的时效性，适合寻找特定视觉解决方案的团队参考。",
+    "tags": [
+      "New",
+      "Generative AI",
+      "Tools"
+    ],
+    "link": "https://gist.github.com/seinecle/689a53bceca96147a04e93bdc5f83940",
+    "date": "2026-05-31",
+    "id": "17802299769492"
+  },
+  {
+    "title": "实践指南：利用 IONOS 和 Nextcloud 部署主权 AI",
+    "summary": "教程展示如何在欧洲辖区内部署自动化文档智能系统，确保数据主权。",
+    "detail": "文章介绍了结合 IONOS AI Model Hub、Nextcloud 和 n8n 构建主权 AI 系统的方案。针对医疗、法律等合规敏感行业，该方案确保数据不出欧洲辖区，使用开源模型（如 Mistral）进行文档摘要自动化。为面临 GDPR 和 AI Act 合规压力的企业提供了隐私设计的实践路径。方案强调“隐私设计”核心概念，利用欧洲数据中心托管开源模型，避免数据跨境风险。通过 n8n 编排工作流，实现完全自动化的文档 intelligence 系统。这对于无法使用 US-based AI 提供商的组织来说是关键解决方案，展示了如何在保持主权的同时享受 AI 效率提升，具有广泛的行业推广价值。教程包含 6 分钟 walkthrough，便于技术团队快速落地实施。",
+    "tags": [
+      "Dev",
+      "Privacy",
+      "Deployment"
+    ],
+    "link": "https://blog.n8n.io/sovereign-ai-in-practice-automate-document-summarization-with-ionos-ai-model-hub-and-nextcloud/",
+    "date": "2026-05-31",
+    "id": "17802299769493"
+  },
+  {
+    "title": "NodeCartel：跨主机管理 AI 代理的免费云工具",
+    "summary": "支持多主机协作的 AI 代理管理平台，可统一调度本地及云端代理任务。",
+    "detail": "NodeCartel 是一款新推出的 AI 代理管理工具，允许用户在一个工作区管理分布在云 VM、树莓派或本地 laptop 上的多个 AI 代理。支持 Claude Code、Cursor 等多种代理接入，通过 WebSocket 实时协调任务。无需 Docker 即可部署，适合需要规模化调度 AI 劳动力的开发团队。用户可通过单一账户创建多个工作区，将主机注册到任意设备，实现跨地域协作。任务分配后，代理状态实时广播，支持类似 Slack 的聊天交互。这种架构降低了多代理系统的管理复杂度，为构建分布式 AI workforce 提供了轻量级基础设施，特别适合边缘计算场景。仅需两条命令即可启动主机守护进程，极大降低了使用门槛。",
+    "tags": [
+      "New",
+      "Agents",
+      "Management"
+    ],
+    "link": "https://nodecartel.com/",
+    "date": "2026-05-31",
+    "id": "17802299769494"
+  },
+  {
     "title": "Overslash：AI Agent 统一认证与权限网关",
     "summary": "为 AI Agent 提供统一的认证、 secrets 管理及人类审批网关。",
     "detail": "Overslash 是一款专为 AI Agent 设计的认证网关，旨在解决 Agent 与外部服务交互时的安全问题。它集中管理 OAuth、Secrets 及 MCP 协议，支持人类审批流程（Human-in-the-loop），确保 Agent 不会直接持有敏感密钥。通过权限链和审计日志，开发者可严格控制 Agent 的操作范围，防止越权行为，是构建企业级 Agent 基础设施的重要工具。",
@@ -1259,44 +1298,5 @@
     "link": "https://gregoryap.substack.com/p/if-there-is-an-ai-bubble-where-is",
     "date": "2026-05-28",
     "id": "17800026718194"
-  },
-  {
-    "title": "交易所竞相推出 AI 代币与 GPU 期货合约",
-    "summary": "上海期货交易所设计 AI 代币衍生品，CME 推 GPU 期货。",
-    "detail": "全球主要交易所正加速构建 AI 基础设施金融市场。路透社报道，上海期货交易所正设计 AI 代币衍生品市场，而 CME 集团与洲际交易所也分别宣布推出 GPU 租赁期货合约。当前 Nvidia H100 GPU 租赁中位价在 1.40 至 4.27 美元/小时之间波动。虽然 GPU 现货市场成熟，但代币作为当代 AI 模型的基本构建单元，其基础设施尚不完善。企业计划通常以代币计价，如 OpenAI 的输入输出 token 收费。这一金融化趋势标志着 AI 经济成熟度提升，未来企业需关注算力与代币成本的对冲策略，以应对价格波动风险。金融巨头涌入表明 AI 算力与代币将成为类似黄金石油的大宗商品，基础设施投资需纳入长期战略规划。",
-    "tags": [
-      "News",
-      "Finance",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/05/28/just-like-gold-and-oil-well-soon-be-able-to-trade-ai-token-futures/",
-    "date": "2026-05-28",
-    "id": "17799936570330"
-  },
-  {
-    "title": "维基百科裁员引发社区抗议，AI 盈利未惠及贡献者",
-    "summary": "维基基金会裁撤技术团队，尽管 AI 数据授权盈利丰厚。",
-    "detail": "维基基金会解雇了首席技术官及社区技术团队，引发志愿者编辑罢工威胁。讽刺的是，基金会通过 Wikimedia Enterprise 向亚马逊、微软等出售数据获利丰厚，储备金达 2.96 亿美元。此举暴露 AI 繁荣背后的数据伦理危机：科技巨头依赖开源社区数据训练模型，却未反哺生态，优先级的错位可能动摇 AI 数据根基。大多数被解雇者是工会组织者，这是志愿者首次与带薪员工团结抗议。这不仅是资金问题，更是优先级问题。AI 淘金热正在吞噬其赖以生存的数据源，若开源社区崩溃，模型训练数据质量将面临枯竭风险，行业需反思数据供应链的可持续性。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Data"
-    ],
-    "link": "https://blog.ppb1701.com/the-ai-gold-rush-is-eating-its-own",
-    "date": "2026-05-28",
-    "id": "17799936570331"
-  },
-  {
-    "title": "开源自改进 AI 框架 SIA 发布，性能提升显著",
-    "summary": "SIA 框架自主更新模型权重，基准任务性能大幅提升。",
-    "detail": "开源项目 SIA (Self Improving AI) 发布，基于 arXiv 论文实现。该框架允许语言模型代理自主更新任务特定代理的 harness 和权重。实测显示 LawBench 增益 56.6%，GPU 内核运行时减少 91.9%，单细胞 RNA 去噪改进 502%。这标志着 AI 系统从静态部署向动态自进化迈进，为降低运维成本和提高模型适应性提供了新路径。SIA 旨在自主提高任何 AI 系统在基准任务上的性能。架构包含自改进循环，无需人工干预即可优化。对于开发者而言，这意味着可以部署能够自我修复和优化的代理，减少手动微调需求，特别适合需要长期运行且环境动态变化的复杂 AI 应用场景，技术门槛正在降低。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Agent"
-    ],
-    "link": "https://github.com/hexo-ai/sia",
-    "date": "2026-05-28",
-    "id": "17799936570333"
   }
 ]
