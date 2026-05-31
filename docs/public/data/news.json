@@ -1,5 +1,70 @@
 [
   {
+    "title": "传统巨头加速 AI 落地：Dell、Snowflake 与福特案例",
+    "summary": "传统行业巨头展示 AI 技术如何扩散至企业核心业务。",
+    "detail": "该报道指出 Dell、Snowflake 和福特展示了 AI 热潮的扩散趋势。这表明 AI 技术正从纯科技领域向传统制造业与服务业渗透。企业级 AI 应用成为市场关注焦点，反映了 AI 商业化落地的广泛性与深度。Alpha Check 分析显示，这些巨头如何利用 AI 推动业务，为投资者提供了行业扩散信号，表明 AI 不再是少数公司的专利，而是广泛的基础设施。传统企业的 AI 整合能力将成为未来竞争关键，标志着 AI 进入深水区，投资者需关注非科技股的 AI 转型潜力。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Adoption"
+    ],
+    "link": "https://finance.yahoo.com/markets/article/dell-snowflake-and-ford-show-how-the-ai-boom-is-spreading-alpha-check-210740675.html",
+    "date": "2026-05-30",
+    "id": "17801858345500"
+  },
+  {
+    "title": "经济学人：IT 部门为何成为 AI 落地坟墓",
+    "summary": "深度分析企业内部 IT 部门阻碍 AI 创新实施的潜在原因。",
+    "detail": "文章探讨 AI 项目在 IT 部门停滞的现象，标题直指 IT 部门可能是 AI 创新的终点。指出官僚流程、遗留系统兼容性及风险规避文化可能导致 AI 受阻。为企业 AI 战略部署提供警示，建议重新审视内部创新机制。该观点揭示了大型企业在技术转型中的结构性矛盾，即维护稳定与追求创新之间的冲突。对于希望实施 AI 的企业，可能需要绕过传统 IT 流程或进行组织变革，以避免创新活力被扼杀在内部流程中。",
+    "tags": [
+      "News",
+      "Strategy",
+      "Enterprise"
+    ],
+    "link": "https://www.economist.com/by-invitation/2026/04/01/the-it-department-where-ai-goes-to-die",
+    "date": "2026-05-30",
+    "id": "17801858345501"
+  },
+  {
+    "title": "AI 硬件瓶颈分析：GPU 显存带宽与推理挑战",
+    "summary": "深入剖析 H100 显存带宽限制及 Groq 等新型架构解决方案。",
+    "detail": "现代 GPU 在 LLM 推理中受限于 HBM 带宽而非算力。文章分析 H100 瓶颈，对比 Groq 使用 SRAM 替代 HBM 的架构优势。指出 AI 硬件市场正围绕内存约束解决方案重组，避免与 NVIDIA 正面竞争。算术单元在推理中大量等待，张量核心无法 fully occupied。市场围绕芯片内、服务引擎内或缓存层级攻击内存问题。这为硬件创业公司提供了差异化路径，即解决内存带宽瓶颈而非单纯提升算力，是未来 AI 基础设施优化的关键方向。",
+    "tags": [
+      "Dev",
+      "Hardware",
+      "LLM"
+    ],
+    "link": "https://www.categoryvc.com/writing/where-the-ai-hardware-market-is",
+    "date": "2026-05-30",
+    "id": "17801858345502"
+  },
+  {
+    "title": "HermesBench：个人 AI 代理工作流可靠性评估工具",
+    "summary": "全新基准测试工具，评估个人 AI 代理的整体工作流可靠性。",
+    "detail": "HermesBench 不仅评估模型，还评估提示词、工具、记忆及安全性的完整配置。提供公开基线分数与可审查轨迹，支持通过 Coding Agent 运行场景。为 Agent 开发提供可靠性验证标准。当前公共基线得分为 78.2，涵盖 27 个工作流配方。强调证据优先，链接回场景定义与得分轴。用户可通过复制 Prompt 到 Codex 或 Claude 运行测试。这填补了个人代理整体工作流评估的空白，推动 Agent 技术从模型为中心向系统可靠性为中心转变。",
+    "tags": [
+      "New",
+      "Agent",
+      "Eval"
+    ],
+    "link": "https://verkyyi.github.io/hermesbench/",
+    "date": "2026-05-30",
+    "id": "17801858345503"
+  },
+  {
+    "title": "星巴克放弃故障 AI 库存工具：无法准确计数",
+    "summary": "零售巨头因 AI 工具无法完成基本计数任务而终止项目。",
+    "detail": "星巴克停用了一款存在严重缺陷的 AI 库存管理工具，该工具无法准确计数。此案例凸显了 AI 在实际落地中可能面临的基础能力不足问题，为企业 AI 采购与测试提供反面教材。表明即使是巨头，在 AI 应用落地时也会遇到基础功能失效的尴尬。这提醒行业在部署 AI 时需进行严格的压力测试，特别是涉及物理世界交互的场景。AI 幻觉或逻辑错误在库存管理等高精度需求场景下可能导致严重运营事故，需谨慎验证。",
+    "tags": [
+      "News",
+      "Retail",
+      "Failure"
+    ],
+    "link": "https://gizmodo.com/starbucks-abandons-borked-ai-inventory-tool-that-couldnt-count-report-2000762252",
+    "date": "2026-05-30",
+    "id": "17801858345504"
+  },
+  {
     "title": "ProReview：AI 命令审查训练工具",
     "summary": "专为工程师设计的 AI 生成命令审查训练，防止生产环境事故。",
     "detail": "ProReview 是一款面向工程师的 AI 命令审查训练工具，旨在解决 AI 生成代码进入生产环境的安全隐患。它提供 50+ 挑战场景，涵盖 Kubernetes、云基础设施、SQL 及后端安全等领域。用户需在无提示情况下判断 AI 生成的 Bash、kubectl 等命令是否安全，并精确标记风险行。该工具通过“盲判”机制与专家解析对比，帮助开发者 sharpen AI code review instincts。适合依赖 AI 编程的团队提升安全性，防止因盲目信任 AI 而导致的生产事故，是 AI 时代工程师必备的安全训练工具。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.cisco.com/c/dam/en_us/about/doing_business/trust-center/docs/cisco-defending-against-ai-attacks-guidance.pdf",
     "date": "2026-05-28",
     "id": "17799689737037"
-  },
-  {
-    "title": "梵蒂冈发布首份 AI 通谕，强调人类局限性",
-    "summary": "教皇发布通谕警告不要将人类能力外包给计算机，捍卫人类价值。",
-    "detail": "梵蒂冈发布 250 页通谕《Magnifica Humanitas》，由教皇 Leo XIV 签署。这是天主教首份正式应对 AI 的文件，核心并非仅关注危害，而是捍卫人类本性，警告社会不要诱惑将人类能力外包给计算机。通谕强调人类的不完美也是价值所在，反对技术万能论，旨在防止技术僭越神圣权力。文章引用巴别塔故事，暗示技术野心需受限。这对 AI 伦理讨论具有里程碑意义，标志着宗教界正式介入 AI 治理话语体系，为全球 AI 监管提供新视角。该文件试图在技术加速主义与人文主义之间寻找平衡，影响深远。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Policy"
-    ],
-    "link": "https://www.theatlantic.com/ideas/2026/05/pope-leo-ai-catholic-church/687298/",
-    "date": "2026-05-28",
-    "id": "17799553185510"
-  },
-  {
-    "title": "前谷歌苹果研究员创业，打造 AI 反馈闭环",
-    "summary": "前大厂研究员创立新公司，致力于构建越用越聪明的 AI 反馈系统。",
-    "detail": "前 Google 和 Apple 研究人员联合创立新 startup，旨在构建 AI 缺失的反馈循环（Feedback Loop）。当前 AI 模型往往静态，该项目希望实现 AI 在使用过程中不断变 smarter 的目标。通过收集用户交互数据优化模型，解决现有 AI 缺乏持续进化能力的问题。这一方向直击当前 LLM 应用痛点，若成功将改变人机交互模式，使 AI 从工具转变为持续成长的伙伴，获 WIRED 报道关注。团队背景深厚，致力于解决 AI 适应性难题，可能引发新一轮融资热潮。此举表明行业关注点正从模型大小转向持续学习能力。",
-    "tags": [
-      "News",
-      "Startup",
-      "LLM"
-    ],
-    "link": "https://www.wired.com/story/ex-google-apple-ai-researchers-want-to-make-ai-that-gets-smarter-as-you-use-it/",
-    "date": "2026-05-28",
-    "id": "17799553185511"
-  },
-  {
-    "title": "Vertu 推出万元 AI 折叠屏手机，主打企业代理",
-    "summary": "奢侈手机品牌 Vertu 发布 Alphafold，内置 Hermes AI 代理连接企业软件。",
-    "detail": "奢侈手机品牌 Vertu 发布 Alphafold 折叠屏手机，起售价 6880 美元，最高达 46800 美元。内置基于 Nous Research Hermes 项目的 AI 代理，可连接 ERP、CRM 等企业系统，协调审批、日程等任务。这是奢侈硬件与 AI Agent 结合的首次大胆尝试，目标客户为高管。标志着 AI 手机从消费级向高端企业级服务延伸，硬件成为 AI 代理的物理载体。公司历经多次所有权变更，试图借 AI 复兴品牌，提供定制化细节如鳄鱼皮和钻石装饰。此举探索了高端硬件在 AI 时代的差异化生存路径。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Agent"
-    ],
-    "link": "https://techcrunch.com/2026/05/28/vertu-wants-ceos-to-run-companies-from-an-ai-foldable-starting-at-6880/",
-    "date": "2026-05-28",
-    "id": "17799553185512"
-  },
-  {
-    "title": "Show HN: 基于 UK 政府技能框架的 AI 代理实现",
-    "summary": "开发者开源 UK 政府数字角色技能 Markdown 文件，用于多代理系统工程。",
-    "detail": "开发者在 Hacker News 分享了一套基于英国政府数字和数据职业能力框架（PCF）的 AI 代理实现。将软件开发者、测试分析师等角色技能提取为 Markdown 文件，作为 AI 技能库。实践证明，使用标准命名 convention 能让团队（包括管理层）立即理解代理职责。该项目为多代理系统工程提供了标准化技能定义思路，适合新手复制粘贴或高级工具集成，开源在 GitHub。这解决了 AI 角色定义模糊问题，促进企业级代理落地，降低沟通成本，具有较高实用价值。为构建可信 AI 团队提供了规范参考。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "OpenSource"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48305822",
-    "date": "2026-05-28",
-    "id": "17799553185513"
-  },
-  {
-    "title": "Show HN: TopRec AI 招聘筛选与 CRM 工具",
-    "summary": "自助式 AI 招聘工具，自动筛选简历并构建候选人数据库，按 job 收费。",
-    "detail": "TopRec 是一款面向招聘团队的 AI 筛选和 CRM 工具。可自动从任何来源筛选、总结并组织候选人，提供排名、外联草稿和 screening 问题。特色是无订阅、按 job 收费（$100/首单），数据私有。解决招聘者淹没在简历中、筛选准备不足及工具分散痛点。适合独立招聘者或小型机构，无需复杂 onboarding，旨在颠覆企业级招聘软件的高价模式。提供试用积分，支持自助服务，所有 AI 功能包含在内，灵活性强。其按效果付费模式可能成为垂直 SaaS 新趋势。",
-    "tags": [
-      "New",
-      "SaaS",
-      "Recruiting"
-    ],
-    "link": "https://toprec.io/",
-    "date": "2026-05-28",
-    "id": "17799553185514"
   }
 ]
