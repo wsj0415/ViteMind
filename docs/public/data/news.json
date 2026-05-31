@@ -1,5 +1,70 @@
 [
   {
+    "title": "生产级 AI Agent 构建标准发布",
+    "summary": "GitHub 开源项目定义 Agent 开发规范",
+    "detail": "该项目汇集了 Anthropic、OpenAI、Cognition 等领先机构的生产实践，定义了构建生产级 Agentic 产品的规范标准。内容涵盖自主性阶梯、组合模式、7 层 harness 及评估纪律，并提供可安装的 Claude Code 技能集以 operationalize 该标准。对于希望将 AI Agent 从实验推向生产的开发者而言，这是一份极具参考价值的工程化指南，有助于提升系统的稳定性与可维护性，解决当前 Agent 开发缺乏统一标准的痛点，推动行业向成熟化发展。此外，开源协议为 MIT，欢迎社区贡献，适合企业级应用参考。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "GitHub"
+    ],
+    "link": "https://github.com/AlexDuchDev/agentic-product-standard",
+    "date": "2026-05-31",
+    "id": "17802048273390"
+  },
+  {
+    "title": "OWASP 推出 Agent 记忆防护项目",
+    "summary": "防止 AI Agent 记忆中毒的新安全工具",
+    "detail": "OWASP 发布 Agent Memory Guard 项目，旨在阻止 AI Agent 记忆中毒攻击。随着 Agent 广泛应用，记忆安全成为关键隐患。项目已在 PyPI 上线，支持 LangChain 集成，下载量已超 3900 次。该工具为开发者提供了标准化的防御手段，增强系统鲁棒性。通过防护记忆污染，确保 Agent 在长期运行中不被恶意输入误导，保障业务逻辑安全。这是 AI 安全领域的重要进展，建议开发生产级 Agent 时集成此类防护机制，以应对日益复杂的对抗性攻击，维护用户数据完整性与系统可靠性。",
+    "tags": [
+      "Dev",
+      "Security",
+      "OWASP"
+    ],
+    "link": "https://github.com/OWASP/www-project-agent-memory-guard",
+    "date": "2026-05-31",
+    "id": "17802048273391"
+  },
+  {
+    "title": "本地 AI 截图命名工具 SnapName",
+    "summary": "macOS 端侧 Gemma 4 模型自动命名截图",
+    "detail": "新款 macOS 应用 SnapName 利用本地 Gemma 4 模型自动为截图命名，无需上传云端，保障隐私。支持 Apple Silicon，可监听文件夹自动处理。反映了端侧 AI 应用趋势，为用户提供便捷的本地化智能工作流，无需依赖联网服务。用户可审查建议名称或开启自动保存，兼容多种截图工具。这种本地化处理方式解决了隐私顾虑，同时提升了文件管理效率，是个人生产力工具结合本地大模型的典型案例，适合注重数据安全的 macOS 用户尝试体验。应用支持多种图像格式，工作流灵活，可无缝融入现有习惯。",
+    "tags": [
+      "New",
+      "Local AI",
+      "macOS"
+    ],
+    "link": "https://snapname.app",
+    "date": "2026-05-31",
+    "id": "17802048273392"
+  },
+  {
+    "title": "Vercel 指南：保护 AI 端点免受机器人攻击",
+    "summary": "使用 BotID 验证请求来源防止滥用",
+    "detail": "Vercel 发布指南，介绍如何利用 BotID 保护 AI 端点。通过客户端挑战和服务端 checkBotId() 验证请求，防止自动化脚本滥用推理资源。支持按路由设置检测级别，结合 WAF bypass 规则。是部署 AI 应用时保障成本与安全的重要实践。该方案作为隐形 CAPTCHA，能在推理前拦截恶意请求，避免高昂的 Token 浪费。对于公开提供 AI 服务的开发者，实施此类防护至关重要，可有效降低运营成本并防止接口被爬取，确保服务仅对真实用户开放。需在 Next.js 等项目中配置代理重写以增强防护效果。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Vercel"
+    ],
+    "link": "https://vercel.com/kb/guide/protect-ai-endpoints-with-vercel-botid",
+    "date": "2026-05-31",
+    "id": "17802048273393"
+  },
+  {
+    "title": "AI 时代课堂回归模拟学习趋势",
+    "summary": "多国学校立法限制屏幕时间与 AI 使用",
+    "detail": "家长与教育者推动学校限制课堂屏幕使用，至少 16 个州提出相关法案。洛杉矶等学区已通过决议限制低年级设备使用。数据显示禁用手机后学生 suspensions 下降。反映社会对 AI 及屏幕过度使用的反思，教育科技面临监管调整。McPherson 中学案例显示行为文化改善。这一趋势表明，尽管 AI 技术快速发展，教育界更倾向于回归模拟学习以保护学生注意力。政策制定者正在建立 AI 使用护栏，平衡技术便利与身心健康，未来教育科技产品需适应更严格的合规要求。非营利组织 Schools Beyond Screens 影响力正在扩大。",
+    "tags": [
+      "News",
+      "Education",
+      "Policy"
+    ],
+    "link": "https://www.axios.com/2026/05/30/no-screen-school-technology-parents-ai",
+    "date": "2026-05-31",
+    "id": "17802048273394"
+  },
+  {
     "title": "传统巨头加速 AI 落地：Dell、Snowflake 与福特案例",
     "summary": "传统行业巨头展示 AI 技术如何扩散至企业核心业务。",
     "detail": "该报道指出 Dell、Snowflake 和福特展示了 AI 热潮的扩散趋势。这表明 AI 技术正从纯科技领域向传统制造业与服务业渗透。企业级 AI 应用成为市场关注焦点，反映了 AI 商业化落地的广泛性与深度。Alpha Check 分析显示，这些巨头如何利用 AI 推动业务，为投资者提供了行业扩散信号，表明 AI 不再是少数公司的专利，而是广泛的基础设施。传统企业的 AI 整合能力将成为未来竞争关键，标志着 AI 进入深水区，投资者需关注非科技股的 AI 转型潜力。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/district-solutions/open-agent-tools-coder",
     "date": "2026-05-28",
     "id": "17799689737032"
-  },
-  {
-    "title": "行业观察：AI 是否 inherently 反社交？",
-    "summary": "John Battelle 撰文探讨早期 Web 的连接感与当前 AI 体验的孤立感。",
-    "detail": "互联网先驱 John Battelle 在博客中反思 AI 的社会影响。他指出，早期 Web 是一种“我们”的媒介，强调人与人之间的连接；而当前的 AI 交互体验往往是孤立的。尽管初期 AI 产品感觉像人类，但长期使用可能加剧孤独感。这篇文章引发了对 AI 产品设计哲学及其社会心理影响的深度思考，提醒行业在追求效率的同时不应忽视技术带来的社会疏离感。",
-    "tags": [
-      "News",
-      "Social Impact",
-      "Opinion"
-    ],
-    "link": "https://battellemedia.com/archives/2026/05/is-ai-inherently-anti-social",
-    "date": "2026-05-28",
-    "id": "17799689737033"
-  },
-  {
-    "title": "路透社调查：特斯拉 AI 训练师不信任其自动驾驶技术",
-    "summary": "内部训练师对特斯拉自动驾驶技术及安全统计数据表示质疑。",
-    "detail": "路透社调查报道指出，特斯拉的 AI 训练师对其自动驾驶技术及安全统计数据缺乏信任。虽然具体细节未在摘要中完全展开，但该调查揭示了自动驾驶开发内部可能存在的安全文化问题。这对于评估特斯拉 FSD 技术的成熟度及公众信任度具有重要参考价值，反映了 AI 安全落地面临的挑战，内部人员的不信任可能影响技术迭代与合规进程。",
-    "tags": [
-      "News",
-      "Autonomous Driving",
-      "Safety"
-    ],
-    "link": "https://www.reuters.com/investigations/why-teslas-ai-trainers-dont-trust-its-self-driving-tech-or-its-safety-stats-2026-05-28/",
-    "date": "2026-05-28",
-    "id": "17799689737034"
-  },
-  {
-    "title": "马斯克：SpaceX 自研 C 语言 AI 训练栈即将完成",
-    "summary": "自研栈针对 220k GB300s 优化，大型训练运行速度比 JAX 快一个数量级。",
-    "detail": "Elon Musk 透露 SpaceX 即将完成 v1.0 版本的内部 AI 训练栈，使用 C 语言编写。该栈精确映射 220k GB300s GPU 与 800G NICs，充分利用流水线并行并接近裸机性能。相比 JAX，大型训练运行的速度提升超过一个数量级。这显示了硬件巨头向底层软件栈优化的趋势，以提升 AI 训练效率，表明自研基础设施已成为头部玩家的竞争壁垒。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Training"
-    ],
-    "link": "https://twitter.com/elonmusk/status/2059884150187053488",
-    "date": "2026-05-28",
-    "id": "17799689737035"
-  },
-  {
-    "title": "MIT 科技评论：毕业季学生嘘声对待 AI 演讲",
-    "summary": "亚利桑那大学等毕业生对 Eric Schmidt 等 AI 倡导者表示反对，担忧就业。",
-    "detail": "MIT Technology Review 的 AI 炒作指数显示，公众对 AI 的热情正在降温。在亚利桑那大学等毕业典礼上，前 Google CEO Eric Schmidt 关于 AI 的演讲遭到学生嘘声。毕业生担忧工作消失和未来破裂。尽管 OpenAI 等在商业上取得成功，但社会层面的 skepticism 正在增加，甚至出现名人警告女性需拥抱 AI 以免被取代的现象，显示舆论分化加剧。",
-    "tags": [
-      "News",
-      "Public Sentiment",
-      "Employment"
-    ],
-    "link": "https://www.technologyreview.com/2026/05/28/1138053/the-ai-hype-index-ai-gets-booed-in-graduation-season/",
-    "date": "2026-05-28",
-    "id": "17799689737036"
-  },
-  {
-    "title": "Cisco 发布 AI_enabled 攻击防御指南",
-    "summary": "提及 Anthropic withheld 模型 Mythos，建议企业更新威胁模型。",
-    "detail": "Cisco 发布了关于防御 AI_enabled 攻击的指导文件。文中提到 2026 年 4 月 Anthropic 因担心 offensive cyber capability 而暂缓发布新模型 Mythos，并与 Cisco 等公司合作修补漏洞。Cisco 据此更新了威胁模型，建议客户针对 AI 辅助的攻击流（如社会工程、代码生成）加强防御。这标志着 AI 安全进入新阶段，企业需更新安全策略以应对 AI 赋能的新型威胁。",
-    "tags": [
-      "News",
-      "Security",
-      "Enterprise"
-    ],
-    "link": "https://www.cisco.com/c/dam/en_us/about/doing_business/trust-center/docs/cisco-defending-against-ai-attacks-guidance.pdf",
-    "date": "2026-05-28",
-    "id": "17799689737037"
   }
 ]
