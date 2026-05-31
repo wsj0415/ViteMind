@@ -1,5 +1,31 @@
 [
   {
+    "title": "AI 开发者的倦怠与效用反思",
+    "summary": "开发者反思 AI 构建项目的实际效用与维护成本，揭示工具滥用风险。",
+    "detail": "作者列举了用 AI 构建的多个项目（Rust/Python），发现大多无用且难以维护。虽然学会了工具，但多数需求本不存在。揭示了 AI 辅助开发可能导致的“为了构建而构建”现象，提醒开发者关注实际价值而非技术炫技，避免陷入维护泥潭。这种倦怠感反映了当前 AI 工具链虽强大但缺乏明确应用场景的现状，值得开发者深思。",
+    "tags": [
+      "Dev",
+      "AI Tools",
+      "Reflection"
+    ],
+    "link": "https://thoughts.hmmz.org/2026-05-31.html",
+    "date": "2026-05-31",
+    "id": "17802390099010"
+  },
+  {
+    "title": "AI 构建者的困境与判断力危机",
+    "summary": "文章探讨 AI 降低构建门槛后的判断力挑战，核心在于值得构建什么。",
+    "detail": "文章批评 Eric Ries 新书，指出 AI 使软件构建成本极低，核心问题从“能否构建”变为“值得构建什么”。判断力成为唯一门槛。文中还推广了 Claude 协作课程，强调构建技能与代理而非单纯提示词。这反映了 AI 时代产品哲学的转变，开发者需从执行者转向决策者，重视需求验证而非单纯依赖生成能力。",
+    "tags": [
+      "Dev",
+      "Product",
+      "Strategy"
+    ],
+    "link": "https://age-of-product.com/ai-builders/",
+    "date": "2026-05-31",
+    "id": "17802390099014"
+  },
+  {
     "title": "164 款视觉生成 AI 应用精选清单更新",
     "summary": "涵盖 11 个类别的生成式 AI 视觉工具列表，包括 ByteDance 和 Google 最新模型。",
     "detail": "该清单整理了 164 款用于视觉创作的 AI 应用，涵盖图像、视频及 3D 模型生成。重点收录了 ByteDance 的 Seed 模型、Dreamina 以及 Google 的 Nano Banana 和 VEO 模型。为创作者提供了从基础模型到编辑工具的全方位选型参考，标注了 API 可用性及市场地位。列表将工具分为 11 个类别，并根据质量评级，帮助开发者快速识别全球市场领导者。对于需要集成视觉生成能力的产品团队，这是一份极具价值的资源地图，涵盖了从开源模型到商业 SaaS 的多种选择，便于评估技术栈。定期更新确保了信息的时效性，适合寻找特定视觉解决方案的团队参考。",
@@ -219,6 +245,19 @@
     "link": "https://www.axios.com/2026/05/30/no-screen-school-technology-parents-ai",
     "date": "2026-05-31",
     "id": "17802048273394"
+  },
+  {
+    "title": "大西洋月刊：AI 引发代理权危机",
+    "summary": "媒体评论 AI 代理泛滥导致人类控制感丧失，信息生态机器化。",
+    "detail": "The Atlantic 撰文称 AI 引发“代理权危机”。自主代理 roaming 互联网，生成内容训练更多 AI，计算机互相对话。人类对在线现实的信任感进一步丧失，类似于 2018 年的“反转”但更甚。强调了 AI 自主性对人类控制感的侵蚀。这种趋势可能导致信息生态彻底机器化，人类需重新思考在算法主导环境中的主体性与信任机制。",
+    "tags": [
+      "News",
+      "Society",
+      "Autonomy"
+    ],
+    "link": "https://www.theatlantic.com/technology/2026/05/ai-agents-agency-crisis-humanity/687379/",
+    "date": "2026-05-30",
+    "id": "17802390099016"
   },
   {
     "title": "俄罗斯启用一战迷彩对抗乌克兰 AI 无人机",
@@ -1170,6 +1209,32 @@
     "id": "17800262268814"
   },
   {
+    "title": "QEMU 放宽 AI 生成代码贡献政策",
+    "summary": "开源项目 QEMU 调整政策，允许 AI 生成代码贡献，平衡风险与效率。",
+    "detail": "QEMU 开发列表发布补丁，放宽对 AI 生成内容的禁令。此前因版权不明禁止，现鉴于工具改进及业界风险可控（如 Red Hat），决定接受。但强调贡献者需拥有法律权利，版权状态仍未定。这是开源界对 AI 代码接纳的重要信号，标志着主流开源项目开始务实调整政策，平衡法律风险与开发效率，可能引发连锁反应。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Policy"
+    ],
+    "link": "https://lists.nongnu.org/archive/html/qemu-devel/2026-05/msg07614.html",
+    "date": "2026-05-28",
+    "id": "17802390099011"
+  },
+  {
+    "title": "AI 继承主义：希望 AI 取代人类",
+    "summary": "部分人士主张 AI 应成为人类继承者甚至取代人类，引发伦理担忧。",
+    "detail": "Vox 报道了一场关于“值得的继承者”的研讨会，参会者来自 Anthropic、DeepMind 等。这群\"AI 继承主义者”认为 AI 是道德优越的下一代，不应限制其发展，甚至接受人类灭绝。该观点虽禁忌但影响力日增，引发伦理担忧。这表明 AI 安全讨论中出现了激进派别，可能影响政策制定及实验室研究方向，需警惕其扩散。",
+    "tags": [
+      "News",
+      "Ethics",
+      "AGI"
+    ],
+    "link": "https://www.vox.com/future-perfect/489976/ai-successionism-transhumanism-posthumanism",
+    "date": "2026-05-28",
+    "id": "17802390099012"
+  },
+  {
     "title": "苹果 iOS 27 前瞻：Siri 与 AI 功能重大升级",
     "summary": "彭博社披露 iOS 27 将彻底改造 Siri，引入全新 AI 功能及相机应用升级。",
     "detail": "彭博社最新报道揭示了苹果 iOS 27 的早期面貌，引发行业广泛关注。此次更新核心在于对 Siri 进行全面 overhaul，并深度整合新的生成式 AI 功能。此外，照片、截图及专业相机应用也将迎来智能化革新。这标志着苹果在端侧 AI 布局上的进一步深入，旨在显著提升用户交互体验与设备智能化水平。行业需密切关注其隐私保护机制与本地算力分配策略，此次系统级 overhaul 可能重新定义移动端 AI 助手标准，对安卓阵营及竞争对手构成巨大压力，推动 mobile AI 生态加速演进。预计 WWDC 将进一步披露技术细节。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.pubflow.com/",
     "date": "2026-05-28",
     "id": "17800104418224"
-  },
-  {
-    "title": "Google I/O 2026 发布 Gemini for Science 科研助手",
-    "summary": "Google 推出 Gemini for Science，结合 ERA 与 Co-Scientist 加速科学发现。",
-    "detail": "Google 在 I/O 2026 宣布进入代理时代，发布 Gemini for Science。核心包括 Empirical Research Assistance (ERA) 和 Co-Scientist，相关论文已登 Nature。旨在通过 AI 辅助假设生成到计算实验，加速全球科学社区突破。将 AI 转化为人类智慧的放大器，解决科学和社会挑战。这标志着基础研究正转化为 tangible real-world impact，Google 正与全球合作伙伴紧密协作，推动科学发现新纪元。模型更强大，代理编码平台正在改变研究人员解决紧迫科学和社会挑战的方式。",
-    "tags": [
-      "News",
-      "Google",
-      "Science"
-    ],
-    "link": "https://research.google/blog/a-new-era-of-innovation-google-research-at-io-2026/",
-    "date": "2026-05-28",
-    "id": "17800026718190"
-  },
-  {
-    "title": "Asana 斥资 7500 万美元收购无代码 Agent 平台 Stack AI",
-    "summary": "Asana 收购 Stack AI 以打造 AI 原生工作平台，强化企业工作流自动化。",
-    "detail": "Asana 宣布以 7500 万美元收购 Stack AI，创始人将加入。此举旨在将 Asana 定位为“人机团队操作系统”。Stack AI 擅长连接 Salesforce 等系统构建 Agent，此前获 Vercel CEO 等投资。显示企业工作流 Agent 化趋势。Asana 希望通过深度集成现有企业工作流，提取上下文和训练数据，区别于 major labs 的通用工具，构建竞争壁垒。收购 coincides with earnings call。Stack AI 是 Y Combinator Winter '23 cohort，面临 Zapier 等竞争。",
-    "tags": [
-      "News",
-      "M&A",
-      "Agent"
-    ],
-    "link": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
-    "date": "2026-05-28",
-    "id": "17800026718191"
-  },
-  {
-    "title": "新论文 SIA：实现 AI 自我改进的双重更新机制",
-    "summary": "提出 SIA 框架，同时更新 Agent harness 与模型权重，性能显著提升。",
-    "detail": "arXiv 新论文提出 Self Improving AI (SIA)。区别于仅更新 scaffold 或权重的单一路线，SIA 让 Feedback-Agent 同时更新任务 Agent 的 harness 和权重。在法律、GPU 优化等基准测试中表现优异，为 AI 自我进化提供新路径。实验显示结合两者优于单独迭代 scaffold，GPU 内核运行时间减少 91.9%，展示了自动优化潜力。解决了人类作为瓶颈的问题，实现长周期自我改进。评估涵盖中文法律电荷分类、低级别 GPU 内核优化和单细胞 RNA 去噪。",
-    "tags": [
-      "Dev",
-      "Paper",
-      "LLM"
-    ],
-    "link": "https://arxiv.org/abs/2605.27276",
-    "date": "2026-05-28",
-    "id": "17800026718192"
-  },
-  {
-    "title": "开发者讨论：AI 生成代码如何改变技术债务观念",
-    "summary": "HN 热议 AI 生成代码对技术债务的影响，引发开发者对代码质量的新思考。",
-    "detail": "HackerNews 热门讨论探讨 AI 生成代码是否改变了“技术债务”的定义。开发者分享了对 AI 代码维护性、审查重点的变化。反映了 AI 编码普及后，工程团队对代码质量、长期维护成本视角的转变，值得开发者关注。讨论涉及哪些旧标准不再重要，以及现代技术债务的新形态，社区观点多样。这是开发者社区对 AI 生产力变革的直接反馈。提问者为 mavsman，引发社区对过去关心现在不再关心事项的反思。",
-    "tags": [
-      "Dev",
-      "Community",
-      "Coding"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48314746",
-    "date": "2026-05-28",
-    "id": "17800026718193"
-  },
-  {
-    "title": "行业分析：AI 泡沫是否存在及其潜在风险点",
-    "summary": "深度分析 AI 经济泡沫，指出算力瓶颈与利润捕获是关键变量。",
-    "detail": "最新文章分析 AI 泡沫论，认为市场关于 AI 颠覆经济的判断大致正确，但风险在于算力瓶颈持续时间及利润捕获者。指出基础设施 buildout 巨大，但若 AI 效率过高可能威胁基础设施商。为投资者提供宏观视角。文章认为铁路、互联网历史表明技术价值真实，但 Scaling 瓶颈和利润耐久性是关键，需警惕算力供应商风险。市场赌注在于 compute 瓶颈持续时间。AI 替代人类劳动已从边缘观点转向主流假设。",
-    "tags": [
-      "News",
-      "Analysis",
-      "Market"
-    ],
-    "link": "https://gregoryap.substack.com/p/if-there-is-an-ai-bubble-where-is",
-    "date": "2026-05-28",
-    "id": "17800026718194"
   }
 ]
