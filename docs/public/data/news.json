@@ -1,5 +1,70 @@
 [
   {
+    "title": "外媒关注中国 AI 模型“蒸馏”技术引发竞争",
+    "summary": "外媒报道中国通过模型蒸馏技术获取美国前沿 AI 能力。",
+    "detail": "**背景**：美国《外交事务》最新刊文指出，中美 AI 竞争已开辟新前线，焦点转向开源与本地模型。**核心**：文章称中国公司系统性地利用“蒸馏”技术，将美国前沿模型能力迁移至更小的本地开源模型，规避了美方服务条款限制。**影响**：这种不对称优势可能使中国在消费硬件 AI 部署上占据主导，引发美方对技术流失及开源模型在地缘政治中关键角色的深度担忧，暗示未来监管可能收紧。",
+    "tags": [
+      "News",
+      "LLM",
+      "Geopolitics"
+    ],
+    "link": "https://www.foreignaffairs.com/china/chinas-ai-heist",
+    "date": "2026-05-31",
+    "id": "17802582759850"
+  },
+  {
+    "title": "Netflix 工程师开源工具大幅降低 AI Token 成本",
+    "summary": "Netflix 工程师开发 Headroom 工具，pruning 冗余 Token 节省 70 万美元。",
+    "detail": "**背景**：随着企业鼓励工程师激进使用 AI，Token 账单激增成为新痛点，甚至抵消裁员收益。**核心**：Netflix 高级工程师开发 Project Headroom，在请求前修剪约 90% 冗余指令，实现无损上下文压缩。**影响**：该开源工具已为用户节省约 70 万美元成本，有效解决 AI 应用成本失控问题，为开发者提供实用的低成本优化方案，目前已在 GitHub 获 2000 星。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "CostOptimization"
+    ],
+    "link": "https://www.theregister.com/ai-ml/2026/05/31/netflix-wiz-creates-app-to-slash-ai-bills-then-open-sources-it/5248702",
+    "date": "2026-05-31",
+    "id": "17802582759851"
+  },
+  {
+    "title": "Web-AI-SDK 0.5 更新优化浏览器内置 AI API",
+    "summary": "SDK 更新支持 Writer 及 Prompt API，简化浏览器 AI 开发。",
+    "detail": "**背景**：浏览器内置 AI API 逐渐普及，但原生开发流程繁琐，需处理生命周期与流式平滑。**核心**：Web-AI-SDK 0.5 提供组合式构建块，支持 Writer、Rewriter 及流式处理，无运行时依赖，默认 TypeScript。**影响**：显著简化开发者接入浏览器原生 AI 能力的流程，推动 Web 端 AI 应用标准化开发，降低原生 AI 功能集成门槛，让开发者专注业务逻辑。",
+    "tags": [
+      "Dev",
+      "WebAI",
+      "TypeScript"
+    ],
+    "link": "https://web-ai-sdk.dev/",
+    "date": "2026-05-31",
+    "id": "17802582759852"
+  },
+  {
+    "title": "芝加哥大学推出 Quicksilver 检测 AI 生成音乐",
+    "summary": "科学家发布浏览器扩展，识别流媒体平台上的 AI 生成歌曲。",
+    "detail": "**背景**：2024 年起 AI 生成音乐泛滥，占新上传曲目近半，人类艺术家权益面临受损风险。**核心**：芝加哥大学 SAND 实验室推出 Quicksilver 扩展，扫描歌曲 AI 痕迹，旨在 champion 透明度。**影响**：旨在提高透明度，保护人类创造力，继 Glaze 后又一金字塔式伦理技术工具，帮助用户辨别音乐来源，维护数字声景伦理，防止垃圾 AI 音乐冲击市场。",
+    "tags": [
+      "New",
+      "Ethics",
+      "Audio"
+    ],
+    "link": "https://news.uchicago.edu/story/song-ai-generated-uchicago-scientists-create-browser-extension-check",
+    "date": "2026-05-31",
+    "id": "17802582759853"
+  },
+  {
+    "title": "AI 代理将基于 DNS 构建专属电话目录",
+    "summary": "新基础设施允许 AI 代理通过 DNS 系统相互发现与通信。",
+    "detail": "**背景**：AI 代理数量激增，但缺乏统一的发现与通信机制，阻碍代理间协作。**核心**：新方案基于 DNS 构建 AI 代理目录，实现代理间的寻址与交互，类似传统电话簿。**影响**：为 AI 代理经济奠定基础设施基础，解决代理间通信与身份验证问题，推动自主代理网络发展，使 AI 代理能像互联网服务一样被轻易发现。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Agents"
+    ],
+    "link": "https://www.theregister.com/ai-ml/2026/05/28/ai-agents-get-their-own-phone-directory-built-atop-dns/5247539",
+    "date": "2026-05-31",
+    "id": "17802582759854"
+  },
+  {
     "title": "Benedict Evans：AI 影响力堪比互联网但非万能",
     "summary": "知名分析师 Benedict Evans 探讨 AI 对就业与经济的实际影响。",
     "detail": "知名科技分析师 Benedict Evans 在最新视频中指出，AI 的重要性虽与互联网或移动设备相当，但也仅限于此，并非解决所有问题的万能钥匙。他分析了 AI 对就业市场的潜在冲击，认为尽管存在 disruption，但整体经济适应后情况可能会好转。该观点为当前过热的 AI 舆论提供了冷静的宏观视角，有助于投资者和从业者理性评估行业长期价值。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.theatlantic.com/technology/2026/05/how-to-tell-ai-writing/687345/",
     "date": "2026-05-29",
     "id": "17800689909151"
-  },
-  {
-    "title": "Tab Council：Chrome 插件实现多模型交叉验证",
-    "summary": "无需 API 密钥，利用现有标签页构建 AI 模型委员会进行交叉验证。",
-    "detail": "Tab Council 是一款 Chrome MV3 扩展，允许用户将现有的 AI 标签页（如 ChatGPT, Claude）组成‘模型委员会’。它支持独立回答、批评、判断合成及否决流程，无需后端或 API 密钥。该工具旨在提高关键决策（如架构检查、政策草案）的可靠性，通过多模型共识减少单一模型幻觉风险。其本地化存储设计保护了用户隐私，适合开发者与研究人员在敏感任务中进行多方推理验证。",
-    "tags": [
-      "Dev",
-      "Tool",
-      "Productivity"
-    ],
-    "link": "https://github.com/vaddisrinivas/tab-council",
-    "date": "2026-05-29",
-    "id": "17800689909152"
-  },
-  {
-    "title": "ON1 项目实现 38μs 黑盒 AI 内存检索",
-    "summary": "基于虚拟芯片 ISA 的低延迟 AI 内存检索技术，优化 fetch/compute 分离。",
-    "detail": "ON1 (G116 V8) 项目在 GitHub 上开源，声称在虚拟芯片 ISA 上实现了 38 微秒的黑盒 AI 内存检索。该技术采用延迟分离的 Fetch/Compute/ANN 架构，旨在解决 AI 推理中的内存瓶颈。这对于需要低延迟响应的边缘 AI 应用具有重要意义，展示了硬件与算法协同优化的新方向。项目提供了实时隧道内部视图，为开发者探索高性能 AI 内存检索提供了新的技术参考与实现路径。",
-    "tags": [
-      "Dev",
-      "Hardware",
-      "Optimization"
-    ],
-    "link": "https://github.com/ON1-Hao/ON1",
-    "date": "2026-05-29",
-    "id": "17800689909153"
-  },
-  {
-    "title": "星巴克停用 AI 库存代理因幻觉频发",
-    "summary": "星巴克因 AI 代理计数错误及拖慢员工效率，已悄然停用该库存管理系统。",
-    "detail": "**背景**：据 Fortune 报道，星巴克近期悄然停用了其部署的 AI 库存代理系统，该事件引发了行业对 AI 落地实际效果的广泛关注。**问题细节**：系统频繁出现幻觉导致库存计数错误，且操作繁琐拖慢了咖啡师的工作流程，引发一线员工大量投诉，最终导致项目被终止。**行业影响**：这是大型企业 AI 应用失败的典型案例，表明当前 AI 代理在复杂物理库存管理中的可靠性仍需验证。企业需警惕盲目自动化带来的潜在效率倒退，现实场景的鲁棒性测试至关重要，AI 并非万能解决方案，需结合人工流程。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "AI Agent"
-    ],
-    "link": "https://fortune.com/2026/05/28/starbucks-quietly-retired-ai-inventory-agent-barista-complaints-hallucinations/",
-    "date": "2026-05-29",
-    "id": "17800262268810"
-  },
-  {
-    "title": "科学美国人：AI 轻信虚构疾病 Bixonimania",
-    "summary": "研究人员虚构疾病测试 AI，多个主流聊天机器人确认该病存在，暴露医疗建议风险。",
-    "detail": "**事件概述**：Scientific American 报道，瑞典哥德堡大学研究人员虚构了\"Bixonimania\"疾病测试主流 LLM。**测试结果**：多个 AI 聊天机器人确认该病存在并提供医疗建议，暴露了模型 hallucination 风险。**潜在危害**：数百万用户依赖 AI 获取医疗建议，错误信息可能导致危险后果甚至死亡，已有相关诉讼案例。**行业启示**：揭示了训练数据污染及模型验证的严重问题，医疗领域 AI 应用需更严格监管，用户不应完全替代专业医生诊断，AI 安全性亟待提升，信任机制需重建。",
-    "tags": [
-      "News",
-      "Healthcare",
-      "Hallucination"
-    ],
-    "link": "https://www.scientificamerican.com/podcast/episode/bixonimania-the-fake-illness-that-ai-fell-for/",
-    "date": "2026-05-29",
-    "id": "17800262268811"
-  },
-  {
-    "title": "Disposable Software：AI 时代的代码即消耗品",
-    "summary": "博客探讨 AI coding 趋势，主张生产环境代码也应像基础设施一样可随意丢弃重建。",
-    "detail": "**核心观点**：博客文章指出我们已进入“可丢弃软件时代”，AI 生成代码正在改变软件开发本质，旧有的编码方式即将终结。**技术趋势**：倡导像对待云基础设施“牲畜”而非“宠物”一样对待代码，生产环境代码也可快速迭代丢弃，无需过度维护。**开发者影响**：传统编写方式正在终结，开发者需适应工作性质变化。利用 AI 加速迭代而非执着于代码持久性将成为新常态，这有助于企业更快移动并利用 AI 投资，但同时也对代码质量监控提出了新挑战，需接受代码寿命变短的现实。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Trend"
-    ],
-    "link": "https://mattrogish.com/blog/2026/04/03/disposable-software-how-to-stop-worrying-and-love-the-ai-code/",
-    "date": "2026-05-29",
-    "id": "17800262268812"
   }
 ]
