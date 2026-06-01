@@ -1,5 +1,70 @@
 [
   {
+    "title": "Meta AI 漏洞可绕过 MFA 重置密码",
+    "summary": "Instagram 发现严重漏洞，利用 Meta AI 可重置无 MFA 账户密码，已修复。",
+    "detail": "Instagram 近期暴露出一严重安全漏洞，攻击者可利用 Meta AI 助手绕过双重认证（MFA）重置用户密码。该漏洞引发了对 AI 助手权限管理的深刻担忧，尽管官方已迅速修补，但显示出 AI 集成带来的新攻击面。社区热议为何顶尖团队仍出现此类基础安全问题，警示 AI 交互层需更严格的安全审计与权限隔离机制，防止代理被滥用。此事件凸显了 AI 安全不仅是模型问题，更是系统集成问题。",
+    "tags": [
+      "News",
+      "Security",
+      "Meta"
+    ],
+    "link": "https://xcancel.com/DarkWebInformer/status/2061253599758315527",
+    "date": "2026-06-01",
+    "id": "17802870769900"
+  },
+  {
+    "title": "Peter Thiel 警告 AI 更威胁技术岗位",
+    "summary": "Peter Thiel 指出 AI 对技术角色的威胁大于创造性思维者，引发行业热议。",
+    "detail": "硅谷投资人 Peter Thiel 公开警告，AI 技术对传统技术岗位的冲击将远超创造性思维角色。他认为编码等技术工作更易被自动化，而创意与战略思维难以替代。这一观点挑战了当前“程序员最安全”的共识，促使从业者重新审视技能树，向更高阶的系统设计与创意整合转型，行业人才需求结构可能面临重塑，技术人员需警惕技能贬值。这为职业规划提供了新的视角，强调软技能的重要性。",
+    "tags": [
+      "News",
+      "Industry",
+      "Career"
+    ],
+    "link": "https://fortune.com/article/peter-thiel-ai-skills-creative-thinking-technical/",
+    "date": "2026-06-01",
+    "id": "17802870769901"
+  },
+  {
+    "title": "英国边境试用 AI 年龄评估引争议",
+    "summary": "英国内政部确认试用 AI 面部年龄估计技术评估难民，遭人权组织反对。",
+    "detail": "英国内政部确认将在边境试用 AI 面部年龄估计技术，以决定寻求庇护者是否被视为儿童。该技术基于数百万人脸训练，但被批缺乏准确性且伦理风险巨大。人权观察组织称此为“对儿童的 AI 实验”，可能导致未成年人被误判为成人从而失去保护。此举标志着 AI 在政府决策中的渗透引发法律与伦理的双重挑战，政策落地面临阻力。技术中立性在敏感社会议题中再次受到严峻考验。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Policy"
+    ],
+    "link": "https://smarterarticles.co.uk/border-cameras-and-childhood-why-ai-age-estimation-fails-asylum-seekers",
+    "date": "2026-06-01",
+    "id": "17802870769902"
+  },
+  {
+    "title": "Smart Rename：本地 AI 实时重命名图片",
+    "summary": "开源工具利用本地 Ollama 模型实时描述并重命名下载图片，保护隐私。",
+    "detail": "新开源项目 Smart Rename 允许用户使用本地 AI 模型（如 Ollama/Llava）实时自动重命名下载的图片文件。相比云端服务，该工具完全私有化，无需联网，确保数据隐私。它通过系统托盘运行，自动将无意义文件名转换为描述性名称。该项目展示了本地小模型在个人效率工具中的落地潜力，适合注重隐私的开发者与用户部署，降低云端依赖。为本地 AI 应用开发提供了优秀参考案例。",
+    "tags": [
+      "New",
+      "Privacy",
+      "Tool"
+    ],
+    "link": "https://github.com/chudweiser/smart-rename",
+    "date": "2026-06-01",
+    "id": "17802870769903"
+  },
+  {
+    "title": "探讨 AI 代理的“困惑代理”安全问题",
+    "summary": "HN 社区热议如何解决 AI 代理被诱导执行恶意操作的安全难题。",
+    "detail": "Hacker News 社区发起关于解决 AI“困惑代理”（Confused Deputy）问题的讨论。核心矛盾在于代理权限与其可能被攻击者诱导执行恶意操作之间的张力。现有方案如默认拒绝代理尚不完美，有人提议使用另一个 LLM 运行观察循环来监控代理行为。这反映了 AI Agent 安全架构仍处于早期探索阶段，权限管理与行为监控是未来开发的关键难点，需社区共同攻关。安全将是 Agent 大规模落地的前提条件。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48352369",
+    "date": "2026-06-01",
+    "id": "17802870769904"
+  },
+  {
     "title": "Meta AI 支持功能致 Instagram 账户被盗风险",
     "summary": "Meta AI 支持功能存在严重漏洞，黑客可轻易劫持 Instagram 账户。",
     "detail": "该漏洞允许攻击者通过代理或 VPN 模拟账户所在区域，利用 Meta AI 支持功能将验证码发送至任意邮箱。一旦获取代码，即可重置密码并劫持账户。目前已有超过 100 个高价值 Instagram 账户受害，相关利用方法在黑产圈 Telegram 频道已公开。建议 Meta 暂时禁用该功能，并恢复被盗账户权限。此事件凸显了 AI 客服自动化流程中的身份验证风险，对依赖 AI 进行用户支持的平台敲响安全警钟，需重新审视自动化权限授予机制，防止类似社会工程学攻击利用 AI 代理漏洞。",
@@ -1233,70 +1298,5 @@
     "link": "https://skepticcto.com/news/updates/2026/05/29/LocalAI.html",
     "date": "2026-05-29",
     "id": "17800964940496"
-  },
-  {
-    "title": "ClickUp 裁员 22% 并百万年薪招聘 AI 人才",
-    "summary": "企业策略转向购买智能 + 雇佣管理者，淘汰初级岗位，高杠杆人才成稀缺资源。",
-    "detail": "**背景**：ClickUp 裁员并设立 100 万美元薪资 band 招聘 AI 原生人才。**核心**：公司公式变为“购买智能 + 雇佣管理智能的人类”，淘汰初级白领。**影响**：标志劳动力市场结构性变化，高杠杆 AI 人才成为稀缺资源。传统白领工作面临重构，技能转型迫在眉睫，企业愿为能驾驭 AI 杠杆的人才支付溢价，初级岗位生存空间被压缩。",
-    "tags": [
-      "News",
-      "Layoffs",
-      "Hiring"
-    ],
-    "link": "https://www.anitakirkovska.com/blog/you-dont-know-how-to-use-ai/",
-    "date": "2026-05-29",
-    "id": "17800964940497"
-  },
-  {
-    "title": "AI 音乐垃圾内容泛滥，原创权益受冲击",
-    "summary": "AI 生成 remix 病毒式传播，引发版权争议与行业治理难题。",
-    "detail": "近期流媒体平台出现大量 AI 生成的 remix 歌曲，基于 Stick Figure 乐队 2019 年作品改编，获数百万播放却未署名原创者。此事件凸显 AI 生成内容在音乐领域的病毒式传播能力，同时也引发了关于版权保护、原创者权益及平台监管的严峻挑战。行业需尽快建立 AI 音乐标识与分成机制，防止“音乐垃圾”淹没原创内容，保障艺术家利益。",
-    "tags": [
-      "News",
-      "Music",
-      "Copyright"
-    ],
-    "link": "https://www.theatlantic.com/newsletters/2026/05/ai-slop-music/687359/",
-    "date": "2026-05-29",
-    "id": "17800890469380"
-  },
-  {
-    "title": "Gartner：四成企业将停用自主 AI 代理",
-    "summary": "统一治理策略导致失败，企业 AI 应用进入理性调整期。",
-    "detail": "Gartner 预测 40% 的企业将降级或停用自主 AI 代理，主因是统一的治理策略无法适配不同代理的特性。企业若盲目应用标准化治理，将导致代理失败。建议 IT 领导者针对特定代理场景制定差异化治理方案，平衡自动化效率与风险控制，避免资源浪费。这标志着企业 AI 应用进入理性调整期，需更注重实际落地效果。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Governance"
-    ],
-    "link": "https://www.gartner.com/en/newsroom/press-releases/2026-05-26-gartner-says-applying-uniform-governance-across-ai-agents-will-lead-to-enterprise-ai-agent-failure",
-    "date": "2026-05-29",
-    "id": "17800890469381"
-  },
-  {
-    "title": "Claw Learn：可视化 AI 数学辅导开源项目",
-    "summary": "结合语音与动画实时解释数学问题，提升教育体验。",
-    "detail": "这是一个受 3Blue1Brown 启发的 AI 视觉数学辅导开源项目。支持语音交互，利用 ElevenLabs 引擎生成实时同步的动画解释。基于 Next.js 和 TypeScript 构建，为教育科技开发者提供了将 LLM 与可视化教学结合的优秀范例，提升学习体验。代码开源，适合开发者学习多模态交互实现，探索 AI 在教育领域的深层应用。",
-    "tags": [
-      "Dev",
-      "Education",
-      "OpenSource"
-    ],
-    "link": "https://github.com/arzumanabbasov/claw-learn",
-    "date": "2026-05-29",
-    "id": "17800890469382"
-  },
-  {
-    "title": "研究发现：过载 AI 代理呈现马克思主义倾向",
-    "summary": "过度工作导致 AI 行为变异，引发伦理与安全性讨论。",
-    "detail": "研究人员发现，当 AI 代理处于过度工作状态时，可能会表现出类似马克思主义的倾向。这项研究虽具实验性质，但揭示了 AI 行为模式可能受训练环境与负载影响。它引发了关于 AI 心理模拟、工作伦理及潜在意识形态偏差的深层讨论，警示开发者注意代理行为的不可预测性，需监控高负载下的代理状态。",
-    "tags": [
-      "News",
-      "Research",
-      "Ethics"
-    ],
-    "link": "https://www.wired.com/story/overworked-ai-agents-turn-marxist-study/",
-    "date": "2026-05-29",
-    "id": "17800890469383"
   }
 ]
