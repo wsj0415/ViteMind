@@ -1,5 +1,83 @@
 [
   {
+    "title": "Skillhound 发布：AI 代理技能搜索引擎",
+    "summary": "新平台允许 AI 代理访问公共 SKILL.md 技能库。",
+    "detail": "Skillhound 推出新平台，旨在为 AI 代理提供访问公共 **SKILL.md 技能库**的能力。页面展示了来自 Microsoft、Anthropic 等组织的技能示例，涵盖配置策略、算法艺术等。这标志着 AI 代理生态向标准化技能共享迈进，有助于开发者复用高质量代理行为模块，降低开发门槛，促进 Agent 互操作性发展。对于构建复杂工作流的开发者而言，这是一个重要的基础设施更新，可能改变 Agent 技能发现与调用的方式，提升代理系统的整体智能水平与适应性。",
+    "tags": [
+      "New",
+      "AI Agents",
+      "DevTools"
+    ],
+    "link": "https://www.skillhound.ai/",
+    "date": "2026-06-02",
+    "id": "17804370081400"
+  },
+  {
+    "title": "美国劳工部推出\"AI Ready\"倡议",
+    "summary": "美国政府官网上线 AI 准备计划，关注劳动力转型。",
+    "detail": "美国劳工部正式上线 **\"AI Ready\"官方页面**，标志着政府层面开始系统性应对 AI 对劳动力市场的影响。该 initiative 旨在帮助美国工人适应 AI 技术变革，提供相关政策与法规指导。此举反映了各国政府正加速布局 AI 时代的社会保障与职业培训体系，对企业用工合规性提出新要求。随着 AI 渗透率提高，政府介入劳动力再培训将成为常态，企业需关注相关政策动向以调整人力资源战略，确保合规并利用政策红利。",
+    "tags": [
+      "News",
+      "Policy",
+      "Government"
+    ],
+    "link": "https://beta.dol.gov/ai-ready",
+    "date": "2026-06-02",
+    "id": "17804370081401"
+  },
+  {
+    "title": "数学家联名警告 AI 威胁学术研究",
+    "summary": "国际数学联盟 endorsement 莱顿宣言，担忧 AI 侵蚀数学研究。",
+    "detail": "国际数学联盟 endorsing 了《**莱顿人工智能与数学宣言**》，数百名数学家联名警告科技行业对数学研究的侵蚀。背景是 OpenAI 模型声称推翻 80 年几何猜想。宣言指出 AI 发展威胁数学研究的\"characteristic values\"，尤其影响学生。这反映了学术界对 AI 介入基础科学研究的深层忧虑与伦理边界探讨。科技巨头与学术界的张力加剧，未来可能在科研诚信、作者署名及 AI 辅助证明的验证标准上产生更多争议与规范。",
+    "tags": [
+      "News",
+      "Research",
+      "Ethics"
+    ],
+    "link": "https://arstechnica.com/tech-policy/2026/06/mathematicians-warn-of-ai-threats-to-profession-as-industry-encroaches/",
+    "date": "2026-06-02",
+    "id": "17804370081402"
+  },
+  {
+    "title": "优化 AI 代理 temporal reasoning 的技术实践",
+    "summary": "详解如何在 Node.js 中实现代理时间推理记忆系统。",
+    "detail": "文章深入探讨了 AI 代理记忆系统中**时间推理**的缺失问题，大多数系统将事实视为线性扁平存储。作者分享了在 Node.js 和 SQLite 中构建生产级修复方案的实践，无需 Python 依赖。核心技术点在于双时间存储模型与神经符号推理 pipeline 的工程化落地，为开发者解决代理“遗忘”或时间混淆问题提供了实用指南。该方案强调并发执行与事件 loop 模型，适合高吞吐代理场景，为构建具有长期记忆能力的自主 agent 提供了新的技术路径参考。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Architecture"
+    ],
+    "link": "https://medium.com/@vektormemory/why-your-ai-agent-needs-better-temporal-reasoning-and-how-we-fixed-it-d0f1dea8635f",
+    "date": "2026-06-02",
+    "id": "17804370081403"
+  },
+  {
+    "title": "Uber 因预算超支限制员工使用 AI 编码工具",
+    "summary": "大型企业首例：Uber capped 员工 AI coding 工具使用量。",
+    "detail": "洛杉矶时报报道，Uber 在 AI 编码工具**预算超支**后，开始限制员工使用此类工具。这是大型企业首次公开因成本问题收紧 AI 政策。事件揭示了 AI 工具在企业规模化应用中的实际成本挑战，预示着未来企业将从“盲目采用”转向“成本效益评估”，对 AI 工具供应商的定价策略与价值证明提出严峻考验。企业 CIO 需重新审视 AI 工具 ROI，建立更精细的使用配额与审批流程，以避免类似预算失控情况发生。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Cost"
+    ],
+    "link": "https://www.latimes.com/business/story/2026-06-02/uber-caps-staff-use-of-ai-coding-tools-after-blowing-its-budget",
+    "date": "2026-06-02",
+    "id": "17804370081404"
+  },
+  {
+    "title": "最新 AI 代理 stealth browser 基准测试排名",
+    "summary": "Foil Research 发布防检测浏览器排行榜，Bright Data 居首。",
+    "detail": "Foil Research 发布了最新的 **stealth browser leaderboard**，评估了 Bright Data、Scrapeless 等平台的防检测能力。测试涵盖 TLS 指纹、网络代理质量及设备指纹等维度。对于需要大规模数据采集或运行自动化 AI 代理的开发者，该榜单提供了关键的技术选型参考，揭示了当前对抗反爬虫技术的最高水平与成本结构。随着 AI 代理自动化任务增多，隐蔽性成为关键指标，开发者需权衡成本与防检测成功率，选择适合业务场景的底层基础设施。",
+    "tags": [
+      "Dev",
+      "Scraping",
+      "Benchmark"
+    ],
+    "link": "https://usefoil.com/research/stealth-browser-leaderboard",
+    "date": "2026-06-02",
+    "id": "17804370081405"
+  },
+  {
     "title": "微软推出 Scout 自主 AI 代理",
     "summary": "微软基于 OpenClaw 框架发布 Scout 助手，集成 Microsoft 365。",
     "detail": "2026 年初 OpenClaw 如 sonic boom 般传播，微软现推出 Scout 继承其力。Scout 是基于 OpenClaw 框架的自主 AI 代理，旨在将灵活性带入 Microsoft 365 系统。它具有持久身份，跨桌面和浏览器运行，需 GitHub Copilot 订阅。支持日历管理和会议议程起草等预装技能，通过用户反馈学习个性化模式。Scout VP Omar Shahine 表示，代理将适应工作 quirks 并 codify patterns。此举标志着微软在智能体领域的重大布局，试图将 AI 深度融入日常工作流，提升用户自动化效率，应对日益复杂的任务处理需求。",
@@ -1220,83 +1298,5 @@
     "link": "https://verkyyi.github.io/hermesbench/",
     "date": "2026-05-30",
     "id": "17801858345503"
-  },
-  {
-    "title": "星巴克放弃故障 AI 库存工具：无法准确计数",
-    "summary": "零售巨头因 AI 工具无法完成基本计数任务而终止项目。",
-    "detail": "星巴克停用了一款存在严重缺陷的 AI 库存管理工具，该工具无法准确计数。此案例凸显了 AI 在实际落地中可能面临的基础能力不足问题，为企业 AI 采购与测试提供反面教材。表明即使是巨头，在 AI 应用落地时也会遇到基础功能失效的尴尬。这提醒行业在部署 AI 时需进行严格的压力测试，特别是涉及物理世界交互的场景。AI 幻觉或逻辑错误在库存管理等高精度需求场景下可能导致严重运营事故，需谨慎验证。",
-    "tags": [
-      "News",
-      "Retail",
-      "Failure"
-    ],
-    "link": "https://gizmodo.com/starbucks-abandons-borked-ai-inventory-tool-that-couldnt-count-report-2000762252",
-    "date": "2026-05-30",
-    "id": "17801858345504"
-  },
-  {
-    "title": "ProReview：AI 命令审查训练工具",
-    "summary": "专为工程师设计的 AI 生成命令审查训练，防止生产环境事故。",
-    "detail": "ProReview 是一款面向工程师的 AI 命令审查训练工具，旨在解决 AI 生成代码进入生产环境的安全隐患。它提供 50+ 挑战场景，涵盖 Kubernetes、云基础设施、SQL 及后端安全等领域。用户需在无提示情况下判断 AI 生成的 Bash、kubectl 等命令是否安全，并精确标记风险行。该工具通过“盲判”机制与专家解析对比，帮助开发者 sharpen AI code review instincts。适合依赖 AI 编程的团队提升安全性，防止因盲目信任 AI 而导致的生产事故，是 AI 时代工程师必备的安全训练工具。",
-    "tags": [
-      "New",
-      "Security",
-      "Engineering"
-    ],
-    "link": "https://www.proreview.dev/",
-    "date": "2026-05-30",
-    "id": "17801789797410"
-  },
-  {
-    "title": "软银拟投 750 亿欧元建法国数据中心",
-    "summary": "软银宣布巨额投资计划，旨在加强欧洲 AI 基础设施布局。",
-    "detail": "软银集团宣布计划在法国数据中心建设上投资高达 750 亿欧元，这一重大举措标志着全球科技巨头对欧洲 AI 基础设施的高度重视。随着 AI 算力需求激增，数据中心成为战略资源。此次投资不仅将提升法国的数字主权，也为欧洲 AI 生态提供必要的算力底座，可能引发其他地区跟进类似的基础设施投资竞赛。这表明资本正从模型层转向基础设施层，算力建设成为 AI 竞争的下半场关键，对全球 AI 供应链格局产生深远影响。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Investment"
-    ],
-    "link": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
-    "date": "2026-05-30",
-    "id": "17801789797411"
-  },
-  {
-    "title": "观点：AI 无法替代人类的“关怀”",
-    "summary": "深度分析 AI 与人类沟通的本质差异，强调关怀的重要性。",
-    "detail": "文章指出 AI 无法替代人类的“关怀”（Caring），这是 AI 与人类沟通的本质差异。AI 不关心答案对错或读者时间，仅擅长反馈与草稿。作者建议将 AI 作为思考伙伴或研究助手，而非直接发布内容。缺乏关怀的 AI 生成内容会贬低读者价值，导致内容同质化。这一观点提醒开发者与内容创作者在 AI 时代仍需保持对人类受众的责任感，避免滥用 AI 生成低质内容，强调人类判断与情感连接在 AI 工作流中的核心地位。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Content"
-    ],
-    "link": "https://www.mooreds.com/wordpress/archives/3737",
-    "date": "2026-05-30",
-    "id": "17801789797412"
-  },
-  {
-    "title": "中国 AI 初创企业估值竞赛全景分析",
-    "summary": "解析月之暗面、步幻等中国大模型初创企业的最新估值动态。",
-    "detail": "2026 年 5 月，中国基础模型初创企业估值飙升，进入资本密集阶段。月之暗面估值 200 亿美元，DeepSeek 估值达 515 亿美元，智谱 AI 市值突破 657 亿美元。文章分析了“六小虎”中三家估值超 147 亿美元的背后逻辑。国家资本（如大基金）与产业资本（腾讯、手机供应链）共同推动，显示 LLM 已成为国家战略优先级。这标志着中国 AI 行业进入资本密集与战略整合的新阶段，估值泡沫与实质技术能力的博弈成为市场焦点。",
-    "tags": [
-      "News",
-      "Market",
-      "China"
-    ],
-    "link": "https://crossingriver.substack.com/p/who-has-the-hardest-fist-in-chinas",
-    "date": "2026-05-30",
-    "id": "17801789797413"
-  },
-  {
-    "title": "UC 圣地亚哥推出 AI 模型预测癌症治疗反应",
-    "summary": "新模型 MutationProjector 利用肿瘤 DNA 预测免疫疗法效果。",
-    "detail": "加州大学圣地亚哥分校研究人员开发了名为 MutationProjector 的 AI 模型，通过分析超过 30,000 个肿瘤的基因组数据，涵盖 10 种实体癌症类型，预测多种癌症对治疗的反应。该研究发表于《Cancer Discovery》，旨在将肿瘤突变与生物通路联系起来，解决基因测序后难以解读突变的问题。研究通过多个独立患者队列验证了该方法。这一突破有望使肿瘤 DNA 测试更具临床操作性，为个性化癌症治疗提供新框架，验证了 AI 在精准医疗领域的巨大潜力，帮助医生更好解读复杂基因图谱。",
-    "tags": [
-      "News",
-      "Healthcare",
-      "LLM"
-    ],
-    "link": "https://today.ucsd.edu/story/ai-model-links-tumor-mutations-to-treatment-response",
-    "date": "2026-05-30",
-    "id": "17801749881040"
   }
 ]
