@@ -1,5 +1,83 @@
 [
   {
+    "title": "美国提出 AI 主权财富基金法案，拟共享技术红利",
+    "summary": "伯尼桑德斯提议建立基金，持有 AI 公司股份回馈公众。",
+    "detail": "美国参议员伯尼·桑德斯推出《美国 AI 主权财富基金法案》视频介绍。该法案旨在通过国家基金持有 AI 公司股份，将技术红利回馈公众，缓解自动化带来的财富分配不均。此举反映政策层面对 AI 垄断及社会影响的担忧，可能改变科技巨头资本结构，影响未来 AI 产业投资格局及政府干预力度。若通过，将开创政府直接参与 AI 经济收益分配的先河，引发全球政策跟进讨论。",
+    "tags": [
+      "News",
+      "Policy",
+      "Government"
+    ],
+    "link": "https://www.youtube.com/watch?v=VN4b4UCWMKI",
+    "date": "2026-06-02",
+    "id": "17803730777822"
+  },
+  {
+    "title": "Meta AI 客服系统提示词遭泄露，暴露内部指令",
+    "summary": "GitHub 曝光 Meta 支持代理完整指令，含语言规则及诊断流程。",
+    "detail": "GitHub 仓库泄露 Meta AI 支持系统的完整 Prompt。文件详细规定了代理的任务使命、语言匹配最高优先级及问题诊断流程。强调必须使用用户语言回复，且禁止询问已知产品信息，直接Proceed 到 Domain Agent Ranker。此次泄露暴露了大厂内部 Prompt 工程细节，为开发者优化客服机器人提供参考，亦引发数据安全讨论。显示 Meta 在 AI 客服自动化上的深度集成，但也提示内部系统保密性风险。",
+    "tags": [
+      "News",
+      "Security",
+      "Prompt"
+    ],
+    "link": "https://github.com/michaelcummings12/meta-ai-support-prompt/blob/main/system-prompt.md",
+    "date": "2026-06-02",
+    "id": "17803730777823"
+  },
+  {
+    "title": "Memex 推出本地优先 AI 日记应用，主打数据隐私",
+    "summary": "开源项目，数据本地存储，支持自带 LLM，保护用户隐私。",
+    "detail": "开源项目 Memex 发布本地优先 AI 日记应用，支持 iOS 和 Android。用户捕捉文本、照片及语音，由 AI 代理整理为时间线卡片。核心优势是数据完全留存设备，支持接入 OpenAI、Ollama 等模型，无需上传云端。顺应隐私保护趋势，为个人知识管理提供去中心化解决方案，适合注重数据主权的用户。展示了端侧 AI 应用的成熟度，降低了对中心化服务的依赖，提升用户体验安全感。",
+    "tags": [
+      "New",
+      "OpenSource",
+      "Privacy"
+    ],
+    "link": "https://github.com/memex-lab/memex",
+    "date": "2026-06-02",
+    "id": "17803730777825"
+  },
+  {
+    "title": "星巴克数月后停用 AI 代理，商业落地失败案例",
+    "summary": "雅虎财经报道商业落地失败案例，提示企业需审慎评估 ROI。",
+    "detail": "雅虎财经报道星巴克在部署 AI 代理仅数月后悄然停用。这是企业级 AI 应用落地的典型失败案例，表明当前技术在复杂客户服务场景中仍存在局限性。可能原因包括体验不佳、成本过高或无法处理复杂请求，导致用户满意度下降。该事件为行业提供宝贵教训，提示企业在 AI 落地时需审慎评估 ROI 及用户体验，避免盲目跟风。真实场景的复杂性远超实验室环境，需持续迭代优化。",
+    "tags": [
+      "News",
+      "Business",
+      "CaseStudy"
+    ],
+    "link": "https://finance.yahoo.com/sectors/technology/articles/starbucks-quietly-retired-ai-agent-192259096.html",
+    "date": "2026-06-02",
+    "id": "17803730777827"
+  },
+  {
+    "title": "Bloc 发布 AI 视频画布编辑器，颠覆时间轴模式",
+    "summary": "颠覆时间轴模式，采用画布编辑，支持局部修改无需重生成。",
+    "detail": "Bloc 推出新型 AI 视频工具，摒弃传统时间轴范式，转而采用无限画布编辑模式。用户可独立控制视频中的每个区块，修改局部内容无需重生成整体视频，显著降低迭代成本。产品集成 Seedance 2.0、Claude 4 及 GPT Image 2 等前沿模型，并提供 250 免费积分无需绑卡。旨在解决广告 agency、企业培训及自由职业者在视频修改中成本高、效率低的痛点，通过盒级控制提升视频生产灵活性与边际收益，代表 AI 视频编辑新方向。",
+    "tags": [
+      "New",
+      "Video",
+      "Product"
+    ],
+    "link": "https://vidbloc.com/",
+    "date": "2026-06-01",
+    "id": "17803730777820"
+  },
+  {
+    "title": "AI 发现 X.Org 服务器九个安全漏洞，展示审计能力",
+    "summary": "Phoronix 报道 AI 辅助挖掘出 Linux 图形服务器漏洞，修复紧迫。",
+    "detail": "Phoronix 报道 X.Org 服务器在六月伊始被发现九个新安全漏洞，均由 AI 辅助发现。这展示了 AI 在代码审计和安全挖掘方面的实际能力。漏洞涉及 Linux 图形系统核心，修复紧迫，影响广泛。此事件印证 AI 工具在网络安全领域的双刃剑效应，既助防御也可能被用于攻击，推动安全运维智能化。开发者需重视 AI 辅助代码审查，同时加强对 AI 生成代码的安全性验证，防止引入新风险。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Linux"
+    ],
+    "link": "https://www.phoronix.com/news/X.Org-9-Vulnerabilities-AI",
+    "date": "2026-06-01",
+    "id": "17803730777826"
+  },
+  {
     "title": "Alphabet 计划筹资 800 亿美元加速 AI 基础设施建设",
     "summary": "Google 母公司 Alphabet 计划通过股票销售筹集 800 亿美元，主要用于 AI 基础设施扩建。",
     "detail": "2026 年 AI 基础设施竞赛已进入白热化阶段，算力成为核心战略资源。Google 母公司 Alphabet 宣布计划通过股票销售筹集高达 800 亿美元资金，而非采用债务融资，这一举动显示了管理层对 AI 投资长期回报的强烈信心。筹集的资金将主要用于全球数据中心的建设和算力规模的急剧扩容，以支持下一代模型训练。此举旨在巩固其在生成式 AI 领域的领先地位，有效应对微软等竞争对手的挑战，标志着科技巨头对 AI 长期投入的决心，可能进一步推高行业资本支出门槛，重塑竞争格局。",
@@ -362,6 +440,19 @@
     "link": "https://news.ycombinator.com/item?id=48352369",
     "date": "2026-06-01",
     "id": "17802870769904"
+  },
+  {
+    "title": "SpaceX 计划发射百万 AI 卫星，引发末日风险担忧",
+    "summary": "福布斯报道大规模部署可能带来安全风险，超出人类监控。",
+    "detail": "福布斯报道 SpaceX 承诺发射 100 万颗 AI 卫星，引发末日风险担忧。大规模星座部署可能加剧太空拥堵及潜在军事化风险。文章指出 AI 与卫星网络结合可能超出人类监控能力，导致不可控后果，如自动碰撞或信号干扰。该计划若实施，将极大改变近地轨道生态，对全球通信及安全架构产生深远影响。行业需平衡技术创新与太空可持续性，避免重蹈地面 AI 安全覆辙。",
+    "tags": [
+      "News",
+      "Space",
+      "Risk"
+    ],
+    "link": "https://www.forbes.com/sites/kevinholdenplatt/2026/05/31/spacex-vow-to-loft-1-million-ai-satellites-could-spark-doomsday-dive/",
+    "date": "2026-05-31",
+    "id": "17803730777824"
   },
   {
     "title": "华盛顿邮报：AI 小说是人类思维的“新快餐”",
@@ -1207,96 +1298,5 @@
     "link": "https://silkdock.ai/rankings",
     "date": "2026-05-30",
     "id": "17801687965535"
-  },
-  {
-    "title": "GitHub Copilot 改用 Token 计费引发开发者不满",
-    "summary": "微软 GitHub Copilot 新政按 Token 收费，开发者社区反响强烈。",
-    "detail": "科技界迎来重大变动，Microsoft 旗下的 GitHub Copilot 宣布结束黄金时代，正式转向基于 Token 的新计费模式。此举在开发者社区引发广泛担忧与不满，新闻标题直言\"What a joke\"。被视为 AI 编程助手商业化进程中的关键转折点。行业分析师关注此定价策略变更对开发者采用率及微软 AI 营收预期的潜在影响，标志着 AI 工具从免费增值向精细化运营的重大转变，可能重塑企业级代码辅助服务的市场格局，开发者需重新评估成本预算。此变化也可能促使团队寻找替代方案或优化 Token 使用策略，以应对日益增长的 AI 辅助开发成本压力。",
-    "tags": [
-      "News",
-      "GitHub",
-      "Billing"
-    ],
-    "link": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
-    "date": "2026-05-30",
-    "id": "17801608729370"
-  },
-  {
-    "title": "OpenAI IPO 前夕：呼吁保护 AI 工程创新成果",
-    "summary": "针对 OpenAI 上市风险，建议开发者开源核心工程创新以防泡沫破裂。",
-    "detail": "随着 OpenAI IPO 进程推进，行业观察家警告 AI 泡沫破裂风险激增。文章呼吁 AI 从业者将核心工程创新（如数据格式分析库、GPU 任务编排工具）发布为开源软件（FOSS）。此举旨在确保即便市场波动，技术成果仍能留存并长期造福软件生态，反映了社区对当前 AI 商业化稳定性的深层忧虑。作者建议搜索灵魂，favor building with Guile Wisp，以确保创新在潜在的市场崩盘中幸存下来，为未来几十年软件改进保留火种。这是在资本市场狂热背景下，技术人员对知识资产保全的一种理性防御策略，强调开源精神在动荡时期的重要性。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "IPO"
-    ],
-    "link": "https://www.draketo.de/software/innovations-survival",
-    "date": "2026-05-30",
-    "id": "17801608729371"
-  },
-  {
-    "title": "NBER 研究：AI 时代数据中心对地方经济的影响",
-    "summary": "NBER 发布新论文，分析 AI 数据中心建设与当地经济发展的关联。",
-    "detail": "美国国家经济研究局（NBER）发布最新工作论文，采用 shift-share 方法深入研究 AI 时代数据中心与地方经济的关系。该研究探讨了基础设施投资如何转化为当地经济增长，为政策制定者和投资者提供了关于 AI 硬件部署经济外部性的关键数据支持。这是理解 AI 基础设施宏观影响的重要参考资料，揭示了算力中心建设对区域就业、税收及产业链的潜在拉动作用，为 AI 基建投资提供了经济学理论依据。研究还可能涉及能源消耗与地方经济的平衡，为可持续 AI 发展提供政策参考，是宏观经济学与 AI 产业交叉领域的重要成果。",
-    "tags": [
-      "News",
-      "Research",
-      "Economy"
-    ],
-    "link": "https://www.nber.org/papers/w35194",
-    "date": "2026-05-30",
-    "id": "17801608729372"
-  },
-  {
-    "title": "MigraDiff v1.3.0：AI 辅助 PostgreSQL 迁移解释",
-    "summary": "数据库工具更新，支持 AI 生成迁移说明及迁移文件夹管理。",
-    "detail": "开源数据库工具 MigraDiff 发布 v1.3.0 版本，新增 AI 驱动的迁移解释功能。该更新允许开发者在 PostgreSQL 模式差异对比中获得智能说明，并支持迁移文件夹管理。对于需要维护复杂数据库架构的团队，此功能显著降低了理解 schema 变更的认知负荷，提升了 DevOps 流程中数据库迁移的安全性与效率。这是 AI 赋能数据库运维的具体落地案例，帮助团队更好地管理版本控制与 schema 演进。通过 AI 解释迁移逻辑，减少了人为错误风险，特别适合大型团队协作场景，体现了 AI 在垂直开发工具链中的深度集成趋势，降低了数据库维护的技术门槛。",
-    "tags": [
-      "Dev",
-      "Database",
-      "PostgreSQL"
-    ],
-    "link": "https://github.com/migradiff/migra/releases/tag/v1.3.0",
-    "date": "2026-05-30",
-    "id": "17801608729373"
-  },
-  {
-    "title": "GrokImage.ai：免费多模型 AI 图像生成工具",
-    "summary": "支持 Grok 及 Gemini 模型，注册即送免费积分无需信用卡。",
-    "detail": "新型 AI 图像生成平台 GrokImage.ai 上线，整合 Grok Imagine、Nano Banana 及 Gemini 等多种模型。平台主打免费试用策略，提供免费积分且无需绑定信用卡，支持商业授权。对于寻求低成本内容创作解决方案的用户，该工具提供了 photorealism 及文本生成图像的多重选择，降低了 AI 绘图的使用门槛。网站显示已有 50,000+ 创作者使用，生成超过 200 万张图片，展示了其在消费级 AI 应用市场的快速渗透能力。支持 AI 视频生成新功能，进一步拓展了多媒体创作边界，是近期值得关注的免费 AI 生产力工具之一，适合个人创作者及小型团队尝试。",
-    "tags": [
-      "New",
-      "ImageGen",
-      "Free"
-    ],
-    "link": "https://grokimage.ai/",
-    "date": "2026-05-30",
-    "id": "17801608729374"
-  },
-  {
-    "title": "通用智能初创 Generalist 获关注，核心团队来自 OpenAI 与 DeepMind",
-    "summary": "新公司 Generalist 致力于物理世界通用智能，创始团队汇聚顶尖 AI 与机器人专家。",
-    "detail": "Generalist 是一家新成立的 AI 公司，专注于为物理世界构建通用智能。其创始团队背景显赫，包括来自 OpenAI、Google DeepMind 和 Boston Dynamics 的工程师。该公司将大规模 AI 模型与机器人技术作为核心 DNA，旨在弥合数字智能与物理行动之间的鸿沟。这一动向表明 AI 行业正从纯软件模型向具身智能（Embodied AI）加速转型。顶级人才的流向预示着该赛道将成为未来竞争焦点，物理世界智能化将是继大语言模型后的又一关键战场，标志着 AI 落地进入深水区。",
-    "tags": [
-      "New",
-      "Robotics",
-      "Startup"
-    ],
-    "link": "https://www.youtube.com/channel/UCwV9z8IGmbUQUb5D8KSv3mQ",
-    "date": "2026-05-30",
-    "id": "17801403358240"
-  },
-  {
-    "title": "深度思考：AI 编程代理是否在削弱开发者的直觉与品味？",
-    "summary": "系统架构师撰文指出，AI 编码代理虽提升效率，但可能剥夺开发者通过调试建立直觉的过程。",
-    "detail": "一位系统架构师在文中反思了 AI 编码代理（如 Claude Code）对开发者成长的影响。他认为，传统的编程学习依赖于通过失败和调试获得的“多巴胺奖励”，这一过程培养了直觉和品味。而 AI 代理以代币换取即时结果，可能导致“构建者精神病”，即人人都在构建但无人真正进步。文章警告行业需警惕效率提升背后的能力退化风险，呼吁在利用 AI 的同时保留深度思考的空间，避免过度依赖工具导致核心工程能力的丧失。这对技术团队的管理提出了新挑战，如何在效率与成长之间找到平衡点是关键。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Career"
-    ],
-    "link": "https://shivekkhurana.com/blog/coding-agent-dopamine/",
-    "date": "2026-05-30",
-    "id": "17801403358241"
   }
 ]
