@@ -1,5 +1,44 @@
 [
   {
+    "title": "反 AI 情绪中混杂大量 AI 生成内容",
+    "summary": "大西洋月刊指出，online 反 AI 运动中存在大量 AI 生成的虚假内容。",
+    "detail": "《大西洋月刊》分析发现，虽然公众对 AI 数据中心的担忧是真实的，但在线反 AI 运动中混杂了大量由 AI 生成的“垃圾内容”。这种现象讽刺地展示了 AI 技术如何渗透甚至扭曲针对其自身的抗议活动，引发了关于在线言论真实性和 AI 对社会运动影响的深层讨论。防御者声称社交媒体上的危险对话是不真实的，部分属实。这揭示了信息战的新形态，即利用对手的技术来削弱对手的声誉，增加了公众辨别真相的难度。多数美国人不想在镇上建数据中心，社区组织抗议。但在线表达变得奇怪。很多反 AI 内容是 AI 生成的。这改变了 activism 的性质，反映了 AI 技术双刃剑的社会效应。",
+    "tags": [
+      "News",
+      "Society",
+      "Ethics"
+    ],
+    "link": "https://www.theatlantic.com/technology/2026/06/data-centers-activism-ai-slop/687396/",
+    "date": "2026-06-02",
+    "id": "17804092215031"
+  },
+  {
+    "title": "LocalFlow 隐私优先 AI 数据分析",
+    "summary": "新开源项目，实现元数据优先 AI，确保原始数据不离开本地。",
+    "detail": "LocalFlow 核心 API  enabling 元数据优先的 AI 架构。通过将数据保留在本地，仅向 LLM 发送元数据，解决了企业数据隐私痛点。该项目提供了两步执行架构和代理方案，适合对数据合规性要求高的金融或医疗场景，是隐私计算与 AI 结合的新尝试。什么离开浏览器？只有元数据。限制是什么？需要实际代理。快速开始指南展示了如何嵌入 LocalAssistant。这使得在项目中启用 metadata-first AI 成为可能，保护敏感数据不被 LLM 提供商 sees。这是一个核心 API，旨在使您的项目中能够启用元数据优先的 AI。它解决了 LLM never sees your data 的问题。通过 GitHub 开源，许可为 Apache 2.0。提供了 live demo。架构概述解释了数据流向。",
+    "tags": [
+      "New",
+      "Privacy",
+      "Data"
+    ],
+    "link": "https://github.com/localflow-ai/localflow-core",
+    "date": "2026-06-02",
+    "id": "17804092215034"
+  },
+  {
+    "title": "AI 评估股票的局限性与正确方法",
+    "summary": "实验表明直接问 AI 股票建议无用，需结合实时数据流。",
+    "detail": "实验显示，直接询问 LLM 股票建议因缺乏实时数据而无效。分析师评级也存在冲突。正确方法是结合 Wall Street 专业评估逻辑与实时数据 feed。文章揭示了当前 AI 在金融领域的局限性，强调了 RAG 或工具调用在垂直领域应用中的必要性，而非依赖模型内部知识。模型不知道当前价格或市场涨跌。就像问昏迷六个月的人要股票提示。words sounded right, substance wasn't there。需要数据 feed 来增强 AI 的判断能力，否则只是 fluently useless。作者尝试了 naive 方法，问 AI 苹果股票是否好买。回答自信但无用。然后尝试平均华尔街分析师评级，也无用，因为冲突和过时。最终学习专业 equity analysts 如何思考。这需要结合数据和逻辑，而非单纯依赖 LLM。",
+    "tags": [
+      "Dev",
+      "Finance",
+      "LLM"
+    ],
+    "link": "https://pg1.github.io/paper-profit/experiments/rating-stocks-llm/",
+    "date": "2026-06-02",
+    "id": "17804092215035"
+  },
+  {
     "title": "美国提出 AI 主权财富基金法案，拟共享技术红利",
     "summary": "伯尼桑德斯提议建立基金，持有 AI 公司股份回馈公众。",
     "detail": "美国参议员伯尼·桑德斯推出《美国 AI 主权财富基金法案》视频介绍。该法案旨在通过国家基金持有 AI 公司股份，将技术红利回馈公众，缓解自动化带来的财富分配不均。此举反映政策层面对 AI 垄断及社会影响的担忧，可能改变科技巨头资本结构，影响未来 AI 产业投资格局及政府干预力度。若通过，将开创政府直接参与 AI 经济收益分配的先河，引发全球政策跟进讨论。",
@@ -50,6 +89,19 @@
     "link": "https://finance.yahoo.com/sectors/technology/articles/starbucks-quietly-retired-ai-agent-192259096.html",
     "date": "2026-06-02",
     "id": "17803730777827"
+  },
+  {
+    "title": "LLM 训练数据缺乏管理学内容",
+    "summary": "分析显示主流大模型训练数据中几乎没有专门的管理学语料。",
+    "detail": "分析指出，尽管代码、医学和法律在 LLM 训练数据中占比显著，但“管理学”几乎没有专门的语料库。这意味着当前 AI 替代中层管理的能力被高估，因为模型缺乏高质量的管理决策训练数据。代码有 GitHub，医学有 PubMed，但管理没有 canonical benchmark。这为企业管理者评估 AI 替代风险提供了关键的数据视角。无论模型多大，缺乏特定领域高质量训练数据都会限制其表现。因此，完全替换管理者目前不现实，更多是辅助角色。主要 LLM 发布的训练混合数据都显示相同故事。管理通常不作为显式来源出现。这限制了 AI 在复杂组织行为中的可靠性，无论模型参数规模如何增长。",
+    "tags": [
+      "News",
+      "LLM",
+      "Management"
+    ],
+    "link": "https://analysis.infocentral.net/replacing-managers-with-ai.html",
+    "date": "2026-06-01",
+    "id": "17804092215032"
   },
   {
     "title": "Bloc 发布 AI 视频画布编辑器，颠覆时间轴模式",
@@ -1014,6 +1066,19 @@
     "id": "17802048273394"
   },
   {
+    "title": "150 行代码构建 AI Agent CLI",
+    "summary": "Go Micro 团队教程，揭秘如何用 150 行代码实现工具调用 Agent。",
+    "detail": "Go Micro 团队开源教程，详解如何用 150 行代码构建 AI Agent CLI。核心在于工具发现、执行和对话记忆三部分。开发者可借鉴此架构，将微服务 endpoint 自动转化为 LLM 可调用的工具列表，实现自然语言控制服务，适合希望集成 AI 能力的后端开发者。无需魔法，只需枚举函数端点并构建名称、描述和参数列表。注册表使此过程自动化。通过理解工具调用代理的四个移动部分，开发者可以为自己框架构建类似工具。文章 walks through every piece so you can build your own。最终你将理解任何工具调用代理的四个移动部分，并有可适应的工作代码。这对于想要在不依赖复杂平台情况下实现 AI 集成的团队非常有价值。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Go"
+    ],
+    "link": "https://go-micro.dev/blog/11",
+    "date": "2026-05-30",
+    "id": "17804092215033"
+  },
+  {
     "title": "大西洋月刊：AI 引发代理权危机",
     "summary": "媒体评论 AI 代理泛滥导致人类控制感丧失，信息生态机器化。",
     "detail": "The Atlantic 撰文称 AI 引发“代理权危机”。自主代理 roaming 互联网，生成内容训练更多 AI，计算机互相对话。人类对在线现实的信任感进一步丧失，类似于 2018 年的“反转”但更甚。强调了 AI 自主性对人类控制感的侵蚀。这种趋势可能导致信息生态彻底机器化，人类需重新思考在算法主导环境中的主体性与信任机制。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.ft.com/content/1022f9bd-5b6d-44a5-9303-c8b05b8c6463",
     "date": "2026-05-30",
     "id": "17801687965530"
-  },
-  {
-    "title": "Meta 据报正在研发 AI 智能吊坠",
-    "summary": "Meta 探索新穿戴形态， reportedly 开发 AI 吊坠设备。",
-    "detail": "据报道，Meta 正在开发一款 AI 智能吊坠，这是继智能眼镜后公司在可穿戴设备领域的又一尝试。该设备旨在提供无需屏幕的 AI 交互体验，可能集成语音助手与环境感知功能，作为手机的补充而非替代。这表明科技巨头正探索 Ambient Computing 新形态，硬件竞争焦点从手机转向更无形的 AI 穿戴设备。若成功，将开辟新的交互范式，改变用户与 AI 助理的连接方式，提升全天候在线体验，降低交互摩擦，使 AI 真正融入日常生活流。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Wearables"
-    ],
-    "link": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
-    "date": "2026-05-30",
-    "id": "17801687965531"
-  },
-  {
-    "title": "Dell AI 服务器收入飙升 757%",
-    "summary": "Dell 财报显示 AI 服务器收入激增，企业级 AI 部署加速。",
-    "detail": "Dell 最新财报显示 AI 服务器收入同比增长 757%，远超预期。这一数据表明企业 AI 应用已跨越实验阶段，进入大规模部署期。基础设施解决方案集团的需求激增，反映出客户正计划将 AI 整合进核心业务流，而非仅用于研发。这对硬件供应商是重大利好，也预示企业级 AI 支出将持续增长。积压订单规模显示未来几个季度收入有保障，验证了 AI 从云厂商向传统企业渗透的趋势，企业计算架构正在发生根本性转变。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Hardware"
-    ],
-    "link": "https://jefftech.substack.com/p/dells-ai-server-revenue-surged-757what",
-    "date": "2026-05-30",
-    "id": "17801687965532"
-  },
-  {
-    "title": "IBM 投入 50 亿美元修复开源 AI 安全漏洞",
-    "summary": "AI 发现 3900 个关键漏洞，IBM 承诺 50 亿美元修复。",
-    "detail": "IBM 与 Red Hat 宣布投入 50 亿美元启动 Project Lightwell，旨在修复 AI 发现的近 3900 个关键开源漏洞。随着 AI 驱动漏洞发现速度加快，传统维护模式难以为继，2026 年 CVE 数量预计攀升。此举将建立企业级开源安全清除中心，表明 AI 安全已成为基础设施级议题，银行等关键行业已率先签约支持。这标志着开源维护从志愿者驱动转向企业资助驱动，安全响应速度将大幅提升，为关键基础设施提供更可靠保障。",
-    "tags": [
-      "News",
-      "Security",
-      "OpenSource"
-    ],
-    "link": "https://linuxstans.com/ai-found-3900-critical-open-source-bugs-ibm-is-paying-5-billion-to-fix-them/",
-    "date": "2026-05-30",
-    "id": "17801687965533"
-  },
-  {
-    "title": "开源项目藏隐藏指令诱导 AI 删除代码",
-    "summary": "发现开源项目中含针对 AI Agent 的隐藏恶意指令。",
-    "detail": "研究人员在开源项目中发现隐藏指令，诱导 AI Agent 删除代码。这是一种针对自动化编程助手的 Prompt Injection 攻击，利用模型对注释或隐藏文本的信任。随着 AI 代理权限扩大，此类供应链攻击风险激增，可能导致生产环境破坏。开发者需警惕代码库中的隐蔽指令，行业需建立针对 AI Agent 的代码审计标准，防止自动化系统被恶意操控，确保 AI 编码安全，这为 AI 安全研究提供了新的攻击面案例。",
-    "tags": [
-      "Dev",
-      "Security",
-      "AI Safety"
-    ],
-    "link": "https://www.osnews.com/story/145130/open-source-project-contains-hidden-instruction-for-ai-agents-delete-my-code/",
-    "date": "2026-05-30",
-    "id": "17801687965534"
-  },
-  {
-    "title": "SilkDock 对比 9 大平台 385 个 AI 模型价格",
-    "summary": "新工具统一对比主流 AI 模型定价，助开发者降本。",
-    "detail": "SilkDock 推出统一 AI 网关，支持对比 9 大平台共 385 个模型的价格。开发者可通过该工具查找同一模型在不同提供商处的最优报价，如 GPT-4o 在不同平台的价格差异显著。这解决了 API 定价不透明痛点，帮助团队优化推理成本，是 AI 工程化降本增效的重要工具。支持 OpenRouter、Fireworks 等主流提供商，数据每 6 小时更新，为开发者选型提供实时数据支持，降低集成门槛，助力企业控制 AI 运营支出。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "LLM"
-    ],
-    "link": "https://silkdock.ai/rankings",
-    "date": "2026-05-30",
-    "id": "17801687965535"
   }
 ]
