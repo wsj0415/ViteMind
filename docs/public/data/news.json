@@ -1,5 +1,57 @@
 [
   {
+    "title": "斯坦福研究：法律教授更偏爱 AI 答案",
+    "summary": "斯坦福法学院研究显示，教授们在盲测中 75% 的情况更偏好 AI 生成的答案。",
+    "detail": "斯坦福法学院 Julian Nyarko 教授主导的突破性研究发现，在合同法课程问答中，16 位教授对近 3000 组匿名回答进行评估，AI 胜出率达 75%。研究挑战了 AI 无法处理模糊性和复杂推理的假设。LLM 不仅 factual recall 准确，在 nuanced reasoning 上也优于人类同行。这可能彻底改变法律教育的交付方式，表明 AI 导师在专业领域的潜力已获专家认可。此外，AI 回答被评为有害的比例远低于教授（3.53% vs 12.06%），显示了其在安全性上的优势。该研究为 LLM 在教育及专业咨询领域的应用提供了强有力的实证支持。",
+    "tags": [
+      "News",
+      "LLM",
+      "Education"
+    ],
+    "link": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/",
+    "date": "2026-06-02",
+    "id": "17804440621950"
+  },
+  {
+    "title": "数据安全公司 Cyera 估值达 120 亿美元",
+    "summary": "Cyera 融资后估值高达 120 亿美元，尽管尚未盈利，凸显 AI 安全赛道热度。",
+    "detail": "数据存储安全公司 Cyera 正 finalize 一轮至少 3 亿美元的融资，估值达 120 亿美元，ARR 倍数高达 80 倍。尽管公司仍处于运营亏损状态，但企业对于防护 AI 武器化攻击的需求推动了其高估值。这反映了资本市场对 AI 安全基础设施的极高溢价。今年已新增 500 个职位，显示其扩张野心。尽管公司发言人质疑数据准确性，但 TechCrunch 多方信源证实了交易细节。此轮融资距上一轮仅 5 个月，凸显数据安全在 AI 时代的战略地位及投资者对该赛道的狂热追捧。",
+    "tags": [
+      "News",
+      "Security",
+      "Funding"
+    ],
+    "link": "https://techcrunch.com/2026/06/02/cyera-eyes-12b-valuation-at-80x-arr-multiple-despite-operating-losses/",
+    "date": "2026-06-02",
+    "id": "17804440621951"
+  },
+  {
+    "title": "Project Brain：为 Claude Code 提供持久记忆",
+    "summary": "开源工具 Project Brain 通过 Markdown 索引为 AI 编程提供持久项目记忆，避免重复解释。",
+    "detail": "针对 AI 编程中模型遗忘上下文的问题，Project Brain 提供了一种基于 `.project-brain/` 文件夹的轻量级解决方案。它不依赖数据库，而是通过 Markdown 索引让 Claude Code 按需加载项目架构、决策和陷阱信息。这显著提升了 AI 代理在长期项目中的连贯性和效率。用户无需每次会话都重新解释架构或部署细节，避免了模型混淆不同项目栈的问题。这是一种约定优于配置的实践，通过简单的文件结构实现持久化记忆，极大降低了 AI 辅助开发的认知负荷和维护成本，适合复杂项目的长期迭代。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Coding"
+    ],
+    "link": "https://github.com/OoneBreath/claude-code-project-brain",
+    "date": "2026-06-02",
+    "id": "17804440621952"
+  },
+  {
+    "title": "Reloops：面向 AI 代理的开源数字资产管理",
+    "summary": "开源项目 Reloops 提供可自托管的 DAM 系统，专为 AI 代理和团队协作设计。",
+    "detail": "Reloops 是 Frame.io 的开源替代品，专注于创意资产工作流。支持 AI 生成描述和标签，并提供 Agent API 允许 AI 代理直接在媒体库中工作。适合需要自托管、版本管理及 AI 集成能力的团队，降低了创意资产管理的门槛。功能涵盖资产组织、版本控制、审批流程及分享链接。其核心优势在于\"Agent-ready\"，允许 AI 代理自主管理媒体库，结合自托管特性，保障了数据隐私。对于希望构建私有化 AI 创意工作流的企业，这是一个极具价值的基础设施选项，支持本地快速部署。",
+    "tags": [
+      "New",
+      "OpenSource",
+      "Agents"
+    ],
+    "link": "https://github.com/Reloops-App/reloops/",
+    "date": "2026-06-02",
+    "id": "17804440621953"
+  },
+  {
     "title": "Skillhound 发布：AI 代理技能搜索引擎",
     "summary": "新平台允许 AI 代理访问公共 SKILL.md 技能库。",
     "detail": "Skillhound 推出新平台，旨在为 AI 代理提供访问公共 **SKILL.md 技能库**的能力。页面展示了来自 Microsoft、Anthropic 等组织的技能示例，涵盖配置策略、算法艺术等。这标志着 AI 代理生态向标准化技能共享迈进，有助于开发者复用高质量代理行为模块，降低开发门槛，促进 Agent 互操作性发展。对于构建复杂工作流的开发者而言，这是一个重要的基础设施更新，可能改变 Agent 技能发现与调用的方式，提升代理系统的整体智能水平与适应性。",
@@ -1246,57 +1298,5 @@
     "link": "https://united24media.com/war-in-ukraine/russia-revives-wwi-dazzle-camouflage-to-evade-ukrainian-ai-drones-does-it-work-19334",
     "date": "2026-05-30",
     "id": "17802253750034"
-  },
-  {
-    "title": "传统巨头加速 AI 落地：Dell、Snowflake 与福特案例",
-    "summary": "传统行业巨头展示 AI 技术如何扩散至企业核心业务。",
-    "detail": "该报道指出 Dell、Snowflake 和福特展示了 AI 热潮的扩散趋势。这表明 AI 技术正从纯科技领域向传统制造业与服务业渗透。企业级 AI 应用成为市场关注焦点，反映了 AI 商业化落地的广泛性与深度。Alpha Check 分析显示，这些巨头如何利用 AI 推动业务，为投资者提供了行业扩散信号，表明 AI 不再是少数公司的专利，而是广泛的基础设施。传统企业的 AI 整合能力将成为未来竞争关键，标志着 AI 进入深水区，投资者需关注非科技股的 AI 转型潜力。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Adoption"
-    ],
-    "link": "https://finance.yahoo.com/markets/article/dell-snowflake-and-ford-show-how-the-ai-boom-is-spreading-alpha-check-210740675.html",
-    "date": "2026-05-30",
-    "id": "17801858345500"
-  },
-  {
-    "title": "经济学人：IT 部门为何成为 AI 落地坟墓",
-    "summary": "深度分析企业内部 IT 部门阻碍 AI 创新实施的潜在原因。",
-    "detail": "文章探讨 AI 项目在 IT 部门停滞的现象，标题直指 IT 部门可能是 AI 创新的终点。指出官僚流程、遗留系统兼容性及风险规避文化可能导致 AI 受阻。为企业 AI 战略部署提供警示，建议重新审视内部创新机制。该观点揭示了大型企业在技术转型中的结构性矛盾，即维护稳定与追求创新之间的冲突。对于希望实施 AI 的企业，可能需要绕过传统 IT 流程或进行组织变革，以避免创新活力被扼杀在内部流程中。",
-    "tags": [
-      "News",
-      "Strategy",
-      "Enterprise"
-    ],
-    "link": "https://www.economist.com/by-invitation/2026/04/01/the-it-department-where-ai-goes-to-die",
-    "date": "2026-05-30",
-    "id": "17801858345501"
-  },
-  {
-    "title": "AI 硬件瓶颈分析：GPU 显存带宽与推理挑战",
-    "summary": "深入剖析 H100 显存带宽限制及 Groq 等新型架构解决方案。",
-    "detail": "现代 GPU 在 LLM 推理中受限于 HBM 带宽而非算力。文章分析 H100 瓶颈，对比 Groq 使用 SRAM 替代 HBM 的架构优势。指出 AI 硬件市场正围绕内存约束解决方案重组，避免与 NVIDIA 正面竞争。算术单元在推理中大量等待，张量核心无法 fully occupied。市场围绕芯片内、服务引擎内或缓存层级攻击内存问题。这为硬件创业公司提供了差异化路径，即解决内存带宽瓶颈而非单纯提升算力，是未来 AI 基础设施优化的关键方向。",
-    "tags": [
-      "Dev",
-      "Hardware",
-      "LLM"
-    ],
-    "link": "https://www.categoryvc.com/writing/where-the-ai-hardware-market-is",
-    "date": "2026-05-30",
-    "id": "17801858345502"
-  },
-  {
-    "title": "HermesBench：个人 AI 代理工作流可靠性评估工具",
-    "summary": "全新基准测试工具，评估个人 AI 代理的整体工作流可靠性。",
-    "detail": "HermesBench 不仅评估模型，还评估提示词、工具、记忆及安全性的完整配置。提供公开基线分数与可审查轨迹，支持通过 Coding Agent 运行场景。为 Agent 开发提供可靠性验证标准。当前公共基线得分为 78.2，涵盖 27 个工作流配方。强调证据优先，链接回场景定义与得分轴。用户可通过复制 Prompt 到 Codex 或 Claude 运行测试。这填补了个人代理整体工作流评估的空白，推动 Agent 技术从模型为中心向系统可靠性为中心转变。",
-    "tags": [
-      "New",
-      "Agent",
-      "Eval"
-    ],
-    "link": "https://verkyyi.github.io/hermesbench/",
-    "date": "2026-05-30",
-    "id": "17801858345503"
   }
 ]
