@@ -1,5 +1,57 @@
 [
   {
+    "title": "微软联手 Unsloth：Windows 本地运行 LLM 更便捷",
+    "summary": "微软与 Unsloth 合作，优化 Windows 本地大模型运行体验。",
+    "detail": "微软宣布与 Unsloth AI 达成合作，旨在让数百万开发者能在 Windows 上轻松运行本地大模型。通过优化硅生态系统，解决本地模型安装的复杂性难题。这将极大降低非 ML 开发者使用本地 AI 的门槛，推动端侧 AI 应用普及，使本地模型成为 Windows 平台的一等公民，提升隐私与响应速度。对于开发者而言，这意味着无需复杂配置即可在本地调试模型，加速 AI 应用从原型到产品的转化过程，是本地 AI 生态建设的里程碑事件。此次合作展示了微软对本地 AI 推理的重视，预计将吸引更多开发者加入 Windows AI 生态，与云端推理形成互补，满足数据敏感型场景需求。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Windows"
+    ],
+    "link": "https://xcancel.com/UnslothAI/status/2061925637892297122",
+    "date": "2026-06-03",
+    "id": "17804789255491"
+  },
+  {
+    "title": "英国出版商可选择退出 Google AI 搜索结果",
+    "summary": "Google 允许英国出版商 opting out 其 AI 搜索训练与展示。",
+    "detail": "针对 AI 版权争议，Google 在英国推出新政策，允许出版商选择退出 AI 搜索结果。这反映了全球监管压力下科技巨头的妥协。此举可能影响 AI 模型训练数据的完整性，同时为内容创作者提供更多控制权。行业观察家认为这可能成为其他地区监管的参考先例，平衡 AI 发展与版权保护。出版商的选择权增加可能导致 AI 搜索质量波动，但也促进了更公平的内容生态。这是 AI 合规化进程中的重要案例，值得关注后续其他地区是否跟进类似政策，影响全球搜索格局。随着欧盟 AI 法案等法规落地，科技公司与内容方的博弈加剧，Google 此举意在缓解紧张关系，避免法律诉讼风险，同时维持搜索业务的连续性。",
+    "tags": [
+      "News",
+      "Google",
+      "Policy"
+    ],
+    "link": "https://www.bbc.co.uk/news/articles/c775pp26yz5o",
+    "date": "2026-06-03",
+    "id": "17804789255492"
+  },
+  {
+    "title": "AI 不会取代 DevOps 但会暴露其脆弱性",
+    "summary": "深度分析指出 AI 主要作用是诊断而非自动化 DevOps 流程。",
+    "detail": "文章指出 AI 工具对 DevOps 的最大价值在于诊断而非自动化。将 CI/CD 配置喂给 LLM 会暴露 pipelines 的脆弱性和文档缺失。许多团队依赖部落知识而非文档，AI 会放大这一缺陷。这提醒开发者在引入 AI 前需完善 observability 和文档。这是 AI 落地企业流程中的深刻洞察，强调基础架构稳固的重要性。AI 不是银弹，它是一面镜子，反映出工程实践中的债务。团队应借此机会重构流程，确保系统可解释性。只有基础扎实，AI 才能真正赋能 DevOps，否则只会加速故障暴露，增加运维风险与排查难度。建议团队在集成 AI 前，先标准化配置管理，明确失败处理逻辑，确保 AI 能基于准确上下文提供有效建议，从而实现真正的效率提升而非混乱。",
+    "tags": [
+      "Dev",
+      "DevOps",
+      "LLM"
+    ],
+    "link": "https://theaileverageweekly.com/posts/ai-won-t-replace-your-devops-pipeline-but-it-will-expose-how-fragile-i.html",
+    "date": "2026-06-03",
+    "id": "17804789255494"
+  },
+  {
+    "title": "DigitalOcean 成为 OpenRouter AI 模型提供商",
+    "summary": "DigitalOcean 宣布加入 OpenRouter，提供 AI 模型基础设施服务。",
+    "detail": "DigitalOcean 宣布成为 OpenRouter 的 AI 模型提供商，进一步扩展其云基础设施在 AI 领域的布局。这使得开发者能通过 OpenRouter 接口更便捷地调用部署在 DigitalOcean 上的模型。此举降低了 AI 应用开发的 infra 门槛，促进了模型部署的多样化。对于需要灵活云服务的开发者来说，这是一个值得关注的基础设施更新。OpenRouter 作为模型聚合平台，接入更多提供商意味着更高的可用性与竞争性的定价。DigitalOcean 借此吸引 AI 初创企业，强化其开发者友好型云平台的定位，与大型云厂商形成差异化竞争，提供更简洁的 AI 部署体验。这一合作简化了模型切换与管理的复杂度，开发者无需关心底层基础设施细节，可专注于应用逻辑，加速 AI 产品迭代周期，推动中小团队创新。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Cloud"
+    ],
+    "link": "https://runtimewire.com/article/digitalocean-openrouter-ai-model-provider",
+    "date": "2026-06-03",
+    "id": "17804789255495"
+  },
+  {
     "title": "论文：AI 编码代理与类型错误消融研究",
     "summary": "研究发现详细错误信息能显著提升 AI 修复代码的能力。",
     "detail": "这篇 ArXiv 论文探讨了 AI 编码代理作为错误消息新消费者的角色，提出了错误信息设计是否应区别于人类的问题。研究通过 Shplait 语言进行控制实验，测量 AI 在不同错误上下文下的修复率。结果表明，详细的错误上下文（如统一栈）能显著提高代理修复类型错误的能力，且类型系统比仅靠测试套件报告更有效。当代理成功修复类型错误时，程序通常也能通过语义测试。这对编程语言实现者和 AI 工具开发者具有重要指导意义，建议为 AI 代理提供更详细的错误信息以提升编码效率，改变了以往仅针对人类优化错误提示的设计思路。未来编译器可能需要为 AI 代理提供专用错误模式。",
@@ -63,6 +115,19 @@
     "link": "https://pdftomdconverter.com",
     "date": "2026-06-03",
     "id": "17804600429914"
+  },
+  {
+    "title": "微软发布 Project Solara：AI 智能体设备操作系统",
+    "summary": "微软推出专为 AI 智能体硬件设计的操作系统 Project Solara。",
+    "detail": "微软正式发布 Project Solara，这是一款专为 AI 智能体硬件设计的操作系统。标志着科技巨头开始深度布局端侧 AI 硬件生态，旨在简化 AI 代理在特定设备上的部署与交互流程。此举可能推动 AI 硬件从概念走向大规模量产，为开发者提供统一的底层支持，显著降低设备开发门槛。被视为 AI 技术落地物理世界的关键一步，引发行业对未来 AI 设备形态与操作系统竞争格局的新思考，可能重塑硬件市场。随着 AI Agent 概念爆发，专用 OS 成为刚需，Solara 有望成为连接模型与硬件的桥梁，提升用户体验的同时，也为微软在 AI 时代争夺入口控制权奠定基础。",
+    "tags": [
+      "News",
+      "Microsoft",
+      "AI OS"
+    ],
+    "link": "https://www.theverge.com/news/941830/microsoft-project-solara-os-ai-agent-gadgets",
+    "date": "2026-06-02",
+    "id": "17804789255490"
   },
   {
     "title": "斯坦福研究：法律教授更偏爱 AI 答案",
@@ -349,6 +414,19 @@
     "link": "https://finance.yahoo.com/sectors/technology/articles/starbucks-quietly-retired-ai-agent-192259096.html",
     "date": "2026-06-02",
     "id": "17803730777827"
+  },
+  {
+    "title": "Cognizant CEO：AI Token 最大化是虚荣指标",
+    "summary": "Cognizant CEO 称 AI Token 消耗是虚荣指标，仍大规模招聘毕业生。",
+    "detail": "Cognizant CEO Ravi Kumar 表示，单纯追求 AI Token 消耗量是虚荣指标，强调实际业务价值。同时公司计划招聘超 2 万名毕业生。这表明服务型巨头在 AI 浪潮中保持理性，不盲目追求技术参数，而是关注人才储备与落地应用。对行业而言，这是一个关于 AI ROI 评估的重要信号，提醒企业关注实质产出。在 AI 泡沫论调下，企业更注重成本效益，hiring 毕业生而非仅依赖 AI 替代，显示人力与 AI 协作仍是主流。这种务实态度有助于行业健康发展，避免过度炒作技术指标而忽视商业本质。这一策略反映了 IT 服务行业在转型期的谨慎，即通过新鲜血液培养 AI 原生人才，而非完全依赖自动化工具，确保服务质量的稳定性与客户的长期信任。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Hiring"
+    ],
+    "link": "https://fortune.com/2026/06/01/cognizant-ceo-ravi-kumar-s-hiring-entry-level-tokenmaxxing-vanity-metric/",
+    "date": "2026-06-01",
+    "id": "17804789255493"
   },
   {
     "title": "LLM 训练数据缺乏管理学内容",
@@ -1220,83 +1298,5 @@
     "link": "https://www.law.berkeley.edu/academics/registrar/academic-rules/artificial-intelligence-policy/",
     "date": "2026-05-31",
     "id": "17802173717192"
-  },
-  {
-    "title": "GoodSender：专为 AI Agent 设计的免费邮件 API",
-    "summary": "SendGrid 联合创始人新作，提供每月 10 万封免费邮件额度。",
-    "detail": "由 SendGrid 联合创始人打造，GoodSender 专为开发者和 AI Agent 设计。提供每月 10 万封免费邮件额度，强调\"earned deliverability\"。通过 API 强制 permission 确认，确保营销邮件合规。支持事务性模板（如 MFA、登录通知），只需一次 HTTP 调用即可发送。适合需要高送达率的 AI 应用和独立开发者。其架构基于世界最大发送者堆栈，自动化获取许可，解决邮件进入垃圾箱痛点。这是 AI Agent 通信层的优质基础设施选择，降低了开发者构建通知系统的门槛，值得关注。",
-    "tags": [
-      "New",
-      "API",
-      "DevTool"
-    ],
-    "link": "https://goodsender.com/",
-    "date": "2026-05-31",
-    "id": "17802173717193"
-  },
-  {
-    "title": "AI 价值积累复杂性理论：实验室的盈利困境",
-    "summary": "分析 AI 实验室面临的任务复杂度与利润参与的矛盾。",
-    "detail": "文章探讨了 AI 实验室的商业悖论：维持高利润率需要 persistent task complexity，但这限制了价值参与。引用 Dario Amodei 和 Mustafa Suleyman 关于高 GDP 增长伴随高失业率的预测。指出企业为控制成本转向开源模型，威胁闭源实验室的推理收入。分析了 AI 对劳动力市场及模型工资收集能力的深层影响。随着开源威胁加剧，实验室需重新思考价值捕获机制，避免陷入高增长低利润陷阱。投资者应关注任务复杂度与边际成本的平衡，理解 AI 价值 accrual 的复杂性理论，警惕市场预期偏差。",
-    "tags": [
-      "News",
-      "Market",
-      "LLM"
-    ],
-    "link": "https://twitter.com/hypersoren/status/2056866328003174707",
-    "date": "2026-05-31",
-    "id": "17802173717194"
-  },
-  {
-    "title": "AI 虚假 influencer 泛滥：利用黑人形象推销廉价商品",
-    "summary": "揭露 AI 生成虚假人物用于 TikTok 带货的伦理问题。",
-    "detail": "The Verge 调查揭露 AI 骗子创建虚假黑人形象，在 TikTok 和 Shop 上推销 Shein 等廉价商品。这种“数字黑脸”行为引发了严重的种族和伦理争议。AI 生成内容被用于 dropshipping 骗局，不仅误导消费者，还剥削了特定族群的形象。平台监管滞后，凸显了 AI 生成内容在商业滥用方面的治理漏洞。这反映了 AI 技术被用于灰色地带的现状，呼吁加强内容真实性验证。保护弱势群体形象不被算法滥用，维护网络生态诚信，是平台和社会亟待解决的伦理挑战，需政策介入。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Social"
-    ],
-    "link": "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping",
-    "date": "2026-05-31",
-    "id": "17802173717195"
-  },
-  {
-    "title": "生产级 AI Agent 构建标准发布",
-    "summary": "GitHub 开源项目定义 Agent 开发规范",
-    "detail": "该项目汇集了 Anthropic、OpenAI、Cognition 等领先机构的生产实践，定义了构建生产级 Agentic 产品的规范标准。内容涵盖自主性阶梯、组合模式、7 层 harness 及评估纪律，并提供可安装的 Claude Code 技能集以 operationalize 该标准。对于希望将 AI Agent 从实验推向生产的开发者而言，这是一份极具参考价值的工程化指南，有助于提升系统的稳定性与可维护性，解决当前 Agent 开发缺乏统一标准的痛点，推动行业向成熟化发展。此外，开源协议为 MIT，欢迎社区贡献，适合企业级应用参考。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "GitHub"
-    ],
-    "link": "https://github.com/AlexDuchDev/agentic-product-standard",
-    "date": "2026-05-31",
-    "id": "17802048273390"
-  },
-  {
-    "title": "OWASP 推出 Agent 记忆防护项目",
-    "summary": "防止 AI Agent 记忆中毒的新安全工具",
-    "detail": "OWASP 发布 Agent Memory Guard 项目，旨在阻止 AI Agent 记忆中毒攻击。随着 Agent 广泛应用，记忆安全成为关键隐患。项目已在 PyPI 上线，支持 LangChain 集成，下载量已超 3900 次。该工具为开发者提供了标准化的防御手段，增强系统鲁棒性。通过防护记忆污染，确保 Agent 在长期运行中不被恶意输入误导，保障业务逻辑安全。这是 AI 安全领域的重要进展，建议开发生产级 Agent 时集成此类防护机制，以应对日益复杂的对抗性攻击，维护用户数据完整性与系统可靠性。",
-    "tags": [
-      "Dev",
-      "Security",
-      "OWASP"
-    ],
-    "link": "https://github.com/OWASP/www-project-agent-memory-guard",
-    "date": "2026-05-31",
-    "id": "17802048273391"
-  },
-  {
-    "title": "本地 AI 截图命名工具 SnapName",
-    "summary": "macOS 端侧 Gemma 4 模型自动命名截图",
-    "detail": "新款 macOS 应用 SnapName 利用本地 Gemma 4 模型自动为截图命名，无需上传云端，保障隐私。支持 Apple Silicon，可监听文件夹自动处理。反映了端侧 AI 应用趋势，为用户提供便捷的本地化智能工作流，无需依赖联网服务。用户可审查建议名称或开启自动保存，兼容多种截图工具。这种本地化处理方式解决了隐私顾虑，同时提升了文件管理效率，是个人生产力工具结合本地大模型的典型案例，适合注重数据安全的 macOS 用户尝试体验。应用支持多种图像格式，工作流灵活，可无缝融入现有习惯。",
-    "tags": [
-      "New",
-      "Local AI",
-      "macOS"
-    ],
-    "link": "https://snapname.app",
-    "date": "2026-05-31",
-    "id": "17802048273392"
   }
 ]
