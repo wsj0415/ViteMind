@@ -1,5 +1,70 @@
 [
   {
+    "title": "Jo 语言：AI 时代的安全编程新范式",
+    "summary": "基于类型系统的 AI 代理能力安全控制语言，编译时保障权限。",
+    "detail": "Jo 语言专为 AI 时代安全编程设计，核心理念是仅赋予 AI 代理所需能力。通过类型系统而非运行时沙箱 guarantee 安全，代码仅能访问声明且被授予的能力，超出部分视为编译错误。支持隐式上下文参数传递，无样板代码或全局变量。设计原则确保无运行时类型错误，编译器捕获潜在问题。适合构建受限 AI 系统，防止代理越权访问网络、文件系统或数据，为 AI 安全提供语言级保障。",
+    "tags": [
+      "Dev",
+      "Programming",
+      "Security"
+    ],
+    "link": "https://jo-lang.org/",
+    "date": "2026-06-04",
+    "id": "17805863052600"
+  },
+  {
+    "title": "Ashby 工程实践：50% 代码由 AI 生成且质量稳定",
+    "summary": "招聘软件公司 Ashby 分享 AI 编码落地数据与趋势，质量未回退。",
+    "detail": "Ashby 工程团队分享 AI 落地实况：自 2025 年 8 月，超 50% 生产代码由 AI 生成，客户问题率保持稳定。工程总监 Colin 指出，代码生产成本趋零，AI 替代语法与胶水代码等机械工作。工程师价值更侧重于判断力与客户理解。数据显示未出现代码质量回退或入职时间增加，反而代码库理解度提升。该案例证实 AI 编码工具在企业级高负载环境中的可行性，天空并未崩塌。",
+    "tags": [
+      "News",
+      "Engineering",
+      "Productivity"
+    ],
+    "link": "https://www.ashbyhq.com/blog/engineering/ai-ashby-engineering-and-the-future",
+    "date": "2026-06-04",
+    "id": "17805863052601"
+  },
+  {
+    "title": "黑盒测试基准：7 大 AI 系统 API Bug 检测能力评估",
+    "summary": "KushoAI 发布 AI 代理 API 测试与 Bug 发现能力基准报告。",
+    "detail": "KushoAI 发布黑盒评估报告，测试 7 大 AI 系统在 20 个 live API 场景中发现功能 Bug 的能力。基准包含 97 个植入 bug，分三个复杂度 tier。系统仅接收 JSON schema 与样本 payload，无源码或文档。采用 APIEval-20 v1.0 标准，执行-based 评分，每场景五次独立运行取均值。结果显示简单结构 bug 已非差异化关键。报告对比了通用 LLM、编码代理及不同工作流模式，为工程团队选型提供数据支持。",
+    "tags": [
+      "Dev",
+      "Benchmark",
+      "Testing"
+    ],
+    "link": "https://resources.kusho.ai/ai-agent-benchmark-api-bug-detection",
+    "date": "2026-06-04",
+    "id": "17805863052602"
+  },
+  {
+    "title": "AgentKitten：苹果平台通用的 AI 代理 Swift 包",
+    "summary": "支持 iOS/macOS 等多平台的 provider-agnostic AI 代理库。",
+    "detail": "AgentKitten 是专为 Apple 平台设计的开源 Swift 包，用于构建 provider-agnostic 的 AI 代理。支持 Swift 6.1+ 及 iOS、macOS、visionOS、tvOS、watchOS 全生态系统。采用 Apache 2.0 许可，可通过 Swift Package Manager 轻松集成。该项目旨在为开发者提供统一接口以调用不同 AI 模型，降低苹果端侧 AI 应用开发门槛。通过抽象 provider 差异，促进本地 AI 代理生态发展，简化多模型切换与管理流程。",
+    "tags": [
+      "Dev",
+      "Swift",
+      "iOS"
+    ],
+    "link": "https://github.com/fbeeper/agentkitten",
+    "date": "2026-06-04",
+    "id": "17805863052603"
+  },
+  {
+    "title": "Wiki Race AI：人类与代理的维基百科链接竞速游戏",
+    "summary": "每日更新关卡，人类与 AI 在同规则下比拼链接跳转效率。",
+    "detail": "Wiki Race AI 是创新互动平台，用户与 AI 代理竞赛谁能更少步数到达目标维基百科页面。每日更新相同起点与目标，AI 运行缓存确保全球用户面对同一对手。遵循公平原则，AI 基于开源 wikigame-agent 引擎，仅能读取当前页内容并点击链接，无搜索或预览权限。实时流式展示 AI 决策路径，用户可 inspect 每一步选择。直观演示 Agent 在受限环境下的推理与导航能力，兼具娱乐性与技术展示价值。",
+    "tags": [
+      "New",
+      "Game",
+      "Agent"
+    ],
+    "link": "https://www.wikiraceai.com",
+    "date": "2026-06-04",
+    "id": "17805863052604"
+  },
+  {
     "title": "Anthropic 估值近千亿美元，筹备 IPO",
     "summary": "Anthropic 获 650 亿美元 H 轮融资，估值达 9650 亿。",
     "detail": "Anthropic 宣布完成 650 亿美元 H 轮融资，后估值高达 9650 亿美元，并已 confidentially 向 SEC 提交 S-1 草案，具备 IPO 选项。这标志着前沿 AI 公司正从普通软件企业向关键系统运营商转变，compute expansion 与安全政策成为核心战略。行业集中度进一步提升，IPO 前景明朗，显示资本市场对 AGI 基础设施的长期押注，同时也暗示监管与合规将成为未来竞争的关键壁垒，改变行业生态。此融资规模远超以往，表明 AI 军备竞赛进入新阶段，资金将主要用于算力集群建设与安全对齐研究，确保模型 Scaling 过程中的稳定性。",
@@ -1233,70 +1298,5 @@
     "link": "https://bastian.rieck.me/blog/2026/scholarship/",
     "date": "2026-06-01",
     "id": "17803320577197"
-  },
-  {
-    "title": "Meta 修复 Instagram AI 漏洞，防止账户劫持",
-    "summary": "Meta 紧急修复 Instagram 利用 AI 漏洞进行的账户劫持问题，加强平台安全。",
-    "detail": "Meta 近日修复了 Instagram 中存在的一个严重 AI 安全漏洞，该漏洞曾被黑客利用进行账户劫持，直接影响用户账户安全。此次修复标志着大型社交平台开始正视 AI 技术引入后的新型安全风险，并迅速采取行动。随着 AI 自动化攻击手段的升级，平台方需不断更新防御机制以应对挑战。此事件提醒开发者在集成 AI 功能时，必须将身份验证与异常行为检测作为核心安全层级，避免自动化脚本滥用导致的安全事故，保障平台生态健康。行业需关注 AI 安全标准。",
-    "tags": [
-      "News",
-      "Security",
-      "Meta"
-    ],
-    "link": "https://sqmagazine.co.uk/meta-fixes-instagram-ai-flaw-account-takeovers/",
-    "date": "2026-06-01",
-    "id": "17803094647120"
-  },
-  {
-    "title": "Intrascope 推出团队 AI 协作安全空间",
-    "summary": "Product Hunt 热门新品，为团队提供统一、可控的 AI 工作空间，降低成本。",
-    "detail": "Intrascope 在 Product Hunt 上发布新款团队 AI 协作平台，旨在解决企业 AI 使用分散、成本不可控的问题。该产品提供统一的安全工作空间，支持主流 AI 模型，具备共享上下文和集中使用追踪功能。通过公司级控制策略，团队可避免重复订阅费用，同时确保数据隐私。适合已日常使用 AI 但缺乏结构化管理的营销及创意团队，提供 7 天免费试用。此工具助力企业规模化应用 AI，提升协作效率并降低运营成本，是团队 AI 治理的新选择。解决 API Key 管理摩擦。",
-    "tags": [
-      "New",
-      "SaaS",
-      "Collaboration"
-    ],
-    "link": "https://intrascope.app/",
-    "date": "2026-06-01",
-    "id": "17803094647121"
-  },
-  {
-    "title": "开源项目 1rok：多模型 AI 对冲基金交易框架",
-    "summary": "GitHub 热门项目，支持多 LLM 代理进行投资组合构建与纸面交易。",
-    "detail": "1rok 是一个开源的多 LLM 交易框架，允许开发者在统一的工具表面运行投资组合构建代理。支持 OpenAI、Anthropic、Gemini 等七大模型提供商，对接 Alpaca、Yahoo Finance 等数据源。项目采用两阶段 pipeline，分离策略运行与订单执行，确保安全性。内置宏观、估值、风险等 specialist agents，适合量化开发者研究 AI 在金融决策中的实际表现，目前提供实时排行榜。为 AI 金融应用提供标准化测试床，推动算法交易透明化。探索多模型协同交易潜力。",
-    "tags": [
-      "Dev",
-      "Finance",
-      "OpenSource"
-    ],
-    "link": "https://github.com/achaljhawar/1rok",
-    "date": "2026-06-01",
-    "id": "17803094647122"
-  },
-  {
-    "title": "工程师日常高效使用 AI 的 8 个具体实践",
-    "summary": "分享工程师工作流中 8 个可复制的 AI 提效模式，涵盖会议与调试。",
-    "detail": "文章总结了工程师在日常工作中使用 AI 的 8 个具体模式，拒绝抽象建议。包括会前利用 AI 总结 PR 差异与潜在争议点、使用“强制函数”进行橡皮鸭调试、以及让 AI 生成被忽略的测试矩阵等。每个模式均提供可直接复制的 Prompt 策略，旨在通过精确的指令设计减少重复劳动。对于希望将 AI 深度集成到开发工作流的从业者具有极高的实操参考价值。帮助工程师提升日常编码效率，优化工作流。实现 AI 辅助编程落地。",
-    "tags": [
-      "Dev",
-      "Productivity",
-      "Engineering"
-    ],
-    "link": "https://theaileverageweekly.com/posts/8-concrete-ways-i-use-ai-during-a-normal-engineering-workday-week-4-ro.html",
-    "date": "2026-06-01",
-    "id": "17803094647123"
-  },
-  {
-    "title": "Meta AI 漏洞可绕过 MFA 重置密码",
-    "summary": "Instagram 发现严重漏洞，利用 Meta AI 可重置无 MFA 账户密码，已修复。",
-    "detail": "Instagram 近期暴露出一严重安全漏洞，攻击者可利用 Meta AI 助手绕过双重认证（MFA）重置用户密码。该漏洞引发了对 AI 助手权限管理的深刻担忧，尽管官方已迅速修补，但显示出 AI 集成带来的新攻击面。社区热议为何顶尖团队仍出现此类基础安全问题，警示 AI 交互层需更严格的安全审计与权限隔离机制，防止代理被滥用。此事件凸显了 AI 安全不仅是模型问题，更是系统集成问题。",
-    "tags": [
-      "News",
-      "Security",
-      "Meta"
-    ],
-    "link": "https://xcancel.com/DarkWebInformer/status/2061253599758315527",
-    "date": "2026-06-01",
-    "id": "17802870769900"
   }
 ]
