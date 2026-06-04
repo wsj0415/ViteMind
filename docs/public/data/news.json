@@ -1,5 +1,70 @@
 [
   {
+    "title": "Supabase 获 5 亿美元融资，估值达 105 亿美元",
+    "summary": "“氛围编程”推动 Supabase 估值飙升，完成 5 亿美元融资。",
+    "detail": "数据库初创公司 Supabase 宣布完成 5 亿美元融资，估值达到 105 亿美元。CNBC 报道明确指出，这一估值增长主要得益于“氛围编程”（Vibe coding）现象的兴起。随着开发者越来越多地采用 AI 辅助编程工具，对现代化数据库基础设施的需求显著增加。Supabase 作为 AI 初创企业，其高估值反映了市场对 AI 原生开发平台的强烈需求，显示出资本对开发者工具赛道的持续看好，标志着 AI 编码趋势正在重塑基础设施格局，成为行业焦点。",
+    "tags": [
+      "News",
+      "Funding",
+      "Infrastructure"
+    ],
+    "link": "https://www.cnbc.com/2026/06/04/database-startup-supabase-raises-500-million-10point5-billion-valuation.html",
+    "date": "2026-06-04",
+    "id": "17805971589740"
+  },
+  {
+    "title": "谷歌 AI 概述导致出版商流量暴跌 58%",
+    "summary": "研究显示谷歌 AI 概述显著降低点击率，内容创作者面临生存危机。",
+    "detail": "谷歌 AI Overviews 功能正在深刻改变搜索生态。Ahrefs 2026 年初的研究显示，AI 概述导致排名第一的搜索结果点击率下降 58%。用户直接在搜索结果页获取答案，不再点击源网站，使得内容生产者的硬工作被吸收。这引发了关于内容创作者激励机制及谷歌垄断控制权的深刻讨论，出版商流量危机日益严峻，行业担忧一家公司是否应拥有如此大的系统控制权，内容价值面临重估。",
+    "tags": [
+      "News",
+      "Search",
+      "Ethics"
+    ],
+    "link": "https://claudefolio.com/blog/google-ai-overviews-are-killing-the-incentive-to-make-good-content",
+    "date": "2026-06-04",
+    "id": "17805971589741"
+  },
+  {
+    "title": "2026 年 AI 浏览器自动化工具全景图",
+    "summary": "深度解析 AI 代理时代下的浏览器自动化工具分类与选型指南。",
+    "detail": "随着 AI Agent 的兴起，浏览器自动化变得复杂。文章梳理了当前工具 landscape：从传统的 Playwright、Selenium 到面向 coding agents 的 Agent Browser，再到全功能 Browser Agents。开发者需根据确定性工作流或灵活性需求选择工具。文章提供了详细的分类对比及适用场景分析，帮助技术人员理解不同工具试图解决的问题，映射出 AI 代理与浏览器交互的演进路线，是开发者必备参考。",
+    "tags": [
+      "Dev",
+      "Automation",
+      "Agents"
+    ],
+    "link": "https://libretto.sh/blog/understanding-ai-browser-automation-tooling",
+    "date": "2026-06-04",
+    "id": "17805971589742"
+  },
+  {
+    "title": "AI 驱动原生 Mac 应用开发复兴",
+    "summary": "AI 辅助编程 rejuvenated Mac 开发，独立开发者纷纷回归原生框架。",
+    "detail": "Daring Fireball 引用 Jason Snell 观点指出，AI 辅助编程正在复兴 Mac 原生应用开发。过去几年 Mac 开发曾显停滞，但现在独立开发者利用 AI 工具构建专注于 Mac 平台的原生应用。如果我能梦想一个应用，就可能构建它。AI 降低了开发门槛，使得非专业开发者也能参与。这对 Mac 平台未来至关重要，解决了新应用非原生的问题，标志着 AI 技术正在重塑桌面开发生态，为独立开发者带来新机遇。",
+    "tags": [
+      "Dev",
+      "Mac",
+      "Trend"
+    ],
+    "link": "https://daringfireball.net/linked/2026/06/04/the-ai-driven-resurgence-of-mac-app-development",
+    "date": "2026-06-04",
+    "id": "17805971589743"
+  },
+  {
+    "title": "Enthusiast AI：开源电商智能体工具包",
+    "summary": "支持 Shopify 等平台的开源 AI 代理工具，模型无关且可本地部署。",
+    "detail": "Upside Lab 推出 Enthusiast，一款专为电商设计的开源 Agentic AI 工具包。支持 Medusa、Shopify 等原生连接器，模型无关（兼容 OpenAI、Ollama 等）。可通过 Docker 本地运行或 K8s 部署，利用 RAG 技术减少幻觉。技术领导者可在不重构核心栈的情况下集成 AI 工作流，确保与 SAP、Salesforce 等系统兼容，为电商自动化提供了灵活且可控制的基础设施方案，支持云和本地部署。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "E-commerce"
+    ],
+    "link": "https://upsidelab.io/tools/enthusiast",
+    "date": "2026-06-04",
+    "id": "17805971589744"
+  },
+  {
     "title": "Jo 语言：AI 时代的安全编程新范式",
     "summary": "基于类型系统的 AI 代理能力安全控制语言，编译时保障权限。",
     "detail": "Jo 语言专为 AI 时代安全编程设计，核心理念是仅赋予 AI 代理所需能力。通过类型系统而非运行时沙箱 guarantee 安全，代码仅能访问声明且被授予的能力，超出部分视为编译错误。支持隐式上下文参数传递，无样板代码或全局变量。设计原则确保无运行时类型错误，编译器捕获潜在问题。适合构建受限 AI 系统，防止代理越权访问网络、文件系统或数据，为 AI 安全提供语言级保障。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215",
     "date": "2026-06-01",
     "id": "17803320577192"
-  },
-  {
-    "title": "JetBrains 发布 Mellum2 混合专家模型",
-    "summary": "JetBrains 推出 12B 参数 MoE 模型，专为代码与文本优化。",
-    "detail": "**技术**：Mellum2 拥有 120 亿参数，每次 token 仅激活 25 亿，效率极高。**用途**：针对代码补全、RAG 及低延迟推理场景优化。**许可**：Apache 2.0 开源，开发者可在 Hugging Face 下载，适合私有化部署。**优势**：相比同规模模型，推理速度快两倍。**意义**：JetBrains 深入 AI 编码助手领域，提供本地化替代方案，减少对云 API 依赖，适合对延迟敏感的开发工作流。该模型特别适合作为 Agent 系统中的路由或子任务处理模块，降低整体系统成本。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "OpenSource"
-    ],
-    "link": "https://huggingface.co/blog/JetBrains/mellum2-launch",
-    "date": "2026-06-01",
-    "id": "17803320577193"
-  },
-  {
-    "title": "AI 气象初创超越政府预报机构",
-    "summary": "WindBorne 发布 WeatherMesh 6，精度超越欧洲中期预报中心。",
-    "detail": "**突破**：WindBorne Systems 发布新版 AI 气象模型，频率达每小时一次。**性能**：5 天预报精度媲美传统模型次日预报，分辨率达 3 公里。**意义**：展示 AI 在科学计算领域的潜力，挑战传统物理模型主导地位。**应用**：高频更新对航空、能源调度至关重要。**背景**：传统超级计算机成本高且更新慢，AI 模型利用历史数据训练，能以更低成本实现更高频次预测，标志着气象科技进入 AI 驱动新时代。这也证明了垂直领域 AI 模型可能比通用大模型更具商业价值。",
-    "tags": [
-      "New",
-      "Science",
-      "Startup"
-    ],
-    "link": "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/",
-    "date": "2026-06-01",
-    "id": "17803320577194"
-  },
-  {
-    "title": "原生 macOS AI 代理工具 Osaurus",
-    "summary": "支持本地运行的原生 macOS AI 代理应用，注重隐私。",
-    "detail": "**特点**：Osaurus 是原生 Swift 开发的 macOS 应用，非 Electron。**功能**：支持本地模型离线运行，管理上下文与记忆。**优势**：数据不出本地，适合隐私敏感用户，提供自主代理执行能力。**技术**：利用 Apple Silicon 神经网络引擎加速。**定位**：填补了本地 AI 代理管理工具的空白，让用户能在完全掌控数据的前提下体验自动化工作流，适合开发者及隐私倡导者使用。其开源许可允许社区贡献插件，扩展代理能力，构建本地 AI 生态。",
-    "tags": [
-      "New",
-      "Tool",
-      "Privacy"
-    ],
-    "link": "https://docs.osaurus.ai/",
-    "date": "2026-06-01",
-    "id": "17803320577195"
-  },
-  {
-    "title": "警方监控在线批评 AI 数据中心人士",
-    "summary": "执法机构监控社交媒体上批评 AI 基础设施的用户。",
-    "detail": "**事件**：The Intercept 披露警方融合中心监控 AI 批评者。**理由**：担心“国内暴力极端分子”攻击数据中心。**争议**：缺乏具体威胁证据，引发对言论自由和过度执法的担忧，反映 AI 基础设施的社会阻力。**背景**：随着数据中心能耗和用地增加，社区反对声音变大。**影响**：这种监控可能寒蝉效应，阻碍公众对 AI 环境影响的正当讨论，加剧科技公司与社区之间的紧张关系。执法机构需平衡基础设施保护与公民权利，避免将普通抗议者 criminalize。",
-    "tags": [
-      "News",
-      "Security",
-      "Society"
-    ],
-    "link": "https://theintercept.com/2026/06/01/ai-data-center-protest-police-surveillance/",
-    "date": "2026-06-01",
-    "id": "17803320577196"
-  },
-  {
-    "title": "AI 时代的学术规范与 arXiv 政策",
-    "summary": "探讨 AI 生成内容在学术界的责任归属及 arXiv 新规。",
-    "detail": "**政策**：arXiv 将对未核查 LLM 结果的作者实施禁令。**观点**：学者需对作品负最终责任，不能将责任推给工具。**影响**：学术界正在建立 AI 使用规范，防止幻觉引用和数据造假，维护科研诚信。**背景**：AI 生成内容泛滥导致论文质量下降。**趋势**：未来投稿可能需披露 AI 使用细节，同行评审将加强对方法论真实性的核查，推动负责任的 AI 科研文化形成。这将迫使研究人员重新审视工作流程，确保 AI 仅作为辅助而非替代思考。",
-    "tags": [
-      "Dev",
-      "Academic",
-      "Policy"
-    ],
-    "link": "https://bastian.rieck.me/blog/2026/scholarship/",
-    "date": "2026-06-01",
-    "id": "17803320577197"
   }
 ]
