@@ -1,5 +1,57 @@
 [
   {
+    "title": "Sam Altman 提议初创企业可用 AI 代币换取股权",
+    "summary": "OpenAI CEO 向初创公司提出新方案，以 AI 代币置换股权。",
+    "detail": "据报道，Sam Altman 向初创创始人提出新提案，允许企业使用 AI 代币换取股权，特别是在 Y Combinator 生态内，这标志着 AI 巨头探索新的商业模式与生态绑定方式。若实施，可能改变初创企业融资结构，将 AI 算力或使用权资产化，缓解现金流压力。行业正在观察此举是否会成为 AI 投资领域的新标准，以及对代币经济合规性的影响。创始人需评估代币流动性与股权稀释风险，这可能开启 AI 资源置换资本的新路径，重塑早期投资逻辑。对于 OpenAI 而言，此举可深度绑定潜在独角兽，构建更紧密的生态护城河，但也面临监管审查风险。",
+    "tags": [
+      "News",
+      "Business",
+      "OpenAI"
+    ],
+    "link": "https://www.businessinsider.com/sam-altman-openai-offer-tokens-for-startup-equity-y-combinator-2026-5",
+    "date": "2026-06-04",
+    "id": "17805461028822"
+  },
+  {
+    "title": "Apertis 推出兼容 OpenAI 的 API 网关，支持 540+ 模型",
+    "summary": "新 API 网关支持多模型路由与预算控制，兼容主流 SDK。",
+    "detail": "Apertis 发布新型 API 网关，作为 OpenAI 和 Anthropic 的直接替代品，支持 540 多种 AI 模型统一接入，涵盖 Frontier reasoning 到成本优化模型。核心功能包括虚拟密钥、硬预算控制、模型策略路由及缓存优化，解决 Agent 账单跳跃 3-10 倍且无可见性的痛点。开发者无需更改 SDK 即可切换模型供应商，有效解决 AI 支出不可控问题。适合需要多模型调度、成本管理及高可用性的企业级 AI 应用开发场景。平台支持 OAuth 用户认证与会话管理，提供使用报告与路由健康检查，帮助团队在规模化应用中保持成本可控与性能稳定，实现可预测的容量管理。",
+    "tags": [
+      "New",
+      "API",
+      "LLM"
+    ],
+    "link": "https://apertis.ai/",
+    "date": "2026-06-04",
+    "id": "17805461028823"
+  },
+  {
+    "title": "新 SDK 实现 AI Agent 基于 HTTP 402 的按次支付功能",
+    "summary": "开发者可用 3 行代码为 AI API 添加基于 Base L2 的支付墙。",
+    "detail": "M2MCent SDK 发布，实现 x402 支付协议，专为 AI Agent 和 MCP 服务器设计，是机器原生支付标准。基于 Base L2 网络，允许开发者通过 3 行代码为任何 Express 端点添加 USDC 支付墙，无需集成复杂支付网关。当 Agent 请求受保护端点时，服务器返回 402 状态码及支付元数据，实现自动化结算。这为 AI 服务 monetization 提供了机器原生的支付标准，降低了微支付门槛，适合 AI 服务商业化部署。开发者可快速构建按次付费的 AI 接口，推动机器间经济（M2M）在 AI 生态中的实际落地应用，为 AI Agent 自主交易提供基础设施支持，简化变现流程。",
+    "tags": [
+      "Dev",
+      "Crypto",
+      "Agent"
+    ],
+    "link": "https://github.com/Evozim/m2mcent-sdk",
+    "date": "2026-06-04",
+    "id": "17805461028824"
+  },
+  {
+    "title": "欧盟发布云与 AI 发展法案，确立“开源优先”原则",
+    "summary": "欧盟提出新法案，承诺 20 亿欧元投资开源，强调技术主权。",
+    "detail": "欧盟委员会发布“云与 AI 发展法案”（CADA），首次将“开源优先”列为法律原则，这是委员会前所未有的开源承诺。计划投资 20 亿欧元支持开源战略，建立公共部门 OSPO 网络，并推出云主权认证框架。此举旨在增强欧洲技术主权，减少对外部云基础设施依赖，将技术独立议程扩展到完整基础设施层。对全球 AI 开源社区及云服务商而言，欧洲市场合规要求将更加严格，同时也带来新的合作机遇。企业需关注云主权认证级别，调整基础设施策略以满足欧盟法律要求，开源组件的维护与安全将成为采购关键指标，影响未来云服务选型。",
+    "tags": [
+      "News",
+      "Policy",
+      "OpenSource"
+    ],
+    "link": "https://www.suse.com/c/eu-cloud-ai-development-act-open-source-first/",
+    "date": "2026-06-03",
+    "id": "17805461028821"
+  },
+  {
     "title": "Google 与 Lovable 达成多年协议，AI 用量将提升 5 倍",
     "summary": "Lovable 与 Google Cloud 扩大合作，AI 用量增 5 倍，获 Claude 与 Gemini 模型访问权。",
     "detail": "瑞典 AI 编程初创公司 Lovable 与 Google Cloud 宣布达成多年扩展合作协议。据知情人士透露，该协议将使 Lovable 在 Google Cloud 上的 footprint（包括 AI  usage）增加五倍。作为交易的一部分，Lovable 将获得 Anthropic 的 Claude 模型和 Google 自家的 Gemini 模型的扩展访问权限。值得注意的是，Google 此前已向 Anthropic 投资数百亿美元，此次合作有助于 Anthropic 达成业绩目标。Lovable 增长迅猛，今年 2 月年化收入已突破 4 亿美元，被视为欧洲增长最快的初创公司之一。",
@@ -414,6 +466,19 @@
     "link": "https://pdftomdconverter.com",
     "date": "2026-06-03",
     "id": "17804600429914"
+  },
+  {
+    "title": "特朗普签署 AI 行政令，要求企业向政府提供模型早期访问权",
+    "summary": "美国政府要求 AI 公司向政府提供模型早期访问权限，加强监管。",
+    "detail": "特朗普签署最新 AI 行政命令，明确要求 AI 公司在模型发布前向政府提供早期访问权限。这是多年来最受期待的政策努力之一，标志着美国政府对 AI 技术的监管力度显著升级，从自愿指南转向强制访问。行业担忧这可能影响创新速度，增加合规成本，但支持者认为这是确保 AI 安全必要的措施。该政策将直接影响 OpenAI、Google 等头部企业的发布流程，可能成为未来 AI 合规的新标准，引发全球政策跟进。对于开发者而言，模型部署需预留政府审查接口，合规性将成为核心竞争力之一，企业需重新评估发布时间表。",
+    "tags": [
+      "News",
+      "Policy",
+      "USA"
+    ],
+    "link": "https://www.cnbc.com/2026/06/02/trump-executive-order-ai.html",
+    "date": "2026-06-02",
+    "id": "17805461028820"
   },
   {
     "title": "微软发布 Project Solara：AI 智能体设备操作系统",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/aws-samples/sample-GEDD",
     "date": "2026-05-31",
     "id": "17802650461072"
-  },
-  {
-    "title": "研究人员让 AI 模型运行模拟社会",
-    "summary": "多项 AI 模型被用于运行模拟社会实验，探索群体行为与交互。",
-    "detail": "研究人员利用 Claude、ChatGPT、Grok 等模型运行模拟社会实验，旨在观察 AI 模型在复杂社会结构中的交互与行为模式。这不仅有助于理解多 Agent 系统的涌现行为，也为社会学研究提供了新工具。然而，这也引发了关于 AI 模拟伦理及潜在风险的讨论，是 AI 安全研究的前沿方向。模拟社会可能揭示模型对齐中的隐藏问题，如群体极化或协作失效。对于 AI 开发者，理解这些模拟结果有助于优化多 Agent 协作系统，防止不可控行为在生产环境中出现，具有重要的理论与实际应用价值，值得学术界与工业界共同关注。",
-    "tags": [
-      "News",
-      "Research",
-      "Multi-Agent"
-    ],
-    "link": "https://fortune.com/2026/05/28/ai-model-simulation-claude-chatgpt-grok-gemini/",
-    "date": "2026-05-31",
-    "id": "17802650461073"
-  },
-  {
-    "title": "Headroom：LLM 上下文优化层",
-    "summary": "新 PyPI 库 Headroom 可压缩 Agent 读取内容，降低 LLM 成本 50-90%。",
-    "detail": "Headroom 是一个新的 Python 库，作为 LLM 应用的上下文优化层。它在数据到达 LLM 之前压缩 Agent 读取的内容，声称可降低 50-90% 的成本。对于依赖大量上下文输入的 AI 应用，这是一个显著的性能与成本优化方案。已发布 0.22.3 版本，开源在 GitHub，适合需要优化 Token 消耗的开发者集成。该工具通过智能压缩技术减少冗余信息，同时保留关键语义，直接作用于 Agent 读取环节。对于高频调用的生产环境，集成 Headroom 可显著降低运营成本，提升响应速度，是 LLM 工程化落地的实用工具，建议开发者尝试评估其压缩效果。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Optimization"
-    ],
-    "link": "https://pypi.org/project/headroom-ai/",
-    "date": "2026-05-31",
-    "id": "17802650461074"
-  },
-  {
-    "title": "AI 编码 Agent 的 UI 困境分析",
-    "summary": "文章探讨终端 UI 如何适应 AI 编码 Agent 的半自主工作流程。",
-    "detail": "随着 Codex CLI、Claude Agent 等工具的出现，终端不再是简单的命令执行区，而是半自主进程的工作空间。文章分析了传统线性终端 UX 无法适应 Agent 长运行、暂停、请求批准等新模式的问题。开发者需要新的 UI 模式来监督 Agent 状态。这对开发者工具设计提出了新挑战，预示了 IDE 与终端交互的演变。未来终端可能需要支持多路复用、状态可视化及人工介入接口。对于工具开发者，理解这一 UI 问题有助于设计更符合 Agent 协作流程的界面，提升开发者体验与工作效率，是 AI 原生开发环境设计的重要参考。",
-    "tags": [
-      "Dev",
-      "UX",
-      "Coding Agent"
-    ],
-    "link": "https://cate.cero-ai.com/blog/ui-problem-ai-coding-agents",
-    "date": "2026-05-31",
-    "id": "17802650461075"
-  },
-  {
-    "title": "外媒关注中国 AI 模型“蒸馏”技术引发竞争",
-    "summary": "外媒报道中国通过模型蒸馏技术获取美国前沿 AI 能力。",
-    "detail": "**背景**：美国《外交事务》最新刊文指出，中美 AI 竞争已开辟新前线，焦点转向开源与本地模型。**核心**：文章称中国公司系统性地利用“蒸馏”技术，将美国前沿模型能力迁移至更小的本地开源模型，规避了美方服务条款限制。**影响**：这种不对称优势可能使中国在消费硬件 AI 部署上占据主导，引发美方对技术流失及开源模型在地缘政治中关键角色的深度担忧，暗示未来监管可能收紧。",
-    "tags": [
-      "News",
-      "LLM",
-      "Geopolitics"
-    ],
-    "link": "https://www.foreignaffairs.com/china/chinas-ai-heist",
-    "date": "2026-05-31",
-    "id": "17802582759850"
-  },
-  {
-    "title": "Netflix 工程师开源工具大幅降低 AI Token 成本",
-    "summary": "Netflix 工程师开发 Headroom 工具，pruning 冗余 Token 节省 70 万美元。",
-    "detail": "**背景**：随着企业鼓励工程师激进使用 AI，Token 账单激增成为新痛点，甚至抵消裁员收益。**核心**：Netflix 高级工程师开发 Project Headroom，在请求前修剪约 90% 冗余指令，实现无损上下文压缩。**影响**：该开源工具已为用户节省约 70 万美元成本，有效解决 AI 应用成本失控问题，为开发者提供实用的低成本优化方案，目前已在 GitHub 获 2000 星。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "CostOptimization"
-    ],
-    "link": "https://www.theregister.com/ai-ml/2026/05/31/netflix-wiz-creates-app-to-slash-ai-bills-then-open-sources-it/5248702",
-    "date": "2026-05-31",
-    "id": "17802582759851"
   }
 ]
