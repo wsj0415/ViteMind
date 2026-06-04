@@ -1,5 +1,83 @@
 [
   {
+    "title": "Anthropic 估值近千亿美元，筹备 IPO",
+    "summary": "Anthropic 获 650 亿美元 H 轮融资，估值达 9650 亿。",
+    "detail": "Anthropic 宣布完成 650 亿美元 H 轮融资，后估值高达 9650 亿美元，并已 confidentially 向 SEC 提交 S-1 草案，具备 IPO 选项。这标志着前沿 AI 公司正从普通软件企业向关键系统运营商转变，compute expansion 与安全政策成为核心战略。行业集中度进一步提升，IPO 前景明朗，显示资本市场对 AGI 基础设施的长期押注，同时也暗示监管与合规将成为未来竞争的关键壁垒，改变行业生态。此融资规模远超以往，表明 AI 军备竞赛进入新阶段，资金将主要用于算力集群建设与安全对齐研究，确保模型 Scaling 过程中的稳定性。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "Finance"
+    ],
+    "link": "https://eido-askayo.blogspot.com/2026/06/anthropics-series-h-and-draft-s-1-point.html",
+    "date": "2026-06-04",
+    "id": "17805742514550"
+  },
+  {
+    "title": "微软英伟达联手打造 Windows 本地 AI 代理",
+    "summary": "推出新工具支持 Windows PC 构建本地 AI 代理，安全加速。",
+    "detail": "微软与英伟达在 COMPUTEX 2026 及 Build 2026 上深度合作，推出本地 AI 代理开发工具套件。包括 Microsoft eXecution Containers (MXC) 安全容器、NVIDIA OpenShell 及 2 倍加速推理技术，旨在让开发者在 Windows 上安全构建本地 Agent。支持多 GPU 及复杂工作流，集成 ComfyUI 等工具，推动端侧 AI 普及，解决隐私与延迟问题，重塑 PC 交互体验。此合作降低了本地部署门槛，使复杂 agentic workflow 能在用户设备上流畅运行，无需依赖云端，为隐私敏感型应用提供新方案。开发者可利用原生 Windows 安全原语执行代码，实现身份与策略管理，加速 AI PC 生态成熟。",
+    "tags": [
+      "News",
+      "Microsoft",
+      "Nvidia"
+    ],
+    "link": "https://developer.nvidia.com/blog/build-personal-ai-agents-on-windows-pcs-with-new-tools-from-microsoft-and-nvidia/",
+    "date": "2026-06-04",
+    "id": "17805742514551"
+  },
+  {
+    "title": "环保 activist Erin Brockovich 瞄准 AI 数据中心",
+    "summary": "知名维权人士建站追踪美国 AI 数据中心，收集居民担忧。",
+    "detail": "曾起诉太平洋煤气电力公司的环保 activist Erin Brockovich 推出新网站，mapping 美国 AI 数据中心增长并收集居民担忧。她曾赢得数百万美元和解金，如今将目标转向 AI 基础设施。此举可能引发对 AI 数据中心环境影响的监管关注，增加建设的社会阻力。网站允许居民报告问题，形成自下而上的监督网络，迫使科技巨头在扩张的同时兼顾社区利益与可持续发展，可能影响未来选址策略。随着 AI 算力需求激增，能源消耗与土地占用问题日益凸显，此类民间维权行动可能推动更严格的环境评估标准出台，增加行业合规成本。",
+    "tags": [
+      "News",
+      "Environment",
+      "Infrastructure"
+    ],
+    "link": "https://www.cbc.ca/news/world/erin-brockovich-ai-data-centres-website-9.7221109",
+    "date": "2026-06-04",
+    "id": "17805742514552"
+  },
+  {
+    "title": "Anthropic 发布 AI 网络威胁 ATT&CK 导航图",
+    "summary": "分析 832 个恶意账户，映射 AI enabled 网络攻击战术。",
+    "detail": "Anthropic 红队发布报告，分析 832 个恶意账户如何将 AI 用于网络攻击，并映射到 MITRE ATT&CK 框架。涵盖 14 种战术和 482 种子技术，揭示了 AI 武器化的新模式，为网络安全防御提供新视角和风险评估框架。研究跨度一年，发现攻击者利用 AI 进行侦察至最终影响的全流程。报告还与 Verizon DBIR 合作，提出风险评分框架，挑战传统安全假设，帮助组织更好理解 AI enabled 威胁 landscape，制定针对性防御策略。数据显示 AI 降低了攻击门槛，使非技术背景攻击者也能实施复杂操作，安全团队需更新防御 playbook 以应对自动化威胁。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Anthropic"
+    ],
+    "link": "https://red.anthropic.com/2026/attack-navigator/",
+    "date": "2026-06-04",
+    "id": "17805742514553"
+  },
+  {
+    "title": "Zorv：自主修复 CVE 漏洞的 AI 开发工具",
+    "summary": "自托管 AI 自动修复依赖漏洞，提供 Lifetime Deal。",
+    "detail": "Zorv 是一款自托管 autonomous AI 工具，专用于修复 Node.js 和 Python 依赖的 CVE 漏洞。它能在 CI/CD 中自动分析测试失败，重写 API 代码直至测试通过，解决传统 bot 只升级不修复的问题。采用 Bubblewrap Linux sandbox 确保隔离安全。目前提供 Lifetime Access 优惠，零订阅费，适合希望自动化安全维护的开发团队，显著减少技术债务与安全警报，提升开发效率。工具支持配置多种 LLM backend，如 Azure OpenAI 或 Anthropic，自动循环修复直至测试全绿，然后提交 PR，极大简化了依赖更新流程，让开发者专注于核心业务逻辑而非维护琐事。",
+    "tags": [
+      "Deal",
+      "Dev",
+      "Security"
+    ],
+    "link": "https://zorv.openyf.dev/",
+    "date": "2026-06-04",
+    "id": "17805742514554"
+  },
+  {
+    "title": "AI 战场实地笔记：开发原则与最佳实践",
+    "summary": "资深开发者分享 AI 编码原则，警示勿盲信 AI 代码。",
+    "detail": "资深开发者分享过去一年使用 AI 的实战原则，强调不要盲信 AI 生成的代码（如错误处理常生成空 catch 块）。文章基于 Microsoft 及 OpenAI Codex 使用经验，剥离 hype，提供 agentic workflow scaffolding 建议，适合希望优化 AI 开发流程的工程师。作者 codified 各种 reusable 结构，指出 AI 在 error handling 上的局限性，提倡人工审查。这些 notes consolidated 了实际项目中的教训，为构建可靠 AI 辅助开发流程提供实用指南，避免常见陷阱。文章还提及 MCP servers 及模型回归问题，强调在享受效率提升的同时，保持对代码质量的严格控制，建立人机协作的最佳实践规范。",
+    "tags": [
+      "Dev",
+      "Best Practices",
+      "Coding"
+    ],
+    "link": "https://taoofmac.com/space/blog/2026/06/04/1222",
+    "date": "2026-06-04",
+    "id": "17805742514555"
+  },
+  {
     "title": "Endava 围绕 AI Agent 重塑软件交付流程",
     "summary": "Endava 采用 OpenAI 企业版，将 AI 嵌入日常工作流，重构交付模式。",
     "detail": "全球技术服务公司 Endava 宣布将 OpenAI 作为企业 AI 平台，全面嵌入 ChatGPT Enterprise 和 Codex。CTO Matthew Cloke 表示，AI 不再是最后一步，而是解决问题的首选。团队正围绕 Agent 重新设计软件交付流程，打破工程瓶颈，强调实验文化。此举展示了企业级 AI 落地的新范式，即从工具采用转向工作流重构，要求需求收集与分析同步加速，以实现真正的 AI 原生组织转型。Endava 的经验表明，成功的关键在于让 AI 成为日常工作流的一部分。",
@@ -1220,83 +1298,5 @@
     "link": "https://xcancel.com/DarkWebInformer/status/2061253599758315527",
     "date": "2026-06-01",
     "id": "17802870769900"
-  },
-  {
-    "title": "Peter Thiel 警告 AI 更威胁技术岗位",
-    "summary": "Peter Thiel 指出 AI 对技术角色的威胁大于创造性思维者，引发行业热议。",
-    "detail": "硅谷投资人 Peter Thiel 公开警告，AI 技术对传统技术岗位的冲击将远超创造性思维角色。他认为编码等技术工作更易被自动化，而创意与战略思维难以替代。这一观点挑战了当前“程序员最安全”的共识，促使从业者重新审视技能树，向更高阶的系统设计与创意整合转型，行业人才需求结构可能面临重塑，技术人员需警惕技能贬值。这为职业规划提供了新的视角，强调软技能的重要性。",
-    "tags": [
-      "News",
-      "Industry",
-      "Career"
-    ],
-    "link": "https://fortune.com/article/peter-thiel-ai-skills-creative-thinking-technical/",
-    "date": "2026-06-01",
-    "id": "17802870769901"
-  },
-  {
-    "title": "英国边境试用 AI 年龄评估引争议",
-    "summary": "英国内政部确认试用 AI 面部年龄估计技术评估难民，遭人权组织反对。",
-    "detail": "英国内政部确认将在边境试用 AI 面部年龄估计技术，以决定寻求庇护者是否被视为儿童。该技术基于数百万人脸训练，但被批缺乏准确性且伦理风险巨大。人权观察组织称此为“对儿童的 AI 实验”，可能导致未成年人被误判为成人从而失去保护。此举标志着 AI 在政府决策中的渗透引发法律与伦理的双重挑战，政策落地面临阻力。技术中立性在敏感社会议题中再次受到严峻考验。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Policy"
-    ],
-    "link": "https://smarterarticles.co.uk/border-cameras-and-childhood-why-ai-age-estimation-fails-asylum-seekers",
-    "date": "2026-06-01",
-    "id": "17802870769902"
-  },
-  {
-    "title": "Smart Rename：本地 AI 实时重命名图片",
-    "summary": "开源工具利用本地 Ollama 模型实时描述并重命名下载图片，保护隐私。",
-    "detail": "新开源项目 Smart Rename 允许用户使用本地 AI 模型（如 Ollama/Llava）实时自动重命名下载的图片文件。相比云端服务，该工具完全私有化，无需联网，确保数据隐私。它通过系统托盘运行，自动将无意义文件名转换为描述性名称。该项目展示了本地小模型在个人效率工具中的落地潜力，适合注重隐私的开发者与用户部署，降低云端依赖。为本地 AI 应用开发提供了优秀参考案例。",
-    "tags": [
-      "New",
-      "Privacy",
-      "Tool"
-    ],
-    "link": "https://github.com/chudweiser/smart-rename",
-    "date": "2026-06-01",
-    "id": "17802870769903"
-  },
-  {
-    "title": "探讨 AI 代理的“困惑代理”安全问题",
-    "summary": "HN 社区热议如何解决 AI 代理被诱导执行恶意操作的安全难题。",
-    "detail": "Hacker News 社区发起关于解决 AI“困惑代理”（Confused Deputy）问题的讨论。核心矛盾在于代理权限与其可能被攻击者诱导执行恶意操作之间的张力。现有方案如默认拒绝代理尚不完美，有人提议使用另一个 LLM 运行观察循环来监控代理行为。这反映了 AI Agent 安全架构仍处于早期探索阶段，权限管理与行为监控是未来开发的关键难点，需社区共同攻关。安全将是 Agent 大规模落地的前提条件。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48352369",
-    "date": "2026-06-01",
-    "id": "17802870769904"
-  },
-  {
-    "title": "SpaceX 计划发射百万 AI 卫星，引发末日风险担忧",
-    "summary": "福布斯报道大规模部署可能带来安全风险，超出人类监控。",
-    "detail": "福布斯报道 SpaceX 承诺发射 100 万颗 AI 卫星，引发末日风险担忧。大规模星座部署可能加剧太空拥堵及潜在军事化风险。文章指出 AI 与卫星网络结合可能超出人类监控能力，导致不可控后果，如自动碰撞或信号干扰。该计划若实施，将极大改变近地轨道生态，对全球通信及安全架构产生深远影响。行业需平衡技术创新与太空可持续性，避免重蹈地面 AI 安全覆辙。",
-    "tags": [
-      "News",
-      "Space",
-      "Risk"
-    ],
-    "link": "https://www.forbes.com/sites/kevinholdenplatt/2026/05/31/spacex-vow-to-loft-1-million-ai-satellites-could-spark-doomsday-dive/",
-    "date": "2026-05-31",
-    "id": "17803730777824"
-  },
-  {
-    "title": "华盛顿邮报：AI 小说是人类思维的“新快餐”",
-    "summary": "评论文章指出 AI 生成内容虽便捷，但仍需人类作者提供狂野创意。",
-    "detail": "华盛顿邮报发表评论文章，将 AI 生成的小说比作人类思维的“快餐”。作者 Megan McArdle 认为，虽然 AI 能快速生产内容，但世界仍需人类作者来产生真正狂野和独特的创意。文章探讨了 AI 内容消费对文化生态的潜在影响，暗示过度依赖 AI 创作可能导致思维同质化。这一观点为 AI 内容生成热潮提供了冷静的文化视角，提醒行业关注内容质量与人类创造力的核心价值。引发对 AI 生成内容伦理的思考。警示 AI 内容泛滥风险。",
-    "tags": [
-      "News",
-      "Culture",
-      "Opinion"
-    ],
-    "link": "https://www.washingtonpost.com/opinions/2026/05/31/ai-fiction-is-fast-food-human-mind/",
-    "date": "2026-05-31",
-    "id": "17803094647124"
   }
 ]
