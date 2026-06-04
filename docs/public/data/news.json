@@ -1,5 +1,83 @@
 [
   {
+    "title": "Endava 围绕 AI Agent 重塑软件交付流程",
+    "summary": "Endava 采用 OpenAI 企业版，将 AI 嵌入日常工作流，重构交付模式。",
+    "detail": "全球技术服务公司 Endava 宣布将 OpenAI 作为企业 AI 平台，全面嵌入 ChatGPT Enterprise 和 Codex。CTO Matthew Cloke 表示，AI 不再是最后一步，而是解决问题的首选。团队正围绕 Agent 重新设计软件交付流程，打破工程瓶颈，强调实验文化。此举展示了企业级 AI 落地的新范式，即从工具采用转向工作流重构，要求需求收集与分析同步加速，以实现真正的 AI 原生组织转型。Endava 的经验表明，成功的关键在于让 AI 成为日常工作流的一部分。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Enterprise"
+    ],
+    "link": "https://openai.com/index/endava-frontiers",
+    "date": "2026-06-04",
+    "id": "17805630615380"
+  },
+  {
+    "title": "Google 允许网站退出 AI 搜索摘要",
+    "summary": "响应英国监管，Google 新增 AI 搜索来源归属及网站退出选项。",
+    "detail": "遵循英国竞争与市场管理局 (CMA) 裁决，Google 将在 Search Console 新增设置，允许网站所有者选择不出现在 AI 概述中。同时承诺提供更清晰的来源归属链接，且不惩罚退出者，以保障出版商权益。该举措旨在解决 AI 摘要减少推荐流量的问题，赋予新闻机构等内容出版商更大的议价能力，标志着 AI 搜索合规性的重要进展。Google 表示将开始测试此功能，确保传统搜索结果不受影响，平衡 AI 创新与内容生态利益。",
+    "tags": [
+      "News",
+      "Google",
+      "Policy"
+    ],
+    "link": "https://sfist.com/2026/06/03/google-to-add-clearer-attributions-to-ai-searches-allow-sites-to-opt-out-following-ruling-in-uk/",
+    "date": "2026-06-04",
+    "id": "17805630615381"
+  },
+  {
+    "title": "OpenAI 与 Anthropic 承诺防止 AI 生物武器",
+    "summary": "两家领先 AI 实验室签署信函，禁止开发 AI 生物武器，加强安全治理。",
+    "detail": "Wired 报道，OpenAI 和 Anthropic 签署联合信函，承诺防止 AI 被用于开发生物武器。此举旨在加强 AI 安全治理，应对潜在的生物安全风险，显示头部企业在 AI 伦理与安全方面的自我约束。随着 AI 能力增强，防止滥用成为行业共识。两家实验室希望通过此承诺，推动建立更严格的安全标准，避免技术被恶意利用于制造大规模杀伤性武器，维护全球安全。这反映了 AI 行业在面对高风险应用时的主动防御姿态。",
+    "tags": [
+      "News",
+      "Safety",
+      "Ethics"
+    ],
+    "link": "https://www.wired.com/story/openai-anthropic-letter-ai-biological-weapons/",
+    "date": "2026-06-04",
+    "id": "17805630615382"
+  },
+  {
+    "title": "企业利用 Reddit 操纵 AI 搜索结果",
+    "summary": "公司通过优化 Reddit 内容影响 ChatGPT 和 Google AI 搜索，引发数据担忧。",
+    "detail": "404 Media 报道指出，公司正利用 Reddit 帖子操纵 AI 搜索模型。由于 AI 训练数据包含社交媒体内容，企业试图通过优化 Reddit 讨论来提升自身在 AI 搜索结果中的可见性，引发数据真实性担忧。这种“搜索引擎优化”的新形式揭示了 AI 搜索面临的污染风险，可能导致模型输出偏见信息，影响用户决策，亟需平台加强内容验证机制。这表明 AI 搜索生态正面临新的博弈，内容真实性挑战加剧。",
+    "tags": [
+      "News",
+      "Security",
+      "Search"
+    ],
+    "link": "https://www.404media.co/companies-are-using-reddit-to-manipulate-chatgpt-and-google-ai-search/",
+    "date": "2026-06-04",
+    "id": "17805630615383"
+  },
+  {
+    "title": "AgentRail 为网站提供 AI Agent 友好层",
+    "summary": "基于 Cloudflare 的边缘层，为 AI Agent 提供确定性 Markdown 响应。",
+    "detail": "开源项目 AgentRail 是一个 Cloudflare 边缘层，能识别已知 AI Agent 并提供 deterministic Markdown 响应。它缓存提取内容，减少生成延迟，使网站能更好地服务于 AI 爬虫，同时保持对人类用户的 HTML 响应。该工具解决了 AI 抓取 HTML 效率低的问题，通过预生成 Markdown 优化 Agent 交互体验，是构建 Agent 友好型网站的基础设施。请求处理不等待提取，缓存未命中时回源，确保低延迟。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "Agents"
+    ],
+    "link": "https://github.com/gharibyan/agentrail",
+    "date": "2026-06-04",
+    "id": "17805630615384"
+  },
+  {
+    "title": "Gate 实现 AI Agent 工具输出的 PII 脱敏",
+    "summary": "Rust 编写的隐私边界工具，拦截敏感数据防止泄露给 AI 模型。",
+    "detail": "Gate 是一个用 Rust 编写的开源工具，作为数据与 AI 之间的隐私边界。它在查询结果到达模型前拦截并自动脱敏 PII（如邮箱、电话），支持 Bash 命令等路径，无需更改现有工作流即可增强 Agent 安全性。该工具基于规则驱动，可审计，适用于 AI Agent 访问内部数据库和 API 的场景，防止敏感数据意外泄露到 LLM 上下文窗口中。它是企业部署 AI Agent 时保障数据合规的关键组件。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Privacy"
+    ],
+    "link": "https://github.com/GaaraZhu/gate",
+    "date": "2026-06-04",
+    "id": "17805630615385"
+  },
+  {
     "title": "Sam Altman 提议初创企业可用 AI 代币换取股权",
     "summary": "OpenAI CEO 向初创公司提出新方案，以 AI 代币置换股权。",
     "detail": "据报道，Sam Altman 向初创创始人提出新提案，允许企业使用 AI 代币换取股权，特别是在 Y Combinator 生态内，这标志着 AI 巨头探索新的商业模式与生态绑定方式。若实施，可能改变初创企业融资结构，将 AI 算力或使用权资产化，缓解现金流压力。行业正在观察此举是否会成为 AI 投资领域的新标准，以及对代币经济合规性的影响。创始人需评估代币流动性与股权稀释风险，这可能开启 AI 资源置换资本的新路径，重塑早期投资逻辑。对于 OpenAI 而言，此举可深度绑定潜在独角兽，构建更紧密的生态护城河，但也面临监管审查风险。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.washingtonpost.com/opinions/2026/05/31/ai-fiction-is-fast-food-human-mind/",
     "date": "2026-05-31",
     "id": "17803094647124"
-  },
-  {
-    "title": "Meta AI 支持功能致 Instagram 账户被盗风险",
-    "summary": "Meta AI 支持功能存在严重漏洞，黑客可轻易劫持 Instagram 账户。",
-    "detail": "该漏洞允许攻击者通过代理或 VPN 模拟账户所在区域，利用 Meta AI 支持功能将验证码发送至任意邮箱。一旦获取代码，即可重置密码并劫持账户。目前已有超过 100 个高价值 Instagram 账户受害，相关利用方法在黑产圈 Telegram 频道已公开。建议 Meta 暂时禁用该功能，并恢复被盗账户权限。此事件凸显了 AI 客服自动化流程中的身份验证风险，对依赖 AI 进行用户支持的平台敲响安全警钟，需重新审视自动化权限授予机制，防止类似社会工程学攻击利用 AI 代理漏洞。",
-    "tags": [
-      "News",
-      "Security",
-      "Meta"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48350239",
-    "date": "2026-05-31",
-    "id": "17802694417170"
-  },
-  {
-    "title": "Vektor Memory 推出实时 AI 研究协作工具",
-    "summary": "新工具 JOT Collab 嵌入写作界面，主动提供学术研究与反驳观点。",
-    "detail": "Vektor Memory 在其笔记编辑器中内置了 JOT Collab，区别于 Notion 等被动工具，它能实时阅读用户写作内容并主动提供 contradicting 的学术论文或见解。解决了写作中缺乏即时反馈和方向指引的痛点，无需在 ChatGPT 等工具间切换上下文，提升了技术写作的深度与效率。该工具旨在填补创意写作与学术研究之间的空白，通过主动式 AI 协作帮助用户 refine 观点，避免信息茧房，特别适合技术文档撰写者及研究人员使用。这种嵌入式协作模式代表了 AI 写作工具从被动问答向主动伙伴演进的新趋势，提升了知识工作者的产出质量。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Writing"
-    ],
-    "link": "https://medium.com/@vektormemory/we-built-a-real-time-ai-research-collaborator-into-our-jot-writing-tool-3643596ec2e6",
-    "date": "2026-05-31",
-    "id": "17802694417171"
-  },
-  {
-    "title": "AI 生成内容质量取决于迭代与审查",
-    "summary": "文章强调 AI 产出质量依赖于用户的迭代审查，而非单纯生成。",
-    "detail": "作者指出使用 AI 的核心在于迭代与审查，而非一次性生成。工作重心从编写代码转向架构设计与 QA。若仅停留在第一遍输出，只会产生平庸内容。通过数百次迭代及批判性眼光，AI 可显著提升效率。开发者需明确指定需求而非亲自编写每一行代码，这标志着开发模式从手动编码向 specification 的转变，要求从业者具备更强的架构与鉴别能力。高质量产出取决于用户的品味与 specificity，AI 仅是加速工具，而非替代思考的魔法，开发者需警惕过度依赖导致的技能退化。",
-    "tags": [
-      "Dev",
-      "Workflow",
-      "LLM"
-    ],
-    "link": "https://building138.com/ai-slop-is-a-choice",
-    "date": "2026-05-31",
-    "id": "17802694417172"
-  },
-  {
-    "title": "G7 达成开源 AI 术语共识",
-    "summary": "G7 国家就开源及开放权重 AI 定义达成共享语言，影响全球政策。",
-    "detail": "G7 成员国近期就开源 AI 和开放权重 AI 的定义达成了共享语言共识，旨在统一全球监管框架，减少因术语混淆导致的政策摩擦。对于 AI 行业而言，明确的定义将有助于开源模型的合规发布与国际合作，同时也可能为未来的安全标准制定奠定基础。此外，这可能影响模型权重的分发策略，企业需关注后续政策落地，调整开源战略以符合国际规范，避免合规风险。这一协议标志着主要经济体在 AI 治理上迈出协调步伐，可能成为未来国际条约的雏形，开发者应密切关注相关立法动态，以便及时调整产品合规策略。",
-    "tags": [
-      "News",
-      "Policy",
-      "Open Source"
-    ],
-    "link": "https://www.phoronix.com/news/G7-On-Open-Source-AI",
-    "date": "2026-05-31",
-    "id": "17802650461070"
-  },
-  {
-    "title": "环保 activist  targeting 数据中心保密",
-    "summary": "环保活动家 Erin Brockovich 揭露数据中心 secrecy，关注 AI 基础设施环境影响。",
-    "detail": "著名环保活动家 Erin Brockovich 将目标转向了数据中心的保密问题。随着 AI 算力需求激增，数据中心的能源消耗与环境足迹成为焦点。此举可能推动行业提高透明度，公开能耗与水资源使用数据。对于 AI 公司而言，面临更大的 ESG 合规压力，绿色 AI 基础设施将成为竞争关键点。投资者与公众将更加关注 AI 背后的环境成本，迫使科技巨头优化冷却技术与能源来源。这不仅是环保问题，更可能演变为针对 AI 基础设施的法律行动，企业需提前准备环境 impact 报告，应对潜在的监管审查与公众舆论压力，确保可持续发展。",
-    "tags": [
-      "News",
-      "Environment",
-      "Infrastructure"
-    ],
-    "link": "https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/",
-    "date": "2026-05-31",
-    "id": "17802650461071"
-  },
-  {
-    "title": "AWS 开源 GEDD：AI Agent 评估工具",
-    "summary": "AWS 推出 GEDD 工具，帮助 PM 在 rubric 建立前发现 AI Agent 错误。",
-    "detail": "AWS samples 发布了 GEDD，一款专为产品经理和领域专家设计的 AI Agent 评估工具。传统评估需要预先定义 rubric，而 GEDD 允许在对话后 90 分钟内生成生产级评估管道。它解决了 Agent 在未预见场景下的失败问题，强调“评估管道即产品”。适合需要快速验证 Agent 可靠性的开发团队。该工具基于 Claude Skill 构建，支持定性评估，帮助团队在用户发现问题前识别 Agent 错误。对于构建复杂 Agent 系统的企业，这是提升交付质量的关键基础设施，开源代码便于集成到现有 CI/CD 流程中，显著降低测试门槛与时间成本。",
-    "tags": [
-      "Dev",
-      "AWS",
-      "Agent"
-    ],
-    "link": "https://github.com/aws-samples/sample-GEDD",
-    "date": "2026-05-31",
-    "id": "17802650461072"
   }
 ]
