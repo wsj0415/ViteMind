@@ -1,5 +1,70 @@
 [
   {
+    "title": "前 OpenAI CTO Mira Murati 重返公众视野",
+    "summary": "Thinking Machines Lab CEO 展示新型交互模型，支持连续流处理。",
+    "detail": "前 OpenAI CTO、现 Thinking Machines Lab CEO Mira Murati 在接受彭博社采访时，首次公开预览了公司的“交互模型”。该技术不同于传统的 prompt-response 模式，旨在以 200 毫秒间隔处理连续的音频、文本和视频流。这标志着 AI 界面从 turn-based 向连续交互的根本性转变，可能影响未来多模态 Agent 的设计方向。她在离开 OpenAI 一年半后首次亮相，强调在竞争激烈的市场中需要发出声音，但谨慎避免透露过多细节。此次露面表明 Thinking Machines 已完成资本筹集和研究团队组建，准备推向市场。",
+    "tags": [
+      "News",
+      "LLM",
+      "Multimodal"
+    ],
+    "link": "https://techcrunch.com/2026/06/04/mira-murati-steps-back-into-the-spotlight-carefully/",
+    "date": "2026-06-05",
+    "id": "17806368474270"
+  },
+  {
+    "title": "Stateflow Labs 发布 AI 运行时状态管理 SDK",
+    "summary": "开源工具解决 AI 自动化脚本在生产环境中的状态丢失问题。",
+    "detail": "Stateflow Labs 推出了两个开源 Python SDK（ALGOgent Runtime 和 Adaptive Runtime），旨在解决 AI 系统在生产环境中的运行时问题。核心功能包括状态持久化、检查点恢复和重试逻辑，无需外部服务或 GPU。这对于构建高可靠性的 AI Agent 和自动化流水线具有重要的工程实践价值，强调失败是不可避免的且需可控恢复。项目基于 MIT 许可，支持 Python 3.10+，允许开发者在不依赖云锁定的情况下构建容错系统，解决了 Agent 记忆丢失的关键痛点。",
+    "tags": [
+      "Dev",
+      "Python",
+      "Infrastructure"
+    ],
+    "link": "https://stateflow-dev.github.io/stateflowlabs/",
+    "date": "2026-06-05",
+    "id": "17806368474273"
+  },
+  {
+    "title": "构建 AI 神经科学：从原子到比特",
+    "summary": "探讨利用 AI 科学家代理加速神经科学研究与疾病治疗。",
+    "detail": "Amaranth Foundation 文章探讨了如何利用\"AI 科学家”代理加速神经科学研究。通过让 AI 系统阅读文献、生成假设、设计实验，有望大幅缩短理解智力及治疗神经退行性疾病的过程。这是对 Dario Amodei“数据中心天才之国”构想的具体实施路径分析，强调了 AI for Science 在生物医学领域的潜力。文章指出，虽然目标宏大，但需优先构建能从原子到比特映射的 AI 系统，资助者应关注此类基础设施投资，以推动科学发现自动化。",
+    "tags": [
+      "Dev",
+      "Research",
+      "AI for Science"
+    ],
+    "link": "https://blog.amaranth.foundation/p/building-ai-neuroscience-from-atoms",
+    "date": "2026-06-04",
+    "id": "17806368474272"
+  },
+  {
+    "title": "agentgateway 加入 AAIF 成为开源代理网关",
+    "summary": "Linux 基金会旗下项目，统一 manages AI 代理与基础设施流量。",
+    "detail": "agentgateway 正式加入 Agentic AI Foundation (AAIF)，成为 Linux 基金会托管项目。它是一个专为 AI 和代理工作负载设计的统一网关控制平面，支持 MCP、A2A、LLM 推理等流量管理。该项目旨在解决代理系统在治理、可观测性和安全方面的基础设施挑战，为平台团队提供熟悉的操作原语来管理 AI 流量。随着 AI 系统趋向分布式，传统 Web 基础设施模式已不足够，agentgateway 提供了开源的 Apache 2.0 解决方案，统一管理 AI 与传统应用流量。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "Open Source"
+    ],
+    "link": "https://aaif.io/blog/agentgateway-joins-aaif-as-an-open-gateway-for-agentic-ai-infrastructure/",
+    "date": "2026-06-04",
+    "id": "17806368474274"
+  },
+  {
+    "title": "Anthropic 呼吁全球暂停 AI 开发",
+    "summary": "WSJ 报道 Anthropic 主张放缓 AI 发展速度以确保安全。",
+    "detail": "据华尔街日报报道，AI 安全巨头 Anthropic 呼吁全球暂停或放缓 AI 开发速度。这一主张反映了行业领先者对当前 AI 发展速度可能超越安全管控能力的担忧。此举可能在业界引发关于监管、安全标准与竞争平衡的激烈讨论，标志着 AI 安全政策从理论探讨走向实质性的行业倡议。在 OpenAI、xAI 等竞争对手加速扩张的背景下，Anthropic 此举试图确立安全优先的行业规范，可能影响未来投资流向及政府监管政策制定。",
+    "tags": [
+      "News",
+      "Safety",
+      "Policy"
+    ],
+    "link": "https://www.wsj.com/finance/investing/anthropic-calls-for-global-slowdown-in-ai-development-4f2134f6",
+    "date": "2026-06-04",
+    "id": "17806368474275"
+  },
+  {
     "title": "工程师实战：如何用 AI 交付真实产品而非 Demo",
     "summary": "分享利用 AI 构建棒球管理应用的实战经验，拒绝空谈。",
     "detail": "作者通过构建 CalledUp 棒球管理应用，探讨了工程师如何利用 AI 交付真实产品而非周末 Demo。面对阵容调整等复杂逻辑，文章强调避免“氛围编码”，指出 AI 生成代码在遇到真实用户行为时容易崩溃。核心在于将 AI 作为辅助工具处理逻辑和样板代码，而非完全依赖其架构设计。这对独立开发者具有极高参考价值，强调了工程纪律在 AI 时代的重要性，确保产品稳定性与可维护性，避免技术债务。",
@@ -910,6 +975,19 @@
     "id": "17804600429914"
   },
   {
+    "title": "五角大楼被曝利用 AI 制造宣传内容",
+    "summary": "The Intercept 调查揭露美军利用 AI 内容工厂针对拉丁美洲。",
+    "detail": "The Intercept 调查发现，美国五角大楼正在运营一个名为\"La Tilde\"的 AI 内容工厂，向拉丁美洲互联网用户推送宣传内容。该网站混合了个人理财建议与美化美军行动的文章，其宣传视频显示出明显的 AI 生成痕迹，如渲染错误的标题。此事件引发了关于 AI 在地缘政治宣传中滥用及信息真实性的严重伦理担忧。该项目今年初开始开发，旨在通过现代媒体品牌伪装，影响区域舆论导向，展示了生成式 AI 在信息战中的潜在风险。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Geopolitics"
+    ],
+    "link": "https://theintercept.com/2026/06/02/la-tilde-propaganda-latin-america-pentagon/",
+    "date": "2026-06-02",
+    "id": "17806368474271"
+  },
+  {
     "title": "特朗普签署 AI 行政令，要求企业向政府提供模型早期访问权",
     "summary": "美国政府要求 AI 公司向政府提供模型早期访问权限，加强监管。",
     "detail": "特朗普签署最新 AI 行政命令，明确要求 AI 公司在模型发布前向政府提供早期访问权限。这是多年来最受期待的政策努力之一，标志着美国政府对 AI 技术的监管力度显著升级，从自愿指南转向强制访问。行业担忧这可能影响创新速度，增加合规成本，但支持者认为这是确保 AI 安全必要的措施。该政策将直接影响 OpenAI、Google 等头部企业的发布流程，可能成为未来 AI 合规的新标准，引发全球政策跟进。对于开发者而言，模型部署需预留政府审查接口，合规性将成为核心竞争力之一，企业需重新评估发布时间表。",
@@ -1220,83 +1298,5 @@
     "link": "https://finance.yahoo.com/sectors/technology/articles/starbucks-quietly-retired-ai-agent-192259096.html",
     "date": "2026-06-02",
     "id": "17803730777827"
-  },
-  {
-    "title": "Cognizant CEO：AI Token 最大化是虚荣指标",
-    "summary": "Cognizant CEO 称 AI Token 消耗是虚荣指标，仍大规模招聘毕业生。",
-    "detail": "Cognizant CEO Ravi Kumar 表示，单纯追求 AI Token 消耗量是虚荣指标，强调实际业务价值。同时公司计划招聘超 2 万名毕业生。这表明服务型巨头在 AI 浪潮中保持理性，不盲目追求技术参数，而是关注人才储备与落地应用。对行业而言，这是一个关于 AI ROI 评估的重要信号，提醒企业关注实质产出。在 AI 泡沫论调下，企业更注重成本效益，hiring 毕业生而非仅依赖 AI 替代，显示人力与 AI 协作仍是主流。这种务实态度有助于行业健康发展，避免过度炒作技术指标而忽视商业本质。这一策略反映了 IT 服务行业在转型期的谨慎，即通过新鲜血液培养 AI 原生人才，而非完全依赖自动化工具，确保服务质量的稳定性与客户的长期信任。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Hiring"
-    ],
-    "link": "https://fortune.com/2026/06/01/cognizant-ceo-ravi-kumar-s-hiring-entry-level-tokenmaxxing-vanity-metric/",
-    "date": "2026-06-01",
-    "id": "17804789255493"
-  },
-  {
-    "title": "LLM 训练数据缺乏管理学内容",
-    "summary": "分析显示主流大模型训练数据中几乎没有专门的管理学语料。",
-    "detail": "分析指出，尽管代码、医学和法律在 LLM 训练数据中占比显著，但“管理学”几乎没有专门的语料库。这意味着当前 AI 替代中层管理的能力被高估，因为模型缺乏高质量的管理决策训练数据。代码有 GitHub，医学有 PubMed，但管理没有 canonical benchmark。这为企业管理者评估 AI 替代风险提供了关键的数据视角。无论模型多大，缺乏特定领域高质量训练数据都会限制其表现。因此，完全替换管理者目前不现实，更多是辅助角色。主要 LLM 发布的训练混合数据都显示相同故事。管理通常不作为显式来源出现。这限制了 AI 在复杂组织行为中的可靠性，无论模型参数规模如何增长。",
-    "tags": [
-      "News",
-      "LLM",
-      "Management"
-    ],
-    "link": "https://analysis.infocentral.net/replacing-managers-with-ai.html",
-    "date": "2026-06-01",
-    "id": "17804092215032"
-  },
-  {
-    "title": "Bloc 发布 AI 视频画布编辑器，颠覆时间轴模式",
-    "summary": "颠覆时间轴模式，采用画布编辑，支持局部修改无需重生成。",
-    "detail": "Bloc 推出新型 AI 视频工具，摒弃传统时间轴范式，转而采用无限画布编辑模式。用户可独立控制视频中的每个区块，修改局部内容无需重生成整体视频，显著降低迭代成本。产品集成 Seedance 2.0、Claude 4 及 GPT Image 2 等前沿模型，并提供 250 免费积分无需绑卡。旨在解决广告 agency、企业培训及自由职业者在视频修改中成本高、效率低的痛点，通过盒级控制提升视频生产灵活性与边际收益，代表 AI 视频编辑新方向。",
-    "tags": [
-      "New",
-      "Video",
-      "Product"
-    ],
-    "link": "https://vidbloc.com/",
-    "date": "2026-06-01",
-    "id": "17803730777820"
-  },
-  {
-    "title": "AI 发现 X.Org 服务器九个安全漏洞，展示审计能力",
-    "summary": "Phoronix 报道 AI 辅助挖掘出 Linux 图形服务器漏洞，修复紧迫。",
-    "detail": "Phoronix 报道 X.Org 服务器在六月伊始被发现九个新安全漏洞，均由 AI 辅助发现。这展示了 AI 在代码审计和安全挖掘方面的实际能力。漏洞涉及 Linux 图形系统核心，修复紧迫，影响广泛。此事件印证 AI 工具在网络安全领域的双刃剑效应，既助防御也可能被用于攻击，推动安全运维智能化。开发者需重视 AI 辅助代码审查，同时加强对 AI 生成代码的安全性验证，防止引入新风险。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Linux"
-    ],
-    "link": "https://www.phoronix.com/news/X.Org-9-Vulnerabilities-AI",
-    "date": "2026-06-01",
-    "id": "17803730777826"
-  },
-  {
-    "title": "Alphabet 计划筹资 800 亿美元加速 AI 基础设施建设",
-    "summary": "Google 母公司 Alphabet 计划通过股票销售筹集 800 亿美元，主要用于 AI 基础设施扩建。",
-    "detail": "2026 年 AI 基础设施竞赛已进入白热化阶段，算力成为核心战略资源。Google 母公司 Alphabet 宣布计划通过股票销售筹集高达 800 亿美元资金，而非采用债务融资，这一举动显示了管理层对 AI 投资长期回报的强烈信心。筹集的资金将主要用于全球数据中心的建设和算力规模的急剧扩容，以支持下一代模型训练。此举旨在巩固其在生成式 AI 领域的领先地位，有效应对微软等竞争对手的挑战，标志着科技巨头对 AI 长期投入的决心，可能进一步推高行业资本支出门槛，重塑竞争格局。",
-    "tags": [
-      "News",
-      "Google",
-      "Infrastructure"
-    ],
-    "link": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
-    "date": "2026-06-01",
-    "id": "17803551129380"
-  },
-  {
-    "title": "Nvidia 发布 RTX Spark 芯片，进军 2000 亿美元 AI PC 市场",
-    "summary": "Nvidia 推出 RTX Spark 超级芯片，联合微软、戴尔等厂商打造本地 AI Agent PC。",
-    "detail": "Nvidia 在台北 Computex 贸易展上正式发布 RTX Spark“超级芯片”，其算力高达 1-petaflop，性能显著超越传统 CPU。该芯片专为在本地运行 AI Agent 和大型语言模型设计，并配备了与微软联合开发的安全沙箱，确保数据隐私。联合戴尔、惠普等厂商推出的 AI PC，旨在彻底改变传统 PC 交互模式，从“点击应用”转向“自然语言指令”。这标志着 AI 计算从云端向边缘侧的重大转移，可能重塑个人计算设备的市场格局，开启新的硬件换机周期。",
-    "tags": [
-      "News",
-      "Nvidia",
-      "Hardware"
-    ],
-    "link": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
-    "date": "2026-06-01",
-    "id": "17803551129381"
   }
 ]
