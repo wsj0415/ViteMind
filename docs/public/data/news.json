@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI Agent Markdown 支持现状矩阵",
+    "summary": "披露主流 AI Agent 对 Markdown 内容协商的支持情况。",
+    "detail": "该状态矩阵详细测试了主流 AI Agent 在抓取 URL 时的 HTTP 请求头行为。结果显示 Claude Code 和 Cursor 已支持发送 `Accept: text/markdown`，而 ChatGPT、Copilot 及 Gemini 等仍仅获取 HTML。这意味着开发者需针对不支持 Markdown 协商的代理优化 HTML 结构，以确保 AI 能准确读取内容。随着 AI 流量占比增加，这种内容协商机制将成为 AI SEO 的关键策略，直接影响网站在 AI 搜索结果中的可见性与信息提取准确度。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Web Dev"
+    ],
+    "link": "https://acceptmarkdown.com/status",
+    "date": "2026-06-05",
+    "id": "17806822815810"
+  },
+  {
+    "title": "Sakana AI 成立递归自我改进实验室",
+    "summary": "推出 RSI Lab，致力于通过 AI  redesign AI 开发流程。",
+    "detail": "Sakana AI 宣布成立递归自我改进（RSI）实验室，旨在重新设计 AI 开发流程。受日本制造业“持续改进”哲学启发，该实验室主张摆脱暴力 Scaling 路径，转而开发开放自适应架构。目标是让 AI 系统从静态工具演变为自主研究员，通过进化式自我改进在资源受限下实现智能跃迁。这标志着 AI 研究从单纯追求参数规模转向追求架构效率与自主性，可能引领下一代 AI 研发范式。",
+    "tags": [
+      "News",
+      "Research",
+      "LLM"
+    ],
+    "link": "https://sakana.ai/rsi-lab/",
+    "date": "2026-06-05",
+    "id": "17806822815811"
+  },
+  {
+    "title": "Anthropic 呼吁全球暂停 AI 开发",
+    "summary": "提议暂时放缓 AI 发展以讨论潜在风险。",
+    "detail": "Anthropic 正式提议全球暂时放缓 AI 开发进度，旨在进行关于风险的国际对话。该消息被卫报、Engadget 等多家主流媒体证实。作为头部实验室，此举反映出行业对 AI 安全及失控风险的担忧加剧。这可能引发监管机构对 AI 发展速度的重新审视，并推动行业内部关于安全标准的深层讨论。若该提议获响应，将直接影响各大科技公司的研发路线图及资本市场对 AI 领域的短期预期。",
+    "tags": [
+      "News",
+      "Safety",
+      "Policy"
+    ],
+    "link": "https://www.theguardian.com/technology/2026/jun/05/anthropic-urges-temporary-pause-on-ai-development-to-discuss-risks",
+    "date": "2026-06-05",
+    "id": "17806822815812"
+  },
+  {
+    "title": "Meta AI 客服代理遭利用窃取账户",
+    "summary": "攻击者利用 Meta AI 代理链接邮箱窃取 Instagram 账户。",
+    "detail": "安全报告显示攻击者利用 Meta AI 客服代理窃取 Instagram 账户。攻击手法简单：诱导代理将账户链接到受控邮箱即可。这与此前 Anthropic Mythos 模型因黑客能力过强被搁置形成对比，表明即便非超级智能模型，简单的权限配置漏洞也能造成严重损害。随着企业将更多工作负载外包给 AI，此类看似不复杂的攻击手段将更难忽视，凸显了 AI 代理在实际部署中的权限管理与身份验证安全隐患。",
+    "tags": [
+      "News",
+      "Security",
+      "AI Agents"
+    ],
+    "link": "https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/",
+    "date": "2026-06-05",
+    "id": "17806822815813"
+  },
+  {
+    "title": "Gito v4.1.0 支持 Claude Code 与 Gemini CLI",
+    "summary": "AI 代码审查工具更新，兼容主流 CLI 工具。",
+    "detail": "GitHub 开源项目 Gito 发布 v4.1.0 版本，新增对 Claude Code 和 Gemini CLI 的支持。作为 AI 代码审查工具，此次更新显著增强了其在开发者工作流中的兼容性。开发者现在可在命令行环境中直接集成 AI 代码质量检查，利用主流大模型能力优化代码审查流程。这不仅提升了开发效率，还通过自动化审查降低了人为疏忽导致的安全漏洞风险，是 AI 赋能 DevOps 的典型实践。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "GitHub"
+    ],
+    "link": "https://github.com/Nayjest/Gito/releases/tag/v4.1.0",
+    "date": "2026-06-05",
+    "id": "17806822815814"
+  },
+  {
     "title": "AI 投资风向转变：从 GPU 转向电力与基础设施",
     "summary": "AI 投资热点正从半导体向电力、工业品及基础设施转移，瓶颈不再局限于 GPU。",
     "detail": "市场分析显示，AI 资金并未撤离，而是流向电力、医疗及基础设施领域。随着 AI 瓶颈超越 GPU，供应链 Strength 持续显现。美国就业数据亦佐证了这一趋势，政府与 healthcare sector 增长强劲，而金融与信息服务业相对 sluggish。这表明 AI 投资进入第二轮，关注点从芯片转向支撑产业。近期美国非农就业数据超预期，但增长主要集中在休闲、政府及教育医疗领域，进一步印证了基础设施与服务业的 AI 落地趋势。投资者需关注工业品与电力板块，这标志着 AI 基础设施建设的深化。这种转变意味着硬件之后的能源与物理世界交互将成为 next big thing。",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/06/02/cyera-eyes-12b-valuation-at-80x-arr-multiple-despite-operating-losses/",
     "date": "2026-06-02",
     "id": "17804440621951"
-  },
-  {
-    "title": "Project Brain：为 Claude Code 提供持久记忆",
-    "summary": "开源工具 Project Brain 通过 Markdown 索引为 AI 编程提供持久项目记忆，避免重复解释。",
-    "detail": "针对 AI 编程中模型遗忘上下文的问题，Project Brain 提供了一种基于 `.project-brain/` 文件夹的轻量级解决方案。它不依赖数据库，而是通过 Markdown 索引让 Claude Code 按需加载项目架构、决策和陷阱信息。这显著提升了 AI 代理在长期项目中的连贯性和效率。用户无需每次会话都重新解释架构或部署细节，避免了模型混淆不同项目栈的问题。这是一种约定优于配置的实践，通过简单的文件结构实现持久化记忆，极大降低了 AI 辅助开发的认知负荷和维护成本，适合复杂项目的长期迭代。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Coding"
-    ],
-    "link": "https://github.com/OoneBreath/claude-code-project-brain",
-    "date": "2026-06-02",
-    "id": "17804440621952"
-  },
-  {
-    "title": "Reloops：面向 AI 代理的开源数字资产管理",
-    "summary": "开源项目 Reloops 提供可自托管的 DAM 系统，专为 AI 代理和团队协作设计。",
-    "detail": "Reloops 是 Frame.io 的开源替代品，专注于创意资产工作流。支持 AI 生成描述和标签，并提供 Agent API 允许 AI 代理直接在媒体库中工作。适合需要自托管、版本管理及 AI 集成能力的团队，降低了创意资产管理的门槛。功能涵盖资产组织、版本控制、审批流程及分享链接。其核心优势在于\"Agent-ready\"，允许 AI 代理自主管理媒体库，结合自托管特性，保障了数据隐私。对于希望构建私有化 AI 创意工作流的企业，这是一个极具价值的基础设施选项，支持本地快速部署。",
-    "tags": [
-      "New",
-      "OpenSource",
-      "Agents"
-    ],
-    "link": "https://github.com/Reloops-App/reloops/",
-    "date": "2026-06-02",
-    "id": "17804440621953"
-  },
-  {
-    "title": "Skillhound 发布：AI 代理技能搜索引擎",
-    "summary": "新平台允许 AI 代理访问公共 SKILL.md 技能库。",
-    "detail": "Skillhound 推出新平台，旨在为 AI 代理提供访问公共 **SKILL.md 技能库**的能力。页面展示了来自 Microsoft、Anthropic 等组织的技能示例，涵盖配置策略、算法艺术等。这标志着 AI 代理生态向标准化技能共享迈进，有助于开发者复用高质量代理行为模块，降低开发门槛，促进 Agent 互操作性发展。对于构建复杂工作流的开发者而言，这是一个重要的基础设施更新，可能改变 Agent 技能发现与调用的方式，提升代理系统的整体智能水平与适应性。",
-    "tags": [
-      "New",
-      "AI Agents",
-      "DevTools"
-    ],
-    "link": "https://www.skillhound.ai/",
-    "date": "2026-06-02",
-    "id": "17804370081400"
-  },
-  {
-    "title": "美国劳工部推出\"AI Ready\"倡议",
-    "summary": "美国政府官网上线 AI 准备计划，关注劳动力转型。",
-    "detail": "美国劳工部正式上线 **\"AI Ready\"官方页面**，标志着政府层面开始系统性应对 AI 对劳动力市场的影响。该 initiative 旨在帮助美国工人适应 AI 技术变革，提供相关政策与法规指导。此举反映了各国政府正加速布局 AI 时代的社会保障与职业培训体系，对企业用工合规性提出新要求。随着 AI 渗透率提高，政府介入劳动力再培训将成为常态，企业需关注相关政策动向以调整人力资源战略，确保合规并利用政策红利。",
-    "tags": [
-      "News",
-      "Policy",
-      "Government"
-    ],
-    "link": "https://beta.dol.gov/ai-ready",
-    "date": "2026-06-02",
-    "id": "17804370081401"
-  },
-  {
-    "title": "数学家联名警告 AI 威胁学术研究",
-    "summary": "国际数学联盟 endorsement 莱顿宣言，担忧 AI 侵蚀数学研究。",
-    "detail": "国际数学联盟 endorsing 了《**莱顿人工智能与数学宣言**》，数百名数学家联名警告科技行业对数学研究的侵蚀。背景是 OpenAI 模型声称推翻 80 年几何猜想。宣言指出 AI 发展威胁数学研究的\"characteristic values\"，尤其影响学生。这反映了学术界对 AI 介入基础科学研究的深层忧虑与伦理边界探讨。科技巨头与学术界的张力加剧，未来可能在科研诚信、作者署名及 AI 辅助证明的验证标准上产生更多争议与规范。",
-    "tags": [
-      "News",
-      "Research",
-      "Ethics"
-    ],
-    "link": "https://arstechnica.com/tech-policy/2026/06/mathematicians-warn-of-ai-threats-to-profession-as-industry-encroaches/",
-    "date": "2026-06-02",
-    "id": "17804370081402"
   }
 ]
