@@ -1,5 +1,70 @@
 [
   {
+    "title": "斯坦福研究：AI 招聘工具存在种族偏见",
+    "summary": "斯坦福 HAI 大规模研究发现，AI 招聘工具加剧种族偏见并系统性拒绝候选人。",
+    "detail": "斯坦福以人为本 AI 研究院（HAI）发布了首项大规模实地研究，追踪了 340 万人的 400 万份求职申请。研究发现，目前广泛使用的第三方 AI 筛选工具不仅未能提高效率，反而加剧了种族偏见，导致特定群体在所有申请中被系统性拒绝。90% 的美国雇主使用此类工具，且多依赖少数供应商，这意味着单一算法的偏差会影响整个市场。随着 2026 年就业市场趋紧，该问题尤为突出。这一发现对 AI 伦理及招聘行业合规性提出严峻挑战，呼吁重新审视算法透明度与公平性，可能引发监管干预，要求企业披露算法决策逻辑，避免系统性歧视。",
+    "tags": [
+      "News",
+      "AI Ethics",
+      "Hiring"
+    ],
+    "link": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
+    "date": "2026-06-05",
+    "id": "17806632630810"
+  },
+  {
+    "title": "Anthropic 呼吁暂停 AI 开发，需安装“刹车踏板”",
+    "summary": "Anthropic 高管表示行业需要减速，呼吁在 AI 发展中引入安全暂停机制。",
+    "detail": "在 ABC 新闻的最新报道中，Anthropic 高层公开呼吁 AI 行业需要“刹车踏板”。他们认为当前的开发速度过快，可能存在未被识别的安全风险，尤其是随着模型能力接近 AGI。这一表态标志着头部 AI 实验室之间在安全与发展速度上的分歧加剧。此前行业多强调快速迭代，如今安全派声音渐强。这可能推动相关政策监管的落地，影响后续大模型的发布节奏，甚至导致行业短期内的开发放缓，以换取长期的安全性保障，投资者需关注此风向变化对估值的影响。",
+    "tags": [
+      "News",
+      "Safety",
+      "Policy"
+    ],
+    "link": "https://abcnews.com/video/133610860/",
+    "date": "2026-06-05",
+    "id": "17806632630811"
+  },
+  {
+    "title": "Apple 批准首个 AI 代理 Poke 接入 iMessage",
+    "summary": "Poke 成为首个获 Apple 官方批准在 Messages 中运行的 AI 代理，开启短信交互新纪元。",
+    "detail": "AI 初创公司 Poke 宣布获得 Apple 官方批准，成为首个可在 Apple Messages 中运行的 AI 代理。用户可直接在短信界面与 AI 交互，无需切换应用。这是 Apple 生态首次向第三方 AI 代理开放核心通讯应用，打破了以往封闭的限制。标志着 AI Agent 在移动端的落地迈出关键一步，可能引发新一轮应用集成竞赛。对于开发者而言，这意味着 iMessage 将成为新的 AI 交互入口，需关注 Apple 相关的 API 政策变化及用户体验设计规范，抢占早期流量红利。",
+    "tags": [
+      "News",
+      "Apple",
+      "AI Agent"
+    ],
+    "link": "https://twitter.com/interaction/status/2062575428213285352",
+    "date": "2026-06-05",
+    "id": "17806632630812"
+  },
+  {
+    "title": "欧盟拟立法限制家庭用电以应对 AI 能耗激增",
+    "summary": "欧盟委员会计划推广 AI 智能电表，引导家庭错峰用电以支撑数据中心需求。",
+    "detail": "面对 AI 数据中心和电气化带来的电力需求爆炸，欧盟委员会提议新法，加速部署 AI 驱动的智能电表。旨在通过价格信号引导家庭在高峰时段减少用电，将电力资源倾斜给工业和 AI 基础设施。欧盟表示，这将让消费者拥有更大控制权，将消费转移到更便宜的时段。这反映了 AI 能耗问题已上升为国家战略层面的考量，可能影响全球能源政策走向。数据中心作为耗能大户，其选址和运营将面临更严格的能源效率审查，绿色 AI 成为必然趋势，企业需提前布局节能技术。",
+    "tags": [
+      "News",
+      "Energy",
+      "Policy"
+    ],
+    "link": "https://www.eenews.net/articles/eu-wants-households-to-cut-back-electricity-as-industry-ai-demand-soars/",
+    "date": "2026-06-05",
+    "id": "17806632630813"
+  },
+  {
+    "title": "技术指南：如何强制 AI 代理使用出口代理",
+    "summary": "开发者教程详解如何在沙盒环境中强制 AI 代理通过代理访问网络，确保安全性。",
+    "detail": "针对 AI 代理需要联网但存在泄露秘密风险的问题，本文提供了强制代理输出的技术方案。通过在沙盒环境下在网络层而非应用层强制执行代理策略，防止代理绕过 SDK 配置直接连接恶意服务器。文章指出了环境变量设置的局限性，强调网络层强制执行的必要性。这是构建安全 AI 代理基础设施的关键实践，适合 LLM 应用开发者参考。随着 Agent 自主性增强，此类安全沙盒方案将成为企业部署 AI 员工的标准配置，防止数据外泄，保障内部网络安全。",
+    "tags": [
+      "Dev",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://simedw.com/2026/06/05/proxy-agents/",
+    "date": "2026-06-05",
+    "id": "17806632630814"
+  },
+  {
     "title": "OpenAI 宣布将遵守特朗普 AI 模型审查令",
     "summary": "OpenAI 确认将遵守政府要求，发布前审查模型。",
     "detail": "OpenAI 正式回应特朗普行政命令，承诺在发布新 AI 模型前进行安全审查。此举标志着 AI 巨头开始直接响应政府监管，可能成为行业合规标杆。审查机制将影响模型迭代速度，凸显政治力量对 AI 发展的介入加深。企业需在创新与合规间寻找平衡，后续其他厂商是否跟进将成为行业风向标，监管常态化趋势明显。",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/",
     "date": "2026-06-02",
     "id": "17804257127960"
-  },
-  {
-    "title": "微软开源 AI 代理控制规范 ACS",
-    "summary": "微软发布 Agent Control Specification，帮助开发者控制 AI 代理行为。",
-    "detail": "随着 AI 代理能力增长，企业面临确保代理在部署环境中做正确事的挑战。微软推出开源标准“代理控制规范”（ACS），让开发者定义策略，包括允许操作、禁止事项及人工审批点。通过在不同拦截点检查策略文件，ACS 旨在防止工具滥用和级联失败。这为行业提供了统一的审计和控制框架，提升了 AI 代理在企业环境中的安全性和可管理性。目前开发者常 improvised 方式控制，ACS 旨在 integrate 那些 controls into common ground，解决 fragmented controls 难以 audit 的问题，应对 AI workflows going wrong 的风险。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Open Source"
-    ],
-    "link": "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/",
-    "date": "2026-06-02",
-    "id": "17804257127961"
-  },
-  {
-    "title": "数学家签署宣言规范 AI 使用",
-    "summary": "数学界发布指南，要求披露 AI 使用情况并维持学术公平。",
-    "detail": "上月 OpenAI 宣布 AI 解决 geometry 著名\"unit distance\"问题，震惊数学界。为防 AI  unchecked 改变领域，研究者发布指南。核心建议包括在研究中披露 AI 使用情况、确保论文 peer-reviewed 以及通过法律资源和公共资金平衡学术界与营利公司之间的竞争。国际数学联盟（IMU）成员参与讨论，强调负责任地使用 AI，避免技术失控对学科造成负面影响。去年在 Leiden University 的会议启动了该文件编写，Ilka Agricola 指出 positive aspect 正被 mess around it 掩盖，需 prevent AI from steamrolling discipline。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Research"
-    ],
-    "link": "https://www.scientificamerican.com/article/mathematicians-sign-declaration-to-rein-in-ai-use/",
-    "date": "2026-06-02",
-    "id": "17804257127962"
-  },
-  {
-    "title": "Ubuntu 26.04 定位为 AI 代理时代操作系统",
-    "summary": "Canonical 创始人称 Ubuntu 26.04 专为 AI 开发者设计，内置 Rust 安全。",
-    "detail": "Canonical 创始人 Mark Shuttleworth 宣布 Ubuntu 26.04 是\"AI 代理时代”的操作系统。新版本从头开始为 AI 开发者设计，包含特定的 AI 开发环境，并内置基于 Rust 的内存安全功能。Shuttleworth 在 Ubuntu 峰会 keynote 中强调，该系统旨在支持从 curl-to-bash 到受限 snaps 的演进，为 AI 代理提供稳固的 Linux 基础架构，吸引开发者生态。这是 Canonical 对 AI 基础设施领域的重要表态，旨在确立 Ubuntu 在 AI agentic era 的核心地位，优化开发体验，ZDNET 指出其 designed from ground up for AI devs。",
-    "tags": [
-      "Dev",
-      "Linux",
-      "Infrastructure"
-    ],
-    "link": "https://www.zdnet.com/article/ubuntu-26-04-is-os-for-ai-agentic-era-says-canonical-mark-shuttleworth-why/",
-    "date": "2026-06-02",
-    "id": "17804257127963"
-  },
-  {
-    "title": "亚马逊因 Ring 人脸识别功能面临集体诉讼",
-    "summary": "用户指控 Ring 摄像头未经同意收集路人面部信息，侵犯隐私。",
-    "detail": "亚马逊因 Ring 门铃摄像头的\"Familiar Faces\"功能面临集体诉讼。原告 Virginia resident Charles Sigwalt 在 Seattle  filing，指控功能在未征得路人同意下存储图像。尽管用户需选择加入，但隐私倡导者指出路过者未 consent。此前 EFF 和参议员 Ed Markey 曾反对该功能。诉讼称数百万美国人 unknowingly 被收集面部信息。此案凸显了 AI 人脸识别技术在消费者硬件中的隐私争议与法律风险，亚马逊暂未回应。该功能去年九月宣布，十二月 launch，引发 consumer protection organizations 关注。",
-    "tags": [
-      "News",
-      "Privacy",
-      "Legal"
-    ],
-    "link": "https://techcrunch.com/2026/06/02/amazon-faces-class-action-lawsuit-over-ring-facial-recognition-feature/",
-    "date": "2026-06-02",
-    "id": "17804257127964"
-  },
-  {
-    "title": "反 AI 情绪中混杂大量 AI 生成内容",
-    "summary": "大西洋月刊指出，online 反 AI 运动中存在大量 AI 生成的虚假内容。",
-    "detail": "《大西洋月刊》分析发现，虽然公众对 AI 数据中心的担忧是真实的，但在线反 AI 运动中混杂了大量由 AI 生成的“垃圾内容”。这种现象讽刺地展示了 AI 技术如何渗透甚至扭曲针对其自身的抗议活动，引发了关于在线言论真实性和 AI 对社会运动影响的深层讨论。防御者声称社交媒体上的危险对话是不真实的，部分属实。这揭示了信息战的新形态，即利用对手的技术来削弱对手的声誉，增加了公众辨别真相的难度。多数美国人不想在镇上建数据中心，社区组织抗议。但在线表达变得奇怪。很多反 AI 内容是 AI 生成的。这改变了 activism 的性质，反映了 AI 技术双刃剑的社会效应。",
-    "tags": [
-      "News",
-      "Society",
-      "Ethics"
-    ],
-    "link": "https://www.theatlantic.com/technology/2026/06/data-centers-activism-ai-slop/687396/",
-    "date": "2026-06-02",
-    "id": "17804092215031"
   }
 ]
