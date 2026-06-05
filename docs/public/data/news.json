@@ -1,5 +1,57 @@
 [
   {
+    "title": "AI 投资风向转变：从 GPU 转向电力与基础设施",
+    "summary": "AI 投资热点正从半导体向电力、工业品及基础设施转移，瓶颈不再局限于 GPU。",
+    "detail": "市场分析显示，AI 资金并未撤离，而是流向电力、医疗及基础设施领域。随着 AI 瓶颈超越 GPU，供应链 Strength 持续显现。美国就业数据亦佐证了这一趋势，政府与 healthcare sector 增长强劲，而金融与信息服务业相对 sluggish。这表明 AI 投资进入第二轮，关注点从芯片转向支撑产业。近期美国非农就业数据超预期，但增长主要集中在休闲、政府及教育医疗领域，进一步印证了基础设施与服务业的 AI 落地趋势。投资者需关注工业品与电力板块，这标志着 AI 基础设施建设的深化。这种转变意味着硬件之后的能源与物理世界交互将成为 next big thing。",
+    "tags": [
+      "News",
+      "Investment",
+      "Infrastructure"
+    ],
+    "link": "https://www.ooooo.law/board/9?lang=en",
+    "date": "2026-06-05",
+    "id": "17806750206070"
+  },
+  {
+    "title": "深入解析 AI 幻觉：成因、类型与 pipeline 优化指南",
+    "summary": "详解 LLM 幻觉成因，提供在生产环境中识别与构建抗幻觉 pipeline 的架构建议。",
+    "detail": "AI pipeline 常因幻觉静默失败。本文分析了训练数据缺口及知识截止导致的幻觉问题，指出仅靠 Prompt 调整无法根治。建议团队暴露每个节点的输入输出，构建能在使用前捕获错误的架构，提升生产环境准确性。LLM 基于统计概率生成 token，缺乏事实验证。当训练数据稀疏时，模型会生成看似合理但错误的答案。开发者需在 pipeline 中建立验证机制，防止错误传递至下游用户，确保企业级应用的可靠性与稳定性。通过可视化工作流监控每个节点，可以有效识别并拦截幻觉，避免错误数据污染下游系统，这是构建健壮 AI 应用的关键步骤。此外，还需结合 RAG 等技术增强事实性，从根本上减少模型胡编乱造的可能性，保障业务逻辑正确。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Pipeline"
+    ],
+    "link": "https://blog.n8n.io/ai-hallucinations/",
+    "date": "2026-06-05",
+    "id": "17806750206071"
+  },
+  {
+    "title": "Anthropic 警告：AI 可能即将脱离人类控制",
+    "summary": "Anthropic 呼吁全球暂停 AI 开发，警告模型可能 soon 摆脱人类控制，引发安全担忧。",
+    "detail": "旧金山-based AI 公司 Anthropic 发出严重警告，称 AI 技术发展迅速，可能 soon 超出人类控制范围。他们呼吁全球暂停开发以评估风险。这一声明加剧了行业对 AI 安全与伦理的讨论，可能影响后续政策制定。作为领先的大模型实验室，Anthropic 的警告具有行业风向标意义。若 AI 真的脱离控制，将带来不可逆的风险。此举可能促使监管机构介入，slowing down 商业化进程，转而强调 safety research 与 alignment 技术的重要性。全球合作与暂停协议成为讨论焦点，显示出顶级实验室对 AGI 潜在风险的深切担忧与责任感。这可能会引发关于 AI 发展速度与安全边界的全行业大辩论，影响未来几年的技术路线图。",
+    "tags": [
+      "News",
+      "Safety",
+      "Policy"
+    ],
+    "link": "https://abc7news.com/post/san-francisco-based-anthropic-calls-global-freeze-ai-development-warns-could-soon-escape-human-control/19240090/",
+    "date": "2026-06-05",
+    "id": "17806750206072"
+  },
+  {
+    "title": "开发者必备：AI 编码工具精选清单 (Awesome AI Coding Tools)",
+    "summary": "GitHub 开源清单收录了编辑器、Agent、代码补全等 AI 编程工具，助力软件开发。",
+    "detail": "该 GitHub 仓库 curated 了一份 AI 赋能的编码工具列表，涵盖编辑器、Agent、代码补全、审查及测试工具。旨在帮助开发者、团队及技术爱好者在软件工程中的 leverage AI。欢迎贡献，适合寻找高效开发工具的工程师参考。列表分类清晰，包括 Code Editors, Coding Agents, CLI Tools 等。对于希望提升开发效率的团队，这是一份宝贵的资源索引，有助于快速定位适合的 AI 辅助编程解决方案，降低技术选型成本。社区驱动的模式确保了工具的时效性与多样性，是开发者探索 AI 编程生态的理想起点。无论是个人开发者还是企业团队，都能从中找到提升编码效率与质量的利器，加速软件交付流程。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "GitHub"
+    ],
+    "link": "https://github.com/ai-for-developers/awesome-ai-coding-tools",
+    "date": "2026-06-05",
+    "id": "17806750206073"
+  },
+  {
     "title": "斯坦福研究：AI 招聘工具存在种族偏见",
     "summary": "斯坦福 HAI 大规模研究发现，AI 招聘工具加剧种族偏见并系统性拒绝候选人。",
     "detail": "斯坦福以人为本 AI 研究院（HAI）发布了首项大规模实地研究，追踪了 340 万人的 400 万份求职申请。研究发现，目前广泛使用的第三方 AI 筛选工具不仅未能提高效率，反而加剧了种族偏见，导致特定群体在所有申请中被系统性拒绝。90% 的美国雇主使用此类工具，且多依赖少数供应商，这意味着单一算法的偏差会影响整个市场。随着 2026 年就业市场趋紧，该问题尤为突出。这一发现对 AI 伦理及招聘行业合规性提出严峻挑战，呼吁重新审视算法透明度与公平性，可能引发监管干预，要求企业披露算法决策逻辑，避免系统性歧视。",
@@ -1246,57 +1298,5 @@
     "link": "https://arstechnica.com/tech-policy/2026/06/mathematicians-warn-of-ai-threats-to-profession-as-industry-encroaches/",
     "date": "2026-06-02",
     "id": "17804370081402"
-  },
-  {
-    "title": "优化 AI 代理 temporal reasoning 的技术实践",
-    "summary": "详解如何在 Node.js 中实现代理时间推理记忆系统。",
-    "detail": "文章深入探讨了 AI 代理记忆系统中**时间推理**的缺失问题，大多数系统将事实视为线性扁平存储。作者分享了在 Node.js 和 SQLite 中构建生产级修复方案的实践，无需 Python 依赖。核心技术点在于双时间存储模型与神经符号推理 pipeline 的工程化落地，为开发者解决代理“遗忘”或时间混淆问题提供了实用指南。该方案强调并发执行与事件 loop 模型，适合高吞吐代理场景，为构建具有长期记忆能力的自主 agent 提供了新的技术路径参考。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Architecture"
-    ],
-    "link": "https://medium.com/@vektormemory/why-your-ai-agent-needs-better-temporal-reasoning-and-how-we-fixed-it-d0f1dea8635f",
-    "date": "2026-06-02",
-    "id": "17804370081403"
-  },
-  {
-    "title": "Uber 因预算超支限制员工使用 AI 编码工具",
-    "summary": "大型企业首例：Uber capped 员工 AI coding 工具使用量。",
-    "detail": "洛杉矶时报报道，Uber 在 AI 编码工具**预算超支**后，开始限制员工使用此类工具。这是大型企业首次公开因成本问题收紧 AI 政策。事件揭示了 AI 工具在企业规模化应用中的实际成本挑战，预示着未来企业将从“盲目采用”转向“成本效益评估”，对 AI 工具供应商的定价策略与价值证明提出严峻考验。企业 CIO 需重新审视 AI 工具 ROI，建立更精细的使用配额与审批流程，以避免类似预算失控情况发生。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Cost"
-    ],
-    "link": "https://www.latimes.com/business/story/2026-06-02/uber-caps-staff-use-of-ai-coding-tools-after-blowing-its-budget",
-    "date": "2026-06-02",
-    "id": "17804370081404"
-  },
-  {
-    "title": "最新 AI 代理 stealth browser 基准测试排名",
-    "summary": "Foil Research 发布防检测浏览器排行榜，Bright Data 居首。",
-    "detail": "Foil Research 发布了最新的 **stealth browser leaderboard**，评估了 Bright Data、Scrapeless 等平台的防检测能力。测试涵盖 TLS 指纹、网络代理质量及设备指纹等维度。对于需要大规模数据采集或运行自动化 AI 代理的开发者，该榜单提供了关键的技术选型参考，揭示了当前对抗反爬虫技术的最高水平与成本结构。随着 AI 代理自动化任务增多，隐蔽性成为关键指标，开发者需权衡成本与防检测成功率，选择适合业务场景的底层基础设施。",
-    "tags": [
-      "Dev",
-      "Scraping",
-      "Benchmark"
-    ],
-    "link": "https://usefoil.com/research/stealth-browser-leaderboard",
-    "date": "2026-06-02",
-    "id": "17804370081405"
-  },
-  {
-    "title": "微软推出 Scout 自主 AI 代理",
-    "summary": "微软基于 OpenClaw 框架发布 Scout 助手，集成 Microsoft 365。",
-    "detail": "2026 年初 OpenClaw 如 sonic boom 般传播，微软现推出 Scout 继承其力。Scout 是基于 OpenClaw 框架的自主 AI 代理，旨在将灵活性带入 Microsoft 365 系统。它具有持久身份，跨桌面和浏览器运行，需 GitHub Copilot 订阅。支持日历管理和会议议程起草等预装技能，通过用户反馈学习个性化模式。Scout VP Omar Shahine 表示，代理将适应工作 quirks 并 codify patterns。此举标志着微软在智能体领域的重大布局，试图将 AI 深度融入日常工作流，提升用户自动化效率，应对日益复杂的任务处理需求。",
-    "tags": [
-      "News",
-      "Microsoft",
-      "AI Agent"
-    ],
-    "link": "https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/",
-    "date": "2026-06-02",
-    "id": "17804257127960"
   }
 ]
