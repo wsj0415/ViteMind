@@ -1,5 +1,83 @@
 [
   {
+    "title": "工程师实战：如何用 AI 交付真实产品而非 Demo",
+    "summary": "分享利用 AI 构建棒球管理应用的实战经验，拒绝空谈。",
+    "detail": "作者通过构建 CalledUp 棒球管理应用，探讨了工程师如何利用 AI 交付真实产品而非周末 Demo。面对阵容调整等复杂逻辑，文章强调避免“氛围编码”，指出 AI 生成代码在遇到真实用户行为时容易崩溃。核心在于将 AI 作为辅助工具处理逻辑和样板代码，而非完全依赖其架构设计。这对独立开发者具有极高参考价值，强调了工程纪律在 AI 时代的重要性，确保产品稳定性与可维护性，避免技术债务。",
+    "tags": [
+      "Dev",
+      "Engineering",
+      "AI Agent"
+    ],
+    "link": "https://mckerlie.com/posts/building-calledup-using-ai-to-ship-a-real-product-without-losing-the-plot/",
+    "date": "2026-06-04",
+    "id": "17806182499800"
+  },
+  {
+    "title": "新型光芯片突破：加速 AI 与量子计算",
+    "summary": "莫纳什大学研发原子级薄芯片，利用光量子属性提升算力。",
+    "detail": "莫纳什大学科学家开发出新型光芯片，能在单一设备中生成、操控和读取光信息。该技术利用原子级薄材料和纳米结构控制光的“谷”自由度，实现信息新编码方式。这一突破标志着向超快、能效计算迈进的重大一步，有望显著加速 AI 训练及量子计算发展，解决传统电子芯片的能耗瓶颈。未来可能广泛应用于数据中心，降低算力成本，为下一代 AI 模型提供硬件基础，推动科学计算边界。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Quantum"
+    ],
+    "link": "https://www.sciencedaily.com/releases/2026/06/260601025343.htm",
+    "date": "2026-06-04",
+    "id": "17806182499801"
+  },
+  {
+    "title": "韩国新规：论坛需用 AI 扫描所有用户上传图像",
+    "summary": "7 月 1 日起实施，网站主需自购 GPU 运行 AI 审查工具。",
+    "detail": "韩国政府修订电信事业法，要求网络社区从 7 月 1 日起使用 AI 扫描所有用户上传的图像和视频。硬件成本由网站所有者自行承担，需购买数据中心级 Nvidia GPU，给中小企业带来巨大财务压力。此举旨在防止非法内容传播，但在隐私与表达自由间引发争议，且设备供应链紧张可能导致合规困难。社区所有者批评政策不合理，认为政府未提供技术支持却设定了严苛的硬件标准。",
+    "tags": [
+      "News",
+      "Policy",
+      "Safety"
+    ],
+    "link": "https://discuss.privacyguides.net/t/south-korean-online-communities-will-need-to-scan-every-images-with-ai-censorship-tools/38341",
+    "date": "2026-06-04",
+    "id": "17806182499802"
+  },
+  {
+    "title": "美国政府拟持有 AI 巨头股份以共享经济收益",
+    "summary": "高官与 OpenAI 等洽谈，计划将投资收益分红给美国家庭。",
+    "detail": "美国高级官员正与 OpenAI 等 AI 巨头初步讨论政府持股可能性。Sam Altman 已向特朗普政府提议，通过自愿让渡股份，将投资收益用于公共目的，如向美国家庭发放分红。此举旨在缓解公众对 AI 经济影响的焦虑，确保技术红利惠及大众。Anthropic 暂未参与谈判，该计划若实施将重塑科技巨头与政府的关系，开创国家资本参与前沿科技发展的新模式，影响全球 AI 竞争格局。",
+    "tags": [
+      "News",
+      "Policy",
+      "OpenAI"
+    ],
+    "link": "https://www.notus.org/technology/trump-ai-stake-openai",
+    "date": "2026-06-04",
+    "id": "17806182499803"
+  },
+  {
+    "title": "MCP 协议重塑产品团队：AI 代理如何连接外部数据",
+    "summary": "2026 年 MCP 成默认标准，解决 AI 代理不懂客户数据痛点。",
+    "detail": "MCP（模型上下文协议）正成为 2026 年 AI 原生产品组织的关键基础设施。它定义了 AI 应用如何通过 JSON-RPC 2.0 接口与外部系统对话，被誉为\"AI 应用的 USB-C\"。通过 MCP 服务器，AI 代理可安全访问客户数据、CRM 信息等，解决了 Cursor 等工具仅懂代码不懂业务的局限，大幅提升产品交付准确性。工程领导者需据此重构数据接口，以实现代理与业务系统的无缝集成，优化工作流。",
+    "tags": [
+      "Dev",
+      "Protocol",
+      "Agent"
+    ],
+    "link": "https://bagel.ai/blog/how-mcp-is-changing-how-product-teams-work-with-ai/",
+    "date": "2026-06-04",
+    "id": "17806182499804"
+  },
+  {
+    "title": "1ShotGen：一键生成 AI 编程代理的高质量提示词",
+    "summary": "将粗略想法转化为单次构建提示词，支持免费生成。",
+    "detail": "1ShotGen 是一款新产品，能将用户的一句话想法或粗糙规格说明，转化为可供 Claude Code、Cursor 等代理使用的精确构建提示词。它自动选择技术栈、规划文件布局并定义完成标准，实现“一次构建成功”。提供免费版（每周 5 次）和 Pro 版，旨在减少与 AI 编程代理的反复对话成本，提升开发效率。适合希望快速验证原型的开发者，降低提示词工程门槛，加速产品迭代周期。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Prompt"
+    ],
+    "link": "https://1shotgen.com/",
+    "date": "2026-06-04",
+    "id": "17806182499805"
+  },
+  {
     "title": "Anthropic 警告 AI 即将实现递归自我改进",
     "summary": "Anthropic 发布博客警告，AI 系统 soon 将能自主构建和改进 successors。",
     "detail": "Anthropic 发布最新博客警告，AI 系统即将具备“递归自我改进”能力，即自主构建、测试并改进自身。研究表明，前沿模型在编码和研发上的加速将创造反馈循环，使 AI 进步速度远超预期。公司呼吁立法者在现象普及前介入，建立验证工具以确保系统行为可控。这不仅意味着科学和医学领域的突破，更对 AI 安全治理提出严峻挑战，标志着自动化开发模式的重大转折。",
@@ -1220,83 +1298,5 @@
     "link": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
     "date": "2026-06-01",
     "id": "17803551129381"
-  },
-  {
-    "title": "高盛顶级银行家全力聚焦 AI 数据中心融资业务",
-    "summary": "随着 AI 基础设施需求爆发，高盛投行部门将重心转向数据中心项目融资。",
-    "detail": "随着 AI 数据中心建设成本飙升，相关的融资需求变得巨大且紧迫，成为金融界焦点。高盛顶级银行家将此类项目视为当前业务的核心，全天候关注相关融资机会，显示出投行界对该赛道的高度认可。资金流向的集中可能加速全球数据中心建设步伐，满足 AI 模型训练的算力需求，缓解算力瓶颈。但也可能引发市场对过度投资及资产泡沫的担忧，金融资本与科技基础设施的结合愈发紧密，影响宏观经济走向。",
-    "tags": [
-      "News",
-      "Finance",
-      "Infrastructure"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-06-01/for-goldman-s-top-bankers-it-s-all-ai-data-centers-all-the-time",
-    "date": "2026-06-01",
-    "id": "17803551129382"
-  },
-  {
-    "title": "利用 AI 生成虚假内容反对数据中心建设现象涌现",
-    "summary": "发现大量 Facebook 账号利用 AI 生成虚假图片，煽动反对数据中心建设的情绪。",
-    "detail": "社交媒体上出现利用 AI 生成虚假图片反对数据中心建设的现象，引发关注。数百个 Facebook 账号发布伪造的“农民抗议”图像，煽动当地社区情绪，阻碍项目落地。这揭示了 AI 技术被滥用于制造社会对立和政治宣传的新风险，可能增加 AI 基础设施落地的社会阻力，延缓建设进度。此类事件引发了关于 AI 生成内容伦理监管的讨论，要求平台加强虚假信息识别，防止技术被恶意利用于干扰公共政策。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Social"
-    ],
-    "link": "https://www.404media.co/ai-grifters-are-making-anti-data-center-slop-with-ai/",
-    "date": "2026-06-01",
-    "id": "17803551129383"
-  },
-  {
-    "title": "五角大楼推进战场 AI 应用，部分军方领导人呼吁谨慎",
-    "summary": "尽管 Pentagon 推动 AI 军事化，但部分领导人担心风险，呼吁谨慎行事。",
-    "detail": "五角大楼正积极推动 battlefield AI 应用，希望利用技术获得军事优势，提升作战效率。然而，部分军事领导人呼吁谨慎，担心系统可靠性及伦理风险，尤其是自主武器系统的控制权问题。这种高层推动与基层谨慎态度的分歧，反映了 AI 在关键安全领域应用的复杂性。这可能影响未来军事 AI 政策的制定及部署速度，确保人类对致命武力系统的控制权仍是争议焦点，涉及国际安全稳定。",
-    "tags": [
-      "News",
-      "Military",
-      "Policy"
-    ],
-    "link": "https://apnews.com/article/artificial-intelligence-military-hegseth-anthropic-d5fbaee17ee0bdb9738dbb808ea2d047",
-    "date": "2026-06-01",
-    "id": "17803551129384"
-  },
-  {
-    "title": "首席经济学家：目前尚无证据表明 AI 导致大规模失业",
-    "summary": "Apollo 首席经济学家指出，当前数据不支持 AI 正在造成 job losses 的说法。",
-    "detail": "针对公众对 AI 取代工作的广泛担忧，Apollo 首席经济学家表示目前尚无证据表明 AI 导致大规模失业，市场反应过度。当前经济数据未显示显著负面就业影响，部分岗位甚至因 AI 增效而扩展，生产力得到提升。这一观点为 AI 经济发展提供了缓和视角，但长期结构性影响仍需观察，特定行业可能面临转型阵痛。政策制定者需平衡技术创新与劳动力市场稳定，加强再培训体系以应对潜在变革，确保社会公平。",
-    "tags": [
-      "News",
-      "Economy",
-      "Labor"
-    ],
-    "link": "https://www.techradar.com/pro/zero-evidence-apollos-chief-economist-says-ai-related-job-losses-arent-happening",
-    "date": "2026-06-01",
-    "id": "17803551129385"
-  },
-  {
-    "title": "G7 联手 OSI 发布 AI 开源开放性愿景",
-    "summary": "G7 数字部长批准 AI 开放性愿景，明确开源模型标签标准。",
-    "detail": "2026 年 5 月 29 日，G7 数字与技术部长在巴黎批准了\"AI 开放性愿景”。该愿景由 OSI 协助制定，旨在厘清 AI 开源定义。OSI 执行董事 Duane O'Brien 向部长们展示了开源 AI 的好处。核心成果包括区分“权重可用”与“开源权重”模型，限制训练数据发布的例外情况，并呼吁使用清晰标签描述 AI 系统开放程度。此举将为全球 AI 开源社区提供统一标准，促进协作并减少混淆，对开源 AI 生态发展具有里程碑意义。该愿景还认识到在 AI 背景下理解开放性的挑战，确定了决定开放性的要素。通过建立共享语言，有助于监管机构和开发者之间的沟通，促进负责任的 AI 创新，同时保护开源社区的利益，确保技术透明度。",
-    "tags": [
-      "News",
-      "Policy",
-      "OpenSource"
-    ],
-    "link": "https://opensource.org/blog/open-source-initiative-helps-g7-deliver-vision-on-ai-openness",
-    "date": "2026-06-01",
-    "id": "17803474916240"
-  },
-  {
-    "title": "Intel 宣称新 AI 芯片更便宜且散热优于竞品",
-    "summary": "Intel 预告 upcoming AI 芯片，声称比 Nvidia 和 AMD 选项更冷更便宜。",
-    "detail": "Intel 最新披露其即将推出的 AI 芯片细节，直接对标 Nvidia 和 AMD。官方声称新芯片在成本效益和散热表现上均优于现有竞品，旨在提供更高效的算力选择。这表明硬件市场竞争加剧，Intel 试图通过差异化优势夺回 AI 算力市场份额。对于关注算力成本和部署环境的企业而言，未来可能有更具性价比的硬件选择，打破现有垄断格局，降低 AI 部署门槛。尽管具体架构未披露，但强调散热和成本优势直击当前数据中心痛点。若属实，将为边缘 AI 部署和中小型企业提供新选项，减少对单一供应商依赖，推动硬件生态多样化发展，影响未来 AI 基础设施建设成本。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Chip"
-    ],
-    "link": "https://arstechnica.com/ai/2026/06/intel-our-upcoming-ai-chip-will-be-cheaper-run-cooler-than-nvidia-amd-options/",
-    "date": "2026-06-01",
-    "id": "17803474916241"
   }
 ]
