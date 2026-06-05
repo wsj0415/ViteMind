@@ -1,5 +1,96 @@
 [
   {
+    "title": "Meta 股价因数十亿 AI 融资计划报道下跌",
+    "summary": "媒体报道 Meta 拟筹集数百亿美元推进 AI，导致股价下滑。",
+    "detail": "据 CNBC 报道，Meta 股价因市场传闻公司将筹集数百亿美元资金用于推动 AI 业务发展而出现下跌。这一消息反映了资本市场对科技巨头巨额 AI 投入的敏感反应。报道指出公司可能筹集数十亿美元用于 AI 推进，导致投资者担忧资本支出过大。虽然具体融资方式未详述，但显示出 Meta 在 AI 基础设施和内容生态上的野心。此举可能加剧行业内的算力竞争，同时也引发投资者对长期回报率的关注。市场反应表明，尽管 AI 是未来趋势，但巨额投入仍需清晰的盈利路径支撑，否则将引发股价波动。",
+    "tags": [
+      "News",
+      "Meta",
+      "Investment"
+    ],
+    "link": "https://www.cnbc.com/2026/06/05/meta-stock-sinks-on-report-company-could-raise-tens-of-billions-for-ai.html",
+    "date": "2026-06-05",
+    "id": "17806895420040"
+  },
+  {
+    "title": "Terradev CLI 开源：多云 GPU 工作流编排工具",
+    "summary": "开源命令行工具，支持多云 GPU 配置，性能提升显著。",
+    "detail": "Terradev CLI v5.1.0 正式开源，采用 Apache 2.0 许可，旨在优化 AI 工作负载编排。该工具支持 RunPod、VastAI、AWS 等多云提供商，允许用户自带 API 密钥本地存储。核心亮点包括 Rust 加速的 DAG 编排器，执行速度比纯 Python 方案快一个数量级，确保命令安全执行。性能方面，vLLM 优化带来 2-8 倍吞吐量提升，NUMA 拓扑消除带宽惩罚，自动提供商切换可节省高达 90% 成本。适合需要跨云部署大模型的开发团队，显著降低基础设施管理复杂度。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "GPU"
+    ],
+    "link": "https://pypi.org/project/terradev-cli/",
+    "date": "2026-06-05",
+    "id": "17806895420051"
+  },
+  {
+    "title": "苹果硅片策略：端侧 AI 核心不变，芯片范围扩展",
+    "summary": "苹果硅片团队表示端侧 AI 策略未变，仅扩展支持芯片范围。",
+    "detail": "在 WWDC 前夕，苹果硅片高级产品经理 Doug Brooks 表示，苹果对端侧 AI 的赌注并未改变，变化的是支持该功能的芯片范围，从入门级 MacBook 到 M5 Max 工作站。苹果坚持“要构建伟大的 AI 设备，先要构建伟大的计算机”的理念。自 2017 年 A11 仿生芯片引入神经引擎以来，统一内存架构一直是设计基石。这表明苹果将继续深化硬件级 AI 集成，而非单纯依赖云端。与其他厂商在 Computex 上主张混合 AI 不同，苹果强调端侧算力的一致性，旨在为用户提供更隐私、低延迟的 AI 体验，巩固其硬件生态壁垒。",
+    "tags": [
+      "News",
+      "Apple",
+      "Hardware"
+    ],
+    "link": "https://tbreak.com/apple-silicon-on-device-ai-doug-brooks-wwdc/",
+    "date": "2026-06-05",
+    "id": "17806895420052"
+  },
+  {
+    "title": "NVIDIA DGX Spark GB10 大模型推理优化指南",
+    "summary": "GitHub 开源指南，详解如何在 DGX Spark 上优化 LLM 推理。",
+    "detail": "该 GitHub 仓库提供了基于 NVIDIA DGX Spark GB10 桌面超级计算机的 AI 模型推理指南。针对 Grace Blackwell 超级芯片，文档涵盖了 LLM、VLM 及扩散模型的运行与优化。支持 vLLM 框架，旨在帮助研究人员和本地工作站开发者最大化性能。包含基准测试和自主脚本，适合希望在本地部署高性能大模型的技术团队参考。仓库还提供了 NVIDIA 开发者论坛和 Spark Arena 排行榜链接，鼓励社区交流优化技巧。这对于希望在本地环境复现前沿模型性能的开发者的极具参考价值。",
+    "tags": [
+      "Dev",
+      "Nvidia",
+      "LLM"
+    ],
+    "link": "https://github.com/omnia-projetcs/spark-dgx",
+    "date": "2026-06-05",
+    "id": "17806895420053"
+  },
+  {
+    "title": "谷歌每月支付 9.2 亿美元租用 SpaceX 算力",
+    "summary": "谷歌与 SpaceX 达成协议，每月耗资 9.2 亿美元获取约 11 万 GPU。",
+    "detail": "据 TechCrunch 报道，谷歌将与 SpaceX 达成算力租赁协议，从 2026 年 10 月至 2029 年 6 月，每月支付 9.2 亿美元。谷歌将获得约 11 万块 NVIDIA GPU 及相关组件的使用权。此前 Anthropic 也与 SpaceX 签署了类似协议，金额更高。谷歌表示此举源于近期 AI 产品需求超出预期。这标志着科技巨头对算力资源的争夺进入新阶段，SpaceX 正成为关键的算力基础设施提供商。如此大规模的支出显示了 Google 维持其 AI 领先地位的决心，同时也反映了当前 AI 算力市场的供不应求状态。",
+    "tags": [
+      "News",
+      "Google",
+      "Infrastructure"
+    ],
+    "link": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+    "date": "2026-06-05",
+    "id": "17806895420054"
+  },
+  {
+    "title": "英国要求谷歌允许出版商选择退出 AI 抓取",
+    "summary": "英国监管机构下令，谷歌需允许出版商拒绝 AI 数据抓取。",
+    "detail": "据 AP News 报道，英国监管机构下令谷歌必须允许出版商选择退出 AI 数据抓取。这一举措旨在保护内容创作者的权益，规范 AI 模型训练数据的来源。这是全球范围内针对 AI 版权和竞争监管的最新动态之一。谷歌可能需要调整其爬虫策略和数据使用政策，以符合英国当地的竞争法规。这对依赖网络数据训练大模型的公司具有警示意义，意味着未来数据合规成本可能上升。出版商将获得更多控制权，可能影响通用大模型的数据丰富度。",
+    "tags": [
+      "News",
+      "Regulation",
+      "Copyright"
+    ],
+    "link": "https://apnews.com/article/google-britain-ai-competition-regulation-ce2016a4519fbe234799e009bac8f120",
+    "date": "2026-06-05",
+    "id": "17806895420055"
+  },
+  {
+    "title": "员工抵抗的不是 AI 而是恐惧",
+    "summary": "FastCompany 分析称员工抵触 AI 实则是对未知的恐惧。",
+    "detail": "Fast Company 文章指出，员工表现出的 AI 抵触情绪，本质上是对失业和变化的恐惧，而非技术本身。随着 AI 工具在职场普及，员工担心自身价值被替代。文章建议企业应关注员工心理安全感，通过透明沟通和培训缓解焦虑。这一观点为企业管理者提供了新视角，即在部署 AI 时需兼顾组织文化和员工情绪管理，以确保技术落地顺畅。忽视员工恐惧可能导致生产力下降，而合理引导则能将 AI 转化为赋能工具，提升整体组织效率。",
+    "tags": [
+      "News",
+      "Workforce",
+      "Management"
+    ],
+    "link": "https://www.fastcompany.com/91541703/employees-arent-resisting-ai-theyre-resisting-fear-ai-employee-resistance",
+    "date": "2026-06-05",
+    "id": "17806895420056"
+  },
+  {
     "title": "AI Agent Markdown 支持现状矩阵",
     "summary": "披露主流 AI Agent 对 Markdown 内容协商的支持情况。",
     "detail": "该状态矩阵详细测试了主流 AI Agent 在抓取 URL 时的 HTTP 请求头行为。结果显示 Claude Code 和 Cursor 已支持发送 `Accept: text/markdown`，而 ChatGPT、Copilot 及 Gemini 等仍仅获取 HTML。这意味着开发者需针对不支持 Markdown 协商的代理优化 HTML 结构，以确保 AI 能准确读取内容。随着 AI 流量占比增加，这种内容协商机制将成为 AI SEO 的关键策略，直接影响网站在 AI 搜索结果中的可见性与信息提取准确度。",
@@ -1207,96 +1298,5 @@
     "link": "https://twitter.com/timsoulo/status/2061796432534003866",
     "date": "2026-06-03",
     "id": "17804600429912"
-  },
-  {
-    "title": "实战指南：AI 可观测性的四大信号",
-    "summary": "文章总结了生产环境 AI 应用需监控的四个关键信号以优化性能。",
-    "detail": "Thoughtbot 团队分享了生产环境 AI 应用的可观测性经验。起初他们无法回答类似“显示所有用户认为回答不好的聊天”这样的 operational 问题。为此提出四大信号：每个提示词的版本记录、反映实际工作的追踪 trace、用户评分以及模型互评。缺乏这些信号会导致调试困难，无法针对性改进。文章推荐使用 Langfuse 等工具建立观察层，强调只有 emit 这些信号才能有目的地优化 AI 功能，而非盲目猜测模型表现。这是 AI 工程化的关键一步，确保应用可维护性和持续迭代能力，避免黑盒操作带来的风险。这不仅是工具选择，更是开发流程的必要变革。",
-    "tags": [
-      "Dev",
-      "LLM Ops",
-      "Engineering"
-    ],
-    "link": "https://thoughtbot.com/blog/the-four-signals-of-ai-observability",
-    "date": "2026-06-03",
-    "id": "17804600429913"
-  },
-  {
-    "title": "新品：AI 驱动的 PDF 转 Markdown 转换器",
-    "summary": "支持复杂 PDF 结构解析，准确率超 95%，专为 AI 工具优化。",
-    "detail": "这是一款 Show HN 新品，旨在将复杂 PDF 转换为干净的 Markdown。采用 AI 模型异步解析，支持嵌套标题、表格和图片，准确率超 95%。工作流程包括上传、排队、AI 解析和预览下载。输出格式专为 AI 工具读取优化，便于研究人员和开发者将内容复用至文档或知识库。按页计费，适合需要结构化源材料的知识团队，解决了传统 PDF 难以编辑和搜索的痛点。相比传统转换工具，它能更好地保留文档结构，使 AI 工具能更可靠地读取标题、列表和表格内容，提升后续处理效率。适合处理包含复杂布局的技术文档或研究报告。",
-    "tags": [
-      "New",
-      "Productivity",
-      "PDF"
-    ],
-    "link": "https://pdftomdconverter.com",
-    "date": "2026-06-03",
-    "id": "17804600429914"
-  },
-  {
-    "title": "五角大楼被曝利用 AI 制造宣传内容",
-    "summary": "The Intercept 调查揭露美军利用 AI 内容工厂针对拉丁美洲。",
-    "detail": "The Intercept 调查发现，美国五角大楼正在运营一个名为\"La Tilde\"的 AI 内容工厂，向拉丁美洲互联网用户推送宣传内容。该网站混合了个人理财建议与美化美军行动的文章，其宣传视频显示出明显的 AI 生成痕迹，如渲染错误的标题。此事件引发了关于 AI 在地缘政治宣传中滥用及信息真实性的严重伦理担忧。该项目今年初开始开发，旨在通过现代媒体品牌伪装，影响区域舆论导向，展示了生成式 AI 在信息战中的潜在风险。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Geopolitics"
-    ],
-    "link": "https://theintercept.com/2026/06/02/la-tilde-propaganda-latin-america-pentagon/",
-    "date": "2026-06-02",
-    "id": "17806368474271"
-  },
-  {
-    "title": "特朗普签署 AI 行政令，要求企业向政府提供模型早期访问权",
-    "summary": "美国政府要求 AI 公司向政府提供模型早期访问权限，加强监管。",
-    "detail": "特朗普签署最新 AI 行政命令，明确要求 AI 公司在模型发布前向政府提供早期访问权限。这是多年来最受期待的政策努力之一，标志着美国政府对 AI 技术的监管力度显著升级，从自愿指南转向强制访问。行业担忧这可能影响创新速度，增加合规成本，但支持者认为这是确保 AI 安全必要的措施。该政策将直接影响 OpenAI、Google 等头部企业的发布流程，可能成为未来 AI 合规的新标准，引发全球政策跟进。对于开发者而言，模型部署需预留政府审查接口，合规性将成为核心竞争力之一，企业需重新评估发布时间表。",
-    "tags": [
-      "News",
-      "Policy",
-      "USA"
-    ],
-    "link": "https://www.cnbc.com/2026/06/02/trump-executive-order-ai.html",
-    "date": "2026-06-02",
-    "id": "17805461028820"
-  },
-  {
-    "title": "微软发布 Project Solara：AI 智能体设备操作系统",
-    "summary": "微软推出专为 AI 智能体硬件设计的操作系统 Project Solara。",
-    "detail": "微软正式发布 Project Solara，这是一款专为 AI 智能体硬件设计的操作系统。标志着科技巨头开始深度布局端侧 AI 硬件生态，旨在简化 AI 代理在特定设备上的部署与交互流程。此举可能推动 AI 硬件从概念走向大规模量产，为开发者提供统一的底层支持，显著降低设备开发门槛。被视为 AI 技术落地物理世界的关键一步，引发行业对未来 AI 设备形态与操作系统竞争格局的新思考，可能重塑硬件市场。随着 AI Agent 概念爆发，专用 OS 成为刚需，Solara 有望成为连接模型与硬件的桥梁，提升用户体验的同时，也为微软在 AI 时代争夺入口控制权奠定基础。",
-    "tags": [
-      "News",
-      "Microsoft",
-      "AI OS"
-    ],
-    "link": "https://www.theverge.com/news/941830/microsoft-project-solara-os-ai-agent-gadgets",
-    "date": "2026-06-02",
-    "id": "17804789255490"
-  },
-  {
-    "title": "斯坦福研究：法律教授更偏爱 AI 答案",
-    "summary": "斯坦福法学院研究显示，教授们在盲测中 75% 的情况更偏好 AI 生成的答案。",
-    "detail": "斯坦福法学院 Julian Nyarko 教授主导的突破性研究发现，在合同法课程问答中，16 位教授对近 3000 组匿名回答进行评估，AI 胜出率达 75%。研究挑战了 AI 无法处理模糊性和复杂推理的假设。LLM 不仅 factual recall 准确，在 nuanced reasoning 上也优于人类同行。这可能彻底改变法律教育的交付方式，表明 AI 导师在专业领域的潜力已获专家认可。此外，AI 回答被评为有害的比例远低于教授（3.53% vs 12.06%），显示了其在安全性上的优势。该研究为 LLM 在教育及专业咨询领域的应用提供了强有力的实证支持。",
-    "tags": [
-      "News",
-      "LLM",
-      "Education"
-    ],
-    "link": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/",
-    "date": "2026-06-02",
-    "id": "17804440621950"
-  },
-  {
-    "title": "数据安全公司 Cyera 估值达 120 亿美元",
-    "summary": "Cyera 融资后估值高达 120 亿美元，尽管尚未盈利，凸显 AI 安全赛道热度。",
-    "detail": "数据存储安全公司 Cyera 正 finalize 一轮至少 3 亿美元的融资，估值达 120 亿美元，ARR 倍数高达 80 倍。尽管公司仍处于运营亏损状态，但企业对于防护 AI 武器化攻击的需求推动了其高估值。这反映了资本市场对 AI 安全基础设施的极高溢价。今年已新增 500 个职位，显示其扩张野心。尽管公司发言人质疑数据准确性，但 TechCrunch 多方信源证实了交易细节。此轮融资距上一轮仅 5 个月，凸显数据安全在 AI 时代的战略地位及投资者对该赛道的狂热追捧。",
-    "tags": [
-      "News",
-      "Security",
-      "Funding"
-    ],
-    "link": "https://techcrunch.com/2026/06/02/cyera-eyes-12b-valuation-at-80x-arr-multiple-despite-operating-losses/",
-    "date": "2026-06-02",
-    "id": "17804440621951"
   }
 ]
