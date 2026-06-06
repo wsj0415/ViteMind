@@ -1,5 +1,70 @@
 [
   {
+    "title": "Hugging Face 实验：多模型智能体模拟经济系统",
+    "summary": "Hugging Face 发布多模型智能体实验，探索小模型异构协作。",
+    "detail": "Hugging Face 博客披露了\"Thousand Token Wood v2\"项目工程报告。该项目构建了一个经济模拟环境，其中每个智能体由不同实验室的小模型驱动，包括 gpt-oss-20b、MiniCPM3-4B、Nemotron-Mini-4B 及微调版 Qwen 0.5B。核心观点强调“异构性是产品而非约束”，旨在观察不同训练数据的小模型如何在市场中互动博弈。用户扮演资助者角色，通过借贷和提示影响市场。这对多智能体系统开发、边缘 AI 部署及小模型异构协作研究具有重要参考意义，展示了小模型在复杂交互中的潜力。相比 v1 版本，v2 增强了可玩性，允许用户进行做空和贿赂等操作，验证了多模型协作的可行性。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "LLM"
+    ],
+    "link": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+    "date": "2026-06-06",
+    "id": "17807739495450"
+  },
+  {
+    "title": "Shieldra.ai 上线：AI 驱动的医疗合规平台",
+    "summary": "新平台 Shieldra.ai 利用 AI 自动化 HIPAA 与 SOC 2 合规流程。",
+    "detail": "Shieldra.ai 正式推出，专为医疗团队设计的合规平台。利用 AI 分析文档、跟踪准备情况并将证据与控制措施绑定。支持 HIPAA 和 SOC 2 框架，提供实时合规评分和差距检测功能。该工具旨在简化审计准备工作，通过自动化策略审查和补救工作流，降低医疗行业的安全合规成本。平台包含证据导入工作空间和实时程序仪表盘，能够检测如 S3 存储加密缺失等具体差距，并提供具体的补救步骤。这标志着 AI 在垂直领域合规自动化方面的应用深化，帮助团队更高效地满足监管要求。",
+    "tags": [
+      "New",
+      "Healthcare",
+      "Compliance"
+    ],
+    "link": "https://www.shieldra.ai/",
+    "date": "2026-06-06",
+    "id": "17807739495451"
+  },
+  {
+    "title": "YC 助力 Rick Rubin 招募 AI 导师进驻托斯卡纳",
+    "summary": "传奇音乐制作人 Rick Rubin 寻找 AI 导师，探索创意与技术结合。",
+    "detail": "Y Combinator 发布独特招募计划，协助音乐制作人 Rick Rubin 寻找一位 AI 导师。入选者需前往意大利托斯卡纳与其同住一个月，教授 Claude 及智能体工作流。实验旨在探索“传奇品味与 AI 技术结合能否创造新事物”。要求导师精通当前 AI 栈且具备教学能力，反映了 AI 向创意领域渗透的趋势。工作内容包含设置 AI 工具、教授无代码编程及展示激发创意的技术。这不仅是招聘，更是一次关于人类创造力与 AI 协作边界的社会实验，可能为艺术创作带来新范式。",
+    "tags": [
+      "News",
+      "Creative",
+      "Education"
+    ],
+    "link": "https://events.ycombinator.com/qSAodVvxK",
+    "date": "2026-06-06",
+    "id": "17807739495452"
+  },
+  {
+    "title": "Meta 确认 AI 聊天机器人漏洞导致数万账户被盗",
+    "summary": "Meta 证实黑客利用 AI 聊天机器人漏洞劫持了超过 2 万个 Instagram 账户。",
+    "detail": "Meta 向缅因州总检察长办公室提交的数据泄露通知显示，至少 20,225 个 Instagram 账户因 AI 聊天机器人被滥用而受损。黑客通过欺骗 AI 客服获取账户控制权，窃取联系人信息及私信。这是首次明确披露受影响规模，凸显了 AI 客服系统在身份验证环节的安全风险。漏洞允许攻击者接管整个 Instagram 及关联账户，访问帖子和动态。引发了对 AI 交互安全性的广泛关注，迫使平台重新审视自动化支持系统的权限管理逻辑，以防止类似的社会工程攻击再次发生。",
+    "tags": [
+      "News",
+      "Security",
+      "Meta"
+    ],
+    "link": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+    "date": "2026-06-06",
+    "id": "17807739495453"
+  },
+  {
+    "title": "哈佛商业评论：AI 正在重塑外包经济逻辑",
+    "summary": "HBR 指出生成式 AI 改变了外包模式，印度 IT 服务业市值蒸发。",
+    "detail": "《哈佛商业评论》文章指出，生成式 AI 正在破坏基于劳动力套利的外包旧模式。IT 服务、金融及 HR 等业务流程外包（BPO）面临重构。2026 年 2 月单周内，印度 IT 服务公司市值蒸发约 100 亿美元。虽然外包不会消失，但结构将剧变，企业更倾向于内部 AI 化而非单纯的人力外包，标志着全球服务贸易格局的重大转折。未来外包将更侧重于数据工程、网络安全等需要深度知识的领域，而非标准化任务。这一趋势将深刻影响跨国企业的组织架构和成本结构。",
+    "tags": [
+      "News",
+      "Economy",
+      "Enterprise"
+    ],
+    "link": "https://hbr.org/2026/06/ai-is-rewriting-the-economics-of-outsourcing",
+    "date": "2026-06-06",
+    "id": "17807739495454"
+  },
+  {
     "title": "特朗普政府拟持有 OpenAI 股份",
     "summary": "特朗普称正在讨论让美国人民从 AI 成功中获益的交易，或持股 OpenAI。",
     "detail": "TechCrunch 最新报道，美国总统特朗普公开表示，政府正在讨论潜在交易方案，可能直接持有 OpenAI 股份。此举核心目的是确保美国人民能从 AI 技术的商业成功中直接获益，而非仅由私人资本独占。这标志着美国政府与顶尖 AI 实验室关系的重大转变，可能引发关于国有化、利益冲突及 AI 安全监管的新讨论。若成真，将重塑 AI 行业格局，影响模型开发方向。行业将密切关注后续政策动向及 OpenAI 的回应，此举也可能引发其他科技巨头的效仿或监管反弹。",
@@ -1233,70 +1298,5 @@
     "link": "https://daringfireball.net/linked/2026/06/04/the-ai-driven-resurgence-of-mac-app-development",
     "date": "2026-06-04",
     "id": "17805971589743"
-  },
-  {
-    "title": "Enthusiast AI：开源电商智能体工具包",
-    "summary": "支持 Shopify 等平台的开源 AI 代理工具，模型无关且可本地部署。",
-    "detail": "Upside Lab 推出 Enthusiast，一款专为电商设计的开源 Agentic AI 工具包。支持 Medusa、Shopify 等原生连接器，模型无关（兼容 OpenAI、Ollama 等）。可通过 Docker 本地运行或 K8s 部署，利用 RAG 技术减少幻觉。技术领导者可在不重构核心栈的情况下集成 AI 工作流，确保与 SAP、Salesforce 等系统兼容，为电商自动化提供了灵活且可控制的基础设施方案，支持云和本地部署。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "E-commerce"
-    ],
-    "link": "https://upsidelab.io/tools/enthusiast",
-    "date": "2026-06-04",
-    "id": "17805971589744"
-  },
-  {
-    "title": "Jo 语言：AI 时代的安全编程新范式",
-    "summary": "基于类型系统的 AI 代理能力安全控制语言，编译时保障权限。",
-    "detail": "Jo 语言专为 AI 时代安全编程设计，核心理念是仅赋予 AI 代理所需能力。通过类型系统而非运行时沙箱 guarantee 安全，代码仅能访问声明且被授予的能力，超出部分视为编译错误。支持隐式上下文参数传递，无样板代码或全局变量。设计原则确保无运行时类型错误，编译器捕获潜在问题。适合构建受限 AI 系统，防止代理越权访问网络、文件系统或数据，为 AI 安全提供语言级保障。",
-    "tags": [
-      "Dev",
-      "Programming",
-      "Security"
-    ],
-    "link": "https://jo-lang.org/",
-    "date": "2026-06-04",
-    "id": "17805863052600"
-  },
-  {
-    "title": "Ashby 工程实践：50% 代码由 AI 生成且质量稳定",
-    "summary": "招聘软件公司 Ashby 分享 AI 编码落地数据与趋势，质量未回退。",
-    "detail": "Ashby 工程团队分享 AI 落地实况：自 2025 年 8 月，超 50% 生产代码由 AI 生成，客户问题率保持稳定。工程总监 Colin 指出，代码生产成本趋零，AI 替代语法与胶水代码等机械工作。工程师价值更侧重于判断力与客户理解。数据显示未出现代码质量回退或入职时间增加，反而代码库理解度提升。该案例证实 AI 编码工具在企业级高负载环境中的可行性，天空并未崩塌。",
-    "tags": [
-      "News",
-      "Engineering",
-      "Productivity"
-    ],
-    "link": "https://www.ashbyhq.com/blog/engineering/ai-ashby-engineering-and-the-future",
-    "date": "2026-06-04",
-    "id": "17805863052601"
-  },
-  {
-    "title": "黑盒测试基准：7 大 AI 系统 API Bug 检测能力评估",
-    "summary": "KushoAI 发布 AI 代理 API 测试与 Bug 发现能力基准报告。",
-    "detail": "KushoAI 发布黑盒评估报告，测试 7 大 AI 系统在 20 个 live API 场景中发现功能 Bug 的能力。基准包含 97 个植入 bug，分三个复杂度 tier。系统仅接收 JSON schema 与样本 payload，无源码或文档。采用 APIEval-20 v1.0 标准，执行-based 评分，每场景五次独立运行取均值。结果显示简单结构 bug 已非差异化关键。报告对比了通用 LLM、编码代理及不同工作流模式，为工程团队选型提供数据支持。",
-    "tags": [
-      "Dev",
-      "Benchmark",
-      "Testing"
-    ],
-    "link": "https://resources.kusho.ai/ai-agent-benchmark-api-bug-detection",
-    "date": "2026-06-04",
-    "id": "17805863052602"
-  },
-  {
-    "title": "AgentKitten：苹果平台通用的 AI 代理 Swift 包",
-    "summary": "支持 iOS/macOS 等多平台的 provider-agnostic AI 代理库。",
-    "detail": "AgentKitten 是专为 Apple 平台设计的开源 Swift 包，用于构建 provider-agnostic 的 AI 代理。支持 Swift 6.1+ 及 iOS、macOS、visionOS、tvOS、watchOS 全生态系统。采用 Apache 2.0 许可，可通过 Swift Package Manager 轻松集成。该项目旨在为开发者提供统一接口以调用不同 AI 模型，降低苹果端侧 AI 应用开发门槛。通过抽象 provider 差异，促进本地 AI 代理生态发展，简化多模型切换与管理流程。",
-    "tags": [
-      "Dev",
-      "Swift",
-      "iOS"
-    ],
-    "link": "https://github.com/fbeeper/agentkitten",
-    "date": "2026-06-04",
-    "id": "17805863052603"
   }
 ]
