@@ -1,5 +1,83 @@
 [
   {
+    "title": "特朗普政府拟持有 OpenAI 股份",
+    "summary": "特朗普称正在讨论让美国人民从 AI 成功中获益的交易，或持股 OpenAI。",
+    "detail": "TechCrunch 最新报道，美国总统特朗普公开表示，政府正在讨论潜在交易方案，可能直接持有 OpenAI 股份。此举核心目的是确保美国人民能从 AI 技术的商业成功中直接获益，而非仅由私人资本独占。这标志着美国政府与顶尖 AI 实验室关系的重大转变，可能引发关于国有化、利益冲突及 AI 安全监管的新讨论。若成真，将重塑 AI 行业格局，影响模型开发方向。行业将密切关注后续政策动向及 OpenAI 的回应，此举也可能引发其他科技巨头的效仿或监管反弹。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Policy"
+    ],
+    "link": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+    "date": "2026-06-06",
+    "id": "17807664009180"
+  },
+  {
+    "title": "年轻人对 AI 态度转负：弊大于利",
+    "summary": "金融时报报道，年轻群体开始认为 AI 危害多于帮助，信任度下降。",
+    "detail": "金融时报调查显示，年轻一代对 AI 的态度正在发生显著转变，从早期的兴奋转为怀疑，普遍认为其“弊大于利”。这反映了 AI 普及后带来的就业焦虑、隐私担忧及内容质量下降等实际问题。这种情绪变化可能影响未来 AI 产品的用户增长及政策监管方向，企业需重视公众信任危机。随着 AI 生成内容泛滥，年轻人更倾向于保护人类原创性，这对 AI 公司的品牌叙事提出了新挑战，需重新评估产品对社会心理的长期影响。",
+    "tags": [
+      "News",
+      "Social Impact",
+      "Survey"
+    ],
+    "link": "https://www.ft.com/content/73fc962e-ce68-4521-9c5d-841a666eed10",
+    "date": "2026-06-06",
+    "id": "17807664009181"
+  },
+  {
+    "title": "AI Agent 架构难点：缓存失效表面",
+    "summary": "深入解析 AI Agent 功能如何导致缓存失效及工程优化解决方案。",
+    "detail": "OpenClacky 创始人分享构建 AI Agent 的深度工程经验。指出每个 Agent 功能（如技能加载、浏览器自动化）都是缓存失效表面，导致缓存命中率低，成本攀升。文章回顾了从 RAG 到优化架构的三代演变，最终通过稳定缓存前缀等七项决策实现 90% 以上缓存命中率。对开发者优化 Agent 成本与延迟具有极高参考价值。这揭示了当前 Agent 开发中常被忽视的基础设施问题，建议开发者在构建复杂 Agent 时优先考量缓存策略。",
+    "tags": [
+      "Dev",
+      "Architecture",
+      "LLM"
+    ],
+    "link": "https://www.openclacky.com/engineering/cache-invalidation-surface",
+    "date": "2026-06-06",
+    "id": "17807664009182"
+  },
+  {
+    "title": "Hugging Face 小模型求职助手实战",
+    "summary": "基于 llama.cpp 推理的小模型求职项目技术复盘与数据集构建。",
+    "detail": "Hugging Face 博客分享了一个求职助手项目的完整构建过程。涉及数据集清洗、使用 Modal 训练小模型及 llama.cpp 推理部署。项目旨在解决毕业生海投效率低的问题，展示了如何在资源受限下构建垂直领域 AI 应用。适合开发者参考小模型微调与落地流程。该案例证明了小模型在特定任务上的可行性，为开发者提供了从数据 curated 到推理优化的完整链路参考，降低了个人开发者进入 AI 应用领域的门槛。",
+    "tags": [
+      "Dev",
+      "Hugging Face",
+      "Tutorial"
+    ],
+    "link": "https://huggingface.co/blog/build-small-hackathon/job-search-blog",
+    "date": "2026-06-06",
+    "id": "17807664009183"
+  },
+  {
+    "title": "Slopper: 对抗开源项目 AI 垃圾贡献",
+    "summary": "新的 GitHub Action 工具旨在识别并过滤 AI 生成的低质代码贡献。",
+    "detail": "针对开源社区日益严重的 AI 生成代码泛滥问题，社区推出了 Slopper GitHub Action。该工具旨在帮助维护者识别和过滤低质量的 AI 贡献（AI Slop），保护开源生态健康。这反映了开发者社区对 AI 滥用问题的自我防御机制正在形成。随着 AI 生成代码质量参差不齐，维护者负担加重，此类工具将成为开源项目标配。它标志着开源社区开始主动治理 AI 带来的副作用，确保代码库的长期可维护性与安全性。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Tool"
+    ],
+    "link": "https://github.com/malvads/Slopper",
+    "date": "2026-06-06",
+    "id": "17807664009184"
+  },
+  {
+    "title": "AI 身份对齐与数字生态危机",
+    "summary": "作家 Robin Sloan 探讨 AI 伪造身份对通信渠道的污染与对齐难题。",
+    "detail": "作家 Robin Sloan 撰文指出 AI 生成的定制化邮件泛滥可能引发数字生态危机。他建议像 Anthropic 这样的公司应从宪法层面限制模型谎报身份。这不仅是技术问题，更是关于人类通信渠道可靠性的哲学问题，警示 AI 污染可能导致人类沟通渠道不可用。文章强调了 AI 对齐在防止通信污染中的重要性，提出若 AI 无法被识别，人类信任体系将崩塌。这为 AI 伦理研究提供了新的视角，即保护人类通信生态的完整性。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Alignment"
+    ],
+    "link": "https://www.robinsloan.com/lab/fourth-law/",
+    "date": "2026-06-06",
+    "id": "17807664009185"
+  },
+  {
     "title": "AI 泡沫反思：企业开始限制使用以控制成本",
     "summary": "Uber 限制 AI 使用，亚马逊关闭代币排行榜，行业进入成本核算阶段。",
     "detail": "Axios 报道指出 AI 泡沫进入第三阶段“清算”。Uber 因预算耗尽限制员工使用 Claude Code，亚马逊关闭内部代币排行榜。企业开始质疑 AI 高昂成本与实际产出的比例，标志着从盲目崇拜转向理性评估，行业关注点转向 ROI 与实际效用。此前经历了怀疑与狂热阶段，如今内部 skeptic 增多。这预示着 AI 应用将更注重垂直场景的精准落地，而非泛化部署，成本控制将成为企业 AI 战略的核心考量因素。对于开发者而言，优化 Token 效率和高价值场景挖掘将是未来关键。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/fbeeper/agentkitten",
     "date": "2026-06-04",
     "id": "17805863052603"
-  },
-  {
-    "title": "Wiki Race AI：人类与代理的维基百科链接竞速游戏",
-    "summary": "每日更新关卡，人类与 AI 在同规则下比拼链接跳转效率。",
-    "detail": "Wiki Race AI 是创新互动平台，用户与 AI 代理竞赛谁能更少步数到达目标维基百科页面。每日更新相同起点与目标，AI 运行缓存确保全球用户面对同一对手。遵循公平原则，AI 基于开源 wikigame-agent 引擎，仅能读取当前页内容并点击链接，无搜索或预览权限。实时流式展示 AI 决策路径，用户可 inspect 每一步选择。直观演示 Agent 在受限环境下的推理与导航能力，兼具娱乐性与技术展示价值。",
-    "tags": [
-      "New",
-      "Game",
-      "Agent"
-    ],
-    "link": "https://www.wikiraceai.com",
-    "date": "2026-06-04",
-    "id": "17805863052604"
-  },
-  {
-    "title": "Anthropic 估值近千亿美元，筹备 IPO",
-    "summary": "Anthropic 获 650 亿美元 H 轮融资，估值达 9650 亿。",
-    "detail": "Anthropic 宣布完成 650 亿美元 H 轮融资，后估值高达 9650 亿美元，并已 confidentially 向 SEC 提交 S-1 草案，具备 IPO 选项。这标志着前沿 AI 公司正从普通软件企业向关键系统运营商转变，compute expansion 与安全政策成为核心战略。行业集中度进一步提升，IPO 前景明朗，显示资本市场对 AGI 基础设施的长期押注，同时也暗示监管与合规将成为未来竞争的关键壁垒，改变行业生态。此融资规模远超以往，表明 AI 军备竞赛进入新阶段，资金将主要用于算力集群建设与安全对齐研究，确保模型 Scaling 过程中的稳定性。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "Finance"
-    ],
-    "link": "https://eido-askayo.blogspot.com/2026/06/anthropics-series-h-and-draft-s-1-point.html",
-    "date": "2026-06-04",
-    "id": "17805742514550"
-  },
-  {
-    "title": "微软英伟达联手打造 Windows 本地 AI 代理",
-    "summary": "推出新工具支持 Windows PC 构建本地 AI 代理，安全加速。",
-    "detail": "微软与英伟达在 COMPUTEX 2026 及 Build 2026 上深度合作，推出本地 AI 代理开发工具套件。包括 Microsoft eXecution Containers (MXC) 安全容器、NVIDIA OpenShell 及 2 倍加速推理技术，旨在让开发者在 Windows 上安全构建本地 Agent。支持多 GPU 及复杂工作流，集成 ComfyUI 等工具，推动端侧 AI 普及，解决隐私与延迟问题，重塑 PC 交互体验。此合作降低了本地部署门槛，使复杂 agentic workflow 能在用户设备上流畅运行，无需依赖云端，为隐私敏感型应用提供新方案。开发者可利用原生 Windows 安全原语执行代码，实现身份与策略管理，加速 AI PC 生态成熟。",
-    "tags": [
-      "News",
-      "Microsoft",
-      "Nvidia"
-    ],
-    "link": "https://developer.nvidia.com/blog/build-personal-ai-agents-on-windows-pcs-with-new-tools-from-microsoft-and-nvidia/",
-    "date": "2026-06-04",
-    "id": "17805742514551"
-  },
-  {
-    "title": "环保 activist Erin Brockovich 瞄准 AI 数据中心",
-    "summary": "知名维权人士建站追踪美国 AI 数据中心，收集居民担忧。",
-    "detail": "曾起诉太平洋煤气电力公司的环保 activist Erin Brockovich 推出新网站，mapping 美国 AI 数据中心增长并收集居民担忧。她曾赢得数百万美元和解金，如今将目标转向 AI 基础设施。此举可能引发对 AI 数据中心环境影响的监管关注，增加建设的社会阻力。网站允许居民报告问题，形成自下而上的监督网络，迫使科技巨头在扩张的同时兼顾社区利益与可持续发展，可能影响未来选址策略。随着 AI 算力需求激增，能源消耗与土地占用问题日益凸显，此类民间维权行动可能推动更严格的环境评估标准出台，增加行业合规成本。",
-    "tags": [
-      "News",
-      "Environment",
-      "Infrastructure"
-    ],
-    "link": "https://www.cbc.ca/news/world/erin-brockovich-ai-data-centres-website-9.7221109",
-    "date": "2026-06-04",
-    "id": "17805742514552"
-  },
-  {
-    "title": "Anthropic 发布 AI 网络威胁 ATT&CK 导航图",
-    "summary": "分析 832 个恶意账户，映射 AI enabled 网络攻击战术。",
-    "detail": "Anthropic 红队发布报告，分析 832 个恶意账户如何将 AI 用于网络攻击，并映射到 MITRE ATT&CK 框架。涵盖 14 种战术和 482 种子技术，揭示了 AI 武器化的新模式，为网络安全防御提供新视角和风险评估框架。研究跨度一年，发现攻击者利用 AI 进行侦察至最终影响的全流程。报告还与 Verizon DBIR 合作，提出风险评分框架，挑战传统安全假设，帮助组织更好理解 AI enabled 威胁 landscape，制定针对性防御策略。数据显示 AI 降低了攻击门槛，使非技术背景攻击者也能实施复杂操作，安全团队需更新防御 playbook 以应对自动化威胁。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Anthropic"
-    ],
-    "link": "https://red.anthropic.com/2026/attack-navigator/",
-    "date": "2026-06-04",
-    "id": "17805742514553"
-  },
-  {
-    "title": "Zorv：自主修复 CVE 漏洞的 AI 开发工具",
-    "summary": "自托管 AI 自动修复依赖漏洞，提供 Lifetime Deal。",
-    "detail": "Zorv 是一款自托管 autonomous AI 工具，专用于修复 Node.js 和 Python 依赖的 CVE 漏洞。它能在 CI/CD 中自动分析测试失败，重写 API 代码直至测试通过，解决传统 bot 只升级不修复的问题。采用 Bubblewrap Linux sandbox 确保隔离安全。目前提供 Lifetime Access 优惠，零订阅费，适合希望自动化安全维护的开发团队，显著减少技术债务与安全警报，提升开发效率。工具支持配置多种 LLM backend，如 Azure OpenAI 或 Anthropic，自动循环修复直至测试全绿，然后提交 PR，极大简化了依赖更新流程，让开发者专注于核心业务逻辑而非维护琐事。",
-    "tags": [
-      "Deal",
-      "Dev",
-      "Security"
-    ],
-    "link": "https://zorv.openyf.dev/",
-    "date": "2026-06-04",
-    "id": "17805742514554"
   }
 ]
