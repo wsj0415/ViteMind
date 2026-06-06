@@ -1,5 +1,83 @@
 [
   {
+    "title": "AI 技术进军衬线字体设计领域",
+    "summary": "WIRED 报道 AI 正在改变传统衬线字体的设计与生成方式。",
+    "detail": "WIRED 报道指出 AI 生成技术已正式渗透至字体设计领域，特别是传统衬线字体。这意味着设计师可能利用 AI 快速生成定制字体，从而改变排版行业的工作流程。传统字体设计通常耗时耗力，AI 介入有望大幅降低门槛。然而，这也引发了关于设计原创性与美学细微差别的讨论。需关注后续具体工具发布，观察 AI 是否能真正理解字体的结构逻辑，还是仅停留在表面模仿，这对设计行业将是重要变革。此趋势可能重塑品牌视觉识别系统，降低设计成本，但同时也带来版权与风格同质化的风险，行业需建立新标准。此外，AI 字体生成可能改变开源字体生态，引发新的许可协议讨论。设计师需适应新工具，平衡效率与创意。",
+    "tags": [
+      "News",
+      "Design",
+      "Generative AI"
+    ],
+    "link": "https://www.wired.com/story/ai-has-come-for-serif-fonts/",
+    "date": "2026-06-06",
+    "id": "17807289905300"
+  },
+  {
+    "title": "深度学习先驱 Schmidhuber 访谈",
+    "summary": "Jürgen Schmidhuber 回顾 1991 年 AI 关键时刻及世界模型发展。",
+    "detail": "访谈中 Schmidhuber 回顾了 1991 年慕尼黑实验室的算法突破，指出当今千亿投资源于彼时基础。讨论了世界模型与强化学习，强调深度学习的历史渊源。他提到 1991 年是 20 世纪唯一的回文年份，也是 AI 关键节点。当时提出的算法现已成为科技巨头核心技术的基石。对理解 AI 发展脉络及未来方向具有极高参考价值，揭示了基础研究与商业成功之间的长期联系，提醒业界重视底层理论创新。此外，他对比了乌克兰 1965 年的深度学习起源，强调了技术演进的连续性。这场访谈为当前 AI 热潮提供了历史视角，有助于理性看待技术突破。",
+    "tags": [
+      "News",
+      "LLM",
+      "History"
+    ],
+    "link": "https://www.the-information-bottleneck.com/jurgen-schmidhuber-world-models-rl-and-the-year-that-changed-ai-part-1/",
+    "date": "2026-06-06",
+    "id": "17807289905301"
+  },
+  {
+    "title": "Nanocode-CLI 终端 AI 编程助手",
+    "summary": "轻量级终端 AI 编码助手，支持实时控制与文件状态感知。",
+    "detail": "基于 Python 的终端编码代理，具备 live turn control 和 file-state brain 功能。支持行号锚点防止编辑漂移，项目感知导航及缓存感知上下文。适合偏好 CLI 工作流的开发者，目前处于 pre-1.0 阶段，可通过 uv 工具安装。其核心优势在于轻量级与本地化控制，允许用户在终端内完成模型选择、历史搜索及确认操作。相比重型 IDE 插件，它提供了更灵活的交互方式，特别适合远程服务器开发场景，提升了编码效率。同时支持配置 TOML 文件，满足个性化需求。开发者可直接查看源码进行二次开发，社区驱动迭代速度快。",
+    "tags": [
+      "New",
+      "Dev",
+      "Python"
+    ],
+    "link": "https://github.com/hit9/nanocode",
+    "date": "2026-06-06",
+    "id": "17807289905302"
+  },
+  {
+    "title": "Vercel 构建 Slack AI Agent 指南",
+    "summary": "使用 Chat SDK 和 AI SDK 打造生产级 Slack 机器人。",
+    "detail": "Vercel 提供详细教程，结合 Chat SDK 处理平台集成，AI SDK 管理推理循环。支持工具调用、多轮对话历史及 Redis 状态管理。无需管理基础设施即可构建生产级 Agent，适合需要在 Slack 中部署 AI 助手的开发团队。该方案简化了 Webhook 验证与消息解析流程，利用 ToolLoopAgent 实现自主推理。对于企业级应用，这种架构降低了维护成本，加速了 AI 工作流在协作平台中的落地，具有较高实用价值。同时支持 Vercel AI Gateway 进行模型路由，确保稳定性。文档清晰，适合中级开发者快速上手实现业务自动化。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Tutorial"
+    ],
+    "link": "https://vercel.com/kb/guide/how-to-build-an-ai-agent-for-slack-with-chat-sdk-and-ai-sdk",
+    "date": "2026-06-06",
+    "id": "17807289905303"
+  },
+  {
+    "title": "Linus Torvalds 谈 AI 编程生产力",
+    "summary": "Linux 之父对\"99% 代码由 AI 生成”言论表示愤怒。",
+    "detail": "The New Stack 报道 Linux 创始人 Linus Torvalds 对\"99% 代码由 AI 生成”的言论表示愤怒。他反对过度夸大 AI 在编程中的作用，强调人类开发者的重要性。此观点反映了业界对 AI 编程效率的真实看法，可能影响开发者对 AI 编码工具的预期管理。在 AI 编程工具盛行的当下，核心开发者的质疑提醒我们关注代码质量与人类掌控力，避免盲目依赖自动化生成，这对软件工程文化具有深远影响。此外，这也引发了关于 AI 生成代码安全性与维护性的讨论，值得警惕。行业应回归工程本质，重视代码审查与架构设计，而非单纯追求生成比例。",
+    "tags": [
+      "News",
+      "Coding",
+      "Opinion"
+    ],
+    "link": "https://thenewstack.io/torvalds-ai-programming-productivity/",
+    "date": "2026-06-06",
+    "id": "17807289905304"
+  },
+  {
+    "title": "Claude-tinderbox 本地对话归档工具",
+    "summary": "通过 MCP 本地搜索 Claude.ai 历史对话，支持混合检索。",
+    "detail": "开源项目允许用户导出 Claude 对话至本地，利用 Supabase 和 Ollama 建立嵌入索引。通过 MCP 服务器在任何 Claude 会话中搜索历史记录。强调“存储陈述而非事实”，保留来源 provenance。适合需要私有化记忆管理的重度 Claude 用户。该工具解决了云端对话难以检索的痛点，实现了本地化知识管理。混合检索机制提高了准确率，支持语义与全文搜索。对于注重隐私与数据主权的用户，这是管理 AI 交互历史的理想方案，增强了个人知识库的可控性。目前仅限 Apple Silicon Mac 用户，需自行配置环境。",
+    "tags": [
+      "New",
+      "Dev",
+      "MCP"
+    ],
+    "link": "https://github.com/luckyrmp/tinderbox-archive",
+    "date": "2026-06-06",
+    "id": "17807289905305"
+  },
+  {
     "title": "AI 支出困境恐冲击 OpenAI 与 Anthropic",
     "summary": "视频分析指出 AI 高昂支出问题，可能不利于头部大模型公司。",
     "detail": "CNBC 视频讨论了 AI 行业当前的支出结构问题。虽然具体解决方案未详述，但标题明确指出当前的支出模式修复计划对 OpenAI 和 Anthropic 等依赖巨额融资的头部实验室并非利好。这反映了市场对 AI 商业化落地及盈利能力的担忧正在加剧。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.bloomberg.com/news/articles/2026-06-03/spacex-seeks-75-billion-in-record-ipo-plan-to-fund-ai-launch",
     "date": "2026-06-03",
     "id": "17805238545890"
-  },
-  {
-    "title": "欧盟呼吁家庭错峰用电应对 AI 能耗激增",
-    "summary": "欧盟要求家庭削减峰值用电，因工业与 AI 需求飙升。",
-    "detail": "**背景**：AI 与工业电力需求飙升，欧盟出台新政应对能源危机。**核心**：呼吁 households cut peak time energy use 以平衡网格，因 industry and AI demand soars。**影响**：凸显 AI 算力背后的能源瓶颈，政策可能影响数据中心布局及家庭用电习惯，能源供应成为 AI 规模化发展的关键制约因素，迫使行业寻求更高效的能源解决方案及绿色算力，缓解电网压力。",
-    "tags": [
-      "News",
-      "Policy",
-      "Energy"
-    ],
-    "link": "https://www.politico.eu/article/eu-households-electricity-energy-artificial-intelligence-ai/",
-    "date": "2026-06-03",
-    "id": "17805238545891"
-  },
-  {
-    "title": "桑德斯提案：公众应持有头部 AI 公司 50% 股份",
-    "summary": "Bernie Sanders 提出法案，主张公众拥有顶级 AI 公司半数股权。",
-    "detail": "**背景**：美国参议员 Bernie Sanders 引入新法案，针对 AI 巨头。**核心**：bill giving the public a 50% stake in top AI companies，旨在平衡红利。**影响**：激进的政策提议，若通过将彻底改变 AI 行业股权结构与治理模式，引发资本市场的强烈关注与争议，重新定义 AI 所有权，可能影响初创企业融资意愿及巨头创新动力，重塑行业分配机制。",
-    "tags": [
-      "News",
-      "Policy",
-      "Regulation"
-    ],
-    "link": "https://finance.yahoo.com/economy/policy/articles/bernie-sanders-introduce-bill-giving-135431485.html",
-    "date": "2026-06-03",
-    "id": "17805238545892"
-  },
-  {
-    "title": "The Verge 体验 Gemini Spark：惊艳又可怕的 AI 代理",
-    "summary": "媒体评测 Gemini Spark 代理，称其为最令人印象深刻的 AI 体验。",
-    "detail": "**背景**：The Verge 发布 Google Gemini Spark 深度体验报告。**核心**：聚焦 AI agent trip planning 能力，表现惊艳又 terrifying。**影响**：展示 Google 在 AI 代理领域的进展，标志着 AI 从对话向自主任务执行转变，强大的自主能力引发用户对安全与控制的担忧，提示 AI 代理需兼顾能力与可控性，推动代理技术标准化。",
-    "tags": [
-      "News",
-      "Google",
-      "AI Agent"
-    ],
-    "link": "https://www.theverge.com/ai-artificial-intelligence/941388/gemini-spark-ai-agent-trip-planning",
-    "date": "2026-06-03",
-    "id": "17805238545893"
-  },
-  {
-    "title": "Axiom Math 解决 Putnam 竞赛，探索验证式 AI",
-    "summary": "初创公司 Axiom 解决数学难题，CEO 谈验证式 AI 与 AGI 路径。",
-    "detail": "**背景**：Axiom Math 在 Putnam 考试中解决 12 个问题，取得优异成绩。**核心**：CEO Carina Hong 提出 Verified AI 概念，认为编码能力不足以保证 AGI。**影响**：强调数学推理与验证在 AI 进阶中的重要性，为 AGI 发展提供新视角，超越单纯代码生成能力，探索 scaling brilliance 路径，提示 AI 需具备严谨验证机制，突破推理瓶颈。",
-    "tags": [
-      "Dev",
-      "Research",
-      "AGI"
-    ],
-    "link": "https://www.latent.space/p/axiom",
-    "date": "2026-06-03",
-    "id": "17805238545894"
-  },
-  {
-    "title": "调研显示仅 18% 的 AI 工程支出转化为 shipped 产品",
-    "summary": "Entelligence 报告揭示 AI 工程支出效率低下，大部分消耗于维护。",
-    "detail": "**背景**：Entelligence 发布 AI 工程支出研究报告，揭示效率问题。**核心**：仅 18% 支出用于 shipped product，44% 为 reactive engineering，$0.82 Consumed。**影响**：揭示 AI coding tools 加速维护循环的现状，提示团队需关注生产闭环，优化 AI 工程 ROI，避免无效消耗，提升实际交付价值，警示盲目使用 AI 工具的风险，推动工程流程优化。",
-    "tags": [
-      "Dev",
-      "Engineering",
-      "Efficiency"
-    ],
-    "link": "https://research.entelligence.ai/",
-    "date": "2026-06-03",
-    "id": "17805238545895"
-  },
-  {
-    "title": "Workato 与 Boomi 对比：AI 驱动自动化 vs 智能治理",
-    "summary": "深度对比两款 iPaaS 平台，分析 AI 执行与治理哲学差异。",
-    "detail": "**背景**：Zapier 发布 Workato 与 Boomi 对比指南，分析 iPaaS 选择。**核心**：Workato 侧重 speed and AI execution，Boomi 侧重 governance。**影响**：为企业选择 AI 自动化平台提供参考，反映 iPaaS 领域 AI 代理化与传统治理的路线分歧，助力 IT 团队根据需求决策，优化企业自动化架构与 AI 集成策略，提升运营效率。",
-    "tags": [
-      "Dev",
-      "Enterprise",
-      "Automation"
-    ],
-    "link": "https://zapier.com/blog/workato-vs-boomi",
-    "date": "2026-06-03",
-    "id": "17805238545896"
   }
 ]
