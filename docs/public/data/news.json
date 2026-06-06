@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 支出困境恐冲击 OpenAI 与 Anthropic",
+    "summary": "视频分析指出 AI 高昂支出问题，可能不利于头部大模型公司。",
+    "detail": "CNBC 视频讨论了 AI 行业当前的支出结构问题。虽然具体解决方案未详述，但标题明确指出当前的支出模式修复计划对 OpenAI 和 Anthropic 等依赖巨额融资的头部实验室并非利好。这反映了市场对 AI 商业化落地及盈利能力的担忧正在加剧。",
+    "tags": [
+      "News",
+      "LLM",
+      "Finance"
+    ],
+    "link": "https://www.youtube.com/watch?v=w1yB7ck36JA",
+    "date": "2026-06-06",
+    "id": "17807169325702"
+  },
+  {
+    "title": "Zedra：移动端 AI 编码 Agent 控制平面",
+    "summary": "基于 Rust 的移动端代码编辑器，可远程连接桌面运行 AI Agent。",
+    "detail": "Zedra 是一款移动端代码编辑器，直接连接桌面环境。它允许用户通过远程终端运行任何 AI 编码 Agent，支持代码编辑、Markdown 及 Git 视图。基于 Rust 和 GPUI 构建，采用 QUIC/UDP 点对点连接，无需端口转发。为开发者提供了真正的移动编码与 AI 协作体验。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Mobile"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48420833",
+    "date": "2026-06-06",
+    "id": "17807169325703"
+  },
+  {
+    "title": "Apple Contacts MCP：本地优先的联系人管理服务器",
+    "summary": "macOS 本地 MCP 服务器，安全搜索编辑 Apple 联系人。",
+    "detail": "这是一个本地优先的 MCP 服务器，旨在安全地搜索和编辑 macOS 上的 Apple 联系人。通过 AppleScript 自动化 Contacts.app，利用 macOS 隐私提示而非云凭证。默认写操作为干跑模式，需 explicit 确认。支持创建、更新、追加笔记等工具，适合构建隐私敏感的本地 AI 代理应用。",
+    "tags": [
+      "Dev",
+      "MCP",
+      "Privacy"
+    ],
+    "link": "https://github.com/lu-wo/apple-contacts-mcp",
+    "date": "2026-06-06",
+    "id": "17807169325704"
+  },
+  {
+    "title": "确定性核心架构：AI 增强应用的基础框架",
+    "summary": "提出确定性核心架构模式，解决 AI 审计无限循环问题。",
+    "detail": "该文章定义了确定性核心架构，作为 AI 协作的可转移设计模式。针对 AI 模型因缺乏固定标准而导致的“永无止境的审计螺旋”问题，提出建立固定基线。通过六个工件的生产参考实现，证明了该模式并非理论推测，而是已交付的架构原语，有助于工程化落地。",
+    "tags": [
+      "Dev",
+      "Architecture",
+      "Engineering"
+    ],
+    "link": "https://brandonbellsystems.com/deterministic-core/",
+    "date": "2026-06-06",
+    "id": "17807169325705"
+  },
+  {
+    "title": "Lite Agent：重新定义浏览器 AI 助手",
+    "summary": "浏览器内 AI 副驾，支持页面自动化、语音交互及记忆功能。",
+    "detail": "Lite Agent 是一款浏览器扩展，结合 AI 聊天、页面自动化、语音输入和加密备份。它能点击按钮、填写表单并记忆用户偏好。支持实时语音转录和静音自动停止，无需手动 API 密钥，由 OpenRouter 驱动。旨在成为浏览器的智能实习生，提升网页交互效率。",
+    "tags": [
+      "New",
+      "Agent",
+      "Browser"
+    ],
+    "link": "https://liteagent.cloud",
+    "date": "2026-06-06",
+    "id": "17807169325706"
+  },
+  {
     "title": "微软内部文件曝光：旨在让用户“上瘾”Scout AI",
     "summary": "微软计划先让用户依赖 Scout，再扩展功能。",
     "detail": "泄露的微软内部策略文件显示，其新 AI 助手 Scout 旨在让用户先“上瘾”再 rollout 功能。这种“依赖先行”策略引发伦理争议，反映了大厂通过 AI 加深用户锁定的趋势。Windows 的历史教训表明，这种依赖性可能导致用户被困于生态系统中。批评者认为，科技巨头应专注于提升生产力而非制造依赖，否则可能招致监管审查。用户需警惕此类设计模式对个人自主性的潜在侵蚀。该策略若实施，可能改变个人助理市场的竞争格局，迫使竞争对手跟进类似留存策略。",
@@ -11,6 +76,19 @@
     "link": "https://disassociated.com/microsoft-users-addicted-ai-personal-assistant/",
     "date": "2026-06-06",
     "id": "17807011404202"
+  },
+  {
+    "title": "特朗普信号：美国政府拟持有顶尖 AI 实验室股份",
+    "summary": "美国政府探索与 AI firm 合作伙伴关系，可能直接持股。",
+    "detail": "彭博社报道，特朗普政府信号显示美国正探索与 AI 公司的合作伙伴关系，甚至可能持有顶尖 AI 实验室的股份。这一政策动向意味着 AI 技术已被提升至国家战略资产高度，政府干预可能影响私营 AI 实验室的研发方向及治理结构，引发行业广泛关注。",
+    "tags": [
+      "News",
+      "Policy",
+      "Government"
+    ],
+    "link": "https://www.bloomberg.com/news/articles/2026-06-05/us-exploring-government-partnerships-with-ai-firms-trump-says",
+    "date": "2026-06-05",
+    "id": "17807169325701"
   },
   {
     "title": "模特起诉零售商：合同“微调”条款被用于 AI 生成 likeness",
@@ -492,6 +570,19 @@
     "link": "https://stateflow-dev.github.io/stateflowlabs/",
     "date": "2026-06-05",
     "id": "17806368474273"
+  },
+  {
+    "title": "资源稀缺推动硅谷外 AI 基础设施创新",
+    "summary": "算力与能源成本上升，迫使 AI 基建向硅谷以外地区转移。",
+    "detail": "传统 AI 基建依赖硅谷集中式云设施，但随着算力成本、能耗及供应链风险增加，开发者开始寻求替代方案。文章指出亚马逊、微软和谷歌垄断了大部分云支出，但能源压力和数据主权问题正推动创新向外部扩散。这标志着 AI 基础设施去中心化的趋势开始显现。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Cloud"
+    ],
+    "link": "https://restofworld.org/2026/scarcity-is-driving-ai-innovation-outside-silicon-valley/",
+    "date": "2026-06-04",
+    "id": "17807169325700"
   },
   {
     "title": "构建 AI 神经科学：从原子到比特",
@@ -1207,96 +1298,5 @@
     "link": "https://zapier.com/blog/workato-vs-boomi",
     "date": "2026-06-03",
     "id": "17805238545896"
-  },
-  {
-    "title": "谷歌开源水文 AI 模型，助力全球洪水预测",
-    "summary": "谷歌开源水文框架，提升洪水预测能力，赋能气象服务。",
-    "detail": "Google Research 正式开源其水文建模框架，旨在赋能各国气象服务机构集成先进的 AI 洪水预测技术。该框架基于 Google Flood Hub 架构，允许研究人员添加本地数据与模型，训练更精准的预测系统。此举不仅提升了全球灾害预警能力，也展示了 Google 在 AI for Science 领域的开放策略，推动科学突破转化为全球公共利益。通过鼓励社区共建更 resilient 的基础设施，标志着 AI 在气候适应领域的关键进展，为发展中国家提供了低成本的技术解决方案，增强了全球应对极端天气的韧性，体现了科技巨头在社会责任层面的深度投入。",
-    "tags": [
-      "News",
-      "Google",
-      "Open Source"
-    ],
-    "link": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework/",
-    "date": "2026-06-03",
-    "id": "17805123926670"
-  },
-  {
-    "title": "亚马逊搜索将生成 AI 虚拟产品，引发电商变革",
-    "summary": "亚马逊搜索栏将展示不可购买的 AI 生成产品，激发灵感。",
-    "detail": "The Verge 报道亚马逊搜索结果将引入 AI 生成的产品图像，这些产品无法直接购买。旨在通过生成式 AI 激发用户灵感，展示潜在商品形态。这一功能模糊了真实库存与虚拟生成的界限，可能改变电商搜索逻辑。行业观察家担心这会导致消费者混淆，但也标志着电商从“搜索现有商品”向“生成理想商品”的范式转变，考验平台的透明度与信任机制。未来可能引发关于广告标识与消费者权益的新法规，重塑在线购物体验，迫使品牌商调整视觉营销策略以适应 AI 生成的搜索环境，同时也为个性化定制商品提供了新的流量入口。",
-    "tags": [
-      "News",
-      "E-commerce",
-      "Generative AI"
-    ],
-    "link": "https://www.theverge.com/tech/942547/amazon-search-bar-ai-images",
-    "date": "2026-06-03",
-    "id": "17805123926671"
-  },
-  {
-    "title": "彭博分析：为何资本无法退出 AI 热潮",
-    "summary": "Matt Levine 撰文分析 AI 热潮的经济必然性与锁定效应。",
-    "detail": "彭博社专栏作家 Matt Levine 撰文分析，尽管市场对 AI 泡沫存疑，但企业与资本已难以退出 AI 热潮。基础设施投资巨大，退出成本过高，导致行业进入不可逆周期。文章指出，即便应用层尚未完全变现，底层算力与模型竞赛仍将持续。这反映了 AI 作为通用技术的特殊性，投资者被迫参与以防落后，凸显了当前 AI 经济学的囚徒困境与长期主义博弈。这种锁定效应意味着未来数年 AI 支出将持续增长，无论短期回报如何，企业必须维持技术栈更新以避免被淘汰，重塑了科技投资的风险评估模型。",
-    "tags": [
-      "News",
-      "Finance",
-      "Industry Analysis"
-    ],
-    "link": "https://www.bloomberg.com/opinion/newsletters/2026-06-03/opting-out-of-the-ai-boom",
-    "date": "2026-06-03",
-    "id": "17805123926672"
-  },
-  {
-    "title": "亲 AI 超级政治行动委员会被曝操纵舆论",
-    "summary": "调查发现亲 AI 组织利用虚假账号传播 meme，涉及巨资。",
-    "detail": "Midas Project 调查揭露，亲 AI 超级政治行动委员会 Leading the Future 疑似关联多个虚假账号。这些账号通过 meme 攻击对手或宣传 AI 政策，涉及资金超 1.25 亿美元。调查指出，部分账号同时宣传支持与反对观点以制造热度。此举引发伦理争议，显示 AI 行业正通过黑暗资金影响舆论与政策，监管透明度成为焦点，挑战公众对 AI 治理的信任基础。这种操纵行为可能加剧社会对 AI 发展的对立情绪，促使立法者加强对政治广告与算法推荐内容的审查，影响行业游说策略。",
-    "tags": [
-      "News",
-      "Policy",
-      "Ethics"
-    ],
-    "link": "https://twitter.com/themidasproj/status/2062188060004241592",
-    "date": "2026-06-03",
-    "id": "17805123926673"
-  },
-  {
-    "title": "新工具 CTP Room 协调 AI 编码代理协同工作",
-    "summary": "开发者共享聊天室，实现多 AI 代理协同编码，支持 MCP。",
-    "detail": "Hacker News 热门项目 CTP Room 推出共享聊天室，实现人类与多 AI 代理协同编码。支持 Claude、Codex 等模型通过 MCP 协议接入，具备消息路由、文件锁定及持久记忆功能。开发者可避免代理间冲突，提升协作效率。该项目开源在即，解决了多代理系统中的上下文协调难题，为 AI 原生开发工作流提供了新范式，适合团队化 AI 编程场景。它降低了多代理协作的技术门槛，使得小型团队也能利用 swarm intelligence 进行复杂软件开发，预示着 AI 辅助编程进入多代理协作的新阶段。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Open Source"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48387448",
-    "date": "2026-06-03",
-    "id": "17805123926674"
-  },
-  {
-    "title": "微软发布 Majorana 2 量子芯片，Agentic AI 助力可靠性提升千倍",
-    "summary": "微软 unveils Majorana 2 量子芯片，利用 Agentic AI 加速研发，可靠性提升 1000 倍，2029 年实现可扩展量子计算机。",
-    "detail": "微软正式公布下一代拓扑量子芯片 Majorana 2，该研发过程深度集成了 Microsoft Discovery 的 Agentic AI 技术。通过 AI 代理团队引导人类专家协作，新芯片的材料堆栈实现了关键突破，量子比特可靠性较前代提升 1000 倍，平均寿命达 20 秒。这一进展将微软实现可扩展量子计算机的目标提前至 2029 年。Microsoft Discovery 平台现已全面可用，标志着 AI 驱动科学发现（AI for Science）进入新阶段，对算力底层架构具有深远影响。",
-    "tags": [
-      "News",
-      "Quantum",
-      "Agentic AI"
-    ],
-    "link": "https://news.microsoft.com/source/features/innovation/majorana-2-microsoft-discovery-agentic-ai/",
-    "date": "2026-06-03",
-    "id": "17804977859650"
-  },
-  {
-    "title": "Meta 进军企业 AI 市场，推出全新业务代理自动化日常运营",
-    "summary": "Meta 发布面向企业的 AI 业务代理，旨在自动化日常运营流程，正式加入企业级 AI 竞争赛道。",
-    "detail": "Meta 正式宣布进入企业 AI 竞争领域，推出专注于业务流程自动化的 AI 业务代理（Business Agent）。该工具旨在帮助企业自动化日常运营任务，减少人工干预。此举标志着 Meta 从消费级社交 AI 向 B 端生产力工具的戰略转型。随着各大科技巨头纷纷布局企业级代理，AI 在垂直工作流中的渗透率预计将加速提升，企业运营效率与 AI 代理的整合将成为新的竞争焦点。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Agent"
-    ],
-    "link": "https://www.reuters.com/business/meta-launches-enterprise-focused-ai-business-agent-automate-daily-operations-2026-06-03/",
-    "date": "2026-06-03",
-    "id": "17804977859651"
   }
 ]
