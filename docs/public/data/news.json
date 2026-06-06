@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 使用指南：加速思考而非外包思考",
+    "summary": "博主分享如何正确使用 AI 加速思考过程，而非单纯外包任务，涵盖搜索与规划场景。",
+    "detail": "本文探讨了当前 AI 使用的误区，指出多数人倾向于外包思考而非加速思考。作者以 Claude 为例，分享了将 AI 作为复杂问题搜索工具的实际案例，如假期规划。强调 AI 应作为增强人类能力的辅助工具，而非替代品。文章提供了具体使用场景，旨在启发用户更高效地利用 LLM 技术 enrich 生活与工作，减少依赖性。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Productivity"
+    ],
+    "link": "https://blog.bozso.dev/posts/using-ai",
+    "date": "2026-06-06",
+    "id": "17807453504740"
+  },
+  {
+    "title": "本地 AI 工作流实战：多智能体视频编辑经验",
+    "summary": "开发者分享构建本地多智能体视频编辑工作流的经验，涉及 Whisper 与上下文丢失问题。",
+    "detail": "作者记录了一个周末构建本地 AI 工作流的实战过程，目标是创建多智能体视频编辑器。项目尝试通过转录、编辑代理和审查代理协作来精简视频。文中重点分享了三大教训：中间丢失（Lost-in-the-middle）问题、偏差复合问题以及 Whisper 模型的局限性。虽然原型未达生产级，但为本地 Agent 开发提供了宝贵参考，代码已开源。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "OpenSource"
+    ],
+    "link": "http://stefano.petrilli.xyz/building-ai-workflows/",
+    "date": "2026-06-06",
+    "id": "17807453504741"
+  },
+  {
+    "title": "微软专利：Windows 系统将内置 AI 数据收集开关",
+    "summary": "微软新专利披露 Windows 将新增 AI 数据收集控制 toggle，用户可实时监控与暂停数据上传。",
+    "detail": "微软申请了一项系统级隐私专利，旨在让用户控制 Windows 中的 AI 数据收集。该功能包含状态指示器（类似摄像头灯）和管理界面，用户可实时查看 ML 数据收集状态，设置规则或暂停收集。此举针对 Copilot 等功能的后台数据训练，提升了透明度与用户控制权，反映了科技巨头在 AI 隐私合规方面的新动向。",
+    "tags": [
+      "News",
+      "Privacy",
+      "Microsoft"
+    ],
+    "link": "https://patentlyze.com/patent/microsoft-windows-ai-data-collection-toggle/",
+    "date": "2026-06-06",
+    "id": "17807453504742"
+  },
+  {
+    "title": "经济学家论 AI 裁员陷阱与 UBI 局限性",
+    "summary": "新论文指出 AI 裁员陷阱，认为 UBI 无法解决需求下降问题，建议征收自动化税。",
+    "detail": "针对最新论文《AI 裁员陷阱》，文章分析了自动化导致的经济悖论：企业节省成本但破坏消费者需求。作者指出普遍基本收入（UBI）无法完全解决此问题，因为支出消失会影响整体经济。论文建议通过皮古税（Pigouvian tax）对自动化征税。该内容深入探讨了 AI 对劳动力市场的宏观影响及政策应对的复杂性。",
+    "tags": [
+      "News",
+      "Economy",
+      "Policy"
+    ],
+    "link": "https://briefing.forwardfuture.ai/p/economists-just-proved-ubi-can-t-stop-ai-layoffs-here-s-what-they-actually-proved",
+    "date": "2026-06-06",
+    "id": "17807453504743"
+  },
+  {
+    "title": "英国银行遭 Claude 封禁后获 OpenAI 青睐",
+    "summary": "英国银行因网络安全无法使用 Claude Mythos，转获 OpenAI 提供替代 AI 解决方案。",
+    "detail": "据报道，部分英国银行因网络安全合规问题被禁止使用 Anthropic 的 Claude Mythos 工具。在此背景下，OpenAI 主动向这些金融机构提供 rival AI 解决方案。这一事件凸显了金融行业在采纳生成式 AI 时的合规挑战，以及大厂之间在 enterprise 市场的竞争态势。OpenAI 此举旨在填补市场空缺，强化其在金融领域的布局。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "OpenAI"
+    ],
+    "link": "https://www.bbc.com/news/articles/cm2p3j6lvn7o",
+    "date": "2026-06-06",
+    "id": "17807453504744"
+  },
+  {
     "title": "社区质疑 Pearl AI 挖矿为虚假宣传",
     "summary": "社区指控 Pearl 有用挖矿实为浪费算力，涉及 NVIDIA 等巨头。",
     "detail": "Hacker News 社区热议 Pearl 项目的“有用工作量证明”（PoW）AI 挖矿，指控其为虚假宣传。文章指出该项目并未运行实际推理，而是伪装成 AI 计算的无用 PoW，旨在通过愚蠢和贪婪推高 GPU 价格。有间接证据表明 NVIDIA 和 Together AI 可能参与其中，后者利用 Pearl 利润补贴推理。若属实，这不仅是对 AI 算力资源的极大浪费，更是蛇油营销，将加剧硬件市场泡沫，损害开发者利益。社区呼吁警惕此类复活 GPU 挖矿热潮的行为，认为这是浪费算力、增加贪婪和提高价格的真实威胁，而非真正的技术创新。矿工在 Pearl 网络中并未运行实际推理，而是运行无用 PoW，导致更多浪费。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/Evozim/m2mcent-sdk",
     "date": "2026-06-04",
     "id": "17805461028824"
-  },
-  {
-    "title": "企业级 AI 代理安全：多层策略防护指南",
-    "summary": "Tigera 提出网关与运行时双层安全策略。",
-    "detail": "Tigera 提出 AI 代理安全需多层策略，涵盖 L7 网关层与代理运行时层。网关控制身份与动作，运行时限制文件访问与系统调用。单一层面无法确保安全，企业需建立综合策略以防止代理越权，为 AI 代理大规模部署提供了安全架构思路。随着 Agent 自主性增强，传统边界防护失效，必须深入内核层监控行为。该方案有助于解决企业顾虑，加速 AI 代理在金融、医疗等敏感领域的落地应用。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Enterprise"
-    ],
-    "link": "https://www.tigera.io/blog/multi-layer-policy-for-securing-ai-agents/",
-    "date": "2026-06-03",
-    "id": "17807011404204"
-  },
-  {
-    "title": "欧盟发布云与 AI 发展法案，确立“开源优先”原则",
-    "summary": "欧盟提出新法案，承诺 20 亿欧元投资开源，强调技术主权。",
-    "detail": "欧盟委员会发布“云与 AI 发展法案”（CADA），首次将“开源优先”列为法律原则，这是委员会前所未有的开源承诺。计划投资 20 亿欧元支持开源战略，建立公共部门 OSPO 网络，并推出云主权认证框架。此举旨在增强欧洲技术主权，减少对外部云基础设施依赖，将技术独立议程扩展到完整基础设施层。对全球 AI 开源社区及云服务商而言，欧洲市场合规要求将更加严格，同时也带来新的合作机遇。企业需关注云主权认证级别，调整基础设施策略以满足欧盟法律要求，开源组件的维护与安全将成为采购关键指标，影响未来云服务选型。",
-    "tags": [
-      "News",
-      "Policy",
-      "OpenSource"
-    ],
-    "link": "https://www.suse.com/c/eu-cloud-ai-development-act-open-source-first/",
-    "date": "2026-06-03",
-    "id": "17805461028821"
-  },
-  {
-    "title": "Google 与 Lovable 达成多年协议，AI 用量将提升 5 倍",
-    "summary": "Lovable 与 Google Cloud 扩大合作，AI 用量增 5 倍，获 Claude 与 Gemini 模型访问权。",
-    "detail": "瑞典 AI 编程初创公司 Lovable 与 Google Cloud 宣布达成多年扩展合作协议。据知情人士透露，该协议将使 Lovable 在 Google Cloud 上的 footprint（包括 AI  usage）增加五倍。作为交易的一部分，Lovable 将获得 Anthropic 的 Claude 模型和 Google 自家的 Gemini 模型的扩展访问权限。值得注意的是，Google 此前已向 Anthropic 投资数百亿美元，此次合作有助于 Anthropic 达成业绩目标。Lovable 增长迅猛，今年 2 月年化收入已突破 4 亿美元，被视为欧洲增长最快的初创公司之一。",
-    "tags": [
-      "News",
-      "Google Cloud",
-      "Startup"
-    ],
-    "link": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
-    "date": "2026-06-03",
-    "id": "17805302934480"
-  },
-  {
-    "title": "英国监管机构命令 Google 优化 AI 搜索来源链接",
-    "summary": "英国 CMA 要求 Google 在 AI 搜索中提供清晰来源链接，并允许出版商选择退出。",
-    "detail": "英国竞争与市场管理局（CMA）下令 Google 修改其 AI 生成的搜索功能（如 AI Overviews）。新规要求 Google 必须提供清晰的归属和出版商内容链接，并赋予出版商选择退出 AI 功能的有效工具。CMA 强调，Google 不得因出版商选择退出而降低其在普通搜索结果中的排名。这一裁决旨在增强消费者信任，并使新闻机构等在内容交易谈判中处于更有利地位。Google 需在九个月内合规，并定期提交合规报告。",
-    "tags": [
-      "News",
-      "Regulation",
-      "Search"
-    ],
-    "link": "https://arstechnica.com/tech-policy/2026/06/google-ordered-to-put-clearer-links-in-ai-search-and-let-uk-publishers-opt-out/",
-    "date": "2026-06-03",
-    "id": "17805302934481"
-  },
-  {
-    "title": "联合国报告：AI 能源消耗的碳、水与土地足迹",
-    "summary": "联合国大学报告量化 AI 基础设施的环境成本，强调能源来源对足迹的影响。",
-    "detail": "联合国大学水、环境与健康研究所（UNU-INWEH）发布报告，深入探讨 AI 快速扩张背后的环境代价。报告指出，AI 不仅是数字技术，更是依赖数据中心、芯片、冷却系统及电力网络的物质系统。研究超越了单一的碳视角，量化了训练和部署 AI 系统所需的电力产生的碳、水和土地足迹。核心发现表明，AI 的环境成本不仅取决于用电量，还取决于电力的生成地点及能源结构。该报告为评估 AI 可持续发展的物理基础设施成本提供了重要参考。",
-    "tags": [
-      "News",
-      "Sustainability",
-      "Energy"
-    ],
-    "link": "https://unu.edu/inweh/collection/environmental-cost-of-AIs-Enrgy-Use-Carbon-water-and-land-footprints",
-    "date": "2026-06-03",
-    "id": "17805302934482"
   }
 ]
