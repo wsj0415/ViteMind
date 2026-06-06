@@ -1,5 +1,57 @@
 [
   {
+    "title": "OpenAI 推出锁定模式防御提示注入攻击",
+    "summary": "OpenAI 发布新功能保护敏感数据，降低提示注入风险。",
+    "detail": "OpenAI 正式推出“锁定模式”（Lockdown Mode），旨在保护敏感数据免受提示注入攻击。尽管该模式不能完全消除 ChatGPT 的 vulnerability，但其核心目标是显著降低敏感信息在交互过程中被泄露的可能性。这一举措反映了 AI 安全领域的最新进展，表明头部厂商开始正视提示注入带来的企业级风险。对于依赖 LLM 处理 confidential 数据的企业而言，这是重要的安全补丁。行业需关注其实际防护效果及是否会影响模型灵活性，这标志着 AI 安全从理论讨论走向工程化落地阶段。未来可能成为企业级 API 的标准配置，推动安全合规性发展。此外，该功能的推出也可能引发竞争对手跟进，形成行业安全标准。开发者在集成时需评估其对响应速度的影响，平衡安全与体验。",
+    "tags": [
+      "News",
+      "Security",
+      "OpenAI"
+    ],
+    "link": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+    "date": "2026-06-06",
+    "id": "17807800865480"
+  },
+  {
+    "title": "WWDC 2026 前瞻：Siri 重塑与 Apple Intelligence",
+    "summary": "苹果全球开发者大会将至，Siri 迎来重大更新与智能升级。",
+    "detail": "苹果 WWDC 2026 即将召开，市场高度期待 Siri 的重大重构及 Apple Intelligence 更新。作为科技巨头，苹果在 AI 领域的动向直接影响行业风向。此次更新预计将深化生成式 AI 与操作系统的整合，提升语音助手的理解与执行能力。对于开发者而言，这意味着新的 API 机会与生态调整；对于用户，则是更智能的交互体验。WWDC 将成为观察苹果 AI 战略落地成效的关键窗口，其表现将决定苹果能否在 AI 手机竞争中缩小与对手的差距，重塑移动端 AI 交互标准。若更新符合预期，将加速 AI 在终端设备的普及，推动端侧模型优化技术的发展，为隐私保护型 AI 应用树立新标杆。",
+    "tags": [
+      "News",
+      "Apple",
+      "Siri"
+    ],
+    "link": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+    "date": "2026-06-06",
+    "id": "17807800865481"
+  },
+  {
+    "title": "斯坦福研究：法学教授更偏爱 AI 而非同行答案",
+    "summary": "斯坦福法学院研究发现，教授们倾向于信任 AI 生成的回答。",
+    "detail": "斯坦福法学院发布最新研究，显示法学教授在回答问题时更偏爱 AI 生成的答案而非同行解答。这一发现揭示了 AI 在专业领域的渗透率正在加速，甚至在传统上依赖人类专家的法律行业也获得了信任背书。这表明 AI 不仅在效率上取胜，其输出质量也开始获得学术界认可。该趋势可能推动法律科技工具的进一步普及，改变知识工作者获取信息的方式。同时也引发关于学术诚信与依赖性的讨论，预示着 AI 辅助决策将成为专业领域的常态。长期来看，这可能改变法律教育模式，要求学生掌握 AI 协作技能，而非单纯记忆法条，行业需适应人机协作的新工作流。",
+    "tags": [
+      "News",
+      "Research",
+      "Adoption"
+    ],
+    "link": "https://law.stanford.edu/publications/law-professors-prefer-ai-over-peer-answers/",
+    "date": "2026-06-06",
+    "id": "17807800865482"
+  },
+  {
+    "title": "AI 记忆功能效率低：Tenure 项目检测出 95% 错误率",
+    "summary": "最新项目检测显示 AI 记忆功能存在严重缺陷，错误率极高。",
+    "detail": "Tenure 项目最新检测显示，AI 记忆功能存在严重效率问题，错误率高达 95%。这一数据揭示了当前 AI 系统在长期记忆与上下文保持方面的技术瓶颈。尽管 AI 在生成内容上表现优异，但在需要精确记忆与回溯的任务中仍显不足。该发现为开发者敲响了警钟，提示在构建依赖记忆功能的应用时需引入校验机制。同时也为后续技术优化指明了重点攻关方向，表明 AI 记忆模块仍是当前架构中的薄弱环节，需持续迭代。投资者应警惕过度炒作记忆功能的产品，开发者需结合向量数据库等传统方案弥补不足，确保应用可靠性。",
+    "tags": [
+      "News",
+      "LLM",
+      "Technical"
+    ],
+    "link": "https://zamin.uz/en/technology/205592-ai-memory-proves-inefficient-tenure-project-detects-95-error-rate.html",
+    "date": "2026-06-06",
+    "id": "17807800865483"
+  },
+  {
     "title": "Hugging Face 实验：多模型智能体模拟经济系统",
     "summary": "Hugging Face 发布多模型智能体实验，探索小模型异构协作。",
     "detail": "Hugging Face 博客披露了\"Thousand Token Wood v2\"项目工程报告。该项目构建了一个经济模拟环境，其中每个智能体由不同实验室的小模型驱动，包括 gpt-oss-20b、MiniCPM3-4B、Nemotron-Mini-4B 及微调版 Qwen 0.5B。核心观点强调“异构性是产品而非约束”，旨在观察不同训练数据的小模型如何在市场中互动博弈。用户扮演资助者角色，通过借贷和提示影响市场。这对多智能体系统开发、边缘 AI 部署及小模型异构协作研究具有重要参考意义，展示了小模型在复杂交互中的潜力。相比 v1 版本，v2 增强了可玩性，允许用户进行做空和贿赂等操作，验证了多模型协作的可行性。",
@@ -1246,57 +1298,5 @@
     "link": "https://arxiv.org/abs/2308.08708",
     "date": "2026-06-04",
     "id": "17806119155165"
-  },
-  {
-    "title": "Supabase 获 5 亿美元融资，估值达 105 亿美元",
-    "summary": "“氛围编程”推动 Supabase 估值飙升，完成 5 亿美元融资。",
-    "detail": "数据库初创公司 Supabase 宣布完成 5 亿美元融资，估值达到 105 亿美元。CNBC 报道明确指出，这一估值增长主要得益于“氛围编程”（Vibe coding）现象的兴起。随着开发者越来越多地采用 AI 辅助编程工具，对现代化数据库基础设施的需求显著增加。Supabase 作为 AI 初创企业，其高估值反映了市场对 AI 原生开发平台的强烈需求，显示出资本对开发者工具赛道的持续看好，标志着 AI 编码趋势正在重塑基础设施格局，成为行业焦点。",
-    "tags": [
-      "News",
-      "Funding",
-      "Infrastructure"
-    ],
-    "link": "https://www.cnbc.com/2026/06/04/database-startup-supabase-raises-500-million-10point5-billion-valuation.html",
-    "date": "2026-06-04",
-    "id": "17805971589740"
-  },
-  {
-    "title": "谷歌 AI 概述导致出版商流量暴跌 58%",
-    "summary": "研究显示谷歌 AI 概述显著降低点击率，内容创作者面临生存危机。",
-    "detail": "谷歌 AI Overviews 功能正在深刻改变搜索生态。Ahrefs 2026 年初的研究显示，AI 概述导致排名第一的搜索结果点击率下降 58%。用户直接在搜索结果页获取答案，不再点击源网站，使得内容生产者的硬工作被吸收。这引发了关于内容创作者激励机制及谷歌垄断控制权的深刻讨论，出版商流量危机日益严峻，行业担忧一家公司是否应拥有如此大的系统控制权，内容价值面临重估。",
-    "tags": [
-      "News",
-      "Search",
-      "Ethics"
-    ],
-    "link": "https://claudefolio.com/blog/google-ai-overviews-are-killing-the-incentive-to-make-good-content",
-    "date": "2026-06-04",
-    "id": "17805971589741"
-  },
-  {
-    "title": "2026 年 AI 浏览器自动化工具全景图",
-    "summary": "深度解析 AI 代理时代下的浏览器自动化工具分类与选型指南。",
-    "detail": "随着 AI Agent 的兴起，浏览器自动化变得复杂。文章梳理了当前工具 landscape：从传统的 Playwright、Selenium 到面向 coding agents 的 Agent Browser，再到全功能 Browser Agents。开发者需根据确定性工作流或灵活性需求选择工具。文章提供了详细的分类对比及适用场景分析，帮助技术人员理解不同工具试图解决的问题，映射出 AI 代理与浏览器交互的演进路线，是开发者必备参考。",
-    "tags": [
-      "Dev",
-      "Automation",
-      "Agents"
-    ],
-    "link": "https://libretto.sh/blog/understanding-ai-browser-automation-tooling",
-    "date": "2026-06-04",
-    "id": "17805971589742"
-  },
-  {
-    "title": "AI 驱动原生 Mac 应用开发复兴",
-    "summary": "AI 辅助编程 rejuvenated Mac 开发，独立开发者纷纷回归原生框架。",
-    "detail": "Daring Fireball 引用 Jason Snell 观点指出，AI 辅助编程正在复兴 Mac 原生应用开发。过去几年 Mac 开发曾显停滞，但现在独立开发者利用 AI 工具构建专注于 Mac 平台的原生应用。如果我能梦想一个应用，就可能构建它。AI 降低了开发门槛，使得非专业开发者也能参与。这对 Mac 平台未来至关重要，解决了新应用非原生的问题，标志着 AI 技术正在重塑桌面开发生态，为独立开发者带来新机遇。",
-    "tags": [
-      "Dev",
-      "Mac",
-      "Trend"
-    ],
-    "link": "https://daringfireball.net/linked/2026/06/04/the-ai-driven-resurgence-of-mac-app-development",
-    "date": "2026-06-04",
-    "id": "17805971589743"
   }
 ]
