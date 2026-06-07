@@ -1,5 +1,70 @@
 [
   {
+    "title": "Notion 恢复 Anthropic 服务访问",
+    "summary": "Notion 在服务中断后恢复了对 Anthropic API 的访问，确保用户 AI 功能正常使用。",
+    "detail": "Notion 正式宣布在服务中断后恢复与 Anthropic 的 API 集成。此次中断曾导致依赖 Claude 模型的 Notion AI 功能不可用，影响了大量企业用户的工作流。恢复访问表明双方在基础设施稳定性上进行了紧急修复与协调。对于依赖 Notion 进行知识管理和 AI 写作的团队而言，此次事件的快速解决至关重要，避免了业务长时间停滞，同时也凸显了 SaaS 平台对第三方 AI 模型依赖的风险。",
+    "tags": [
+      "News",
+      "SaaS",
+      "Integration"
+    ],
+    "link": "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/",
+    "date": "2026-06-07",
+    "id": "17808556257280"
+  },
+  {
+    "title": "Snap 推出内部 AI 代码审查工具 CodePal",
+    "summary": "为应对 AI 生成代码导致的 PR 激增，Snap 开发了内部工具 CodePal 自动审查代码。",
+    "detail": "Snap 工程团队发现 AI 编码工具使 PR 合并率上升 60%，但审查成为新瓶颈。为此他们构建了 CodePal，一个内部 AI 代码审查助手，目前覆盖 90% 的 PR。该系统旨在理解 Snap 内部工作流，提供快速反馈，减少人工审查负担。这反映了行业从\"AI 生成代码”向\"AI 审查代码”的转变趋势，解决了速度提升带来的技术债务风险。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Enterprise"
+    ],
+    "link": "https://eng.snap.com/codepal",
+    "date": "2026-06-07",
+    "id": "17808556257281"
+  },
+  {
+    "title": "AbTARS：具备自愈能力的自托管 AI 代理",
+    "summary": "开源项目 AbTARS 推出自托管 AI 代理，支持持久记忆与 5 层自愈机制。",
+    "detail": "AbTARS 是一个自托管 AI 代理桥接项目，连接 LLM 与 Telegram/Discord 等通讯工具。其核心特色包括持久化记忆、5 层自愈监督机制及点对点通信能力。项目强调数据隐私与零闲置成本，允许用户在本地硬件上运行全天候代理。适合关注数据主权、希望部署自主代理且不愿依赖云端服务的开发者尝试。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://github.com/aksika/abtars",
+    "date": "2026-06-07",
+    "id": "17808556257282"
+  },
+  {
+    "title": "Meta 巨型 AI 数据中心重塑路易斯安那州经济",
+    "summary": "Meta 在路易斯安那州建设全球最大 AI 设施，深刻影响当地政治与经济格局。",
+    "detail": "Bloomberg 报道 Meta 正在路易斯安那州建设全球最大的 AI 数据中心。该项目不仅涉及巨额基础设施投资，还深度卷入当地政治与文化。随着农业经济衰退，科技基础设施成为新的增长点。此举显示了大型科技公司对算力资源的疯狂争夺，以及 AI 基础设施向能源丰富地区转移的趋势，可能引发更多地区性经济结构变化。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Meta"
+    ],
+    "link": "https://www.bloomberg.com/features/2026-meta-facebook-ai-data-center-louisiana/",
+    "date": "2026-06-07",
+    "id": "17808556257283"
+  },
+  {
+    "title": "AgentCrew：基于 Markdown 的 AI 编码代理操作系统",
+    "summary": "新工具 AgentCrew 通过 Markdown 工作流协调 AI 代理团队，引入角色与审批机制。",
+    "detail": "AgentCrew 提出了一种基于 Markdown 的代理协作方法论，旨在解决单一大模型上下文局限性问题。它通过定义角色、剧本、技能交接和人工审批门，将 coding agent 转变为纪律严明的团队。该项目不替代 CI，而是为 AI 编码提供流程控制，适合需要多代理协作复杂任务的开发团队，提升代码质量与可信任度。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Workflow"
+    ],
+    "link": "https://github.com/mlguyYT/AgentCrew",
+    "date": "2026-06-07",
+    "id": "17808556257284"
+  },
+  {
     "title": "校园枪击幸存者起诉 AI 枪支检测公司失职",
     "summary": "AI 枪支检测系统未能识别武器，幸存者提起诉讼。",
     "detail": "该事件标志着 AI 安全领域面临重大法律挑战。幸存者指控检测系统未能识别武器，导致悲剧发生。这不仅关乎技术准确性，更涉及法律责任界定。行业需重新评估计算机视觉在关键安全场景的可靠性，建立更严格的测试标准与责任机制。此类诉讼可能引发监管收紧，迫使企业在部署高风险 AI 系统前进行更充分的验证。这为 AI 伦理委员会提供了实际案例，强调在追求效率的同时，必须将公共安全与系统鲁棒性置于首位，避免技术滥用或过度依赖带来的潜在社会风险与法律纠纷。",
@@ -1233,70 +1298,5 @@
     "link": "https://pypi.org/project/terradev-cli/",
     "date": "2026-06-05",
     "id": "17806895420051"
-  },
-  {
-    "title": "苹果硅片策略：端侧 AI 核心不变，芯片范围扩展",
-    "summary": "苹果硅片团队表示端侧 AI 策略未变，仅扩展支持芯片范围。",
-    "detail": "在 WWDC 前夕，苹果硅片高级产品经理 Doug Brooks 表示，苹果对端侧 AI 的赌注并未改变，变化的是支持该功能的芯片范围，从入门级 MacBook 到 M5 Max 工作站。苹果坚持“要构建伟大的 AI 设备，先要构建伟大的计算机”的理念。自 2017 年 A11 仿生芯片引入神经引擎以来，统一内存架构一直是设计基石。这表明苹果将继续深化硬件级 AI 集成，而非单纯依赖云端。与其他厂商在 Computex 上主张混合 AI 不同，苹果强调端侧算力的一致性，旨在为用户提供更隐私、低延迟的 AI 体验，巩固其硬件生态壁垒。",
-    "tags": [
-      "News",
-      "Apple",
-      "Hardware"
-    ],
-    "link": "https://tbreak.com/apple-silicon-on-device-ai-doug-brooks-wwdc/",
-    "date": "2026-06-05",
-    "id": "17806895420052"
-  },
-  {
-    "title": "NVIDIA DGX Spark GB10 大模型推理优化指南",
-    "summary": "GitHub 开源指南，详解如何在 DGX Spark 上优化 LLM 推理。",
-    "detail": "该 GitHub 仓库提供了基于 NVIDIA DGX Spark GB10 桌面超级计算机的 AI 模型推理指南。针对 Grace Blackwell 超级芯片，文档涵盖了 LLM、VLM 及扩散模型的运行与优化。支持 vLLM 框架，旨在帮助研究人员和本地工作站开发者最大化性能。包含基准测试和自主脚本，适合希望在本地部署高性能大模型的技术团队参考。仓库还提供了 NVIDIA 开发者论坛和 Spark Arena 排行榜链接，鼓励社区交流优化技巧。这对于希望在本地环境复现前沿模型性能的开发者的极具参考价值。",
-    "tags": [
-      "Dev",
-      "Nvidia",
-      "LLM"
-    ],
-    "link": "https://github.com/omnia-projetcs/spark-dgx",
-    "date": "2026-06-05",
-    "id": "17806895420053"
-  },
-  {
-    "title": "谷歌每月支付 9.2 亿美元租用 SpaceX 算力",
-    "summary": "谷歌与 SpaceX 达成协议，每月耗资 9.2 亿美元获取约 11 万 GPU。",
-    "detail": "据 TechCrunch 报道，谷歌将与 SpaceX 达成算力租赁协议，从 2026 年 10 月至 2029 年 6 月，每月支付 9.2 亿美元。谷歌将获得约 11 万块 NVIDIA GPU 及相关组件的使用权。此前 Anthropic 也与 SpaceX 签署了类似协议，金额更高。谷歌表示此举源于近期 AI 产品需求超出预期。这标志着科技巨头对算力资源的争夺进入新阶段，SpaceX 正成为关键的算力基础设施提供商。如此大规模的支出显示了 Google 维持其 AI 领先地位的决心，同时也反映了当前 AI 算力市场的供不应求状态。",
-    "tags": [
-      "News",
-      "Google",
-      "Infrastructure"
-    ],
-    "link": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
-    "date": "2026-06-05",
-    "id": "17806895420054"
-  },
-  {
-    "title": "英国要求谷歌允许出版商选择退出 AI 抓取",
-    "summary": "英国监管机构下令，谷歌需允许出版商拒绝 AI 数据抓取。",
-    "detail": "据 AP News 报道，英国监管机构下令谷歌必须允许出版商选择退出 AI 数据抓取。这一举措旨在保护内容创作者的权益，规范 AI 模型训练数据的来源。这是全球范围内针对 AI 版权和竞争监管的最新动态之一。谷歌可能需要调整其爬虫策略和数据使用政策，以符合英国当地的竞争法规。这对依赖网络数据训练大模型的公司具有警示意义，意味着未来数据合规成本可能上升。出版商将获得更多控制权，可能影响通用大模型的数据丰富度。",
-    "tags": [
-      "News",
-      "Regulation",
-      "Copyright"
-    ],
-    "link": "https://apnews.com/article/google-britain-ai-competition-regulation-ce2016a4519fbe234799e009bac8f120",
-    "date": "2026-06-05",
-    "id": "17806895420055"
-  },
-  {
-    "title": "员工抵抗的不是 AI 而是恐惧",
-    "summary": "FastCompany 分析称员工抵触 AI 实则是对未知的恐惧。",
-    "detail": "Fast Company 文章指出，员工表现出的 AI 抵触情绪，本质上是对失业和变化的恐惧，而非技术本身。随着 AI 工具在职场普及，员工担心自身价值被替代。文章建议企业应关注员工心理安全感，通过透明沟通和培训缓解焦虑。这一观点为企业管理者提供了新视角，即在部署 AI 时需兼顾组织文化和员工情绪管理，以确保技术落地顺畅。忽视员工恐惧可能导致生产力下降，而合理引导则能将 AI 转化为赋能工具，提升整体组织效率。",
-    "tags": [
-      "News",
-      "Workforce",
-      "Management"
-    ],
-    "link": "https://www.fastcompany.com/91541703/employees-arent-resisting-ai-theyre-resisting-fear-ai-employee-resistance",
-    "date": "2026-06-05",
-    "id": "17806895420056"
   }
 ]
