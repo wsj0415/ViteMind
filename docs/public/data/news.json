@@ -1,5 +1,83 @@
 [
   {
+    "title": "WinkTerm：共享 PTY 的开源 AI 终端协作工具",
+    "summary": "AI 直接在终端输入命令，而非仅建议，支持 SSH 与 Docker。",
+    "detail": "WinkTerm 是一款开源 AI 终端工具，区别于传统聊天机器人，它能与用户共享同一 PTY 会话，直接执行命令。支持 SSH、Docker 及自带 LLM，旨在成为真正的终端协作伙伴而非单纯的建议者，为开发者提供更深层的自动化集成体验，提升终端操作效率。",
+    "tags": [
+      "New",
+      "Dev",
+      "OpenSource"
+    ],
+    "link": "https://github.com/Cznorth/winkterm",
+    "date": "2026-06-07",
+    "id": "17808193350660"
+  },
+  {
+    "title": "行业观察：我们是否正接近新的 AI 寒冬？",
+    "summary": "市场情绪降温，意识到技术局限，adoption 不足可能是主因。",
+    "detail": "文章指出 AI 市场情绪正在转变，从最初的过度乐观转向认识到当前技术的局限性。作者认为并非技术停滞，而是采用率和技术扩散不足可能导致短暂的\"AI 寒冬\"。这被视为构建实际应用场景的最佳时期，建议开发者利用噪音减少的机会专注落地。",
+    "tags": [
+      "News",
+      "Industry",
+      "Analysis"
+    ],
+    "link": "https://adlrocha.substack.com/p/adlrocha-are-we-approaching-a-new",
+    "date": "2026-06-07",
+    "id": "17808193350661"
+  },
+  {
+    "title": "GitHub CPO 详解 AI 编码代理与开发者未来",
+    "summary": "宏观委托成为可能，AI 生成 PR 增多，重新定义开发者角色。",
+    "detail": "GitHub CPO Mario Rodriguez 访谈指出，2025 年底模型能力突破使得\"宏观委托\"成为可能。GitHub 正转向代理原生工程系统，面对 AI 生成代码带来的规模挑战，强调 Copilot 仍是副驾驶。未来开发者将更专注于创造而非效率，需适应 Agent 协作新模式。",
+    "tags": [
+      "News",
+      "Dev",
+      "GitHub"
+    ],
+    "link": "https://www.turingpost.com/p/mario-rodriguez-github-ai-coding-agents-copilot",
+    "date": "2026-06-07",
+    "id": "17808193350662"
+  },
+  {
+    "title": "论文：AI 代理如何消耗你的 Token 预算？",
+    "summary": "代理任务消耗 token 是代码聊天的 1000 倍，模型预测成本能力弱。",
+    "detail": "这篇 Arxiv 论文系统研究了代理编码任务中的 Token 消耗模式。发现代理任务消耗极高，输入 Token 主导成本，且不同模型效率差异巨大。前沿模型无法准确预测自身 Token 使用量，揭示了人类感知复杂度与代理实际计算努力之间的根本差距，影响经济性。",
+    "tags": [
+      "Dev",
+      "Research",
+      "LLM"
+    ],
+    "link": "https://arxiv.org/abs/2604.22750",
+    "date": "2026-06-07",
+    "id": "17808193350663"
+  },
+  {
+    "title": "SVAHNAR：用于运行 AI 代理的无服务器基础设施",
+    "summary": "15 分钟部署生产级代理，支持 YAML 配置与隔离 VM。",
+    "detail": "SVAHNAR 提供无服务器基础设施，旨在简化 AI 代理的部署生命周期。开发者可通过 YAML 声明式配置或可视化控制台构建代理，享受隔离 VM 运行环境、实时追踪及人机协作检查点，避免基础设施复杂性，快速实现生产级部署，支持切换 LLM 与 MCP 服务器。",
+    "tags": [
+      "New",
+      "Dev",
+      "Infrastructure"
+    ],
+    "link": "https://www.svahnar.com/",
+    "date": "2026-06-07",
+    "id": "17808193350664"
+  },
+  {
+    "title": "大西洋月刊：科学界正淹没于 AI 生成的垃圾内容",
+    "summary": "同行评审遭遇挑战，虚假引用泛滥，知识传播管道受阻。",
+    "detail": "《大西洋月刊》报道科学期刊正被 AI 生成的低质内容堵塞。教授在评审中发现虚假引用，表明\"幽灵引用\"问题已渗透至 respected 期刊。这揭示了同行评审体系面临的严峻挑战，AI 生成内容正在污染科学知识传播的管道，需引起学界高度重视并改进审查机制。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Science"
+    ],
+    "link": "https://www.theatlantic.com/science/2026/01/ai-slop-science-publishing/685704/",
+    "date": "2026-06-07",
+    "id": "17808193350665"
+  },
+  {
     "title": "Substack CEO 斥责公开信为 AI Slop，平台内容政策趋严",
     "summary": "Substack CEO 斥责公开信为 AI slop，凸显平台对 AI 内容态度强硬。",
     "detail": "Substack CEO Chris Best 公开斥责一封关于平台漂移的公开信为\"AI slop\"，引发社区热议。此举表明平台方对低质量 AI 生成内容的容忍度降低，可能推动更严格的内容标识政策。事件凸显了创作者经济与 AI 内容泛滥之间的深层冲突，未来平台可能加强对 AI 辅助写作的审核机制，影响创作者的变现路径及读者信任度。对于依赖 Substack 的创作者而言，需警惕过度依赖 AI 导致的内容同质化风险。",
@@ -1220,83 +1298,5 @@
     "link": "https://restofworld.org/2026/scarcity-is-driving-ai-innovation-outside-silicon-valley/",
     "date": "2026-06-04",
     "id": "17807169325700"
-  },
-  {
-    "title": "构建 AI 神经科学：从原子到比特",
-    "summary": "探讨利用 AI 科学家代理加速神经科学研究与疾病治疗。",
-    "detail": "Amaranth Foundation 文章探讨了如何利用\"AI 科学家”代理加速神经科学研究。通过让 AI 系统阅读文献、生成假设、设计实验，有望大幅缩短理解智力及治疗神经退行性疾病的过程。这是对 Dario Amodei“数据中心天才之国”构想的具体实施路径分析，强调了 AI for Science 在生物医学领域的潜力。文章指出，虽然目标宏大，但需优先构建能从原子到比特映射的 AI 系统，资助者应关注此类基础设施投资，以推动科学发现自动化。",
-    "tags": [
-      "Dev",
-      "Research",
-      "AI for Science"
-    ],
-    "link": "https://blog.amaranth.foundation/p/building-ai-neuroscience-from-atoms",
-    "date": "2026-06-04",
-    "id": "17806368474272"
-  },
-  {
-    "title": "agentgateway 加入 AAIF 成为开源代理网关",
-    "summary": "Linux 基金会旗下项目，统一 manages AI 代理与基础设施流量。",
-    "detail": "agentgateway 正式加入 Agentic AI Foundation (AAIF)，成为 Linux 基金会托管项目。它是一个专为 AI 和代理工作负载设计的统一网关控制平面，支持 MCP、A2A、LLM 推理等流量管理。该项目旨在解决代理系统在治理、可观测性和安全方面的基础设施挑战，为平台团队提供熟悉的操作原语来管理 AI 流量。随着 AI 系统趋向分布式，传统 Web 基础设施模式已不足够，agentgateway 提供了开源的 Apache 2.0 解决方案，统一管理 AI 与传统应用流量。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "Open Source"
-    ],
-    "link": "https://aaif.io/blog/agentgateway-joins-aaif-as-an-open-gateway-for-agentic-ai-infrastructure/",
-    "date": "2026-06-04",
-    "id": "17806368474274"
-  },
-  {
-    "title": "Anthropic 呼吁全球暂停 AI 开发",
-    "summary": "WSJ 报道 Anthropic 主张放缓 AI 发展速度以确保安全。",
-    "detail": "据华尔街日报报道，AI 安全巨头 Anthropic 呼吁全球暂停或放缓 AI 开发速度。这一主张反映了行业领先者对当前 AI 发展速度可能超越安全管控能力的担忧。此举可能在业界引发关于监管、安全标准与竞争平衡的激烈讨论，标志着 AI 安全政策从理论探讨走向实质性的行业倡议。在 OpenAI、xAI 等竞争对手加速扩张的背景下，Anthropic 此举试图确立安全优先的行业规范，可能影响未来投资流向及政府监管政策制定。",
-    "tags": [
-      "News",
-      "Safety",
-      "Policy"
-    ],
-    "link": "https://www.wsj.com/finance/investing/anthropic-calls-for-global-slowdown-in-ai-development-4f2134f6",
-    "date": "2026-06-04",
-    "id": "17806368474275"
-  },
-  {
-    "title": "工程师实战：如何用 AI 交付真实产品而非 Demo",
-    "summary": "分享利用 AI 构建棒球管理应用的实战经验，拒绝空谈。",
-    "detail": "作者通过构建 CalledUp 棒球管理应用，探讨了工程师如何利用 AI 交付真实产品而非周末 Demo。面对阵容调整等复杂逻辑，文章强调避免“氛围编码”，指出 AI 生成代码在遇到真实用户行为时容易崩溃。核心在于将 AI 作为辅助工具处理逻辑和样板代码，而非完全依赖其架构设计。这对独立开发者具有极高参考价值，强调了工程纪律在 AI 时代的重要性，确保产品稳定性与可维护性，避免技术债务。",
-    "tags": [
-      "Dev",
-      "Engineering",
-      "AI Agent"
-    ],
-    "link": "https://mckerlie.com/posts/building-calledup-using-ai-to-ship-a-real-product-without-losing-the-plot/",
-    "date": "2026-06-04",
-    "id": "17806182499800"
-  },
-  {
-    "title": "新型光芯片突破：加速 AI 与量子计算",
-    "summary": "莫纳什大学研发原子级薄芯片，利用光量子属性提升算力。",
-    "detail": "莫纳什大学科学家开发出新型光芯片，能在单一设备中生成、操控和读取光信息。该技术利用原子级薄材料和纳米结构控制光的“谷”自由度，实现信息新编码方式。这一突破标志着向超快、能效计算迈进的重大一步，有望显著加速 AI 训练及量子计算发展，解决传统电子芯片的能耗瓶颈。未来可能广泛应用于数据中心，降低算力成本，为下一代 AI 模型提供硬件基础，推动科学计算边界。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Quantum"
-    ],
-    "link": "https://www.sciencedaily.com/releases/2026/06/260601025343.htm",
-    "date": "2026-06-04",
-    "id": "17806182499801"
-  },
-  {
-    "title": "韩国新规：论坛需用 AI 扫描所有用户上传图像",
-    "summary": "7 月 1 日起实施，网站主需自购 GPU 运行 AI 审查工具。",
-    "detail": "韩国政府修订电信事业法，要求网络社区从 7 月 1 日起使用 AI 扫描所有用户上传的图像和视频。硬件成本由网站所有者自行承担，需购买数据中心级 Nvidia GPU，给中小企业带来巨大财务压力。此举旨在防止非法内容传播，但在隐私与表达自由间引发争议，且设备供应链紧张可能导致合规困难。社区所有者批评政策不合理，认为政府未提供技术支持却设定了严苛的硬件标准。",
-    "tags": [
-      "News",
-      "Policy",
-      "Safety"
-    ],
-    "link": "https://discuss.privacyguides.net/t/south-korean-online-communities-will-need-to-scan-every-images-with-ai-censorship-tools/38341",
-    "date": "2026-06-04",
-    "id": "17806182499802"
   }
 ]
