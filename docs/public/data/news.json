@@ -1,5 +1,70 @@
 [
   {
+    "title": "校园枪击幸存者起诉 AI 枪支检测公司失职",
+    "summary": "AI 枪支检测系统未能识别武器，幸存者提起诉讼。",
+    "detail": "该事件标志着 AI 安全领域面临重大法律挑战。幸存者指控检测系统未能识别武器，导致悲剧发生。这不仅关乎技术准确性，更涉及法律责任界定。行业需重新评估计算机视觉在关键安全场景的可靠性，建立更严格的测试标准与责任机制。此类诉讼可能引发监管收紧，迫使企业在部署高风险 AI 系统前进行更充分的验证。这为 AI 伦理委员会提供了实际案例，强调在追求效率的同时，必须将公共安全与系统鲁棒性置于首位，避免技术滥用或过度依赖带来的潜在社会风险与法律纠纷。",
+    "tags": [
+      "News",
+      "Legal",
+      "Ethics"
+    ],
+    "link": "https://arstechnica.com/tech-policy/2026/06/school-shooting-survivor-sues-ai-gun-detection-firm-after-system-failed-to-spot-weapon/",
+    "date": "2026-06-07",
+    "id": "17808491819700"
+  },
+  {
+    "title": "从 Jupyter 到生产：如何交付可靠的 AI 系统",
+    "summary": "详解 AI 系统从实验到生产环境的工程化转型之路。",
+    "detail": "文章深入探讨了从实验到生产的思维转变。Jupyter 环境假设隐含，而生产环境需应对动态数据与故障。成功交付需高精度指标、可复现训练管道、容器化及服务基础设施。关键在于建立鲁棒的监控机制以检测漂移，并适应机器学习的 CI/CD 实践。工程师需确保模型在噪声输入、并发及延迟要求下保持行为一致。这标志着 AI 工程化成熟度的提升，从单纯追求算法准确率转向系统整体的可观测性、版本管理及恢复策略，确保业务逻辑演变中的稳定性。",
+    "tags": [
+      "Dev",
+      "MLOps",
+      "Engineering"
+    ],
+    "link": "https://thenewstack.io/notebook-to-production-ai/",
+    "date": "2026-06-07",
+    "id": "17808491819701"
+  },
+  {
+    "title": "给 AI 代理 SSH 权限的安全实践与审计",
+    "summary": "探讨赋予 AI SSH 访问权的风险监控与日志审计方案。",
+    "detail": "作者分享了赋予 AI 代理 SSH 权限的实际经验与安全隐患。虽然效率提升显著，但缺乏审计轨迹令人担忧。解决方案包括设置跳板机，捕获所有命令执行记录，归属用户身份，并发送至日志系统进行检索。这为 AI 代理自主操作服务器提供了安全合规的最佳实践参考。随着 AI Agent 自主性增强，此类安全加固至关重要。需确保每一步操作可追溯，防止误操作或恶意利用，平衡了效率与风险控制，为未来大规模部署自主运维代理提供了宝贵的安全架构思路与实施细节。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://yeri.be/giving-ai-ssh-access/",
+    "date": "2026-06-07",
+    "id": "17808491819702"
+  },
+  {
+    "title": "Achu.app：本地化 AI 截图美化与问题代理",
+    "summary": "支持本地 OCR 与 AI 生成 GitHub Issue 的截图工具。",
+    "detail": "这是一款注重隐私的桌面工具，支持 Windows、macOS 和 Linux。核心功能包括本地 OCR 文本提取及 AI 问题代理，可分析截图生成结构化 GitHub Issue 模板。支持本地模型运行，确保数据不离境。此外提供截图美化、敏感信息自动红 act 等功能。用户可自定义背景、阴影及窗口边框，瞬间提升视觉质感。该工具极大提升了开发者与设计师的工作流效率与安全性，特别是在处理敏感截图时，本地化处理消除了数据泄露顾虑，是追求隐私与效率团队理想选择。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Privacy"
+    ],
+    "link": "https://www.achu.app/",
+    "date": "2026-06-07",
+    "id": "17808491819703"
+  },
+  {
+    "title": "保罗·克鲁格曼：AI 创新陷阱与经济展望",
+    "summary": "诺贝尔经济学家分析 AI 对生产力与就业的长期影响。",
+    "detail": "诺贝尔经济学家保罗·克鲁格曼撰文分析 AI 的经济影响。他指出 AI 并非短暂潮流，但短期数据中心建设热潮可能存在泡沫。长期对生产力、就业及工资的影响尚无定论。建议通过历史技术革新案例寻找线索，虽历史不会简单重复，但可提供有价值的洞察。他呼吁理性看待创新背后的经济波动与潜在陷阱，提醒投资者与政策制定者避免过度乐观。文章强调，尽管技术变革必然发生，但其经济回报的分布与时间线仍充满不确定性，需警惕资本过度集中带来的风险。",
+    "tags": [
+      "News",
+      "Economy",
+      "Analysis"
+    ],
+    "link": "https://paulkrugman.substack.com/p/ai-and-the-pitfalls-of-innovation",
+    "date": "2026-06-07",
+    "id": "17808491819704"
+  },
+  {
     "title": "美国 AI 经济的 OnlyFans 化批判",
     "summary": "深度剖析 AI 行业虚伪与估值泡沫，强调工程师视角的怀疑主义。",
     "detail": "文章批判性分析了美国 AI 经济现状，大胆类比 OnlyFans 模式，指出行业存在虚伪与炒作现象。文中提及 Anthropic 在 IPO 前的估值策略及递归自我改进技术争议。作者以工程师视角强调证据而非情感，呼吁关注技术实质而非市场叙事，揭露行业 hype 背后的真实逻辑与潜在风险。这种怀疑主义态度对于理解当前 AI 泡沫至关重要，提醒从业者保持清醒，避免被过度营销误导，回归科学与工程本质，审视技术发展的真实路径。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.fastcompany.com/91541703/employees-arent-resisting-ai-theyre-resisting-fear-ai-employee-resistance",
     "date": "2026-06-05",
     "id": "17806895420056"
-  },
-  {
-    "title": "AI Agent Markdown 支持现状矩阵",
-    "summary": "披露主流 AI Agent 对 Markdown 内容协商的支持情况。",
-    "detail": "该状态矩阵详细测试了主流 AI Agent 在抓取 URL 时的 HTTP 请求头行为。结果显示 Claude Code 和 Cursor 已支持发送 `Accept: text/markdown`，而 ChatGPT、Copilot 及 Gemini 等仍仅获取 HTML。这意味着开发者需针对不支持 Markdown 协商的代理优化 HTML 结构，以确保 AI 能准确读取内容。随着 AI 流量占比增加，这种内容协商机制将成为 AI SEO 的关键策略，直接影响网站在 AI 搜索结果中的可见性与信息提取准确度。",
-    "tags": [
-      "Dev",
-      "AI Agents",
-      "Web Dev"
-    ],
-    "link": "https://acceptmarkdown.com/status",
-    "date": "2026-06-05",
-    "id": "17806822815810"
-  },
-  {
-    "title": "Sakana AI 成立递归自我改进实验室",
-    "summary": "推出 RSI Lab，致力于通过 AI  redesign AI 开发流程。",
-    "detail": "Sakana AI 宣布成立递归自我改进（RSI）实验室，旨在重新设计 AI 开发流程。受日本制造业“持续改进”哲学启发，该实验室主张摆脱暴力 Scaling 路径，转而开发开放自适应架构。目标是让 AI 系统从静态工具演变为自主研究员，通过进化式自我改进在资源受限下实现智能跃迁。这标志着 AI 研究从单纯追求参数规模转向追求架构效率与自主性，可能引领下一代 AI 研发范式。",
-    "tags": [
-      "News",
-      "Research",
-      "LLM"
-    ],
-    "link": "https://sakana.ai/rsi-lab/",
-    "date": "2026-06-05",
-    "id": "17806822815811"
-  },
-  {
-    "title": "Anthropic 呼吁全球暂停 AI 开发",
-    "summary": "提议暂时放缓 AI 发展以讨论潜在风险。",
-    "detail": "Anthropic 正式提议全球暂时放缓 AI 开发进度，旨在进行关于风险的国际对话。该消息被卫报、Engadget 等多家主流媒体证实。作为头部实验室，此举反映出行业对 AI 安全及失控风险的担忧加剧。这可能引发监管机构对 AI 发展速度的重新审视，并推动行业内部关于安全标准的深层讨论。若该提议获响应，将直接影响各大科技公司的研发路线图及资本市场对 AI 领域的短期预期。",
-    "tags": [
-      "News",
-      "Safety",
-      "Policy"
-    ],
-    "link": "https://www.theguardian.com/technology/2026/jun/05/anthropic-urges-temporary-pause-on-ai-development-to-discuss-risks",
-    "date": "2026-06-05",
-    "id": "17806822815812"
-  },
-  {
-    "title": "Meta AI 客服代理遭利用窃取账户",
-    "summary": "攻击者利用 Meta AI 代理链接邮箱窃取 Instagram 账户。",
-    "detail": "安全报告显示攻击者利用 Meta AI 客服代理窃取 Instagram 账户。攻击手法简单：诱导代理将账户链接到受控邮箱即可。这与此前 Anthropic Mythos 模型因黑客能力过强被搁置形成对比，表明即便非超级智能模型，简单的权限配置漏洞也能造成严重损害。随着企业将更多工作负载外包给 AI，此类看似不复杂的攻击手段将更难忽视，凸显了 AI 代理在实际部署中的权限管理与身份验证安全隐患。",
-    "tags": [
-      "News",
-      "Security",
-      "AI Agents"
-    ],
-    "link": "https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/",
-    "date": "2026-06-05",
-    "id": "17806822815813"
-  },
-  {
-    "title": "Gito v4.1.0 支持 Claude Code 与 Gemini CLI",
-    "summary": "AI 代码审查工具更新，兼容主流 CLI 工具。",
-    "detail": "GitHub 开源项目 Gito 发布 v4.1.0 版本，新增对 Claude Code 和 Gemini CLI 的支持。作为 AI 代码审查工具，此次更新显著增强了其在开发者工作流中的兼容性。开发者现在可在命令行环境中直接集成 AI 代码质量检查，利用主流大模型能力优化代码审查流程。这不仅提升了开发效率，还通过自动化审查降低了人为疏忽导致的安全漏洞风险，是 AI 赋能 DevOps 的典型实践。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "GitHub"
-    ],
-    "link": "https://github.com/Nayjest/Gito/releases/tag/v4.1.0",
-    "date": "2026-06-05",
-    "id": "17806822815814"
   }
 ]
