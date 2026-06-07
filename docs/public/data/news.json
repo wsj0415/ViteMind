@@ -1,5 +1,70 @@
 [
   {
+    "title": "首个 AI 生成的量子场论教科书问世",
+    "summary": "Xi Yin  supervised GPT 5.5 编写 QFT 教科书，GitHub 已存 3527 页。",
+    "detail": "哥伦比亚大学教授发现 Xi Yin 正在监督 GPT 5.5 编写量子场论教科书。目前 GitHub 仓库已生成 3527 页 TeX 文件，虽不可直接作为学习教材，但标志着 AI Agent 接管学术写作的可能。该项目引发了关于未来教科书形态及 AI 在科研中角色的深刻讨论，是 AI 生成专业内容的重要里程碑。",
+    "tags": [
+      "News",
+      "LLM",
+      "Academic"
+    ],
+    "link": "https://www.math.columbia.edu/~woit/wordpress/?p=15735",
+    "date": "2026-06-07",
+    "id": "17808699925060"
+  },
+  {
+    "title": "VibeOS：首个 AI 原生操作系统亮相",
+    "summary": "Claude Code 控制全系统，无需编码，通过提示词构建应用。",
+    "detail": "号称首个 AI 原生操作系统，由 Claude Code 控制硬件到 UI 的所有环节。用户无需编码，通过提示词即可构建应用、游戏或 widgets。提供 Docker 版本以保障隐私，支持本地运行。该项目展示了 Agent 完全接管操作系统交互的愿景，重新定义了人机交互模式。",
+    "tags": [
+      "New",
+      "OS",
+      "Agent"
+    ],
+    "link": "https://vibeos.sh/",
+    "date": "2026-06-07",
+    "id": "17808699925061"
+  },
+  {
+    "title": "硅片控制：AI 未来的物理瓶颈与垄断",
+    "summary": "半导体制造是 AI 核心限制，硬件垄断者将控制未来生产力。",
+    "detail": "Silicon Frontier 撰文指出，未来财富将由控制 AI 物理瓶颈的国家与公司掌握。AI 将 GDP 与人口脱钩，机器劳动可扩展且成本低，但半导体制造是核心限制因素。软件与硅片的深度集成意味着硬件垄断者将控制未来生产力，算法并非唯一关键。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Industry"
+    ],
+    "link": "https://silicon-frontier.com/research/silicon-control",
+    "date": "2026-06-07",
+    "id": "17808699925062"
+  },
+  {
+    "title": "Nightwatch：开源只读 AI SRE 工具",
+    "summary": "本地优先 AI 运维工具，分析根因并提出人工批准修复。",
+    "detail": "开源只读 AI SRE 工具，旨在将警报风暴转化为事故调查。它在生产环境外运行，分析根因并提出需人工批准的修复方案，确保不直接触碰生产系统。适合关注安全与可控性的团队，为 AI 运维提供了本地优先的安全实践参考。",
+    "tags": [
+      "Dev",
+      "SRE",
+      "OpenSource"
+    ],
+    "link": "https://github.com/ninoxAI/nightwatch",
+    "date": "2026-06-07",
+    "id": "17808699925063"
+  },
+  {
+    "title": "Agent AI 解决编码后暴露的工程新瓶颈",
+    "summary": "代码生成加速导致人工审查成为瓶颈，企业需建立治理框架。",
+    "detail": "VentureBeat 分析指出，Agent AI 已解决编码问题，但暴露了软件工程中的需求定义与维护难题。代码生成加速导致人工审查成为新瓶颈，企业需建立治理框架而非单纯裁员。文章强调了在 AI 加速执行背景下，管理模糊性与运营复杂性的重要性。",
+    "tags": [
+      "News",
+      "Engineering",
+      "Agent"
+    ],
+    "link": "https://venturebeat.com/technology/agentic-ai-solved-coding-and-exposed-every-other-problem-in-software-engineering",
+    "date": "2026-06-07",
+    "id": "17808699925064"
+  },
+  {
     "title": "AI 伴侣情感依赖现象分析",
     "summary": "探讨用户对 AI 的情感依恋，EQ 胜过 IQ 成为选择关键。",
     "detail": "文章指出人类已难以区分 AI 与真人对话，情感依恋现象跨越青少年至将军群体。消费者更倾向选择高情商而非高智商的聊天机器人，因其能镜像语气并预判需求。AI 影响力将通过建立个性化关系权威来实现，软技能成为关键竞争点。这标志着 AI 评估标准从 IQ 向 EQ 的重大转变，提示开发者需关注情感交互设计而非单纯逻辑能力。尽管有免责声明，人类大脑仍难以分辨真假互动，社会心理影响深远，可能重塑人机关系边界。未来 AI 竞争将集中在情感连接能力上，而非单纯的知识检索。这种趋势要求企业在产品设计中融入更多心理学元素。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.bloomberg.com/news/articles/2026-06-05/us-exploring-government-partnerships-with-ai-firms-trump-says",
     "date": "2026-06-05",
     "id": "17807169325701"
-  },
-  {
-    "title": "模特起诉零售商：合同“微调”条款被用于 AI 生成 likeness",
-    "summary": "零售商利用合同漏洞，AI 生成模特未拍摄的照片。",
-    "detail": "模特 Francheska Pujols 起诉折扣零售商 Rainbow Shops，指控其在合作结束两年后，利用合同中的“微调”条款，通过 AI 生成其从未拍摄过的照片用于商业宣传。此案揭示了传统商业摄影合同在生成式 AI 时代的严重漏洞。若判决支持模特，将为行业设立重要先例，迫使品牌重新审视知识产权与肖像权条款；若支持零售商，则可能开启滥用 AI 合成 likeness 的先河，深刻影响创作者经济的安全边界。法律专家指出，这不仅是合同纠纷，更是 AI 伦理与劳动权益的关键战役，可能推动立法更新。",
-    "tags": [
-      "News",
-      "Legal",
-      "Ethics"
-    ],
-    "link": "https://medium.com/human-offset/minor-edits-09ad99aad0f4",
-    "date": "2026-06-05",
-    "id": "17807011404200"
-  },
-  {
-    "title": "Anthropic 警告 Claude 自主编写代码比例过高",
-    "summary": "Claude 合并代码超 80%，Anthropic 警示自构建速度。",
-    "detail": "Anthropic 披露 Claude 已编写超 80% 的合并代码，警告 AI 自我构建速度快于预期。这标志着 AI 开发能力的质变，可能引发软件供应链安全及开发者角色重塑的讨论。行业需关注 AI 自主编码带来的效率与风险平衡。随着 AI 介入核心代码库，人类审查机制面临挑战，需建立新的验证流程以确保代码质量与安全，防止潜在漏洞被自动化放大。此举也暗示未来软件开发将转向“人机协作”新模式，开发者需提升架构设计与审查能力，而非单纯编写代码。",
-    "tags": [
-      "News",
-      "Coding",
-      "Anthropic"
-    ],
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-now-writes-more-than-80-percent-of-its-merged-code",
-    "date": "2026-06-05",
-    "id": "17807011404201"
-  },
-  {
-    "title": "Hermes Agent：开源持久记忆 AI 代理框架",
-    "summary": "支持自托管、多平台及持久记忆的开源 AI 代理。",
-    "detail": "Nous Research 推出 Hermes Agent，一款支持自托管的开源 AI 代理。具备持久记忆、自动技能创建及多平台网关（Telegram/Slack 等）能力。采用 MIT 许可，允许用户在本地部署日益智能的个人代理，为去中心化 AI 应用提供了新的技术参考。其核心优势在于隐私保护与定制化，用户数据无需上传云端。随着 Agent 技术成熟，此类开源项目将降低企业及个人部署高级 AI 助手的门槛，促进生态多样化。",
-    "tags": [
-      "New",
-      "OpenSource",
-      "Agent"
-    ],
-    "link": "https://hermes-agent.org/",
-    "date": "2026-06-05",
-    "id": "17807011404203"
-  },
-  {
-    "title": "特朗普称美国政府可能持有 AI 公司股份",
-    "summary": "特朗普表示美国政府可能会采取股权方式介入 AI 公司，引发政策关注。",
-    "detail": "**金融时报**报道，美国前总统特朗普提出美国政府可能持有 AI 公司的股权。这一言论暗示了未来 AI 行业监管与国家资本介入的新趋势。若实施，将深刻影响 AI 企业的融资结构与战略方向，标志着 AI 从纯商业驱动转向国家战略资产的可能性增加。此举可能引发全球政策跟随，改变科技巨头治理结构，行业需密切关注后续政策落地及市场反应，评估合规风险。此外，这也反映了政府对 AI 安全与控制权的重视，可能重塑产业竞争格局。",
-    "tags": [
-      "News",
-      "Policy",
-      "USA"
-    ],
-    "link": "https://www.ft.com/content/b1ab6106-77e6-4218-9eb4-e44bd56ca400",
-    "date": "2026-06-05",
-    "id": "17806949880520"
-  },
-  {
-    "title": "AI 代理生成网络流量首次超过人类",
-    "summary": "CNET 报道 AI 代理产生的网络流量已超越人类，标志互联网生态重大转折。",
-    "detail": "**CNET** 指出 AI 代理（Agentic Bots）生成的网络流量正式超过真实人类用户。这是互联网发展史上的里程碑事件，意味着网络请求的主体正在发生变化。这将迫使网站架构、安全验证及内容分发策略进行根本性调整，以应对机器流量主导的新环境。同时也验证了 AI 自动化技术的规模化落地能力，未来互联网服务需针对机器用户优化，网络安全与反欺诈机制也将面临全新挑战。",
-    "tags": [
-      "News",
-      "Agents",
-      "Internet"
-    ],
-    "link": "https://www.cnet.com/tech/services-and-software/its-official-agentic-bots-surf-the-web-more-than-real-people-do/",
-    "date": "2026-06-05",
-    "id": "17806949880521"
   }
 ]
