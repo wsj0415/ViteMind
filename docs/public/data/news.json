@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 繁荣加剧反科技极端主义风险",
+    "summary": "卫报报道 AI 快速发展导致反科技极端主义情绪上升。",
+    "detail": "卫报深入探讨了 AI 技术迅猛发展背后的社会阴影。文章指出，AI 行业的狂热增长正在加剧反科技极端主义情绪，甚至引发暴力风险。这反映了公众对技术失控的深层焦虑，提示行业在追求速度时需关注社会伦理与安全治理，避免技术鸿沟演变为社会冲突。随着技术渗透率提高，社会反弹可能成为阻碍创新的关键因素，企业需建立更透明的沟通机制。",
+    "tags": [
+      "News",
+      "Social",
+      "Ethics"
+    ],
+    "link": "https://www.theguardian.com/technology/2026/jun/07/anti-ai-tech-extremism-violence",
+    "date": "2026-06-07",
+    "id": "17808286538020"
+  },
+  {
+    "title": "Her：Claude Code 会话审计工具",
+    "summary": "Hugging Face 推出新工具，分析 Claude Code 会话 trace 文件。",
+    "detail": "Hugging Face 社区推出名为\"Her\"的新工具，专为 Claude Code 用户设计。它能读取会话生成的 `.jsonl` trace 文件，用自然语言重构操作流程，标记高风险动作（如生产环境部署、Secrets 泄露）。工具还内置 Copilot 功能，可查询特定工具调用原因。这为开发者提供了透明的 Agent 行为审计能力，有助于优化 Context 预算和提升安全性。通过可视化分析，团队可快速定位 Agent 决策失误，降低生产环境风险，是 AI 编程工作流的重要补充工具。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "Claude"
+    ],
+    "link": "https://huggingface.co/blog/build-small-hackathon/her-blog",
+    "date": "2026-06-07",
+    "id": "17808286538021"
+  },
+  {
+    "title": "Redis 作者论 AI 自动化测试新范式",
+    "summary": "Antirez 撰文探讨 LLM 在软件 QA 和测试领域的应用潜力。",
+    "detail": "Redis 作者 Antirez 发表博文，认为虽然 AI 生成代码结构质量尚不如手写，但在软件 QA 和测试领域开启了自动化新范式。传统测试难以覆盖所有状态和视觉检查，而 LLM 可作为 QA 工程师执行手动测试流程。这标志着 AI 从辅助编码向保障软件质量延伸，为复杂系统的集成测试提供了更高效的解决方案，平衡质量与时间。尤其在视觉检查和状态覆盖上，AI 展现出超越传统脚本的灵活性，值得团队尝试。",
+    "tags": [
+      "Dev",
+      "Testing",
+      "LLM"
+    ],
+    "link": "https://antirez.com/news/168",
+    "date": "2026-06-07",
+    "id": "17808286538022"
+  },
+  {
+    "title": "AI 生成小说获文学奖引发伦理争议",
+    "summary": "一篇 AI 生成作品获奖，引发文学界对 AI 创作能力的讨论。",
+    "detail": "2026 年英联邦短篇小说奖加勒比地区奖项由一篇名为《The Serpent in the Grove》的作品获得，随后被读者指出具有明显 AI 生成特征（如重复句式、特定词汇）。Ethan Mollick 等专家确认其为 100% AI 生成。基金会正在审查。此事件引发了关于 AI 能否创作优秀短篇小说的伦理与艺术价值争论，凸显了 AI 介入创意领域的复杂性。奖项归属的争议可能推动文学界建立新的 AI 内容披露标准。",
+    "tags": [
+      "News",
+      "Art",
+      "Ethics"
+    ],
+    "link": "https://tumbleweedwords.com/ai-literary-prize-flash-fiction.html",
+    "date": "2026-06-07",
+    "id": "17808286538023"
+  },
+  {
+    "title": "Klarna CMO 打造 AI 分身供员工宣泄",
+    "summary": "Klarna 首席营销官创建 AI replica 供同事发泄不满。",
+    "detail": "Klarna CMO David Sandström 在预算削减期间，利用 ElevenLabs 技术创建了自己的 AI 分身，作为内部“宣泄机器”。员工可向 AI 表达不满，AI 被设定为友好且承担责任。此举旨在减少会议中的负面情绪，让团队聚焦未来。这展示了企业如何利用 AI 处理内部沟通与情绪管理，但也引发了关于真实性与管理的讨论。这种创新尝试为 HR 和管理层提供了处理组织摩擦的新思路。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Chatbot"
+    ],
+    "link": "https://www.businessinsider.com/klarna-cmo-built-ai-replica-himself-colleagues-vent-at-2026-5",
+    "date": "2026-06-07",
+    "id": "17808286538024"
+  },
+  {
     "title": "WinkTerm：共享 PTY 的开源 AI 终端协作工具",
     "summary": "AI 直接在终端输入命令，而非仅建议，支持 SSH 与 Docker。",
     "detail": "WinkTerm 是一款开源 AI 终端工具，区别于传统聊天机器人，它能与用户共享同一 PTY 会话，直接执行命令。支持 SSH、Docker 及自带 LLM，旨在成为真正的终端协作伙伴而非单纯的建议者，为开发者提供更深层的自动化集成体验，提升终端操作效率。",
@@ -1233,70 +1298,5 @@
     "link": "https://arxiv.org/abs/2606.03811",
     "date": "2026-06-05",
     "id": "17806533180984"
-  },
-  {
-    "title": "Lihn 推出面向自由职业者的 AI 获客代理",
-    "summary": "法国新工具 Lihn 助力自由职业者自动化 prospecting。",
-    "detail": "Lihn 是一款专为独立工作者设计的 AI 获客代理，月费低于 20 欧元。它能扫描市场、qualify 潜在客户并自动发送邮件，解决现有工具贵且复杂的问题。专注于法国数据合规，提供引导式服务，适合无销售团队的小微实体，降低获客门槛。体现了 AI 应用向垂直细分场景下沉的趋势。",
-    "tags": [
-      "New",
-      "Product",
-      "SaaS"
-    ],
-    "link": "https://lihn.fr/",
-    "date": "2026-06-05",
-    "id": "17806533180985"
-  },
-  {
-    "title": "前 OpenAI CTO Mira Murati 重返公众视野",
-    "summary": "Thinking Machines Lab CEO 展示新型交互模型，支持连续流处理。",
-    "detail": "前 OpenAI CTO、现 Thinking Machines Lab CEO Mira Murati 在接受彭博社采访时，首次公开预览了公司的“交互模型”。该技术不同于传统的 prompt-response 模式，旨在以 200 毫秒间隔处理连续的音频、文本和视频流。这标志着 AI 界面从 turn-based 向连续交互的根本性转变，可能影响未来多模态 Agent 的设计方向。她在离开 OpenAI 一年半后首次亮相，强调在竞争激烈的市场中需要发出声音，但谨慎避免透露过多细节。此次露面表明 Thinking Machines 已完成资本筹集和研究团队组建，准备推向市场。",
-    "tags": [
-      "News",
-      "LLM",
-      "Multimodal"
-    ],
-    "link": "https://techcrunch.com/2026/06/04/mira-murati-steps-back-into-the-spotlight-carefully/",
-    "date": "2026-06-05",
-    "id": "17806368474270"
-  },
-  {
-    "title": "Stateflow Labs 发布 AI 运行时状态管理 SDK",
-    "summary": "开源工具解决 AI 自动化脚本在生产环境中的状态丢失问题。",
-    "detail": "Stateflow Labs 推出了两个开源 Python SDK（ALGOgent Runtime 和 Adaptive Runtime），旨在解决 AI 系统在生产环境中的运行时问题。核心功能包括状态持久化、检查点恢复和重试逻辑，无需外部服务或 GPU。这对于构建高可靠性的 AI Agent 和自动化流水线具有重要的工程实践价值，强调失败是不可避免的且需可控恢复。项目基于 MIT 许可，支持 Python 3.10+，允许开发者在不依赖云锁定的情况下构建容错系统，解决了 Agent 记忆丢失的关键痛点。",
-    "tags": [
-      "Dev",
-      "Python",
-      "Infrastructure"
-    ],
-    "link": "https://stateflow-dev.github.io/stateflowlabs/",
-    "date": "2026-06-05",
-    "id": "17806368474273"
-  },
-  {
-    "title": "分析报告：AI 引发的大规模裁员趋势",
-    "summary": "博客文章分析指出，自 2024 年起 AI 已成为企业大规模裁员的主要理由之一。",
-    "detail": "文章回顾了自 2024 年以来 AI 导致的大规模裁员现象。起初公司因经济压力裁员并标榜\"AI 驱动”，如今 AI 已成为裁员的实际驱动力。分析指出，投资者要求效率提升，企业希望通过 AI 减少人力成本。然而，部分裁员后被证明是过度反应，导致后续清理工作增加。这反映了 AI 在劳动力市场的实际渗透率及企业对技术替代人力的真实态度。随着预算紧张，公司想要看起来\"AI-driven\"，但实际效果参差不齐。该现象揭示了 AI 技术在企业转型中的双刃剑效应，既带来效率预期，也引发就业结构动荡，需警惕过度炒作带来的负面后果。",
-    "tags": [
-      "News",
-      "Employment",
-      "Economy"
-    ],
-    "link": "https://olegdubovoi.com/thoughts/2026-06-04-mass-layoffs-caused-by-ai/",
-    "date": "2026-06-04",
-    "id": "17807872663043"
-  },
-  {
-    "title": "资源稀缺推动硅谷外 AI 基础设施创新",
-    "summary": "算力与能源成本上升，迫使 AI 基建向硅谷以外地区转移。",
-    "detail": "传统 AI 基建依赖硅谷集中式云设施，但随着算力成本、能耗及供应链风险增加，开发者开始寻求替代方案。文章指出亚马逊、微软和谷歌垄断了大部分云支出，但能源压力和数据主权问题正推动创新向外部扩散。这标志着 AI 基础设施去中心化的趋势开始显现。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Cloud"
-    ],
-    "link": "https://restofworld.org/2026/scarcity-is-driving-ai-innovation-outside-silicon-valley/",
-    "date": "2026-06-04",
-    "id": "17807169325700"
   }
 ]
