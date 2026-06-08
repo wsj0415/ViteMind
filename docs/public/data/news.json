@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 掩盖美国“后识字”劳动力危机",
+    "summary": "AI 工具掩盖了员工低识字率问题，引发经济隐患。",
+    "detail": "Axios 报道指出，AI 工具让功能识字率低的员工也能完成任务，掩盖了技能缺口。专家警告这可能导致“认知投降”，一旦需要独立判断将暴露脆弱性。约 1.3 亿美国成年人阅读水平低于六年级，4300 万人无法进行三年级以上读写。低识字率正成为经济拖累。AI 表面提高生产力，实则增加长期 disruption 风险。企业需警惕过度依赖 AI 掩盖员工真实能力，避免在关键决策时刻出现系统性失效。这对人力资源培训和 AI 部署策略提出了新挑战，表明 AI 不仅是工具，更是劳动力素质的掩体。",
+    "tags": [
+      "News",
+      "Workforce",
+      "Social Impact"
+    ],
+    "link": "https://www.axios.com/2026/06/08/ai-america-literacy",
+    "date": "2026-06-08",
+    "id": "17809303521520"
+  },
+  {
+    "title": "AI CostGuard：本地优先的 AI 代理成本安全层",
+    "summary": "防止 AI 代理成本失控、循环和预算超支的本地运行库。",
+    "detail": "这是一个本地优先的运行时安全层，专门包装 OpenAI 兼容客户端。能在 API 调用前本地估算成本，阻止预算超支、无限循环和重复提示。无需 SaaS 控制平面或云代理，提供 CLI 检查和本地仪表板。适合开发者在本地环境中严格控制 AI 代理支出，防止因配置错误导致的账单爆炸。它发射结构化事件，增强 Agent 运行的安全性与经济性，是构建可靠 AI 应用的基础设施层，特别适用于需要严格成本控制的 production 环境，确保代理不会因逻辑错误造成财务损失。",
+    "tags": [
+      "Dev",
+      "Cost Control",
+      "Agent"
+    ],
+    "link": "https://github.com/salimassili62-afk/ai-costguard",
+    "date": "2026-06-08",
+    "id": "17809303521521"
+  },
+  {
+    "title": "AgentTrust ID：AI 代理运行时授权 SDK 上线",
+    "summary": "提供 AI 代理每次动作的运行时授权与审计追踪。",
+    "detail": "针对 AI 代理动态决策特性，AgentTrust 提供基于动作边界的授权机制。支持 Python, JS, Go, Rust 等多种语言 SDK，包含风险路由管道和可撤销令牌。解决传统 API 密钥无法管控代理运行时行为的安全假设破裂问题。每次关键动作都经过预检，确保动作符合策略，提供审计追踪和紧急终止开关。平台已上线生产环境，保障企业级 Agent 部署安全，防止代理在未授权情况下执行删除或邮件发送等高风险操作，重塑机器间安全信任模型，为 Agent 经济提供身份层。",
+    "tags": [
+      "New",
+      "Security",
+      "Infrastructure"
+    ],
+    "link": "https://agenttrust.id/blog/agenttrust-id-is-live",
+    "date": "2026-06-08",
+    "id": "17809303521522"
+  },
+  {
+    "title": "GitHub Copilot 版 Anthropic 漏洞发现 harness 移植",
+    "summary": "将 Anthropic 的自主漏洞发现 harness 移植至 Copilot。",
+    "detail": "该项目将 Anthropic 的 Claude Code 漏洞发现 harness 适配到 GitHub Copilot CLI。保留自主扫描、验证和修补 C/C++ 内存安全 bug 的能力。包含交互式技能和沙盒管道，为开发者提供基于 Copilot 的安全扫描参考实现。展示了如何将高级 AI 安全研究转化为日常开发工具，提升代码库的内存安全性，降低人工审计成本。该项目基于 Apache-2.0 许可，保留了原始设计的沙盒隔离特性，确保扫描过程本身不会引入新的安全风险，是 AI 辅助安全运维的优秀案例，促进安全左移。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Copilot"
+    ],
+    "link": "https://github.com/davidreis97/defending-code-reference-harness-copilot",
+    "date": "2026-06-08",
+    "id": "17809303521523"
+  },
+  {
+    "title": "如何监控 AI 步骤的使用情况与性能",
+    "summary": "n8n 指南详解 AI 代理的行为可见性与运营监控。",
+    "detail": "文章区分了运营监控（uptime）与行为监控（输出内容）。指导开发者如何记录代理输出、暴露内存状态以符合合规性，并构建让利益相关者洞察代理决策的仪表板。填补传统监控空白，确保不仅系统运行正常，且代理决策符合预期。对于生产环境 AI 应用，这是建立信任和合规的关键步骤，防止代理行为偏离初衷。n8n 建议不仅跟踪 token 消耗，还要关注代理记忆状态和决策逻辑，这对于调试和优化 AI 工作流至关重要，是 AI 工程化成熟的标志，帮助团队理解代理黑盒。",
+    "tags": [
+      "Dev",
+      "Monitoring",
+      "Best Practice"
+    ],
+    "link": "https://blog.n8n.io/how-to-monitor-usage-and-performance-of-ai-steps/",
+    "date": "2026-06-08",
+    "id": "17809303521524"
+  },
+  {
     "title": "NeurIPS 2026 拒稿近两成 AI 生成论文",
     "summary": "NeurIPS 2026 立场论文轨道拒绝 18.4% 投稿，因 AI 生成内容过多。",
     "detail": "NeurIPS 2026 大会在立场论文轨道中严格执行人类撰写政策，要求 AI 仅用于编辑。通过与 Pangram 合作检测，最终 178 篇_submission_（占 18.4%）被直接拒稿，123 篇需补充人类参与证据。此举旨在维护同行评审系统的完整性，防止 AI 生成文本外部化验证成本。该政策对学术诚信设立新标杆，可能影响未来顶级会议的投稿规范，强调研究工作中人类核心贡献的重要性。",
@@ -1233,70 +1298,5 @@
     "link": "https://patentlyze.com/patent/microsoft-windows-ai-data-collection-toggle/",
     "date": "2026-06-06",
     "id": "17807453504742"
-  },
-  {
-    "title": "经济学家论 AI 裁员陷阱与 UBI 局限性",
-    "summary": "新论文指出 AI 裁员陷阱，认为 UBI 无法解决需求下降问题，建议征收自动化税。",
-    "detail": "针对最新论文《AI 裁员陷阱》，文章分析了自动化导致的经济悖论：企业节省成本但破坏消费者需求。作者指出普遍基本收入（UBI）无法完全解决此问题，因为支出消失会影响整体经济。论文建议通过皮古税（Pigouvian tax）对自动化征税。该内容深入探讨了 AI 对劳动力市场的宏观影响及政策应对的复杂性。",
-    "tags": [
-      "News",
-      "Economy",
-      "Policy"
-    ],
-    "link": "https://briefing.forwardfuture.ai/p/economists-just-proved-ubi-can-t-stop-ai-layoffs-here-s-what-they-actually-proved",
-    "date": "2026-06-06",
-    "id": "17807453504743"
-  },
-  {
-    "title": "英国银行遭 Claude 封禁后获 OpenAI 青睐",
-    "summary": "英国银行因网络安全无法使用 Claude Mythos，转获 OpenAI 提供替代 AI 解决方案。",
-    "detail": "据报道，部分英国银行因网络安全合规问题被禁止使用 Anthropic 的 Claude Mythos 工具。在此背景下，OpenAI 主动向这些金融机构提供 rival AI 解决方案。这一事件凸显了金融行业在采纳生成式 AI 时的合规挑战，以及大厂之间在 enterprise 市场的竞争态势。OpenAI 此举旨在填补市场空缺，强化其在金融领域的布局。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "OpenAI"
-    ],
-    "link": "https://www.bbc.com/news/articles/cm2p3j6lvn7o",
-    "date": "2026-06-06",
-    "id": "17807453504744"
-  },
-  {
-    "title": "社区质疑 Pearl AI 挖矿为虚假宣传",
-    "summary": "社区指控 Pearl 有用挖矿实为浪费算力，涉及 NVIDIA 等巨头。",
-    "detail": "Hacker News 社区热议 Pearl 项目的“有用工作量证明”（PoW）AI 挖矿，指控其为虚假宣传。文章指出该项目并未运行实际推理，而是伪装成 AI 计算的无用 PoW，旨在通过愚蠢和贪婪推高 GPU 价格。有间接证据表明 NVIDIA 和 Together AI 可能参与其中，后者利用 Pearl 利润补贴推理。若属实，这不仅是对 AI 算力资源的极大浪费，更是蛇油营销，将加剧硬件市场泡沫，损害开发者利益。社区呼吁警惕此类复活 GPU 挖矿热潮的行为，认为这是浪费算力、增加贪婪和提高价格的真实威胁，而非真正的技术创新。矿工在 Pearl 网络中并未运行实际推理，而是运行无用 PoW，导致更多浪费。",
-    "tags": [
-      "News",
-      "Mining",
-      "GPU"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48422809",
-    "date": "2026-06-06",
-    "id": "17807381161890"
-  },
-  {
-    "title": "多智能体协作框架 Peers 开源",
-    "summary": "新框架让多个 AI 代理互相审查代码，通过硬指标 gate 确保质量。",
-    "detail": "GitHub 开源项目 Peers 提出了一种多智能体协作编程框架。它驱动至少两个 AI CLI（如 Claude Code, Codex）作为合作对等体，实施“盲审”和“对抗性怀疑”机制。代码必须通过测试、覆盖率等硬指标 gate 才能被接受。这种模式旨在解决单代理循环的幻觉问题，提高代码生成的可靠性和安全性。项目支持无人值守运行、预算上限和容器沙盒安全。一个对等体实现，另一个盲审，对抗性怀疑者重新审计。在诊断中，Peers 构建了表达语言解释器，在 5 万个随机测试程序中实现零缺陷，捕捉到了验收套件从未探测到的边缘情况 bug，证明了多代理协作优于单代理循环。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Multi-Agent"
-    ],
-    "link": "https://github.com/c0decave/peers",
-    "date": "2026-06-06",
-    "id": "17807381161892"
-  },
-  {
-    "title": "Stack Overflow AI 插件模拟社区问答格式",
-    "summary": "新 VS Code 插件强制 AI 以 Stack Overflow 风格回答，提倡简洁。",
-    "detail": "一款名为 Stack Overflow AI 的 VS Code 扩展引发关注。它强制 AI 以 SO 线程格式（简短、多答案、一采纳）回答 coding 问题，而非长篇大论。创作者视其为对当前 AI 生成代码文化的艺术性抗议，旨在恢复人类协作的判断步骤，减少认知债务，提倡更 disciplined 的 AI 使用方式。SO 格式是简洁的强制函数，多个答案恢复了单一自信回复中丢失的判断步骤。扩展在侧边栏显示线程，实时研究日志显示 agent 读取文件。这不是为了解决问题，而是表达对 craft 发生变化的不适。我们感到为短期生产力生成代码的压力，导致更少的人类协作和 crafting 乐趣。",
-    "tags": [
-      "Dev",
-      "Tool",
-      "Community"
-    ],
-    "link": "https://marketplace.visualstudio.com/items?itemName=christianalfoni.stackoverflow-ai",
-    "date": "2026-06-06",
-    "id": "17807381161894"
   }
 ]
