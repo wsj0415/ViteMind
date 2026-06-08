@@ -1,5 +1,31 @@
 [
   {
+    "title": "金融时报：反对赋予 AI 代理法律人格",
+    "summary": "金融时报发文强调不应赋予 AI 代理法律人格，引发伦理与责任讨论。",
+    "detail": "金融时报发表社论，明确反对赋予 AI 代理法律人格。文章指出随着 AI 自主性增强，法律责任归属成为关键问题。赋予 AI 法律地位可能混淆责任主体，阻碍技术创新与监管。该观点反映了主流法律界对 AI 权利边界谨慎态度，为后续政策制定提供参考。此讨论在 AI 代理日益普及的背景下显得尤为关键。",
+    "tags": [
+      "News",
+      "Policy",
+      "Ethics"
+    ],
+    "link": "https://www.ft.com/content/b8cc4bf4-6d3c-4974-8428-9a091983c473",
+    "date": "2026-06-08",
+    "id": "17808981421740"
+  },
+  {
+    "title": "Avibe：本地优先的 AI Agent 操作系统",
+    "summary": "开源项目 Avibe 让用户在本地运行 AI 代理，支持手机远程访问。",
+    "detail": "Avibe 是一个本地优先的 Agent OS 开源项目，旨在让用户完全拥有自己的 AI 代理。它支持在本地机器上运行 Claude Code、Codex 等模型，并通过浏览器或聊天应用远程访问。采用 MIT 许可，基于 Python 开发，强调数据隐私与去中心化，避免被大型平台锁定，适合开发者构建个人化 AI 工作流。这是本地 AI 部署的重要实践。",
+    "tags": [
+      "New",
+      "Dev",
+      "OpenSource"
+    ],
+    "link": "https://github.com/avibe-bot/avibe",
+    "date": "2026-06-08",
+    "id": "17808981421743"
+  },
+  {
     "title": "AI Code Stitcher v1.74 发布：反代理式代码集成",
     "summary": "新版本支持智能代码粘贴与上下文匹配，强调开发者控制权。",
     "detail": "该工具旨在解决 AI 生成代码难以整合的问题。v1.74 版本新增自动更新检查及导入提升功能。其核心理念是“反代理”，拒绝黑盒操作，允许开发者将 Claude 或 Cursor 输出的代码智能匹配到现有代码库中，提供预览和撤销功能。适合需要精确控制代码变更的专业开发团队。相比全自动 Agent，它减少了不可控风险，提升了代码合并的安全性与效率，是当前 AI 编程工作流的重要补充工具。更新还包括无头模式 UI 改进，确保在非图形界面下也能高效工作，增强了对复杂项目结构的支持能力。",
@@ -754,6 +780,32 @@
     "id": "17807872663044"
   },
   {
+    "title": "美国拟推计划让民众持有 AI 股权",
+    "summary": "金融时报披露美国政府计划让美国人持有 AI 股权，共享技术红利。",
+    "detail": "金融时报报道了一项旨在让美国民众获得 AI 股权的计划。该提案试图解决 AI 发展带来的财富分配不均问题，让普通公民能分享技术经济增长的红利。具体实施机制尚未完全公开，但已引发关于经济公平与技术垄断的广泛讨论。这标志着 AI 治理从技术层面向社会经济层面的延伸，可能影响未来投资格局。",
+    "tags": [
+      "News",
+      "Economy",
+      "Policy"
+    ],
+    "link": "https://www.ft.com/content/8559a3f9-86de-4a1c-8a75-6623e83e6a00",
+    "date": "2026-06-06",
+    "id": "17808981421741"
+  },
+  {
+    "title": "圣地亚哥州立大学未告知学生部署 1300 个 AI 摄像头",
+    "summary": "该校在宿舍等区域秘密安装 AI 监控，具备人脸识别等功能。",
+    "detail": "圣地亚哥州立大学花费 130 万美元在校园内部署了 1300 多个 AI 摄像头，其中 330 个位于学生宿舍，且未事先告知学生。这些 Avigilon 设备具备人脸识别、行为分析等功能。消息由学生报纸通过公开记录请求揭露，引发隐私权与监控伦理的强烈争议。此事件凸显了教育机构在引入 AI 监控时的透明度缺失问题，警示隐私风险。",
+    "tags": [
+      "News",
+      "Surveillance",
+      "Ethics"
+    ],
+    "link": "https://reclaimthenet.org/sdsu-adds-1300-ai-cameras-330-in-student-dorms",
+    "date": "2026-06-06",
+    "id": "17808981421745"
+  },
+  {
     "title": "OpenAI 推出锁定模式防御提示注入攻击",
     "summary": "OpenAI 发布新功能保护敏感数据，降低提示注入风险。",
     "detail": "OpenAI 正式推出“锁定模式”（Lockdown Mode），旨在保护敏感数据免受提示注入攻击。尽管该模式不能完全消除 ChatGPT 的 vulnerability，但其核心目标是显著降低敏感信息在交互过程中被泄露的可能性。这一举措反映了 AI 安全领域的最新进展，表明头部厂商开始正视提示注入带来的企业级风险。对于依赖 LLM 处理 confidential 数据的企业而言，这是重要的安全补丁。行业需关注其实际防护效果及是否会影响模型灵活性，这标志着 AI 安全从理论讨论走向工程化落地阶段。未来可能成为企业级 API 的标准配置，推动安全合规性发展。此外，该功能的推出也可能引发竞争对手跟进，形成行业安全标准。开发者在集成时需评估其对响应速度的影响，平衡安全与体验。",
@@ -1246,57 +1298,5 @@
     "link": "https://thenewstack.io/torvalds-ai-programming-productivity/",
     "date": "2026-06-06",
     "id": "17807289905304"
-  },
-  {
-    "title": "Claude-tinderbox 本地对话归档工具",
-    "summary": "通过 MCP 本地搜索 Claude.ai 历史对话，支持混合检索。",
-    "detail": "开源项目允许用户导出 Claude 对话至本地，利用 Supabase 和 Ollama 建立嵌入索引。通过 MCP 服务器在任何 Claude 会话中搜索历史记录。强调“存储陈述而非事实”，保留来源 provenance。适合需要私有化记忆管理的重度 Claude 用户。该工具解决了云端对话难以检索的痛点，实现了本地化知识管理。混合检索机制提高了准确率，支持语义与全文搜索。对于注重隐私与数据主权的用户，这是管理 AI 交互历史的理想方案，增强了个人知识库的可控性。目前仅限 Apple Silicon Mac 用户，需自行配置环境。",
-    "tags": [
-      "New",
-      "Dev",
-      "MCP"
-    ],
-    "link": "https://github.com/luckyrmp/tinderbox-archive",
-    "date": "2026-06-06",
-    "id": "17807289905305"
-  },
-  {
-    "title": "AI 支出困境恐冲击 OpenAI 与 Anthropic",
-    "summary": "视频分析指出 AI 高昂支出问题，可能不利于头部大模型公司。",
-    "detail": "CNBC 视频讨论了 AI 行业当前的支出结构问题。虽然具体解决方案未详述，但标题明确指出当前的支出模式修复计划对 OpenAI 和 Anthropic 等依赖巨额融资的头部实验室并非利好。这反映了市场对 AI 商业化落地及盈利能力的担忧正在加剧。",
-    "tags": [
-      "News",
-      "LLM",
-      "Finance"
-    ],
-    "link": "https://www.youtube.com/watch?v=w1yB7ck36JA",
-    "date": "2026-06-06",
-    "id": "17807169325702"
-  },
-  {
-    "title": "Zedra：移动端 AI 编码 Agent 控制平面",
-    "summary": "基于 Rust 的移动端代码编辑器，可远程连接桌面运行 AI Agent。",
-    "detail": "Zedra 是一款移动端代码编辑器，直接连接桌面环境。它允许用户通过远程终端运行任何 AI 编码 Agent，支持代码编辑、Markdown 及 Git 视图。基于 Rust 和 GPUI 构建，采用 QUIC/UDP 点对点连接，无需端口转发。为开发者提供了真正的移动编码与 AI 协作体验。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Mobile"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48420833",
-    "date": "2026-06-06",
-    "id": "17807169325703"
-  },
-  {
-    "title": "Apple Contacts MCP：本地优先的联系人管理服务器",
-    "summary": "macOS 本地 MCP 服务器，安全搜索编辑 Apple 联系人。",
-    "detail": "这是一个本地优先的 MCP 服务器，旨在安全地搜索和编辑 macOS 上的 Apple 联系人。通过 AppleScript 自动化 Contacts.app，利用 macOS 隐私提示而非云凭证。默认写操作为干跑模式，需 explicit 确认。支持创建、更新、追加笔记等工具，适合构建隐私敏感的本地 AI 代理应用。",
-    "tags": [
-      "Dev",
-      "MCP",
-      "Privacy"
-    ],
-    "link": "https://github.com/lu-wo/apple-contacts-mcp",
-    "date": "2026-06-06",
-    "id": "17807169325704"
   }
 ]
