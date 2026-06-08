@@ -1,5 +1,70 @@
 [
   {
+    "title": "HPE 推出搭载 NVIDIA Vera CPU 的 Agentic AI 服务器",
+    "summary": "HPE 发布 Gen12 服务器，专为代理 AI 优化，纽交所已探索使用。",
+    "detail": "HPE 在 COMPUTEX 2026 宣布 ProLiant Compute DL394 Gen12，搭载 NVIDIA Vera CPU。该平台针对代理 AI 和数据密集型工作负载优化，提供高内存带宽和低延迟。领导层强调从生成式 AI 向代理 AI 的转变，系统需进行实时推理和自主决策。纽交所正探索将其用于代理 AI 基础设施，作为金融服务工作负载的早期验证点，声称效率比 x86 提升 2 倍。架构专注于内存带宽和延迟，旨在为大规模 AI 和实时数据处理环境提供基础计算平台，集成 HPE 企业管理和安全栈。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Agentic AI"
+    ],
+    "link": "https://www.storagereview.com/news/hpe-proliant-compute-dl394-gen12-brings-nvidia-vera-cpu-to-agentic-ai",
+    "date": "2026-06-08",
+    "id": "17809500389550"
+  },
+  {
+    "title": "苹果揭秘基于 Gemini 的新 AI 架构",
+    "summary": "苹果宣布新 AI 架构整合谷歌 Gemini 模型，引发行业关注。",
+    "detail": "根据 MacRumors 报道，苹果揭示了围绕 Google Gemini 模型构建的新 AI 架构。这一合作标志着科技巨头间 AI 策略的重大转变，可能影响未来 iOS 生态的智能体验。虽然具体技术细节未在提供的摘要中完全展开，但标题显示苹果正寻求外部模型集成以增强其 AI 能力。此举在行业内引发了广泛关注与讨论，HN 评论区已有相关热议，点数达到 51 点。这表明市场对苹果 AI 战略调整的高度敏感，可能重塑移动端 AI 竞争格局。",
+    "tags": [
+      "News",
+      "Apple",
+      "Gemini"
+    ],
+    "link": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+    "date": "2026-06-08",
+    "id": "17809500389551"
+  },
+  {
+    "title": "Lean 插件：让 Claude Code 减少 8 倍 Token 消耗",
+    "summary": "新插件教会 Claude 寻找 clever path，显著降低编码任务 Token 成本。",
+    "detail": "Lean 是一款 Claude Code 插件，旨在防止 AI 过度工程化。灵感来自精益制造，教导 AI 在工作前 pause 并寻找更聪明的捷径。它在 17 个基准测试中实现了中位数任务 Token 消耗减少 8 倍。项目强调“最好的 Token 是那些从未花费的”，解决 AI 代理浪费问题。正如 Steve Jobs 所言，伟大的工程师是懒惰的，他们寻找聪明的捷径。适合希望优化 API 支出并提高编码效率的开发团队使用，确保 AI 在努力工作前先确认是否能聪明工作。",
+    "tags": [
+      "Dev",
+      "Claude",
+      "Cost Optimization"
+    ],
+    "link": "https://github.com/albertobarnabo/lean",
+    "date": "2026-06-08",
+    "id": "17809500389552"
+  },
+  {
+    "title": "Guarden：基于 OPA 的 AI 代理动作授权工具",
+    "summary": "专注于 AI 代理行动边界的授权管理，解决代理执行风险。",
+    "detail": "Guarden 是一个概念验证项目，用于 AI 代理动作的授权管理。它在动作边界而非 SDK 层执行授权，解决了代理执行真实操作（如发送邮件、转账）时的安全风险。如果运行采取实际行动的代理，授权是风险集中点。模型选择做什么，你的工作是限制它允许做什么。项目包含安全模型和红队测试，为构建可信的自主 AI 系统提供了重要的安全边界参考。适用于需要严格权限控制的企业级部署，确保副作用通过安全路径到达。",
+    "tags": [
+      "Dev",
+      "Security",
+      "AI Agents"
+    ],
+    "link": "https://github.com/las7/Guarden",
+    "date": "2026-06-08",
+    "id": "17809500389553"
+  },
+  {
+    "title": "DebugDuck：本地 AI 驱动的桌面橡皮鸭调试工具",
+    "summary": "基于 Tauri 和 React 的本地 AI 桌面小部件，辅助开发者调试。",
+    "detail": "DebugDuck 是一款桌面橡皮鸭调试小部件，集成了本地 AI 能力。使用 Tauri v2、React 和 TypeScript 构建，旨在为开发者提供随时随地的调试伙伴。标语称“永远漂浮，永远评判你”。结合本地 AI 隐私优势与经典的橡皮鸭调试法，适合关注数据隐私的开发者日常使用。始终浮动在桌面提供即时反馈，无需云端交互，支持 Rust 和 Vite 技术栈，确保轻量级且高性能的桌面体验，让调试过程更具互动性。",
+    "tags": [
+      "New",
+      "DevTool",
+      "Local AI"
+    ],
+    "link": "https://github.com/CarlosVallejoRuiz/DebugDuck",
+    "date": "2026-06-08",
+    "id": "17809500389554"
+  },
+  {
     "title": "WWDC 2026 聚焦 AI：Siri 重生与 iOS 27 发布",
     "summary": "苹果 WWDC 2026 开幕，重点发布 Siri AI 及 iOS 27，投资者关注 AI 能否挽救 Siri。",
     "detail": "苹果 WWDC 2026 大会正式开幕，本届会议被视为 CEO 蒂姆·库克任内最后一次，备受瞩目。核心发布集中在 Siri AI 重构、iOS 27 及 Apple Intelligence 增强功能，旨在解决投资者关于 AI 能否挽救 Siri 的疑虑。大会展示了开发者演示及新 AI 应用生态，标志着苹果在端侧 AI 布局上的关键一步。此次更新可能重塑移动端 AI 交互标准，为开发者提供新的智能化工具链。本周将充满围绕 Siri 和 iOS 27 的预期公告，反映了科技巨头在生成式 AI 浪潮下的战略调整与竞争态势，行业正密切关注苹果如何通过 AI 整合维持其生态系统优势，以及这将如何影响全球智能手机市场的 AI 功能竞争格局。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.pathtostaff.com/p/unpacking-ai-the-hardware-behind",
     "date": "2026-06-06",
     "id": "17807592458733"
-  },
-  {
-    "title": "代理式 AI 产出激增但采用率持平",
-    "summary": "Jen Zhu 指出 Agentic AI 带来产出高峰，但用户采用率未增长。",
-    "detail": "投资人 Jen Zhu 在 X 平台指出，代理式 AI（Agentic AI）虽带来巨大的产出提升，但市场采用率完全持平。这揭示了当前 AI 行业的一个关键矛盾：技术能力供给过剩，但实际用户需求或落地场景并未同步扩张。这对专注于 Agent 开发的团队提出了关于产品市场匹配（PMF）的警示。产出增加并未转化为用户增长，说明体验或价值传递存在问题。行业需从堆砌功能转向解决真实痛点，避免陷入自嗨式的技术迭代循环。",
-    "tags": [
-      "News",
-      "Agentic AI",
-      "Market"
-    ],
-    "link": "https://twitter.com/jenzhuscott/status/2063032701087883647",
-    "date": "2026-06-06",
-    "id": "17807592458734"
-  },
-  {
-    "title": "Trackr Bar：macOS 本地 AI 使用追踪工具",
-    "summary": "一款隐私优先的 macOS 菜单栏应用，本地记录 AI 使用情况。",
-    "detail": "Trackr Bar 是一款专为 macOS 设计的本地活动追踪应用，专注于记录 AI 使用情况和工作流。采用一次性付费模式，数据完全本地存储，不提供团队监控功能。适合关注个人隐私且希望量化自身 AI 使用效率的独立开发者或知识工作者，解决了云端追踪的隐私顾虑。界面简洁，提供专注度评分。在 AI 工具泛滥的当下，此类辅助管理工具需求上升，帮助用户在享受 AI 便利的同时保持对工作节奏的掌控。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Privacy"
-    ],
-    "link": "https://www.trackr.bar/",
-    "date": "2026-06-06",
-    "id": "17807592458735"
-  },
-  {
-    "title": "特朗普团队考虑美国政府入股 AI 公司",
-    "summary": "特朗普表示团队将研究美国政府持有 AI 公司股份的可能性。",
-    "detail": "路透社报道，特朗普透露其团队正在探讨美国政府直接持有 AI 公司股份的方案。这一潜在政策转向标志着国家对 AI 战略资产干预的显著加强，引发行业对国有化风险及公私合作模式的广泛讨论。若实施，将根本性改变硅谷初创企业的融资生态，增加政府在关键技术决策中的话语权。行业观察家认为，此举旨在确保美国在全球 AI 竞赛中的主导地位，防止技术外流，但也可能因官僚主义抑制私人创新活力。市场需密切关注后续政策细则及国会反应，这将是 AI 行业监管史上的里程碑事件。",
-    "tags": [
-      "News",
-      "Policy",
-      "Government"
-    ],
-    "link": "https://www.reuters.com/business/trump-says-his-team-will-look-into-us-taking-stake-in-ai-companies-2026-06-05/",
-    "date": "2026-06-06",
-    "id": "17807535940100"
-  },
-  {
-    "title": "Meta 再次推迟向开发者发布新 AI 模型",
-    "summary": "华尔街日报独家报道 Meta 持续延迟新 AI 模型对开发者的开放。",
-    "detail": "据 WSJ 独家消息，Meta 多次推迟向开发者发布其最新 AI 模型。此举可能源于安全评估未达标或内部战略调整，深刻反映出大厂在模型开放与安全合规之间的艰难权衡。延迟发布可能影响开发者生态建设，使竞争对手有机会趁机抢占市场先机。Meta 面临来自内部安全团队与外部开发需求的双重压力，必须确保模型不被滥用。此次延期也暗示了下一代开源模型可能具备更强大的能力，因此审查更为严格。开发者社区对此表示失望，但普遍理解安全的重要性。预计 Meta 将在完成额外红队测试后重新公布时间表。",
-    "tags": [
-      "News",
-      "Meta",
-      "LLM"
-    ],
-    "link": "https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c",
-    "date": "2026-06-06",
-    "id": "17807535940101"
-  },
-  {
-    "title": "Hugging Face 推出 Persona Atlas 映射名人思维",
-    "summary": "新项目 Persona Atlas 利用小模型代理构建名人行为肖像。",
-    "detail": "Hugging Face 博客介绍 Persona Atlas 项目，通过小模型代理研究公开网络信息，将公众人物转化为可测量的行为肖像。该项目将思维风格嵌入空间映射，展示了小模型在特定任务上的潜力，为个性化 AI 交互提供新思路。用户可输入名字，代理生成档案并回答开放式问题，答案被嵌入以便比较。核心理念是个性主要是风格而非算力，因此小模型也能胜任。这为构建具有特定思维模式的 AI 代理提供了低成本方案，有助于研究不同思维模式的差异。项目代码开源，开发者可基于此构建垂直领域专家代理。此工具不仅用于娱乐，还可用于教育及心理研究，展示小模型在特定场景下的价值。",
-    "tags": [
-      "Dev",
-      "Hugging Face",
-      "Agent"
-    ],
-    "link": "https://huggingface.co/blog/build-small-hackathon/persona-atlas",
-    "date": "2026-06-06",
-    "id": "17807535940102"
   }
 ]
