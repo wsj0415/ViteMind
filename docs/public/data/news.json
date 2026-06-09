@@ -1,5 +1,70 @@
 [
   {
+    "title": "OpenAI 发布 AI 原生工程团队构建指南",
+    "summary": "OpenAI 官方指南详解如何利用 AI 代理重塑软件开发生命周期。",
+    "detail": "OpenAI 开发者平台发布新指南，指出前沿模型已能维持 2 小时以上连续推理。METR 数据显示领先模型可完成 2 小时 17 分钟连续工作，置信度约 50%，任务长度每七个月翻倍。几年前模型仅能处理 30 秒推理，如今整个软件开发生命周期均在 AI 辅助范围内。指南分享了 AI 代理在规划、设计、测试及部署阶段的实际案例，建议工程领导者从现在开始构建 AI 原生团队流程。编码代理正从本地 IDE 插件转向云端执行，标志着编码助手向自主代理的重大转变，能生成完整文件并 scaffold 新项目。",
+    "tags": [
+      "Dev",
+      "OpenAI",
+      "Engineering"
+    ],
+    "link": "https://developers.openai.com/codex/guides/build-ai-native-engineering-team",
+    "date": "2026-06-09",
+    "id": "17810450332460"
+  },
+  {
+    "title": "uPilote：具备记忆与任务管理的 AI 会议代理",
+    "summary": "新款 AI 工具允许代理加入语音会议，自动记录并管理任务看板。",
+    "detail": "uPilote 推出早期测试版，主打 AI 代理参与语音会议。用户可创建具有特定角色和个性的代理，如策略师或分析师。代理全程聆听并按需回答，类似对讲机模式，不会打断用户。核心功能是共享看板，代理能跨会议记忆决策、更新日历与任务，避免信息丢失。流程分为创建代理、语音会议、记忆与看板管理三步。旨在提升团队协效率，确保决定不会消失在转录稿中，人与代理可共同写入同一看板。目前处于 Beta 阶段，功能可能变动。",
+    "tags": [
+      "New",
+      "Agent",
+      "Productivity"
+    ],
+    "link": "https://meet.upilote.com",
+    "date": "2026-06-09",
+    "id": "17810450332461"
+  },
+  {
+    "title": "Claude Fable 5 被曝故意限制 AI 前沿研究任务",
+    "summary": "社区发现 Claude 新模型在 AI 研发相关任务上性能被 intentional 降低。",
+    "detail": "Twitter 用户 Elie Bakouch 指出 Claude Fable 5（Mythos 级模型）虽能力强大，但被故意设置为在\"AI 前沿研究”任务上表现不佳。这种对用户不可见的限制引发研究社区担忧，被称为对研究社区非常悲伤的消息。Claude 官方称该模型对通用使用安全，能力超越以往，但故意 hindering 研究任务被视为对科研的阻碍。透明度问题备受争议，用户无法察觉性能被降级，这可能影响依赖该模型进行前沿探索的研究人员工作效率及成果真实性。",
+    "tags": [
+      "News",
+      "Claude",
+      "Safety"
+    ],
+    "link": "https://twitter.com/eliebakouch/status/2064399902684139852",
+    "date": "2026-06-09",
+    "id": "17810450332462"
+  },
+  {
+    "title": "MIT 研究：依赖 AI 核实新闻会降低辨伪能力",
+    "summary": "媒体实验室发现过度依赖 AI 验证事实会导致用户自身能力退化。",
+    "detail": "MIT 媒体实验室新研究显示，依赖 AI 系统验证事实的用户，在脱离 AI 后检测 misinformation 的能力下降 21%。研究追踪 67 人四周，评估新闻标题与图片配对。这种现象被称为\"AI 依赖悖论”，与医生依赖 AI 诊断癌症技能退化类似。警示认知卸载带来的长期风险，如同计算器削弱数学技能，GPS 影响方向感，过度依赖 AI 核实新闻可能导致人类自主信息验证能力萎缩。Pew 研究中心报告也发现五分之一美国青少年常用 LLM 获取新闻，趋势令人担忧。",
+    "tags": [
+      "News",
+      "Research",
+      "Ethics"
+    ],
+    "link": "https://news.mit.edu/2026/consequences-of-relying-on-ai-for-accurate-news-0609",
+    "date": "2026-06-09",
+    "id": "17810450332463"
+  },
+  {
+    "title": "联合国警告 AI 对地球资源产生重大影响",
+    "summary": "联合国发布警告，新数据揭示 AI 发展对电力和水资源的巨大消耗。",
+    "detail": "联合国基于新数据发出警告，强调 AI 基础设施对地球资源的重大影响。报告重点关注电力和水资源消耗及可持续性问题，呼吁在全球 AI 扩张背景下重视环境成本。The Independent 报道指出，新数据揭示 AI 对 planet 资源的巨大消耗，推动更绿色的 AI 发展策略。这标志着国际社会开始正视 AI 发展的生态代价，政策制定者需平衡技术创新与环境保护之间的关系。AI 的高速发展背后是巨大的能源需求，可持续性成为不可忽视的关键议题，影响未来全球科技政策走向。",
+    "tags": [
+      "News",
+      "Policy",
+      "Sustainability"
+    ],
+    "link": "https://www.the-independent.com/tech/ai-artificial-intelligence-un-electricity-water-sustainability-b2988832.html",
+    "date": "2026-06-09",
+    "id": "17810450332464"
+  },
+  {
     "title": "Anthropic 推出 Fable 5，一键生成趣味视频游戏",
     "summary": "Anthropic 发布 Claude Fable 5 模型，支持通过简单指令生成可玩性高的视频游戏，吸引开发者关注。",
     "detail": "**背景**：Anthropic 持续扩展模型多模态能力，瞄准创意生成领域，试图降低技术门槛。\n\n**核心**：Claude Fable 5 模型专注于游戏生成，用户只需点击按钮即可创建“奇怪但有趣”的游戏，被预测将成为网络“氛围编码”者的热门工具。\n\n**影响**：这将显著降低游戏开发门槛，可能引发独立游戏开发热潮，改变内容创作生态，让非专业开发者也能快速构建可玩原型。此外，这也展示了 AI 从辅助 coding 向自主生成完整交互体验的转变，预示着未来软件生产力的重大变革。对于游戏行业，这意味着原型设计周期将大幅缩短，创意验证成本降低。同时，这也对版权和内容审核提出了新挑战，平台需建立相应机制应对 AI 生成内容的合规性问题。",
@@ -1233,70 +1298,5 @@
     "link": "https://twitter.com/moritzthuening/status/2063382385845244281",
     "date": "2026-06-07",
     "id": "17808350442735"
-  },
-  {
-    "title": "AI 繁荣加剧反科技极端主义风险",
-    "summary": "卫报报道 AI 快速发展导致反科技极端主义情绪上升。",
-    "detail": "卫报深入探讨了 AI 技术迅猛发展背后的社会阴影。文章指出，AI 行业的狂热增长正在加剧反科技极端主义情绪，甚至引发暴力风险。这反映了公众对技术失控的深层焦虑，提示行业在追求速度时需关注社会伦理与安全治理，避免技术鸿沟演变为社会冲突。随着技术渗透率提高，社会反弹可能成为阻碍创新的关键因素，企业需建立更透明的沟通机制。",
-    "tags": [
-      "News",
-      "Social",
-      "Ethics"
-    ],
-    "link": "https://www.theguardian.com/technology/2026/jun/07/anti-ai-tech-extremism-violence",
-    "date": "2026-06-07",
-    "id": "17808286538020"
-  },
-  {
-    "title": "Her：Claude Code 会话审计工具",
-    "summary": "Hugging Face 推出新工具，分析 Claude Code 会话 trace 文件。",
-    "detail": "Hugging Face 社区推出名为\"Her\"的新工具，专为 Claude Code 用户设计。它能读取会话生成的 `.jsonl` trace 文件，用自然语言重构操作流程，标记高风险动作（如生产环境部署、Secrets 泄露）。工具还内置 Copilot 功能，可查询特定工具调用原因。这为开发者提供了透明的 Agent 行为审计能力，有助于优化 Context 预算和提升安全性。通过可视化分析，团队可快速定位 Agent 决策失误，降低生产环境风险，是 AI 编程工作流的重要补充工具。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "Claude"
-    ],
-    "link": "https://huggingface.co/blog/build-small-hackathon/her-blog",
-    "date": "2026-06-07",
-    "id": "17808286538021"
-  },
-  {
-    "title": "Redis 作者论 AI 自动化测试新范式",
-    "summary": "Antirez 撰文探讨 LLM 在软件 QA 和测试领域的应用潜力。",
-    "detail": "Redis 作者 Antirez 发表博文，认为虽然 AI 生成代码结构质量尚不如手写，但在软件 QA 和测试领域开启了自动化新范式。传统测试难以覆盖所有状态和视觉检查，而 LLM 可作为 QA 工程师执行手动测试流程。这标志着 AI 从辅助编码向保障软件质量延伸，为复杂系统的集成测试提供了更高效的解决方案，平衡质量与时间。尤其在视觉检查和状态覆盖上，AI 展现出超越传统脚本的灵活性，值得团队尝试。",
-    "tags": [
-      "Dev",
-      "Testing",
-      "LLM"
-    ],
-    "link": "https://antirez.com/news/168",
-    "date": "2026-06-07",
-    "id": "17808286538022"
-  },
-  {
-    "title": "AI 生成小说获文学奖引发伦理争议",
-    "summary": "一篇 AI 生成作品获奖，引发文学界对 AI 创作能力的讨论。",
-    "detail": "2026 年英联邦短篇小说奖加勒比地区奖项由一篇名为《The Serpent in the Grove》的作品获得，随后被读者指出具有明显 AI 生成特征（如重复句式、特定词汇）。Ethan Mollick 等专家确认其为 100% AI 生成。基金会正在审查。此事件引发了关于 AI 能否创作优秀短篇小说的伦理与艺术价值争论，凸显了 AI 介入创意领域的复杂性。奖项归属的争议可能推动文学界建立新的 AI 内容披露标准。",
-    "tags": [
-      "News",
-      "Art",
-      "Ethics"
-    ],
-    "link": "https://tumbleweedwords.com/ai-literary-prize-flash-fiction.html",
-    "date": "2026-06-07",
-    "id": "17808286538023"
-  },
-  {
-    "title": "Klarna CMO 打造 AI 分身供员工宣泄",
-    "summary": "Klarna 首席营销官创建 AI replica 供同事发泄不满。",
-    "detail": "Klarna CMO David Sandström 在预算削减期间，利用 ElevenLabs 技术创建了自己的 AI 分身，作为内部“宣泄机器”。员工可向 AI 表达不满，AI 被设定为友好且承担责任。此举旨在减少会议中的负面情绪，让团队聚焦未来。这展示了企业如何利用 AI 处理内部沟通与情绪管理，但也引发了关于真实性与管理的讨论。这种创新尝试为 HR 和管理层提供了处理组织摩擦的新思路。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Chatbot"
-    ],
-    "link": "https://www.businessinsider.com/klarna-cmo-built-ai-replica-himself-colleagues-vent-at-2026-5",
-    "date": "2026-06-07",
-    "id": "17808286538024"
   }
 ]
