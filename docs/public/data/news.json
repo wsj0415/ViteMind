@@ -1,5 +1,83 @@
 [
   {
+    "title": "苹果新 AI 模型确认不含 Google Gemini 助手",
+    "summary": "苹果最新 AI 模型独立开发，未集成 Google Gemini，彰显自研决心。",
+    "detail": "据 MacRumors 报道，苹果新款 AI 模型中不包含 Google Gemini 助手成分。这一消息证实了苹果在 AI 战略上的独立性，拒绝依赖外部大模型巨头。在当前科技巨头纷纷合作的大背景下，苹果坚持自研路径可能意味着其对隐私控制和生态闭环的重视。此举将加剧 AI 助手市场的竞争，迫使 Google 和 OpenAI 等厂商进一步优化自身产品以保持吸引力。对于开发者而言，这意味着 iOS 生态内的 AI 集成将更深度绑定苹果自有框架，跨平台兼容性可能面临新挑战。行业观察家认为，这将推动端侧 AI 模型的进一步优化，以满足苹果对性能和安全的高标准要求。",
+    "tags": [
+      "News",
+      "Apple",
+      "LLM"
+    ],
+    "link": "https://www.macrumors.com/2026/06/09/apples-new-ai-contains-no-gemini/",
+    "date": "2026-06-09",
+    "id": "17810207079410"
+  },
+  {
+    "title": "律师双方滥用 AI 生成文件，法官取消审判并制裁",
+    "summary": "密西西比联邦法院因律师双方使用 AI 生成幻觉文件，取消审判并制裁。",
+    "detail": "密西西比联邦法院发生一起标志性案件，诉讼双方律师均被发现在 filed 文件中使用生成式 AI，导致大量幻觉内容。法官 Sharion Aycock 发布严厉制裁令，指出这是“盲目使用 AI 的典型风险”。案件涉及合同纠纷，双方 essentially 付费让 AI 互相对抗。此事件为法律行业敲响警钟，强调 AI 生成内容必须经过严格人工核实，否则将面临严重的法律后果和职业制裁。随着 AI 工具普及，律所需建立严格的审查流程，避免类似“喜剧式错误”损害客户利益及司法公正，这或将推动法律科技合规标准的升级。此外，该案例揭示了当前法律文档自动化中的潜在陷阱，即过度依赖 LLM 而不进行事实核查。未来法院可能会要求律师披露 AI 使用情况，以确保文件真实性。",
+    "tags": [
+      "News",
+      "Legal",
+      "Ethics"
+    ],
+    "link": "https://www.404media.co/judge-learns-lawyers-on-both-sides-of-case-used-ai-cancels-trial-kicks-everyone-off-the-case/",
+    "date": "2026-06-09",
+    "id": "17810207079411"
+  },
+  {
+    "title": "AI 网红进化：虚拟创作者已难辨真假",
+    "summary": "AI 网红技术飞跃，Aitana Lopez 等虚拟创作者已与现实人类难以区分。",
+    "detail": "AI 生成网红正经历从“新奇物”到“逼真创作者”的转变。早期如 Lil Miquela 尚显卡通，而新一代如 Aitana Lopez 拥有真实雀斑和自然光影，数百万粉丝难以分辨。这标志着社交媒体真实性危机的临界点。品牌方开始大量采用虚拟 influencer，引发关于披露义务和信任的讨论。当虚拟形象完全融入信息流，受众是否在乎真实性成为新课题，这将重塑数字营销和内容创作行业的格局。技术进步使得生成成本降低，预计未来社交媒体上将有更高比例的合成内容，监管机构和平台需尽快制定标识标准，以维护用户信任和网络生态健康。",
+    "tags": [
+      "News",
+      "Social Media",
+      "Generative AI"
+    ],
+    "link": "https://www.techbuzz.ai/articles/ai-influencers-now-indistinguishable-from-real-creators",
+    "date": "2026-06-09",
+    "id": "17810207079412"
+  },
+  {
+    "title": "实时语音 AI 架构：为何 WebRTC 优于 WebSockets",
+    "summary": "LiveKit 深度解析，构建实时语音 AI 代理时 WebRTC 比 WebSockets 更适合。",
+    "detail": "在构建实时语音 AI 代理时，传输层选择至关重要。许多开发者首选 WebSockets，但其在生产环境中易出现延迟问题。WebSockets 基于 TCP，丢包会导致队头阻塞，破坏对话节奏。相比之下，WebRTC 专为实时媒体设计，能更好地处理音频流丢包和延迟。文章指出，从“音频流通”到“真实对话感”的差距主要是传输问题。对于追求低延迟语音交互的开发者，WebRTC 是更稳健的架构选择。特别是在高并发场景下，WebRTC 的 UDP 传输机制能显著减少卡顿，提升用户体验。建议开发者在原型阶段后尽快迁移至 WebRTC，以确保生产环境的稳定性。",
+    "tags": [
+      "Dev",
+      "WebRTC",
+      "Voice AI"
+    ],
+    "link": "https://livekit.com/blog/why-webrtc-beats-websockets-for-voice-ai-agents",
+    "date": "2026-06-09",
+    "id": "17810207079413"
+  },
+  {
+    "title": "TokkeyCC：统一 API 接入百款模型，新用户送令牌",
+    "summary": "兼容 OpenAI 接口的统一 API 平台，接入 100+ 模型，推荐好友获令牌奖励。",
+    "detail": "TokkeyCC 推出兼容 OpenAI 的统一 API，支持接入 OpenAI、Anthropic、DeepSeek 等 100+ 模型。开发者只需更改 base URL 即可切换模型，无需重写代码。定价低至每百万 token 0.22 美元，新用户免费获得 100 万 token。平台提供 99.9% SLA 和企业级安全。此外，推荐好友可获得 10 万令牌奖励。适合需要多模型切换和成本优化的 AI 应用开发者，降低了集成门槛。通过统一接口管理多家供应商，企业可避免 vendor lock-in，灵活选择性价比最高的模型。全球边缘节点部署确保了低延迟推理，是构建生产级 AI 应用的理想基础设施选择。",
+    "tags": [
+      "Deal",
+      "API",
+      "LLM"
+    ],
+    "link": "https://tokkeycc.com",
+    "date": "2026-06-09",
+    "id": "17810207079414"
+  },
+  {
+    "title": "Terra：利用 AI 建模挖掘场外房地产投资机会",
+    "summary": "新工具 Terra 通过公共记录 AI 评分，帮助投资者发现未上市的房地产交易机会。",
+    "detail": "Terra 是一款面向房地产投资者的 AI 工具，旨在挖掘场外（Off-market）交易机会。它通过整合 3000+ 县级公共记录，对 1.5 亿 + 地块进行 AI 评分，预测业主出售可能性。相比 LoopNet 等公开 listing 平台，Terra 帮助用户在交易上市前联系业主，避免竞价战。适合区域投资者和家族办公室，通过数据优势获取独家交易源，解决了传统房地产搜寻效率低下的痛点。利用机器学习分析债务情况和持有年限，Terra 能精准识别潜在卖家。这种数据驱动的投研方式正在改变传统房地产投资逻辑，为投资者提供显著的信息不对称优势。",
+    "tags": [
+      "New",
+      "Real Estate",
+      "AI Modeling"
+    ],
+    "link": "https://terraconsole.com",
+    "date": "2026-06-09",
+    "id": "17810207079415"
+  },
+  {
     "title": "英伟达 CEO 拒绝出席美国参议院 AI 听证会",
     "summary": "黄仁勋拒绝沃伦参议员邀请，不出席关于 AI 发展与出口管制的听证会。",
     "detail": "英伟达 CEO 黄仁勋正式拒绝参议员伊丽莎白·沃伦的作证邀请，引发业界广泛关注。听证会原定探讨 AI 在美国创新及国家安全中的角色，特别是英伟达在华业务与出口管制合规性。沃伦公开批评黄仁勋有时间参加私人晚宴却无暇回应国会质询。作为目前全球市值超 5 万亿美元的 AI 芯片巨头，英伟达处于技术竞争与地缘政治的风口浪尖。此举凸显科技巨头与监管机构之间的紧张关系，拒绝作证可能引发国会更严格的审查力度，影响未来 AI 硬件出口政策的走向，行业需密切关注后续立法动态及公司回应。",
@@ -1220,83 +1298,5 @@
     "link": "https://blog.ericgoldman.org/archives/2026/06/when-can-amazon-block-an-agentic-ai-service-amazon-v-perplexity-guest-blog-post.htm",
     "date": "2026-06-07",
     "id": "17808051337082"
-  },
-  {
-    "title": "开发者反驳 AI 代码质量差，称优于 99% 人类代码",
-    "summary": "开发者发文称 AI 代码质量优于人类，反驳反 AI 修辞基于虚假对立。",
-    "detail": "资深开发者 Dennis Forbes 发文反驳 AI 代码质量差的观点，指出 Claude 等工具生成的代码在安全性、性能及可维护性上优于 99% 人类代码。文章批评反 AI 修辞基于虚假的二元对立，忽视了人类代码本身的缺陷。这对开发者接受 AI 辅助编程有积极意义，有助于缓解技术焦虑。未来编程工作流将深度融合 AI，开发者需转向架构设计与审查角色。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Opinion"
-    ],
-    "link": "https://dennisforbes.ca/blog/microblog/2026/06/on_ai_criticism/",
-    "date": "2026-06-07",
-    "id": "17808051337083"
-  },
-  {
-    "title": "新品 Persist.chat：AI 销售代理自动化多渠道触达",
-    "summary": "新品 Persist.chat 上线，AI 销售代理支持多渠道自动触达与跟进。",
-    "detail": "新产品 Persist.chat 正式亮相，定位为 AI 销售代理，专注于冷启动 outreach。支持 LinkedIn、X 及邮件多渠道自动触达与跟进，内置 2 亿 + 联系人图谱，可根据角色、行业精准筛选。适合初创团队及销售团队自动化获客流程。展示了 AI Agent 在垂直销售领域的落地应用，降低了人力成本，提高了转化率，是 B2B 销售工具的重要创新。",
-    "tags": [
-      "New",
-      "Sales",
-      "Agent"
-    ],
-    "link": "https://persist.chat",
-    "date": "2026-06-07",
-    "id": "17808051337084"
-  },
-  {
-    "title": "调查：AI 焦虑是否导致了经济 sentiment 低迷",
-    "summary": "调查 AI 焦虑是否导致经济 sentiment 低迷，反映技术变革社会冲击。",
-    "detail": "文章深入调查 AI 失业焦虑是否导致了经济 sentiment 低迷（Vibecession）。虽然数据未完全证实理论，但探讨了心理因素对经济感知的潜在影响。反映了 AI 技术变革对社会心理及宏观经济的复杂冲击，值得投资者与政策制定者关注。若 AI 焦虑持续蔓延，可能抑制消费信心，进而影响实际经济表现，形成自我实现的预言。",
-    "tags": [
-      "News",
-      "Economy",
-      "Social"
-    ],
-    "link": "https://kevinonthemargin.com/is-ai-anxiety-causing-the-vibecession-an-investigation/",
-    "date": "2026-06-07",
-    "id": "17808051337085"
-  },
-  {
-    "title": "媒体警示：AI 可能是史上最大投资泡沫",
-    "summary": "媒体称 AI 为史上最大浪费计划，警告投资泡沫及资本支出回报风险。",
-    "detail": "Telegraph 发表尖锐评论，称 AI 是人类史上最大的浪费计划，指出资本支出高达 1.4 万亿但行业营收仅 600 亿。文章警告 AI 可能成为历史上最具毒性的投资泡沫。这代表了传统媒体对市场估值过高的担忧，提示投资者注意行业盈利模式挑战及资本支出回报周期。若技术突破不及预期，可能引发市场剧烈调整，需警惕高风险投资。",
-    "tags": [
-      "News",
-      "Investment",
-      "Market"
-    ],
-    "link": "https://www.telegraph.co.uk/news/2026/06/04/ai-is-the-greatest-money-wasting-scheme-humanity-has-ever-i/",
-    "date": "2026-06-07",
-    "id": "17808051337086"
-  },
-  {
-    "title": "科学家：AI 可解决其自身带来的能源问题",
-    "summary": "奥克兰大学科学家提出，AI 虽耗能高，但能优化太阳能及电池技术来解决能源危机。",
-    "detail": "针对联合国大学报告称 AI 到 2030 年可能消耗全球 3% 电力的担忧，**奥克兰大学 Dr Ulrich Speidel**提出相反观点。他认为 AI 可通过优化太阳能光伏电池效率及加速电池技术研发，补偿其高能耗。目前太阳能转化率约 25%，AI 有望提升这一比例。该观点为 AI 的可持续发展提供了技术辩护，强调了 AI 在能源领域的潜在正向外部性。Speidel 指出 AI 能 crunch 大量数据，帮助生成和存储电力技术更高效。这表明 AI 不仅是能源消费者，也可能是能源危机的解决者，关键在于如何利用 AI 加速材料科学突破，实现绿色技术与 AI 发展的良性循环。",
-    "tags": [
-      "News",
-      "Energy",
-      "Science"
-    ],
-    "link": "https://www.rnz.co.nz/news/science-and-technology/597458/ai-could-drive-advances-that-solve-the-problems-it-brings-computer-scientist-suggests",
-    "date": "2026-06-07",
-    "id": "17807872663044"
-  },
-  {
-    "title": "美国拟推计划让民众持有 AI 股权",
-    "summary": "金融时报披露美国政府计划让美国人持有 AI 股权，共享技术红利。",
-    "detail": "金融时报报道了一项旨在让美国民众获得 AI 股权的计划。该提案试图解决 AI 发展带来的财富分配不均问题，让普通公民能分享技术经济增长的红利。具体实施机制尚未完全公开，但已引发关于经济公平与技术垄断的广泛讨论。这标志着 AI 治理从技术层面向社会经济层面的延伸，可能影响未来投资格局。",
-    "tags": [
-      "News",
-      "Economy",
-      "Policy"
-    ],
-    "link": "https://www.ft.com/content/8559a3f9-86de-4a1c-8a75-6623e83e6a00",
-    "date": "2026-06-06",
-    "id": "17808981421741"
   }
 ]
