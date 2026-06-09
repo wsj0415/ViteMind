@@ -1,5 +1,70 @@
 [
   {
+    "title": "苹果 WWDC 2026 发布 Siri AI 与 Core AI 库",
+    "summary": "苹果发布新一代 Siri AI，许可 Gemini 模型，推出 Core AI 库支持 PyTorch。",
+    "detail": "苹果在 WWDC 2026 上 unveiled 新一代 Apple Intelligence。Siri AI 采用许可的 Gemini 衍生模型，利用 Vision LLM 读取屏幕信息，无需应用定制代码。核心亮点是 Core AI 库，通过 `coreai-torch` 桥接 PyTorch，使开发者能在苹果硬件上运行自定义模型，映射 ATen 操作符到 Core AI 操作。iOS 27 开发者 Beta 已开放，但 Siri AI 需排队访问。鉴于 2024 年承诺未完全兑现，此次发布更显谨慎可行。Private Cloud Compute 架构确保数据处理安全，为开发者提供了利用苹果硬件运行模型的标准路径，可能改变移动端 AI 开发生态。",
+    "tags": [
+      "News",
+      "Apple",
+      "LLM"
+    ],
+    "link": "https://simonwillison.net/2026/Jun/8/wwdc/",
+    "date": "2026-06-09",
+    "id": "17809817307260"
+  },
+  {
+    "title": "app.nz 推出 AI 代理云编程平台",
+    "summary": "一站式 AI 代理云平台，支持代码生成、测试、PR 提交及应用部署。",
+    "detail": "app.nz 定位为软件交付的 AI 代理云。用户可创建任务，代理自动分支、编辑代码、运行测试并开启 PR。平台集成 15+ 模型提供商，支持 GitHub 同步、GPU 推理托管及 Cog 容器部署。特色功能包括 Web 搜索代理、论文搜索及统一 API 路由。旨在简化全栈 AI 应用的基础设施搭建，实现从代码生成到部署的自动化闭环。提供静态站点、容器、API 及 Worker 部署，支持 HTTPS 预览 URL。Cog Studio 允许将容器部署为零扩展 GPU 端点，带有生成表单和清晰计费，适合研发及代理场景。",
+    "tags": [
+      "New",
+      "Agent",
+      "DevOps"
+    ],
+    "link": "https://app.nz/",
+    "date": "2026-06-09",
+    "id": "17809817307261"
+  },
+  {
+    "title": "开源本地防火墙 Guardian Runtime 保护 AI 代理",
+    "summary": "本地 FinOps 与安全代理，控制 AI 编码代理预算并防止敏感信息泄露。",
+    "detail": "Guardian Runtime 是一款开源本地防火墙，专为 Claude Code 等 AI 编码代理设计。它作为本地代理拦截请求，提供硬预算控制（超支断网）、本地扫描（拦截 API 密钥/PII 泄露）及简洁模式（优化提示词降低 40-70% 输出成本）。完全本地运行无云依赖，支持 OpenAI、Anthropic 等模型。解决了 AI 代理失控消费及安全泄露的核心痛点。用户只需将代理指向 localhost:8080 即可使用。通过 `pip install` 安装，支持即时丢弃包含泄露密钥的请求，优化系统提示词强制更短回答，显著降低 API 输出成本。",
+    "tags": [
+      "Dev",
+      "Security",
+      "OpenSource"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48456339",
+    "date": "2026-06-09",
+    "id": "17809817307262"
+  },
+  {
+    "title": "VirusTotal 集成 Knostic 增强 AI 供应链安全",
+    "summary": "病毒总动员手 Knostic，利用 AI 分析 VS Code 扩展插件的安全风险。",
+    "detail": "VirusTotal 宣布与 Knostic 合作，在其众包 AI  lineup 中加入 AgentMesh 引擎。重点分析 Visual Studio Code 扩展文件 (.VSIX)，识别供应链威胁。提供独立的安全评估、明确的风险 verdict ( benign/suspicious/malicious) 及风险等级。此举针对 IDE 基 AI 助手普及带来的扩展插件恶意代码风险，帮助开发者在安装前检测后门及凭证窃取行为。安全团队可使用新索引操作符如 `knostic_ai_verdict` 在 VT Intelligence 中搜索过滤。弥补了现有 Code Insight 不足，增强对扩展文件的安全 profile 理解。",
+    "tags": [
+      "News",
+      "Security",
+      "AI Safety"
+    ],
+    "link": "https://blog.virustotal.com/2026/06/crowdsourced-ai-knostic.html",
+    "date": "2026-06-09",
+    "id": "17809817307263"
+  },
+  {
+    "title": "行业探讨：如何设计 AI 原生技术面试",
+    "summary": "随着 AI 编写代码普及，技术面试需转向考察代码阅读与架构理解能力。",
+    "detail": "文章指出传统技术面试已无法筛选适应 AI 时代的工程师。当 AI 生成大部分代码时，工程师的核心能力转变为 fluently 阅读代码及理解架构，而非单纯编写。面试应考察候选人能否跟上 AI 生成速度，以及跨语言/领域调整代码的能力。强调“告诉模型想要什么”与“告诉人类”是相同技能，行业需重新定义工程师的价值评估标准。技术筛选需低成本高信号，一致性至关重要。后端工程师可能需修改前端代码，模型使跨领域工作更廉价，因此阅读代码 fluency 比编写速度更重要，无法跟上生成速度意味着只能批准而非主导工作。",
+    "tags": [
+      "Dev",
+      "Industry",
+      "Career"
+    ],
+    "link": "https://i0exception.substack.com/p/designing-an-ai-native-technical",
+    "date": "2026-06-09",
+    "id": "17809817307264"
+  },
+  {
     "title": "马斯克称 SpaceX 无需“魔法”即可将 AI 数据中心送入太空",
     "summary": "马斯克表示 SpaceX 有能力在太空部署 AI 数据中心，无需依赖奇迹，引发基础设施新猜想。",
     "detail": "埃隆·马斯克最新声明指出，SpaceX 具备将 AI 数据中心部署至太空的技术能力，无需依赖“魔法”。这一言论暗示太空计算基础设施可能成为现实，旨在解决地球能源与散热限制。随着 AI 模型对算力需求激增，地面数据中心面临瓶颈，太空环境或提供新方案。此举若实施，将彻底改变 AI 算力布局，但面临高昂发射成本与维护挑战。行业需关注太空边缘计算的未来可行性及商业闭环，这可能是继星链后的又一重大基础设施变革。",
@@ -1233,70 +1298,5 @@
     "link": "https://zamin.uz/en/technology/205592-ai-memory-proves-inefficient-tenure-project-detects-95-error-rate.html",
     "date": "2026-06-06",
     "id": "17807800865483"
-  },
-  {
-    "title": "Hugging Face 实验：多模型智能体模拟经济系统",
-    "summary": "Hugging Face 发布多模型智能体实验，探索小模型异构协作。",
-    "detail": "Hugging Face 博客披露了\"Thousand Token Wood v2\"项目工程报告。该项目构建了一个经济模拟环境，其中每个智能体由不同实验室的小模型驱动，包括 gpt-oss-20b、MiniCPM3-4B、Nemotron-Mini-4B 及微调版 Qwen 0.5B。核心观点强调“异构性是产品而非约束”，旨在观察不同训练数据的小模型如何在市场中互动博弈。用户扮演资助者角色，通过借贷和提示影响市场。这对多智能体系统开发、边缘 AI 部署及小模型异构协作研究具有重要参考意义，展示了小模型在复杂交互中的潜力。相比 v1 版本，v2 增强了可玩性，允许用户进行做空和贿赂等操作，验证了多模型协作的可行性。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "LLM"
-    ],
-    "link": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
-    "date": "2026-06-06",
-    "id": "17807739495450"
-  },
-  {
-    "title": "Shieldra.ai 上线：AI 驱动的医疗合规平台",
-    "summary": "新平台 Shieldra.ai 利用 AI 自动化 HIPAA 与 SOC 2 合规流程。",
-    "detail": "Shieldra.ai 正式推出，专为医疗团队设计的合规平台。利用 AI 分析文档、跟踪准备情况并将证据与控制措施绑定。支持 HIPAA 和 SOC 2 框架，提供实时合规评分和差距检测功能。该工具旨在简化审计准备工作，通过自动化策略审查和补救工作流，降低医疗行业的安全合规成本。平台包含证据导入工作空间和实时程序仪表盘，能够检测如 S3 存储加密缺失等具体差距，并提供具体的补救步骤。这标志着 AI 在垂直领域合规自动化方面的应用深化，帮助团队更高效地满足监管要求。",
-    "tags": [
-      "New",
-      "Healthcare",
-      "Compliance"
-    ],
-    "link": "https://www.shieldra.ai/",
-    "date": "2026-06-06",
-    "id": "17807739495451"
-  },
-  {
-    "title": "YC 助力 Rick Rubin 招募 AI 导师进驻托斯卡纳",
-    "summary": "传奇音乐制作人 Rick Rubin 寻找 AI 导师，探索创意与技术结合。",
-    "detail": "Y Combinator 发布独特招募计划，协助音乐制作人 Rick Rubin 寻找一位 AI 导师。入选者需前往意大利托斯卡纳与其同住一个月，教授 Claude 及智能体工作流。实验旨在探索“传奇品味与 AI 技术结合能否创造新事物”。要求导师精通当前 AI 栈且具备教学能力，反映了 AI 向创意领域渗透的趋势。工作内容包含设置 AI 工具、教授无代码编程及展示激发创意的技术。这不仅是招聘，更是一次关于人类创造力与 AI 协作边界的社会实验，可能为艺术创作带来新范式。",
-    "tags": [
-      "News",
-      "Creative",
-      "Education"
-    ],
-    "link": "https://events.ycombinator.com/qSAodVvxK",
-    "date": "2026-06-06",
-    "id": "17807739495452"
-  },
-  {
-    "title": "Meta 确认 AI 聊天机器人漏洞导致数万账户被盗",
-    "summary": "Meta 证实黑客利用 AI 聊天机器人漏洞劫持了超过 2 万个 Instagram 账户。",
-    "detail": "Meta 向缅因州总检察长办公室提交的数据泄露通知显示，至少 20,225 个 Instagram 账户因 AI 聊天机器人被滥用而受损。黑客通过欺骗 AI 客服获取账户控制权，窃取联系人信息及私信。这是首次明确披露受影响规模，凸显了 AI 客服系统在身份验证环节的安全风险。漏洞允许攻击者接管整个 Instagram 及关联账户，访问帖子和动态。引发了对 AI 交互安全性的广泛关注，迫使平台重新审视自动化支持系统的权限管理逻辑，以防止类似的社会工程攻击再次发生。",
-    "tags": [
-      "News",
-      "Security",
-      "Meta"
-    ],
-    "link": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
-    "date": "2026-06-06",
-    "id": "17807739495453"
-  },
-  {
-    "title": "哈佛商业评论：AI 正在重塑外包经济逻辑",
-    "summary": "HBR 指出生成式 AI 改变了外包模式，印度 IT 服务业市值蒸发。",
-    "detail": "《哈佛商业评论》文章指出，生成式 AI 正在破坏基于劳动力套利的外包旧模式。IT 服务、金融及 HR 等业务流程外包（BPO）面临重构。2026 年 2 月单周内，印度 IT 服务公司市值蒸发约 100 亿美元。虽然外包不会消失，但结构将剧变，企业更倾向于内部 AI 化而非单纯的人力外包，标志着全球服务贸易格局的重大转折。未来外包将更侧重于数据工程、网络安全等需要深度知识的领域，而非标准化任务。这一趋势将深刻影响跨国企业的组织架构和成本结构。",
-    "tags": [
-      "News",
-      "Economy",
-      "Enterprise"
-    ],
-    "link": "https://hbr.org/2026/06/ai-is-rewriting-the-economics-of-outsourcing",
-    "date": "2026-06-06",
-    "id": "17807739495454"
   }
 ]
