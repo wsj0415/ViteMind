@@ -1,5 +1,70 @@
 [
   {
+    "title": "微软 AI 主管：超级智能临近但不会取代工作",
+    "summary": "微软 AI 首席执行官表示超级智能即将到来，但不会取代人类工作。",
+    "detail": "微软 AI 首席执行官 Mustafa Suleyman 在接受采访时指出，超级智能（Superintelligence）可能比预期更早到来。然而，他强调 AI 的主要作用是增强而非取代人类劳动力。这一观点缓解了业界对大规模失业的恐慌，表明未来工作模式将是人机协作。微软将继续投资于 AI 安全与对齐研究，确保技术发展服务于人类利益，同时推动 AGI 的安全落地。此言论反映了巨头对 AI 社会影响的最新定调，旨在平衡技术进步与公众焦虑，为后续政策制定提供参考，显示微软在 AGI 竞赛中的稳健策略。",
+    "tags": [
+      "News",
+      "Microsoft",
+      "AGI"
+    ],
+    "link": "https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation",
+    "date": "2026-06-10",
+    "id": "17810690113090"
+  },
+  {
+    "title": "联合国报告：AI 能耗威胁全球自然资源",
+    "summary": "联合国科学家警告，AI 数据中心能耗将 triple，威胁水资源和土地。",
+    "detail": "联合国大学发布报告指出，到 2030 年，全球 AI 数据中心用电量预计达 945 太瓦时，是巴基斯坦等国总和的三倍。水资源消耗将等于撒哈拉以南非洲 13 亿人的基本需求，土地足迹超 1.4 万平方公里。报告呼吁不仅关注碳排放，还需量化 AI 对水和土地的影响，促使行业寻求更可持续的基础设施解决方案。这一数据揭示了 AI 繁荣背后的环境代价，可能推动各国加强对数据中心资源消耗的监管，迫使科技巨头优化能效技术。",
+    "tags": [
+      "News",
+      "Environment",
+      "DataCenter"
+    ],
+    "link": "https://unu.edu/inweh/news/environmental-cost-of-AIs-Enrgy-use-carbon-water-and-land-footprints",
+    "date": "2026-06-10",
+    "id": "17810690113091"
+  },
+  {
+    "title": "强化学习之父：监督学习 AI 无法实现新颖发现",
+    "summary": "Richard Sutton 认为监督学习训练的生成式 AI 无法做出新颖发现。",
+    "detail": "强化学习先驱 Richard Sutton 发表观点，认为基于监督学习训练的生成式 AI 本质上 incapable of making novel discoveries。他指出，真正的科学发现和创造力需要超越现有数据的泛化能力，而当前主流大模型依赖历史数据训练。这一言论挑战了当前 AI 研发范式，可能引发关于 AI 科研能力边界及未来技术路线的深层讨论。Sutton 强调了强化学习在探索未知领域的重要性，暗示纯监督学习路径可能存在理论天花板。",
+    "tags": [
+      "News",
+      "Theory",
+      "RL"
+    ],
+    "link": "https://twitter.com/RichardSSutton/status/2061216087744946656",
+    "date": "2026-06-10",
+    "id": "17810690113092"
+  },
+  {
+    "title": "Guildly：像管理 Slack 一样管理 AI 员工公司",
+    "summary": "新平台 Guildly 提供 Slack 式界面，让用户管理 AI 员工团队。",
+    "detail": "Guildly 推出全新平台，允许用户像运营真实公司一样管理 AI 员工团队。具备 Slack 式界面、流程化记忆和审计功能。系统 deterministic by design，确保每个 AI 员工遵循标准 playbook 工作，所有代码变更可追溯至 ticket 和 PRD。支持模型无关架构，用户可自由切换底层模型而不丢失团队记忆，适合单人运营规模化 AI 团队。该产品解决了多 Agent 协作中的混乱问题，提供了企业级的可控性与审计能力。",
+    "tags": [
+      "New",
+      "Agent",
+      "Productivity"
+    ],
+    "link": "https://www.tryguildly.com/",
+    "date": "2026-06-10",
+    "id": "17810690113093"
+  },
+  {
+    "title": "SafeAgentDB：为 AI Agent 分支提供隔离数据库",
+    "summary": "开源工具 SafeAgentDB 为每个 AI Agent 分支提供隔离数据库，保障安全。",
+    "detail": "针对 AI Agent 开发中的数据库冲突问题，SafeAgentDB 提供基础设施解决方案。它为每个分支和 PR 提供独立的隔离数据库预览 URL，允许 Agent 并行运行迁移和测试而不影响生产环境。专为 Supabase + Vercel + GitHub Actions 栈设计，支持通过 CLI 安装。该工具解决了多 Agent 协作时的数据污染痛点，提升开发安全性。这是 AI 工程化领域的重要补充，帮助开发者在复杂 Agent 系统中维持数据一致性与安全性。",
+    "tags": [
+      "Dev",
+      "Database",
+      "Infrastructure"
+    ],
+    "link": "https://github.com/Aidan945/SafeAgentDB",
+    "date": "2026-06-10",
+    "id": "17810690113094"
+  },
+  {
     "title": "Anthropic 发布 Claude Fable 5 模型",
     "summary": "Anthropic 推出最强公众模型，安全策略引争议。",
     "detail": "Anthropic 正式发布 Claude Fable 5 模型，作为 Mythos 级模型的通用访问版本。该模型在各项基准测试中表现卓越，被认为是当前最聪明的公众可用模型，但价格约为现款 Opus 的两倍。伴随发布的是更严格的安全措施，部分策略未向用户透明公开，引发了关于 AI 安全控制与准入壁垒的行业讨论。这种不平衡的安全政策可能成为警示案例，标志着前沿 AI 竞争进入新阶段，能力跃升的同时合规成本显著增加，用户访问权限受到更多限制。",
@@ -1233,70 +1298,5 @@
     "link": "https://rutgerbregman.substack.com/p/an-inconvenient-truth-about-ai",
     "date": "2026-06-07",
     "id": "17808441791792"
-  },
-  {
-    "title": "独立创始人眼中的 AI 编码 ROI",
-    "summary": "分析 AI 编码工具对初创者与大厂的不同价值，强调能力创造。",
-    "detail": "文章对比了大公司与独立创始人使用 AI 编码工具的 ROI 差异。对大厂是边际生产力提升，对独立开发者则是创造原本不存在的能力。强调模型纪律与成本控制，指出开源模型在特定任务下性价比更高。AI coding 对 bootstrapped founder 是缺失能力的补充，而非单纯的成本项。这种视角转换对于资源有限的创业者至关重要，能最大化利用 AI 杠杆实现产品落地，降低人力依赖。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Startup"
-    ],
-    "link": "https://octavio.substack.com/p/the-roi-of-ai-coding-looks-completely",
-    "date": "2026-06-07",
-    "id": "17808441791793"
-  },
-  {
-    "title": "Moodloom：带 AI 过滤的无广告 Pinterest",
-    "summary": "新型 AI 视觉灵感平台，主打无广告体验与智能内容筛选。",
-    "detail": "Moodloom 是一款主打无广告体验的 Pinterest 替代产品，集成 AI 内容过滤与购物功能。用户可探索穿搭灵感，加入创作者社区。产品强调视觉发现的纯净度与智能化，适合寻找灵感的创作者与策展人使用。通过 AI filtering 提升内容质量，解决传统平台广告过多痛点。旨在打造更专注的视觉灵感社区，商业化路径结合电商购物，探索新型社交电商模式，满足高质量内容消费需求。",
-    "tags": [
-      "New",
-      "Product",
-      "Design"
-    ],
-    "link": "https://moodloom.xyz/",
-    "date": "2026-06-07",
-    "id": "17808441791794"
-  },
-  {
-    "title": "科技 CEO 们为何悄悄取消 AI 计划",
-    "summary": "视频揭示科技巨头内部对 AI 战略的重新评估与回调趋势。",
-    "detail": "视频内容指出科技 CEOs 正在 quietly 取消部分 AI 计划。这可能反映了行业对 AI 落地实效的重新审视，或是对过度炒作的回调。暗示 AI 实施难度与成本超出预期，企业开始务实调整战略，而非盲目跟随潮流。揭示了 hype cycle 下行期的企业真实反应与战略收缩。投资者需关注企业实际产出而非 PPT 规划，警惕 AI 概念股的估值回调风险，回归商业本质，关注现金流与盈利能力。",
-    "tags": [
-      "News",
-      "Strategy",
-      "Enterprise"
-    ],
-    "link": "https://www.youtube.com/watch?v=NBtUgWn-nHs",
-    "date": "2026-06-07",
-    "id": "17808441791795"
-  },
-  {
-    "title": "AI 公司命运共同体重现互联网泡沫",
-    "summary": "分析 AI 基建投资中的交叉持股与泡沫风险，警示投资者。",
-    "detail": "文章分析 AI 基础设施市场正形成“命运共同体”，巨头间互相投资制造营收。提及 SpaceX 与 Google、Anthropic 的巨额算力租赁协议。指出这可能类似互联网泡沫，投资视角需从 GPU 销量转向瓶颈技术。揭示了资本运作背后的营收美化嫌疑及基础设施投资的潜在风险。市场需警惕交叉持股带来的虚假繁荣，关注真正制约算力发展的物理瓶颈与能源限制问题，避免重蹈 dot-com 覆辙。",
-    "tags": [
-      "News",
-      "Finance",
-      "Infrastructure"
-    ],
-    "link": "https://www.bullbear.ninja/board/10",
-    "date": "2026-06-07",
-    "id": "17808441791796"
-  },
-  {
-    "title": "2026 年 AI 如何改变求职面试",
-    "summary": "阐述 AI 筛选与自动化视频面试的普及趋势及技能导向变化。",
-    "detail": "2026 年招聘流程正被 AI 重塑，广泛采用 AI 筛选简历与自动化视频面试。企业更关注技能评估而非传统学历，候选人体验更个性化。AI 帮助处理大量申请，但也引发了关于评估公平性与人类互动的讨论。展示了 AI 在 HR 领域的深度应用及对未来工作获取方式的影响。求职者需适应新规则，提升可被 AI 识别的技能展示能力，同时警惕算法偏见带来的潜在不公，准备应对机器面试官。",
-    "tags": [
-      "News",
-      "HR",
-      "Application"
-    ],
-    "link": "https://pressearn.it.com/blog/2026/06/02/how-ai-is-changing-job-interviews-in-2026/",
-    "date": "2026-06-07",
-    "id": "17808441791797"
   }
 ]
