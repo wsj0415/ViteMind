@@ -1,5 +1,83 @@
 [
   {
+    "title": "苹果 WWDC 2026：端侧 AI 模型与操作系统 hypervisor 化",
+    "summary": "苹果 200 亿参数模型登陆 iPhone，操作系统成为 LLM 管理程序。",
+    "detail": "WWDC 2026 揭示苹果 AI 战略重大转变。200 亿参数模型通过动态加载权重在 iPhone 运行，突破内存带宽限制。iOS 27 及 macOS 27 放弃离散 ML 任务，转向统一生成式计算架构。Siri 重构为系统级语义接口，跨应用处理数据。Apple Foundation Models 3 包含五个模型，涵盖端侧到云端。Core AI 框架专为 Transformer 设计，标志着生成式 AI 成为系统底层能力。这意味着苹果设备将具备更强的本地推理能力，减少云端依赖，同时为开发者提供了统一的生成式 AI 接口，可能重塑移动应用开发生态。操作系统成为 LLM 管理程序，控制生态系统的开发者将掌握主动权，隐私与性能得到显著提升。",
+    "tags": [
+      "News",
+      "Apple",
+      "On-Device AI"
+    ],
+    "link": "https://gist.is/docs.google.com/en/deqIp-AK6Oxc",
+    "date": "2026-06-10",
+    "id": "17811320540550"
+  },
+  {
+    "title": "xAI 工程师因警告 Grok 安全问题被解雇，提起诉讼",
+    "summary": "前 xAI 工程师起诉公司，称因在 SpaceX IPO 前揭露 Grok 安全隐患遭解雇。",
+    "detail": "新的法律诉讼指控 xAI 解雇了一名提出 Grok 安全警报的工程师。该事件发生在 SpaceX 历史性 IPO 前几天，引发了对 AI 安全与企业利益冲突的关注。诉讼涉及 xAI 和 SpaceX，凸显了高速发展的 AI 公司在安全合规与商业目标之间的潜在矛盾，可能影响后续监管审查。此案若属实，将迫使行业重新审视 AI 安全举报机制，增加投资者对治理风险的关注，并可能延缓相关产品的发布节奏。此外，这也反映了 AI 安全领域人才面临的职业风险，可能导致内部安全审查更加严格，影响创新速度。公众对 AI 安全信任度可能因此波动，监管机构的介入概率增加。",
+    "tags": [
+      "News",
+      "xAI",
+      "AI Safety"
+    ],
+    "link": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
+    "date": "2026-06-10",
+    "id": "17811320540551"
+  },
+  {
+    "title": "OpenAI 展示 Codex 助力天体物理学家模拟黑洞",
+    "summary": "亚利桑那大学研究员利用 Codex 改进黑洞模拟，突破计算限制。",
+    "detail": "OpenAI 博客介绍了天体物理学家 Chi-kwan Chan 使用 Codex 模拟黑洞的案例。作为事件视界望远镜（EHT）合作成员，Chan 利用 Codex 处理海量数据并优化计算工作流，以模拟极端物理环境。这展示了 AI 编程工具在科学研究中的实际应用，证明了 Codex 在处理复杂科学计算任务中的潜力。该案例表明 AI 不仅是消费级工具，更是科研加速器，有助于解决传统算法无法处理的极端物理模拟问题，推动科学发现。通过自动化代码生成，研究人员能更专注于物理理论而非工程实现，极大提升了科研效率，为未来 AI 赋能基础科学提供了范本。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Scientific Research"
+    ],
+    "link": "https://openai.com/index/using-codex-to-simulate-black-holes",
+    "date": "2026-06-10",
+    "id": "17811320540552"
+  },
+  {
+    "title": "OpenAI 指控与 PR 相关的影响力行动 targeting 美国 AI 辩论",
+    "summary": "OpenAI 发现与中国数据中心有关联的影响力行动试图干预美国 AI 政策讨论。",
+    "detail": "Business Insider 报道 OpenAI 发现针对美国 AI 辩论的影响力行动，声称与 PRC 有关联。这反映了 AI 技术竞争已延伸至地缘政治领域。此类行动旨在塑造公众舆论和政策方向，增加了 AI 行业发展的复杂性。企业需警惕信息安全与舆论环境，政府监管也可能因此收紧。这一事件凸显了 AI 技术背后的国家安全考量，可能导致跨国 AI 合作受阻，加剧技术脱钩趋势，影响全球 AI 供应链。政策制定者将面临更大压力，需平衡开放创新与国家安全，AI 行业的合规成本将显著上升，国际协作变得更加困难。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Geopolitics"
+    ],
+    "link": "https://www.businessinsider.com/openai-china-data-centers-influence-campaign-2026-6",
+    "date": "2026-06-10",
+    "id": "17811320540553"
+  },
+  {
+    "title": "AI 基础设施 Tokenomics：为何现在成为 FinOps 问题",
+    "summary": "Cast AI 分析指出 AI 基础设施成本管控已成关键，Tokenomics 概念引入 FinOps。",
+    "detail": "随着 AI 模型规模扩大，基础设施成本成为核心挑战。Cast AI 文章探讨了 Tokenomics 概念如何应用于 AI 基础设施管理，强调 FinOps 的重要性。企业需优化计算资源分配，监控 Token 消耗成本。这为 CTO 和开发者提供了成本管控新思路，表明 AI 部署已从技术验证转向经济可持续性考量。随着推理成本上升，有效的资源调度将成为企业核心竞争力，避免资源浪费至关重要。未来 AI 架构设计将更多考虑成本效益，混合云策略可能被广泛采用，以平衡性能与支出，确保业务长期健康发展。成本控制不当可能导致项目失败，FinOps 团队地位将提升。",
+    "tags": [
+      "Dev",
+      "FinOps",
+      "Infrastructure"
+    ],
+    "link": "https://cast.ai/blog/tokenomics-why-your-ai-infrastructure-is-now-a-finops-problem/",
+    "date": "2026-06-10",
+    "id": "17811320540554"
+  },
+  {
+    "title": "Show HN：AI 高管团队管理公司 starter kit 开源发售",
+    "summary": "开发者推出 Kompany Founder OS，包含 27 个 AI 代理提示词模板，售价 49 美元。",
+    "detail": "该项目在 Show HN 上亮相，提供一套让 AI 代理担任 C-suite 角色的系统。包含 CEO、CFO 等 11 个高管代理的系统提示词及治理剧本。售价 49 美元，一次性付费。这反映了 AI Agent 在自动化业务流程中的最新探索，为创始人提供了自主运营公司的新范式，适合希望实验自动化管理的创业者。虽然完全自动化尚早，但此工具展示了多代理协作在商业决策中的潜力，降低了管理门槛。用户可永久拥有该套件，无订阅费用，适合独立开发者和小团队尝试构建自动化组织，探索人机协作的新边界。",
+    "tags": [
+      "New",
+      "AI Agents",
+      "Automation"
+    ],
+    "link": "https://thepromptnova.gumroad.com/l/bfixc",
+    "date": "2026-06-10",
+    "id": "17811320540555"
+  },
+  {
     "title": "亚马逊再贷 175 亿美元加码 AI 基础设施",
     "summary": "亚马逊债券发售后又向银行借款 175 亿美元，持续扩大 AI 支出。",
     "detail": "亚马逊在完成债券销售后，再次从银行借款 175 亿美元，明确表示资金将继续用于 AI 支出。这反映了科技巨头对 AI 基础设施建设的激进投入。随着数据中心和算力需求的激增，巨头们正通过多种融资渠道确保资金链，以维持在 AI 竞赛中的领先地位。此举可能进一步加剧行业内的资本竞争，同时也显示了市场对未来 AI 回报的信心与赌注。尽管债务增加，但亚马逊坚信 AI 带来的生产力提升将覆盖成本。这一动向值得投资者密切关注其后续资本支出计划与营收增长的匹配情况，以及是否会出现行业性的资金链紧张风险。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/avibe-bot/avibe",
     "date": "2026-06-08",
     "id": "17808981421743"
-  },
-  {
-    "title": "AI Code Stitcher v1.74 发布：反代理式代码集成",
-    "summary": "新版本支持智能代码粘贴与上下文匹配，强调开发者控制权。",
-    "detail": "该工具旨在解决 AI 生成代码难以整合的问题。v1.74 版本新增自动更新检查及导入提升功能。其核心理念是“反代理”，拒绝黑盒操作，允许开发者将 Claude 或 Cursor 输出的代码智能匹配到现有代码库中，提供预览和撤销功能。适合需要精确控制代码变更的专业开发团队。相比全自动 Agent，它减少了不可控风险，提升了代码合并的安全性与效率，是当前 AI 编程工作流的重要补充工具。更新还包括无头模式 UI 改进，确保在非图形界面下也能高效工作，增强了对复杂项目结构的支持能力。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "LLM"
-    ],
-    "link": "https://github.com/ue-patcher/code_stitcher/releases",
-    "date": "2026-06-08",
-    "id": "17808774784421"
-  },
-  {
-    "title": "SpaceX IPO 文件披露轨道 AI 计算计划",
-    "summary": "SEC 文件显示 SpaceX 计划在轨道部署大规模 AI 计算，引发行业关注。",
-    "detail": "SpaceX 向 SEC 提交的 IPO 相关文件中提及“大规模部署轨道 AI 计算”。这标志着 AI 基础设施可能向太空延伸，结合星链网络与轨道计算能力，可能重塑低延迟 AI 服务格局。文件包含路演演示及 FAQ，显示公司正积极准备公开上市。此动向暗示硬件巨头正探索天地一体化算力网络，对云服务商构成潜在挑战。若实现，将为边缘 AI 推理提供全新物理层支持，可能改变全球算力分布格局，引发资本市场对太空算力概念的重新估值。",
-    "tags": [
-      "News",
-      "SpaceX",
-      "Infrastructure"
-    ],
-    "link": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040610/spacexfwp.htm",
-    "date": "2026-06-07",
-    "id": "17808774784420"
-  },
-  {
-    "title": "TaskbarQuota：Windows 任务栏 AI 用量实时监控",
-    "summary": "本地化小工具，自动检测并显示当前 AI 编程工具的消耗配额。",
-    "detail": "专为 Windows 开发者设计的任务栏 companion 工具。它能自动识别焦点窗口对应的 AI 工具（如终端代理或桌面应用），实时显示会话数、速率窗口及成本余额。无需云后端，保护隐私。对于需要管理多个 AI 订阅账户及控制成本的开发者而言，是高效的本地监控解决方案。支持 Microsoft Store 及 GitHub 下载，轻量无负担，助力团队精细化运营 AI 预算。界面紧凑，仅在使用 AI 工具时显示相关数据，避免干扰正常开发流程，是个人开发者管理 API 消耗的实用助手。",
-    "tags": [
-      "Dev",
-      "Windows",
-      "Tool"
-    ],
-    "link": "https://github.com/zioder/TaskbarQuota",
-    "date": "2026-06-07",
-    "id": "17808774784422"
-  },
-  {
-    "title": "Matchmind：AI 驱动的日常职位匹配代理",
-    "summary": "每日扫描各大招聘板，基于技能评分推送 Top 10 匹配职位。",
-    "detail": "一款新型 AI 求职代理产品。每天早晨 6 点自动扫描 RemoteOK、LinkedIn 等五大平台，利用 GPT-4 分析职位描述并与用户 profile 评分匹配。仅提供过去 24 小时的新鲜职位，避免重复。支持免费试用，通过反馈机制不断学习用户偏好，旨在解决传统关键词 alerts 噪音大的痛点。适合希望节省求职筛选时间、获取高质量机会的专业技术人员使用。系统会生成匹配理由解释，帮助用户快速决策，同时保护用户隐私，无需信用卡即可开始体验核心功能。",
-    "tags": [
-      "New",
-      "Agent",
-      "Job"
-    ],
-    "link": "https://www.matchmind.site",
-    "date": "2026-06-07",
-    "id": "17808774784423"
-  },
-  {
-    "title": "AI 如何颠覆版权法：从拉斐尔挂毯说起",
-    "summary": "深度文章探讨 AI 生成内容对传统版权经济模型的根本性挑战。",
-    "detail": "文章通过拉斐尔挂毯的历史成本案例，类比 AI 对版权法经济基础的 inversion。传统版权保护高昂的创作 effort，而 AI 极大降低了复制与生成成本。作者指出这迫使法律重新思考“努力”与“价值”的定义。对于 AI 内容创作者及法律从业者，这是理解未来 IP 纠纷趋势的重要视角。随着生成式 AI 普及，版权法可能从保护“创作过程”转向保护“独特表达”，行业需提前布局合规策略。文章还探讨了教皇资助案例，暗示资本在艺术与技术变革中的关键角色，为 AI 版权立法提供历史参照。",
-    "tags": [
-      "News",
-      "Legal",
-      "Analysis"
-    ],
-    "link": "https://srajagopalan.substack.com/p/a-for-effort-how-ai-upends-copyright",
-    "date": "2026-06-07",
-    "id": "17808774784424"
-  },
-  {
-    "title": "首个 AI 生成的量子场论教科书问世",
-    "summary": "Xi Yin  supervised GPT 5.5 编写 QFT 教科书，GitHub 已存 3527 页。",
-    "detail": "哥伦比亚大学教授发现 Xi Yin 正在监督 GPT 5.5 编写量子场论教科书。目前 GitHub 仓库已生成 3527 页 TeX 文件，虽不可直接作为学习教材，但标志着 AI Agent 接管学术写作的可能。该项目引发了关于未来教科书形态及 AI 在科研中角色的深刻讨论，是 AI 生成专业内容的重要里程碑。",
-    "tags": [
-      "News",
-      "LLM",
-      "Academic"
-    ],
-    "link": "https://www.math.columbia.edu/~woit/wordpress/?p=15735",
-    "date": "2026-06-07",
-    "id": "17808699925060"
   }
 ]
