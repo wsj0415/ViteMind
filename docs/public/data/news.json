@@ -1,5 +1,96 @@
 [
   {
+    "title": "SlopGuard: GitHub 应用拦截 AI 生成 PR",
+    "summary": "专为维护者设计，识别并隔离低质量 AI 生成 PR。",
+    "detail": "SlopGuard 是一款 GitHub 应用，旨在解决 AI 生成代码泛滥问题。它通过扫描 PR 和 Issue，给出 0-100 的“垃圾分”，帮助维护者快速识别机器生成内容。支持自托管，阈值可调，不自动关闭而是由人类决定，有效减少审查时间同时避免误伤真实贡献者。",
+    "tags": [
+      "New",
+      "Dev",
+      "GitHub"
+    ],
+    "link": "https://slopguard.app",
+    "date": "2026-06-10",
+    "id": "17811143618360"
+  },
+  {
+    "title": "Google 发布机器遗忘审计新框架",
+    "summary": "无需访问内部数据，即可验证模型是否真正遗忘。",
+    "detail": "Google Research 提出机器遗忘审计新框架，解决隐私合规难题。传统方法需访问模型内部，新框架仅通过查询输出即可数学化证明隐私保护。这对 GDPR“被遗忘权”及 AI 安全至关重要，尤其在模型规模扩大导致统计测试失效的背景下，提供了更可靠的验证手段。",
+    "tags": [
+      "News",
+      "Research",
+      "Privacy"
+    ],
+    "link": "https://research.google/blog/new-framework-for-auditing-machine-unlearning/",
+    "date": "2026-06-10",
+    "id": "17811143618361"
+  },
+  {
+    "title": "独角兽 Infobip 转型 AI 优先不裁员",
+    "summary": "20 年老牌独角兽推行 AI 优先战略，保留全员。",
+    "detail": "克罗地亚独角兽 Infobip 在 AI 浪潮中选择\"AI 优先”转型而非大规模裁员。CTO 表示 AI 应逐步 adopt，涵盖全职能而非仅开发。公司拥有约 1000 名开发者，强调 AI 代理执行任务而非仅回答问题。此案例为行业提供了技术转型期保留人才的反面本，展示务实的 AI 扩张路径。",
+    "tags": [
+      "News",
+      "Business",
+      "Strategy"
+    ],
+    "link": "https://shiftmag.dev/ai-first-izabel-jelenic-infobip-10156/",
+    "date": "2026-06-10",
+    "id": "17811143618362"
+  },
+  {
+    "title": "特朗普称 AI 公司应同意回馈公众",
+    "summary": "政治风向标，暗示 AI 巨头可能面临公众回馈要求。",
+    "detail": "路透社报道，特朗普表示认为 AI 公司将同意“回馈公众”。虽未详述具体机制，但此言论暗示未来政策可能倾向于要求 AI 巨头分享收益或资源。这在 AI 商业化加速背景下，标志着政治层面对 AI 利益分配的关注，可能影响行业监管格局及企业社会责任策略。",
+    "tags": [
+      "News",
+      "Policy",
+      "Regulation"
+    ],
+    "link": "https://www.reuters.com/business/media-telecom/trump-says-he-thinks-ai-companies-will-agree-giving-back-public-2026-06-10/",
+    "date": "2026-06-10",
+    "id": "17811143618363"
+  },
+  {
+    "title": "深度 AI 企业人均月支出达 7500 美元",
+    "summary": "Ramp 指数显示，重度 AI 用户企业成本高昂。",
+    "detail": "根据 Ramp AI 指数，最痴迷 AI 的企业每月每位员工在 AI 上的支出约为 7500 美元。虽然目前尚未超过工程师薪资，但显示出企业级 AI 应用成本高昂。数据揭示了 AI 落地过程中的实际经济负担，为 CTO 预算规划提供参考，也暗示 AI 工具定价与企业 ROI 之间的张力正在加剧。",
+    "tags": [
+      "News",
+      "Market",
+      "Cost"
+    ],
+    "link": "https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/",
+    "date": "2026-06-10",
+    "id": "17811143618364"
+  },
+  {
+    "title": "前 DeepMind 大佬创立 River AI",
+    "summary": "主打个人 AI 控制，重构训练与产品栈。",
+    "detail": "前 DeepMind、OpenAI 及 xAI 成员 Igor Babuschkin 创立 River AI。旨在构建可学习用户风格且受用户控制的个人 AI，而非租用令牌。已发布 River API，允许基于基础模型适配个人工作流。公司主张重构端到端栈以支持个人 AI，挑战当前少数公司垄断智能的模式，强调所有权与控制权。",
+    "tags": [
+      "New",
+      "Startup",
+      "LLM"
+    ],
+    "link": "https://river.ai/introducing-river-ai.html",
+    "date": "2026-06-10",
+    "id": "17811143618365"
+  },
+  {
+    "title": "Safe Vibes: 开源 AI 报告治理工具",
+    "summary": "基于 Django，防止 AI 生成报告成为影子 IT。",
+    "detail": "Safe Vibes 是一款开源 Django 应用，用于安全构建和部署 AI 生成的内部报告。针对业务团队随意使用 AI 生成 SQL/HTML 导致的影子 IT 风险，提供数据库连接治理、查询限制及 SSO 配置。管理员可控制模型与权限，用户通过聊天式界面生成报告，平衡了业务灵活性与工程安全性。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Security"
+    ],
+    "link": "https://github.com/tanner49/safe_vibes",
+    "date": "2026-06-10",
+    "id": "17811143618366"
+  },
+  {
     "title": "微软报告：AI 采用率在年轻群体中最高",
     "summary": "微软研究显示 18-24 岁群体 AI 采用率最高，毕业生担忧就业。",
     "detail": "微软发布最新 AI 扩散报告，显示美国 18-24 岁人群及大学城镇 AI 采用率最高。尽管毕业生在典礼上抗议 AI，但年轻一代仍是技术采纳先锋。报告呼吁科技领袖重视用户反馈，平衡技术创新与社会责任。历史表明，新技术常引发就业担忧，但年轻人主导采用趋势。企业需关注 AI 对下一代就业市场的深远影响，制定负责任的部署策略，避免加剧社会分歧，确保技术红利惠及更广泛群体。",
@@ -1207,96 +1298,5 @@
     "link": "https://jasmi.news/p/ai-friends",
     "date": "2026-06-07",
     "id": "17808634901440"
-  },
-  {
-    "title": "AI 泡沫经济分析：投入与回报",
-    "summary": "卫报通过六张图表解析 AI 热潮背后的巨额支出与假设回报。",
-    "detail": "媒体深入分析 AI 行业当前的投资规模与预期收益之间的差距。通过数据图表展示数十亿美元的资金流向，质疑实际经济回报是否匹配高昂成本。为投资者提供冷静的行业视角，警示潜在的市场泡沫风险。文章通过六张图表详细拆解了资本支出与假设回报之间的关系，指出当前繁荣可能缺乏坚实基础。这对理解 AI 经济周期至关重要，提醒市场参与者注意估值过高风险，避免盲目跟风投资，需理性看待技术落地的实际经济效益。硬件支出与软件收入的不匹配是核心关注点。硬件基础设施的过度建设可能导致未来产能过剩。",
-    "tags": [
-      "News",
-      "Finance",
-      "Industry"
-    ],
-    "link": "https://www.theguardian.com/technology/2026/jun/07/billions-spent-hypothetical-returns-the-ai-boom-explained-with-six-charts",
-    "date": "2026-06-07",
-    "id": "17808634901441"
-  },
-  {
-    "title": "黑客松失败项目复盘：Nemotron 与 RAG",
-    "summary": "Hugging Face 开发者分享使用 Nemotron 30b 构建游戏的失败经验。",
-    "detail": "开发者尝试利用 Nemotron 30b 模型生成 Three.js 游戏，经历长提示词、技能卡及 RAG 检索等多种技术尝试。最终因上下文窗口限制及代码生成错误导致项目失败，转为简单 HTML 工具。为 LLM 应用开发提供宝贵的避坑指南。详细记录了从复杂游戏生成到简化玩具制作的过程，揭示了当前模型在长上下文代码生成上的局限性。这对开发者优化 Prompt 工程和管理上下文窗口具有实际参考意义，展示了真实开发中的挑战。失败经验比成功更具教育意义，值得后端开发者参考。此案例强调了在复杂任务中分步验证的重要性。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "RAG"
-    ],
-    "link": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures",
-    "date": "2026-06-07",
-    "id": "17808634901442"
-  },
-  {
-    "title": "银行业因 AI 普及准备大规模裁员",
-    "summary": "彭博社报道银行正为 AI 接管后的大规模劳动力削减奠定基础。",
-    "detail": "随着人工智能技术在金融领域的深入应用，主要银行正在调整 workforce 结构。报道指出机构正为大规模裁员做准备，以应对 AI 自动化带来的效率提升。此趋势预示金融服务行业将面临显著的人力资源变革与转型压力。彭博社分析表明，AI 接管部分职能后，人力成本削减成为必然。这不仅影响银行业，也可能波及整个白领阶层。企业需平衡技术效率与员工安置，社会需关注由此引发的就业结构变化及再培训需求，行业震荡不可避免。高层管理已明确将 AI 作为成本削减工具。劳动力市场的结构性调整将成为未来几年的主要议题。",
-    "tags": [
-      "News",
-      "Finance",
-      "Jobs"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-06-07/banks-lay-groundwork-for-mass-workforce-cuts-as-ai-takes-hold",
-    "date": "2026-06-07",
-    "id": "17808634901443"
-  },
-  {
-    "title": "CodeSage Pro：universal AI 代码助手",
-    "summary": "新款 Chrome 插件可读取页面问题并提供 AI 代码辅助。",
-    "detail": "这是一款通用的 AI 代码助手浏览器扩展，能够识别网页上的问题并提供解决方案。作为 Show HN 项目，它旨在增强开发者的工作流，通过上下文感知的代码建议提高编程效率。适合寻求集成 AI 辅助编程工具的开发者使用。插件直接读取页面问题上下文，无需复制粘贴，提升了交互流畅度。对于前端开发和调试场景尤为实用，代表了 AI 编程助手向更无缝集成方向发展的趋势，降低了使用门槛。支持多种网页环境，是开发者效率工具的新选择。用户体验的优化是此类工具能否广泛采用的关键因素。",
-    "tags": [
-      "New",
-      "Dev",
-      "Tool"
-    ],
-    "link": "https://chromewebstore.google.com/detail/codesage-pro-—-universal/cbkkghdedpjamcicmnfpihehmgjemmhi",
-    "date": "2026-06-07",
-    "id": "17808634901444"
-  },
-  {
-    "title": "Notion 恢复 Anthropic 服务访问",
-    "summary": "Notion 在服务中断后恢复了对 Anthropic API 的访问，确保用户 AI 功能正常使用。",
-    "detail": "Notion 正式宣布在服务中断后恢复与 Anthropic 的 API 集成。此次中断曾导致依赖 Claude 模型的 Notion AI 功能不可用，影响了大量企业用户的工作流。恢复访问表明双方在基础设施稳定性上进行了紧急修复与协调。对于依赖 Notion 进行知识管理和 AI 写作的团队而言，此次事件的快速解决至关重要，避免了业务长时间停滞，同时也凸显了 SaaS 平台对第三方 AI 模型依赖的风险。",
-    "tags": [
-      "News",
-      "SaaS",
-      "Integration"
-    ],
-    "link": "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/",
-    "date": "2026-06-07",
-    "id": "17808556257280"
-  },
-  {
-    "title": "Snap 推出内部 AI 代码审查工具 CodePal",
-    "summary": "为应对 AI 生成代码导致的 PR 激增，Snap 开发了内部工具 CodePal 自动审查代码。",
-    "detail": "Snap 工程团队发现 AI 编码工具使 PR 合并率上升 60%，但审查成为新瓶颈。为此他们构建了 CodePal，一个内部 AI 代码审查助手，目前覆盖 90% 的 PR。该系统旨在理解 Snap 内部工作流，提供快速反馈，减少人工审查负担。这反映了行业从\"AI 生成代码”向\"AI 审查代码”的转变趋势，解决了速度提升带来的技术债务风险。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Enterprise"
-    ],
-    "link": "https://eng.snap.com/codepal",
-    "date": "2026-06-07",
-    "id": "17808556257281"
-  },
-  {
-    "title": "AbTARS：具备自愈能力的自托管 AI 代理",
-    "summary": "开源项目 AbTARS 推出自托管 AI 代理，支持持久记忆与 5 层自愈机制。",
-    "detail": "AbTARS 是一个自托管 AI 代理桥接项目，连接 LLM 与 Telegram/Discord 等通讯工具。其核心特色包括持久化记忆、5 层自愈监督机制及点对点通信能力。项目强调数据隐私与零闲置成本，允许用户在本地硬件上运行全天候代理。适合关注数据主权、希望部署自主代理且不愿依赖云端服务的开发者尝试。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "OpenSource"
-    ],
-    "link": "https://github.com/aksika/abtars",
-    "date": "2026-06-07",
-    "id": "17808556257282"
   }
 ]
