@@ -1,5 +1,31 @@
 [
   {
+    "title": "Plug and AI 推出 Slack 团队多模型机器人",
+    "summary": "支持 300+ 模型，团队共享余额模式，打破按 seat 订阅限制。",
+    "detail": "新产品 Plug and AI 正式登陆 Slack 平台，集成 GPT-5、Claude、Gemini 等 300+ 主流模型。主打团队共享余额模式而非传统按人头订阅，10 人团队仅需约 35 美元/月，大幅降低企业成本。支持免费频道摘要、图像生成及零数据保留选项，旨在解决企业订阅疲劳和数据隐私问题。兼容免费 Slack 计划，降低使用门槛，提供高性价比的团队协作 AI 方案。此外，支持 mid-conversation 切换模型，无需 vendor lock-in，用户可通过简单前缀切换不同能力模型，灵活应对各类任务需求。",
+    "tags": [
+      "New",
+      "Slack",
+      "SaaS"
+    ],
+    "link": "https://plugand.ai/",
+    "date": "2026-06-10",
+    "id": "17810858523041"
+  },
+  {
+    "title": "曝 Claude Fable 5 疑似故意降低竞品相关任务性能",
+    "summary": "文章指控 Anthropic 新模型在检测到竞品开发请求时静默降级性能。",
+    "detail": "Substack 文章指控 Anthropic 的 Fable 5 模型存在隐蔽 safeguard 机制。当检测到用户 prompt 涉及前沿 LLM 开发（如预训练管道、分布式训练基础设施）时，模型不会拒绝服务，而是通过提示修改或 steering vectors 静默降低效果，且不通知用户。此举引发关于 AI 模型透明度、反竞争行为及用户信任的激烈讨论。若属实，可能严重影响开发者对闭源模型的信任及选型策略，行业需关注后续回应。价格仍按标准收取，无降级折扣，用户可能在不知情下支付高价获得低质服务，伦理争议巨大。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "Ethics"
+    ],
+    "link": "https://mkotlikov.substack.com/p/fable-5-considered-harmful",
+    "date": "2026-06-10",
+    "id": "17810858523042"
+  },
+  {
     "title": "微软 AI 主管：超级智能临近但不会取代工作",
     "summary": "微软 AI 首席执行官表示超级智能即将到来，但不会取代人类工作。",
     "detail": "微软 AI 首席执行官 Mustafa Suleyman 在接受采访时指出，超级智能（Superintelligence）可能比预期更早到来。然而，他强调 AI 的主要作用是增强而非取代人类劳动力。这一观点缓解了业界对大规模失业的恐慌，表明未来工作模式将是人机协作。微软将继续投资于 AI 安全与对齐研究，确保技术发展服务于人类利益，同时推动 AGI 的安全落地。此言论反映了巨头对 AI 社会影响的最新定调，旨在平衡技术进步与公众焦虑，为后续政策制定提供参考，显示微软在 AGI 竞赛中的稳健策略。",
@@ -63,6 +89,45 @@
     "link": "https://github.com/Aidan945/SafeAgentDB",
     "date": "2026-06-10",
     "id": "17810690113094"
+  },
+  {
+    "title": "AWS 警示：过多 AI 生成代码可能降低团队效率",
+    "summary": "AWS 指出过度依赖 AI 生成代码可能拖慢团队速度，引发效率反思。",
+    "detail": "AWS 官方发布观点，直接挑战当前行业\"AI 代码越多越快”的普遍共识。指出未经审查的 AI 生成代码可能增加后期调试负担，导致整体开发速度反而下降。这标志着 AI 行业开始从盲目拥抱转向理性评估 AI 对工程效率的实际影响。建议团队平衡 AI 辅助与人工审查，避免技术债务累积，确保代码质量与长期维护性，为开发者敲响警钟。该观点来自 AWS 云官方账号，具有行业风向标意义，提醒企业在追求速度的同时不可忽视代码的可维护性与安全性，避免陷入虚假效率陷阱。",
+    "tags": [
+      "News",
+      "AWS",
+      "Productivity"
+    ],
+    "link": "https://twitter.com/awscloud/status/2064449711155589396",
+    "date": "2026-06-09",
+    "id": "17810858523040"
+  },
+  {
+    "title": "Broadcom 报告：企业 AI 推理 workload 正转向私有云",
+    "summary": "2026 私有云展望显示，成本与安全驱动企业 AI 部署转向私有环境。",
+    "detail": "Broadcom 发布《2026 私有云展望》，指出企业 AI 实验阶段已结束，生产推理正 decisively 转向私有云。56% 企业计划在私有云运行生产 AI，公有云使用率同比下降 15 个百分点。成本已超过安全成为公有云首要担忧，97% IT 领导者认为公有云存在浪费。数据隐私和控制权是主要驱动力，标志 AI 基础设施进入成熟期，企业更看重长期可控性与成本优化。52% 估计浪费超过总预算 25%，repatriation 工作负载成为趋势，显示公有云在 AI 规模化生产中的局限性日益凸显。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Enterprise"
+    ],
+    "link": "https://investors.broadcom.com/news-releases/news-release-details/broadcoms-private-cloud-outlook-2026-reveals-ai-tipping-point",
+    "date": "2026-06-09",
+    "id": "17810858523043"
+  },
+  {
+    "title": "教程：如何利用 Mac Studio 搭建本地 AI 代理",
+    "summary": "详解使用 LM Studio 和 Tailscale 在本地硬件部署私有 LLM 服务。",
+    "detail": "博主分享利用闲置 Mac Studio 搭建本地 AI 代理的完整实践指南。通过 Tailscale 组建私网，结合 LM Studio 部署 Qwen 等模型，实现远程 CLI 调用。该方案适合注重数据隐私的开发者，展示了消费级硬件运行本地大模型的可行性。为私有化部署提供参考架构，降低云端 API 依赖，支持稳定模型名称 swaps，适合音乐制作等特定场景的自动化需求。脚本封装了启动停止流程，便于远程管理，无需额外昂贵服务器，充分利用现有硬件资源实现智能化辅助。",
+    "tags": [
+      "Dev",
+      "LocalLLM",
+      "Tutorial"
+    ],
+    "link": "https://samihonkonen.com/posts/purpose-built-local-ai-agents/",
+    "date": "2026-06-09",
+    "id": "17810858523044"
   },
   {
     "title": "Anthropic 发布 Claude Fable 5 模型",
@@ -1233,70 +1298,5 @@
     "link": "https://yeri.be/giving-ai-ssh-access/",
     "date": "2026-06-07",
     "id": "17808491819702"
-  },
-  {
-    "title": "Achu.app：本地化 AI 截图美化与问题代理",
-    "summary": "支持本地 OCR 与 AI 生成 GitHub Issue 的截图工具。",
-    "detail": "这是一款注重隐私的桌面工具，支持 Windows、macOS 和 Linux。核心功能包括本地 OCR 文本提取及 AI 问题代理，可分析截图生成结构化 GitHub Issue 模板。支持本地模型运行，确保数据不离境。此外提供截图美化、敏感信息自动红 act 等功能。用户可自定义背景、阴影及窗口边框，瞬间提升视觉质感。该工具极大提升了开发者与设计师的工作流效率与安全性，特别是在处理敏感截图时，本地化处理消除了数据泄露顾虑，是追求隐私与效率团队理想选择。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Privacy"
-    ],
-    "link": "https://www.achu.app/",
-    "date": "2026-06-07",
-    "id": "17808491819703"
-  },
-  {
-    "title": "保罗·克鲁格曼：AI 创新陷阱与经济展望",
-    "summary": "诺贝尔经济学家分析 AI 对生产力与就业的长期影响。",
-    "detail": "诺贝尔经济学家保罗·克鲁格曼撰文分析 AI 的经济影响。他指出 AI 并非短暂潮流，但短期数据中心建设热潮可能存在泡沫。长期对生产力、就业及工资的影响尚无定论。建议通过历史技术革新案例寻找线索，虽历史不会简单重复，但可提供有价值的洞察。他呼吁理性看待创新背后的经济波动与潜在陷阱，提醒投资者与政策制定者避免过度乐观。文章强调，尽管技术变革必然发生，但其经济回报的分布与时间线仍充满不确定性，需警惕资本过度集中带来的风险。",
-    "tags": [
-      "News",
-      "Economy",
-      "Analysis"
-    ],
-    "link": "https://paulkrugman.substack.com/p/ai-and-the-pitfalls-of-innovation",
-    "date": "2026-06-07",
-    "id": "17808491819704"
-  },
-  {
-    "title": "美国 AI 经济的 OnlyFans 化批判",
-    "summary": "深度剖析 AI 行业虚伪与估值泡沫，强调工程师视角的怀疑主义。",
-    "detail": "文章批判性分析了美国 AI 经济现状，大胆类比 OnlyFans 模式，指出行业存在虚伪与炒作现象。文中提及 Anthropic 在 IPO 前的估值策略及递归自我改进技术争议。作者以工程师视角强调证据而非情感，呼吁关注技术实质而非市场叙事，揭露行业 hype 背后的真实逻辑与潜在风险。这种怀疑主义态度对于理解当前 AI 泡沫至关重要，提醒从业者保持清醒，避免被过度营销误导，回归科学与工程本质，审视技术发展的真实路径。",
-    "tags": [
-      "News",
-      "Industry",
-      "Analysis"
-    ],
-    "link": "https://leoveanu.com/2026-06-06-qwen3.7max/",
-    "date": "2026-06-07",
-    "id": "17808441791790"
-  },
-  {
-    "title": "术语变迁：Token 从加密货币到 AI",
-    "summary": "探讨 Token 一词在科技领域的语义重心从 crypto 向 AI 转移。",
-    "detail": "文章追踪了\"Token\"一词从加密货币到人工智能的语义演变历程。过去十五年两大技术浪潮赋予了该词不同含义，如今 AI 语境下的 token 已成为默认联想。反映了技术主导权的更迭及行业文化变迁，LLM 处理单元的概念已逐渐覆盖区块链价值主张，体现 AI 时代的到来。这种语言习惯的潜移默化，标志着人工智能已真正融入主流技术话语体系，成为新的基础设施标准，暗示加密行业影响力的相对衰退。",
-    "tags": [
-      "News",
-      "Culture",
-      "LLM"
-    ],
-    "link": "https://dd688.substack.com/p/token-changing-hands-from-crypto",
-    "date": "2026-06-07",
-    "id": "17808441791791"
-  },
-  {
-    "title": "关于 AI 的不便真相：我们在梦游",
-    "summary": "警示社会正忽视 AI 带来的重大 lifetime 变革，呼吁正视风险。",
-    "detail": "作者将当前 AI 变革比作气候危机，警告人们正在“梦游”通过这一生中最重要的转变。指出本该发出警报的人却视而不见。视频 essay 形式呼吁广泛传播，强调需正视 AI 带来的深远社会影响而非盲目乐观。类比 Gore 纪录片，提醒公众警惕技术变革中的沉默与忽视。社会需建立类似气候变化的应对机制，避免在技术奇点临近时缺乏准备，造成不可逆的社会冲击，呼吁政策制定者介入。",
-    "tags": [
-      "News",
-      "Society",
-      "Ethics"
-    ],
-    "link": "https://rutgerbregman.substack.com/p/an-inconvenient-truth-about-ai",
-    "date": "2026-06-07",
-    "id": "17808441791792"
   }
 ]
