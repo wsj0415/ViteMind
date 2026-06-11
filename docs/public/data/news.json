@@ -1,5 +1,70 @@
 [
   {
+    "title": "斯坦福发布 AI 就业影响仪表盘",
+    "summary": "斯坦福数字经济实验室更新 AI 对劳动力市场影响的仪表盘数据。",
+    "detail": "斯坦福数字经济实验室更新了\"Canaries Dashboard\"，基于 Brynjolfsson 等人的研究，展示不同职业和经验水平的工人受 AI 替代或增长的影响。该仪表盘作为劳动力市场的领先指标，帮助观察生成式 AI 普及后的就业趋势变化。历史上技术对不同任务影响各异，此数据可为政策制定和企业战略提供实证支持，揭示 AI 对劳动力市场的异质性效应。通过对比 ChatGPT 发布前后的就业数据，该工具旨在识别受 AI 冲击最早的“煤矿金丝雀”群体，为宏观经济学研究提供新视角。",
+    "tags": [
+      "News",
+      "Economy",
+      "Labor Market"
+    ],
+    "link": "https://digitaleconomy.stanford.edu/project/indicators/canaries-dashboard/",
+    "date": "2026-06-11",
+    "id": "17812202344090"
+  },
+  {
+    "title": "OpenDream：开源 AI 代理本地记忆系统",
+    "summary": "开源项目 OpenDream 提供本地优先的 AI 代理记忆与梦境自动化功能。",
+    "detail": "OpenDream 是一个开源项目，旨在为 AI 代理提供本地优先的记忆存储与“梦境”自动化功能。它允许代理跨项目、工具和会话保留有用的上下文，同时保持边界和来源可见。“梦境”指后台记忆审查和清理，而非黑盒模型行为。支持 Python 3.11+，Apache 2.0 许可，适合构建具有长期记忆能力的自主代理系统。该项目强调记忆的可审查性和便携性，解决了封闭产品记忆不透明的问题，为开发者提供了控制代理上下文演进的透明工具，促进本地化 AI 部署的安全性与隐私保护。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Open Source"
+    ],
+    "link": "https://github.com/pylit-ai/opendream",
+    "date": "2026-06-11",
+    "id": "17812202344091"
+  },
+  {
+    "title": "AWS 开源 GEDD：AI 代理评估开发框架",
+    "summary": "AWS  samples 发布 GEDD，用于 AI 代理的基于评估的开发流程。",
+    "detail": "AWS 开源了 GEDD (Grounded Eval-Driven Development)，这是一个面向 AI 产品经理和领域专家的评估驱动开发工作台。它允许用户在发布前加载真实的启动风险场景，审查代理表现，命名失败模式，并生成工程可用的验证报告。解决了传统评估工作流中 reviewers 难以评分原始 trace 的问题，提升代理交付质量。该工具强调在缺乏既定评分标准前先定性评估，帮助团队在早期发现代理错误，确保 AI 应用在关键场景下的可靠性与安全性，降低生产环境中的幻觉风险。",
+    "tags": [
+      "Dev",
+      "Evaluation",
+      "AWS"
+    ],
+    "link": "https://github.com/aws-samples/sample-GEDD",
+    "date": "2026-06-11",
+    "id": "17812202344092"
+  },
+  {
+    "title": "深度分析：AI 泡沫破裂会是怎样的景象？",
+    "summary": "The Big Newsletter 撰文分析 AI 泡沫破裂可能对金融市场造成的影响。",
+    "detail": "The Big Newsletter 发表文章探讨 AI 泡沫破裂的潜在景象及其是否会导致更广泛的金融崩溃。文章类比了互联网泡沫、2008 年金融危机等历史事件，指出当前股市与实体经济脱节，治理往往发生在危机之后。分析认为理解 AI 技术治理与金融泡沫治理的区别至关重要，为投资者提供了风险视角。作者认为虽然 2008 年和疫情有参考价值，但互联网泡沫时期的经验更为贴切，提醒市场关注投机活动与道德价值活动的失衡风险，警示资本过度集中可能带来的系统性隐患。",
+    "tags": [
+      "News",
+      "Market",
+      "Analysis"
+    ],
+    "link": "https://www.thebignewsletter.com/p/what-would-it-look-like-if-the-ai",
+    "date": "2026-06-11",
+    "id": "17812202344093"
+  },
+  {
+    "title": "构建 AI 友好型公司文档的最佳实践",
+    "summary": "PAX ERP 分享如何制作便于 AI 系统读取和导航的公司文档。",
+    "detail": "PAX ERP 博客分享了构建\"AI 友好型”公司文档的技术选择。他们同时维护人类可读的网页版文档和 AI 可读的核心信息格式（如 clean links, minimal noise）。这种双重结构确保 AI 系统能准确抓取、导航和引用信息，反映了企业为适应 AI 代理自动化操作而优化数字基础设施的新趋势。此举不仅实用，也包含哲学考量，旨在礼貌对待未来的机器领导者，确保文档结构预测性强，减少 AI 解析噪音，提升自动化工作流的效率与准确性，是 AI 原生企业建设的重要一步。",
+    "tags": [
+      "Dev",
+      "Documentation",
+      "Best Practice"
+    ],
+    "link": "https://www.paxerp.com/blog/ai-friendly-company-docs",
+    "date": "2026-06-11",
+    "id": "17812202344094"
+  },
+  {
     "title": "IndexedAI 上线：为 AI Agent 优化网站可读性",
     "summary": "生成 llms.txt 与 MCP 端点，让网站更易被 AI 抓取。",
     "detail": "IndexedAI 推出新工具，旨在解决网站被 AI Agent 抓取难的问题。通过爬虫分析生成 Agent Readiness Score，自动创建 `llms.txt` 文件并提供 live MCP endpoint。支持 Claude Desktop 等客户端直接连接，无需 API Key。此外提供 AI 流量分析，追踪不同模型（如 Claude、GPT-4o）的访问数据。这对优化 SEO for AI 及监控 AI 流量具有重要意义。随着 AI 搜索兴起，网站需主动适配 Agent 协议，该工具提供了标准化解决方案，帮助开发者量化网站对 AI 的友好度并获取实时访问洞察。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.citationneeded.news/tech-influence-watch/",
     "date": "2026-06-08",
     "id": "17811015056750"
-  },
-  {
-    "title": "AtlasForgeX：本地化 AI 驱动 B2B 潜客发现工具",
-    "summary": "无需 API 密钥，本地运行发现竞争对手看不见的 B2B 买家。",
-    "detail": "AtlasForgeX 是一款创新的桌面端 B2B 线索发现工具，主打本地化处理与隐私保护。它利用多搜索引擎、国家注册表和招聘数据，发现 Apollo 等主流数据库遗漏的新兴公司。无 API 密钥、无订阅限制，支持 87 个国家全球拓展。工具能识别招聘、融资、市场扩张等 7 种行为信号，为销售团队提供差异化数据源，避免共享列表的竞争红海。本地运行确保数据安全，帮助企业在隐形市场中找到高价值买家，提升销售转化效率。",
-    "tags": [
-      "New",
-      "B2B",
-      "Sales"
-    ],
-    "link": "https://atlasforgex.com/",
-    "date": "2026-06-08",
-    "id": "17811015056751"
-  },
-  {
-    "title": "马斯克称 SpaceX 无需“魔法”即可将 AI 数据中心送入太空",
-    "summary": "马斯克表示 SpaceX 有能力在太空部署 AI 数据中心，无需依赖奇迹，引发基础设施新猜想。",
-    "detail": "埃隆·马斯克最新声明指出，SpaceX 具备将 AI 数据中心部署至太空的技术能力，无需依赖“魔法”。这一言论暗示太空计算基础设施可能成为现实，旨在解决地球能源与散热限制。随着 AI 模型对算力需求激增，地面数据中心面临瓶颈，太空环境或提供新方案。此举若实施，将彻底改变 AI 算力布局，但面临高昂发射成本与维护挑战。行业需关注太空边缘计算的未来可行性及商业闭环，这可能是继星链后的又一重大基础设施变革。",
-    "tags": [
-      "News",
-      "SpaceX",
-      "Infrastructure"
-    ],
-    "link": "https://www.marketwatch.com/story/elon-musk-says-spacex-doesnt-need-magic-to-put-ai-data-centers-up-in-space-30f2d564",
-    "date": "2026-06-08",
-    "id": "17809637615620"
-  },
-  {
-    "title": "OpenAI 递交 IPO 文件，山姆·阿尔特曼旗下公司却面临裁员",
-    "summary": "OpenAI 推进上市进程，但阿尔特曼的生物识别公司 Tools for Humanity 因营收不佳裁员。",
-    "detail": "在 OpenAI 正式递交 IPO 文件之际，其 CEO 山姆·阿尔特曼旗下的另一家身份验证公司 Tools for Humanity 却传出裁员消息。据报道，该公司因难以产生足够营收而决定缩减团队。这反映了 AI 热潮下不同细分领域的冷暖差异，生物识别与隐私合规的商业化路径仍具挑战，与生成式 AI 的爆发形成鲜明对比。投资者需警惕 AI 生态链中非核心业务的风险，关注企业现金流与实际落地能力，而非仅凭概念估值。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "IPO"
-    ],
-    "link": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
-    "date": "2026-06-08",
-    "id": "17809637615621"
-  },
-  {
-    "title": "苹果 WWDC AI 演示在虚假广告和解后显得更真实",
-    "summary": "苹果在 WWDC 展示 AI 功能，此前因虚假广告和解 2.5 亿美元，此次演示更务实。",
-    "detail": "苹果在 2026 年 WWDC 上的 AI 演示被认为比以往更真实，此前公司曾因虚假广告支付 2.5 亿美元和解金。此次 keynote 展示了用户手持手机的实际 AI 应用场景，避免了过度承诺。这表明苹果在 AI 营销上趋于谨慎，注重实际交付能力，以重建消费者信任。对行业而言，这是一个信号：AI 产品宣传需回归落地体验，合规与真实性将成为大厂竞争的新维度，避免重蹈覆辙。",
-    "tags": [
-      "News",
-      "Apple",
-      "Marketing"
-    ],
-    "link": "https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/",
-    "date": "2026-06-08",
-    "id": "17809637615622"
-  },
-  {
-    "title": "AI 已破坏招聘流程，哈佛商业评论提出修复方案",
-    "summary": "生成式 AI 让求职者轻易伪造简历与面试表现，招聘系统面临系统性漏洞。",
-    "detail": "哈佛商业评论指出，生成式 AI 使求职者能轻松生成完美简历并实时作弊面试，导致招聘漏斗两端失效。研究显示，传统面试的真实性正被 compromised，企业需重新设计评估流程。研究分析了 6000 多场筛选会话，发现系统性漏洞。这对 HR tech 行业提出新需求，即开发反 AI 作弊的评估工具与流程。未来招聘将更侧重深层能力验证，而非表面输出，人力评估标准需彻底重构。",
-    "tags": [
-      "News",
-      "HR",
-      "Ethics"
-    ],
-    "link": "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it",
-    "date": "2026-06-08",
-    "id": "17809637615623"
   }
 ]
