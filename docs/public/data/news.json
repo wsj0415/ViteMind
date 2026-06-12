@@ -1,5 +1,83 @@
 [
   {
+    "title": "工程师不惧 AI 技术本身，恐沦为初级开发者",
+    "summary": "文章类比 1976 年计算器争议，指出工程师担心 AI 削弱其核心思考能力与职业价值。",
+    "detail": "文章援引 1976 年数学教师反对计算器的历史，类比当前工程师对 AI 的焦虑。核心恐惧并非技术本身，而是依赖 AI 可能导致基础能力退化，使资深工程师沦为“初级”水平。研究表明技术辅助可提升概念知识，但计算技能可能受损。行业需重新定义工程师价值，从单纯编码转向架构设计与问题解决。管理者应引导团队利用 AI 增强而非替代核心思维，避免技术依赖带来的长期职业风险。这种心理障碍若未解决，将阻碍 AI 工具在企业内的深度整合与应用，影响技术转型的成败。",
+    "tags": [
+      "News",
+      "Dev",
+      "Career"
+    ],
+    "link": "https://www.andykelk.net/leadership/your-engineers-arent-afraid-of-ai-theyre-afraid-of-being-junior-again/",
+    "date": "2026-06-12",
+    "id": "17812372428072"
+  },
+  {
+    "title": "MandoCode：本地优先的.NET AI 编码代理",
+    "summary": "基于 Ollama 和 Semantic Kernel 的本地 CLI 编码代理，无需 API Key 即可重构代码。",
+    "detail": "MandoCode 是一款面向.NET 开发者的本地优先 AI 编码代理，支持 CLI 运行。基于 Ollama 和 Semantic Kernel 构建，无需 API Key 即可在本地或云端安全运行。功能包括代码重构、差异提议及项目更新。该工具强调了数据隐私和本地化部署的趋势，适合对代码安全性要求较高的企业开发环境。开源特性允许社区贡献，推动.NET 生态与本地 LLM 的结合，降低 AI coding 门槛。为希望在不泄露代码前提下体验 AI 辅助开发的团队提供了新选择，展示了端侧智能的潜力。",
+    "tags": [
+      "Dev",
+      "New",
+      ".NET"
+    ],
+    "link": "https://github.com/DevMando/MandoCode",
+    "date": "2026-06-12",
+    "id": "17812372428073"
+  },
+  {
+    "title": "SwiPR：结合 AI 上下文的 GitHub PR 滑动审查工具",
+    "summary": "通过滑动界面审查 PR，提供 AI 风险评估、类似历史 PR 及测试覆盖上下文。",
+    "detail": "SwiPR 解决了 AI 生成代码泛滥导致的 PR 审查瓶颈问题。作为 Claude MCP 插件，它提供滑动 UI 审查 GitHub PR，集成 AI 上下文分析。功能包括风险评分、AI 摘要、相似历史 PR 对比及测试覆盖查询。该工具旨在帮助维护者和 AI 代理快速判断代码合并安全性，优化开发工作流。通过可视化上下文，减少审查认知负荷，适应高频率代码提交的新常态。其 MCP 架构支持扩展，可融入现有 DevOps pipeline，提升协作效率，是 AI 时代代码审查流程的创新尝试。",
+    "tags": [
+      "Dev",
+      "New",
+      "GitHub"
+    ],
+    "link": "https://github.com/nochinxx/SwiPR",
+    "date": "2026-06-12",
+    "id": "17812372428074"
+  },
+  {
+    "title": "Emilia Protocol：基于 Face ID 的 AI 代理操作授权",
+    "summary": "实现人机回环安全机制，用户需通过 Face ID 批准 AI 代理的关键操作如转账。",
+    "detail": "Emilia Protocol 展示了 AI 代理安全授权的新方案。用户需通过个人设备上的 Face ID 批准代理操作（如 wire transfer），并在浏览器中实时验证批准过程。基于 WebAuthn 标准，无数据上传，确保操作由真实人类授权。这解决了 AI 代理自主行动带来的安全风险，为代理经济提供了身份验证基础设施。随着 AI 代理权限扩大，此类人机回环机制将成为关键安全组件。该协议强调了隐私保护，验证过程本地完成，防止敏感生物信息泄露，为可信代理交互树立标杆。",
+    "tags": [
+      "Dev",
+      "New",
+      "Security"
+    ],
+    "link": "https://www.emiliaprotocol.ai/try",
+    "date": "2026-06-12",
+    "id": "17812372428075"
+  },
+  {
+    "title": "前 a16z 合伙人抨击风投界政治渗透 AI 领域",
+    "summary": "前 Andreessen Horowitz 合伙人公开批评旧东家及 VC 同行在 AI 领域的政治渗透行为。",
+    "detail": "前 a16z 合伙人接受 CNBC 采访，严厉抨击原公司及风险投资同行在人工智能领域的“政治渗透”。这一言论揭示了 AI 投资圈内部对于政策影响力和意识形态分歧的加剧。随着 AI 技术快速发展，资本界对于监管方向和技术伦理的博弈日益激烈，可能影响未来 AI 初创企业的融资环境及政策走向。此类内部冲突表明，AI 行业不仅面临技术挑战，还需应对复杂的政治与资本关系，投资者需警惕非技术因素对项目估值的干扰。这可能导致 VC 决策更加谨慎，或加速行业洗牌，改变硅谷传统的投资逻辑与创业生态。",
+    "tags": [
+      "News",
+      "VC",
+      "Policy"
+    ],
+    "link": "https://www.cnbc.com/2026/06/11/ex-a16z-partner-slams-old-firm-othes-political-infiltration-in-ai.html",
+    "date": "2026-06-11",
+    "id": "17812372428070"
+  },
+  {
+    "title": "研究称 AI 未提升开发者生产力反而使其更忙碌",
+    "summary": "MIT 研究发现 AI 使代码量激增 741%，但发布量仅增 20%，瓶颈转向代码后环节。",
+    "detail": "麻省理工学院与沃顿商学院的研究分析了 10 万名 GitHub 开发者，发现 AI 编码工具虽使任务级生产力飙升，但并未转化为实际发布效率。代码编写量增加 741%，releases 仅增 20%。瓶颈已转移至代码审查、测试及部署环节。开发者角色正从编写代码转向评估代码，这对工程管理工作流提出了新挑战。企业需优化审查流程，而非单纯追求代码生成速度，以确保软件交付质量与稳定性。该研究为 AI 落地提供了冷静视角，提示管理者关注全链路效率，避免陷入虚假繁荣的代码产量陷阱，重新定义研发效能指标。",
+    "tags": [
+      "News",
+      "Dev",
+      "Productivity"
+    ],
+    "link": "https://leaddev.com/ai/ai-isnt-making-developers-more-productive-its-making-them-busier",
+    "date": "2026-06-11",
+    "id": "17812372428071"
+  },
+  {
     "title": "斯坦福发布 AI 就业影响仪表盘",
     "summary": "斯坦福数字经济实验室更新 AI 对劳动力市场影响的仪表盘数据。",
     "detail": "斯坦福数字经济实验室更新了\"Canaries Dashboard\"，基于 Brynjolfsson 等人的研究，展示不同职业和经验水平的工人受 AI 替代或增长的影响。该仪表盘作为劳动力市场的领先指标，帮助观察生成式 AI 普及后的就业趋势变化。历史上技术对不同任务影响各异，此数据可为政策制定和企业战略提供实证支持，揭示 AI 对劳动力市场的异质性效应。通过对比 ChatGPT 发布前后的就业数据，该工具旨在识别受 AI 冲击最早的“煤矿金丝雀”群体，为宏观经济学研究提供新视角。",
@@ -1220,83 +1298,5 @@
     "link": "https://kaku.fun/",
     "date": "2026-06-09",
     "id": "17810088286624"
-  },
-  {
-    "title": "苹果 WWDC 2026 发布 Siri AI 与 Core AI 库",
-    "summary": "苹果发布新一代 Siri AI，许可 Gemini 模型，推出 Core AI 库支持 PyTorch。",
-    "detail": "苹果在 WWDC 2026 上 unveiled 新一代 Apple Intelligence。Siri AI 采用许可的 Gemini 衍生模型，利用 Vision LLM 读取屏幕信息，无需应用定制代码。核心亮点是 Core AI 库，通过 `coreai-torch` 桥接 PyTorch，使开发者能在苹果硬件上运行自定义模型，映射 ATen 操作符到 Core AI 操作。iOS 27 开发者 Beta 已开放，但 Siri AI 需排队访问。鉴于 2024 年承诺未完全兑现，此次发布更显谨慎可行。Private Cloud Compute 架构确保数据处理安全，为开发者提供了利用苹果硬件运行模型的标准路径，可能改变移动端 AI 开发生态。",
-    "tags": [
-      "News",
-      "Apple",
-      "LLM"
-    ],
-    "link": "https://simonwillison.net/2026/Jun/8/wwdc/",
-    "date": "2026-06-09",
-    "id": "17809817307260"
-  },
-  {
-    "title": "app.nz 推出 AI 代理云编程平台",
-    "summary": "一站式 AI 代理云平台，支持代码生成、测试、PR 提交及应用部署。",
-    "detail": "app.nz 定位为软件交付的 AI 代理云。用户可创建任务，代理自动分支、编辑代码、运行测试并开启 PR。平台集成 15+ 模型提供商，支持 GitHub 同步、GPU 推理托管及 Cog 容器部署。特色功能包括 Web 搜索代理、论文搜索及统一 API 路由。旨在简化全栈 AI 应用的基础设施搭建，实现从代码生成到部署的自动化闭环。提供静态站点、容器、API 及 Worker 部署，支持 HTTPS 预览 URL。Cog Studio 允许将容器部署为零扩展 GPU 端点，带有生成表单和清晰计费，适合研发及代理场景。",
-    "tags": [
-      "New",
-      "Agent",
-      "DevOps"
-    ],
-    "link": "https://app.nz/",
-    "date": "2026-06-09",
-    "id": "17809817307261"
-  },
-  {
-    "title": "开源本地防火墙 Guardian Runtime 保护 AI 代理",
-    "summary": "本地 FinOps 与安全代理，控制 AI 编码代理预算并防止敏感信息泄露。",
-    "detail": "Guardian Runtime 是一款开源本地防火墙，专为 Claude Code 等 AI 编码代理设计。它作为本地代理拦截请求，提供硬预算控制（超支断网）、本地扫描（拦截 API 密钥/PII 泄露）及简洁模式（优化提示词降低 40-70% 输出成本）。完全本地运行无云依赖，支持 OpenAI、Anthropic 等模型。解决了 AI 代理失控消费及安全泄露的核心痛点。用户只需将代理指向 localhost:8080 即可使用。通过 `pip install` 安装，支持即时丢弃包含泄露密钥的请求，优化系统提示词强制更短回答，显著降低 API 输出成本。",
-    "tags": [
-      "Dev",
-      "Security",
-      "OpenSource"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48456339",
-    "date": "2026-06-09",
-    "id": "17809817307262"
-  },
-  {
-    "title": "VirusTotal 集成 Knostic 增强 AI 供应链安全",
-    "summary": "病毒总动员手 Knostic，利用 AI 分析 VS Code 扩展插件的安全风险。",
-    "detail": "VirusTotal 宣布与 Knostic 合作，在其众包 AI  lineup 中加入 AgentMesh 引擎。重点分析 Visual Studio Code 扩展文件 (.VSIX)，识别供应链威胁。提供独立的安全评估、明确的风险 verdict ( benign/suspicious/malicious) 及风险等级。此举针对 IDE 基 AI 助手普及带来的扩展插件恶意代码风险，帮助开发者在安装前检测后门及凭证窃取行为。安全团队可使用新索引操作符如 `knostic_ai_verdict` 在 VT Intelligence 中搜索过滤。弥补了现有 Code Insight 不足，增强对扩展文件的安全 profile 理解。",
-    "tags": [
-      "News",
-      "Security",
-      "AI Safety"
-    ],
-    "link": "https://blog.virustotal.com/2026/06/crowdsourced-ai-knostic.html",
-    "date": "2026-06-09",
-    "id": "17809817307263"
-  },
-  {
-    "title": "行业探讨：如何设计 AI 原生技术面试",
-    "summary": "随着 AI 编写代码普及，技术面试需转向考察代码阅读与架构理解能力。",
-    "detail": "文章指出传统技术面试已无法筛选适应 AI 时代的工程师。当 AI 生成大部分代码时，工程师的核心能力转变为 fluently 阅读代码及理解架构，而非单纯编写。面试应考察候选人能否跟上 AI 生成速度，以及跨语言/领域调整代码的能力。强调“告诉模型想要什么”与“告诉人类”是相同技能，行业需重新定义工程师的价值评估标准。技术筛选需低成本高信号，一致性至关重要。后端工程师可能需修改前端代码，模型使跨领域工作更廉价，因此阅读代码 fluency 比编写速度更重要，无法跟上生成速度意味着只能批准而非主导工作。",
-    "tags": [
-      "Dev",
-      "Industry",
-      "Career"
-    ],
-    "link": "https://i0exception.substack.com/p/designing-an-ai-native-technical",
-    "date": "2026-06-09",
-    "id": "17809817307264"
-  },
-  {
-    "title": "科技影响力观察：AI 游说紧随加密货币之后",
-    "summary": "AI 行业正效仿加密货币游说策略，投入巨资影响政治。",
-    "detail": "Molly White 正式推出 Tech Influence Watch 项目，旨在追踪科技行业对政治的影响力。数据显示，加密货币和 AI 公司在本选举周期花费超 4 亿美元游说国会。文章警告 AI 行业正效仿加密货币策略，通过资助政客换取监管便利，甚至直接获取白宫职位。这种趋势威胁民主制度，项目致力于让巨额游说支出透明化，警示公众科技巨头对政治的渗透正在加剧。此前加密货币行业已成功推动利于自身的立法，AI 行业若步后尘，将深刻影响未来技术监管格局与公共利益平衡。",
-    "tags": [
-      "News",
-      "Politics",
-      "Lobbying"
-    ],
-    "link": "https://www.citationneeded.news/tech-influence-watch/",
-    "date": "2026-06-08",
-    "id": "17811015056750"
   }
 ]
