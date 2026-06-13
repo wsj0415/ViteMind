@@ -1,5 +1,83 @@
 [
   {
+    "title": "亚马逊 CEO  reportedly 引发 Anthropic 模型安全审查",
+    "summary": "亚马逊 CEO  reportedly 向政府反映安全担忧，致 Anthropic 切断模型访问。",
+    "detail": "报道指出亚马逊 CEO Andy Jassy 可能是导致 Anthropic 周五切断全球两个模型访问的安全担忧来源。这一事件标志着科技巨头与政府监管之间的互动加剧，可能引发 AI 模型访问权限的进一步收紧。对于依赖 Anthropic API 的企业而言，这意味着供应链风险增加，需重新评估模型部署的合规性与稳定性。此外，这也暗示了云服务商在 AI 模型分发中的关键 gatekeeper 角色，全球 AI 部署策略或将因此产生深远影响，企业需准备备用方案。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "Regulation"
+    ],
+    "link": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+    "date": "2026-06-13",
+    "id": "17813788934520"
+  },
+  {
+    "title": "以色列 AI 监控突破重塑全球情报格局",
+    "summary": "以色列在伊朗的 AI 监控技术突破，正在重新定义全球情报收集方式。",
+    "detail": "该新闻报道了以色列在伊朗取得的 AI 监控技术突破，这一进展正在重塑全球情报格局。虽然具体技术细节未公开，但此类地缘政治中的 AI 应用表明，AI 技术已成为国家安全的核心竞争力。这可能引发各国在 AI 监控与反监控领域的军备竞赛，同时也引发了关于 AI 伦理与隐私侵犯的全球性讨论，情报机构的技术优势正在被 AI 算法重新定义，传统人力情报面临转型压力。",
+    "tags": [
+      "News",
+      "Surveillance",
+      "Geopolitics"
+    ],
+    "link": "https://www.calcalistech.com/ctechnews/article/h17rby8bge",
+    "date": "2026-06-13",
+    "id": "17813788934521"
+  },
+  {
+    "title": "GuruOS：首个面向信息业务的 AI 代理操作系统",
+    "summary": "GuruOS 推出首个 AI 代理操作系统，整合课程、社区与流量管理。",
+    "detail": "GuruOS 定位为面向信息业务的首个代理操作系统，旨在解决 AI 工具碎片化问题。它通过协调一组 AI 代理，在同一仪表盘中完成课程构建、社区管理及流量部署。相比传统 Kajabi+ChatGPT 堆栈，它试图实现工作流闭环，降低创作者在不同平台间切换的认知负荷与数据丢失风险。这对于知识付费创作者而言，可能意味着运营效率的显著提升，但也需关注其实际代理协作能力的稳定性。",
+    "tags": [
+      "New",
+      "Agent",
+      "SaaS"
+    ],
+    "link": "https://guruailab.com/",
+    "date": "2026-06-13",
+    "id": "17813788934522"
+  },
+  {
+    "title": "社区热议：AI 行业是否迎来“三位一体”时刻？",
+    "summary": "HN 社区讨论美国政府禁令是否标志 AI_race_ 进入武器化阶段。",
+    "detail": "Hacker News 社区热议美国禁止访问 Fable 模型是否构成 AI 界的“三位一体”时刻。讨论指出政府干预模型访问、基于公民身份限制使用等行为，标志着 AI 竞赛进入武器化与强监管阶段。用户担忧这将导致全球 AI 开放度下降，各国可能效仿实施基于国籍的模型访问限制。这种信任危机可能加速开源模型的发展，促使开发者寻求不受单一政府管辖的技术方案，行业分裂风险加剧。",
+    "tags": [
+      "News",
+      "Policy",
+      "Community"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48519780",
+    "date": "2026-06-13",
+    "id": "17813788934523"
+  },
+  {
+    "title": "Eywa：基于来源追溯的 AI 代理长期记忆架构",
+    "summary": "新论文提出 Eywa 架构，为 AI 代理提供可审计的长期记忆。",
+    "detail": "arXiv 论文提出 Eywa，一种基于来源追溯的内存架构，旨在解决 AI 代理长期记忆中的幻觉与审计难题。Eywa 在生成事实前存储不可变源证据，并通过确定性多路线读取路径检索上下文，无需在检索过程中调用 LLM。基准测试显示其在 LoCoMo 和 LongMemEval 上表现优异，为构建可信代理系统提供了新方向。这种“证据优先于信念”的设计，使得错误诊断更加容易，区分是证据缺失还是模型行为问题。",
+    "tags": [
+      "Dev",
+      "Paper",
+      "Agent"
+    ],
+    "link": "https://arxiv.org/abs/2605.30771",
+    "date": "2026-06-13",
+    "id": "17813788934524"
+  },
+  {
+    "title": "本地部署开源 AI 实现 podcast 自动转录教程",
+    "summary": "使用 WhisperX 与 pyannote.audio 在本地完成高质量语音转录。",
+    "detail": "本教程展示了如何利用开源模型在本地笔记本电脑上完成旧 podcast 的转录。方案结合 WhisperX 进行语音转文本，并使用 pyannote.audio 处理说话人分离（Diarization）。相比 2016 年的云服务方案，该本地栈无需 API 费用即可实现高质量转录，为开发者提供了隐私友好且低成本的音频处理实践指南。这对于希望数据不出境的开发者尤为有用，展示了本地 AI 推理能力的显著提升。",
+    "tags": [
+      "Dev",
+      "Tutorial",
+      "OpenSource"
+    ],
+    "link": "https://ma.ttias.be/transcribing-syscast-with-local-ai/",
+    "date": "2026-06-13",
+    "id": "17813788934525"
+  },
+  {
     "title": "美国政府强制 Anthropic 关闭最强 AI 模型",
     "summary": "商务部下令暂停 Claude Fable 5 及 Mythos 5 全球访问，因网络安全风险。",
     "detail": "2026 年 6 月 12 日，美国商务部致信 Anthropic CEO，要求立即暂停向所有外国国民提供 Claude Fable 5 和 Mythos 5 模型。原因是 Mythos 5 具备高级进攻性网络安全能力，可将新发现漏洞在数小时内转化为可利用代码。由于无法实时验证用户国籍，Anthropic 被迫选择全球禁用。此事件标志着 AI 安全监管的重大转折，显示政府对前沿模型能力的警惕。这不仅影响 Anthropic 的商业化进程，也可能引发行业合规成本上升，迫使其他实验室重新评估模型发布策略与安全对齐标准。",
@@ -1220,83 +1298,5 @@
     "link": "https://blog.mccoy.io/workday-ruling-ai-screener-audit",
     "date": "2026-06-10",
     "id": "17811372618093"
-  },
-  {
-    "title": "纽约新规强制标注 AI 合成表演者",
-    "summary": "纽约广告法要求明确标识 AI 生成的合成 performer。",
-    "detail": "**法规更新**：纽约州通过新法，要求广告中必须标注 AI 生成的\"合成表演者\"，违者将面临处罚。\n\n**监管趋势**：旨在保护消费者知情权，防止深度伪造误导公众，维护市场诚信。\n\n**行业影响**：内容创作者及广告商需在制作流程中加入合规标识，增加了 AI 生成内容（AIGC）的商业使用成本。这是全球 AI 内容监管趋严的又一标志性事件，预示未来更多地区将跟进类似披露要求。合规成本上升可能加速行业洗牌，促使技术供应商提供更完善的溯源工具。",
-    "tags": [
-      "News",
-      "Regulation",
-      "AIGC"
-    ],
-    "link": "https://apnews.com/article/new-york-ai-law-hochul-synthetic-performers-e433625bfb61c8abeab0d619869192ed",
-    "date": "2026-06-10",
-    "id": "17811372618094"
-  },
-  {
-    "title": "YC 申请新增 AI 编程代理会话记录",
-    "summary": "Y Combinator 要求提交 AI 编码代理会话作为申请素材。",
-    "detail": "**政策变更**：Y Combinator 在 2026 夏季批次申请中，要求创业者提交使用 AI 编码代理的最佳会话记录作为评估材料。\n\n**核心意图**：评估创始人利用 AI 提升工程效率的能力及闭环反馈思维，而非单纯考察代码量。\n\n**行业信号**：顶级孵化器开始将 AI 工作流纳入核心评估标准，预示 AI 原生开发能力成为初创团队必备技能。开发者需适应人机协作的新范式，掌握 Prompt 工程与 Agent 调试能力。这将推动教育体系与开发工具链向 AI 协作方向快速演进。",
-    "tags": [
-      "Dev",
-      "Startup",
-      "Workflow"
-    ],
-    "link": "https://vmysla.substack.com/p/closing-the-loop-one-impressive-ai",
-    "date": "2026-06-10",
-    "id": "17811372618095"
-  },
-  {
-    "title": "苹果 WWDC 2026：端侧 AI 模型与操作系统 hypervisor 化",
-    "summary": "苹果 200 亿参数模型登陆 iPhone，操作系统成为 LLM 管理程序。",
-    "detail": "WWDC 2026 揭示苹果 AI 战略重大转变。200 亿参数模型通过动态加载权重在 iPhone 运行，突破内存带宽限制。iOS 27 及 macOS 27 放弃离散 ML 任务，转向统一生成式计算架构。Siri 重构为系统级语义接口，跨应用处理数据。Apple Foundation Models 3 包含五个模型，涵盖端侧到云端。Core AI 框架专为 Transformer 设计，标志着生成式 AI 成为系统底层能力。这意味着苹果设备将具备更强的本地推理能力，减少云端依赖，同时为开发者提供了统一的生成式 AI 接口，可能重塑移动应用开发生态。操作系统成为 LLM 管理程序，控制生态系统的开发者将掌握主动权，隐私与性能得到显著提升。",
-    "tags": [
-      "News",
-      "Apple",
-      "On-Device AI"
-    ],
-    "link": "https://gist.is/docs.google.com/en/deqIp-AK6Oxc",
-    "date": "2026-06-10",
-    "id": "17811320540550"
-  },
-  {
-    "title": "xAI 工程师因警告 Grok 安全问题被解雇，提起诉讼",
-    "summary": "前 xAI 工程师起诉公司，称因在 SpaceX IPO 前揭露 Grok 安全隐患遭解雇。",
-    "detail": "新的法律诉讼指控 xAI 解雇了一名提出 Grok 安全警报的工程师。该事件发生在 SpaceX 历史性 IPO 前几天，引发了对 AI 安全与企业利益冲突的关注。诉讼涉及 xAI 和 SpaceX，凸显了高速发展的 AI 公司在安全合规与商业目标之间的潜在矛盾，可能影响后续监管审查。此案若属实，将迫使行业重新审视 AI 安全举报机制，增加投资者对治理风险的关注，并可能延缓相关产品的发布节奏。此外，这也反映了 AI 安全领域人才面临的职业风险，可能导致内部安全审查更加严格，影响创新速度。公众对 AI 安全信任度可能因此波动，监管机构的介入概率增加。",
-    "tags": [
-      "News",
-      "xAI",
-      "AI Safety"
-    ],
-    "link": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
-    "date": "2026-06-10",
-    "id": "17811320540551"
-  },
-  {
-    "title": "OpenAI 展示 Codex 助力天体物理学家模拟黑洞",
-    "summary": "亚利桑那大学研究员利用 Codex 改进黑洞模拟，突破计算限制。",
-    "detail": "OpenAI 博客介绍了天体物理学家 Chi-kwan Chan 使用 Codex 模拟黑洞的案例。作为事件视界望远镜（EHT）合作成员，Chan 利用 Codex 处理海量数据并优化计算工作流，以模拟极端物理环境。这展示了 AI 编程工具在科学研究中的实际应用，证明了 Codex 在处理复杂科学计算任务中的潜力。该案例表明 AI 不仅是消费级工具，更是科研加速器，有助于解决传统算法无法处理的极端物理模拟问题，推动科学发现。通过自动化代码生成，研究人员能更专注于物理理论而非工程实现，极大提升了科研效率，为未来 AI 赋能基础科学提供了范本。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Scientific Research"
-    ],
-    "link": "https://openai.com/index/using-codex-to-simulate-black-holes",
-    "date": "2026-06-10",
-    "id": "17811320540552"
-  },
-  {
-    "title": "OpenAI 指控与 PR 相关的影响力行动 targeting 美国 AI 辩论",
-    "summary": "OpenAI 发现与中国数据中心有关联的影响力行动试图干预美国 AI 政策讨论。",
-    "detail": "Business Insider 报道 OpenAI 发现针对美国 AI 辩论的影响力行动，声称与 PRC 有关联。这反映了 AI 技术竞争已延伸至地缘政治领域。此类行动旨在塑造公众舆论和政策方向，增加了 AI 行业发展的复杂性。企业需警惕信息安全与舆论环境，政府监管也可能因此收紧。这一事件凸显了 AI 技术背后的国家安全考量，可能导致跨国 AI 合作受阻，加剧技术脱钩趋势，影响全球 AI 供应链。政策制定者将面临更大压力，需平衡开放创新与国家安全，AI 行业的合规成本将显著上升，国际协作变得更加困难。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Geopolitics"
-    ],
-    "link": "https://www.businessinsider.com/openai-china-data-centers-influence-campaign-2026-6",
-    "date": "2026-06-10",
-    "id": "17811320540553"
   }
 ]
