@@ -1,5 +1,70 @@
 [
   {
+    "title": "政府干预 Anthropic 最强模型引发争议",
+    "summary": "因安全警告反噬，政府要求召回 Anthropic 最强 AI 模型。",
+    "detail": "Anthropic 对其最强大 AI 模型被政府停用表示强烈不满。公司指出，因 narrow potential jailbreak 而召回已部署给数亿人的商业模型是不合理的。这一事件反映了 AI 安全警告可能产生的反噬效应，政府监管与企业商业化部署之间的冲突加剧。安全警告本意是负责，却导致模型被禁。此举可能迫使行业重新评估模型发布前的安全测试标准及监管合规流程，影响未来大型模型的上线策略与公众信任。监管干预可能成为常态，企业需在安全透明与商业利益间寻找新平衡。",
+    "tags": [
+      "News",
+      "Regulation",
+      "Anthropic"
+    ],
+    "link": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
+    "date": "2026-06-13",
+    "id": "17813227494140"
+  },
+  {
+    "title": "中美 AI 模型博弈：中国限制西方模型",
+    "summary": "中国加强对西方 AI 模型限制，同时美国公司转向使用 DeepSeek。",
+    "detail": "科技界出现巨大 irony，中国在 crackdown 西方 AI 模型，而美国公司却 flock to DeepSeek。这反映了全球 AI 供应链的复杂变化，地缘政治因素正深刻影响模型选择与技术流向。西方模型在华受限，而美国企业转向中国开源模型，显示技术实用性超越政治壁垒。开源与闭源模型的竞争格局正在重塑，跨境技术合作与限制将成为行业常态，企业需灵活调整模型采购策略以应对政策风险。这种双向流动表明，AI 技术发展已难以被单一政策完全阻断，混合架构将成为主流。",
+    "tags": [
+      "News",
+      "Geopolitics",
+      "DeepSeek"
+    ],
+    "link": "https://www.techradar.com/pro/the-great-ai-irony-china-cracks-down-on-western-models-while-us-companies-flock-to-deepseek",
+    "date": "2026-06-13",
+    "id": "17813227494141"
+  },
+  {
+    "title": "三星或将制造谷歌下一代 AI 芯片",
+    "summary": "三星正洽谈帮助谷歌制造下一代 AI 芯片，硬件合作升级。",
+    "detail": "据韩国 Herald 报道，三星正在洽谈协助谷歌制造下一代 AI 芯片。这一合作若达成，将显著增强谷歌在 AI 硬件领域的自主能力，减少对外部供应商依赖。对于三星而言，这是巩固其在半导体制造领域地位的关键一步，影响 AI 算力供应链格局。硬件定制化趋势明显，科技巨头正通过垂直整合优化 AI 训练与推理效率。此次合作可能改变芯片代工市场竞争态势，推动 AI 专用硬件快速发展，为后续模型迭代提供更强算力支持。双方联手将加速 AI 基础设施升级，应对日益增长的计算需求。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Samsung"
+    ],
+    "link": "https://www.koreaherald.com/article/10770505",
+    "date": "2026-06-13",
+    "id": "17813227494142"
+  },
+  {
+    "title": "SentinelMCP：开源 AI 代理防火墙",
+    "summary": "专为 MCP 协议设计的开源防火墙，保护 AI 代理安全。",
+    "detail": "SentinelMCP 是一个针对使用 MCP 协议的 AI 代理的开源防火墙与安全网关。支持 inspect、redact 和控制 tool calls，提供 Proxy 和 Inline SDK 模式。目前处于 Alpha 阶段，为开发者提供了关键的 Agent 安全层，适合需要严格控制 AI 工具调用的企业环境。项目由 Technosive Ltd 构建，采用 Apache 2.0 许可。虽然警告生产环境需谨慎，但其为 AI 代理安全提供了新思路，有助于防止敏感数据泄露及恶意工具调用，填补了 MCP 生态安全空白。随着 AI Agent 普及，此类安全中间件将成为基础设施标配。",
+    "tags": [
+      "Dev",
+      "Security",
+      "OpenSource"
+    ],
+    "link": "https://github.com/technosiveuk-ui/SentinelMCP",
+    "date": "2026-06-13",
+    "id": "17813227494143"
+  },
+  {
+    "title": "CipherNode：离线自修正 AI 集群",
+    "summary": "编译为单个 exe 的离线自修正 AI 集群，注重隐私与部署。",
+    "detail": "CipherNode 是一个离线、自修正的 AI 集群，可编译为单个 .exe 文件。该项目强调了本地部署和自我纠错能力，适合对数据隐私要求极高或网络受限的场景。为开发者提供了一种无需依赖云端 API 即可运行复杂 AI 任务的新思路，降低了部署门槛。离线特性确保了数据不出本地，自修正机制提升了系统稳定性。这种轻量化、独立运行的 AI 方案，为边缘计算和私有化部署提供了新选择，可能推动 AI 在安全敏感行业的落地应用。单一文件分发极大简化了运维复杂度，便于集成到现有软件系统中。",
+    "tags": [
+      "Dev",
+      "Offline",
+      "Deployment"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48512309",
+    "date": "2026-06-13",
+    "id": "17813227494144"
+  },
+  {
     "title": "Meta AI 部门被曝内部文化危机",
     "summary": "报道称 Meta 新兴 AI 部门内部压力巨大，6500 名工程师面临“古拉格”般的工作环境。",
     "detail": "报道揭露 Meta 新成立数月的 AI 部门内部存在严重管理危机。该部门规模达 6500 人，但工程师形容其为“摧残灵魂的古拉格”，濒临反抗边缘。这反映了科技巨头在激进扩张 AI 团队时，可能忽视组织文化建设与员工福祉。此类内部动荡若持续，可能影响 Meta 大模型研发进度及人才稳定性，为行业敲响人才管理警钟。提示 AI 竞赛不仅是技术比拼，更是组织效能的较量，高压环境可能导致核心人才流失，进而削弱长期竞争力，投资者需关注此类文化风险对股价及产出的潜在冲击，管理层亟需调整策略。",
@@ -1233,70 +1298,5 @@
     "link": "https://twitter.com/awscloud/status/2064449711155589396",
     "date": "2026-06-09",
     "id": "17810858523040"
-  },
-  {
-    "title": "Broadcom 报告：企业 AI 推理 workload 正转向私有云",
-    "summary": "2026 私有云展望显示，成本与安全驱动企业 AI 部署转向私有环境。",
-    "detail": "Broadcom 发布《2026 私有云展望》，指出企业 AI 实验阶段已结束，生产推理正 decisively 转向私有云。56% 企业计划在私有云运行生产 AI，公有云使用率同比下降 15 个百分点。成本已超过安全成为公有云首要担忧，97% IT 领导者认为公有云存在浪费。数据隐私和控制权是主要驱动力，标志 AI 基础设施进入成熟期，企业更看重长期可控性与成本优化。52% 估计浪费超过总预算 25%，repatriation 工作负载成为趋势，显示公有云在 AI 规模化生产中的局限性日益凸显。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Enterprise"
-    ],
-    "link": "https://investors.broadcom.com/news-releases/news-release-details/broadcoms-private-cloud-outlook-2026-reveals-ai-tipping-point",
-    "date": "2026-06-09",
-    "id": "17810858523043"
-  },
-  {
-    "title": "教程：如何利用 Mac Studio 搭建本地 AI 代理",
-    "summary": "详解使用 LM Studio 和 Tailscale 在本地硬件部署私有 LLM 服务。",
-    "detail": "博主分享利用闲置 Mac Studio 搭建本地 AI 代理的完整实践指南。通过 Tailscale 组建私网，结合 LM Studio 部署 Qwen 等模型，实现远程 CLI 调用。该方案适合注重数据隐私的开发者，展示了消费级硬件运行本地大模型的可行性。为私有化部署提供参考架构，降低云端 API 依赖，支持稳定模型名称 swaps，适合音乐制作等特定场景的自动化需求。脚本封装了启动停止流程，便于远程管理，无需额外昂贵服务器，充分利用现有硬件资源实现智能化辅助。",
-    "tags": [
-      "Dev",
-      "LocalLLM",
-      "Tutorial"
-    ],
-    "link": "https://samihonkonen.com/posts/purpose-built-local-ai-agents/",
-    "date": "2026-06-09",
-    "id": "17810858523044"
-  },
-  {
-    "title": "Anthropic 发布 Claude Fable 5 模型",
-    "summary": "Anthropic 推出最强公众模型，安全策略引争议。",
-    "detail": "Anthropic 正式发布 Claude Fable 5 模型，作为 Mythos 级模型的通用访问版本。该模型在各项基准测试中表现卓越，被认为是当前最聪明的公众可用模型，但价格约为现款 Opus 的两倍。伴随发布的是更严格的安全措施，部分策略未向用户透明公开，引发了关于 AI 安全控制与准入壁垒的行业讨论。这种不平衡的安全政策可能成为警示案例，标志着前沿 AI 竞争进入新阶段，能力跃升的同时合规成本显著增加，用户访问权限受到更多限制。",
-    "tags": [
-      "News",
-      "LLM",
-      "Safety"
-    ],
-    "link": "https://www.interconnects.ai/p/claude-fable-5-and-new-ai-safety",
-    "date": "2026-06-09",
-    "id": "17810508284800"
-  },
-  {
-    "title": "苹果推出全新 Siri AI 助手",
-    "summary": "苹果重构 Siri，强调个人化与能力跃升。",
-    "detail": "苹果正式推出 Siri AI，定位为能力更强且更个性化的个人助手。此次更新标志着苹果在端侧 AI 领域的重大布局，旨在通过深度整合生态提升用户体验。新 Siri 将支持更复杂的任务处理，反映苹果试图在 AI 助手竞争中重获领先地位。这一举措将加剧与 Google、Microsoft 等巨头的竞争，推动消费电子与 AI 服务的深度融合，改变用户交互习惯。对于开发者而言，这意味着新的集成机会与挑战，苹果生态的封闭性与 AI 开放性之间的平衡将成为关注焦点。",
-    "tags": [
-      "News",
-      "Apple",
-      "Assistant"
-    ],
-    "link": "https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/",
-    "date": "2026-06-09",
-    "id": "17810508284801"
-  },
-  {
-    "title": "中国计划 2950 亿美元建 AI 数据中心",
-    "summary": "力推国产芯片，意图排除英伟达。",
-    "detail": "中国计划投入 2950 亿美元建设 AI 数据中心，旨在推动国内芯片使用并排除英伟达等外国供应商。北京要求国有企业运营枢纽，且至少 80% 的技术（包括 AI 芯片）需来自本地供应商。这一战略意在摆脱对外部技术的依赖，重塑全球 AI 基础设施格局。此举将对全球芯片供应链产生深远影响，加速中美在 AI 硬件领域的脱钩趋势，促使本土半导体产业快速发展。虽然短期内可能面临技术性能挑战，但长期看将构建独立的 AI 算力生态，改变全球科技竞争版图。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Geopolitics"
-    ],
-    "link": "https://qz.com/china-ai-data-center-buildout-295-billion-huawei-chips-060926",
-    "date": "2026-06-09",
-    "id": "17810508284802"
   }
 ]
