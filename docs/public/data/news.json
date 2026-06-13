@@ -1,5 +1,83 @@
 [
   {
+    "title": "2026 开发者短缺真相：AI 淘汰的是执行者而非工程师",
+    "summary": "2026 年开发者短缺实质是判断力短缺，AI 取代的是执行者而非工程师。",
+    "detail": "2026 年软件行业面临人才缺口，但并非数量不足。Headline software engineer hiring is softer than 2022, with tech layoffs continuing. AI 工具已能编写大量代码，导致初级“接单式”工程师需求下降。The real tech talent gap now is product-thinking engineers who can run the whole software development lifecycle from requirements to QA. 真正的短缺在于具备产品思维、能掌控全生命周期的高级工程师。Those engineers are worth more than they've ever been. 企业 hiring 策略需转变，不再单纯考察代码能力，更看重 judgment 与架构能力。The developer shortage in 2026 is a shortage of judgment, not a shortage of code. 传统 hiring pipeline 难以找到此类人才，most software development talent lives outside the US. 这是一个关于 supply 而非 demand 的转变。",
+    "tags": [
+      "News",
+      "Industry",
+      "Career"
+    ],
+    "link": "https://fullscale.io/blog/developer-shortage/",
+    "date": "2026-06-13",
+    "id": "17813630396640"
+  },
+  {
+    "title": "新型 malware 利用核武器提示词欺骗 AI 安全扫描",
+    "summary": "Hades 恶意软件通过注入武器关键词触发 AI 安全机制，绕过扫描。",
+    "detail": "安全团队发现 Hades 恶意软件活动利用 AI 安全过滤器的漏洞。攻击者在代码中注入关于生物和核武器创建的文本，injecting text about biological and nuclear weapons. 这触发 AI 扫描器的安全失效保护机制，failsafe mechanisms triggered by prompts for weapon creation. 导致扫描提前停止，stop scans before payload is seen. 从而隐藏恶意 payload。这揭示了过度依赖 AI 进行安全审查的风险，攻击者正利用 AI 的对齐机制作为掩护，tricks AI scanners. 这种新型 malware campaign 展示了 AI 安全机制可能被反向利用，需要更鲁棒的扫描策略。Hades malware campaign now tricks AI bots. 这是一个严重的 cyber-security 问题。",
+    "tags": [
+      "News",
+      "Security",
+      "AI Safety"
+    ],
+    "link": "https://www.tomshardware.com/tech-industry/cyber-security/hades-malware-campaign-now-tricks-ai-bots-by-injecting-text-about-biological-and-nuclear-weapons-failsafe-mechanisms-triggered-by-prompts-for-weapon-creation-stop-scans-before-payload-is-seen",
+    "date": "2026-06-13",
+    "id": "17813630396641"
+  },
+  {
+    "title": "教育界应如何审慎讨论 AI 应用的伦理 concern",
+    "summary": "教育工作者应成为 AI 产品的批判性消费者，抵制快速采用。",
+    "detail": "STEM 教学工具简报指出，在教育中引入 AI 需谨慎。Educators should act as critical consumers and users of AI products. 教育者应作为批判性消费者，帮助学生伦理地 deliberation AI 使用。Professional Development Providers 应支持教师负责任地采纳 AI 系统。Educational Leaders 被建议在明确伦理维度前抵制快速采用，resist quick adoption of AI systems. 避免在 hype 中盲目推进，确保技术服务于公平与教学目标。What concerns SHOULD we be discussing about using AI in Education? 这是一个 moment of hype and promotion. 需要 informed and responsible adoption. 关注 Equity 和 Instruction  topics.",
+    "tags": [
+      "News",
+      "Education",
+      "Ethics"
+    ],
+    "link": "https://stemteachingtools.org/brief/109",
+    "date": "2026-06-13",
+    "id": "17813630396642"
+  },
+  {
+    "title": "Cortex：本地优先加密的 AI 代理记忆引擎",
+    "summary": "纯 Rust 编写，本地加密存储，支持跨设备同步的个人 AI 记忆工具。",
+    "detail": "Cortex 是一款专为个人 AI 代理设计的本地记忆引擎。采用纯 Rust 编写，二进制仅 3.8MB，使用 AES-256-GCM 加密确保数据永不离开设备。在 LoCoMo 基准测试中得分 73.7%，优于 Mem0，beats Mem0. ingest 速度 156µs。支持通过自有云存储跨设备同步，无第三方服务器介入，zero telemetry, zero cost. 适合注重隐私的开发者构建本地优先的 AI 应用，runs entirely client-side. On-device semantic search downloads a ~30MB model once. 哲学是 Your AI's memory lives on your device. Private. Free. Local. 这是一个 memory engine for personal AI agents.",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Privacy"
+    ],
+    "link": "https://github.com/gambletan/cortex",
+    "date": "2026-06-13",
+    "id": "17813630396643"
+  },
+  {
+    "title": "Wmux：专为 AI 代理设计的 Windows 终端复用器",
+    "summary": "Windows 原生 tmux 替代方案，支持 Claude Code 等 AI 工具分屏操作。",
+    "detail": "Wmux 是面向 AI 代理的 Windows 原生终端复用器，无需 WSL。It is a native Windows terminal multiplexer for AI agents. 允许 split terminals 以便 Claude Code、Codex 等 AI CLI 工具并行工作，support MCP browser automation. 作为 cmux 的替代方案，它解决了 Windows 下 AI 开发环境管理的痛点，提升了 AI 代理在 Windows 平台上的多任务处理能力。No WSL required 是其关键优势，方便 Windows 开发者直接使用。Windows tmux alternative for AI agents. 支持 Gemini CLI 等工具。这是一个 open source project on GitHub.",
+    "tags": [
+      "Dev",
+      "Tools",
+      "Windows"
+    ],
+    "link": "https://github.com/openwong2kim/wmux",
+    "date": "2026-06-13",
+    "id": "17813630396644"
+  },
+  {
+    "title": "AI 正在打破优雅软件的垄断地位",
+    "summary": "探讨 AI 生成代码对软件创作优雅性与 artifact 美观度的影响。",
+    "detail": "文章探讨了软件优雅性的两个维度：创作过程的掌控力与最终代码 artifact 的美感。传统上这是大师的垄断领域，如 Redis 源码或 Peter Norvig's pytudes. 像 Zinedine Zidane 一样优雅。AI 的介入可能改变这一格局，虽然 AI 能生成代码，但是否能具备“让不可能看起来毫不费力”的优雅尚存疑。这引发了对 AI 时代软件工程质量与美学标准的重新思考，AI Breaks the Monopoly. One of my favorite definitions of mastery is simple: making the impossible look effortless. AI 是否能达到这种 mastery 是关键问题。Elegance manifests in the world of software in two distinct ways.",
+    "tags": [
+      "News",
+      "Coding",
+      "Philosophy"
+    ],
+    "link": "https://tselai.com/ai-elegant-software-monopoly",
+    "date": "2026-06-13",
+    "id": "17813630396645"
+  },
+  {
     "title": "TensorZero 获 730 万美元融资，开源 LLMOps 平台引关注",
     "summary": "开源 LLMOps 平台 TensorZero 获种子轮融资，统一网关与观测功能。",
     "detail": "TensorZero 是一个开源 LLMOps 平台，旨在统一 LLM 网关、可观测性、评估及优化功能。该项目近期完成 730 万美元种子轮融资，并被财富 10 强公司使用。其核心特性包括低延迟网关、自动化 AI 工程师代理及 A/B 测试功能。尽管 headlines 提及仓库存档争议，但其技术栈兼容 OpenAI SDK 及主流提供商，显示 LLMOps 基础设施竞争正在加剧，开发者可关注其统一 API 带来的集成便利。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.nber.org/papers/w35290",
     "date": "2026-06-10",
     "id": "17811239531322"
-  },
-  {
-    "title": "从第一性原理 overview 现代 AI 机器人技术",
-    "summary": "深入解析物理 AI 的核心函数：观察输入到动作输出的映射与推理时间挑战。",
-    "detail": "文章从第一性原理概述现代 AI 机器人技术，指出机器人策略本质上是观察输入到动作输出的函数。与传统 ML 不同，机器人引入了“推理时间”这一关键维度。compute 和 data 是提升函数质量的两大要素，但需在动态世界中实现快速推理。这为开发者理解物理 AI 的核心难点提供了理论框架，强调了实时性与数据模式挖掘的重要性。机器人模型需将模式嵌入神经网络权重，并在移动活跃的世界中运行。任何延迟都可能造成 harm。因此，优化 inference time 与训练数据质量同等重要，这为构建更可靠的物理 AI 系统指明了方向，适合希望深入机器人学习底层逻辑的开发者阅读。",
-    "tags": [
-      "Dev",
-      "Robotics",
-      "ML"
-    ],
-    "link": "https://interlatent.com/blog/interlatent-modern-ai-robotics-first-principles",
-    "date": "2026-06-10",
-    "id": "17811239531323"
-  },
-  {
-    "title": "Thrindex 发布 AI Agent 记忆操作系统",
-    "summary": "为 AI Agent 提供记忆层，支持存储、搜索及进化 agent 记忆，适合生产环境。",
-    "detail": "Thrindex 推出了专为 AI Agent 设计的记忆操作系统（Memory OS）。它允许开发者通过 SDK 或 API 轻松存储和搜索 agent 记忆，支持记忆排序、压缩和进化。后台认知处理确保 agent 无需等待即可运行。该工具旨在帮助从独立开发者到大型团队在生产环境中更好地管理 agent 记忆，提升 agent 的长期交互能力和个性化服务水平。通过统一的 dashboard，团队可浏览和分析 agent 存储的内容。这解决了 Agent 在长上下文任务中容易遗忘关键信息的问题，为构建更智能、具持续学习能力的 AI 应用提供了基础设施支持，适合需要部署复杂 Agent 系统的团队。",
-    "tags": [
-      "New",
-      "Agent",
-      "Infrastructure"
-    ],
-    "link": "https://www.thrindex.com/",
-    "date": "2026-06-10",
-    "id": "17811239531324"
-  },
-  {
-    "title": "SlopGuard: GitHub 应用拦截 AI 生成 PR",
-    "summary": "专为维护者设计，识别并隔离低质量 AI 生成 PR。",
-    "detail": "SlopGuard 是一款 GitHub 应用，旨在解决 AI 生成代码泛滥问题。它通过扫描 PR 和 Issue，给出 0-100 的“垃圾分”，帮助维护者快速识别机器生成内容。支持自托管，阈值可调，不自动关闭而是由人类决定，有效减少审查时间同时避免误伤真实贡献者。",
-    "tags": [
-      "New",
-      "Dev",
-      "GitHub"
-    ],
-    "link": "https://slopguard.app",
-    "date": "2026-06-10",
-    "id": "17811143618360"
-  },
-  {
-    "title": "Google 发布机器遗忘审计新框架",
-    "summary": "无需访问内部数据，即可验证模型是否真正遗忘。",
-    "detail": "Google Research 提出机器遗忘审计新框架，解决隐私合规难题。传统方法需访问模型内部，新框架仅通过查询输出即可数学化证明隐私保护。这对 GDPR“被遗忘权”及 AI 安全至关重要，尤其在模型规模扩大导致统计测试失效的背景下，提供了更可靠的验证手段。",
-    "tags": [
-      "News",
-      "Research",
-      "Privacy"
-    ],
-    "link": "https://research.google/blog/new-framework-for-auditing-machine-unlearning/",
-    "date": "2026-06-10",
-    "id": "17811143618361"
-  },
-  {
-    "title": "独角兽 Infobip 转型 AI 优先不裁员",
-    "summary": "20 年老牌独角兽推行 AI 优先战略，保留全员。",
-    "detail": "克罗地亚独角兽 Infobip 在 AI 浪潮中选择\"AI 优先”转型而非大规模裁员。CTO 表示 AI 应逐步 adopt，涵盖全职能而非仅开发。公司拥有约 1000 名开发者，强调 AI 代理执行任务而非仅回答问题。此案例为行业提供了技术转型期保留人才的反面本，展示务实的 AI 扩张路径。",
-    "tags": [
-      "News",
-      "Business",
-      "Strategy"
-    ],
-    "link": "https://shiftmag.dev/ai-first-izabel-jelenic-infobip-10156/",
-    "date": "2026-06-10",
-    "id": "17811143618362"
-  },
-  {
-    "title": "特朗普称 AI 公司应同意回馈公众",
-    "summary": "政治风向标，暗示 AI 巨头可能面临公众回馈要求。",
-    "detail": "路透社报道，特朗普表示认为 AI 公司将同意“回馈公众”。虽未详述具体机制，但此言论暗示未来政策可能倾向于要求 AI 巨头分享收益或资源。这在 AI 商业化加速背景下，标志着政治层面对 AI 利益分配的关注，可能影响行业监管格局及企业社会责任策略。",
-    "tags": [
-      "News",
-      "Policy",
-      "Regulation"
-    ],
-    "link": "https://www.reuters.com/business/media-telecom/trump-says-he-thinks-ai-companies-will-agree-giving-back-public-2026-06-10/",
-    "date": "2026-06-10",
-    "id": "17811143618363"
   }
 ]
