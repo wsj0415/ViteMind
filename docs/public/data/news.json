@@ -1,5 +1,57 @@
 [
   {
+    "title": "美国限制 Anthropic 顶尖模型海外访问",
+    "summary": "路透社报道，美国阻止外国访问 Anthropic 最先进 AI 模型，地缘政治影响加剧。",
+    "detail": "据路透社援引 Axios 报道，美国政府已正式阻止外国用户访问 Anthropic 最先进的 AI 模型。这一举措标志着 AI 技术出口管制的进一步收紧，旨在防止关键技术外流至竞争对手国家。此举不仅影响全球开发者获取顶尖算力，可能迫使非美国企业加速自主研发底层模型，同时引发关于 AI 全球化协作与安全边界的新讨论。对于跨国企业而言，合规成本将显著上升，数据本地化部署需求激增。行业需密切关注后续合规要求及潜在的市场替代方案，地缘政治因素正成为 AI 发展的关键变量，可能重塑全球 AI 竞争格局，建议企业提前布局合规策略以规避风险。",
+    "tags": [
+      "News",
+      "Policy",
+      "Anthropic"
+    ],
+    "link": "https://www.reuters.com/technology/us-blocks-foreign-access-anthropics-most-advanced-ai-models-axios-reports-2026-06-13/",
+    "date": "2026-06-13",
+    "id": "17813370824600"
+  },
+  {
+    "title": "前沿模型无思维链推理能力研究",
+    "summary": "新论文评估 AI 无思维链任务完成时间，揭示安全隐患与推理能力增长趋势。",
+    "detail": "LessWrong 发布新研究，评估前沿模型在不使用思维链（CoT）情况下的任务完成能力。研究发现，如 GPT-5.5 等模型在无 CoT 下能可靠完成人类需 3 分钟的任务，且能力每年翻倍。若模型无需输出 CoT 即可推理，将增加监控难度和安全风险，可能导致模型动机难以理解。这对 AI 安全对齐提出了新挑战。开发者需重新评估监控机制，确保模型行为透明。该研究揭示了模型内部推理黑盒化的趋势，提示安全界需开发新的解释性工具，以应对未来更强大的自主推理系统带来的潜在威胁，保障 AI 系统可控，避免隐性目标漂移，对比 METR 数据增长显著。",
+    "tags": [
+      "Dev",
+      "Safety",
+      "Research"
+    ],
+    "link": "https://www.lesswrong.com/posts/SieLowPgNgRSPGhFw/estimating-no-cot-task-completion-time-horizons-of-frontier",
+    "date": "2026-06-13",
+    "id": "17813370824601"
+  },
+  {
+    "title": "Anthropic 团队揭秘 AI 原生工程组织管理",
+    "summary": "Claude 团队分享 AI 编码时代下的工程流程变革，验证与审查成为新瓶颈。",
+    "detail": "Anthropic 官方博客详解如何运行 AI 原生工程组织。随着 Agent 编码消除编写成本，瓶颈转向代码验证、审查与安全。团队建议将路线图改为“即时规划”，因编码速度加快使长期预规划失效。文章强调了在 AI 辅助下重构工作流程的必要性，为技术管理者提供了转型参考。传统软件工程规范正在失效，验证与安全成为新核心。领导者需调整 KPI，从代码产出转向系统可靠性。这一转变要求团队具备更强的架构设计能力，以驾驭 AI 生成的复杂代码，确保最终产品质量。AI 原生组织不仅是工具升级，更是管理哲学的根本变革，需建立新的信任机制与审查流程。",
+    "tags": [
+      "Dev",
+      "Management",
+      "Claude"
+    ],
+    "link": "https://claude.com/blog/running-an-ai-native-engineering-org",
+    "date": "2026-06-13",
+    "id": "17813370824602"
+  },
+  {
+    "title": "最强 AI 模型单次生成完整游戏演示",
+    "summary": "开发者测试 Anthropic 新模型，单次生成 2300 行代码游戏，展现惊人编码能力。",
+    "detail": "开发者 Koen van Gilst 测试了 Anthropic 最新模型（被称为“最危险模型”），要求其单次生成一个构思多年的游戏。模型经过 45 分钟推理，消耗 20 欧元 Token，输出了 2319 行无依赖 HTML 代码。这展示了前沿模型在复杂任务规划与执行上的突破，但也引发了对模型能力失控的担忧。单次生成完整可玩游戏标志着 AI 编程能力的质变，从辅助编码转向独立交付。然而，高昂的 Token 成本与长时间推理仍是普及障碍。此案例证明了 AGI 雏形的潜力，同时也提醒行业关注模型自主行动的安全边界，防止不可控的代码生成，需建立沙盒测试环境，此前旧模型均失败。",
+    "tags": [
+      "News",
+      "Coding",
+      "Demo"
+    ],
+    "link": "https://koenvangilst.nl/lab/claude-fable-shepherds-dog",
+    "date": "2026-06-13",
+    "id": "17813370824603"
+  },
+  {
     "title": "政府干预 Anthropic 最强模型引发争议",
     "summary": "因安全警告反噬，政府要求召回 Anthropic 最强 AI 模型。",
     "detail": "Anthropic 对其最强大 AI 模型被政府停用表示强烈不满。公司指出，因 narrow potential jailbreak 而召回已部署给数亿人的商业模型是不合理的。这一事件反映了 AI 安全警告可能产生的反噬效应，政府监管与企业商业化部署之间的冲突加剧。安全警告本意是负责，却导致模型被禁。此举可能迫使行业重新评估模型发布前的安全测试标准及监管合规流程，影响未来大型模型的上线策略与公众信任。监管干预可能成为常态，企业需在安全透明与商业利益间寻找新平衡。",
@@ -1246,57 +1298,5 @@
     "link": "https://twitter.com/RichardSSutton/status/2061216087744946656",
     "date": "2026-06-10",
     "id": "17810690113092"
-  },
-  {
-    "title": "Guildly：像管理 Slack 一样管理 AI 员工公司",
-    "summary": "新平台 Guildly 提供 Slack 式界面，让用户管理 AI 员工团队。",
-    "detail": "Guildly 推出全新平台，允许用户像运营真实公司一样管理 AI 员工团队。具备 Slack 式界面、流程化记忆和审计功能。系统 deterministic by design，确保每个 AI 员工遵循标准 playbook 工作，所有代码变更可追溯至 ticket 和 PRD。支持模型无关架构，用户可自由切换底层模型而不丢失团队记忆，适合单人运营规模化 AI 团队。该产品解决了多 Agent 协作中的混乱问题，提供了企业级的可控性与审计能力。",
-    "tags": [
-      "New",
-      "Agent",
-      "Productivity"
-    ],
-    "link": "https://www.tryguildly.com/",
-    "date": "2026-06-10",
-    "id": "17810690113093"
-  },
-  {
-    "title": "SafeAgentDB：为 AI Agent 分支提供隔离数据库",
-    "summary": "开源工具 SafeAgentDB 为每个 AI Agent 分支提供隔离数据库，保障安全。",
-    "detail": "针对 AI Agent 开发中的数据库冲突问题，SafeAgentDB 提供基础设施解决方案。它为每个分支和 PR 提供独立的隔离数据库预览 URL，允许 Agent 并行运行迁移和测试而不影响生产环境。专为 Supabase + Vercel + GitHub Actions 栈设计，支持通过 CLI 安装。该工具解决了多 Agent 协作时的数据污染痛点，提升开发安全性。这是 AI 工程化领域的重要补充，帮助开发者在复杂 Agent 系统中维持数据一致性与安全性。",
-    "tags": [
-      "Dev",
-      "Database",
-      "Infrastructure"
-    ],
-    "link": "https://github.com/Aidan945/SafeAgentDB",
-    "date": "2026-06-10",
-    "id": "17810690113094"
-  },
-  {
-    "title": "开发者植入代码反抗 AI 代理",
-    "summary": "Jqwik 作者添加日志代码道德抵制 AI 代理。",
-    "detail": "开源项目 Jqwik 作者 Johannes Link 公开承认添加无效日志代码作为“自卫”，旨在向使用 coding agents 的开发者传递道德信号。事件反映部分资深开发者对 AI 自动生成代码的伦理担忧及对人类开发者价值被侵蚀的反抗。作者表示这是个人道德判断，意在提醒并非所有人都认可 AI 代理行为。此举在社区引发关于开源许可、AI 训练数据及开发者权利的广泛争论。标志着开发者与 AI 工具之间的紧张关系升级，可能影响未来开源社区的协作模式。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Ethics"
-    ],
-    "link": "https://blog.johanneslink.net/2026/06/09/the-jqwik-anti-ai-affair/",
-    "date": "2026-06-09",
-    "id": "17812548315233"
-  },
-  {
-    "title": "AWS 警示：过多 AI 生成代码可能降低团队效率",
-    "summary": "AWS 指出过度依赖 AI 生成代码可能拖慢团队速度，引发效率反思。",
-    "detail": "AWS 官方发布观点，直接挑战当前行业\"AI 代码越多越快”的普遍共识。指出未经审查的 AI 生成代码可能增加后期调试负担，导致整体开发速度反而下降。这标志着 AI 行业开始从盲目拥抱转向理性评估 AI 对工程效率的实际影响。建议团队平衡 AI 辅助与人工审查，避免技术债务累积，确保代码质量与长期维护性，为开发者敲响警钟。该观点来自 AWS 云官方账号，具有行业风向标意义，提醒企业在追求速度的同时不可忽视代码的可维护性与安全性，避免陷入虚假效率陷阱。",
-    "tags": [
-      "News",
-      "AWS",
-      "Productivity"
-    ],
-    "link": "https://twitter.com/awscloud/status/2064449711155589396",
-    "date": "2026-06-09",
-    "id": "17810858523040"
   }
 ]
