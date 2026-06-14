@@ -1,5 +1,83 @@
 [
   {
+    "title": "欧盟用户请愿解锁 Siri AI 功能",
+    "summary": "超万人签名要求苹果向欧盟开放 Siri AI。",
+    "detail": "欧盟用户发起请愿，已有 27 国超 1 万人签名，要求苹果与监管机构解决争端，避免用户因法规被排除在 AI 功能之外。宣言强调访问权非特权，隐私与竞争应共存。指出 DMA 实施不应导致功能停滞，延迟导致欧洲学生与企业落后。呼吁双方定义安全路径，立即行动。此事件反映 AI 落地中的监管摩擦，用户不愿成为博弈牺牲品。技术 built for everyone 应 ship to everyone，规则应保护用户而非冻结功能。这可能导致苹果调整欧盟策略，监管与创新的平衡成为焦点。",
+    "tags": [
+      "News",
+      "Apple",
+      "Regulation"
+    ],
+    "link": "https://siri4eu.com/",
+    "date": "2026-06-14",
+    "id": "17814684155370"
+  },
+  {
+    "title": "企业急于遏制 AI 成本飙升",
+    "summary": "经济学人报道企业正设法控制 AI 高昂成本。",
+    "detail": "经济学人报道指出，随着 AI 部署规模扩大，企业正急于遏制 soaring 的成本。初期实验结束后，ROI 压力凸显，公司开始优化推理成本与模型选择。这标志着 AI 行业从单纯追求能力转向关注成本效益的关键阶段。企业需平衡性能与支出，避免预算失控。此趋势将推动高效模型与优化技术的发展，影响未来 AI 基础设施投资方向。可能导致对小型模型的偏好增加，以及本地部署的回归，改变云服务商格局，企业 scrambling 寻找可持续的 AI 经济模型。",
+    "tags": [
+      "News",
+      "Business",
+      "Cost"
+    ],
+    "link": "https://www.economist.com/business/2026/06/14/companies-are-scrambling-to-curtail-soaring-ai-costs",
+    "date": "2026-06-14",
+    "id": "17814684155371"
+  },
+  {
+    "title": "KPMG AI 报告竟充满 AI 幻觉",
+    "summary": "毕马威关于 AI 的报告被发现存在大量幻觉。",
+    "detail": "毕马威发布的一份关于 AI 风险的报告，自身却被发现包含大量 AI 生成的幻觉内容。这一讽刺事件凸显了当前 AI 工具在专业领域的可靠性问题，以及人工审核的必要性。即使是顶级咨询公司也难免受影响，警示企业在采纳 AI 生成内容时需建立严格验证流程。此事件可能影响客户对 AI 辅助专业服务的信任度，推动审计行业引入 AI 检测机制。避免声誉风险成为关键，专业服务机构需重新评估 AI 在工作流中的角色与监督机制。",
+    "tags": [
+      "News",
+      "Hallucination",
+      "Enterprise"
+    ],
+    "link": "https://www.cityam.com/kpmg-report-on-ai-found-riddled-with-ai-hallucinations/",
+    "date": "2026-06-14",
+    "id": "17814684155372"
+  },
+  {
+    "title": "Frona v2026.6.0 自托管 AI 助手更新",
+    "summary": "支持多通道人机交互与 typed file tools。",
+    "detail": "开源自托管个人 AI 助手 Frona 发布 v2026.6.0 版本。新增统一的人机循环暂停/恢复机制，支持 Telegram/Slack 等多平台按钮交互。引入 typed file tools 减少 token 消耗与幻觉，优化长回复分割。后端 consolidates agent runtime view，sandboxing 移至单一 manager。适用于希望数据隐私可控的个人开发者，提供多通道消息分割与审批渲染功能，增强代理可控性。后端架构优化提升了稳定性，适合构建复杂的人机协作工作流，降低部署门槛。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Agent"
+    ],
+    "link": "https://github.com/fronalabs/frona/releases/tag/v2026.6.0",
+    "date": "2026-06-14",
+    "id": "17814684155373"
+  },
+  {
+    "title": "AI 编程代理审计清单开源",
+    "summary": "提供 30 项不变量检查，适配 Claude/Copilot。",
+    "detail": "GitHub 开源项目提供语言无关的 AI 编程代理审计清单，包含 30 项不变量检查。涵盖安全性、正确性与可操作性，适用于 Claude Code、Copilot 等工具，帮助开发者规范 AI 生成代码质量。项目格式为 Agent Skills，可被任何能读取文件的代理使用。这反映了社区对 AI 代码安全性的担忧，提供标准化审计流程，降低 AI 引入的技术债务与潜在漏洞风险。适用于任何能读取文件的代理，促进安全编码习惯，提升 AI 辅助开发的可靠性与合规性。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Coding"
+    ],
+    "link": "https://github.com/danygiguere/audit-skills",
+    "date": "2026-06-14",
+    "id": "17814684155374"
+  },
+  {
+    "title": "衡量 AI 代理价值的开源工具",
+    "summary": "将 agent 痕迹转化为管理者可读的报告。",
+    "detail": "新开源工具 Agent Panorama 可将 Langfuse/LangSmith 痕迹转化为业务语言报告。无需重构代码，仅需一行回调即可监控代理行为、价值与成本，解决“代理是否值得”的评估难题。提供本地 dashboard 与 Markdown 报告，回答 CEO 关心的价值问题。支持 LangChain 应用，帮助团队从单纯观测运行状态转向评估业务 ROI，优化代理部署策略。填补了现有观测工具在商业价值评估上的空白，助力企业决策，让技术 trace 转化为商业 insight。",
+    "tags": [
+      "Dev",
+      "Observability",
+      "ROI"
+    ],
+    "link": "https://github.com/Idank96/agent-panorama",
+    "date": "2026-06-14",
+    "id": "17814684155375"
+  },
+  {
     "title": "AI 裁员潮来袭，多数失业者未申领救济",
     "summary": "财富杂志报道 AI 导致裁员，但许多人未领取失业金。",
     "detail": "财富杂志深入报道了 AI 技术引发的就业市场动荡。文章指出，尽管 AI 导致大量岗位被替代，但许多受影响员工并未申领失业救济金，这可能源于资格认定困难或社会 stigma。文中引用了 Sam Altman 和 Dario Amodei 等行业领袖的观点，探讨了自动化对劳动力市场的深远影响及政策应对的缺失。这反映了 AI 转型期特有的社会摩擦，提示企业与社会需关注失业保障体系的适应性调整，以及如何重新定义人机协作下的工作价值与社会保障网络。此外，报道还分析了不同行业受冲击的程度，为政策制定者提供了参考。",
@@ -1220,83 +1298,5 @@
     "link": "https://techcrunch.com/podcast/its-hot-ipo-summer-and-the-mangos-are-ripe/",
     "date": "2026-06-12",
     "id": "17812812064300"
-  },
-  {
-    "title": "音乐工会起诉唱片公司，指控 AI 交易损害权益",
-    "summary": "美国音乐家联盟起诉环球和华纳音乐集团， alleging 音乐家在 AI 交易中被克扣利益。",
-    "detail": "美国音乐家联盟（American Federation of Musicians）正式起诉环球音乐集团和华纳音乐集团。诉讼 alleges 唱片公司在涉及 AI 的交易中短视，导致音乐家利益受损。这反映了 AI 生成内容版权与分配机制的法律冲突升级。随着 AI 音乐技术普及，此类法律纠纷可能成为行业常态，迫使唱片公司重新审视 AI 合作条款与艺人分成模式。",
-    "tags": [
-      "News",
-      "Legal",
-      "Copyright"
-    ],
-    "link": "https://www.latimes.com/entertainment-arts/business/story/2026-06-08/american-federation-of-musicians-sues-universal-music-group-warner-musiic-group",
-    "date": "2026-06-12",
-    "id": "17812812064301"
-  },
-  {
-    "title": "AllenAI 发布 olmo-eval，优化 LLM 开发评估循环",
-    "summary": "Hugging Face 博客介绍新评估工作台，支持模型开发迭代，解决静态基准测试不足。",
-    "detail": "AllenAI 在 Hugging Face 博客发布 olmo-eval，专为模型开发循环设计的评估工作台。传统工具多针对成品模型，无法适应开发中频繁的数据、架构调整。olmo-eval 支持在每次干预后快速重新配置基准测试，反映模型在特定现实条件下的行为。这为 LLM 开发者提供了更灵活的迭代评估方案，有助于提升模型开发的效率与可靠性。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Evaluation"
-    ],
-    "link": "https://huggingface.co/blog/allenai/olmo-eval",
-    "date": "2026-06-12",
-    "id": "17812812064302"
-  },
-  {
-    "title": "Tattva AI 上线，基于证据的 ML 研究共识检测平台",
-    "summary": "利用贝叶斯 CUSUM 检测研究共识变化，验证科学 claims，提供证据透明度。",
-    "detail": "Tattva AI 推出证据 grounded 研究情报平台，利用贝叶斯 CUSUM 检测 ML 研究共识何时 shifts。系统可验证科学 claims 对抗数千篇论文，检测矛盾并提供结构化 verdict。每 6 小时自动更新，支持自然语言查询。相比 Google Scholar 仅找论文，Tattva 直接告诉用户文献结论及置信度。这为研究人员提供了高效验证科学真理的工具，减少幻觉与误读。",
-    "tags": [
-      "New",
-      "Research",
-      "Tool"
-    ],
-    "link": "https://tattvaai.org",
-    "date": "2026-06-12",
-    "id": "17812812064303"
-  },
-  {
-    "title": "VibeClip 开源发布，聊天控制的自托管 AI 视频编辑器",
-    "summary": "开源项目支持通过对话编辑视频，生成长短视频，支持自托管与 BYO LLM key。",
-    "detail": "VibeClip 是一款开源自托管 AI 视频编辑器，允许用户通过聊天控制编辑过程。可将长视频转化为带字幕的 9:16 短视频，支持 AGPL-3.0 协议。用户需自备 LLM key，确保数据隐私与控制权。该项目满足了创作者对低成本、高隐私视频编辑工具的需求，展示了开源 AI 应用在多媒体处理领域的潜力，适合开发者部署与二次开发。",
-    "tags": [
-      "New",
-      "Video",
-      "OpenSource"
-    ],
-    "link": "https://github.com/oktaydbk54/vibeclip",
-    "date": "2026-06-12",
-    "id": "17812812064304"
-  },
-  {
-    "title": "学者用 AI 撰写警告文章反对使用 AI",
-    "summary": "学者警告勿用 AI 写作，文章本身却由 AI 生成。",
-    "detail": "澳大利亚学者在《泰晤士报》发表文章，警告学术界不要在使用 AI 时走捷径，然而该文章本身被揭露是由 AI 生成的。这一事件引发了关于学术诚信、AI 检测难度以及人类对 AI 依赖程度的广泛讨论。它突显了当前 AI 生成内容检测的困境，以及在实际应用中区分人机创作的复杂性，反映了 AI 渗透日常工作的现状与伦理挑战。这一讽刺性事件不仅挑战了传统的学术出版标准，也促使行业重新思考 AI 使用政策的执行与监管必要性。",
-    "tags": [
-      "News",
-      "Ethics",
-      "LLM"
-    ],
-    "link": "https://www.thetimes.com/world/australasia/article/academic-used-ai-to-write-warning-not-to-cut-corners-with-ai-6nqg56hvx",
-    "date": "2026-06-12",
-    "id": "17812671281100"
-  },
-  {
-    "title": "Zamp：可委托真实企业任务的 AI 员工",
-    "summary": "新型 AI 员工平台，可学习流程并端到端执行任务。",
-    "detail": "Zamp 是一款定位为\"AI 员工”的新产品，旨在 delegate 真实的企业工作而不仅仅是回答问题。它能学习上下文和流程，端到端运行任务。获得了 Sequoia、DoorDash、Uber 等知名机构支持。标志着 AI 代理从辅助工具向独立执行角色的转变，适用于需要自动化复杂工作流的企业场景，展示了 Agent 技术在 B 端的落地潜力。该平台强调安全性与投资者背景，试图解决企业级自动化的信任与效率问题。",
-    "tags": [
-      "New",
-      "Agent",
-      "Enterprise"
-    ],
-    "link": "https://www.zamp.ai/",
-    "date": "2026-06-12",
-    "id": "17812671281101"
   }
 ]
