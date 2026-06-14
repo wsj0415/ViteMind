@@ -1,5 +1,83 @@
 [
   {
+    "title": "GitHub 开源 Meta-Harness 原生实现：让 Claude 自我进化",
+    "summary": "将 Claude Code 转化为自我进化框架，优化模型周围 scaffolding。",
+    "detail": "该项目是 Meta-Harness (Lee et al. 2026) 的原生重写，旨在通过 propose→score→Pareto 循环优化固定模型周围的架构。它不改变模型权重，而是进化记忆、检索、上下文构建及提示模板。作为 Claude Code 技能运行，为开发者提供了让 AI 代理自我改进工作流的新范式，显著提升复杂任务的处理效率。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "GitHub"
+    ],
+    "link": "https://github.com/001TMF/harness-forge",
+    "date": "2026-06-14",
+    "id": "17814368152580"
+  },
+  {
+    "title": "Home Opus 白皮书：应对前端 AI 权重出口禁令的本地部署方案",
+    "summary": "针对 Fable 5 禁令，提议授权旧版权重本地部署以防市场流失。",
+    "detail": "针对 2026 年 6 月美国商务部禁用 Fable 5 模型给外国用户的限制，该白皮书提出 Home Opus 计划。主张授权旧版 Claude Opus 权重在认证硬件上本地部署，以防国际市场转向中国开源模型。方案包含双密钥激活、权重指纹及安全框架，强调受控的美国 AI 优于不受控的替代品，维护 AI 主权。",
+    "tags": [
+      "News",
+      "Policy",
+      "Deployment"
+    ],
+    "link": "https://github.com/zanirou/home-opus-whitepaper",
+    "date": "2026-06-14",
+    "id": "17814368152581"
+  },
+  {
+    "title": "英国警察因涉嫌不当使用 AI 工具受刑事调查",
+    "summary": "首例公职人员因 AI 使用不当面临刑事调查，警示合规边界。",
+    "detail": "金融时报报道，一名英国警官因涉嫌不当使用 AI 工具正处于刑事调查阶段。此案可能成为公共部门 AI 合规性的关键判例，警示执法机构需明确 AI 使用边界与责任归属。随着 AI 渗透各行业，此类法律案件将推动更严格的监管政策出台，影响企业 AI 部署策略。",
+    "tags": [
+      "News",
+      "Legal",
+      "Ethics"
+    ],
+    "link": "https://www.ft.com/content/514bab88-788c-4d48-a140-03597860bdb6",
+    "date": "2026-06-14",
+    "id": "17814368152582"
+  },
+  {
+    "title": "Velyr：自动修复网站转化漏洞的 AI 增长代理",
+    "summary": "每周自动分析数据并提交 GitHub PR 修复转化流失，按月订阅。",
+    "detail": "新推出的 AI 增长代理 Velyr 可分析 PostHog 数据，每周自动发现网站转化漏洞并生成代码修复 PR。支持 React/Next.js 栈，用户仅需 Telegram 确认即可部署。若指标下降系统自动回滚，确保安全性。定价 29 欧元/月，为中小企业提供了低成本的自动化 CRO 解决方案。",
+    "tags": [
+      "New",
+      "SaaS",
+      "Agent"
+    ],
+    "link": "https://velyr.io/",
+    "date": "2026-06-14",
+    "id": "17814368152583"
+  },
+  {
+    "title": "Repo-Slopscore：检测 Git 仓库中的 AI 生成代码贡献",
+    "summary": "通过 Commit 检测代码库中的 AI 废料，维护代码健康度。",
+    "detail": "针对 AI 生成代码泛滥导致的 Workslop 问题，该工具通过扫描 Git 提交记录检测低质量 AI 贡献。支持分析多个知名开源仓库，帮助团队识别未经验证的 AI 代码。随着 HN 社区讨论 AI 带来的责任缺失问题，此类工具将成为保障软件工程质量和维护开发者信任的关键基础设施。",
+    "tags": [
+      "Dev",
+      "Tool",
+      "CodeQuality"
+    ],
+    "link": "https://slopscan.ava.pet/",
+    "date": "2026-06-14",
+    "id": "17814368152584"
+  },
+  {
+    "title": "Tim Ferriss：AI 是否已杀死纪实类非虚构书籍？",
+    "summary": "知名博主分析 AI 对非虚构类图书销量的冲击与未来趋势。",
+    "detail": "知名博主 Tim Ferriss 撰文探讨 AI 生成内容对传统非虚构类书籍销售的冲击。结合个人数据与销售趋势，分析未来内容创作行业的潜在变革。文章指出 AI 可能已改变读者获取“如何做”信息的方式，迫使作者重新思考价值主张，对内容创作者和出版行业具有深远警示意义。",
+    "tags": [
+      "News",
+      "Industry",
+      "Content"
+    ],
+    "link": "https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/",
+    "date": "2026-06-14",
+    "id": "17814368152585"
+  },
+  {
     "title": "通用大模型医疗表现超越专用 AI",
     "summary": "Nature 研究显示通用 LLM 在医疗基准测试中胜过专用临床 AI 工具。",
     "detail": "Nature 最新发表简报指出，通用大型语言模型在多项医疗基准测试中的表现优于专门设计的临床 AI 工具。这一发现挑战了垂直领域专用模型的必要性，暗示通用模型的多任务处理能力已足以应对专业医疗场景。研究团队通过对比测试验证了通用模型的泛化优势。这对医疗 AI 开发方向具有重大指导意义，可能减少专用模型的研发投入，推动通用模型在关键领域的落地应用，降低医疗 AI 部署门槛。此外，该研究还强调了数据质量与模型规模的重要性，为未来医疗 AI 监管政策制定提供了科学依据，行业需重新评估专用模型的投资回报率。",
@@ -1220,83 +1298,5 @@
     "link": "https://digitaleconomy.stanford.edu/project/indicators/canaries-dashboard/",
     "date": "2026-06-11",
     "id": "17812202344090"
-  },
-  {
-    "title": "OpenDream：开源 AI 代理本地记忆系统",
-    "summary": "开源项目 OpenDream 提供本地优先的 AI 代理记忆与梦境自动化功能。",
-    "detail": "OpenDream 是一个开源项目，旨在为 AI 代理提供本地优先的记忆存储与“梦境”自动化功能。它允许代理跨项目、工具和会话保留有用的上下文，同时保持边界和来源可见。“梦境”指后台记忆审查和清理，而非黑盒模型行为。支持 Python 3.11+，Apache 2.0 许可，适合构建具有长期记忆能力的自主代理系统。该项目强调记忆的可审查性和便携性，解决了封闭产品记忆不透明的问题，为开发者提供了控制代理上下文演进的透明工具，促进本地化 AI 部署的安全性与隐私保护。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Open Source"
-    ],
-    "link": "https://github.com/pylit-ai/opendream",
-    "date": "2026-06-11",
-    "id": "17812202344091"
-  },
-  {
-    "title": "AWS 开源 GEDD：AI 代理评估开发框架",
-    "summary": "AWS  samples 发布 GEDD，用于 AI 代理的基于评估的开发流程。",
-    "detail": "AWS 开源了 GEDD (Grounded Eval-Driven Development)，这是一个面向 AI 产品经理和领域专家的评估驱动开发工作台。它允许用户在发布前加载真实的启动风险场景，审查代理表现，命名失败模式，并生成工程可用的验证报告。解决了传统评估工作流中 reviewers 难以评分原始 trace 的问题，提升代理交付质量。该工具强调在缺乏既定评分标准前先定性评估，帮助团队在早期发现代理错误，确保 AI 应用在关键场景下的可靠性与安全性，降低生产环境中的幻觉风险。",
-    "tags": [
-      "Dev",
-      "Evaluation",
-      "AWS"
-    ],
-    "link": "https://github.com/aws-samples/sample-GEDD",
-    "date": "2026-06-11",
-    "id": "17812202344092"
-  },
-  {
-    "title": "深度分析：AI 泡沫破裂会是怎样的景象？",
-    "summary": "The Big Newsletter 撰文分析 AI 泡沫破裂可能对金融市场造成的影响。",
-    "detail": "The Big Newsletter 发表文章探讨 AI 泡沫破裂的潜在景象及其是否会导致更广泛的金融崩溃。文章类比了互联网泡沫、2008 年金融危机等历史事件，指出当前股市与实体经济脱节，治理往往发生在危机之后。分析认为理解 AI 技术治理与金融泡沫治理的区别至关重要，为投资者提供了风险视角。作者认为虽然 2008 年和疫情有参考价值，但互联网泡沫时期的经验更为贴切，提醒市场关注投机活动与道德价值活动的失衡风险，警示资本过度集中可能带来的系统性隐患。",
-    "tags": [
-      "News",
-      "Market",
-      "Analysis"
-    ],
-    "link": "https://www.thebignewsletter.com/p/what-would-it-look-like-if-the-ai",
-    "date": "2026-06-11",
-    "id": "17812202344093"
-  },
-  {
-    "title": "构建 AI 友好型公司文档的最佳实践",
-    "summary": "PAX ERP 分享如何制作便于 AI 系统读取和导航的公司文档。",
-    "detail": "PAX ERP 博客分享了构建\"AI 友好型”公司文档的技术选择。他们同时维护人类可读的网页版文档和 AI 可读的核心信息格式（如 clean links, minimal noise）。这种双重结构确保 AI 系统能准确抓取、导航和引用信息，反映了企业为适应 AI 代理自动化操作而优化数字基础设施的新趋势。此举不仅实用，也包含哲学考量，旨在礼貌对待未来的机器领导者，确保文档结构预测性强，减少 AI 解析噪音，提升自动化工作流的效率与准确性，是 AI 原生企业建设的重要一步。",
-    "tags": [
-      "Dev",
-      "Documentation",
-      "Best Practice"
-    ],
-    "link": "https://www.paxerp.com/blog/ai-friendly-company-docs",
-    "date": "2026-06-11",
-    "id": "17812202344094"
-  },
-  {
-    "title": "IndexedAI 上线：为 AI Agent 优化网站可读性",
-    "summary": "生成 llms.txt 与 MCP 端点，让网站更易被 AI 抓取。",
-    "detail": "IndexedAI 推出新工具，旨在解决网站被 AI Agent 抓取难的问题。通过爬虫分析生成 Agent Readiness Score，自动创建 `llms.txt` 文件并提供 live MCP endpoint。支持 Claude Desktop 等客户端直接连接，无需 API Key。此外提供 AI 流量分析，追踪不同模型（如 Claude、GPT-4o）的访问数据。这对优化 SEO for AI 及监控 AI 流量具有重要意义。随着 AI 搜索兴起，网站需主动适配 Agent 协议，该工具提供了标准化解决方案，帮助开发者量化网站对 AI 的友好度并获取实时访问洞察。",
-    "tags": [
-      "New",
-      "MCP",
-      "SEO"
-    ],
-    "link": "https://www.indexedai.tech",
-    "date": "2026-06-11",
-    "id": "17812130082290"
-  },
-  {
-    "title": "微软总裁：Z 世代对 AI 的抵制是科技界的警钟",
-    "summary": "Brad Smith 称毕业生对 AI 取代工作的担忧需被重视。",
-    "detail": "微软总裁 Brad Smith 发表博文，针对今年毕业典礼上毕业生对 AI 的抵制声音发出警告。他指出，科技界不应忽视下一代对“电脑取代工作”的焦虑。此前 Anthropic CEO 曾预测 AI 可能消除半数入门级工作。Smith 强调，tech sector 需回应“别这么快”的呼声，重新审视 AI 对社会就业的影响，而非单纯追求自动化。这反映了科技巨头内部对 AI 伦理与社会影响的反思加剧，可能影响未来产品发布策略及公关方向。对于从业者而言，这意味着 AI 部署需更注重人机协作而非单纯替代。",
-    "tags": [
-      "News",
-      "Jobs",
-      "Ethics"
-    ],
-    "link": "https://www.businessinsider.com/ai-backlash-gen-z-microsoft-president-brad-smith-graduation-speeches-2026-6",
-    "date": "2026-06-11",
-    "id": "17812130082291"
   }
 ]
