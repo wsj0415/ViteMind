@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 裁员潮来袭，多数失业者未申领救济",
+    "summary": "财富杂志报道 AI 导致裁员，但许多人未领取失业金。",
+    "detail": "财富杂志深入报道了 AI 技术引发的就业市场动荡。文章指出，尽管 AI 导致大量岗位被替代，但许多受影响员工并未申领失业救济金，这可能源于资格认定困难或社会 stigma。文中引用了 Sam Altman 和 Dario Amodei 等行业领袖的观点，探讨了自动化对劳动力市场的深远影响及政策应对的缺失。这反映了 AI 转型期特有的社会摩擦，提示企业与社会需关注失业保障体系的适应性调整，以及如何重新定义人机协作下的工作价值与社会保障网络。此外，报道还分析了不同行业受冲击的程度，为政策制定者提供了参考。",
+    "tags": [
+      "News",
+      "Labor",
+      "Policy"
+    ],
+    "link": "https://fortune.com/article/ai-layoffs-unemployment-benefits-eligibility-sam-altman-dario-amodei/",
+    "date": "2026-06-14",
+    "id": "17814609235060"
+  },
+  {
+    "title": "Burpwn：专为 AI Agent 设计的渗透测试工具",
+    "summary": "开源项目，为 AI Agent 提供透明拦截代理和沙箱环境。",
+    "detail": "Burpwn 是一个专为 AI Agent 设计的开源安全工具，旨在解决自主代理在进行 Web 渗透测试时的安全问题。它充当透明拦截代理和执行沙箱，强制所有 Agent 发出的网络流量通过代理，同时确保 Agent 自身的 LLM 流量不被捕获。该工具支持无根 Linux 沙箱隔离，允许开发者通过 CLI 或 MCP 协议回放、编辑和过滤流量。这对于构建安全的 AI 自动化测试流程至关重要，填补了现有针对人类设计的工具（如 Burp Suite）在 AI 代理场景下的空白，提升了 AI 驱动安全测试的可控性与透明度。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://github.com/own2pwn-fr/burpwn",
+    "date": "2026-06-14",
+    "id": "17814609235061"
+  },
+  {
+    "title": "全球 AI 驱动裁员实时追踪网站上线",
+    "summary": "记录 Oracle、Amazon 等大厂因 AI 重组的裁员数据。",
+    "detail": "AILayoffs.live 提供了一个实时追踪全球 AI 驱动裁员数据的平台。网站详细列出了包括 Oracle、Amazon、Meta 在内的多家科技巨头因 AI 重组而减少的岗位数量，例如 Oracle 预计裁员 3 万人转向 AI 数据中心。该工具不仅汇总了历史数据，还更新了 2026 年的最新裁员动态，揭示了企业如何通过自动化和 AI 效率提升来缩减人力成本。这对于观察 AI 经济下的劳动力市场趋势具有重要参考价值，帮助从业者和投资者量化 AI 技术对传统就业结构的实际冲击力度。",
+    "tags": [
+      "News",
+      "Data",
+      "Layoffs"
+    ],
+    "link": "https://ailayoffs.live/",
+    "date": "2026-06-14",
+    "id": "17814609235062"
+  },
+  {
+    "title": "Gemma 4 语音代理实测：单模型替代双模型架构",
+    "summary": "开发者测试 Gemma 4 音频能力，优化电话代理响应速度。",
+    "detail": "一位开发者在 Medium 上分享了使用 Gemma 4 构建语音电话代理的实测经验。传统架构通常采用语音转文本加 LLM 的级联模式，而 Gemma 4 支持直接音频输入，可简化为单模型架构。测试显示，在英语和法语场景下，单模型响应更快且更准确；但在中文场景下，模型出现了幻觉（如足球场长度错误）。该文章提供了详细的响应时间和准确性基准测试，为开发者优化多模态语音代理提供了宝贵数据，展示了当前多模模型在特定语言下的局限性及优化方向。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Multimodal"
+    ],
+    "link": "https://medium.com/@j.y.weng/gemma-4-for-telephony-i-replaced-two-ai-models-with-one-in-my-voice-phone-agent-ununtil-i-switched-3f1bd1c91b2c",
+    "date": "2026-06-14",
+    "id": "17814609235063"
+  },
+  {
+    "title": "AI 公司竞相 IPO，背后资本阵容揭秘",
+    "summary": "科技 crunch 分析 AI 初创企业上市潮及投资者动向。",
+    "detail": "TechCrunch 分析了当前 AI 初创企业竞相上市的趋势，探讨了谁将在这场资本浪潮中获益。文章指出，startups 正试图搭乘 SpaceX IPO 的浪潮，投资者和早期员工密切关注退出机制。随着 AI 公司寻求公开市场融资，背后的资本阵容和估值逻辑成为焦点。报道揭示了行业从技术竞争转向资本市场的阶段变化，分析了潜在 IPO 企业的健康状况及市场环境。这对于理解 AI 行业的商业化成熟度及未来投资风向具有指导意义，标志着 AI 产业进入新的资本周期。",
+    "tags": [
+      "News",
+      "Finance",
+      "IPO"
+    ],
+    "link": "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/",
+    "date": "2026-06-14",
+    "id": "17814609235064"
+  },
+  {
     "title": "DreamServer：将个人电脑变为私有 AI 服务器",
     "summary": "开源项目支持本地部署 LLM、RAG 及工作流，简化私有化 AI 搭建。",
     "detail": "DreamServer 旨在简化本地 AI 服务器搭建，支持 PC、Mac 及 Linux 系统。它自动集成 Ollama、Open WebUI、n8n 及 ComfyUI 等工具，提供 LLM 推理、语音交互、Agent 工作流及 RAG 功能。无需手动组装组件，极大保护隐私的同时降低 homelab 技术门槛。适合开发者及个人用户快速构建安全、可控的私有 AI 环境，解决本地部署碎片化问题。随着本地 AI 需求增长，此类一体化方案将成为个人算力利用的主流趋势，推动 AI 从云端向边缘侧下沉。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.zamp.ai/",
     "date": "2026-06-12",
     "id": "17812671281101"
-  },
-  {
-    "title": "GeoSolver MCP：为 AI 代理提供反向图像地理定位",
-    "summary": "基于 MCP 协议的工具，帮助 AI 代理识别图像地理位置。",
-    "detail": "GeoSolver 推出了针对 AI 代理的 MCP（Model Context Protocol）集成，提供反向图像地理定位功能。这使得 AI 代理能够独立分析图像内容并确定其拍摄地点，增强了代理在情报收集、验证及地理空间分析任务中的能力。是 AI 代理生态中垂直工具链的重要补充。该工具由 Reverse Image Location 开发，强调教育及训练用途，为多模态 AI 模型提供了具体的空间感知能力扩展。",
-    "tags": [
-      "New",
-      "Agent",
-      "Tools"
-    ],
-    "link": "https://reverseimagelocation.com/settings/mcp",
-    "date": "2026-06-12",
-    "id": "17812671281102"
-  },
-  {
-    "title": "ASML 分享 AI 原生工程在半导体制造中的应用",
-    "summary": "ASML 在 AI Now 峰会分享如何利用 AI 加速芯片设计与制造。",
-    "detail": "光刻机巨头 ASML 在巴黎 AI Now 峰会上展示了如何将 AI 原生工程应用于半导体生命周期。涵盖从芯片设计转化为现实、物理极限控制系统到缺陷检测等多个环节。ASML 强调工程师与 AI 的持续循环协作，表明硬件制造巨头正深度整合 AI 以提升良率和设计效率。文章详细列出了 AI 在诊断问题、设计系统及控制物理极限系统方面的具体应用，展示了硬科技与 AI 软件的深度融合趋势。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Manufacturing"
-    ],
-    "link": "https://www.asml.com/en/news/stories/2026/machines-behind-machines",
-    "date": "2026-06-12",
-    "id": "17812671281103"
-  },
-  {
-    "title": "视频编码如何影响 AI 模型的预测分数",
-    "summary": "Fourthline 研究不同视频编码对机器学习模型性能的影响。",
-    "detail": "身份验证公司 Fourthline 研究发现，不同的视频编码格式和压缩伪影会显著影响机器学习模型的预测分数，尤其是监督学习与对比学习范式表现不同。这对于部署在多样化客户端环境中的 AI 服务至关重要，强调了在开放世界中模型鲁棒性和编码兼容性的重要性。研究旨在确保 KYC 流程中身份验证的准确性，无论客户后端如何预处理数据，揭示了底层数据工程对 AI 模型表现的潜在影响。",
-    "tags": [
-      "Dev",
-      "Computer Vision",
-      "Research"
-    ],
-    "link": "https://www.fourthline.com/newsroom/supervised-vs-contrastive-classification",
-    "date": "2026-06-12",
-    "id": "17812671281104"
-  },
-  {
-    "title": "AWS 优化 Graviton5 芯片以支持代理式 AI 工作负载",
-    "summary": "AWS 公布 Graviton5 细节，192 核设计优化代理 AI 性价比。",
-    "detail": "AWS 详细介绍了 Graviton5 服务器 CPU，采用 4 个 CPU 块共 192 个 Neoverse V3 核心，支持 CXL 3.0 内存扩展。该芯片专门针对代理式 AI（Agentic AI）工作负载进行了 tuning，旨在大幅提高性价比。这标志着云厂商正在为 AI 代理的大规模部署提供底层硬件基础设施支持。新的 M9g 实例展示了 AWS 在 Arm 架构上的投入，通过内存扩展协议支持需要大容量内存的数据库或 AI 工作负载。",
-    "tags": [
-      "News",
-      "Cloud",
-      "Infrastructure"
-    ],
-    "link": "https://www.nextplatform.com/compute/2026/06/11/aws-tunes-up-graviton5-for-agentic-ai-boosts-bang-for-the-buck-bigtime/5254538",
-    "date": "2026-06-12",
-    "id": "17812671281105"
-  },
-  {
-    "title": "面对美国芯片限制，中国启动光子学实验室 powering AI",
-    "summary": "中国新建光子学实验室，试图用光技术突破 AI 算力限制。",
-    "detail": "面对美国的芯片出口管制，中国启动了新的光子学实验室，旨在利用光技术为 AI 提供算力支持。光子计算被视为绕过传统电子芯片限制 potential 路径之一。这一举措反映了地缘政治紧张局势下，全球 AI 硬件供应链的多元化趋势及技术路线的竞争加剧。新闻源自 SCMP 科技战争板块，显示了在半导体受限背景下， alternative computing architectures 正在成为国家战略层面的关注焦点。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Geopolitics"
-    ],
-    "link": "https://www.scmp.com/tech/tech-war/article/3356901/facing-us-chip-curbs-china-launches-photonics-lab-power-ai-with-light",
-    "date": "2026-06-12",
-    "id": "17812671281106"
   }
 ]
