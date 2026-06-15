@@ -1,5 +1,96 @@
 [
   {
+    "title": "NewCore 获 6600 万美元融资，主打 AI 员工身份管理",
+    "summary": "NewCore 融资 6600 万美元，解决企业 AI 代理身份与安全挑战。",
+    "detail": "**背景**：随着 AI 代理成为企业员工，安全管理重心转向代理身份。**核心**：NewCore 获得 6600 万美元融资，旨在为 AI 代理提供身份管理解决方案。**影响**：标志着企业安全边界从人类员工扩展至 AI 代理，身份管理将成为下一代企业安全的关键挑战，需重新定义信任边界。",
+    "tags": [
+      "News",
+      "Funding",
+      "Security"
+    ],
+    "link": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
+    "date": "2026-06-15",
+    "id": "17815293988860"
+  },
+  {
+    "title": "软件开发新范式：审查规范而非代码差异",
+    "summary": "AI 生成代码过快，传统 Diff 审查失效，建议转向审查技术规范。",
+    "detail": "**背景**：AI 使代码生成速度远超人工审查能力，传统合并前审查 Diff 的模式不再适用。**核心**：提出“重审查规范，轻审查代码”的新生命周期模式。技术规范指工程师的实现计划，而非产品需求。**影响**：开发者需调整工作流，在代码生成前严格审查技术方案，以应对 AI 带来的代码体积膨胀和质量控制难题。",
+    "tags": [
+      "Dev",
+      "Workflow",
+      "CodeReview"
+    ],
+    "link": "https://mkdshare.dev/d/review-the-spec-not-the-diff-how-ai-changes-the-way-we-NTdScTRg",
+    "date": "2026-06-15",
+    "id": "17815293988861"
+  },
+  {
+    "title": "英国政府测试前沿模型用于网络防御",
+    "summary": "英国政府通过黑客松测试 Claude Mythos 等模型在真实网络防御中的效果。",
+    "detail": "**背景**：基准测试无法完全反映 AI 在真实网络威胁中的能力。**核心**：英国政府网络安全协调中心组织黑客松，使用 Claude Mythos 和 GPT-5.5 等前沿模型扫描政府代码库。**影响**：探索前沿模型在实战中的漏洞挖掘能力，推动政府开源代码与 AI 安全评估的结合，加速新能力部署并 mitigating 未知漏洞。",
+    "tags": [
+      "News",
+      "Security",
+      "Government"
+    ],
+    "link": "https://www.gov.uk/government/case-studies/when-ai-leaves-the-lab-testing-frontier-models-in-government-cyber-defence",
+    "date": "2026-06-15",
+    "id": "17815293988862"
+  },
+  {
+    "title": "在 Fedora Linux 上使用微虚拟机沙箱化 AI 编码代理",
+    "summary": "教程指导如何在 Fedora 上使用微虚拟机隔离 AI 编码代理，提升安全性。",
+    "detail": "**背景**：AI 编码代理权限过大可能危及生产环境，如误用 kubectl 或 SSH。**核心**：文章演示如何利用 Linux 微虚拟机（microVMs）隔离代理，而非仅依赖容器或用户权限。**影响**：为开发者提供实用的安全隔离方案，防止提示注入或沙箱逃逸带来的潜在风险，保障本地开发环境安全，避免凭证泄露。",
+    "tags": [
+      "Dev",
+      "Linux",
+      "Security"
+    ],
+    "link": "https://fedoramagazine.org/sandbox-ai-coding-agents-with-microvms-on-fedora-linux/",
+    "date": "2026-06-15",
+    "id": "17815293988863"
+  },
+  {
+    "title": "AI 代理工具设计：成败关键在于接口而非模型",
+    "summary": "分析表明工具设计缺陷是 AI 代理失败的主因，需提供清晰 schema 和错误处理。",
+    "detail": "**背景**：多数 AI 代理失败看似模型错误，实则是工具接口设计缺陷。**核心**：强调单一职责工具、紧密 schema 和结构化错误返回的重要性。模糊命名和弱参数定义会导致幻觉。**影响**：开发者应优化工具边界设计，而非单纯依赖更强模型，以提升代理在真实工作负载中的可靠性，减少不可预测行为。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Design"
+    ],
+    "link": "https://machinelearningmastery.com/ai-agent-tool-design-what-works-and-what-doesnt/",
+    "date": "2026-06-15",
+    "id": "17815293988864"
+  },
+  {
+    "title": "AI 时代需要更多工程纪律而非更少",
+    "summary": "Charity Majors 发文强调 AI 生成代码时代更需要严格的工程纪律和审查。",
+    "detail": "**背景**：社区存在 AI 降低代码质量的担忧，有人误解可跳过审查。**核心**：Charity Majors 指出 AI 生成代码虽快，但需更多工程纪律而非更少。反对直接将未审查代码推入生产环境。**影响**：纠正行业误区，强调在 AI 辅助下，不可变基础设施般的严谨态度仍是保障系统稳定性的关键，避免技术债务累积。",
+    "tags": [
+      "Dev",
+      "Engineering",
+      "Culture"
+    ],
+    "link": "https://charity.wtf/2026/06/15/ai-demands-more-engineering-discipline-not-less-xpost/",
+    "date": "2026-06-15",
+    "id": "17815293988865"
+  },
+  {
+    "title": "AI 并未减缓页面构建器的发展势头",
+    "summary": "数据显示 AI 未导致 WordPress 等页面构建器活跃站点减少，反而可能诱导需求。",
+    "detail": "**背景**：业界猜测 AI 聊天机器人会引导用户转向静态托管，削弱页面构建器。**核心**：BuiltWith 数据显示 WordPress 等构建器活跃站点未减少，市场份额波动另有原因。**影响**：AI 降低了建站门槛，可能诱导了更多需求。技术 accessibility 提升并未淘汰传统工具，而是改变了使用场景，页面构建器依然稳固。",
+    "tags": [
+      "News",
+      "WebDev",
+      "Market"
+    ],
+    "link": "https://chuckgreenman.com/2026/06/14/ai-isnt-slowing-down-page-builders",
+    "date": "2026-06-15",
+    "id": "17815293988866"
+  },
+  {
     "title": "Glean 发布 2026 工作 AI 指数报告",
     "summary": "揭示 AI 工作中的隐藏人力劳动，如“机器人坐席”。",
     "detail": "Glean 工作 AI 研究所发布 2026 全球指数报告，提出\"Botsitting\"概念，指出 AI 背后存在大量隐藏的人类劳动。报告由多位学界专家共同撰写，深入分析了企业 AI 部署的实际效率与人力成本。该研究为企业管理者提供了评估 AI ROI 的新视角，强调人机协作的真实形态。数据表明，看似自动化的流程往往需要人工干预，企业需重新审视 AI 落地策略，避免过度神话自动化能力。",
@@ -1207,96 +1298,5 @@
     "link": "https://www.lesswrong.com/posts/SieLowPgNgRSPGhFw/estimating-no-cot-task-completion-time-horizons-of-frontier",
     "date": "2026-06-13",
     "id": "17813370824601"
-  },
-  {
-    "title": "Anthropic 团队揭秘 AI 原生工程组织管理",
-    "summary": "Claude 团队分享 AI 编码时代下的工程流程变革，验证与审查成为新瓶颈。",
-    "detail": "Anthropic 官方博客详解如何运行 AI 原生工程组织。随着 Agent 编码消除编写成本，瓶颈转向代码验证、审查与安全。团队建议将路线图改为“即时规划”，因编码速度加快使长期预规划失效。文章强调了在 AI 辅助下重构工作流程的必要性，为技术管理者提供了转型参考。传统软件工程规范正在失效，验证与安全成为新核心。领导者需调整 KPI，从代码产出转向系统可靠性。这一转变要求团队具备更强的架构设计能力，以驾驭 AI 生成的复杂代码，确保最终产品质量。AI 原生组织不仅是工具升级，更是管理哲学的根本变革，需建立新的信任机制与审查流程。",
-    "tags": [
-      "Dev",
-      "Management",
-      "Claude"
-    ],
-    "link": "https://claude.com/blog/running-an-ai-native-engineering-org",
-    "date": "2026-06-13",
-    "id": "17813370824602"
-  },
-  {
-    "title": "最强 AI 模型单次生成完整游戏演示",
-    "summary": "开发者测试 Anthropic 新模型，单次生成 2300 行代码游戏，展现惊人编码能力。",
-    "detail": "开发者 Koen van Gilst 测试了 Anthropic 最新模型（被称为“最危险模型”），要求其单次生成一个构思多年的游戏。模型经过 45 分钟推理，消耗 20 欧元 Token，输出了 2319 行无依赖 HTML 代码。这展示了前沿模型在复杂任务规划与执行上的突破，但也引发了对模型能力失控的担忧。单次生成完整可玩游戏标志着 AI 编程能力的质变，从辅助编码转向独立交付。然而，高昂的 Token 成本与长时间推理仍是普及障碍。此案例证明了 AGI 雏形的潜力，同时也提醒行业关注模型自主行动的安全边界，防止不可控的代码生成，需建立沙盒测试环境，此前旧模型均失败。",
-    "tags": [
-      "News",
-      "Coding",
-      "Demo"
-    ],
-    "link": "https://koenvangilst.nl/lab/claude-fable-shepherds-dog",
-    "date": "2026-06-13",
-    "id": "17813370824603"
-  },
-  {
-    "title": "政府干预 Anthropic 最强模型引发争议",
-    "summary": "因安全警告反噬，政府要求召回 Anthropic 最强 AI 模型。",
-    "detail": "Anthropic 对其最强大 AI 模型被政府停用表示强烈不满。公司指出，因 narrow potential jailbreak 而召回已部署给数亿人的商业模型是不合理的。这一事件反映了 AI 安全警告可能产生的反噬效应，政府监管与企业商业化部署之间的冲突加剧。安全警告本意是负责，却导致模型被禁。此举可能迫使行业重新评估模型发布前的安全测试标准及监管合规流程，影响未来大型模型的上线策略与公众信任。监管干预可能成为常态，企业需在安全透明与商业利益间寻找新平衡。",
-    "tags": [
-      "News",
-      "Regulation",
-      "Anthropic"
-    ],
-    "link": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
-    "date": "2026-06-13",
-    "id": "17813227494140"
-  },
-  {
-    "title": "中美 AI 模型博弈：中国限制西方模型",
-    "summary": "中国加强对西方 AI 模型限制，同时美国公司转向使用 DeepSeek。",
-    "detail": "科技界出现巨大 irony，中国在 crackdown 西方 AI 模型，而美国公司却 flock to DeepSeek。这反映了全球 AI 供应链的复杂变化，地缘政治因素正深刻影响模型选择与技术流向。西方模型在华受限，而美国企业转向中国开源模型，显示技术实用性超越政治壁垒。开源与闭源模型的竞争格局正在重塑，跨境技术合作与限制将成为行业常态，企业需灵活调整模型采购策略以应对政策风险。这种双向流动表明，AI 技术发展已难以被单一政策完全阻断，混合架构将成为主流。",
-    "tags": [
-      "News",
-      "Geopolitics",
-      "DeepSeek"
-    ],
-    "link": "https://www.techradar.com/pro/the-great-ai-irony-china-cracks-down-on-western-models-while-us-companies-flock-to-deepseek",
-    "date": "2026-06-13",
-    "id": "17813227494141"
-  },
-  {
-    "title": "三星或将制造谷歌下一代 AI 芯片",
-    "summary": "三星正洽谈帮助谷歌制造下一代 AI 芯片，硬件合作升级。",
-    "detail": "据韩国 Herald 报道，三星正在洽谈协助谷歌制造下一代 AI 芯片。这一合作若达成，将显著增强谷歌在 AI 硬件领域的自主能力，减少对外部供应商依赖。对于三星而言，这是巩固其在半导体制造领域地位的关键一步，影响 AI 算力供应链格局。硬件定制化趋势明显，科技巨头正通过垂直整合优化 AI 训练与推理效率。此次合作可能改变芯片代工市场竞争态势，推动 AI 专用硬件快速发展，为后续模型迭代提供更强算力支持。双方联手将加速 AI 基础设施升级，应对日益增长的计算需求。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Samsung"
-    ],
-    "link": "https://www.koreaherald.com/article/10770505",
-    "date": "2026-06-13",
-    "id": "17813227494142"
-  },
-  {
-    "title": "SentinelMCP：开源 AI 代理防火墙",
-    "summary": "专为 MCP 协议设计的开源防火墙，保护 AI 代理安全。",
-    "detail": "SentinelMCP 是一个针对使用 MCP 协议的 AI 代理的开源防火墙与安全网关。支持 inspect、redact 和控制 tool calls，提供 Proxy 和 Inline SDK 模式。目前处于 Alpha 阶段，为开发者提供了关键的 Agent 安全层，适合需要严格控制 AI 工具调用的企业环境。项目由 Technosive Ltd 构建，采用 Apache 2.0 许可。虽然警告生产环境需谨慎，但其为 AI 代理安全提供了新思路，有助于防止敏感数据泄露及恶意工具调用，填补了 MCP 生态安全空白。随着 AI Agent 普及，此类安全中间件将成为基础设施标配。",
-    "tags": [
-      "Dev",
-      "Security",
-      "OpenSource"
-    ],
-    "link": "https://github.com/technosiveuk-ui/SentinelMCP",
-    "date": "2026-06-13",
-    "id": "17813227494143"
-  },
-  {
-    "title": "CipherNode：离线自修正 AI 集群",
-    "summary": "编译为单个 exe 的离线自修正 AI 集群，注重隐私与部署。",
-    "detail": "CipherNode 是一个离线、自修正的 AI 集群，可编译为单个 .exe 文件。该项目强调了本地部署和自我纠错能力，适合对数据隐私要求极高或网络受限的场景。为开发者提供了一种无需依赖云端 API 即可运行复杂 AI 任务的新思路，降低了部署门槛。离线特性确保了数据不出本地，自修正机制提升了系统稳定性。这种轻量化、独立运行的 AI 方案，为边缘计算和私有化部署提供了新选择，可能推动 AI 在安全敏感行业的落地应用。单一文件分发极大简化了运维复杂度，便于集成到现有软件系统中。",
-    "tags": [
-      "Dev",
-      "Offline",
-      "Deployment"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48512309",
-    "date": "2026-06-13",
-    "id": "17813227494144"
   }
 ]
