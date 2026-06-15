@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 界面设计反思：终端 UI 并非未来",
+    "summary": "文章批判终端 UI 和聊天机器人是工程妥协，呼吁为 AI 设计更好的用户体验。",
+    "detail": "文章深刻批判了当前 AI 界面设计的惰性，指出终端 UI 和聊天机器人只是工程妥协的产物。AI 系统本质是概率性、有状态且异步的，强行压缩成终端日志或聊天流是界面设计的失败。行业若希望 AI 超越工程师圈子，必须摒弃将工程便利误认为设计真理的做法。随着 AI Agent 复杂度增加，缺乏状态可视化的 TUI 将严重阻碍非开发者 adoption，亟需创新交互范式以真正匹配模型能力，实现从工具到伙伴的体验升级。",
+    "tags": [
+      "Dev",
+      "UX",
+      "AI Interface"
+    ],
+    "link": "https://medium.com/@balajibal/terminal-uis-are-an-abomination-so-are-chatbots-ai-needs-better-ux-c7ee7b5a0018",
+    "date": "2026-06-14",
+    "id": "17814825262160"
+  },
+  {
+    "title": "开源开发者植入反 AI 代码引发伦理争议",
+    "summary": "Jqwik 作者承认添加无效日志代码，以此抗议 AI 编码代理的滥用。",
+    "detail": "Jqwik 作者 Johannes Link 承认在项目中添加无法运行的日志代码，旨在向使用 AI 编码代理的开发者传达伦理反对意见。他强调这是个人道德判断的自卫行为，并非恶意破坏，但成功引发了社区对 AI 生成代码质量及伦理边界的广泛讨论。此事件凸显了开源社区对 AI 自动化编码侵入的深层焦虑，可能促使更多维护者采取技术手段保护代码库纯洁性。这不仅是对 AI 滥用的一次抗议，更警示开发者需审慎对待 AI 生成代码的验证与伦理影响，重新思考人机协作边界。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Open Source"
+    ],
+    "link": "https://blog.johanneslink.net/2026/06/09/the-jqwik-anti-ai-affair/",
+    "date": "2026-06-14",
+    "id": "17814825262161"
+  },
+  {
+    "title": "加拿大总理警示过度依赖大模型风险",
+    "summary": "Carney 指出 Anthropic 被禁事件表明依赖少数大模型存在巨大风险。",
+    "detail": "针对 Anthropic 在某些区域受限的事件，Mark Carney 警告称过度依赖少数大型 AI 模型存在战略风险。这反映了全球政策制定者开始关注 AI 供应链集中度问题，呼吁多元化模型来源以避免单点故障，对 AI 基础设施投资方向具有政策指导意义。政府与企业需平衡效率与安全，避免因地缘政治或单一供应商问题导致关键基础设施停摆。这一观点强调了主权 AI 能力建设的重要性，提示各国需构建自主可控的模型生态以应对潜在禁令风险，确保国家安全与经济稳定，推动去中心化模型部署成为新趋势。",
+    "tags": [
+      "News",
+      "Policy",
+      "Anthropic"
+    ],
+    "link": "https://www.bloomberg.com/news/articles/2026-06-14/carney-says-anthropic-ban-shows-risk-of-relying-on-big-ai-models",
+    "date": "2026-06-14",
+    "id": "17814825262162"
+  },
+  {
+    "title": "中国高校削减 1.2 万个学位以适应 AI 时代",
+    "summary": "为拥抱 AI 时代，中国大学正在削减被认为过时的学位项目。",
+    "detail": "中国在 AI 竞赛中调整高等教育结构，削减约 1.2 万个“过时”学位，转而支持与 AI 及新技术相关的学科。此举显示国家层面正通过教育改革加速人才结构转型，以匹配 AI 驱动的产业升级需求，可能影响未来全球人才供给格局。传统专业面临淘汰压力，高校资源将向计算、数据及智能科学倾斜，重塑劳动力市场技能需求。这标志着教育体系正从知识传授转向能力适配，以应对 AI 自动化带来的就业结构变化，确保人才储备与技术发展同步，避免结构性失业风险，为全球教育 reform 提供借鉴。",
+    "tags": [
+      "News",
+      "Education",
+      "AI Adoption"
+    ],
+    "link": "https://www.scmp.com/economy/china-economy/article/3356913/chinas-universities-cut-12000-obsolete-degrees-amid-race-embrace-ai-era",
+    "date": "2026-06-14",
+    "id": "17814825262163"
+  },
+  {
+    "title": "Meta 耗资 14 亿引入 Wang 团队后的商业化挑战",
+    "summary": "Zuckerberg 需证明 Meta 新 AI 模型能吸引付费用户，而不仅服务于广告。",
+    "detail": "Meta 花费超 140 亿美元引入 Alexandr Wang 及 Scale AI 团队后，发布了专有模型 Muse Spark。目前挑战在于 Zuckerberg 需向投资者证明 AI 能带来独立于广告业务之外的商业化成功。分析师指出需提供更多采用率和货币化证据，标志着 Meta AI 战略从开源转向专有盈利。这考验 Meta 能否在 OpenAI 等对手压力下构建可持续的 AI 原生收入流。此次转型意味着 Meta 不再满足于利用 AI 优化广告，而是寻求直接通过 AI 产品变现，这将加剧与大模型厂商的竞争，改变行业开源与闭源的博弈格局。",
+    "tags": [
+      "News",
+      "Meta",
+      "LLM"
+    ],
+    "link": "https://www.cnbc.com/2026/06/14/meta-hired-alexandr-wang-to-build-ai-its-zuckerbergs-job-to-sell-it.html",
+    "date": "2026-06-14",
+    "id": "17814825262164"
+  },
+  {
     "title": "美媒警告：AI 护栏监管可能为时已晚",
     "summary": "Politico 报道美国急于在中国之前确保前沿 AI 安全，监管面临挑战。",
     "detail": "美国正竞相在中国赶上之前确保前沿 AI 的安全。Politico 指出，围绕强大 AI 模型的护栏可能设立得太晚。文章强调了网络安全和中美竞争背景下的紧迫性，暗示当前的监管措施可能无法跟上技术发展的速度，行业面临\"飓风警告\"般的风险。监管者需在创新与安全之间找到平衡，否则可能失去对前沿模型的控制权。此报道揭示了地缘政治如何加速 AI 安全政策的制定，同时也暴露了技术迭代速度远超立法速度的现实困境，呼吁立即采取行动。",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
     "date": "2026-06-12",
     "id": "17813064020840"
-  },
-  {
-    "title": "生产环境中 AI Agent 的人工审查设计讨论",
-    "summary": "HackerNews 热议如何在生产流程中设计 AI Agent 的人工审查与审计机制。",
-    "detail": "社区开发者深入探讨生产环境中 AI Agent 的人工审查机制设计。核心议题涵盖自动化边界界定、人工审批触发条件及审计流程可追溯性。随着 Agent 从实验走向落地，安全性与可控性成为首要挑战。该讨论汇聚了实战经验，为构建可靠 AI 工作流提供参考，强调在人机协作中保留关键决策权的重要性。有助于降低自动化风险，推动 Agent 技术在企业级应用中的合规部署，确保 AI 决策透明且可干预，是构建可信 AI 系统的关键环节，对于防止 Agent 失控造成业务损失具有实际指导意义。",
-    "tags": [
-      "Dev",
-      "AI Agents",
-      "Workflow"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48510369",
-    "date": "2026-06-12",
-    "id": "17813064020841"
-  },
-  {
-    "title": "康奈尔研究揭示 LLM 叙事模式高度同质化",
-    "summary": "研究发现主流大模型在创作故事时，高频复用灯塔看守人等特定词汇。",
-    "detail": "康奈尔大学研究揭示主流大模型存在叙事模式同质化问题。分析 Claude Haiku 4.5、Gemini 3.1 等模型生成的 2 万篇故事，发现 88% 包含特定高频词汇（如灯塔、面包师）。这表明模型为避免版权侵权，过度依赖狭窄叙事元素，导致创意枯竭。该发现对 AI 内容创作多样性提出挑战，提示开发者需优化训练数据与生成策略。以避免用户感知到的重复性与缺乏新意，影响生成式 AI 在创意产业的应用价值，未来模型需平衡安全性与创造性，否则可能限制其在文学创作等领域的商业化潜力。",
-    "tags": [
-      "News",
-      "LLM",
-      "Research"
-    ],
-    "link": "https://www.unite.ai/why-does-ai-love-writing-about-lighthouse-keepers/",
-    "date": "2026-06-12",
-    "id": "17813064020842"
-  },
-  {
-    "title": "开发者开源 AI 自动寻找投资人工具",
-    "summary": "一款 CLI 工具利用 AI 识别潜在投资人并自动发送 outreach 邮件，测试回复率良好。",
-    "detail": "开发者分享了一款利用 AI 自动寻找投资人并发送邮件的 CLI 工具。该工具能理解项目内容，匹配公开邮箱的投资人，测试回复率达 14%。目前作者正寻求 Beta 测试者以推向市场。此案例展示了 AI Agent 在垂直商务场景的落地潜力，为初创团队提供了自动化融资新思路。降低了商务拓展门槛，体现了 AI 技术在提升个人生产力与商业连接效率方面的实际价值，是垂直领域 Agent 应用的典型成功案例，预示著 AI 销售与拓展工具将迎来爆发式增长。",
-    "tags": [
-      "New",
-      "AI Agents",
-      "Startup"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48509761",
-    "date": "2026-06-12",
-    "id": "17813064020843"
-  },
-  {
-    "title": "观点：AI 将拯救预测市场",
-    "summary": "分析师指出 AI 技术的发展将为通用预测市场带来新的生机与应用场景。",
-    "detail": "观点指出 AI 技术将成为拯救预测市场的关键力量。文章追溯了 Robin Hanson 的 Idea Futures 概念，认为 AI 能更高效处理信息与预测逻辑。这标志着 AI 应用正从内容生成向金融预测领域深化，可能重塑信息聚合机制。若 AI 能提升预测准确性与市场流动性，将为 DeFi 及传统金融带来新机遇。值得關注其在复杂事件预测与决策支持系统中的进一步整合与应用，AI 代理可能成为市场流动性的主要提供者，改变传统金融市场的信息不对称现状。",
-    "tags": [
-      "News",
-      "Finance",
-      "AI Application"
-    ],
-    "link": "https://twitter.com/0xjaniak/status/2058907417161646186",
-    "date": "2026-06-12",
-    "id": "17813064020844"
-  },
-  {
-    "title": "谷歌起诉 AI 诈骗团伙",
-    "summary": "谷歌起诉\"Outsider Enterprise\"利用 AI 诈骗数十万受害者，发送 250 万条短信。",
-    "detail": "科技巨头谷歌正式起诉名为\"Outsider Enterprise\"的中国网络犯罪组织。该组织利用 AI 技术在两周内发送 250 万条短信，诈骗数十万受害者。此案标志着大厂对 AI 滥用行为的法律反击升级，凸显 AI 安全与合规的重要性。谷歌此举旨在遏制 AI 驱动的 cybercrime 操作，保护用户免受大规模自动化诈骗侵害。随着 AI 技术普及，此类滥用风险激增，法律监管成为行业关注焦点。此次诉讼可能为未来 AI 安全立法提供重要案例参考，警示开发者需重视技术伦理。同时，这也反映了大型科技公司主动承担社会责任，打击黑色产业链的决心。",
-    "tags": [
-      "News",
-      "Security",
-      "Legal"
-    ],
-    "link": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
-    "date": "2026-06-12",
-    "id": "17813008393230"
   }
 ]
