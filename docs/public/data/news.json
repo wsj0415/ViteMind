@@ -1,5 +1,44 @@
 [
   {
+    "title": "Glean 发布 2026 工作 AI 指数报告",
+    "summary": "揭示 AI 工作中的隐藏人力劳动，如“机器人坐席”。",
+    "detail": "Glean 工作 AI 研究所发布 2026 全球指数报告，提出\"Botsitting\"概念，指出 AI 背后存在大量隐藏的人类劳动。报告由多位学界专家共同撰写，深入分析了企业 AI 部署的实际效率与人力成本。该研究为企业管理者提供了评估 AI ROI 的新视角，强调人机协作的真实形态。数据表明，看似自动化的流程往往需要人工干预，企业需重新审视 AI 落地策略，避免过度神话自动化能力。",
+    "tags": [
+      "News",
+      "Report",
+      "Enterprise"
+    ],
+    "link": "https://www.glean.com/work-ai-institute/reports/work-ai-index-report",
+    "date": "2026-06-15",
+    "id": "17815048340722"
+  },
+  {
+    "title": "AgentBridge：多智能体协议互操作层",
+    "summary": "GitHub 开源项目，实现不同 AI 智能体协议的翻译与治理。",
+    "detail": "这是一个用于多智能体系统的中性互操作与治理层，旨在解决 AI Agent 生态碎片化问题。支持任意协议进出，内置身份验证、预算控制和防篡改审计 trail。目前为 Python 原型，已通过 150 项测试，包含 Postgres 数据库支持。该项目为构建复杂的多代理协作系统提供了基础设施层面的解决方案。开发者可通过该 mesh 层实现不同协议 agent 间的无缝通信与管控，适合构建企业级 agent 网络，降低集成成本。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Agents"
+    ],
+    "link": "https://github.com/shadowhunter-92/agentbridge",
+    "date": "2026-06-15",
+    "id": "17815048340723"
+  },
+  {
+    "title": "免费 AI 简历构建器上线",
+    "summary": "支持 ATS 友好格式，无需注册即可导出 PDF。",
+    "detail": "一款新的免费 AI 简历工具，主打隐私保护与 ATS 系统兼容性，解决求职者格式难题。用户可在浏览器本地完成简历优化，AI 会自动重写 bullet points 并量化成果，推断合理指标。支持一键导出 PDF 或 Word，无水印且无需账号。对于求职者而言，这是一个高效且安全的辅助工具，特别适合需要快速优化简历格式的场景。数据本地处理确保了隐私安全，避免了云端上传泄露的风险。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Career"
+    ],
+    "link": "https://www.thehumancapitalhub.com/ai-resume-builder",
+    "date": "2026-06-15",
+    "id": "17815048340724"
+  },
+  {
     "title": "AI 界面设计反思：终端 UI 并非未来",
     "summary": "文章批判终端 UI 和聊天机器人是工程妥协，呼吁为 AI 设计更好的用户体验。",
     "detail": "文章深刻批判了当前 AI 界面设计的惰性，指出终端 UI 和聊天机器人只是工程妥协的产物。AI 系统本质是概率性、有状态且异步的，强行压缩成终端日志或聊天流是界面设计的失败。行业若希望 AI 超越工程师圈子，必须摒弃将工程便利误认为设计真理的做法。随着 AI Agent 复杂度增加，缺乏状态可视化的 TUI 将严重阻碍非开发者 adoption，亟需创新交互范式以真正匹配模型能力，实现从工具到伙伴的体验升级。",
@@ -1259,44 +1298,5 @@
     "link": "https://news.ycombinator.com/item?id=48512309",
     "date": "2026-06-13",
     "id": "17813227494144"
-  },
-  {
-    "title": "AI 资本支出账本：谁买单谁赚钱与债券市场",
-    "summary": "深度分析 AI 资本周期中的回报链条，探讨 GPU 订单到宏观生产力的转化。",
-    "detail": "### 核心观点\nGeometric Investor 分析指出，AI 辩论不应仅关注泡沫，而是会计问题：谁需要获得何种回报才能使 AI 资本支出周期合理？\n\n### 产业链分析\nGPU 供应商已获利，但 Hyperscalers 需将算力转化为收入，最终用户需获得高回报以维持支出。\n\n### 宏观影响\nAI 是 Linked Ledgers 链条，若末端回报不足，将影响债券市场长端利率及通胀预期，市场尚未完全审计后续账本。",
-    "tags": [
-      "News",
-      "Finance",
-      "Market"
-    ],
-    "link": "https://geometricinvestor.substack.com/p/the-ai-capex-ledger",
-    "date": "2026-06-12",
-    "id": "17813920519292"
-  },
-  {
-    "title": "Andy 的 AI 软件工程定律：不使用 AI 的工程师更值钱",
-    "summary": "资深工程师提出 AI 时代定律， mastery 过软件工程的非 AI 依赖者将更具竞争力。",
-    "detail": "### 核心定律\nAndy Maleh 提出：随着开发者越依赖 AI，不依赖 AI 且掌握底层原理的工程师越有价值。\n\n### 逻辑分析\nAI 从大师代码中学习，服务于初级开发者。若全员依赖 AI 而不懂原理，维护 AI 生成代码及 AI 本身的人才将稀缺。\n\n### 职业建议\n开发者应追求 mastery 而非单纯依赖工具。理解底层架构将成为区分普通 coder 与真正 Software Engineer 的关键壁垒。",
-    "tags": [
-      "Dev",
-      "Career",
-      "Engineering"
-    ],
-    "link": "https://andymaleh.blogspot.com/2026/06/andys-laws-of-ai-in-software-engineering.html",
-    "date": "2026-06-12",
-    "id": "17813920519297"
-  },
-  {
-    "title": "Meta AI 部门被曝内部文化危机",
-    "summary": "报道称 Meta 新兴 AI 部门内部压力巨大，6500 名工程师面临“古拉格”般的工作环境。",
-    "detail": "报道揭露 Meta 新成立数月的 AI 部门内部存在严重管理危机。该部门规模达 6500 人，但工程师形容其为“摧残灵魂的古拉格”，濒临反抗边缘。这反映了科技巨头在激进扩张 AI 团队时，可能忽视组织文化建设与员工福祉。此类内部动荡若持续，可能影响 Meta 大模型研发进度及人才稳定性，为行业敲响人才管理警钟。提示 AI 竞赛不仅是技术比拼，更是组织效能的较量，高压环境可能导致核心人才流失，进而削弱长期竞争力，投资者需关注此类文化风险对股价及产出的潜在冲击，管理层亟需调整策略。",
-    "tags": [
-      "News",
-      "Meta",
-      "Culture"
-    ],
-    "link": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
-    "date": "2026-06-12",
-    "id": "17813064020840"
   }
 ]
