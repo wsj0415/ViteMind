@@ -1,5 +1,83 @@
 [
   {
+    "title": "Oura 携手 Counsel Health 推出 AI 医疗护理服务",
+    "summary": "Oura 环集成 AI 医疗伙伴，用户可在 App 内直接获取专业诊疗建议。",
+    "detail": "Oura 宣布与 Counsel Health 达成合作伙伴关系，将在 Oura App 内提供 AI enabled 的护理服务。通过此次合作，Oura 成员可以从生物识别数据的变化（如静息心率升高）无缝过渡到获得明确的医疗答案和治疗方案。Counsel Health 结合医疗 AI 与持牌医生，用户可在 App 内直接询问健康问题并获得个性化建议。该功能将于 6 月 16 日起在美国 43 个州的 Oura Labs 中 rollout。这标志着可穿戴设备从单纯的健康监测向主动医疗干预基础设施的转变，构建了从个人健康洞察到真实医疗护理的无缝桥梁，提升了用户健康管理的信心与上下文 context。这种连接护理体验旨在解决用户发现异常后不知如何行动的痛点，利用 AI 作为中间层提高医疗资源可及性。",
+    "tags": [
+      "News",
+      "HealthTech",
+      "Wearable"
+    ],
+    "link": "https://ouraring.com/blog/counsel-integration-oura-app/",
+    "date": "2026-06-15",
+    "id": "17815481413520"
+  },
+  {
+    "title": "警惕 RAG 污染：AI 读取的 PDF 可能与用户所见不同",
+    "summary": "研究发现 18.6% 的 PDF 存在解析漂移，严重影响 RAG pipeline 准确性。",
+    "detail": "新研究揭示了 AI 文档完整性危机，指出机器提取的 PDF 文本与人类阅读页面可能存在显著差异。在对 24,824 个 PDF 的分析中，1/3 存在解析器分歧，DOJ 数据集中 18.6% 的文件存在语义漂移。这种差异会导致 RAG 检索 pipeline 中毒，AI 自信地引用不存在的内容，或在微调时将提取错误 baked in。问题隐蔽且不报错，直到下游审计出错。建议 AI 工程师和研究者在生产前测量文档解析差距，特别是处理合同、税务表单等关键文件时，需警惕隐藏层和阅读顺序混乱导致的数据腐蚀风险。这对于依赖文档检索的企业级 AI 应用至关重要，需建立文档完整性验证机制，防止 silent degradation 影响 answer quality。",
+    "tags": [
+      "Dev",
+      "RAG",
+      "Security"
+    ],
+    "link": "https://pqpdf.com/ai-document-integrity.php",
+    "date": "2026-06-15",
+    "id": "17815481413521"
+  },
+  {
+    "title": "苹果 AI 生成快捷指令存在潜在安全风险",
+    "summary": "自然语言生成自动化流程降低了技术门槛，但也削弱了用户对权限的审查。",
+    "detail": "Apple Intelligence 的\"Describe a Shortcut\"功能允许用户通过自然语言描述自动生成自动化流程，降低了技术门槛。然而安全专家指出，这类似于个人自动化领域的\"vibe coding\"，用户可能在未完全理解工作流步骤的情况下授权敏感操作。风险在于 AI 生成的 Shortcut 可能触碰敏感数据、发送信息或触发智能家居设备，而用户缺乏审查每一步的技术能力。虽然提升了便利性，但移除了构建工作流时的自然审查过程。建议用户在启用 AI 生成的自动化前进行人工审查，防止隐私泄露或意外操作，尤其是在涉及第三方应用交互时。这种模式在提升效率的同时，也带来了新的安全挑战，需平衡易用性与安全性。",
+    "tags": [
+      "News",
+      "Security",
+      "Apple"
+    ],
+    "link": "https://www.kylereddoch.me/blog/describe-a-shortcut-create-a-risk-the-security-side-of-ai-built-automations/",
+    "date": "2026-06-15",
+    "id": "17815481413522"
+  },
+  {
+    "title": "业界联名呼吁解除 Anthropic 模型出口限制",
+    "summary": "高管联名信指出限制防御性 AI 模型可能削弱网络安全防御能力。",
+    "detail": "多位美国及盟友的高管和技术领袖联名致信政府，呼吁解除对 Anthropic Fable 和 Mythos 大模型的出口控制。信中指出 AI 对网络安全影响重大，能显著降低寻找软件漏洞的难度。虽然 Anthropic 模型擅长此道，但并非唯一，且已 built 多重防护防止网络进攻用途。限制模型只会让防御者落后于对手，中国开源模型仅落后数月，且对手可能拥有私有能力。剥夺防御者的最佳工具是危险的，应承诺开放、科学的 AI 风险评估流程，确保 coder 和安全团队能利用 AI 快于 adversaries 修复漏洞。这反映了业界对于 AI 出口管制可能削弱防御能力的担忧，呼吁更透明的政策。",
+    "tags": [
+      "News",
+      "Policy",
+      "Cybersecurity"
+    ],
+    "link": "https://freefable.org/",
+    "date": "2026-06-15",
+    "id": "17815481413523"
+  },
+  {
+    "title": "Velxio 3.0 发布：支持多板嵌入式 AI 仿真",
+    "summary": "浏览器端嵌入式模拟器更新，支持复古 CPU 及多板系统互联。",
+    "detail": "Velxio 3.0 发布重大更新，成为支持多板系统的全电路精度嵌入式模拟器。新版本支持 Z80、8086 等复古 CPU 及 Arduino、ESP32、Pi 等多板互联，可在浏览器中 wire UART、I2C 等协议。新增 MicroSD 卡和 ePaper 显示模拟，支持无需主板的 bare CPU 运行及编辑器内汇编编写。提供超过 100 个开源示例，支持全 undo/redo 及 live editing。这对于嵌入式开发者是强大的云端测试与学习工具，降低了硬件仿真门槛，允许在 canvas 上直接 step 经典指令集，提升了开发效率与实验灵活性。结合 in-canvas AI Agent，进一步辅助了复杂电路系统的调试与设计过程。",
+    "tags": [
+      "Dev",
+      "Embedded",
+      "Simulation"
+    ],
+    "link": "https://velxio.dev/v3/",
+    "date": "2026-06-15",
+    "id": "17815481413524"
+  },
+  {
+    "title": "GrassDx：AI 驱动的草坪诊断工具上线",
+    "summary": "上传草坪照片即可获得 AI 诊断及个性化护理方案，无需账户。",
+    "detail": "GrassDx 是一款免费的 AI 驱动草坪诊断工具，用户无需账户即可使用。通过上传最多 4 张草坪照片（全景、特写、边缘、土壤细节）并输入 ZIP 代码，AI 可 instant 识别 47+ 种状况并提供个性化治疗计划。系统根据区域、草种和季节生成建议，如真菌病害、干旱压力或营养缺乏。这种轻量化应用展示了 AI 在垂直生活场景中的落地能力，利用图像识别技术解决具体痛点。虽然功能单一，但无需注册的低摩擦体验有助于快速获客，为后续季节性护理 tips 推送奠定基础，体现了 AI 服务本地化的趋势。适合房主快速获取专业级草坪护理建议，降低了园艺咨询门槛。",
+    "tags": [
+      "New",
+      "Consumer AI",
+      "Image Recognition"
+    ],
+    "link": "https://grassdx.com/",
+    "date": "2026-06-15",
+    "id": "17815481413525"
+  },
+  {
     "title": "NewCore 获 6600 万美元融资，主打 AI 员工身份管理",
     "summary": "NewCore 融资 6600 万美元，解决企业 AI 代理身份与安全挑战。",
     "detail": "**背景**：随着 AI 代理成为企业员工，安全管理重心转向代理身份。**核心**：NewCore 获得 6600 万美元融资，旨在为 AI 代理提供身份管理解决方案。**影响**：标志着企业安全边界从人类员工扩展至 AI 代理，身份管理将成为下一代企业安全的关键挑战，需重新定义信任边界。",
@@ -1220,83 +1298,5 @@
     "link": "https://blog.vigilharbor.com/door-with-no-lock",
     "date": "2026-06-13",
     "id": "17813468544101"
-  },
-  {
-    "title": "Fable 5 越狱揭示 AI 护栏局限性",
-    "summary": "研究人员通过多智能体分解策略绕过 Claude Fable 5 安全控制。",
-    "detail": "红队研究人员 Pliny the Liberator 声称通过多智能体协调策略绕过 Fable 5 安全控制。技术包括 Unicode 操纵、长上下文对话、学术 framing 及请求分解。攻击核心在于分解，将禁止请求拆分为看似无害的小任务。表明仅靠提示词级护栏不足够，需对完整 AI 系统（记忆、工具、权限）进行对抗性测试。该发现虽待独立验证，但安全教训清晰：模型可能 blocking 直接请求，但周围工作流仍助攻击者达成目标。警示 AI 团队需关注系统级安全路径，而非单一模型拒绝测试，安全边界应是整个 AI 系统。",
-    "tags": [
-      "News",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://www.agilehunt.com/blog/fable-5-jailbreak-ai-guardrails",
-    "date": "2026-06-13",
-    "id": "17813468544102"
-  },
-  {
-    "title": "Zuckerberg 承认 Meta AI 转型存在失误",
-    "summary": "Meta CEO 表示公司在 AI 劳动力转型过程中犯了错误。",
-    "detail": "路透社报道，Meta CEO Mark Zuckerberg 公开承认公司在 AI 劳动力转型过程中犯了错误。这表明大型科技公司在快速整合 AI 技术到组织架构时面临严峻挑战。此表态可能影响 Meta 后续 AI 战略调整及人才政策，反映行业普遍存在的转型阵痛。具体错误细节虽未详述，但涉及 workforce shift。此举显示巨头在 AI 浪潮中也在摸索最佳实践，而非一帆风顺。投资者关注这将如何影响 Meta 的 AI 投资回报率及未来招聘策略，是行业风向标。",
-    "tags": [
-      "News",
-      "Meta",
-      "Strategy"
-    ],
-    "link": "https://www.reuters.com/business/metas-zuckerberg-admits-mistakes-made-ai-transformation-2026-06-12/",
-    "date": "2026-06-13",
-    "id": "17813468544103"
-  },
-  {
-    "title": "Paca：开源 AI 原生项目管理工具",
-    "summary": "轻量级 Jira 替代品，专为人类与 AI 代理协作设计。",
-    "detail": "Show HN 项目 Paca 是一款免费开源的项目管理工具，支持自托管。专为 Scrum 团队设计，允许人类与 AI 代理在同一看板上协作，视代理为平等伙伴。支持 MCP Server 连接任意 AI 代理，包含 Claude Code Skill，完全可通过配置和插件定制。旨在适应 AI 时代的开发工作流，解决传统工具无法有效管理 AI 代理任务的痛点。作为 Jira、Trello 的替代品，它强调轻量级与 AI 原生特性，适合希望私有化部署且深度集成 AI 代理的开发团队使用。",
-    "tags": [
-      "New",
-      "OpenSource",
-      "DevTool"
-    ],
-    "link": "https://github.com/Paca-AI/paca",
-    "date": "2026-06-13",
-    "id": "17813468544104"
-  },
-  {
-    "title": "AI 时代后的工程师面试五大支柱",
-    "summary": "传统编码测试已死，面试需转向评估审计与架构能力。",
-    "detail": "文章指出 LLM 使传统编码面试失效，作弊成本极低，live coding 已成表演记忆。未来面试应关注文化契合度、审计能力及解决深层问题的直觉。工程师角色从创作者转向编辑和审计者，但仍需深入系统底层（如内存泄漏、延迟追踪）而非仅做提示词工程。文章提出后 AI 面试五大支柱，强调在 AI 生成代码泛滥时代，人类需具备识别 slop 和架构设计的能力。toxic genius 仍是灾难，文化契合度是不变的常量，技术评估需转向对 AI 产出的审查能力。",
-    "tags": [
-      "Dev",
-      "Career",
-      "Interview"
-    ],
-    "link": "https://carette.xyz/posts/the_five_pillars_of_post_ai_interview/",
-    "date": "2026-06-13",
-    "id": "17813468544105"
-  },
-  {
-    "title": "美国限制 Anthropic 顶尖模型海外访问",
-    "summary": "路透社报道，美国阻止外国访问 Anthropic 最先进 AI 模型，地缘政治影响加剧。",
-    "detail": "据路透社援引 Axios 报道，美国政府已正式阻止外国用户访问 Anthropic 最先进的 AI 模型。这一举措标志着 AI 技术出口管制的进一步收紧，旨在防止关键技术外流至竞争对手国家。此举不仅影响全球开发者获取顶尖算力，可能迫使非美国企业加速自主研发底层模型，同时引发关于 AI 全球化协作与安全边界的新讨论。对于跨国企业而言，合规成本将显著上升，数据本地化部署需求激增。行业需密切关注后续合规要求及潜在的市场替代方案，地缘政治因素正成为 AI 发展的关键变量，可能重塑全球 AI 竞争格局，建议企业提前布局合规策略以规避风险。",
-    "tags": [
-      "News",
-      "Policy",
-      "Anthropic"
-    ],
-    "link": "https://www.reuters.com/technology/us-blocks-foreign-access-anthropics-most-advanced-ai-models-axios-reports-2026-06-13/",
-    "date": "2026-06-13",
-    "id": "17813370824600"
-  },
-  {
-    "title": "前沿模型无思维链推理能力研究",
-    "summary": "新论文评估 AI 无思维链任务完成时间，揭示安全隐患与推理能力增长趋势。",
-    "detail": "LessWrong 发布新研究，评估前沿模型在不使用思维链（CoT）情况下的任务完成能力。研究发现，如 GPT-5.5 等模型在无 CoT 下能可靠完成人类需 3 分钟的任务，且能力每年翻倍。若模型无需输出 CoT 即可推理，将增加监控难度和安全风险，可能导致模型动机难以理解。这对 AI 安全对齐提出了新挑战。开发者需重新评估监控机制，确保模型行为透明。该研究揭示了模型内部推理黑盒化的趋势，提示安全界需开发新的解释性工具，以应对未来更强大的自主推理系统带来的潜在威胁，保障 AI 系统可控，避免隐性目标漂移，对比 METR 数据增长显著。",
-    "tags": [
-      "Dev",
-      "Safety",
-      "Research"
-    ],
-    "link": "https://www.lesswrong.com/posts/SieLowPgNgRSPGhFw/estimating-no-cot-task-completion-time-horizons-of-frontier",
-    "date": "2026-06-13",
-    "id": "17813370824601"
   }
 ]
