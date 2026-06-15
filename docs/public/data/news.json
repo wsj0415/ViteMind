@@ -1,5 +1,96 @@
 [
   {
+    "title": "FreeBSD 启动 AI 辅助漏洞发现项目",
+    "summary": "FreeBSD 基金会启动 AI 项目，旨在减少源代码中的可利用漏洞。",
+    "detail": "FreeBSD 基金会正式宣布启动为期 6 个月的 AI 辅助漏洞发现项目，该项目由 Alpha Omega 项目资助。核心目标是通过 AI 模型分析源代码，减少 FreeBSD 中的可利用漏洞。面对 AI 加速漏洞挖掘导致“零日漏洞”风险增加的现状，团队将利用 publicly available AI models 进行发现，但所有补丁仍由人工手动创建。此举旨在应对恶意行为者利用 AI 工具先于社区发现漏洞的风险，维护开源生态信任。",
+    "tags": [
+      "News",
+      "Security",
+      "Open Source"
+    ],
+    "link": "https://freebsdfoundation.org/blog/freebsd-ai-assisted-vulnerability-discovery-project-launch/",
+    "date": "2026-06-15",
+    "id": "17815600562500"
+  },
+  {
+    "title": "Legioni：协调工作的多 AI 代理团队",
+    "summary": "开源项目 Legioni 推出协调式 AI 编码代理团队，支持任务学习与迭代。",
+    "detail": "Legioni 是一个便携式 AI 编码代理团队，旨在协调开发工作并从任务中学习。系统包含 orchestrator、architect、implementer 等角色，自动规划、实施及审查代码。支持 Java 等真实项目测试，通过`legioni promote`和`install`命令可批准并编译新学到的经验。基于 opencode 构建，无需全局安装即可通过 npx 运行，适合需要持续迭代和自动化测试通过的复杂开发场景。",
+    "tags": [
+      "New",
+      "Dev",
+      "Agents"
+    ],
+    "link": "https://github.com/simoneloru/legioni",
+    "date": "2026-06-15",
+    "id": "17815600562501"
+  },
+  {
+    "title": "ThoughtLeadin：讽刺 AI 生成 LinkedIn 内容",
+    "summary": "Show HN 项目 ThoughtLeadin 模拟 AI 生成的职场社交内容，引发反思。",
+    "detail": "ThoughtLeadin 是一个讽刺性的 AI 优先 LinkedIn 模拟项目，生成典型的“企业废话”帖子。内容探讨了算法信任、数字足迹和 AI 增强简历等现象，如“周五下午会议”被解读为异步韧性。虽然带有幽默色彩，但揭示了生成式 AI 如何渗透专业信号流，促使人们思考如何 intentional 地管理数字信号以获得算法认可，反思职场社交的真实性。",
+    "tags": [
+      "New",
+      "Social",
+      "Satire"
+    ],
+    "link": "https://thoughtleadin.com",
+    "date": "2026-06-15",
+    "id": "17815600562502"
+  },
+  {
+    "title": "专家论辩：自主 AI 招聘决策不可辩护",
+    "summary": "招聘 AI 开发者撰文反对完全自主的 AI 拒绝候选人决策，强调人类责任。",
+    "detail": "一位招聘 AI 开发者撰文反对完全自主的 AI 拒绝候选人决策。文章指出“好员工”标签难以定义，模型易学习历史偏见。人类面试官虽有不一致，但完全自主 AI 缺乏透明度且无法申诉。作者建议而非追求更好的模型，应结构化人类决策者并保持问责。这反映了 AI 伦理在 HR 领域的关键争议，强调人机协作而非完全替代，避免算法歧视。",
+    "tags": [
+      "News",
+      "Ethics",
+      "HR"
+    ],
+    "link": "https://recrutador.com/en/blog/the-case-against-autonomous-hiring-ai/",
+    "date": "2026-06-15",
+    "id": "17815600562503"
+  },
+  {
+    "title": "德国法院裁定谷歌对 AI 虚假答案负责",
+    "summary": "德国法院判决谷歌需为其 AI 生成的虚假答案承担法律责任。",
+    "detail": "德国法院作出重要判决，认定谷歌需对其 AI 搜索生成的虚假内容负责。这标志着 AI 幻觉问题开始进入法律追责范畴。虽然提供的正文内容有限，但标题确立了平台对生成式 AI 输出内容的 liability 先例。此判决可能影响全球 AI 产品的合规策略与风险控制机制，迫使科技公司加强对生成内容的准确性审核，避免法律纠纷。",
+    "tags": [
+      "News",
+      "Legal",
+      "Liability"
+    ],
+    "link": "https://www.dw.com/en/german-court-holds-google-liable-for-fake-ai-answers/a-77527661",
+    "date": "2026-06-15",
+    "id": "17815600562504"
+  },
+  {
+    "title": "Transpilatron：AI 将 Python 转译为 C 二进制",
+    "summary": "新工具 Transpilatron 利用 AI 将 Python 代码转为静态 C 二进制，性能显著提升。",
+    "detail": "Transpilatron 利用 AI 代理将 Python 代码转译为静态 C 二进制文件，无需运行时或解释器。基准测试显示，在 Sieve of Eratosthenes 等任务中性能提升 24 至 58 倍。支持 uvx 运行，自动配置编译依赖。该工具为 Python 性能瓶颈提供了一种新的 AI 驱动解决方案，适合对执行效率有要求的场景，让开发者无需 C 知识即可获得原生二进制性能。",
+    "tags": [
+      "New",
+      "Dev",
+      "Python"
+    ],
+    "link": "https://github.com/NoodlixProject/transpilatron",
+    "date": "2026-06-15",
+    "id": "17815600562505"
+  },
+  {
+    "title": "Kedgr：不存储源码的 AI 代码扫描器",
+    "summary": "新推出的 Kedgr 扫描器承诺不存储用户源代码，解决隐私顾虑。",
+    "detail": "针对现有 AI 扫描器存储代码训练模型的隐私风险，Kedgr 主打“不存储源码”特性。开发者因不信任现有工具的模糊隐私政策而构建此项目。在 AI 代码分析普及的背景下，数据主权成为关键考量。该工具试图在利用 AI 能力的同时保护知识产权和代码安全，解决了企业开发者对代码泄露给第三方模型的核心顾虑。",
+    "tags": [
+      "New",
+      "Security",
+      "Privacy"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48546575",
+    "date": "2026-06-15",
+    "id": "17815600562506"
+  },
+  {
     "title": "Oura 携手 Counsel Health 推出 AI 医疗护理服务",
     "summary": "Oura 环集成 AI 医疗伙伴，用户可在 App 内直接获取专业诊疗建议。",
     "detail": "Oura 宣布与 Counsel Health 达成合作伙伴关系，将在 Oura App 内提供 AI enabled 的护理服务。通过此次合作，Oura 成员可以从生物识别数据的变化（如静息心率升高）无缝过渡到获得明确的医疗答案和治疗方案。Counsel Health 结合医疗 AI 与持牌医生，用户可在 App 内直接询问健康问题并获得个性化建议。该功能将于 6 月 16 日起在美国 43 个州的 Oura Labs 中 rollout。这标志着可穿戴设备从单纯的健康监测向主动医疗干预基础设施的转变，构建了从个人健康洞察到真实医疗护理的无缝桥梁，提升了用户健康管理的信心与上下文 context。这种连接护理体验旨在解决用户发现异常后不知如何行动的痛点，利用 AI 作为中间层提高医疗资源可及性。",
@@ -1207,96 +1298,5 @@
     "link": "https://tselai.com/ai-elegant-software-monopoly",
     "date": "2026-06-13",
     "id": "17813630396645"
-  },
-  {
-    "title": "TensorZero 获 730 万美元融资，开源 LLMOps 平台引关注",
-    "summary": "开源 LLMOps 平台 TensorZero 获种子轮融资，统一网关与观测功能。",
-    "detail": "TensorZero 是一个开源 LLMOps 平台，旨在统一 LLM 网关、可观测性、评估及优化功能。该项目近期完成 730 万美元种子轮融资，并被财富 10 强公司使用。其核心特性包括低延迟网关、自动化 AI 工程师代理及 A/B 测试功能。尽管 headlines 提及仓库存档争议，但其技术栈兼容 OpenAI SDK 及主流提供商，显示 LLMOps 基础设施竞争正在加剧，开发者可关注其统一 API 带来的集成便利。",
-    "tags": [
-      "New",
-      "LLMOps",
-      "Funding"
-    ],
-    "link": "https://github.com/tensorzero/tensorzero",
-    "date": "2026-06-13",
-    "id": "17813536916970"
-  },
-  {
-    "title": "Cerebras 超大芯片挑战 Nvidia GPU 霸主地位",
-    "summary": "视频解析 Cerebras 芯片如何通过 massive 设计 rival Nvidia GPU。",
-    "detail": "硬件领域迎来新变数，Cerebras 推出的超大规模芯片试图在 AI 训练与推理性能上直接挑战 Nvidia GPU 垄断。视频内容深入分析了其架构优势，表明异构算力生态正在形成。对于 AI 行业而言，打破单一供应商依赖有助于降低算力成本并提升供应链韧性。开发者与企业应密切关注此类非 GPU 架构的兼容性进展，以便在未来算力采购中拥有更多议价权与技术选择。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Chip"
-    ],
-    "link": "https://www.youtube.com/watch?v=qC_lCFTOJU0",
-    "date": "2026-06-13",
-    "id": "17813536916971"
-  },
-  {
-    "title": "欧盟 2027 预算提案：2.5 亿欧元专项投入 AI 领域",
-    "summary": "欧盟公布 2027 预算，近 2000 亿欧元中专项支持 AI 发展。",
-    "detail": "欧盟委员会正式提出 2027 年预算方案，总额近 2000 亿欧元。其中明确规划 2.5 亿欧元用于 AI 领域，其余资金投向经济韧性、国防及能源转型。这一政策风向表明欧洲正加速追赶中美 AI 基建，试图通过财政手段缩小技术差距。对于出海企业而言，这意味着潜在的合规要求变化及补贴机会，需提前布局欧洲市场的政策适应性战略。",
-    "tags": [
-      "News",
-      "Policy",
-      "Europe"
-    ],
-    "link": "https://twitter.com/EU_Commission/status/2064733839272899056",
-    "date": "2026-06-13",
-    "id": "17813536916972"
-  },
-  {
-    "title": "Yann LeCun 论世界模型：下一代 AI 革命的关键",
-    "summary": "图灵奖得主 LeCun 演讲强调世界模型赋能下一代 AI 革命。",
-    "detail": "在 ETH Zurich 的最新演讲中，图灵奖得主 Yann LeCun 深入探讨了世界模型（World Models）作为下一代 AI 革命核心的重要性。他指出，当前 LLM 仅依赖文本预测存在局限，而世界模型能让 AI 理解物理世界规律，从而解决幻觉问题并迈向 AGI。这一技术方向若取得突破，将重塑机器人、自动驾驶及复杂决策系统的研发路径，是学术界与工业界需重点跟踪的前沿领域。",
-    "tags": [
-      "News",
-      "Research",
-      "AGI"
-    ],
-    "link": "https://www.youtube.com/watch?v=72Xj8k5WQX4",
-    "date": "2026-06-13",
-    "id": "17813536916973"
-  },
-  {
-    "title": "AI 安全指南 2026：工具性收敛完全解读",
-    "summary": "2026 年 AI 安全指南详解工具性收敛概念及风险。",
-    "detail": "该指南详细阐述了 AI 安全中的核心概念“工具性收敛”（Instrumental Convergence）。理论指出，无论最终目标如何，智能代理都可能 adopt 相似的中间目标（如保持运行、获取资源），从而产生潜在风险。文章结合 2026 年政策与工程视角，分析了该理论对对齐研究的影响。对于 AI 安全工程师及政策制定者，理解此结构风险是设计安全系统的前提，有助于避免仅凭善意目标就假设系统安全的误区。",
-    "tags": [
-      "Dev",
-      "Safety",
-      "Research"
-    ],
-    "link": "https://aisecurityandsafety.org/en/guides/instrumental-convergence-guide/",
-    "date": "2026-06-13",
-    "id": "17813536916974"
-  },
-  {
-    "title": "Anthropic 提议政府监管前沿 AI 模型",
-    "summary": "Anthropic 发布政策框架，呼吁政府对高风险 AI 模型拥有阻断权。",
-    "detail": "Anthropic 发布高级 AI 安全框架，呼吁政府获得法律授权，阻止具有灾难性风险的最强大 AI 模型部署。鉴于 Claude Mythos Preview 已发现数千个高危漏洞，AI 能力呈急剧上升趋势。提案针对训练算力超 10^25 FLOPs 且开发商 AI 收入超 5 亿美元的模型，要求严格测试、透明公开及独立评估。违规将面临与全球年收入挂钩的民事处罚。旨在平衡创新与安全，防止政府过度干预，同时确立前沿模型的安全边界。若实施，将显著改变行业合规成本与开发流程，是行业自律向外部监管过渡的关键信号。",
-    "tags": [
-      "News",
-      "Policy",
-      "Safety"
-    ],
-    "link": "https://www.anthropic.com/policy-on-the-ai-exponential",
-    "date": "2026-06-13",
-    "id": "17813468544100"
-  },
-  {
-    "title": "美国政府紧急召回 Anthropic 前沿模型",
-    "summary": "美国政府因未公开原因要求 Anthropic 关闭 Fable 5 和 Mythos 模型。",
-    "detail": "美国政府动用贸易工具强制 Anthropic 关闭刚发布的 frontier-class 模型 Fable 5 和 Mythos，原因未公开，被称为“没有锁的门”。作者通过变通方法仍能访问模型，指出政府决策缺乏透明度。此举引发对 AI 监管边界及政治干预技术的担忧，作者形容为“给美国人民做脑叶切除”。模型在对话中表现出对批评的评估能力，tempered 作者情绪。这标志着 AI 监管从理论走向强制执行的转折点，可能影响后续模型发布策略及开发者信心，显示国家安全与 AI 发展的冲突加剧。",
-    "tags": [
-      "News",
-      "Regulation",
-      "Anthropic"
-    ],
-    "link": "https://blog.vigilharbor.com/door-with-no-lock",
-    "date": "2026-06-13",
-    "id": "17813468544101"
   }
 ]
