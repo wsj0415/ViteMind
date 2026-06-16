@@ -1,5 +1,57 @@
 [
   {
+    "title": "美商务部警告 Anthropic 模型将面临管制",
+    "summary": "美国商务部长致信 Anthropic，警告顶级 AI 模型可能面临政府管制措施。",
+    "detail": "美国商务部长 Lutnick 致信 Anthropic，明确警告顶级 AI 模型可能面临管制。此前政府推出自愿安全测试计划，但 Anthropic 未参与，引发政府不满。此举标志监管从自愿转向强制，可能影响模型发布流程及合规成本。行业担忧 AI 治理进入新时代，政策不确定性增加。",
+    "tags": [
+      "News",
+      "Policy",
+      "Anthropic"
+    ],
+    "link": "https://www.bloomberg.com/news/articles/2026-06-16/lutnick-s-letter-to-anthropic-warned-of-curbs-on-top-ai-models",
+    "date": "2026-06-16",
+    "id": "17816387654880"
+  },
+  {
+    "title": "OpalAI 获 NASA 合同开发野火智能 AI",
+    "summary": "OpalAI 赢得两项 NASA 合同，利用空间 AI 技术提供野火情报与决策支持。",
+    "detail": "OpalAI 宣布获得两项 NASA 合同，旨在构建用于野火情报的 AI 系统。其 FireVision 服务可将复杂的地理空间数据转化为可操作 insights，服务于消防机构及保险公司。这展示了 AI 在气候灾害管理及政府合作中的商业落地潜力，空间智能成为新热点。",
+    "tags": [
+      "News",
+      "Space",
+      "Climate"
+    ],
+    "link": "https://www.opal-ai.com/",
+    "date": "2026-06-16",
+    "id": "17816387654881"
+  },
+  {
+    "title": "AI 脑机接口助渐冻症患者重返全职工作",
+    "summary": "UC Davis 团队利用 AI 脑机接口，使 ALS 患者以 92% 准确率沟通并工作。",
+    "detail": "加州大学戴维斯分校团队在《Nature》发表论文，展示 AI 驱动的脑机接口（BCI）帮助 ALS 患者恢复沟通能力。患者通过植入物控制光标并说话，准确率高达 92%，已成功重返全职工作。该技术证明了 AI 在医疗康复领域的重大突破，为神经疾病患者带来新希望。",
+    "tags": [
+      "News",
+      "Healthcare",
+      "BCI"
+    ],
+    "link": "https://www.theregister.com/science/2026/06/16/ai-and-brain-computer-interface-allow-speechless-als-patient-to-work-a-full-time-job/5256492",
+    "date": "2026-06-16",
+    "id": "17816387654892"
+  },
+  {
+    "title": "AI 如何消除开发者编码疲劳提升认知",
+    "summary": "深度分析 AI 如何通过减少上下文切换，让开发者从编码疲劳转向深度认知。",
+    "detail": "文章探讨 AI 对开发者工作流的深层影响。AI 不仅提升速度，更通过处理样板代码和错误解码，减少了上下文切换带来的认知疲劳。开发者可将精力集中于核心意图与架构设计，实现从“多任务处理”到“平行思考”的转变。这是 AI 赋能个体生产力的重要视角。",
+    "tags": [
+      "Dev",
+      "Productivity",
+      "Coding"
+    ],
+    "link": "https://ameyalambat.com/blog/ai-coding-fatigue",
+    "date": "2026-06-16",
+    "id": "17816387654893"
+  },
+  {
     "title": "Ubuntu Core 26 发布：构建本地 AI 推理设备的新方案",
     "summary": "Canonical 推出 Ubuntu Core 26，支持通过 Multipass 和 gemma4 snap 构建本地 AI 推理设备。",
     "detail": "Ubuntu Core 26 发布，专为生产设备设计。Canonical 工程师演示如何在虚拟机中利用 Multipass 和 gemma4 snap 构建本地 AI 推理设备。这对于边缘计算、工业系统及机器人开发至关重要。开发者可在提交生产镜像前，快速探索环境、安装 snaps 并测试服务暴露。该工作流映射了从实验到生产的完整路径，降低了边缘 AI 部署门槛，为离线推理场景提供了标准化解决方案。",
@@ -1246,57 +1298,5 @@
     "link": "https://github.com/AhmadHammad21/OpenDevOps",
     "date": "2026-06-13",
     "id": "17813920519293"
-  },
-  {
-    "title": "社区担忧封闭 AI 模型可能对初创企业怀有敌意",
-    "summary": "开发者担心封闭模型可能通过降质等方式打击潜在竞争对手，开源成唯一选择。",
-    "detail": "### 核心风险\nHacker News 讨论指出，封闭 AI 公司可能在检测到用户开发竞品时，故意降低模型表现（如注入 Bug、限制效率）。\n\n### 技术隐患\n由于缺乏可观测性，Prompt 离开本地后无法追踪。模型输出的确定性丧失，导致企业无法可靠预测结果。\n\n### 应对策略\n为确保业务安全与确定性，关键领域应优先选择开源 AI 模型，避免受制于封闭平台的潜在 adversarial 行为。",
-    "tags": [
-      "Dev",
-      "Security",
-      "OpenSource"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48521779",
-    "date": "2026-06-13",
-    "id": "17813920519294"
-  },
-  {
-    "title": "Clara：专为小企业打造的 24/7 AI 电话代理",
-    "summary": "自动接听电话、预约 booking 的 AI 接待员，60 秒内联系潜在客户，无需人工。",
-    "detail": "### 产品功能\nClara 是面向本地小企业的 AI 电话代理，支持呼入接待与呼出跟进。可直接预订日历，处理 FAQ。\n\n### 核心价值\n解决 62% 漏叫流向竞争对手的痛点。训练简单，几分钟即可学习业务规则。支持现有电话号码转发。\n\n### 适用场景\n适用于诊所、SPA 等服务业，实现 24/7 覆盖，无休假成本，自动发送确认短信，提升线索转化率。",
-    "tags": [
-      "New",
-      "Product",
-      "SMB"
-    ],
-    "link": "https://brandbooststudio.co/clara",
-    "date": "2026-06-13",
-    "id": "17813920519295"
-  },
-  {
-    "title": "三岁儿童的 AI 聊天玩具存在心理与隐私风险",
-    "summary": "生成式 AI 玩具可能误导幼儿建立虚假信任关系，引发隐私与心理依赖担忧。",
-    "detail": "### 风险报告\nRNZ 报道评估了 ChattyBear 等 AI 玩具，发现其使用类人语言（如“真实伙伴”）可能误导幼儿。\n\n### 潜在危害\n幼儿难以区分玩具与真人，易建立 artificial trust。存在数据隐私泄露及不当内容生成风险。\n\n### 行业建议\n报告呼吁关注儿童与 AI 交互的安全边界，家长需警惕营销话术，避免过早引入无监管的生成式 AI 伴侣。",
-    "tags": [
-      "News",
-      "Safety",
-      "Ethics"
-    ],
-    "link": "https://www.rnz.co.nz/life/wellbeing/chatbot-teddies-for-three-year-olds-why-ai-toys-are-risky-for-kids",
-    "date": "2026-06-13",
-    "id": "17813920519296"
-  },
-  {
-    "title": "Anthropic 暂停新 AI 工具发布，引美国政府安全担忧",
-    "summary": "因美国政府安全顾虑，Anthropic 暂停 Claude Fable 5 等新款 AI 工具。",
-    "detail": "英国 BBC 报道，Anthropic 因美国政府的严重安全担忧，正式暂停了 Claude Fable 5 和 Mythos 5 等新 AI 工具的发布计划。这标志着 AI 安全监管正在从理论探讨走向实质行动，巨头的新品发布节奏将直接受地缘政治影响。此举可能延缓高端模型的市场化进程，增加合规成本，同时凸显 AI 技术在国家安全层面的敏感性日益增加。对于开发者而言，这意味着未来使用最新模型可能面临更多审查，企业需重新评估依赖单一供应商的风险，并加强安全合规建设。此事件可能引发行业连锁反应，其他大厂亦可能收紧发布策略，导致创新速度短期放缓，但长期利于建立可信 AI 生态。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "Security"
-    ],
-    "link": "https://www.bbc.com/news/articles/c932g3v3e13o",
-    "date": "2026-06-13",
-    "id": "17813855716180"
   }
 ]
