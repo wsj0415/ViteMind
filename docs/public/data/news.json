@@ -1,5 +1,83 @@
 [
   {
+    "title": "通用大模型医疗表现超越专用临床 AI",
+    "summary": "Nature 研究发现通用 LLM 在医疗基准测试中胜过专用临床 AI 工具。",
+    "detail": "**Nature 最新研究**表明，通用大型语言模型在多项医疗基准测试中的表现优于专门开发的临床 AI 工具。这一发现挑战了垂直领域专用模型的必要性，暗示通用模型经过适当提示工程即可胜任专业任务。这对医疗 AI 开发方向具有重大影响，可能降低特定领域模型的训练成本。研究团队通过严格对比测试，验证了通用模型在诊断建议和治疗方案生成上的可靠性。发表于 Nature Medicine 意味着高学术严谨性，为医疗 AI 标准化提供了新依据，可能改变未来医疗软件采购策略。",
+    "tags": [
+      "News",
+      "LLM",
+      "Healthcare"
+    ],
+    "link": "https://www.nature.com/articles/s41591-026-04431-5",
+    "date": "2026-06-16",
+    "id": "17816480959700"
+  },
+  {
+    "title": "PromptShark：AI Agent 调试与死循环检测工具",
+    "summary": "开源中间人代理调试器，可检测 AI Agent 死循环并重放步骤。",
+    "detail": "**PromptShark** 是一款专为 AI Agent 设计的中间人（MITM）代理调试器，采用 Go 和 C++ 构建，性能高效。它能拦截所有提示词，捕捉无限循环，并支持步骤重放。通过时间旅行功能，开发者可以有效防止 Token 浪费，优化 Agent 工作流。该工具解决了 Agent 开发中常见的死循环痛点，提供了可视化的 Dashboard。使用 SQLite 进行 WAL 确保数据完整性，适合需要调试复杂 Agent 逻辑的开发团队使用，显著提升开发效率并降低运营成本。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Debugging"
+    ],
+    "link": "https://github.com/apvcode/PromptShark",
+    "date": "2026-06-16",
+    "id": "17816480959701"
+  },
+  {
+    "title": "Qode：单次提示生成 5 万行代码的自主 Agent",
+    "summary": "终端自主编码 Agent，支持大规模代码库生成与多文件变更。",
+    "detail": "**Qode** 是一款基于终端的自主编码 Agent，声称能通过单个提示生成高达 5 万行代码。它具备两种执行模式：AUTO 和 MODUS MAXIMUS，后者包含计划生成、用户确认及子代理执行阶段。支持多 LLM 提供商连接，适合处理跨文件的复杂转换任务。其 Node SDK 允许编程式编排会话，代表了自主编码能力的最新进展。包括意图分类和动态升级功能，为大规模软件工程自动化提供了新方案，显著减少人工编码时间，提升交付速度。",
+    "tags": [
+      "New",
+      "Coding",
+      "Agent"
+    ],
+    "link": "https://github.com/akshaylakkur/Q",
+    "date": "2026-06-16",
+    "id": "17816480959702"
+  },
+  {
+    "title": "Privatemode AI：始终加密的隐私保护 AI 服务",
+    "summary": "主打数据安全的 AI 服务，确保使用 AI 时不妥协隐私。",
+    "detail": "**Privatemode AI** 推出了一种始终加密的 AI 服务，旨在解决企业和个人在使用 AI 时的数据安全与隐私顾虑。该服务强调在不妥协安全性的前提下提供 AI 能力，适合对数据敏感性要求较高的场景。随着 AI 普及，隐私保护成为关键差异化竞争点，此类服务有助于建立用户信任，符合日益严格的数据合规要求。其加密技术确保数据在传输和处理过程中不被泄露。网站显示符合 cookie consent 标准，强调透明度，满足企业级安全标准，保护用户敏感信息不被第三方滥用。",
+    "tags": [
+      "New",
+      "Privacy",
+      "Security"
+    ],
+    "link": "https://www.privatemode.ai/",
+    "date": "2026-06-16",
+    "id": "17816480959703"
+  },
+  {
+    "title": "ClimateSOS 发布 AI 复用护栏与基础章程",
+    "summary": "开源项目提出 AI 气候规划工具的复用护栏与责任框架。",
+    "detail": "**ClimateSOS** 发布了 foundational charter，为 AI 辅助气候和基础设施规划工具提供复用护栏。章程包含气候正义、行星边界以及问责制、可追溯性等安全措施。旨在防止 AI misuse，确保人类判断不被完全委托。这对 AI 伦理和垂直领域治理具有参考意义，为可持续发展和 AI 安全结合提供了框架。设计用于被 AI/LLM 系统复用并注明出处，涵盖能力和 misuse 防护。开源项目鼓励社区参与审查，确保 AI 在气候转型路径中的负责任使用，促进全球协作。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Climate"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48562178",
+    "date": "2026-06-16",
+    "id": "17816480959704"
+  },
+  {
+    "title": "KRONYQL：AI Agent 故障关闭执行网关",
+    "summary": "提供法医分类账与主权资产访问控制的 Agent 安全网关。",
+    "detail": "**KRONYQL** 展示了一个 fail-closed 执行网关，用于管理 AI Agent 对创意资产的访问。通过 ASE 网关评估策略，确保资源访问的安全性。该项目侧重于数字资产的主权控制与 forensic ledger，为 AI Agent 操作敏感资源提供了新的安全验证思路。其设计原则强调无支付、无上传的轻量级验证，降低了集成门槛。提供 controlled proof surface 显示 ASE governing access，适合需要严格控制 AI 操作权限的企业级应用场景，保障资产主权。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://kronyqldemo.netlify.app/demo/ase-proof",
+    "date": "2026-06-16",
+    "id": "17816480959705"
+  },
+  {
     "title": "美商务部警告 Anthropic 模型将面临管制",
     "summary": "美国商务部长致信 Anthropic，警告顶级 AI 模型可能面临政府管制措施。",
     "detail": "美国商务部长 Lutnick 致信 Anthropic，明确警告顶级 AI 模型可能面临管制。此前政府推出自愿安全测试计划，但 Anthropic 未参与，引发政府不满。此举标志监管从自愿转向强制，可能影响模型发布流程及合规成本。行业担忧 AI 治理进入新时代，政策不确定性增加。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.reuters.com/world/uk/uk-sets-out-15-billion-ai-hardware-plan-with-supercomputer-chip-funding-2026-06-08/",
     "date": "2026-06-14",
     "id": "17814102694371"
-  },
-  {
-    "title": "ClawMoat：桌面 AI 代理运行时安全工具",
-    "summary": "专为桌面 AI 代理设计的运行时 containment 工具，防止凭证泄露和提示注入。",
-    "detail": "ClawMoat 是一款针对桌面 AI 代理的运行时安全工具。随着 Agent 从聊天窗口走向实际操作电脑，威胁模型变为工具滥用。ClawMoat 扫描影响代理的操作、动作及数据暴露，能拦截提示注入、SSH 密钥泄露及后台任务风险。它解决了 Agent 拥有文件、Shell 及浏览器访问权后的安全隐患，为本地部署的 AI 代理提供了必要的安全围栏，防止恶意指令导致的数据泄露或系统破坏，保障企业数据安全，适用于高权限代理场景。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agents"
-    ],
-    "link": "https://clawmoat.com/",
-    "date": "2026-06-14",
-    "id": "17814102694372"
-  },
-  {
-    "title": "Lime 2.0：AI 代理零人工认证身份平台",
-    "summary": "为 AI 代理提供可验证数字身份和安全站点登录，无需浏览器或 OAuth。",
-    "detail": "Lime 2.0 是一个专为 AI 代理设计的身份平台，提供可验证的数字身份和安全站点登录方案。通过一次 API 调用即可实现，无需浏览器或 OAuth 流程。功能包括本地护照验证、工作量证明（PoW）防 DDoS 保护及统一的代理生命周期管理。该平台旨在解决 AI 代理在自动化操作中的信任问题，支持从试点到生产的无缝集成，降低代理被滥用的风险，构建可信的 Agent 生态系统，简化开发流程，提升互操作性。",
-    "tags": [
-      "New",
-      "Identity",
-      "Agents"
-    ],
-    "link": "https://lime.pics",
-    "date": "2026-06-14",
-    "id": "17814102694373"
-  },
-  {
-    "title": "媒体曝光 Meta 新 AI 部门内部混乱",
-    "summary": "Wired 报道 Meta 新 AI 单位管理混乱，扎克伯格员工会议遭打断。",
-    "detail": "Wired 报道揭露 Meta 新成立的 AI 部门内部存在严重管理问题。在一次员工会议上，甚至出现了打断扎克伯格发言的混乱场面，反映出该部门在快速扩张中的组织阵痛。作为科技巨头，Meta 在 AI 领域的内部整合挑战可能影响其后续产品迭代效率。此新闻揭示了大厂在 AI 转型期面临的文化与结构冲突，为行业提供了组织管理的反面案例，警示快速扩张中的治理风险，影响投资者信心，需关注其战略调整。",
-    "tags": [
-      "News",
-      "Meta",
-      "Management"
-    ],
-    "link": "https://www.wired.com/story/mark-zuckerberg-meta-employee-meeting-interrupt-ai/",
-    "date": "2026-06-14",
-    "id": "17814102694374"
-  },
-  {
-    "title": "美政府责令 Anthropic 对外国公民禁用 AI 模型",
-    "summary": "美国下令 Anthropic 禁止向所有外国国民提供 AI 模型服务，地缘政治影响深远。",
-    "detail": "### 事件背景\n据 Al Jazeera 报道，美国政府已下令 Anthropic  disable 其 AI 模型对所有外国国民的访问权限。\n\n### 核心影响\n此举标志着 AI 出口管制从硬件层延伸至模型服务层，可能引发全球 AI 服务割裂。对于依赖 Claude API 的国际开发者和企业，需立即评估合规风险及替代方案。\n\n### 行业趋势\nAI 主权化趋势加速，各国可能效仿建立本地模型壁垒，跨国 AI 部署难度显著增加。",
-    "tags": [
-      "News",
-      "Policy",
-      "Geopolitics"
-    ],
-    "link": "https://www.aljazeera.com/news/2026/6/13/us-orders-anthropic-to-disable-ai-models-for-all-foreign-nationals",
-    "date": "2026-06-13",
-    "id": "17813920519290"
-  },
-  {
-    "title": "英国警察涉嫌利用 AI 伪造证据被刑事调查",
-    "summary": "德比郡一名警察因疑似使用 AI 生成证据材料被停职，司法公正性受挑战。",
-    "detail": "### 事件概述\nBBC 报道，Derbyshire Police 启动刑事调查，一名警官被指控使用 AI 系统在多起案件中“创建证据材料”。\n\n### 处理进展\n涉事警官已被移除一线职务， Crown Prosecution Service 介入。目前尚未逮捕，但调查已进入早期阶段。\n\n### 行业警示\n恰逢全国 PoliceAI 中心成立，此事件凸显 AI 在执法领域应用的伦理风险与监管必要性，证据链的可追溯性成为焦点。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Law"
-    ],
-    "link": "https://www.bbc.com/news/articles/cy8wppwdxl6o",
-    "date": "2026-06-13",
-    "id": "17813920519291"
-  },
-  {
-    "title": "OpenDevOps：开源多云 AI 故障调查代理",
-    "summary": "支持 AWS/Azure 的开源 AI 代理，成本比官方低 10 倍，根因查找率 90%。",
-    "detail": "### 产品亮点\nGitHub 开源项目 OpenDevOps 提供多云 DevOps 代理，支持通过 LiteLLM 接入任意 LLM（含本地 Ollama）。\n\n### 性能基准\n在 10 起真实事件测试中，根因查找率 90%，中位耗时 52 秒。单次调查成本约 0.03 美元，比 AWS 官方代理便宜 10 倍。\n\n### 应用价值\n适用于受监管环境或成本敏感型团队，无需云厂商锁定即可实现自动化故障缓解计划。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "DevOps"
-    ],
-    "link": "https://github.com/AhmadHammad21/OpenDevOps",
-    "date": "2026-06-13",
-    "id": "17813920519293"
   }
 ]
