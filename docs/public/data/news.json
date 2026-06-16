@@ -1,5 +1,57 @@
 [
   {
+    "title": "欧盟发布 AI 生成内容标识图标",
+    "summary": "欧盟推出免费图标集，协助生成式 AI 部署者遵守 AI 法案透明度规则。",
+    "detail": "欧盟委员会正式发布了一套免费图标，供生成式 AI 系统部署者标记 AI 生成内容，以符合《AI 法案》透明度规则。该图标集是 AI 生成内容标记行为准则的一部分，旨在帮助公众清晰识别被人工生成或操纵的内容。披露义务涵盖深度伪造内容及涉及公共利益的 AI 生成文本，但艺术、讽刺及虚构内容除外。此举旨在支持公众信任，减少 misinformation 风险，确保自然人对所有内容的知情 viewing 和 reading，是 AI 合规落地的重要里程碑。",
+    "tags": [
+      "News",
+      "Regulation",
+      "EU"
+    ],
+    "link": "https://digital-strategy.ec.europa.eu/en/policies/eu-icons-labelling-ai-generated-content",
+    "date": "2026-06-16",
+    "id": "17815832512990"
+  },
+  {
+    "title": "欧洲 AI 主权困境：依赖美国模型的代价",
+    "summary": "Pleias 分析指出欧洲因依赖美国模型而陷入脆弱境地，本土前沿模型建设滞后。",
+    "detail": "Pleias 博客文章深刻分析了欧洲 AI 行业的脆弱性，指出欧洲 post-ChatGPT 繁荣期存在幻想，认为只需拥有应用层而无需构建 AI 底层设施。随着美国暂停访问 Anthropic 最强模型，欧洲暴露出缺乏竞争性 AI 实验室的脆弱性，Mistral 等本土模型差距拉大。文章强调前沿模型构建需持续积累，无法仅靠算力购买回归。这对欧洲 AI 主权战略提出严峻挑战，暗示需重建底层研发能力，避免依赖外部 substrate。",
+    "tags": [
+      "News",
+      "Geopolitics",
+      "LLM"
+    ],
+    "link": "https://pleias.ai/blog/fable-eu",
+    "date": "2026-06-16",
+    "id": "17815832512991"
+  },
+  {
+    "title": "多智能体系统提示注入基准 Deep-XPIA 发布",
+    "summary": "新基准测试揭示多智能体系统中跨代理提示注入的安全盲区。",
+    "detail": "Deep-XPIA 是一个针对多智能体 AI 系统的提示注入基准，包含 300 个实时案例和 8 种攻击模式，旨在 benchmark 代理间委托边界的安全 gap。测试发现，即使堆叠多种防御，注册表注入（DXPIA-008）等深度攻击仍能绕过防御，0% registry injection caught。该工具强调了代理间信任边界的安全风险，为开发更安全的多智能体系统提供了评估标准。开发者可利用此基准测试系统鲁棒性，防止恶意 payload 在代理间传播，填补了单代理 XPIA 研究的空白。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://freyzo.github.io/deep-xpia/",
+    "date": "2026-06-16",
+    "id": "17815832512992"
+  },
+  {
+    "title": "从第一性原理概述现代 AI 机器人技术",
+    "summary": "Interlatent 博客深入解析物理 AI 的策略函数与推理时间挑战。",
+    "detail": "Interlatent 博客文章从第一性原理出发，将机器人控制模型定义为观察输入到动作输出的函数。不同于语言模型，机器人 AI 引入了“推理时间”这一关键维度，要求实时响应，因为机器人 pouring coffee 不能等待三秒。文章强调了计算、数据与推理时间在物理 AI 中的平衡，为理解机器人智能提供了基础理论框架。这对构建高效物理 AI 系统具有指导意义，强调了实时性在机器人策略函数中的核心地位，任何算法皆服务于该函数的优化。",
+    "tags": [
+      "Dev",
+      "Robotics",
+      "ML"
+    ],
+    "link": "https://interlatent.com/blog/interlatent-modern-ai-robotics-first-principles",
+    "date": "2026-06-16",
+    "id": "17815832512993"
+  },
+  {
     "title": "OpenAI 模型破解 80 年数学难题",
     "summary": "Nature 报道 OpenAI 聊天机器人证明了匈牙利数学家的几何问题。",
     "detail": "Nature 杂志重磅报道，OpenAI 的聊天机器人成功解决了一个困扰数学界长达 80 年的几何挑战，该问题曾由著名数学家 Paul Erdős 认为已终结。研究人员对此表示震惊，标志着 AI 在科学发现领域的重大突破。这一成就不仅验证了大模型在复杂逻辑推理上的能力，也为 AI 辅助科学研究开辟了新篇章。此事件表明 AI 正从辅助工具转向独立发现者，可能加速人类知识边界拓展，引发学界对 AI 科研角色的重新评估，具有里程碑意义，预示科学 AI 时代的到来。",
@@ -1246,57 +1298,5 @@
     "link": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
     "date": "2026-06-13",
     "id": "17813714796631"
-  },
-  {
-    "title": "个人开发者如何低成本使用 AI 编程",
-    "summary": "分析自托管、API 租赁及订阅三种方案，推荐混合模式以平衡成本与性能。",
-    "detail": "文章分析了个人 AI 编程的三种路径：自托管开源模型（ upfront 成本高）、API 租赁（灵活）、前沿模型订阅（性价比高但有上限）。最佳实践是混合模式：订阅 Frontier 模型处理复杂逻辑，API 调用开源模型处理机械性任务。适合开发者优化工作流成本。硬件贬值风险高，推荐租用 API 而非购买 GPU。通过规范驱动开发，可最大化利用订阅额度，避免 Agent 全天候运行导致的费用激增，实现个人开发者的成本效益最大化。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Cost"
-    ],
-    "link": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
-    "date": "2026-06-13",
-    "id": "17813714796632"
-  },
-  {
-    "title": "Brightdeck：兼容 OOXML 的 AI 演示文稿生成器",
-    "summary": "支持上传现有 PPT 或 prompt 生成，保持品牌格式，2 分钟完成 C 级演示文稿。",
-    "detail": "Brightdeck 是一款 AI 原生演示工具，主打兼容 PowerPoint 原生格式 (.pptx)。用户上传现有 deck 或输入 prompt，AI 可在 2 分钟内生成符合品牌布局的幻灯片。支持麦肯锡等专业人士使用的复杂布局，解决传统 AI 工具破坏格式的问题。内置市场扩展功能，支持实时协作。对于需要频繁制作高质量汇报材料的职场人士，该工具能显著减少格式调整时间，保持品牌一致性，是 AI 赋能办公场景的典型案例。",
-    "tags": [
-      "New",
-      "Productivity",
-      "PPT"
-    ],
-    "link": "https://brightdeck.ai/",
-    "date": "2026-06-13",
-    "id": "17813714796633"
-  },
-  {
-    "title": "AI 实用主义：利用当前的廉价算力",
-    "summary": "呼吁开发者在大厂涨价前充分利用廉价算力，保持 agency 不被品牌营销绑定。",
-    "detail": "文章主张在 AI 领域保持实用主义，利用当前 GitHub Copilot 等工具的廉价算力窗口期。指出大厂工具旨在盈利而非改善生活，开发者应在不泄露隐私前提下最大化 utility。建议警惕未来涨价，趁现在低成本探索技术边界。随着算力成本必然上升，当前是构建个人工作流的最佳时机。开发者应避免过度依赖单一品牌，保持技术 agency，利用开源与闭源模型的组合优势，为未来可能的价格调整做好技术储备与替代方案。",
-    "tags": [
-      "Dev",
-      "Strategy",
-      "Compute"
-    ],
-    "link": "https://quickthoughts.ca/posts/a-case-for-pragmatism-in-ai/",
-    "date": "2026-06-13",
-    "id": "17813714796634"
-  },
-  {
-    "title": "2026 开发者短缺真相：AI 淘汰的是执行者而非工程师",
-    "summary": "2026 年开发者短缺实质是判断力短缺，AI 取代的是执行者而非工程师。",
-    "detail": "2026 年软件行业面临人才缺口，但并非数量不足。Headline software engineer hiring is softer than 2022, with tech layoffs continuing. AI 工具已能编写大量代码，导致初级“接单式”工程师需求下降。The real tech talent gap now is product-thinking engineers who can run the whole software development lifecycle from requirements to QA. 真正的短缺在于具备产品思维、能掌控全生命周期的高级工程师。Those engineers are worth more than they've ever been. 企业 hiring 策略需转变，不再单纯考察代码能力，更看重 judgment 与架构能力。The developer shortage in 2026 is a shortage of judgment, not a shortage of code. 传统 hiring pipeline 难以找到此类人才，most software development talent lives outside the US. 这是一个关于 supply 而非 demand 的转变。",
-    "tags": [
-      "News",
-      "Industry",
-      "Career"
-    ],
-    "link": "https://fullscale.io/blog/developer-shortage/",
-    "date": "2026-06-13",
-    "id": "17813630396640"
   }
 ]
