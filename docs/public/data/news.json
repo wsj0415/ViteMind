@@ -1,5 +1,70 @@
 [
   {
+    "title": "Tensordyne 发布 Napier AI 处理器，采用对数数学架构",
+    "summary": "新型 3nm AI 处理器宣称通过对数数学减少乘法器面积，提升推理经济性。",
+    "detail": "Tensordyne 正式宣布推出 Napier AI 处理器及机架级推理平台，标志着 AI 硬件架构的新探索。其核心创新在于 proprietary logarithmic mathematics（专有对数数学），将传统的乘法运算转化为加法，从而显著减小乘法器面积，增加片上 SRAM 容量。此举旨在优化硅面积利用率并降低功耗，直接攻击 AI 推理的速度与成本痛点。目前芯片已完成 tape-out，系统路线图定于 2027 年。该架构若验证成功，可能显著改变 AI 推理的成本结构，但需观察实际部署表现及软件生态是否成熟，能否在拥挤的芯片市场中突围。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Chip"
+    ],
+    "link": "https://www.servethehome.com/tensordyne-napier-ai-processor-announced-with-logarithmic-math/",
+    "date": "2026-06-16",
+    "id": "17816046315880"
+  },
+  {
+    "title": "ProData AI 推出 14 个 MCP 工具，实现无代码数据科学自动化",
+    "summary": "集成 Claude MCP 协议，提供从数据清洗到 ML 建模的端到端自动化 pipeline。",
+    "detail": "ProData AI 发布了专业级自动化数据科学平台，深度集成 Claude 的 Model Context Protocol (MCP)。平台内置 14 个工具，覆盖数据统计 profiling、AutoML 模型训练、时间序列预测、异常检测及 SQL 生成等全流程。无需代码即可实现从原始 CSV 到 cleaned data 及 ML 模型的完整 pipeline。该工具极大降低了数据科学门槛，展示了 MCP 协议在实际垂直场景中的强大集成能力，适合快速原型开发及非技术背景分析师使用，推动了 AI Agent 在数据领域的落地。",
+    "tags": [
+      "New",
+      "MCP",
+      "DataScience"
+    ],
+    "link": "https://mcpize.com/mcp/prodata-ai",
+    "date": "2026-06-16",
+    "id": "17816046315881"
+  },
+  {
+    "title": "Nubase：开源 AI 原生后端层，助力 AI 生成代码落地为真实应用",
+    "summary": "提供数据库、Auth、存储等八大模块，支持自托管，解决 AI 写代码部署难题。",
+    "detail": "Nubase 是一个开源的 AI 原生后端及部署层，旨在将 AI 生成的代码转化为可运行的真实应用。它集成了 Database、Auth、Storage、AI Gateway 等八个核心模块，支持自托管。通过 Agent 直接驱动，可实现后端逻辑部署及前端发布到公共 CDN。该项目解决了 AI Coding 中“最后一公里”的基础设施问题，为现代产品团队提供了统一的后端服务层，加速 AI 应用上线并降低运维复杂度，是 AI Native 开发栈的重要补充。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Backend"
+    ],
+    "link": "https://github.com/OtterMind/Nubase",
+    "date": "2026-06-16",
+    "id": "17816046315882"
+  },
+  {
+    "title": "实战经验：在 AI 时代构建 Kubernetes Operator 的七大教训",
+    "summary": "分享使用 AI 构建生产级 K8s Operator 的经验，强调设计与人工判断的重要性。",
+    "detail": "文章详细总结了使用 AI 构建 Multigres Kubernetes Operator 的六个月实战经验。核心观点包括：用户规范不可漂移，AI 框架 ideas 可借鉴但需自写技能，机械工作交由 agent 工厂处理。强调 AI 无法判断糟糕的设计 idea，人类仍需掌控设计决策。测试与代码同源存在盲点，需验证运行时行为。这对 AI 辅助软件工程提供了宝贵的实践指南，强调 orchestration 而非单纯依赖生成，适合希望提升 AI 编码效率的开发者参考。",
+    "tags": [
+      "Dev",
+      "Kubernetes",
+      "Engineering"
+    ],
+    "link": "https://numtide.com/blog/writing-a-kubernetes-operator-in-the-age-of-ai/",
+    "date": "2026-06-16",
+    "id": "17816046315883"
+  },
+  {
+    "title": "行业分析：AI 国家安全出口管制背后的估值泡沫隐忧",
+    "summary": "探讨 Anthropic 模型出口禁令，质疑 AI 护城河深度及当前市场估值合理性。",
+    "detail": "文章深入分析了 Anthropic 最新模型'Fable'因国家安全 concerns 被禁止出口的现象。作者推测这可能掩盖了 AI 公司估值过高的事实，指出算力 availability、GPU 寿命及循环会计等潜在问题。同时提到特定领域小模型因快速、便宜、私密而兴起，挑战大模型地位。文章揭示了行业对 knowledge worker economy 的争夺及潜在的市场估值风险，认为完全释放决策过程会导致估值损失，值得投资者及行业观察者深入关注。",
+    "tags": [
+      "News",
+      "Policy",
+      "Market"
+    ],
+    "link": "https://paulbrownok.substack.com/p/ai-and-national-security-something",
+    "date": "2026-06-16",
+    "id": "17816046315884"
+  },
+  {
     "title": "欧盟发布 AI 生成内容标识图标",
     "summary": "欧盟推出免费图标集，协助生成式 AI 部署者遵守 AI 法案透明度规则。",
     "detail": "欧盟委员会正式发布了一套免费图标，供生成式 AI 系统部署者标记 AI 生成内容，以符合《AI 法案》透明度规则。该图标集是 AI 生成内容标记行为准则的一部分，旨在帮助公众清晰识别被人工生成或操纵的内容。披露义务涵盖深度伪造内容及涉及公共利益的 AI 生成文本，但艺术、讽刺及虚构内容除外。此举旨在支持公众信任，减少 misinformation 风险，确保自然人对所有内容的知情 viewing 和 reading，是 AI 合规落地的重要里程碑。",
@@ -1233,70 +1298,5 @@
     "link": "https://guruailab.com/",
     "date": "2026-06-13",
     "id": "17813788934522"
-  },
-  {
-    "title": "社区热议：AI 行业是否迎来“三位一体”时刻？",
-    "summary": "HN 社区讨论美国政府禁令是否标志 AI_race_ 进入武器化阶段。",
-    "detail": "Hacker News 社区热议美国禁止访问 Fable 模型是否构成 AI 界的“三位一体”时刻。讨论指出政府干预模型访问、基于公民身份限制使用等行为，标志着 AI 竞赛进入武器化与强监管阶段。用户担忧这将导致全球 AI 开放度下降，各国可能效仿实施基于国籍的模型访问限制。这种信任危机可能加速开源模型的发展，促使开发者寻求不受单一政府管辖的技术方案，行业分裂风险加剧。",
-    "tags": [
-      "News",
-      "Policy",
-      "Community"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48519780",
-    "date": "2026-06-13",
-    "id": "17813788934523"
-  },
-  {
-    "title": "Eywa：基于来源追溯的 AI 代理长期记忆架构",
-    "summary": "新论文提出 Eywa 架构，为 AI 代理提供可审计的长期记忆。",
-    "detail": "arXiv 论文提出 Eywa，一种基于来源追溯的内存架构，旨在解决 AI 代理长期记忆中的幻觉与审计难题。Eywa 在生成事实前存储不可变源证据，并通过确定性多路线读取路径检索上下文，无需在检索过程中调用 LLM。基准测试显示其在 LoCoMo 和 LongMemEval 上表现优异，为构建可信代理系统提供了新方向。这种“证据优先于信念”的设计，使得错误诊断更加容易，区分是证据缺失还是模型行为问题。",
-    "tags": [
-      "Dev",
-      "Paper",
-      "Agent"
-    ],
-    "link": "https://arxiv.org/abs/2605.30771",
-    "date": "2026-06-13",
-    "id": "17813788934524"
-  },
-  {
-    "title": "本地部署开源 AI 实现 podcast 自动转录教程",
-    "summary": "使用 WhisperX 与 pyannote.audio 在本地完成高质量语音转录。",
-    "detail": "本教程展示了如何利用开源模型在本地笔记本电脑上完成旧 podcast 的转录。方案结合 WhisperX 进行语音转文本，并使用 pyannote.audio 处理说话人分离（Diarization）。相比 2016 年的云服务方案，该本地栈无需 API 费用即可实现高质量转录，为开发者提供了隐私友好且低成本的音频处理实践指南。这对于希望数据不出境的开发者尤为有用，展示了本地 AI 推理能力的显著提升。",
-    "tags": [
-      "Dev",
-      "Tutorial",
-      "OpenSource"
-    ],
-    "link": "https://ma.ttias.be/transcribing-syscast-with-local-ai/",
-    "date": "2026-06-13",
-    "id": "17813788934525"
-  },
-  {
-    "title": "美国政府强制 Anthropic 关闭最强 AI 模型",
-    "summary": "商务部下令暂停 Claude Fable 5 及 Mythos 5 全球访问，因网络安全风险。",
-    "detail": "2026 年 6 月 12 日，美国商务部致信 Anthropic CEO，要求立即暂停向所有外国国民提供 Claude Fable 5 和 Mythos 5 模型。原因是 Mythos 5 具备高级进攻性网络安全能力，可将新发现漏洞在数小时内转化为可利用代码。由于无法实时验证用户国籍，Anthropic 被迫选择全球禁用。此事件标志着 AI 安全监管的重大转折，显示政府对前沿模型能力的警惕。这不仅影响 Anthropic 的商业化进程，也可能引发行业合规成本上升，迫使其他实验室重新评估模型发布策略与安全对齐标准。",
-    "tags": [
-      "News",
-      "Regulation",
-      "Security"
-    ],
-    "link": "https://www.pentesty.co/blog/fable5-mythos5-us-government-ban-cybersecurity",
-    "date": "2026-06-13",
-    "id": "17813714796630"
-  },
-  {
-    "title": "OpenAI 面临美国州检察长调查",
-    "summary": "多个州检察长调查 OpenAI 广告政策及健康数据处理方式。",
-    "detail": "OpenAI 正面临来自美国多个州检察长的调查，具体涉及州份尚未公开。调查范围涵盖广告政策及健康数据处理等关键领域。这表明监管机构对 AI 巨头的数据隐私和商业行为关注度升级。随着 AI 深入医疗等敏感领域，合规将成为核心竞争壁垒。此次调查可能影响 OpenAI 的产品迭代速度及市场信任度，建议行业参与者提前准备数据治理方案。监管压力增大意味着免费或低成本数据时代可能终结，企业需建立更透明的数据使用机制以应对潜在法律风险。",
-    "tags": [
-      "News",
-      "Regulation",
-      "OpenAI"
-    ],
-    "link": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
-    "date": "2026-06-13",
-    "id": "17813714796631"
   }
 ]
