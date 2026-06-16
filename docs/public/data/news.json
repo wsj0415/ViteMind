@@ -1,5 +1,96 @@
 [
   {
+    "title": "Ubuntu Core 26 发布：构建本地 AI 推理设备的新方案",
+    "summary": "Canonical 推出 Ubuntu Core 26，支持通过 Multipass 和 gemma4 snap 构建本地 AI 推理设备。",
+    "detail": "Ubuntu Core 26 发布，专为生产设备设计。Canonical 工程师演示如何在虚拟机中利用 Multipass 和 gemma4 snap 构建本地 AI 推理设备。这对于边缘计算、工业系统及机器人开发至关重要。开发者可在提交生产镜像前，快速探索环境、安装 snaps 并测试服务暴露。该工作流映射了从实验到生产的完整路径，降低了边缘 AI 部署门槛，为离线推理场景提供了标准化解决方案。",
+    "tags": [
+      "Dev",
+      "Edge AI",
+      "Ubuntu"
+    ],
+    "link": "https://ubuntu.com/blog/ubuntu-core-26-ai-box",
+    "date": "2026-06-16",
+    "id": "17816253956370"
+  },
+  {
+    "title": "本地 AI 模型尚未准备好接管编码任务？深度实测",
+    "summary": "实测显示消费级硬件上的本地模型在编码任务上仍落后于云端模型，尽管硬件已顶配。",
+    "detail": "针对本地 AI 编码能力的深度实测。作者在顶配 M5 Max MacBook Pro 上运行 Devstral 24B 等模型，对比云端 Agent。结论指出消费级硬件无法承载生产级编码任务所需的模型参数量。虽然本地模型在隐私和成本上有优势，但在复杂任务可靠性上仍不足。文章揭示了当前本地推理的瓶颈：能跑任务的模型放不下，放得下的跑不了任务，为开发者选型提供真实参考。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Coding"
+    ],
+    "link": "https://mmlac.com/blog/local-ai-not-ready-for-coding-yet/",
+    "date": "2026-06-16",
+    "id": "17816253956371"
+  },
+  {
+    "title": "Hired Copilot：杜绝 hallucination 的 AI 简历优化工具",
+    "summary": "新推出的 AI 简历工具，承诺不捏造经历，仅基于真实经验优化简历以匹配职位。",
+    "detail": "Hired Copilot 是一款反幻觉的 AI 简历工具。它仅基于用户真实经历优化简历，确保每句话都能在面试中 backed up。功能包括职位匹配、申请追踪及面试准备，采用 GDPR 标准数据保护。解决了 AI 生成内容不可信的行业痛点，提供免费额度。对于严肃求职者，该工具在保证效率的同时维护了诚信，避免了因 AI 捏造经历导致的信用风险。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Job Search"
+    ],
+    "link": "https://hiredcopilot.com",
+    "date": "2026-06-16",
+    "id": "17816253956372"
+  },
+  {
+    "title": "深度思考：当 AI 接管一切后，人类工程师的归宿何在？",
+    "summary": "一篇关于 AI 取代编码工作后，软件工程师存在价值的深度行业反思文章。",
+    "detail": "深度行业反思文章，探讨 AI 接管编码后工程师的生存问题。作者收到多位工程师来信，询问代码审查是否还需人类。文章认为执行层 soon 将被接管，核心问题在于“当 AI 拿走所有能拿走的，我们还剩下什么”。这不仅是职业规划问题，更是存在主义危机。文章引发行业对技能转型的深层思考，提示工程师需从执行者转向架构与决策者。",
+    "tags": [
+      "News",
+      "Industry",
+      "Career"
+    ],
+    "link": "https://ursb.me/en/posts/after-ai-takes-everything/",
+    "date": "2026-06-16",
+    "id": "17816253956373"
+  },
+  {
+    "title": "Show HN: Pantheon Skills – 多 Agent 对抗验证编码框架",
+    "summary": "开源项目，通过多 Agent 并行实现与对抗验证，提高 AI 生成代码的可靠性。",
+    "detail": "Pantheon Skills 开源项目，通过多 Agent 架构提高代码可靠性。采用“计划→并行实现→对抗验证→评判”流程，引入 adversarial verification 和 best-of-N 采样。在不改变模型本身的情况下，通过 scaffolding 显著 tighten 代码正确性。适合测试驱动开发场景，解决了单模型 pass 容易忽略边界条件的问题，为 AI 编程 Agent 的工业化应用提供了新范式。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "Open Source"
+    ],
+    "link": "https://github.com/lolu1032/pantheon-skills",
+    "date": "2026-06-16",
+    "id": "17816253956374"
+  },
+  {
+    "title": "Infer0：让 AI 应用支持用户自带 API Key 的基础设施",
+    "summary": "新基础设施允许终端用户连接自己的 AI 提供商 Key，开发者无需承担推理成本。",
+    "detail": "Infer0 推出 BYOK 基础设施，改变 AI 应用商业模式。允许终端用户连接自己的 AI 提供商 Key，开发者无需承担推理成本。提供 OAuth 流程，密钥加密存储，支持按应用设置支出限额。实现了零密钥管理和零推理成本的开发模式。这解决了 SaaS 订阅制的痛点，让开发者专注于产品逻辑，同时将成本控制权交还给用户，适合工具类 AI 应用。",
+    "tags": [
+      "New",
+      "Infrastructure",
+      "API"
+    ],
+    "link": "https://infer0.com/",
+    "date": "2026-06-16",
+    "id": "17816253956375"
+  },
+  {
+    "title": "美国司法部介入：xAI 未许可燃气轮机涉及国家安全",
+    "summary": "司法部称 Pentagon 需要 xAI 继续使用未许可燃气轮机，涉及国家能源安全。",
+    "detail": "美国司法部介入 xAI 基础设施争议。DOJ 声称 xAI 的未许可燃气轮机使用关乎国家经济与能源安全，五角大楼需要其继续运行。这反映了 AI 算力基础设施已成为国家战略资源。监管与国家安全之间的博弈正在加剧，可能影响 xAI 后续的算力扩张计划。此事件标志着 AI 硬件部署正式进入国家安全审查视野，行业合规风险显著上升。",
+    "tags": [
+      "News",
+      "Regulation",
+      "xAI"
+    ],
+    "link": "https://techcrunch.com/2026/06/16/doj-claims-xais-unpermitted-gas-turbines-are-a-matter-of-national-economic-and-energy-security/",
+    "date": "2026-06-16",
+    "id": "17816253956376"
+  },
+  {
     "title": "Tensordyne 发布 Napier AI 处理器，采用对数数学架构",
     "summary": "新型 3nm AI 处理器宣称通过对数数学减少乘法器面积，提升推理经济性。",
     "detail": "Tensordyne 正式宣布推出 Napier AI 处理器及机架级推理平台，标志着 AI 硬件架构的新探索。其核心创新在于 proprietary logarithmic mathematics（专有对数数学），将传统的乘法运算转化为加法，从而显著减小乘法器面积，增加片上 SRAM 容量。此举旨在优化硅面积利用率并降低功耗，直接攻击 AI 推理的速度与成本痛点。目前芯片已完成 tape-out，系统路线图定于 2027 年。该架构若验证成功，可能显著改变 AI 推理的成本结构，但需观察实际部署表现及软件生态是否成熟，能否在拥挤的芯片市场中突围。",
@@ -1207,96 +1298,5 @@
     "link": "https://www.bbc.com/news/articles/c932g3v3e13o",
     "date": "2026-06-13",
     "id": "17813855716180"
-  },
-  {
-    "title": "KPMG 因 AI 幻觉撤回报告，行业可靠性再受质疑",
-    "summary": "毕马威因 AI 生成数据存在幻觉，被迫撤回关于 AI 使用情况的报告。",
-    "detail": "TechCrunch 报道，四大会计师事务所之一的 KPMG 撤回了关于 AI 使用情况的报告，原因是内容存在明显的 AI 幻觉。这一事件极具讽刺意味，揭示了当前 AI 生成内容在专业领域的可靠性风险。它提醒企业在采用 AI 辅助决策时需保持人工核查，同时也可能影响市场对 AI 数据服务的信任度。专业服务机构若无法保证数据准确性，将损害其品牌声誉。此事件凸显了“人类在环”（Human-in-the-loop）的重要性，未来 AI 报告需经过更严格的验证流程，以避免误导投资者和公众，行业需建立更完善的 AI 内容审核标准。尽管 AI 效率高，但关键数据仍需人工背书，否则可能引发法律风险，信任危机可能波及整个 AI 服务行业。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Hallucination"
-    ],
-    "link": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
-    "date": "2026-06-13",
-    "id": "17813855716181"
-  },
-  {
-    "title": "Engram：本地离线 MCP 记忆服务器，赋能 AI 编程工具",
-    "summary": "开源项目 Engram 提供本地语义搜索记忆库，支持 Claude Code 等工具。",
-    "detail": "GitHub 上新开源项目 Engram 是一个本地优先的个人知识库，支持语义搜索，并通过 MCP 协议原生集成 Claude Code、Cursor 等 AI 编程工具。所有数据本地运行，无云端 API 成本。它解决了 AI 编程工具缺乏长期记忆的问题，允许开发者自动保存和检索上下文笔记，提升了本地开发工作流的隐私性和效率。对于注重数据隐私的团队，这是一个极佳的解决方案。它支持离线嵌入模型，确保代码逻辑不泄露。安装简便，通过 CLI 即可管理记忆，适合希望增强 AI 上下文理解能力的高级开发者，降低了私有知识管理的门槛。此外，其自动记忆钩子功能可无缝衔接开发会话，减少重复上下文输入，显著提升编码连续性。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "MCP"
-    ],
-    "link": "https://github.com/dgr8akki/engram",
-    "date": "2026-06-13",
-    "id": "17813855716182"
-  },
-  {
-    "title": "中国控制磷化铟出口，威胁 AI 数据中心建设",
-    "summary": "路透社称中国对磷化铟出口的控制可能阻碍全球 AI 数据中心 rollout。",
-    "detail": "路透社指出，中国对关键材料磷化铟（Indium Phosphide）出口的控制正在威胁全球 AI 数据中心的部署进度。磷化铟是制造高性能光通信芯片的关键材料。这一供应链瓶颈可能导致 AI 基础设施成本上升或建设延迟，凸显了硬件供应链在地缘政治博弈中的脆弱性，投资者需关注上游材料风险。全球 AI 竞赛不仅限于算法，更关乎底层硬件供应。若出口限制持续，可能导致光模块短缺，进而影响算力集群的互联效率。企业需寻找替代材料或多元化供应链，以应对潜在的断供风险，确保数据中心建设按计划推进。此事件可能加速各国对关键矿产资源的战略储备计划，硬件成本波动将成为常态。",
-    "tags": [
-      "News",
-      "Hardware",
-      "SupplyChain"
-    ],
-    "link": "https://www.reuters.com/world/china/chinas-control-over-indium-phosphide-exports-threatens-ai-data-centre-rollout-2026-06-11/",
-    "date": "2026-06-13",
-    "id": "17813855716183"
-  },
-  {
-    "title": "CEPR 发布 AI 泡沫监测报告，警示经济风险",
-    "summary": "美国经济政策研究中心发布报告，警示 AI 可能引发类似互联网泡沫的经济风险。",
-    "detail": "CEPR 发布\"The AI Bubble Monitor\"报告，对比 90 年代科技泡沫，指出美国经济可能正处于第三个主要泡沫中。报告分析了 AI 投资过热对就业和工资增长的潜在负面影响。若泡沫破裂，可能导致类似 2001 年的长期就业停滞。该报告为投资者和政策制定者提供了宏观视角，建议警惕过度资本支出带来的经济波动。历史数据显示，泡沫破裂后就业恢复缓慢。当前 AI 资本支出巨大，若回报率不及预期，可能引发市场修正。报告呼吁关注劳动市场变化，而非仅盯着股价，为行业降温提供了数据支持，提醒理性看待 AI 经济贡献。尽管技术进步真实，但资本市场的过度炒作需警惕，避免重蹈覆辙。",
-    "tags": [
-      "News",
-      "Economy",
-      "Bubble"
-    ],
-    "link": "https://cepr.net/publications/ai-bubble-monitor/",
-    "date": "2026-06-13",
-    "id": "17813855716184"
-  },
-  {
-    "title": "亚马逊 CEO  reportedly 引发 Anthropic 模型安全审查",
-    "summary": "亚马逊 CEO  reportedly 向政府反映安全担忧，致 Anthropic 切断模型访问。",
-    "detail": "报道指出亚马逊 CEO Andy Jassy 可能是导致 Anthropic 周五切断全球两个模型访问的安全担忧来源。这一事件标志着科技巨头与政府监管之间的互动加剧，可能引发 AI 模型访问权限的进一步收紧。对于依赖 Anthropic API 的企业而言，这意味着供应链风险增加，需重新评估模型部署的合规性与稳定性。此外，这也暗示了云服务商在 AI 模型分发中的关键 gatekeeper 角色，全球 AI 部署策略或将因此产生深远影响，企业需准备备用方案。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "Regulation"
-    ],
-    "link": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
-    "date": "2026-06-13",
-    "id": "17813788934520"
-  },
-  {
-    "title": "以色列 AI 监控突破重塑全球情报格局",
-    "summary": "以色列在伊朗的 AI 监控技术突破，正在重新定义全球情报收集方式。",
-    "detail": "该新闻报道了以色列在伊朗取得的 AI 监控技术突破，这一进展正在重塑全球情报格局。虽然具体技术细节未公开，但此类地缘政治中的 AI 应用表明，AI 技术已成为国家安全的核心竞争力。这可能引发各国在 AI 监控与反监控领域的军备竞赛，同时也引发了关于 AI 伦理与隐私侵犯的全球性讨论，情报机构的技术优势正在被 AI 算法重新定义，传统人力情报面临转型压力。",
-    "tags": [
-      "News",
-      "Surveillance",
-      "Geopolitics"
-    ],
-    "link": "https://www.calcalistech.com/ctechnews/article/h17rby8bge",
-    "date": "2026-06-13",
-    "id": "17813788934521"
-  },
-  {
-    "title": "GuruOS：首个面向信息业务的 AI 代理操作系统",
-    "summary": "GuruOS 推出首个 AI 代理操作系统，整合课程、社区与流量管理。",
-    "detail": "GuruOS 定位为面向信息业务的首个代理操作系统，旨在解决 AI 工具碎片化问题。它通过协调一组 AI 代理，在同一仪表盘中完成课程构建、社区管理及流量部署。相比传统 Kajabi+ChatGPT 堆栈，它试图实现工作流闭环，降低创作者在不同平台间切换的认知负荷与数据丢失风险。这对于知识付费创作者而言，可能意味着运营效率的显著提升，但也需关注其实际代理协作能力的稳定性。",
-    "tags": [
-      "New",
-      "Agent",
-      "SaaS"
-    ],
-    "link": "https://guruailab.com/",
-    "date": "2026-06-13",
-    "id": "17813788934522"
   }
 ]
