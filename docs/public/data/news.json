@@ -1,5 +1,70 @@
 [
   {
+    "title": "中美 AI 治理分歧加剧：中国推全球合作，G7 限模型访问",
+    "summary": "中国提议建立全球 AI 合作组织，G7 则讨论受限访问美国模型，两大体系渐成。",
+    "detail": "中国外交官王毅宣布加速建立全球 AI 合作组织，邀请各国加入，明确批评封闭垄断的技术发展路径。与此同时，G7 峰会正在讨论给予“可信伙伴”访问美国领先 AI 模型的权限。Anthropic 和 Google DeepMind 利用峰会呼吁建立美国主导的联盟，加拿大已表示同意。上周美商务部命令 Anthropic 切断外国用户访问 Fable 5 等模型。两大治理愿景公开分歧，标志着 AI 地缘政治格局进一步固化，全球可能形成两套独立的技术生态系统，对发展中国家选择产生深远影响。此举措可能重塑全球 AI 供应链与合作模式。",
+    "tags": [
+      "News",
+      "Policy",
+      "Geopolitics"
+    ],
+    "link": "https://thenextweb.com/news/china-ai-global-cooperation-vs-g7-export-controls",
+    "date": "2026-06-17",
+    "id": "17817388569930"
+  },
+  {
+    "title": "Tensordyne 革新 AI 芯片：利用对数系统提升计算效率",
+    "summary": "新创公司采用对数数字系统替代浮点数学，显著优化 AI 乘法运算效率。",
+    "detail": "多数 AI 芯片公司聚焦内存层级优化，如 Groq 用 SRAM 换低延迟，Cerebras 用晶圆级处理。Tensordyne 则采用基于对数的数字系统，存储 log2(A) 而非原始值，利用对数乘法规则提升乘法效率。该架构试图从数学底层优化计算引擎，而非仅靠硬件堆叠。文章深入探讨了对数格式的核心技术优势，及其在实际 AI 工作负载中的性能表现，引发对高效计算引擎实际价值的行业思考。相比只读内存方案，该芯片支持模型更新，兼顾效率与灵活性，为 AI 基础设施提供新范式。",
+    "tags": [
+      "News",
+      "Hardware",
+      "LLM"
+    ],
+    "link": "https://www.zach.be/p/tensordyne-is-making-ai-compute-more",
+    "date": "2026-06-17",
+    "id": "17817388569931"
+  },
+  {
+    "title": "Salvager：为 AI 编码 Agent 提供文件系统级撤销功能",
+    "summary": "被动监控文件修订，确保 AI 代理误操作后可随时恢复，无需配置。",
+    "detail": "AI 编码代理编辑文件时可能静默出错，如覆盖函数或删除代码块，且恢复不应依赖 Agent 谨慎。Salvager 作为文件系统级的安全网，被动监视项目根目录，自动保存每次文件修订至.salvager/目录。支持 CLI、MCP 或手动浏览历史时间线。恢复操作会自动保存当前状态以确保可逆。该工具解决了依赖手动 commit 的风险，为 AI 开发提供底层保障，无需配置即可运行，确保任何破坏均可回溯。它是 AI 时代版本控制的重要补充，提升开发安全感。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "Agents"
+    ],
+    "link": "https://www.salvager.sh/",
+    "date": "2026-06-17",
+    "id": "17817388569932"
+  },
+  {
+    "title": "Righthand：拥有技能与目标的自主 AI 员工平台",
+    "summary": "构建拥有邮箱、电话及统一记忆的 AI 员工，在 E2B 沙箱中自主执行任务。",
+    "detail": "创始人推出“右手”AI 员工，内置工作流而非等待提示。每个 AI 拥有姓名、联系方式及跨渠道统一记忆，运行于 E2B 沙箱中。技能系统重构至 V4 版本，支持自动 inbox 分类、预订会议等焦虑驱动任务。提供夜间自评及目标请求功能，支持 Bedrock+Codex fallback 路由。定价$99 起，试用免卡。旨在通过自动化琐碎任务缓解工作焦虑，重新定义人机协作模式，让 AI 真正融入日常 workflow。其沙箱隔离设计确保了执行安全性与隐私。",
+    "tags": [
+      "New",
+      "Agents",
+      "SaaS"
+    ],
+    "link": "https://www.rigthhand.ai",
+    "date": "2026-06-17",
+    "id": "17817388569933"
+  },
+  {
+    "title": "Transluce 推出分析计划：可验证的 AI 行为分析框架",
+    "summary": "通过 Python API 定义分析步骤，让人类可验证编码 Agent 的决策过程。",
+    "detail": "开发 AI 代理是复杂的数据分析问题，需追踪行为细节而非仅看基准分数。Transluce 推出“分析计划”框架，解决 Agent subtle mistakes 问题。通过 Python API 指定步骤，在 Web 界面展示每一步操作。包含查询步骤（使用 DQL 过滤数据）和验证步骤。旨在避免 Agent 解析错误或 cherry-pick 数据，确保结论可信任。适用于需要定量与定性分析 tailored 的场景，提升 AI 行为可解释性，降低调试成本。该框架为 AI 可靠性工程提供了新工具。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Tools"
+    ],
+    "link": "https://transluce.org/docent/blog/analysis-plans",
+    "date": "2026-06-17",
+    "id": "17817388569934"
+  },
+  {
     "title": "Scope 发布 AI 代理体验平台",
     "summary": "新产品帮助产品被 AI 代理发现和使用，监控代理行为。",
     "detail": "Scope 推出了全新的代理体验平台，旨在解决 AI 代理在使用产品时的摩擦问题。通过模拟代理行为、监控工具调用和错误，帮助开发者优化产品以适应 AI 用户。这标志着 SaaS 产品开始专门针对 AI Agent 进行优化，预示着“代理经济”基础设施的成熟。未来产品 discoverability 将取决于对 Agent 的友好程度，这是 B 端软件的新竞争维度。企业若忽视代理体验，可能面临流量流失给竞争对手的风险，需尽早布局代理兼容性测试。这将催生新的 SEO 范畴，即 AEO（代理引擎优化），改变流量获取逻辑。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/vagnerfirminopro/v-cos",
     "date": "2026-06-14",
     "id": "17814751797382"
-  },
-  {
-    "title": "软件工程师因 AI 冲击转行或削减开支",
-    "summary": "WSJ 报道软件工程师面临 AI 竞争，被迫改变职业路径或缩减支出。",
-    "detail": "华尔街日报报道了 AI 对软件工程师职业生涯的直接影响。面对 AI coding 能力的提升，许多工程师正在考虑转行或削减开支以应对不确定性。这反映了 AI 技术浪潮下劳动力市场的结构性变化，提示从业者需重新评估技能组合以适应新的行业常态。文章指出，尽管 AI 提高了效率，但也压缩了初级岗位的需求。工程师们需要关注那些 AI 难以替代的领域，如系统架构设计、复杂问题解决及人际沟通，以保持竞争力。行业需建立新的培训体系以帮助人员转型。",
-    "tags": [
-      "News",
-      "Career",
-      "Industry"
-    ],
-    "link": "https://www.wsj.com/lifestyle/careers/changing-careers-cutting-expenses-software-engineers-contend-with-ai-3889ce73",
-    "date": "2026-06-14",
-    "id": "17814751797383"
-  },
-  {
-    "title": "Hillock：基于 SQLite 和本地 HDC 的 AI 记忆系统",
-    "summary": "个人实验项目 Hillock 尝试用脑启发数学优化本地 AI 记忆。",
-    "detail": "Hillock 是一个本地的、受大脑启发的 AI 记忆系统，使用 SQLite 和高维计算（HDC）。作者旨在解决标准向量数据库过于沉重的问题，适合离线聊天机器人。目前处于实验阶段，展示了在小模型上检索和门控准确率的基准测试，为本地 AI 内存管理提供了新思路。该项目探索了 Hebbian 记忆和 VSA 储层计算，试图在资源受限的设备上实现高效的上下文检索，虽然精度有待提升，但为边缘 AI 应用提供了轻量级解决方案参考。适合希望在本地运行私有化 AI 记忆的开发者的实验。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Memory"
-    ],
-    "link": "https://github.com/roandejager/Hillock",
-    "date": "2026-06-14",
-    "id": "17814751797384"
-  },
-  {
-    "title": "欧盟用户请愿解锁 Siri AI 功能",
-    "summary": "超万人签名要求苹果向欧盟开放 Siri AI。",
-    "detail": "欧盟用户发起请愿，已有 27 国超 1 万人签名，要求苹果与监管机构解决争端，避免用户因法规被排除在 AI 功能之外。宣言强调访问权非特权，隐私与竞争应共存。指出 DMA 实施不应导致功能停滞，延迟导致欧洲学生与企业落后。呼吁双方定义安全路径，立即行动。此事件反映 AI 落地中的监管摩擦，用户不愿成为博弈牺牲品。技术 built for everyone 应 ship to everyone，规则应保护用户而非冻结功能。这可能导致苹果调整欧盟策略，监管与创新的平衡成为焦点。",
-    "tags": [
-      "News",
-      "Apple",
-      "Regulation"
-    ],
-    "link": "https://siri4eu.com/",
-    "date": "2026-06-14",
-    "id": "17814684155370"
-  },
-  {
-    "title": "企业急于遏制 AI 成本飙升",
-    "summary": "经济学人报道企业正设法控制 AI 高昂成本。",
-    "detail": "经济学人报道指出，随着 AI 部署规模扩大，企业正急于遏制 soaring 的成本。初期实验结束后，ROI 压力凸显，公司开始优化推理成本与模型选择。这标志着 AI 行业从单纯追求能力转向关注成本效益的关键阶段。企业需平衡性能与支出，避免预算失控。此趋势将推动高效模型与优化技术的发展，影响未来 AI 基础设施投资方向。可能导致对小型模型的偏好增加，以及本地部署的回归，改变云服务商格局，企业 scrambling 寻找可持续的 AI 经济模型。",
-    "tags": [
-      "News",
-      "Business",
-      "Cost"
-    ],
-    "link": "https://www.economist.com/business/2026/06/14/companies-are-scrambling-to-curtail-soaring-ai-costs",
-    "date": "2026-06-14",
-    "id": "17814684155371"
-  },
-  {
-    "title": "KPMG AI 报告竟充满 AI 幻觉",
-    "summary": "毕马威关于 AI 的报告被发现存在大量幻觉。",
-    "detail": "毕马威发布的一份关于 AI 风险的报告，自身却被发现包含大量 AI 生成的幻觉内容。这一讽刺事件凸显了当前 AI 工具在专业领域的可靠性问题，以及人工审核的必要性。即使是顶级咨询公司也难免受影响，警示企业在采纳 AI 生成内容时需建立严格验证流程。此事件可能影响客户对 AI 辅助专业服务的信任度，推动审计行业引入 AI 检测机制。避免声誉风险成为关键，专业服务机构需重新评估 AI 在工作流中的角色与监督机制。",
-    "tags": [
-      "News",
-      "Hallucination",
-      "Enterprise"
-    ],
-    "link": "https://www.cityam.com/kpmg-report-on-ai-found-riddled-with-ai-hallucinations/",
-    "date": "2026-06-14",
-    "id": "17814684155372"
   }
 ]
