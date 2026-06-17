@@ -1,5 +1,70 @@
 [
   {
+    "title": "代理 AI 正在重塑亚马逊团队工作流",
+    "summary": "AWS 副总裁透露代理 AI 工具使原型开发优于传统 PRFAQ 流程。",
+    "detail": "亚马逊内部正在经历由代理 AI 驱动的工作流变革。AWS 代理 AI 副总裁 Swami Sivasubramanian 指出，新的编码工具使得构建演示原型比撰写传统的六页 PRFAQ 文档更高效。这一转变标志着即使是最根深蒂固的企业流程也在适应 AI 代理技术，低风险评估正转向“先构建演示再迭代”的模式。原本著名的“两个披萨团队”原则正被技术效率重塑，凸显了代理 AI 对大型科技企业管理传统的颠覆性影响与组织架构的潜在进化。",
+    "tags": [
+      "News",
+      "Amazon",
+      "Agentic AI"
+    ],
+    "link": "https://www.geekwire.com/2026/how-agentic-ai-is-rewiring-amazons-teams-and-upending-its-traditions/",
+    "date": "2026-06-17",
+    "id": "17816768899850"
+  },
+  {
+    "title": "Whissle Gateway：500MB 本地 Docker 运行多模态语音 AI",
+    "summary": "无需云端依赖，单命令部署 ASR、TTS 及语音呼叫功能的本地网关。",
+    "detail": "Whissle Gateway 是一款专为本地部署设计的多模态语音 AI 运行时。仅需一个 Docker 命令即可在本地运行 ASR、TTS、说话人分离及 AI 教练功能，模型自动下载且无云端依赖。支持多种 API 接口包括批量 REST 和流式 WebSocket，适用于隐私敏感型语音应用开发。其轻量级设计（约 500MB）降低了本地语音智能的部署门槛，为开发者提供了高效的边缘计算解决方案，无需 GPU 亦可运行，极大简化了语音交互功能的集成流程。",
+    "tags": [
+      "Dev",
+      "Voice AI",
+      "Docker"
+    ],
+    "link": "https://whissle.ai/gateway",
+    "date": "2026-06-17",
+    "id": "17816768899851"
+  },
+  {
+    "title": "深度解析：AI 记忆系统在规模化下的失效模式",
+    "summary": "向量相似度在大规模信念存储中失效，需重构检索信号而非仅优化模型。",
+    "detail": "Tenure AI 的研究指出，当前 LLM 代理记忆系统在规模化时存在结构性缺陷。当信念数量达到数千级别，向量相似度无法有效区分领域相同但相关性不同的信息，导致噪声积累。多轮会话中的离题信念会污染重新进入的查询。研究强调修复关键不在于更大的嵌入模型，而在于设计不同的检索信号，为构建长期稳定的 AI 记忆架构提供了重要的理论依据和避坑指南。开发者需警惕小规模测试掩盖的精度问题，重新审视检索架构。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Architecture"
+    ],
+    "link": "https://tenureai.dev/writing/how-ai-memory-breaks-at-scale/",
+    "date": "2026-06-17",
+    "id": "17816768899852"
+  },
+  {
+    "title": "Loomcycle：开源 AI 代理侧车运行时环境",
+    "summary": "基于 Go 的二进制侧车，支持多 LLM 提供商及 MCP 原生代理系统。",
+    "detail": "Loomcycle 是一个开源的代理系统运行时底层设施，以侧车模式运行。单个 Go 二进制文件即可支持六个 LLM 提供商，原生兼容 MCP（Model Context Protocol）。它可配置为托管沙箱或完整的代理开发环境，支持多副本高可用。该项目为开发者提供了标准化的代理生命周期管理工具，简化了复杂代理系统的部署与维护，适合需要构建健壮代理应用的企业级开发场景，采用 Apache-2.0 协议开源。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Agents"
+    ],
+    "link": "https://github.com/denn-gubsky/loomcycle",
+    "date": "2026-06-17",
+    "id": "17816768899853"
+  },
+  {
+    "title": "AI Brand Kits：为 AI 编码代理生成一致的设计系统",
+    "summary": "生成 DESIGN.md 文件，确保 Cursor 等 AI 代理输出符合品牌规范的 UI。",
+    "detail": "针对 AI 编码代理常产生的 UI 不一致问题，AI Brand Kits 提供了一套完整的设计系统生成工作流。它能即时生成字体配对和颜色 palette，并导出包含 CSS 变量和 Tailwind 配置的 DESIGN.md 文件。这使得 Cursor、Claude Code 等代理能严格遵循品牌规范生成界面，解决了 AI 生成代码中的视觉 hallucination 问题，提升了 AI 辅助开发的生产力和品牌一致性，支持社区共享与实时预览。",
+    "tags": [
+      "New",
+      "Design",
+      "Dev Tools"
+    ],
+    "link": "https://www.aibrandkits.com/",
+    "date": "2026-06-17",
+    "id": "17816768899854"
+  },
+  {
     "title": "Wolfram Language 15 发布：内置 AI 助手与核心功能升级",
     "summary": "Wolfram 语言 15 发布，内置 AI 助手与核心功能升级，计算范式再进化。",
     "detail": "Wolfram Language 迎来版本 15 重大更新，历时 38 年发展，此次发布强调内置实用 AI 功能与核心计算能力增强。新版本不仅服务于人类用户，更优化了 AI 代理的调用效率，标志着计算范式在现代 AI 驱动下的进一步扩展。对于科研与工程领域，这意味着更强大的符号计算与 AI 协同工作能力，是科学计算平台 AI 化的重要里程碑。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.ft.com/content/514bab88-788c-4d48-a140-03597860bdb6",
     "date": "2026-06-14",
     "id": "17814368152582"
-  },
-  {
-    "title": "Velyr：自动修复网站转化漏洞的 AI 增长代理",
-    "summary": "每周自动分析数据并提交 GitHub PR 修复转化流失，按月订阅。",
-    "detail": "新推出的 AI 增长代理 Velyr 可分析 PostHog 数据，每周自动发现网站转化漏洞并生成代码修复 PR。支持 React/Next.js 栈，用户仅需 Telegram 确认即可部署。若指标下降系统自动回滚，确保安全性。定价 29 欧元/月，为中小企业提供了低成本的自动化 CRO 解决方案。",
-    "tags": [
-      "New",
-      "SaaS",
-      "Agent"
-    ],
-    "link": "https://velyr.io/",
-    "date": "2026-06-14",
-    "id": "17814368152583"
-  },
-  {
-    "title": "Repo-Slopscore：检测 Git 仓库中的 AI 生成代码贡献",
-    "summary": "通过 Commit 检测代码库中的 AI 废料，维护代码健康度。",
-    "detail": "针对 AI 生成代码泛滥导致的 Workslop 问题，该工具通过扫描 Git 提交记录检测低质量 AI 贡献。支持分析多个知名开源仓库，帮助团队识别未经验证的 AI 代码。随着 HN 社区讨论 AI 带来的责任缺失问题，此类工具将成为保障软件工程质量和维护开发者信任的关键基础设施。",
-    "tags": [
-      "Dev",
-      "Tool",
-      "CodeQuality"
-    ],
-    "link": "https://slopscan.ava.pet/",
-    "date": "2026-06-14",
-    "id": "17814368152584"
-  },
-  {
-    "title": "Tim Ferriss：AI 是否已杀死纪实类非虚构书籍？",
-    "summary": "知名博主分析 AI 对非虚构类图书销量的冲击与未来趋势。",
-    "detail": "知名博主 Tim Ferriss 撰文探讨 AI 生成内容对传统非虚构类书籍销售的冲击。结合个人数据与销售趋势，分析未来内容创作行业的潜在变革。文章指出 AI 可能已改变读者获取“如何做”信息的方式，迫使作者重新思考价值主张，对内容创作者和出版行业具有深远警示意义。",
-    "tags": [
-      "News",
-      "Industry",
-      "Content"
-    ],
-    "link": "https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/",
-    "date": "2026-06-14",
-    "id": "17814368152585"
-  },
-  {
-    "title": "通用大模型医疗表现超越专用 AI",
-    "summary": "Nature 研究显示通用 LLM 在医疗基准测试中胜过专用临床 AI 工具。",
-    "detail": "Nature 最新发表简报指出，通用大型语言模型在多项医疗基准测试中的表现优于专门设计的临床 AI 工具。这一发现挑战了垂直领域专用模型的必要性，暗示通用模型的多任务处理能力已足以应对专业医疗场景。研究团队通过对比测试验证了通用模型的泛化优势。这对医疗 AI 开发方向具有重大指导意义，可能减少专用模型的研发投入，推动通用模型在关键领域的落地应用，降低医疗 AI 部署门槛。此外，该研究还强调了数据质量与模型规模的重要性，为未来医疗 AI 监管政策制定提供了科学依据，行业需重新评估专用模型的投资回报率。",
-    "tags": [
-      "News",
-      "LLM",
-      "Healthcare"
-    ],
-    "link": "https://www.nature.com/articles/s41591-026-04431-5?brid=YWdncwFKdLH5ne5BLVS2Tb5UQSQa&utm_id=97757_v0_s00_e0_tv2_a1demone7v434p",
-    "date": "2026-06-14",
-    "id": "17814265650720"
-  },
-  {
-    "title": "Anthropic 发布 Claude 5 系列：Fable 与 Mythos",
-    "summary": "Anthropic 推出 Claude 5 系列，Fable 5 在编码与分析基准上突破 90%。",
-    "detail": "Anthropic 发布新一代 Claude 5 家族，包含 Fable 5 和 Mythos 5。两者底层模型相同，区别在于安全护栏。Fable 5 在 FrontierCode 编码评估及核心分析基准上取得突破，得分超 90%。文章指出模型能力未停滞，未来瓶颈在于资金与 adoption。这标志着 AI 竞争进入新层级，强调安全与能力的平衡。行业需关注算力成本与商业化落地的匹配度，模型迭代速度将继续重塑开发工作流，企业应提前布局适配新模型的应用架构，以抓住技术红利。同时，Mythos 级模型的推出预示着高端 AI 服务将出现分层，开发者需根据任务复杂度选择合适的模型 tier，优化成本结构。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "LLM"
-    ],
-    "link": "https://adlrocha.substack.com/p/adlrocha-ai-inequality-from-gpu-poor",
-    "date": "2026-06-14",
-    "id": "17814265650721"
   }
 ]
