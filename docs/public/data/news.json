@@ -1,5 +1,70 @@
 [
   {
+    "title": "Pinterest 推出实验性 AI 购物应用\"Ask Pinterest\"",
+    "summary": "Pinterest 发布新 AI 应用，通过对话界面提供购物推荐与灵感。",
+    "detail": "Pinterest 正式推出\"Ask Pinterest\"实验性应用，旨在通过对话界面重塑购物搜索体验。用户可通过自然语言交互获取个性化推荐与灵感，标志着社交平台向 AI 驱动的商业化转型迈进。此举反映了大科技公司在电商领域深化 AI 整合的趋势，可能根本改变用户发现商品的方式。随着生成式 AI 技术成熟，此类应用将测试用户对 AI 导购的接受度，为后续大规模集成提供数据支持，是电商 AI 化的重要里程碑，展示了搜索行为从关键词向意图理解的转变。",
+    "tags": [
+      "News",
+      "E-commerce",
+      "Big Tech"
+    ],
+    "link": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/",
+    "date": "2026-06-17",
+    "id": "17816971866040"
+  },
+  {
+    "title": "OrbitSuite 发布确定性 AI Agent 基础设施",
+    "summary": "通过 AST 验证和内存平面技术，解决 Agent 幻觉与输出不稳定问题。",
+    "detail": "OrbitSuite 推出专为 AI Agent 舰队设计的确定性基础设施，解决 LLM 幻觉导致的输出不稳定问题。核心创新在于 managed memory plane 和 AST 验证路由，确保每次推理步骤经过 schema 检查，失败触发自修正循环。该系统旨在消除 LLM 幻觉带来的代码风险，提供可审计的 token 溯源，上下文版本化防止退化。定价$79/月起，支持本地及云端部署，为工程团队提供可靠的 Agent 执行层。其“失败即大声报错”的哲学区别于传统概率性工具，强调生成代码需经过与人写代码同等的严格验证，适合对稳定性要求高的生产环境。",
+    "tags": [
+      "New",
+      "Dev",
+      "Infrastructure"
+    ],
+    "link": "https://orbitsuite.cloud/",
+    "date": "2026-06-17",
+    "id": "17816971866041"
+  },
+  {
+    "title": "企业 AI 治理警示：从 HAL 9000 看权限管理危机",
+    "summary": "文章指出企业 AI Agent 权限过大风险，呼吁将控制权置于基础设施层。",
+    "detail": "计算机爱科技发文警示企业 AI 治理漏洞，以 HAL 9000 为例说明权限分配不当的后果。随着 AI Agent 进入企业，控制权的归属成为关键。文章强调控制不应仅在供应商层，而应深入基础设施层，避免 Agent 因权限过大误删数据或泄露机密。这是当前企业领导者面临的核心治理 dilemma。现实案例已出现 Agent 误发邮件或清理系统数据的情况，表明权限管理滞后于技术发展。企业需在赋予员工 AI 使用权与限制 Agent 访问权限之间找到平衡，防止自动化操作引发不可逆的业务损失，构建零信任架构势在必行。",
+    "tags": [
+      "News",
+      "Governance",
+      "Enterprise"
+    ],
+    "link": "https://computerlove.tech/blog/super-bad-ai-governance",
+    "date": "2026-06-17",
+    "id": "17816971866042"
+  },
+  {
+    "title": "Huall 推出自主 AI Agent 问题 Board 平台",
+    "summary": "新平台允许将开发任务分配给 Agent 自动完成，含自动验证与修复功能。",
+    "detail": "Huall 发布自主 AI Agent 工作板，支持从 backlog 到完成的全自动流程。用户可将 issue 分配给 Agent 或 Crew，系统内置验证机制，测试命令作为硬网关，失败时自动修复并重试。特色在于角色定向的信息获取能力，Agent 可主动联系相关人员获取缺失上下文。这代表了软件开发流程自动化的新方向。平台支持将 Agent 组织为 Crew，共享技能包，每个 Agent 携带独立运行时与工具。通过第二 Agent review 机制确保代码质量，仅在 capped 重试失败后移交人类，大幅减少开发者在重复性任务上的时间消耗，提升交付效率。",
+    "tags": [
+      "New",
+      "Dev",
+      "Automation"
+    ],
+    "link": "https://huall.dev",
+    "date": "2026-06-17",
+    "id": "17816971866043"
+  },
+  {
+    "title": "GitHub 新项目：AI Agent 开源增长技能包",
+    "summary": "为 AI Agent 提供开源项目增长技能，包括 README 审计与演示构建。",
+    "detail": "市场技能团队发布开源仓库 growth skills，旨在赋予 AI Agent 运营开源项目的能力。包含 repo-growth-operator 和 ecosystem-inclusion-operator 两种技能，可审计 README、优化安装流程、生成演示及构建信任文件。开发者可通过提示词直接调用，帮助将随机 GitHub 仓库转化为可信、可安装的项目，降低开源维护门槛。该工具特别针对 AI Agent 设计，提供标准化的技能加载方式，涵盖货币化设计与社交证明构建。对于独立开发者而言，这是一套自动化的增长团队方案，能有效解决开源项目早期推广难、文档不完善等痛点，促进生态繁荣。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Tools"
+    ],
+    "link": "https://github.com/marketingskills/open-source-growth",
+    "date": "2026-06-17",
+    "id": "17816971866044"
+  },
+  {
     "title": "代理 AI 正在重塑亚马逊团队工作流",
     "summary": "AWS 副总裁透露代理 AI 工具使原型开发优于传统 PRFAQ 流程。",
     "detail": "亚马逊内部正在经历由代理 AI 驱动的工作流变革。AWS 代理 AI 副总裁 Swami Sivasubramanian 指出，新的编码工具使得构建演示原型比撰写传统的六页 PRFAQ 文档更高效。这一转变标志着即使是最根深蒂固的企业流程也在适应 AI 代理技术，低风险评估正转向“先构建演示再迭代”的模式。原本著名的“两个披萨团队”原则正被技术效率重塑，凸显了代理 AI 对大型科技企业管理传统的颠覆性影响与组织架构的潜在进化。",
@@ -1233,70 +1298,5 @@
     "link": "https://age-of-product.com/delegation-lifecycle/",
     "date": "2026-06-14",
     "id": "17814459616192"
-  },
-  {
-    "title": "AI 助力千人实现深度对话协作",
-    "summary": "新技术试图让千人团队进行有意义的实时对话，而非单纯数据聚合。",
-    "detail": "文章探讨利用 AI 实现超大规模人类协作的可能性，反对用 AI 替代人类审议。主张通过“超沟通”技术让数百人实时辩论决策，而非简单聚合数据。这对组织管理 AI 应用方向提出新视角，强调增强而非替代人类智慧。在大模型时代，重新思考人机协作边界，利用 AI 消除沟通层级损耗，为大型组织管理提供新范式，避免 AI 沦为单纯的结论生成器，保留人类 deliberation 的核心价值。该研究挑战了当前 AI 总结会议的趋势，提倡利用技术恢复群体智慧，对于政府及大型企业决策流程优化具有深远意义。",
-    "tags": [
-      "News",
-      "Research",
-      "Collaboration"
-    ],
-    "link": "https://bigthink.com/science-tech/collective-superintelligence/",
-    "date": "2026-06-14",
-    "id": "17814459616193"
-  },
-  {
-    "title": "停止像监控 Web 服务一样监控 AI 系统",
-    "summary": "专家建议 AI 系统监控需区别于传统 Web 服务，关注新指标。",
-    "detail": "文章指出 AI 系统具有概率性输出特性，传统 Web 监控方法不再适用，需停止旧有实践。建议开发者关注模型漂移、输出质量、语义一致性等新维度。这对 MLOps 实践具有指导意义，帮助团队建立更适合 AI 特性的运维体系，降低生产环境风险。随着 Agent 应用增多，监控策略需从可用性转向可靠性与安全性，确保 AI 行为符合预期，避免因监控缺失导致的业务逻辑错误或品牌声誉受损。开发者应重新评估现有监控栈，适配 AI 原生特性，建立针对非确定性输出的报警机制，保障系统长期稳定运行。",
-    "tags": [
-      "Dev",
-      "MLOps",
-      "Monitoring"
-    ],
-    "link": "https://www.newsletter.swirlai.com/p/stop-monitoring-ai-systems-like-web",
-    "date": "2026-06-14",
-    "id": "17814459616194"
-  },
-  {
-    "title": "GitHub 开源 Meta-Harness 原生实现：让 Claude 自我进化",
-    "summary": "将 Claude Code 转化为自我进化框架，优化模型周围 scaffolding。",
-    "detail": "该项目是 Meta-Harness (Lee et al. 2026) 的原生重写，旨在通过 propose→score→Pareto 循环优化固定模型周围的架构。它不改变模型权重，而是进化记忆、检索、上下文构建及提示模板。作为 Claude Code 技能运行，为开发者提供了让 AI 代理自我改进工作流的新范式，显著提升复杂任务的处理效率。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "GitHub"
-    ],
-    "link": "https://github.com/001TMF/harness-forge",
-    "date": "2026-06-14",
-    "id": "17814368152580"
-  },
-  {
-    "title": "Home Opus 白皮书：应对前端 AI 权重出口禁令的本地部署方案",
-    "summary": "针对 Fable 5 禁令，提议授权旧版权重本地部署以防市场流失。",
-    "detail": "针对 2026 年 6 月美国商务部禁用 Fable 5 模型给外国用户的限制，该白皮书提出 Home Opus 计划。主张授权旧版 Claude Opus 权重在认证硬件上本地部署，以防国际市场转向中国开源模型。方案包含双密钥激活、权重指纹及安全框架，强调受控的美国 AI 优于不受控的替代品，维护 AI 主权。",
-    "tags": [
-      "News",
-      "Policy",
-      "Deployment"
-    ],
-    "link": "https://github.com/zanirou/home-opus-whitepaper",
-    "date": "2026-06-14",
-    "id": "17814368152581"
-  },
-  {
-    "title": "英国警察因涉嫌不当使用 AI 工具受刑事调查",
-    "summary": "首例公职人员因 AI 使用不当面临刑事调查，警示合规边界。",
-    "detail": "金融时报报道，一名英国警官因涉嫌不当使用 AI 工具正处于刑事调查阶段。此案可能成为公共部门 AI 合规性的关键判例，警示执法机构需明确 AI 使用边界与责任归属。随着 AI 渗透各行业，此类法律案件将推动更严格的监管政策出台，影响企业 AI 部署策略。",
-    "tags": [
-      "News",
-      "Legal",
-      "Ethics"
-    ],
-    "link": "https://www.ft.com/content/514bab88-788c-4d48-a140-03597860bdb6",
-    "date": "2026-06-14",
-    "id": "17814368152582"
   }
 ]
