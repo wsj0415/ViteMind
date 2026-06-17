@@ -1,5 +1,83 @@
 [
   {
+    "title": "AllenAI 发布 MolmoMotion：语言引导的 3D 运动预测模型",
+    "summary": "AllenAI 开源新模型，实现语言引导的 3D 运动预测与机器人规划。",
+    "detail": "AllenAI 在 Hugging Face 发布 MolmoMotion，这是一个语言引导的 3D 运动预测模型。该项目包含 MolmoMotion-1M 数据集和 PointMotionBench 基准。核心技术在于将语言指令与 3D 点云运动结合，显著提升了机器人规划和视频生成的下游任务表现。代码、模型及技术报告已完全开源，为具身智能领域提供了新的基础设施，推动了多模态模型在物理世界预测中的应用。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Robotics"
+    ],
+    "link": "https://huggingface.co/blog/allenai/molmomotion",
+    "date": "2026-06-17",
+    "id": "17817105014540"
+  },
+  {
+    "title": "2035 丰饶愿景：AI 驱动的经济物理学的三种未来",
+    "summary": "深度分析 AI 对经济的影响，提出 2035 年丰饶愿景与工业智能栈。",
+    "detail": "文章基于“工业智能栈”术语和经济物理学，推演了三种未来场景。核心概念包括“铸造窗口期”（当前 18 个月标准硬化期）和“罗氏指标”（RoCS）。文章警告旧势力仍在讨论安全，而技术曲线已垂直上升。这是一份关于 AI 加速时代的基础设施蓝图，强调了从稀缺思维到丰饶经济的转变，为行业参与者提供了未来十年的战略参考视角。",
+    "tags": [
+      "News",
+      "Analysis",
+      "Economy"
+    ],
+    "link": "https://www.solveeverything.org/",
+    "date": "2026-06-17",
+    "id": "17817105014541"
+  },
+  {
+    "title": "慢科技革命：Tony Fadell 呼吁抵制手机成瘾与注意力危机",
+    "summary": "iPod 之父 Tony Fadell 倡导慢科技，反思算法对体验的中介化。",
+    "detail": "TechCrunch 报道了“慢科技革命”，iPod 之父 Tony Fadell 指出现代设备过度中介化人类体验。尽管技术进步巨大，但算法控制了从购物到约会的一切。广告中“零屏幕时间”的 iPod Shuffle 反而成为反讽。这反映了 AI 时代人们对注意力稀缺的焦虑，提示硬件设计可能回归极简主义以 rescue 人类注意力，对抗算法带来的成瘾性。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Trend"
+    ],
+    "link": "https://techcrunch.com/2026/06/17/the-slowtech-revolution-is-here-to-kill-your-phone-addiction-and-rescue-your-attention-span/",
+    "date": "2026-06-17",
+    "id": "17817105014542"
+  },
+  {
+    "title": "开源工具 MakerChecker：防止 AI Agent 自我审批的安全层",
+    "summary": "新开源工具通过角色隔离和人工审批，治理 AI Agent 的高风险操作。",
+    "detail": "GitHub 新项目 MakerChecker 旨在解决 AI Agent 自主性带来的风险。它通过结构强制角色分离，确保 Agent 不能审批自己的工作。支持自托管，提供防篡改的审计日志（Ed25519 签名）。适用于需要人类介入高风险操作的场景，为 AI Agent 部署提供了关键的安全治理框架，填补了自主代理控制的空白，确保企业级应用的安全性。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://github.com/sammysltd/makerchecker",
+    "date": "2026-06-17",
+    "id": "17817105014543"
+  },
+  {
+    "title": "信息存在假说：硅基智能演化的物理与防御轨迹分析",
+    "summary": "从信息存在视角分析硅基智能演化，探讨人类防御轨迹。",
+    "detail": "该 GitHub 项目提出“信息存在假说”，摒弃人类中心主义，从纯信息视角分析硅基智能。认为宇宙发展本质是信息存在的提升，硅基智能是信息升级硬件以防止灭绝的下一步。文章探讨了碳基架构极限及人类对遗忘的恐惧。这是一篇深度的 AI 哲学与安全理论文章，为理解 AI 终极形态提供了新框架，挑战了传统的 Singleton 神学观点。",
+    "tags": [
+      "News",
+      "Safety",
+      "Theory"
+    ],
+    "link": "https://github.com/jacob-sha/Information-Existence-Hypothesis/blob/main/README_EN.md",
+    "date": "2026-06-17",
+    "id": "17817105014544"
+  },
+  {
+    "title": "Cosmicgpt：模拟太空辐射环境下 GPT 推理稳定性的开源项目",
+    "summary": "开源模拟器研究宇宙射线对 AI 模型权重及输出的影响。",
+    "detail": "Cosmicgpt 是一个 GPT 太空模拟器，用于研究 SpaceX 卫星等场景下 AI 的可行性。项目模拟宇宙射线导致的比特翻转（SEU）、多比特翻转等故障对模型权重、KV Cache 的影响。提供可视化报告和故障注入工具。这对于边缘 AI 部署、太空计算及模型鲁棒性研究具有重要参考价值，代码已开源，帮助开发者评估极端环境下的模型稳定性。",
+    "tags": [
+      "Dev",
+      "Research",
+      "EdgeAI"
+    ],
+    "link": "https://github.com/davedx/cosmicgpt",
+    "date": "2026-06-17",
+    "id": "17817105014545"
+  },
+  {
     "title": "Pinterest 推出实验性 AI 购物应用\"Ask Pinterest\"",
     "summary": "Pinterest 发布新 AI 应用，通过对话界面提供购物推荐与灵感。",
     "detail": "Pinterest 正式推出\"Ask Pinterest\"实验性应用，旨在通过对话界面重塑购物搜索体验。用户可通过自然语言交互获取个性化推荐与灵感，标志着社交平台向 AI 驱动的商业化转型迈进。此举反映了大科技公司在电商领域深化 AI 整合的趋势，可能根本改变用户发现商品的方式。随着生成式 AI 技术成熟，此类应用将测试用户对 AI 导购的接受度，为后续大规模集成提供数据支持，是电商 AI 化的重要里程碑，展示了搜索行为从关键词向意图理解的转变。",
@@ -1220,83 +1298,5 @@
     "link": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
     "date": "2026-06-14",
     "id": "17814544060713"
-  },
-  {
-    "title": "Ponytail：让 AI 代理像“懒惰”的高级开发者一样思考",
-    "summary": "开源项目优化 AI 编码策略，倡导“最好的代码是未编写的代码”。",
-    "detail": "Ponytail 是一个有趣的开源项目，旨在调整 AI Agent 的编码思维模式。它鼓励 AI 像经验丰富的高级开发者一样“懒惰”，即优先考虑简化方案而非过度工程化。核心理念是“最好的代码是你从未编写的代码”，适合希望优化 AI 生成代码质量和简洁性的开发者参考。通过 prompt 工程引导 AI 减少冗余代码，提升维护性，为 AI 编码风格优化提供新思路。在 AI 生成代码泛滥的背景下，回归简洁与实用主义显得尤为重要。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Agent"
-    ],
-    "link": "https://github.com/DietrichGebert/ponytail",
-    "date": "2026-06-14",
-    "id": "17814544060714"
-  },
-  {
-    "title": "Mantic Think：支持多模型辩论的私有 Ollama UI",
-    "summary": "允许用户配置不同模型进行辩论，展示 Kimi 与 Minimax 关于中美对比的观点。",
-    "detail": "Mantic Think 提供了一个私有的 Bring-Your-Own-Key Ollama UI，特色功能是支持 AI 辩论。示例中 Kimi-k2.6 与 Minimax-m2.7 就中美未来十年发展进行辩论。该工具展示了多模型协作与对抗的可能性，适合需要多角度分析或模型对比研究的开发者与用户。通过本地部署保护数据隐私，同时利用不同模型特长进行深度思考，拓展了 LLM 应用场景。这种辩论模式有助于减少单一模型的幻觉，提供更平衡的观点输出。",
-    "tags": [
-      "New",
-      "LLM",
-      "UI"
-    ],
-    "link": "https://manticthink.com/d/tq00dkq",
-    "date": "2026-06-14",
-    "id": "17814544060715"
-  },
-  {
-    "title": "社区讨论：AI 代理是否正在构建真正的软件？",
-    "summary": "HN 热门讨论质疑 AI 工作流是否仅用于构建 AI 工具，而非独立软件。",
-    "detail": "Hacker News 发起关于 AI Agent 实际产出的讨论。用户指出当前 impressive 的 agentic workflows 多用于构建 AI 工具本身，缺乏独立站得住脚的软件项目。这反映了社区对 AI Agent 实际落地能力的审视，提示开发者需关注 Agent 在非 AI 领域的实际应用场景。行业需从“构建 AI 工具”转向“用 AI 构建实用软件”，避免陷入自嗨循环。真正的突破将出现在 AI 解决传统软件难以处理的复杂非线性任务时。",
-    "tags": [
-      "News",
-      "Community",
-      "Agent"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48528665",
-    "date": "2026-06-14",
-    "id": "17814544060716"
-  },
-  {
-    "title": "警察滥用 AI 车牌追踪系统被捕",
-    "summary": "美国多名警察因利用 Flock AI 系统跟踪伴侣被捕，引发隐私担忧。",
-    "detail": "调查揭露美国至少 18 起案件，多名警察滥用 Flock AI 车牌识别系统跟踪浪漫伴侣，目前已逮捕相关人员。此事件凸显 AI 监控工具在缺乏严格监管下的严重滥用风险，对公共安全信任及 AI 伦理合规提出严峻挑战。行业需立即加强权限审计与使用日志监控，防止技术沦为私人报复工具，确保 AI 安全落地。同时引发对执法部门 AI 使用规范的重新审视，要求更高的透明度与问责机制，避免技术信任危机蔓延至整个 AI 监控行业。此案例将成为 AI 治理的重要反面教材，推动相关立法进程。",
-    "tags": [
-      "News",
-      "Security",
-      "Ethics"
-    ],
-    "link": "https://www.tomshardware.com/software/security-software/several-police-officers-arrested-for-using-controversial-flock-ai-license-plate-reader-system-to-stalk-romantic-partners-says-report-investigators-have-unearthed-at-least-18-such-cases-in-the-us-over-recent-years",
-    "date": "2026-06-14",
-    "id": "17814459616190"
-  },
-  {
-    "title": "扎克伯格承认 Meta AI 人力调整失误",
-    "summary": "Meta CEO 表示公司在 AI 劳动力转型过程中犯了错误，引发行业关注。",
-    "detail": "扎克伯格公开承认 Meta 在 AI 驱动的人力资源配置上存在失误，这是罕见的巨头反思。这反映了科技巨头在快速整合 AI 技术时的组织阵痛与战略调整难度。该表态可能影响后续 AI 人才策略，提示企业在 AI 转型期需平衡效率与员工结构稳定性。投资者与行业将密切关注 Meta 后续如何修正路线，这为其他正在激进推行 AI 裁员或转型的公司提供了重要参考案例，警示盲目调整的风险。此言论可能缓解部分市场对 AI 取代人类工作的过度焦虑，强调人机协作的重要性。",
-    "tags": [
-      "News",
-      "Meta",
-      "Workforce"
-    ],
-    "link": "https://finance.yahoo.com/sectors/technology/articles/zuckerberg-says-meta-made-mistakes-in-ai-workforce-shift-212324481.html",
-    "date": "2026-06-14",
-    "id": "17814459616191"
-  },
-  {
-    "title": "AI 授权生命周期框架与 Claude 课程优惠",
-    "summary": "发布 AI 决策治理框架，Claude Cowork 课程限时优惠至 6 月 15 日。",
-    "detail": "文章提出 AI 授权生命周期模型，解决团队 AI 产出决策归属问题，避免自动化债务。同时推广 Claude Cowork 在线课程，限时优惠至 6 月 15 日（$129）。课程教授如何构建技能与 Agent 系统，无需代码。适合希望系统化部署 AI 工作流的产品团队，含 A3 框架及模板。通过六步决策框架，帮助团队将 AI 产出转化为可审计、可信任的资产，提升组织 AI 成熟度，是从提示词工程迈向代理系统的关键指南。课程包含 8 小时视频模块及实战 BootCamp 验证内容，提供 CLAUDE.md 等 starter kit，助力团队快速落地 AI 代理工作流，实现专家经验编码化。",
-    "tags": [
-      "Deal",
-      "Dev",
-      "Management"
-    ],
-    "link": "https://age-of-product.com/delegation-lifecycle/",
-    "date": "2026-06-14",
-    "id": "17814459616192"
   }
 ]
