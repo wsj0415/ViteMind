@@ -1,5 +1,70 @@
 [
   {
+    "title": "Coinbase 推出 AI 投资顾问，进军传统金融领域",
+    "summary": "Coinbase 推出 AI 顾问及股票期权服务，向全能金融平台转型。",
+    "detail": "Coinbase 正在大幅扩展其金融服务版图，正式推出 AI 投资顾问功能，并涉足股票期权与 IPO 前市场。此举标志着加密货币交易所向全能金融平台的转型，试图通过 AI 技术降低用户投资门槛。文章指出，该平台正扩展到投资、衍生品和银行服务。行业影响深远，可能引发传统券商与加密平台的竞争加剧，同时也引发了关于 AI 金融建议合规性的新讨论。对于投资者而言，这意味着更便捷的服务，但也需警惕 AI 建议的潜在风险。整体来看，这是 AI 落地金融场景的重要案例，展示了 AI 在复杂决策中的辅助作用。",
+    "tags": [
+      "News",
+      "Finance",
+      "AI Adviser"
+    ],
+    "link": "https://www.coindesk.com/business/2026/06/16/coinbase-intoduces-ai-advisor-stock-options-and-pre-ipo-markets-in-finance-push",
+    "date": "2026-06-18",
+    "id": "17818004982180"
+  },
+  {
+    "title": "软件自由保守协会发布 LLM 与开源合规建议",
+    "summary": "SFC 发布关于 LLM 生成式 AI 与开源软件合规的最新建议指南。",
+    "detail": "软件自由保守协会（Software Freedom Conservancy）正式发布了关于 LLM 支持的生成式 AI 建议指南。该组织致力于维护开源软件用户的法律权利，此次发布旨在帮助 FOSS 贡献者 navigating 当前 AI 与开源交织的复杂局面。内容涉及 Copyleft 合规及潜在的法律诉讼风险。对于开发者和企业而言，这是一份重要的合规参考，明确了在使用 LLM 生成代码或内容时的法律边界。行业影响在于可能推动更多企业重视 AI 生成内容的版权溯源，促进开源生态与 AI 技术的良性共存。",
+    "tags": [
+      "News",
+      "Legal",
+      "FOSS"
+    ],
+    "link": "https://sfconservancy.org/news/2026/jun/18/llm-backed-generative-ai-recommendations/",
+    "date": "2026-06-18",
+    "id": "17818004982181"
+  },
+  {
+    "title": "Vibesurfer：专为 AI 代理设计的轻量级浏览器",
+    "summary": "发布 token 高效的 AI 代理浏览器，无需 Chromium 即可运行。",
+    "detail": "Vibesurfer 是一款专为本地 AI 代理设计的真实浏览器，旨在解决 Agent 测试 Web 应用时的痛点。与传统方案不同，它不依赖 Chromium 或 CDP，实现了更高的 token 效率。项目通过 GitHub 开源，支持 CI 工作流和引擎测试。核心技术点在于让 Agent 能够直接通过浏览器交互，而非简单的 API 调用，这对于需要视觉反馈或复杂 DOM 操作的 AI 任务至关重要。它的出现降低了 AI Agent 开发的技术门槛，为本地部署的 AI 模型提供了更强大的工具链支持，是 Agent 基础设施领域的重要创新。",
+    "tags": [
+      "New",
+      "Agent",
+      "Browser"
+    ],
+    "link": "https://github.com/frane/vibesurfer",
+    "date": "2026-06-18",
+    "id": "17818004982182"
+  },
+  {
+    "title": "AI 管道监控缺失：概率系统调试面临挑战",
+    "summary": "深度分析 AI 管道监控缺失问题及概率系统调试难点。",
+    "detail": "The New Stack 发布文章指出，当前的 AI 管道往往存在断裂，而传统仪表盘无法有效监控。文章重点探讨了概率性 AI 系统的调试难题，强调现有工具难以捕捉 AI 行为的不确定性。背景在于随着 AI 应用复杂度增加，可观测性成为瓶颈。核心技术点涉及如何建立针对非确定性输出的监控机制。行业影响方面，这揭示了 MLOps 领域的现存短板，呼吁开发者关注 AI 系统的稳定性与可解释性。对于运维团队，这意味着需要升级监控策略，以适应 AI 模型特有的概率性特征，避免潜在的生产事故。",
+    "tags": [
+      "Dev",
+      "Ops",
+      "Debugging"
+    ],
+    "link": "https://thenewstack.io/debugging-probabilistic-ai-systems/",
+    "date": "2026-06-18",
+    "id": "17818004982183"
+  },
+  {
+    "title": "深度分析：AI 的认知上限比预期更低",
+    "summary": "文章质疑 AI 长期被低估论，指出当前范式存在认知上限。",
+    "detail": "Medium 文章《The AI Ceiling Is Lower Than Anyone Is Saying》对当前 AI 热潮提出批判性观点。作者认为'AI 短期被高估，长期被低估'的说法部分源于金融叙事而非技术现实。核心论点指出 LLM 的效用局限于符号域，软件工程生产力难以量化。若要从统计学习范式突破，需根本性的 paradigm  shift。行业影响在于提醒投资者和开发者理性看待 AI 能力边界，避免盲目跟风。这对于调整技术路线图和预期管理具有重要参考价值，强调了 epistemological ceiling（认知上限）的存在，呼吁关注基础范式的创新而非仅靠算力堆叠。",
+    "tags": [
+      "News",
+      "Analysis",
+      "Hype"
+    ],
+    "link": "https://addozhang.medium.com/the-ai-ceiling-is-lower-than-anyone-is-saying-765179051ece",
+    "date": "2026-06-18",
+    "id": "17818004982184"
+  },
+  {
     "title": "Safari 反对 WebMCP API，倡导通用 Web 标准",
     "summary": "Safari 团队认为 AI 代理应视同辅助技术，共用 HTML/ARIA 层。",
     "detail": "Safari 团队正式反对 WebMCP API，主张 AI 代理应被视为辅助技术，通过 HTML 和 ARIA 等共享层操作网站，而非单独区分。此举旨在确保 Web 改进同时惠及人类用户与无障碍技术，避免为 AI 单独 fork 语义层。这反映了浏览器厂商对 AI 集成架构的深层考量，强调平台共享层的重要性，防止 AI 优化损害普通用户体验。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.kylereddoch.me/blog/describe-a-shortcut-create-a-risk-the-security-side-of-ai-built-automations/",
     "date": "2026-06-15",
     "id": "17815481413522"
-  },
-  {
-    "title": "业界联名呼吁解除 Anthropic 模型出口限制",
-    "summary": "高管联名信指出限制防御性 AI 模型可能削弱网络安全防御能力。",
-    "detail": "多位美国及盟友的高管和技术领袖联名致信政府，呼吁解除对 Anthropic Fable 和 Mythos 大模型的出口控制。信中指出 AI 对网络安全影响重大，能显著降低寻找软件漏洞的难度。虽然 Anthropic 模型擅长此道，但并非唯一，且已 built 多重防护防止网络进攻用途。限制模型只会让防御者落后于对手，中国开源模型仅落后数月，且对手可能拥有私有能力。剥夺防御者的最佳工具是危险的，应承诺开放、科学的 AI 风险评估流程，确保 coder 和安全团队能利用 AI 快于 adversaries 修复漏洞。这反映了业界对于 AI 出口管制可能削弱防御能力的担忧，呼吁更透明的政策。",
-    "tags": [
-      "News",
-      "Policy",
-      "Cybersecurity"
-    ],
-    "link": "https://freefable.org/",
-    "date": "2026-06-15",
-    "id": "17815481413523"
-  },
-  {
-    "title": "Velxio 3.0 发布：支持多板嵌入式 AI 仿真",
-    "summary": "浏览器端嵌入式模拟器更新，支持复古 CPU 及多板系统互联。",
-    "detail": "Velxio 3.0 发布重大更新，成为支持多板系统的全电路精度嵌入式模拟器。新版本支持 Z80、8086 等复古 CPU 及 Arduino、ESP32、Pi 等多板互联，可在浏览器中 wire UART、I2C 等协议。新增 MicroSD 卡和 ePaper 显示模拟，支持无需主板的 bare CPU 运行及编辑器内汇编编写。提供超过 100 个开源示例，支持全 undo/redo 及 live editing。这对于嵌入式开发者是强大的云端测试与学习工具，降低了硬件仿真门槛，允许在 canvas 上直接 step 经典指令集，提升了开发效率与实验灵活性。结合 in-canvas AI Agent，进一步辅助了复杂电路系统的调试与设计过程。",
-    "tags": [
-      "Dev",
-      "Embedded",
-      "Simulation"
-    ],
-    "link": "https://velxio.dev/v3/",
-    "date": "2026-06-15",
-    "id": "17815481413524"
-  },
-  {
-    "title": "GrassDx：AI 驱动的草坪诊断工具上线",
-    "summary": "上传草坪照片即可获得 AI 诊断及个性化护理方案，无需账户。",
-    "detail": "GrassDx 是一款免费的 AI 驱动草坪诊断工具，用户无需账户即可使用。通过上传最多 4 张草坪照片（全景、特写、边缘、土壤细节）并输入 ZIP 代码，AI 可 instant 识别 47+ 种状况并提供个性化治疗计划。系统根据区域、草种和季节生成建议，如真菌病害、干旱压力或营养缺乏。这种轻量化应用展示了 AI 在垂直生活场景中的落地能力，利用图像识别技术解决具体痛点。虽然功能单一，但无需注册的低摩擦体验有助于快速获客，为后续季节性护理 tips 推送奠定基础，体现了 AI 服务本地化的趋势。适合房主快速获取专业级草坪护理建议，降低了园艺咨询门槛。",
-    "tags": [
-      "New",
-      "Consumer AI",
-      "Image Recognition"
-    ],
-    "link": "https://grassdx.com/",
-    "date": "2026-06-15",
-    "id": "17815481413525"
-  },
-  {
-    "title": "NewCore 获 6600 万美元融资，主打 AI 员工身份管理",
-    "summary": "NewCore 融资 6600 万美元，解决企业 AI 代理身份与安全挑战。",
-    "detail": "**背景**：随着 AI 代理成为企业员工，安全管理重心转向代理身份。**核心**：NewCore 获得 6600 万美元融资，旨在为 AI 代理提供身份管理解决方案。**影响**：标志着企业安全边界从人类员工扩展至 AI 代理，身份管理将成为下一代企业安全的关键挑战，需重新定义信任边界。",
-    "tags": [
-      "News",
-      "Funding",
-      "Security"
-    ],
-    "link": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
-    "date": "2026-06-15",
-    "id": "17815293988860"
-  },
-  {
-    "title": "软件开发新范式：审查规范而非代码差异",
-    "summary": "AI 生成代码过快，传统 Diff 审查失效，建议转向审查技术规范。",
-    "detail": "**背景**：AI 使代码生成速度远超人工审查能力，传统合并前审查 Diff 的模式不再适用。**核心**：提出“重审查规范，轻审查代码”的新生命周期模式。技术规范指工程师的实现计划，而非产品需求。**影响**：开发者需调整工作流，在代码生成前严格审查技术方案，以应对 AI 带来的代码体积膨胀和质量控制难题。",
-    "tags": [
-      "Dev",
-      "Workflow",
-      "CodeReview"
-    ],
-    "link": "https://mkdshare.dev/d/review-the-spec-not-the-diff-how-ai-changes-the-way-we-NTdScTRg",
-    "date": "2026-06-15",
-    "id": "17815293988861"
   }
 ]
