@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 补贴时代终结，OpenAI 与 Anthropic 启动 IPO",
+    "summary": "两大前沿实验室提交 IPO 文件，API 价格翻倍，企业需重新评估 AI 预算。",
+    "detail": "OpenAI 和 Anthropic 于 6 月先后提交保密 IPO 草案，标志着 AI 补贴时代正式结束。OpenAI 最新旗舰模型代币成本翻倍，GitHub Copilot 取消固定费率并大幅提高高级模型 multiplier 至 27 倍。企业不能再依赖低价算力试错，需严格区分产生价值的 AI 支出与浪费。那些基于 2024 年经济模型制定的 2026 年预算的企业，正发现发票金额大幅超出预期，行业将进入精细化运营阶段。前沿实验室面向公开市场定价旨在盈利而非获客，API 涨价已成定局，开发者需优化 Token 使用效率，避免 agent 燃烧大量 token 却无产出，成本控制将成为企业 AI 战略的核心考量因素，浪费即将成为明确的财务线项目。",
+    "tags": [
+      "News",
+      "Business",
+      "LLM"
+    ],
+    "link": "https://www.speakeasy.com/blog/rising-price-of-ai",
+    "date": "2026-06-18",
+    "id": "17818110715570"
+  },
+  {
+    "title": "EFF 指控美国政府违宪制裁 Anthropic",
+    "summary": "电子前哨基金会称政府因 Anthropic 拒绝自主杀人模型而实施报复性制裁。",
+    "detail": "EFF 指出特朗普政府对 Anthropic 的制裁违宪，动机是惩罚不合作而非国家安全。政府曾依赖其模型，但因 Anthropic 拒绝用于自主杀敌或监控美国人，将其列为供应链风险。法院已发布初步禁令阻止制裁生效。EFF 强调 AI 监管应理性而非报复，政府策略在最小化监管以赢得竞赛的同时，却对特定公司实施任意 heavy-handed 规则，引发法律与伦理争议。此举违反了第一修正案，表明政府因公司拒绝配合军事化用途而宣战，civil liberties 组织 urging 法院干预，最终裁决将影响未来 AI 公司与政府合作的安全边界，监管不应成为政治报复的工具。",
+    "tags": [
+      "News",
+      "Policy",
+      "Safety"
+    ],
+    "link": "https://www.eff.org/deeplinks/2026/06/ai-regulation-should-be-rational-not-retaliatory",
+    "date": "2026-06-18",
+    "id": "17818110715571"
+  },
+  {
+    "title": "AI Commander：无需 SSH 的 AI 代理远程 shell",
+    "summary": "让 Claude 等 AI 直接在远程机器运行命令，无需开放端口或配置 VPN。",
+    "detail": "新产品 AI Commander 允许通过自然语言让 AI 代理在远程服务器运行 shell 命令。只需安装小型应用，无需暴露 SSH 或开放端口，通过出站连接确保安全。支持 Linux、Mac 和 Windows，适合管理服务器集群或树莓派。用户可将机器代码分享给 ChatGPT 或 Claude，直接询问磁盘使用情况等，结果直接返回。这极大降低了 AI 代理操作基础设施的门槛，实现了类似 TeamViewer 的体验。无需账户即可试用，登录后可管理 fleet 并命名机器。这种无网络设置 setup 的方式解决了传统远程管理的痛点，让 AI 真正成为系统管理员的助手，无需 VPN 即可安全连接任何计算机。",
+    "tags": [
+      "New",
+      "Dev",
+      "Agent"
+    ],
+    "link": "https://aicommander.dev/",
+    "date": "2026-06-18",
+    "id": "17818110715572"
+  },
+  {
+    "title": "intuitivepapers.ai：交互式 AI 论文学习平台",
+    "summary": "提供可交互的图表和直观解释，帮助开发者深入理解现代 AI 论文。",
+    "detail": "新平台 intuitivepapers.ai 致力于通过深度交互式解释器帮助理解 AI 论文。强调直觉优先于数学，提供可操作的图表和滑块，所有 claim 均与原始文献核对。由人工编写而非生成，适合开发者和研究者深入理解扩散模型几何等复杂概念，避免 skim reading。库中包含精选论文，用户也可请求特定论文，旨在填补复杂数学与直观理解之间的鸿沟，提升学习效率。每个难点都有一个生动的类比，并明确指出类比 breakdown 的地方，确保读者不仅看懂而且理解正确，是现代 AI 研究者不可或缺的学习工具，帮助社区更好地消化海量学术论文。",
+    "tags": [
+      "Dev",
+      "New",
+      "Paper"
+    ],
+    "link": "https://intuitivepapers.ai/",
+    "date": "2026-06-18",
+    "id": "17818110715573"
+  },
+  {
+    "title": "研究显示近半数单身者反对约会中使用 AI",
+    "summary": "Match Group 调查表明 47% 的单身者对约会场景中的 AI 持负面看法。",
+    "detail": "Match Group 调查显示，47% 的美国单身者对约会中使用 AI 持负面态度，40% 拒绝与使用 AI 伴侣应用的人约会，18-24 岁女性中这一比例高达 51%。尽管 dating app 纷纷引入 AI 助手，但用户普遍反对与 AI 建立浪漫关系。这反映了消费者对 AI 侵入私人情感领域的抵触，可能影响未来社交产品的 AI 功能设计方向，企业需权衡效率与用户接受度。虽然 64% 受访者不反对 app 内的 AI 功能，但核心浪漫互动仍被视为人类专属，AI 伴侣用户多非寻求真实连接，市场需警惕过度自动化带来的用户流失风险，人类连接仍是核心价值。",
+    "tags": [
+      "News",
+      "Consumer",
+      "Social"
+    ],
+    "link": "https://techcrunch.com/2026/06/18/almost-half-of-u-s-singles-feel-negatively-about-ai-in-dating-match-says/",
+    "date": "2026-06-18",
+    "id": "17818110715574"
+  },
+  {
     "title": "Coinbase 推出 AI 投资顾问，进军传统金融领域",
     "summary": "Coinbase 推出 AI 顾问及股票期权服务，向全能金融平台转型。",
     "detail": "Coinbase 正在大幅扩展其金融服务版图，正式推出 AI 投资顾问功能，并涉足股票期权与 IPO 前市场。此举标志着加密货币交易所向全能金融平台的转型，试图通过 AI 技术降低用户投资门槛。文章指出，该平台正扩展到投资、衍生品和银行服务。行业影响深远，可能引发传统券商与加密平台的竞争加剧，同时也引发了关于 AI 金融建议合规性的新讨论。对于投资者而言，这意味着更便捷的服务，但也需警惕 AI 建议的潜在风险。整体来看，这是 AI 落地金融场景的重要案例，展示了 AI 在复杂决策中的辅助作用。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.dw.com/en/german-court-holds-google-liable-for-fake-ai-answers/a-77527661",
     "date": "2026-06-15",
     "id": "17815600562504"
-  },
-  {
-    "title": "Transpilatron：AI 将 Python 转译为 C 二进制",
-    "summary": "新工具 Transpilatron 利用 AI 将 Python 代码转为静态 C 二进制，性能显著提升。",
-    "detail": "Transpilatron 利用 AI 代理将 Python 代码转译为静态 C 二进制文件，无需运行时或解释器。基准测试显示，在 Sieve of Eratosthenes 等任务中性能提升 24 至 58 倍。支持 uvx 运行，自动配置编译依赖。该工具为 Python 性能瓶颈提供了一种新的 AI 驱动解决方案，适合对执行效率有要求的场景，让开发者无需 C 知识即可获得原生二进制性能。",
-    "tags": [
-      "New",
-      "Dev",
-      "Python"
-    ],
-    "link": "https://github.com/NoodlixProject/transpilatron",
-    "date": "2026-06-15",
-    "id": "17815600562505"
-  },
-  {
-    "title": "Kedgr：不存储源码的 AI 代码扫描器",
-    "summary": "新推出的 Kedgr 扫描器承诺不存储用户源代码，解决隐私顾虑。",
-    "detail": "针对现有 AI 扫描器存储代码训练模型的隐私风险，Kedgr 主打“不存储源码”特性。开发者因不信任现有工具的模糊隐私政策而构建此项目。在 AI 代码分析普及的背景下，数据主权成为关键考量。该工具试图在利用 AI 能力的同时保护知识产权和代码安全，解决了企业开发者对代码泄露给第三方模型的核心顾虑。",
-    "tags": [
-      "New",
-      "Security",
-      "Privacy"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48546575",
-    "date": "2026-06-15",
-    "id": "17815600562506"
-  },
-  {
-    "title": "Oura 携手 Counsel Health 推出 AI 医疗护理服务",
-    "summary": "Oura 环集成 AI 医疗伙伴，用户可在 App 内直接获取专业诊疗建议。",
-    "detail": "Oura 宣布与 Counsel Health 达成合作伙伴关系，将在 Oura App 内提供 AI enabled 的护理服务。通过此次合作，Oura 成员可以从生物识别数据的变化（如静息心率升高）无缝过渡到获得明确的医疗答案和治疗方案。Counsel Health 结合医疗 AI 与持牌医生，用户可在 App 内直接询问健康问题并获得个性化建议。该功能将于 6 月 16 日起在美国 43 个州的 Oura Labs 中 rollout。这标志着可穿戴设备从单纯的健康监测向主动医疗干预基础设施的转变，构建了从个人健康洞察到真实医疗护理的无缝桥梁，提升了用户健康管理的信心与上下文 context。这种连接护理体验旨在解决用户发现异常后不知如何行动的痛点，利用 AI 作为中间层提高医疗资源可及性。",
-    "tags": [
-      "News",
-      "HealthTech",
-      "Wearable"
-    ],
-    "link": "https://ouraring.com/blog/counsel-integration-oura-app/",
-    "date": "2026-06-15",
-    "id": "17815481413520"
-  },
-  {
-    "title": "警惕 RAG 污染：AI 读取的 PDF 可能与用户所见不同",
-    "summary": "研究发现 18.6% 的 PDF 存在解析漂移，严重影响 RAG pipeline 准确性。",
-    "detail": "新研究揭示了 AI 文档完整性危机，指出机器提取的 PDF 文本与人类阅读页面可能存在显著差异。在对 24,824 个 PDF 的分析中，1/3 存在解析器分歧，DOJ 数据集中 18.6% 的文件存在语义漂移。这种差异会导致 RAG 检索 pipeline 中毒，AI 自信地引用不存在的内容，或在微调时将提取错误 baked in。问题隐蔽且不报错，直到下游审计出错。建议 AI 工程师和研究者在生产前测量文档解析差距，特别是处理合同、税务表单等关键文件时，需警惕隐藏层和阅读顺序混乱导致的数据腐蚀风险。这对于依赖文档检索的企业级 AI 应用至关重要，需建立文档完整性验证机制，防止 silent degradation 影响 answer quality。",
-    "tags": [
-      "Dev",
-      "RAG",
-      "Security"
-    ],
-    "link": "https://pqpdf.com/ai-document-integrity.php",
-    "date": "2026-06-15",
-    "id": "17815481413521"
-  },
-  {
-    "title": "苹果 AI 生成快捷指令存在潜在安全风险",
-    "summary": "自然语言生成自动化流程降低了技术门槛，但也削弱了用户对权限的审查。",
-    "detail": "Apple Intelligence 的\"Describe a Shortcut\"功能允许用户通过自然语言描述自动生成自动化流程，降低了技术门槛。然而安全专家指出，这类似于个人自动化领域的\"vibe coding\"，用户可能在未完全理解工作流步骤的情况下授权敏感操作。风险在于 AI 生成的 Shortcut 可能触碰敏感数据、发送信息或触发智能家居设备，而用户缺乏审查每一步的技术能力。虽然提升了便利性，但移除了构建工作流时的自然审查过程。建议用户在启用 AI 生成的自动化前进行人工审查，防止隐私泄露或意外操作，尤其是在涉及第三方应用交互时。这种模式在提升效率的同时，也带来了新的安全挑战，需平衡易用性与安全性。",
-    "tags": [
-      "News",
-      "Security",
-      "Apple"
-    ],
-    "link": "https://www.kylereddoch.me/blog/describe-a-shortcut-create-a-risk-the-security-side-of-ai-built-automations/",
-    "date": "2026-06-15",
-    "id": "17815481413522"
   }
 ]
