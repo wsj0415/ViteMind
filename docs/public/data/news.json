@@ -1,5 +1,83 @@
 [
   {
+    "title": "企业质疑 AI 成本，Token 消耗引发支出担忧",
+    "summary": "科技公司因 AI 使用成本过高开始收紧预算，关注投资回报率。",
+    "detail": "随着 AI 代理和思维链技术的密集使用，Token 消耗导致成本飙升。Uber 承认在 2026 年前四个月已耗尽全年 AI 预算，引发行业震动。企业正从实验转向 Token 经济学，严格评估 AI 支出的 ROI。这标志着 AI 行业从盲目扩张进入成本管控阶段，可能影响未来模型调用频率及代理应用的规模化部署。高层开始质疑 intensive AI use 的经济性，促使行业回归理性投资。CBC 报道指出，科技公司正在收紧内部 AI 使用政策，以应对高昂的运营账单，这将是 2026 年下半年重要的行业趋势。",
+    "tags": [
+      "News",
+      "AI Cost",
+      "Enterprise"
+    ],
+    "link": "https://www.cbc.ca/news/business/ai-spending-ending-tokenmaxxing-tokenomics-9.7237680",
+    "date": "2026-06-18",
+    "id": "17817554925530"
+  },
+  {
+    "title": "2026 AI 设计报告：设计师角色面临重构",
+    "summary": "91% 设计师每周使用 AI，工具栈倍增，职位定义正在改变。",
+    "detail": "Designer Fund 报告显示，设计师 AI 使用率一年内从 54% 跃升至 91%。平均工具栈从 3 个增至 7 个，但信心未同步增长。行业正处于深度重构期，设计师职位定义可能在 12 个月内完全不同。工作流需频繁更新，表明 AI 已深入设计核心环节，但最佳实践仍在探索中。报告基于 900+ 回复及 25+ 访谈，涵盖 Anthropic、Stripe 等领导层观点。这种蜕皮过程意味着设计师需不断适应新工具，Adoption 爆发但 Confidence 滞后是当前的主要矛盾。",
+    "tags": [
+      "News",
+      "Design",
+      "Workflow"
+    ],
+    "link": "https://www.artificialstudio.ai/blog/ai-design-report-2026",
+    "date": "2026-06-18",
+    "id": "17817554925531"
+  },
+  {
+    "title": "服装零售商 Rainbow 警告模特：AI 将减少人力需求",
+    "summary": "公司邮件告知模特 AI 生成头像将导致长期人力需求下降。",
+    "detail": "时尚零售商 Rainbow 告知模特，随着 AI 生成头像和产品 styling 的增加，长期需要的人员将减少。这引发了关于 AI 取代创意行业工作的激烈讨论。邮件显示公司已在 studio 中增加 AI 使用，要求自由职业者做好相应计划。这是 AI 影响就业市场的又一典型案例，凸显了生成式 AI 对传统模特行业的冲击。公司警告更少的人将被需要，并预计 AI 使用量大幅增加。该事件反映了 AI 技术在内容创作领域落地时，人力成本与自动化之间的直接冲突。",
+    "tags": [
+      "News",
+      "Jobs",
+      "Generative AI"
+    ],
+    "link": "https://www.businessinsider.com/rainbow-shops-fashion-models-ai-use-jobs-impact-2026-6",
+    "date": "2026-06-18",
+    "id": "17817554925532"
+  },
+  {
+    "title": "技术深潜：同时运行 1500 个 AI 代理的实战数据",
+    "summary": "在单台 AWS 金属实例上运行 1500 个 KVM 隔离 VM 代理的成本与性能分析。",
+    "detail": "文章分享了在单台 AWS c6i.metal 上同时运行 1500 个完全 KVM 隔离虚拟机的实战数据。每个代理拥有独立的硬件隔离边界，而非容器。分析了内存、延迟和吞吐量成本，验证了隔离模型在大规模 Agent 部署下的可行性。为构建高安全、大规模 AI 代理系统提供了宝贵的工程参考和性能基准。这是系列文章第 4 篇，重点在于规模化后的成本与稳定性测量。非容器化方案虽然资源开销大，但在安全性要求高的场景下具有独特价值。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "Infrastructure"
+    ],
+    "link": "https://amitlimaye1.substack.com/p/six-numbers-from-running-1500-ai",
+    "date": "2026-06-18",
+    "id": "17817554925533"
+  },
+  {
+    "title": "x86 生态系统发布 AI 计算扩展 (ACE) 规范",
+    "summary": "x86 生态系统顾问组推出新规范，旨在优化 AI 计算扩展性。",
+    "detail": "x86 Ecosystem Advisory Group 发布了 AI Compute Extensions (ACE) 规范。该标准旨在统一和优化 x86 架构下的 AI 计算扩展能力，为硬件厂商和开发者提供指导。这将有助于提升 AI workload 在 x86 平台上的效率和兼容性，是底层硬件生态对 AI 浪潮的重要响应。可能影响未来 AI 服务器的硬件选型与开发标准。作为生态系统顾问组的资源，该规范试图解决异构计算环境下的标准化问题，促进 AI 应用在传统 x86 基础设施上的无缝部署与性能优化。",
+    "tags": [
+      "Dev",
+      "Hardware",
+      "Standard"
+    ],
+    "link": "https://x86ecosystem.org/resource/ai-compute-extensions-ace-specification/",
+    "date": "2026-06-18",
+    "id": "17817554925534"
+  },
+  {
+    "title": "Dolfyn：专为承包商打造的 AI 电话代理",
+    "summary": "自动接听电话并捕获线索，帮助 plumbing 等行业减少 missed calls 损失。",
+    "detail": "Dolfyn 是一款针对承包商（如管道、HVAC）的 AI 代理，旨在解决未接电话导致的客户流失问题。它能自动接听、捕获线索并处理后续跟进，集成 ServiceTitan 等工具。数据显示典型管道业务错过 28% 的来电，该工具旨在挽回这部分损失。提供 2 周免费试用，是垂直行业 AI 代理落地的典型案例。支持 Google Calendar、HubSpot 等集成，专注于服务行业的收入挽回，展示了 AI Agent 在特定垂直场景中的高 ROI 潜力。",
+    "tags": [
+      "New",
+      "Vertical AI",
+      "SaaS"
+    ],
+    "link": "https://dolfyn.ai/",
+    "date": "2026-06-18",
+    "id": "17817554925535"
+  },
+  {
     "title": "中美 AI 治理分歧加剧：中国推全球合作，G7 限模型访问",
     "summary": "中国提议建立全球 AI 合作组织，G7 则讨论受限访问美国模型，两大体系渐成。",
     "detail": "中国外交官王毅宣布加速建立全球 AI 合作组织，邀请各国加入，明确批评封闭垄断的技术发展路径。与此同时，G7 峰会正在讨论给予“可信伙伴”访问美国领先 AI 模型的权限。Anthropic 和 Google DeepMind 利用峰会呼吁建立美国主导的联盟，加拿大已表示同意。上周美商务部命令 Anthropic 切断外国用户访问 Fable 5 等模型。两大治理愿景公开分歧，标志着 AI 地缘政治格局进一步固化，全球可能形成两套独立的技术生态系统，对发展中国家选择产生深远影响。此举措可能重塑全球 AI 供应链与合作模式。",
@@ -1220,83 +1298,5 @@
     "link": "https://blog.johanneslink.net/2026/06/09/the-jqwik-anti-ai-affair/",
     "date": "2026-06-14",
     "id": "17814825262161"
-  },
-  {
-    "title": "加拿大总理警示过度依赖大模型风险",
-    "summary": "Carney 指出 Anthropic 被禁事件表明依赖少数大模型存在巨大风险。",
-    "detail": "针对 Anthropic 在某些区域受限的事件，Mark Carney 警告称过度依赖少数大型 AI 模型存在战略风险。这反映了全球政策制定者开始关注 AI 供应链集中度问题，呼吁多元化模型来源以避免单点故障，对 AI 基础设施投资方向具有政策指导意义。政府与企业需平衡效率与安全，避免因地缘政治或单一供应商问题导致关键基础设施停摆。这一观点强调了主权 AI 能力建设的重要性，提示各国需构建自主可控的模型生态以应对潜在禁令风险，确保国家安全与经济稳定，推动去中心化模型部署成为新趋势。",
-    "tags": [
-      "News",
-      "Policy",
-      "Anthropic"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-06-14/carney-says-anthropic-ban-shows-risk-of-relying-on-big-ai-models",
-    "date": "2026-06-14",
-    "id": "17814825262162"
-  },
-  {
-    "title": "中国高校削减 1.2 万个学位以适应 AI 时代",
-    "summary": "为拥抱 AI 时代，中国大学正在削减被认为过时的学位项目。",
-    "detail": "中国在 AI 竞赛中调整高等教育结构，削减约 1.2 万个“过时”学位，转而支持与 AI 及新技术相关的学科。此举显示国家层面正通过教育改革加速人才结构转型，以匹配 AI 驱动的产业升级需求，可能影响未来全球人才供给格局。传统专业面临淘汰压力，高校资源将向计算、数据及智能科学倾斜，重塑劳动力市场技能需求。这标志着教育体系正从知识传授转向能力适配，以应对 AI 自动化带来的就业结构变化，确保人才储备与技术发展同步，避免结构性失业风险，为全球教育 reform 提供借鉴。",
-    "tags": [
-      "News",
-      "Education",
-      "AI Adoption"
-    ],
-    "link": "https://www.scmp.com/economy/china-economy/article/3356913/chinas-universities-cut-12000-obsolete-degrees-amid-race-embrace-ai-era",
-    "date": "2026-06-14",
-    "id": "17814825262163"
-  },
-  {
-    "title": "Meta 耗资 14 亿引入 Wang 团队后的商业化挑战",
-    "summary": "Zuckerberg 需证明 Meta 新 AI 模型能吸引付费用户，而不仅服务于广告。",
-    "detail": "Meta 花费超 140 亿美元引入 Alexandr Wang 及 Scale AI 团队后，发布了专有模型 Muse Spark。目前挑战在于 Zuckerberg 需向投资者证明 AI 能带来独立于广告业务之外的商业化成功。分析师指出需提供更多采用率和货币化证据，标志着 Meta AI 战略从开源转向专有盈利。这考验 Meta 能否在 OpenAI 等对手压力下构建可持续的 AI 原生收入流。此次转型意味着 Meta 不再满足于利用 AI 优化广告，而是寻求直接通过 AI 产品变现，这将加剧与大模型厂商的竞争，改变行业开源与闭源的博弈格局。",
-    "tags": [
-      "News",
-      "Meta",
-      "LLM"
-    ],
-    "link": "https://www.cnbc.com/2026/06/14/meta-hired-alexandr-wang-to-build-ai-its-zuckerbergs-job-to-sell-it.html",
-    "date": "2026-06-14",
-    "id": "17814825262164"
-  },
-  {
-    "title": "美媒警告：AI 护栏监管可能为时已晚",
-    "summary": "Politico 报道美国急于在中国之前确保前沿 AI 安全，监管面临挑战。",
-    "detail": "美国正竞相在中国赶上之前确保前沿 AI 的安全。Politico 指出，围绕强大 AI 模型的护栏可能设立得太晚。文章强调了网络安全和中美竞争背景下的紧迫性，暗示当前的监管措施可能无法跟上技术发展的速度，行业面临\"飓风警告\"般的风险。监管者需在创新与安全之间找到平衡，否则可能失去对前沿模型的控制权。此报道揭示了地缘政治如何加速 AI 安全政策的制定，同时也暴露了技术迭代速度远超立法速度的现实困境，呼吁立即采取行动。",
-    "tags": [
-      "News",
-      "Policy",
-      "Security"
-    ],
-    "link": "https://www.politico.com/news/2026/06/07/frontier-ai-cybersecurity-china-race-00952786",
-    "date": "2026-06-14",
-    "id": "17814751797380"
-  },
-  {
-    "title": "研究称控制超级智能 AI 可能是不可能的",
-    "summary": "新计算表明，一旦 AI 超越人类，控制它将变得极其困难甚至不可能。",
-    "detail": "ScienceAlert 报道了一项新研究，计算结果表明控制超级智能 AI 可能是不可能的。这引发了对 AI 安全领域的深刻担忧。研究指出，随着 AI 智力超越人类，传统的控制机制可能失效。这一发现强调了在开发高级 AI 系统之前，必须解决对齐和安全问题的紧迫性。如果无法保证控制，超级智能可能带来存在性风险。该研究为 AI 安全社区敲响了警钟，建议重新评估当前的对齐策略和技术路线图，以避免不可逆的后果。学术界需加强对可解释性和鲁棒性的研究。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Research"
-    ],
-    "link": "https://www.sciencealert.com/calculations-suggest-itll-be-impossible-to-control-a-super-intelligent-ai",
-    "date": "2026-06-14",
-    "id": "17814751797381"
-  },
-  {
-    "title": "V-COS：防止 AI 编码项目退化的治理层",
-    "summary": "开源项目 V-COS 旨在通过上下文工程保持 AI 原生项目的连贯性。",
-    "detail": "V-COS 是一个专为 AI 原生项目设计的治理层，旨在防止项目随时间退化。它解决了 AI 编码代理（如 Claude Code、Cursor）在长期开发中上下文丢失的问题。通过项目级的上下文工程，它 stitched 记忆、规范和子代理，确保 AI 协作开发的一致性，适合独立开发者和 AI 驱动的团队。该系统提取自真实产品的开发经验，能有效管理数十个开发周期中的上下文漂移，防止代理 contradict 之前的决策，是 AI 软件工程的重要基础设施。开发者可利用此工具维持大型 AI 生成代码库的 coherence。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Agent"
-    ],
-    "link": "https://github.com/vagnerfirminopro/v-cos",
-    "date": "2026-06-14",
-    "id": "17814751797382"
   }
 ]
