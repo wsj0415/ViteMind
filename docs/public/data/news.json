@@ -1,5 +1,83 @@
 [
   {
+    "title": "Co/Core 推出去中心化 AI 推理合作社",
+    "summary": "用户共享闲置算力运行 AI 模型，兼容标准 API，无需租用大型提供商。",
+    "detail": "Co/Core 是一个成员拥有的 AI 合作社实验，允许用户共享现有算力（如 Apple M4/M5）来运行开源模型。它兼容标准 API，现有代码无需修改即可接入。目前已有 29 台机器在线，提供 936GB 内存和 304 个 CPU 核心，首 Token 延迟 1.7 秒。这种模式旨在减少对大型提供商的依赖，实现推理的去中心化共享，新用户可获得 100 万免费 Token 体验。该平台支持流式传输和工具调用，所有计算记录公开可查，确保透明度。通过利用个人闲置硬件，它探索了一种新的 AI 基础设施经济模型，让开发者能够以更低的成本获得推理能力，同时保护数据隐私，因为模型运行在成员自己的设备上而非中心化云端。",
+    "tags": [
+      "New",
+      "Infrastructure",
+      "Decentralized"
+    ],
+    "link": "https://console.cocore.dev/",
+    "date": "2026-06-19",
+    "id": "17818683472420"
+  },
+  {
+    "title": "Whatever Recall：为代码库赋予 AI 本地记忆",
+    "summary": "本地自托管工具，让 AI 理解代码上下文而不修改源码，零 Token 消耗。",
+    "detail": "Whatever Recall 旨在解决 AI 缺乏项目记忆的问题。它在本地创建 `.mind/` 索引，记录代码背后的决策和上下文，而不修改任何源文件。作为只读工具，它可随时删除且不留痕迹。这让 AI 代理能像拥有“良心”的同事一样工作，基于项目真实历史进行编码，而非仅依赖人类有限的上下文窗口。它利用 AI 不受人类记忆限制的特点，将知识固定在提交记录中，确保文档与代码同步，避免信息漂移，实现真正的代码即真理。该工具自托管且无需信用卡，零 Token 消耗即可回忆上下文。通过读取提交消息和索引，它为 AI 提供了项目特有的语境，使其能够创造性且精确地工作，解决了传统工具迫使 AI 像人类一样思考的局限性，释放了 AI 作为编码助手的真正潜力。",
+    "tags": [
+      "Dev",
+      "Coding Agent",
+      "Local AI"
+    ],
+    "link": "https://whatever-recall.com",
+    "date": "2026-06-19",
+    "id": "17818683472421"
+  },
+  {
+    "title": "研究称过度使用 AI 进行邮件外联效果下降",
+    "summary": "Folderly 研究发现，最依赖 AI 进行外联邮件的团队发现难度正在增加。",
+    "detail": "根据 Folderly 的最新研究，那些在出站电子邮件中最多使用 AI 的团队正面临更大的挑战。这表明随着 AI 生成内容的普及，接收方可能对 AI 生成的邮件产生疲劳或识别机制增强，导致转化率或效果下降。这一趋势提示企业在自动化营销时需平衡 AI 效率与人性化内容，避免过度依赖导致边际效益递减。研究揭示了 AI 在营销领域的双刃剑效应：虽然提高了生成效率，但过度使用可能导致沟通质量下降或被反垃圾机制拦截。对于依赖外联邮件的销售团队而言，这意味着需要重新评估 AI 在沟通策略中的角色，结合人工审核以确保邮件的真实性和相关性，维持客户信任。该发现对于 SaaS 销售和营销团队具有重要警示意义，表明单纯的自动化不足以维持增长，内容质量和人性化触达依然是核心。",
+    "tags": [
+      "News",
+      "Marketing",
+      "Industry Trend"
+    ],
+    "link": "https://apnews.com/press-release/ein-presswire-newsmatics/press-release-722e599d4420e5d71c812e09bf3965b7",
+    "date": "2026-06-19",
+    "id": "17818683472422"
+  },
+  {
+    "title": "BEAST：AI 编程代理的输出治理网关",
+    "summary": "介于代理与 LLM 之间，强制执行输出合约，修复不合规补丁。",
+    "detail": "BEAST 是一个针对代理编码工具的受控输出网关。它位于 AI 代理（如 Cursor）和 LLM 提供商之间，负责输入治理（上下文压缩、预算控制）和输出治理（解析类型化合约）。它能修复不合规的补丁并在验证失败前阻止写入文件系统，解决了 AI 代理随意读写文件及 Token 浪费的问题。该工具强制执行输出合约，每个模型响应在接触磁盘前都会针对 `beast.action_intent.v1` 进行解析。如果验证失败，不会写入任何内容。它还学习哪些工具调用值得进行，通过电路断路器防止冗余查找。这提升了代理系统的可靠性，防止静默失败或代码损坏，为企业级 AI 编码代理提供了必要的安全层，确保自动化编码过程的可控性与安全性。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Security"
+    ],
+    "link": "https://github.com/Byron2306/EdgeK-BEAST",
+    "date": "2026-06-19",
+    "id": "17818683472423"
+  },
+  {
+    "title": "爱沙尼亚计划为 AI 代理分配数字身份",
+    "summary": "政策制定者认为必须明确 AI 代理的责任归属，推动数字身份落地。",
+    "detail": "爱沙尼亚政府计划为 AI 代理授予数字身份，旨在明确自动化系统中的责任主体。政策制定者认为必须清楚谁为代理的行为负责。这一举措是数字治理的前沿实验，可能为欧盟乃至全球的 AI 监管框架提供参考。特别是在自主代理日益普及的背景下，确立法律身份有助于追踪审计和责任认定。该政策反映了欧洲在 AI 伦理和监管方面的领先地位，试图在技术创新与公共安全之间找到平衡。通过赋予 AI 数字身份，政府希望能够更好地管理 AI 在经济和社会活动中的参与，确保透明度和问责制，为未来的自动化社会奠定法律基础，解决 AI 行为主体模糊带来的法律难题。",
+    "tags": [
+      "News",
+      "Policy",
+      "Regulation"
+    ],
+    "link": "https://www.euractiv.com/news/estonia-to-give-digital-identities-to-ai-agents/",
+    "date": "2026-06-19",
+    "id": "17818683472424"
+  },
+  {
+    "title": "多 LLM 共识引擎 SaaS 启动套件开源",
+    "summary": "集成 14 家 LLM 提供商，通过语义共识检测幻觉，符合欧盟 AI 法案。",
+    "detail": "该项目是一个生产就绪的多 LLM SaaS 样板，内置 14 种 LLM 提供商集成。核心功能是通过语义共识检测 AI 幻觉，而非信任单一模型。它还包含符合欧盟 AI 法案的审计跟踪和故障关闭网关。这为开发者提供了构建高可靠性 AI 应用的基础设施，解决了单一模型依赖和合规性难题。套件包含 13 个自进化循环，支持 OpenAI、Anthropic、Google 等主流模型。它专门设计了用于高风险自主操作的故障关闭门，并隔离每用户记忆和 RLHF 反馈数据。这使得工程团队可以专注于产品差异化，而非重建编排层，同时确保满足 EU AI Act 第 12/13 条的审查要求，适合需要高合规性的企业应用。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Compliance"
+    ],
+    "link": "https://github.com/jaquelinejaque/quorum-saas-starter",
+    "date": "2026-06-19",
+    "id": "17818683472425"
+  },
+  {
     "title": "Sakha 推出 AI 员工入职工具，年付享 50% 优惠",
     "summary": "基于 Slack 的 AI 入职助手 Sakha 上线 Beta，限时年付半价优惠。",
     "detail": "Sakha 是一款集成于 Slack 的 AI 入职 companion，自动引导新员工熟悉公司知识。它解决知识流失和管理者时间浪费问题，支持 Google Drive/Notion 同步。目前 Beta 版提供年付 50% 折扣，适合希望优化 onboarding 流程的企业团队。新员工离职率高往往源于信息不对称，Sakha 通过自动回答重复问题释放 senior 员工时间。集成现有工具栈无需迁移，快速部署。对于中小企业，这是低成本提升组织效率的机会，限时优惠降低了试用门槛，建议 HR 团队评估引入。",
@@ -1220,83 +1298,5 @@
     "link": "https://mmlac.com/blog/local-ai-not-ready-for-coding-yet/",
     "date": "2026-06-16",
     "id": "17816253956371"
-  },
-  {
-    "title": "Hired Copilot：杜绝 hallucination 的 AI 简历优化工具",
-    "summary": "新推出的 AI 简历工具，承诺不捏造经历，仅基于真实经验优化简历以匹配职位。",
-    "detail": "Hired Copilot 是一款反幻觉的 AI 简历工具。它仅基于用户真实经历优化简历，确保每句话都能在面试中 backed up。功能包括职位匹配、申请追踪及面试准备，采用 GDPR 标准数据保护。解决了 AI 生成内容不可信的行业痛点，提供免费额度。对于严肃求职者，该工具在保证效率的同时维护了诚信，避免了因 AI 捏造经历导致的信用风险。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Job Search"
-    ],
-    "link": "https://hiredcopilot.com",
-    "date": "2026-06-16",
-    "id": "17816253956372"
-  },
-  {
-    "title": "深度思考：当 AI 接管一切后，人类工程师的归宿何在？",
-    "summary": "一篇关于 AI 取代编码工作后，软件工程师存在价值的深度行业反思文章。",
-    "detail": "深度行业反思文章，探讨 AI 接管编码后工程师的生存问题。作者收到多位工程师来信，询问代码审查是否还需人类。文章认为执行层 soon 将被接管，核心问题在于“当 AI 拿走所有能拿走的，我们还剩下什么”。这不仅是职业规划问题，更是存在主义危机。文章引发行业对技能转型的深层思考，提示工程师需从执行者转向架构与决策者。",
-    "tags": [
-      "News",
-      "Industry",
-      "Career"
-    ],
-    "link": "https://ursb.me/en/posts/after-ai-takes-everything/",
-    "date": "2026-06-16",
-    "id": "17816253956373"
-  },
-  {
-    "title": "Show HN: Pantheon Skills – 多 Agent 对抗验证编码框架",
-    "summary": "开源项目，通过多 Agent 并行实现与对抗验证，提高 AI 生成代码的可靠性。",
-    "detail": "Pantheon Skills 开源项目，通过多 Agent 架构提高代码可靠性。采用“计划→并行实现→对抗验证→评判”流程，引入 adversarial verification 和 best-of-N 采样。在不改变模型本身的情况下，通过 scaffolding 显著 tighten 代码正确性。适合测试驱动开发场景，解决了单模型 pass 容易忽略边界条件的问题，为 AI 编程 Agent 的工业化应用提供了新范式。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Open Source"
-    ],
-    "link": "https://github.com/lolu1032/pantheon-skills",
-    "date": "2026-06-16",
-    "id": "17816253956374"
-  },
-  {
-    "title": "Infer0：让 AI 应用支持用户自带 API Key 的基础设施",
-    "summary": "新基础设施允许终端用户连接自己的 AI 提供商 Key，开发者无需承担推理成本。",
-    "detail": "Infer0 推出 BYOK 基础设施，改变 AI 应用商业模式。允许终端用户连接自己的 AI 提供商 Key，开发者无需承担推理成本。提供 OAuth 流程，密钥加密存储，支持按应用设置支出限额。实现了零密钥管理和零推理成本的开发模式。这解决了 SaaS 订阅制的痛点，让开发者专注于产品逻辑，同时将成本控制权交还给用户，适合工具类 AI 应用。",
-    "tags": [
-      "New",
-      "Infrastructure",
-      "API"
-    ],
-    "link": "https://infer0.com/",
-    "date": "2026-06-16",
-    "id": "17816253956375"
-  },
-  {
-    "title": "美国司法部介入：xAI 未许可燃气轮机涉及国家安全",
-    "summary": "司法部称 Pentagon 需要 xAI 继续使用未许可燃气轮机，涉及国家能源安全。",
-    "detail": "美国司法部介入 xAI 基础设施争议。DOJ 声称 xAI 的未许可燃气轮机使用关乎国家经济与能源安全，五角大楼需要其继续运行。这反映了 AI 算力基础设施已成为国家战略资源。监管与国家安全之间的博弈正在加剧，可能影响 xAI 后续的算力扩张计划。此事件标志着 AI 硬件部署正式进入国家安全审查视野，行业合规风险显著上升。",
-    "tags": [
-      "News",
-      "Regulation",
-      "xAI"
-    ],
-    "link": "https://techcrunch.com/2026/06/16/doj-claims-xais-unpermitted-gas-turbines-are-a-matter-of-national-economic-and-energy-security/",
-    "date": "2026-06-16",
-    "id": "17816253956376"
-  },
-  {
-    "title": "Tensordyne 发布 Napier AI 处理器，采用对数数学架构",
-    "summary": "新型 3nm AI 处理器宣称通过对数数学减少乘法器面积，提升推理经济性。",
-    "detail": "Tensordyne 正式宣布推出 Napier AI 处理器及机架级推理平台，标志着 AI 硬件架构的新探索。其核心创新在于 proprietary logarithmic mathematics（专有对数数学），将传统的乘法运算转化为加法，从而显著减小乘法器面积，增加片上 SRAM 容量。此举旨在优化硅面积利用率并降低功耗，直接攻击 AI 推理的速度与成本痛点。目前芯片已完成 tape-out，系统路线图定于 2027 年。该架构若验证成功，可能显著改变 AI 推理的成本结构，但需观察实际部署表现及软件生态是否成熟，能否在拥挤的芯片市场中突围。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Chip"
-    ],
-    "link": "https://www.servethehome.com/tensordyne-napier-ai-processor-announced-with-logarithmic-math/",
-    "date": "2026-06-16",
-    "id": "17816046315880"
   }
 ]
