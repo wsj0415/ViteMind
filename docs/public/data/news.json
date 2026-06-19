@@ -1,5 +1,31 @@
 [
   {
+    "title": "Bashkit：专为 AI Agent 打造的 Rust 虚拟 Bash 引擎",
+    "summary": "无需生成 OS 进程即可运行不可信 Shell 脚本，支持 156 个重写命令。",
+    "detail": "Bashkit 是一个用 Rust 编写的虚拟 Bash 沙盒，专为 AI Agent 设计。它能在内存中运行不可信 Shell 脚本，无需生成操作系统进程或容器开销。支持 156 个重写命令（如 grep, curl, git）及 POSIX 兼容解释器，为 Agent 框架提供安全的本地上下文和工具接口，显著提升执行效率与安全性。适用于 Agent 开发、CLI 及评估 harness，无外部依赖。其内置文件系统与资源限制功能，进一步保障了沙盒环境的隔离性与稳定性，解决 Agent 执行代码的安全痛点。",
+    "tags": [
+      "Dev",
+      "Rust",
+      "Agent"
+    ],
+    "link": "https://bashkit.sh/",
+    "date": "2026-06-19",
+    "id": "17818920742382"
+  },
+  {
+    "title": "行业分析：AI GPU 使用寿命可能超过三年",
+    "summary": "分析反驳了推理 GPU 最多只能使用三年的说法，认为基础设施更具持久性。",
+    "detail": "针对\"AI 推理 GPU 在高负载下最多只能使用三年”的观点，该分析进行了溯源与反驳。原始说法来自匿名谷歌架构师。文章指出，若 AI 泡沫消退，基础设施不会迅速 obsolete。实际寿命可能更长，这意味着当前 AI 产品的推理成本不会像预测那样迅速变得不可持续，为基础设施投资提供了更稳定的预期。这对担忧 AI 经济可持续性的观点提出了有力挑战，表明硬件资产折旧速度可能低于预期。分析强调，依赖短期硬件寿命预测 AI 泡沫破裂缺乏坚实依据，基础设施韧性更强。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "GPU"
+    ],
+    "link": "https://www.seangoedecke.com/ai-gpus-live-longer-than-three-years/",
+    "date": "2026-06-19",
+    "id": "17818920742383"
+  },
+  {
     "title": "Cloudflare 推出 AI 代理临时账户，消除部署摩擦",
     "summary": "支持 Agent 无需注册直接部署 Worker，限时 60 分钟。",
     "detail": "Cloudflare 正式推出面向 AI 代理的临时账户功能，旨在消除自动化部署中的人类验证摩擦。开发者现在可让 Agent 通过 `wrangler deploy --temporary` 直接部署 Worker、网站及 API，无需经历 OAuth、仪表盘点击或 MFA 验证。临时部署默认存活 60 分钟，期间用户可认领账户转为永久，否则自动过期。背景 AI 会话无需人工介入已成为常态，任何需要浏览器或复制粘贴的认证步骤都会导致 Agent 停滞甚至选择其他平台。此更新显著降低了 Agent 自主开发的基础设施门槛，确保代码能无缝交付。",
@@ -689,6 +715,19 @@
     "id": "17817554925535"
   },
   {
+    "title": "贝佐斯：AI 将创造更多就业而非替代人类",
+    "summary": "亚马逊创始人在 VivaTech 表示 AI 将导致劳动力短缺，而非大规模失业。",
+    "detail": "杰夫·贝佐斯在巴黎 VivaTech 大会上反驳了 AI 将取代大量工人的担忧。他认为 AI 将解锁新机会并增加对人类劳动力的需求，甚至可能造成劳动力短缺。他还介绍了新 AI  venture Prometheus，专注于加速物理制造领域的自动化与生产力提升。贝佐斯描绘了乐观前景，认为技术可移除障碍，若开发得当，工人可从生产力增益中受益，而非被淘汰。他强调人类受限非因缺乏野心，而是技术壁垒，AI 将助其突破。",
+    "tags": [
+      "News",
+      "Industry",
+      "Jobs"
+    ],
+    "link": "https://www.bbc.com/news/articles/ceqdrw2yy3vo",
+    "date": "2026-06-17",
+    "id": "17818920742381"
+  },
+  {
     "title": "生成式 AI 正经历其\"Herbalife 时刻\"",
     "summary": "评论文章指出 AI 编程工具营销类似传销，警惕过度承诺。",
     "detail": "文章批评 Replit 等 AI 编程初创公司的营销方式类似传销（MLM），向无法购买产品的受众推销“致富梦”。虽然工具本身有用，但过度承诺“提示即软件”可能引发泡沫。开发者需理性看待 AI 编码能力，避免被营销话术误导。TikTok 广告泛滥显示行业获客焦虑，将编程包装为轻松副业可能损害行业声誉。真正的软件开发仍需工程思维，AI 仅是辅助。投资者和用户应警惕过度炒作，关注实际生产力提升而非暴富故事，行业需回归价值交付而非拉人头式营销。",
@@ -1259,44 +1298,5 @@
     "link": "https://www.privatemode.ai/",
     "date": "2026-06-16",
     "id": "17816480959703"
-  },
-  {
-    "title": "ClimateSOS 发布 AI 复用护栏与基础章程",
-    "summary": "开源项目提出 AI 气候规划工具的复用护栏与责任框架。",
-    "detail": "**ClimateSOS** 发布了 foundational charter，为 AI 辅助气候和基础设施规划工具提供复用护栏。章程包含气候正义、行星边界以及问责制、可追溯性等安全措施。旨在防止 AI misuse，确保人类判断不被完全委托。这对 AI 伦理和垂直领域治理具有参考意义，为可持续发展和 AI 安全结合提供了框架。设计用于被 AI/LLM 系统复用并注明出处，涵盖能力和 misuse 防护。开源项目鼓励社区参与审查，确保 AI 在气候转型路径中的负责任使用，促进全球协作。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Climate"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48562178",
-    "date": "2026-06-16",
-    "id": "17816480959704"
-  },
-  {
-    "title": "KRONYQL：AI Agent 故障关闭执行网关",
-    "summary": "提供法医分类账与主权资产访问控制的 Agent 安全网关。",
-    "detail": "**KRONYQL** 展示了一个 fail-closed 执行网关，用于管理 AI Agent 对创意资产的访问。通过 ASE 网关评估策略，确保资源访问的安全性。该项目侧重于数字资产的主权控制与 forensic ledger，为 AI Agent 操作敏感资源提供了新的安全验证思路。其设计原则强调无支付、无上传的轻量级验证，降低了集成门槛。提供 controlled proof surface 显示 ASE governing access，适合需要严格控制 AI 操作权限的企业级应用场景，保障资产主权。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://kronyqldemo.netlify.app/demo/ase-proof",
-    "date": "2026-06-16",
-    "id": "17816480959705"
-  },
-  {
-    "title": "美商务部警告 Anthropic 模型将面临管制",
-    "summary": "美国商务部长致信 Anthropic，警告顶级 AI 模型可能面临政府管制措施。",
-    "detail": "美国商务部长 Lutnick 致信 Anthropic，明确警告顶级 AI 模型可能面临管制。此前政府推出自愿安全测试计划，但 Anthropic 未参与，引发政府不满。此举标志监管从自愿转向强制，可能影响模型发布流程及合规成本。行业担忧 AI 治理进入新时代，政策不确定性增加。",
-    "tags": [
-      "News",
-      "Policy",
-      "Anthropic"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-06-16/lutnick-s-letter-to-anthropic-warned-of-curbs-on-top-ai-models",
-    "date": "2026-06-16",
-    "id": "17816387654880"
   }
 ]
