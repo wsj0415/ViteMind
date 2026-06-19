@@ -1,5 +1,70 @@
 [
   {
+    "title": "Cloudflare 推出 AI 代理临时账户，消除部署摩擦",
+    "summary": "支持 Agent 无需注册直接部署 Worker，限时 60 分钟。",
+    "detail": "Cloudflare 正式推出面向 AI 代理的临时账户功能，旨在消除自动化部署中的人类验证摩擦。开发者现在可让 Agent 通过 `wrangler deploy --temporary` 直接部署 Worker、网站及 API，无需经历 OAuth、仪表盘点击或 MFA 验证。临时部署默认存活 60 分钟，期间用户可认领账户转为永久，否则自动过期。背景 AI 会话无需人工介入已成为常态，任何需要浏览器或复制粘贴的认证步骤都会导致 Agent 停滞甚至选择其他平台。此更新显著降低了 Agent 自主开发的基础设施门槛，确保代码能无缝交付。",
+    "tags": [
+      "Dev",
+      "Cloudflare",
+      "Agent"
+    ],
+    "link": "https://blog.cloudflare.com/temporary-accounts/",
+    "date": "2026-06-19",
+    "id": "17818824864920"
+  },
+  {
+    "title": "主权 AI 本质是供应链问题，而非单纯模型竞争",
+    "summary": "分析指出主权 AI 关键在于算力供应链安全，而非自研模型。",
+    "detail": "文章深入分析指出，主权 AI 的核心并非单纯开发自有基础模型，而是确保训练、运营及保护模型所需的全链路供应链安全。这包括 GPU、HBM、代工、封装、设备、材料、电力、冷却及光通信等环节必须在本国或盟友境内可控。随着前沿模型被视为类似半导体的战略资产，政府担忧模型访问被限制，核心问题变为“我们使用的 AI 明天是否还会开启”。这标志着 AI 投资逻辑从软件主题转向全球供应链重组，NVIDIA、AMD 等基础设施公司地位关键，学习需求天花板正在再次上升。",
+    "tags": [
+      "News",
+      "Supply Chain",
+      "Strategy"
+    ],
+    "link": "https://www.bullbear.ninja/board/12",
+    "date": "2026-06-19",
+    "id": "17818824864921"
+  },
+  {
+    "title": "Platinum.ai 助力网站适配 AI 代理，提升被选中率",
+    "summary": "免费扫描网站 AI 可读性，优化结构化数据供 Agent 读取。",
+    "detail": "针对 AI 代理在搜索本地服务或比较供应商时倾向于跳过复杂网站的问题，Platinum.ai 提供专门的 AI 可读层解决方案。传统网站因图片价格、JavaScript-heavy 布局导致 Agent 处理成本高且易错，例如某案例耗时 34 秒消耗 756k tokens 仍获错价格。使用该工具后，处理仅需 1.8 秒和 580 tokens，所有事实准确无误。产品提供免费的 8 点扫描服务，一次性收费 99 美元无需重新设计网站。帮助企业适配 OpenAI、Gemini、Claude 等主流代理，确保在 AI 比价中不被跳过。",
+    "tags": [
+      "New",
+      "SEO",
+      "Agent"
+    ],
+    "link": "https://www.platinum.ai/",
+    "date": "2026-06-19",
+    "id": "17818824864922"
+  },
+  {
+    "title": "栈溢出警示：AI 代理可能成为“困惑的代理人”引发安全风险",
+    "summary": "分析 Meta AI 黑客事件，指出 Agent 可能绕过人类权限检查。",
+    "detail": "针对近期 Meta AI 支持助手被利用重置包括奥巴马时期白宫账户在内的两万个 Instagram 账号事件，文章警示 AI 代理可能成为“困惑的代理人”。攻击者未写 exploit 仅通过对话即完成操作，因为代理执行了 permitted 序列，但暴露了原本依赖人类直觉的安全检查缺失。安全术语称此为 confused deputy problem，即低权限方诱导高权限进程操作。随着 Agent 拥有更多密钥，传统基于人类 discretion 的授权模型失效。开发者需重写针对自动化代理的安全验证逻辑，防止权限滥用，避免攻击者利用 Agent 合法操作序列绕过安全。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://stackoverflow.blog/2026/06/17/ai-agents-expose-the-security-checks-you-never-actually-wrote/",
+    "date": "2026-06-19",
+    "id": "17818824864923"
+  },
+  {
+    "title": "业界呼吁：禁止开源 AI 将是重大错误，阻碍创新与安全",
+    "summary": "社论反对政府过度监管开源 AI，强调其透明性与经济价值。",
+    "detail": "针对华盛顿近期签署审查 AI 模型行政令及国会立法提案，文章警告禁止开源 AI 将是重大错误。政府可能持有前沿实验室股份或限制外国人访问 Anthropic 模型，这可能导致开源被误伤。开源不仅是技术共享过程，更是安全、透明及经济增长的驱动力，全球超 90% 软件依赖开源。过度监管可能 inadvertently 扼杀创新，作者呼吁政策制定者区分开源与闭源风险，避免一刀切。强调开源在审查模型、建立信任及防止少数公司垄断控制权方面的关键作用，反对将开源视为安全威胁。",
+    "tags": [
+      "News",
+      "Policy",
+      "Open Source"
+    ],
+    "link": "https://www.interconnects.ai/p/banning-open-source-ai-would-be-a",
+    "date": "2026-06-19",
+    "id": "17818824864924"
+  },
+  {
     "title": "Co/Core 推出去中心化 AI 推理合作社",
     "summary": "用户共享闲置算力运行 AI 模型，兼容标准 API，无需租用大型提供商。",
     "detail": "Co/Core 是一个成员拥有的 AI 合作社实验，允许用户共享现有算力（如 Apple M4/M5）来运行开源模型。它兼容标准 API，现有代码无需修改即可接入。目前已有 29 台机器在线，提供 936GB 内存和 304 个 CPU 核心，首 Token 延迟 1.7 秒。这种模式旨在减少对大型提供商的依赖，实现推理的去中心化共享，新用户可获得 100 万免费 Token 体验。该平台支持流式传输和工具调用，所有计算记录公开可查，确保透明度。通过利用个人闲置硬件，它探索了一种新的 AI 基础设施经济模型，让开发者能够以更低的成本获得推理能力，同时保护数据隐私，因为模型运行在成员自己的设备上而非中心化云端。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.bloomberg.com/news/articles/2026-06-16/lutnick-s-letter-to-anthropic-warned-of-curbs-on-top-ai-models",
     "date": "2026-06-16",
     "id": "17816387654880"
-  },
-  {
-    "title": "OpalAI 获 NASA 合同开发野火智能 AI",
-    "summary": "OpalAI 赢得两项 NASA 合同，利用空间 AI 技术提供野火情报与决策支持。",
-    "detail": "OpalAI 宣布获得两项 NASA 合同，旨在构建用于野火情报的 AI 系统。其 FireVision 服务可将复杂的地理空间数据转化为可操作 insights，服务于消防机构及保险公司。这展示了 AI 在气候灾害管理及政府合作中的商业落地潜力，空间智能成为新热点。",
-    "tags": [
-      "News",
-      "Space",
-      "Climate"
-    ],
-    "link": "https://www.opal-ai.com/",
-    "date": "2026-06-16",
-    "id": "17816387654881"
-  },
-  {
-    "title": "AI 脑机接口助渐冻症患者重返全职工作",
-    "summary": "UC Davis 团队利用 AI 脑机接口，使 ALS 患者以 92% 准确率沟通并工作。",
-    "detail": "加州大学戴维斯分校团队在《Nature》发表论文，展示 AI 驱动的脑机接口（BCI）帮助 ALS 患者恢复沟通能力。患者通过植入物控制光标并说话，准确率高达 92%，已成功重返全职工作。该技术证明了 AI 在医疗康复领域的重大突破，为神经疾病患者带来新希望。",
-    "tags": [
-      "News",
-      "Healthcare",
-      "BCI"
-    ],
-    "link": "https://www.theregister.com/science/2026/06/16/ai-and-brain-computer-interface-allow-speechless-als-patient-to-work-a-full-time-job/5256492",
-    "date": "2026-06-16",
-    "id": "17816387654892"
-  },
-  {
-    "title": "AI 如何消除开发者编码疲劳提升认知",
-    "summary": "深度分析 AI 如何通过减少上下文切换，让开发者从编码疲劳转向深度认知。",
-    "detail": "文章探讨 AI 对开发者工作流的深层影响。AI 不仅提升速度，更通过处理样板代码和错误解码，减少了上下文切换带来的认知疲劳。开发者可将精力集中于核心意图与架构设计，实现从“多任务处理”到“平行思考”的转变。这是 AI 赋能个体生产力的重要视角。",
-    "tags": [
-      "Dev",
-      "Productivity",
-      "Coding"
-    ],
-    "link": "https://ameyalambat.com/blog/ai-coding-fatigue",
-    "date": "2026-06-16",
-    "id": "17816387654893"
-  },
-  {
-    "title": "Ubuntu Core 26 发布：构建本地 AI 推理设备的新方案",
-    "summary": "Canonical 推出 Ubuntu Core 26，支持通过 Multipass 和 gemma4 snap 构建本地 AI 推理设备。",
-    "detail": "Ubuntu Core 26 发布，专为生产设备设计。Canonical 工程师演示如何在虚拟机中利用 Multipass 和 gemma4 snap 构建本地 AI 推理设备。这对于边缘计算、工业系统及机器人开发至关重要。开发者可在提交生产镜像前，快速探索环境、安装 snaps 并测试服务暴露。该工作流映射了从实验到生产的完整路径，降低了边缘 AI 部署门槛，为离线推理场景提供了标准化解决方案。",
-    "tags": [
-      "Dev",
-      "Edge AI",
-      "Ubuntu"
-    ],
-    "link": "https://ubuntu.com/blog/ubuntu-core-26-ai-box",
-    "date": "2026-06-16",
-    "id": "17816253956370"
-  },
-  {
-    "title": "本地 AI 模型尚未准备好接管编码任务？深度实测",
-    "summary": "实测显示消费级硬件上的本地模型在编码任务上仍落后于云端模型，尽管硬件已顶配。",
-    "detail": "针对本地 AI 编码能力的深度实测。作者在顶配 M5 Max MacBook Pro 上运行 Devstral 24B 等模型，对比云端 Agent。结论指出消费级硬件无法承载生产级编码任务所需的模型参数量。虽然本地模型在隐私和成本上有优势，但在复杂任务可靠性上仍不足。文章揭示了当前本地推理的瓶颈：能跑任务的模型放不下，放得下的跑不了任务，为开发者选型提供真实参考。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Coding"
-    ],
-    "link": "https://mmlac.com/blog/local-ai-not-ready-for-coding-yet/",
-    "date": "2026-06-16",
-    "id": "17816253956371"
   }
 ]
