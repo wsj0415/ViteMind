@@ -1,5 +1,83 @@
 [
   {
+    "title": "AgentLine 发布：为 AI Agent 赋予真实电话号码",
+    "summary": "支持 AI 代理拨打/接听电话，实时转录音频流，集成 Hermes 等模型。",
+    "detail": "AgentLine 推出全新 AI 电话 API，允许 AI 代理（如 Hermes、OpenClaw）拥有真实手机号。核心功能包括双向语音通话、SMS 短信及实时音频流转录，通过 Webhook 返回 clean JSON 给 agent。支持美加号码，新用户注册送$2.20 额度。该技术解决了 AI 代理与现实通信网络交互的难题，实现 Prompt-to-Call 设置流。用户可 instruct agent 获取号码并拨打，体验实时双向对话，为客服、预约及验证场景提供新方案，大幅降低集成门槛。开发者无需处理底层音频流，AgentLine 负责转录并发送结构化数据，简化了 Voice AI 的开发流程，是构建自主电话代理的关键基础设施。",
+    "tags": [
+      "New",
+      "AI Agent",
+      "Voice API"
+    ],
+    "link": "https://agentline.cloud",
+    "date": "2026-06-20",
+    "id": "17819866575490"
+  },
+  {
+    "title": "Crit 终端工具：AI 驱动的高级设计审查",
+    "summary": "终端内运行设计审查，自动检测 WCAG 对比度并提供修复建议。",
+    "detail": "Crit 是一款运行在终端的 AI 设计审查工具，模拟高级设计主管的反馈。支持 URL、截图或组件输入，基于 WCAG 标准检测对比度、排版、间距等十大维度。特色在于不仅 flagged 问题，还能通过 `--apply` 直接修复代码（如对比度、焦点状态）。强调数据驱动而非主观意见，提升前端开发的可访问性与设计一致性。它读取代码并引用确切行号，帮助开发者跳过琐碎讨论，专注于关键修复，确保每次提交都符合无障碍标准。该工具将设计审查从主观审美转变为客观工程问题，显著减少了设计与开发之间的沟通成本，适合敏捷团队集成到 CI/CD 流程中。",
+    "tags": [
+      "Dev",
+      "Design",
+      "CLI"
+    ],
+    "link": "https://crit.officialjp.com/",
+    "date": "2026-06-20",
+    "id": "17819866575491"
+  },
+  {
+    "title": "AI 报税引发责任争议：算法出错谁买单？",
+    "summary": "2026 报税季 AI 代理普及，但算法错误导致的法律责任尚不明确。",
+    "detail": "2026 年报税季，AI 代理（如 Intuit Assist）成为主流，能大幅降低报税成本。然而，当算法错误导致税务问题时，责任归属成谜。文章探讨了从传统软件到自主 AI 代理的转变风险，指出尽管效率高，但缺乏明确的责任承担机制。早期 adopter 展示了用 Codex 处理税务只需 20 美元，但若出错谁买单？这对 AI 在金融法律领域的应用提出了监管与保险层面的新挑战，行业亟需建立新的问责框架。随着 AI 代理自主性增强，传统软件免责条款可能不再适用，保险公司与监管机构正密切关注此类案例，以定义算法失误的法律边界。",
+    "tags": [
+      "News",
+      "Legal",
+      "Finance"
+    ],
+    "link": "https://smarterarticles.co.uk/when-ai-files-your-taxes-who-pays-when-it-fails",
+    "date": "2026-06-20",
+    "id": "17819866575492"
+  },
+  {
+    "title": "In the Weights：衡量个人在 AI 模型中的存在感",
+    "summary": "新网站测试 AI 模型是否无需搜索即可回忆出特定人物信息。",
+    "detail": "TechCrunch 报道新项目\"In the Weights\"，旨在衡量个人在 AI 模型训练数据中的存在感。通过查询 Grok、GPT、Claude 等模型是否能在不使用搜索工具的情况下 recall 某人，生成“强度分数”。这反映了 AI 时代个人声誉的新维度，即是否被纳入模型的“权重”中。创始人认为这标志着 web search 不再是唯一信息源，成为衡量数字影响力的新指标，揭示了模型记忆与个人知名度之间的新关系。该工具聚类相似描述并分配强度分，帮助用户了解自己在 AI 眼中的形象，预示着未来个人品牌管理将延伸至模型训练数据层面。",
+    "tags": [
+      "News",
+      "LLM",
+      "Search"
+    ],
+    "link": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
+    "date": "2026-06-20",
+    "id": "17819866575493"
+  },
+  {
+    "title": "为何 Elixir 是 AI 应用开发的最佳技术栈",
+    "summary": "文章论证 Elixir 并发模型更适合处理 AI 应用的 I/O 等待。",
+    "detail": "针对 AI 应用高并发、多 WebSocket 连接的特性，文章主张 Elixir 与 Phoenix 框架优于 Python/Node.js。基于 Erlang VM (BEAM)，Elixir 能以极小内存占用管理数万并发进程，完美匹配 LLM API 调用的 I/O 等待场景。无需复杂 Kubernetes 集群即可实现高可用，为构建下一代生成式 AI 应用提供了更务实的后端架构选择。开发者不再需要为处理 token 流而搭建复杂异步队列，单服务器即可支撑大量用户与 AI 代理的实时交互。这种架构特别适合需要长连接和低延迟的 AI 聊天界面，解决了传统 MVC 框架在处理流式响应时的性能瓶颈。",
+    "tags": [
+      "Dev",
+      "Architecture",
+      "Elixir"
+    ],
+    "link": "https://www.porchlab.com/blog/best-ai-stack-elixir-phoenix/",
+    "date": "2026-06-20",
+    "id": "17819866575494"
+  },
+  {
+    "title": "HSIP：基于 Rust 的本地 AI 代理身份服务器",
+    "summary": "无需云端的本地身份服务器，为 AI 代理提供加密身份与审计。",
+    "detail": "HSIP 是一个用 Rust 编写的本地身份服务器，旨在为个人和 AI 代理提供加密身份及防篡改审计 trail。支持 Ed25519 签名，无需云端订阅，所有数据本地运行。针对 2026 年 AI 代理泛滥的现状，解决了去中心化身份验证与治理问题，确保 AI 行为可追溯。适合对隐私和安全要求极高的金融或个人场景，单一二进制文件即可部署，为 AI 代理治理提供了本地优先的安全基础设施方案。该项目强调主权身份，用户完全掌控密钥，避免了云服务商监控风险，为 AI 时代的数字身份认证提供了新的开源参考实现。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Rust"
+    ],
+    "link": "https://github.com/rewired89/HSIP-1PHASE",
+    "date": "2026-06-20",
+    "id": "17819866575495"
+  },
+  {
     "title": "代理机构盗用畅销书内容并用 AI 洗稿",
     "summary": "某代理机构盗用《obscure sorrows》全书文本，利用 DALL-E 2 生成插图并上线虚假网站。",
     "detail": "该事件揭示了 AI 时代的版权危机。代理机构不仅复制了 John Koenig 十年项目的全部文本，还用充满伪影的 DALL-E 2 图像替换原插画，甚至添加\"AI 生成悲伤”功能。这凸显了 AI 工具被用于大规模侵权的风险，以及当前内容验证机制的缺失。对于创作者而言，这意味着需要更主动的数字指纹保护；对于平台，则需加强 AI 生成内容的标识与审查，防止此类“洗稿”网站混淆视听，损害原创生态。此类事件可能引发法律诉讼，推动更严格的 AI 训练数据版权法规出台。",
@@ -1220,83 +1298,5 @@
     "link": "https://cloudfour.com/thinks/improvements-to-web-for-ai-should-benefit-all-users/",
     "date": "2026-06-18",
     "id": "17817872908410"
-  },
-  {
-    "title": "欧洲数据中心 lobby：AI 与气候目标难以兼得",
-    "summary": "数据中心行业警告欧洲需在 AI 发展与气候目标间抉择。",
-    "detail": "数据中心游说团体警告称，欧洲必须在 AI 发展与气候目标之间做出选择。随着 AI 算力需求激增，能源消耗成为关键矛盾。该观点突显了基础设施扩张与环保政策之间的紧张关系，可能影响欧洲未来的 AI 产业政策走向及数据中心建设规划，引发行业对可持续性发展的讨论，暗示能源限制可能成为 AI 扩张的瓶颈。",
-    "tags": [
-      "News",
-      "Policy",
-      "Energy"
-    ],
-    "link": "https://www.politico.eu/article/europe-choose-ai-climate-goals-data-center-chief-warns/",
-    "date": "2026-06-18",
-    "id": "17817872908411"
-  },
-  {
-    "title": "Rankpad 推出 AI 品牌可见性追踪工具",
-    "summary": "监测品牌在 ChatGPT 等 AI 答案中的提及与引用情况。",
-    "detail": "Rankpad 推出专为创始人和营销人员设计的 AI 可见性追踪工具。它能监测品牌在 ChatGPT、Claude 等模型回答中的提及情况，对比竞争对手并追踪变化。该产品针对新兴的 LLM SEO 需求，帮助用户了解 AI 如何描述其品牌，优化在生成式 AI 搜索结果中的存在感，提供 visibility score 和 citation 追踪功能。",
-    "tags": [
-      "New",
-      "Marketing",
-      "LLM"
-    ],
-    "link": "https://www.rankpad.app/",
-    "date": "2026-06-18",
-    "id": "17817872908412"
-  },
-  {
-    "title": "Google Research 发布地球 AI 用于自然恢复",
-    "summary": "利用深度学习识别卫星图像中细微生态特征，助力气候行动。",
-    "detail": "Google Research 开发高分辨率深度学习框架，用于识别卫星检测通常不可见的细微生态特征（如树篱）。该技术旨在解决气候与生物多样性危机，同时不 compromise 粮食安全。通过使隐藏资产可见，为工作用地上的自然恢复提供新途径，展示了 AI 在地球科学领域的应用潜力，有助于精准规划生态恢复项目。",
-    "tags": [
-      "News",
-      "Google",
-      "Climate"
-    ],
-    "link": "https://research.google/blog/from-pixels-to-planning-earth-ai-for-nature-restoration/",
-    "date": "2026-06-18",
-    "id": "17817872908413"
-  },
-  {
-    "title": "研究称 AI 编写代码并不比人类更易出错",
-    "summary": "基于 11 万次提交分析，AI 代码缺陷率未高于人类，且存续更久。",
-    "detail": "Repowise 通过分析 28 个公共仓库的 11.2 万次提交，研究 AI 代码质量。结果显示 AI 编写的代码并不比人类代码更容易出错，甚至存续时间更长。研究使用了严格的来源检测器区分 AI 与人类提交，为工程团队采用 AI 编程助手提供了实证数据支持，反驳了 AI 代码质量差的观点，表明 AI 代理在特定条件下可产出可靠代码。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Research"
-    ],
-    "link": "https://www.repowise.dev/blog/engineering/is-ai-written-code-buggier-than-human-code",
-    "date": "2026-06-18",
-    "id": "17817872908414"
-  },
-  {
-    "title": "全球领袖寻求美国 AI 技术但担忧控制权",
-    "summary": "各国希望引进美国 AI 技术，但担忧美国随时切断服务。",
-    "detail": "随着 AI 成为战略资源，全球领导人纷纷寻求引进美国先进的 AI 技术。然而，地缘政治紧张局势引发担忧，各国害怕美国可能利用技术优势作为政治筹码，随时“关闭”AI 服务。这推动了各国对 AI 主权和本地化部署的迫切需求，行业需关注跨境数据流动与技术依赖风险。未来企业出海需考虑本地化合规，避免单一依赖美国云服务，同时关注开源模型部署以降低断供风险。",
-    "tags": [
-      "News",
-      "Geopolitics",
-      "AI Policy"
-    ],
-    "link": "https://www.techsentiments.com/article/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-tu-4f8d",
-    "date": "2026-06-18",
-    "id": "17817741679500"
-  },
-  {
-    "title": "Midjourney 跨界医疗：推出全身超声扫描 AI",
-    "summary": "知名 AI 绘画工具 Midjourney 转型医疗领域，发布超声扫描功能。",
-    "detail": "Midjourney 不再局限于图像生成，正式推出 Midjourney Medical，进军医疗诊断领域。新功能支持全身超声扫描分析，标志着生成式 AI 从创意工具向严肃医疗应用的重大跨越。此举可能重塑医疗影像行业，但也面临严格的监管审查与数据隐私挑战，值得医疗 AI 开发者关注。技术核心在于将扩散模型适配于医学影像重建，需解决高精度与低幻觉问题，行业影响深远。",
-    "tags": [
-      "News",
-      "Healthcare",
-      "Computer Vision"
-    ],
-    "link": "https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan",
-    "date": "2026-06-18",
-    "id": "17817741679501"
   }
 ]
