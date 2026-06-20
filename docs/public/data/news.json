@@ -1,5 +1,70 @@
 [
   {
+    "title": "Bun 1.4 引发争议：AI agents 六天重写 Zig 到 Rust",
+    "summary": "Bun 团队利用 AI 代理在六天内将百万行代码从 Zig 迁移至 Rust，测试通过率极高但安全隐患引争议。",
+    "detail": "Bun 团队在 2026 年 5 月完成了一项业界瞩目的工程壮举：利用 Anthropic 的 Claude Code 动态工作流，仅耗时六天便将约 57 万行 Zig 代码重写为 Rust。尽管 99.8% 的测试通过，但结果中包含 13,044 个 unsafe 块和大量全局可变状态，引发了社区关于 AI 代码质量与安全性的激烈讨论。该流程采用 adversarial reviewer 机制，由 AI 互相审查代码，最大的 PR 甚至由 AI bot 审查。这标志着 AI 驱动的大规模代码迁移已成为现实，但人工审查与安全边界仍是关键，展示了 AI 工程化落地的潜力与风险，为未来软件开发模式提供了重要参考案例。",
+    "tags": [
+      "News",
+      "LLM",
+      "Rust"
+    ],
+    "link": "https://grigio.org/bun-1-4-the-controversial-ai-driven-rewrite-from-zig-to-rust/",
+    "date": "2026-06-20",
+    "id": "17819644555460"
+  },
+  {
+    "title": "FIDE AI 成立：专注信仰与伦理领域的 AI 研究实验室",
+    "summary": "新实验室 FIDE AI 致力于解决 AI 在信仰、伦理及精神指导方面的缺失，构建安全可信的宗教 AI 基础设施。",
+    "detail": "随着 AI 在代码和考试上的能力趋于 trivial，FIDE AI 实验室应运而生，专注于处理 grief、forgiveness、faith 等复杂人文场景。该实验室指出，现有 AI 虽能流利对话，但在需要 discernment（辨别力）的道德或精神指导时刻往往失效，例如家长询问孩子精神问题或教会探索 AI 聊天机器人时。FIDE AI 旨在填补这一空白，研究如何让 AI 在涉及 pastoral communication 或伦理决策时更安全、更负责任，避免 AI 在缺乏治理的情况下提供错误的道德指引，为宗教机构提供可信的 AI 基础设施，探索信仰与科技结合的边界。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Safety"
+    ],
+    "link": "https://fideai.substack.com/p/introducing-fide-ai",
+    "date": "2026-06-20",
+    "id": "17819644555461"
+  },
+  {
+    "title": "Cordium 开源沙盒：为 AI 代理提供无秘密的基础设施访问",
+    "summary": "新开源平台 Cordium 基于 Kubernetes，为开发者和 AI 代理提供隔离沙盒，实现无需凭证的安全基础设施访问。",
+    "detail": "针对 AI 代理和开发者访问基础设施时的安全风险，Cordium 提供了一个免费的开源沙盒平台。基于 Kubernetes 构建，它通过身份认证而非传统凭证来管理访问权限，有效隐藏基础设施秘密，区别于 GitHub Codespaces 或 E2B 等平台。该平台支持远程开发环境、CI/CD 工作负载及 AI 代理沙盒，解决了 AI 自主操作时的权限管控难题，防止敏感信息泄露。作为 AI 安全基础设施层的重要补充，Cordium 为构建可信的 AI 代理工作流提供了隔离、可复现的环境，适合企业级安全需求。",
+    "tags": [
+      "Dev",
+      "Security",
+      "OpenSource"
+    ],
+    "link": "https://github.com/octelium/cordium",
+    "date": "2026-06-20",
+    "id": "17819644555462"
+  },
+  {
+    "title": "2026 AI 治理新栈：从模型监管延伸至代码智能层",
+    "summary": "Three Deep Technologies 发布 AI 治理栈地图，强调治理需深入开发者工作流，关注 AI 生成代码的爆炸半径。",
+    "detail": "AI 治理正在从高层政策 oversight 向开发者工作流下沉。Three Deep Technologies 发布的最新市场地图显示，新兴的 AI 治理栈已触及软件仓库层，包含政策合规、模型风险、安全、可观测性及代码智能等六层。除了模型评估和安全控制，团队现在需要代码智能层来分析依赖上下文、变更影响及架构耦合。这标志着 AI 治理进入新阶段，不仅要管模型，更要管 AI 生成代码可能造成的“爆炸半径”，确保软件的可控性与可问责性，为开发者提供理解 AI 生成代码后果的工具。",
+    "tags": [
+      "News",
+      "Governance",
+      "Industry"
+    ],
+    "link": "https://www.threedeep.tech/ai-governance-stack",
+    "date": "2026-06-20",
+    "id": "17819644555463"
+  },
+  {
+    "title": "技术洞察：AI 能否编写高性能 IPv4 解析器？",
+    "summary": "博客文章探讨 AI 在编写底层高性能代码时的局限性，指出 SWAR 技巧等优化仍需人类专家介入。",
+    "detail": "针对 Daniel Lemire 展示的大部分由 AI 编写的 IPv4 解析器，该文章进行了深入技术分析。虽然 AI 能生成线性扫描函数，但在涉及 SWAR（寄存器内 SIMD）和位操作等极致优化场景时，AI 仍存在局限，例如将输入 smashed into 2 u64 的处理。作者认为，尽管 AI 能辅助编写快速代码，但完全依赖 AI 生成高性能底层代码尚不现实。这反映了当前 AI 编程助手在系统级优化领域的边界，人类工程师的经验依然不可或缺，提醒开发者在追求性能时需审慎评估 AI 生成代码的底层效率。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Performance"
+    ],
+    "link": "https://extractingcycles.com/blog/the-ipv4-parser-ai-couldnt-have-written/article/",
+    "date": "2026-06-20",
+    "id": "17819644555464"
+  },
+  {
     "title": "英国 AI 数据监管负责人因不当言论辞职",
     "summary": "英国信息专员 John Edwards 因不当幽默辞职，ICO 监管职能受影响。",
     "detail": "英国信息专员办公室 (ICO) 负责人 John Edwards 因工作场所调查正式辞职。调查显示其多次使用粗俗及高度性化的语言冒犯员工，尽管其称之为“不当幽默”。科学秘书 Liz Kendall 表示深感担忧，感谢受害者站出来。ICO 核心负责英国 AI 监管及数据保护，此次高层人事动荡可能影响后续 AI 政策执行的稳定性，引发英国政府对监管机构内部文化的深度审查与关注，对行业合规带来不确定性。监管机构领导层的变更往往意味着政策风向的潜在调整，企业需密切关注 ICO 后续动向，评估合规风险。",
@@ -1233,70 +1298,5 @@
     "link": "https://venturebeat.com/technology/why-weibos-tiny-vibethinker-3b-has-the-ai-world-arguing-over-benchmarks-again",
     "date": "2026-06-17",
     "id": "17818289522002"
-  },
-  {
-    "title": "中美 AI 治理分歧加剧：中国推全球合作，G7 限模型访问",
-    "summary": "中国提议建立全球 AI 合作组织，G7 则讨论受限访问美国模型，两大体系渐成。",
-    "detail": "中国外交官王毅宣布加速建立全球 AI 合作组织，邀请各国加入，明确批评封闭垄断的技术发展路径。与此同时，G7 峰会正在讨论给予“可信伙伴”访问美国领先 AI 模型的权限。Anthropic 和 Google DeepMind 利用峰会呼吁建立美国主导的联盟，加拿大已表示同意。上周美商务部命令 Anthropic 切断外国用户访问 Fable 5 等模型。两大治理愿景公开分歧，标志着 AI 地缘政治格局进一步固化，全球可能形成两套独立的技术生态系统，对发展中国家选择产生深远影响。此举措可能重塑全球 AI 供应链与合作模式。",
-    "tags": [
-      "News",
-      "Policy",
-      "Geopolitics"
-    ],
-    "link": "https://thenextweb.com/news/china-ai-global-cooperation-vs-g7-export-controls",
-    "date": "2026-06-17",
-    "id": "17817388569930"
-  },
-  {
-    "title": "Tensordyne 革新 AI 芯片：利用对数系统提升计算效率",
-    "summary": "新创公司采用对数数字系统替代浮点数学，显著优化 AI 乘法运算效率。",
-    "detail": "多数 AI 芯片公司聚焦内存层级优化，如 Groq 用 SRAM 换低延迟，Cerebras 用晶圆级处理。Tensordyne 则采用基于对数的数字系统，存储 log2(A) 而非原始值，利用对数乘法规则提升乘法效率。该架构试图从数学底层优化计算引擎，而非仅靠硬件堆叠。文章深入探讨了对数格式的核心技术优势，及其在实际 AI 工作负载中的性能表现，引发对高效计算引擎实际价值的行业思考。相比只读内存方案，该芯片支持模型更新，兼顾效率与灵活性，为 AI 基础设施提供新范式。",
-    "tags": [
-      "News",
-      "Hardware",
-      "LLM"
-    ],
-    "link": "https://www.zach.be/p/tensordyne-is-making-ai-compute-more",
-    "date": "2026-06-17",
-    "id": "17817388569931"
-  },
-  {
-    "title": "Salvager：为 AI 编码 Agent 提供文件系统级撤销功能",
-    "summary": "被动监控文件修订，确保 AI 代理误操作后可随时恢复，无需配置。",
-    "detail": "AI 编码代理编辑文件时可能静默出错，如覆盖函数或删除代码块，且恢复不应依赖 Agent 谨慎。Salvager 作为文件系统级的安全网，被动监视项目根目录，自动保存每次文件修订至.salvager/目录。支持 CLI、MCP 或手动浏览历史时间线。恢复操作会自动保存当前状态以确保可逆。该工具解决了依赖手动 commit 的风险，为 AI 开发提供底层保障，无需配置即可运行，确保任何破坏均可回溯。它是 AI 时代版本控制的重要补充，提升开发安全感。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "Agents"
-    ],
-    "link": "https://www.salvager.sh/",
-    "date": "2026-06-17",
-    "id": "17817388569932"
-  },
-  {
-    "title": "Righthand：拥有技能与目标的自主 AI 员工平台",
-    "summary": "构建拥有邮箱、电话及统一记忆的 AI 员工，在 E2B 沙箱中自主执行任务。",
-    "detail": "创始人推出“右手”AI 员工，内置工作流而非等待提示。每个 AI 拥有姓名、联系方式及跨渠道统一记忆，运行于 E2B 沙箱中。技能系统重构至 V4 版本，支持自动 inbox 分类、预订会议等焦虑驱动任务。提供夜间自评及目标请求功能，支持 Bedrock+Codex fallback 路由。定价$99 起，试用免卡。旨在通过自动化琐碎任务缓解工作焦虑，重新定义人机协作模式，让 AI 真正融入日常 workflow。其沙箱隔离设计确保了执行安全性与隐私。",
-    "tags": [
-      "New",
-      "Agents",
-      "SaaS"
-    ],
-    "link": "https://www.rigthhand.ai",
-    "date": "2026-06-17",
-    "id": "17817388569933"
-  },
-  {
-    "title": "Transluce 推出分析计划：可验证的 AI 行为分析框架",
-    "summary": "通过 Python API 定义分析步骤，让人类可验证编码 Agent 的决策过程。",
-    "detail": "开发 AI 代理是复杂的数据分析问题，需追踪行为细节而非仅看基准分数。Transluce 推出“分析计划”框架，解决 Agent subtle mistakes 问题。通过 Python API 指定步骤，在 Web 界面展示每一步操作。包含查询步骤（使用 DQL 过滤数据）和验证步骤。旨在避免 Agent 解析错误或 cherry-pick 数据，确保结论可信任。适用于需要定量与定性分析 tailored 的场景，提升 AI 行为可解释性，降低调试成本。该框架为 AI 可靠性工程提供了新工具。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Tools"
-    ],
-    "link": "https://transluce.org/docent/blog/analysis-plans",
-    "date": "2026-06-17",
-    "id": "17817388569934"
   }
 ]
