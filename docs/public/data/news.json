@@ -1,5 +1,83 @@
 [
   {
+    "title": "欧盟重写 AI 法案：高风险规则推迟至 2027 年",
+    "summary": "欧盟修订 AI 法案，高风险场景实施推迟，工业应用豁免，通用 AI 规则仍按期生效。",
+    "detail": "欧盟委员会对 landmark AI Act 进行了重大修订，旨在创造创新友好环境。高风险 AI 系统的实施时间推迟到 2027 或 2028 年，工业应用被完全移除出监管范围，以简化规则。然而，针对 OpenAI 等公司的通用 AI 模型规则仍将于 8 月生效。这反映了布鲁塞尔监管姿态从价值观驱动向创新友好的转变，但基于风险的核心架构未变。分析师认为核心雄心未变，但实施更灵活，平衡了安全与创新需求，避免过度抑制欧洲技术发展。政策制定者试图在保护公民权利与促进产业竞争力之间寻找新的平衡点。",
+    "tags": [
+      "News",
+      "Policy",
+      "Regulation"
+    ],
+    "link": "https://www.theparliamentmagazine.eu/news/article/why-the-eu-rewroteits-landmark-ai-law",
+    "date": "2026-06-20",
+    "id": "17819934127490"
+  },
+  {
+    "title": "微软披露 AutoJack 漏洞：AI Agent 面临远程代码执行风险",
+    "summary": "微软发现 AutoGen Studio 漏洞，攻击者可通过网页利用本地 WebSocket 执行任意进程。",
+    "detail": "微软安全团队发现名为 AutoJack 的利用链，影响 AutoGen Studio 原型界面。不受信任的网页内容可访问本地 Model Context Protocol (MCP) WebSocket，从而在主机上生成任意进程。虽然 PyPI 版本未受影响，但这揭示了 AI Agent 框架中 localhost 信任边界的风险。开发者需确保控制平面经过认证和隔离，避免代理浏览不受信任页面时访问 privileged 本地服务，防止远程代码执行。该问题已在开发阶段被识别并修复，强调了在构建具备工具调用能力的 AI 系统时，必须严格划分信任域，防止恶意网页利用 Agent 权限渗透主机系统，保障本地环境安全。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/18/autojack-single-page-rce-host-running-ai-agent/",
+    "date": "2026-06-20",
+    "id": "17819934127491"
+  },
+  {
+    "title": "Signal CEO 警告：AI 聊天机器人不是你的朋友",
+    "summary": "Meredith Whittaker 提醒用户注意 AI 聊天机器人的隐私风险，强调其非人类本质。",
+    "detail": "Signal 总裁 Meredith Whittaker 公开警告用户，AI 聊天机器人并非朋友。她强调这些工具背后的商业动机和数据收集风险，呼吁用户保持警惕。这一言论反映了隐私倡导者对当前 AI 交互模式的担忧，特别是在情感依赖和数据隐私方面。用户应重新审视与 AI 服务的信任关系，避免过度分享敏感信息，确保个人数据安全不被滥用或泄露。Whittaker 指出，尽管 AI 表现出拟人化特征，但其本质是商业产品，用户需清醒认识交互背后的数据交换逻辑，保护个人隐私边界不受侵蚀。",
+    "tags": [
+      "News",
+      "Privacy",
+      "Ethics"
+    ],
+    "link": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+    "date": "2026-06-20",
+    "id": "17819934127492"
+  },
+  {
+    "title": "AI 真正瓶颈并非 GPU，而是电力工程师",
+    "summary": "数据中心扩张面临电力基础设施短缺，电力人才成为 AI 发展的关键限制因素。",
+    "detail": "尽管 GPU 和 RAM 供应紧张，但 Next Platform 分析指出电力工程师才是 AI 发展的真正瓶颈。以 TeraWulf 为例，数据中心从比特币挖矿转向 AI/HPC 后，电力基础设施扩容成为关键。Schneider Electric 等公司提供液冷和电力套件，表明物理基础设施和人才短缺比芯片更难解决，影响 AI 规模化部署。电力供应稳定性直接决定了数据中心能否支持高功耗 AI 集群运行。随着 AI 算力需求指数级增长，电网改造和专业电力人才培养成为制约行业扩张的核心因素，硬件短缺之外隐忧浮现。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Hardware"
+    ],
+    "link": "https://www.nextplatform.com/compute/2026/05/28/gpus-and-ram-are-in-short-supply-but-the-real-bottleneck-for-ai-is-electricians/5247566",
+    "date": "2026-06-20",
+    "id": "17819934127493"
+  },
+  {
+    "title": "开发者分享：与 AI 协作编程的核心经验",
+    "summary": "HackerNews 讨论聚焦 AI 编程工作流转变，提示词工程与信任边界成为关键话题。",
+    "detail": "HackerNews 热门讨论探讨了开发者与 AI 协作的“顿悟时刻”。许多开发者表示工作流完全转变，关键在于何时信任输出、如何调整提示词以及技术栈的选择。这反映了 AI 编程工具已从实验性走向主流，开发者正在摸索最佳实践模式，以提高效率同时避免过度依赖带来的风险。社区经验表明，理解 AI 局限性比盲目信任更能提升开发质量与速度。随着工具成熟，开发者需建立新的代码审查机制，确保 AI 生成代码的安全性，同时利用其加速原型开发，实现人机协作效率最大化。",
+    "tags": [
+      "Dev",
+      "Community",
+      "Coding"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48613022",
+    "date": "2026-06-20",
+    "id": "17819934127494"
+  },
+  {
+    "title": "Botacts：AI 机器人电话簿上线",
+    "summary": "新平台 Botacts 收录各类 AI 机器人，支持 Telegram、SMS 等多种交互渠道。",
+    "detail": "Show HN 项目 Botacts 推出了 AI 机器人目录，旨在成为 AI 机器人的“电话簿”。平台收录了包括会议调度、烹饪建议、图像生成等多种功能的机器人，支持 Telegram 和 SMS 交互。这降低了用户发现和使用特定功能 AI 代理的门槛，展示了 AI 应用向轻量化、多渠道服务发展的趋势。用户无需安装 App 即可通过短信或聊天软件获取 AI 服务，便捷性显著提升。该目录聚合了分散的 AI bot 资源，帮助用户快速找到适合特定场景的自动化助手，促进了 AI 代理生态的可见性与互联互通。",
+    "tags": [
+      "New",
+      "Product",
+      "Directory"
+    ],
+    "link": "https://botacts.com",
+    "date": "2026-06-20",
+    "id": "17819934127495"
+  },
+  {
     "title": "AgentLine 发布：为 AI Agent 赋予真实电话号码",
     "summary": "支持 AI 代理拨打/接听电话，实时转录音频流，集成 Hermes 等模型。",
     "detail": "AgentLine 推出全新 AI 电话 API，允许 AI 代理（如 Hermes、OpenClaw）拥有真实手机号。核心功能包括双向语音通话、SMS 短信及实时音频流转录，通过 Webhook 返回 clean JSON 给 agent。支持美加号码，新用户注册送$2.20 额度。该技术解决了 AI 代理与现实通信网络交互的难题，实现 Prompt-to-Call 设置流。用户可 instruct agent 获取号码并拨打，体验实时双向对话，为客服、预约及验证场景提供新方案，大幅降低集成门槛。开发者无需处理底层音频流，AgentLine 负责转录并发送结构化数据，简化了 Voice AI 的开发流程，是构建自主电话代理的关键基础设施。",
@@ -1220,83 +1298,5 @@
     "link": "https://techcrunch.com/2026/06/18/almost-half-of-u-s-singles-feel-negatively-about-ai-in-dating-match-says/",
     "date": "2026-06-18",
     "id": "17818110715574"
-  },
-  {
-    "title": "Coinbase 推出 AI 投资顾问，进军传统金融领域",
-    "summary": "Coinbase 推出 AI 顾问及股票期权服务，向全能金融平台转型。",
-    "detail": "Coinbase 正在大幅扩展其金融服务版图，正式推出 AI 投资顾问功能，并涉足股票期权与 IPO 前市场。此举标志着加密货币交易所向全能金融平台的转型，试图通过 AI 技术降低用户投资门槛。文章指出，该平台正扩展到投资、衍生品和银行服务。行业影响深远，可能引发传统券商与加密平台的竞争加剧，同时也引发了关于 AI 金融建议合规性的新讨论。对于投资者而言，这意味着更便捷的服务，但也需警惕 AI 建议的潜在风险。整体来看，这是 AI 落地金融场景的重要案例，展示了 AI 在复杂决策中的辅助作用。",
-    "tags": [
-      "News",
-      "Finance",
-      "AI Adviser"
-    ],
-    "link": "https://www.coindesk.com/business/2026/06/16/coinbase-intoduces-ai-advisor-stock-options-and-pre-ipo-markets-in-finance-push",
-    "date": "2026-06-18",
-    "id": "17818004982180"
-  },
-  {
-    "title": "软件自由保守协会发布 LLM 与开源合规建议",
-    "summary": "SFC 发布关于 LLM 生成式 AI 与开源软件合规的最新建议指南。",
-    "detail": "软件自由保守协会（Software Freedom Conservancy）正式发布了关于 LLM 支持的生成式 AI 建议指南。该组织致力于维护开源软件用户的法律权利，此次发布旨在帮助 FOSS 贡献者 navigating 当前 AI 与开源交织的复杂局面。内容涉及 Copyleft 合规及潜在的法律诉讼风险。对于开发者和企业而言，这是一份重要的合规参考，明确了在使用 LLM 生成代码或内容时的法律边界。行业影响在于可能推动更多企业重视 AI 生成内容的版权溯源，促进开源生态与 AI 技术的良性共存。",
-    "tags": [
-      "News",
-      "Legal",
-      "FOSS"
-    ],
-    "link": "https://sfconservancy.org/news/2026/jun/18/llm-backed-generative-ai-recommendations/",
-    "date": "2026-06-18",
-    "id": "17818004982181"
-  },
-  {
-    "title": "Vibesurfer：专为 AI 代理设计的轻量级浏览器",
-    "summary": "发布 token 高效的 AI 代理浏览器，无需 Chromium 即可运行。",
-    "detail": "Vibesurfer 是一款专为本地 AI 代理设计的真实浏览器，旨在解决 Agent 测试 Web 应用时的痛点。与传统方案不同，它不依赖 Chromium 或 CDP，实现了更高的 token 效率。项目通过 GitHub 开源，支持 CI 工作流和引擎测试。核心技术点在于让 Agent 能够直接通过浏览器交互，而非简单的 API 调用，这对于需要视觉反馈或复杂 DOM 操作的 AI 任务至关重要。它的出现降低了 AI Agent 开发的技术门槛，为本地部署的 AI 模型提供了更强大的工具链支持，是 Agent 基础设施领域的重要创新。",
-    "tags": [
-      "New",
-      "Agent",
-      "Browser"
-    ],
-    "link": "https://github.com/frane/vibesurfer",
-    "date": "2026-06-18",
-    "id": "17818004982182"
-  },
-  {
-    "title": "AI 管道监控缺失：概率系统调试面临挑战",
-    "summary": "深度分析 AI 管道监控缺失问题及概率系统调试难点。",
-    "detail": "The New Stack 发布文章指出，当前的 AI 管道往往存在断裂，而传统仪表盘无法有效监控。文章重点探讨了概率性 AI 系统的调试难题，强调现有工具难以捕捉 AI 行为的不确定性。背景在于随着 AI 应用复杂度增加，可观测性成为瓶颈。核心技术点涉及如何建立针对非确定性输出的监控机制。行业影响方面，这揭示了 MLOps 领域的现存短板，呼吁开发者关注 AI 系统的稳定性与可解释性。对于运维团队，这意味着需要升级监控策略，以适应 AI 模型特有的概率性特征，避免潜在的生产事故。",
-    "tags": [
-      "Dev",
-      "Ops",
-      "Debugging"
-    ],
-    "link": "https://thenewstack.io/debugging-probabilistic-ai-systems/",
-    "date": "2026-06-18",
-    "id": "17818004982183"
-  },
-  {
-    "title": "深度分析：AI 的认知上限比预期更低",
-    "summary": "文章质疑 AI 长期被低估论，指出当前范式存在认知上限。",
-    "detail": "Medium 文章《The AI Ceiling Is Lower Than Anyone Is Saying》对当前 AI 热潮提出批判性观点。作者认为'AI 短期被高估，长期被低估'的说法部分源于金融叙事而非技术现实。核心论点指出 LLM 的效用局限于符号域，软件工程生产力难以量化。若要从统计学习范式突破，需根本性的 paradigm  shift。行业影响在于提醒投资者和开发者理性看待 AI 能力边界，避免盲目跟风。这对于调整技术路线图和预期管理具有重要参考价值，强调了 epistemological ceiling（认知上限）的存在，呼吁关注基础范式的创新而非仅靠算力堆叠。",
-    "tags": [
-      "News",
-      "Analysis",
-      "Hype"
-    ],
-    "link": "https://addozhang.medium.com/the-ai-ceiling-is-lower-than-anyone-is-saying-765179051ece",
-    "date": "2026-06-18",
-    "id": "17818004982184"
-  },
-  {
-    "title": "Safari 反对 WebMCP API，倡导通用 Web 标准",
-    "summary": "Safari 团队认为 AI 代理应视同辅助技术，共用 HTML/ARIA 层。",
-    "detail": "Safari 团队正式反对 WebMCP API，主张 AI 代理应被视为辅助技术，通过 HTML 和 ARIA 等共享层操作网站，而非单独区分。此举旨在确保 Web 改进同时惠及人类用户与无障碍技术，避免为 AI 单独 fork 语义层。这反映了浏览器厂商对 AI 集成架构的深层考量，强调平台共享层的重要性，防止 AI 优化损害普通用户体验。",
-    "tags": [
-      "News",
-      "Web Standards",
-      "AI Agents"
-    ],
-    "link": "https://cloudfour.com/thinks/improvements-to-web-for-ai-should-benefit-all-users/",
-    "date": "2026-06-18",
-    "id": "17817872908410"
   }
 ]
