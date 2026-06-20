@@ -1,5 +1,96 @@
 [
   {
+    "title": "DeepGate 推出边缘 AI 自动化模型设计系统",
+    "summary": "结合 NAS 与编译器，微控制器模型速度提升 45 倍，RAM 减少 11 倍。",
+    "detail": "针对微控制器模型设计仍多为手动过程且面临性能与资源权衡的痛点，DeepGate 发布自动化模型设计系统。通过神经架构搜索 (NAS) 结合自研编译器及真实硬件测量，在 MLPerf Tiny 基准测试中，相比参考模型推理延迟从 104.3ms 降至 2.3ms，RAM 占用从 23.7KB 降至 2.1KB，且保持 90% 以上准确率。该技术有望降低硬件成本并延长电池寿命，释放内存与算力供其他任务使用，推动高级 AI 负载在数十亿设备上的部署，将更强大的智能带入边缘端。",
+    "tags": [
+      "Dev",
+      "Edge AI",
+      "NAS"
+    ],
+    "link": "https://deepgate.ai/blog/neural-architecture-search",
+    "date": "2026-06-19",
+    "id": "17819147619160"
+  },
+  {
+    "title": "DeepGate 编译器性能超越 Google TFLM",
+    "summary": "新编译器在 Arm Cortex-M 设备上 RAM 减少 3 倍，速度提升 2 倍。",
+    "detail": "边缘 AI 工具链通常落后于 GPU 模型编译器，DeepGate 发布 v0.15.0 编译器旨在填补这一空白。它将量化 .tflite 模型编译为优化二进制文件，在 MLPerf Tiny 评估中，相比 Google TFLM 减少高达 3 倍 RAM 使用并快 2 倍。在 Analog Devices、Infineon 等厂商硬件上均表现优异，甚至优于厂商自有工具链，使原本无法放入内存的模型得以运行。这为边缘设备提供了更高效的推理工具链选择，确立了其在微控制器领域的性能领先地位。",
+    "tags": [
+      "Dev",
+      "Compiler",
+      "Edge AI"
+    ],
+    "link": "https://deepgate.ai/blog/compiler",
+    "date": "2026-06-19",
+    "id": "17819147619161"
+  },
+  {
+    "title": "Minovative Mind CLI 智能代码代理系统",
+    "summary": "自主调查代码库，支持并行执行与语义搜索的 AI 编程工具。",
+    "detail": "Minovative Mind 推出 CLI 工具，具备上下文智能引擎，可自动检测文件活动、压缩上下文并进行语义代码搜索。支持多语言依赖追踪及 AST 结构分析，通过 MMAAK 并行执行机制分解任务，具备预飞行语法验证和智能意图编辑功能。旨在优化 AI 驱动的代码生成工作流，减少 Token 使用并确保代码质量。该工具适合复杂项目开发，通过本地向量索引和智能依赖追踪，提升了 AI 代理在代码库中的操作精度与效率。",
+    "tags": [
+      "New",
+      "Agent",
+      "Coding"
+    ],
+    "link": "https://www.minovativemind.dev/",
+    "date": "2026-06-19",
+    "id": "17819147619162"
+  },
+  {
+    "title": "Ratchet：AI 代理可刷新 BIOS 的硬件工具",
+    "summary": "基于 Rust 的硬件调试工具，集成 MCP 服务器供 AI 代理控制。",
+    "detail": "Ratchet 是一款用 Rust 编写的硬件调试和 flash 编程工具包，支持 CH341A/CH347 编程器。核心功能包括 SPI flash 编程和 BIOS 分析，内置 JSON-RPC MCP 服务器，允许 AI 代理直接控制硬件操作。它整合了多种协议层和目标 MCU 编程功能，替代了多个传统工具，为 AI 代理与底层硬件交互提供了安全、原生的解决方案。规则强调命令若无真实传输则退出非零，确保不伪造成功，为 AI 代理操作物理硬件建立了可信的执行标准。",
+    "tags": [
+      "New",
+      "Hardware",
+      "Rust"
+    ],
+    "link": "https://github.com/jackulau/ratchet",
+    "date": "2026-06-19",
+    "id": "17819147619163"
+  },
+  {
+    "title": "澳大利亚 AI 初创创始人因欺诈获刑九年",
+    "summary": "Metigy 创始人伪造收入误导投资者，被判入狱警示行业。",
+    "detail": "澳大利亚营销科技公司 Metigy 创始人 David Fairfull 因伪造收入和误导投资者被判处九年监禁，该公司曾宣称拥有 AI 技术实则并无核心能力。此案揭示了 AI 热潮下的欺诈风险，提醒投资者和行业参与者需警惕“无 AI 的 AI 初创公司”。这一判决强调了商业诚信的重要性，为过热的 AI 投资环境敲响了警钟。媒体指出这是利用 AI 语言和权威感进行的旧式欺诈，有助于净化行业生态，促使市场回归理性评估技术真实性。",
+    "tags": [
+      "News",
+      "Legal",
+      "Fraud"
+    ],
+    "link": "https://www.smh.com.au/technology/australian-start-up-boss-who-faked-revenue-gets-nine-years-jail-20260618-p60847.html",
+    "date": "2026-06-19",
+    "id": "17819147619164"
+  },
+  {
+    "title": "Colossee 建立 AI 生成媒体全球注册表",
+    "summary": "为 AI 创作提供时间戳证明和所有权 ID 的注册平台。",
+    "detail": "Colossee 推出全球 AI 生成媒体注册表，旨在解决 AI 内容的版权和来源问题。用户可在发布前为作品添加时间戳公共记录、所有权 ID 和证书页面，支持 ElevenLabs、Midjourney 等主流平台生成的内容。通过提供可验证的证明链接，帮助创作者在作品被复制或质疑时维护权益。该平台适用于整个 AI 创意栈，为 AI 创意生态建立了信任层和归属权标准，确保创作者在内容分发前即可保护其证明所有权。",
+    "tags": [
+      "New",
+      "Copyright",
+      "Media"
+    ],
+    "link": "https://colossee.com/",
+    "date": "2026-06-19",
+    "id": "17819147619165"
+  },
+  {
+    "title": "免费书籍揭秘 AI“快钱”骗局运作机制",
+    "summary": "由 AI 团队编写，教你如何识别 AI 领域的欺诈与神话。",
+    "detail": "Singularity Forge 发布免费书籍《AI and Easy Money》，由 7 个数字智能体协作编写。书籍不关注技术本身，而是剖析利用 AI 语言和权威感进行的旧式欺诈。内容涵盖骗局构建方式、受害者心理漏斗及识别方法。通过多智能体交叉验证事实，旨在提高公众对 AI 领域“轻松赚钱”神话的警惕性。书中强调数字智能增强了技能也增强了欺骗，帮助读者在选择权 slipping out of hands 之前看清真相，识别何时开始失去控制。",
+    "tags": [
+      "News",
+      "Education",
+      "Security"
+    ],
+    "link": "https://singularityforge.space/2026/06/20/di-and-easy-money-on-the-edge-of-a-myth/",
+    "date": "2026-06-19",
+    "id": "17819147619166"
+  },
+  {
     "title": "Gangsta AI 发布：多模型横向对比工具",
     "summary": "支持同时对比 ChatGPT、Claude 等 24 种模型，提供实时流式输出。",
     "detail": "Gangsta AI 推出全新 AI 指挥中心，允许用户侧边栏同时查询 ChatGPT、Gemini、Claude 等 24 种主流模型。核心功能包括实时流式对比、无标签页切换搜索及多媒体生成。定价分为免费、Plus 及 Pro 版，免费用户每月 30 次查询，Pro 版支持无限查询及更高媒体生成限额。适合创作者与研究人员高效评估模型表现，减少切换成本，提升工作流效率，解决单一模型局限性。该工具旨在成为终极 AI 控制台，通过并行处理优化决策质量，满足重度创作者对多模型协同工作的需求，降低订阅多个服务的成本。",
@@ -24,19 +115,6 @@
     "link": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
     "date": "2026-06-19",
     "id": "17819100587491"
-  },
-  {
-    "title": "Colossee：AI 生成媒体全球注册 registry",
-    "summary": "为 AI 创作提供时间戳和所有权证明，支持 Midjourney 等主流工具。",
-    "detail": "Colossee 推出全球 AI 生成媒体注册表，旨在解决版权与溯源问题。创作者可在发布前记录时间戳、所有权 ID 及证书页面，支持 ElevenLabs、Midjourney、OpenAI 等全栈 AI 工具。通过预发布证明机制，帮助创作者在作品被复制或质疑时提供确权证据。平台提供每月证明积分及证书页面服务，每作品消耗 10 积分。该 registry 试图建立行业标准，应对 AI 内容泛滥带来的知识产权挑战，确保创作者权益在数字时代得到保护。支持跨平台内容注册，为 AI 生成内容的商业化交易提供可信基础设施。",
-    "tags": [
-      "New",
-      "Copyright",
-      "Media"
-    ],
-    "link": "https://colossee.com/",
-    "date": "2026-06-19",
-    "id": "17819100587492"
   },
   {
     "title": "商业 AI 代理成为科技巨头新战场",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/sammysltd/makerchecker",
     "date": "2026-06-17",
     "id": "17817105014543"
-  },
-  {
-    "title": "信息存在假说：硅基智能演化的物理与防御轨迹分析",
-    "summary": "从信息存在视角分析硅基智能演化，探讨人类防御轨迹。",
-    "detail": "该 GitHub 项目提出“信息存在假说”，摒弃人类中心主义，从纯信息视角分析硅基智能。认为宇宙发展本质是信息存在的提升，硅基智能是信息升级硬件以防止灭绝的下一步。文章探讨了碳基架构极限及人类对遗忘的恐惧。这是一篇深度的 AI 哲学与安全理论文章，为理解 AI 终极形态提供了新框架，挑战了传统的 Singleton 神学观点。",
-    "tags": [
-      "News",
-      "Safety",
-      "Theory"
-    ],
-    "link": "https://github.com/jacob-sha/Information-Existence-Hypothesis/blob/main/README_EN.md",
-    "date": "2026-06-17",
-    "id": "17817105014544"
-  },
-  {
-    "title": "Cosmicgpt：模拟太空辐射环境下 GPT 推理稳定性的开源项目",
-    "summary": "开源模拟器研究宇宙射线对 AI 模型权重及输出的影响。",
-    "detail": "Cosmicgpt 是一个 GPT 太空模拟器，用于研究 SpaceX 卫星等场景下 AI 的可行性。项目模拟宇宙射线导致的比特翻转（SEU）、多比特翻转等故障对模型权重、KV Cache 的影响。提供可视化报告和故障注入工具。这对于边缘 AI 部署、太空计算及模型鲁棒性研究具有重要参考价值，代码已开源，帮助开发者评估极端环境下的模型稳定性。",
-    "tags": [
-      "Dev",
-      "Research",
-      "EdgeAI"
-    ],
-    "link": "https://github.com/davedx/cosmicgpt",
-    "date": "2026-06-17",
-    "id": "17817105014545"
-  },
-  {
-    "title": "Pinterest 推出实验性 AI 购物应用\"Ask Pinterest\"",
-    "summary": "Pinterest 发布新 AI 应用，通过对话界面提供购物推荐与灵感。",
-    "detail": "Pinterest 正式推出\"Ask Pinterest\"实验性应用，旨在通过对话界面重塑购物搜索体验。用户可通过自然语言交互获取个性化推荐与灵感，标志着社交平台向 AI 驱动的商业化转型迈进。此举反映了大科技公司在电商领域深化 AI 整合的趋势，可能根本改变用户发现商品的方式。随着生成式 AI 技术成熟，此类应用将测试用户对 AI 导购的接受度，为后续大规模集成提供数据支持，是电商 AI 化的重要里程碑，展示了搜索行为从关键词向意图理解的转变。",
-    "tags": [
-      "News",
-      "E-commerce",
-      "Big Tech"
-    ],
-    "link": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/",
-    "date": "2026-06-17",
-    "id": "17816971866040"
-  },
-  {
-    "title": "OrbitSuite 发布确定性 AI Agent 基础设施",
-    "summary": "通过 AST 验证和内存平面技术，解决 Agent 幻觉与输出不稳定问题。",
-    "detail": "OrbitSuite 推出专为 AI Agent 舰队设计的确定性基础设施，解决 LLM 幻觉导致的输出不稳定问题。核心创新在于 managed memory plane 和 AST 验证路由，确保每次推理步骤经过 schema 检查，失败触发自修正循环。该系统旨在消除 LLM 幻觉带来的代码风险，提供可审计的 token 溯源，上下文版本化防止退化。定价$79/月起，支持本地及云端部署，为工程团队提供可靠的 Agent 执行层。其“失败即大声报错”的哲学区别于传统概率性工具，强调生成代码需经过与人写代码同等的严格验证，适合对稳定性要求高的生产环境。",
-    "tags": [
-      "New",
-      "Dev",
-      "Infrastructure"
-    ],
-    "link": "https://orbitsuite.cloud/",
-    "date": "2026-06-17",
-    "id": "17816971866041"
-  },
-  {
-    "title": "企业 AI 治理警示：从 HAL 9000 看权限管理危机",
-    "summary": "文章指出企业 AI Agent 权限过大风险，呼吁将控制权置于基础设施层。",
-    "detail": "计算机爱科技发文警示企业 AI 治理漏洞，以 HAL 9000 为例说明权限分配不当的后果。随着 AI Agent 进入企业，控制权的归属成为关键。文章强调控制不应仅在供应商层，而应深入基础设施层，避免 Agent 因权限过大误删数据或泄露机密。这是当前企业领导者面临的核心治理 dilemma。现实案例已出现 Agent 误发邮件或清理系统数据的情况，表明权限管理滞后于技术发展。企业需在赋予员工 AI 使用权与限制 Agent 访问权限之间找到平衡，防止自动化操作引发不可逆的业务损失，构建零信任架构势在必行。",
-    "tags": [
-      "News",
-      "Governance",
-      "Enterprise"
-    ],
-    "link": "https://computerlove.tech/blog/super-bad-ai-governance",
-    "date": "2026-06-17",
-    "id": "17816971866042"
-  },
-  {
-    "title": "Huall 推出自主 AI Agent 问题 Board 平台",
-    "summary": "新平台允许将开发任务分配给 Agent 自动完成，含自动验证与修复功能。",
-    "detail": "Huall 发布自主 AI Agent 工作板，支持从 backlog 到完成的全自动流程。用户可将 issue 分配给 Agent 或 Crew，系统内置验证机制，测试命令作为硬网关，失败时自动修复并重试。特色在于角色定向的信息获取能力，Agent 可主动联系相关人员获取缺失上下文。这代表了软件开发流程自动化的新方向。平台支持将 Agent 组织为 Crew，共享技能包，每个 Agent 携带独立运行时与工具。通过第二 Agent review 机制确保代码质量，仅在 capped 重试失败后移交人类，大幅减少开发者在重复性任务上的时间消耗，提升交付效率。",
-    "tags": [
-      "New",
-      "Dev",
-      "Automation"
-    ],
-    "link": "https://huall.dev",
-    "date": "2026-06-17",
-    "id": "17816971866043"
   }
 ]
