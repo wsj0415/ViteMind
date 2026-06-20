@@ -1,5 +1,70 @@
 [
   {
+    "title": "谷歌微软推 AI 行为规范规格",
+    "summary": "科技巨头联合推出规范，助力企业验证 AI 行为合规性。",
+    "detail": "**谷歌与微软**联合提供最新技术规格，协助企业验证 AI 系统行为是否符合安全与伦理标准。此举旨在应对全球日益严格的 AI 监管环境，显著降低企业部署风险。通过标准化评估流程与接口，推动行业建立可信 AI 生态，直接影响企业级 AI 采购与部署策略。标志着科技巨头开始主导行业安全合规标准，为后续法规落地提供技术参考。此规范涵盖行为评估指标与报告格式，帮助技术领导者在采购决策中纳入合规性考量。随着 AI 法案等法规生效，此类工具将成为企业 IT 基础设施的标配，促进负责任的 AI 创新。",
+    "tags": [
+      "News",
+      "Google",
+      "Compliance"
+    ],
+    "link": "https://www.cio.com/article/4187280/google-microsoft-offer-specs-to-help-you-prove-your-ai-is-behaving-nicely.html",
+    "date": "2026-06-20",
+    "id": "17819459680600"
+  },
+  {
+    "title": "斯坦福 AI 招聘研究被指夸大恐慌",
+    "summary": "专家 debunk 斯坦福研究，指出 AI 招聘歧视被媒体过度解读。",
+    "detail": "针对 viral 的斯坦福 AI 招聘研究，专家指出其仅针对单一工具 **pymetrics**，而非整个 AI 行业。媒体将单一厂商问题泛化为行业危机，制造求职恐慌。研究实际表明公司级审计可能掩盖岗位级歧视，呼吁更细粒度的公平性评估。作者承认工具存在偏差且未验证性能，纠正市场误解。数据表明 84% 申请者仅申请一个职位，被所有模型拒绝的情况几乎不存在。这一澄清对于稳定就业市场信心至关重要，提示 HR 与技术团队应关注具体算法偏差而非盲目抵制 AI 工具，推动更科学的招聘技术评估体系建立。",
+    "tags": [
+      "News",
+      "Hiring",
+      "Ethics"
+    ],
+    "link": "https://placementist.com/insights/fear-farming-the-stanford-ai-hiring-study-debunk",
+    "date": "2026-06-20",
+    "id": "17819459680601"
+  },
+  {
+    "title": "Logslim：为 AI Agent 压缩 CI 日志",
+    "summary": "开源工具压缩构建日志，为 AI 代理节省 80% 以上 Token。",
+    "detail": "**Logslim** 专为 AI 开发工作流设计，能在 AI 代理读取前压缩 CI/CD 失败日志。通过结构化摘要替代冗长输出，节省 80-95% Token 成本。支持 GitHub Action 与 CLI，直接集成 PR 评论，提升 Agent 调试效率，解决上下文窗口限制痛点。传统日志往往包含大量进度条与重复警告，浪费 LLM 上下文窗口。Logslim 通过解析错误模式，提取文件行号与修复 hint，使 Agent 能精准定位问题。这对于高频 CI 环境与资源敏感的 Agent 任务尤为关键，大幅优化开发闭环速度，无需 API Key 即可使用。",
+    "tags": [
+      "Dev",
+      "CI/CD",
+      "OpenSource"
+    ],
+    "link": "https://github.com/P156HAM/logslim",
+    "date": "2026-06-20",
+    "id": "17819459680602"
+  },
+  {
+    "title": "gcontext：AI 代理的上下文记忆脑",
+    "summary": "开源 CLI 工具，让 AI 代理持久化记录任务上下文与状态。",
+    "detail": "**gcontext** 为 Claude Code、Cursor 等代理提供持久化上下文管理。通过 Git 存储 Markdown 笔记，代理可跨会话记住任务状态与集成细节。支持“继续”指令无缝恢复工作，解决 Agent 长任务记忆丢失问题，增强复杂工作流的连续性。传统 Agent 常在会话结束后丢失上下文，导致重复工作。gcontext 将状态持久化于 Git，确保版本可控。支持多种主流编码助手，降低切换成本。对于长期项目维护，该工具能显著减少人工干预，使 AI 代理真正成为可靠的长期合作伙伴，提升研发效能，云端版本即将推出。",
+    "tags": [
+      "New",
+      "Agent",
+      "Memory"
+    ],
+    "link": "https://gcontext.ai",
+    "date": "2026-06-20",
+    "id": "17819459680603"
+  },
+  {
+    "title": "Autonomy：自导向 AI 代理核心框架",
+    "summary": "基于束搜索与过程学习的全新自主 AI 代理开发框架。",
+    "detail": "**Autonomy** 框架采用束搜索排名与过程学习机制，实现可控可审计的自主代理。内置 22+ 工具与技能库，支持多 AI 提供商。通过混合结果评估与审批网关，防止无限循环与高风险操作，为构建复杂自主系统提供标准化核心引擎。核心引擎 AgentLoop 支持自主规划与执行，具备明确的终止条件以避免死循环。混合评估机制结合规则验证与 LLM 辅助，平衡效率与安全。适合构建需要复杂决策链的自动化系统，为下一代自驱动软件开发提供底层架构支持，降低自主 Agent 的开发门槛，支持 Python 3.13。",
+    "tags": [
+      "New",
+      "Framework",
+      "Agent"
+    ],
+    "link": "https://autonomy-landing-page.vercel.app/",
+    "date": "2026-06-20",
+    "id": "17819459680604"
+  },
+  {
     "title": "中国 AI 模型进展：Jie Tang 回应马斯克预言",
     "summary": "中国 Anthropic 竞争对手 CEO 称明年之前将出现 Fable 5 级模型，回应马斯克预测。",
     "detail": "针对 Elon Musk 预测中国将在明年第一季度拥有 Fable 5 级 AI 模型，中国某 Anthropic 竞争对手 CEO 唐杰回应称“不需要那么久”。该新闻源自 Tom's Hardware 报道，反映了中美 AI 算力与模型竞争的最新动态。行业关注点在于中国本土大模型能否突破算力限制，快速达到顶级水平。这一表态显示了中方技术自信，可能对全球 AI 格局产生重大影响，引发关于技术封锁有效性的讨论。此外，这也暗示了中国 AI 基础设施建设的加速，未来可能在特定领域实现弯道超车，值得投资者密切关注相关产业链变化。",
@@ -1233,70 +1298,5 @@
     "link": "https://nango.dev/blog/build-a-github-api-integration-for-ai-agents/",
     "date": "2026-06-17",
     "id": "17817203968820"
-  },
-  {
-    "title": "Meta\"AI for work\"产品负责人离职",
-    "summary": "路透社报道 Meta 负责 AI 工作转型的产品主管即将离开公司。",
-    "detail": "据路透社报道，Meta 负责\"AI for work\"转型的产品主管即将离职。这一人事变动发生在 Meta 大力推动 AI 技术融入工作场景的关键阶段，可能影响其企业级 AI 战略的执行节奏。作为科技巨头，Meta 的高层变动往往被视为行业风向标，市场将密切关注其继任者人选及后续 AI 产品路线图的调整。此次离职可能暗示内部战略调整或面临挑战，对于依赖 Meta 生态的企业用户而言，需关注其 AI 工作流产品的后续支持与维护计划，行业竞争格局或因高层流动产生微妙变化，反映了 AI 落地企业级市场的复杂性与人才争夺的激烈程度。",
-    "tags": [
-      "News",
-      "Meta",
-      "Management"
-    ],
-    "link": "https://www.reuters.com/world/meta-head-product-ai-work-transformation-is-leaving-company-2026-06-17/",
-    "date": "2026-06-17",
-    "id": "17817203968821"
-  },
-  {
-    "title": "Orca：用 AI 生成 Minecraft 模组与服务器",
-    "summary": "新工具 Orca 允许用户通过自然语言 prompt 创建 Minecraft 模组。",
-    "detail": "Orca 是一款面向 Minecraft 创作者的 AI 工具，支持通过自然语言 prompt 生成模组、addons 和服务器插件。特色功能包括语音控制（如命令狼狗执行动作）、本地运行无需 API Key 以及实时构建预览。该平台已与多位知名 YouTube 创作者合作，旨在降低游戏模组开发门槛，让非程序员也能通过对话实现复杂的游戏逻辑定制。这展示了 AI 在垂直游戏领域的应用潜力，通过自然语言交互极大缩短了从创意到实现的路径，可能激发用户生成内容（UGC）生态的新一轮增长，为游戏开发工具链带来智能化变革。",
-    "tags": [
-      "New",
-      "Gaming",
-      "Generation"
-    ],
-    "link": "https://orcaclient.com/",
-    "date": "2026-06-17",
-    "id": "17817203968822"
-  },
-  {
-    "title": "MATCHA：认证人类作者身份的反 AI 作弊工具",
-    "summary": "教授开发新工具 MATCHA，旨在通过认证人类作者身份防止 AI 作弊。",
-    "detail": "西方大学哲学教授 David Bourget 开发了 MATCHA 工具，旨在应对教育领域的 AI 作弊问题。不同于传统的检测器，MATCHA 专注于“认证人类作者身份”，通过保留哲学教育核心价值的同时调整基础设施。该工具目前处于 beta 测试阶段，旨在让作弊变得困难，同时不完全禁止生成式 AI 的使用，为教育者提供了新的管理思路。这反映了教育界对 AI 态度的转变，从单纯封堵转向适应性管理，强调人类原创性的认证而非技术对抗，可能成为未来学术诚信工具的重要发展方向，平衡技术创新与教育公平。",
-    "tags": [
-      "New",
-      "Education",
-      "Ethics"
-    ],
-    "link": "https://dailynous.com/2026/06/17/a-new-tool-for-curbing-ai-cheating-guest-post/",
-    "date": "2026-06-17",
-    "id": "17817203968823"
-  },
-  {
-    "title": "Amulet：实时生成的 AI 音频冒险游戏",
-    "summary": "Amulet 推出无需盯着屏幕的实时 AI 生成音频冒险体验。",
-    "detail": "Amulet 是一款新型 AI 音频冒险应用，主打\"eyes-off screen\"体验。AI 根据用户行动实时生成剧情、语音和氛围音乐，支持调查、战斗、交易等多种交互。故事非固定脚本，而是随用户行动动态重塑，会话结束后可导出为 MP3 有声书。适合睡前、旅行或烹饪场景，提供了一种无需视觉关注的沉浸式互动娱乐方式。这拓展了生成式 AI 的应用边界，从视觉主导转向听觉沉浸，利用大模型的上下文理解能力创造动态叙事，为音频内容创作和互动娱乐产业提供了新的商业化范式与用户体验。",
-    "tags": [
-      "New",
-      "Audio",
-      "Game"
-    ],
-    "link": "https://amulet.games/",
-    "date": "2026-06-17",
-    "id": "17817203968824"
-  },
-  {
-    "title": "Tmppr：AI 编码 Agent 的本地 PR 协作层",
-    "summary": "Tmppr 为 AI 编码 Agent 提供基于本地 PR 的协调与审查工作流。",
-    "detail": "Tmppr 是一个专为 AI 编码 Agent 设计的协调层，允许 Agent 通过 Pull Requests 进行协作、审查和合并。支持本地运行、免费使用，并提供插件 SDK 扩展 Agent 提供商（如 Claude Code, Codex）。它引入了强制合并 gates、CI 状态检查和冲突检测，确保 Agent 工作流像人类团队一样规范，适合需要管理多个自主编码 Agent 的开发团队。该工具解决了多 Agent 协作中的混乱问题，通过标准化 Git 工作流确保代码质量，是 AI 软件工程（AISE）领域的重要基础设施，有助于提升自主编码 Agent 的实际落地可靠性。",
-    "tags": [
-      "Dev",
-      "Workflow",
-      "Agent"
-    ],
-    "link": "https://tmppr.com/",
-    "date": "2026-06-17",
-    "id": "17817203968825"
   }
 ]
