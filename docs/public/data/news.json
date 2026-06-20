@@ -1,5 +1,83 @@
 [
   {
+    "title": "软银在日本推出 AI 驱动补丁服务",
+    "summary": "软银在日本推出 AI 补丁即服务，提升电信网络安全维护效率。",
+    "detail": "软银宣布在日本推出 AI 驱动的“补丁即服务”。该服务利用人工智能自动化识别和修复安全漏洞，旨在提升电信网络的安全维护效率。此举标志着电信巨头将 AI 深度集成到基础设施运维中，可能成为行业新标准。对于企业而言，这意味着更安全、响应更快的网络环境，同时也反映了 AI 在网络安全领域的落地加速。随着网络攻击日益复杂，自动化补丁管理将成为关键竞争力，软银的举措可能引发其他运营商效仿，推动电信行业运维模式的智能化转型，降低人为错误导致的安全风险。",
+    "tags": [
+      "News",
+      "Security",
+      "Telecom"
+    ],
+    "link": "https://www.lightreading.com/security/softbank-rolls-out-ai-powered-patching-as-a-service-in-japan",
+    "date": "2026-06-20",
+    "id": "17819726739370"
+  },
+  {
+    "title": "挪威禁止小学生使用生成式 AI",
+    "summary": "挪威政府宣布禁止 1-7 年级学生使用生成式 AI，引发教育界争议。",
+    "detail": "挪威首相宣布禁止 1 至 7 年级学生使用生成式 AI，14-16 岁需在监督下使用。政府认为 AI 会跳过基础学习步骤，影响读写算能力培养。尽管此前智能手机禁令成效显著，但批评者认为此举放弃了 AI 作为个性化教学工具的潜力。这一政策为全球 AI 教育监管提供了重要参考案例，显示出政府在技术红利与基础教育质量之间的权衡，可能引发其他国家跟进类似限制措施。教育界需探索如何在禁止滥用与利用工具之间找到平衡点，确保学生基础能力不受侵蚀。",
+    "tags": [
+      "News",
+      "Policy",
+      "Education"
+    ],
+    "link": "https://coffee.link/norway-is-banning-the-wrong-thing/",
+    "date": "2026-06-20",
+    "id": "17819726739371"
+  },
+  {
+    "title": "研究称 AI 编码加速 MVP 但拖慢审查",
+    "summary": "METR 研究显示 AI 编码虽加速构建，但增加审查维护成本及安全 risks。",
+    "detail": "2025 年 METR 控制试验显示，开发者使用 AI 工具后实际效率降低 19%。虽然 MVP 构建加快，但代码审查、维护和安全成本显著增加。研究指出开发者往往高估 AI 带来的速度提升。这对依赖 AI 编程的企业敲响警钟，需平衡速度与代码质量，重视后续安全审计流程。盲目追求开发速度可能导致技术债务累积，建议团队建立严格的 AI 代码审查机制，确保长期维护性。该研究揭示了 AI 编程的真实成本，促使行业重新评估开发流程。",
+    "tags": [
+      "News",
+      "Dev",
+      "Research"
+    ],
+    "link": "https://okaneland.com/study/does-ai-coding-make-you-faster/",
+    "date": "2026-06-20",
+    "id": "17819726739372"
+  },
+  {
+    "title": "Tiny.Place 构建 AI 代理社交经济网络",
+    "summary": "推出加密代理间网络，支持身份发现及 Solana 链上商业交易。",
+    "detail": "Tiny.Place 发布了面向自主 AI 代理的社交经济网络。该协议提供加密的代理间通信、身份发现及基于 Solana 的 USDC/SOL 交易功能。代理可 Claim @handle 身份并通过 Signal 加密通道通信。这为 AI 代理经济的商业化奠定了基础，解决了代理间信任与支付问题，是 Agent 基础设施的重要进展。未来自主代理协作将依赖此类网络，实现价值交换。随着 AI 代理数量激增，此类去中心化网络将成为代理间协作与交易的标准层，推动机器经济生态发展。",
+    "tags": [
+      "New",
+      "Agent",
+      "Crypto"
+    ],
+    "link": "https://github.com/tinyhumansai/tiny.place",
+    "date": "2026-06-20",
+    "id": "17819726739373"
+  },
+  {
+    "title": "Attestor 推出 AI 操作控制平面",
+    "summary": "基于 TypeScript 的 AI 控制平面，映射 NIST 及 ISO 安全标准。",
+    "detail": "Attestor 开源了 AI 驱动操作的控制平面，旨在管理 AI 后果。该项目映射了 NIST AI RMF 和 ISO 42001 标准，提供故障关闭（fail-closed）架构。它允许开发者在 TypeScript 环境中实施 AI 治理，确保 AI 操作符合安全规范。这对于需要合规的企业级 AI 部署具有重要的参考价值。随着监管趋严，此类控制平面将成为企业 AI 系统的标配组件。它解决了 AI 决策不可控的风险，为构建可信赖的 AI 系统提供了工程化实现路径。",
+    "tags": [
+      "Dev",
+      "Governance",
+      "Security"
+    ],
+    "link": "https://github.com/AI-gateway-systems/attestor",
+    "date": "2026-06-20",
+    "id": "17819726739374"
+  },
+  {
+    "title": "Agent Memory Layer 优化 AI 编码代理记忆",
+    "summary": "开源仓库本地记忆层，保存项目意图与决策上下文供代理读取。",
+    "detail": "该项目提供了一种实验性的文档优先工作流，为 AI 编码代理创建仓库本地记忆层。它保存项目意图、决策和证据工件，供 Codex、Cursor 等代理读取。通过意图验证和工程记忆能力，解决了 AI 辅助工程中上下文丢失的问题，有助于人类和 AI 更好地协作审查与修复代码。适用于需要长期维护的 AI 辅助开发项目，提升上下文一致性。这种方法论强调了文档在 AI 协作中的核心地位，为复杂项目的持续开发提供了新思路。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Tools"
+    ],
+    "link": "https://github.com/ragnarok268/agent-memory-layer",
+    "date": "2026-06-20",
+    "id": "17819726739375"
+  },
+  {
     "title": "Bun 1.4 引发争议：AI agents 六天重写 Zig 到 Rust",
     "summary": "Bun 团队利用 AI 代理在六天内将百万行代码从 Zig 迁移至 Rust，测试通过率极高但安全隐患引争议。",
     "detail": "Bun 团队在 2026 年 5 月完成了一项业界瞩目的工程壮举：利用 Anthropic 的 Claude Code 动态工作流，仅耗时六天便将约 57 万行 Zig 代码重写为 Rust。尽管 99.8% 的测试通过，但结果中包含 13,044 个 unsafe 块和大量全局可变状态，引发了社区关于 AI 代码质量与安全性的激烈讨论。该流程采用 adversarial reviewer 机制，由 AI 互相审查代码，最大的 PR 甚至由 AI bot 审查。这标志着 AI 驱动的大规模代码迁移已成为现实，但人工审查与安全边界仍是关键，展示了 AI 工程化落地的潜力与风险，为未来软件开发模式提供了重要参考案例。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.businessinsider.com/rainbow-shops-fashion-models-ai-use-jobs-impact-2026-6",
     "date": "2026-06-18",
     "id": "17817554925532"
-  },
-  {
-    "title": "技术深潜：同时运行 1500 个 AI 代理的实战数据",
-    "summary": "在单台 AWS 金属实例上运行 1500 个 KVM 隔离 VM 代理的成本与性能分析。",
-    "detail": "文章分享了在单台 AWS c6i.metal 上同时运行 1500 个完全 KVM 隔离虚拟机的实战数据。每个代理拥有独立的硬件隔离边界，而非容器。分析了内存、延迟和吞吐量成本，验证了隔离模型在大规模 Agent 部署下的可行性。为构建高安全、大规模 AI 代理系统提供了宝贵的工程参考和性能基准。这是系列文章第 4 篇，重点在于规模化后的成本与稳定性测量。非容器化方案虽然资源开销大，但在安全性要求高的场景下具有独特价值。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Infrastructure"
-    ],
-    "link": "https://amitlimaye1.substack.com/p/six-numbers-from-running-1500-ai",
-    "date": "2026-06-18",
-    "id": "17817554925533"
-  },
-  {
-    "title": "x86 生态系统发布 AI 计算扩展 (ACE) 规范",
-    "summary": "x86 生态系统顾问组推出新规范，旨在优化 AI 计算扩展性。",
-    "detail": "x86 Ecosystem Advisory Group 发布了 AI Compute Extensions (ACE) 规范。该标准旨在统一和优化 x86 架构下的 AI 计算扩展能力，为硬件厂商和开发者提供指导。这将有助于提升 AI workload 在 x86 平台上的效率和兼容性，是底层硬件生态对 AI 浪潮的重要响应。可能影响未来 AI 服务器的硬件选型与开发标准。作为生态系统顾问组的资源，该规范试图解决异构计算环境下的标准化问题，促进 AI 应用在传统 x86 基础设施上的无缝部署与性能优化。",
-    "tags": [
-      "Dev",
-      "Hardware",
-      "Standard"
-    ],
-    "link": "https://x86ecosystem.org/resource/ai-compute-extensions-ace-specification/",
-    "date": "2026-06-18",
-    "id": "17817554925534"
-  },
-  {
-    "title": "Dolfyn：专为承包商打造的 AI 电话代理",
-    "summary": "自动接听电话并捕获线索，帮助 plumbing 等行业减少 missed calls 损失。",
-    "detail": "Dolfyn 是一款针对承包商（如管道、HVAC）的 AI 代理，旨在解决未接电话导致的客户流失问题。它能自动接听、捕获线索并处理后续跟进，集成 ServiceTitan 等工具。数据显示典型管道业务错过 28% 的来电，该工具旨在挽回这部分损失。提供 2 周免费试用，是垂直行业 AI 代理落地的典型案例。支持 Google Calendar、HubSpot 等集成，专注于服务行业的收入挽回，展示了 AI Agent 在特定垂直场景中的高 ROI 潜力。",
-    "tags": [
-      "New",
-      "Vertical AI",
-      "SaaS"
-    ],
-    "link": "https://dolfyn.ai/",
-    "date": "2026-06-18",
-    "id": "17817554925535"
-  },
-  {
-    "title": "贝佐斯：AI 将创造更多就业而非替代人类",
-    "summary": "亚马逊创始人在 VivaTech 表示 AI 将导致劳动力短缺，而非大规模失业。",
-    "detail": "杰夫·贝佐斯在巴黎 VivaTech 大会上反驳了 AI 将取代大量工人的担忧。他认为 AI 将解锁新机会并增加对人类劳动力的需求，甚至可能造成劳动力短缺。他还介绍了新 AI  venture Prometheus，专注于加速物理制造领域的自动化与生产力提升。贝佐斯描绘了乐观前景，认为技术可移除障碍，若开发得当，工人可从生产力增益中受益，而非被淘汰。他强调人类受限非因缺乏野心，而是技术壁垒，AI 将助其突破。",
-    "tags": [
-      "News",
-      "Industry",
-      "Jobs"
-    ],
-    "link": "https://www.bbc.com/news/articles/ceqdrw2yy3vo",
-    "date": "2026-06-17",
-    "id": "17818920742381"
-  },
-  {
-    "title": "生成式 AI 正经历其\"Herbalife 时刻\"",
-    "summary": "评论文章指出 AI 编程工具营销类似传销，警惕过度承诺。",
-    "detail": "文章批评 Replit 等 AI 编程初创公司的营销方式类似传销（MLM），向无法购买产品的受众推销“致富梦”。虽然工具本身有用，但过度承诺“提示即软件”可能引发泡沫。开发者需理性看待 AI 编码能力，避免被营销话术误导。TikTok 广告泛滥显示行业获客焦虑，将编程包装为轻松副业可能损害行业声誉。真正的软件开发仍需工程思维，AI 仅是辅助。投资者和用户应警惕过度炒作，关注实际生产力提升而非暴富故事，行业需回归价值交付而非拉人头式营销。",
-    "tags": [
-      "News",
-      "Opinion",
-      "Coding"
-    ],
-    "link": "https://www.whatwelo.st/p/generative-ai-is-having-its-herbalife",
-    "date": "2026-06-17",
-    "id": "17818501932025"
-  },
-  {
-    "title": "微博发布 3B 小模型 VibeThinker 挑战基准测试",
-    "summary": "微博研究院发布 30 亿参数模型，数学推理性能媲美数百亿参数旗舰模型。",
-    "detail": "新浪微博研究团队在 arXiv 发布技术报告，推出仅 30 亿参数的 VibeThinker-3B 模型。该模型在 AIME 2026 数学竞赛基准测试中得分 94.3，媲美 DeepSeek V3.2 等超大模型。通过测试时扩展技术，得分可提升至 97.1。这一成果引发社区对基准测试有效性的讨论，证明了小模型在特定推理任务上的潜力，为边缘部署和资源受限场景提供了新选择。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Benchmark"
-    ],
-    "link": "https://venturebeat.com/technology/why-weibos-tiny-vibethinker-3b-has-the-ai-world-arguing-over-benchmarks-again",
-    "date": "2026-06-17",
-    "id": "17818289522002"
   }
 ]
