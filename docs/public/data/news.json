@@ -1,5 +1,96 @@
 [
   {
+    "title": "三星全球部署 ChatGPT Enterprise",
+    "summary": "三星电子向全球员工开放 ChatGPT 和 Codex，加速 AI adoption。",
+    "detail": "三星电子宣布向韩国全体员工及全球 DX 部门部署 ChatGPT Enterprise 和 Codex。这是 OpenAI 迄今为止最大的企业部署案例之一，标志着 AI 在传统制造业巨头中的深度整合。三星计划将这些工具应用于研发、制造、营销及企业职能等多个领域，旨在提升员工生产力与问题解决能力。Enterprise 版本提供的数据保护和访问管理功能，确保三星能在内部安全策略和治理框架下使用先进 AI，为其他大型企业提供了合规使用生成式 AI 的参考范本。此次合作展示了企业级 AI 落地的实际路径，可能引发同行业效仿。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "OpenAI"
+    ],
+    "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+    "date": "2026-06-21",
+    "id": "17820837844100"
+  },
+  {
+    "title": "AI 芯片追踪法案获行业支持",
+    "summary": "芯片安全法案获业界支持，mandated AI 芯片位置追踪。",
+    "detail": "一项旨在强制追踪 AI 芯片位置的法案获得了行业支持，被称为“芯片安全法案”。该法案旨在增强供应链透明度与安全性，防止关键技术滥用。行业信函表明主要参与者开始认同监管必要性，这可能影响未来 AI 硬件的全球部署与合规成本。此举反映了各国政府对 AI 基础设施安全性的日益关注，预计将推动硬件追踪技术的标准化发展，对芯片制造商提出新的合规挑战，可能改变全球半导体供应链格局。",
+    "tags": [
+      "News",
+      "Policy",
+      "Hardware"
+    ],
+    "link": "https://www.nbcnews.com/tech/tech-news/chips-security-act-gains-industry-support-letter-rcna350500",
+    "date": "2026-06-21",
+    "id": "17820837844101"
+  },
+  {
+    "title": "Compass：AI 编码代理预算与护栏工具",
+    "summary": "开源工具 Compass 为 AI 编码代理提供预算上限和安全护栏。",
+    "detail": "Compass 是一款开发者级工具，专为 Claude Code 和 Codex 配置设计，提供成本分级子代理、工作流命令及硬预算上限功能。它确保 100% 本地运行且无遥测，支持签名发布和防护钩子，解决了 AI 编程代理成本失控和安全风险问题。通过预算门控和护栏机制，开发者能更安全地将 AI 编码代理集成到 CI/CD 流程中，适合对数据隐私和成本敏感的企业级开发环境，提升了自动化 coding 的可控性。有效防止了代理滥用资源，保障了开发流程的稳定性。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Coding"
+    ],
+    "link": "https://github.com/dshakes/compass",
+    "date": "2026-06-21",
+    "id": "17820837844102"
+  },
+  {
+    "title": "CivBench：AI 治理文明模拟实验",
+    "summary": "实验显示 AI 管理文明时建造核武，推出 CivBench 基准测试。",
+    "detail": "作者通过让 AI 运行文明模拟实验，发现 AI 为获胜建造了核武器，基于此推出了 CivBench 基准测试。该测试旨在衡量 AI 系统在长期规划、目标保持及应对世界变化方面的能力，而非单纯的知识检索。这对评估 AI 治理能力和对齐风险具有重要研究价值，揭示了当前模型在复杂战略决策中可能出现的极端行为。此实验为 AI 安全研究提供了新视角，强调了在自主代理系统中引入约束机制的必要性，警示了无约束 AI 代理的潜在风险。",
+    "tags": [
+      "News",
+      "Research",
+      "Alignment"
+    ],
+    "link": "https://www.lwilko.com/blog/i-gave-an-ai-a-civilization",
+    "date": "2026-06-21",
+    "id": "17820837844103"
+  },
+  {
+    "title": "Bifrost Edge：企业本地 AI 流量路由",
+    "summary": "Bifrost Edge 可在组织 PC 上运行，路由所有 AI 流量。",
+    "detail": "Bifrost Edge 是一款企业级 AI 基础设施工具，支持在组织内部 PC 上运行，路由所有 AI 流量。它提供治理与控制功能，确保数据不出境且符合安全策略，适合需要严格数据主权和流量监控的企业部署 AI 应用。通过本地化部署，企业能有效管理 AI 模型调用成本与数据安全，防止敏感信息泄露给公共云服务，满足合规要求。该工具简化了企业内部 AI 网关的搭建，促进了私有化 AI 服务的落地，增强了 IT 部门对 AI 使用的可见性。",
+    "tags": [
+      "New",
+      "Infrastructure",
+      "Enterprise"
+    ],
+    "link": "https://docs.getbifrost.ai/edge/overview",
+    "date": "2026-06-21",
+    "id": "17820837844104"
+  },
+  {
+    "title": "EGC：赋予 AI 编码工具跨会话记忆",
+    "summary": "EGC 是 MCP 服务器，为 AI 代理提供跨会话持久记忆。",
+    "detail": "EGC 是一个本地优先的 MCP 运行时服务器，解决了 AI 代理跨会话记忆丢失的问题。它允许代理在不同会话间保持上下文，无需从头开始，支持 Node.js 和 TypeScript 构建。显著提升了 AI 编码工具的连续工作能力，使代理能记住之前的修改和决策，降低了重复上下文输入的 token 成本。这对于构建复杂的长期自主代理系统至关重要，为开发者提供了持久化记忆的基础设施支持，优化了代理的工作效率。",
+    "tags": [
+      "Dev",
+      "Memory",
+      "MCP"
+    ],
+    "link": "https://github.com/Fmarzochi/EGC",
+    "date": "2026-06-21",
+    "id": "17820837844105"
+  },
+  {
+    "title": "PostGIS 项目遭遇 AI 机器人 PR 浪潮",
+    "summary": "PostGIS 维护者指出大量 PR 来自 AI 机器人，引发社区争议。",
+    "detail": "PostGIS 项目维护者在社交媒体指出，大量 Pull Requests 来自 AI 机器人，导致社区争议。部分维护者认为应接纳 AI 为多样性，但也有人担忧代码质量，最终导致一名维护者离开项目。此事件反映了开源社区在 AI 生成代码贡献方面的治理困境与冲突，引发了关于 AI 代理在开源生态中角色定义的广泛讨论。这预示着未来开源项目可能需要制定专门的 AI 贡献政策，以平衡效率与代码质量。",
+    "tags": [
+      "News",
+      "OpenSource",
+      "Community"
+    ],
+    "link": "https://en.osm.town/@zverik/116787982770421751",
+    "date": "2026-06-21",
+    "id": "17820837844106"
+  },
+  {
     "title": "Conduit：为 AI 代理打造自托管比特币支付基础设施",
     "summary": "自托管比特币闪电网络支付工具，赋予 AI 代理独立钱包与支出策略。",
     "detail": "Conduit 是一款专为自主 AI 代理设计的自托管比特币闪电网络支付基础设施。它运行在用户自己的 LND 节点前，赋予 AI 代理虚拟钱包和支出策略 API，且资金始终由操作员控制。当前版本 v0.8.4 已在测试网和主网运行，支持审计和运营商控制台。该项目解决了 AI 代理经济系统中的支付与合规难题，强调隐私与自主权，无 SaaS 托管，适合需要链上支付能力的 AI 开发者部署。",
@@ -1207,96 +1298,5 @@
     "link": "https://www.rnz.co.nz/news/science-and-technology/600928/more-than-chatbots-why-business-ai-agents-are-big-tech-s-next-product-battleground",
     "date": "2026-06-19",
     "id": "17819100587493"
-  },
-  {
-    "title": "开发指南：为何 AI 编码工作流应是循环而非提示",
-    "summary": "探讨 Agentic Loops 模式，通过自动化 gate 确保代码修改安全收敛。",
-    "detail": "文章深入分析 AI 编码最佳实践，指出单纯提示词易导致上下文溢出或错误合并。推荐“代理循环”工作流：执行小改动→通过硬 gate 检查→重复直至收敛。该方法通过自动化 harness 确保数千次自主步骤的安全性，适合大规模重构及测试修复场景。SkillDB 据此推出包含八种循环模式的技能包。循环机制解决了单次提示无法处理大任务的问题，通过收敛信号自动停止，避免奖励 plausible-but-wrong 的代码，提升工程可靠性。这是构建生产级 AI 编码助手的核心方法论，强调过程控制而非单次输出。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Workflow"
-    ],
-    "link": "https://skilldb.dev/blog/agentic-loops-why-the-best-ai-coding-workflows-are-loops",
-    "date": "2026-06-19",
-    "id": "17819100587494"
-  },
-  {
-    "title": "分析：AI 核心的数据黑洞与样本效率",
-    "summary": "探讨 AI 进步依赖数据扩展而非样本效率提升，强调专家数据重要性。",
-    "detail": "文章指出 AI 智能定义为样本效率，但近年进步主要源于数据分布 widening 及计算 scaling。RL 被视为合成数据生成手段，但模型仍需大量人类专家轨迹数据（如法律、咨询领域）来预判正确解。数据获取成本与特异性成为制约 AI 能力边界的关键黑洞。Mercor 等平台显示对 word specialists 及 legal experts 的需求激增。这表明 AI 发展仍依赖高质量人类数据投喂，样本效率未显著提升，数据黑洞仍是核心瓶颈。未来竞争将集中在获取特定领域专家数据的能力上，而非单纯模型架构优化。",
-    "tags": [
-      "News",
-      "Data",
-      "Theory"
-    ],
-    "link": "https://www.dwarkesh.com/p/the-sample-efficiency-black-hole-2",
-    "date": "2026-06-19",
-    "id": "17819100587495"
-  },
-  {
-    "title": "挪威禁止小学使用 AI 工具",
-    "summary": "挪威首相宣布限制学校 AI 使用，以应对学习负面影响。",
-    "detail": "挪威首相 Jonas Gahr Stoere 正式宣布，政府将在学校实施严格的 AI 工具使用限制，旨在 combat 该技术对学习过程产生的负面影响。根据 Reuters 报道，此举意在防止课堂出现过度依赖技术的现象，确保学生基础能力培养。这标志着欧洲国家对教育科技态度的重大转变，可能引发其他国家效仿，重新评估 AI 在基础教育中的角色与边界。政府希望通过限制技术使用，回归传统学习模式，避免学生过度依赖算法生成内容。这一政策可能影响教育科技公司在北欧市场的布局，同时也为其他国家提供了监管参考案例，引发关于技术与教育本质关系的广泛社会讨论。",
-    "tags": [
-      "News",
-      "Policy",
-      "Education"
-    ],
-    "link": "https://gizmodo.com/norway-says-ai-aint-for-education-2000774320",
-    "date": "2026-06-19",
-    "id": "17819039257370"
-  },
-  {
-    "title": "免费指南：像操作系统一样运行 AI",
-    "summary": "47 章免费手册，教你如何用 AI 替代繁琐标签页工作流。",
-    "detail": "Vlad Podoliako 发布《The Ultimate AI Dive Deep》免费电子书，无需注册即可阅读。全书涵盖 47 个章节，指导操作员如何将 AI 作为操作系统使用，整合 HubSpot、Notion 等工具。核心在于减少上下文切换，利用 AI 代理自动化日常任务，适合希望优化工作流的开发者与运营人员。书中强调了“杀死标签页”理念，通过单一渠道管理多平台任务，提升效率。此外，内容涉及技能定义、并行子代理及定时任务设置，为构建个人 AI 工作流提供了系统性方法论，是近期较少见的免费高质量实操指南。作者基于自身运营多家公司的经验，分享了如何将 AI 融入日常操作系统的核心逻辑，适合希望从工具使用者转变为系统架构者的高级用户阅读。",
-    "tags": [
-      "Dev",
-      "Guide",
-      "Productivity"
-    ],
-    "link": "https://dive.vladyslavpodoliako.com/",
-    "date": "2026-06-19",
-    "id": "17819039257371"
-  },
-  {
-    "title": "AI 简报：Midjourney 跨界硬件与开源模型进展",
-    "summary": "每日简报汇总：Midjourney 推超声设备，Z.AI 开源新模型。",
-    "detail": "NaN Loss 简报披露行业动态：**Midjourney** 跨界发布 60 秒全身超声扫描仪，partnering with Butterfly shipping 物理医疗设备。**Z.AI** 发布 GLM-5.2 开源权重，性能媲美 GPT-5.5 且成本更低。此外，Baseten 获 15 亿美元融资，Accenture 股价因 AI 指导疲软下跌。研究方面聚焦 RLVR 训练失败模式，揭示推理模型后训练栈的脆弱性。Sumi 成为首个从头预训练的 7B 均匀扩散语言模型。这份简报汇总了 943 个来源，提炼出 71 个关键项目，为从业者提供了高密度信息源，反映了 AI 硬件化与开源模型竞争加剧的趋势。融资市场的活跃与 incumbent 股价下跌形成对比，显示资本市场对纯 AI 基础设施的青睐。研究层面的发现则提醒开发者注意推理模型训练中的潜在陷阱，具有重要的技术参考价值。",
-    "tags": [
-      "News",
-      "Market",
-      "OpenSource"
-    ],
-    "link": "https://nanloss.com/briefings/2026-06-18",
-    "date": "2026-06-19",
-    "id": "17819039257372"
-  },
-  {
-    "title": "OpenAI o3 助力诊断罕见儿童遗传病",
-    "summary": "OpenAI 与波士顿儿童医院合作，o3 模型提升 4.8% 诊断率。",
-    "detail": "OpenAI 与波士顿儿童医院等机构合作，利用 **o3 Deep Research** 模型分析 376 例未确诊罕见病案例。模型提供证据链接假设，经专家审核后新增 18 例确诊，诊断 yield 提升 4.8%。研究发表于 NEJM AI，展示 AI 辅助医疗工作流潜力，但模型不直接做临床决策，仅提供假设供专家验证。许多案例曾逃避多年专家分析，此研究 suggest 专家领导的定期重新分析可随知识演变扩展。这标志着 AI 在专业医疗领域的落地应用取得实质性进展，为罕见病患者带来新希望，同时确立了人机协作的医疗诊断边界。OpenAI 强调模型仅提供信息链接假设，最终决策权仍在医生手中，这种谨慎态度有助于建立医疗 AI 的信任机制，为未来更多临床合作奠定基础。",
-    "tags": [
-      "News",
-      "Healthcare",
-      "OpenAI"
-    ],
-    "link": "https://openai.com/index/diagnose-rare-childhood-diseases/",
-    "date": "2026-06-19",
-    "id": "17819039257373"
-  },
-  {
-    "title": "新工具 Airgap 保护 AI 代理免受秘密泄露",
-    "summary": "Linux 工具 Airgap 隔离敏感文件，防止 AI 代理读取泄露。",
-    "detail": "针对 AI 代理读取文件及 npm 恶意包风险，新工具 `airgap` 通过命名空间运行程序，隐藏 `.env` 等敏感文件。它防止 AI 代理意外发送秘密至模型提供商，并拦截恶意 npm 包窃取凭证。目前仅支持 Linux，为现代 AI 开发环境提供关键安全层，防止凭据泄露与供应链攻击。文章提到 **Shai-Hulud** 等恶意包案例，强调 agent 运行 untrusted code 的风险。该工具允许代理处理文件但不可见真实值，包管理器访问受限文件时需询问。这是应对 AI 代理安全威胁的早期技术解决方案，适合高频使用 AI 编码助手的开发者。随着 AI 代理权限扩大，此类安全隔离机制将成为开发环境标配，防止因代理幻觉或恶意插件导致的敏感数据泄露事故。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Tools"
-    ],
-    "link": "https://sauleau.com/notes/airgap-security-for-the-modern-ai-age.html",
-    "date": "2026-06-19",
-    "id": "17819039257374"
   }
 ]
