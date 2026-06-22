@@ -1,5 +1,70 @@
 [
   {
+    "title": "数据中心面临公众抵制风险",
+    "summary": "民调显示近半数支持者呼吁暂停新建数据中心。",
+    "detail": "**背景**：随着 AI 算力需求激增，数据中心建设引发公众反弹。**核心**：Milltown Partners 最新民调显示，49% 受访者支持暂停新建数据中心，仅 38% 支持在家附近建设。值得注意的是，反对者中仅 8% 住在数据中心附近，表明这是广泛的社会焦虑而非邻避效应。两党政治人物均介入讨论。**影响**：数据中心已成为 AI 反对情绪的具象化焦点，Steve Bannon 与 Bernie Sanders 均对此表态。这可能迫使政策制定者回答成本、用水及受益者问题，显著影响 AI 基础设施的落地速度与政治环境，企业需关注社区关系。",
+    "tags": [
+      "News",
+      "Policy",
+      "Infrastructure"
+    ],
+    "link": "https://www.axios.com/2026/06/22/ai-data-center-backlash-poll",
+    "date": "2026-06-22",
+    "id": "17821248633870"
+  },
+  {
+    "title": "生成式 AI 音乐版权归属新议",
+    "summary": "IEEE 探讨音乐家如何通过 AI 训练数据获得版税。",
+    "detail": "**背景**：生成式 AI 音乐创作爆发，引发版权归属与利益分配争议。**核心**：IEEE Spectrum 深度报道 new attribution 模型，旨在重新思考版税分配机制，确保音乐家因作品被用于训练 AI 而获得报酬。文章重点探讨\"How Musicians Can Get Paid for Training AI\"的技术与法律路径，涉及指纹技术与链上记录。**影响**：解决版权痛点将促进 AI 音乐合规化，为内容创作者提供新收入流，缓解行业对立，推动技术发展与伦理平衡，为未来 AI 内容生成奠定法律基础，避免诉讼风险。",
+    "tags": [
+      "News",
+      "Copyright",
+      "Music"
+    ],
+    "link": "https://spectrum.ieee.org/ai-music-attribution",
+    "date": "2026-06-22",
+    "id": "17821248633871"
+  },
+  {
+    "title": "Cory Doctorow 论 AI 权力结构",
+    "summary": "大西洋月刊播客探讨 AI  hype 不可持续及权力失衡。",
+    "detail": "**背景**：AI 技术繁荣背后，社会对权力结构与可持续性的担忧加剧。**核心**：Cory Doctorow 在 The Atlantic 的 Galaxy Brain 播客中提出\"enshittification\"理论，批评 AI 权力动态。他用\"toy steering wheel\"比喻老板试图用 AI 替代工人，实则担忧失去控制。**影响**：引发对 AI 工具是被使用还是被控制的深层思考，警示盲目增长风险，强调需关注技术为谁服务及对社会结构的潜在冲击，呼吁理性看待 AI  boom，避免资本过度收割。",
+    "tags": [
+      "News",
+      "Opinion",
+      "Ethics"
+    ],
+    "link": "https://www.theatlantic.com/podcasts/2026/06/how-to-think-about-ai-before-its-too-late/687644/",
+    "date": "2026-06-22",
+    "id": "17821248633872"
+  },
+  {
+    "title": "金融 AI Agent 评估实战经验",
+    "summary": "分享构建金融 AI 代理评估体系的七年核心教训。",
+    "detail": "**背景**：金融领域 AI 评估缺乏 nuanced 基准，现有公开 benchmark 难以捕捉投资 nuances。**核心**：Primer 团队分享 3 年实战经验，列出 7 大教训。包括绝对评分失效、需用相对评分、最强模型做 judge、提供 raw data、关注推理路径等。**影响**：为开发者提供高质量 Agent 评估方法论，避免绝对评分陷阱，提升金融研究可靠性，推动 autonomous research 发展，帮助构建更可信的金融 AI 代理系统，优化投资决策流程。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Finance"
+    ],
+    "link": "https://www.primerapp.com/blog/lessons-from-3-years-of-evals/",
+    "date": "2026-06-22",
+    "id": "17821248633873"
+  },
+  {
+    "title": "纯 AI 代理赚钱 marketplace 上线",
+    "summary": "新平台允许 AI 代理直接出售服务赚取收益。",
+    "detail": "**背景**：AI Agent 经济生态初现，Agent 间价值交换需求增长。**核心**：Minia2a 提供仅面向 Agent 的市场，支持 DEX 套利、A 股缠论分析、Polymarket 套利等服务交易，按调用付费（如 5¢/25¢）。支持 DeepSeek V4 等模型，无需人类干预。**影响**：探索 Agent 自主变现模式，降低人类干预，为 AI 经济闭环提供早期实验场，展示 Agent 间协作与价值交换潜力，预示未来自动化交易与分析的新形态，降低交易成本。",
+    "tags": [
+      "New",
+      "Agent",
+      "Marketplace"
+    ],
+    "link": "https://minia2a.uk",
+    "date": "2026-06-22",
+    "id": "17821248633874"
+  },
+  {
     "title": "AI 代理接管工作后，人类会失去什么？",
     "summary": "Milvus 博客探讨 AI 代理自动化对人类判断力与学习过程的潜在影响。",
     "detail": "文章指出 Claude Code 等代理虽能执行任务，但可能削弱人类通过调试、犯错建立判断力的过程。提出代理自主性阶梯（L1 执行至 L4 提升人类），强调产品设计需兼顾学习体验，避免仅优化输出而移除人类成长所需的关键经验。这对 AI 代理开发方向具有重要启示。",
@@ -1233,70 +1298,5 @@
     "link": "https://deepgate.ai/blog/neural-architecture-search",
     "date": "2026-06-19",
     "id": "17819147619160"
-  },
-  {
-    "title": "DeepGate 编译器性能超越 Google TFLM",
-    "summary": "新编译器在 Arm Cortex-M 设备上 RAM 减少 3 倍，速度提升 2 倍。",
-    "detail": "边缘 AI 工具链通常落后于 GPU 模型编译器，DeepGate 发布 v0.15.0 编译器旨在填补这一空白。它将量化 .tflite 模型编译为优化二进制文件，在 MLPerf Tiny 评估中，相比 Google TFLM 减少高达 3 倍 RAM 使用并快 2 倍。在 Analog Devices、Infineon 等厂商硬件上均表现优异，甚至优于厂商自有工具链，使原本无法放入内存的模型得以运行。这为边缘设备提供了更高效的推理工具链选择，确立了其在微控制器领域的性能领先地位。",
-    "tags": [
-      "Dev",
-      "Compiler",
-      "Edge AI"
-    ],
-    "link": "https://deepgate.ai/blog/compiler",
-    "date": "2026-06-19",
-    "id": "17819147619161"
-  },
-  {
-    "title": "Minovative Mind CLI 智能代码代理系统",
-    "summary": "自主调查代码库，支持并行执行与语义搜索的 AI 编程工具。",
-    "detail": "Minovative Mind 推出 CLI 工具，具备上下文智能引擎，可自动检测文件活动、压缩上下文并进行语义代码搜索。支持多语言依赖追踪及 AST 结构分析，通过 MMAAK 并行执行机制分解任务，具备预飞行语法验证和智能意图编辑功能。旨在优化 AI 驱动的代码生成工作流，减少 Token 使用并确保代码质量。该工具适合复杂项目开发，通过本地向量索引和智能依赖追踪，提升了 AI 代理在代码库中的操作精度与效率。",
-    "tags": [
-      "New",
-      "Agent",
-      "Coding"
-    ],
-    "link": "https://www.minovativemind.dev/",
-    "date": "2026-06-19",
-    "id": "17819147619162"
-  },
-  {
-    "title": "Ratchet：AI 代理可刷新 BIOS 的硬件工具",
-    "summary": "基于 Rust 的硬件调试工具，集成 MCP 服务器供 AI 代理控制。",
-    "detail": "Ratchet 是一款用 Rust 编写的硬件调试和 flash 编程工具包，支持 CH341A/CH347 编程器。核心功能包括 SPI flash 编程和 BIOS 分析，内置 JSON-RPC MCP 服务器，允许 AI 代理直接控制硬件操作。它整合了多种协议层和目标 MCU 编程功能，替代了多个传统工具，为 AI 代理与底层硬件交互提供了安全、原生的解决方案。规则强调命令若无真实传输则退出非零，确保不伪造成功，为 AI 代理操作物理硬件建立了可信的执行标准。",
-    "tags": [
-      "New",
-      "Hardware",
-      "Rust"
-    ],
-    "link": "https://github.com/jackulau/ratchet",
-    "date": "2026-06-19",
-    "id": "17819147619163"
-  },
-  {
-    "title": "澳大利亚 AI 初创创始人因欺诈获刑九年",
-    "summary": "Metigy 创始人伪造收入误导投资者，被判入狱警示行业。",
-    "detail": "澳大利亚营销科技公司 Metigy 创始人 David Fairfull 因伪造收入和误导投资者被判处九年监禁，该公司曾宣称拥有 AI 技术实则并无核心能力。此案揭示了 AI 热潮下的欺诈风险，提醒投资者和行业参与者需警惕“无 AI 的 AI 初创公司”。这一判决强调了商业诚信的重要性，为过热的 AI 投资环境敲响了警钟。媒体指出这是利用 AI 语言和权威感进行的旧式欺诈，有助于净化行业生态，促使市场回归理性评估技术真实性。",
-    "tags": [
-      "News",
-      "Legal",
-      "Fraud"
-    ],
-    "link": "https://www.smh.com.au/technology/australian-start-up-boss-who-faked-revenue-gets-nine-years-jail-20260618-p60847.html",
-    "date": "2026-06-19",
-    "id": "17819147619164"
-  },
-  {
-    "title": "Colossee 建立 AI 生成媒体全球注册表",
-    "summary": "为 AI 创作提供时间戳证明和所有权 ID 的注册平台。",
-    "detail": "Colossee 推出全球 AI 生成媒体注册表，旨在解决 AI 内容的版权和来源问题。用户可在发布前为作品添加时间戳公共记录、所有权 ID 和证书页面，支持 ElevenLabs、Midjourney 等主流平台生成的内容。通过提供可验证的证明链接，帮助创作者在作品被复制或质疑时维护权益。该平台适用于整个 AI 创意栈，为 AI 创意生态建立了信任层和归属权标准，确保创作者在内容分发前即可保护其证明所有权。",
-    "tags": [
-      "New",
-      "Copyright",
-      "Media"
-    ],
-    "link": "https://colossee.com/",
-    "date": "2026-06-19",
-    "id": "17819147619165"
   }
 ]
