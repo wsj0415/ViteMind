@@ -1,5 +1,109 @@
 [
   {
+    "title": "2026 年 AI Agent 构建实战指南",
+    "summary": "详解 AI Agent 构建七步骤，涵盖工具设计与安全护栏，含工作代码。",
+    "detail": "本文提供 2026 年构建生产级 AI Agent 的实操指南，详细 walkthrough 七个关键步骤。强调 Agent 与 Chatbot 的本质区别在于行动能力，能操作外部系统如发送邮件或写入数据库。核心步骤包括限定单一任务范围、连接有限工具集、运行 Reason-Act 循环及设置安全护栏。重点指出生产环境需关注工具设计、策略执行、成本控制、对抗性测试及审计追踪，而非仅关注模型本身。指南包含工作代码，适合希望将周末 Demo 转化为生产级应用的开发者参考，确保 Agent 在安全可控的前提下实现自动化任务处理，避免越权行为，提升系统稳定性。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Tutorial"
+    ],
+    "link": "https://www.execlave.com/blog/how-to-build-an-ai-agent",
+    "date": "2026-06-22",
+    "id": "17821436714450"
+  },
+  {
+    "title": "多 Agent 协作编码与结果审计方案",
+    "summary": "提出运行多个编码 Agent 独立工作并合并可审计结果的方法，减少偏差。",
+    "detail": "文章探讨多 Agent 集成模式，解决单 Agent 易出错、过拟合及受特定公司哲学影响的问题。通过让多个 Agent 独立解决同一任务并相互审查，合并经验证的结果。作者在其 h5i 项目中实践此方案，旨在提高软件工程中的代码质量与可靠性，减少单一模型偏差。这标志着编码 Agent 从自动补全向自主工作的演进，为自主编码工作流提供新思路，确保最终合并的代码补丁经过严格验证，降低生产环境中的潜在风险，适合关注 AI 软件工程的前沿开发者。",
+    "tags": [
+      "Dev",
+      "Multi-Agent",
+      "Coding"
+    ],
+    "link": "https://medium.com/@Koukyosyumei/two-heads-are-better-than-one-run-many-coding-agents-merge-one-auditable-result-de58be3a1b1b",
+    "date": "2026-06-22",
+    "id": "17821436714451"
+  },
+  {
+    "title": "AI Agent 治理与可观测性的核心区别",
+    "summary": "辨析治理与可观测性，前者阻止违规，后者记录行为，生产需两者兼备。",
+    "detail": "文章澄清 AI Agent 治理与可观测性的混淆。治理是预防性的，在运行时评估策略并阻止未经授权的动作；可观测性是描述性的，记录事后痕迹与日志。生产级 Agent 需两者兼备：治理确保安全性，可观测性辅助调试。Execlave 提出在 20ms 内同步执行治理检查，填补安全 gap。混淆两者会导致 Agent 执行 unwanted 动作后才被发现。报告强调治理层应在请求路径中拦截违规工具调用或 API 访问，而可观测性则用于事后分析性能与行为，两者共同构成企业级 Agent 的安全基石。",
+    "tags": [
+      "Dev",
+      "Governance",
+      "Security"
+    ],
+    "link": "https://www.execlave.com/blog/ai-agent-governance-vs-observability",
+    "date": "2026-06-22",
+    "id": "17821436714452"
+  },
+  {
+    "title": "DeepMind 发布 AI 控制路线图 PDF",
+    "summary": "Google DeepMind 提出 AI Agent 安全控制与威胁建模框架，发布 36 页路线图。",
+    "detail": "Google DeepMind 发布 GDM AI Control Roadmap，针对 AI Agent 集成带来的安全风险提出系统级缓解措施。报告引入 TRAIT&R 威胁分类法，基于 MITRE ATT&CK 框架，假设最坏情况下的 adversarial behavior。重点在于建立控制不变量，防止失控、工作破坏或直接伤害。文档长达 36 页，为前沿 AI 公司的内部部署提供安全护栏参考，强调不应假设 AI 完全对齐，而需构建多层防御体系，以捕捉潜在的对抗性行为，确保随着 Agent 能力增强，系统安全性同步提升，为行业树立安全标准。",
+    "tags": [
+      "News",
+      "DeepMind",
+      "Security"
+    ],
+    "link": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/securing-the-future-of-ai-agents/gdm-ai-control-roadmap.pdf",
+    "date": "2026-06-22",
+    "id": "17821436714453"
+  },
+  {
+    "title": "开发者对 AI 生成博客内容的反应调查",
+    "summary": "调查显示开发者厌恶 AI 生成内容，偏好真实不完美的写作，过度依赖损信誉。",
+    "detail": "针对 668 名受访者的调查显示，读者极度不信任看似 AI 生成的技术博客。一旦发现 AI 痕迹，读者会停止阅读甚至屏蔽域名。非英语母语者使用 AI 润色也未获宽容。结论表明，尽管 AI 辅助写作能提高效率，但真实性与人类洞察力仍是读者核心诉求，过度依赖 AI 可能损害作者信誉。报告对比了之前关于写作习惯的调查，发现读者反应比作者预期更负面。这提示内容创作者在利用 LLM 克服空白页障碍时，需保留人类独特观点，避免生成同质化内容，以维持读者信任与参与度。",
+    "tags": [
+      "News",
+      "Community",
+      "Content"
+    ],
+    "link": "https://writethatblog.substack.com/p/dev-reaction-to-ai-blog-posts",
+    "date": "2026-06-22",
+    "id": "17821436714454"
+  },
+  {
+    "title": "AI 巨头资助全美竞选广告战",
+    "summary": "Anthropic 与 OpenAI 关联 PAC 投入超 3800 万美元影响中期选举，政治介入加深。",
+    "detail": "洛杉矶时报报道，AI 巨头通过超级 PAC 深度介入 2026 年美国中期选举，影响跨國会选区。Anthropic 和 OpenAI 关联组织已支出超 3800 万美元资助竞选广告，成为最大的外部支出者之一。广告内容通用，疑似由 AI 生成。随着选举临近及公司 IPO 计划，支出可能指数级增长。科技巨头正利用资金实力达成政治目标，引发对 AI 行业政治影响力扩大的关注。此举显示新兴科技公司日益舒适地利用权力实现政治目的，可能改变未来科技政策走向，值得行业观察者密切关注其后续资金动向与政策影响，以及监管机构的反应。",
+    "tags": [
+      "News",
+      "Politics",
+      "OpenAI"
+    ],
+    "link": "https://www.latimes.com/politics/story/2026-06-21/ai-giants-are-funding-ad-wars-in-races-across-country",
+    "date": "2026-06-22",
+    "id": "17821436714455"
+  },
+  {
+    "title": "Chirps AI 客户支持与销售代理平台",
+    "summary": "提供 30 天免费试用，支持语音与文本的 AI 业务代理，自动同步网站知识。",
+    "detail": "Chirps 推出 AI 助手平台，兼具支持团队、销售代理与接待员功能。支持语音与文本交互，自动同步网站与文档知识。特色包括策略感知、自我改进及多渠道事件分发（WhatsApp 等）。提供 30 天免费试用，无需信用卡。适合希望通过自动化转化流量为收入的企业，实现 24/7 客户互动。平台允许自定义外观以匹配品牌，并支持文件上传与实时语音支持。通过即时警报确保不漏掉任何潜在客户或预订，帮助中小企业低成本部署 AI 客服，提升响应速度与客户满意度，是典型的 AI 落地应用案例。",
+    "tags": [
+      "Deal",
+      "SaaS",
+      "Support"
+    ],
+    "link": "https://chirps.cc",
+    "date": "2026-06-22",
+    "id": "17821436714456"
+  },
+  {
+    "title": "贝恩资本用 AI 副本测试软件收购目标",
+    "summary": "投资机构利用 Vibecoding AI  replicas 进行尽职调查，革新软件收购评估流程。",
+    "detail": "金融时报报道，贝恩资本在软件收购尽职调查中测试\"Vibecoding\"AI 副本。通过创建目标软件的 AI  replicas 来评估技术债务与代码质量。此举标志 VC 行业开始利用 AI 技术革新传统投研流程，可能改变软件并购市场的评估标准与效率，反映 AI 在金融领域的深层应用。传统尽职调查耗时耗力，AI 副本可快速模拟软件行为，揭示潜在风险。这可能成为未来私募股权公司的标准工具，加速交易流程，同时也引发关于 AI 评估准确性的讨论，值得投资界与科技行业共同关注其实际效果与推广情况。",
+    "tags": [
+      "News",
+      "VC",
+      "M&A"
+    ],
+    "link": "https://www.ft.com/content/e5bac4d1-b1f8-43a4-bd54-b182d5357af0",
+    "date": "2026-06-22",
+    "id": "17821436714457"
+  },
+  {
     "title": "数据中心面临公众抵制风险",
     "summary": "民调显示近半数支持者呼吁暂停新建数据中心。",
     "detail": "**背景**：随着 AI 算力需求激增，数据中心建设引发公众反弹。**核心**：Milltown Partners 最新民调显示，49% 受访者支持暂停新建数据中心，仅 38% 支持在家附近建设。值得注意的是，反对者中仅 8% 住在数据中心附近，表明这是广泛的社会焦虑而非邻避效应。两党政治人物均介入讨论。**影响**：数据中心已成为 AI 反对情绪的具象化焦点，Steve Bannon 与 Bernie Sanders 均对此表态。这可能迫使政策制定者回答成本、用水及受益者问题，显著影响 AI 基础设施的落地速度与政治环境，企业需关注社区关系。",
@@ -1194,109 +1298,5 @@
     "link": "https://gcontext.ai",
     "date": "2026-06-20",
     "id": "17819459680603"
-  },
-  {
-    "title": "Autonomy：自导向 AI 代理核心框架",
-    "summary": "基于束搜索与过程学习的全新自主 AI 代理开发框架。",
-    "detail": "**Autonomy** 框架采用束搜索排名与过程学习机制，实现可控可审计的自主代理。内置 22+ 工具与技能库，支持多 AI 提供商。通过混合结果评估与审批网关，防止无限循环与高风险操作，为构建复杂自主系统提供标准化核心引擎。核心引擎 AgentLoop 支持自主规划与执行，具备明确的终止条件以避免死循环。混合评估机制结合规则验证与 LLM 辅助，平衡效率与安全。适合构建需要复杂决策链的自动化系统，为下一代自驱动软件开发提供底层架构支持，降低自主 Agent 的开发门槛，支持 Python 3.13。",
-    "tags": [
-      "New",
-      "Framework",
-      "Agent"
-    ],
-    "link": "https://autonomy-landing-page.vercel.app/",
-    "date": "2026-06-20",
-    "id": "17819459680604"
-  },
-  {
-    "title": "中国 AI 模型进展：Jie Tang 回应马斯克预言",
-    "summary": "中国 Anthropic 竞争对手 CEO 称明年之前将出现 Fable 5 级模型，回应马斯克预测。",
-    "detail": "针对 Elon Musk 预测中国将在明年第一季度拥有 Fable 5 级 AI 模型，中国某 Anthropic 竞争对手 CEO 唐杰回应称“不需要那么久”。该新闻源自 Tom's Hardware 报道，反映了中美 AI 算力与模型竞争的最新动态。行业关注点在于中国本土大模型能否突破算力限制，快速达到顶级水平。这一表态显示了中方技术自信，可能对全球 AI 格局产生重大影响，引发关于技术封锁有效性的讨论。此外，这也暗示了中国 AI 基础设施建设的加速，未来可能在特定领域实现弯道超车，值得投资者密切关注相关产业链变化。",
-    "tags": [
-      "News",
-      "LLM",
-      "China"
-    ],
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-that-china-will-have-a-fable-5-class-ai-model-probably-q1-next-year-ceo-of-chinese-anthropic-rival-says-it-wont-take-that-long",
-    "date": "2026-06-20",
-    "id": "17819326673780"
-  },
-  {
-    "title": "AI 正在解构 CMS：控制 plane 与执行 plane 分离",
-    "summary": "AI 并未杀死 CMS，而是将内容创建与控制权分离，重塑内容管理系统架构。",
-    "detail": "文章深入分析了 AI 对内容管理系统（CMS）的影响。核心观点是 AI 正在“解绑”CMS 的控制平面与执行平面。AI commoditize 了执行层（生成、组装），但使控制层（审批、工作流、信任）更具价值。这对于企业投资 CMS 还是转向 AI Agent 具有指导意义，表明在需要内容复用和信任的场景下，CMS 依然关键。未来 CMS 将更侧重于治理而非单纯的内容创建。这种架构分离意味着开发者需要重新思考内容工作流，将 AI 作为执行工具而非替代整个系统，确保内容安全与一致性。",
-    "tags": [
-      "News",
-      "SaaS",
-      "Architecture"
-    ],
-    "link": "https://dri.es/ai-and-the-great-cms-unbundling",
-    "date": "2026-06-20",
-    "id": "17819326673781"
-  },
-  {
-    "title": "AgentArk：开源自托管 AI Agent 操作系统",
-    "summary": "基于 Rust 构建的个人 AI OS，支持自学习与安全部署，适合开发者本地使用。",
-    "detail": "AgentArk 是一个开源的自托管 AI Agent 操作系统，强调“安全优先”和“自学习”。项目使用 Rust 和 TypeScript 构建，允许用户通过提示词和工具构建 Agent，并部署为应用或自动化任务。其核心特性包括监控 every action、secure every boundary 以及从使用中自我进化（via GEPA）。适合关注数据隐私和本地部署的开发者尝试，提供了个人 AI 基础设施的新选择。该项目展示了 Agent 操作系统化的趋势，让用户能完全掌控 AI 行为，避免云端隐私泄露风险，是本地 AI 部署的重要参考。",
-    "tags": [
-      "New",
-      "OpenSource",
-      "Agent"
-    ],
-    "link": "https://github.com/agentark-ai/AgentArk",
-    "date": "2026-06-20",
-    "id": "17819326673782"
-  },
-  {
-    "title": "人类基因组物理复杂性或成 AI 分析难点",
-    "summary": "Quanta 杂志探讨 DNA 物理结构复杂性可能阻碍 AI 对基因组的完全理解与应用。",
-    "detail": "Quanta Magazine 文章指出，尽管人类基因组序列已基本 deciphered，但基因调控机制极其复杂。DNA 不仅是代码，更是物理 puzzle。AI 被寄予厚望分析基因组\"foundation models\"，但基因组的 tangled physicality（纠缠物理性）可能 confound AI 模型。这揭示了 AI 在生物科学领域应用的深层挑战，即序列信息不足以解释生命运作，物理结构带来的复杂性可能超出当前 AI 处理能力。生物学家担心完全理解基因组可能超出人类心智范围，AI 虽能辅助分析，但面临物理性纠缠的根本难题，需跨学科合作突破。",
-    "tags": [
-      "News",
-      "BioTech",
-      "Research"
-    ],
-    "link": "https://www.quantamagazine.org/why-the-human-genomes-tangled-physicality-may-confound-ai-20260618/",
-    "date": "2026-06-20",
-    "id": "17819326673783"
-  },
-  {
-    "title": "华尔街巨头 Jane Street 抢占 AI 聚光灯",
-    "summary": "WSJ 报道神秘华尔街交易公司 Jane Street 如何利用 AI 技术重塑交易策略与流程。",
-    "detail": "《华尔街日报》报道了知名交易公司 Jane Street 在 AI 领域的最新动向。作为一家 secretive Wall Street powerhouse，该公司正 seize the AI spotlight，暗示其在量化交易中深度整合 AI 技术。这标志着 AI 在高频交易和金融决策中的渗透进一步加深，可能引发金融行业对 AI 合规性与效率的新讨论。传统金融巨头拥抱 AI 显示了行业转型的必然趋势。Jane Street 的动向往往预示行业风向，其 AI 策略可能影响市场流动性与交易算法演进，合规监管也将随之调整。",
-    "tags": [
-      "News",
-      "Finance",
-      "Application"
-    ],
-    "link": "https://www.wsj.com/tech/ai/jane-street-ai-wall-street-bdfcc81a",
-    "date": "2026-06-20",
-    "id": "17819326673784"
-  },
-  {
-    "title": "中国收紧铟出口检查，AI 硬件需求激增",
-    "summary": "随着 AI 需求增长，中国加强对关键金属铟的出口管控，影响供应链。",
-    "detail": "路透社报道指出，随着人工智能硬件需求的不断增加，中国正在加强对铟（indium）出口的审查力度。铟是半导体和显示屏制造的关键原材料，此举可能在全球范围内影响 AI 芯片及相关硬件的供应链稳定性与成本。这反映了地缘政治因素正日益成为 AI 基础设施发展的重要制约变量。",
-    "tags": [
-      "News",
-      "Supply Chain",
-      "Hardware"
-    ],
-    "link": "https://www.reuters.com/world/china/china-tightens-indium-export-checks-ai-demand-increases-2026-06-19/",
-    "date": "2026-06-19",
-    "id": "17820472980791"
-  },
-  {
-    "title": "DeepGate 推出边缘 AI 自动化模型设计系统",
-    "summary": "结合 NAS 与编译器，微控制器模型速度提升 45 倍，RAM 减少 11 倍。",
-    "detail": "针对微控制器模型设计仍多为手动过程且面临性能与资源权衡的痛点，DeepGate 发布自动化模型设计系统。通过神经架构搜索 (NAS) 结合自研编译器及真实硬件测量，在 MLPerf Tiny 基准测试中，相比参考模型推理延迟从 104.3ms 降至 2.3ms，RAM 占用从 23.7KB 降至 2.1KB，且保持 90% 以上准确率。该技术有望降低硬件成本并延长电池寿命，释放内存与算力供其他任务使用，推动高级 AI 负载在数十亿设备上的部署，将更强大的智能带入边缘端。",
-    "tags": [
-      "Dev",
-      "Edge AI",
-      "NAS"
-    ],
-    "link": "https://deepgate.ai/blog/neural-architecture-search",
-    "date": "2026-06-19",
-    "id": "17819147619160"
   }
 ]
