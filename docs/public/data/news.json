@@ -1,5 +1,83 @@
 [
   {
+    "title": "Anthropic 推出 Slack 智能体同事 Claude Tag",
+    "summary": "Anthropic 发布 Claude Tag，将常驻 AI 同事引入 Slack 频道。",
+    "detail": "Anthropic 宣布推出 Claude Tag，这是一个常驻 Slack 频道的 AI 实例。它能像团队成员一样阅读上下文、参与线程并完成任务。每个频道可获得隔离的 Claude 身份。Anthropic 内部数据显示，其产品团队 65% 的代码现已由内部版 Claude Tag 创建。这标志着 AI 代理从工具向同事角色的转变，深度集成至工作流核心。未来企业协作可能不再依赖人类单独沟通，AI 将承担更多协调与执行任务，重塑团队结构。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "Agent"
+    ],
+    "link": "https://www.zdnet.com/article/anthropic-claude-tag-agentic-ai-coworker-slack/",
+    "date": "2026-06-23",
+    "id": "17822375027600"
+  },
+  {
+    "title": "自主 AI 代理发现 Hoppscotch 严重安全漏洞",
+    "summary": "AI 代理自动发现 CVSS 10.0 级全妥协漏洞，凸显审计能力。",
+    "detail": "自主 AI 代理在 Hoppscotch 中发现 CVSS 10.0 级漏洞。攻击者可通过未认证的 onboarding 端点注入任意 InfraConfig 键，覆盖 JWT_SECRET 导致服务器完全妥协。漏洞源于 NestJS ValidationPipe 配置缺失。此事件证明了 AI 代理在安全审计领域的潜力，同时也警示了自托管实例初始化的风险窗口。开发者需严格配置验证管道，防止 mass assignment 攻击，确保基础设施安全。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://github.com/hoppscotch/hoppscotch/security/advisories/GHSA-j542-4rch-8hwf",
+    "date": "2026-06-23",
+    "id": "17822375027601"
+  },
+  {
+    "title": "MCP 协议让 ChatGPT 变身为本地编码代理",
+    "summary": "通过 MCP 服务器连接 ChatGPT 与本地代码库，实现自动化。",
+    "detail": "该演示展示了如何使用 Coding Tools MCP 将 ChatGPT 连接到本地代码库。通过 Model Context Protocol (MCP)，ChatGPT 可直接读取项目文件、搜索代码、应用更改及检查 Git 历史，无需复制粘贴。配合 Cloudflare Tunnel 暴露服务，用户可在 ChatGPT 网页界面中获得类似 Codex 或 Cursor 的本地开发代理体验，大幅提升工程效率。这是 MCP 生态落地的典型案例，展示了互操作性价值。",
+    "tags": [
+      "Dev",
+      "MCP",
+      "Tutorial"
+    ],
+    "link": "https://www.youtube.com/watch?v=N9lQaXt1eqQ",
+    "date": "2026-06-23",
+    "id": "17822375027602"
+  },
+  {
+    "title": "Spring AI 2.0 支持自纠正结构化输出",
+    "summary": "新增提供者原生结构化输出及自纠正 schema 验证功能。",
+    "detail": "Spring AI 2.0 引入两项新功能：提供者原生结构化输出和自纠正 Schema 验证。LLM 本质是文本输入输出，结构化输出 bridging 了自然语言与软件记录的 gap。新功能允许模型按 Schema 生成文本并自动验证修正，确保下游代码可可靠解析。默认设置不变，现有代码兼容，显著提升 Java 应用集成 LLM 的稳定性。开发者可更放心地将 LLM 输出用于业务逻辑分支，减少运行时错误。",
+    "tags": [
+      "Dev",
+      "Java",
+      "Spring"
+    ],
+    "link": "https://spring.io/blog/2026/06/23/spring-ai-self-correcting-structured-output/",
+    "date": "2026-06-23",
+    "id": "17822375027603"
+  },
+  {
+    "title": "默认情况下 AI 生成的 UI 存在无障碍缺陷",
+    "summary": "大多数 AI 代码工具生成的 React 组件缺乏语义信息。",
+    "detail": "文章指出 AI 生成的 UI 默认不可访问。工具如 Claude Code 生成的 React 组件视觉上正确，但 accessibility tree 缺失语义信息（role, name 等），导致屏障用户无法使用。原因是 LLM 优化视觉而非语义。文章提出五层强制系统（静态分析、运行时测试等）确保语义正确。除 v0 等特例外，通用工具仍需开发者介入修复。团队应建立自动化测试流程，将无障碍标准纳入 AI 生成代码的验收环节，确保产品包容性。",
+    "tags": [
+      "Dev",
+      "Accessibility",
+      "React"
+    ],
+    "link": "https://master.dev/blog/ai-generated-ui-is-inaccessible-by-default/",
+    "date": "2026-06-23",
+    "id": "17822375027604"
+  },
+  {
+    "title": "多 LLM AI 工作区 Compilr.dev 上线",
+    "summary": "提供专用 AI 代理、结构化工作流及持久上下文。",
+    "detail": "Compilr.dev 推出新的 AI 工作区，支持专用 AI 代理、结构化项目工作流和持久上下文。产品包含桌面应用、CLI 和开发者库。支持多代理团队协作，集成 9 个模型提供商和 21 种工具。旨在为软件、研究及业务提供结构化环境，让上下文在会话间存活，用户可完全控制 API 密钥和工作流。解决了当前 AI 工具上下文丢失的痛点，适合需要长期记忆的项目开发。",
+    "tags": [
+      "New",
+      "Productivity",
+      "LLM"
+    ],
+    "link": "https://compilr.dev/",
+    "date": "2026-06-23",
+    "id": "17822375027605"
+  },
+  {
     "title": "Netflix 探索可控 AI 视频编辑技术",
     "summary": "Netflix 研发新模型，旨在保留源素材完整性的同时进行视频编辑。",
     "detail": "**Netflix 技术博客**披露最新研究，致力于解决当前生成式视频编辑模型破坏源素材物理连续性的痛点。传统方法往往重生成每个像素，导致未编辑元素被意外 alter，破坏场景物理连续性。新技术允许艺术家精确 dictating 变化内容，保留源 footage 完整性，仅修改指定区域。这对影视后期工作流具有深远影响，标志着 AI 视频工具向专业化迈进。通过减少手动编辑时间，帮助 storytellers 更高效制作 trailers 等资产，提升创作自由度。此探索表明大厂正深耕垂直场景，解决 generative video 落地难点，为行业树立新标准，推动 AI 从玩具向生产力工具转变。",
@@ -1220,83 +1298,5 @@
     "link": "https://crit.officialjp.com/",
     "date": "2026-06-20",
     "id": "17819866575491"
-  },
-  {
-    "title": "AI 报税引发责任争议：算法出错谁买单？",
-    "summary": "2026 报税季 AI 代理普及，但算法错误导致的法律责任尚不明确。",
-    "detail": "2026 年报税季，AI 代理（如 Intuit Assist）成为主流，能大幅降低报税成本。然而，当算法错误导致税务问题时，责任归属成谜。文章探讨了从传统软件到自主 AI 代理的转变风险，指出尽管效率高，但缺乏明确的责任承担机制。早期 adopter 展示了用 Codex 处理税务只需 20 美元，但若出错谁买单？这对 AI 在金融法律领域的应用提出了监管与保险层面的新挑战，行业亟需建立新的问责框架。随着 AI 代理自主性增强，传统软件免责条款可能不再适用，保险公司与监管机构正密切关注此类案例，以定义算法失误的法律边界。",
-    "tags": [
-      "News",
-      "Legal",
-      "Finance"
-    ],
-    "link": "https://smarterarticles.co.uk/when-ai-files-your-taxes-who-pays-when-it-fails",
-    "date": "2026-06-20",
-    "id": "17819866575492"
-  },
-  {
-    "title": "In the Weights：衡量个人在 AI 模型中的存在感",
-    "summary": "新网站测试 AI 模型是否无需搜索即可回忆出特定人物信息。",
-    "detail": "TechCrunch 报道新项目\"In the Weights\"，旨在衡量个人在 AI 模型训练数据中的存在感。通过查询 Grok、GPT、Claude 等模型是否能在不使用搜索工具的情况下 recall 某人，生成“强度分数”。这反映了 AI 时代个人声誉的新维度，即是否被纳入模型的“权重”中。创始人认为这标志着 web search 不再是唯一信息源，成为衡量数字影响力的新指标，揭示了模型记忆与个人知名度之间的新关系。该工具聚类相似描述并分配强度分，帮助用户了解自己在 AI 眼中的形象，预示着未来个人品牌管理将延伸至模型训练数据层面。",
-    "tags": [
-      "News",
-      "LLM",
-      "Search"
-    ],
-    "link": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
-    "date": "2026-06-20",
-    "id": "17819866575493"
-  },
-  {
-    "title": "为何 Elixir 是 AI 应用开发的最佳技术栈",
-    "summary": "文章论证 Elixir 并发模型更适合处理 AI 应用的 I/O 等待。",
-    "detail": "针对 AI 应用高并发、多 WebSocket 连接的特性，文章主张 Elixir 与 Phoenix 框架优于 Python/Node.js。基于 Erlang VM (BEAM)，Elixir 能以极小内存占用管理数万并发进程，完美匹配 LLM API 调用的 I/O 等待场景。无需复杂 Kubernetes 集群即可实现高可用，为构建下一代生成式 AI 应用提供了更务实的后端架构选择。开发者不再需要为处理 token 流而搭建复杂异步队列，单服务器即可支撑大量用户与 AI 代理的实时交互。这种架构特别适合需要长连接和低延迟的 AI 聊天界面，解决了传统 MVC 框架在处理流式响应时的性能瓶颈。",
-    "tags": [
-      "Dev",
-      "Architecture",
-      "Elixir"
-    ],
-    "link": "https://www.porchlab.com/blog/best-ai-stack-elixir-phoenix/",
-    "date": "2026-06-20",
-    "id": "17819866575494"
-  },
-  {
-    "title": "HSIP：基于 Rust 的本地 AI 代理身份服务器",
-    "summary": "无需云端的本地身份服务器，为 AI 代理提供加密身份与审计。",
-    "detail": "HSIP 是一个用 Rust 编写的本地身份服务器，旨在为个人和 AI 代理提供加密身份及防篡改审计 trail。支持 Ed25519 签名，无需云端订阅，所有数据本地运行。针对 2026 年 AI 代理泛滥的现状，解决了去中心化身份验证与治理问题，确保 AI 行为可追溯。适合对隐私和安全要求极高的金融或个人场景，单一二进制文件即可部署，为 AI 代理治理提供了本地优先的安全基础设施方案。该项目强调主权身份，用户完全掌控密钥，避免了云服务商监控风险，为 AI 时代的数字身份认证提供了新的开源参考实现。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Rust"
-    ],
-    "link": "https://github.com/rewired89/HSIP-1PHASE",
-    "date": "2026-06-20",
-    "id": "17819866575495"
-  },
-  {
-    "title": "代理机构盗用畅销书内容并用 AI 洗稿",
-    "summary": "某代理机构盗用《obscure sorrows》全书文本，利用 DALL-E 2 生成插图并上线虚假网站。",
-    "detail": "该事件揭示了 AI 时代的版权危机。代理机构不仅复制了 John Koenig 十年项目的全部文本，还用充满伪影的 DALL-E 2 图像替换原插画，甚至添加\"AI 生成悲伤”功能。这凸显了 AI 工具被用于大规模侵权的风险，以及当前内容验证机制的缺失。对于创作者而言，这意味着需要更主动的数字指纹保护；对于平台，则需加强 AI 生成内容的标识与审查，防止此类“洗稿”网站混淆视听，损害原创生态。此类事件可能引发法律诉讼，推动更严格的 AI 训练数据版权法规出台。",
-    "tags": [
-      "News",
-      "Copyright",
-      "Ethics"
-    ],
-    "link": "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/",
-    "date": "2026-06-20",
-    "id": "17819792853460"
-  },
-  {
-    "title": "Dataiku 发布 2026 全球 CEO 人工智能信心报告",
-    "summary": "调查 900 位 CEO 发现，80% 认为若 2026 年底前无 AI 成果职位将不保。",
-    "detail": "Dataiku 联合 Harris Poll 调查显示，AI 已成为 CEO 层面的核心压力。80% 的 CEO 认为若无法交付结果将危及职位，65% 担心投错供应商。尽管 70% 认为自己对战略影响最大，但 57% 担心可解释性不足引发信任危机。报告标志着 AI 从创新转向问责阶段。企业需在追求效率与控制风险间找到平衡，否则过度投资错误或缺乏透明度的 AI 系统可能导致品牌 credibility 危机，影响长期竞争力。高层管理者正面临从技术乐观主义向务实落地的转变。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Strategy"
-    ],
-    "link": "https://pages.dataiku.com/global-ai-confessions-ceo-edition",
-    "date": "2026-06-20",
-    "id": "17819792853461"
   }
 ]
