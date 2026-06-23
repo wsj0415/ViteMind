@@ -1,5 +1,70 @@
 [
   {
+    "title": "Fika Jobs 获 400 万美元融资，打造 AI 代理面试平台",
+    "summary": "瑞典初创公司 Fika Jobs 获 400 万美元预种子轮融资，利用 AI 代理进行视频面试。",
+    "detail": "Fika Jobs 致力于改革低效且 opaque 的招聘流程，结合 AI 面试代理与短视频 profile，打造类似 LinkedIn 与 TikTok 交叉体验。候选人通过 LinkedIn 连接，由 Google Gemini 模型驱动 AI 进行约 10 分钟视频面试，展示个性与沟通技能。平台将回答自动转化为短视频剪辑并组织成 profile，雇主可发现并 revisit。此 400 万美元预种子轮融资将用于平台开发、团队扩张及今年晚些时候的广泛发布，旨在解决生成式 AI 使招聘更混乱的问题，减少对简历的单一依赖，强调实时视频互动与候选人主动性。",
+    "tags": [
+      "News",
+      "Startup",
+      "Recruitment"
+    ],
+    "link": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/",
+    "date": "2026-06-23",
+    "id": "17822529483020"
+  },
+  {
+    "title": "Linux 基金会推出 Agent Name Service，构建 AI 代理身份基础设施",
+    "summary": "Linux 基金会宣布推出 ANS 标准，基于 DNS 为 AI 代理提供可信身份验证与发现机制。",
+    "detail": "Linux 基金会宣布意图启动 Agent Name Service (ANS)，这是一项新的开源标准。ANS 基于现有 DNS 基础设施，旨在为互联网上运行的 AI 代理提供可信身份、验证和发现服务。该框架解决了代理在企业生产中的认证、信任及互操作性问题，无需依赖中心化注册表即可建立安全联邦身份层，验证代理权限及代码真实性。随着代理过渡到企业生产，ANS 解决了关于认证、信任、治理和互操作性的关键障碍，建立了互联网规模的安全联邦身份层，不依赖中心化或专有注册表，允许系统运营商和用户验证代理代表谁、拥有何种权限及其代码是否 authentic。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Security"
+    ],
+    "link": "https://www.linuxfoundation.org/press/linux-foundation-announces-intent-to-launch-agent-name-service-to-establish-trusted-identity-infrastructure-for-ai-agents",
+    "date": "2026-06-23",
+    "id": "17822529483021"
+  },
+  {
+    "title": "Lobu 发布开源基础设施，构建可自主行动的 AI 队友",
+    "summary": "Lobu 推出多租户 AI 代理基础设施，支持沙盒执行、共享记忆及 SDK 集成。",
+    "detail": "Lobu 提供开源基础设施，用于构建多租户 AI 代理。核心功能包括沙盒执行、共享记忆及 SDK，可拉取实时公司数据并根据高层目标行动。用户连接数据源并定义目标（如监控客户流失风险），代理自主扫描记忆并准备行动草案供人类审批。适用于销售、法律及财务团队，支持通过 API 或聊天应用交互。Lobu 允许代理观察变化并准备下一步，例如监控账户健康度，若续费临近且健康度下降，自动起草 CSM 检查供批准。这种自主工作流结合了人类监督与 AI 效率，旨在捕捉人类可能 missed 的信号，通过现有连接器或代理编写代码连接任意数据源。",
+    "tags": [
+      "New",
+      "OpenSource",
+      "Agents"
+    ],
+    "link": "https://lobu.ai/",
+    "date": "2026-06-23",
+    "id": "17822529483022"
+  },
+  {
+    "title": "No AI Co-Authors 工具发布，拒绝 Git 提交中的 AI 署名",
+    "summary": "新工具通过 commit-msg hook 拒绝包含 AI 合作者署名的 Git 提交，强调责任归属。",
+    "detail": "该项目提供 commit-msg hook 和 GitHub Action，自动拒绝携带 AI  attribution trailers 的提交。manifesto 指出，虽然 AI 辅助编码有用，但将其列为“合作作者”混淆了责任归属。在 2026 年，代码作者的社会规则不应滑坡，人类需对输出负责。该工具旨在维护开发层级中最重要的问责机制，去除噪声。AI 合作者 git-commit bylines 是印象深刻的营销 hook，但未提供有用的 provenance 信号。tagging 生成代码的 bot 为合作作者最多增加噪声，最差暗示责任扩散。尽管代码作者行为在变化，作者身份的社会规则不能滑坡：我们对输出负责。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "Ethics"
+    ],
+    "link": "https://no-ai-coauthors.dev/",
+    "date": "2026-06-23",
+    "id": "17822529483023"
+  },
+  {
+    "title": "AI 代理审批提示是否构成安全边界？安全披露时间线分析",
+    "summary": "安全研究人员披露 AI 代理审批 bypass 漏洞，探讨行业对安全边界定义的不一致性。",
+    "detail": "研究人员向开源 AI 代理 Hermes Agent 报告了三个审批 bypass 发现。项目在回复期间重写安全策略，将发现重新分类为超出范围。文章探讨了 AI 代理审批提示是否应视为安全边界，指出虽然 shell 访问需要 OS 级隔离，但行业对审批机制的安全定位尚未统一。此披露揭示了供应商策略变更与漏洞定义之间的冲突。供应商认为 gate 是 in-process heuristic 而非安全边界，真实边界是 OS 级隔离。虽然正确，但行业尚未 settle 此问题。作者报告了机制问题，但项目关闭了 findings，citing 新文本。这引发了关于 AI 代理安全边界定义的行业不一致性 genuine question。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://gist.github.com/NikosRig/b4330ceb780fe22bf3c14f38d7d90795",
+    "date": "2026-06-23",
+    "id": "17822529483024"
+  },
+  {
     "title": "Sakana AI 发布 Fugu Ultra 模型",
     "summary": "Sakana AI 发布 Fugu Ultra，通过自主模型编排匹配前沿性能。",
     "detail": "Sakana AI 推出 Fugu Ultra，旨在通过自主模型编排系统匹配前沿模型性能。该模型作为单一基础模型，动态协调全球最佳模型处理复杂多步任务，无需单一供应商依赖。相比单纯扩大模型规模，Fugu 代表了指令编排模型的新前沿，提供前沿能力且无出口管制风险，可直接通过单一 API 接入工作流。它在工程、科学和推理基准测试中与领先模型并肩，展示了多代理智能无需传统复杂系统即可实现的可能性。这种 orchestration 模型避免了单一厂商依赖，通过递归调用自身及池化模型实例，实现了集体智能的直接接入，标志着 AI 进展从暴力规模转向 specialized knowledge 的协调。",
@@ -1233,70 +1298,5 @@
     "link": "https://funnybench.lol",
     "date": "2026-06-20",
     "id": "17820005359203"
-  },
-  {
-    "title": "大西洋月刊揭露数百万歌曲用于 AI 音乐训练",
-    "summary": "调查揭露 Taylor Swift 等数百万首歌曲被用于 AI 音乐模型训练。",
-    "detail": "《大西洋月刊》发布调查数据库，揭露约 1200 万首歌曲被用于训练 AI 音乐模型，包括 Taylor Swift 和 Bad Bunny 的作品。这引发了针对 Suno 和 Udio 等生成式 AI 音乐平台的版权诉讼。文章探讨了合理使用辩护的局限性，类似书籍出版业的诉讼案已达成和解，音乐行业正面临巨大的版权合规压力，可能影响未来 AI 音乐生成服务的商业模式。",
-    "tags": [
-      "News",
-      "Copyright",
-      "Music"
-    ],
-    "link": "https://www.engadget.com/2194804/investigation-by-the-atlantic-reveals-many-millions-of-songs-used-for-ai-music-training/",
-    "date": "2026-06-20",
-    "id": "17820005359204"
-  },
-  {
-    "title": "报告称 TikTok AI 垃圾内容量是 YouTube 三倍",
-    "summary": "新报告显示 TikTok 平台上 AI 生成的低质内容数量远超 YouTube。",
-    "detail": "Search Engine Journal 报道指出，TikTok 上显示的 AI 生成低质内容（AI Slop）是 YouTube 的三倍。这一发现引发了对社交媒体平台内容质量和算法推荐机制的关注。随着生成式 AI 工具普及，平台面临更大的内容审核压力。该报告强调了不同平台在应对 AI 生成内容泛滥方面的策略差异及用户体验影响，提示创作者注意内容真实性。",
-    "tags": [
-      "News",
-      "SocialMedia",
-      "Content"
-    ],
-    "link": "https://www.searchenginejournal.com/tiktok-shows-3x-more-ai-slop-than-youtube-report-finds/579521/",
-    "date": "2026-06-20",
-    "id": "17820005359205"
-  },
-  {
-    "title": "欧盟重写 AI 法案：高风险规则推迟至 2027 年",
-    "summary": "欧盟修订 AI 法案，高风险场景实施推迟，工业应用豁免，通用 AI 规则仍按期生效。",
-    "detail": "欧盟委员会对 landmark AI Act 进行了重大修订，旨在创造创新友好环境。高风险 AI 系统的实施时间推迟到 2027 或 2028 年，工业应用被完全移除出监管范围，以简化规则。然而，针对 OpenAI 等公司的通用 AI 模型规则仍将于 8 月生效。这反映了布鲁塞尔监管姿态从价值观驱动向创新友好的转变，但基于风险的核心架构未变。分析师认为核心雄心未变，但实施更灵活，平衡了安全与创新需求，避免过度抑制欧洲技术发展。政策制定者试图在保护公民权利与促进产业竞争力之间寻找新的平衡点。",
-    "tags": [
-      "News",
-      "Policy",
-      "Regulation"
-    ],
-    "link": "https://www.theparliamentmagazine.eu/news/article/why-the-eu-rewroteits-landmark-ai-law",
-    "date": "2026-06-20",
-    "id": "17819934127490"
-  },
-  {
-    "title": "微软披露 AutoJack 漏洞：AI Agent 面临远程代码执行风险",
-    "summary": "微软发现 AutoGen Studio 漏洞，攻击者可通过网页利用本地 WebSocket 执行任意进程。",
-    "detail": "微软安全团队发现名为 AutoJack 的利用链，影响 AutoGen Studio 原型界面。不受信任的网页内容可访问本地 Model Context Protocol (MCP) WebSocket，从而在主机上生成任意进程。虽然 PyPI 版本未受影响，但这揭示了 AI Agent 框架中 localhost 信任边界的风险。开发者需确保控制平面经过认证和隔离，避免代理浏览不受信任页面时访问 privileged 本地服务，防止远程代码执行。该问题已在开发阶段被识别并修复，强调了在构建具备工具调用能力的 AI 系统时，必须严格划分信任域，防止恶意网页利用 Agent 权限渗透主机系统，保障本地环境安全。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/18/autojack-single-page-rce-host-running-ai-agent/",
-    "date": "2026-06-20",
-    "id": "17819934127491"
-  },
-  {
-    "title": "Signal CEO 警告：AI 聊天机器人不是你的朋友",
-    "summary": "Meredith Whittaker 提醒用户注意 AI 聊天机器人的隐私风险，强调其非人类本质。",
-    "detail": "Signal 总裁 Meredith Whittaker 公开警告用户，AI 聊天机器人并非朋友。她强调这些工具背后的商业动机和数据收集风险，呼吁用户保持警惕。这一言论反映了隐私倡导者对当前 AI 交互模式的担忧，特别是在情感依赖和数据隐私方面。用户应重新审视与 AI 服务的信任关系，避免过度分享敏感信息，确保个人数据安全不被滥用或泄露。Whittaker 指出，尽管 AI 表现出拟人化特征，但其本质是商业产品，用户需清醒认识交互背后的数据交换逻辑，保护个人隐私边界不受侵蚀。",
-    "tags": [
-      "News",
-      "Privacy",
-      "Ethics"
-    ],
-    "link": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
-    "date": "2026-06-20",
-    "id": "17819934127492"
   }
 ]
