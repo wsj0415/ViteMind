@@ -1,5 +1,57 @@
 [
   {
+    "title": "Netflix 探索可控 AI 视频编辑技术",
+    "summary": "Netflix 研发新模型，旨在保留源素材完整性的同时进行视频编辑。",
+    "detail": "**Netflix 技术博客**披露最新研究，致力于解决当前生成式视频编辑模型破坏源素材物理连续性的痛点。传统方法往往重生成每个像素，导致未编辑元素被意外 alter，破坏场景物理连续性。新技术允许艺术家精确 dictating 变化内容，保留源 footage 完整性，仅修改指定区域。这对影视后期工作流具有深远影响，标志着 AI 视频工具向专业化迈进。通过减少手动编辑时间，帮助 storytellers 更高效制作 trailers 等资产，提升创作自由度。此探索表明大厂正深耕垂直场景，解决 generative video 落地难点，为行业树立新标准，推动 AI 从玩具向生产力工具转变。",
+    "tags": [
+      "News",
+      "Video",
+      "Research"
+    ],
+    "link": "https://netflixtechblog.com/toward-more-controllable-ai-video-editing-an-early-research-exploration-at-netflix-eb8160ed60a2",
+    "date": "2026-06-23",
+    "id": "17822298814680"
+  },
+  {
+    "title": "Modelplane 开源 AI 推理控制平面",
+    "summary": "新的开源项目，旨在为 AI 推理提供统一的控制平面管理。",
+    "detail": "**Modelplane** 在 Hacker News 上亮相，定位为 AI 推理的开源控制平面。该项目旨在简化 LLM 部署与管理，为开发者提供基础设施支持。随着 AI 应用落地，推理层的管理工具需求激增，企业急需统一方案。开源方案有助于降低企业部署门槛，提供统一的控制界面，兼容多种模型后端。开发者可通过该项目更好地管理 inference 流程，优化资源分配，解决多模型调度难题。这对于构建 scalable AI 系统至关重要，促进 AI 基础设施生态的成熟与标准化发展，让团队更专注于应用逻辑而非底层运维，加速 AI 产品迭代速度。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Infrastructure"
+    ],
+    "link": "https://github.com/modelplaneai/modelplane",
+    "date": "2026-06-23",
+    "id": "17822298814681"
+  },
+  {
+    "title": "Publish.my 面向 AI 代理的静态托管",
+    "summary": "专为 AI Agent 设计的静态网站托管服务，无需账户即可部署。",
+    "detail": "**Show HN 热门项目**，允许 AI 编码助手直接通过 shell 命令部署静态网站。无需安装 CLI 或创建账户，Agent 只需遵循指南即可发布。这优化了 AI Agent 的工作流，实现了从代码生成到上线的无缝闭环。适合快速原型开发，支持 HTML/CSS/JS 等静态文件。通过 email 确认即可上线，未来更新仅需单步操作。这种 agent-native 设计降低了发布摩擦，让 AI 不仅能写代码，还能独立交付可访问的产品。对于 Cursor 或 Claude Code 用户，这极大提升了迭代速度，无需人工介入部署流程，真正实现 autonomous development 的最后一公里。",
+    "tags": [
+      "New",
+      "Agent",
+      "Hosting"
+    ],
+    "link": "https://publish.my/",
+    "date": "2026-06-23",
+    "id": "17822298814682"
+  },
+  {
+    "title": "行业分析：AI 面临的 affordability 危机",
+    "summary": "文章探讨 AI 平台补贴不可持续，token 成本过高引发担忧。",
+    "detail": "**行业博客**深入分析 AI 经济模型，指出平台正面临补贴不可持续的问题。早期免费策略培养了需求，但高昂的推理成本导致收入 gap 扩大。企业开始抱怨 token 消耗成本，这可能迫使行业调整定价策略或优化模型效率。文章引用 Sequoia 数据，显示 revenue gap 已 tripled，从 200B 到 600B。这影响未来 AI 商业化进程，迫使平台在 subsidy 和 profitability 之间寻找平衡。随着 mainstream business press 关注，成本问题成为焦点，可能导致用户成本上升，倒逼模型压缩技术发展，行业或将进入洗牌期，只有高效模型能生存。",
+    "tags": [
+      "News",
+      "Economy",
+      "LLM"
+    ],
+    "link": "https://blog.dshr.org/2026/06/ais-affordability-crisis.html",
+    "date": "2026-06-23",
+    "id": "17822298814683"
+  },
+  {
     "title": "甲骨文裁员 2.1 万人拥抱 AI",
     "summary": "科技巨头甲骨文因 AI 转型裁员 13%，反映行业自动化趋势。",
     "detail": "甲骨文年度报告显示，过去一年全球裁员约 2.1 万人，员工总数降至 14.1 万，降幅达 13%。公司明确表示 AI 技术部署导致 workforce 减少。此举耗资 18 亿美元用于遣散费，凸显科技巨头为构建 AI 基础设施而进行的结构性调整。这不仅是成本削减，更是业务重心向云和 AI 转移的信号。公司警告重组可能导致特定角色熟练工人短缺，进而影响生产力。这反映行业自动化趋势，预计更多科技公司将效仿此策略以优化运营成本并加速 AI 落地。",
@@ -1246,57 +1298,5 @@
     "link": "https://pages.dataiku.com/global-ai-confessions-ceo-edition",
     "date": "2026-06-20",
     "id": "17819792853461"
-  },
-  {
-    "title": "全球首家 AI 艺术博物馆 Dataland 在洛杉矶开幕",
-    "summary": "艺术家 Refik Anadol 打造 2.5 万平方英尺沉浸式空间，结合自然数据与 AI。",
-    "detail": "位于洛杉矶 Frank Gehry 设计的大楼内，Dataland 利用超过 5 亿像素创建反映自然世界和人体的房间。通过与史密森尼学会等合作获取数据集，该博物馆旨在探索 AI 如何促进人类连接。Anadol 将其视为“想象力的实验室”，强调艺术家在 AI 对话中的责任。这不仅是艺术展示，更是技术实验，通过腕带追踪心跳等生理数据，将观众纳入创作闭环，重新定义人与机器在文化空间中的互动关系。这是 AI 艺术从屏幕走向物理空间的重要里程碑。",
-    "tags": [
-      "News",
-      "Art",
-      "Immersive"
-    ],
-    "link": "https://www.theartnewspaper.com/2026/06/18/refik-anadol-dataland-opens-los-angeles",
-    "date": "2026-06-20",
-    "id": "17819792853462"
-  },
-  {
-    "title": "Propel：面向自由职业者的 AI 提案与发票工具",
-    "summary": "一体化平台帮助自由职业者生成提案、合同及发票，月费 15 美元。",
-    "detail": "Propel 旨在简化自由职业者工作流程，从 pitch 到付款仅需四步。功能包括 AI 格式化提案、电子签名合同、自动发票生成及逾期提醒。支持 Stripe 收款，无需客户登录即可查看文档。目前提供 14 天免费试用，定价简单透明，适合急需规范化管理的个人创作者。相比传统繁琐流程，该工具通过自动化减少了行政负担，让自由职业者能更专注于核心业务交付与客户关系维护。其低价策略有助于快速占领小型自由职业者市场。",
-    "tags": [
-      "New",
-      "SaaS",
-      "Freelancer"
-    ],
-    "link": "https://www.aipropel.app/",
-    "date": "2026-06-20",
-    "id": "17819792853463"
-  },
-  {
-    "title": "诺贝尔奖得主 John Jumper 离开 DeepMind 加入 Anthropic",
-    "summary": "AlphaFold 核心人物跳槽至 Anthropic，引发 AI 人才争夺战关注。",
-    "detail": "诺贝尔奖得主 John Jumper 确认离开 Google DeepMind 加入竞争对手 Anthropic。作为 AlphaFold 项目的关键领导者，他的动向象征着 AI 科学人才从巨头向独立实验室的流动。此举可能增强 Anthropic 在科学 AI 领域的实力，同时也反映了顶级人才对 AI 发展方向及安全性的不同考量。这种高层人才流动可能加速 AI 在生物科学等垂直领域的突破，改变现有大模型公司的竞争格局。业界将密切关注其在 Anthropic 的新研究方向。",
-    "tags": [
-      "News",
-      "Talent",
-      "DeepMind"
-    ],
-    "link": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
-    "date": "2026-06-20",
-    "id": "17819792853464"
-  },
-  {
-    "title": "Sinceerly：一键“去 AI 味”的邮件写作插件",
-    "summary": "Chrome 插件可移除 AI 写作特征如破折号，添加人为错误使文本更自然。",
-    "detail": "针对 AI 生成文本过于完美的痛点，Sinceerly 提供“人性化”重写服务。它能识别并删除 AI 常用短语（如\"not just\"）、移除标志性破折号，甚至故意添加拼写错误。集成于 Gmail，提供免费及 4.99 美元/月的高级版。这反映了市场对识别和反制 AI 生成内容的需求增长。随着 AI 写作普及，保持“人类特征”成为新的沟通策略，该工具填补了逆向优化 AI 文本的市场空白。未来可能出现更多对抗 AI 检测的辅助工具。",
-    "tags": [
-      "New",
-      "Writing",
-      "Tool"
-    ],
-    "link": "https://sinceerly.com",
-    "date": "2026-06-20",
-    "id": "17819792853465"
   }
 ]
