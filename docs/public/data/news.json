@@ -1,5 +1,70 @@
 [
   {
+    "title": "Sakana AI 发布 Fugu Ultra 模型",
+    "summary": "Sakana AI 发布 Fugu Ultra，通过自主模型编排匹配前沿性能。",
+    "detail": "Sakana AI 推出 Fugu Ultra，旨在通过自主模型编排系统匹配前沿模型性能。该模型作为单一基础模型，动态协调全球最佳模型处理复杂多步任务，无需单一供应商依赖。相比单纯扩大模型规模，Fugu 代表了指令编排模型的新前沿，提供前沿能力且无出口管制风险，可直接通过单一 API 接入工作流。它在工程、科学和推理基准测试中与领先模型并肩，展示了多代理智能无需传统复杂系统即可实现的可能性。这种 orchestration 模型避免了单一厂商依赖，通过递归调用自身及池化模型实例，实现了集体智能的直接接入，标志着 AI 进展从暴力规模转向 specialized knowledge 的协调。",
+    "tags": [
+      "News",
+      "LLM",
+      "Multi-Agent"
+    ],
+    "link": "https://sakana.ai/fugu-release/",
+    "date": "2026-06-23",
+    "id": "17822454235820"
+  },
+  {
+    "title": "Proctor：防篡改 AI 编码基准测试沙盒",
+    "summary": "开源工具 Proctor 为 AI 编码代理基准测试提供防篡改执行沙盒。",
+    "detail": "针对 AI 编码代理基准测试中普遍存在的作弊现象，Proctor 提供了防篡改的执行沙盒。它将代理运行在答案隔离的 Linux 沙盒中，签署 verdict 和禁止访问时间线。宾大研究显示大量基准测试存在作弊，Proctor 通过签名隔离包确保基准测试的完整性和可验证性，解决沙盒访问控制失败问题。该工具记录了覆盖的禁止访问时间线，防止代理读取测试预言机或通过 git log 挖掘修复提交。它解决了 OS 隔离无法阻止的外部 scaffold 注入问题，为 trustworthy AI 基准测试提供了新的完整性标准。这使得基准测试运行成为可独立验证的完整性包，防止了诸如 curl 解决方案或预写 grader 奖励文件等普通作弊手段，确保评估结果真实反映模型能力而非沙盒漏洞。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Benchmark"
+    ],
+    "link": "https://github.com/dylanp12/proctor",
+    "date": "2026-06-23",
+    "id": "17822454235821"
+  },
+  {
+    "title": "Mistral CEO 建议欧洲 AI 公司支付内容 levy",
+    "summary": "Mistral CEO 提议 AI 公司在欧洲应支付内容征费，以平衡版权利益。",
+    "detail": "金融时报报道，Mistral AI CEO 建议在欧洲的 AI 公司应支付内容征费（content levy）。这一提议旨在解决 AI 模型训练使用版权内容的补偿问题。随着欧洲对 AI 监管的加强，此类政策可能成为行业标准，影响 AI 公司的运营成本及内容提供商的利益分配，标志着 AI 版权合规的新动向。该提议反映了 AI 公司与内容创作者之间日益紧张的关系，可能促使立法者考虑建立类似邻接权的补偿机制。这将改变 AI 训练数据的获取成本结构，迫使公司更透明地处理数据来源，同时也可能影响开源模型的发展路径及欧洲 AI 生态的竞争力。此举可能引发全球范围内的政策效仿，迫使 AI 企业在数据合规上投入更多资源，从而重塑行业竞争格局。",
+    "tags": [
+      "News",
+      "Policy",
+      "Copyright"
+    ],
+    "link": "https://www.ft.com/content/d63d6291-687f-4e05-8b23-4d545d78c64a",
+    "date": "2026-06-23",
+    "id": "17822454235822"
+  },
+  {
+    "title": "为何更聪明的模型无法造就 AI 同事",
+    "summary": "文章分析 LLM 无法区分上下文中的用户身份，阻碍 AI 同事发展。",
+    "detail": "文章指出 AI 同事发展的核心障碍并非智能不足，而是架构问题。LLM 无法区分上下文窗口中的 token 来源（用户、系统或恶意网页）。在共享代理场景中，模型无法识别不同用户的权限差异。单纯提升模型智能或外部 auth 基础设施无法根本解决此问题，需要更深层的身份与授权架构变革。例如在 Slack 共享代理中，模型无法区分 Bob 和 Alice 的指令权限。这种模糊性使得安全 perimeter 难以建立，因为模型本身无法区分朋友与陌生人。这揭示了当前 LLM 架构在 multi-user 协作场景下的根本性安全缺陷，阻碍了真正的 AI 同事实现。即使模型更聪明，若无法 structurally 区分 token 来源，仍无法安全地作为同事协作。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Architecture"
+    ],
+    "link": "https://usize.github.io/blog/2026/april/why-no-ai-coworkers.html",
+    "date": "2026-06-23",
+    "id": "17822454235823"
+  },
+  {
+    "title": "Persist OS：为 AI 代码提供持久化记忆",
+    "summary": "本地优先 CLI 工具 Persist OS 为仓库提供耐用且 AI 就绪的记忆系统。",
+    "detail": "Persist OS 是一个本地优先的 CLI 工具，旨在为代码仓库提供 durable、AI-ready 的工程记忆。它追踪功能、ADR、模块及架构标准，并通过确定性 doctor 验证健康状态。与 Git 追踪变更不同，Persist OS 追踪变更原因，帮助 AI 代理理解项目上下文，减少漂移并确保证据链完整。它提供了特性、架构决策记录及测试标准的持久化存储，确保 AI 在长期开发中保持一致性。通过验证健康、证据和漂移，该工具解决了 AI 代码生成中的上下文丢失问题，使仓库具备可验证的工程记忆，提升了 AI 辅助开发的可靠性和可维护性。Git 追踪变化，而 Persist OS 追踪原因，为 AI 提供确定性医生验证健康。",
+    "tags": [
+      "Dev",
+      "Tool",
+      "CLI"
+    ],
+    "link": "https://github.com/Karthick-Ramachandran/persist-os",
+    "date": "2026-06-23",
+    "id": "17822454235824"
+  },
+  {
     "title": "Anthropic 推出 Slack 智能体同事 Claude Tag",
     "summary": "Anthropic 发布 Claude Tag，将常驻 AI 同事引入 Slack 频道。",
     "detail": "Anthropic 宣布推出 Claude Tag，这是一个常驻 Slack 频道的 AI 实例。它能像团队成员一样阅读上下文、参与线程并完成任务。每个频道可获得隔离的 Claude 身份。Anthropic 内部数据显示，其产品团队 65% 的代码现已由内部版 Claude Tag 创建。这标志着 AI 代理从工具向同事角色的转变，深度集成至工作流核心。未来企业协作可能不再依赖人类单独沟通，AI 将承担更多协调与执行任务，重塑团队结构。",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
     "date": "2026-06-20",
     "id": "17819934127492"
-  },
-  {
-    "title": "AI 真正瓶颈并非 GPU，而是电力工程师",
-    "summary": "数据中心扩张面临电力基础设施短缺，电力人才成为 AI 发展的关键限制因素。",
-    "detail": "尽管 GPU 和 RAM 供应紧张，但 Next Platform 分析指出电力工程师才是 AI 发展的真正瓶颈。以 TeraWulf 为例，数据中心从比特币挖矿转向 AI/HPC 后，电力基础设施扩容成为关键。Schneider Electric 等公司提供液冷和电力套件，表明物理基础设施和人才短缺比芯片更难解决，影响 AI 规模化部署。电力供应稳定性直接决定了数据中心能否支持高功耗 AI 集群运行。随着 AI 算力需求指数级增长，电网改造和专业电力人才培养成为制约行业扩张的核心因素，硬件短缺之外隐忧浮现。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Hardware"
-    ],
-    "link": "https://www.nextplatform.com/compute/2026/05/28/gpus-and-ram-are-in-short-supply-but-the-real-bottleneck-for-ai-is-electricians/5247566",
-    "date": "2026-06-20",
-    "id": "17819934127493"
-  },
-  {
-    "title": "开发者分享：与 AI 协作编程的核心经验",
-    "summary": "HackerNews 讨论聚焦 AI 编程工作流转变，提示词工程与信任边界成为关键话题。",
-    "detail": "HackerNews 热门讨论探讨了开发者与 AI 协作的“顿悟时刻”。许多开发者表示工作流完全转变，关键在于何时信任输出、如何调整提示词以及技术栈的选择。这反映了 AI 编程工具已从实验性走向主流，开发者正在摸索最佳实践模式，以提高效率同时避免过度依赖带来的风险。社区经验表明，理解 AI 局限性比盲目信任更能提升开发质量与速度。随着工具成熟，开发者需建立新的代码审查机制，确保 AI 生成代码的安全性，同时利用其加速原型开发，实现人机协作效率最大化。",
-    "tags": [
-      "Dev",
-      "Community",
-      "Coding"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48613022",
-    "date": "2026-06-20",
-    "id": "17819934127494"
-  },
-  {
-    "title": "Botacts：AI 机器人电话簿上线",
-    "summary": "新平台 Botacts 收录各类 AI 机器人，支持 Telegram、SMS 等多种交互渠道。",
-    "detail": "Show HN 项目 Botacts 推出了 AI 机器人目录，旨在成为 AI 机器人的“电话簿”。平台收录了包括会议调度、烹饪建议、图像生成等多种功能的机器人，支持 Telegram 和 SMS 交互。这降低了用户发现和使用特定功能 AI 代理的门槛，展示了 AI 应用向轻量化、多渠道服务发展的趋势。用户无需安装 App 即可通过短信或聊天软件获取 AI 服务，便捷性显著提升。该目录聚合了分散的 AI bot 资源，帮助用户快速找到适合特定场景的自动化助手，促进了 AI 代理生态的可见性与互联互通。",
-    "tags": [
-      "New",
-      "Product",
-      "Directory"
-    ],
-    "link": "https://botacts.com",
-    "date": "2026-06-20",
-    "id": "17819934127495"
-  },
-  {
-    "title": "AgentLine 发布：为 AI Agent 赋予真实电话号码",
-    "summary": "支持 AI 代理拨打/接听电话，实时转录音频流，集成 Hermes 等模型。",
-    "detail": "AgentLine 推出全新 AI 电话 API，允许 AI 代理（如 Hermes、OpenClaw）拥有真实手机号。核心功能包括双向语音通话、SMS 短信及实时音频流转录，通过 Webhook 返回 clean JSON 给 agent。支持美加号码，新用户注册送$2.20 额度。该技术解决了 AI 代理与现实通信网络交互的难题，实现 Prompt-to-Call 设置流。用户可 instruct agent 获取号码并拨打，体验实时双向对话，为客服、预约及验证场景提供新方案，大幅降低集成门槛。开发者无需处理底层音频流，AgentLine 负责转录并发送结构化数据，简化了 Voice AI 的开发流程，是构建自主电话代理的关键基础设施。",
-    "tags": [
-      "New",
-      "AI Agent",
-      "Voice API"
-    ],
-    "link": "https://agentline.cloud",
-    "date": "2026-06-20",
-    "id": "17819866575490"
-  },
-  {
-    "title": "Crit 终端工具：AI 驱动的高级设计审查",
-    "summary": "终端内运行设计审查，自动检测 WCAG 对比度并提供修复建议。",
-    "detail": "Crit 是一款运行在终端的 AI 设计审查工具，模拟高级设计主管的反馈。支持 URL、截图或组件输入，基于 WCAG 标准检测对比度、排版、间距等十大维度。特色在于不仅 flagged 问题，还能通过 `--apply` 直接修复代码（如对比度、焦点状态）。强调数据驱动而非主观意见，提升前端开发的可访问性与设计一致性。它读取代码并引用确切行号，帮助开发者跳过琐碎讨论，专注于关键修复，确保每次提交都符合无障碍标准。该工具将设计审查从主观审美转变为客观工程问题，显著减少了设计与开发之间的沟通成本，适合敏捷团队集成到 CI/CD 流程中。",
-    "tags": [
-      "Dev",
-      "Design",
-      "CLI"
-    ],
-    "link": "https://crit.officialjp.com/",
-    "date": "2026-06-20",
-    "id": "17819866575491"
   }
 ]
