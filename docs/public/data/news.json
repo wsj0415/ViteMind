@@ -221,6 +221,19 @@
     "id": "17821021522104"
   },
   {
+    "title": "AI 泡沫论达成共识，支出与收入差距巨大",
+    "summary": "业界共识 AI 处于泡沫中，基础设施支出远超实际收入。",
+    "detail": "文章指出 AI 投资泡沫已成为市场共识，而非边缘观点。美国公司年支出超 5000 亿美元，而消费者收入仅 120 亿，差距巨大。Sequoia 分析师计算需 6000 亿年收入才能覆盖基建成本。知名投资人 Michael Burry 已做空半导体 ETF，认为市场 overshoot。文章深入分析了支出与收入 gap 背后的风险，提示投资者注意估值过高问题。这反映了当前 AI 基础设施建设与商业化落地之间的严重不平衡，行业需警惕潜在的经济风险。",
+    "tags": [
+      "News",
+      "Finance",
+      "Market"
+    ],
+    "link": "https://federicozebele.substack.com/p/this-is-why-ai-is-a-bubble-and-what",
+    "date": "2026-06-21",
+    "id": "17821733734270"
+  },
+  {
     "title": "三星全球部署 ChatGPT Enterprise",
     "summary": "三星电子向全球员工开放 ChatGPT 和 Codex，加速 AI adoption。",
     "detail": "三星电子宣布向韩国全体员工及全球 DX 部门部署 ChatGPT Enterprise 和 Codex。这是 OpenAI 迄今为止最大的企业部署案例之一，标志着 AI 在传统制造业巨头中的深度整合。三星计划将这些工具应用于研发、制造、营销及企业职能等多个领域，旨在提升员工生产力与问题解决能力。Enterprise 版本提供的数据保护和访问管理功能，确保三星能在内部安全策略和治理框架下使用先进 AI，为其他大型企业提供了合规使用生成式 AI 的参考范本。此次合作展示了企业级 AI 落地的实际路径，可能引发同行业效仿。",
@@ -661,6 +674,19 @@
     "link": "https://imgtoolshub.com",
     "date": "2026-06-21",
     "id": "17820218732113"
+  },
+  {
+    "title": "实战经验：AI 无法替代值班判断，但能减少琐事",
+    "summary": "开发者分享 AI 在事故响应中的实际用途，减少前期调查时间。",
+    "detail": "作者基于实际构建的 Claude Code 技能分享经验，指出 AI 无法替代事故响应中的核心判断，但能极大减少前期琐事。通过 `/incident-investigate` 技能，AI 可自动读取警报线程、拉取日志、检查部署历史并生成假设，将 30-90 分钟工作缩短至 3 分钟。关键原则是“无独立数据源确认不提出假设”，确保安全性。这对 SRE 和运维开发具有高参考价值，展示了 AI 在特定工作流中的自动化潜力。该实践表明，AI 应作为辅助工具处理重复性侦察任务，而非决策者。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Ops"
+    ],
+    "link": "https://blog.sntxrr.dev/ai-doesnt-replace-on-call-judgment/",
+    "date": "2026-06-20",
+    "id": "17821733734272"
   },
   {
     "title": "AI 文学奖项争议：生成式作品获奖呼吁规则变革",
@@ -1272,31 +1298,5 @@
     "link": "https://placementist.com/insights/fear-farming-the-stanford-ai-hiring-study-debunk",
     "date": "2026-06-20",
     "id": "17819459680601"
-  },
-  {
-    "title": "Logslim：为 AI Agent 压缩 CI 日志",
-    "summary": "开源工具压缩构建日志，为 AI 代理节省 80% 以上 Token。",
-    "detail": "**Logslim** 专为 AI 开发工作流设计，能在 AI 代理读取前压缩 CI/CD 失败日志。通过结构化摘要替代冗长输出，节省 80-95% Token 成本。支持 GitHub Action 与 CLI，直接集成 PR 评论，提升 Agent 调试效率，解决上下文窗口限制痛点。传统日志往往包含大量进度条与重复警告，浪费 LLM 上下文窗口。Logslim 通过解析错误模式，提取文件行号与修复 hint，使 Agent 能精准定位问题。这对于高频 CI 环境与资源敏感的 Agent 任务尤为关键，大幅优化开发闭环速度，无需 API Key 即可使用。",
-    "tags": [
-      "Dev",
-      "CI/CD",
-      "OpenSource"
-    ],
-    "link": "https://github.com/P156HAM/logslim",
-    "date": "2026-06-20",
-    "id": "17819459680602"
-  },
-  {
-    "title": "gcontext：AI 代理的上下文记忆脑",
-    "summary": "开源 CLI 工具，让 AI 代理持久化记录任务上下文与状态。",
-    "detail": "**gcontext** 为 Claude Code、Cursor 等代理提供持久化上下文管理。通过 Git 存储 Markdown 笔记，代理可跨会话记住任务状态与集成细节。支持“继续”指令无缝恢复工作，解决 Agent 长任务记忆丢失问题，增强复杂工作流的连续性。传统 Agent 常在会话结束后丢失上下文，导致重复工作。gcontext 将状态持久化于 Git，确保版本可控。支持多种主流编码助手，降低切换成本。对于长期项目维护，该工具能显著减少人工干预，使 AI 代理真正成为可靠的长期合作伙伴，提升研发效能，云端版本即将推出。",
-    "tags": [
-      "New",
-      "Agent",
-      "Memory"
-    ],
-    "link": "https://gcontext.ai",
-    "date": "2026-06-20",
-    "id": "17819459680603"
   }
 ]
