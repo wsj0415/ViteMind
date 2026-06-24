@@ -1,5 +1,70 @@
 [
   {
+    "title": "欧盟 AI 法案合规新框架：真实世界测试成强制要求",
+    "summary": "欧盟 AI 法案要求组织必须基于真实工作流测试 AI 系统，而非理想化演示。",
+    "detail": "欧盟 AI 法案正式实施，强制要求高风险 AI 系统提供真实世界条件下的鲁棒性证据。传统提示测试不再合规，组织需证明系统在实际压力下的行为一致性、故障模式识别及可追溯性。LLM INQUISITOR 方法论提出基于工作流的评估框架，帮助企业满足持续监控要求，填补了预期行为与实际生产行为之间的合规缺口。这标志着 AI 开发从理想化演示转向真实场景验证，企业需建立新的测试基础设施以应对监管审查，避免法律责任。法规要求证据而非假设，驱动行业测试标准升级。",
+    "tags": [
+      "News",
+      "Regulation",
+      "Compliance"
+    ],
+    "link": "https://assimilatedhuman.github.io/inquisitor-labs/eu-ai-act.html",
+    "date": "2026-06-24",
+    "id": "17823016299430"
+  },
+  {
+    "title": "Nature 研究警告：AI 正导致科学研究单一化",
+    "summary": "生成式 AI 的普及可能导致科学方法论趋同，削弱研究的多样性与适应性。",
+    "detail": "Nature 发表文章指出，学术界对生成式 AI 的过度关注正在形成反馈循环，导致科学想象力的扁平化。越来越多的项目强行寻找\"AI 角度”，造成方法论收敛。这种“科学单一文化”可能 crowd out 必要的多元主义，使研究缺乏韧性。文章呼吁警惕 AI 同质化人类思维的风险在科研领域的映射，保持学术生态的多样性。早期警告现已显现实证证据，科研 funding 和会议主题正被 AI 主导，可能削弱其他重要领域的探索空间，影响科学适应性。",
+    "tags": [
+      "News",
+      "Research",
+      "Ethics"
+    ],
+    "link": "https://www.nature.com/articles/s44271-026-00428-5",
+    "date": "2026-06-24",
+    "id": "17823016299431"
+  },
+  {
+    "title": "Haystack 框架更新：打造生产级 Agent 与 RAG 应用",
+    "summary": "开源框架 Haystack 强调生产就绪能力，支持多模型集成与上下文工程。",
+    "detail": "deepset 推出的 Haystack 框架更新，专注于生产级 Agent 和 RAG 系统的构建。其模块化架构允许开发者自由集成 OpenAI、Anthropic 等模型，无供应商锁定。新特性强调上下文工程与可观测性，支持从原型到 Kubernetes 部署的统一流程。对于需要构建透明、可调试 AI 工作流的企业团队，Haystack 提供了标准化的基础设施选择。管道可序列化且云无关，内置日志监控，适合大规模运营，解决从 PoC 到生产的落地难题。开源生态支持 25.7k stars，社区活跃。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "RAG"
+    ],
+    "link": "https://haystack.deepset.ai/",
+    "date": "2026-06-24",
+    "id": "17823016299432"
+  },
+  {
+    "title": "Execlave 发布：AI Agent 治理与执行 enforcement 平台",
+    "summary": "新平台 Execlave 提供 AI Agent 执行层管控，防止提示注入与越权操作。",
+    "detail": "Execlave 作为 AI Agent 管理平台（AMP），在模型输出与真实世界操作之间建立执行层。它能在 20ms 内完成策略 enforcement，支持 SOC 2、EU AI Act 等合规框架。针对提示注入风险，平台提供 kill-switch 和全量日志记录，确保 Agent 行为可审计。这是解决 AI Agent 落地安全顾虑的关键基础设施，适合需要严格治理的企业环境。默认情况下 Agent 无控制层，该工具填补了安全空白，防止意外操作造成损失。兼容 LangChain 等主流框架。",
+    "tags": [
+      "New",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://www.execlave.com",
+    "date": "2026-06-24",
+    "id": "17823016299433"
+  },
+  {
+    "title": "马克斯普朗克研究所：模拟人类记忆限制可提升 AI 语言学习",
+    "summary": "研究发现给 AI 模型增加短暂记忆限制，能更高效地学习语法结构。",
+    "detail": "马克斯普朗克心理语言学研究所与新研究指出，赋予 AI 类似人类的记忆限制（3-7 词）反而能促进语言学习。通过引入“记忆衰减”机制，Fleeting Memory Transformers 在 BabyLM 基准测试中表现更佳。这表明认知科学中的遗忘机制有助于模型聚焦 recurring patterns，提升小数据下的语法泛化能力，为高效 AI 训练提供新方向。研究挑战了越大越好的范式，证明特定约束可优化学习效率和抽象知识获取。儿童规模输入数据下效果显著。",
+    "tags": [
+      "News",
+      "Research",
+      "LLM"
+    ],
+    "link": "https://www.mpi.nl/news/new-study-finds-forgetting-may-be-secret-better-ai-language-learning",
+    "date": "2026-06-24",
+    "id": "17823016299434"
+  },
+  {
     "title": "Workdir 开源 AI 代理沙盒：38ms 启动 Firecracker 微虚拟机",
     "summary": "专为 AI 代理设计的开源沙盒，提供毫秒级启动与按需计费。",
     "detail": "Workdir 推出专为 AI 代理设计的开源沙盒方案，基于 Firecracker 微虚拟机技术，旨在提供安全隔离的执行环境。核心亮点包括热启动仅需 38 毫秒，支持空闲快照暂停以大幅节省成本，且按秒计费无最低消费限制。该技术有效解决了 AI 代理在执行代码时的安全与效率痛点，为开发者构建自托管生产环境提供了高性能、低成本的基础设施选择，标志着代理运行环境标准化的重要一步。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.ai-convert.xyz",
     "date": "2026-06-21",
     "id": "17820572418502"
-  },
-  {
-    "title": "开发者讨论 AI 编码代理 GitHub 账户管理",
-    "summary": "HN 社区热议是否应为 AI 编码代理设立独立 GitHub 账户及权限。",
-    "detail": "Hacker News 社区探讨 AI Coding Agents 的最佳实践。开发者建议为 AI 代理创建独立 GitHub 账户，并使用细粒度 Token 限制权限以确保安全。这反映了 AI 代理融入开发工作流后的身份管理与安全合规新挑战，值得团队参考。随着 Agent 自主性增强，隔离权限可防止意外代码提交或数据泄露。社区讨论集中在如何平衡效率与安全，为 AI 辅助开发提供操作指南。此举有助于审计 AI 行为，明确责任归属。独立账户便于追踪 AI 生成的代码变更历史。",
-    "tags": [
-      "Dev",
-      "GitHub",
-      "Agents"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48618981",
-    "date": "2026-06-21",
-    "id": "17820572418503"
-  },
-  {
-    "title": "深度观察：AI 如何赋予开发者勇气",
-    "summary": "资深工程师分享 AI 如何通过降低试错成本，鼓励构建更宏伟的项目。",
-    "detail": "资深工程师 Neil Kakkar 撰文指出，AI 并未消除对未知项目的恐惧，但通过快速生成可用版本，大幅降低了试错成本。这种速度让开发者更愿意承担高风险项目，加速了从“粗糙版本”到“完美版本”的迭代循环。他认为 AI 缩短了暴露于不确定性中的时间，使工程师能更自信地面对 ambitious 的技术挑战。",
-    "tags": [
-      "Dev",
-      "Workflow",
-      "Productivity"
-    ],
-    "link": "https://neilkakkar.com/ai-made-me-braver.html",
-    "date": "2026-06-21",
-    "id": "17820472980792"
-  },
-  {
-    "title": "开源项目：AI 视频提示词实用手册",
-    "summary": "GitHub 开源库提供图生视频工作流的标准提示词模板与测试方法。",
-    "detail": "该 GitHub 仓库专为创作者和营销团队设计，提供可重复测试的 AI 视频提示词卡片格式。重点在于定义“保留主体”和“运动方式”，而非重复描述图像，旨在解决 AI 视频生成中的一致性难题。它帮助团队建立标准化的测试流程，对比输出结果，从而提高图生视频工作流的效率和可用性。",
-    "tags": [
-      "Dev",
-      "Video",
-      "Prompt"
-    ],
-    "link": "https://github.com/yasuomang/ai-video-prompt-cookbook",
-    "date": "2026-06-21",
-    "id": "17820472980793"
-  },
-  {
-    "title": "新工具：AI 时代的功能开发 Sanity Check",
-    "summary": "开源工具帮助团队在编码前评估功能必要性，对抗功能膨胀。",
-    "detail": "该项目实现 Agent Skills 开放标准，兼容 Claude Code 等 AI 编程助手。它扮演“产品经理”角色，在编码前质问“真的需要做吗”，旨在对抗 AI hype 周期中的功能膨胀。通过结合“洞穴人”的简化思维和架构师的时机判断，帮助团队避免资源浪费在时机不当或范围过大的想法上。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Management"
-    ],
-    "link": "https://github.com/Tacsiazuma/shall-we",
-    "date": "2026-06-21",
-    "id": "17820472980794"
-  },
-  {
-    "title": "GitHub 开源：AI 代理系统骨架课程",
-    "summary": "22 章骨架课程，配合 AI 伙伴学习构建生产级代理。",
-    "detail": "这是一个 22 章的骨架课程，旨在教授如何设计、构建和运营生产级 AI 代理系统。课程不绑定特定技术栈，而是提供随时间缓慢过时的架构模式与决策权衡。专为与 AI 编程伙伴 paired programming 设计，文件对（课程+AGENTS.md）既供人类阅读也供 AI 消费。学习者可通过 AI 伙伴获取真实案例、面试问答及代码建议，避免框架 specifics 快速腐烂的问题，专注于代理自主目标追求、规划与记忆等核心能力。类似 Andrej Karpathy 的 LLM-wiki 理念，课程提供骨架，用户代理负责填充肌肉。不包含逐步教程或参考手册，鼓励开发者利用 AI 查询 exact API 签名。适合希望建立长期 Agent 架构知识而非短期框架技能的工程师，支持通过 Discord 社区共同学习构建。",
-    "tags": [
-      "Dev",
-      "Tutorial",
-      "Agents"
-    ],
-    "link": "https://github.com/bryanyzhu/agentic-ai-system-course",
-    "date": "2026-06-21",
-    "id": "17820379308071"
   }
 ]
