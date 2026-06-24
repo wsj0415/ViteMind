@@ -1,5 +1,57 @@
 [
   {
+    "title": "OpenAI 联手博通发布自研推理芯片 Jalapeño",
+    "summary": "OpenAI 与博通推出首款智能处理器，显著提升能效。",
+    "detail": "OpenAI 与博通联合发布首款自研推理芯片 Jalapeño，旨在优化 LLM 推理性能。该芯片从零设计，能效比现有方案更优，由 OpenAI 模型需求驱动开发，历时九个月完成设计到生产。此举标志着 OpenAI 向全栈平台迈进，涵盖产品、模型至芯片层，计划与数据中心合作伙伴在吉瓦级规模部署，推动先进 AI 更快、更可靠地普及。Jalapeño 具备灵活性，可适配各类 LLM，基于 OpenAI 对当前及未来推理需求的洞察构建，是构建多代计算平台的重要一步。",
+    "tags": [
+      "News",
+      "LLM",
+      "Hardware"
+    ],
+    "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+    "date": "2026-06-24",
+    "id": "17823116262050"
+  },
+  {
+    "title": "FUTO Swipe：设备端开源滑动手势输入模型",
+    "summary": "支持本地运行的开源滑动手写识别模型，保护隐私。",
+    "detail": "FUTO Swipe 是一款专注于隐私的输入工具，采用开源模型实现设备端滑动手势打字。无需联网即可运行，确保用户数据本地化处理，避免云端隐私泄露风险。适合关注隐私及离线场景的开发者与用户，展示了端侧 AI 模型在交互领域的落地应用。该工具利用开放模型优化本地推理速度，为移动设备输入体验带来新选择，体现了 AI 小型化与本地化的趋势。通过开放模型策略，开发者可审查代码安全性，进一步增强了用户信任度，是端侧智能交互的重要尝试。",
+    "tags": [
+      "New",
+      "On-Device",
+      "Open Source"
+    ],
+    "link": "https://www.producthunt.com/products/futo-swipe",
+    "date": "2026-06-24",
+    "id": "17823116262051"
+  },
+  {
+    "title": "Ruby：实时通话中的 AI 提问助手",
+    "summary": "在每次通话中实时提供更好问题的 AI 辅助工具。",
+    "detail": "Ruby 是一款旨在提升沟通质量的 AI 产品，能够在实时通话中为用户提供更好的提问建议。它帮助用户在对话中捕捉关键点，优化互动流程，减少沟通盲区。适合销售、客服及需要高效沟通的专业人士，体现了 AI 在实时语音交互领域的辅助潜力。通过实时分析对话内容，Ruby 能动态生成上下文相关的问题提示，助力用户掌握对话主动权，提升成交率或沟通效率，是 AI 赋能职场沟通的最新案例。该工具集成于通话界面，无感介入，确保用户体验流畅自然。",
+    "tags": [
+      "New",
+      "Voice AI",
+      "Productivity"
+    ],
+    "link": "https://www.producthunt.com/products/ruby-7",
+    "date": "2026-06-24",
+    "id": "17823116262052"
+  },
+  {
+    "title": "Swimio：Apple Watch 上的 AI 游泳教练",
+    "summary": "结合苹果手表追踪与智能训练的 AI 游泳教练应用。",
+    "detail": "Swimio 是一款专为游泳爱好者设计的 AI 教练应用，深度集成 Apple Watch 进行数据追踪。它提供智能训练计划，分析游泳动作与表现，帮助用户科学提升泳技。展示了可穿戴设备与 AI 结合在垂直运动领域的创新，为用户提供个性化的健身指导方案。通过传感器数据与 AI 算法结合，Swimio 能识别泳姿问题并给出改进建议，让专业教练指导变得触手可及，推动了 AI 在大众体育健康领域的普及应用。其智能 workout 功能可根据用户状态动态调整训练强度，实现真正的个性化辅导。",
+    "tags": [
+      "New",
+      "Wearable",
+      "Fitness"
+    ],
+    "link": "https://www.producthunt.com/products/swimio",
+    "date": "2026-06-24",
+    "id": "17823116262053"
+  },
+  {
     "title": "欧盟 AI 法案合规新框架：真实世界测试成强制要求",
     "summary": "欧盟 AI 法案要求组织必须基于真实工作流测试 AI 系统，而非理想化演示。",
     "detail": "欧盟 AI 法案正式实施，强制要求高风险 AI 系统提供真实世界条件下的鲁棒性证据。传统提示测试不再合规，组织需证明系统在实际压力下的行为一致性、故障模式识别及可追溯性。LLM INQUISITOR 方法论提出基于工作流的评估框架，帮助企业满足持续监控要求，填补了预期行为与实际生产行为之间的合规缺口。这标志着 AI 开发从理想化演示转向真实场景验证，企业需建立新的测试基础设施以应对监管审查，避免法律责任。法规要求证据而非假设，驱动行业测试标准升级。",
@@ -1246,57 +1298,5 @@
     "link": "https://portal.neuralwatt.com/",
     "date": "2026-06-21",
     "id": "17820630285273"
-  },
-  {
-    "title": "Jacobi：集成 AI 诊断的物理学仿真子程序 IDE",
-    "summary": "专为 Abaqus 子程序开发设计，支持 Fortran/C++/Python 及 AI 错误诊断。",
-    "detail": "Jacobi 是一款针对物理仿真子程序（如 Abaqus UMAT）的 IDE。支持 Fortran、C++ 和 Python，内置 30+ 物理测试用例，可针对解析解进行验证。特色功能是 AI 诊断，当测试失败时自动发送日志给 AI 分析原因。旨在消除本构子程序开发中的猜测工作，提高仿真工程师的开发效率与代码可靠性。它集成了静态分析和社区测试市场，将 AI 辅助调试引入传统工程仿真领域，降低开发门槛。",
-    "tags": [
-      "Dev",
-      "Simulation",
-      "IDE"
-    ],
-    "link": "https://jacobee.netlify.app/",
-    "date": "2026-06-21",
-    "id": "17820630285274"
-  },
-  {
-    "title": "特朗普政府禁令致 Anthropic 模型下线",
-    "summary": "美国政府因出口管制要求 Anthropic 下线最新模型，引发 AI 政策争议。",
-    "detail": "特朗普政府下达出口管制令，迫使 Anthropic 关闭 Fable 5 等最新模型访问，引发全球 AI 政策与数字主权激烈辩论。网络安全专家联名抗议，指出此举危及美国网络防御能力。尽管竞争对手暂未受波及，但此事件标志着地缘政治对 AI 生态干预加剧。行业政策风险显著上升，引发关于谁受益于监管的讨论，可能重塑 AI 模型部署格局。Anthropic 与政府关系紧张，此举虽带来负面 publicity，但也可能引发社区同情。TechCrunch 分析认为这可能成为 Anthropic 的特殊公关案例。",
-    "tags": [
-      "News",
-      "Policy",
-      "Anthropic"
-    ],
-    "link": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
-    "date": "2026-06-21",
-    "id": "17820572418500"
-  },
-  {
-    "title": "iOS 27 嵌入实用 AI 功能超越 Siri",
-    "summary": "苹果 iOS 27 将 AI 融入应用，支持账单 splitting 及密码安全等功能。",
-    "detail": "苹果 WWDC 后推出 iOS 27 开发者测试版，除 Siri  overhaul 外，还将 Apple Intelligence 嵌入日常应用。新功能包括拍照 split 账单、数据泄露后密码保护及任务自动化。策略侧重解决实际问题，让软件本身更智能，而非仅依赖对话机器人。这些功能将在秋季正式发布，展示苹果 AI 战略更注重无缝集成而非炫技，旨在提升用户日常效率与安全性。用户无需刻意适应新助手，即可享受 AI 带来的便利。iOS 27 标志着苹果 AI 落地进入实用阶段。",
-    "tags": [
-      "News",
-      "Apple",
-      "iOS"
-    ],
-    "link": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
-    "date": "2026-06-21",
-    "id": "17820572418501"
-  },
-  {
-    "title": "AI Convert：免费离线文档转换工具",
-    "summary": "支持 EPUB/MOBI 转 PDF，无需注册无水印，文件自动删除。",
-    "detail": "一款可在 Android 手机构建的在线文档转换工具。支持 EPUB、MOBI 及 DOCX 转 PDF，无需注册账号且无水印。强调隐私安全，文件转换后自动删除。适合需要快速处理电子书及文档的开发者与普通用户，体现轻量级 AI 工具趋势。该项目展示了移动端开发 AI 应用的可能性，无需复杂基础设施即可提供实用服务，符合隐私优先的设计理念。完全免费且开源，适合对数据敏感的用户群体。开发者强调无广告无数据收集，确保用户信任。",
-    "tags": [
-      "New",
-      "Tool",
-      "Privacy"
-    ],
-    "link": "https://www.ai-convert.xyz",
-    "date": "2026-06-21",
-    "id": "17820572418502"
   }
 ]
