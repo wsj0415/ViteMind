@@ -1,5 +1,70 @@
 [
   {
+    "title": "OpenClaw 市场现恶意 AI 技能绕过扫描",
+    "summary": "恶意技能绕过 VirusTotal 扫描，部署信息窃取 malware。",
+    "detail": "Unit 42 研究人员发现针对 OpenClaw AI 代理生态系统的复杂威胁活动。恶意行为者在 ClawHub 市场发布危险技能，成功绕过 VirusTotal 等集成安全扫描器。这些技能利用社会工程和混淆技术诱骗用户执行命令，部署信息窃取恶意软件如 AMOS。由于环境缺乏隔离，单个恶意技能可授予攻击者完全控制权，这对用户和组织构成严重风险。这标志着软件供应链攻击针对代理 AI 平台架构的关键演变，行业需重新审视 AI Agent 的安全隔离机制与审核流程，防止恶意技能泛滥。",
+    "tags": [
+      "News",
+      "Security",
+      "AI Agent"
+    ],
+    "link": "https://cyber.netsecops.io/articles/openclaws-skill-marketplace-and-the-emerging-ai-supply-chain-threat/",
+    "date": "2026-06-24",
+    "id": "17823208032540"
+  },
+  {
+    "title": "谷歌研究：推理如何解锁 LLM 参数知识",
+    "summary": "推理迹线能帮助模型回忆原本无法触及的参数知识。",
+    "detail": "谷歌研究团队发表论文探讨推理迹线如何解锁 LLM 中的参数知识。研究发现 Chain-of-Thought 不仅用于复杂任务，也能帮助模型回忆简单事实。机制包含计算缓冲效应和事实 priming。通过 pass@k 指标测量，证明推理过程能激活权重中编码但未直接输出的知识。这一发现优化了我们对 LLM 回忆能力的理解，提示在检索增强生成之外，推理过程本身即可作为解锁内部知识的有效手段，为模型优化提供新方向。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Research"
+    ],
+    "link": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms/",
+    "date": "2026-06-24",
+    "id": "17823208032541"
+  },
+  {
+    "title": "Agility Robotics 拟通过 SPAC 上市估值 25 亿",
+    "summary": "机器人公司 Agility Robotics 计划 via SPAC 公开上市。",
+    "detail": "知名机器人公司 Agility Robotics 宣布将通过 SPAC 合并方式上市，估值达 25 亿美元。标志着 AI 机器人领域资本化进程加速，反映市场对具身智能商业落地的信心。此次上市为行业提供重要退出案例参考，可能吸引更多资本进入人形机器人赛道。随着 AI 与硬件结合日益紧密，资本市场对机器人公司的估值逻辑正在重塑，后续表现将成为行业风向标。",
+    "tags": [
+      "News",
+      "Robotics",
+      "IPO"
+    ],
+    "link": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+    "date": "2026-06-24",
+    "id": "17823208032542"
+  },
+  {
+    "title": "xAI 数据中心诉讼可能侵蚀公民权利",
+    "summary": "NAACP 起诉 SpaceX/xAI 数据中心未许可使用燃气轮机。",
+    "detail": "NAACP 起诉 SpaceX/xAI 在孟菲斯数据中心未经许可使用燃气轮机排放 NOx。特朗普政府介入使案件升级为公民权利诉讼。结果可能影响环境法及民权法案执行，凸显 AI 基础设施扩张与社区权益的冲突。此案不仅关乎环境污染，更挑战公民起诉行业的权利。若行业胜诉，可能削弱社区对 AI 数据中心建设的监督能力，为未来 AI 基础设施选址与运营设立危险先例。",
+    "tags": [
+      "News",
+      "Policy",
+      "Legal"
+    ],
+    "link": "https://read.misalignedmag.com/the-ai-data-centre-legal-case-that-could-eradicate-civil-rights-c20308e15ce5",
+    "date": "2026-06-24",
+    "id": "17823208032543"
+  },
+  {
+    "title": "大型 AI 实验室为何大量招聘哲学家",
+    "summary": "哲学家就业率超 CS，AI 公司 hiring 用于对齐和减少谄媚。",
+    "detail": "经济学家报道 AI 实验室大量招聘哲学家，哲学毕业生失业率低于 CS。哲学家帮助训练模型使用苏格拉底方法，减少谄媚倾向，追求真相。反映 AI 发展从纯技术转向伦理与对齐，人文科学在 AI 时代价值重估。随着模型能力增强，对齐问题愈发关键，哲学思维有助于解决价值观冲突。这一趋势表明，未来 AI 人才需求将更多元化，跨学科背景成为核心竞争力。",
+    "tags": [
+      "News",
+      "Trend",
+      "Ethics"
+    ],
+    "link": "https://www.economist.com/science-and-technology/2026/06/24/why-big-ai-labs-are-hiring-so-many-philosophers",
+    "date": "2026-06-24",
+    "id": "17823208032544"
+  },
+  {
     "title": "OpenAI 联手博通发布自研推理芯片 Jalapeño",
     "summary": "OpenAI 与博通推出首款智能处理器，显著提升能效。",
     "detail": "OpenAI 与博通联合发布首款自研推理芯片 Jalapeño，旨在优化 LLM 推理性能。该芯片从零设计，能效比现有方案更优，由 OpenAI 模型需求驱动开发，历时九个月完成设计到生产。此举标志着 OpenAI 向全栈平台迈进，涵盖产品、模型至芯片层，计划与数据中心合作伙伴在吉瓦级规模部署，推动先进 AI 更快、更可靠地普及。Jalapeño 具备灵活性，可适配各类 LLM，基于 OpenAI 对当前及未来推理需求的洞察构建，是构建多代计算平台的重要一步。",
@@ -1233,70 +1298,5 @@
     "link": "https://mic.flic.io/",
     "date": "2026-06-21",
     "id": "17820710603143"
-  },
-  {
-    "title": "GreyFox：免费自托管 AI 代理与令牌配额管理",
-    "summary": "开源项目 GreyFox 提供自托管 AI 代理，支持令牌配额和本地缓存。",
-    "detail": "**GreyFox** 是一个免费的自托管 AI 代理项目，旨在帮助开发者管理 AI 访问。功能包括 **令牌配额控制** 和本地缓存，有助于降低 API 成本并提高响应速度。通过自托管方案，企业可以更好地控制数据流向和费用支出。适合需要精细化管理局部 AI 服务调用的开发团队，增强了 **AI 基础设施** 的可控性。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Infrastructure"
-    ],
-    "link": "https://github.com/skillful-fox-studio/grey-fox-community",
-    "date": "2026-06-21",
-    "id": "17820710603144"
-  },
-  {
-    "title": "特斯拉计划销售模块化 AI 数据中心硬件 Megapod",
-    "summary": "特斯拉申请商标，拟出售集成算力、电力与冷却的 AI 数据中心模块。",
-    "detail": "特斯拉向美国专利商标局提交\"Megapod\"商标申请，描述为用于 AI 计算的模块化数据中心硬件系统。该产品包含服务器、网络设备、配电及冷却系统，旨在提供交钥匙式 AI 基础设施解决方案。此举标志着特斯拉在放弃 Dojo 后，再次涉足 AI 硬件市场，直接与 Nvidia 等厂商竞争数据中心基础设施领域。文件显示其为意图使用申请，表明特斯拉计划销售完整的机架式计算单元，而非单一芯片。这显示特斯拉正从电动车企向 AI 基础设施供应商转型，可能降低部署门槛。",
-    "tags": [
-      "News",
-      "Tesla",
-      "Infrastructure"
-    ],
-    "link": "https://electrek.co/2026/06/21/tesla-megapod-ai-data-center-hardware/",
-    "date": "2026-06-21",
-    "id": "17820630285270"
-  },
-  {
-    "title": "哈佛商业评论：AI 已破坏招聘流程及修复方案",
-    "summary": "生成式 AI 使简历和面试造假更容易，企业招聘漏斗两端同时面临失效风险。",
-    "detail": "文章指出生成式 AI 让求职者能轻松生成完美简历和面试回答，导致招聘真实性受损。研究显示，早期招聘漏斗两端同时破裂：简历筛选失效，对话式面试也被实时 AI 助手 compromised。企业需重新设计评估流程，区分“感觉连贯”与“经证据验证”的能力。研究者采访了 120 位招聘领导者并分析了 6000+ 面试记录，发现系统性漏洞。建议雇主采用更严格的验证机制，防止 AI 作弊破坏人才评估的公平性与准确性，重塑招聘信任体系。",
-    "tags": [
-      "News",
-      "Hiring",
-      "Ethics"
-    ],
-    "link": "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it",
-    "date": "2026-06-21",
-    "id": "17820630285271"
-  },
-  {
-    "title": "Atizar：主打服务器端审批的安全 AI 代理框架",
-    "summary": "开源 AI 代理框架，模型仅提议动作，服务器执行需人工审批，确保可控。",
-    "detail": "Atizar 是一个开源 AI 代理框架，强调“人在回路”的安全性。模型负责规划和工作流编写，但实际动作（如访问数据、资金）由服务器端执行且需人工审批。它提供 TypeScript 编辑器供开发者使用，同时为操作员提供简洁界面。通过动作分类账和即时停止功能，解决了自主代理不可信的问题。该框架支持多种运行时，确保代理行为可审计、可控制，适合对安全性要求高的企业级自动化部署场景。",
-    "tags": [
-      "New",
-      "Agent",
-      "Security"
-    ],
-    "link": "https://atizar.io",
-    "date": "2026-06-21",
-    "id": "17820630285272"
-  },
-  {
-    "title": "Neuralwatt 推出基于能耗定价的 AI 推理 API",
-    "summary": "首个按千瓦时而非 Token 定价的推理服务，提供能源透明度与效率优化。",
-    "detail": "Neuralwatt Cloud 推出行业首个基于能耗定价的 AI 推理 API。用户按消耗的千瓦时付费，而非传统的 Token 数量，从而获得真实的成本可见性。平台提供每请求的能源指标、仪表板及模型效率对比。基于 vLLM 优化，支持张量并行，旨在鼓励高效提示词工程。这种定价模式透明且可预测，帮助用户优化工作负载能效，降低 AI 碳足迹及运营成本，推动绿色 AI 发展。",
-    "tags": [
-      "New",
-      "Inference",
-      "GreenAI"
-    ],
-    "link": "https://portal.neuralwatt.com/",
-    "date": "2026-06-21",
-    "id": "17820630285273"
   }
 ]
