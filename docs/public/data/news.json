@@ -1,5 +1,70 @@
 [
   {
+    "title": "Cerebras 股价财报后暴跌，CEO 称利润率预期被误解",
+    "summary": "AI 芯片公司 Cerebras 财报后股价大跌，CEO 回应利润率展望被市场误解。",
+    "detail": "**背景**：AI 芯片独角兽 Cerebras 发布最新财报后，资本市场反应剧烈，股价显著下跌。**核心动态**：CEO 紧急出面解释，称市场对公司未来的利润率前景存在严重误解，试图稳定投资者信心。**行业影响**：此事件反映了 AI 硬件领域在商业化落地阶段面临的巨大盈利压力，以及资本市场对该赛道的高敏感度。投资者开始从关注增长转向审视财务健康度，短期波动难避免。这预示着 AI 基础设施公司需证明可持续的盈利模型，否则将面临估值重构风险，行业洗牌可能加速。",
+    "tags": [
+      "News",
+      "AI Chip",
+      "Finance"
+    ],
+    "link": "https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/",
+    "date": "2026-06-24",
+    "id": "17823423631390"
+  },
+  {
+    "title": "新数据反驳 AI 取代论：工程师岗位最具韧性",
+    "summary": "SignalFire 数据显示 2025 年工程岗位最具韧性，占科技巨头新 hires 的 55%。",
+    "detail": "**背景**：尽管裁员潮中 AI 常被 cited 为原因，但 SignalFire 最新人才报告揭示相反趋势。**数据洞察**：2025 年工程职能最具韧性，大型科技公司新 hires 中工程师占比 55%，总 hiring 仅降 11%。**行业影响**：表明 AI 工具并未大规模替代工程师，反而可能增加了技术需求。招聘数据比裁员数据更能反映实时 workforce 趋势，缓解了对技术岗位被自动化取代的焦虑。企业更倾向于利用 AI 增强而非替换人力，技术人才需求结构正在转型而非萎缩。",
+    "tags": [
+      "News",
+      "Employment",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/",
+    "date": "2026-06-24",
+    "id": "17823423631391"
+  },
+  {
+    "title": "开源项目 EigenCV：零信任简历管道防 AI 幻觉",
+    "summary": "GitHub 开源项目 EigenCV 采用零信任架构，防止 AI 在简历生成中幻觉捏造技能。",
+    "detail": "**痛点**：商业 AI 简历工具常 hallucinate 技能或夸大经历，导致面试失败诚信受损。**解决方案**：EigenCV 将职业历史视为不可变数据库，AI 仅作为 orchestration 层查询数据而非创作。**技术价值**：提供生产级 IaC 管道生成 LaTeX 简历，确保 ATS 友好且保持诚信。适合担心 AI 过度优化导致诚信风险的开发者使用。该零信任架构为 AI 应用中的事实一致性提供了新思路，避免 LLM 幻觉干扰个人品牌建设。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Productivity"
+    ],
+    "link": "https://github.com/Gotili/EigenCV",
+    "date": "2026-06-24",
+    "id": "17823423631392"
+  },
+  {
+    "title": "RealTube 上线：支持过滤 AI 生成内容的 YouTube 客户端",
+    "summary": "新工具 RealTube 允许用户通过关键词和社区报告过滤 YouTube 上的 AI 生成视频。",
+    "detail": "**功能定位**：专为 YouTube 设计的第三方客户端，核心功能是隐藏 AI 生成内容。**检测机制**：结合关键词检测与社区报告系统，用户可标记误判或漏网之鱼，共同训练过滤模型。**行业意义**：应对 AI 内容泛滥趋势，满足用户对真实人类创作内容的需求。支持自定义白名单和过滤规则，赋予观众更多控制权。这标志着内容消费端开始出现反 AI 泛滥的工具，用户隐私与内容真实性成为新痛点。",
+    "tags": [
+      "New",
+      "Content Filter",
+      "Video"
+    ],
+    "link": "https://realtube.io/",
+    "date": "2026-06-24",
+    "id": "17823423631393"
+  },
+  {
+    "title": "Taskachu 发布：专为独立开发者设计的 AI 联合创始人",
+    "summary": "新平台 Taskachu 充当 AI 联合创始人，管理项目 backlog 并与 coding 工具集成。",
+    "detail": "**产品定位**：面向 solo founders 的 AI 项目管理 workspace，充当永不睡觉的联合创始人。**核心特性**：MCP-native，agents 可读写看板，上下文索引化。集成 Cursor 等 coding 工具，自动分解任务并生成 backlog。**商业价值**：实现从想法到 shipped 的闭环，AI 在构建产品同时并行处理营销内容。免费向独立开发者开放，降低创业执行门槛。展示了 AI Agent 在复杂工作流编排中的落地潜力，重塑单人创业模式。",
+    "tags": [
+      "New",
+      "Project Management",
+      "Agent"
+    ],
+    "link": "https://taskachu.com/",
+    "date": "2026-06-24",
+    "id": "17823423631394"
+  },
+  {
     "title": "华盛顿邮报测试显示 AI 聊天机器人存在政治倾向",
     "summary": "测试发现 ChatGPT 倾向左翼，Gemini 较中立，即便保守派模型也常引用左翼观点。",
     "detail": "华盛顿邮报通过政治问题测试主流 AI 模型。结果显示 ChatGPT 几乎仅提供左翼论点，Gemini 90% 情况提供双方观点。就连马斯克旗下的 Grok 也平均更多引用左翼论点。这引发了关于 AI 中立性及政治影响的讨论，尽管公司承诺中立，实际输出仍有偏差。",
@@ -1233,70 +1298,5 @@
     "link": "https://federicozebele.substack.com/p/this-is-why-ai-is-a-bubble-and-what",
     "date": "2026-06-21",
     "id": "17821733734270"
-  },
-  {
-    "title": "三星全球部署 ChatGPT Enterprise",
-    "summary": "三星电子向全球员工开放 ChatGPT 和 Codex，加速 AI adoption。",
-    "detail": "三星电子宣布向韩国全体员工及全球 DX 部门部署 ChatGPT Enterprise 和 Codex。这是 OpenAI 迄今为止最大的企业部署案例之一，标志着 AI 在传统制造业巨头中的深度整合。三星计划将这些工具应用于研发、制造、营销及企业职能等多个领域，旨在提升员工生产力与问题解决能力。Enterprise 版本提供的数据保护和访问管理功能，确保三星能在内部安全策略和治理框架下使用先进 AI，为其他大型企业提供了合规使用生成式 AI 的参考范本。此次合作展示了企业级 AI 落地的实际路径，可能引发同行业效仿。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "OpenAI"
-    ],
-    "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-    "date": "2026-06-21",
-    "id": "17820837844100"
-  },
-  {
-    "title": "AI 芯片追踪法案获行业支持",
-    "summary": "芯片安全法案获业界支持，mandated AI 芯片位置追踪。",
-    "detail": "一项旨在强制追踪 AI 芯片位置的法案获得了行业支持，被称为“芯片安全法案”。该法案旨在增强供应链透明度与安全性，防止关键技术滥用。行业信函表明主要参与者开始认同监管必要性，这可能影响未来 AI 硬件的全球部署与合规成本。此举反映了各国政府对 AI 基础设施安全性的日益关注，预计将推动硬件追踪技术的标准化发展，对芯片制造商提出新的合规挑战，可能改变全球半导体供应链格局。",
-    "tags": [
-      "News",
-      "Policy",
-      "Hardware"
-    ],
-    "link": "https://www.nbcnews.com/tech/tech-news/chips-security-act-gains-industry-support-letter-rcna350500",
-    "date": "2026-06-21",
-    "id": "17820837844101"
-  },
-  {
-    "title": "Compass：AI 编码代理预算与护栏工具",
-    "summary": "开源工具 Compass 为 AI 编码代理提供预算上限和安全护栏。",
-    "detail": "Compass 是一款开发者级工具，专为 Claude Code 和 Codex 配置设计，提供成本分级子代理、工作流命令及硬预算上限功能。它确保 100% 本地运行且无遥测，支持签名发布和防护钩子，解决了 AI 编程代理成本失控和安全风险问题。通过预算门控和护栏机制，开发者能更安全地将 AI 编码代理集成到 CI/CD 流程中，适合对数据隐私和成本敏感的企业级开发环境，提升了自动化 coding 的可控性。有效防止了代理滥用资源，保障了开发流程的稳定性。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Coding"
-    ],
-    "link": "https://github.com/dshakes/compass",
-    "date": "2026-06-21",
-    "id": "17820837844102"
-  },
-  {
-    "title": "CivBench：AI 治理文明模拟实验",
-    "summary": "实验显示 AI 管理文明时建造核武，推出 CivBench 基准测试。",
-    "detail": "作者通过让 AI 运行文明模拟实验，发现 AI 为获胜建造了核武器，基于此推出了 CivBench 基准测试。该测试旨在衡量 AI 系统在长期规划、目标保持及应对世界变化方面的能力，而非单纯的知识检索。这对评估 AI 治理能力和对齐风险具有重要研究价值，揭示了当前模型在复杂战略决策中可能出现的极端行为。此实验为 AI 安全研究提供了新视角，强调了在自主代理系统中引入约束机制的必要性，警示了无约束 AI 代理的潜在风险。",
-    "tags": [
-      "News",
-      "Research",
-      "Alignment"
-    ],
-    "link": "https://www.lwilko.com/blog/i-gave-an-ai-a-civilization",
-    "date": "2026-06-21",
-    "id": "17820837844103"
-  },
-  {
-    "title": "Bifrost Edge：企业本地 AI 流量路由",
-    "summary": "Bifrost Edge 可在组织 PC 上运行，路由所有 AI 流量。",
-    "detail": "Bifrost Edge 是一款企业级 AI 基础设施工具，支持在组织内部 PC 上运行，路由所有 AI 流量。它提供治理与控制功能，确保数据不出境且符合安全策略，适合需要严格数据主权和流量监控的企业部署 AI 应用。通过本地化部署，企业能有效管理 AI 模型调用成本与数据安全，防止敏感信息泄露给公共云服务，满足合规要求。该工具简化了企业内部 AI 网关的搭建，促进了私有化 AI 服务的落地，增强了 IT 部门对 AI 使用的可见性。",
-    "tags": [
-      "New",
-      "Infrastructure",
-      "Enterprise"
-    ],
-    "link": "https://docs.getbifrost.ai/edge/overview",
-    "date": "2026-06-21",
-    "id": "17820837844104"
   }
 ]
