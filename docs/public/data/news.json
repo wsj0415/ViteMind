@@ -1,5 +1,70 @@
 [
   {
+    "title": "Forensic-deepdive: AI 代理的代码知识图谱与 MCP 服务器",
+    "summary": "开源项目提供持久化代码图谱与 MCP 服务器。",
+    "detail": "该项目分析任意代码库（支持 9 种语言），生成持久化嵌入图谱，包含文件、符号、模块、提交等节点。提供 MCP 服务器暴露 9 个复合工具（如 impact, context, archaeology），可供 Claude Code、Cursor 等代理消费。生成五个持久化 Markdown 文档，如 MAP.md 和 MENTAL_MODEL.md，帮助新成员上手。每条边携带置信度标签（EXTRACTED/INFERRED），确保透明度，无隐藏启发式方法，统一五种跨边界协议。Endpoint 节点统一 HTTP、gRPC 等协议，前端调用可解析至后端处理程序。",
+    "tags": [
+      "Dev",
+      "MCP",
+      "CodeAnalysis"
+    ],
+    "link": "https://github.com/Dhevenddra/forensic-deepdive",
+    "date": "2026-06-25",
+    "id": "17823937222920"
+  },
+  {
+    "title": "Appaloft: AI 原生的本地优先 PaaS 部署平台",
+    "summary": "支持从 CLI 或 AI 代理部署到自己的服务器。",
+    "detail": "这是一个本地优先的 AI 原生 PaaS 平台，用户可通过 CLI、GitHub Actions 或 AI 代理部署到自己的 VPS。支持单文件启动，部署静态站点、Git repos 及 Docker 应用。内置蓝图市场，一键部署 OpenClaw、n8n 等常见应用。计划集成 Slack、Cloudflare 等连接器，实现团队通知与错误监控，简化自托管流程。让代理使用 MCP 技能进行部署，保持部署上下文在同一路径，降低运维复杂度。适合希望自托管 AI 应用且需要自动化部署流程的开发团队使用。",
+    "tags": [
+      "New",
+      "PaaS",
+      "Deployment"
+    ],
+    "link": "https://www.appaloft.com/",
+    "date": "2026-06-25",
+    "id": "17823937222921"
+  },
+  {
+    "title": "保罗·克鲁格曼：为何大众开始厌恶 AI？",
+    "summary": "诺贝尔奖得主分析公众对 AI 的负面态度。",
+    "detail": "诺贝尔经济学奖得主保罗·克鲁格曼撰文探讨公众对 AI 的抵触情绪。引用 Pew 最新调查，显示多数美国人认为 AI 对社会及个人有害。提及谷歌前 CEO 施密特演讲被毕业生嘘声对待的事件。对比 1999 年互联网态度，指出当前对 AI 速度及政府监管能力的担忧更为强烈，反映技术变革期的社会焦虑。文章强调这不是少数人的声音，而是广泛的公众共识，值得政策制定者关注。公众担心 AI 影响就业及隐私，这种情绪可能影响技术落地速度。",
+    "tags": [
+      "News",
+      "Society",
+      "Opinion"
+    ],
+    "link": "https://paulkrugman.substack.com/p/why-does-everyone-hate-ai",
+    "date": "2026-06-25",
+    "id": "17823937222922"
+  },
+  {
+    "title": "The Agent Pantry: AI 代理工具实时全景图",
+    "summary": "每日扫描更新的 AI 代理框架与工具清单。",
+    "detail": "这是一个实时扫描更新的 AI 代理工具景观网站。每日更新主流框架状态，如 LangChain、LlamaIndex、DSPy 等。显示 GitHub Star 数、语言类型及最后更新时间。帮助开发者快速了解代理工程平台、文档代理及多代理工作流框架的最新动态，为技术选型提供数据支持，避免使用过时库。收录 OpenAI Agents、Semantic Kernel 等官方库，覆盖 Python、TypeScript 等多语言生态。提供当日活动状态，帮助判断项目活跃度。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "Resources"
+    ],
+    "link": "https://theagentpantry.com/",
+    "date": "2026-06-25",
+    "id": "17823937222923"
+  },
+  {
+    "title": "Slopagotchi: 游戏化代码质量的虚拟宠物",
+    "summary": "通过虚拟宠物激励开发者减少 AI 生成垃圾代码。",
+    "detail": "这是一个旨在减少 AI 生成低质代码的虚拟宠物工具。宠物依赖真实提交存活，AI 生成的垃圾代码会导致宠物状态不佳甚至死亡。旨在从源头减少存储与计算浪费。已有团队用于评估共享知识质量及筛选投资项目，有效降低 AI 信用支出，促进开发者编写更 deliberate 的代码，而非盲目生成。宠物会有被动攻击性的意见，提醒团队注意代码质量与知识共享，而非孤岛。通过游戏化机制增强团队对代码所有权的意识。",
+    "tags": [
+      "New",
+      "Gamification",
+      "CodeQuality"
+    ],
+    "link": "https://slopagotchi.com/",
+    "date": "2026-06-25",
+    "id": "17823937222924"
+  },
+  {
     "title": "n8n 启动社区研究计划，深化用户生态洞察",
     "summary": "n8n 宣布开展社区研究，细分用户群体以优化服务，应对快速增长带来的生态复杂性。",
     "detail": "n8n 官方宣布启动社区研究项目，旨在理解其快速增长下的用户生态。随着客户规模扩大，社区内出现了新用户、大使、专家伙伴等不同群体。n8n 联手 Ana Hevesi 进行调研，试图定义这些群体的需求与目标，以便更好地支持社区成员在新时代计算中的业务创建与协作。此举反映了自动化工具平台从单纯增长转向生态精细化运营的趋势。",
@@ -1233,70 +1298,5 @@
     "link": "https://ask-a-human.ai",
     "date": "2026-06-23",
     "id": "17821910569913"
-  },
-  {
-    "title": "Brunelly：全生命周期 AI 软件交付平台",
-    "summary": "连接规划到安全的全流程，确保 AI 代码可审计。",
-    "detail": "Brunelly 推出 AI 软件交付平台，连接规划到安全的全生命周期。针对工程团队使用 AI 但无法证明 ROI 的痛点，提供受治理、可审计的交付系统。AI 生成的 PR 符合架构约束，支持 Sprint 规划与 backlog 生成。平台强调上下文保持与合规性，适合规模化工程组织。通过端到端编排，确保 AI 产出可追踪，解决碎片化 pipeline 问题，帮助企业在引入 AI 开发时实现可控的效率提升与质量保证。目前处于 Beta 阶段，邀请早期用户加入计划。",
-    "tags": [
-      "New",
-      "DevOps",
-      "Platform"
-    ],
-    "link": "https://brunelly.com/",
-    "date": "2026-06-23",
-    "id": "17821910569914"
-  },
-  {
-    "title": "Ember 案例：用 AI 原型化太阳能数据工具",
-    "summary": "利用 AI 加速分析工具开发，揭示太阳能潜力。",
-    "detail": "Ember 分享利用 AI 原型化数据工具的案例，推出 Solar + Battery Atlas。AI 加速了从研究问题到分析工具的转化，帮助测试更多场景。数据显示太阳能潜力巨大，90% 人口所在地区太阳能潜力超需求 10 倍。储能结合可实现高 uptime 供电，成本具竞争力。该案例展示了 AI 在能源政策分析与投资洞察中的实际应用，证明了 AI 辅助分析可生成更细粒度的洞察，为决策者提供关键数据支持。此方法可复制到其他数据密集型行业，提升分析效率与深度。",
-    "tags": [
-      "Dev",
-      "AI Tools",
-      "Energy"
-    ],
-    "link": "https://ember-energy.org/latest-updates/prototyping-data-tools-with-ai-a-case-study-solar-battery-atlas/",
-    "date": "2026-06-23",
-    "id": "17821910569915"
-  },
-  {
-    "title": "AI 陷阱：为何你不能停止阅读代码",
-    "summary": "探讨“氛围编程”风险，强调代码掌控力。",
-    "detail": "文章探讨‘氛围编程’风险，强调工程师仍需阅读代码。虽然 AI 加速原型开发，但完全依赖 AI 会导致技术债务与失控。作者指出不阅读代码会错失优化机会，如将本地工具转为 Web 应用。黑盒代码隐藏维护风险，工程师需保持对逻辑的掌控。建议在探索阶段可用 AI 生成，但生产代码必须审查。这是对当前 AI  coding 热潮的冷静反思，提醒开发者避免陷入无法维护的代码陷阱，保持工程素养。核心观点是注意力资源昂贵，但不能以牺牲代码可控性为代价。",
-    "tags": [
-      "Dev",
-      "Best Practices",
-      "Coding"
-    ],
-    "link": "https://www.williamangel.net/blog/2026/06/22/The-AI-Tarpit-Why-You-Cant-Stop-Reading-Your-Code.html",
-    "date": "2026-06-23",
-    "id": "17821910569916"
-  },
-  {
-    "title": "中国高校削减语言专业以拥抱 AI 趋势",
-    "summary": "为适应 AI 驱动的未来，中国多所大学削减外语专业，新增智能相关专业。",
-    "detail": "为应对 AI 重塑全球经济，中国高校正大幅削减外语及翻译专业，转而开设“具身智能”及“低空经济”等新课。调查显示多所高校取消日语、德语等专业，因 AI 翻译工具兴起挑战传统职业路径。这表明高等教育正快速向 AI 驱动的未来转型，学科结构调整势在必行，全球大学教育均面临证明其在 AI 时代相关性的压力，MyCOS 报告证实了这一趋势，教育界正在适应 AI 时代。",
-    "tags": [
-      "News",
-      "Education",
-      "AI Impact"
-    ],
-    "link": "https://restofworld.org/2026/chinese-universities-drop-humanities-ai/",
-    "date": "2026-06-22",
-    "id": "17822745062743"
-  },
-  {
-    "title": "2026 年 AI Agent 构建实战指南",
-    "summary": "详解 AI Agent 构建七步骤，涵盖工具设计与安全护栏，含工作代码。",
-    "detail": "本文提供 2026 年构建生产级 AI Agent 的实操指南，详细 walkthrough 七个关键步骤。强调 Agent 与 Chatbot 的本质区别在于行动能力，能操作外部系统如发送邮件或写入数据库。核心步骤包括限定单一任务范围、连接有限工具集、运行 Reason-Act 循环及设置安全护栏。重点指出生产环境需关注工具设计、策略执行、成本控制、对抗性测试及审计追踪，而非仅关注模型本身。指南包含工作代码，适合希望将周末 Demo 转化为生产级应用的开发者参考，确保 Agent 在安全可控的前提下实现自动化任务处理，避免越权行为，提升系统稳定性。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Tutorial"
-    ],
-    "link": "https://www.execlave.com/blog/how-to-build-an-ai-agent",
-    "date": "2026-06-22",
-    "id": "17821436714450"
   }
 ]
