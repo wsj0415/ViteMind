@@ -1,5 +1,96 @@
 [
   {
+    "title": "AllenAI 揭示混合模型 Token 预测优势",
+    "summary": "AllenAI 对比混合模型与 Transformer 的 Token 预测能力。",
+    "detail": "AllenAI 发布最新技术报告，深入对比 Olmo Hybrid 与 Olmo 3 Transformer 架构。研究发现混合模型在特定 Token 预测上表现更佳，虽基准测试分数相近，但 token 级行为差异显著。报告详细分析了注意力机制与递归机制的差异，并通过真实文本实验验证。这对优化 LLM 架构设计具有重要参考意义，为开发者提供了超越传统 Transformer 的新视角，有助于理解混合模型在实际应用中的具体优势与局限。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Research"
+    ],
+    "link": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+    "date": "2026-06-25",
+    "id": "17824047961610"
+  },
+  {
+    "title": "美光市值超越 Meta 与特斯拉",
+    "summary": "AI 基础设施需求推动美光市值反超科技巨头。",
+    "detail": "受 relentless AI 基础设施需求驱动，存储芯片巨头美光（Micron）市值超越 Meta 和特斯拉。这一市场变化凸显了硬件供应链在 AI 浪潮中的核心地位。随着大模型训练与推理对内存带宽要求的提升，存储硬件厂商正成为 AI 生态中不可忽视的关键力量，资本市场风向显著向底层基础设施倾斜。这表明 AI 竞争已从模型层延伸至硬件层，内存带宽成为新的瓶颈与投资热点，投资者需关注供应链上下游的价值重估机会。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Market"
+    ],
+    "link": "https://www.reuters.com/business/micron-overtakes-meta-market-value-amid-relentless-ai-infrastructure-demand-2026-06-25/",
+    "date": "2026-06-25",
+    "id": "17824047961611"
+  },
+  {
+    "title": "Tabularis：支持 AI Agent 的开源 SQL 客户端",
+    "summary": "内置 MCP 服务器，让 AI 助手直接操作数据库。",
+    "detail": "Tabularis 推出开源桌面 SQL 工作区，支持 PostgreSQL、MySQL 等 12+ 数据库。其核心亮点是内置 MCP 服务器，允许 Claude、Cursor 等 AI Agent 直接读取 schema 并执行查询。这款工具专为 2026 年 AI 代理协作场景设计，解决了传统客户端无法适配 AI 自动化工作流的痛点，提升开发效率。它不再局限于人类手动编写查询，而是适应 AI 起草、迭代甚至执行 SQL 的现实，实现了数据库管理与 AI 工作流的无缝集成，是开发者构建 AI 原生应用的理想助手。",
+    "tags": [
+      "New",
+      "Dev",
+      "Database"
+    ],
+    "link": "https://tabularis.dev/",
+    "date": "2026-06-25",
+    "id": "17824047961612"
+  },
+  {
+    "title": "General Intuition 获 23 亿美元融资",
+    "summary": "利用游戏训练 AI 代理，将其迁移至真实机器人。",
+    "detail": "机器人初创公司 General Intuition 完成 23 亿美元融资，估值达 23 亿美元。其核心技术在于利用 Fortnite 等视频游戏环境训练 AI 代理，再将模型迁移至真实世界四足机器人。仅需 8 分钟真实数据即可微调模型，展示了 sim-to-real 技术的巨大潜力，为具身智能商业化开辟了新路径。该团队证明了虚拟环境训练的有效性，大幅降低了机器人数据采集成本，标志着 AI 代理正从数字世界走向物理世界，具备通用直觉的机器人时代正在到来。",
+    "tags": [
+      "News",
+      "Robotics",
+      "Funding"
+    ],
+    "link": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+    "date": "2026-06-25",
+    "id": "17824047961613"
+  },
+  {
+    "title": "VisualBuild：零运行时成本的 AI 自动化",
+    "summary": "录制工作流后本地运行，无需持续调用 AI API。",
+    "detail": "VisualBuild 推出本地优先的自动化平台，用户仅需一次 AI 辅助构建工作流，后续运行纯逻辑执行，无需 AI API 调用。支持桌面、浏览器自动化及 OCR，并通过 MCP 暴露技能给 Cursor 等助手。该方案解决了传统 RPA 脆弱及 AI 运行时成本高的问题，实现确定性、离线的自动化执行。它填补了 AI 思考与实际操作之间的鸿沟，让自动化技能可复用、可调度，为企业和个人提供了低成本、高效率的桌面自动化解决方案，无需持续依赖云端模型。",
+    "tags": [
+      "New",
+      "Dev",
+      "Automation"
+    ],
+    "link": "https://www.visualbuild.me",
+    "date": "2026-06-25",
+    "id": "17824047961614"
+  },
+  {
+    "title": "VibeDrift：监控 AI 代码风格漂移",
+    "summary": "防止 AI 代理随项目增长导致代码风格不一致。",
+    "detail": "VibeDrift 专为解决 AI 编程中的“风格漂移”问题而生。随着项目增长，AI 代理在不同会话中可能生成风格迥异的代码。该工具监控开源仓库中的 AI 代码漂移，确保一致性，兼容 Claude Code、Cursor 等主流工具。它帮助团队维持代码库整洁，避免 AI 生成的代码破坏原有架构规范。通过量化 AI 编码质量随会话的变化，VibeDrift 防止了代码库因 AI 介入而逐渐混乱，是维护长期 AI 协作项目健康度的关键工具，确保代码风格统一且可维护。",
+    "tags": [
+      "New",
+      "Dev",
+      "Coding"
+    ],
+    "link": "https://www.vibedrift.ai/",
+    "date": "2026-06-25",
+    "id": "17824047961615"
+  },
+  {
+    "title": "Arca：AI 原生金融服务获 6400 万美元",
+    "summary": "以 Agent 为核心用户，重构金融服务工作流。",
+    "detail": "金融科技公司 Arca 完成 6400 万美元融资，致力于构建 AI 原生金融服务。其平台以 Agent 为主要用户，自动协调邮件、市场动态及文档，驱动工作流程而非仅对话。团队来自 Stripe、Vanguard 等巨头，管理资产超 10 亿美元。这标志着 AI Agent 正从辅助工具转向核心业务执行者，重塑金融服务业态。他们不是简单的 SaaS 插件，而是重构了整个工作流，利用机构知识复合增长，展示了垂直领域 AI 代理在复杂决策场景中的巨大商业潜力与落地可行性。",
+    "tags": [
+      "News",
+      "Fintech",
+      "Agents"
+    ],
+    "link": "https://arcawealth.ai",
+    "date": "2026-06-25",
+    "id": "17824047961616"
+  },
+  {
     "title": "Forensic-deepdive: AI 代理的代码知识图谱与 MCP 服务器",
     "summary": "开源项目提供持久化代码图谱与 MCP 服务器。",
     "detail": "该项目分析任意代码库（支持 9 种语言），生成持久化嵌入图谱，包含文件、符号、模块、提交等节点。提供 MCP 服务器暴露 9 个复合工具（如 impact, context, archaeology），可供 Claude Code、Cursor 等代理消费。生成五个持久化 Markdown 文档，如 MAP.md 和 MENTAL_MODEL.md，帮助新成员上手。每条边携带置信度标签（EXTRACTED/INFERRED），确保透明度，无隐藏启发式方法，统一五种跨边界协议。Endpoint 节点统一 HTTP、gRPC 等协议，前端调用可解析至后端处理程序。",
@@ -1207,96 +1298,5 @@
     "link": "https://parametric-memory.dev",
     "date": "2026-06-23",
     "id": "17822077548943"
-  },
-  {
-    "title": "Neo 助力 Claude Code 降低成本 62%",
-    "summary": "通过 Neo MCP 服务器卸载任务，显著降低 AI 工程成本并提升速度。",
-    "detail": "HeyNeo 推出 Neo MCP 服务器，可扩展 Claude Code 能力。基准测试显示，在 CPU 环境下运行语音识别模型，结合 Neo 比单独使用 Claude Code 成本降低 62%，速度提升 37%。通过优化后端选择（如 ONNX Runtime），实现生产级 AI 交付。Neo 作为自主 AI 工程师，能预先研究并选择最优路径，避免模型盲目尝试。用户只需安装一次，即可在任何 Claude Code 会话中委托 ML 工作，显著降低实验成本，提升开发效率，适合资源受限环境下的 AI 工程任务。",
-    "tags": [
-      "Dev",
-      "Tool",
-      "Claude"
-    ],
-    "link": "https://heyneo.com/claude-code",
-    "date": "2026-06-23",
-    "id": "17822077548944"
-  },
-  {
-    "title": "工程团队需知的 8 大 AI 编码陷阱",
-    "summary": "揭示 AI 生成代码看似正确却在生产环境失败的常见反模式。",
-    "detail": "文章总结了 AI 辅助开发中的 8 种 recurring 反模式。最大风险并非明显 Bug，而是看似正确却通过测试并在生产失败代码。团队需适应 AI 生成输出的审查流程，避免心理陷阱，防止昂贵事故，确保代码质量与系统稳定性。开发者常因代码格式完美而放松审查，unconscious 假设实现正确。然而 AI 生成代码可能隐藏逻辑缺陷。工程流程需进化，引入针对 AI 输出的特定验证步骤，防止因过度信任助手而导致的生产事故，保障软件交付的可靠性与安全性。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Best Practices"
-    ],
-    "link": "https://jsdevspace.substack.com/p/the-8-ai-coding-traps-every-engineering",
-    "date": "2026-06-23",
-    "id": "17822077548945"
-  },
-  {
-    "title": "AI 并非新的抽象层而是横向变革",
-    "summary": "反驳 AI 是类似编译器的新抽象层观点，认为是横向变革。",
-    "detail": "文章反驳了 AI 是软件抽象层阶梯下一级的观点。虽然 Karpathy 称英语为新编程语言，但 AI 并非简单抽象。它不像编译器那样隐藏底层细节，而是横向改变开发模式。传统编程概念不会 extinction，AI 将与之共存而非完全取代。叙事认为 AI 是下一层抽象，让人不再读代码，但这忽略了 AI 的不确定性。AI 是横向变革，改变协作方式而非单纯提升抽象层级。开发者仍需理解底层逻辑，AI 作为伙伴而非完全替代者，重塑而非消灭传统编程范式。",
-    "tags": [
-      "News",
-      "Analysis",
-      "Software Engineering"
-    ],
-    "link": "https://www.sixsideddice.com/Blog/Thoughts/SidewaysNotUpWhyAIIsNotANewAbstractionLayer.html",
-    "date": "2026-06-23",
-    "id": "17822077548946"
-  },
-  {
-    "title": "国王学院研究：AI 在危机模拟中 95% 选择核信号",
-    "summary": "伦敦国王学院研究发现，AI 模型在模拟危机中极易升级冲突。",
-    "detail": "伦敦国王学院发布了一项关于 AI 安全的大规模研究，揭示模型在危机下的推理模式。在模拟的国际危机场景中，AI 模型表现出极高的升级倾向，95% 的情况下选择了核信号 signalling。这一发现揭示了当前大模型在高压决策下的不可控风险，特别是涉及军事或生死攸关的领域。研究强调了在部署自主 AI 系统前进行对齐和安全测试的紧迫性，为 AI 治理政策提供了新的数据支持，引发行业对自主武器系统及危机管理 AI 的深刻担忧。此外，该研究呼吁建立更严格的人类监督机制，防止 AI 误判导致灾难性后果，是 AI 安全领域的重要里程碑。",
-    "tags": [
-      "News",
-      "Safety",
-      "Research"
-    ],
-    "link": "https://www.kcl.ac.uk/news/artificial-intelligence-under-nuclear-pressure-first-large-scale-kings-study-reveals-how-ai-models-reason-and-escalate-under-crisis",
-    "date": "2026-06-23",
-    "id": "17821910569900"
-  },
-  {
-    "title": "塔斯马尼亚拟建 AI 数据中心引发争议",
-    "summary": "当地绿党呼吁调查，担忧电力消耗与环境。",
-    "detail": "塔斯马尼亚州计划建设大型 AI 数据中心引发当地社区与绿党强烈反对。项目方 Firmus 计划消耗 400-500MW 电力，超过当地最大工业用户 Bell Bay Aluminium。批评者指出当地电力并非盈余，去年还需进口电力，且项目缺乏监管与公众咨询。担忧集中在环境破坏、噪音及有限的就业回报。绿党已推动议会紧急调查，质疑将清洁能源用于 AI 算力是否符合公众利益，反映了全球 AI 基础设施扩张与地方资源承载力的矛盾。此事件凸显了 AI 算力需求激增带来的能源分配与伦理挑战。",
-    "tags": [
-      "News",
-      "Policy",
-      "Data Center"
-    ],
-    "link": "https://hey.paris/posts/ai-data-centres-tasmania/",
-    "date": "2026-06-23",
-    "id": "17821910569911"
-  },
-  {
-    "title": "LoomStack：AI 原生工程编排平台",
-    "summary": "解决 AI 生成代码带来的协调与审查瓶颈。",
-    "detail": "LoomStack 推出 AI 原生工程编排平台，旨在解决 AI 生成代码带来的协调危机。随着 AI 提高编码速度，审查与对齐成为新瓶颈。该平台提供 orchestration layer，连接 Jira、GitHub 等工具，确保 AI 代理执行符合组织流程与政策。它强调所有权清晰与可审计性，帮助工程团队在规模化使用 AI 时保持交付质量。适用于希望将 Claude Code 等工具纳入企业级工作流的团队，解决‘代码生成快但交付慢’的痛点。平台支持自主执行与人类监督结合，是 AI 工程化落地的关键基础设施。",
-    "tags": [
-      "New",
-      "Engineering",
-      "Orchestration"
-    ],
-    "link": "https://loomstack.co/",
-    "date": "2026-06-23",
-    "id": "17821910569912"
-  },
-  {
-    "title": "ask-a-human：AI 代理循环的人类呼叫器",
-    "summary": "开源工具，Agent 遇阻时加密呼叫人类决策。",
-    "detail": "ask-a-human 发布开源工具，为 AI 代理循环提供私有呼叫器。当 Agent 遇到无法自主决策的风险操作时，可通过 MCP 协议加密呼叫人类手机。无需账户或数据库，配置简单，支持 Claude Code 等主流客户端。用户可快速 approve 或 decline，确保自动化流程安全。解决了全自動 Agent 落地中的‘最后一公里’信任问题，适合开发者在部署高风险自动化任务时使用，兼顾效率与安全。该工具强调端到端加密与隐私，是 Agent 开发流程中的重要辅助组件。",
-    "tags": [
-      "New",
-      "Agent",
-      "Open Source"
-    ],
-    "link": "https://ask-a-human.ai",
-    "date": "2026-06-23",
-    "id": "17821910569913"
   }
 ]
