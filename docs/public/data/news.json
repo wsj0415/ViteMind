@@ -1,5 +1,83 @@
 [
   {
+    "title": "好莱坞推出机器可读 AI  consent 注册表",
+    "summary": "好莱坞非营利组织 launch 新 registry，明确 AI 使用权限。",
+    "detail": "RSL Media 推出行业首个 practical solution，允许创作者通过机器可读信号明确 AI 对其作品、身份的使用权限（允许/条件/禁止）。此举旨在解决 AI 训练数据 copyright 争议，保护人类 creativity。Cate Blanchett 支持强调 consent 应为首要考虑，标志着 content 行业向 AI 合规化迈出关键一步。随着 AI 生成内容泛滥，该 registry 提供了一种技术层面的权利管理方案，平衡技术创新与版权保护，有望被更多平台采纳作为训练数据过滤依据，重塑数字内容授权生态。",
+    "tags": [
+      "News",
+      "Policy",
+      "Copyright"
+    ],
+    "link": "https://rslmedia.org/",
+    "date": "2026-06-25",
+    "id": "17824297266330"
+  },
+  {
+    "title": "加州发布 AI 失业追踪器监控就业影响",
+    "summary": "加州政策实验室 launch 工具，追踪 AI 导致的失业 claims。",
+    "detail": "California AI-Unemployment Tracker (CAIT) 通过 UI claims 数据分类 AI exposure，提供年龄、行业等维度分析。工具区分 Potential 与 Observed AI Exposure，为政策制定者提供 AI 对劳动力市场影响 early signs。数据每月更新，公开 underlying tabulated data，有助于量化 AI 经济冲击，指导就业政策调整。通过区分潜在与实际暴露，该工具能更精准识别高风险群体。长期数据积累将为政府干预提供实证支持，防止 AI 转型期出现大规模结构性失业，促进劳动力市场平稳过渡，是政府侧监控 AI 风险的重要基础设施。",
+    "tags": [
+      "News",
+      "Policy",
+      "Economy"
+    ],
+    "link": "https://capolicylab.org/california-ai-unemployment-tracker/",
+    "date": "2026-06-25",
+    "id": "17824297266331"
+  },
+  {
+    "title": "数据分析显示 AI 主要替代任务而非职位",
+    "summary": "基于 BLS 数据可视化，展示 AI 对各职业任务的自动化影响。",
+    "detail": "研究基于 BLS 2024-2034 预测及 O*NET 任务数据库，将工作分解为任务束。结果显示 AI 不均匀影响任务：部分 automate，部分 augment，部分保留 human。例如护理行业 13% 任务被自动化，56% 被增强。该模型帮助从业者理解 AI 定位，强调 human 在 physical presence 及 accountability 方面的不可替代性。该分析打破\"AI 取代工作”的简单叙事，引导企业重新设计 workflow。对于求职者，理解任务层面的影响比关注职位头衔更重要，需侧重培养 AI 无法完成的 soft skills 及复杂决策能力，实现人机协作最大化。",
+    "tags": [
+      "News",
+      "Economy",
+      "Analysis"
+    ],
+    "link": "https://www.nextgig.rocks/dash/how-ai-changes-jobs",
+    "date": "2026-06-25",
+    "id": "17824297266332"
+  },
+  {
+    "title": "一行命令在 HF Jobs 部署 vLLM Server",
+    "summary": "Hugging Face 发布指南，简化 vLLM server 部署流程。",
+    "detail": "开发者现可通过单一命令在 HF Jobs 上运行 vLLM server，大幅降低 LLM 部署门槛。该方案优化了 inference 效率，适合快速 prototype 和生产环境。集成 HF 生态简化了资源管理，使团队能更专注于 model 优化而非 infrastructure 维护，推动开源 model 落地应用。vLLM 作为高效 inference 引擎，结合 HF Jobs 的 compute 资源，解决了部署复杂性痛点。这对于需要低 latency 服务的 AI 应用尤为重要，降低了中小团队使用 SOTA model 的成本，加速了 enterprise 级 LLM 应用的普及，简化了 MLOps 流程。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Infrastructure"
+    ],
+    "link": "https://huggingface.co/blog/vllm-jobs",
+    "date": "2026-06-25",
+    "id": "17824297266333"
+  },
+  {
+    "title": "新 macOS  malware 混淆 AI 安全分析工具",
+    "summary": "安全发现新 malware 利用 fake errors 干扰 AI 安全分析。",
+    "detail": "针对 macOS 的新威胁嵌入 fake errors 以 confuse AI 分析 tools。显示了 adversarial attacks 向安全领域延伸，挑战 AI 驱动的安全解决方案。攻击者利用 AI 对 error logs 的依赖，掩盖 malicious behavior。这提醒安全团队需结合 traditional heuristics 与 AI 分析，以防 evade 检测。随着 AI 在 security 运营中普及，针对 AI 模型的 adversarial 攻击将成为新趋势。企业需更新 threat models，确保 AI 分析工具本身的 robustness，避免安全自动化系统被恶意误导，标志着 AI 安全对抗进入新阶段。",
+    "tags": [
+      "News",
+      "Security",
+      "Malware"
+    ],
+    "link": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
+    "date": "2026-06-25",
+    "id": "17824297266334"
+  },
+  {
+    "title": "开源工具支持导出 Claude 对话及思维链",
+    "summary": "Chrome 扩展支持本地导出 Claude 对话、artifacts 及 thinking。",
+    "detail": "GitHub 新项目支持导出 transcripts, artifacts 及 visible thinking 面板。所有处理在本地 browser 完成，保障数据 privacy，适合知识管理。用户可选择导出特定 chats 或全量历史。支持 export visible thinking 功能独特，便于复盘 model 推理过程，提升 workflow 透明度。对于研究人员及开发者，保存 thinking 过程有助于调试 prompt 及理解 model 行为。本地处理机制避免了敏感数据上传第三方，符合 enterprise 合规要求。该工具填补了 Claude 生态在数据导出方面的空白，增强了用户 control，促进了 AI 交互数据的本地化管理。",
+    "tags": [
+      "Dev",
+      "Tool",
+      "Productivity"
+    ],
+    "link": "https://github.com/lekandigital/claude-export-hub",
+    "date": "2026-06-25",
+    "id": "17824297266335"
+  },
+  {
     "title": "美国国会推动法案：科技巨头需自付 AI 数据中心电费",
     "summary": "众议院投票新法案，禁止家庭用户补贴大厂 AI 电力成本。",
     "detail": "美国国会众议院能源小组本周将投票表决一揽子措施，旨在阻止家庭用户补贴大科技公司的 AI 电力账单。核心法案《费率保护法案》(H.R. 9340) 要求耗电 100 兆瓦以上的非住宅站点承担电网升级的全部增量成本，包括 stranded costs。该法案由共和党议员 Gabe Evans 领导，旨在 codify 特朗普的“费率保护承诺”。若通过，将迫使科技巨头内部化 AI 扩张的能源成本，可能减缓数据中心建设速度，改变行业成本结构，防止普通纳税人负担加重，是首个针对数据中心费率上涨的具体立法尝试。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/modelplaneai/modelplane",
     "date": "2026-06-23",
     "id": "17822298814681"
-  },
-  {
-    "title": "Publish.my 面向 AI 代理的静态托管",
-    "summary": "专为 AI Agent 设计的静态网站托管服务，无需账户即可部署。",
-    "detail": "**Show HN 热门项目**，允许 AI 编码助手直接通过 shell 命令部署静态网站。无需安装 CLI 或创建账户，Agent 只需遵循指南即可发布。这优化了 AI Agent 的工作流，实现了从代码生成到上线的无缝闭环。适合快速原型开发，支持 HTML/CSS/JS 等静态文件。通过 email 确认即可上线，未来更新仅需单步操作。这种 agent-native 设计降低了发布摩擦，让 AI 不仅能写代码，还能独立交付可访问的产品。对于 Cursor 或 Claude Code 用户，这极大提升了迭代速度，无需人工介入部署流程，真正实现 autonomous development 的最后一公里。",
-    "tags": [
-      "New",
-      "Agent",
-      "Hosting"
-    ],
-    "link": "https://publish.my/",
-    "date": "2026-06-23",
-    "id": "17822298814682"
-  },
-  {
-    "title": "行业分析：AI 面临的 affordability 危机",
-    "summary": "文章探讨 AI 平台补贴不可持续，token 成本过高引发担忧。",
-    "detail": "**行业博客**深入分析 AI 经济模型，指出平台正面临补贴不可持续的问题。早期免费策略培养了需求，但高昂的推理成本导致收入 gap 扩大。企业开始抱怨 token 消耗成本，这可能迫使行业调整定价策略或优化模型效率。文章引用 Sequoia 数据，显示 revenue gap 已 tripled，从 200B 到 600B。这影响未来 AI 商业化进程，迫使平台在 subsidy 和 profitability 之间寻找平衡。随着 mainstream business press 关注，成本问题成为焦点，可能导致用户成本上升，倒逼模型压缩技术发展，行业或将进入洗牌期，只有高效模型能生存。",
-    "tags": [
-      "News",
-      "Economy",
-      "LLM"
-    ],
-    "link": "https://blog.dshr.org/2026/06/ais-affordability-crisis.html",
-    "date": "2026-06-23",
-    "id": "17822298814683"
-  },
-  {
-    "title": "甲骨文裁员 2.1 万人拥抱 AI",
-    "summary": "科技巨头甲骨文因 AI 转型裁员 13%，反映行业自动化趋势。",
-    "detail": "甲骨文年度报告显示，过去一年全球裁员约 2.1 万人，员工总数降至 14.1 万，降幅达 13%。公司明确表示 AI 技术部署导致 workforce 减少。此举耗资 18 亿美元用于遣散费，凸显科技巨头为构建 AI 基础设施而进行的结构性调整。这不仅是成本削减，更是业务重心向云和 AI 转移的信号。公司警告重组可能导致特定角色熟练工人短缺，进而影响生产力。这反映行业自动化趋势，预计更多科技公司将效仿此策略以优化运营成本并加速 AI 落地。",
-    "tags": [
-      "News",
-      "Industry",
-      "Layoffs"
-    ],
-    "link": "https://www.bbc.com/news/articles/c4gy0x0j5deo",
-    "date": "2026-06-23",
-    "id": "17822180962620"
-  },
-  {
-    "title": "JetBrains AI 编码代理 Junie 正式推出",
-    "summary": "JetBrains 宣布 AI 编码代理 Junie 结束 Beta，在 SWE-Rebench 排名第一。",
-    "detail": "JetBrains flagship AI 编码代理 Junie 正式脱离 Beta 阶段。该代理能像开发者一样使用 IDE 工具，具备规划、调试及 PR 审查能力。在独立基准测试 SWE-Rebench 中，Junie 以 61.6% 解决率位居第一，pass@5 达 72.7%。这标志着 AI 编程助手从辅助代码生成向自主完成任务的重大转变。它能在用户专注其他事务时运行长任务，为开发者提供更深度的集成体验，展示 Agent 技术成熟度。未来将支持更多终端操作，成为开发者日常核心工具。",
-    "tags": [
-      "Dev",
-      "Coding Agent",
-      "JetBrains"
-    ],
-    "link": "https://blog.jetbrains.com/junie/2026/06/junie-coding-agent-out-of-beta/",
-    "date": "2026-06-23",
-    "id": "17822180962621"
-  },
-  {
-    "title": "Blinx 推出 AI 用户体验测试工具",
-    "summary": "新工具利用合成 persona 在几分钟内完成网站 UX heuristic 评估。",
-    "detail": "Blinx 是一款 AI UX 研究工具，通过发送合成 persona 遍历网站或截图，生成叙述性视频和基于 Nielsen Norman 原则的启发式报告。用户只需输入 URL 或上传 Figma 截图即可快速获得可用性反馈。它并非替代真实用户研究，而是作为低成本初筛工具。流程包含选择 persona、运行审计、获取视频报告四步。帮助设计团队在投入大量资源前发现明显的可用性问题，显著缩短设计审查周期，提升迭代效率。支持公开页面及登录后的截图审计，灵活性高。",
-    "tags": [
-      "New",
-      "UX",
-      "Productivity"
-    ],
-    "link": "https://thinkblinx.com/",
-    "date": "2026-06-23",
-    "id": "17822180962622"
-  },
-  {
-    "title": "Framer 3.0 发布 AI 网站构建功能",
-    "summary": "知名设计工具 Framer 更新 3.0 版本，集成 AI 代理进行网站设计。",
-    "detail": "Framer 推出 3.0 版本，主打\"Design with agents\"。新功能允许用户在画布上与 AI 代理协作 refine 设计，并支持团队协同发布。界面预览展示了 2026 风格的 UI 组件和响应式布局能力，涵盖 Desktop 及 Tablet 视图。作为专业网站构建器，此次更新进一步强化了 AI 在设计工作流中的核心地位。支持 Pages、Layers、Assets 管理，旨在降低专业站点的制作门槛并提升迭代效率，实现设计到发布的无缝衔接。更新包含 CMS 集成及外部数据源支持。",
-    "tags": [
-      "New",
-      "Web Design",
-      "No-Code"
-    ],
-    "link": "https://www.framer.com/",
-    "date": "2026-06-23",
-    "id": "17822180962623"
   }
 ]
