@@ -1,5 +1,57 @@
 [
   {
+    "title": "DuckDuckGo AI 搜索出现严重幻觉事件",
+    "summary": "DuckDuckGo AI 搜索结果错误声称特朗普死于狂犬病，引发行业对 AI 搜索可靠性的关注。",
+    "detail": "隐私搜索引擎 DuckDuckGo 的 AI 搜索功能出现重大幻觉，错误生成副总统 Vance 传播狂犬病致特朗普死亡的不实信息。该事件凸显了 AI 搜索在事实准确性上的风险，即便是主打隐私的非 AI 原生搜索引擎，在集成 AI 功能后也难以避免幻觉问题。此事故为行业敲响警钟，表明在 AI 搜索普及过程中，事实核查与可靠性机制仍需大幅加强，以避免误导公众。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Search"
+    ],
+    "link": "https://gizmodo.com/duckduckgo-unable-to-resist-the-pull-of-ai-mistakenly-claims-trump-died-of-rabies-2000777863",
+    "date": "2026-06-26",
+    "id": "17825069204400"
+  },
+  {
+    "title": "Epoch AI 发布 MirrorCode 长程编程基准",
+    "summary": "Epoch AI 推出 MirrorCode 基准，测试 AI 独立完成大型软件项目的能力，最高预算达 2600 美元。",
+    "detail": "Epoch AI 联合 METR 发布 MirrorCode 基准，旨在评估 AI 模型在长 horizon 编码任务上的表现。不同于传统短任务 benchmark，它要求 AI 在无源码情况下端到端重构程序，覆盖 Unix 工具、生物信息学等领域。该基准提供充足的推理预算（单次运行最高 2600 美元），更真实地反映 AI 软件工程能力的上限，将推动自主 Agent 技术在复杂开发任务中的落地。",
+    "tags": [
+      "Dev",
+      "Benchmark",
+      "Coding"
+    ],
+    "link": "https://epoch.ai/MirrorCode",
+    "date": "2026-06-26",
+    "id": "17825069204401"
+  },
+  {
+    "title": "Statey：基于 MCP 协议的 AI 跨会话数据库",
+    "summary": "新品 Statey 允许 AI 在不同聊天会话间共享结构化数据，支持 MCP 协议，解决记忆丢失痛点。",
+    "detail": "Show HN 新品 Statey 解决了 AI 聊天会话记忆丢失痛点。它提供一个无头数据库，让 AI 代理 across 不同平台（Claude, ChatGPT 等）读写结构化数据。支持 MCP 协议，具备完整数据溯源和版本控制，使 AI 代理能真正拥有持久化工作状态，无需依赖特定厂商界面。该工具为构建具有长期记忆和状态管理的 AI 应用提供了关键基础设施。",
+    "tags": [
+      "New",
+      "Database",
+      "MCP"
+    ],
+    "link": "https://www.statey.ai/",
+    "date": "2026-06-26",
+    "id": "17825069204402"
+  },
+  {
+    "title": "学术论文探讨 AI 政治经济与问责机制",
+    "summary": "新论文指出 AI 问责需直面其背后的政治经济权力网络，将在 ACM FAccT 2026 展示。",
+    "detail": "arXiv 新论文《Reckoning with the Political Economy of AI》指出，当前 AI 问责讨论常被“诱饵”分散注意力。作者认为要实现真正的公平，必须直面 AI 项目背后的权力与财富网络，而非仅关注表面技术伦理。该研究将在 ACM FAccT 2026 展示，为 AI 治理提供了社会学视角的深度批判，呼吁政策制定者关注 AI 背后的资源提取与剥削机制。",
+    "tags": [
+      "News",
+      "Research",
+      "Ethics"
+    ],
+    "link": "https://arxiv.org/abs/2604.16106",
+    "date": "2026-06-26",
+    "id": "17825069204403"
+  },
+  {
     "title": "OpenAI 受限政府要求限制 GPT-5.6 发布",
     "summary": "应美国政府要求，OpenAI 限制 GPT-5.6 系列模型仅向可信合作伙伴开放。",
     "detail": "美国政府施压 AI 公司限制先进系统发布。OpenAI 新一代 GPT-5.6 系列包括 Sol、Terra 和 Luna，目前仅向政府共享的合作伙伴开放预览。此前 Anthropic 也因类似要求下架模型。此举引发政府对 AI 发布控制权的争议，前白宫顾问称这形成了事实上的强制许可制度。OpenAI 表示限制不应成为常态，但行业担忧监管过度干预技术创新与发布节奏。特朗普行政令要求提前 30 天提交审查，导致企业面临合规压力，可能改变 AI 模型发布的全球竞争格局与安全评估流程的透明度。",
@@ -1246,57 +1298,5 @@
     "link": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments/",
     "date": "2026-06-24",
     "id": "17822896294941"
-  },
-  {
-    "title": "架构变革：AI 编码时代“单体应用”建议不再适用",
-    "summary": "文章分析 AI 生成代码如何改变软件工程经济学，推动架构向模块化转变。",
-    "detail": "传统“先单体后微服务”的建议正受到 AI 编码能力的挑战。文章指出，AI 模型在较小上下文范围内表现更佳，且代理需要清晰的边界来限制变更范围。因此，将软件保持在小型、边界清晰的单元中成为新的工程卫生标准。这标志着 AI 不仅改变编码速度，更深刻影响了系统架构设计的核心逻辑。开发者需重新评估模块化策略，以适应 AI 生成代码的特性，确保系统的可维护性与稳定性。",
-    "tags": [
-      "Dev",
-      "Architecture",
-      "LLM"
-    ],
-    "link": "https://medium.com/@pivotfakie/start-with-a-monolith-was-good-advice-ai-is-changing-that-a2181b8e5ede",
-    "date": "2026-06-24",
-    "id": "17822896294942"
-  },
-  {
-    "title": "AI 走出屏幕：从软件代理到物理控制的关键转折",
-    "summary": "综述 Anthropic、Nvidia 等进展，标志 AI 开始介入物理世界控制。",
-    "detail": "行业报告显示 AI 正从屏幕内的软件代理转向物理世界控制。Anthropic 利用 Claude 训练四足机器人行走速度提升 37 倍，Nvidia 发布无需重训的空间推理框架，Tesla 推进模块化数据中心。核心信号在于竞争焦点从“单一模型智能”转向“多模型协调系统”，代理架构设计能力成为新壁垒。这意味着 AI 应用将更深入实体经济，对硬件协同与实时控制提出更高要求。",
-    "tags": [
-      "News",
-      "Robotics",
-      "Agents"
-    ],
-    "link": "https://epics.tech/posts/2026-06-23-ai-steps-off-the-screen/",
-    "date": "2026-06-24",
-    "id": "17822896294943"
-  },
-  {
-    "title": "牛津教授警告：AI 可能被“魔鬼”利用毁灭世界",
-    "summary": "牛津数学教授 John Lennox 从伦理宗教角度警示 AI 潜在生存风险。",
-    "detail": "牛津大学数学教授 John Lennox 在接受采访时提出尖锐观点，认为 AI 可能被恶意力量利用从而毁灭世界。这一言论超越了技术安全讨论，从哲学与宗教伦理角度审视 AI 风险。在 AI 能力快速突破的背景下，此类高层级伦理警告提醒行业需关注对齐问题及潜在的非技术性生存威胁。它强调了在追求技术进步的同时，必须建立相应的道德约束与监管框架，以防技术滥用。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Safety"
-    ],
-    "link": "https://www.telegraph.co.uk/books/non-fiction/interview-oxford-professor-john-lennox/",
-    "date": "2026-06-24",
-    "id": "17822896294944"
-  },
-  {
-    "title": "Handshake 推出 AI 训练数据兼职项目",
-    "summary": "Handshake 招募学生远程参与 LLM 测试与训练，无需特定专业背景。",
-    "detail": "Handshake 联合顶级 AI 实验室推出奖学金项目，招募本科生及毕业生远程参与大模型测试。该项目无需特定技术背景，强调细节关注度与推理能力，所有学科专业均可申请，工作时间灵活且无最低时长限制。这反映了 AI 行业对高质量人类反馈数据（RLHF）的持续需求，也为非技术背景人才提供了进入 AI 领域的切入点，帮助构建 AI 驱动就业市场的技能与信心，塑造 AI 未来。",
-    "tags": [
-      "News",
-      "AI Training",
-      "Jobs"
-    ],
-    "link": "https://joinhandshake.com/ai/opportunities/generalist-bachelor-s2/",
-    "date": "2026-06-24",
-    "id": "17822745062740"
   }
 ]
