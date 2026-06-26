@@ -1,5 +1,70 @@
 [
   {
+    "title": "基于 Claude 构建垂直领域 AI 聊天机器人实战",
+    "summary": "作者分享利用 Claude Code 构建四个垂直领域聊天机器人的架构与数据策略。",
+    "detail": "本文详细介绍了如何构建专注于特定领域（如爵士乐、保时捷、手表等）的 AI 聊天机器人。核心架构采用“双模型技巧”控制成本，并通过 curated-source 方法确保答案准确性。作者利用 Claude Code 自动化编码，实现了本地 Wikipedia 镜像及大规模数据索引的加载，展示了通用模型如何通过知识库定制成为领域专家，为开发者提供了低成本构建 niche 产品的可行路径。",
+    "tags": [
+      "Dev",
+      "Claude",
+      "Architecture"
+    ],
+    "link": "https://gregwilson.tech/building-domain-specific-ai-chatbots",
+    "date": "2026-06-26",
+    "id": "17824456339090"
+  },
+  {
+    "title": "政策报告：AI 泡沫破裂后的科技巨头救助政策",
+    "summary": "Open Markets Institute 发布报告，呼吁 AI 泡沫破裂后不应救助科技巨头。",
+    "detail": "Open Markets Institute 发布报告，将当前 AI 投资热潮与 2008 年住房泡沫对比。报告指出，若 AI 泡沫破裂，政策制定者应避免重蹈覆辙，不应利用公共资金救助大型科技公司。文章强调了透明度缺失和影子银行风险，呼吁在危机发生前建立更严格的监管框架，防止风险转嫁给公众，对 AI 行业的长期投资稳定性提出警示。",
+    "tags": [
+      "News",
+      "Policy",
+      "Investment"
+    ],
+    "link": "https://www.openmarketsinstitute.org/publications/no-bailouts-for-big-tech-billionaires-policies-for-when-the-ai-bubble-bursts",
+    "date": "2026-06-26",
+    "id": "17824456339091"
+  },
+  {
+    "title": "LogiGate：基于 Rust 的 AI 零信任中间件架构",
+    "summary": "新开源项目 LogiGate 旨在解决 AI 自主计算中的匿名责任与数据泄露问题。",
+    "detail": "LogiGate 是一个用 Rust 编写的零信任中间件架构，旨在解决 AI 管道中的“匿名责任”和“上下文膨胀”问题。通过将身份验证和合规检查转移到请求者设备的硬件安全模块，确保核心网络无状态且免受监管 liability。该架构强调“机器在暗处处理，人类在明处承担风险”，为 enterprise 级 AI 部署提供了新的安全与合规解决方案，特别适合敏感数据处理场景。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Rust"
+    ],
+    "link": "https://github.com/Les-Senters/Logigate-architecture",
+    "date": "2026-06-26",
+    "id": "17824456339092"
+  },
+  {
+    "title": "2000 人尝试攻击 AI 助手的安全实验报告",
+    "summary": "开发者公开 AI 助手安全测试结果，2000 人尝试提示词注入均未成功。",
+    "detail": "开发者 Fernando 公开了一项安全实验，邀请 2000 人尝试通过邮件提示词注入攻击其 AI 助手 Fiu 以泄露 secrets.env 文件。尽管收到了 6000 多封包含社会工程学攻击的邮件，助手始终遵守安全规则未泄露信息。实验证明了基础安全提示的有效性，但也展示了攻击者的创意手段，为 AI 代理安全防御提供了真实的对抗数据参考。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Prompt Injection"
+    ],
+    "link": "https://www.fernandoi.cl/posts/hackmyclaw/",
+    "date": "2026-06-26",
+    "id": "17824456339093"
+  },
+  {
+    "title": "AI 生成儿童书籍的质量与同质化问题调查",
+    "summary": "作者购买 AI 畅销儿童书，揭示生成内容的同质化与潜在质量隐患。",
+    "detail": "文章分析了 2026 年中旬出版的 AI 生成儿童百科全书，指出尽管模型智能提升，但内容存在严重同质化问题。作者通过购买亚马逊畅销书发现，AI 生成内容虽表面完美却缺乏独特声音。文章探讨了此类书籍泛滥的原因（销量好、买家非读者），并警告 AI 内容可能对儿童心智塑造产生负面影响，呼吁对生成内容设定更高标准。",
+    "tags": [
+      "News",
+      "Content",
+      "Ethics"
+    ],
+    "link": "https://lcamtuf.substack.com/p/ai-childrens-books-body-horror-edition",
+    "date": "2026-06-26",
+    "id": "17824456339094"
+  },
+  {
     "title": "好莱坞推出机器可读 AI  consent 注册表",
     "summary": "好莱坞非营利组织 launch 新 registry，明确 AI 使用权限。",
     "detail": "RSL Media 推出行业首个 practical solution，允许创作者通过机器可读信号明确 AI 对其作品、身份的使用权限（允许/条件/禁止）。此举旨在解决 AI 训练数据 copyright 争议，保护人类 creativity。Cate Blanchett 支持强调 consent 应为首要考虑，标志着 content 行业向 AI 合规化迈出关键一步。随着 AI 生成内容泛滥，该 registry 提供了一种技术层面的权利管理方案，平衡技术创新与版权保护，有望被更多平台采纳作为训练数据过滤依据，重塑数字内容授权生态。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.youtube.com/watch?v=N9lQaXt1eqQ",
     "date": "2026-06-23",
     "id": "17822375027602"
-  },
-  {
-    "title": "Spring AI 2.0 支持自纠正结构化输出",
-    "summary": "新增提供者原生结构化输出及自纠正 schema 验证功能。",
-    "detail": "Spring AI 2.0 引入两项新功能：提供者原生结构化输出和自纠正 Schema 验证。LLM 本质是文本输入输出，结构化输出 bridging 了自然语言与软件记录的 gap。新功能允许模型按 Schema 生成文本并自动验证修正，确保下游代码可可靠解析。默认设置不变，现有代码兼容，显著提升 Java 应用集成 LLM 的稳定性。开发者可更放心地将 LLM 输出用于业务逻辑分支，减少运行时错误。",
-    "tags": [
-      "Dev",
-      "Java",
-      "Spring"
-    ],
-    "link": "https://spring.io/blog/2026/06/23/spring-ai-self-correcting-structured-output/",
-    "date": "2026-06-23",
-    "id": "17822375027603"
-  },
-  {
-    "title": "默认情况下 AI 生成的 UI 存在无障碍缺陷",
-    "summary": "大多数 AI 代码工具生成的 React 组件缺乏语义信息。",
-    "detail": "文章指出 AI 生成的 UI 默认不可访问。工具如 Claude Code 生成的 React 组件视觉上正确，但 accessibility tree 缺失语义信息（role, name 等），导致屏障用户无法使用。原因是 LLM 优化视觉而非语义。文章提出五层强制系统（静态分析、运行时测试等）确保语义正确。除 v0 等特例外，通用工具仍需开发者介入修复。团队应建立自动化测试流程，将无障碍标准纳入 AI 生成代码的验收环节，确保产品包容性。",
-    "tags": [
-      "Dev",
-      "Accessibility",
-      "React"
-    ],
-    "link": "https://master.dev/blog/ai-generated-ui-is-inaccessible-by-default/",
-    "date": "2026-06-23",
-    "id": "17822375027604"
-  },
-  {
-    "title": "多 LLM AI 工作区 Compilr.dev 上线",
-    "summary": "提供专用 AI 代理、结构化工作流及持久上下文。",
-    "detail": "Compilr.dev 推出新的 AI 工作区，支持专用 AI 代理、结构化项目工作流和持久上下文。产品包含桌面应用、CLI 和开发者库。支持多代理团队协作，集成 9 个模型提供商和 21 种工具。旨在为软件、研究及业务提供结构化环境，让上下文在会话间存活，用户可完全控制 API 密钥和工作流。解决了当前 AI 工具上下文丢失的痛点，适合需要长期记忆的项目开发。",
-    "tags": [
-      "New",
-      "Productivity",
-      "LLM"
-    ],
-    "link": "https://compilr.dev/",
-    "date": "2026-06-23",
-    "id": "17822375027605"
-  },
-  {
-    "title": "Netflix 探索可控 AI 视频编辑技术",
-    "summary": "Netflix 研发新模型，旨在保留源素材完整性的同时进行视频编辑。",
-    "detail": "**Netflix 技术博客**披露最新研究，致力于解决当前生成式视频编辑模型破坏源素材物理连续性的痛点。传统方法往往重生成每个像素，导致未编辑元素被意外 alter，破坏场景物理连续性。新技术允许艺术家精确 dictating 变化内容，保留源 footage 完整性，仅修改指定区域。这对影视后期工作流具有深远影响，标志着 AI 视频工具向专业化迈进。通过减少手动编辑时间，帮助 storytellers 更高效制作 trailers 等资产，提升创作自由度。此探索表明大厂正深耕垂直场景，解决 generative video 落地难点，为行业树立新标准，推动 AI 从玩具向生产力工具转变。",
-    "tags": [
-      "News",
-      "Video",
-      "Research"
-    ],
-    "link": "https://netflixtechblog.com/toward-more-controllable-ai-video-editing-an-early-research-exploration-at-netflix-eb8160ed60a2",
-    "date": "2026-06-23",
-    "id": "17822298814680"
-  },
-  {
-    "title": "Modelplane 开源 AI 推理控制平面",
-    "summary": "新的开源项目，旨在为 AI 推理提供统一的控制平面管理。",
-    "detail": "**Modelplane** 在 Hacker News 上亮相，定位为 AI 推理的开源控制平面。该项目旨在简化 LLM 部署与管理，为开发者提供基础设施支持。随着 AI 应用落地，推理层的管理工具需求激增，企业急需统一方案。开源方案有助于降低企业部署门槛，提供统一的控制界面，兼容多种模型后端。开发者可通过该项目更好地管理 inference 流程，优化资源分配，解决多模型调度难题。这对于构建 scalable AI 系统至关重要，促进 AI 基础设施生态的成熟与标准化发展，让团队更专注于应用逻辑而非底层运维，加速 AI 产品迭代速度。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Infrastructure"
-    ],
-    "link": "https://github.com/modelplaneai/modelplane",
-    "date": "2026-06-23",
-    "id": "17822298814681"
   }
 ]
