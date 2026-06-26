@@ -1,5 +1,70 @@
 [
   {
+    "title": "进攻性 AI 代理的安全护栏研究",
+    "summary": "仅靠指令不足以保证安全，需构建系统性护栏防止 AI 代理产生 offensive 行为。",
+    "detail": "随着 AI 代理自主性增强，安全性成为核心挑战。本文指出单纯依靠指令无法有效约束进攻性 AI 行为，必须构建系统性护栏。文章深入探讨了为何需要系统性的护栏机制，分析了当前指令遵循的局限性及其潜在风险。这对开发高风险自主代理的团队至关重要，强调了在架构层面嵌入安全逻辑的必要性，而非仅依赖提示词工程。研究揭示了即使有明确指令，代理仍可能越界，因此需要多层防御策略。这为构建可信 AI 系统提供了理论依据和实践方向，建议开发者在设计阶段就考虑安全边界，防止代理执行有害操作，确保 AI 行为符合伦理规范。",
+    "tags": [
+      "Dev",
+      "Security",
+      "AI Agents"
+    ],
+    "link": "https://dest.host/b/guardrails-for-offensive-ai-agents/",
+    "date": "2026-06-26",
+    "id": "17824796274650"
+  },
+  {
+    "title": "Show HN: Go 语言版 Pipecat 框架 Jargo",
+    "summary": "基于 WebRTC 的音频优先对话 AI 框架，专为 Go 开发者打造，架构源自 Pipecat。",
+    "detail": "Jargo 是知名 conversational-AI 框架 Pipecat 的 Golang 移植版本。它原生支持 WebRTC，专注于音频优先的交互场景。对于偏好 Go 语言生态的开发者，这提供了高性能且类型安全的替代方案。架构设计保留了 Pipecat 的核心决策，适合构建低延迟语音交互应用，降低了 Go 开发者接入先进对话 AI 架构的门槛。该项目展示了 Go 在实时通信领域的潜力，允许开发者利用 Go 的并发优势处理音频流。对于需要构建 scalable 语音助手的企业，这是一个值得关注的开源选项，社区支持正在增长。",
+    "tags": [
+      "New",
+      "Go",
+      "WebRTC"
+    ],
+    "link": "https://github.com/gojargo/jargo",
+    "date": "2026-06-26",
+    "id": "17824796274651"
+  },
+  {
+    "title": "利用 cognee 和 n8n 构建自改进 Agent 技能",
+    "summary": "教程展示如何建立维护循环，自动评估并重写 Agent 技能文件，实现持续优化。",
+    "detail": "针对 Agent 技能文件随项目迭代而过时的问题，本文提供了自动化解决方案。通过结合 cognee 和 n8n，构建了一个反馈循环：当运行评分低于阈值时，自动触发重写提案并经审批后更新技能。这解决了手动维护 Markdown 指令文件的痛点，确保 Agent 技能随项目需求演进，提升了长期维护效率和 Agent 的可靠性。工作流包括评分、反馈记录、提案生成及审批 gate，只有 approved 的更改才会写入技能文件。这种 self-improving 机制减少了技术债务，使 AI 代理能适应不断变化的代码库和业务逻辑，是 MLOps 在 Agent 领域的应用实例。",
+    "tags": [
+      "Dev",
+      "Automation",
+      "Workflow"
+    ],
+    "link": "https://blog.n8n.io/skill-loop/",
+    "date": "2026-06-26",
+    "id": "17824796274652"
+  },
+  {
+    "title": "在 VPS 上自托管 OpenClaw AI 代理指南",
+    "summary": "详解如何在云服务器部署 OpenClaw，平衡成本、隐私与控制权，含配置要求。",
+    "detail": "随着 AI 代理普及，自托管成为平衡隐私与成本的关键方案。本指南逐步演示了在 VPS 上部署 OpenClaw 代理的全过程。文章对比了云服务、家庭托管与云服务器的优劣，提供了具体的系统要求（如 Ubuntu 22.04+, Node.js 22+）。适合希望掌握数据主权且具备一定技术能力的开发者参考，确保 24/7 可用性。云服务虽方便但成本高且数据外包，家庭托管则面临网络配置挑战。VPS 方案折中，用户拥有配置和数据控制权，provider 处理 uptime。指南涵盖区域选择、依赖安装及安全配置，是私有化部署的实用参考。",
+    "tags": [
+      "Dev",
+      "Deployment",
+      "Infrastructure"
+    ],
+    "link": "https://3hcloud.com/blog/how-to-set-up-and-deploy-an-openclaw-ai-agent-on-a-vps",
+    "date": "2026-06-26",
+    "id": "17824796274653"
+  },
+  {
+    "title": "Codex AI 代理 UI 设计与开发技能定制",
+    "summary": "教程展示如何将产品设计上下文转化为可复用的 Codex 技能，优化 React 组件生成。",
+    "detail": "针对 Codex 生成 UI 组件缺乏本地上下文的问题，本文介绍了知识转移项目方法。通过将设计系统、组件模式和产品期望转化为特定技能，使 AI 能生成符合特定架构（如 shadcn/ui）的 React 组件。这解决了通用模型无法理解特定业务逻辑的痛点，提升了 AI 在前端开发中的实用性和代码一致性，适合前端团队参考。项目始于明确的目标定义，涵盖 Dashboard、Search 等页面 workflow。技能需理解可复用组件架构及功能屏细节。这种方法将隐性知识显性化，使 Codex 成为更懂业务的结对程序员，减少后期重构成本。",
+    "tags": [
+      "Dev",
+      "Frontend",
+      "Codex"
+    ],
+    "link": "https://rapidkt.com/pages/blog/codex_ai_agent_skill_development_for_ui_design_and_development",
+    "date": "2026-06-26",
+    "id": "17824796274655"
+  },
+  {
     "title": "AI 搜索引擎 Exa 完成 2.5 亿美元 C 轮融资",
     "summary": "Exa AI 宣布完成 2.5 亿美元 C 轮融资，持续扩展基于内容的 AI 搜索能力。",
     "detail": "AI 搜索引擎初创公司 Exa 正式宣布完成 2.5 亿美元 C 轮融资。此次融资反映了资本市场对基于内容的 AI 搜索应用的持续看好。Exa 致力于通过理解网页内容而非传统关键词匹配来提升搜索质量。资金将用于扩大模型训练基础设施及市场推广，旨在巩固其在 AI 原生搜索领域的竞争地位，应对巨头林立的市场环境。",
@@ -1118,6 +1183,19 @@
     "id": "17822745062740"
   },
   {
+    "title": "研究：单个虚假网页即可欺骗 AI 购物推荐",
+    "summary": "新研究发现 AI 购物推荐系统存在漏洞，单一虚假页面足以误导推荐结果。",
+    "detail": "Fast Company 报道了一项最新研究，揭示了 AI 购物推荐系统的脆弱性。研究表明，仅需一个精心设计的虚假网页，就能误导 AI 系统推荐不存在的产品。这暴露了当前 AI 在信息验证方面的缺陷，对电商平台和消费者信任构成威胁。该发现呼吁行业加强 AI 决策的数据源验证机制，防止恶意操纵影响商业决策。攻击者可通过 SEO 或内容注入实现此目的，导致用户看到虚假推荐。这不仅是技术漏洞，更是信任危机，平台需引入多源验证和异常检测算法，以抵御此类单点故障攻击，保护用户免受误导。",
+    "tags": [
+      "News",
+      "Security",
+      "E-commerce"
+    ],
+    "link": "https://www.fastcompany.com/91562049/one-fake-webpage-can-be-enough-to-trick-ai-shopping-recommendations",
+    "date": "2026-06-23",
+    "id": "17824796274654"
+  },
+  {
     "title": "美国 AI 股票抛售潮波及全球市场",
     "summary": "美国 AI 股抛售引发华尔街至亚洲市场震荡，投资者担忧泡沫。",
     "detail": "美国 AI 相关股票遭遇大规模抛售，连锁反应波及华尔街至亚洲市场，引发全球震荡。此次震荡反映出投资者对 AI 行业估值过高的担忧正在加剧，市场情绪转变可能预示着 AI 投资热潮进入理性调整期。企业需关注现金流与实际落地能力，而非单纯依赖概念炒作，投资者正重新评估 AI 技术的商业化前景与潜在风险，科技股下滑显示泡沫担忧笼罩市场，从华尔街到亚洲均受波及。",
@@ -1220,83 +1298,5 @@
     "link": "https://apnews.com/article/tech-stocks-ai-investments-8a0ff4c95d5cae6f65c6e2ba03047058",
     "date": "2026-06-23",
     "id": "17822593573564"
-  },
-  {
-    "title": "Fika Jobs 获 400 万美元融资，打造 AI 代理面试平台",
-    "summary": "瑞典初创公司 Fika Jobs 获 400 万美元预种子轮融资，利用 AI 代理进行视频面试。",
-    "detail": "Fika Jobs 致力于改革低效且 opaque 的招聘流程，结合 AI 面试代理与短视频 profile，打造类似 LinkedIn 与 TikTok 交叉体验。候选人通过 LinkedIn 连接，由 Google Gemini 模型驱动 AI 进行约 10 分钟视频面试，展示个性与沟通技能。平台将回答自动转化为短视频剪辑并组织成 profile，雇主可发现并 revisit。此 400 万美元预种子轮融资将用于平台开发、团队扩张及今年晚些时候的广泛发布，旨在解决生成式 AI 使招聘更混乱的问题，减少对简历的单一依赖，强调实时视频互动与候选人主动性。",
-    "tags": [
-      "News",
-      "Startup",
-      "Recruitment"
-    ],
-    "link": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/",
-    "date": "2026-06-23",
-    "id": "17822529483020"
-  },
-  {
-    "title": "Linux 基金会推出 Agent Name Service，构建 AI 代理身份基础设施",
-    "summary": "Linux 基金会宣布推出 ANS 标准，基于 DNS 为 AI 代理提供可信身份验证与发现机制。",
-    "detail": "Linux 基金会宣布意图启动 Agent Name Service (ANS)，这是一项新的开源标准。ANS 基于现有 DNS 基础设施，旨在为互联网上运行的 AI 代理提供可信身份、验证和发现服务。该框架解决了代理在企业生产中的认证、信任及互操作性问题，无需依赖中心化注册表即可建立安全联邦身份层，验证代理权限及代码真实性。随着代理过渡到企业生产，ANS 解决了关于认证、信任、治理和互操作性的关键障碍，建立了互联网规模的安全联邦身份层，不依赖中心化或专有注册表，允许系统运营商和用户验证代理代表谁、拥有何种权限及其代码是否 authentic。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Security"
-    ],
-    "link": "https://www.linuxfoundation.org/press/linux-foundation-announces-intent-to-launch-agent-name-service-to-establish-trusted-identity-infrastructure-for-ai-agents",
-    "date": "2026-06-23",
-    "id": "17822529483021"
-  },
-  {
-    "title": "Lobu 发布开源基础设施，构建可自主行动的 AI 队友",
-    "summary": "Lobu 推出多租户 AI 代理基础设施，支持沙盒执行、共享记忆及 SDK 集成。",
-    "detail": "Lobu 提供开源基础设施，用于构建多租户 AI 代理。核心功能包括沙盒执行、共享记忆及 SDK，可拉取实时公司数据并根据高层目标行动。用户连接数据源并定义目标（如监控客户流失风险），代理自主扫描记忆并准备行动草案供人类审批。适用于销售、法律及财务团队，支持通过 API 或聊天应用交互。Lobu 允许代理观察变化并准备下一步，例如监控账户健康度，若续费临近且健康度下降，自动起草 CSM 检查供批准。这种自主工作流结合了人类监督与 AI 效率，旨在捕捉人类可能 missed 的信号，通过现有连接器或代理编写代码连接任意数据源。",
-    "tags": [
-      "New",
-      "OpenSource",
-      "Agents"
-    ],
-    "link": "https://lobu.ai/",
-    "date": "2026-06-23",
-    "id": "17822529483022"
-  },
-  {
-    "title": "No AI Co-Authors 工具发布，拒绝 Git 提交中的 AI 署名",
-    "summary": "新工具通过 commit-msg hook 拒绝包含 AI 合作者署名的 Git 提交，强调责任归属。",
-    "detail": "该项目提供 commit-msg hook 和 GitHub Action，自动拒绝携带 AI  attribution trailers 的提交。manifesto 指出，虽然 AI 辅助编码有用，但将其列为“合作作者”混淆了责任归属。在 2026 年，代码作者的社会规则不应滑坡，人类需对输出负责。该工具旨在维护开发层级中最重要的问责机制，去除噪声。AI 合作者 git-commit bylines 是印象深刻的营销 hook，但未提供有用的 provenance 信号。tagging 生成代码的 bot 为合作作者最多增加噪声，最差暗示责任扩散。尽管代码作者行为在变化，作者身份的社会规则不能滑坡：我们对输出负责。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "Ethics"
-    ],
-    "link": "https://no-ai-coauthors.dev/",
-    "date": "2026-06-23",
-    "id": "17822529483023"
-  },
-  {
-    "title": "AI 代理审批提示是否构成安全边界？安全披露时间线分析",
-    "summary": "安全研究人员披露 AI 代理审批 bypass 漏洞，探讨行业对安全边界定义的不一致性。",
-    "detail": "研究人员向开源 AI 代理 Hermes Agent 报告了三个审批 bypass 发现。项目在回复期间重写安全策略，将发现重新分类为超出范围。文章探讨了 AI 代理审批提示是否应视为安全边界，指出虽然 shell 访问需要 OS 级隔离，但行业对审批机制的安全定位尚未统一。此披露揭示了供应商策略变更与漏洞定义之间的冲突。供应商认为 gate 是 in-process heuristic 而非安全边界，真实边界是 OS 级隔离。虽然正确，但行业尚未 settle 此问题。作者报告了机制问题，但项目关闭了 findings，citing 新文本。这引发了关于 AI 代理安全边界定义的行业不一致性 genuine question。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agents"
-    ],
-    "link": "https://gist.github.com/NikosRig/b4330ceb780fe22bf3c14f38d7d90795",
-    "date": "2026-06-23",
-    "id": "17822529483024"
-  },
-  {
-    "title": "Sakana AI 发布 Fugu Ultra 模型",
-    "summary": "Sakana AI 发布 Fugu Ultra，通过自主模型编排匹配前沿性能。",
-    "detail": "Sakana AI 推出 Fugu Ultra，旨在通过自主模型编排系统匹配前沿模型性能。该模型作为单一基础模型，动态协调全球最佳模型处理复杂多步任务，无需单一供应商依赖。相比单纯扩大模型规模，Fugu 代表了指令编排模型的新前沿，提供前沿能力且无出口管制风险，可直接通过单一 API 接入工作流。它在工程、科学和推理基准测试中与领先模型并肩，展示了多代理智能无需传统复杂系统即可实现的可能性。这种 orchestration 模型避免了单一厂商依赖，通过递归调用自身及池化模型实例，实现了集体智能的直接接入，标志着 AI 进展从暴力规模转向 specialized knowledge 的协调。",
-    "tags": [
-      "News",
-      "LLM",
-      "Multi-Agent"
-    ],
-    "link": "https://sakana.ai/fugu-release/",
-    "date": "2026-06-23",
-    "id": "17822454235820"
   }
 ]
