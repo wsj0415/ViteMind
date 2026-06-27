@@ -1,5 +1,57 @@
 [
   {
+    "title": "福特高管承认用 AI 取代工程师是错误",
+    "summary": "福特高管反思 AI 取代人类工程师的决策失误，引发行业关注。",
+    "detail": "福特高管公开承认，此前尝试用 AI 完全取代人类工程师的策略是错误的。这一事件反映了当前企业在 AI 落地过程中的盲目性与反思。行业影响深远，表明 AI 应作为辅助工具而非完全替代人力，尤其是在复杂工程领域。这为其他企业提供了警示，需重新评估人机协作模式，避免过度依赖自动化导致质量下降。此新闻凸显了 AI 在实际工业应用中的局限性，可能引发后续企业调整 AI 战略，回归人机协作的务实路径，对 AI 就业影响讨论提供实证案例。",
+    "tags": [
+      "News",
+      "Industry",
+      "Automation"
+    ],
+    "link": "https://www.neowin.net/news/ford-execs-say-they-made-a-mistake-when-they-replaced-human-engineers-with-ai/",
+    "date": "2026-06-27",
+    "id": "17825550649130"
+  },
+  {
+    "title": "AI 辅助安全披露中的幻觉问题研究",
+    "summary": "新论文提出 AI 幻觉分类学及检测工具，规范安全披露流程。",
+    "detail": "研究论文《The Calculator Discipline》分析了 AI 辅助安全披露中的幻觉问题。作者提出了四类失败模式 taxonomy，包括证据 fabrication 等，并发布了检测工具 hallucination_check.py。案例涉及 OpenBSD 等项目。核心观点是 AI 如同计算器，需遵守“计算器纪律”。这对 AI 安全研究和代码审查流程有重要指导意义，强调了人工核查的必要性，防止虚假漏洞报告泛滥。该研究为安全社区提供了具体的过滤机制，有助于提升 AI 生成代码的可信度，减少资源浪费。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Research"
+    ],
+    "link": "https://zenodo.org/records/20393083",
+    "date": "2026-06-27",
+    "id": "17825550649131"
+  },
+  {
+    "title": "AI 眼镜助长考试作弊现象蔓延",
+    "summary": "亚洲地区出现学生利用 AI 眼镜作弊案例，监考面临新挑战。",
+    "detail": "媒体报道显示，韩国和台湾等地发现学生利用 AI 智能眼镜在考试中作弊。随着设备小型化，传统监考面临挑战。中国高考已加强眼镜筛查。这一现象引发了关于教育评估与技术发展的深层讨论，迫使教育机构更新反作弊技术，同时也凸显了 AI 硬件普及带来的伦理与管理难题。考试公平性受到技术侵蚀，需建立新的检测标准。此趋势可能推动监考技术升级，同时也引发对可穿戴设备在校园内使用的限制政策讨论，影响硬件普及节奏。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Ethics"
+    ],
+    "link": "https://www.rnz.co.nz/news/world/628396/ai-glasses-are-helping-students-cheat-in-exams-test-obsessed-asia-is-ground-zero",
+    "date": "2026-06-27",
+    "id": "17825550649132"
+  },
+  {
+    "title": "Show HN: Brytlog AI 日志工具",
+    "summary": "开源项目 Brytlog 提供 AI 会话日志管理功能，提升开发效率。",
+    "detail": "GitHub 上新开源项目 Brytlog 旨在帮助开发者管理 AI 会话日志。作为 Show HN 项目，它解决了命令行工具难以追踪不同会话的问题。对于依赖 AI 编程的开发者而言，有效的会话管理能提升工作效率。该项目提供了新的思路来组织 AI 交互历史，适合需要频繁切换上下文的开发场景，填补了官方应用在会话管理上的不足。对于重度 AI 用户，此类工具将成为必备基础设施，促进 AI 编程工作流的标准化与可视化，降低上下文切换成本。",
+    "tags": [
+      "New",
+      "DevTools",
+      "OpenSource"
+    ],
+    "link": "https://github.com/Guy-Sela/brytlog",
+    "date": "2026-06-27",
+    "id": "17825550649133"
+  },
+  {
     "title": "Tug：专为 AI 编码打造的 IDE",
     "summary": "GitHub 新项目 Tug 提供专为 AI 编码设计的集成开发环境。",
     "detail": "Tug 是一个托管在 GitHub 上的新项目，旨在成为专为 AI 编码设计的 IDE。它可能集成了 AI 辅助工作流，优化开发者与 AI 模型的交互体验。随着 AI 生成代码的普及，专用工具链的出现标志着开发范式的转变。开发者不再仅仅使用插件，而是拥有专属环境。值得开发者关注其后续功能迭代及生态整合能力，看其是否能解决当前 AI 编码中的上下文管理与代码审查痛点，提升工程效率，成为下一代 AI 原生开发者的标准工具。",
@@ -1246,57 +1298,5 @@
     "link": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/",
     "date": "2026-06-24",
     "id": "17823423631391"
-  },
-  {
-    "title": "开源项目 EigenCV：零信任简历管道防 AI 幻觉",
-    "summary": "GitHub 开源项目 EigenCV 采用零信任架构，防止 AI 在简历生成中幻觉捏造技能。",
-    "detail": "**痛点**：商业 AI 简历工具常 hallucinate 技能或夸大经历，导致面试失败诚信受损。**解决方案**：EigenCV 将职业历史视为不可变数据库，AI 仅作为 orchestration 层查询数据而非创作。**技术价值**：提供生产级 IaC 管道生成 LaTeX 简历，确保 ATS 友好且保持诚信。适合担心 AI 过度优化导致诚信风险的开发者使用。该零信任架构为 AI 应用中的事实一致性提供了新思路，避免 LLM 幻觉干扰个人品牌建设。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Productivity"
-    ],
-    "link": "https://github.com/Gotili/EigenCV",
-    "date": "2026-06-24",
-    "id": "17823423631392"
-  },
-  {
-    "title": "RealTube 上线：支持过滤 AI 生成内容的 YouTube 客户端",
-    "summary": "新工具 RealTube 允许用户通过关键词和社区报告过滤 YouTube 上的 AI 生成视频。",
-    "detail": "**功能定位**：专为 YouTube 设计的第三方客户端，核心功能是隐藏 AI 生成内容。**检测机制**：结合关键词检测与社区报告系统，用户可标记误判或漏网之鱼，共同训练过滤模型。**行业意义**：应对 AI 内容泛滥趋势，满足用户对真实人类创作内容的需求。支持自定义白名单和过滤规则，赋予观众更多控制权。这标志着内容消费端开始出现反 AI 泛滥的工具，用户隐私与内容真实性成为新痛点。",
-    "tags": [
-      "New",
-      "Content Filter",
-      "Video"
-    ],
-    "link": "https://realtube.io/",
-    "date": "2026-06-24",
-    "id": "17823423631393"
-  },
-  {
-    "title": "Taskachu 发布：专为独立开发者设计的 AI 联合创始人",
-    "summary": "新平台 Taskachu 充当 AI 联合创始人，管理项目 backlog 并与 coding 工具集成。",
-    "detail": "**产品定位**：面向 solo founders 的 AI 项目管理 workspace，充当永不睡觉的联合创始人。**核心特性**：MCP-native，agents 可读写看板，上下文索引化。集成 Cursor 等 coding 工具，自动分解任务并生成 backlog。**商业价值**：实现从想法到 shipped 的闭环，AI 在构建产品同时并行处理营销内容。免费向独立开发者开放，降低创业执行门槛。展示了 AI Agent 在复杂工作流编排中的落地潜力，重塑单人创业模式。",
-    "tags": [
-      "New",
-      "Project Management",
-      "Agent"
-    ],
-    "link": "https://taskachu.com/",
-    "date": "2026-06-24",
-    "id": "17823423631394"
-  },
-  {
-    "title": "华盛顿邮报测试显示 AI 聊天机器人存在政治倾向",
-    "summary": "测试发现 ChatGPT 倾向左翼，Gemini 较中立，即便保守派模型也常引用左翼观点。",
-    "detail": "华盛顿邮报通过政治问题测试主流 AI 模型。结果显示 ChatGPT 几乎仅提供左翼论点，Gemini 90% 情况提供双方观点。就连马斯克旗下的 Grok 也平均更多引用左翼论点。这引发了关于 AI 中立性及政治影响的讨论，尽管公司承诺中立，实际输出仍有偏差。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Chatbot"
-    ],
-    "link": "https://www.washingtonpost.com/technology/interactive/2026/06/24/are-ai-chatbots-like-chatgpt-politically-biased-we-tested-them/",
-    "date": "2026-06-24",
-    "id": "17823363144021"
   }
 ]
