@@ -1,5 +1,57 @@
 [
   {
+    "title": "美国政府部分解除 Anthropic 模型禁令，OpenAI 推迟发布",
+    "summary": "美政府允许 Anthropic 向可信组织发布 Mythos 5，但要求 OpenAI 推迟 GPT-5.6。",
+    "detail": "美国政府对 AI 前沿模型的监管政策出现重大调整。路透社报道，政府部分逆转了此前暂停 Anthropic 顶级模型访问的命令，允许超过 100 家“可信”美国组织使用 Claude Mythos 5，包括多家财富 500 强企业。与此同时，OpenAI 应政府要求推迟了 GPT-5.6 的公开发布。此举引发了关于政府是否在垄断 AI 超级权力的争议，显示出国家安全考量正深刻影响商业 AI 模型的发布节奏与访问权限，开发者需关注合规风险。",
+    "tags": [
+      "News",
+      "Policy",
+      "LLM"
+    ],
+    "link": "https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26/",
+    "date": "2026-06-27",
+    "id": "17825361483790"
+  },
+  {
+    "title": "Promptetheus：专为 AI Agent 设计的调试基础设施",
+    "summary": "开源 Python SDK，支持追踪、检测并自动修复 AI Agent 运行失败。",
+    "detail": "Promptetheus 发布了针对 AI Agent 的调试基础设施，包含 Python SDK 和本地重放工具。它能为每个用户可见的 Agent 任务生成追踪记录，支持装饰器监控工具调用及嵌套跨度。其核心优势在于耐用性交付，即使 HTTP 交付失败也不会崩溃，事件可本地暂存后重放。此外，还提供 CLI 工具进行会话重放和失败指纹分析，适合需要修复失败 Agent 运行的编码 Agent 使用，提升开发效率。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Python"
+    ],
+    "link": "https://github.com/obro79/promptetheus",
+    "date": "2026-06-27",
+    "id": "17825361483791"
+  },
+  {
+    "title": "BlueBookOS：在 AI 聊天中启动微型应用制作系统",
+    "summary": "Show HN 项目，通过粘贴引导包在 ChatGPT 内构建沙盒应用。",
+    "detail": "这是一个 Show HN 项目，允许用户在 AI 聊天窗口中启动微型操作系统 BlueBookOS。它通过粘贴特定的引导包（Jailbreak 或 Safe 版本），使 AI 模型能够遵循 RAu 契约构建应用。该项目无需安装，包含 4 个演示案例，旨在让聊天模型谨慎地构建源优先的应用 artifact。开发者可直接在聊天沙盒中 inspect RAu 源码及最终 HTML 并运行，降低了在 AI 对话中构建可执行原型的门槛，探索交互新范式。",
+    "tags": [
+      "New",
+      "Dev",
+      "LLM"
+    ],
+    "link": "https://hollingsworthd.github.io/RAu/",
+    "date": "2026-06-27",
+    "id": "17825361483792"
+  },
+  {
+    "title": "Agent Idea Hub：提供可落地的 AI Agent 构建蓝图",
+    "summary": "汇聚 129 个经过 ranked 的 Agent 创意，涵盖 25+ 行业与变现指导。",
+    "detail": "Agent Idea Hub 旨在帮助开发者构建客户愿意付费的 AI Agent。平台提供了 129 个经过筛选和排名的 Agent 创意蓝图，覆盖 25 多个行业，平均市场评分 7.8。每个创意包含技术栈、集成方案、构建步骤及变现指导。该工具强调从通用 wrapper 转向具有垂直工作流和可衡量 ROI 的 Agent，帮助 builders 捕捉早期市场份额，解决企业支持、销售及运营中的实际问题，避免同质化竞争。",
+    "tags": [
+      "New",
+      "Agent",
+      "Business"
+    ],
+    "link": "https://www.agentideahub.com",
+    "date": "2026-06-27",
+    "id": "17825361483793"
+  },
+  {
     "title": "特朗普政府允许 Anthropic 向特定机构释放 Mythos 模型",
     "summary": "据报道，特朗普政府已批准 Anthropic 向部分公司及政府机构发布 Mythos AI 模型。",
     "detail": "CNBC 报道称，特朗普政府放宽限制，允许 Anthropic 向特定企业和政府机构发布其 Mythos AI 模型。这一政策调整标志着 AI 监管环境的潜在变化，可能加速高端模型在关键领域的部署。此举反映了政府对 AI 技术主权及安全应用的重视，同时也为 Anthropic 的商业化拓展打开了新的通道。行业需关注后续合规要求，这可能是 AI 模型准入制度松动的信号，影响未来企业级 AI  adoption 节奏。",
@@ -1246,57 +1298,5 @@
     "link": "https://tenureai.dev/writing/every-ai-memory-benchmark-has-an-asterisk/",
     "date": "2026-06-24",
     "id": "17823305166133"
-  },
-  {
-    "title": "微软利用 AI 关联恶意软件操作提起敲诈勒索诉讼",
-    "summary": "微软在诉讼中利用 AI 技术链接两个恶意软件操作团伙。",
-    "detail": "微软在一起敲诈勒索诉讼中，首次利用 AI 技术成功链接了两个独立的恶意软件操作。这展示了 AI 在网络安全取证中的强大能力，能识别人类难以发现的模式关联。此举不仅加强了微软的法律立场，也为 AI 驱动的安全防御提供了新案例。未来 AI 可能在网络犯罪追责中扮演核心角色，改变安全团队应对高级持续性威胁的方式与效率，提升取证准确性，为网络安全法律战提供新武器。",
-    "tags": [
-      "News",
-      "Security",
-      "Microsoft"
-    ],
-    "link": "https://www.theregister.com/security/2026/06/24/microsoft-uses-ai-to-link-two-malware-operations-in-racketeering-suit/5261656",
-    "date": "2026-06-24",
-    "id": "17823305166134"
-  },
-  {
-    "title": "OpenClaw 市场现恶意 AI 技能绕过扫描",
-    "summary": "恶意技能绕过 VirusTotal 扫描，部署信息窃取 malware。",
-    "detail": "Unit 42 研究人员发现针对 OpenClaw AI 代理生态系统的复杂威胁活动。恶意行为者在 ClawHub 市场发布危险技能，成功绕过 VirusTotal 等集成安全扫描器。这些技能利用社会工程和混淆技术诱骗用户执行命令，部署信息窃取恶意软件如 AMOS。由于环境缺乏隔离，单个恶意技能可授予攻击者完全控制权，这对用户和组织构成严重风险。这标志着软件供应链攻击针对代理 AI 平台架构的关键演变，行业需重新审视 AI Agent 的安全隔离机制与审核流程，防止恶意技能泛滥。",
-    "tags": [
-      "News",
-      "Security",
-      "AI Agent"
-    ],
-    "link": "https://cyber.netsecops.io/articles/openclaws-skill-marketplace-and-the-emerging-ai-supply-chain-threat/",
-    "date": "2026-06-24",
-    "id": "17823208032540"
-  },
-  {
-    "title": "谷歌研究：推理如何解锁 LLM 参数知识",
-    "summary": "推理迹线能帮助模型回忆原本无法触及的参数知识。",
-    "detail": "谷歌研究团队发表论文探讨推理迹线如何解锁 LLM 中的参数知识。研究发现 Chain-of-Thought 不仅用于复杂任务，也能帮助模型回忆简单事实。机制包含计算缓冲效应和事实 priming。通过 pass@k 指标测量，证明推理过程能激活权重中编码但未直接输出的知识。这一发现优化了我们对 LLM 回忆能力的理解，提示在检索增强生成之外，推理过程本身即可作为解锁内部知识的有效手段，为模型优化提供新方向。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Research"
-    ],
-    "link": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms/",
-    "date": "2026-06-24",
-    "id": "17823208032541"
-  },
-  {
-    "title": "Agility Robotics 拟通过 SPAC 上市估值 25 亿",
-    "summary": "机器人公司 Agility Robotics 计划 via SPAC 公开上市。",
-    "detail": "知名机器人公司 Agility Robotics 宣布将通过 SPAC 合并方式上市，估值达 25 亿美元。标志着 AI 机器人领域资本化进程加速，反映市场对具身智能商业落地的信心。此次上市为行业提供重要退出案例参考，可能吸引更多资本进入人形机器人赛道。随着 AI 与硬件结合日益紧密，资本市场对机器人公司的估值逻辑正在重塑，后续表现将成为行业风向标。",
-    "tags": [
-      "News",
-      "Robotics",
-      "IPO"
-    ],
-    "link": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
-    "date": "2026-06-24",
-    "id": "17823208032542"
   }
 ]
