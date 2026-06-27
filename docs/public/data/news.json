@@ -1,5 +1,70 @@
 [
   {
+    "title": "Napster 转型 AI 代理平台，推出视频记忆助手",
+    "summary": "经典音乐品牌 Napster 转型 AI 代理平台，支持视频交互与持久记忆。",
+    "detail": "Napster 宣布重大战略转型，从传统音乐流媒体转向 AI 代理平台。新平台提供具有视频存在感、持久记忆和实时语音能力的专业 AI 伴侣，旨在成为用户的协作伙伴而非简单聊天机器人。产品涵盖面向消费者的音乐制作 crew，以及面向 Mac 用户的生产力专家，能处理 bug 修复、原型构建等任务。这标志着老牌互联网品牌试图通过 AI 代理技术重塑用户体验，从被动内容消费转向主动 AI 协作，探索订阅制 AI 服务的新商业模式。该平台强调“每个时刻都有专家”，支持将对话转化为可分享的草稿和计划。这种多模态交互（视频 + 语音 + 记忆）代表了 AI 交互界面的新趋势，可能挑战现有聊天机器人市场，为垂直领域 AI 应用提供新范式。",
+    "tags": [
+      "News",
+      "AI Agent",
+      "Product Pivot"
+    ],
+    "link": "https://www.napster.com/",
+    "date": "2026-06-27",
+    "id": "17825910643340"
+  },
+  {
+    "title": "AI 生成公众评论涌入美国气候政治领域",
+    "summary": "彭博社报道 AI 生成的公众意见正影响美国气候政策制定过程。",
+    "detail": "彭博社分析指出，AI 生成的公众评论正大量进入美国气候政治领域，影响政策制定。随着 AI 工具普及，利益相关者利用大模型批量生成看似真实的公众意见参与政策公示，可能扭曲民主决策过程。这一现象引发了监管机构对评论真实性的担忧，预示着 AI 将在政治游说和政策制定环节产生深远影响。未来可能需要新的验证机制来区分人类与 AI 生成的意见，以确保政策反馈的真实性。这不仅涉及气候政策，还可能扩展到所有依赖公众评论的监管领域，对 AI 治理提出新挑战。决策者需面对海量 AI 生成内容，传统公众参与机制面临失效风险，亟需技术手段进行身份与内容溯源，维护政策制定的公正性与代表性。",
+    "tags": [
+      "News",
+      "Policy",
+      "AI Ethics"
+    ],
+    "link": "https://www.bloomberg.com/news/newsletters/2026-06-27/how-ai-powered-public-comments-could-impact-us-climate-politics",
+    "date": "2026-06-27",
+    "id": "17825910643341"
+  },
+  {
+    "title": "Riskratchet：防止 AI 生成代码导致库腐化",
+    "summary": "专为 AI 辅助 Python 开发设计的可维护性棘轮工具，阻止代码质量下降。",
+    "detail": "Riskratchet 是一款专为 AI 辅助 Python 开发设计的维护性工具，旨在防止 AI 生成代码导致代码库腐化。它通过计算函数的风险评分（覆盖率缺口、圈复杂度、变更频率等），在 CI 流程中阻止代码风险超过基线。解决了 AI 代理擅长写可运行代码但忽视长期维护性的问题，防止函数膨胀和 API 混乱。灵感来自 cargo-crap，确保 AI 生成代码的长期可维护性，让开发者无需手动扮演复杂度警察。该工具机械性地捕获传统审查可能遗漏的问题，如公共 API 暴露无测试调用者，是 AI 编码时代必备的质量守门员。通过设定风险基线，它强制代码质量只能优化不能退化，有效对抗 AI 快速迭代带来的技术债务累积，保障项目长期健康。",
+    "tags": [
+      "Dev",
+      "Python",
+      "Code Quality"
+    ],
+    "link": "https://github.com/KayhanB21/riskratchet",
+    "date": "2026-06-27",
+    "id": "17825910643342"
+  },
+  {
+    "title": "Quora 面临有组织 AI 垃圾邮件环毒害风险",
+    "summary": "分析指出 Quora engagement 机制可能被 AI 垃圾邮件环利用，导致内容毒化。",
+    "detail": "文章揭露 Quora 平台正面临有组织的 AI 垃圾邮件环攻击，导致内容生态毒化。由于 Quora 将用户举报视为“互动”，算法反而会增加被举报内容的曝光，形成 perverse incentive。犯罪团伙利用此漏洞大规模投放 AI 生成的 spam 内容，如虚假设计师手袋广告。这为依赖用户生成内容训练 AI 的平台敲响了数据污染的警钟，显示平台治理机制需适应 AI 时代的对抗性攻击。用户反馈越多垃圾内容，越容易看到更多垃圾，这种机制缺陷正在被黑产规模化利用，严重影响平台数据质量。若不及时修复，可能导致平台可信度崩塌，进而影响基于其数据训练的下游 AI 模型质量，形成恶性循环。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Social Media"
+    ],
+    "link": "https://tacit.livejournal.com/687903.html",
+    "date": "2026-06-27",
+    "id": "17825910643343"
+  },
+  {
+    "title": "Native Hacker News TUI 客户端集成 AI 摘要",
+    "summary": "基于 Go 的终端 HN 阅读器，集成 DeepSeek AI 摘要与本地缓存功能。",
+    "detail": "cwnews 是一款基于 Go 和 Bubbletea 构建的终端 Hacker News 阅读器，集成 AI 评论摘要功能。它支持六个 HN feed 浏览，使用 DeepSeek V4 Flash 实时流式传输线程摘要，包括情感分析和关键观点。所有数据缓存于 SQLite 以实现 instant reopening。特色包括线程折叠、彩色深度缩进和三种主题切换。该工具展示了本地 TUI 与云端 AI 结合的高效工作流，适合喜欢在终端获取信息的开发者，支持中英文摘要配置。通过 AI 摘要，用户可快速把握长评论线程的核心争议，显著提升信息获取效率，是 AI 增强型终端工具的典型代表。结合本地缓存与流式 AI，它在保护隐私的同时提供了智能化的信息筛选，优化了开发者日常阅读体验。",
+    "tags": [
+      "Dev",
+      "CLI",
+      "LLM"
+    ],
+    "link": "https://code.intellios.ai/cwnews/",
+    "date": "2026-06-27",
+    "id": "17825910643344"
+  },
+  {
     "title": "苹果 Vision Pro 高管据报跳槽至 OpenAI",
     "summary": "苹果高管离职加入 OpenAI，显示巨头间人才争夺战升级。",
     "detail": "据 TechCrunch 报道，Apple Vision Pro 部门高管 reportedly 正离职加入 OpenAI。这一动向表明 OpenAI 可能在空间计算或硬件领域有所布局，同时也反映了 AI 行业对顶尖人才的激烈争夺。此举可能影响 Apple 的未来硬件战略，并加速 OpenAI 在多模态交互方面的进展。行业人才流动趋势值得关注，显示 AI 公司正积极吸纳硬件专家以增强产品体验，竞争格局正在发生变化。随着 AI 模型逐渐成熟，硬件载体成为新的竞争焦点，此次高管跳槽可能预示着 OpenAI 未来产品路线的重大调整，科技巨头间的边界正在模糊。",
@@ -50,19 +115,6 @@
     "link": "https://www.theregister.com/ai-and-ml/2026/06/27/nasa-tests-ai-medic-for-astronauts-too-far-from-earth-to-call-a-doctor/5262828",
     "date": "2026-06-27",
     "id": "17825836187073"
-  },
-  {
-    "title": "Napster 转型为可见可对话的 AI 代理平台",
-    "summary": "经典品牌 Napster 宣布转型，推出具备视频 presence 的 AI 代理平台。",
-    "detail": "Napster 宣布品牌重塑，不再是音乐服务，而是成为“可见、可对话、可共创”的 AI 代理平台。新平台支持持久记忆、视频存在及实时语音能力，面向企业及开发者。这是传统互联网品牌利用 AI 技术进行彻底转型的典型案例，展示了 AI Agent 赛道的竞争激烈程度。老牌厂商正在寻找新增长点，通过整合多模态能力提供差异化服务。此举可能引发更多传统科技公司效仿，利用品牌资产进入 AI 代理市场，重塑行业竞争格局，显示 AI 应用层创新活跃。",
-    "tags": [
-      "New",
-      "AI Agents",
-      "Product"
-    ],
-    "link": "https://www.napster.com/",
-    "date": "2026-06-27",
-    "id": "17825836187074"
   },
   {
     "title": "Hyoomn 提供 AI 生成 SaaS 的人工设计审查服务",
@@ -1246,57 +1298,5 @@
     "link": "https://stratechery.com/2026/an-interview-with-figma-ceo-dylan-field-about-design-and-ai/",
     "date": "2026-06-25",
     "id": "17823842861601"
-  },
-  {
-    "title": "软银孙正义驳斥 AI 泡沫论，推迟退休押注 AI 革命",
-    "summary": "孙正义称 AI 泡沫论是侮辱，宣布推迟退休 10-15 年，致力于将软银打造为全球领先的 AI 机器人公司。",
-    "detail": "软银集团董事长孙正义在股东会议上明确表示，称 AI 为泡沫是对这场刚刚开始革命的侮辱。68 岁的他宣布将再任职 10 至 15 年，以加速全球 AI 采用并将软银建设成为顶尖的 AI 驱动机器人公司。他强调 AI 处于早期阶段，具有长期技术价值，自己无暇退休。这一表态显示了资本巨头对 AI 长期发展的坚定信心，无视短期市场波动噪音。",
-    "tags": [
-      "News",
-      "SoftBank",
-      "Investment"
-    ],
-    "link": "https://www.taipeitimes.com/News/biz/archives/2026/06/25/2003859680",
-    "date": "2026-06-25",
-    "id": "17823842861602"
-  },
-  {
-    "title": "Anthropic 指控阿里巴巴试图非法访问 Claude 模型",
-    "summary": "Anthropic 声称阿里巴巴运行了大胆的活动以访问其 Claude AI 模型，引发大厂间模型安全与知识产权争议。",
-    "detail": "据 WSJ 报道标题显示，Anthropic 指控阿里巴巴运行了一场\"大胆\"的活动以访问其 Claude AI 模型。虽然具体技术细节未在提供的文本中展开，但该新闻揭示了头部 AI 模型厂商之间关于模型访问权限、安全防护及知识产权的激烈博弈。这一事件可能引发行业对模型 API 安全及跨国技术合规性的进一步关注，是大厂竞争白热化的信号。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "Security"
-    ],
-    "link": "https://www.wsj.com/tech/ai/anthropic-claims-alibaba-ran-brazen-campaign-to-access-its-claude-ai-model-69d7a392",
-    "date": "2026-06-25",
-    "id": "17823842861603"
-  },
-  {
-    "title": "行业观点：AI 不会取代技术文档工程师",
-    "summary": "文章指出 AI 无法替代技术 writer 的核心人类价值，角色正转变为上下文策展人或内容工程师。",
-    "detail": "针对\"AI 是否取代技术文档工程师\"的讨论，文章明确回答\"否\"。虽然 AI 能增强写作效率，但无法替代追逐主题专家、理解产品张力等真正的人类部分。技术 writer 的角色正在转变为\"上下文策展人\"或\"内容工程师\"，更多负责决策、编辑和编排。文章呼吁因 AI 而考虑裁员的公司重新考虑，强调人类在文档质量保障中的不可替代性。",
-    "tags": [
-      "News",
-      "Career",
-      "Documentation"
-    ],
-    "link": "https://willaireplacetechnicalwriters.com/",
-    "date": "2026-06-25",
-    "id": "17823842861604"
-  },
-  {
-    "title": "AI 编码时代使\"无聊\"的测试更具价值",
-    "summary": "AI 生成代码速度快于审查能力，清晰明确的测试用例成为验证 AI 生成代码正确性的关键锚点。",
-    "detail": "在 AI 代理能快速生成代码和测试补丁的时代，生成速度已超过审查容量。文章指出，绿色的测试套件不再等同于代码正确。METR 研究显示，通过自动 grading 的 AI PR 中有一半不会被维护者合并。因此，\"无聊\"但清晰的测试变得更有价值，它们明确表达了预期行为，减少了审查不确定性。开发者需评估生成测试是否独立证明 correctness，审查重点转向代码适配性与可维护性。",
-    "tags": [
-      "Dev",
-      "Testing",
-      "Coding"
-    ],
-    "link": "https://www.vincentschmalbach.com/the-ai-coding-era-makes-boring-tests-more-valuable/",
-    "date": "2026-06-25",
-    "id": "17823842861605"
   }
 ]
