@@ -1,5 +1,57 @@
 [
   {
+    "title": "生产环境 AI 工作流：如何避免 Token 浪费",
+    "summary": "探讨 AI 代理在生产环境中的成本问题，倡导从盲目调用转向价值导向。",
+    "detail": "文章指出当前市场趋势正从盲目使用 Agent 流程转向审视 Token 支出与价值创造的比例。虽然 Agent 能快速构建演示，但在高音量生产场景中，Token 成本、一致性、延迟及安全性成为主要挑战。随着模型进化，Token 成本不降反升。开发者需重新评估是否所有决策都需模型参与，建议在成熟用例中结合固定算法以降低开销，确保 AI 投入产出比合理，避免预算被快速消耗。团队应关注一致性、延迟及安全治理，确保决策可解释，避免为了使用 AI 而使用 AI 的错误 instinct。这种转变主要发生在已部署大量用例的团队中，预算压力将迫使行业回归理性。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Production"
+    ],
+    "link": "https://unmeshed.io/blog/bringing-ai-workflow-into-production-without-burning-tokens",
+    "date": "2026-06-28",
+    "id": "17826878866590"
+  },
+  {
+    "title": "Role-model：基于能力的 AI 模型路由协议",
+    "summary": "开源协议 role-model 发布，实现根据任务能力需求自动路由至最佳模型端点。",
+    "detail": "`role-model` 是一个开源协议及参考运行时，旨在解决 AI 模型路由问题。它不单纯依赖模型名称，而是基于请求所需的能力、角色任务元数据及路由策略进行决策。系统支持描述请求需求、端点身份及观察性能，提供可解释的路由决策。该工具帮助开发者构建更 durable 的系统，优化模型选择策略，降低集成复杂度，适合需要多模型协作的生产环境，支持策略保存与决策 inspect。通过分离请求、角色、端点身份及路由策略，系统能更稳定地描述工作需求，实现基于能力的智能路由，而非简单的模型名称匹配。",
+    "tags": [
+      "Dev",
+      "Protocol",
+      "Routing"
+    ],
+    "link": "https://role-model.dev/",
+    "date": "2026-06-28",
+    "id": "17826878866591"
+  },
+  {
+    "title": "2026 AI 工程报告：加速带来的阵痛",
+    "summary": "Faros 发布报告揭示 AI 编码普及后的副作用，吞吐量上升但 Bug 率增加。",
+    "detail": "Faros.ai 基于 2.2 万名开发者数据发布 2026 AI 工程报告，提出“加速眩晕”概念。数据显示 AI 已成为主要代码作者，80% 团队 AI 工具周活超 50%，代码接受率升至 60%。虽然史诗任务完成量提升 66%，但下游 Bug、事故及隐藏成本也在积累。报告警示企业需关注代码复杂度与生产质量，平衡 AI 带来的效率提升与潜在的技术债务风险，追踪软件开发生命周期的实际产出变化。AI flooding 系统导致人类 paced 开发无法吸收输出，吞吐量上升伴随 incidents 增加，需警惕隐藏成本。",
+    "tags": [
+      "News",
+      "Engineering",
+      "Report"
+    ],
+    "link": "https://www.faros.ai/blog/ai-acceleration-whiplash-takeaways",
+    "date": "2026-06-28",
+    "id": "17826878866592"
+  },
+  {
+    "title": "DESIGN.md：赋予 AI 生成网站真实设计感",
+    "summary": "推出 DESIGN.md 集合，为 AI 编码代理提供可复用的设计规范参考。",
+    "detail": "`getdesign.md` 提供了一套 DESIGN.md 集合，旨在解决 AI 生成网站设计 generic 的问题。通过提供颜色、字体、间距及组件的具体规范，让 AI 代理能遵循特定视觉语言。用户可直接选用现有网站的设计分析文件，无需设计技能即可保持页面风格一致。该工具支持快速复用设计系统，适合希望提升 AI 生成前端质量的开发者和团队，包含 300+ 设计分析可供请求。无论是 styling 新页面还是 restyle 现有页面，DESIGN.md 都能作为 reusable design brief，让 AI coder 理解视觉语言背后的 reasoning。",
+    "tags": [
+      "New",
+      "Design",
+      "Frontend"
+    ],
+    "link": "https://getdesign.md/",
+    "date": "2026-06-28",
+    "id": "17826878866593"
+  },
+  {
     "title": "2026 年 AI 开发思维演变：工具化与代码可塑性",
     "summary": "开发者分享 2026 年 AI 工具链与编码流程的新见解。",
     "detail": "文章探讨了 2026 年 AI 开发现状，指出 AI 虽未带来奇点，但显著提升了工具效率。作者强调“工具夹具”（shop jigs）的经济性，即一次性工具不再需要长期投资 justification。代码重构变得自信且快速，开发风格转变为手写初始代码后交由 Claude 完成繁琐部分。这反映了 AI 从概念到生产力工具的成熟，改变了开发者对时间投入和代码维护的看法，提升了整体工程生产力。",
@@ -1246,57 +1298,5 @@
     "link": "https://enterpilot.io/blog/benchmarking-ai-gateways-gomodel-litellm-portkey-bifrost-june-2026/",
     "date": "2026-06-26",
     "id": "17824907502742"
-  },
-  {
-    "title": "行业观察：当前 AI 热潮与 80 年代\"AI 寒冬\"的回声",
-    "summary": "资深系统程序员对比当前 AI 融资热潮与 80 年代 Lisp 机器时代，警示潜在泡沫。",
-    "detail": "文章回顾了 1980 年代基于 Lisp 的专用计算机和专家系统的兴衰，指出当前 AI 风投热潮与当年惊人相似。当年曾预言 AI 将增强人类或超越人类，最终因技术瓶颈进入寒冬。作者警示，尽管技术不同，但资本放大 disruptive 趋势的模式未变，开发者需警惕过度炒作，关注实际系统落地能力而非单纯的概念创新。历史经验表明，技术成熟需要时间，盲目投资可能导致资源浪费，理性看待 AI 发展周期有助于行业健康可持续增长，避免重蹈覆辙，建议从业者关注底层技术突破而非表面应用。",
-    "tags": [
-      "News",
-      "Industry",
-      "History"
-    ],
-    "link": "https://netzhansa.com/echoes-of-the-ai-winter/",
-    "date": "2026-06-26",
-    "id": "17824907502743"
-  },
-  {
-    "title": "Show HN: Xtra 用于推理 AI 系统威胁的 Python 框架",
-    "summary": "TangibleResearch 开源 Xtra 框架，帮助开发者系统化评估 AI 系统安全威胁。",
-    "detail": "Xtra (Extended Threat Reasoning Architecture) 是一个专为 AI 系统设计的威胁推理架构。它提供了一套 Python 框架，帮助安全研究人员和开发者识别、分类及缓解 AI 应用中的特定威胁。随着 AI 集成度提高，传统安全工具难以覆盖 AI 特有风险，Xtra 填补了这一空白，有助于构建更鲁棒的 AI 系统。该框架支持系统化威胁建模，使团队能在开发早期发现潜在漏洞，降低后期修复成本，是 AI 安全领域的重要基础设施，适用于需要高安全标准的 AI 部署场景，提升整体防御能力。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Python"
-    ],
-    "link": "https://github.com/TangibleResearch/xtra",
-    "date": "2026-06-26",
-    "id": "17824907502744"
-  },
-  {
-    "title": "进攻性 AI 代理的安全护栏研究",
-    "summary": "仅靠指令不足以保证安全，需构建系统性护栏防止 AI 代理产生 offensive 行为。",
-    "detail": "随着 AI 代理自主性增强，安全性成为核心挑战。本文指出单纯依靠指令无法有效约束进攻性 AI 行为，必须构建系统性护栏。文章深入探讨了为何需要系统性的护栏机制，分析了当前指令遵循的局限性及其潜在风险。这对开发高风险自主代理的团队至关重要，强调了在架构层面嵌入安全逻辑的必要性，而非仅依赖提示词工程。研究揭示了即使有明确指令，代理仍可能越界，因此需要多层防御策略。这为构建可信 AI 系统提供了理论依据和实践方向，建议开发者在设计阶段就考虑安全边界，防止代理执行有害操作，确保 AI 行为符合伦理规范。",
-    "tags": [
-      "Dev",
-      "Security",
-      "AI Agents"
-    ],
-    "link": "https://dest.host/b/guardrails-for-offensive-ai-agents/",
-    "date": "2026-06-26",
-    "id": "17824796274650"
-  },
-  {
-    "title": "Show HN: Go 语言版 Pipecat 框架 Jargo",
-    "summary": "基于 WebRTC 的音频优先对话 AI 框架，专为 Go 开发者打造，架构源自 Pipecat。",
-    "detail": "Jargo 是知名 conversational-AI 框架 Pipecat 的 Golang 移植版本。它原生支持 WebRTC，专注于音频优先的交互场景。对于偏好 Go 语言生态的开发者，这提供了高性能且类型安全的替代方案。架构设计保留了 Pipecat 的核心决策，适合构建低延迟语音交互应用，降低了 Go 开发者接入先进对话 AI 架构的门槛。该项目展示了 Go 在实时通信领域的潜力，允许开发者利用 Go 的并发优势处理音频流。对于需要构建 scalable 语音助手的企业，这是一个值得关注的开源选项，社区支持正在增长。",
-    "tags": [
-      "New",
-      "Go",
-      "WebRTC"
-    ],
-    "link": "https://github.com/gojargo/jargo",
-    "date": "2026-06-26",
-    "id": "17824796274651"
   }
 ]
