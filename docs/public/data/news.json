@@ -1,5 +1,70 @@
 [
   {
+    "title": "2026 年 AI 开发思维演变：工具化与代码可塑性",
+    "summary": "开发者分享 2026 年 AI 工具链与编码流程的新见解。",
+    "detail": "文章探讨了 2026 年 AI 开发现状，指出 AI 虽未带来奇点，但显著提升了工具效率。作者强调“工具夹具”（shop jigs）的经济性，即一次性工具不再需要长期投资 justification。代码重构变得自信且快速，开发风格转变为手写初始代码后交由 Claude 完成繁琐部分。这反映了 AI 从概念到生产力工具的成熟，改变了开发者对时间投入和代码维护的看法，提升了整体工程生产力。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Productivity"
+    ],
+    "link": "https://chriskiehl.com/article/evolving-thoughts-on-ai-2026",
+    "date": "2026-06-28",
+    "id": "17826806585900"
+  },
+  {
+    "title": "Ablo：AI 智能体协作层防止数据覆盖",
+    "summary": "开源项目 Ablo 让人类与 AI 智能体安全协作同一数据。",
+    "detail": "Ablo 是一个针对 AI 智能体的协作层开源项目，旨在解决多智能体或人机协作时的数据冲突问题。它允许人和 AI 代理在同一数据上工作而无需担心相互覆盖。作为 GitHub 上的新项目，它提供了文档、API 及 Quickstart 指南，支持 npm 包集成。这对于构建复杂的多智能体系统至关重要，解决了并发写入和数据一致性的痛点，是 Agent 基础设施领域的重要补充，推动了多智能体协作的实用性。",
+    "tags": [
+      "New",
+      "Agents",
+      "OpenSource"
+    ],
+    "link": "https://github.com/Abloatai/ablo",
+    "date": "2026-06-28",
+    "id": "17826806585901"
+  },
+  {
+    "title": "Paige：基于上下文窗口的无剧透 AI 读书助手",
+    "summary": "上传 EPUB 即可与 AI 讨论书籍，严格限制剧透。",
+    "detail": "Paige 是一款开源 Web 应用，允许用户上传 EPUB 书籍并与 AI 讨论，同时严格避免剧透。其核心技术点在于不使用 RAG 或嵌入，而是将已读章节的完整文本直接送入 LLM 上下文窗口。这种设计牺牲了部分 token 成本，但换取了更丰富的对话 groundedness。支持 OpenRouter 模型及本地部署，具备 token 成本追踪和移动端 UI。这是针对长上下文模型特性的典型应用场景，展示了上下文窗口扩大的实际用途。",
+    "tags": [
+      "New",
+      "LLM",
+      "OpenSource"
+    ],
+    "link": "https://github.com/derekmpeterson/paige",
+    "date": "2026-06-28",
+    "id": "17826806585902"
+  },
+  {
+    "title": "初创公司 Span 计划在家庭后院部署迷你 AI 数据中心",
+    "summary": "分布式数据中心 XFRA 单元将补充 hyperscale 设施。",
+    "detail": "旧金山初创公司 Span 计划推出名为 XFRA 的设备，尺寸类似空调，旨在将分布式数据中心部署至家庭后院。该项目计划今年晚些时候启动 100 户家庭试验。XFRA 单元将连接家庭电力，支持 AI 推理、云游戏等适合小型硬件的工作负载，以补充大型 hyperscale 数据中心。这反映了 AI 基础设施向边缘计算分散的趋势，可能缓解集中式数据中心的能源与土地压力，但具体合作模式尚未完全定义。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Hardware"
+    ],
+    "link": "https://www.bgr.com/2186797/nvidia-home-mini-ai-data-center-span/",
+    "date": "2026-06-28",
+    "id": "17826806585903"
+  },
+  {
+    "title": "美国企业研究所发布 AI 伦理原则文件",
+    "summary": "保守派思想家探讨 AI 对人类意义与目的的影响。",
+    "detail": "美国企业研究所（AEI）新成立的 AI 伦理委员会发布了创始文件，旨在探讨 AI 提出的人类意义与目的等深层问题。该委员会主要由社会保守派思想家组成，回应了此前关于成立“总统 AI 委员会”的呼吁。文件刻意避开了失业、偏见等实际问题，专注于哲学反思。这揭示了美国右翼在宗教社会保守派与科技加速主义之间 emerging tension，可能影响未来 AI 政策走向，反映了伦理治理的新动向。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Policy"
+    ],
+    "link": "https://compactmag.substack.com/p/ai-and-the-crisis-of-classical-liberalism",
+    "date": "2026-06-28",
+    "id": "17826806585904"
+  },
+  {
     "title": "福特重聘资深工程师，AI 未能达标",
     "summary": "福特承认 AI 技术不足，重新雇佣经验丰富的工程师。",
     "detail": "福特汽车公司近期承认 AI 技术在某些复杂工程领域尚未达到预期效果，决定重新雇佣被称为“灰胡子”的资深工程师。这一事件凸显了当前 AI 在工业场景中的局限性，引发行业对 AI 替代人类专家速度的重新评估。表明完全自动化仍需时间，人类经验在关键决策中不可替代。此举可能影响其他制造企业对 AI 部署策略的调整，强调人机协作而非完全替代的重要性，对行业人才需求产生深远影响。此外，这也反映了 AI 在处理非结构化工程问题时的不足，企业需重新平衡技术投资与人力资源储备。此案例警示行业勿过度神话 AI 能力，务实评估技术边界，确保生产安全与效率稳定，可能引发新一轮对混合智能模式的探索。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/gojargo/jargo",
     "date": "2026-06-26",
     "id": "17824796274651"
-  },
-  {
-    "title": "利用 cognee 和 n8n 构建自改进 Agent 技能",
-    "summary": "教程展示如何建立维护循环，自动评估并重写 Agent 技能文件，实现持续优化。",
-    "detail": "针对 Agent 技能文件随项目迭代而过时的问题，本文提供了自动化解决方案。通过结合 cognee 和 n8n，构建了一个反馈循环：当运行评分低于阈值时，自动触发重写提案并经审批后更新技能。这解决了手动维护 Markdown 指令文件的痛点，确保 Agent 技能随项目需求演进，提升了长期维护效率和 Agent 的可靠性。工作流包括评分、反馈记录、提案生成及审批 gate，只有 approved 的更改才会写入技能文件。这种 self-improving 机制减少了技术债务，使 AI 代理能适应不断变化的代码库和业务逻辑，是 MLOps 在 Agent 领域的应用实例。",
-    "tags": [
-      "Dev",
-      "Automation",
-      "Workflow"
-    ],
-    "link": "https://blog.n8n.io/skill-loop/",
-    "date": "2026-06-26",
-    "id": "17824796274652"
-  },
-  {
-    "title": "在 VPS 上自托管 OpenClaw AI 代理指南",
-    "summary": "详解如何在云服务器部署 OpenClaw，平衡成本、隐私与控制权，含配置要求。",
-    "detail": "随着 AI 代理普及，自托管成为平衡隐私与成本的关键方案。本指南逐步演示了在 VPS 上部署 OpenClaw 代理的全过程。文章对比了云服务、家庭托管与云服务器的优劣，提供了具体的系统要求（如 Ubuntu 22.04+, Node.js 22+）。适合希望掌握数据主权且具备一定技术能力的开发者参考，确保 24/7 可用性。云服务虽方便但成本高且数据外包，家庭托管则面临网络配置挑战。VPS 方案折中，用户拥有配置和数据控制权，provider 处理 uptime。指南涵盖区域选择、依赖安装及安全配置，是私有化部署的实用参考。",
-    "tags": [
-      "Dev",
-      "Deployment",
-      "Infrastructure"
-    ],
-    "link": "https://3hcloud.com/blog/how-to-set-up-and-deploy-an-openclaw-ai-agent-on-a-vps",
-    "date": "2026-06-26",
-    "id": "17824796274653"
-  },
-  {
-    "title": "Codex AI 代理 UI 设计与开发技能定制",
-    "summary": "教程展示如何将产品设计上下文转化为可复用的 Codex 技能，优化 React 组件生成。",
-    "detail": "针对 Codex 生成 UI 组件缺乏本地上下文的问题，本文介绍了知识转移项目方法。通过将设计系统、组件模式和产品期望转化为特定技能，使 AI 能生成符合特定架构（如 shadcn/ui）的 React 组件。这解决了通用模型无法理解特定业务逻辑的痛点，提升了 AI 在前端开发中的实用性和代码一致性，适合前端团队参考。项目始于明确的目标定义，涵盖 Dashboard、Search 等页面 workflow。技能需理解可复用组件架构及功能屏细节。这种方法将隐性知识显性化，使 Codex 成为更懂业务的结对程序员，减少后期重构成本。",
-    "tags": [
-      "Dev",
-      "Frontend",
-      "Codex"
-    ],
-    "link": "https://rapidkt.com/pages/blog/codex_ai_agent_skill_development_for_ui_design_and_development",
-    "date": "2026-06-26",
-    "id": "17824796274655"
-  },
-  {
-    "title": "AI 搜索引擎 Exa 完成 2.5 亿美元 C 轮融资",
-    "summary": "Exa AI 宣布完成 2.5 亿美元 C 轮融资，持续扩展基于内容的 AI 搜索能力。",
-    "detail": "AI 搜索引擎初创公司 Exa 正式宣布完成 2.5 亿美元 C 轮融资。此次融资反映了资本市场对基于内容的 AI 搜索应用的持续看好。Exa 致力于通过理解网页内容而非传统关键词匹配来提升搜索质量。资金将用于扩大模型训练基础设施及市场推广，旨在巩固其在 AI 原生搜索领域的竞争地位，应对巨头林立的市场环境。",
-    "tags": [
-      "News",
-      "Funding",
-      "Search"
-    ],
-    "link": "https://exa.ai/blog/announcing-series-c",
-    "date": "2026-06-26",
-    "id": "17824712458271"
-  },
-  {
-    "title": "研究警示：AI 可能增加而非减少开发者实际工作量",
-    "summary": "METR 研究发现，使用 AI 工具后开发者任务耗时反而增加 19%，产出噪音增多。",
-    "detail": "新文章警示 AI 生产力陷阱在于“更多产出”而非“更高效率”。METR 研究显示，经验丰富的开发者使用 AI 后任务耗时反而增加 19%。AI 生成更多代码草稿导致审查、验证及下游清理工作增加。产出（Output）与结果（Outcome）之间存在显著差距，盲目追求生成速度可能降低整体交付 throughput。行业需重新评估 AI 工具的效能指标，关注最终交付质量而非单纯代码量。",
-    "tags": [
-      "News",
-      "Productivity",
-      "Research"
-    ],
-    "link": "https://www.vincentschmalbach.com/the-ai-productivity-trap-is-more-output/",
-    "date": "2026-06-26",
-    "id": "17824712458273"
   }
 ]
