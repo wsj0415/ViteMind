@@ -1,5 +1,83 @@
 [
   {
+    "title": "Google Gemini 个性化图像生成功能面向美国用户免费开放",
+    "summary": "Gemini 个性化图像生成功能现已向美国用户免费开放，无需订阅。",
+    "detail": "Google 宣布 Gemini 应用的个性化 Nano Banana 图像生成功能不再限于 Plus/Pro 用户，所有美国 eligible 用户均可免费使用。该功能利用 Gmail、Photos 等数据理解用户偏好，无需详细提示词即可生成个性化图像。用户只需请求“创建我和喜欢事物的插图”，系统自动调用账户数据。标志着 Google 在个人智能领域的进一步普及，降低了个性化 AI 创作门槛，增强了用户粘性。",
+    "tags": [
+      "News",
+      "Google",
+      "Image Generation"
+    ],
+    "link": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
+    "date": "2026-06-29",
+    "id": "17827740564910"
+  },
+  {
+    "title": "开源 AI 代理工作流用于审计 Solidity 智能合约",
+    "summary": "全新 Rust 工具利用 AI 代理自动发现并验证 Solidity 合约安全漏洞。",
+    "detail": "chain-shield 推出开源 AI 代理审计工具，基于 Rust 构建，专为 Solidity 和 EVM 代码库设计。它能自动发现安全漏洞、去重验证并生成可运行 PoC 及专业 Markdown 报告。支持配置多种 LLM 提供商（OpenAI, Gemini, DeepSeek 等），默认使用 gpt-5.5。旨在加速专家审查而非完全替代人工，适合安全研究人员及 Code4rena 参赛者使用，提升审计效率。该工具在公共 beta 阶段表现鼓励，能有效处理复杂合约逻辑，为 Web3 安全带来 AI 赋能的新工作流。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Smart Contract"
+    ],
+    "link": "https://github.com/chain-shield/ai-agent-audit",
+    "date": "2026-06-29",
+    "id": "17827740564911"
+  },
+  {
+    "title": "Zeus：本地优先的 AI 代理编排器，支持 Web 与手机 UI",
+    "summary": "开源本地 AI 代理工具，支持多模型提供商，数据留存本地保障隐私。",
+    "detail": "Zeus 是一款本地优先的 AI 代理编排器，提供 Web 和移动端 UI。支持 Anthropic、OpenAI、Groq 及本地 Ollama 模型。所有数据存储在本地 ~/.zeus 目录，无云端遥测或锁定。具备文件读写、命令执行、浏览器驱动、任务调度等能力，支持子代理协作。适合希望完全控制数据隐私的开发者构建本地自动化工作流，实现真正的本地 AI 操作系统体验。安装简便，一次设置即可通过终端启动，是本地 AI 代理领域的重要开源项目。",
+    "tags": [
+      "Dev",
+      "Local AI",
+      "Agent"
+    ],
+    "link": "https://github.com/shreyasks094/Zeus",
+    "date": "2026-06-29",
+    "id": "17827740564912"
+  },
+  {
+    "title": "可组合 AI 理论：为何窄域代理优于单体 AI 架构",
+    "summary": "深度分析可组合 AI 架构，探讨窄域代理在性能与清晰度上的优势。",
+    "detail": "文章提出可组合 AI 理论，认为窄域、范围明确的代理优于单体 AI。通过将角色分解为子代理团队，可减少指令歧义和上下文噪音，提升输出质量。虽然存在协调开销（延迟、错误传播），但专注度带来的性能提升显著。该理论强调可组合性应位于分发层而非编排层，为 AI 代理架构设计提供了重要参考，适合系统架构师及 AI 产品经理阅读，指导高效 Agent 团队构建。",
+    "tags": [
+      "Dev",
+      "Theory",
+      "Agent Architecture"
+    ],
+    "link": "https://openenvelope.org/writing/composable-ai-thesis/",
+    "date": "2026-06-29",
+    "id": "17827740564913"
+  },
+  {
+    "title": "研究显示女性在 generative AI 使用率上低于男性 22%",
+    "summary": "哈佛商学院 meta 分析揭示 AI 使用中的性别差异及其背后原因。",
+    "detail": "哈佛商学院 meta 分析显示，女性使用生成式 AI 的几率比男性低 22%。该模式跨越国家和行业，2022-2024 年间女性仅占 ChatGPT 等用户的 42%，Anthropic 用户中比例更低。文章探讨社会科学研究视角下的文化与技术问题，指出女性更倾向于避免 AI 工具。这对 AI 产品的普及策略、伦理设计及用户研究具有重要启示，提示行业需关注性别差异背后的信任与效用认知。",
+    "tags": [
+      "News",
+      "Social Impact",
+      "Adoption"
+    ],
+    "link": "https://thenoosphere.substack.com/p/theres-a-reason-women-arent-swooning",
+    "date": "2026-06-29",
+    "id": "17827740564914"
+  },
+  {
+    "title": "Switchboard：本地优先的 AI 提示路由工具，优化成本与隐私",
+    "summary": "开源路由工具可减少 62% 高级模型调用，敏感提示保留在本地。",
+    "detail": "Switchboard 是一款隐私感知的本地优先路由器，适用于 CLI 编码代理和本地 LLM。它能智能将简单任务路由至本地模型，复杂任务发送至高级模型，从而减少 62% 的高级代理调用，质量保持 4.1/5。支持 Codex、Claude 及 Ollama，确保敏感提示不离设备，无基准泄露。适合关注成本与数据隐私的开发团队，优化 AI 集成预算。作为 Show HN 项目，它提供了实用的成本削减方案，解决了企业级 AI 部署中的常见痛点。",
+    "tags": [
+      "Dev",
+      "Cost Optimization",
+      "Privacy"
+    ],
+    "link": "https://github.com/aivinay/switchboard",
+    "date": "2026-06-29",
+    "id": "17827740564915"
+  },
+  {
     "title": "AI 代理安全防火墙 Project Guardian 发布 v0.1",
     "summary": "本地用户空间防火墙，中介自主 AI 代理的文件、网络及 shell 操作。",
     "detail": "该项目提供了一个与代理无关的本地防火墙，通过确定性策略边界介导自主 AI 代理的操作。核心特性包括防篡改审计日志、人工审批 cockpit 及网络代理 TLS 拦截。基于 Rust 构建，无需内核模块，旨在解决 AI 代理自主行动时的安全风险。v0.1.0 版本已包含 OS 执行沙盒及令牌代理功能，支持 ed25519 签名社区策略包。它为 Agent 部署提供关键基础设施保障，确保自主系统在不失控的前提下高效运行，特别关注资金、凭证及数据外泄等关键类别的强制人工干预，防止静默允许高风险操作。",
@@ -1220,83 +1298,5 @@
     "link": "https://news.ycombinator.com/item?id=48696704",
     "date": "2026-06-27",
     "id": "17825622910484"
-  },
-  {
-    "title": "福特高管承认用 AI 取代工程师是错误",
-    "summary": "福特高管反思 AI 取代人类工程师的决策失误，引发行业关注。",
-    "detail": "福特高管公开承认，此前尝试用 AI 完全取代人类工程师的策略是错误的。这一事件反映了当前企业在 AI 落地过程中的盲目性与反思。行业影响深远，表明 AI 应作为辅助工具而非完全替代人力，尤其是在复杂工程领域。这为其他企业提供了警示，需重新评估人机协作模式，避免过度依赖自动化导致质量下降。此新闻凸显了 AI 在实际工业应用中的局限性，可能引发后续企业调整 AI 战略，回归人机协作的务实路径，对 AI 就业影响讨论提供实证案例。",
-    "tags": [
-      "News",
-      "Industry",
-      "Automation"
-    ],
-    "link": "https://www.neowin.net/news/ford-execs-say-they-made-a-mistake-when-they-replaced-human-engineers-with-ai/",
-    "date": "2026-06-27",
-    "id": "17825550649130"
-  },
-  {
-    "title": "AI 辅助安全披露中的幻觉问题研究",
-    "summary": "新论文提出 AI 幻觉分类学及检测工具，规范安全披露流程。",
-    "detail": "研究论文《The Calculator Discipline》分析了 AI 辅助安全披露中的幻觉问题。作者提出了四类失败模式 taxonomy，包括证据 fabrication 等，并发布了检测工具 hallucination_check.py。案例涉及 OpenBSD 等项目。核心观点是 AI 如同计算器，需遵守“计算器纪律”。这对 AI 安全研究和代码审查流程有重要指导意义，强调了人工核查的必要性，防止虚假漏洞报告泛滥。该研究为安全社区提供了具体的过滤机制，有助于提升 AI 生成代码的可信度，减少资源浪费。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Research"
-    ],
-    "link": "https://zenodo.org/records/20393083",
-    "date": "2026-06-27",
-    "id": "17825550649131"
-  },
-  {
-    "title": "AI 眼镜助长考试作弊现象蔓延",
-    "summary": "亚洲地区出现学生利用 AI 眼镜作弊案例，监考面临新挑战。",
-    "detail": "媒体报道显示，韩国和台湾等地发现学生利用 AI 智能眼镜在考试中作弊。随着设备小型化，传统监考面临挑战。中国高考已加强眼镜筛查。这一现象引发了关于教育评估与技术发展的深层讨论，迫使教育机构更新反作弊技术，同时也凸显了 AI 硬件普及带来的伦理与管理难题。考试公平性受到技术侵蚀，需建立新的检测标准。此趋势可能推动监考技术升级，同时也引发对可穿戴设备在校园内使用的限制政策讨论，影响硬件普及节奏。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Ethics"
-    ],
-    "link": "https://www.rnz.co.nz/news/world/628396/ai-glasses-are-helping-students-cheat-in-exams-test-obsessed-asia-is-ground-zero",
-    "date": "2026-06-27",
-    "id": "17825550649132"
-  },
-  {
-    "title": "Show HN: Brytlog AI 日志工具",
-    "summary": "开源项目 Brytlog 提供 AI 会话日志管理功能，提升开发效率。",
-    "detail": "GitHub 上新开源项目 Brytlog 旨在帮助开发者管理 AI 会话日志。作为 Show HN 项目，它解决了命令行工具难以追踪不同会话的问题。对于依赖 AI 编程的开发者而言，有效的会话管理能提升工作效率。该项目提供了新的思路来组织 AI 交互历史，适合需要频繁切换上下文的开发场景，填补了官方应用在会话管理上的不足。对于重度 AI 用户，此类工具将成为必备基础设施，促进 AI 编程工作流的标准化与可视化，降低上下文切换成本。",
-    "tags": [
-      "New",
-      "DevTools",
-      "OpenSource"
-    ],
-    "link": "https://github.com/Guy-Sela/brytlog",
-    "date": "2026-06-27",
-    "id": "17825550649133"
-  },
-  {
-    "title": "Tug：专为 AI 编码打造的 IDE",
-    "summary": "GitHub 新项目 Tug 提供专为 AI 编码设计的集成开发环境。",
-    "detail": "Tug 是一个托管在 GitHub 上的新项目，旨在成为专为 AI 编码设计的 IDE。它可能集成了 AI 辅助工作流，优化开发者与 AI 模型的交互体验。随着 AI 生成代码的普及，专用工具链的出现标志着开发范式的转变。开发者不再仅仅使用插件，而是拥有专属环境。值得开发者关注其后续功能迭代及生态整合能力，看其是否能解决当前 AI 编码中的上下文管理与代码审查痛点，提升工程效率，成为下一代 AI 原生开发者的标准工具。",
-    "tags": [
-      "Dev",
-      "IDE",
-      "Coding"
-    ],
-    "link": "https://github.com/tugtool/tugtool",
-    "date": "2026-06-27",
-    "id": "17825468959792"
-  },
-  {
-    "title": "美国两党共识：AI 威胁令人担忧",
-    "summary": "经济学家报道显示民主党和共和党均认为 AI 具有威胁性。",
-    "detail": "《经济学人》报道指出，美国民主党和共和党在 AI 风险问题上达成罕见共识，均认为 AI 技术令人担忧。这种跨党派的政治态度可能预示着未来更严格的监管政策即将出台。对于 AI 企业而言，合规成本可能上升，需密切关注政策动向以调整战略，避免触碰监管红线。政治共识通常意味着立法进程加速，企业应提前准备合规框架，特别是在数据安全与算法透明度方面，以应对潜在的联邦级监管措施，确保业务连续性。",
-    "tags": [
-      "News",
-      "Policy",
-      "Regulation"
-    ],
-    "link": "https://economist.com/united-states/2026/06/25/democrats-and-republicans-agree-ai-is-scary",
-    "date": "2026-06-27",
-    "id": "17825468959793"
   }
 ]
