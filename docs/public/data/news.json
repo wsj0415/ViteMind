@@ -1,5 +1,57 @@
 [
   {
+    "title": "AI 代理安全防火墙 Project Guardian 发布 v0.1",
+    "summary": "本地用户空间防火墙，中介自主 AI 代理的文件、网络及 shell 操作。",
+    "detail": "该项目提供了一个与代理无关的本地防火墙，通过确定性策略边界介导自主 AI 代理的操作。核心特性包括防篡改审计日志、人工审批 cockpit 及网络代理 TLS 拦截。基于 Rust 构建，无需内核模块，旨在解决 AI 代理自主行动时的安全风险。v0.1.0 版本已包含 OS 执行沙盒及令牌代理功能，支持 ed25519 签名社区策略包。它为 Agent 部署提供关键基础设施保障，确保自主系统在不失控的前提下高效运行，特别关注资金、凭证及数据外泄等关键类别的强制人工干预，防止静默允许高风险操作。",
+    "tags": [
+      "Dev",
+      "AI Security",
+      "Agent"
+    ],
+    "link": "https://github.com/Vadale/project-guardian",
+    "date": "2026-06-29",
+    "id": "17827693898260"
+  },
+  {
+    "title": "ForthWrite：基于 RAG 与编辑反馈学习用户邮件风格",
+    "summary": "通过分析发送编辑记录，利用 RAG 技术让 AI 邮件助手真正学会用户语气。",
+    "detail": "针对 AI 邮件助手无法个性化用户语气的痛点，ForthWrite 采用 RAG 技术而非微调。系统在生成时检索用户实际发送的邮件示例，并结合编辑距离评分构建反馈循环。这种方法避免了高昂的微调成本，动态适应用户写作习惯演变。通过批量导入 Gmail 发送文件夹并标准化处理，实现真正的语气模仿。它解决了通用模型无法体现个人风格的难题，利用 text-embedding 技术建立语料库，确保每次生成都基于用户真实历史数据，为个人化 AI 助手提供了新的技术实现路径，显著提升邮件沟通的自然度与专业性。",
+    "tags": [
+      "New",
+      "RAG",
+      "Productivity"
+    ],
+    "link": "https://www.forthwrite.ai/blog/how-forthwrite-learns-your-email-voice",
+    "date": "2026-06-29",
+    "id": "17827693898261"
+  },
+  {
+    "title": "AI 时代软件工程重构：LLM 代理开发实践与局限",
+    "summary": "探讨 LLM 代理在软件开发中的实际应用，通过重建 SQLite 实验揭示当前局限。",
+    "detail": "文章基于 Glean 与 WisdomAI 的工程管理经验，探讨了 LLM 代理在软件开发生命周期中的角色。通过让 Codex 单次构建 MiniSQL 的实验，发现虽然 LLM 可承担需求到编码的任务，但完全自动化仍不成熟。文章强调高效开发需 nuanced 地采用代理，而非盲目全覆盖。作者指出尽管 LLM 能完成大部分工作，但人类监督仍至关重要。实验显示重建 SQLite 类系统需约 15 分钟，但成果仍需验证。这为 AI 原生工程团队提供管理参考，帮助开发者理性看待 AI 编程能力，避免过度依赖黑盒模型导致工程质量下降，重新思考人机协作的最佳实践模式。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Engineering"
+    ],
+    "link": "https://medium.com/@sharvanath/rethinking-software-teams-in-the-age-of-ai-ff5609701bf0",
+    "date": "2026-06-29",
+    "id": "17827693898262"
+  },
+  {
+    "title": "Imali AI 交易平台推出 7 天免费模拟交易试用",
+    "summary": "提供 1000 美元模拟资金，支持股票与加密货币的 AI 自动化交易策略。",
+    "detail": "这是一个独力开发的 AI 辅助交易平台，现提供 7 天免费试用及 1000 美元模拟交易额度。平台集成 Alpaca、OKX 等账户，提供期货、股票及狙击机器人等多种自动化策略。无需信用卡即可开始测试 AI 交易 bots，适合希望低风险体验 AI 量化交易策略的初学者与交易者。支持随时取消订阅，旨在降低用户尝试自动化金融工具的门槛。通过模拟盘验证策略后再进入实盘操作，系统声称拥有 46.2% 胜率及 76000+ 执行交易记录。用户可追踪推荐奖励，实时查看收益，体验从注册到自动化交易的分钟级快速启动流程，适合对 DeFi 及 AI 交易感兴趣的用户。",
+    "tags": [
+      "Deal",
+      "FinTech",
+      "AI Trading"
+    ],
+    "link": "https://imali-defi.com/",
+    "date": "2026-06-29",
+    "id": "17827693898263"
+  },
+  {
     "title": "百度昆仑芯拟港股 IPO 募资 500 亿美元",
     "summary": "百度股价涨 7%，AI 芯片部门昆仑芯目标港股上市，募资规模巨大。",
     "detail": "百度股价单日上涨 7%，据悉其 AI 芯片部门昆仑芯正计划在香港进行 IPO，目标募资 500 亿美元。此举显示资本市场对 AI 基础设施的持续看好，也将为百度 AI 生态提供独立融资渠道，加剧芯片市场竞争。这一动向表明 AI 硬件层正成为资本焦点，百度试图通过独立上市释放芯片业务价值，应对全球 AI 算力竞争格局。市场反应积极，显示投资者对 AI 芯片独立估值认可，可能引发其他科技巨头效仿分拆硬件部门，重塑半导体行业融资生态。",
@@ -1246,57 +1298,5 @@
     "link": "https://economist.com/united-states/2026/06/25/democrats-and-republicans-agree-ai-is-scary",
     "date": "2026-06-27",
     "id": "17825468959793"
-  },
-  {
-    "title": "研究称 AI 常忽略架构规则，Opus 违规率 60%",
-    "summary": "Hunch 博客测试显示 AI 模型常忽略架构规范，Opus 违规率高。",
-    "detail": "Hunch 博客发布测试报告，衡量 AI 是否遵守架构规则。结果显示即使是强大的 Opus 模型也有 60% 的概率忽略架构约束。这揭示了当前 AI 编码助手在工程规范性上的不足，提醒开发者在采用 AI 生成代码时需加强审查，不能完全依赖模型保证架构一致性。工程团队需要建立更严格的 AI 代码审查流程，结合静态分析工具，确保 AI 生成的代码符合系统架构设计，避免技术债务累积，保证系统的长期可维护性与稳定性。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Architecture"
-    ],
-    "link": "https://hunch-pi.vercel.app/blog/post?slug=ai-ignores-your-architecture",
-    "date": "2026-06-27",
-    "id": "17825468959794"
-  },
-  {
-    "title": "OpenClaw Launch：30 秒部署 managed AI 代理",
-    "summary": "新产品 OpenClaw Launch 允许用户在 30 秒内部署 AI 代理。",
-    "detail": "OpenClaw Launch 正式上线，主打 30 秒内部署 managed AI 代理，无需安装或命令行。支持 Gmail、GitHub 等集成，无需 API 密钥。这降低了 AI 代理的使用门槛，使非技术用户也能利用 AI 自动化工作流。新产品体现了 AI 应用层向无代码、即时部署方向发展的趋势。未来竞争将集中在集成生态的丰富度与代理执行的可靠性上，用户需评估其数据安全策略是否符合企业要求，以便在享受便利的同时保障业务数据隐私。",
-    "tags": [
-      "New",
-      "Agent",
-      "Automation"
-    ],
-    "link": "https://openclawlaunch.com",
-    "date": "2026-06-27",
-    "id": "17825468959795"
-  },
-  {
-    "title": "解读企业业务数据的 AI 智能层",
-    "summary": "CorpusIQ 博客解释什么是企业业务数据的 AI 智能层。",
-    "detail": "CorpusIQ 发布博客探讨“企业业务数据 AI 智能层”概念。该工具已上线 ChatGPT 应用商店，旨在连接 37+ 业务工具提供引用答案。这反映了企业级 AI 应用正朝着私有化、数据安全和多工具整合方向发展，帮助企业在保护数据隐私的前提下加速 AI 落地。企业用户在选型时应重点关注其数据连接器的安全性及引用来源的可追溯性，确保业务数据不被滥用，同时获得准确的决策支持，实现业务流程的智能化升级。",
-    "tags": [
-      "New",
-      "Enterprise",
-      "Data"
-    ],
-    "link": "https://www.corpusiq.io/blog/what-is-ai-intelligence-layer-business-data",
-    "date": "2026-06-27",
-    "id": "17825468959796"
-  },
-  {
-    "title": "美国政府部分解除 Anthropic 模型禁令，OpenAI 推迟发布",
-    "summary": "美政府允许 Anthropic 向可信组织发布 Mythos 5，但要求 OpenAI 推迟 GPT-5.6。",
-    "detail": "美国政府对 AI 前沿模型的监管政策出现重大调整。路透社报道，政府部分逆转了此前暂停 Anthropic 顶级模型访问的命令，允许超过 100 家“可信”美国组织使用 Claude Mythos 5，包括多家财富 500 强企业。与此同时，OpenAI 应政府要求推迟了 GPT-5.6 的公开发布。此举引发了关于政府是否在垄断 AI 超级权力的争议，显示出国家安全考量正深刻影响商业 AI 模型的发布节奏与访问权限，开发者需关注合规风险。",
-    "tags": [
-      "News",
-      "Policy",
-      "LLM"
-    ],
-    "link": "https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26/",
-    "date": "2026-06-27",
-    "id": "17825361483790"
   }
 ]
