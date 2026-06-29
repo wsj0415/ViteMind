@@ -1,5 +1,70 @@
 [
   {
+    "title": "Supermicro 展示搭载 NVIDIA GB300 的 AI 工作站",
+    "summary": "Supermicro 在 Computex 2026 展示基于 NVIDIA GB300 加速器的 DGX Station 系统。",
+    "detail": "在 Computex 2026 上，Supermicro 展示了其 Super AI Station，这是 NVIDIA DGX Station 的合作伙伴版本。该系统搭载了 NVIDIA 旗舰级 GB300 加速器，是少数能在小于服务器尺寸的设备中运行该芯片的方案之一。据悉，此类系统售价约 12.5 万美元，面向高端桌面用户。NVIDIA 对 OEM 厂商保持严格控制，限制了主板设计自由度，但 Supermicro 通过亚克力面板展示了内部结构，凸显了硬件设计的紧凑性与高性能。这标志着桌面级 AI 算力正迈向新标杆，为本地运行大模型提供了顶级硬件支持，尽管高昂价格仍将受众限制在企业与专业开发者范围内。",
+    "tags": [
+      "News",
+      "Hardware",
+      "NVIDIA"
+    ],
+    "link": "https://www.servethehome.com/taking-an-up-close-look-at-the-supermicro-gb300-super-ai-station/",
+    "date": "2026-06-29",
+    "id": "17827547922350"
+  },
+  {
+    "title": "Empirical：跨 AI 工具的个人记忆层",
+    "summary": "推出个人记忆基础设施，实现跨 ChatGPT、Claude 等工具的上下文同步。",
+    "detail": "Empirical 是一款新的个人记忆层工具，旨在解决用户在不同 AI 工具间重复提供上下文的问题。它支持 MCP 协议，可连接 ChatGPT、Claude、Cursor 等主流模型。用户只需保存一次偏好、项目决策等信息，Empirical 会自动结构化索引，并在对话时按需注入相关上下文。数据加密且可导出，避免厂商锁定。该项目通过浏览器扩展和 SDK 实现，延迟低至 42ms，为 AI 代理提供了统一的“第二大脑”。它解决了 AI 碎片化带来的效率损失，让用户无需反复解释背景，显著提升多模型协作效率，是 AI 基础设施层的重要创新。",
+    "tags": [
+      "New",
+      "Productivity",
+      "MCP"
+    ],
+    "link": "https://empirical.gauzza.com/",
+    "date": "2026-06-29",
+    "id": "17827547922351"
+  },
+  {
+    "title": "MIT 科技评论：Anthropic 向可信组织发布 Mythos 5",
+    "summary": "美国允许 Anthropic 向特定机构释放 Mythos 5 模型，同时探讨指标局限性。",
+    "detail": "MIT Technology Review 的最新通讯透露，美国政府已允许 Anthropic 向“可信”组织发布其 Mythos 5 模型。这一动向表明前沿 AI 模型的发布正受到更严格的监管与筛选，安全合规成为释放前提。此外，文章深入探讨了量化指标的弱点，指出外部数据无法捕捉生活的核心价值，甚至可能扭曲目标。这对 AI 评估体系具有警示意义，暗示单纯依赖基准测试可能无法全面反映模型的真实能力与安全性。行业需警惕指标腐败带来的风险，重新思考如何平衡模型能力开放与潜在的社会影响，确保技术发展不偏离人类利益。",
+    "tags": [
+      "News",
+      "Policy",
+      "Anthropic"
+    ],
+    "link": "https://www.technologyreview.com/2026/06/29/1139834/the-download-metric-weaknesses-and-ai-elephant-warnings/",
+    "date": "2026-06-29",
+    "id": "17827547922352"
+  },
+  {
+    "title": "实战记录：使用 Codex 将网站移植到 Rust",
+    "summary": "开发者记录使用 OpenAI Codex 代理自动化将网站代码移植至 Rust 的过程。",
+    "detail": "文章详细记录了使用 OpenAI Codex 进行软件移植的实战案例。作者指令 Codex 将基于 Web Pipe 编写的个人网站完全重写为 Rust 版本。Codex 展示了自主思考、检查子文件夹、抓取网站内容并生成代码的能力。虽然在内容集成（如 Contentful）上需要人工干预修正，但整个过程证明了 AI 编程代理在处理复杂工程工作流上的潜力。日志文件留下了 AI 辅助开发的可发现证据，为理解 AI 如何重构代码库提供了宝贵视角。这预示着未来软件开发中，人类将更多转向审查与指导，而将具体实现交给 AI 代理完成。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "OpenAI"
+    ],
+    "link": "https://williamcotton.com/articles/the-discoverable-evidence-of-ai-assisted-software-porting",
+    "date": "2026-06-29",
+    "id": "17827547922353"
+  },
+  {
+    "title": "前沿 AI 资金高度集中，Anthropic 营收激增",
+    "summary": "2026 年 Q1 四家公司吸收 65% 全球 VC，Anthropic ARR 达 470 亿美元。",
+    "detail": "2026 年第一季度，OpenAI、Anthropic、xAI 和 Waymo 四家公司吸收了全球 65% 的风险投资，总额达 1880 亿美元。资金正急剧向头部企业集中，初创环境两极分化，种子轮以下融资困难。Anthropic 表现尤为突出，ARR 从 2024 年初的 8700 万美元飙升至 2026 年 5 月的 470 亿美元，主要依靠企业 API 合同。其每用户月收入约 211 美元，远超 OpenAI。文章指出，token 定价已成为门槛，前沿 AI 正被实验室和华盛顿“围拢”，资源受限的机构难以 access 顶尖模型。这种垄断趋势可能阻碍创新，加剧数字鸿沟，值得行业警惕。",
+    "tags": [
+      "News",
+      "Finance",
+      "Market"
+    ],
+    "link": "https://aidatumpoint.substack.com/p/frontier-ai-is-being-enclosed-and",
+    "date": "2026-06-29",
+    "id": "17827547922354"
+  },
+  {
     "title": "前特斯拉工程师创立机器人公司 Proception 获 1100 万美元融资",
     "summary": "前特斯拉 Optimus 技术负责人 Jay Li 创立的 Proception 解决诉讼并融资，开始交付高灵巧机械手。",
     "detail": "前特斯拉 Optimus 人形机器人项目技术负责人 Jay Li 创立的机器人公司 Proception，在与特斯拉的商业秘密诉讼达成和解后，宣布完成 1100 万美元种子轮融资。投资方包括 First Round Capital 和 Y Combinator。特斯拉本月早些时候驳回了诉讼。Li 称诉讼是韧性测试，现在公司正致力于让机器人手像人类一样工作。Proception 已开始向研究人员和企业交付首批高灵巧机械手，旨在成为行业领先的机械手供应商，解决灵巧操作难题，让不愿自行开发的公司也能获得顶级手部硬件支持，Li 认为这比诉讼更难。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html",
     "date": "2026-06-26",
     "id": "17825716442242"
-  },
-  {
-    "title": "AI 时代精神出现微妙转变",
-    "summary": "彭博社指出 AI 行业风向正在发生微妙变化。",
-    "detail": "彭博社最新通讯指出，AI 行业的“时代精神”（Zeitgeist）发生了微妙转变。虽然当前提供的片段主要为网站导航信息，但标题暗示市场情绪或技术重点可能正在从狂热转向务实。这种宏观趋势的变化对于投资者和从业者至关重要，暗示着行业成熟度的提升。在经历了早期的爆发式增长后，市场开始关注实际落地与盈利能力，建议密切关注后续完整报道以获取具体风向指标及数据支持，以便及时调整投资或研发策略。",
-    "tags": [
-      "News",
-      "Industry",
-      "Market"
-    ],
-    "link": "https://www.bloomberg.com/news/newsletters/2026-06-26/there-s-been-a-subtle-shift-in-the-ai-zeitgeist",
-    "date": "2026-06-26",
-    "id": "17825468959790"
-  },
-  {
-    "title": "特朗普政府允许 Anthropic 向特定机构释放 Mythos 模型",
-    "summary": "据报道，特朗普政府已批准 Anthropic 向部分公司及政府机构发布 Mythos AI 模型。",
-    "detail": "CNBC 报道称，特朗普政府放宽限制，允许 Anthropic 向特定企业和政府机构发布其 Mythos AI 模型。这一政策调整标志着 AI 监管环境的潜在变化，可能加速高端模型在关键领域的部署。此举反映了政府对 AI 技术主权及安全应用的重视，同时也为 Anthropic 的商业化拓展打开了新的通道。行业需关注后续合规要求，这可能是 AI 模型准入制度松动的信号，影响未来企业级 AI  adoption 节奏。",
-    "tags": [
-      "News",
-      "Policy",
-      "LLM"
-    ],
-    "link": "https://www.cnbc.com/2026/06/26/us-government-anthropic-claude-mythos5-ai.html",
-    "date": "2026-06-26",
-    "id": "17825190200691"
-  },
-  {
-    "title": "Show HN: Parcle 推出 AI Agent 持久化记忆层 Second Brain",
-    "summary": "Parcle 推出 Second Brain，为 AI Agent 提供跨会话的持久化记忆与状态同步。",
-    "detail": "Parcle 发布了名为\"Second Brain\"的新产品，旨在解决 AI Agent 无法记忆的问题。它提供统一的记忆层，云同步 Agent 的记忆、身份和状态。开发者可通过 SDK 或 MCP 兼容端点接入，实现跨会话、跨工具的记忆持久化。目前处于私人测试阶段，支持自托管选项。该工具针对 Agent 开发痛点，有望简化复杂 Agent 工作流的构建，提升 Agent 的连续性与智能表现，是 Agent 基础设施的重要补充。",
-    "tags": [
-      "New",
-      "Agent",
-      "DevTool"
-    ],
-    "link": "https://parcle.ai/second-brain",
-    "date": "2026-06-26",
-    "id": "17825190200693"
-  },
-  {
-    "title": "SpaceX 债券在 250 亿美元 AI 与火箭债务协议后遭遇抛售",
-    "summary": "金融时报报道，SpaceX 债券在其达成 250 亿美元债务协议后几天内出现抛售。",
-    "detail": "Financial Times 报道，SpaceX 在与 AI 及火箭集团达成 250 亿美元债务协议后，其债券遭遇市场抛售。这一市场反应引发了投资者对该集团大规模资本支出及 AI 领域投资风险的关注。尽管 SpaceX 在航天领域表现强劲，但跨界 AI 的高额债务融资可能增加了财务不确定性。此事件反映了资本市场对 AI 基础设施巨额投入的谨慎态度，值得行业观察者留意后续财务表现及 AI 项目落地情况。",
-    "tags": [
-      "News",
-      "Finance",
-      "Investment"
-    ],
-    "link": "https://www.ft.com/content/04f98e21-4ce7-43d2-8651-44557e12c31c",
-    "date": "2026-06-26",
-    "id": "17825190200694"
-  },
-  {
-    "title": "Hacker News 讨论：哪些 AI 概念将留存，哪些会被淘汰？",
-    "summary": "社区热议 AI 概念存续性，涉及 MCP、Agent 工作流及未来支付机制。",
-    "detail": "Hacker News 发起讨论，探讨哪些 AI 概念具有长期生命力。用户提到了 Model Context Protocol (MCP)、Agentic workflows 等。有观点认为所有概念都会经历 churn，根本转变在于计算机使用方式。此外，社区指出了\"Agent 到 Agent 支付”这一未被充分关注的领域，预测未来 Agent 将互相付费完成任务。这反映了开发者社区对 AI 生态演进方向的深度思考与预判，提示开发者关注底层协议与经济模型。",
-    "tags": [
-      "Dev",
-      "Community",
-      "Trends"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48691972",
-    "date": "2026-06-26",
-    "id": "17825190200695"
   }
 ]
