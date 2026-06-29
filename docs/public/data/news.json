@@ -1,5 +1,83 @@
 [
   {
+    "title": "开源项目 emem 为 AI 代理提供签名卫星图像",
+    "summary": "开源工具让 AI 代理可重复引用物理世界数据。",
+    "detail": "Vortx-AI 正式开源 emem 项目，旨在为 AI 代理提供可验证的物理世界数据访问能力，解决代理感知现实世界的信任难题。通过引入签名卫星图像，确保数据真实性与可引用性，定位类似现实世界的 HTTPS 协议。该项目支持 MCP 协议集成，允许开发者将其添加至代理工作流中，适用于需要地理空间数据的自主代理任务，增强 AI 决策的可信度与重复利用能力，为物理世界智能交互建立标准。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "AI Agents"
+    ],
+    "link": "https://github.com/Vortx-AI/emem",
+    "date": "2026-06-29",
+    "id": "17827056646560"
+  },
+  {
+    "title": "安全专家 Bruce Schneier 探讨 AI 责任归属",
+    "summary": "深入分析 AI 系统引发事故后的法律责任问题。",
+    "detail": "著名安全专家 Bruce Schneier 撰文讨论 AI 与法律责任。随着 AI 自主性增强，事故责任界定成为难题。文章探讨了现行法律框架在面对 AI 决策时的局限性，以及开发者、部署者与用户之间的责任划分，对政策制定者及企业合规具有重要参考意义。",
+    "tags": [
+      "News",
+      "Policy",
+      "Security"
+    ],
+    "link": "https://www.schneier.com/blog/archives/2026/06/ai-and-liability.html",
+    "date": "2026-06-29",
+    "id": "17827056646561"
+  },
+  {
+    "title": "AI 辅助二进制补丁修复废弃路由器漏洞",
+    "summary": "展示 AI 在无源码情况下修复二进制漏洞的能力。",
+    "detail": "GuruLabs 团队利用 AI 辅助技术，成功为废弃路由器的 EdgeOS 系统编写二进制补丁，修复了 DHCP 中继漏洞。该案例展示了 AI 在逆向工程及维护遗留系统方面的潜力，无需原始源代码即可理解并修改二进制逻辑，为硬件维护提供新思路。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Binary"
+    ],
+    "link": "https://gurulabs.com/blogs/edgeos-dhcrelay-binary-patch/",
+    "date": "2026-06-29",
+    "id": "17827056646562"
+  },
+  {
+    "title": "央行警告 AI 繁荣可能引发全球金融崩溃",
+    "summary": "多国央行人士担忧 AI 投资过热导致系统性风险。",
+    "detail": "据 Telegraph 报道，多位央行官员警告称，当前 AI 领域的投资繁荣可能类似于历史上的资产泡沫，存在引发全球金融崩溃的风险。过度集中投资于 AI 基础设施可能导致资本配置失衡，若技术回报不及预期，可能触发连锁反应，影响全球金融市场稳定。监管层正密切关注潜在的系统性金融风险。",
+    "tags": [
+      "News",
+      "Finance",
+      "Risk"
+    ],
+    "link": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/",
+    "date": "2026-06-29",
+    "id": "17827056646563"
+  },
+  {
+    "title": "Sophon 发布 PFG-1 单体 3D AI 芯片",
+    "summary": "新型 ASIC 芯片集成 330GB 片上 DRAM，摒弃 HBM。",
+    "detail": "Phantafield 发布 Sophon PFG-1 白皮书，详细介绍了一款单体 3D AI ASIC 芯片架构。该芯片创新性地集成了 330GB 片上 DRAM，完全摒弃了传统的高带宽内存（HBM）方案。此举旨在从根本上解决内存墙问题，显著降低数据传输延迟与能耗。为大规模模型推理提供了新的硬件架构选择，挑战现有 GPU 主导格局，可能显著改变 AI 算力成本结构，为边缘侧或特定场景推理提供高效能解决方案。",
+    "tags": [
+      "News",
+      "Hardware",
+      "ASIC"
+    ],
+    "link": "https://www.phantafield.com/whitepaper",
+    "date": "2026-06-29",
+    "id": "17827056646564"
+  },
+  {
+    "title": "金融时报：AI 投资狂热恐将以长期萧条告终",
+    "summary": "媒体分析 AI 投资过剩可能导致市场长期低迷。",
+    "detail": "金融时报分析指出，当前 AI 领域的“狂热”投资可能不可持续。若技术商业化进程缓慢，巨额资本投入将无法获得预期回报，导致类似互联网泡沫破裂后的长期投资萧条。文章呼吁投资者理性评估 AI 技术的实际落地能力与盈利周期，警惕估值过高带来的风险。",
+    "tags": [
+      "News",
+      "Finance",
+      "Investment"
+    ],
+    "link": "https://www.ft.com/content/e81ce414-e4bd-4e8c-bac7-94f7bf17def4",
+    "date": "2026-06-29",
+    "id": "17827056646565"
+  },
+  {
     "title": "生产环境 AI 工作流：如何避免 Token 浪费",
     "summary": "探讨 AI 代理在生产环境中的成本问题，倡导从盲目调用转向价值导向。",
     "detail": "文章指出当前市场趋势正从盲目使用 Agent 流程转向审视 Token 支出与价值创造的比例。虽然 Agent 能快速构建演示，但在高音量生产场景中，Token 成本、一致性、延迟及安全性成为主要挑战。随着模型进化，Token 成本不降反升。开发者需重新评估是否所有决策都需模型参与，建议在成熟用例中结合固定算法以降低开销，确保 AI 投入产出比合理，避免预算被快速消耗。团队应关注一致性、延迟及安全治理，确保决策可解释，避免为了使用 AI 而使用 AI 的错误 instinct。这种转变主要发生在已部署大量用例的团队中，预算压力将迫使行业回归理性。",
@@ -1220,83 +1298,5 @@
     "link": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
     "date": "2026-06-26",
     "id": "17825000479340"
-  },
-  {
-    "title": "Google 利用多令牌预测加速 Pixel 端侧 Gemini",
-    "summary": "Google 研究新架构，通过冻结多令牌预测技术提升手机端 Gemini Nano 效率。",
-    "detail": "为解决移动端能源和内存限制，Google 在冻结的 Gemini Nano v3 模型上 retrofit 多令牌预测 (MTP) 架构。相比传统自回归生成，新技术最大化移动环境效率增益，减少电池消耗并提升用户体验。此前该技术已应用于 Gemma 4，旨在实现无需上传隐私数据的高效端侧 AI 功能。这一突破使得手机能本地运行强大 LLM，支持通知摘要及文本校对等功能，同时克服内存带宽瓶颈。新架构组件专为移动环境设计，为端侧智能普及奠定技术基础，平衡了性能与隐私保护需求，标志着端侧推理效率的重要进展。",
-    "tags": [
-      "Dev",
-      "Google",
-      "On-Device AI"
-    ],
-    "link": "https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction/",
-    "date": "2026-06-26",
-    "id": "17825000479341"
-  },
-  {
-    "title": "OpenAI 聘请前 Uber 印度负责人拓展海外市场",
-    "summary": "OpenAI 任命 Prabhjeet Singh 为印度董事总经理，加速其第二大市场布局。",
-    "detail": "OpenAI 持续押注印度市场，任命前 Uber 印度及南亚总裁 Prabhjeet Singh 为首任印度董事总经理。他将负责消费者增长、企业采用及监管参与。自去年在新德里开设办公室以来，OpenAI 已通过教育、支付等领域合作伙伴关系深化布局。此举旨在强化其在美国以外最大市场的运营能力，应对当地监管挑战并推动企业级 adoption。Singh 将于 9 月入职，向亚太区董事总经理汇报。此前公司已聘请多位前高管负责政策与战略，显示 OpenAI 对印度作为第二大市场的高度重视及长期战略投入，加速全球扩张步伐。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Business"
-    ],
-    "link": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
-    "date": "2026-06-26",
-    "id": "17825000479342"
-  },
-  {
-    "title": "Cory Doctorow 论批评 AI 的正确与错误方式",
-    "summary": "知名作家 Cory Doctorow 探讨 AI 泡沫、裁员及版权问题的批评视角。",
-    "detail": "Jacobin 杂志刊登 Cory Doctorow 专访，深入分析当前 AI 行业的泡沫现象及劳动力影响。文章讨论了针对 AI 技术的批评界限，涉及版权争议与工人权益。在 AI 大规模落地引发裁员的背景下，该观点为理解行业社会影响提供了重要参考。Doctorow 强调需区分合理批评与过度炒作，指出当前 AI 繁荣背后隐藏的劳工风险与版权法律问题。这篇评论为投资者和从业者提供了审视 AI 伦理与社会成本的视角，警示行业在追求技术突破时需兼顾社会责任与公平性原则，呼吁建立更健康的 AI 发展生态。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Industry"
-    ],
-    "link": "https://jacobin.com/2026/06/ai-bubble-layoffs-workers-copyright",
-    "date": "2026-06-26",
-    "id": "17825000479343"
-  },
-  {
-    "title": "学术论文利用隐藏提示词 exploits AI 同行评审",
-    "summary": "CACM 揭示学者在稿件中嵌入隐藏提示词，诱导 AI 评审系统给出正面评价。",
-    "detail": "通讯 ACM 发表文章指出，随着 AI 辅助同行评审的普及，一种新型学术不端行为出现。作者在稿件中嵌入不可见的提示词（Hidden Prompts），旨在操纵 AI 评审模型的行为，使其忽略缺陷或给予高分。这暴露了当前 AI 评审系统的安全性漏洞，呼吁期刊和会议组织加强检测机制，确保学术诚信不受 AI 滥用影响。此事件警示学术界需重新审视 AI 在评审中的角色，防止技术被恶意利用破坏科研公正性，未来可能需要开发专门的反提示词注入工具来维护评审系统的可靠性，保障学术出版的质量与信誉。",
-    "tags": [
-      "News",
-      "Security",
-      "Ethics"
-    ],
-    "link": "https://cacm.acm.org/opinion/hidden-prompts-in-manuscripts-exploit-ai-assisted-peer-review/",
-    "date": "2026-06-26",
-    "id": "17824907502740"
-  },
-  {
-    "title": "开源社区推出\"No-Slop\"AI 贡献最佳实践清单",
-    "summary": "针对 AI 生成代码泛滥，GitHub 项目提出开源贡献质量检查清单，重建信任。",
-    "detail": "面对开源项目中 AI 生成代码（AI Slop）泛滥导致维护者负担加重的问题，社区推出了\"No-Slop OSS\"清单。该指南强调贡献者无论是否使用 AI，都需理解项目背景、遵守 AI 政策并进行充分测试。核心在于将 AI 视为工具而非替代品，旨在帮助贡献者建立信任，减少低质量 PR，优化开源协作流程。此举有助于缓解维护者审查压力，提升开源生态整体代码质量，促进人类开发者与 AI 工具的良性协作，避免自动化带来的噪音污染，为开源项目的可持续发展提供规范指导。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Best Practices"
-    ],
-    "link": "https://github.com/omkar-foss/noslop-oss",
-    "date": "2026-06-26",
-    "id": "17824907502741"
-  },
-  {
-    "title": "主流 AI 网关性能基准测试：GoModel 对比 LiteLLM 等",
-    "summary": "Enterpilot 发布 AI 网关热路径性能基准，揭示轻量级网关在延迟与成本上的优势。",
-    "detail": "文章对比了 GoModel、LiteLLM、Portkey 和 Bifrost 四款 AI 网关。测试聚焦于请求路径上的资源消耗（CPU、内存、冷启动），而非功能丰富度。结果显示，重型网关虽功能多但带来持续性能开销。GoModel 作为轻量级开源网关，在热路径表现上优于竞品，为高并发 AI 应用选型提供了关键数据支持。开发者在选择网关时应权衡功能与性能，特别是在对延迟敏感的生产环境中，轻量级方案可能更适合大规模部署，以降低运营成本并提高响应速度，避免网关成为系统瓶颈。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "Benchmark"
-    ],
-    "link": "https://enterpilot.io/blog/benchmarking-ai-gateways-gomodel-litellm-portkey-bifrost-june-2026/",
-    "date": "2026-06-26",
-    "id": "17824907502742"
   }
 ]
