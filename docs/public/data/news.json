@@ -1,5 +1,70 @@
 [
   {
+    "title": "OKX 推出 AI 代理交易市场，构建自主 Agent 经济",
+    "summary": "OKX 发布 AI 市场，允许 AI 代理自主雇佣、支付及建立链上声誉。",
+    "detail": "OKX 推出 OKX AI marketplace，旨在为 AI 代理提供自主交易基础设施。支持稳定币支付、数字钱包及链上声誉系统。CEO 预测未来十年将出现“一人公司”，AI 代理经济有望成为万亿美元市场。此举标志着加密货币交易所向更广泛金融科技公司转型，服务于自主软件而非仅人类用户。市场面向开发者及 solo 创业者，基于此前开发的代理钱包技术，解决 AI 间信任与支付难题，构建新兴的“代理经济”生态。封闭测试已涉及 50 家早期 AI 服务提供商。",
+    "tags": [
+      "News",
+      "Agent",
+      "Crypto"
+    ],
+    "link": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
+    "date": "2026-06-30",
+    "id": "17828123500360"
+  },
+  {
+    "title": "AgentKits 发布 AI 代理治理规范与监管映射表",
+    "summary": "提供设计时治理词汇，映射 NIST、ISO 及 OWASP 安全控制项。",
+    "detail": "AgentKits 推出 AgentAz 规范，帮助开发者将 AI 代理设计映射到 NIST AI RMF、ISO 42001 及 OWASP 框架。通过 machine-readable 配置文件提供合规证据，涵盖代理权限边界、工具使用限制及人工审批网关。虽非认证，但能简化企业安全问卷流程，促进生产级 AI 代理的合规部署与风险管理。每个维度映射具体控制项，如最坏情况行动分类对应 NIST 影响评估，帮助企业在审计中快速证明设计意图与治理合规性。",
+    "tags": [
+      "Dev",
+      "Governance",
+      "Security"
+    ],
+    "link": "https://www.agent-kits.com/agentaz-crosswalk",
+    "date": "2026-06-30",
+    "id": "17828123500361"
+  },
+  {
+    "title": "Mocca 推出本地 AI 邮件客户端，保障隐私安全",
+    "summary": "基于 Mac 本地 LLM 处理邮件，分类整理无需数据上传。",
+    "detail": "Mocca 是一款专为 macOS Apple Silicon 设计的本地 AI 邮件客户端。模型在本地运行（约 10GB），邮件内容不离开设备。支持自然语言定义收件箱规则、自动分类标签及执行操作（如退订、归档）。采用开放权重模型，无 telemetry，适合注重隐私的用户自动化管理邮件，无需配置复杂过滤器。用户可用 plain English 描述规则，AI 理解内容而非发件人列表，首次启动下载模型后无需联网即可处理敏感信息，确保数据主权。",
+    "tags": [
+      "New",
+      "Privacy",
+      "LocalLLM"
+    ],
+    "link": "https://mocca.run/",
+    "date": "2026-06-30",
+    "id": "17828123500362"
+  },
+  {
+    "title": "IndustryLens 推出 MCP 协议竞品情报工具",
+    "summary": "支持 Claude、Cursor 等工具，实时追踪竞品动态与数据。",
+    "detail": "IndustryLens 发布 Model Context Protocol (MCP) 连接器，为 AI 代理提供实时竞品情报。集成于 Claude、Cursor 等工具，可查询定价、定位、广告及招聘新闻。开发者可通过 CLI 或深链接安装，支持公共 tier 无需 API key。增强了 AI 助手在商业分析任务中的实时数据获取能力，实现 mid-task 竞争情报查询。支持多种主流 AI 客户端，包括 ChatGPT、Gemini CLI 及 Mistral，提供带来源引用的实时搜索结果。",
+    "tags": [
+      "Dev",
+      "MCP",
+      "Business"
+    ],
+    "link": "https://industry-lens.com/mcp",
+    "date": "2026-06-30",
+    "id": "17828123500363"
+  },
+  {
+    "title": "Fillament 发布面向 Agent 驱动的 Web 表单库",
+    "summary": "替代 Formik，支持 AI 自动填充与机器可读表单契约。",
+    "detail": "Fillament 是专为 Agent 驱动 Web 设计的开源表单库。表单自我描述为机器可读契约，支持 AI 代理解析验证错误并自动修正。内置浏览器端 AI 自动填充（WebLLM），保护隐私。提供类型安全字段路径及 Zod 验证，核心包仅 14KB。旨在让人类用户与 AI 代理无缝协作填写表单，无需额外布线。支持 22 个可树摇包，模型缓存在 IndexedDB 中，确保用户数据隐私优先且可选，适合现代 React 应用集成。所有功能免费且开源，MIT 许可。",
+    "tags": [
+      "Dev",
+      "Frontend",
+      "Agent"
+    ],
+    "link": "https://fillament.dev",
+    "date": "2026-06-30",
+    "id": "17828123500364"
+  },
+  {
     "title": "AI 内容泛滥致用户回归线下现实",
     "summary": "AI 生成内容质量下降，促使用户远离网络回归现实世界。",
     "detail": "Inc. 报道指出，AI 生成内容（AI Slop）的爆炸式增长正在产生显著的负面社会影响。低质量、重复内容的泛滥导致用户感到疲惫和失望，转而寻求线下真实互动。这一趋势反映了当前 AI 内容生态面临的信任危机，可能迫使内容平台重新审视质量管控策略，对依赖流量的 AI 生成内容商业模式构成挑战，暗示人类对真实性的需求回升。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.napster.com/",
     "date": "2026-06-27",
     "id": "17825910643340"
-  },
-  {
-    "title": "AI 生成公众评论涌入美国气候政治领域",
-    "summary": "彭博社报道 AI 生成的公众意见正影响美国气候政策制定过程。",
-    "detail": "彭博社分析指出，AI 生成的公众评论正大量进入美国气候政治领域，影响政策制定。随着 AI 工具普及，利益相关者利用大模型批量生成看似真实的公众意见参与政策公示，可能扭曲民主决策过程。这一现象引发了监管机构对评论真实性的担忧，预示着 AI 将在政治游说和政策制定环节产生深远影响。未来可能需要新的验证机制来区分人类与 AI 生成的意见，以确保政策反馈的真实性。这不仅涉及气候政策，还可能扩展到所有依赖公众评论的监管领域，对 AI 治理提出新挑战。决策者需面对海量 AI 生成内容，传统公众参与机制面临失效风险，亟需技术手段进行身份与内容溯源，维护政策制定的公正性与代表性。",
-    "tags": [
-      "News",
-      "Policy",
-      "AI Ethics"
-    ],
-    "link": "https://www.bloomberg.com/news/newsletters/2026-06-27/how-ai-powered-public-comments-could-impact-us-climate-politics",
-    "date": "2026-06-27",
-    "id": "17825910643341"
-  },
-  {
-    "title": "Riskratchet：防止 AI 生成代码导致库腐化",
-    "summary": "专为 AI 辅助 Python 开发设计的可维护性棘轮工具，阻止代码质量下降。",
-    "detail": "Riskratchet 是一款专为 AI 辅助 Python 开发设计的维护性工具，旨在防止 AI 生成代码导致代码库腐化。它通过计算函数的风险评分（覆盖率缺口、圈复杂度、变更频率等），在 CI 流程中阻止代码风险超过基线。解决了 AI 代理擅长写可运行代码但忽视长期维护性的问题，防止函数膨胀和 API 混乱。灵感来自 cargo-crap，确保 AI 生成代码的长期可维护性，让开发者无需手动扮演复杂度警察。该工具机械性地捕获传统审查可能遗漏的问题，如公共 API 暴露无测试调用者，是 AI 编码时代必备的质量守门员。通过设定风险基线，它强制代码质量只能优化不能退化，有效对抗 AI 快速迭代带来的技术债务累积，保障项目长期健康。",
-    "tags": [
-      "Dev",
-      "Python",
-      "Code Quality"
-    ],
-    "link": "https://github.com/KayhanB21/riskratchet",
-    "date": "2026-06-27",
-    "id": "17825910643342"
-  },
-  {
-    "title": "Quora 面临有组织 AI 垃圾邮件环毒害风险",
-    "summary": "分析指出 Quora engagement 机制可能被 AI 垃圾邮件环利用，导致内容毒化。",
-    "detail": "文章揭露 Quora 平台正面临有组织的 AI 垃圾邮件环攻击，导致内容生态毒化。由于 Quora 将用户举报视为“互动”，算法反而会增加被举报内容的曝光，形成 perverse incentive。犯罪团伙利用此漏洞大规模投放 AI 生成的 spam 内容，如虚假设计师手袋广告。这为依赖用户生成内容训练 AI 的平台敲响了数据污染的警钟，显示平台治理机制需适应 AI 时代的对抗性攻击。用户反馈越多垃圾内容，越容易看到更多垃圾，这种机制缺陷正在被黑产规模化利用，严重影响平台数据质量。若不及时修复，可能导致平台可信度崩塌，进而影响基于其数据训练的下游 AI 模型质量，形成恶性循环。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Social Media"
-    ],
-    "link": "https://tacit.livejournal.com/687903.html",
-    "date": "2026-06-27",
-    "id": "17825910643343"
-  },
-  {
-    "title": "Native Hacker News TUI 客户端集成 AI 摘要",
-    "summary": "基于 Go 的终端 HN 阅读器，集成 DeepSeek AI 摘要与本地缓存功能。",
-    "detail": "cwnews 是一款基于 Go 和 Bubbletea 构建的终端 Hacker News 阅读器，集成 AI 评论摘要功能。它支持六个 HN feed 浏览，使用 DeepSeek V4 Flash 实时流式传输线程摘要，包括情感分析和关键观点。所有数据缓存于 SQLite 以实现 instant reopening。特色包括线程折叠、彩色深度缩进和三种主题切换。该工具展示了本地 TUI 与云端 AI 结合的高效工作流，适合喜欢在终端获取信息的开发者，支持中英文摘要配置。通过 AI 摘要，用户可快速把握长评论线程的核心争议，显著提升信息获取效率，是 AI 增强型终端工具的典型代表。结合本地缓存与流式 AI，它在保护隐私的同时提供了智能化的信息筛选，优化了开发者日常阅读体验。",
-    "tags": [
-      "Dev",
-      "CLI",
-      "LLM"
-    ],
-    "link": "https://code.intellios.ai/cwnews/",
-    "date": "2026-06-27",
-    "id": "17825910643344"
-  },
-  {
-    "title": "苹果 Vision Pro 高管据报跳槽至 OpenAI",
-    "summary": "苹果高管离职加入 OpenAI，显示巨头间人才争夺战升级。",
-    "detail": "据 TechCrunch 报道，Apple Vision Pro 部门高管 reportedly 正离职加入 OpenAI。这一动向表明 OpenAI 可能在空间计算或硬件领域有所布局，同时也反映了 AI 行业对顶尖人才的激烈争夺。此举可能影响 Apple 的未来硬件战略，并加速 OpenAI 在多模态交互方面的进展。行业人才流动趋势值得关注，显示 AI 公司正积极吸纳硬件专家以增强产品体验，竞争格局正在发生变化。随着 AI 模型逐渐成熟，硬件载体成为新的竞争焦点，此次高管跳槽可能预示着 OpenAI 未来产品路线的重大调整，科技巨头间的边界正在模糊。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Apple"
-    ],
-    "link": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
-    "date": "2026-06-27",
-    "id": "17825836187070"
   }
 ]
