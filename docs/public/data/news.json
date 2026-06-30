@@ -1,5 +1,70 @@
 [
   {
+    "title": "Godot 引擎禁止 AI 生成代码贡献",
+    "summary": "开源游戏引擎 Godot 宣布不再接受 AI 生成的代码贡献，强调代码理解与维护责任。",
+    "detail": "Godot 引擎团队宣布停止接受 AI 生成的代码贡献，理由是难以信任重度 AI 使用者对其代码的理解及修复能力。这一政策反映了开源社区对 AI 代码质量的担忧，旨在维护项目的长期可维护性。此举可能引发其他开源项目效仿，对 AI 辅助编程在开源领域的应用设定边界，强调人类开发者对代码的最终责任。社区认为如果开发者无法理解 AI 生成的代码，就无法有效修复潜在 bug，这将危及引擎稳定性。",
+    "tags": [
+      "News",
+      "Open Source",
+      "Policy"
+    ],
+    "link": "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/",
+    "date": "2026-06-30",
+    "id": "17828559257940"
+  },
+  {
+    "title": "中国 AI 生成内容标识制度实施分析",
+    "summary": "分析中国 AI 内容标识制度的执行现状，对比欧美方案，探讨强制性与技术标准的实际效果。",
+    "detail": "文章深入分析了中国自 2025 年 9 月生效的 AI 生成内容标识措施。相比欧盟和美国 voluntary 方案，中国框架具有强制性、量化技术标准及全链条责任主体特点。然而执行中发现商业激励导致水印规避、平台检测误判等问题。该制度为全球内容溯源提供了压力测试案例，揭示了技术合规与实际落地间的差距。尽管框架完善，但水印去除工具生态系统依然繁荣，用户申报机制也存在漏洞。",
+    "tags": [
+      "News",
+      "Regulation",
+      "China"
+    ],
+    "link": "https://ocpl.substack.com/p/labelling-ai-generated-content-in",
+    "date": "2026-06-30",
+    "id": "17828559257941"
+  },
+  {
+    "title": "观点：五年后 AI 检测器将不再重要",
+    "summary": "行业观点认为 AI 检测器的社会权重正在下降，未来五年内询问内容是否由 AI 生成将变得无关紧要。",
+    "detail": "文章指出 AI 检测器目前虽具社会羞辱价值，但其重要性正在迅速衰减。作者预测五年内，询问内容是否由 AI 生成将如同询问照片是胶片还是数码般无关紧要。尽管检测工具会进步，但 verdict 的社会意义将消失。这标志着 AI 生成内容将从 novelty 转向常态化，行业关注点将从来源转向内容本身的质量与价值。这种转变将重塑内容创作行业的伦理标准与评估体系。",
+    "tags": [
+      "News",
+      "Opinion",
+      "Trend"
+    ],
+    "link": "https://www.joanwestenberg.com/p/in-5-years-nobody-will-give-a-damn",
+    "date": "2026-06-30",
+    "id": "17828559257942"
+  },
+  {
+    "title": "Periskop 推出 AI Agent 产品发现 API",
+    "summary": "面向开发者提供 MCP/API 服务，实现低幻觉、实时的商品发现与价格查询，优化 Agent 购物意图。",
+    "detail": "Periskop 发布专为 AI Agent 设计的产品发现 API 及 MCP 服务器。相比通用搜索，它提供结构化、实时库存及价格数据，减少 Token 消耗与幻觉。支持 Dify、n8n 等自动化平台，通过单一调用即可将购物意图转化为真实商品链接。该工具解决了 Agent 在电商场景中的可靠性问题，降低了开发集成成本。通过预验证商家结构，确保返回链接的有效性，优化 Agent 交互体验。",
+    "tags": [
+      "Dev",
+      "API",
+      "AI Agents"
+    ],
+    "link": "https://www.periskop.ai",
+    "date": "2026-06-30",
+    "id": "17828559257943"
+  },
+  {
+    "title": "Mimir：本地优先加密的 AI Agent 记忆库",
+    "summary": "Show HN 项目，单 Rust 二进制文件，为 AI Agent 提供本地优先且加密的记忆存储解决方案。",
+    "detail": "Mimir 是一个开源项目，旨在为 AI Agent 提供本地优先（local-first）的加密记忆存储。作为单个 Rust 二进制文件，它注重隐私与安全性，确保 Agent 的记忆数据不被泄露。该项目适合关注数据主权和隐私保护的开发者，为构建本地化、高安全性的 Agent 应用提供了基础设施工具，反映了本地 AI 开发的趋势。单一二进制部署简化了运维，适合边缘计算场景。",
+    "tags": [
+      "New",
+      "Privacy",
+      "Rust"
+    ],
+    "link": "https://github.com/Perseus-Computing-LLC/mimir",
+    "date": "2026-06-30",
+    "id": "17828559257944"
+  },
+  {
     "title": "诺贝尔奖得主质疑 AI 医疗进展",
     "summary": "Jennifer Doudna 指出 AI 尚未治愈任何疾病，揭示医疗 AI 现状。",
     "detail": "诺贝尔化学奖得主 Jennifer Doudna 在 Bloomberg 专访中直言，尽管 AI 技术热度高涨，但目前尚未真正治愈任何疾病。她强调了生物技术与 AI 结合面临的实际挑战，指出从实验室发现到临床转化的路径仍需时间验证。这一冷静观点为过热的医疗 AI 市场预期降温，提示投资者与开发者应关注实际落地成果而非单纯的概念炒作。行业需回归科学严谨性，避免盲目乐观导致资源浪费，真实医疗突破仍需跨学科长期协作。生物计算虽前景广阔，但物理世界验证不可替代，AI 仅作为辅助工具加速研发流程，而非直接替代医生决策。未来几年将是验证 AI 医疗价值的关键窗口期。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/pkjaslam/Cambium_AI",
     "date": "2026-06-28",
     "id": "17826450964024"
-  },
-  {
-    "title": "谷歌限制 Meta 使用 Gemini 模型，AI 算力需求告急",
-    "summary": "谷歌因算力紧张限制 Meta 对 Gemini 的访问，凸显 AI 基础设施瓶颈。",
-    "detail": "金融时报最新报道指出，**谷歌因 AI 需求导致容量紧张，已限制 Meta 对其 Gemini 模型的使用额度**。这一事件揭示了当前 AI 基础设施面临的严峻供需失衡问题。即使科技巨头也难以无限扩展算力，这可能影响大厂间的合作模式及模型迭代速度。行业需关注算力瓶颈对 AI 普及的潜在制约，重新评估资源分配策略。对于依赖第三方模型的企业，需考虑多云策略以规避风险。此外，这也可能加速专用芯片的研发投入，推动硬件层面的创新竞争，重塑云服务市场格局。",
-    "tags": [
-      "News",
-      "Google",
-      "Infrastructure"
-    ],
-    "link": "https://www.ft.com/content/c5d52f72-71ef-40bc-bad3-61afdba8b378",
-    "date": "2026-06-28",
-    "id": "17826368899670"
-  },
-  {
-    "title": "谷歌否认 AI 搜索损害网站流量，强调点击质量",
-    "summary": "谷歌回应业界质疑，称 AI 搜索未减少 web 流量，反而提升点击质量。",
-    "detail": "针对 AI 搜索是否蚕食传统网页流量的争议，**谷歌正式予以否认**。公司表示 AI 概述功能旨在提供更精准答案，虽改变流量分布但提升了点击质量。此举意在安抚内容创作者，但 SEO 行业仍需适应 AI 驱动搜索的新生态。网站所有者需优化内容深度以适配 AI 摘要，单纯关键词堆砌将失效。长期来看，高质量内容仍是获取 AI 推荐流量的核心，行业转型阵痛期不可避免。谷歌强调质量点击的重要性，暗示未来排名算法将更侧重用户满意度而非单纯访问量，内容创作者需调整策略。",
-    "tags": [
-      "News",
-      "Search",
-      "SEO"
-    ],
-    "link": "https://indianexpress.com/article/technology/artificial-intelligence/google-denies-ai-search-hurting-web-traffic-quality-clicks-10174967/",
-    "date": "2026-06-28",
-    "id": "17826368899671"
-  },
-  {
-    "title": "五角大楼计划扩大 AI 在军事目标设定中的作用",
-    "summary": "美军寻求更深入整合 AI 技术，用于辅助军事目标识别与设定。",
-    "detail": "彭博社报道，**五角大楼正推动 AI 在军事领域的更广泛应用，特别是在目标设定环节**。这标志着 AI 技术从后勤支持向核心作战决策渗透。此举引发伦理与安全讨论，同时也反映了国防科技对高性能 AI 模型的迫切需求。自动化目标识别可提升效率，但误判风险仍需人工监管。国防承包商将迎来新机遇，AI 安全与对齐技术成为关键。地缘政治竞争将进一步加速军事 AI 技术的迭代与部署，改变未来战争形态，引发全球对自主武器系统的关注。",
-    "tags": [
-      "News",
-      "Military",
-      "Ethics"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-06-25/pentagon-sees-broader-role-for-ai-in-setting-military-targets",
-    "date": "2026-06-28",
-    "id": "17826368899672"
-  },
-  {
-    "title": "2026 年使用 AI 的真实成本分析",
-    "summary": "深度剖析 2026 年企业部署 AI 的实际开销与隐性成本。",
-    "detail": "文章详细分析了 2026 年 AI 应用的成本结构，包括算力、API 调用及维护费用。**随着模型复杂度增加，隐性成本不容忽视**。开发者与企业需重新评估 ROI，优化推理架构，以避免预算超支，为 AI 项目长期可持续性提供参考。除了直接调用费用，数据清洗与微调成本亦显著上升。建议团队采用混合模型策略，平衡性能与开销。此分析为 CTO 及技术负责人提供了宝贵的预算规划依据，助力理性决策，避免盲目跟风导致资源浪费，确保技术落地实效。",
-    "tags": [
-      "Dev",
-      "Cost",
-      "LLM"
-    ],
-    "link": "https://adlrocha.substack.com/p/adlrocha-the-real-cost-of-using-ai",
-    "date": "2026-06-28",
-    "id": "17826368899673"
-  },
-  {
-    "title": "硅谷 AI 焦虑：生产率提升背后的倦怠危机",
-    "summary": "彭博社报道 AI 虽提高生产率，但加剧科技工作者焦虑与倦怠。",
-    "detail": "彭博社深入调查指出，人工智能在显著提升硅谷生产率的同时，也引发了广泛的焦虑情绪。科技工作者因害怕掉队而不敢离线，导致 burnout 现象加剧。文章探讨了 AI 工具如何改变工作节奏，以及员工在高效能与心理健康之间的挣扎。这一现象反映了 AI 普及初期行业面临的深层社会心理挑战，值得企业与管理者关注。",
-    "tags": [
-      "News",
-      "Industry",
-      "Social Impact"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-06-26/ai-anxiety-is-fueling-burnout-across-silicon-valley-s-tech-workers",
-    "date": "2026-06-28",
-    "id": "17826239777200"
   }
 ]
