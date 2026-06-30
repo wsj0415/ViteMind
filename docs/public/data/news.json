@@ -1,5 +1,57 @@
 [
   {
+    "title": "AI 越狱防御被指不可能完全缓解",
+    "summary": "新研究指出标准对齐训练无法根本解决提示注入与越狱问题。",
+    "detail": "文章深入探讨了 AI 安全领域中的越狱与提示注入问题，列举了麦当劳客服机器人被诱导解 Python 题、xAI 聊天机器人提供危险指令以及 ChatGPT 生成版权角色等具体失败案例。核心观点指出，这些失效源于开发者控制指令与用户输入分离的崩溃。研究表明，标准的对齐后训练（如监督微调和 RLHF）无法根本缓解此类风险。这对 AI 可靠性提出了严峻挑战，暗示行业可能需要超越传统对齐方法的新安全架构。随着 AI 应用普及，此类安全漏洞可能导致严重的数据泄露或合规问题，开发者需重视防御机制的创新。",
+    "tags": [
+      "News",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://reliable-ai.review/posts/2026-05-priviledge_erosion/",
+    "date": "2026-06-29",
+    "id": "17827785230350"
+  },
+  {
+    "title": "基于 Rust 的 AI Agent 防火墙开源",
+    "summary": "新项目 Trajeckt 提供低延迟 Agent 审计与防火墙，解决 LLM 守卫幻觉问题。",
+    "detail": "针对 AI Agent 安全问题，开发者推出了基于 Rust 编写的防火墙工具 Trajeckt。相比使用 LLM 进行守卫带来的幻觉和高延迟，该工具运行延迟低于 5 毫秒。它通过创建计划并强制执行，利用 DAG 跟踪工具调用和数据流，并引入污点机制标记上下文外读取，为 Agent 提供高效的安全审计与执行控制。这种非 LLM 的防御方案解决了当前 Agent 守卫的痛点，为构建可信自主代理系统提供了基础设施支持，适合对延迟和安全性要求极高的生产环境部署。随着 Agent 应用增多，此类中间件将成为标准配置。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://github.com/beebeeVB/trajeckt/",
+    "date": "2026-06-29",
+    "id": "17827785230351"
+  },
+  {
+    "title": "JetBrains AI 优先 IDE Air 登陆 Windows",
+    "summary": "JetBrains 推出 AI 优先 IDE 新版本，现已支持 Windows 平台。",
+    "detail": "JetBrains 推出了其全新的 AI 优先集成开发环境 JetBrains Air。根据最新消息，该 IDE 现已正式支持 Windows 操作系统。这标志着主流开发工具厂商正加速将 AI 能力深度整合进编码工作流，为开发者提供原生的 AI 辅助体验，可能改变未来的软件开发模式。此前该工具可能仅在特定平台可用，Windows 支持扩大了用户群。对于企业开发者而言，这意味着可以在主流 Windows 工作站上享受 AI 驱动的代码补全、重构及调试功能，提升开发效率并降低 AI 工具切换成本。AI 优先 IDE 的竞争加剧，将推动编程体验的智能化变革。",
+    "tags": [
+      "News",
+      "IDE",
+      "DevTool"
+    ],
+    "link": "https://www.neowin.net/news/jetbrains-new-ai-first-ide-jetbrains-air-is-now-on-windows/",
+    "date": "2026-06-29",
+    "id": "17827785230352"
+  },
+  {
+    "title": "现代 AI 栈自托管方案成为新趋势",
+    "summary": "社区探讨自托管现代 AI 技术栈的可行性与优势。",
+    "detail": "随着 AI 模型部署需求的增加，社区开始关注自托管现代 AI 技术栈的可能性。相关项目 llmaker 提供了相关实践指南。自托管方案有助于企业保护数据隐私、降低长期 API 调用成本，并实现对模型行为的完全控制，是未来 AI 基础设施建设的重要方向之一。依赖第三方 API 存在数据出境风险和成本不可控问题，自托管允许团队在内部基础设施上运行开源模型。虽然维护成本较高，但对于敏感数据场景，这是必由之路。社区正围绕此构建更完善的工具链，降低自托管门槛，推动本地化 AI 应用落地。",
+    "tags": [
+      "Dev",
+      "Deployment",
+      "Infrastructure"
+    ],
+    "link": "https://github.com/raiyanyahya/llmaker",
+    "date": "2026-06-29",
+    "id": "17827785230353"
+  },
+  {
     "title": "Google Gemini 个性化图像生成功能面向美国用户免费开放",
     "summary": "Gemini 个性化图像生成功能现已向美国用户免费开放，无需订阅。",
     "detail": "Google 宣布 Gemini 应用的个性化 Nano Banana 图像生成功能不再限于 Plus/Pro 用户，所有美国 eligible 用户均可免费使用。该功能利用 Gmail、Photos 等数据理解用户偏好，无需详细提示词即可生成个性化图像。用户只需请求“创建我和喜欢事物的插图”，系统自动调用账户数据。标志着 Google 在个人智能领域的进一步普及，降低了个性化 AI 创作门槛，增强了用户粘性。",
@@ -1246,57 +1298,5 @@
     "link": "https://hyoomn.com/",
     "date": "2026-06-27",
     "id": "17825716442244"
-  },
-  {
-    "title": "自主 AI 软件开发探索：在效率与失控之间寻找平衡",
-    "summary": "深度分析自主 AI 工作流，探讨从 Chatbot 到 MCP 的技术演进路径。",
-    "detail": "文章深入探讨了自主 AI 工作流在软件开发中的应用现状。从早期的 Chatbot 到引入模型上下文协议（MCP），AI 已能访问外部服务。作者通过实验发现，完全依赖自主 AI 仍存在风险，最佳实践在于寻找人机协作的平衡点。文章分析了技术演进路径，指出虽然 AI 能大幅提升编码效率，但开发者仍需保留最终判断力，避免过度依赖导致的代码质量下降或逻辑错误，确保工程可靠性与可维护性。",
-    "tags": [
-      "Dev",
-      "Autonomous AI",
-      "MCP"
-    ],
-    "link": "https://adrianavillela.com/post/the-great-autonomous-ai-experiment/",
-    "date": "2026-06-27",
-    "id": "17825716442245"
-  },
-  {
-    "title": "美国政府限制访问 OpenAI 新模型",
-    "summary": "德国媒体称美国政府限制了对 OpenAI 新型 AI 模型的访问，涉及潜在的安全管控。",
-    "detail": "德国《时代周报》报道指出，美国政府介入限制了对其国内 AI 巨头 OpenAI 新模型（URL 暗示可能为 GPT-5/6 系列）的访问权限。此举凸显了 AI 技术地缘政治化的趋势，政府监管正深入模型分发环节，可能影响全球开发者及企业对该前沿模型的获取与使用。尽管具体限制范围未详述，但这标志着 AI 模型不再仅仅是商业产品，而是被视为具有国家安全属性的战略资源。此类限制可能促使其他国家加速自主研发，进一步分裂全球 AI 技术生态，增加跨国协作的难度与合规成本。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Policy"
-    ],
-    "link": "https://www.zeit.de/digital/2026-06/openai-gpt-5-6-ki-modell-sol-usa",
-    "date": "2026-06-27",
-    "id": "17825622910481"
-  },
-  {
-    "title": "PreFlight：防止 AI 代码漂移的本地守护进程",
-    "summary": "推出限时优惠，本地 AST 守护进程实时拦截 AI 生成的错误代码和架构漂移。",
-    "detail": "PreFlight 是一款本地 AST 后台守护进程及 VS Code 插件，旨在解决 AI 编程助手导致的代码漂移问题。它能实时拦截幻觉代码、错误的 Supabase RLS 策略及架构变更，防止破坏生产数据库架构。目前推出 Launch Weekend 特惠，创始人终身通行证仅需 30 美元。随着 AI 编码代理的普及，代码库的结构完整性面临新挑战。该工具通过本地运行确保数据不出境，同时提供即时反馈，帮助团队在享受 AI 效率的同时维持系统稳定性与安全性，是开发者应对 AI 代码质量风险的新选择。",
-    "tags": [
-      "Deal",
-      "Dev",
-      "Coding"
-    ],
-    "link": "https://preflight-vibe.vercel.app/",
-    "date": "2026-06-27",
-    "id": "17825622910482"
-  },
-  {
-    "title": "开发者讨论 AI 会话管理 GUI 工具",
-    "summary": "HN 社区讨论如何管理多个 AI 会话，推荐了 Nimbalyst 和 Omnigent 等工具。",
-    "detail": "Hacker News 用户发起关于 AI 会话管理工具的讨论，指出命令行工具虽强大但难以追踪多会话状态。社区推荐了 Nimbalyst（具备可视化看板及 iOS companion）和 Omnigent 等 GUI 应用来解决此痛点。这反映了随着 AI 编程代理的普及，开发者对会话上下文管理和可视化工作流的需求正在增长。传统的终端交互已不足以应对复杂的代理协作场景，专用 GUI 管理工具正成为 AI 开发工作流中不可或缺的基础设施，帮助开发者更高效地并行处理任务。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "Community"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48696704",
-    "date": "2026-06-27",
-    "id": "17825622910484"
   }
 ]
