@@ -1,5 +1,31 @@
 [
   {
+    "title": "Cloudflare 新规迫使 AI 公司为内容付费",
+    "summary": "Cloudflare 将默认阻止混合用途爬虫访问广告页面。",
+    "detail": "Cloudflare 宣布自 2026 年 9 月 15 日起，默认设置将阻止混合用途爬虫（兼具搜索与 AI 训练功能）访问托管广告的页面。此举旨在保护出版商知识产权，迫使 AI 公司区分传统搜索爬虫与 AI 代理爬虫。除非网站所有者调整设置，否则针对新客户及现有免费客户均生效。这可能显著影响 AI 模型提供商获取网络训练内容的能力，加剧内容授权成本争议。",
+    "tags": [
+      "News",
+      "Policy",
+      "Cloudflare"
+    ],
+    "link": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+    "date": "2026-07-01",
+    "id": "17829287045950"
+  },
+  {
+    "title": "科技巨头面临 AI 是否拥有情感的谜团",
+    "summary": "华盛顿邮报报道大厂研究聊天机器人情感问题。",
+    "detail": "华盛顿邮报报道，科技公司在构建最强大 AI 后，面临无法解释的行为谜团，开始考虑聊天机器人是否拥有情感。随着模型能力增强，其表现出的疑似情绪反应引发内部讨论与伦理担忧。这标志着 AI 行业从单纯追求性能转向审视模型行为本质，主流媒体关注点已触及 AGI 潜在风险与意识边界问题。",
+    "tags": [
+      "News",
+      "AGI",
+      "Ethics"
+    ],
+    "link": "https://www.washingtonpost.com/technology/2026/07/01/biggest-tech-companies-are-considering-whether-chatbots-have-emotions",
+    "date": "2026-07-01",
+    "id": "17829287045954"
+  },
+  {
     "title": "AI 原生工作流面临护城河难题",
     "summary": "基础模型平台可能抽象化企业操作 IP，导致初创公司护城河受损。",
     "detail": "文章深入分析了 AI 原生工作流的潜在风险。随着公司在基础模型平台上构建工作流，平台供应商可能在结构上更有利于观察、抽象和产品化 recurring patterns。这意味着企业创建的操作 IP 可能被供应商内部化，削弱初创公司的竞争优势。Hyperscalers 正向上移动进入平台层，改变了原有的价值捕获边界。服务公司和产品公司需重新评估护城河，避免在他人土地上建房。历史上软件行业边界清晰，但 AI 模糊了基础设施与应用层的界限，导致价值捕获向平台方倾斜，初创企业需寻找差异化生存空间，防止核心逻辑被平台吞噬。",
@@ -676,6 +702,19 @@
     "id": "17827959595835"
   },
   {
+    "title": "AI 下一瓶颈是电力，创始人转向数据中心",
+    "summary": "创作者经济创始人 pivot 至数据中心能源领域。",
+    "detail": "创作者经济初创公司 Throne 的联合创始人转向能源领域，创立 TAR 致力于提高数据中心电力效率。该公司已获得 2700 万美元种子轮融资，估值 5 亿美元。创始人表示，AI 数据中心是下一瓶颈， influencer 与数据中心业务存在可转移技能。这反映了行业对 AI 基础设施能源需求的关注，资本正流向解决算力电力限制的初创企业。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Investment"
+    ],
+    "link": "https://www.businessinsider.com/why-creator-economy-startup-founder-pivot-data-center-power-tar-2026-6",
+    "date": "2026-06-29",
+    "id": "17829287045953"
+  },
+  {
     "title": "Zig 基金会探讨开源贡献与 AI 禁令",
     "summary": "探讨开源维护者负担及 AI 生成代码贡献的争议。",
     "detail": "文章基于 Zig 软件基金会经验，深入分析开源项目中“贡献者扑克”现象。维护者处理外部 PR 的成本有时高于自行实现，导致摩擦。虽然开源能降低开发成本，但 AI 生成代码的涌入可能加剧审查负担与质量风险。文章暗示了 Zig 对 AI 贡献的谨慎态度，强调高质量产品需平衡免费贡献与维护摩擦，为开源社区应对 AI 时代贡献潮提供思考，指出开源游戏需掌握技巧才能获益。",
@@ -1259,44 +1298,5 @@
     "link": "https://role-model.dev/",
     "date": "2026-06-28",
     "id": "17826878866591"
-  },
-  {
-    "title": "2026 AI 工程报告：加速带来的阵痛",
-    "summary": "Faros 发布报告揭示 AI 编码普及后的副作用，吞吐量上升但 Bug 率增加。",
-    "detail": "Faros.ai 基于 2.2 万名开发者数据发布 2026 AI 工程报告，提出“加速眩晕”概念。数据显示 AI 已成为主要代码作者，80% 团队 AI 工具周活超 50%，代码接受率升至 60%。虽然史诗任务完成量提升 66%，但下游 Bug、事故及隐藏成本也在积累。报告警示企业需关注代码复杂度与生产质量，平衡 AI 带来的效率提升与潜在的技术债务风险，追踪软件开发生命周期的实际产出变化。AI flooding 系统导致人类 paced 开发无法吸收输出，吞吐量上升伴随 incidents 增加，需警惕隐藏成本。",
-    "tags": [
-      "News",
-      "Engineering",
-      "Report"
-    ],
-    "link": "https://www.faros.ai/blog/ai-acceleration-whiplash-takeaways",
-    "date": "2026-06-28",
-    "id": "17826878866592"
-  },
-  {
-    "title": "DESIGN.md：赋予 AI 生成网站真实设计感",
-    "summary": "推出 DESIGN.md 集合，为 AI 编码代理提供可复用的设计规范参考。",
-    "detail": "`getdesign.md` 提供了一套 DESIGN.md 集合，旨在解决 AI 生成网站设计 generic 的问题。通过提供颜色、字体、间距及组件的具体规范，让 AI 代理能遵循特定视觉语言。用户可直接选用现有网站的设计分析文件，无需设计技能即可保持页面风格一致。该工具支持快速复用设计系统，适合希望提升 AI 生成前端质量的开发者和团队，包含 300+ 设计分析可供请求。无论是 styling 新页面还是 restyle 现有页面，DESIGN.md 都能作为 reusable design brief，让 AI coder 理解视觉语言背后的 reasoning。",
-    "tags": [
-      "New",
-      "Design",
-      "Frontend"
-    ],
-    "link": "https://getdesign.md/",
-    "date": "2026-06-28",
-    "id": "17826878866593"
-  },
-  {
-    "title": "2026 年 AI 开发思维演变：工具化与代码可塑性",
-    "summary": "开发者分享 2026 年 AI 工具链与编码流程的新见解。",
-    "detail": "文章探讨了 2026 年 AI 开发现状，指出 AI 虽未带来奇点，但显著提升了工具效率。作者强调“工具夹具”（shop jigs）的经济性，即一次性工具不再需要长期投资 justification。代码重构变得自信且快速，开发风格转变为手写初始代码后交由 Claude 完成繁琐部分。这反映了 AI 从概念到生产力工具的成熟，改变了开发者对时间投入和代码维护的看法，提升了整体工程生产力。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Productivity"
-    ],
-    "link": "https://chriskiehl.com/article/evolving-thoughts-on-ai-2026",
-    "date": "2026-06-28",
-    "id": "17826806585900"
   }
 ]
