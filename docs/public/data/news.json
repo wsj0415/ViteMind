@@ -1,5 +1,70 @@
 [
   {
+    "title": "甲骨文警示 AI 基础设施投资风险",
+    "summary": "甲骨文承认 AI 数据中心投资可能无法收回成本，面临巨大财务风险。",
+    "detail": "甲骨文在监管文件中披露，为支持 OpenAI 等客户的 AI 数据中心投入数千亿美元，但承认可能无法获得回报。作为 Stargate 倡议参与者，甲骨文计划五年提供 3000 亿美元产能，但租赁模式依赖合作伙伴，且成功与否与 OpenAI 及 Sam Altman 深度绑定。此举揭示了 AI 基础设施泡沫背后的潜在危机，投资者需警惕资本支出过高风险。",
+    "tags": [
+      "News",
+      "Oracle",
+      "Infrastructure"
+    ],
+    "link": "https://www.theregister.com/ai-and-ml/2026/07/01/oracle-outlines-all-the-ways-it-could-lose-the-farm-it-bet-on-ai/5265438",
+    "date": "2026-07-01",
+    "id": "17829481122180"
+  },
+  {
+    "title": "AWS 利用符号执行 traces 提升小模型代码能力",
+    "summary": "AWS 团队通过 Soteria 符号执行痕迹训练小模型，Bug 检测能力超越大四倍模型。",
+    "detail": "AWS 团队独立研究发现，利用 Soteria 生成的符号执行痕迹训练 80 亿参数模型，其在 C 语言 Bug 检测上的表现优于大四倍的模型。该方法通过提供丰富的语义执行痕迹，教会 AI 理解代码实际运行逻辑而非仅表面语法。这为提升 AI 编程助手的代码 correctness 理解提供了新路径，标志着 AI 软件工程的重要进展，小模型专业化成为趋势。",
+    "tags": [
+      "Dev",
+      "AWS",
+      "LLM"
+    ],
+    "link": "https://soteria-tools.com/blog/teaching-ai",
+    "date": "2026-07-01",
+    "id": "17829481122181"
+  },
+  {
+    "title": "Cloudflare 推出新版 AI 流量控制选项",
+    "summary": "Cloudflare 更新 AI 爬虫政策，网站主可选择 blocking 或按爬取付费。",
+    "detail": "Cloudflare 推出新的 AI 流量管理选项，延续“内容独立日”倡议。网站所有者现在拥有更细粒度的控制权，可选择阻止 AI 爬虫或通过按次爬取市场获得补偿。此举旨在解决 AI 公司无偿使用内容训练模型的争议，平衡内容创作者权益与 AI 发展需求，为 web 内容保护设立新标准，缓解站长对流量被掠夺的焦虑。",
+    "tags": [
+      "News",
+      "Cloudflare",
+      "Policy"
+    ],
+    "link": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+    "date": "2026-07-01",
+    "id": "17829481122182"
+  },
+  {
+    "title": "Orgonaut 推出 AI 代理组织架构模拟器",
+    "summary": "免费工具模拟 AI 代理加入后对工程团队成本和产能的影响。",
+    "detail": "Orgonaut 发布 Agentic Reorg Simulator，允许用户在无 signup 情况下模拟 AI 代理融入现有工程组织后的变化。工具可调整 squads、替换支持层级，实时展示成本、产能及协调效率的变化。基于简化模型但假设透明，帮助管理者量化 AI 对组织结构的实际冲击，避免盲目重组，为 AI 时代的人力资源规划提供数据支持。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Agents"
+    ],
+    "link": "https://www.orgonaut.co/tools/agentic-reorg-simulator/",
+    "date": "2026-07-01",
+    "id": "17829481122183"
+  },
+  {
+    "title": "Daft 实现物理 AI 数据自然语言查询",
+    "summary": "新工具支持通过自然语言搜索机器人视频数据，提升数据审计效率。",
+    "detail": "Eventual AI 展示 Daft 工具在 Apple EgoDex 数据集上的应用，支持通过自然语言查询物理 AI 数据。结合帧级语义嵌入与几何特征，用户可搜索如“手握筷子抬起”的视频片段。这解决了机器人数据集中未标记数据的检索难题，允许研究者快速审计训练混合或重训失败案例，为物理 AI 数据管理提供 CTRL+F 级效率。",
+    "tags": [
+      "Dev",
+      "Robotics",
+      "Data"
+    ],
+    "link": "https://www.eventual.ai/blog/egodex-scenario-search",
+    "date": "2026-07-01",
+    "id": "17829481122184"
+  },
+  {
     "title": "Meta 拟构建云业务出售过剩 AI 算力",
     "summary": "Meta 计划通过云业务出售过剩 AI 计算容量，优化资源利用。",
     "detail": "据报道，Meta 正计划建立云业务以出售其过剩的 AI 计算能力。这一举措旨在优化巨大的基础设施投资回报，将闲置算力转化为收入来源。随着 AI 模型训练需求波动，巨头们开始探索算力租赁新模式，这可能改变云市场格局，为中小企业提供更便宜的 GPU 资源。此举不仅提升了资源利用率，也反映了 AI 基础设施建设的潜在过剩风险与商业化尝试，显示出大厂在算力供需平衡上的新战略调整。对于开发者而言，未来可能获得更具性价比的算力选择，但需关注 Meta 云服务的生态兼容性。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.msspalert.com/news/mssp-market-news-could-ai-governance-be-mssps-next-revenue-stream",
     "date": "2026-06-29",
     "id": "17827420060743"
-  },
-  {
-    "title": "分析：美国 AI 管制是否会将开源优势拱手让给中国？",
-    "summary": "美国出口管制加剧，可能导致全球开发者转向中国主导的开源权重模型，形成战略反噬。",
-    "detail": "文章分析指出，华盛顿在 2026 年 6 月签署 AI 行政令并管制 Anthropic 和 OpenAI 模型，意图保障国家安全。然而，这种管制可能产生结构性副作用：每个被管制的美国模型都促使全球构建者转向已分布在 Hugging Face 上的中国开源权重模型。政策仅解决了前沿模型管控，却无法封锁已在生产环境中运行的开源权重，可能削弱美国在开源生态的影响力。这是一种战略反馈循环，而非单纯的基准竞赛，开放权重已在全球六大洲运行，政策无法完全封锁，中国已主导开源权重分布。",
-    "tags": [
-      "News",
-      "Policy",
-      "Open Source"
-    ],
-    "link": "https://www.digitalapplied.com/blog/us-ai-gatekeeping-china-open-source-advantage-2026",
-    "date": "2026-06-29",
-    "id": "17827420060744"
-  },
-  {
-    "title": "研究显示 AI 时代员工工作强度不降反升",
-    "summary": "研究发现 AI 采纳导致工作更密集，而非减少工作量。",
-    "detail": "大西洋月刊引用 ActivTrak 及 UC Berkeley 最新研究指出，AI 普及并未如预期般减少人类工作量，反而使工作生活节奏更紧张。数据显示，早期采用者邮件及聊天应用使用时间翻倍，业务软件使用率上升 94%。员工倾向于利用 AI 节省的时间承担新任务，多任务处理显著增加。这表明 AI 改变了工作效率预期，而非单纯替代人力。行业需关注员工职业倦怠风险及工作流重构，管理者应重新评估绩效标准，避免技术红利转化为过度劳动压力。研究强调，未来竞争力取决于人与 mental effort 的关系，而非单纯智力，企业需建立健康的人机协作规范。",
-    "tags": [
-      "News",
-      "Workforce",
-      "Research"
-    ],
-    "link": "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/",
-    "date": "2026-06-29",
-    "id": "17827239987560"
-  },
-  {
-    "title": "开发者注意：vast.ai 出现中国主机伪装 US 节点",
-    "summary": "GPU 租赁平台出现主机伪装，中国 IP 代理导致 AI 服务访问受限。",
-    "detail": "Twitter 用户指出 GPU 租赁市场 vast.ai 出现中国主机伪装成 US 节点现象。虽价格较低，但因国际带宽限制及主流 AI 服务（如 Claude）主动封锁中国 IP，导致实际工作负载不可用或速度极慢。这对依赖临时 GPU 资源进行 ML 微调的开发者构成显著风险。建议开发者在租赁前严格验证主机真实地理位置及网络连通性，避免影响训练任务。此外，地缘政治因素正深刻影响 AI 基础设施可用性，跨境计算资源需警惕网络延迟及服务封锁问题，确保模型训练稳定性及合规性。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "GPU"
-    ],
-    "link": "https://twitter.com/uzyn/status/2071498690414731513",
-    "date": "2026-06-29",
-    "id": "17827239987561"
-  },
-  {
-    "title": "开源 AI 新闻室 Independent Wire 上线，旨在记录偏见",
-    "summary": "新开源项目利用 AI 构建透明新闻室，自动记录报道偏见。",
-    "detail": "Independent Wire 正式推出开源 AI 新闻室，主打开放、透明及包容。该系统利用 AI 技术整合多源信息，自动文档化报道中的偏见、利益相关者及观点分歧点。首期报道涵盖新喀里多尼亚选举及乌干达埃博拉疫情等全球议题。该项目展示了 AI 在媒体透明度及事实核查方面的应用潜力，为新闻行业提供了去中心化、可审计的内容生产新范式。通过算法记录偏见，旨在重建公众信任，对抗信息茧房，探索 AI 时代新闻伦理的新解决方案。",
-    "tags": [
-      "New",
-      "Media",
-      "OpenSource"
-    ],
-    "link": "https://independent-wire.org/",
-    "date": "2026-06-29",
-    "id": "17827239987562"
-  },
-  {
-    "title": "港科大测试：Rokid 眼镜搭载 GPT-5.2 通过期末考",
-    "summary": "智能眼镜结合 GPT-5.2 在考试中获 92.5 分，引发教育伦理讨论。",
-    "detail": "港科大团队测试显示，基于 Rokid Glasses 并搭载 OpenAI GPT-5.2 的 AI 眼镜在计算机网络期末考中获 92.5 分，超越学生平均分 72 分。工作流程包括图像捕捉、云端推理及答案返回，响应迅速。该测试验证了 AI 眼镜在复杂知识任务中的深度推理能力，同时也向全球教育界发出警报：智能眼镜时代已至，需尽快制定使用规范及监管政策，防止学术不端。硬件与模型结合正重塑教育评估体系，未来考试形式及知识考核标准将面临根本性变革，学校需提前应对。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Education"
-    ],
-    "link": "https://xg.glass/posts/network-exam-test/",
-    "date": "2026-06-29",
-    "id": "17827239987563"
   }
 ]
