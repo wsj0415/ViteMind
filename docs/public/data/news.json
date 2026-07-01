@@ -1,5 +1,70 @@
 [
   {
+    "title": "BIS 2026 报告：AI 投资的经济风险与机遇",
+    "summary": "国际清算银行发布 2026 报告，警示 AI 投资带来的金融稳定风险与通胀压力。",
+    "detail": "国际清算银行发布 2026 年度经济报告，重点分析了人工智能对全球经济的影响。报告指出，尽管 AI 相关投资推动了市场韧性并维持了宽松金融条件，但也带来了 persistent inflation 风险和金融脆弱性。报告强调，政策制定者需在支持技术创新与防范系统性风险之间取得平衡，优先保障价格稳定并恢复财政空间，确保金融稳定超越传统银行边界。",
+    "tags": [
+      "News",
+      "Economy",
+      "Policy"
+    ],
+    "link": "https://www.bis.org/publ/arpdf/ar2026e1.htm",
+    "date": "2026-07-01",
+    "id": "17829078331140"
+  },
+  {
+    "title": "经济学人：AI 模型价值观与人类显著不同",
+    "summary": "经济学人研究发现 AI 模型价值观与人类存在显著差异，引发伦理对齐担忧。",
+    "detail": "经济学人最新简报深入探讨了 AI 模型价值观与人类道德标准的显著差异。研究发现，随着模型渗透率提高，其决策逻辑可能与人类社会预期产生冲突。这种对齐问题不仅涉及技术层面，更关乎伦理风险。行业需重视价值对齐研究，确保 AI 系统行为符合人类规范，避免潜在的社会伦理冲突，为大规模部署奠定信任基础。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Alignment"
+    ],
+    "link": "https://www.economist.com/briefing/2026/06/25/ai-models-values-are-very-different-from-most-peoples",
+    "date": "2026-07-01",
+    "id": "17829078331141"
+  },
+  {
+    "title": "优化 Token 卫生：如何大幅降低 AI 账单",
+    "summary": "工程师分享优化 LLM 上下文经验，通过 Token 卫生 discipline 节省巨额成本。",
+    "detail": "LeadDev 文章揭示了许多团队 AI 账单过高的原因：发送给 LLM 的数据大多 unnecessary。工程师 Tejas Chopra 通过优化 Prompt 忽略无关日志，单月节省显著。文章提出\"Token hygiene\"应成为新的工程 discipline。建议在发送数据前压缩上下文，监控任务实际消耗。由于提供商通常不传递压缩节省的成本，团队需自主优化可见性以控制支出。",
+    "tags": [
+      "Dev",
+      "Cost",
+      "LLM"
+    ],
+    "link": "https://leaddev.com/ai/why-your-ai-bill-is-bigger-than-it-should-be",
+    "date": "2026-07-01",
+    "id": "17829078331142"
+  },
+  {
+    "title": "生成式 AI 如何重塑软件工程未来",
+    "summary": "生成式 AI 因代码结构化特性擅长编程，将深刻改变软件工程工作流与模式。",
+    "detail": "本文探讨了生成式 AI 对软件工程的深远影响。早期预测 AI 将外包功能，但因幻觉问题受阻。然而，代码的高度结构化特性使 AI 擅长编程，解决了准确性问题。未来软件工程将转向 AI 协作模式，开发者需适应与 AI 配对编程，利用其结构化优势而非通用文本生成。这标志着开发范式的根本转变，要求工程师重新定义工作流程。",
+    "tags": [
+      "Dev",
+      "Engineering",
+      "Code"
+    ],
+    "link": "https://streanga.com/blog/on-generative-ai-and-software-engineering/",
+    "date": "2026-07-01",
+    "id": "17829078331143"
+  },
+  {
+    "title": "实战指南：AI 代理的凭证安全管理",
+    "summary": "Hacker News 讨论 AI 代理安全，建议通过 API 代理管理凭证以避免泄露风险。",
+    "detail": "Hacker News 社区热议 AI 代理的凭证管理安全问题。直接访问 secrets 存在巨大风险，建议通过轻量级 API 代理处理。代理接收代理请求，注入 secrets 并执行操作，避免将敏感凭证暴露给 LLM 上下文。这种模式增强了系统安全性，是构建生产级 AI agent 的关键考量。开发者需建立严格的安全边界，防止代理行为失控导致数据泄露。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48744486",
+    "date": "2026-07-01",
+    "id": "17829078331144"
+  },
+  {
     "title": "Aegize 推出自主 AI 智能体安全基础设施",
     "summary": "提供策略层与沙盒环境，mitigating 自主智能体风险。",
     "detail": "Show HN 项目 Aegize 旨在降低自主 AI 智能体风险。它作为基础设施层，在智能体调用工具前进行身份验证、策略检查与权限审批。提供只读审计日志与本地沙盒模拟，确保无实际危险执行。该项目针对 AI Agent 落地中的安全问题，提供了执行前的防护与审计方案，适合需要可控自主性的企业场景，允许开发者在安全环境中测试智能体行为。",
@@ -1233,70 +1298,5 @@
     "link": "https://netbird.ai/",
     "date": "2026-06-28",
     "id": "17826745970201"
-  },
-  {
-    "title": "Verigate 提供 AI 代理加密授权凭证",
-    "summary": "为 AI 代理行动提供加密签名和合规审计追踪。",
-    "detail": "Verigate 推出针对 AI 代理的加密信任基础设施，生成 signed 授权凭证以满足 EU AI Act 等合规要求。支持 Ed25519 签名和哈希链审计，无需 LLM 参与信任路径。帮助企业在零信任环境中验证代理身份和行动，自动化合规报告，降低监管风险。覆盖 DORA、HIPAA 等六大框架，提供透明定价。随着欧盟 AI 法案 enforcement 临近，此类工具成为高风险 AI 系统满足人工监督和审计追踪要求的必要基础设施，确保每一步代理行动可追溯。提供 Free 到 Scale 多档位定价，支持链上锚定。在监管日益严格的背景下，为 AI 代理提供 cryptographic proof 成为企业规避法律风险的关键，推动了 AI 信任基础设施市场的兴起。",
-    "tags": [
-      "New",
-      "Compliance",
-      "Enterprise"
-    ],
-    "link": "https://verigate.cloud",
-    "date": "2026-06-28",
-    "id": "17826745970202"
-  },
-  {
-    "title": "Monlite 单文件 SQLite 构建 AI 代理后端",
-    "summary": "无需 Docker，用单个 SQLite 文件替代多种数据库服务。",
-    "detail": "Monlite 是一个零依赖 TypeScript 核心库，将文档、向量、缓存、队列等功能整合到单个 SQLite 文件中。专为本地 AI 代理设计，无需启动 Docker 栈或配置多个服务。简化了开发流程，备份仅需复制文件，适合轻量级 agent 后端构建，降低运维复杂度。替代 MongoDB、Redis、Qdrant 等多种服务，提供响应式查询和混合 RAG 功能。对于希望快速原型开发或部署边缘 AI 应用的开发者，该方案显著减少了基础设施维护负担，实现真正的本地优先架构。单文件设计使得迁移和版本控制更加简单，特别适合个人开发者或小型团队快速构建 AI 应用，无需担心复杂的服务依赖和配置问题。",
-    "tags": [
-      "Dev",
-      "Database",
-      "Local"
-    ],
-    "link": "https://github.com/qataruts/monlite",
-    "date": "2026-06-28",
-    "id": "17826745970203"
-  },
-  {
-    "title": "AgentCrawl 自托管 AI 代理网页爬虫",
-    "summary": "为 AI 代理提供简单的自托管网页抓取和 Markdown 提取。",
-    "detail": "AgentCrawl 是一个小型自托管爬虫，专为 AI 代理设计，可将网页和本地文档转换为 Markdown 或 JSON-LD。支持 CLI、Python 和 Docker 部署，避免将 URL 路由到托管 scraper。处理 Cloudflare 挑战等边缘情况，为代理提供干净的数据输入，保护隐私。项目处于早期阶段，注重 accessible pages 和 clean output。作为 MCP 服务器运行时，可直接集成到 agent 工作流中，解决了代理获取外部知识时的数据清洗和隐私顾虑问题，适合本地化部署需求。通过本地处理 HTML 转换，避免了敏感数据泄露给第三方服务，同时提供了灵活的输出格式，方便下游 LLM 处理，增强了 agent 的自主感知能力。",
-    "tags": [
-      "Dev",
-      "Scraper",
-      "Agent"
-    ],
-    "link": "https://github.com/JorG18/agentcrawl",
-    "date": "2026-06-28",
-    "id": "17826745970204"
-  },
-  {
-    "title": "调查显示高中生 AI 编程工具使用率极低",
-    "summary": "仅 3.1% 的受访高中生使用过 Cursor 等 AI 编程工具。",
-    "detail": "Lumos Fellows 项目调查显示，尽管 AI  coding 工具普及，但 32 名精选高中生中仅 1 人使用过 Cursor。这表明 AI 编程工具在青少年教育中的渗透率远低于预期，揭示了教育领域 AI 落地的潜在鸿沟和未来增长空间，反映工具推广仍需时间。受访学生多为有编程经验的优选群体，即便如此采纳率仅 3.1%。这意味着 AI 编程教育尚未成为主流，未来在学校课程整合和市场推广方面存在巨大机会，同时也提示工具易用性需进一步降低门槛。调查时间为 2026 年 1 月，虽数据可能变化，但差距显著。这反映了技术传播的滞后性，提示教育科技公司在推广 AI 工具时需更注重校园渠道建设和学生认知培养。",
-    "tags": [
-      "News",
-      "Education",
-      "Adoption"
-    ],
-    "link": "https://malerchen.com/high-schoolers-and-ai/",
-    "date": "2026-06-28",
-    "id": "17826745970205"
-  },
-  {
-    "title": "生成式 AI 经济规模首曝：年营收超 1750 亿美元",
-    "summary": "首个自下而上报告显示，生成式 AI 过去 12 个月销售额达 1100 亿美元。",
-    "detail": "Exponential View 发布首份自下而上 AI 经济报告，揭示生成式 AI 过去 12 个月销售额达 1100 亿美元，年化营收跑率超 1750 亿美元。该研究采用去重计算终端支出，避免重复计算供应链价值，深入分析市场需求侧增长动力。报告还探讨了未来 token 价格下降与质量提升对经济模型的影响，为投资者与行业观察者提供了关键的市场规模参考与趋势预判。此外，报告对比了供给侧公开数据，指出需求侧理解更为困难，此模型填补了行业空白，帮助评估 AI 投资回报与未来经济可持续性，标志着 AI 经济测量进入精细化阶段。",
-    "tags": [
-      "News",
-      "Market",
-      "Economy"
-    ],
-    "link": "https://www.exponentialview.co/p/the-state-of-the-ai-economy",
-    "date": "2026-06-28",
-    "id": "17826668657650"
   }
 ]
