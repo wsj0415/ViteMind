@@ -1,5 +1,44 @@
 [
   {
+    "title": "OpenAI 提议捐赠 5% 股权给美国主权财富基金",
+    "summary": "OpenAI 提议向美国主权财富基金捐赠 5% 股权，以改善政治关系。",
+    "detail": "OpenAI CEO 山姆·阿尔特曼提议将公司 5% 股权捐赠给美国主权财富基金，旨在 securing good relations 并解决政治反弹。该提案类似此前讨论的“公共 AI 基金”，可能需要国会批准。此举若实施，将开创科技巨头与政府利益捆绑的先河，影响 AI 行业治理结构。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Policy"
+    ],
+    "link": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
+    "date": "2026-07-02",
+    "id": "17830060801740"
+  },
+  {
+    "title": "Enola：为 AI 代理构建确定性架构图谱",
+    "summary": "开源工具 Enola 为 AI 代理提供确定性代码架构图谱。",
+    "detail": "针对 AI 代理难以理解大型代码库架构的问题，Enola 提供确定性架构引擎。它不使用 LLM 解析代码，而是构建持久知识图谱，支持影响分析、死代码发现和跨 repo 上下文。这解决了 AI 代理重复发现架构的痛点，提升代码修改安全性。",
+    "tags": [
+      "New",
+      "Tools",
+      "Architecture"
+    ],
+    "link": "https://github.com/enola-labs/enola/tree/main",
+    "date": "2026-07-02",
+    "id": "17830060801743"
+  },
+  {
+    "title": "开源测试集修复 AI 生成代码的 API 集成问题",
+    "summary": "开源测试集帮助修复 AI 生成代码中的 API 集成错误。",
+    "detail": "针对 AI 生成代码在 API 集成（如 Supabase）时常出现的安全配置错误，开发者开源了 110 个测试用例。无需 LLM 参与，直接基于官方文档验证代码集成。这解决了 AI 编码中上下文压缩导致的安全隐患，提供即时反馈修复坏代码。",
+    "tags": [
+      "Dev",
+      "Testing",
+      "Security"
+    ],
+    "link": "https://github.com/qualtyco/api-doctor",
+    "date": "2026-07-02",
+    "id": "17830060801744"
+  },
+  {
     "title": "企业因成本过高限制员工 AI 使用",
     "summary": "多家大厂因 AI 令牌成本失控，开始限制员工使用高级模型。",
     "detail": "根据 404 Media 获取的 Slack 聊天记录、内部仪表板截图及邮件，科技、娱乐、银行业公司正限制员工 AI 使用。Atlassian、Adobe、Amazon 等企业内部数据显示，AI 支出在某些情况下 tripled 至每月超过 1500 万美元。供应商按用量收费而非固定费用的模式导致企业反弹。Citi 已完全切断 Claude Opus 4.6/4.7 及 GPT-5.5 访问。员工被要求使用低推理模型以减少 token 消耗。Adobe 员工表示不确定调整工作流能否完全吸收新闻影响。这标志着企业 AI 部署进入成本优化阶段，盲目采用期结束，供应商定价模式面临挑战。",
@@ -219,6 +258,32 @@
     "link": "https://github.com/lzytttttt/WebDeck",
     "date": "2026-07-02",
     "id": "17829636206354"
+  },
+  {
+    "title": "Palantir 发布 AI 主权宣言，强调数据与控制权",
+    "summary": "Palantir 强调 AI 主权重要性，机构需掌控数据与模型权重。",
+    "detail": "Palantir 发布宣言指出 AI 主权决定机构未来。放弃主权意味着将选择权转移给他人。强调数据保留是财富，控制权重即控制命运。反对单纯追求 Token 用量，倡导基于价值的软件构建。这对企业 AI 部署策略具有警示意义，强调自主可控。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Strategy"
+    ],
+    "link": "https://twitter.com/i/status/2072114267776491695",
+    "date": "2026-07-01",
+    "id": "17830060801741"
+  },
+  {
+    "title": "AI 使开放 PR 增加 36%，但工程判断仍关键",
+    "summary": "实战数据显示 AI 增加 PR 数量，但工程判断仍是核心。",
+    "detail": "Stack Builders 分享 AI 辅助软件交付 insights。AI 使开放 PR 增加 36%，但难点转向需求理解和正确性验证。资深技术主管指出，规范驱动开发有前景但工作流对齐仍难。AI 未消除对工程判断的需求，而是改变了交付难点所在。",
+    "tags": [
+      "Dev",
+      "Engineering",
+      "Productivity"
+    ],
+    "link": "https://www.stackbuilders.com/insights/ai-in-software-delivery-whats-working-whats-hard-and-what-were-still-learning/",
+    "date": "2026-07-01",
+    "id": "17830060801742"
   },
   {
     "title": "甲骨文警示 AI 基础设施投资风险",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/shreyasks094/Zeus",
     "date": "2026-06-29",
     "id": "17827740564912"
-  },
-  {
-    "title": "可组合 AI 理论：为何窄域代理优于单体 AI 架构",
-    "summary": "深度分析可组合 AI 架构，探讨窄域代理在性能与清晰度上的优势。",
-    "detail": "文章提出可组合 AI 理论，认为窄域、范围明确的代理优于单体 AI。通过将角色分解为子代理团队，可减少指令歧义和上下文噪音，提升输出质量。虽然存在协调开销（延迟、错误传播），但专注度带来的性能提升显著。该理论强调可组合性应位于分发层而非编排层，为 AI 代理架构设计提供了重要参考，适合系统架构师及 AI 产品经理阅读，指导高效 Agent 团队构建。",
-    "tags": [
-      "Dev",
-      "Theory",
-      "Agent Architecture"
-    ],
-    "link": "https://openenvelope.org/writing/composable-ai-thesis/",
-    "date": "2026-06-29",
-    "id": "17827740564913"
-  },
-  {
-    "title": "研究显示女性在 generative AI 使用率上低于男性 22%",
-    "summary": "哈佛商学院 meta 分析揭示 AI 使用中的性别差异及其背后原因。",
-    "detail": "哈佛商学院 meta 分析显示，女性使用生成式 AI 的几率比男性低 22%。该模式跨越国家和行业，2022-2024 年间女性仅占 ChatGPT 等用户的 42%，Anthropic 用户中比例更低。文章探讨社会科学研究视角下的文化与技术问题，指出女性更倾向于避免 AI 工具。这对 AI 产品的普及策略、伦理设计及用户研究具有重要启示，提示行业需关注性别差异背后的信任与效用认知。",
-    "tags": [
-      "News",
-      "Social Impact",
-      "Adoption"
-    ],
-    "link": "https://thenoosphere.substack.com/p/theres-a-reason-women-arent-swooning",
-    "date": "2026-06-29",
-    "id": "17827740564914"
-  },
-  {
-    "title": "Switchboard：本地优先的 AI 提示路由工具，优化成本与隐私",
-    "summary": "开源路由工具可减少 62% 高级模型调用，敏感提示保留在本地。",
-    "detail": "Switchboard 是一款隐私感知的本地优先路由器，适用于 CLI 编码代理和本地 LLM。它能智能将简单任务路由至本地模型，复杂任务发送至高级模型，从而减少 62% 的高级代理调用，质量保持 4.1/5。支持 Codex、Claude 及 Ollama，确保敏感提示不离设备，无基准泄露。适合关注成本与数据隐私的开发团队，优化 AI 集成预算。作为 Show HN 项目，它提供了实用的成本削减方案，解决了企业级 AI 部署中的常见痛点。",
-    "tags": [
-      "Dev",
-      "Cost Optimization",
-      "Privacy"
-    ],
-    "link": "https://github.com/aivinay/switchboard",
-    "date": "2026-06-29",
-    "id": "17827740564915"
-  },
-  {
-    "title": "AI 代理安全防火墙 Project Guardian 发布 v0.1",
-    "summary": "本地用户空间防火墙，中介自主 AI 代理的文件、网络及 shell 操作。",
-    "detail": "该项目提供了一个与代理无关的本地防火墙，通过确定性策略边界介导自主 AI 代理的操作。核心特性包括防篡改审计日志、人工审批 cockpit 及网络代理 TLS 拦截。基于 Rust 构建，无需内核模块，旨在解决 AI 代理自主行动时的安全风险。v0.1.0 版本已包含 OS 执行沙盒及令牌代理功能，支持 ed25519 签名社区策略包。它为 Agent 部署提供关键基础设施保障，确保自主系统在不失控的前提下高效运行，特别关注资金、凭证及数据外泄等关键类别的强制人工干预，防止静默允许高风险操作。",
-    "tags": [
-      "Dev",
-      "AI Security",
-      "Agent"
-    ],
-    "link": "https://github.com/Vadale/project-guardian",
-    "date": "2026-06-29",
-    "id": "17827693898260"
-  },
-  {
-    "title": "ForthWrite：基于 RAG 与编辑反馈学习用户邮件风格",
-    "summary": "通过分析发送编辑记录，利用 RAG 技术让 AI 邮件助手真正学会用户语气。",
-    "detail": "针对 AI 邮件助手无法个性化用户语气的痛点，ForthWrite 采用 RAG 技术而非微调。系统在生成时检索用户实际发送的邮件示例，并结合编辑距离评分构建反馈循环。这种方法避免了高昂的微调成本，动态适应用户写作习惯演变。通过批量导入 Gmail 发送文件夹并标准化处理，实现真正的语气模仿。它解决了通用模型无法体现个人风格的难题，利用 text-embedding 技术建立语料库，确保每次生成都基于用户真实历史数据，为个人化 AI 助手提供了新的技术实现路径，显著提升邮件沟通的自然度与专业性。",
-    "tags": [
-      "New",
-      "RAG",
-      "Productivity"
-    ],
-    "link": "https://www.forthwrite.ai/blog/how-forthwrite-learns-your-email-voice",
-    "date": "2026-06-29",
-    "id": "17827693898261"
   }
 ]
