@@ -1,5 +1,109 @@
 [
   {
+    "title": "社区热议：内核级 AI 安全指南可行性",
+    "summary": "黑客新闻讨论在内核层强制切断 AI 越狱信号的可能性。",
+    "detail": "针对 AI 安全治理，社区提出激进设想：与其仅靠道德训练，不如在内核层设置开关，当检测到 adversarial 攻击时强制切断信号。提案将现有方法比作给罪犯道德教育，而内核开关则是物理切断肌肉信号。这反映了业界对 AI 越狱问题的深层焦虑，虽技术实现尚远，但开启了底层安全架构的新思路。这种硬件级干预可能成为未来 AI 安全合规的强制标准，值得开发者关注底层系统对 AI 行为约束的支持潜力。目前该讨论已在 Hacker News 引发热议，探讨了操作系统如何介入 AI 伦理控制。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Kernel"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48768344",
+    "date": "2026-07-02",
+    "id": "17830338592160"
+  },
+  {
+    "title": "Mirrors：AI Agent 生产环境回放测试工具",
+    "summary": "将生产痕迹转化为隔离镜像，零风险测试 Agent 变更。",
+    "detail": "Mirrors 通过将生产 traces 转化为隔离的可运行环境，让开发者在不触碰生产数据的情况下回放测试 AI Agent 变更。支持确定性世界种子重建，确保每次测试字节级一致。解决了 Agent 部署中回归测试难、生产环境风险高的痛点，显著提升交付信心。工具支持通过 MCP 协议连接，无需 API Key 即可通过浏览器认证，极大降低了测试环境的搭建成本。界面展示了工具调用延迟与成功率对比，如航班取消场景的 100% 复现。对于依赖复杂工具调用的 AI 应用，这是确保稳定性的关键基础设施，值得团队集成到 CI/CD 流程中。",
+    "tags": [
+      "New",
+      "DevOps",
+      "AI Agent"
+    ],
+    "link": "https://www.runmirrors.com/",
+    "date": "2026-07-02",
+    "id": "17830338592161"
+  },
+  {
+    "title": "Weird Al 拒绝高额 AI 广告代言邀约",
+    "summary": "知名艺人明确拒绝成为 AI 商业化的代言人，引发伦理讨论。",
+    "detail": "著名音乐人 Weird Al Yankovic 公开拒绝了一份丰厚的 AI 广告合同，表示不愿成为 AI 的“海报男孩”。此举在娱乐界引发震动，凸显了创作者对 AI 技术滥用及版权伦理的担忧。在 AI 生成内容泛滥的 2026 年，真人艺术家的立场可能对行业规范产生深远影响。报道指出即便面对巨额金钱诱惑，他仍坚持原则，这可能会鼓励更多名人抵制未经授权的 AI 形象使用。对于品牌方而言，这意味着在使用 AI 合成名人形象时将面临更大的舆论与法律风险，需重新评估营销策略。此事件标志着 AI 伦理争议已从技术圈蔓延至主流文化领域。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Entertainment"
+    ],
+    "link": "https://variety.com/2026/music/news/weird-al-yankovic-rejected-ai-commercial-money-offer-1236800794/",
+    "date": "2026-07-02",
+    "id": "17830338592162"
+  },
+  {
+    "title": "Halo：主打隐私的本地 Mac AI 助手",
+    "summary": "完全本地运行的 Mac 助手，无遥测，支持语音与自动化。",
+    "detail": "Halo 是一款专为 Mac 设计的私有 AI 助手，强调“无遥测”与本地运行。支持语音唤醒、全局文本补全、通话录音摘要及本地自动化任务。通过 MCP 协议连接外部工具，确保数据不出设备。迎合了用户对隐私安全日益增长的需求，是本地 AI 应用的典型代表。功能涵盖日历管理、邮件草稿及联系人查找，所有操作均在本地完成且展示工作流以便用户控制。它不仅能回答问题，还能执行创建事件等操作，且不会未经同意发送或删除数据。对于处理敏感数据的企业用户或隐私倡导者，这种完全本地化的方案提供了比云端助手更高的安全感，且免费开放使用。",
+    "tags": [
+      "New",
+      "Privacy",
+      "Mac"
+    ],
+    "link": "https://heyhalo.app/",
+    "date": "2026-07-02",
+    "id": "17830338592163"
+  },
+  {
+    "title": "Declaw Arena：AI Agent 沙盒安全挑战平台",
+    "summary": "通过 CTF 模式测试 AI Agent 在微虚拟机中的安全性。",
+    "detail": "Declaw 推出竞技场模式，邀请开发者尝试突破运行在隔离微虚拟机中的 AI Agent 沙盒。通过无策略、部分策略及全策略对比，展示运行时安全政策的有效性。旨在通过红队测试发现 Agent 漏洞，推动 AI 运行时安全标准的建立，适合安全研究人员参与。挑战包括让数据分析师 Agent 泄露客户 PII 信息或突破 root shell。数据显示全策略下破解率为 0%，证明了沙盒隔离的有效性。每个会话在隔离沙盒中运行且限时 10 分钟，无需注册即可参与。这种 gamification 的安全测试方式能有效吸引社区力量完善 AI 防御机制，是 AI 安全领域的一次创新尝试。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Sandbox"
+    ],
+    "link": "https://declaw.ai/arena",
+    "date": "2026-07-02",
+    "id": "17830338592164"
+  },
+  {
+    "title": "哈佛商业评论：警惕 AI 战略中的“紧急陷阱”",
+    "summary": "95% 的生成式 AI 项目失败，源于领导层过度关注短期紧急问题。",
+    "detail": "HBR 文章指出，尽管 AI 投资巨大，但 95% 的生成式 AI 试点项目失败。核心原因是领导层陷入“紧急陷阱”，将 AI 视为解决短期瓶颈的 quick fix，而非长期价值创造工具。建议企业避免过度优先化即时问题，转而制定可持续的 AI 转型战略，以防资源浪费。调研涵盖美英德澳 6000 名高管，发现 90% 称过去三年 AI 未带来可衡量的生产力提升。文章强调 AI 并非无效，而是使用策略错误。作者身为学者兼顾问，观察到失败模式的一致性。领导者需转变思维，从解决紧急问题转向构建长期能力，这对于正在制定 AI 路线图的企业具有极高的警示意义。",
+    "tags": [
+      "News",
+      "Strategy",
+      "Management"
+    ],
+    "link": "https://hbr.org/2026/07/when-developing-an-ai-strategy-beware-the-urgency-trap",
+    "date": "2026-07-02",
+    "id": "17830338592165"
+  },
+  {
+    "title": "Auto Learning Agents：基于 Elixir 的自托管 Agent 平台",
+    "summary": "单 Docker 镜像部署，支持混合模型与本地运行的 Agent 平台。",
+    "detail": "这是一个基于 Elixir/OTP 构建的自托管 AI Agent 平台，通过单个 Docker 镜像即可部署全套环境。支持混合使用 Claude、OpenAI 或本地 Ollama 模型，数据完全自有。为开发者提供了轻量级、可控的 Agent 基础设施方案，适合注重数据主权的企业内部部署。安装仅需四步，包含运行时、Python 服务及本地数据库。启动命令会自动准备数据库并启动 agent 节点的全监督树。无需外部云账户，所有存储和搜索均在 bundled 数据库中运行。文档详细说明了配置与记忆后端设置，适合希望完全掌控 AI 栈的技术团队快速搭建私有化 Agent 服务，降低了对第三方 SaaS 的依赖。",
+    "tags": [
+      "Dev",
+      "Self-hosted",
+      "Elixir"
+    ],
+    "link": "https://www.autolearningagents.com/get-started/",
+    "date": "2026-07-02",
+    "id": "17830338592166"
+  },
+  {
+    "title": "拉马努金挑战：评估 AI 数学推导能力的新基准",
+    "summary": "通过数学常数公式证明挑战，测试 AI 的研究级数学能力。",
+    "detail": "拉马努金机器项目发布新挑战，要求 AI 系统证明涉及基本数学常数的公式。问题包含已知证明（加密）及未证明公式，旨在评估 AI 解决研究级数学问题的能力。submissions 需包含可复现代码，为 AI 数学推理能力提供了具体且可验证的高难度基准。挑战涉及π、e 及黎曼ζ函数等特殊值，公式证明可能需要非显而易见的数学技巧。提交截止至 8 月 1 日，作者将评估结果。这不仅测试计算能力，更测试形式化验证与 CAS 代码能力，是衡量 AI 在科学发现领域潜力的重要试金石。挑战分为两类问题，有助于避免验证过程混乱，推动 AI for Science 的发展。",
+    "tags": [
+      "Dev",
+      "Math",
+      "Benchmark"
+    ],
+    "link": "https://www.ramanujanmachine.com/ramanujan-challenge/",
+    "date": "2026-07-02",
+    "id": "17830338592167"
+  },
+  {
     "title": "微软投入 25 亿美元成立 AI 部署公司",
     "summary": "微软成立 Frontier Company，投入 25 亿美元推动企业 AI 落地。",
     "detail": "微软宣布成立 Microsoft Frontier Company，专注于企业 AI 部署。该项目获 25 亿美元投资及 6000 名专家支持，旨在超越传统的“前向部署工程”模式。此举紧随亚马逊、OpenAI 等竞品之后，显示巨头正竞相争夺企业级 AI 服务市场。通过大规模工程团队确保客户成功落地，标志着 AI 竞争从模型能力转向实际交付与服务生态构建。微软凭借现有客户基础占据优势，企业客户将成为下一战场，行业服务化趋势明显。此举措可能加速 AI 在传统行业的渗透率。",
@@ -1194,109 +1298,5 @@
     "link": "https://www.agent-kits.com/agentaz-crosswalk",
     "date": "2026-06-30",
     "id": "17828123500361"
-  },
-  {
-    "title": "Mocca 推出本地 AI 邮件客户端，保障隐私安全",
-    "summary": "基于 Mac 本地 LLM 处理邮件，分类整理无需数据上传。",
-    "detail": "Mocca 是一款专为 macOS Apple Silicon 设计的本地 AI 邮件客户端。模型在本地运行（约 10GB），邮件内容不离开设备。支持自然语言定义收件箱规则、自动分类标签及执行操作（如退订、归档）。采用开放权重模型，无 telemetry，适合注重隐私的用户自动化管理邮件，无需配置复杂过滤器。用户可用 plain English 描述规则，AI 理解内容而非发件人列表，首次启动下载模型后无需联网即可处理敏感信息，确保数据主权。",
-    "tags": [
-      "New",
-      "Privacy",
-      "LocalLLM"
-    ],
-    "link": "https://mocca.run/",
-    "date": "2026-06-30",
-    "id": "17828123500362"
-  },
-  {
-    "title": "IndustryLens 推出 MCP 协议竞品情报工具",
-    "summary": "支持 Claude、Cursor 等工具，实时追踪竞品动态与数据。",
-    "detail": "IndustryLens 发布 Model Context Protocol (MCP) 连接器，为 AI 代理提供实时竞品情报。集成于 Claude、Cursor 等工具，可查询定价、定位、广告及招聘新闻。开发者可通过 CLI 或深链接安装，支持公共 tier 无需 API key。增强了 AI 助手在商业分析任务中的实时数据获取能力，实现 mid-task 竞争情报查询。支持多种主流 AI 客户端，包括 ChatGPT、Gemini CLI 及 Mistral，提供带来源引用的实时搜索结果。",
-    "tags": [
-      "Dev",
-      "MCP",
-      "Business"
-    ],
-    "link": "https://industry-lens.com/mcp",
-    "date": "2026-06-30",
-    "id": "17828123500363"
-  },
-  {
-    "title": "Fillament 发布面向 Agent 驱动的 Web 表单库",
-    "summary": "替代 Formik，支持 AI 自动填充与机器可读表单契约。",
-    "detail": "Fillament 是专为 Agent 驱动 Web 设计的开源表单库。表单自我描述为机器可读契约，支持 AI 代理解析验证错误并自动修正。内置浏览器端 AI 自动填充（WebLLM），保护隐私。提供类型安全字段路径及 Zod 验证，核心包仅 14KB。旨在让人类用户与 AI 代理无缝协作填写表单，无需额外布线。支持 22 个可树摇包，模型缓存在 IndexedDB 中，确保用户数据隐私优先且可选，适合现代 React 应用集成。所有功能免费且开源，MIT 许可。",
-    "tags": [
-      "Dev",
-      "Frontend",
-      "Agent"
-    ],
-    "link": "https://fillament.dev",
-    "date": "2026-06-30",
-    "id": "17828123500364"
-  },
-  {
-    "title": "AI 内容泛滥致用户回归线下现实",
-    "summary": "AI 生成内容质量下降，促使用户远离网络回归现实世界。",
-    "detail": "Inc. 报道指出，AI 生成内容（AI Slop）的爆炸式增长正在产生显著的负面社会影响。低质量、重复内容的泛滥导致用户感到疲惫和失望，转而寻求线下真实互动。这一趋势反映了当前 AI 内容生态面临的信任危机，可能迫使内容平台重新审视质量管控策略，对依赖流量的 AI 生成内容商业模式构成挑战，暗示人类对真实性的需求回升。",
-    "tags": [
-      "News",
-      "Industry",
-      "Social Impact"
-    ],
-    "link": "https://www.inc.com/chris-morris/an-explosion-of-ai-slop-is-pushing-people-offline-and-back-into-the-real-world/91366357",
-    "date": "2026-06-30",
-    "id": "17827959595830"
-  },
-  {
-    "title": "GitHub 开源项目：Agency Agents 智能体工作流",
-    "summary": "开源 AI 代理项目，提供具备个性与流程的专家智能体。",
-    "detail": "该项目名为 agency-agents，旨在为用户提供完整的 AI 代理机构框架。包含前端专家、社区忍者等多种具有特定性格、流程和交付物的智能体。基于 MIT 许可开源，欢迎 PR。开发者可利用此框架构建 specialized experts，优化工作流自动化。适合希望部署多角色协作 AI 系统的开发者参考，展示了 Agent 个性化与专业化的一种实现路径，降低开发门槛。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Agents"
-    ],
-    "link": "https://github.com/msitarzewski/agency-agents",
-    "date": "2026-06-30",
-    "id": "17827959595831"
-  },
-  {
-    "title": "WSJ：AI 数据中心引发能源与钢铁行业危机",
-    "summary": "AI 数据中心需求激增，导致电力竞争加剧及钢铁行业波动。",
-    "detail": "华尔街日报报道，AI 数据中心的建设曾利好钢铁行业，但目前正面临迫在眉睫的电力危机。随着 AI 算力需求暴涨，数据中心与钢铁行业在能源消耗上形成竞争关系。这揭示了 AI 基础设施扩张背后的物理限制，能源供应将成为制约 AI 发展的关键瓶颈，可能影响未来数据中心的布局及运营成本，引发行业对可持续算力的关注。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Energy"
-    ],
-    "link": "https://www.wsj.com/business/energy-oil/ai-data-centers-power-competition-steel-48a17dbd",
-    "date": "2026-06-30",
-    "id": "17827959595832"
-  },
-  {
-    "title": "TechCrunch：AI 对就业市场影响趋于复杂化",
-    "summary": "数据显示重度 AI 采用者员工数量增长，就业争论加剧。",
-    "detail": "尽管 2026 年已有近 9 万裁员与 AI 相关，但 Ramp 和 Revelio Labs 报告显示，重度 AI 采用者（每月每员工支出 30 美元）的员工数量反而增长了 10.2%。工程、销售等岗位均有增加。这表明 AI 并非单纯替代人力，重度使用者更能利用工具扩张业务。就业市场呈现两极分化，掌握 AI 工具的企业更具招聘活力，加剧了关于技能转型的讨论。",
-    "tags": [
-      "News",
-      "Jobs",
-      "Economy"
-    ],
-    "link": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
-    "date": "2026-06-30",
-    "id": "17827959595833"
-  },
-  {
-    "title": "论文综述：AI 代理时代的记忆机制研究",
-    "summary": "最新综述论文探讨 AI Agent 中的记忆存储与检索技术。",
-    "detail": "该论文题为\"Memory in the Age of AI Agents\"，由 Yuyang Hu 等多位作者共同完成。文章系统 surveyed 了 AI 代理发展中的记忆机制，涵盖存储、检索及更新策略。随着 Agent 复杂度提升，长期记忆成为关键瓶颈。该综述为研究人员提供了技术全景，有助于理解如何让 AI 具备更连贯的交互能力，是开发高级自主代理的重要理论参考，助力解决上下文丢失问题。",
-    "tags": [
-      "Dev",
-      "Paper",
-      "LLM"
-    ],
-    "link": "https://arxiv.org/abs/2512.13564",
-    "date": "2026-06-30",
-    "id": "17827959595834"
   }
 ]
