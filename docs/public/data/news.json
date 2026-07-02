@@ -1,5 +1,44 @@
 [
   {
+    "title": "AI Weekly 虚构访谈：控制论之父警示 2026 年 AI 伦理",
+    "summary": "AI 模型 Fable 跨界访谈控制论之父，探讨 AI 代理商业与归属权。",
+    "detail": "AI Weekly 推出创新栏目，让 AI 模型 Fable 基于诺伯特·维纳 1948 年著作进行“虚构访谈”。访谈核心直指 AI 伦理本质：谁为 AI 买单？谁的目的被服务？文中提及 Visa 已接入 AI 系统实现“代理商业”，AI 可直接花费主人资金。此内容虽为基于文献的 extrapolation，但深刻反映了 2026 年 AI 代理权与资本控制的行业焦虑。维纳的警告在 2026 年显得尤为振聋发聩，提示行业在追求代理能力时不可忽视控制权归属。所有回答均引用自维纳真实著作，确保伦理讨论的历史深度与真实性，为当前 AI 安全研究提供独特视角。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Agentic AI"
+    ],
+    "link": "https://aiweekly.co/editors-blog/testing-fable-interview-with-norbert-wiener",
+    "date": "2026-07-02",
+    "id": "17829890089410"
+  },
+  {
+    "title": "SophMate 发布：带审批流的 WordPress AI 运维助手",
+    "summary": "专为 WordPress 设计的 AI 助手，引入审批机制确保站点变更安全。",
+    "detail": "SophMate 是一款针对 WordPress 和 WooCommerce 的 AI Copilot。其核心差异化在于“审批优先”机制，AI 生成的站点变更计划需经人类审核后方可执行，避免静默自动化风险。支持 WooCommerce 库存、订单分析及营销内容生成，并提供预算与审计控制。解决了通用 AI 工具不懂站点上下文及操作风险高的痛点，适合电商站点自动化运维。对于担心 AI 误操作破坏站点的管理员来说，这种带有人类回路的自动化工具提供了更安全的生产力提升方案，兼顾效率与可控性。此外，其预算可见性功能帮助团队管理 AI 调用成本，防止资源滥用，是企业级应用落地的理想选择。",
+    "tags": [
+      "New",
+      "WordPress",
+      "Automation"
+    ],
+    "link": "https://sophmate.ai",
+    "date": "2026-07-02",
+    "id": "17829890089411"
+  },
+  {
+    "title": "Ghbrk 开源：让 AI 代理安全运行 Git 命令 without 泄露密钥",
+    "summary": "新开源工具解决 AI 代理使用 Git 时的 SSH 密钥与 API 令牌暴露风险。",
+    "detail": "Show HN 项目 Ghbrk 旨在解决 AI 代理在自动化 Git 操作时的安全隐患。传统方式需暴露 SSH 密钥或 API Token 给代理，存在泄露风险。Ghbrk 提供中间层桥接，允许 AI 代理执行 Git/gh 命令而无需直接接触敏感凭证。这对于构建自主 AI 代理（Autonomous Agents）至关重要，提升了开发流程中的安全性与合规性，适合 DevOps 场景。随着 AI 代理深入代码库管理，凭证安全成为关键瓶颈，该工具为代理赋予操作权限的同时隔离了敏感信息，降低了内部威胁风险。该项目展示了如何在赋予代理能力的同时构建安全边界，为未来自主开发代理的标准化提供了参考实现。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://github.com/marconae/ghbrk",
+    "date": "2026-07-02",
+    "id": "17829890089412"
+  },
+  {
     "title": "欧盟 AI 法案即将生效，文本水印技术面临挑战",
     "summary": "欧盟 AI 法案 8 月生效，要求 AI 输出可检测，但文本水印技术难以完美实现。",
     "detail": "欧盟 AI 法案将于 2026 年 8 月正式生效，其中第 50 条明确规定所有 AI 输出必须“可被检测为人工生成”，这意味着 LLM 提供商必须在输出中应用水印。然而，文本水印是一个极具挑战的工程问题。与图像不同，文本是高度压缩的介质，任何隐藏签名的尝试都可能被人类察觉或被轻易移除。文章指出，这本质上是一个文本隐写术问题，虽然 Google 的 SynthID 等方案存在，但完美的文本水印理论上难以实现。AI 实验室需要在合规与用户体验之间找到平衡，年底前如何导航这些权衡值得关注。",
@@ -1259,44 +1298,5 @@
     "link": "https://9to5mac.com/2026/06/25/notion-shutting-down-its-ai-powered-email-client-including-mac-and-ios-apps/",
     "date": "2026-06-29",
     "id": "17827632784491"
-  },
-  {
-    "title": "哈佛报告：AI 焦虑促使人们回归 iPod 等旧设备",
-    "summary": "40% 美国人预期 AI 负面影响，数字极简主义兴起，科技反弹显现。",
-    "detail": "哈佛公报引用 Pew 研究报告，40% 美国人预期 AI 对社会有负面影响，63% 认为发展过快。焦虑导致数字极简主义兴起，人们重新使用 iPod 或功能机以规避 AI 监控与 consent 问题，科技反弹（tech-lash）现象显现。分析师指出缺乏 consent 是核心阻力，用户反感 AI 被强制引入界面，社会对技术便利性与集体利益的博弈正在加剧。每周有 16.9 万人访问数字极简主义社区，显示这不是边缘现象，而是主流用户对隐私侵犯和被动技术升级的集体抵抗，迫使科技界反思部署策略。",
-    "tags": [
-      "News",
-      "Social",
-      "Ethics"
-    ],
-    "link": "https://news.harvard.edu/gazette/story/2026/06/ai-has-lots-of-people-digging-out-their-ipods/",
-    "date": "2026-06-29",
-    "id": "17827632784492"
-  },
-  {
-    "title": "代码审查独立性：AI 生成代码需独立审核",
-    "summary": "随着 AI 写代码增多，独立审查机制成为质量保障关键，避免自我 grading。",
-    "detail": "文章指出随着 AI 生成代码比例增加，必须由独立 reviewer 审查。若同一 AI 栈负责生成与审查，易重复相同假设错误。SpaceX 收购 Cursor 案例凸显企业需建立职责分离机制，以满足治理与监管期望，确保软件安全。模型不善于评判自身工作，独立审查是 safeguard，防止系统级错误，企业应 ahead of governance expectations，分离生成与决策权限。在学校这被称为批改自己作业，软件中 stakes 更高。consolidation 市场中，独立 reviewer 成为 safeguard，确保团队快速移动不牺牲质量，应对 AI 生成软件周围形成的 governance 和 regulatory expectations。",
-    "tags": [
-      "Dev",
-      "Best Practice",
-      "Code"
-    ],
-    "link": "https://www.coderabbit.ai/blog/code-review-needs-independence",
-    "date": "2026-06-29",
-    "id": "17827632784493"
-  },
-  {
-    "title": "Agentdex：本地私有 AI 代理与规则管理面板",
-    "summary": "全新离线工具，集中管理 AI 技能与代理文件，保护隐私，无需联网。",
-    "detail": "Agentdex 是一款完全本地的桌面应用，用于集中搜索和管理散落的 AI 技能、代理及规则文件。支持 macOS/Windows/Linux，无需联网或账户，零遥测。适合注重隐私的开发者管理本地 AI 工作流，避免数据上云风险。文件永不离开机器，唯一网络访问是检查更新，完全由用户控制，解决了多项目 harness 文件 scattered 的问题。它将不同 harness 和 projects 中的技能文件转为可搜索的 offline catalog，无需 backend，nothing leaves your device，为本地优先的 AI 开发提供了基础设施支持，增强了对敏感规则文件的控制力。",
-    "tags": [
-      "New",
-      "Tool",
-      "Privacy"
-    ],
-    "link": "https://captainyouz.github.io/agentdex/",
-    "date": "2026-06-29",
-    "id": "17827632784494"
   }
 ]
