@@ -1,5 +1,70 @@
 [
   {
+    "title": "欧盟 AI 法案即将生效，文本水印技术面临挑战",
+    "summary": "欧盟 AI 法案 8 月生效，要求 AI 输出可检测，但文本水印技术难以完美实现。",
+    "detail": "欧盟 AI 法案将于 2026 年 8 月正式生效，其中第 50 条明确规定所有 AI 输出必须“可被检测为人工生成”，这意味着 LLM 提供商必须在输出中应用水印。然而，文本水印是一个极具挑战的工程问题。与图像不同，文本是高度压缩的介质，任何隐藏签名的尝试都可能被人类察觉或被轻易移除。文章指出，这本质上是一个文本隐写术问题，虽然 Google 的 SynthID 等方案存在，但完美的文本水印理论上难以实现。AI 实验室需要在合规与用户体验之间找到平衡，年底前如何导航这些权衡值得关注。",
+    "tags": [
+      "News",
+      "Regulation",
+      "LLM"
+    ],
+    "link": "https://www.seangoedecke.com/text-ai-watermarks/",
+    "date": "2026-07-02",
+    "id": "17829777665400"
+  },
+  {
+    "title": "研究揭示：AI 让资深开发者感觉更快但实际更慢",
+    "summary": "METR 研究显示，资深开发者使用 AI 后感觉快 20%，实际测量速度下降 19%。",
+    "detail": "METR 进行的随机对照试验揭示了 AI 对生产力的复杂影响。在熟悉的大型代码库中，资深开发者使用前沿 AI 工具后，主观感觉效率提升约 20%，但实际测量速度却下降了 19%。自我报告与计时器结果相差近 40 个点，表明我们依赖的“仪表”已损坏。原因在于 AI 加快了打字速度，但这并非瓶颈，反而增加了提示、等待和审查错误输出的开销。研究指出，该效应在初级开发者或新项目工作中可能翻转为正面，但在资深专家处理已知代码库时，AI 可能成为负担，需警惕盲目乐观。",
+    "tags": [
+      "News",
+      "Productivity",
+      "Coding"
+    ],
+    "link": "https://intrepidkarthi.com/writing/the-gauge-broke/",
+    "date": "2026-07-02",
+    "id": "17829777665401"
+  },
+  {
+    "title": "Noter：本地监控编码 Agent 的 AI 代理仪表盘",
+    "summary": "新的协作层，实时规划与执行分离，免费使用 Mission Control 面板。",
+    "detail": "Noter 旨在打造与编码代理协作的新层，避免将思考外包给 AI。它强调规划模式与执行模式的区分，提供 Mission Control 工作表面，包含思考、建议、观察、调度四个面板，使规划与执行并排可见。Blueprint 功能可将松散笔记转化为分阶段、带理由标签的规范，生成可复制的提示。可通过 npm 全局安装。定价方面，Mission Control 永久免费，包含笔记和代理上下文跟踪；Blueprint 高级功能每月 3 欧元，解锁建议任务和提示，适合需要本地监控编码 harness 的开发者团队使用。",
+    "tags": [
+      "New",
+      "DevTool",
+      "Agent"
+    ],
+    "link": "https://noterai.tech",
+    "date": "2026-07-02",
+    "id": "17829777665402"
+  },
+  {
+    "title": "MarketFish：launch 前用 128 个 AI 消费者模拟市场",
+    "summary": "开源项目，通过 128 个 AI 消费者模拟市场环境，辅助产品发布前决策。",
+    "detail": "MarketFish 是一个创新的 GitHub 开源项目，允许开发者在产品正式发布前模拟市场环境。系统核心在于模拟 128 个 AI 消费者代理，用于测试市场反应和产品假设。这对于希望在早期验证产品想法的团队具有极高参考价值，属于 AI 模拟仿真领域的新尝试。通过模拟真实消费者行为，团队可以在投入大量资源前调整策略。该项目展示了 AI 代理在市场预测和产品验证方面的潜力，为初创团队提供了低成本的试错工具，有助于降低 launch 风险，代码已托管于 GitHub 供社区使用。",
+    "tags": [
+      "Dev",
+      "Simulation",
+      "OpenSource"
+    ],
+    "link": "https://github.com/Key-wxh/market-fish",
+    "date": "2026-07-02",
+    "id": "17829777665403"
+  },
+  {
+    "title": "Synaplan：可扩展的 AI 管理平台，支持 K8s 部署",
+    "summary": "Apache2 开源，集成主要 AI API 及 Ollama，支持 K8s 部署与品牌化。",
+    "detail": "Synaplan 是一个功能强大的可扩展 AI 管理平台，采用 Apache2 协议开源，适合希望运行品牌化版本的主机服务商。它提供了 Kubernetes 的 Helm charts，方便部署，并集成了所有主要 AI API，包括支持本地运行的 Ollama。这使得 hosters 可以轻松构建自己的 AI 服务品牌。项目强调本地部署的乐趣与灵活性，为需要私有化部署或定制化管理平台的团队提供了坚实基础，是 AI 基础设施领域值得关注的开源解决方案，支持多种模型接入，管理界面友好。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "OpenSource"
+    ],
+    "link": "https://github.com/metadist/synaplan/",
+    "date": "2026-07-02",
+    "id": "17829777665404"
+  },
+  {
     "title": "苹果用户为何为大厂 AI 狂热买单？",
     "summary": "苹果被指因集成大科技公司 AI 功能而向消费者转嫁成本，引发涨价担忧。",
     "detail": "The Verge 报道指出，苹果可能因集成大科技公司的 AI 功能而提高消费者价格。文章探讨了 AI 研发成本如何转嫁给终端用户，引发对科技巨头 AI 竞赛经济模式的质疑。这反映了 AI 基础设施成本上升对硬件定价的潜在影响，用户需警惕隐性涨价。行业观察家认为，随着 AI 功能成为标配，硬件溢价将成为常态，消费者需权衡实际价值。",
@@ -1233,70 +1298,5 @@
     "link": "https://captainyouz.github.io/agentdex/",
     "date": "2026-06-29",
     "id": "17827632784494"
-  },
-  {
-    "title": "未来工程角色原型：从职能分工到能力 archetype",
-    "summary": "Boris Cherny 提出 AI 时代五种新工程角色原型，职能界限模糊化。",
-    "detail": "Boris Cherny 提出未来工程角色将不再按职能划分，而是五种原型：Prototyper（原型）、Builder（构建）、Sweeper（清理）、Grower（增长）、Maintainer（维护）。健康团队需根据产品阶段混合搭配，设计师与工程师都可能跨越多种角色，适应 AI 驱动的开发流程。这预示着 job function 将被能力模型取代，团队配置需动态调整以适应产品 PMF 状态。例如 pre-PMF 需要 1+2+3，strong PMF 需要 3+4+5。roles are not tied to job function，healthy team needs a mix，reflecting how engineering, product, design melt into a new kind of role in the AI era.",
-    "tags": [
-      "Dev",
-      "Career",
-      "Team"
-    ],
-    "link": "https://twitter.com/bcherny/status/2071379474277613732",
-    "date": "2026-06-29",
-    "id": "17827632784495"
-  },
-  {
-    "title": "Supermicro 展示搭载 NVIDIA GB300 的 AI 工作站",
-    "summary": "Supermicro 在 Computex 2026 展示基于 NVIDIA GB300 加速器的 DGX Station 系统。",
-    "detail": "在 Computex 2026 上，Supermicro 展示了其 Super AI Station，这是 NVIDIA DGX Station 的合作伙伴版本。该系统搭载了 NVIDIA 旗舰级 GB300 加速器，是少数能在小于服务器尺寸的设备中运行该芯片的方案之一。据悉，此类系统售价约 12.5 万美元，面向高端桌面用户。NVIDIA 对 OEM 厂商保持严格控制，限制了主板设计自由度，但 Supermicro 通过亚克力面板展示了内部结构，凸显了硬件设计的紧凑性与高性能。这标志着桌面级 AI 算力正迈向新标杆，为本地运行大模型提供了顶级硬件支持，尽管高昂价格仍将受众限制在企业与专业开发者范围内。",
-    "tags": [
-      "News",
-      "Hardware",
-      "NVIDIA"
-    ],
-    "link": "https://www.servethehome.com/taking-an-up-close-look-at-the-supermicro-gb300-super-ai-station/",
-    "date": "2026-06-29",
-    "id": "17827547922350"
-  },
-  {
-    "title": "Empirical：跨 AI 工具的个人记忆层",
-    "summary": "推出个人记忆基础设施，实现跨 ChatGPT、Claude 等工具的上下文同步。",
-    "detail": "Empirical 是一款新的个人记忆层工具，旨在解决用户在不同 AI 工具间重复提供上下文的问题。它支持 MCP 协议，可连接 ChatGPT、Claude、Cursor 等主流模型。用户只需保存一次偏好、项目决策等信息，Empirical 会自动结构化索引，并在对话时按需注入相关上下文。数据加密且可导出，避免厂商锁定。该项目通过浏览器扩展和 SDK 实现，延迟低至 42ms，为 AI 代理提供了统一的“第二大脑”。它解决了 AI 碎片化带来的效率损失，让用户无需反复解释背景，显著提升多模型协作效率，是 AI 基础设施层的重要创新。",
-    "tags": [
-      "New",
-      "Productivity",
-      "MCP"
-    ],
-    "link": "https://empirical.gauzza.com/",
-    "date": "2026-06-29",
-    "id": "17827547922351"
-  },
-  {
-    "title": "MIT 科技评论：Anthropic 向可信组织发布 Mythos 5",
-    "summary": "美国允许 Anthropic 向特定机构释放 Mythos 5 模型，同时探讨指标局限性。",
-    "detail": "MIT Technology Review 的最新通讯透露，美国政府已允许 Anthropic 向“可信”组织发布其 Mythos 5 模型。这一动向表明前沿 AI 模型的发布正受到更严格的监管与筛选，安全合规成为释放前提。此外，文章深入探讨了量化指标的弱点，指出外部数据无法捕捉生活的核心价值，甚至可能扭曲目标。这对 AI 评估体系具有警示意义，暗示单纯依赖基准测试可能无法全面反映模型的真实能力与安全性。行业需警惕指标腐败带来的风险，重新思考如何平衡模型能力开放与潜在的社会影响，确保技术发展不偏离人类利益。",
-    "tags": [
-      "News",
-      "Policy",
-      "Anthropic"
-    ],
-    "link": "https://www.technologyreview.com/2026/06/29/1139834/the-download-metric-weaknesses-and-ai-elephant-warnings/",
-    "date": "2026-06-29",
-    "id": "17827547922352"
-  },
-  {
-    "title": "实战记录：使用 Codex 将网站移植到 Rust",
-    "summary": "开发者记录使用 OpenAI Codex 代理自动化将网站代码移植至 Rust 的过程。",
-    "detail": "文章详细记录了使用 OpenAI Codex 进行软件移植的实战案例。作者指令 Codex 将基于 Web Pipe 编写的个人网站完全重写为 Rust 版本。Codex 展示了自主思考、检查子文件夹、抓取网站内容并生成代码的能力。虽然在内容集成（如 Contentful）上需要人工干预修正，但整个过程证明了 AI 编程代理在处理复杂工程工作流上的潜力。日志文件留下了 AI 辅助开发的可发现证据，为理解 AI 如何重构代码库提供了宝贵视角。这预示着未来软件开发中，人类将更多转向审查与指导，而将具体实现交给 AI 代理完成。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "OpenAI"
-    ],
-    "link": "https://williamcotton.com/articles/the-discoverable-evidence-of-ai-assisted-software-porting",
-    "date": "2026-06-29",
-    "id": "17827547922353"
   }
 ]
