@@ -1,5 +1,57 @@
 [
   {
+    "title": "微软投入 25 亿美元成立 AI 部署公司",
+    "summary": "微软成立 Frontier Company，投入 25 亿美元推动企业 AI 落地。",
+    "detail": "微软宣布成立 Microsoft Frontier Company，专注于企业 AI 部署。该项目获 25 亿美元投资及 6000 名专家支持，旨在超越传统的“前向部署工程”模式。此举紧随亚马逊、OpenAI 等竞品之后，显示巨头正竞相争夺企业级 AI 服务市场。通过大规模工程团队确保客户成功落地，标志着 AI 竞争从模型能力转向实际交付与服务生态构建。微软凭借现有客户基础占据优势，企业客户将成为下一战场，行业服务化趋势明显。此举措可能加速 AI 在传统行业的渗透率。",
+    "tags": [
+      "News",
+      "Microsoft",
+      "Enterprise"
+    ],
+    "link": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+    "date": "2026-07-02",
+    "id": "17830266094600"
+  },
+  {
+    "title": "扎克伯格：AI Agent 发展慢于预期",
+    "summary": "扎克伯格表示 AI 智能体开发进度比预期要慢，行业面临挑战。",
+    "detail": "路透社报道，扎克伯格公开表示 AI 智能体（Agent）的开发进展低于预期。这一言论揭示了当前 AI 行业在 autonomous agents 领域的技术瓶颈。尽管巨头纷纷布局，但实际落地效果仍未达理想状态，可能影响后续资本投入方向及企业级应用的时间表。行业需重新评估 Agent 技术成熟度，短期内可能更关注辅助工具而非完全自主代理。投资者需警惕过度炒作带来的预期落差，这可能导致相关初创企业融资难度增加，技术回归务实发展。",
+    "tags": [
+      "News",
+      "Meta",
+      "AI Agent"
+    ],
+    "link": "https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02/",
+    "date": "2026-07-02",
+    "id": "17830266094601"
+  },
+  {
+    "title": "开源企业级 AI 网关 Bifrost 发布",
+    "summary": "新网关 Bifrost 声称比 LiteLLM 快 50 倍，支持千种模型。",
+    "detail": "GitHub 新项目 Bifrost 定位为最快企业级 AI 网关，采用 Go 语言编写。其宣称比 LiteLLM 快 50 倍，拥有自适应负载均衡、集群模式及护栏功能，支持 1000+ 模型，开销低于 100 微秒。为需要高性能、低延迟 AI 推理路由的企业开发者提供了新的高效基础设施选择。适用于高并发场景，降低推理成本，提升系统稳定性，是构建大规模 AI 应用架构的重要组件。开源特性利于社区协作改进，解决现有网关性能瓶颈，推动企业级 AI 部署标准化。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "OpenSource"
+    ],
+    "link": "https://github.com/maximhq/bifrost",
+    "date": "2026-07-02",
+    "id": "17830266094602"
+  },
+  {
+    "title": "隐私优先本地 AI 超级应用 Karja",
+    "summary": "买断制本地 AI 应用，支持私有文档处理，无订阅费。",
+    "detail": "Karja 是一款主打隐私优先的本地 AI 超级应用，采用 Lifetime Deal 模式。用户可连接本地 LLM 处理私有文档，数据不出机器，无订阅费用。集成 Web 搜索且无用户画像追踪，适合对数据隐私敏感且希望一次性付费拥有工具的专业人士。支持手动更新，兼容本地模型迭代，确保长期可用性。在 SaaS 订阅泛滥的背景下，提供买断制 alternative，强调数据主权，满足合规性要求高的用户需求。其超级应用架构整合多工具，提升本地工作流效率。",
+    "tags": [
+      "Deal",
+      "Privacy",
+      "LocalLLM"
+    ],
+    "link": "https://karja.app/",
+    "date": "2026-07-02",
+    "id": "17830266094603"
+  },
+  {
     "title": "微软泄露 AI 操作系统 Project Aion，摒弃开始菜单",
     "summary": "微软内部研发基于 Edge 的 Copilot OS，取消传统开始菜单，主打代理体验。",
     "detail": "泄露视频显示微软曾研发代号为\"Project Aion\"的操作系统，该系统的核心是 AI 代理而非传统应用。界面类似 ChromeOS，移除了开始菜单和桌面图标，转而使用 Copilot 启动器。尽管该项目可能已被取消，但反映了微软向\"Agentic OS\"转型的战略意图，旨在通过云端支持 Win32 应用，重塑 PC 交互逻辑。这表明未来操作系统可能不再以应用为中心，而是以任务代理为中心，对开发者生态构成潜在挑战。若成真，将彻底改变用户与 PC 的交互方式，应用可能沦为后台服务。",
@@ -741,6 +793,19 @@
     "id": "17828784057952"
   },
   {
+    "title": "AI 破解 80 年数学难题引发行业震动",
+    "summary": "OpenAI 模型证明 Erdős 问题，数学家发布莱顿宣言回应。",
+    "detail": "2026 年 5 月底，OpenAI 模型解决了困扰学界 80 年的 Erdős 单位距离问题。随后发布的《莱顿宣言》获 2000 名数学家签署，探讨 AI 时代数学研究范式转变。Kevin Hartnett 新书《代码中的证明》记录此变革，标志 AI 辅助科学发现进入新阶段。AI 正从工具变为合作者，改变传统证明方式，引发关于数学本质的讨论。此突破展示大模型在逻辑推理领域的潜力，可能加速科学研发进程，重塑基础学科研究方法论。学界正积极适应这一技术 upheaval，探索人机协作新模式。",
+    "tags": [
+      "News",
+      "Science",
+      "Research"
+    ],
+    "link": "https://www.quantabooks.org/kevin-hartnett-on-mathematics-in-the-age-of-ai/",
+    "date": "2026-06-30",
+    "id": "17830266094604"
+  },
+  {
     "title": "Netflix 新剧获授权 AI 复刻 Gene Wilder 声音",
     "summary": "Netflix 竞赛节目获遗产委员会许可，使用 AI 重现已故演员经典 voice。",
     "detail": "Netflix 即将推出的竞赛节目《Wonka's The Golden Ticket》将使用 AI 重现 1971 年电影演员 Gene Wilder 的声音。制作方与 ElevenLabs 合作，并获得了 Wilder 遗产委员会的正式许可。这一案例展示了在合规前提下，AI 语音克隆技术在娱乐产业中的商业化应用，为经典 IP 复活提供了新路径。Eureka Productions 参与制作，声音成为游戏关键元素，引发伦理与技术讨论。此举可能成为行业标杆，推动更多遗产授权与 AI 结合，但同时也加剧了关于数字肖像权的法律与伦理争议，需平衡商业利益与公众情感。",
@@ -1233,70 +1298,5 @@
     "link": "https://arxiv.org/abs/2512.13564",
     "date": "2026-06-30",
     "id": "17827959595834"
-  },
-  {
-    "title": "Snap to AI：macOS 一键截图发送至大模型",
-    "summary": "macOS 工具，一键截图直达 Claude 等 AI，终身付费 9 美元。",
-    "detail": "这是一款 macOS 实用工具，允许用户通过快捷键截取屏幕任意区域并直接发送至 Claude、ChatGPT 等 AI 应用。支持本地应用及浏览器，包含终端模式可粘贴文件路径。主打隐私设计，无服务器存储。提供 7 天免费试用，终身授权仅需 9 美元。适合频繁使用 AI 辅助编程或设计的用户，显著减少拖拽摩擦，提升工作流效率，是典型的效率型 Lifetime Deal。",
-    "tags": [
-      "Deal",
-      "Productivity",
-      "macOS"
-    ],
-    "link": "https://snaptoai.app",
-    "date": "2026-06-30",
-    "id": "17827959595835"
-  },
-  {
-    "title": "AI 下一瓶颈是电力，创始人转向数据中心",
-    "summary": "创作者经济创始人 pivot 至数据中心能源领域。",
-    "detail": "创作者经济初创公司 Throne 的联合创始人转向能源领域，创立 TAR 致力于提高数据中心电力效率。该公司已获得 2700 万美元种子轮融资，估值 5 亿美元。创始人表示，AI 数据中心是下一瓶颈， influencer 与数据中心业务存在可转移技能。这反映了行业对 AI 基础设施能源需求的关注，资本正流向解决算力电力限制的初创企业。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Investment"
-    ],
-    "link": "https://www.businessinsider.com/why-creator-economy-startup-founder-pivot-data-center-power-tar-2026-6",
-    "date": "2026-06-29",
-    "id": "17829287045953"
-  },
-  {
-    "title": "Zig 基金会探讨开源贡献与 AI 禁令",
-    "summary": "探讨开源维护者负担及 AI 生成代码贡献的争议。",
-    "detail": "文章基于 Zig 软件基金会经验，深入分析开源项目中“贡献者扑克”现象。维护者处理外部 PR 的成本有时高于自行实现，导致摩擦。虽然开源能降低开发成本，但 AI 生成代码的涌入可能加剧审查负担与质量风险。文章暗示了 Zig 对 AI 贡献的谨慎态度，强调高质量产品需平衡免费贡献与维护摩擦，为开源社区应对 AI 时代贡献潮提供思考，指出开源游戏需掌握技巧才能获益。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "AI Policy"
-    ],
-    "link": "https://kristoff.it/blog/contributor-poker-and-ai/",
-    "date": "2026-06-29",
-    "id": "17828940909010"
-  },
-  {
-    "title": "AI 越狱防御被指不可能完全缓解",
-    "summary": "新研究指出标准对齐训练无法根本解决提示注入与越狱问题。",
-    "detail": "文章深入探讨了 AI 安全领域中的越狱与提示注入问题，列举了麦当劳客服机器人被诱导解 Python 题、xAI 聊天机器人提供危险指令以及 ChatGPT 生成版权角色等具体失败案例。核心观点指出，这些失效源于开发者控制指令与用户输入分离的崩溃。研究表明，标准的对齐后训练（如监督微调和 RLHF）无法根本缓解此类风险。这对 AI 可靠性提出了严峻挑战，暗示行业可能需要超越传统对齐方法的新安全架构。随着 AI 应用普及，此类安全漏洞可能导致严重的数据泄露或合规问题，开发者需重视防御机制的创新。",
-    "tags": [
-      "News",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://reliable-ai.review/posts/2026-05-priviledge_erosion/",
-    "date": "2026-06-29",
-    "id": "17827785230350"
-  },
-  {
-    "title": "基于 Rust 的 AI Agent 防火墙开源",
-    "summary": "新项目 Trajeckt 提供低延迟 Agent 审计与防火墙，解决 LLM 守卫幻觉问题。",
-    "detail": "针对 AI Agent 安全问题，开发者推出了基于 Rust 编写的防火墙工具 Trajeckt。相比使用 LLM 进行守卫带来的幻觉和高延迟，该工具运行延迟低于 5 毫秒。它通过创建计划并强制执行，利用 DAG 跟踪工具调用和数据流，并引入污点机制标记上下文外读取，为 Agent 提供高效的安全审计与执行控制。这种非 LLM 的防御方案解决了当前 Agent 守卫的痛点，为构建可信自主代理系统提供了基础设施支持，适合对延迟和安全性要求极高的生产环境部署。随着 Agent 应用增多，此类中间件将成为标准配置。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://github.com/beebeeVB/trajeckt/",
-    "date": "2026-06-29",
-    "id": "17827785230351"
   }
 ]
