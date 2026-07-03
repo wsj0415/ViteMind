@@ -1,5 +1,70 @@
 [
   {
+    "title": "Collabora Office 26.04 发布，可选 AI 功能优化文档体验",
+    "summary": "Collabora Office 更新版本，引入可选 AI 功能并优化界面。",
+    "detail": "Collabora Office 发布 26.04 版本，基于 LibreOffice 代码但采用 Web 技术栈（JS/CSS/WebGL）。此次更新重点在于将 AI 功能设为可选，避免强制集成，同时 refined 了 Writer 和 Calc 组件。新启动屏展示最近文档和模板，提供 AI 和文档签名快速入口。这反映了开源办公套件在 AI 浪潮下的谨慎整合策略，兼顾传统用户体验与智能化需求，确保离线编辑体验与在线一致。共享代码库意味着功能在 Collabora 产品间快速迁移，为用户提供了无需重新学习界面的无缝编辑体验，适合注重隐私和离线能力的企业用户，展示了开源软件在 AI 时代的演进路径。",
+    "tags": [
+      "New",
+      "Office",
+      "AI"
+    ],
+    "link": "https://itsfoss.com/news/collabora-office-26-04/",
+    "date": "2026-07-03",
+    "id": "17831129890600"
+  },
+  {
+    "title": "Meta AI 负责人称新模型 Watermelon 已追平 OpenAI GPT-5.5",
+    "summary": "Meta AI 主管透露内部模型 Watermelon 性能已达 OpenAI 旗舰水平。",
+    "detail": "Meta AI 负责人 Alexandr Wang 在内部会议中表示，代号为 Watermelon 的下一代模型在基准测试中已追平 OpenAI 的 GPT-5.5。该模型计算量比前代 Avocado 大一个数量级，目前仍在训练中。Wang 公开暗示当前模型 Muse Spark 将有更新。此消息若属实，标志着闭源模型竞争进入新阶段，Meta 在算力投入上的激进策略可能正在缩小与 OpenAI 的差距，行业格局面临重塑，引发市场对开源与闭源模型性能边界的关注。尽管具体基准未公开，但这一声明显著提升了市场对 Meta 超智能计划的预期，可能影响后续投资风向。此外，Meta 内部对进展速度的讨论也揭示了大模型训练背后的巨大资源消耗与竞争压力。",
+    "tags": [
+      "News",
+      "LLM",
+      "Meta"
+    ],
+    "link": "https://www.businessinsider.com/meta-ai-model-catches-up-openai-gpt-5-says-2026-7",
+    "date": "2026-07-03",
+    "id": "17831129890601"
+  },
+  {
+    "title": "开源 AI Agent 栈分析：OpenCode、Pi 与 Goose 的定位差异",
+    "summary": "深度解析三个开源 AI Agent 项目的层级定位与技术特点。",
+    "detail": "文章分析了 OpenCode、Pi 和 Goose 三个开源项目，指出它们虽同为 AI 编码 Agent，但处于不同技术层。Pi 是 Agent 内核与工具包，适合构建系统；Goose 是本地编排工作台；OpenCode 则是面向软件开发的首选 Agent。这种分层视角有助于开发者选择合适的工具链，避免混淆不同用途的开源项目，推动 Agent 生态的标准化发展。理解这些差异对于构建复杂的 AI 工作流至关重要，避免了工具选型的盲目性。Pi 提供运行时和状态管理，Goose 侧重 orchestration，OpenCode 专注 coding-first，这种细分标志着 AI Agent 基础设施正趋于成熟，开发者可根据需求灵活组合。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://gist.github.com/AIMOWAY/bd8007c8f834a9bc83c71e3178239d75",
+    "date": "2026-07-03",
+    "id": "17831129890602"
+  },
+  {
+    "title": "Dupehound：防止 AI 代码重复的确定性 guardrails 工具",
+    "summary": "推出 Rust 编写的 CLI 工具，快速检测 AI 生成的重复代码。",
+    "detail": "针对 AI 编程代理导致的代码重复问题，新工具 Dupehound 提供了确定性检查方案。它不使用模型，而是基于 winnowing 技术对代码结构进行指纹识别，扫描速度达每秒 150 万行。该工具以 Rust 编写，可作为 Agent 循环中的 guardrail，有效解决大代码库中因上下文限制导致的 AI 代码复制问题，提升代码库健康度。相比传统文本索引，它能识别重命名后的结构重复，是应对 AI Slop 的有效技术手段。GitClear 分析显示克隆代码块自 2022 年以来翻了四倍，此工具直击痛点，无需模型即可本地快速运行，适合集成到 CI/CD 流程中作为质量门禁，确保 AI 生成代码的原创性与维护性。",
+    "tags": [
+      "Dev",
+      "Tool",
+      "CodeQuality"
+    ],
+    "link": "https://www.technology.org/2026/07/03/dupehound-deterministic-guardrails-against-ai-code-duplication/",
+    "date": "2026-07-03",
+    "id": "17831129890603"
+  },
+  {
+    "title": "Adapt 推出 AI 原生协作平台，集成 Slack 实现智能工作流",
+    "summary": "新平台 Adapt 旨在通过 Slack 集成让企业快速实现 AI 原生工作。",
+    "detail": "Adapt 发布了一款集成式 AI 同事平台，主打 Slack 集成。用户可通过标签调用 Adapt 完成实际工作，如构建营销仪表板。其核心是“公司大脑”，动态存储组织知识、技能和流程，作为共享事实来源。这代表了 AI 应用从个人助手向企业级工作流集成的转变，试图解决 AI 落地中的上下文缺失问题。无需信用卡即可试用，强调 SOC 2 合规，面向希望快速实现 AI 原生的企业团队。Adapt 旨在成为跨栈集成同事，通过一次设置即可在 Slack 中调用，动态 populate 知识库，uplevels 输出质量，展示了 AI 在企业协作软件中的深度嵌入趋势。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Enterprise"
+    ],
+    "link": "https://adapt.com/",
+    "date": "2026-07-03",
+    "id": "17831129890604"
+  },
+  {
     "title": "AI 代理重现人类分析偏见，引入 m-value 评估",
     "summary": "新研究发现 AI 代理会复现人类意识形态偏见，提出 m-value 评估分析方法。",
     "detail": "该 arXiv 论文揭示 AI 代理在不同人设下会对同一数据得出相反结论，复现了 72% 的人类意识形态差距。尽管分析路径不同，86% 通过了 AI 审查。研究提出 m-value 和 Agentic Bootstrap 方法，旨在评估分析路径在整体空间中的极端程度，警示 AI 可能放大选择性报告问题。科学证据应通过分析在合理分布中的位置来评估，而非单一报告。这对 AI 科研辅助工具的可靠性提出了严峻挑战，需警惕自动化偏见放大效应，建议引入多路径采样验证机制以确保结论稳健性，避免 AI 成为偏见放大器。此外，研究覆盖四个高风险领域，证明方法论上的合理性并不保证结论的唯一性，行业需重新审视 AI 生成分析报告的可信度标准。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.economist.com/briefing/2026/06/25/ai-models-values-are-very-different-from-most-peoples",
     "date": "2026-07-01",
     "id": "17829078331141"
-  },
-  {
-    "title": "优化 Token 卫生：如何大幅降低 AI 账单",
-    "summary": "工程师分享优化 LLM 上下文经验，通过 Token 卫生 discipline 节省巨额成本。",
-    "detail": "LeadDev 文章揭示了许多团队 AI 账单过高的原因：发送给 LLM 的数据大多 unnecessary。工程师 Tejas Chopra 通过优化 Prompt 忽略无关日志，单月节省显著。文章提出\"Token hygiene\"应成为新的工程 discipline。建议在发送数据前压缩上下文，监控任务实际消耗。由于提供商通常不传递压缩节省的成本，团队需自主优化可见性以控制支出。",
-    "tags": [
-      "Dev",
-      "Cost",
-      "LLM"
-    ],
-    "link": "https://leaddev.com/ai/why-your-ai-bill-is-bigger-than-it-should-be",
-    "date": "2026-07-01",
-    "id": "17829078331142"
-  },
-  {
-    "title": "生成式 AI 如何重塑软件工程未来",
-    "summary": "生成式 AI 因代码结构化特性擅长编程，将深刻改变软件工程工作流与模式。",
-    "detail": "本文探讨了生成式 AI 对软件工程的深远影响。早期预测 AI 将外包功能，但因幻觉问题受阻。然而，代码的高度结构化特性使 AI 擅长编程，解决了准确性问题。未来软件工程将转向 AI 协作模式，开发者需适应与 AI 配对编程，利用其结构化优势而非通用文本生成。这标志着开发范式的根本转变，要求工程师重新定义工作流程。",
-    "tags": [
-      "Dev",
-      "Engineering",
-      "Code"
-    ],
-    "link": "https://streanga.com/blog/on-generative-ai-and-software-engineering/",
-    "date": "2026-07-01",
-    "id": "17829078331143"
-  },
-  {
-    "title": "实战指南：AI 代理的凭证安全管理",
-    "summary": "Hacker News 讨论 AI 代理安全，建议通过 API 代理管理凭证以避免泄露风险。",
-    "detail": "Hacker News 社区热议 AI 代理的凭证管理安全问题。直接访问 secrets 存在巨大风险，建议通过轻量级 API 代理处理。代理接收代理请求，注入 secrets 并执行操作，避免将敏感凭证暴露给 LLM 上下文。这种模式增强了系统安全性，是构建生产级 AI agent 的关键考量。开发者需建立严格的安全边界，防止代理行为失控导致数据泄露。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agents"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48744486",
-    "date": "2026-07-01",
-    "id": "17829078331144"
-  },
-  {
-    "title": "Aegize 推出自主 AI 智能体安全基础设施",
-    "summary": "提供策略层与沙盒环境，mitigating 自主智能体风险。",
-    "detail": "Show HN 项目 Aegize 旨在降低自主 AI 智能体风险。它作为基础设施层，在智能体调用工具前进行身份验证、策略检查与权限审批。提供只读审计日志与本地沙盒模拟，确保无实际危险执行。该项目针对 AI Agent 落地中的安全问题，提供了执行前的防护与审计方案，适合需要可控自主性的企业场景，允许开发者在安全环境中测试智能体行为。",
-    "tags": [
-      "New",
-      "Agent",
-      "Safety"
-    ],
-    "link": "https://www.aegize.com/playground/",
-    "date": "2026-07-01",
-    "id": "17828940909014"
-  },
-  {
-    "title": "KAIST 新模型 BehaVERT：将动物行为视为语言分析",
-    "summary": "韩国 KAIST 研发新 AI 模型，通过分析小鼠行为辅助自闭症研究。",
-    "detail": "韩国科学技术院（KAIST）发布 BehaVERT 模型，首创将动物肢体动作视作语言 token 进行处理。该模型在自闭症小鼠模型的社会缺陷识别上超越现有系统，成果发表于 IJCV。此举为脑科学研究提供了可解释性更强的 AI 工具，有望加速神经疾病机制的破解。研究团队表示，该方法无需预先定义行为标签，系统可自主发现核心社交缺陷。这标志着 AI 在科学发现领域的深入应用，为药物研发及临床前研究提供了新范式，减少了人工标注的主观误差，提升了实验效率与准确性。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Healthcare"
-    ],
-    "link": "https://news.nate.com/view/20260701n15527?mid=n1101",
-    "date": "2026-07-01",
-    "id": "17828784057951"
   }
 ]
