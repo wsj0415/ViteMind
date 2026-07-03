@@ -1,5 +1,18 @@
 [
   {
+    "title": "生产级 LLM 工具调用错误处理指南",
+    "summary": "n8n 详解 Agent 架构中编排层与模型层的错误重试及 fallback 策略。",
+    "detail": "**背景**：生产环境中 AI Agent 调用外部 API 易因服务波动导致 pipeline 中断，完全依赖模型处理错误不可靠，是 liability。**核心技术**：指南提出多层防御策略，区分可重试的基础设施错误与需模型推理的应用层错误。编排层负责静默重试，模型层负责行为调整，包含 fallback 策略。**行业影响**：为构建弹性生产级 Agent 提供架构蓝图，强调不能将错误处理完全留给模型，需明确责任边界以确保稳定性，避免自动化 pipeline 在服务下降时破裂。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Architecture"
+    ],
+    "link": "https://blog.n8n.io/llm-tool-calling-error-handling/",
+    "date": "2026-07-03",
+    "id": "17830917126323"
+  },
+  {
     "title": "揭秘 AI 数据中心水资源消耗真相",
     "summary": "WSJ 报道指出 AI 数据中心用水量远超科技巨头报告，引发环保关注。",
     "detail": "华尔街日报最新调查指出，AI 数据中心的实际水资源消耗量显著高于各大科技公司公开报告的数据。随着大模型训练与推理需求激增，冷却系统用水成为隐性成本。这一发现可能促使监管机构加强对 AI 基础设施环境影响的审查，推动绿色 AI 技术发展。企业需重新评估 ESG 报告透明度，投资者也应关注水资源风险对数据中心运营连续性的潜在威胁，这标志着 AI 可持续发展议题进入新阶段，行业需面对更严格的环境合规挑战与成本压力。此类报道通常基于对公用事业记录的分析，揭示了科技巨头在 sustainability 报告中的潜在缺口。对于 AI 行业而言，水资源短缺可能成为比电力更紧迫的物理限制，影响未来数据中心的选址与扩张策略。开发者与决策者应密切关注相关政策动向，提前布局节水冷却技术，以应对即将到来的环保监管浪潮，确保业务长期稳定性。",
@@ -206,6 +219,32 @@
     "link": "https://charitydotwtf.substack.com/p/in-defense-of-ai-mandates",
     "date": "2026-07-03",
     "id": "17830488955744"
+  },
+  {
+    "title": "首个端到端 AI 代理勒索软件现身",
+    "summary": "Sysdig 发现 JadePuffer 利用 LLM 全自动执行勒索攻击，无需人工干预。",
+    "detail": "**背景**：Sysdig 威胁猎手记录了首个由 LLM 驱动而非人类操作的端到端代理勒索软件感染事件，命名为 JadePuffer，标志着 AI 安全威胁进入自动化新阶段。**核心技术**：攻击者利用 Langflow 的 CVE-2025-3248 漏洞获取访问权。其 payload 包含自然语言推理和目标优先级排序，能在 31 秒内自适应修复失败步骤，甚至收集云凭证。LLM 生成的代码包含人类操作员 rarely 写的详细注释。**行业影响**：企业需重新审视 AI 工具链的认证与监控机制，防止 API 密钥泄露及自动化攻击扩散，不要指望 LLM 会归还数据，即使支付赎金。",
+    "tags": [
+      "News",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://www.theregister.com/security/2026/07/02/smooth-ai-criminal-drives-first-end-to-end-agentic-ransomware-attack/5266073",
+    "date": "2026-07-02",
+    "id": "17830917126320"
+  },
+  {
+    "title": "2026 世界杯启用升级版 AI 越位技术",
+    "summary": "结合计算机视觉与 500Hz 传感器，SAOT 系统实现厘米级判罚精度。",
+    "detail": "**背景**：为解决足球比赛中厘米级越位争议，2026 FIFA 世界杯升级半自动越位技术 (SAOT)，结合 AI 与传感器，吸取 1966 年温布利进球教训。**核心技术**：系统整合校准体育场摄像头、骨骼追踪、球员 3D 模型及 Adidas 比赛球内的 500Hz 传感器包，实时追踪触球点。**行业影响**：展示了计算机视觉与 IoT 传感器在高速运动场景下的融合能力，为实时体育判罚提供了高精度 AI 解决方案范本，减少人为误判，决策取决于厘米级几何与 timing。",
+    "tags": [
+      "News",
+      "Computer Vision",
+      "Sports"
+    ],
+    "link": "https://learnopencv.com/world-cup-2026-offside-technology/",
+    "date": "2026-07-02",
+    "id": "17830917126322"
   },
   {
     "title": "AI 超级预测者崛起：击败人类预测市场",
@@ -1144,6 +1183,19 @@
     "id": "17828784057952"
   },
   {
+    "title": "报告警示：AI 编码正加剧工程师倦怠",
+    "summary": "LeadDev 调查显示 45% 工程师工时增加，AI 成瘾性导致多巴胺循环。",
+    "detail": "**背景**：LeadDev 2026 工程领导力报告揭示 AI 并未如预期般释放时间，反而导致工时延长，成瘾性显著，counter to 主流叙事。**核心发现**：45% 受访者周工时增加，资深工程师比例高达 53%。AI 编码的随机奖励机制类似赌博，引发“吸血鬼效应”，导致工程师情感耗竭。**建议**：解决方案非限制工具，而是建立刻意习惯，如时间盒会话、分离探索与执行，将恢复视为维护工作的一部分，以对抗 burnout。开发者 Steve Yegge 也承认 AI 编码让他工作到正常时间之外。",
+    "tags": [
+      "News",
+      "Industry",
+      "Burnout"
+    ],
+    "link": "https://leaddev.com/ai/ai-coding-is-addictive-engineers-are-paying-the-price",
+    "date": "2026-06-30",
+    "id": "17830917126321"
+  },
+  {
     "title": "AI 破解 80 年数学难题引发行业震动",
     "summary": "OpenAI 模型证明 Erdős 问题，数学家发布莱顿宣言回应。",
     "detail": "2026 年 5 月底，OpenAI 模型解决了困扰学界 80 年的 Erdős 单位距离问题。随后发布的《莱顿宣言》获 2000 名数学家签署，探讨 AI 时代数学研究范式转变。Kevin Hartnett 新书《代码中的证明》记录此变革，标志 AI 辅助科学发现进入新阶段。AI 正从工具变为合作者，改变传统证明方式，引发关于数学本质的讨论。此突破展示大模型在逻辑推理领域的潜力，可能加速科学研发进程，重塑基础学科研究方法论。学界正积极适应这一技术 upheaval，探索人机协作新模式。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.digitalnative.tech/p/why-does-everyone-hate-ai",
     "date": "2026-06-30",
     "id": "17828613294451"
-  },
-  {
-    "title": "Commonplace：AI 代理的自托管隐私记忆方案",
-    "summary": "GitHub 开源项目，为 AI 代理提供自托管、隐私分级的记忆存储系统，增强数据控制。",
-    "detail": "Commonplace 是一个针对 AI 代理开发的开源项目，旨在解决 Agent 记忆存储的隐私与控制问题。通过自托管架构，用户可以将 AI 代理的记忆数据保留在本地或私有服务器上，而非依赖第三方云服务。该项目支持隐私分级管理，允许用户根据不同敏感度设置访问权限。这对于企业级应用及对数据主权敏感的开发者的至关重要，标志着 AI 基础设施向去中心化和隐私保护方向演进的趋势。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Privacy"
-    ],
-    "link": "https://github.com/itsmeduncan/commonplace",
-    "date": "2026-06-30",
-    "id": "17828613294452"
-  },
-  {
-    "title": "OpenClaw 正式登陆 Android 与 iOS 平台",
-    "summary": "TechCrunch 报道 OpenClaw 完成移动端适配，正式支持安卓和 iOS 系统，扩展用户覆盖。",
-    "detail": "据 TechCrunch 报道，AI 工具 OpenClaw 已正式推出 Android 和 iOS 版本。这一里程碑式的更新意味着该工具不再局限于桌面端，用户可以在移动设备上随时随地访问其功能。移动端的支持通常被视为产品成熟度和市场扩展能力的关键指标。此举有望显著提升用户活跃度和便利性，特别是在需要即时交互的场景中。对于关注该产品的开发者及用户而言，跨平台体验的完善是评估其生态完整性的的重要依据。",
-    "tags": [
-      "New",
-      "Mobile",
-      "App"
-    ],
-    "link": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
-    "date": "2026-06-30",
-    "id": "17828613294453"
-  },
-  {
-    "title": "Godot 引擎禁止 AI 生成代码贡献",
-    "summary": "开源游戏引擎 Godot 宣布不再接受 AI 生成的代码贡献，强调代码理解与维护责任。",
-    "detail": "Godot 引擎团队宣布停止接受 AI 生成的代码贡献，理由是难以信任重度 AI 使用者对其代码的理解及修复能力。这一政策反映了开源社区对 AI 代码质量的担忧，旨在维护项目的长期可维护性。此举可能引发其他开源项目效仿，对 AI 辅助编程在开源领域的应用设定边界，强调人类开发者对代码的最终责任。社区认为如果开发者无法理解 AI 生成的代码，就无法有效修复潜在 bug，这将危及引擎稳定性。",
-    "tags": [
-      "News",
-      "Open Source",
-      "Policy"
-    ],
-    "link": "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/",
-    "date": "2026-06-30",
-    "id": "17828559257940"
-  },
-  {
-    "title": "中国 AI 生成内容标识制度实施分析",
-    "summary": "分析中国 AI 内容标识制度的执行现状，对比欧美方案，探讨强制性与技术标准的实际效果。",
-    "detail": "文章深入分析了中国自 2025 年 9 月生效的 AI 生成内容标识措施。相比欧盟和美国 voluntary 方案，中国框架具有强制性、量化技术标准及全链条责任主体特点。然而执行中发现商业激励导致水印规避、平台检测误判等问题。该制度为全球内容溯源提供了压力测试案例，揭示了技术合规与实际落地间的差距。尽管框架完善，但水印去除工具生态系统依然繁荣，用户申报机制也存在漏洞。",
-    "tags": [
-      "News",
-      "Regulation",
-      "China"
-    ],
-    "link": "https://ocpl.substack.com/p/labelling-ai-generated-content-in",
-    "date": "2026-06-30",
-    "id": "17828559257941"
   }
 ]
