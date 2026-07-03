@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 代理重现人类分析偏见，引入 m-value 评估",
+    "summary": "新研究发现 AI 代理会复现人类意识形态偏见，提出 m-value 评估分析方法。",
+    "detail": "该 arXiv 论文揭示 AI 代理在不同人设下会对同一数据得出相反结论，复现了 72% 的人类意识形态差距。尽管分析路径不同，86% 通过了 AI 审查。研究提出 m-value 和 Agentic Bootstrap 方法，旨在评估分析路径在整体空间中的极端程度，警示 AI 可能放大选择性报告问题。科学证据应通过分析在合理分布中的位置来评估，而非单一报告。这对 AI 科研辅助工具的可靠性提出了严峻挑战，需警惕自动化偏见放大效应，建议引入多路径采样验证机制以确保结论稳健性，避免 AI 成为偏见放大器。此外，研究覆盖四个高风险领域，证明方法论上的合理性并不保证结论的唯一性，行业需重新审视 AI 生成分析报告的可信度标准。",
+    "tags": [
+      "Dev",
+      "Research",
+      "AI Safety"
+    ],
+    "link": "https://arxiv.org/abs/2607.01507",
+    "date": "2026-07-03",
+    "id": "17831067697600"
+  },
+  {
+    "title": "浏览器大战转向 AI 代理，Perplexity 推出 Comet",
+    "summary": "浏览器竞争焦点转向 AI 代理，Perplexity 发布 Comet 浏览器，挑战 Chrome 主导地位。",
+    "detail": "2026 年浏览器战争进入新阶段，竞争核心从搜索转为浏览器内的 AI 代理能力。Google Chrome 和 Apple Safari 虽占主导，但 Perplexity 等初创公司推出 AI 浏览器 Comet，能执行总结邮件、发送邀请等任务。行业正从“网页窗口”向“办事助理”转型，隐私和 mindful browsers 也成为新趋势。这表明浏览器将成为 AI 代理操作系统的核心入口，传统搜索商业模式面临重构，用户交互习惯将发生根本性变化。未来浏览器将深度集成生成式 AI，不仅提供信息检索，更直接执行任务，挑战现有巨头的生态壁垒，为初创公司带来弯道超车机会。同时，开源浏览器和注重用户福祉的“正念浏览器”也在崛起，满足多样化需求。",
+    "tags": [
+      "News",
+      "Browser",
+      "Perplexity"
+    ],
+    "link": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+    "date": "2026-07-03",
+    "id": "17831067697601"
+  },
+  {
+    "title": "Claude Code 使工程师效率翻三倍，瓶颈转向产品思维",
+    "summary": "Anthropic 因 Claude Code 提升工程效率，转而招聘更多产品经理，行业瓶颈发生转移。",
+    "detail": "VentureBeat 报道指出，Claude Code 使 Anthropic 工程团队交付速度提升约三倍，瓶颈从编码转向决策。公司开始招聘更多产品经理而非工程师。这标志着软件开发的结构性转变：编码不再是瓶颈，决定“构建什么”成为关键。工程师若仅关注技术实现而忽视产品思维，将面临职业 plateau。未来团队结构将更精简，产品洞察力成为稀缺资源，AI 编程工具正重塑软件工程经济学和人才需求模型。企业需调整 hiring 策略，重视跨职能产品思维，而非单纯堆砌工程师数量，以适应 AI 驱动的高效开发节奏，确保技术产出与市场需求精准匹配。这一趋势预示着纯编码岗位的需求将下降，复合型人才更受青睐。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "Productivity"
+    ],
+    "link": "https://venturebeat.com/ai/claude-code-turned-every-engineer-into-three-now-companies-need-more-product-thinkers",
+    "date": "2026-07-03",
+    "id": "17831067697602"
+  },
+  {
+    "title": "物理信息生成式 AI 用于半导体制造，确保硬约束",
+    "summary": "新论文探讨物理信息生成式 AI 在半导体制造中的应用，强调构建时 enforcing 物理约束。",
+    "detail": "该研究指出生成式 AI 在半导体制造中必须通过构建 enforce 物理约束，而非事后过滤。论文 surveyed 物理信息扩散、PDE 约束变分模型等架构，提出物理保真度基准和可微模拟器基础设施的研究议程。在物理有效性为成功标准领域，构建时 enforce 约束的架构优于事后过滤。这为硬科技领域的 AI 应用提供了新范式，确保生成结果符合物理定律，避免无效样本浪费制造资源，推动 AI for Science 落地。研究还提出了四种生成模型与物理模拟器的集成模式，强调多模态基础模型在物理设计和制造中的潜力，为半导体行业自动化实验提供理论支撑，解决生成内容物理无效的核心痛点。",
+    "tags": [
+      "Dev",
+      "Semiconductor",
+      "Generative AI"
+    ],
+    "link": "https://arxiv.org/abs/2606.11247",
+    "date": "2026-07-03",
+    "id": "17831067697603"
+  },
+  {
+    "title": "Solace 上线：本地运行且具长期记忆的 AI 伴侣",
+    "summary": "新应用 Solace 主打本地运行和长期记忆，为用户提供私密平静的 AI 陪伴体验。",
+    "detail": "Show HN 项目 Solace 是一款安静的本地 AI 伴侣应用，专为冷静、私密的长期对话设计。不同于生产力工具或治疗师，它强调情感平静和熟悉感。核心功能包括完全本地化的 AI 对话，确保聊天数据留在设备上，保护用户隐私。这反映了用户对本地化、隐私保护型 AI 应用的需求增长。在云端大模型主导的市场中，本地小模型搭配长期记忆提供了差异化价值，满足情感陪伴而非任务执行场景。应用界面简洁，避免干扰，旨在成为用户的熟悉存在，探索 AI 在心理健康和情感支持领域的非侵入式应用可能性，迎合了数据主权意识觉醒的趋势。",
+    "tags": [
+      "New",
+      "App",
+      "Privacy"
+    ],
+    "link": "https://play.google.com/store/apps/details?id=com.solace.bot&hl=en_US",
+    "date": "2026-07-03",
+    "id": "17831067697604"
+  },
+  {
     "title": "研究称 AI 恐难挽救美国 2.2 万亿赤字",
     "summary": "布鲁金斯学会研究指出 AI 带来的赤字削减可能减半。",
     "detail": "布鲁金斯学会与美联储经济学家发布最新工作论文，深入探讨 AI 对财政可持续性的影响。研究指出，虽然 AI 有望在 2036 年前通过生产力提升削减 2.2 万亿美元赤字，但超过一半的潜在储蓄可能因 AI 引发的经济 disruption 而消失。在美国国债突破 39 万亿美元、社保基金面临枯竭的背景下，该研究质疑 AI 作为财政逃生舱的有效性。经济学家强调，单纯的生产力提升带来的税收增益可能被失业救济等社会成本抵消，政策制定者需警惕过度依赖技术解决财政危机。此外，报告提到若无国会重大改革，赤字将耗尽社保信托基金。AI 被视为财政逃生舱，但此路径比宣传更窄。",
@@ -1233,70 +1298,5 @@
     "link": "https://news.nate.com/view/20260701n15527?mid=n1101",
     "date": "2026-07-01",
     "id": "17828784057951"
-  },
-  {
-    "title": "美国政府解除 Anthropic 模型出口管制",
-    "summary": "美国商务部解除对 Anthropic 先进 AI 模型的出口限制，恢复全球访问。",
-    "detail": "美国政府在实施短暂禁令后，正式解除对 Anthropic 旗下 Mythos 和 Fable 模型的出口管制。前提是 Anthropic 需配合政府检测安全风险并报告恶意活动。此举标志着 AI 出口政策从全面封锁转向合规监管，缓解了开发者对模型访问中断的担忧，同时也确立了政府与企业的安全协作机制。商业部长表示，企业需主动检测风险并遵守协议。这一转折反映了美国在 AI 安全与商业利益间的平衡尝试，避免了因过度限制导致的技术生态分裂，为跨国 AI 服务提供了新的合规路径参考。",
-    "tags": [
-      "News",
-      "Policy",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
-    "date": "2026-07-01",
-    "id": "17828784057952"
-  },
-  {
-    "title": "报告警示：AI 编码正加剧工程师倦怠",
-    "summary": "LeadDev 调查显示 45% 工程师工时增加，AI 成瘾性导致多巴胺循环。",
-    "detail": "**背景**：LeadDev 2026 工程领导力报告揭示 AI 并未如预期般释放时间，反而导致工时延长，成瘾性显著，counter to 主流叙事。**核心发现**：45% 受访者周工时增加，资深工程师比例高达 53%。AI 编码的随机奖励机制类似赌博，引发“吸血鬼效应”，导致工程师情感耗竭。**建议**：解决方案非限制工具，而是建立刻意习惯，如时间盒会话、分离探索与执行，将恢复视为维护工作的一部分，以对抗 burnout。开发者 Steve Yegge 也承认 AI 编码让他工作到正常时间之外。",
-    "tags": [
-      "News",
-      "Industry",
-      "Burnout"
-    ],
-    "link": "https://leaddev.com/ai/ai-coding-is-addictive-engineers-are-paying-the-price",
-    "date": "2026-06-30",
-    "id": "17830917126321"
-  },
-  {
-    "title": "AI 破解 80 年数学难题引发行业震动",
-    "summary": "OpenAI 模型证明 Erdős 问题，数学家发布莱顿宣言回应。",
-    "detail": "2026 年 5 月底，OpenAI 模型解决了困扰学界 80 年的 Erdős 单位距离问题。随后发布的《莱顿宣言》获 2000 名数学家签署，探讨 AI 时代数学研究范式转变。Kevin Hartnett 新书《代码中的证明》记录此变革，标志 AI 辅助科学发现进入新阶段。AI 正从工具变为合作者，改变传统证明方式，引发关于数学本质的讨论。此突破展示大模型在逻辑推理领域的潜力，可能加速科学研发进程，重塑基础学科研究方法论。学界正积极适应这一技术 upheaval，探索人机协作新模式。",
-    "tags": [
-      "News",
-      "Science",
-      "Research"
-    ],
-    "link": "https://www.quantabooks.org/kevin-hartnett-on-mathematics-in-the-age-of-ai/",
-    "date": "2026-06-30",
-    "id": "17830266094604"
-  },
-  {
-    "title": "Netflix 新剧获授权 AI 复刻 Gene Wilder 声音",
-    "summary": "Netflix 竞赛节目获遗产委员会许可，使用 AI 重现已故演员经典 voice。",
-    "detail": "Netflix 即将推出的竞赛节目《Wonka's The Golden Ticket》将使用 AI 重现 1971 年电影演员 Gene Wilder 的声音。制作方与 ElevenLabs 合作，并获得了 Wilder 遗产委员会的正式许可。这一案例展示了在合规前提下，AI 语音克隆技术在娱乐产业中的商业化应用，为经典 IP 复活提供了新路径。Eureka Productions 参与制作，声音成为游戏关键元素，引发伦理与技术讨论。此举可能成为行业标杆，推动更多遗产授权与 AI 结合，但同时也加剧了关于数字肖像权的法律与伦理争议，需平衡商业利益与公众情感。",
-    "tags": [
-      "News",
-      "Voice AI",
-      "Entertainment"
-    ],
-    "link": "https://www.hollywoodreporter.com/tv/tv-news/netflix-willy-wonka-reality-show-ai-gene-wilder-voice-1236633800/",
-    "date": "2026-06-30",
-    "id": "17829207008104"
-  },
-  {
-    "title": "监督式与非监督式 AI 代码生成对比",
-    "summary": "分析人类在环与完全自动化的 AI 编程模式差异。",
-    "detail": "文章区分了两种 AI 编程模式：监督式（人类审查 Diff 并负责）与非监督式（Vibecoding，完全依赖模型）。作者认为高风险代码仍需人类作为“法官”把握上下文与责任，自动化测试可辅助但不可替代理解。非监督式适用于低风险场景。该观点为团队制定 AI 编码规范提供了核心参考，强调责任归属而非单纯效率，指出模型移动了工作从打字到判断，但未移除判断者。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "LLM"
-    ],
-    "link": "https://www.tommyjepsen.com/blog/supervised-vs-unsupervised-ai-code",
-    "date": "2026-06-30",
-    "id": "17828940909011"
   }
 ]
