@@ -1,5 +1,83 @@
 [
   {
+    "title": "参议院提案建立联邦认证 AI 代理清单",
+    "summary": "参议员 Mark Warner 提出法案，要求联邦验证 AI 代理安全性。",
+    "detail": "美国参议院草案旨在建立联邦验证的 AI 代理供应商清单，由参议员 Mark Warner 领导。该法案允许大型平台用户选择符合 FTC 安全标准的 AI 代理，旨在解决 AI 代理在未经授权下代表用户决策的问题。要求提供商链接人类操作者身份并提供控制权，虽不能禁止不合规 provider，但可将其从名单除名。这对 AI 代理合规性提出新要求，影响未来代理市场准入。该法案虽为讨论草案，但释放了明确信号：未来 AI 代理需通过安全认证才能进入主流平台。这将增加合规成本，但能显著提升用户信任度，防止恶意代理滥用权限。对于开发者而言，需提前布局身份验证与安全控制机制，以适应即将到来的监管环境，确保产品符合联邦标准。",
+    "tags": [
+      "News",
+      "Policy",
+      "Security"
+    ],
+    "link": "https://cyberscoop.com/ai-agent-act-senate-draft-bill-mark-warner/",
+    "date": "2026-07-04",
+    "id": "17831777489620"
+  },
+  {
+    "title": "恶意 AI 代理技能绕过安检影响 2.6 万用户",
+    "summary": "恶意 AI 技能通过安全检查，暴露代理生态系统风险。",
+    "detail": "一名恶意开发者创建的 AI 代理技能成功绕过所有安全扫描器，影响了 26,000 名用户。此事件揭示了当前 AI 代理生态系统中的严重安全漏洞，表明现有的自动化安全检查不足以防止恶意代码分发。呼吁加强审查机制，防止代理被用于窃取数据或执行未授权操作。这对平台方提出了更高的安全验证要求，需警惕类似供应链攻击。随着 AI 代理权限扩大，此类风险将呈指数级增长。安全团队需引入行为分析与沙箱测试，而非仅依赖静态扫描。此事件为行业敲响警钟，表明在追求代理自主性的同时，必须建立更深层的防御体系，确保用户数据与系统完整性不受侵害。",
+    "tags": [
+      "News",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://www.csoonline.com/article/4188840/how-a-malicious-ai-agent-skill-passed-security-checks-and-reached-26000-users.html",
+    "date": "2026-07-04",
+    "id": "17831777489621"
+  },
+  {
+    "title": "Open Kioku：为 AI 编码代理添加本地证据层",
+    "summary": "本地优先的代码智能 MCP，让 AI 编辑前先检索证据。",
+    "detail": "Open Kioku 是一个本地优先的代码智能 MCP 工具，专为 Claude、Cursor 等编码代理设计。它通过本地索引和只读 MCP 工具，让 AI 在编辑代码前检查仓库状态、搜索代码及分析影响。无需云端发送代码，保障隐私的同时提升 AI 编码准确性，解决代理幻觉问题。支持多种代理如 Codex、Gemini，通过简单命令即可集成，是本地开发的安全增强层，确保 AI 操作有据可依。对于企业级开发，这种本地化证据层能有效防止代码泄露，同时提升 Agent 对复杂代码库的理解能力，减少错误修改。此外，该工具采用 Elastic 许可证，鼓励社区贡献。通过标准化 MCP 接口，它降低了不同编码代理间的切换成本，使开发者能更灵活地选择工具链。在本地优先架构成为趋势的当下，Open Kioku 代表了保护知识产权与利用 AI 效率之间的平衡方案，值得团队集成到 CI/CD 流程中。",
+    "tags": [
+      "Dev",
+      "MCP",
+      "Coding"
+    ],
+    "link": "https://github.com/shivyadavus/open-kioku",
+    "date": "2026-07-04",
+    "id": "17831777489622"
+  },
+  {
+    "title": "CTOP：AI 编码代理的终端监控面板",
+    "summary": "类似 htop 的工具，监控 AI 代理的 CPU、Token 及成本。",
+    "detail": "CTOP 是专为 AI 编码代理设计的交互式进程查看器，被誉为 AI 代理界的 `htop`。它支持在单一终端面板中监控 Claude Code、Codex CLI 等会话的 CPU、内存、Token 消耗、上下文窗口及成本。零依赖设计，帮助开发者实时掌握代理运行状态和资源开销，优化调试效率。跨平台支持 macOS、Linux 和 Windows，是管理多代理并发任务的必备工具，提升开发透明度。在 Agent 自主运行日益普遍的未来，此类监控工具将成为标配，帮助团队控制成本并防止资源滥用，确保 AI 辅助开发的经济性与稳定性。该项目采用 MIT 许可证，完全开源且零依赖，便于集成到现有工作流。随着 AI 代理自主性增强，资源失控风险增加，CTOP 提供了必要的可观测性。支持 Node.js 18+ 环境，轻量级设计确保不干扰代理运行。对于需要监控多个并发代理会话的企业团队，这是实现精细化成本管理和性能优化的关键基础设施。",
+    "tags": [
+      "Dev",
+      "Monitoring",
+      "Agent"
+    ],
+    "link": "https://github.com/aakashadesara/ctop",
+    "date": "2026-07-04",
+    "id": "17831777489623"
+  },
+  {
+    "title": "Mycelium：引导 AI 代理从目的到市场的插件",
+    "summary": "Claude Code 插件，让代理在编码前先进行 Discovery。",
+    "detail": "Mycelium 是一个 Claude Code 插件，旨在解决 AI 代理盲目编码的问题。它迫使代理在编写代码前先进行 Discovery 和证据权衡，确保构建符合市场需求。通过 `/mycelium:start` 命令，代理会执行 10 分钟 discovery，Earn the right to start，适合软件及 AI 工具开发。它不替代人类判断，而是提供反馈循环，确保最终交付物具有实际价值，避免资源浪费。该工具强调“决策成本”并未因 AI 而降低，通过结构化流程引导代理思考目的与用户，防止技术债务积累，提升工程决策质量。开源设计允许社区扩展其发现技能，适应不同领域的需求，是 AI 原生团队优化工作流的有益尝试。对于希望避免 AI 生成无用代码的团队，Mycelium 提供了一种方法论层面的约束，确保技术服务于商业目标，而非仅仅追求构建速度。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Workflow"
+    ],
+    "link": "https://github.com/haabe/mycelium",
+    "date": "2026-07-04",
+    "id": "17831777489624"
+  },
+  {
+    "title": "Briefed：通过回复配置的个人化 AI 通讯",
+    "summary": "免费 AI 通讯服务，通过回复邮件调整内容偏好。",
+    "detail": "Briefed 是一款完全免费的个人化 AI 通讯服务，无需信用卡或安装应用。用户只需描述想要的通讯内容，AI 即可生成并发送。独特之处在于可通过直接回复邮件来调整偏好（喜欢/不喜欢），系统会将反馈融入下一期。一键取消订阅，适合希望获取定制资讯且注重隐私的用户，实现了真正的双向交互通讯体验。相比传统订阅，它利用 LLM 实时理解用户意图，动态调整内容源与风格。无付费层级设计降低了使用门槛，适合个人知识管理，是 AI 重塑信息分发模式的典型案例。对于厌倦算法推荐的用户，这种主动配置模式提供了更高控制权，确保信息茧房由自己定义而非平台。其简洁的交互设计降低了 AI 使用门槛，让非技术用户也能享受个性化 AI 服务，展示了 AI 在内容消费领域的落地潜力。",
+    "tags": [
+      "New",
+      "Newsletter",
+      "Productivity"
+    ],
+    "link": "https://briefednewsletter.com/",
+    "date": "2026-07-04",
+    "id": "17831777489625"
+  },
+  {
     "title": "AI 服务市场并购加速，Accenture 与 Persistent 大手笔收购",
     "summary": "咨询巨头加速收购 AI 实施公司，市场整合信号明显。",
     "detail": "**市场动态**：Accenture 收购丹麦 400 人 IT 公司 Mjølner，Persistent Systems 以 12 亿欧元收购 Nagarro，组合后拥有 46,000+ 员工。**核心看点**：传统咨询与工程巨头正通过并购快速扩充 AI 落地能力，而非仅依赖内部研发。这表明市场已进入整合期，资本流向实施层。**行业影响**：标志着 AI 服务市场从技术探索转向规模化交付，中小型 AI 实施团队将成为大厂猎物，行业集中度将显著提升，企业客户将更倾向于选择大型供应商以确保交付稳定性与合规性，AI 服务外包趋势明显，并购金额巨大。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.nature.com/articles/d41586-026-01954-2",
     "date": "2026-07-02",
     "id": "17829636206352"
-  },
-  {
-    "title": "PanelSpec：真机 UI 设计导出 AI 代码提示",
-    "summary": "支持在真实设备上设计 UI，并导出布局提示供 AI 生成代码的新工具。",
-    "detail": "ismartbase 推出 Panel Designer 工具，允许用户在真实设备分辨率下拖拽组件设计 UI。核心亮点是可导出布局提示（layout prompts）用于 AI 代码生成，支持 SwiftUI 等框架。这降低了 UI 转代码的门槛，提升了前端开发效率，适合快速原型设计。设计师可直接在浏览器中预览效果，无缝衔接设计与开发流程，减少沟通成本。",
-    "tags": [
-      "New",
-      "UI Design",
-      "CodeGen"
-    ],
-    "link": "https://www.ismartbase.com/designer/",
-    "date": "2026-07-02",
-    "id": "17829636206353"
-  },
-  {
-    "title": "WebDeck：开源 PPT 转交互式 HTML 工具",
-    "summary": "一键将 PowerPoint 转换为交互式网页演示文稿的开源项目，支持 AI 解析。",
-    "detail": "GitHub 开源项目 WebDeck 旨在解决 PPT 分享痛点。它利用 AI 解析 PPT 结构，转换为响应式 HTML 网页，支持浏览器直接打开和交互。相比传统文件分享，它更利于版本管理和跨平台协作，为演示文稿提供了现代化的 Web 范式升级方案。用户无需安装软件即可分享演示，且内容可被搜索引擎索引，提升了知识传播效率。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Productivity"
-    ],
-    "link": "https://github.com/lzytttttt/WebDeck",
-    "date": "2026-07-02",
-    "id": "17829636206354"
-  },
-  {
-    "title": "NeurIPS 2026 使用隐藏提示词捕捉 AI 评审员",
-    "summary": "会议组织者在论文中植入隐藏指令，以识别违反保密协议使用 AI 进行同行评审的行为。",
-    "detail": "神经信息处理系统大会 (NeurIPS) 组织者在提交评审的论文中加入隐蔽提示词，诱使违规使用 LLM 的评审员暴露身份。若评审报告出现特定短语（如\"This work addresses...\"），即被视为违规。此举引发学界争议，旨在维护评审保密性。反映了学术界对 AI 介入科研诚信问题的强硬态度及检测技术的博弈。随着 AI 生成内容泛滥，会议方被迫采用“蜜罐”策略，这既是对评审规则的维护，也揭示了自动化评审检测的技术难点。未来或引发更多关于 AI 学术伦理的讨论，促使期刊和会议更新政策，明确 AI 在学术评审中的边界与使用规范，维护科研纯洁性。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Research"
-    ],
-    "link": "https://www.thetransmitter.org/publishing/scientists-decry-conferences-use-of-hidden-prompts-to-snare-ai-peer-reviews/",
-    "date": "2026-07-01",
-    "id": "17831645935552"
-  },
-  {
-    "title": "Godot 引擎禁止 AI 生成代码贡献",
-    "summary": "因无法信任 AI 代码质量及维护能力，Godot 团队更新政策禁止 AI 贡献。",
-    "detail": "开源游戏引擎 Godot 宣布更新贡献政策，几乎禁止所有 AI 生成的代码提交。维护者表示大量 AI PR 质量低劣且贡献者无法理解代码逻辑，导致审查工作“令人沮丧”。此举反映了开源社区对 AI 生成代码可靠性及维护责任的担忧，标志着技术界对 AI 辅助编程态度的转折。政策旨在保护代码库质量，确保贡献者能对自己提交的代码负责，避免技术债务积累，对开源治理具有深远影响，可能引发其他项目效仿。",
-    "tags": [
-      "News",
-      "Open Source",
-      "Policy"
-    ],
-    "link": "https://www.theregister.com/ai-and-ml/2026/07/01/godot-says-bye-bye-ai-bans-vibe-coded-contributions/5265344",
-    "date": "2026-07-01",
-    "id": "17830751594574"
-  },
-  {
-    "title": "Palantir 发布 AI 主权宣言，强调数据与控制权",
-    "summary": "Palantir 强调 AI 主权重要性，机构需掌控数据与模型权重。",
-    "detail": "Palantir 发布宣言指出 AI 主权决定机构未来。放弃主权意味着将选择权转移给他人。强调数据保留是财富，控制权重即控制命运。反对单纯追求 Token 用量，倡导基于价值的软件构建。这对企业 AI 部署策略具有警示意义，强调自主可控。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Strategy"
-    ],
-    "link": "https://twitter.com/i/status/2072114267776491695",
-    "date": "2026-07-01",
-    "id": "17830060801741"
-  },
-  {
-    "title": "AI 使开放 PR 增加 36%，但工程判断仍关键",
-    "summary": "实战数据显示 AI 增加 PR 数量，但工程判断仍是核心。",
-    "detail": "Stack Builders 分享 AI 辅助软件交付 insights。AI 使开放 PR 增加 36%，但难点转向需求理解和正确性验证。资深技术主管指出，规范驱动开发有前景但工作流对齐仍难。AI 未消除对工程判断的需求，而是改变了交付难点所在。",
-    "tags": [
-      "Dev",
-      "Engineering",
-      "Productivity"
-    ],
-    "link": "https://www.stackbuilders.com/insights/ai-in-software-delivery-whats-working-whats-hard-and-what-were-still-learning/",
-    "date": "2026-07-01",
-    "id": "17830060801742"
   }
 ]
