@@ -1,5 +1,70 @@
 [
   {
+    "title": "Causari：AI 代码代理的意图可寻址工具",
+    "summary": "记录 AI 代理所有操作，支持追溯、diff 和回滚，内置 MCP 服务器。",
+    "detail": "Causari 是一个专为 AI 编程代理设计的版本控制工具，旨在解决 AI 生成代码难以调试的问题。它记录代理对代码库的每一个动作，包括提示词、模型、读写及推理过程，提供双向因果溯源。开发者可像 git 一样 trace、diff、revert 代理行为，内置 MCP 服务器增强互操作性。该项目采用 Rust 编写，许可证为 BSL 1.1，提升了 Agent 开发的透明度与可控性，是 AI 工程化的重要基础设施。",
+    "tags": [
+      "Dev",
+      "AI Agent",
+      "GitHub"
+    ],
+    "link": "https://github.com/croviatrust/causari",
+    "date": "2026-07-04",
+    "id": "17831571414560"
+  },
+  {
+    "title": "HN 社区讨论：主流 AI 模型的最佳应用场景",
+    "summary": "开发者分享模型偏好：Grok 扫 X，Gemini 查证，Claude 编程，GPT 绘图。",
+    "detail": "Hacker News 热门讨论揭示了开发者对不同 AI 模型的实际分工与偏好。用户倾向使用 Grok 扫描 X 平台实时信息，Gemini 进行事实核查，Claude 处理编程任务，而 GPT 专注于图像生成。这反映了当前市场对各模型核心能力的共识，为开发者选型提供社区实证参考。讨论显示专用化趋势明显，单一模型难以满足所有需求，混合使用成为主流工作流。",
+    "tags": [
+      "News",
+      "LLM",
+      "Community"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48783556",
+    "date": "2026-07-04",
+    "id": "17831571414561"
+  },
+  {
+    "title": "Much：基于 WASM 沙盒的本地优先 AI 工作区",
+    "summary": "本地优先 AI workspace，支持浏览器内 Python (WASM) 沙盒运行。",
+    "detail": "Much 是一款新发布的本地优先 AI 工作区工具，核心亮点在于浏览器内建的 Python (WASM) 沙盒。这意味着用户可在本地安全运行 AI 生成的代码，无需依赖云端执行环境，大幅降低延迟并保护数据隐私。该方案兼顾了 AI 辅助开发的便利性与安全性，符合本地化 AI 应用趋势。适合对隐私敏感的开发场景，展示了 Web 技术在 AI 落地中的潜力。",
+    "tags": [
+      "New",
+      "Python",
+      "Privacy"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48783120",
+    "date": "2026-07-04",
+    "id": "17831571414562"
+  },
+  {
+    "title": "研究揭示：去除安全层后 LLM 的瑞典政党倾向",
+    "summary": "Nordan.ai 测试 23 个前沿模型，剥离安全层后分析其政治倾向。",
+    "detail": "Nordan.ai 发布研究报告，通过 SVT 的 35 个议会问题测试 23 个前沿模型，涵盖 Anthropic、OpenAI、Google 等厂商。与以往不同，研究剥离了系统提示和网页搜索，直接测试裸模型倾向，基于 Agent Arena leaderboard 配置。结果显示不同模型在去除安全层后表现出不同的政治 leaning。该研究揭示了模型对齐技术对输出的影响，为 AI 伦理和偏见研究提供新视角。",
+    "tags": [
+      "News",
+      "Research",
+      "Alignment"
+    ],
+    "link": "https://www.nordan.ai/research/which-swedish-party-do-llms-vote-for",
+    "date": "2026-07-04",
+    "id": "17831571414563"
+  },
+  {
+    "title": "2026 Unslop AI 小说创作大赛结果公布",
+    "summary": "Hyperstition AI 公布大赛结果，A. Best 凭借《The June》获 1 万美元大奖。",
+    "detail": "2026 Hyperstition Unslop AI 虚构写作 contest 结束，A. Best 的作品《The June》获得 1 万美元大奖。入围作品多被解读为 AI 寓言，包括\"Exact Change\"、\"Capacity\"等。该赛事旨在探索 AI 生成文学的质量边界，结果显示 AI 已能创作具有深层隐喻的叙事作品。这标志着 AI 在创意写作领域的成熟度提升，引发关于 AI 艺术价值与人类创造力关系的行业讨论。",
+    "tags": [
+      "News",
+      "Creative",
+      "Community"
+    ],
+    "link": "https://www.hyperstitionai.com/unslop-results",
+    "date": "2026-07-04",
+    "id": "17831571414564"
+  },
+  {
     "title": "阿根廷探索 AI 运行公司法律框架",
     "summary": "阿根廷计划允许 AI 运行公司，但仍无法完全避开人类责任。",
     "detail": "**背景**：全球各国正在探索 AI 法律主体地位与监管框架。**核心动态**：阿根廷提出新计划，试图允许 AI 运行公司，但法律规定仍需人类参与关键决策。**行业影响**：反映各国在 AI 自治与监管间的博弈，为未来企业治理结构提供实验案例。人类监督仍是底线，表明完全自治的 AI 公司短期内难以实现。此政策可能影响创业公司架构设计，促使法律界重新定义责任归属，为 AI 融入实体经济提供法律边界参考，平衡创新与风险控制。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.randalolson.com/2026/06/22/ai-jobs-hit-youngest-workers/",
     "date": "2026-07-01",
     "id": "17829423718332"
-  },
-  {
-    "title": "新工具 Deptrust：防止 AI 代理引入脆弱依赖",
-    "summary": "本地 CLI 工具帮助 AI 代理检查依赖包漏洞，支持多语言。",
-    "detail": "Deptrust 是一款新发布的 CLI 工具，旨在解决 AI 编程代理推荐过时或脆弱依赖包的问题。它支持 npm、PyPI 等多种包管理器，本地运行并调用 OSV API 检查漏洞。作为 MCP 服务器，它能让 AI 代理在安装前验证依赖安全性。这对构建安全的 AI 开发工作流至关重要，解决了 AI 生成代码的安全性痛点。开发者可将其集成到 CI/CD 流程中，确保 AI 辅助编程不会引入已知漏洞，提升了软件供应链的安全性，是 AI 原生开发工具链的重要补充。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Tools"
-    ],
-    "link": "https://github.com/clidey/deptrust",
-    "date": "2026-07-01",
-    "id": "17829423718333"
-  },
-  {
-    "title": "医疗视角下的 AI 代理设计模式解读",
-    "summary": "结合 Anthropic 指南，探讨医疗场景下的代理模式与验证问题。",
-    "detail": "文章基于 Anthropic 的代理构建指南，通过医疗 lens 重新审视代理设计模式。核心观点是“简单优于复杂，透明优于抽象”。作者探讨了提示链等模式在临床文档生成中的应用，并提出关键问题：医疗中哪些问题是可以验证的？这为垂直领域 AI 代理落地提供了架构思路，强调在高风险场景中 restraint 和文档化的重要性。对于构建企业级 Agent，该文章提供了宝贵的验证思路，建议在追求功能前先明确可验证边界，确保 AI 决策的可控性与合规性。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Healthcare"
-    ],
-    "link": "https://jenniferjiangkells.com/thoughts/agentic-patterns-healthcare-lens/",
-    "date": "2026-07-01",
-    "id": "17829423718334"
-  },
-  {
-    "title": "CIA 局长将尖端 AI 技术比作核武器",
-    "summary": "CIA 局长警告 AI 风险堪比核武，引发全球安全关注。",
-    "detail": "据日本时报报道，CIA 局长将尖端人工智能技术与核武器相提并论，强调其潜在破坏力及战略风险。这标志着美国情报界对 AI 安全风险的评估升级，可能推动更严格的国际监管政策。行业需密切关注地缘政治对 AI 发展的影响，安全合规将成为企业出海及技术研发的关键考量因素。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Policy"
-    ],
-    "link": "https://www.japantimes.co.jp/news/2026/07/01/world/cia-ai-nuclear-weapons/",
-    "date": "2026-07-01",
-    "id": "17829361326550"
-  },
-  {
-    "title": "SpaceX 原型 AI 设备曝光，疑似手机形态",
-    "summary": "SpaceX 向投资者展示 AI 设备原型，设计比 iPhone 更薄。",
-    "detail": "华尔街日报报道 SpaceX 向投资者展示了类似手机的 AI 设备原型，设计比 iPhone 更 sleek。尽管马斯克否认，但这显示 SpaceX 可能利用 Starlink 和制造优势进入 AI 硬件领域。若成真，将与 OpenAI 及传统手机厂商形成竞争，改变 AI 交互终端格局，引发硬件生态新变数。",
-    "tags": [
-      "News",
-      "Hardware",
-      "SpaceX"
-    ],
-    "link": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
-    "date": "2026-07-01",
-    "id": "17829361326551"
-  },
-  {
-    "title": "AI 数据中心需求致亚马逊碳排放激增 16%",
-    "summary": "亚马逊 2025 年碳排放增 16%，主因 AI 数据中心扩张。",
-    "detail": "亚马逊可持续发展报告显示，2025 年碳排放量增至 8090 万吨，同比激增 16%。主要驱动力为满足 AI 计算需求的数据中心产能扩张。这是自 2019 年以来碳强度首次上升。这表明 AI 繁荣背后的环境成本正在显现，绿色算力及能源效率将成为行业下一个竞争焦点。",
-    "tags": [
-      "News",
-      "ESG",
-      "Data Center"
-    ],
-    "link": "https://www.geekwire.com/2026/the-cost-of-the-ai-boom-amazon-emissions-jump-16-as-company-stands-by-net-zero-pledge/",
-    "date": "2026-07-01",
-    "id": "17829361326552"
   }
 ]
