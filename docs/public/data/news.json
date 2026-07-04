@@ -1,5 +1,83 @@
 [
   {
+    "title": "哈佛分析：AI 引发科技反弹与数字极简主义兴起",
+    "summary": "皮尤调查显示 40% 美国人预期 AI 负面影响，科技反弹情绪蔓延。",
+    "detail": "哈佛 Gazette 采访分析师 Sara Watson，指出 AI 反弹核心在于缺乏用户同意。皮尤研究中心报告显示，40% 美国人预期 AI 对社会产生负面影响，63% 认为发展过快。人们开始寻求数字极简主义，甚至回归旧设备。这反映了技术便利性与集体利益之间的冲突，提示 AI 部署需更多考虑用户 consent。随着 AI 嵌入所有接口，非自愿使用引发焦虑，行业需反思技术引入机制。此外，智能手机成瘾问题加剧了这一趋势，用户渴望掌控数字生活，这对 AI 产品的用户体验设计提出了新挑战。",
+    "tags": [
+      "News",
+      "Social Impact",
+      "Policy"
+    ],
+    "link": "https://news.harvard.edu/gazette/story/2026/06/ai-has-lots-of-people-digging-out-their-ipods/",
+    "date": "2026-07-04",
+    "id": "17831339748900"
+  },
+  {
+    "title": "Midjourney 在版权诉讼中要求披露工作室 AI 使用情况",
+    "summary": "Midjourney 与电影工作室展开高风险版权战，要求对方披露 AI 使用细节。",
+    "detail": "Variety 报道，Midjourney 在高调版权纠纷中寻求发现程序，要求 reveal 工作室如何使用 AI。这场法律 battle 关乎生成式 AI 在影视制作中的合规边界。随着 AI 生成内容增多，版权归属成为行业痛点。此案结果可能确立 AI 工具在商业创作中的披露标准，影响后续好莱坞与 AI 公司的合作模式及法律框架。双方博弈将揭示 studio 是否在关键创作环节依赖 AI，为行业版权界定提供判例参考，引发创作者对 AI 辅助边界的重新思考。",
+    "tags": [
+      "News",
+      "Legal",
+      "Generative AI"
+    ],
+    "link": "https://variety.com/2026/film/news/midjourney-studios-ai-copyright-discovery-1236800902/",
+    "date": "2026-07-04",
+    "id": "17831339748901"
+  },
+  {
+    "title": "TokenDiet：通过 PR 自动优化 AI 代码成本",
+    "summary": "新工具 TokenDiet 自动识别浪费的 LLM 调用，通过 PR 合并降低成本。",
+    "detail": "TokenDiet 是一款针对开发者的 AI 成本优化工具。它扫描代码库，识别浪费的 LLM 调用，并生成包含优化方案的 Pull Request。支持 prompt 缓存和调用清理，确保行为不变。按仓库大小收费，提供沙箱环境验证节省效果。适合希望降低 AI 应用运营成本的开发团队，无需触碰生产数据库即可实现成本削减。工具承诺仅通过 PR 修复，保障安全，已证明可大幅削减月度账单，为 AI 工程化落地提供成本管控新思路。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Cost Optimization"
+    ],
+    "link": "https://tokendiet.dev/",
+    "date": "2026-07-04",
+    "id": "17831339748902"
+  },
+  {
+    "title": "上下文图谱：赋予 AI Agent 决策记忆能力",
+    "summary": "解析 Context Graph 技术，帮助 AI Agent 记录决策原因而非仅结果。",
+    "detail": "Nanonets 博客详解 Context Graph 技术，解决 Agent 记忆缺失问题。传统记忆仅存数据，Context Graph 记录决策背后的“为什么”，如 Slack 线程或邮件审批逻辑。示例显示，代理可通过图谱理解例外情况（如折扣审批），避免机械执行政策导致客户流失。这对构建复杂企业级 AI 代理至关重要，提升了 Agent 的推理与情境适应能力。该技术填补了自动化决策中的逻辑断层，使 AI 能像人类一样基于历史经验处理复杂业务场景。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Architecture"
+    ],
+    "link": "https://nanonets.com/blog/what-is-a-context-graph/",
+    "date": "2026-07-04",
+    "id": "17831339748903"
+  },
+  {
+    "title": "字节发现新缩放定律：AI 代理实战学习速度翻倍",
+    "summary": "字节 Seed AI 团队发现代理通过实战互动，每三月学习速度翻倍。",
+    "detail": "SCMP 报道，字节 Seed AI 团队发表论文，揭示 AI 代理新缩放定律。代理通过与真实环境互动，每三个月学习速度翻倍。这为突破传统数据训练瓶颈提供新路径，尤其在人类生成文本数据即将耗尽的背景下。该发现强调部署后学习的重要性，可能延长 AI 繁荣期，指引行业从 brute-force 训练转向代理自主进化。Epoch AI 警告公共文本数据六年内耗尽，此发现成为关键替代方案。自主软件在执行任务中持续学习，解决了部署后学习机制不明的问题，为 AGI 发展提供新理论支撑。",
+    "tags": [
+      "News",
+      "Research",
+      "ByteDance"
+    ],
+    "link": "https://www.scmp.com/tech/big-tech/article/3359373/chinas-bytedance-discovers-new-scaling-law-could-sustain-ai-boom",
+    "date": "2026-07-04",
+    "id": "17831339748904"
+  },
+  {
+    "title": "Repo-Slopscore：检测 Git 仓库中的 AI 生成代码",
+    "summary": "开源工具扫描 Git 提交，识别并评分仓库中的 AI 生成代码贡献。",
+    "detail": "Repo-Slopscore 是一个检测 Git 仓库中 AI 贡献的工具。它通过分析 commit 记录，识别潜在的 AI 生成代码（Slop）。页面展示了多个开源项目的扫描结果和分析时间。随着 AI 编码助手普及，代码质量和来源透明度成为关注点。该工具帮助团队了解 AI 在开发中的渗透率，适用于关注代码纯净度或需要审计 AI 使用情况的开发团队。它为评估 AI 辅助编程的实际影响提供了量化指标，助力开发者管理 AI 生成代码的技术债务。",
+    "tags": [
+      "Dev",
+      "Code Quality",
+      "Open Source"
+    ],
+    "link": "https://slopscan.ava.pet/",
+    "date": "2026-07-04",
+    "id": "17831339748905"
+  },
+  {
     "title": "Collabora Office 26.04 发布，可选 AI 功能优化文档体验",
     "summary": "Collabora Office 更新版本，引入可选 AI 功能并优化界面。",
     "detail": "Collabora Office 发布 26.04 版本，基于 LibreOffice 代码但采用 Web 技术栈（JS/CSS/WebGL）。此次更新重点在于将 AI 功能设为可选，避免强制集成，同时 refined 了 Writer 和 Calc 组件。新启动屏展示最近文档和模板，提供 AI 和文档签名快速入口。这反映了开源办公套件在 AI 浪潮下的谨慎整合策略，兼顾传统用户体验与智能化需求，确保离线编辑体验与在线一致。共享代码库意味着功能在 Collabora 产品间快速迁移，为用户提供了无需重新学习界面的无缝编辑体验，适合注重隐私和离线能力的企业用户，展示了开源软件在 AI 时代的演进路径。",
@@ -1220,83 +1298,5 @@
     "link": "https://ai.gopubby.com/ai-native-workflows-have-a-moat-problem-49992bcc3088",
     "date": "2026-07-01",
     "id": "17829207008100"
-  },
-  {
-    "title": "美国解除 Anthropic 模型出口管制",
-    "summary": "美国政府允许 Anthropic 重新发布 Fable 模型，确立事实上的许可制度。",
-    "detail": "美国政府逆转了对 Anthropic 前沿模型的出口管制，允许 Fable 模型重新向公众发布。此前该模型与 Mythos 模型曾因安全 concerns 被强制下架。文章指出特朗普政府已建立非公开的事实上的许可系统，OpenAI 的 ChatGPT 5.6 模型 rollout 也受限。这标志着 AI 监管进入“双重状态”，透明度缺失引发行业担忧。政府与实验室的谈判细节未公开，安全 concerns 与政治惩罚界限模糊。这种非公开许可制度可能成为常态，影响模型发布节奏与市场公平性，初创公司需关注政策波动风险，合规成本可能显著增加。",
-    "tags": [
-      "News",
-      "Policy",
-      "Anthropic"
-    ],
-    "link": "https://www.thefunsinthefight.com/p/welcome-to-the-dual-state-of-ai-regulation",
-    "date": "2026-07-01",
-    "id": "17829207008101"
-  },
-  {
-    "title": "开发者如何组合多个低价 AI 订阅",
-    "summary": "通过组合多个$20 计划而非单一高价计划，优化编码成本与模型优势。",
-    "detail": "作者分享了结合多个入门级 AI 计划（Claude, OpenAI, OpenCode）优于单一高价计划的经验。使用 Zed IDE 集成 AI 编码 Agent，根据不同模型优势分配任务，并规避单点服务中断风险。虽然 Zed 在无障碍支持和部分 SDK 扩展上仍有欠缺，但在跨平台性能和稳定性上表现优异。Zed 基于 Rust 的 GPUI 框架，适合多数编程场景，尤其是不依赖 VS Code 扩展的项目。这种组合策略不仅降低成本，还能通过多模型比对提高代码质量，是独立开发者优化工作流的实用方案，值得团队参考借鉴，实现性价比最大化。",
-    "tags": [
-      "Dev",
-      "Workflow",
-      "IDE"
-    ],
-    "link": "https://abishekmuthian.com/multiple-20-ai-plans-are-better-than-a-single-100-ai-plan/",
-    "date": "2026-07-01",
-    "id": "17829207008102"
-  },
-  {
-    "title": "AI 初创公司应出售工作而非软件",
-    "summary": "LLM 赋予初创公司新机会，直接出售工作成果比传统软件模式更具潜力。",
-    "detail": "传统软件初创关注提升员工生产力，按席位收费。LLM 的出现改变了这一模式，创始人应考虑直接出售“工作本身”。例如 EvenUp 为律师生成需求包，开辟了以前软件定价模型无法支持的新垂直领域。这种转变允许初创公司突破 GTM 和定价限制，捕捉更深层次的价值。工作成果交付模式比单纯工具销售更能体现 AI 的替代性价值，重塑软件经济模型。这意味着 SaaS 定价策略需调整，从按人头收费转向按结果收费，从而打开更大的市场空间，适合高价值垂直领域初创企业探索，重新定义客户价值交付方式。",
-    "tags": [
-      "News",
-      "Startup",
-      "Strategy"
-    ],
-    "link": "https://www.sarahtavel.com/p/ai-startups-sell-work-not-software",
-    "date": "2026-07-01",
-    "id": "17829207008103"
-  },
-  {
-    "title": "平台工程 2.0 应对 AI 安全与合规风险",
-    "summary": "Broadcom 推出新框架，帮助企业在不重建基础设施的情况下管理 AI 风险。",
-    "detail": "随着 AI 工作负载改变原有基础设施假设，Broadcom 提出平台工程 2.0 框架。该框架旨在在不重建现有 Kubernetes 和 CI/CD 投资的基础上，治理和隔离 AI 工作负载。AI 引入了 prompt 作为不可预测的输入通道，传统隔离原则失效。新框架强调在现有平台投资基础上自然演进，解决成本与合规风险。DevOps 与平台工程之争让位于 AI 负载的安全运营挑战。企业需更新安全策略，将 prompt 和内容检索视为动态输入，防止数据泄露与模型滥用，确保合规性，适应 AI 时代的基础设施运维新标准。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "Security"
-    ],
-    "link": "https://platformengineering.com/features/platform-engineering-2-0-manage-ai-costs-and-risks-without-rebuilding-infrastructure/",
-    "date": "2026-07-01",
-    "id": "17829207008105"
-  },
-  {
-    "title": "BIS 2026 报告：AI 投资的经济风险与机遇",
-    "summary": "国际清算银行发布 2026 报告，警示 AI 投资带来的金融稳定风险与通胀压力。",
-    "detail": "国际清算银行发布 2026 年度经济报告，重点分析了人工智能对全球经济的影响。报告指出，尽管 AI 相关投资推动了市场韧性并维持了宽松金融条件，但也带来了 persistent inflation 风险和金融脆弱性。报告强调，政策制定者需在支持技术创新与防范系统性风险之间取得平衡，优先保障价格稳定并恢复财政空间，确保金融稳定超越传统银行边界。",
-    "tags": [
-      "News",
-      "Economy",
-      "Policy"
-    ],
-    "link": "https://www.bis.org/publ/arpdf/ar2026e1.htm",
-    "date": "2026-07-01",
-    "id": "17829078331140"
-  },
-  {
-    "title": "经济学人：AI 模型价值观与人类显著不同",
-    "summary": "经济学人研究发现 AI 模型价值观与人类存在显著差异，引发伦理对齐担忧。",
-    "detail": "经济学人最新简报深入探讨了 AI 模型价值观与人类道德标准的显著差异。研究发现，随着模型渗透率提高，其决策逻辑可能与人类社会预期产生冲突。这种对齐问题不仅涉及技术层面，更关乎伦理风险。行业需重视价值对齐研究，确保 AI 系统行为符合人类规范，避免潜在的社会伦理冲突，为大规模部署奠定信任基础。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Alignment"
-    ],
-    "link": "https://www.economist.com/briefing/2026/06/25/ai-models-values-are-very-different-from-most-peoples",
-    "date": "2026-07-01",
-    "id": "17829078331141"
   }
 ]
