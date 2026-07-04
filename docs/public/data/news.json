@@ -1,5 +1,70 @@
 [
   {
+    "title": "Midjourney 诉好莱坞工作室：要求披露 AI 使用细节",
+    "summary": "版权纠纷升级，Midjourney 要求迪士尼等工作室公开内部 AI 使用情况。",
+    "detail": "在迪士尼等起诉 Midjourney 侵权后，Midjourney 反诉要求披露 studios 的 AI 使用文档。主张公平使用原则，认为限制披露范围不公。此举旨在揭示好莱坞是否也在内部使用类似技术，影响行业版权法律走向。",
+    "tags": [
+      "News",
+      "Legal",
+      "GenerativeAI"
+    ],
+    "link": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+    "date": "2026-07-04",
+    "id": "17831925752690"
+  },
+  {
+    "title": "AI 记忆机制深度解析：原理与商业信任危机",
+    "summary": "深入探讨 AI 记忆工作原理及失效风险，帮助企业评估信任成本。",
+    "detail": "文章系列第一部分，对比传统存储与 AI 记忆差异。指出 AI 遗忘可能导致商业损失（如报价错误）。强调理解 AI 记忆机制对于决定信任程度至关重要，是未来科技竞争焦点。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Architecture"
+    ],
+    "link": "https://kingofkimchi.substack.com/p/the-memory-files-case-01-ai-memory",
+    "date": "2026-07-04",
+    "id": "17831925752691"
+  },
+  {
+    "title": "AI Agent 邮箱架构指南：实现自主交互的关键",
+    "summary": "详解 AI Agent 拥有独立邮箱的必要性，涵盖验证码接收与线程管理。",
+    "detail": "指南指出仅能发送邮件的 Agent 功能受限。拥有独立 inbox 可处理验证码、异步人机交互及多轮对话。分析了两种架构方案，强调稳定身份标识对 Agent 自主执行现实世界任务的重要性。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Infrastructure"
+    ],
+    "link": "https://mailkite.dev/blog/email-inbox-for-ai-agents-guide/",
+    "date": "2026-07-04",
+    "id": "17831925752692"
+  },
+  {
+    "title": "ReviewCerberus：支持多模型的 AI 代码审查工具",
+    "summary": "开源 AI 代码审查工具，支持 AWS Bedrock 与 Anthropic，集成 GitHub Action。",
+    "detail": "该工具分析 Git 分支差异生成审查报告，涵盖逻辑、安全及性能分析。支持多种模型提供商，具备提示词缓存优化 token 效率。提供 Docker 快速启动及实验性验证模式以减少误报。",
+    "tags": [
+      "Dev",
+      "Code",
+      "OpenSource"
+    ],
+    "link": "https://github.com/Kirill89/reviewcerberus",
+    "date": "2026-07-04",
+    "id": "17831925752693"
+  },
+  {
+    "title": "科学研究警示：AI 机器人忽视证据无法信任",
+    "summary": "实验显示主流 AI 无法根据视觉证据更新预测，科学应用存疑。",
+    "detail": "科学家测试 ChatGPT 等模型，发现即使展示视频证据，AI 仍坚持错误物理预测。研究表明 LLM 难以像人类一样结合新数据思考。这引发了对 AI 在科学、医学领域可靠性的担忧，核心缺陷在于无法整合实验证据。",
+    "tags": [
+      "News",
+      "Research",
+      "Limitations"
+    ],
+    "link": "https://www.sciencenews.org/article/ai-ignore-evidence-trust-science",
+    "date": "2026-07-04",
+    "id": "17831925752694"
+  },
+  {
     "title": "阿里巴巴据称禁止员工使用 Claude Code",
     "summary": "阿里 reportedly 禁止内部使用 Claude Code，引发安全关注。",
     "detail": "科技媒体报道阿里巴巴已禁止员工使用 Anthropic 的 Claude Code 工具。此举反映了大型科技企业对代码生成 AI 的数据安全与知识产权顾虑。随着 AI 编程助手普及，企业如何在效率与合规间平衡成为关键议题，可能影响后续企业级 AI 部署策略。此禁令凸显了专有代码泄露风险，预示着企业级 AI 治理政策将趋严。TechCrunch 将其归类为安全与 AI 新闻，显示行业对数据边界的敏感度正在上升，其他大厂可能效仿。这一事件标志着 AI 工具从实验性使用转向严格合规管理阶段，开发者需关注企业内部政策变化。对于依赖外部 AI coding 工具的团队，需尽快建立本地化或私有化部署方案以规避风险。",
@@ -1233,70 +1298,5 @@
     "link": "https://aiweekly.co/editors-blog/testing-fable-interview-with-norbert-wiener",
     "date": "2026-07-02",
     "id": "17829890089410"
-  },
-  {
-    "title": "SophMate 发布：带审批流的 WordPress AI 运维助手",
-    "summary": "专为 WordPress 设计的 AI 助手，引入审批机制确保站点变更安全。",
-    "detail": "SophMate 是一款针对 WordPress 和 WooCommerce 的 AI Copilot。其核心差异化在于“审批优先”机制，AI 生成的站点变更计划需经人类审核后方可执行，避免静默自动化风险。支持 WooCommerce 库存、订单分析及营销内容生成，并提供预算与审计控制。解决了通用 AI 工具不懂站点上下文及操作风险高的痛点，适合电商站点自动化运维。对于担心 AI 误操作破坏站点的管理员来说，这种带有人类回路的自动化工具提供了更安全的生产力提升方案，兼顾效率与可控性。此外，其预算可见性功能帮助团队管理 AI 调用成本，防止资源滥用，是企业级应用落地的理想选择。",
-    "tags": [
-      "New",
-      "WordPress",
-      "Automation"
-    ],
-    "link": "https://sophmate.ai",
-    "date": "2026-07-02",
-    "id": "17829890089411"
-  },
-  {
-    "title": "Ghbrk 开源：让 AI 代理安全运行 Git 命令 without 泄露密钥",
-    "summary": "新开源工具解决 AI 代理使用 Git 时的 SSH 密钥与 API 令牌暴露风险。",
-    "detail": "Show HN 项目 Ghbrk 旨在解决 AI 代理在自动化 Git 操作时的安全隐患。传统方式需暴露 SSH 密钥或 API Token 给代理，存在泄露风险。Ghbrk 提供中间层桥接，允许 AI 代理执行 Git/gh 命令而无需直接接触敏感凭证。这对于构建自主 AI 代理（Autonomous Agents）至关重要，提升了开发流程中的安全性与合规性，适合 DevOps 场景。随着 AI 代理深入代码库管理，凭证安全成为关键瓶颈，该工具为代理赋予操作权限的同时隔离了敏感信息，降低了内部威胁风险。该项目展示了如何在赋予代理能力的同时构建安全边界，为未来自主开发代理的标准化提供了参考实现。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agents"
-    ],
-    "link": "https://github.com/marconae/ghbrk",
-    "date": "2026-07-02",
-    "id": "17829890089412"
-  },
-  {
-    "title": "欧盟 AI 法案即将生效，文本水印技术面临挑战",
-    "summary": "欧盟 AI 法案 8 月生效，要求 AI 输出可检测，但文本水印技术难以完美实现。",
-    "detail": "欧盟 AI 法案将于 2026 年 8 月正式生效，其中第 50 条明确规定所有 AI 输出必须“可被检测为人工生成”，这意味着 LLM 提供商必须在输出中应用水印。然而，文本水印是一个极具挑战的工程问题。与图像不同，文本是高度压缩的介质，任何隐藏签名的尝试都可能被人类察觉或被轻易移除。文章指出，这本质上是一个文本隐写术问题，虽然 Google 的 SynthID 等方案存在，但完美的文本水印理论上难以实现。AI 实验室需要在合规与用户体验之间找到平衡，年底前如何导航这些权衡值得关注。",
-    "tags": [
-      "News",
-      "Regulation",
-      "LLM"
-    ],
-    "link": "https://www.seangoedecke.com/text-ai-watermarks/",
-    "date": "2026-07-02",
-    "id": "17829777665400"
-  },
-  {
-    "title": "研究揭示：AI 让资深开发者感觉更快但实际更慢",
-    "summary": "METR 研究显示，资深开发者使用 AI 后感觉快 20%，实际测量速度下降 19%。",
-    "detail": "METR 进行的随机对照试验揭示了 AI 对生产力的复杂影响。在熟悉的大型代码库中，资深开发者使用前沿 AI 工具后，主观感觉效率提升约 20%，但实际测量速度却下降了 19%。自我报告与计时器结果相差近 40 个点，表明我们依赖的“仪表”已损坏。原因在于 AI 加快了打字速度，但这并非瓶颈，反而增加了提示、等待和审查错误输出的开销。研究指出，该效应在初级开发者或新项目工作中可能翻转为正面，但在资深专家处理已知代码库时，AI 可能成为负担，需警惕盲目乐观。",
-    "tags": [
-      "News",
-      "Productivity",
-      "Coding"
-    ],
-    "link": "https://intrepidkarthi.com/writing/the-gauge-broke/",
-    "date": "2026-07-02",
-    "id": "17829777665401"
-  },
-  {
-    "title": "Noter：本地监控编码 Agent 的 AI 代理仪表盘",
-    "summary": "新的协作层，实时规划与执行分离，免费使用 Mission Control 面板。",
-    "detail": "Noter 旨在打造与编码代理协作的新层，避免将思考外包给 AI。它强调规划模式与执行模式的区分，提供 Mission Control 工作表面，包含思考、建议、观察、调度四个面板，使规划与执行并排可见。Blueprint 功能可将松散笔记转化为分阶段、带理由标签的规范，生成可复制的提示。可通过 npm 全局安装。定价方面，Mission Control 永久免费，包含笔记和代理上下文跟踪；Blueprint 高级功能每月 3 欧元，解锁建议任务和提示，适合需要本地监控编码 harness 的开发者团队使用。",
-    "tags": [
-      "New",
-      "DevTool",
-      "Agent"
-    ],
-    "link": "https://noterai.tech",
-    "date": "2026-07-02",
-    "id": "17829777665402"
   }
 ]
