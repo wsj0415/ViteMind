@@ -1,5 +1,47 @@
 [
   {
+    "title": "Utilix：为 AI Agent 打造的 145+ 工具层基础设施",
+    "summary": "提供 145+ 免登录工具 API 及 MCP 服务器，支持 Node/Python SDK，增强 AI  Agent 执行能力。",
+    "detail": "### 产品定位\nUtilix 旨在解决 AI Agent 工具调用能力不足的问题，提供标准化的工具层基础设施。\n\n### 核心功能\n1. **丰富工具库**：内置 145+ 实用工具，涵盖 JWT 解析、PDF 元数据读取、NDJSON 格式化、HAR 文件查看等。\n2. **多端支持**：提供 REST API、Node.js SDK（523 函数）、Python SDK（389 函数）及 MCP Server。\n3. **开发者友好**：支持客户端免登录使用，MCP ready 可直接集成至 Claude Desktop 与 Cursor，简化 Agent 开发流程。",
+    "tags": [
+      "New",
+      "Dev",
+      "AI Agent",
+      "开发者工具"
+    ],
+    "link": "https://www.utilix.tech/",
+    "date": "2026-07-05",
+    "id": "17832274694661"
+  },
+  {
+    "title": "Sprout：智能诊断并修复开发者工具安装问题",
+    "summary": "开源 AI CLI 工具，可检测系统环境、规划步骤并安全修复开发工具安装错误，支持多平台。",
+    "detail": "### 痛点解决\n开发者常面临环境配置复杂、依赖安装失败等问题，Sprout 利用 AI 自动化诊断修复。\n\n### 技术特点\n1. **安全执行**：检测机器环境，规划步骤，并在执行每个命令前询问用户，最后进行验证运行。\n2. **跨平台支持**：兼容 macOS、Linux、Windows。\n3. **灵活授权**：支持通过 Pollinations API 授权，也可使用自有 Key，采用 MIT 许可开源。",
+    "tags": [
+      "New",
+      "Dev",
+      "CLI",
+      "开源工具"
+    ],
+    "link": "https://murderszn.github.io/sprout/",
+    "date": "2026-07-05",
+    "id": "17832274694662"
+  },
+  {
+    "title": "Two-Tier-Memory：为 AI 编程 Agent 提供可查询长期记忆",
+    "summary": "GitHub 开源项目，旨在解决 AI 编程 Agent 长期记忆缺失问题，实现可查询的记忆存储架构。",
+    "detail": "### 项目背景\n当前 AI 编程 Agent 往往缺乏长期记忆能力，导致跨会话上下文丢失。\n\n### 核心方案\n1. **双层架构**：设计了两层记忆系统，优化存储与检索效率。\n2. **可查询性**：支持对长期记忆进行查询，增强 Agent 在复杂开发任务中的连续性。\n3. **开源社区**：项目托管于 GitHub，旨在推动 AI Agent 记忆模块的标准化与普及。",
+    "tags": [
+      "Dev",
+      "New",
+      "AI Agent",
+      "开源"
+    ],
+    "link": "https://github.com/tadelstein9/two-tier-memory",
+    "date": "2026-07-05",
+    "id": "17832274694663"
+  },
+  {
     "title": "阿里达摩院 AI 代理发现新型超导体",
     "summary": "达摩院推出 AI 代理 Elements Claw，发现 4 种新超导体。",
     "detail": "阿里达摩院发布行业首个发现超导材料的 AI 代理 Elements Claw。该模型拥有 10 亿参数，基于 1.25 亿分子和晶体结构训练，仅用 28 小时 GPU 计算时间便筛选了 240 万稳定晶体结构。系统识别出 6.8 万个潜在候选者，并最终发现 4 种此前未知的化合物，且已通过实验室验证。超导材料能在低温下无阻力导电，此突破有望彻底改变电网、量子计算和高速磁悬浮列车领域。标志着 AI 在科学发现领域的重大进展，加速了原本依赖试错的材料研发流程，与中国人民大学及中科院大学合作开发。",
@@ -1259,44 +1301,5 @@
     "link": "https://www.autolearningagents.com/get-started/",
     "date": "2026-07-02",
     "id": "17830338592166"
-  },
-  {
-    "title": "拉马努金挑战：评估 AI 数学推导能力的新基准",
-    "summary": "通过数学常数公式证明挑战，测试 AI 的研究级数学能力。",
-    "detail": "拉马努金机器项目发布新挑战，要求 AI 系统证明涉及基本数学常数的公式。问题包含已知证明（加密）及未证明公式，旨在评估 AI 解决研究级数学问题的能力。submissions 需包含可复现代码，为 AI 数学推理能力提供了具体且可验证的高难度基准。挑战涉及π、e 及黎曼ζ函数等特殊值，公式证明可能需要非显而易见的数学技巧。提交截止至 8 月 1 日，作者将评估结果。这不仅测试计算能力，更测试形式化验证与 CAS 代码能力，是衡量 AI 在科学发现领域潜力的重要试金石。挑战分为两类问题，有助于避免验证过程混乱，推动 AI for Science 的发展。",
-    "tags": [
-      "Dev",
-      "Math",
-      "Benchmark"
-    ],
-    "link": "https://www.ramanujanmachine.com/ramanujan-challenge/",
-    "date": "2026-07-02",
-    "id": "17830338592167"
-  },
-  {
-    "title": "微软投入 25 亿美元成立 AI 部署公司",
-    "summary": "微软成立 Frontier Company，投入 25 亿美元推动企业 AI 落地。",
-    "detail": "微软宣布成立 Microsoft Frontier Company，专注于企业 AI 部署。该项目获 25 亿美元投资及 6000 名专家支持，旨在超越传统的“前向部署工程”模式。此举紧随亚马逊、OpenAI 等竞品之后，显示巨头正竞相争夺企业级 AI 服务市场。通过大规模工程团队确保客户成功落地，标志着 AI 竞争从模型能力转向实际交付与服务生态构建。微软凭借现有客户基础占据优势，企业客户将成为下一战场，行业服务化趋势明显。此举措可能加速 AI 在传统行业的渗透率。",
-    "tags": [
-      "News",
-      "Microsoft",
-      "Enterprise"
-    ],
-    "link": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
-    "date": "2026-07-02",
-    "id": "17830266094600"
-  },
-  {
-    "title": "扎克伯格：AI Agent 发展慢于预期",
-    "summary": "扎克伯格表示 AI 智能体开发进度比预期要慢，行业面临挑战。",
-    "detail": "路透社报道，扎克伯格公开表示 AI 智能体（Agent）的开发进展低于预期。这一言论揭示了当前 AI 行业在 autonomous agents 领域的技术瓶颈。尽管巨头纷纷布局，但实际落地效果仍未达理想状态，可能影响后续资本投入方向及企业级应用的时间表。行业需重新评估 Agent 技术成熟度，短期内可能更关注辅助工具而非完全自主代理。投资者需警惕过度炒作带来的预期落差，这可能导致相关初创企业融资难度增加，技术回归务实发展。",
-    "tags": [
-      "News",
-      "Meta",
-      "AI Agent"
-    ],
-    "link": "https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02/",
-    "date": "2026-07-02",
-    "id": "17830266094601"
   }
 ]
