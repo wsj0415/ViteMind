@@ -1,5 +1,109 @@
 [
   {
+    "title": "阿里达摩院 AI 代理发现新型超导体",
+    "summary": "达摩院推出 AI 代理 Elements Claw，发现 4 种新超导体。",
+    "detail": "阿里达摩院发布行业首个发现超导材料的 AI 代理 Elements Claw。该模型拥有 10 亿参数，基于 1.25 亿分子和晶体结构训练，仅用 28 小时 GPU 计算时间便筛选了 240 万稳定晶体结构。系统识别出 6.8 万个潜在候选者，并最终发现 4 种此前未知的化合物，且已通过实验室验证。超导材料能在低温下无阻力导电，此突破有望彻底改变电网、量子计算和高速磁悬浮列车领域。标志着 AI 在科学发现领域的重大进展，加速了原本依赖试错的材料研发流程，与中国人民大学及中科院大学合作开发。",
+    "tags": [
+      "News",
+      "AI Agent",
+      "Science"
+    ],
+    "link": "https://www.scmp.com/tech/big-tech/article/3359335/alibabas-elements-claw-ai-agent-unearths-four-new-superconductors",
+    "date": "2026-07-05",
+    "id": "17832098859140"
+  },
+  {
+    "title": "英伟达成 AI 繁荣背后的银行",
+    "summary": "英伟达提供 GPU 融资及收益分成，深度绑定客户。",
+    "detail": "英伟达不再仅销售硬件，转而提供融资服务，包括租用闲置算力和收入分成。这种模式使英伟达与客户业务利益绑定，从单纯供应商转变为生态参与者。报告显示其正通过金融手段巩固 AI 基础设施主导地位。这改变了传统硬件交付即结束的关系，英伟达现在对售后业务产生财务兴趣。首批项目规模不小，例如 Firmus 计划部署约 17 万张 GPU。这种“硬件 + 金融”组合拳可能成为 AI 繁荣背后的新银行模式，降低初创云厂商门槛，同时也让英伟达更深入地介入 AI 经济价值链，分担客户风险的同时共享收益。",
+    "tags": [
+      "News",
+      "Nvidia",
+      "Finance"
+    ],
+    "link": "https://startupfortune.com/nvidia-has-quietly-become-the-bank-behind-the-ai-boom/",
+    "date": "2026-07-04",
+    "id": "17832098859141"
+  },
+  {
+    "title": "AI 系统的身份认证与授权指南",
+    "summary": "探讨 AI 代理时代的身份管理最佳实践。",
+    "detail": "文章指出 AI 安全并非新学科，而是现有 API 安全模式的延伸。重点分析了 RAG、工具使用及代理系统中的认证授权问题。强调身份层必须是确定性的，不能依赖概率输出，为开发者提供了基于 FusionAuth 的安全架构参考。人类身份是 AI 权威的来源。文章通过银行工程经理的案例，探讨了如何在 AI 系统中应用 OAuth 集成、API 密钥管理和基于角色的访问控制。确定性 safeguards 对于防止 AI 幻觉导致的权限滥用至关重要，是构建可信代理系统的基石。开发者应复用 2010 年代 API boom 时期的最佳实践，确保 AI 代理在访问资源时拥有明确的身份边界和权限控制。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Architecture"
+    ],
+    "link": "https://fusionauth.io/articles/ai/ai-authentication-authorization",
+    "date": "2026-07-04",
+    "id": "17832098859142"
+  },
+  {
+    "title": "微软 Copilot OS 泄露视频曝光",
+    "summary": "泄露视频显示微软正在测试基于代理 AI 的新操作系统。",
+    "detail": "Windows Central 泄露视频展示了 Microsoft Copilot OS 的概念。这是一个轻量级 Windows 探索版本，桌面 UI 完全围绕 Copilot 和代理 AI 构建。虽未正式發布，但揭示了微软将 AI 深度集成至操作系统核心的战略意图。视频显示新桌面 UI 专为代理 AI 设计，可能意味着未来 Windows 将更依赖自然语言交互而非传统图形界面。这是微软在操作系统层面应对 AI 时代的重要探索，potentially 改变用户与 PC 的交互方式，使 Copilot 成为系统的核心调度者而非仅仅是辅助工具。该泄露表明微软正在测试一种更轻量、更智能的操作系统形态，以适配 AI 原生应用的需求。",
+    "tags": [
+      "News",
+      "Microsoft",
+      "OS"
+    ],
+    "link": "https://www.windowscentral.com/microsoft/windows-11/microsoft-copilot-os-revealed-in-leaked-video-lightweight-windows-os-exploration-features-new-desktop-ui-built-entirely-around-copilot-and-agentic-ai",
+    "date": "2026-07-04",
+    "id": "17832098859143"
+  },
+  {
+    "title": "Surge：初创公司的 AI 内容增长工具",
+    "summary": "一键生成多平台原生内容的 AI 营销工具。",
+    "detail": "Surge 是一款面向早期创始人的 AI 内容增长工具。用户只需输入初创公司 URL，即可生成适用于 TikTok、LinkedIn 等平台的周度内容计划。它保存产品定位和语气，确保内容一致性，旨在解决初创团队内容创作效率低的问题。系统通过一次输入生成四个平台的原生草稿，保持相同的产品上下文但调整钩子和格式。这解决了创始人每周重复构思内容的痛点，提供可重复的内容系统。免费生成 2 次，无需信用卡，适合资源有限的早期团队快速建立社交媒体存在感。Surge 将初创公司更新转化为全周渠道就绪草稿，利用 AI derived hooks 和竞争定位，实现内容规模化生产。",
+    "tags": [
+      "New",
+      "Marketing",
+      "Startup"
+    ],
+    "link": "https://www.surgeos.app/",
+    "date": "2026-07-04",
+    "id": "17832098859144"
+  },
+  {
+    "title": "防止 AI 代理费用失控的预算协议",
+    "summary": "GitHub 提出 AI 代理运行时的原子预算预留方案。",
+    "detail": "针对 AI 代理循环调用导致费用失控的问题，社区提出 RFC 协议。传统网关预算按用户或团队计算，而该协议主张按“运行次数”设定美元上限。通过原子预算预留，防止因上下文累积导致的意外高额 API 账单，适合生产环境工程师。AI 代理不像聊天那样消耗 token，每一步都会重发累积上下文。过去曾有开发者周末花费 4200 美元。该协议旨在填补现有网关在单次运行成本 ceiling 方面的空白，提供实时预算决策平面，确保自主代理在安全财务范围内运行。作者指出现有 LiteLLM 等网关在执行回归方面存在脆弱性，需要更健壮的原子预算预留机制来保护基础设施。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Cost Control"
+    ],
+    "link": "https://github.com/iamapsrajput/agent-budget-protocol/blob/main/RFC.md",
+    "date": "2026-07-04",
+    "id": "17832098859145"
+  },
+  {
+    "title": "数据表明 AI 采用者招聘更多员工",
+    "summary": "重度 AI 采用企业在两年内员工增长 10%。",
+    "detail": "Ramp Economics Lab 基于 2.1 万家美国 firm 数据发布报告。发现重度 AI 采用者在 adoption 后两年内头 count 增长 10.2%，初级职位增长 12%。这表明 AI 并未单纯替代工作，而是推动高采用企业扩张，但收益分布不均。AI 采用者通常更大、更工程密集且增长更快。低强度采用者未见显著变化。该研究使用了 firm-level spend 数据，解决了以往研究依赖猜测或调查的缺陷。数据表明 AI 投资与招聘增长正相关，尤其是 entry-level 岗位，反驳了 AI 将大规模消灭工作的担忧。斯坦福论文曾指出理想数据集应使用业务支出数据，此项研究正是基于此标准，提供了更具说服力的经济影响分析。",
+    "tags": [
+      "News",
+      "Economy",
+      "Jobs"
+    ],
+    "link": "https://econlab.substack.com/p/we-can-finally-say-ai-isnt-killing-jobs",
+    "date": "2026-07-04",
+    "id": "17832098859146"
+  },
+  {
+    "title": "AI 能否训练破解 AES 加密？",
+    "summary": "探讨 AI 逆向 AES 算法的理论可能性与挑战。",
+    "detail": "文章探讨了训练 AI 逆向 AES 加密算法的可能性。虽然 AI 正在吞噬软件，但 AES 作为单向函数假设的代表，受复杂度理论限制。作者分析了奖励稀疏性问题，并提供了 RL 环境供研究者尝试，引发了关于 AI 安全边界的讨论。AES 核心于每个 https 浏览器会话和 wifi 连接。如果 AI 能解决 AES 逆向，将极其危险且有价值。作者认为超级智能不会改变复杂度理论施加的数学约束，但 clever researcher 可以找到中间奖励。这为 AI 安全研究提供了一个具体的挑战性课题。任何概率多项式时间算法都无法 invert 单向函数，但 AI 是否构成例外仍是开放性问题，该博客提供了 GitHub repo 供社区测试。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Cryptography"
+    ],
+    "link": "https://www.juanslozano.com/blog/ai-aes",
+    "date": "2026-07-04",
+    "id": "17832098859147"
+  },
+  {
     "title": "澳洲网红被曝利用 AI 伪造慈善视频",
     "summary": "网红 Lily Jay 被揭露使用 AI 生成虚假非洲孤儿院视频，引发伦理争议。",
     "detail": "澳洲知名网红 Lily Jay 拥有近 300 万粉丝，近期其基金会发布的视频被 ABC 新闻核实为 AI 生成。视频中出现的非洲孤儿院及儿童画面涉嫌技术操纵，尽管她声称已皈依伊斯兰教并从事慈善，但 AI 合成内容严重误导了公众信任。此事件凸显了社交媒体 influencer 利用生成式 AI 技术进行虚假宣传的道德风险，引发关于数字内容真实性的广泛讨论。行业专家呼吁平台加强审核机制与强制标识要求，防止 AI 滥用损害公共利益，特别是在慈善与新闻领域，真实性至关重要。",
@@ -1194,109 +1298,5 @@
     "link": "https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02/",
     "date": "2026-07-02",
     "id": "17830266094601"
-  },
-  {
-    "title": "开源企业级 AI 网关 Bifrost 发布",
-    "summary": "新网关 Bifrost 声称比 LiteLLM 快 50 倍，支持千种模型。",
-    "detail": "GitHub 新项目 Bifrost 定位为最快企业级 AI 网关，采用 Go 语言编写。其宣称比 LiteLLM 快 50 倍，拥有自适应负载均衡、集群模式及护栏功能，支持 1000+ 模型，开销低于 100 微秒。为需要高性能、低延迟 AI 推理路由的企业开发者提供了新的高效基础设施选择。适用于高并发场景，降低推理成本，提升系统稳定性，是构建大规模 AI 应用架构的重要组件。开源特性利于社区协作改进，解决现有网关性能瓶颈，推动企业级 AI 部署标准化。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "OpenSource"
-    ],
-    "link": "https://github.com/maximhq/bifrost",
-    "date": "2026-07-02",
-    "id": "17830266094602"
-  },
-  {
-    "title": "隐私优先本地 AI 超级应用 Karja",
-    "summary": "买断制本地 AI 应用，支持私有文档处理，无订阅费。",
-    "detail": "Karja 是一款主打隐私优先的本地 AI 超级应用，采用 Lifetime Deal 模式。用户可连接本地 LLM 处理私有文档，数据不出机器，无订阅费用。集成 Web 搜索且无用户画像追踪，适合对数据隐私敏感且希望一次性付费拥有工具的专业人士。支持手动更新，兼容本地模型迭代，确保长期可用性。在 SaaS 订阅泛滥的背景下，提供买断制 alternative，强调数据主权，满足合规性要求高的用户需求。其超级应用架构整合多工具，提升本地工作流效率。",
-    "tags": [
-      "Deal",
-      "Privacy",
-      "LocalLLM"
-    ],
-    "link": "https://karja.app/",
-    "date": "2026-07-02",
-    "id": "17830266094603"
-  },
-  {
-    "title": "微软泄露 AI 操作系统 Project Aion，摒弃开始菜单",
-    "summary": "微软内部研发基于 Edge 的 Copilot OS，取消传统开始菜单，主打代理体验。",
-    "detail": "泄露视频显示微软曾研发代号为\"Project Aion\"的操作系统，该系统的核心是 AI 代理而非传统应用。界面类似 ChromeOS，移除了开始菜单和桌面图标，转而使用 Copilot 启动器。尽管该项目可能已被取消，但反映了微软向\"Agentic OS\"转型的战略意图，旨在通过云端支持 Win32 应用，重塑 PC 交互逻辑。这表明未来操作系统可能不再以应用为中心，而是以任务代理为中心，对开发者生态构成潜在挑战。若成真，将彻底改变用户与 PC 的交互方式，应用可能沦为后台服务。",
-    "tags": [
-      "News",
-      "Microsoft",
-      "OS"
-    ],
-    "link": "https://www.windowslatest.com/2026/07/02/watch-leak-from-2024-shows-off-microsofts-copilot-os-for-pcs-and-its-nothing-like-windows-11/",
-    "date": "2026-07-02",
-    "id": "17830147791410"
-  },
-  {
-    "title": "英国央行探索交易“紧急开关”以防 AI 失控",
-    "summary": "副行长指出现有监管不足，需新框架应对自主代理交易风险。",
-    "detail": "英国央行副行长 Sarah Breeden 在欧洲央行论坛上表示，随着 AI 自主代理能力增强，现有监管框架可能不再适用。金融公司无法完全依赖人类监督，需探索“紧急开关”机制以在 AI 模型失控时停止交易。这标志着监管机构开始正视自主 AI 代理在金融领域的系统性风险，呼吁建立更复杂的治理和责任框架。她强调从 2024 年末至今，AI 已从推理请求发展到自主行动链，监管必须跟上技术演进步伐，防止市场闪崩。此提议可能成为全球金融 AI 监管的风向标。",
-    "tags": [
-      "News",
-      "Finance",
-      "Safety"
-    ],
-    "link": "https://www.computerweekly.com/news/366645329/Bank-of-England-explores-trading-kill-switches-to-contain-AI-meltdowns",
-    "date": "2026-07-02",
-    "id": "17830147791411"
-  },
-  {
-    "title": "日本 APPI AI 训练例外法案通过下议院",
-    "summary": "合规团队需关注上议院投票，日本 AI 数据使用法规迎来更新。",
-    "detail": "日本《个人信息保护法》（APPI）关于 AI 训练例外的修正案已清除下议院障碍，等待上议院投票。此举旨在平衡个人隐私保护与 AI 产业发展，明确数据用于 AI 训练的合规边界。合规团队需密切关注最终立法动向，调整数据治理策略。这反映了全球 AI 立法趋势，即在不阻碍创新的前提下加强数据生命周期管理。企业需提前准备合规报告，确保训练数据来源合法，避免未来面临法律风险。法案通过后，日本 AI 企业将获得更明确的数据使用指引。",
-    "tags": [
-      "News",
-      "Regulation",
-      "Japan"
-    ],
-    "link": "https://techjacksolutions.com/ai-brief/japan-appi-ai-training-exception-clears-lower-house-what-com/",
-    "date": "2026-07-02",
-    "id": "17830147791412"
-  },
-  {
-    "title": "AI 基础设施知识库开源，涵盖 GPU 集群部署指南",
-    "summary": "提供 GPU 硬件、集群平台及代理系统运维的全面技术文档。",
-    "detail": "该知识库专注于 AI 基础设施的部署与运营，内容覆盖 GPU 硬件 commissioning、集群软件栈、分布式训练及推理工作负载。特别包含了代理系统（Agentic Systems）的架构指南和性能健康检查手册。对于构建私有 AI 集群的企业和开发者，这是一份宝贵的实操参考，降低了基础设施搭建的技术门槛。文档还涉及云成本策略和运维剧本，帮助团队优化 GPU 利用率，解决大规模模型训练中的常见硬件瓶颈问题。适合 DevOps 和 ML 工程师参考。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "GPU"
-    ],
-    "link": "https://ai-infrastructure.net/",
-    "date": "2026-07-02",
-    "id": "17830147791413"
-  },
-  {
-    "title": "HealthChain 推出 Python SDK 连接 AI 与电子健康记录",
-    "summary": "新开源工具旨在安全打通 AI 模型与实时 EHR 系统的数据链路。",
-    "detail": "这是一个 Show HN 项目，提供了 Python SDK 以便 AI 模型能够连接到活的电子健康记录（EHR）系统。在医疗 AI 领域，数据孤岛是主要痛点，该工具试图标准化 AI 与医疗数据的交互接口。虽然目前评论较少，但其方向符合医疗 AI 落地的实际需求，即如何在合规前提下实现模型与临床数据的实时互通。开发者可利用该 SDK 快速原型化医疗应用，但需注意患者隐私数据的安全加密与授权管理。开源社区反馈将决定其生命力。",
-    "tags": [
-      "New",
-      "Healthcare",
-      "Python"
-    ],
-    "link": "https://github.com/healthchainai/HealthChain",
-    "date": "2026-07-02",
-    "id": "17830147791414"
-  },
-  {
-    "title": "OpenAI 提议捐赠 5% 股权给美国主权财富基金",
-    "summary": "OpenAI 提议向美国主权财富基金捐赠 5% 股权，以改善政治关系。",
-    "detail": "OpenAI CEO 山姆·阿尔特曼提议将公司 5% 股权捐赠给美国主权财富基金，旨在 securing good relations 并解决政治反弹。该提案类似此前讨论的“公共 AI 基金”，可能需要国会批准。此举若实施，将开创科技巨头与政府利益捆绑的先河，影响 AI 行业治理结构。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Policy"
-    ],
-    "link": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
-    "date": "2026-07-02",
-    "id": "17830060801740"
   }
 ]
