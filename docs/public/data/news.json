@@ -1,5 +1,18 @@
 [
   {
+    "title": "Hunch：基于 Git 的 AI 决策图谱，让代码库记住“为什么”",
+    "summary": "Git 原生决策图谱工具，帮助 AI 理解代码变更背后的意图与权衡。",
+    "detail": "Hunch 是一款 Git 原生的决策图谱工具，旨在解决 AI 编码会话中“意图蒸发”的问题。它让代码库不仅记录变更内容，更记住变更背后的“为什么”，包括决策权衡、已修复的 bug 及必须遵守的不变量。工具以纯文件形式存在于 repo 中，默认 advisory 模式，无 SaaS 且离线可用。当 AI 试图回滚故意的工作区或违反架构约束时，Hunch 会展示决策收据与证据。这确保了每次 AI 会话都与历史架构一致性，防止代理重复发现已解决的 bug 或破坏关键设计。",
+    "tags": [
+      "Dev",
+      "Git",
+      "Memory"
+    ],
+    "link": "https://hunch-pi.vercel.app",
+    "date": "2026-07-05",
+    "id": "17832388533944"
+  },
+  {
     "title": "Utilix：为 AI Agent 打造的 145+ 工具层基础设施",
     "summary": "提供 145+ 免登录工具 API 及 MCP 服务器，支持 Node/Python SDK，增强 AI  Agent 执行能力。",
     "detail": "### 产品定位\nUtilix 旨在解决 AI Agent 工具调用能力不足的问题，提供标准化的工具层基础设施。\n\n### 核心功能\n1. **丰富工具库**：内置 145+ 实用工具，涵盖 JWT 解析、PDF 元数据读取、NDJSON 格式化、HAR 文件查看等。\n2. **多端支持**：提供 REST API、Node.js SDK（523 函数）、Python SDK（389 函数）及 MCP Server。\n3. **开发者友好**：支持客户端免登录使用，MCP ready 可直接集成至 Claude Desktop 与 Cursor，简化 Agent 开发流程。",
@@ -53,6 +66,19 @@
     "link": "https://www.scmp.com/tech/big-tech/article/3359335/alibabas-elements-claw-ai-agent-unearths-four-new-superconductors",
     "date": "2026-07-05",
     "id": "17832098859140"
+  },
+  {
+    "title": "SigMap v8.3：AI 编码 Token 减少 97% 的可验证 grounding 层",
+    "summary": "确定性 AI 代码 grounding 层，支持 Python 包验证，大幅减少 Token。",
+    "detail": "SigMap 发布 v8.3 版本，定位为 AI 代码工作的确定性、可验证 grounding 层。新版本新增 Python site-packages grounding 功能，能够验证 AI 建议的 Python 代码是否与项目 venv 中实际安装的库匹配，读取依赖导出及 pinned 版本，消除误报。工具实现 97% Token 减少，零依赖且完全离线运行，支持 33 种编程语言。通过 verify-ai-output 和 MCP 工具，确保 AI 生成代码基于真实环境，显著降低 hallucination 风险，提升 AI 编程代理的可靠性与安全性。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Verification"
+    ],
+    "link": "https://sigmap.io/",
+    "date": "2026-07-04",
+    "id": "17832388533943"
   },
   {
     "title": "英伟达成 AI 繁荣背后的银行",
@@ -1147,6 +1173,19 @@
     "id": "17830488955744"
   },
   {
+    "title": "美团发布 1.6T 模型 LongCat-2.0，无需 Nvidia GPU",
+    "summary": "美团发布 1.6T 参数模型，采用 AI ASIC 训练，摆脱 Nvidia 依赖。",
+    "detail": "美团正式发布 LongCat-2.0 基础模型，总参数规模达 1.6T，采用混合专家（MoE）架构，每 token 激活约 48B 参数。此次发布的核心亮点在于训练与部署完全基于 AI ASIC 超级 pod，未依赖 Nvidia GPU，这对中国 AI 产业具有重大的地缘政治与硬件战略意义。模型在 OpenRouter 使用量排名前列，Agent 能力接近 Claude Opus 4.6。此前曾以 Owl Alpha 匿名发布，在 Claude Code Agent 场景下全球 usage 排名第二，证明了非 Nvidia 硬件训练超大模型的可行性与性能潜力，可能深刻改变未来算力竞争格局。",
+    "tags": [
+      "News",
+      "LLM",
+      "Hardware"
+    ],
+    "link": "https://xyzlabs.substack.com/p/meituan-trained-a-16t-parameter-ai",
+    "date": "2026-07-02",
+    "id": "17832388533940"
+  },
+  {
     "title": "能源行业深层应用：AI 如何协助运营燃气轮机",
     "summary": "Woodside Energy 利用 AI 优化工业流程，推出“启动顾问”辅助决策，而非替代人工。",
     "detail": "麻省理工科技评论报道，Woodside Energy 正将 AI 作为核心运营层。不同于消费级应用，该公司利用多年积累的操作数据构建预测分析系统。其\"Startup Advisor\"AI 副驾驶帮助操作员管理 LNG 工厂启动流程，旨在增强而非替代人类专家。这标志着 AI 在物理基础设施和安全关键型行业中的成熟应用，体现了 Agent 系统在复杂工业工作流中的价值。能源行业的大数据基础为 AI 落地提供了坚实土壤，这种“增强智能”模式可能成为重资产行业数字化转型的标准路径，具有极高的参考意义。随着模型能力提升，AI 将在更多高危场景中承担辅助决策角色，确保运营安全与效率的平衡。",
@@ -1262,44 +1301,5 @@
     "link": "https://heyhalo.app/",
     "date": "2026-07-02",
     "id": "17830338592163"
-  },
-  {
-    "title": "Declaw Arena：AI Agent 沙盒安全挑战平台",
-    "summary": "通过 CTF 模式测试 AI Agent 在微虚拟机中的安全性。",
-    "detail": "Declaw 推出竞技场模式，邀请开发者尝试突破运行在隔离微虚拟机中的 AI Agent 沙盒。通过无策略、部分策略及全策略对比，展示运行时安全政策的有效性。旨在通过红队测试发现 Agent 漏洞，推动 AI 运行时安全标准的建立，适合安全研究人员参与。挑战包括让数据分析师 Agent 泄露客户 PII 信息或突破 root shell。数据显示全策略下破解率为 0%，证明了沙盒隔离的有效性。每个会话在隔离沙盒中运行且限时 10 分钟，无需注册即可参与。这种 gamification 的安全测试方式能有效吸引社区力量完善 AI 防御机制，是 AI 安全领域的一次创新尝试。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Sandbox"
-    ],
-    "link": "https://declaw.ai/arena",
-    "date": "2026-07-02",
-    "id": "17830338592164"
-  },
-  {
-    "title": "哈佛商业评论：警惕 AI 战略中的“紧急陷阱”",
-    "summary": "95% 的生成式 AI 项目失败，源于领导层过度关注短期紧急问题。",
-    "detail": "HBR 文章指出，尽管 AI 投资巨大，但 95% 的生成式 AI 试点项目失败。核心原因是领导层陷入“紧急陷阱”，将 AI 视为解决短期瓶颈的 quick fix，而非长期价值创造工具。建议企业避免过度优先化即时问题，转而制定可持续的 AI 转型战略，以防资源浪费。调研涵盖美英德澳 6000 名高管，发现 90% 称过去三年 AI 未带来可衡量的生产力提升。文章强调 AI 并非无效，而是使用策略错误。作者身为学者兼顾问，观察到失败模式的一致性。领导者需转变思维，从解决紧急问题转向构建长期能力，这对于正在制定 AI 路线图的企业具有极高的警示意义。",
-    "tags": [
-      "News",
-      "Strategy",
-      "Management"
-    ],
-    "link": "https://hbr.org/2026/07/when-developing-an-ai-strategy-beware-the-urgency-trap",
-    "date": "2026-07-02",
-    "id": "17830338592165"
-  },
-  {
-    "title": "Auto Learning Agents：基于 Elixir 的自托管 Agent 平台",
-    "summary": "单 Docker 镜像部署，支持混合模型与本地运行的 Agent 平台。",
-    "detail": "这是一个基于 Elixir/OTP 构建的自托管 AI Agent 平台，通过单个 Docker 镜像即可部署全套环境。支持混合使用 Claude、OpenAI 或本地 Ollama 模型，数据完全自有。为开发者提供了轻量级、可控的 Agent 基础设施方案，适合注重数据主权的企业内部部署。安装仅需四步，包含运行时、Python 服务及本地数据库。启动命令会自动准备数据库并启动 agent 节点的全监督树。无需外部云账户，所有存储和搜索均在 bundled 数据库中运行。文档详细说明了配置与记忆后端设置，适合希望完全掌控 AI 栈的技术团队快速搭建私有化 Agent 服务，降低了对第三方 SaaS 的依赖。",
-    "tags": [
-      "Dev",
-      "Self-hosted",
-      "Elixir"
-    ],
-    "link": "https://www.autolearningagents.com/get-started/",
-    "date": "2026-07-02",
-    "id": "17830338592166"
   }
 ]
