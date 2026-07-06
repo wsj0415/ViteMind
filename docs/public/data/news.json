@@ -1,5 +1,57 @@
 [
   {
+    "title": "观点：AI 将取代大多数软件工程师",
+    "summary": "文章 argue LLM 将改变软件行业，大多数开发者面临被取代风险。",
+    "detail": "**行业影响**：文章指出尽管有研究质疑 LLM 生产力，但大多数开发者因工作性质面临被取代风险。回顾历史，软件工程师地位随薪资生活方式提升而改变，从爱好者变为逐利者。**技术变革**：如今 LLM 使孤立子系统成本降低，耦合代码成本升高，传统开发模式受冲击。**未来展望**：作者认为真正热爱解决问题的人留存，其余可能被替代。LLM 带来了巨大变革，反对者声称无影响是不实的，风险在于开发者使用方式。那些仅靠 bootcamps 入行的人最危险，行业回归到真正热爱构建者的时代。",
+    "tags": [
+      "News",
+      "LLM",
+      "Industry"
+    ],
+    "link": "https://getsmall.xyz/post/cmp5lur8h0003vyr7dxes60rh",
+    "date": "2026-07-06",
+    "id": "17833550012230"
+  },
+  {
+    "title": "AI 友好架构：编写更好而非更多的代码",
+    "summary": "AI 使孤立子系统构建成本极低，耦合代码维护成本剧增。",
+    "detail": "**核心理念**：文章提出 AI 工程的核心不是代码量而是质量。AI 使深度孤立的实现变得廉价，而大型状态化应用难以修改。**架构重点**：转向隔离性，模型使孤立代码免费，耦合代码触碰成本高昂。审查不再是合并前的 gate，而是每次触碰的成本。**成本倒置**：实现深度不再是主导成本，代码对下一实体负担成为关键。共享可变字段感觉免费但实际昂贵。AI 让优化子系统只需几天，但移动大应用按钮却难，开发者需重构架构以适应 AI 代理限制。",
+    "tags": [
+      "Dev",
+      "Architecture",
+      "Best Practices"
+    ],
+    "link": "https://purple-hammer.com/blog/ai-friendly-architecture.html",
+    "date": "2026-07-06",
+    "id": "17833550012231"
+  },
+  {
+    "title": "Preflight：AI 构建 SaaS 的上线前安全审计",
+    "summary": "新工具专门检查 AI 生成 SaaS 的认证、支付及数据漏洞。",
+    "detail": "**产品功能**：Preflight 推出针对 AI 构建 SaaS 的安全审查服务。在客户到来前，自动检查 Auth、Stripe、API、Secrets 和数据访问路径。**技术集成**：支持 GitHub 仓库感知审查，集成 Next.js、Supabase、Clerk 等栈。解决开发者用 AI 快速构建后忽略安全风险的问题，确保上线前捕获关键 bug，获 Vercel、Stripe 等初创公司信任。旨在验证 AI 构建的 SaaS，跟踪审查 across auth, billing, routes。用户可连接 repo 跟踪审查，确保 AI 生成代码无安全隐患。",
+    "tags": [
+      "New",
+      "Security",
+      "SaaS"
+    ],
+    "link": "https://preflightio.com/",
+    "date": "2026-07-06",
+    "id": "17833550012233"
+  },
+  {
+    "title": "树莓派打造《项目海ail 玛丽》AI 机器人 Rocky",
+    "summary": "开发者用树莓派 5 和 Claude Code 复刻电影 AI 机器人。",
+    "detail": "**硬件构建**：Maker 使用 4GB 树莓派 5、PCA9685 驱动和 7 个伺服电机打造电影角色 Rocky。安装 Claude Code 处理编程，实现语音识别、回复生成及 TTS。**AI 能力**：AI 使机器人能响应未预编程指令，如击拳。3D 打印身体结合 AI 逻辑，展示了边缘设备运行大模型交互的可行性，适合科幻爱好者 DIY。构建包括内部麦克风和扬声器，额外电源供应因为树莓派不足以驱动七个伺服电机。这是 Raspberry Pi Official Magazine 最新一期最喜欢的构建。",
+    "tags": [
+      "Dev",
+      "Hardware",
+      "Robotics"
+    ],
+    "link": "https://www.raspberrypi.com/news/ai-rocky-from-project-hail-mary/",
+    "date": "2026-07-06",
+    "id": "17833550012234"
+  },
+  {
     "title": "Hugging Face 发布 LeRobot v0.6.0",
     "summary": "开源机器人库更新，支持想象与评估功能。",
     "detail": "Hugging Face 发布 LeRobot v0.6.0 版本，核心主题为“想象、评估、改进”。此次更新增强了开源机器人学习框架的功能，为开发者提供了更强大的工具来部署和优化 LLM 驱动的机器人系统，推动了具身智能领域的开放创新。该版本引入了新的评估指标，帮助研究者更准确地衡量机器人策略性能，降低了具身 AI 的研究门槛。这是开源社区推动机器人通用化的重要一步，有助于加速真实世界机器人应用的落地，让开发者能更高效地迭代策略，解决仿真到现实的迁移难题。",
@@ -1249,57 +1301,5 @@
     "link": "https://nanonets.com/blog/what-is-a-context-graph/",
     "date": "2026-07-04",
     "id": "17831339748903"
-  },
-  {
-    "title": "字节发现新缩放定律：AI 代理实战学习速度翻倍",
-    "summary": "字节 Seed AI 团队发现代理通过实战互动，每三月学习速度翻倍。",
-    "detail": "SCMP 报道，字节 Seed AI 团队发表论文，揭示 AI 代理新缩放定律。代理通过与真实环境互动，每三个月学习速度翻倍。这为突破传统数据训练瓶颈提供新路径，尤其在人类生成文本数据即将耗尽的背景下。该发现强调部署后学习的重要性，可能延长 AI 繁荣期，指引行业从 brute-force 训练转向代理自主进化。Epoch AI 警告公共文本数据六年内耗尽，此发现成为关键替代方案。自主软件在执行任务中持续学习，解决了部署后学习机制不明的问题，为 AGI 发展提供新理论支撑。",
-    "tags": [
-      "News",
-      "Research",
-      "ByteDance"
-    ],
-    "link": "https://www.scmp.com/tech/big-tech/article/3359373/chinas-bytedance-discovers-new-scaling-law-could-sustain-ai-boom",
-    "date": "2026-07-04",
-    "id": "17831339748904"
-  },
-  {
-    "title": "Repo-Slopscore：检测 Git 仓库中的 AI 生成代码",
-    "summary": "开源工具扫描 Git 提交，识别并评分仓库中的 AI 生成代码贡献。",
-    "detail": "Repo-Slopscore 是一个检测 Git 仓库中 AI 贡献的工具。它通过分析 commit 记录，识别潜在的 AI 生成代码（Slop）。页面展示了多个开源项目的扫描结果和分析时间。随着 AI 编码助手普及，代码质量和来源透明度成为关注点。该工具帮助团队了解 AI 在开发中的渗透率，适用于关注代码纯净度或需要审计 AI 使用情况的开发团队。它为评估 AI 辅助编程的实际影响提供了量化指标，助力开发者管理 AI 生成代码的技术债务。",
-    "tags": [
-      "Dev",
-      "Code Quality",
-      "Open Source"
-    ],
-    "link": "https://slopscan.ava.pet/",
-    "date": "2026-07-04",
-    "id": "17831339748905"
-  },
-  {
-    "title": "英联邦文学奖得主被指 AI 写作，引发争议",
-    "summary": "作家 Jamir Nazir 获奖作品被检测为 AI 生成，本人否认，基金会调查。",
-    "detail": "英联邦短篇小说奖得主 Jamir Nazir 被指控使用 AI 写作，检测工具显示其作品 100% 为人工智能生成。尽管作者否认，但事件引发了文学界对 AI 创作边界和检测技术可靠性的广泛讨论。基金会已承诺进一步调查，凸显 AI 对创意行业的冲击。此事件与近期其他 AI 写作争议相呼应，反映了当前 AI 检测工具的局限性及版权伦理困境。随着 AI 生成文本质量提升，传统文学奖项的评审标准面临挑战，如何界定人类创造力成为新课题。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Writing"
-    ],
-    "link": "https://www.theatlantic.com/technology/2026/07/commonwealth-prize-ai-writing-jamir-nazir/687806/",
-    "date": "2026-07-03",
-    "id": "17831988636833"
-  },
-  {
-    "title": "IMF 警告 AI 泡沫背后债务危机",
-    "summary": "国际货币基金组织指出 AI 数据中心建设背后的债务风险远超泡沫本身。",
-    "detail": "**背景**：当前 AI 基础设施投资狂热引发市场广泛担忧。**核心观点**：国际货币基金组织（IMF）最新报告指出，真正的威胁并非 AI 泡沫本身，而是背后堆积如山的债务。数据显示，60% 计划中的数据中心的尚未动工。**行业影响**：此报告警示投资者需关注宏观经济风险，而非仅仅聚焦技术泡沫，这可能直接影响未来 AI 算力扩张的速度与资本流向。企业需重新评估投资回报率，避免过度杠杆化，确保 AI 基础设施建设的可持续性与稳定性，防止系统性金融风险。分析师建议关注现金流健康的企业。",
-    "tags": [
-      "News",
-      "Finance",
-      "Infrastructure"
-    ],
-    "link": "https://www.msn.com/en-us/money/other/forget-the-ai-bubble-the-imf-says-the-real-threat-is-the-mountain-of-debt-behind-it-and-60-of-planned-data-centers-haven-t-even-broken-ground/ar-AA278Tti",
-    "date": "2026-07-03",
-    "id": "17831463632240"
   }
 ]
