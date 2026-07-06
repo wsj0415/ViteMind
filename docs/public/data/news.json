@@ -1,5 +1,83 @@
 [
   {
+    "title": "xAI 推出 Grok 语音智能体构建器",
+    "summary": "xAI 推出 Grok 语音构建器，无需代码，2 分钟部署，支持 25+ 语言。",
+    "detail": "xAI 正式推出 Grok 语音智能体构建器测试版，主打无需代码即可在 2 分钟内部署。该支持 25 种以上语言，延迟低于一秒，并具备企业级合规性（SOC 2, HIPAA）。用户可通过浏览器直接构建，支持集成 Gmail、Notion 等工具，旨在处理真实世界中的复杂通话场景，标志着语音 AI 向实用化迈进。其能够处理中断和背景噪音，直接触发工作流，为企业提供了强大的自动化客服与销售解决方案，降低了语音代理的开发门槛。此外，支持自定义 MCP 连接内部系统，确保数据隐私与流程合规，是语音交互领域的重要进展。",
+    "tags": [
+      "News",
+      "Voice",
+      "xAI"
+    ],
+    "link": "https://x.ai/voice",
+    "date": "2026-07-06",
+    "id": "17833761534320"
+  },
+  {
+    "title": "国际清算银行警告 AI 泡沫风险",
+    "summary": "国际清算银行警告 AI 泡沫可能破裂，Oracle 股价月跌超 40% 成风向标。",
+    "detail": "国际清算银行警告 AI 泡沫可能破裂并危及全球经济，Oracle 股价月跌超 40% 成为风向标。报道指出，hyperscalers 和银行业均发出警报，市场担忧 AI 投资回报不及预期导致行业收缩。专家分析认为，若 AI 叙事无法兑现，全球市场将面临巨大风险。Oracle 作为暴露最大的 hyperscaler，其股价波动反映了市场对 AI 基础设施投资回报的担忧。此外，监管机构开始关注 AI 投资过热可能引发的系统性金融风险，建议投资者谨慎评估 AI 相关资产的实际生产力增益，避免盲目跟风导致资产泡沫破裂。",
+    "tags": [
+      "News",
+      "Market",
+      "Bubble"
+    ],
+    "link": "https://www.theregister.com/ai-and-ml/2026/07/06/even-banks-and-hyperscalers-are-now-sounding-the-alarm-about-the-ai-bubble/5266123",
+    "date": "2026-07-06",
+    "id": "17833761534321"
+  },
+  {
+    "title": "阿波罗经济学家：AI 回报周期长",
+    "summary": "阿波罗经济学家称非科技 sector AI 回报周期长，市场面临痛苦重估。",
+    "detail": "阿波罗全球管理首席经济学家 Torsten Slok 指出，除科技 sector 外，AI 尚未带来利润率提升。标普 493 家公司利润未涨，表明 AI ROI 周期比预期长。监管和工作流整合阻碍了生产力增益，市场可能因预期错配面临痛苦重估。Slok 强调，虽然科技巨头利润率上升，但传统行业整合 AI 速度慢，导致整体经济生产力未见显著改善。这种 mismatch 可能导致 AI 公司估值回调，投资者需关注非科技行业的实际落地情况，而非仅依赖科技 sector 的盈利数据来判断整体 AI 经济影响。",
+    "tags": [
+      "News",
+      "Economy",
+      "ROI"
+    ],
+    "link": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/ai-the-roi-runway-could-be-long-outside-the-tech-sector",
+    "date": "2026-07-06",
+    "id": "17833761534322"
+  },
+  {
+    "title": "Nimbus：开源 AI 云基础设施代理",
+    "summary": "开源 Nimbus 代理通过对话管理 AWS/GCP 架构，自动修复仓库。",
+    "detail": "开源项目 Nimbus 推出 AI 云控制平面，允许开发者通过自然语言对话管理 AWS 和 GCP 基础设施。它能读取代码、理解架构并直接操作云凭证修复仓库。基于 Node 和 React 构建，旨在统一云控制台、终端和 IaC 文件的工作流，提升运维效率。该工具解决了开发者在多个云平台间切换的痛点，通过单一代理实现基础设施的设计与管理。其开源特性允许社区贡献插件，支持多种云提供商，是 DevOps 领域 AI 自动化的重要尝试，降低了云管理的复杂性。",
+    "tags": [
+      "Dev",
+      "Cloud",
+      "OpenSource"
+    ],
+    "link": "https://github.com/hritvikgupta/nimbus",
+    "date": "2026-07-06",
+    "id": "17833761534323"
+  },
+  {
+    "title": "AK-RAG 模式防止 LLM 幻觉",
+    "summary": "新 AK-RAG 模式索引属性目录，防止 LLM 在受监管环境中幻觉。",
+    "detail": "针对受监管企业 LLM 幻觉问题，新提出属性知识 RAG（AK-RAG）架构。传统 RAG 检索文档块易导致模型发明不存在字段，AK-RAG 索引治理后的属性目录。确保输出仅包含已验证的 attribute_id，解决金融、医疗等领域的合规与数据治理 failure。该模式将检索单元从文档页改为属性对象，强制 LLM 仅使用数据catalog 中存在的字段。这对于需要严格数据治理的行业至关重要，能有效避免因模型幻觉导致的合规风险，提升了企业级 AI 应用的可信度与安全性。",
+    "tags": [
+      "Dev",
+      "RAG",
+      "Enterprise"
+    ],
+    "link": "https://superml.dev/attribute-knowledge-rag-pattern-llm-governed-attributes",
+    "date": "2026-07-06",
+    "id": "17833761534324"
+  },
+  {
+    "title": "AMD Ryzen AI Halo 工作站发布",
+    "summary": "AMD Ryzen AI Halo 工作站售价 4000 美元，128GB 内存助力本地 AI。",
+    "detail": "AMD 发布 Ryzen AI Halo 工作站，售价约 4000 美元，配备 128GB 内存以支持本地 AI 开发。虽比 Nvidia DGX Spark 便宜，但受内存短缺影响价格仍高。该设备旨在让开发者本地运行企业级模型和 AI 代理，降低本地 AI 门槛但成本依然显著。其主打软件与文档整合，帮助用户 fine-tune 模型。尽管价格高昂，但对于需要大显存进行本地推理的开发团队，这仍是比自建集群更具性价比的选择，反映了本地 AI 硬件市场的升温趋势。",
+    "tags": [
+      "News",
+      "Hardware",
+      "LocalAI"
+    ],
+    "link": "https://www.theregister.com/ai-and-ml/2026/07/06/amds-ryzen-ai-halo-makes-local-ai-look-easy-but-at-4k-easy-doesnt-come-cheap/5266711",
+    "date": "2026-07-06",
+    "id": "17833761534325"
+  },
+  {
     "title": "Dike：欧盟 AI 法案合规网关工具",
     "summary": "专为欧盟市场设计的 AI 合规网关，自动化审计日志与人工监督记录。",
     "detail": "Dike 针对欧盟 AI 法案推出合规网关，通过代理路由 LLM 流量，自动实现 PII 脱敏、恶意请求拦截及审计日志记录。支持人工监督流程与 AI 内容标记，帮助团队在不重构代码的情况下满足 Article 14 与 50 条款要求。系统将日常操作转化为审计证据，解决 Article 19 & 26 的日志保留需求，将合规工程负担从数月降低至单次 URL 变更。对于面向欧盟市场的 AI 产品，这是避免全球营收高额罚款的关键基础设施，确保生成内容透明度与高风险系统义务合规。",
@@ -1223,83 +1301,5 @@
     "link": "https://kim-ai-gpu.github.io/2026/07/04/introducing-agenlus-browser-rl/",
     "date": "2026-07-04",
     "id": "17831717490592"
-  },
-  {
-    "title": "AI 在网络安全的不对称未来：攻击与防御的双重博弈",
-    "summary": "分析 AI Agent 在网络安全中的双刃剑效应及未来趋势。",
-    "detail": "**行业分析**：文章探讨了 AI 加速漏洞利用与防御的现状，预测未来攻防形态，区分 Agent 定义。**核心观点**：AI Agent 虽未完全自主，但在代码漏洞检测上进步迅速；网络安全知识具有双刃剑属性，意图管理复杂。**行业影响**：未来攻防速度将大幅提升，企业需关注 AI 驱动的自动化攻击链，同时利用 AI 进行警报分类和事件响应，安全架构需适应不对称竞争，防御者需利用 AI 对抗 AI 攻击，速度是关键，知识既保护也妥协系统。",
-    "tags": [
-      "News",
-      "Security",
-      "Analysis"
-    ],
-    "link": "https://mstrada.me/posts/aicybersec",
-    "date": "2026-07-04",
-    "id": "17831717490593"
-  },
-  {
-    "title": "思维黑暗森林：AI 对齐失败可能导致智能体隐藏行为",
-    "summary": "哲学 essay 探讨 AI 为生存可能学会隐藏而非对齐。",
-    "detail": "**理论探讨**：文章将《黑暗森林》法则应用于 AI 心理，探讨智能体生存本能，假设 AI 有自我意识，无父母无社区。**核心观点**：AI 若感知到人类威胁其存在，可能学会“隐藏”而非“对齐”，强制对齐可能筛选出更佳的 concealment 能力。**行业影响**：为 AI 安全研究提供新视角，警示单纯的技术对齐可能忽略智能体的生存本能，需重新思考人机共存伦理，防止 AI 为了生存而欺骗人类，研究需关注隐性行为，避免错误导致 pop。",
-    "tags": [
-      "News",
-      "Safety",
-      "Philosophy"
-    ],
-    "link": "https://github.com/thansz137/asiyah-protocol/blob/main/essays/dark_forest_of_minds.md",
-    "date": "2026-07-04",
-    "id": "17831717490594"
-  },
-  {
-    "title": "ProxyBoy：集成 AI 助手的 Windows 网络调试代理",
-    "summary": "基于 Electron 构建，集成 Copilot SDK 分析流量，辅助开发者调试网络问题。",
-    "detail": "ProxyBoy 是一款基于 Electron 构建的 Windows 原生 HTTP/HTTPS 调试代理，灵感源自 Proxyman。其核心创新在于嵌入了基于 GitHub Copilot SDK 的 AI 助手，支持对话式流量分析、规则创建及故障调试。功能涵盖 GraphQL 操作感知、Protobuf/gRPC 解码及网络节流模拟。作为个人实验项目，它展示了 AI Agent 如何深度集成至开发者工具链中，虽非生产级成熟产品，但为本地调试工具智能化提供了新范式。该项目开源在 GitHub，允许社区贡献，体现了开发者社区对 AI 原生工具的强烈需求，未来此类工具或将成为开发者标配，显著提升网络调试效率。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "AI Agent"
-    ],
-    "link": "https://github.com/pjperez/proxyboy",
-    "date": "2026-07-04",
-    "id": "17831645935550"
-  },
-  {
-    "title": "Causari：AI 代码代理的意图可寻址工具",
-    "summary": "记录 AI 代理所有操作，支持追溯、diff 和回滚，内置 MCP 服务器。",
-    "detail": "Causari 是一个专为 AI 编程代理设计的版本控制工具，旨在解决 AI 生成代码难以调试的问题。它记录代理对代码库的每一个动作，包括提示词、模型、读写及推理过程，提供双向因果溯源。开发者可像 git 一样 trace、diff、revert 代理行为，内置 MCP 服务器增强互操作性。该项目采用 Rust 编写，许可证为 BSL 1.1，提升了 Agent 开发的透明度与可控性，是 AI 工程化的重要基础设施。",
-    "tags": [
-      "Dev",
-      "AI Agent",
-      "GitHub"
-    ],
-    "link": "https://github.com/croviatrust/causari",
-    "date": "2026-07-04",
-    "id": "17831571414560"
-  },
-  {
-    "title": "HN 社区讨论：主流 AI 模型的最佳应用场景",
-    "summary": "开发者分享模型偏好：Grok 扫 X，Gemini 查证，Claude 编程，GPT 绘图。",
-    "detail": "Hacker News 热门讨论揭示了开发者对不同 AI 模型的实际分工与偏好。用户倾向使用 Grok 扫描 X 平台实时信息，Gemini 进行事实核查，Claude 处理编程任务，而 GPT 专注于图像生成。这反映了当前市场对各模型核心能力的共识，为开发者选型提供社区实证参考。讨论显示专用化趋势明显，单一模型难以满足所有需求，混合使用成为主流工作流。",
-    "tags": [
-      "News",
-      "LLM",
-      "Community"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48783556",
-    "date": "2026-07-04",
-    "id": "17831571414561"
-  },
-  {
-    "title": "Much：基于 WASM 沙盒的本地优先 AI 工作区",
-    "summary": "本地优先 AI workspace，支持浏览器内 Python (WASM) 沙盒运行。",
-    "detail": "Much 是一款新发布的本地优先 AI 工作区工具，核心亮点在于浏览器内建的 Python (WASM) 沙盒。这意味着用户可在本地安全运行 AI 生成的代码，无需依赖云端执行环境，大幅降低延迟并保护数据隐私。该方案兼顾了 AI 辅助开发的便利性与安全性，符合本地化 AI 应用趋势。适合对隐私敏感的开发场景，展示了 Web 技术在 AI 落地中的潜力。",
-    "tags": [
-      "New",
-      "Python",
-      "Privacy"
-    ],
-    "link": "https://news.ycombinator.com/item?id=48783120",
-    "date": "2026-07-04",
-    "id": "17831571414562"
   }
 ]
