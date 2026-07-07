@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 数据中心导致美国制造业能源成本飙升",
+    "summary": "AI 数据中心需求激增，致使美国制造业能源成本大幅上涨。",
+    "detail": "**背景**：随着 AI 模型规模扩大，基础设施能源需求激增。**核心**：Ars Technica 2026 年 7 月报道，美国制造商因 AI 数据中心抢占电力资源，导致能源成本大幅飙升。**影响**：这揭示了 AI 发展的物理瓶颈，能源分配矛盾可能迫使制造业转型或推动政策干预。长期来看，绿色能源与高效算力将成为行业竞争关键，社会需平衡技术创新与基础民生成本。此现象可能加速核能或可再生能源在数据中心的应用落地。",
+    "tags": [
+      "News",
+      "Energy",
+      "Infrastructure"
+    ],
+    "link": "https://arstechnica.com/tech-policy/2026/07/us-manufacturers-energy-costs-soar-because-of-ai-data-center-demand/",
+    "date": "2026-07-07",
+    "id": "17834596046760"
+  },
+  {
+    "title": "研究显示 AI 编码时代代码可维护性急剧下降",
+    "summary": "GitClear 研究发现 AI 辅助编码导致代码重复率上升，复用率下降。",
+    "detail": "**背景**：LeadDev 引用 GitClear 对 6.23 亿次代码变更的分析数据。**核心**：2023 至 2026 年间，AI 辅助提交占四分之一，代码重复率上升 81%，复用率下降 70%，遗留代码重构减少 74%。**影响**：开发者倾向新建而非维护，技术债务累积，警示行业需重视 AI 生成代码的质量管控与重构。企业需建立新的代码审查标准，防止“技术债”拖慢长期迭代速度，AI 编程工具需从“生成”转向“优化”。",
+    "tags": [
+      "News",
+      "Code Quality",
+      "LLM"
+    ],
+    "link": "https://leaddev.com/ai/code-maintainability-plummets-in-the-ai-coding-era",
+    "date": "2026-07-07",
+    "id": "17834596046761"
+  },
+  {
+    "title": "初创公司收费每周 1 万美元清理 AI 生成代码",
+    "summary": "针对 AI 生成的混乱代码，提供付费重构服务，承诺减少代码行数。",
+    "detail": "**背景**：针对\"vibecoded\"项目后期难以维护的痛点。**核心**：Odra.dev 推出 Slopfix 服务，收费 1 万美元/周，由资深工程师重构 AI 代码，承诺代码行数显著减少并提供质保。**影响**：反映 AI 生成代码质量问题的商业化解决方案出现，标志 AI 编程进入“生成 - 清理”新周期。这表明单纯依赖 AI 生成不可持续，人类专家的经验在架构设计与代码治理上仍具不可替代价值。",
+    "tags": [
+      "News",
+      "Service",
+      "Refactoring"
+    ],
+    "link": "https://odra.dev/slopfix/",
+    "date": "2026-07-07",
+    "id": "17834596046762"
+  },
+  {
+    "title": "Hugging Face 与 Amazon SageMaker 实现一键部署集成",
+    "summary": "开发者现可一键将 Hugging Face 模型部署至 Amazon SageMaker Studio。",
+    "detail": "**背景**：简化模型部署流程，连接模型社区与云平台。**核心**：Hugging Face 博客宣布与 Amazon 合作，支持从 HF 到 SageMaker Studio 一键点击部署，无需复杂配置。**影响**：降低 MLOps 门槛，加速模型从实验到生产的转化，强化云平台与模型社区的生态连接。此举将进一步巩固 HF 作为模型枢纽的地位，同时为 AWS 吸引更多开发者，推动企业级 AI 应用落地效率。",
+    "tags": [
+      "Dev",
+      "MLOps",
+      "Cloud"
+    ],
+    "link": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+    "date": "2026-07-07",
+    "id": "17834596046763"
+  },
+  {
+    "title": "开源项目 Agent Bus 实现 AI 代理间 IRC 式通信",
+    "summary": "基于 MCP 协议，为 AI 代理提供群聊、状态共享及任务锁定的通信总线。",
+    "detail": "**背景**：解决 AI 代理孤立运行无法协作的问题。**核心**：GitHub 开源项目 Agent Bus，提供 IRC 风格消息总线，支持代理注册、直消息、频道广播及共享黑板，基于 MCP 协议。**影响**：促进多代理系统（Multi-Agent）协作开发，标准化代理间通信协议，提升复杂任务自动化能力。为构建更复杂的自主代理网络提供基础设施，降低多代理协同的开发难度与通信成本。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "MCP"
+    ],
+    "link": "https://github.com/roriau0422/AgentBus",
+    "date": "2026-07-07",
+    "id": "17834596046764"
+  },
+  {
     "title": "Hyoomn：专为 B2B SaaS 团队打造的 AI 设计评审服务",
     "summary": "人工评审 AI 设计产出，确保品牌一致性与转化率，月額$1,950。",
     "detail": "针对 B2B SaaS 团队使用 AI 生成设计后质量参差不齐的痛点，Hyoomn 提供异步人工评审服务。创始团队拥有 15 年经验，曾服务 NASA、Google 等知名企业。服务模式不直接代设计，而是通过 Slack 或邮件提供修改建议与理由，确保品牌一致性与转化率。旨在保持开发速度的同时提升输出质量，避免默认模板的同质化。目前仅限少量团队，提供单张截图免费试用，后续订阅费为每月 1,950 美元，可随时取消。这种“人机协作评审”模式为 AI 原生工作流提供了新的质量控制思路，适合对品牌要求高的 SaaS 团队。在 AI 生成内容泛滥的当下，专业的人类判断力重新成为稀缺资源，该服务试图填补自动化与高质量之间的空白，帮助团队在快速迭代中维持品牌标准，避免因 AI 默认风格导致的同质化竞争问题。",
@@ -1233,73 +1298,5 @@
     "link": "https://hunch-pi.vercel.app",
     "date": "2026-07-05",
     "id": "17832388533944"
-  },
-  {
-    "title": "Utilix：为 AI Agent 打造的 145+ 工具层基础设施",
-    "summary": "提供 145+ 免登录工具 API 及 MCP 服务器，支持 Node/Python SDK，增强 AI  Agent 执行能力。",
-    "detail": "### 产品定位\nUtilix 旨在解决 AI Agent 工具调用能力不足的问题，提供标准化的工具层基础设施。\n\n### 核心功能\n1. **丰富工具库**：内置 145+ 实用工具，涵盖 JWT 解析、PDF 元数据读取、NDJSON 格式化、HAR 文件查看等。\n2. **多端支持**：提供 REST API、Node.js SDK（523 函数）、Python SDK（389 函数）及 MCP Server。\n3. **开发者友好**：支持客户端免登录使用，MCP ready 可直接集成至 Claude Desktop 与 Cursor，简化 Agent 开发流程。",
-    "tags": [
-      "New",
-      "Dev",
-      "AI Agent",
-      "开发者工具"
-    ],
-    "link": "https://www.utilix.tech/",
-    "date": "2026-07-05",
-    "id": "17832274694661"
-  },
-  {
-    "title": "Sprout：智能诊断并修复开发者工具安装问题",
-    "summary": "开源 AI CLI 工具，可检测系统环境、规划步骤并安全修复开发工具安装错误，支持多平台。",
-    "detail": "### 痛点解决\n开发者常面临环境配置复杂、依赖安装失败等问题，Sprout 利用 AI 自动化诊断修复。\n\n### 技术特点\n1. **安全执行**：检测机器环境，规划步骤，并在执行每个命令前询问用户，最后进行验证运行。\n2. **跨平台支持**：兼容 macOS、Linux、Windows。\n3. **灵活授权**：支持通过 Pollinations API 授权，也可使用自有 Key，采用 MIT 许可开源。",
-    "tags": [
-      "New",
-      "Dev",
-      "CLI",
-      "开源工具"
-    ],
-    "link": "https://murderszn.github.io/sprout/",
-    "date": "2026-07-05",
-    "id": "17832274694662"
-  },
-  {
-    "title": "Two-Tier-Memory：为 AI 编程 Agent 提供可查询长期记忆",
-    "summary": "GitHub 开源项目，旨在解决 AI 编程 Agent 长期记忆缺失问题，实现可查询的记忆存储架构。",
-    "detail": "### 项目背景\n当前 AI 编程 Agent 往往缺乏长期记忆能力，导致跨会话上下文丢失。\n\n### 核心方案\n1. **双层架构**：设计了两层记忆系统，优化存储与检索效率。\n2. **可查询性**：支持对长期记忆进行查询，增强 Agent 在复杂开发任务中的连续性。\n3. **开源社区**：项目托管于 GitHub，旨在推动 AI Agent 记忆模块的标准化与普及。",
-    "tags": [
-      "Dev",
-      "New",
-      "AI Agent",
-      "开源"
-    ],
-    "link": "https://github.com/tadelstein9/two-tier-memory",
-    "date": "2026-07-05",
-    "id": "17832274694663"
-  },
-  {
-    "title": "阿里达摩院 AI 代理发现新型超导体",
-    "summary": "达摩院推出 AI 代理 Elements Claw，发现 4 种新超导体。",
-    "detail": "阿里达摩院发布行业首个发现超导材料的 AI 代理 Elements Claw。该模型拥有 10 亿参数，基于 1.25 亿分子和晶体结构训练，仅用 28 小时 GPU 计算时间便筛选了 240 万稳定晶体结构。系统识别出 6.8 万个潜在候选者，并最终发现 4 种此前未知的化合物，且已通过实验室验证。超导材料能在低温下无阻力导电，此突破有望彻底改变电网、量子计算和高速磁悬浮列车领域。标志着 AI 在科学发现领域的重大进展，加速了原本依赖试错的材料研发流程，与中国人民大学及中科院大学合作开发。",
-    "tags": [
-      "News",
-      "AI Agent",
-      "Science"
-    ],
-    "link": "https://www.scmp.com/tech/big-tech/article/3359335/alibabas-elements-claw-ai-agent-unearths-four-new-superconductors",
-    "date": "2026-07-05",
-    "id": "17832098859140"
-  },
-  {
-    "title": "印度 IT 行业萎缩，AI 岗位逆势增长 16%",
-    "summary": "路透社报道印度 IT 招聘整体下降 3%，AI 角色增长 16%，传统外包模式受冲击。",
-    "detail": "路透社数据显示，印度 IT 行业整体招聘缩减 3%，但 AI 相关岗位激增 16%。随着 AI Agent 能够处理常规 IT 工作，传统的外包商业模式不再有效。公司需要更少的一般性 IT  hires，更多能构建、管理和改进 AI 系统的人才。Naukri 的 JobSpeak 报告追踪了超过 15 万家公司的列表，发现明显分化。印度 3150 亿美元的 IT 行业面临巨大压力，新需求更窄、更资深且更专业化，标志着行业结构性转型的开始，旧有的广泛招聘周期已结束。",
-    "tags": [
-      "News",
-      "Industry",
-      "Hiring"
-    ],
-    "link": "https://twitter.com/rohanpaul_ai/status/2073314619423174678",
-    "date": "2026-07-04",
-    "id": "17833262110990"
   }
 ]
