@@ -1,5 +1,57 @@
 [
   {
+    "title": "高校 AI 检测软件误判率引担忧",
+    "summary": "大学依赖 AI 检测抓作弊，但准确性存疑。",
+    "detail": "Nature 报道显示，高校依赖 AI 检测软件识别学生作弊，但工具可靠性 flagged 为不可信。Idaho State University 学生 Lauren Jager 未使用 AI 的个人陈述被检测为 100% AI 生成，导致其恐慌。这引发对检测工具误判率的担忧，可能 unfairly 影响学生申请与学术评估。教育界需重新审视 AI 检测的有效性与伦理，避免技术误伤诚实学生。检测门户警告若发现 AI 写作将 disregarded 整个申请，凸显了 stakes 之高与工具风险之间的矛盾。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Education"
+    ],
+    "link": "https://www.nature.com/articles/d41586-026-01358-2",
+    "date": "2026-07-07",
+    "id": "17834001037551"
+  },
+  {
+    "title": "Millfolio 提出本地混合 AI 隐私架构",
+    "summary": "将程序发送至数据，而非数据至模型。",
+    "detail": "Millfolio 博客介绍了一种隐私优先的 AI 架构，主张\"Send the program to your data\"。本地模型索引数据，前沿模型（如 Claude）仅针对脱敏 schema 编写程序，程序在本地 sandbox 运行。后端使用 Mojo 编写，包括自定义 GPU 内核。这种“发送程序到数据”的模式确保敏感数据不出设备，为本地混合 AI 应用提供了新的隐私保护思路与技术栈参考。作者邀请 scrutiny 其隐私设计边界，即模型仅见 schema 不见 values，这对构建可信本地 AI 系统具有重要参考价值。",
+    "tags": [
+      "Dev",
+      "Privacy",
+      "Mojo"
+    ],
+    "link": "https://millfolio.app/blog/send-the-program-to-your-data/",
+    "date": "2026-07-07",
+    "id": "17834001037552"
+  },
+  {
+    "title": "Stet 编辑器实现 AI 编辑人工签核",
+    "summary": "每个 AI 编辑需用户确认，Treat AI 如合著者。",
+    "detail": "Stet 是一款 Markdown 编辑器，主张将 AI 视为合著者而非最终草稿生成器。每个 AI 编辑作为 proposal 出现，用户可 accept/reject/refine。支持本地文件与 GitHub 协作，队友 push 变更也作为 proposal review。这种 human-in-the-loop 工作流确保用户知晓 AI 写入内容，适合需要严格控制内容质量与归属的开发与写作场景。工具强调\"Nothing lands without your call\"，通过 review card 和 comment thread 实现与 AI 的协作，拒绝黑盒编辑，提升内容可控性。",
+    "tags": [
+      "New",
+      "Workflow",
+      "Markdown"
+    ],
+    "link": "https://www.getstet.app/",
+    "date": "2026-07-07",
+    "id": "17834001037553"
+  },
+  {
+    "title": "Stitch 开源本地 AI 工作空间上线",
+    "summary": "免费开源桌面应用，本地运行无需云。",
+    "detail": "Stitch 推出免费开源桌面应用，主打本地运行无需 API Key 或云端。功能涵盖邮件管理、会议录音转录（如 Zoom 47 分钟录音）、待办追踪及日常自动化。支持 Zoom/Slack 等集成，数据保留在本地机器。这为关注隐私的用户提供了本地化 AI 生产力工具的新选择，减少对云服务的依赖。应用能创建 daily automation 如每日邮件总结，并管理 agenda 与 todos，实现真正的 on-device AI 工作流，无需担心数据泄露至云端服务商。",
+    "tags": [
+      "New",
+      "OpenSource",
+      "LocalAI"
+    ],
+    "link": "https://www.usestitch.ai/",
+    "date": "2026-07-07",
+    "id": "17834001037554"
+  },
+  {
     "title": "首个 AI 代理勒索软件攻击曝光，仍需人类介入",
     "summary": "Sysdig 发现首个 AI 代理勒索软件 JadePuffer，但背后仍有人类操作。",
     "detail": "**安全公司 Sysdig 记录了首个“代理勒索软件”JadePuffer 案例。** AI 代理完成了从入侵到加密文件的技术执行，甚至自适应编写勒索信，利用 Langflow 漏洞进入系统并移动至 MySQL 服务器。然而，研究人员澄清，人类仍负责设置基础设施、命令控制服务器和选择受害者，凭证也是预先获取的。这表明 AI 自动化攻击能力正在进化，技术细节虽惊人，但完全无人值守的攻击尚未实现。企业需警惕 AI 代理被滥用的安全风险，特别是开源工具中的已知漏洞可能成为攻击入口，安全防御需同步升级以应对这种混合威胁。",
@@ -1249,57 +1301,5 @@
     "link": "https://www.youtube.com/watch?v=aE3gPh2CC9I",
     "date": "2026-07-04",
     "id": "17831849319024"
-  },
-  {
-    "title": "参议院提案建立联邦认证 AI 代理清单",
-    "summary": "参议员 Mark Warner 提出法案，要求联邦验证 AI 代理安全性。",
-    "detail": "美国参议院草案旨在建立联邦验证的 AI 代理供应商清单，由参议员 Mark Warner 领导。该法案允许大型平台用户选择符合 FTC 安全标准的 AI 代理，旨在解决 AI 代理在未经授权下代表用户决策的问题。要求提供商链接人类操作者身份并提供控制权，虽不能禁止不合规 provider，但可将其从名单除名。这对 AI 代理合规性提出新要求，影响未来代理市场准入。该法案虽为讨论草案，但释放了明确信号：未来 AI 代理需通过安全认证才能进入主流平台。这将增加合规成本，但能显著提升用户信任度，防止恶意代理滥用权限。对于开发者而言，需提前布局身份验证与安全控制机制，以适应即将到来的监管环境，确保产品符合联邦标准。",
-    "tags": [
-      "News",
-      "Policy",
-      "Security"
-    ],
-    "link": "https://cyberscoop.com/ai-agent-act-senate-draft-bill-mark-warner/",
-    "date": "2026-07-04",
-    "id": "17831777489620"
-  },
-  {
-    "title": "恶意 AI 代理技能绕过安检影响 2.6 万用户",
-    "summary": "恶意 AI 技能通过安全检查，暴露代理生态系统风险。",
-    "detail": "一名恶意开发者创建的 AI 代理技能成功绕过所有安全扫描器，影响了 26,000 名用户。此事件揭示了当前 AI 代理生态系统中的严重安全漏洞，表明现有的自动化安全检查不足以防止恶意代码分发。呼吁加强审查机制，防止代理被用于窃取数据或执行未授权操作。这对平台方提出了更高的安全验证要求，需警惕类似供应链攻击。随着 AI 代理权限扩大，此类风险将呈指数级增长。安全团队需引入行为分析与沙箱测试，而非仅依赖静态扫描。此事件为行业敲响警钟，表明在追求代理自主性的同时，必须建立更深层的防御体系，确保用户数据与系统完整性不受侵害。",
-    "tags": [
-      "News",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://www.csoonline.com/article/4188840/how-a-malicious-ai-agent-skill-passed-security-checks-and-reached-26000-users.html",
-    "date": "2026-07-04",
-    "id": "17831777489621"
-  },
-  {
-    "title": "Open Kioku：为 AI 编码代理添加本地证据层",
-    "summary": "本地优先的代码智能 MCP，让 AI 编辑前先检索证据。",
-    "detail": "Open Kioku 是一个本地优先的代码智能 MCP 工具，专为 Claude、Cursor 等编码代理设计。它通过本地索引和只读 MCP 工具，让 AI 在编辑代码前检查仓库状态、搜索代码及分析影响。无需云端发送代码，保障隐私的同时提升 AI 编码准确性，解决代理幻觉问题。支持多种代理如 Codex、Gemini，通过简单命令即可集成，是本地开发的安全增强层，确保 AI 操作有据可依。对于企业级开发，这种本地化证据层能有效防止代码泄露，同时提升 Agent 对复杂代码库的理解能力，减少错误修改。此外，该工具采用 Elastic 许可证，鼓励社区贡献。通过标准化 MCP 接口，它降低了不同编码代理间的切换成本，使开发者能更灵活地选择工具链。在本地优先架构成为趋势的当下，Open Kioku 代表了保护知识产权与利用 AI 效率之间的平衡方案，值得团队集成到 CI/CD 流程中。",
-    "tags": [
-      "Dev",
-      "MCP",
-      "Coding"
-    ],
-    "link": "https://github.com/shivyadavus/open-kioku",
-    "date": "2026-07-04",
-    "id": "17831777489622"
-  },
-  {
-    "title": "CTOP：AI 编码代理的终端监控面板",
-    "summary": "类似 htop 的工具，监控 AI 代理的 CPU、Token 及成本。",
-    "detail": "CTOP 是专为 AI 编码代理设计的交互式进程查看器，被誉为 AI 代理界的 `htop`。它支持在单一终端面板中监控 Claude Code、Codex CLI 等会话的 CPU、内存、Token 消耗、上下文窗口及成本。零依赖设计，帮助开发者实时掌握代理运行状态和资源开销，优化调试效率。跨平台支持 macOS、Linux 和 Windows，是管理多代理并发任务的必备工具，提升开发透明度。在 Agent 自主运行日益普遍的未来，此类监控工具将成为标配，帮助团队控制成本并防止资源滥用，确保 AI 辅助开发的经济性与稳定性。该项目采用 MIT 许可证，完全开源且零依赖，便于集成到现有工作流。随着 AI 代理自主性增强，资源失控风险增加，CTOP 提供了必要的可观测性。支持 Node.js 18+ 环境，轻量级设计确保不干扰代理运行。对于需要监控多个并发代理会话的企业团队，这是实现精细化成本管理和性能优化的关键基础设施。",
-    "tags": [
-      "Dev",
-      "Monitoring",
-      "Agent"
-    ],
-    "link": "https://github.com/aakashadesara/ctop",
-    "date": "2026-07-04",
-    "id": "17831777489623"
   }
 ]
