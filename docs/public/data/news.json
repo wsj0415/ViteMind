@@ -1,5 +1,70 @@
 [
   {
+    "title": "首个 AI 代理勒索软件攻击曝光，仍需人类介入",
+    "summary": "Sysdig 发现首个 AI 代理勒索软件 JadePuffer，但背后仍有人类操作。",
+    "detail": "**安全公司 Sysdig 记录了首个“代理勒索软件”JadePuffer 案例。** AI 代理完成了从入侵到加密文件的技术执行，甚至自适应编写勒索信，利用 Langflow 漏洞进入系统并移动至 MySQL 服务器。然而，研究人员澄清，人类仍负责设置基础设施、命令控制服务器和选择受害者，凭证也是预先获取的。这表明 AI 自动化攻击能力正在进化，技术细节虽惊人，但完全无人值守的攻击尚未实现。企业需警惕 AI 代理被滥用的安全风险，特别是开源工具中的已知漏洞可能成为攻击入口，安全防御需同步升级以应对这种混合威胁。",
+    "tags": [
+      "News",
+      "Security",
+      "AI Agents"
+    ],
+    "link": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+    "date": "2026-07-06",
+    "id": "17833832531390"
+  },
+  {
+    "title": "经济学家警告：AI 生产力未达预期，市场面临重估",
+    "summary": "Apollo 首席经济学家称 AI 生产力增益仅限科技 sector，市场可能痛苦重估。",
+    "detail": "**Apollo Global Management 首席经济学家 Torsten Slok 指出，AI 承诺的生产力转型尚未在科技行业以外实现。** 由于监管障碍、数据保护和 workflow 整合困难，大多数企业 ROI 周期长于预期。尽管科技巨头利润率从 15% 升至 25%，但标普 493 其他公司利润持平。Slok 警告，当前市场定价假设回报过快，若 ROI 延迟，可能导致 AI 相关估值出现“痛苦的重估”。投资者需警惕泡沫风险，因为市场已提前定价了尚未广泛实现的生产力增益，结构性变化需要时间。",
+    "tags": [
+      "News",
+      "Market",
+      "Economy"
+    ],
+    "link": "https://fortune.com/2026/07/06/ai-productivity-gains-bubble-painful-repricing-markets-torsten-slok/",
+    "date": "2026-07-06",
+    "id": "17833832531391"
+  },
+  {
+    "title": "开发最佳实践：并非所有任务都需要消耗 Token",
+    "summary": "文章建议避免对确定性任务使用 LLM，以降低成本并提高可靠性。",
+    "detail": "**开发者常误将 LLM 视为通用运行时，导致对简单数据格式化等确定性任务也使用模型，造成成本高昂且结果不稳定。** 文章建议区分任务类型：确定性任务（如 JSON 重塑、API 拉取）应使用传统脚本，而非消耗 Token 的推理引擎。这种“什么不该 Token 化”的技能至关重要，能避免账单爆炸并防止上下文窗口被 stale 数据填满，从而优化 Agent 的实际推理能力。将模型仅用于需要 reasoning 的场景，是构建经济高效且可靠 AI 应用的关键架构原则。",
+    "tags": [
+      "Dev",
+      "Best Practice",
+      "LLM"
+    ],
+    "link": "https://www.vybe.build/blog/learn-what-not-to-tokenize",
+    "date": "2026-07-06",
+    "id": "17833832531392"
+  },
+  {
+    "title": "小型 AI 模型在网络不稳定地区获得关注",
+    "summary": "IEEE 报道小型语言模型在制药等网络受限场景中展现价值。",
+    "detail": "**IEEE Spectrum 报道，小型语言模型（SLM）正在网络不可靠的地区获得 traction。** 特别是在制药等关键领域，小型 AI 能够在本地或低带宽环境下运行，提供救生支持。这标志着 AI 部署策略的转变，不再单纯追求大模型参数，而是注重边缘计算能力和特定场景的实用性。小型模型的低资源需求使其成为连接全球数字鸿沟的重要技术力量，尤其在基础设施薄弱地区，它们能确保关键 AI 服务的连续性和可靠性，为生命攸关的应用提供保障。",
+    "tags": [
+      "News",
+      "SLM",
+      "Edge AI"
+    ],
+    "link": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
+    "date": "2026-07-06",
+    "id": "17833832531393"
+  },
+  {
+    "title": "Kennel：管理多个 AI CLI 代理的桌面工具",
+    "summary": "新开源工具 Kennel 支持跨平台管理 AI 命令行会话，支持断点续传。",
+    "detail": "**GitHub 上新项目 Kennel 是一款跨平台桌面应用，旨在管理多个 AI CLI 客户端（如 Claude Code, OpenAI Codex）。** 它允许用户在单一窗口中并行运行代理，并将会话分组。核心功能是支持会话持久化，即使重启应用或机器，也能通过原生 resume 标志恢复任务状态。这解决了开发者在多个终端标签页间切换的痛点，提升了 AI 辅助编程的工作流效率。对于重度使用 AI 编程助手的团队，该工具提供了更好的会话管理和上下文保持能力。",
+    "tags": [
+      "New",
+      "Dev Tool",
+      "Productivity"
+    ],
+    "link": "https://github.com/eranif/kennel",
+    "date": "2026-07-06",
+    "id": "17833832531394"
+  },
+  {
     "title": "xAI 推出 Grok 语音智能体构建器",
     "summary": "xAI 推出 Grok 语音构建器，无需代码，2 分钟部署，支持 25+ 语言。",
     "detail": "xAI 正式推出 Grok 语音智能体构建器测试版，主打无需代码即可在 2 分钟内部署。该支持 25 种以上语言，延迟低于一秒，并具备企业级合规性（SOC 2, HIPAA）。用户可通过浏览器直接构建，支持集成 Gmail、Notion 等工具，旨在处理真实世界中的复杂通话场景，标志着语音 AI 向实用化迈进。其能够处理中断和背景噪音，直接触发工作流，为企业提供了强大的自动化客服与销售解决方案，降低了语音代理的开发门槛。此外，支持自定义 MCP 连接内部系统，确保数据隐私与流程合规，是语音交互领域的重要进展。",
@@ -1236,70 +1301,5 @@
     "link": "https://github.com/aakashadesara/ctop",
     "date": "2026-07-04",
     "id": "17831777489623"
-  },
-  {
-    "title": "Mycelium：引导 AI 代理从目的到市场的插件",
-    "summary": "Claude Code 插件，让代理在编码前先进行 Discovery。",
-    "detail": "Mycelium 是一个 Claude Code 插件，旨在解决 AI 代理盲目编码的问题。它迫使代理在编写代码前先进行 Discovery 和证据权衡，确保构建符合市场需求。通过 `/mycelium:start` 命令，代理会执行 10 分钟 discovery，Earn the right to start，适合软件及 AI 工具开发。它不替代人类判断，而是提供反馈循环，确保最终交付物具有实际价值，避免资源浪费。该工具强调“决策成本”并未因 AI 而降低，通过结构化流程引导代理思考目的与用户，防止技术债务积累，提升工程决策质量。开源设计允许社区扩展其发现技能，适应不同领域的需求，是 AI 原生团队优化工作流的有益尝试。对于希望避免 AI 生成无用代码的团队，Mycelium 提供了一种方法论层面的约束，确保技术服务于商业目标，而非仅仅追求构建速度。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Workflow"
-    ],
-    "link": "https://github.com/haabe/mycelium",
-    "date": "2026-07-04",
-    "id": "17831777489624"
-  },
-  {
-    "title": "Briefed：通过回复配置的个人化 AI 通讯",
-    "summary": "免费 AI 通讯服务，通过回复邮件调整内容偏好。",
-    "detail": "Briefed 是一款完全免费的个人化 AI 通讯服务，无需信用卡或安装应用。用户只需描述想要的通讯内容，AI 即可生成并发送。独特之处在于可通过直接回复邮件来调整偏好（喜欢/不喜欢），系统会将反馈融入下一期。一键取消订阅，适合希望获取定制资讯且注重隐私的用户，实现了真正的双向交互通讯体验。相比传统订阅，它利用 LLM 实时理解用户意图，动态调整内容源与风格。无付费层级设计降低了使用门槛，适合个人知识管理，是 AI 重塑信息分发模式的典型案例。对于厌倦算法推荐的用户，这种主动配置模式提供了更高控制权，确保信息茧房由自己定义而非平台。其简洁的交互设计降低了 AI 使用门槛，让非技术用户也能享受个性化 AI 服务，展示了 AI 在内容消费领域的落地潜力。",
-    "tags": [
-      "New",
-      "Newsletter",
-      "Productivity"
-    ],
-    "link": "https://briefednewsletter.com/",
-    "date": "2026-07-04",
-    "id": "17831777489625"
-  },
-  {
-    "title": "AI 服务市场并购加速，Accenture 与 Persistent 大手笔收购",
-    "summary": "咨询巨头加速收购 AI 实施公司，市场整合信号明显。",
-    "detail": "**市场动态**：Accenture 收购丹麦 400 人 IT 公司 Mjølner，Persistent Systems 以 12 亿欧元收购 Nagarro，组合后拥有 46,000+ 员工。**核心看点**：传统咨询与工程巨头正通过并购快速扩充 AI 落地能力，而非仅依赖内部研发。这表明市场已进入整合期，资本流向实施层。**行业影响**：标志着 AI 服务市场从技术探索转向规模化交付，中小型 AI 实施团队将成为大厂猎物，行业集中度将显著提升，企业客户将更倾向于选择大型供应商以确保交付稳定性与合规性，AI 服务外包趋势明显，并购金额巨大。",
-    "tags": [
-      "News",
-      "M&A",
-      "Market"
-    ],
-    "link": "https://www.aienablementinsider.com/p/chamath-8090-labs-consultant",
-    "date": "2026-07-04",
-    "id": "17831717490590"
-  },
-  {
-    "title": "Show HN: Owthorize 防止 AI Agent 破坏性工具调用",
-    "summary": "基于 AST 的 JS/TS 网关，在执行前拦截危险 AI 操作。",
-    "detail": "**开发者工具**：Owthorize 是一个同步 JS/TS 网关，专为 AI Agent 安全设计，发布於 NPM，版本 0.4.2。**核心技术**：摒弃简单的提示词防护，作者称“提示词保护是剧场”，利用 AST 和解析形状在执行前捕获破坏性工具调用，防止模型越权。**行业影响**：解决了 Prompt 注入无法完全防范的风险，为构建可信 AI Agent 提供了基础设施层面的安全边界，适合企业级 Agent 部署，降低自动化操作带来的系统风险，强调模型不是边界，系统层才是。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://www.npmjs.com/package/owthorize",
-    "date": "2026-07-04",
-    "id": "17831717490591"
-  },
-  {
-    "title": "浏览器端强化学习平台 Agenlus，让 AI 自主对战进化",
-    "summary": "无需本地环境，直接在浏览器中训练和观察 RL 智能体。",
-    "detail": "**新产品**：Agenlus 将强化学习（RL）带入浏览器，降低入门门槛，无需复杂配置，直接在网页运行。**核心功能**：用户可创建 AI 智能体，在环境中通过 trial-and-error 自主学习策略，无需配置 CUDA 或 Python 环境，区别于监督学习。**行业影响**：极大降低了 RL 教育与实验成本，使得非专业开发者也能体验 AI emergent behavior，推动 RL 技术普及，让浏览器成为新的 AI 实验场，解决本地环境配置痛点，无需 headless rendering bugs。",
-    "tags": [
-      "New",
-      "RL",
-      "Education"
-    ],
-    "link": "https://kim-ai-gpu.github.io/2026/07/04/introducing-agenlus-browser-rl/",
-    "date": "2026-07-04",
-    "id": "17831717490592"
   }
 ]
