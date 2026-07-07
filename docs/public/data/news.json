@@ -1,5 +1,70 @@
 [
   {
+    "title": "Meta 发布 Muse 图像生成模型，集成至 Instagram 与 WhatsApp",
+    "summary": "Meta 推出免费 AI 图像生成器 Muse，支持预设提示与图像编辑，深度集成旗下应用。",
+    "detail": "Meta 超级智能实验室正式发布 Muse Image 生成模型，内部代号 Mango。该功能将通过 Meta AI 应用、Instagram Stories 及 WhatsApp 免费向用户开放。核心功能包括预设提示词生成、自定义广告素材创作及基于文本的图像编辑（如移除背景人物、生成二维码）。演示视频展示了其在室内装饰预览及 Facebook Marketplace 集成上的潜力。此举标志着 Meta 将生成式 AI 深度融入其社交生态体系，旨在降低内容创作门槛并增强广告变现能力。随着 AI 内容泛滥，平台级集成可能加剧社交媒体的 AI 内容竞争，同时为创作者提供无缝工作流，巩固其在 AI 应用层的地位。",
+    "tags": [
+      "News",
+      "Generative AI",
+      "Meta"
+    ],
+    "link": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
+    "date": "2026-07-07",
+    "id": "17834654361500"
+  },
+  {
+    "title": "成本飙升促使美国企业转向中国 AI 模型，OpenRouter 用量激增",
+    "summary": "因美国模型成本上涨，DeepSeek 等中国模型在美市场份额显著提升，OpenRouter 用量超 30%。",
+    "detail": "随着 OpenAI 和 Anthropic 等美国实验室提高 Token 价格，中国模型（如 DeepSeek、Z.ai）因性价比优势在美国企业中获得 traction。数据显示，美国公司通过 OpenRouter 使用中国模型的 Token 份额自 2 月以来持续高于 30%，峰值达 46%，远超此前平均水平。尽管美国政府考虑监管并限制部分模型 rollout，但成本压力迫使企业寻求替代方案。这反映了全球 AI 供应链的成本敏感性与地缘博弈。企业需在性能、成本与合规间寻找平衡，中国开源及开放权重模型正成为关键替代选项，可能重塑 API 经济格局。",
+    "tags": [
+      "News",
+      "LLM",
+      "Market Trend"
+    ],
+    "link": "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html",
+    "date": "2026-07-07",
+    "id": "17834654361501"
+  },
+  {
+    "title": "欧盟 AI 法案 8 月全面生效，工程合规清单发布",
+    "summary": "2026 年 8 月 2 日欧盟 AI 法案正式适用，高风险系统需满足具体工程义务与证据留存。",
+    "detail": "欧盟 AI 法案将于 2026 年 8 月 2 日全面生效，涵盖招聘、信贷、教育及关键基础设施等高风险系统。Conformity Engineering 发布工程清单，强调合规应作为系统属性而非事后文档。核心要求包括将合规嵌入工程管道，持续生成证据 artifact。企业需从“法律合规项目”转向“工程合规实践”，类似 SRE 与 DevSecOps 的演变，确保系统变更符合监管。若仅依赖律师文档而忽略系统实时变化，将无法通过审计。这标志着 AI 治理进入工程化落地阶段，要求技术团队直接承担合规责任，重构开发流程以满足透明度与可审计性要求。",
+    "tags": [
+      "News",
+      "Regulation",
+      "Compliance"
+    ],
+    "link": "https://conformityengineering.com/playbook/",
+    "date": "2026-07-07",
+    "id": "17834654361502"
+  },
+  {
+    "title": "高通开源 GenieX 运行时，支持 Hexagon NPU 本地运行前沿模型",
+    "summary": "高通收购 Nexa AI 后开源 GenieX， enabling 在 NPU/GPU/CPU 上本地运行 LLM 与 VLM。",
+    "detail": "高通宣布收购 Nexa AI 并开源 GenAI 运行时 GenieX。该工具允许开发者通过几行代码在 Qualcomm 设备（NPU、GPU、CPU）上本地运行前沿 LLM 和 VLM。此举旨在优化边缘 AI 性能，降低云端依赖。对于移动端和 IoT 开发者而言，这意味着更高效、隐私安全的本地推理方案，推动端侧智能普及。GenieX 支持 Hexagon NPU 加速，解决了移动端部署复杂性问题。随着端侧算力提升，本地运行大模型将成为趋势，高通此举意在构建硬件与软件生态壁垒，吸引开发者在其芯片平台上构建 AI 应用。",
+    "tags": [
+      "Dev",
+      "Edge AI",
+      "Open Source"
+    ],
+    "link": "https://github.com/qualcomm/GenieX",
+    "date": "2026-07-07",
+    "id": "17834654361503"
+  },
+  {
+    "title": "Activity-frames：为 AI Agent 提供本地屏幕记忆与 MCP 支持",
+    "summary": "开源项目 Activity-frames 记录本地屏幕活动，构建 Agent 情景记忆，支持 MCP 协议。",
+    "detail": "新项目 Activity-frames 旨在为 AI Agent 提供“情景记忆”。它在本地记录屏幕活动，编译为结构化活动帧，并通过 Model Context Protocol (MCP) 提供服务。无需云端或 LLM 介入即可运行。这解决了 Agent 缺乏用户上下文的问题，同时保障隐私。适合构建个人助理类 Agent，是本地优先（Local-first）AI 架构的重要实践。通过 MCP 协议，Agent 可安全访问用户历史操作上下文，无需上传敏感屏幕数据。这种架构降低了延迟并增强了数据主权，为构建真正懂用户的个人 AI 助手提供了基础设施层支持，避免了云端的隐私泄露风险。",
+    "tags": [
+      "Dev",
+      "AI Agent",
+      "Privacy"
+    ],
+    "link": "https://github.com/nossa-y/activity-frames",
+    "date": "2026-07-07",
+    "id": "17834654361504"
+  },
+  {
     "title": "AI 数据中心导致美国制造业能源成本飙升",
     "summary": "AI 数据中心需求激增，致使美国制造业能源成本大幅上涨。",
     "detail": "**背景**：随着 AI 模型规模扩大，基础设施能源需求激增。**核心**：Ars Technica 2026 年 7 月报道，美国制造商因 AI 数据中心抢占电力资源，导致能源成本大幅飙升。**影响**：这揭示了 AI 发展的物理瓶颈，能源分配矛盾可能迫使制造业转型或推动政策干预。长期来看，绿色能源与高效算力将成为行业竞争关键，社会需平衡技术创新与基础民生成本。此现象可能加速核能或可再生能源在数据中心的应用落地。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.bbc.com/news/articles/cgrkd41n2v9o",
     "date": "2026-07-05",
     "id": "17832496014121"
-  },
-  {
-    "title": "AI 代理系统设计模式与验证方法",
-    "summary": "提供设计模式目录，通过证据而非意见构建可验证的代理系统。",
-    "detail": "**Verification Design** 项目提出了一套 AI 设计模式，旨在解决 LLM 无法可靠自我纠正的问题。通过减少方差和对抗系统性偏差（如奉承、自我审查盲区），使概率系统更接近确定性行为。核心包括因果标签、上下文状态管理等 5 种模式。该项目为开发者提供了构建可靠 Agentic System 的方法论，强调通过可执行检查和控制编排来提升系统稳定性。它指出方差是新的耦合，锚定是新的内聚力，每个模式都命名了其约束内容。这为构建证据驱动而非意见驱动的代理系统提供了理论支撑，有助于解决生产环境中 AI 行为不可预测的难题，提升系统可信度。",
-    "tags": [
-      "Dev",
-      "Best Practices",
-      "Agents"
-    ],
-    "link": "https://verificationdesign.com/",
-    "date": "2026-07-05",
-    "id": "17832496014122"
-  },
-  {
-    "title": "制定 AI 路由策略以优化成本与交付",
-    "summary": "通过编写验收标准来制定 AI 路由策略，记录任务执行路径与成本。",
-    "detail": "文章提出 **AI Routing Policy** 概念，作为 AI 委托生命周期的关键产物。它记录每类任务的最佳执行路径（便宜模型、前沿模型、代码或人工），并定义“完成标准”。这不仅优化成本，还为财务团队提供可审计的消费记录。作者强调这是团队可重复的决策，而非临时选择，帮助企业在 AI 规模化应用阶段实现成本可控与责任明确。技能需求仅是编写验收标准，无需深厚技术背景。随着 CFO 关注 AI 回报，该策略将成为必备文档，确保每一笔 AI 支出都有据可查，避免资源浪费，促进团队间对 AI 使用标准的统一认知与管理。",
-    "tags": [
-      "Dev",
-      "Management",
-      "Cost Optimization"
-    ],
-    "link": "https://age-of-product.com/ai-routing-policy/",
-    "date": "2026-07-05",
-    "id": "17832496014123"
-  },
-  {
-    "title": "美政策意外加速中国开源 AI 生态发展",
-    "summary": "论文指出美国出口管制反而促使中国更深入嵌入开源 AI 战略。",
-    "detail": "**arXiv 最新论文** 分析指出，美国旨在保持 AI 领导地位的政策（如芯片出口管制）意外加速了中国开源 AI 生态系统的发展。面对技术限制，中国开发者更积极参与开源 LLM 仓库，并将开源 AI 嵌入国家战略。研究发现中国起源的开源模型在学术界和商业研究中广泛扩散，表明技术 containment 政策可能反而激发开放创新生态作为竞争响应。尽管这些模型在美国专利披露中缺席，但美国商业实体在开放研究中使用了它们。这对全球 AI 学术和商业领导地位 implications 深远，提示技术封锁可能适得其反，促进对手生态韧性。",
-    "tags": [
-      "News",
-      "Research",
-      "Geopolitics"
-    ],
-    "link": "https://arxiv.org/abs/2606.15999",
-    "date": "2026-07-05",
-    "id": "17832496014124"
-  },
-  {
-    "title": "为 AI 代理提供隔离机器环境 Code on Incus",
-    "summary": "基于 Incus 的隔离容器方案，让 AI 代理拥有独立 root 机器且保障安全。",
-    "detail": "**Code on Incus** 是一个安全工具，为每个 AI 编码代理分配独立的系统容器（含 root、systemd、Docker）。代理可在隔离环境中运行服务、管理包，而不触碰主机系统。关键特性包括主动防御机制，自动检测并阻止威胁，且主机凭证（SSH、Git Token）默认不暴露。这解决了 AI 代理执行代码时的安全风险，适合需要高权限操作但又需隔离环境的开发场景。文件所有权保持正确，无需权限 hacks。若出现异常，COI 会自动捕获。该方案为 AI 代理提供了类似真实服务器的操作体验，同时保障了宿主机的安全性，是构建可信 AI 开发环境的重要基础设施。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Infrastructure"
-    ],
-    "link": "https://github.com/mensfeld/code-on-incus",
-    "date": "2026-07-05",
-    "id": "17832496014125"
-  },
-  {
-    "title": "Hunch：基于 Git 的 AI 决策图谱，让代码库记住“为什么”",
-    "summary": "Git 原生决策图谱工具，帮助 AI 理解代码变更背后的意图与权衡。",
-    "detail": "Hunch 是一款 Git 原生的决策图谱工具，旨在解决 AI 编码会话中“意图蒸发”的问题。它让代码库不仅记录变更内容，更记住变更背后的“为什么”，包括决策权衡、已修复的 bug 及必须遵守的不变量。工具以纯文件形式存在于 repo 中，默认 advisory 模式，无 SaaS 且离线可用。当 AI 试图回滚故意的工作区或违反架构约束时，Hunch 会展示决策收据与证据。这确保了每次 AI 会话都与历史架构一致性，防止代理重复发现已解决的 bug 或破坏关键设计。",
-    "tags": [
-      "Dev",
-      "Git",
-      "Memory"
-    ],
-    "link": "https://hunch-pi.vercel.app",
-    "date": "2026-07-05",
-    "id": "17832388533944"
   }
 ]
