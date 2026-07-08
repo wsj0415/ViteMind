@@ -1,5 +1,57 @@
 [
   {
+    "title": "Prime Intellect 获 1.3 亿美元融资，助力企业自建 AI Agent",
+    "summary": "初创公司 Prime Intellect 完成 1.3 亿美元 A 轮融资，估值 10 亿，提供全栈 Agent 开发工具。",
+    "detail": "Prime Intellect 致力于帮助企业摆脱对前沿 AI 实验室的依赖，自建 Agentic 系统。本轮融资由 Radical Ventures 领投，Nvidia Ventures、Intel Capital 等参投，估值达 10 亿美元。众多知名创始人如 Perplexity、Box 创始人跟投。平台提供计算资源、强化学习框架及评估工具的全栈解决方案，采用模块化市场模式，客户可按需选择工具。这使得企业能以可负担的成本在前沿领域运营，解决基础设施复杂难题。通过强化学习技术迭代奖励成功任务完成，公司可成为自己的 AI 实验室，针对特定业务任务 refine 模型，无需依赖封闭的 AI 实验室，大幅降低定制门槛，推动企业级 Agent 普及。",
+    "tags": [
+      "News",
+      "Funding",
+      "AI Agents"
+    ],
+    "link": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+    "date": "2026-07-08",
+    "id": "17835289311760"
+  },
+  {
+    "title": "InterviewWatch 上线，实时检测面试中的 AI 作弊行为",
+    "summary": "新工具 InterviewWatch 可在技术面试中实时标记 AI 辅助作弊，生成防篡改报告，不录制屏音。",
+    "detail": "随着 AI 作弊成为招聘风险，InterviewWatch 通过追踪 12+ 完整性信号，在不录制屏幕或音频的前提下实时检测 AI 协助。数据显示 38% 的技术面试存在作弊嫌疑，且作弊率单季度从 9% 飙升至 45%。作弊工具已获风投支持，如 Cluely 获 a16z 投资。该工具旨在恢复面试审计能力，提供可信赖的 hiring integrity 验证，应对日益猖獗的代理面试和 AI 生成身份问题。Gartner 预测到 2028 年四分之一的候选人资料将为虚假，此工具为招聘方提供了关键的防御手段，确保面试结果的真实性，生成防篡改报告供后续追溯，解决招聘环节最后一步的审计缺失，维护 hiring 公平性。",
+    "tags": [
+      "New",
+      "Hiring",
+      "Security"
+    ],
+    "link": "https://www.interviewwatch.com/",
+    "date": "2026-07-08",
+    "id": "17835289311761"
+  },
+  {
+    "title": "Elastic 深度解析：如何从架构层面构建 AI Agent 治理",
+    "summary": "探讨自主安全 Agent 的治理难题，强调在 ISO 42001 等法规下需证明系统行为可控且可解释。",
+    "detail": "行业 AI 能力快速发展，但治理滞后。Elastic 指出当前分层自主模型无法确保 Agent 行为质量，低风险提示可能掩盖错误分类。面对 ISO 42001、DORA、NIS2 及 EU AI Act 等法规，企业需证明 AI 系统按意图工作且有人类监督。文章建议从架构入手构建治理基础设施，确保持续验证 Agent 在压力下的决策逻辑，为即将到来的合规评估做准备。自主安全 Agent 的评估标准虽未完全建立，但方向明确，提前布局治理基础设施的组织将在合规浪潮中占据优势，确保证明系统持续正确运行，满足监管对可解释性和人类 oversight 的严格要求。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Governance"
+    ],
+    "link": "https://www.elastic.co/blog/the-future-of-governing-ai-agents",
+    "date": "2026-07-08",
+    "id": "17835289311762"
+  },
+  {
+    "title": "GitHub 示例：基于 Telnyx 构建 AI 电话语言导师",
+    "summary": "Telnyx 开源代码示例，展示如何利用 Python 和 AI 构建可接听电话的语言学习导师。",
+    "detail": "该 GitHub 仓库提供了构建 AI 语言学习电话导师的完整 Python 代码示例。开发者可利用 Telnyx 的语音 API 结合 AI 模型，实现实时语音交互的教学场景。项目展示了如何将 AI 能力集成到传统电话网络中，为开发者提供了语音 AI 应用落地的参考架构。适合希望探索实时语音交互技术的开发人员学习，代码示例涵盖了从电话接听到 AI 响应生成的完整流程，降低了语音 AI 开发门槛。通过此示例，开发者可快速原型化语音助手应用，理解 telephony 与 LLM 集成的关键技术点，推动 AI 在教育领域的语音交互落地，实现随时随地的语言练习。",
+    "tags": [
+      "Dev",
+      "Python",
+      "Voice AI"
+    ],
+    "link": "https://github.com/team-telnyx/telnyx-code-examples/tree/main/ai-language-learning-phone-tutor-python",
+    "date": "2026-07-08",
+    "id": "17835289311763"
+  },
+  {
     "title": "Meta 新功能引争议：AI 可用公开头像生成图像",
     "summary": "Meta 允许用公开头像生成 AI 图像引隐私担忧，面临监管审查。",
     "detail": "Meta 面临因其新 AI 工具 Muse Image 引发的强烈反对。该工具允许用户利用他人的公开 Instagram 头像生成 AI 图像，且无需通知被使用者。尽管 Meta 声称用户可选择退出，但隐私组织 Foxglove 批评这是“明显的灾难配方”。监管机构如 Ofcom 正在调查类似非共识 AI 图像问题，此功能可能面临更严格的审查。这标志着 AI 生成内容隐私边界成为监管焦点。随着 AI 图像生成普及，未经同意的深度伪造风险加剧，平台责任与用户隐私权的冲突日益凸显，可能推动相关立法进程。此类技术滥用已导致多起危害事件，行业亟需建立更严格的 consent 机制。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/",
     "date": "2026-07-06",
     "id": "17833090930462"
-  },
-  {
-    "title": "新论文 Pangram Text：AI 生成文本检测误差降低 38 倍",
-    "summary": "基于 Transformer 的分类器，在 10 个文本域 benchmark 上表现优异。",
-    "detail": "arXiv 发布 Pangram AI 生成文本分类器技术报告。该 Transformer 网络在区分人类与 LLM 文本上表现卓越，误差率比 DetectGPT 及商业工具低 38 倍。涵盖学生写作、新闻等 10 个领域及 8 种模型。提出硬负样本训练算法，为 AI 内容鉴伪提供新基准，有助于解决生成式 AI 带来的信息真实性与版权挑战。论文由 Bradley Emi 等撰写，2024 年提交，2026 年仍具参考意义，显示检测技术持续演进。随着生成内容泛滥，此类高精度检测器将成为平台合规与内容审核的关键基础设施，帮助区分机器与人类创作，维护信息生态健康。",
-    "tags": [
-      "Dev",
-      "Paper",
-      "Detection"
-    ],
-    "link": "https://arxiv.org/abs/2402.14873",
-    "date": "2026-07-06",
-    "id": "17833090930463"
-  },
-  {
-    "title": "Clusy 发布：像 Cursor 一样的 AI 原生数据科学 Notebook",
-    "summary": "代理原生平台，自然语言描述即可执行端到端 ML 任务。",
-    "detail": "Clusy 推出代理原生 Notebook 平台，专为机器学习与数据科学设计。用户用自然语言描述目标，Agent 自动规划、写代码并在云 CPU/GPU 上执行。支持 DeepSeek、Claude 等模型。不同于传统 Jupyter，它提供主动代理协助数据源选择与架构设计，输出可编辑 Notebook。为研究人员提供高效实验分支与对比功能，降低 ML 工程门槛。Free 计划含 Auto 模型，Pro 解锁所有模型，管理云沙盒环境。该平台旨在解决数据科学家在环境配置与代码调试上的时间损耗，通过 AI 代理实现端到端工作流自动化，让研究者更专注于模型逻辑而非工程细节，提升研发效率。",
-    "tags": [
-      "New",
-      "Dev",
-      "Tools"
-    ],
-    "link": "https://www.clusy.io",
-    "date": "2026-07-06",
-    "id": "17833090930464"
-  },
-  {
-    "title": "Cewsco 上线：基于 Dravik 的多模态 AI 助手",
-    "summary": "新推出的多模态助手，支持免费注册与多模态交互功能。",
-    "detail": "Cewsco 正式发布基于 Dravik 引擎的多模态 AI 助手。平台提供特性展示、定价及文档支持，用户可免费注册账户。作为新兴 AI 产品，它聚焦于多模态交互能力，旨在提升用户与 AI 的协作效率。虽然具体技术细节待披露，但其亮相显示了 AI 助手领域竞争加剧，多模态能力正成为新产品的标准配置。网站显示支持登录与密码找回，集成 Dravik 技术栈，面向需要多模态处理的企业或个人用户。在 AI 助手同质化严重的当下，Cewsco 试图通过底层模型差异化寻找突破口，关注其在实际场景中的多模态理解与生成能力表现。",
-    "tags": [
-      "New",
-      "Multimodal",
-      "Assistant"
-    ],
-    "link": "https://cewsco.com/",
-    "date": "2026-07-06",
-    "id": "17833090930465"
-  },
-  {
-    "title": "Base44 推出自研模型，构建 vibe-coding 护城河",
-    "summary": "Wix 收购的 Base44 发布自研模型，优化延迟与成本，寻求长期防御性。",
-    "detail": "Base44 在被 Wix 以 8000 万美元收购一年后，正式推出自研 AI 模型，旨在支持用户通过自然语言创建应用。创始人 Maor Shlomo 强调，训练并拥有模型作为栈的一部分，能在延迟、成本和效率上实现更多优化。此举意在应对业界关于依赖外部前沿模型是否具备长期防御性的讨论。相比依赖外部 LLM 的竞争对手如 Lovable，Base44 希望通过自有模型保持领先。VC 机构 Headline 合伙人指出，只有具备足够规模和数据的玩家才会选择训练自有模型。这标志着 AI 初创企业正寻求通过垂直整合来构建护城河，可能改变应用层与模型层的关系。",
-    "tags": [
-      "News",
-      "LLM",
-      "Startup"
-    ],
-    "link": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
-    "date": "2026-07-05",
-    "id": "17832853675010"
   }
 ]
