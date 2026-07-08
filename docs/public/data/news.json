@@ -1,5 +1,70 @@
 [
   {
+    "title": "IBM 与 Red Hat 推出 Lightwell 防御 AI 攻击",
+    "summary": "IBM 与红帽推出 Lightwell 服务，投入 50 亿美元防御开源代码 AI 攻击。",
+    "detail": "IBM 与 Red Hat 正式将 Project Lightwell 转化为产品服务，该项目 backed by 50 亿美元 AI 倡议。其核心任务是在工业规模上发现并修复开源软件漏洞。面对 AI 加速黑客 exploit 的现状，Lightwell 提供 AI 驱动的防御机制。ZDNET 指出 AI 驱动的攻击需要 AI 驱动的防御者，此举将保护开源生态系统安全。类似 Akrites 和 Athena 也在采取类似方法，共同应对开源安全混乱局面。对于软件开发者而言，AI 既是祝福也是诅咒，Lightwell 试图解决这一矛盾，确保开发者能安心使用 AI 构建程序，防御 AI 攻击。",
+    "tags": [
+      "News",
+      "Security",
+      "OpenSource"
+    ],
+    "link": "https://www.zdnet.com/article/ibm-and-red-hat-have-moved-project-lightwell-from-vision-to-product/",
+    "date": "2026-07-08",
+    "id": "17835348083940"
+  },
+  {
+    "title": "开源 AI 崛起尚未影响 Anthropic 市场份额",
+    "summary": "TechCrunch 分析显示，尽管开源模型崛起，Anthropic 仍占平台支出过半。",
+    "detail": "TechCrunch 分析显示，尽管开源模型崛起，Anthropic 仍占平台支出过半。Decagon CEO 提出理论，前沿模型与开源模型并非竞争而是生命周期互补。Vercel 数据显示 DeepSeek token 量激增，但 Anthropic 仍占总支出 50% 以上。成熟用例转向轻量模型，新用例继续驱动前沿模型支出，两者共存。这种动态表明企业 AI 部署正在分层，昂贵模型用于验证用例，随后迁移至廉价开源替代方案，整体支出并未因开源成功而减少，反而因新用例 arising 而保持稳定。",
+    "tags": [
+      "News",
+      "LLM",
+      "Market"
+    ],
+    "link": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
+    "date": "2026-07-08",
+    "id": "17835348083941"
+  },
+  {
+    "title": "微软发布 Flint：AI 代理可视化语言",
+    "summary": "微软研究院推出 Flint，帮助 AI 代理通过简单规范生成高质量图表。",
+    "detail": "Microsoft Research 发布 Flint，一种专为 AI 时代设计的可视化中间语言。它允许代理通过语义类型和简单规范生成 expressive 图表，支持 46 种图表类型及 Vega-Lite 等后端。降低了代理创建可视化的复杂度，提升输出质量。开发者可通过 npm 安装，并利用 MCP server 集成到 agent 工作流中。Flint 编译器从数据派生优化设置，无需 verbose 低层参数，使 AI 代理能可靠创建美观图表。Explore 83 examples in gallery，简化数据呈现流程，提升 Agent 交互体验。",
+    "tags": [
+      "Dev",
+      "Microsoft",
+      "Visualization"
+    ],
+    "link": "https://microsoft.github.io/flint-chart/#/",
+    "date": "2026-07-08",
+    "id": "17835348083942"
+  },
+  {
+    "title": "Monogram 获 4000 万美元种子轮，主打视觉交互 AI",
+    "summary": "新 AI 应用 Monogram 完成融资，提供交互式视觉界面生成内容。",
+    "detail": "Monogram 宣布完成 4000 万美元种子轮融资。该应用主打视觉界面交互，用户可通过自然语言指令生成食谱、计划等，并以交互式视觉形式呈现。区别于传统文本对话，提供更直观的 AI 体验，已上架 App Store。产品强调 on the fly generation，重塑用户与 AI 的交互方式。Monogram 响应 interactive visual interface，涵盖找电影、计划生日等场景，试图通过视觉化降低 AI 使用门槛，让 AI 应用更具象化。",
+    "tags": [
+      "New",
+      "Startup",
+      "UI/UX"
+    ],
+    "link": "https://www.monogram.ai/",
+    "date": "2026-07-08",
+    "id": "17835348083943"
+  },
+  {
+    "title": "MailKite：为 AI 代理打造的 Gmail API 替代方案",
+    "summary": "MailKite 解决 Gmail API 在 AI 代理集成中的 OAuth 与订阅痛点。",
+    "detail": "针对 AI 代理读取邮件的需求，MailKite 提供比 Gmail API 更简便的集成方案。解决了 OAuth 审查、推送订阅过期及消息解码繁琐等问题。提供 webhook 事件驱动架构，简化代理接收、思考、回复邮件的开发流程。开发者可克隆 demo 仓库快速测试接收验证回复循环。MailKite 旨在消除 Gmail API 在服务化时的摩擦，让 agent inbox 更易操作，无需域名即可看到 loop 运行，对比 Gmail API 路径大幅减少操作量。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "API"
+    ],
+    "link": "https://mailkite.dev/blog/gmail-api-for-ai-agents/",
+    "date": "2026-07-08",
+    "id": "17835348083944"
+  },
+  {
     "title": "Prime Intellect 获 1.3 亿美元融资，助力企业自建 AI Agent",
     "summary": "初创公司 Prime Intellect 完成 1.3 亿美元 A 轮融资，估值 10 亿，提供全栈 Agent 开发工具。",
     "detail": "Prime Intellect 致力于帮助企业摆脱对前沿 AI 实验室的依赖，自建 Agentic 系统。本轮融资由 Radical Ventures 领投，Nvidia Ventures、Intel Capital 等参投，估值达 10 亿美元。众多知名创始人如 Perplexity、Box 创始人跟投。平台提供计算资源、强化学习框架及评估工具的全栈解决方案，采用模块化市场模式，客户可按需选择工具。这使得企业能以可负担的成本在前沿领域运营，解决基础设施复杂难题。通过强化学习技术迭代奖励成功任务完成，公司可成为自己的 AI 实验室，针对特定业务任务 refine 模型，无需依赖封闭的 AI 实验室，大幅降低定制门槛，推动企业级 Agent 普及。",
@@ -1233,70 +1298,5 @@
     "link": "https://getexcalibur.dev/",
     "date": "2026-07-06",
     "id": "17833262110992"
-  },
-  {
-    "title": "联合国秘书长警告：AI 发展速度超越规则制定",
-    "summary": "联合国秘书长警示 AI 技术发展过快，现有监管框架难以跟上，呼吁全球协同治理。",
-    "detail": "联合国秘书长发出警告，指出人工智能技术的发展速度已超过规则制定的能力。随着 AI 在各行各业的快速渗透，现有的监管框架面临巨大挑战，无法及时应对潜在风险。该新闻强调了全球协同治理的紧迫性，暗示未来可能会有更严格的国际 AI 安全与伦理标准出台。路透社报道指出，技术迭代速度让政策制定者难以招架，需建立新机制以应对技术失控风险及社会影响，全球监管滞后于技术发展已成共识。",
-    "tags": [
-      "News",
-      "Policy",
-      "Regulation"
-    ],
-    "link": "https://www.reuters.com/technology/un-chief-warns-ai-is-developing-faster-than-rules-can-keep-up-2026-07-06/",
-    "date": "2026-07-06",
-    "id": "17833262110993"
-  },
-  {
-    "title": "ByteDance Seed 发布 EdgeBench：揭示真实环境 AI 学习 scaling laws",
-    "summary": "字节跳动 Seed 团队开源 EdgeBench，旨在研究真实世界环境中 AI 学习的扩展规律。",
-    "detail": "ByteDance Seed 团队推出了 EdgeBench 基准测试，专注于揭示 AI 在真实世界环境中学习的扩展规律（scaling laws）。该项目开源在 GitHub，旨在弥补传统静态基准测试与实际动态部署环境之间的差距。对于研究 AI 模型在边缘设备或复杂动态环境中表现的研究者和开发者来说，这是一个重要的评估工具。它帮助理解模型如何从真实环境反馈中学习，优化边缘 AI 部署策略，推动 AI 学习理论在现实场景中的应用验证。",
-    "tags": [
-      "Dev",
-      "Research",
-      "ByteDance"
-    ],
-    "link": "https://github.com/ByteDance-Seed/EdgeBench",
-    "date": "2026-07-06",
-    "id": "17833262110994"
-  },
-  {
-    "title": "AI 成本反超人力：企业裁员资助昂贵工具",
-    "summary": "福布斯报道 AI 工具成本高于被替代员工，Uber 预算耗尽。",
-    "detail": "福布斯指出科技界怪象：AI 工具成本竟高于被替代人类。Uber 耗尽全年 AI 预算仅用四月，84% 工程师采用 Claude Code，70% 代码源自 AI 但价值模糊。微软因账单过高叫停助手，某公司单月 Claude 账单达 5 亿美元。企业正经历结构性误判，按音节购买智能的成本结构导致裁员资助昂贵工具的非理性循环，引发对 AI 经济模型的深层质疑。Nvidia 副总裁也指出应用成本问题，显示行业需重新评估 ROI。这种成本倒挂现象可能迫使企业重新审视 AI 部署策略，从盲目跟风转向注重实际产出与成本控制的平衡，避免技术投资变成财务负担。",
-    "tags": [
-      "News",
-      "Cost",
-      "Enterprise"
-    ],
-    "link": "https://www.forbes.com/sites/jemmagreen/2026/07/02/ai-costs-more-than-the-people-it-replaced/",
-    "date": "2026-07-06",
-    "id": "17833090930460"
-  },
-  {
-    "title": "儿童 AI 采用率是成人三倍：UNICEF 警告监管滞后",
-    "summary": "全球 2000 万儿童使用 AI，采用速度远超安全规则制定。",
-    "detail": "UNICEF 在全球 AI 治理对话前发布报告，全球至少 2000 万儿童已使用 AI 工具，采用率是成人的三倍。1300 万用于学习，200 万寻求个人建议。儿童担忧深伪与诈骗，三分之一害怕 scams，四分之一担心性深伪。保护系统滞后，UNICEF 强调儿童是弱治理的首要受害者，呼吁在日内瓦对话中加强保护措施，避免技术风险长期影响下一代成长，需建立适合儿童的安全护栏。报告基于十国数据，显示 AI 已深入儿童作业、娱乐及社交，若无监管，隐私泄露与误导信息将对儿童心理造成不可逆伤害，政策制定刻不容缓。",
-    "tags": [
-      "News",
-      "Safety",
-      "Governance"
-    ],
-    "link": "https://hackenewhome.blogspot.com/p/ai-is-taking-over-kids-lives-unicef.html",
-    "date": "2026-07-06",
-    "id": "17833090930461"
-  },
-  {
-    "title": "AI 并未减负反而增忙：员工面临“大脑疲劳”",
-    "summary": "研究显示 AI  adoption 增加工作强度，专注时间减少 9%。",
-    "detail": "大西洋月刊分析 ActivTrak 数据发现，AI 并未减少工作量，反而使工作更紧张。早期采用者邮件和聊天时间翻倍，业务软件使用升 94%。员工利用节省时间承担新任务，导致“大脑疲劳”。专注工作时间下降 9%，多任务处理增加。AI 改变了雇主期望，每小时更拥挤，揭示技术赋能背后的效率陷阱与心理代价。UC Berkeley 研究也证实员工开始接手以前外包的任务，工作生活界限模糊。这种现象表明，AI 虽提升单点效率，却推高了整体工作强度，企业需关注员工心理健康，避免技术异化为压榨工具，重新定义人机协作的健康边界。",
-    "tags": [
-      "News",
-      "Workforce",
-      "Productivity"
-    ],
-    "link": "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/",
-    "date": "2026-07-06",
-    "id": "17833090930462"
   }
 ]
