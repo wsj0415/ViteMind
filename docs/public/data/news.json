@@ -1,5 +1,96 @@
 [
   {
+    "title": "Ethos Engine 获预种子轮融资，主打 AI 安全基础设施",
+    "summary": "创始人寻求融资，构建确定性 AI 安全基础设施，确保符合欧盟 AI 法案。",
+    "detail": "Ethos Engine 创始人 Francisco Javier Roldán Velásquez 正在寻求预种子轮融资。该公司致力于解决“循环监督”问题，提供确定性 AI 安全基础设施。其核心是通过专有数学指数和多重文明知识图谱作为外部治理模块，确保 AI 系统符合欧盟 AI 法案。这对于关注 AI 合规和安全的企业具有重要参考价值。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Startup"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48842416",
+    "date": "2026-07-09",
+    "id": "17835857407250"
+  },
+  {
+    "title": "Timeline Studio：基于浏览器的本地 ONNX AI 配音编辑器",
+    "summary": "支持本地运行 ONNX 模型，提供多语言语音合成及视频剪辑功能。",
+    "detail": "Timeline Studio 是一款运行在浏览器中的 AI 配音编辑工具，最大亮点是支持本地运行 ONNX 模型，保障数据隐私。提供华言、Heart 等多种语音模型，支持语速音量调整及视频时间线编辑。适合需要快速生成配音且关注本地化处理的内容创作者。",
+    "tags": [
+      "New",
+      "Voice AI",
+      "ONNX"
+    ],
+    "link": "https://video-editor.ai-creator.top/",
+    "date": "2026-07-09",
+    "id": "17835857407251"
+  },
+  {
+    "title": "PagerDuty 工程实践：AI 代理代码部署的信任证据体系",
+    "summary": "详解如何建立证据系统，决定 AI 代理是否有权独立部署代码。",
+    "detail": "PagerDuty 工程团队分享了管理 AI 代理代码部署的实践。他们将工作分为十个风险类别，并结合影响层级进行评估。通过收集证据建立信任体系，决定哪些工作可由 AI 独立 ship，哪些仍需人工审查。这是 AI 编码代理落地企业级流程的重要参考。",
+    "tags": [
+      "Dev",
+      "LLM Ops",
+      "Engineering"
+    ],
+    "link": "https://www.pagerduty.com/eng/before-ai-ships-code-show-me-the-receipts/",
+    "date": "2026-07-09",
+    "id": "17835857407252"
+  },
+  {
+    "title": "同步笔博客：AI 变强是因为工作区知识库在累积",
+    "summary": "揭示 AI 表现提升的本质是上下文知识库的复合增长，而非模型本身学习。",
+    "detail": "Syncpen 博客文章指出，AI 模型权重是冻结的，不会随会话学习。用户感觉 AI 变强，实际上是因为工作区内的知识库在累积。通过优化 AI 读取的上下文环境，可复现这种“变强”效果。这对构建基于 RAG 的个人 AI 助手具有指导意义。",
+    "tags": [
+      "Dev",
+      "RAG",
+      "Knowledge Base"
+    ],
+    "link": "https://www.syncpen.io/blog/your-ai-doesn-t-get-better-your-workspace-does",
+    "date": "2026-07-09",
+    "id": "17835857407253"
+  },
+  {
+    "title": "Greppy：专为 AI 代理设计的增强版 grep 工具",
+    "summary": "原生 Rust 二进制文件，提供代码导航子命令，提升代理代码理解准确率。",
+    "detail": "Greppy 是一个兼容标准 grep 的 drop-in 工具，专为 AI 编码代理设计。增加了 `who-calls`, `impact`, `semantic-search` 等子命令，帮助代理理解代码结构。测试显示代理回答结构导航问题的准确率从 53% 提升至 87%，且消耗 Token 更少。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "Rust"
+    ],
+    "link": "https://github.com/metric-space-ai/greppy",
+    "date": "2026-07-09",
+    "id": "17835857407254"
+  },
+  {
+    "title": "独立报：Facebook 未处理 AI 生成的极右翼影响活动",
+    "summary": "AI 生成 influencer 传播极右翼叙事，平台 flagged 一个月后仍未采取行动。",
+    "detail": "The Independent 调查发现，一个 AI 生成的 influencer 在 Facebook 上向数百万用户传播极右翼叙事。尽管该活动一个月前已被标记，但 Facebook 尚未采取行动。这突显了当前社交平台在应对 AI 生成内容及其潜在社会影响方面的监管滞后与挑战。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Social Media"
+    ],
+    "link": "https://www.independent.co.uk/news/uk/home-news/facebook-far-right-ai-video-life-in-britain-b3004975.html",
+    "date": "2026-07-09",
+    "id": "17835857407255"
+  },
+  {
+    "title": "视频分享：150 天内构建年运行率 1000 万美元的 AI 初创公司",
+    "summary": "Ben Cera 分享快速构建 AI 初创公司的经验，视频观看量已超 10 万。",
+    "detail": "YouTube 创作者 Ben Cera 发布视频，讲述如何在 150 天内将 AI 初创公司的年运行率构建至 1000 万美元。视频发布 2 天已获得超 10 万次观看。虽然具体细节需观看视频，但该案例为 AI 创业速度和市场潜力提供了实证参考。",
+    "tags": [
+      "News",
+      "Startup",
+      "Growth"
+    ],
+    "link": "https://www.youtube.com/watch?v=VMyHC7qUrhI",
+    "date": "2026-07-09",
+    "id": "17835857407256"
+  },
+  {
     "title": "Skillburst：让非技术人员也能复用 AI 工作流",
     "summary": "连接 GitHub 与 AI 助手，让全员共享 AI 技能。",
     "detail": "Skillburst 旨在解决企业内 AI 工作流散落在 Slack 聊天记录中难以复用且易过时的痛点。该平台允许工程师在 GitHub 中编写和管理技能文件（SKILL.md），自动同步至目录。非技术团队成员（如销售、运营、HR）无需配置即可在 Claude、Cursor 或 ChatGPT 中直接调用这些经过验证的技能。它充当了技术团队与业务团队之间的中间层，确保工作流版本统一、实时更新，无需代码即可提升全员 AI 效能，避免技能随人员流动而流失。这种模式解决了“副本过时”和“多数团队看不见”的问题，让最佳实践成为组织资产，显著降低内部培训成本并提高协作效率。",
@@ -1207,96 +1298,5 @@
     "link": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/ai-the-roi-runway-could-be-long-outside-the-tech-sector",
     "date": "2026-07-06",
     "id": "17833761534322"
-  },
-  {
-    "title": "Nimbus：开源 AI 云基础设施代理",
-    "summary": "开源 Nimbus 代理通过对话管理 AWS/GCP 架构，自动修复仓库。",
-    "detail": "开源项目 Nimbus 推出 AI 云控制平面，允许开发者通过自然语言对话管理 AWS 和 GCP 基础设施。它能读取代码、理解架构并直接操作云凭证修复仓库。基于 Node 和 React 构建，旨在统一云控制台、终端和 IaC 文件的工作流，提升运维效率。该工具解决了开发者在多个云平台间切换的痛点，通过单一代理实现基础设施的设计与管理。其开源特性允许社区贡献插件，支持多种云提供商，是 DevOps 领域 AI 自动化的重要尝试，降低了云管理的复杂性。",
-    "tags": [
-      "Dev",
-      "Cloud",
-      "OpenSource"
-    ],
-    "link": "https://github.com/hritvikgupta/nimbus",
-    "date": "2026-07-06",
-    "id": "17833761534323"
-  },
-  {
-    "title": "AK-RAG 模式防止 LLM 幻觉",
-    "summary": "新 AK-RAG 模式索引属性目录，防止 LLM 在受监管环境中幻觉。",
-    "detail": "针对受监管企业 LLM 幻觉问题，新提出属性知识 RAG（AK-RAG）架构。传统 RAG 检索文档块易导致模型发明不存在字段，AK-RAG 索引治理后的属性目录。确保输出仅包含已验证的 attribute_id，解决金融、医疗等领域的合规与数据治理 failure。该模式将检索单元从文档页改为属性对象，强制 LLM 仅使用数据catalog 中存在的字段。这对于需要严格数据治理的行业至关重要，能有效避免因模型幻觉导致的合规风险，提升了企业级 AI 应用的可信度与安全性。",
-    "tags": [
-      "Dev",
-      "RAG",
-      "Enterprise"
-    ],
-    "link": "https://superml.dev/attribute-knowledge-rag-pattern-llm-governed-attributes",
-    "date": "2026-07-06",
-    "id": "17833761534324"
-  },
-  {
-    "title": "AMD Ryzen AI Halo 工作站发布",
-    "summary": "AMD Ryzen AI Halo 工作站售价 4000 美元，128GB 内存助力本地 AI。",
-    "detail": "AMD 发布 Ryzen AI Halo 工作站，售价约 4000 美元，配备 128GB 内存以支持本地 AI 开发。虽比 Nvidia DGX Spark 便宜，但受内存短缺影响价格仍高。该设备旨在让开发者本地运行企业级模型和 AI 代理，降低本地 AI 门槛但成本依然显著。其主打软件与文档整合，帮助用户 fine-tune 模型。尽管价格高昂，但对于需要大显存进行本地推理的开发团队，这仍是比自建集群更具性价比的选择，反映了本地 AI 硬件市场的升温趋势。",
-    "tags": [
-      "News",
-      "Hardware",
-      "LocalAI"
-    ],
-    "link": "https://www.theregister.com/ai-and-ml/2026/07/06/amds-ryzen-ai-halo-makes-local-ai-look-easy-but-at-4k-easy-doesnt-come-cheap/5266711",
-    "date": "2026-07-06",
-    "id": "17833761534325"
-  },
-  {
-    "title": "Dike：欧盟 AI 法案合规网关工具",
-    "summary": "专为欧盟市场设计的 AI 合规网关，自动化审计日志与人工监督记录。",
-    "detail": "Dike 针对欧盟 AI 法案推出合规网关，通过代理路由 LLM 流量，自动实现 PII 脱敏、恶意请求拦截及审计日志记录。支持人工监督流程与 AI 内容标记，帮助团队在不重构代码的情况下满足 Article 14 与 50 条款要求。系统将日常操作转化为审计证据，解决 Article 19 & 26 的日志保留需求，将合规工程负担从数月降低至单次 URL 变更。对于面向欧盟市场的 AI 产品，这是避免全球营收高额罚款的关键基础设施，确保生成内容透明度与高风险系统义务合规。",
-    "tags": [
-      "New",
-      "Compliance",
-      "LLM"
-    ],
-    "link": "https://d1k3.com",
-    "date": "2026-07-06",
-    "id": "17833712722200"
-  },
-  {
-    "title": "GLM 5.2 发布与 AI 利润率崩溃分析",
-    "summary": "深度分析 AI 推理边际成本，预测行业利润率即将面临 Collapse。",
-    "detail": "文章指出市场误读了 AI 成本结构，训练是固定成本，而推理随需求 scaling 具有真实边际成本。随着 GLM 5.2 等模型效率提升，API 定价与 compute 成本间的 90% 毛利空间将被压缩。回顾 DeepSeek 时刻引发的 Nvidia 股价波动，作者认为真正的危机在于推理边际成本。预测 AI 行业将迎来利润率崩溃，投资者需重新评估算力资本支出与推理经济模型。当前 API 收费远高于实际 compute 成本，这种 margin 不可持续，行业将面临洗牌。",
-    "tags": [
-      "News",
-      "Economics",
-      "LLM"
-    ],
-    "link": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
-    "date": "2026-07-06",
-    "id": "17833712722201"
-  },
-  {
-    "title": "Node.js 遭遇 AI 生成安全报告洪水",
-    "summary": "社区面临自动化 AI 安全报告泛滥，计划用 AI 对抗 AI 垃圾报告。",
-    "detail": "Node.js 社区正遭受大量 AI 生成的自动化安全报告 flood，导致维护者负担加重。这些报告多为误报或低质量提交，源自自动化扫描工具的滥用。项目方计划引入 AI 工具来过滤和对抗这股 AI 洪水，反映了开源维护中 AI 滥用带来的新挑战。这不仅消耗开发者精力，还可能导致真实漏洞被淹没。社区需建立新的安全报告验证机制，平衡自动化贡献与人工审核成本，防止恶意或低效的 AI 代理破坏开源协作生态。",
-    "tags": [
-      "Dev",
-      "Security",
-      "OpenSource"
-    ],
-    "link": "https://www.heise.de/news/Sicherheitswarnungen-Node-js-will-KI-Flut-mit-KI-bekaempfen-11355142.html",
-    "date": "2026-07-06",
-    "id": "17833712722202"
-  },
-  {
-    "title": "Architecture 2.0：AI 辅助计算系统设计",
-    "summary": "提出将设计循环作为架构对象，确保 AI 生成 claims 可信且可审查。",
-    "detail": "该书提出计算机架构新范式 Architecture 2.0，核心是从“工件稀缺”转向“承诺稀缺”。主张将设计循环视为一级架构对象，包含可见状态、证据及拒绝权限。旨在使 AI 辅助产生的架构声明具备可信度与可审查性，适用于硬件/软件协同设计及 AI Agent 参与的系统工程。当 AI 生成工件变得廉价，核心难题变为决定哪些 claim 值得承诺。这需要建立结构化证据链，确保 AI 产生的设计决策可被人类审查、拒绝或承诺，重塑系统工程流程。",
-    "tags": [
-      "Dev",
-      "Architecture",
-      "SystemDesign"
-    ],
-    "link": "https://arch2.mlsysbook.ai/book/",
-    "date": "2026-07-06",
-    "id": "17833712722203"
   }
 ]
