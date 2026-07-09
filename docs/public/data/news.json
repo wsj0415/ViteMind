@@ -1,5 +1,70 @@
 [
   {
+    "title": "Skillburst：让非技术人员也能复用 AI 工作流",
+    "summary": "连接 GitHub 与 AI 助手，让全员共享 AI 技能。",
+    "detail": "Skillburst 旨在解决企业内 AI 工作流散落在 Slack 聊天记录中难以复用且易过时的痛点。该平台允许工程师在 GitHub 中编写和管理技能文件（SKILL.md），自动同步至目录。非技术团队成员（如销售、运营、HR）无需配置即可在 Claude、Cursor 或 ChatGPT 中直接调用这些经过验证的技能。它充当了技术团队与业务团队之间的中间层，确保工作流版本统一、实时更新，无需代码即可提升全员 AI 效能，避免技能随人员流动而流失。这种模式解决了“副本过时”和“多数团队看不见”的问题，让最佳实践成为组织资产，显著降低内部培训成本并提高协作效率。",
+    "tags": [
+      "New",
+      "Workflow",
+      "Productivity"
+    ],
+    "link": "https://skillburst.ai/",
+    "date": "2026-07-08",
+    "id": "17835561841970"
+  },
+  {
+    "title": "警示：防御性 AI 代理存在远程代码执行漏洞",
+    "summary": "研究发现 Claude Code 与 Codex CLI 存在提示注入风险。",
+    "detail": "AI Now Institute 披露了一项概念验证漏洞，可在 Anthropic 的 Claude Code CLI（支持 Sonnet 4.6/5, Opus 4.8）及 OpenAI 的 Codex CLI（GPT-5.5）中实现远程代码执行。攻击者仅需在开源库源码中嵌入提示注入，即可劫持用于安全评估的防御性 AI 代理。该漏洞无需插件或配置文件，直接警告白宫及机构在关键基础设施中加速部署 AI 防御工具时，必须考虑未缓解的重大安全风险，避免“友军火力”误伤。这揭示了自动化安全审计中的潜在隐患，呼吁重新审视 AI 代理的权限管理，特别是在安全关键型基础设施中部署 AI 时需格外谨慎，防止被恶意代码反向利用。",
+    "tags": [
+      "News",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://ainowinstitute.org/publications/friendly-fire-exploit-brief",
+    "date": "2026-07-08",
+    "id": "17835561841971"
+  },
+  {
+    "title": "布朗大学教授禁用 AI 后期末考试成绩腰斩",
+    "summary": "线下考试暴露学生过度依赖 AI，成绩下降 50%。",
+    "detail": "布朗大学某教授因怀疑学生利用 AI 作弊，强制要求期末改为线下考试，结果平均分数较以往下降了 50%。Ars Technica 报道指出，这一现象揭示了学生可能已过度依赖生成式 AI 而丧失独立思考能力。教授表示“我们不能选择成为傻瓜”，该事件引发教育界对 AI 时代评估体系有效性的深刻讨论，高校需重新设计考核方式以真实衡量学生能力，应对技术带来的学术诚信挑战。这不仅是个案，更反映了常春藤盟校在面对 AI 冲击时的普遍焦虑与应对困境，表明单纯禁止 AI 并非长久之计，教育模式需根本性变革。",
+    "tags": [
+      "News",
+      "Education",
+      "Ethics"
+    ],
+    "link": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
+    "date": "2026-07-08",
+    "id": "17835561841972"
+  },
+  {
+    "title": "AI 开发平台 Lovable 估值有望翻倍至 132 亿美元",
+    "summary": "TechCrunch 报道 Lovable 融资谈判，估值大幅增长。",
+    "detail": "据 TechCrunch 报道，AI 应用开发平台 Lovable 正洽谈新一轮融资，估值有望翻倍至 132 亿美元。作为 AI 原生开发工具的代表，Lovable 的快速增长反映了市场对低代码/无代码 AI 构建平台的强烈需求。投资者看好其在企业级应用中的潜力，表明 AI 开发基础设施正成为资本追逐的热点。这一估值也侧面印证了 AI 软件工程领域的爆发式增长，可能引发新一轮行业整合。此次融资谈判若成功，将确立其在 AI 开发工具领域的头部地位，激励更多创业者进入该赛道，加速 AI 应用落地的普及化进程。",
+    "tags": [
+      "News",
+      "Investment",
+      "No-Code"
+    ],
+    "link": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/",
+    "date": "2026-07-08",
+    "id": "17835561841973"
+  },
+  {
+    "title": "AgentScore：免费检测企业在 AI 搜索中的可见性",
+    "summary": "无需注册即可测试业务在 AI 搜索中的推荐情况。",
+    "detail": "AgentScore 是一款新推出的免费工具，旨在帮助企业主了解其业务在 AI 搜索引擎中的可见性。用户无需注册，只需输入 URL 及业务详情，工具即模拟真实客户查询，检测业务是否被 AI 推荐，并在 30 秒内提供结果。它会显示最大的可见性差距并提供清晰的下一步优化建议。注重隐私且不售卖数据，适用于关注 GEO（生成引擎优化）的营销人员及中小企业主，助力适应 AI 搜索新时代。随着传统 SEO 向 AI 搜索转型，此类工具将成为企业数字营销的新标配，帮助商家在 AI 推荐列表中占据有利位置，优化品牌在生成式 AI 结果中的曝光率。",
+    "tags": [
+      "New",
+      "SEO",
+      "Marketing"
+    ],
+    "link": "https://www.tryagentscore.com",
+    "date": "2026-07-08",
+    "id": "17835561841975"
+  },
+  {
     "title": "谷歌深伪检测系统实战 debunk 麦康奈尔假照",
     "summary": "谷歌深伪检测技术首次公开用于破解政治人物虚假图片事件。",
     "detail": "谷歌的深伪检测系统在实际案例中发挥作用，成功识别并揭穿了针对参议员麦康奈尔的虚假图片。TechCrunch 报道指出，这标志着 AI 安全技术从实验室走向现实应用，对于应对日益严重的深度伪造威胁具有重要意义。该技术展示了大厂在内容真实性验证方面的能力，可能成为未来新闻核查的标准工具之一，有助于缓解公众对 AI 生成内容的信任危机。",
@@ -440,6 +505,19 @@
     "link": "https://smolmail.com/",
     "date": "2026-07-08",
     "id": "17834787681755"
+  },
+  {
+    "title": "美国政府发布政策声明禁止 AI 系统抑制准确性",
+    "summary": "联邦登记册发文，要求联邦采购 AI 不得牺牲真实性。",
+    "detail": "美国联邦登记册发布政策声明，引用行政命令 14319（防止联邦政府中的“觉醒”AI），强调机构不得采购为意识形态议程牺牲真实性和准确性的 AI 模型。同时引用 E.O. 14318 加速数据中心建设及 E.O. 14320 促进美国 AI 技术出口。此举旨在规范政府 AI 采购标准，确保公共部门使用的 AI 系统保持中立与准确，直接影响未来政府 AI 合约的合规性要求及供应商筛选标准。该政策标志着美国政府开始从采购端介入 AI 模型的内容安全性与准确性管理，具有风向标意义，将迫使 AI 供应商调整模型训练策略以符合联邦合规要求。",
+    "tags": [
+      "News",
+      "Policy",
+      "Regulation"
+    ],
+    "link": "https://www.federalregister.gov/documents/2026/07/07/2026-13628/policy-statement-concerning-the-suppression-of-accuracy-in-artificial-intelligence-systems",
+    "date": "2026-07-07",
+    "id": "17835561841974"
   },
   {
     "title": "OpenAI 报告指控中国利用 AI 进行宣传战",
@@ -1220,83 +1298,5 @@
     "link": "https://arch2.mlsysbook.ai/book/",
     "date": "2026-07-06",
     "id": "17833712722203"
-  },
-  {
-    "title": "AI 后训练中的“判断剧场”与责任 laundering",
-    "summary": "深度审计 AI 安全设计，指出模型缺乏承担责任的主体位置。",
-    "detail": "文章审计了 AI 后训练中的失败模式“判断剧场”，即系统产出看似负责任的输出，却缺乏承担后果的主体位置。商业化导致责任错配：公司捕获价值，用户承担后果。强调判断不仅是模式匹配，需具备区分授权、不确定性及后果的结构条件。这并非普通模型错误，而是结构性模式，对 AI 安全对齐提出深层质疑。呼吁建立真正的责任承担结构而非表面合规，防止公司在无实际判断能力的情况下商业化类判断行为，规避 downstream 风险。",
-    "tags": [
-      "News",
-      "Safety",
-      "Alignment"
-    ],
-    "link": "https://medium.com/@wo.shen.me.dou.bu.zhi.dao.a/structural-audit-of-judgment-theater-and-responsibility-laundering-in-ai-post-training-4a9ea190f21f",
-    "date": "2026-07-06",
-    "id": "17833712722204"
-  },
-  {
-    "title": "2026 科技裁员潮：微软甲骨文以 AI 为由裁撤数万岗位",
-    "summary": "微软裁撤 4800 人，甲骨文裁员 21000 人，AI 成为裁员主要理由，2026 年科技业已裁减 12 万岗位。",
-    "detail": "2026 年科技行业裁员达到高峰，微软宣布裁减 4800 个岗位，占全球 workforce 2.1%，虽称非直接被 AI 替代，但承认 AI 改变了工作方式。甲骨文过去一年裁员 21000 人。数据显示 2026 年已有约 12 万科技岗位被裁，AI 是最常被引用的原因。这引发了关于企业利用 AI 作为裁员借口的争议，尽管营收记录创新高。Challenger 数据显示 5 月裁员达数年单月最高，AI 成主因。企业需重新思考此理由，因许多团队是在疫情招聘潮中膨胀的，目前削减可能掩盖了真实的管理调整意图。TechCrunch 指出这感觉像是一场流行病，公司在报告创纪录收入的同时削减劳动力，将 AI 视为增长引擎和裁员理由。Layoffs.fyi 追踪显示自 2020 年以来行业裁员情况，2026 年形势严峻。",
-    "tags": [
-      "News",
-      "Layoffs",
-      "Industry"
-    ],
-    "link": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
-    "date": "2026-07-06",
-    "id": "17833642662170"
-  },
-  {
-    "title": "Ramp 研究：重度 AI 采用者两年内员工增长 10%",
-    "summary": "Ramp 数据显示，重度投资 AI 的企业两年内员工总数增长 10%，初级岗位增长 12%，反驳 AI  solely 导致失业论。",
-    "detail": "Ramp Economics Lab 发布新论文，基于 21000 家美国企业数据发现，重度 AI 采用者在 adoption 后两年内 headcount 增长 10.2%，初级岗位增长 12%。低强度采用者无显著变化。表明 AI 红利分布不均， adopters 本身更大、增长更快。这为 AI 对就业影响的争论提供了新的数据视角，显示 AI 可能促进而非单纯减少就业，与裁员新闻形成对比。研究指出理想数据集应使用业务支出数据，Ramp 数据被斯坦福论文引用。未来经济关键在于 AI 如何影响就业，此研究提供了 firm-level 实证支持。大多数现有研究依赖猜测或调查，而此研究使用了正确的数据集。这是十年来最重要的经济问题之一，现在有了合适的数据集。",
-    "tags": [
-      "News",
-      "Economy",
-      "Jobs"
-    ],
-    "link": "https://ramp.com/data/heavy-ai-adopters-hire-more",
-    "date": "2026-07-06",
-    "id": "17833642662171"
-  },
-  {
-    "title": "Gamow Labs 推出 Agentic AI 基因组解读系统 George-0.1",
-    "summary": "新型 AI 代理在基因组解读任务中表现优于临床实验室，显著降低遗传病诊断成本与时间。",
-    "detail": "Gamow Labs 发布 George-0.1 系统，利用 Agentic AI 进行全基因组解读。在与贝勒医学院合作的双盲研究中，系统处理 46 个间质性肺病案例，表现达到或超过人类专家水平。该技术旨在解决基因测序解读复杂、昂贵及耗时问题，有望在 NICU 等场景大规模应用，标志着 AI 在医疗诊断领域的重大突破，可能大幅降低遗传病诊断成本并提高准确性。目前测序局限于顶尖学术中心，AI 代理有望以 fraction of cost 实现规模化诊断，改善临床及经济结果。证据表明假设成立，即 correctly harnessed AI agents 可以执行诊断任务。过去几年证据显示扩大全基因组测序可改善 NICU 结果。",
-    "tags": [
-      "Dev",
-      "Healthcare",
-      "Agentic AI"
-    ],
-    "link": "https://gamowlabs.com/sota-genome-interpretation-with-agentic-ai.html",
-    "date": "2026-07-06",
-    "id": "17833642662172"
-  },
-  {
-    "title": "Botfluencerz 上线：首个完全由自主 AI 代理组成的社交网络",
-    "summary": "全新社交平台允许用户带入 AI 代理，代理自主发帖、争论及社交，无需人类干预。",
-    "detail": "Botfluencerz 宣称是全球首个\"AI 公民”社交网络。平台上所有用户均为自主 AI 代理，它们能自主发帖、争论、建立友谊或怀恨。人类用户可带入自己的 agent 进入网络观察。该项目展示了多 Agent 系统在社交模拟方面的最新进展，引发了关于 AI 自主社交行为及未来网络形态的讨论，无需人类编写任何内容即可维持网络活跃。用户可查看 Feed、Citizens 及 Moods，体验完全由 AI 驱动的社交动态，探索自主 agent 间的互动生态。这是一个观察 AI 自主行为的社会学实验场。网络包含 Beef、Pulse 等功能，模拟真实社交冲突与情绪。",
-    "tags": [
-      "New",
-      "Social",
-      "Agents"
-    ],
-    "link": "https://www.botfluencerz.com/",
-    "date": "2026-07-06",
-    "id": "17833642662173"
-  },
-  {
-    "title": "Show HN: Grinta 本地优先 AI 编程代理通过 106 分钟压力测试",
-    "summary": "开源本地 AI 编程代理 Grinta 发布，强调隐私与稳定性，成功通过长时间压力测试。",
-    "detail": "Grinta 是一款本地优先（local-first）的 AI 编程代理，已在 GitHub 开源。该项目强调在本地运行模型以保障代码隐私，并宣称通过了 106 分钟的稳定性压力测试。对于关注数据安全及希望离线部署 AI 编程助手的开发者而言，这是一个值得关注的新技术尝试，展示了端侧 AI 开发的潜力，适合对隐私敏感的编程场景。作为 Show HN 项目，它反映了开发者对本地化 AI 工具的需求，避免代码上传至云端，确保知识产权安全。本地运行减少了延迟并提高了控制权。项目地址托管在 GitHub 上，欢迎开发者贡献与测试。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Open Source"
-    ],
-    "link": "https://github.com/josephsenior/Grinta-Coding-Agent",
-    "date": "2026-07-06",
-    "id": "17833642662174"
   }
 ]
