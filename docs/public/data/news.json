@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 伦理争议：技术本质还是独特之恶？",
+    "summary": "Charity Majors 撰文探讨 AI 伦理，主张 AI 仅是技术，反对过度妖魔化。",
+    "detail": "文章讨论了当前 AI 爱好者与怀疑者之间的对立情绪。作者 Charity Majors 认为将 AI 视为独特之恶是不准确的，**AI 本质上是技术**。面对 CEO 裁员和工业革命般的变革，恐惧弥漫，甚至教皇也表示担忧。作者表示近期因 AI 争论屏蔽了更多人，但主张应容忍不同观点。文章呼吁减少对立，关注技术本身而非过度伦理化，强调在动荡环境中保持开放 discourse 的重要性，认为 AI 并非不可挽回的污染，而是普通技术工具。这种观点试图在狂热与恐慌之间寻找理性平衡，提醒行业关注技术实际影响而非情绪化争论，对于理解当前 AI 社会心态具有参考价值。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Opinion"
+    ],
+    "link": "https://charity.wtf/p/make-ai-boring-again",
+    "date": "2026-07-09",
+    "id": "17835990558840"
+  },
+  {
+    "title": "WhisperShortcut：macOS 上的离线语音 AI 层",
+    "summary": "开源 macOS 应用，支持离线 Whisper 转录，自带 API 密钥管理。",
+    "detail": "这是一款面向 Mac 用户的语音优先 AI 工具，旨在成为 macOS 上的语音层。支持本地 Whisper 离线运行，也可集成 Gemini、GPT 或 Grok 等云端模型。通过快捷键实现语音转文本、指令重写及文本朗读，例如按⌘1 录音转录，⌘2 重写剪贴板内容。**无需订阅或后端，数据隐私性强**，适合开发者及注重隐私的用户快速集成语音交互能力。开源协议为 AGPL-3.0，可在 Mac App Store 或直接下载安装，提供了灵活的 API 密钥管理方案，完全本地化处理无需账户。该工具降低了语音交互门槛，为本地化 AI 部署提供了实用案例，适合对数据主权敏感的专业人士使用。",
+    "tags": [
+      "New",
+      "MacOS",
+      "Voice"
+    ],
+    "link": "https://github.com/mgsgde/whisper-shortcut",
+    "date": "2026-07-09",
+    "id": "17835990558841"
+  },
+  {
+    "title": "Ember：专为 AI 代理设计的轻量级无头浏览器",
+    "summary": "仅 17MB idle，无需 Docker，Python 包直接安装，优化 AI 代理浏览。",
+    "detail": "针对 AI 代理浏览网页资源占用高的问题，Ember 提供了轻量级解决方案。大多数代理工具附带 Chromium 约 281MB 或需要 Docker，而 Ember 空闲仅占 17MB，**无需 Docker 容器即可运行**。支持 Python 直接安装，旨在降低 AI Agent 在执行网页任务时的资源消耗，提升运行效率。项目开源且采用 MIT 许可，无需 API 密钥即可启动，为构建高效的 AI 代理工作流提供了底层基础设施支持，解决了传统无头浏览器过于笨重的问题。这对于需要在资源受限环境下运行大量代理任务的开发者来说，显著降低了硬件成本和维护复杂度，是 Agent 基础设施的重要优化。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Browser"
+    ],
+    "link": "https://github.com/andalabx/ember",
+    "date": "2026-07-09",
+    "id": "17835990558842"
+  },
+  {
+    "title": "Keepsake：AI 项目开发的自动存档点工具",
+    "summary": "为 AI 生成内容提供版本快照，支持随时回滚，防止覆盖损失。",
+    "detail": "解决 AI 辅助开发中版本混乱的痛点。Keepsake 自动为项目创建保存点，当 AI 生成结果不理想时可一键回滚。目前支持 Apple Silicon Mac，旨在让创作者放心使用 AI 构建应用而不必担心丢失进度，**类似游戏存档机制应用于软件开发**。解决了用户面对 essay_final_v2.docx 这类文件命名混乱的困境，确保工作成果安全。即使丢弃未保存的更改也可恢复，提供插件与 AI 代理集成，让 AI 构建过程更安全可控，避免错误指令覆盖原有成果。随着 AI 生成内容增多，此类版本管理工具将成为必备基础设施，保障创作流程的连续性与安全性。",
+    "tags": [
+      "New",
+      "Workflow",
+      "Tool"
+    ],
+    "link": "https://keepsake.sh/",
+    "date": "2026-07-09",
+    "id": "17835990558843"
+  },
+  {
+    "title": "AI 抵抗清单登陆伦敦：行业问责与伦理反思",
+    "summary": "伦敦数据周活动发布 AI 抵抗清单，反对技术必然论，倡导人权与问责。",
+    "detail": "在伦敦国王学院举办的活动上，AI Resist List 正式亮相，该活动属于伦敦数据周的一部分。组织者批评 AI 行业“技术必然性”的叙事，指出其提取性和非人性化特征。活动汇集了法律挑战等抵抗故事，旨在通过记录抵抗历史来拆解行业主导叙事，**推动对 AI 行业的问责与伦理监管**。Tania Duarte 强调抵抗并非徒劳，需从历史中学习如何应对技术变革带来的社会影响，会议在解剖学讲堂举行，象征性地 dissect AI 行业。这标志着 AI 伦理运动从理论走向组织化行动，通过跨国网络协调对大型科技公司的监督，为政策制定者提供民间视角的参考依据。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Regulation"
+    ],
+    "link": "https://read.misalignedmag.com/holding-the-industry-accountable-the-ai-resist-list-comes-to-london-6438375b30ca?postPublishedType=repub",
+    "date": "2026-07-09",
+    "id": "17835990558844"
+  },
+  {
     "title": "Ethos Engine 获预种子轮融资，主打 AI 安全基础设施",
     "summary": "创始人寻求融资，构建确定性 AI 安全基础设施，确保符合欧盟 AI 法案。",
     "detail": "Ethos Engine 创始人 Francisco Javier Roldán Velásquez 正在寻求预种子轮融资。该公司致力于解决“循环监督”问题，提供确定性 AI 安全基础设施。其核心是通过专有数学指数和多重文明知识图谱作为外部治理模块，确保 AI 系统符合欧盟 AI 法案。这对于关注 AI 合规和安全的企业具有重要参考价值。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.vybe.build/blog/learn-what-not-to-tokenize",
     "date": "2026-07-06",
     "id": "17833832531392"
-  },
-  {
-    "title": "小型 AI 模型在网络不稳定地区获得关注",
-    "summary": "IEEE 报道小型语言模型在制药等网络受限场景中展现价值。",
-    "detail": "**IEEE Spectrum 报道，小型语言模型（SLM）正在网络不可靠的地区获得 traction。** 特别是在制药等关键领域，小型 AI 能够在本地或低带宽环境下运行，提供救生支持。这标志着 AI 部署策略的转变，不再单纯追求大模型参数，而是注重边缘计算能力和特定场景的实用性。小型模型的低资源需求使其成为连接全球数字鸿沟的重要技术力量，尤其在基础设施薄弱地区，它们能确保关键 AI 服务的连续性和可靠性，为生命攸关的应用提供保障。",
-    "tags": [
-      "News",
-      "SLM",
-      "Edge AI"
-    ],
-    "link": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
-    "date": "2026-07-06",
-    "id": "17833832531393"
-  },
-  {
-    "title": "Kennel：管理多个 AI CLI 代理的桌面工具",
-    "summary": "新开源工具 Kennel 支持跨平台管理 AI 命令行会话，支持断点续传。",
-    "detail": "**GitHub 上新项目 Kennel 是一款跨平台桌面应用，旨在管理多个 AI CLI 客户端（如 Claude Code, OpenAI Codex）。** 它允许用户在单一窗口中并行运行代理，并将会话分组。核心功能是支持会话持久化，即使重启应用或机器，也能通过原生 resume 标志恢复任务状态。这解决了开发者在多个终端标签页间切换的痛点，提升了 AI 辅助编程的工作流效率。对于重度使用 AI 编程助手的团队，该工具提供了更好的会话管理和上下文保持能力。",
-    "tags": [
-      "New",
-      "Dev Tool",
-      "Productivity"
-    ],
-    "link": "https://github.com/eranif/kennel",
-    "date": "2026-07-06",
-    "id": "17833832531394"
-  },
-  {
-    "title": "xAI 推出 Grok 语音智能体构建器",
-    "summary": "xAI 推出 Grok 语音构建器，无需代码，2 分钟部署，支持 25+ 语言。",
-    "detail": "xAI 正式推出 Grok 语音智能体构建器测试版，主打无需代码即可在 2 分钟内部署。该支持 25 种以上语言，延迟低于一秒，并具备企业级合规性（SOC 2, HIPAA）。用户可通过浏览器直接构建，支持集成 Gmail、Notion 等工具，旨在处理真实世界中的复杂通话场景，标志着语音 AI 向实用化迈进。其能够处理中断和背景噪音，直接触发工作流，为企业提供了强大的自动化客服与销售解决方案，降低了语音代理的开发门槛。此外，支持自定义 MCP 连接内部系统，确保数据隐私与流程合规，是语音交互领域的重要进展。",
-    "tags": [
-      "News",
-      "Voice",
-      "xAI"
-    ],
-    "link": "https://x.ai/voice",
-    "date": "2026-07-06",
-    "id": "17833761534320"
-  },
-  {
-    "title": "国际清算银行警告 AI 泡沫风险",
-    "summary": "国际清算银行警告 AI 泡沫可能破裂，Oracle 股价月跌超 40% 成风向标。",
-    "detail": "国际清算银行警告 AI 泡沫可能破裂并危及全球经济，Oracle 股价月跌超 40% 成为风向标。报道指出，hyperscalers 和银行业均发出警报，市场担忧 AI 投资回报不及预期导致行业收缩。专家分析认为，若 AI 叙事无法兑现，全球市场将面临巨大风险。Oracle 作为暴露最大的 hyperscaler，其股价波动反映了市场对 AI 基础设施投资回报的担忧。此外，监管机构开始关注 AI 投资过热可能引发的系统性金融风险，建议投资者谨慎评估 AI 相关资产的实际生产力增益，避免盲目跟风导致资产泡沫破裂。",
-    "tags": [
-      "News",
-      "Market",
-      "Bubble"
-    ],
-    "link": "https://www.theregister.com/ai-and-ml/2026/07/06/even-banks-and-hyperscalers-are-now-sounding-the-alarm-about-the-ai-bubble/5266123",
-    "date": "2026-07-06",
-    "id": "17833761534321"
-  },
-  {
-    "title": "阿波罗经济学家：AI 回报周期长",
-    "summary": "阿波罗经济学家称非科技 sector AI 回报周期长，市场面临痛苦重估。",
-    "detail": "阿波罗全球管理首席经济学家 Torsten Slok 指出，除科技 sector 外，AI 尚未带来利润率提升。标普 493 家公司利润未涨，表明 AI ROI 周期比预期长。监管和工作流整合阻碍了生产力增益，市场可能因预期错配面临痛苦重估。Slok 强调，虽然科技巨头利润率上升，但传统行业整合 AI 速度慢，导致整体经济生产力未见显著改善。这种 mismatch 可能导致 AI 公司估值回调，投资者需关注非科技行业的实际落地情况，而非仅依赖科技 sector 的盈利数据来判断整体 AI 经济影响。",
-    "tags": [
-      "News",
-      "Economy",
-      "ROI"
-    ],
-    "link": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/ai-the-roi-runway-could-be-long-outside-the-tech-sector",
-    "date": "2026-07-06",
-    "id": "17833761534322"
   }
 ]
