@@ -1,5 +1,44 @@
 [
   {
+    "title": "Meta 发布 Muse Spark 1.1 进军 AI 编码市场",
+    "summary": "Meta 推出多模态 AI 编码模型 Muse Spark 1.1，对标 OpenAI 与 Anthropic。",
+    "detail": "Meta 正式推出 Muse Spark 1.1，这是一款专为代理编码（Agentic Coding）设计的多模态 AI 模型。该模型支持多步推理、复杂流程管理及企业系统功能部署。尽管入场较晚，但 Meta 提供了极具竞争力的定价策略：输入令牌 1.25 美元/百万，输出 4.25 美元/百万，与 Claude Haiku 及 GPT-5.6 相当。Meta 强调其在处理大型代理工作负载、修复漏洞及代码迁移方面的能力，旨在吸引企业级用户。",
+    "tags": [
+      "News",
+      "LLM",
+      "Coding"
+    ],
+    "link": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+    "date": "2026-07-09",
+    "id": "17836266713720"
+  },
+  {
+    "title": "Brainiak：非 Transformer 架构的 CPU 原生 AI 核心",
+    "summary": "开源项目 Brainiak 展示了一种基于拓扑 AI 的 CPU 运行时架构，无需 Transformer。",
+    "detail": "Brainiak 项目提出了一种独特的 AI 运行时架构，旨在实现 CPU -only 的 LLM 部署。其核心 ZTTM 负责决策主权，而 LLM（如 Qwen 3.5）仅负责 verbalize 而非决策。架构严格限制 LLM 不携带决策上下文，工具仅执行不仲裁。通过感知 - 决策 - 执行 - 收据的闭环，实现可验证的状态转换。该项目为边缘计算及隐私敏感场景下的 LLM 应用提供了新的技术路径，挑战了传统的 Transformer 主导模式。",
+    "tags": [
+      "Dev",
+      "Architecture",
+      "LLM"
+    ],
+    "link": "https://www.hackster.io/jenfi59/brainiak-topological-al-drives-llm-by-lora-runtime-adapters-73a678",
+    "date": "2026-07-09",
+    "id": "17836266713722"
+  },
+  {
+    "title": "DreadPit：AI 仲裁的幻想战斗竞技场上线",
+    "summary": "新产品 DreadPit 允许玩家用文字召唤角色，由 AI 根据图像评判战斗生死。",
+    "detail": "DreadPit 是一款创新的 AI 驱动游戏，玩家需用 200 字符内的文字召唤冠军，并从两张肖像中选择其一。AI 仲裁者（The Arbiter）每日两次根据图像 alone 渲染 verdict。败者将被永久 slain 并进入 Graveyard，召唤词被封存。该产品结合了创意写作与多模态图像生成，建立了独特的永久死亡机制与排行榜系统，展示了 AI 在游戏叙事与规则执行上的新应用潜力。",
+    "tags": [
+      "New",
+      "Game",
+      "Multimodal"
+    ],
+    "link": "https://dreadpit.com/",
+    "date": "2026-07-09",
+    "id": "17836266713723"
+  },
+  {
     "title": "Google Cloud Run 沙盒公开预览，安全运行 AI 代码",
     "summary": "Google 推出 Cloud Run 沙盒，专为安全执行未信任 AI 代码设计，毫秒级启动。",
     "detail": "Google Cloud 在 WeAreDevelopers 大会宣布 Cloud Run 沙盒进入公开预览。该功能提供轻量级隔离执行环境，专为运行 AI 生成代码或不可信二进制文件设计，防止威胁主机应用与凭证。开发者可在现有 Cloud 服务实例内快速生成沙盒，无需复杂基础设施或第三方微虚拟机。核心优势在于毫秒级启动与安全隔离，测试显示执行 1000 个沙盒平均延迟仅 500ms。有效防止 AI Agent 工作负载风险，大幅降低 AI 应用部署门槛，解决安全运行未信任代码的行业痛点，无需离开 serverless 环境即可实现安全隔离。",
@@ -271,6 +310,19 @@
     "link": "https://www.youtube.com/watch?v=VMyHC7qUrhI",
     "date": "2026-07-09",
     "id": "17835857407256"
+  },
+  {
+    "title": "Meta 专利曝光：全天候情绪追踪穿戴设备",
+    "summary": "Meta 新专利披露可记录声音与环境并分析用户情绪的 AI 穿戴设备。",
+    "detail": "Meta 申请的一项新专利显示，该公司计划开发一种全天候记录用户声音及周围环境的 AI 穿戴设备。该系统旨在通过分析叹息、笑声及语调来判断用户情绪状态，甚至监测服药情况，从而提供个性化的健身建议。专利于 2025 年 12 月提交，2026 年 7 月公布。此举引发隐私担忧，因为 Meta 可能利用这些敏感数据进一步优化广告 targeting，尽管其宣称目标是健康辅助。",
+    "tags": [
+      "News",
+      "Privacy",
+      "Hardware"
+    ],
+    "link": "https://www.404media.co/meta-patents-ai-device-that-tracks-your-emotions-watches-you-take-your-meds/",
+    "date": "2026-07-08",
+    "id": "17836266713721"
   },
   {
     "title": "Skillburst：让非技术人员也能复用 AI 工作流",
@@ -1246,57 +1298,5 @@
     "link": "https://theapplied.substack.com/p/my-ai-agents-were-working-but-i-had",
     "date": "2026-07-07",
     "id": "17834349793885"
-  },
-  {
-    "title": "AI 巨头免费算力争夺初创企业",
-    "summary": "AI 巨头向初创公司提供免费算力以争夺市场份额。",
-    "detail": "华尔街日报报道，AI 巨头正通过向初创公司提供免费计算资源来争夺市场份额。这一策略旨在锁定早期开发者生态，降低初创公司门槛，同时培养对未来大型模型平台的依赖性。此举可能加速行业整合，改变算力分销格局，中小型模型厂商面临更大竞争压力。长期来看，这可能形成新的算力垄断，初创企业需权衡短期利益与长期供应商锁定风险，行业竞争焦点从模型性能转向生态绑定，重塑 AI 基础设施市场格局，影响未来技术创新方向。",
-    "tags": [
-      "News",
-      "Compute",
-      "Startup"
-    ],
-    "link": "https://www.wsj.com/tech/ai/ai-giants-are-handing-out-tons-of-free-computing-power-to-grab-startup-share-c00a5c5c",
-    "date": "2026-07-07",
-    "id": "17834253054060"
-  },
-  {
-    "title": "中国拟限制顶级 AI 模型海外访问",
-    "summary": "北京正考虑限制海外访问中国顶级 AI 模型。",
-    "detail": "路透社消息，北京正考虑限制海外用户访问中国顶尖 AI 模型。这反映了地缘政治紧张局势下技术主权的考量。若实施，将影响全球开源生态及跨国企业技术选型，标志着 AI 技术供应链进一步分化。海外开发者需关注合规风险及替代方案，这可能促使非中国地区加速本土模型研发，全球 AI 技术合作壁垒将进一步增高，影响跨国技术创新效率，引发新一轮技术脱钩担忧，改变全球 AI 竞争版图。",
-    "tags": [
-      "News",
-      "Policy",
-      "Geopolitics"
-    ],
-    "link": "https://www.reuters.com/world/beijing-is-looking-curbing-overseas-access-chinas-top-ai-models-sources-say-2026-07-07/",
-    "date": "2026-07-07",
-    "id": "17834253054061"
-  },
-  {
-    "title": "银行监管机构警告 AI 网络攻击风险",
-    "summary": "顶级银行监管机构发出 AI 驱动网络攻击警告。",
-    "detail": "金融时报指出，顶级银行监管机构对 AI 驱动的网络攻击发出严厉警告。随着 AI 自动化攻击手段升级，金融系统稳定性面临新威胁。监管机构呼吁加强防御体系，这预示着金融科技合规成本将上升，AI 安全将成为银行 IT 预算的核心部分。金融机构需升级防御策略，应对基于 AI 的深度伪造及自动化漏洞挖掘，安全厂商将迎来新增长点，监管政策将趋严，推动主动防御技术发展。",
-    "tags": [
-      "News",
-      "Security",
-      "Finance"
-    ],
-    "link": "https://www.ft.com/content/304cdbb9-c161-4e40-af4d-6df1d2ff5363",
-    "date": "2026-07-07",
-    "id": "17834253054062"
-  },
-  {
-    "title": "Heyalo 推出无机器人加入的实时通话 AI",
-    "summary": "新工具 Heyalo 实现通话中实时指导且无需机器人加入。",
-    "detail": "Show HN 项目 Heyalo 推出实时通话 AI 助手。其核心特点是不需机器人加入通话，仅在用户面板显示提示，支持 Zoom、Teams 等平台。它能实时指导销售通话并生成摘要，解决了隐私顾虑与实时辅助的平衡，为销售自动化提供新范式。相比传统录音分析，其实时性更能影响通话结果，且无需安装插件，提升了用户体验与数据安全性，适合高价值销售场景，重新定义会议辅助工具。",
-    "tags": [
-      "New",
-      "SaaS",
-      "Sales"
-    ],
-    "link": "https://heyalo.ai",
-    "date": "2026-07-07",
-    "id": "17834253054063"
   }
 ]
