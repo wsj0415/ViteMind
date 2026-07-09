@@ -1,5 +1,57 @@
 [
   {
+    "title": "Google Cloud Run 沙盒公开预览，安全运行 AI 代码",
+    "summary": "Google 推出 Cloud Run 沙盒，专为安全执行未信任 AI 代码设计，毫秒级启动。",
+    "detail": "Google Cloud 在 WeAreDevelopers 大会宣布 Cloud Run 沙盒进入公开预览。该功能提供轻量级隔离执行环境，专为运行 AI 生成代码或不可信二进制文件设计，防止威胁主机应用与凭证。开发者可在现有 Cloud 服务实例内快速生成沙盒，无需复杂基础设施或第三方微虚拟机。核心优势在于毫秒级启动与安全隔离，测试显示执行 1000 个沙盒平均延迟仅 500ms。有效防止 AI Agent 工作负载风险，大幅降低 AI 应用部署门槛，解决安全运行未信任代码的行业痛点，无需离开 serverless 环境即可实现安全隔离。",
+    "tags": [
+      "News",
+      "Google Cloud",
+      "Security"
+    ],
+    "link": "https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-run-sandboxes-are-in-public-preview/",
+    "date": "2026-07-09",
+    "id": "17836199193550"
+  },
+  {
+    "title": "Meta 自研 AI 芯片 MTIA 将于九月投产",
+    "summary": "Meta 自研 MTIA 芯片九月量产，采用台积电制程，旨在降低 GPU 依赖与成本。",
+    "detail": "Meta 计划于 2026 年 9 月开始生产最新一代 AI 专用芯片 MTIA，旨在降低 GPU 成本 amid 组件短缺。通过与 Broadcom 设计合作及台积电制造，供应链涉及 Samsung RAM、Sandisk 存储及 Sumitomo Electric 光纤设备。芯片采用模块化 chiplet 设计，适用于推荐算法训练及推理工作负载。此前已详细披露四款新芯片，采取模块化 approach  anticipating AI 演变。此举标志着 Meta 在硬件基础设施上进一步自主化，虽仍采购 Nvidia 芯片，但自研比例将提升，以应对 AI 算力需求爆发及组件短缺挑战，优化 ranking 算法效率及 broader AI 工作负载。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Meta"
+    ],
+    "link": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
+    "date": "2026-07-09",
+    "id": "17836199193551"
+  },
+  {
+    "title": "研究揭示 Reddit 内容可轻易操纵 AI 搜索",
+    "summary": "康奈尔大学研究发现，仅需 13 词即可通过 Reddit 等 UGC 平台污染 AI 搜索结果。",
+    "detail": "康奈尔大学最新研究指出，AI 搜索代理极易受用户生成内容（UGC）污染。论文《Deep-research agents can be poisoned...》表明，仅需 13 词即可操纵 ChatGPT 或 Google AI 搜索输出。研究发现约半数查询引用 Reddit 或维基百科等内容，近四分之一引用来自 UGC 网站。Reddit 版主已注意到 promotional content 泛滥。品牌可利用此机制进行 AI 引擎优化（AEO）攻击。这揭示了 AI 搜索供应链的安全隐患，提示需加强对引用源的真实性的验证，防止虚假信息传播及商业操纵，影响搜索公正性，对 deep research agents 构成端到端攻击风险。",
+    "tags": [
+      "News",
+      "Security",
+      "Research"
+    ],
+    "link": "https://www.404media.co/it-is-trivially-easy-to-use-reddit-to-manipulate-ai-search-research-suggests/",
+    "date": "2026-07-09",
+    "id": "17836199193552"
+  },
+  {
+    "title": "FrameJS：AI 生成可分享交互式可视化应用",
+    "summary": "开源工具 FrameJS 允许通过 AI  prompt 生成交互式可视化，无需服务器即可分享。",
+    "detail": "FrameJS 是一款开源浏览器嵌入式运行时，支持通过 AI 描述生成交互式图表与应用。无需构建、服务器或账户，每个可视化均为独立 URL，可 instant 分享或嵌入文档。支持 shell 安装（curl command）与 AI  prompt 驱动开发，极大简化数据可视化流程。技术栈基于 JavaScript，支持 iframe 嵌入 Slack 或博客。适合开发者快速构建可分享的数据展示工具，降低交互式 Web 应用开发门槛，实现“描述即应用”的高效工作流，30 秒内即可完成可视化构建与分享，每一帧都是可即时运行的独立链接。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Visualization"
+    ],
+    "link": "https://framejs.app/",
+    "date": "2026-07-09",
+    "id": "17836199193553"
+  },
+  {
     "title": "June：macOS 本地优先隐私 AI 助手",
     "summary": "开源本地优先 AI 助手，保护隐私安全。",
     "detail": "June 是一款专为 macOS 设计的开源 AI 助手，主打“本地优先”架构，确保敏感数据不离设备。它集成了 Agent、语音听写和会议笔记功能，所有数据默认本地处理或通过隐私保护 AI 路由。适合处理工资单、医疗记录等私密文档，解决了用户对云端 AI 数据泄露的担忧。作为 open source 项目，它为隐私敏感型用户和企业提供了可审计、可自部署的新选择，响应了本地 AI 推理日益增长的需求，是隐私计算在消费级应用的重要落地，推动了端侧智能的发展。",
@@ -1246,57 +1298,5 @@
     "link": "https://heyalo.ai",
     "date": "2026-07-07",
     "id": "17834253054063"
-  },
-  {
-    "title": "家庭 AI 系统逐步构建实体身体架构",
-    "summary": "开发者记录家庭 AI 如何通过执行器 growing 身体。",
-    "detail": "Medium 文章记录了一个家庭 AI 系统\"Hana\"如何通过砖块式构建获得身体。不同于科幻中瞬间完成的机器人，该系统通过逐步连接摄像头、执行器等硬件成长。这展示了具身智能在家庭场景的渐进式落地路径，为个人 AI 代理开发提供参考。开发者可通过模块化方式扩展 AI 感知与行动能力，探索非人形机器人在家庭服务中的实际应用潜力，强调软件定义硬件的演进思路，具身智能新视角。",
-    "tags": [
-      "Dev",
-      "Embodied AI",
-      "Home"
-    ],
-    "link": "https://medium.com/towards-artificial-intelligence/brick-by-brick-how-my-home-ai-is-growing-a-body-fc698269a525",
-    "date": "2026-07-07",
-    "id": "17834253054064"
-  },
-  {
-    "title": "高校 AI 检测软件误判率引担忧",
-    "summary": "大学依赖 AI 检测抓作弊，但准确性存疑。",
-    "detail": "Nature 报道显示，高校依赖 AI 检测软件识别学生作弊，但工具可靠性 flagged 为不可信。Idaho State University 学生 Lauren Jager 未使用 AI 的个人陈述被检测为 100% AI 生成，导致其恐慌。这引发对检测工具误判率的担忧，可能 unfairly 影响学生申请与学术评估。教育界需重新审视 AI 检测的有效性与伦理，避免技术误伤诚实学生。检测门户警告若发现 AI 写作将 disregarded 整个申请，凸显了 stakes 之高与工具风险之间的矛盾。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Education"
-    ],
-    "link": "https://www.nature.com/articles/d41586-026-01358-2",
-    "date": "2026-07-07",
-    "id": "17834001037551"
-  },
-  {
-    "title": "Millfolio 提出本地混合 AI 隐私架构",
-    "summary": "将程序发送至数据，而非数据至模型。",
-    "detail": "Millfolio 博客介绍了一种隐私优先的 AI 架构，主张\"Send the program to your data\"。本地模型索引数据，前沿模型（如 Claude）仅针对脱敏 schema 编写程序，程序在本地 sandbox 运行。后端使用 Mojo 编写，包括自定义 GPU 内核。这种“发送程序到数据”的模式确保敏感数据不出设备，为本地混合 AI 应用提供了新的隐私保护思路与技术栈参考。作者邀请 scrutiny 其隐私设计边界，即模型仅见 schema 不见 values，这对构建可信本地 AI 系统具有重要参考价值。",
-    "tags": [
-      "Dev",
-      "Privacy",
-      "Mojo"
-    ],
-    "link": "https://millfolio.app/blog/send-the-program-to-your-data/",
-    "date": "2026-07-07",
-    "id": "17834001037552"
-  },
-  {
-    "title": "Stet 编辑器实现 AI 编辑人工签核",
-    "summary": "每个 AI 编辑需用户确认，Treat AI 如合著者。",
-    "detail": "Stet 是一款 Markdown 编辑器，主张将 AI 视为合著者而非最终草稿生成器。每个 AI 编辑作为 proposal 出现，用户可 accept/reject/refine。支持本地文件与 GitHub 协作，队友 push 变更也作为 proposal review。这种 human-in-the-loop 工作流确保用户知晓 AI 写入内容，适合需要严格控制内容质量与归属的开发与写作场景。工具强调\"Nothing lands without your call\"，通过 review card 和 comment thread 实现与 AI 的协作，拒绝黑盒编辑，提升内容可控性。",
-    "tags": [
-      "New",
-      "Workflow",
-      "Markdown"
-    ],
-    "link": "https://www.getstet.app/",
-    "date": "2026-07-07",
-    "id": "17834001037553"
   }
 ]
