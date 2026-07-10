@@ -1,5 +1,57 @@
 [
   {
+    "title": "苹果起诉 OpenAI 窃取商业秘密研发 AI 硬件",
+    "summary": "苹果指控 OpenAI 高管窃取机密，阻止其开发竞争硬件。",
+    "detail": "苹果向北加州法院提起诉讼，指控 OpenAI 硬件负责人 Tang Tan 等前苹果员工窃取未发布设备机密。诉状显示 Tan 利用在苹果 24 年的任职经验，指导员工规避安全程序，并在招聘中索取硬件组件及供应商信息。此举旨在保护知识产权，因 OpenAI 正研发可能替代 iPhone 的 AI 硬件设备。行业分析师推测该设备可能是依赖 AI 代理的智能手机，将对苹果核心业务构成威胁。苹果声明将采取一切适当步骤捍卫员工创新，案件揭示了科技巨头间日益激烈的硬件与人才竞争。",
+    "tags": [
+      "News",
+      "Legal",
+      "Hardware"
+    ],
+    "link": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+    "date": "2026-07-10",
+    "id": "17837211024080"
+  },
+  {
+    "title": "吴恩达：中国开源模型正提升全球软实力",
+    "summary": "吴恩达指出中国开源权重模型策略优于美国闭源模式。",
+    "detail": "吴恩达在 Berggruen 研究所活动中指出，中国公司通过发布开源权重模型增强全球软实力，而美国主要生产闭源专有模型。这种开放策略允许全球用户免费下载并在本地运行 AI，适应性更强且成本更低。吴恩达兼具 Google Brain 联合创始人及百度前首席科学家背景，其观点具有权威性。这种 paradox（封闭社会产出开源模型）可能改变全球 AI 格局。开源模型降低了使用门槛，使发展中国家也能受益，而闭源模型的高昂成本限制了其全球适应性，引发对 AI 民主化路径的深层思考。",
+    "tags": [
+      "News",
+      "OpenSource",
+      "Strategy"
+    ],
+    "link": "https://www.noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power/",
+    "date": "2026-07-10",
+    "id": "17837211024081"
+  },
+  {
+    "title": "首个支持 AI 代理获取残疾保险报价的 MCP 服务器",
+    "summary": "Seaworthy 推出开放 MCP 服务器，代理可直接请求保险报价。",
+    "detail": "Seaworthy 保险 agency 发布首个可通过 MCP 协议调用报价动作的服务器，允许 AI 代理代表用户请求残疾保险报价。提供 quote_request 动作及 carrier/coverage 研究工具，专为高收入专业人士设计。采用 Streamable HTTP 传输，无需客户端认证，通过服务端输入验证及 IP 限流保障安全。这是保险行业首次向 AI 代理开放核心业务流程，具有里程碑意义。该服务器已注册至官方 MCP Registry，开发者可轻松集成，实现了 AI 代理在垂直金融领域的实际落地应用，展示了 Agent 经济的新可能性。",
+    "tags": [
+      "Dev",
+      "MCP",
+      "Insurance"
+    ],
+    "link": "https://github.com/seaworthy-io/seaworthy-mcp",
+    "date": "2026-07-10",
+    "id": "17837211024082"
+  },
+  {
+    "title": "本地优先的 AI 代理治理与 containment 方案",
+    "summary": "提出本地优先架构，确保 AI 代理行动可控且可审计。",
+    "detail": "文章强调自主代理的风险在于执行错误行动而非回答错误，提出本地优先的治理模型。核心原语包括最小权限默认拒绝、出站行动显式批准网关、秘密 hygiene 及不可篡改审计 trail。主张治理逻辑应位于本地机器而非云端，确保用户对代理行为的完全控制。提供 kill switch 以 clean 停止所有行动。这种架构防止代理发送邮件或删除文件等不可逆操作，为开发安全自主代理提供实践模型，解决了代理自主性与安全性之间的关键矛盾，是构建可信 AI 系统的基础设施。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://vektorgeist.com/blog/local-first-agent-governance",
+    "date": "2026-07-10",
+    "id": "17837211024083"
+  },
+  {
     "title": "亚马逊新债务协议引发 AI 支出担忧",
     "summary": "亚马逊新债务协议使其 AI 投资故事面临市场考验，引发投资者关注。",
     "detail": "亚马逊最新债务协议引发市场对其 AI 支出可持续性的审视。随着科技巨头竞相投入 AI 基础设施，投资者开始质疑高额资本支出的回报周期。市场数据显示亚马逊股价波动，反映出资本市场对该策略的谨慎态度。该新闻反映了 2026 年 AI 竞赛进入深水区，财务健康与战略投入之间的平衡成为焦点，可能影响后续大厂 AI 投资节奏及行业融资环境，标志着 AI 商业化落地面临财务考验。若债务成本上升，可能迫使企业优化 AI 模型效率，从单纯堆算力转向追求 ROI。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.theregister.com/ai-and-ml/2026/07/08/ai-is-becoming-a-bargain-hunters-market-with-a-few-luxury-models-on-top/5268050",
     "date": "2026-07-08",
     "id": "17834994667402"
-  },
-  {
-    "title": "企业 AI 成本失控？Token 经济学优化指南",
-    "summary": "某公司单月花费 5 亿美元 Token，MMC VC 分享如何优化 Token 使用率。",
-    "detail": "MMC VC 研究报告指出，企业 AI 支出激增，某公司曾因未设限单月花费 5 亿美元。随着多代理系统普及，Token 用量激增，代理系统用量是聊天的 15 倍，编码系统可达 1000 倍。报告建议 50-80% 的 Token 支出是不必要的，需避免对简单任务使用前沿模型，并注意分词器变化带来的隐性成本增加。GitHub Copilot 等转向用量计费，成本可能增加 9 至 18 倍。企业需设置员工使用限制，优化 Token 使用率，防止预算在年初耗尽，实现 ROI 最大化。",
-    "tags": [
-      "Dev",
-      "Cost",
-      "Enterprise"
-    ],
-    "link": "https://mmc.vc/research/ai-tokenomics-how-to-tokenmin-while-roimaxxing/",
-    "date": "2026-07-08",
-    "id": "17834994667403"
-  },
-  {
-    "title": "2026 年 AI 编程工具选型指南",
-    "summary": "对比 Web 界面、定制 IDE 与 VSCode 扩展，推荐最高效的 AI 编程工作流。",
-    "detail": "文章探讨了 AI 编程工具的最佳实践。Web 界面缺乏项目上下文，定制 IDE 生态封闭。作者推荐 VSCode 扩展方案，因其最灵活强大。支持从静态网站到复杂 Web 应用的开发，能显著缩短开发周期，从数周减少至数小时。AI 可帮助理解代码、查找问题及加速学习。虽然对发布代码持怀疑态度，但在基准测试和辅助改进方面价值巨大。开发者应选择能自动更新上下文且能编辑文件的工具，避免被单一提供商生态锁定，建立高效开发工作流。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Tools"
-    ],
-    "link": "https://bryanhogan.com/blog/ai-coding-tools",
-    "date": "2026-07-08",
-    "id": "17834994667404"
-  },
-  {
-    "title": "Skill Retriever：基于 10K 分类 taxonomy 的 AI Agent 技能发现",
-    "summary": "开源项目通过语义技能发现提升 Agent 能力，支持大规模分类检索。",
-    "detail": "该项目提出了一种名为 Skill Retriever 的语义技能发现方法，旨在通过 10K 类别分类体系优化 AI Agent 的技能检索能力。核心技术在于利用语义 taxonomy 进行高效匹配，帮助 Agent 在复杂任务中快速定位所需技能。这对于开发更自主、高效的 AI Agent 系统具有重要的参考价值，适合开发者研究 Agent 架构优化及技能复用机制。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "OpenSource"
-    ],
-    "link": "https://github.com/ChonSong/skill-retriever",
-    "date": "2026-07-08",
-    "id": "17834900452670"
-  },
-  {
-    "title": "Meta 测试“超级感知”AI 眼镜，可记录每一时刻",
-    "summary": "Meta 新硬件测试旨在通过 AI 眼镜实现全天候记录，引发隐私关注。",
-    "detail": "据金融时报报道，Meta 正在测试具备“超级感知”功能的 AI 眼镜，能够记录用户生活中的每一个瞬间。这款硬件集成了先进的 AI 处理能力，旨在增强现实体验。然而，全天候记录功能也引发了关于隐私保护和数据安全的广泛讨论。此举标志着 Meta 在 AI 硬件领域的进一步布局，可能改变可穿戴设备的市场格局。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Meta"
-    ],
-    "link": "https://www.ft.com/content/ac282450-91a8-4597-8f60-9e6ef416865a",
-    "date": "2026-07-08",
-    "id": "17834900452672"
   }
 ]
