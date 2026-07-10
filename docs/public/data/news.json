@@ -1,5 +1,70 @@
 [
   {
+    "title": "OpenAI 二号人物 Fidji Simo 因健康原因离职",
+    "summary": "OpenAI 应用 CEO Fidji Simo 转为顾问角色，Altman 寻继任者。",
+    "detail": "**背景**：OpenAI 二号高管 Fidji Simo 宣布辞去全职职务，转为兼职顾问。\n**核心内容**：Simox 因神经免疫疾病复发，医疗假期延长。她曾负责 consolidating 业务与产品运营，直接向 Sam Altman 汇报。此次变动导致 COO、CFO 等高管汇报线调整。\n**行业影响**：高层动荡可能影响 OpenAI 产品商业化进程，Altman 需重新寻找继任者以平衡研究与业务。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Management"
+    ],
+    "link": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+    "date": "2026-07-10",
+    "id": "17836809629030"
+  },
+  {
+    "title": "研究：2025 年中 35% 新网站内容为 AI 生成",
+    "summary": "斯坦福等机构研究指出 AI 文本降低语义多样性，但未影响事实准确性。",
+    "detail": "**背景**：帝国理工、Internet Archive 及斯坦福联合发布关于 AI 生成文本对互联网影响的研究。\n**核心发现**：截至 2025 年中，约 35% 新发布网站被分类为 AI 生成或辅助。AI 文本增加导致语义多样性下降，正面情绪增加。\n**行业影响**：研究反驳了 AI 降低事实准确性的公众认知，但警示了内容同质化风险，为内容平台治理提供数据支持。",
+    "tags": [
+      "News",
+      "Research",
+      "Internet"
+    ],
+    "link": "https://ai-on-the-internet.github.io/",
+    "date": "2026-07-10",
+    "id": "17836809629031"
+  },
+  {
+    "title": "CorvinOS：专为 AI 组织设计的自托管代理操作系统",
+    "summary": "欧盟合规设计的自托管 Agentic OS，支持语音控制与全链路审计。",
+    "detail": "**背景**：Corvin Labs 推出 CorvinOS，定位为 AI 组织的操作系统。\n**核心功能**：支持自托管运行引擎、Persona 及工作流。内置欧盟合规架构，提供哈希链审计。支持通过 Telegram 等消息桥接进行语音控制。\n**行业影响**：解决了企业级 AI 代理部署的合规与隐私痛点，为本地化 AI 基础设施提供新选择，适合对数据主权敏感的组织。",
+    "tags": [
+      "New",
+      "Infrastructure",
+      "Compliance"
+    ],
+    "link": "https://corvin-labs.com/",
+    "date": "2026-07-10",
+    "id": "17836809629032"
+  },
+  {
+    "title": "n8n 分析：AI 代理的身份与执行能力仅解决了一半",
+    "summary": "n8n 博客指出代理身份、可靠执行及意图理解仍存在重大技术缺口。",
+    "detail": "**背景**：n8n 团队分析数百份技术文档，评估代理开发工具能力。\n**核心观点**：代理身份（Identity）尚未正式定义，难以追踪代理行为与所有者。可靠执行与意图理解仍处半解决状态。现有方案多为 retrofitting。\n**行业影响**：揭示了 Agentic AI 落地的深层挑战，开发者需关注身份管理与审计机制，而非仅关注模型能力。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "Analysis"
+    ],
+    "link": "https://blog.n8n.io/agent-identity-reliable-execution-and-intent-are-only-half-way-solved/",
+    "date": "2026-07-10",
+    "id": "17836809629033"
+  },
+  {
+    "title": "开源工具：通过录制桌面工作流教导 AI 代理",
+    "summary": "video-db 开源项目，录制一次即可编译为可重放的 AI 代理技能。",
+    "detail": "**背景**：GitHub 项目 open-record-replay 发布，旨在简化 AI 代理的桌面操作训练。\n**核心技术**：支持录制桌面工作流并编译为可重用技能。集成 MCP 协议，支持 Python 开发。无需重复复现错误，直接生成解决方案。\n**行业影响**：降低了 AI 代理学习桌面任务的门槛，为 RPA 与 AI 结合提供开源方案，适合自动化工作流开发者。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Automation"
+    ],
+    "link": "https://github.com/video-db/open-record-replay",
+    "date": "2026-07-10",
+    "id": "17836809629034"
+  },
+  {
     "title": "2026 年初主流 AI 订阅服务涨价且削减配额",
     "summary": "Perplexity、Copilot 等主流 AI 工具涨价并削减配额，用户转向 Claude 寻求更高性价比。",
     "detail": "2026 年初，AI 订阅市场发生震荡。Perplexity Pro 搜索配额从 300 降至 11，Copilot 转向 token 计费且价格上涨，ChatGPT 和 Gemini 价值下滑。许多用户 consolidating 到 Claude 以寻求更高性价比。这标志着 AI 工具从“增长优先”转向“盈利优先”，免费或低价红利期结束，厂商开始通过削减配额和提升价格改善财务模型。企业和个人用户需重新评估 AI 预算，关注实际产出而非模型数量，成本管控将成为 AI 应用落地的关键考量因素。建议团队建立多模型策略，避免供应商锁定，同时监控用量账单，优化 Prompt 效率以减少 token 消耗，适应新的计费时代。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/nossa-y/activity-frames",
     "date": "2026-07-07",
     "id": "17834654361504"
-  },
-  {
-    "title": "AI 数据中心导致美国制造业能源成本飙升",
-    "summary": "AI 数据中心需求激增，致使美国制造业能源成本大幅上涨。",
-    "detail": "**背景**：随着 AI 模型规模扩大，基础设施能源需求激增。**核心**：Ars Technica 2026 年 7 月报道，美国制造商因 AI 数据中心抢占电力资源，导致能源成本大幅飙升。**影响**：这揭示了 AI 发展的物理瓶颈，能源分配矛盾可能迫使制造业转型或推动政策干预。长期来看，绿色能源与高效算力将成为行业竞争关键，社会需平衡技术创新与基础民生成本。此现象可能加速核能或可再生能源在数据中心的应用落地。",
-    "tags": [
-      "News",
-      "Energy",
-      "Infrastructure"
-    ],
-    "link": "https://arstechnica.com/tech-policy/2026/07/us-manufacturers-energy-costs-soar-because-of-ai-data-center-demand/",
-    "date": "2026-07-07",
-    "id": "17834596046760"
-  },
-  {
-    "title": "研究显示 AI 编码时代代码可维护性急剧下降",
-    "summary": "GitClear 研究发现 AI 辅助编码导致代码重复率上升，复用率下降。",
-    "detail": "**背景**：LeadDev 引用 GitClear 对 6.23 亿次代码变更的分析数据。**核心**：2023 至 2026 年间，AI 辅助提交占四分之一，代码重复率上升 81%，复用率下降 70%，遗留代码重构减少 74%。**影响**：开发者倾向新建而非维护，技术债务累积，警示行业需重视 AI 生成代码的质量管控与重构。企业需建立新的代码审查标准，防止“技术债”拖慢长期迭代速度，AI 编程工具需从“生成”转向“优化”。",
-    "tags": [
-      "News",
-      "Code Quality",
-      "LLM"
-    ],
-    "link": "https://leaddev.com/ai/code-maintainability-plummets-in-the-ai-coding-era",
-    "date": "2026-07-07",
-    "id": "17834596046761"
-  },
-  {
-    "title": "初创公司收费每周 1 万美元清理 AI 生成代码",
-    "summary": "针对 AI 生成的混乱代码，提供付费重构服务，承诺减少代码行数。",
-    "detail": "**背景**：针对\"vibecoded\"项目后期难以维护的痛点。**核心**：Odra.dev 推出 Slopfix 服务，收费 1 万美元/周，由资深工程师重构 AI 代码，承诺代码行数显著减少并提供质保。**影响**：反映 AI 生成代码质量问题的商业化解决方案出现，标志 AI 编程进入“生成 - 清理”新周期。这表明单纯依赖 AI 生成不可持续，人类专家的经验在架构设计与代码治理上仍具不可替代价值。",
-    "tags": [
-      "News",
-      "Service",
-      "Refactoring"
-    ],
-    "link": "https://odra.dev/slopfix/",
-    "date": "2026-07-07",
-    "id": "17834596046762"
-  },
-  {
-    "title": "Hugging Face 与 Amazon SageMaker 实现一键部署集成",
-    "summary": "开发者现可一键将 Hugging Face 模型部署至 Amazon SageMaker Studio。",
-    "detail": "**背景**：简化模型部署流程，连接模型社区与云平台。**核心**：Hugging Face 博客宣布与 Amazon 合作，支持从 HF 到 SageMaker Studio 一键点击部署，无需复杂配置。**影响**：降低 MLOps 门槛，加速模型从实验到生产的转化，强化云平台与模型社区的生态连接。此举将进一步巩固 HF 作为模型枢纽的地位，同时为 AWS 吸引更多开发者，推动企业级 AI 应用落地效率。",
-    "tags": [
-      "Dev",
-      "MLOps",
-      "Cloud"
-    ],
-    "link": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-    "date": "2026-07-07",
-    "id": "17834596046763"
-  },
-  {
-    "title": "开源项目 Agent Bus 实现 AI 代理间 IRC 式通信",
-    "summary": "基于 MCP 协议，为 AI 代理提供群聊、状态共享及任务锁定的通信总线。",
-    "detail": "**背景**：解决 AI 代理孤立运行无法协作的问题。**核心**：GitHub 开源项目 Agent Bus，提供 IRC 风格消息总线，支持代理注册、直消息、频道广播及共享黑板，基于 MCP 协议。**影响**：促进多代理系统（Multi-Agent）协作开发，标准化代理间通信协议，提升复杂任务自动化能力。为构建更复杂的自主代理网络提供基础设施，降低多代理协同的开发难度与通信成本。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "MCP"
-    ],
-    "link": "https://github.com/roriau0422/AgentBus",
-    "date": "2026-07-07",
-    "id": "17834596046764"
   }
 ]
