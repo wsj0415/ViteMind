@@ -1,5 +1,70 @@
 [
   {
+    "title": "Hister：为 AI 助手构建私有记忆索引",
+    "summary": "Hister 通过本地搜索引擎整合浏览历史与文件，为 AI 提供私有上下文。",
+    "detail": "**背景**：当前 AI 助手擅长解释但缺乏用户个人上下文记忆，无法知晓用户近期阅读的文档或关注的 GitHub 问题。\n**核心技术**：Hister 作为个人搜索引擎，通过浏览器扩展自动索引页面，命令行工具可导入历史及本地文件。支持全文检索、语义搜索及 MCP 协议，使 AI 助手能搜索本地索引而非单独连接每个服务。\n**行业影响**：解决了 AI 记忆碎片化问题，提供了一种隐私优先的上下文增强方案。数据保留在用户控制的实例上，减少了对第三方 API 集成的依赖，为个人化 AI 代理提供了新的基础设施思路。",
+    "tags": [
+      "Dev",
+      "Privacy",
+      "MCP"
+    ],
+    "link": "https://hister.org/posts/give-your-ai-assistant-a-private-memory",
+    "date": "2026-07-10",
+    "id": "17836892165190"
+  },
+  {
+    "title": "施奈尔：AI 语言模型可能重塑人类沟通方式",
+    "summary": "布鲁斯·施奈尔指出 AI 训练数据偏差可能导致人类语言习惯退化。",
+    "detail": "**背景**：大型语言模型主要基于书面语训练，缺乏面对面非脚本对话数据，仅捕捉人类语言的一小部分。\n**核心观点**：随着 AI 生成文本增加，人类可能 adopt AI 的语言模式。影响不仅在于沟通方式，还可能扭曲自我认知。研究指出，儿童对语音助手发号施令的习惯已延伸至人类互动，导致礼貌性侵蚀。\n**行业影响**：警示 AI 普及对社会文化的潜在负面影响。提示开发者需关注模型交互设计对人类行为的长期塑造，AI 不仅是效率工具，更是文化载体，需警惕语言贫乏化和命令式沟通的蔓延。",
+    "tags": [
+      "News",
+      "Society",
+      "LLM"
+    ],
+    "link": "https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html",
+    "date": "2026-07-10",
+    "id": "17836892165191"
+  },
+  {
+    "title": "Hallint：专为 AI 生成代码设计的安全 Lint 工具",
+    "summary": "开源工具 Hallint 静态分析 AI 代码，检测硬编码秘密与 SQL 注入。",
+    "detail": "**背景**：AI 编程助手（如 Copilot）虽快，但 consistently 引入同类 bug，如硬编码秘密和 SQL 注入。\n**核心功能**：Hallint 提供针对 AI 生成代码的静态分析，旨在代码进入生产环境前捕捉安全漏洞。支持 npm 包与 CLI 工具，兼容 Node.js 环境，采用 MIT 许可证。\n**行业影响**：随着 AI 编码普及，代码安全性成为新痛点。Hallint 填补了 AI 生成代码质量保障的空白，提醒开发者不能盲目信任 AI 输出，需建立专门的安全审查流程，确保 AI 辅助开发的安全性。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Code"
+    ],
+    "link": "https://github.com/Asyncinnovator/hallint",
+    "date": "2026-07-10",
+    "id": "17836892165192"
+  },
+  {
+    "title": "技术深潜：为何 AI 无法真正“遗忘”",
+    "summary": "从权重到上下文窗口，详解 AI 记忆机制与机器遗忘的技术难题。",
+    "detail": "**背景**：公众常误解 AI 记忆机制，认为删除数据即遗忘。\n**核心分析**：AI 记忆存在于权重（训练数据影响 smeared across 参数，不可逆）、上下文窗口（全有或全无）、向量数据库及日志中。机器遗忘（Machine Unlearning）仍是未解的研究难题，法律上的“被遗忘权”难以在技术底层实现。\n**行业影响**：揭示了 AI 隐私合规的技术瓶颈，表明当前架构下数据删除不等于影响消除。这对 GDPR 等合规实践提出挑战，表明需要新的技术方案来处理数据主权问题。",
+    "tags": [
+      "Dev",
+      "Memory",
+      "Privacy"
+    ],
+    "link": "https://tejassuds.com/blog/ai-cannot-forget",
+    "date": "2026-07-10",
+    "id": "17836892165193"
+  },
+  {
+    "title": "12 岁创业者推出 AI 语音接待员 Voxa",
+    "summary": "加拿大少年 Mana Jampala 创立 Voxa，帮助小企业处理漏接电话。",
+    "detail": "**背景**：AI 降低创业门槛，赋能新一代创始人。12 岁创始人 Mana Jampala 观察到父亲工作场所因忙碌漏接电话导致收入损失。\n**产品功能**：Voxa 是 24/7 语音助手，可接听电话、预约、记录订单及生成摘要。同时推出 Voxa Agents 平台，允许用户通过提示词创建 AI 代理。\n**行业影响**：展示了 AI Agent 在垂直场景（小企业客服）的落地能力。表明自然语言交互技术已足够成熟，非技术人员也能利用 AI 解决具体商业问题，预示 AI 原生创业将更加低龄化和普及化。",
+    "tags": [
+      "New",
+      "Startup",
+      "Voice"
+    ],
+    "link": "https://www.businessinsider.com/gen-alpha-founder-ai-receptionist-small-businesses-young-geniuses-2026-6",
+    "date": "2026-07-10",
+    "id": "17836892165194"
+  },
+  {
     "title": "OpenAI 二号人物 Fidji Simo 因健康原因离职",
     "summary": "OpenAI 应用 CEO Fidji Simo 转为顾问角色，Altman 寻继任者。",
     "detail": "**背景**：OpenAI 二号高管 Fidji Simo 宣布辞去全职职务，转为兼职顾问。\n**核心内容**：Simox 因神经免疫疾病复发，医疗假期延长。她曾负责 consolidating 业务与产品运营，直接向 Sam Altman 汇报。此次变动导致 COO、CFO 等高管汇报线调整。\n**行业影响**：高层动荡可能影响 OpenAI 产品商业化进程，Altman 需重新寻找继任者以平衡研究与业务。",
@@ -1233,70 +1298,5 @@
     "link": "https://commission.europa.eu/news-and-media/news/new-eu-plan-address-risks-and-opportunities-advanced-ai-cybersecurity-2026-07-07_en",
     "date": "2026-07-07",
     "id": "17834787681754"
-  },
-  {
-    "title": "Meta 发布 Muse 图像生成模型，集成至 Instagram 与 WhatsApp",
-    "summary": "Meta 推出免费 AI 图像生成器 Muse，支持预设提示与图像编辑，深度集成旗下应用。",
-    "detail": "Meta 超级智能实验室正式发布 Muse Image 生成模型，内部代号 Mango。该功能将通过 Meta AI 应用、Instagram Stories 及 WhatsApp 免费向用户开放。核心功能包括预设提示词生成、自定义广告素材创作及基于文本的图像编辑（如移除背景人物、生成二维码）。演示视频展示了其在室内装饰预览及 Facebook Marketplace 集成上的潜力。此举标志着 Meta 将生成式 AI 深度融入其社交生态体系，旨在降低内容创作门槛并增强广告变现能力。随着 AI 内容泛滥，平台级集成可能加剧社交媒体的 AI 内容竞争，同时为创作者提供无缝工作流，巩固其在 AI 应用层的地位。",
-    "tags": [
-      "News",
-      "Generative AI",
-      "Meta"
-    ],
-    "link": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
-    "date": "2026-07-07",
-    "id": "17834654361500"
-  },
-  {
-    "title": "成本飙升促使美国企业转向中国 AI 模型，OpenRouter 用量激增",
-    "summary": "因美国模型成本上涨，DeepSeek 等中国模型在美市场份额显著提升，OpenRouter 用量超 30%。",
-    "detail": "随着 OpenAI 和 Anthropic 等美国实验室提高 Token 价格，中国模型（如 DeepSeek、Z.ai）因性价比优势在美国企业中获得 traction。数据显示，美国公司通过 OpenRouter 使用中国模型的 Token 份额自 2 月以来持续高于 30%，峰值达 46%，远超此前平均水平。尽管美国政府考虑监管并限制部分模型 rollout，但成本压力迫使企业寻求替代方案。这反映了全球 AI 供应链的成本敏感性与地缘博弈。企业需在性能、成本与合规间寻找平衡，中国开源及开放权重模型正成为关键替代选项，可能重塑 API 经济格局。",
-    "tags": [
-      "News",
-      "LLM",
-      "Market Trend"
-    ],
-    "link": "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html",
-    "date": "2026-07-07",
-    "id": "17834654361501"
-  },
-  {
-    "title": "欧盟 AI 法案 8 月全面生效，工程合规清单发布",
-    "summary": "2026 年 8 月 2 日欧盟 AI 法案正式适用，高风险系统需满足具体工程义务与证据留存。",
-    "detail": "欧盟 AI 法案将于 2026 年 8 月 2 日全面生效，涵盖招聘、信贷、教育及关键基础设施等高风险系统。Conformity Engineering 发布工程清单，强调合规应作为系统属性而非事后文档。核心要求包括将合规嵌入工程管道，持续生成证据 artifact。企业需从“法律合规项目”转向“工程合规实践”，类似 SRE 与 DevSecOps 的演变，确保系统变更符合监管。若仅依赖律师文档而忽略系统实时变化，将无法通过审计。这标志着 AI 治理进入工程化落地阶段，要求技术团队直接承担合规责任，重构开发流程以满足透明度与可审计性要求。",
-    "tags": [
-      "News",
-      "Regulation",
-      "Compliance"
-    ],
-    "link": "https://conformityengineering.com/playbook/",
-    "date": "2026-07-07",
-    "id": "17834654361502"
-  },
-  {
-    "title": "高通开源 GenieX 运行时，支持 Hexagon NPU 本地运行前沿模型",
-    "summary": "高通收购 Nexa AI 后开源 GenieX， enabling 在 NPU/GPU/CPU 上本地运行 LLM 与 VLM。",
-    "detail": "高通宣布收购 Nexa AI 并开源 GenAI 运行时 GenieX。该工具允许开发者通过几行代码在 Qualcomm 设备（NPU、GPU、CPU）上本地运行前沿 LLM 和 VLM。此举旨在优化边缘 AI 性能，降低云端依赖。对于移动端和 IoT 开发者而言，这意味着更高效、隐私安全的本地推理方案，推动端侧智能普及。GenieX 支持 Hexagon NPU 加速，解决了移动端部署复杂性问题。随着端侧算力提升，本地运行大模型将成为趋势，高通此举意在构建硬件与软件生态壁垒，吸引开发者在其芯片平台上构建 AI 应用。",
-    "tags": [
-      "Dev",
-      "Edge AI",
-      "Open Source"
-    ],
-    "link": "https://github.com/qualcomm/GenieX",
-    "date": "2026-07-07",
-    "id": "17834654361503"
-  },
-  {
-    "title": "Activity-frames：为 AI Agent 提供本地屏幕记忆与 MCP 支持",
-    "summary": "开源项目 Activity-frames 记录本地屏幕活动，构建 Agent 情景记忆，支持 MCP 协议。",
-    "detail": "新项目 Activity-frames 旨在为 AI Agent 提供“情景记忆”。它在本地记录屏幕活动，编译为结构化活动帧，并通过 Model Context Protocol (MCP) 提供服务。无需云端或 LLM 介入即可运行。这解决了 Agent 缺乏用户上下文的问题，同时保障隐私。适合构建个人助理类 Agent，是本地优先（Local-first）AI 架构的重要实践。通过 MCP 协议，Agent 可安全访问用户历史操作上下文，无需上传敏感屏幕数据。这种架构降低了延迟并增强了数据主权，为构建真正懂用户的个人 AI 助手提供了基础设施层支持，避免了云端的隐私泄露风险。",
-    "tags": [
-      "Dev",
-      "AI Agent",
-      "Privacy"
-    ],
-    "link": "https://github.com/nossa-y/activity-frames",
-    "date": "2026-07-07",
-    "id": "17834654361504"
   }
 ]
