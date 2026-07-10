@@ -1,5 +1,70 @@
 [
   {
+    "title": "微软发布 2026 AI 可持续发展报告",
+    "summary": "微软发布 2026 报告，强调 AI 发展需兼顾能源与水资源的可持续责任。",
+    "detail": "微软发布 2026 环境可持续发展报告，指出全球向 AI 转型正在重塑经济，同时也增加了支持该增长所需的能源、水、土地和材料需求。作为处于转型前沿的公司，微软有责任确保技术加强而非 strained 系统。公司承诺在追求碳负排放、水正排放和零浪费的同时，确保基础设施更高效、更有韧性，并基于运营社区的现实情况。这标志着科技巨头在 AI 扩张背景下，开始正视环境影响并承担行业领导责任，要求更高的运营严谨性和对持久结果的关注。微软表示不将此视为退缩的理由，而是以不同方式领导的授权。",
+    "tags": [
+      "News",
+      "Microsoft",
+      "Sustainability"
+    ],
+    "link": "https://blogs.microsoft.com/on-the-issues/2026/07/09/responsibly-building-the-ai-future/",
+    "date": "2026-07-10",
+    "id": "17836538350970"
+  },
+  {
+    "title": "Instagram 默认开启 Muse AI 引发隐私争议",
+    "summary": "Instagram 推出 Muse AI 功能，默认将所有公开账户纳入训练，用户需手动关闭。",
+    "detail": "Instagram 推出基于用户照片生成 AI 图像的 Muse 功能，但默认 opted-in 所有公开账户。此举引发隐私担忧，用户需在设置中手动关闭\"Sharing and reuse\"选项。具体步骤为点击头像、右上角菜单、滚动至共享设置并关闭 Posts 和 Reels。这反映了社交平台在 AI 数据利用与用户隐私之间的激进博弈，用户需主动防御才能保护个人生物特征数据不被用于模型训练。科技评论员 MKBHD 指出这一默认设置极具争议，强调了用户在 AI 时代对自身数据控制权的丧失风险，呼吁平台提供更透明的 opt-in 机制。",
+    "tags": [
+      "News",
+      "Privacy",
+      "Social Media"
+    ],
+    "link": "https://twitter.com/MKBHD/status/2075375524684218655",
+    "date": "2026-07-10",
+    "id": "17836538350971"
+  },
+  {
+    "title": "Selvedge：为 AI 编程代码库提供长期记忆",
+    "summary": "新工具 Selvedge 记录 AI 代理的代码修改理由，解决上下文丢失问题。",
+    "detail": "Selvedge 是一款针对 AI 编程代理的开发工具，提供代码库的“长期记忆”。它能捕获 AI 修改代码时的 reasoning 而不仅是 diff，支持实体级追踪且本地存储。工具通过 MCP 工具记录变更原因，导出 Agent Trace 记录。这解决了 AI 生成代码难以维护和理解的核心痛点，提升工程可观测性。开发者无需依赖事后推断，可直接查询实体如 users.email 的变更历史，确保 AI 代理不会重复团队已撤销的错误尝试，保持本地简单无遥测。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Tool"
+    ],
+    "link": "https://selvedge.sh/",
+    "date": "2026-07-10",
+    "id": "17836538350972"
+  },
+  {
+    "title": "Slack Debloat：移除 Slack 内置 AI 与冗余功能",
+    "summary": "macOS 工具可注入 CSS/JS 移除 Slack 内置机器人及 AI 推销，提升专注度。",
+    "detail": "该项目允许用户通过 CSS 和 JS 注入来“去肥胖”macOS 版 Slack 应用。可隐藏 Activity tab、Slackbot 及 AI 推销横幅，且不修改应用签名。这反映了开发者对 SaaS 软件日益增多的 AI 功能干扰的反抗，追求更纯净的工作流。工具利用 Chrome DevTools Protocol 端口注入脚本，保存后秒级实时重应用。无需 patch 应用，Slack 可正常更新。这显示了用户对原生应用中强制集成 AI 功能的疲劳，希望通过开源工具 reclaim 界面控制权，提升实际工作效率。",
+    "tags": [
+      "Dev",
+      "Productivity",
+      "Open Source"
+    ],
+    "link": "https://github.com/benri-ai/slack-debloat",
+    "date": "2026-07-10",
+    "id": "17836538350973"
+  },
+  {
+    "title": "AI 周报：OpenAI 语音升级与 Grok 4.5 动态",
+    "summary": "本周 AI 动态包括 OpenAI 语音模式重大升级，以及 Grok 4.5 模型发布。",
+    "detail": "知名分析师 The Zvi 发布周报，预告 OpenAI 即将推出 Sol (GPT-5.6) 及语音模式重大升级。同时确认 Grok 4.5 已存在且性价比尚可。报告还探讨了 AI 写作的普及化及模型意外能力的涌现，为开发者提供本周关键风向。内容涵盖语言模型的平凡效用与意外赋能，以及 Anthropic 提高 API 限制等动态。本周新闻分为两部分，后续将覆盖 OpenAI_sol_ 详情，显示 AI 迭代速度加快，语音交互可能迎来体验拐点，开发者需密切关注模型能力边界的变化。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "LLM"
+    ],
+    "link": "https://thezvi.substack.com/p/ai-176-part-1-doing-it-live",
+    "date": "2026-07-10",
+    "id": "17836538350974"
+  },
+  {
     "title": "OpenAI 发布 GPT-5.6 系列模型",
     "summary": "OpenAI 推出 GPT-5.6 系列，包含 Sol、Terra 和 Luna  variant，强调网络安全与效率。",
     "detail": "OpenAI 正式发布 GPT-5.6 家族，包含 Sol（主力）、Terra（中级）和 Luna（预算版）。Sol 在编码任务上 token 效率提升 54%，被称为最强网络安全模型，支持威胁建模和代码审查。此外推出 ChatGPT Work 企业助手，旨在成为企业团队的工作伴侣，覆盖桌面及移动端。此前因政府担忧其进攻性能力曾受限，现模型主要支持防御性安全任务，如蓝队模拟。CEO Sam Altman 承诺新模型在效率和成本上优于前代，标志着 AI 在企业级应用和网络安全领域的进一步渗透。该发布加剧了模型提供商之间的竞争，同时也反映了监管对 AI 安全能力的持续关注。",
@@ -1233,70 +1298,5 @@
     "link": "https://tokendiet.dev/",
     "date": "2026-07-07",
     "id": "17834542953173"
-  },
-  {
-    "title": "Last EHR：带有人类审批的开源医疗 AI 代理层",
-    "summary": "基于 FHIR 后端，AI 写入病历需人工确认，确保数据安全。",
-    "detail": "Last EHR 是一个开源的 AI 代理层，运行在现有的 Medplum/FHIR 后端之上。它不存储患者数据，所有 AI 写入操作（如记录观察值）均需用户 explicit 确认。支持自带模型 Key，权限受 Medplum 访问策略控制。该项目解决了医疗 AI 落地中的信任与合规问题，通过人机协作模式确保病历修改的安全性，适合医疗机构快速部署 AI 辅助功能。采用 Apache-2.0 许可，无需账户即可启动。这种“人类审批写入”机制为高风险领域的 AI 代理应用提供了安全范式，平衡了效率与责任。医疗数据敏感性极高，该架构确保数据主权留在机构内部，避免第三方 SaaS 的数据泄露风险。支持切换 OpenAI 或 Anthropic 模型，赋予机构选择权。通过 Medplum 的访问策略，细粒度控制 AI 权限，防止越权操作。这种设计模式可推广至金融、法律等高合规要求领域，为 AI 代理进入核心业务系统提供了安全参考架构，加速行业落地。",
-    "tags": [
-      "New",
-      "Healthcare",
-      "Agent"
-    ],
-    "link": "https://www.lastehr.com",
-    "date": "2026-07-07",
-    "id": "17834542953174"
-  },
-  {
-    "title": "Cloudflare 发布 AI 代理开发环境配置指南",
-    "summary": "官方验证指令，支持 Claude Code 及多种代理接入 MCP 服务器。",
-    "detail": "Cloudflare 发布了详细的 AI 代理设置指南，帮助开发者在 Cloudflare 平台上构建和部署 AI 应用。提供了针对 Claude Code 及其他代理（如 Codex、OpenCode）的 MCP 服务器安装命令。支持 OAuth 自动触发，涵盖技能安装、文档访问及构建部署等功能。这是基础设施厂商标准化 AI 代理接入流程的重要步骤，简化了开发者集成 Cloudflare 能力的复杂度。验证过的命令减少了配置错误，促进了 MCP 协议在边缘计算场景的落地，适合希望利用 Cloudflare 全球网络增强 AI 应用性能的开发者。标准化 MCP 配置减少了不同代理间的兼容性问题，促进了工具互操作性。OAuth 自动触发简化了认证流程，提升了开发体验。随着 AI 代理生态成熟，基础设施厂商提供的原生支持将成为开发者选型的重要因素，Cloudflare 此举旨在巩固其在边缘 AI 部署领域的地位，吸引更多开发者在其平台上构建下一代智能应用。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "MCP"
-    ],
-    "link": "https://developers.cloudflare.com/agent-setup/prompt.md",
-    "date": "2026-07-07",
-    "id": "17834542953175"
-  },
-  {
-    "title": "Dynatrace：开发者应关注 AI 价值而非追逐新工具",
-    "summary": "行业观点指出过度关注新工具导致焦虑，真实生产力在于交付价值。",
-    "detail": "Dynatrace 博客文章指出，开发者正因害怕落后而焦虑，过度追逐编码代理、自主工作流等新工具。文章强调，生成代码不等于生产力，真实价值在于通过集成测试、安全审查并交付给用户。建议开发者关注公开演示真实价值的案例，而非 hype。这反映了 AI 开发领域从“尝鲜”向“务实”转变的行业趋势，提醒团队避免资源浪费。过度关注工具本身可能忽略最终用户价值，真正的效率提升来自于稳健的工程实践与 AI 的合理结合，而非盲目跟风新技术栈。Dynatrace 作为观测性厂商，强调可验证的价值交付，这与当前市场过度营销形成对比。开发者应聚焦于解决实际问题，如稳定性、安全性与用户满意度，而非仅仅追求生成速度。这种理性回归有助于行业健康发展，避免泡沫破裂。对于技术领导者，建立正确的 AI 评估体系比引入新工具更重要，需衡量 AI 对最终业务指标的实际贡献，而非中间过程的炫酷演示。",
-    "tags": [
-      "News",
-      "Industry",
-      "Productivity"
-    ],
-    "link": "https://www.dynatrace.com/news/blog/quit-trying-to-keep-up-with-every-new-ai-tool-and-keep-building/",
-    "date": "2026-07-07",
-    "id": "17834542953176"
-  },
-  {
-    "title": "Anthropic 推出 Claude Cowork 移动与网页版",
-    "summary": "Claude Cowork 扩展至移动端，支持跨设备无缝协作。",
-    "detail": "Anthropic 宣布 Claude Cowork 代理正式支持网页和移动端，Max 订阅用户现可在手机接收任务状态，电脑完成输出。此举标志着 AI 代理从编码工具向通用办公助手转型，旨在占据用户实际工作场景。随着 OpenAI Codex 等竞品跟进，多设备协同成为 AI 办公新战场。Anthropic 希望 Cowork 更像后台工作的代理同事，而非单纯聊天机器人，这反映了 AI 公司争夺用户工作空间的战略意图。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "Agent"
-    ],
-    "link": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
-    "date": "2026-07-07",
-    "id": "17834445674490"
-  },
-  {
-    "title": "Google Research 利用 AI 优化城市交通拥堵",
-    "summary": "Google 发表 Nature 论文，展示 AI 路由干预缓解拥堵。",
-    "detail": "Google Research 在《Nature Cities》发表论文，首次通过大规模实证验证 AI 路由干预可缓解城市拥堵。相比单个车辆导航，系统级优化能更高效利用交通网络。此前 Project Green Light 已优化信号灯，此次进展表明 AI 在基础设施层面的干预潜力巨大，有望减少碳排放及通勤时间。这展示了 AI 技术在公共交通领域的实际应用价值，为智慧城市建设提供了新的技术路径参考。",
-    "tags": [
-      "News",
-      "Google",
-      "Research"
-    ],
-    "link": "https://research.google/blog/the-power-of-collaboration-how-we-can-reduce-traffic-congestion/",
-    "date": "2026-07-07",
-    "id": "17834445674491"
   }
 ]
