@@ -1,5 +1,70 @@
 [
   {
+    "title": "OpenAI 关闭 AI 浏览器 Atlas，战略转向插件",
+    "summary": "OpenAI 宣布停止独立浏览器 Atlas，将功能整合至 ChatGPT 桌面端及 Chrome 扩展。",
+    "detail": "OpenAI 决定关闭推出仅数月的 AI 浏览器 Atlas，转而将代理浏览功能整合至 ChatGPT 桌面应用和 Chrome 扩展中。此举遵循前应用 CEO Fidji Simo 削减“支线任务”的建议，此前 Sora 工具也曾被关停。OpenAI 认为浏览器是功能而非目的地，旨在融入用户现有工作流，应对 Perplexity 等竞争对手的浏览器战争。这一战略调整表明大厂正从独立应用转向生态整合，优化资源分配以聚焦核心聊天体验，同时保留关键的 AI 浏览能力。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Strategy"
+    ],
+    "link": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
+    "date": "2026-07-10",
+    "id": "17837008408570"
+  },
+  {
+    "title": "设计 AI 代理 MCP 工具的实战教训",
+    "summary": "开发者分享为 AI 代理设计 MCP 工具的经验，发现 AI 并不总是按预期使用工具。",
+    "detail": "文章记录了为 FlurryPORT 设计 Model Context Protocol (MCP) 工具的实战过程。作者原本认为只需封装 API 即可让 AI 代理自动调用，但测试发现 AI 往往会忽略预设工具而尝试自行构建。这揭示了当前 AI 代理在工具选择上的不可靠性，强调了在设计 MCP 实现时需考虑安全性、升级路径及更直接的引导机制。对于希望构建可靠 AI 代理系统的开发者而言，理解这些交互缺陷至关重要，需优化工具描述与上下文提示。",
+    "tags": [
+      "Dev",
+      "MCP",
+      "Agents"
+    ],
+    "link": "https://blog.spill.coffee/p/trust-the-harbor-pilot",
+    "date": "2026-07-10",
+    "id": "17837008408571"
+  },
+  {
+    "title": "新工具 Shypmenta：自动部署 AI 代理",
+    "summary": "推出名为 Manus Dei 的 AI 代理，可自动在多平台部署和管理项目。",
+    "detail": "Shypmenta 发布了一款名为 Manus Dei (M.D.) 的 AI 代理工具，旨在自动化项目的部署与管理。该代理支持多平台操作，声称能帮助用户将项目推向生产环境，并协助管理计费以节省成本。其目标是降低创业技术门槛，让开发者专注于核心业务，体现了 AI 代理在 DevOps 领域的应用潜力。虽然具体技术细节有限，但其自主部署概念展示了 Agent 技术向基础设施管理延伸的趋势，值得开发者关注。",
+    "tags": [
+      "New",
+      "DevOps",
+      "Agents"
+    ],
+    "link": "https://shypmenta.com/",
+    "date": "2026-07-10",
+    "id": "17837008408572"
+  },
+  {
+    "title": "关于 AI 未来重大问题的获奖论文公布",
+    "summary": "Dwarkesh 博客公布 AI 问题征文获奖者，探讨生物安全与国家战略。",
+    "detail": "Dwarkesh 博客公布了关于 AI 重大问题征文的获奖者。一等奖得主 Jassi Pannu 建议 OpenAI 基金会投入巨资消除疾病；二等奖得主 Ege Erdil 则建议非 AI 供应链国家通过加强产权和开放监管来避免被边缘化。这些论文反映了社区对 AI 安全、生物技术及地缘政治影响的深度思考。超过 600 篇投稿显示了公众对 AI 长远影响的高度关注，为政策制定者提供了多元视角，展示了学术界与产业界对 AI 治理的不同构想。",
+    "tags": [
+      "News",
+      "Safety",
+      "Policy"
+    ],
+    "link": "https://www.dwarkesh.com/p/blog-prize-winners",
+    "date": "2026-07-10",
+    "id": "17837008408573"
+  },
+  {
+    "title": "新观点：AI 应辅助“存在”而非仅“做事”",
+    "summary": "文章批判当前任务型 AI，提出 AI 应关注用户状态与专注力管理。",
+    "detail": "文章提出了\"AI 辅助存在（BE）而非仅做事（DO）\"的新 thesis。作者指出当前 AI 仅完成任务，却忽视用户状态（如专注力下降）。通过追踪个人数据，作者主张 AI 应理解用户行为模式，在用户即将崩溃时介入，而非被动等待指令。这为个人化 AI 助手的发展提供了新的哲学方向和产品思路，强调了情感计算与上下文感知在未来 AI 交互中的重要性，挑战了当前以任务完成为核心的 AI 设计范式。",
+    "tags": [
+      "News",
+      "Product",
+      "Concept"
+    ],
+    "link": "https://self.md/concepts/be-not-do",
+    "date": "2026-07-10",
+    "id": "17837008408574"
+  },
+  {
     "title": "Hister：为 AI 助手构建私有记忆索引",
     "summary": "Hister 通过本地搜索引擎整合浏览历史与文件，为 AI 提供私有上下文。",
     "detail": "**背景**：当前 AI 助手擅长解释但缺乏用户个人上下文记忆，无法知晓用户近期阅读的文档或关注的 GitHub 问题。\n**核心技术**：Hister 作为个人搜索引擎，通过浏览器扩展自动索引页面，命令行工具可导入历史及本地文件。支持全文检索、语义搜索及 MCP 协议，使 AI 助手能搜索本地索引而非单独连接每个服务。\n**行业影响**：解决了 AI 记忆碎片化问题，提供了一种隐私优先的上下文增强方案。数据保留在用户控制的实例上，减少了对第三方 API 集成的依赖，为个人化 AI 代理提供了新的基础设施思路。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.theatlantic.com/international/2026/07/xi-jinping-censorship-ai-training/687696/",
     "date": "2026-07-07",
     "id": "17835421999261"
-  },
-  {
-    "title": "英伟达推出 Vera CPU，专为代理 AI 优化单线程性能",
-    "summary": "英伟达发布 Vera CPU，强调最大化单线程性能以提升 AI 工厂代理效率。",
-    "detail": "英伟达博客宣布 AI 创新者采用 NVIDIA Vera CPU。该 CPU 专为“代理 AI 时代”设计，强调大规模下的最大单线程性能。在 AI 工厂中，CPU 负责执行模型命令的工具调用和数据处理，其速度直接制约 GPU 利用率和收入。Vera 旨在解决数据中心 CPU 单线程性能不足的问题，优化代理系统的推理和响应速度。这是针对 AI Agent 工作负载的硬件革新。传统数据中心 CPU 已无法适应代理 AI 需求，云架构导致单线程性能下降。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Infrastructure"
-    ],
-    "link": "https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/",
-    "date": "2026-07-07",
-    "id": "17835421999262"
-  },
-  {
-    "title": "中国拟限制前沿开源 AI 模型出口，涉及阿里字节",
-    "summary": "商务部讨论限制最强 AI 模型外流，可能分裂全球模型市场。",
-    "detail": "中国商务部与规划机构正讨论限制外国访问中国最强 AI 模型，包括未发布的开源权重系统。涉及企业包括阿里巴巴、字节跳动等。此举被视为出口管制而非单纯平台监管，旨在保护国家安全和 proprietary AI。这可能导致全球 AI 成本上升及市场按国籍分裂，外国企业获取低成本中国模型的途径将受限。",
-    "tags": [
-      "News",
-      "Policy",
-      "LLM"
-    ],
-    "link": "https://twitter.com/rohanpaul_ai/status/2074512389526237609",
-    "date": "2026-07-07",
-    "id": "17834900452673"
-  },
-  {
-    "title": "AI 接管股市，债市将成为下一个目标",
-    "summary": "经济学家分析 AI 已主导股票市场，债券市场紧随其后，引发金融业态变革。",
-    "detail": "《经济学人》深度分析指出，AI 技术在股票市场的渗透率已达到临界点，算法交易占据主导地位，人类交易员角色被边缘化。文章预测债券市场将是下一个被 AI 重塑的前沿领域。这标志着 AI 从辅助工具转变为市场核心驱动力，可能引发流动性结构和风险模型的根本性重构。投资者需密切关注算法同质化带来的系统性风险，以及监管层如何应对市场波动性的新挑战。金融业态正经历前所未有的自动化变革，传统投资机构需加速技术升级以避免被淘汰。此趋势将重新定义资产定价机制。",
-    "tags": [
-      "News",
-      "Finance",
-      "Trading"
-    ],
-    "link": "https://www.economist.com/finance-and-economics/2026/07/07/ai-has-taken-over-the-stock-market-the-bond-market-is-next",
-    "date": "2026-07-07",
-    "id": "17834787681750"
-  },
-  {
-    "title": "Meta 推出 Muse Image 扩展生成式 AI 工具集",
-    "summary": "Meta 正式 rollout Muse Image，进一步扩展其生成式 AI 工具生态，增强图像创作能力。",
-    "detail": "Meta 宣布扩展其生成式 AI 工具包，重点推出 Muse Image 功能，旨在巩固其在多模态 AI 领域的竞争力，直接对标 Midjourney 等竞品。Muse Image 的 rollout 表明 Meta 正加速将 AI 能力集成至旗下社交平台，为创作者提供更无缝的内容生成体验，可能改变社交媒体内容生产流程。此举不仅增强了用户粘性，还为广告主提供了更高效的创意工具。随着生成式 AI 成本降低，Meta 希望通过内置工具留住创作者生态，防止用户流向独立 AI 应用，构建闭环的商业化模式。",
-    "tags": [
-      "New",
-      "Generative AI",
-      "Meta"
-    ],
-    "link": "https://www.reuters.com/technology/meta-expands-generative-ai-tools-with-muse-image-rollout-2026-07-07/",
-    "date": "2026-07-07",
-    "id": "17834787681751"
-  },
-  {
-    "title": "欧盟发布高级 AI 网络安全风险与机遇计划",
-    "summary": "欧盟委员会提出新计划，旨在解决高级 AI 在网络安全领域的风险并利用其机遇。",
-    "detail": "欧盟委员会正式发布计划，addressing risks and opportunities of advanced AI for cybersecurity。该计划将规范 AI 在关键基础设施防御中的应用，平衡技术创新与安全风险。这对全球 AI 安全标准制定具有风向标意义，可能影响跨国科技公司的合规策略及 AI 安全产品的研发方向。欧盟强调利用 AI 增强防御能力的同时，需防范 adversarial attacks。此政策框架将为成员国提供指导，促进公私合作，确保数字主权。科技巨头需调整产品以符合新的安全合规要求，避免市场准入障碍。",
-    "tags": [
-      "News",
-      "Policy",
-      "Security"
-    ],
-    "link": "https://commission.europa.eu/news-and-media/news/new-eu-plan-address-risks-and-opportunities-advanced-ai-cybersecurity-2026-07-07_en",
-    "date": "2026-07-07",
-    "id": "17834787681754"
   }
 ]
