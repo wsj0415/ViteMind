@@ -1,5 +1,70 @@
 [
   {
+    "title": "Meta 因全球反对下架 Instagram AI 功能",
+    "summary": "Meta 迫于舆论压力，移除 Instagram 默认开启的 AI 图像生成功能。",
+    "detail": "Meta 此前推出 Muse Image 功能，默认允许用户使用公开帖子进行 AI 生成，引发隐私伦理争议。新西兰专家批评“选择退出”机制不道德，认为公开分享不代表同意 AI 复用。面对全球媒体及用户强烈 backlash，Meta 最终下架该功能，承认未达预期。此事件凸显 AI 数据使用权与用户隐私之间的紧张关系，为大厂 AI 功能落地敲响警钟，表明未来 AI 产品需更注重用户 consent 机制设计，避免伦理风险。同时，这也反映了公众对 AI 生成内容来源的敏感性日益增加，企业需在创新与合规间寻找平衡，隐私保护将成为 AI 产品成败的关键因素之一。",
+    "tags": [
+      "News",
+      "Meta",
+      "Ethics"
+    ],
+    "link": "https://www.rnz.co.nz/news/science-and-technology/700735/missed-the-mark-meta-removes-ai-feature-on-instagram-after-global-backlash",
+    "date": "2026-07-11",
+    "id": "17837505292580"
+  },
+  {
+    "title": "AI 介入学术同行评审的伦理边界探讨",
+    "summary": "学者呼吁建立 AI 辅助同行评审的规范，防止幻觉引用。",
+    "detail": "针对学术会议中出现的 AI 幻觉引用问题，学者撰文探讨评审环节使用 AI 的现状。虽然官方指南简略，但社区已自发形成类似的工作流边界。文章建议建立明确的共享规范，区分作者与评审者使用 AI 的界限。这标志着 AI 正深入科研核心流程，亟需伦理共识以避免学术诚信危机。文中提到 ICSE 会议上的道德恐慌，反映了社区对 AI 滥用零容忍态度，但也承认 AI 辅助评审已成事实，关键在于制定透明规则，确保评审质量不受幻觉影响，维护科学严谨性。未来学术界需建立 explicit shared norms，平衡效率与诚信。",
+    "tags": [
+      "News",
+      "Research",
+      "Ethics"
+    ],
+    "link": "https://cabird.com/ide/posts/ai-in-peer-review",
+    "date": "2026-07-11",
+    "id": "17837505292581"
+  },
+  {
+    "title": "Mac M2 本地 AI 预算管理与部署指南",
+    "summary": "教程分享如何在 Mac M2 上高效运行本地模型处理数据。",
+    "detail": "文章详解在 16GB Mac M2 上部署本地 AI 模型的实践方案。核心策略是将模型判断预计算并存储，而非查询时实时推理，以解决本地算力瓶颈。通过字符串匹配和引用标签优化成本，实现离线数据分类。为开发者在消费级硬件上构建隐私优先的 AI 应用提供了可参考的架构思路。文中强调模型不应随记录扩展，而是通过索引时打标来优化性能，这种“一次计算，多次使用”的原则对于资源受限的本地 AI 部署具有重要指导意义，降低了运行成本。适合个人开发者参考构建本地 RAG 或数据处理流程。",
+    "tags": [
+      "Dev",
+      "LocalLLM",
+      "Tutorial"
+    ],
+    "link": "https://millfolio.com/blog/local-ai-infra-tags/",
+    "date": "2026-07-11",
+    "id": "17837505292582"
+  },
+  {
+    "title": "AI UGC 广告生成平台助力 DTC 品牌降本增效",
+    "summary": "新工具利用 AI 演员生成视频广告，成本降至传统制作的十分之一。",
+    "detail": "该平台专为 DTC 和 SaaS 代理商设计，利用 AI 演员、配音和产品演示生成 UGC 视频广告。相比传统制作，成本从$150 降至$3-$10，时间从数天缩短至 2 分钟。支持一键 URL 转视频，提供多种 AI 创作者选择。这展示了 AI 在营销内容规模化生产上的巨大潜力，降低创意测试门槛。传统 UGC 依赖创作者排期和物流，而 AI 方案提供 24/7 可用性及无限变体测试，极大提升了广告投放的迭代效率，适合需要快速验证创意的电商品牌。是营销自动化领域的最新进展。",
+    "tags": [
+      "New",
+      "Marketing",
+      "Video"
+    ],
+    "link": "https://aiugcads.net/",
+    "date": "2026-07-11",
+    "id": "17837505292583"
+  },
+  {
+    "title": "AI 复原庞贝古城受害者临终时刻影像",
+    "summary": "考古公园合作大学利用 AI 技术重建庞贝受害者最后瞬间。",
+    "detail": "庞贝考古公园与帕多瓦大学合作，利用 AI 技术根据出土遗骸重建了一名受害者在火山爆发时的最后时刻。生成的视频高度 cinematic，展现了受害者手持灰浆奔跑的场景。这是 AI 技术在考古和历史复原领域的创新应用，为公众提供了更沉浸式的历史体验，但也引发关于历史真实性的讨论。通过 AI 填补考古空白，能让历史事件更具象化，但需警惕过度演绎。该项目展示了多模态 AI 在文化遗产保护中的新方向，结合科学数据与生成式技术复原历史场景，为教育提供新素材。",
+    "tags": [
+      "News",
+      "Archaeology",
+      "Video"
+    ],
+    "link": "https://www.popsci.com/science/ai-pompeii-victim-with-mortar-recreation/",
+    "date": "2026-07-11",
+    "id": "17837505292584"
+  },
+  {
     "title": "Show HN: NoiseRemover.ai 音频降噪工具",
     "summary": "全新 AI 工具 NoiseRemover.ai 上线，支持多语言，可一键移除音频背景噪音。",
     "detail": "该项目在 Show HN 发布，提供基于 AI 的音频背景噪音移除服务。网站支持包括中文、英文、西班牙文等在内的 20 多种语言，提供工具页面和定价方案。适用于需要清洁音频内容的创作者、播客主及视频制作人。作为 Product Hunt 类的新品动态，它展示了 AI 在多媒体处理领域的轻量化应用趋势，降低了专业音频处理门槛。",
@@ -1233,70 +1298,5 @@
     "link": "https://microsoft.github.io/flint-chart/#/",
     "date": "2026-07-08",
     "id": "17835348083942"
-  },
-  {
-    "title": "Monogram 获 4000 万美元种子轮，主打视觉交互 AI",
-    "summary": "新 AI 应用 Monogram 完成融资，提供交互式视觉界面生成内容。",
-    "detail": "Monogram 宣布完成 4000 万美元种子轮融资。该应用主打视觉界面交互，用户可通过自然语言指令生成食谱、计划等，并以交互式视觉形式呈现。区别于传统文本对话，提供更直观的 AI 体验，已上架 App Store。产品强调 on the fly generation，重塑用户与 AI 的交互方式。Monogram 响应 interactive visual interface，涵盖找电影、计划生日等场景，试图通过视觉化降低 AI 使用门槛，让 AI 应用更具象化。",
-    "tags": [
-      "New",
-      "Startup",
-      "UI/UX"
-    ],
-    "link": "https://www.monogram.ai/",
-    "date": "2026-07-08",
-    "id": "17835348083943"
-  },
-  {
-    "title": "MailKite：为 AI 代理打造的 Gmail API 替代方案",
-    "summary": "MailKite 解决 Gmail API 在 AI 代理集成中的 OAuth 与订阅痛点。",
-    "detail": "针对 AI 代理读取邮件的需求，MailKite 提供比 Gmail API 更简便的集成方案。解决了 OAuth 审查、推送订阅过期及消息解码繁琐等问题。提供 webhook 事件驱动架构，简化代理接收、思考、回复邮件的开发流程。开发者可克隆 demo 仓库快速测试接收验证回复循环。MailKite 旨在消除 Gmail API 在服务化时的摩擦，让 agent inbox 更易操作，无需域名即可看到 loop 运行，对比 Gmail API 路径大幅减少操作量。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "API"
-    ],
-    "link": "https://mailkite.dev/blog/gmail-api-for-ai-agents/",
-    "date": "2026-07-08",
-    "id": "17835348083944"
-  },
-  {
-    "title": "Prime Intellect 获 1.3 亿美元融资，助力企业自建 AI Agent",
-    "summary": "初创公司 Prime Intellect 完成 1.3 亿美元 A 轮融资，估值 10 亿，提供全栈 Agent 开发工具。",
-    "detail": "Prime Intellect 致力于帮助企业摆脱对前沿 AI 实验室的依赖，自建 Agentic 系统。本轮融资由 Radical Ventures 领投，Nvidia Ventures、Intel Capital 等参投，估值达 10 亿美元。众多知名创始人如 Perplexity、Box 创始人跟投。平台提供计算资源、强化学习框架及评估工具的全栈解决方案，采用模块化市场模式，客户可按需选择工具。这使得企业能以可负担的成本在前沿领域运营，解决基础设施复杂难题。通过强化学习技术迭代奖励成功任务完成，公司可成为自己的 AI 实验室，针对特定业务任务 refine 模型，无需依赖封闭的 AI 实验室，大幅降低定制门槛，推动企业级 Agent 普及。",
-    "tags": [
-      "News",
-      "Funding",
-      "AI Agents"
-    ],
-    "link": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
-    "date": "2026-07-08",
-    "id": "17835289311760"
-  },
-  {
-    "title": "InterviewWatch 上线，实时检测面试中的 AI 作弊行为",
-    "summary": "新工具 InterviewWatch 可在技术面试中实时标记 AI 辅助作弊，生成防篡改报告，不录制屏音。",
-    "detail": "随着 AI 作弊成为招聘风险，InterviewWatch 通过追踪 12+ 完整性信号，在不录制屏幕或音频的前提下实时检测 AI 协助。数据显示 38% 的技术面试存在作弊嫌疑，且作弊率单季度从 9% 飙升至 45%。作弊工具已获风投支持，如 Cluely 获 a16z 投资。该工具旨在恢复面试审计能力，提供可信赖的 hiring integrity 验证，应对日益猖獗的代理面试和 AI 生成身份问题。Gartner 预测到 2028 年四分之一的候选人资料将为虚假，此工具为招聘方提供了关键的防御手段，确保面试结果的真实性，生成防篡改报告供后续追溯，解决招聘环节最后一步的审计缺失，维护 hiring 公平性。",
-    "tags": [
-      "New",
-      "Hiring",
-      "Security"
-    ],
-    "link": "https://www.interviewwatch.com/",
-    "date": "2026-07-08",
-    "id": "17835289311761"
-  },
-  {
-    "title": "Elastic 深度解析：如何从架构层面构建 AI Agent 治理",
-    "summary": "探讨自主安全 Agent 的治理难题，强调在 ISO 42001 等法规下需证明系统行为可控且可解释。",
-    "detail": "行业 AI 能力快速发展，但治理滞后。Elastic 指出当前分层自主模型无法确保 Agent 行为质量，低风险提示可能掩盖错误分类。面对 ISO 42001、DORA、NIS2 及 EU AI Act 等法规，企业需证明 AI 系统按意图工作且有人类监督。文章建议从架构入手构建治理基础设施，确保持续验证 Agent 在压力下的决策逻辑，为即将到来的合规评估做准备。自主安全 Agent 的评估标准虽未完全建立，但方向明确，提前布局治理基础设施的组织将在合规浪潮中占据优势，确保证明系统持续正确运行，满足监管对可解释性和人类 oversight 的严格要求。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Governance"
-    ],
-    "link": "https://www.elastic.co/blog/the-future-of-governing-ai-agents",
-    "date": "2026-07-08",
-    "id": "17835289311762"
   }
 ]
