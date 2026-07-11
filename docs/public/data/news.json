@@ -1,5 +1,57 @@
 [
   {
+    "title": "Eliezer Yudkowsky 探讨超级智能风险",
+    "summary": "TED 演讲探讨超级智能 AI 是否会终结世界。",
+    "detail": "AI 安全先驱 Eliezer Yudkowsky 在 TED 发表演讲，深入探讨超级智能 AI 带来的存在性风险。他强调对齐问题的重要性，指出若无法确保 AI 目标与人类一致，可能导致灾难性后果。此演讲引发行业对 AI 安全监管及技术对齐的再次关注，为政策制定者提供参考。随着模型能力增强，安全研究已成为不可忽视的核心议题，呼吁全球协作应对潜在威胁，确保技术发展不偏离人类利益轨道。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "TED"
+    ],
+    "link": "https://www.ted.com/talks/eliezer_yudkowsky_will_superintelligent_ai_end_the_world",
+    "date": "2026-07-11",
+    "id": "17837598023170"
+  },
+  {
+    "title": "AI 压缩初创企业生命周期",
+    "summary": "分析指出 AI 不仅加速开发，更压缩整个创业周期。",
+    "detail": "文章提出 AI 原生市场正在消除“僵尸初创企业”。小团队可在数周内构建可信产品，市场反馈即时。这意味着创业生命周期被大幅压缩，失败或成功更快显现。创始人需适应快速迭代节奏，传统多年的磨合期可能不再存在。分布渠道多样化使得产品能迅速触达用户，验证成本降低。这种变化要求投资者和创始人重新评估估值模型与成长预期，适应更快的市场淘汰率。",
+    "tags": [
+      "News",
+      "Startup",
+      "Strategy"
+    ],
+    "link": "https://www.alexdelivet.com/insights/the-end-of-zombie-startup-land",
+    "date": "2026-07-11",
+    "id": "17837598023172"
+  },
+  {
+    "title": "研究：小脑机制助 AI 提升计算效率",
+    "summary": "西北大学研究揭示小脑机制帮助 AI 忽略普通信息。",
+    "detail": "西北大学最新研究表明，模仿人类小脑功能可帮助 AI 系统忽略 ordinary 信息，专注于关键数据。这一生物启发式架构有望显著提升计算效率，减少冗余处理。该发现为下一代高效能 AI 芯片及算法设计提供了新的神经科学依据。通过过滤无关噪声，模型能在资源受限环境下运行更复杂任务，为边缘计算和移动端 AI 应用开辟新路径，降低能耗并提升响应速度。",
+    "tags": [
+      "News",
+      "Research",
+      "Efficiency"
+    ],
+    "link": "https://www.mccormick.northwestern.edu/news/articles/2026/07/ai-gets-a-cerebellum/",
+    "date": "2026-07-11",
+    "id": "17837598023173"
+  },
+  {
+    "title": "Ypipe：Java 本地 AI 客户端与 MCP 编排",
+    "summary": "无需 Python 依赖的本地 AI 客户端与编排引擎。",
+    "detail": "Ypipe 推出基于 Java 的本地 AI 客户端，解决 Python 依赖地狱问题。支持 CPU/GPU 运行离线模型，通过 MCP 协议编排工作流。强调数据主权与零云依赖，适合企业安全部署。提供可视化界面及一键集成，降低本地 AI 应用门槛。用户可链式调用 specialized models，绑定本地系统执行自动化任务，确保 prompt 与响应不出境，满足合规要求， democratizing enterprise-grade local AI。",
+    "tags": [
+      "New",
+      "Tool",
+      "Java"
+    ],
+    "link": "https://ypipe.com/",
+    "date": "2026-07-11",
+    "id": "17837598023177"
+  },
+  {
     "title": "Meta 因全球反对下架 Instagram AI 功能",
     "summary": "Meta 迫于舆论压力，移除 Instagram 默认开启的 AI 图像生成功能。",
     "detail": "Meta 此前推出 Muse Image 功能，默认允许用户使用公开帖子进行 AI 生成，引发隐私伦理争议。新西兰专家批评“选择退出”机制不道德，认为公开分享不代表同意 AI 复用。面对全球媒体及用户强烈 backlash，Meta 最终下架该功能，承认未达预期。此事件凸显 AI 数据使用权与用户隐私之间的紧张关系，为大厂 AI 功能落地敲响警钟，表明未来 AI 产品需更注重用户 consent 机制设计，避免伦理风险。同时，这也反映了公众对 AI 生成内容来源的敏感性日益增加，企业需在创新与合规间寻找平衡，隐私保护将成为 AI 产品成败的关键因素之一。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.americanbanker.com/news/ai-is-starting-to-replace-humans-in-operations-analyst-jobs",
     "date": "2026-07-08",
     "id": "17835421999263"
-  },
-  {
-    "title": "TaxCalcBench 开源基准测试 AI 报税能力",
-    "summary": "GitHub 开源 TaxCalcBench，评估前沿模型在税务计算任务上的表现。",
-    "detail": "Column Tax 开源了 TaxCalcBench，用于评估前沿模型在税务计算任务上的能力。2025 税务年版支持州和联邦回报及复杂财务情况。排行榜显示 GPT-5.5 结合网页搜索在严格正确率上达到 54%，领先 Claude 系列。该基准为评估 AI 在专业财务领域的准确性提供了重要标准，揭示了当前模型在复杂逻辑任务上的局限。开发者可借此优化模型推理能力。输入包含真实的 W-2 和 1099 表格 PDF，案例覆盖更复杂财务情境。",
-    "tags": [
-      "Dev",
-      "Benchmark",
-      "OpenSource"
-    ],
-    "link": "https://github.com/column-tax/tax-calc-bench",
-    "date": "2026-07-08",
-    "id": "17835421999264"
-  },
-  {
-    "title": "IBM 与 Red Hat 推出 Lightwell 防御 AI 攻击",
-    "summary": "IBM 与红帽推出 Lightwell 服务，投入 50 亿美元防御开源代码 AI 攻击。",
-    "detail": "IBM 与 Red Hat 正式将 Project Lightwell 转化为产品服务，该项目 backed by 50 亿美元 AI 倡议。其核心任务是在工业规模上发现并修复开源软件漏洞。面对 AI 加速黑客 exploit 的现状，Lightwell 提供 AI 驱动的防御机制。ZDNET 指出 AI 驱动的攻击需要 AI 驱动的防御者，此举将保护开源生态系统安全。类似 Akrites 和 Athena 也在采取类似方法，共同应对开源安全混乱局面。对于软件开发者而言，AI 既是祝福也是诅咒，Lightwell 试图解决这一矛盾，确保开发者能安心使用 AI 构建程序，防御 AI 攻击。",
-    "tags": [
-      "News",
-      "Security",
-      "OpenSource"
-    ],
-    "link": "https://www.zdnet.com/article/ibm-and-red-hat-have-moved-project-lightwell-from-vision-to-product/",
-    "date": "2026-07-08",
-    "id": "17835348083940"
-  },
-  {
-    "title": "开源 AI 崛起尚未影响 Anthropic 市场份额",
-    "summary": "TechCrunch 分析显示，尽管开源模型崛起，Anthropic 仍占平台支出过半。",
-    "detail": "TechCrunch 分析显示，尽管开源模型崛起，Anthropic 仍占平台支出过半。Decagon CEO 提出理论，前沿模型与开源模型并非竞争而是生命周期互补。Vercel 数据显示 DeepSeek token 量激增，但 Anthropic 仍占总支出 50% 以上。成熟用例转向轻量模型，新用例继续驱动前沿模型支出，两者共存。这种动态表明企业 AI 部署正在分层，昂贵模型用于验证用例，随后迁移至廉价开源替代方案，整体支出并未因开源成功而减少，反而因新用例 arising 而保持稳定。",
-    "tags": [
-      "News",
-      "LLM",
-      "Market"
-    ],
-    "link": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
-    "date": "2026-07-08",
-    "id": "17835348083941"
-  },
-  {
-    "title": "微软发布 Flint：AI 代理可视化语言",
-    "summary": "微软研究院推出 Flint，帮助 AI 代理通过简单规范生成高质量图表。",
-    "detail": "Microsoft Research 发布 Flint，一种专为 AI 时代设计的可视化中间语言。它允许代理通过语义类型和简单规范生成 expressive 图表，支持 46 种图表类型及 Vega-Lite 等后端。降低了代理创建可视化的复杂度，提升输出质量。开发者可通过 npm 安装，并利用 MCP server 集成到 agent 工作流中。Flint 编译器从数据派生优化设置，无需 verbose 低层参数，使 AI 代理能可靠创建美观图表。Explore 83 examples in gallery，简化数据呈现流程，提升 Agent 交互体验。",
-    "tags": [
-      "Dev",
-      "Microsoft",
-      "Visualization"
-    ],
-    "link": "https://microsoft.github.io/flint-chart/#/",
-    "date": "2026-07-08",
-    "id": "17835348083942"
   }
 ]
