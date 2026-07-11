@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 财富效应推高旧金山房价",
+    "summary": "AI 从业者财富激增，旧金山房价飙升，甚至接受股票支付。",
+    "detail": "BBC 报道指出，AI 革命中心旧金山房价因从业者财富涌入而暴涨。在 Duboce Triangle 社区，三居室公寓标价近 300 万美元，卖家甚至考虑接受 OpenAI 或 Anthropic 股票而非现金。Redfin 首席经济学家称价格“天文数字”，人们现金充裕。这反映了 AI 行业巨大的财富创造能力及其对当地房地产市场的深远影响。旧金山已重新成为美国最昂贵的购房城市，科技繁荣正在重塑城市经济结构，引发对财富分配与居住成本的广泛关注。此现象显示了 AI 财富效应对实体经济的直接投射，可能加剧社会不平等，同时也为投资者提供了观察 AI 商业化落地程度的独特窗口，值得行业从业者警惕与关注。",
+    "tags": [
+      "News",
+      "Economy",
+      "Real Estate"
+    ],
+    "link": "https://www.bbc.com/news/articles/c9q29j47v9ro",
+    "date": "2026-07-11",
+    "id": "17838067215410"
+  },
+  {
+    "title": "AI 造就史上最大财富创造事件之一",
+    "summary": "华盛顿邮报探讨 AI 从业者面对巨额财富的挑战与机遇。",
+    "detail": "华盛顿邮报深度分析 AI 行业引发的财富浪潮，将其称为历史上最大的财富创造事件之一。从业者面临如何管理突如其来的巨额财富的问题，这不仅是个人理财挑战，更是社会现象。文章探讨了技术政策、互联网文化背景下的财富观。这标志着 AI 不仅是技术革命，更是经济变革，正在重塑个人财富结构和社会阶层。报道引发关于财富分配与使用的广泛讨论，提示行业需关注可持续发展与社会责任，避免财富集中带来的潜在风险，为政策制定者提供了重要的参考依据。",
+    "tags": [
+      "News",
+      "Society",
+      "Wealth"
+    ],
+    "link": "https://www.washingtonpost.com/technology/2026/07/11/ais-soon-to-be-billionaires-want-know-what-do-with-all-that-money/",
+    "date": "2026-07-11",
+    "id": "17838067215411"
+  },
+  {
+    "title": "BoundFlow：开源 AI 代理控制平面",
+    "summary": "为无人值守 AI 代理提供成本 caps、审批 gate 和自愈策略。",
+    "detail": "BoundFlow 是一个开源控制平面，专为无人值守的 LLM 代理和工作流设计。它提供策略驱动的生命周期控制、审批门、持久执行和审计收据。通过成本上限和自愈策略，确保代理操作的安全性与可控性。后端采用 Apache-2.0 许可证，SDK 为 MIT 许可。目前处于公共预览阶段，API 包括 gRPC protobufs 可能在 1.0 前变化。适合早期采用者集成，解决代理运行中的成本失控和权限管理难题，为构建企业级 AI 代理系统提供了坚实的基础设施层支持。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Open Source"
+    ],
+    "link": "https://github.com/boundflow/boundflow",
+    "date": "2026-07-11",
+    "id": "17838067215412"
+  },
+  {
+    "title": "Sqlsure：AI 生成 SQL 的确定性语义检查",
+    "summary": "在查询运行前捕获扇出双重计数和策略违规等错误。",
+    "detail": "Sqlsure 是一款针对 AI 生成 SQL 的语义检查工具，能在查询运行前确定性地在 0.1ms 内捕获双重计数、加法违规和错误连接键等问题。已在 BIRD/Spider 基准测试中发现真实 bug，包括被证明错误 8 倍的黄金答案。支持 Python 环境，可通过 PyPI 安装。适用于需要高可靠性 Text-to-SQL 的生产环境，防止数据库无法捕捉的逻辑错误。它填补了 LLM 生成代码与传统数据库 lint 工具之间的空白，显著提升了 AI 生成 SQL 的可信度和安全性。",
+    "tags": [
+      "Dev",
+      "SQL",
+      "LLM"
+    ],
+    "link": "https://github.com/sqlsure/sqlsure",
+    "date": "2026-07-11",
+    "id": "17838067215413"
+  },
+  {
+    "title": "Vasari：本地开源 AI 功能评估工具",
+    "summary": "支持人工标签与 LLM judges 对比，进行错误分析。",
+    "detail": "Vasari 是一个本地运行的开源工具，用于评估 AI 代理、聊天机器人和 RAG 功能。用户可审查对话痕迹，标记通过/失败，并进行基于扎根理论的错误分析。支持验证 LLM 作为 judge 的准确性，导出混淆矩阵等指标。基于 Vite + TypeScript 构建，无需后端，数据不离机，适合隐私敏感的开发团队进行质量监控。它 Inspired by Hamel Husain's AI evals，为开发者提供了一套完整的本地化评估工作流，帮助团队在部署前有效识别模型缺陷。",
+    "tags": [
+      "Dev",
+      "Eval",
+      "Privacy"
+    ],
+    "link": "https://github.com/AntoineF23/verdict",
+    "date": "2026-07-11",
+    "id": "17838067215414"
+  },
+  {
     "title": "芝加哥法学院禁止新生使用 AI 与电子设备",
     "summary": "芝大法学院新政禁止新生课堂使用 AI 及电脑，引发历史对比讨论。",
     "detail": "芝加哥大学法学院宣布新政策，禁止一年级学生在课堂使用 AI、手机和笔记本电脑。文章回顾 45 年前哈佛法学院曾禁止便携式计算机的历史，当时学生使用 25 磅重的 Osborne 1 电脑参加考试。此举引发关于新技术融入教育的辩论，短期内因就业担忧和技术局限被广泛视为积极措施，但长期是倒退还是新策略尚待观察。作为思想领袖智库，这一变化体现了教育机构对 AI 冲击的谨慎应对，可能引发其他法学院效仿。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.normaltech.ai/p/up-the-stack-how-ais-escape-from",
     "date": "2026-07-09",
     "id": "17836388664804"
-  },
-  {
-    "title": "中美 AI 竞争陷入“黑暗竞赛”",
-    "summary": "约翰霍普金斯大学分析中美 AI 战略竞争现状与风险。",
-    "detail": "约翰霍普金斯大学 SAIS 学院发布深度分析，指出中美在 AI 领域的竞争缺乏透明度，双方仿佛在“黑暗中竞赛”。文章探讨了双方策略、技术封锁及潜在的地缘政治影响，强调信息不对称带来的风险。这对理解全球 AI 格局演变至关重要，提示企业需关注合规与供应链风险，避免在不明朗的政策环境中遭受损失。行业参与者应密切跟踪政策动向，调整战略部署。此外，报告还暗示了技术脱钩可能导致的创新效率下降，建议决策者寻求平衡点。",
-    "tags": [
-      "News",
-      "Geopolitics",
-      "Strategy"
-    ],
-    "link": "https://acf.sais.jhu.edu/in-ai-the-united-states-and-china-are-racing-in-the-dark/",
-    "date": "2026-07-09",
-    "id": "17836323611710"
-  },
-  {
-    "title": "Google 发布高性能 Web AI 推理库 Litert.js",
-    "summary": "Google 推出 Litert.js，旨在提升浏览器端 AI 推理性能。",
-    "detail": "Google 开发者博客正式介绍 Litert.js，这是一个专注于 Web 端的高性能 AI 推理库。该技术旨在降低延迟，使复杂的 AI 模型能在浏览器中流畅运行，无需依赖后端服务器。对于前端开发者和 AI 应用部署而言，这意味着更低的成本和更好的隐私保护，是端侧 AI 的重要进展。开发者可借此构建更响应迅速的 Web 应用，提升用户体验，值得关注集成到现有工作流中。此举标志着 Google 在推动 WebAI 标准化方面的又一重大步骤，可能影响未来前端架构。",
-    "tags": [
-      "Dev",
-      "Google",
-      "WebAI"
-    ],
-    "link": "https://developers.googleblog.com/litertjs-googles-high-performance-web-ai-inference/",
-    "date": "2026-07-09",
-    "id": "17836323611711"
-  },
-  {
-    "title": "Palo Alto CEO：AI 定价需下降 90%",
-    "summary": "Palo Alto Networks CEO 呼吁 AI 成本大幅降低以应对 Token 费用飙升。",
-    "detail": "CNBC 报道，Palo Alto Networks CEO Arora 公开表示，随着 Token 成本飙升，AI 定价必须下降 90% 才能可持续。这反映了行业对当前 AI 经济模型的担忧，高昂成本阻碍了大规模应用。企业需关注成本优化策略，该言论可能预示未来 AI 服务定价结构的重大调整及压缩利润空间的趋势，影响 SaaS 定价。网络安全公司高管的观点揭示了企业级 AI 落地的实际成本压力。若成本不降，AI 普及将面临瓶颈，厂商需优化模型效率。",
-    "tags": [
-      "News",
-      "Pricing",
-      "Enterprise"
-    ],
-    "link": "https://www.cnbc.com/2026/07/09/palo-alto-ceo-arora-ai-pricing.html",
-    "date": "2026-07-09",
-    "id": "17836323611712"
-  },
-  {
-    "title": "Demo_CLI：为 AI Agent 操作提供“后悔药”",
-    "summary": "开源工具 Demo_CLI 允许用户在 AI 执行危险命令前快照并一键撤销。",
-    "detail": "针对 AI Agent 自主操作可能带来的风险（如误删文件），GitHub 上新秀项目 Demo_CLI 提供了解决方案。它能在 AI 运行 rm -RF 等危险命令前创建快照，支持一键撤销，如同为 AI 操作买了保险。这对于开发安全的 AI 代理系统具有重要参考价值，解决了自动化运维中的信任难题，提升开发安全性。开发者可借鉴此思路，增强 AI 系统的容错机制，防止灾难性操作。随着 AI Agent 普及，此类安全工具将成为基础设施，值得开发者社区关注并贡献代码。",
-    "tags": [
-      "Dev",
-      "Safety",
-      "Agent"
-    ],
-    "link": "https://github.com/WePwn/demo_cli",
-    "date": "2026-07-09",
-    "id": "17836323611713"
-  },
-  {
-    "title": "LocalClip：Mac 端本地优先 AI 视频剪辑工具",
-    "summary": "新推出的 LocalClip 主打本地优先，保护隐私的 AI 视频剪辑方案。",
-    "detail": "Show HN 展示了 LocalClip，一款专为 Mac 设计的本地优先 AI 视频剪辑工具。与云端处理不同，它强调数据隐私和低延迟，直接在本地设备完成 AI 分析，无需上传视频文件。这符合当前隐私保护趋势，适合对数据安全敏感的内容创作者，展示了端侧 AI 在多媒体处理领域的落地应用潜力。用户可享受更快的处理速度，同时确保素材不被泄露，是隐私友好型 AI 工具的典范。随着硬件性能提升，本地 AI 应用将迎来爆发，此工具是很好的早期案例。",
-    "tags": [
-      "New",
-      "Video",
-      "Privacy"
-    ],
-    "link": "https://localclip.io/?lang=en",
-    "date": "2026-07-09",
-    "id": "17836323611714"
   }
 ]
