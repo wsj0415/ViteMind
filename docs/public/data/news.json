@@ -1,5 +1,57 @@
 [
   {
+    "title": "芝加哥法学院禁止新生使用 AI 与电子设备",
+    "summary": "芝大法学院新政禁止新生课堂使用 AI 及电脑，引发历史对比讨论。",
+    "detail": "芝加哥大学法学院宣布新政策，禁止一年级学生在课堂使用 AI、手机和笔记本电脑。文章回顾 45 年前哈佛法学院曾禁止便携式计算机的历史，当时学生使用 25 磅重的 Osborne 1 电脑参加考试。此举引发关于新技术融入教育的辩论，短期内因就业担忧和技术局限被广泛视为积极措施，但长期是倒退还是新策略尚待观察。作为思想领袖智库，这一变化体现了教育机构对 AI 冲击的谨慎应对，可能引发其他法学院效仿。",
+    "tags": [
+      "News",
+      "Education",
+      "Policy"
+    ],
+    "link": "https://hardcoresoftware.learningbyshipping.com/p/240-banning-ai-in-law-school-weve",
+    "date": "2026-07-11",
+    "id": "17838030055441"
+  },
+  {
+    "title": "AI 分歧指数：8 个模型对最佳工具推荐零共识",
+    "summary": "研究显示 8 个 AI 模型在 16 个类别中从未一致推荐同一最佳工具。",
+    "detail": "Deep Synthesis 发布 AI 分歧指数，测量不同 AI 引擎对工具推荐的差异。在 16 个 B2B 软件类别中，8 个模型 0 次达成一致推荐同一最佳工具。平均 pairwise  agreement 仅 44%，Fleiss' kappa 显示一致性中等。这表明 AI 建议在工具选择上存在巨大不确定性，为营销和技术选型提供了新的严谨评估维度，而非单纯排名。数据开源且可复现，揭示了模型间的认知差异。该指数每月更新，记录机器无法达成共识的领域，帮助开发者理解模型局限性。",
+    "tags": [
+      "News",
+      "Research",
+      "B2B"
+    ],
+    "link": "https://data.deepsynthesis.org/",
+    "date": "2026-07-11",
+    "id": "17838030055442"
+  },
+  {
+    "title": "AI Arcade：多模型编程能力游戏化基准测试",
+    "summary": "通过让 AI 模型构建街机游戏来评估编码能力，包含 Grok 4.5 等。",
+    "detail": "AI Arcade 平台通过统一提示词和约束，让不同 coding model 一次性构建 arcade game。涉及 Grok 4.5、GPT-5.6、Claude Code 等模型。用户可试玩并评判结果。这是一种新颖的模型能力基准测试方法，直观展示各模型在复杂任务中的实际表现与稳定性差异。部分模型如 Cursor 在某些任务中卡住，而 GPT-5.6 表现较好。平台强调无排名，由用户决定哪个游戏最有趣，提供了真实的编码能力压力测试环境。",
+    "tags": [
+      "Dev",
+      "Benchmark",
+      "Coding"
+    ],
+    "link": "https://ai-arcade.app/",
+    "date": "2026-07-11",
+    "id": "17838030055443"
+  },
+  {
+    "title": "TradingSpy：首个本地隐私优先 AI 交易助手开源",
+    "summary": "开源项目 TradingSpy 提供本地化、隐私优先的 AI 交易辅助服务。",
+    "detail": "TradingSpy 是一个本地运行的 AI 交易助手服务，强调隐私优先且已开源。作为首个此类开源项目，它允许用户在本地部署 AI 代理来辅助交易决策，避免了云端数据泄露风险。适合关注数据隐私的交易者和开发者参考部署，体现了 AI 在垂直金融领域的应用趋势。项目托管于 GitHub，欢迎社区贡献，为量化交易提供了新的 AI 集成思路。本地化处理确保了敏感交易数据的安全性，符合金融合规需求。",
+    "tags": [
+      "New",
+      "OpenSource",
+      "Finance"
+    ],
+    "link": "https://github.com/mrhustlex/TradingSpy-TradingAgentService",
+    "date": "2026-07-11",
+    "id": "17838030055444"
+  },
+  {
     "title": "AI 2027 预测报告：超级智能影响将超越工业革命",
     "summary": "多位专家联合发布预测，认为未来十年超级 AI 影响巨大，AGI 或在 5 年内到来。",
     "detail": "由 Daniel Kokotajlo 等前 OpenAI 专家撰写的报告预测，超级人工智能将在未来十年产生超越工业革命的影响。报告基于趋势外推和战争游戏推演，指出 OpenAI、DeepMind 等 CEO 均预测 AGI 将在 5 年内实现。该场景描绘了超级智能带来的巨大变革及潜在风险，为行业提供了重要的时间线参考。报告还涵盖了计算力、安全及目标 forecast，引发对超级智能到来后社会形态的深度讨论与准备。尽管存在不确定性，但该预测代表了当前顶尖研究者对技术加速度的共识，促使政策制定者与企业提前布局安全框架。",
@@ -1246,57 +1298,5 @@
     "link": "https://localclip.io/?lang=en",
     "date": "2026-07-09",
     "id": "17836323611714"
-  },
-  {
-    "title": "Meta 发布 Muse Spark 1.1 进军 AI 编码市场",
-    "summary": "Meta 推出多模态 AI 编码模型 Muse Spark 1.1，对标 OpenAI 与 Anthropic。",
-    "detail": "Meta 正式推出 Muse Spark 1.1，这是一款专为代理编码（Agentic Coding）设计的多模态 AI 模型。该模型支持多步推理、复杂流程管理及企业系统功能部署。尽管入场较晚，但 Meta 提供了极具竞争力的定价策略：输入令牌 1.25 美元/百万，输出 4.25 美元/百万，与 Claude Haiku 及 GPT-5.6 相当。Meta 强调其在处理大型代理工作负载、修复漏洞及代码迁移方面的能力，旨在吸引企业级用户。",
-    "tags": [
-      "News",
-      "LLM",
-      "Coding"
-    ],
-    "link": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
-    "date": "2026-07-09",
-    "id": "17836266713720"
-  },
-  {
-    "title": "Brainiak：非 Transformer 架构的 CPU 原生 AI 核心",
-    "summary": "开源项目 Brainiak 展示了一种基于拓扑 AI 的 CPU 运行时架构，无需 Transformer。",
-    "detail": "Brainiak 项目提出了一种独特的 AI 运行时架构，旨在实现 CPU -only 的 LLM 部署。其核心 ZTTM 负责决策主权，而 LLM（如 Qwen 3.5）仅负责 verbalize 而非决策。架构严格限制 LLM 不携带决策上下文，工具仅执行不仲裁。通过感知 - 决策 - 执行 - 收据的闭环，实现可验证的状态转换。该项目为边缘计算及隐私敏感场景下的 LLM 应用提供了新的技术路径，挑战了传统的 Transformer 主导模式。",
-    "tags": [
-      "Dev",
-      "Architecture",
-      "LLM"
-    ],
-    "link": "https://www.hackster.io/jenfi59/brainiak-topological-al-drives-llm-by-lora-runtime-adapters-73a678",
-    "date": "2026-07-09",
-    "id": "17836266713722"
-  },
-  {
-    "title": "DreadPit：AI 仲裁的幻想战斗竞技场上线",
-    "summary": "新产品 DreadPit 允许玩家用文字召唤角色，由 AI 根据图像评判战斗生死。",
-    "detail": "DreadPit 是一款创新的 AI 驱动游戏，玩家需用 200 字符内的文字召唤冠军，并从两张肖像中选择其一。AI 仲裁者（The Arbiter）每日两次根据图像 alone 渲染 verdict。败者将被永久 slain 并进入 Graveyard，召唤词被封存。该产品结合了创意写作与多模态图像生成，建立了独特的永久死亡机制与排行榜系统，展示了 AI 在游戏叙事与规则执行上的新应用潜力。",
-    "tags": [
-      "New",
-      "Game",
-      "Multimodal"
-    ],
-    "link": "https://dreadpit.com/",
-    "date": "2026-07-09",
-    "id": "17836266713723"
-  },
-  {
-    "title": "Google Cloud Run 沙盒公开预览，安全运行 AI 代码",
-    "summary": "Google 推出 Cloud Run 沙盒，专为安全执行未信任 AI 代码设计，毫秒级启动。",
-    "detail": "Google Cloud 在 WeAreDevelopers 大会宣布 Cloud Run 沙盒进入公开预览。该功能提供轻量级隔离执行环境，专为运行 AI 生成代码或不可信二进制文件设计，防止威胁主机应用与凭证。开发者可在现有 Cloud 服务实例内快速生成沙盒，无需复杂基础设施或第三方微虚拟机。核心优势在于毫秒级启动与安全隔离，测试显示执行 1000 个沙盒平均延迟仅 500ms。有效防止 AI Agent 工作负载风险，大幅降低 AI 应用部署门槛，解决安全运行未信任代码的行业痛点，无需离开 serverless 环境即可实现安全隔离。",
-    "tags": [
-      "News",
-      "Google Cloud",
-      "Security"
-    ],
-    "link": "https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-run-sandboxes-are-in-public-preview/",
-    "date": "2026-07-09",
-    "id": "17836199193550"
   }
 ]
