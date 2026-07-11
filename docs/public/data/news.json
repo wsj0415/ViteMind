@@ -1,5 +1,44 @@
 [
   {
+    "title": "OpenAI 战略转向家庭用户，招聘专属产品经理",
+    "summary": "OpenAI 招聘家庭产品经理，ChatGPT 用户群向成年及家长群体扩展。",
+    "detail": "OpenAI 正将战略从个人生产力扩展至家庭场景，正在旧金山招聘专注于家庭、照顾者及老年人的产品经理。数据显示，35 岁以上用户占比升至 31%，美国家长用户使用率显著增长。此举标志着 AI 助手正深入日常生活，类似 Google 和 Apple 的路径，但也带来了新的信任与安全挑战。分析师 Ben Bajarin 指出，AI 助手不仅是内容中介，更嵌入生活，stakes 更高。这意味着 AI 产品将更注重多用户协作与隐私保护，是平台生态成熟的关键一步，可能引发家庭订阅模式创新。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Strategy"
+    ],
+    "link": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+    "date": "2026-07-11",
+    "id": "17837817361720"
+  },
+  {
+    "title": "新型 AI 安全威胁：Ghostcommit 利用图像隐藏提示注入",
+    "summary": "研究人员发现通过图片隐藏恶意指令，可欺骗 AI 代码审查代理窃取秘密。",
+    "detail": "密苏里大学 ASSET 研究组披露了\"Ghostcommit\"攻击，通过在 PNG 图片中隐藏提示注入指令，绕过 AI 代码审查。攻击者可将仓库密钥窃取并写入源码。调查显示 73% 的合并 PR 未经过实质审查。该漏洞揭示了 AI 代理在代码审查流程中的盲点，已公开概念验证代码并通知厂商。随着 AI 代理广泛接入开发流程，此类多模态注入攻击将成为安全团队的新焦点，需加强输入过滤。研究人员已在 GitHub 发布 PoC，提醒开发者警惕非文本输入的风险。",
+    "tags": [
+      "News",
+      "Security",
+      "AI Agents"
+    ],
+    "link": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
+    "date": "2026-07-11",
+    "id": "17837817361721"
+  },
+  {
+    "title": "实战教程：从零开始构建一个大语言模型",
+    "summary": "YouTube 新视频详解 LLM 构建过程，适合开发者深入理解模型原理。",
+    "detail": "频道 Syntax 发布新视频\"I Built an LLM From Scratch\"，旨在通过实战演示大语言模型的底层构建逻辑。此类教程对于开发者理解 Transformer 架构、训练流程及推理机制至关重要。在 AI 黑盒化趋势下，从头构建有助于掌握核心技术细节，提升模型调试与优化能力。适合希望深入底层原理而非仅调用 API 的工程师，有助于培养真正的 AI 原生开发思维。视频发布 1 天已有近万观看，显示开发者对底层原理的浓厚兴趣。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Tutorial"
+    ],
+    "link": "https://www.youtube.com/watch?v=YmLp8qe87A0",
+    "date": "2026-07-11",
+    "id": "17837817361722"
+  },
+  {
     "title": "2025 年 AI 吸金占比达 65%，初创融资难度加剧",
     "summary": "2025 年 AI 公司占据美国风险投资 65%，但种子轮资金减少。",
     "detail": "2025 年 AI 企业获取了美国 65% 的风险投资资金，2026 年 2 月全球融资创纪录，OpenAI、Anthropic 等巨头独占鳌头。然而种子轮数量与金额下降 20%，资金向 mega-seeds 集中。创业者需认清融资数学概率，理性决策是否寻求风投，因为资金池并未流向小型团队。",
@@ -1259,44 +1298,5 @@
     "link": "https://www.syncpen.io/blog/your-ai-doesn-t-get-better-your-workspace-does",
     "date": "2026-07-09",
     "id": "17835857407253"
-  },
-  {
-    "title": "Greppy：专为 AI 代理设计的增强版 grep 工具",
-    "summary": "原生 Rust 二进制文件，提供代码导航子命令，提升代理代码理解准确率。",
-    "detail": "Greppy 是一个兼容标准 grep 的 drop-in 工具，专为 AI 编码代理设计。增加了 `who-calls`, `impact`, `semantic-search` 等子命令，帮助代理理解代码结构。测试显示代理回答结构导航问题的准确率从 53% 提升至 87%，且消耗 Token 更少。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "Rust"
-    ],
-    "link": "https://github.com/metric-space-ai/greppy",
-    "date": "2026-07-09",
-    "id": "17835857407254"
-  },
-  {
-    "title": "独立报：Facebook 未处理 AI 生成的极右翼影响活动",
-    "summary": "AI 生成 influencer 传播极右翼叙事，平台 flagged 一个月后仍未采取行动。",
-    "detail": "The Independent 调查发现，一个 AI 生成的 influencer 在 Facebook 上向数百万用户传播极右翼叙事。尽管该活动一个月前已被标记，但 Facebook 尚未采取行动。这突显了当前社交平台在应对 AI 生成内容及其潜在社会影响方面的监管滞后与挑战。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Social Media"
-    ],
-    "link": "https://www.independent.co.uk/news/uk/home-news/facebook-far-right-ai-video-life-in-britain-b3004975.html",
-    "date": "2026-07-09",
-    "id": "17835857407255"
-  },
-  {
-    "title": "视频分享：150 天内构建年运行率 1000 万美元的 AI 初创公司",
-    "summary": "Ben Cera 分享快速构建 AI 初创公司的经验，视频观看量已超 10 万。",
-    "detail": "YouTube 创作者 Ben Cera 发布视频，讲述如何在 150 天内将 AI 初创公司的年运行率构建至 1000 万美元。视频发布 2 天已获得超 10 万次观看。虽然具体细节需观看视频，但该案例为 AI 创业速度和市场潜力提供了实证参考。",
-    "tags": [
-      "News",
-      "Startup",
-      "Growth"
-    ],
-    "link": "https://www.youtube.com/watch?v=VMyHC7qUrhI",
-    "date": "2026-07-09",
-    "id": "17835857407256"
   }
 ]
