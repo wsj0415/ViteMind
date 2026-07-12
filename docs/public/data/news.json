@@ -1,5 +1,31 @@
 [
   {
+    "title": "Elsevier 调查：研究人员视 AI 为变革工具但缺乏时间",
+    "summary": "Elsevier 全球调查显示，研究人员认为 AI 具变革性，但近半数缺乏研究时间。",
+    "detail": "Elsevier 发布了“未来研究人员”全球调查结果，覆盖 113 个国家的 3200 多名学者。报告指出，尽管研究人员面临信息过载和行政压力，近半数人缺乏研究时间，但他们仍视 AI 为变革性工具。报告强调了地区态度差异及研究人员角色的转变。关键在于需要值得信赖的解决方案，优先保障研究完整性、准确性和问责制。科学界认识到信任标记对于推进人类进步至关重要，AI 工具需在提升效率的同时确保伦理标准。未来研究生态将更依赖可信 AI 基础设施来平衡压力与创新，推动全球科研社区在变革中保持信心。",
+    "tags": [
+      "News",
+      "Survey",
+      "Research"
+    ],
+    "link": "https://www.elsevier.com/about/press-releases/elseviers-global-survey-of-3-000-researchers-reveals-less-than-half-have",
+    "date": "2026-07-12",
+    "id": "17838895045330"
+  },
+  {
+    "title": "开源项目：本地优先的持久化 AI 记忆管理工具",
+    "summary": "EXXETA 推出本地优先 AI 记忆工具，支持受控的持久化 AI 房间。",
+    "detail": "GitHub 项目 exxperts 提供了一种本地优先的 AI 记忆解决方案，允许用户在自有机器上控制 AI 的持久化记忆。该工具支持创建具有治理和审批网关的持久化 AI 房间，确保数据主权。基于 Node.js 20.6+，跨平台支持 macOS、Windows 和 Linux。适合关注数据隐私和本地部署的开发者，为构建可信 AI 应用提供了基础设施层面的支持。通过本地化记忆管理，用户可避免云端数据泄露风险，实现更安全的 AI 交互体验。该项目体现了 AI 开发向本地化、隐私保护方向发展的趋势，为个人及企业提供了新的技术选型。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Privacy"
+    ],
+    "link": "https://github.com/EXXETA/exxperts",
+    "date": "2026-07-12",
+    "id": "17838895045332"
+  },
+  {
     "title": "Show HN: Kote – 自动捕获 AI 会话与 Git 上下文的开发者记忆层",
     "summary": "开源工具自动整理 AI 对话与 Git 历史，构建可搜索的工程知识库。",
     "detail": "Kote 是一款专为开发者设计的记忆层工具，旨在解决 AI 编程中上下文丢失的痛点。它能自动捕获 AI 聊天会话、Git 提交历史及开发环境上下文，并将其组织为可搜索的知识库。基于 TypeScript 构建，支持本地部署，帮助团队复用工程语境，提升 AI 辅助 coding 的连续性与准确性，适合需要长期维护复杂代码库的开发团队。",
@@ -336,6 +362,19 @@
     "link": "https://www.overplane.dev/overview/dan/",
     "date": "2026-07-12",
     "id": "17838245824132"
+  },
+  {
+    "title": "行业趋势：AI 客户转向青睐小型专用模型",
+    "summary": "相比通用大模型，客户更倾向成本更低、可控性更强的小型领域专用模型。",
+    "detail": "尽管 OpenAI 和 Anthropic 致力于构建通用大模型，但市场趋势显示客户开始青睐“小型即美丽”。小型领域专用模型训练成本更低，可在单一加速器上运行多实例，且避免了通用模型被替换或监管的风险。微软已悄然构建 MAI 系列领域模型，涵盖推理、编码及图像生成等用例，表明 bigger isn't always better 正成为行业共识。企业更倾向于可控、低成本且针对特定任务优化的模型，而非盲目追求参数量。这一转变将影响未来 AI 基础设施的采购策略与部署架构，推动边缘计算与专用硬件的发展。",
+    "tags": [
+      "News",
+      "LLM",
+      "Industry"
+    ],
+    "link": "https://www.theregister.com/ai-and-ml/2026/07/11/ai-customers-are-coming-around-to-the-idea-that-small-is-beautiful/5268070",
+    "date": "2026-07-11",
+    "id": "17838895045331"
   },
   {
     "title": "Meta 因隐私争议紧急下架 AI 照片生成工具",
@@ -1157,6 +1196,19 @@
     "id": "17837403585634"
   },
   {
+    "title": "NVIDIA 指南：硬件友好的 LLM 模型协同设计",
+    "summary": "NVIDIA 详解 LLM 部署中准确性、吞吐量与交互性的平衡策略。",
+    "detail": "NVIDIA 开发者博客发布指南，探讨 AI 模型协同设计。性能取决于准确性、吞吐量和交互性三个维度。部署需在系统吞吐量（tokens/sec）和用户延迟之间找到 Pareto 最优解。文章针对模型开发者，指导如何通过设计选择在牺牲最少准确性的前提下优化吞吐量和交互性，是现代 LLM workload 在数据中心高效运行的实用 primer。通过硬件友好的设计，可显著提升推理效率。该指南强调了系统部署者与用户视角的平衡，为构建高响应性 AI 服务提供了理论框架与工程实践建议，助力开发者在硬件限制下实现性能最大化。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "NVIDIA"
+    ],
+    "link": "https://developer.nvidia.com/blog/ai-model-co-design-hardware-friendly-llm-design/",
+    "date": "2026-07-10",
+    "id": "17838895045333"
+  },
+  {
     "title": "AI 反弹波及高校：法学院禁止学生使用笔记本电脑",
     "summary": "某大学因 AI 滥用问题，禁止法学院学生在课堂使用电子设备。",
     "detail": "AI 技术的滥用引发了教育界的强烈反弹。某主要大学法学院宣布禁止学生在课堂使用笔记本电脑和手机，旨在防止 AI 工具干扰学习过程及学术诚信。这一激进措施反映了教育机构对 AI 影响深度思考的担忧，标志着 AI 伦理与管理政策开始深入校园场景。未来可能会有更多教育机构采取类似限制措施，以平衡技术便利性与传统教学目标的冲突，引发关于数字化学习边界的讨论，政策监管趋严。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.windowscentral.com/microsoft/dropping-greenwashing-credits-and-expanding-ai-datacenters-caused-microsofts-25-percent-emissions-jump",
     "date": "2026-07-10",
     "id": "17837650548010"
-  },
-  {
-    "title": "苹果起诉 OpenAI 窃取商业机密",
-    "summary": "科技巨头苹果正式起诉 OpenAI，指控其窃取商业机密，引发法律大战。",
-    "detail": "苹果于 2026 年 7 月 10 日在旧金山起诉 ChatGPT 制造商 OpenAI，指控后者窃取贸易秘密。这场诉讼标志着两家科技巨头之间的重大法律冲突，可能影响 AI 训练数据的合规性及未来合作模式。《华盛顿邮报》报道称，这一重磅指控引发了科技界的广泛关注，案件涉及核心利益与知识产权边界，被视为 AI 行业发展历程中的里程碑式法律事件。",
-    "tags": [
-      "News",
-      "Legal",
-      "OpenAI"
-    ],
-    "link": "https://www.washingtonpost.com/technology/2026/07/10/apple-sues-openai-alleging-ai-company-stole-trade-secrets/",
-    "date": "2026-07-10",
-    "id": "17837403585630"
-  },
-  {
-    "title": "AI 新阶级分化：特权用户与普通人的体验鸿沟",
-    "summary": "Axios 深度分析显示，AI 技术正在加剧美国社会的阶级分化，形成“拥有者”与“无知者”。",
-    "detail": "报道指出 AI 体验存在巨大差异：前沿用户视其为革命性工具，能构建软件解决复杂问题；而普通人仅视为搜索增强。OpenAI 的 Sol 和 Anthropic 的 Fable 等模型专为精英设计。这种“数字鸿沟”新章节关乎财富与权力分配，数万亿美元经济价值押注于此，但多数美国人尚未完全信任或理解该技术，这对未来工作和权力结构有深远影响。",
-    "tags": [
-      "News",
-      "Social",
-      "Analysis"
-    ],
-    "link": "https://www.axios.com/2026/07/10/ai-class-divide-fable-sol-mythos",
-    "date": "2026-07-10",
-    "id": "17837403585631"
-  },
-  {
-    "title": "Meta 因舆论压力下架 Instagram 争议 AI 功能",
-    "summary": "Meta 下架了允许用户修改公共照片的 AI 功能，因引发隐私担忧。",
-    "detail": "Meta 本周推出了 Muse Image 生成器，其中一项功能允许用户通过@提及公共账户来修改照片。由于未通知被引用用户，该功能引发强烈反对。Meta 迅速回应，承认功能“未达预期”并下架。此事件凸显了 AI 生成内容在版权和隐私方面的敏感性，大厂在推进 AI 功能时需更谨慎平衡创新与用户权益。对于开发者而言，这是一个关于 AI 伦理合规的重要案例，表明在公共数据上使用 AI 需明确告知机制。此外，TechCrunch 此前已发布指南教用户如何禁用该功能，显示出社区对隐私保护的高度关注。",
-    "tags": [
-      "News",
-      "Meta",
-      "Privacy"
-    ],
-    "link": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
-    "date": "2026-07-10",
-    "id": "17837280438680"
-  },
-  {
-    "title": "以太坊部署 AI 代理猎杀漏洞，发现 libp2p 关键缺陷",
-    "summary": "以太坊基金会利用 AI 代理发现 libp2p 组件远程触发恐慌漏洞。",
-    "detail": "以太坊基金会协议安全团队协调运行 AI 代理对抗关键网络基础设施，成功发现 libp2p gossipsub 中的 CVE-2026-34219 漏洞。团队指出，挑战不在于发现 bug，而在于从 AI 产生的“自信噪音”中筛选真实漏洞。这标志着 AI 代理在网络安全审计中的实际应用进展，但仍需人工介入进行最终 triage。AI 擅长阅读规范和代码，但在跨步骤漏洞检测上仍有局限。此案例证明了 AI 辅助安全审计的潜力，同时也揭示了当前 Agent 技术在精确度上的不足，未来方向应是人机协作而非完全替代。",
-    "tags": [
-      "News",
-      "Security",
-      "AI Agents"
-    ],
-    "link": "https://thecoinheadlines.com/tech-and-ai/ethereum-deploys-ai-agents-to-hunt-bugs-discovers-libp2p-vulnerability/article-25686/",
-    "date": "2026-07-10",
-    "id": "17837280438681"
   }
 ]
