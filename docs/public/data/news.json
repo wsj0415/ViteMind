@@ -1,5 +1,57 @@
 [
   {
+    "title": "Show HN: Kote – 自动捕获 AI 会话与 Git 上下文的开发者记忆层",
+    "summary": "开源工具自动整理 AI 对话与 Git 历史，构建可搜索的工程知识库。",
+    "detail": "Kote 是一款专为开发者设计的记忆层工具，旨在解决 AI 编程中上下文丢失的痛点。它能自动捕获 AI 聊天会话、Git 提交历史及开发环境上下文，并将其组织为可搜索的知识库。基于 TypeScript 构建，支持本地部署，帮助团队复用工程语境，提升 AI 辅助 coding 的连续性与准确性，适合需要长期维护复杂代码库的开发团队。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Productivity"
+    ],
+    "link": "https://github.com/pedroaugusto04/Kote",
+    "date": "2026-07-12",
+    "id": "17838839589910"
+  },
+  {
+    "title": "强化学习之父 Rich Sutton 警示 AI 研究中的“单步陷阱”",
+    "summary": "指出依赖单步预测模型迭代生成长期规划存在误差累积与计算不可行性。",
+    "detail": "Rich Sutton 发表文章深入剖析 AI 研究中的“单步陷阱”误区。他认为试图仅通过学习单步转移模型来迭代预测长期后果是无效的，因为误差会随步数累积，且在随机世界中计算复杂度呈指数级增长。该观点挑战了当前基于单步模型的世界模拟主流方法，强调直接学习长期预测的重要性，对 POMDP 及控制理论研究具有深远指导意义。",
+    "tags": [
+      "Dev",
+      "Research",
+      "RL"
+    ],
+    "link": "http://incompleteideas.net/IncIdeas/OneStepTrap.html",
+    "date": "2026-07-12",
+    "id": "17838839589911"
+  },
+  {
+    "title": "Dari AI 推出 macOS 本地运行全能助手，主打隐私与离线能力",
+    "summary": "无需订阅的本地 AI 助手，支持多模态交互与自定义模型导入，数据不出设备。",
+    "detail": "Dari AI 是一款专为 macOS 设计的本地化 AI 助手，核心优势在于完全离线运行与隐私保护。应用内置多模态模型，针对 Apple Silicon 优化，支持 14 种语言及语音交互。用户可一次性购买解锁自定义模型，支持导入 Hugging Face 模型或接入 API。它能读取文件、执行 Shell 命令并理解代码库，适合对数据隐私敏感且需要深度系统集成的专业用户。",
+    "tags": [
+      "New",
+      "Privacy",
+      "MacOS"
+    ],
+    "link": "https://apps.apple.com/kz/app/dari-ai/id6779357765?mt=12",
+    "date": "2026-07-12",
+    "id": "17838839589912"
+  },
+  {
+    "title": "彭博社：苹果 M6/M7/M8 芯片规划曝光，AI 重塑硬件战略",
+    "summary": "新一代芯片计划显示苹果正围绕 AI 计算需求重构 MacBook Pro 等产品线。",
+    "detail": "彭博社报道披露了苹果未来芯片路线图，M6、M7 及 M8 系列芯片将成为 AI 战略的核心载体。报道暗示 AI 计算需求正在重塑苹果硬件架构，包括可能推出的 Touch MacBook Pro 等新形态。这表明苹果正从通用计算向 AI 专用计算倾斜，通过自研芯片强化端侧 AI 能力，以应对竞争并深化生态系统壁垒，预计将影响未来几年 Mac 产品迭代方向。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Apple"
+    ],
+    "link": "https://www.bloomberg.com/news/newsletters/2026-07-12/apple-s-chip-plans-m6-m7-pro-m7-max-m7-ultra-m8-details-touch-macbook-pro",
+    "date": "2026-07-12",
+    "id": "17838839589913"
+  },
+  {
     "title": "多数美国工人支持 AI 财富基金",
     "summary": "调查显示科技裁员潮下，多数工人支持建立 AI 财富基金。",
     "detail": "**背景**：随着科技行业裁员激增，AI 对劳动力市场的结构性冲击引发广泛担忧。**核心内容**：CNBC 最新调查显示，大多数美国工人支持建立\"AI 财富基金”，旨在通过税收或利润分享机制，应对自动化带来的经济不平等与失业风险。**影响**：这反映了公众对 AI 经济分配机制的高度关注，可能推动政府相关政策讨论，为企业部署 AI 带来社会责任与合规压力。企业需重新审视人机协作的经济模型，平衡效率提升与员工福祉，避免社会反弹风险。此趋势若成真，将改变科技巨头利润分配方式。",
@@ -1246,57 +1298,5 @@
     "link": "https://thecoinheadlines.com/tech-and-ai/ethereum-deploys-ai-agents-to-hunt-bugs-discovers-libp2p-vulnerability/article-25686/",
     "date": "2026-07-10",
     "id": "17837280438681"
-  },
-  {
-    "title": "2026 报告：前端团队的 AI 与可观测性差距",
-    "summary": "调查显示 89% 开发者使用 AI，但仅 8% 将其用于可观测性任务。",
-    "detail": "Embrace 发布的报告显示，尽管 89% 的工程团队在日常工作流中使用 AI，但仅 8% 将其应用于可观测性任务。74% 的团队处于可观测性成熟度中期，缺乏端到端 visibility。报告强调，虽然工程师看好 AI 在未来 2-3 年对可观测性的关键作用，但可验证输出和透明度是采用前提。移动端和 Web 团队在工具使用上存在显著差异，移动端滞后但需求强烈。管理者与一线工程师对挑战的认知也不同。这表明 AI 在运维领域的落地尚处早期，信任机制的建立是突破瓶颈的关键，厂商需提供更透明的 AI 诊断工具。",
-    "tags": [
-      "News",
-      "Report",
-      "DevOps"
-    ],
-    "link": "https://embrace.io/guides/ai-observability-gap-report/",
-    "date": "2026-07-10",
-    "id": "17837280438682"
-  },
-  {
-    "title": "使用 Daft 查询物理 AI 数据：机器人数据集的自然语言搜索",
-    "summary": "演示如何在 Apple EgoDex 数据集上使用 Daft 进行自然语言视频搜索。",
-    "detail": "该教程展示了如何使用 Daft 库在 Apple 的 EgoDex 数据集上运行查询，结合帧级语义嵌入和几何特征，实现“找到手握筷子抬起的片段”等自然语言搜索。这解决了非受控环境下机器人数据标记难的问题，为物理 AI 数据管理提供了新的 CTRL+F 式工具，代码已开源。传统机器人任务通常基于预定义菜单，而此方法允许在无序数据中检索特定场景。开发者可通过 GitHub 上的 daft-examples 库直接运行演示 notebook，这对于构建具身智能数据集的工程师来说极具参考价值，降低了数据清洗门槛。",
-    "tags": [
-      "Dev",
-      "Robotics",
-      "Python"
-    ],
-    "link": "https://www.eventual.ai/blog/egodex-scenario-search",
-    "date": "2026-07-10",
-    "id": "17837280438683"
-  },
-  {
-    "title": "零依赖运行 10 个 AI 代理：GitHub 开源自动化方案",
-    "summary": "开发者分享如何用 launchd 和 Node.js 安全运行代理，无需 n8n。",
-    "detail": "一个 GitHub 项目展示了如何用纯 Node.js 和 launchd 定时任务运行 10 个 AI 代理管理机构运营。核心亮点是内置了 5 层安全护栏（如 kill switch, allowlist），确保不可逆操作前经过单元测试。该方案零运行时依赖，为开发者提供了轻量级、高安全性的 AI 代理部署模板。作者曾因无护栏机器人误发邮件而重建系统，强调了安全性在生产环境的重要性。每个代理均为独立文件，支持 CI 测试，适合希望摆脱 n8n 等重型框架、追求极致可控性的开发者参考，实现了自动化与安全的平衡。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Automation"
-    ],
-    "link": "https://github.com/Botfather90/digiton-agent-fleet",
-    "date": "2026-07-10",
-    "id": "17837280438684"
-  },
-  {
-    "title": "Hermes 上线：将客户行为信号转化为自动行动的 AI 平台",
-    "summary": "新工具 Hermes 可扫描产品数据并自动执行邮件或 Slack 警报。",
-    "detail": "Hermes 是一款新推出的 AI 产品，旨在将客户行为数据转化为实际行动。它能自动扫描 CRM、账单和支持票据，识别流失风险或扩展机会，并建议执行邮件、Slack 警报或创建工单。平台支持 PostgreSQL、HubSpot 等多种集成，强调“检测 - 决策 - 行动”的智能闭环，设置仅需几分钟。与传统仪表盘不同，Hermes 直接执行操作，并通过用户反馈不断学习优化。这对于增长团队来说，意味着从被动监控转向主动干预，大幅提升运营效率。其核心优势在于减少数据噪音，直接提供可执行的增长杠杆，适合希望自动化客户成功流程的 SaaS 团队。",
-    "tags": [
-      "New",
-      "SaaS",
-      "Growth"
-    ],
-    "link": "https://tryhermes.dev/",
-    "date": "2026-07-10",
-    "id": "17837280438685"
   }
 ]
