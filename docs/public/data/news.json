@@ -1,5 +1,44 @@
 [
   {
+    "title": "Diff Forge AI：基于 Web 的代理开发环境",
+    "summary": "推出原生指挥中心，支持多终端工作区与语音编排，实现代理编码全流程管理。",
+    "detail": "Diff Forge AI 推出基于 Web 的代理开发环境，定位为代理编码的原生指挥中心。核心特性包括**多终端工作区**、**Loop Spaces 计划图工作流**及本地语音编排。支持 Codex、Claude Code 和 OpenCode 自动检测。工作流程涵盖从安装连接 CLI 到并行运行代理，用户可通过 Web 端 steering 整个系统而代码保留在本地机器。该工具解决了代理运行时集成瓶颈，提供设备同步、资产管理和 Token 计量，适合需要高效协作与可控代理管理的开发团队，实现从 setup 到 live agents 的单操作闭环。",
+    "tags": [
+      "New",
+      "Dev",
+      "Agent"
+    ],
+    "link": "https://diffforge.ai/",
+    "date": "2026-07-13",
+    "id": "17839385339730"
+  },
+  {
+    "title": "中国 AI 模型凭借成本优势进军美国市场",
+    "summary": "因 OpenAI 等成本飙升，美国企业转向 DeepSeek 等中国模型，OpenRouter 用量占比超 30%。",
+    "detail": "CNBC 报道显示，随着 OpenAI 和 Anthropic 等美国实验室 token 价格上涨，中国 AI 模型（如 **DeepSeek**、**Z.ai**）因性价比高在美国企业中获得 traction。通过 OpenRouter 平台，美国公司使用中国模型的比例自 2 月以来每周超过 30%，远高于去年同期。尽管美国政府考虑监管，但成本压力促使企业寻求替代方案，显示出全球 AI 供应链的成本敏感性正在改变市场格局。此外，OpenAI 限制新模型 rollout 而 Anthropic 出口控制 lifted，政策波动加剧了市场对多元化模型供应商的需求。",
+    "tags": [
+      "News",
+      "LLM",
+      "Market"
+    ],
+    "link": "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html",
+    "date": "2026-07-13",
+    "id": "17839385339731"
+  },
+  {
+    "title": "DolphinDB 发布 v3.00.6，推出企业级 Agent 平台 DolphinX",
+    "summary": "新版本集成 Agent 开发治理平台，强化特征存储与高性能脚本执行，助力 AI 生产落地。",
+    "detail": "DolphinDB 发布 **v3.00.6** 及 v2.00.19 更新，核心推出企业级 AI 开发与治理平台 **DolphinX**。该平台深度集成数据库原生能力，将数据、计算与业务逻辑转化为可治理的 AI Agent 能力。更新还增强了 FeatureDB、FICC 及 JIT 编译等功能，覆盖从低延迟特征存储到复杂衍生品定价的全 workflow。此举旨在解决企业 AI 从试点到生产系统的集成瓶颈，提供安全可复用的 Agent 开发环境。新版本支持自然语言数据查询与自动化工作流，强化系统运营与高可用流计算，助力金融等企业将 AI 快速转化为生产力。",
+    "tags": [
+      "Dev",
+      "Database",
+      "Enterprise"
+    ],
+    "link": "https://medium.com/@DolphinDB_Inc/dolphindb-v3-00-6-ecde33229456",
+    "date": "2026-07-13",
+    "id": "17839385339732"
+  },
+  {
     "title": "Clark Labs 推出自主 AI 实验室",
     "summary": "首个由自主 AI 运营实验室，人类仅提供反馈，工程研究全自动化。",
     "detail": "Clark Labs 宣称建立首个无需人类动手工程的 AI 实验室，标志着 AI 从辅助工具向自主执行者的重大转变。核心产品包括 Clark Agent（计算机使用代理）、Clark Hash（记忆层）及 Clark Code（集成 IDE）。人类角色转为提供直觉与反馈，工程和研究作为完全自主的 AI 循环运行。这可能重塑研发流程，降低人力成本，但同时也引发了对自主系统可控性与安全性的行业关注。",
@@ -1259,44 +1298,5 @@
     "link": "https://www.mccormick.northwestern.edu/news/articles/2026/07/ai-gets-a-cerebellum/",
     "date": "2026-07-11",
     "id": "17837598023173"
-  },
-  {
-    "title": "Ypipe：Java 本地 AI 客户端与 MCP 编排",
-    "summary": "无需 Python 依赖的本地 AI 客户端与编排引擎。",
-    "detail": "Ypipe 推出基于 Java 的本地 AI 客户端，解决 Python 依赖地狱问题。支持 CPU/GPU 运行离线模型，通过 MCP 协议编排工作流。强调数据主权与零云依赖，适合企业安全部署。提供可视化界面及一键集成，降低本地 AI 应用门槛。用户可链式调用 specialized models，绑定本地系统执行自动化任务，确保 prompt 与响应不出境，满足合规要求， democratizing enterprise-grade local AI。",
-    "tags": [
-      "New",
-      "Tool",
-      "Java"
-    ],
-    "link": "https://ypipe.com/",
-    "date": "2026-07-11",
-    "id": "17837598023177"
-  },
-  {
-    "title": "Meta 因全球反对下架 Instagram AI 功能",
-    "summary": "Meta 迫于舆论压力，移除 Instagram 默认开启的 AI 图像生成功能。",
-    "detail": "Meta 此前推出 Muse Image 功能，默认允许用户使用公开帖子进行 AI 生成，引发隐私伦理争议。新西兰专家批评“选择退出”机制不道德，认为公开分享不代表同意 AI 复用。面对全球媒体及用户强烈 backlash，Meta 最终下架该功能，承认未达预期。此事件凸显 AI 数据使用权与用户隐私之间的紧张关系，为大厂 AI 功能落地敲响警钟，表明未来 AI 产品需更注重用户 consent 机制设计，避免伦理风险。同时，这也反映了公众对 AI 生成内容来源的敏感性日益增加，企业需在创新与合规间寻找平衡，隐私保护将成为 AI 产品成败的关键因素之一。",
-    "tags": [
-      "News",
-      "Meta",
-      "Ethics"
-    ],
-    "link": "https://www.rnz.co.nz/news/science-and-technology/700735/missed-the-mark-meta-removes-ai-feature-on-instagram-after-global-backlash",
-    "date": "2026-07-11",
-    "id": "17837505292580"
-  },
-  {
-    "title": "AI 介入学术同行评审的伦理边界探讨",
-    "summary": "学者呼吁建立 AI 辅助同行评审的规范，防止幻觉引用。",
-    "detail": "针对学术会议中出现的 AI 幻觉引用问题，学者撰文探讨评审环节使用 AI 的现状。虽然官方指南简略，但社区已自发形成类似的工作流边界。文章建议建立明确的共享规范，区分作者与评审者使用 AI 的界限。这标志着 AI 正深入科研核心流程，亟需伦理共识以避免学术诚信危机。文中提到 ICSE 会议上的道德恐慌，反映了社区对 AI 滥用零容忍态度，但也承认 AI 辅助评审已成事实，关键在于制定透明规则，确保评审质量不受幻觉影响，维护科学严谨性。未来学术界需建立 explicit shared norms，平衡效率与诚信。",
-    "tags": [
-      "News",
-      "Research",
-      "Ethics"
-    ],
-    "link": "https://cabird.com/ide/posts/ai-in-peer-review",
-    "date": "2026-07-11",
-    "id": "17837505292581"
   }
 ]
