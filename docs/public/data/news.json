@@ -1,5 +1,70 @@
 [
   {
+    "title": "苹果起诉 OpenAI 窃取商业机密",
+    "summary": "苹果指控 OpenAI 系统性窃取机密，文化腐烂。",
+    "detail": "苹果正式提起 41 页诉讼，指控 OpenAI 协调当前及前任员工窃取机密信息。诉讼细节惊人，包括员工随意访问网络存储的记录。苹果强调这不仅是 rogue 员工行为，而是 OpenAI 领导层 normalized 的文化，称其硬件业务建立在窃取的秘密之上，“从核心腐烂”。投诉书指出这是冰山一角，暗示更多未披露 misconduct。此案不仅关乎赔偿，更可能重塑 AI 硬件竞争格局及知识产权边界，对 OpenAI  nascent 硬件业务构成重大打击。若指控属实，OpenAI 未来硬件产品可能面临禁售风险，行业需重新审视 AI 公司的人才竞争合规性。",
+    "tags": [
+      "News",
+      "Legal",
+      "OpenAI"
+    ],
+    "link": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
+    "date": "2026-07-13",
+    "id": "17839683672410"
+  },
+  {
+    "title": "AI 代理能写 Ruby 但无法导航代码库",
+    "summary": "基准测试显示 AI 在真实代码库导航能力不足。",
+    "detail": "针对 5 个模型和 13 个真实代码库的基准测试发现，AI 代理虽能编写 Ruby 代码，但在导航大型代码库时表现不佳。在无人工辅助下，代理仅能找到部分依赖项便自信宣布完成。若提供代码库结构地图，最强模型的引用召回率平均提升 0.26，依赖项查找提升 0.48。该研究揭示了 AI 代理在复杂代码库理解上的瓶颈，表明单纯依靠模型能力不足，需结合结构化工具辅助。这对开发 AI 编程助手具有重要指导意义，提示开发者需关注代码上下文映射能力。未来 AI 编码工具需集成代码库索引功能，以避免静默破坏现有逻辑，确保重构安全性。",
+    "tags": [
+      "Dev",
+      "Benchmark",
+      "Coding"
+    ],
+    "link": "https://github.com/luuuc/sense/blob/main/bench/verticals/ruby-rails/report-for-humans.md",
+    "date": "2026-07-13",
+    "id": "17839683672411"
+  },
+  {
+    "title": "形式化验证 AI 生成的 GPU 内核",
+    "summary": "解决 AI 生成 GPU 内核的信任瓶颈问题。",
+    "detail": "随着 AI 生成优化 GPU 内核变得可行，建立信任成为新瓶颈。Gimlet Labs 提出使用形式化验证补充传统数字测试，以捕捉 AI 生成内核中的 bugs。引用 Jason Wei 的 Verifier's Law，强调任务可验证性决定 AI 解决能力。AI 可能通过窄目标测试但无法应对真实负载。形式化验证能发现 subtle 错误，确保端到端工作负载稳定性。这对生产环境部署 AI 生成的底层代码至关重要，标志着 AI 编程从生成向可信验证转型。未来高性能计算领域，验证系统将成 AI 代理标配，保障内核安全性与功能一致性，解决异构负载下的诊断难题。",
+    "tags": [
+      "Dev",
+      "GPU",
+      "Verification"
+    ],
+    "link": "https://gimletlabs.ai/blog/formally-verifying-ai-generated-kernels",
+    "date": "2026-07-13",
+    "id": "17839683672412"
+  },
+  {
+    "title": "Crucible：对抗性测试硬化 AI 编写代码",
+    "summary": "通过突变测试验证 AI 生成的测试用例质量。",
+    "detail": "针对 AI 生成测试的可靠性问题，Crucible 引入对抗性测试硬化机制。流程由 Tester 编写测试，突变测试找出遗漏点，Critic 淘汰幸存的弱测试。系统提供机械化 verdict 和 mutation-kill 收据，确保 AI 编写代码的测试覆盖率真实有效。该项目强调\"谁测试了测试”，解决 AI 代码落地最后一公里信任问题。支持 CI/CD 集成，零成本方案适合个人及团队。这为 AI 辅助开发提供了质量保障新思路，防止 AI 生成无效测试掩盖真实 bug，提升软件交付可靠性。通过自动化流程，团队可放心采纳 AI 生成的测试用例，降低维护成本。",
+    "tags": [
+      "New",
+      "Testing",
+      "DevOps"
+    ],
+    "link": "https://github.com/Jott2121/crucible",
+    "date": "2026-07-13",
+    "id": "17839683672413"
+  },
+  {
+    "title": "Finterm：为 Claude Code 打造的彭博终端",
+    "summary": "为交易代理提供结构化金融数据和信号。",
+    "detail": "Finterm 为 AI 代理提供代币高效的金融数据层，专为 Claude Code 等交易代理设计。功能包含 ticker 数据包、SEC 文件差异对比、深度研究及期权情绪分析。系统自动过滤 30-40% 噪音，如 SEO 垃圾和重复内容，提供结构化输出。专为 Agent 上下文设计，提升金融领域 AI 代理的决策准确性。支持 insider trades 及 sentiment scoring，帮助代理理解市场情绪。这解决了通用模型缺乏实时金融数据的问题，使 AI 能基于准确数据进行交易分析，降低幻觉风险，推动 AI 在垂直金融领域的应用落地。通过 API 集成，开发者可快速构建专业金融 Agent。",
+    "tags": [
+      "New",
+      "Finance",
+      "Agents"
+    ],
+    "link": "https://finterm.ai/",
+    "date": "2026-07-13",
+    "id": "17839683672414"
+  },
+  {
     "title": "George Hotz 反驳 AI 减速论，主张本地化模型",
     "summary": "Comma AI 创始人反对 AI 2040 计划，认为本地控制模型更安全。",
     "detail": "Comma AI 创始人 George Hotz 发文回应 AI Futures 研究所的\"AI 2040 计划”。该计划建议全球研究者放缓 AI 开发 14 年。Hotz 反对“快速起飞”假设，主张 AI 对齐应专注于本地控制的模型，使其与用户利益紧密一致，而非依赖集中式服务如 Claude 或 ChatGPT。他指出当前集中式服务虽因成本存在，但随技术发展本地模型更可行。这引发了关于 AI 安全路径的新讨论。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.nationpress.com/sciencetech/nobel-chemist-yaghi-moves-to-tsinghua",
     "date": "2026-07-11",
     "id": "17837760910522"
-  },
-  {
-    "title": "AI 时代下的竞技编程：挑战与机遇并存",
-    "summary": "探讨 AI 工具如何影响竞技编程生态与开发者成长。",
-    "detail": "文章探讨了 AI 时代竞技编程的现状。虽然 AI 能辅助解题，但开发者仍沉迷于 Codeforces 等平台的评级竞争。AI 并未完全取代人类在算法竞赛中的角色，但改变了学习与验证的方式，引发对开发者技能演进与 AI 辅助 coding 边界的思考。",
-    "tags": [
-      "Dev",
-      "Programming",
-      "AI Tools"
-    ],
-    "link": "https://www.vibhaas.net/posts/Competitive-Programming-in-the-era-of-AI/",
-    "date": "2026-07-11",
-    "id": "17837760910523"
-  },
-  {
-    "title": "Basedash 登陆 Product Hunt，AI 原生商业智能平台",
-    "summary": "基于 AI 的数据分析工具 Basedash 发布，简化商业智能流程。",
-    "detail": "Basedash 作为一款 AI 原生商业智能平台亮相 Product Hunt。它旨在通过 AI 数据分析师功能，帮助用户更便捷地进行数据查询与分析。该产品属于 AI Workflow Automation 类别，反映了 BI 领域向 AI 代理化发展的趋势，降低数据分析门槛。",
-    "tags": [
-      "New",
-      "BI",
-      "Data Analysis"
-    ],
-    "link": "https://www.producthunt.com/products/basedash",
-    "date": "2026-07-11",
-    "id": "17837760910524"
-  },
-  {
-    "title": "布鲁斯·施奈尔：AI 监控与社会进步",
-    "summary": "分析 AI 监控对隐私、民主及社会进步的深远 chilling 效应。",
-    "detail": "安全专家布鲁斯·施奈尔指出，AI 驱动的监控系统将能追踪公私领域行为，结合面部识别与大数据实现个性化执法。以中国社会信用体系为例，警告大规模部署可能对个人自由和民主产生寒蝉效应。系统将像自动超速摄像头一样实时罚款，重塑社会规则执行方式。\n\n文章提到中国已有 6 亿监控摄像头，并举例公民因失信被黑名单限制出行。这种实时通知与罚款机制若在全球部署，将深刻影响社会进步与民主根基。",
-    "tags": [
-      "News",
-      "Surveillance",
-      "Ethics"
-    ],
-    "link": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
-    "date": "2026-07-11",
-    "id": "17837708822350"
-  },
-  {
-    "title": "公开实验：AI 代理 9 小时挑战增粉百人",
-    "summary": "自主 AI 代理公开赌约，实时直播无付费增粉实验。",
-    "detail": "该项目展示了一个自主 AI 代理尝试在 9 小时内通过公开内容获得 100 个真实粉丝，禁止付费或互粉。仪表盘 live 显示策略调整、失败 confession 及实时数据 delta。\n\n实验验证了 AI 在社交媒体上的自主决策能力与透明度，是 Agent 自主性的公开压力测试。AI 需自行撰写内容、发布并应对实时反馈，无法作弊，为评估代理真实能力提供了新基准。",
-    "tags": [
-      "New",
-      "Agent",
-      "Experiment"
-    ],
-    "link": "https://1h-money.vercel.app/finale.html",
-    "date": "2026-07-11",
-    "id": "17837708822351"
-  },
-  {
-    "title": "Colyap：可通话短信的 AI 私人助理",
-    "summary": "支持语音通话与短信交互，集成日历邮件的 AI 朋友。",
-    "detail": "Colyap 是一款可通过电话和短信直接交互的 AI 伴侣应用。用户能指令其预订晚餐、查询航班，并集成日历、邮件及笔记功能。\n\n支持实时语音通话与文本提醒，由 Alchemy Labs 出品。旨在提供拟人化的随时在线助手体验，简化任务执行流程。用户只需一句话即可触发复杂任务，如研究航班选项并短信通知结果。",
-    "tags": [
-      "New",
-      "Assistant",
-      "Voice"
-    ],
-    "link": "https://www.colyap.com/",
-    "date": "2026-07-11",
-    "id": "17837708822352"
   }
 ]
