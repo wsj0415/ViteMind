@@ -1,5 +1,44 @@
 [
   {
+    "title": "MIT 研发新法检测 AI 模型是否训练于非法图像",
+    "summary": "无需生成图像即可 100% 准确识别 CSAM 训练模型。",
+    "detail": "MIT 研究人员开发出新审计方法，通过检查模型内部适配而非输出，即可判断是否针对儿童虐待材料进行过微调。准确率 100%，解决了法律与伦理障碍，为平台安全审查提供新工具。该技术由 Vinith Suriyakumar 团队领导，与 Thorn 合作完成，已在 ICML 发表。面对 2025 年 AI 生成非法图像报告激增至 150 万份的现状，该方法为托管开源模型的平台及执法部门提供了关键检测手段，填补了以往无法测量模型潜在危害的空白，显著提升 AI 安全治理能力。",
+    "tags": [
+      "News",
+      "Safety",
+      "Research"
+    ],
+    "link": "https://insideai.news/news/ai-safety/mits-new-method-flags-ai-models-trained-on-child-abuse-imagery-without-generating-it/3869/",
+    "date": "2026-07-13",
+    "id": "17839799730161"
+  },
+  {
+    "title": "Meta 新款 AI 眼镜被指相机指示灯可被绕过",
+    "summary": "下一代眼镜激活相机时可能不亮指示灯，引发隐私担忧。",
+    "detail": "报道称 Meta 下一代 AI 眼镜在启用 AI 功能激活相机时，可能不会点亮隐私指示灯。尽管 Meta 曾打击篡改指示灯行为，此举仍引发隐私倡导者对隐蔽拍摄的严重担忧。Meta 表示指示灯用于内容捕获通知，但新功能可能例外。这引发了关于公共场合隐私权的激烈讨论，可能导致监管审查加剧。隐私组织指出，若相机可在无视觉提示下激活，将极大增加滥用风险，建议用户在 Meta 澄清前谨慎对待新款设备。",
+    "tags": [
+      "News",
+      "Privacy",
+      "Hardware"
+    ],
+    "link": "https://www.privacyguides.org/news/2026/07/13/the-next-version-of-metas-ai-glasses-will-activate-the-camera-without-the-camera-indicator-light/",
+    "date": "2026-07-13",
+    "id": "17839799730162"
+  },
+  {
+    "title": "AI 落地案例库更新：涵盖金融、国防等 150+ 部署",
+    "summary": "收录 Allianz、NATO、JPMorgan 等真实 AI 部署案例及结果。",
+    "detail": "最新 AI 用例库收录 159 个真实部署案例。Allianz 计划裁员 1500+ 自动化客服，JPMorgan 部署 SambaNova 系统，北约及美军使用自主无人平台。揭示 AI 在降本增效与国防领域的实际进展。Mews 酒店软件公司裁员 15% 因 AI 提升效率，乌克兰军队部署 100+ 无人车。这些数据直观展示了 AI 对劳动力结构的影响及在关键任务中的可靠性，为行业观察者提供了宝贵的基准参考，表明 AI 正从实验走向核心业务流。",
+    "tags": [
+      "News",
+      "Industry",
+      "Adoption"
+    ],
+    "link": "https://aiweekly.co/ai-use-cases",
+    "date": "2026-07-13",
+    "id": "17839799730163"
+  },
+  {
     "title": "PlanWright：AI 编码代理控制平面",
     "summary": "解决 AI 编码规划与验收瓶颈，提升流水线速度。",
     "detail": "PlanWright 旨在解决 AI 编码代理中的规划与验收瓶颈，这是当前限制速度的关键。它通过将混乱的输入（如会议记录、邮件、Slack）转化为结构化目标，并自动化验收流程，使开发流水线匹配代理速度。支持 Claude Desktop 与 MCP 集成，允许用户仅对需要判断的内容进行裁决。该工具 inverted 了传统仪式，让规划与验收以代理速度运行，适合希望最大化 AI 代理效率的开发团队，解决 Amdahl 定律中的非自动化约束。它强调只有规划与验收加速，才能真正释放 Agent 的潜力，避免速度死在 PR 阅读环节。",
@@ -1259,44 +1298,5 @@
     "link": "https://taoofmac.com/space/blog/2026/07/11/1500",
     "date": "2026-07-11",
     "id": "17837855479240"
-  },
-  {
-    "title": "AI 编码代理懂代码不懂团队语境",
-    "summary": "文章指出 AI 代理能读懂代码，但缺乏团队隐性知识。",
-    "detail": "文章深入分析了 AI 编码代理的局限性：能优化代码结构，却常移除基于团队历史经验的“隐性知识”（如特定 workaround）。强调了工程组织中显性代码与隐性语境的双重层级。建议开发者在使用 AI 时需补充团队背景信息，以避免破坏现有架构 invariant。代码本身正确但缺失上下文是主要失败模式。这提示团队需建立更好的知识文档化机制，或将隐性知识显性化，以便 AI 代理能真正理解团队意图而非仅优化语法。随着 AI 编码普及，如何管理隐性知识将成为工程效率的关键瓶颈，需引起技术管理者重视。",
-    "tags": [
-      "News",
-      "Coding",
-      "LLM"
-    ],
-    "link": "https://medium.com/@iamalizaidi110/https-www-youtube-com-watch-v-gdtyotlrndm-a00eb6f014ca",
-    "date": "2026-07-11",
-    "id": "17837855479241"
-  },
-  {
-    "title": "Agent World 个人 AI 代理开放标准与市场",
-    "summary": "Show HN 项目，旨在建立个人 AI 代理的开放标准与交易市场。",
-    "detail": "该项目提出了一个用于个人 AI 代理的开放标准，并构建了一个实时市场。目标是解决代理间的互操作性问题，允许用户在不同平台间自由交换和使用 AI 代理。这对于推动 AI 代理生态的标准化与商业化具有里程碑意义，值得关注其后续发展。开放标准有助于打破平台壁垒，促进个人代理经济的形成。开发者可参与贡献协议，共同定义未来代理交互规范，降低集成成本。若该标准被广泛采纳，将极大加速 AI 代理在个人生产力场景的落地，形成类似 App Store 的代理分发生态。",
-    "tags": [
-      "New",
-      "Agents",
-      "Standard"
-    ],
-    "link": "https://github.com/macrokit/agent-world",
-    "date": "2026-07-11",
-    "id": "17837855479242"
-  },
-  {
-    "title": "AI 代理架构教育实验室开源项目",
-    "summary": "GitHub 开源项目，提供 AI 代理架构的教育实验环境。",
-    "detail": "该项目旨在为开发者提供一个沙盒环境，用于学习和实验不同的 AI Agent 架构。通过开源代码库，研究人员和工程师可以测试代理间的交互逻辑与性能表现。这对于理解多代理系统协作及架构设计具有重要教育意义，适合希望深入 Agent 开发的技术人员。在当前 Agent 技术快速发展的背景下，此类教育实验室有助于降低学习门槛，促进架构模式的标准化与最佳实践的传播，推动社区协作。对于希望构建复杂多代理系统的企业，此类开源参考实现可减少重复造轮子的成本。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Agents"
-    ],
-    "link": "https://github.com/Rudnik-Ilia/Agents-Sandbox",
-    "date": "2026-07-11",
-    "id": "17837855479243"
   }
 ]
