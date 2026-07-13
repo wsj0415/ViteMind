@@ -1,5 +1,57 @@
 [
   {
+    "title": "George Hotz 反驳 AI 减速论，主张本地化模型",
+    "summary": "Comma AI 创始人反对 AI 2040 计划，认为本地控制模型更安全。",
+    "detail": "Comma AI 创始人 George Hotz 发文回应 AI Futures 研究所的\"AI 2040 计划”。该计划建议全球研究者放缓 AI 开发 14 年。Hotz 反对“快速起飞”假设，主张 AI 对齐应专注于本地控制的模型，使其与用户利益紧密一致，而非依赖集中式服务如 Claude 或 ChatGPT。他指出当前集中式服务虽因成本存在，但随技术发展本地模型更可行。这引发了关于 AI 安全路径的新讨论。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Policy"
+    ],
+    "link": "https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/",
+    "date": "2026-07-13",
+    "id": "17839605546560"
+  },
+  {
+    "title": "AI 幻觉漏洞报告泛滥，加剧攻防不对称风险",
+    "summary": "开发者 inundated 于 AI 生成的虚假漏洞报告，真实风险被低估。",
+    "detail": "尽管 90% 的 AI 发现漏洞可能是幻觉，但安全风险依然严峻。AI 将漏洞挖掘从昂贵过程变为分类过程，降低了攻击者门槛。防御者资源被虚假报告稀释，而攻击者只需专注寻找真实漏洞。这种不对称性在浏览器等复杂系统中尤为危险，可能导致 JIT 编译器 bug 等严重问题被利用。作者表示这种攻防资源不对等令人冷汗直流，需警惕 AI 辅助攻击。",
+    "tags": [
+      "Dev",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://kerkour.com/ai-slop-vulnerabilities-terrifying",
+    "date": "2026-07-13",
+    "id": "17839605546561"
+  },
+  {
+    "title": "Google Gemini SynthID 检测器出现严重一致性 Bug",
+    "summary": "Gemini 在同一会话中对相同文件的水印检测结果前后矛盾。",
+    "detail": "Lead Stories 发现 Google Gemini 的 SynthID AI 水印检测器存在缺陷。在同一聊天会话中，上传相同视频文件，检测结果是 AI 生成还是非 AI 生成会出现前后矛盾。测试显示 Gemini 似乎总是返回会话中第一个上传文件的结果，即使重复提问新文件。此 Bug 导致假阳性与假阴性，影响内容真实性验证，Google 尚未正式回应。",
+    "tags": [
+      "News",
+      "Google",
+      "Product"
+    ],
+    "link": "https://leadstories.com/analysis/2026/07/google-gemini-synthid-detector-confuses-results-within-same-chat.html",
+    "date": "2026-07-13",
+    "id": "17839605546562"
+  },
+  {
+    "title": "多位诺奖得主及 AI 领袖联名呼吁关注 AI 经济转型",
+    "summary": "包括 Eric Schmidt 在内的众多学者签署声明，要求立即行动应对 AI 经济影响。",
+    "detail": "网站\"We Must Act Now\"发布声明，列举了包括 Eric Schmidt (Google 前 CEO)、Jeff Dean (Google)、Yoshua Bengio 等多位顶尖经济学家及 AI 领袖。签名者来自 Stanford, MIT, OpenAI 等机构。他们强调 AI 正在转型经济，需要立即采取行动。签名阵容横跨学术界与产业界，显示主流观点对 AI 经济冲击的高度共识与紧迫感，呼吁政策制定者关注。",
+    "tags": [
+      "News",
+      "Economy",
+      "Policy"
+    ],
+    "link": "https://www.wemustactnow.ai",
+    "date": "2026-07-13",
+    "id": "17839605546563"
+  },
+  {
     "title": "世行博客：新兴市场本地化 AI 创业是缩小鸿沟的关键",
     "summary": "世行博客探讨新兴市场 AI 创业，本地化方案潜力巨大。",
     "detail": "世界银行博客深入探讨了新兴市场 AI 创业蓝图。以尼日利亚医院为例，初创企业开发离线语音工具结构化临床笔记，为医生节省时间。指出全球 AI 受益不均，低收入国家使用率不足 1%。问题在于生态而非仅 connectivity，多数工具依赖发达地区基础设施。机会在于本地企业家针对特定环境（如电力不稳定）开发模型，解决医疗、农业等集中于此的问题。这种“小 AI，大赌注”模式不依赖波士顿或柏林的工具适配，而是基于当地语言与条件构建，结果吸引了投资并具有可持续增长路径，是缩小全球 AI 鸿沟的关键。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.colyap.com/",
     "date": "2026-07-11",
     "id": "17837708822352"
-  },
-  {
-    "title": "开源工具：免费 AI 代理安全审计扫描器",
-    "summary": "Sinewave AI 开源 MCP 项目，免费扫描代理安全漏洞。",
-    "detail": "Sinewave AI 在 GitHub 发布了代理安全扫描器 MCP 项目，提供免费 AI Agent 安全审计。帮助开发者在部署前识别自主代理的潜在漏洞与风险。\n\n适用于需要确保 AI 代理行为安全性的开发团队，增强社区协作与风险控制能力，开源代码可供审查与贡献。该项目针对日益复杂的 Agent 架构，提供基础安全防线。",
-    "tags": [
-      "Dev",
-      "Security",
-      "OpenSource"
-    ],
-    "link": "https://github.com/sinewaveai/agent-security-scanner-mcp",
-    "date": "2026-07-11",
-    "id": "17837708822353"
-  },
-  {
-    "title": "Pixailer：AI 实时生成逼真远程合影",
-    "summary": "上传照片描述场景，多引擎驱动生成群体合影。",
-    "detail": "Pixailer 允许用户上传个人照片，通过文本描述场景（如海滩、办公室），利用 Google 或 OpenAI 引擎生成逼真的群体合影。\n\n解决远程团队或朋友无法同框的痛点，支持实时生成与分享。适用于家庭、团队及创作者，快速创建集体记忆，提供多种 AI 模型选择。用户可指定表情与姿势，实现从构思到成品的快速转化。",
-    "tags": [
-      "New",
-      "ImageGen",
-      "Product"
-    ],
-    "link": "https://pixailer.com",
-    "date": "2026-07-11",
-    "id": "17837708822354"
-  },
-  {
-    "title": "AgentKindergarten：AI 编程代理的远程监控工具",
-    "summary": "开源工具可将本地 AI 代理会话流式传输至手机，实现远程监控与交互。",
-    "detail": "这是一个专为 AI 开发者设计的开源工具，允许将本地运行的 AI 编程代理（如 Claude Code）会话及开发服务器流式传输至任何浏览器或手机。通过自托管中继，开发者可在离开电脑时继续监控代理工作进度，甚至远程提交代码。它解决了 AI 辅助开发中“离线即停工”的痛点，提升了异步开发效率，适合重度依赖 AI 代理的编程团队。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Agent"
-    ],
-    "link": "https://github.com/rokrak1/agentkindergarten",
-    "date": "2026-07-11",
-    "id": "17837650548012"
-  },
-  {
-    "title": "Pixailer：实时生成逼真 AI 合影的新应用",
-    "summary": "支持上传多人照片并描述场景，实时生成逼真团体合影的 AI 工具。",
-    "detail": "Pixailer 是一款面向消费者的人工智能图像生成应用，主打“实时创建逼真团体照”。用户只需上传个人照片并描述场景（如“巴厘岛海滩”），即可选择 Google 或 OpenAI 引擎生成高质量合影。该工具解决了远程团队或分散亲友难以拍摄合照的痛点，展示了多模态 AI 在消费级影像领域的落地能力，适合社交媒体分享及团队品牌建设。",
-    "tags": [
-      "New",
-      "ImageGen",
-      "Consumer"
-    ],
-    "link": "https://pixailer.com/",
-    "date": "2026-07-11",
-    "id": "17837650548013"
   }
 ]
