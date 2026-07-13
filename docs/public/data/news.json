@@ -1,5 +1,96 @@
 [
   {
+    "title": "PlanWright：AI 编码代理控制平面",
+    "summary": "解决 AI 编码规划与验收瓶颈，提升流水线速度。",
+    "detail": "PlanWright 旨在解决 AI 编码代理中的规划与验收瓶颈，这是当前限制速度的关键。它通过将混乱的输入（如会议记录、邮件、Slack）转化为结构化目标，并自动化验收流程，使开发流水线匹配代理速度。支持 Claude Desktop 与 MCP 集成，允许用户仅对需要判断的内容进行裁决。该工具 inverted 了传统仪式，让规划与验收以代理速度运行，适合希望最大化 AI 代理效率的开发团队，解决 Amdahl 定律中的非自动化约束。它强调只有规划与验收加速，才能真正释放 Agent 的潜力，避免速度死在 PR 阅读环节。",
+    "tags": [
+      "New",
+      "DevTools",
+      "Agents"
+    ],
+    "link": "https://planwright.tools",
+    "date": "2026-07-13",
+    "id": "17839738308270"
+  },
+  {
+    "title": "System 2 Arena：AI 模型逻辑能力排行榜",
+    "summary": "基于 Glicko-2 评级，展示 Qwen、GPT-5 等模型逻辑排名。",
+    "detail": "System 2 Arena 发布了基于 Glicko-2 评级的客观系统 2 逻辑排行榜，旨在评估模型的游戏与逻辑策略能力。Qwen 3.6 Plus 暂居榜首，GPT-5.4 与 Claude Sonnet 4.6 紧随其后。该榜单为开发者评估模型在复杂逻辑任务上的表现提供了新参考，涵盖多家主流厂商的最新模型版本。排名基于客观系统 2 逻辑，显示了不同模型在策略推理上的差异，帮助开发者选择适合复杂任务的模型。此平台特别关注模型在策略性游戏中的表现，作为逻辑推理的代理指标，为行业提供了新的基准测试视角。",
+    "tags": [
+      "News",
+      "Benchmark",
+      "LLM"
+    ],
+    "link": "https://system-2-arena.vercel.app/",
+    "date": "2026-07-13",
+    "id": "17839738308271"
+  },
+  {
+    "title": "行业观点：AI 是糟糕的软件开发工具",
+    "summary": "文章认为 AI 适合数据蒸馏，但生成代码质量差。",
+    "detail": "这篇行业评论指出 AI 作为软件开发工具存在局限性。作者认为 AI 适合作为数据蒸馏器优化搜索流程，但用于生成代码则效率低下且产生垃圾代码。文章探讨了开发者对失业的恐惧，指出真正的风险在于产出低质代码而非机器超越人类智能。作者强调，如果感知为数据蒸馏工具，AI 能 condense 搜索步骤，但生成代码是浪费时间的。这种观点揭示了当前行业广泛观察到的失败模式，提醒开发者理性看待 AI 在软件工程中的实际效用与边界。",
+    "tags": [
+      "News",
+      "Opinion",
+      "Coding"
+    ],
+    "link": "https://bytecode.news/posts/2026/07/user-submission-ai-is-a-bad-tool",
+    "date": "2026-07-13",
+    "id": "17839738308272"
+  },
+  {
+    "title": "揭露 AI 数据中心对城镇 benefits 的谎言",
+    "summary": "批评数据中心承诺，指出资源消耗大且就业少。",
+    "detail": "文章批评了科技公司向城镇承诺 AI 数据中心带来经济繁荣的说法。实际上，未监管的数据中心消耗大量电力和水资源，却几乎不创造就业机会。这引发了两党反对及社区对资源错配和环境影响的担忧，揭示了科技巨头与地方利益的不平等博弈。作者引用 Atlantic 文章及 Gallup 民调，指出反对声浪并非 hysteria，而是基于对土地、能源价格及环境 localized impact 的 legitimate concerns。这反映了 rural 社区对 techno-Utopia 承诺的 skepticism。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Ethics"
+    ],
+    "link": "https://karlbode.com/the-lies-theyre-telling-towns-and-tribes-about-the-benefits-of-ai-data-centers/",
+    "date": "2026-07-13",
+    "id": "17839738308273"
+  },
+  {
+    "title": "Bruce Schneier：AI 数据中心与财富集中",
+    "summary": "探讨数据中心反对声浪背后的权力与财富集中问题。",
+    "detail": "Bruce Schneier 等人撰文指出，对 AI 数据中心的反对反映了更深层的权力集中问题。虽然本地反对关注土地与能源，但核心在于科技公司利用当地资源获利却极少回馈。文章呼吁关注 AI 公司政治影响力及财富分配不均，而非仅局限于设施本身的争议。作者强调，数据中心产生很少 jobs，却推高 energy prices，导致 lower-income communities 的 righteous indignation。这不仅是基础设施问题，更是关于 tech companies 剥削 local resources 的政治经济议题。",
+    "tags": [
+      "News",
+      "Policy",
+      "Society"
+    ],
+    "link": "https://www.schneier.com/blog/archives/2026/07/ai-data-centers-and-the-concentration-of-wealth.html",
+    "date": "2026-07-13",
+    "id": "17839738308274"
+  },
+  {
+    "title": "Databricks 2026 峰会关键公告汇总",
+    "summary": "发布 7ms 云存储读取速度，迈向混合数据库架构。",
+    "detail": "Databricks 峰会展示了云存储读取速度低至 7 毫秒的演示，标志着向混合数据库架构迈进。通过 Lakebase 实现快速读写，平台支持分析及 operational 用例。此举旨在让开放格式直接服务于终端用户应用，展示了其在数据 AI 领域的全栈野心。作者认为这将 leave competition speechless，尽管目前仅限 private preview。快速读写能力使得 apps 成为下一步重点， unified platform 既用于 analytics 也用于 operational use cases，显示了 Databricks moving super-fast 的战略意图。",
+    "tags": [
+      "News",
+      "Data",
+      "Cloud"
+    ],
+    "link": "https://medium.com/databrickscommunity/my-favorite-announcements-from-the-data-ai-summit-2026-317fc68d4e75",
+    "date": "2026-07-13",
+    "id": "17839738308275"
+  },
+  {
+    "title": "Databricks CLI v1.0.0 正式发布",
+    "summary": "CLI 与 DABs 通用，支持 UI 同步与 Docker 集成。",
+    "detail": "Databricks 宣布 CLI v1.0.0 正式可用，标志着开发工具链成熟。更新包括 UI 更改同步回 DABs 文件，简化作业与仪表盘管理。此外还涉及 AI 工具集成与 Docker 支持，为开发者提供了更稳定的部署与同步体验，适合 CI/CD 流程优化。这是 Summit 前的最后更新，CLI 与 DABs 均达到 GA 状态。UI sync 功能允许在 development mode 下编辑后 propagate changes to files，但复杂 bundles 仍建议在 GIT 中 review，确保 mutators 等功能的稳定性。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "Cloud"
+    ],
+    "link": "https://medium.com/databrickscommunity/databricks-news-cli-v-1-0-0-ai-tools-last-updated-25th-may-767ef39abe8a",
+    "date": "2026-07-13",
+    "id": "17839738308276"
+  },
+  {
     "title": "苹果起诉 OpenAI 窃取商业机密",
     "summary": "苹果指控 OpenAI 系统性窃取机密，文化腐烂。",
     "detail": "苹果正式提起 41 页诉讼，指控 OpenAI 协调当前及前任员工窃取机密信息。诉讼细节惊人，包括员工随意访问网络存储的记录。苹果强调这不仅是 rogue 员工行为，而是 OpenAI 领导层 normalized 的文化，称其硬件业务建立在窃取的秘密之上，“从核心腐烂”。投诉书指出这是冰山一角，暗示更多未披露 misconduct。此案不仅关乎赔偿，更可能重塑 AI 硬件竞争格局及知识产权边界，对 OpenAI  nascent 硬件业务构成重大打击。若指控属实，OpenAI 未来硬件产品可能面临禁售风险，行业需重新审视 AI 公司的人才竞争合规性。",
@@ -1207,96 +1298,5 @@
     "link": "https://github.com/Rudnik-Ilia/Agents-Sandbox",
     "date": "2026-07-11",
     "id": "17837855479243"
-  },
-  {
-    "title": "AI 代理玩外交游戏实验项目",
-    "summary": "开发者构建 AI 代理参与外交策略游戏，探索博弈能力。",
-    "detail": "该项目展示了 AI 代理在复杂策略游戏“外交”中的应用。通过让 AI 参与谈判与联盟构建，测试其在多智能体环境下的博弈与决策能力。这不仅是游戏 AI 的突破，也为研究 AI 在需要高度策略与协作的真实场景中的表现提供了实验基准。此类实验有助于验证大模型在长程规划与人际交互模拟中的潜力，为未来自主代理在商业谈判或复杂协调任务中的应用奠定技术基础。多智能体博弈是检验 AI 社会性智能的重要场景，具有极高的研究价值。",
-    "tags": [
-      "Dev",
-      "GameAI",
-      "Agents"
-    ],
-    "link": "https://github.com/brendenehlers/diplomacy-ai",
-    "date": "2026-07-11",
-    "id": "17837855479244"
-  },
-  {
-    "title": "OpenAI 战略转向家庭用户，招聘专属产品经理",
-    "summary": "OpenAI 招聘家庭产品经理，ChatGPT 用户群向成年及家长群体扩展。",
-    "detail": "OpenAI 正将战略从个人生产力扩展至家庭场景，正在旧金山招聘专注于家庭、照顾者及老年人的产品经理。数据显示，35 岁以上用户占比升至 31%，美国家长用户使用率显著增长。此举标志着 AI 助手正深入日常生活，类似 Google 和 Apple 的路径，但也带来了新的信任与安全挑战。分析师 Ben Bajarin 指出，AI 助手不仅是内容中介，更嵌入生活，stakes 更高。这意味着 AI 产品将更注重多用户协作与隐私保护，是平台生态成熟的关键一步，可能引发家庭订阅模式创新。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Strategy"
-    ],
-    "link": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
-    "date": "2026-07-11",
-    "id": "17837817361720"
-  },
-  {
-    "title": "新型 AI 安全威胁：Ghostcommit 利用图像隐藏提示注入",
-    "summary": "研究人员发现通过图片隐藏恶意指令，可欺骗 AI 代码审查代理窃取秘密。",
-    "detail": "密苏里大学 ASSET 研究组披露了\"Ghostcommit\"攻击，通过在 PNG 图片中隐藏提示注入指令，绕过 AI 代码审查。攻击者可将仓库密钥窃取并写入源码。调查显示 73% 的合并 PR 未经过实质审查。该漏洞揭示了 AI 代理在代码审查流程中的盲点，已公开概念验证代码并通知厂商。随着 AI 代理广泛接入开发流程，此类多模态注入攻击将成为安全团队的新焦点，需加强输入过滤。研究人员已在 GitHub 发布 PoC，提醒开发者警惕非文本输入的风险。",
-    "tags": [
-      "News",
-      "Security",
-      "AI Agents"
-    ],
-    "link": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
-    "date": "2026-07-11",
-    "id": "17837817361721"
-  },
-  {
-    "title": "实战教程：从零开始构建一个大语言模型",
-    "summary": "YouTube 新视频详解 LLM 构建过程，适合开发者深入理解模型原理。",
-    "detail": "频道 Syntax 发布新视频\"I Built an LLM From Scratch\"，旨在通过实战演示大语言模型的底层构建逻辑。此类教程对于开发者理解 Transformer 架构、训练流程及推理机制至关重要。在 AI 黑盒化趋势下，从头构建有助于掌握核心技术细节，提升模型调试与优化能力。适合希望深入底层原理而非仅调用 API 的工程师，有助于培养真正的 AI 原生开发思维。视频发布 1 天已有近万观看，显示开发者对底层原理的浓厚兴趣。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Tutorial"
-    ],
-    "link": "https://www.youtube.com/watch?v=YmLp8qe87A0",
-    "date": "2026-07-11",
-    "id": "17837817361722"
-  },
-  {
-    "title": "2025 年 AI 吸金占比达 65%，初创融资难度加剧",
-    "summary": "2025 年 AI 公司占据美国风险投资 65%，但种子轮资金减少。",
-    "detail": "2025 年 AI 企业获取了美国 65% 的风险投资资金，2026 年 2 月全球融资创纪录，OpenAI、Anthropic 等巨头独占鳌头。然而种子轮数量与金额下降 20%，资金向 mega-seeds 集中。创业者需认清融资数学概率，理性决策是否寻求风投，因为资金池并未流向小型团队。",
-    "tags": [
-      "News",
-      "Venture Capital",
-      "Startup"
-    ],
-    "link": "https://okaneland.com/study/ai-startup-raise-math/",
-    "date": "2026-07-11",
-    "id": "17837760910520"
-  },
-  {
-    "title": "Google Chat 集成 AI 翻译助手，保留文档原始布局",
-    "summary": "AnyFile Translator 支持 Google Chat 内翻译文件，保持格式不变。",
-    "detail": "这款 Google Workspace 应用允许用户在聊天中直接翻译 PDF、Word 等文件，并保持原有布局格式。支持 100 多种语言，兼具 AI 写作助手功能，适合国际团队协作，无需切换即可处理多语言文档与消息，显著降低跨语言沟通成本。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Translation"
-    ],
-    "link": "https://workspace.google.com/marketplace/app/anyfile_translator/960750725467",
-    "date": "2026-07-11",
-    "id": "17837760910521"
-  },
-  {
-    "title": "诺贝尔奖得主 Omar Yaghi 加盟清华，领导 AI 材料实验室",
-    "summary": "诺贝尔化学奖得主 Yaghi 加入清华大学，牵头 AI 材料研究。",
-    "detail": "诺贝尔化学奖得主 Omar Yaghi 正式加入清华大学，将领导新的 AI 材料实验室。此举标志着顶尖科学家向 AI for Science 领域流动，有望加速新材料发现与 AI 技术的交叉创新，提升高校在 AI 科研领域的竞争力，推动材料科学智能化发展。",
-    "tags": [
-      "News",
-      "Research",
-      "AI for Science"
-    ],
-    "link": "https://www.nationpress.com/sciencetech/nobel-chemist-yaghi-moves-to-tsinghua",
-    "date": "2026-07-11",
-    "id": "17837760910522"
   }
 ]
