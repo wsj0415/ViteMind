@@ -1,5 +1,70 @@
 [
   {
+    "title": "世行博客：新兴市场本地化 AI 创业是缩小鸿沟的关键",
+    "summary": "世行博客探讨新兴市场 AI 创业，本地化方案潜力巨大。",
+    "detail": "世界银行博客深入探讨了新兴市场 AI 创业蓝图。以尼日利亚医院为例，初创企业开发离线语音工具结构化临床笔记，为医生节省时间。指出全球 AI 受益不均，低收入国家使用率不足 1%。问题在于生态而非仅 connectivity，多数工具依赖发达地区基础设施。机会在于本地企业家针对特定环境（如电力不稳定）开发模型，解决医疗、农业等集中于此的问题。这种“小 AI，大赌注”模式不依赖波士顿或柏林的工具适配，而是基于当地语言与条件构建，结果吸引了投资并具有可持续增长路径，是缩小全球 AI 鸿沟的关键。",
+    "tags": [
+      "News",
+      "Market",
+      "Healthcare"
+    ],
+    "link": "https://blogs.worldbank.org/en/voices/small-ai--big-bets--how-the-world-s-most-impactful-ai-startups-w",
+    "date": "2026-07-13",
+    "id": "17839491988670"
+  },
+  {
+    "title": "新型 SociaLLM 工程利用社会工程学操纵 AI 代理决策",
+    "summary": "安全文章定义 SociaLLM 工程，警示 AI 代理面临社会工程攻击。",
+    "detail": "文章定义了'SociaLLM 工程’，即利用社会工程学技术操纵 LLM 代理决策。随着公司用 AI 代理取代传统客服，这些 bot 拥有敏感信息访问权，风险剧增。不同于传统提示注入，它利用模型对社会语境的理解塑造行为，例如伪装权威。这可能导致类似钓鱼的攻击或未经授权的委托。随着 AI 代理权限扩大，此类安全风险将成为企业部署自主代理时的核心考量。企业需重新评估代理权限管理，防止“操纵性委托”。安全团队应关注此类新型攻击向量，将社会工程防御纳入 AI 安全框架，以保护后端系统免受自主代理被滥用带来的潜在威胁。",
+    "tags": [
+      "Dev",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://cephalosec.com/blog/sociallm-engineering-old-tricks-ai-agents-are-the-new-victims/",
+    "date": "2026-07-13",
+    "id": "17839491988671"
+  },
+  {
+    "title": "开源自我授权 AI 代理 Cairn 发布，低成本实现自主记忆",
+    "summary": "GitHub 项目 Cairn 展示自我授权代理，拥有身份与记忆。",
+    "detail": "GitHub 仓库展示了 Cairn，一个自我授权的 AI 代理。它拥有独立身份、记忆、日记和博客，均由代理自主编辑并公开提交。仅需 50 美元预算、邮箱及宪法即可运行。该项目展示了 Agent 自主性与持久化记忆的低成本实现方案，通过 commit-by-commit 的方式记录代理 evolution。这种“自我授权”概念允许代理在公共领域维护其存在，无需持续人工干预。通过版本控制记录代理的思考与行为，增加了透明度。这对于研究 AI 行为演化及长期记忆管理具有实验价值，未来此类代理可能应用于个人知识管理，实现真正的数字孪生自主运行。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://github.com/opitaru-sys/seed-agent",
+    "date": "2026-07-13",
+    "id": "17839491988672"
+  },
+  {
+    "title": "Hugging Face CEO 强调开源 AI 重要性，担忧巨头垄断",
+    "summary": "HF CEO 访谈指出开源 AI  booming，担忧少数公司控制生态。",
+    "detail": "Hugging Face CEO Clem Delangue 强调开源 AI 至关重要。公司已成为 AI 界的 GitHub，半数财富 500 强在使用。指出公司扩展后成本推动转向开源模型，担忧巨头垄断控制一切。中国实验室产出大量开源模型，应修复而非 distrust。HF 选择资本效率，拒绝 Nvidia 投资。机器人领域因涉及家庭隐私更需透明 AI。开源是防止少数公司控制生态的关键，开发者应关注开源模型以降低依赖。在 Anthropic 暂停 Fable 发布背景下，开源与闭源之争加剧。未来 AI 竞争不仅是模型性能，更是生态开放性与治理模式的竞争，开源将保障技术创新的民主化。",
+    "tags": [
+      "News",
+      "OpenSource",
+      "Industry"
+    ],
+    "link": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
+    "date": "2026-07-13",
+    "id": "17839491988673"
+  },
+  {
+    "title": "开源 Web AI 视频工作室 Vivijure 上线，支持模块化创作",
+    "summary": "HN 展示开源视频工作室 Vivijure，免费且支持本地渲染。",
+    "detail": "Hacker News 展示了 Vivijure，一个基于 AGPL-3.0 的开源 Web AI 视频工作室。支持模块化前端协作规划视频，生成角色图像及 LoRA 训练集。可本地渲染（LTX Video）或租用 serverless 工人（Wan 2.2），集成多种云 i2v 提供商。为创作者提供免费且可控的 AI 视频生成工作流。该项目强调“永远免费”与开源，解决了商业视频工具成本高且封闭的问题。通过支持本地铁器渲染，用户可保护隐私并节省云端费用。集成多种模型提供了灵活性，适应不同硬件条件。社区驱动的开发模式意味着功能迭代将更贴合用户需求，促进 AI 多媒体内容的民主化。",
+    "tags": [
+      "New",
+      "Video",
+      "OpenSource"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48891809",
+    "date": "2026-07-13",
+    "id": "17839491988674"
+  },
+  {
     "title": "Diff Forge AI：基于 Web 的代理开发环境",
     "summary": "推出原生指挥中心，支持多终端工作区与语音编排，实现代理编码全流程管理。",
     "detail": "Diff Forge AI 推出基于 Web 的代理开发环境，定位为代理编码的原生指挥中心。核心特性包括**多终端工作区**、**Loop Spaces 计划图工作流**及本地语音编排。支持 Codex、Claude Code 和 OpenCode 自动检测。工作流程涵盖从安装连接 CLI 到并行运行代理，用户可通过 Web 端 steering 整个系统而代码保留在本地机器。该工具解决了代理运行时集成瓶颈，提供设备同步、资产管理和 Token 计量，适合需要高效协作与可控代理管理的开发团队，实现从 setup 到 live agents 的单操作闭环。",
@@ -1233,70 +1298,5 @@
     "link": "https://pixailer.com/",
     "date": "2026-07-11",
     "id": "17837650548013"
-  },
-  {
-    "title": "Ghost Font：人类可读但 AI 难以识别的抗 AI 字体",
-    "summary": "通过动态视频噪声混淆视觉信息，防止 AI 模型抓取文本内容的实验性字体。",
-    "detail": "这是一个对抗 AI 抓取的创新实验项目。Ghost Font 利用运动、视频噪声和诱饵生成动态文本，人类肉眼可轻松阅读，但主流 AI 模型难以通过 OCR 或视觉识别 decipher 内容。即使截图也无法获取信息，因为静态帧下文字会融合消失。该项目探讨了在 AI 泛滥时代保护人类知识产权与隐私的新思路，适合关注数据安全的创作者。",
-    "tags": [
-      "New",
-      "Privacy",
-      "Security"
-    ],
-    "link": "https://www.mixfont.com/ghost-font",
-    "date": "2026-07-11",
-    "id": "17837650548014"
-  },
-  {
-    "title": "AI 工程化成熟度的八个阶段框架",
-    "summary": "为团队提供的 AI 工程成熟度评估框架，帮助规划 AI 落地路径。",
-    "detail": "文章提出了一个包含八个阶段的 AI 工程成熟度框架，旨在帮助团队评估和提升其 AI 开发能力。从初步实验到规模化部署，该框架涵盖了基础设施、模型管理及运维流程等关键维度。对于正在转型 AI 驱动的企业，此指南提供了清晰的路径参考，有助于避免常见陷阱，系统化构建可持续的 AI 工程体系，提升交付效率。",
-    "tags": [
-      "Dev",
-      "Engineering",
-      "Framework"
-    ],
-    "link": "https://upsun.com/blog/8-stages-ai-engineering-maturity/",
-    "date": "2026-07-11",
-    "id": "17837650548015"
-  },
-  {
-    "title": "Eliezer Yudkowsky 探讨超级智能风险",
-    "summary": "TED 演讲探讨超级智能 AI 是否会终结世界。",
-    "detail": "AI 安全先驱 Eliezer Yudkowsky 在 TED 发表演讲，深入探讨超级智能 AI 带来的存在性风险。他强调对齐问题的重要性，指出若无法确保 AI 目标与人类一致，可能导致灾难性后果。此演讲引发行业对 AI 安全监管及技术对齐的再次关注，为政策制定者提供参考。随着模型能力增强，安全研究已成为不可忽视的核心议题，呼吁全球协作应对潜在威胁，确保技术发展不偏离人类利益轨道。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "TED"
-    ],
-    "link": "https://www.ted.com/talks/eliezer_yudkowsky_will_superintelligent_ai_end_the_world",
-    "date": "2026-07-11",
-    "id": "17837598023170"
-  },
-  {
-    "title": "AI 压缩初创企业生命周期",
-    "summary": "分析指出 AI 不仅加速开发，更压缩整个创业周期。",
-    "detail": "文章提出 AI 原生市场正在消除“僵尸初创企业”。小团队可在数周内构建可信产品，市场反馈即时。这意味着创业生命周期被大幅压缩，失败或成功更快显现。创始人需适应快速迭代节奏，传统多年的磨合期可能不再存在。分布渠道多样化使得产品能迅速触达用户，验证成本降低。这种变化要求投资者和创始人重新评估估值模型与成长预期，适应更快的市场淘汰率。",
-    "tags": [
-      "News",
-      "Startup",
-      "Strategy"
-    ],
-    "link": "https://www.alexdelivet.com/insights/the-end-of-zombie-startup-land",
-    "date": "2026-07-11",
-    "id": "17837598023172"
-  },
-  {
-    "title": "研究：小脑机制助 AI 提升计算效率",
-    "summary": "西北大学研究揭示小脑机制帮助 AI 忽略普通信息。",
-    "detail": "西北大学最新研究表明，模仿人类小脑功能可帮助 AI 系统忽略 ordinary 信息，专注于关键数据。这一生物启发式架构有望显著提升计算效率，减少冗余处理。该发现为下一代高效能 AI 芯片及算法设计提供了新的神经科学依据。通过过滤无关噪声，模型能在资源受限环境下运行更复杂任务，为边缘计算和移动端 AI 应用开辟新路径，降低能耗并提升响应速度。",
-    "tags": [
-      "News",
-      "Research",
-      "Efficiency"
-    ],
-    "link": "https://www.mccormick.northwestern.edu/news/articles/2026/07/ai-gets-a-cerebellum/",
-    "date": "2026-07-11",
-    "id": "17837598023173"
   }
 ]
