@@ -1,5 +1,70 @@
 [
   {
+    "title": "Anthropic 投资 1000 万加元支持加拿大 AI 研究",
+    "summary": "Anthropic 宣布资助加拿大三大 AI 研究所，推动负责任 AI 发展。",
+    "detail": "Anthropic 宣布向加拿大研究机构承诺 1000 万加元投资，合作伙伴包括 Amii、Mila 和 Vector Institute 等三大区域 AI 研究所。此举旨在资助有益且负责任的 AI 应用研究，巩固加拿大在神经网络和强化学习领域的历史领先地位。此外，Anthropic 发布了首份加拿大国家简报，基于 Anthropic 经济指数，展示了当地用户如何使用 Claude 工作。这笔资金还将支持 CHEO、CAMH 等机构，推动 AI 在医疗及安全政策方面的研究，体现大厂对全球 AI 生态的布局与对基础研究的高度重视，有助于加速 AI 安全技术的迭代。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "Investment"
+    ],
+    "link": "https://www.anthropic.com/news/canadian-ai-research",
+    "date": "2026-07-14",
+    "id": "17840367571540"
+  },
+  {
+    "title": "Kmux：专为 AI 编码代理设计的并行终端工作区",
+    "summary": "支持多会话恢复与 API 监控，优化 macOS/Linux 开发体验。",
+    "detail": "Kmux 是一款面向 macOS 和 Linux 的键盘中心终端模拟器，专为 Claude Code、Codex CLI 及 Antigravity CLI 等 AI 编码代理设计。核心功能包括并行代理会话跟踪、API 使用仪表板以及通过原生 git worktrees 安全分支工作。它支持多会话恢复，允许开发者并排运行多个 AI 代理，有效解决了上下文切换难题。通过自动化 git 工作树，确保代码修改安全隔离，显著提升了 AI 辅助编程的工作流效率与安全性，是开发者优化本地 AI 环境的理想工具，特别适合同时管理多个代理任务的场景，提升工程化落地能力。",
+    "tags": [
+      "Dev",
+      "Terminal",
+      "AI Agents"
+    ],
+    "link": "https://github.com/kkd927/kmux",
+    "date": "2026-07-14",
+    "id": "17840367571541"
+  },
+  {
+    "title": "深度伪造应对新策：多模态溯源优于检测技术",
+    "summary": "文章主张默认 distrust 媒体，通过加密签名证明真实性。",
+    "detail": "针对日益猖獗的深度伪造，文章提出检测技术已陷入军备竞赛劣势，主张默认不信任图像视频，除非能通过加密签名的多模态捕获证明其真实性。这种“溯源优于检测”的策略旨在通过提高伪造成本来解决虚假媒体问题。结合平台政策和法律责任，对未标记生成内容进行追责。这标志着从“检测虚假”向“证明真实”的范式转变，对内容安全政策、法律框架及媒体信任体系重建具有深远影响，是应对 AI 生成内容风险的新思路，可能成为未来行业标准，重塑数字内容信任机制。",
+    "tags": [
+      "News",
+      "Deepfake",
+      "Security"
+    ],
+    "link": "https://www.lesswrong.com/posts/MBRNR5h9g6HGvAJDe/don-t-bring-an-ai-detector-to-a-deepfake-fight-proving",
+    "date": "2026-07-14",
+    "id": "17840367571542"
+  },
+  {
+    "title": "Identify Skin：准确率 97% 的 AI 皮肤科 SaaS 服务",
+    "summary": "检测 150 多种皮肤病，临床验证性能媲美专业医生。",
+    "detail": "Identify Skin 推出基于 AI 的皮肤扫描 SaaS 服务，宣称在皮肤癌分类上达到世界級准确率。模型经过数百万医学图像训练，涵盖皮肤科至 X 光、CT 等数据，在 ISIC 2024 基准测试中表现优异，敏感度达 97%。虽仅供信息参考且未获 FDA 批准，但其性能在 1500 个病变样本研究中与 16 位认证皮肤科医生相当。该服务检测 150 多种皮肤状况，从黑色素瘤到痤疮，展示了 AI 在医疗诊断辅助领域的落地潜力与商业价值，为用户节省每次高达 250 美元的就诊费用，降低医疗门槛。",
+    "tags": [
+      "New",
+      "Healthcare",
+      "SaaS"
+    ],
+    "link": "https://identify.skin/en",
+    "date": "2026-07-14",
+    "id": "17840367571543"
+  },
+  {
+    "title": "AI-Notify：感知上下文的终端通知脚本",
+    "summary": "仅在开发者未聚焦代理会话时触发通知，减少干扰。",
+    "detail": "为解决多任务开发中的上下文切换问题，AI-Notify 脚本通过检测窗口焦点，仅在用户未关注活跃代理会话时发送通知。兼容 macOS、Windows 和 Linux，无缝集成 Claude、Codex 等工具。它避免了冗余提醒，让开发者能深度专注其他任务，直到真正需要介入。该工具解决了现代 AI 工具缺乏上下文感知通知的痛点，优化了人机协作流程，显著提升了开发者在代理辅助编程时的多任务处理效率与专注度，是提升开发体验的实用小工具，有效减少中断带来的认知负荷。",
+    "tags": [
+      "Dev",
+      "Productivity",
+      "Script"
+    ],
+    "link": "https://medium.com/engineering-in-the-age-of-ai/ai-notify-context-aware-notifications-for-multi-tasking-developers-3614635398ec",
+    "date": "2026-07-14",
+    "id": "17840367571544"
+  },
+  {
     "title": "Iconic Games 展示本地化 AI 数字演员技术",
     "summary": "Iconic 发布 Pressure Point 演示，展示本地模型驱动的 NPC 互动。",
     "detail": "Iconic Games 发布了\"Pressure Point\"演示，展示其\"Digital Actor\"技术。该技术利用本地模型驱动游戏 NPC，无需云端往返，解决了延迟和成本问题。玩家可与潜艇军官 James 进行自然对话，剧情仍按编剧意图推进。这标志着 AI 在游戏叙事中的重大突破，为交互式故事讲述提供了新范式，证明了本地部署大模型的可行性。",
@@ -1233,70 +1298,5 @@
     "link": "https://apps.apple.com/us/app/talkfitly/id6776912365",
     "date": "2026-07-12",
     "id": "17838362988363"
-  },
-  {
-    "title": "AI 会议记录工具引发隐私与礼仪争议",
-    "summary": "AI 记录工具普及，引发职场隐私与礼仪新讨论。",
-    "detail": "美联社最新报道指出，AI 会议记录工具虽承诺简化会议总结，但其广泛使用引发了关于隐私数据和虚拟会议礼仪的深刻质疑。随着工具普及，职场人士开始关注数据安全性及未经同意记录的伦理问题。这反映了 AI 融入工作流程后的社会影响与合规挑战，企业需平衡效率与员工隐私权，建立新的使用规范。此类工具增加了虚拟会议的复杂性，用户需警惕数据泄露风险。行业正面临如何在提升生产率的同时保护敏感信息的难题，相关讨论将持续发酵。",
-    "tags": [
-      "News",
-      "Privacy",
-      "Enterprise"
-    ],
-    "link": "https://apnews.com/article/ai-notetaker-work-meetings-privacy-data-c700299371ca7cfec77dafdfb948067f",
-    "date": "2026-07-12",
-    "id": "17838245824130"
-  },
-  {
-    "title": "2026 终极 AI 角色扮演设置指南",
-    "summary": "详解如何通过结构化上下文层提升 AI 角色扮演一致性。",
-    "detail": "该指南针对 AI 角色扮演中上下文丢失导致角色崩坏的问题，提出了结构化上下文层解决方案。通过组合角色卡、持久记忆、lorebooks 等多层上下文，确保 AI 在长对话中保持设定一致。这是构建高质量 AI 叙事会话的关键技术实践，适合开发者参考。通用 AI 工具往往仅提供系统提示和聊天历史，导致长对话早期细节丢失。本指南详解如何利用 ChatBrat 引擎构建紧密制作的故事会话，而非通用聊天机器人对话，提升用户体验。通过正确加载信息格式，解决 NPC 声音 shifts 和关键细节消失的问题，实现沉浸式互动。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Tutorial"
-    ],
-    "link": "https://chatbrat.ai/bratlog/ultimate-ai-roleplay-setup-guide-memory-lorebooks",
-    "date": "2026-07-12",
-    "id": "17838245824131"
-  },
-  {
-    "title": "Overplane AI 编程 harness 深度评测",
-    "summary": "开源工具将 Markdown 规格转为软件，结合 SMT 求解器验证。",
-    "detail": "Overplane 是一款开源单二进制工具，通过 Markdown 规格驱动 AI 编码代理生成交付代码。其核心特色是结合 SMT 求解器（如 Z3）进行规格验证，确保代码逻辑无矛盾。尽管评测者认为其可被脚本替代，但其“规格即代码”的验证流程为 AI 软件工程提供了新思路。工具在本地容器中运行 AI 代理，交叉检查规格，适合追求高可靠性代码生成的开发者探索，尽管目前存在实现复杂度的争议。该流程包含 raise、verify、codegen 环节，利用形式化验证提升 AI 生成代码的可信度，是 AI 辅助编程领域的重要尝试。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "OpenSource"
-    ],
-    "link": "https://www.overplane.dev/overview/dan/",
-    "date": "2026-07-12",
-    "id": "17838245824132"
-  },
-  {
-    "title": "行业趋势：AI 客户转向青睐小型专用模型",
-    "summary": "相比通用大模型，客户更倾向成本更低、可控性更强的小型领域专用模型。",
-    "detail": "尽管 OpenAI 和 Anthropic 致力于构建通用大模型，但市场趋势显示客户开始青睐“小型即美丽”。小型领域专用模型训练成本更低，可在单一加速器上运行多实例，且避免了通用模型被替换或监管的风险。微软已悄然构建 MAI 系列领域模型，涵盖推理、编码及图像生成等用例，表明 bigger isn't always better 正成为行业共识。企业更倾向于可控、低成本且针对特定任务优化的模型，而非盲目追求参数量。这一转变将影响未来 AI 基础设施的采购策略与部署架构，推动边缘计算与专用硬件的发展。",
-    "tags": [
-      "News",
-      "LLM",
-      "Industry"
-    ],
-    "link": "https://www.theregister.com/ai-and-ml/2026/07/11/ai-customers-are-coming-around-to-the-idea-that-small-is-beautiful/5268070",
-    "date": "2026-07-11",
-    "id": "17838895045331"
-  },
-  {
-    "title": "Meta 因隐私争议紧急下架 AI 照片生成工具",
-    "summary": "Meta 推出 AI 照片工具遭公众强烈反对，上线三天即被下架。",
-    "detail": "Meta 旗下的 Superintelligence Labs 发布了 Muse Image 模型，默认抓取公开 Instagram 账户面部数据生成照片。此举引发巨大隐私争议，用户担忧生物特征被滥用。功能上线仅三天（7 月 7 日至 11 日）便被官方紧急叫停。Meta 承认功能未达预期，已不可用。此事件凸显了 AI 生成内容与隐私边界之间的敏感冲突，为大厂 AI 功能落地敲响警钟。未来类似功能需更透明的用户授权机制，否则将面临严峻的舆论风险与监管压力，行业需重新审视数据使用的伦理边界。",
-    "tags": [
-      "News",
-      "Meta",
-      "Privacy"
-    ],
-    "link": "https://gizmodo.com/the-public-got-so-mad-at-metas-new-ai-photo-tool-that-its-scrapped-already-2000784400",
-    "date": "2026-07-11",
-    "id": "17838625581730"
   }
 ]
