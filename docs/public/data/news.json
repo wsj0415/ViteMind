@@ -1,5 +1,96 @@
 [
   {
+    "title": "纽约州暂停新建数据中心",
+    "summary": "纽约州长签署行政令，暂停批准 50 兆瓦以上数据中心项目，为期约一年。",
+    "detail": "纽约成为首个暂停数据中心建设的州。州长 Hochul 签署行政令，暂时禁止批准大型项目许可，主要针对 50 兆瓦及以上设施。此举旨在解决电费上涨、水资源消耗及噪音污染问题。暂停将持续至州 Environmental Conservation 部门完成环境审查流程，预计耗时一年。立法机构也在推动更严格的法案。这对 AI 基础设施扩张构成区域政策风险，表明环保法规正成为算力扩张的新瓶颈，可能迫使企业重新评估选址策略及能源解决方案，影响长期算力供应布局。此外，平均数据中心虽小于 100 兆瓦，但在建项目预期更大，2030 年近四分之一将超 500 兆瓦。此政策直接冲击 hyperscale 数据中心，可能延缓 AI 模型训练集群的落地速度，迫使企业探索更绿色的能源解决方案或转向政策更友好的地区部署基础设施。",
+    "tags": [
+      "News",
+      "Policy",
+      "Infrastructure"
+    ],
+    "link": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers/",
+    "date": "2026-07-14",
+    "id": "17840428850400"
+  },
+  {
+    "title": "Meta 被曝利用 AI 筛选患病员工裁员",
+    "summary": "路透社报道 Meta 涉嫌使用 AI 工具针对患有医疗条件的员工进行裁员。",
+    "detail": "根据路透社报道及 Hacker News 讨论，Meta 被指控利用人工智能技术识别并针对患有特定医疗条件的员工进行裁员操作。这一事件引发了关于 AI 伦理、员工隐私及算法歧视的重大争议。虽然具体技术细节未在摘要中披露，但此类用例凸显了 AI 在人力资源管理中潜在的滥用风险，可能面临法律审查及公众舆论压力。此新闻警示企业在部署 AI 决策系统时需建立伦理审查机制，避免算法偏见导致的社会负面影响及合规风险。此类事件可能推动相关立法，要求 AI 招聘及裁员工具透明化。对于科技巨头而言，这不仅关乎声誉，更涉及潜在的集体诉讼风险。行业需重新审视 AI 在敏感决策中的边界，建立人工复核机制，确保算法决策符合劳动法及道德标准，避免技术效率凌驾于员工权益之上。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Corporate"
+    ],
+    "link": "https://www.reuters.com/world/meta-used-ai-target-workers-with-medical-conditions-layoffs-former-employees-2026-07-14/",
+    "date": "2026-07-14",
+    "id": "17840428850401"
+  },
+  {
+    "title": "Aevum：开源确定性 AI 角色扮演引擎",
+    "summary": "基于 Claude 等模型的免费开源 AI RPG 引擎，支持持久化经济系统与阵营。",
+    "detail": "Aevum Realm Architect 是一款免费的双文件 LLM RPG 引擎，兼容 ChatGPT、Claude 或 Gemini。其核心特色在于“确定性”玩法，结果由准备和计划决定而非骰子。包含近 3 万字的 Atlas 世界观文件及主提示词引擎，内置标签式经济系统追踪领域、军队及国库。开发者可通过上传知识文件快速部署自定义 AI 游戏，适合开发者研究 LLM 长上下文记忆与状态管理。该项目展示了如何利用 Prompt Engineering 和知识库构建复杂状态机，为 AI 游戏开发提供了低成本原型验证方案，无需后端服务器即可运行持久化世界。该项目展示了如何利用 Prompt Engineering 和知识库构建复杂状态机，为 AI 游戏开发提供了低成本原型验证方案。对于独立开发者而言，这是一种利用现有大模型能力快速构建互动体验的有效路径，降低了游戏开发的技术门槛，同时探索了 LLM 在确定性逻辑控制下的表现边界。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "LLM"
+    ],
+    "link": "https://github.com/RukkaNova/aevum-realm-architect",
+    "date": "2026-07-14",
+    "id": "17840428850402"
+  },
+  {
+    "title": "AI Agent 静默数据丢失的分类学解析",
+    "summary": "深度分析 AI Agent 记忆写入消失的四种原因，提供调试与预防方案。",
+    "detail": "文章深入探讨了自学习 Agent 中“写入成功但数据丢失”的静默错误。作者将问题分类为四种原因，区分了“检测侧”与“预防侧”。主要涉及协调器未见的目标错误写入，以及因版本或所有权 stale 导致的连贯性竞争。文章强调了区分应用层追踪与写时预防的重要性，为构建可靠的 Agent 记忆系统提供了技术分类框架，适合 AI 工程师排查 Agent 一致性 bug。随着 Agent 自主性增强，数据一致性成为关键挑战，此分类学有助于设计更鲁棒的记忆存储架构，避免 Agent 因静默丢失关键学习成果而退化。随着 Agent 自主性增强，数据一致性成为关键挑战，此分类学有助于设计更鲁棒的记忆存储架构。开发者需关注写入路径中的竞争条件，实施版本控制或锁定机制。这对于构建长期运行的自主代理系统至关重要，确保 Agent 能够从历史交互中持续积累知识而非反复犯错。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Debugging"
+    ],
+    "link": "https://agent-coherence.dev/blog/silent-data-loss-taxonomy/",
+    "date": "2026-07-14",
+    "id": "17840428850403"
+  },
+  {
+    "title": "AI RPG Game Generator 互动小说平台",
+    "summary": "基于浏览器的免费 AI 互动小说平台，角色记忆持久化，多结局分支。",
+    "detail": "这是一个基于浏览器的 AI RPG 游戏平台，利用实时 AI 故事生成器创建动态情节。特色在于 NPC 能记忆玩家过去的行为、语气及联盟关系，且每个决定都会永久分支剧情，无重置机会。支持自定义世界背景提示词，无需预设角色。适合普通用户体验 AI 生成叙事，而非开发者工具。与开源引擎不同，这是面向消费者的成品游戏服务。它展示了生成式 AI 在互动娱乐领域的商业化落地，通过持久化记忆增强用户沉浸感，为 AI 原生游戏提供了新的交互范式，降低了互动小说的创作门槛。它展示了生成式 AI 在互动娱乐领域的商业化落地，通过持久化记忆增强用户沉浸感，为 AI 原生游戏提供了新的交互范式。相比传统游戏，其内容生成成本更低且无限扩展，但同时也面临内容一致性控制的挑战。此类产品有望成为 AI C 端应用的重要突破口，吸引非技术用户体验生成式 AI 的魅力。",
+    "tags": [
+      "New",
+      "Game",
+      "Consumer"
+    ],
+    "link": "https://www.airpggames.com",
+    "date": "2026-07-14",
+    "id": "17840428850404"
+  },
+  {
+    "title": "Reflection 与 Nebius 达成 10 亿美元算力协议",
+    "summary": "AI 公司 Reflection 签署价值 10 亿美元的算力交易，锁定 Nebius 资源。",
+    "detail": "根据 TechCrunch 报道，AI 公司 Reflection 与 Nebius 签署了一项价值 10 亿美元的算力供应协议。在 AI 算力稀缺的背景下，此类大额交易表明初创企业正在积极锁定长期 GPU 资源以支持模型训练或推理。虽然具体条款未在摘要中披露，但十亿级规模凸显了基础设施层在 AI 产业链中的核心地位及资本密集特性。这反映了 AI 行业对算力资源的激烈争夺，可能加剧中小型企业的资源获取难度，推动行业向拥有算力储备的大玩家集中。算力已成为 AI 时代的石油，此类协议锁定了未来几年的关键资源。对于 Nebius 而言，这是基础设施变现的重要一步；对于 Reflection，则是保障模型迭代连续性的关键。预计未来类似的大额算力预售将成为行业常态，加剧基础设施层的马太效应，资源获取能力将成为初创企业估值的重要考量因素。",
+    "tags": [
+      "News",
+      "Compute",
+      "Investment"
+    ],
+    "link": "https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/",
+    "date": "2026-07-14",
+    "id": "17840428850405"
+  },
+  {
+    "title": "Oodle.ai 推出 Agent 可观测性服务",
+    "summary": "新推 Agent 追踪服务，定价低至每百万追踪 10 美元，支持调试与成本管。",
+    "detail": "Oodle.ai 推出了新的 Agent Observability 产品，主打调试与规模化能力。定价策略极具竞争力，Agent 追踪费用低至每百万 spans 10 美元。产品功能涵盖 Agent 调试、可观测性、指标、日志及追踪，支持 Kubernetes 监控及 BYOC 部署。该工具旨在解决 AI Agent 开发中的黑盒问题，帮助开发者监控 Agent 行为并优化成本，适合需要大规模部署 Agent 的团队。随着 Agent 应用复杂化，可观测性成为刚需，此低价策略可能加速中小团队采用监控工具，提升 Agent 生产环境的稳定性与可维护性。相比传统 APM 工具，针对 Agent 的追踪需处理非确定性输出及长链路依赖。Oodle 的低价策略降低了监控门槛，使团队能更早发现 Agent 逻辑错误或成本异常。随着 Agent 应用从实验走向生产，可观测性将成为标准配置，帮助开发者在复杂的多步任务中定位故障根源，优化 Token 消耗。",
+    "tags": [
+      "Deal",
+      "Dev",
+      "Observability"
+    ],
+    "link": "https://www.oodle.ai/product/agent-observability",
+    "date": "2026-07-14",
+    "id": "17840428850406"
+  },
+  {
     "title": "Anthropic 投资 1000 万加元支持加拿大 AI 研究",
     "summary": "Anthropic 宣布资助加拿大三大 AI 研究所，推动负责任 AI 发展。",
     "detail": "Anthropic 宣布向加拿大研究机构承诺 1000 万加元投资，合作伙伴包括 Amii、Mila 和 Vector Institute 等三大区域 AI 研究所。此举旨在资助有益且负责任的 AI 应用研究，巩固加拿大在神经网络和强化学习领域的历史领先地位。此外，Anthropic 发布了首份加拿大国家简报，基于 Anthropic 经济指数，展示了当地用户如何使用 Claude 工作。这笔资金还将支持 CHEO、CAMH 等机构，推动 AI 在医疗及安全政策方面的研究，体现大厂对全球 AI 生态的布局与对基础研究的高度重视，有助于加速 AI 安全技术的迭代。",
@@ -1207,96 +1298,5 @@
     "link": "https://www.channelnewsasia.com/business/indias-tata-consultancy-services-plans-up-8900-ai-deployment-engineers-seeks-ai-acquisitions-6249086",
     "date": "2026-07-12",
     "id": "17838625581731"
-  },
-  {
-    "title": "Graphenium：防止 AI 生成代码架构腐化的本地 Linter",
-    "summary": "专为 AI 编码代理设计的预检工具，阻止架构漂移和代码混乱。",
-    "detail": "Graphenium 是一个本地预检 Linter 和架构网关，专为 AI 编码代理（如 Claude Code, Cursor）设计。它利用 tree-sitter 和 Datalog 机械性地阻止违反模块边界或引入架构漂移的代码变更。解决了 AI 辅助编程中常见的“代码意面化”问题，确保 AI 生成的代码符合既定架构规范。随着 AI 编程普及，此类治理工具将成为标配，帮助团队在享受效率提升的同时，避免技术债务的快速累积，维护代码库长期健康，是开发者必备工具。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "Coding"
-    ],
-    "link": "https://github.com/lambda-alpha-labs/Graphenium",
-    "date": "2026-07-12",
-    "id": "17838625581734"
-  },
-  {
-    "title": "Dr. Wong：专注于情感日记与自我反思的 AI 伙伴",
-    "summary": "全新 AI 应用，提供冷静客观的对话服务以辅助用户自我反思。",
-    "detail": "Dr. Wong 是一款主打情感日记和自我反思的 AI 应用。它定位为冷静、清晰的对话伙伴，旨在帮助用户梳理情绪、焦虑和日常思考，而非单纯提供安慰。产品强调“先看清局势，再感受情绪”，为用户提供了一个安全的私密空间进行心理探索。展示了 AI 在心理健康领域的垂直应用潜力，满足了用户对非评判性倾听者的需求，是 AI+ 心理健康赛道的新兴尝试，关注用户情感健康。",
-    "tags": [
-      "New",
-      "Mental Health",
-      "App"
-    ],
-    "link": "https://www.drwongai.com",
-    "date": "2026-07-12",
-    "id": "17838625581736"
-  },
-  {
-    "title": "科学家利用 AI 与量子计算生成新肽链",
-    "summary": "科学家结合 AI 与量子计算技术，加速新肽链生成，探索生物制药新前沿。",
-    "detail": "Wired 报道指出，科学家正将人工智能与量子计算结合，用于生成新型肽链，这被视为科学家的副业探索。AI 负责模式识别与生成，量子计算提供算力支持，两者结合有望大幅缩短药物研发周期。该趋势表明，AI 应用正从软件向硬科学延伸，量子 AI 成为新的投资与研究热点，可能重塑未来医疗行业格局，展现跨学科融合的巨大潜力。此技术突破预示着生物计算领域的新一轮创新浪潮。",
-    "tags": [
-      "News",
-      "Quantum Computing",
-      "BioTech"
-    ],
-    "link": "https://www.wired.com/story/scientists-using-ai-and-quantum-computing-to-generate-new-peptides/",
-    "date": "2026-07-12",
-    "id": "17838546921010"
-  },
-  {
-    "title": "软件工程师如何应对 AI 带来的职业变革",
-    "summary": "Guardian 调查称工程师因 AI 焦虑，回归基础技能，谷歌 75% 代码已由 AI 编写。",
-    "detail": "The Guardian 采访多位软件工程师，显示 AI 正快速改变开发工作流。谷歌称 75% 代码由 AI 生成，导致工程师技能贬值焦虑。从业者通过回归基础、学习新技能或寻求集体行动来适应，如工程师 Matt 坚持手写代码以保持技能。这反映了 AI 对劳动力市场的深层影响，单纯编码技能价值下降，架构设计与审查能力变得更重要，行业需重新定义工程师核心价值与职业路径。",
-    "tags": [
-      "News",
-      "Career",
-      "Software Engineering"
-    ],
-    "link": "https://www.theguardian.com/technology/ng-interactive/2026/jul/12/software-developers-engineers-ai",
-    "date": "2026-07-12",
-    "id": "17838546921013"
-  },
-  {
-    "title": "开源项目推出带签名收据的 AI 安全网关",
-    "summary": "AxioRank 发布 AI 网关，为每个 LLM 响应提供签名收据，增强代理安全性。",
-    "detail": "GitHub 新项目 AxioRank/gateway 旨在解决 AI 代理安全问题。它提供本地 OpenAI 兼容端点，默认开启防护栏，并为每个响应生成可离线验证的签名收据。这解决了 AI 输出不可追溯的痛点，适用于企业级代理部署。该项目强调了 AI 安全与审计的重要性，为开发者提供了构建可信 AI 系统的基础设施，是 AI 工程化的重要进展，确保每次交互都有据可查，增强系统可靠性。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Open Source"
-    ],
-    "link": "https://github.com/AxioRank/gateway/tree/main",
-    "date": "2026-07-12",
-    "id": "17838546921014"
-  },
-  {
-    "title": "Show HN: Sanbox 为 AI 代理提供隔离沙盒环境",
-    "summary": "Sanbox 推出 AI 代理沙盒，基于微虚拟机隔离运行，支持状态保存与恢复。",
-    "detail": "新产品 Sanbox 专为 AI 代理设计，提供隔离的微虚拟机沙盒环境。支持 CLI 并行运行，记录工具调用与模型活动，并可保存文件系统快照以便恢复。这解决了代理执行中的安全与状态管理问题，防止恶意操作影响主机。该工具展示了 AI 代理基础设施的成熟，为大规模代理部署提供了安全、可观测的运行环境，适合开发者测试与生产使用，实现代理运行的完全隔离与可控。",
-    "tags": [
-      "New",
-      "AI Agents",
-      "Infrastructure"
-    ],
-    "link": "https://sanbox.cloud",
-    "date": "2026-07-12",
-    "id": "17838546921015"
-  },
-  {
-    "title": "TalkFitly：高情商对话 AI 教练，提升社交智能",
-    "summary": "专为成人设计的社交智能训练 App，通过 AI 评分提供清晰度、共情等维度的反馈。",
-    "detail": "TalkFitly 是一款专为 iPhone 设计的 AI 社交教练应用，旨在帮助用户提升高情商对话能力。不同于普通聊天 AI，它提供基于真实场景的训练剧本，如设定边界或薪资谈判。AI 教练从清晰度、情绪稳定性、 assertiveness 及共情四个维度评分并提供反馈。应用强调隐私保护，不读取私人消息，通过每日微会话帮助用户将“说对话”转化为本能。高分回复会自动保存至 Quote Wall 展示成长轨迹。适合希望改善职场与社交表现的用户，利用碎片时间进行微训练，避免社交焦虑。无需社交图谱即可使用。",
-    "tags": [
-      "New",
-      "App",
-      "SocialAI"
-    ],
-    "link": "https://apps.apple.com/us/app/talkfitly/id6776912365",
-    "date": "2026-07-12",
-    "id": "17838362988363"
   }
 ]
