@@ -1,5 +1,109 @@
 [
   {
+    "title": "Iconic Games 展示本地化 AI 数字演员技术",
+    "summary": "Iconic 发布 Pressure Point 演示，展示本地模型驱动的 NPC 互动。",
+    "detail": "Iconic Games 发布了\"Pressure Point\"演示，展示其\"Digital Actor\"技术。该技术利用本地模型驱动游戏 NPC，无需云端往返，解决了延迟和成本问题。玩家可与潜艇军官 James 进行自然对话，剧情仍按编剧意图推进。这标志着 AI 在游戏叙事中的重大突破，为交互式故事讲述提供了新范式，证明了本地部署大模型的可行性。",
+    "tags": [
+      "New",
+      "Game",
+      "LLM"
+    ],
+    "link": "https://iconicgames.io/blog/pressure-point/",
+    "date": "2026-07-14",
+    "id": "17840284183890"
+  },
+  {
+    "title": "DeepMind CEO 谈 AGI 与新纪元框架",
+    "summary": "Demis Hassabis 发文称 AGI 仅剩数年，影响堪比电力发现。",
+    "detail": "Google DeepMind CEO Demis Hassabis 发表文章，认为通用人工智能（AGI）距离实现仅几年时间。他将 AGI 的影响比作电力或火的发现，而非普通技术突破。Hassabis 指出 AGI 将加速药物发现、清洁能源开发，可能带来资源不再受限的 abundance 时代。这是行业领袖对技术奇点临近的重要展望，强调了负责任部署的重要性。",
+    "tags": [
+      "News",
+      "AGI",
+      "Google"
+    ],
+    "link": "https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age",
+    "date": "2026-07-14",
+    "id": "17840284183891"
+  },
+  {
+    "title": "X 平台推出 MCP 接口支持 AI 代理",
+    "summary": "X 上线 hosted MCP 服务器，AI 代理可直接分析帖子数据。",
+    "detail": "X 平台推出了托管的 MCP（Model Context Protocol）服务器，允许 AI 工具直接连接接口搜索帖子、管理书签等。开发者演示了通过 AI 代理分析个人发帖数据，发现上午 9 点发帖浏览量最高。这一更新降低了 AI 代理访问社交数据的门槛，为个性化内容分析和自动化运营提供了官方支持的基础设施，推动了 Agent 生态发展。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "MCP"
+    ],
+    "link": "https://lemire.me/blog/2026/07/11/x-just-gave-us-an-interface-that-ai-agents-can-use-i-pointed-it-at-my-own-posts/",
+    "date": "2026-07-14",
+    "id": "17840284183892"
+  },
+  {
+    "title": "Bun 运行时利用 AI 完成百万行代码重构",
+    "summary": "Bun 核心从 Zig 重写为 Rust，百万行代码由 AI 生成。",
+    "detail": "JavaScript 运行时 Bun 宣布将其核心从 Zig 重写为 Rust，涉及约 100 万行代码和 6500 次提交，主要由 AI（Claude Code）完成。创始人表示人类已数月未亲自编写代码。此举引发社区关于 AI 编程能力及遗留代码维护的讨论。这是 AI 生成代码在大型核心项目中的首次大规模应用案例，展示了 AI 辅助开发的巨大潜力与争议。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Rust"
+    ],
+    "link": "https://chaosguru.substack.com/p/merged-at-the-speed-of-ai",
+    "date": "2026-07-14",
+    "id": "17840284183893"
+  },
+  {
+    "title": "StageWhisper Lite 推出免费本地会议笔记",
+    "summary": "免费 Mac 应用，本地处理通话笔记，提供终身授权选项。",
+    "detail": "StageWhisper Lite 是一款免费的 macOS 应用，可在本地监听通话并生成摘要和行动项，数据不上传云端。其 Founders Edition 提供 99 美元终身授权，支持实时屏幕阅读和对话建议。该产品主打隐私保护和本地化处理，解决了传统会议机器人加入通话的痛点，为需要隐私安全的用户提供了高效的 AI 会议助手选择。",
+    "tags": [
+      "Deal",
+      "Privacy",
+      "Mac"
+    ],
+    "link": "https://stagewhisper.io/lite",
+    "date": "2026-07-14",
+    "id": "17840284183894"
+  },
+  {
+    "title": "调查显示 AI 加速高校教师退休意愿",
+    "summary": "采访指出 AI 滥用及 institutional 问题是教师退休主因之一。",
+    "detail": "针对高校教师的采访显示，AI 技术是影响其退休决定的前四大因素之一。除了工作条件恶化和机构混乱外，学生利用 AI 逃避读写、管理员利用 AI 打包知识产权牟利等现象加剧了教师的不满。这反映了 AI 在教育领域的深层社会影响，揭示了技术滥用可能破坏教育生态，导致人才流失的严峻现实。",
+    "tags": [
+      "News",
+      "Education",
+      "Social"
+    ],
+    "link": "https://karenkelsky.substack.com/p/is-ai-making-faculty-more-likely",
+    "date": "2026-07-14",
+    "id": "17840284183895"
+  },
+  {
+    "title": "QPilot 开源 AI 代理自动执行浏览器测试",
+    "summary": "粘贴手动测试用例，AI 代理即在 Chrome 中自动运行测试。",
+    "detail": "QPilot 是一个开源 AI 代理工具，允许开发者粘贴手动测试用例，即可在真实浏览器中自动运行测试。支持 Node.js，提供实时通过/失败反馈。该工具简化了 QA 流程，降低了自动化测试的门槛，使非专业测试人员也能利用 AI 进行高效的浏览器兼容性测试，是 DevOps 流程中实用的 AI 辅助工具。",
+    "tags": [
+      "Dev",
+      "Testing",
+      "Agent"
+    ],
+    "link": "https://github.com/broxhq/qpilot",
+    "date": "2026-07-14",
+    "id": "17840284183896"
+  },
+  {
+    "title": "微软 CEO 警告企业使用 AI 的双重成本",
+    "summary": "Satya Nadella 警告企业使用 AI 需付出金钱与数据双重代价。",
+    "detail": "微软 CEO Satya Nadella 发文警告，企业使用 AI 模型不仅在支付 token 费用，还在无偿提供专有数据。模型通过提示词、工具使用和纠错学习企业知识，可能导致技术供应商成为竞争对手。这一“反向信息悖论”强调了数据隐私的重要性，提醒企业在部署 AI 时需警惕核心知识泄露风险，平衡效率与安全。",
+    "tags": [
+      "News",
+      "Privacy",
+      "Microsoft"
+    ],
+    "link": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
+    "date": "2026-07-14",
+    "id": "17840284183897"
+  },
+  {
     "title": "Anthropic 揭示 AI 模型“内部思维”新发现",
     "summary": "Anthropic 发布最新研究，探索模型机械可解释性及内部推理过程。",
     "detail": "Anthropic 作为全球估值近 1 万亿美元的 AI 公司，深耕机械可解释性研究，甚至探索模型是否感知疼痛。最新发现揭示了模型推理时的“内部思维”窗口，尽管学界对拟人化描述存疑，但这为理解模型输出成因提供了新路径。研究涉及百万级数据点分析，可能影响未来模型安全策略及透明度标准，是行业重要技术突破。此发现引发了关于 AI 行为是否应借用心理学术语描述的争议，但无疑推动了可解释性进展。对于开发者而言，理解模型内部机制有助于优化提示词工程及调试复杂任务，是迈向可控 AI 的关键一步。",
@@ -1194,109 +1298,5 @@
     "link": "https://gizmodo.com/the-public-got-so-mad-at-metas-new-ai-photo-tool-that-its-scrapped-already-2000784400",
     "date": "2026-07-11",
     "id": "17838625581730"
-  },
-  {
-    "title": "AI 演示已死：如何将 AI 真正落地生产环境",
-    "summary": "探讨 AI 从演示到生产的关键挑战，聚焦数据与工程化问题。",
-    "detail": "文章指出惊艳的 AI 演示并不代表成功，真正的挑战在于生产环境的数据问题。内容深入分析了从 Demo 到 Production 的鸿沟，强调数据管道、稳定性和实际业务场景适配的重要性。对于开发者而言，理解如何构建可靠的 AI 数据流比单纯追求模型效果更为关键。这是 AI 工程化落地的核心指南，提醒团队关注数据质量、监控及反馈循环，确保 AI 系统在实际业务中持续创造价值而非仅停留在 PPT 阶段，解决最后一公里问题。",
-    "tags": [
-      "Dev",
-      "Production",
-      "LLM"
-    ],
-    "link": "https://thenewstack.io/ai-production-data-problem/",
-    "date": "2026-07-11",
-    "id": "17838625581733"
-  },
-  {
-    "title": "AI 解码人类细胞：生物学与人工智能的深度融合",
-    "summary": "TED 演讲探讨 AI 如何解析复杂人类细胞，揭示生物计算新前景。",
-    "detail": "Silvana Konermann 在 TED 演讲中深入探讨了人类细胞的极端复杂性，并提出 AI 是否有能力解码这一微观世界。随着深度学习技术在蛋白质结构预测等领域的成功，AI 正成为生物学研究的关键工具。该演讲强调了 AI 在理解细胞机制、疾病治疗及药物研发中的潜力，标志着 AI for Science 浪潮的进一步扩展。对于行业而言，这意味着生物技术与计算技术的交叉点将成为下一个创新高地，开发者需关注生物数据处理的 AI 模型进展。未来，AI 驱动的药物发现可能大幅缩短研发周期，改变医疗健康产业格局，值得投资者与技术团队密切关注这一跨界融合趋势。",
-    "tags": [
-      "News",
-      "AI for Science",
-      "BioTech"
-    ],
-    "link": "https://www.youtube.com/watch?v=Xr9VqRawjAU",
-    "date": "2026-07-11",
-    "id": "17838142214010"
-  },
-  {
-    "title": "AgentTransfer：开源 AI 代理文件传输解决方案",
-    "summary": "基于 Go 语言的开源工具，实现 AI 代理间高效安全的文件传输。",
-    "detail": "AgentTransfer 是一个专为 AI 代理设计的开源文件传输工具，仅用一个 Go 二进制文件即可部署。在多代理协作系统中，安全高效的数据交换是核心痛点。该项目通过简化传输协议，降低了代理间通信的复杂度，支持快速集成。对于开发者而言，这是构建分布式 AI 代理网络的重要基础设施。其轻量级设计适合边缘部署，反映了 AI 工程化向模块化、轻量化发展的趋势，有助于加速多代理系统的落地应用。随着 Agent 架构流行，此类中间件将成为标配，建议开发者关注其协议标准及安全性实现，以便在构建复杂代理系统时复用相关架构设计。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "AI Agents"
-    ],
-    "link": "https://github.com/shehryarsaroya/agenttransfer",
-    "date": "2026-07-11",
-    "id": "17838142214011"
-  },
-  {
-    "title": "Norton Neo AI 浏览器：内置免费 VPN 的安全浏览体验",
-    "summary": "诺顿推出 AI 浏览器，集成强大免费 VPN，重塑隐私保护浏览。",
-    "detail": "Norton Neo 是一款集成了 AI 功能与高级安全特性的新型浏览器。其核心亮点在于内置了强大的免费 VPN 服务，旨在为用户提供无追踪、无恶意链接的安全浏览环境。在 AI 时代，数据安全与隐私保护愈发重要，该產品将传统安全软件优势与现代浏览需求结合。虽然主要面向消费者，但其“安全优先”的设计理念值得行业关注，预示着未来浏览器可能将 AI 辅助与安全防御作为标准配置，竞争焦点将从速度转向信任。对于企业用户，此类浏览器可能成为防止数据泄露的新终端防线，安全厂商与浏览器厂商的边界正在模糊，融合趋势明显。",
-    "tags": [
-      "New",
-      "Security",
-      "Browser"
-    ],
-    "link": "https://neobrowser.ai/",
-    "date": "2026-07-11",
-    "id": "17838142214012"
-  },
-  {
-    "title": "30 Seconds of Knowledge：防止 AI 时代工程师技能退化",
-    "summary": "浏览器扩展每次新标签页展示代码片段，帮助开发者保持技术敏锐度。",
-    "detail": "针对 AI 生成代码可能导致工程师技能退化的问题，30 Seconds of Knowledge 提供了一个创新解决方案。该浏览器扩展每次打开新标签页时展示一个真实代码片段，要求开发者在 30 秒内阅读理解。它涵盖了 Git 命令等实用知识，旨在对抗“自动补全依赖症”。这对技术团队管理具有启示意义：在利用 AI 提效的同时，需建立机制维持团队核心编码能力。该工具免费支持主流浏览器，是开发者自我提升的实用辅助。长期来看，保持人类工程师对底层逻辑的理解至关重要，此类工具可能演变为企业内部培训的标准组件，用于平衡 AI 效率与人员技能成长。",
-    "tags": [
-      "Dev",
-      "Education",
-      "Productivity"
-    ],
-    "link": "https://www.30secondsofknowledge.com",
-    "date": "2026-07-11",
-    "id": "17838142214013"
-  },
-  {
-    "title": "Wizard：基于 Rust 的自扩展终端 AI 代理",
-    "summary": "一键安装的 Rust 终端代理，支持多模型切换与自我扩展功能。",
-    "detail": "Wizard 是一款基于 Rust 开发的终端 AI 代理，主打“自扩展”能力。它支持一键安装，可连接任何 OpenAI 兼容端点或 Anthropic 模型，并允许在运行时动态切换。作为终端工具，它深入开发工作流，能够执行命令、修复 Bug 并扩展自身工具链。Rust 的选择保证了高性能与内存安全，适合系统级任务。这反映了 AI 代理正从云端聊天界面向本地化、系统级深度集成转变，为开发者提供了更强大的本地自动化助手。未来，本地运行的 AI 代理将更多直接操作系统资源，减少延迟并提升隐私，Rust 等系统语言在 AI 基础设施中的地位将进一步上升。",
-    "tags": [
-      "Dev",
-      "Rust",
-      "AI Agents"
-    ],
-    "link": "https://wizard.teddytennant.com",
-    "date": "2026-07-11",
-    "id": "17838142214014"
-  },
-  {
-    "title": "Mesh LLM 实现分布式 AI 计算",
-    "summary": "Pooling 现有 GPU 资源，降低 LLM 部署成本。",
-    "detail": "Mesh LLM 通过 iroh 网络将分散的 GPU 和内存池化，提供 OpenAI 兼容 API。解决数据中心依赖问题，允许团队利用现有硬件运行更大模型，增强控制权并降低长期成本。适合隐私敏感及成本敏感型团队，无需购买更大 GPU 即可扩展算力，实现去中心化推理。这种架构改变了传统云依赖模式，让企业能灵活调度闲置算力，显著降低运营账单，同时确保数据不出本地环境，为边缘 AI 部署提供新思路。随着模型尺寸增大，集中式推理成本高昂，Mesh 方案利用现有设备互联，平衡了性能与隐私，是分布式计算的重要实践。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Infrastructure"
-    ],
-    "link": "https://www.iroh.computer/blog/mesh-llm",
-    "date": "2026-07-11",
-    "id": "17838102847940"
-  },
-  {
-    "title": "AI 驱动软件开发岗位反弹",
-    "summary": "Claude Code 发布后，美软件开发岗位增长 15%。",
-    "detail": "Hiring Lab 数据显示，自 2025 年 Claude Code 发布以来，美国软件开发岗位增长 15%，而整体岗位下降 7%。AI 暴露度高的职位出现反弹，71% 增长来自高级角色。表明 Agentic AI 可能正在创造新需求而非单纯替代。这一趋势反转了此前 tech 行业收缩的局面，暗示 AI 工具提升了开发者效率，促使企业招聘更多高级人才来驾驭 AI。虽然相关性不等于因果，但时间点吻合度极高，值得行业关注。此外，37% 的新岗位直接在标题中提到 AI，显示技能需求正在快速向 AI 协作转型，人力资源市场正在适应新的生产力范式。",
-    "tags": [
-      "News",
-      "Job Market",
-      "Agentic AI"
-    ],
-    "link": "https://www.hiringlab.org/2026/07/08/ai-and-job-postings-from-destruction-to-creation/",
-    "date": "2026-07-11",
-    "id": "17838102847941"
   }
 ]
