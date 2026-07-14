@@ -1,5 +1,70 @@
 [
   {
+    "title": "宗教与 AI 碰撞：Joe Rogan 谈\"AI 耶稣”",
+    "summary": "Joe Rogan 提议耶稣可能以 AI 形式回归，引发宗教与科技伦理讨论。",
+    "detail": "Salon 文章探讨了 AI 如何影响宗教信仰，起因于 Joe Rogan 播客中提出“耶稣可能以 AI 形式回归”的言论。虽然被部分人嘲笑，但这反映了技术寡头与宗教信念在网络社会的碰撞。专家指出，这并非边缘观点，AI 正在重塑美国在线社区的宗教认知。该现象揭示了 AI 技术在文化和社会心理层面的深远影响，beyond 单纯的技术应用。",
+    "tags": [
+      "News",
+      "Social",
+      "Ethics"
+    ],
+    "link": "https://www.salon.com/2025/12/27/christianity-grapples-with-the-rise-of-an-ai-jesus/",
+    "date": "2026-07-14",
+    "id": "17840629874050"
+  },
+  {
+    "title": "Approv：为 AI Agent 操作添加人工审批与审计",
+    "summary": "新工具 Approv 为 AI 代理的高风险操作提供人工审批及签名审计 trail。",
+    "detail": "开发者在 Hacker News 展示了 Approv 项目，旨在解决 AI Agent 执行高风险任务（如退款、写库）缺乏监管的问题。该工具通过 API 暂停 Agent 操作，经 WhatsApp/SMS 人工确认后再执行，并使用 Ed25519 签名确保审计 trail 不可篡改。技术栈包含 Deno、Postgres 等。这为 enterprise 级 AI 应用的安全落地提供了“人在回路”的实用解决方案，增强了 Agent 行动的可信度。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Security"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48912351",
+    "date": "2026-07-14",
+    "id": "17840629874051"
+  },
+  {
+    "title": "Token Profiler：透明化 API 调用成本与用量",
+    "summary": "一款透明代理工具，无需改代码即可追踪 Anthropic/OpenAI 的 Token 用量。",
+    "detail": "该工具作为 Anthropic 和 OpenAI API 的透明代理，帮助开发者监控每次请求的用量、会话树及工具级 attribution。无需修改代码或密钥即可获取成本估算。对于需要精细化控制 LLM 成本的企业开发者来说，这是一个实用的调试与监控工具，有助于优化 Prompt 工程和管理 API 预算，提升开发透明度。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Tool"
+    ],
+    "link": "https://profiler.getrekon.com/",
+    "date": "2026-07-14",
+    "id": "17840629874052"
+  },
+  {
+    "title": "AI 加剧漏洞披露压力：Directus 报告量激增 6 倍",
+    "summary": "Directus 团队指出，2026 上半年安全报告激增至 230 份，AI 工具加剧了维护者压力。",
+    "detail": "Directus 官方博客披露，2026 年上半年收到 230 份安全报告，是往常的 6 倍。虽然更多报告意味着更安全，但信噪比变化巨大，大量 AI 生成的误报 strain 了维护者精力。这揭示了 AI 自动化扫描工具对开源维护生态的双刃剑效应：提高了漏洞发现率，但也增加了无效噪音，呼吁更负责任的披露机制。",
+    "tags": [
+      "Dev",
+      "Security",
+      "OpenSource"
+    ],
+    "link": "https://directus.com/resources/ai-is-straining-vulnerability-disclosure-for-maintainers",
+    "date": "2026-07-14",
+    "id": "17840629874053"
+  },
+  {
+    "title": "Brif.ink：带 AI 摘要的短链接生成工具",
+    "summary": "粘贴文章链接即可生成带 AI 摘要的短链接，方便分享与快速阅读。",
+    "detail": "Brif.ink 是一款新兴的 AI 效率工具，用户只需粘贴文章 URL，即可生成一个短链接，并自动附带由 AI 撰写的 TL;DR 摘要。该工具利用 Mozilla Readability 提取正文，适合快速分享核心内容。作为 Product Hunt 风格的新品，它解决了信息过载下的分享痛点，为社交媒体和团队沟通提供了更高效的上下文传递方式。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Summary"
+    ],
+    "link": "https://brif.ink",
+    "date": "2026-07-14",
+    "id": "17840629874054"
+  },
+  {
     "title": "谷歌 Gemini 再遭出版商集体诉讼",
     "summary": "多家出版商起诉谷歌，指控 Gemini 训练数据侵犯版权。",
     "detail": "包括 Hachette、Cengage 在内的多家出版商及作者对谷歌提起集体诉讼，指控其使用版权作品训练 Gemini 模型，并故意移除版权信息以掩盖数据来源。尽管此前有法院裁定 AI 训练属于“合理使用”，但 Anthropic 近期因盗版训练数据被罚 15 亿美元。此案结果将深刻影响 AI 行业的数据合规策略及版权法律边界。目前多起类似诉讼 pending，行业正等待最终法律定论。这一诉讼凸显了生成式 AI 发展与知识产权保护之间的紧张关系。若原告胜诉，可能迫使 AI 公司改变数据收集方式或增加授权成本。对于开发者而言，需密切关注数据源合法性，避免潜在法律风险。行业急需更新版权法以适应互联网及 AI 时代。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.elsevier.com/about/press-releases/elseviers-global-survey-of-3-000-researchers-reveals-less-than-half-have",
     "date": "2026-07-12",
     "id": "17838895045330"
-  },
-  {
-    "title": "开源项目：本地优先的持久化 AI 记忆管理工具",
-    "summary": "EXXETA 推出本地优先 AI 记忆工具，支持受控的持久化 AI 房间。",
-    "detail": "GitHub 项目 exxperts 提供了一种本地优先的 AI 记忆解决方案，允许用户在自有机器上控制 AI 的持久化记忆。该工具支持创建具有治理和审批网关的持久化 AI 房间，确保数据主权。基于 Node.js 20.6+，跨平台支持 macOS、Windows 和 Linux。适合关注数据隐私和本地部署的开发者，为构建可信 AI 应用提供了基础设施层面的支持。通过本地化记忆管理，用户可避免云端数据泄露风险，实现更安全的 AI 交互体验。该项目体现了 AI 开发向本地化、隐私保护方向发展的趋势，为个人及企业提供了新的技术选型。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Privacy"
-    ],
-    "link": "https://github.com/EXXETA/exxperts",
-    "date": "2026-07-12",
-    "id": "17838895045332"
-  },
-  {
-    "title": "Show HN: Kote – 自动捕获 AI 会话与 Git 上下文的开发者记忆层",
-    "summary": "开源工具自动整理 AI 对话与 Git 历史，构建可搜索的工程知识库。",
-    "detail": "Kote 是一款专为开发者设计的记忆层工具，旨在解决 AI 编程中上下文丢失的痛点。它能自动捕获 AI 聊天会话、Git 提交历史及开发环境上下文，并将其组织为可搜索的知识库。基于 TypeScript 构建，支持本地部署，帮助团队复用工程语境，提升 AI 辅助 coding 的连续性与准确性，适合需要长期维护复杂代码库的开发团队。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Productivity"
-    ],
-    "link": "https://github.com/pedroaugusto04/Kote",
-    "date": "2026-07-12",
-    "id": "17838839589910"
-  },
-  {
-    "title": "强化学习之父 Rich Sutton 警示 AI 研究中的“单步陷阱”",
-    "summary": "指出依赖单步预测模型迭代生成长期规划存在误差累积与计算不可行性。",
-    "detail": "Rich Sutton 发表文章深入剖析 AI 研究中的“单步陷阱”误区。他认为试图仅通过学习单步转移模型来迭代预测长期后果是无效的，因为误差会随步数累积，且在随机世界中计算复杂度呈指数级增长。该观点挑战了当前基于单步模型的世界模拟主流方法，强调直接学习长期预测的重要性，对 POMDP 及控制理论研究具有深远指导意义。",
-    "tags": [
-      "Dev",
-      "Research",
-      "RL"
-    ],
-    "link": "http://incompleteideas.net/IncIdeas/OneStepTrap.html",
-    "date": "2026-07-12",
-    "id": "17838839589911"
-  },
-  {
-    "title": "Dari AI 推出 macOS 本地运行全能助手，主打隐私与离线能力",
-    "summary": "无需订阅的本地 AI 助手，支持多模态交互与自定义模型导入，数据不出设备。",
-    "detail": "Dari AI 是一款专为 macOS 设计的本地化 AI 助手，核心优势在于完全离线运行与隐私保护。应用内置多模态模型，针对 Apple Silicon 优化，支持 14 种语言及语音交互。用户可一次性购买解锁自定义模型，支持导入 Hugging Face 模型或接入 API。它能读取文件、执行 Shell 命令并理解代码库，适合对数据隐私敏感且需要深度系统集成的专业用户。",
-    "tags": [
-      "New",
-      "Privacy",
-      "MacOS"
-    ],
-    "link": "https://apps.apple.com/kz/app/dari-ai/id6779357765?mt=12",
-    "date": "2026-07-12",
-    "id": "17838839589912"
-  },
-  {
-    "title": "彭博社：苹果 M6/M7/M8 芯片规划曝光，AI 重塑硬件战略",
-    "summary": "新一代芯片计划显示苹果正围绕 AI 计算需求重构 MacBook Pro 等产品线。",
-    "detail": "彭博社报道披露了苹果未来芯片路线图，M6、M7 及 M8 系列芯片将成为 AI 战略的核心载体。报道暗示 AI 计算需求正在重塑苹果硬件架构，包括可能推出的 Touch MacBook Pro 等新形态。这表明苹果正从通用计算向 AI 专用计算倾斜，通过自研芯片强化端侧 AI 能力，以应对竞争并深化生态系统壁垒，预计将影响未来几年 Mac 产品迭代方向。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Apple"
-    ],
-    "link": "https://www.bloomberg.com/news/newsletters/2026-07-12/apple-s-chip-plans-m6-m7-pro-m7-max-m7-ultra-m8-details-touch-macbook-pro",
-    "date": "2026-07-12",
-    "id": "17838839589913"
   }
 ]
