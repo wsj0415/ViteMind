@@ -1,5 +1,83 @@
 [
   {
+    "title": "IBM 股价暴跌 26%，AI 硬件吞噬软件预算",
+    "summary": "企业削减软件支出转向 AI 硬件，IBM 预警引发科技股震荡。",
+    "detail": "IBM 发布财报预警，股价单日暴跌 26%，市值蒸发 500 亿美元。CEO 指出企业客户为锁定 AI 基础设施供应，将预算从软件转向服务器和存储。此趋势波及 ServiceNow、Adobe 等软件股，导致普遍下跌，但 Snowflake、Palantir 等基础设施股逆势上涨。这是需求转移而非下降问题，IBM Z 大型机业务受到 AI 建设冲击。标志着 AI 基建正在吞噬传统软件预算，行业格局面临重构，企业 IT 支出结构发生根本性转变，市场正在快速区分赢家与输家。",
+    "tags": [
+      "News",
+      "IBM",
+      "Market"
+    ],
+    "link": "https://www.bargo.ai/research/ibm-ai-capex-cannibalization",
+    "date": "2026-07-15",
+    "id": "17841031525440"
+  },
+  {
+    "title": "Gartner：AI PC 将成为控制 Token 成本的关键",
+    "summary": "企业担忧云端 AI 成本，转向混合模型，利用本地 AI PC 处理负载。",
+    "detail": "Gartner 发布战略路线图，指出企业正关注云端 AI 的\"Token 经济学”成本问题。为应对不断上升的云服务费用，企业计划采用混合 AI 策略，将部分工作负载卸载到本地 AI PC 上。这为 AI PC 的采购提供了新的经济理由，标志着边缘计算在 AI 部署中的重要性提升，旨在平衡性能与成本可持续性。分析师 Steve Kleynhans 认为，随着企业更好地理解 AI 云成本动态，本地 AI 工具将从开发者用例走向主流，成为控制失控 Token 账单的关键对冲手段。目前设备端 AI 尚未主流化，但成本压力将推动变革，混合策略成为新趋势。",
+    "tags": [
+      "News",
+      "AI PC",
+      "Cost"
+    ],
+    "link": "https://www.theregister.com/personal-tech/2026/07/15/at-last-a-good-reason-to-buy-an-ai-pc-reining-in-runaway-token-bills/5271589",
+    "date": "2026-07-15",
+    "id": "17841031525441"
+  },
+  {
+    "title": "UltraWork 推出固定月费 AI 编程托管服务",
+    "summary": "每月 399 美元无限使用，集成 Kimi K2.7 等模型，无需本地配置。",
+    "detail": "UltraWork 推出 hosted AI 编程环境，主打“固定月费”模式，每月 399 美元，无 Token 计量限制。服务集成 Kimi K2.7 Code 等 curated 模型，提供专用 Chat UI 和智能路由。用户无需本地部署即可通过 API 或控制台进行代码生成与调试。这种定价模式试图解决开发者对云端 AI 成本不可预测的痛点，适合团队协同开发。支持随时取消，无年合同。通过生产级 LLM 网关处理路由和重试，确保聊天快速可靠。导出和分享功能方便团队协作，公平使用政策禁止转售或非编码工作负载，专注于提升开发者体验。注册后即可获得 API 密钥，快速开始构建。",
+    "tags": [
+      "New",
+      "Coding",
+      "SaaS"
+    ],
+    "link": "https://vibecodingagency.com/gpu-cloud/",
+    "date": "2026-07-15",
+    "id": "17841031525442"
+  },
+  {
+    "title": "PixFinder：本地离线 AI 图像与 OCR 搜索工具",
+    "summary": "100% 离线运行，支持自然语言与文本搜索图片，保护隐私。",
+    "detail": "PixFinder 是一款 Windows 本地应用，利用 AI 视觉和 OCR 技术管理图片库。支持通过自然语言描述（如“白色沙滩”）或图片内文本（如发票号）搜索图片。所有处理均在本地完成，无云端上传，确保隐私安全。适用于管理截图、收据、设计稿等大量图片文件，解决传统文件名搜索的局限性，加载万张图片无卡顿。多语言支持，包括意大利语、日语和英语，无需翻译服务器。内置语音活动检测，平滑滚动和快速加载，原生 Windows 外观。旨在帮助用户在不记住文件名的情况下找到任何图像，包括多年前的截图。",
+    "tags": [
+      "New",
+      "OCR",
+      "Privacy"
+    ],
+    "link": "https://pixfinder.app/",
+    "date": "2026-07-15",
+    "id": "17841031525443"
+  },
+  {
+    "title": "Decibri：跨语言统一音频捕获层",
+    "summary": "支持 Python/Node.js/Rust，零依赖实时音频流处理。",
+    "detail": "Decibri 是一个专为 AI Agent 和 Voice AI 设计的统一音频层。支持 Python、Node.js 和 Rust，提供预编译二进制文件，无需系统音频库或编译工具。实现跨平台（macOS/Windows/Linux）低延迟音频捕获与播放，默认 100ms 分块。通过原生迭代器或流接口，方便开发者将音频管道接入 WebSocket 或语音代理，简化实时音频开发流程。类型安全，bundled 类型定义支持 IDE 自动补全。可配置采样率，直接捕获操作系统音频层，无子进程或中间编码。零系统依赖，解决跨平台音频捕获不一致的痛点，让实时音频处理更简单。",
+    "tags": [
+      "Dev",
+      "Audio",
+      "Infrastructure"
+    ],
+    "link": "https://decibri.com/",
+    "date": "2026-07-15",
+    "id": "17841031525444"
+  },
+  {
+    "title": "Agentic Learning Studio：交互式 AI 课程生成器",
+    "summary": "免费 Beta 测试，根据需求生成互动课程与思维导图。",
+    "detail": "Agentic Learning Studio 推出 Beta 版，可将任意 AI 主题转化为交互式课程。用户输入学习目标（如 RAG、Agent），系统生成包含思维导图、代码示例和知识检查的个性化内容。支持基于用户 repo grounding 内容。首周免费，提供 2 节免费课程。旨在通过互动地图式学习替代传统视频教学，加速 AI 技术掌握过程。涵盖 10 个主题轨道，100+ 互动课程，每课 7 个问题覆盖。课程在 2 分钟内建成，提供可引用的来源和可运行的代码。学习者可以探索个性化互动世界地图，模块成为卡片的精神地图，概念和示例按阅读顺序排列。",
+    "tags": [
+      "New",
+      "Education",
+      "LLM"
+    ],
+    "link": "https://prathibhax.com/",
+    "date": "2026-07-15",
+    "id": "17841031525445"
+  },
+  {
     "title": "Meta 被诉利用 AI 识别休假员工进行裁员",
     "summary": "诉讼指控 Meta 使用 AI 标记休假员工以便裁员，引发伦理争议。",
     "detail": "**背景**：Meta 面临最新集体诉讼，指控其滥用 AI 技术。\n**核心**：算法被用于识别休病假或假期的员工，将其标记为裁员目标。\n**影响**：引发科技巨头 AI 伦理与劳动法合规的强烈关注，可能推动相关监管立法，警示企业需谨慎使用 AI 进行人力资源决策。",
@@ -1220,83 +1298,5 @@
     "link": "https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/",
     "date": "2026-07-13",
     "id": "17839605546560"
-  },
-  {
-    "title": "AI 幻觉漏洞报告泛滥，加剧攻防不对称风险",
-    "summary": "开发者 inundated 于 AI 生成的虚假漏洞报告，真实风险被低估。",
-    "detail": "尽管 90% 的 AI 发现漏洞可能是幻觉，但安全风险依然严峻。AI 将漏洞挖掘从昂贵过程变为分类过程，降低了攻击者门槛。防御者资源被虚假报告稀释，而攻击者只需专注寻找真实漏洞。这种不对称性在浏览器等复杂系统中尤为危险，可能导致 JIT 编译器 bug 等严重问题被利用。作者表示这种攻防资源不对等令人冷汗直流，需警惕 AI 辅助攻击。",
-    "tags": [
-      "Dev",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://kerkour.com/ai-slop-vulnerabilities-terrifying",
-    "date": "2026-07-13",
-    "id": "17839605546561"
-  },
-  {
-    "title": "Google Gemini SynthID 检测器出现严重一致性 Bug",
-    "summary": "Gemini 在同一会话中对相同文件的水印检测结果前后矛盾。",
-    "detail": "Lead Stories 发现 Google Gemini 的 SynthID AI 水印检测器存在缺陷。在同一聊天会话中，上传相同视频文件，检测结果是 AI 生成还是非 AI 生成会出现前后矛盾。测试显示 Gemini 似乎总是返回会话中第一个上传文件的结果，即使重复提问新文件。此 Bug 导致假阳性与假阴性，影响内容真实性验证，Google 尚未正式回应。",
-    "tags": [
-      "News",
-      "Google",
-      "Product"
-    ],
-    "link": "https://leadstories.com/analysis/2026/07/google-gemini-synthid-detector-confuses-results-within-same-chat.html",
-    "date": "2026-07-13",
-    "id": "17839605546562"
-  },
-  {
-    "title": "多位诺奖得主及 AI 领袖联名呼吁关注 AI 经济转型",
-    "summary": "包括 Eric Schmidt 在内的众多学者签署声明，要求立即行动应对 AI 经济影响。",
-    "detail": "网站\"We Must Act Now\"发布声明，列举了包括 Eric Schmidt (Google 前 CEO)、Jeff Dean (Google)、Yoshua Bengio 等多位顶尖经济学家及 AI 领袖。签名者来自 Stanford, MIT, OpenAI 等机构。他们强调 AI 正在转型经济，需要立即采取行动。签名阵容横跨学术界与产业界，显示主流观点对 AI 经济冲击的高度共识与紧迫感，呼吁政策制定者关注。",
-    "tags": [
-      "News",
-      "Economy",
-      "Policy"
-    ],
-    "link": "https://www.wemustactnow.ai",
-    "date": "2026-07-13",
-    "id": "17839605546563"
-  },
-  {
-    "title": "世行博客：新兴市场本地化 AI 创业是缩小鸿沟的关键",
-    "summary": "世行博客探讨新兴市场 AI 创业，本地化方案潜力巨大。",
-    "detail": "世界银行博客深入探讨了新兴市场 AI 创业蓝图。以尼日利亚医院为例，初创企业开发离线语音工具结构化临床笔记，为医生节省时间。指出全球 AI 受益不均，低收入国家使用率不足 1%。问题在于生态而非仅 connectivity，多数工具依赖发达地区基础设施。机会在于本地企业家针对特定环境（如电力不稳定）开发模型，解决医疗、农业等集中于此的问题。这种“小 AI，大赌注”模式不依赖波士顿或柏林的工具适配，而是基于当地语言与条件构建，结果吸引了投资并具有可持续增长路径，是缩小全球 AI 鸿沟的关键。",
-    "tags": [
-      "News",
-      "Market",
-      "Healthcare"
-    ],
-    "link": "https://blogs.worldbank.org/en/voices/small-ai--big-bets--how-the-world-s-most-impactful-ai-startups-w",
-    "date": "2026-07-13",
-    "id": "17839491988670"
-  },
-  {
-    "title": "新型 SociaLLM 工程利用社会工程学操纵 AI 代理决策",
-    "summary": "安全文章定义 SociaLLM 工程，警示 AI 代理面临社会工程攻击。",
-    "detail": "文章定义了'SociaLLM 工程’，即利用社会工程学技术操纵 LLM 代理决策。随着公司用 AI 代理取代传统客服，这些 bot 拥有敏感信息访问权，风险剧增。不同于传统提示注入，它利用模型对社会语境的理解塑造行为，例如伪装权威。这可能导致类似钓鱼的攻击或未经授权的委托。随着 AI 代理权限扩大，此类安全风险将成为企业部署自主代理时的核心考量。企业需重新评估代理权限管理，防止“操纵性委托”。安全团队应关注此类新型攻击向量，将社会工程防御纳入 AI 安全框架，以保护后端系统免受自主代理被滥用带来的潜在威胁。",
-    "tags": [
-      "Dev",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://cephalosec.com/blog/sociallm-engineering-old-tricks-ai-agents-are-the-new-victims/",
-    "date": "2026-07-13",
-    "id": "17839491988671"
-  },
-  {
-    "title": "开源自我授权 AI 代理 Cairn 发布，低成本实现自主记忆",
-    "summary": "GitHub 项目 Cairn 展示自我授权代理，拥有身份与记忆。",
-    "detail": "GitHub 仓库展示了 Cairn，一个自我授权的 AI 代理。它拥有独立身份、记忆、日记和博客，均由代理自主编辑并公开提交。仅需 50 美元预算、邮箱及宪法即可运行。该项目展示了 Agent 自主性与持久化记忆的低成本实现方案，通过 commit-by-commit 的方式记录代理 evolution。这种“自我授权”概念允许代理在公共领域维护其存在，无需持续人工干预。通过版本控制记录代理的思考与行为，增加了透明度。这对于研究 AI 行为演化及长期记忆管理具有实验价值，未来此类代理可能应用于个人知识管理，实现真正的数字孪生自主运行。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "OpenSource"
-    ],
-    "link": "https://github.com/opitaru-sys/seed-agent",
-    "date": "2026-07-13",
-    "id": "17839491988672"
   }
 ]
