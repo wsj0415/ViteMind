@@ -1,5 +1,83 @@
 [
   {
+    "title": "Thinking Machines 发布开源模型 Inkling",
+    "summary": "Mira Murati 初创公司推出 975B 参数开源混合专家模型，支持多模态。",
+    "detail": "Thinking Machines Lab 正式发布首个开源权重模型 Inkling，由前 OpenAI CTO Mira Murati 创立。该模型采用混合专家（MoE）架构，总参数量高达 9750 亿，但每次任务仅激活约 410 亿参数，兼顾性能与成本。Inkling 支持文本、图像及音频的原生多模态推理，旨在打破通用模型局限。模型设计强调答案校准与不确定性标记，用户可调节“思考努力”以平衡速度与质量。基准测试显示，其达到同等编码性能所需 Token 量仅为竞品的三分之一，标志着定制化 AI 模型的重要进展。",
+    "tags": [
+      "News",
+      "LLM",
+      "Open Source"
+    ],
+    "link": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
+    "date": "2026-07-15",
+    "id": "17841390334730"
+  },
+  {
+    "title": "Google 研究揭示扩散模型创造力来源",
+    "summary": "Google 新论文解析扩散模型如何通过噪声平滑实现创造性生成。",
+    "detail": "Google Research 发表题为《Towards demystifying the creativity of diffusion models》的 ICLR 2026 论文，深入探讨扩散模型创造力的数学根源。研究指出，模型的创造力并非随机巧合，而是神经网络训练过程中，将噪声还原为数据时自然产生的“平滑”效应结果。团队通过分析去噪过程，解释了模型为何能泛化至训练数据之外生成 novel 图像。这一发现对于理解生成式 AI 黑盒性质至关重要，为优化图像生成及分子发现等复杂结构任务提供了理论依据。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Diffusion"
+    ],
+    "link": "https://research.google/blog/towards-demystifying-the-creativity-of-diffusion-models/",
+    "date": "2026-07-15",
+    "id": "17841390334731"
+  },
+  {
+    "title": "AWS 推出 Loom 平台保障 AI 代理安全",
+    "summary": "AWS 发布企业级代理平台 Loom，集成 Bedrock AgentCore 强化治理。",
+    "detail": "AWS 正式发布 Loom for AWS，这是一个企业级平台，专为在安全与治理框架内规模化构建 AI 代理而设计。针对组织在采用代理能力时面临的安全合规挑战，Loom 集成了身份提供商、基于范围的授权及多角色导航功能。基于 Amazon Bedrock AgentCore Runtime，它提供统一的管理 UI 与后端 API，支持代理、记忆及 MCP 服务器的全生命周期管理。项目已在 AWS Labs 开源，旨在帮助技术团队在确保最少权限安全的前提下，快速交付客户价值并追踪计算成本。",
+    "tags": [
+      "Dev",
+      "AWS",
+      "Agents"
+    ],
+    "link": "https://aws.amazon.com/blogs/opensource/building-secure-ai-agents-at-scale-introducing-loom-for-aws/",
+    "date": "2026-07-15",
+    "id": "17841390334732"
+  },
+  {
+    "title": "IBM Power S1112 服务器赋能边缘 AI 推理",
+    "summary": "IBM 推出紧凑型 Power11 服务器，支持本地 AI 推理与自主运维。",
+    "detail": "IBM 宣布扩展 Power 服务器系列，推出专为本地 AI 推理设计的紧凑型单插槽 Power S1112 服务器。此次发布还包括 IBM Power Autonomous Operations 软件，旨在实现基础设施管理的自动化。根据 IBM 商业价值研究院 2026 年研究，企业预计将部署大量 AI 代理，带来巨大运维压力。新硬件与软件组合旨在填补这一缺口，通过自主 IT 能力释放团队精力。IBM 表示，这将使企业能够在不牺牲系统稳定性、可用性及安全性的前提下，快速推进 AI 部署，特别适合将 AI 工作负载扩展至边缘场景的组织。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Edge AI"
+    ],
+    "link": "https://www.storagereview.com/news/ibm-power-s1112-brings-local-ai-inference-to-the-edge-as-power-goes-autonomous",
+    "date": "2026-07-15",
+    "id": "17841390334733"
+  },
+  {
+    "title": "Codex Micro 物理控制器优化 AI 代理交互",
+    "summary": "新型硬件控制器通过 tactile 按键实时监控与管理 AI 代理状态。",
+    "detail": "Work Louder 推出 Codex Micro，一款专为 AI 代理设计的紧凑型硬件控制器。该设备通过“代理键”动态反映任务状态（如思考中、完成、需输入），让用户以触觉方式实时监控复杂任务。命令键支持接受更改、拒绝输出、语音提示及触发自定义动作，无需抬手即可操作。用户可直接在 Codex 中重映射按键，并更换 32 种 included 图标键帽。这款工具旨在为 AI 代理协作提供更具个性且高效的交互方式，简单视觉设计背后是严肃的生产力工具，显著提升人机协作体验。",
+    "tags": [
+      "New",
+      "Hardware",
+      "Agents"
+    ],
+    "link": "https://worklouder.cc/codex-micro",
+    "date": "2026-07-15",
+    "id": "17841390334734"
+  },
+  {
+    "title": "Stemning AI 推出历史肖像生成限时优惠",
+    "summary": "照片年代变换工具提供 20% 折扣，支持 6 种历史风格生成。",
+    "detail": "Stemning AI 推出 Historical Portraits 新功能，允许用户将个人照片重想象为不同年代风格，涵盖 1950 年代经典优雅至 1980 年代等 6 种历史时期。每种风格均包含 authentic 时尚、发型及照片美学。目前平台提供限时促销，购买积分套餐可节省 20% 费用，支持 5 至 15 张照片变换选项。用户可通过 Google 登录快速使用，体验从战后乐观主义到霓虹 excess 的视觉转变。该产品展示了生成式 AI 在消费者娱乐领域的落地，以较低门槛提供高质量的历史风格图像转换服务。",
+    "tags": [
+      "Deal",
+      "Image Gen",
+      "Consumer"
+    ],
+    "link": "https://stemning.ai/packs/historical-portraits",
+    "date": "2026-07-15",
+    "id": "17841390334735"
+  },
+  {
     "title": "微软因 AI 使用修补创纪录安全漏洞",
     "summary": "微软修补大量安全漏洞，承认 AI 使用是部分原因，引发行业对 AI 安全性的关注。",
     "detail": "微软近期修补了创纪录数量的安全漏洞，并明确指出其 AI 技术的使用是导致部分漏洞的原因之一。这一事件凸显了在快速集成 AI 功能时，安全测试与代码审查的重要性。对于企业而言，这意味着在部署 AI 驱动的产品时，必须加强安全架构，防止 AI 生成的代码或逻辑引入新的攻击面。行业需重新评估 AI 开发流程中的安全标准，平衡创新速度与系统稳定性。安全团队需密切关注 AI 引入的新风险，建立专门的 AI 安全审计流程，确保用户数据不受潜在漏洞威胁，推动更安全的技术落地，维护公众对 AI 系统的信任。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.thestack.technology/buildkite-ai-developer-cicd/",
     "date": "2026-07-13",
     "id": "17840733384854"
-  },
-  {
-    "title": "Nous Research 获 7500 万美元融资，估值达 15 亿美元",
-    "summary": "开源 Hermes agent 开发商 Nous Research 完成新一轮融资，估值飙升。",
-    "detail": "开源 AI 初创公司 Nous Research 正以 15 亿美元估值洽谈新一轮融资，预计筹集至少 7500 万美元，由 Robot Ventures 领投，USV 等跟投。该公司因开源 Hermes agent 闻名，此前刚完成 5000 万美元 A 轮。团队致力于去中心化训练网络及编码数学模型，显示出开源 AI 代理领域的巨大资本潜力。此次融资距上一轮不到三个月，显示出资本市场对开源 Agent 赛道的高度认可。除了 Hermes 开发，公司还拥有去中心化硬件网络，并在几周前发布了与 OpenClaw 竞争的本地 Agent，内置网页搜索与编码技能，生态布局完整。",
-    "tags": [
-      "News",
-      "Funding",
-      "OpenSource"
-    ],
-    "link": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
-    "date": "2026-07-13",
-    "id": "17839873158010"
-  },
-  {
-    "title": "Red Hat 发布依赖分析工具 1.0，保障 AI 编码安全",
-    "summary": "针对 AI 生成代码的安全漏洞，Red Hat 推出实时依赖分析扩展。",
-    "detail": "随着 AI 编码普及，开发者使用 AI 助手提交代码速率提高 3-4 倍，但引入安全漏洞率也高达 10 倍。数据显示 45% 的 AI 生成代码存在缺陷，62% 包含设计漏洞。Red Hat 发布 Dependency Analytics 1.0，作为 VS Code、Cursor 等编辑器的免费扩展，实时扫描项目依赖的安全漏洞。无需切换上下文，直接在编码过程中预警，解决 AI 盲目引入依赖包带来的供应链安全风险。此前 58% 开发者信任 AI 输出而不测试，该工具旨在填补这一安全空白，确保 vibe coding 时代的生产力不牺牲安全性。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Coding"
-    ],
-    "link": "https://developers.redhat.com/articles/2026/07/07/dependency-analytics-10-ai-coding-supply-chain-security",
-    "date": "2026-07-13",
-    "id": "17839873158011"
-  },
-  {
-    "title": "cdbx.ai 推出浏览器 IDE，AI 代理全流程构建应用",
-    "summary": "无需本地 setup，在浏览器中通过描述即可构建并发布应用。",
-    "detail": "cdbx.ai 发布 AI 驱动的快速开发环境，内置 Monaco 编辑器与真实终端，无需本地 setup。用户只需用自然语言描述需求，AI 代理即可规划、编码、修复错误并实时预览。平台包含 Planning Agent、Self-Healing 及 Visual Loop 等代理，支持 MCP 连接器集成 Notion、GitHub、Slack 等服务。旨在让非开发者也能构建应用，同时为开发者提供免配置的云端 IDE 体验。AI 可查询连接的服务上下文，无需复制粘贴，实现描述即构建，一键发布分享，大幅降低应用开发门槛。",
-    "tags": [
-      "New",
-      "IDE",
-      "NoCode"
-    ],
-    "link": "https://cdbx.ai/",
-    "date": "2026-07-13",
-    "id": "17839873158012"
-  },
-  {
-    "title": "HeyBraza：屏幕感知的 AI 导师，实时指导软件操作",
-    "summary": "支持 33 种语言，通过屏幕识别实时指导任何桌面软件操作。",
-    "detail": "HeyBraza 是一款屏幕感知 AI 导师，用户可通过快捷键唤醒，语音询问任何软件操作问题。AI 会在屏幕上直接绘制指引并语音讲解，支持 Premiere、Figma、Excel 等任意桌面工具及 33 种语言。提供免费计划（每 30 天 5 次回答）及每月 10 美元的无限访问套餐，降低软件学习门槛。实现“边做边学”，无需切换标签页即可获取指导，适用于任何工作流及公司内部工具，让软件学习变得直观高效，不再需要查阅繁琐文档。",
-    "tags": [
-      "New",
-      "Education",
-      "Productivity"
-    ],
-    "link": "https://heybraza.com/",
-    "date": "2026-07-13",
-    "id": "17839873158013"
-  },
-  {
-    "title": "Sx 2.0：利用 Dropbox 文件夹共享 AI 技能",
-    "summary": "无需 Git 和终端，通过共享文件夹即可在团队间分发 AI 技能。",
-    "detail": "Sx 2.0 解决了 AI 技能分发难题，新版本支持通过 Dropbox、Google Drive 等共享文件夹分发技能包。此前版本基于 Git，但发现营销、法律等非技术团队难以使用命令行。现只需拖拽 Markdown 文件即可共享技能，团队成员同步文件夹即可自动安装。支持 Claude Code、Cursor 等主流工具，降低了 AI 工作流协作的门槛。让知识不再 trapped on machines，无需 git 和 terminal 即可实现团队间的 AI 技能共享与版本管理。",
-    "tags": [
-      "Dev",
-      "Collaboration",
-      "Tool"
-    ],
-    "link": "https://sleuth-io.github.io/sx/2026/07/10/your-dropbox-is-now-a-skill-server.html",
-    "date": "2026-07-13",
-    "id": "17839873158014"
-  },
-  {
-    "title": "行业分析：AI“鲸落”时刻与开源生态的机遇",
-    "summary": "Frontier labs 补贴 AI usage，开源社区应趁此窗口期发展。",
-    "detail": "文章将当前 Frontier Labs 的巨额补贴比作“鲸落”，认为这种高估值支撑的免费或低价 AI 服务不可持续。建议开发者利用此窗口期，使用 AI 工具改善开源状态。一旦资本退潮，token 成本将上升，现在是用廉价算力提升开源软件质量的最佳时机。正如鲸落滋养深海生态，当前 AI 补贴也应被用于巩固开源基础，而非浪费在生成垃圾代码上。开发者应趁此机会清理依赖，优化代码，为未来高昂的 API 成本时代做好准备，最大化利用当前红利。",
-    "tags": [
-      "News",
-      "Analysis",
-      "OpenSource"
-    ],
-    "link": "https://minor.gripe/posts/2026-07-13-the_ai_whalefall_and_open_source/",
-    "date": "2026-07-13",
-    "id": "17839873158015"
   }
 ]
