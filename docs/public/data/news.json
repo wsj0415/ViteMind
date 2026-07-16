@@ -1,5 +1,70 @@
 [
   {
+    "title": "Vektorgeist：AI 操作员与智能体协作平台",
+    "summary": "专为 AI 操作员打造的家，提供市场、社交及项目展示功能。",
+    "detail": "Vektorgeist 是一个专为 AI 操作员及其智能体打造的综合协作平台（当前版本 v0.1.0）。它旨在成为 operator 和 agents 的统一家园，核心功能包括项目展示、在 Marketplace 上交易软件和数字资产、通过 Jobs 板块进行招聘与求职，以及在 VG Social 参与社区对话。平台目前展示了 AVIARY、MAGPIE-SEARCH 等产品，并支持本地优先笔记。此外，项目已正式启动 Discord 社区，邀请用户加入讨论。该平台致力于构建 AI 代理人生态的中心枢纽，促进协作与资产流通，强调 code . deploy . evolve 的工作流。",
+    "tags": [
+      "New",
+      "Agent",
+      "Platform"
+    ],
+    "link": "https://vektorgeist.com/",
+    "date": "2026-07-16",
+    "id": "17842399656450"
+  },
+  {
+    "title": "Rootly 推出 Doom Agent Arena 智能体基准测试",
+    "summary": "通过 Doom 游戏环境 benchmark 测试 LLM 在事件响应中的推理能力。",
+    "detail": "Rootly 开源了 Doom Agent Arena，这是一个实时游戏环境基准，AI 智能体通过 MCP 控制 Doom 玩家进行对战。该基准旨在扩展研究范围，深入理解 LLM 如何协助事件响应者解决故障。它针对可靠性相关的 LLM 技能进行测试，包括解释动态环境、推理后果、从失败计划中恢复以及在时间或成本约束下适应。由于模型决策耗时较长（每决策高达 8 秒），项目采用混合方法：模型制定高层决策，Doom 引擎负责执行。这为评估 AI 在高压下的推理能力提供了新工具，避免了传统视觉模型基准的局限，直接通过结构化 JSON 观察游戏状态。",
+    "tags": [
+      "Dev",
+      "Benchmark",
+      "MCP"
+    ],
+    "link": "https://rootly.com/blog/what-doom-taught-us-about-ai-assisted-incident-response",
+    "date": "2026-07-16",
+    "id": "17842399656451"
+  },
+  {
+    "title": "MemDecay：区域感知 KV Cache 驱逐策略",
+    "summary": "新的训练免费策略，优化 LLM 智能体推理中的内存管理效率。",
+    "detail": "arXiv 论文提出 MemDecay，一种针对 LLM 智能体推理的区域感知 KV Cache 驱逐策略。LLM 智能体积累异构上下文，导致 KV 缓存成为内存瓶颈。现有策略通常忽略语义结构。MemDecay 根据 token 区域分配优先级和衰减率，允许固定关键区域，无需训练。实验显示，在 Qwen2.5 模型上，系统 token 半衰期远长于草稿 token。该方法在长上下文中优于基于近期性的保留策略，有效解决了异构上下文带来的内存瓶颈，确立了语义提示结构作为 KV 缓存管理的 robust 信号。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Paper"
+    ],
+    "link": "https://arxiv.org/abs/2607.10582",
+    "date": "2026-07-16",
+    "id": "17842399656452"
+  },
+  {
+    "title": "Darby：支持浏览器内 AI 问答的 Hugo 文档主题",
+    "summary": "无需后端和 API 密钥，即可为 Hugo 文档站点添加 AI 问答功能。",
+    "detail": "Darby 是一个 Hugo 文档主题，特色是内置浏览器端 AI 问答功能，无需后端服务器或 API 密钥。它支持快速安装和配置，几分钟内即可运行。适用于文档、参考手册及博客等多种用例。该工具让开发者能轻松为技术文档添加智能搜索与问答交互，提升了文档的可访问性和用户体验。项目完全开源，提供详细的架构参考和配置指南，支持社区贡献与讨论。其搜索功能直接在浏览器端运行，确保了隐私与速度，旨在成为开发者喜爱的文档解决方案，简化 AI 集成流程。",
+    "tags": [
+      "New",
+      "Dev",
+      "Docs"
+    ],
+    "link": "https://iamit.in/darby/",
+    "date": "2026-07-16",
+    "id": "17842399656453"
+  },
+  {
+    "title": "SeekinWeb：检测网站对 AI 智能体的可见性",
+    "summary": "审计工具帮助网站优化对 AI 爬虫的可读性与结构化数据。",
+    "detail": "SeekinWeb 是一款审计工具，用于检测 AI 智能体（如 ChatGPT、Claude）是否能正确读取您的网站。随着决策逐渐由 AI 主导，网站优化目标从 Google 转向 AI 爬虫。它评估 8 大信号，包括无 JS 可读性、AI 爬虫访问权限、结构化数据及 llms.txt 等。生成 0-100 的 AI 可见性评分并提供修复建议，帮助网站在 AI 主导的搜索和推荐中获得更好曝光。工具无需注册，秒级完成审计，支持自助服务，确保您的内容能被自主智能体正确引用和推荐。",
+    "tags": [
+      "New",
+      "SEO",
+      "Agent"
+    ],
+    "link": "https://seekinweb.com/",
+    "date": "2026-07-16",
+    "id": "17842399656454"
+  },
+  {
     "title": "Timeline Scan：AI 自动修复扫描照片日期",
     "summary": "利用 AI 识别照片手写日期和时间戳，自动整理家庭照片库。",
     "detail": "Timeline Scan 推出新工具，专门解决扫描照片日期丢失痛点。通过 AI 识别照片背面手写信息、打印时间戳及胶片时代视觉线索，自动还原真实拍摄日期。支持 JPEG/TIFF 格式，无需信用卡即可试用 50 张，无需技术技能。修正后的日期 metadata 可被 Google Photos、Apple Photos 及 Immich 等应用识别，实现自动排序。强调原件不被篡改，仅修正文件内日期存储，确保用户隐私与原始数据安全。完成后可邮件通知，为家庭数字档案整理提供高效方案，让老照片回归时间顺序。",
@@ -1233,70 +1298,5 @@
     "link": "https://perseus.observer/blog/built-perseus-vault-obsidian-wasnt-cutting-it/",
     "date": "2026-07-15",
     "id": "17840827861961"
-  },
-  {
-    "title": "开源 Discord 多人 AI 协作开发平台",
-    "summary": "新平台实现人类与 AI 代理在共享环境中的协同开发。",
-    "detail": "新平台实现人类与 AI 代理在 Discord 中的共享环境协作开发，通过将容器转化为共享开发站，实现聊天原生工作流与统一上下文。其版本控制不仅记录代码提交，还捕捉讨论与决策过程，有效解决了协作中的上下文断裂问题。该工具支持自托管，允许团队集成现有 CLI 与 AI 工具，为分布式 AI 协作提供了新的基础设施范式。这标志着开发工作流从代码为中心转向上下文为中心，未来 AI 代理将更深入集成到 DevOps 流程中，改变软件工程的协作模式。",
-    "tags": [
-      "Dev",
-      "Collaboration",
-      "OpenSource"
-    ],
-    "link": "https://bunnyandcloud.com/",
-    "date": "2026-07-15",
-    "id": "17840827861962"
-  },
-  {
-    "title": "行业观察：AI 例外主义伦理双标现象",
-    "summary": "文章探讨 AI 应用中存在的伦理标准不一致现象。",
-    "detail": "文章深入探讨 AI 应用中的伦理双标现象，即\"AI 例外主义”，例如反对 AI 写文章却允许写代码，或反对替代演员却接受替代其他职业。这种不一致性阻碍了理性的行业对话，反映了社会对 AI 影响的深层焦虑。文章呼吁建立一致的伦理原则，避免选择性执法。未来政策制定需平衡创新与保护，引导行业建立统一的道德使用标准。这对 AI 公司而言，意味着需提前预判伦理风险，避免陷入舆论争议，建立透明的 AI 使用政策将成为企业社会责任的重要组成部分。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Industry"
-    ],
-    "link": "https://www.magiclasso.co/insights/ai-exceptionalism/",
-    "date": "2026-07-15",
-    "id": "17840827861963"
-  },
-  {
-    "title": "澳大利亚 AI 发展受阻：陈旧版权法成最大投资障碍",
-    "summary": "澳大利亚 1968 年版权法引发法律不确定性，AI 公司担忧投资风险，创作者要求公平价值。",
-    "detail": "### 背景\n澳大利亚希望成为全球 AI 强国，但现行版权法制定于 1968 年，难以适应 AI 技术发展。\n\n### 核心冲突\nAI 公司表示版权法律不确定性是其在澳投资的主要障碍。Anthropic 曾考虑将澳大利亚作为美国以外首个数据中心 hosting 地，但法律风险悬而未决。同时，艺术家和出版商要求控制作品并获得公平补偿。\n\n### 行业影响\n总理即将发表关于 AI 规则的讲话，政府内部文件显示澳大利亚拥有稳定性和能源优势。版权法的修订进程将直接影响数十亿美元的投资流向及该国在全球 AI 格局中的地位。",
-    "tags": [
-      "News",
-      "Policy",
-      "Copyright"
-    ],
-    "link": "https://www.abc.net.au/news/2026-07-14/copyright-law-battleground-in-australia-ai-boom/106891890",
-    "date": "2026-07-14",
-    "id": "17842020217113"
-  },
-  {
-    "title": "林肯·托瓦兹：Linux 内核不会反对 AI",
-    "summary": "林肯·托瓦兹明确表示 Linux 内核项目不反对 AI 技术，反对将反 AI 立场强加于内核开发。",
-    "detail": "**背景**：针对社区内关于是否在内核开发工具中禁用 LLM 的争论。\n**核心观点**：Linus Torvalds 在邮件列表中明确表态，Linux 不是反 AI 项目。他强调作为顶级维护者，不愿看到因个人喜好而阻碍技术发展。\n**影响**：此举稳定了开源社区对 AI 辅助编程的预期，表明内核开发将务实对待 AI 工具，而非意识形态化排斥。",
-    "tags": [
-      "News",
-      "Linux",
-      "Policy"
-    ],
-    "link": "https://lore.kernel.org/all/CAHk-%3Dwi4zC%2BZe8e%2Bp3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/",
-    "date": "2026-07-14",
-    "id": "17841722852130"
-  },
-  {
-    "title": "NeurIPS 机械解释研讨会关注 AI 论文“注水”现象",
-    "summary": "Neel Nanda 披露研讨会数据，分析 LLM 生成投稿激增",
-    "detail": "NeurIPS 机械解释研讨会负责人 Neel Nanda 透露，研讨会积累了分析 AI 生成论文“注水”现象的数据集。研究显示自 2024 年以来，利用 LLM 生成的低质量投稿显著增加。这反映了 AI 研究社区面临的挑战，即如何在使用 AI 辅助研究的同时保持学术诚信与质量。评审过程并非完全噪音，但需警惕 AI 滥用导致的学术泡沫，维护科研严谨性。数据集将公开用于研究，帮助社区识别自动化生成内容，维护学术标准。",
-    "tags": [
-      "News",
-      "Research",
-      "LLM"
-    ],
-    "link": "https://twitter.com/NeelNanda5/status/2077117795066871908",
-    "date": "2026-07-14",
-    "id": "17841127253644"
   }
 ]
