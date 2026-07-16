@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 浪潮冲击 Haskell 生态，知名项目转投 Python",
+    "summary": "Scarf 创始人因 AI 工具链不足弃用 Haskell，引发社区争议。",
+    "detail": "**背景**：Scarf 平台创始人 Avi Press 宣布将新开发从 Haskell 转向 Python。**核心观点**：Haskell 工具链对 AI 辅助开发适配缓慢，而 AI 能显著提升开发速度。**影响**：此举在 Haskell 社区引发剧烈争议，反映了 AI 时代编程语言生态面临的适应性挑战，开发者更倾向于选择 AI 友好型语言。生态滞后可能导致小众语言边缘化。",
+    "tags": [
+      "Dev",
+      "Programming",
+      "AI Adoption"
+    ],
+    "link": "https://www.theregister.com/devops/2026/07/15/prominent-haskell-defector-pilloried-by-anti-ai-purists/5272124",
+    "date": "2026-07-16",
+    "id": "17841828063580"
+  },
+  {
+    "title": "VaultCharts 推出本地优先 AI 交易桌面应用",
+    "summary": "支持本地运行 AI 模型分析交易图表，免费起步，数据不出机。",
+    "detail": "**产品**：VaultCharts 发布桌面端 AI 交易工具，集成技术指标与 AI 助手。**技术**：采用 Local-first 架构，数据、聊天记忆均保留在本地，支持自带模型。**功能**：用户可手动分析或让 AI 扫描结构、总结 setup，旨在成为交易员的“副驾驶”，平衡自动化与人工控制。隐私保护是其主要卖点。",
+    "tags": [
+      "New",
+      "Finance",
+      "Local AI"
+    ],
+    "link": "https://www.vaultcharts.com/",
+    "date": "2026-07-16",
+    "id": "17841828063581"
+  },
+  {
+    "title": "Ode 携手 Anthropic 推动企业级 AI 落地",
+    "summary": "Ode 成为 Anthropic 合作伙伴，助企业将前沿模型转化为业务成果。",
+    "detail": "**合作**：Ode 宣布与 Anthropic 建立深度合作，旨在弥合前沿模型能力与企业实际应用间的差距。**服务**：提供端到端 AI 解决方案，由资深工程师团队负责从路线图到部署的全流程。**价值**：强调构建可扩展的生产系统而非演示 demo，帮助企业在 AI 重塑行业的过程中降低风险并加速交付。解决落地难问题。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Anthropic"
+    ],
+    "link": "https://www.ode.com/",
+    "date": "2026-07-16",
+    "id": "17841828063582"
+  },
+  {
+    "title": "DeepCleanAudio 推出 AI 音频降噪终身优惠",
+    "summary": "基于 DeepFilterNet3 的降噪工具，5 美元终身授权，无订阅费。",
+    "detail": "**产品**：DeepCleanAudio 是一款 AI 驱动的音频降噪软件，可一键清除背景噪音。**优惠**：提供 5 美元终身授权许可，无订阅费用，支持批量处理。**技术**：基于 DeepFilterNet3 模型，能在保持语音自然的同时快速恢复音频清晰度，适合创作者及开发者使用。性价比极高。",
+    "tags": [
+      "Deal",
+      "Audio",
+      "Software"
+    ],
+    "link": "https://steelsoft.site/software/DeepCleanAudio_home.html",
+    "date": "2026-07-16",
+    "id": "17841828063583"
+  },
+  {
+    "title": "深度辨析：AI 不仅仅是工具",
+    "summary": "博主撰文反驳\"AI 只是工具”论调，探讨其对社会原型的深层影响。",
+    "detail": "**观点**：Frank 博客更新文章，批判\"AI 只是工具，关键在于如何使用”的常见说法。**论证**：认为该观点过于天真，忽视了生成式 AI 对原型设计本质的威胁及社会伦理影响。**背景**：文章自 2025 年发布后引发广泛讨论，2026 年更新补充了关于工具制造与 AI 原型瓶颈的深入思考。引发行业反思。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Opinion"
+    ],
+    "link": "https://www.frank.computer/blog/2025/05/just-a-tool.html",
+    "date": "2026-07-16",
+    "id": "17841828063584"
+  },
+  {
     "title": "MIT 挑战：AI 能否制造喷气发动机？",
     "summary": "MIT 学生通过 JARVIS 挑战测试 AI 在硬件工程中的能力，发现制造仍是瓶颈。",
     "detail": "**项目**：JARVIS 挑战要求本科生在 4 周内利用 AI 设计并制造小型燃气涡轮发动机。\n**结果**：AI 显著加速了安全关键型硬件的设计与分析周期，但制造环节仍是主要限制。\n**结论**：AI 原生工程师的核心在于判断力，即知道何时信任 AI 并将其输出转化为实际硬件，而非完全依赖自动化。",
@@ -1233,70 +1298,5 @@
     "link": "https://identify.skin/en",
     "date": "2026-07-14",
     "id": "17840367571543"
-  },
-  {
-    "title": "AI-Notify：感知上下文的终端通知脚本",
-    "summary": "仅在开发者未聚焦代理会话时触发通知，减少干扰。",
-    "detail": "为解决多任务开发中的上下文切换问题，AI-Notify 脚本通过检测窗口焦点，仅在用户未关注活跃代理会话时发送通知。兼容 macOS、Windows 和 Linux，无缝集成 Claude、Codex 等工具。它避免了冗余提醒，让开发者能深度专注其他任务，直到真正需要介入。该工具解决了现代 AI 工具缺乏上下文感知通知的痛点，优化了人机协作流程，显著提升了开发者在代理辅助编程时的多任务处理效率与专注度，是提升开发体验的实用小工具，有效减少中断带来的认知负荷。",
-    "tags": [
-      "Dev",
-      "Productivity",
-      "Script"
-    ],
-    "link": "https://medium.com/engineering-in-the-age-of-ai/ai-notify-context-aware-notifications-for-multi-tasking-developers-3614635398ec",
-    "date": "2026-07-14",
-    "id": "17840367571544"
-  },
-  {
-    "title": "Iconic Games 展示本地化 AI 数字演员技术",
-    "summary": "Iconic 发布 Pressure Point 演示，展示本地模型驱动的 NPC 互动。",
-    "detail": "Iconic Games 发布了\"Pressure Point\"演示，展示其\"Digital Actor\"技术。该技术利用本地模型驱动游戏 NPC，无需云端往返，解决了延迟和成本问题。玩家可与潜艇军官 James 进行自然对话，剧情仍按编剧意图推进。这标志着 AI 在游戏叙事中的重大突破，为交互式故事讲述提供了新范式，证明了本地部署大模型的可行性。",
-    "tags": [
-      "New",
-      "Game",
-      "LLM"
-    ],
-    "link": "https://iconicgames.io/blog/pressure-point/",
-    "date": "2026-07-14",
-    "id": "17840284183890"
-  },
-  {
-    "title": "DeepMind CEO 谈 AGI 与新纪元框架",
-    "summary": "Demis Hassabis 发文称 AGI 仅剩数年，影响堪比电力发现。",
-    "detail": "Google DeepMind CEO Demis Hassabis 发表文章，认为通用人工智能（AGI）距离实现仅几年时间。他将 AGI 的影响比作电力或火的发现，而非普通技术突破。Hassabis 指出 AGI 将加速药物发现、清洁能源开发，可能带来资源不再受限的 abundance 时代。这是行业领袖对技术奇点临近的重要展望，强调了负责任部署的重要性。",
-    "tags": [
-      "News",
-      "AGI",
-      "Google"
-    ],
-    "link": "https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age",
-    "date": "2026-07-14",
-    "id": "17840284183891"
-  },
-  {
-    "title": "X 平台推出 MCP 接口支持 AI 代理",
-    "summary": "X 上线 hosted MCP 服务器，AI 代理可直接分析帖子数据。",
-    "detail": "X 平台推出了托管的 MCP（Model Context Protocol）服务器，允许 AI 工具直接连接接口搜索帖子、管理书签等。开发者演示了通过 AI 代理分析个人发帖数据，发现上午 9 点发帖浏览量最高。这一更新降低了 AI 代理访问社交数据的门槛，为个性化内容分析和自动化运营提供了官方支持的基础设施，推动了 Agent 生态发展。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "MCP"
-    ],
-    "link": "https://lemire.me/blog/2026/07/11/x-just-gave-us-an-interface-that-ai-agents-can-use-i-pointed-it-at-my-own-posts/",
-    "date": "2026-07-14",
-    "id": "17840284183892"
-  },
-  {
-    "title": "Bun 运行时利用 AI 完成百万行代码重构",
-    "summary": "Bun 核心从 Zig 重写为 Rust，百万行代码由 AI 生成。",
-    "detail": "JavaScript 运行时 Bun 宣布将其核心从 Zig 重写为 Rust，涉及约 100 万行代码和 6500 次提交，主要由 AI（Claude Code）完成。创始人表示人类已数月未亲自编写代码。此举引发社区关于 AI 编程能力及遗留代码维护的讨论。这是 AI 生成代码在大型核心项目中的首次大规模应用案例，展示了 AI 辅助开发的巨大潜力与争议。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Rust"
-    ],
-    "link": "https://chaosguru.substack.com/p/merged-at-the-speed-of-ai",
-    "date": "2026-07-14",
-    "id": "17840284183893"
   }
 ]
