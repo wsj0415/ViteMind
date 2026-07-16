@@ -1,5 +1,70 @@
 [
   {
+    "title": "Spotify 清理 7500 万首\"AI 垃圾”歌曲",
+    "summary": "Spotify 移除大量 AI 生成垃圾曲目，推行艺术家验证与 AI 透明度标签。",
+    "detail": "Spotify 宣布在过去 12 个月内移除了 7500 万首被视为\"AI slop\"的垃圾曲目，包括垃圾、spam 和低效内容。平台不再禁止使用 AI 创作，但要求艺术家透明披露。推出艺术家验证计划及 AI credits 标签，旨在平衡创作自由与用户体验，防止低质内容污染平台。Spotify 全球头部艺术家营销政策负责人 Sam Duboff 表示，没人想要垃圾内容污染体验。对于严重垃圾邮件则完全移除。此举标志着流媒体巨头对 AI 内容治理的重大转向，影响全球音乐创作生态。艺术家仍可选择是否使用 AI，但需对听众诚实。Spotify 正致力于让 AI 音乐更容易被识别。这一政策变化可能引发其他流媒体平台效仿，重新定义 AI 生成内容在商业平台上的生存空间与标注标准。",
+    "tags": [
+      "News",
+      "Music",
+      "Policy"
+    ],
+    "link": "https://www.abc.net.au/news/2026-07-16/spotify-making-ai-music-easier-to-detect/106919814",
+    "date": "2026-07-16",
+    "id": "17841933349120"
+  },
+  {
+    "title": "Atelier：开源本地优先 AI 桌面工作区",
+    "summary": "开源本地 AI 应用，支持离线模型，文件索引不出机器，保障隐私。",
+    "detail": "Atelier 是一款面向 Mac 和 Linux 的免费开源 AI 工作区。主打\"Local-first\"，文件索引与对话均在本地完成，数据不上传服务器。支持接入 Ollama、Apple Foundation Models 或云端 API。提供引用溯源功能，答案可链接至具体文件段落。适合注重隐私的开发者与研究人员处理敏感数据，实现完全可控的本地知识问答。用户可选择文件夹，应用本地索引后提问，答案可导出复用。支持随时切换云模型或本地模型，确保数据主权。每一步都确保文件不离开机器。适合处理敏感企业数据或个人隐私文件。通过本地索引技术，实现了速度与隐私的平衡。相比云端方案，减少了 API 调用成本与延迟。为本地大模型应用提供了优秀的交互界面参考。",
+    "tags": [
+      "New",
+      "Privacy",
+      "OpenSource"
+    ],
+    "link": "https://open-atelier.app",
+    "date": "2026-07-16",
+    "id": "17841933349121"
+  },
+  {
+    "title": "Northstar：AI 驱动的 PR 风险审查工具",
+    "summary": "专为 Azure DevOps 设计，AI 评估 PR 风险等级，不存储代码差分。",
+    "detail": "Northstar 针对 Azure DevOps 和 GitHub 团队提供 AI 辅助 PR 审查。它自动 grading 交付风险，引导 reviewer 关注高危变更，并生成发布笔记。核心特性是内存处理差分数据，不持久化存储代码，保障安全。采用扁平定价而非按席位收费，解决 AI 时代代码审查信任瓶颈。帮助团队在 AI 生成代码激增背景下，快速识别高风险变更。Webhook 触发后静默处理，提供技术与管理层不同的发布笔记摘要。确保补丁数据永不触盘，仅保留风险信号。这种安全设计消除了企业对代码泄露的顾虑。扁平定价模式降低了团队使用门槛，适合中小型开发团队快速集成 AI 审查流程。从 webhook 到审查完成仅需一次静默传递，大幅缩短反馈周期。",
+    "tags": [
+      "Dev",
+      "CodeReview",
+      "Security"
+    ],
+    "link": "https://northstardevops.com/",
+    "date": "2026-07-16",
+    "id": "17841933349122"
+  },
+  {
+    "title": "黑客热议：代码审查未为 AI 时代构建",
+    "summary": "社区讨论 AI 生成代码速度已超过人类审查能力，信任成为新瓶颈。",
+    "detail": "Hacker News 热议文章指出，软件工程瓶颈已从“编写代码”转移至“信任代码”。AI 生成速度远超人类审查容量，传统 Code Review 流程失效。开发者常批准含关键 bug 的 PR。行业需重构审查机制，从逐行检查转向风险基于的信任验证，适应 AI 辅助编程新常态。这反映了 AI 编码普及后工程流程面临的深层挑战。作者观察到人类从未真正规模化代码审查，现在速度差异更大。信任成为生产环境有效运行的关键。这迫使工程管理者重新思考质量保证流程。未来可能更多依赖 AI 辅助审查 AI 代码，形成新的自动化信任链条。瓶颈不再是写作而是信任，人类审查需转向更高阶的逻辑验证。",
+    "tags": [
+      "Dev",
+      "Industry",
+      "Discussion"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48931713",
+    "date": "2026-07-16",
+    "id": "17841933349123"
+  },
+  {
+    "title": "DocuWriter：AI 自动生成代码文档与 UML",
+    "summary": "连接仓库自动生成书式文档、API 参考及 UML 图，保持同步更新。",
+    "detail": "DocuWriter 是一款 AI 代码文档工具，连接 GitHub 等仓库后自动生成完整文档树。支持代码文档、API 参考及 UML 序列图生成，并随代码演变保持同步。无需维护 MDX 或专门文档团队。已被 NVIDIA、MIT 等机构使用，旨在解决工程团队文档缺失或过时痛点。支持 OAuth 或 PAT 两点击连接，大幅降低文档维护成本。生成书式文档树，涵盖控制器、模型等服务结构。解决继承旧代码库无人知晓如何工作的常见问题。无需文档团队即可保持文档与代码同步更新。这对于快速迭代的初创公司或维护遗留系统的大厂尤为重要，显著降低技术债务累积速度。三步即可完成连接，无需复杂配置。",
+    "tags": [
+      "New",
+      "Documentation",
+      "DevTool"
+    ],
+    "link": "https://www.docuwriter.ai/",
+    "date": "2026-07-16",
+    "id": "17841933349124"
+  },
+  {
     "title": "AI 浪潮冲击 Haskell 生态，知名项目转投 Python",
     "summary": "Scarf 创始人因 AI 工具链不足弃用 Haskell，引发社区争议。",
     "detail": "**背景**：Scarf 平台创始人 Avi Press 宣布将新开发从 Haskell 转向 Python。**核心观点**：Haskell 工具链对 AI 辅助开发适配缓慢，而 AI 能显著提升开发速度。**影响**：此举在 Haskell 社区引发剧烈争议，反映了 AI 时代编程语言生态面临的适应性挑战，开发者更倾向于选择 AI 友好型语言。生态滞后可能导致小众语言边缘化。",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/",
     "date": "2026-07-14",
     "id": "17840428850405"
-  },
-  {
-    "title": "Oodle.ai 推出 Agent 可观测性服务",
-    "summary": "新推 Agent 追踪服务，定价低至每百万追踪 10 美元，支持调试与成本管。",
-    "detail": "Oodle.ai 推出了新的 Agent Observability 产品，主打调试与规模化能力。定价策略极具竞争力，Agent 追踪费用低至每百万 spans 10 美元。产品功能涵盖 Agent 调试、可观测性、指标、日志及追踪，支持 Kubernetes 监控及 BYOC 部署。该工具旨在解决 AI Agent 开发中的黑盒问题，帮助开发者监控 Agent 行为并优化成本，适合需要大规模部署 Agent 的团队。随着 Agent 应用复杂化，可观测性成为刚需，此低价策略可能加速中小团队采用监控工具，提升 Agent 生产环境的稳定性与可维护性。相比传统 APM 工具，针对 Agent 的追踪需处理非确定性输出及长链路依赖。Oodle 的低价策略降低了监控门槛，使团队能更早发现 Agent 逻辑错误或成本异常。随着 Agent 应用从实验走向生产，可观测性将成为标准配置，帮助开发者在复杂的多步任务中定位故障根源，优化 Token 消耗。",
-    "tags": [
-      "Deal",
-      "Dev",
-      "Observability"
-    ],
-    "link": "https://www.oodle.ai/product/agent-observability",
-    "date": "2026-07-14",
-    "id": "17840428850406"
-  },
-  {
-    "title": "Anthropic 投资 1000 万加元支持加拿大 AI 研究",
-    "summary": "Anthropic 宣布资助加拿大三大 AI 研究所，推动负责任 AI 发展。",
-    "detail": "Anthropic 宣布向加拿大研究机构承诺 1000 万加元投资，合作伙伴包括 Amii、Mila 和 Vector Institute 等三大区域 AI 研究所。此举旨在资助有益且负责任的 AI 应用研究，巩固加拿大在神经网络和强化学习领域的历史领先地位。此外，Anthropic 发布了首份加拿大国家简报，基于 Anthropic 经济指数，展示了当地用户如何使用 Claude 工作。这笔资金还将支持 CHEO、CAMH 等机构，推动 AI 在医疗及安全政策方面的研究，体现大厂对全球 AI 生态的布局与对基础研究的高度重视，有助于加速 AI 安全技术的迭代。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "Investment"
-    ],
-    "link": "https://www.anthropic.com/news/canadian-ai-research",
-    "date": "2026-07-14",
-    "id": "17840367571540"
-  },
-  {
-    "title": "Kmux：专为 AI 编码代理设计的并行终端工作区",
-    "summary": "支持多会话恢复与 API 监控，优化 macOS/Linux 开发体验。",
-    "detail": "Kmux 是一款面向 macOS 和 Linux 的键盘中心终端模拟器，专为 Claude Code、Codex CLI 及 Antigravity CLI 等 AI 编码代理设计。核心功能包括并行代理会话跟踪、API 使用仪表板以及通过原生 git worktrees 安全分支工作。它支持多会话恢复，允许开发者并排运行多个 AI 代理，有效解决了上下文切换难题。通过自动化 git 工作树，确保代码修改安全隔离，显著提升了 AI 辅助编程的工作流效率与安全性，是开发者优化本地 AI 环境的理想工具，特别适合同时管理多个代理任务的场景，提升工程化落地能力。",
-    "tags": [
-      "Dev",
-      "Terminal",
-      "AI Agents"
-    ],
-    "link": "https://github.com/kkd927/kmux",
-    "date": "2026-07-14",
-    "id": "17840367571541"
-  },
-  {
-    "title": "深度伪造应对新策：多模态溯源优于检测技术",
-    "summary": "文章主张默认 distrust 媒体，通过加密签名证明真实性。",
-    "detail": "针对日益猖獗的深度伪造，文章提出检测技术已陷入军备竞赛劣势，主张默认不信任图像视频，除非能通过加密签名的多模态捕获证明其真实性。这种“溯源优于检测”的策略旨在通过提高伪造成本来解决虚假媒体问题。结合平台政策和法律责任，对未标记生成内容进行追责。这标志着从“检测虚假”向“证明真实”的范式转变，对内容安全政策、法律框架及媒体信任体系重建具有深远影响，是应对 AI 生成内容风险的新思路，可能成为未来行业标准，重塑数字内容信任机制。",
-    "tags": [
-      "News",
-      "Deepfake",
-      "Security"
-    ],
-    "link": "https://www.lesswrong.com/posts/MBRNR5h9g6HGvAJDe/don-t-bring-an-ai-detector-to-a-deepfake-fight-proving",
-    "date": "2026-07-14",
-    "id": "17840367571542"
-  },
-  {
-    "title": "Identify Skin：准确率 97% 的 AI 皮肤科 SaaS 服务",
-    "summary": "检测 150 多种皮肤病，临床验证性能媲美专业医生。",
-    "detail": "Identify Skin 推出基于 AI 的皮肤扫描 SaaS 服务，宣称在皮肤癌分类上达到世界級准确率。模型经过数百万医学图像训练，涵盖皮肤科至 X 光、CT 等数据，在 ISIC 2024 基准测试中表现优异，敏感度达 97%。虽仅供信息参考且未获 FDA 批准，但其性能在 1500 个病变样本研究中与 16 位认证皮肤科医生相当。该服务检测 150 多种皮肤状况，从黑色素瘤到痤疮，展示了 AI 在医疗诊断辅助领域的落地潜力与商业价值，为用户节省每次高达 250 美元的就诊费用，降低医疗门槛。",
-    "tags": [
-      "New",
-      "Healthcare",
-      "SaaS"
-    ],
-    "link": "https://identify.skin/en",
-    "date": "2026-07-14",
-    "id": "17840367571543"
   }
 ]
