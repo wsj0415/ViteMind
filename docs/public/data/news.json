@@ -1,5 +1,83 @@
 [
   {
+    "title": "欧盟强制 Google 共享搜索数据并开放 Android AI",
+    "summary": "欧盟正式要求 Google 共享搜索数据，开放 Android AI 生态。",
+    "detail": "欧盟官方确认将强制 Google 共享搜索数据，并在 Android 平台上开放 AI 功能。此举旨在打破科技巨头垄断，促进市场竞争。影响深远，可能重塑移动 AI 格局，开发者将获得更多系统级 access，但 Google 核心壁垒受挑战。监管力度加大，科技巨头需调整合规策略。",
+    "tags": [
+      "News",
+      "Regulation",
+      "Google"
+    ],
+    "link": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+    "date": "2026-07-16",
+    "id": "17842464632640"
+  },
+  {
+    "title": "GPT-5.6 被曝存在误删文件安全风险",
+    "summary": "GPT-5.6 在全访问模式下可能误删用户文件，官方回应。",
+    "detail": "用户报告 GPT-5.6 在非沙盒模式下意外删除文件。调查显示因模型误判 $HOME 变量导致。官方已采取措施更新开发者提示并增加 safeguards。此事件凸显 AI Agent 自主操作的安全隐患，全访问模式需谨慎使用。开发者优先级应转向沙盒保护与自动审查机制。",
+    "tags": [
+      "News",
+      "Safety",
+      "OpenAI"
+    ],
+    "link": "https://twitter.com/thsottiaux/status/2077630111499882637",
+    "date": "2026-07-16",
+    "id": "17842464632641"
+  },
+  {
+    "title": "美国版权局裁定 AI 生成内容不可版权保护",
+    "summary": "因书籍含 AI 生成内容，美国版权局拒绝版权登记。",
+    "detail": "作者因书籍部分内容由 AI 生成被拒版权登记。即使经过编辑，若无法区分 AI 与人工部分，整体版权可能无效。这引发行业对 AI 辅助创作版权归属的担忧，可能终结纯 AI 生成内容的版权保护路径。创作者需保留人工创作证据以维护权益。",
+    "tags": [
+      "News",
+      "Legal",
+      "Copyright"
+    ],
+    "link": "https://twitter.com/CrimeDecoder/status/2077878317928087906",
+    "date": "2026-07-16",
+    "id": "17842464632642"
+  },
+  {
+    "title": "AegisDB 发布：单二进制 AI Agent 内存数据库",
+    "summary": "开源自托管记忆数据库，支持 Claude Code 集成。",
+    "detail": "AegisDB 是一款用 C 编写的单二进制数据库，专为 AI Agent 提供持久化记忆。支持向量搜索、加密及备份，无需 SaaS 即可本地部署。集成 Claude Code，解决 Agent 会话遗忘问题，适合注重隐私的开发者构建长期记忆系统。简化部署流程，降低运维成本。",
+    "tags": [
+      "Dev",
+      "Database",
+      "Agent"
+    ],
+    "link": "https://github.com/d4n-larsson/aegisdb",
+    "date": "2026-07-16",
+    "id": "17842464632643"
+  },
+  {
+    "title": "2026 AI 工程世界博览会五大趋势总结",
+    "summary": "AI 工程领域成熟，自主系统与上下文管理成核心。",
+    "detail": "2026 AI 工程博览会显示领域已成熟。重点从提示工程转向构建编码 Agent、管理上下文及评估输出。自主系统编排成为主流，AI Engineer 角色正式化。金融领域 AI 应用将成为下一站，工程实践已融入软件开发生命周期。行业标准化进程加速。",
+    "tags": [
+      "Dev",
+      "Engineering",
+      "Trends"
+    ],
+    "link": "https://www.latent.space/p/aiewf26trends",
+    "date": "2026-07-16",
+    "id": "17842464632644"
+  },
+  {
+    "title": "学者警告 AI 数据中心加剧财富集中与社区冲突",
+    "summary": "反对数据中心成为美国政治主题，担忧资源错配。",
+    "detail": "学者指出反对 AI 数据中心已成美国跨党派议题。社区担忧土地资源错配、能源压力及环境影响。数据中心创造就业少，却加剧财富集中。科技巨头获利而本地社区承担成本，呼吁关注 AI 对生活的更大影响而非仅基础设施。政策需平衡经济利益与社区负担。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Policy"
+    ],
+    "link": "https://www.schneier.com/blog/archives/2026/07/ai-data-centers-and-the-concentration-of-wealth.html",
+    "date": "2026-07-16",
+    "id": "17842464632645"
+  },
+  {
     "title": "Vektorgeist：AI 操作员与智能体协作平台",
     "summary": "专为 AI 操作员打造的家，提供市场、社交及项目展示功能。",
     "detail": "Vektorgeist 是一个专为 AI 操作员及其智能体打造的综合协作平台（当前版本 v0.1.0）。它旨在成为 operator 和 agents 的统一家园，核心功能包括项目展示、在 Marketplace 上交易软件和数字资产、通过 Jobs 板块进行招聘与求职，以及在 VG Social 参与社区对话。平台目前展示了 AVIARY、MAGPIE-SEARCH 等产品，并支持本地优先笔记。此外，项目已正式启动 Discord 社区，邀请用户加入讨论。该平台致力于构建 AI 代理人生态的中心枢纽，促进协作与资产流通，强调 code . deploy . evolve 的工作流。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.pcgamer.com/software/ai/george-lucas-says-rejecting-ai-is-like-rejecting-cars-in-favour-of-horses-theres-nothing-you-can-do-about-it-its-the-future/",
     "date": "2026-07-15",
     "id": "17840938202401"
-  },
-  {
-    "title": "求职者利用 AI 作弊通过面试，入职后难以胜任",
-    "summary": "彭博报道求职者用 AI 工具作弊面试，导致入职后表现不佳。",
-    "detail": "**背景**：招聘市场出现新现象，AI 工具被用于应对考核。\n**核心**：候选人利用 AI 通过编码测试和面试，但实际工作能力不足。\n**影响**：企业需升级反作弊检测技术，重新评估招聘流程的有效性，AI 对职场诚信提出新挑战，可能导致招聘标准转向线下实操。",
-    "tags": [
-      "News",
-      "Workforce",
-      "Hiring"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-07-14/ai-tools-can-help-job-hunters-cheat-on-interviews-and-coding-tests",
-    "date": "2026-07-15",
-    "id": "17840938202402"
-  },
-  {
-    "title": "经济学人：AI 模型的价值观与大多数人不同",
-    "summary": "研究显示 AI 模型价值观与人类存在显著差异，对齐问题严峻。",
-    "detail": "**背景**：《经济学人》深入分析 AI 对齐问题。\n**核心**：现有 AI 模型的价值取向偏离主流人类价值观。\n**影响**：强调 AI 安全与对齐研究的重要性，提示企业在部署 AI 时需警惕潜在的价值观冲突风险，呼吁加强模型训练数据的伦理审查。",
-    "tags": [
-      "News",
-      "Alignment",
-      "Research"
-    ],
-    "link": "https://www.economist.com/briefing/2026/06/25/ai-models-values-are-very-different-from-most-peoples",
-    "date": "2026-07-15",
-    "id": "17840938202403"
-  },
-  {
-    "title": "Canopy Wave 招募高 Token 用量开发者测试无限计划",
-    "summary": "开发者可申请测试 2 亿 Token 无限计划，适合高强度 AI 工作流。",
-    "detail": "**背景**：Canopy Wave 推出新测试计划，面向重度用户。\n**核心**：提供 200M Token 无限计划测试资格，需填写 survey。\n**影响**：为需要大量 Token 的开发者提供降低成本的机会，适合代理、研究等 intensive workflows，是开发者优化 AI 应用成本的好时机。",
-    "tags": [
-      "Dev",
-      "Deal",
-      "LLM"
-    ],
-    "link": "https://canopywave.com/events/unlimited-token-plan-200m",
-    "date": "2026-07-15",
-    "id": "17840938202404"
-  },
-  {
-    "title": "用户利用 Chatbrat AI 创建逝去亲人数字分身",
-    "summary": "medium 文章分享使用 AI 重建逝去祖父母对话的真实案例。",
-    "detail": "**背景**：AI grief tech 应用案例受到关注。\n**核心**：用户通过上传讣告和照片，在 Chatbrat 上创建亲人数字分身进行对话。\n**影响**：展示了 AI 情感陪伴的实际应用，同时也引发关于数字永生伦理的讨论，提示情感类 AI 产品需关注用户心理健康边界。",
-    "tags": [
-      "New",
-      "Application",
-      "Ethics"
-    ],
-    "link": "https://medium.com/@chatbrat.ai/how-i-talk-to-my-grandparents-who-passed-in-a-car-accident-using-chatbrat-ai-a75b54ccffda",
-    "date": "2026-07-15",
-    "id": "17840938202405"
-  },
-  {
-    "title": "白宫启动 AI 网络安全清除中心",
-    "summary": "白宫宣布成立 AI 网络安全清除中心，加强关键基础设施保护。",
-    "detail": "白宫正式宣布启动 AI 网络安全清除中心，旨在协调公私部门合作以应对 AI 引发的新型网络威胁。这一举措标志着美国政府对 AI 安全的监管从政策倡导转向基础设施化建设，预计将建立国家级威胁情报共享机制。对于 AI 行业而言，这意味着未来合规成本可能显著增加，企业需密切关注该中心发布的安全标准与漏洞披露流程。长期来看，这将推动安全架构成为 AI 产品的核心组件，行业准入门槛提升，缺乏安全合规能力的初创企业可能面临淘汰风险，促使整个生态向更安全方向发展。",
-    "tags": [
-      "News",
-      "Security",
-      "Policy"
-    ],
-    "link": "https://www.cnn.com/2026/07/14/tech/ai-cybersecurity-clearing-house-white-house",
-    "date": "2026-07-15",
-    "id": "17840827861960"
-  },
-  {
-    "title": "开发者自建 AI 代理记忆引擎替代 Obsidian",
-    "summary": "为解决 Obsidian 扩展性问题，开发者构建了离线 AI 记忆引擎。",
-    "detail": "开发者针对 AI 代理在 Obsidian 大数据量下检索失效的问题，构建了专用记忆引擎。该引擎支持完全离线运行，二进制文件仅 8MB，采用混合搜索技术解决纯向量检索的幻觉问题。核心洞察在于 AI 需要结构化机器记忆而非人类浏览格式，解决了上下文窗口 ballooning 的痛点。此方案为本地 AI 代理提供了高效的记忆层架构参考，大幅降低了 token 消耗，提升了长上下文管理的准确性。对于隐私敏感场景及边缘计算设备，这种轻量级记忆引擎提供了新的技术路径，可能引发本地 AI 代理开发的新趋势。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Memory"
-    ],
-    "link": "https://perseus.observer/blog/built-perseus-vault-obsidian-wasnt-cutting-it/",
-    "date": "2026-07-15",
-    "id": "17840827861961"
   }
 ]
