@@ -1,5 +1,83 @@
 [
   {
+    "title": "英伟达推进 AI-RAN 战略，拟推 6G 无线电单元芯片",
+    "summary": "英伟达确认开发 6G 无线电单元芯片，将 GPU 引入基站天线侧。",
+    "detail": "英伟达正扩展其 AI-RAN 战略，计划推出用于 6G 无线电单元（RU）的芯片。此前其 Grace Hopper 超级芯片已覆盖中央单元和分布式单元，此次标志着 GPU 将深入基站天线侧。此举旨在利用并行计算优势重塑无线接入网络，巩固其在通信基础设施领域的地位。CEO 黄仁勋致力于将芯片插入所有设备，从 PC 到汽车再到家庭数据中心，此次 6G 布局显示其长期野心。这可能改变未来通信硬件架构，为 6G 时代奠定算力基础，影响电信设备市场竞争格局，使通用处理器进一步取代定制硅片，推动电信网络向软件定义和 AI 原生架构转型，增强边缘计算能力。",
+    "tags": [
+      "News",
+      "Nvidia",
+      "6G"
+    ],
+    "link": "https://www.lightreading.com/6g/nvidia-has-a-radical-new-ai-ran-plan-a-6g-radio-unit-chip",
+    "date": "2026-07-17",
+    "id": "17842691639610"
+  },
+  {
+    "title": "Lightport：轻量级 AI 网关，兼容 OpenAI 接口",
+    "summary": "专注于请求转换的轻量级网关，支持 77 个 LLM 提供商。",
+    "detail": "Lightport 是 Portkey AI Gateway 的轻量级分支，专注于将不同 LLM 提供商的接口转换为 OpenAI 兼容格式。它不支持缓存或限流等高级功能，旨在作为底层代理层，适合需要简单协议转换而不需要复杂网关功能的开发者使用。支持 OpenAI、Anthropic、Google 等 77 个提供商，修复了原项目的 numerous bugs 并增加了集成测试。该工具直接 powering Glama 平台，体现了模块化设计趋势，让开发者能更灵活地构建 AI 应用架构，降低多模型切换成本。它明确区分了网关与服务平台的边界，为构建更稳健的 AI 基础设施提供了简洁可靠的中间件选择，简化了异构模型集成流程。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "LLM"
+    ],
+    "link": "https://github.com/glama-ai/lightport",
+    "date": "2026-07-17",
+    "id": "17842691639611"
+  },
+  {
+    "title": "中国提议建立全球 AI 新秩序，挑战美国主导地位",
+    "summary": "上海会议上，中国领导人倡导 AI access，挑战美国主导权。",
+    "detail": "在上海举行的会议上，中国领导人提议将中国定位为全球 AI 新秩序的领导者，强调 AI access 的承诺，直接挑战美国的 dominance。这一地缘政治动向表明 AI 技术已成为国际竞争的核心焦点。未来全球 AI 治理框架可能面临分裂或重组，影响跨国技术合作与标准制定。此举可能推动发展中国家采用中国主导的 AI 基础设施，加剧中美在技术标准、数据流动及算力资源上的博弈，重塑全球科技产业链分布。这标志着 AI 竞争已从企业层面上升至国家战略层面，可能引发新一轮的技术封锁与反封锁，影响全球开源生态的发展走向。",
+    "tags": [
+      "News",
+      "Policy",
+      "Geopolitics"
+    ],
+    "link": "https://www.reuters.com/world/asia-pacific/chinas-xi-promotes-chinas-commitment-ai-access-speech-shanghai-conference-2026-07-17/",
+    "date": "2026-07-17",
+    "id": "17842691639612"
+  },
+  {
+    "title": "欧盟反垄断新规：强制 Google 共享搜索数据并开放 Android",
+    "summary": "欧盟迫使 Google 向 rival AI 公司共享数据，开放 Android 生态。",
+    "detail": "欧盟发布新的反垄断规则，强制 Google 共享搜索数据并向 rival AI 公司开放 Android 系统。此举旨在打破科技巨头的数据垄断，促进 AI 领域的公平竞争。这将显著降低竞争对手获取训练数据和分发渠道的门槛，可能重塑搜索市场和移动生态系统的竞争格局。对于 AI 初创公司而言，这意味着更低的获客成本和更丰富的数据源，但也可能引发关于数据隐私和安全的新争议，迫使 Google 调整其商业策略。该裁决可能成为全球反垄断的标杆，促使其他地区效仿，进一步限制科技巨头的市场权力，推动开放生态系统的建立。",
+    "tags": [
+      "News",
+      "Regulation",
+      "Google"
+    ],
+    "link": "https://apnews.com/article/eu-google-android-antitrust-184b3067120e56d858cb8c81aee26d45",
+    "date": "2026-07-17",
+    "id": "17842691639613"
+  },
+  {
+    "title": "Voidguard：检测 AI 生成的无效测试代码工具",
+    "summary": "静态扫描器识别“绿色但无验证”的测试，确保测试有效性。",
+    "detail": "Voidguard 是一个静态扫描工具，专门检测“无效守卫”（void guards），即那些通过但实际未验证任何内容的测试。它能识别从未运行的测试、无效的类型检查或被静默丢弃的设置。该工具帮助开发者确保 CI 流程中的测试真实性，防止 AI 生成代码带来的“虚假绿色”风险。随着 AI 编码普及，测试质量参差不齐，此工具提供了量化评估手段，提升软件质量，确保测试用例真正覆盖代码逻辑，避免回归测试失效。它支持 Python 3.11+，可集成至 GitHub Actions，为团队提供了自动化质量门禁，减少了人工审查测试有效性的成本，保障软件交付的可靠性。",
+    "tags": [
+      "Dev",
+      "Testing",
+      "AI Code"
+    ],
+    "link": "https://driivai.github.io/voidguard/",
+    "date": "2026-07-17",
+    "id": "17842691639614"
+  },
+  {
+    "title": "Scribe：基于 CLI 的 AI 代理记忆构建工具",
+    "summary": "自动读取 Git 历史和会话，为 AI 代理构建本地知识库。",
+    "detail": "Scribe 是一个 CLI 工具，通过读取 Git 历史、Claude Code 会话和 URL，自动为 AI 代理编写知识库。它支持本地运行（Ollama），无需 API 费用。工具采用三阶段管道：捕获、分类吸收和编译索引，生成带反向链接的 Markdown 文档。这解决了 AI 代理缺乏长期记忆的问题，适合开发者维护项目上下文。通过自动化文档更新，它减少了人工维护知识库的负担，使 AI 代理能更准确地理解项目演进历史，提升编码辅助的准确性。其本地化运行特性保护了代码隐私，适合对数据安全敏感的企业环境，为构建个性化 AI 编程助手提供了新的解决方案。",
+    "tags": [
+      "New",
+      "Agent",
+      "CLI"
+    ],
+    "link": "https://getscribe.dev/",
+    "date": "2026-07-17",
+    "id": "17842691639615"
+  },
+  {
     "title": "VulnHunter：代理式 AI 安全工具",
     "summary": "Capital One 开源的代理式 AI 安全工具，用于漏洞猎取。",
     "detail": "由 Capital One 开源的 VulnHunter 是一款专注于代理式 AI（Agentic AI）的安全工具。该项目旨在通过自动化代理技术来识别和猎取系统中的安全漏洞，反映了金融行业对 AI 安全性的重视。适合开发人员集成到 AI 开发生命周期中，增强系统鲁棒性。作为 GitHub 上的热门项目，它展示了自动化安全测试在 AI 领域的应用潜力。开发者可利用该工具扫描潜在风险，确保 AI 代理行为符合预期。这对于构建可信的自主 AI 系统至关重要，尤其在金融等高风险领域。工具采用代理驱动方法，模拟攻击者行为以发现弱点，提升防御能力。",
@@ -1220,83 +1298,5 @@
     "link": "https://ai-term.com/",
     "date": "2026-07-15",
     "id": "17841127253643"
-  },
-  {
-    "title": "IBM 股价暴跌 26%，AI 硬件吞噬软件预算",
-    "summary": "企业削减软件支出转向 AI 硬件，IBM 预警引发科技股震荡。",
-    "detail": "IBM 发布财报预警，股价单日暴跌 26%，市值蒸发 500 亿美元。CEO 指出企业客户为锁定 AI 基础设施供应，将预算从软件转向服务器和存储。此趋势波及 ServiceNow、Adobe 等软件股，导致普遍下跌，但 Snowflake、Palantir 等基础设施股逆势上涨。这是需求转移而非下降问题，IBM Z 大型机业务受到 AI 建设冲击。标志着 AI 基建正在吞噬传统软件预算，行业格局面临重构，企业 IT 支出结构发生根本性转变，市场正在快速区分赢家与输家。",
-    "tags": [
-      "News",
-      "IBM",
-      "Market"
-    ],
-    "link": "https://www.bargo.ai/research/ibm-ai-capex-cannibalization",
-    "date": "2026-07-15",
-    "id": "17841031525440"
-  },
-  {
-    "title": "Gartner：AI PC 将成为控制 Token 成本的关键",
-    "summary": "企业担忧云端 AI 成本，转向混合模型，利用本地 AI PC 处理负载。",
-    "detail": "Gartner 发布战略路线图，指出企业正关注云端 AI 的\"Token 经济学”成本问题。为应对不断上升的云服务费用，企业计划采用混合 AI 策略，将部分工作负载卸载到本地 AI PC 上。这为 AI PC 的采购提供了新的经济理由，标志着边缘计算在 AI 部署中的重要性提升，旨在平衡性能与成本可持续性。分析师 Steve Kleynhans 认为，随着企业更好地理解 AI 云成本动态，本地 AI 工具将从开发者用例走向主流，成为控制失控 Token 账单的关键对冲手段。目前设备端 AI 尚未主流化，但成本压力将推动变革，混合策略成为新趋势。",
-    "tags": [
-      "News",
-      "AI PC",
-      "Cost"
-    ],
-    "link": "https://www.theregister.com/personal-tech/2026/07/15/at-last-a-good-reason-to-buy-an-ai-pc-reining-in-runaway-token-bills/5271589",
-    "date": "2026-07-15",
-    "id": "17841031525441"
-  },
-  {
-    "title": "UltraWork 推出固定月费 AI 编程托管服务",
-    "summary": "每月 399 美元无限使用，集成 Kimi K2.7 等模型，无需本地配置。",
-    "detail": "UltraWork 推出 hosted AI 编程环境，主打“固定月费”模式，每月 399 美元，无 Token 计量限制。服务集成 Kimi K2.7 Code 等 curated 模型，提供专用 Chat UI 和智能路由。用户无需本地部署即可通过 API 或控制台进行代码生成与调试。这种定价模式试图解决开发者对云端 AI 成本不可预测的痛点，适合团队协同开发。支持随时取消，无年合同。通过生产级 LLM 网关处理路由和重试，确保聊天快速可靠。导出和分享功能方便团队协作，公平使用政策禁止转售或非编码工作负载，专注于提升开发者体验。注册后即可获得 API 密钥，快速开始构建。",
-    "tags": [
-      "New",
-      "Coding",
-      "SaaS"
-    ],
-    "link": "https://vibecodingagency.com/gpu-cloud/",
-    "date": "2026-07-15",
-    "id": "17841031525442"
-  },
-  {
-    "title": "PixFinder：本地离线 AI 图像与 OCR 搜索工具",
-    "summary": "100% 离线运行，支持自然语言与文本搜索图片，保护隐私。",
-    "detail": "PixFinder 是一款 Windows 本地应用，利用 AI 视觉和 OCR 技术管理图片库。支持通过自然语言描述（如“白色沙滩”）或图片内文本（如发票号）搜索图片。所有处理均在本地完成，无云端上传，确保隐私安全。适用于管理截图、收据、设计稿等大量图片文件，解决传统文件名搜索的局限性，加载万张图片无卡顿。多语言支持，包括意大利语、日语和英语，无需翻译服务器。内置语音活动检测，平滑滚动和快速加载，原生 Windows 外观。旨在帮助用户在不记住文件名的情况下找到任何图像，包括多年前的截图。",
-    "tags": [
-      "New",
-      "OCR",
-      "Privacy"
-    ],
-    "link": "https://pixfinder.app/",
-    "date": "2026-07-15",
-    "id": "17841031525443"
-  },
-  {
-    "title": "Decibri：跨语言统一音频捕获层",
-    "summary": "支持 Python/Node.js/Rust，零依赖实时音频流处理。",
-    "detail": "Decibri 是一个专为 AI Agent 和 Voice AI 设计的统一音频层。支持 Python、Node.js 和 Rust，提供预编译二进制文件，无需系统音频库或编译工具。实现跨平台（macOS/Windows/Linux）低延迟音频捕获与播放，默认 100ms 分块。通过原生迭代器或流接口，方便开发者将音频管道接入 WebSocket 或语音代理，简化实时音频开发流程。类型安全，bundled 类型定义支持 IDE 自动补全。可配置采样率，直接捕获操作系统音频层，无子进程或中间编码。零系统依赖，解决跨平台音频捕获不一致的痛点，让实时音频处理更简单。",
-    "tags": [
-      "Dev",
-      "Audio",
-      "Infrastructure"
-    ],
-    "link": "https://decibri.com/",
-    "date": "2026-07-15",
-    "id": "17841031525444"
-  },
-  {
-    "title": "Agentic Learning Studio：交互式 AI 课程生成器",
-    "summary": "免费 Beta 测试，根据需求生成互动课程与思维导图。",
-    "detail": "Agentic Learning Studio 推出 Beta 版，可将任意 AI 主题转化为交互式课程。用户输入学习目标（如 RAG、Agent），系统生成包含思维导图、代码示例和知识检查的个性化内容。支持基于用户 repo grounding 内容。首周免费，提供 2 节免费课程。旨在通过互动地图式学习替代传统视频教学，加速 AI 技术掌握过程。涵盖 10 个主题轨道，100+ 互动课程，每课 7 个问题覆盖。课程在 2 分钟内建成，提供可引用的来源和可运行的代码。学习者可以探索个性化互动世界地图，模块成为卡片的精神地图，概念和示例按阅读顺序排列。",
-    "tags": [
-      "New",
-      "Education",
-      "LLM"
-    ],
-    "link": "https://prathibhax.com/",
-    "date": "2026-07-15",
-    "id": "17841031525445"
   }
 ]
