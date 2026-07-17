@@ -1,5 +1,31 @@
 [
   {
+    "title": "开发者反思：AI 生成代码的维护困境",
+    "summary": "开发者警告 AI 生成代码可能导致库难以维护，唯有 LLM 能理解。",
+    "detail": "文章深入探讨了过度依赖 AI 编码工具带来的长期风险。虽然 AI 能快速构建项目并通过测试，但生成的代码库可能缺乏人类深层理解，导致后期维护困难。作者指出，未来可能只有另一个 LLM 能理解这些代码，开发者对项目的归属感也会降低。此外，随着模型上下文需求增加，Token 使用成本上升，企业已开始控制 AI 预算。这提醒开发者需平衡效率与代码可读性，避免技术债务累积，防止项目因无法维护而被废弃。开发者需在享受效率红利的同时，保持对核心逻辑的掌控力，确保软件工程的可持续性。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Coding"
+    ],
+    "link": "https://swapnilchauhan.com/blog/the-ai-codebase/",
+    "date": "2026-07-17",
+    "id": "17843327387121"
+  },
+  {
+    "title": "Vertu 推出 6880 美元 AI 特工手机",
+    "summary": "奢侈手机品牌 Vertu 推出搭载 Hermes Agent 的 AI 手机，面向高管。",
+    "detail": "奢侈手机制造商 Vertu 发布新款 Alphafold，售价 6880 美元，主打 AI 代理功能。核心是预装的 Hermes Agent，基于开源 Hermes 项目，能分析文件、自动化任务、记忆对话，并在需要时转接人工礼宾。评测者通过管理文档、分析合同等场景测试了其作为高管手机的表现。这标志着 AI 代理开始进入高端硬件市场，尝试将 luxury 与 productivity 结合。尽管硬件奢华，但其核心价值在于能否真正优化高管工作流，实际性能与隐私保护仍待市场长期验证。这反映了 AI 硬件差异化竞争的新趋势，即从参数竞赛转向场景落地。",
+    "tags": [
+      "New",
+      "Hardware",
+      "AI Agent"
+    ],
+    "link": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/",
+    "date": "2026-07-17",
+    "id": "17843327387122"
+  },
+  {
     "title": "Databricks 估值飙升至 1880 亿美元",
     "summary": "Databricks 新一轮融资估值达 1880 亿美元，巩固 AI 数据领域地位。",
     "detail": "Databricks 宣布新一轮融资，估值达 1880 亿美元，由 Coatue 领投。尽管资金尚未完全到位，但市场信心强劲。公司在一年半内估值从 620 亿涨至 1880 亿，成功转型为 AI 提供商。此前曾在 2025 年 2 月以 1340 亿估值融资 50 亿，2025 年 9 月以 1000 亿估值融资 10 亿。这反映了资本市场对 AI 基础设施和数据管理平台的高度认可，延续了其作为 AI 领域第二幕的势头，显示 AI 数据层依然是投资热点，尽管融资关闭预计在今年夏季晚些时候。",
@@ -1272,31 +1298,5 @@
     "link": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
     "date": "2026-07-15",
     "id": "17843287513872"
-  },
-  {
-    "title": "Linux 社区引入 Anubis 反 AI 抓取机制",
-    "summary": "Linux 邮件列表部署 Anubis 防护，增加 AI 抓取成本。",
-    "detail": "Linux 内核邮件列表存档站点近日部署了 Anubis 防护系统，旨在专门对抗 AI 公司的大规模抓取行为。该方案采用类似 Hashcash 的工作量证明机制，对个体用户影响忽略不计，但能显著增加大规模爬虫的计算成本。这反映了开源社区与 AI 数据收集之间的日益紧张关系。管理员表示这只是临时方案，未来将转向指纹识别。此举可能迫使 AI 公司调整数据获取策略，影响后续模型训练数据的多样性与合法性。对于开发者而言，这意味着公开技术文档的获取门槛可能提高，需关注合规抓取策略，标志着互联网内容保护与 AI 训练之间的博弈进入新阶段，可能引发更多网站效仿。",
-    "tags": [
-      "News",
-      "Linux",
-      "Data"
-    ],
-    "link": "https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/",
-    "date": "2026-07-15",
-    "id": "17841600256840"
-  },
-  {
-    "title": "爱沙尼亚银行通过 MCP 集成 AI 助手",
-    "summary": "LHV 银行支持 MCP 协议，AI 可直接查询账户余额。",
-    "detail": "爱沙尼亚 LHV 银行推出 AI 集成方案，基于模型上下文协议（MCP）允许用户将银行账户连接至 AI 助手。用户可在 Claude 等工具中直接查询余额、交易记录，无需切换应用。该方案支持自定义权限 scopes，连接有效期 30 天。这是 MCP 协议在金融领域的早期落地案例，展示了 AI Agent 操作敏感数据的安全交互模式。通过标准化接口，银行数据能安全流入 AI 工作流，降低了开发自定义金融插件的难度。此举可能推动更多金融机构采用 MCP 标准，加速 AI 在个人财务管理中的普及，同时强调了用户授权与权限回收机制的重要性，为开放银行与 AI 结合提供了参考范本。",
-    "tags": [
-      "New",
-      "MCP",
-      "Fintech"
-    ],
-    "link": "https://lhv.ai/",
-    "date": "2026-07-15",
-    "id": "17841600256841"
   }
 ]
