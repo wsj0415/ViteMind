@@ -1,5 +1,70 @@
 [
   {
+    "title": "Perplexity 发布 SPACE：AI 代理安全沙盒平台",
+    "summary": "Perplexity 推出 SPACE 平台，为 AI 代理提供安全沙盒环境，增强执行可靠性。",
+    "detail": "Perplexity 最新推出名为 SPACE 的安全沙盒平台，专为 AI 代理设计。该平台旨在解决代理在执行任务时的安全性与隔离性问题，确保操作可控。随着 AI 代理自主性增强，安全风险随之上升，SPACE 通过隔离环境防止代理误操作或数据泄露。此举标志着 AI 代理从实验走向生产环境的关键一步，为开发者提供了更可靠的部署方案。可能成为行业标准基础设施，推动企业级代理应用落地，解决当前代理部署中的信任难题，提升整体生态系统的安全性。",
+    "tags": [
+      "News",
+      "AI Agents",
+      "Perplexity"
+    ],
+    "link": "https://techstrong.ai/articles/perplexity-unveils-space-a-secure-sandbox-platform-for-ai-agents/",
+    "date": "2026-07-17",
+    "id": "17843085152540"
+  },
+  {
+    "title": "CIA 局长警示：AI 战场致死性与低成本杀戮机器",
+    "summary": "CIA 局长公开阐述 AI 在战场的致命影响，警示低成本杀戮机器带来的安全威胁。",
+    "detail": "美国 CIA 局长就 AI 技术在军事领域的应用发出警告，详细描述了 AI 驱动的战场致死性及低成本杀戮机器的现状。这一言论凸显了 AI 国防应用的伦理与安全风险，表明大国博弈已延伸至自主武器系统领域。行业需关注 AI 安全对齐在军事场景的紧迫性，以及由此引发的全球监管政策变化。此事件可能加速国际社会对自主武器系统的立法进程，影响 AI 技术的出口管制与发展方向，引发对通用 AI 安全性的更深层讨论。",
+    "tags": [
+      "News",
+      "Defense",
+      "AI Safety"
+    ],
+    "link": "https://www.pennlive.com/business/2026/07/cia-director-gives-chilling-account-of-ais-battlefield-lethality-low-cost-killing-machines.html",
+    "date": "2026-07-17",
+    "id": "17843085152541"
+  },
+  {
+    "title": "AI 代理架构指南：共享内存与隔离内存的深度对比",
+    "summary": "深度解析 AI 代理内存架构，对比共享与隔离模式的优劣及适用场景。",
+    "detail": "文章深入探讨了 AI 代理生产系统中的核心决策：共享内存与隔离内存架构。隔离内存利于调试与安全，适合独立任务；共享内存支持协作与知识复用，适合复杂系统。文中分析了语义回忆、并发控制及成本影响，为开发者构建可扩展、可维护的多代理系统提供了实用的技术选型依据。在实际生产中，内存架构往往决定代理能否长期协作与恢复，此指南填补了模型之外的工程化空白，帮助团队避免早期架构债务。",
+    "tags": [
+      "Dev",
+      "Architecture",
+      "AI Agents"
+    ],
+    "link": "https://wolbarg.com/blog/shared-memory-vs-isolated-memory",
+    "date": "2026-07-17",
+    "id": "17843085152542"
+  },
+  {
+    "title": "CraftVis 上线：简约高效的在线 AI 图像编辑器",
+    "summary": "全新 AI 图像工具 CraftVis 发布，支持通过自然语言描述编辑图片及生成变体。",
+    "detail": "CraftVis 是一款新推出的在线 AI 图像编辑器，主打简约工作流。用户上传图像后，可通过自然语言描述直接修改 lighting、风格或背景，适用于头像优化、产品视觉及草图细化。该工具支持保持主体一致性的变体生成，降低了创意创作门槛。相比复杂专业软件，它更侧重日常编辑需求，为营销和个人用户提供了便捷的 AI 视觉解决方案，展现了生成式 AI 在垂直工具领域的落地趋势，简化了传统图像处理流程。",
+    "tags": [
+      "New",
+      "Image Generation",
+      "Productivity"
+    ],
+    "link": "https://craftvis.com",
+    "date": "2026-07-17",
+    "id": "17843085152543"
+  },
+  {
+    "title": "Startup Factory：从 Jira/GitHub 议题驱动 AI 代理开发",
+    "summary": "开源项目支持从 Jira 或 GitHub 议题直接运行 AI 代理，自动化开发流程。",
+    "detail": "这是一个开源工具，允许开发者直接从 Jira、Linear、GitHub Issues 或 Markdown 文件运行 AI 代理。它将项目管理议题转化为代理任务，自动化执行开发流程。此举打通了项目管理与 AI 执行的壁垒，适合初创团队快速构建产品。体现了 AI 代理在软件工程生命周期中的集成趋势，让非技术人员也能通过管理工具驱动 AI 开发，提升研发效率与自动化水平，减少了上下文切换的成本。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Automation"
+    ],
+    "link": "https://github.com/alexrolls/startup-factory",
+    "date": "2026-07-17",
+    "id": "17843085152544"
+  },
+  {
     "title": "Capital One 开源代理式 AI 代码安全工具 VulnHunter",
     "summary": "金融机构开源 AI 安全工具，主动检测代码漏洞。",
     "detail": "Capital One 正式开源了内部研发的 AI 安全工具 VulnHunter。与传统被动扫描器不同，该工具采用代理式（Agentic）推理工作流，从攻击者视角主动分析源代码以发现漏洞。面对 AI 降低攻击门槛的现状，Capital One 希望通过开源此工具提升行业整体防御能力。这是金融行业将 AI 应用于安全防御的重要实践，标志着 AI 安全工具向主动化、智能化发展的趋势。",
@@ -1233,70 +1298,5 @@
     "link": "https://worklouder.cc/codex-micro",
     "date": "2026-07-15",
     "id": "17841390334734"
-  },
-  {
-    "title": "Stemning AI 推出历史肖像生成限时优惠",
-    "summary": "照片年代变换工具提供 20% 折扣，支持 6 种历史风格生成。",
-    "detail": "Stemning AI 推出 Historical Portraits 新功能，允许用户将个人照片重想象为不同年代风格，涵盖 1950 年代经典优雅至 1980 年代等 6 种历史时期。每种风格均包含 authentic 时尚、发型及照片美学。目前平台提供限时促销，购买积分套餐可节省 20% 费用，支持 5 至 15 张照片变换选项。用户可通过 Google 登录快速使用，体验从战后乐观主义到霓虹 excess 的视觉转变。该产品展示了生成式 AI 在消费者娱乐领域的落地，以较低门槛提供高质量的历史风格图像转换服务。",
-    "tags": [
-      "Deal",
-      "Image Gen",
-      "Consumer"
-    ],
-    "link": "https://stemning.ai/packs/historical-portraits",
-    "date": "2026-07-15",
-    "id": "17841390334735"
-  },
-  {
-    "title": "微软因 AI 使用修补创纪录安全漏洞",
-    "summary": "微软修补大量安全漏洞，承认 AI 使用是部分原因，引发行业对 AI 安全性的关注。",
-    "detail": "微软近期修补了创纪录数量的安全漏洞，并明确指出其 AI 技术的使用是导致部分漏洞的原因之一。这一事件凸显了在快速集成 AI 功能时，安全测试与代码审查的重要性。对于企业而言，这意味着在部署 AI 驱动的产品时，必须加强安全架构，防止 AI 生成的代码或逻辑引入新的攻击面。行业需重新评估 AI 开发流程中的安全标准，平衡创新速度与系统稳定性。安全团队需密切关注 AI 引入的新风险，建立专门的 AI 安全审计流程，确保用户数据不受潜在漏洞威胁，推动更安全的技术落地，维护公众对 AI 系统的信任。",
-    "tags": [
-      "News",
-      "Security",
-      "Microsoft"
-    ],
-    "link": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
-    "date": "2026-07-15",
-    "id": "17841326566300"
-  },
-  {
-    "title": "员工起诉 Meta 称 AI 裁员针对休假者",
-    "summary": "Meta 员工提起诉讼，指控公司 AI 裁员算法不公平地针对了医疗和产假期间的员工。",
-    "detail": "Meta 面临集体诉讼，员工指控其 AI 驱动的裁员系统存在歧视，特别针对休医疗假和育儿的员工。这揭示了自动化人力资源决策中的伦理风险。若 AI 模型训练数据存在偏差，可能导致系统性不公。此案将成为 AI 伦理与劳动法的重要判例，警示企业在采用 AI 进行人事管理时需确保算法透明度与公平性，避免法律与声誉风险。人力资源部门需审查算法决策逻辑，引入人工复核机制，确保员工权益不受自动化系统侵害，维护职场公平环境，防止技术滥用导致的社会争议。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Meta"
-    ],
-    "link": "https://apnews.com/article/meta-lawsuit-workers-target-ai-layoffs-leave-019fb9c7fdc09167e91547546bce5be8",
-    "date": "2026-07-15",
-    "id": "17841326566301"
-  },
-  {
-    "title": "日内瓦会议后 AI 治理面临信任赤字",
-    "summary": "联合国全球 AI 治理对话结束，报告指出全球 AI 治理必须正视信任赤字与实施能力问题。",
-    "detail": "联合国在日内瓦举办了首届全球 AI 治理对话，秘书长古特雷斯警告算力与数据集中在少数国家手中。会议标志着治理从伦理原则转向实施能力，但面临信任赤字挑战。发展中国家在决策中缺乏话语权，可能导致不平等被写入代码。未来治理需解决机构能力不足问题，确保全球南方国家参与，建立更具包容性的国际 AI 监管框架，防止技术垄断加剧全球分歧。国际社会需共同努力，制定可执行的治理标准，促进技术红利共享，避免 AI 成为加剧全球不平等的工具，构建可信的全球 AI 生态。",
-    "tags": [
-      "News",
-      "Policy",
-      "UN"
-    ],
-    "link": "https://www.techpolicy.press/after-geneva-ai-governance-must-confront-the-trust-deficit/",
-    "date": "2026-07-15",
-    "id": "17841326566302"
-  },
-  {
-    "title": "开发者可集成 ChatGPT 账号登录",
-    "summary": "新工具支持用户使用 ChatGPT 账号登录第三方应用，简化 AI 应用认证流程。",
-    "detail": "这是一个面向开发者的新工具，允许用户直接使用 ChatGPT 账号登录第三方应用。通过 OpenAI OAuth 协议，开发者可以轻松集成身份验证，并利用 AI SDK 调用模型。凭证本地加密存储，支持免费及付费计划。这降低了 AI 应用的开发门槛，促进了基于 ChatGPT 生态的工具创新。开发者需注意用户隐私保护，确保合规使用认证数据，提升用户体验。该工具简化了认证流程，使开发者能更专注于核心功能构建，加速 AI 应用上市速度，同时需遵循安全最佳实践，防止凭证泄露风险。",
-    "tags": [
-      "Dev",
-      "OpenAI",
-      "Auth"
-    ],
-    "link": "https://openai-oauth.vercel.app/",
-    "date": "2026-07-15",
-    "id": "17841326566303"
   }
 ]
