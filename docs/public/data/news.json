@@ -1,5 +1,83 @@
 [
   {
+    "title": "Patreon 联手 Cloudflare 正式封锁 AI 爬虫",
+    "summary": "Patreon 不再请求而是直接技术封锁 AI 爬虫，保护创作者内容。",
+    "detail": "Patreon 宣布与 Cloudflare 合作，直接阻止 AI 机器人抓取内容用于训练。此前仅依靠请求，现因抓取技术升级及新发现工具暴露内容，采取强硬措施。这标志着内容平台与 AI 公司博弈升级，Cloudflare 亦推出按次收费抓取市场。此举回应了出版商对 AI  ingest 内容的担忧，可能引发行业连锁反应，改变数据训练合规格局。混合用途爬虫在广告页面将被默认阻止，网站可向 AI 公司收费。",
+    "tags": [
+      "News",
+      "AI Ethics",
+      "Security"
+    ],
+    "link": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
+    "date": "2026-07-17",
+    "id": "17843419821890"
+  },
+  {
+    "title": "苹果起诉 OpenAI 窃取商业机密，IPO 前景蒙阴影",
+    "summary": "苹果指控 OpenAI 窃取机密，涉及 400 名前员工，影响 IPO 计划。",
+    "detail": "苹果正式起诉 OpenAI 侵犯商业秘密，指控其雇佣 400 名前苹果员工并存在不当行为。OpenAI 回应谨慎，但诉讼时机敏感，正值其筹备 IPO 之际。此事件引发企业对 AI 数据信任危机，微软 CEO 亦警告企业数据风险。案件可能影响 OpenAI 硬件野心及上市时间表，凸显 AI 高速发展中的人才与知识产权冲突，投资者需关注法律风险对估值的潜在冲击。",
+    "tags": [
+      "News",
+      "Legal",
+      "OpenAI"
+    ],
+    "link": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai/",
+    "date": "2026-07-17",
+    "id": "17843419821891"
+  },
+  {
+    "title": "推理芯片获 4 亿美元融资，AI 基础设施转向降本增效",
+    "summary": "General Compute 获贷 4 亿美元，专注推理芯片而非训练 GPU。",
+    "detail": "AI 推理云初创 General Compute 获得 4 亿美元贷款，抵押品为专用推理芯片。这显示市场关注点从昂贵训练芯片转向高效推理基础设施。该公司使用 SambaNova 芯片，声称比 GPU 云快 16 倍，反映行业对降低 AI 代币成本的迫切需求。无需水冷系统，部署更灵活。这是首次以推理芯片为抵押的贷款，标志 AI 金融模式创新，基础设施投资正向降本增效倾斜。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Hardware"
+    ],
+    "link": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
+    "date": "2026-07-17",
+    "id": "17843419821892"
+  },
+  {
+    "title": "OpenAI 发布 AI 时代记分卡，重新定义价值衡量标准",
+    "summary": "OpenAI 提出“每美元有用智能”，倡导按工作成果而非 Token 计费。",
+    "detail": "OpenAI 发文指出 CFO 应关注 AI 产生的实际工作价值而非 Token 成本。提出“每美元有用智能”指标，强调任务完成率、可靠性及价值增长。这预示 AI 定价模式可能从按量付费转向按结果付费，引导企业关注实际产出。低成本低效模型不如高成本高效模型，关键在于成功 outcomes 的全成本。此框架有助于企业评估 AI 投资回报率，推动行业从技术崇拜转向价值落地。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Business"
+    ],
+    "link": "https://openai.com/index/a-scorecard-for-the-ai-age/",
+    "date": "2026-07-17",
+    "id": "17843419821893"
+  },
+  {
+    "title": "NVIDIA 与 Hugging Face 合作，规模化微调视频图像模型",
+    "summary": "结合 NVIDIA NeMo Automodel 与 Diffusers，实现模型高效微调。",
+    "detail": "NVIDIA 与 Hugging Face 联合发布指南，展示如何利用 NeMo Automodel 和 Diffusers 规模化微调视频和图像模型。该技术栈旨在降低多模态模型定制门槛，提升开发效率，为开发者提供强大的基础设施支持，加速生成式 AI 应用落地。结合双方优势，解决大规模微调中的工程挑战，使开发者能更便捷地优化模型性能，适应特定业务场景需求。",
+    "tags": [
+      "Dev",
+      "NVIDIA",
+      "Multimodal"
+    ],
+    "link": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+    "date": "2026-07-17",
+    "id": "17843419821894"
+  },
+  {
+    "title": "开源 AI 代理 OpenClaw 与 Zapier 自动化平台深度对比",
+    "summary": "分析自托管 OpenClaw 与托管平台 Zapier 在 AI 自动化中的差异。",
+    "detail": "文章对比了开源 AI 代理 OpenClaw 与自动化平台 Zapier。OpenClaw 灵活但存在安全风险，适合个人；Zapier 提供企业级治理与集成，适合团队生产环境。建议根据安全需求组合使用，反映了 AI 自动化工具向代理化发展的趋势。Zapier 拥有 9000+ 集成，适合需要可控治理的团队，而 OpenClaw 适合本地化部署需求，两者互补而非完全替代。",
+    "tags": [
+      "Dev",
+      "Automation",
+      "Tools"
+    ],
+    "link": "https://zapier.com/blog/openclaw-vs-zapier",
+    "date": "2026-07-17",
+    "id": "17843419821895"
+  },
+  {
     "title": "开发者反思：AI 生成代码的维护困境",
     "summary": "开发者警告 AI 生成代码可能导致库难以维护，唯有 LLM 能理解。",
     "detail": "文章深入探讨了过度依赖 AI 编码工具带来的长期风险。虽然 AI 能快速构建项目并通过测试，但生成的代码库可能缺乏人类深层理解，导致后期维护困难。作者指出，未来可能只有另一个 LLM 能理解这些代码，开发者对项目的归属感也会降低。此外，随着模型上下文需求增加，Token 使用成本上升，企业已开始控制 AI 预算。这提醒开发者需平衡效率与代码可读性，避免技术债务累积，防止项目因无法维护而被废弃。开发者需在享受效率红利的同时，保持对核心逻辑的掌控力，确保软件工程的可持续性。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.ode.com/",
     "date": "2026-07-16",
     "id": "17841828063582"
-  },
-  {
-    "title": "DeepCleanAudio 推出 AI 音频降噪终身优惠",
-    "summary": "基于 DeepFilterNet3 的降噪工具，5 美元终身授权，无订阅费。",
-    "detail": "**产品**：DeepCleanAudio 是一款 AI 驱动的音频降噪软件，可一键清除背景噪音。**优惠**：提供 5 美元终身授权许可，无订阅费用，支持批量处理。**技术**：基于 DeepFilterNet3 模型，能在保持语音自然的同时快速恢复音频清晰度，适合创作者及开发者使用。性价比极高。",
-    "tags": [
-      "Deal",
-      "Audio",
-      "Software"
-    ],
-    "link": "https://steelsoft.site/software/DeepCleanAudio_home.html",
-    "date": "2026-07-16",
-    "id": "17841828063583"
-  },
-  {
-    "title": "深度辨析：AI 不仅仅是工具",
-    "summary": "博主撰文反驳\"AI 只是工具”论调，探讨其对社会原型的深层影响。",
-    "detail": "**观点**：Frank 博客更新文章，批判\"AI 只是工具，关键在于如何使用”的常见说法。**论证**：认为该观点过于天真，忽视了生成式 AI 对原型设计本质的威胁及社会伦理影响。**背景**：文章自 2025 年发布后引发广泛讨论，2026 年更新补充了关于工具制造与 AI 原型瓶颈的深入思考。引发行业反思。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Opinion"
-    ],
-    "link": "https://www.frank.computer/blog/2025/05/just-a-tool.html",
-    "date": "2026-07-16",
-    "id": "17841828063584"
-  },
-  {
-    "title": "MIT 挑战：AI 能否制造喷气发动机？",
-    "summary": "MIT 学生通过 JARVIS 挑战测试 AI 在硬件工程中的能力，发现制造仍是瓶颈。",
-    "detail": "**项目**：JARVIS 挑战要求本科生在 4 周内利用 AI 设计并制造小型燃气涡轮发动机。\n**结果**：AI 显著加速了安全关键型硬件的设计与分析周期，但制造环节仍是主要限制。\n**结论**：AI 原生工程师的核心在于判断力，即知道何时信任 AI 并将其输出转化为实际硬件，而非完全依赖自动化。",
-    "tags": [
-      "News",
-      "Research",
-      "Hardware"
-    ],
-    "link": "https://news.mit.edu/2026/can-ai-build-jet-engine-jarvis-challenge-tests-ai-copilots-in-tough-tech-engineering-0714",
-    "date": "2026-07-16",
-    "id": "17841722852131"
-  },
-  {
-    "title": "RuntimeWire：AI 经济实时情报平台",
-    "summary": "提供 AI 初创企业融资、模型发布及基础设施变动的实时情报 feed。",
-    "detail": "**功能**：专注于 AI 经济体的实时初创情报，涵盖融资轮次、模型发布、高管变动等关键信号。\n**特色**：提供 VS Code 扩展，允许开发者在等待代码生成时获取新闻。\n**价值**：为从业者和投资者提供经过筛选的行业信号，帮助快速捕捉基础设施 shifts 和市场 exits 动态，减少信息噪音。",
-    "tags": [
-      "News",
-      "Market",
-      "Startups"
-    ],
-    "link": "https://runtimewire.com/",
-    "date": "2026-07-16",
-    "id": "17841722852133"
-  },
-  {
-    "title": "Boom：面向创作者的 AI 商业化教练",
-    "summary": "即将推出的 AI 工具，帮助 Instagram 创作者增长内容并实现品牌变现。",
-    "detail": "**定位**：针对社交媒体创作者的 AI 教练，旨在将 Instagram 账号转化为业务。\n**功能**：提供增长策略、变现指导及品牌合作对接，声称即使百粉丝也可开始。\n**计划**：2026 年 8 月 1 日正式 launch，目前开放早期访问。\n**亮点**：包含收入计算器和合作 playbook，降低创作者商业化门槛，强调无需成名即可获利。",
-    "tags": [
-      "New",
-      "Marketing",
-      "SaaS"
-    ],
-    "link": "https://getboom.ai/",
-    "date": "2026-07-16",
-    "id": "17841722852134"
-  },
-  {
-    "title": "护士抗议 AI 监控降低医疗护理质量",
-    "summary": "凯撒永久护士称 AI 监控加剧工作压力，影响患者护理。",
-    "detail": "凯撒永久医院护士反映，AI 职场监控系统评估通话时长和语气，导致工作压力增大且护理质量下降。超过 15 分钟通话会受批评，AI 甚至评估 empathy。加州护士协会正在谈判新合同，AI 使用成为核心议题，涉及 25,000 名护士。此前曾罢工抗议。加州立法者正考虑监管法案，保护覆盖自动化建议的医护人员。这揭示了 AI 在医疗职场应用中的伦理困境，可能推动立法保护医护人员免受自动化决策的不当干预，确保患者护理质量不受算法影响。",
-    "tags": [
-      "News",
-      "Healthcare",
-      "Ethics"
-    ],
-    "link": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
-    "date": "2026-07-15",
-    "id": "17843287513872"
   }
 ]
