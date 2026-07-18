@@ -1,5 +1,31 @@
 [
   {
+    "title": "Moonshot 发布 Kimi K3 模型，开源性能媲美旗舰引发市场波动",
+    "summary": "Moonshot 发布 Kimi K3 模型，开源性能媲美旗舰，引发市场波动。",
+    "detail": "Moonshot AI 本周发布 Kimi K3 模型，虽自称略逊于 Claude/GPT 旗舰，但独立评测显示其具备前沿性能，consistent outperforming other tested models。消息伴随中国领导人讲话发布，导致纳斯达克芯片股下跌。这是继 DeepSeek 后又一引发硅谷讨论的中国开源模型，地缘政治与 AI 竞争态势加剧，投资者担忧芯片公司 stock 受影响，行业关注中国 AI 进展。",
+    "tags": [
+      "News",
+      "LLM",
+      "China"
+    ],
+    "link": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+    "date": "2026-07-18",
+    "id": "17844015730550"
+  },
+  {
+    "title": "AI 公司员工成政治捐款新贵，重金支持 AI 安全立法候选人",
+    "summary": "AI 公司员工成政治捐款新贵，重金支持 AI 安全立法候选人。",
+    "detail": "旧金山报道显示，Anthropic 和 OpenAI 员工已成为政治捐款新阶级。即便在 IPO 前，员工已通过高薪和股权捐赠巨资给支持 AI 安全立法的候选人。这表明 AI 行业正积极通过政治献金影响监管政策走向。AI 财富效应尚未完全通过 IPO 释放，但内部人已形成影响力，可能塑造未来美国 AI 监管框架及竞选格局。",
+    "tags": [
+      "News",
+      "Policy",
+      "Industry"
+    ],
+    "link": "https://sfstandard.com/2026/07/18/ai-s-new-political-donor-class-already-outspending-big-tech-s-last-one/",
+    "date": "2026-07-18",
+    "id": "17844015730553"
+  },
+  {
     "title": "欧洲主权 AI 模型 Soofi S 发布，30B MoE 架构专注工业应用",
     "summary": "德国 consortium 推出 Soofi S 模型，主打欧洲主权基础设施与工业场景。",
     "detail": "**背景**：德国 Soofi 联盟正式发布首个欧洲主权 AI 模型 Soofi S，旨在建立独立、高性能的 AI 技术基础。**技术**：采用 30B 参数混合专家 (MoE) 架构，基于 27 万亿 token 训练，支持德/英双语，专注工业文档、代码生成及代理系统。**影响**：强调透明性与可控性，减少对美国大模型依赖，推动欧洲工业 AI 自主化，目前正寻求企业、公共机构及初创公司参与实测阶段。此举有助于构建可信 AI 生态系统，满足欧洲严格的数据主权与合规要求，为工业界提供安全可靠的底层模型支持，增强欧洲在全球 AI 竞争中的技术话语权。",
@@ -362,6 +388,32 @@
     "link": "https://github.com/erickong/penecho",
     "date": "2026-07-18",
     "id": "17843525305255"
+  },
+  {
+    "title": "OpenAI 战略主管评 Kimi：性能强劲，惊讶中国允许开源",
+    "summary": "OpenAI 战略主管评 Kimi：性能强劲，惊讶中国允许开源。",
+    "detail": "OpenAI 战略主管 Dean W. Ball 发文分析 Kimi，认为其性能非蒸馏可得，代理编码能力媲美 2026 年初最佳模型。他惊讶中国政府允许如此强大的模型开源，推测源于战略盲区或算力限制，反映出中美 AI 战略差异。他提到中国缺乏客户推理算力可能是开源策略的 unintended byproduct，观点引发行业对开源风险与地缘策略的深思。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Opinion"
+    ],
+    "link": "https://twitter.com/deanwball/status/2078133895766114412",
+    "date": "2026-07-17",
+    "id": "17844015730552"
+  },
+  {
+    "title": "AI Karma Tracker 上线，本地监控多模型用量限额无需 API",
+    "summary": "AI Karma Tracker 上线，本地监控多模型用量限额无需 API。",
+    "detail": "AI Karma Tracker 是一款 Chrome 扩展，无需 API 密钥即可在本地监控 Claude、ChatGPT 等模型的用量限额和重置时间。提供智能警报和峰值时段提示，帮助开发者避免意外触限，免费起步，保护隐私。支持多模型仪表盘，适合重度 AI 用户规划工作流，解决多平台订阅管理痛点，确保开发连续性。",
+    "tags": [
+      "New",
+      "Tool",
+      "Productivity"
+    ],
+    "link": "https://ai-karma-tracker.github.io/",
+    "date": "2026-07-17",
+    "id": "17844015730554"
   },
   {
     "title": "Netflix 斥资 5.87 亿美元收购本·阿弗莱克 AI 初创公司",
@@ -1246,57 +1298,5 @@
     "link": "https://arxiv.org/abs/2607.10582",
     "date": "2026-07-16",
     "id": "17842399656452"
-  },
-  {
-    "title": "Darby：支持浏览器内 AI 问答的 Hugo 文档主题",
-    "summary": "无需后端和 API 密钥，即可为 Hugo 文档站点添加 AI 问答功能。",
-    "detail": "Darby 是一个 Hugo 文档主题，特色是内置浏览器端 AI 问答功能，无需后端服务器或 API 密钥。它支持快速安装和配置，几分钟内即可运行。适用于文档、参考手册及博客等多种用例。该工具让开发者能轻松为技术文档添加智能搜索与问答交互，提升了文档的可访问性和用户体验。项目完全开源，提供详细的架构参考和配置指南，支持社区贡献与讨论。其搜索功能直接在浏览器端运行，确保了隐私与速度，旨在成为开发者喜爱的文档解决方案，简化 AI 集成流程。",
-    "tags": [
-      "New",
-      "Dev",
-      "Docs"
-    ],
-    "link": "https://iamit.in/darby/",
-    "date": "2026-07-16",
-    "id": "17842399656453"
-  },
-  {
-    "title": "SeekinWeb：检测网站对 AI 智能体的可见性",
-    "summary": "审计工具帮助网站优化对 AI 爬虫的可读性与结构化数据。",
-    "detail": "SeekinWeb 是一款审计工具，用于检测 AI 智能体（如 ChatGPT、Claude）是否能正确读取您的网站。随着决策逐渐由 AI 主导，网站优化目标从 Google 转向 AI 爬虫。它评估 8 大信号，包括无 JS 可读性、AI 爬虫访问权限、结构化数据及 llms.txt 等。生成 0-100 的 AI 可见性评分并提供修复建议，帮助网站在 AI 主导的搜索和推荐中获得更好曝光。工具无需注册，秒级完成审计，支持自助服务，确保您的内容能被自主智能体正确引用和推荐。",
-    "tags": [
-      "New",
-      "SEO",
-      "Agent"
-    ],
-    "link": "https://seekinweb.com/",
-    "date": "2026-07-16",
-    "id": "17842399656454"
-  },
-  {
-    "title": "Timeline Scan：AI 自动修复扫描照片日期",
-    "summary": "利用 AI 识别照片手写日期和时间戳，自动整理家庭照片库。",
-    "detail": "Timeline Scan 推出新工具，专门解决扫描照片日期丢失痛点。通过 AI 识别照片背面手写信息、打印时间戳及胶片时代视觉线索，自动还原真实拍摄日期。支持 JPEG/TIFF 格式，无需信用卡即可试用 50 张，无需技术技能。修正后的日期 metadata 可被 Google Photos、Apple Photos 及 Immich 等应用识别，实现自动排序。强调原件不被篡改，仅修正文件内日期存储，确保用户隐私与原始数据安全。完成后可邮件通知，为家庭数字档案整理提供高效方案，让老照片回归时间顺序。",
-    "tags": [
-      "New",
-      "AI Tool",
-      "Photo"
-    ],
-    "link": "https://timelinescan.com/",
-    "date": "2026-07-16",
-    "id": "17842356505640"
-  },
-  {
-    "title": "LM Studio 推出 Bionic：开源模型 AI 代理",
-    "summary": "支持本地/云端运行，具备语音输入与零数据保留特性的 AI 代理。",
-    "detail": "LM Studio 发布 Bionic 代理，专为开源模型设计，支持编码、研究及复杂文档处理。核心特性包括本地语音转录（集成 Mistral Voxtral 模型）、灵活的计算环境选择（本地/云端）及零数据保留承诺。用户可自主控制隐私与成本，通过 voice keyboard 在任何应用中 dictation。支持 LM Link 连接及 Secure Cloud 使用前沿开源模型。标志着本地 AI 代理向实用化迈进，平衡了性能与隐私安全，适合开发者及隐私敏感用户，提升本地工作流效率。",
-    "tags": [
-      "New",
-      "LLM",
-      "Privacy"
-    ],
-    "link": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
-    "date": "2026-07-16",
-    "id": "17842356505641"
   }
 ]
