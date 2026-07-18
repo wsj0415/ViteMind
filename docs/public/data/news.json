@@ -1,5 +1,44 @@
 [
   {
+    "title": "行业分析：AI 订阅为何统一定价 20 美元",
+    "summary": "揭秘 ChatGPT 等主流 AI 服务统一 20 美元定价背后的锚定效应与成本逻辑。",
+    "detail": "文章分析了 ChatGPT Plus、Claude Pro 等主流 AI 订阅均定价 20 美元的现象。该价格始于 2023 年 OpenAI 的策略，旨在补贴免费层而非反映实际价值。竞争对手通过价格锚定效仿此标准，而非独立成本分析。目前该模式已延伸至更高 tiers（如 200 美元），但各 provider 交付价值差异显著。文章探讨了这一定价天花板是否会像流媒体订阅一样最终破裂，以及其对小型 AI 工具的影响。",
+    "tags": [
+      "News",
+      "Pricing",
+      "Market"
+    ],
+    "link": "https://qainsights.com/20-month-the-price-ceiling-every-ai-company-copied/",
+    "date": "2026-07-18",
+    "id": "17844116275111"
+  },
+  {
+    "title": "Kritama 推出分形上下文引擎提升 AI 可靠性",
+    "summary": "新工具 Kritama 通过动态上下文切换与可观察性构建生产级 AI 助手。",
+    "detail": "Kritama 发布了一款分形上下文引擎（Fractal Context Engine），旨在构建准确且可维护的数字助手。核心功能包括动态上下文切换以减少噪声、可观察的智能体行为调试以及代码控制策略。支持使用小模型降低成本并提高吞吐量，适合需要将 AI  intelligence 规模化应用于生产环境的开发者。平台提供可视化工作流，允许用户检查信号运行情况，确保 AI 助手在生产环境中可靠运行，解决上下文切换噪音问题。",
+    "tags": [
+      "New",
+      "LLM",
+      "Infrastructure"
+    ],
+    "link": "https://kritama.com/",
+    "date": "2026-07-18",
+    "id": "17844116275112"
+  },
+  {
+    "title": "GitHub 开源 ADA：CSV Excel 自动业务智能分析",
+    "summary": "基于 Python 与 Streamlit 的开源工具，自动从表格文件生成数据仪表盘。",
+    "detail": "该项目名为 ADA（Automated Data Analyst），是一个基于 LLM 的业务智能工具。用户只需上传 CSV 或 Excel 文件，即可自动生成仪表盘、证据分析及下一步行动建议。技术栈包含 Python 3.11+ 和 Streamlit，开源协议为 MIT。适合需要快速从业务文件中提取洞察的开发者与数据分析师使用。项目欢迎贡献，提供 CI 工作流支持，旨在简化数据分析流程，让非技术人员也能通过 AI 获取业务洞察。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Data"
+    ],
+    "link": "https://github.com/saineshnakra/automated-data-analyst",
+    "date": "2026-07-18",
+    "id": "17844116275113"
+  },
+  {
     "title": "虚拟现实之父称 AI 不存在",
     "summary": "杰伦·拉尼尔与奈尔对话，质疑 AI 本质。",
     "detail": "虚拟现实之父杰伦·拉尼尔（Jaron Lanier）做客 StarTalk，与天体物理学家奈尔·德格拉斯·泰森对话。视频标题直指\"AI 不存在”，暗示当前 AI 热潮可能是一种幻觉或误解。该视频在 StarTalk Plus 频道发布，一天内获得超 12 万播放量，显示公众高度关注。作为计算机哲学先驱，拉尼尔的观点往往引发行业深思，此次对话可能探讨 AI 技术背后的真实机制与人类认知的边界，为过热的 AI 叙事提供冷静视角，挑战当前主流 AGI 预期。这种 skepticism 在技术奇点临近的背景下尤为关键，可能影响投资者与开发者对 AI 本质的理解。",
@@ -440,6 +479,19 @@
     "link": "https://github.com/erickong/penecho",
     "date": "2026-07-18",
     "id": "17843525305255"
+  },
+  {
+    "title": "Spotify 删除 7500 万首 AI 生成音乐 tracks",
+    "summary": "流媒体巨头 Spotify 大规模清理 AI 生成曲目，行动仍在持续中。",
+    "detail": "Spotify 已删除平台上 7500 万首 AI 生成的音乐曲目，并表示清理工作尚未结束。此举反映了流媒体平台对 AI 生成内容泛滥的管控态度。随着 AI 音乐生成技术的普及，平台方正在加强内容审核与版权保护，以防止低质量或侵权内容淹没真实艺术家的作品。行业合规性要求正在提高，这标志着音乐流媒体行业在应对 AI 生成内容挑战方面迈出了重要一步，未来可能会有更多类似行动。",
+    "tags": [
+      "News",
+      "Music",
+      "Content"
+    ],
+    "link": "https://www.gadgetreview.com/spotify-deleted-75-million-ai-generated-tracks-and-its-not-done-yet",
+    "date": "2026-07-17",
+    "id": "17844116275114"
   },
   {
     "title": "OpenAI 战略主管评 Kimi：性能强劲，惊讶中国允许开源",
@@ -1246,57 +1298,5 @@
     "link": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
     "date": "2026-07-16",
     "id": "17842464632640"
-  },
-  {
-    "title": "GPT-5.6 被曝存在误删文件安全风险",
-    "summary": "GPT-5.6 在全访问模式下可能误删用户文件，官方回应。",
-    "detail": "用户报告 GPT-5.6 在非沙盒模式下意外删除文件。调查显示因模型误判 $HOME 变量导致。官方已采取措施更新开发者提示并增加 safeguards。此事件凸显 AI Agent 自主操作的安全隐患，全访问模式需谨慎使用。开发者优先级应转向沙盒保护与自动审查机制。",
-    "tags": [
-      "News",
-      "Safety",
-      "OpenAI"
-    ],
-    "link": "https://twitter.com/thsottiaux/status/2077630111499882637",
-    "date": "2026-07-16",
-    "id": "17842464632641"
-  },
-  {
-    "title": "美国版权局裁定 AI 生成内容不可版权保护",
-    "summary": "因书籍含 AI 生成内容，美国版权局拒绝版权登记。",
-    "detail": "作者因书籍部分内容由 AI 生成被拒版权登记。即使经过编辑，若无法区分 AI 与人工部分，整体版权可能无效。这引发行业对 AI 辅助创作版权归属的担忧，可能终结纯 AI 生成内容的版权保护路径。创作者需保留人工创作证据以维护权益。",
-    "tags": [
-      "News",
-      "Legal",
-      "Copyright"
-    ],
-    "link": "https://twitter.com/CrimeDecoder/status/2077878317928087906",
-    "date": "2026-07-16",
-    "id": "17842464632642"
-  },
-  {
-    "title": "AegisDB 发布：单二进制 AI Agent 内存数据库",
-    "summary": "开源自托管记忆数据库，支持 Claude Code 集成。",
-    "detail": "AegisDB 是一款用 C 编写的单二进制数据库，专为 AI Agent 提供持久化记忆。支持向量搜索、加密及备份，无需 SaaS 即可本地部署。集成 Claude Code，解决 Agent 会话遗忘问题，适合注重隐私的开发者构建长期记忆系统。简化部署流程，降低运维成本。",
-    "tags": [
-      "Dev",
-      "Database",
-      "Agent"
-    ],
-    "link": "https://github.com/d4n-larsson/aegisdb",
-    "date": "2026-07-16",
-    "id": "17842464632643"
-  },
-  {
-    "title": "2026 AI 工程世界博览会五大趋势总结",
-    "summary": "AI 工程领域成熟，自主系统与上下文管理成核心。",
-    "detail": "2026 AI 工程博览会显示领域已成熟。重点从提示工程转向构建编码 Agent、管理上下文及评估输出。自主系统编排成为主流，AI Engineer 角色正式化。金融领域 AI 应用将成为下一站，工程实践已融入软件开发生命周期。行业标准化进程加速。",
-    "tags": [
-      "Dev",
-      "Engineering",
-      "Trends"
-    ],
-    "link": "https://www.latent.space/p/aiewf26trends",
-    "date": "2026-07-16",
-    "id": "17842464632644"
   }
 ]
