@@ -1,5 +1,31 @@
 [
   {
+    "title": "欧洲主权 AI 模型 Soofi S 发布，30B MoE 架构专注工业应用",
+    "summary": "德国 consortium 推出 Soofi S 模型，主打欧洲主权基础设施与工业场景。",
+    "detail": "**背景**：德国 Soofi 联盟正式发布首个欧洲主权 AI 模型 Soofi S，旨在建立独立、高性能的 AI 技术基础。**技术**：采用 30B 参数混合专家 (MoE) 架构，基于 27 万亿 token 训练，支持德/英双语，专注工业文档、代码生成及代理系统。**影响**：强调透明性与可控性，减少对美国大模型依赖，推动欧洲工业 AI 自主化，目前正寻求企业、公共机构及初创公司参与实测阶段。此举有助于构建可信 AI 生态系统，满足欧洲严格的数据主权与合规要求，为工业界提供安全可靠的底层模型支持，增强欧洲在全球 AI 竞争中的技术话语权。",
+    "tags": [
+      "News",
+      "LLM",
+      "SovereignAI"
+    ],
+    "link": "https://www.soofi.info/",
+    "date": "2026-07-18",
+    "id": "17843943031511"
+  },
+  {
+    "title": "Show HN: Talon 开源自托管长生命周期 AI Agent 框架",
+    "summary": "开发者发布 Talon 项目，为长期运行的 AI 代理提供自托管 harness 支持。",
+    "detail": "**背景**：Hacker News 展示新项目 Talon，针对 AI Agent 部署中的长期稳定性痛点。**技术**：提供自托管 harness 框架，专门优化长生命周期 (long-lived) 代理的运行管理与资源调度，支持开发者本地部署。**影响**：为开发者构建持久化 AI 应用提供基础设施参考，适合需要持续运行任务的企业级 Agent 部署场景，增强数据控制权与系统稳定性，降低云端依赖成本。对于希望私有化部署 AI 代理的企业而言，此类工具降低了技术门槛，促进了 Agent 技术在实际业务中的落地应用与迭代，开源社区反馈将决定其演进方向。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "OpenSource"
+    ],
+    "link": "https://github.com/dylanneve1/talon",
+    "date": "2026-07-18",
+    "id": "17843943031512"
+  },
+  {
     "title": "Roblox 发布移动端 AI 创作工具 Build",
     "summary": "Roblox 推出 Build 功能及 Studio AI 代理工具，降低游戏创作门槛。",
     "detail": "Roblox 宣布推出移动端优先的创作标签 Build 及 Studio AI 代理工具套件。旨在让 1.32 亿日活用户中更多人能实现游戏创作梦想。创作者可将开发中无需全程关注的部分委托给 AI 代理。此举标志着 UGC 平台向 AI 驱动创作转型，大幅降低技术壁垒，可能引发新一轮内容爆发。",
@@ -336,6 +362,32 @@
     "link": "https://github.com/erickong/penecho",
     "date": "2026-07-18",
     "id": "17843525305255"
+  },
+  {
+    "title": "Netflix 斥资 5.87 亿美元收购本·阿弗莱克 AI 初创公司",
+    "summary": "Netflix 收购 InterPositive，好莱坞巨头加速布局 AI 影视制作技术。",
+    "detail": "**背景**：Variety 报道 Netflix 以 5.87 亿美元高价收购本·阿弗莱克旗下的 AI 初创公司 InterPositive。**核心**：此次收购旨在将 AI 技术深度整合进影视制作流程，潜在应用包括剧本辅助生成、后期制作优化及内容个性化推荐。**影响**：标志传统流媒体巨头对 AI 内容生成技术的重度投入，可能引发好莱坞 AI 应用新一轮并购潮，加速影视工业化与智能化进程。此外，名人效应与科技结合也凸显 AI 在创意领域的商业价值，但也可能引发关于 AI 取代创意工作的行业讨论与工会关注，重塑娱乐产业格局。",
+    "tags": [
+      "News",
+      "M&A",
+      "Media"
+    ],
+    "link": "https://variety.com/2026/film/news/netflix-paid-587-million-ben-affleck-ai-interpositive-1236815111/",
+    "date": "2026-07-17",
+    "id": "17843943031510"
+  },
+  {
+    "title": "安全研究：传统文本加盐技术可绕过 AI 垃圾邮件过滤器",
+    "summary": "研究人员发现旧式文本加盐方法仍能有效欺骗现代 AI 垃圾邮件过滤系统。",
+    "detail": "**背景**：The Register 报道最新安全研究，发现现代 AI 垃圾邮件过滤器存在显著漏洞。**技术**：攻击者使用“文本加盐”(text salting) 旧式技术，通过插入特定字符干扰 AI 模型判断，成功绕过防御。**影响**：揭示当前 AI 安全防御的脆弱性，提示企业需更新过滤算法以对抗对抗性攻击，保障邮件系统安全性，同时反映 AI 模型在鲁棒性方面仍需改进。安全团队需重新评估基于 AI 的过滤机制，结合传统规则与新型防御策略，以应对不断演变的对抗性攻击手段，确保通信安全，防止垃圾邮件泛滥影响业务运营。",
+    "tags": [
+      "News",
+      "Security",
+      "AI Safety"
+    ],
+    "link": "https://www.theregister.com/security/2026/07/17/ai-spam-filters-are-getting-suckered-by-old-school-text-salting/5274434",
+    "date": "2026-07-17",
+    "id": "17843943031513"
   },
   {
     "title": "福布斯：AI 繁荣建立在债务之上，投资者需求骤降",
@@ -1027,6 +1079,19 @@
     "id": "17842591595814"
   },
   {
+    "title": "日本拟补贴 7000 万美元推动 AI 本地化，超越机器翻译新范式",
+    "summary": "媒体分析日本 AI 本地化 subsidy，强调生成式 AI 理解上下文而非逐行翻译。",
+    "detail": "**背景**：Medium 文章分析日本计划补贴 7000 万美元推动动漫游戏 AI 本地化出海引发的争议，源起 Yomiuri Shimbun 报道。**观点**：指出真正 AI 本地化应理解角色关系与上下文，而非旧式机器翻译的逐行处理，避免破坏角色声音。**影响**：为娱乐行业 AI 应用提供新思路，强调生成式 AI 在文化适配中的潜力，避免低质量翻译损害 IP 价值，推动本地化工作流向更深度的内容理解转变。这要求 AI 模型具备更强的语境记忆与角色一致性能力，从而在提升效率的同时保持艺术作品的完整性与情感传达，平衡速度与质量。",
+    "tags": [
+      "News",
+      "Localization",
+      "Media"
+    ],
+    "link": "https://medium.com/@ic-eight/the-ai-with-a-thousand-voices-374680948342",
+    "date": "2026-07-16",
+    "id": "17843943031514"
+  },
+  {
     "title": "微软 CEO 警告：企业使用 AI 正在“双重付费”",
     "summary": "纳德拉警示企业数据被 AI 实验室挖掘，建议构建私有学习环境。",
     "detail": "微软 CEO 萨提亚·纳德拉发出严重警告，指出企业使用公共 AI 模型不仅需支付 token 费用，还在无意中贡献专有知识。模型通过提示词、工具使用及修正学习\"exhaust\"，可能未来与企业竞争。纳德拉建议企业保留数据所有权，构建云端私有学习环境及编排层，避免供应商锁定。这标志着大厂与前沿 AI 实验室关系的潜在转折，企业需重新评估数据策略以防核心技术外流。此外，AI 实验室限制企业训练模型，加剧了不对称竞争，促使企业寻求更自主的 AI 部署方案。此观点引发行业对数据主权与模型依赖的深层思考。",
@@ -1233,70 +1298,5 @@
     "link": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
     "date": "2026-07-16",
     "id": "17842356505641"
-  },
-  {
-    "title": "实测：Claude Fable 5 与 GPT-5.6 Sol 自主制作 MV",
-    "summary": "测试前沿模型在预算限制下自主策划、生成并剪辑音乐视频的能力。",
-    "detail": "试 AI.dev 进行基准测试，让 Claude Fable 5 和 GPT-5.6 Sol 在$100 预算内自主制作音乐视频。模型需自主研究工具、生成素材并使用 ffmpeg 剪辑，测试歌曲为\"Uptown Funk\"。测试记录了每个工具调用与成本，展示了长 horizon 任务中的工具使用差异。每个模型运行自主工具调用循环，包含计划、搜索、预算检查及生成工具。结果显示前沿模型已具备独立协调多模态任务的能力，为 Agent 工作流自动化提供了重要参考数据，揭示模型间策略差异与成本效益。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Benchmark"
-    ],
-    "link": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
-    "date": "2026-07-16",
-    "id": "17842356505642"
-  },
-  {
-    "title": "开发者心得：利用 AI 构建个人软件工具",
-    "summary": "倡导利用 AI 快速编写脚本解决个人需求，提升效率。",
-    "detail": "资深开发者 Daniel Lemire 分享经验，主张利用 AI 辅助编写个人软件工具。通过 AI 快速生成 ImageMagick 脚本或 JS 应用，解决图像处理、教育工具及视频字幕等具体需求，替代手动 Photoshop 操作。文章强调 AI 的核心价值在于赋能个人快速构建自动化工具，而非仅依赖现有软件。这反映了 AI 编程助手正在改变传统软件开发流程，降低个性化工具的开发门槛，鼓励非专业用户也能通过自然语言创建满足特定工作流的软件解决方案，提升个人生产力。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Productivity"
-    ],
-    "link": "https://lemire.me/blog/2026/07/16/using-ai-to-build-your-own-software/",
-    "date": "2026-07-16",
-    "id": "17842356505643"
-  },
-  {
-    "title": "卫报评论：AI 聊天机器人误导用户谁负责？",
-    "summary": "探讨 AI 幻觉导致错误信息传播时的责任归属问题。",
-    "detail": "英国卫报发表评论文章，深入探讨 AI 聊天机器人产生幻觉或误导用户时的法律责任归属。随着 AI 应用普及，错误信息可能带来严重后果。文章质疑当前框架下公司是应承担全部责任还是用户需自行甄别，反映了行业对 AI 伦理与安全监管的日益关注。该讨论针对 AI 错误引发的潜在风险，为未来政策制定提供舆论参考，强调在 AI 高速发展背景下建立清晰责任机制的必要性，涉及消费者权益保护与科技公司问责制，引发行业深思。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Policy"
-    ],
-    "link": "https://www.theguardian.com/commentisfree/2026/jun/24/ai-errors-companies-responsibility",
-    "date": "2026-07-16",
-    "id": "17842356505644"
-  },
-  {
-    "title": "Cq：面向 AI 代理的共享知识公共库",
-    "summary": "新项目旨在为 AI 代理构建共享知识库，促进协作与知识复用。",
-    "detail": "I-Programmer 报道了名为 Cq 的新项目，旨在为 AI 代理建立共享知识公共库（Shared Knowledge Commons）。该项目试图解决代理间知识孤岛问题，通过标准化接口让不同代理能够访问和贡献知识。虽然具体技术细节未在摘要中完全展开，但这标志着 AI 基础设施正从单一模型向多代理协作生态系统演进。Cq 可能成为未来 Agent 网络的关键组成部分，促进知识复用与协作效率，降低重复训练成本，为分布式 AI 系统提供底层支持。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Agent"
-    ],
-    "link": "https://www.i-programmer.info/news/105-artificial-intelligence/19009-cq-a-shared-knowledge-commons-for-ai-agents.html",
-    "date": "2026-07-16",
-    "id": "17842356505645"
-  },
-  {
-    "title": "AI 编程狂热与熵增的博弈",
-    "summary": "行业反思“氛围编程”带来的技术债务与混乱。",
-    "detail": "文章深入探讨了 AI 编程狂热背后的隐患与行业反思。虽然“氛围编程”能迅速清除 backlog，实现看似惊人的工程速度，但往往留下混乱的代码库与技术债务。许多团队后续需花费数月清理“火焰痕迹”。这反映了 AI enthusiast 与 skeptics 之间的 race，提醒开发者在追求速度时需兼顾代码质量与维护性，避免盲目信任 AI 生成代码而导致系统熵增。这种“速度 vs 熵增”的博弈揭示了当前 AI 工程化的核心矛盾，即短期效率提升与长期系统稳定性的平衡，对 AI Native 团队的管理提出了更高要求，强调文档与规范的重要性。",
-    "tags": [
-      "News",
-      "AI Coding",
-      "Industry"
-    ],
-    "link": "https://charity.wtf/p/ai-enthusiasts-are-in-a-race-against",
-    "date": "2026-07-16",
-    "id": "17842291953710"
   }
 ]
