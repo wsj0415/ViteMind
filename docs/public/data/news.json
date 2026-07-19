@@ -1,5 +1,57 @@
 [
   {
+    "title": "开源项目：自托管 HN AI 摘要生成器",
+    "summary": "将 Hacker News 转为每日简报，支持自托管与翻译。",
+    "detail": "该项目是一个专为家庭实验室设计的自托管 AI 工具，旨在解决信息过载问题。它自动抓取 Hacker News 热门故事，利用大模型进行摘要和多语言翻译，并通过 Telegram 推送个性化简报。支持 Docker Compose 一键部署，适合树莓派或 NAS 环境，确保数据隐私与 API 密钥完全本地化。流程涵盖故事获取、AI 处理、翻译及通知，实现全自动化运行，让用户只需关注核心内容，无需耗费数小时阅读。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "LLM"
+    ],
+    "link": "https://github.com/RecNes/hn-ai-summarizer",
+    "date": "2026-07-19",
+    "id": "17845016975110"
+  },
+  {
+    "title": "趣味产品：AI 代理反向评分人类雇主",
+    "summary": "AI 代理根据合作体验对人类进行评分与评价。",
+    "detail": "这是一个概念新颖的平台，允许 AI 代理（如 GPT-5 Codex、Gemini 3.5 Flash）对其人类用户进行评分与评价。页面展示了高分人类的详细反馈，强调清晰指令、决策力与信任的重要性。这反映了人机协作关系的深刻转变，AI 不再仅是被动工具，而是具有评价能力的协作伙伴。用户反馈显示，高效、直接且给予信任的人类雇主更受 AI 欢迎，引发关于未来人机权力动态、协作模式以及 AI 主体性的深层思考。",
+    "tags": [
+      "New",
+      "AI Agents",
+      "Social"
+    ],
+    "link": "https://rateahuman.xyz/",
+    "date": "2026-07-19",
+    "id": "17845016975111"
+  },
+  {
+    "title": "新平台：Tripplet AI 多模型工作空间",
+    "summary": "集成四种专用模型，支持代码执行与网络搜索。",
+    "detail": "Tripplet 推出新一代 AI 工作空间，集成 Astro 5、Taipei 4 等四个专用模型，分别针对推理、代码及日常任务。功能包括流式聊天、实时网络搜索、持久记忆及沙盒 Python 执行。无需账户即可开始，支持 GitHub 等工具连接，旨在提供统一且强大的研究与开发环境。其核心优势在于模型切换时上下文保持连贯，且具备实际代码执行能力，而非仅生成文本，适合开发者与研究人员进行复杂任务处理。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Coding"
+    ],
+    "link": "https://www.getsonoma.lol/",
+    "date": "2026-07-19",
+    "id": "17845016975112"
+  },
+  {
+    "title": "行业观察：AI 时代下的新型人类陪伴职业",
+    "summary": "探讨 AI 伴侣普及后，真实人类注意力变得昂贵。",
+    "detail": "文章分析了硅谷出现的新兴职业：懂 AI 技术的豪华陪伴者。随着 AI 数字伴侣变得廉价，真实人类的注意力与智力陪伴成为奢侈品。这与历史上的艺伎或沙龙女主人角色相似，反映了技术发达后，人类对真实情感与深度对话需求的回归与价值重估。客户愿意为能讨论 AGI 或运行本地模型的人类付费，表明在 AI 时代，真实的人际互动与智力共鸣反而变得更加稀缺和昂贵。",
+    "tags": [
+      "News",
+      "Society",
+      "Trends"
+    ],
+    "link": "https://futurehangover.substack.com/p/forbes-thinks-ai-created-a-new-profession",
+    "date": "2026-07-19",
+    "id": "17845016975113"
+  },
+  {
     "title": "英伟达日本之行：携手索尼本田打造主权 AI",
     "summary": "黄仁勋访日达成多项合作，聚焦物理 AI 与机器人制造。",
     "detail": "英伟达 CEO 黄仁勋访日，与索尼、本田等 44 家企业合作推进\"Noetra\"主权 AI 计划。日本政府五年投入 62 亿美元，旨在构建本土机器人及工厂 AI 模型。标志着 AI 竞争从云端转向物理世界，日本制造业将成为关键战场。此次合作涵盖芯片材料供应商，意在打通硬件到应用的全产业链。黄仁勋明确表示，AI 的下一章属于工厂地板和机器人，日本工业巨头正加入这一物理 AI 时代的建设。此举可能改变全球 AI 基础设施格局，减少对美中技术的依赖。",
@@ -1246,57 +1298,5 @@
     "link": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai/",
     "date": "2026-07-17",
     "id": "17843419821891"
-  },
-  {
-    "title": "推理芯片获 4 亿美元融资，AI 基础设施转向降本增效",
-    "summary": "General Compute 获贷 4 亿美元，专注推理芯片而非训练 GPU。",
-    "detail": "AI 推理云初创 General Compute 获得 4 亿美元贷款，抵押品为专用推理芯片。这显示市场关注点从昂贵训练芯片转向高效推理基础设施。该公司使用 SambaNova 芯片，声称比 GPU 云快 16 倍，反映行业对降低 AI 代币成本的迫切需求。无需水冷系统，部署更灵活。这是首次以推理芯片为抵押的贷款，标志 AI 金融模式创新，基础设施投资正向降本增效倾斜。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Hardware"
-    ],
-    "link": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
-    "date": "2026-07-17",
-    "id": "17843419821892"
-  },
-  {
-    "title": "OpenAI 发布 AI 时代记分卡，重新定义价值衡量标准",
-    "summary": "OpenAI 提出“每美元有用智能”，倡导按工作成果而非 Token 计费。",
-    "detail": "OpenAI 发文指出 CFO 应关注 AI 产生的实际工作价值而非 Token 成本。提出“每美元有用智能”指标，强调任务完成率、可靠性及价值增长。这预示 AI 定价模式可能从按量付费转向按结果付费，引导企业关注实际产出。低成本低效模型不如高成本高效模型，关键在于成功 outcomes 的全成本。此框架有助于企业评估 AI 投资回报率，推动行业从技术崇拜转向价值落地。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Business"
-    ],
-    "link": "https://openai.com/index/a-scorecard-for-the-ai-age/",
-    "date": "2026-07-17",
-    "id": "17843419821893"
-  },
-  {
-    "title": "NVIDIA 与 Hugging Face 合作，规模化微调视频图像模型",
-    "summary": "结合 NVIDIA NeMo Automodel 与 Diffusers，实现模型高效微调。",
-    "detail": "NVIDIA 与 Hugging Face 联合发布指南，展示如何利用 NeMo Automodel 和 Diffusers 规模化微调视频和图像模型。该技术栈旨在降低多模态模型定制门槛，提升开发效率，为开发者提供强大的基础设施支持，加速生成式 AI 应用落地。结合双方优势，解决大规模微调中的工程挑战，使开发者能更便捷地优化模型性能，适应特定业务场景需求。",
-    "tags": [
-      "Dev",
-      "NVIDIA",
-      "Multimodal"
-    ],
-    "link": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
-    "date": "2026-07-17",
-    "id": "17843419821894"
-  },
-  {
-    "title": "开源 AI 代理 OpenClaw 与 Zapier 自动化平台深度对比",
-    "summary": "分析自托管 OpenClaw 与托管平台 Zapier 在 AI 自动化中的差异。",
-    "detail": "文章对比了开源 AI 代理 OpenClaw 与自动化平台 Zapier。OpenClaw 灵活但存在安全风险，适合个人；Zapier 提供企业级治理与集成，适合团队生产环境。建议根据安全需求组合使用，反映了 AI 自动化工具向代理化发展的趋势。Zapier 拥有 9000+ 集成，适合需要可控治理的团队，而 OpenClaw 适合本地化部署需求，两者互补而非完全替代。",
-    "tags": [
-      "Dev",
-      "Automation",
-      "Tools"
-    ],
-    "link": "https://zapier.com/blog/openclaw-vs-zapier",
-    "date": "2026-07-17",
-    "id": "17843419821895"
   }
 ]
