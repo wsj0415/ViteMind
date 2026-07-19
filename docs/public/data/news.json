@@ -1,5 +1,70 @@
 [
   {
+    "title": "中国 AI 融资图谱：智谱 AI 估值达 1280 亿美元",
+    "summary": "报告揭示中国 AI 巨头融资详情，智谱、MiniMax 等独角兽获巨额资金支持。",
+    "detail": "该报告详细梳理了中国 AI 行业的资本格局与主要参与者。智谱 AI（Z.ai）作为领军企业，融资约 65 亿美元，市值高达 1280 亿美元；MiniMax 融资 38 亿美元，估值 100 亿美元；Moonshot AI 估值 20 亿美元。除了红杉中国、IDG 等传统风投，北京 AI 产业基金、中关村科学城等国资背景资本也深度参与。阿里巴巴、腾讯等大厂也在列。这表明中国 AI 发展不仅依赖市场化融资，国家资本也在关键领域提供强力支撑，行业集中度进一步提升，形成了巨头与初创并存的生态，资本流向清晰指向头部模型厂商。",
+    "tags": [
+      "News",
+      "Funding",
+      "China"
+    ],
+    "link": "https://www.chinese-ai-report.com/",
+    "date": "2026-07-19",
+    "id": "17844570209290"
+  },
+  {
+    "title": "旧金山强制苹果谷歌下架 AI 深 fake 应用",
+    "summary": "旧金山律政司要求科技巨头移除数十款生成非共识深 fake 色情内容的应用。",
+    "detail": "旧金山正式命令 Apple 和 Google 从应用商店删除数十款\"nudify\"应用，这类软件可 digitally alter 图片生成裸体图像。加州法律已将协助创建非共识深 fake 色情内容定为犯罪，并允许受害者提起民事诉讼。律政司指出，尽管已有法规，科技巨头仍从中获利，处理非法购买支付近一年。此举标志着地方政府开始强制平台承担更多内容审核责任，为 AI 生成内容的合规性树立了严厉的先例，可能引发更多地区的监管效仿，对应用商店审核政策产生深远影响。",
+    "tags": [
+      "News",
+      "Regulation",
+      "Ethics"
+    ],
+    "link": "https://techcrunch.com/2026/07/17/apple-and-google-ordered-to-purge-nudify-apps-from-app-stores/",
+    "date": "2026-07-19",
+    "id": "17844570209291"
+  },
+  {
+    "title": "AI 编程代理新范式：优化代码所有权而非生成量",
+    "summary": "新观点指出 AI 编程应重用开源组件，避免生成过多代码导致技术债务。",
+    "detail": "文章提出 AI 编程代理的核心目标不应是生成更多代码，而是减少自有代码量。随着代码生成成本降低，维护成本成为关键。现代软件依赖开源生态，盲目生成新代码会积累技术债务，包括捷径成本和维护 deferred。建议 AI 代理建立开源智能层，优先复用可信组件而非从头生成。这对开发者而言意味着思维转变：从“编写者”变为“集成者”，重视架构而非单纯产出。LLM 提供商目前衡量指标可能错误，工程视角应优化复用率，避免生态碎片化，确保软件长期可维护性与安全性。",
+    "tags": [
+      "Dev",
+      "Best Practices",
+      "Open Source"
+    ],
+    "link": "https://www.openenergytransition.org/posts/ai-coding-agents-should-optimize-for-less-owned-code",
+    "date": "2026-07-19",
+    "id": "17844570209292"
+  },
+  {
+    "title": "研究警示：使用 AI 降低人们承认无知的意愿",
+    "summary": "法意学者发现 AI 建议抑制批判性思维，使人更自信地传播错误信息。",
+    "detail": "法国和意大利大学的研究发现，access 到 AI 建议会抑制人们说“我不知道”的能力。即使 AI 提供错误答案，用户的自信心也会增加，准确性却下降。研究人员设计了 LLM 通常失败的问题进行测试。这表明 AI 可能削弱人类的批判性思维和自我认知界限。在依赖 AI 决策的场景中，这种过度自信可能导致严重错误，提示我们需要设计机制鼓励用户保持怀疑和验证习惯。承认无知是人类知识极限的重要认知，AI 的便捷性正在侵蚀这一能力，需警惕认知退化风险。",
+    "tags": [
+      "News",
+      "Research",
+      "Psychology"
+    ],
+    "link": "https://www.theregister.com/ai-and-ml/2026/07/19/using-ai-makes-people-less-likely-to-admit-they-dont-know-something/5274567",
+    "date": "2026-07-19",
+    "id": "17844570209293"
+  },
+  {
+    "title": "Shikigami 上线：支持并行运行 AI 编程代理",
+    "summary": "新工具允许在隔离的 Git 工作树中并行运行多个 AI 代理，避免冲突。",
+    "detail": "Shikigami 是一款新发布的开发者工具，旨在解决 AI 编程代理并发冲突问题。它允许用户在独立的 Git 工作树中并行运行多个代理（如 Claude 或 Codex），互不干扰。开发者可在编辑器中统一审查差异、Git 状态和数据库。会话可保存以便后续恢复，支持 macOS 和 Linux。这提升了 AI 辅助开发的效率，特别适合复杂任务的多路径探索，是 AI 工程化落地的实用创新。通过隔离环境，团队可安全测试不同 AI 生成的代码方案，避免污染主分支，显著降低协作风险。",
+    "tags": [
+      "New",
+      "Dev Tool",
+      "Productivity"
+    ],
+    "link": "https://shikigami.dev/",
+    "date": "2026-07-19",
+    "id": "17844570209294"
+  },
+  {
     "title": "Prodigy 发布：面向专业团队的 AI 劳动力基础设施",
     "summary": "Prodigy 推出 AI 基础设施，提供按需子代理作为自主队友，索引公司全量数据。",
     "detail": "Prodigy 创始人 Samay 介绍新 AI 基础设施，旨在提供按需子代理（subagents）作为自主队友。核心差异在于\"Prodigy Brain\"索引公司所有工具信息（邮件、文档、Git、CRM 等），代理与大脑沟通而非人类。编排器（Orchestrator）根据角色和目标启动代理，设有明确目标、证据、验证测试和停止条件。这标志着 AI 从辅助工具向自主劳动力的转变，为企业级 AI 代理部署提供了新架构思路。与传统聊天机器人不同，该系统强调自主性与工具集成，旨在减少人类干预。这种架构可能解决当前 AI 员工缺乏上下文和持续性的问题，为专业团队提供可扩展的 AI 劳动力解决方案，具有潜在的 B 端市场影响力。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.disruptionbanking.com/2026/07/17/is-the-ai-boom-over-for-kospi-and-asian-tech-stocks/",
     "date": "2026-07-17",
     "id": "17842874134960"
-  },
-  {
-    "title": "监管评估：LLM 是否抑制政治言论自由？",
-    "summary": "监督委员会评估主流 AI 模型，发现其较少批评限制言论的政治政权。",
-    "detail": "监督委员会发布首份大语言模型评估报告，测试了 Anthropic、Google、Meta 等主流模型。研究发现，这些模型在涉及限制言论自由的政治政权时，显著减少了批评性输出。该评估源于政府对社交媒体压力的案例工作，揭示了 AI 安全对齐可能带来的言论自由风险。涉及 DeepSeek 和 OpenAI 等模型。此举可能引发对 AI 模型中立性及监管政策的进一步讨论，影响未来模型部署策略。报告包含方法论和结果分析，呼吁进一步研究 AI 对政治言论的影响。执行摘要指出，全球使用最广泛的模型在特定政治语境下表现保守，这不仅关乎技术对齐，更涉及全球合规与伦理边界。",
-    "tags": [
-      "News",
-      "Policy",
-      "LLM"
-    ],
-    "link": "https://www.oversightboard.com/news/are-llms-stifling-political-speech-an-assessment-of-how-ai-models-protect-free-expression/",
-    "date": "2026-07-17",
-    "id": "17842874134961"
-  },
-  {
-    "title": "英伟达展示基于 Nemotron 的日本 AI 开发成果",
-    "summary": "英伟达 Highlight 日本 AI 开发案例，展示 Nemotron 模型在企业级应用中的潜力。",
-    "detail": "英伟达在 HPCwire 上展示了基于 Nemotron 模型构建的日本 AI 开发项目。Nemotron 作为英伟达优化的模型系列，旨在提升企业级 AI 应用的性能与效率。此次展示强调了日本企业在 AI 落地方面的进展，以及英伟达生态在全球范围内的扩展。对于开发者而言，这意味着更多针对特定区域和行业的模型优化方案 available。有助于推动 AI 在亚洲市场的深度集成，展示高性能计算与 AI 结合的趋势。该报道来自 HPCwire，涵盖自 1987 年以来的最快计算机报道。Nemotron 模型专为优化工作负载设计，支持复杂的企业级任务，表明英伟达正加强区域合作，推动 AI 基础设施多样化。",
-    "tags": [
-      "News",
-      "Nvidia",
-      "Enterprise"
-    ],
-    "link": "https://www.hpcwire.com/off-the-wire/nvidia-showcases-japanese-ai-development-built-on-nemotron-models/",
-    "date": "2026-07-17",
-    "id": "17842874134962"
-  },
-  {
-    "title": "AI 助力 Wii 游戏重编译：4K 画质与 uncapped FPS",
-    "summary": "马里奥赛车 Wii 首次实现静态重编译，支持 4K 分辨率及超高帧率。",
-    "detail": "开发者利用 AI 技术成功将《马里奥赛车 Wii》重编译为 PC 版本，实现了 4K 潜力和 uncapped 帧率。这是 Wii 游戏的首次静态重编译，得益于 Retro Rewind 兼容性，支持超过 200 条赛道。该技术展示了 AI 在复古游戏模拟和代码转换领域的突破，为旧平台游戏的现代化运行提供了新路径。Tom's Hardware 报道指出，这可能启发更多怀旧游戏的高清重制方案，提升玩家体验。传统模拟器依赖动态翻译，而静态重编译能原生运行代码，性能更佳。AI 在此过程中辅助了代码分析和转换，这一成就证明了 AI 在软件工程遗留系统现代化中的潜力，开启复古游戏新纪元。",
-    "tags": [
-      "Dev",
-      "Gaming",
-      "AI"
-    ],
-    "link": "https://www.tomshardware.com/video-games/retro-gaming/mario-kart-wii-recompiled-for-pc-using-ai-with-4k-potential-and-uncapped-frame-rates-first-static-recompilation-of-a-wii-game-supports-over-200-tracks-thanks-to-retro-rewind-compatibility",
-    "date": "2026-07-17",
-    "id": "17842874134963"
-  },
-  {
-    "title": "开源工具 Senbonzakura：移除 AI 模型安全护栏",
-    "summary": "新开源项目允许开发者移除开放 AI 模型的安全限制，引发伦理讨论。",
-    "detail": "GitHub 上新增项目 Senbonzakura，旨在移除开放 AI 模型的安全护栏（guardrails）。该工具允许开发者更自由地微调模型行为，但也引发了关于 AI 安全性和伦理的担忧。对于研究人员和开发者，这提供了测试模型底层能力的机会，但需谨慎使用以避免生成有害内容。此工具的出现反映了开源社区对模型控制权的追求与安全风险之间的张力。该项目在 Hacker News 上展示，属于 Show HN 类别。移除护栏可能用于红队测试或特定研究场景，但也可能被滥用。开发者需遵守当地法律法规，这凸显了开源模型治理的难题，社区需建立更好的使用规范，确保技术用于有益目的。",
-    "tags": [
-      "Dev",
-      "Security",
-      "OpenSource"
-    ],
-    "link": "https://github.com/elementmerc/senbonzakura",
-    "date": "2026-07-17",
-    "id": "17842874134964"
-  },
-  {
-    "title": "五项研究重塑 AI 软件工程认知",
-    "summary": "DX 发布五项研究，探讨 AI 对开发者生产力及软件交付流程的深层影响。",
-    "detail": "DX Engineering Enablement 通讯分享了五项独立研究，共同指向 AI 正在压缩软件工程上游工作。核心问题从\"AI 是否让开发者更快”转向“代码生成后的价值交付”。研究涉及生产力影响、瓶颈转移及技术债务，警示理解能力需跟上生成速度。这对工程管理者优化 AI 工具链具有重要参考意义，揭示了未来研发流程的潜在瓶颈。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Productivity"
-    ],
-    "link": "https://newsletter.getdx.com/p/five-studies-that-are-changing-how",
-    "date": "2026-07-17",
-    "id": "17842795071600"
   }
 ]
