@@ -1,5 +1,31 @@
 [
   {
+    "title": "Prodigy 发布：面向专业团队的 AI 劳动力基础设施",
+    "summary": "Prodigy 推出 AI 基础设施，提供按需子代理作为自主队友，索引公司全量数据。",
+    "detail": "Prodigy 创始人 Samay 介绍新 AI 基础设施，旨在提供按需子代理（subagents）作为自主队友。核心差异在于\"Prodigy Brain\"索引公司所有工具信息（邮件、文档、Git、CRM 等），代理与大脑沟通而非人类。编排器（Orchestrator）根据角色和目标启动代理，设有明确目标、证据、验证测试和停止条件。这标志着 AI 从辅助工具向自主劳动力的转变，为企业级 AI 代理部署提供了新架构思路。与传统聊天机器人不同，该系统强调自主性与工具集成，旨在减少人类干预。这种架构可能解决当前 AI 员工缺乏上下文和持续性的问题，为专业团队提供可扩展的 AI 劳动力解决方案，具有潜在的 B 端市场影响力。",
+    "tags": [
+      "New",
+      "Agents",
+      "Enterprise"
+    ],
+    "link": "https://news.ycombinator.com/item?id=48965750",
+    "date": "2026-07-19",
+    "id": "17844492485931"
+  },
+  {
+    "title": "面向数学家的 AI 代理：超越 ChatGPT 的自主研究",
+    "summary": "文章探讨数学家如何利用自主 AI 代理工具链，长时间自主验证猜想而非简单问答。",
+    "detail": "针对数学家群体，文章指出单纯使用 ChatGPT 问答效率低下且易错，常浪费整个下午。建议采用自主 Agent 系统，配备工具链（OS、Python、LaTeX、SAGE、浏览器）。Agent 可自主跟踪进度、从错误中学习、避免重复尝试，并允许人类干预方向。这种方法比传统问答模式成功率更高，展示了 AI 在专业科研领域的深度应用潜力，强调了工具调用与自主运行的重要性。文章反驳了\"AI 无法解决数学问题\"的常见观点，指出正确用法是构建自主 Harness。作者推荐相关技术背景视频，表明该领域需要跨学科知识。这为科研工作者提供了新的 AI 协作范式，预示着 AI 在硬科学领域的落地路径。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "Research"
+    ],
+    "link": "https://chaoxu.prof/posts/2026-07-18-ai-agents-for-the-working-mathematician.html",
+    "date": "2026-07-19",
+    "id": "17844492485932"
+  },
+  {
     "title": "挪威研究：AI 尚未取代年轻求职者",
     "summary": "挪威研究显示，AI 目前并未显著 displacing 年轻求职者，但未来仍需监控。",
     "detail": "挪威 SciTech 新闻发布的一项最新研究指出，尽管生成式 AI 技术在全球范围内迅速发展，但在挪威年轻求职者群体中尚未出现大规模替代现象。该研究为 AI 对就业市场的实际影响提供了宝贵的实证数据，暂时缓解了部分社会就业焦虑。然而报告标题强调“尚未”（Yet），暗示未来仍需密切监控 AI 技术渗透率提升后的潜在风险。这对政策制定者和教育机构具有重要参考意义，表明当前劳动力市场仍具韧性，但转型压力正在积累。行业需关注技能匹配问题，教育体系需调整以适应 AI 协作时代，避免未来出现结构性失业。此研究为全球就业政策提供了北欧视角的参考案例。",
@@ -115,6 +141,19 @@
     "link": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
     "date": "2026-07-19",
     "id": "17844293528244"
+  },
+  {
+    "title": "质疑 AI 编程助手：审查代码并非可行论点",
+    "summary": "文章质疑 LLM 编程助手的实用性，指出高错误率使其难以真正提升编码效率。",
+    "detail": "作者基于科学证据强烈质疑 LLM 在软件开发中的实际效用。核心观点是\"实习生问题\"，即 AI 助手犯错风险极高，包括幻觉、拼写错误及偏离任务。尽管支持者众多，但缺乏实证表明其能让人写得更好或更快。文章强调当前 proponents 未能解决实证研究指出的问题，反而加剧了怀疑。这对依赖 AI 生成代码的团队提出警示，需重视验证成本。此外，作者指出 IP 法律和生态消耗并非主要痛点，真正的瓶颈在于代码质量与审查可行性。文章写于一年前，但词汇如\"Coding Assistants\"至今仍具参考价值。这为 AI 编程工具的未来发展提出了严峻的挑战与反思方向，呼吁行业正视实证数据而非盲目推广。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Coding"
+    ],
+    "link": "https://www.softwaremaxims.com/blog/reviewing-ai-code",
+    "date": "2026-07-18",
+    "id": "17844492485930"
   },
   {
     "title": "Ilya 论文清单变身 RPG 游戏，Gamification 学习 AI 核心",
@@ -1259,44 +1298,5 @@
     "link": "https://newsletter.getdx.com/p/five-studies-that-are-changing-how",
     "date": "2026-07-17",
     "id": "17842795071600"
-  },
-  {
-    "title": "JetBrains 展望 AI 与 XR 交互革命",
-    "summary": "JetBrains 研究认为 AI 结合 XR 硬件将带来 60 年来首次交互范式革命。",
-    "detail": "JetBrains 博客指出，AI 与扩展现实（XR）硬件结合可能引发继鼠标窗口范式后的首次交互革命。XR 提供 gaze、手势等多模态输入，配合 AI 可实现更高效个性化的编码体验。这标志着软件开发交互方式的根本性转变，未来开发者可能通过空间计算与 AI 协作，重新定义技术创造过程，值得开发者关注早期趋势。",
-    "tags": [
-      "Dev",
-      "XR",
-      "Interaction"
-    ],
-    "link": "https://blog.jetbrains.com/research/2026/07/ai-and-xr-future/",
-    "date": "2026-07-17",
-    "id": "17842795071601"
-  },
-  {
-    "title": "Netflix 披露约 300 部作品使用生成式 AI",
-    "summary": "Netflix 在 2026 年 Q2 财报中确认，约 300 个标题内容使用了生成式 AI 技术。",
-    "detail": "Netflix 在 2026 年第二季度财报电话会议中透露，平台上约 300 部标题内容使用了生成式 AI 技术。这一数据量化了主流流媒体巨头对 AI 内容的实际采纳程度，标志着 AI 生成内容正式进入大规模商业应用阶段。这对内容创作者和版权方产生深远影响，预示着娱乐行业生产流程的标准化 AI 整合即将完成。",
-    "tags": [
-      "News",
-      "Entertainment",
-      "Generative AI"
-    ],
-    "link": "https://www.theverge.com/streaming/966633/netflix-ai-titles-q2-2026-earnings",
-    "date": "2026-07-17",
-    "id": "17842795071602"
-  },
-  {
-    "title": "中国 AI 芯片替代商营收预计大幅增长",
-    "summary": "摩尔线程与海光信息预计上半年营收大增，反映国内 AI 算力需求激增。",
-    "detail": "中国芯片设计商摩尔线程与海光信息预计上半年营收同比增长 55% 至 135%。增长动力源于国内 AI 算力需求激增及国产替代趋势。摩尔线程归功于全功能 GPU 需求，海光信息则受益于深算加速卡。这凸显了全球 AI 竞赛下中国本土基础设施的强劲势头，表明硬件供应链正在加速适应 AI workload 的特殊需求。",
-    "tags": [
-      "News",
-      "Hardware",
-      "China"
-    ],
-    "link": "https://www.scmp.com/tech/tech-trends/article/3360908/chinese-nvidia-alternatives-project-massive-sales-ai-chip-demand-surges",
-    "date": "2026-07-17",
-    "id": "17842795071603"
   }
 ]
