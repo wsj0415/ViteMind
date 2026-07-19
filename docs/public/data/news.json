@@ -1,5 +1,57 @@
 [
   {
+    "title": "OpenAI 发布 AI 时代价值评估记分卡",
+    "summary": "OpenAI 提出“每美元有用智能”指标，指导企业衡量 AI 真实价值。",
+    "detail": "OpenAI 官方博客发布文章，指出 CFO 应关注 AI 完成工作的价值而非仅看 Token 成本。提出“每美元有用智能”概念，围绕四个关键问题评估：AI 是否完成重要工作、任务成本、结果可靠性及规模价值。旨在帮助企业从采用率转向成果衡量，优化 AI 投资回报。文章强调更低成本的模型未必更优，需综合考量尝试次数与人工审查成本，推动 AI 从实验走向实际生产力转化，为行业提供新的价值评估框架。这标志着 AI 评估体系从技术指标向商业价值的转变，提示企业在采购模型时需权衡单次成本与整体效率，避免陷入单纯的价格竞争，转而追求最终业务成果的最大化。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Business"
+    ],
+    "link": "https://openai.com/index/a-scorecard-for-the-ai-age/",
+    "date": "2026-07-19",
+    "id": "17845055917300"
+  },
+  {
+    "title": "学生 AI 研究集体提供超千元免费算力资源",
+    "summary": "汇总免费 AI 算力、工具及研究指南，助力研究人员从零到发表。",
+    "detail": "SAIRC 整理了一份包含超过 1000 美元免费 AI/GPU/LLM 信用的资源列表，专为研究人员设计。涵盖研究创意生成、实验设计指南及免费算力获取途径，提供云端信用、笔记环境及服务器less 平台信息。具体包括如何 narrowing focus、设计实验及寻找 ML 研究机会的指南。旨在降低学生和研究者的入门门槛，加速 AI 研究项目从构思到落地的全过程。资源包还包含如何撰写和辩护研究结果的指导，形成完整的研究闭环。这种集中式资源分发模式有助于解决学术界算力不均的问题，促进更多创新想法的产生，对于缺乏预算的独立研究者而言，这是获取关键计算资源的重要渠道。",
+    "tags": [
+      "Dev",
+      "Resources",
+      "GPU"
+    ],
+    "link": "https://sairc.vercel.app/resources",
+    "date": "2026-07-19",
+    "id": "17845055917301"
+  },
+  {
+    "title": "台积电加速亚利桑那工厂建设以抓住 AI 机遇",
+    "summary": "台积电 CFO 表示因 AI 芯片需求激增，将加速美国工厂扩建。",
+    "detail": "台积电 CFO 确认正加速亚利桑那州工厂建设，以抓住 AI 超级趋势。随着 AI 芯片需求爆发，供应链产能成为关键瓶颈。此举表明硬件基础设施正全力配合 AI 软件发展，预计将缓解高端芯片供应紧张，巩固美国本土半导体制造能力。新闻指出这是为了 capitalize on AI 'megatrend'，响应地缘政治与市场需求双重驱动。这反映了 AI 浪潮对上游制造端的巨大拉动效应，显示半导体产能扩张已成为支持 AI 持续增长的关键战略举措。在全球芯片短缺背景下，此次扩建意味着未来几年 AI 算力供给有望改善。对于依赖 GPU 训练的 AI 公司而言，供应链稳定性的提升将降低运营风险，支持更大规模模型的训练与部署。",
+    "tags": [
+      "News",
+      "Hardware",
+      "TSMC"
+    ],
+    "link": "https://www.cnbc.com/2026/07/20/tsmc-arizona-fab-capacity-ai-chip-demand.html",
+    "date": "2026-07-19",
+    "id": "17845055917302"
+  },
+  {
+    "title": "Custodian Labs 推出 5 行代码部署 AI 代理工具",
+    "summary": "无需基础设施，5 行代码即可部署生产级 AI 代理，内置隐私保护。",
+    "detail": "新产品 Custodian Labs 允许开发者通过 5 行代码部署生产级 AI 代理。特色包括内置隐私 Guardian Layer 检测 PII，开箱即用的 RAG 记忆功能，以及模型无关架构（支持 OpenAI/Anthropic 等）。无需管理数据库或向量存储，抽象底层基础设施，让开发者专注于逻辑构建。其商业化了 AUT Ventures 和新西兰政府资助的研究成果，适合快速原型验证及隐私敏感应用。该工具特别强调了隐私保护层，能在数据到达模型前控制 PII 处理，符合企业合规需求。通过抽象化底层复杂度，它降低了 AI 代理开发的技术壁垒，使非基础设施专家也能快速构建应用，解决了传统部署中向量 DB 配置和托管管理的复杂性痛点。",
+    "tags": [
+      "New",
+      "DevTool",
+      "Agent"
+    ],
+    "link": "https://www.custodianlabs.io",
+    "date": "2026-07-19",
+    "id": "17845055917303"
+  },
+  {
     "title": "开源项目：自托管 HN AI 摘要生成器",
     "summary": "将 Hacker News 转为每日简报，支持自托管与翻译。",
     "detail": "该项目是一个专为家庭实验室设计的自托管 AI 工具，旨在解决信息过载问题。它自动抓取 Hacker News 热门故事，利用大模型进行摘要和多语言翻译，并通过 Telegram 推送个性化简报。支持 Docker Compose 一键部署，适合树莓派或 NAS 环境，确保数据隐私与 API 密钥完全本地化。流程涵盖故事获取、AI 处理、翻译及通知，实现全自动化运行，让用户只需关注核心内容，无需耗费数小时阅读。",
@@ -1246,57 +1298,5 @@
     "link": "https://fortune.com/2026/07/17/ai-boom-debt-blitz-investor-demand-hyperscaler-bond-issuance/",
     "date": "2026-07-17",
     "id": "17843807380851"
-  },
-  {
-    "title": "法官允许 Meta 裁掉起诉员工",
-    "summary": "美国法官拒绝阻止 Meta 裁员，即便员工已提起 AI 歧视诉讼，法律边界尚待明确。",
-    "detail": "美国法官裁定不阻止 Meta 裁掉提起 AI 歧视诉讼的员工。此案涉及 AI 在人力资源决策中的公平性问题。判决显示法律在保护员工免受 AI 歧视方面仍存挑战，科技巨头在 AI 用工决策上的法律责任边界尚待明确。这可能引发更多关于算法问责的诉讼，迫使企业完善 AI 招聘与绩效评估的透明度，保障员工合法权益。",
-    "tags": [
-      "News",
-      "Legal",
-      "Ethics"
-    ],
-    "link": "https://www.reuters.com/business/world-at-work/us-judge-wont-block-meta-laying-off-workers-who-filed-ai-discrimination-lawsuit-2026-07-17/",
-    "date": "2026-07-17",
-    "id": "17843613519782"
-  },
-  {
-    "title": "可验证的人类 AI 决策审查工具",
-    "summary": "Caneni 提供人类审查 AI 决策的可验证证据，生成独立记录满足合规与审计需求。",
-    "detail": "Caneni 推出 AI 监督证据工具，填补了“人类审查”缺乏可验证记录的空白。它生成时间戳记录，证明人类决策者实际参与了 AI 决策过程，而非仅依赖模型输出。以色列最高法院已有关于 AI 决策需人工验证的判例，该工具助力企业满足监管与审计要求，降低法律风险。在 AI 治理日益严格的背景下，此类合规工具将成为企业标配。",
-    "tags": [
-      "New",
-      "Governance",
-      "Compliance"
-    ],
-    "link": "https://caneni.net/",
-    "date": "2026-07-17",
-    "id": "17843613519783"
-  },
-  {
-    "title": "Patreon 联手 Cloudflare 正式封锁 AI 爬虫",
-    "summary": "Patreon 不再请求而是直接技术封锁 AI 爬虫，保护创作者内容。",
-    "detail": "Patreon 宣布与 Cloudflare 合作，直接阻止 AI 机器人抓取内容用于训练。此前仅依靠请求，现因抓取技术升级及新发现工具暴露内容，采取强硬措施。这标志着内容平台与 AI 公司博弈升级，Cloudflare 亦推出按次收费抓取市场。此举回应了出版商对 AI  ingest 内容的担忧，可能引发行业连锁反应，改变数据训练合规格局。混合用途爬虫在广告页面将被默认阻止，网站可向 AI 公司收费。",
-    "tags": [
-      "News",
-      "AI Ethics",
-      "Security"
-    ],
-    "link": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
-    "date": "2026-07-17",
-    "id": "17843419821890"
-  },
-  {
-    "title": "苹果起诉 OpenAI 窃取商业机密，IPO 前景蒙阴影",
-    "summary": "苹果指控 OpenAI 窃取机密，涉及 400 名前员工，影响 IPO 计划。",
-    "detail": "苹果正式起诉 OpenAI 侵犯商业秘密，指控其雇佣 400 名前苹果员工并存在不当行为。OpenAI 回应谨慎，但诉讼时机敏感，正值其筹备 IPO 之际。此事件引发企业对 AI 数据信任危机，微软 CEO 亦警告企业数据风险。案件可能影响 OpenAI 硬件野心及上市时间表，凸显 AI 高速发展中的人才与知识产权冲突，投资者需关注法律风险对估值的潜在冲击。",
-    "tags": [
-      "News",
-      "Legal",
-      "OpenAI"
-    ],
-    "link": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai/",
-    "date": "2026-07-17",
-    "id": "17843419821891"
   }
 ]
