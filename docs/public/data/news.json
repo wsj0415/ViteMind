@@ -1,5 +1,83 @@
 [
   {
+    "title": "AI 代理新瓶颈：上下文层而非模型",
+    "summary": "文章指出 AI 代理的基础设施瓶颈已从模型性能转移至上下文管理层。",
+    "detail": "**背景**：随着大模型能力趋同，AI 代理的实际表现不再单纯依赖模型智商。**核心**：文章指出基础设施瓶颈已转移至上下文层（Context Layer），影响代理的记忆管理与决策连贯性。当前模型虽强，但无法有效维持长程任务状态，导致代理在复杂流程中迷失。**影响**：开发者需从追求模型参数转向优化上下文架构，这标志着 AI 工程化进入深水区，上下文管理将成为下一代代理平台的核心竞争力，决定 Agent 能否真正落地复杂工作流。行业需重视中间件开发，解决状态保持难题，释放模型潜力。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Infrastructure"
+    ],
+    "link": "https://thenewstack.io/ai-agent-infrastructure-bottleneck/",
+    "date": "2026-07-19",
+    "id": "17844768630410"
+  },
+  {
+    "title": "The Neutrality Project：量化 AI 政治倾向",
+    "summary": "开源项目致力于通过可复现基准测试，使 AI 模型的政治立场可见且可衡量。",
+    "detail": "**背景**：AI 假设潜移默化影响用户决策，中立性成公共利益问题。**核心**：The Neutrality Project 提供 3987 个调查问题与 6 个锚定轴，开源测量模型世界观，使政治立场可见。模型 rarely 宣布立场，但通过验证选项 leans。**影响**：推动 AI 实验室公开问责，帮助用户理解模型偏见，防止回声室效应加剧。该项目强调信任需在开放中 earned，任何人均可复现基准测试，挑战模型默认价值观，为 AI 治理提供量化依据，确保人类未来与 AI 共存的安全，避免认知失调。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Open Source"
+    ],
+    "link": "https://neutralityproject.org/",
+    "date": "2026-07-19",
+    "id": "17844768630411"
+  },
+  {
+    "title": "MLB 禁止休息区使用 iPad 防 AI 作弊",
+    "summary": "美国职棒大联盟限制休息区 iPad 使用，防止球队利用 AI 辅助战术决策。",
+    "detail": "**背景**：AI 渗透体育竞技，引发公平性质疑。**核心**：MLB 新规限制休息区 iPad 使用，防止球队利用 AI 辅助战术决策，Mets 球队卷入讨论。**影响**：标志 AI 在现实世界策略应用中的边界探索，体育界率先制定反 AI 辅助规则，具行业风向标意义。这表明 AI 不仅改变办公，还介入实时决策领域，引发关于人类直觉与机器计算边界的伦理讨论，未来更多行业可能效仿此类限制，保护人类核心竞技价值。",
+    "tags": [
+      "News",
+      "Regulation",
+      "Sports"
+    ],
+    "link": "https://apnews.com/article/mlb-ai-ipads-ac940e2490557438f440514977832a74",
+    "date": "2026-07-19",
+    "id": "17844768630412"
+  },
+  {
+    "title": "AI 应用数据层最佳实践：Postgres + ClickHouse",
+    "summary": "点击屋博客分析 AI 原生应用数据增长，推荐 Postgres 与 ClickHouse 组合。",
+    "detail": "**背景**：AI 应用产生海量操作数据，传统数据库难以应对。**核心**：ClickHouse 博客推荐 Postgres 与 ClickHouse 组合，前者处理事务，后者处理分析，满足实时查询需求。**影响**：为 AI 工程化提供数据架构参考，解决 OLTP 与 OLAP workload 融合难题。AI 原生应用数据六个月增长超 1000%，需最佳数据栈支持。此方案帮助开发者构建可扩展的 AI 后端，确保用户期望的实时答案得以实现，降低基础设施成本，适应爆炸式数据增长。",
+    "tags": [
+      "Dev",
+      "Database",
+      "Infrastructure"
+    ],
+    "link": "https://clickhouse.com/blog/ai-best-of-breed-data-stack",
+    "date": "2026-07-19",
+    "id": "17844768630413"
+  },
+  {
+    "title": "实测 11 款 AI 代理：任务特异性明显",
+    "summary": "博主测试 11 个 AI 代理完成 VC 工作，发现模型在不同任务间表现差异巨大。",
+    "detail": "**背景**：AIMultiple 基准测试揭示 AI 代理实际能力。**核心**：博主测试 11 个 AI 代理完成 VC 工作，发现模型在不同任务间表现差异巨大，通用性神话破灭。**影响**：企业部署代理需针对具体工作流选型，而非盲目追求单一最强模型。擅长交易 sourced 的模型未必擅长竞品 mapping。这提示开发者需构建混合代理系统，根据任务特性路由请求，以优化成本与效果，避免对 AGI 能力的过度预期，理性看待自动化现状。",
+    "tags": [
+      "News",
+      "AI Agents",
+      "Benchmark"
+    ],
+    "link": "https://hackenewhome.blogspot.com/p/my-take-on-ai-vc-benchmark-bloggers.html",
+    "date": "2026-07-19",
+    "id": "17844768630414"
+  },
+  {
+    "title": "Skimlane：本地优先的 Chrome AI 阅读助手",
+    "summary": "新款 Chrome 插件，主打本地优先存储与自定义食谱，隐私保护性强。",
+    "detail": "**背景**：信息过载需 AI 辅助阅读，但隐私担忧犹存。**核心**：Skimlane 主打本地优先存储与自定义食谱，隐私保护性强，支持自定义提取规则与模型选择。**影响**：提供隐私友好的 AI 阅读方案，适合关注数据主权的专业人士使用。用户可构建特定领域的阅读配方，如产品简报或信号清理，导出 Markdown artifact。这反映了 AI 工具向本地化、个性化发展的趋势，平衡效率与数据安全，满足高阶用户需求。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Privacy"
+    ],
+    "link": "https://skimlane.com/",
+    "date": "2026-07-19",
+    "id": "17844768630415"
+  },
+  {
     "title": "诺兰称 AI 为“透明特洛伊木马”",
     "summary": "导演诺兰表示公众对 AI 的怀疑是健康的，称其为透明的特洛伊木马。",
     "detail": "奥斯卡导演克里斯托弗·诺兰在新片《奥德赛》宣传采访中表示，AI 是一个“透明的特洛伊木马”，公众尤其是年轻人对其持怀疑态度是健康的。他认为这种 skepticism 能确保技术被善用，并强调需对技术提供者的动机保持警惕。诺兰指出，从未见过如此快速发展却被公众完全拒绝的技术，年轻人称其为\"AI slop\"。这反映了主流文化界对 AI 快速普及的审慎态度，暗示技术接受度与透明度密切相关，行业需正视公众信任危机。这种文化阻力可能影响 AI 产品的落地速度与用户接受度，开发者需考虑伦理设计。",
@@ -1220,83 +1298,5 @@
     "link": "https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away/",
     "date": "2026-07-17",
     "id": "17843218264893"
-  },
-  {
-    "title": "Feral：自动化社交媒体内容生成的 AI 代理",
-    "summary": "新推出的 AI 代理 Feral 可每日生成文本与图像创意，助力业务推广。",
-    "detail": "Feral 是一款专为营销打造的 AI 代理，能理解品牌受众与痛点，每日自动生成社交媒体文本及图像创意。支持多平台发布，具备创意 RAG 与自我优化 loop。定价 45 美元/月，提供 5 天试用。解决了中小开发者营销一致性难题，是 AI 落地营销领域的典型应用。",
-    "tags": [
-      "New",
-      "Marketing",
-      "Agent"
-    ],
-    "link": "https://feralhq.com/",
-    "date": "2026-07-17",
-    "id": "17843154661081"
-  },
-  {
-    "title": "行业分析：AI 泡沫是否重演 1999 年互联网危机？",
-    "summary": "Prof G Media 发文探讨当前 AI 热潮与 1999 年互联网泡沫的相似与不同。",
-    "detail": "文章对比当前 AI 投资热潮与 1999 年互联网泡沫，指出虽有风险但结局可能不同。1999 年核心是“快速做大”，如今 AI 具备实际生产力提升潜力。作者认为市场正在经历初期调整，但 AI 技术根基更稳。为投资者提供冷静视角，警示估值过高风险，建议关注实际盈利模型。",
-    "tags": [
-      "News",
-      "Analysis",
-      "Investment"
-    ],
-    "link": "https://www.profgmedia.com/p/1999ai",
-    "date": "2026-07-17",
-    "id": "17843154661082"
-  },
-  {
-    "title": "BlockscopeChat：链上调查的 AI 分析代理",
-    "summary": "支持多链的 AI 调查工具，可追踪资金流向与分析钱包风险。",
-    "detail": "BlockscopeChat 是一款 AI 驱动的链上调查工具，支持以太坊等 8 条公链。用户可用自然语言查询交易、追踪被盗资金或分析钱包风险。工具自动调用 BigQuery 与区块浏览器，生成可验证的报告。降低了链上数据分析门槛，适用于安全研究人员与 crypto 投资者，提升调查效率。",
-    "tags": [
-      "New",
-      "Crypto",
-      "Security"
-    ],
-    "link": "https://chat.blockscope.co/",
-    "date": "2026-07-17",
-    "id": "17843154661083"
-  },
-  {
-    "title": "苹果诉讼可能干扰 OpenAI 的 IPO 计划",
-    "summary": "TechCrunch 分析苹果与 OpenAI 的法律纠纷可能影响后者上市进程。",
-    "detail": "TechCrunch 视频分析指出，苹果与 OpenAI 之间的重大法律诉讼可能成为 OpenAI IPO 路上的绊脚石。法律不确定性会增加投资者风险，影响估值与上市时间表。此事反映科技巨头间 AI 合作与竞争的复杂关系，若 IPO 受阻，可能改变 AI 行业资本格局。",
-    "tags": [
-      "News",
-      "Legal",
-      "OpenAI"
-    ],
-    "link": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
-    "date": "2026-07-17",
-    "id": "17843154661086"
-  },
-  {
-    "title": "Perplexity 发布 SPACE：AI 代理安全沙盒平台",
-    "summary": "Perplexity 推出 SPACE 平台，为 AI 代理提供安全沙盒环境，增强执行可靠性。",
-    "detail": "Perplexity 最新推出名为 SPACE 的安全沙盒平台，专为 AI 代理设计。该平台旨在解决代理在执行任务时的安全性与隔离性问题，确保操作可控。随着 AI 代理自主性增强，安全风险随之上升，SPACE 通过隔离环境防止代理误操作或数据泄露。此举标志着 AI 代理从实验走向生产环境的关键一步，为开发者提供了更可靠的部署方案。可能成为行业标准基础设施，推动企业级代理应用落地，解决当前代理部署中的信任难题，提升整体生态系统的安全性。",
-    "tags": [
-      "News",
-      "AI Agents",
-      "Perplexity"
-    ],
-    "link": "https://techstrong.ai/articles/perplexity-unveils-space-a-secure-sandbox-platform-for-ai-agents/",
-    "date": "2026-07-17",
-    "id": "17843085152540"
-  },
-  {
-    "title": "CIA 局长警示：AI 战场致死性与低成本杀戮机器",
-    "summary": "CIA 局长公开阐述 AI 在战场的致命影响，警示低成本杀戮机器带来的安全威胁。",
-    "detail": "美国 CIA 局长就 AI 技术在军事领域的应用发出警告，详细描述了 AI 驱动的战场致死性及低成本杀戮机器的现状。这一言论凸显了 AI 国防应用的伦理与安全风险，表明大国博弈已延伸至自主武器系统领域。行业需关注 AI 安全对齐在军事场景的紧迫性，以及由此引发的全球监管政策变化。此事件可能加速国际社会对自主武器系统的立法进程，影响 AI 技术的出口管制与发展方向，引发对通用 AI 安全性的更深层讨论。",
-    "tags": [
-      "News",
-      "Defense",
-      "AI Safety"
-    ],
-    "link": "https://www.pennlive.com/business/2026/07/cia-director-gives-chilling-account-of-ais-battlefield-lethality-low-cost-killing-machines.html",
-    "date": "2026-07-17",
-    "id": "17843085152541"
   }
 ]
