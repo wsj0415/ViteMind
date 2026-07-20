@@ -1,5 +1,83 @@
 [
   {
+    "title": "团队 AI 配置统一管理方案",
+    "summary": "解决多团队 AI 代理配置漂移问题，标准化 AGENTS.md 管理。",
+    "detail": "随着 AI 代理普及，团队面临配置漂移难题。Baselane 提出通过集中化管理机制，避免不同 repo 间指令不一致及权限失控。文章指出配置漂移非人为疏忽，而是缺乏底层机制支持，个人纪律无法扩展到多团队。新 repo 常从旧 repo 分叉指令，导致 convention 像突变一样传播。该方案有助于大型工程团队维持 AI 工作流标准，解决安全权限审批记忆丢失问题，提升协作效率与安全性，避免 Wiki 文档失效，确保组织级 AI 设置统一，防止开发者私有栈不可见。",
+    "tags": [
+      "Dev",
+      "Engineering",
+      "AI Agents"
+    ],
+    "link": "https://baselane.sh/blog/keeping-teams-on-one-harness/",
+    "date": "2026-07-20",
+    "id": "17845423942350"
+  },
+  {
+    "title": "通用 AI 代理网页元素选择工具",
+    "summary": "开源扩展 Pinpoint 实现 VS Code 内网页元素上下文任意 AI 代理复用。",
+    "detail": "针对 VS Code 原生元素选择仅限 Copilot 的局限，开发者构建了 Pinpoint 扩展。它允许用户在集成浏览器中点击页面元素，将上下文生成 Markdown 文件并复制引用至 Codex、Claude 等任意代理。该工具提升了非 Copilot 用户的前端开发效率，实现了工作流的便携性与通用性。解决了将选定元素上下文传递给非 Copilot 代理的缺口，重现了元素选择工作流，捕获上下文到本地文件，复制 pinpoint 引用，使任何 AI 聊天代理都能利用页面元素信息，增强编码代理的上下文理解能力。",
+    "tags": [
+      "Dev",
+      "VS Code",
+      "Tools"
+    ],
+    "link": "https://medium.com/@marcbuilds/i-built-a-vs-code-extension-that-lets-you-click-a-web-page-element-and-paste-it-into-any-ai-chat-b60d2b424ff7",
+    "date": "2026-07-20",
+    "id": "17845423942351"
+  },
+  {
+    "title": "2026 AI 基础设施瓶颈转向电力",
+    "summary": "GPU 供应缓解，电网连接成为 AI 数据中心新瓶颈，审批耗时长达 3 年。",
+    "detail": "2026 年 AI 基础设施稀缺资源从 GPU 转向电力。Gartner 预测 40% 数据中心将受电力限制，欧美电网容量审批需 24-36 个月。尽管 H100 等硬件供应改善，neo-cloud 提供商可货源，但电网 backlog 无法仅靠资本解决。此趋势将影响 AI 扩张速度，推动能源优化技术及新能源数据中心布局，电力成为比硬件更紧迫的约束。IEA 报告预测 2030 年数据中心耗电翻倍，AI 负载占增量需求多数，主要市场如北弗吉尼亚审批时间延长，无论硬件可用性如何，队列等待成为常态。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Energy"
+    ],
+    "link": "https://www.spheron.network/blog/ai-data-center-power-constraints-2026/",
+    "date": "2026-07-20",
+    "id": "17845423942352"
+  },
+  {
+    "title": "AI 水印 forensic readiness 实证评估",
+    "summary": "论文显示主流 LLM 水印技术在法律取证标准下失败率极高。",
+    "detail": "_arXiv_ 新论文评估了 KGW、Unigram 及 SynthID 三种水印方法。结果显示在释义攻击下水印移除率达 100%，且误报率高，无法满足法庭证据标准（Daubert 准则）。研究质疑当前政府强制水印政策的有效性，如 EU AI Act 及 California SB 942。为 AI 内容监管与 forensic 技术提出严峻挑战，显示现有水印证据可靠性不足。论文提出 Forensic Readiness Score 框架，发现即使无攻击前假阴性率已高达 70%-83%，SynthID 甚至标记 5.4% 人类文本为 AI，证据可信度受严重质疑。",
+    "tags": [
+      "News",
+      "Security",
+      "Policy"
+    ],
+    "link": "https://arxiv.org/abs/2607.16010",
+    "date": "2026-07-20",
+    "id": "17845423942353"
+  },
+  {
+    "title": "2026 主流 AI 编程订阅方案对比",
+    "summary": "对比 MiniMax、小米、GLM 等 5 家 AI 编程计划定价与用量限制。",
+    "detail": "文章详细对比了 2026 年主流 AI 编程订阅模型，包括 MiniMax、Xiaomi MiMo、GLM 等。不同计划采用 token 配额、信用积分或优先级降级等计费模式。开发者可根据工作流选择适合方案，如低成本的 MiMo 或预测性成本的 Canopy Wave。数据截至 2026 年 7 月，具参考时效性。MiniMax 适合多模态，Xiaomi 提供低成本入口，GLM 适合生态 committed 开发者，Kimi 提供 CLI 体验。定价模型差异大，有的每月固定 token，有的几小时刷新，有的高速配额用完后降优先级服务，需按需选择。",
+    "tags": [
+      "Deal",
+      "Pricing",
+      "Coding"
+    ],
+    "link": "https://canopywave.com/blog/best-ai-coding-plans-2026-pricing-limits-use-cases",
+    "date": "2026-07-20",
+    "id": "17845423942354"
+  },
+  {
+    "title": "中国 AI 实验室内部观察笔记",
+    "summary": "深入中国 AI 实验室，探讨文化差异与快速跟进技术的能力。",
+    "detail": "作者走访中国 AI 实验室，发现中美在模型输出与硬件上趋同，但组织文化差异显著。中国团队凭借教育传统与工程化能力，在数据、架构及 RL 算法实现上 meticulous 工作，具备快速跟进 frontier 技术的能力。该洞察有助于理解全球 AI 竞争格局及中国实验室的独特优势，强调全球 AI 生态的欢迎度与协作性。构建最佳 LLM 需全栈 meticulous 工作，从数据到架构细节。中国实验室被视为完美的快速跟随者，科学家谦逊开放，差异体现在组织方式与条件设定上，而非单纯的技术 ingredients。",
+    "tags": [
+      "News",
+      "Industry",
+      "China"
+    ],
+    "link": "https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs",
+    "date": "2026-07-20",
+    "id": "17845423942355"
+  },
+  {
     "title": "NYC 与欧盟 AI 合规指南发布",
     "summary": "免费合规工具助力企业应对 AI 招聘法规",
     "detail": "针对 NYC Local Law 144 及欧盟 AI 法案，提供无门槛合规指南与工具。涵盖执法时间表、偏见审计要求及 penalty 结构。帮助企业规避法律风险，确保 AI hiring 工具透明合规，避免高额罚款。雇主可查阅核心义务与真实执法案例。DCWP 已发出首批罚款，审计发现多起潜在违规。工具无需注册，提供纯英文解释与主要来源引用，适合 HR 与法律团队快速上手，确保在 2026 年 8 月欧盟透明度义务生效前完成准备。此外，指南详细解读了高风险 AI 义务的时间表，帮助企业制定长期合规战略。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/arnabk/agentgrove",
     "date": "2026-07-18",
     "id": "17843613519784"
-  },
-  {
-    "title": "行业专家指出 AI 狂热破坏决策",
-    "summary": "HashiCorp 创始人称公司陷入 AI 精神病，理性对话变得不可能，呼吁恢复理智。",
-    "detail": "HashiCorp 创始人等专家指出，许多公司正陷入\"AI 狂热”，导致决策非理性。高层要么无计划，要么只能随波逐流。这种集体精神病影响公私部门，使得生存其中的专业人士感到困惑。文章呼吁正视现状，避免盲目跟风，恢复理性决策框架，警惕技术泡沫对组织健康的侵蚀。理性评估 AI 价值，而非为了 AI 而 AI，是企业长期生存的关键。",
-    "tags": [
-      "News",
-      "Industry",
-      "Opinion"
-    ],
-    "link": "https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking",
-    "date": "2026-07-18",
-    "id": "17843613519785"
-  },
-  {
-    "title": "GPU.ai 举办 Buildathon 大赛，提供免费算力与奖金",
-    "summary": "GPU.ai 推出构建马拉松，提供免费云 GPU 及 1000 美元大奖。",
-    "detail": "GPU.ai 宣布将于 2026 年 8 月 22 日至 24 日举办全球在线 Buildathon，目前距离启动还有 35 天。参赛者可使用免费云 GPU 构建 AI 应用、代理或工作流，大奖 1000 美元现金。活动仅限 50 支通过审查的团队，支持个人或组队参与。主办方表示 GPU 不应如此昂贵，云配额和昂贵实例阻碍了产品交付。旨在将基础设施直接交给开发者，鼓励快速迭代与创新。这对于因算力成本犹豫的独立黑客及初创 founders 是绝佳机会，应用现已开放，8 月 31 日公布获胜者。提交截止为 8 月 24 日太平洋时间上午 8 点。",
-    "tags": [
-      "Deal",
-      "GPU",
-      "Competition"
-    ],
-    "link": "https://gpu.ai/buildathon",
-    "date": "2026-07-18",
-    "id": "17843525305250"
-  },
-  {
-    "title": "Index Ventures 合伙人：AI 财富将面临重新分配",
-    "summary": "Neil Rimer 表示 AI 带来的财富积累将导致自愿或非自愿的重新分配。",
-    "detail": "Index Ventures 联合创始人 Neil Rimer 在雅典科技节指出，AI 积累的财富将进行某种形式的重新分配，希望是自愿的。作为资深 VC，他认为科技领袖应在此过程中发挥主导作用。Rimer 于 2021 年退出一线投资，现居雅典，参与 Endeavor Greece 及人权观察董事会。Index 近年回报卓越，筹集约 150 亿美元，去年退出净赚约 90 亿美元。2021 年曾向麦吉尔大学捐赠 1300 万美元。他穿着皱巴巴的衬衫而非同行常见的 quarter-zips。此言论引发对 AI 经济影响及社会责任的深层思考，区别于普通民粹主义观点。",
-    "tags": [
-      "News",
-      "VC",
-      "Economy"
-    ],
-    "link": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
-    "date": "2026-07-18",
-    "id": "17843525305251"
-  },
-  {
-    "title": "数据支持 Flathub 禁令：73% 被拒 AI 应用已停止维护",
-    "summary": "开发者数据显示，Flathub 禁止的 AI 生成应用中七成已被废弃。",
-    "detail": "Flathub 此前禁止 AI 编码应用提交，引发争议。最新数据显示，被标记为\"AI Slop\"拒绝的 120 个应用中，88 个已停止开发，废弃率达 73%。Linux 开发者 Evangelos Paterakis 分析指出，这些被拒应用大多无人维护。这证明平台禁令并未阻碍真正有价值的项目，反而过滤了低质量软件。虽然方法论非学术严谨，但为开源社区治理及 AI 生成代码质量评估提供了重要数据参考。开发者称这是在挖掘“废弃软件墓地”，指出一次性生成性质可能加剧废弃率，开源一直是 solo 项目的坟墓。",
-    "tags": [
-      "News",
-      "Open Source",
-      "Policy"
-    ],
-    "link": "https://www.omgubuntu.co.uk/2026/07/flathub-ai-slop-ban-data",
-    "date": "2026-07-18",
-    "id": "17843525305252"
-  },
-  {
-    "title": "教育界反思：AI 时代的批判性思维究竟意味着什么？",
-    "summary": "文章探讨 AI 时代批判性思维的新定义及教学挑战。",
-    "detail": "随着 AI 重塑教育，批判性思维成为热词但定义模糊。文章指出传统技能不足以应对 AI 挑战，需引入“数字批判性思维”，理解算法 opaque 性及信息来源。教育者需重新评估如何教授学生区分强弱主张及识别假设。这不仅是技能培养，更是应对算法塑造环境的认知必要，防止该词沦为空洞口号。研究开始探索在线环境下的新定义，强调解释内容及其呈现方式的重要性。信息、解释及复杂输出仅需点击即可获得，这对评估证据能力提出新要求。在线环境由不透明算法、个性化及平台化信息塑造。",
-    "tags": [
-      "News",
-      "Education",
-      "Society"
-    ],
-    "link": "https://theconversation.com/critical-thinking-has-become-an-ai-era-buzzword-but-what-it-actually-mean-and-how-do-we-teach-it-286363",
-    "date": "2026-07-18",
-    "id": "17843525305253"
-  },
-  {
-    "title": "Postlia 推出跨平台社交媒体调度工具，集成 AI 功能",
-    "summary": "新工具支持多平台发布及 AI 文案生成，提供 7 天免费试用。",
-    "detail": "Postlia 是一款社交媒体调度工具，支持 LinkedIn、Instagram、TikTok、Pinterest 等多平台跨发布。核心功能包括可视化日历调度、AI 文案生成及多账户管理。工具强调由创始人直接支持，提供 25+ 免费句柄检查器。新定价计划今日启动，适合代理机构及多品牌创作者，旨在简化多平台内容管理流程，提供 7 天免费试用。X/Twitter 支持即将上线，强调无注册免费工具可用。用户可一次性撰写，工具自动适配各平台格式发布。由两人团队制作，直接回复支持邮件，随时取消试用。",
-    "tags": [
-      "New",
-      "SaaS",
-      "Marketing"
-    ],
-    "link": "https://postlia.com/",
-    "date": "2026-07-18",
-    "id": "17843525305254"
   }
 ]
