@@ -1,5 +1,83 @@
 [
   {
+    "title": "DeepSWE 基准：评估 AI 编码代理的新标准？",
+    "summary": "探讨 DeepSWE 是否成为评估 AI 编程代理的最佳基准测试。",
+    "detail": "I Programmer 报道了 DeepSWE 基准测试，旨在评估 AI 编码代理的能力。随着 AI 编程助手普及，如何量化其性能成为关键。该基准可能为开发者选择工具提供依据，推动编码 AI 技术标准化与竞争。标题质疑其是否为最佳基准，显示行业对评估标准的关注。开发者需要可靠指标来判断代理效率，DeepSWE 试图填补这一空白，促进 AI 编程工具的透明度与可比性，帮助团队做出更明智的技术选型决策。",
+    "tags": [
+      "Dev",
+      "Benchmark",
+      "Coding"
+    ],
+    "link": "https://www.i-programmer.info/news/105-artificial-intelligence/19016-deepswe-best-benchmark-for-evaluating-ai-coding-agents.html",
+    "date": "2026-07-21",
+    "id": "17846226872850"
+  },
+  {
+    "title": "美政府拟禁令中国 AI 模型，Kimi K3 引关注",
+    "summary": "特朗普政府因网络安全担忧，拟禁止中国 AI 模型，但开源权重难管控。",
+    "detail": "Tom's Hardware 报道特朗普政府重启禁止中国 AI 模型计划，主要针对 Moonshot 的 Kimi K3。理由为网络安全，但开源权重可下载特性使禁令难以执行。随着采用率增长，完全禁令几乎无法实施。此举反映中美 AI 博弈加剧，可能影响全球模型开放生态。下载权重使得执行成为难题，政策面临实际挑战与行业采用的矛盾。开源特性让监管变得复杂，企业 adoption 增加使得禁令效果大打折扣，显示技术扩散不可逆。",
+    "tags": [
+      "News",
+      "Policy",
+      "China"
+    ],
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-administration-reportedly-reviving-push-to-ban-chinese-ai-models-following-kimi-k3-launch-citing-cybersecurity-concerns-downloadable-open-weights-could-make-an-outright-u.s-ban-nearly-impossible-to-enforce-amid-growing-adoption",
+    "date": "2026-07-21",
+    "id": "17846226872851"
+  },
+  {
+    "title": "Paraphraser AI：可控语义与语调的改写工具",
+    "summary": "支持语义锁定、语调匹配及 SEO 优化的 AI 改写工具，每日免费限额。",
+    "detail": "Paraphraser AI 推出新改写工具，主打“语义锁定”与“语调匹配”。用户可自定义正式、学术或 SEO 风格，同时保护关键词不变。适合学术草稿及 SEO 内容优化。提供免费每日额度，支持历史记录保存，旨在提升写作原创性与清晰度，解决 AI 改写失真痛点。工具专注于真实写作工作，提供并排比较功能，确保搜索意图不受损。通过控制改写强度，用户能在保持原意基础上优化表达，满足多样化内容创作需求。",
+    "tags": [
+      "New",
+      "Writing",
+      "SEO"
+    ],
+    "link": "https://tryparaphraser.com/",
+    "date": "2026-07-21",
+    "id": "17846226872852"
+  },
+  {
+    "title": "MCP 服务器发现 ANSI 转义注入新漏洞",
+    "summary": "研究人员发现 MCP 服务器存在 ANSI 转义注入漏洞，人类不可见但 AI 可见。",
+    "detail": "Brightsec 研究揭示 MCP 服务器存在 ANSI 转义序列注入风险。该攻击对人类隐藏但对 AI 可见，可能导致指令注入或数据泄露。随着 AI 代理交互增多，此类隐蔽漏洞威胁系统安全。开发者需加强 DAST 检测，重视 AI 交互层面的输入验证与安全防护。这种隐蔽性使得传统监控难以发现，专门针对 AI 解析器的攻击面扩大。安全团队需要更新检测规则，以识别针对模型上下文协议的特定注入尝试，保障代理系统完整性。",
+    "tags": [
+      "Dev",
+      "Security",
+      "MCP"
+    ],
+    "link": "https://brightsec.com/research/detecting-ansi-escape-sequence-injection-in-mcp-servers-with-dast/",
+    "date": "2026-07-21",
+    "id": "17846226872853"
+  },
+  {
+    "title": "中国 AI 模型引发美国内部政策分歧",
+    "summary": "MIT 评论称中国 AI 模型导致特朗普团队内部对美国 AI 公司产生分歧。",
+    "detail": "MIT Technology Review 分析指出，Kimi 等中国免费开源模型迫使美国 AI 策略师分裂。特朗普顾问批评 Anthropic 和 OpenAI 模型，因中国模型性价比更高。这给美国政府带来经济与政治压力，反映开源模型对封闭商业模式的冲击。内部冲突显示政策制定者在国家安全与市场竞争力之间的艰难平衡，AI 世界因此陷入内战。免费模型降低企业成本，削弱美国商业模型吸引力，引发政策制定者内部关于如何应对技术竞争的激烈争论与分歧。",
+    "tags": [
+      "News",
+      "Geopolitics",
+      "OpenSource"
+    ],
+    "link": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
+    "date": "2026-07-21",
+    "id": "17846226872854"
+  },
+  {
+    "title": "SteerPlane：开源 AI 代理运行时护栏",
+    "summary": "GitHub 新项目 SteerPlane 提供开源运行时护栏，保障 AI 代理安全。",
+    "detail": "Show HN 项目 SteerPlane 开源了 AI 代理运行时护栏工具。旨在防止代理执行危险操作或偏离预期目标。随着自主代理应用增加，安全控制成为关键。该项目为开发者提供了本地部署的管控方案，有助于构建更可信的 AI 代理系统，促进企业级应用落地。开源特性允许社区审查代码，增强信任度。运行时护栏能在代理行动前进行拦截，减少幻觉带来的风险，为构建安全可靠的自主 AI 系统提供基础设施支持。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Agents"
+    ],
+    "link": "https://github.com/vijaym2k6/SteerPlane",
+    "date": "2026-07-21",
+    "id": "17846226872855"
+  },
+  {
     "title": "AI 工作流新倡议：为生成内容添加“营养成分表”",
     "summary": "针对 AI 生成内容泛滥，倡议者建议添加披露脚注，降低审查负担。",
     "detail": "随着 AI 生成内容在工作场所无处不在，幻觉与错误频发，审查者面临巨大的认知负担。一份流传的内部备忘录提出\"AI 营养成分表\"概念，建议在文档或 PR 中添加脚注，明确披露 AI 使用情况。作者承认多为同事好意使用工具，但输出可能存在微妙错误。披露不仅帮助同事理解如何审查工作，区分未审查的\"废料\"与完全负责的内容，还能促使作者反思判断力的缺失。该倡议旨在建立透明的工作流规范，应对 AI slop 泛滥带来的信任危机。在 AI 增强型工作生态中，验证与审查的重要性日益提升，披露机制将成为协作的关键环节，确保好意使用的工具不会产生误导性的工作成果，促进团队间的信任与效率。",
@@ -1220,83 +1298,5 @@
     "link": "https://xcancel.com/deanwball/status/2078133895766114412?s=46",
     "date": "2026-07-18",
     "id": "17844078744321"
-  },
-  {
-    "title": "Medows：AI 驱动的临床查房工作区",
-    "summary": "专为医生查房设计的 AI 临床工作空间上线。",
-    "detail": "Medows 是一款面向医生的 AI 临床工作区，专注于病房查房场景。产品演示显示其具备患者列表管理、生命体征监控（心率、血氧等）、交接班（Handover）及通知功能。界面区分急诊、病房及出院状态，支持快速查看患者详细信息，如 Kenji Sato 的 COPD exacerbation 数据。该产品旨在通过 AI 辅助优化临床工作流程，减少医生行政负担，提升查房效率与患者安全管理水平。演示中展示了 5 名患者状态，包括不稳定与就绪分类，体现其实时监控能力，是垂直领域 AI 应用的典型案例。这种专用工具表明 AI 正从通用对话转向具体工作流嵌入。",
-    "tags": [
-      "New",
-      "Healthcare",
-      "Productivity"
-    ],
-    "link": "https://www.medows.ai/demo",
-    "date": "2026-07-18",
-    "id": "17844078744322"
-  },
-  {
-    "title": "Meta 自研 AI 芯片 9 月投产",
-    "summary": "Meta 推进 MTIA 芯片计划，降低 GPU 依赖。",
-    "detail": "Meta 计划于 9 月开始生产最新一代 AI 专用芯片（MTIA），由博通设计、台积电制造。此举旨在组件短缺背景下降低 GPU 成本。芯片采用模块化设计，适用于排名算法训练及推理。尽管 Meta 仍会采购 Nvidia 等厂商芯片，但自研策略显示其构建独立算力基础设施的决心。供应链涉及三星内存、Sandisk 存储及住友电工光纤。这可能改变 AI 硬件供应链格局，减少了对单一供应商的依赖，为其他科技巨头自研芯片提供借鉴，显示硬件定制化已成为大模型竞争的关键壁垒。预计新芯片将显著提升其内部 AI 工作负载的处理效率。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Meta"
-    ],
-    "link": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
-    "date": "2026-07-18",
-    "id": "17844078744323"
-  },
-  {
-    "title": "Moonshot 发布 Kimi K3 模型，开源性能媲美旗舰引发市场波动",
-    "summary": "Moonshot 发布 Kimi K3 模型，开源性能媲美旗舰，引发市场波动。",
-    "detail": "Moonshot AI 本周发布 Kimi K3 模型，虽自称略逊于 Claude/GPT 旗舰，但独立评测显示其具备前沿性能，consistent outperforming other tested models。消息伴随中国领导人讲话发布，导致纳斯达克芯片股下跌。这是继 DeepSeek 后又一引发硅谷讨论的中国开源模型，地缘政治与 AI 竞争态势加剧，投资者担忧芯片公司 stock 受影响，行业关注中国 AI 进展。",
-    "tags": [
-      "News",
-      "LLM",
-      "China"
-    ],
-    "link": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
-    "date": "2026-07-18",
-    "id": "17844015730550"
-  },
-  {
-    "title": "AI 公司员工成政治捐款新贵，重金支持 AI 安全立法候选人",
-    "summary": "AI 公司员工成政治捐款新贵，重金支持 AI 安全立法候选人。",
-    "detail": "旧金山报道显示，Anthropic 和 OpenAI 员工已成为政治捐款新阶级。即便在 IPO 前，员工已通过高薪和股权捐赠巨资给支持 AI 安全立法的候选人。这表明 AI 行业正积极通过政治献金影响监管政策走向。AI 财富效应尚未完全通过 IPO 释放，但内部人已形成影响力，可能塑造未来美国 AI 监管框架及竞选格局。",
-    "tags": [
-      "News",
-      "Policy",
-      "Industry"
-    ],
-    "link": "https://sfstandard.com/2026/07/18/ai-s-new-political-donor-class-already-outspending-big-tech-s-last-one/",
-    "date": "2026-07-18",
-    "id": "17844015730553"
-  },
-  {
-    "title": "欧洲主权 AI 模型 Soofi S 发布，30B MoE 架构专注工业应用",
-    "summary": "德国 consortium 推出 Soofi S 模型，主打欧洲主权基础设施与工业场景。",
-    "detail": "**背景**：德国 Soofi 联盟正式发布首个欧洲主权 AI 模型 Soofi S，旨在建立独立、高性能的 AI 技术基础。**技术**：采用 30B 参数混合专家 (MoE) 架构，基于 27 万亿 token 训练，支持德/英双语，专注工业文档、代码生成及代理系统。**影响**：强调透明性与可控性，减少对美国大模型依赖，推动欧洲工业 AI 自主化，目前正寻求企业、公共机构及初创公司参与实测阶段。此举有助于构建可信 AI 生态系统，满足欧洲严格的数据主权与合规要求，为工业界提供安全可靠的底层模型支持，增强欧洲在全球 AI 竞争中的技术话语权。",
-    "tags": [
-      "News",
-      "LLM",
-      "SovereignAI"
-    ],
-    "link": "https://www.soofi.info/",
-    "date": "2026-07-18",
-    "id": "17843943031511"
-  },
-  {
-    "title": "Show HN: Talon 开源自托管长生命周期 AI Agent 框架",
-    "summary": "开发者发布 Talon 项目，为长期运行的 AI 代理提供自托管 harness 支持。",
-    "detail": "**背景**：Hacker News 展示新项目 Talon，针对 AI Agent 部署中的长期稳定性痛点。**技术**：提供自托管 harness 框架，专门优化长生命周期 (long-lived) 代理的运行管理与资源调度，支持开发者本地部署。**影响**：为开发者构建持久化 AI 应用提供基础设施参考，适合需要持续运行任务的企业级 Agent 部署场景，增强数据控制权与系统稳定性，降低云端依赖成本。对于希望私有化部署 AI 代理的企业而言，此类工具降低了技术门槛，促进了 Agent 技术在实际业务中的落地应用与迭代，开源社区反馈将决定其演进方向。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "OpenSource"
-    ],
-    "link": "https://github.com/dylanneve1/talon",
-    "date": "2026-07-18",
-    "id": "17843943031512"
   }
 ]
