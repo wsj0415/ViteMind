@@ -1,5 +1,70 @@
 [
   {
+    "title": "Meta 测试 AI 睡前故事应用 StoryKit",
+    "summary": "Meta 试点 StoryKit，为家长生成个性化儿童故事，强调安全无社交。",
+    "detail": "Meta 正在测试名为 StoryKit 的 AI 讲故事应用，允许家长通过拍摄玩具或人物照片创建角色，并描述故事世界与价值观教训，如善良或勇气。应用承诺无需编写任何文字即可生成包含自定义角色、场景、教训和音乐的个性化儿童故事。内置 AI 安全过滤器，无社交功能且仅限 18 岁以上用户，以保护儿童隐私。此举显示科技巨头正将生成式 AI 深入家庭娱乐场景，试图外包人类想象力，同时也引发关于技术介入育儿过程的讨论。App Store 列表由 9to5Mac 率先发现，Meta 确认正在部分国家试点，观察家长反馈。",
+    "tags": [
+      "News",
+      "Meta",
+      "Generative AI"
+    ],
+    "link": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/",
+    "date": "2026-07-21",
+    "id": "17846784449770"
+  },
+  {
+    "title": "欧盟委员会要求 Google 开放 Android AI 互操作性",
+    "summary": "欧盟依据 DMA 法案，强制 Google 共享搜索数据并确保 AI 公平竞争。",
+    "detail": "欧盟委员会依据《数字市场法案》向 Google 发布两套绑定规范措施，旨在确保公平竞争。首先确保竞争对手 AI 服务在 Android 设备上与 Gemini 享有同等功能访问权，防止自我偏好。其次要求 Google 向第三方搜索引擎及 AI 聊天机器人共享大规模搜索用户交互数据，包括搜索词和点击行为。旨在重新平衡竞争环境，防止垄断阻碍创新。开发者可查阅官方 Q&A 概述或完整 PDF 决定文件。这将显著改变 Android 生态系统的 AI 竞争格局，增加第三方引擎的数据可访问性，对 Google 搜索霸权构成挑战，影响未来 AI 互操作性标准。",
+    "tags": [
+      "News",
+      "Regulation",
+      "Google"
+    ],
+    "link": "https://daringfireball.net/2026/07/ec_google_guidance_android_ai_and_search_sharing",
+    "date": "2026-07-21",
+    "id": "17846784449771"
+  },
+  {
+    "title": "Cisco 开源 Antares 安全 AI 模型用于漏洞定位",
+    "summary": "Cisco 发布 Antares 安全小模型，专攻漏洞定位且可本地运行。",
+    "detail": "Cisco 推出 Antares 家族安全小语言模型（SLM），包含 350M 和 1B 参数版本，开源权重现已托管于 Hugging Face 供社区使用。该模型专为代码库中已知漏洞定位设计，基准测试显示其在关键安全任务上优于许多更大模型，且成本更低。支持本地运行以避免敏感代码上云，解决数据隐私顾虑。Cisco 正结合 Foundry Security Spec 开放规范与 CodeGuard 安全编码指南，定义可信 AI 安全工具标准，培育企业级 AI 安全工具生态系统。Antares-3B 版本即将推出，旨在帮助网络安全专业人员更高效工作。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Open Source"
+    ],
+    "link": "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+    "date": "2026-07-21",
+    "id": "17846784449772"
+  },
+  {
+    "title": "Superserve 推出用于长运行 AI 代理的 Firecracker 沙盒",
+    "summary": "开源沙盒方案，支持 AI 代理无限期暂停与恢复，确保状态持久化。",
+    "detail": "Superserve 发布开源沙盒工具，利用 Firecracker microVM 为长运行 AI 代理提供安全隔离环境，优于传统容器隔离。支持无限期会话无 24 小时限制，具备状态快照、分叉与恢复功能，可暂停以节省闲置成本。默认安全设计包括凭证代理与网络控制，消除凭证泄露风险，符合 SOC 2 Type 2、HIPAA 及 GDPR 标准。该工具解决了 AI 代理在长期任务中的状态持久化、安全隔离和凭证管理难题，适合需要 alongside humans 工作的企业级代理部署场景，提供最佳编程控制 SDK。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "Agents"
+    ],
+    "link": "https://www.superserve.ai/",
+    "date": "2026-07-21",
+    "id": "17846784449773"
+  },
+  {
+    "title": "Jaybase：基于 Merkle DAG 的 AI 代理只增事实存储",
+    "summary": "为解决 AI 代理信任问题，推出可审计、可回滚的只增数据存储方案。",
+    "detail": "开发者针对企业 AI 代理信任问题推出 Jaybase，这是一个专为代理工作流设计的只增事实存储库。基于 Git 和区块链背后的 Merkle 有向无环图技术，每次写入均可审计、回放和逆转，防止代理失控损坏数据。无固定 schema 设计适应代理技能增长，解决传统数据库为人类速度设计而非机器速度非确定性系统的问题。若代理出错，易于恢复和审计。创建者欢迎社区反馈，旨在让 AI 代理能安全处理关键业务 work flows，避免删除客户数据或搞乱账簿等风险。",
+    "tags": [
+      "Dev",
+      "Database",
+      "Agents"
+    ],
+    "link": "https://github.com/kyle-visner/jaybase",
+    "date": "2026-07-21",
+    "id": "17846784449774"
+  },
+  {
     "title": "白宫 redirect 数十亿研究资金转向 AI",
     "summary": "白宫计划将数十亿美元研究资金从高校转向 AI 领域。",
     "detail": "白宫宣布重大政策调整，计划将数十亿美元的研究资金从传统高校流向人工智能领域。这一举措显示了政府对 AI 战略的高度重视，旨在加速技术落地与产业转化。然而，这也可能引发学术界担忧，基础研究经费或被挤压，产业界与高校间的资源分配格局将面临重塑。资金流向的改变可能影响未来科研生态，促使更多资源向企业实验室倾斜，标志着国家层面 AI 竞争进入新阶段，长期影响需持续观察。",
@@ -1233,70 +1298,5 @@
     "link": "https://lynx.apex7ai.com",
     "date": "2026-07-19",
     "id": "17844943593845"
-  },
-  {
-    "title": "开源之父：AI 开源之争重现 80 年代软件大战",
-    "summary": "两位 Sigma 创始人 David Siegel 撰文，称 AI 开源斗争与 80 年代软件战相同。",
-    "detail": "文章引用 Two Sigma 创始人 David Siegel 的观点，指出当前 AI 开源与闭源的争论与 1980 年代软件行业的斗争如出一辙。作者与开源之父争论两年后得出此结论。这反映了行业对 AI 模型开放性的深层分歧，历史经验可能为当前 AI 治理与商业模式提供借鉴，开源社区与商业公司的博弈仍在继续。这场争论将决定未来 AI 技术的普及速度与创新方向。文章发表于 Fortune 杂志，HN 讨论热度一般。",
-    "tags": [
-      "News",
-      "OpenSource",
-      "Opinion"
-    ],
-    "link": "https://fortune.com/2026/07/03/open-source-ai-same-fight-as-software-fight-1980s-david-siegel-two-sigma/",
-    "date": "2026-07-19",
-    "id": "17844943593846"
-  },
-  {
-    "title": "AI 代理新瓶颈：上下文层而非模型",
-    "summary": "文章指出 AI 代理的基础设施瓶颈已从模型性能转移至上下文管理层。",
-    "detail": "**背景**：随着大模型能力趋同，AI 代理的实际表现不再单纯依赖模型智商。**核心**：文章指出基础设施瓶颈已转移至上下文层（Context Layer），影响代理的记忆管理与决策连贯性。当前模型虽强，但无法有效维持长程任务状态，导致代理在复杂流程中迷失。**影响**：开发者需从追求模型参数转向优化上下文架构，这标志着 AI 工程化进入深水区，上下文管理将成为下一代代理平台的核心竞争力，决定 Agent 能否真正落地复杂工作流。行业需重视中间件开发，解决状态保持难题，释放模型潜力。",
-    "tags": [
-      "Dev",
-      "AI Agents",
-      "Infrastructure"
-    ],
-    "link": "https://thenewstack.io/ai-agent-infrastructure-bottleneck/",
-    "date": "2026-07-19",
-    "id": "17844768630410"
-  },
-  {
-    "title": "The Neutrality Project：量化 AI 政治倾向",
-    "summary": "开源项目致力于通过可复现基准测试，使 AI 模型的政治立场可见且可衡量。",
-    "detail": "**背景**：AI 假设潜移默化影响用户决策，中立性成公共利益问题。**核心**：The Neutrality Project 提供 3987 个调查问题与 6 个锚定轴，开源测量模型世界观，使政治立场可见。模型 rarely 宣布立场，但通过验证选项 leans。**影响**：推动 AI 实验室公开问责，帮助用户理解模型偏见，防止回声室效应加剧。该项目强调信任需在开放中 earned，任何人均可复现基准测试，挑战模型默认价值观，为 AI 治理提供量化依据，确保人类未来与 AI 共存的安全，避免认知失调。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Open Source"
-    ],
-    "link": "https://neutralityproject.org/",
-    "date": "2026-07-19",
-    "id": "17844768630411"
-  },
-  {
-    "title": "MLB 禁止休息区使用 iPad 防 AI 作弊",
-    "summary": "美国职棒大联盟限制休息区 iPad 使用，防止球队利用 AI 辅助战术决策。",
-    "detail": "**背景**：AI 渗透体育竞技，引发公平性质疑。**核心**：MLB 新规限制休息区 iPad 使用，防止球队利用 AI 辅助战术决策，Mets 球队卷入讨论。**影响**：标志 AI 在现实世界策略应用中的边界探索，体育界率先制定反 AI 辅助规则，具行业风向标意义。这表明 AI 不仅改变办公，还介入实时决策领域，引发关于人类直觉与机器计算边界的伦理讨论，未来更多行业可能效仿此类限制，保护人类核心竞技价值。",
-    "tags": [
-      "News",
-      "Regulation",
-      "Sports"
-    ],
-    "link": "https://apnews.com/article/mlb-ai-ipads-ac940e2490557438f440514977832a74",
-    "date": "2026-07-19",
-    "id": "17844768630412"
-  },
-  {
-    "title": "AI 应用数据层最佳实践：Postgres + ClickHouse",
-    "summary": "点击屋博客分析 AI 原生应用数据增长，推荐 Postgres 与 ClickHouse 组合。",
-    "detail": "**背景**：AI 应用产生海量操作数据，传统数据库难以应对。**核心**：ClickHouse 博客推荐 Postgres 与 ClickHouse 组合，前者处理事务，后者处理分析，满足实时查询需求。**影响**：为 AI 工程化提供数据架构参考，解决 OLTP 与 OLAP workload 融合难题。AI 原生应用数据六个月增长超 1000%，需最佳数据栈支持。此方案帮助开发者构建可扩展的 AI 后端，确保用户期望的实时答案得以实现，降低基础设施成本，适应爆炸式数据增长。",
-    "tags": [
-      "Dev",
-      "Database",
-      "Infrastructure"
-    ],
-    "link": "https://clickhouse.com/blog/ai-best-of-breed-data-stack",
-    "date": "2026-07-19",
-    "id": "17844768630413"
   }
 ]
