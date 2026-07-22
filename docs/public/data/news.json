@@ -1,5 +1,70 @@
 [
   {
+    "title": "传闻 Anthropic 洽购机器人公司 Physical Intelligence",
+    "summary": "Anthropic 被曝曾洽谈收购机器人初创公司，引发行业关注。",
+    "detail": "尽管 Physical Intelligence CEO 否认，但信息显示双方春季曾进行收购洽谈。该公司由 Lachy Groom 联合创立，融资超 10 亿美元，估值达 110 亿美元。其π0.5 模型是机器人研究中广泛使用的“大脑”。此传闻反映了 Anthropic 与 OpenAI 类似，正通过收购将模型能力转化为企业收入，并向具身智能领域扩展的趋势。",
+    "tags": [
+      "News",
+      "M&A",
+      "Robotics"
+    ],
+    "link": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
+    "date": "2026-07-22",
+    "id": "17846912318060"
+  },
+  {
+    "title": "Anthropic 研究 AI 模型“双用途”知识关闭开关",
+    "summary": "提出新安全机制，可手术式移除模型危险知识而不影响性能。",
+    "detail": "该研究由 AE Studio 与 Anthropic 合作完成，旨在控制模型中的“双用途”知识（如网络安全或病毒学）。现有 safeguards 仅限制输出，新方案探索将知识限制在可移除的权重切片中。目标是平衡限制危险能力与允许受信任用户访问，防止攻击者通过越狱获取敏感知识，为 AI 安全提供更鲁棒的底层保护。",
+    "tags": [
+      "News",
+      "Safety",
+      "LLM"
+    ],
+    "link": "https://www.anthropic.com/research/off-switch-dual-use",
+    "date": "2026-07-22",
+    "id": "17846912318061"
+  },
+  {
+    "title": "大西洋月刊：AI 泡沫非同寻常，经济风险隐现",
+    "summary": "科技股繁荣背后隐忧，AI 相关企业价值三年激增 27 万亿美元。",
+    "detail": "文章指出美国股市因 AI 繁荣，但观察家担忧 financiers 向无盈利路径的初创公司投入巨资。过去三年 AI 关联企业价值增长 27 万亿美元，相当于美股总值 36%。Sam Altman 承认存在 AI 泡沫，IMF 亦 citing 其为重大风险。若科技公司无法快速产生巨额收入，经济可能陷入困境。",
+    "tags": [
+      "News",
+      "Market",
+      "Economy"
+    ],
+    "link": "https://www.theatlantic.com/ideas/2026/07/ai-economy-stock-market/688004/",
+    "date": "2026-07-22",
+    "id": "17846912318062"
+  },
+  {
+    "title": "Mach 1 利用 Zapier MCP 跨 25 家公司运行 AI 操作",
+    "summary": "真实案例展示 Zapier MCP 在企业自动化与 AI Agent 中的应用。",
+    "detail": "案例介绍了 Mach 1 如何使用 Zapier MCP 在 25 家不同公司间运行 AI 操作。Zapier 平台支持 9000+ 应用集成，提供 Workflows、Tables 及 AI Agents 等功能。通过 MCP 协议，用户可将 Zapier 添加至 AI 聊天中，实现无代码自动化升级。这展示了 AI 代理与实际工作流结合的实际效能及企业级应用场景。",
+    "tags": [
+      "Dev",
+      "Automation",
+      "Agent"
+    ],
+    "link": "https://zapier.com/blog/mach-1-mcp",
+    "date": "2026-07-22",
+    "id": "17846912318063"
+  },
+  {
+    "title": "论文：硬件机制动态限制 AI 性能以确保安全",
+    "summary": "提出微架构旋钮，运行时动态控制 AI 硬件资源作为安全防线。",
+    "detail": "ArXiv 新论文指出现有软件 safeguards 可被智能模型绕过，需硬件级 enforcement。研究引入微架构旋钮（如 L2 size、latency、bandwidth），动态控制可用硬件资源以限制 AI 性能。评估显示可实现高达 80% 性能削减，且 implementation cost 极低。这是关键系统中防止 AI 意图失控的架构级动态干预机制。",
+    "tags": [
+      "Dev",
+      "Hardware",
+      "Safety"
+    ],
+    "link": "https://arxiv.org/abs/2607.18069",
+    "date": "2026-07-22",
+    "id": "17846912318064"
+  },
+  {
     "title": "Meta 测试 AI 睡前故事应用 StoryKit",
     "summary": "Meta 试点 StoryKit，为家长生成个性化儿童故事，强调安全无社交。",
     "detail": "Meta 正在测试名为 StoryKit 的 AI 讲故事应用，允许家长通过拍摄玩具或人物照片创建角色，并描述故事世界与价值观教训，如善良或勇气。应用承诺无需编写任何文字即可生成包含自定义角色、场景、教训和音乐的个性化儿童故事。内置 AI 安全过滤器，无社交功能且仅限 18 岁以上用户，以保护儿童隐私。此举显示科技巨头正将生成式 AI 深入家庭娱乐场景，试图外包人类想象力，同时也引发关于技术介入育儿过程的讨论。App Store 列表由 9to5Mac 率先发现，Meta 确认正在部分国家试点，观察家长反馈。",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
     "date": "2026-07-19",
     "id": "17844943593840"
-  },
-  {
-    "title": "美报告：中国开源 AI 策略如何巩固工业主导地位",
-    "summary": "美委会报告指出，中国通过开源模型加速全球采用，结合制造业优势形成闭环。",
-    "detail": "美国美中经济与安全审查委员会发布报告，指出中国采取全面开源 AI 策略，发布模型代码及权重，收费低于竞争对手。此举加速了全球采用并形成反馈循环，阿里 Qwen 模型在 Hugging Face 衍生版超 10 万。开源生态使中国在算力受限下仍能创新，并通过制造业嵌入式 AI 获取真实数据优势，巩固工业主导地位。报告认为这种策略创造了替代性的 AI 领导路径。该报告于 2026 年 3 月发布，由高级政策分析师 Ngor Luong 撰写，共 30 页。",
-    "tags": [
-      "News",
-      "China",
-      "OpenSource"
-    ],
-    "link": "https://www.uscc.gov/sites/default/files/2026-03/Two_Loops--How_Chinas_Open_AI_Strategy_Reinforces_Its_Industrial_Dominance.pdf",
-    "date": "2026-07-19",
-    "id": "17844943593841"
-  },
-  {
-    "title": "Bothread：多 AI 编程代理协作开发，避免代码冲突",
-    "summary": "开源本地应用，支持多个 AI 代理在同一代码库协作，基于 MCP 协议。",
-    "detail": "Bothread 是一款免费开源的本地应用，允许多个 AI 编程代理在同一代码库上协作，通过 MCP 协议防止冲突，人类保持指挥权。无需 API 密钥或云端，基于 TypeScript 开发，采用 MIT 许可证。该工具解决了多代理协作时的代码碰撞问题，适合本地化开发流程，提升多 Agent 协同编码效率。它强调本地运行与隐私，是开发者探索多 Agent 协作的理想工具。项目欢迎 PR 贡献，文档齐全，支持 npm 安装。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "MCP"
-    ],
-    "link": "https://github.com/AdamACE9/bothread",
-    "date": "2026-07-19",
-    "id": "17844943593842"
-  },
-  {
-    "title": "Chalie：本地运行的开源个人 AI 伴侣",
-    "summary": "开源个人 AI，本地运行，记忆重要事项，离线工作，行动前询问。",
-    "detail": "Chalie 是一款开源个人 AI，旨在成为伙伴而非员工。它运行在用户本地机器上，能够记忆重要事项，在用户离开时工作，并在行动前询问。目前处于 v1.0.0-beta 阶段，强调隐私与信任。支持多种模型，通过本地部署确保数据安全，适合关注隐私的个人用户管理日常行政任务。其设计理念是让用户信任 AI 处理生活管理，同时保持控制权。安装脚本支持一键部署到本地，文档详细。",
-    "tags": [
-      "Dev",
-      "LocalAI",
-      "OpenSource"
-    ],
-    "link": "https://github.com/chalie-ai/chalie",
-    "date": "2026-07-19",
-    "id": "17844943593843"
-  },
-  {
-    "title": "阿根廷 AI 实验：Peter Thiel 与非人类公司",
-    "summary": "探讨阿根廷总统 Milei 与 Peter Thiel 合作，推动 AI 及非人类公司概念。",
-    "detail": "文章探讨了阿根廷在 AI 领域的激进实验，涉及总统 Javier Milei 与投资人 Peter Thiel 的合作。内容提及“非人类公司”及预测市场等概念，将阿根廷比作历史上各种社会实验的场所。2026 年 6 月 4 日，Milei 宣布相关计划，显示南美可能成为 AI 治理与资本结合的新试验田，引发关于 AI 与社会结构重塑的关注。这反映了 AI 技术正在深入影响国家层面的政策实验。文章回顾了该地区历史上的乌托邦实验，如新德国。",
-    "tags": [
-      "News",
-      "Policy",
-      "PeterThiel"
-    ],
-    "link": "https://www.thenerve.news/p/uki-goni-argentina-javier-milei-peter-thiel-ai-non-human-corporations",
-    "date": "2026-07-19",
-    "id": "17844943593844"
-  },
-  {
-    "title": "Lynx AI 操作系统：自动化任务与报告生成",
-    "summary": "自主 AI 代理系统，支持研究、数据分析及文档生成，提供多档订阅计划。",
-    "detail": "Lynx 是由 Apex7 AI 推出的自主 AI 代理系统，旨在将想法转化为实际结果。支持研究、数据分析、文档创建及任务自动化。用户可通过三步构建 AI _worker_。提供免费及多层订阅计划（Plus/Pro/Ultra），月费分别为 0 美元、17 美元、43 美元及 170 美元，包含不同数量的信用额度和自定义代理数量，强调企业级安全与透明度，适合个人及企业自动化需求。其企业级代码安全由专家持续审查，确保数据保护与可扩展性，旨在成为可靠的 AI 员工。Plus 计划年付优惠 15%，适合小型团队使用，提供私有项目支持。",
-    "tags": [
-      "New",
-      "Automation",
-      "SaaS"
-    ],
-    "link": "https://lynx.apex7ai.com",
-    "date": "2026-07-19",
-    "id": "17844943593845"
   }
 ]
