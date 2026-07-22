@@ -1,5 +1,70 @@
 [
   {
+    "title": "OpenAI 宣布 2030 年前基础设施支出达 7500 亿美元",
+    "summary": "OpenAI 大幅上调基建预算，拟建乔治亚州数据中心，展现激进扩张策略。",
+    "detail": "OpenAI 宣布至 2030 年将花费 7500 亿美元用于基础设施，比年初预期增加 25%。首个项目为乔治亚州\"Project Camellia\"数据中心，耗资 200 亿美元，占地 1400 英亩，预计 2028 至 2032 年提供 3.2 吉瓦电力。公司将承担全部电力及基建成本，并承诺在高需求期间减少电网负荷。尽管 Stargate 项目受阻，此举仍显示巨头对算力需求的极度乐观。获得当地 15 年财产税减免，凸显各地争抢 AI 基建。这标志着 AI 基础设施竞赛进入白热化阶段，资本支出门槛进一步抬高，可能加速行业整合，中小玩家难以跟进如此规模的投入，行业集中度将提升。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Infrastructure"
+    ],
+    "link": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/",
+    "date": "2026-07-22",
+    "id": "17847615202440"
+  },
+  {
+    "title": "Google 云业务激增 82%，AI 投资回报获验证",
+    "summary": "Google 云营收达 248 亿美元，企业 AI adoption 驱动增长，缓解投资者担忧。",
+    "detail": "Alphabet 财报显示 Google Cloud 营收同比增长 82% 至 248 亿美元，远超华尔街预期的 224.6 亿美元。增长主要由企业 AI 解决方案及基础设施采用驱动，云合同积压达 5140 亿美元。公司利润飙升至 1121 亿美元，整体营收增长 24%，Google Services 营收增长 15%。CEO 皮查伊强调 AI 投资正在重塑业务。强劲的财务表现缓解了投资者对巨额 AI 支出是否值得的担忧，证明企业端 AI 落地正在加速，云业务已成为增长核心引擎，验证了大规模 AI 基建投资的商业回报逻辑，为其他科技巨头提供信心。",
+    "tags": [
+      "News",
+      "Google",
+      "Cloud"
+    ],
+    "link": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
+    "date": "2026-07-22",
+    "id": "17847615202441"
+  },
+  {
+    "title": "美国开源 AI 实验室 Arcee 称中国模型并非固有危险",
+    "summary": "Arcee CTO 反驳禁令言论，认为中国开源模型与其他开源软件风险无异。",
+    "detail": "随着中国开源模型能力提升，美国内部关于是否禁令的争论升温。美国开源 AI 实验室 Arcee 的 CTO 表示，中国模型并不 inherently dangerous，与企业使用的其他开源软件风险相同。尽管 Arcee 旨在提供本土替代品，但承认中国模型（如 Kimi, Qwen）具有成本优势。proprietary 模型 makers 如 OpenAI 担忧其威胁利润。这反映了开源社区对技术封锁的理性声音与 proprietary 厂商利益的冲突，暗示完全封锁开源模型可能不切实际且损害创新。企业更应关注安全使用而非来源，开源生态的全球化特性使得单一国家禁令难以完全生效，合作优于对抗。",
+    "tags": [
+      "News",
+      "OpenSource",
+      "Geopolitics"
+    ],
+    "link": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
+    "date": "2026-07-22",
+    "id": "17847615202442"
+  },
+  {
+    "title": "Substack 推出新工具检测新闻通讯中的 AI 生成内容",
+    "summary": "集成 Pangram 检测技术，用户可查看内容的人类与 AI 写作比例，保障真实性。",
+    "detail": "Substack 宣布集成 AI 写作检测软件 Pangram，允许用户扫描帖子和评论，估算人类与 AI 写作比例。短期可能暴露平台上的 AI 内容影响信任，但长期有助于清除\"AI 垃圾内容”。此举追随 YouTube、TikTok 等平台 labeling AI 内容的趋势，旨在维护独立新闻和博客生态的高质量与透明度。应对 AI 生成内容泛滥的挑战，平台需在技术创新与内容真实性之间找到平衡，重建读者信任是关键。创作者需适应新规则，纯 AI 生成内容可能失去受众，人机协作将成为主流写作模式，内容平台治理进入新阶段。",
+    "tags": [
+      "New",
+      "Content",
+      "Detection"
+    ],
+    "link": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
+    "date": "2026-07-22",
+    "id": "17847615202443"
+  },
+  {
+    "title": "Google Research 发布 SymptomAI conversational agent 研究",
+    "summary": "探索 conversational AI 用于日常症状评估，填补真实世界临床数据空白。",
+    "detail": "Google Research 发布论文探讨 conversational AI agent 用于日常症状评估。现有评估多基于 curated 案例，缺乏真实世界患者报告的变异性。该研究通过 in-situ comparative study，探索 AI 如何进行端到端症状访谈及鉴别诊断。旨在解决医疗资源 accessibility 问题，提升 LLM 在真实医疗场景下的鲁棒性。考虑到患者医疗 literacy 差异，该研究为未来 AI 医疗助手落地提供研究基准，推动 AI 从实验室走向临床辅助应用。这将降低诊断门槛，但需解决隐私与责任问题，AI 作为辅助工具而非替代医生，将重塑初级医疗流程。",
+    "tags": [
+      "Dev",
+      "Healthcare",
+      "LLM"
+    ],
+    "link": "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/",
+    "date": "2026-07-22",
+    "id": "17847615202444"
+  },
+  {
     "title": "美财政部威胁制裁 Moonshot，指控蒸馏 Anthropic 模型",
     "summary": "白宫指控 Moonshot 窃取 IP，财政部警告将实施制裁及实体清单。",
     "detail": "美国财政部部长 Scott Bessent 周三重申对中国 AI 公司的制裁警告，称若发现知识产权盗窃将实施制裁及实体清单。白宫官员指控 Moonshot 不当蒸馏 Anthropic 的 Fable 模型，并涉嫌通过泰国获取 Nvidia GB300 服务器违反出口管制。Bessent 在 X 上表示“开源不是美国 IP 的开放季节”。此举标志着中美 AI 博弈升级，开源模型亦将面临 IP 审查，可能影响全球模型蒸馏技术的合法边界及供应链合规性，企业需警惕跨境训练数据的法律风险，为行业树立合规新标杆。",
@@ -1233,70 +1298,5 @@
     "link": "https://sharper-ai.co",
     "date": "2026-07-20",
     "id": "17845707336870"
-  },
-  {
-    "title": "开发者反思：AI 工具与 Vim 的“心流”错觉",
-    "summary": "深度探讨 AI 编码工具是否真能像 Vim 一样提供无摩擦的开发心流体验。",
-    "detail": "文章对比了 Vim 与 AI 编程助手对开发者“心流”的影响。作者指出 Vim 通过透明操作保持专注，而 AI 虽承诺减少摩擦，却带来了“深度问题”。工程师感到不适是因为 AI 输出不完全属于自己，缺乏意图的直接翻译。这反映了行业对 AI 生成代码所有权与控制权的深层焦虑。随着 AI 成为显性期望，开发者需重新审视工具与人的关系，避免陷入效率幻觉而丧失对代码深度的掌控，透明性仍是关键。",
-    "tags": [
-      "Dev",
-      "Opinion",
-      "Coding"
-    ],
-    "link": "https://rosipov.com/blog/ai-vim-and-the-illusion-of-flow/",
-    "date": "2026-07-20",
-    "id": "17845707336871"
-  },
-  {
-    "title": "Flox 推出 AI Stack as Code：一次定义，随处运行",
-    "summary": "解决 AI 环境部署痛点，提供声明式、可复现的 RAG 与模型服务栈。",
-    "detail": "Flox 发布了 AI Stack as Code 参考模式，旨在解决跨平台 AI 环境部署难题。通过声明式配置，开发者可构建可复现的 RAG 栈或 llamacpp 服务环境。支持从 MacBook MPS 到 Linux CUDA 的无缝迁移，消除了“在我机器上能跑”的困境。这种模式允许团队共享环境定义，确保开发到生产的一致性，为生产级 AI 栈管理提供了标准化方案，大幅降低运维摩擦，是 MLOps 领域的重要实践。",
-    "tags": [
-      "Dev",
-      "MLOps",
-      "Infrastructure"
-    ],
-    "link": "https://flox.dev/blog/ai-stack-as-code-define-it-once-run-it-anywhere/",
-    "date": "2026-07-20",
-    "id": "17845707336872"
-  },
-  {
-    "title": "GNOME 因 AI 生成报告调整安全披露政策",
-    "summary": "开源社区应对 AI 滥用新举措，修改漏洞披露流程以过滤低质报告。",
-    "detail": "GNOME 项目正式宣布更改安全披露政策，主要原因是 AI 生成的安全报告泛滥。大量自动化生成的低质量报告增加了维护者负担，导致真实漏洞被淹没。此举标志着开源社区开始针对 AI 滥用制定防御性规则，可能引发其他开源项目效仿。这不仅是流程调整，更是社区对 AI 生成内容信任危机的回应，重新平衡自动化测试与人工验证的关系，维护开源生态的健康发展。",
-    "tags": [
-      "News",
-      "OpenSource",
-      "Security"
-    ],
-    "link": "https://www.phoronix.com/news/GNOME-Security-Changes-2026",
-    "date": "2026-07-20",
-    "id": "17845707336873"
-  },
-  {
-    "title": "Anthropic 开放罕见病研究 grants：最高 5 万美元 credits",
-    "summary": "AI for Science 计划新主题，资助利用 Claude 加速罕见病药物研发。",
-    "detail": "Anthropic 启动 AI for Science 专项资助，聚焦罕见遗传病研究。入选科学家或生物科技公司可获得高达 5 万美元的 Claude API credits，为期六个月。旨在建立社区，利用 AI 发现分散病例中的共享机制，加速临床开发。这是大模型厂商垂直深入科学计算领域的重要信号，表明 AI 正从通用对话转向解决具体科学难题，尤其是数据稀缺的医疗领域，具有深远行业影响。",
-    "tags": [
-      "News",
-      "Science",
-      "Anthropic"
-    ],
-    "link": "https://www.anthropic.com/news/rare-disease-research-grants",
-    "date": "2026-07-20",
-    "id": "17845707336874"
-  },
-  {
-    "title": "比尔·戈利：AI 开源模型是必然竞争而非安全威胁",
-    "summary": "知名风投比尔·戈利撰文称开源模型是市场竞争的自然结果，并非安全威胁。",
-    "detail": "华盛顿邮报刊登了知名风投 Bill Gurley 的观点文章，深入探讨了 AI 开源模型的未来趋势。他指出开源模型的出现是不可避免的，不应被视为安全威胁，而是健康市场竞争的自然表现。文章特别提及了 Moonshot 的 Kimi K3 模型在上海世界人工智能大会上的展示，强调了开放模型对促进行业竞争和技术普及的关键作用，有力反驳了当前关于封闭模型更安全的的主流叙事，为开源生态辩护。Gurley 认为，限制开源只会阻碍创新，开放才是推动 AI 技术民主化的核心动力。",
-    "tags": [
-      "News",
-      "Open Source",
-      "Policy"
-    ],
-    "link": "https://www.washingtonpost.com/opinions/2026/07/20/open-model-ai-is-good-competition-anthropic-openai/",
-    "date": "2026-07-20",
-    "id": "17845627460110"
   }
 ]
