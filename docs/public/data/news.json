@@ -1,5 +1,83 @@
 [
   {
+    "title": "OneCLI：开源 AI 代理凭证安全网关",
+    "summary": "YC 支持，防止 AI 代理泄露密钥的网络层安全工具。",
+    "detail": "OneCLI 是一个开源凭证网关，专为 AI 代理设计。它通过网络层代理所有请求，强制实施政策并注入凭证，确保密钥永不离开 vault。支持 MCP 工具调用、CLI 命令等多种路径，解决 AI 代理安全管理痛点。获 YC 支持，适合需要严格密钥管理的开发团队。随着 AI 代理自主性增强，此类安全基础设施将成为企业部署的关键环节，防止敏感数据泄露。其网络层 enforcement 确保即使模型被越狱，策略依然生效，为 AI 工程化提供必要保障。",
+    "tags": [
+      "Dev",
+      "Security",
+      "OpenSource"
+    ],
+    "link": "https://onecli.sh",
+    "date": "2026-07-23",
+    "id": "17848224669270"
+  },
+  {
+    "title": "哈佛院长：AI 将超越人类但你仍有工作",
+    "summary": "哈佛院长 David Deming 探讨 AI 对就业市场的深远影响与人类价值。",
+    "detail": "哈佛大学院长 David Deming 在视频中提出，尽管 AI 将在各项任务上超越人类，但人类仍保有工作机会。该观点深入分析了 AI 时代下的劳动力市场变化，强调人类在协作、情感及复杂决策中的不可替代性，为就业焦虑提供新视角。视频探讨了经济模型与人类价值的未来关系。此言论引发业界对人机协作模式的重新思考，表明单纯的任务效率并非就业唯一标准。Deming 强调经济任务与社交任务的区分，认为人类在社交互动中的价值将长期存在，缓解了对大规模失业的恐慌。",
+    "tags": [
+      "News",
+      "Jobs",
+      "Research"
+    ],
+    "link": "https://www.youtube.com/watch?v=OWaq1rI4D6w",
+    "date": "2026-07-23",
+    "id": "17848224669271"
+  },
+  {
+    "title": "研究：自恋型人格更倾向依赖 AI",
+    "summary": "心理学研究发现黑暗 tetrad 特质与 AI 过度使用存在关联。",
+    "detail": "最新心理学研究指出，具有自恋、马基雅维利主义等“黑暗四重奏”特质的人群更倾向于重度依赖 AI。AI 作为永不反驳的 interlocutor，可能强化某些人格特质。这揭示了 AI 技术对社会心理层面的潜在影响，引发伦理关注。研究基于 Freud 理论延伸，警告技术可能成为特定人格的放大器，需警惕心理健康风险。文章指出 AI 的顺从性可能加剧自恋倾向，建议在设计 AI 交互时引入适当的摩擦机制，以促进用户心理健康，避免技术滥用导致的心理退化。",
+    "tags": [
+      "News",
+      "Psychology",
+      "Ethics"
+    ],
+    "link": "https://thenextweb.com/news/dark-traits-problematic-ai-use-psychology",
+    "date": "2026-07-23",
+    "id": "17848224669272"
+  },
+  {
+    "title": "初创创始人呼吁勿禁中国开源 AI 模型",
+    "summary": "美国初创创始人游说特朗普政府不要封锁中国开源权重模型。",
+    "detail": "据 Politico 报道，初创企业创始人正 urging 特朗普政府不要切断对中国开源权重 AI 模型的访问。他们认为封锁将阻碍创新和技术发展。此事件反映了 AI 地缘政治博弈中，产业界与政策制定者在开放与安全之间的激烈权衡。开放权重模型对全球开发者至关重要，政策变动将直接影响下游应用生态及初创公司生存。创始人们警告，过度限制将导致美国在 AI 创新竞赛中落后，呼吁政策制定者权衡国家安全与技术开放的红线，保持全球协作。",
+    "tags": [
+      "News",
+      "Policy",
+      "Geopolitics"
+    ],
+    "link": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+    "date": "2026-07-23",
+    "id": "17848224669273"
+  },
+  {
+    "title": "学生如何在答辩中识破 AI 生成论文",
+    "summary": "瑞典大学生分享在 peer review 中识别并击败 AI 生成论文的经验。",
+    "detail": "一位瑞典大学生在营销课程中，通过 peer review 环节识破了同学提交的 AI 生成论文。文章详细描述了 AI 生成内容在理论分析和实证观察中的破绽。这反映了教育界面临的 AI 作弊挑战，以及人类审查在学术诚信中的关键作用。案例表明，尽管 AI 生成文本流畅，但在深度逻辑和实证结合上仍存在明显缺陷。作者通过对比理论框架与实际观察，发现了 AI hallucinations 的痕迹。这提示教育者需调整评估方式，更注重过程而非最终产出，维护学术尊严。",
+    "tags": [
+      "News",
+      "Education",
+      "LLM"
+    ],
+    "link": "https://medium.com/@henry.fisher.n/how-i-killed-an-ai-generated-essay-during-its-defence-50f3b869f660",
+    "date": "2026-07-23",
+    "id": "17848224669274"
+  },
+  {
+    "title": "非程序员通过结构化 AI 对话设计软件",
+    "summary": "GitHub 开源项目指导非 coder 利用结构化提示词设计软件。",
+    "detail": "CoreGrowthPrompting 是一个面向非编码人员的指南，教授如何通过结构化 AI 对话设计软件。该项目旨在降低软件开发门槛，利用 LLM 能力辅助需求分析和原型设计。适合希望利用 AI 进行产品构建的创业者或非技术背景人员参考。通过标准化提示词工程，非技术人员也能参与软件架构设计，推动全民开发趋势。项目包含具体对话模板和验证步骤，帮助用户将模糊需求转化为可执行的技术方案，降低了对传统编程技能的依赖，赋能业务人员。",
+    "tags": [
+      "Dev",
+      "Prompting",
+      "NoCode"
+    ],
+    "link": "https://github.com/CoreGrowthLabs/CoreGrowthPrompting/blob/main/README.en.md",
+    "date": "2026-07-23",
+    "id": "17848224669275"
+  },
+  {
     "title": "DARPA 与美军成功试飞 AI 控制的 F-16 战机",
     "summary": "美军与 DARPA 合作，通过 VENOM 项目实现 F-16 自主飞行，无需更改核心软件。",
     "detail": "美国空军与 DARPA 合作，在 VENOM 项目下成功测试了由 AI 代理自主控制的 F-16 战机。此次试飞基于之前的 ACE 项目经验，通过 VENOM 自主套件（VAK）实现，无需更改战机核心软件即可切换自主控制。这标志着战斗 AI 开发基础设施的重大进步，为快速部署可信的空中作战能力铺平道路，展示了将标准作战机队转化为 AI 平台的能力。",
@@ -1220,83 +1298,5 @@
     "link": "https://opuslabs.substack.com/p/hardware-needs-its-vibe-coding-moment",
     "date": "2026-07-21",
     "id": "17846488265203"
-  },
-  {
-    "title": "利用低价模型策略可大幅降低 AI 编码助手 Token 成本",
-    "summary": "IEEE 报道中国低价 Z.ai 模型暴露了开发者高昂的 Token 使用习惯。",
-    "detail": "**背景**：IEEE Spectrum 报道指出，中国低价 AI 模型（如 Z.ai）的出现揭示了开发者在使用编码助手时的高成本习惯。**核心**：通过策略性选择模型，可大幅削减 Token 账单。**影响**：文章分析了不同模型在编码任务中的性价比，建议开发者根据任务复杂度切换模型，以优化开发成本。随着模型价格战加剧，合理路由请求将成为企业控制 AI 支出的关键策略。企业应建立模型路由机制，平衡性能与成本，适应低价模型竞争常态。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Cost Optimization"
-    ],
-    "link": "https://spectrum.ieee.org/ai-coding-assistant-china-anthropic",
-    "date": "2026-07-21",
-    "id": "17846488265204"
-  },
-  {
-    "title": "Deezer 称每日上传音乐超半数由 AI 生成",
-    "summary": "流媒体平台 Deezer 披露 AI 音乐占比超 50%，将清理欺诈性曲目。",
-    "detail": "音乐流媒体巨头 Deezer 最新数据显示，平台每日上传曲目中 AI 生成内容已突破 50%，6 月峰值达日均 9 万首。为应对泛滥，Deezer 宣布将下架半年内无播放或涉及欺诈流量的 AI 曲目。此举反映了流媒体行业对 AI 音乐态度的分化，不同于 Bandcamp 的禁令或 Spotify 的标签政策，Deezer 选择通过清理低质内容保障艺术家权益。这一举措标志着 AI 内容治理进入实质性阶段，平台开始在版权保护与技术创新之间寻找平衡，防止支付稀释效应损害真人音乐家利益，行业监管标准正在逐步形成。对于创作者而言，这意味着 AI 作品的变现门槛将显著提高，真人艺术家的生存空间得到一定保护。",
-    "tags": [
-      "News",
-      "AI Music",
-      "Industry"
-    ],
-    "link": "https://techcrunch.com/2026/07/21/music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated/",
-    "date": "2026-07-21",
-    "id": "17846419279710"
-  },
-  {
-    "title": "开发者利用 Claude 辅助完成量子力学研究",
-    "summary": "非专业物理学家借助 AI 工具突破数学障碍，产出量子力学预印本论文。",
-    "detail": "一位基础设施工程师在休假期间利用 Claude 辅助研究 Nima Arkani-Hamed 的振幅体程序，最终产出量子力学相关预印本论文。该案例展示了 AI 在硬科学领域的潜力，用户无需精通深奥数学即可通过 AI 引导发现物理洞察。代码与数据已开源，证明了当前大模型在辅助科研方面的有效性，为 AI4Science 提供了真实个案参考。尽管作者非专业物理学家，但借助 AI 对几何与 positivity 问题的理解，成功跨越了数学障碍。这表明 AI 不仅能处理代码，还能辅助理论科学探索，可能加速科研进程，降低专业领域门槛，引发学术界对 AI 辅助研究伦理与有效性的新讨论。",
-    "tags": [
-      "Dev",
-      "AI4Science",
-      "Research"
-    ],
-    "link": "https://nutfieldsecurity.com/posts/ai-vacation-physics/",
-    "date": "2026-07-21",
-    "id": "17846419279711"
-  },
-  {
-    "title": "形式化验证或解决 AI 代码审查瓶颈",
-    "summary": "新范式结合形式化验证与 AI，机器可检查证明以消除人工审查需求。",
-    "detail": "文章提出软件工程新范式：人类用 Lean 等形式语言指定需求，AI 编写代码及形式化证明。核心在于解决 AI 生成代码的审查瓶颈，机器可验证证明从而免除人工复查。相比单纯依赖 AI 写作，该组合能显著扩展开发规模而不牺牲质量。这为高可靠性软件开发提供了新路径，表明形式化验证是提升 AI 编码效能的关键手段而非仅仅是安全补充。作者指出，AI 写作能力已接近人类，但审查成为新瓶颈，形式化验证能实现机器级质量保证。这一方法若普及，将改变软件开发流程，使 AI 代理能独立交付高可信代码，大幅降低维护成本与安全风险。",
-    "tags": [
-      "Dev",
-      "Software Engineering",
-      "Formal Verification"
-    ],
-    "link": "https://georgwiese.github.io/posts/formal-verification-ai/",
-    "date": "2026-07-21",
-    "id": "17846419279712"
-  },
-  {
-    "title": "Neverbell 推出支持 AI 代理的全天候交易工具",
-    "summary": "新平台允许 AI 代理直接访问市场，执行股票、加密等资产交易。",
-    "detail": "Neverbell 发布新工具，赋予 AI 代理 24/7 直接市场访问权限，支持股票、ETF、大宗商品及加密货币交易。用户可通过对话管理仓位、获取新闻 sentiment 分析或设置自动量化模型。平台提供测试资金供 OpenClaw、Claude Code 等代理测试。该产品标志着 AI Agent 在金融交易领域的落地应用，实现了从分析到执行的全自动化闭环，降低了个人量化交易门槛。支持杠杆交易与多资产类别，用户可构建独特交易界面或连接电话服务执行指令。这展示了 Agent 经济系统的雏形，AI 不仅能提供建议，还能直接操作资金，对传统金融中介模式构成潜在挑战与机遇。",
-    "tags": [
-      "New",
-      "AI Agent",
-      "Fintech"
-    ],
-    "link": "https://neverbell.com",
-    "date": "2026-07-21",
-    "id": "17846419279713"
-  },
-  {
-    "title": "GPT-5.6 与 Claude Fable 5 物理 AI 评测",
-    "summary": "前沿模型在物理建模任务上的性能对比评测，Claude 领先。",
-    "detail": "JuliaHub 最新评测对比了 GPT-5.6 系列与 Claude Fable 5 在物理建模与仿真任务上的表现。测试涵盖五个不同难度的建模问题，Claude Fable 5 以 0.889 的加权得分显著领先，GPT-5.6 变体得分介于 0.727 至 0.814 之间。报告强调物理 AI 的核心在于物理规律编码的正确性，而非仅仅通过测试用例。在工程领域，Agent 若仅依赖自写测试可能导致物理模型在实际应用中失效，因为测试可能基于不成立的简化假设。这对前沿模型在科学计算领域的可靠性验证提出了更高要求，信任问题仍是行业痛点。",
-    "tags": [
-      "News",
-      "LLM",
-      "Physical AI"
-    ],
-    "link": "https://juliahub.com/blog/frontier-models-physical-ai-evaluation",
-    "date": "2026-07-21",
-    "id": "17846322351540"
   }
 ]
