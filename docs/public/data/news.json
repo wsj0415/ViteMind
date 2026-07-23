@@ -1,5 +1,57 @@
 [
   {
+    "title": "AMD 发布 Helios AI 机架系统挑战 Nvidia",
+    "summary": "AMD 推出 Helios 机架系统，旨在与 Nvidia 竞争，微软已为客户。",
+    "detail": "AMD 在旧金山 Advancing AI 大会上正式发布 Helios 机架系统，直接挑战 Nvidia 在 AI 硬件市场的主导地位。该系统专为千兆瓦级 AI 实验室设计，旨在训练及运行最前沿的大模型。CEO 苏姿丰透露微软已是客户，系统将于今年晚些时候发货。Helios 性能指标据称超越 Nvidia Vera Rubin，标志着 AI 基础设施竞争进入机架级系统新阶段。此外，AMD 还展示了其为 AI 行业设计的新芯片，旨在满足算力需求。此举可能打破 Nvidia 垄断，降低企业 AI 部署成本，推动硬件多元化发展。随着 AI 模型规模扩大，机架级系统成为关键瓶颈，AMD 此举有望缓解算力短缺焦虑，为全球 AI 基础设施提供更优性价比方案，促进生态竞争。",
+    "tags": [
+      "News",
+      "Hardware",
+      "AMD"
+    ],
+    "link": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+    "date": "2026-07-23",
+    "id": "17848407884200"
+  },
+  {
+    "title": "AWS 发布 AI Agent 生产评估蓝图",
+    "summary": "结合 Strands SDK 与 Bedrock AgentCore，构建端到端评估管线。",
+    "detail": "AWS 与英国二手车平台 Motorway 合作，分享了生产级 AI Agent 评估方案。通过结合 Strands Agents SDK 和 Amazon Bedrock AgentCore，构建了端到端评估管线。该方案将错误率从 1/8 降至 1/50，问题检测时间从数小时缩短至几分钟。主要解决工具选择错误、语义误解及上下文漂移问题。方案涵盖构建时测试与生产监控两阶段，为开发者提供可靠的 Agent 落地参考，确保 AI 在关键业务中的稳定性与可信度。此蓝图展示了如何在真实资金风险下验证 Agent 可靠性，对 enterprise 应用具有重要工程实践价值。该方案特别适用于金融、电商等对准确性要求高的场景，通过自动化评估减少人工干预，提升迭代速度，是 AI Agent 从实验走向生产的关键一步。",
+    "tags": [
+      "Dev",
+      "AWS",
+      "Agent"
+    ],
+    "link": "https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-a-production-blueprint-with-strands-and-agentcore/",
+    "date": "2026-07-23",
+    "id": "17848407884201"
+  },
+  {
+    "title": "AI 编程工具可能阻碍专家经验积累",
+    "summary": "文章探讨“专家新手”悖论，过度依赖 AI 可能导致技能萎缩。",
+    "detail": "文章深入探讨了 AI 编码工具对开发者技能积累的潜在负面影响，提出“专家新手”悖论。资深开发者因已有知识储备能有效驾驭 AI，而新人缺乏基础却被迫使用高级工具，可能导致技能萎缩。长期依赖 AI 可能阻碍新手成为专家，造成行业 expertise 断层。作者建议行业需平衡工具使用与基础能力培养，避免未来出现无法独立解决问题的开发者。这为 AI 时代的人才培养提出了警示，强调核心编程能力仍不可替代。尽管 AI 提升效率，但理解底层原理仍是关键，否则将面临技术债务与维护风险。文章呼吁教育体系调整，强调在 AI 辅助下仍需强化基础训练，确保开发者具备批判性思维与架构设计能力，以应对未来复杂系统挑战。",
+    "tags": [
+      "News",
+      "Industry",
+      "Coding"
+    ],
+    "link": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
+    "date": "2026-07-23",
+    "id": "17848407884202"
+  },
+  {
+    "title": "研究揭示 AI Agent 提交 PR 的冲突率",
+    "summary": "实证研究发现 40.2% 仓库存在 AI Agent 并发提交 PR 现象。",
+    "detail": "论文基于 33,596 个 PR 数据实证分析 AI Agent 在 GitHub 上的行为。发现 40.2% 仓库存在并发提交，跨 Agent 对的文本冲突率高达 41.7%，远高于同 Agent 对的 19.8%。研究揭示了多 Agent 协作中的合并冲突风险，大部分冲突源于源代码文件修改。这为优化 Agent 协作机制及代码管理流程提供了实证依据，提示开发者在引入多 Agent 系统时需关注并发控制与冲突解决策略。此外，仅 0.5% 的并发对涉及跨 Agent 协作，表明当前多为单 Agent 主导，未来多 Agent 协作需解决同步难题。研究还指出冲突检测具有滞后性，建议引入更智能的调度机制。这对构建大规模 AI 软件开发流水线具有指导意义，帮助团队预判潜在风险。",
+    "tags": [
+      "Dev",
+      "Research",
+      "GitHub"
+    ],
+    "link": "https://arxiv.org/abs/2607.04697",
+    "date": "2026-07-23",
+    "id": "17848407884203"
+  },
+  {
     "title": "Anthropic 升级 Claude 语音模式，支持多模型切换",
     "summary": "Claude 语音模式更新，支持 Opus 等模型及第三方应用集成。",
     "detail": "Anthropic 正式更新 Claude 语音模式，用户现可在 Opus、Sonnet 和 Haiku 模型间自由切换，系统默认调用最快版本以确保响应速度。新模式不仅支持长对话、沟通风格反馈及头脑风暴，关键突破在于能深度集成 Gmail、Slack、Notion 等第三方应用执行实际任务，如更新会议 slot 或起草邮件。相比 OpenAI 语音模式仅更新对话风格，Claude 更具工具使用能力，标志着语音交互从单纯对话向实际工作流执行的转变，显著提升企业级应用潜力。此次更新回应了市场对多模态代理实用性的迫切需求，强化了 Claude 在复杂任务处理上的竞争力，为 AI 助手融入日常办公流程奠定基础。",
@@ -1246,57 +1298,5 @@
     "link": "https://news.ycombinator.com/item?id=48996643",
     "date": "2026-07-21",
     "id": "17846618823971"
-  },
-  {
-    "title": "前沿 AI 限制国际协议目标与退出机制研究",
-    "summary": "论文探讨限制 AI 发展的国际协议条件及退出机制。",
-    "detail": "最新 arXiv 论文分析了限制前沿 AI 发展的国际协议框架。研究建议设立固定期限，期满后由新组织评估安全条件以决定是否放松限制。该研究为 AI 安全治理提供了理论依据，探讨了在紧急情况下退出协议的可能性。作者 surveyed 现有国际协议，列出了合适的条件属性。这对于全球 AI 监管合作具有重要参考价值，旨在 mitigating risks from AI while allowing safe development. 论文强调了明确退出条件的重要性，以防止协议僵化。",
-    "tags": [
-      "Dev",
-      "Policy",
-      "Safety"
-    ],
-    "link": "https://arxiv.org/abs/2607.16224",
-    "date": "2026-07-21",
-    "id": "17846618823972"
-  },
-  {
-    "title": "俄克拉荷马州开设无教师 AI 私立学校",
-    "summary": "俄克拉荷马州开设无教师 AI 私立学校，学费高昂。",
-    "detail": "Alpha School 将在俄克拉荷马州开设新校区，学费每年 4 万美元，无传统教师。学生每天使用自适应 AI 平台学习核心科目两小时，下午进行项目 workshops。该模式声称比传统学校快两倍，引发对教育公平与效果的担忧。Alpha 今年秋季将开设 28 个新校区，大幅扩展 footprint。此前学生使用在线平台，现在使用 proprietary AI 程序 2 Hour Learning。媒体对此报道热情，但少有关注技术担忧。",
-    "tags": [
-      "News",
-      "Education",
-      "Application"
-    ],
-    "link": "https://oklahomawatch.org/2026/07/21/a-40000-per-year-ai-school-with-no-teachers-is-opening-in-oklahoma-this-august/",
-    "date": "2026-07-21",
-    "id": "17846618823974"
-  },
-  {
-    "title": "TRMNL 推出 AI Agent 功能，可通过提示词构建插件",
-    "summary": "TRMNL 推出 AI Agent 功能，可通过提示词构建插件。",
-    "detail": "TRMNL 推出新 AI Agent 功能，允许用户通过提示词如“构建显示人口插件”直接生成代码。目前处于公测，需 OpenRouter 或 Claude API Key。该功能降低了开发门槛，增强了 Agent 的自主构建能力，未来将支持直接购买积分。optionally, free Tavily API key 可增强 web search 能力。这展示了 AI 在低代码开发领域的应用潜力，使非技术人员也能构建功能插件。用户只需输入自然语言即可实现功能。",
-    "tags": [
-      "New",
-      "DevTool",
-      "Agent"
-    ],
-    "link": "https://help.trmnl.com/en/articles/14130438-ai-agent",
-    "date": "2026-07-21",
-    "id": "17846618823975"
-  },
-  {
-    "title": "Google 发布三款新 Gemini 模型，主打效率与安全",
-    "summary": "Google DeepMind 发布 Gemini 3.6 Flash 等三款新品，优化编码与网络安全，未更新 Pro 版。",
-    "detail": "Google DeepMind 推出 Gemini 3.6 Flash、3.5 Flash-Lite 及 3.5 Flash Cyber。重点在于提升代理构建的效率、延迟及可靠性，其中 Cyber 模型专攻网络安全漏洞修复，仅限政府及合作伙伴使用。3.6 Flash 作为主力模型，token 用量减少 17%。此次更新未包含期待的 Pro 版，显示谷歌正侧重性价比与垂直场景优化，以应对 OpenAI 与 Anthropic 的激烈竞争，后者近期已发布 GPT-5.6 及 Claude Opus 4.8。谷歌此次策略明显转向效率优先，旨在降低客户构建大规模 AI 代理的成本，通过 Cyber 模型强化政府合作，巩固其在企业级与公共安全领域的市场份额，尽管旗舰模型更新滞后，但垂直优化策略仍具竞争力。",
-    "tags": [
-      "News",
-      "Google",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
-    "date": "2026-07-21",
-    "id": "17846545000580"
   }
 ]
