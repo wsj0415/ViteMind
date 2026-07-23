@@ -1,5 +1,31 @@
 [
   {
+    "title": "Runway 推出媒体模型路由器，转型生成式媒体基础设施",
+    "summary": "Runway Dev 平台新增模型路由功能，自动优化生成质量与成本。",
+    "detail": "Runway 发布 Media Router，通过 Runway Dev 平台为开发者提供 API 访问。该工具可根据质量、速度或成本优先级，自动选择最佳的图像、视频或音频生成模型。标志着 Runway 从视频初创公司向生成式媒体基础设施层的战略转型。客户包括 Adobe、Cloudflare 等，可直接将媒体生成集成到产品中，无需用户跳转，解决开发者评估新模型困难的问题。",
+    "tags": [
+      "New",
+      "GenerativeAI",
+      "Infrastructure"
+    ],
+    "link": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+    "date": "2026-07-23",
+    "id": "17848285005922"
+  },
+  {
+    "title": "MIT 科技评论：能源传输与美国对华 AI 威胁",
+    "summary": "关注纽约电网能源传输瓶颈及美国对中国 AI 的制裁威胁。",
+    "detail": "本期下载简报聚焦能源与地缘政治。纽约魁北克输电线路虽长但面临干旱与故障挑战，影响电网未来。此外，报道分析了美国对中国 AI 技术的威胁态势，并提及 OpenAI 被黑客攻击事件，警示 AI 安全风险。能源传输线路本月大部分时间停运，专家担忧干旱影响供电，而 OpenAI 黑客事件被称为迄今为止最可怕的 AI 事故，凸显技术脆弱性。",
+    "tags": [
+      "News",
+      "Policy",
+      "Security"
+    ],
+    "link": "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/",
+    "date": "2026-07-23",
+    "id": "17848285005923"
+  },
+  {
     "title": "OneCLI：开源 AI 代理凭证安全网关",
     "summary": "YC 支持，防止 AI 代理泄露密钥的网络层安全工具。",
     "detail": "OneCLI 是一个开源凭证网关，专为 AI 代理设计。它通过网络层代理所有请求，强制实施政策并注入凭证，确保密钥永不离开 vault。支持 MCP 工具调用、CLI 命令等多种路径，解决 AI 代理安全管理痛点。获 YC 支持，适合需要严格密钥管理的开发团队。随着 AI 代理自主性增强，此类安全基础设施将成为企业部署的关键环节，防止敏感数据泄露。其网络层 enforcement 确保即使模型被越狱，策略依然生效，为 AI 工程化提供必要保障。",
@@ -336,6 +362,19 @@
     "link": "https://litco.ai/litigationbench",
     "date": "2026-07-23",
     "id": "17847748873703"
+  },
+  {
+    "title": "谷歌十年来首次出现负自由现金流，主因 AI 支出",
+    "summary": "Alphabet 季度自由现金流负 59 亿美元，AI 基础设施投入巨大。",
+    "detail": "Google 母公司 Alphabet 季度自由现金流首次转为负值（-59 亿美元），主要源于 AI 基础设施的巨额资本支出。今年 AI 支出预计达 2050 亿美元，其中 60% 用于服务器。尽管营收增长 23%，但股价仍下跌，显示市场对 AI 投资回报率的担忧。CFO 表示需求仍超过投资，CEO 皮查伊称技术变革持续，只要有机会将继续投资，但资本市场对烧钱速度反应消极。",
+    "tags": [
+      "News",
+      "Finance",
+      "BigTech"
+    ],
+    "link": "https://www.bbc.com/news/articles/c235n47g8g8o",
+    "date": "2026-07-22",
+    "id": "17848285005924"
   },
   {
     "title": "OpenAI 宣布 2030 年前基础设施支出达 7500 亿美元",
@@ -1259,44 +1298,5 @@
     "link": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/",
     "date": "2026-07-21",
     "id": "17846488265200"
-  },
-  {
-    "title": "中国考虑收紧 AI 模型与芯片出口管制",
-    "summary": "金融时报报道，中国正权衡加强对 AI 模型及芯片的出口控制措施。",
-    "detail": "**背景**：据金融时报报道，中国政府正在考虑实施更严格的出口管制，涉及人工智能模型及相关芯片技术。**核心**：这标志着中美科技博弈的进一步升级，可能影响全球 AI 供应链及开源模型的流通。**影响**：此举与美国威胁制裁中国 AI 模型形成对峙，行业需关注后续政策落地对跨国开发与合作的影响。虽然具体细节未公布，但表明中国也在构建自己的技术防御体系。全球开发者需警惕供应链中断风险，提前布局多元化技术方案。",
-    "tags": [
-      "News",
-      "Policy",
-      "Export Control"
-    ],
-    "link": "https://www.ft.com/content/6049a031-9e9b-464c-97bb-414da04d5a6a",
-    "date": "2026-07-21",
-    "id": "17846488265201"
-  },
-  {
-    "title": "Granola AI 笔记应用曝高危漏洞，可一键接管账户",
-    "summary": "安全公司发现 Granola 桌面端存在漏洞，攻击者可利用通知链接接管账户。",
-    "detail": "**背景**：安全公司 Strix 发现 AI 笔记应用 Granola 的 Electron 桌面端存在严重漏洞。**核心**：攻击者可通过活动源中的用户控制链接，将受信任窗口导航至恶意页面，同时保留 privileged Electron bridge 访问权，实现一键账户接管。**影响**：Granola 已确认并修复该问题，未发现野外利用证据。开发者需注意 Electron 应用的安全架构，避免在受信任上下文中加载外部内容。此类漏洞提醒 AI 应用开发者需重视桌面端安全边界，防止权限泄露，确保用户数据安全。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Electron"
-    ],
-    "link": "https://www.strix.ai/blog/granola",
-    "date": "2026-07-21",
-    "id": "17846488265202"
-  },
-  {
-    "title": "硬件开发急需全栈 AI 环境，打破工具碎片化",
-    "summary": "文章指出硬件设计缺乏像软件一样的 AI 创意循环，工具链过于碎片化。",
-    "detail": "**背景**：opuslabs 文章指出，软件开发已进入“描述即生成”的 AI 循环，但硬件设计仍受困于 CAD、PCB、固件等工具的碎片化。**核心**：硬件缺乏连接的创意循环，修改一个组件可能引发结构、热力等多重后果。**影响**：文章呼吁建立全栈 AI 开发环境，协调机械、电子与制造关系，提升硬件创新效率。当前 AI 生成 3D 模型无法协调物理后果，真正的瓶颈在于缺乏整合工具链。未来硬件创新速度将取决于 AI 工具链的整合程度，而非单一生成能力。",
-    "tags": [
-      "Dev",
-      "Hardware",
-      "AI Tools"
-    ],
-    "link": "https://opuslabs.substack.com/p/hardware-needs-its-vibe-coding-moment",
-    "date": "2026-07-21",
-    "id": "17846488265203"
   }
 ]
