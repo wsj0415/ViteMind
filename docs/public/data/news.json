@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 代理专用 Monorepo 模板开源",
+    "summary": "专为 AI 代理设计的 Monorepo 模板，支持 Cloudflare 基础设施快速构建应用。",
+    "detail": "该模板旨在让 AI 代理（如 Claude Code、Cursor）安全地构建和维护应用。基于严格类型的 TypeScript 和 Zod，集成 Vite 8 与 TanStack 栈，优化了 AI 上下文规则与子代理配置。支持 Cloudflare Workers 零成本 RPC 通信，适合快速原型开发与微服务架构，已在欧洲 AI 黑客松中验证，帮助创业者减少摩擦并保证安全最佳实践。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Cloudflare"
+    ],
+    "link": "https://github.com/louisbrulenaudet/monorepo-template",
+    "date": "2026-07-24",
+    "id": "17848956765770"
+  },
+  {
+    "title": "AI 生成代码跨 PR 恶意意图检测",
+    "summary": "Codacy 指出 AI 生成代码可能跨多个 PR 隐藏恶意意图，需新的治理框架。",
+    "detail": "传统代码审查针对单个 PR，但 AI 辅助开发中，有害意图可能分散在多个看似合理的变更中，组装成未授权的功能。Codacy 警告这是 AI 开发的新盲点，建议工程领导者超越单次验证，结合意图、归属和纵向上下文进行治理。需防范代理被妥协、间接提示注入或记忆污染风险，参考 OWASP 2026 代理应用 Top 10。",
+    "tags": [
+      "News",
+      "Security",
+      "Code Review"
+    ],
+    "link": "https://blog.codacy.com/detecting-malicious-intent-across-ai-generated-pull-requests-a-governance-framework-for-engineering-leaders",
+    "date": "2026-07-24",
+    "id": "17848956765771"
+  },
+  {
+    "title": "帮助 AI 理解项目的 VSCode 插件",
+    "summary": "新插件 devmap 可让 AI 一键获取项目方法链与注释，提升代码理解效率。",
+    "detail": "开发者为解决 AI 在大型项目中上下文混乱问题，开发了 VSCode 插件 devmap。它能自动生成详细注释并将结构转换为 JSON，供 AI 自动调用接口获取完整方法链，仅需数秒即可阅读主函数。虽旨在提升 AI 编码上下文清晰度，但作者坦言 GitHub 已有类似更优项目，适合需要快速理解项目结构且希望减少 AI 上下文污染的开发者。",
+    "tags": [
+      "Dev",
+      "VSCode",
+      "Tools"
+    ],
+    "link": "https://news.ycombinator.com/item?id=49033971",
+    "date": "2026-07-24",
+    "id": "17848956765772"
+  },
+  {
+    "title": "奥威尔 1946 年文章预言 AI 写作",
+    "summary": "重读奥威尔 essay，发现其曾预言机械化写作与文学消亡的未来。",
+    "detail": "文章回顾了奥威尔 1946 年 essay《文学的预防》，其中预言了未来文学可能由机器生产，像流水线汽车一样缺乏灵魂。这种机械化过程如今与 AI 生成内容惊人相似。作者探讨了预言背后的运气与焦虑，反思在 AI 时代文学与极权主义共存的可能性及人类主动性的消除，引发对 AI 创作本质的深思。",
+    "tags": [
+      "News",
+      "Ethics",
+      "History"
+    ],
+    "link": "https://hegemon.substack.com/p/orwell-on-ai",
+    "date": "2026-07-24",
+    "id": "17848956765773"
+  },
+  {
+    "title": "实测：用 AI 构建真实应用耗时一年",
+    "summary": "开发者记录使用 AI 构建习惯追踪应用的真实过程，耗时远超预期。",
+    "detail": "尽管普遍认为 AI 能轻松构建应用，但该开发者为满足特定需求（本地存储、iOS 18 表情等）耗时一年。文章揭示了 AI 编程的现实挑战，并非只需几条提示词即可完成。适合希望了解 AI 辅助开发实际效率与局限性的开发者参考，打破睡梦中编码的幻想，强调真实需求下的迭代成本与 AI 当前能力的边界。",
+    "tags": [
+      "Dev",
+      "Experience",
+      "iOS"
+    ],
+    "link": "https://www.alexhyett.com/videos/tried-building-app-with-ai-it-took-a-year/",
+    "date": "2026-07-24",
+    "id": "17848956765774"
+  },
+  {
     "title": "SAP 提出生成式 AI 流程建模新指标 RTC",
     "summary": "SAP 与慕尼黑工大合作提出往返正确性指标，无需真值即可评估 AI 模型。",
     "detail": "SAP Signavio 与慕尼黑工业大学联合研究提出“往返正确性”(RTC) 新指标，旨在解决生成式 AI 在业务流程建模中缺乏评估标准的问题。传统评估依赖稀缺的真值数据，易受污染，而 RTC 通过检验模型转文本再转模型的往返信息保留度来衡量性能。若输出与输入高度匹配，则视为正确。该技术无需 ground truth 即可可靠测量 AI 表现，为企业级 AI 流程自动化提供了新的质量保障思路，有助于降低 AI 模型部署风险，推动生成式 AI 在复杂业务场景中的可信落地。",
@@ -1233,70 +1298,5 @@
     "link": "https://ojin.ai/",
     "date": "2026-07-22",
     "id": "17847209642194"
-  },
-  {
-    "title": "Synthesia 推出实时教练功能，超越视频生成进入互动培训",
-    "summary": "Synthesia 发布 Roleplay Sessions，提供 AI avatar 互动培训与评分。",
-    "detail": "企业 AI 培训平台 Synthesia 推出 Roleplay Sessions，允许员工与 AI avatar 进行销售、绩效 review 等高压力对话练习并获得评分。CEO 指出视频培训虽好，但行为改变需实践与反馈。该产品标志着企业 AI 从内容生成向效果验证转型，拓展至面试筛选等场景。Synthesia 引用学习研究 meta 分析，认为大多数培训止步于告知，而实际操练配合反馈才是学习关键，此产品旨在证明 AI 支出回报。未来平台将扩展至更多格式，帮助企业量化培训效果，解决企业 AI 投资回报率不明确的痛点，推动培训行业智能化升级。",
-    "tags": [
-      "New",
-      "Enterprise",
-      "Training"
-    ],
-    "link": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/",
-    "date": "2026-07-22",
-    "id": "17847125672243"
-  },
-  {
-    "title": "Melaya 推出受控手机 AI Agent，实现自动化社交与任务",
-    "summary": "Melaya 提供可信 AI Agent 构建平台，可操控手机应用执行任务。",
-    "detail": "Melaya 推出移动 Agent 平台，允许用户构建可信 AI 代理操作真实手机应用。平台提供 1549 种工具和 111 个模板，支持人类审批（HITL）确保可控性。愿景是未来团队将运行 AI 工人，Melaya 致力于构建受控系统，从内部运营到个人手机代理，强调可预测性与信任。用户可拖拽工具构建工作流，在发送或发布前需人工批准，确保 Agent 在授权范围内使用，解决 AI 自主行动的安全顾虑。该平台旨在成为高信任度 AI 代理的基础设施，让非技术人员也能构建复杂自动化流程，推动 Agent 技术落地。",
-    "tags": [
-      "New",
-      "Agents",
-      "Mobile"
-    ],
-    "link": "https://www.melaya.org",
-    "date": "2026-07-22",
-    "id": "17847125672245"
-  },
-  {
-    "title": "科技巨头 AI 投资潮重现安然式会计风险",
-    "summary": "科技巨头利用 VIE 结构隐藏 AI 基础设施债务，引发财务透明度担忧。",
-    "detail": "随着全球科技行业计划投入超过 3 万亿美元用于人工智能系统，新的财务风险正在浮现。Alphabet 和 Meta 等巨头正依赖可变利益实体（VIE）为数据中心及相关能源基础设施融资。这种安排允许将与芯片、服务器等设备相关的债务打包，而不流入母公司的财务报表，从而向投资者展示更佳的业绩和杠杆视图。这与二十五年前安然公司利用表外实体隐藏数亿美元债务的手法相似。会计顾问 Tom Selling 警告，虽然会计处理本身流行，但若公司以此支撑基本面，可能构成“纸牌屋”风险。Meta 已在路易斯安那州通过 VIE 合资企业建设数据中心，这种基础设施成本的风险被分散给开发商和贷款人，但投资者需警惕未披露的隐性债务。此趋势可能影响市场对科技股真实负债水平的评估，引发对行业泡沫的担忧。",
-    "tags": [
-      "News",
-      "Finance",
-      "Big Tech"
-    ],
-    "link": "https://news.bloombergtax.com/financial-accounting/big-tech-ai-spree-revives-accounting-devices-that-toppled-enron",
-    "date": "2026-07-22",
-    "id": "17847017760590"
-  },
-  {
-    "title": "传闻 Anthropic 洽购机器人公司 Physical Intelligence",
-    "summary": "Anthropic 被曝曾洽谈收购机器人初创公司，引发行业关注。",
-    "detail": "尽管 Physical Intelligence CEO 否认，但信息显示双方春季曾进行收购洽谈。该公司由 Lachy Groom 联合创立，融资超 10 亿美元，估值达 110 亿美元。其π0.5 模型是机器人研究中广泛使用的“大脑”。此传闻反映了 Anthropic 与 OpenAI 类似，正通过收购将模型能力转化为企业收入，并向具身智能领域扩展的趋势。",
-    "tags": [
-      "News",
-      "M&A",
-      "Robotics"
-    ],
-    "link": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
-    "date": "2026-07-22",
-    "id": "17846912318060"
-  },
-  {
-    "title": "Anthropic 研究 AI 模型“双用途”知识关闭开关",
-    "summary": "提出新安全机制，可手术式移除模型危险知识而不影响性能。",
-    "detail": "该研究由 AE Studio 与 Anthropic 合作完成，旨在控制模型中的“双用途”知识（如网络安全或病毒学）。现有 safeguards 仅限制输出，新方案探索将知识限制在可移除的权重切片中。目标是平衡限制危险能力与允许受信任用户访问，防止攻击者通过越狱获取敏感知识，为 AI 安全提供更鲁棒的底层保护。",
-    "tags": [
-      "News",
-      "Safety",
-      "LLM"
-    ],
-    "link": "https://www.anthropic.com/research/off-switch-dual-use",
-    "date": "2026-07-22",
-    "id": "17846912318061"
   }
 ]
