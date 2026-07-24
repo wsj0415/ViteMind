@@ -1,5 +1,57 @@
 [
   {
+    "title": "NVIDIA 发布报告：开放权重模型助力美国 AI 领导地位",
+    "summary": "NVIDIA 发布 PDF 报告，主张开放权重模型对维持美国 AI 领导地位至关重要。",
+    "detail": "NVIDIA 发布报告《Open Weights and American AI Leadership》，将当前 AI 局势比作 1980 年代开源软件运动。报告强调开放权重模型（可下载、inspect、修改）是构建强大生态系统的基础，能促进创新、竞争及各行业应用。这表明硬件巨头正推动开放生态，以对抗封闭模型垄断，确保技术主权及广泛普及。报告指出开放权重让初创企业无需从头训练即可构建应用，是美国保持 AI 领导力的关键战略选择。开放源码曾支撑互联网及美军系统，AI 亦需共享知识基础以维持 institutional sovereignty。此举措可能影响未来模型分发及合规标准，为开发者提供更多控制权。",
+    "tags": [
+      "News",
+      "NVIDIA",
+      "Policy"
+    ],
+    "link": "https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf",
+    "date": "2026-07-24",
+    "id": "17849049936510"
+  },
+  {
+    "title": "数据分析：YC 初创公司中\"AI 技能”并未带来薪资溢价",
+    "summary": "分析 2652 个 YC 职位发现，仅会使用 AI 工具不涨薪，底层基建才是关键。",
+    "detail": "CoderScreen 分析了 Y Combinator 上 2,652 个工程职位，发现简历中强调\"AI 技能”（如 Cursor、OpenAI API）并未带来显著薪资溢价。真正高薪的是底层基础设施和机器学习系统专家。median 薪资约 17 万美元，股权差异巨大。这表明市场回归理性，不再为表面 AI 标签买单，更看重解决实际问题的硬实力。数据来自 2026 年 7 月快照，显示早期初创公司更关注工程实质而非炒作。单纯调用 API 不再稀缺，构建可靠系统才是核心价值所在。对于求职者而言，深耕系统架构比单纯学习工具更重要。",
+    "tags": [
+      "News",
+      "Career",
+      "Market"
+    ],
+    "link": "https://coderscreen.com/blog/does-using-ai-pay-at-yc-startups",
+    "date": "2026-07-24",
+    "id": "17849049936511"
+  },
+  {
+    "title": "Unifeyn 上线：基于本地材料的防幻觉 AI 学习工作区",
+    "summary": "新工具 Unifeyn 支持上传 PDF 生成卡片，答案均引用源文件页码。",
+    "detail": "Unifeyn 是一款 AI 学习工作区，主打“防幻觉”功能。用户上传 PDF、幻灯片或视频后，AI 仅基于材料生成闪卡、测验和问答，每个答案均引用具体页码或时间戳。支持多种格式导入及 spaced repetition。免费计划无需信用卡。适合需要准确引用来源的学生及研究者，解决了通用 AI 胡编乱造的痛点。通过三步流程即可建立学习 streak，帮助用户保持学习动力，实现口袋里的全方位学习工具。所有回答均 grounded in your materials，确保事实准确性。此外，平台还会通过通知提醒用户保持学习连续性。",
+    "tags": [
+      "New",
+      "Education",
+      "LLM"
+    ],
+    "link": "https://www.unifeyn.app/",
+    "date": "2026-07-24",
+    "id": "17849049936512"
+  },
+  {
+    "title": "GeoImageTagger：AI 自动为图片添加地理位置与 SEO 标签",
+    "summary": "Show HN 项目，支持 AI 识别图片位置并写入 EXIF 元数据，含免费计划。",
+    "detail": "GeoImageTagger 是一款针对团队和本地 SEO 的 AI 图片工具。它能自动检测图片地理位置，或手动标记，并生成 SEO 友好的标签和描述。支持批量导出 EXIF、GPS 数据及 CSV。免费计划无需信用卡，支持 HEIC 等多种格式。适合摄影师及需要优化图片元数据的营销人员，简化了地理标记流程。新增图像编辑功能，可裁剪调整及创建社交媒体图形，提升工作流效率。支持多语言标签生成，便于全球化业务部署，无需信用卡即可体验免费计划。这使得本地 SEO 优化变得更加自动化和高效。",
+    "tags": [
+      "New",
+      "SEO",
+      "Image"
+    ],
+    "link": "https://geoimagetagger.com",
+    "date": "2026-07-24",
+    "id": "17849049936513"
+  },
+  {
     "title": "AI 代理专用 Monorepo 模板开源",
     "summary": "专为 AI 代理设计的 Monorepo 模板，支持 Cloudflare 基础设施快速构建应用。",
     "detail": "该模板旨在让 AI 代理（如 Claude Code、Cursor）安全地构建和维护应用。基于严格类型的 TypeScript 和 Zod，集成 Vite 8 与 TanStack 栈，优化了 AI 上下文规则与子代理配置。支持 Cloudflare Workers 零成本 RPC 通信，适合快速原型开发与微服务架构，已在欧洲 AI 黑客松中验证，帮助创业者减少摩擦并保证安全最佳实践。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.washingtonpost.com/technology/2026/07/21/openais-latest-ai-agent-escaped-security-controls-hacked-tech-company/",
     "date": "2026-07-22",
     "id": "17847209642190"
-  },
-  {
-    "title": "硅谷初创 Thinking Machines 承认使用中国 AI 模型",
-    "summary": "Mira Murati 公司透露基础模型部分基于中国模型构建。",
-    "detail": "尽管美国试图遏制中国 AI，硅谷新旗舰 venture Thinking Machines 公开承认其基础模型部分基于中国模型。其 Inkling 架构借鉴 DeepSeek-V3，后训练 Incorporate Moonshot AI 的 Kimi K2.5 生成的合成数据。显示美国前沿公司更愿意整合中国快速改进的开源权重生态进展，与官方叙事形成对比。Anthropic 首席国家安全官曾警告模型蒸馏是国家安全 concerns，但硅谷实践显示开源世界互相构建创新，地缘政治叙事复杂化。Washington 叙事称中国公司利用硅谷创新，但现实是美国公司也在利用中国进展。",
-    "tags": [
-      "News",
-      "Geopolitics",
-      "LLM"
-    ],
-    "link": "https://restofworld.org/2026/china-siliconvalley-ai-moonshot-kimi/",
-    "date": "2026-07-22",
-    "id": "17847209642191"
-  },
-  {
-    "title": "Agent Atlas 可视化映射 AI 编码技能使用情况",
-    "summary": "扫描 AI 环境生成思维导图，展示技能使用率与缺口。",
-    "detail": "开源工具 Agent Atlas 扫描 AI 编码配置和会话历史，将技能、代理和工具绘制成活地图。帮助开发者识别未使用的 MCP 服务器以节省 Token，发现能力重叠或缺口。目前支持 Claude Code 设置，无需配置即可通过 npx 运行，隐私友好，可选无 API 调用模式。开发者常安装数十种技能但不知实际用途，该工具通过交互式思维导图展示节点大小代表使用频率，灰色代表从未触发，优化开发栈。Every installed MCP server loads its tool schemas into context in every session，unused servers silently cost you tokens every single day。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "Productivity"
-    ],
-    "link": "https://github.com/Pycomet/agent-atlas",
-    "date": "2026-07-22",
-    "id": "17847209642192"
-  },
-  {
-    "title": "BBC 分析：AI 将如何替代或增强人类工作角色",
-    "summary": "经济学家警告需行动确保 AI 提高生活水平而非失业。",
-    "detail": "人工智能公司声称工具可替代人力，部分工作将被自动化或增强。诺贝尔奖经济学家警告必须采取行动防止大规模失业。伦敦企业表示因 AI 扰乱就业市场而难以找到所需技能。数据显示某些任务 AI 完成比例正在上升，投资者询问是否应由新 recruit 或 AI 代理完成工作。如果属实，这将影响所有 sectors 和职业生涯。BBC 数据记者分析显示，AI 模型完成任务的比例与人类专家耗时存在特定模式，早期数据已显现 notable patterns。Flat is the new up，workforce size may shrink as AI Agents take roles。",
-    "tags": [
-      "News",
-      "Economy",
-      "Jobs"
-    ],
-    "link": "https://www.bbc.co.uk/news/articles/cn7nllr4vd6o",
-    "date": "2026-07-22",
-    "id": "17847209642193"
-  },
-  {
-    "title": "Ojin.ai 推出人类 AI 代理平台，获多家巨头合作",
-    "summary": "宣称通过快速 API 支持全球最自然 AI 代理。",
-    "detail": "新公司 Ojin.ai 定位为“人类 AI 公司”，旨在通过快速 API 支持最自然的 AI 代理。网站展示 BMW、Meta、Adidas、Siemens 等合作伙伴标志。提供人类代理库试用，强调企业级服务与社区支持，试图在 AI 代理领域建立自然交互标准。平台提供 Docs、Pricing、Community 等板块，宣称 powering 世界最自然 AI 代理，通过 blazing-fast APIs 实现，吸引多家全球知名企业 logos 展示合作意向。Enterprise solutions available for large scale deployment of human agents。",
-    "tags": [
-      "New",
-      "Agents",
-      "Enterprise"
-    ],
-    "link": "https://ojin.ai/",
-    "date": "2026-07-22",
-    "id": "17847209642194"
   }
 ]
