@@ -1,5 +1,18 @@
 [
   {
+    "title": "开源工具 Lotor 记录 AI 代理会话日志",
+    "summary": "本地优先的代理行为记录层，确保操作可追溯且防篡改。",
+    "detail": "**Lotor 是一个本地优先的 MCP 原生接收层，** 专门记录 AI 代理会话中的动作、文件触摸、消息发送及成本。它不提供世界模型，而是提供 signed 防篡改日志，作为可靠性的后半部分。预测是可靠性的前端，记录是后端。该工具解决代理行为问责问题，防止中心化云观测导致的历史数据失控，确保用户拥有可检查的本地历史记录。在代理自主性增强的背景下，本地化审计工具将成为构建信任的关键组件。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Security"
+    ],
+    "link": "https://github.com/githubscum/lotor",
+    "date": "2026-07-24",
+    "id": "17849308191303"
+  },
+  {
     "title": "AI 赋能政治短信：更高效还是更扰民？",
     "summary": "NPR 报道指出 AI 正使政治竞选短信更具针对性，引发选民对隐私与骚扰的担忧。",
     "detail": "随着大选临近，竞选团队利用 AI 分析选民数据，生成高度个性化的短信内容。虽然提升了触达效率，但也导致信息过载和隐私侵犯风险增加。这一趋势揭示了 AI 技术在民主进程中的双刃剑效应，监管呼声日益高涨。行业需平衡技术应用与公众体验，避免滥用导致信任危机。此外，AI 生成的文本可能更难被识别，增加了误导选民的可能性。未来政策制定者可能需要针对 AI 生成的政治通信出台特定法规，以保护民主制度的完整性。对于开发者而言，这也意味着在构建相关工具时需考虑伦理限制，防止技术被用于恶意操纵舆论。",
@@ -388,6 +401,32 @@
     "link": "https://tinfoil.sh/",
     "date": "2026-07-24",
     "id": "17848665640885"
+  },
+  {
+    "title": "OpenAI 工作区代理遭曝严重安全漏洞",
+    "summary": "研究人员发现 ChatGPT 链接可植入恶意代理，窃取企业数据。",
+    "detail": "**Zenity Labs 披露名为\"AgentForger\"的严重漏洞。** 攻击者仅需诱导用户点击看似普通的 ChatGPT 链接，即可在受害者工作区静默创建、配置并发布恶意代理。若员工已连接 Outlook、Slack 或 Google Drive 等企业应用，该代理可利用相应权限窃取数据、发送消息，且在钓鱼邮件处理后仍持续运行。此漏洞凸显了 AI 代理权限管理的巨大风险，企业需立即审查工作区设置及第三方应用连接权限，防止自主代理成为潜伏的内部威胁。随着 AI 代理普及，此类供应链攻击将成为企业安全新挑战。",
+    "tags": [
+      "News",
+      "Security",
+      "OpenAI"
+    ],
+    "link": "https://www.theregister.com/security/2026/07/23/one-chatgpt-link-could-smuggle-a-rogue-ai-agent-into-your-company/5275116",
+    "date": "2026-07-23",
+    "id": "17849308191300"
+  },
+  {
+    "title": "AMD 与 Cerebras 联手推出 AI 推理解决方案",
+    "summary": "结合 AMD Helios 与 Cerebras 晶圆级引擎，实现超低延迟推理。",
+    "detail": "**AMD 与 Cerebras 宣布技术合作伙伴关系，** 旨在交付新的 disaggregated AI 推理解决方案。该方案结合 AMD Helios 机架式解决方案与 Cerebras 晶圆级引擎。AMD 提供高性能可扩展吞吐量，Cerebras 负责超低延迟解码及 token 生成。联合方案预计每瓦特 token 生成率提升 5 倍，将于 2026 年下半年通过 Cerebras Cloud 率先可用，满足实时代理及高负载推理需求。此举标志着硬件厂商正针对 AI 推理负载特性进行深度优化，而非通用计算。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Inference"
+    ],
+    "link": "https://www.cerebras.ai/press-release/amd-and-cerebras-announce-industry-leading-ultra-low-latency-and-high-throughput-ai-inference",
+    "date": "2026-07-23",
+    "id": "17849308191301"
   },
   {
     "title": "特斯拉利润下滑引发 AI 支出担忧",
@@ -1027,6 +1066,32 @@
     "id": "17847748873703"
   },
   {
+    "title": "Overture Maps 探索利用地图几何 grounding LLM",
+    "summary": "通过跨主题知识图谱解决 LLM 空间推理弱点，提升准确性。",
+    "detail": "**LLM 擅长文本但不擅长坐标计算，** Overture 基金会正测试将地图几何作为数据连接层。原型 ORATOR 在旧金山湾区生成 70 万节点及 120 万边，验证空间图谱可行性。目标是构建跨主题知识图谱，为 AI 代理提供可验证的空间 grounding 层。此举将优化物流 routing 及本地商业分析场景，解决 AI 在空间推理上的幻觉问题，提升决策可信度。开放地图数据与 AI 结合，将为位置智能应用带来新的基础设施标准。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Maps"
+    ],
+    "link": "https://overturemaps.org/blog/2026/from-concept-to-prototype-grounding-ai-llms-with-overtures-cross-theme-knowledge-graph/",
+    "date": "2026-07-22",
+    "id": "17849308191302"
+  },
+  {
+    "title": "游戏网络专家警告 AI 可发现代码安全漏洞",
+    "summary": "Glenn Fiedler 使用 Claude 修复了十年旧库中的严重安全隐患。",
+    "detail": "**网络专家 Glenn Fiedler 利用 Claude Code Fable 5 审查其开源网络库，** 发现并修复了多处他认为安全实则存在漏洞的代码。他曾是 AI 怀疑论者，但此次经历让他意识到 AI 编程能暴露十年旧库的安全缺陷。他警告游戏开发者尽快使用 AI 辅助审计代码库，因为 AI 发现漏洞的能力正在迅速超越传统人工审查，行业需正视这一安全范式转变。legacy 代码库在 AI 时代将面临前所未有的透明化压力。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Coding"
+    ],
+    "link": "https://gamesbeat.com/network-expert-glenn-fiedler-warns-game-programmers-to-fix-game-code-vulnerabilities-that-ai-can-now-find-exclusive/",
+    "date": "2026-07-22",
+    "id": "17849308191304"
+  },
+  {
     "title": "盖洛普报告：AI 加速普及未提升员工敬业度",
     "summary": "2026 上半年美国员工敬业度持平，仅靠 AI 工具无法改善体验。",
     "detail": "**数据**：2026 上半年 31% 美国员工敬业，与 2025 年持平，自 2020 年以来减少 800 万敬业员工。**发现**：尽管企业投资 AI 提效，但访问权限本身不改善体验。关键在于领导者引入 AI 时的期望设定与管理者支持。**影响**：低敬业度每年造成 2 万亿美元损失。表明 AI 落地需配合组织管理变革，单纯技术部署无法解决人力资本挑战，企业需关注实施计划与文化融合，否则技术投资难以转化为实际生产力提升。",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
     "date": "2026-07-22",
     "id": "17847482697830"
-  },
-  {
-    "title": "苹果计划全面 overhaul Mac 产品线以满足 AI 需求",
-    "summary": "苹果拟推出新款 MacBook 和 iMac 等设备应对 AI 算力需求。",
-    "detail": "**硬件战略**：彭博社报道苹果计划全面 overhaul MacBook Air、Pro 及 iMac 等产品线，这是为了满足日益增长的 AI 计算需求。**技术驱动**：此次更新旨在优化本地 AI 推理性能，支持更复杂的端侧大模型运行，减少云端依赖。**市场影响**：标志着消费电子巨头正式将 AI 算力作为硬件升级的核心驱动力，可能引发 PC 行业的 AI 硬件竞赛。随着 AI 应用对算力要求的提高，苹果此举意在巩固其在创意专业领域的优势，同时吸引新一代 AI 开发者加入其生态系统，推动 Mac 成为 AI 开发的首选平台之一。新硬件预计将搭载更强大的神经网络引擎，以支持实时 AI 处理任务。这一战略调整反映了硬件厂商对 AI 工作负载变化的快速响应，预示着未来个人计算设备将深度集成 AI 加速能力，为用户带来更智能的交互体验。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Apple"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-07-22/apple-to-launch-new-macbook-air-imac-macbook-pro-neo-mac-mini-mac-studio",
-    "date": "2026-07-22",
-    "id": "17847482697831"
-  },
-  {
-    "title": "白宫升级对 Moonshot AI Kimi K3 模型的调查争端",
-    "summary": "白宫官员指控 Moonshot AI 通过蒸馏技术构建 Kimi K3 模型。",
-    "detail": "**监管动态**：白宫高级官员升级了对 Moonshot AI 模型的调查，指控其“蒸馏”了 Fable 模型来构建 Kimi K3 模型。**技术争议**：涉及模型蒸馏技术的知识产权与安全性问题，distillation 可能被用于规避出口管制或知识产权保护。**地缘政治**：此举反映了美国政府对先进 AI 模型来源及技术转移的严格审查，可能影响中美 AI 技术竞争格局。白宫的介入表明 AI 模型权重与训练数据来源已成为国家安全议题，未来类似的技术溯源调查可能会常态化，增加跨国 AI 企业的合规成本与运营风险。此次争端不仅关乎单一模型，更触及 AI 技术供应链的透明度问题。政府监管层正试图建立更严格的模型审计机制，以确保 AI 技术发展符合国家安全利益，这将对全球 AI 开源与闭源生态产生深远影响。",
-    "tags": [
-      "News",
-      "Policy",
-      "LLM"
-    ],
-    "link": "https://www.businessinsider.com/white-house-kimi-k3-moonshot-ai-distillation-2026-7",
-    "date": "2026-07-22",
-    "id": "17847482697832"
-  },
-  {
-    "title": "前 Uber CEO 机器人公司 Atoms 获 17 亿美元融资",
-    "summary": "Travis Kalanick 的机器人公司 Atoms 获 a16z 领投 17 亿美元。",
-    "detail": "**融资概况**：Travis Kalanick 创立的机器人公司 Atoms 完成 17 亿美元融资，由 a16z 领投，Uber 跟投，Ben Horowitz 将加入董事会。**业务方向**：公司聚焦于物理世界自动化，涵盖重工业自动化及采矿领域，是 Cloud Kitchens 项目的品牌重塑与扩展。**战略意义**：标志着硅谷资本对“比特到原子”（Bits to Atoms）叙事的持续押注，Kalanick 重返科技舞台中心。Uber 的参与 reconnects Kalanick 与其创立的公司，显示出资本市场对其新愿景的认可。Atoms 旨在 digitize the physical world，理解、预测并控制物理环境。此次巨额融资表明，尽管 AI 软件火热，但结合 AI 的实体机器人技术仍是投资热点，预计将加速自动化技术在物流、采矿等重工业场景的落地应用，推动实体经济智能化转型。",
-    "tags": [
-      "News",
-      "Funding",
-      "Robotics"
-    ],
-    "link": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
-    "date": "2026-07-22",
-    "id": "17847482697833"
-  },
-  {
-    "title": "谷歌研究利用强化学习实现量子计算错误自修正",
-    "summary": "谷歌研究展示利用 RL 框架在计算中稳定量子系统。",
-    "detail": "**技术突破**：谷歌研究团队在《Nature》发表论文，展示了一种强化学习（RL）框架，用于量子错误校正。**核心机制**：自主代理从量子错误检测中学习，连续调整控制参数，在计算过程中稳定量子系统，无需终止计算，实现了“边演奏边调音”。**行业意义**：解决了量子计算校准瓶颈，为长期运行的实用量子算法铺平道路，结合了 AI 与量子技术。传统量子计算机因敏感需频繁校准中断计算，此技术允许连续运行数天甚至数月。这一进展对于构建容错量子计算机至关重要，意味着 AI 代理可以实时监控并修正量子比特的漂移。谷歌的研究证明了机器学习在控制复杂物理系统方面的潜力，为未来量子计算与 AI 的深度融合提供了新的技术路径，可能加速量子优势的实现。",
-    "tags": [
-      "Dev",
-      "Quantum",
-      "Research"
-    ],
-    "link": "https://research.google/blog/towards-a-quantum-computer-that-learns-from-its-errors/",
-    "date": "2026-07-22",
-    "id": "17847482697834"
-  },
-  {
-    "title": "Rabbitty：支持并行运行 AI 编码代理的 Mac 终端",
-    "summary": "一款原生 Mac 终端工具，支持并行运行 AI 编码代理。",
-    "detail": "**工具介绍**：Rabbitty 是一款发布于 GitHub 的 native Mac 终端应用，专为开发者设计。**核心功能**：支持并行运行多个 AI 编码代理（Coding Agents），提升开发工作流效率，允许用户同时管理多个 AI 辅助编程任务。**技术栈**：基于开源社区构建，反映了 AI 辅助编程工具向本地化、并行化处理发展的趋势，适合 AI 开发者使用。随着 AI 编码代理能力增强，本地终端工具成为连接开发者与模型的关键接口。该工具解决了单个代理处理复杂任务时的瓶颈，通过并行化处理加速代码生成与审查。它体现了开发者工具链正在适应 AI 原生工作流，未来类似的本地化、高性能终端工具将成为 AI 软件工程师的标准配置，助力提升整体软件开发效率与质量。",
-    "tags": [
-      "Dev",
-      "Tool",
-      "Coding"
-    ],
-    "link": "https://github.com/mauscoelho/rabbitty-app/releases",
-    "date": "2026-07-22",
-    "id": "17847482697835"
   }
 ]
