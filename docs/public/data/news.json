@@ -1,5 +1,70 @@
 [
   {
+    "title": "Substack 联手 Pangram 推出 AI 文本检测功能",
+    "summary": "Substack 新增 AI 检测功能，旨在打击\"Claudefishing\"现象，维护内容真实性。",
+    "detail": "Substack 宣布与 Pangram 合作，在应用中上线 AI 文本检测功能。用户可扫描文本查看 AI 生成概率。此举旨在解决\"Claudefishing\"问题，即 AI 内容伪装成人类创作导致的期望 mismatch。目前社交媒体上 AI 生成文本占比高达 40%，该功能有助于读者识别内容来源，维护平台真实性。Substack 强调并非反对 AI 使用，而是反对无人类思考的伪装。这是平台维护内容生态信任度的重要一步，可能引发其他内容平台跟进类似真实性验证功能，重塑创作者与读者间的信任契约。未来内容平台或需标配“人类含量”标签，以应对 AI 生成内容泛滥带来的信任危机。",
+    "tags": [
+      "News",
+      "Content",
+      "Ethics"
+    ],
+    "link": "https://post.substack.com/p/against-claudefishing",
+    "date": "2026-07-25",
+    "id": "17849639673200"
+  },
+  {
+    "title": "AWS 发布开源基准 AWS-bench 评估 AI 智能体",
+    "summary": "AWS 推出 AWS-bench，为云上 AI 智能体性能提供标准化开源评估基准。",
+    "detail": "AWS 正式宣布推出 AWS-bench，这是一个针对 AWS 上 AI 智能体的开源基准测试工具。随着 Agent 技术爆发，缺乏统一评估标准成为行业痛点。该基准将帮助开发者量化智能体在云环境中的执行效率与可靠性，推动 AI 工程化落地，为 enterprise 采用提供信心。通过标准化测试，企业可更安全地部署 AI 代理处理复杂任务。此举显示云厂商正从提供算力转向提供 AI 工程化基础设施，竞争焦点转向 Agent 生态的成熟度与可控性。开源基准有助于社区共同优化 Agent 性能，加速企业级 AI 应用的大规模部署与迭代。",
+    "tags": [
+      "News",
+      "Cloud",
+      "Agents"
+    ],
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-bench/",
+    "date": "2026-07-25",
+    "id": "17849639673201"
+  },
+  {
+    "title": "Loom VCS：基于 Git 的 AI 编码智能体协调层",
+    "summary": "新工具 Loom 解决多 AI 智能体协作时的代码冲突问题，优化开发工作流。",
+    "detail": "GitHub 项目 loom-vcs 提出了一种基于 Git 的协调层，专为多 AI 编码智能体设计。传统 Git 在冲突发生后才报告，而 Loom 通过“意图租赁”机制在开始前预警冲突。这解决了多 Agent 并行开发时文件覆盖和语义冲突的痛点，显著降低 Token 浪费和修复成本。核心理念是\"Git 在 Token 花费后报告冲突，Loom 在之前报告”。这对于未来多人多 Agent 协作开发模式至关重要，能有效防止因 AI 幻觉或上下文缺失导致的代码库污染，提升工程稳定性。该工具视 Git 为文件系统，Loom 为空中交通管制，优化了并发开发流程。",
+    "tags": [
+      "Dev",
+      "Git",
+      "Agents"
+    ],
+    "link": "https://github.com/zyads/loom-vcs",
+    "date": "2026-07-25",
+    "id": "17849639673202"
+  },
+  {
+    "title": "深度思考架构：以认知摩擦对抗 AI 速度",
+    "summary": "文章探讨在 AI 高速生成时代，如何通过认知摩擦保持人类深度思考能力。",
+    "detail": "文章分析了 Claude Code 创作者的高产工作流，指出 AI 速度带来的挑战。主张在 AI 工作流中引入“认知摩擦”，避免人类思维被 AI 速度同化。通过对比并行 AI 会话与人类签核机制，强调了在高效产出中保留人类深度思考架构的重要性，防止思维浅薄化。创作者每周可完成 50-100 个 PR，但人类需保留最终签核权。这提示开发者在追求效率的同时，需设计机制保留人类认知介入点，确保技术服务于深度思考而非替代思考。在 AI 加速时代，保持认知摩擦是维护人类创造力的关键防线。",
+    "tags": [
+      "Dev",
+      "Workflow",
+      "Productivity"
+    ],
+    "link": "https://varnam.substack.com/p/the-architecture-of-deep-thought",
+    "date": "2026-07-25",
+    "id": "17849639673203"
+  },
+  {
+    "title": "Herv AI：基于视觉的空间智能新工具",
+    "summary": "Herv AI 推出空间智能服务，支持通过照片或视频捕捉并理解物理空间。",
+    "detail": "Herv AI 是一款专注于空间 intelligence 的新产品。用户可通过上传多张照片或 walkthrough 视频来捕捉空间信息。该工具利用多模态模型理解物理环境，适用于室内设计、房地产及机器人导航场景。标志着 AI 从纯文本向物理空间理解迈进的重要一步。功能包括 Studio、Assistant 及 Scanner，支持最多 6 个文件上传。随着具身智能发展，此类空间理解能力将成为连接数字 AI 与物理世界的关键桥梁，潜在应用场景广泛。用户可粘贴截图或直接上传视频，实现快速空间数字化，降低 3D 建模门槛。",
+    "tags": [
+      "New",
+      "Spatial",
+      "Multimodal"
+    ],
+    "link": "https://hervai.com",
+    "date": "2026-07-25",
+    "id": "17849639673204"
+  },
+  {
     "title": "制图社区争议：AI 生成地图引发“守门人”论战",
     "summary": "制图社区对 generative AI 争议激烈，专家被指为卢德分子，行业伦理受关注。",
     "detail": "制图领域正经历 generative AI 带来的冲击。ICA 地图设计委员会展示 AI 生成地图，引发专业制图师反对。支持者称反对者为“守门人”或“卢德分子”，认为 AI 降低了门槛。但反对者指出，推广者多为专业人士而非 DIY 用户。这反映了 AI 侵入专业领域时的伦理与身份危机，行业需界定 AI 工具与专业技能的边界。作者强调自己非制图师但反对 AI 生成，认为专业社区应警惕工具滥用而非拥抱低质量自动化，这标志着 AI 伦理争论已从内容创作延伸至专业制图领域，引发对职业价值重估。",
@@ -1233,70 +1298,5 @@
     "link": "https://gamesbeat.com/network-expert-glenn-fiedler-warns-game-programmers-to-fix-game-code-vulnerabilities-that-ai-can-now-find-exclusive/",
     "date": "2026-07-22",
     "id": "17849308191304"
-  },
-  {
-    "title": "盖洛普报告：AI 加速普及未提升员工敬业度",
-    "summary": "2026 上半年美国员工敬业度持平，仅靠 AI 工具无法改善体验。",
-    "detail": "**数据**：2026 上半年 31% 美国员工敬业，与 2025 年持平，自 2020 年以来减少 800 万敬业员工。**发现**：尽管企业投资 AI 提效，但访问权限本身不改善体验。关键在于领导者引入 AI 时的期望设定与管理者支持。**影响**：低敬业度每年造成 2 万亿美元损失。表明 AI 落地需配合组织管理变革，单纯技术部署无法解决人力资本挑战，企业需关注实施计划与文化融合，否则技术投资难以转化为实际生产力提升。",
-    "tags": [
-      "News",
-      "Workplace",
-      "Enterprise"
-    ],
-    "link": "https://www.gallup.com/workplace/712433/employee-engagement-remains-flat-adoption-accelerates.aspx",
-    "date": "2026-07-22",
-    "id": "17849114201131"
-  },
-  {
-    "title": "为何 AI 尚未导致失业率上升？",
-    "summary": "Anthropic 成员分析指出，AI 虽提高生产力，但未显著增加失业。",
-    "detail": "Peter McCrory 基于美国劳动力数据分析称，尽管 AI 采用率高，劳动力市场仍稳定。AI 贡献了生产力增长，但未造成实质性失业。这表明 AI 目前更多是辅助工具而非替代者，劳动力市场制度也缓解了技术冲击。该观点为 AI 经济影响提供了乐观视角，暗示政策制定者无需过度担忧短期失业潮。然而，长期结构性变化仍需观察，高暴露岗位的风险依然存在。技能再培训将成为应对未来挑战的关键。",
-    "tags": [
-      "News",
-      "Labor",
-      "Economy"
-    ],
-    "link": "https://twitter.com/PeterMcCrory/status/2079979321607745905",
-    "date": "2026-07-22",
-    "id": "17848665640882"
-  },
-  {
-    "title": "警惕 AI 供应链中的许可证清洗风险",
-    "summary": "新论文揭示 AI 供应链中许可证义务可能被剥离的现象。",
-    "detail": "arXiv 新论文追踪了 23 万条数据集到应用的 AI 供应链，发现许可证义务在下游常被移除。这种“许可证清洗”带来严重法律合规风险。开发者需审查供应链，确保数据集和模型的许可证义务在应用中得到继承，避免侵权。该研究呼吁建立更透明的 AI artifact 追踪机制，保障开源生态健康。企业应建立合规流程，防止因供应链污染导致的法律诉讼。开源社区需加强许可证执行力度。",
-    "tags": [
-      "Dev",
-      "Legal",
-      "Security"
-    ],
-    "link": "https://arxiv.org/abs/2607.20300",
-    "date": "2026-07-22",
-    "id": "17848665640883"
-  },
-  {
-    "title": "摄影师输掉 AI 生成图像版权案",
-    "summary": "宠物摄影师起诉 AI 生成漫画版图像侵权败诉，引发 AI 版权边界讨论。",
-    "detail": "据 PetaPixel 报道，一名狗狗摄影师因 AI 生成的漫画版图像版权案件败诉。该案核心争议在于 AI 生成内容是否侵犯原始摄影作品的版权。判决结果暗示当前法律体系下，风格模仿或衍生 AI 生成物可能不被视为直接侵权。此案例为创意行业敲响警钟，提示艺术家需重新审视 AI 时代的版权保护策略，同时也为 AI 训练数据的合法性提供了新的司法参考。未来类似案件可能增多，法律界需进一步明确 AI 生成内容与原始素材的边界，以平衡技术创新与创作者权益。",
-    "tags": [
-      "News",
-      "Legal",
-      "Copyright"
-    ],
-    "link": "https://petapixel.com/2026/07/22/dog-photographer-loses-copyright-case-over-ai-generated-comic-version-of-her-image/",
-    "date": "2026-07-22",
-    "id": "17848515865304"
-  },
-  {
-    "title": "谷歌十年来首次出现负自由现金流，主因 AI 支出",
-    "summary": "Alphabet 季度自由现金流负 59 亿美元，AI 基础设施投入巨大。",
-    "detail": "Google 母公司 Alphabet 季度自由现金流首次转为负值（-59 亿美元），主要源于 AI 基础设施的巨额资本支出。今年 AI 支出预计达 2050 亿美元，其中 60% 用于服务器。尽管营收增长 23%，但股价仍下跌，显示市场对 AI 投资回报率的担忧。CFO 表示需求仍超过投资，CEO 皮查伊称技术变革持续，只要有机会将继续投资，但资本市场对烧钱速度反应消极。",
-    "tags": [
-      "News",
-      "Finance",
-      "BigTech"
-    ],
-    "link": "https://www.bbc.com/news/articles/c235n47g8g8o",
-    "date": "2026-07-22",
-    "id": "17848285005924"
   }
 ]
