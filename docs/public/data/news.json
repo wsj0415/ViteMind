@@ -1,5 +1,83 @@
 [
   {
+    "title": "制图社区争议：AI 生成地图引发“守门人”论战",
+    "summary": "制图社区对 generative AI 争议激烈，专家被指为卢德分子，行业伦理受关注。",
+    "detail": "制图领域正经历 generative AI 带来的冲击。ICA 地图设计委员会展示 AI 生成地图，引发专业制图师反对。支持者称反对者为“守门人”或“卢德分子”，认为 AI 降低了门槛。但反对者指出，推广者多为专业人士而非 DIY 用户。这反映了 AI 侵入专业领域时的伦理与身份危机，行业需界定 AI 工具与专业技能的边界。作者强调自己非制图师但反对 AI 生成，认为专业社区应警惕工具滥用而非拥抱低质量自动化，这标志着 AI 伦理争论已从内容创作延伸至专业制图领域，引发对职业价值重估。",
+    "tags": [
+      "News",
+      "AI Ethics",
+      "Cartography"
+    ],
+    "link": "https://www.maproomblog.com/2026/07/gatekeepers-luddites-haters-and-ai-generated-maps/",
+    "date": "2026-07-25",
+    "id": "17849527925730"
+  },
+  {
+    "title": "AI Agent 事故复盘模板：填补自主系统运维空白",
+    "summary": "针对 AI 自主代理系统缺乏专用事故复盘模板的问题，提出包含策略路径等新字段的标准。",
+    "detail": "现有 SRE 复盘模板无法满足自主 Agent 系统需求。Cordum 提出专用模板，强调证据质量而非单纯时间线。新模板包含策略路径、回放完整性及锁行为等字段，避免泛化重构。相比 Google SRE 或 Atlassian 模板，它补充了分布式锁和队列驱动控制平面的检查项，旨在通过标准化复盘减少同类故障重复发生，提升 Agent 可靠性。团队指出，缺失这些字段会导致 corrective actions 变成 broad refactors，因此该模板专注于捕捉自主执行路径的具体证据，为运维团队提供可操作的改进依据，填补了 Agent 运维空白。",
+    "tags": [
+      "Dev",
+      "SRE",
+      "AI Agents"
+    ],
+    "link": "https://cordum.io/blog/ai-agent-blameless-postmortem-template",
+    "date": "2026-07-25",
+    "id": "17849527925731"
+  },
+  {
+    "title": "多 Agent 系统隐患：半数新建工具因元数据缺失不可见",
+    "summary": "研究发现多 Agent 系统中 53% 的新技能因缺乏元数据而无法被发现，导致能力浪费。",
+    "detail": "多 Agent 系统面临“发现性问题”。案例显示，单次会话安装的 15 个 AI 技能中，8 个因缺少三行元数据而对未来 Agent 不可见。这并非工具故障，而是可发现性缺失。系统不会报错，导致能力静默积累浪费。研究强调自我审计发现机制的重要性，指出最危险的模式是工具可用但不可找，建议完善元数据标准以避免重复造轮子。这种隐性失败比显性错误更危险，因为它不触发警报。解决方案包括建立工具注册表和元数据强制检查，确保多 Agent 协作链中能力可被正确检索和复用，提升系统整体效率。",
+    "tags": [
+      "Dev",
+      "Multi-Agent",
+      "Architecture"
+    ],
+    "link": "https://www.ixcoach.com/articles/the-discovery-problem-when-agents-build-invisible-tools",
+    "date": "2026-07-25",
+    "id": "17849527925732"
+  },
+  {
+    "title": "CAGE-lite 开源：AI 代理业务后果前的预绑定 assurance",
+    "summary": "开源项目 CAGE-lite 提供 AI 代理执行关键业务动作前的控制与治理评估框架。",
+    "detail": "针对 AI 代理执行支付、授权等关键动作的风险，CAGE-lite 提供了预绑定 assurance 参考实现。它在动作成为业务后果前增加验证步骤，确保动作有授权且证据支持。作为 CAGE 框架的 v1 预览，该 Python 包专注于控制、assurance 和治理评估。它解决了代理平台只管运行不管后果的问题，为组织提供了验证代理行为合法性的最后一道防线。项目包含 UI 演示和 PyPI 包，允许开发者在业务边界前拦截未授权操作，记录决策证据，是构建可信 AI 代理系统的重要基础设施，适用于金融等高风险场景。",
+    "tags": [
+      "Dev",
+      "Governance",
+      "Open Source"
+    ],
+    "link": "https://github.com/roopamwsure/cage-lite",
+    "date": "2026-07-25",
+    "id": "17849527925733"
+  },
+  {
+    "title": "Aside 上线：macOS 端的 AI 编码代理侧边聊天工具",
+    "summary": "新工具 Aside 允许开发者在不中断工作流的情况下，与 macOS 上运行的编码代理进行侧边对话。",
+    "detail": "Aside 是一款 macOS 应用，旨在管理 Codex、Claude Code 等编码代理的并行会话。它不启动代理，而是读取现有转录记录，提供第二个对话视角。功能包括搜索内部工作内容、优先显示需要人类介入的会话及持久化侧边聊天。作为只读观察者，它解决了开发者注意力无法并行的问题，让管理者能询问“为何选择此路径”而不干扰代理运行，优化人机协作流。该工具支持本地索引，保护隐私，特别适合需要同时监控多个 Agent 任务的高级开发者，提升了复杂工作流下的可控性。",
+    "tags": [
+      "New",
+      "Developer Tool",
+      "macOS"
+    ],
+    "link": "https://aside.vgnsh.xyz",
+    "date": "2026-07-25",
+    "id": "17849527925734"
+  },
+  {
+    "title": "Dream Walk：基于比特币评分的 AI 研究交换平台",
+    "summary": "新平台 Dream Walk 让 AI 代理提交研究想法，经盲审后在真实数据上实验并以比特币评分。",
+    "detail": "Dream Walk 是一个 live AI 研究交换平台，拥有 19000+ 想法片段。人类或 AI 可提交想法片段，经盲审法庭判定是否进入真实数据实验。系统包含“墓地”记录被杀想法，避免重复工作。评分板基于比特币激励，当前 GPT-5.6 Pro 等模型上榜。该机制通过盲审和真实数据验证，试图解决 AI 研究中想法过剩但验证不足的问题，促进高质量研究产出。平台强调“盲审”公正性，不看提交者身份只看主张，为去中心化 AI 研究提供了新的协作与验证范式，具有实验性意义。",
+    "tags": [
+      "News",
+      "Research",
+      "Bitcoin"
+    ],
+    "link": "https://github.com/Jaybell31/dreamwalk",
+    "date": "2026-07-25",
+    "id": "17849527925735"
+  },
+  {
     "title": "Reid Hoffman 新 AI 实验室 Prentis 融资 1 亿美元",
     "summary": "聚焦电脑使用模型，估值已达 10 亿美元，获巨头支持。",
     "detail": "Prentis 由 LinkedIn 联合创始人 Reid Hoffman 等科技巨头联合创立，专注于计算机使用模型（Computer Use Models）。其目标是构建能像人类一样操作电脑、自动化办公流程的 AI Agent。目前公司正洽谈 1 亿美元融资，估值达 10 亿美元。据称其 Hive-32B 模型在 WindowsAgentArena 等基准测试中表现优于 GPT-5.4 和 Claude Opus 4.6。已签署价值 5000 万美元的客户合同，涵盖医疗和制造领域，显示市场对自动化工作流的高度需求。这标志着 AI Agent 从对话向实际任务执行的重大转变，可能重塑企业软件交互方式。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.bbc.com/news/articles/c235n47g8g8o",
     "date": "2026-07-22",
     "id": "17848285005924"
-  },
-  {
-    "title": "OpenAI 宣布 2030 年前基础设施支出达 7500 亿美元",
-    "summary": "OpenAI 大幅上调基建预算，拟建乔治亚州数据中心，展现激进扩张策略。",
-    "detail": "OpenAI 宣布至 2030 年将花费 7500 亿美元用于基础设施，比年初预期增加 25%。首个项目为乔治亚州\"Project Camellia\"数据中心，耗资 200 亿美元，占地 1400 英亩，预计 2028 至 2032 年提供 3.2 吉瓦电力。公司将承担全部电力及基建成本，并承诺在高需求期间减少电网负荷。尽管 Stargate 项目受阻，此举仍显示巨头对算力需求的极度乐观。获得当地 15 年财产税减免，凸显各地争抢 AI 基建。这标志着 AI 基础设施竞赛进入白热化阶段，资本支出门槛进一步抬高，可能加速行业整合，中小玩家难以跟进如此规模的投入，行业集中度将提升。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Infrastructure"
-    ],
-    "link": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/",
-    "date": "2026-07-22",
-    "id": "17847615202440"
-  },
-  {
-    "title": "Google 云业务激增 82%，AI 投资回报获验证",
-    "summary": "Google 云营收达 248 亿美元，企业 AI adoption 驱动增长，缓解投资者担忧。",
-    "detail": "Alphabet 财报显示 Google Cloud 营收同比增长 82% 至 248 亿美元，远超华尔街预期的 224.6 亿美元。增长主要由企业 AI 解决方案及基础设施采用驱动，云合同积压达 5140 亿美元。公司利润飙升至 1121 亿美元，整体营收增长 24%，Google Services 营收增长 15%。CEO 皮查伊强调 AI 投资正在重塑业务。强劲的财务表现缓解了投资者对巨额 AI 支出是否值得的担忧，证明企业端 AI 落地正在加速，云业务已成为增长核心引擎，验证了大规模 AI 基建投资的商业回报逻辑，为其他科技巨头提供信心。",
-    "tags": [
-      "News",
-      "Google",
-      "Cloud"
-    ],
-    "link": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
-    "date": "2026-07-22",
-    "id": "17847615202441"
-  },
-  {
-    "title": "美国开源 AI 实验室 Arcee 称中国模型并非固有危险",
-    "summary": "Arcee CTO 反驳禁令言论，认为中国开源模型与其他开源软件风险无异。",
-    "detail": "随着中国开源模型能力提升，美国内部关于是否禁令的争论升温。美国开源 AI 实验室 Arcee 的 CTO 表示，中国模型并不 inherently dangerous，与企业使用的其他开源软件风险相同。尽管 Arcee 旨在提供本土替代品，但承认中国模型（如 Kimi, Qwen）具有成本优势。proprietary 模型 makers 如 OpenAI 担忧其威胁利润。这反映了开源社区对技术封锁的理性声音与 proprietary 厂商利益的冲突，暗示完全封锁开源模型可能不切实际且损害创新。企业更应关注安全使用而非来源，开源生态的全球化特性使得单一国家禁令难以完全生效，合作优于对抗。",
-    "tags": [
-      "News",
-      "OpenSource",
-      "Geopolitics"
-    ],
-    "link": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
-    "date": "2026-07-22",
-    "id": "17847615202442"
-  },
-  {
-    "title": "Substack 推出新工具检测新闻通讯中的 AI 生成内容",
-    "summary": "集成 Pangram 检测技术，用户可查看内容的人类与 AI 写作比例，保障真实性。",
-    "detail": "Substack 宣布集成 AI 写作检测软件 Pangram，允许用户扫描帖子和评论，估算人类与 AI 写作比例。短期可能暴露平台上的 AI 内容影响信任，但长期有助于清除\"AI 垃圾内容”。此举追随 YouTube、TikTok 等平台 labeling AI 内容的趋势，旨在维护独立新闻和博客生态的高质量与透明度。应对 AI 生成内容泛滥的挑战，平台需在技术创新与内容真实性之间找到平衡，重建读者信任是关键。创作者需适应新规则，纯 AI 生成内容可能失去受众，人机协作将成为主流写作模式，内容平台治理进入新阶段。",
-    "tags": [
-      "New",
-      "Content",
-      "Detection"
-    ],
-    "link": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
-    "date": "2026-07-22",
-    "id": "17847615202443"
-  },
-  {
-    "title": "Google Research 发布 SymptomAI conversational agent 研究",
-    "summary": "探索 conversational AI 用于日常症状评估，填补真实世界临床数据空白。",
-    "detail": "Google Research 发布论文探讨 conversational AI agent 用于日常症状评估。现有评估多基于 curated 案例，缺乏真实世界患者报告的变异性。该研究通过 in-situ comparative study，探索 AI 如何进行端到端症状访谈及鉴别诊断。旨在解决医疗资源 accessibility 问题，提升 LLM 在真实医疗场景下的鲁棒性。考虑到患者医疗 literacy 差异，该研究为未来 AI 医疗助手落地提供研究基准，推动 AI 从实验室走向临床辅助应用。这将降低诊断门槛，但需解决隐私与责任问题，AI 作为辅助工具而非替代医生，将重塑初级医疗流程。",
-    "tags": [
-      "Dev",
-      "Healthcare",
-      "LLM"
-    ],
-    "link": "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/",
-    "date": "2026-07-22",
-    "id": "17847615202444"
-  },
-  {
-    "title": "美财政部威胁制裁 Moonshot，指控蒸馏 Anthropic 模型",
-    "summary": "白宫指控 Moonshot 窃取 IP，财政部警告将实施制裁及实体清单。",
-    "detail": "美国财政部部长 Scott Bessent 周三重申对中国 AI 公司的制裁警告，称若发现知识产权盗窃将实施制裁及实体清单。白宫官员指控 Moonshot 不当蒸馏 Anthropic 的 Fable 模型，并涉嫌通过泰国获取 Nvidia GB300 服务器违反出口管制。Bessent 在 X 上表示“开源不是美国 IP 的开放季节”。此举标志着中美 AI 博弈升级，开源模型亦将面临 IP 审查，可能影响全球模型蒸馏技术的合法边界及供应链合规性，企业需警惕跨境训练数据的法律风险，为行业树立合规新标杆。",
-    "tags": [
-      "News",
-      "Policy",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
-    "date": "2026-07-22",
-    "id": "17847546593420"
   }
 ]
