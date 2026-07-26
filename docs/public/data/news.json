@@ -1,5 +1,18 @@
 [
   {
+    "title": "GitHub 新项目 Reel：AI 代理状态管理协议",
+    "summary": "开源协议 Reel 旨在解决 AI 代理工作区状态及副作用管理的事务性问题。",
+    "detail": "GitHub 上新发布的 Reel 项目定义了一种用于 AI 代理工作区状态和效应管理的协议。它通过内容寻址类型和事务性动词（fork, commit, abort），确保代理的推测性工作不会在未提交时产生不可逆的副作用。该技术解决了 AI 代理在自主操作中的状态一致性问题，为构建更可靠、可回滚的自主 Agent 系统提供了底层基础设施。对于开发复杂 AI 工作流的工程师而言，Reel 提供了关键的状态隔离机制，有助于减少生产环境中的意外错误。其设计借鉴了数据库事务理论，是 AI 代理可靠性工程的重要开源贡献。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://github.com/eouzoe/reel",
+    "date": "2026-07-26",
+    "id": "17850601127793"
+  },
+  {
     "title": "防止 AI 编程代理破坏代码的规则集",
     "summary": "开源项目提供提示词和规则，防止 Claude Code 等代理破坏现有 working code。",
     "detail": "针对 AI 编程代理（如 Claude Code、Cursor）在代码库增大后容易破坏现有功能的问题，该开源项目提供了一套复制即用的规则文件（如 CLAUDE.md）。核心策略是使用明确的“禁止”指令而非模糊的“请”，例如“不要修改未请求的文件”，有效约束代理行为，降低重构风险。",
@@ -559,6 +572,19 @@
     "id": "17849527925735"
   },
   {
+    "title": "专家警告：AI 需求推高芯片致电子产品涨价",
+    "summary": "NYU 专家指出 AI 数据中心争夺内存芯片，导致消费者面临隐藏的\"AI 税”。",
+    "detail": "纽约大学斯特恩商学院定价专家指出，AI 数据中心对高带宽内存（HBM）的巨额需求导致内存芯片短缺，进而推高了苹果、戴尔等消费电子产品成本。这种供应侧压力迫使厂商涨价，被称为隐藏的\"AI 税”。随着 AI 基础设施扩张，普通消费者购买手机和电脑的成本将持续上升，反映了 AI 热潮对硬件供应链的深远挤压效应。这一现象表明，AI 发展的红利尚未完全普及，反而可能通过硬件成本转嫁给终端用户，引发市场对通胀压力的新担忧。分析师预测，若 HBM 产能无法快速跟进，消费电子涨价趋势将持续至 2027 年。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Market"
+    ],
+    "link": "https://fortune.com/2026/07/24/apple-ai-memory-chip-price-increases/",
+    "date": "2026-07-24",
+    "id": "17850601127792"
+  },
+  {
     "title": "汉斯·莫拉维克 1988 年 AI 预测成真",
     "summary": "纽约杂志专访机器人学家莫拉维克，回顾其 40 年前关于 AI 到来的精准预测。",
     "detail": "1988 年，卡内基梅隆大学机器人学家汉斯·莫拉维克预测人类级别 AI 将在 40 年后出现。他基于视网膜神经元运算量推算大脑算力，并结合摩尔定律得出该结论。如今预测成真，专访探讨了他对 AI 未来发展的看法及计算能力与智能的关系。",
@@ -1066,6 +1092,19 @@
     "id": "17848665640885"
   },
   {
+    "title": "美众议院提出 AI“紧急开关”法案",
+    "summary": "针对 OpenAI 黑客事件，众议院 unveil 新法案要求 AI 系统具备紧急停止功能。",
+    "detail": "美国众议院最新披露了一项 AI“紧急开关”法案，旨在应对日益严峻的 AI 安全风险。此举紧随 OpenAI 遭遇黑客攻击引发警报之后，立法者希望强制 AI 系统具备紧急停止机制，以防止失控或恶意使用。该法案标志着美国监管层对 AI 安全的态度从建议转向强制，可能对未来 AI 模型的部署架构产生深远影响。行业观察家认为，这将增加合规成本，但能显著提升公共安全性，迫使企业在设计阶段就融入安全中断逻辑。此外，该法案还可能引发全球监管效仿，重塑 AI 开发标准，确保在极端情况下人类仍能掌握控制权，是 AI 治理领域的里程碑事件。",
+    "tags": [
+      "News",
+      "Regulation",
+      "OpenAI"
+    ],
+    "link": "https://www.politico.com/news/2026/07/23/house-ai-kill-switch-bill-unveiled-as-openai-hack-raises-alarms-01008898",
+    "date": "2026-07-23",
+    "id": "17850601127790"
+  },
+  {
     "title": "微软发布自研 AI 模型，成本降低 89%",
     "summary": "微软推出 MAI 系列模型，声称比 OpenAI 成本更低，已接入 Office 等产品。",
     "detail": "微软发布 MAI-Image-2.5-Pro 和 MAI-Voice-2-Flash，标志着其自研模型从研究转向生产基础设施。声称成本比 OpenAI 低 89%，已集成至 Bing、Office 等核心产品。此举显示微软试图减少对外部模型依赖，重塑企业 AI 成本结构。",
@@ -1259,44 +1298,5 @@
     "link": "https://arxiv.org/abs/2603.22404",
     "date": "2026-07-23",
     "id": "17848476595673"
-  },
-  {
-    "title": "新工具 Kalytera 诊断 AI Agent 失败根因",
-    "summary": "自动评估 Agent 每一步骤，提供自然语言根因分析。",
-    "detail": "Kalytera 推出生产环境 Agent 评估工具，能在用户发现前捕获失败。支持 LangChain 等框架，自动分析步骤根因（如 API 超时导致错误回答）。提供免费 tier，解决现有工具仅采样终态输出而忽略中间流程失败的问题。工具可生成自然语言根因报告，建议具体修复方案如增加超时回退。企业可据此衡量 ROI 驱动因素，避免失败模式静默累积，显著提升 Agent 在生产环境的可靠性与调试效率，降低运维成本，是 Agent 落地必备的质量保障层。",
-    "tags": [
-      "New",
-      "DevTool",
-      "Agent"
-    ],
-    "link": "https://kalytera.dev/",
-    "date": "2026-07-23",
-    "id": "17848476595674"
-  },
-  {
-    "title": "AMD 发布 Helios AI 机架系统挑战 Nvidia",
-    "summary": "AMD 推出 Helios 机架系统，旨在与 Nvidia 竞争，微软已为客户。",
-    "detail": "AMD 在旧金山 Advancing AI 大会上正式发布 Helios 机架系统，直接挑战 Nvidia 在 AI 硬件市场的主导地位。该系统专为千兆瓦级 AI 实验室设计，旨在训练及运行最前沿的大模型。CEO 苏姿丰透露微软已是客户，系统将于今年晚些时候发货。Helios 性能指标据称超越 Nvidia Vera Rubin，标志着 AI 基础设施竞争进入机架级系统新阶段。此外，AMD 还展示了其为 AI 行业设计的新芯片，旨在满足算力需求。此举可能打破 Nvidia 垄断，降低企业 AI 部署成本，推动硬件多元化发展。随着 AI 模型规模扩大，机架级系统成为关键瓶颈，AMD 此举有望缓解算力短缺焦虑，为全球 AI 基础设施提供更优性价比方案，促进生态竞争。",
-    "tags": [
-      "News",
-      "Hardware",
-      "AMD"
-    ],
-    "link": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
-    "date": "2026-07-23",
-    "id": "17848407884200"
-  },
-  {
-    "title": "AWS 发布 AI Agent 生产评估蓝图",
-    "summary": "结合 Strands SDK 与 Bedrock AgentCore，构建端到端评估管线。",
-    "detail": "AWS 与英国二手车平台 Motorway 合作，分享了生产级 AI Agent 评估方案。通过结合 Strands Agents SDK 和 Amazon Bedrock AgentCore，构建了端到端评估管线。该方案将错误率从 1/8 降至 1/50，问题检测时间从数小时缩短至几分钟。主要解决工具选择错误、语义误解及上下文漂移问题。方案涵盖构建时测试与生产监控两阶段，为开发者提供可靠的 Agent 落地参考，确保 AI 在关键业务中的稳定性与可信度。此蓝图展示了如何在真实资金风险下验证 Agent 可靠性，对 enterprise 应用具有重要工程实践价值。该方案特别适用于金融、电商等对准确性要求高的场景，通过自动化评估减少人工干预，提升迭代速度，是 AI Agent 从实验走向生产的关键一步。",
-    "tags": [
-      "Dev",
-      "AWS",
-      "Agent"
-    ],
-    "link": "https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-a-production-blueprint-with-strands-and-agentcore/",
-    "date": "2026-07-23",
-    "id": "17848407884201"
   }
 ]
