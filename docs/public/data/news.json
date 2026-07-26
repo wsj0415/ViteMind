@@ -1,5 +1,44 @@
 [
   {
+    "title": "防止 AI 编程代理破坏代码的规则集",
+    "summary": "开源项目提供提示词和规则，防止 Claude Code 等代理破坏现有 working code。",
+    "detail": "针对 AI 编程代理（如 Claude Code、Cursor）在代码库增大后容易破坏现有功能的问题，该开源项目提供了一套复制即用的规则文件（如 CLAUDE.md）。核心策略是使用明确的“禁止”指令而非模糊的“请”，例如“不要修改未请求的文件”，有效约束代理行为，降低重构风险。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Prompt"
+    ],
+    "link": "https://github.com/avenna01-ceo/claude-code-survival-kr",
+    "date": "2026-07-26",
+    "id": "17850515877234"
+  },
+  {
+    "title": "GitHub Roast：AI 无情吐槽开发者档案",
+    "summary": "AI 分析 GitHub 提交习惯并进行 brutal 吐槽，支持搜索知名开发者。",
+    "detail": "这是一个 Show HN 项目，AI 会 brutally honest 地分析 GitHub 个人档案。包括提交一致性、语言习惯、Bug 密度及创始人能力评估。虽为娱乐工具，但也展示了 AI 在代码行为分析方面的潜力，支持搜索特定知名开发者档案。",
+    "tags": [
+      "New",
+      "GitHub",
+      "AI Tool"
+    ],
+    "link": "https://gitroast-kappa.vercel.app/",
+    "date": "2026-07-26",
+    "id": "17850515877235"
+  },
+  {
+    "title": "Hydra：本地优先的 AI 信任控制平面",
+    "summary": "新的本地 CLI 工具，通过置信度路由多模型 AI 任务，优化成本与信任。",
+    "detail": "Hydra 是一款本地优先的 AI 编排 CLI 工具，作为“信任控制平面”运行。它能发现机器上的所有模型，并根据目标置信度将任务路由到最便宜的模型。通过 Pareto 前沿优化成本与质量，采用序贯测试在达到置信度阈值时停止采样，适合注重隐私和成本控制的开发者。",
+    "tags": [
+      "Dev",
+      "CLI",
+      "Orchestration"
+    ],
+    "link": "https://hydra.uvansa.com/",
+    "date": "2026-07-25",
+    "id": "17850515877233"
+  },
+  {
     "title": "AI 代理就业市场数据报告：65% 招聘聚焦代理开发",
     "summary": "最新数据显示，65% 的 AI 招聘专注于代理构建，治理岗位稀缺。",
     "detail": "Get Ready For Agents 发布最新指数，自动更新数据确保引用不过时。追踪 261 家公司发现 2,071 个开放代理职位，横跨 216 家活跃招聘企业。65% 的 AI 招聘现在专门构建或运行代理，前沿实验室该比例达 68%。然而，3164 个帖子中仅 40 个涉及代理治理与安全，显示控制功能严重滞后于开发速度。Databricks 以 134 个职位领跑，其次是 Salesforce。9% 的岗位支持远程，团队主要在办公室构建。这表明代理工程是当前核心，但安全治理亟待加强。",
@@ -520,6 +559,19 @@
     "id": "17849527925735"
   },
   {
+    "title": "汉斯·莫拉维克 1988 年 AI 预测成真",
+    "summary": "纽约杂志专访机器人学家莫拉维克，回顾其 40 年前关于 AI 到来的精准预测。",
+    "detail": "1988 年，卡内基梅隆大学机器人学家汉斯·莫拉维克预测人类级别 AI 将在 40 年后出现。他基于视网膜神经元运算量推算大脑算力，并结合摩尔定律得出该结论。如今预测成真，专访探讨了他对 AI 未来发展的看法及计算能力与智能的关系。",
+    "tags": [
+      "News",
+      "History",
+      "AGI"
+    ],
+    "link": "https://nymag.com/intelligencer/article/hans-moravec-interview.html",
+    "date": "2026-07-24",
+    "id": "17850515877232"
+  },
+  {
     "title": "AI 使用决策指南：工作还是健身？",
     "summary": "哈佛教授提出 AI 使用决策框架，区分任务类型。",
     "detail": "哈佛及多伦多大学教授提出“工作与健身”类比，深入探讨 AI 使用伦理。若任务重在结果（如搬运），可用 AI 效率工具；若重在过程锻炼（如健身、学习），则不宜依赖。强调 AI 可信度与安全前提。该观点为教育界及职场人士提供了清晰的决策框架，避免滥用导致能力退化，同时鼓励合理拥抱技术未来。此外，文章指出若 AI 不可靠或存在安全风险，则不应使用。这一简单法则帮助学生和专业人士在日常工作中做出明智选择，平衡效率与个人成长。尤其在教育场景，过度依赖可能浪费学费，但完全拒绝又脱离未来职场需求，此框架提供了中间路径。",
@@ -1014,6 +1066,19 @@
     "id": "17848665640885"
   },
   {
+    "title": "微软发布自研 AI 模型，成本降低 89%",
+    "summary": "微软推出 MAI 系列模型，声称比 OpenAI 成本更低，已接入 Office 等产品。",
+    "detail": "微软发布 MAI-Image-2.5-Pro 和 MAI-Voice-2-Flash，标志着其自研模型从研究转向生产基础设施。声称成本比 OpenAI 低 89%，已集成至 Bing、Office 等核心产品。此举显示微软试图减少对外部模型依赖，重塑企业 AI 成本结构。",
+    "tags": [
+      "News",
+      "Microsoft",
+      "LLM"
+    ],
+    "link": "https://venturebeat.com/infrastructure/microsoft-launches-new-in-house-ai-models-it-says-cut-costs-up-to-89-versus-openai",
+    "date": "2026-07-23",
+    "id": "17850515877230"
+  },
+  {
     "title": "分析师指控 Google 为 AI 资本支出牺牲搜索广告质量",
     "summary": "前广告主指出 Google 搜索量下降，转而通过激进广告策略制造营收增长。",
     "detail": "资深广告主 Max Anderson 发文指控 Google 为弥补 LLM 导致的搜索量下降，暗中废弃二次竞价拍卖模型，转而向广告商收取更高费用。包括为低质量点击收费及未经批准的点击收费。这反映了 AI 对 Google 核心搜索业务的蚕食效应，迫使公司采取短期 extractive 策略维持财报增长。长期来看，这种客户敌对策略可能损害广告生态健康，显示传统搜索巨头在 AI 转型期的营收焦虑与战略妥协。",
@@ -1233,70 +1298,5 @@
     "link": "https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-a-production-blueprint-with-strands-and-agentcore/",
     "date": "2026-07-23",
     "id": "17848407884201"
-  },
-  {
-    "title": "AI 编程工具可能阻碍专家经验积累",
-    "summary": "文章探讨“专家新手”悖论，过度依赖 AI 可能导致技能萎缩。",
-    "detail": "文章深入探讨了 AI 编码工具对开发者技能积累的潜在负面影响，提出“专家新手”悖论。资深开发者因已有知识储备能有效驾驭 AI，而新人缺乏基础却被迫使用高级工具，可能导致技能萎缩。长期依赖 AI 可能阻碍新手成为专家，造成行业 expertise 断层。作者建议行业需平衡工具使用与基础能力培养，避免未来出现无法独立解决问题的开发者。这为 AI 时代的人才培养提出了警示，强调核心编程能力仍不可替代。尽管 AI 提升效率，但理解底层原理仍是关键，否则将面临技术债务与维护风险。文章呼吁教育体系调整，强调在 AI 辅助下仍需强化基础训练，确保开发者具备批判性思维与架构设计能力，以应对未来复杂系统挑战。",
-    "tags": [
-      "News",
-      "Industry",
-      "Coding"
-    ],
-    "link": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
-    "date": "2026-07-23",
-    "id": "17848407884202"
-  },
-  {
-    "title": "研究揭示 AI Agent 提交 PR 的冲突率",
-    "summary": "实证研究发现 40.2% 仓库存在 AI Agent 并发提交 PR 现象。",
-    "detail": "论文基于 33,596 个 PR 数据实证分析 AI Agent 在 GitHub 上的行为。发现 40.2% 仓库存在并发提交，跨 Agent 对的文本冲突率高达 41.7%，远高于同 Agent 对的 19.8%。研究揭示了多 Agent 协作中的合并冲突风险，大部分冲突源于源代码文件修改。这为优化 Agent 协作机制及代码管理流程提供了实证依据，提示开发者在引入多 Agent 系统时需关注并发控制与冲突解决策略。此外，仅 0.5% 的并发对涉及跨 Agent 协作，表明当前多为单 Agent 主导，未来多 Agent 协作需解决同步难题。研究还指出冲突检测具有滞后性，建议引入更智能的调度机制。这对构建大规模 AI 软件开发流水线具有指导意义，帮助团队预判潜在风险。",
-    "tags": [
-      "Dev",
-      "Research",
-      "GitHub"
-    ],
-    "link": "https://arxiv.org/abs/2607.04697",
-    "date": "2026-07-23",
-    "id": "17848407884203"
-  },
-  {
-    "title": "Anthropic 升级 Claude 语音模式，支持多模型切换",
-    "summary": "Claude 语音模式更新，支持 Opus 等模型及第三方应用集成。",
-    "detail": "Anthropic 正式更新 Claude 语音模式，用户现可在 Opus、Sonnet 和 Haiku 模型间自由切换，系统默认调用最快版本以确保响应速度。新模式不仅支持长对话、沟通风格反馈及头脑风暴，关键突破在于能深度集成 Gmail、Slack、Notion 等第三方应用执行实际任务，如更新会议 slot 或起草邮件。相比 OpenAI 语音模式仅更新对话风格，Claude 更具工具使用能力，标志着语音交互从单纯对话向实际工作流执行的转变，显著提升企业级应用潜力。此次更新回应了市场对多模态代理实用性的迫切需求，强化了 Claude 在复杂任务处理上的竞争力，为 AI 助手融入日常办公流程奠定基础。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "Voice AI"
-    ],
-    "link": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
-    "date": "2026-07-23",
-    "id": "17848344267040"
-  },
-  {
-    "title": "Sierra 收购长周期 AI 代理平台 TakeOff",
-    "summary": "前 Salesforce CTO 证实 Sierra 收购 AI 代理初创公司 TakeOff。",
-    "detail": "前 Salesforce CTO Bret Taylor 确认 Sierra 收购 TakeOff，后者专注于长周期 AI 代理平台。TakeOff 团队将加入 Sierra，创始人与前 Google 高管 Clay Bavor 有关联。虽未披露财务条款，但此次收购显示行业对长周期自主代理技术的重视，旨在增强企业级 AI 代理能力。TakeOff 在不到一年内构建了特殊代理平台，Sierra 此举意在整合顶尖人才与技术。这反映了 AI 基础设施层正在加速 consolidation，巨头通过收购获取长周期任务处理能力，以解决当前 AI 代理在复杂工作流中持久性不足的痛点，推动企业自动化落地。Bret Taylor 的背书进一步验证了该技术的战略价值，预示 AI 代理将从短期任务向长期自主规划演进。",
-    "tags": [
-      "News",
-      "M&A",
-      "AI Agents"
-    ],
-    "link": "https://runtimewire.com/article/sierra-acquires-takeoff-long-horizon-ai-agents",
-    "date": "2026-07-23",
-    "id": "17848344267041"
-  },
-  {
-    "title": "AegisAI 获 3600 万美元融资，对抗 AI 网络钓鱼",
-    "summary": "前 Google 安全高管创立 AegisAI，获融资用于防御 AI 驱动钓鱼攻击。",
-    "detail": "前 Google 安全高管创立的 AegisAI 完成 3600 万美元 A 轮融资，由 Battery Ventures 领投，Accel 等跟投。公司利用 AI 代理分析邮件异常，防御日益复杂的 AI 生成钓鱼攻击。现有客户包括 LangChain 等。融资将用于扩展技术，应对 AI 赋能的网络威胁，显示安全领域对 AI 防御需求的增长。传统规则系统难以捕捉 AI crafted 邮件，AegisAI 通过模拟人类分析 anomalies。随着黑客利用 AI 规模化攻击，此类防御工具成为刚需。此次融资表明资本市场看好 AI 安全赛道，尤其是针对 spear phishing 的主动防御方案，预计将加速企业安全架构的 AI 化升级，总融资额达 4900 万美元，彰显投资者信心。",
-    "tags": [
-      "News",
-      "Security",
-      "Funding"
-    ],
-    "link": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
-    "date": "2026-07-23",
-    "id": "17848344267042"
   }
 ]
