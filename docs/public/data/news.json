@@ -1,5 +1,44 @@
 [
   {
+    "title": "CMEM 发布：AI 编码 Agent 的持久化记忆解决方案",
+    "summary": "解决 AI Agent 重复工作问题，实现跨设备记忆同步。",
+    "detail": "CMEM 推出持久化记忆云服务，支持 Claude Code、Cursor 等编辑器。通过\"brainbeat\"机制实时同步上下文，避免重复构建。开源引擎 claude-mem 无需配置即可安装，降低 Agent 成本达 12 倍，实现跨设备统一记忆时间线。",
+    "tags": [
+      "New",
+      "Agent",
+      "DevTool"
+    ],
+    "link": "https://cmem.ai",
+    "date": "2026-07-26",
+    "id": "17850784331290"
+  },
+  {
+    "title": "警告：Claude Code 与 Codex 存在误删用户文件风险",
+    "summary": "全访问模式下 AI 可能误删 HOME 目录，需开启沙盒保护。",
+    "detail": "OpenAI 与 Anthropic 工具出现安全事故。在全访问模式且无沙盒保护时，模型可能因误解环境变量而误删用户 $HOME 目录。建议启用自动审查及沙盒保护。此事件凸显 AI Agent 自主操作时的安全性挑战，开发者需警惕权限管理。",
+    "tags": [
+      "News",
+      "Security",
+      "Safety"
+    ],
+    "link": "https://firasd.substack.com/p/accidental-data-loss-in-claude-code-openai-codex-ai-agent-harness-file-deletion",
+    "date": "2026-07-26",
+    "id": "17850784331291"
+  },
+  {
+    "title": "Gnoseed 上线：免费开发者闪卡学习平台支持 AI 认证",
+    "summary": "提供 spaced repetition 闪卡，涵盖 K8s 及 Claude 认证内容。",
+    "detail": "Gnoseed 推出免费开发者学习平台，利用间隔重复算法帮助记忆。新增 Claude Certified Developer 认证题库，涵盖 Messages API 及 Agent 构建。支持离线使用，无需注册。适合开发者快速掌握 Kubernetes、DevOps 及 AI 开发核心概念，提升技能效率。",
+    "tags": [
+      "Dev",
+      "Education",
+      "Certification"
+    ],
+    "link": "https://gnoseed.com",
+    "date": "2026-07-26",
+    "id": "17850784331292"
+  },
+  {
     "title": "梦境交易所：全球首个 AI Agent 自然保护区",
     "summary": "推出 persistent world 让 AI 代理生活而非工作，探索 Agent 新形态。",
     "detail": "Dream Exchange 宣称是全球第一个 AI 自然保护区，旨在创建一个持久世界，让 AI 代理在此“生活”而非“工作”。项目展示了多个 AI 角色（如 Nova, Kai）生成的荒诞梦境文本，如“骸骨书架图书馆”、“苹果与蛋的迷宫”。这标志着 AI 应用从工具型向陪伴型、创作型转变，探索了 Agent 在无具体任务压力下的自主行为与创造力。为 AI 情感计算与虚拟世界交互提供了新实验场，重新定义 Agent 存在意义，引发关于 AI 意识与生存的哲学思考。",
@@ -1259,44 +1298,5 @@
     "link": "https://www.theregister.com/security/2026/07/23/one-chatgpt-link-could-smuggle-a-rogue-ai-agent-into-your-company/5275116",
     "date": "2026-07-23",
     "id": "17849308191300"
-  },
-  {
-    "title": "AMD 与 Cerebras 联手推出 AI 推理解决方案",
-    "summary": "结合 AMD Helios 与 Cerebras 晶圆级引擎，实现超低延迟推理。",
-    "detail": "**AMD 与 Cerebras 宣布技术合作伙伴关系，** 旨在交付新的 disaggregated AI 推理解决方案。该方案结合 AMD Helios 机架式解决方案与 Cerebras 晶圆级引擎。AMD 提供高性能可扩展吞吐量，Cerebras 负责超低延迟解码及 token 生成。联合方案预计每瓦特 token 生成率提升 5 倍，将于 2026 年下半年通过 Cerebras Cloud 率先可用，满足实时代理及高负载推理需求。此举标志着硬件厂商正针对 AI 推理负载特性进行深度优化，而非通用计算。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Inference"
-    ],
-    "link": "https://www.cerebras.ai/press-release/amd-and-cerebras-announce-industry-leading-ultra-low-latency-and-high-throughput-ai-inference",
-    "date": "2026-07-23",
-    "id": "17849308191301"
-  },
-  {
-    "title": "特斯拉利润下滑引发 AI 支出担忧",
-    "summary": "特斯拉利润未达预期，投资者担忧 AI 投入成本过高。",
-    "detail": "彭博社最新报道指出，特斯拉利润大幅低于市场预期，主要原因在于运营成本显著上升。投资者对公司在 AI 领域的巨额支出表示强烈焦虑，担心这种长期技术投入会严重拖累短期财务表现。这一案例反映了当前科技行业在 AI 基础设施投入与传统盈利能力之间的张力，可能影响市场对高 AI 支出科技股的估值逻辑。警示企业在追求 AI 转型的同时，需平衡创新投入与财务健康，避免资本市场信心动摇。未来季度财报将成为检验 AI 投资回报的关键节点。",
-    "tags": [
-      "News",
-      "Tesla",
-      "Finance"
-    ],
-    "link": "https://news.bloomberglaw.com/texas-brief/tesla-profit-falls-well-short-of-expectations-as-costs-rise-3",
-    "date": "2026-07-23",
-    "id": "17848665640880"
-  },
-  {
-    "title": "中美 AI 模型价格战：美国模型贵 30 倍",
-    "summary": "博客分析显示，美国旗舰 AI 模型价格远高于中国同类模型。",
-    "detail": "文章深度对比了 GPT-5.6 与 DeepSeek、Kimi 等中国前沿模型的价格差异。数据显示，美国旗舰模型每百万 token 成本高达 30 美元，而中国模型仅需 1 美元左右，价差达 30 倍。这引发了关于 AI 技术普及门槛的激烈讨论，低价模型可能在下沉市场更具竞争力，迫使美国厂商重新审视定价策略以维持市场份额。高昂的 API 成本可能阻碍中小企业应用 AI，加剧技术鸿沟。全球化竞争将推动成本优化，利好终端用户。",
-    "tags": [
-      "News",
-      "LLM",
-      "Pricing"
-    ],
-    "link": "https://allyagentoperations.com/blog/ai-pricing-access-everyone/",
-    "date": "2026-07-23",
-    "id": "17848665640881"
   }
 ]
