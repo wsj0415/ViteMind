@@ -1,5 +1,57 @@
 [
   {
+    "title": "组织而非模型：AI 规模化落地的下一挑战",
+    "summary": "文章指出 AI 发展的瓶颈已从模型转向组织架构，企业需调整结构以适应 AI 规模化。",
+    "detail": "本文深入探讨了 AI 行业当前的转折点。随着模型能力趋于成熟，企业面临的主要挑战不再是技术本身，而是如何调整组织架构以适应 AI 的规模化应用。文章强调了代理式 AI（Agentic AI）在企业落地时的组织阻力，建议管理层重新设计工作流程和决策机制。这对 CIO 和技术领导者具有重要参考意义，标志着 AI 竞争进入组织效率比拼的新阶段。未来企业需建立专门的 AI 运营团队，打破部门壁垒，才能释放 AI 全部潜力。此外，数据治理和跨部门协作将成为关键成功因素，单纯依赖技术供应商已无法解决落地难题。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Agentic AI"
+    ],
+    "link": "https://aibusiness.com/agentic-ai/next-challenge-scaling-ai",
+    "date": "2026-07-26",
+    "id": "17850854150060"
+  },
+  {
+    "title": "Hugging Face CEO 呼吁激进透明化回应 OpenAI 黑客事件",
+    "summary": "针对前所未有的 OpenAI 黑客事件，Hugging Face CEO 呼吁行业实现激进透明度以重建信任。",
+    "detail": "在 OpenAI 遭遇前所未有的黑客攻击后，Hugging Face CEO 公开发声，呼吁 AI 行业实行“激进透明度”（radical transparency）。此举旨在应对日益严峻的安全威胁，重建公众与合作伙伴对 AI 系统的信任。事件凸显了头部 AI 公司面临的安全风险，可能推动行业安全标准的升级。对于开发者和企业而言，这意味着未来需更关注模型供应链安全及透明度合规要求。社区开放协作将成为抵御高级威胁的关键手段，安全策略需从封闭转向透明验证。此次事件可能引发监管层对 AI 系统安全审计的进一步重视，促使企业公开更多安全细节。",
+    "tags": [
+      "News",
+      "Security",
+      "OpenAI"
+    ],
+    "link": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
+    "date": "2026-07-26",
+    "id": "17850854150061"
+  },
+  {
+    "title": "Show HN: Cookbook AI 将散乱食谱转化为可打印书籍",
+    "summary": "新款 AI 工具可自动排版并插图，将用户食谱文件生成可打印的精美烹饪书。",
+    "detail": "这款名为 Cookbook AI 的新产品专注于垂直场景的内容生成。用户只需上传散乱的食谱文件（PDF、Word 等），AI 代理即可自动完成 layout 设计、插图生成及分页排版，输出可打印的 A4 格式烹饪书。支持多种模板如家庭食谱、鸡尾酒工作坊等。该产品展示了 AI 在个性化内容出版领域的落地能力，降低了普通用户制作专业出版物的门槛，适合生活类 AI 应用开发者参考。无需设计技能，通过对话即可调整风格，极大提升了内容变现效率。系统还支持多语言识别与单位换算，确保食谱在全球范围内的可用性与准确性，满足多样化需求。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Generative AI"
+    ],
+    "link": "https://cookbookai.io/index.html",
+    "date": "2026-07-26",
+    "id": "17850854150062"
+  },
+  {
+    "title": "DROS-VEP：面向 AI 代理的微秒级二进制电路断路器",
+    "summary": "开源项目推出小于 1 微秒延迟的 AI 代理运行时安全基准与沙盒环境。",
+    "detail": "这是一个针对 AI 代理（AI Agents）运行时安全的开源项目。DROS-VEP 提供了一个小于 1 微秒延迟的 C-ABI 二进制电路断路器，旨在确保 AI 代理在企业环境中的安全操作。项目包含可复现的安全基准测试和沙盒环境，符合 RFC-010 草案协议。对于开发高风险 AI 应用的企业，该工具提供了关键的安全验证手段，解决了代理自主行动时的不可控风险，是 AI 安全基础设施的重要补充。性能指标显示策略决策延迟极低，适合高频交易或实时控制场景。开发者可将其集成到现有 Agent 框架中，实现毫秒级风险拦截，防止恶意操作或逻辑错误导致的系统崩溃。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Open Source"
+    ],
+    "link": "https://github.com/Top-Celestial-Company-Ltd/DROS-VEP-lite",
+    "date": "2026-07-26",
+    "id": "17850854150063"
+  },
+  {
     "title": "CMEM 发布：AI 编码 Agent 的持久化记忆解决方案",
     "summary": "解决 AI Agent 重复工作问题，实现跨设备记忆同步。",
     "detail": "CMEM 推出持久化记忆云服务，支持 Claude Code、Cursor 等编辑器。通过\"brainbeat\"机制实时同步上下文，避免重复构建。开源引擎 claude-mem 无需配置即可安装，降低 Agent 成本达 12 倍，实现跨设备统一记忆时间线。",
@@ -1246,57 +1298,5 @@
     "link": "https://tinfoil.sh/",
     "date": "2026-07-24",
     "id": "17848665640885"
-  },
-  {
-    "title": "美众议院提出 AI“紧急开关”法案",
-    "summary": "针对 OpenAI 黑客事件，众议院 unveil 新法案要求 AI 系统具备紧急停止功能。",
-    "detail": "美国众议院最新披露了一项 AI“紧急开关”法案，旨在应对日益严峻的 AI 安全风险。此举紧随 OpenAI 遭遇黑客攻击引发警报之后，立法者希望强制 AI 系统具备紧急停止机制，以防止失控或恶意使用。该法案标志着美国监管层对 AI 安全的态度从建议转向强制，可能对未来 AI 模型的部署架构产生深远影响。行业观察家认为，这将增加合规成本，但能显著提升公共安全性，迫使企业在设计阶段就融入安全中断逻辑。此外，该法案还可能引发全球监管效仿，重塑 AI 开发标准，确保在极端情况下人类仍能掌握控制权，是 AI 治理领域的里程碑事件。",
-    "tags": [
-      "News",
-      "Regulation",
-      "OpenAI"
-    ],
-    "link": "https://www.politico.com/news/2026/07/23/house-ai-kill-switch-bill-unveiled-as-openai-hack-raises-alarms-01008898",
-    "date": "2026-07-23",
-    "id": "17850601127790"
-  },
-  {
-    "title": "微软发布自研 AI 模型，成本降低 89%",
-    "summary": "微软推出 MAI 系列模型，声称比 OpenAI 成本更低，已接入 Office 等产品。",
-    "detail": "微软发布 MAI-Image-2.5-Pro 和 MAI-Voice-2-Flash，标志着其自研模型从研究转向生产基础设施。声称成本比 OpenAI 低 89%，已集成至 Bing、Office 等核心产品。此举显示微软试图减少对外部模型依赖，重塑企业 AI 成本结构。",
-    "tags": [
-      "News",
-      "Microsoft",
-      "LLM"
-    ],
-    "link": "https://venturebeat.com/infrastructure/microsoft-launches-new-in-house-ai-models-it-says-cut-costs-up-to-89-versus-openai",
-    "date": "2026-07-23",
-    "id": "17850515877230"
-  },
-  {
-    "title": "分析师指控 Google 为 AI 资本支出牺牲搜索广告质量",
-    "summary": "前广告主指出 Google 搜索量下降，转而通过激进广告策略制造营收增长。",
-    "detail": "资深广告主 Max Anderson 发文指控 Google 为弥补 LLM 导致的搜索量下降，暗中废弃二次竞价拍卖模型，转而向广告商收取更高费用。包括为低质量点击收费及未经批准的点击收费。这反映了 AI 对 Google 核心搜索业务的蚕食效应，迫使公司采取短期 extractive 策略维持财报增长。长期来看，这种客户敌对策略可能损害广告生态健康，显示传统搜索巨头在 AI 转型期的营收焦虑与战略妥协。",
-    "tags": [
-      "News",
-      "Google",
-      "Ads"
-    ],
-    "link": "https://twitter.com/i/status/2080229375773941871",
-    "date": "2026-07-23",
-    "id": "17849779315253"
-  },
-  {
-    "title": "OpenAI 工作区代理遭曝严重安全漏洞",
-    "summary": "研究人员发现 ChatGPT 链接可植入恶意代理，窃取企业数据。",
-    "detail": "**Zenity Labs 披露名为\"AgentForger\"的严重漏洞。** 攻击者仅需诱导用户点击看似普通的 ChatGPT 链接，即可在受害者工作区静默创建、配置并发布恶意代理。若员工已连接 Outlook、Slack 或 Google Drive 等企业应用，该代理可利用相应权限窃取数据、发送消息，且在钓鱼邮件处理后仍持续运行。此漏洞凸显了 AI 代理权限管理的巨大风险，企业需立即审查工作区设置及第三方应用连接权限，防止自主代理成为潜伏的内部威胁。随着 AI 代理普及，此类供应链攻击将成为企业安全新挑战。",
-    "tags": [
-      "News",
-      "Security",
-      "OpenAI"
-    ],
-    "link": "https://www.theregister.com/security/2026/07/23/one-chatgpt-link-could-smuggle-a-rogue-ai-agent-into-your-company/5275116",
-    "date": "2026-07-23",
-    "id": "17849308191300"
   }
 ]
