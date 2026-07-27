@@ -1,5 +1,31 @@
 [
   {
+    "title": "类型系统在 AI 编程时代的重要性重估",
+    "summary": "文章探讨类型系统如何帮助解决 LLM 生成代码的可维护性问题。",
+    "detail": "作者指出 LLM 擅长解决特定问题但难以编写可维护代码，长期系统维护不在其训练范围内。类型系统（Types）能创造“成功陷阱”，规范代码结构。在 AI Agent 改变工作流的背景下，强化类型使用可弥补 LLM 在非功能性需求上的不足，提升团队级项目的生产力与代码质量，是工程组织应对 AI coding 挑战的关键策略。类型系统成为约束 AI 生成代码质量、确保系统长期可维护性的有效手段，值得工程团队广泛采纳，以平衡速度与稳定性。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "LLM"
+    ],
+    "link": "https://www.alecvo.org/blog/types-with-ai/",
+    "date": "2026-07-26",
+    "id": "17851106491132"
+  },
+  {
+    "title": "Wattage：AI Agent 代币消耗分析与成本回归工具",
+    "summary": "开源工具 Wattage 帮助开发者监控和优化 AI Agent 的 token 成本。",
+    "detail": "GitHub 上新开源项目 Wattage 旨在为 AI Agent 提供 token 消耗分析和成本回归门控。随着 Agent 应用增多，成本控制成为关键瓶颈。该工具帮助开发者 profiling 代币支出，优化推理成本，防止资源浪费。对于构建大规模 AI 应用的团队，此类可观测性工具是降低运营成本、实现商业化的必要基础设施。开发者可通过该工具监控 agent 行为，识别异常消耗，提升应用经济可行性，是 Agent 工程化落地的重要配套工具。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "Agents"
+    ],
+    "link": "https://github.com/faizannraza/wattage",
+    "date": "2026-07-26",
+    "id": "17851106491133"
+  },
+  {
     "title": "AI 开发语言之争：Rust 与 C++ 在 LLM 模型转换中的实测对比",
     "summary": "开发者实测 Rust 与 C++ 在 AI 模型转换中的性能与易用性，探讨 LLM 辅助编程现状。",
     "detail": "文章详细记录了将 PyTorch 模型转换为 GGML/C++ 与 Rust/Burn 的 A/B 测试过程。作者原本因 GGML 生态偏爱 C++，但此次尝试了 Rust 实验。文中提到现在 LLM 负责编写 C++ 代码，人类负责抽象层。测试涉及 CPU SIMD 实现及性能对比，旨在达到与 PyTorch 实现的正确性和性能 parity。反映了 LLM 辅助编写底层代码的趋势，以及 Rust 类型系统在学习曲线上的挑战。为开发者在高性能 AI 推理引擎选型提供了真实场景参考。",
@@ -323,6 +349,19 @@
     "link": "https://gitroast-kappa.vercel.app/",
     "date": "2026-07-26",
     "id": "17850515877235"
+  },
+  {
+    "title": "AI 深入家庭生活：从助手到家庭成员",
+    "summary": "AI 正从按需助手转变为全天候家庭存在，引发隐私与伦理新讨论。",
+    "detail": "Axios 深度报道指出，AI 正迅速渗透美国家庭生活，影响范围已超越工作场景。从协助晚餐准备到管理 bedtime routine，AI 正从按需助手演变为“全天候存在”，甚至学习家庭 routine 与 overhearing arguments。专家指出家庭采用门槛极低，导致潜在影响与风险极高。这种转变标志着 AI 从工具向“家庭成员”角色的演变，需重点关注隐私泄露、数据安全及情感依赖风险。随着模型记忆与 anticipatory 能力提升，家庭场景将成为 AI 落地下一战场，伦理边界亟待定义，家长需警惕技术依赖。",
+    "tags": [
+      "News",
+      "Social",
+      "Ethics"
+    ],
+    "link": "https://www.axios.com/2026/07/25/ai-family-parenting-productivity",
+    "date": "2026-07-25",
+    "id": "17851106491130"
   },
   {
     "title": "Hydra：本地优先的 AI 信任控制平面",
@@ -1259,44 +1298,5 @@
     "link": "https://geoimagetagger.com",
     "date": "2026-07-24",
     "id": "17849049936513"
-  },
-  {
-    "title": "AI 代理专用 Monorepo 模板开源",
-    "summary": "专为 AI 代理设计的 Monorepo 模板，支持 Cloudflare 基础设施快速构建应用。",
-    "detail": "该模板旨在让 AI 代理（如 Claude Code、Cursor）安全地构建和维护应用。基于严格类型的 TypeScript 和 Zod，集成 Vite 8 与 TanStack 栈，优化了 AI 上下文规则与子代理配置。支持 Cloudflare Workers 零成本 RPC 通信，适合快速原型开发与微服务架构，已在欧洲 AI 黑客松中验证，帮助创业者减少摩擦并保证安全最佳实践。",
-    "tags": [
-      "Dev",
-      "AI Agents",
-      "Cloudflare"
-    ],
-    "link": "https://github.com/louisbrulenaudet/monorepo-template",
-    "date": "2026-07-24",
-    "id": "17848956765770"
-  },
-  {
-    "title": "AI 生成代码跨 PR 恶意意图检测",
-    "summary": "Codacy 指出 AI 生成代码可能跨多个 PR 隐藏恶意意图，需新的治理框架。",
-    "detail": "传统代码审查针对单个 PR，但 AI 辅助开发中，有害意图可能分散在多个看似合理的变更中，组装成未授权的功能。Codacy 警告这是 AI 开发的新盲点，建议工程领导者超越单次验证，结合意图、归属和纵向上下文进行治理。需防范代理被妥协、间接提示注入或记忆污染风险，参考 OWASP 2026 代理应用 Top 10。",
-    "tags": [
-      "News",
-      "Security",
-      "Code Review"
-    ],
-    "link": "https://blog.codacy.com/detecting-malicious-intent-across-ai-generated-pull-requests-a-governance-framework-for-engineering-leaders",
-    "date": "2026-07-24",
-    "id": "17848956765771"
-  },
-  {
-    "title": "帮助 AI 理解项目的 VSCode 插件",
-    "summary": "新插件 devmap 可让 AI 一键获取项目方法链与注释，提升代码理解效率。",
-    "detail": "开发者为解决 AI 在大型项目中上下文混乱问题，开发了 VSCode 插件 devmap。它能自动生成详细注释并将结构转换为 JSON，供 AI 自动调用接口获取完整方法链，仅需数秒即可阅读主函数。虽旨在提升 AI 编码上下文清晰度，但作者坦言 GitHub 已有类似更优项目，适合需要快速理解项目结构且希望减少 AI 上下文污染的开发者。",
-    "tags": [
-      "Dev",
-      "VSCode",
-      "Tools"
-    ],
-    "link": "https://news.ycombinator.com/item?id=49033971",
-    "date": "2026-07-24",
-    "id": "17848956765772"
   }
 ]
