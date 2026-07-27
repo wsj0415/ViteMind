@@ -1,5 +1,70 @@
 [
   {
+    "title": "Meta AI 正式集成至 Threads 私聊功能",
+    "summary": "Meta 将 AI 助手引入 Threads DM，增强社交互动体验。",
+    "detail": "Meta 宣布 Threads 用户现在可以在直接消息（DM）中与 Meta AI 聊天。此举标志着 Meta 进一步将 AI 能力融入其社交生态，旨在提升用户互动频率。技术上依托 Meta 现有的大模型基础设施，允许用户在私密对话场景下调用 AI 辅助。行业影响在于社交平台的 AI 化竞争加剧，用户习惯将从公开帖子向私密 AI 辅助交流延伸，为社交 AI 代理开辟新场景。",
+    "tags": [
+      "News",
+      "Meta",
+      "Social AI"
+    ],
+    "link": "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/",
+    "date": "2026-07-27",
+    "id": "17851715705680"
+  },
+  {
+    "title": "梅奥诊所因 AI 部署过快遭法律诉讼",
+    "summary": "前员工指控医院 rushed AI 部署，危及患者隐私与安全。",
+    "detail": "梅奥诊所面临诉讼，前 AI 合规负责人指控医院为快速整合 AI 而绕过合规规则，掩盖错误率，危及患者护理及隐私。此案凸显医疗 AI 落地中的伦理与安全风险。律师强调 AI 处理需负责任且合规。梅奥诊所回应称致力于负责任开发。该事件为医疗行业 AI 部署敲响警钟，合规与速度之间的平衡成为焦点，可能影响后续医疗 AI 监管政策。",
+    "tags": [
+      "News",
+      "Healthcare",
+      "Ethics"
+    ],
+    "link": "https://www.mprnews.org/story/2026/07/09/lawsuit-alleges-mayo-clinic-cut-corners-with-ai",
+    "date": "2026-07-27",
+    "id": "17851715705681"
+  },
+  {
+    "title": "Block 推出 Buzz，吴恩达发布 OpenWorker",
+    "summary": "Jack Dorsey 团队开源 Agent workspace，吴恩达推本地优先个人 Agent。",
+    "detail": "Block 推出开源工作空间 Buzz，人类与 AI Agent 作为成员共享频道，拥有独立身份与密钥。Andrew Ng 发布 OpenWorker，本地优先个人 Agent，交付成品而非仅聊天。两者均强调 Agent 的独立身份与本地执行能力。这标志着 AI Agent 从辅助工具向独立协作者转变，开源生态加速 Agent 基础设施标准化，YC 已关注团队版本，显示资本对 Agent 工作流的重视。",
+    "tags": [
+      "News",
+      "Agents",
+      "Open Source"
+    ],
+    "link": "https://www.insideainative.com/p/this-week-in-ai-native-companies",
+    "date": "2026-07-27",
+    "id": "17851715705682"
+  },
+  {
+    "title": "AI Agent 容器安全：Docker 替代方案指南",
+    "summary": "探讨 Podman、bwrap 和 Firejail 在 AI 代码代理中的安全应用。",
+    "detail": "针对 AI 编码 Agent 自主运行代码的安全风险，文章分析了 Docker 的局限性及 Podman、Bubblewrap、Firejail 三种替代方案。Agent 需快速隔离而非长期服务，Podman 无守护进程且 rootless，bwrap 适合轻量沙盒。技术核心在于防止恶意代码注入及密钥泄露。为开发者构建安全 Agent 执行环境提供了具体实践指南，强调隔离速度与安全性，适合本地 LLM 部署参考。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Containers"
+    ],
+    "link": "https://grigio.org/docker-alternatives-for-ai-agents-podman-bwrap-and-firejail/",
+    "date": "2026-07-27",
+    "id": "17851715705683"
+  },
+  {
+    "title": "Show HN: Directed Memory Bank 项目上下文工具",
+    "summary": "为 AI Agent 提供工具无关的项目上下文记忆管理方案。",
+    "detail": "该项目旨在解决 AI Agent 在不同工具间保持项目上下文一致性的问题。通过构建工具无关的记忆库，Agent 能更有效地理解长期任务背景。核心在于解耦记忆存储与具体工具链，提升 Agent 在复杂工作流中的连贯性。适合开发者集成到现有 Agent 架构中，优化多步骤任务执行效率，开源项目已在 GitHub 发布，支持多种模型上下文管理。",
+    "tags": [
+      "New",
+      "Dev",
+      "Agents"
+    ],
+    "link": "https://github.com/pmikutel/directed-memory-bank",
+    "date": "2026-07-27",
+    "id": "17851715705684"
+  },
+  {
     "title": "苹果与安卓 AI 硬件权限最终性方案",
     "summary": "监管要求第三方 AI 助手获得同等执行权限，硬件层隔离确保安全性。",
     "detail": "该研究提出硬件级隔离方案，旨在解决第三方 AI 助手与平台原生助手（如 Siri）之间的权限平等问题。监管要求第三方获得同等执行访问权，但平台需防止不可控操作。方案通过将设备动作请求与执行权限在硬件层分离，利用安全飞地独立验证应用身份与行为，确保互操作性同时防止权限滥用。当前软件层方案存在结构性失败，硬件最终性机制能独立证明权限 parity。这一架构若实施，将打破平台垄断，重新定义移动生态的 AI 安全标准，对开发者和监管机构具有重大参考价值，是未来 AI 互操作性的关键技术路径。",
@@ -1238,70 +1303,5 @@
     "link": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
     "date": "2026-07-24",
     "id": "17850243130691"
-  },
-  {
-    "title": "Reid Hoffman 新 AI 实验室 Prentis 融资 1 亿美元",
-    "summary": "聚焦电脑使用模型，估值已达 10 亿美元，获巨头支持。",
-    "detail": "Prentis 由 LinkedIn 联合创始人 Reid Hoffman 等科技巨头联合创立，专注于计算机使用模型（Computer Use Models）。其目标是构建能像人类一样操作电脑、自动化办公流程的 AI Agent。目前公司正洽谈 1 亿美元融资，估值达 10 亿美元。据称其 Hive-32B 模型在 WindowsAgentArena 等基准测试中表现优于 GPT-5.4 和 Claude Opus 4.6。已签署价值 5000 万美元的客户合同，涵盖医疗和制造领域，显示市场对自动化工作流的高度需求。这标志着 AI Agent 从对话向实际任务执行的重大转变，可能重塑企业软件交互方式。",
-    "tags": [
-      "News",
-      "Funding",
-      "Agent"
-    ],
-    "link": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
-    "date": "2026-07-24",
-    "id": "17849380217320"
-  },
-  {
-    "title": "微软发文强调开放权重对美国 AI 领导力的重要性",
-    "summary": "倡导开放生态系统，认为开放权重模型是创新基础。",
-    "detail": "微软发表文章指出，美国 AI 领导力取决于强大的开放生态系统。开放权重模型允许任何人下载、检查和修改，降低了初创企业和机构的门槛。这是确保技术主权和促进各行业创新的关键基础。微软认为，正如 80 年代开源软件支撑了互联网，开放权重模型将是未来 AI 经济的基石，有助于扩散技术到各个 sector，增强美国工程师和企业家的制度主权，避免依赖单一封闭模型。此举意在推动行业竞争，防止技术垄断，确保 AI 红利广泛分布。开放权重不仅促进技术创新，还能加强国家安全，减少对外国技术的依赖。",
-    "tags": [
-      "News",
-      "Policy",
-      "OpenSource"
-    ],
-    "link": "https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/",
-    "date": "2026-07-24",
-    "id": "17849380217321"
-  },
-  {
-    "title": "亚马逊要求卖家标记 AI 生成的人像图片",
-    "summary": "响应纽约新法，加强电商平台 AI 内容合规管理。",
-    "detail": "受纽约州新法律影响，亚马逊 crackdown 卖家使用 AI 生成图片的行为。卖家必须在包含 AI 生成人物的图片上进行标记。此举旨在提高透明度，防止消费者被误导，标志着电商领域 AI 内容监管的进一步收紧。平台将强制执行此政策，违规者可能面临 listing 下架风险。这反映了全球范围内对 AI 生成内容真实性关注的提升，要求企业在利用 AI 增效的同时，必须承担信息披露责任，维护消费者信任。未来其他电商平台可能效仿，AI 内容标识将成为合规标配。",
-    "tags": [
-      "News",
-      "Regulation",
-      "E-commerce"
-    ],
-    "link": "https://www.cnbc.com/2026/07/23/amazon-makes-sellers-label-ai-generated-people-in-images-after-ny-law.html",
-    "date": "2026-07-24",
-    "id": "17849380217322"
-  },
-  {
-    "title": "Kalytera 推出 AI Agent 故障步级调试工具",
-    "summary": "自动评估生产环境 Agent，定位失败根源无需查日志。",
-    "detail": "Kalytera 专为生产环境 AI Agent 设计，可自动评估每一步操作。当 Agent 失败时，它能提供英文根本原因分析，支持 LangChain 等框架。免费层每月 1 万会话，帮助开发者在用户发现前捕获故障，提升 Agent 可靠性。传统工具仅检查最终输出，而 Kalytera 能追踪工作流中间步骤的错误，如 API 超时导致的幻觉。这解决了 Agent 开发中调试难的问题，有助于企业量化 AI 投资回报率，确保生产环境稳定性。无需深入日志即可定位问题，显著降低维护成本。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Debugging"
-    ],
-    "link": "https://kalytera.dev",
-    "date": "2026-07-24",
-    "id": "17849380217323"
-  },
-  {
-    "title": "Bonsai：支持分支对话的 AI 聊天应用开发工具包",
-    "summary": "开源工具包，允许开发者构建具有分支对话功能的聊天应用。",
-    "detail": "Bonsai 是一个用于构建 AI 聊天应用的工具包，核心特色是支持“可分支对话”（branchable conversations）。这使得开发者能够更容易地管理对话状态和路径，适用于需要复杂交互逻辑的场景。项目已开源，适合希望自定义聊天体验的开发者使用。它允许用户在对话中创建分支，探索不同结果，增强了聊天应用的交互深度。对于构建教育、咨询或剧情类 AI 应用尤为有用，降低了实现复杂对话树的技术门槛。通过简化状态管理，开发者可更专注于业务逻辑而非底层架构。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Chatbot"
-    ],
-    "link": "https://github.com/Joaoha/Bonsai",
-    "date": "2026-07-24",
-    "id": "17849380217324"
   }
 ]
