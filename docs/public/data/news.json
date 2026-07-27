@@ -1,5 +1,75 @@
 [
   {
+    "title": "Show HN: Release-gate – AI Agent PR 风险检查 CLI 工具",
+    "summary": "专为 AI Agent 代码审查设计的 CLI 工具，识别提示词与模型配置风险。",
+    "detail": "针对 AI Agent 生成的 PR 难以审查痛点，Release-gate 通过对比分支差异，专门识别提示词变更、模型切换及工具配置风险。支持生成锁文件与审计功能，帮助开发者在静态分析噪音中精准定位 Agent 引入的潜在安全隐患，适合 AI 工程化团队集成到 CI/CD 流程，提升代码交付安全性。",
+    "tags": [
+      "New",
+      "Dev",
+      "AI Agent",
+      "CLI"
+    ],
+    "link": "https://news.ycombinator.com/item?id=49067759",
+    "date": "2026-07-27",
+    "id": "17851513839310"
+  },
+  {
+    "title": "从零构建 AI Agent 系列：安全加固第三篇",
+    "summary": "深入讲解 AI Agent 安全策略，涵盖路径 scopes、资源限制与审计日志。",
+    "detail": "本教程继续深化 AI Agent 安全架构，在 Docker 沙盒与提示词注入防御基础上，新增工具策略网关。通过路径作用域、Shell denylist 及 SSRF 防护强化执行安全，同时实施资源成本限制与密钥 scrubbing。提供完整的审计日志与紧急 kill switch 机制，为构建生产级安全 Agent 提供实战指南。",
+    "tags": [
+      "Dev",
+      "Tutorial",
+      "Security",
+      "AI Agent"
+    ],
+    "link": "https://www.ruxu.dev/articles/ai/build-an-ai-agent-security-3/",
+    "date": "2026-07-27",
+    "id": "17851513839311"
+  },
+  {
+    "title": "优化 AI Agent 工具设计的最佳实践指南",
+    "summary": "解析工具描述与粒度对 Agent 决策的影响，避免模糊导致的调用失败。",
+    "detail": "文章指出 Agent 表现不佳常源于工具设计而非模型智力。强调工具名称、描述及参数粒度对模型决策的关键作用。分析了工具 ambiguity 导致决策错误、描述不清导致 unused 等问题。建议通过合并相似工具或重命名澄清意图，为开发者设计高效 Agent 工具链提供核心方法论，减少模型幻觉。",
+    "tags": [
+      "Dev",
+      "Best Practice",
+      "AI Agent",
+      "Tool Design"
+    ],
+    "link": "https://www.bolshchikov.com/p/your-agent-isnt-dumb-your-tools-are",
+    "date": "2026-07-27",
+    "id": "17851513839312"
+  },
+  {
+    "title": "Textideo：面向 YouTube 创作的 AI 视频生成工具",
+    "summary": "助力创作者快速生成 YouTube Shorts 及长视频，简化编辑工作流。",
+    "detail": "Textideo 是一款专为 YouTube 创作者设计的 AI 视频生成器，支持将脚本与概念快速转化为 Shorts 及教育类视频。旨在解决传统制作耗时、工具昂贵痛点，通过 AI 工作流提升产出速度与一致性。适合初学者及企业用户，无需高级编辑技能即可制作专业内容，支持多种视频风格生成，加速内容规模化。",
+    "tags": [
+      "New",
+      "Product",
+      "Video Generation",
+      "Content Creation"
+    ],
+    "link": "https://textideo.com/use-cases/youtube",
+    "date": "2026-07-27",
+    "id": "17851513839313"
+  },
+  {
+    "title": "HN 讨论：企业为何普遍 Incorporating AI？",
+    "summary": "社区探讨 AI 普及动因，成本削减与功能简化是主要驱动力。",
+    "detail": "Hacker News 社区热议企业全面整合 AI 的现象。讨论指出主要驱动力包括降低成本及以更简单方式 leveraging 新功能。虽有观点认为部分用例看似无用，但承认 AI 在简化特定任务流程上具备实际效益，反映了行业对 AI 效率提升的认可与成本考量的现实趋势，揭示 AI 落地背后的经济逻辑。",
+    "tags": [
+      "News",
+      "Industry",
+      "Discussion",
+      "Adoption"
+    ],
+    "link": "https://news.ycombinator.com/item?id=49067602",
+    "date": "2026-07-27",
+    "id": "17851513839314"
+  },
+  {
     "title": "Show HN: 14 字节 AI 智能体尝试解决迷宫",
     "summary": "微型学习控制器仅需 14 字节，可在任何地方运行，解决率高达 96.5%。",
     "detail": "Minimio 展示了微型学习控制器的潜力，仅用 14 字节即可在未见过的迷宫中达到 96.5% 的解决率。该项目致力于发现、编译和验证用于有界决策的微观控制器，强调极致的轻量化与本地运行能力。这对于边缘计算和资源受限设备上的 AI 部署具有重要参考意义，证明了小模型在特定任务上的高效性。它挑战了当前大模型主导的趋势，表明在特定约束下，极小参数模型也能实现高鲁棒性。这种“字节级”智能体为嵌入式 AI 和物联网设备智能化开辟了新路径，显著降低了硬件门槛和能耗，是边缘 AI 领域的重要探索，未来可能应用于微型机器人或传感器网络中。",
@@ -1233,70 +1303,5 @@
     "link": "https://github.com/Fame510/SHACKLE",
     "date": "2026-07-24",
     "id": "17849245090832"
-  },
-  {
-    "title": "开发者社区热议：当前最佳 AI 编程工具是哪款？",
-    "summary": "HN 讨论聚焦 AI 编码工具选型，涉及 Cursor、Opencode 及隐私预算权衡。",
-    "detail": "开发者在 Hacker News 上深入探讨了 AI 编程助手的选择标准。讨论涵盖数据隐私（如避免向特定巨头输送数据）、成本效益及本地模型部署（Ollama）。反映了社区对开源模型与商业化闭源工具之间的权衡，以及对 MVP 快速构建工具的实际需求。许多开发者倾向于本地化部署以保护代码知识产权，同时追求高性价比的订阅方案。这种趋势表明，未来的 AI 编程工具市场将更加注重隐私保护和灵活性。企业级用户可能更偏好私有化部署方案，而个人开发者则关注免费或低成本的高效工具，推动市场细分化发展。同时，对 SSH 远程开发支持的需求也在增加，适应云原生开发环境。",
-    "tags": [
-      "Dev",
-      "Community",
-      "Coding Tools"
-    ],
-    "link": "https://news.ycombinator.com/item?id=49040025",
-    "date": "2026-07-24",
-    "id": "17849245090833"
-  },
-  {
-    "title": "pixtuoid：终端里的像素风 AI 编程同事",
-    "summary": "将 AI 编码代理可视化为终端办公室中的像素艺术同事，增加开发趣味性。",
-    "detail": "这是一个开源项目，旨在改善开发者与 AI 代理交互的体验。通过在终端中以像素艺术形式展示 AI 同事的工作状态，降低了 AI 代理的抽象感。适合喜欢个性化开发环境的工程师，展示了 AI 工具在 UX 层面的创新尝试。传统的命令行界面往往枯燥，该项目通过游戏化元素提升开发者参与度。虽然核心功能仍是代码生成，但良好的视觉反馈能减少等待焦虑。这种设计思路可应用于其他 CLI 工具，增强用户粘性。对于远程协作团队，可视化的代理状态也能更好地同步工作进度，促进人机协作的流畅性。未来可能支持更多自定义角色，满足个性化需求。",
-    "tags": [
-      "New",
-      "Open Source",
-      "UX"
-    ],
-    "link": "https://github.com/IvanWng97/pixtuoid",
-    "date": "2026-07-24",
-    "id": "17849245090834"
-  },
-  {
-    "title": "Cognition 收购 Poke：AI 个性成为竞争优势",
-    "summary": "AI 编码初创公司 Cognition 收购助手 Poke，估值达九位数，旨在增强 Devin 的交互个性。",
-    "detail": "**背景**：AI 编码独角兽 Cognition 正式收购交互型 AI 助手 Poke，交易估值达低九位数。**核心**：Poke 独特的“朋友式”交互模型将整合进 Cognition 的编码助手 Devin 中，利用其基础设施提升可靠性。**影响**：此举标志着 AI 竞争焦点从底层模型能力转向交互体验与个性塑造。Cognition 旨在让 Devin 更像人类同事而非冷冰冰的软件，通过幽默与主动交互提升用户粘性。创始人表示用户更喜欢有个性的同事，验证了 AI 个性将成为未来关键竞争优势，为 Agent 设计提供新方向。Poke 将继续利用 Cognition 模型变得更快速可靠，双方实现技术与体验互补。",
-    "tags": [
-      "News",
-      "M&A",
-      "AI Agent"
-    ],
-    "link": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
-    "date": "2026-07-24",
-    "id": "17849171991540"
-  },
-  {
-    "title": "Alphabet 上调 AI 支出至 2050 亿美元引发投资者担忧",
-    "summary": "Google 母公司 Alphabet 将资本支出预测上调至 2050 亿美元，股价下跌，自由现金流首次转负。",
-    "detail": "**背景**：Google 母公司 Alphabet 宣布将今年资本支出上限提至 2050 亿美元，高于此前预期的 190 亿美元。**核心**：旨在加速 AI 计算能力扩展及云业务营收，但导致季度自由现金流出现 20 年来首次负值，达 -59 亿美元。**影响**：引发市场对 AI 投资回报不明朗及财政纪律的担忧，股价随即下跌超 6%。科技巨头 AI 军备竞赛成本持续攀升，若 Alphabet 为代表，四大科技巨头今年 AI 总支出可能远超此前预测的 7250 亿美元，投资者 scrutiny 将 intensified。在利率上升环境下，依靠现金流无限融资的观念可能开始消退，行业面临重新评估。",
-    "tags": [
-      "News",
-      "Finance",
-      "Google"
-    ],
-    "link": "https://www.latimes.com/business/story/2026-07-23/alphabets-205-billion-ai-spending-plan-spooks-investors",
-    "date": "2026-07-24",
-    "id": "17849171991541"
-  },
-  {
-    "title": "Corv v1.1 发布：解决 AI Agent 的 SSH 执行难题",
-    "summary": "专为 AI Agent 设计的 SSH 执行层工具 Corv 更新 v1.1，提升并发处理与稳定性。",
-    "detail": "**背景**：当前 AI Agent 在基础设施操作（如 SSH）上存在不稳定、token 消耗大及兼容性问题。**核心**：Corv 提供专用层处理 SSH 复杂部分，v1.1 版本显著增强了并发处理、中断恢复及大负载下的鲁棒性。**影响**：填补了 AI 基础设施层的空白，为 Agent 安全可靠地执行远程命令提供必要基础。开发者反馈模型更偏好使用 Corv 作为默认工作方式。随着 Agent 应用深入，此类执行层工具将成为必需品，适合关注 AI 工程化落地的开发者参考。目前该领域尚处早期，但基础设施是根基而非点缀，预计需求将增长。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "Infrastructure"
-    ],
-    "link": "https://github.com/khalid-src/corv-client",
-    "date": "2026-07-24",
-    "id": "17849171991542"
   }
 ]
