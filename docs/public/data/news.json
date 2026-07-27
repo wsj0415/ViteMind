@@ -1,5 +1,70 @@
 [
   {
+    "title": "生产环境 AI 运行时故障模式分析",
+    "summary": "分析 30+ 真实 AI 运行时故障，发现多为契约 mismatch 而非模型问题。",
+    "detail": "基于 IndieHackers 社区最新反馈，技术团队复现了 30 多个真实 AI 运行时故障案例。深入研究发现，主要问题并非模型能力不足，而是提供商、工具与应用代码间的运行时契约不匹配。为此团队推出了 StateGuard 工具以解决此类问题。这对开发者构建稳定生产级 AI 应用具有重要参考价值，提示需关注集成层的稳定性而非仅关注模型性能。行业应重视运行时环境的标准化管理，减少因接口变动导致的服务中断，提升企业级 AI 落地的可靠性。随着 AI 应用复杂化，运行时治理将成为关键基础设施，建议团队建立专门的监控机制来捕捉此类契约错误。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Production"
+    ],
+    "link": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+    "date": "2026-07-27",
+    "id": "17851246123950"
+  },
+  {
+    "title": "OpenCode 静态验证插件防止不安全工具调用",
+    "summary": "基于形式化验证的插件，可在执行前拦截 AI 不安全工具调用。",
+    "detail": "开发者为 OpenCode 构建了静态安全验证插件，基于\"Guardians of the Agents\"论文。利用 Z3 路径包含和秘密污点追踪技术，在工具执行前拦截不安全操作（如路径遍历）。验证耗时约 1.5ms，能有效防止 AI Agent 越权操作。为 AI 安全部署提供了新的技术思路。该插件通过 TypeScript 系统拦截工具调用，并将参数传递给本地 Python 守护进程进行形式化验证。若发现违规则强制中断执行，迫使 Agent 自我修正。这种前置验证机制显著降低了 AI 自主操作带来的安全风险，适合高敏感场景部署。核心验证器保持与上游同步，确保安全性随社区进化。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://github.com/albertjoseph0/opencode-plugin-guardians",
+    "date": "2026-07-27",
+    "id": "17851246123951"
+  },
+  {
+    "title": "新词汇\"Zuzai\"兴起标识无 AI 内容",
+    "summary": "提出\"Zuzai\"一词指代零人工智能内容，类似素食主义标签。",
+    "detail": "随着 AI 生成内容泛滥，社区提出新词汇\"Zuzai\"（Zero Artificial Intelligence）来标识完全不含 AI 的作品。该词旨在提供正面、简洁的描述，避免使用\"非 AI\"等否定式表达。这反映了公众对 AI 内容的区分需求日益增长，可能成为未来内容认证的新标准。Zuzai 采用递归缩写形式，发音类似\"zoo's eye\"。创作者希望通过此标签重建人类创作的价值认同，对抗 AI 生成内容的同质化趋势。这一文化现象表明，随着技术渗透，社会对“真实性”的定义正在重构，标记无 AI 内容可能成为高端服务的象征。类似素食主义标签，它为消费者提供了明确的选择权。",
+    "tags": [
+      "News",
+      "Culture",
+      "Ethics"
+    ],
+    "link": "https://zuzai.org/",
+    "date": "2026-07-27",
+    "id": "17851246123952"
+  },
+  {
+    "title": "AI 是否会真正将权力归还给大众？",
+    "summary": "对比互联网历史，分析 AI 是 democratize 知识还是加剧不平等。",
+    "detail": "文章对比了 Karpathy 的乐观观点与互联网发展历史。虽然 LLM 降低了知识获取门槛，但历史表明技术创新往往导致权力集中。作者认为 AI 可能像互联网一样，初期愿景美好，后期却被巨头控制成为监控工具。AI 是放大器，可能同时放大创新能力与社会不平等。尽管亿万富翁无法买到更好的 ChatGPT 模型，但基础设施控制权仍集中在少数公司手中。这种集中化可能导致信息 gateways 被垄断，重演互联网时代的权力失衡。开发者需警惕技术民主化背后的结构性风险。历史经验显示，少数跨国 conglomerates 最终会控制数字世界的主要网关。",
+    "tags": [
+      "News",
+      "Analysis",
+      "Society"
+    ],
+    "link": "https://kevinhu92.substack.com/p/will-ai-bring-power-to-the-people",
+    "date": "2026-07-27",
+    "id": "17851246123953"
+  },
+  {
+    "title": "AI 系统中的\"Karen Tax\"现象分析",
+    "summary": "消费类 AI 应用通过评判用户行为获利，形成新的商业模式。",
+    "detail": "文章提出\"Karen Tax\"概念，指 AI 金融应用通过评判用户消费行为（如预算超支通知）来 monetize 负面情绪。随着 AI 具备 24/7 可用性和记忆能力，这种评判将被自动化。这揭示了消费者 AI 产品中潜在的伦理风险与商业动机，开发者需警惕过度拟人化的负面设计。应用通过 emoji 和语气模拟特定人格，让用户感到被评判。这种设计虽能增加 engagement，但长期损害用户体验。AI 浪潮下，此类自动化评判可能成为标配，行业需建立更健康的交互伦理规范，避免技术滥用导致用户心理负担。商业模式不应建立在让用户感到糟糕的基础上。",
+    "tags": [
+      "News",
+      "UX",
+      "Finance"
+    ],
+    "link": "https://medium.com/@brady.bastian/the-karen-tax-63cd994f7c4d",
+    "date": "2026-07-27",
+    "id": "17851246123954"
+  },
+  {
     "title": "类型系统在 AI 编程时代的重要性重估",
     "summary": "文章探讨类型系统如何帮助解决 LLM 生成代码的可维护性问题。",
     "detail": "作者指出 LLM 擅长解决特定问题但难以编写可维护代码，长期系统维护不在其训练范围内。类型系统（Types）能创造“成功陷阱”，规范代码结构。在 AI Agent 改变工作流的背景下，强化类型使用可弥补 LLM 在非功能性需求上的不足，提升团队级项目的生产力与代码质量，是工程组织应对 AI coding 挑战的关键策略。类型系统成为约束 AI 生成代码质量、确保系统长期可维护性的有效手段，值得工程团队广泛采纳，以平衡速度与稳定性。",
@@ -1233,70 +1298,5 @@
     "link": "https://blog.n8n.io/ai-maturity-bridging-the-orchestration-chasm/",
     "date": "2026-07-24",
     "id": "17849114201133"
-  },
-  {
-    "title": "Laserbrain 发布：解决 AI Agent 漂移与无限循环难题",
-    "summary": "新工具通过固定参考点检测 Agent 状态漂移，减少无效循环。",
-    "detail": "**痛点**：自主 Agent 易陷入循环、过度 deliberation 或偏离目标。**方案**：Laserbrain 提供外部参考 harness，Agent 每步检查状态。**机制**：检测四种漂移信号（语法错误、自报停滞、目标漂移、进展停滞）。**优势**：无需 SDK，通过 URL 接入 MCP 兼容 Agent。解决了 Agent 长期运行中的可靠性与一致性难题，提升自主代理在实际任务中的成功率与效率，为 Agent 开发提供新的质量控制思路。",
-    "tags": [
-      "New",
-      "Agent",
-      "Dev"
-    ],
-    "link": "https://phronesis.world/laserbrain/",
-    "date": "2026-07-24",
-    "id": "17849114201134"
-  },
-  {
-    "title": "NVIDIA 发布报告：开放权重模型助力美国 AI 领导地位",
-    "summary": "NVIDIA 发布 PDF 报告，主张开放权重模型对维持美国 AI 领导地位至关重要。",
-    "detail": "NVIDIA 发布报告《Open Weights and American AI Leadership》，将当前 AI 局势比作 1980 年代开源软件运动。报告强调开放权重模型（可下载、inspect、修改）是构建强大生态系统的基础，能促进创新、竞争及各行业应用。这表明硬件巨头正推动开放生态，以对抗封闭模型垄断，确保技术主权及广泛普及。报告指出开放权重让初创企业无需从头训练即可构建应用，是美国保持 AI 领导力的关键战略选择。开放源码曾支撑互联网及美军系统，AI 亦需共享知识基础以维持 institutional sovereignty。此举措可能影响未来模型分发及合规标准，为开发者提供更多控制权。",
-    "tags": [
-      "News",
-      "NVIDIA",
-      "Policy"
-    ],
-    "link": "https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf",
-    "date": "2026-07-24",
-    "id": "17849049936510"
-  },
-  {
-    "title": "数据分析：YC 初创公司中\"AI 技能”并未带来薪资溢价",
-    "summary": "分析 2652 个 YC 职位发现，仅会使用 AI 工具不涨薪，底层基建才是关键。",
-    "detail": "CoderScreen 分析了 Y Combinator 上 2,652 个工程职位，发现简历中强调\"AI 技能”（如 Cursor、OpenAI API）并未带来显著薪资溢价。真正高薪的是底层基础设施和机器学习系统专家。median 薪资约 17 万美元，股权差异巨大。这表明市场回归理性，不再为表面 AI 标签买单，更看重解决实际问题的硬实力。数据来自 2026 年 7 月快照，显示早期初创公司更关注工程实质而非炒作。单纯调用 API 不再稀缺，构建可靠系统才是核心价值所在。对于求职者而言，深耕系统架构比单纯学习工具更重要。",
-    "tags": [
-      "News",
-      "Career",
-      "Market"
-    ],
-    "link": "https://coderscreen.com/blog/does-using-ai-pay-at-yc-startups",
-    "date": "2026-07-24",
-    "id": "17849049936511"
-  },
-  {
-    "title": "Unifeyn 上线：基于本地材料的防幻觉 AI 学习工作区",
-    "summary": "新工具 Unifeyn 支持上传 PDF 生成卡片，答案均引用源文件页码。",
-    "detail": "Unifeyn 是一款 AI 学习工作区，主打“防幻觉”功能。用户上传 PDF、幻灯片或视频后，AI 仅基于材料生成闪卡、测验和问答，每个答案均引用具体页码或时间戳。支持多种格式导入及 spaced repetition。免费计划无需信用卡。适合需要准确引用来源的学生及研究者，解决了通用 AI 胡编乱造的痛点。通过三步流程即可建立学习 streak，帮助用户保持学习动力，实现口袋里的全方位学习工具。所有回答均 grounded in your materials，确保事实准确性。此外，平台还会通过通知提醒用户保持学习连续性。",
-    "tags": [
-      "New",
-      "Education",
-      "LLM"
-    ],
-    "link": "https://www.unifeyn.app/",
-    "date": "2026-07-24",
-    "id": "17849049936512"
-  },
-  {
-    "title": "GeoImageTagger：AI 自动为图片添加地理位置与 SEO 标签",
-    "summary": "Show HN 项目，支持 AI 识别图片位置并写入 EXIF 元数据，含免费计划。",
-    "detail": "GeoImageTagger 是一款针对团队和本地 SEO 的 AI 图片工具。它能自动检测图片地理位置，或手动标记，并生成 SEO 友好的标签和描述。支持批量导出 EXIF、GPS 数据及 CSV。免费计划无需信用卡，支持 HEIC 等多种格式。适合摄影师及需要优化图片元数据的营销人员，简化了地理标记流程。新增图像编辑功能，可裁剪调整及创建社交媒体图形，提升工作流效率。支持多语言标签生成，便于全球化业务部署，无需信用卡即可体验免费计划。这使得本地 SEO 优化变得更加自动化和高效。",
-    "tags": [
-      "New",
-      "SEO",
-      "Image"
-    ],
-    "link": "https://geoimagetagger.com",
-    "date": "2026-07-24",
-    "id": "17849049936513"
   }
 ]
