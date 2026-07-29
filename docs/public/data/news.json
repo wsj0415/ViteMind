@@ -1,5 +1,57 @@
 [
   {
+    "title": "月之暗面 Moonshot AI 完成 35 亿美元融资，估值达 350 亿",
+    "summary": "中国 AI 独角兽 Moonshot AI 获巨额融资，估值飙升，彰显资本市场对大模型赛道信心。",
+    "detail": "### 融资概况\n根据 Bloomberg 报道，中国 AI 初创公司 Moonshot AI 成功完成融资目标，筹集资金达 35 亿美元，投后估值高达 350 亿美元。\n\n### 行业影响\n此次融资是 2026 年 AI 领域重大事件之一，表明尽管市场波动，头部大模型企业仍受资本追捧。Moonshot AI 作为行业领军者，其高估值反映了市场对其技术落地能力及商业化前景的强烈预期，可能加速中国大模型生态的整合与竞争。",
+    "tags": [
+      "News",
+      "融资",
+      "大模型"
+    ],
+    "link": "https://www.bloomberg.com/news/articles/2026-07-29/china-s-moonshot-ai-passes-funding-goal-to-hit-35-billion-value",
+    "date": "2026-07-29",
+    "id": "17853382673720"
+  },
+  {
+    "title": "Encore AI 获 3000 万美元 A 轮，打造基于客户通话的学习型 Agent",
+    "summary": "Encore AI 利用交互挖掘技术训练语音 Agent，可自主学习最佳销售与客服话术。",
+    "detail": "### 产品核心\nEncore AI 获得 Team8 领投的 3000 万美元 A 轮融资。其平台通过分析员工与客户的通话、邮件等交互数据，识别成功模式，训练 AI 语音 Agent。\n\n### 技术亮点\n采用“交互挖掘”技术，Agent 能学习优秀员工的话术、笑话及案例，自主应用于客服或销售场景。该系统可与 CRM 集成，动态优化沟通策略，显著提升企业客户互动效率与转化率，为 AI Agent 在垂直领域的落地提供新范式。",
+    "tags": [
+      "News",
+      "AI Agent",
+      "融资"
+    ],
+    "link": "https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/",
+    "date": "2026-07-29",
+    "id": "17853382673721"
+  },
+  {
+    "title": "前沿模型物理 AI 评测：Claude Fable 5 性能超越 GPT-5.6",
+    "summary": "JuliaHub 评测显示，Claude Fable 5 在物理建模任务中加权得分最高，优于 GPT-5.6 系列。",
+    "detail": "### 评测数据\nJuliaHub 对前沿模型进行物理 AI 任务测试。Claude Fable 5 加权得分 0.889，表现最佳。GPT-5.6 系列中，sol 版本得分 0.814，terra 版本 0.786。\n\n### 技术洞察\n测试涵盖建模、仿真与验证流程。结果显示，在涉及物理正确性的工程领域，Claude Fable 5 更能避免“幻觉”导致的物理错误。尽管 GPT-5.6 成本更低、速度更快，但在高精度科学计算场景，Claude 展现出更强的推理与一致性能力，为物理 AI 选型提供参考。",
+    "tags": [
+      "Dev",
+      "模型评测",
+      "物理 AI"
+    ],
+    "link": "https://juliahub.com/blog/frontier-models-physical-ai-evaluation",
+    "date": "2026-07-29",
+    "id": "17853382673722"
+  },
+  {
+    "title": "NoWreck v0.4.0 发布：确定性 AI 代码验证工具",
+    "summary": "开源 CLI 工具 NoWreck 通过 AST 分析验证 AI 代码修改，防止幻觉函数与虚假调用。",
+    "detail": "### 工具功能\nNoWreck 是一款确定性 AI 验证器，专为 AI 编程助手设计。它不依赖另一个 AI 的意见，而是通过结构化的 AST（抽象语法树）分析，核对 AI 的代码变更解释与实际结构变化是否一致。\n\n### 开发价值\n能有效捕获 hallucinated functions（幻觉函数）、fake calls（虚假调用）及遗漏修改。在 AI 生成代码日益普及的今天，该工具为开发者提供了关键的“信任层”，确保 AI 提交代码的可靠性，适合集成到 CI/CD 流程中保障软件质量。",
+    "tags": [
+      "Dev",
+      "开源工具",
+      "代码安全"
+    ],
+    "link": "https://github.com/AstralXVoid/NoWreck",
+    "date": "2026-07-29",
+    "id": "17853382673723"
+  },
+  {
     "title": "MCP 协议更新：无状态核心与安全扫描",
     "summary": "MCP 发布 2026-07-28 规范，支持无状态服务器，OpenAI 开源安全扫描器。",
     "detail": "Model Context Protocol 发布 2026-07-28 新版规范，核心转为无状态请求/响应模型，移除会话 ID，便于 serverless 部署。Anthropic、AWS 等大厂支持。OpenAI 同步开源 Codex Security CLI，加强 repo 扫描。Nvidia 组建 AI 安全联盟。这对开发者意味着更轻量化的 Agent 集成与更高的安全标准，协议层迎来重大更新，需关注 SDK 升级。无状态核心解决了自托管难题，支持边缘计算，是 Agent 基础设施的重要里程碑。",
@@ -1247,61 +1299,5 @@
     "link": "https://news.ycombinator.com/item?id=49067759",
     "date": "2026-07-27",
     "id": "17851513839310"
-  },
-  {
-    "title": "从零构建 AI Agent 系列：安全加固第三篇",
-    "summary": "深入讲解 AI Agent 安全策略，涵盖路径 scopes、资源限制与审计日志。",
-    "detail": "本教程继续深化 AI Agent 安全架构，在 Docker 沙盒与提示词注入防御基础上，新增工具策略网关。通过路径作用域、Shell denylist 及 SSRF 防护强化执行安全，同时实施资源成本限制与密钥 scrubbing。提供完整的审计日志与紧急 kill switch 机制，为构建生产级安全 Agent 提供实战指南。",
-    "tags": [
-      "Dev",
-      "Tutorial",
-      "Security",
-      "AI Agent"
-    ],
-    "link": "https://www.ruxu.dev/articles/ai/build-an-ai-agent-security-3/",
-    "date": "2026-07-27",
-    "id": "17851513839311"
-  },
-  {
-    "title": "优化 AI Agent 工具设计的最佳实践指南",
-    "summary": "解析工具描述与粒度对 Agent 决策的影响，避免模糊导致的调用失败。",
-    "detail": "文章指出 Agent 表现不佳常源于工具设计而非模型智力。强调工具名称、描述及参数粒度对模型决策的关键作用。分析了工具 ambiguity 导致决策错误、描述不清导致 unused 等问题。建议通过合并相似工具或重命名澄清意图，为开发者设计高效 Agent 工具链提供核心方法论，减少模型幻觉。",
-    "tags": [
-      "Dev",
-      "Best Practice",
-      "AI Agent",
-      "Tool Design"
-    ],
-    "link": "https://www.bolshchikov.com/p/your-agent-isnt-dumb-your-tools-are",
-    "date": "2026-07-27",
-    "id": "17851513839312"
-  },
-  {
-    "title": "Textideo：面向 YouTube 创作的 AI 视频生成工具",
-    "summary": "助力创作者快速生成 YouTube Shorts 及长视频，简化编辑工作流。",
-    "detail": "Textideo 是一款专为 YouTube 创作者设计的 AI 视频生成器，支持将脚本与概念快速转化为 Shorts 及教育类视频。旨在解决传统制作耗时、工具昂贵痛点，通过 AI 工作流提升产出速度与一致性。适合初学者及企业用户，无需高级编辑技能即可制作专业内容，支持多种视频风格生成，加速内容规模化。",
-    "tags": [
-      "New",
-      "Product",
-      "Video Generation",
-      "Content Creation"
-    ],
-    "link": "https://textideo.com/use-cases/youtube",
-    "date": "2026-07-27",
-    "id": "17851513839313"
-  },
-  {
-    "title": "HN 讨论：企业为何普遍 Incorporating AI？",
-    "summary": "社区探讨 AI 普及动因，成本削减与功能简化是主要驱动力。",
-    "detail": "Hacker News 社区热议企业全面整合 AI 的现象。讨论指出主要驱动力包括降低成本及以更简单方式 leveraging 新功能。虽有观点认为部分用例看似无用，但承认 AI 在简化特定任务流程上具备实际效益，反映了行业对 AI 效率提升的认可与成本考量的现实趋势，揭示 AI 落地背后的经济逻辑。",
-    "tags": [
-      "News",
-      "Industry",
-      "Discussion",
-      "Adoption"
-    ],
-    "link": "https://news.ycombinator.com/item?id=49067602",
-    "date": "2026-07-27",
-    "id": "17851513839314"
   }
 ]
