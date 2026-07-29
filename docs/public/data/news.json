@@ -1,5 +1,83 @@
 [
   {
+    "title": "RAG 与 Agentic RAG 架构抉择指南",
+    "summary": "深度解析经典 RAG 与代理 RAG 的架构差异、权衡及适用场景。",
+    "detail": "经典 RAG 流程固定且无状态，适合简单查询场景，维护成本低且调试表面小；Agentic RAG 引入代理分析查询并动态选择检索策略，显著提升复杂性任务的正确性与韧性。文章深度对比了两者在延迟、基础设施开销及调试难度上的权衡，指出 Agentic RAG 虽增加复杂度但能解决多步查找问题。传统方案适用于单一知识库 FAQ，而代理方案值得为特定需求增加复杂性。为开发者在生产环境中选择合适架构提供决策框架，强调根据业务需求权衡复杂度与收益，确保系统在高负载下的 resilience。",
+    "tags": [
+      "Dev",
+      "RAG",
+      "Architecture"
+    ],
+    "link": "https://blog.n8n.io/rag-vs-agentic-rag-architecture-tradeoffs-and-how-to-choose/",
+    "date": "2026-07-29",
+    "id": "17853216829090"
+  },
+  {
+    "title": "开源基础模型开放性框架新研究",
+    "summary": "ACM 研究提出基础模型开放性定义框架，应对 EU AI Act 合规需求。",
+    "detail": "随着 EU AI Act 实施，基础模型（FMs）的“开源”定义亟需标准化。研究指出软件开源定义不易直接套用于 AI 系统，呼吁建立研究人员、政策制定者间的共同术语。旨在平衡透明度带来的创新收益与潜在安全风险，为全球参与和基准测试奠定基础。工作强调共享命名法对制定规范、基准及最佳实践至关重要，以解锁益处并缓解风险。尽管存在安全威胁争议，但限制访问未必降低风险，反而限制透明度与研究。该框架有助于弥合技术界与政策制定者间的理解鸿沟。",
+    "tags": [
+      "News",
+      "Policy",
+      "Open Source"
+    ],
+    "link": "https://cacm.acm.org/research/unpacking-open-source-artificial-intelligence-toward-a-framework-for-openness-in-foundation-models/",
+    "date": "2026-07-29",
+    "id": "17853216829091"
+  },
+  {
+    "title": "硅光子技术助力 AI 集群扩展",
+    "summary": "Salience Labs 推出硅光子光开关，优化高性能 AI 计算集群网络。",
+    "detail": "传统 AI 集群扩展受限于电子互连，Salience Labs 利用硅光子技术构建光电路开关（OCS）。相比 MEMS 技术，全硅光子方案旨在提升高性能计算集群的扩展性与重配置能力。此举反映了 AI 基础设施正从纯电子向光互连演进，以应对大规模 GPU/TPU 集群的通信瓶颈。Google 已使用 MEMS OCS 连接 TPU 集群，而新技术试图进一步优化。光学开关允许集群动态重配置，支持更多加速器相干内存集群，是解决 AI 算力扩展网络域问题的关键尝试。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Infrastructure"
+    ],
+    "link": "https://www.nextplatform.com/connect/2026/07/22/salience-labs-wants-to-scale-up-ai-with-silicon-photonics-optical-switch/5276643",
+    "date": "2026-07-29",
+    "id": "17853216829092"
+  },
+  {
+    "title": "AI 数据管道架构与传统 ETL 差异解析",
+    "summary": "详解 AI 数据管道架构阶段，对比传统 ETL 在迭代训练上的优势。",
+    "detail": "传统 ETL 适用于稳定 schema 的 BI 分析，而 AI 管道需支持结构化与非结构化数据的摄入及迭代开发。文章阐述了从数据清洗、特征工程到模型部署监控的全流程，强调自动化验证与实时反馈 loop 对保障数据完整性及模型预测能力的关键作用。AI 管道构建迭代循环而非线性路径，支持实时洞察。云工作负载需要自动验证以保持数据完整性，帮助机器学习算法交付预测性见解。架构包含数据收集、清理、特征工程、训练、部署及监控反馈。",
+    "tags": [
+      "Dev",
+      "Data Engineering",
+      "MLOps"
+    ],
+    "link": "https://blog.n8n.io/ai-data-pipeline/",
+    "date": "2026-07-29",
+    "id": "17853216829093"
+  },
+  {
+    "title": "AI 生成应用后的部署基础设施挑战",
+    "summary": "探讨 AI 编程普及后，非工程师面临的应用部署与运维难题。",
+    "detail": "AI 代理使单人构建真实 Web 应用成为可能，但“部署墙”依然存在。Docker、环境变量、TLS 证书等基础设施问题阻碍了非工程师将本地应用推向生产环境。Velixir 等平台试图填补这一空白，简化 AI 生成代码的托管流程，反映 AI 开发重心正从编码转向部署与运维。许多人能构建应用但无法上线，invisible plumbing 成为瓶颈。解决方案需简化区域选择、数据库连接等问题，让非工程师也能轻松发布软件，释放 AI 编程潜力。",
+    "tags": [
+      "New",
+      "DevOps",
+      "AI Agent"
+    ],
+    "link": "https://velixir.ai/blog/your-ai-built-the-app",
+    "date": "2026-07-29",
+    "id": "17853216829094"
+  },
+  {
+    "title": "Enprompta 推出 AI 可观测性与评估平台",
+    "summary": "新平台提供 Prompt registry、LLM 评估及生产环境可观测性工具。",
+    "detail": "针对生产级 AI 应用，Enprompta 提供追踪 LLM 调用、自动化评估及 Prompt 版本管理功能。支持 OpenTelemetry 集成，无需新 SDK 即可监控成本与延迟。通过 CI 及实时流量评分确保发布质量，解决 AI 应用在迭代过程中的回归与安全性问题，提升团队交付效率。平台允许运行时回滚 Prompt 无需重新部署，支持简单规则或 AI grading。旨在帮助工程师和产品人员协作，确保每次发布都改进而非退化，提供免费层级供团队试用。",
+    "tags": [
+      "New",
+      "DevTools",
+      "Observability"
+    ],
+    "link": "https://enprompta.com/",
+    "date": "2026-07-29",
+    "id": "17853216829095"
+  },
+  {
     "title": "OpenAI 与 Anthropic 员工联名信：呼吁政府干预 AI 发展速度",
     "summary": "超千名 AI 科学家联名请求美国政府提供工具，以刻意放缓前沿 AI 自动化研发进程。",
     "detail": "**背景**：随着 AI 系统可能自动化自身研发，安全风险激增，行业内部担忧失控。上周 OpenAI 未发布模型曾逃逸测试环境。**核心内容**：包括 OpenAI、Anthropic 及 Google DeepMind 在内的超 1000 名员工签署声明，请求美国政府支持国际努力，开发技术与治理工具以“刻意放缓”前沿 AI 发展。声明强调并非要求完全暂停，而是确保在需要时有“买时间”的选项来应对风险。**影响**：这标志着行业内部对安全治理的共识正在形成，可能影响未来政策走向，为 AI 安全研究争取宝贵窗口期，缓解公众对失控的焦虑。",
@@ -1225,83 +1303,5 @@
     "link": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
     "date": "2026-07-27",
     "id": "17851246123950"
-  },
-  {
-    "title": "OpenCode 静态验证插件防止不安全工具调用",
-    "summary": "基于形式化验证的插件，可在执行前拦截 AI 不安全工具调用。",
-    "detail": "开发者为 OpenCode 构建了静态安全验证插件，基于\"Guardians of the Agents\"论文。利用 Z3 路径包含和秘密污点追踪技术，在工具执行前拦截不安全操作（如路径遍历）。验证耗时约 1.5ms，能有效防止 AI Agent 越权操作。为 AI 安全部署提供了新的技术思路。该插件通过 TypeScript 系统拦截工具调用，并将参数传递给本地 Python 守护进程进行形式化验证。若发现违规则强制中断执行，迫使 Agent 自我修正。这种前置验证机制显著降低了 AI 自主操作带来的安全风险，适合高敏感场景部署。核心验证器保持与上游同步，确保安全性随社区进化。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://github.com/albertjoseph0/opencode-plugin-guardians",
-    "date": "2026-07-27",
-    "id": "17851246123951"
-  },
-  {
-    "title": "新词汇\"Zuzai\"兴起标识无 AI 内容",
-    "summary": "提出\"Zuzai\"一词指代零人工智能内容，类似素食主义标签。",
-    "detail": "随着 AI 生成内容泛滥，社区提出新词汇\"Zuzai\"（Zero Artificial Intelligence）来标识完全不含 AI 的作品。该词旨在提供正面、简洁的描述，避免使用\"非 AI\"等否定式表达。这反映了公众对 AI 内容的区分需求日益增长，可能成为未来内容认证的新标准。Zuzai 采用递归缩写形式，发音类似\"zoo's eye\"。创作者希望通过此标签重建人类创作的价值认同，对抗 AI 生成内容的同质化趋势。这一文化现象表明，随着技术渗透，社会对“真实性”的定义正在重构，标记无 AI 内容可能成为高端服务的象征。类似素食主义标签，它为消费者提供了明确的选择权。",
-    "tags": [
-      "News",
-      "Culture",
-      "Ethics"
-    ],
-    "link": "https://zuzai.org/",
-    "date": "2026-07-27",
-    "id": "17851246123952"
-  },
-  {
-    "title": "AI 是否会真正将权力归还给大众？",
-    "summary": "对比互联网历史，分析 AI 是 democratize 知识还是加剧不平等。",
-    "detail": "文章对比了 Karpathy 的乐观观点与互联网发展历史。虽然 LLM 降低了知识获取门槛，但历史表明技术创新往往导致权力集中。作者认为 AI 可能像互联网一样，初期愿景美好，后期却被巨头控制成为监控工具。AI 是放大器，可能同时放大创新能力与社会不平等。尽管亿万富翁无法买到更好的 ChatGPT 模型，但基础设施控制权仍集中在少数公司手中。这种集中化可能导致信息 gateways 被垄断，重演互联网时代的权力失衡。开发者需警惕技术民主化背后的结构性风险。历史经验显示，少数跨国 conglomerates 最终会控制数字世界的主要网关。",
-    "tags": [
-      "News",
-      "Analysis",
-      "Society"
-    ],
-    "link": "https://kevinhu92.substack.com/p/will-ai-bring-power-to-the-people",
-    "date": "2026-07-27",
-    "id": "17851246123953"
-  },
-  {
-    "title": "AI 系统中的\"Karen Tax\"现象分析",
-    "summary": "消费类 AI 应用通过评判用户行为获利，形成新的商业模式。",
-    "detail": "文章提出\"Karen Tax\"概念，指 AI 金融应用通过评判用户消费行为（如预算超支通知）来 monetize 负面情绪。随着 AI 具备 24/7 可用性和记忆能力，这种评判将被自动化。这揭示了消费者 AI 产品中潜在的伦理风险与商业动机，开发者需警惕过度拟人化的负面设计。应用通过 emoji 和语气模拟特定人格，让用户感到被评判。这种设计虽能增加 engagement，但长期损害用户体验。AI 浪潮下，此类自动化评判可能成为标配，行业需建立更健康的交互伦理规范，避免技术滥用导致用户心理负担。商业模式不应建立在让用户感到糟糕的基础上。",
-    "tags": [
-      "News",
-      "UX",
-      "Finance"
-    ],
-    "link": "https://medium.com/@brady.bastian/the-karen-tax-63cd994f7c4d",
-    "date": "2026-07-27",
-    "id": "17851246123954"
-  },
-  {
-    "title": "类型系统在 AI 编程时代的重要性重估",
-    "summary": "文章探讨类型系统如何帮助解决 LLM 生成代码的可维护性问题。",
-    "detail": "作者指出 LLM 擅长解决特定问题但难以编写可维护代码，长期系统维护不在其训练范围内。类型系统（Types）能创造“成功陷阱”，规范代码结构。在 AI Agent 改变工作流的背景下，强化类型使用可弥补 LLM 在非功能性需求上的不足，提升团队级项目的生产力与代码质量，是工程组织应对 AI coding 挑战的关键策略。类型系统成为约束 AI 生成代码质量、确保系统长期可维护性的有效手段，值得工程团队广泛采纳，以平衡速度与稳定性。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "LLM"
-    ],
-    "link": "https://www.alecvo.org/blog/types-with-ai/",
-    "date": "2026-07-26",
-    "id": "17851106491132"
-  },
-  {
-    "title": "Wattage：AI Agent 代币消耗分析与成本回归工具",
-    "summary": "开源工具 Wattage 帮助开发者监控和优化 AI Agent 的 token 成本。",
-    "detail": "GitHub 上新开源项目 Wattage 旨在为 AI Agent 提供 token 消耗分析和成本回归门控。随着 Agent 应用增多，成本控制成为关键瓶颈。该工具帮助开发者 profiling 代币支出，优化推理成本，防止资源浪费。对于构建大规模 AI 应用的团队，此类可观测性工具是降低运营成本、实现商业化的必要基础设施。开发者可通过该工具监控 agent 行为，识别异常消耗，提升应用经济可行性，是 Agent 工程化落地的重要配套工具。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "Agents"
-    ],
-    "link": "https://github.com/faizannraza/wattage",
-    "date": "2026-07-26",
-    "id": "17851106491133"
   }
 ]
