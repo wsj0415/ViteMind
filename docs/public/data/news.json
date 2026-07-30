@@ -1,5 +1,70 @@
 [
   {
+    "title": "微软 Anthropic 投资获利 32 亿美元，OpenAI 表现 mixed",
+    "summary": "微软财报显示 Anthropic 投资获利 32 亿美元，而 OpenAI 投资减值约 6 亿美元。",
+    "detail": "微软 2026 财年第四季度财报披露了一项关键数据：其对 Anthropic 的 50 亿美元投资录得 32 亿美元收益，直接使每股稀释收益增加 33 美分。相比之下，同期对 OpenAI 的投资减值约 6 亿美元，表现参差不齐。Anthropic 协议还包括购买 300 亿美元 Azure 服务的承诺。这反映了微软在双头押注策略下的不同回报表现，Anthropic 的商业化进程似乎更受资本市场认可。微软并未每季度更新 Anthropic 估值，但此次收益显著提振了财报表现，显示企业级 AI 合作模式的潜力。投资者需关注两家实验室后续的技术落地能力及 Azure 消耗情况，这将决定微软 AI 战略的长期 ROI。此消息引发市场对 AI 投资回报周期的重新思考。",
+    "tags": [
+      "News",
+      "Microsoft",
+      "Investment"
+    ],
+    "link": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
+    "date": "2026-07-29",
+    "id": "17853698753570"
+  },
+  {
+    "title": "扎克伯格预言：五年内数十亿人将拥有个人 AI 代理",
+    "summary": "Meta CEO 预测五年内数十亿人将拥有个人 AI 代理，WhatsApp 将成为关键交互平台。",
+    "detail": "Meta CEO 扎克伯格在财报会议上表示，五年内数十亿人将拥有理解其目标并 24/7 工作的个人 AI 代理。这些代理将协助财务、健康及家庭管理。他强调 WhatsApp 等消息平台将成为人与代理交互的核心界面。Meta 正致力于构建超越问答的行动型 AI 系统，这与 Google 的自定义 AI 代理战略相呼应，标志着 AI 从内容生成向任务执行的范式转变。未来数据中心效率将是支撑这一愿景的关键挑战。扎克伯格希望 Meta AI 成为用户日常生活的核心助手，这不仅需要技术突破，还需解决隐私与信任问题，企业级机会也将随之扩展至 API 与算力销售。Meta 试图通过消息应用构建护城河，抵御其他巨头在代理层的竞争。",
+    "tags": [
+      "News",
+      "Meta",
+      "AI Agents"
+    ],
+    "link": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/",
+    "date": "2026-07-29",
+    "id": "17853698753571"
+  },
+  {
+    "title": "芯片股市值蒸发超 1 万亿美元，AI 繁荣遭遇抛售",
+    "summary": "芯片股票抛售潮导致市值蒸发超 1 万亿美元，引发对 AI 基础设施依赖的担忧。",
+    "detail": "CNBC 报道显示，芯片股票遭遇大规模抛售，市值蒸发超过 1 万亿美元，波及 SK 海力士、三星等 AI  boom 关键推动者。市场开始质疑 AI 繁荣的可持续性以及对 Nvidia 等单一供应商的过度依赖。Mark Cuban 和 Michael Burry 等投资者警告这种依赖性存在风险。此次抛售反映了资本市场对 AI 基础设施投入产出比的重新评估，可能影响后续硬件投资节奏，行业需警惕泡沫风险。随着 AI 模型训练成本上升，若应用端无法产生足够营收，硬件需求可能放缓。投资者正从盲目追捧转向理性审视供应链健康度，短期波动可能加剧。半导体行业需证明 AI 负载能持续转化为实际利润，否则估值修正将持续。",
+    "tags": [
+      "News",
+      "Market",
+      "Hardware"
+    ],
+    "link": "https://www.cnbc.com/2026/07/29/chip-selloff-sk-hynix-samsung-softbank.html",
+    "date": "2026-07-29",
+    "id": "17853698753572"
+  },
+  {
+    "title": "OpenLore：为 AI 编码代理提供确定性本地记忆与护栏",
+    "summary": "开源工具 OpenLore 通过静态分析为 AI 代理提供本地记忆和安全护栏，无需 LLM 介入。",
+    "detail": "OpenLore 是一个面向 AI 编码代理的开源工具，主打确定性和本地优先的记忆管理。它通过静态分析而非 LLM 来判断代码任务触及的范围及不安全更改，确保每次回答一致且无需 API 密钥。该工具旨在解决 AI 代理在代码修改中的不可控风险，提供“一次调用告知触及代码，一次网关告知 unsafe 更改”的机制。适合关注 AI 安全性和可控性的开发者集成到工作流中，无需依赖云端模型即可实现护栏功能。在 AI 代理自主性增强的背景下，此类本地护栏工具对于防止代码库污染至关重要，为开发者提供了更安全的自动化编程环境，支持 Node.js 环境部署。它是构建可信 AI 开发流程的重要基础设施组件，降低了代理 hallucination 带来的风险。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Security"
+    ],
+    "link": "https://github.com/clay-good/OpenLore",
+    "date": "2026-07-29",
+    "id": "17853698753573"
+  },
+  {
+    "title": "Pico：赋能创作者的 AI 色彩分级工具",
+    "summary": "Pico 不是全自动编辑器，而是辅助创作者进行 S-Log3 到 Rec.709 色彩空间转换的 AI 工具。",
+    "detail": "Pico 是一款基于 Claude harness 的 AI 色彩校正工具，旨在赋能而非替代创作者。它不自动分级，而是消除将 footage 从 S-Log3 标准化到 Rec.709 色彩空间的繁琐过程。开发者强调创意行为不应被自动化抹杀，工具应增强艺术家表达能力。该项目开源，适合视频创作者探索 AI 辅助工作流，平衡效率与创意控制权。它代表了 AI 工具从全自动生成向辅助增强转型的趋势。对于专业视频团队，Pico 提供了标准化流程的加速方案，同时保留最终艺术决策权，避免了通用 AI 视频编辑器可能带来的风格同质化问题，适合独立创作者使用。这种“人机协作”理念可能成为未来创意工具的主流设计方向，值得行业关注。",
+    "tags": [
+      "New",
+      "Video",
+      "Creative"
+    ],
+    "link": "https://www.perbhat.com/pico",
+    "date": "2026-07-29",
+    "id": "17853698753574"
+  },
+  {
     "title": "Meta 股价暴跌，AI 巨额支出引发投资者担忧",
     "summary": "Meta 股价跌 11%，因 AI 支出激增至 1450 亿美元而利润下滑，现金流降至五年最低。",
     "detail": "Meta 公布季度财报，营收增长但利润下降 14%，股价随之大跌。公司计划今年投入 1300 亿至 1450 亿美元用于 AI 项目，远超此前预期。扎克伯格强调 AI 将加速核心业务，但自由现金流降至五年最低。投资者对高昂的 AI 资本支出与回报不成正比表示担忧，谷歌也面临类似现金流压力，显示行业普遍面临变现挑战。",
@@ -1233,70 +1298,5 @@
     "link": "https://mealyu.com",
     "date": "2026-07-27",
     "id": "17851970033785"
-  },
-  {
-    "title": "纳德拉警告：依赖单一 AI 模型的企业难以生存",
-    "summary": "微软 CEO 称企业需保留数据所有权，避免外包思维。",
-    "detail": "微软 CEO 萨蒂亚·纳德拉发出严峻警告，完全依赖专有 AI 实验室的企业将无法生存。他强调企业必须保留所有使用数据及元数据，以便未来训练自有权重或开放模型。纳德拉建议将提示层与模型层分离，避免思维外包。这对企业 AI 战略有深远影响，提示需建立自有 AI 基础设施或网关，防止被单一供应商锁定。失去控制权的公司将 outsourced thinking，最终丧失竞争力与数据主权。他特别指出应停止依赖 AI 实验室内置的编码工具，保持 harness 与模型分离，确保企业长期独立性与安全性，行业需重新审视模型依赖风险。",
-    "tags": [
-      "News",
-      "Microsoft",
-      "Strategy"
-    ],
-    "link": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
-    "date": "2026-07-27",
-    "id": "17851902142170"
-  },
-  {
-    "title": "AMD 发布 CDNA5 架构与 MI455 GPU",
-    "summary": "AMD Advancing AI 大会披露新一代数据中心 GPU 架构细节。",
-    "detail": "AMD 在 Advancing AI 2026 活动上展示了基于 RDNA 重构的 CDNA5 架构。Corporate Fellow Alan Smith 解释了从 GCN 转型的考量，旨在提升效率与现代性。新架构应用于 MI455 和 Helios，标志着 AMD 数据中心 GPU 路线图的重大更新。此次架构 rebasing 解决了缓存系统与执行引擎的遗留问题，显著改进工作调度与指令发射。影响 AI 算力格局，为数据中心提供更高效能选择，挑战现有 GPU 市场地位。开发者需关注新架构带来的性能优化与兼容性变化，这将直接影响大规模模型训练成本与推理效率，是硬件层的重要迭代信号。",
-    "tags": [
-      "News",
-      "Hardware",
-      "GPU"
-    ],
-    "link": "https://chipsandcheese.com/p/amd-advancing-ai-2026-talking-cdna5",
-    "date": "2026-07-27",
-    "id": "17851902142171"
-  },
-  {
-    "title": "AI 代理打破了现有工具链的单人假设",
-    "summary": "开发者分享 AI 代理导致 CI/CD 和 Git 工作流失效的实战经验。",
-    "detail": "资深开发者 Christopher Meiklejohn 指出，现有工具链（Git、Code Review）均假设单一人类作者。AI 代理的并发性和非人类特性打破了这一假设，导致构建失败和成本激增。文章呼吁重构工具以适应多代理协作，对 AI 工程化具有警示意义。他分享了三天的故障经历，burn through 整个 Codex 计划。nothing in the stack detects the violation. 这揭示了 AI 代理规模化时的基础设施缺陷，开发者需重新设计 CI/CD 流程以支持多代理读写冲突检测，避免隐性成本与错误归因，确保系统可靠性。工具层需进化以识别代理行为，否则错误将被归因于错误的变更，按全价支付成本，这是 AI 原生开发必须解决的痛点。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Engineering"
-    ],
-    "link": "https://christophermeiklejohn.com/ai/zabriskie/agents/reliability/testing/ci/distributed/2026/07/27/one-writer.html",
-    "date": "2026-07-27",
-    "id": "17851902142172"
-  },
-  {
-    "title": "开源项目为 solo 创始人提供 GTM 代理技能",
-    "summary": "GitHub 开源项目提供定位、定价等 Go-To-Market 代理技能框架。",
-    "detail": "针对独自构建 AI 工具的 technical founder，该项目开源了一套 GTM 代理技能库。包含定位、首批用户获取、定价等实战框架，由行业专家 sharpened。旨在解决开发者缺乏商业共创始人的痛点，适合独立开发者参考。基于真实 dev-tool GTM 经验，提供具体数字与下一步行动，非理论课程。MIT 许可，可集成到现有 agent 中。帮助 solo founder 解决 who is this for 等核心商业问题，降低创业门槛。这是 AI 时代独立开发者的实用资源库，填补了技术创始人商业能力短板，通过 agent 技能形式提供即时支持，无需组建团队即可执行专业 GTM 策略。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Startup"
-    ],
-    "link": "https://github.com/AIDevGTM/gtm-cofounder",
-    "date": "2026-07-27",
-    "id": "17851902142173"
-  },
-  {
-    "title": "2026 Q2 AI SaaS 行业趋势报告发布",
-    "summary": "Relve 发布季度报告，筛选出 29 个影响 SaaS 企业的关键信号。",
-    "detail": "Relve 分析了 23000+ 工具及 182 个发展动态，仅 29 个被视为关键信号。报告涵盖融资、工具重分类等行业数据，本季度融资总额达 935.6 亿美元。为 SaaS 创始人提供了去噪后的行业洞察，辅助预算与 vendor 选择。季度 AI 情报报告分离了重要 shifts 与 noise。9 categories and 69 attributes reviewed. 26 industry events tracked. 帮助创始人判断何时行动，避免被 flood of AI news 淹没。数据驱动决策，明确哪些变化影响 build, staff, budget，是行业观察者的必备参考。1881 工具被 shortlisted，仅 2 个事件产生 Signal，凸显市场噪音之大，报告提供 verifiable change 值得立即行动。",
-    "tags": [
-      "News",
-      "SaaS",
-      "Report"
-    ],
-    "link": "https://relvehq.com/ai-reports/2026-q2-the-state-of-ai-for-saas-companies-fullview",
-    "date": "2026-07-27",
-    "id": "17851902142174"
   }
 ]
