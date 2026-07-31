@@ -1,5 +1,57 @@
 [
   {
+    "title": "OpenAI 摧毁柬埔寨 AI 诈骗团伙",
+    "summary": "OpenAI 披露破坏柬埔寨诈骗行动，涉及人身 trafficking 风险。",
+    "detail": "OpenAI 官方披露今年早些时候破坏了一个位于柬埔寨的诈骗网络，该调查始于 WhatsApp 提供的线索。该网络利用 ChatGPT 创建虚假人设、生成诈骗消息及翻译内容，涉及投资、浪漫、赌博及执法冒充等多种 scheme。调查中发现部分内容暗示与人口贩卖和强迫犯罪有关，符合东南亚组织犯罪通过债务束缚招募工人的报道。OpenAI 已向行业合作伙伴和当局分享威胁信号，强调现代诈骗网络常混合多种技术，且施害者本身也可能是剥削受害者。模型被用于支持日常运营及推广内容生成。此事件凸显了 AI 被组织犯罪滥用的现实风险及安全治理的紧迫性，提醒人们关注技术背后的伦理与安全隐患。",
+    "tags": [
+      "News",
+      "Safety",
+      "OpenAI"
+    ],
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+    "date": "2026-07-31",
+    "id": "17855195247360"
+  },
+  {
+    "title": "OpenAI 大幅降价与 AI 基础设施并购",
+    "summary": "GPT-5.6 Luna 降价 80%，Nscale 收购 Anyscale，Google 发布机器人模型。",
+    "detail": "每日 AI 简报显示 OpenAI 将 GPT-5.6 Luna 价格下调约 80%，输入输出价格从$1/$6 降至$0.20/$1.20 per million tokens，使批量 API 工作更经济。基础设施买家 Nscale 以 16.5 亿美元收购 Anyscale，Ray 将继续在 PyTorch 基金会下开源。Google DeepMind 发布 Gemini Robotics 2 用于人形机器人控制。欧盟开启 100 亿欧元 AI 巨型工厂招标，截止 11 月 12 日。AWS 季度营收 422 亿美元，创 18 个季度最快增长。这些动态表明 AI 成本正在下降，基础设施整合加速，为开发者提供了新的成本计算模型和构建机会。",
+    "tags": [
+      "News",
+      "Pricing",
+      "Infrastructure"
+    ],
+    "link": "https://ddsboston.com/blogs/vibe-code-academy/ai-news-for-vibe-coders-daily-2026-07-31",
+    "date": "2026-07-31",
+    "id": "17855195247361"
+  },
+  {
+    "title": "构建 AI 工作流的事件溯源架构指南",
+    "summary": "探讨事件溯源在 AI 工作流中的优势，保留历史决策上下文。",
+    "detail": "n8n 博客深入分析了事件溯源（Event Sourcing）模式，建议企业在 AI 工作流中采用该架构。与传统 CRUD 不同，它存储事件序列而非最新状态，便于重建过去状态和审计。对于依赖历史上下文和决策 traces 的 AI 系统，事件溯源能提供完整的数据血缘。文章讨论了其在存储、查询一致性方面的权衡，适合需要高可追溯性的企业级 AI 应用。该模式将变更视为系统永久记录的一部分，通过追加日志存储事件，而非覆盖旧值。虽然引入了存储和操作复杂性，但对于需要重构过去状态或维护完整审计 trail 的系统至关重要，特别是在 AI 决策需要透明度的场景。",
+    "tags": [
+      "Dev",
+      "Architecture",
+      "AI Workflow"
+    ],
+    "link": "https://blog.n8n.io/event-sourcing/",
+    "date": "2026-07-31",
+    "id": "17855195247362"
+  },
+  {
+    "title": "Derek Sivers 的 AI 使用原则宣言",
+    "summary": "知名创业者声明绝不使用 AI 写作或编码，坚持人类创作。",
+    "detail": "创业者 Derek Sivers 公布其 AI 使用政策，明确表示虽使用 OpenRouter 和命令行工具查询知识，但绝不用于编写代码或撰写文章邮件。他强调“重在实践而非拥有”，认为写作是组织思维的过程，必须由自己完成。该宣言反映了部分技术领袖对 AI 替代人类创造力的警惕，倡导将 AI 作为辅助工具而非替代者。他承诺若未来政策变化会更新页面，并推荐了相关的 AI Manifesto。这为个人 AI 伦理提供了参考范本，强调在享受便利的同时保持人类主体性和创作挑战的重要性，反对完全依赖 AI 生成内容。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Workflow"
+    ],
+    "link": "https://sive.rs/ai",
+    "date": "2026-07-31",
+    "id": "17855195247363"
+  },
+  {
     "title": "OpenAI 宣布 GPT-5.6 大幅降价",
     "summary": "GPT-5.6 Luna 降价 80%，推动智能普及与经济循环。",
     "detail": "OpenAI 发布新定价策略，强调“丰富智能”理念。GPT-5.6 Luna 输入 token 降至$0.20，Terra 降至$2。此举旨在降低有用智能成本，扩大应用场景，通过更广泛采用支持下一代研发投资，形成良性经济循环。Fast 模式速度提升 2.5 倍，为用户提供更多灵活性平衡智能与成本。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.nature.com/articles/d41586-026-02315-9",
     "date": "2026-07-29",
     "id": "17853301318641"
-  },
-  {
-    "title": "PassControl：AI Agent 凭证安全网关",
-    "summary": "新工具防止 AI 代理持有真实 API 密钥，通过加密身份代理请求。",
-    "detail": "PassControl 推出 Agent 凭证网关，解决 AI 代理持有 API 密钥的安全风险。Agent 仅持有 Ed25519 护照签名，真实密钥由网关注入并代理请求。支持范围控制、预算限制及审计。无需修改现有代码，通过 npm 安装。这是构建企业级 AI Agent 的重要安全基础设施，防止密钥泄露与滥用。策略顺序为验证、熔断、范围、预算，确保身份跨越边界而秘密不泄露，适合高安全需求场景。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://passcontrol.vertias.eu/",
-    "date": "2026-07-29",
-    "id": "17853301318642"
-  },
-  {
-    "title": "Echologue：本地优先的私人语音日记",
-    "summary": "秀出 HN 新品，将语音笔记转化为可查询的私人记忆，本地处理保护隐私。",
-    "detail": "Echologue 是一款本地优先的语音日记应用，将杂乱语音笔记转化为结构化记忆。支持 iOS/Android，AI 处理仅在本地 ephemeral 进行，默认隐私保护。用户可针对历史记录提问（如“巴塞罗那之旅亮点”），而非通用聊天机器人。适合注重隐私且希望利用 AI 增强个人知识管理的用户。区分事实与情感追踪，确保回忆可信，是个人 AI 记忆库的新尝试。",
-    "tags": [
-      "New",
-      "Privacy",
-      "App"
-    ],
-    "link": "https://echologue.com/",
-    "date": "2026-07-29",
-    "id": "17853301318643"
-  },
-  {
-    "title": "AI 搜索时代，SEO 还能带来 inbound 线索吗？",
-    "summary": "行业分析指出 AI 搜索改变 SEO 格局，长指南失效，精准问答页更有效。",
-    "detail": "文章探讨 AI 搜索对 SEO 的影响。传统 2000 字指南模式效果下降，AI 引擎倾向于引用精准回答特定问题的段落。成功策略转向窄化内容，直接回答买家具体疑问。虽然流量可能减少，但转化率更高。营销人员需调整内容策略，从争夺头部关键词转向提供可被 AI 引用的具体答案。SEO fundamentals 仍有效，但格式需适应 AI 引用习惯，长尾问题页价值上升。",
-    "tags": [
-      "News",
-      "SEO",
-      "Marketing"
-    ],
-    "link": "https://cuescout.com/blog/does-seo-still-generate-inbound-leads",
-    "date": "2026-07-29",
-    "id": "17853301318644"
-  },
-  {
-    "title": "RAG 与 Agentic RAG 架构抉择指南",
-    "summary": "深度解析经典 RAG 与代理 RAG 的架构差异、权衡及适用场景。",
-    "detail": "经典 RAG 流程固定且无状态，适合简单查询场景，维护成本低且调试表面小；Agentic RAG 引入代理分析查询并动态选择检索策略，显著提升复杂性任务的正确性与韧性。文章深度对比了两者在延迟、基础设施开销及调试难度上的权衡，指出 Agentic RAG 虽增加复杂度但能解决多步查找问题。传统方案适用于单一知识库 FAQ，而代理方案值得为特定需求增加复杂性。为开发者在生产环境中选择合适架构提供决策框架，强调根据业务需求权衡复杂度与收益，确保系统在高负载下的 resilience。",
-    "tags": [
-      "Dev",
-      "RAG",
-      "Architecture"
-    ],
-    "link": "https://blog.n8n.io/rag-vs-agentic-rag-architecture-tradeoffs-and-how-to-choose/",
-    "date": "2026-07-29",
-    "id": "17853216829090"
   }
 ]
