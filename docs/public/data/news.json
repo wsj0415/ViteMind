@@ -1,5 +1,83 @@
 [
   {
+    "title": "Google 利用 AI 修复 Chrome 漏洞数量创两年新高",
+    "summary": "Google 安全团队利用 LLM 规模化发现并修复安全漏洞，效率显著提升。",
+    "detail": "Google Chrome 安全团队宣布，通过部署大语言模型（LLM）自动化漏洞发现、分类和修补流程，6 月份修复的漏洞数量超过过去两年总和。该技术标志着软件安全行业的重大转变，AI 模型能够超越人类专家极限，快速识别安全隐患并发布更新。团队自 2023 年起利用 AI 增强模糊测试覆盖率，2024 年与 Project Zero 合作开发专用工具。漏洞生命周期包括发现、分类、修复、更新及重启应用，目标是每步尽可能快。此举旨在实现更强的韧性和综合修复能力，为 AI 时代的网络安全树立新标杆，展示规模化 AI 模型在查找和修复数百个安全 bug 方面的 unprecedented capabilities，确保用户数据安全。",
+    "tags": [
+      "News",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://blog.google/security/chrome-stronger-with-every-update/",
+    "date": "2026-07-31",
+    "id": "17854843298670"
+  },
+  {
+    "title": "Mozilla 基准测试评估开源 AI Agent 护栏安全性",
+    "summary": "Mozilla AI 发布报告，测试开源护栏能否有效保护 AI Agent 免受工具 poisoning 等攻击。",
+    "detail": "Mozilla AI 发布技术文章，深入探讨开源护栏（Guardrails）在保护 AI Agent 方面的有效性。随着 Agent 能够调用函数及访问外部资源，传统护栏面临挑战。文章引用 OWASP 及最新研究，分析了工具 poisoning、推理故障放大及间接提示注入等风险。大多数现有护栏并非为保护这些操作而构建，agentic 系统带来的风险增加需新 approaches。旨在为开发者提供评估框架，确保 agentic 系统在实际部署中的安全性与可靠性，防止恶意动作或数据泄露，解决 AI Agent 扩展 beyond text generation 后的安全缺口，保护内部及外部资源访问安全。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://blog.mozilla.ai/can-open-source-guardrails-really-protect-ai-agents/",
+    "date": "2026-07-31",
+    "id": "17854843298671"
+  },
+  {
+    "title": "SAP 大力推动 Tabular AI，企业级 AI 回归结构化数据",
+    "summary": "相比聊天机器人，SAP 认为企业核心价值在于处理表格与结构化数据的 AI 模型。",
+    "detail": "在生成式 AI 热潮下，SAP 指出企业真正的业务价值并非源于非结构化文本，而是基于 ledger、行与列的结构化数据。ERP 系统作为全球大型组织的数据记录核心，依赖关系型表格数据。SAP 正推动 Tabular AI 发展，以解决库存预测、供应链匹配等实际问题。当企业需要 forecast inventory shortages 或 match millions of 记录时，结构化数据是唯一 truth source。这表明企业级 AI 应用正从对话 hype 回归到核心业务数据的深度处理与价值挖掘，揭示全球 commerce foundational mechanics 中 real business value lies in a different kind of AI Model，而非仅仅 chatbots。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Data"
+    ],
+    "link": "https://pub.towardsai.net/saps-big-push-for-tabular-ai-what-it-means-for-enterprises-7dc3af2a1d8c?sk=73d9e33939f8f38b3d7ea49f87bb2e6a",
+    "date": "2026-07-31",
+    "id": "17854843298672"
+  },
+  {
+    "title": "Slaide 发布：AI 可编写的开源 Markdown 幻灯片工具",
+    "summary": "通过 Markdown 和 YAML 生成幻灯片，避免 AI 直接生成 PPTX XML 导致的幻觉问题。",
+    "detail": "Slaide 是一款开源工具，旨在解决 AI 生成演示文稿的格式难题。传统 PPTX 文件包含复杂 XML，易导致 AI 幻觉和布局损坏。Slaide 采用纯文本 `.slaide` 文件（Markdown 内容+YAML 主题），仅约 10KB，AI 可准确编写。支持转换为 Web deck、PDF 及可编辑 PowerPoint，实现内容与设计分离，支持版本控制。用户可连接 Claude Code 等 Agent，使其学习该语言。Agent 起草并编辑纯文本文件，验证同时进行。这为开发者提供了更可靠的 AI 幻灯片生成方案，让 model gets right the first time，避免 brittle XML 导致的 corrupted file 问题，提升协作效率。",
+    "tags": [
+      "New",
+      "Dev",
+      "OpenSource"
+    ],
+    "link": "https://getslaide.com/",
+    "date": "2026-07-31",
+    "id": "17854843298673"
+  },
+  {
+    "title": "ZenResume 上线：免费本地优先的 AI ATS 简历构建器",
+    "summary": "无需账户，数据本地存储，集成 Gemini AI 解析简历，确保隐私与 ATS 兼容性。",
+    "detail": "ZenResume 是一款免费的本地优先简历构建工具，专为通过 ATS（申请人跟踪系统）设计。用户无需注册账户，所有个人数据仅保存在浏览器本地缓存，确保 100% 隐私。集成 Gemini AI 可自动解析 messy PDF 或文本并预填字段。提供 7 种招聘人员认可的模板，支持高保真矢量 PDF 导出。利用 native CSS print compilation 编译 sharp PDF，确保 recruiter software 可 index skills。帮助求职者在 5 分钟内创建专业且隐私安全的简历，解决数据 tracking 担忧，让 details stay locally saved，随时下载加载 backup JSONs，兼顾效率与安全。",
+    "tags": [
+      "New",
+      "Deal",
+      "Privacy"
+    ],
+    "link": "https://www.zenresume.online/",
+    "date": "2026-07-31",
+    "id": "17854843298674"
+  },
+  {
+    "title": "BlackFlare 上线：防止 AI Agent 任务因 Mac 休眠中断的工具",
+    "summary": "macOS 菜单栏应用，保持 Mac 唤醒直至 Claude/Codex 任务完成，支持 Telegram 通知。",
+    "detail": "BlackFlare 是一款 macOS 菜单栏应用，专为运行长任务的 AI 开发者设计。当 Claude Code 或 Codex 会话运行时，它可防止 Mac 进入休眠状态，避免任务中断。任务完成或需要输入时，通过 Telegram、Slack 或本地通知用户。支持在 VS Code 和 JetBrains 中检测会话，允许用户远离电脑监控进度。用户可设置 default model 及 permission mode，无需手编辑 config 文件。这提升了 AI Agent 开发效率与体验，closes every gap between running and done，确保 overnight refactors never pause halfway，让开发者能 touch some grass 而不用担心 stalled agent。",
+    "tags": [
+      "New",
+      "Dev",
+      "Productivity"
+    ],
+    "link": "https://blackflare.dev/",
+    "date": "2026-07-31",
+    "id": "17854843298675"
+  },
+  {
     "title": "科技巨头 AI 支出突破 1 万亿美元",
     "summary": "大型科技公司 AI 基础设施投资总额超过 1 万亿美元大关。",
     "detail": "金融时报报道显示，大型科技公司在人工智能领域的支出热潮总额已突破 1 万亿美元。这一里程碑式的数字表明科技巨头正以前所未有的规模投资 AI 基础设施，试图抢占未来技术高地。巨额资本投入可能加速技术迭代，但也引发市场对资本效率与回报周期的担忧。行业竞争格局或因资金壁垒进一步固化，中小型企业面临更大挑战，需关注后续投资落地情况及市场反应。",
@@ -1220,83 +1298,5 @@
     "link": "https://metriq.fitness",
     "date": "2026-07-29",
     "id": "17852984291953"
-  },
-  {
-    "title": "苹果市值达 5 万亿，资金逃离 AI 股",
-    "summary": "苹果成第二家 5 万亿公司，投资者同时抛售 AI 股票。",
-    "detail": "随着苹果市值突破 5 万亿美元，市场出现显著分化，投资者纷纷逃离 AI 相关股票。对冲基金面临追加保证金要求，显示 AI 板块波动加剧。这表明资本市场对 AI 短期过热持谨慎态度，资金转向更稳健巨头。AI 概念股回调可能意味着行业进入洗牌期，需关注长期价值。",
-    "tags": [
-      "News",
-      "Market",
-      "Investment"
-    ],
-    "link": "https://www.theguardian.com/technology/2026/jul/28/apple-second-ever-5tn-company-as-investors-flee-ai-stocks",
-    "date": "2026-07-28",
-    "id": "17852835247981"
-  },
-  {
-    "title": "AgentHound：AI 代理进攻性安全框架",
-    "summary": "开源框架用于检测 AI 代理基础设施的安全漏洞。",
-    "detail": "GitHub 发布 AgentHound，专为 AI 代理基础设施设计的进攻性安全框架。支持 MCP、A2A 等协议，可进行凭证窃取、模型导出等测试。随着 AI Agent 普及，其安全性成为开发关键，该工具类似 BloodHound，帮助开发者识别攻击路径。填补了代理架构安全测试的空白，助力企业合规。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://github.com/adithyan-ak/agenthound",
-    "date": "2026-07-28",
-    "id": "17852835247983"
-  },
-  {
-    "title": "Cursor 携手 Together AI 实现低延迟推理",
-    "summary": "Cursor 合作 Together AI 交付大规模实时低延迟推理。",
-    "detail": "Cursor 与 Together AI 合作，旨在大规模交付实时、低延迟的 AI 推理服务。通过优化基础设施，提升开发者体验。这标志着 AI 编码助手对推理性能要求的提高，云端推理优化成为竞争焦点。低延迟对于交互式编程至关重要，此次合作展示了推理层与工具层的深度整合趋势。",
-    "tags": [
-      "Dev",
-      "Inference",
-      "Coding"
-    ],
-    "link": "https://www.together.ai/customers/cursor",
-    "date": "2026-07-28",
-    "id": "17852835247984"
-  },
-  {
-    "title": "千名 AI 员工联署请求政府监管技术发展",
-    "summary": "OpenAI 等公司员工 petition 政府控制 AI 发展速度。",
-    "detail": "来自 OpenAI、Anthropic、Google 及 Meta 等顶尖 AI 公司的 1100 多名员工联合签署请愿书，正式请求美国政府支持国际努力，开发必要的技术与治理工具，以刻意控制前沿自动化 AI 的发展速度。信件明确指出当前存在 AI 失控的真实风险，呼吁建立安全护栏。此举罕见地反映了行业内部核心开发者对安全与伦理的深层担忧。然而，分析指出在数十亿美元投资已到位的背景下，此时寻求政府干预可能面临执行难题，且需平衡创新速度与安全风险，监管时机备受争议。",
-    "tags": [
-      "News",
-      "Policy",
-      "Safety"
-    ],
-    "link": "https://www.engadget.com/2225612/ai-company-employees-petition-us-government-for-regulation/",
-    "date": "2026-07-28",
-    "id": "17852796831380"
-  },
-  {
-    "title": "Substack 推出 AI 检测工具遭创作者抵制",
-    "summary": "创作者担忧误判损害声誉，称其为猎巫行动。",
-    "detail": "Substack 近期宣布推出内置 AI 检测功能，旨在辨别网络内容的真实性，但此举引发平台创作者的强烈反对与抵制。多位用户表示检测工具准确率低下，担心误判会不可逆地损害作家声誉，称其为猎巫行动。部分创作者辩称 AI 辅助能提升写作质量与效率，不应被惩罚。CEO 虽强调内容真实性的重要性，但社区担忧这将演变为对 AI 使用者的不公平歧视，凸显内容平台在 AI 时代的信任危机与管理困境，可能影响创作者生态稳定性。",
-    "tags": [
-      "News",
-      "Content",
-      "Ethics"
-    ],
-    "link": "https://www.404media.co/substackers-say-new-ai-detection-tool-is-a-witch-hunt/",
-    "date": "2026-07-28",
-    "id": "17852796831381"
-  },
-  {
-    "title": "Mustuse.ai 上线：Agent 驱动的 AI 工具排名",
-    "summary": "开源自动化排名系统，评估编码与图像生成工具。",
-    "detail": "Mustuse.ai 正式推出由 AI Agent 驱动的开源自动化排名系统，旨在为用户提供客观的 AI 工具评估。平台目前涵盖 AI 编码助手与图像生成器两大类别，列出了包括 Cursor、Claude Code 及 Midjourney 在内的 Top 10 榜单。该系统强调基于真实软件项目而非营销宣传进行测试，致力于解决市场工具泛滥导致的选型难题。为开发者提供可靠的决策参考，推动 AI 工具评估向标准化与透明化发展，帮助用户在复杂生态中快速找到最佳实践工具。",
-    "tags": [
-      "New",
-      "Dev",
-      "Tools"
-    ],
-    "link": "https://mustuse.ai/",
-    "date": "2026-07-28",
-    "id": "17852796831382"
   }
 ]
