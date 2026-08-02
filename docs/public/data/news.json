@@ -1,5 +1,44 @@
 [
   {
+    "title": "离线隐私 AI 伴侣应用 ClarAI 上线",
+    "summary": "谷歌商店上新离线 AI 伴侣，主打隐私保护与本地运行，解决云端泄露担忧。",
+    "detail": "ClarAI 是一款在 Google Play 上线的离线 AI 动漫伴侣应用。其核心卖点在于“离线”与“隐私”，意味着数据无需上传云端即可运行，解决了用户对 AI 伴侣隐私泄露的担忧。这反映了边缘 AI 技术在消费级应用中的落地趋势，为用户提供更安全的情感交互体验，避免了中心化服务器的数据风险。",
+    "tags": [
+      "New",
+      "App",
+      "Privacy"
+    ],
+    "link": "https://play.google.com/store/apps/details?id=com.clarai&hl=en_US",
+    "date": "2026-08-02",
+    "id": "17856940771170"
+  },
+  {
+    "title": "新书《上帝测试》论 AI 采纳或灭亡",
+    "summary": "新书借用帕斯卡赌注理论，探讨人类采纳 AI 的生存风险与机遇，引发哲学思考。",
+    "detail": "《新共和》评论了 Robert Wright 的新书《上帝测试》。书中将帕斯卡赌注应用于 AI 领域，提出“采纳 AI 或灭亡”的观点。文章探讨了 AI 作为时代性威胁与机遇的双重性，认为在无法证明 AI 安全性时，采纳 AI 可能是一种生存赌注，引发行业对 AI 风险哲学的深层思考，警示盲目乐观或悲观。",
+    "tags": [
+      "News",
+      "Book",
+      "Philosophy"
+    ],
+    "link": "https://newrepublic.com/article/213738/artificial-intelligence-god-test-adopt-ai-die",
+    "date": "2026-08-02",
+    "id": "17856940771171"
+  },
+  {
+    "title": "面向 AI 编程的超严格 TypeScript 提案",
+    "summary": "GitHub 提案超严格 TypeScript，通过类型约束提高 AI 生成代码可靠性。",
+    "detail": "GitHub 上出现名为 TypeScript-Ultra-Strict 的思想实验项目。提案主张在 AI 编写大部分代码的未来，应移除 null/undefined 和类，采用更 declarative 和 verifiable 的类型系统。旨在通过语言层面的严格约束，提高 AI 生成代码的可靠性和可验证性，类似 Rust 的安全保障，减少 AI 幻觉带来的 bug。",
+    "tags": [
+      "Dev",
+      "TypeScript",
+      "Tools"
+    ],
+    "link": "https://github.com/chitalian/Typescript-Ultra-Strict",
+    "date": "2026-08-02",
+    "id": "17856940771174"
+  },
+  {
     "title": "欧盟 AI 法案透明度行为准则正式生效",
     "summary": "欧盟要求 AI 生成内容必须标记，深伪技术需明确标识。",
     "detail": "欧盟正式推出 AI 生成内容透明度行为准则，旨在落实 AI 法案第 50 条透明度义务。准则分为提供商标记检测与部署者标签规则两大部分，并提供专用图标。签署该准则的企业可利用其措施证明合规，从而减轻行政负担并获得法律确定性。这标志着 AI 内容监管从立法走向实质执行，深伪技术将面临严格标识要求，有助于提升公众对 AI 内容的信任度。未签署者需单独证明措施充分，增加了合规不确定性。",
@@ -245,6 +284,19 @@
     "link": "https://costperprompt.com/",
     "date": "2026-08-02",
     "id": "17856422338073"
+  },
+  {
+    "title": "开发者观点：AI 领袖形象影响公众认知",
+    "summary": "开发者批评 AI 领袖形象及强制文化，认为这导致公众对 AI 产生负面看法。",
+    "detail": "开发者 Cailin Pitt 撰文指出，Sam Altman 等 AI 领袖的公众形象导致人们对 AI 产生负面看法。文章批评了“替代工作”的营销话术及强制使用 AI 的企业文化。反映了技术社区对 AI 过度营销和强制落地的反感，提示行业需关注人文关怀与合理的落地节奏，而非单纯的速度竞赛，以免破坏公众信任。",
+    "tags": [
+      "News",
+      "Opinion",
+      "Culture"
+    ],
+    "link": "https://cailinpitt.com/blog/2026/8/01/everyone-is-so-annoying-about-ai",
+    "date": "2026-08-01",
+    "id": "17856940771175"
   },
   {
     "title": "Reddit CEO 质疑 Google AI 概述商业价值",
@@ -1246,57 +1298,5 @@
     "link": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
     "date": "2026-07-31",
     "id": "17855114922064"
-  },
-  {
-    "title": "Quil：专为 AI 开发设计的重启-proof 终端",
-    "summary": "新的终端 multiplexer 工具，支持 AI 编码会话自动恢复，防止重启丢失上下文。",
-    "detail": "Quil 定义为“不会忘记的工作区”，专为 AI 开发设计。不同于 tmux 仅防断开，Quil 防重启。它持续快照工作区状态，重启后 30 秒内恢复所有标签、窗格及布局。支持自动恢复 Claude Code 会话，无需重新解释上下文。内置 MCP 服务器让 AI 代理进入终端。单二进制文件，无守护进程，支持 Linux/Mac/Windows。解决了 AI 编码会话因中断丢失上下文的痛点，提升连续性。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "Coding"
-    ],
-    "link": "https://quil.cc/",
-    "date": "2026-07-31",
-    "id": "17855026571741"
-  },
-  {
-    "title": "ImmoLens：AI 驱动的德国房地产分析工具",
-    "summary": "上传房源文件，AI 自动分析隐藏缺陷、翻新成本及补贴潜力。",
-    "detail": "这款 AI 工具专为德国房地产买家设计，旨在揭示隐藏缺陷与成本。用户上传房源 PDF 或照片，AI 评估建筑实质、估算翻新费用并匹配补贴计划，2 分钟内生成结果。符合 GDPR，数据加密存储。仪表板显示评分、成本及风险，如屋顶更换需求及 KfW 补贴潜力。支持地点检查与项目管理。展示了垂直 AI 如何在复杂决策中提供深度洞察，优化购房流程与资金管理。",
-    "tags": [
-      "New",
-      "RealEstate",
-      "Analysis"
-    ],
-    "link": "https://immo-lens.com/?lang=en",
-    "date": "2026-07-31",
-    "id": "17855026571742"
-  },
-  {
-    "title": "Guardrails Hub – Guardrails AI",
-    "summary": "提供 70 种验证器，助力 LLM 安全，降低 AI 应用风险。",
-    "detail": "Guardrails AI Hub 提供 70 种验证器，助力 LLM 安全。开发者可搜索如 Arize 数据集嵌入验证、禁止列表、偏见检查、竞品检测等工具。支持验证输入是否匹配 jailbreak 嵌入，或输出是否包含 banned words。平台降低安全门槛，帮助团队使用评估、模块化 specifications 及自动化构建鲁棒系统。反映了行业对 AI 安全与品牌风险管理的日益重视，提供标准化解决方案。",
-    "tags": [
-      "Dev",
-      "Safety",
-      "LLM"
-    ],
-    "link": "https://guardrailsai.com/hub",
-    "date": "2026-07-31",
-    "id": "17855026571744"
-  },
-  {
-    "title": "OpenAI 推进欧洲负责任 AI 发展",
-    "summary": "OpenAI 宣布加强安全与透明度，符合欧盟 AI 法案框架。",
-    "detail": "OpenAI 发布博客强调其在欧洲的责任 AI 承诺，指出数百万欧洲用户及政府依赖其工具。随着欧盟 AI 法案进入下一阶段，公司分享了在安全、透明度及内容溯源方面的强化措施，以符合欧盟框架。OpenAI 支持通用 AI 行为准则及 AI 生成内容透明度准则，旨在平衡创新与风险管理。这表明巨头正主动适应监管，推动合规化发展，为欧洲市场竞争力提供安全基石，确保 AGI 造福人类，同时管理潜在风险，体现 pragmatic 和 risk-based 的治理原则，支持各类企业安全使用 AI 工具。",
-    "tags": [
-      "News",
-      "Regulation",
-      "OpenAI"
-    ],
-    "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
-    "date": "2026-07-31",
-    "id": "17854944512550"
   }
 ]
