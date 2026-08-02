@@ -1,5 +1,70 @@
 [
   {
+    "title": "LinkedIn 上 30% 职业证书现已涉及 AI",
+    "summary": "AI 认证热潮兴起，求职者竞相获取相关凭证以提升竞争力。",
+    "detail": "最新分析显示，LinkedIn 上美国求职者报告的专业证书中，近 30% 与 AI 相关，远高于 2022 年前的 1-2%。求职者希望通过认证证明 Prompt 工程或商业策略能力。部分课程费用高达数千美元。尽管认证有助于脱颖而出，但专家提醒勿高估其价值，需权衡高昂成本与实际求职回报，认证仅是锦上添花而非决定性因素，雇主更看重实际应用能力。随着 AI 工具普及，认证市场爆发，但求职者需警惕过度投资，关注技能实质而非仅凭证书，行业正从狂热转向理性评估人才价值。企业招聘标准也在随之调整，不再单纯迷信证书，而是结合项目经验综合考量，这标志着 AI 就业市场逐渐成熟。",
+    "tags": [
+      "News",
+      "Market",
+      "Career"
+    ],
+    "link": "https://www.morningstar.com/news/marketwatch/20260731180/job-seekers-can-now-spend-thousands-on-ai-certificates-is-it-worth-it",
+    "date": "2026-08-02",
+    "id": "17857116760860"
+  },
+  {
+    "title": "使用 D 语言从零构建本地 LLM 代理",
+    "summary": "摒弃 Python 生态，用 D 语言打造零开销本地 AI 代理。",
+    "detail": "开发者使用 D 语言基于 llama.cpp 构建本地 LLM 代理 DLLM，旨在消除 Python 多层抽象带来的开销。作者曾编写 DaNode 等生产级代码，认为 Python 生态虽大但调试困难，层层封装难以理解底层。通过 ImportC 直接调用 C 头文件，实现零 FFI 开销和类型安全。项目展示了工具注册系统和语法约束采样，为追求底层控制、性能优化及希望理解底层机制的开发者的提供了新思路，无需绑定 Python。这展示了非 Python 生态在 AI 部署中的潜力，适合对性能敏感的场景。对于希望摆脱 Python 依赖、追求极致性能和安全控制的系统程序员来说，这是一个值得关注的技术方向，证明了 D 语言在 AI 基础设施中的可行性。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Programming"
+    ],
+    "link": "https://blog.dlang.org/2026/06/07/teaching-an-ai-to-know-itself-building-a-local-llm-agent-in-d/",
+    "date": "2026-08-02",
+    "id": "17857116760861"
+  },
+  {
+    "title": "利用 AI 辅助审查 Arch 仓库安全漏洞",
+    "summary": "针对恶意包事件，开发者引入 AI 自动审查 PKGBUILD 脚本。",
+    "detail": "鉴于 Arch Linux AUR 近期频发的恶意包事件，开发者构建 AI 层自动审查 PKGBUILD 脚本变更。2026 年 6 月及 7 月发生多起恶意包 adopt 事件，影响数千包，官方曾暂停 adopt 功能。传统人工审查难以扩展，而单纯依赖 AI 亦不可靠。该项目旨在为更新工作流提供额外的安全 review 层，应对包被接管或注入恶意代码的风险，提升开源供应链安全性，确保用户安装环境可靠，响应该社区安全警告。这体现了 AI 在网络安全防御中的实际应用潜力。随着攻击手段自动化，防御手段也需智能化，该项目为开源社区维护提供了新的安全范式，值得其他包管理器借鉴，以应对日益复杂的供应链攻击威胁。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Linux"
+    ],
+    "link": "https://cretezy.com/2026/aur-ai-security/",
+    "date": "2026-08-02",
+    "id": "17857116760862"
+  },
+  {
+    "title": "企业内部构建最小可行 AI 平台的思考",
+    "summary": "探讨何时需要构建专属 AI 平台以解决成本与合规问题。",
+    "detail": "文章探讨了企业内部构建 AI 平台的临界点。以 Vipps 为例，单纯提供 API 键无法解决成本归属、合规数据流及系统可观测性问题。当多个团队重复面临模型访问、评估及审计需求时，才需构建平台。核心在于平衡工程自由度与财务、合规及运维的标准化需求，避免过度工程化，打造最小可行平台，解决 Finance 和 Compliance 部门的具体痛点。这为 CTO 和技术负责人提供了关于 AI 基础设施建设的战略参考，避免资源浪费。平台化是必然趋势，但时机选择至关重要，过早构建会增加负担，过晚则导致混乱，需根据组织实际成熟度逐步推进 AI 治理体系。",
+    "tags": [
+      "Dev",
+      "Enterprise",
+      "Architecture"
+    ],
+    "link": "https://buildtounderstand.org/explorations/what-is-the-smallest-ai-platform-that-could-possibly-work/",
+    "date": "2026-08-02",
+    "id": "17857116760863"
+  },
+  {
+    "title": "俄亥俄州博览会 2027 年将禁止 AI 参赛",
+    "summary": "因 AI 技术变化过快，艺术比赛将重新评估规则禁止 AI。",
+    "detail": "俄亥俄州博览会宣布 2027 年海报比赛将禁止使用 AI。2024 年曾允许 AI 但需说明，然而技术发展超出预期。主办方致力于庆祝人类艺术家，其他 fine arts 展览已禁止 AI。2026 年比赛共有 38 份作品，获奖者已公布。此举反映了艺术界对 AI 生成内容参赛资格的重新考量与规则收紧趋势，确保比赛公平性，回应了参观者的反馈。这表明在创意领域，人类原创性仍被视为核心价值，政策正在快速适应技术变革带来的伦理挑战。未来更多艺术比赛可能会跟进，明确 AI 与人类创作的界限，以保护传统艺术家的权益和比赛的公信力。",
+    "tags": [
+      "News",
+      "Policy",
+      "Art"
+    ],
+    "link": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
+    "date": "2026-08-02",
+    "id": "17857116760864"
+  },
+  {
     "title": "OpenAI 研究：AI 正在重塑职业边界",
     "summary": "OpenAI 分析 80 万条消息，发现近半数 AI 任务跨职业，重塑工作边界。",
     "detail": "OpenAI 发布重磅报告《Work at the Frontier》，基于超过 80 万条美国 ChatGPT 用户消息进行深入分析。研究揭示了一个显著现象：43.5% 的职业特定消息涉及原本属于其他职业的任务，定义为“任务交叉”。这意味着 AI 不仅优化工作流程，更在重塑职业边界，让小业主能独立完成财务分析或合同审查。报告提出了 AI 工作过渡框架，强调许多职位将重组，建议政策制定者依据数据引导实践，关注实时变化。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.coreauto.com/blog/when-ai-starts-writing-systems-code",
     "date": "2026-07-31",
     "id": "17855319417952"
-  },
-  {
-    "title": "Marvin Minsky 与第一次 AI 寒冬",
-    "summary": "回顾图灵奖得主 Minsky 对感知机局限性的证明及其影响。",
-    "detail": "文章回顾了 AI 先驱 Marvin Minsky 的贡献，特别是他对感知机局限性的数学证明如何导致了第一次 AI 寒冬。Minsky 提出的“框架”理论结构化了知识表示，影响了现代编程类与对象的概念。这篇历史回顾有助于开发者理解神经网络发展的曲折历程及理论基础。通过重温 XOR 问题及其解决过程，开发者能更深刻理解多层神经网络的必要性。这对于当前从事深度学习研究的工程师而言，是一次重要的历史课，提醒技术在乐观与悲观循环中前进。",
-    "tags": [
-      "Dev",
-      "History",
-      "Neural Networks"
-    ],
-    "link": "https://nirmalutwani.substack.com/p/the-ai-winter-started-with-a-math",
-    "date": "2026-07-31",
-    "id": "17855319417953"
-  },
-  {
-    "title": "世界模型：AI 的下一站前沿",
-    "summary": "时间杂志探讨世界模型成为 AI 新前沿，LeCun 等大佬押注。",
-    "detail": "时间杂志报道指出，世界模型正成为 AI 实验室新焦点。不同于预测文本的 LLM，世界模型通过观察学习动态并模拟未来。Yann LeCun 离职 Meta 后专注于此，DeepMind 和 OpenAI 也在布局。NVIDIA 提供算力支持。这标志着 AI 从语言 fluency 向物理世界理解转变，JEPA 架构被视为关键。行业巨头纷纷调整战略，预示 AI 技术范式可能迎来重大转折。",
-    "tags": [
-      "News",
-      "LLM",
-      "Research"
-    ],
-    "link": "https://time.com/article/2026/07/15/world-models-are-ai-s-next-frontier/",
-    "date": "2026-07-31",
-    "id": "17855260202050"
-  },
-  {
-    "title": "AI 能耗激增，美国燃煤电厂竟成竞标热点",
-    "summary": "金融时报报道 AI 电力需求导致燃煤电厂重新受宠。",
-    "detail": "金融时报标题指出，为满足 AI 数据中心激增的电力需求，美国燃煤电厂成为竞标热点。尽管环保压力巨大，但 AI 算力对能源的渴求使得煤炭能源暂时回潮。这反映了 AI 基础设施扩张与绿色能源转型之间的现实矛盾，能源供应已成为制约 AI 发展的关键瓶颈之一。行业需关注可持续算力解决方案，以应对日益严峻的能源挑战。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Energy"
-    ],
-    "link": "https://www.ft.com/content/babf4c89-1a6f-447f-a17e-7e3e48f359b8",
-    "date": "2026-07-31",
-    "id": "17855260202051"
-  },
-  {
-    "title": "赫尔erald 苏格兰：AI 公司批量销毁实体书引争议",
-    "summary": "媒体批评 AI 公司为训练数据销毁稀有实体书籍。",
-    "detail": "赫尔erald 苏格兰报评论称，AI 公司为获取训练数据正在批量销毁不可再生的稀有实体书，堪比亚历山大图书馆被焚。这一行为引发了文化保护与 AI 发展伦理的激烈冲突。虽然文本未详述具体公司，但指出了 AI 数据获取方式对物理文化遗产的潜在威胁，呼吁行业关注数据 sourcing 的道德边界。文化遗产保护组织可能介入调查。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Data"
-    ],
-    "link": "https://www.heraldscotland.com/opinion/26422014.library-alexandria-burns-ai-companies-destroying-books-bulk/",
-    "date": "2026-07-31",
-    "id": "17855260202052"
-  },
-  {
-    "title": "谷歌暂停 AI 卫星图像功能，担忧天空深伪",
-    "summary": "NPR 报道谷歌因深伪风险暂停 AI 卫星图像生成。",
-    "detail": "NPR 报道谷歌因担心生成式 AI 被用于制造卫星图像深伪（Deepfakes），已暂停相关功能。在 Google Earth 中集成 AI 图像生成器引发了安全担忧，可能导致虚假信息传播。此举显示了大科技公司在部署 AI 地理空间技术时的谨慎态度，也反映了监管与公众对 AI 真实性验证的日益关注。安全合规将成为 AI 产品上线的前置条件。",
-    "tags": [
-      "News",
-      "Google",
-      "Safety"
-    ],
-    "link": "https://www.npr.org/2026/07/31/nx-s1-5914652/google-adds-ai-to-satellite-images-raising-fears-of-deepfakes-in-the-sky",
-    "date": "2026-07-31",
-    "id": "17855260202053"
   }
 ]
