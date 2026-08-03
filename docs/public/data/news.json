@@ -1,5 +1,31 @@
 [
   {
+    "title": "AI 编程是赛车而非自动驾驶",
+    "summary": "比喻 AI 编程工具需 skilled 驾驶员操控，速度非唯一目标。",
+    "detail": "文章将 AI 辅助编程比作赛车，速度快但需 skilled 驾驶员。强调速度非唯一目标，代码正确性与可维护性更重要。AI 是力倍增器，但开发者仍需把控方向、刹车与赛道状况，避免盲目信任生成代码。在私有资本停止补贴 Token 前，需认清其真实成本与风险。开发者应利用 AI 处理样板代码与测试，但核心逻辑与架构决策仍需人类智慧。盲目追求速度可能导致技术债务累积，唯有 skilled 驾驶员方能驾驭这台赛车抵达终点。AI 能消除部分摩擦，但无法替代对系统整体的理解与责任感。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "LLM"
+    ],
+    "link": "https://ryansouthgate.com/ai-is-a-racecar/",
+    "date": "2026-08-03",
+    "id": "17857458836440"
+  },
+  {
+    "title": "Pipe：AI 原生基础设施运行时",
+    "summary": "无需 Python 依赖，单二进制部署 LLM 管道，解决安全性能问题。",
+    "detail": "Pipe 是一个专为 AI 管道设计的运行时，将 AI 操作作为语言原语。支持沙箱安全、并行处理及避免供应商锁定。仅需 10MB 二进制文件，无需 Python 环境，旨在解决生产环境中 AI 部署的安全与性能瓶颈。它允许开发者在语言层面进行沙箱隔离，而非依赖中间件。切换 AI 提供商只需一行代码。从日志分析到事件报告，Pipe 简化了 AI 代理的构建流程，适合需要高性能且无依赖负担的生产级 AI 应用部署场景。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "Runtime"
+    ],
+    "link": "https://pipe-lang.com",
+    "date": "2026-08-03",
+    "id": "17857458836443"
+  },
+  {
     "title": "吴恩达探讨中国与开源 AI 竞争力",
     "summary": "华盛顿邮报直播，吴恩达深度分析中美 AI 格局与开源战略。",
     "detail": "华盛顿邮报直播节目邀请 AI 先驱吴恩达，深入探讨中国 AI 发展现状、开源模式优势及全球竞争力对比。尽管视频链接当前存在访问限制，但议题直指当前 AI 地缘政治与技术开放的核心争议。吴恩达作为行业权威，其观点往往预示技术风向。对于关注宏观 AI 战略的投资人、政策制定者及开发者，这是理解未来技术流向与市场竞争格局的重要风向标。开源与封闭模型的博弈将如何影响全球创新速度，以及中国在其中的角色，是行业关注的焦点。值得持续跟踪后续内容释放与行业反响，以便及时调整技术选型与市场策略。",
@@ -63,6 +89,19 @@
     "link": "https://aivisibility.pro/",
     "date": "2026-08-03",
     "id": "17857314813134"
+  },
+  {
+    "title": "AI 垃圾报告堵塞苹果漏洞悬赏",
+    "summary": "AI 生成报告泛滥导致真实高危漏洞被忽略，苹果被迫限制提交。",
+    "detail": "苹果漏洞悬赏邮箱被 AI 生成的低质量报告塞满，导致一个价值 20 万美元的 macOS 严重漏洞未被及时报告。苹果已限制提交数量并实施冷却期。这引发了关于众测计划未来及 AI 在安全领域双刃剑效应的讨论。虽然苹果也用 AI 找漏洞，但垃圾报告阻碍了真实研究者。安全公司指出漏洞发现正转向机器速度验证。此事件凸显 AI 滥用对网络安全生态的实质威胁，可能导致大厂收回漏洞发现权。初创公司 Bynario 利用 ChatGPT 发现漏洞却因限额无法上报，凸显制度滞后。",
+    "tags": [
+      "News",
+      "Security",
+      "Apple"
+    ],
+    "link": "https://the-decoder.com/a-real-macos-flaw-worth-200k-went-unreported-because-apples-bug-bounty-inbox-was-full-of-ai-slop/",
+    "date": "2026-08-02",
+    "id": "17857458836441"
   },
   {
     "title": "AI 虚拟网红诈骗泛滥，社交信任面临新挑战",
@@ -1259,44 +1298,5 @@
     "link": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html",
     "date": "2026-07-31",
     "id": "17855583150371"
-  },
-  {
-    "title": "Snapchat 加入抵制\"AI 垃圾内容”行列",
-    "summary": "Snapchat 宣布不再推荐完全由 AI 生成的视频，优先展示真人内容。",
-    "detail": "Snapchat 母公司 Snap 宣布调整 Spotlight feed 推荐算法，停止推荐完全由 AI 生成的视频，转而 favor 真人制作内容。此举旨在打击低质量、重复的\"AI slop\"。平台仍允许 AI 增强或编辑的内容。此前 YouTube、LinkedIn 等平台也采取了类似策略，反映社交巨头对 AI 生成内容泛滥的担忧及用户体验重视。研究表明用户对纯 AI 内容接受度低，过度泛滥会降低平台参与度，促使平台加强内容治理。这标志着社交平台从拥抱 AI 生成转向 curated AI 体验，以维持用户信任。Snap 并未禁止所有 AI 内容，自身也提供 AI 工具，但区分了 wholly generated 与 enhanced 内容。这为行业树立了新标准，即透明度与质量控制将成为平台推荐算法的核心考量因素。",
-    "tags": [
-      "News",
-      "Social Media",
-      "Policy"
-    ],
-    "link": "https://www.bbc.com/news/articles/c77g6dm5pr8o",
-    "date": "2026-07-31",
-    "id": "17855583150372"
-  },
-  {
-    "title": "中国强调军队加强无人 AI 技术应用",
-    "summary": "彭博社报道指出军方被 urging 提升无人及 AI 技术使用。",
-    "detail": "**背景**：全球军事智能化竞争日益激烈，无人系统与 AI 技术成为国防现代化关键驱动力，各国均在加速布局。**核心内容**：彭博社报道指出，中国领导人 urging 军队加速整合无人系统及人工智能技术，提升作战效能，强调技术在现代战争中的核心地位。**影响**：这标志着 AI 在国防安全领域的战略地位进一步提升，预计将推动相关军用 AI 技术研发投入及产业链快速发展，同时也可能引发国际社会对 AI 军备竞赛及地缘政治安全格局变化的深度关注与讨论，促使各国重新评估安全策略。此举可能加速无人作战平台的实战部署，改变未来战争形态。",
-    "tags": [
-      "News",
-      "Defense",
-      "Geopolitics"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-07-31/xi-urges-military-to-step-up-use-of-unmanned-ai-technologies",
-    "date": "2026-07-31",
-    "id": "17855430427921"
-  },
-  {
-    "title": "代理式 AI 安全框架选择影响微乎其微",
-    "summary": "7020 次试验表明框架选择仅影响 0.06% 的安全结果。",
-    "detail": "**背景**：随着 Agentic AI 应用普及，其安全性成为开发者关注焦点，框架选择常被视为关键因素，但缺乏实证数据。**核心内容**：Figshare 发布预印本论文，通过 7020 次对照试验评估发现，不同框架选择对代理式 AI 安全结果的影响仅约 0.06%，差异微乎其微。**影响**：该研究为开发者提供关键数据参考，表明安全重点应转向提示词工程或监控等其他维度而非框架本身，有助于优化 AI 代理部署策略及资源分配，避免在次要因素上过度投入。开发者可更关注 payload 验证及运行时监控，提升整体系统鲁棒性，降低安全风险。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Security"
-    ],
-    "link": "https://figshare.com/articles/preprint/Cross-Framework_Portability_of_Agentic_AI_Security_A_Controlled_Payload-Verified_Evaluation/33110642",
-    "date": "2026-07-31",
-    "id": "17855430427922"
   }
 ]
