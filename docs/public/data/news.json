@@ -1,5 +1,57 @@
 [
   {
+    "title": "微软开源 Orchard：可扩展代理 AI 框架",
+    "summary": "微软研究院发布 Orchard 框架，支持低成本代理 AI 研究与训练。",
+    "detail": "微软研究院正式开源 Orchard 框架，旨在推动可扩展且具成本效益的代理 AI（Agentic AI）研究。该框架围绕 Orchard Env 构建，支持软件工程、网页导航及个人助理等多种任务域。基准测试显示，Orchard-SWE 在 SWE-Bench Verified 上达到 69.7% 的通过率，仅使用约 30 亿活跃参数即可媲美更大规模模型。该项目同时释放了训练数据与评估方法，助力社区构建开放代理系统，标志着 AI 从静态问答向自主规划行动的重要转变。",
+    "tags": [
+      "Dev",
+      "Microsoft",
+      "Agent"
+    ],
+    "link": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
+    "date": "2026-08-03",
+    "id": "17857795548900"
+  },
+  {
+    "title": "亚马逊计划整合 Nova AI 模型系列",
+    "summary": "据报道，亚马逊 AWS 正计划 consolidating 其 Nova AI 模型产品线。",
+    "detail": "TechRepublic 报道称，亚马逊正计划整合其 Nova 系列 AI 模型。作为 AWS 云基础设施的重要组成部分，此举旨在优化模型管理与部署效率。虽然具体整合方案尚未完全披露，但这反映了大型云厂商在 AI 模型策略上的调整趋势，即从数量扩张转向质量与效能的集中优化。对于依赖 AWS Nova 模型的企业开发者而言，未来需关注模型接口的变更及迁移路径，以适应新的 consolidated 架构。",
+    "tags": [
+      "News",
+      "AWS",
+      "LLM"
+    ],
+    "link": "https://www.techrepublic.com/article/news-amazon-nova-ai-model-consolidation-aws/",
+    "date": "2026-08-03",
+    "id": "17857795548911"
+  },
+  {
+    "title": "Qencode 推出 AI 视频超分技术",
+    "summary": "Qencode 发布 AI  Upscaling 功能，助力 legacy 视频库升级 4K。",
+    "detail": "云视频基础设施平台 Qencode 宣布推出 AI Upscaling 功能，利用 AI 技术增强现有 SD、HD 及 4K 内容的分辨率与清晰度。该技术并非简单拉伸像素，而是通过模型重建面部、纹理等真实细节，减少伪影。这使得视频平台无需 costly 重拍或手动修复，即可将 legacy 档案转化为符合现代高分辨率屏幕标准的资产。该功能在编码过程中自动运行，为内容库解锁了新的商业价值与播放体验。",
+    "tags": [
+      "New",
+      "Video",
+      "Upscaling"
+    ],
+    "link": "https://news.qencode.com/posts/qencode-launches-ai-upscaling-to-bring-legacy-video-catalogs-into-the-4k-era",
+    "date": "2026-08-03",
+    "id": "17857795548912"
+  },
+  {
+    "title": "用户向 AI 助手咨询的十大高频问题",
+    "summary": "Frigade 分析显示，账单、定位与权限是用户最常问 AI 的问题。",
+    "detail": "AI 助手提供商 Frigade 分析了用户与嵌入式 AI 助手的交互数据，总结出十大高频问题主题。结果显示，金钱相关（账单、退款）、功能定位（设置在哪、图标含义）以及权限管理（谁能做什么）是用户最困惑的三大领域。这表明尽管产品功能丰富，但用户心智模型往往滞后。对于 AI 产品经理而言，优化这些高摩擦点的界面设计与助手引导，是提升用户体验与减少支持成本的关键方向。",
+    "tags": [
+      "Dev",
+      "UX",
+      "Assistant"
+    ],
+    "link": "https://frigade.com/blog/ten-common-product-problems-2026",
+    "date": "2026-08-03",
+    "id": "17857795548913"
+  },
+  {
     "title": "Argot：基于代码库 AST 模式的 Rust AI 代码护栏",
     "summary": "利用仓库历史检测 AI 生成代码的异常模式，本地运行无幻觉。",
     "detail": "Argot 是一款针对 AI 生成代码的 Rust 编写护栏工具。它不依赖第二个 LLM，而是通过分析代码库自身的 AST 模式和历史记录，确定性地识别“外来”代码模式，例如在 FastAPI 项目中引入 Django 框架。数据显示它能捕捉 97.3% 的外来模式，仅标记 0.25% 的真实编辑。此外，它能审计测试代码是否被 AI 削弱，如跳过测试或移除断言。工具完全本地运行，200ms 内即可检查 diff，确保 AI 生成代码符合项目既有规范，防止代理为了通过测试而削弱测试本身。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.scmp.com/news/china/diplomacy/article/3362616/us-lawmakers-investigate-doordashs-use-moonshot-ais-kimi-k26-model",
     "date": "2026-08-01",
     "id": "17855583150370"
-  },
-  {
-    "title": "Ace Sidecar：本地 AI 编码效率优化神器",
-    "summary": "全新工具提供编码 Agent 会话的可观测性，优化 Token 与成本。",
-    "detail": "Ace Fleet 推出 ACE Sidecar，专为本地 AI 编码 Agent 会话提供可观测性 dashboard。它展示 Token 输入输出、API 请求、每次会话成本及 commits 分布等关键指标。数据显示 p25 请求常携带 100k+ 上下文，表明优化上下文大小比负载调优更重要。帮助开发者监控 AI 编码效率与成本分布。该工具基于真实会话数据渲染，路径等敏感信息已合成替换，为团队提供 Fleet 级别的效率洞察，解决 AI 编码成本不透明问题。开发者可据此调整预算 caps，避免基于变化率的无效警报，优化资源分配。图表显示日中位数变化为 -12.2%，波动极大，任何基于变化率的警报都会失效。只有针对周期预算的累积 cap 才有效，该工具帮助团队建立更合理的成本监控机制，避免误报。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Tool"
-    ],
-    "link": "https://acefleet.dev/blog/announcing-the-ace-sidecar",
-    "date": "2026-08-01",
-    "id": "17855583150373"
-  },
-  {
-    "title": "Last 30 Days：跨平台 AI 调研 Agent 技能",
-    "summary": "GitHub 热榜第一，支持 Reddit、X 等多平台信息合成总结。",
-    "detail": "开源项目 last30days-skill 成为 GitHub 趋势榜第一。这是一个 AI Agent 技能，能跨 Reddit、X、YouTube、HN 及 Polymarket 检索信息并合成 grounded summary。它强调基于投票和真实资金的评分机制，而非编辑器选择。提供多语言 README，适合开发者集成到 AI 搜索工作流中，提升信息调研效率。该工具 v3 pipeline 支持多语言，旨在构建由 AI 代理驱动的搜索引擎，减少人工编辑偏见，为开发者提供强大的跨平台情报收集能力。用户可自定义搜索范围，实现自动化市场舆情监控与技术趋势分析。README 追踪当前 v3 pipeline，运行时技能规范位于 skills 目录。该项目支持多种语言版本，包括法、德、西、葡、日及中文，显示其全球化社区参与度，适合构建多语言 AI 调研助手。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Agent"
-    ],
-    "link": "https://github.com/mvanhorn/last30days-skill",
-    "date": "2026-08-01",
-    "id": "17855583150374"
-  },
-  {
-    "title": "美议员调查 DoorDash 使用中国 AI 模型",
-    "summary": "美国立法者要求 DoorDash 披露是否使用中国 AI 模型，引发数据安全担忧。",
-    "detail": "美国立法者正式要求 DoorDash 披露其是否在使用中国开发的 AI 模型，这一举动引发了科技界对供应链安全的高度关注。新闻指出，这不仅是单一企业的合规问题，更反映了美方对数据跨境流动及潜在国家安全风险的担忧。若确认使用，可能面临更严格的监管审查，迫使企业重新评估 AI 供应商选型。此事件凸显了地缘政治因素正深刻影响全球 AI 产业布局，企业需在技术创新与合规安全之间寻找平衡，未来类似调查可能成为常态。对于跨国企业而言，AI 模型的来源透明度将成为新的合规重点，可能加速 AI 供应链的本土化趋势，增加运营成本的同时也提升了安全门槛。",
-    "tags": [
-      "News",
-      "Policy",
-      "Security"
-    ],
-    "link": "https://www.cnbc.com/2026/07/31/us-lawmakers-doordash-chinese-ai-models.html",
-    "date": "2026-07-31",
-    "id": "17856076960590"
-  },
-  {
-    "title": "Google Earth 因生成内容违规下线 AI 图像生成功能",
-    "summary": "Google 因用户分享违规生成截图，回滚地球 AI 功能。",
-    "detail": "Google 宣布暂时回滚 Google Earth 中的 AI 图像生成功能。原因是发现用户分享生成的截图违反政策，尽管生成图像有水印且未在主体验中公开。Google 表示正在实施更强的防护措施。这反映了地理空间数据与生成式 AI 结合时的信任与真实性挑战，大厂在落地应用上趋于谨慎。对于依赖地理数据的企业，需关注此类功能波动，避免业务依赖未稳定的 AI 生成内容，同时注意版权与政策合规风险。地球视图的可靠性是核心资产，AI 生成内容的引入需平衡创新与信任，此次回滚表明安全护栏尚未成熟。",
-    "tags": [
-      "News",
-      "Google",
-      "Generative AI"
-    ],
-    "link": "https://twitter.com/newsfromgoogle/status/2083249962150760610",
-    "date": "2026-07-31",
-    "id": "17855905925431"
   }
 ]
