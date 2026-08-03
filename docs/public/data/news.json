@@ -1,5 +1,57 @@
 [
   {
+    "title": "Argot：基于代码库 AST 模式的 Rust AI 代码护栏",
+    "summary": "利用仓库历史检测 AI 生成代码的异常模式，本地运行无幻觉。",
+    "detail": "Argot 是一款针对 AI 生成代码的 Rust 编写护栏工具。它不依赖第二个 LLM，而是通过分析代码库自身的 AST 模式和历史记录，确定性地识别“外来”代码模式，例如在 FastAPI 项目中引入 Django 框架。数据显示它能捕捉 97.3% 的外来模式，仅标记 0.25% 的真实编辑。此外，它能审计测试代码是否被 AI 削弱，如跳过测试或移除断言。工具完全本地运行，200ms 内即可检查 diff，确保 AI 生成代码符合项目既有规范，防止代理为了通过测试而削弱测试本身。",
+    "tags": [
+      "Dev",
+      "Code Quality",
+      "Rust"
+    ],
+    "link": "https://argot.tmonier.com/",
+    "date": "2026-08-03",
+    "id": "17857599136190"
+  },
+  {
+    "title": "The Register：AI 泡沫正在破裂，投资者开始撤资",
+    "summary": "科技巨头 Q2 财报显示资本支出过高，现金流缩减，市场担忧加剧。",
+    "detail": "The Register 分析指出，随着科技巨头 Q2 财报公布，投资者正对 AI 泡沫失去信心。高昂的资本支出、缩减的自由现金流以及芯片供应担忧使市场局势紧张。编辑建议 IT 团队在波动市场中避免全押前沿实验室产品。播客讨论了财报新闻中隐藏的泡沫破裂迹象，表明尽管表面繁荣，底层财务健康度正在接受考验，行业可能面临调整期。分析师 Matt Rosoff 等指出，企业需谨慎对待 AI 投资，避免在泡沫破裂前过度扩张。市场数据显示，投资者正在用针戳破 AI 泡沫，尽管大众尚未完全察觉，但财务指标已显现疲态。",
+    "tags": [
+      "News",
+      "Market",
+      "Investment"
+    ],
+    "link": "https://www.theregister.com/ai-and-ml/2026/08/03/the-ai-bubble-is-already-popping-we-just-dont-know-it-yet/5282004",
+    "date": "2026-08-03",
+    "id": "17857599136191"
+  },
+  {
+    "title": "科幻作家谴责 AI 窃取版权，称其为“绝对渣滓”",
+    "summary": "Charles Stross 等作家反对 LLM 训练数据侵权，提及集体诉讼。",
+    "detail": "著名科幻作家 Charles Stross 公开谴责 AI 公司窃取版权材料训练 LLM，称其为\"绝对渣滓\"。他指出 AI 模型意在与其作品竞争收入，且通过微调使其成瘾。Stross 是反对 Anthropic AI 盗版 eBooks 训练模型的集体诉讼当事人之一。此外，他抱怨服务器常被外国僵尸网络抓取数据导致瘫痪，反映了创作者与 AI 公司之间日益激化的版权与生存矛盾。另一位作家 Scalzi 也表达了类似观点，强调严肃作者应像躲避瘟疫一样避开 LLM，保护原创性。",
+    "tags": [
+      "News",
+      "Copyright",
+      "Ethics"
+    ],
+    "link": "https://www.theregister.com/ai-and-ml/2026/08/03/sci-fi-authors-scalzi-and-stross-decry-ais-dystopian-impact-on-their-craft/5282176",
+    "date": "2026-08-03",
+    "id": "17857599136192"
+  },
+  {
+    "title": "Spriteloom：Aseprite 的本地 AI 像素画生成插件",
+    "summary": "本地 GPU 运行，无云无订阅，支持生成、编辑和重绘像素精灵。",
+    "detail": "Spriteloom 是一款专为 Aseprite 设计的本地 AI 像素艺术助手插件。它允许用户通过文本提示生成精灵、根据指令编辑现有素材或重绘选定区域。所有计算均在用户本地 GPU 上运行，无需云端连接或订阅，确保像素数据不离开机器。支持旋转、指令编辑及 Inpaint 功能，为游戏开发者提供了隐私安全且高效的 AI 辅助创作工作流。该工具解决了云端 AI 生成艺术品的隐私顾虑，适合需要本地化处理的专业像素画师使用。",
+    "tags": [
+      "New",
+      "Graphics",
+      "Local AI"
+    ],
+    "link": "https://github.com/vkarach/spriteloom",
+    "date": "2026-08-03",
+    "id": "17857599136193"
+  },
+  {
     "title": "AI 编程是赛车而非自动驾驶",
     "summary": "比喻 AI 编程工具需 skilled 驾驶员操控，速度非唯一目标。",
     "detail": "文章将 AI 辅助编程比作赛车，速度快但需 skilled 驾驶员。强调速度非唯一目标，代码正确性与可维护性更重要。AI 是力倍增器，但开发者仍需把控方向、刹车与赛道状况，避免盲目信任生成代码。在私有资本停止补贴 Token 前，需认清其真实成本与风险。开发者应利用 AI 处理样板代码与测试，但核心逻辑与架构决策仍需人类智慧。盲目追求速度可能导致技术债务累积，唯有 skilled 驾驶员方能驾驭这台赛车抵达终点。AI 能消除部分摩擦，但无法替代对系统整体的理解与责任感。",
@@ -1246,57 +1298,5 @@
     "link": "https://twitter.com/newsfromgoogle/status/2083249962150760610",
     "date": "2026-07-31",
     "id": "17855905925431"
-  },
-  {
-    "title": "欧盟强制要求 AI 生成内容添加标签",
-    "summary": "欧盟新规生效，逼真 AI 内容必须标注，违者最高罚款营收 3%。",
-    "detail": "欧盟《AI 法案》新规于 8 月 2 日生效，要求所有试图看起来真实的 AI 生成图像、音频和文本必须添加数字水印或标签。个人聊天内容除外，艺术讽刺作品享有豁免权。违规企业面临最高全球营收 3% 的罚款。此举旨在保护民主与信息真实性，现有系统有 4 个月缓冲期。欧盟议员表示这是保护民主事实 Authenticity 的关键措施。",
-    "tags": [
-      "News",
-      "Policy",
-      "Regulation"
-    ],
-    "link": "https://www.engadget.com/2227966/eu-mandate-labels-on-authentic-looking-ai-content/",
-    "date": "2026-07-31",
-    "id": "17855785138060"
-  },
-  {
-    "title": "Reddit 股价暴跌 23%，AI 侵蚀用户增长",
-    "summary": "受 AI 影响用户增长放缓，Reddit 股价单日暴跌 23%，引发市场担忧。",
-    "detail": "Reddit 股价遭遇重创，单日下跌 23%，新闻标题指出主要原因在于 AI 技术对用户自然增长的侵蚀。市场分析认为 AI 生成内容可能降低了用户参与度和平台独特性，进而影响长期价值。此事件凸显了 AI 对社交媒体生态的双刃剑效应，投资者开始重新评估依赖 UGC 的平台在 AI 时代的风险，显示资本市场对 AI 冲击传统流量模式的敏感反应。",
-    "tags": [
-      "News",
-      "Market",
-      "Social Media"
-    ],
-    "link": "https://www.barchart.com/story/news/3584357/reddit-stock-collapses-23-as-ai-eats-away-at-user-growth",
-    "date": "2026-07-31",
-    "id": "17855785138061"
-  },
-  {
-    "title": "Perplexity 败诉，无法驳回 Reddit 数据抓取诉讼",
-    "summary": "法律快讯：Perplexity AI 未能驳回 Reddit 关于数据抓取的诉讼。",
-    "detail": "在备受关注的数据版权案中，Perplexity AI 未能成功驳回 Reddit 提起的诉讼。法院裁定案件将继续审理，这为 AI 公司抓取社交媒体数据训练模型的法律边界树立了重要先例。若 Reddit 胜诉，可能迫使 AI 公司重新谈判数据授权协议，增加合规成本，影响大模型训练数据的获取方式。此案结果将深刻影响 AI 行业与内容平台之间的数据合作关系。",
-    "tags": [
-      "News",
-      "Legal",
-      "LLM"
-    ],
-    "link": "https://www.reuters.com/legal/litigation/perplexity-ai-loses-bid-toss-reddit-lawsuit-over-data-scraping-2026-07-31/",
-    "date": "2026-07-31",
-    "id": "17855785138062"
-  },
-  {
-    "title": "前 OpenAI 研究员 AI 对冲基金暴跌 350 亿美元",
-    "summary": "Leopold Aschenbrenner 的 AI 主题基金因半导体股票波动遭受重创。",
-    "detail": "前 OpenAI 研究员 Leopold Aschenbrenner 管理的\"Situational Awareness\"对冲基金遭遇重大损失。资产从峰值 450 亿美元骤降至约 100 亿美元，主因是半导体股票（如 SK Hynix）下跌及追加保证金通知。他被迫向 Citadel 折价出售杠杆头寸。此事件警示 AI 投资热潮背后的市场 volatility 风险，显示即使行业专家也难以预测短期波动，引发华尔街对 AI 主题基金稳定性的质疑。Aschenbrenner 曾被视为 AI 超级智能预言家，此次失利表明宏观市场因素仍主导短期投资回报。基金名称源自其 viral manifesto，曾被视为硅谷必读。此次暴跌发生在半导体股票 tumble 和 Wall Street margin calls 背景下，显示高杠杆 AI 投资策略在当前市场环境下的脆弱性。",
-    "tags": [
-      "News",
-      "Finance",
-      "Investment"
-    ],
-    "link": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html",
-    "date": "2026-07-31",
-    "id": "17855583150371"
   }
 ]
