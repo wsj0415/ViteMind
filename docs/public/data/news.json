@@ -1,5 +1,70 @@
 [
   {
+    "title": "Google AI Studio 删除按钮被指误导用户",
+    "summary": "视频揭露删除仅移除 UI metadata，服务器数据仍保留。",
+    "detail": "TikTok 用户测试发现，Google AI Studio 的删除按钮仅移除本地 JSON 文件，服务器端对话上下文并未清除。测试者创建提示后删除并清空回收站，使用官方恢复工具后，模型仍能继续上下文对话。这证明服务器端数据未被真正删除，仅 UI 元数据被移除。如果 Google 真正删除了服务器数据，会话将丢失，模型无法继续对话。此举涉嫌违反 GDPR 第 17 条删除权，引发重大隐私合规担忧。对于企业用户而言，这意味着敏感数据可能永久留存于云端，即使执行了删除操作。信任危机可能影响开发者对 Google AI 平台的采用意愿，呼吁更透明的数据生命周期管理。",
+    "tags": [
+      "News",
+      "Privacy",
+      "Google"
+    ],
+    "link": "https://www.tiktok.com/@user6510076090944/video/7670062915185085719?is_from_webapp=1&sender_device=pc&web_id=7670061487374484995",
+    "date": "2026-08-04",
+    "id": "17858400347920"
+  },
+  {
+    "title": "ZeroLeaks 推出 AI 代理自动化红队测试",
+    "summary": "持续测试 AI 代理提示注入与数据泄露，集成 CI/CD。",
+    "detail": "ZeroLeaks 提供自动化红队测试服务，专门针对 AI 代理、端点及 MCP 工具。支持提示注入、数据泄露检测及不安全行为验证。团队背后维护着 100k+ star 的提示泄露仓库，探针库基于真实漏洞而非合成案例。支持 CI/CD 集成，在合并前识别风险。扫描可在几分钟内计划、执行并验证攻击。发现结果作为检查点发布，确保风险不会静默到达生产环境。定价透明，Pro 版$79/月，团队版$99/席位。随着 AI 代理自主性增强，传统安全测试失效，自动化红队成为刚需。该工具填补了 Agent 落地前的安全验证空白，防止风险静默进入生产环境，提升企业部署信心。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://zeroleaks.ai",
+    "date": "2026-08-04",
+    "id": "17858400347921"
+  },
+  {
+    "title": "开发者深度评测：AI 编程工具的真实效用",
+    "summary": "作者实测 Claude 三个月，建议勿让其直接写代码。",
+    "detail": "资深开发者分享使用 Claude 等工具的实战经验。作者最初对管理层强制推广 AI 持反对态度，认为这是微观管理。但在三个月使用后承认工具有一定效用，前提是不要让 AI 直接编写代码。AI 更适合解析查询及辅助任务，而非替代工程决策。文章批判了盲目采用 AI 的行业现象，指出 AI 并非过去微服务那样的银弹。即使避免社交媒体上的营销噪音，AI adoption 似乎已被管理层强制规定。这种诚实的反馈对于平衡行业过度炒作至关重要。强调工具应辅助而非主导开发流程，避免营销 buzzwords 误导技术选型，回归工程实效，反映工程界对 AI hype 的疲劳。",
+    "tags": [
+      "Dev",
+      "Opinion",
+      "LLM"
+    ],
+    "link": "https://mropert.github.io/2026/08/04/an_honest_review_of_ai_programming/",
+    "date": "2026-08-04",
+    "id": "17858400347922"
+  },
+  {
+    "title": "新书指南：用 YAML 部署自主 AI 代理",
+    "summary": "介绍 kdeps 框架，实现代理的生产级部署。",
+    "detail": "《AI Appliances》新书发布，指导开发者使用 YAML 定义并部署自主 AI 代理及多代理系统。基于 kdeps 框架，支持 Docker、Kubernetes 及边缘设备部署，无需因切换 LLM 提供商而重写代码。书籍已 100% 完成，最后更新于 2026 年 7 月。定义代理依赖关系，部署到任何地方。大多数 AI 框架为探索而建，kdeps 为生产而建。随着 AI 从原型走向生产，标准化部署成为痛点。该书提倡声明式配置，解决大多数 AI 框架仅适用于探索而不适用于生产的问题。适合希望构建可维护、可移植 AI 系统的工程师，推动 AI Ops 标准化，帮助开发者将 AI 原型转化为生产环境。",
+    "tags": [
+      "Dev",
+      "Deployment",
+      "YAML"
+    ],
+    "link": "https://leanpub.com/kdeps",
+    "date": "2026-08-04",
+    "id": "17858400347923"
+  },
+  {
+    "title": "PolyTrip 上线：AI 驱动的众筹团体旅行规划",
+    "summary": "允许用户发起并众筹团体旅行，AI 辅助规划。",
+    "detail": "PolyTrip 推出基于 AI 的团体旅行规划平台，支持用户发起众筹旅行项目。涵盖 Wellness、Networking、Adventure 等多种类别，具体案例包括死海疗养 retreat 及 Koh Samui 数字游民 coliving。平台利用 AI 辅助行程构思与手动创建结合，旨在简化团体出行的组织与资金筹集流程。任何人都可以梦想团体旅行，现在任何人都可以启动一个。提供手动创建或从真实想法开始，包括 Tokyo to Kyoto 朋友团体旅行等模板。让社区度假市场化，降低组织复杂旅行的协调成本。这展示了 AI 在消费级应用中的落地潜力，通过自动化规划降低社交旅行门槛，促进共享经济与旅行行业的结合。",
+    "tags": [
+      "New",
+      "Travel",
+      "AI"
+    ],
+    "link": "https://polytrip.co/",
+    "date": "2026-08-04",
+    "id": "17858400347924"
+  },
+  {
     "title": "构建 AI 治疗师面临的六大难题",
     "summary": "深度解析 AI 心理咨询在实际应用中的设计与训练挑战。",
     "detail": "文章深入探讨了构建 AI 治疗师时面临的六大核心难题，指出真正的挑战不在模型能力基准，而在设计目标与训练导向。作者列举了具体问题，如“移情关系拥有退出按钮”，用户可随时断开连接导致治疗中断，以及 AI 难以维持长期案例概念化等。文章强调，让模型遵循治疗框架比提升智商更难。这为 AI 心理健康应用开发提供了关键避坑指南，表明未来 AI  Therapy 的成功取决于对人类心理交互机制的深度理解，而非单纯的对话能力提升。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/amita-seal/wa-metaai",
     "date": "2026-08-01",
     "id": "17856214824651"
-  },
-  {
-    "title": "研究称 AI 主要威胁是降低工资而非失业",
-    "summary": "Apollo 报告显示 AI 暴露度高的岗位实际工资增长下降 6.7%。",
-    "detail": "Apollo Global Management 新白皮书分析 321 种职业发现，AI 并未显著减少就业，但高暴露岗位工资增长放缓。服务业低收入者受影响最大，earnings growth 下降 24.3%。这表明 AI 对劳动力市场的压榨效应大于替代效应。报告指出 2023 年后高 AI 暴露岗位实际工资增长平均下降 6.7%，而整体就业未受 detectable 影响。这警示政策制定者需关注 AI 带来的收入不平等问题，而非仅聚焦失业风险。",
-    "tags": [
-      "News",
-      "Economy",
-      "Labor"
-    ],
-    "link": "https://www.businessinsider.com/ai-could-lower-workers-pay-job-market-impact-2026-7",
-    "date": "2026-08-01",
-    "id": "17856214824652"
-  },
-  {
-    "title": "Voris 推出 AI 流量归因分析工具",
-    "summary": "隐私优先分析工具，追踪 ChatGPT 等 AI 对网站的引用与引流。",
-    "detail": "新产品 Voris 专注于\"AI 影响下的网络”分析。它能追踪 ChatGPT、Perplexity 等模型对品牌的引用，衡量 AI 带来的 awareness 及收入转化。支持无 Cookie、EU 托管，解决 AI 搜索时代流量归因难题。随着 AI 搜索份额增加，传统 analytics 失效，Voris 提供 AI visibility 及 referral 追踪，帮助企业在 AI 生成内容中量化品牌曝光与实际收益，符合 GDPR 标准。",
-    "tags": [
-      "New",
-      "Analytics",
-      "SEO"
-    ],
-    "link": "https://voris.ai/",
-    "date": "2026-08-01",
-    "id": "17856214824653"
-  },
-  {
-    "title": "法官驳回 xAI 阻止明尼苏达州禁止裸化应用请求",
-    "summary": "法律裁决支持州禁令，限制 AI 生成非自愿裸体图像应用。",
-    "detail": "明尼苏达州法官拒绝 xAI 阻止该州禁止“裸化”应用的请求。此裁决标志着监管机构在打击 AI 生成非自愿色情内容方面取得进展，为后续 AI 内容安全立法树立先例，限制了相关技术的滥用空间。xAI 试图以言论自由为由挑战禁令失败，表明法律天平倾向于保护个人免受 AI 深度伪造伤害，未来类似应用在美国将面临更严格合规审查。",
-    "tags": [
-      "News",
-      "Legal",
-      "Safety"
-    ],
-    "link": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
-    "date": "2026-08-01",
-    "id": "17856214824654"
-  },
-  {
-    "title": "谷歌取消 AI Studio 独立应用",
-    "summary": "谷歌取消 AI Studio 移动应用，功能整合进 Gemini。",
-    "detail": "谷歌宣布取消已获 80 万预购的 AI Studio 独立移动应用，战略转向将开发功能直接整合至 Gemini 对话中。官方表示用户更倾向在日常对话中自然构建应用，而非下载新 App。Web 端体验将继续保留供专业开发。此举反映巨头正探索 AI 原生交互形态，减少应用碎片化，重塑移动开发生态。团队正努力将此愿景变为现实，后续将有更多分享。这对依赖独立开发工具的开发者意味着工作流将深度嵌入聊天界面，可能改变 AI 应用分发逻辑，标志着 AI 交互从工具型向对话型的重大转变。",
-    "tags": [
-      "News",
-      "Google",
-      "Strategy"
-    ],
-    "link": "https://twitter.com/GoogleAIStudio/status/2083274575769473092",
-    "date": "2026-08-01",
-    "id": "17856151506800"
-  },
-  {
-    "title": "知名 YouTuber 反思 AI 依赖",
-    "summary": "Hank Green 道歉承认过度依赖 AI 创作，引发争议。",
-    "detail": "拥有 320 万订阅的 Hank Green 就过度依赖 AI 聊天机器人公开道歉。因视频中意外暴露使用 ChatGPT 研究脚本而遭观众批评，被指稀释了个人特色。他承认 usage 不健康，计划减少产量。此事件凸显创作者经济中 AI 使用的伦理边界与健康问题。观众对 AI 生成内容的敏感度正在上升，迫使创作者在效率与真实性之间寻找平衡，可能引发行业对 AI 披露标准的进一步讨论。这也反映了公众对 AI 介入创意工作的复杂心态，警示创作者需谨慎处理人机协作关系。",
-    "tags": [
-      "News",
-      "Creator",
-      "Ethics"
-    ],
-    "link": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
-    "date": "2026-08-01",
-    "id": "17856151506801"
   }
 ]
