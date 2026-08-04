@@ -1,5 +1,70 @@
 [
   {
+    "title": "德州暂停新数据中心建设，州长呼吁审计",
+    "summary": "德州电网不堪重负，暂停新数据中心项目并要求审计。",
+    "detail": "德州州长宣布暂停所有新数据中心项目，需经公用事业委员会及电网运营商审计。ERCOT 互联队列半年内从 233 吉瓦翻倍至 474 吉瓦，90% 为数据中心。若全部实施将远超电网峰值负荷。目前仅弗吉尼亚州数据中心数量超过德州。此举反映 AI 基础设施扩张与能源供应间的严峻矛盾，可能影响未来算力布局。许多项目仅是纸面提案，但排队导致电网压力剧增，政府干预旨在防止电网崩溃，显示 AI 算力增长正面临物理基础设施瓶颈。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Policy"
+    ],
+    "link": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
+    "date": "2026-08-04",
+    "id": "17858600923320"
+  },
+  {
+    "title": "Spotify 携手 Merlin 扩展 AI 音乐 remix 项目",
+    "summary": "Spotify 获 Merlin 支持，允许粉丝在艺术家同意下制作 AI 翻唱。",
+    "detail": "Spotify 宣布 Merlin 加入其 AI 音乐计划，带来超 3 万个独立厂牌。该功能允许粉丝在艺术家同意前提下制作翻唱和 remix，强调“真实艺术家”而非假艺术家，并提供补偿。相比之下，Deezer 近期称 50% 日上传曲目为 AI 生成。此举旨在合法化 AI 音乐互动，应对平台上 AI 生成曲目激增的现状，重塑版权合作模式。公司明确表示将驱动补偿机制，确保艺术家权益，探索交互式音乐的法律合规路径，区别于完全生成式 AI 音乐。",
+    "tags": [
+      "News",
+      "Music",
+      "Product"
+    ],
+    "link": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
+    "date": "2026-08-04",
+    "id": "17858600923321"
+  },
+  {
+    "title": "菲尔兹奖得主加入 OpenAI 安全团队",
+    "summary": "数学家 Jacob Tsimerman 获菲尔兹奖后加入 OpenAI 关注安全。",
+    "detail": "加拿大数学家 Jacob Tsimerman 获菲尔兹奖后宣布加入 OpenAI 安全团队。他在 7 月 23 日发布会上表示，AI 即将在专业数学领域超越人类，对此感到悲观并希望引导人才关注 AI 安全。该事件反映了顶尖学术界对 AI 快速发展及其职业替代风险的深刻担忧。他试图利用知名度引导公众正视 AI 可能超越专业数学家的现实。作为首位公开加入安全团队的菲尔兹奖得主，其动向象征学术界对 AI 风险认知的转变，可能引发更多基础科学研究人员转向 AI 安全领域。",
+    "tags": [
+      "News",
+      "Safety",
+      "Talent"
+    ],
+    "link": "https://www.understandingai.org/p/mathematicians-are-grappling-with",
+    "date": "2026-08-04",
+    "id": "17858600923322"
+  },
+  {
+    "title": "开源 AI 运行时 Flyte 2 正式发布",
+    "summary": "Flyte 2 GA，打造耐用的开源 AI 运行时而非单纯编排器。",
+    "detail": "Flyte 2 宣布通用可用，这是历经十年重构的耐用 AI 运行时。最初建于 Lyft，现为 Linux 基金会项目。不同于传统编排器，它拥有底层基础设施所有权，能从计算失败（如 OOM）中恢复。它为 AI/ML 团队提供更可靠、可扩展的工作流引擎，适应现代 AI 开发需求，标志着开源工作流系统的重大演进。系统重建以适应全新世界，提供端到端运行时耐用性，不仅处理逻辑失败，还能恢复计算失败，为大规模 AI 训练与模拟提供坚实底层支撑。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Workflow"
+    ],
+    "link": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+    "date": "2026-08-04",
+    "id": "17858600923323"
+  },
+  {
+    "title": "Cloudflare 利用 AI 强制执行工程标准",
+    "summary": "Cloudflare 部署 AI 代码审查，四个月拦截 1.6 万次合并。",
+    "detail": "Cloudflare 通过 AI 代码审查员和规范审查代理强制执行工程标准。过去四个月标记 25 万次违规，拦截 1.6 万次合并，评估近 600 个技术设计。基于 Cloudflare Codex，将分散的工程知识转化为代理可执行的标准，显著提升了代码质量一致性，为 AI 辅助软件工程提供落地案例，解决知识分散与执行漂移问题。此前指导分散在文档与聊天中，现在代理可在工作点检索应用，支持代码、设计及事件报告审查，实现工程标准的自动化治理与持续合规。",
+    "tags": [
+      "Dev",
+      "Enterprise",
+      "CodeReview"
+    ],
+    "link": "https://blog.cloudflare.com/engineering-standards-enforcement/",
+    "date": "2026-08-04",
+    "id": "17858600923324"
+  },
+  {
     "title": "代理 AI 的未来：可审计性与强制确定性之争",
     "summary": "探讨 AI 代理在垂直解决方案中如何平衡科学规则与商业 hype。",
     "detail": "文章指出当前 AI 初创公司多致力于垂直解决方案，而非底层模型，营销预算巨大但核心 primitive 缺乏确定性。作者质疑是否存在真正确定性的 AI 原语，强调 AI 代理需要正确的目标而非不可能的任务。这反映了科学发明与数学规则下的 LLM 现状，对构建基础设施的创始人具有参考意义，呼吁回归科学规则而非追逐 hype。垂直 AI 公司不 build underlying model，而是 build layer on top，叙事由 frontier LLM providers 脚本化。YC batches 中 90% 公司为 AI-driven，most are vertical AI companies.",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps/",
     "date": "2026-08-01",
     "id": "17856770202593"
-  },
-  {
-    "title": "Show HN: TamedTable 用自然语言实现 AI ETL 数据处理",
-    "summary": "无需代码，通过自然语言指令加载、清洗和转换表格数据的 AI 工具。",
-    "detail": "TamedTable 是一款新推出的 AI ETL 工具，允许用户使用自然语言对表格数据进行加载、清洗、丰富和验证。支持 CSV、JSONL、Parquet 等格式，可在浏览器或 CLI 运行。其核心优势在于理解上下文进行数据清理，并将操作步骤保存为可复用的 recipe 或导出为 Python 脚本。适合数据分析师快速处理 messy data，无需编写复杂公式。",
-    "tags": [
-      "New",
-      "ETL",
-      "Data"
-    ],
-    "link": "https://www.tamedtable.com/",
-    "date": "2026-08-01",
-    "id": "17856618583452"
-  },
-  {
-    "title": "DeepSeek 发布 V4 Flash 模型，引发 AI 行业价格战",
-    "summary": "Coding 性能媲美 Claude Opus 4.8，价格低至 99% 折扣，加速模型 commoditization。",
-    "detail": "中国 AI 实验室 DeepSeek 发布全新编码模型 V4 Flash，标志着 AI 智能正迅速商品化。该模型在 Arena.ai 前端编码排行榜上 debut 领先 Anthropic 的 Claude Opus 4.8，但价格仅为对方的 1%（约 28 美分对比 25 美元），折扣高达 99%。此举加剧了全球 AI 价格战，OpenAI 等巨头已跟进降价。尽管科技巨头投入数千亿建设基础设施，但模型 intelligence 成本正急剧下降。随着 Kimi K3 等中国模型进军美国市场，7 月已 ushered 全面价格战，可能重塑行业盈利模式与竞争格局。",
-    "tags": [
-      "News",
-      "LLM",
-      "DeepSeek"
-    ],
-    "link": "https://www.axios.com/2026/08/01/deepseek-model-cheap-ai-price-war",
-    "date": "2026-08-01",
-    "id": "17856525546631"
-  },
-  {
-    "title": "核战争预防者联名签署《罗马宣言》呼吁 AI 减速",
-    "summary": "前核安全专家警告 AI 控制核武风险，呼吁前沿实验室协调减速与验证。",
-    "detail": "一群曾致力于避免核战争的人士发布《罗马宣言》，重点关注 AI 控制核武器的生存风险。宣言划定了不可监控的递归自我改进红线，呼吁 OpenAI、Anthropic 等前沿实验室协调放缓开发速度，并实施内外验证。签署者认为 AI 与核武结合可能引发双重威胁，需避免危险的 AI 冷战 scenario。该宣言借鉴了核时代科学家的警告历史，强调负责任开发。Adam Allevato 等签署者呼吁行业共同行动，防止技术失控导致文明级风险。这是 AI 安全领域的一次重要政策倡议，连接了核安全与 AI 治理。",
-    "tags": [
-      "News",
-      "Safety",
-      "Policy"
-    ],
-    "link": "https://allevato.me/2026/08/01/rome-declaration",
-    "date": "2026-08-01",
-    "id": "17856422338074"
-  },
-  {
-    "title": "菲尔兹奖得主 Jacob Tsimerman 加入 OpenAI 安全团队",
-    "summary": "数学巨星 Jacob Tsimerman 加入 OpenAI，专注 AI 安全研究。",
-    "detail": "菲尔兹奖得主 Jacob Tsimerman 加入 OpenAI 引发行业关注。他曾公开表达对 AI 的担忧，现转而投身 AI 安全研究。此举标志着顶级学术人才开始流向 AI 安全领域，可能影响未来模型对齐策略。WSJ 报道指出，这是 AI 安全领域的人才里程碑，显示 OpenAI 在安全层面的投入升级，旨在应对日益复杂的模型风险。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "AI Safety"
-    ],
-    "link": "https://www.wsj.com/tech/ai/openai-jacob-tsimerman-fields-medal-ai-safety-391d0f79",
-    "date": "2026-08-01",
-    "id": "17856251015490"
-  },
-  {
-    "title": "金融时报：墨西哥成美国 AI 繁荣意外基石",
-    "summary": "金融时报报道墨西哥成为美国 AI boom 的关键支柱。",
-    "detail": "金融时报深入分析墨西哥在美国 AI 繁荣中的角色。凭借地理位置与人才优势，墨西哥正成为美国 AI 基础设施与外包服务的重要枢纽。这一地缘经济变化表明 AI 产业链正在重塑北美格局，为企业提供了新的成本优化与人才获取路径。投资者应关注这一供应链转移趋势及其对 AI 落地成本的影响。",
-    "tags": [
-      "News",
-      "Geopolitics",
-      "Industry"
-    ],
-    "link": "https://www.ft.com/content/ac3274ac-86ca-46ac-bc7b-029fb9dcd173",
-    "date": "2026-08-01",
-    "id": "17856251015491"
   }
 ]
