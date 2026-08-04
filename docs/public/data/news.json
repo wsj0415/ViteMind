@@ -1,5 +1,83 @@
 [
   {
+    "title": "代理 AI 的未来：可审计性与强制确定性之争",
+    "summary": "探讨 AI 代理在垂直解决方案中如何平衡科学规则与商业 hype。",
+    "detail": "文章指出当前 AI 初创公司多致力于垂直解决方案，而非底层模型，营销预算巨大但核心 primitive 缺乏确定性。作者质疑是否存在真正确定性的 AI 原语，强调 AI 代理需要正确的目标而非不可能的任务。这反映了科学发明与数学规则下的 LLM 现状，对构建基础设施的创始人具有参考意义，呼吁回归科学规则而非追逐 hype。垂直 AI 公司不 build underlying model，而是 build layer on top，叙事由 frontier LLM providers 脚本化。YC batches 中 90% 公司为 AI-driven，most are vertical AI companies.",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "LLM"
+    ],
+    "link": "https://medium.com/@MirArshadTalpur/auditability-vs-forced-determinism-future-of-agentic-ai-fb243d339338",
+    "date": "2026-08-04",
+    "id": "17858487785640"
+  },
+  {
+    "title": "AI 人才战争加剧：顶尖研究员流动性过高",
+    "summary": "OpenAI 等巨头争夺精英人才，初创公司难以保留创始团队成员。",
+    "detail": "顶级 AI 研究员在主要实验室间频繁跳槽，即便高薪也难以留存。Thinking Machines 联合创始人 Lilian Weng 重返 OpenAI 研究递归自我改进。这表明前沿 AI 生态紧密相连，初创公司在保留创始人才方面面临巨大挑战，行业竞争已进入生态级博弈。人才流动反映小群体研究员可 command extraordinary compensation，文化使命技术资源皆成选择因素。Frontier AI resembles a single tightly connected ecosystem rather than isolated rivals. Companies battle fiercely while simultaneously investing in one another.",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Talent"
+    ],
+    "link": "https://www.axios.com/2026/08/03/ai-talent-wars-openai-google-meta-anthropic",
+    "date": "2026-08-04",
+    "id": "17858487785641"
+  },
+  {
+    "title": "日本为何在由其帮助创造的 AI 竞赛中落后",
+    "summary": "企业文化与决策流程导致日本 generative AI adoption 率远低于美中。",
+    "detail": "日本工程文化严谨但决策缓慢，nemawashi 共识机制不适合 AI 快速迭代。OECD 数据显示日本仅不到半数公司计划采用生成式 AI，远低于美中 80%。失败的高声誉成本 penalizes 实验风险，导致 adoption 曲线滞后，结构性劣势阻碍了 borderless 的 AI 技术发展。企业优化模型适合 domestic market，难以适应 AI 速度。Japan gave the world bullet train but finds itself structurally disadvantaged in AI. The gap shows most clearly in how quickly companies are actually integrating AI into their workflows.",
+    "tags": [
+      "News",
+      "Industry",
+      "Japan"
+    ],
+    "link": "https://bytepith.com/article/why-japan-losing-ai-race-it-helped-create",
+    "date": "2026-08-04",
+    "id": "17858487785642"
+  },
+  {
+    "title": "Vultrino：防止 AI 代理泄露凭证的安全代理",
+    "summary": "开源凭证代理工具，让 AI 代理使用密钥而不可见密钥。",
+    "detail": "针对 AI 代理安全推出的凭证代理工具。通过别名和受控响应隔离凭证，支持 OAuth2 自动刷新及 WASM 插件扩展。集成 MCP 协议，允许代理在不接触原始 API 密钥的情况下执行操作，解决了 Agent 时代的关键安全风险，适用于 GitHub 等外部 API 调用场景。架构上 Agent 只发送 alias，Vultrino 注入 auth，保障 credential isolation。Instead of giving an agent an API key, you give it a credential alias and an action surface.",
+    "tags": [
+      "Dev",
+      "Security",
+      "Open Source"
+    ],
+    "link": "https://github.com/FeirAI/vultrino",
+    "date": "2026-08-04",
+    "id": "17858487785643"
+  },
+  {
+    "title": "研究：对话上下文显著影响 AI 回答质量",
+    "summary": "Arxiv 新论文显示忽略对话历史会导致近半数回答出现实质性差异。",
+    "detail": "论文测试了对话上下文对 AI 回答的影响。仅使用最终消息与完整对话相比，44.7% 的案例存在实质性差异。压缩前缀可减少差异但无法完全替代完整上下文。研究强调评估 AI 系统时不能忽略对话历史，对 RAG 及多轮对话系统设计有重要指导意义。Judge model 评估显示 full-conversation 答案满意度更高。An isolated final user message is often treated as the query in evaluations of AI systems, but actionable request may be distributed.",
+    "tags": [
+      "Dev",
+      "Research",
+      "LLM"
+    ],
+    "link": "https://arxiv.org/abs/2608.02556",
+    "date": "2026-08-04",
+    "id": "17858487785644"
+  },
+  {
+    "title": "AI 如何让设计工作显得过早 resolved",
+    "summary": "建筑与设计领域警惕 AI 生成内容看似 polished 但缺乏深度判断。",
+    "detail": "AI 使设计成果看起来更 polished 且快速，但可能缺乏深层理解。建筑学生可快速生成渲染图，但判断力未跟上。这影响公众会议及决策，材料进入公共对话更快更具说服力。强调教育者需引导学生超越首个 convincing image，判断力比生成速度更重要。设计材料进入公共对话 faster and more persuasively than before。This does not make AI bad, it makes judgment more important. Teaching architecture has always been more than just transferring information.",
+    "tags": [
+      "News",
+      "Design",
+      "Society"
+    ],
+    "link": "https://commonedge.org/how-ai-can-make-design-work-appear-prematurely-resolved/",
+    "date": "2026-08-04",
+    "id": "17858487785645"
+  },
+  {
     "title": "Google AI Studio 删除按钮被指误导用户",
     "summary": "视频揭露删除仅移除 UI metadata，服务器数据仍保留。",
     "detail": "TikTok 用户测试发现，Google AI Studio 的删除按钮仅移除本地 JSON 文件，服务器端对话上下文并未清除。测试者创建提示后删除并清空回收站，使用官方恢复工具后，模型仍能继续上下文对话。这证明服务器端数据未被真正删除，仅 UI 元数据被移除。如果 Google 真正删除了服务器数据，会话将丢失，模型无法继续对话。此举涉嫌违反 GDPR 第 17 条删除权，引发重大隐私合规担忧。对于企业用户而言，这意味着敏感数据可能永久留存于云端，即使执行了删除操作。信任危机可能影响开发者对 Google AI 平台的采用意愿，呼吁更透明的数据生命周期管理。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.ft.com/content/ac3274ac-86ca-46ac-bc7b-029fb9dcd173",
     "date": "2026-08-01",
     "id": "17856251015491"
-  },
-  {
-    "title": "MIT 研究：AI 理财建议质量尚可，尤其提示储蓄",
-    "summary": "MIT 研究发现 AI 理财建议质量尚可，尤其提示储蓄。",
-    "detail": "MIT Sloan 研究显示，遵循 AI 建议可为 30 岁以上人群建立储蓄缓冲。AI  consistently 建议工作期储蓄、退休期提取，并投资 diversified 股票基金。但在应对失业冲击及主动 rebalancing 方面表现不足。结构化 prompt 可提升建议质量，为 FinTech 应用提供参考。这表明 LLM 在垂直领域具备辅助决策潜力。",
-    "tags": [
-      "News",
-      "Finance",
-      "LLM"
-    ],
-    "link": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
-    "date": "2026-08-01",
-    "id": "17856251015492"
-  },
-  {
-    "title": "Show HN: Pronto 实时 AI 代理数据 wire 上线",
-    "summary": "Pronto 上线，为 AI 代理提供 7 万 +  feeds 实时数据流。",
-    "detail": "Pronto 在 Show HN 发布，定位为 AI 代理的实时数据 wire。连接全球 7 万 + 信息源，覆盖 174 国家，支持气候、地震及本地新闻等实时信号处理。该工具旨在解决 AI 代理获取实时外部数据的痛点，提升 Agent 在动态环境中的决策能力。开发者可利用其 API 构建更敏锐的自动化系统，适合需要实时感知的 Agent 应用。",
-    "tags": [
-      "New",
-      "Agent",
-      "Data"
-    ],
-    "link": "https://pronto.stream/",
-    "date": "2026-08-01",
-    "id": "17856251015493"
-  },
-  {
-    "title": "AI 是否导致 Coldcard 钱包安全漏洞？7100 万美元被盗",
-    "summary": "加密钱包 Coldcard 遭盗 7100 万美元，疑与 AI 有关。",
-    "detail": "Coldcard 硬件钱包出现安全漏洞，约 1128 枚 BTC 被盗，价值 7100 万美元。漏洞源于随机数生成系统缺陷，影响特定固件版本。社区讨论 AI 是否在发现或利用漏洞中起作用。此事件警示 AI 时代下的硬件安全新挑战，用户需及时更新固件并检查种子生成机制。安全团队需警惕 AI 辅助攻击的可能性。",
-    "tags": [
-      "News",
-      "Security",
-      "Crypto"
-    ],
-    "link": "https://cryptonews.net/news/security/33234551/",
-    "date": "2026-08-01",
-    "id": "17856251015494"
-  },
-  {
-    "title": "行业评论：Zitron 称 AI 领域“每个人都被卖了谎言”",
-    "summary": "知名评论员 Zitron 称 AI 行业存在普遍谎言与 hype。",
-    "detail": "知名科技评论员 Zitron 在 Bloomberg 播客中指出，AI 行业存在过度炒作，\"每个人都被卖了谎言\"。视频探讨了 AI 实际能力与市场宣传之间的差距。这一观点反映了部分业界人士对当前 AI 泡沫的担忧，提醒投资者与开发者需理性看待技术落地进度与商业承诺。建议关注实际产出而非营销叙事。",
-    "tags": [
-      "News",
-      "Opinion",
-      "Hype"
-    ],
-    "link": "https://www.youtube.com/watch?v=pHcZpvIfho0",
-    "date": "2026-08-01",
-    "id": "17856251015495"
-  },
-  {
-    "title": "澳洲书商警告 AI 公司毁坏珍本用于训练",
-    "summary": "稀有书商指控 AI 公司为获取数据破坏珍本，引发伦理争议。",
-    "detail": "澳洲稀有书商 Tim White 等人指出，生成式 AI 公司可能正在通过“破坏性扫描”获取训练数据，导致珍本物理损毁。Anthropic 诉讼文件显示此类行为存在，引发行业震动。这不仅威胁文化遗产保护，也引发了关于 AI 训练数据来源合法性、版权伦理及物理 artefact 价值的深层讨论。书商强调书籍不仅是内容载体，更是历史故事本身，AI 供应链的破坏性做法恐不可持续。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Copyright"
-    ],
-    "link": "https://www.theguardian.com/technology/2026/aug/02/australian-book-sellers-alarm-destruction-rare-titles-ai-supply-chain",
-    "date": "2026-08-01",
-    "id": "17856214824650"
-  },
-  {
-    "title": "开发者实现通过 WhatsApp 调用 Meta AI",
-    "summary": "开源项目 wa-metaai 让 Meta AI 可作为 OpenAI 兼容接口使用。",
-    "detail": "GitHub 项目 wa-metaai 利用 whatsmeow 库，解决了 Meta AI 机器人 JID 通信问题。开发者现在可通过本地端点将 WhatsApp 内的 Meta AI 作为 OpenAI 兼容 LLM provider 使用，为免费获取模型能力提供了新路径。该方法需配合真实 WhatsApp 账号作为 linked device 运行，解决了 Baileys 库不支持 bot JID 的技术难点，为开发者提供了低成本调用 Meta 模型的新方案。",
-    "tags": [
-      "Dev",
-      "Meta AI",
-      "OpenSource"
-    ],
-    "link": "https://github.com/amita-seal/wa-metaai",
-    "date": "2026-08-01",
-    "id": "17856214824651"
   }
 ]
