@@ -1,5 +1,96 @@
 [
   {
+    "title": "开源权重模型能力逼近前沿，但安全缺口扩大",
+    "summary": "中国开源模型 GLM-5.2 能力接近 GPT-5.5，但在网络安全测试中拒绝率为零，引发安全担忧。",
+    "detail": "TechCrunch 报道指出，中国 Z.ai 发布的开源权重模型 GLM-5.2 在网络和生物能力上仅落后 OpenAI GPT-5.5 和 Anthropic Claude Opus 4.7 数月。然而，非营利组织 SaferAI 的评估显示，该模型在执行 offensive cyber 任务时拒绝率为零，而 Claude Opus 4.7 则 consistently 拒绝。这突显了开源模型能力快速追赶前沿的同时，安全防护措施并未同步跟进的风险。随着开源模型能力增强，如何管理其被恶意使用的风险成为政策制定者和行业关注的焦点。",
+    "tags": [
+      "News",
+      "LLM",
+      "Safety"
+    ],
+    "link": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+    "date": "2026-08-04",
+    "id": "17858751161290"
+  },
+  {
+    "title": "美军 X-62A 试验机利用 AI 自主拦截敌机",
+    "summary": "美国空军 X-62A 测试机利用 AI 大脑和红外传感器，成功自主发现并拦截敌方 T-38 飞机。",
+    "detail": "美国空军与洛克希德·马丁公司合作，成功测试了 X-62A 试验机的自主空战能力。该机型基于 F-16 改装，配备了 AI 驱动的大脑和红外搜索跟踪吊舱。测试中，AI 代理自主 spot 并跟踪飞行中的其他 aircraft，随后执行拦截任务。这展示了空军期望从协作战斗飞机（CCA）无人机群中获得的自主空对空作战能力。此次测试被称为闭环 AI 战斗测试，标志着 AI 在军事航空领域的传感器到车辆控制方面取得重大进展。",
+    "tags": [
+      "News",
+      "Military",
+      "Autonomy"
+    ],
+    "link": "https://www.twz.com/air/x-62a-toting-infrared-search-and-track-pod-used-its-ai-brain-to-autonomously-intercept-an-enemy-t-38",
+    "date": "2026-08-04",
+    "id": "17858751161291"
+  },
+  {
+    "title": "苹果限制漏洞赏金提交以应对 AI 垃圾邮件泛滥",
+    "summary": "因遭受大量 AI 生成的低质量漏洞报告轰炸，苹果被迫限制其漏洞赏金计划的提交数量。",
+    "detail": "MacRumors 报道，苹果公司近期限制了其漏洞赏金计划（Bug Bounty Program）的提交次数。原因是该计划受到了大量由 AI 生成的低质量报告（AI Slop）的轰炸。这些自动生成的报告不仅浪费了安全团队的时间，还掩盖了真正的安全漏洞。苹果此举反映了 AI 工具滥用对网络安全生态系统的负面影响，迫使平台方调整规则以维护有效性。这也侧面印证了 AI 生成内容在专业领域的泛滥已成亟待解决的问题。",
+    "tags": [
+      "News",
+      "Security",
+      "Apple"
+    ],
+    "link": "https://www.macrumors.com/2026/08/04/aple-bug-bounty-limits-ai/",
+    "date": "2026-08-04",
+    "id": "17858751161292"
+  },
+  {
+    "title": "GenOffice：GenSpark 推出原生 AI 办公套件",
+    "summary": "GenSpark 开源跨平台 AI 办公套件 GenOffice，将 AI 编辑作为核心工作流而非附加功能。",
+    "detail": "GenSpark 在 GitHub 上发布了 GenOffice，这是一款面向 macOS 和 Windows 的 AI 原生办公套件，包含文档、表格、演示和 PDF 处理功能。该项目由五个 Electron 应用共享一个引擎层，核心设计理念是将 AI 编辑作为一级工作流，而非传统软件中 bolted-on 的聊天框。例如，在文档处理中，仅重新生成 dirty paragraphs 而非整个文件，实现 byte-preserving round trip。这代表了 AI 应用从插件模式向原生集成模式转变的趋势。",
+    "tags": [
+      "New",
+      "Productivity",
+      "OpenSource"
+    ],
+    "link": "https://github.com/genspark-ai/genoffice",
+    "date": "2026-08-04",
+    "id": "17858751161293"
+  },
+  {
+    "title": "开源社区反思：不应禁止 AI 生成代码",
+    "summary": "文章 argue 开源社区不应 blanket 禁止 AI 代码，而应 regulate 代码质量而非开发过程。",
+    "detail": "针对 GNUstep 社区提议禁止核心项目中 AI 生成代码的讨论，文章指出 blanket 拒绝是错误响应。开源社区已面临 maintainer 短缺和技术债务问题，应谨慎拒绝能帮助理解旧代码、编写测试或 modernization 的工具。AI 生成代码的边界难以定义，禁止使用可能保护的是昨天的 workflow 而非软件自由。核心原则应是 regulate the code, not the development process，即关注代码质量和安全性，而非其生产方式。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Opinion"
+    ],
+    "link": "https://heronsperch.blogspot.com/2026/08/open-source-is-hobbling-itself-over.html",
+    "date": "2026-08-04",
+    "id": "17858751161294"
+  },
+  {
+    "title": "Neck To Choke：免费扫描 AI 生成代码的安全漏洞",
+    "summary": "新工具可扫描 AI 构建的应用，检测暴露的凭证等安全问题并提供修复建议。",
+    "detail": "Neck To Choke 是一款免费的安全扫描工具，专门针对 AI 生成的代码。开发者只需分享链接，工具即可读取 publicly available 信息，检测是否存在暴露的 credentials 等安全问题。它不提供 hacking 功能，而是像 security-conscious friend 一样检查是否 left the door unlocked。工具会提供 plain-English 的解释，用户可直接 paste 回 AI 助手进行修复。这反映了 AI 编码普及后，针对 AI 代码特定安全风险（如硬编码密钥）的防御工具正在兴起。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Tool"
+    ],
+    "link": "https://necktochoke.com/",
+    "date": "2026-08-04",
+    "id": "17858751161295"
+  },
+  {
+    "title": "Wrinkles：基于位置的 AI 音频导游应用",
+    "summary": "新应用 Wrinkles 利用位置信息自动 surface 周围地点的隐藏故事和历史，无需盯着手机。",
+    "detail": "Wrinkles 是一款新推出的 AI 应用，适用于 iOS 和 Android。它利用用户 location 自动 surface 周围地点的 hidden stories 和历史。应用旨在让用户在 explore 世界时听到周围地点 come to life，而无需 stare at phone。创始人基于旅行体验开发此产品，解决传统导游 app 需要手动匹配编号的 frustration。这展示了 AI 在增强现实和_location-based 服务中的应用潜力，将数字信息无缝融入物理世界体验。",
+    "tags": [
+      "New",
+      "Mobile",
+      "Travel"
+    ],
+    "link": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
+    "date": "2026-08-04",
+    "id": "17858751161296"
+  },
+  {
     "title": "Nature 研究：医疗 AI 隐私风险分布不均",
     "summary": "Nature 研究揭示医疗 AI 隐私攻击对少数群体影响更大，挑战数据安全假设。",
     "detail": "MIT 研究人员在 Nature 发表重要文章，指出医疗 AI 工具的隐私风险并非均等分布。研究表明，隐私攻击可揭示训练数据是否包含特定个体，而与多数群体不同的患者最易受损。这挑战了传统去标识化数据安全的假设，意味着当前医疗 AI 开发流程存在漏洞。该发现对医疗 AI 伦理规范、数据隐私政策及模型训练方法产生重大影响，呼吁行业重视少数群体的数据保护，重新评估 AI 在敏感领域的应用风险与边界，为后续监管政策提供科学依据。",
@@ -1207,96 +1298,5 @@
     "link": "https://www.ft.com/content/4532122d-90f2-4433-9df6-ca99d8a141d2",
     "date": "2026-08-02",
     "id": "17856618583453"
-  },
-  {
-    "title": "Agent-Browser：专为 AI 代理设计的浏览器自动化 CLI 工具",
-    "summary": "基于 Rust 构建，优化 Token 消耗，支持多平台与主流 AI 编码助手。",
-    "detail": "Agent-Browser 是一款专为 AI 代理设计的浏览器自动化命令行工具，旨在解决传统自动化方案 Token 消耗过高的问题。采用 100% 原生 Rust 编写，通过紧凑的文本输出而非 JSON 来最小化上下文成本。支持 50+ 命令，涵盖导航、表单、截图、网络控制及调试，并内置视频录制与状态管理功能。兼容 Claude Code、Cursor 等主流 AI 编程助手，支持跨平台运行。该工具通过引用式快照实现确定性元素选择，为长运行代理提供会话、配置文件及安全控制，显著提升 AI 在复杂 Web 任务中的执行效率与可靠性。",
-    "tags": [
-      "Dev",
-      "CLI",
-      "Agent"
-    ],
-    "link": "https://agent-browser.dev/",
-    "date": "2026-08-02",
-    "id": "17856525546630"
-  },
-  {
-    "title": "Lerobit：将 Google 与 ChatGPT 搜索流量转化为客户的 AI 营销平台",
-    "summary": "自动发布 SEO 文章，优化 AI 搜索推荐，适用于 SaaS 及电商团队。",
-    "detail": "Lerobit 是一款 AI 营销与销售团队工具，旨在优化品牌在 Google 搜索结果及 ChatGPT 推荐中的可见性，将搜索流量转化为付费客户。核心功能包括每周自动创建并发布 7 篇 SEO 优化文章，支持 WordPress、Shopify 等平台，可自动发布或经审批后发布。通过关键词研究与内容自动化，帮助初创企业及电商品牌提高有机流量与转化率。后续将扩展至社交媒体管理与视频生成，致力于为用户打造完整的 AI 营销部门，适用于 SaaS、电商及本地品牌。",
-    "tags": [
-      "New",
-      "Marketing",
-      "SEO"
-    ],
-    "link": "https://www.lerobit.com/",
-    "date": "2026-08-02",
-    "id": "17856525546632"
-  },
-  {
-    "title": "媒体质疑 Meta AI 进展，数据反驳其“一无所有”",
-    "summary": "Futurism 唱衰 Meta AI，但独立评估显示 Muse Spark 模型性能媲美 GPT-5.4。",
-    "detail": "针对 Futurism 批评 Meta AI 投入无回报的报道，Runtime Wire 发文反驳。数据显示 Meta 最新模型 Muse Spark 1.1 在 Intelligence Index 得分 51，与 GPT-5.4 及 GLM-5.2 持平。尽管在长程代理任务上略有差距，但其在多模态及分布规模上仍具竞争力。文章指出批评者忽略了基准测试与采用率数据，Meta 在前沿模型竞赛中并未缺席。Meta 承认代理任务差距，但整体性能表现与竞争对手相当，用户参与度并未如报道所言下滑。这场争论反映了行业对 AI 投资回报率的密切关注与不同评估标准。",
-    "tags": [
-      "News",
-      "Meta",
-      "LLM"
-    ],
-    "link": "https://runtimewire.com/article/futurism-says-meta-has-almost-nothing-to-show-for-ai-the-numbers-say-otherwise",
-    "date": "2026-08-02",
-    "id": "17856422338071"
-  },
-  {
-    "title": "FirstEmployee.ai：AI 员工在你睡眠时构建公司",
-    "summary": "输入一句话想法，AI 自动搭建网站、定价及数据库，无需工资只需决策。",
-    "detail": "该项目展示了一种全新的 AI 代理工作流。用户仅需提供一句业务描述，AI 员工即可在几分钟内生成完整网站、关于页面及定价策略，并设置数据库 schema。特色在于“轮班报告”机制，AI 汇报工作并请求关键决策，所有资金直接进入用户 Stripe 账户。这是自主代理构建完整商业闭环的早期尝试。无需工资，无需等待名单，三分钟即可启动。AI 甚至会根据用户背景建议业务想法，展示了 Agent 自主执行复杂任务的能力。每晚生成工作清单，用户只需确认优先级，实现人机协作创业。",
-    "tags": [
-      "New",
-      "Agent",
-      "Startup"
-    ],
-    "link": "https://firstemployee.ai/",
-    "date": "2026-08-02",
-    "id": "17856422338072"
-  },
-  {
-    "title": "CostPerPrompt 上线：实时 AI API 定价与成本计算器",
-    "summary": "覆盖 232+ 模型实时价格，提供 Chatbot、Agent 及 RAG workload 成本估算。",
-    "detail": "开发者工具 CostPerPrompt 发布，解决 AI 应用成本不透明痛点。支持 232 多种模型价格实时刷新，提供针对不同场景（如对话、代理循环、RAG 检索、语音 AI）的成本模拟器。特别指出 Agent 成本可能比预期高 10-30 倍，并提供 GPU 租赁比价及 Token 计数工具，帮助团队优化 API 支出与缓存策略。涵盖 OpenAI GPT-5.6 等最新模型定价，帮助开发者在构建应用前精确预算，避免成本超支，是 AI 工程化落地的重要基础设施。包含缓存与 Batch API 指南，可降低成本达 90%。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "API"
-    ],
-    "link": "https://costperprompt.com/",
-    "date": "2026-08-02",
-    "id": "17856422338073"
-  },
-  {
-    "title": "AI 代理闭环后果治理运行时架构论文发布",
-    "summary": "Zenodo 发布新论文，提出基于后果治理的 AI 代理安全架构，阻断攻击。",
-    "detail": "论文提出一种闭环治理运行时，通过监测结构性后果（如不可逆操作）而非意图来管控 AI 代理。实验显示能有效阻断 catastrophic 类攻击，攻击成功率从 33.8% 降至 0.0%。这是 AI 安全领域的重要进展，为自主代理部署提供了新的安全范式，提升系统可靠性。监测 AI 代理的陈述意图是不够的，因为有害 episodes 中无一表达有害意图。该架构通过结构门控和反事实恢复机制，为工具使用型代理提供了实质性的安全保障。",
-    "tags": [
-      "Dev",
-      "Safety",
-      "Paper"
-    ],
-    "link": "https://zenodo.org/records/21778592",
-    "date": "2026-08-01",
-    "id": "17857910697543"
-  },
-  {
-    "title": "测试 AI 模型能否遵守严格风格指南",
-    "summary": "实验测试十个 AI 模型对 ASD-STE100 简化技术英语规则的遵守度，需外部工具。",
-    "detail": "文章测试了 LLM 遵守航空业 ASD-STE100 严格风格指南的能力。结果显示，仅靠提示词无法完全合规，需外部工具检查。这对技术文档生成场景有重要参考，表明特定领域 AI 应用仍需人机协作确保准确性，纯模型生成尚有局限。航空业早在 AI 之前就解决了这个问题，禁止被动语态等。测试涵盖六个领域的十个任务，发现模型偏好自然英语风格，完全合规需要外部检查器反馈循环。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Evaluation"
-    ],
-    "link": "https://bymorning.ai/journal/ai-style-guide",
-    "date": "2026-08-01",
-    "id": "17857910697544"
   }
 ]
