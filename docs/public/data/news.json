@@ -1,5 +1,70 @@
 [
   {
+    "title": "白宫 AI 框架排除开源模型",
+    "summary": "特朗普政府新 AI 框架测试高级能力时排除开源模型，监管趋严。",
+    "detail": "白宫最新 AI 框架草案显示，在测试高级 AI 能力时将排除开源模型。这一政策动向表明政府倾向于集中管控高性能模型，可能出于安全考量。URL 信息暗示与特朗普政府相关，若实施将对开源社区造成冲击。行业需密切关注后续法规落地，调整合规策略，开源模型开发者面临新挑战。监管趋严可能改变模型分发格局，闭源模型或获政策倾斜，开源生态需寻找新生存空间。",
+    "tags": [
+      "News",
+      "Policy",
+      "Open Source"
+    ],
+    "link": "https://www.axios.com/2026/08/04/trump-ai-framework-open-models",
+    "date": "2026-08-04",
+    "id": "17858882696950"
+  },
+  {
+    "title": "AI 股票抛售重创对冲基金",
+    "summary": "AI 板块波动加剧，Whale Rock 资本七月亏损逾 21%，市场情绪转冷。",
+    "detail": "彭博社报道 AI 股票抛售浪潮重创对冲基金，Whale Rock 资本七月损失高达 21.7%。市场数据显示 AI 板块波动性加剧，投资者信心受挫。此现象警示 AI 投资可能存在过热风险，资金正从纯概念转向实际盈利项目。金融机构需重新审视 AI 资产配置，防范系统性风险蔓延。市场情绪转变可能引发连锁反应，建议投资者关注企业现金流而非单纯技术叙事，避免高位接盘。",
+    "tags": [
+      "News",
+      "Finance",
+      "Market"
+    ],
+    "link": "https://www.bloomberg.com/news/articles/2026-08-04/whale-rock-sank-22-as-ai-selloff-crippled-hedge-fund-returns",
+    "date": "2026-08-04",
+    "id": "17858882696951"
+  },
+  {
+    "title": "斯坦福自改进 AI 智能体课程",
+    "summary": "斯坦福推出 CS329A 课程，专注自改进智能体前沿技术研究。",
+    "detail": "斯坦福大学在线课程 CS329A 聚焦自改进 AI 智能体技术。课程旨在探索智能体如何通过反馈循环自主优化性能，属于前沿研究方向。尽管当前链接访问受限，但课程标题揭示了学术界对 Agent 自主性的重视。开发者可关注相关论文，掌握智能体进化核心算法，提升系统自适应能力。自改进 Agent 是未来智能系统的关键路径，学习此课程有助于理解架构设计。",
+    "tags": [
+      "Dev",
+      "Education",
+      "Agents"
+    ],
+    "link": "https://www.youtube.com/playlist?list=PLangBM27OtEA",
+    "date": "2026-08-04",
+    "id": "17858882696952"
+  },
+  {
+    "title": "AI 产品评估方法论开源",
+    "summary": "Huby 发布三层评估框架，涵盖质量、安全等六大维度。",
+    "detail": "HackerNews 社区展示 Huby 的 AI 产品评估方法论，包含质量、安全、隐私等六大类别。该三层框架旨在解决现有基准测试不切实际的问题，提供独立评估标准。社区邀请同行反馈以完善体系，此举有助于推动 AI 产品评估标准化，为采购和开发提供可靠参考依据。当前市场缺乏统一评估标准，该方法论填补空白，帮助团队量化 AI 产品价值，降低选型风险。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "Evaluation"
+    ],
+    "link": "https://news.ycombinator.com/item?id=49176006",
+    "date": "2026-08-04",
+    "id": "17858882696953"
+  },
+  {
+    "title": "BluePill AI 消费者双胞胎市场",
+    "summary": "全球首个 AI 消费者双胞胎市场上线，大幅缩短调研周期。",
+    "detail": "BluePill AI 上线全球首个 AI 消费者双胞胎研究市场。平台利用真实买家数据构建 AI 双胞胎，支持概念测试和包装研究，将数月流程缩短至几分钟。用户可免费开始首个研究，无需信用卡。该工具显著降低市场调研成本，为品牌方提供快速验证产品假设的 AI 驱动解决方案。传统调研耗时耗力，AI 双胞胎提供规模化模拟，大幅提升决策效率，是市场研究领域的技术革新。",
+    "tags": [
+      "New",
+      "Market Research",
+      "AI Twins"
+    ],
+    "link": "https://blue-pill.ai/marketplace",
+    "date": "2026-08-04",
+    "id": "17858882696954"
+  },
+  {
     "title": "利用 Logit Bias 优化 AI 写作人类感",
     "summary": "通过 API 参数禁用特定 Token，有效降低 AI 生成文本的机械感。",
     "detail": "作者深入实验使用 `logit_bias` 参数而非传统 Prompt 指令，直接调整模型 Token 选择的数值概率。通过建立 AI 高频词黑名单并赋予负偏置，在严格保持事实、数据不变的前提下重写文章。对比测试显示，该方法比 Prompt 指令更强制有效，能显著降低文本机械感。这为开发者在 API 层面精细控制 LLM 输出风格、规避特定词汇提供了新的技术思路与实践参考。",
@@ -1233,70 +1298,5 @@
     "link": "https://runtimewire.com/article/arrakis-security-raises-8-million-ai-agent-runtime-controls",
     "date": "2026-08-02",
     "id": "17856831421250"
-  },
-  {
-    "title": "Rails Agent 发布：让 Ruby 开发者零门槛构建 AI 代理",
-    "summary": "全新 Rails 原生框架，集成部署监控，无需 AI 专业知识即可开发代理应用。",
-    "detail": "Rails Agent 是一个专为 Ruby on Rails 开发者设计的全栈框架，旨在降低 AI 代理开发门槛。它提供原生 DSL、Playbooks 和连接器，支持从构建到部署监控的全生命周期管理。开发者无需深入理解 LLM 或嵌入技术，仅需 Rails 技能即可构建生产级代理。该工具支持多种模型提供商，并包含自动缩放和追踪功能，标志着 AI 开发工具正垂直整合进主流 Web 框架。让传统 Web 开发者能快速利用 AI 能力而不必成为 AI 专家，降低了代理应用的开发成本，可能推动 Rails 生态在 AI 时代的复兴。",
-    "tags": [
-      "Dev",
-      "Ruby",
-      "Agents"
-    ],
-    "link": "https://rails-agent.com",
-    "date": "2026-08-02",
-    "id": "17856831421251"
-  },
-  {
-    "title": "新 MCP 服务器问世：AI 代理可用自然语言筛选金融市场",
-    "summary": "基于 XCREENER API，支持 Claude Desktop 等客户端直接运行市场筛选查询。",
-    "detail": "开发者发布了 xcreener-mcp，这是一个本地 stdio MCP 桥接工具，允许 AI 代理通过自然语言执行金融市场筛选。支持 Crypto、Forex、指数等多种资产类别，无需编写 HTTP glue 代码即可在 Claude Desktop 或 Cursor 中验证和运行 XQL 查询。这展示了 MCP 协议在垂直领域数据访问中的实际应用，增强了代理获取实时结构化数据的能力。对于量化交易和数据分析场景，这种自然语言接口大大降低了使用门槛，是 AI 代理连接专业数据源的重要基础设施进展，体现了 Agent 生态工具链的成熟。",
-    "tags": [
-      "Dev",
-      "MCP",
-      "Finance"
-    ],
-    "link": "https://github.com/xcreener/xcreener-mcp",
-    "date": "2026-08-02",
-    "id": "17856831421252"
-  },
-  {
-    "title": "Cory Doctorow 发文：企业为何在 AI 问题上撒谎",
-    "summary": "指出企业盲目跟风 AI 可能导致破产，批评 AI 泡沫中的欺诈行为。",
-    "detail": "知名科技评论家 Cory Doctorow 在其博客 Pluralistic 中撰文，严厉批评企业盲目采用 AI 技术的现象。文章指出许多公司为了迎合管理层而虚构 AI 能力，最终可能导致破产。他将其称为\"AI 的高跷欺诈\"，强调了当前 AI 热潮中存在的过度炒作与实际效用之间的差距。这一观点揭示了企业级 AI 落地面临的真实挑战，提醒投资者和开发者需理性看待 AI 商业价值，避免陷入为了 AI 而 AI 的陷阱，关注实际 ROI 而非营销噱头，对行业泡沫提出警示。",
-    "tags": [
-      "News",
-      "Industry",
-      "Opinion"
-    ],
-    "link": "https://pluralistic.net/2026/08/01/dare-snot/",
-    "date": "2026-08-02",
-    "id": "17856831421253"
-  },
-  {
-    "title": "倡议禁止在 Live 活动中使用 AI 面部识别监控",
-    "summary": "音乐界联合人权组织反对场馆使用生物识别技术，保护隐私安全。",
-    "detail": "Fight for the Future 发起倡议，呼吁禁止在音乐现场活动中使用 AI 面部识别技术。此前 Madison Square Garden 因使用该技術识别并禁止特定观众入场引发争议。联盟指出该技术存在种族歧视风险且侵犯隐私，尤其对少数族裔影响更大。已有 40 多个大型音乐节承诺不使用该技术，但随着 AI 热潮，此类监控正以无纸化票务等形式扩散。这反映了公众对生物识别技术的担忧，行业需在便利性与隐私权之间找到平衡，政策监管可能随之加强，影响 AI 在公共空间的应用边界。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Privacy"
-    ],
-    "link": "https://www.banfacialrecognition.com/venues/",
-    "date": "2026-08-02",
-    "id": "17856831421254"
-  },
-  {
-    "title": "Termexo：Windows 本地 Claude Code 工作台",
-    "summary": "专为 Windows 设计的本地工作台，支持 Claude Code 和 Codex 开发，提升编码效率。",
-    "detail": "Termexo 是一款新发布的本地 Windows 工作台工具，旨在优化 Claude Code 和 Codex 的使用体验。作为开发者工具，它允许用户在本地环境中更高效地管理 AI 编码代理。这反映了 AI 编程工具正从云端向本地化、专用化发展的趋势，为开发者提供了更灵活的控制权和隐私保护。适合需要深度集成 AI 辅助编程的 Windows 用户，降低了使用先进大模型进行代码生成的门槛。此类工具的出现标志着 AI 编程助手正成为标准开发环境的一部分，提升了开发者的工作流效率。",
-    "tags": [
-      "New",
-      "Dev",
-      "Coding"
-    ],
-    "link": "https://www.producthunt.com/products/termexo",
-    "date": "2026-08-02",
-    "id": "17856770202591"
   }
 ]
