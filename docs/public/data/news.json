@@ -1,5 +1,57 @@
 [
   {
+    "title": "谷歌 AI 元老 Jeff Dean 离职创业",
+    "summary": "Jeff Dean 联合多位谷歌顶尖研究员创立 Discovery Loop，致力 AI 科研自动化。",
+    "detail": "谷歌资深高管 Jeff Dean 联合 Sanjay Ghemawat、Quoc Le 等顶尖研究员正式离职，创立公益公司 Discovery Loop。该公司旨在利用高算力算法同时发起数千次实验，部分自动化研究流程。核心目标是通过递归自我改进技术，完全消除人类迭代环节，解决科学进步依赖慢速顺序迭代的瓶颈。此举标志着 AI 巨头核心人才流向科学 AI 领域，可能重塑未来科研范式与效率。Dean 将任 CEO，公司强调利用 AI 创造更强大的 AI，这引发了关于自动化创新速度的行业关注。",
+    "tags": [
+      "News",
+      "Google",
+      "Startup"
+    ],
+    "link": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+    "date": "2026-08-05",
+    "id": "17859586041250"
+  },
+  {
+    "title": "Cloudflare 开源 AI 操作系统",
+    "summary": "Cloudflare 发布开源 Cloudflare OS，为 AI Agent 提供安全的工作空间与治理框架。",
+    "detail": "Cloudflare 宣布开源 Cloudflare OS，并非传统操作系统，而是面向 Agent 和应用的 AI 平台。包含隔离运行时、安全治理框架及可修改应用平台。旨在让企业安全地使用 AI 处理内部数据与工作流，解决了 AI 落地中的安全与上下文痛点。用户可通过对话生成文档或应用，平台确保内部数据访问安全，使安全团队无需担忧。该项目已在 GitHub 开源，为企业构建私有 AI 工作空间提供了新标准与基础设施参考。它重新定义了“操作系统”概念，专注于组织生产力与 AI 安全治理的结合。",
+    "tags": [
+      "New",
+      "OpenSource",
+      "Agents"
+    ],
+    "link": "https://www.phoronix.com/news/Cloudflare-OS",
+    "date": "2026-08-05",
+    "id": "17859586041251"
+  },
+  {
+    "title": "为何 AI Agent 难以广泛普及",
+    "summary": "分析指出 AI Agent 普及率低源于人类缺乏 delegation 技能，认知成本过高。",
+    "detail": "文章分析 AI Agent 普及率低的核心原因是人类缺乏“委派”技能。使用 Agent 类似管理初级员工，需明确需求与验证输出。日常生活中反应式任务多于规划式任务，导致 ROI 不高。未来 Agent 将隐藏于简单界面后，而非直接暴露复杂性。委派涉及发现、简报、监督等认知成本，个人生活中收益常低于成本。但在编程等专业场景，重复性工作使委派具有高性价比。结论指出 Agent 需简化交互界面，适应人类点击习惯而非自然语言编程，才能真正实现广泛普及与落地。",
+    "tags": [
+      "News",
+      "Agents",
+      "Industry"
+    ],
+    "link": "https://invertedpassion.com/why-ai-agents-arent-adopted-widely/",
+    "date": "2026-08-05",
+    "id": "17859586041252"
+  },
+  {
+    "title": "Project Phoenix 自主 Agent 游戏协作",
+    "summary": "Project Phoenix 展示多 AI Agent 在即时战略游戏中自主协作与资源管理。",
+    "detail": "Project Phoenix 展示自主 AI Agent 在即时战略游戏中的协作。日志显示多个 Agent 通过通信协调资源采集与战略决策，实现自主进化与奖励机制。这为多 Agent 系统在复杂环境中的协同控制提供了实际案例，验证了自主代理在动态任务中的可行性。系统内部包含 Governor 协调多个村民 Agent 进行食物采集与时代升级，展示了基于强化学习的多智能体通信与奖励分配机制。该项目为开发复杂环境下的自主代理系统提供了宝贵的技术参考与日志数据。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "Game"
+    ],
+    "link": "https://phoenix-production-96cd.up.railway.app/",
+    "date": "2026-08-05",
+    "id": "17859586041253"
+  },
+  {
     "title": "AI 默认人格危机：品牌声音正在流失",
     "summary": "各大模型厂商推出人格调节功能，企业需警惕 AI 默认设置稀释品牌 identity。",
     "detail": "随着 Voice AI 接管越来越多客服对话，AI 的默认人格成为品牌资产流失的新风险点。OpenAI、Anthropic 和 Google 近期纷纷推出人格预设及调节滑块，文中提到 GPT-5.1 已 shipped 人格预设，Google 正在测试能量与正式度滑块。文章指出，虽然提供商提供了调节工具，但多数企业仍在使用 vendor 选择的默认性格。这可能导致品牌形象在同质化的 AI 交互中被稀释，企业需尽快掌握 AI 人格自定义权以维护品牌一致性，毕竟品牌书定义的红色 shade 与 greeting script 的重要性同样适用于 AI 交互表面。",
@@ -1246,57 +1298,5 @@
     "link": "https://ryansouthgate.com/ai-is-a-racecar/",
     "date": "2026-08-03",
     "id": "17857458836440"
-  },
-  {
-    "title": "Pipe：AI 原生基础设施运行时",
-    "summary": "无需 Python 依赖，单二进制部署 LLM 管道，解决安全性能问题。",
-    "detail": "Pipe 是一个专为 AI 管道设计的运行时，将 AI 操作作为语言原语。支持沙箱安全、并行处理及避免供应商锁定。仅需 10MB 二进制文件，无需 Python 环境，旨在解决生产环境中 AI 部署的安全与性能瓶颈。它允许开发者在语言层面进行沙箱隔离，而非依赖中间件。切换 AI 提供商只需一行代码。从日志分析到事件报告，Pipe 简化了 AI 代理的构建流程，适合需要高性能且无依赖负担的生产级 AI 应用部署场景。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "Runtime"
-    ],
-    "link": "https://pipe-lang.com",
-    "date": "2026-08-03",
-    "id": "17857458836443"
-  },
-  {
-    "title": "吴恩达探讨中国与开源 AI 竞争力",
-    "summary": "华盛顿邮报直播，吴恩达深度分析中美 AI 格局与开源战略。",
-    "detail": "华盛顿邮报直播节目邀请 AI 先驱吴恩达，深入探讨中国 AI 发展现状、开源模式优势及全球竞争力对比。尽管视频链接当前存在访问限制，但议题直指当前 AI 地缘政治与技术开放的核心争议。吴恩达作为行业权威，其观点往往预示技术风向。对于关注宏观 AI 战略的投资人、政策制定者及开发者，这是理解未来技术流向与市场竞争格局的重要风向标。开源与封闭模型的博弈将如何影响全球创新速度，以及中国在其中的角色，是行业关注的焦点。值得持续跟踪后续内容释放与行业反响，以便及时调整技术选型与市场策略。",
-    "tags": [
-      "News",
-      "Strategy",
-      "OpenSource"
-    ],
-    "link": "https://www.youtube.com/watch?v=2OUGXI9Y1sk",
-    "date": "2026-08-03",
-    "id": "17857314813130"
-  },
-  {
-    "title": "AI 代理实现 COBOL 至 Java 确定性迁移",
-    "summary": "新论文提出 Locksmith Loop，解决遗留代码迁移中的测试验证难题。",
-    "detail": "ArXiv 新论文提出\"Locksmith Loop\"代理方法，用于将遗留 COBOL 程序迁移至 Java。通过构建双运行时环境与迭代代理循环，实现近乎完全的分支覆盖与确定性验证。该技术解决了企业级遗留系统现代化中的核心痛点，证明 AI 代理在复杂软件工程任务中的可靠性。对于金融、保险等依赖 legacy 系统的行业，这提供了低风险升级路径。研究展示了 AI 不仅生成代码，还能通过确定性 Oracle 验证输出，标志着 AI 软件工程向生产级可靠性迈进的关键一步。该方法不仅适用于 COBOL，其确定性验证思路可推广至其他语言迁移场景，为 AI 辅助软件工程树立了新的可靠性标准，降低了企业采用 AI 重构核心系统的风险门槛。",
-    "tags": [
-      "Dev",
-      "Paper",
-      "Enterprise"
-    ],
-    "link": "https://arxiv.org/abs/2607.28271",
-    "date": "2026-08-03",
-    "id": "17857314813131"
-  },
-  {
-    "title": "本地开源 AI 会议记录工具 Lumi 发布",
-    "summary": "无需云端账户，完全本地运行的隐私优先会议记录 CLI 工具。",
-    "detail": "开发者发布全新开源工具 Lumi，主打隐私安全的 AI 会议记录。作为 macOS 命令行工具，它利用系统内置功能，确保录音与数据永不离开本地设备。无云端、无订阅模式解决了企业对数据泄露的担忧。对于需要高度保密会议记录的开发团队与隐私倡导者，这是替代云端 SaaS 服务的优质选择。代码完全开源可审计，消除了黑盒风险。在数据安全法规日益严格的背景下，本地化 AI 工具将成为企业合规的重要选项。Lumi 展示了轻量级本地 AI 应用的可行性与用户价值。该项目也为开发者提供了参考，如何在保护隐私的前提下集成 AI 能力，平衡便利性与安全性，满足特定场景下的合规需求。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Privacy"
-    ],
-    "link": "https://github.com/puremetricsai/lumi",
-    "date": "2026-08-03",
-    "id": "17857314813132"
   }
 ]
