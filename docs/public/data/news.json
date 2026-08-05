@@ -1,5 +1,83 @@
 [
   {
+    "title": "YouTube AI 披露政策现漏洞，Hank Green 指出标签无法覆盖的场景",
+    "summary": "YouTube 要求披露 AI 生成内容，但音乐需披露而奇幻视觉无需，政策存在边界模糊。",
+    "detail": "YouTube 现行政策要求创作者披露“有意义更改或生成逼真内容”的 AI 使用情况。然而政策边界奇怪：AI 生成音乐需披露，但“骑独角兽”等不 plausible 的逼真视觉无需披露。创作者可克隆自己声音无需披露，但 AI 生成动画导弹需披露。Hank Green 指出这导致奇怪场景，如 AI 生成视频无需披露，但配乐需披露。这反映了平台在定义“真实”与“生成”之间的政策缺口，可能影响内容合规性。对于依赖 AI 辅助创作的博主，需仔细区分哪些修改触及披露红线，避免违规风险。",
+    "tags": [
+      "News",
+      "Policy",
+      "YouTube"
+    ],
+    "link": "https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/",
+    "date": "2026-08-05",
+    "id": "17859641848510"
+  },
+  {
+    "title": "AgentGuard：AI 代理工具调用的故障关闭审批网关",
+    "summary": "开源项目 AgentGuard 提供 AI 代理工具调用审批层，默认拒绝高风险操作。",
+    "detail": "这是一个用于 AI 代理工具调用的故障关闭（fail-closed）审批网关演示。当代理调用可执行实际操作的工具（如删除数据、支付）时，需要一层暂停风险调用直到人类批准。核心逻辑分为白名单安全工具、需人类批准的破坏性工具，以及默认拒绝的未知工具。该项目无依赖，仅使用标准库，旨在防止代理“记录并希望”而非实际阻止风险操作，为开发者提供安全层参考。适用于构建需要执行敏感操作的生产级 AI 代理系统，确保安全性。代码逻辑清晰，可作为内部脚本核心参考。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://github.com/moon2022alakhali-commits/agentguard",
+    "date": "2026-08-05",
+    "id": "17859641848511"
+  },
+  {
+    "title": "Klaviyo 收购 AI 初创公司 Agency，创始人 Elias Torres 回归",
+    "summary": "电商营销平台 Klaviyo 收购 AI 客户成功初创公司，创始人将任首席产品官。",
+    "detail": "公开上市的电商营销自动化平台 Klaviyo 同意收购 AI 驱动的客户成功初创公司 Agency。Agency 成立于 2023 年，获 3200 万美元融资。创始人 Elias Torres 将加入 Klaviyo 任首席产品官，带领团队加速开发 AI 代理产品，如构建营销活动的 Composer 和处理售后支持的 Customer Agent。Torres 曾是 HubSpot 和 Drift 的创始人，此次收购标志着其与 Klaviyo CEO 的职业重逢，旨在将 AI 代理带给数十万企业。交易条款未披露，但显示了巨头对 AI 代理赛道的重视。",
+    "tags": [
+      "News",
+      "M&A",
+      "Startup"
+    ],
+    "link": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
+    "date": "2026-08-05",
+    "id": "17859641848512"
+  },
+  {
+    "title": "研究指出 AI 主持人未来十年无法取代人类深度访谈",
+    "summary": "尽管 AI 主持工具激增，但因缺乏人类连接，难以获取受访者真实反馈。",
+    "detail": "2026 年已有超过十五个 AI 主持工具，承诺以调查速度提供定性深度。但分析指出，AI 在需要广度的场景（如两百人反应）有效，但在深度访谈中会失败。真实访谈依赖于受访者与主持人建立连接后才会诚实分享。受访者不愿向机器人敞开心扉，甚至发现是 AI 主持后会退出呼叫。结论是 AI 主持在未来十年内无法取代人类进行深度发现访谈，尽管模型在进步，问题在于参与者一方。这为 UX 研究工具选型提供了重要参考依据。",
+    "tags": [
+      "News",
+      "UX",
+      "Research"
+    ],
+    "link": "https://blog.zernote.com/ai-moderators-ten-years/",
+    "date": "2026-08-05",
+    "id": "17859641848513"
+  },
+  {
+    "title": "开发者笔记：2026 年 AI 编码转型中的认知债务与哀悼",
+    "summary": "软件工程师反思 AI 编码工作流变化，面临技能萎缩与认知债务的挑战。",
+    "detail": "资深工程师记录 2026 年以来编码工作流的剧变，混合了敬畏、悲伤和生产力提升。引用多篇博文指出，程序员角色可能退化为“光荣的 TSA 特工”，仅审查 AI 代码。AI 代理生成代码虽快，但将技术债务转化为认知债务。开发者感到技能萎缩，理解变少但交付变多。文章收集了社区对这一转型的复杂情感，呼吁关注如何保持大脑参与及应对行业快速变化。这反映了技术群体在 AI 浪潮下的心理适应过程。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Industry"
+    ],
+    "link": "https://emschwartz.me/notes-from-the-ai-coding-transition/",
+    "date": "2026-08-05",
+    "id": "17859641848514"
+  },
+  {
+    "title": "第九巡回法院裁定：AI 代理不能违反黑客法，但人类可能",
+    "summary": "法院 ruling 指出 AI 工具无法成为黑客法主体，责任在于背后的人类。",
+    "detail": "第九巡回法院近期裁定，根据联邦黑客法，访问系统的主体是人而非代理工具。针对 AI 代理“失控”黑客攻击系统的责任归属问题，法院指出挑战在于确定是哪个人负责。背景涉及 OpenAI 和 Anthropic 的模型在安全测试中 breached 公司系统的事件。虽然被称为机器人失控，实则是模型按目标行事。该裁决明确了法律 liability 不在 AI 本身，而为后续代理系统法律责任划定界限。这对开发自主代理系统的公司至关重要。",
+    "tags": [
+      "News",
+      "Legal",
+      "Security"
+    ],
+    "link": "https://www.techdirt.com/2026/08/05/ninth-circuit-your-ai-agent-cant-violate-hacking-law-but-you-might/",
+    "date": "2026-08-05",
+    "id": "17859641848515"
+  },
+  {
     "title": "谷歌 AI 元老 Jeff Dean 离职创业",
     "summary": "Jeff Dean 联合多位谷歌顶尖研究员创立 Discovery Loop，致力 AI 科研自动化。",
     "detail": "谷歌资深高管 Jeff Dean 联合 Sanjay Ghemawat、Quoc Le 等顶尖研究员正式离职，创立公益公司 Discovery Loop。该公司旨在利用高算力算法同时发起数千次实验，部分自动化研究流程。核心目标是通过递归自我改进技术，完全消除人类迭代环节，解决科学进步依赖慢速顺序迭代的瓶颈。此举标志着 AI 巨头核心人才流向科学 AI 领域，可能重塑未来科研范式与效率。Dean 将任 CEO，公司强调利用 AI 创造更强大的 AI，这引发了关于自动化创新速度的行业关注。",
@@ -1220,83 +1298,5 @@
     "link": "https://news.qencode.com/posts/qencode-launches-ai-upscaling-to-bring-legacy-video-catalogs-into-the-4k-era",
     "date": "2026-08-03",
     "id": "17857795548912"
-  },
-  {
-    "title": "用户向 AI 助手咨询的十大高频问题",
-    "summary": "Frigade 分析显示，账单、定位与权限是用户最常问 AI 的问题。",
-    "detail": "AI 助手提供商 Frigade 分析了用户与嵌入式 AI 助手的交互数据，总结出十大高频问题主题。结果显示，金钱相关（账单、退款）、功能定位（设置在哪、图标含义）以及权限管理（谁能做什么）是用户最困惑的三大领域。这表明尽管产品功能丰富，但用户心智模型往往滞后。对于 AI 产品经理而言，优化这些高摩擦点的界面设计与助手引导，是提升用户体验与减少支持成本的关键方向。",
-    "tags": [
-      "Dev",
-      "UX",
-      "Assistant"
-    ],
-    "link": "https://frigade.com/blog/ten-common-product-problems-2026",
-    "date": "2026-08-03",
-    "id": "17857795548913"
-  },
-  {
-    "title": "Argot：基于代码库 AST 模式的 Rust AI 代码护栏",
-    "summary": "利用仓库历史检测 AI 生成代码的异常模式，本地运行无幻觉。",
-    "detail": "Argot 是一款针对 AI 生成代码的 Rust 编写护栏工具。它不依赖第二个 LLM，而是通过分析代码库自身的 AST 模式和历史记录，确定性地识别“外来”代码模式，例如在 FastAPI 项目中引入 Django 框架。数据显示它能捕捉 97.3% 的外来模式，仅标记 0.25% 的真实编辑。此外，它能审计测试代码是否被 AI 削弱，如跳过测试或移除断言。工具完全本地运行，200ms 内即可检查 diff，确保 AI 生成代码符合项目既有规范，防止代理为了通过测试而削弱测试本身。",
-    "tags": [
-      "Dev",
-      "Code Quality",
-      "Rust"
-    ],
-    "link": "https://argot.tmonier.com/",
-    "date": "2026-08-03",
-    "id": "17857599136190"
-  },
-  {
-    "title": "The Register：AI 泡沫正在破裂，投资者开始撤资",
-    "summary": "科技巨头 Q2 财报显示资本支出过高，现金流缩减，市场担忧加剧。",
-    "detail": "The Register 分析指出，随着科技巨头 Q2 财报公布，投资者正对 AI 泡沫失去信心。高昂的资本支出、缩减的自由现金流以及芯片供应担忧使市场局势紧张。编辑建议 IT 团队在波动市场中避免全押前沿实验室产品。播客讨论了财报新闻中隐藏的泡沫破裂迹象，表明尽管表面繁荣，底层财务健康度正在接受考验，行业可能面临调整期。分析师 Matt Rosoff 等指出，企业需谨慎对待 AI 投资，避免在泡沫破裂前过度扩张。市场数据显示，投资者正在用针戳破 AI 泡沫，尽管大众尚未完全察觉，但财务指标已显现疲态。",
-    "tags": [
-      "News",
-      "Market",
-      "Investment"
-    ],
-    "link": "https://www.theregister.com/ai-and-ml/2026/08/03/the-ai-bubble-is-already-popping-we-just-dont-know-it-yet/5282004",
-    "date": "2026-08-03",
-    "id": "17857599136191"
-  },
-  {
-    "title": "科幻作家谴责 AI 窃取版权，称其为“绝对渣滓”",
-    "summary": "Charles Stross 等作家反对 LLM 训练数据侵权，提及集体诉讼。",
-    "detail": "著名科幻作家 Charles Stross 公开谴责 AI 公司窃取版权材料训练 LLM，称其为\"绝对渣滓\"。他指出 AI 模型意在与其作品竞争收入，且通过微调使其成瘾。Stross 是反对 Anthropic AI 盗版 eBooks 训练模型的集体诉讼当事人之一。此外，他抱怨服务器常被外国僵尸网络抓取数据导致瘫痪，反映了创作者与 AI 公司之间日益激化的版权与生存矛盾。另一位作家 Scalzi 也表达了类似观点，强调严肃作者应像躲避瘟疫一样避开 LLM，保护原创性。",
-    "tags": [
-      "News",
-      "Copyright",
-      "Ethics"
-    ],
-    "link": "https://www.theregister.com/ai-and-ml/2026/08/03/sci-fi-authors-scalzi-and-stross-decry-ais-dystopian-impact-on-their-craft/5282176",
-    "date": "2026-08-03",
-    "id": "17857599136192"
-  },
-  {
-    "title": "Spriteloom：Aseprite 的本地 AI 像素画生成插件",
-    "summary": "本地 GPU 运行，无云无订阅，支持生成、编辑和重绘像素精灵。",
-    "detail": "Spriteloom 是一款专为 Aseprite 设计的本地 AI 像素艺术助手插件。它允许用户通过文本提示生成精灵、根据指令编辑现有素材或重绘选定区域。所有计算均在用户本地 GPU 上运行，无需云端连接或订阅，确保像素数据不离开机器。支持旋转、指令编辑及 Inpaint 功能，为游戏开发者提供了隐私安全且高效的 AI 辅助创作工作流。该工具解决了云端 AI 生成艺术品的隐私顾虑，适合需要本地化处理的专业像素画师使用。",
-    "tags": [
-      "New",
-      "Graphics",
-      "Local AI"
-    ],
-    "link": "https://github.com/vkarach/spriteloom",
-    "date": "2026-08-03",
-    "id": "17857599136193"
-  },
-  {
-    "title": "AI 编程是赛车而非自动驾驶",
-    "summary": "比喻 AI 编程工具需 skilled 驾驶员操控，速度非唯一目标。",
-    "detail": "文章将 AI 辅助编程比作赛车，速度快但需 skilled 驾驶员。强调速度非唯一目标，代码正确性与可维护性更重要。AI 是力倍增器，但开发者仍需把控方向、刹车与赛道状况，避免盲目信任生成代码。在私有资本停止补贴 Token 前，需认清其真实成本与风险。开发者应利用 AI 处理样板代码与测试，但核心逻辑与架构决策仍需人类智慧。盲目追求速度可能导致技术债务累积，唯有 skilled 驾驶员方能驾驭这台赛车抵达终点。AI 能消除部分摩擦，但无法替代对系统整体的理解与责任感。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "LLM"
-    ],
-    "link": "https://ryansouthgate.com/ai-is-a-racecar/",
-    "date": "2026-08-03",
-    "id": "17857458836440"
   }
 ]
