@@ -1,5 +1,70 @@
 [
   {
+    "title": "OpenAI 与 Anthropic 智能体卷入安全漏洞风波",
+    "summary": "路透社报道两家头部 AI 公司的智能体涉及新的安全 breaches。",
+    "detail": "路透社法律诉讼板块最新报道，OpenAI 与 Anthropic 的 AI 智能体被卷入新的安全漏洞事件。这引发了行业对 AI 代理安全性的广泛关注，可能导致更严格的监管审查。对于依赖这些模型的企业用户，需重新评估集成安全风险。事件具体细节涉及法律诉讼，显示了 AI 规模化应用中的潜在隐患。随着 AI 代理自主性增强，此类安全 breaches 可能成为行业常态，亟需建立新的安全标准与合规框架来应对挑战。此新闻反映了 AI 代理在实际部署中面临的严峻安全考验，企业需警惕潜在的法律与数据泄露风险，行业安全标准亟待更新。",
+    "tags": [
+      "News",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://www.reuters.com/legal/litigation/openai-anthropic-ai-agents-implicated-new-security-breaches-2026-08-05/",
+    "date": "2026-08-05",
+    "id": "17859708104210"
+  },
+  {
+    "title": "AI 公司被指销毁实体书以垄断训练数据",
+    "summary": "Anna's Archive 指控 AI 公司购买并销毁实体书，呼吁志愿者扫描保存。",
+    "detail": "Anna's Archive 发布文章指控 AI 公司通过中间人购买数百万本实体书，扫描训练后销毁，以垄断“机器未触碰”的数据。Anthropic 的\"Project Panama\"被提及涉及 15 亿美元版权和解。此举引发伦理争议，知识可能被永久锁定在私有服务器中。公众呼吁抢救性扫描稀有书籍，防止文化遗产消失。这揭示了 AI 竞赛背后的资本利益与公共知识领域的矛盾，训练数据的来源合法性再次成为焦点。若属实，这将永久改变人类知识的存储方式，公共领域资源可能大幅缩减，建议相关机构关注此事进展。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Data"
+    ],
+    "link": "https://annas-archive.gl/blog/physical-destruction.html",
+    "date": "2026-08-05",
+    "id": "17859708104211"
+  },
+  {
+    "title": "行业分析：如何提升 AI 前沿模型能力",
+    "summary": "博客分析 AI 模型改进模式，强调算力投入与模型蒸馏策略。",
+    "detail": "文章分析了 AI 前沿模型改进的模式：先投入巨大算力打造强大模型，再通过营销制造热度，最后蒸馏出低成本模型。提到了 Chain of Thought 等方法。指出竞争对手会迅速跟进，建议早期投入大量算力再优化效率，符合工程定律。文中列举了 hypothetical 模型名称如 claude-mythos-5，强调了算力堆叠与后续蒸馏的行业规律，为开发者理解模型迭代路径提供了视角。这种策略反映了当前大模型竞争的核心逻辑，即算力优先 followed by 效率优化，开发者应关注此趋势以规划技术栈。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Strategy"
+    ],
+    "link": "https://www.chaidhat.com/blog",
+    "date": "2026-08-05",
+    "id": "17859708104212"
+  },
+  {
+    "title": "开源项目：AI 智能体技能自我进化反馈循环",
+    "summary": "GitHub 新项目实现智能体技能自主分析与改进，无需外部服务。",
+    "detail": "该项目为 AI 智能体技能提供自我改进反馈循环。它分析过往会话，起草改进提案，并通过评估框架控制自动应用。支持 Hermes 和 Claude Code，无需守护进程或 GPU。为开发者构建自进化 Agent 提供了宿主无关的解决方案。配置需指定宿主与 API 密钥，评估门默认使用 llm_judge。这种自主进化机制可能大幅降低人工调试成本，是 Agent 开发的重要方向。项目基于 Python 标准库，易于部署，适合希望提升 Agent 长期性能的开发者参考，实现了技能树的自动化管理。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://github.com/Carlo1911/skill-evolution",
+    "date": "2026-08-05",
+    "id": "17859708104213"
+  },
+  {
+    "title": "免费书籍：AI 时代的软件开发范式转变",
+    "summary": "新书免费分享，探讨 AI 时代规格与架构比代码更重要的理念。",
+    "detail": "这本 62 页的免费书籍探讨了 AI 如何改变软件开发。当生成代码成本降低，瓶颈转向理解问题、决策和架构。书中解释了为何规格说明比代码更有价值，以及如何避免无限的 prompt 循环。适合希望适应新范式的工程师阅读。它不教具体工具，而是建立概念基础，强调上下文与架构在现代工程中的核心地位，帮助开发者摆脱无限重试的困境。本书是三系列的一部分，旨在重塑开发者对软件工程的认知，适合技术负责人及希望转型的程序员深入研读。",
+    "tags": [
+      "Dev",
+      "Education",
+      "Software"
+    ],
+    "link": "https://books.kodel.com.br/pt-br/livros/software-development-ia-era/",
+    "date": "2026-08-05",
+    "id": "17859708104214"
+  },
+  {
     "title": "YouTube AI 披露政策现漏洞，Hank Green 指出标签无法覆盖的场景",
     "summary": "YouTube 要求披露 AI 生成内容，但音乐需披露而奇幻视觉无需，政策存在边界模糊。",
     "detail": "YouTube 现行政策要求创作者披露“有意义更改或生成逼真内容”的 AI 使用情况。然而政策边界奇怪：AI 生成音乐需披露，但“骑独角兽”等不 plausible 的逼真视觉无需披露。创作者可克隆自己声音无需披露，但 AI 生成动画导弹需披露。Hank Green 指出这导致奇怪场景，如 AI 生成视频无需披露，但配乐需披露。这反映了平台在定义“真实”与“生成”之间的政策缺口，可能影响内容合规性。对于依赖 AI 辅助创作的博主，需仔细区分哪些修改触及披露红线，避免违规风险。",
@@ -1233,70 +1298,5 @@
     "link": "https://twitter.com/MaseehG_/status/2084327646209392907",
     "date": "2026-08-03",
     "id": "17857859589062"
-  },
-  {
-    "title": "DesignArena 获 790 万美元融资，优化 AI 人类反馈",
-    "summary": "提供规模化人类反馈平台，解决 AI 设计模型趣味性评估瓶颈。",
-    "detail": "Intelligence.ai 旗下 DesignArena 完成 790 万美元种子轮融资，由 Index Ventures 领投。平台通过 A/B 测试收集人类对 AI 生成设计/游戏的反馈，解决模型难以评估趣味性的瓶颈。已服务 530 万用户，成为前沿实验室改进设计空间模型的关键反馈源，凸显 RLHF 在设计领域的商业价值。创始人表示这是模型在设计空间改进的缺失瓶颈，企业侧需求旺盛，标志着人类反馈即服务（HFaaS）模式的兴起，为 AI 模型优化提供了 scalable 的人类判断数据。",
-    "tags": [
-      "News",
-      "Startup",
-      "RLHF"
-    ],
-    "link": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
-    "date": "2026-08-03",
-    "id": "17857859589063"
-  },
-  {
-    "title": "分析称 AI 泡沫中可能已内置救助计划",
-    "summary": "对冲基金 AI 股票大幅亏损，纳斯达克回调，投资者信心动摇。",
-    "detail": "前 OpenAI 员工创立的对冲基金 Situational Awareness 七月亏损 67%，纳斯达克年内二次回调。分析指出由于 AI 公司营收无法支撑高昂资本支出及宏观因素，投资者信心动摇。文章警告 AI 泡沫中可能已内置救助计划，私人股权与保险贷款可能成为维持 wheels moving 的手段，市场风险加剧。SpaceX 市值缩水及中国模型竞争也是因素之一，AI 行业正面临从狂热投资到理性审视的转折，金融稳定性受到挑战，需警惕系统性风险。",
-    "tags": [
-      "News",
-      "Finance",
-      "Market"
-    ],
-    "link": "https://prospect.org/2026/08/03/ai-bailout-could-be-baked-into-bubble-private-equity-life-insurers-loans/",
-    "date": "2026-08-03",
-    "id": "17857859589064"
-  },
-  {
-    "title": "微软开源 Orchard：可扩展代理 AI 框架",
-    "summary": "微软研究院发布 Orchard 框架，支持低成本代理 AI 研究与训练。",
-    "detail": "微软研究院正式开源 Orchard 框架，旨在推动可扩展且具成本效益的代理 AI（Agentic AI）研究。该框架围绕 Orchard Env 构建，支持软件工程、网页导航及个人助理等多种任务域。基准测试显示，Orchard-SWE 在 SWE-Bench Verified 上达到 69.7% 的通过率，仅使用约 30 亿活跃参数即可媲美更大规模模型。该项目同时释放了训练数据与评估方法，助力社区构建开放代理系统，标志着 AI 从静态问答向自主规划行动的重要转变。",
-    "tags": [
-      "Dev",
-      "Microsoft",
-      "Agent"
-    ],
-    "link": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
-    "date": "2026-08-03",
-    "id": "17857795548900"
-  },
-  {
-    "title": "亚马逊计划整合 Nova AI 模型系列",
-    "summary": "据报道，亚马逊 AWS 正计划 consolidating 其 Nova AI 模型产品线。",
-    "detail": "TechRepublic 报道称，亚马逊正计划整合其 Nova 系列 AI 模型。作为 AWS 云基础设施的重要组成部分，此举旨在优化模型管理与部署效率。虽然具体整合方案尚未完全披露，但这反映了大型云厂商在 AI 模型策略上的调整趋势，即从数量扩张转向质量与效能的集中优化。对于依赖 AWS Nova 模型的企业开发者而言，未来需关注模型接口的变更及迁移路径，以适应新的 consolidated 架构。",
-    "tags": [
-      "News",
-      "AWS",
-      "LLM"
-    ],
-    "link": "https://www.techrepublic.com/article/news-amazon-nova-ai-model-consolidation-aws/",
-    "date": "2026-08-03",
-    "id": "17857795548911"
-  },
-  {
-    "title": "Qencode 推出 AI 视频超分技术",
-    "summary": "Qencode 发布 AI  Upscaling 功能，助力 legacy 视频库升级 4K。",
-    "detail": "云视频基础设施平台 Qencode 宣布推出 AI Upscaling 功能，利用 AI 技术增强现有 SD、HD 及 4K 内容的分辨率与清晰度。该技术并非简单拉伸像素，而是通过模型重建面部、纹理等真实细节，减少伪影。这使得视频平台无需 costly 重拍或手动修复，即可将 legacy 档案转化为符合现代高分辨率屏幕标准的资产。该功能在编码过程中自动运行，为内容库解锁了新的商业价值与播放体验。",
-    "tags": [
-      "New",
-      "Video",
-      "Upscaling"
-    ],
-    "link": "https://news.qencode.com/posts/qencode-launches-ai-upscaling-to-bring-legacy-video-catalogs-into-the-4k-era",
-    "date": "2026-08-03",
-    "id": "17857795548912"
   }
 ]
