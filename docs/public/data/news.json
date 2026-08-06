@@ -1,5 +1,83 @@
 [
   {
+    "title": "AI Agent 研究能力评估：工程可行，科研受阻",
+    "summary": "最新研究显示，当前 AI Agent 能完成工程任务，但无法独立进行开放式 AI 研究。",
+    "detail": "**Crux Evaluations 发布最新影子评估报告**，引入第三方评估方法，由论文原作者评分。针对两篇未发表的 NeurIPS 2026 论文测试，尽管前沿 Agent 在六天内完成了所有工程代码且无需人类帮助，消耗数千美元算力，但在回答核心研究问题上进展甚微，最终被作者拒稿。研究指出了判断力差、缺乏创造力、资源意识弱等五大失败模式。这表明自动化 AI 研发仍有关键瓶颈，工程能力不等于科研能力。该研究为 AI 研发自动化前景提供了早期证据，提示当前模型在创造性思维上仍有局限。作者发布了专家审查和日志供社区验证。",
+    "tags": [
+      "News",
+      "AI Agents",
+      "Research"
+    ],
+    "link": "https://cruxevals.com/crux/can-ai-agents-conduct-research/",
+    "date": "2026-08-06",
+    "id": "17860210868940"
+  },
+  {
+    "title": "Google Maps 引入 Agent 功能，支持订餐与酒店",
+    "summary": "Google Maps 升级 Ask Maps 功能，新增代理能力，可完成订餐、酒店预订等现实任务。",
+    "detail": "**Google 宣布为 Maps 的\"Ask Maps\"功能增加代理能力**，整合 Personal Intelligence。用户可通过自然语言指令预订餐厅或酒店，例如询问“附近哪里可以点 vegan 吐司”，AI 会自动比较价格并检查可用性。支持 Square、Uber Eats 等平台支付。此举标志着 Google 试图将 Maps 从导航工具转型为能完成现实世界任务的全能助手，深化生态闭环。这将加剧本地生活服务领域的 AI 竞争，提升用户粘性。个人数据如 Gmail 和日历将被用于个性化响应，引发隐私关注。功能将于周四正式推出。",
+    "tags": [
+      "News",
+      "Google",
+      "AI Agents"
+    ],
+    "link": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/",
+    "date": "2026-08-06",
+    "id": "17860210868941"
+  },
+  {
+    "title": "Memoars：加密 AI 记忆层，实现跨助手共享",
+    "summary": "推出用户拥有的加密记忆层，让不同 AI 助手共享上下文，同时确保数据隐私可控。",
+    "detail": "**Memoars 是一个本地优先的 AI 记忆解决方案**，旨在解决跨助手重复上下文的问题。它在源头使用 XChaCha20-Poly1305 加密记忆内容，仅密文存储于用户后端（如 S3）。协调器无法访问密钥，确保隐私。支持语义检索和版本控制，允许用户批准或拒绝 Agent 写入的记忆。解决了跨助手重复上下文的问题，同时保障数据主权。客户端使用 Argon2id 生成密钥，确保即使服务端被攻破，记忆内容依然安全。适用于需要高隐私保护的 AI 应用场景。",
+    "tags": [
+      "New",
+      "Privacy",
+      "AI Infrastructure"
+    ],
+    "link": "https://memoars.com/",
+    "date": "2026-08-06",
+    "id": "17860210868942"
+  },
+  {
+    "title": "Srelens：专为工程师与 AI 代理设计的 K8s 控制台",
+    "summary": "开源 Rust 编写的 Kubernetes 桌面工作区，支持工程师与 AI 代理安全地集群操作。",
+    "detail": "**Srelens 是一个基于 Rust 和 Tauri v2 构建的本地优先 Kubernetes 桌面工具**。它为 SRE 和平台工程师提供统一的集群调查与分析界面，特别优化了 AI 代理的交互支持。包含 MCP 服务器集成，允许安全地执行操作。作为开源项目，它旨在成为工程师与 AI 协作控制 K8s 集群的安全控制室。采用 React 19 前端，纯 Rust 核心，确保性能与安全。支持多种安装方式，适合需要在本地管理复杂集群环境的开发团队使用。",
+    "tags": [
+      "Dev",
+      "Kubernetes",
+      "Open Source"
+    ],
+    "link": "https://github.com/srelens/srelens",
+    "date": "2026-08-06",
+    "id": "17860210868943"
+  },
+  {
+    "title": "客服自动化平台 Omilia 获 6700 万美元 B 轮融资",
+    "summary": "Omilia 完成 6700 万美元融资，主张混合工具策略，反对盲目使用生成式 AI 处理所有客服 query。",
+    "detail": "**雅典公司 Omilia 宣布获得 6700 万美元 B 轮融资**，由 Expedition Growth Capital 领投。CEO 指出并非所有客服查询都需要大模型，基础信息查询可用更经济工具。公司专注于构建自学习代理，年收入已达 6000 万美元，同比增长 10 倍。这反映了市场对 AI 落地经济性的理性回归，而非盲目追求 GenAI。相比竞争对手，Omilia 强调单位经济效益，无需大量现金注入。融资将用于扩展跨接触点的自学习代理能力，巩固其在客服自动化领域的地位。",
+    "tags": [
+      "News",
+      "Funding",
+      "Customer Support"
+    ],
+    "link": "https://techcrunch.com/2026/08/06/omilia-raises-67m-to-scale-its-customer-support-platform/",
+    "date": "2026-08-06",
+    "id": "17860210868944"
+  },
+  {
+    "title": "研究发现：人类监督 AI 代理时会漏掉三分之一威胁",
+    "summary": "基于 4 万次游戏运行数据，人类在监督 AI 代理命令时，平均会漏掉 33% 的安全威胁。",
+    "detail": "**ScaleX 通过分析 4 万次模拟游戏运行发现**，人类在循环监督 AI 代理命令时表现不佳。平均准确率仅 66.3%，三分之一会话因批准威胁而负分。仅 20.8% 玩家能平衡安全与效率，其余因 блокировать 所有命令获“人类瓶颈”称号。这揭示了“人在回路”作为防御 rogue agents 最后防线的脆弱性，对 AI 安全权限设计提出挑战。7% 的玩家批准了所有提示，显示部分用户过度信任 AI。数据基于 409,000 个独立决定。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Data"
+    ],
+    "link": "https://scalex.dev/blog/ai-agent-permissions-stats/",
+    "date": "2026-08-06",
+    "id": "17860210868945"
+  },
+  {
     "title": "谷歌将 AI 领导层转移至加州，加剧与 Anthropic 及 OpenAI 的竞争",
     "summary": "谷歌调整 AI 战略布局，将领导重心移回加州，旨在提升效率以应对激烈市场竞争。",
     "detail": "据彭博社报道，谷歌正在重新调整其人工智能领导层的地理位置，将权力中心转移至加利福尼亚州。这一举措发生在 AI 竞赛白热化的背景下，主要竞争对手 Anthropic 和 OpenAI 均在加州拥有深厚根基。此次调整被视为谷歌试图缩短决策链条、加快研发节奏的战略动作。行业分析认为，地理位置的集中有助于吸引顶尖人才并促进跨部门协作，反映出大型科技公司在 AI 军备赛中对于组织效率的极致追求。",
@@ -1220,83 +1298,5 @@
     "link": "https://bytepith.com/article/why-japan-losing-ai-race-it-helped-create",
     "date": "2026-08-04",
     "id": "17858487785642"
-  },
-  {
-    "title": "Vultrino：防止 AI 代理泄露凭证的安全代理",
-    "summary": "开源凭证代理工具，让 AI 代理使用密钥而不可见密钥。",
-    "detail": "针对 AI 代理安全推出的凭证代理工具。通过别名和受控响应隔离凭证，支持 OAuth2 自动刷新及 WASM 插件扩展。集成 MCP 协议，允许代理在不接触原始 API 密钥的情况下执行操作，解决了 Agent 时代的关键安全风险，适用于 GitHub 等外部 API 调用场景。架构上 Agent 只发送 alias，Vultrino 注入 auth，保障 credential isolation。Instead of giving an agent an API key, you give it a credential alias and an action surface.",
-    "tags": [
-      "Dev",
-      "Security",
-      "Open Source"
-    ],
-    "link": "https://github.com/FeirAI/vultrino",
-    "date": "2026-08-04",
-    "id": "17858487785643"
-  },
-  {
-    "title": "研究：对话上下文显著影响 AI 回答质量",
-    "summary": "Arxiv 新论文显示忽略对话历史会导致近半数回答出现实质性差异。",
-    "detail": "论文测试了对话上下文对 AI 回答的影响。仅使用最终消息与完整对话相比，44.7% 的案例存在实质性差异。压缩前缀可减少差异但无法完全替代完整上下文。研究强调评估 AI 系统时不能忽略对话历史，对 RAG 及多轮对话系统设计有重要指导意义。Judge model 评估显示 full-conversation 答案满意度更高。An isolated final user message is often treated as the query in evaluations of AI systems, but actionable request may be distributed.",
-    "tags": [
-      "Dev",
-      "Research",
-      "LLM"
-    ],
-    "link": "https://arxiv.org/abs/2608.02556",
-    "date": "2026-08-04",
-    "id": "17858487785644"
-  },
-  {
-    "title": "AI 如何让设计工作显得过早 resolved",
-    "summary": "建筑与设计领域警惕 AI 生成内容看似 polished 但缺乏深度判断。",
-    "detail": "AI 使设计成果看起来更 polished 且快速，但可能缺乏深层理解。建筑学生可快速生成渲染图，但判断力未跟上。这影响公众会议及决策，材料进入公共对话更快更具说服力。强调教育者需引导学生超越首个 convincing image，判断力比生成速度更重要。设计材料进入公共对话 faster and more persuasively than before。This does not make AI bad, it makes judgment more important. Teaching architecture has always been more than just transferring information.",
-    "tags": [
-      "News",
-      "Design",
-      "Society"
-    ],
-    "link": "https://commonedge.org/how-ai-can-make-design-work-appear-prematurely-resolved/",
-    "date": "2026-08-04",
-    "id": "17858487785645"
-  },
-  {
-    "title": "Google AI Studio 删除按钮被指误导用户",
-    "summary": "视频揭露删除仅移除 UI metadata，服务器数据仍保留。",
-    "detail": "TikTok 用户测试发现，Google AI Studio 的删除按钮仅移除本地 JSON 文件，服务器端对话上下文并未清除。测试者创建提示后删除并清空回收站，使用官方恢复工具后，模型仍能继续上下文对话。这证明服务器端数据未被真正删除，仅 UI 元数据被移除。如果 Google 真正删除了服务器数据，会话将丢失，模型无法继续对话。此举涉嫌违反 GDPR 第 17 条删除权，引发重大隐私合规担忧。对于企业用户而言，这意味着敏感数据可能永久留存于云端，即使执行了删除操作。信任危机可能影响开发者对 Google AI 平台的采用意愿，呼吁更透明的数据生命周期管理。",
-    "tags": [
-      "News",
-      "Privacy",
-      "Google"
-    ],
-    "link": "https://www.tiktok.com/@user6510076090944/video/7670062915185085719?is_from_webapp=1&sender_device=pc&web_id=7670061487374484995",
-    "date": "2026-08-04",
-    "id": "17858400347920"
-  },
-  {
-    "title": "ZeroLeaks 推出 AI 代理自动化红队测试",
-    "summary": "持续测试 AI 代理提示注入与数据泄露，集成 CI/CD。",
-    "detail": "ZeroLeaks 提供自动化红队测试服务，专门针对 AI 代理、端点及 MCP 工具。支持提示注入、数据泄露检测及不安全行为验证。团队背后维护着 100k+ star 的提示泄露仓库，探针库基于真实漏洞而非合成案例。支持 CI/CD 集成，在合并前识别风险。扫描可在几分钟内计划、执行并验证攻击。发现结果作为检查点发布，确保风险不会静默到达生产环境。定价透明，Pro 版$79/月，团队版$99/席位。随着 AI 代理自主性增强，传统安全测试失效，自动化红队成为刚需。该工具填补了 Agent 落地前的安全验证空白，防止风险静默进入生产环境，提升企业部署信心。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agents"
-    ],
-    "link": "https://zeroleaks.ai",
-    "date": "2026-08-04",
-    "id": "17858400347921"
-  },
-  {
-    "title": "开发者深度评测：AI 编程工具的真实效用",
-    "summary": "作者实测 Claude 三个月，建议勿让其直接写代码。",
-    "detail": "资深开发者分享使用 Claude 等工具的实战经验。作者最初对管理层强制推广 AI 持反对态度，认为这是微观管理。但在三个月使用后承认工具有一定效用，前提是不要让 AI 直接编写代码。AI 更适合解析查询及辅助任务，而非替代工程决策。文章批判了盲目采用 AI 的行业现象，指出 AI 并非过去微服务那样的银弹。即使避免社交媒体上的营销噪音，AI adoption 似乎已被管理层强制规定。这种诚实的反馈对于平衡行业过度炒作至关重要。强调工具应辅助而非主导开发流程，避免营销 buzzwords 误导技术选型，回归工程实效，反映工程界对 AI hype 的疲劳。",
-    "tags": [
-      "Dev",
-      "Opinion",
-      "LLM"
-    ],
-    "link": "https://mropert.github.io/2026/08/04/an_honest_review_of_ai_programming/",
-    "date": "2026-08-04",
-    "id": "17858400347922"
   }
 ]
