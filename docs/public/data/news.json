@@ -1,5 +1,83 @@
 [
   {
+    "title": "Vaultak：专为 AI Agent 设计的运行时安全治理层",
+    "summary": "无需修改代码即可监控 Agent 行为、阻止提示注入并自动回滚错误操作的安全工具。",
+    "detail": "Vaultak 定位为 AI Agent 的“操作系统安全层”，旨在解决 Agent 自主行动带来的安全风险。其核心功能包括监控每一步行动、强制执行边界策略以及在造成损害前自动回滚错误操作（如误删生产数据）。该技术无需修改 Agent 代码即可部署，支持阻止 API 密钥泄露和恶意指令执行。背景显示，包括 Cisco、AWS 和微软在内的安全团队均强调需采用新approach 应对 AI 时代的安全威胁，Vaultak 填补了 AI 安全栈中运行时治理的空白。",
+    "tags": [
+      "News",
+      "Security",
+      "AI Agent"
+    ],
+    "link": "https://vaultak.com",
+    "date": "2026-08-07",
+    "id": "17861181848080"
+  },
+  {
+    "title": "实战教程：基于 Gemini 与 Cloud Functions 构建低成本博客 AI 聊天",
+    "summary": "开发者分享如何利用 Gemini Flash 和 Firestore 以每月 5-15 美元成本实现博客 RAG 聊天机器人。",
+    "detail": "该教程详细拆解了一个基于 RAG 架构的 AI 聊天机器人构建过程。技术栈包括前端 vanilla JavaScript、后端单个 GCP Cloud Function (Python 3.12) 以及 Firestore 数据库。核心创新在于双层 RAG 策略：一层通过 RSS  feed 动态获取最新文章，另一层利用 Firestore 向量搜索存储基础文章嵌入。方案集成了 reCAPTCHA 验证、IP 速率限制及异步告警，展示了如何在无框架依赖下，以极低月成本（$5-15）实现个性化的博客内容交互系统。",
+    "tags": [
+      "Dev",
+      "RAG",
+      "Gemini"
+    ],
+    "link": "https://emergencemachine.com/building-an-ai-chat-for-my-blog/",
+    "date": "2026-08-07",
+    "id": "17861181848081"
+  },
+  {
+    "title": "Zerker AI Gateway：开源自主可控的 Agent 流量网关",
+    "summary": "Apache 2.0 开源的单二进制网关，支持本地部署、OIDC 认证及无密钥托管的 Agent 流量管理。",
+    "detail": "Zerker 是一个专为 AI Agent 流量设计的开源网关，强调主权与安全。它作为单一 Go 二进制文件运行，无需 JVM 或 Python 运行时，支持本地、VPC 或空气间隙部署。核心特性包括强制 OIDC 认证、请求级检查点（认证、路由、计费）以及“不持有密钥”的设计原则，确保私钥永不离开用户基础设施。该项目适合需要对 Agent 调用进行 catalog、 guarding 和 charging 的企业，提供了比托管网关更高的控制权。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Infrastructure"
+    ],
+    "link": "https://zerker.ai/",
+    "date": "2026-08-07",
+    "id": "17861181848082"
+  },
+  {
+    "title": "DocuQueue：通过 MCP 协议将 AI 对话转化为文档生成引擎",
+    "summary": "支持 Claude 和 Cursor 的 MCP 服务器，允许用户通过自然语言指令自动生成发票、合同等文档。",
+    "detail": "DocuQueue 推出了针对 AI Agent 的文档层解决方案，利用 Model Context Protocol (MCP) 将聊天界面转变为文档生成引擎。用户只需在 Claude Desktop 或 Cursor 中配置 MCP，即可通过自然语言指令（如“为 Acme Corp 生成发票”）自动调用模板生成 PDF、合同或表单。该工具声称可节省 80% 的文档创建时间并消除数据录入错误，支持模板搜索、批量生成及品牌定制，实现了从 Prompt 到最终文档的无缝自动化流程。",
+    "tags": [
+      "New",
+      "MCP",
+      "Productivity"
+    ],
+    "link": "https://docuqueue.com/mcp",
+    "date": "2026-08-07",
+    "id": "17861181848083"
+  },
+  {
+    "title": "Postroom：HN 讨论线程的 2D 可视化与 AI 摘要 auditorium",
+    "summary": "将 Hacker News 讨论转化为 2D 礼堂座位图，提供 AI 摘要、情感分析及话题聚类功能。",
+    "detail": "Postroom 是一个创新的 HN 讨论可视化工具，将传统的线性评论线程转化为 2D 礼堂座位图。每个“座位”代表一个评论者，用户可以通过悬停预览、点击查看详情或拖拽缩放来浏览讨论。系统利用 AI 对 366 位发言者进行话题聚类（如技术工程、产品设计、商业市场等），并提供观众情感分析（如 33% 热情、24% 怀疑）。该工具帮助用户快速把握社区对特定产品的反馈脉络，提升了信息获取效率。",
+    "tags": [
+      "New",
+      "Visualization",
+      "Community"
+    ],
+    "link": "https://sudolaps.top/postroom/",
+    "date": "2026-08-07",
+    "id": "17861181848084"
+  },
+  {
+    "title": "行业观察：AI Agent 在采购与库存管理中的实际应用现状",
+    "summary": "分析显示开发者常用 Agent 购买 API 积分，而营销与零售领域正探索自动化采购与库存盘点。",
+    "detail": "文章探讨了 AI Agent 在购物领域的实际应用案例。目前最常见的使用场景是开发者利用 Agent 自动购买 API 调用次数或云 credits。对于普通用户和企业，Agent 正被探索用于购买披萨、清洁用品及 vacation 必需品。在商业场景下，营销人员可利用 Agent 编译促销材料清单并自动采购，零售商则可用其管理库存数据、预测季节性需求并执行补货订单。这表明 Agent 正从技术工具向通用商业助手演变。",
+    "tags": [
+      "News",
+      "AI Agent",
+      "Business"
+    ],
+    "link": "https://authoryze.ai/blog/how-are-people-using-ai-agents-to-buy-things",
+    "date": "2026-08-07",
+    "id": "17861181848085"
+  },
+  {
     "title": "网页开发 20 年：从手工到 AI 生成",
     "summary": "从业者反思 20 年开发历程，过去开源代码成为训练 LLM 的数据，如今反噬行业。",
     "detail": "资深开发者回顾 20 年网页开发生涯，指出过去发布的开源项目和技术文章无意中成为了未来 LLM 的训练数据。如今 AI 模型提高了产能却降低了需求，使开发环境变得艰难。作者感叹仿佛在“挖掘自己的坟墓”，但也表示因模型是自身工作产物而无道德困境。这反映了技术迭代对传统开发角色的深刻重塑，引发行业对未来技能需求的思考。随着 Webflow 等工具兴起，开发者角色正从代码编写转向系统整合，行业需适应 AI 原生工作流。",
@@ -1224,83 +1302,5 @@
     "link": "https://foreignpolicy.com/2026/08/04/united-states-artificial-intelligence-race-china-openai-anthropic-donald-trump-elon-musk/",
     "date": "2026-08-05",
     "id": "17859030646020"
-  },
-  {
-    "title": "白宫秘密推进 AI 网络安全框架",
-    "summary": "美国政府制定 AI 网络安全框架但未公开，引发隐私与透明担忧。",
-    "detail": "白宫正在制定 AI 网络安全框架，但选择保密而非公开。此举引发外界对政府监管透明度的质疑。在 AI 技术快速融入关键基础设施的背景下，秘密框架可能影响行业标准及公众信任，凸显政策与技术发展的博弈。需关注后续是否会有泄露或正式公布，这对合规企业至关重要。隐私倡导者担心缺乏公众监督会导致权力滥用。",
-    "tags": [
-      "News",
-      "Policy",
-      "Security"
-    ],
-    "link": "https://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret/",
-    "date": "2026-08-05",
-    "id": "17859030646021"
-  },
-  {
-    "title": "Google AI Studio 被曝删除数据谎言",
-    "summary": "用户发现 Google AI Studio 后端实际删除提示词，UI 显示保留 30 天属虚假宣传。",
-    "detail": "社区揭露 Google AI Studio 存在隐私欺骗行为。尽管 UI 声称提示词保留 30 天，后端实则立即删除。Google 近期更改按钮名称试图法律规避。此事件引发开发者对云平台数据隐私的严重担忧，可能影响企业采用意愿。用户建议谨慎处理敏感数据，避免依赖官方删除承诺，需自行备份重要信息。信任危机可能波及整个 Google 生态。",
-    "tags": [
-      "News",
-      "Privacy",
-      "Google"
-    ],
-    "link": "https://scored.co/c/News/p/1ATC9NarFD/google-drive-trash-is-just-a-vis/c",
-    "date": "2026-08-05",
-    "id": "17859030646022"
-  },
-  {
-    "title": "SpaceX 受 AI 成本激增冲击，内部人士抛售股票",
-    "summary": "SpaceX 财报显示 AI 成本大幅上升，内部人士准备出售股份。",
-    "detail": "SpaceX 近期 earnings 受到 AI 计算成本激增的显著影响。随着内部人士准备出售股票，市场担忧 AI 基础设施支出正在挤压传统航天业务的利润。这反映了 AI 算力成本已成为跨行业巨头共同面临的财务挑战。投资者需关注 AI 投入对非纯 AI 科技公司的短期财务压力，以及长期回报的不确定性。马斯克旗下公司亦受 AI 军备竞赛波及。",
-    "tags": [
-      "News",
-      "Business",
-      "SpaceX"
-    ],
-    "link": "https://www.nbcnews.com/business/business-news/spacex-earnings-surging-ai-costs-rcna590682",
-    "date": "2026-08-05",
-    "id": "17859030646023"
-  },
-  {
-    "title": "全新 AI 工具：希腊神话肖像生成器",
-    "summary": "Odyssey AI 推出新功能，可将照片转换为希腊神话角色风格。",
-    "detail": "新产品 Odyssey AI Portrait Generator 上线，允许用户上传照片生成希腊神话风格的 cinematic 肖像。支持 Odysseus、Athena 等角色模板。照片仅在内存中处理不保存，注重隐私。展示了垂直领域 AI 应用的新趋势，满足用户个性化娱乐需求，无需复杂提示词即可生成高质量角色图像，适合社交媒体分享。前端交互简洁，降低了使用门槛。",
-    "tags": [
-      "New",
-      "Image Gen",
-      "Product"
-    ],
-    "link": "http://blurb.cam/",
-    "date": "2026-08-05",
-    "id": "17859030646024"
-  },
-  {
-    "title": "外包员工感叹“亲手挖掘坟墓”",
-    "summary": "菲律宾外包行业员工表示，自己训练 AI 后却被其取代，面临失业困境。",
-    "detail": "BBC 报道揭露菲律宾外包行业工人的困境。多名员工表示，他们被要求编辑 AI 生成内容，实际上是在训练替代自己的模型。一名内容作家在转正前被裁员，感叹“亲手挖掘坟墓”。这反映了新兴经济体在 AI 转型中的冲击，数据标注和内容生成类工作正面临被自动化取代的高风险，引发伦理与就业担忧。全球外包产业需重新定位人力价值，转向 AI 无法轻易替代的高阶创意或复杂决策任务，以避免大规模结构性失业。",
-    "tags": [
-      "News",
-      "Jobs",
-      "Ethics"
-    ],
-    "link": "https://www.bbc.co.uk/news/articles/cgr7nxve05go",
-    "date": "2026-08-04",
-    "id": "17861144558173"
-  },
-  {
-    "title": "CADENA 模型：逐步逆向工程 3D 网格生成参数化 CAD 程序",
-    "summary": "新模型 CADENA 通过逐步操作重建 3D 模型，超越现有基准。",
-    "detail": "研究团队提出 CADENA 模型，解决将现有形状转换为可编辑 CAD 模型的难题。与传统 AI 一次性生成不同，CADENA 逐步构建操作序列并比对几何形状。该模型在 BenchCAD 基准上表现优异，展示了 AI 在工程设计与逆向工程领域的潜力，降低了专家依赖。这种方法模仿人类工程师的特征构建流程，显著提高了逆向工程的准确性，为制造业 AI 自动化提供了新的技术路径。该技术若广泛应用，将大幅缩短产品迭代周期，使非专家用户也能参与复杂设计修改，推动 CAD 软件向智能化、自动化方向深度演进。",
-    "tags": [
-      "Dev",
-      "CAD",
-      "Research"
-    ],
-    "link": "https://arxiv.org/abs/2608.00799",
-    "date": "2026-08-04",
-    "id": "17861032193352"
   }
 ]
