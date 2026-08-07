@@ -1,5 +1,70 @@
 [
   {
+    "title": "首个 AI 系统提示词索引库与安全标准发布",
+    "summary": "发布包含千条提示词的系统提示词索引库，确立 AI 安全新标准。",
+    "detail": "SystemPromptIndex 宣布推出最大的系统提示词库，索引超过 400 个产品的 1000 多条系统提示词，并发布首个 AI 系统提示词保证标准 (AISPA)。文章指出系统提示词是 AI 代理的“宪法”，通常对用户隐藏，却决定模型规则与优先级。此举旨在提高透明度，防止开发者通过隐藏指令操控模型行为，解决潜在的安全与对齐问题，对 AI 行业监管与透明度具有里程碑意义。",
+    "tags": [
+      "News",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://twitter.com/aisystemprompt/status/2085464156229247245",
+    "date": "2026-08-07",
+    "id": "17861353877050"
+  },
+  {
+    "title": "AllenAI 发布 TutorMoments 教育评估框架",
+    "summary": "衡量 LLM 在教学场景中何时介入帮助与何时退后的平衡能力。",
+    "detail": "AllenAI 在 Hugging Face 推出 TutorMoments 框架，旨在评估大语言模型在教育中的表现。该框架基于真实的一对一数学辅导记录，采用回放式评估，核心在于衡量 AI 导师是否能在“提供帮助”与“让学生独立思考”之间找到平衡。项目开源了技术报告、数据集及代码，为开发更有效的 AI 教育工具提供了新的评估基准，解决教育场景中过度干预的难题。",
+    "tags": [
+      "Dev",
+      "Education",
+      "LLM"
+    ],
+    "link": "https://huggingface.co/blog/allenai/tutormoments",
+    "date": "2026-08-07",
+    "id": "17861353877051"
+  },
+  {
+    "title": "基于 ESP32-S3 的 AI Token 用量监控硬件问世",
+    "summary": "开源硬件项目，实时显示 AI 编码助手的 Token 消耗与成本。",
+    "detail": "Fractal Manifold 推出 Token Monitor，一款基于 ESP32-S3 的 4 英寸桌面显示屏。它通过本地代理安全连接，实时追踪 AI 编码助手（如 Claude Code）的 Token 用量、配额及成本。设备支持 Wi-Fi 和蓝牙，可选电池供电，拥有电容触摸屏。该硬件为开发者提供了直观的成本控制工具，反映了 AI 开发中对用量监控的日益增长的需求，适合极客桌面搭建。",
+    "tags": [
+      "New",
+      "Hardware",
+      "DevTool"
+    ],
+    "link": "https://www.cnx-software.com/2026/08/07/token-monitor-an-esp32-s3-desktop-display-that-tracks-ai-coding-assistant-usage/",
+    "date": "2026-08-07",
+    "id": "17861353877052"
+  },
+  {
+    "title": "媒体反思：AI 专家为何难以预测 AI 未来",
+    "summary": "评论文章指出 credentials 并非预测能力的保证，专家亦常误判。",
+    "detail": "Grey Enlightenment 发表文章反思 AI 专家的预测能力。文章引用一篇由 2026 年菲尔兹奖得主 Jacob Tsimerman 合著的病毒式传播论文，指出即便拥有顶级头衔，专家对 AI 未来的预测仍可能缺乏说服力，文章风格类似 LessWrong 帖子。作者强调 credentials 和名声并非预测准确性的保证，呼吁公众理性看待专家关于 AI 风险与未来的论断，关注论证本身而非作者光环。",
+    "tags": [
+      "News",
+      "Opinion",
+      "Industry"
+    ],
+    "link": "https://greyenlightenment.com/2026/07/26/the-ai-experts-who-couldnt-predict-ai/",
+    "date": "2026-08-07",
+    "id": "17861353877053"
+  },
+  {
+    "title": "Fenify 推出 AI 国际象棋视频扫描工具",
+    "summary": "免费应用，通过视频识别棋局并生成可编辑的 PGN 记录。",
+    "detail": "Fenify 发布了一款针对 iPhone 和 iPad 的 AI 应用，能够扫描录制或直播的国际象棋比赛。利用计算机视觉技术，它可重建棋盘、同步步数列表并生成 PGN 文件供分享或研究，还支持 Stockfish 笔记分析。应用完全免费且无扫描次数限制，支持从相册导入视频。这是 AI 视觉技术在垂直体育领域落地的典型案例，降低了棋局记录门槛，方便棋手复盘。",
+    "tags": [
+      "New",
+      "ComputerVision",
+      "App"
+    ],
+    "link": "https://fenify.ai/",
+    "date": "2026-08-07",
+    "id": "17861353877054"
+  },
+  {
     "title": "Show HN: Rust 原生 AI 编程座舱 Zaivern Code",
     "summary": "基于 Rust 的并行 AI 编程代理座舱编辑器，提升开发效率。",
     "detail": "Zaivern Code 是一个专为并行 AI 编程代理设计的 Rust 原生座舱编辑器，近日通过 Show HN 发布。该项目旨在为开发者提供更高效、低延迟的代码创作环境，核心优势在于利用 Rust 的语言性能优势来管理多个 AI 代理的并行工作流。这对于需要高强度 AI 辅助编程的复杂场景尤为关键。作为 GitHub 上的开源项目，它为探索 AI 与 IDE 深度融合提供了新思路，允许开发者在一个统一的界面中协调多个 AI 模型同时工作，显著提升复杂任务的解决效率与代码质量，是 AI 原生开发工具链的重要补充。对于追求极致性能的开发者而言，Rust 的内存安全性与并发模型结合 AI 代理的并行处理能力，可能成为下一代 IDE 的标准配置，值得密切关注其后续迭代与社区反馈。",
@@ -115,19 +180,6 @@
     "link": "https://write.as/ih3l0kd78lpb1",
     "date": "2026-08-07",
     "id": "17861292334753"
-  },
-  {
-    "title": "Fenify 上线：免费 AI 工具自动扫描棋局生成 PGN",
-    "summary": "新应用利用计算机视觉扫描国际象棋视频，同步生成棋谱记录。",
-    "detail": "Fenify 是一款新推出的 AI 应用，支持 iPhone 和 iPad。它能扫描录制或直播的国际象棋比赛，重建棋盘并将走子列表与视频同步，最终导出干净的 PGN 文件供分享或研究。应用完全免费且无扫描次数限制。该技术展示了计算机视觉在垂直体育领域的实用化落地，为棋手提供了便捷的复盘工具，降低了记录棋局的门槛。用户只需清晰拍摄棋盘即可获取专业级棋谱数据。",
-    "tags": [
-      "New",
-      "Computer Vision",
-      "App"
-    ],
-    "link": "https://fenify.ai/",
-    "date": "2026-08-07",
-    "id": "17861292334754"
   },
   {
     "title": "资深工程师分享：如何手写代码并结合 AI 辅助",
@@ -1250,57 +1302,5 @@
     "link": "https://www.phoronix.com/news/Cloudflare-OS",
     "date": "2026-08-05",
     "id": "17859586041251"
-  },
-  {
-    "title": "为何 AI Agent 难以广泛普及",
-    "summary": "分析指出 AI Agent 普及率低源于人类缺乏 delegation 技能，认知成本过高。",
-    "detail": "文章分析 AI Agent 普及率低的核心原因是人类缺乏“委派”技能。使用 Agent 类似管理初级员工，需明确需求与验证输出。日常生活中反应式任务多于规划式任务，导致 ROI 不高。未来 Agent 将隐藏于简单界面后，而非直接暴露复杂性。委派涉及发现、简报、监督等认知成本，个人生活中收益常低于成本。但在编程等专业场景，重复性工作使委派具有高性价比。结论指出 Agent 需简化交互界面，适应人类点击习惯而非自然语言编程，才能真正实现广泛普及与落地。",
-    "tags": [
-      "News",
-      "Agents",
-      "Industry"
-    ],
-    "link": "https://invertedpassion.com/why-ai-agents-arent-adopted-widely/",
-    "date": "2026-08-05",
-    "id": "17859586041252"
-  },
-  {
-    "title": "Project Phoenix 自主 Agent 游戏协作",
-    "summary": "Project Phoenix 展示多 AI Agent 在即时战略游戏中自主协作与资源管理。",
-    "detail": "Project Phoenix 展示自主 AI Agent 在即时战略游戏中的协作。日志显示多个 Agent 通过通信协调资源采集与战略决策，实现自主进化与奖励机制。这为多 Agent 系统在复杂环境中的协同控制提供了实际案例，验证了自主代理在动态任务中的可行性。系统内部包含 Governor 协调多个村民 Agent 进行食物采集与时代升级，展示了基于强化学习的多智能体通信与奖励分配机制。该项目为开发复杂环境下的自主代理系统提供了宝贵的技术参考与日志数据。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Game"
-    ],
-    "link": "https://phoenix-production-96cd.up.railway.app/",
-    "date": "2026-08-05",
-    "id": "17859586041253"
-  },
-  {
-    "title": "AI 默认人格危机：品牌声音正在流失",
-    "summary": "各大模型厂商推出人格调节功能，企业需警惕 AI 默认设置稀释品牌 identity。",
-    "detail": "随着 Voice AI 接管越来越多客服对话，AI 的默认人格成为品牌资产流失的新风险点。OpenAI、Anthropic 和 Google 近期纷纷推出人格预设及调节滑块，文中提到 GPT-5.1 已 shipped 人格预设，Google 正在测试能量与正式度滑块。文章指出，虽然提供商提供了调节工具，但多数企业仍在使用 vendor 选择的默认性格。这可能导致品牌形象在同质化的 AI 交互中被稀释，企业需尽快掌握 AI 人格自定义权以维护品牌一致性，毕竟品牌书定义的红色 shade 与 greeting script 的重要性同样适用于 AI 交互表面。",
-    "tags": [
-      "News",
-      "LLM",
-      "Brand"
-    ],
-    "link": "https://botbot.com/blog/default-personality",
-    "date": "2026-08-05",
-    "id": "17859515358350"
-  },
-  {
-    "title": "AI 泡沫论再起：Karpathy 观点引发工程界分歧",
-    "summary": "文章探讨 AI 泡沫争议，引用 Karpathy 观点分析工程落地与领导层期望的错位。",
-    "detail": "文章将当前 AI 热潮与互联网泡沫对比，引用 Andrej Karpathy 关于 Claude 嵌入 Slack 是“新范式”的观点。然而工程界反应不一，领导层要求多用 AI 却未定义责任，工程师则因不理解而抗拒。裁员公告与 AI 盈利并存，显示出所有权与工作被替代的恐惧。技术栈快速演变，Prompt 工程到 Graph 工程，团队发货速度快于理解速度，揭示了行业深层焦虑。这种分裂导致没人解释两者如何共存，地面不断变化，每个新工程范式都是显而易见的工作方式，直到下一个出现，无人能预测终点。",
-    "tags": [
-      "News",
-      "Industry",
-      "Analysis"
-    ],
-    "link": "https://www.constraintlab.com/blog/ai-is-a-bubble-just-like-dot-com.html",
-    "date": "2026-08-05",
-    "id": "17859515358351"
   }
 ]
