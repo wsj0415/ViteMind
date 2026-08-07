@@ -1,5 +1,70 @@
 [
   {
+    "title": "OpenAI 智能音箱售价曝光",
+    "summary": "据报道，OpenAI 首款硬件设备售价预计在 300 至 400 美元之间。",
+    "detail": "TechCrunch 最新消息显示，OpenAI 正计划推出首款智能硬件设备，定价策略指向中高端市场，售价约 300 至 400 美元。这款 AI 音箱旨在集成先进的语音交互与模型能力，标志着 OpenAI 从纯软件向硬件生态的延伸。此举可能加剧与科技巨头的硬件竞争，重新定义家庭 AI 交互场景，预计将成为年度科技焦点，引发市场广泛关注。对于消费者而言，这意味着更深度集成模型的家居体验，但也引发隐私与依赖性的讨论。硬件落地将是检验模型实际应用能力的关键试金石，行业拭目以待。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Hardware"
+    ],
+    "link": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
+    "date": "2026-08-06",
+    "id": "17860608503790"
+  },
+  {
+    "title": "OpenAI 联手 rivals 制定 Agent 标准",
+    "summary": "OpenAI 与四家竞争对手达成 AI 代理互操作标准协议。",
+    "detail": "行业领军企业同意统一 AI Agent 的插件与技能标准（如 MCP），旨在解决互操作性难题。这一标准化进程将降低开发者的集成成本，促进 Agent 生态的规模化应用。打破壁垒后，AI 代理将在不同平台间无缝协作，推动行业从单点创新走向系统化合力，加速企业级落地，构建更开放的智能代理生态系统。开发者将不再受限于单一平台，能够更灵活地构建跨应用的工作流，提升整体生产力。这是 AI 基础设施成熟的重要里程碑，有利于长期生态繁荣。",
+    "tags": [
+      "News",
+      "Agents",
+      "Standard"
+    ],
+    "link": "https://thenextweb.com/news/openai-agent-plugins-open-standard-skills-mcp",
+    "date": "2026-08-06",
+    "id": "17860608503791"
+  },
+  {
+    "title": "AWS 开源 Dogwood 代理验证工具",
+    "summary": "AWS 发布 Dogwood，用于 AI 代理的工具调用运行时验证。",
+    "detail": "针对 AI 代理调用外部工具的安全风险，AWS 推出开源治理语言 Dogwood。基于 Cedar 策略语言，它能在运行时精确控制代理行为，提供可验证的安全保证。这对于企业级 Agent 部署至关重要，解决了自动化操作中权限管控与合规性的核心痛点，提升系统可靠性，保障工具调用安全，防止未授权操作发生。通过自动化推理，确保相同请求产生相同决策，增强审计能力。安全是 Agent 大规模应用的前提，此工具填补了关键空白。",
+    "tags": [
+      "Dev",
+      "AWS",
+      "Security"
+    ],
+    "link": "https://aws.amazon.com/blogs/opensource/introducing-dogwood-runtime-verification-for-ai-agents/",
+    "date": "2026-08-06",
+    "id": "17860608503792"
+  },
+  {
+    "title": "代理式 AI 的真实能耗分析",
+    "summary": "文章揭示 AI 代理实际能耗远超单次对话提示的估算。",
+    "detail": "The Climate Brink 分析指出，当前关于 AI 能耗的乐观估算基于单次提示，忽略了 Agent 自主运行时的多次模型调用。随着 Claude Code 等工具普及，实际能耗将显著增加。这对数据中心电力规划及环保承诺提出挑战，行业需重新评估 AI 规模化后的能源基础设施需求，关注绿色计算，平衡性能与可持续发展目标。单次提示仅 0.24Wh，但 Agent 循环可能消耗数十倍能源。公众认知需更新，以应对未来的能源压力。",
+    "tags": [
+      "News",
+      "Energy",
+      "Agents"
+    ],
+    "link": "https://www.theclimatebrink.com/p/the-real-energy-use-of-agentic-ai",
+    "date": "2026-08-06",
+    "id": "17860608503793"
+  },
+  {
+    "title": "GreatArrow 实现 AI 共享业务记忆",
+    "summary": "新工具让 Claude 等 AI 共享业务记忆并操作 38 种工具。",
+    "detail": "GreatArrow 推出共享记忆层，解决不同 AI 模型间上下文碎片化问题。支持连接 Gmail、Slack 等 38 种业务工具，赋予 AI 读取与执行能力。无需切换平台，AI 即可基于统一业务背景执行任务。这标志着 AI 集成从被动问答向主动工作流管理的转变，提升企业效率，目前开放 Beta 测试，免费 tier 可用。用户无需重复输入上下文，AI 能直接操作业务工具完成任务。解决了 AI 无法触碰实际业务系统的核心痛点，实现真正自动化。",
+    "tags": [
+      "New",
+      "Productivity",
+      "LLM"
+    ],
+    "link": "https://www.greatarrow.ai",
+    "date": "2026-08-06",
+    "id": "17860608503794"
+  },
+  {
     "title": "OpenAI 反击苹果商业秘密诉讼，质疑其安全措施",
     "summary": "OpenAI 辩称苹果自身安全实践薄弱，削弱其商业秘密主张。",
     "detail": "OpenAI 在驳回苹果商业秘密诉讼的动议中提出关键防御策略，指出苹果自身安全实践薄弱削弱了其法律主张。证据显示苹果允许员工使用个人 iCloud 且离职流程存在漏洞，甚至有经理在员工离职后仍访问其个人账户传输文件。OpenAI 强调苹果未能妥善保护系统，导致信息泄露混淆，如今却将其定性为盗窃。此案不仅关乎两家巨头利益，更可能重新定义科技行业人才流动与保密协议的法律边界，对后续类似知识产权纠纷具有 precedent 意义。若 OpenAI 胜诉，将降低员工跳槽至竞争对手的法律风险，反映了 AI 人才争夺战中的法律摩擦加剧。",
@@ -1237,70 +1302,5 @@
     "link": "https://arxiv.org/abs/2607.04282",
     "date": "2026-08-04",
     "id": "17858681145273"
-  },
-  {
-    "title": "AI 数据中心推高电费：地图揭示影响区域",
-    "summary": "报告指出 AI 数据中心能耗激增，特定区域电力账单显著上涨。",
-    "detail": "最新行业报告分析显示，AI 数据中心的快速扩张正在显著推高特定区域的电力成本。地图数据揭示了能耗集中的地理分布，反映了 AI 基础设施对能源网络的巨大压力。这不仅影响运营成本，也引发了关于 AI 可持续发展及能源政策调整的讨论，是行业扩张需面对的现实挑战。随着模型规模增大，能耗问题日益凸显，地方政府可能出台限制政策。企业需考虑绿色能源解决方案，优化数据中心选址。该新闻揭示了 AI 繁荣背后的物理限制，提醒投资者关注基础设施瓶颈，能源效率将成为未来 AI 硬件竞争的关键指标之一，影响行业长期增长潜力。对于 AI 公司而言，电力成本将直接映射到推理成本上，影响定价策略。该地图为政策制定者提供了决策依据，可能推动区域能源基础设施升级，同时也警示行业需在追求性能与能耗之间找到平衡点，避免不可持续的扩张模式。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Energy"
-    ],
-    "link": "https://www.gadgetreview.com/ai-data-centers-are-driving-up-power-bills-this-map-shows-where",
-    "date": "2026-08-04",
-    "id": "17858681145274"
-  },
-  {
-    "title": "德州暂停新数据中心建设，州长呼吁审计",
-    "summary": "德州电网不堪重负，暂停新数据中心项目并要求审计。",
-    "detail": "德州州长宣布暂停所有新数据中心项目，需经公用事业委员会及电网运营商审计。ERCOT 互联队列半年内从 233 吉瓦翻倍至 474 吉瓦，90% 为数据中心。若全部实施将远超电网峰值负荷。目前仅弗吉尼亚州数据中心数量超过德州。此举反映 AI 基础设施扩张与能源供应间的严峻矛盾，可能影响未来算力布局。许多项目仅是纸面提案，但排队导致电网压力剧增，政府干预旨在防止电网崩溃，显示 AI 算力增长正面临物理基础设施瓶颈。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Policy"
-    ],
-    "link": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
-    "date": "2026-08-04",
-    "id": "17858600923320"
-  },
-  {
-    "title": "Spotify 携手 Merlin 扩展 AI 音乐 remix 项目",
-    "summary": "Spotify 获 Merlin 支持，允许粉丝在艺术家同意下制作 AI 翻唱。",
-    "detail": "Spotify 宣布 Merlin 加入其 AI 音乐计划，带来超 3 万个独立厂牌。该功能允许粉丝在艺术家同意前提下制作翻唱和 remix，强调“真实艺术家”而非假艺术家，并提供补偿。相比之下，Deezer 近期称 50% 日上传曲目为 AI 生成。此举旨在合法化 AI 音乐互动，应对平台上 AI 生成曲目激增的现状，重塑版权合作模式。公司明确表示将驱动补偿机制，确保艺术家权益，探索交互式音乐的法律合规路径，区别于完全生成式 AI 音乐。",
-    "tags": [
-      "News",
-      "Music",
-      "Product"
-    ],
-    "link": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
-    "date": "2026-08-04",
-    "id": "17858600923321"
-  },
-  {
-    "title": "菲尔兹奖得主加入 OpenAI 安全团队",
-    "summary": "数学家 Jacob Tsimerman 获菲尔兹奖后加入 OpenAI 关注安全。",
-    "detail": "加拿大数学家 Jacob Tsimerman 获菲尔兹奖后宣布加入 OpenAI 安全团队。他在 7 月 23 日发布会上表示，AI 即将在专业数学领域超越人类，对此感到悲观并希望引导人才关注 AI 安全。该事件反映了顶尖学术界对 AI 快速发展及其职业替代风险的深刻担忧。他试图利用知名度引导公众正视 AI 可能超越专业数学家的现实。作为首位公开加入安全团队的菲尔兹奖得主，其动向象征学术界对 AI 风险认知的转变，可能引发更多基础科学研究人员转向 AI 安全领域。",
-    "tags": [
-      "News",
-      "Safety",
-      "Talent"
-    ],
-    "link": "https://www.understandingai.org/p/mathematicians-are-grappling-with",
-    "date": "2026-08-04",
-    "id": "17858600923322"
-  },
-  {
-    "title": "开源 AI 运行时 Flyte 2 正式发布",
-    "summary": "Flyte 2 GA，打造耐用的开源 AI 运行时而非单纯编排器。",
-    "detail": "Flyte 2 宣布通用可用，这是历经十年重构的耐用 AI 运行时。最初建于 Lyft，现为 Linux 基金会项目。不同于传统编排器，它拥有底层基础设施所有权，能从计算失败（如 OOM）中恢复。它为 AI/ML 团队提供更可靠、可扩展的工作流引擎，适应现代 AI 开发需求，标志着开源工作流系统的重大演进。系统重建以适应全新世界，提供端到端运行时耐用性，不仅处理逻辑失败，还能恢复计算失败，为大规模 AI 训练与模拟提供坚实底层支撑。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Workflow"
-    ],
-    "link": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
-    "date": "2026-08-04",
-    "id": "17858600923323"
   }
 ]
