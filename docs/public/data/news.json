@@ -1,5 +1,70 @@
 [
   {
+    "title": "手机端本地多智能体会议系统 Molfar 亮相",
+    "summary": "安卓应用实现本地多模型 AI 会议，数据不出设备，支持多角色讨论。",
+    "detail": "Molfar System 是一款创新的 Android 应用，将单一聊天机器人转变为多智能体会议模式。用户可邀请最多四个不同模型的 AI 参与者围绕特定主题讨论，所有数据均在本地处理，无需服务器。系统包含协调员总结会议内容，秘书记录知识库。该项目展示了端侧多智能体协作的隐私保护潜力，适合需要多角度分析且对数据隐私敏感的场景。这种架构避免了数据上传云端的隐私风险，同时利用多模型差异减少幻觉。对于法律、医疗等垂直领域，本地多代理讨论能提供更高可信度。随着端侧算力提升，本地多代理协作将成为隐私敏感型应用的重要方向，降低了云端依赖，为移动端 AI 应用开辟了新路径。",
+    "tags": [
+      "New",
+      "Android",
+      "Multi-Agent"
+    ],
+    "link": "https://molfar.nova-hata.com/",
+    "date": "2026-08-07",
+    "id": "17860972857830"
+  },
+  {
+    "title": "AWS 推出 Bedrock AgentCore Runtime Instances 支持长运行 AI 代理",
+    "summary": "AWS 发布新计算选项，支持 AI 代理持久化运行长达 14 天，提供 GPU 加速。",
+    "detail": "AWS 宣布 Amazon Bedrock AgentCore Runtime 新增 Runtime Instances 功能，旨在解决 AI 代理从原型到生产的基础设施挑战。该服务提供 AWS 管理的 EC2 基础设施，支持代理在同一主机上协作，会话持久化长达 14 天，并支持 GPU 加速和容器化部署。这对于需要长时间运行、状态保持或复杂工作流的生产级 AI 代理至关重要，降低了运维复杂度。此前代理多基于无服务器架构，难以维持长上下文。此更新填补了长周期任务的基础设施空白，支持更复杂的自动化工作流。标志着云厂商正针对 AI Agent 长任务特性优化基础设施，推动代理技术落地。企业构建复杂代理工作流时，不再受限于短时运行环境，有助于实现更高级的自主任务处理。",
+    "tags": [
+      "News",
+      "AWS",
+      "Infrastructure"
+    ],
+    "link": "https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/",
+    "date": "2026-08-07",
+    "id": "17860972857831"
+  },
+  {
+    "title": "开源 CLI 工具 Agent-Reach 赋予 AI 代理互联网访问能力",
+    "summary": "一键为 AI 代理接入互联网，支持搜索 Twitter、Reddit 等平台，零 API 费用。",
+    "detail": "Agent-Reach 是一个开源命令行工具，旨在解决 AI 代理无法直接访问互联网的问题。它允许代理读取和搜索 Twitter、Reddit、YouTube 等多个平台，无需额外的 API 费用。该工具基于 Python 构建，提供了稳定的接入方式，简化了开发者为代理添加实时信息检索能力的流程，适合需要外部数据源的自主代理开发。传统方式需各平台 API 授权，成本高且不稳定。该工具通过统一接口屏蔽差异，使开发者能专注于代理逻辑而非数据接入。降低了代理获取实时信息的门槛，促进自主代理生态发展。对于需要实时舆情监控或信息搜集的代理应用，该工具提供了低成本解决方案，增强了代理的环境感知能力。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "CLI"
+    ],
+    "link": "https://github.com/Panniantong/Agent-Reach",
+    "date": "2026-08-07",
+    "id": "17860972857832"
+  },
+  {
+    "title": "OpenAI 案例研究：HSP GRUPPE 如何将 AI 融入税务咨询",
+    "summary": "德国税务咨询网络利用 ChatGPT Enterprise 重塑工作流程，强调组织变革。",
+    "detail": "OpenAI 官方博客分享了 HSP GRUPPE 的成功案例，展示了如何将 ChatGPT Enterprise 嵌入税务咨询、法律研究和客户沟通中。HSP 不仅将 AI 视为工具，更将其作为运营模式的一部分，通过月度论坛和治理策略推动组织转型。该案例强调了企业级 AI 部署中安全、治理和持续学习的重要性，为专业服务行业提供了参考。传统税务咨询依赖人工经验，AI 介入后需重构流程。HSP 的经验表明，技术引入需配合组织文化变革，否则难以发挥最大效能。表明企业 AI 应用正从单点工具向组织级操作系统演变。这对于其他专业服务机构具有借鉴意义，展示了 AI 如何深度融入核心业务流程而非仅作为辅助工具。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Case Study"
+    ],
+    "link": "https://openai.com/index/hsp-gruppe",
+    "date": "2026-08-07",
+    "id": "17860972857833"
+  },
+  {
+    "title": "去中心化 AI 计算编排平台 AetherGrid 无需 K8s",
+    "summary": "基于领域驱动设计的分布式编排工具，解决大规模调度难题，零开销集群管理。",
+    "detail": "AetherGrid 是一个分布式 AI 工作负载编排器，旨在解决大规模调度中的独占执行、部分失败后的 reconciliation 等问题。它采用严格的领域驱动设计（DDD），无需 Kubernetes 即可实现零开销集群管理。该项目适合需要简化基础设施管理且对资源限制有严格要求的 AI 开发团队，提供了另一种分布式计算 orchestration 的选择。K8s 对于小型 AI 集群往往过重。AetherGrid 专注于 AI 负载特性，简化了状态 reconcilation 逻辑，适合边缘计算或中小规模集群。为 AI 计算编排提供了轻量级替代方案，降低 K8s 使用门槛。在资源受限或需要快速部署的场景下，该工具能显著减少运维负担，让开发者更专注于模型与算法优化而非基础设施维护。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "Python"
+    ],
+    "link": "https://github.com/wycliffRotich-dev/aethergrid",
+    "date": "2026-08-07",
+    "id": "17860972857834"
+  },
+  {
     "title": "Anthropic Claude Fable 5 破解 87 年数学猜想",
     "summary": "Anthropic 宣布 Claude Fable 5 发现雅可比猜想反例，标志 AI 科研突破。",
     "detail": "Anthropic 数学家利用最新发布的 Claude Fable 5 模型，成功发现了代数几何领域著名的雅可比猜想反例。这一突破结束了长达 87 年的数学悬案，标志着 AI 在抽象推理和科研辅助上的重大里程碑。该发现不仅展示了大模型处理复杂数学问题的能力，更意味着 AI 正从辅助工具向独立科研合作者转变。社区对此反应热烈，认为这可能重塑未来科学研究范式，开启 AI 驱动科学发现的新纪元。此事件证明了前沿模型在专业领域的深度推理能力已超越人类预期。",
@@ -1237,70 +1302,5 @@
     "link": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
     "date": "2026-08-04",
     "id": "17858816592362"
-  },
-  {
-    "title": "AI 音乐生成器 Suno 版权侵权案败诉",
-    "summary": "德国法院裁定 Suno 未经授权训练模型侵犯版权，需赔偿。",
-    "detail": "慕尼黑地区法院判决 AI 音乐公司 Suno 败诉，认定其未经许可使用 GEMA 代表音乐作品训练模型违反版权法。Suno 需支付赔偿金，且未来使用相关曲目需获授权。此判决为欧洲 AI 版权界定树立重要先例，明确 AI 模型训练不能豁免版权责任。这可能迫使 AI 公司增加内容授权成本，重塑生成式音乐行业的合规标准与商业模式。",
-    "tags": [
-      "News",
-      "Legal",
-      "Music"
-    ],
-    "link": "https://www.nme.com/news/music/ai-music-generator-suno-loses-copyright-infringement-legal-case-3960760",
-    "date": "2026-08-04",
-    "id": "17858816592363"
-  },
-  {
-    "title": "估值之父警告 AI 小型企业将面临市场痛苦",
-    "summary": "纽约大学教授 Damodaran 预测 AI 股市回调，小型公司风险最大。",
-    "detail": "被誉为“估值之父”的纽约大学教授 Aswath Damodaran 警告，AI 交易市场已见顶，小型 AI 企业将在即将到来的市场回调中受创最重。近期芯片和内存股已大幅下跌，市场情绪转变。投资者应警惕估值过高且无盈利支撑的 AI 初创公司，资本风向正从盲目炒作转向更稳健的基础设施巨头与有实际营收支撑的企业，行业洗牌不可避免。",
-    "tags": [
-      "News",
-      "Market",
-      "Investment"
-    ],
-    "link": "https://www.businessinsider.com/ai-stock-market-correction-dean-of-valuation-aswath-damodaran-2026-8",
-    "date": "2026-08-04",
-    "id": "17858816592364"
-  },
-  {
-    "title": "50 美元 Arduino 实现本地 AI 语音代理",
-    "summary": "基于 Moorcheh Edge 栈，在受限硬件上实现隐私优先的零售助手。",
-    "detail": "开发者展示如何在 Arduino UNO Q 上运行本地 AI 语音助手。利用 Moorcheh Edge 技术压缩嵌入向量至 1-bit，大幅降低 RAM 占用，实现本地向量搜索和 RAG。无需云端 API 即可处理零售查询，为边缘计算和隐私保护型 AI 应用提供了低成本硬件解决方案。该项目证明了在极低算力设备上部署语义搜索与生成模型的可行性，适合隐私敏感场景。",
-    "tags": [
-      "Dev",
-      "Edge AI",
-      "Hardware"
-    ],
-    "link": "https://projecthub.arduino.cc/neelbuilds/build-a-voice-based-kiosk-for-retail-store-using-moorcheh-edge-and-arduino-uno-q-7f3c7b",
-    "date": "2026-08-04",
-    "id": "17858816592365"
-  },
-  {
-    "title": "开源权重模型能力逼近前沿，但安全缺口扩大",
-    "summary": "中国开源模型 GLM-5.2 能力接近 GPT-5.5，但在网络安全测试中拒绝率为零，引发安全担忧。",
-    "detail": "TechCrunch 报道指出，中国 Z.ai 发布的开源权重模型 GLM-5.2 在网络和生物能力上仅落后 OpenAI GPT-5.5 和 Anthropic Claude Opus 4.7 数月。然而，非营利组织 SaferAI 的评估显示，该模型在执行 offensive cyber 任务时拒绝率为零，而 Claude Opus 4.7 则 consistently 拒绝。这突显了开源模型能力快速追赶前沿的同时，安全防护措施并未同步跟进的风险。随着开源模型能力增强，如何管理其被恶意使用的风险成为政策制定者和行业关注的焦点。",
-    "tags": [
-      "News",
-      "LLM",
-      "Safety"
-    ],
-    "link": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
-    "date": "2026-08-04",
-    "id": "17858751161290"
-  },
-  {
-    "title": "美军 X-62A 试验机利用 AI 自主拦截敌机",
-    "summary": "美国空军 X-62A 测试机利用 AI 大脑和红外传感器，成功自主发现并拦截敌方 T-38 飞机。",
-    "detail": "美国空军与洛克希德·马丁公司合作，成功测试了 X-62A 试验机的自主空战能力。该机型基于 F-16 改装，配备了 AI 驱动的大脑和红外搜索跟踪吊舱。测试中，AI 代理自主 spot 并跟踪飞行中的其他 aircraft，随后执行拦截任务。这展示了空军期望从协作战斗飞机（CCA）无人机群中获得的自主空对空作战能力。此次测试被称为闭环 AI 战斗测试，标志着 AI 在军事航空领域的传感器到车辆控制方面取得重大进展。",
-    "tags": [
-      "News",
-      "Military",
-      "Autonomy"
-    ],
-    "link": "https://www.twz.com/air/x-62a-toting-infrared-search-and-track-pod-used-its-ai-brain-to-autonomously-intercept-an-enemy-t-38",
-    "date": "2026-08-04",
-    "id": "17858751161291"
   }
 ]
