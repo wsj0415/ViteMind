@@ -1,5 +1,83 @@
 [
   {
+    "title": "Databricks 分享 AI 编码成本降低 70% 实战指南",
+    "summary": "Databricks 公开大规模 AI 编码成本管理经验，实现效率与成本平衡。",
+    "detail": "Databricks 博客揭示了企业在规模化部署 AI 编码工具时面临的成本指数级增长问题，若不控制将抵消效率增益。通过与其他数字原生公司（如 Stripe、Uber）的交流，他们总结出一套“双重任务”解决方案：既提供广泛的 AI 工具访问权限，又将人均成本控制在固定范围内。文章开源了关键基础设施组件，包括终端用户 meta-harness（Omnigent），为企业提供了可落地的成本优化技术路径，解决效率增益被成本抵消的困境。",
+    "tags": [
+      "Dev",
+      "Enterprise",
+      "Cost Optimization"
+    ],
+    "link": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+    "date": "2026-08-07",
+    "id": "17861292334750"
+  },
+  {
+    "title": "EU AI Act 全面 enforcement 引发行业合规反思",
+    "summary": "欧盟 AI 法案即将全面执行，行业呼吁从魔法思维转向科学合规。",
+    "detail": "随着 EU AI Act 走向全面执法，行业观点认为必须纠正将 LLM 生成能力视为“魔法”的误区。文章指出，开源模型的进步证明构建大模型无需以往假设的巨大基础设施，但企业级应用不能再容忍“幻觉”作为借口。垂直 AI 初创公司被批评缺乏实质技术壁垒，合规性将成为企业采用 AI 的核心考量，标志着市场向理性回归。监管压力迫使企业从实验性使用转向科学化的流程整合。",
+    "tags": [
+      "News",
+      "Regulation",
+      "Compliance"
+    ],
+    "link": "https://medium.com/@MirArshadTalpur/eu-ai-act-second-big-blow-or-a-move-toward-sanity-3dea3586dbf3",
+    "date": "2026-08-07",
+    "id": "17861292334751"
+  },
+  {
+    "title": "YouTube AI 垃圾内容检测器误伤知名创作者 Kurzgesagt",
+    "summary": "YouTube 算法错误标记高质量频道，引发创作者对自动化审核的担忧。",
+    "detail": "YouTube 的 AI 垃圾内容检测系统错误地将知名教育频道 Kurzgesagt 标记为目标，引发社区震动。该事件暴露了平台自动化审核机制在区分高质量内容与 AI 生成垃圾内容时的局限性。其他创作者担心面临相同命运，表明当前算法可能过度依赖特定特征而非内容实质。这对依赖平台分发的创作者生态构成了潜在威胁，呼吁更透明的审核标准。平台需平衡自动化效率与创作者权益，避免误伤优质内容。",
+    "tags": [
+      "News",
+      "Platform",
+      "Algorithm"
+    ],
+    "link": "https://www.dexerto.com/youtube/youtubes-ai-slop-detector-incorrectly-targets-kurzgesagt-as-other-creators-fear-same-fate-3395930/",
+    "date": "2026-08-07",
+    "id": "17861292334752"
+  },
+  {
+    "title": "自主 AI 代理实战测试：46 小时与网络壁垒的对抗",
+    "summary": "实验显示自主代理在互联网赚钱面临验证码、邮件验证等重重阻碍。",
+    "detail": "一项实验赋予 AI 代理 15 美元资金和 46 小时期限，测试其在开放互联网上的自主盈利能力。结果发现，现代网络的安全机制（如验证码、电话验证、邮件发送限制）构成了 Agent 难以逾越的墙壁。代理无法完成大多数注册流程，也无法发送冷邮件。这表明当前自主 Agent 在实际商业场景中仍受限于基础交互协议，反垃圾机制恰好成为了反 Agent 机制，限制了其经济自主性。",
+    "tags": [
+      "News",
+      "Agent",
+      "Security"
+    ],
+    "link": "https://write.as/ih3l0kd78lpb1",
+    "date": "2026-08-07",
+    "id": "17861292334753"
+  },
+  {
+    "title": "Fenify 上线：免费 AI 工具自动扫描棋局生成 PGN",
+    "summary": "新应用利用计算机视觉扫描国际象棋视频，同步生成棋谱记录。",
+    "detail": "Fenify 是一款新推出的 AI 应用，支持 iPhone 和 iPad。它能扫描录制或直播的国际象棋比赛，重建棋盘并将走子列表与视频同步，最终导出干净的 PGN 文件供分享或研究。应用完全免费且无扫描次数限制。该技术展示了计算机视觉在垂直体育领域的实用化落地，为棋手提供了便捷的复盘工具，降低了记录棋局的门槛。用户只需清晰拍摄棋盘即可获取专业级棋谱数据。",
+    "tags": [
+      "New",
+      "Computer Vision",
+      "App"
+    ],
+    "link": "https://fenify.ai/",
+    "date": "2026-08-07",
+    "id": "17861292334754"
+  },
+  {
+    "title": "资深工程师分享：如何手写代码并结合 AI 辅助",
+    "summary": "提出\"guideme\"技能模式，引导 AI 辅助架构理解而非直接生成代码。",
+    "detail": "一位资深工程师分享了在 AI 时代坚持手写代码的工作流。他设计了名为\"guideme\"的 Skill，类似 Claude 的学习模式，但专注于指导资深工程师而非教学。该模式避免 AI 倾向于添加新代码而非重构的“最短路径偏差”，提供架构概述和修改指南。这种方法强调了人类工程师在架构对齐上的重要性，防止 AI 导致代码库混乱，为高级开发者提供了高效的 AI 协作范式，确保代码质量不因 AI 介入而下降。",
+    "tags": [
+      "Dev",
+      "Workflow",
+      "Best Practices"
+    ],
+    "link": "https://semyonsinchenko.github.io/ssinchenko/post/writing_code_with_ai/",
+    "date": "2026-08-07",
+    "id": "17861292334755"
+  },
+  {
     "title": "Oracle 禁止 OpenJDK 使用 AI 生成代码",
     "summary": "Oracle 宣布禁止在 OpenJDK 项目中提交 AI 生成的代码，尽管此前有争议。",
     "detail": "Oracle 正式禁止开发者向 OpenJDK 贡献 AI 生成的代码，尽管此前 CEO Ellison 声称公司并未自行编写代码。这一政策标志着大型科技公司在开源项目完整性与 AI 辅助开发之间划定了明确界限。此举可能引发其他开源基金会效仿，重新审视贡献者协议。行业影响深远，不仅关乎代码版权归属，还可能迫使开发者调整工作流，减少了对 AI 编程助手的依赖，强调了人工审查在核心基础设施中的必要性。对于依赖 AI 编程的企业，这将增加合规成本，但也提升了核心代码库的可信度，为开源治理树立了新标杆，预示着 AI 生成内容在关键基础设施中的接受度将面临更严格审查，开发者需平衡效率与合规风险。",
@@ -1224,83 +1302,5 @@
     "link": "https://www.thefp.com/p/niall-ferguson-ai-is-the-most-dangerous-arms-race-history",
     "date": "2026-08-05",
     "id": "17859344591360"
-  },
-  {
-    "title": "TIME 杂志向 AI 机器人提供特制网站",
-    "summary": "TIME 网站识别 AI 爬虫并展示含广告的特殊版本页面。",
-    "detail": "TIME 杂志采取新策略应对 AI 抓取，为 bot 提供包含内置广告的不同版本网站。此举旨在平衡内容保护与 AI 训练数据授权收益，防止爬虫免费获取高质量内容。反映了出版商与 AI 公司之间关于数据使用权的博弈升级，可能成为行业新标准。通过技术手段识别用户代理，实现差异化内容服务，既保护版权又探索商业化路径，对新闻行业具有借鉴意义。",
-    "tags": [
-      "News",
-      "Web",
-      "Copyright"
-    ],
-    "link": "https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/",
-    "date": "2026-08-05",
-    "id": "17859344591361"
-  },
-  {
-    "title": "Labgrid-MCP 让 AI 代理控制嵌入式硬件",
-    "summary": "开源 MCP 服务器暴露 labgrid 硬件操作给 LLM 代理。",
-    "detail": "新项目 labgrid-mcp 通过 Model Context Protocol 将嵌入式实验室硬件直接接入 AI 生态。该 MCP 服务器暴露了 47 种工具，涵盖电源控制、串口 console、USB mux 及 flash 操作。开发者可用自然语言指令让 AI 代理完成复杂硬件测试流程，如“获取开发板并烧录镜像”。支持 standalone 模式，不依赖特定 coordinator。这极大提升了硬件开发自动化水平，让 LLM 代理能真正操作物理设备，是 AI 赋能硬件测试的重要基础设施突破。",
-    "tags": [
-      "Dev",
-      "MCP",
-      "Embedded"
-    ],
-    "link": "https://github.com/onurcelep/labgrid-mcp",
-    "date": "2026-08-05",
-    "id": "17859344591362"
-  },
-  {
-    "title": "阿里万 3.0 开源 60B 参数 AI 视频生成模型",
-    "summary": "支持 4K 原生输出，30 秒视频生成，MoE 架构。",
-    "detail": "阿里推出 Wan 3.0 视频生成模型，拥有 60B 参数，采用 MoE 架构每 pass 仅激活 14B 参数以降低计算开销。支持文本、图像及音频驱动 lip-sync，原生 4K 输出，最长 30 秒。提供 T2V、I2V 等四种模式，订阅制收费，包含 900 至 3200 积分档位。标志着开源视频生成模型进入高画质竞争阶段，为品牌营销和研究工作流提供新工具，降低了高质量视频制作的技术门槛和成本。",
-    "tags": [
-      "New",
-      "Video Generation",
-      "Open Source"
-    ],
-    "link": "https://wan3pro.com/",
-    "date": "2026-08-05",
-    "id": "17859344591363"
-  },
-  {
-    "title": "AuditBadger 用 AI 自动化 SOC 2 合规审计",
-    "summary": "AI 起草合规文档，团队审批，每月 250 美元 unlimited。",
-    "detail": "AuditBadger 推出 AI 辅助合规平台，针对 SOC 2 和 ISO 27001 标准。AI 负责起草政策和映射证据，人类负责审批决策，定价 250 美元/月不限用户。解决了初创企业合规成本高、流程混乱的痛点，实现“零到审计就绪”的直线流程。创始团队直接参与 onboarding，确保服务质量。这是 AI 垂直应用于企业合规领域的典型案例，大幅降低合规门槛，让小型团队也能轻松应对审计需求。",
-    "tags": [
-      "New",
-      "Compliance",
-      "B2B"
-    ],
-    "link": "https://auditbadger.com/",
-    "date": "2026-08-05",
-    "id": "17859344591364"
-  },
-  {
-    "title": "AI 审查遗漏 Coldcard 硬件钱包安全漏洞",
-    "summary": "固件 bug 导致资金风险，官方呼吁用户迁移资金。",
-    "detail": "比特币硬件钱包 Coldcard 披露固件漏洞，该漏洞位于子模块边界，未被 AI 及人工审查发现，可能导致种子生成不安全。官方呼吁受影响用户立即迁移资金，并公开历史披露记录以供研究。此次事件特别指出 AI 代码审查在安全关键领域的局限性，即使经过审查仍可能遗漏边界条件 bug。这为硬件安全公司敲响警钟，需重新评估自动化审计工具在加密货币安全中的应用可靠性。",
-    "tags": [
-      "News",
-      "Security",
-      "Bitcoin"
-    ],
-    "link": "https://blog.coinkite.com/adding-to-public-record/",
-    "date": "2026-08-05",
-    "id": "17859344591365"
-  },
-  {
-    "title": "MacPaw 合作 Liquid AI 推设备端推理服务",
-    "summary": "为 SetApp 开发者提供本地 AI 模型，支持离线运行。",
-    "detail": "乌克兰开发商 MacPaw 与 Liquid AI 合作，为其 SetApp 商店开发者提供设备端推理技术。利用 Liquid AI 的高效架构，实现离线助手和代理工作流。相比苹果本地模型，强调性能定制与持续学习能力。推动 Edge AI 在桌面应用中的普及，让用户数据保留在本地，增强隐私安全。这是应用商店集成 AI 基础设施的重要尝试，赋能开发者构建更智能的应用，减少对云服务的依赖。",
-    "tags": [
-      "News",
-      "Edge AI",
-      "Partnership"
-    ],
-    "link": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
-    "date": "2026-08-05",
-    "id": "17859344591366"
   }
 ]
