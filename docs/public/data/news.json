@@ -1,5 +1,31 @@
 [
   {
+    "title": "Grindr CEO: AI 等效于 200 名工程师工作量",
+    "summary": "Grindr CEO 称 AI 使工程产出增 2.5 倍，等效节省 6000 万美元。",
+    "detail": "Grindr CEO George Arison 在财报电话会议上透露，生成式 AI 使工程产出提升 2.5 倍。若无非 AI 辅助，达成同等产出需额外雇佣 200 名工程师及 6000 万美元年成本。虽然实际增幅可能达 3.5 倍，但公司保守估计。此数据量化了 AI 对软件经济学的重塑，引发对工程岗位未来的深刻思考。这并非直接裁员，而是意味着未来招聘需求可能大幅减少，标志着软件开发生产力进入新纪元，行业需重新评估人力与算力的经济平衡。此案例为 AI 替代效应提供了罕见的 concrete 数据支持，值得投资者关注。",
+    "tags": [
+      "News",
+      "AI Impact",
+      "Engineering"
+    ],
+    "link": "https://ai-updates.net/grindr-ceo-says-ai-is-doing-the-work-of-200-engineers/",
+    "date": "2026-08-08",
+    "id": "17861785514240"
+  },
+  {
+    "title": "Show HN: Appealr – 纯人工投票的实时对决平台",
+    "summary": "一个强调人类投票而非 AI 排名的实时竞赛平台，主打公平性。",
+    "detail": "Appealr 是一个新推出的实时竞赛平台，用户可进行 15 秒面对面对决。其核心差异化在于坚持“仅人类投票”而非 AI 算法排名，旨在解决算法偏见问题。平台维护前 30 名持久排名，仅限 18 岁以上用户。在 AI 泛滥的背景下，该产品强调人类主观判断的价值，为社区提供了一种反算法的互动新选择。作为 Show HN 项目，它反映了部分开发者对 AI 排名机制的反思，探索人机交互中人类直觉的独特地位。虽然非 AI 产品，但在 AI 社区讨论中具有独特的对比价值，展示了人类评估在特定场景下的不可替代性。",
+    "tags": [
+      "New",
+      "Product Hunt",
+      "Community"
+    ],
+    "link": "https://appealr.vercel.app",
+    "date": "2026-08-08",
+    "id": "17861785514242"
+  },
+  {
     "title": "Roku 推出 24/7 AI 内容频道引发争议",
     "summary": "Roku 推出 Fairground AI 频道，被批评为全天候 AI 垃圾内容。",
     "detail": "Roku 新推出的 Fairground 频道提供 24/7 的 AI 生成内容，引发媒体关注。The Verge 评论称观看体验如同“从槽中进食”，暗示内容质量低劣。这反映了流媒体平台尝试利用 AI 降低内容成本的趋势，但也暴露了当前 AI 生成视频在质量和吸引力上的不足，可能导致用户疲劳。",
@@ -206,6 +232,19 @@
     "link": "https://mega.dev",
     "date": "2026-08-08",
     "id": "17861532846441"
+  },
+  {
+    "title": "解析 Agent 循环中隐藏的 Token 成本陷阱",
+    "summary": "深入分析多步 Agent 工作流中 Token 成本非线性复合增长及优化方案。",
+    "detail": "文章详解自主 Agent 循环中 Token 成本如何非线性复合增长。指出 O(N²) 上下文积累、静态系统提示重复等五种失败模式。提供上下文压缩、断路器、动态模型路由等实战 mitigations。对于构建长期运行的自主 Agent 系统，控制 Token 消耗是避免基础设施成本失控的关键架构考量。开发者需区分状态与上下文，避免 naive setup 导致单次任务成本从 0.05 美元激增至 5 美元，确保生产环境部署的经济可行性。文中还强调了运行时提示注入的风险，为构建高鲁棒性 Agent 提供了具体指南，适合后端开发者阅读。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Agent"
+    ],
+    "link": "https://machinelearningmastery.com/identifying-token-costs-hiding-in-your-agentic-loop/",
+    "date": "2026-08-07",
+    "id": "17861785514241"
   },
   {
     "title": "Toolport：优化 AI Agent 工具列表冗余",
@@ -1262,44 +1301,5 @@
     "link": "https://www.cnbc.com/2026/08/06/demis-hassabis-google-reshuffle-deepmind-role.html",
     "date": "2026-08-06",
     "id": "17860295275712"
-  },
-  {
-    "title": "AI Agent 研究能力评估：工程可行，科研受阻",
-    "summary": "最新研究显示，当前 AI Agent 能完成工程任务，但无法独立进行开放式 AI 研究。",
-    "detail": "**Crux Evaluations 发布最新影子评估报告**，引入第三方评估方法，由论文原作者评分。针对两篇未发表的 NeurIPS 2026 论文测试，尽管前沿 Agent 在六天内完成了所有工程代码且无需人类帮助，消耗数千美元算力，但在回答核心研究问题上进展甚微，最终被作者拒稿。研究指出了判断力差、缺乏创造力、资源意识弱等五大失败模式。这表明自动化 AI 研发仍有关键瓶颈，工程能力不等于科研能力。该研究为 AI 研发自动化前景提供了早期证据，提示当前模型在创造性思维上仍有局限。作者发布了专家审查和日志供社区验证。",
-    "tags": [
-      "News",
-      "AI Agents",
-      "Research"
-    ],
-    "link": "https://cruxevals.com/crux/can-ai-agents-conduct-research/",
-    "date": "2026-08-06",
-    "id": "17860210868940"
-  },
-  {
-    "title": "Google Maps 引入 Agent 功能，支持订餐与酒店",
-    "summary": "Google Maps 升级 Ask Maps 功能，新增代理能力，可完成订餐、酒店预订等现实任务。",
-    "detail": "**Google 宣布为 Maps 的\"Ask Maps\"功能增加代理能力**，整合 Personal Intelligence。用户可通过自然语言指令预订餐厅或酒店，例如询问“附近哪里可以点 vegan 吐司”，AI 会自动比较价格并检查可用性。支持 Square、Uber Eats 等平台支付。此举标志着 Google 试图将 Maps 从导航工具转型为能完成现实世界任务的全能助手，深化生态闭环。这将加剧本地生活服务领域的 AI 竞争，提升用户粘性。个人数据如 Gmail 和日历将被用于个性化响应，引发隐私关注。功能将于周四正式推出。",
-    "tags": [
-      "News",
-      "Google",
-      "AI Agents"
-    ],
-    "link": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/",
-    "date": "2026-08-06",
-    "id": "17860210868941"
-  },
-  {
-    "title": "Memoars：加密 AI 记忆层，实现跨助手共享",
-    "summary": "推出用户拥有的加密记忆层，让不同 AI 助手共享上下文，同时确保数据隐私可控。",
-    "detail": "**Memoars 是一个本地优先的 AI 记忆解决方案**，旨在解决跨助手重复上下文的问题。它在源头使用 XChaCha20-Poly1305 加密记忆内容，仅密文存储于用户后端（如 S3）。协调器无法访问密钥，确保隐私。支持语义检索和版本控制，允许用户批准或拒绝 Agent 写入的记忆。解决了跨助手重复上下文的问题，同时保障数据主权。客户端使用 Argon2id 生成密钥，确保即使服务端被攻破，记忆内容依然安全。适用于需要高隐私保护的 AI 应用场景。",
-    "tags": [
-      "New",
-      "Privacy",
-      "AI Infrastructure"
-    ],
-    "link": "https://memoars.com/",
-    "date": "2026-08-06",
-    "id": "17860210868942"
   }
 ]
