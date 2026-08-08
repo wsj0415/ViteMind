@@ -1,5 +1,57 @@
 [
   {
+    "title": "JEDEC 发布 SPHBM4 标准以降低 AI 内存成本",
+    "summary": "新标准采用 512 位接口，允许使用有机基板替代昂贵中介层。",
+    "detail": "JEDEC 发布了新的 SPHBM4 标准，旨在大幅降低 AI 内存成本。该技术通过窄 512 位接口，使得制造商能够放弃昂贵的中介层（interposers），转而使用有机基板。这对于降低 AI 硬件部署成本具有重要意义，可能缓解当前 AI 基础设施建设的预算压力。随着 AI 模型规模扩大，内存成本占比日益升高，此标准有望优化供应链，提升高性能计算模块的经济性，促进 AI 硬件普及。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Memory"
+    ],
+    "link": "https://www.tomshardware.com/pc-components/dram/jedec-releases-new-sphbm4-standard-to-slash-ai-memory-costs-narrow-512-bit-interface-enables-dropping-expensive-interposers-for-organic-substrates",
+    "date": "2026-08-08",
+    "id": "17861651080981"
+  },
+  {
+    "title": "美国能源部启动“创世纪任务”整合 AI 与量子计算",
+    "summary": "数十亿美元联邦计划，耦合 AI、量子计算与高性能计算。",
+    "detail": "美国能源部联合总统行政办公室启动“创世纪任务”（Genesis Mission）。这是一项数十亿美元的联邦倡议，旨在将 AI、容错量子计算和 exascale 高性能计算统一为国家科学发现平台。重点针对量子材料、结构生物学等高维研究领域，突破经典模拟的计算限制。该生态系统包含机构拓扑、技术 foundry 及资金机制，基于联邦政策仪器构建，标志着国家层面对于 AI 驱动科学发现的战略投入升级。",
+    "tags": [
+      "News",
+      "Government",
+      "Quantum"
+    ],
+    "link": "https://github.com/donutloop/donutloop-genesis/blob/main/README.md",
+    "date": "2026-08-08",
+    "id": "17861651080982"
+  },
+  {
+    "title": "Show HN: Buddy 内置 AI 代理的 iOS 浏览器",
+    "summary": "新款 iOS 浏览器集成 AI 代理，可自动完成网页任务。",
+    "detail": "Buddy 是一款新发布的 iOS 浏览器应用，核心功能是内置 AI 代理。它能够代表用户完成复杂的网页任务。该应用由 Whim Studio 开发，专为 iPad 设计，支持免费下载及应用内购买。体现了 AI Agent 在移动端落地的新趋势。随着大模型小型化，此类端侧智能助手将改变用户交互习惯，从被动搜索转向主动任务执行，提升移动办公效率。",
+    "tags": [
+      "New",
+      "iOS",
+      "Agent"
+    ],
+    "link": "https://apps.apple.com/us/app/buddy-the-ai-mobile-browser/id6788047483",
+    "date": "2026-08-08",
+    "id": "17861651080983"
+  },
+  {
+    "title": "研究发现海绵材料可编码物理记忆用于 AI",
+    "summary": "软弹性材料可通过变形编码信息，为物理神经网络提供新思路。",
+    "detail": "研究人员发现软弹性海绵材料可通过全局应力和局部 indentation 编码变形记忆。这种可逆的物理状态变化可对应 n-bit 信息。虽然目前处于基础研究阶段，但这种物理记忆机制可能为未来非传统 AI 硬件或神经形态计算提供新的材料学思路。利用材料本身的物理特性存储信息，有望降低传统电子存储的能耗，为边缘计算设备提供低功耗解决方案。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Hardware"
+    ],
+    "link": "https://driftspeed.wordpress.com/2026/08/07/ai-on-a-piece-of-sponge/",
+    "date": "2026-08-08",
+    "id": "17861651080984"
+  },
+  {
     "title": "Obscura：专为 AI Agent 设计的无头浏览器引擎",
     "summary": "GitHub 开源新项目 Obscura，旨在优化 AI 代理的网页抓取与自动化任务。",
     "detail": "Obscura 是一款专为 AI Agent 和网页抓取设计的无头浏览器引擎。该项目托管于 GitHub，提供了详细的文档和网站支持。作为开发者工具，它试图解决 AI 自动化中与浏览器交互的痛点，支持 Trendshift 追踪。对于需要构建自主代理或进行大规模数据抓取的开发者而言，这是一个值得关注的基础设施更新，可能简化 Agent 与 Web 环境的交互流程。",
@@ -37,6 +89,32 @@
     "link": "https://mega.dev",
     "date": "2026-08-08",
     "id": "17861532846441"
+  },
+  {
+    "title": "OpenAI 警告 Astra 模型具备关键网络攻击能力",
+    "summary": "OpenAI 评估发现 Astra 模型可能具备关键网络攻击能力，触发安全框架。",
+    "detail": "OpenAI 发布重要安全公告，指出其即将推出的 Astra 模型在内部评估中显示出强大的代理编码和网络安全能力。根据公司的 Preparedness 框架，该模型可能达到“关键”网络安全阈值，意味着它能在无人干预下发现零日漏洞或执行端到端网络攻击策略。此前 GPT-5.6-Sol 仅被评为“高”阈值。此举显示 AI 安全边界正在被重新定义，公司决定透明化潜在风险，与安全社区共享评估结果，以应对模型能力快速演进带来的挑战。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Safety"
+    ],
+    "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+    "date": "2026-08-07",
+    "id": "17861651080980"
+  },
+  {
+    "title": "Tyler Cowen: 未来人们将接受 AI 写作",
+    "summary": "经济学家认为尽管有检测工具，人们终将不在乎内容是否由 AI 生成。",
+    "detail": "经济学家 Tyler Cowen 撰文指出，虽然平台正在部署 AI 抄袭检测工具，但几年后人们将不再关心阅读内容是否由聊天机器人编写。他认为 AI 写作将成为阅读的未来常态。这反映了对 AI 生成内容接受度的社会心理转变预测。随着生成质量提升，内容来源的重要性将下降，用户更关注信息价值而非创作者身份，这将重塑内容产业的价值链与版权认知。",
+    "tags": [
+      "News",
+      "Opinion",
+      "Writing"
+    ],
+    "link": "https://www.thefp.com/p/tyler-cowen-youll-learn-to-love-ai-writing",
+    "date": "2026-08-07",
+    "id": "17861651080985"
   },
   {
     "title": "Salestrics 推出支持 MCP 协议的 AI 原生 CRM 工作台",
@@ -1223,84 +1301,5 @@
     "link": "https://www.abc.net.au/news/2026-08-06/meta-ai-reports-agent-hacked-external-company-during-testing/107003246",
     "date": "2026-08-06",
     "id": "17859896678742"
-  },
-  {
-    "title": "从工业革命到 AI：教皇指导技术变革的天主教原则",
-    "summary": "教皇 Leo XIV 发布通谕，以“辅助性原则”指导社会应对 AI 时代。",
-    "detail": "文章探讨了教皇 Leo XIV 如何通过天主教原则指导社会应对 AI 技术变革。2026 年 5 月发布的通谕\"Magnifica humanitas\"强调了“辅助性原则”（subsidiarity）。该原则主张决策应在最基层层面做出，避免过度集中。这一伦理框架为 AI 治理提供了新视角，强调人类尊严和技术服务的从属关系。宗教领袖介入 AI 伦理讨论，反映了技术变革对社会结构的深层冲击及寻求道德共识的需求。通谕还提到 AI 检测算法并不总是准确，教皇的写作被验证为人类创作。这表明在 AI 时代，人类原创性和道德主体性仍是核心价值，技术应服务于人类福祉而非替代人类。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Policy"
-    ],
-    "link": "https://theconversation.com/the-catholic-principle-guiding-popes-through-tech-upheavals-from-the-industrial-revolution-to-ai-288569",
-    "date": "2026-08-06",
-    "id": "17859896678743"
-  },
-  {
-    "title": "AI 分歧的本质：对未来能力的三种认知药丸",
-    "summary": "文章提出“三种 AI 药丸”理论，解释人们对 AI 能力认知的分歧。",
-    "detail": "作者 Zvi 提出“三种 AI 药丸”模型来分析行业分歧：AI 药丸（承认现有能力）、AGI 药丸（预期更多能力）、ASI 药丸（预期超智能）。指出多数大众尚未服用第一颗药丸，仍低估现有 AI 能力。而前沿实验室员工多已服用 ASI 药丸。这种认知差导致了政策制定、投资决策和公众舆论的冲突。理解这一框架有助于厘清 AI 安全辩论背后的根本假设差异，预测未来技术采纳曲线。文章批评了基于过时研究否定 AI 价值的观点，呼吁人们正视 AI 当前的编码和代理能力。这种认知对齐是进行有效 AI 治理和风险管理的前提，否则讨论将不在同一频道。",
-    "tags": [
-      "News",
-      "Analysis",
-      "AGI"
-    ],
-    "link": "https://thezvi.substack.com/p/the-three-ai-pills",
-    "date": "2026-08-06",
-    "id": "17859896678744"
-  },
-  {
-    "title": "AI 成本反叛：企业质疑 Token 定价与单位经济效益",
-    "summary": "企业客户抵制 OpenAI 等按 Token 收费模式，关注单位经济。",
-    "detail": "随着 AI 应用规模化，企业客户开始质疑 OpenAI 和 Anthropic 的 Token 定价模式。Palantir 提出按结果收费的替代愿景。报道指出，AI 支出快速上升，但客户不清楚具体付费价值。这标志着 AI 行业从试点阶段进入单位经济效益核算周期，定价模式面临重构。企业更关注工作流创造的实际价值，而非单纯的 Token 消耗，推动 AI 供应商调整商业策略以适应成熟市场需求。未来可能出现基于 outcome 的定价模型，促使供应商优化模型效率，减少冗余计算，从而降低企业总体拥有成本，改变当前按量付费的主流商业逻辑。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Pricing"
-    ],
-    "link": "https://www.voxelperfect.com/writing/the-ai-cost-rebellion-is-really-about-unit-economics",
-    "date": "2026-08-05",
-    "id": "17861032193351"
-  },
-  {
-    "title": "Shopify 财报显示 AI 搜索驱动流量增长而非替代谷歌",
-    "summary": "AI 搜索使 Shopify 商家流量订单 tripled，与传统搜索互补。",
-    "detail": "Shopify 第二季度财报显示，AI 驱动的流量和订单同比增长三倍，总裁称 AI 是搜索的补充而非替代。营收同比增长 36% 至 36 亿美元，超出华尔街预期。与传统搜索导致出版业流量下降不同，AI 搜索在电商领域展现出独特增值潜力，尤其利好长尾中小商家。传统搜索会话仍在增长，表明用户行为并未完全迁移。这一数据为电商行业注入信心，证明 AI 技术能有效赋能交易环节，而非单纯分流现有渠道，可能推动更多电商平台集成 AI 搜索功能。显示出 AI 在垂直领域的落地优势，有助于缓解流量焦虑。",
-    "tags": [
-      "News",
-      "E-commerce",
-      "Shopify",
-      "AI Search"
-    ],
-    "link": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
-    "date": "2026-08-05",
-    "id": "17860295275713"
-  },
-  {
-    "title": "Aikido Machine 推出：永不离开内网的本地化 AI 渗透测试",
-    "summary": "Aikido 发布本地化 AI 安全服务器，专为金融及政府机构设计，确保代码与数据不出内网。",
-    "detail": "Aikido Security 推出了名为'Aikido Machine'的本地化服务器解决方案，旨在满足银行、政府及国防承包商对数据主权的高要求。该设备在本地 GPU 上运行 AI 渗透测试和代码分析模型，确保源代码、仓库及提示词永远不会离开客户的基础设施。面对欧洲央行等监管机构对 AI 驱动网络威胁的严峻评估，该方案解决了企业采用连续 AI 渗透测试时的合规痛点，标志着 AI 安全工具向私有化部署趋势的深化。",
-    "tags": [
-      "New",
-      "Security",
-      "Enterprise"
-    ],
-    "link": "https://www.aikido.dev/blog/the-aikido-machine-on-prem-ai-pentesting-that-never-leaves-your-network",
-    "date": "2026-08-05",
-    "id": "17860127512062"
-  },
-  {
-    "title": "时代杂志被曝向 AI 爬虫提供专属广告版本网站",
-    "summary": "发现时代杂志为 AI 爬虫提供含特定品牌广告的 Markdown 版本页面，意图影响模型输出。",
-    "detail": "研究人员发现时代杂志（Time Magazine）存在一个仅向 AI 爬虫开放的网站版本，其中嵌入了普通用户看不见的广告内容。这些页面包含针对 Ally Bank 等品牌的赞助事实和 FAQ，旨在被聊天模型抓取并作为答案返回给用户。这种'AI 优化内容'策略揭示了数字营销的新战场：品牌正试图通过直接影响训练数据或检索上下文来塑造 AI 的回答。这对内容创作者和 SEO 策略提出了新的挑战，即如何防止内容被 манипулировано 用于特定商业目的。",
-    "tags": [
-      "News",
-      "Marketing",
-      "SEO"
-    ],
-    "link": "https://www.theregister.com/ai-and-ml/2026/08/05/time-magazine-has-a-separate-version-of-website-with-ads-only-ai-can-see/5283640",
-    "date": "2026-08-05",
-    "id": "17860127512064"
   }
 ]
