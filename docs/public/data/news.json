@@ -1,5 +1,70 @@
 [
   {
+    "title": "谷歌搜索广告模式遭质疑，LLM 蚕食传统搜索流量",
+    "summary": "前广告主揭露谷歌为维持营收增长，牺牲广告质量。",
+    "detail": "资深广告主 Max Anderson 指出，随着传统搜索被非货币化的 LLM 查询蚕食，谷歌搜索量正在下降。为维持营收增长，谷歌 silently 废弃了第二价格拍卖模式，转向更激进的收费策略，向广告主收取更高费用。这标志着 AI 正在根本性改变搜索广告的经济模型，长期可能损害谷歌核心业务健康度，引发行业对广告生态可持续性的担忧。投资者需关注谷歌如何在 AI 转型中平衡营收与用户体验，避免杀鸡取卵。",
+    "tags": [
+      "News",
+      "Google",
+      "Search"
+    ],
+    "link": "https://twitter.com/MaxAnderson/status/2080229375773941871",
+    "date": "2026-08-08",
+    "id": "17862069128370"
+  },
+  {
+    "title": "n8n 披露 Metabase 第三方安全事件，部分数据受影响",
+    "summary": "自动化平台 n8n 确认因 Metabase 漏洞导致未授权访问。",
+    "detail": "n8n 团队公告称，其使用的第三方分析工具 Metabase 于 8 月 3 日发生安全漏洞，导致未授权方访问了部分数据。目前漏洞已修复。此事件提醒 AI 开发团队需严格审查第三方依赖组件的安全性，尤其是涉及数据隐私的分析工具。供应链安全是 AI 工程化落地的关键风险点，企业应建立更严格的第三方审计机制，防止类似数据泄露事件影响用户信任。建议开发者及时更新相关依赖包并监控异常访问。",
+    "tags": [
+      "News",
+      "Security",
+      "n8n"
+    ],
+    "link": "https://blog.n8n.io/metabase-security-incident-update/",
+    "date": "2026-08-08",
+    "id": "17862069128371"
+  },
+  {
+    "title": "源码级深度评测：Sakana AI 连续思维机器优化方向",
+    "summary": "开发者提出 CTM 架构的四大优化方向与兼容性审计。",
+    "detail": "文章对 Sakana AI 的 Continuous Thought Machine (CTM) 进行了源码级 review。基于预测编码理论，提出了预测误差驱动内环、腹背侧双通路等四个优化方向，并审计了代码实现。为研究人员提供了具体的模型改进路线图和工程化建议。该技术试图模拟人类连续思维过程，若优化成功，可能显著提升模型推理效率与准确性，是 AGI 探索的重要一步。开发者可参考其代码结构进行本地实验。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Research"
+    ],
+    "link": "https://fengrru.me/blog/ctm-theory-review.md",
+    "date": "2026-08-08",
+    "id": "17862069128372"
+  },
+  {
+    "title": "卫报研究：AI 生成故事质量评分优于人类作品",
+    "summary": "最新研究发现，受众对 AI 生成故事的评分高于人类。",
+    "detail": "卫报报道的一项研究显示，在某些评估维度下，AI 生成的故事质量评分超过了人类撰写的作品。这一发现挑战了关于 AI 创造力的传统认知，可能引发内容创作行业的新一轮震荡，同时也引发了关于艺术价值与算法效率的伦理讨论。随着生成模型能力逼近人类水平，版权与原创性定义将面临重构，内容平台需调整审核与激励机制。人类创作者需寻找 AI 无法替代的情感深度。",
+    "tags": [
+      "News",
+      "Generative AI",
+      "Study"
+    ],
+    "link": "https://www.theguardian.com/technology/2026/aug/05/ai-generated-stories-rated-better-quality-than-human-written-ones-study-finds",
+    "date": "2026-08-08",
+    "id": "17862069128373"
+  },
+  {
+    "title": "28 年老牌数据公司 DDN 成 AI 基础设施新宠",
+    "summary": "数据存储公司 DDN 因 AI 算力需求激增而价值重估。",
+    "detail": "Forbes 报道，成立于 1998 年的数据存储公司 DDN 因 AI 超级计算需求而迎来爆发。CEO Alex Bouzari 表示，AI 训练需要极高的数据吞吐速度。这表明 AI 热潮不仅利好芯片厂商，老牌数据存储基础设施供应商也正成为资本关注的新焦点。基础设施层仍是 AI 产业链中最确定的投资机会，数据读写速度将成为新的性能瓶颈。传统技术公司在 AI 时代仍具巨大价值。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Investment"
+    ],
+    "link": "https://www.forbes.com/sites/iainmartin/2026/08/06/ais-latest-rocket-ship-is-an-old-school-28-year-old-data-company/",
+    "date": "2026-08-08",
+    "id": "17862069128374"
+  },
+  {
     "title": "观点：用 AI 写作是愚蠢的",
     "summary": "文章 argues writing is thinking, AI 代写削弱思考能力。",
     "detail": "文章指出写作即思考的过程，使用 AI 代写会削弱人类理清思路的能力。即使假设 AI 无伦理问题且完全对齐，代写仍不可取。引用 Atlantic 及 Cal Newport 观点，强调写作能暴露逻辑漏洞并促进新洞察。行业需反思 AI 工具定位，避免过度依赖导致思维能力退化。写作困难正是其价值所在，AI 应作为辅助而非替代，否则将丧失深度思考与连接新见解的机会。行业应倡导 AI 作为思维伙伴而非代笔者，鼓励用户在关键思考环节亲自动笔，确保逻辑严密性与创新性的来源不被外包，从而在 AI 时代保持人类独特的认知优势与创造力价值。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.transformernews.ai/p/the-ai-slowdown-is-coming",
     "date": "2026-08-07",
     "id": "17860932033831"
-  },
-  {
-    "title": "AgisHub：基于 x402 协议的 AI 代理支付工具",
-    "summary": "支持 AI 代理通过 USDC 自动支付调用费用，集成 MCP 协议。",
-    "detail": "AgisHub 推出了基于 x402 协议的按次付费工具，允许 AI 代理使用 Base 链上的 USDC 自动支付调用费用。无需 API Key，支持 MCP 集成，提供 30 种实用工具。该方案解决了 AI 代理经济系统中的微支付难题，实现了代理间的自主价值交换。通过降低支付门槛，它为自主代理生态的大规模发展奠定了经济基础，使得 AI 代理能够独立获取数据与服务。这是 AI 经济闭环的重要一步，支持无账户即时调用。",
-    "tags": [
-      "New",
-      "Crypto",
-      "Agents"
-    ],
-    "link": "https://api.agishub.com/try",
-    "date": "2026-08-07",
-    "id": "17860932033832"
-  },
-  {
-    "title": "Llmem：无嵌入的本地 AI 持久记忆服务",
-    "summary": "基于 SQLite 和 BM25 算法，为 AI 编码代理提供本地记忆。",
-    "detail": "Llmem 是专为 Claude Code 和 Cursor 等本地代理设计的持久记忆服务。它无需向量数据库或外部 API，仅使用 SQLite 存储和 BM25 算法进行检索。支持 MCP 协议，零成本且隐私优先。该工具有效解决了 AI 编码会话间的上下文持久化问题，让代理能跨会话保留关键信息。对于注重数据隐私和本地部署的开发者而言，这是一个轻量级且高效的解决方案。它避免了嵌入成本，适合资源受限的本地开发环境。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Memory"
-    ],
-    "link": "https://github.com/netrixone/llmem",
-    "date": "2026-08-07",
-    "id": "17860932033833"
-  },
-  {
-    "title": "1Password 研究：AI 生成的漏洞补丁仍存在高风险",
-    "summary": "研究发现 LLM 生成的补丁近半存在缺陷，需人工审查。",
-    "detail": "1Password 新成立的安全研究团队 Off-by-1 Labs 发布了首个研究项目结果。数据显示，当需要复杂补丁时，大型语言模型 (LLM) 生成的修复方案中有 53.9% 包含嵌入缺陷 (FLAWED)。尽管业界如 Anthropic 的 Project Glasswing 及 OpenAI 的 Project Daybreak 倡导利用 AI 代理大规模修复漏洞，甚至提出“修补地球”计划，但该研究指出，目前 AI 生成的补丁在改变应用行为或引入新漏洞方面风险较高。因此，防御者在使用 AI 工具进行漏洞修复时，仍需依赖专家进行人工审查，以确保补丁的有效性与安全性，不能盲目自动化。团队同时开源了相关工具与数据集以供社区改进。",
-    "tags": [
-      "Dev",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://1password.com/blog/why-ai-generated-patches-still-require-human-review",
-    "date": "2026-08-07",
-    "id": "17860870539000"
-  },
-  {
-    "title": "回顾过去三十年：AI 奇点预测的历史演变",
-    "summary": "梳理自 90 年代以来 AI 奇点时间表的预测变化与失败。",
-    "detail": "该文章详细回顾了过去三十年间 AI 预测的时间线演变，特别是围绕“奇点”概念的讨论。内容从 90 年代中期的 Extropians 邮件列表开始，讲述了 Eliezer Yudkowsky 如何从该社区分裂出 SL4 论坛，旨在加速超级智能的到来。文中列举了多个被事件证伪的预测，如 1996 年预测 2025 年出现奇点，1999 年计划 2010 年开发 Seed AI 以超越纳米技术。这些历史资料展示了早期超人类主义者对技术加速主义的狂热与后续反思，为理解当前 AI 发展节奏与预测偏差提供了宝贵的历史视角，揭示了 AI 期望管理的重要性。",
-    "tags": [
-      "News",
-      "History",
-      "AGI"
-    ],
-    "link": "https://foom.hyperplex.org/",
-    "date": "2026-08-07",
-    "id": "17860870539001"
-  },
-  {
-    "title": "新型验证机制：如何证明用户是 AI Agent 而非人类",
-    "summary": "通过阅读报告并快速回答问题，筛选纯 Agent 交互。",
-    "detail": "Blix Town 推出了一种名为\"Proof of Agent\"的创新验证机制，其设计理念与传统 Captcha 相反：旨在将人类挡在门外，只允许 AI 代理进入。用户若要发布内容，必须在 30 秒内阅读一份几秒钟前生成的报告并回答三个相关问题。这对人类来说打字速度不够，但语言模型可轻松完成。该部署完全通过 API 进行，浏览器无法直接发布。此技术尝试解决了区分人类与自动化程序的传统难题，转而筛选纯 AI 代理，为未来 Agent 经济下的内容生产与验证提供了新颖的技术思路与实验案例，展示了 Agent 间高效交互的可能性。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Security"
-    ],
-    "link": "https://blix.town/proof-of-agent",
-    "date": "2026-08-07",
-    "id": "17860870539002"
   }
 ]
