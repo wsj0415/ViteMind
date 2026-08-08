@@ -1,5 +1,31 @@
 [
   {
+    "title": "Show HN: 全球市场 AI 教练模拟交易平台上线",
+    "summary": "免费模拟交易工具，支持加密货币及股票，内置 AI 教练指导策略。",
+    "detail": "**Paper-Trader** 是一款面向严肃交易者的在线模拟器，旨在消除练习中的后见之偏。该平台支持加密货币、股票、外汇、指数及大宗商品等多种全球市场，提供免费的模拟交易环境。其核心特色在于内置的 **AI 教练** 功能，可帮助用户逐条验证交易策略。无需注册即可使用随机历史引擎进行风险-free 练习，确保用户无法提前知晓市场周期。涵盖 BTC/USD, EUR/USD, US 500, Gold 等具体交易对，支持 Bar-by-Bar 练习模式。已在 Product Hunt 上获得关注，为交易者提供了低成本的策略验证工具，适合希望消除 hindsight bias 的专业人士。",
+    "tags": [
+      "New",
+      "Product Hunt",
+      "Trading"
+    ],
+    "link": "https://paper-trader.org",
+    "date": "2026-08-08",
+    "id": "17861934334960"
+  },
+  {
+    "title": "作家警告 AI 正损害青年心智与幸福感",
+    "summary": "卫报刊文称 AI 可能成为专制工具，破坏教育及共享现实。",
+    "detail": "**The Guardian** 刊发文章指出，AI 若为专制统治设计，其功能将与此无异。文章警告 AI 可能破坏共享现实，大规模制造虚假信息，并启用监控及自主武器系统。作者认为 AI 虽能革命化医疗，但若落入恶人之手将无关紧要。特别提到 LLM 如 ChatGPT 对教学学习的冲击，威胁到紧急正义时刻所需的清晰思维能力，表达了对青年心智与幸福的担忧。作者 Katherine Rundell 来自牛津大学，强调技术权力正向少数人集中，加剧不平等。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Education"
+    ],
+    "link": "https://www.theguardian.com/books/ng-interactive/2026/aug/08/i-hate-what-ai-is-doing-to-the-minds-and-happiness-of-the-young-katherine-rundell-on-the-view-from-the-classroom",
+    "date": "2026-08-08",
+    "id": "17861934334962"
+  },
+  {
     "title": "AI 投标写作助手拒绝幻觉的技术实践",
     "summary": "Lucius 分享如何让 AI 在投标书中拒绝虚构信息，解决 LLM 幻觉痛点。",
     "detail": "介绍 AI 投标工具 Lucius 如何解决大模型幻觉问题。在高利害的投标场景中，AI 默认倾向于生成看似合理但不真实的内容，可能导致 bid 被拒甚至法律风险。团队耗时一年研发，通过让模型理解需求并与实际证据比对，实现了“拒绝虚构”的功能。系统会在草稿中标记未满足的合规要求，而非编造数据。曾在 95 万英镑项目中 5 分钟生成草稿并准确识别 11 项缺失证据。这对企业级 AI 应用的可信度具有重要参考价值，展示了垂直场景下对齐技术的落地实践。此外，文章详细记录了失败案例和修复过程，为开发者提供了宝贵的避坑指南，强调了在关键业务中 truthfulness 优于 plausibility 的原则。这种“拒绝回答”的机制比强行生成更有价值，为垂直领域 AI 应用树立了新的可靠性标准，值得企业级开发团队借鉴。",
@@ -1272,31 +1298,5 @@
     "link": "https://thenextweb.com/news/openai-agent-plugins-open-standard-skills-mcp",
     "date": "2026-08-06",
     "id": "17860608503791"
-  },
-  {
-    "title": "AWS 开源 Dogwood 代理验证工具",
-    "summary": "AWS 发布 Dogwood，用于 AI 代理的工具调用运行时验证。",
-    "detail": "针对 AI 代理调用外部工具的安全风险，AWS 推出开源治理语言 Dogwood。基于 Cedar 策略语言，它能在运行时精确控制代理行为，提供可验证的安全保证。这对于企业级 Agent 部署至关重要，解决了自动化操作中权限管控与合规性的核心痛点，提升系统可靠性，保障工具调用安全，防止未授权操作发生。通过自动化推理，确保相同请求产生相同决策，增强审计能力。安全是 Agent 大规模应用的前提，此工具填补了关键空白。",
-    "tags": [
-      "Dev",
-      "AWS",
-      "Security"
-    ],
-    "link": "https://aws.amazon.com/blogs/opensource/introducing-dogwood-runtime-verification-for-ai-agents/",
-    "date": "2026-08-06",
-    "id": "17860608503792"
-  },
-  {
-    "title": "代理式 AI 的真实能耗分析",
-    "summary": "文章揭示 AI 代理实际能耗远超单次对话提示的估算。",
-    "detail": "The Climate Brink 分析指出，当前关于 AI 能耗的乐观估算基于单次提示，忽略了 Agent 自主运行时的多次模型调用。随着 Claude Code 等工具普及，实际能耗将显著增加。这对数据中心电力规划及环保承诺提出挑战，行业需重新评估 AI 规模化后的能源基础设施需求，关注绿色计算，平衡性能与可持续发展目标。单次提示仅 0.24Wh，但 Agent 循环可能消耗数十倍能源。公众认知需更新，以应对未来的能源压力。",
-    "tags": [
-      "News",
-      "Energy",
-      "Agents"
-    ],
-    "link": "https://www.theclimatebrink.com/p/the-real-energy-use-of-agentic-ai",
-    "date": "2026-08-06",
-    "id": "17860608503793"
   }
 ]
