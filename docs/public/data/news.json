@@ -1,5 +1,70 @@
 [
   {
+    "title": "Google DeepMind 迎来新时代，创始人 Hassabis 转任首席科学家",
+    "summary": "Demis Hassabis 卸任 CEO 转任主席，DeepMind 管理层重大调整。",
+    "detail": "Google DeepMind 联合创始人 Demis Hassabis 宣布卸任 CEO，转任母公司 Alphabet 首席科学家及 DeepMind 主席。日常管理将由长期同事 Koray Kavukcuoglu 接管。此举标志着 DeepMind 进一步融入 Alphabet 体系，Hassabis 将更专注于科研突破而非行政事务。作为诺贝尔奖得主，他的角色转变可能影响未来 AI 科研方向与战略重心。前高管表示这将使伦敦团队更紧密围绕加州母公司，显示 Google 对 AI 部门架构的重大重组，旨在平衡科研创新与商业落地，进入新时代。",
+    "tags": [
+      "News",
+      "Google",
+      "Management"
+    ],
+    "link": "https://www.theguardian.com/technology/2026/aug/08/google-demis-hassabis-deepmind-shifts-role",
+    "date": "2026-08-08",
+    "id": "17862318073030"
+  },
+  {
+    "title": "Faaah：利用文件系统复用 AI Agent 订阅的本地代理工具",
+    "summary": "通过文本文件协议复用 AI 订阅，无需额外 API 密钥的开源方案。",
+    "detail": "Faaah 是一个无依赖的 OpenAI 兼容本地代理，旨在让开发者复用已有的 AI Agent 订阅（如 Claude Code）用于侧边项目。它通过文本文件协议工作：将请求 dump 为.txt 文件，由现有 Agent 读取并回复，再封装为 JSON 返回。符合 UNIX 哲学，适合希望节省 API 成本的开发者。该工具无需额外 API 密钥，通过文件系统交互实现本地服务器功能，极大降低了周末侧边项目的运行成本。作为 GitHub 上的 Show HN 项目，它为开发者提供了复用订阅资源的创新方案，避免了为小项目单独付费。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "LLM"
+    ],
+    "link": "https://github.com/sebastiancarlos/faaah",
+    "date": "2026-08-08",
+    "id": "17862318073031"
+  },
+  {
+    "title": "仅用 Go 标准库构建 AI Agent 记忆层引擎",
+    "summary": "无需外部依赖，使用 Go 标准库实现高效的 AI 上下文记忆管理。",
+    "detail": "文章详解如何使用 Go 语言标准库（container/heap, list 等）构建零依赖的 AI Agent 记忆引擎。涵盖了优先级队列、滑动窗口及二进制序列化等核心技术。该方案解决了 LLM 无状态导致的幻觉问题，为开发者提供了高性能的本地上下文 orchestration 层实现参考。无需外部依赖安装，仅用六个标准包即可覆盖全生命周期，适合追求极致性能与控制权的 Go 开发者。展示了 AI 原生记忆管理的高效构建路径，帮助 Agent 决定保留或遗忘哪些上下文信息。",
+    "tags": [
+      "Dev",
+      "Go",
+      "AI Agent"
+    ],
+    "link": "https://towardsdev.com/the-memory-efficient-ai-agent-building-a-context-engine-in-go-d4b7557c44d8?sk=22b2ffc30beac55a6f47841eb4df980b",
+    "date": "2026-08-08",
+    "id": "17862318073032"
+  },
+  {
+    "title": "企业警示：未经监管的 Shadow AI 带来 hidden 风险",
+    "summary": "Proton 发布指南，解析 Shadow AI 定义、隐私风险及检测防护措施。",
+    "detail": "随着 AI 工具普及，员工未经批准使用 AI 处理公司数据（Shadow AI）成为安全隐患。Proton 指南指出这可能导致敏感信息泄露及合规风险。文章提供了检测未授权工具及实施 safeguards 的实用建议，强调企业在拥抱 AI 效率的同时需建立隐私保护策略，防止数据流向不可控的第三方模型。IT 团队需可见数据流向，避免业务信息暴露，平衡工作效率与数据安全。这是企业管理者必须关注的 hidden 风险，需制定明确政策以防敏感数据通过个人账号泄露。",
+    "tags": [
+      "News",
+      "Security",
+      "Enterprise"
+    ],
+    "link": "https://proton.me/business/blog/shadow-ai",
+    "date": "2026-08-08",
+    "id": "17862318073033"
+  },
+  {
+    "title": "AI 音乐版权争议：输入许可模式可能垄断未来",
+    "summary": "分析 AI 音乐补偿模型，指出仅关注输入端许可可能强化唱片公司垄断。",
+    "detail": "针对 AI 音乐版权争议，文章分析了“输入许可”与“输出补偿”两种模型。作者警告若仅强制训练数据许可，权利持有者（唱片公司）将成为新 gatekeepers，垄断模型构建权。建议关注输出端补偿机制，以避免在创造 abundance 之前先 monetize 稀缺性，保障艺术家利益与市场平衡。这种输入模型可能 quietly 将未来交给现有机构，而输出端补偿更能反映生成内容的价值。这是行业 debate 中 missing 的关键经济视角，防止少数机构 benefit from  resulting models。",
+    "tags": [
+      "News",
+      "Copyright",
+      "Music"
+    ],
+    "link": "https://justwordz.medium.com/the-ai-music-debate-is-missing-half-the-money-ffb714924aaa",
+    "date": "2026-08-08",
+    "id": "17862318073034"
+  },
+  {
     "title": "AI 模型解决 25 年无线通信难题",
     "summary": "GPT-5.6 与 Claude 证明多项式时间算法可行性，突破理论瓶颈。",
     "detail": "**背景**：无线通信中 MIMO 检测问题困扰学界 25 年，已知信息理论可行但缺乏多项式时间解法，传统方法仅为指数搜索算法，计算成本极高，限制了实际应用。\n**进展**：GPT-5.6 与 Claude Fable 协助证明简单多项式算法可在信噪比 2 log N 阈值下成功，解决了该 NP-hard 难题，实现了理论突破。\n**影响**：标志着 AI 在基础科学理论突破上的巨大潜力，为无线通信效率提升开辟新路径，证明 AI 不仅能应用也能推动核心理论发展，具有里程碑意义，可能改写通信算法标准。此突破展示了 LLM 在科研领域的辅助能力，未来或加速更多理论难题解决。",
@@ -1233,70 +1298,5 @@
     "link": "https://write.as/ih3l0kd78lpb1",
     "date": "2026-08-07",
     "id": "17861292334753"
-  },
-  {
-    "title": "资深工程师分享：如何手写代码并结合 AI 辅助",
-    "summary": "提出\"guideme\"技能模式，引导 AI 辅助架构理解而非直接生成代码。",
-    "detail": "一位资深工程师分享了在 AI 时代坚持手写代码的工作流。他设计了名为\"guideme\"的 Skill，类似 Claude 的学习模式，但专注于指导资深工程师而非教学。该模式避免 AI 倾向于添加新代码而非重构的“最短路径偏差”，提供架构概述和修改指南。这种方法强调了人类工程师在架构对齐上的重要性，防止 AI 导致代码库混乱，为高级开发者提供了高效的 AI 协作范式，确保代码质量不因 AI 介入而下降。",
-    "tags": [
-      "Dev",
-      "Workflow",
-      "Best Practices"
-    ],
-    "link": "https://semyonsinchenko.github.io/ssinchenko/post/writing_code_with_ai/",
-    "date": "2026-08-07",
-    "id": "17861292334755"
-  },
-  {
-    "title": "Oracle 禁止 OpenJDK 使用 AI 生成代码",
-    "summary": "Oracle 宣布禁止在 OpenJDK 项目中提交 AI 生成的代码，尽管此前有争议。",
-    "detail": "Oracle 正式禁止开发者向 OpenJDK 贡献 AI 生成的代码，尽管此前 CEO Ellison 声称公司并未自行编写代码。这一政策标志着大型科技公司在开源项目完整性与 AI 辅助开发之间划定了明确界限。此举可能引发其他开源基金会效仿，重新审视贡献者协议。行业影响深远，不仅关乎代码版权归属，还可能迫使开发者调整工作流，减少了对 AI 编程助手的依赖，强调了人工审查在核心基础设施中的必要性。对于依赖 AI 编程的企业，这将增加合规成本，但也提升了核心代码库的可信度，为开源治理树立了新标杆，预示着 AI 生成内容在关键基础设施中的接受度将面临更严格审查，开发者需平衡效率与合规风险。",
-    "tags": [
-      "News",
-      "Oracle",
-      "OpenSource"
-    ],
-    "link": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
-    "date": "2026-08-07",
-    "id": "17861250806810"
-  },
-  {
-    "title": "MIT 评论：AI 首次设计出全新病毒",
-    "summary": "麻省理工科技评论指出 AI 已能从零设计新病毒，生物安全风险升级。",
-    "detail": "MIT Technology Review 报道，AI 技术已突破生物安全防线，首次从头设计出全新病毒。这一进展引发了全球对 AI 生物安全风险的严重担忧，表明 AI 模型可能已被滥用或存在安全漏洞。与此同时，报道还分析了“审查工业综合体”阴谋论如何影响政策。AI 在生物领域的双刃剑效应凸显，急需建立更严格的 AI 生物安全监管框架，防止技术滥用导致公共卫生危机。科学家警告，随着模型能力增强，防御机制必须同步升级，否则可能面临不可控的生物威胁，这需要全球合作制定新的生物 AI 安全标准，以防技术落入恶意行为者手中。",
-    "tags": [
-      "News",
-      "BioSecurity",
-      "Safety"
-    ],
-    "link": "https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/",
-    "date": "2026-08-07",
-    "id": "17861250806811"
-  },
-  {
-    "title": "DuckDuckGo 推出“反监控”墨镜讽刺 AI 眼镜",
-    "summary": "DuckDuckGo 发布无摄像头墨镜，讽刺科技巨头 AI 眼镜侵犯隐私。",
-    "detail": "DuckDuckGo 发起营销活动，推出售价 35 美元的“普通墨镜”，强调无摄像头、无通知、离线模式，以此讽刺 Meta 等大科技公司的 AI 智能眼镜。该产品一周内售罄，反映了公众对 AI 硬件侵犯隐私的强烈担忧。隐私保护已成为对抗 AI 过度渗透的重要卖点，可能促使更多公司关注隐私优先的硬件设计。此举不仅是一次成功的营销，更是对科技巨头数据收集行为的公开抗议，暗示消费者对“始终在线”设备的疲劳，未来硬件市场可能出现更多反 AI 监控的细分产品，隐私将成为硬件竞争的新维度。",
-    "tags": [
-      "News",
-      "Privacy",
-      "Hardware"
-    ],
-    "link": "https://www.sfgate.com/tech/article/duckduckgo-sunglasses-22377693.php",
-    "date": "2026-08-07",
-    "id": "17861250806812"
-  },
-  {
-    "title": "Merge: AI 原生代码审查招聘评估工具",
-    "summary": "新工具 Merge 通过 AI 代理模拟真实工程师进行代码审查招聘评估。",
-    "detail": "Merge 在 Product Hunt 上线，提供 AI 原生的代码审查评估服务。候选人审查真实 PR，AI 代理实时模拟工程师回应评论。工具涵盖从邀请到 hiring 决策的完整信号，包括 token 使用效率分析。这代表了招聘技术的革新，将 AI 融入工作流评估，能更准确衡量候选人实际工程能力，而非单纯做题，为技术招聘提供新范式。企业可通过此工具降低招聘误判率，同时观察候选人与 AI 协作的能力，这在 AI 辅助编程普及的当下尤为重要，重新定义了工程师的核心竞争力评估标准，帮助团队找到真正懂 AI 协作的人才。",
-    "tags": [
-      "New",
-      "Recruitment",
-      "DevTool"
-    ],
-    "link": "https://mergeoa.com",
-    "date": "2026-08-07",
-    "id": "17861250806813"
   }
 ]
