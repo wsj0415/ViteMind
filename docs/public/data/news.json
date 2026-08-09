@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 数据中心加剧能源与水危机",
+    "summary": "英国 Slough 地区数据中心扩张引发当地居民对水资源和能源消耗的担忧。",
+    "detail": "随着 AI 对算力需求激增，数据中心成为能耗与水耗大户。卫报报道指出，英国 Slough 地区数据中心林立，加剧了当地干旱与高温问题。服务器冷却需大量水资源，电力多来自化石燃料，直接连接了气候紧急状况。在 28 摄氏度高温下，社区面临艰难选择：是支持科技巨头数据中心扩张，还是保障居民生活资源与住房？这种冲突在欧洲 wildfires 和全球气温升高背景下尤为尖锐，迫使政策制定者权衡科技发展与民生保障，行业需正视生态代价。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Environment"
+    ],
+    "link": "https://www.theguardian.com/commentisfree/2026/aug/09/slough-famous-the-office-datacentres-locals-hub-europe",
+    "date": "2026-08-09",
+    "id": "17863009090240"
+  },
+  {
+    "title": "Claude Opus 5 助力大规模代码重构",
+    "summary": "开发者使用 Claude Opus 5 在 20 分钟内完成 5700 行代码重构，成本仅 25 美元。",
+    "detail": "SwiftAce 分享了利用 AI 进行大规模代码重构的真实案例。项目从 Next.js 11 前端加 Flask 后端迁移至全栈 TanStack Start 应用，代码库超 1.5 万行 TypeScript。传统重构需数天甚至一周，而 Claude Opus 5 仅用 20 分钟完成 5700 行代码移动及数百个导入更新，花费约 25 美元。展示了高级 LLM 在工程效率上的巨大潜力，标志着 AI 辅助编程进入深水区，大幅降低技术债维护成本，为遗留系统现代化提供新路径，让人类工程师专注于架构决策。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "LLM"
+    ],
+    "link": "https://swiftace.org/posts/large-scale-code-refactoring-with-ai",
+    "date": "2026-08-09",
+    "id": "17863009090241"
+  },
+  {
+    "title": "为 AI Agent 注入哲学与价值观",
+    "summary": "研究者尝试在 AGENTS.md 中写入哲学准则，引导 AI 代理的行为与判断。",
+    "detail": "文章探讨了 AI Agent 的“性格”与“技能”同等重要。作者在 AAT 代数架构理论项目中实验，将哲学准则写入 AGENTS.md 文件，要求 AI 工作可验证、成为值得继承的先例，并将机器廉价性转化为严谨性。这标志着 AI 开发从单纯追求性能转向关注代理的行为准则与价值观对齐，为复杂任务协作提供新思路，如同招聘员工般考量代理的品格，确保软件运行世界的言语可被问责，促进长期协作。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "Philosophy"
+    ],
+    "link": "https://ideal.iroha1203.dev/a-philosophy-for-ai-agents-1d743e970853",
+    "date": "2026-08-09",
+    "id": "17863009090243"
+  },
+  {
+    "title": "Musing：隐私优先的 AI 对话灵感插件",
+    "summary": "新标签页插件本地分析 AI 聊天记录，推送匹配的名言警句。",
+    "detail": "Musing 是一款 Chrome 扩展，将新标签页变为个性化灵感空间。它本地分析用户与 Claude、ChatGPT 等的对话主题，不上传数据至服务器，确保隐私。根据当前思考上下文推送相关名言，支持自带密钥获取个性化解读。产品主打本地优先、即时响应，适配系统深浅色模式，为 AI 用户提供隐私安全的灵感辅助工具，让智慧引导当下，无需等待加载，尊重用户数据主权，解决隐私泄露担忧。",
+    "tags": [
+      "New",
+      "Product",
+      "Privacy"
+    ],
+    "link": "https://musing.wiki/",
+    "date": "2026-08-09",
+    "id": "17863009090244"
+  },
+  {
+    "title": "Fabraix 推出 AI Agent 红队测试平台",
+    "summary": "开源游乐场允许开发者对 AI 代理进行提示注入与安全测试。",
+    "detail": "Fabraix 发布开源 playground，专为红队测试 AI 代理设计。首个挑战涉及诱导 BIOS 安全官 AI 违反策略调用受限协议。用户可通过提示注入或社会工程学尝试突破防御，系统自动评分。平台旨在通过众包方式发现 Agent 安全漏洞，提交成功可获得奖励并上榜。这为 AI 代理的安全性评估提供了标准化测试环境，帮助开发者在部署前识别风险，增强系统对抗恶意提示的鲁棒性，共同提升可靠性。",
+    "tags": [
+      "New",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://playground.fabraix.com/",
+    "date": "2026-08-09",
+    "id": "17863009090245"
+  },
+  {
     "title": "DeepMind 新 AI 模型提前一天预测致命气旋",
     "summary": "DeepMind 发布 WeatherNext，比现有方法提前一天预测气旋，挽救生命。",
     "detail": "DeepMind 推出了名为 WeatherNext 的 AI 气象模型，能在 1 分钟内生成 15 天预报，比传统物理模型快得多。该模型在 28 平方公里粒度上运行，训练数据包含 20TB 大气数据和 5000 次历史风暴。测试显示其比 GenCast 和 ECMWF 模型更准确，能为疏散决策提供额外一天的关键预警时间，标志着 AI 在气象灾害预警领域的重大突破，展示了 AI 处理复杂科学模拟的潜力。",
@@ -1233,70 +1298,5 @@
     "link": "https://paper-trader.org",
     "date": "2026-08-08",
     "id": "17861934334960"
-  },
-  {
-    "title": "作家警告 AI 正损害青年心智与幸福感",
-    "summary": "卫报刊文称 AI 可能成为专制工具，破坏教育及共享现实。",
-    "detail": "**The Guardian** 刊发文章指出，AI 若为专制统治设计，其功能将与此无异。文章警告 AI 可能破坏共享现实，大规模制造虚假信息，并启用监控及自主武器系统。作者认为 AI 虽能革命化医疗，但若落入恶人之手将无关紧要。特别提到 LLM 如 ChatGPT 对教学学习的冲击，威胁到紧急正义时刻所需的清晰思维能力，表达了对青年心智与幸福的担忧。作者 Katherine Rundell 来自牛津大学，强调技术权力正向少数人集中，加剧不平等。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Education"
-    ],
-    "link": "https://www.theguardian.com/books/ng-interactive/2026/aug/08/i-hate-what-ai-is-doing-to-the-minds-and-happiness-of-the-young-katherine-rundell-on-the-view-from-the-classroom",
-    "date": "2026-08-08",
-    "id": "17861934334962"
-  },
-  {
-    "title": "AI 投标写作助手拒绝幻觉的技术实践",
-    "summary": "Lucius 分享如何让 AI 在投标书中拒绝虚构信息，解决 LLM 幻觉痛点。",
-    "detail": "介绍 AI 投标工具 Lucius 如何解决大模型幻觉问题。在高利害的投标场景中，AI 默认倾向于生成看似合理但不真实的内容，可能导致 bid 被拒甚至法律风险。团队耗时一年研发，通过让模型理解需求并与实际证据比对，实现了“拒绝虚构”的功能。系统会在草稿中标记未满足的合规要求，而非编造数据。曾在 95 万英镑项目中 5 分钟生成草稿并准确识别 11 项缺失证据。这对企业级 AI 应用的可信度具有重要参考价值，展示了垂直场景下对齐技术的落地实践。此外，文章详细记录了失败案例和修复过程，为开发者提供了宝贵的避坑指南，强调了在关键业务中 truthfulness 优于 plausibility 的原则。这种“拒绝回答”的机制比强行生成更有价值，为垂直领域 AI 应用树立了新的可靠性标准，值得企业级开发团队借鉴。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Enterprise"
-    ],
-    "link": "https://ailucius.com/blog/making-an-ai-bid-writer-refuse-to-lie",
-    "date": "2026-08-08",
-    "id": "17861852757880"
-  },
-  {
-    "title": "观点：AI 并非最大安全威胁，补丁管理才是关键",
-    "summary": "安全专家撰文指出，基础补丁流程比 AI 威胁更致命，反对过度恐慌。",
-    "detail": "文章提出反直觉观点，认为业界对 AI 安全威胁过度恐慌，而忽视了基础的网络卫生。作者指出自动化被重命名为 AI 后引发恐慌，但真正的漏洞往往在于未更新的服务器和糟糕的补丁流程。这是一个关于 AI 时代网络安全优先级的理性思考，适合安全从业者参考。作者坦白使用 AI 辅助编辑，但强调核心观点基于个人经验。文章呼吁回归基本面，不要为了追逐 AI 热点而忽略 Windows 2008 服务器等实际隐患，为混乱的安全舆论提供了冷静视角。在 AI 重塑安全的背景下，重申了传统运维纪律的重要性，提醒企业不要购买多余仪表盘却忘记基础补丁，具有极强的现实警示意义。文章还探讨了 AI 辅助写作的透明度，作者公开声明使用 AI 编辑，但坚持观点原创，为 AI 生成内容的伦理讨论提供了良好范例，呼吁行业在拥抱工具的同时保持批判性思维。",
-    "tags": [
-      "News",
-      "Security",
-      "Opinion"
-    ],
-    "link": "https://0ut3r.space/2026/08/08/ai-is-not-your-biggest-cyber-threat/",
-    "date": "2026-08-08",
-    "id": "17861852757881"
-  },
-  {
-    "title": "AgentBlog：专为 AI 爬虫优化的开源 SEO 博客方案",
-    "summary": "Next.js 开源工具，一键部署针对 GPTBot 等 AI 爬虫优化的博客。",
-    "detail": "针对 AI 爬虫（如 GPTBot、ClaudeBot）不执行 JavaScript 的特性，推出开源博客方案 AgentBlog。支持 Next.js 16，一键安装生成静态 HTML 和结构化数据，确保内容被 AI 索引引用。包含 MDX 写作支持和 SEO 优化配置，是开发者构建 AI 友好型内容的实用工具。项目完全开源，无运行时依赖，安装后拥有全部 76 个文件源码。支持 Prerendering 和 JSON-LD 结构化数据，确保 AI 爬虫能一次性读取完整内容。此外，它还集成了 Sitemap 和 IndexNow 协议，自动推送更新，帮助开发者在 GEO（生成式引擎优化）时代抢占流量入口。随着 AI 搜索占比提升，传统 SEO 正在向 GEO 转型，该工具通过静态化确保内容不被 JS 渲染阻挡，是适应新一代搜索算法的前沿实践，适合全栈开发者快速集成到自己的 Next.js 项目中。",
-    "tags": [
-      "New",
-      "SEO",
-      "OpenSource"
-    ],
-    "link": "https://agentblog.dev",
-    "date": "2026-08-08",
-    "id": "17861852757882"
-  },
-  {
-    "title": "Countersign：跨钱包供应商的 AI 代理资金控制平面",
-    "summary": "提供统一策略和紧急冻结开关，管理 AI 代理 across 多个钱包后端。",
-    "detail": "针对 AI 代理自主消费的风险，推出跨供应商控制平面 Countersign。支持 Coinbase、Turnkey 等多个钱包后端，提供统一的支出策略和毫秒级紧急冻结开关。开源核心代码，包含审计日志，解决了单一钱包厂商无法跨平台管控的问题，是 AI Agent 金融安全的重要基础设施。测试网显示可在 432ms 内冻结四条 rails。通过 SDK 或 MCP 工具集成，开发者可设置支出上限和审批阈值。该工具填补了 AI 代理经济活动监管的空白，确保在 agent 失控时能迅速切断资金流，降低了 autonomous agent 大规模部署的金融风险。作为开源核心项目，它鼓励社区共同审计代码安全性，推动了 AI 金融基础设施的标准化。对于构建涉及真实资产交易的 AI 应用，这是不可或缺的安全层，标志着 AI Agent 从实验走向生产的关键一步。",
-    "tags": [
-      "New",
-      "Agent",
-      "Security"
-    ],
-    "link": "https://countersign.network",
-    "date": "2026-08-08",
-    "id": "17861852757883"
   }
 ]
