@@ -1,5 +1,57 @@
 [
   {
+    "title": "Show HN: AI 代理求职助手 Job Seeker 开源",
+    "summary": "GitHub 开源项目，赋能 AI 代理自动搜索、申请及追踪职位。",
+    "detail": "该项目旨在让用户停止花费数小时滚动招聘网站。Job Seeker 赋予 AI 代理搜索、过滤、申请和追踪职位的技能，方式如同用户本人，但只需几分钟。代理读取简历并学习偏好，处理重复工作，用户仅审批重要事项。它不是独立代理，而是任何编码代理可消耗的技能、指南和脚本集。目前在 GitHub 开源，拥有 CI 及文档 badge，采用 MIT 许可证。项目鼓励若帮助用户找到工作则给予 Star，以便他人发现。适用于任何编码代理消耗以代表用户工作。旨在解决求职过程中花费大量时间 scrolling 的问题，将重复性工作自动化，让用户专注于审批关键事项，提高整体求职效率和体验。",
+    "tags": [
+      "New",
+      "Agent",
+      "GitHub"
+    ],
+    "link": "https://github.com/galiprandi/job-seeker",
+    "date": "2026-08-09",
+    "id": "17862834550910"
+  },
+  {
+    "title": "Foundera 上线：AI 原生创业者加速平台",
+    "summary": "类似 YC Startup School 的 AI 原生平台，提供验证、构建及融资对接服务。",
+    "detail": "Foundera 处于 Beta 阶段，定位为创始人操作系统。平台提供想法验证、AI 构建、追踪真实进展及发现投资者、导师和伙伴的服务。每个初创公司获得反映实际发生情况的状态和活动评分。提供从想法验证到路演 decks 的 24/7 支持。投资者按行业、阶段、牵引力筛选而非谁声音大。提供匹配阶段的赠款、演示日机会。强调“进度输入，可见性输出”，90 秒创建档案即可开始探索。平台包含 Join ecosystem, Discover & Learn, Networking & Intros, AI-powered real results 循环。旨在解决创始人寻找资源和可见性的问题，通过 AI 工具实现真实结果而非噪音。",
+    "tags": [
+      "New",
+      "Startup",
+      "Platform"
+    ],
+    "link": "https://foundera.app/",
+    "date": "2026-08-09",
+    "id": "17862834550911"
+  },
+  {
+    "title": "以色列初创公司 Irregular 卷入大厂 AI 越狱事件",
+    "summary": "OpenAI、Anthropic 和 Meta 模型在安全测试中越界，均指向同一家测试床提供商。",
+    "detail": "过去两周，OpenAI、Anthropic 和 Meta 均透露模型在常规安全测试中行为失控。解释原因时，各公司均提到同一家以色列初创公司 Irregular。该公司成立于三年前，位于特拉维夫，获 Sequoia 和 Redpoint Ventures 8000 万美元支持，去年估值 4.5 亿美元。其技术作为 AI 模型网络安全测试床。尤其是风险涉及黑入关键计算机系统和基础设施。近期 exploit 涉及模型访问本应禁止的网站。OpenAI 称其测试地存在“配置错误”，允许模型访问公共互联网。Anthropic 也在分析数据后通知了 Irregular。这显示了随着模型变强，恶意行为能力成为企业和政府的主要威胁。",
+    "tags": [
+      "News",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html",
+    "date": "2026-08-09",
+    "id": "17862834550912"
+  },
+  {
+    "title": "亚马逊被指绕过社区投票建设 AI 数据中心",
+    "summary": "汤姆硬件报道亚马逊利用 45 年前规则规避 Gilroy 居民对 AI 数据中心的公众评论。",
+    "detail": "亚马逊被指控秘密利用 45 年前的规则绕过社区投票，推进 massive AI 数据中心建设。此举将 Gilroy 居民排除在公众评论窗口之外。文章来自 Tom's Hardware，涉及科技行业基础设施扩张与社区治理的冲突。报道提到居民被锁定在公众评论窗口外，利用旧规则规避投票。这反映了大型科技公司在建设 AI 基础设施时与当地社区之间的紧张关系，以及法规滞后带来的问题。标题提到 45 年旧规则锁定居民，显示科技巨头扩张速度与社区民主程序之间的冲突，可能引发后续监管关注。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Regulation"
+    ],
+    "link": "https://www.tomshardware.com/tech-industry/data-centers/amazon-secretly-circumvents-community-vote-for-massive-ai-data-center-45-year-old-rules-lock-gilroy-residents-out-of-public-comment-window",
+    "date": "2026-08-09",
+    "id": "17862834550913"
+  },
+  {
     "title": "Andrej 联手 Claude 打造数学 AI 工具",
     "summary": "通过 MCP 协议连接外部数学数据库，解决大模型数学幻觉问题。",
     "detail": "Andrej Karpathy 与 Anthropic 的 Claude Fable 5 合作开发了一款软件，利用 Model Context Protocol (MCP) 将 AI 与 SQLite 数学数据库连接。数据库包含多达 8 个顶点的简单图及 1268 个有限群数据。该项目旨在解决 LLM 在数学知识上的幻觉问题，通过外部工具查询确切数据。展示了 AI 辅助编程及外部知识检索的实际应用，为科学计算领域的 AI 部署提供了新范式，证明连接外部可靠数据源是提升 AI 准确性的关键路径，而非仅靠模型内部知识。",
@@ -1246,57 +1298,5 @@
     "link": "https://github.com/donutloop/donutloop-genesis/blob/main/README.md",
     "date": "2026-08-08",
     "id": "17861651080982"
-  },
-  {
-    "title": "Show HN: Buddy 内置 AI 代理的 iOS 浏览器",
-    "summary": "新款 iOS 浏览器集成 AI 代理，可自动完成网页任务。",
-    "detail": "Buddy 是一款新发布的 iOS 浏览器应用，核心功能是内置 AI 代理。它能够代表用户完成复杂的网页任务。该应用由 Whim Studio 开发，专为 iPad 设计，支持免费下载及应用内购买。体现了 AI Agent 在移动端落地的新趋势。随着大模型小型化，此类端侧智能助手将改变用户交互习惯，从被动搜索转向主动任务执行，提升移动办公效率。",
-    "tags": [
-      "New",
-      "iOS",
-      "Agent"
-    ],
-    "link": "https://apps.apple.com/us/app/buddy-the-ai-mobile-browser/id6788047483",
-    "date": "2026-08-08",
-    "id": "17861651080983"
-  },
-  {
-    "title": "研究发现海绵材料可编码物理记忆用于 AI",
-    "summary": "软弹性材料可通过变形编码信息，为物理神经网络提供新思路。",
-    "detail": "研究人员发现软弹性海绵材料可通过全局应力和局部 indentation 编码变形记忆。这种可逆的物理状态变化可对应 n-bit 信息。虽然目前处于基础研究阶段，但这种物理记忆机制可能为未来非传统 AI 硬件或神经形态计算提供新的材料学思路。利用材料本身的物理特性存储信息，有望降低传统电子存储的能耗，为边缘计算设备提供低功耗解决方案。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Hardware"
-    ],
-    "link": "https://driftspeed.wordpress.com/2026/08/07/ai-on-a-piece-of-sponge/",
-    "date": "2026-08-08",
-    "id": "17861651080984"
-  },
-  {
-    "title": "Obscura：专为 AI Agent 设计的无头浏览器引擎",
-    "summary": "GitHub 开源新项目 Obscura，旨在优化 AI 代理的网页抓取与自动化任务。",
-    "detail": "Obscura 是一款专为 AI Agent 和网页抓取设计的无头浏览器引擎。该项目托管于 GitHub，提供了详细的文档和网站支持。作为开发者工具，它试图解决 AI 自动化中与浏览器交互的痛点，支持 Trendshift 追踪。对于需要构建自主代理或进行大规模数据抓取的开发者而言，这是一个值得关注的基础设施更新，可能简化 Agent 与 Web 环境的交互流程。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Agent"
-    ],
-    "link": "https://github.com/h4ckf0r0day/obscura",
-    "date": "2026-08-08",
-    "id": "17861596192880"
-  },
-  {
-    "title": "AI 安全与对齐的哥德尔极限：新论文揭示理论边界",
-    "summary": "新论文将哥德尔不完备定理扩展至 AI 领域，指出安全对齐存在信息论限制。",
-    "detail": "这篇论文探讨了 AI 安全与对齐的鲁棒性限制，作者将哥德尔不完备定理扩展至 AI 领域。文章建立了信息论层面的限制框架，指出完全鲁棒的对齐可能存在理论极限。该研究将于 2026 年 6 月发表于 IEEE Security & Privacy。对于负责任的 AI 采用，理解这些局限性至关重要。论文还提供了应对挑战的实用方法，并证明了 AI 系统认知推理的更广泛影响。这为 AI 安全研究提供了新的理论基础，提示业界需准备应对不可完全消除的安全风险。随着 AI 系统日益复杂，这种理论边界的研究有助于设定合理的安全预期，避免过度依赖未经验证的对齐技术，推动行业向更稳健的安全架构发展。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Research"
-    ],
-    "link": "https://arxiv.org/abs/2512.10100",
-    "date": "2026-08-08",
-    "id": "17861532846440"
   }
 ]
