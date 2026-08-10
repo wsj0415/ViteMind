@@ -14,3 +14,8 @@
 **Vulnerability:** The "Submit Tool" modal allowed any string in the "Link" field, enabling XSS via `javascript:` URIs if approved or stored in local storage.
 **Learning:** Frontend forms feeding into a database/storage must validate data type and format (Protocol Whitelisting) before persistence, even if there is a manual approval process.
 **Prevention:** Enforce strict URL protocol validation (`http:`, `https:`) at the input stage.
+
+## 2025-01-14 - Fragmented Validation Logic
+**Vulnerability:** While `SubmitToolModal` was secured, `SubmitResourceModal` lacked protocol validation, allowing `javascript:` vectors.
+**Learning:** Security fixes applied to one component (e.g., Tool Modal) are often missed in similar components (e.g., Resource Modal) if logic is duplicated.
+**Prevention:** Centralize security predicates (like `isValidUrl`) in a shared utility (`validation.js`) and audit all consumers when fixing a vulnerability.
