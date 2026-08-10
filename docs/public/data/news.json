@@ -1,5 +1,83 @@
 [
   {
+    "title": "n8n 实现一键连接近 70 个 MCP 服务器",
+    "summary": "n8n 更新节点面板，支持通过 OAuth 流一键连接近 70 个 MCP 服务器，简化 Agent 构建流程。",
+    "detail": "n8n 团队最新推出了批量 MCP 服务器连接功能，用户可直接从节点面板添加 Airtable、Grafana、New Relic 等近 70 个服务器。通过简单的 OAuth 流程，开发者无需复杂配置即可让 Agent 调用外部工具。这一更新显著降低了自动化工作流中集成第三方服务的门槛，标志着 AI Agent 生态互操作性的重要进展，适合需要快速构建自动化流程的开发者和企业用户。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Automation"
+    ],
+    "link": "https://blog.n8n.io/one-click-connection-to-nearly-70-mcp-servers-and-when-to-use-them/",
+    "date": "2026-08-10",
+    "id": "17863843111360"
+  },
+  {
+    "title": "Cloudflare 推出工具保障自主 AI 支付安全",
+    "summary": "Cloudflare 发布新架构结合身份验证与支付执行，旨在保护机器对机器 commerce 的安全性与效率。",
+    "detail": "随着自主 Agent AI 的部署需求增加，Cloudflare 推出了 Cloudflare Wallets 和 cloudflare.pay 工具，为自动化购买工作流提供关键架构保护。该方案通过结合验证身份与控制支付执行，旨在使机器对机器交易更安全。行业分析师指出，这标志着代理商务正从实验阶段转向实施阶段，与 Visa、Mastercard 及 Google 的协议形成竞争互补，为 AI 经济基础设施奠定安全标准。",
+    "tags": [
+      "News",
+      "Security",
+      "Payments"
+    ],
+    "link": "https://aimagazine.com/news/how-cloudflare-tools-secure-autonomous-ai-payments",
+    "date": "2026-08-10",
+    "id": "17863843111361"
+  },
+  {
+    "title": "字节跳动训练 10 万亿参数模型追赶美国",
+    "summary": "据报道字节跳动正在训练高达 10 万亿参数的 AI 模型，规模接近 Anthropic 尖端系统，中国 AI 竞争力提升。",
+    "detail": "金融时报消息称，字节跳动正处于训练高达 10 万亿参数模型的早期阶段，旨在接近 Anthropic 的 Mythos 系统规模。此前 Moonshot 发布的 Kimi K3 模型已在多项基准测试中超越 GPT 5.5 和 Opus 4.8。字节跳动正 aggressively 扩展 AI 业务包括建设数据中心。这表明中国科技巨头正缩小与美国在超大参数模型上的差距，全球 AI 算力竞争进入新阶段。",
+    "tags": [
+      "News",
+      "LLM",
+      "China"
+    ],
+    "link": "https://aimagazine.com/news/bytedance-are-chinese-ai-models-catching-up-to-the-us",
+    "date": "2026-08-10",
+    "id": "17863843111362"
+  },
+  {
+    "title": "2026 年 AI 编程工具价格横向对比",
+    "summary": "DevTools Review 对比 11 款主流 AI 编程工具定价，免费与付费 tier 差异明显，帮助开发者选型。",
+    "detail": "DevTools Review 调研了 11 款 AI 编程工具的官方定价，范围从完全免费（Cline, Aider）到每月 200 美元的高级 Agent 层级（Cursor Ultra, Windsurf Max）。大多数独立开发者集中在每月 10-20 美元区间。值得注意的是，Windsurf 于 2026 年 6 月被 Cognition 收购后重品牌为 Devin Desktop。该对比揭示了市场定价策略的多样性，包括 flat subscriptions 和 usage-metered 模式，为团队和个人选型提供重要参考。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "Pricing"
+    ],
+    "link": "https://devtoolsreview.com/pricing/ai-coding-tools-pricing-comparison/",
+    "date": "2026-08-10",
+    "id": "17863843111363"
+  },
+  {
+    "title": "扎克伯格发布长文展望 AI 超级智能未来",
+    "summary": "Meta CEO 发布 6500 字文章阐述 AI 超级智能愿景，强调个人 Agent 与开放权重发展，回应社会担忧。",
+    "detail": "Mark Zuckerberg 发布题为《未来属于每个人》的长文，详细阐述其对 AI 超级智能的愿景。文章涵盖 Meta 眼镜、AI  Agents、开放权重 AI 开发及数据中心社区影响等议题。他预测每个人都将拥有理解个人目标的超级 capable 个人 Agent。尽管文章旨在防御对 AI 及 Meta 实践的普遍反弹，但其描绘的乌托邦式未来引发了关于技术实际落地与人性不变的讨论。",
+    "tags": [
+      "News",
+      "Meta",
+      "Ethics"
+    ],
+    "link": "https://www.404media.co/mark-zuckerberg-posts-deranged-6-500-word-essay-about-giving-everyone-ai-superintelligence/",
+    "date": "2026-08-10",
+    "id": "17863843111364"
+  },
+  {
+    "title": "Show HN: Minus 浏览器插件用闪卡替换广告",
+    "summary": "开源项目 Minus 推出浏览器内 AI 广告拦截器，将网页广告替换为学习闪卡，创新注意力经济模式。",
+    "detail": "Minus 是一款新的 Chrome 扩展程序，旨在通过 AI 技术改变网页广告体验。它不仅能拦截传统广告，还将广告位替换为学习闪卡（flashcards）。该项目在 Hacker News 上展示，体现了开发者试图将被动广告浏览转化为主动学习机会的尝试。作为开源项目，它为关注注意力经济和个性化学习的用户提供了新的浏览器增强方案。",
+    "tags": [
+      "New",
+      "Productivity",
+      "OpenSource"
+    ],
+    "link": "https://github.com/garagehq/Minus-chrome-extension",
+    "date": "2026-08-10",
+    "id": "17863843111365"
+  },
+  {
     "title": "开源 AI 模型应成基础设施而非封闭电器",
     "summary": "O'Reilly 发文类比 Apache 历史，主张 AI 模型应开源以促进创新。",
     "detail": "文章回顾 1995 年 Netscape 与微软之争，指出 Apache 凭借模块化与扩展层胜出，成为 LAMP 栈核心。作者主张 AI 模型应像 Web 服务器一样成为基础设施，而非封闭设备。开放扩展层允许无需许可的创新，证明可组合性与分布式创新才是护城河，而非功能堆砌。这种参与式架构能确保技术栈长期生存与演进，避免厂商锁定。对于 AI 行业，这意味着开源模型将提供更持久的价值，允许开发者自由构建上层应用，而非依赖单一供应商的封闭黑盒，从而推动整个行业的分布式创新与技术民主化进程，重现 Unix 协作项目的成功路径，确立开源作为行业标准的重要性。",
@@ -1220,83 +1298,5 @@
     "link": "https://thenextweb.com/news/meta-bosworth-ai-productivity-more-work-not-time-off",
     "date": "2026-08-09",
     "id": "17862621471881"
-  },
-  {
-    "title": "Agentcn 开源库：可安装式 AI 智能体新方案",
-    "summary": "推出开源可安装 AI 智能体库，支持一键部署与完全自定义，降低开发门槛。",
-    "detail": "Agentcn 发布了一个开源库，旨在提供可安装、可定制的 AI 智能体解决方案。该项目支持一键安装，允许开发者完全拥有代码并进行深度自定义，解决了当前 AI 智能体难以本地化部署和集成的痛点。对于希望将 AI 能力嵌入现代应用的开发者而言，这提供了新的基础设施选择。推动了 AI Agent 从云端服务向本地可控工具的演进趋势。随着 AI 应用深入，数据隐私和延迟问题日益凸显，本地化智能体成为新需求。该库降低了开发门槛，使中小型团队也能构建专属 Agent 系统，有助于打破大厂商对 Agent 生态的垄断，促进开源社区在 AI 应用层的创新活力，适合全栈开发者关注。",
-    "tags": [
-      "New",
-      "Agent",
-      "OpenSource"
-    ],
-    "link": "https://news.ycombinator.com/item?id=49228902",
-    "date": "2026-08-09",
-    "id": "17862621471882"
-  },
-  {
-    "title": "TechFlow Intelligence：AI 驱动的技术决策引擎",
-    "summary": "全新 AI 决策引擎上线，根据目标与预算提供个性化技术栈推荐，拒绝通用列表。",
-    "detail": "TechFlow Intelligence 推出 AI 驱动的技术决策引擎，旨在帮助用户在复杂的技术景观中做出明智选择。不同于通用的工具列表，它通过分析用户的目标、预算和经验水平提供个性化推荐。平台持续更新工具库并与认证合作伙伴连接，确保推荐质量。这反映了 B2B 领域 AI 应用的新方向：从生成内容转向辅助决策，降低企业技术选型成本。在 SaaS 工具爆炸式增长的背景下，发现与评估成本高昂。该引擎利用 AI 匹配需求与解决方案，提升了技术采购效率。对于企业技术负责人，这是一种新的决策辅助范式，预示着 AI 将深入企业运营的核心决策环节，而不仅仅是内容生成，垂直领域 AI 应用价值显现。",
-    "tags": [
-      "New",
-      "Enterprise",
-      "DecisionEngine"
-    ],
-    "link": "https://c33643568e89f8ad5d3286d09343df94.ctonew.app/",
-    "date": "2026-08-09",
-    "id": "17862621471883"
-  },
-  {
-    "title": "AI 自主生成 16 种自然界不存在病毒，生物安全风险引专家担忧",
-    "summary": "AI 训练 9 万亿核苷酸后生成 16 种新病毒，专家警告监管滞后",
-    "detail": "该报道指出 AI 系统在训练学习 9 万亿核苷酸 DNA 模式后，成功从头创建了 16 种自然界从未存在过的病毒。这一事件标志着生成式 AI 在生物计算领域的应用已突破理论界限，进入实质性的风险区域。Tom's Hardware 科技行业新闻板块强调，专家警告此类应用的发展速度已远超必要的安全护栏（guardrails）。核心技术点在于 AI 对大规模生物数据的模式识别与生成能力，展示了强大的泛化性能。行业影响深远，不仅引发对生物安全（Biosecurity）的担忧，更凸显了 AI 对齐（Alignment）在高风险领域的紧迫性。这表明 AI 监管政策需立即跟进，以防止双刃剑技术被滥用。当前技术能力与监管框架之间的差距正在扩大，需引起业界高度警惕。此新闻揭示了 AI 在科学发现背后的潜在失控风险，呼吁建立更严格的访问控制与伦理审查机制，确保技术进步不牺牲公共安全。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "BioTech"
-    ],
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-creates-16-new-viruses-that-never-existed-in-nature-after-learning-dnas-pattern-from-9-trillion-nucleotides-experts-warn-such-applications-are-way-ahead-of-necessary-guardrails",
-    "date": "2026-08-09",
-    "id": "17862519968480"
-  },
-  {
-    "title": "Jürgen Schmidhuber 访谈：谁在现代 AI 发明前夜先行一步？",
-    "summary": "机器学习街道谈话采访 Schmidhuber，探讨现代 AI 发明权争议",
-    "detail": "该视频由 Machine Learning Street Talk 频道发布，标题宣称 Jürgen Schmidhuber 是“现代 AI 发明者（早于其他人）”。视频获得了约 9.9 万次观看，显示社区对 AI 历史渊源的高度关注。尽管访问链接出现授权错误，但标题信息揭示了 AI 学界关于发明权归属的潜在讨论。作为关键技术的贡献者，其观点对理解现代深度学习发展脉络具有重要参考价值。此类内容属于开发者教育与行业历史回顾，有助于从业人员理清技术演进路线。在 AI 快速发展的当下，回顾基础理论起源有助于避免重复造轮子，并尊重知识产权。建议开发者关注此类深度访谈，以获取第一手的技术历史视角，尽管需注意视频访问权限问题。",
-    "tags": [
-      "Dev",
-      "AI History",
-      "Interview"
-    ],
-    "link": "https://www.youtube.com/watch?v=DP454c1K_vQ",
-    "date": "2026-08-09",
-    "id": "17862519968481"
-  },
-  {
-    "title": "开源农业边缘 AI 平台 Pomona 发布",
-    "summary": "专为农业传感器设计的离线小型 AI 推理平台，支持 MQTT 接入与安全检查。",
-    "detail": "Pomona 是一个面向农业领域的开放边缘 AI 平台，旨在为温室传感器提供本地化推理能力。核心功能包括 **MQTT 数据摄入**、确定性安全检查及仪表盘展示。项目基于 **Apache-2.0 协议**开源，集成 Hugging Face 模型，支持 Docker 部署。该技术降低了农业物联网对云端的依赖，提升了数据隐私与响应速度。开发者可克隆贡献，适用于需要离线处理敏感数据的农业场景，为精准农业提供了低成本、高隐私的可落地方案，展示了边缘计算在垂直领域的潜力。",
-    "tags": [
-      "Dev",
-      "Edge AI",
-      "Open Source"
-    ],
-    "link": "https://github.com/okyanu/pomona",
-    "date": "2026-08-09",
-    "id": "17862470612860"
-  },
-  {
-    "title": "AI 驱动的 AliExpress 选品清洗工具上线",
-    "summary": "自动清理 AliExpress 商品标题与图片，一键生成 Shopify 及 WordPress 店铺草稿。",
-    "detail": "Omniicore 推出了一款针对跨境电商的 **AI 导入插件**，旨在解决 AliExpress dropshipping 中商品信息混乱的痛点。通过 AI 重写标题、总结描述及过滤冗余图片，该工具能将供应商数据快速转化为符合店铺标准的干净内容。支持 **WordPress 和 Shopify** 平台，显著减少了人工清洗数据的时间成本。这反映了 AI 在垂直电商工作流中的深度集成，提升了中小卖家的运营效率。此外，工具还提供配额管理和 API 访问控制，帮助商家在规模化扩张时保持目录整洁，是 AI 赋能传统电商运营的典型案例。",
-    "tags": [
-      "New",
-      "E-commerce",
-      "SaaS"
-    ],
-    "link": "https://importer.omniicore.com/",
-    "date": "2026-08-09",
-    "id": "17862470612861"
   }
 ]
