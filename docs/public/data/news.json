@@ -1,5 +1,57 @@
 [
   {
+    "title": "开源 AI 模型应成基础设施而非封闭电器",
+    "summary": "O'Reilly 发文类比 Apache 历史，主张 AI 模型应开源以促进创新。",
+    "detail": "文章回顾 1995 年 Netscape 与微软之争，指出 Apache 凭借模块化与扩展层胜出，成为 LAMP 栈核心。作者主张 AI 模型应像 Web 服务器一样成为基础设施，而非封闭设备。开放扩展层允许无需许可的创新，证明可组合性与分布式创新才是护城河，而非功能堆砌。这种参与式架构能确保技术栈长期生存与演进，避免厂商锁定。对于 AI 行业，这意味着开源模型将提供更持久的价值，允许开发者自由构建上层应用，而非依赖单一供应商的封闭黑盒，从而推动整个行业的分布式创新与技术民主化进程，重现 Unix 协作项目的成功路径，确立开源作为行业标准的重要性。",
+    "tags": [
+      "News",
+      "OpenSource",
+      "Industry"
+    ],
+    "link": "https://oreillyradar.substack.com/p/why-open-source-matters-for-ai",
+    "date": "2026-08-10",
+    "id": "17863779891260"
+  },
+  {
+    "title": "Nature 质疑 AI 筛选顶级预印本的可靠性",
+    "summary": "QED Science 工具筛选前 1% 论文引发学界对指标文化的担忧。",
+    "detail": "以色列初创公司 QED Science 推出 AI 工具评估生命科学手稿原创性与有效性。虽已在 bioRxiv 试点，但 Nature 指出该排名可能强化学术指标文化。研究人员质疑 AI 能否透明可靠地判断科研质量，引发信任争议。该工具已用于 10000+ 实验室，但学界担忧其创造新的声望徽章，加剧基于指标的学术文化，而非真正提升科研质量。透明性与可靠性仍是 AI 介入科学评估的核心挑战，需警惕算法偏见影响科研公正性，确保技术服务于科学进步而非商业利益。Nature 采访专家探讨可信度，强调在引入自动化评估时需保持谨慎，避免损害学术界的信任基础。",
+    "tags": [
+      "News",
+      "Science",
+      "Ethics"
+    ],
+    "link": "https://www.nature.com/articles/d41586-026-02276-z",
+    "date": "2026-08-10",
+    "id": "17863779891261"
+  },
+  {
+    "title": "纯 Rust 沙箱浏览器专为 AI 代理打造",
+    "summary": "h5i-browser-light 内存占用比 Chromium 低 7.4 倍。",
+    "detail": "新项目 h5i-browser-light 是一款纯 Rust 构建的本地优先浏览器，专为 AI 代理设计。它在同一沙箱内运行，峰值内存比 Chromium 少 7.4 倍，并通过 10 万 +Web 平台测试子集。适合资源受限的代理环境，兼顾安全与性能。Chromium 虽兼容性好但过于臃肿，不适合代理短时任务。该浏览器将代理、工作区、Shell 置于同一安全边界，主机文件与凭证保留在外，极大降低了 AI 代理运行时的资源消耗与安全风险，为本地优先的 AI 开发提供新选择。Cloudflare 类似项目 Kitesurf 也提出专为代理设计的浏览器引擎概念，表明行业正关注代理专用基础设施，优化内存与兼容性平衡，推动 AI 代理技术栈的轻量化演进。",
+    "tags": [
+      "Dev",
+      "Rust",
+      "Infrastructure"
+    ],
+    "link": "https://medium.com/@Koukyosyumei/building-a-pure-rust-sandboxed-local-first-browser-for-ai-agents-h5i-browser-light-ce4c13f16e5a",
+    "date": "2026-08-10",
+    "id": "17863779891263"
+  },
+  {
+    "title": "开发者自研开源 AI 代码审查工具 Nitpicker",
+    "summary": "替代昂贵商业服务，支持自托管的 AI PR 审查工具。",
+    "detail": "因不满百万美元报价，开发者开源了 Nitpicker。这是一款轻量级 AI PR 审查工具，支持 AWS Lambda 等部署。它强调代码私有性，避免训练数据泄露，提供尖锐而非冗长的审查意见，降低 token 成本。用户可自托管审计提示词，确保 PR 不被用于他人训练集。相比商业服务，它更经济且保护隐私，适合注重代码安全的团队。部署灵活，支持 Cloudflare Workers 及 GitHub Actions，旨在帮助开发者快速交付代码，同时保持对审查逻辑的完全控制权，减少对外部供应商依赖。其 mascot Nit 以犀利评论著称，模拟真实同事的代码审查风格，帮助开发者发现潜在问题，提升代码质量，是开源社区对昂贵商业 AI 服务的一次有力回应。",
+    "tags": [
+      "New",
+      "Dev",
+      "OpenSource"
+    ],
+    "link": "https://nitpicker.dev",
+    "date": "2026-08-10",
+    "id": "17863779891264"
+  },
+  {
     "title": "OpenAI 致信德州州长，承诺负责任 AI 基础设施",
     "summary": "OpenAI 向德州州长致信，概述在德州负责任地开发 AI 基础设施的承诺。",
     "detail": "OpenAI 正式向德州州长 Greg Abbott 发送信函，明确其在德州建设 AI 基础设施的计划与承诺。信中强调了与州政府、公用事业及社区合作的重要性，确保 AI 发展能为当地带来实质利益。此举标志着 AI 巨头在基础设施扩张中更加注重政策合规与社会责任，可能影响未来 AI 数据中心的选址与能源合作模式，展现行业领军者对区域经济发展的重视。",
@@ -1246,57 +1298,5 @@
     "link": "https://importer.omniicore.com/",
     "date": "2026-08-09",
     "id": "17862470612861"
-  },
-  {
-    "title": "基于 Rust 的 AI 视频编辑工具 Wayshot 开源",
-    "summary": "集成大量 AI 辅助功能的 Rust 视频创作工具，支持录屏与推流。",
-    "detail": "开发者发布了一款名为 **Wayshot** 的视频创作工具，采用 **Rust 2024** 编写，强调性能与安全性。项目特色在于集成了广泛的 AI 辅助编辑功能，同时涵盖屏幕录制、推流及共享能力。代码库采用双重许可（Apache 2.0 | GPLv3），支持 **Linux 与 Windows** 平台。这表明系统级编程语言正逐渐成为 AI 应用开发的首选，以满足高性能多媒体处理的需求。开源社区欢迎贡献，工具旨在提供轻量级且功能丰富的视频处理方案，适合开发者自定义 AI 工作流。",
-    "tags": [
-      "Dev",
-      "Rust",
-      "Video Editing"
-    ],
-    "link": "https://github.com/heng30/wayshot",
-    "date": "2026-08-09",
-    "id": "17862470612862"
-  },
-  {
-    "title": "美国公众对 AI 的恐惧与自由精神",
-    "summary": "民调显示美国人对 AI 态度从冷漠到恐惧，认为其与自由社会难容。",
-    "detail": "文章分析美国公众对 AI 的抵触情绪，对比中国公众的热情，指出这源于美国人对自由精神的坚持。行业领袖关于“永久下层阶级”和“人类灭绝”的警告加剧了这种担忧。这反映了 AI  adoption 与社会价值观的深层冲突，暗示广泛采用可能与自由社会难以调和，公众直觉认为 AI 威胁生活方式。",
-    "tags": [
-      "News",
-      "Social",
-      "Policy"
-    ],
-    "link": "https://www.compactmag.com/article/the-ai-apocalypse-is-already-here/",
-    "date": "2026-08-09",
-    "id": "17862399889800"
-  },
-  {
-    "title": "新论文宣称 AI 已具备行为定义下的意识",
-    "summary": "预印本论文通过行为定义测试，声称前沿模型具备意识。",
-    "detail": "该预印本提出了意识的行为定义，并通过 43,590 次冻结试验验证。研究涉及 GPT-5.4 等模型，声称观察到可重复的黑盒行为区分。尽管争议巨大，但这为 AI 伦理和安全讨论提供了新的实证框架，挑战了传统意识界限，可能引发学术界对模型内部状态的重新审视及对齐研究的深入。",
-    "tags": [
-      "News",
-      "Research",
-      "LLM"
-    ],
-    "link": "https://zenodo.org/records/21855824",
-    "date": "2026-08-09",
-    "id": "17862399889801"
-  },
-  {
-    "title": "研究：新一代 AI 模型仍存在医疗种族与性别偏见",
-    "summary": "弗林德斯大学研究发现 o3-mini 等模型在医疗内容中重现偏见。",
-    "detail": "弗林德斯大学最新研究评估了 o3-mini 和 DeepSeek-R1 等新一代推理模型，发现它们在生成医疗临床 vignettes 时，仍频繁重现种族和性别刻板印象。尽管推理能力提升，但代表性公平性未改善。例如黑人在特定疾病中的比例被 stereotypical 化。这警示医疗 AI 部署风险，技术进步不等于偏见消除。医疗机构需加强内容审核，模型开发者需优化数据多样性，避免 AI 加剧医疗不平等。研究强调在医疗关键领域，人工审核仍不可或缺，不能完全依赖自动化决策。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Healthcare"
-    ],
-    "link": "https://news.flinders.edu.au/blog/2026/08/09/new-ai-models-still-reproduce-racial-and-gender-stereotypes-in-medicine/",
-    "date": "2026-08-08",
-    "id": "17863396830814"
   }
 ]
