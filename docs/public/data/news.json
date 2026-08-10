@@ -1,5 +1,96 @@
 [
   {
+    "title": "苹果短暂发布 Siri 接入通义千问指南",
+    "summary": "苹果官网曾上线中国区 Siri 接入通义千问指南，随后迅速下架。",
+    "detail": "苹果在中国区短暂发布了将 Siri 与阿里云通义千问 AI 连接的指南，暗示双方合作落地。该页面随后被移除，引发市场猜测。此举标志着苹果在中国市场合规化 AI 功能的重要进展，可能解决 iOS 设备在国内无法使用 Apple Intelligence 核心功能的痛点，对国内 AI 大模型生态具有里程碑意义。",
+    "tags": [
+      "News",
+      "Apple",
+      "LLM"
+    ],
+    "link": "https://www.macrumors.com/2026/08/10/apple-posts-guide-for-connecting-siri-to-qwen-ai/",
+    "date": "2026-08-10",
+    "id": "17863673322200"
+  },
+  {
+    "title": "银行 AI 聊天机器人存在 XSS 漏洞",
+    "summary": "安全研究人员发现银行 AI 助手可通过支付备注触发 XSS 攻击。",
+    "detail": "Positive Security 研究人员发现某银行 AI 聊天机器人存在跨站脚本（XSS）漏洞。攻击者可通过上传含恶意代码的 PDF 或在转账备注中插入 payload，当受害者询问交易记录时触发攻击，劫持会话。该漏洞揭示了 AI 处理非结构化数据时的安全风险，厂商已快速修复。此案例为金融 AI 应用的安全开发提供了重要警示。",
+    "tags": [
+      "News",
+      "Security",
+      "AI Safety"
+    ],
+    "link": "https://positive.security/blog/banking-ai-xss",
+    "date": "2026-08-10",
+    "id": "17863673322201"
+  },
+  {
+    "title": "DocuQueue 推出 AI 文档生成 MCP 服务",
+    "summary": "通过 MCP 协议将 AI 聊天转化为文档生成引擎，支持 Claude 等。",
+    "detail": "DocuQueue 发布模型上下文协议（MCP）服务器，允许用户通过自然语言在 Claude、Cursor 等 AI 工具中生成发票、合同等文档。该工具无需复杂配置，只需粘贴服务器 URL 即可连接。它解决了 AI 代理无法直接操作外部文档系统的痛点，显著减少数据录入错误，是 AI Agent 落地企业工作流的实用开发工具。",
+    "tags": [
+      "Dev",
+      "MCP",
+      "Productivity"
+    ],
+    "link": "https://docuqueue.com/mcp",
+    "date": "2026-08-10",
+    "id": "17863673322202"
+  },
+  {
+    "title": "Pokecut 推出 1 美元 VIP 限时优惠",
+    "summary": "在线 AI 照片编辑器提供 1 美元解锁 VIP 功能限时活动。",
+    "detail": "Pokecut 是一款免费在线 AI 照片编辑与生成工具，支持图像增强、换装及文本生成图像。目前平台推出限时促销，仅需 1 美元即可解锁 VIP 会员。其内置 Seedream4.0 等模型，支持 4K 分辨率生成及专业人像修饰。对于需要低成本高质量视觉素材的创作者而言，这是一次值得关注的优惠机会。",
+    "tags": [
+      "Deal",
+      "Image Gen",
+      "Tool"
+    ],
+    "link": "https://www.pokecut.com/",
+    "date": "2026-08-10",
+    "id": "17863673322203"
+  },
+  {
+    "title": "18 万场 AI 会议录音因配置错误泄露",
+    "summary": "会议记录应用 tl;dv 数据库未隔离，导致大量敏感录音暴露。",
+    "detail": "安全博主发现 AI 会议记录应用 tl;dv 的 Firestore 数据库缺乏租户隔离，导致超过 18.1 万场会议记录可被任意认证用户访问。攻击者可获取会议链接、邮箱甚至闯入正在进行的直播会议。该漏洞自 1 月报告至 7 月仍未修复，暴露了 AI 初创公司在数据隐私合规上的严重疏忽，用户需警惕此类云服务的隐私风险。",
+    "tags": [
+      "News",
+      "Security",
+      "Privacy"
+    ],
+    "link": "https://bobdahacker.com/blog/tldv-hack",
+    "date": "2026-08-10",
+    "id": "17863673322204"
+  },
+  {
+    "title": "农民轻信 AI 建议导致 25 英亩作物死亡",
+    "summary": "中国农民遵循 AI 生成的农药建议，导致农作物大面积受损。",
+    "detail": "汤姆硬件报道，一名中国农民因遵循 AI 生成的杂草和害虫控制建议，导致 25 英亩作物死亡。尽管此前数月建议有效，但此次生成的农药配方出现致命错误。该事件突显了垂直领域 AI hallucination（幻觉）的现实风险，警示用户在农业、医疗等高风险场景下需谨慎核实 AI 输出，不能完全依赖自动化建议。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Agriculture"
+    ],
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinese-farmer-kills-25-acres-of-crops-after-following-ai-generated-weed-and-pest-control-advice-farmer-trusted-pesticide-recipe-after-months-of-successful-advice",
+    "date": "2026-08-10",
+    "id": "17863673322205"
+  },
+  {
+    "title": "资深工程师反思 AI 编码的质量隐患",
+    "summary": "硅谷工程师表示 AI 编码虽快但导致产品崩溃，面临被解雇风险。",
+    "detail": "Cal Newport 分享了一位硅谷资深工程师的经历，其使用 Claude Code 后效率提升显著，但近期生成的代码导致产品两次崩溃，面临解雇风险。这反映了 AI 编程工具在提升速度的同时，可能引入隐蔽的质量问题。行业需重新审视人机协作模式，开发者不能仅做“指令员”，仍需具备审查代码和确保系统稳定性的核心能力。",
+    "tags": [
+      "News",
+      "Coding",
+      "Productivity"
+    ],
+    "link": "https://calnewport.com/on-ai-coding-and-its-discontents/",
+    "date": "2026-08-10",
+    "id": "17863673322206"
+  },
+  {
     "title": "OptiQra 开源 AI 网站优化平台",
     "summary": "开源 AI 平台，优化 SEO 及生成式引擎表现。",
     "detail": "OptiQra 是一个开源 AI 网站工程平台，旨在部署前后分析与重构网站。核心支持 SEO 及新兴的 GEO（生成式引擎优化）和 AEO（答案引擎优化），确保网站能被 ChatGPT、Claude、Perplexity 及 Google AI Overviews 抓取引用。基于 Next.js、React 和 TypeScript 构建，适合开发者提升网站在 AI 时代的可见性与性能。它全面评分性能、安全及转化信号，自动修复问题，帮助站点适应 AI 搜索流量趋势，确保在生成式引擎中获得引用机会。随着 AI 搜索流量增加，该工具为开发者提供了必要的优化手段，平衡传统搜索与 AI 引擎需求。",
@@ -1207,96 +1298,5 @@
     "link": "https://www.oreilly.com/radar/teaching-coding-when-ai-can-write-the-code/",
     "date": "2026-08-08",
     "id": "17862399889802"
-  },
-  {
-    "title": "1800 人实测：产品经理 AI 能力优于工程师",
-    "summary": "调查显示产品经理 AI 流利度得分高于工程师，HR 最低。",
-    "detail": "基于 1800 名专业用户的评估数据，发现产品经理在 AI 流利度上优于工程师（59.2 vs 53.7），应用判断力胜过技术知识。HR 群体得分最低。数据显示团队内 AI 能力差异巨大，通用培训效果有限，需个性化指导。这揭示了 AI 工具使用中软技能和判断力的重要性高于纯技术背景。",
-    "tags": [
-      "News",
-      "Industry",
-      "Data"
-    ],
-    "link": "https://news.ycombinator.com/item?id=49226913",
-    "date": "2026-08-08",
-    "id": "17862399889803"
-  },
-  {
-    "title": "Roku 推出 24/7 全天候 AI 生成内容频道",
-    "summary": "Roku 上线 Fairground 频道，专门播放 AI 生成视频内容。",
-    "detail": "Roku 推出名为 Fairground 的新频道，全天候播放 AI 生成的视频内容。这标志着 AI 生成内容正式进入主流流媒体平台，可能引发关于内容质量、“垃圾内容”泛滥以及版权问题的新讨论，是消费者端 AI 应用的重要落地，展示了 AI 在娱乐内容生产上的规模化尝试与商业化路径。",
-    "tags": [
-      "New",
-      "Product",
-      "Media"
-    ],
-    "link": "https://therokuchannel.roku.com/details/b484db42f3d31b6dc2f604d453c694a0/fairground-ai-creator-tv",
-    "date": "2026-08-08",
-    "id": "17862399889804"
-  },
-  {
-    "title": "Google DeepMind 迎来新时代，创始人 Hassabis 转任首席科学家",
-    "summary": "Demis Hassabis 卸任 CEO 转任主席，DeepMind 管理层重大调整。",
-    "detail": "Google DeepMind 联合创始人 Demis Hassabis 宣布卸任 CEO，转任母公司 Alphabet 首席科学家及 DeepMind 主席。日常管理将由长期同事 Koray Kavukcuoglu 接管。此举标志着 DeepMind 进一步融入 Alphabet 体系，Hassabis 将更专注于科研突破而非行政事务。作为诺贝尔奖得主，他的角色转变可能影响未来 AI 科研方向与战略重心。前高管表示这将使伦敦团队更紧密围绕加州母公司，显示 Google 对 AI 部门架构的重大重组，旨在平衡科研创新与商业落地，进入新时代。",
-    "tags": [
-      "News",
-      "Google",
-      "Management"
-    ],
-    "link": "https://www.theguardian.com/technology/2026/aug/08/google-demis-hassabis-deepmind-shifts-role",
-    "date": "2026-08-08",
-    "id": "17862318073030"
-  },
-  {
-    "title": "Faaah：利用文件系统复用 AI Agent 订阅的本地代理工具",
-    "summary": "通过文本文件协议复用 AI 订阅，无需额外 API 密钥的开源方案。",
-    "detail": "Faaah 是一个无依赖的 OpenAI 兼容本地代理，旨在让开发者复用已有的 AI Agent 订阅（如 Claude Code）用于侧边项目。它通过文本文件协议工作：将请求 dump 为.txt 文件，由现有 Agent 读取并回复，再封装为 JSON 返回。符合 UNIX 哲学，适合希望节省 API 成本的开发者。该工具无需额外 API 密钥，通过文件系统交互实现本地服务器功能，极大降低了周末侧边项目的运行成本。作为 GitHub 上的 Show HN 项目，它为开发者提供了复用订阅资源的创新方案，避免了为小项目单独付费。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "LLM"
-    ],
-    "link": "https://github.com/sebastiancarlos/faaah",
-    "date": "2026-08-08",
-    "id": "17862318073031"
-  },
-  {
-    "title": "仅用 Go 标准库构建 AI Agent 记忆层引擎",
-    "summary": "无需外部依赖，使用 Go 标准库实现高效的 AI 上下文记忆管理。",
-    "detail": "文章详解如何使用 Go 语言标准库（container/heap, list 等）构建零依赖的 AI Agent 记忆引擎。涵盖了优先级队列、滑动窗口及二进制序列化等核心技术。该方案解决了 LLM 无状态导致的幻觉问题，为开发者提供了高性能的本地上下文 orchestration 层实现参考。无需外部依赖安装，仅用六个标准包即可覆盖全生命周期，适合追求极致性能与控制权的 Go 开发者。展示了 AI 原生记忆管理的高效构建路径，帮助 Agent 决定保留或遗忘哪些上下文信息。",
-    "tags": [
-      "Dev",
-      "Go",
-      "AI Agent"
-    ],
-    "link": "https://towardsdev.com/the-memory-efficient-ai-agent-building-a-context-engine-in-go-d4b7557c44d8?sk=22b2ffc30beac55a6f47841eb4df980b",
-    "date": "2026-08-08",
-    "id": "17862318073032"
-  },
-  {
-    "title": "企业警示：未经监管的 Shadow AI 带来 hidden 风险",
-    "summary": "Proton 发布指南，解析 Shadow AI 定义、隐私风险及检测防护措施。",
-    "detail": "随着 AI 工具普及，员工未经批准使用 AI 处理公司数据（Shadow AI）成为安全隐患。Proton 指南指出这可能导致敏感信息泄露及合规风险。文章提供了检测未授权工具及实施 safeguards 的实用建议，强调企业在拥抱 AI 效率的同时需建立隐私保护策略，防止数据流向不可控的第三方模型。IT 团队需可见数据流向，避免业务信息暴露，平衡工作效率与数据安全。这是企业管理者必须关注的 hidden 风险，需制定明确政策以防敏感数据通过个人账号泄露。",
-    "tags": [
-      "News",
-      "Security",
-      "Enterprise"
-    ],
-    "link": "https://proton.me/business/blog/shadow-ai",
-    "date": "2026-08-08",
-    "id": "17862318073033"
-  },
-  {
-    "title": "AI 音乐版权争议：输入许可模式可能垄断未来",
-    "summary": "分析 AI 音乐补偿模型，指出仅关注输入端许可可能强化唱片公司垄断。",
-    "detail": "针对 AI 音乐版权争议，文章分析了“输入许可”与“输出补偿”两种模型。作者警告若仅强制训练数据许可，权利持有者（唱片公司）将成为新 gatekeepers，垄断模型构建权。建议关注输出端补偿机制，以避免在创造 abundance 之前先 monetize 稀缺性，保障艺术家利益与市场平衡。这种输入模型可能 quietly 将未来交给现有机构，而输出端补偿更能反映生成内容的价值。这是行业 debate 中 missing 的关键经济视角，防止少数机构 benefit from  resulting models。",
-    "tags": [
-      "News",
-      "Copyright",
-      "Music"
-    ],
-    "link": "https://justwordz.medium.com/the-ai-music-debate-is-missing-half-the-money-ffb714924aaa",
-    "date": "2026-08-08",
-    "id": "17862318073034"
   }
 ]
