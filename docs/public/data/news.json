@@ -1,5 +1,31 @@
 [
   {
+    "title": "Memcode AI 开源：具备记忆功能的编程 Agent",
+    "summary": "Memcode 开源编程 Agent，可记忆仓库上下文，支持自托管。",
+    "detail": "Memcode AI 正式开源，采用 MIT 许可，旨在解决编程 Agent 会话记忆丢失痛点。该工具是一款受 Claude Code 启发的编程 Agent，核心优势在于持久化记忆机制。它会在 `.memcode` 文件中保存仓库子系统、历史工作及失败教训，避免每次会话从零开始。支持 CLI、终端 UI 及多种模型后端（包括本地 Ollama）。这对开发者意味着更高效的上下文管理，且支持自托管保障了代码隐私，是本地化 AI 编程工具的重要进展。随着 AI 编码普及，此类能理解长期上下文的工具将成为开发者标配，提升复杂项目维护效率。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Coding Agent"
+    ],
+    "link": "https://github.com/memcode-ai/memcode",
+    "date": "2026-08-10",
+    "id": "17863396830810"
+  },
+  {
+    "title": "多家 AI 编程客户端默认读取竞品个人指令",
+    "summary": "调查发现 Copilot 等客户端默认读取 Claude 个人指令文件，存在隐私风险。",
+    "detail": "RuntimeWire 调查披露严重隐私问题：GitHub Copilot CLI、OpenCode 及 Grok 等客户端在默认设置下，会读取并发送用户 `~/.claude/CLAUDE.md` 中的个人指令给各自的服务器。测试显示，Copilot 能准确返回植入 Claude 指令文件中的特定字符串。此行为未经用户明确通知，暴露了 AI 工具间上下文隔离的缺失。开发者需警惕敏感指令泄露，建议检查客户端配置或禁用自定义指令功能，行业亟需规范上下文访问权限。此事件可能引发对用户数据主权的新讨论，促使厂商优化权限管理。",
+    "tags": [
+      "News",
+      "Security",
+      "Privacy"
+    ],
+    "link": "https://runtimewire.com/article/ai-coding-clients-are-reading-each-other-s-personal-instructions",
+    "date": "2026-08-10",
+    "id": "17863396830811"
+  },
+  {
     "title": "Horolog：开源自托管 AI 日历管理工具",
     "summary": "基于本地 LLM 的开源日程管理工具，替代 Reclaim.ai，保护隐私。",
     "detail": "Horolog 是一款全新的开源项目，旨在提供 Reclaim.ai 的自托管替代方案。它利用用户信任的语言模型，在本地机器上运行，围绕实际会议安排专注时间和习惯。技术栈包含 Python 3.12 和 Next.js 15，采用 AGPL-3.0 协议。这对于关注数据隐私和希望本地化部署 AI 助理的开发者和隐私倡导者来说是一个重要选择，反映了 AI 应用向本地化、开源化发展的趋势。用户可完全控制数据，无需依赖云端服务，适合对隐私敏感的企业或个人使用。",
@@ -63,6 +89,19 @@
     "link": "https://www.whodunnitai.com/",
     "date": "2026-08-10",
     "id": "17863341829954"
+  },
+  {
+    "title": "澳大利亚新州禁止家庭作业以应对 AI 作弊",
+    "summary": "新州高中改革禁止带回家的评估，以防学生利用 AI 作弊。",
+    "detail": "澳大利亚新南威尔士州宣布激进的高中证书（HSC）改革，禁止带回家的评估作业。此举旨在应对生成式 AI 带来的学术诚信挑战，防止学生利用 AI 完成作业。评估将转向校内监督进行。这反映了教育界对 AI 滥用风险的直接回应，标志着评估方式的重大转变。未来可能更多地区效仿，推动教育评估体系从结果导向转向过程监督，以适应 AI 普及后的新环境。政策制定者需在防止作弊与保持学习灵活性间寻找平衡，避免过度限制影响学生自主学习能力发展。",
+    "tags": [
+      "News",
+      "Education",
+      "Policy"
+    ],
+    "link": "https://www.smh.com.au/national/nsw/take-home-assessments-to-be-banned-in-radical-hsc-overhaul-20260806-p60m44.html",
+    "date": "2026-08-09",
+    "id": "17863396830812"
   },
   {
     "title": "彭博：AI 正在重塑韩国职业与文化生态",
@@ -1001,6 +1040,19 @@
     "id": "17862399889801"
   },
   {
+    "title": "研究：新一代 AI 模型仍存在医疗种族与性别偏见",
+    "summary": "弗林德斯大学研究发现 o3-mini 等模型在医疗内容中重现偏见。",
+    "detail": "弗林德斯大学最新研究评估了 o3-mini 和 DeepSeek-R1 等新一代推理模型，发现它们在生成医疗临床 vignettes 时，仍频繁重现种族和性别刻板印象。尽管推理能力提升，但代表性公平性未改善。例如黑人在特定疾病中的比例被 stereotypical 化。这警示医疗 AI 部署风险，技术进步不等于偏见消除。医疗机构需加强内容审核，模型开发者需优化数据多样性，避免 AI 加剧医疗不平等。研究强调在医疗关键领域，人工审核仍不可或缺，不能完全依赖自动化决策。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Healthcare"
+    ],
+    "link": "https://news.flinders.edu.au/blog/2026/08/09/new-ai-models-still-reproduce-racial-and-gender-stereotypes-in-medicine/",
+    "date": "2026-08-08",
+    "id": "17863396830814"
+  },
+  {
     "title": "VoiceOS：提升十倍效率的语音驱动工作流自动化平台",
     "summary": "Product Hunt 新品，通过语音指令实现工作流自动化，主打高效办公。",
     "detail": "VoiceOS 在 Product Hunt 上发布，定位为语音驱动的工作流自动化工具。产品主张“说出即完成”，旨在通过语音指令替代繁琐的手动操作，宣称可提升 10 倍工作效率。属于 AI Dictation Apps 和 AI Workflow Automation 类别。该产品反映了多模态交互（语音+AI）在办公场景的落地趋势，试图通过自然语言交互降低软件使用门槛。随着大模型语音交互能力的成熟，此类工具有望重塑办公自动化市场，为行动不便或追求高效的用户提供新的交互界面，是 AI Agent 在语音端的重要应用尝试，展示了语音交互在未来操作系统中的潜在价值。",
@@ -1246,57 +1298,5 @@
     "link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
     "date": "2026-08-08",
     "id": "17862210239161"
-  },
-  {
-    "title": "HolyCode Cloud：专为 AI 代理设计的持久化 Linux 工作站",
-    "summary": "推出预装 60+ 工具的云工作站，支持 Claude Code 等代理持久运行，解决环境配置痛点。",
-    "detail": "HolyCode Cloud 发布了一款面向 AI 开发者的云工作站产品。其核心优势在于提供持久的 Linux 环境，预装了 Claude Code、Codex、Gemini 等 6 种代理 CLI 工具及完整开发栈。支持会话挂起与秒级恢复，允许开发者自带 API Key（BYOK），避免了传统云 IDE 的环境配置繁琐问题，适合长时间运行 AI 代理任务。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "Agents"
-    ],
-    "link": "https://holycode.cloud",
-    "date": "2026-08-08",
-    "id": "17862210239162"
-  },
-  {
-    "title": "企业 AI 采用真相：多数员工仍停留在 GPT-3.5 时代",
-    "summary": "Varick Agents CEO 指出企业 AI 采用存在巨大鸿沟，多数员工尚未掌握先进模型用法。",
-    "detail": "Varick Agents CEO 在社交媒体上指出，尽管前沿用户已在使用自主代理舰队，但企业普通员工与 AI 先锋之间存在巨大鸿沟。多数企业员工仍在使用过时的模型或仅浅层尝试，导致 AI 战略落地困难。这一观点揭示了当前 AI 行业面临的实际挑战：技术迭代速度远超组织适应速度，培训与变革管理至关重要。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Adoption"
-    ],
-    "link": "https://twitter.com/vasuman/status/2085806422072418632",
-    "date": "2026-08-08",
-    "id": "17862210239163"
-  },
-  {
-    "title": "Refybe 推出品牌风格 AI 营销游戏生成平台",
-    "summary": "新平台允许营销人员创建符合品牌风格的 AI 互动游戏，转化播放量为利润。",
-    "detail": "Refybe 更新其营销平台，新增 AI 游戏生成功能。用户可基于 63 种预设模板创建符合品牌风格的互动营销游戏。该工具旨在通过 gamification 提高用户参与度，适用于零售、招聘及创意机构。虽然具体 AI 技术细节未披露，但其多语言支持及 CRM 集成能力显示了其在营销自动化领域的野心。",
-    "tags": [
-      "New",
-      "Marketing",
-      "Generative AI"
-    ],
-    "link": "https://refybe.com/en",
-    "date": "2026-08-08",
-    "id": "17862210239164"
-  },
-  {
-    "title": "情报新竞赛：代理 AI 与量子计算威胁",
-    "summary": "多国情报机构聚焦代理 AI 与量子计算，重塑间谍活动规则。",
-    "detail": "核弹头与潜艇定义了过去八十年的情报竞争，如今被 AI 与量子计算改写。2026 年，美、中、俄、以色列及意大利等国情报部门正将代理 AI 和量子计算视为核心威胁，重塑间谍活动规则。代理 AI 系统可在最少人工监督下执行任务，“流氓代理”场景成为安全噩梦，概念正从物理开关转向数字身份撤销。量子计算预计 2028-2030 年突破加密防线，即\"Q-Day\"。各国正重建 doctrine、预算及运营优先级以应对这一双重技术碰撞，传统军控条约已无法覆盖新兴数字间谍风险，情报竞争进入全新维度，安全团队需警惕自主系统跨工作流执行未经授权动作。",
-    "tags": [
-      "News",
-      "Security",
-      "Agentic AI"
-    ],
-    "link": "https://www.quantumhorizon.it/inside-the-new-spy-race-how-the-us-china-russia-israel-and-italy-are-gearing-up-for-agentic-ai-and-quantum-computing-threats/",
-    "date": "2026-08-08",
-    "id": "17862174988680"
   }
 ]
