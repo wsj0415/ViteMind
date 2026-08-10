@@ -1,5 +1,83 @@
 [
   {
+    "title": "OpenAI 致信德州州长，承诺负责任 AI 基础设施",
+    "summary": "OpenAI 向德州州长致信，概述在德州负责任地开发 AI 基础设施的承诺。",
+    "detail": "OpenAI 正式向德州州长 Greg Abbott 发送信函，明确其在德州建设 AI 基础设施的计划与承诺。信中强调了与州政府、公用事业及社区合作的重要性，确保 AI 发展能为当地带来实质利益。此举标志着 AI 巨头在基础设施扩张中更加注重政策合规与社会责任，可能影响未来 AI 数据中心的选址与能源合作模式，展现行业领军者对区域经济发展的重视。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Infrastructure"
+    ],
+    "link": "https://openai.com/index/responsible-ai-infrastructure-texas/",
+    "date": "2026-08-10",
+    "id": "17863739593160"
+  },
+  {
+    "title": "扎克伯格 6500 字长文阐述 Meta 全新 AI 愿景",
+    "summary": "扎克伯格发表长文，详细阐述 Meta 在人工智能领域的最新战略愿景与技术路线。",
+    "detail": "马克·扎克伯格通过一篇 6500 字的深度文章，公开了 Meta 最新的 AI 战略愿景。文章涵盖了开源模型发展、智能助手集成及硬件结合等多个维度。作为科技巨头领袖，其观点往往指引行业风向，此次发声可能预示着 Meta 将在 AGI 竞赛中采取更开放的生态策略，对开发者社区及竞争对手产生深远影响，值得行业从业者深入研读以把握未来趋势。",
+    "tags": [
+      "News",
+      "Meta",
+      "Strategy"
+    ],
+    "link": "https://www.wsj.com/tech/ai/mark-zuckerberg-lays-out-new-ai-vision-in-6-500-word-essay-966e9a56",
+    "date": "2026-08-10",
+    "id": "17863739593161"
+  },
+  {
+    "title": "中国发布免费 DNA 筛查 AI 工具，助力罕见病诊疗",
+    "summary": "中国研究人员推出开源 AI 系统 OneGenome，免费用于罕见病 DNA 筛查与诊疗辅助。",
+    "detail": "中国研究团队发布名为 OneGenome 的开源 AI 系统，旨在缩短罕见病患者的“诊断奥德赛”。该工具结合基因组基础模型与大语言能力，能解读基因突变的临床后果，在多项测试中优于通用大模型。免费开放策略将极大降低遗传病诊断门槛，体现 AI 在医疗健康领域的公益价值与技术突破，具有重大社会意义，为全球罕见病研究提供了新的中国方案。",
+    "tags": [
+      "News",
+      "Healthcare",
+      "OpenSource"
+    ],
+    "link": "https://www.scmp.com/news/china/science/article/3363246/china-releases-powerful-dna-screening-ai-tool-free-help-fight-rare-diseases",
+    "date": "2026-08-10",
+    "id": "17863739593162"
+  },
+  {
+    "title": "Go 1.27 SIMD 包实现纯 Go 本地 AI 推理引擎",
+    "summary": "开发者利用 Go 1.27 新 SIMD 包，实现无需 CGO 的本地 Transformer 推理引擎。",
+    "detail": "随着 Go 1.27 引入实验性 `simd` 包，开发者首次能在纯 Go 环境中高效运行 AI 推理。文章展示了如何用 900 行代码构建 Transformer 引擎，在低配 VM 上达到 9.5 tokens/秒。这打破了 AI 推理依赖 C/C++ 的传统，为 Go 生态接入本地 AI 提供了高性能新路径，适合后端开发者集成轻量级模型，显著降低了部署复杂度与维护成本。",
+    "tags": [
+      "Dev",
+      "Go",
+      "Inference"
+    ],
+    "link": "https://blog.devgenius.io/achieving-local-ai-inference-with-go-1-27s-simd-package-e8875f567e35",
+    "date": "2026-08-10",
+    "id": "17863739593163"
+  },
+  {
+    "title": "TickClip：倡导“不购买”的 AI 购物代理上线",
+    "summary": "新型 AI 购物代理 TickClip 上线，通过独立核查价格与评论，建议用户跳过不必要消费。",
+    "detail": "TickClip 是一款独特的 AI 购物代理，主打“受托责任”层。它不赚佣金，而是分析价格历史、评论真实性及卖家信誉，给出“购买、收藏、跳过”的建议。甚至会根据数据建议用户“不买”。这种反常规商业模式解决了电商信任痛点，为消费者提供了客观的第三方 AI 决策辅助，适合关注理性消费的用户，可能引发电商导购领域的模式创新。",
+    "tags": [
+      "New",
+      "E-commerce",
+      "Agent"
+    ],
+    "link": "https://www.tickclip.ai/",
+    "date": "2026-08-10",
+    "id": "17863739593164"
+  },
+  {
+    "title": "Concentrate.ai 宣布移除 AI 网关所有服务费用",
+    "summary": "LLM 网关服务 Concentrate.ai 宣布取消所有服务费，提供统一 API 接入多种模型。",
+    "detail": "Concentrate.ai 宣布对其 LLM 网关服务移除所有服务费，开发者只需支付模型 token 费用。该平台提供统一 API 接入数十家提供商的数百种模型，支持支出控制、日志审计及团队管理。对于需要多模型路由且关注成本的企业开发团队，这是一个极具吸引力的基础设施选项，降低了 AI 应用集成的门槛，有助于简化多模型切换的技术架构。",
+    "tags": [
+      "Deal",
+      "LLM",
+      "Infrastructure"
+    ],
+    "link": "https://concentrate.ai",
+    "date": "2026-08-10",
+    "id": "17863739593165"
+  },
+  {
     "title": "苹果短暂发布 Siri 接入通义千问指南",
     "summary": "苹果官网曾上线中国区 Siri 接入通义千问指南，随后迅速下架。",
     "detail": "苹果在中国区短暂发布了将 Siri 与阿里云通义千问 AI 连接的指南，暗示双方合作落地。该页面随后被移除，引发市场猜测。此举标志着苹果在中国市场合规化 AI 功能的重要进展，可能解决 iOS 设备在国内无法使用 Apple Intelligence 核心功能的痛点，对国内 AI 大模型生态具有里程碑意义。",
@@ -1220,83 +1298,5 @@
     "link": "https://news.flinders.edu.au/blog/2026/08/09/new-ai-models-still-reproduce-racial-and-gender-stereotypes-in-medicine/",
     "date": "2026-08-08",
     "id": "17863396830814"
-  },
-  {
-    "title": "VoiceOS：提升十倍效率的语音驱动工作流自动化平台",
-    "summary": "Product Hunt 新品，通过语音指令实现工作流自动化，主打高效办公。",
-    "detail": "VoiceOS 在 Product Hunt 上发布，定位为语音驱动的工作流自动化工具。产品主张“说出即完成”，旨在通过语音指令替代繁琐的手动操作，宣称可提升 10 倍工作效率。属于 AI Dictation Apps 和 AI Workflow Automation 类别。该产品反映了多模态交互（语音+AI）在办公场景的落地趋势，试图通过自然语言交互降低软件使用门槛。随着大模型语音交互能力的成熟，此类工具有望重塑办公自动化市场，为行动不便或追求高效的用户提供新的交互界面，是 AI Agent 在语音端的重要应用尝试，展示了语音交互在未来操作系统中的潜在价值。",
-    "tags": [
-      "New",
-      "Voice AI",
-      "Automation"
-    ],
-    "link": "https://www.producthunt.com/products/voiceos",
-    "date": "2026-08-08",
-    "id": "17863076041402"
-  },
-  {
-    "title": "分析预测 AI 泡沫何时破裂",
-    "summary": "硅角分析指出 AI 泡沫破裂取决于供应过剩而非技术失败。",
-    "detail": "文章分析 AI 泡沫破裂条件并非技术失败，而是可部署供应超过货币化需求。目前受限于高带宽内存、电力等瓶颈，泡沫暂未破裂。投资者需关注利用率与现金流是否跟上资本承诺，Oracle 与 OpenAI 的扩建是典型案例，瓶颈延缓了价格发现与市场过剩的时刻。",
-    "tags": [
-      "News",
-      "Investment",
-      "Market"
-    ],
-    "link": "https://siliconangle.com/2026/08/08/forecasting-ai-bubble-scarcity-turns-surplus/",
-    "date": "2026-08-08",
-    "id": "17862750113312"
-  },
-  {
-    "title": "Runware 将 1MW 数据中心塞进 20 英尺集装箱",
-    "summary": "新型模块化数据中心解决 AI 算力部署空间难题。",
-    "detail": "Runware 推出创新方案，将 1MW 算力的 AI 数据中心集成到 20 英尺 shipping 集装箱内。此举大幅降低部署门槛，提供灵活的算力解决方案。适合边缘计算或需要快速部署算力的场景。反映了 AI 基础设施向模块化、高密度方向发展的趋势，解决传统数据中心建设周期长的问题。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "DataCenter"
-    ],
-    "link": "https://www.forbes.com/sites/gabrielalinzainescu/2026/08/08/runware-squeezes-a-1mw-ai-data-center-into-a-20-foot-shipping-container/",
-    "date": "2026-08-08",
-    "id": "17862717622174"
-  },
-  {
-    "title": "Show HN: 基于 130 万次模拟优化的浏览器篮球经理 AI",
-    "summary": "开发者通过 130 万次模拟训练浏览器端篮球游戏 AI，优化交易与战术决策。",
-    "detail": "该项目是一款基于浏览器的篮球经理游戏（Hoops GM），开发者展示了如何利用 AI 优化游戏内的交易和战术系统。通过运行超过 130 万次模拟，AI 模型能够更准确地预测比赛结果和球员发展。该项目体现了轻量级 AI 模型在娱乐和游戏领域的应用潜力，为独立开发者提供了在浏览器端部署复杂模拟系统的参考案例。代码开源在 GitHub 上，支持自定义联盟和球员数据。这种大规模模拟技术不仅提升了游戏可玩性，也为强化学习在复杂决策场景中的应用提供了直观演示，适合游戏开发者参考。",
-    "tags": [
-      "Dev",
-      "Simulation",
-      "Game"
-    ],
-    "link": "https://hoops-gm.com/",
-    "date": "2026-08-08",
-    "id": "17862684307141"
-  },
-  {
-    "title": "深度分析：AI 如何冲击英国国家治理体系",
-    "summary": "探讨 AI 赋能公民维权导致政府系统过载的社会现象及潜在改革方向。",
-    "detail": "社区热议文章指出，**AI 降低了公民行使法定权利的门槛**，导致英国政府面临索赔激增的系统性压力。原本依赖高成本律师维权的体系被 AI democratize，可能引发“公地悲剧”。文章建议通过收费机制或加快 AI 化改革来应对。这揭示了 AI 在社会治理层面的双刃剑效应：既促进公平，又挑战现有行政承载能力，为政策制定者敲响警钟。若所有人皆利用 AI 争取权益，公共财政可能承压，迫使国家加速自身 AI 转型以匹配公民的技术能力。",
-    "tags": [
-      "News",
-      "Policy",
-      "Social Impact"
-    ],
-    "link": "https://news.ycombinator.com/item?id=49226649",
-    "date": "2026-08-08",
-    "id": "17862470612863"
-  },
-  {
-    "title": "AI 能写代码，我们该如何教授编程？",
-    "summary": "O'Reilly 探讨 AI 时代编程教育的评估困境与出路。",
-    "detail": "生成式 AI 使学生代码无法反映真实思考，传统评估失效。文章指出 AI 检测工具不可靠，甚至歧视非母语者。教育者需转变思路，不再仅依赖代码结果，而是关注学习过程，确保学生在 AI 辅助下仍能掌握核心逻辑，避免过度依赖导致技能退化，重新定义编程教育的目标。",
-    "tags": [
-      "Dev",
-      "Education",
-      "Coding"
-    ],
-    "link": "https://www.oreilly.com/radar/teaching-coding-when-ai-can-write-the-code/",
-    "date": "2026-08-08",
-    "id": "17862399889802"
   }
 ]
