@@ -14,3 +14,8 @@
 **Vulnerability:** The "Submit Tool" modal allowed any string in the "Link" field, enabling XSS via `javascript:` URIs if approved or stored in local storage.
 **Learning:** Frontend forms feeding into a database/storage must validate data type and format (Protocol Whitelisting) before persistence, even if there is a manual approval process.
 **Prevention:** Enforce strict URL protocol validation (`http:`, `https:`) at the input stage.
+
+## 2025-01-13 - Static Site CSP Implementation
+**Vulnerability:** Lack of Content Security Policy (CSP) headers on a static site hosting environment, leaving the site vulnerable to XSS and data exfiltration.
+**Learning:** For static sites (SSG) hosted on platforms like GitHub Pages where server headers are not easily configurable, a `<meta>` tag in the HTML head is a viable defense-in-depth strategy. It must be carefully crafted to allow necessary external resources (GA, Supabase, Google Favicons).
+**Prevention:** Added a strict CSP meta tag in `config.mts`. Policy restricts scripts to 'self' and GA, images to trusted sources (Google), and connections to Supabase/Formspree.
