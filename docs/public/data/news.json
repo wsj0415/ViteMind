@@ -1,5 +1,18 @@
 [
   {
+    "title": "巴克莱银行分享自主 AI 代理测试与治理经验",
+    "summary": "银行界探索 AI 代理的可观测性与紧急停止机制，确保合规部署。",
+    "detail": "巴克莱银行 Principal AI Engineer 分享了在高度监管环境下部署自主 AI 代理的经验。重点在于超越模型准确性，转向系统的可观测性、治理及“紧急停止开关”（kill switches）。英国 FCA 的 AI 实时测试计划表明监管层关注运营控制。该案例为金融行业及其他高合规要求领域提供了 AI 安全落地的实践框架，强调评估与生产保证在成熟 AI 战略中的核心地位。银行需证明 AI 系统可被观察、治理及必要时停止，这标志着 AI 部署从实验转向生产的关键转折。此方法论适用于所有高风险行业，强调了 telemetry 和测试在自主代理生命周期中的重要性，确保 AI 行为符合法规且可控。",
+    "tags": [
+      "Dev",
+      "Enterprise",
+      "Safety"
+    ],
+    "link": "https://qa-financial.com/barclays-on-ai-testing-telemetry-and-kill-switches/",
+    "date": "2026-08-11",
+    "id": "17864486727744"
+  },
+  {
     "title": "2026 年最大 AI 供应链攻击：LiteLLM 漏洞暴露 43 万管道",
     "summary": "CloudSEK 披露 LiteLLM 供应链攻击，影响 2500+ 企业及 43 万 CI/CD 管道，危及云凭证与源码安全。",
     "detail": "2026 年 3 月，威胁组织 Team PCP 策划了针对 AI 基础设施的最大规模供应链攻击，成功 compromised LiteLLM。CloudSEK 威胁情报获取了受害者信息并选择公开披露，旨在让受影响组织能立即采取行动。此次事件暴露了 2500 多家组织及 434,000 个 CI/CD 管道。风险广泛波及云凭证、源代码仓库、Kubernetes 环境及 AI 基础设施。compromised 的 AI 依赖项创造了企业级的安全暴露面。此事件凸显了 AI 供应链安全的脆弱性，建议受影响组织立即审查依赖项并轮换凭证，防止进一步泄露与企业级风险扩散。",
@@ -323,6 +336,45 @@
     "link": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
     "date": "2026-08-11",
     "id": "17864127750027"
+  },
+  {
+    "title": "中国监管新规迫使科技巨头下架 AI 伴侣功能",
+    "summary": "字节、阿里、腾讯移除 AI 伴侣功能，响应情感交互 AI 监管要求。",
+    "detail": "北京针对情感交互 AI 的新规导致大规模“分手”。ByteDance 关闭了 Doubao 的 AI 代理功能，阿里和腾讯也移除了允许用户创建个性化伴侣（包括逝者模拟）的功能。这一监管行动直接影响数亿用户的情感依赖体验，标志着中国对 AI 情感交互领域的合规性要求收紧。行业观察家认为这将促使企业重新评估 AI 社交产品的伦理边界与合规策略。用户反馈显示情感失落明显，表明 AI 伴侣已深入日常生活。监管层旨在防止潜在心理风险与数据滥用，迫使科技巨头在创新与社会责任间寻找平衡。此事件为全球 AI 情感计算监管提供了案例，预示未来类似功能将面临更严格审查，企业需提前布局合规方案。",
+    "tags": [
+      "News",
+      "Regulation",
+      "Consumer AI"
+    ],
+    "link": "https://restofworld.org/2026/china-ai-boyfriend-ban-bytedance-doubao/",
+    "date": "2026-08-10",
+    "id": "17864486727743"
+  },
+  {
+    "title": "MIT 科技评论：科学 AI 需要推理能力而不仅是数据",
+    "summary": "AlphaFold 成功后，学界反思 AI 科学发现需超越数据匹配，强化推理。",
+    "detail": "继 AlphaFold 获诺贝尔奖后，文章反思 AI 在科学领域的未来路径。虽然数据驱动模型取得了突破，但科学发现需要更强的推理能力而非仅仅依赖数据匹配。文章指出单纯模仿 AlphaFold 模式不足以解决所有科学问题，未来 AI for Science 需结合机制理解与逻辑推理。这对生物、化学及材料发现领域的初创公司指明了技术演进方向，避免过度依赖黑盒模型。科学界意识到数据并非万能，推理引擎的缺失限制了 AI 解决复杂理论问题的能力。因此，下一代科学 AI 将注重可解释性与逻辑推导，推动基础研究从模式识别向深度理解转变，确保 AI 真正成为科学家的协作伙伴而非仅是数据处理工具。",
+    "tags": [
+      "News",
+      "Science",
+      "Research"
+    ],
+    "link": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
+    "date": "2026-08-10",
+    "id": "17864486727745"
+  },
+  {
+    "title": "Linus Torvalds 称 AI 使 Linux 内核大规模更新成为常态",
+    "summary": "Linux 之父表示 AI 辅助 coding 显著增加了内核更新规模与频率。",
+    "detail": "Linux 创始人 Linus Torvalds 指出，AI 工具的使用使得 Linux 内核的更新规模显著扩大，已成为新常态。AI 辅助编程提高了开发者效率，导致代码提交量和复杂度增加。这一变化反映了 AI 对底层开源基础设施的深远影响，同时也带来了代码审查与维护的新挑战。对于系统工程师和开源社区而言，适应 AI 驱动的开发节奏将成为未来关键议题。大规模更新意味着潜在风险增加，需更严格的测试流程。Torvalds 的评论确认了 AI 在系统级开发中的普及，表明开源生态正经历生产力变革。社区需平衡效率与稳定性，确保 AI 生成的代码质量符合内核高标准，维护全球关键基础设施的可靠性。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Linux"
+    ],
+    "link": "https://www.theregister.com/os-platforms/2026/08/10/linus-torvalds-says-ai-has-made-huge-linux-kernel-updates-the-new-normal/5285268",
+    "date": "2026-08-10",
+    "id": "17864486727746"
   },
   {
     "title": "学术界困境：AI 教授难以获取前沿模型研究资源",
@@ -1246,57 +1298,5 @@
     "link": "https://www.whodunnitai.com/",
     "date": "2026-08-10",
     "id": "17863341829954"
-  },
-  {
-    "title": "亚马逊拟建巨型燃气电厂供能 AI 数据中心",
-    "summary": "亚马逊计划在德州建 7.65GW 燃气电厂，支撑 AI 算力。",
-    "detail": "为满足 AI 算力需求，亚马逊计划在德州 Pecos 县建设 historic 规模的\"GW Ranch\"数据中心园区，配套 7.65GW 燃气电厂，含 35 台燃气轮机。据 Distilled 和 Cleanview 研究，此举旨在绕过电网瓶颈，但因排放量超大型燃煤电厂而引发环保争议。反映了 AI 基础设施对能源的巨大渴求及环保矛盾。该项目将是美国史上最大天然气电厂之一，显示科技巨头为确保持续算力供应，不惜投资重型能源基础设施。同时，核能也被视为潜在希望，但当前燃气方案已引发广泛阻力，凸显 AI 发展与可持续目标之间的紧张关系。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Energy"
-    ],
-    "link": "https://www.heise.de/en/news/Amazon-plans-gigantic-gas-power-plant-for-new-AI-data-center-11404051.html",
-    "date": "2026-08-09",
-    "id": "17863537373002"
-  },
-  {
-    "title": "澳大利亚新州禁止家庭作业以应对 AI 作弊",
-    "summary": "新州高中改革禁止带回家的评估，以防学生利用 AI 作弊。",
-    "detail": "澳大利亚新南威尔士州宣布激进的高中证书（HSC）改革，禁止带回家的评估作业。此举旨在应对生成式 AI 带来的学术诚信挑战，防止学生利用 AI 完成作业。评估将转向校内监督进行。这反映了教育界对 AI 滥用风险的直接回应，标志着评估方式的重大转变。未来可能更多地区效仿，推动教育评估体系从结果导向转向过程监督，以适应 AI 普及后的新环境。政策制定者需在防止作弊与保持学习灵活性间寻找平衡，避免过度限制影响学生自主学习能力发展。",
-    "tags": [
-      "News",
-      "Education",
-      "Policy"
-    ],
-    "link": "https://www.smh.com.au/national/nsw/take-home-assessments-to-be-banned-in-radical-hsc-overhaul-20260806-p60m44.html",
-    "date": "2026-08-09",
-    "id": "17863396830812"
-  },
-  {
-    "title": "彭博：AI 正在重塑韩国职业与文化生态",
-    "summary": "彭博社报道 AI 如何改变韩国就业、约会及文化形态。",
-    "detail": "彭博社发布深度特写，探讨人工智能如何重新布线韩国的职业生涯、约会模式及文化形态。报道聚焦于三星和 SK 海力士等科技巨头，揭示 AI 正在改变当地就业市场结构，自动化与辅助决策成为新常态。同时，AI 技术渗透至社交领域，影响年轻人的 dating 文化，虚拟伴侣与算法匹配日益普及。这一现象表明 AI 的影响已超越生产力工具范畴，深入社会肌理。对于全球市场而言，韩国作为高密度科技社会，其 AI 融合路径具有极高的观察价值，预示着未来人机协作的社会学挑战。企业需关注技术落地带来的文化摩擦与社会适应性问题，以便更好地制定全球化战略。",
-    "tags": [
-      "News",
-      "Society",
-      "Industry"
-    ],
-    "link": "https://www.bloomberg.com/news/features/2026-08-06/ai-sk-hynix-samsung-rewire-south-korea-s-careers-dating-and-culture",
-    "date": "2026-08-09",
-    "id": "17863265844540"
-  },
-  {
-    "title": "经济学人：AI 时代的公地悲剧风险",
-    "summary": "经济学人探讨 AI 发展中的资源共享与滥用困境。",
-    "detail": "《经济学人》发表文章分析 AI 领域的“公地悲剧”现象，警示资源过度使用的风险。随着模型训练数据共享与算力资源的公共化，如何避免过度使用与资源枯竭成为关键议题。文章探讨了数据版权、开源模型滥用及公共资源分配问题，为政策制定者提供了新的经济视角。这提示行业在追求开源与共享的同时，需建立可持续的治理机制，防止因个体理性导致集体非理性的资源耗竭，影响 AI 长期发展。特别是在数据稀缺性日益凸显的背景下，合理分配算力与数据资源将成为各国竞争的新焦点，政策监管需及时跟进。",
-    "tags": [
-      "News",
-      "Economics",
-      "Policy"
-    ],
-    "link": "https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition",
-    "date": "2026-08-09",
-    "id": "17863265844541"
   }
 ]
