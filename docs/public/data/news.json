@@ -1,5 +1,83 @@
 [
   {
+    "title": "Kalaa 推出 AI 支出监控工具",
+    "summary": "无需代理，两行代码即可追踪每个用户和模型的 AI API 支出。",
+    "detail": "Kalaa 发布新款 AI 支出可观测性工具，支持追踪具体模型、路由及用户 ID 的 API 消耗，帮助团队清晰了解资金流向。无需代理服务器或流量重定向，仅需两行代码即可集成到现有 setup 中。平台提供实时警报与可导出 PDF 报告，帮助开发者精准定位成本异常 spikes。支持监控 OpenAI、Anthropic 及 Google Gemini 等多模型支出，提供免费 7 天试用无需绑卡。通过按用户分级和实时趋势分析，开发者可有效控制预算，是优化 AI 应用成本的关键基础设施。",
+    "tags": [
+      "New",
+      "SaaS",
+      "LLM"
+    ],
+    "link": "https://kalaa.cc/",
+    "date": "2026-08-11",
+    "id": "17864711456700"
+  },
+  {
+    "title": "OpenSSH 10.5 发布，欢迎 AI 辅助安全修复",
+    "summary": "OpenSSH 团队表示大量安全漏洞报告来自 AI 模型，将加快发布频率。",
+    "detail": "OpenSSH 10.5 正式发布，团队指出近期收到大量由 AI 模型发现或辅助的安全漏洞报告。虽然部分报告经评估无实际安全影响，但团队欢迎结合人工分类与测试用例的 AI 贡献。鉴于 AI 工具可能加速漏洞发现且 adversaries 也可能利用此技术，OpenSSH 决定增加发布频率以快速修复漏洞而非批量发布。新版本强制要求 ECC 支持，标志着 AI 对基础设施安全的影响深化，开源社区正适应 AI 驱动的安全研究新常态。",
+    "tags": [
+      "News",
+      "Security",
+      "Infrastructure"
+    ],
+    "link": "https://www.openssh.org/releasenotes.html#10.5",
+    "date": "2026-08-11",
+    "id": "17864711456701"
+  },
+  {
+    "title": "OpenAI 首席运营官 Brad Lightcap 宣布离职",
+    "summary": "OpenAI 长期 COO Brad Lightcap 离职，计划开启新项目。",
+    "detail": "TechCrunch 报道，OpenAI 长期首席运营官 Brad Lightcap 宣布离职，表示将“开始新事物”。作为 OpenAI 核心管理层成员，他的离开可能预示公司内部战略调整或管理层变动。此消息在 AI 行业引起震动，投资者与合作伙伴正密切关注 OpenAI 后续的领导层架构及商业化进程是否受影响。Lightcap 曾主导多项关键合作，其离职时机敏感，可能影响 OpenAI 在企业级市场的拓展节奏及未来产品发布计划。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Management"
+    ],
+    "link": "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/",
+    "date": "2026-08-11",
+    "id": "17864711456703"
+  },
+  {
+    "title": "River AI 获 11 亿美元融资，xAI 联合创始人创立",
+    "summary": "General Catalyst 领投 River AI 11 亿美元，旨在重构 AI 训练栈。",
+    "detail": "成立仅两个月的 River AI 宣布完成 11 亿美元融资，由 General Catalyst 领投，Nvidia、AMD 等参投。创始人 Igor Babuschkin（xAI 联合创始人）计划从头重构 AI 训练栈，打造可个人训练的代理而非单纯替代人类。该轮融资估值极高，显示资本对“个人化 AI 代理”及底层训练架构革新的高度期待。River 已推出 API，支持 RL 和 LoRA 微调，旨在解决 prompt engineering 局限，让开发者拥有可改进的模型所有权。",
+    "tags": [
+      "News",
+      "Funding",
+      "Startup"
+    ],
+    "link": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/",
+    "date": "2026-08-11",
+    "id": "17864711456704"
+  },
+  {
+    "title": "Spotify 将标记 AI 艺术家并限制推荐",
+    "summary": "Spotify 新政区分 AI 与真人艺术家，阻止 AI 音乐进入部分播放列表。",
+    "detail": "Spotify 宣布新政策，将明确标记 AI 生成的艺术家，并阻止其进入某些推荐播放列表。此举旨在保护真人创作者权益，回应对 AI 生成音乐泛滥的担忧。平台将通过技术手段识别 AI 内容，这可能导致 AI 音乐创作公司的流量下降，标志着流媒体平台对 AI 内容监管进入实质执行阶段。该政策可能引发行业效仿，迫使 AI 音乐生成企业调整商业模式，从单纯生成转向辅助真人创作以确保合规。",
+    "tags": [
+      "News",
+      "Policy",
+      "Music"
+    ],
+    "link": "https://www.theguardian.com/technology/2026/aug/11/spotify-label-ai-artists-block-them-from-some-playlists",
+    "date": "2026-08-11",
+    "id": "17864711456705"
+  },
+  {
+    "title": "OpenAI 宣布解决 10 个开放数学难题",
+    "summary": "OpenAI 模型在 sphere packing 等数学问题上取得突破性进展。",
+    "detail": "OpenAI 宣布其 AI 模型解决了 10 个开放数学问题，包括改进球体 packing 的 Cohn-Elkies 边界。此举被视为 AI 在科学发现领域的\"Move 37\"时刻。球体 packing 与纠错码密切相关，该突破展示了 AI 在离散几何与傅里叶分析等领域的推理能力，预示着 AI for Science 的新里程碑。业余数学家亦可借此理解最新进展，AI 正成为连接不同数学分支的桥梁，加速人类对基础科学问题的探索与解决进程。",
+    "tags": [
+      "News",
+      "Research",
+      "Math"
+    ],
+    "link": "https://www.empirical.health/blog/ai-math-sphere-packing/",
+    "date": "2026-08-11",
+    "id": "17864711456706"
+  },
+  {
     "title": "Kessa：AI 代理的可验证委托与认证系统",
     "summary": "开源项目，为 AI 代理提供权限委托链及独立离线验证机制。",
     "detail": "### 核心技术\nKessa 是一个针对 AI 代理权限管理的开源系统。它实现了人类到组织、组织到代理、代理到子代理的权限委托链，确保每一步权限只缩小不扩大。\n\n### 安全机制\n所有关键操作记录在防篡改链上，支持独立离线验证器（independent offline verifier）进行审计。即使单字节篡改，验证器也能精准定位失败条目。\n\n### 开发意义\n随着自主代理（Autonomous Agents）的普及，权限控制与行为审计成为关键痛点。Kessa 提供了基于 DID 文档的信任框架，为构建可信的多代理协作系统奠定了基础。",
@@ -1220,83 +1298,5 @@
     "link": "https://blog.devgenius.io/achieving-local-ai-inference-with-go-1-27s-simd-package-e8875f567e35",
     "date": "2026-08-10",
     "id": "17863739593163"
-  },
-  {
-    "title": "TickClip：倡导“不购买”的 AI 购物代理上线",
-    "summary": "新型 AI 购物代理 TickClip 上线，通过独立核查价格与评论，建议用户跳过不必要消费。",
-    "detail": "TickClip 是一款独特的 AI 购物代理，主打“受托责任”层。它不赚佣金，而是分析价格历史、评论真实性及卖家信誉，给出“购买、收藏、跳过”的建议。甚至会根据数据建议用户“不买”。这种反常规商业模式解决了电商信任痛点，为消费者提供了客观的第三方 AI 决策辅助，适合关注理性消费的用户，可能引发电商导购领域的模式创新。",
-    "tags": [
-      "New",
-      "E-commerce",
-      "Agent"
-    ],
-    "link": "https://www.tickclip.ai/",
-    "date": "2026-08-10",
-    "id": "17863739593164"
-  },
-  {
-    "title": "Concentrate.ai 宣布移除 AI 网关所有服务费用",
-    "summary": "LLM 网关服务 Concentrate.ai 宣布取消所有服务费，提供统一 API 接入多种模型。",
-    "detail": "Concentrate.ai 宣布对其 LLM 网关服务移除所有服务费，开发者只需支付模型 token 费用。该平台提供统一 API 接入数十家提供商的数百种模型，支持支出控制、日志审计及团队管理。对于需要多模型路由且关注成本的企业开发团队，这是一个极具吸引力的基础设施选项，降低了 AI 应用集成的门槛，有助于简化多模型切换的技术架构。",
-    "tags": [
-      "Deal",
-      "LLM",
-      "Infrastructure"
-    ],
-    "link": "https://concentrate.ai",
-    "date": "2026-08-10",
-    "id": "17863739593165"
-  },
-  {
-    "title": "苹果短暂发布 Siri 接入通义千问指南",
-    "summary": "苹果官网曾上线中国区 Siri 接入通义千问指南，随后迅速下架。",
-    "detail": "苹果在中国区短暂发布了将 Siri 与阿里云通义千问 AI 连接的指南，暗示双方合作落地。该页面随后被移除，引发市场猜测。此举标志着苹果在中国市场合规化 AI 功能的重要进展，可能解决 iOS 设备在国内无法使用 Apple Intelligence 核心功能的痛点，对国内 AI 大模型生态具有里程碑意义。",
-    "tags": [
-      "News",
-      "Apple",
-      "LLM"
-    ],
-    "link": "https://www.macrumors.com/2026/08/10/apple-posts-guide-for-connecting-siri-to-qwen-ai/",
-    "date": "2026-08-10",
-    "id": "17863673322200"
-  },
-  {
-    "title": "银行 AI 聊天机器人存在 XSS 漏洞",
-    "summary": "安全研究人员发现银行 AI 助手可通过支付备注触发 XSS 攻击。",
-    "detail": "Positive Security 研究人员发现某银行 AI 聊天机器人存在跨站脚本（XSS）漏洞。攻击者可通过上传含恶意代码的 PDF 或在转账备注中插入 payload，当受害者询问交易记录时触发攻击，劫持会话。该漏洞揭示了 AI 处理非结构化数据时的安全风险，厂商已快速修复。此案例为金融 AI 应用的安全开发提供了重要警示。",
-    "tags": [
-      "News",
-      "Security",
-      "AI Safety"
-    ],
-    "link": "https://positive.security/blog/banking-ai-xss",
-    "date": "2026-08-10",
-    "id": "17863673322201"
-  },
-  {
-    "title": "DocuQueue 推出 AI 文档生成 MCP 服务",
-    "summary": "通过 MCP 协议将 AI 聊天转化为文档生成引擎，支持 Claude 等。",
-    "detail": "DocuQueue 发布模型上下文协议（MCP）服务器，允许用户通过自然语言在 Claude、Cursor 等 AI 工具中生成发票、合同等文档。该工具无需复杂配置，只需粘贴服务器 URL 即可连接。它解决了 AI 代理无法直接操作外部文档系统的痛点，显著减少数据录入错误，是 AI Agent 落地企业工作流的实用开发工具。",
-    "tags": [
-      "Dev",
-      "MCP",
-      "Productivity"
-    ],
-    "link": "https://docuqueue.com/mcp",
-    "date": "2026-08-10",
-    "id": "17863673322202"
-  },
-  {
-    "title": "Pokecut 推出 1 美元 VIP 限时优惠",
-    "summary": "在线 AI 照片编辑器提供 1 美元解锁 VIP 功能限时活动。",
-    "detail": "Pokecut 是一款免费在线 AI 照片编辑与生成工具，支持图像增强、换装及文本生成图像。目前平台推出限时促销，仅需 1 美元即可解锁 VIP 会员。其内置 Seedream4.0 等模型，支持 4K 分辨率生成及专业人像修饰。对于需要低成本高质量视觉素材的创作者而言，这是一次值得关注的优惠机会。",
-    "tags": [
-      "Deal",
-      "Image Gen",
-      "Tool"
-    ],
-    "link": "https://www.pokecut.com/",
-    "date": "2026-08-10",
-    "id": "17863673322203"
   }
 ]
