@@ -1,5 +1,44 @@
 [
   {
+    "title": "Kessa：AI 代理的可验证委托与认证系统",
+    "summary": "开源项目，为 AI 代理提供权限委托链及独立离线验证机制。",
+    "detail": "### 核心技术\nKessa 是一个针对 AI 代理权限管理的开源系统。它实现了人类到组织、组织到代理、代理到子代理的权限委托链，确保每一步权限只缩小不扩大。\n\n### 安全机制\n所有关键操作记录在防篡改链上，支持独立离线验证器（independent offline verifier）进行审计。即使单字节篡改，验证器也能精准定位失败条目。\n\n### 开发意义\n随着自主代理（Autonomous Agents）的普及，权限控制与行为审计成为关键痛点。Kessa 提供了基于 DID 文档的信任框架，为构建可信的多代理协作系统奠定了基础。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Open Source"
+    ],
+    "link": "https://github.com/Gneiss-Group/Kessa",
+    "date": "2026-08-11",
+    "id": "17864642490733"
+  },
+  {
+    "title": "VitCam：本地部署的开源 AI 视频监控平台",
+    "summary": "完全本地的开源 NVR 平台，支持设备端 AI 检测，数据不上云。",
+    "detail": "### 产品定位\nVitCam 是一个自托管、本地化的 AI 摄像头监控与视频分析平台。旨在为家庭和企业提供完全控制权的安防方案，数据永不上传外部服务器。\n\n### 技术优势\n兼容任何支持标准流协议 IP 摄像头，打破品牌锁定。在本地硬件上运行 AI 对象检测与运动触发录制，将传统监控升级为智能分析系统。\n\n### 适用场景\n适合对隐私敏感且希望避免订阅费用的用户。作为开源项目（AGPL v3），它允许开发者自由扩展功能，是边缘 AI 视频分析的典型应用。",
+    "tags": [
+      "New",
+      "Computer Vision",
+      "Edge AI"
+    ],
+    "link": "https://github.com/scwsoft/vitcam",
+    "date": "2026-08-11",
+    "id": "17864642490734"
+  },
+  {
+    "title": "Hexis：基于 Git 的 AI 代理技能与上下文管理系统",
+    "summary": "Bevel 平台开源核心，集中管理 AI 代理的技能、工具及知识库。",
+    "detail": "### 功能概述\nHexis 是一个为 AI 代理设计的集中管理平台，用于存储和管理公司的 AI 技能、工具及上下文知识。它是 Bevel 平台的开源核心部分。\n\n### 核心特性\n采用 Git  backed 架构，确保所有技能与工具版本可控、可审查且具备访问控制。任何 AI 代理均可调用这些标准化资源，促进企业级 AI 应用的规范化。\n\n### 开发者价值\n解决了企业在规模化部署 AI 代理时面临的上下文管理与权限混乱问题，为构建可维护的企业级 Agent 工作流提供了基础设施。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "Enterprise"
+    ],
+    "link": "https://github.com/Bevel-Software/Hexis",
+    "date": "2026-08-11",
+    "id": "17864642490735"
+  },
+  {
     "title": "Anthropic 宣布为 Claude 模型添加水印以符合欧盟法规",
     "summary": "Anthropic 将为 Claude 生成内容添加水印，以符合欧盟 AI 法案。",
     "detail": "**Anthropic 正式确认**将为 Claude 系列模型生成的文本和文件添加数字水印，以严格遵守 8 月 2 日生效的欧盟 AI 法案透明度准则。公司采用 **C2PA 开放标准**，确保水印在文本被复制粘贴甚至部分编辑后依然存在。该功能将广泛应用于 Claude 平台 API、Claude Code 及 Cowork 等所有产品界面。此举标志着主流 AI 平台正加速应对全球监管审查，增强内容可追溯性，避免法律风险，同时回应了用户对于 AI 生成内容标识的强烈诉求。",
@@ -466,6 +505,32 @@
     "link": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
     "date": "2026-08-11",
     "id": "17864127750027"
+  },
+  {
+    "title": "Bernie Sanders 呼吁硅谷暂停 AI 开发以保护人类利益",
+    "summary": "美国参议员 Bernie Sanders 致信硅谷，要求出于人类利益暂停 AI 开发。",
+    "detail": "### 背景\n2026 年 8 月，美国参议员 Bernie Sanders 向硅谷科技界发出公开呼吁，要求暂停 AI 技术的进一步开发。这一举动反映了政界对 AI 快速发展带来的潜在风险的日益关注。\n\n### 核心内容\nSanders 在信中强调，AI 的发展必须以人类利益为核心，当前的加速趋势可能忽视安全与伦理边界。他主张在建立更完善的监管框架之前，行业应主动放缓脚步。\n\n### 行业影响\n此事件标志着 AI 监管讨论从技术圈层正式进入政治立法视野。若该呼吁获得响应，可能影响各大科技公司的研发节奏及投资方向，促使行业更注重对齐（Alignment）与安全评估。",
+    "tags": [
+      "News",
+      "Policy",
+      "Ethics"
+    ],
+    "link": "https://www.theguardian.com/technology/2026/aug/10/bernie-sanders-ai-development-pause-letter",
+    "date": "2026-08-10",
+    "id": "17864642490730"
+  },
+  {
+    "title": "Pickle Browser：本地运行的策略门控 AI 代理浏览器",
+    "summary": "一款优先代理的浏览器，支持本地模型运行，确保页面数据不离设备。",
+    "detail": "### 产品亮点\nPickle Browser 是一款专为 AI 代理设计的浏览器，允许用户设定目标后自动搜索、阅读并总结网页内容。其核心优势在于隐私保护，支持本地运行 Ollama 引擎（如 Llama 3.2, Qwen2.5），确保数据不出设备。\n\n### 技术特性\n支持多种模型切换，包括免费托管的 NVIDIA Build 模型。具备策略门控（policy-gated）动作，用户可实时监控代理步骤并随时接管。解决了小模型在多步研究任务中容易迷失上下文的问题。\n\n### 应用价值\n为需要高频信息检索且注重数据隐私的开发者和研究人员提供了新工具，降低了使用云端 API 的成本与风险。",
+    "tags": [
+      "New",
+      "Agent",
+      "Privacy"
+    ],
+    "link": "https://picklebrowser.com/",
+    "date": "2026-08-10",
+    "id": "17864642490731"
   },
   {
     "title": "中国监管新规迫使科技巨头下架 AI 伴侣功能",
@@ -1233,70 +1298,5 @@
     "link": "https://www.pokecut.com/",
     "date": "2026-08-10",
     "id": "17863673322203"
-  },
-  {
-    "title": "18 万场 AI 会议录音因配置错误泄露",
-    "summary": "会议记录应用 tl;dv 数据库未隔离，导致大量敏感录音暴露。",
-    "detail": "安全博主发现 AI 会议记录应用 tl;dv 的 Firestore 数据库缺乏租户隔离，导致超过 18.1 万场会议记录可被任意认证用户访问。攻击者可获取会议链接、邮箱甚至闯入正在进行的直播会议。该漏洞自 1 月报告至 7 月仍未修复，暴露了 AI 初创公司在数据隐私合规上的严重疏忽，用户需警惕此类云服务的隐私风险。",
-    "tags": [
-      "News",
-      "Security",
-      "Privacy"
-    ],
-    "link": "https://bobdahacker.com/blog/tldv-hack",
-    "date": "2026-08-10",
-    "id": "17863673322204"
-  },
-  {
-    "title": "农民轻信 AI 建议导致 25 英亩作物死亡",
-    "summary": "中国农民遵循 AI 生成的农药建议，导致农作物大面积受损。",
-    "detail": "汤姆硬件报道，一名中国农民因遵循 AI 生成的杂草和害虫控制建议，导致 25 英亩作物死亡。尽管此前数月建议有效，但此次生成的农药配方出现致命错误。该事件突显了垂直领域 AI hallucination（幻觉）的现实风险，警示用户在农业、医疗等高风险场景下需谨慎核实 AI 输出，不能完全依赖自动化建议。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Agriculture"
-    ],
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinese-farmer-kills-25-acres-of-crops-after-following-ai-generated-weed-and-pest-control-advice-farmer-trusted-pesticide-recipe-after-months-of-successful-advice",
-    "date": "2026-08-10",
-    "id": "17863673322205"
-  },
-  {
-    "title": "资深工程师反思 AI 编码的质量隐患",
-    "summary": "硅谷工程师表示 AI 编码虽快但导致产品崩溃，面临被解雇风险。",
-    "detail": "Cal Newport 分享了一位硅谷资深工程师的经历，其使用 Claude Code 后效率提升显著，但近期生成的代码导致产品两次崩溃，面临解雇风险。这反映了 AI 编程工具在提升速度的同时，可能引入隐蔽的质量问题。行业需重新审视人机协作模式，开发者不能仅做“指令员”，仍需具备审查代码和确保系统稳定性的核心能力。",
-    "tags": [
-      "News",
-      "Coding",
-      "Productivity"
-    ],
-    "link": "https://calnewport.com/on-ai-coding-and-its-discontents/",
-    "date": "2026-08-10",
-    "id": "17863673322206"
-  },
-  {
-    "title": "OptiQra 开源 AI 网站优化平台",
-    "summary": "开源 AI 平台，优化 SEO 及生成式引擎表现。",
-    "detail": "OptiQra 是一个开源 AI 网站工程平台，旨在部署前后分析与重构网站。核心支持 SEO 及新兴的 GEO（生成式引擎优化）和 AEO（答案引擎优化），确保网站能被 ChatGPT、Claude、Perplexity 及 Google AI Overviews 抓取引用。基于 Next.js、React 和 TypeScript 构建，适合开发者提升网站在 AI 时代的可见性与性能。它全面评分性能、安全及转化信号，自动修复问题，帮助站点适应 AI 搜索流量趋势，确保在生成式引擎中获得引用机会。随着 AI 搜索流量增加，该工具为开发者提供了必要的优化手段，平衡传统搜索与 AI 引擎需求。",
-    "tags": [
-      "New",
-      "OpenSource",
-      "SEO"
-    ],
-    "link": "https://github.com/armin5872/OptiQra",
-    "date": "2026-08-10",
-    "id": "17863537373000"
-  },
-  {
-    "title": "Wan 3.0 发布，支持 30 秒多模态视频生成",
-    "summary": "新一代视频模型，支持 30 秒长视频及多参考输入。",
-    "detail": "Wan 3.0 AI 视频生成器升级，支持长达 30 秒的连续视频生成，保持角色与场景一致性。支持文本、首尾帧、图像、视频及音频多模态输入。该工具旨在承载完整的创意意图，无需剪辑即可生成 surreal journey 等复杂场景，标志着视频生成模型在时长与可控性上的突破。用户可保存生成历史，支持 720P 分辨率。相比以往模型，30 秒时长允许更完整的叙事表达，减少了片段拼接的工作流。这是多模态生成领域的重要进展，为创作者提供了更强大的视频生产工具，降低了高质量视频内容的制作门槛，提升了生成内容的实用性。",
-    "tags": [
-      "New",
-      "Video",
-      "Generative"
-    ],
-    "link": "https://wan3.io/wan-3-0",
-    "date": "2026-08-10",
-    "id": "17863537373003"
   }
 ]
