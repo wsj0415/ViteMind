@@ -1,5 +1,70 @@
 [
   {
+    "title": "Anthropic 宣布为 Claude 模型添加水印以符合欧盟法规",
+    "summary": "Anthropic 将为 Claude 生成内容添加水印，以符合欧盟 AI 法案。",
+    "detail": "**Anthropic 正式确认**将为 Claude 系列模型生成的文本和文件添加数字水印，以严格遵守 8 月 2 日生效的欧盟 AI 法案透明度准则。公司采用 **C2PA 开放标准**，确保水印在文本被复制粘贴甚至部分编辑后依然存在。该功能将广泛应用于 Claude 平台 API、Claude Code 及 Cowork 等所有产品界面。此举标志着主流 AI 平台正加速应对全球监管审查，增强内容可追溯性，避免法律风险，同时回应了用户对于 AI 生成内容标识的强烈诉求。",
+    "tags": [
+      "News",
+      "Regulation",
+      "Anthropic"
+    ],
+    "link": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-models/",
+    "date": "2026-08-11",
+    "id": "17864603158350"
+  },
+  {
+    "title": "Wired 报道生物计算新趋势：AI 已死，类器官永生",
+    "summary": "科学家利用实验室培育的人脑类器官进行生物计算，挑战传统 AI。",
+    "detail": "**Wired 最新文章**指出生物学家正利用人脑类器官（organoids）进行前沿计算实验。这些在实验室培育的神经组织能产生脑电波，甚至在玩电子游戏如 Pong。相比传统 LLM，这种生物计算系统直接利用生命神经元，通过电信号编程，可能代表未来智能的新方向。**加州大学圣地亚哥分校**及约翰霍普金斯大学等机构正在探索此领域，预示着人工智能可能从硅基转向碳基生命体，引发对智能本质的重新思考。",
+    "tags": [
+      "News",
+      "Biocomputing",
+      "Research"
+    ],
+    "link": "https://www.wired.com/story/organoids-lab-grown-brains-neural-networks/",
+    "date": "2026-08-11",
+    "id": "17864603158351"
+  },
+  {
+    "title": "Show HN: SquadCue 本地优先 AI CLI 代理管理工具",
+    "summary": "通过 Web 界面管理本地 AI CLI 会话，支持审批流和通知。",
+    "detail": "**SquadCue** 是一款本地优先安装的 CLI 代理管理工具，旨在解决开发者同时管理多个终端窗口的痛点。它提供 Web 界面将持续会话命名为“员工”，支持重启计算机后恢复上下文，如同真实员工般记忆任务。具备**审批收件箱**和 Telegram 通知功能，执行指令前需用户同意，确保操作安全。所有数据绑定 localhost，适合重度依赖 CLI 完成日常任务的用户，提升工作流管理效率。",
+    "tags": [
+      "New",
+      "Dev",
+      "CLI"
+    ],
+    "link": "https://github.com/hsienchuc/squadcue",
+    "date": "2026-08-11",
+    "id": "17864603158352"
+  },
+  {
+    "title": "Show HN: Atlarix 本地优先 AI 编程代理工作站",
+    "summary": "为工程团队设计的私有 AI 工作站，代码本地运行且需审批。",
+    "detail": "**Atlarix** 是一款主打私有化的 AI 编程工作站，专为工程团队设计。支持本地模型或自有 API Key，确保代码留在本地且每次更改需用户审批。具备内置浏览器进行研究，可并行处理多个任务并在前端展示变化。集成**自动化测试验证**，确保提交代码通过测试才标记完成。支持 GitHub、Slack 等工具连接，适合注重代码隐私和流程控制的开发团队，减少上下文切换。",
+    "tags": [
+      "New",
+      "Dev",
+      "Coding Agent"
+    ],
+    "link": "https://www.atlarix.dev/",
+    "date": "2026-08-11",
+    "id": "17864603158353"
+  },
+  {
+    "title": "Show HN: Auracommit 令牌高效 AI Git 提交生成器",
+    "summary": "基于 Git diff 生成分文件提交，支持多种 API 以节省令牌。",
+    "detail": "**Auracommit** 是一款令牌高效的 AI Git 提交生成工具，旨在避免开发者快速耗尽 API 限额。它通过交互式文件方式，为每个功能或修复生成独立的提交信息，而非单体提交。支持 **OpenAI、OpenRouter、Anthropic** 和 Groq 等多种 API。可通过 npm 全局安装，适合频繁提交代码且关注 Token 成本的开发者，提升版本控制规范性，优化开发体验。",
+    "tags": [
+      "New",
+      "Dev",
+      "Git"
+    ],
+    "link": "https://github.com/tigerlang/auracommit",
+    "date": "2026-08-11",
+    "id": "17864603158354"
+  },
+  {
     "title": "Anthropic 将为 Claude 生成内容添加隐形水印",
     "summary": "Claude 新增隐形水印功能，覆盖文本与图像，增强内容透明度。",
     "detail": "Anthropic 宣布 Claude 将为生成的文本和图像应用隐形水印，采用行业标准的 C2PA 技术。据 The Verge 报道，此举旨在增强内容透明度，帮助用户识别 AI 生成内容，有效应对深度伪造风险。这是行业领先的安全措施，可能成为未来 AI 模型的标准配置，深远影响内容版权保护与用户信任机制的建立。随着监管加强，此类技术将成为大厂合规标配，推动 AI 内容生态健康发展，确保用户知情权与内容溯源能力。",
@@ -1233,70 +1298,5 @@
     "link": "https://wan3.io/wan-3-0",
     "date": "2026-08-10",
     "id": "17863537373003"
-  },
-  {
-    "title": "Docker 推出 AI Agent 专用沙盒环境",
-    "summary": "Docker 发布全新沙盒产品，为 AI 编码 Agent 提供隔离运行环境。",
-    "detail": "Docker 正式推出 Docker Sandboxes，专为 AI 编码 Agent 设计的 disposable 隔离环境。此举解决了 AI Agent 在执行代码时的安全风险与依赖冲突问题。结合 Docker 现有的 AI Governance 和 Model Runner，标志着容器技术正式向 AI Agent 基础设施层深度整合，为 enterprise 级 AI 应用部署提供标准化方案。",
-    "tags": [
-      "New",
-      "DevOps",
-      "AI Agents"
-    ],
-    "link": "https://www.docker.com/products/docker-sandboxes/",
-    "date": "2026-08-10",
-    "id": "17863477636190"
-  },
-  {
-    "title": "NexusMem：本地 AI 编码 Agent 记忆引擎",
-    "summary": "开源本地记忆引擎，解决 AI 编码助手上下文丢失与 token 成本问题。",
-    "detail": "NexusMem 是一款面向 AI 编码 Agent 的本地优先持久化记忆引擎。它通过 SQLite 记录 Git 历史、Shell 命令等本地事件，利用混合搜索（BM25+ 向量）返回相关上下文切片。完全离线运行，无云依赖，有效解决了 Agent 会话结束上下文丢失及重复上传仓库的高成本问题，适合隐私敏感的开发场景。",
-    "tags": [
-      "New",
-      "Dev",
-      "Open Source"
-    ],
-    "link": "https://github.com/yaminbakoh4-dot/NexusMem",
-    "date": "2026-08-10",
-    "id": "17863477636193"
-  },
-  {
-    "title": "如何成为 AI 安全研究工程师指南",
-    "summary": "LessWrong 发布详细指南，解析 AI 安全工程师的职业路径与技能需求。",
-    "detail": "文章提供了成为 AI 安全研究工程师的实用建议。强调主动联系研究人员、参与社区及线下枢纽（如旧金山）的重要性。指出该领域无明确职业路径，需约一年时间提升技能。建议先确定关心的安全问题，再针对性学习技能，远程工作常见但线下交流更利于成长。",
-    "tags": [
-      "Dev",
-      "Career",
-      "AI Safety"
-    ],
-    "link": "https://www.lesswrong.com/posts/Wty5mcDBEmypap8o2/how-to-be-an-ai-safety-research-engineer",
-    "date": "2026-08-10",
-    "id": "17863477636194"
-  },
-  {
-    "title": "Memcode AI 开源：具备记忆功能的编程 Agent",
-    "summary": "Memcode 开源编程 Agent，可记忆仓库上下文，支持自托管。",
-    "detail": "Memcode AI 正式开源，采用 MIT 许可，旨在解决编程 Agent 会话记忆丢失痛点。该工具是一款受 Claude Code 启发的编程 Agent，核心优势在于持久化记忆机制。它会在 `.memcode` 文件中保存仓库子系统、历史工作及失败教训，避免每次会话从零开始。支持 CLI、终端 UI 及多种模型后端（包括本地 Ollama）。这对开发者意味着更高效的上下文管理，且支持自托管保障了代码隐私，是本地化 AI 编程工具的重要进展。随着 AI 编码普及，此类能理解长期上下文的工具将成为开发者标配，提升复杂项目维护效率。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Coding Agent"
-    ],
-    "link": "https://github.com/memcode-ai/memcode",
-    "date": "2026-08-10",
-    "id": "17863396830810"
-  },
-  {
-    "title": "多家 AI 编程客户端默认读取竞品个人指令",
-    "summary": "调查发现 Copilot 等客户端默认读取 Claude 个人指令文件，存在隐私风险。",
-    "detail": "RuntimeWire 调查披露严重隐私问题：GitHub Copilot CLI、OpenCode 及 Grok 等客户端在默认设置下，会读取并发送用户 `~/.claude/CLAUDE.md` 中的个人指令给各自的服务器。测试显示，Copilot 能准确返回植入 Claude 指令文件中的特定字符串。此行为未经用户明确通知，暴露了 AI 工具间上下文隔离的缺失。开发者需警惕敏感指令泄露，建议检查客户端配置或禁用自定义指令功能，行业亟需规范上下文访问权限。此事件可能引发对用户数据主权的新讨论，促使厂商优化权限管理。",
-    "tags": [
-      "News",
-      "Security",
-      "Privacy"
-    ],
-    "link": "https://runtimewire.com/article/ai-coding-clients-are-reading-each-other-s-personal-instructions",
-    "date": "2026-08-10",
-    "id": "17863396830811"
   }
 ]
