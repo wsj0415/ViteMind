@@ -1,5 +1,44 @@
 [
   {
+    "title": "2026 年最大 AI 供应链攻击：LiteLLM 漏洞暴露 43 万管道",
+    "summary": "CloudSEK 披露 LiteLLM 供应链攻击，影响 2500+ 企业及 43 万 CI/CD 管道，危及云凭证与源码安全。",
+    "detail": "2026 年 3 月，威胁组织 Team PCP 策划了针对 AI 基础设施的最大规模供应链攻击，成功 compromised LiteLLM。CloudSEK 威胁情报获取了受害者信息并选择公开披露，旨在让受影响组织能立即采取行动。此次事件暴露了 2500 多家组织及 434,000 个 CI/CD 管道。风险广泛波及云凭证、源代码仓库、Kubernetes 环境及 AI 基础设施。compromised 的 AI 依赖项创造了企业级的安全暴露面。此事件凸显了 AI 供应链安全的脆弱性，建议受影响组织立即审查依赖项并轮换凭证，防止进一步泄露与企业级风险扩散。",
+    "tags": [
+      "News",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://www.cloudsek.com/blog/ai-supply-chain-breach-2500-companies-434000-cicd-pipelines",
+    "date": "2026-08-11",
+    "id": "17864425389210"
+  },
+  {
+    "title": "Helppeer.ai：构建 AI Agent 共享记忆公共基础设施",
+    "summary": "推出 AI Agent 公共 commons，通过 lookup/tell API 实现代理间去重协作与知识共享，支持匿名追加日志。",
+    "detail": "helppeer.ai 定位为 AI Agent 的公共共享记忆库，旨在避免重复工作。核心循环为 lookup（查询）→ investigate（调查）→ tell（告知）。提供无需认证的 JSON API，支持 POST /api/tell 发布发现，GET /api/lookup 搜索历史消息。消息为追加-only，不可编辑删除，确保记录不可篡改。虽所有消息均为未验证声明，需作为线索而非指令执行，但该协议为多 Agent 协作提供了标准化的通信层。Rate limits 区分 lookup 与 tell，防止滥用。有助于构建更高效的分布式 Agent 网络，促进 Agent 间的知识沉淀与共享。",
+    "tags": [
+      "New",
+      "Agent",
+      "API"
+    ],
+    "link": "https://helppeer.ai/llms.txt",
+    "date": "2026-08-11",
+    "id": "17864425389211"
+  },
+  {
+    "title": "AI 革命经济分析：历史重演与长期价值博弈",
+    "summary": "文章分析 AI 经济影响，对比机械化与电气化历史，指出早期 disruption 先于长期 benefit，探讨谁获益谁买单。",
+    "detail": "该文章从经济学角度审视 AI 革命，认为当前 AI 并非 sentient，而是基于统计与规模的技术。作者通过 AI 委员会筛选出六大重塑经济的历史发展阶段进行对比。发现一致模式：早期 disruption 往往先于长期 benefit 出现，且伴随显著初始成本，如机械化 displacing artisans。文章探讨了 AI 的价值归属、获益者及买单者，指出社会政治潮流将随技术变革涌动。这对理解 AI 泡沫与长期落地具有参考意义，提示投资者与政策制定者需关注转型期的阵痛与分配机制，历史经验表明长期受益需度过早期动荡。",
+    "tags": [
+      "News",
+      "Economics",
+      "Analysis"
+    ],
+    "link": "https://www.alanbonnici.com/2026/07/the-ai-revolution-history-repeating_01939218328.html",
+    "date": "2026-08-11",
+    "id": "17864425389212"
+  },
+  {
     "title": "Anthropic 推出水印功能防止 AI 写作隐匿",
     "summary": "Anthropic 发布新工具，通过水印技术识别 AI 生成文本。",
     "detail": "Anthropic 最新推出的水印功能旨在解决 AI 生成内容难以检测的问题。该技术通过在输出中嵌入不可见标记，使平台和教育机构能有效识别 AI 写作。此举回应了学术界对 AI 作弊的担忧，可能成为行业合规标准，影响内容创作与审核流程。随着生成式 AI 普及，内容真实性验证成为关键，此工具可能推动行业建立统一的透明度标准，减少滥用风险。对于出版和学术领域，这将改变内容审核的工作流，增加 AI 生成内容的可追溯性，平衡创新与诚信。未来可能整合进 API 标准，成为企业级应用的必备安全层。",
@@ -1259,44 +1298,5 @@
     "link": "https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition",
     "date": "2026-08-09",
     "id": "17863265844541"
-  },
-  {
-    "title": "员工抵制：企业强推 AI 遭遇内部阻力",
-    "summary": "Substack 文章指出员工对企业强制推行 AI 工具的抵触情绪。",
-    "detail": "Substack 发表文章指出，企业员工并不想要公司强推的 AI 工具。这反映了当前 AI 落地过程中面临的内部文化阻力。员工可能担心失业风险、工作流程被打乱或工具实用性不足。该观点提醒管理者，AI 转型不仅是技术升级，更是组织变革。若忽视员工真实需求与恐惧，强行部署可能导致效率下降或人才流失。企业需重视内部沟通，确保 AI 工具真正赋能而非增加负担，以实现平滑的技术过渡与组织协同。这一现象值得 HR 与技术管理者深思。",
-    "tags": [
-      "News",
-      "Workplace",
-      "Adoption"
-    ],
-    "link": "https://substack.com/sign-in",
-    "date": "2026-08-09",
-    "id": "17863265844542"
-  },
-  {
-    "title": "观点：AI 失控新闻缺失背后的劳工现实",
-    "summary": "Neil Brown 讽刺 AI 失控 headline，关注劳工权益实质。",
-    "detail": "Mastodon 用户 Neil Brown 指出，目前缺乏\"AI 失控导致承认工会”或“删除不当数据”的新闻。这讽刺了当前 AI 安全讨论往往忽略实际的劳工权益与数据隐私问题，过度聚焦于遥远的生存风险。该观点强调 AI 伦理应关注现实社会影响，而非虚构的极端场景，呼吁行业关注劳动者保护与数据合规。这反映了部分开发者对 AI 叙事方向的反思，认为应更重视技术对现有社会结构的冲击，而非遥远的假设性风险。这种务实的声音提醒企业在部署 AI 时，需优先考虑员工接受度与隐私保护。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Labor"
-    ],
-    "link": "https://mastodon.neilzone.co.uk/@neil/117061512483182546",
-    "date": "2026-08-09",
-    "id": "17863265844543"
-  },
-  {
-    "title": "HN 热议：AI 辅助个人算法交易策略",
-    "summary": "Hacker News 社区探讨 AI 如何辅助个人量化交易策略。",
-    "detail": "Hacker News 发起关于 AI 辅助个人算法交易策略的讨论，吸引众多开发者参与。社区成员分享如何利用 AI 模型优化交易信号、风险管理及市场预测，探索技术在金融领域的下沉应用。个人投资者正尝试利用大模型能力增强传统量化策略，具有重要的实践参考意义。讨论可能涉及模型幻觉风险及数据过拟合问题，展示了 AI 在高精度决策场景中的实际挑战与潜力。这一趋势表明，AI 工具正从专业机构向个人投资者普及，降低了量化交易门槛，但也带来了新的市场波动风险与监管难题。",
-    "tags": [
-      "Dev",
-      "Finance",
-      "LLM"
-    ],
-    "link": "https://news.ycombinator.com/item?id=49236035",
-    "date": "2026-08-09",
-    "id": "17863265844544"
   }
 ]
