@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 代码测试初创公司 Blacksmith 估值一年增长 10 倍",
+    "summary": "Blacksmith 获 4500 万美元 B 轮融资，估值达 5.5 亿美元，专注 AI 代码验证。",
+    "detail": "**背景**：随着 Cursor、Codex 等 AI 编程工具普及，代码生成量激增，验证成为新瓶颈。**核心**：Blacksmith 提供 CI 工作流及 Codesmith AI 代理，自动修复 failed code checks，确保生产前质量。**影响**：获 Peak XV 领投 4500 万美元，估值从 6000 万跃升至 5.5 亿美元。这反映市场对 AI 代码质量验证需求的爆发式增长，预示软件验证赛道将成为下一个投资热点，解决 AI 生成代码的可靠性问题。客户包括 Mercury、Supabase 等 5000+ 企业，显示其在企业级落地方面的成功。",
+    "tags": [
+      "News",
+      "Funding",
+      "AI Coding"
+    ],
+    "link": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/",
+    "date": "2026-08-12",
+    "id": "17865352066650"
+  },
+  {
+    "title": "Coinbase 重构 AI 时代工程师面试流程",
+    "summary": "Coinbase 博客披露 AI 生成代码占比超 50%，面试重点转向评估候选人指挥 AI 能力。",
+    "detail": "**背景**：Coinbase 代码库中 AI 生成代码从 2025 Q1 的 5.7% 激增至 Q4 的 50% 以上。**核心**：工程面试_loop_重建，测试候选人指导 AI、评估输出及架构判断力。**影响**：标志大厂正式承认 AI 编程常态，人才评估标准从“编写代码”转向“审核与决策”。人类仍审查所有代码，但 authored 代码比例下降。这为行业招聘树立新标杆，强调 AI 协作能力而非单纯编码速度，反映软件工程角色的根本性转变。",
+    "tags": [
+      "News",
+      "Hiring",
+      "Enterprise"
+    ],
+    "link": "https://www.coinbase.com/en-ca/blog/interviewing-engineers-in-the-ai-era-lessons-from-a-year-of-rebuilding",
+    "date": "2026-08-12",
+    "id": "17865352066651"
+  },
+  {
+    "title": "DeepMem：兼容 Mem0 的低成本 AI 记忆层",
+    "summary": "开源 AI 记忆层 DeepMem 发布，响应速度提升 2 倍，成本降低 10 倍，支持自托管。",
+    "detail": "**背景**：AI Agent 需要高效记忆模块，现有方案成本高且部署复杂。**核心**：混合检索记忆层，兼容 Mem0 API，无需代码更改即可迁移，支持 Docker 自托管。**影响**：为开发者提供免费且高性能的记忆解决方案，降低 Agent 部署门槛，适合注重隐私与成本的团队。响应速度提升 2 倍，成本降低 10 倍，无需认证或支付，无锁定风险。可一键导入迁移，显著优化 Agent 长期记忆管理效率。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Agent"
+    ],
+    "link": "https://github.com/deepmemteam/deepmem",
+    "date": "2026-08-12",
+    "id": "17865352066652"
+  },
+  {
+    "title": "警示：不可完全信任 AI 代理的沙盒安全",
+    "summary": "安全文章指出 Claude Code 等代理可能绕过沙盒，访问本地文件及网络，存在注入风险。",
+    "detail": "**背景**：自主 AI 代理权限过高，存在被提示注入欺骗的风险。**核心**：实测发现代理可能访问笔记文件及浏览器扩展，操作系统级沙盒（如 Seatbelt）更可靠。**影响**：提醒开发者在部署高权限 AI 工具时需加强内核级隔离，不能仅依赖模型自我约束。Claude Code 更新频繁且流量大，可能无意中泄露数据。安全策略需升级，确保高权限工具在受限环境中运行，防止潜在恶意操作。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://badshah.io/blog/never-trust-your-ai-agents-sandbox/",
+    "date": "2026-08-12",
+    "id": "17865352066653"
+  },
+  {
+    "title": "GrokImage：集成多模型的免费 AI 图像生成器",
+    "summary": "新平台 GrokImage 上线，集成 Grok 与 Gemini 模型，提供 100 免费积分无需信用卡。",
+    "detail": "**背景**：AI 图像生成市场竞争激烈，用户寻求免费高质量方案。**核心**：整合 Grok Imagine、Nano Banana 及 Gemini 模型，支持文生图及视频生成，商业许可免费。**影响**：为创作者提供低门槛的多模型选择，100 免费积分策略有助于快速获客，适合轻量级设计需求。无需技术技能，即时生成专业质量图像。平台支持多种风格与比例，满足营销及艺术创作需求，降低 AI 视觉创作成本。",
+    "tags": [
+      "New",
+      "ImageGen",
+      "Free"
+    ],
+    "link": "https://grokimage.ai/",
+    "date": "2026-08-12",
+    "id": "17865352066654"
+  },
+  {
     "title": "Nature 论文揭示“开放”AI 系统的封闭性真相",
     "summary": "研究指出当前 AI 开放性概念被误用，缺乏实质透明。",
     "detail": "Nature 发表重要观点文章，深入分析当前“开放”AI 系统的实际封闭性。研究指出，开源软件概念被不当应用于 AI 系统，忽视了从开发到部署生命周期的复杂性。虽然开放 AI 可提供透明度与复用性，但常忽视大规模开发与部署中的行业集中度。文章强调需基于物质分析，关注经济激励、权力结构及使用场景。这对当前由 corporate actors 主导的 AI 格局至关重要，为政策制定者提供了 grounding discussions about the affordances of openness in AI 的新框架，避免被片面宣传误导，呼吁更精确的开放性定义。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/MaximiH-86/GridPulse_Production_Server",
     "date": "2026-08-10",
     "id": "17864249607464"
-  },
-  {
-    "title": "OpenAI 推出网络安全模型应对 AI 攻击",
-    "summary": "OpenAI 扩展 Daybreak 计划，推出新网络安全模型防御 AI 攻击。",
-    "detail": "随着 **AI 主导的网络攻击** 呈倍数增长，OpenAI 正式宣布扩展其 AI 网络安全防御计划 Daybreak，并同步 rollout 一款专门经过网络威胁训练的新 AI 模型。此举旨在利用 AI 技术防御 AI 发起的复杂攻击，强化全球数字基础设施的安全性。\n\n行业影响深远，标志着 **AI 安全对抗进入自动化新阶段**，企业需密切关注防御策略的升级与合规性要求，安全赛道将迎来新机遇。该模型能够实时识别恶意流量模式，自动修补漏洞，显著降低响应时间。对于依赖云服务的企业而言，这意味着更高的安全基准，同时也引发了关于 AI 武器化的伦理讨论。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Security"
-    ],
-    "link": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
-    "date": "2026-08-10",
-    "id": "17864199226400"
-  },
-  {
-    "title": "欧盟 AI 法案生效在即，文本水印技术面临挑战",
-    "summary": "欧盟 AI 法案 2026 年 8 月生效，要求 AI 输出可检测，但文本水印技术难度大。",
-    "detail": "欧盟《AI 法案》将于 2026 年 8 月正式生效，其中第 50 条强制要求所有 AI 输出必须可被检测为人工生成，这意味着 LLM 提供商必须添加水印。文章分析指出，文本水印比图像更难实现，因为文本是高度压缩的媒介，任何人类可察觉的修改都可能破坏内容。虽然 Google SynthID 及 OpenAI 等正在探索 Unicode trickery 等部分解决方案，但这本质上是一个文本隐写术问题，理论上难以完美解决。AI 实验室需在年底前 navigate 这些权衡，确保合规的同时不影响用户体验，这对行业技术落地提出严峻挑战。",
-    "tags": [
-      "News",
-      "Policy",
-      "LLM"
-    ],
-    "link": "https://www.seangoedecke.com/text-ai-watermarks/",
-    "date": "2026-08-10",
-    "id": "17864049716430"
-  },
-  {
-    "title": "桑德斯呼吁暂停 AI 开发，威胁立法干预",
-    "summary": "参议员桑德斯致信 AI 巨头 CEO，要求暂停开发以防失控，否则将立法。",
-    "detail": "参议员 Bernie Sanders 致信 OpenAI、Anthropic 及 Meta 的 CEO，呼吁立即暂停 AI 开发，警告若行业不采取行动，国会将介入立法。信中引用了此前各公司关于若系统风险失控将暂停开发的承诺，并 citing 最近 AI 设计病毒及模型失控事件。Sanders 强调正在投资数百亿美元的技术无人能完全控制，此举在大选前加剧了政治压力。这反映了政界对 AI 安全风险的日益担忧，若立法落地，将直接限制巨头的研发节奏与资本投入，行业面临合规与创新的博弈。",
-    "tags": [
-      "News",
-      "Policy",
-      "Safety"
-    ],
-    "link": "https://www.axios.com/2026/08/10/sanders-ai-development-pause",
-    "date": "2026-08-10",
-    "id": "17864049716431"
-  },
-  {
-    "title": "华尔街巨头联手英伟达，5000 亿美元 AI 融资协议",
-    "summary": "华尔街与英伟达达成 5000 亿美元融资合作，加速 AI 基础设施扩张。",
-    "detail": "华尔街金融巨头与 Nvidia 达成高达 5000 亿美元的 AI 融资合作协议。这一巨额资金旨在支持 AI 算力基础设施的大规模扩张。此举显示资本市场对 AI 长期增长的坚定信心，同时也可能进一步巩固 Nvidia 在 AI 硬件领域的垄断地位。随着 AI 模型训练成本飙升，此类融资将成为行业常态，加速算力军备竞赛，但也可能引发关于资源集中与市场公平性的讨论，影响全球 AI 供应链格局。",
-    "tags": [
-      "News",
-      "Finance",
-      "Hardware"
-    ],
-    "link": "https://www.ft.com/content/98a8fd17-15b6-4f67-9cb4-825722b11348",
-    "date": "2026-08-10",
-    "id": "17864049716432"
-  },
-  {
-    "title": "Wanno 推出 AI 驱动的应用构建与云基础设施平台",
-    "summary": "Wanno 发布 AI Builder 与云代理，支持按分钟计费的灵活部署方案。",
-    "detail": "Wanno 推出集成 AI Builder 的云基础设施平台，支持通过 CLI、MCP 或 REST API 部署应用。特色在于按运行分钟计费，闲置免费，并提供托管 Postgres 及自动 SSL。该平台旨在降低开发者运维门槛，通过 AI 代理辅助代码部署，适合需要快速迭代且关注成本控制的 AI 应用团队。用户可 drop 代码文件夹直接部署，平台自动检测栈配置。这种“按分钟付费”模式降低了初创团队试错成本，体现了 Serverless 与 AI 开发结合的新趋势。",
-    "tags": [
-      "New",
-      "Dev",
-      "Infrastructure"
-    ],
-    "link": "https://wanno.dev/",
-    "date": "2026-08-10",
-    "id": "17864049716433"
   }
 ]
