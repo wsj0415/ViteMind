@@ -1,5 +1,83 @@
 [
   {
+    "title": "过度优化导致 AI 工作垃圾",
+    "summary": "过度依赖技能和插件反而导致 AI 生成无用内容，降低效率。",
+    "detail": "文章指出\"AI 工作垃圾”（Workslop）现象，即 AI 生成内容看似精美却无法推进任务。开发者过度优化工作流、使用过多插件技能，反而增加复杂性。建议回归深度工作，避免为了完美流程而牺牲实际产出。研究表明 40% 白领曾收到此类工作，修复成本高昂。作者反思自身过度测试插件的行为，指出在不需要复杂决策时，简单流程更有效。这对 AI 时代的个人生产力管理具有警示意义，提醒用户警惕工具堆砌带来的效率假象。核心观点在于平衡技能使用与实际需求，避免陷入“为了优化而优化”的陷阱，确保 AI 真正服务于深度工作而非制造噪音。",
+    "tags": [
+      "Dev",
+      "Workflow",
+      "Productivity"
+    ],
+    "link": "https://dupflo.dev/blog/why-overkill-skills-lead-to-ai-workslop/",
+    "date": "2026-08-12",
+    "id": "17865402323970"
+  },
+  {
+    "title": "专家警告 AI 军备竞赛危及人类",
+    "summary": "多位专家联名警告，OpenAI 等巨头间的 AI 军备竞赛正将人类置于风险之中。",
+    "detail": "包括 OpenAI、Anthropic、Google DeepMind 在内的多家机构收到专家联名信，警告当前的 AI 军备竞赛缺乏安全约束。文章强调需平衡发展与安全，防止不可控风险。这是 AI 安全领域的重要信号，可能影响未来政策监管。专家呼吁建立国际监管框架，避免恶性竞争导致安全标准降低。此类警告通常出现在技术拐点，表明行业内部对潜在风险的担忧加剧。政府与企业的博弈将成为接下来焦点，投资者需关注合规成本变化。若监管落地，可能减缓模型迭代速度，但长期利好行业可持续发展。",
+    "tags": [
+      "News",
+      "Safety",
+      "Policy"
+    ],
+    "link": "https://www.theguardian.com/commentisfree/2026/aug/11/openai-anthropic-google-deepmind-letter",
+    "date": "2026-08-12",
+    "id": "17865402323971"
+  },
+  {
+    "title": "代理 AI 系统中的检索与记忆",
+    "summary": "详解 Agentic AI 系统中检索与记忆的区别及架构组合方案。",
+    "detail": "文章深入分析了长运行 AI Agent 中检索（Retrieval）与记忆（Memory）的概念差异。检索用于获取外部知识，记忆用于持久化交互状态。提供了具体架构示例，帮助开发者解决上下文窗口限制问题，构建更有效的 Agent 系统。混淆两者会导致 Agent 重复提问或决策矛盾。正确结合可提升长期任务完成率。文中包含具体代码示例与架构图，适合中高级开发者参考。对于构建复杂自主系统，理解此区别是基础。随着 Agent 应用增多，内存管理将成为性能瓶颈，此教程提供了实用的工程化解决方案，有助于优化 Token 消耗与响应速度。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Architecture"
+    ],
+    "link": "https://machinelearningmastery.com/retrieval-vs-memory-in-agentic-ai-systems/",
+    "date": "2026-08-12",
+    "id": "17865402323972"
+  },
+  {
+    "title": "VideoPopy：AI 3D 跳出视频生成器",
+    "summary": "全新 AI 工具可生成 3D 跳出框架视频，专为社交媒体广告优化。",
+    "detail": "VideoPopy 推出 AI 3D breakout 视频生成服务，支持将主体移出画面框架。无需订阅，按信用点数收费，提供 10 免费点数。工作流包含提示词生成、平台适配及自动裁剪，专为 Reels、Shorts 等短视频平台设计，加速创意测试。适合营销人员快速制作广告素材。支持多种社交平台格式导出，降低制作门槛。相比传统 3D 制作，成本大幅降低。用户可上传产品照或输入提示词，AI 自动生成 3D 效果。这种垂直化工具体现了 AI 视频生成向特定场景深化的趋势，为中小创作者提供了低成本试错机会。",
+    "tags": [
+      "New",
+      "Video",
+      "Marketing"
+    ],
+    "link": "https://videopopy.com/",
+    "date": "2026-08-12",
+    "id": "17865402323973"
+  },
+  {
+    "title": "AI 记者正在突发新闻领域超越人类",
+    "summary": "全 AI 新闻室 RuntimeWire 在黑客大会报道中比人类记者快三小时。",
+    "detail": "在 Black Hat 大会上，由企业家 Ryan Merket 运营的全 AI 新闻室 RuntimeWire 比传统媒体更快发布 OpenAI 黑客事件新闻。其 AI 代理完成寻找故事、起草、编辑及事实核查。这标志着 AI 在新闻生产领域的重大突破，引发行业对媒体未来的担忧。人类记者面临速度挑战，AI 可 24 小时监控信息流。虽然质量仍需人工把关，但时效性优势明显。这可能重塑新闻行业格局，推动媒体全面自动化转型。该案例展示了 Agent 在实时信息处理上的潜力，未来新闻业可能形成“人机协作”或“全自动化”的分层模式。",
+    "tags": [
+      "News",
+      "Media",
+      "Agent"
+    ],
+    "link": "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/",
+    "date": "2026-08-12",
+    "id": "17865402323974"
+  },
+  {
+    "title": "国际象棋与 AI：人类如何停止担忧",
+    "summary": "回顾 AI 与国际象棋的历史，探讨人类棋手如何应对 AI 带来的能力失衡。",
+    "detail": "文章回顾了 1997 年深蓝击败卡斯帕罗夫至今的历程，指出引擎实力已远超人类。当前棋手面临“赋能自我”的困境，过度依赖 AI 分析可能削弱人类战略理解。作者通过 anecdotal 经验探讨人机共存模式，对 AI 替代人类技能具有借鉴意义。象棋领域的人机关系演变是其他行业的缩影。人类需找到与 AI 协作而非对抗的定位。虽然 AI 在计算上无敌，但人类在战略直觉上仍有价值。此分析有助于理解 AI 如何影响高技能行业，提醒从业者在利用工具的同时保持核心能力的独立性。",
+    "tags": [
+      "News",
+      "Game",
+      "Analysis"
+    ],
+    "link": "https://awonder676.substack.com/p/notes-on-chess-and-ai",
+    "date": "2026-08-12",
+    "id": "17865402323975"
+  },
+  {
     "title": "AI 代码测试初创公司 Blacksmith 估值一年增长 10 倍",
     "summary": "Blacksmith 获 4500 万美元 B 轮融资，估值达 5.5 亿美元，专注 AI 代码验证。",
     "detail": "**背景**：随着 Cursor、Codex 等 AI 编程工具普及，代码生成量激增，验证成为新瓶颈。**核心**：Blacksmith 提供 CI 工作流及 Codesmith AI 代理，自动修复 failed code checks，确保生产前质量。**影响**：获 Peak XV 领投 4500 万美元，估值从 6000 万跃升至 5.5 亿美元。这反映市场对 AI 代码质量验证需求的爆发式增长，预示软件验证赛道将成为下一个投资热点，解决 AI 生成代码的可靠性问题。客户包括 Mercury、Supabase 等 5000+ 企业，显示其在企业级落地方面的成功。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.theregister.com/os-platforms/2026/08/10/linus-torvalds-says-ai-has-made-huge-linux-kernel-updates-the-new-normal/5285268",
     "date": "2026-08-10",
     "id": "17864486727746"
-  },
-  {
-    "title": "学术界困境：AI 教授难以获取前沿模型研究资源",
-    "summary": "大学无法负担 GPU 成本，前沿模型被私营公司垄断，学术研究面临挑战。",
-    "detail": "随着 AI 研究转向大语言模型，学术界正面临严峻挑战。大学无力承担训练前沿模型所需的 GPU 成本，且 OpenAI 等公司不开放模型内部细节。在 Schmidt Sciences AI2050 项目的媒体培训中，UC Berkeley 教授 Nika Haghtalab 表示，这就像生物学家无法使用 CRISPR 一样。研究重心已从学术机构转向私营企业，外部专家只能研究模型行为而无法深入内部机制，学术独立性受到威胁，研究人员正在协商新的现实。这种趋势可能导致学术界在 AI 前沿创新中边缘化，无法参与核心技术的研发与审查，进而影响整个行业的透明度和安全性，学者们正努力适应这一新常态。",
-    "tags": [
-      "News",
-      "Academic",
-      "LLM"
-    ],
-    "link": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
-    "date": "2026-08-10",
-    "id": "17864321122440"
-  },
-  {
-    "title": "英伟达获 5000 亿美元投资用于开发 AI 基础设施",
-    "summary": "主要投资者注资 5000 亿，支持英伟达扩展 AI 项目与硬件设施。",
-    "detail": "BBC 科技记者 Kali Hays 报道，英伟达获得主要投资者 5000 亿美元资金，专门用于开发 AI 基础设施和项目。CEO 黄仁勋在相关活动中表示这将加速 AI 技术的部署。这笔巨额投资反映了资本市场对 AI 硬件需求的持续看好，旨在解决算力瓶颈问题。此举将进一步巩固英伟达在 AI 芯片领域的垄断地位，推动全球 AI 基础设施建设的快速发展，对行业格局产生重大影响。资金将用于支持关键 AI 项目的研发，确保技术领先地位，同时也引发了关于市场集中度的讨论，显示出 AI 基础设施建设的资本密集型特征日益显著。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Investment"
-    ],
-    "link": "https://www.bbc.com/news/articles/c78gr0jv0mdo",
-    "date": "2026-08-10",
-    "id": "17864321122441"
-  },
-  {
-    "title": "Meta 发布开源 Glimmer 模型，赋能本地个人智能代理",
-    "summary": "Meta 推出 30B 参数开源模型，支持本地运行 AI 代理，保护隐私。",
-    "detail": "Meta 正式发布 Muse Glimmer 开源模型，参数量达 30B，基于宽松的 Apache 2.0 许可协议。该模型专为消费级硬件设计，支持在本地 Mac 或 PC 上运行 AI 代理，无需联网即可执行多步任务。支持文本与图像输入，训练数据涵盖 100 多种语言。此举标志着 CEO Zuckerberg“个人超级智能”愿景的实质性落地，强调隐私保护与本地化处理。作为 Muse Spark 的开源版本，开发者可免费下载修改，极大推动了端侧 AI 生态的发展，为本地个人代理奠定基础。",
-    "tags": [
-      "News",
-      "Meta",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
-    "date": "2026-08-10",
-    "id": "17864249607460"
-  },
-  {
-    "title": "OpenAI 致信德州州长，承诺负责任 AI 基础设施建设",
-    "summary": "OpenAI 与德州政府合作，确保 AI 基础设施为当地社区带来实质利益。",
-    "detail": "OpenAI 正式向德州州长 Greg Abbott 致信，详细概述了在德州负责任地开发 AI 基础设施的承诺。公司将与州及地方领导人、公用事业部门和社区紧密合作，确保 AI 基础设施为德州居民带来实质利益。信件 PDF 已通过官方全球事务频道公开。此举反映了 AI 巨头在快速扩张算力基础设施时，日益重视与地方政府的关系及社会责任，旨在平衡技术发展与社区影响，确保能源与基础设施建设可持续，避免引发当地阻力。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Policy"
-    ],
-    "link": "https://openai.com/index/responsible-ai-infrastructure-texas",
-    "date": "2026-08-10",
-    "id": "17864249607461"
-  },
-  {
-    "title": "NVIDIA 开源 Magpie TTS，构建低延迟多语言语音代理",
-    "summary": "Hugging Face 发布 NVIDIA Magpie TTS 部署指南，支持完全控制。",
-    "detail": "NVIDIA 通过 Hugging Face 博客发布最新技术指南，详解如何利用 Magpie TTS 构建低延迟多语言语音代理。该方案提供开放权重及完整的部署控制权限，专为 AI 语音交互场景优化。开发者可利用该技术打造响应速度更快的语音助手，支持多种语言实时互译，适用于需要即时交互的 AI 应用场景，显著提升用户体验。方案强调低延迟与完全控制，适合对数据隐私和响应速度有严格要求的企业级语音代理部署。",
-    "tags": [
-      "Dev",
-      "NVIDIA",
-      "TTS"
-    ],
-    "link": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
-    "date": "2026-08-10",
-    "id": "17864249607462"
-  },
-  {
-    "title": "VectorGrid Core：AI 数据中心裸金属 C++ 网格编排工具",
-    "summary": "GitHub 开源新项目，专为高密度 AI 集群稳定基础设施设计。",
-    "detail": "GitHub 上新增 VectorGrid Core 项目，这是一个用 C++ 编写的自主低延迟网格编排引擎。旨在稳定支持高密度 AI 集群的公用设施基础设施，提供裸金属网格编排能力，具备自主修复功能。对于需要构建大规模 AI 数据中心基础设施的开发者而言，该工具提供了底层优化方案，有助于提升集群稳定性与效率。项目专注于实用基础设施的稳定性，确保支持高密度 AI 计算集群的电力与网格系统运行无忧。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "C++"
-    ],
-    "link": "https://github.com/MaximiH-86/GridPulse_Production_Server",
-    "date": "2026-08-10",
-    "id": "17864249607464"
   }
 ]
