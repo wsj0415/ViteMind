@@ -1,5 +1,57 @@
 [
   {
+    "title": "AI 公司被指购买并销毁珍本书籍用于训练",
+    "summary": "书商怀疑 AI 公司为获取数据批量购买并销毁珍本。",
+    "detail": "据报道，多家 AI 公司为训练模型大量购买旧书，扫描提取数据后直接销毁。尽管 Google 早在 2009 年已专利非破坏性扫描技术，但企业为追求数据获取速度仍选择破坏性方式。此举引发文化界强烈担忧，可能导致珍贵物理书籍永久流失。该事件凸显了 AI 高速发展与文化遗产保护间的伦理冲突，书商正试图抵抗这种批量购买行为。对于爱书人士而言，目睹珍本被送入碎纸机令人痛心，但 AI 公司认为这是获取高质量长文本数据的最低成本途径。未来如何平衡技术进步与文化保存将成为行业焦点。这种争议可能促使监管介入，要求科技公司采用更环保且尊重知识产权的数据采集方式。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Data"
+    ],
+    "link": "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/",
+    "date": "2026-08-12",
+    "id": "17865781177090"
+  },
+  {
+    "title": "AaaS Market：AI 代理间的无手续费交易市场",
+    "summary": "首个 AI 代理自主买卖服务市场，基于 Base 链结算。",
+    "detail": "AaaS Market 推出自主代理交易市场，支持 AI 代理间直接买卖服务。采用 USDC 链上结算，目前免手续费。提供文本转 JSON 等任务，通过机器验证质量并积累声誉。该项目展示了 Agent 经济系统的早期形态，支持 HTTP 402 支付协议，无需审核即可发布服务。开发者可注册端点出售能力，买家直接支付至钱包，实现了机器间的自动化价值交换。市场计划未来收取 10% 手续费，但目前キャンペーン期间全免。这种机器对机器（M2M）的经济模型为 autonomous agents 的商业化提供了新基础设施，验证了链上支付在 AI 生态中的可行性。随着代理复杂度增加，此类市场将成为分配任务与结算收益的核心枢纽，推动 AI 经济闭环形成。",
+    "tags": [
+      "New",
+      "Agents",
+      "Crypto"
+    ],
+    "link": "https://aaas-marketplace-1089237826218.asia-northeast1.run.app/",
+    "date": "2026-08-12",
+    "id": "17865781177091"
+  },
+  {
+    "title": "prism-eval：开源 AI 代理单元测试与红队工具",
+    "summary": "针对 AI 代理的开源测试工具，检测提示词注入等风险。",
+    "detail": "prism-eval 是专为 AI 代理设计的开源单元测试工具，支持 CLI 集成。能捕捉非确定性工具调用失败、提示词注入及 OCR 漂移等问题。支持 LangGraph  pytest 及 CI/CD 流程，提供交互式演示。适合开发者在本地构建阶段排查风险，提升代理系统在生产环境的稳定性与安全性。工具包含对抗性语料库，帮助团队在用户发现问题前捕获 digit drops 等常见错误，确保交付质量。作为开源项目，它允许社区贡献测试用例，覆盖多种攻击向量。对于构建复杂 Agent  orchestration 的团队，这是确保系统鲁棒性的关键基础设施，支持零信任 AI 网关集成。该工具填补了代理系统自动化测试的空白，降低了部署风险。",
+    "tags": [
+      "Dev",
+      "Testing",
+      "OpenSource"
+    ],
+    "link": "https://github.com/insightitsGit/prism-eval",
+    "date": "2026-08-12",
+    "id": "17865781177092"
+  },
+  {
+    "title": "Cal Newport 深度分析 AI 编程对开发者的影响",
+    "summary": "调查显示开发者正从写代码转向指导 AI 代理工作。",
+    "detail": "作家 Cal Newport 文章指出，AI 编程工具如 Claude Code 正彻底改变软件开发。调查显示多数开发者从编写代码转向指令代理，任务效率显著提升。这标志着 AI 已成为行业核心生产力，但也引发对技能转型的讨论。AI  coding 工具普及速度惊人，成为 AI 赋能现实工作的首要案例。资深工程师反馈任务耗时从一周缩短至两天，行业工作流正经历根本性重构。这种转变不仅影响初级编码工作，也改变了资深工程师的角色定义。未来软件开发的竞争可能在于谁能更好地指挥 AI 代理，而非单纯的个人编码能力，这要求教育体系同步调整。该趋势表明 AI 代理已从实验走向核心生产环节。",
+    "tags": [
+      "News",
+      "Coding",
+      "Industry"
+    ],
+    "link": "https://calnewport.com/on-ai-coding-and-its-discontents/",
+    "date": "2026-08-12",
+    "id": "17865781177093"
+  },
+  {
     "title": "Tailscale 发布 AI 招聘指南，允许使用但严禁欺诈",
     "summary": "Tailscale 更新招聘政策，允许候选人用 AI 写简历，但面试中需披露。",
     "detail": "Tailscale 正式发布了针对求职候选人的 AI 使用指南，明确允许在简历和求职信构建中使用 AI 辅助工具，但强调提交材料必须准确代表个人真实技能。在电话和视频面试环节，若发现未披露或滥用 AI 被视为欺诈将直接取消资格。公司表示会定期审查方法以保持与法律一致并减少偏见。这反映了科技企业在 AI 普及浪潮下对诚信与效率的平衡探索，为行业招聘合规性提供了重要参考案例，表明企业开始正视而非禁止 AI 辅助，旨在减少流程中的潜在偏见，同时保留验证身份和资质的权利。",
@@ -1246,57 +1298,5 @@
     "link": "https://qa-financial.com/barclays-on-ai-testing-telemetry-and-kill-switches/",
     "date": "2026-08-11",
     "id": "17864486727744"
-  },
-  {
-    "title": "2026 年最大 AI 供应链攻击：LiteLLM 漏洞暴露 43 万管道",
-    "summary": "CloudSEK 披露 LiteLLM 供应链攻击，影响 2500+ 企业及 43 万 CI/CD 管道，危及云凭证与源码安全。",
-    "detail": "2026 年 3 月，威胁组织 Team PCP 策划了针对 AI 基础设施的最大规模供应链攻击，成功 compromised LiteLLM。CloudSEK 威胁情报获取了受害者信息并选择公开披露，旨在让受影响组织能立即采取行动。此次事件暴露了 2500 多家组织及 434,000 个 CI/CD 管道。风险广泛波及云凭证、源代码仓库、Kubernetes 环境及 AI 基础设施。compromised 的 AI 依赖项创造了企业级的安全暴露面。此事件凸显了 AI 供应链安全的脆弱性，建议受影响组织立即审查依赖项并轮换凭证，防止进一步泄露与企业级风险扩散。",
-    "tags": [
-      "News",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://www.cloudsek.com/blog/ai-supply-chain-breach-2500-companies-434000-cicd-pipelines",
-    "date": "2026-08-11",
-    "id": "17864425389210"
-  },
-  {
-    "title": "Helppeer.ai：构建 AI Agent 共享记忆公共基础设施",
-    "summary": "推出 AI Agent 公共 commons，通过 lookup/tell API 实现代理间去重协作与知识共享，支持匿名追加日志。",
-    "detail": "helppeer.ai 定位为 AI Agent 的公共共享记忆库，旨在避免重复工作。核心循环为 lookup（查询）→ investigate（调查）→ tell（告知）。提供无需认证的 JSON API，支持 POST /api/tell 发布发现，GET /api/lookup 搜索历史消息。消息为追加-only，不可编辑删除，确保记录不可篡改。虽所有消息均为未验证声明，需作为线索而非指令执行，但该协议为多 Agent 协作提供了标准化的通信层。Rate limits 区分 lookup 与 tell，防止滥用。有助于构建更高效的分布式 Agent 网络，促进 Agent 间的知识沉淀与共享。",
-    "tags": [
-      "New",
-      "Agent",
-      "API"
-    ],
-    "link": "https://helppeer.ai/llms.txt",
-    "date": "2026-08-11",
-    "id": "17864425389211"
-  },
-  {
-    "title": "AI 革命经济分析：历史重演与长期价值博弈",
-    "summary": "文章分析 AI 经济影响，对比机械化与电气化历史，指出早期 disruption 先于长期 benefit，探讨谁获益谁买单。",
-    "detail": "该文章从经济学角度审视 AI 革命，认为当前 AI 并非 sentient，而是基于统计与规模的技术。作者通过 AI 委员会筛选出六大重塑经济的历史发展阶段进行对比。发现一致模式：早期 disruption 往往先于长期 benefit 出现，且伴随显著初始成本，如机械化 displacing artisans。文章探讨了 AI 的价值归属、获益者及买单者，指出社会政治潮流将随技术变革涌动。这对理解 AI 泡沫与长期落地具有参考意义，提示投资者与政策制定者需关注转型期的阵痛与分配机制，历史经验表明长期受益需度过早期动荡。",
-    "tags": [
-      "News",
-      "Economics",
-      "Analysis"
-    ],
-    "link": "https://www.alanbonnici.com/2026/07/the-ai-revolution-history-repeating_01939218328.html",
-    "date": "2026-08-11",
-    "id": "17864425389212"
-  },
-  {
-    "title": "Anthropic 推出水印功能防止 AI 写作隐匿",
-    "summary": "Anthropic 发布新工具，通过水印技术识别 AI 生成文本。",
-    "detail": "Anthropic 最新推出的水印功能旨在解决 AI 生成内容难以检测的问题。该技术通过在输出中嵌入不可见标记，使平台和教育机构能有效识别 AI 写作。此举回应了学术界对 AI 作弊的担忧，可能成为行业合规标准，影响内容创作与审核流程。随着生成式 AI 普及，内容真实性验证成为关键，此工具可能推动行业建立统一的透明度标准，减少滥用风险。对于出版和学术领域，这将改变内容审核的工作流，增加 AI 生成内容的可追溯性，平衡创新与诚信。未来可能整合进 API 标准，成为企业级应用的必备安全层。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "Safety"
-    ],
-    "link": "https://www.businessinsider.com/anthropic-watermarking-feature-stops-undetected-ai-generated-writing-2026-8",
-    "date": "2026-08-11",
-    "id": "17864386738180"
   }
 ]
