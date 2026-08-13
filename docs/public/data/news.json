@@ -1,5 +1,70 @@
 [
   {
+    "title": "美国超 70% 民众反对 AI 数据中心，抗议活动升级",
+    "summary": "调查显示多数美国人反对 AI 数据中心建设，抗议导致逮捕增加。",
+    "detail": "基于 Tom's Hardware 报道，最新调查显示超过 70% 的美国民众反对在其社区附近建设 AI 数据中心。随着 AI 工厂建设的推进，反对声音转化为实际行动，全美抗议活动显著升级。数据显示，今年已有近 40 人因参与反对 AI 基础设施建设的抗议活动而被捕。这反映了 AI 基础设施快速扩张与社区利益、环境担忧之间的深刻冲突。此类社会阻力可能影响科技巨头未来的数据中心选址策略、建设速度及合规成本。行业需密切关注公众舆论走向及潜在的政策监管风险，社会责任成为 AI 扩张的关键考量。",
+    "tags": [
+      "News",
+      "AI Infrastructure",
+      "Social Impact"
+    ],
+    "link": "https://www.tomshardware.com/tech-industry/data-centers/over-70-percent-of-americans-oppose-ai-data-centers-us-protests-intensify-as-more-arrests-are-being-made-almost-40-arrested-this-year-in-backlash-to-ai-factory-buildout",
+    "date": "2026-08-13",
+    "id": "17866018830410"
+  },
+  {
+    "title": "AIPass：具有持久身份与记忆的 AI Agent 工作区",
+    "summary": "开源项目 AIPass 旨在解决 AI Agent 记忆丢失问题，支持持久化身份。",
+    "detail": "AIPass 是一个开源的持久化 Agent 工作区项目，核心解决 AI Agent 在会话间记忆丢失的痛点。它赋予 Agent 持久的身份、记忆和电子邮件能力，支持协作且无需从零开始。基于 Python 3.10+ 开发，采用 MIT 许可协议，目前处于 Beta 阶段。该项目通过 persistent workspace 架构，允许 Agent 在长期任务中保持上下文连贯性，适合需要长期状态维护的多 Agent 协作场景。它为开发者提供了构建更智能、连贯 Agent 系统的基础设施，降低了开发具有长期记忆功能的 AI 应用的门槛，推动了 Agent 技术从单次对话向长期任务执行的演进。",
+    "tags": [
+      "Dev",
+      "AI Agent",
+      "Open Source"
+    ],
+    "link": "https://github.com/AIOSAI/AIPass",
+    "date": "2026-08-13",
+    "id": "17866018830411"
+  },
+  {
+    "title": "Watermarks-remover：移除多厂商 AI 溯源标记的工具",
+    "summary": "开源工具支持移除 Claude、Gemini 等模型的文本及文件 AI 水印。",
+    "detail": "该项目提供了一套 Python 脚本和 Agent 技能，用于移除多厂商的 AI 溯源标记。支持处理 Unicode 文本隐藏标记、统计性文本水印以及文件元数据（C2PA/EXIF 等）。兼容 Claude、Gemini、OpenAI 等主流模型的标记机制。适用于 PNG、PDF、DOCX 等多种文件格式。这引发了关于内容所有权与隐私的讨论，开发者强调工具仅用于“你拥有的内容”。对于需要清理 AI 生成内容痕迹的研究、隐私保护或内容二次创作场景具有技术参考价值。同时也凸显了 AI 内容溯源技术与反溯源技术之间的博弈正在加剧。",
+    "tags": [
+      "Dev",
+      "AI Safety",
+      "Python"
+    ],
+    "link": "https://github.com/guillaumemeyer/watermarks-remover",
+    "date": "2026-08-13",
+    "id": "17866018830412"
+  },
+  {
+    "title": "a2acompress：AI Agent 消息无损压缩编码方案",
+    "summary": "新编码格式实现 Agent 间通信减少 36% Token，支持无损往返。",
+    "detail": "a2acompress 是一种专为 Agent 到 Agent 握手设计的无损 wire format。在 ToolBench 轨迹测试中，相比传统方式减少了 36.6% 的 cl100k_base Token 消耗，且严格计算了每一字节的解码开销。支持字节级精确往返（byte-exact round trip）。适用于 LangGraph、CrewAI 等多 Agent 编排场景，能有效降低多 Agent pipeline 中的上下文窗口消耗，提升通信效率。对于构建低成本、高效率的复杂 Agent 系统具有重要的优化意义。随着多 Agent 系统复杂度增加，通信成本成为瓶颈，此类压缩方案将成为基础设施的重要组成部分。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Optimization"
+    ],
+    "link": "https://github.com/reh8n/a2acompress",
+    "date": "2026-08-13",
+    "id": "17866018830413"
+  },
+  {
+    "title": "技嘉推出 16GB 显存外置显卡盒，售价 699 美元专供 AI 推理",
+    "summary": "亚马逊上架新款 RTX 5060 Ti AI Box，配备 16GB 显存适合本地推理。",
+    "detail": "亚马逊上架了一款技嘉 AORUS RTX 5060 Ti AI Box 外置显卡。配备 16GB GDDR7 显存，128-bit 位宽，支持 PCIe 5.0 及 Thunderbolt 5 接口。售价 699 美元。该产品明确标记为\"AI Inference\"，表明硬件厂商开始针对本地 AI 推理需求优化消费级硬件。16GB 显存对于运行中等规模的本地 LLM 至关重要，解决了显存不足瓶颈。Thunderbolt 5 接口提供了高带宽连接，适合笔记本用户扩展 AI 算力。这是 AI 硬件下沉到消费级市场的信号，降低了个人开发者部署本地模型的门槛。",
+    "tags": [
+      "Deal",
+      "Hardware",
+      "AI Inference"
+    ],
+    "link": "https://www.amazon.com/GIGABYTE-Graphics-128-bit-Server-Grade-Thunderbolt/dp/B0GKFHSPN8",
+    "date": "2026-08-13",
+    "id": "17866018830414"
+  },
+  {
     "title": "OpenAI 发布企业 AI 应用报告：代理型 AI 正在崛起",
     "summary": "OpenAI 发布两项研究，揭示企业 AI 从辅助转向执行，前沿企业用量差距扩大。",
     "detail": "OpenAI 发布两项互补研究，揭示企业 AI 使用正从辅助转向执行阶段。前沿企业（前 10%）的输出 token 量是普通企业的 8.3 倍，差距正在扩大。Codex 在企业客户中生成的 token 占比达 64%，表明代理型 AI 正在承担更多实质性工作。报告建议企业应将代理与上下文工具连接，并建立明确的治理权限。这对企业部署 AI 代理具有指导意义，标志着 AI 从聊天机器人向工作流自动化的关键转变，企业需重视 Agent 治理与共享工作流的建立，以提升生产力。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.theguardian.com/technology/2026/aug/11/spotify-label-ai-artists-block-them-from-some-playlists",
     "date": "2026-08-11",
     "id": "17864711456705"
-  },
-  {
-    "title": "OpenAI 宣布解决 10 个开放数学难题",
-    "summary": "OpenAI 模型在 sphere packing 等数学问题上取得突破性进展。",
-    "detail": "OpenAI 宣布其 AI 模型解决了 10 个开放数学问题，包括改进球体 packing 的 Cohn-Elkies 边界。此举被视为 AI 在科学发现领域的\"Move 37\"时刻。球体 packing 与纠错码密切相关，该突破展示了 AI 在离散几何与傅里叶分析等领域的推理能力，预示着 AI for Science 的新里程碑。业余数学家亦可借此理解最新进展，AI 正成为连接不同数学分支的桥梁，加速人类对基础科学问题的探索与解决进程。",
-    "tags": [
-      "News",
-      "Research",
-      "Math"
-    ],
-    "link": "https://www.empirical.health/blog/ai-math-sphere-packing/",
-    "date": "2026-08-11",
-    "id": "17864711456706"
-  },
-  {
-    "title": "Kessa：AI 代理的可验证委托与认证系统",
-    "summary": "开源项目，为 AI 代理提供权限委托链及独立离线验证机制。",
-    "detail": "### 核心技术\nKessa 是一个针对 AI 代理权限管理的开源系统。它实现了人类到组织、组织到代理、代理到子代理的权限委托链，确保每一步权限只缩小不扩大。\n\n### 安全机制\n所有关键操作记录在防篡改链上，支持独立离线验证器（independent offline verifier）进行审计。即使单字节篡改，验证器也能精准定位失败条目。\n\n### 开发意义\n随着自主代理（Autonomous Agents）的普及，权限控制与行为审计成为关键痛点。Kessa 提供了基于 DID 文档的信任框架，为构建可信的多代理协作系统奠定了基础。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Open Source"
-    ],
-    "link": "https://github.com/Gneiss-Group/Kessa",
-    "date": "2026-08-11",
-    "id": "17864642490733"
-  },
-  {
-    "title": "VitCam：本地部署的开源 AI 视频监控平台",
-    "summary": "完全本地的开源 NVR 平台，支持设备端 AI 检测，数据不上云。",
-    "detail": "### 产品定位\nVitCam 是一个自托管、本地化的 AI 摄像头监控与视频分析平台。旨在为家庭和企业提供完全控制权的安防方案，数据永不上传外部服务器。\n\n### 技术优势\n兼容任何支持标准流协议 IP 摄像头，打破品牌锁定。在本地硬件上运行 AI 对象检测与运动触发录制，将传统监控升级为智能分析系统。\n\n### 适用场景\n适合对隐私敏感且希望避免订阅费用的用户。作为开源项目（AGPL v3），它允许开发者自由扩展功能，是边缘 AI 视频分析的典型应用。",
-    "tags": [
-      "New",
-      "Computer Vision",
-      "Edge AI"
-    ],
-    "link": "https://github.com/scwsoft/vitcam",
-    "date": "2026-08-11",
-    "id": "17864642490734"
-  },
-  {
-    "title": "Hexis：基于 Git 的 AI 代理技能与上下文管理系统",
-    "summary": "Bevel 平台开源核心，集中管理 AI 代理的技能、工具及知识库。",
-    "detail": "### 功能概述\nHexis 是一个为 AI 代理设计的集中管理平台，用于存储和管理公司的 AI 技能、工具及上下文知识。它是 Bevel 平台的开源核心部分。\n\n### 核心特性\n采用 Git  backed 架构，确保所有技能与工具版本可控、可审查且具备访问控制。任何 AI 代理均可调用这些标准化资源，促进企业级 AI 应用的规范化。\n\n### 开发者价值\n解决了企业在规模化部署 AI 代理时面临的上下文管理与权限混乱问题，为构建可维护的企业级 Agent 工作流提供了基础设施。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "Enterprise"
-    ],
-    "link": "https://github.com/Bevel-Software/Hexis",
-    "date": "2026-08-11",
-    "id": "17864642490735"
-  },
-  {
-    "title": "Anthropic 宣布为 Claude 模型添加水印以符合欧盟法规",
-    "summary": "Anthropic 将为 Claude 生成内容添加水印，以符合欧盟 AI 法案。",
-    "detail": "**Anthropic 正式确认**将为 Claude 系列模型生成的文本和文件添加数字水印，以严格遵守 8 月 2 日生效的欧盟 AI 法案透明度准则。公司采用 **C2PA 开放标准**，确保水印在文本被复制粘贴甚至部分编辑后依然存在。该功能将广泛应用于 Claude 平台 API、Claude Code 及 Cowork 等所有产品界面。此举标志着主流 AI 平台正加速应对全球监管审查，增强内容可追溯性，避免法律风险，同时回应了用户对于 AI 生成内容标识的强烈诉求。",
-    "tags": [
-      "News",
-      "Regulation",
-      "Anthropic"
-    ],
-    "link": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-models/",
-    "date": "2026-08-11",
-    "id": "17864603158350"
   }
 ]
