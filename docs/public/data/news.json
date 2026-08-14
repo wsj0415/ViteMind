@@ -1,5 +1,96 @@
 [
   {
+    "title": "n8n 与其他 AI 自动化平台部署对比指南",
+    "summary": "深入评估 AI 自动化平台的部署模型、可靠性及代理 AI 就绪度，避免供应商锁定。",
+    "detail": "本文深入探讨了如何选择工作流自动化平台以塑造未来三到五年的运营自由度。指南列出了评估生产基础设施的五大标准：部署模型与治理、执行可靠性与定价、集成深度与认证、Agentic AI 就绪度以及可观测性与成本控制。重点对比了 n8n 及其替代品，强调自托管选项和公平代码许可如何帮助团队避免供应商锁定。对于希望刷新技术栈或从零开始的开发者，这是一份关于维持部署控制权和 operational resilience 的关键参考，助您找到合适的 AI 自动化平台。",
+    "tags": [
+      "Dev",
+      "Automation",
+      "Infrastructure"
+    ],
+    "link": "https://blog.n8n.io/workato-alternatives-2/",
+    "date": "2026-08-14",
+    "id": "17867369738460"
+  },
+  {
+    "title": "AletheionAGI：为 AI 代理提供基于证据的记忆 grounding",
+    "summary": "新工具通过持久化上下文和授权证据，防止 AI 代理产生幻觉，确保输出可信。",
+    "detail": "AletheionAGI 推出了一种针对生产环境 AI 的“接地记忆”方案，旨在解决 AI 幻觉问题。它通过持久化上下文、授权证据和失败封闭边界，确保 AI 在到达客户之前不会 unsupported claims。该工具提供一次性付费模式，支持读者独立和命名空间隔离，已在冻结评估协议中通过多项安全控制测试。适合需要高可靠性 AI 回答的企业应用，将 AI 答案转化为客户信任，防止不安全输出逃逸。",
+    "tags": [
+      "New",
+      "AI Agents",
+      "Safety"
+    ],
+    "link": "https://www.aletheionagi.com/",
+    "date": "2026-08-14",
+    "id": "17867369738461"
+  },
+  {
+    "title": "Biasly.ai：利用 AI 检测媒体偏见与操纵手法",
+    "summary": "免费 beta 工具，逐句分析新闻与视频中的偏见技术及历史背景缺失。",
+    "detail": "Biasly 是一款 AI 驱动的媒体偏见分析工具，支持文章、文本及视频链接分析。它利用微调的 Transformer 分类操纵性句子，并结合 Claude AI 解释具体操纵技术（如错误对等、历史修正主义）。新功能是提供地缘政治、经济政策等领域的历史背景补充，所有引用均指向维基百科。目前 beta 期间免费，无需账户，适合关注媒体真实性的用户。工具能自动跟踪分页并分析多达 500 段，视频则按 1 分钟 segment 分析。",
+    "tags": [
+      "New",
+      "Media",
+      "Analysis"
+    ],
+    "link": "https://biasly.ai/",
+    "date": "2026-08-14",
+    "id": "17867369738462"
+  },
+  {
+    "title": "Z.ai 安全披露账本：收录 2436 个漏洞跨越 45 年",
+    "summary": "公开漏洞数据库显示平均漏洞潜伏期达 26.6 年，涵盖 Linux 内核及 WebKit 等。",
+    "detail": "Z.ai Security 发布了最新的安全披露账本，已收录 2436 项漏洞，其中 1097 项为严重及高危。数据显示漏洞影响时间跨度达 45 年，最早可追溯至 1981 年，平均潜伏期 26.6 年。最近收录的高危漏洞涉及 Linux 内核 6lowpan、WebKit 内存处理及 FreeBSD 参数验证等，为开发者和安全团队提供了重要的历史漏洞参考和风险评估数据。披露账本包含已公开和未公开漏洞详情，覆盖多个开源项目。",
+    "tags": [
+      "News",
+      "Security",
+      "Vulnerability"
+    ],
+    "link": "https://cvd.z.ai/",
+    "date": "2026-08-14",
+    "id": "17867369738463"
+  },
+  {
+    "title": "Simon Willison 访谈：AI 如何改变软件开发流程",
+    "summary": "Django 联合创始人分享 AI 生成代码的生产标准及工程管理新挑战。",
+    "detail": "在 Talking Postgres 播客中，Simon Willison 探讨了 AI 对软件构建方式的改变。他提出判断 AI 代码是否 ready 的标准是“能否向他人解释”，并指出瓶颈已从编写代码转变为理解代码。访谈还涉及工程管理技能在管理 AI 代理时的实用性，以及“功能便宜不代表都应该构建”的观点。为开发者应对 AI 辅助编程提供了深度见解，涵盖个人信誉、深度研究及 slop proxies 等话题，适合关注 AI 编程未来的工程师。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Coding"
+    ],
+    "link": "https://talkingpostgres.com/episodes/how-ai-is-changing-software-development-with-simon-willison",
+    "date": "2026-08-14",
+    "id": "17867369738464"
+  },
+  {
+    "title": "PrismManifest：为零信任 AI 代理执行提供参数网关",
+    "summary": "开源库确保只有签名的参数 manifests 才能进入确定性计算 DAG，防止金融错误。",
+    "detail": "PrismManifest 是一个用于确定性 AI 工具执行的零信任工具参数网关。它位于概率提取器（如 LLM）和确定性计算 DAG 之间，确保未验证的金钱值绝不进入计算流程。只有通过 Ed25519 签名的 ParameterManifest 才能清除边界，特别适用于金融科技场景，防止 AI 代理因幻觉导致的数据错误。支持 Python 3.10+ 及 Apache 2.0 许可，通过 CLI 和 PyPI 可用，是构建自诊断 AI 代理的关键安全组件。",
+    "tags": [
+      "Dev",
+      "Fintech",
+      "Security"
+    ],
+    "link": "https://github.com/insightitsGit/PrismManifest",
+    "date": "2026-08-14",
+    "id": "17867369738465"
+  },
+  {
+    "title": "英伟达 5000 亿美元计划席卷华尔街 AI 热潮",
+    "summary": "彭博社报道英伟达宏大计划引发华尔街关注，凸显 AI 基础设施投资 frenzy。",
+    "detail": "彭博社最新报道揭示，英伟达一项价值 5000 亿美元的宏伟计划正在席卷华尔街，引发新一轮 AI 投资狂热。该计划凸显了 AI 基础设施在当前金融市场中的核心地位，表明科技巨头对算力未来的巨大押注。这一动向不仅直接影响芯片行业股价，更将重塑全球科技投资格局，为 AI 产业链上下游带来深远影响。对于行业分析师而言，这是观察 2026 年 AI 资本流向、评估市场泡沫与真实需求的重要风向标，反映了 AI  frenzy 下的资本密集度。",
+    "tags": [
+      "News",
+      "Nvidia",
+      "Investment"
+    ],
+    "link": "https://www.bloomberg.com/news/articles/2026-08-14/nvidia-s-500-billion-plan-envelops-wall-street-in-its-ai-frenzy",
+    "date": "2026-08-14",
+    "id": "17867369738466"
+  },
+  {
     "title": "前 OpenAI 高管拟用 AI 治疗 POTS 疾病",
     "summary": "前 OpenAI 高管 Fidji Simo 计划利用 AI 技术攻克 POTS 疾病。",
     "detail": "前 OpenAI 高管 Fidji Simo 在接受采访时讨论了利用人工智能对抗体位性心动过速综合征（POTS）的计划。这标志着 AI 技术从通用领域向垂直医疗健康的深度渗透。该事件展示了 AI 在生物医学研究中的潜力，可能加速个性化医疗方案的开发，为慢性病患者带来新希望。此外，这也体现了科技高管跨界医疗的趋势，利用大模型处理能力分析复杂医疗数据，推动 AI for Science 落地。此举可能激励更多科技公司关注罕见病治疗，利用数据驱动方法优化诊断流程，具有显著的社会价值和行业示范效应，预示医疗健康将成为 AI 下一个重要前沿。",
@@ -1209,96 +1300,5 @@
     "link": "https://www.realclearmarkets.com/articles/2026/08/13/banning_open-weight_ai_models_could_cost_america_the_ai_race_1199984.html",
     "date": "2026-08-13",
     "id": "17866267045243"
-  },
-  {
-    "title": "苹果洽谈付费授权出版商内容以优化 Siri AI 性能",
-    "summary": "苹果正与出版商谈判，希望通过付费授权内容来提升 Siri 的 AI 能力。",
-    "detail": "华尔街日报独家报道，苹果正与多家出版商进行谈判，计划通过付费授权内容来显著提升 Siri 的 AI 驱动能力。此举旨在解决大模型训练数据的版权争议，同时增强语义理解与回答准确性。若达成合作，将为 AI 公司与传统媒体开辟新的授权商业模式，深刻影响行业数据获取策略与版权生态。",
-    "tags": [
-      "News",
-      "Apple",
-      "Siri"
-    ],
-    "link": "https://www.wsj.com/business/media/apple-in-talks-to-pay-publishers-to-improve-ai-powered-siri-0641f64b",
-    "date": "2026-08-13",
-    "id": "17866216687630"
-  },
-  {
-    "title": "Chisels 推出 AI 商店构建器，对话即可生成并发布店铺",
-    "summary": "Chisels 发布新工具，允许用户通过自然语言描述商品，AI 代理自动构建完整商店。",
-    "detail": "Chisels 发布全新 AI 商店构建器，允许用户通过自然语言描述商品，AI 代理即可自动构建完整商店前端与后端。支持一键发布，无需部署或密钥，用户拥有完整栈所有权及支付账户。这极大地降低了电商创业的技术门槛，展示了 Agent 在复杂全栈工作流中的自动化潜力与落地应用。",
-    "tags": [
-      "New",
-      "Agent",
-      "E-commerce"
-    ],
-    "link": "https://app.chisels.dev/",
-    "date": "2026-08-13",
-    "id": "17866216687631"
-  },
-  {
-    "title": "麻省理工评论调查揭示青少年对 AI  nuanced 看法",
-    "summary": "调查揭示青少年对 AI 态度复杂，不仅关注作弊，更担忧环境影响与创造力。",
-    "detail": "麻省理工科技评论深度采访 10-18 岁青少年，发现他们对 AI 态度远比预期复杂。不仅关注作弊，更担忧环境影响与创造力丧失。部分人因道德原因拒绝使用。这反映了下一代对 AI 伦理的早期觉醒，提示教育界与家长需关注技术价值观引导，而非单纯禁止或鼓励使用。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Survey"
-    ],
-    "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
-    "date": "2026-08-13",
-    "id": "17866216687632"
-  },
-  {
-    "title": "AI 照片增强功能可能扭曲科学记录，威胁档案真实性",
-    "summary": "AI 增强功能可能改变照片颜色，导致科学记录失真，档案库已发现伪造内容。",
-    "detail": "博客文章指出，手机内置 AI 增强功能可能改变照片颜色（如苍鹭雕像变灰），导致科学记录失真。eBird 等档案库已发现 AI 伪造内容混入。这警告了 AI 编辑工具在科学领域的滥用风险，呼吁科研与档案机构建立更严格的验证机制，保留原始数据真实性以防误导公众。",
-    "tags": [
-      "News",
-      "Science",
-      "Ethics"
-    ],
-    "link": "https://www.birdsoutsidemywindow.org/2026/08/12/ais-threat-to-science-media-archives/",
-    "date": "2026-08-13",
-    "id": "17866216687633"
-  },
-  {
-    "title": "数据显示多数开源仓库未因 AI 代码产生额外审查成本",
-    "summary": "Ambera 分析 5388 个仓库，发现 AI 代码未显著增加审查负担或降低质量。",
-    "detail": "Ambera 分析 5388 个开源仓库发现，56% 无 AI 归属标记。中位数显示 AI 代码未增加审查负担（0.5x 合并时间）。TypeScript 和 Python 社区接受度较高。数据表明 AI 辅助编程在当前工作流中并未显著降低代码质量或增加维护成本，打破了关于 AI 代码必然增加技术债务的担忧。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Data"
-    ],
-    "link": "https://forge.ambera.app/review-tax-index",
-    "date": "2026-08-13",
-    "id": "17866216687634"
-  },
-  {
-    "title": "Onshape 推出 FeatureScript MCP 服务器，实现文本生成 CAD",
-    "summary": "工程师可用自然语言生成自定义特征代码，无需编程专家知识，支持参数化工具复用。",
-    "detail": "Onshape Labs 推出 FeatureScript MCP 服务器，连接 AI 客户端与 CAD 软件。工程师可用自然语言生成自定义特征代码，无需编程专家知识。支持参数化工具复用。这标志着 AI 从生成内容向生成工程工具的转变，提升设计效率，为制造业 AI 应用提供了新的技术路径与集成方案。",
-    "tags": [
-      "Dev",
-      "CAD",
-      "MCP"
-    ],
-    "link": "https://www.onshape.com/en/blog/featurescript-mcp-server-enables-text-code-cad",
-    "date": "2026-08-13",
-    "id": "17866216687635"
-  },
-  {
-    "title": "AI 2027 进展追踪：现实进度达预测的 70%",
-    "summary": "AI 2027 场景追踪显示现实进度约为预测速度的 70%，方向合理但速度不均。",
-    "detail": "该追踪器专门对比 AI 2027 场景预测与现实进展，目前共追踪 53 项指标，其中 16 项已确认实现，3 项超前，8 项符合预期。整体速度比显示现实进展约为预测速度的 70%（0.70x）。具体来看，模型能力方面，OSWorld 基准已在 2025 年中达到 65%，但前沿模型训练进度稍缓。评估结论为“方向合理但速度不均”。这一数据为行业战略规划提供了客观的参考基准，表明虽然 AI 发展迅猛，但部分激进预测仍需时间验证，开发者与投资者需调整预期。持续监控有助于识别技术瓶颈与突破点。",
-    "tags": [
-      "News",
-      "Industry",
-      "Analysis"
-    ],
-    "link": "https://ai2027-tracker.com/",
-    "date": "2026-08-13",
-    "id": "17866156189130"
   }
 ]
