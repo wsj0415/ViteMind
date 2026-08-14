@@ -1,5 +1,70 @@
 [
   {
+    "title": "Google 允许用户移除 AI 生成内容的可见水印",
+    "summary": "Google 调整政策，允许用户移除其 AI 生成内容上的可见水印，引发隐私与版权新讨论。",
+    "detail": "Google 宣布了一项关于 AI 生成内容水印政策的重要调整。此前，为了标识 AI 生成内容，Google 会在图像或其他生成物上添加可见水印。新政策允许用户移除这些可见水印。这一举措旨在提升用户体验和内容的灵活性，但也引发了关于内容溯源、版权保护以及虚假信息传播的担忧。行业分析师认为，这标志着 AI 生成内容管理从“强制标识”向“用户自主权”的微妙转变，可能需要配合不可见水印或元数据技术来平衡安全与自由。",
+    "tags": [
+      "News",
+      "Google",
+      "AI Ethics"
+    ],
+    "link": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+    "date": "2026-08-14",
+    "id": "17867263678150"
+  },
+  {
+    "title": "事件驱动微服务架构：AI 系统扩展的关键模式",
+    "summary": "n8n 博客深入解析事件驱动微服务架构，探讨其在现代 AI 应用中的解耦与扩展优势。",
+    "detail": "n8n 发布了一篇关于事件驱动微服务架构的深度文章。文章指出，现代 AI 系统不再是孤立运行的，而是由 specialized elements 组成的网络。传统的同步 API 调用容易导致级联故障，而事件驱动架构（EDA）通过异步事件流实现服务解耦。核心组件包括事件生产者、消费者和代理（Broker）。对于 AI 开发者而言，这种架构特别适合处理 LLM 推理延迟、异步任务队列以及高并发场景，能有效提升系统的鲁棒性和实时响应能力，是构建大规模 AI 应用的重要参考。",
+    "tags": [
+      "Dev",
+      "Architecture",
+      "Microservices"
+    ],
+    "link": "https://blog.n8n.io/event-driven-microservices/",
+    "date": "2026-08-14",
+    "id": "17867263678151"
+  },
+  {
+    "title": "Beyond Bars AI：为监狱囚犯打造的专属 AI 聊天机器人",
+    "summary": "开发者 CJ Jones 为 incarcerated 父亲构建 AI 聊天bot，现已发展为 Beyond Bars AI 公司。",
+    "detail": "这是一个具有社会影响力的 AI 应用案例。技术分析师 CJ Jones 为了让 incarcerated 的父亲更好地与外界连接，开发了一款名为 Nova 的 AI 聊天机器人，运行于监狱提供的电子平板上。该工具基于 LLM 技术，能提供对话支持，但开发者明确警示其存在幻觉风险，不建议用于法律或医疗建议。该项目已从个人工具发展为盈利公司 Beyond Bars AI，展示了 AI 技术在特殊场景下的 humanitarian 应用潜力，同时也引发了关于数字鸿沟和技术accessibility 的思考。",
+    "tags": [
+      "New",
+      "Social Good",
+      "LLM"
+    ],
+    "link": "https://www.themarshallproject.org/2026/08/14/prison-ai-chatbot-nova-cj-jones",
+    "date": "2026-08-14",
+    "id": "17867263678152"
+  },
+  {
+    "title": "eve 推出 Foreman：自动化软件工厂新模板",
+    "summary": "eve 发布软件工厂模板，利用 Foreman 代理自动构建项目、关闭 GitHub Issue。",
+    "detail": "AI 开发工具 eve 在 X 平台上发布了新的软件工厂模板。该工具引入了名为 Foreman 的代理，能够协助开发者构建项目、处理 GitHub Issue 等任务。文档中包含了 agent-ready 的 recipes，可直接交给 coding agent 执行。这代表了 AI 编程助手从“代码补全”向“自主工程代理”的演进。对于开发团队而言，这意味着可以通过部署模板快速搭建自动化工作流，减少重复性劳动，提高软件交付效率，是 AI 赋能 DevOps 的最新实践。",
+    "tags": [
+      "Dev",
+      "Coding Agent",
+      "Automation"
+    ],
+    "link": "https://twitter.com/i/status/2088296448563503269",
+    "date": "2026-08-14",
+    "id": "17867263678153"
+  },
+  {
+    "title": "WakeAI：智能提醒出发时间的 AI 助理应用",
+    "summary": "App Store 上线 WakeAI，一款基于 AI 计算出发时间以防迟到的生产力工具。",
+    "detail": "WakeAI 是一款新上线的 iOS 生产力应用。其核心功能是利用 AI 助理分析用户的日程安排和交通状况，智能计算并提醒用户何时出发才能准时到达目的地，避免迟到。应用分类为生产力工具，支持免费下载及应用内购买。这类应用体现了 AI 在日常生活中的轻量化集成，通过简单的场景解决用户痛点。虽然技术门槛看似不高，但精准的时间预测需要整合地图数据与用户习惯模型，是 AI 落地 C 端场景的典型例子。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Mobile App"
+    ],
+    "link": "https://apps.apple.com/us/app/wakeai/id6755909459",
+    "date": "2026-08-14",
+    "id": "17867263678154"
+  },
+  {
     "title": "谷歌推出 HEIR 编译器实现隐私 AI 推理",
     "summary": "谷歌开源 HEIR 编译器，利用同态加密技术实现隐私安全的 AI 推理。",
     "detail": "谷歌宣布推出私有计算工具包最新工具 HEIR，这是一个开源编译器，旨在解锁加密安全的私有 AI 推理。通过同态加密技术，服务器可直接在加密数据上进行计算，无需暴露底层信息。这解决了隐私与功能之间的权衡，特别适用于医疗和金融等敏感领域。随着成本降低，该技术将使私有 AI 更具实用性，平衡数据安全与服务功能。",
@@ -1235,70 +1300,5 @@
     "link": "https://www.amazon.com/GIGABYTE-Graphics-128-bit-Server-Grade-Thunderbolt/dp/B0GKFHSPN8",
     "date": "2026-08-13",
     "id": "17866018830414"
-  },
-  {
-    "title": "OpenAI 发布企业 AI 应用报告：代理型 AI 正在崛起",
-    "summary": "OpenAI 发布两项研究，揭示企业 AI 从辅助转向执行，前沿企业用量差距扩大。",
-    "detail": "OpenAI 发布两项互补研究，揭示企业 AI 使用正从辅助转向执行阶段。前沿企业（前 10%）的输出 token 量是普通企业的 8.3 倍，差距正在扩大。Codex 在企业客户中生成的 token 占比达 64%，表明代理型 AI 正在承担更多实质性工作。报告建议企业应将代理与上下文工具连接，并建立明确的治理权限。这对企业部署 AI 代理具有指导意义，标志着 AI 从聊天机器人向工作流自动化的关键转变，企业需重视 Agent 治理与共享工作流的建立，以提升生产力。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Enterprise"
-    ],
-    "link": "https://openai.com/index/how-enterprises-put-ai-to-work/",
-    "date": "2026-08-13",
-    "id": "17865948422330"
-  },
-  {
-    "title": "疑似中国黑客利用 AI 代理攻击台湾核安机构",
-    "summary": "安全公司披露疑似中国黑客利用开源 AI 代理框架，发动近自主网络攻击。",
-    "detail": "以色列网络安全公司 Dream 披露，疑似中国黑客利用公开的 AI 代理工具（基于 Hermes 和 OpenClaw），对台湾核安机构及能源公司发动“近自主攻击”。攻击发生在 7 月初，涉及 8 个子代理和 12 波攻击 wave，窃取了 2500 多条 personnel 记录。这标志着 AI 代理在网络战中的实际应用风险，警示关键基础设施需加强针对 AI 自动化攻击的防御。研究人员发现操作文档指向中文 оператор，但未正式归因于中国政府。此次事件凸显了 AI 武器化的现实威胁。",
-    "tags": [
-      "News",
-      "Security",
-      "AI Agents"
-    ],
-    "link": "https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055",
-    "date": "2026-08-13",
-    "id": "17865948422331"
-  },
-  {
-    "title": "Show HN：首个 AI 智能体记忆系统公开评测榜单发布",
-    "summary": "Agent Memory Leaderboard 上线，提供文本与代码智能体记忆系统的公开基准测试。",
-    "detail": "社区发布了首个 Agent Memory Leaderboard，旨在一致评估流程下比较文本和代码代理的记忆系统。榜单涵盖显式事实检索、多跳推理、时间序列推理等维度。InvMem 和 Refind 目前排名靠前。该基准为开发者选择记忆架构提供了客观依据，推动了 AI 代理长期记忆能力的标准化评估，是 Agent 开发领域的重要基础设施更新。支持学术与行业系统提交评测，有助于解决当前代理记忆能力参差不齐的问题，促进技术透明化。",
-    "tags": [
-      "Dev",
-      "Benchmark",
-      "Agents"
-    ],
-    "link": "https://agentmemoryleaderboard.ai/leaderboard/academic/textual",
-    "date": "2026-08-13",
-    "id": "17865948422332"
-  },
-  {
-    "title": "视频教程：如何利用本地大模型向儿童教授 AI 知识",
-    "summary": "新视频指南展示如何通过调整本地 Chatbot，安全地向孩子启蒙 AI 技术。",
-    "detail": "最新视频教程提出利用本地 LLM 作为儿童 AI 教育的最佳入口。通过让孩子微调本地运行的 Chatbot，既能保护隐私数据不出境，又能直观理解模型工作原理。这种方法避免了云端 API 的风险，适合家庭和教育场景。对于关注 AI 伦理教育和隐私保护的开发者及家长，提供了可落地的实践方案。视频由 Drew Breunig 发布，强调了本地部署在教育中的安全性与可控性，是 AI 科普教育的新方向。",
-    "tags": [
-      "Dev",
-      "Education",
-      "Local LLM"
-    ],
-    "link": "https://www.youtube.com/watch?v=fNkt41q7eqs",
-    "date": "2026-08-13",
-    "id": "17865948422333"
-  },
-  {
-    "title": "Show HN：Agle 上线，AI 代理自动处理社交媒体客户消息",
-    "summary": "新工具 Agle 允许创作者品牌使用 AI 代理 24/7 自动回复客户消息。",
-    "detail": "Agle 是一款面向创作者和品牌的 AI 客户管理工具。用户只需构建品牌页面，AI 即可基于知识库自动回答问题、处理投诉甚至预订会议。支持无代码设置，5 分钟内上线。它解决了创作者无法 24 小时在线回复私信的痛点，声称分辨率达 94%。适合独立开发者和小型品牌尝试自动化客户服务流程。免费开始无需信用卡，旨在帮助创作者从繁琐的客服中解放出来，专注于内容创作。",
-    "tags": [
-      "New",
-      "Customer Service",
-      "Agents"
-    ],
-    "link": "https://www.agle.app/",
-    "date": "2026-08-13",
-    "id": "17865948422334"
   }
 ]
