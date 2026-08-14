@@ -1,5 +1,70 @@
 [
   {
+    "title": "Lateos 推出机器付费 SOAR 数据集",
+    "summary": "面向 AI 代理的可执行剧本数据集，支持 HTTP 402 自动支付。",
+    "detail": "Lateos 发布 Golden v2 数据集，包含 8438 条经过质量控制的安全剧本，专为自主 AI 代理设计。核心创新在于通过 HTTP 402 协议实现机器间自动微支付，无需人工介入。支持 MCP 客户端，提供 OpenAPI 规范及 llms.txt。技术栈采用 Neon PostgreSQL 边缘服务，支持全文搜索。解决了安全数据集多为爬虫生成、不可执行的问题，为 AI 代理提供了高质量、可验证的知识源，推动了机器经济基础设施的发展，每条记录收费 0.05 美元。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Machine Payments"
+    ],
+    "link": "https://lateos.ai/soar/",
+    "date": "2026-08-14",
+    "id": "17866808190350"
+  },
+  {
+    "title": "2026 年 AI 搜索引擎引用策略分析",
+    "summary": "揭示 ChatGPT、Google 与 Perplexity 的引用逻辑差异。",
+    "detail": "Leapd.ai 分析 6.8 亿次引用发现，仅 11% 域名被多平台共同引用。AI 概述出现在 50% 搜索中，被引用页面点击率高 35%。文章指出各平台引用逻辑根本不同，品牌需针对性优化 GEO 策略。Perplexity 流量转化率是传统搜索的 11 倍。这标志着“位置零”已转变为 AI 生成答案中的引用，成为业务关键优先级。大多数品牌错误地将三者视为单一渠道，数据证明需差异化运营以获取高价值流量。",
+    "tags": [
+      "News",
+      "SEO",
+      "Generative Engine"
+    ],
+    "link": "https://www.leapd.ai/blog/ai-visibility/how-chatgpt-google-ai-overviews-and-perplexity-source-information-in-2026",
+    "date": "2026-08-14",
+    "id": "17866808190351"
+  },
+  {
+    "title": "AI 编程削弱静态类型语言优势",
+    "summary": "论证 AI 更关注 Token 效率而非类型安全。",
+    "detail": "文章提出 AI 编码改变了编程语言价值主张。静态类型语言曾因编译反馈受青睐，但 AI 能快速修复编译错误。对 AI 而言，语言差异主要在于表达相同想法所需的 Token 数量。更复杂的语言意味着更多 Token 和出错机会。这一观点挑战了传统开发观念，暗示未来语言选择将更倾向于简洁性而非严格的类型系统。作者认为依赖类型系统 catch 错误是人类的习惯，AI 并不需要同样的 guardrail。",
+    "tags": [
+      "Dev",
+      "Programming",
+      "LLM"
+    ],
+    "link": "https://yyhh.org/blog/2026/08/ai-coding-has-erased-the-supposed-advantage-of-statically-typed-languages/",
+    "date": "2026-08-14",
+    "id": "17866808190352"
+  },
+  {
+    "title": "AI 医疗书记员幻觉致患者受损",
+    "summary": "AI 记录错误声称患者吸毒，引发安全担忧。",
+    "detail": "澳大利亚患者 Rebecca Green 因 AI 医疗书记员幻觉遭受重创。AI 错误记录其服用致幻蘑菇，导致术后信函出现严重失实。隐私监管机构警告 AI 在医疗环境中存在“幻觉”风险，可能伪造症状。事件凸显了 AI 在高风险领域应用的信任危机，强调了人工审核的重要性及当前技术在敏感场景下的局限性。患者表示感到 impersonal，担心虚假记录对未来保险及护理产生巨大负面影响。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Healthcare"
+    ],
+    "link": "https://www.abc.net.au/news/2026-08-14/ai-medical-scribe-error-leaves-patient-devastated/107031672",
+    "date": "2026-08-14",
+    "id": "17866808190353"
+  },
+  {
+    "title": "开源 MLSecOps 安全实践指南发布",
+    "summary": "涵盖 AI 全生命周期的安全手册，支持 LLM/RAG。",
+    "detail": "GitHub 发布开源 MLSecOps 实用参考指南，旨在 securing AI systems。涵盖从数据训练到部署、监控的全 ML 生命周期安全。特别针对 LLM 和 RAG 架构提供安全建议。作为开源手册，它帮助开发者建立安全的 MLOps 流程，应对日益复杂的 AI 安全威胁。项目采用 CC BY-SA 4.0 许可，包含 SOC 和治理规范，填补了行业在标准化安全实践方面的空白，适合安全团队参考。",
+    "tags": [
+      "Dev",
+      "Security",
+      "MLOps"
+    ],
+    "link": "https://github.com/MHaghighian/MLSecOps",
+    "date": "2026-08-14",
+    "id": "17866808190354"
+  },
+  {
     "title": "Agentrove：自托管 AI 编码代理编排工作区",
     "summary": "支持多模型代理编排，提供 Docker 沙箱环境，统一界面管理编码任务。",
     "detail": "Agentrove 是一个开源的自托管 AI 编码工作区，旨在通过统一界面 orchestrate 多种 coding agents。它支持 Claude Code、Codex、Copilot、Cursor 等主流模型，并通过 ACP 适配器运行。核心技术亮点在于为每个工作空间提供独立的 Docker 或主机沙箱，确保代码执行安全。技术栈基于 Python 3.12 和 React 19，集成了聊天、代码编辑器、终端和文件树功能。对于开发者而言，这意味着可以在本地安全地管理多代理工作流，无需依赖云端服务，适合注重隐私和定制化的开发团队使用。",
@@ -1235,70 +1300,5 @@
     "link": "https://www.npr.org/2026/08/11/nx-s1-5927074/researchers-have-successfully-used-ai-to-create-brand-new-viruses",
     "date": "2026-08-12",
     "id": "17865506249990"
-  },
-  {
-    "title": "印度 AI 初创公司收购案因欺诈崩溃",
-    "summary": "2.5 亿美元收购案因伪造签名和欺诈告吹。",
-    "detail": "Minute Media 终止收购印度 AI 初创公司 VideoVerse，涉及 2.5 亿美元欺诈指控。创始人 Vinayak Shrivastav 面临法律诉讼，暴露了 AI 领域尽职调查的局限性与创业泡沫风险。投资者尚未获得收益，收购方强调发现重大陈述差异。此案例警示行业在高速发展中需加强合规审查，避免虚假繁荣掩盖真实风险，法律后果将严重影响创始人信誉。随着 AI 赛道投资升温，此类欺诈案件可能增多，投资机构需升级审核流程，关注技术真实性与财务健康，避免盲目追逐估值泡沫，维护市场健康生态。跨境收购尤其需注意法律差异，确保交易透明，防止类似损失再次发生，影响行业信心。",
-    "tags": [
-      "News",
-      "M&A",
-      "Fraud"
-    ],
-    "link": "https://techcrunch.com/2026/08/12/how-a-250-million-acquisition-collapsed-into-allegations-of-fraud-and-forged-signatures/",
-    "date": "2026-08-12",
-    "id": "17865506249991"
-  },
-  {
-    "title": "中国黑客对台湾发动自主 AI 网络攻击",
-    "summary": "金融时报报道前所未有的自主 AI 网络攻击事件。",
-    "detail": "FT 指出与中国有关的黑客利用“自主”AI 系统对台湾发动网络攻击。这是首次报道此类自主 AI 武器化应用，标志着网络战进入新阶段，地缘政治与 AI 安全交织。虽具体内容受订阅限制，但标题揭示了 AI 自主决策能力在军事领域的潜在应用。国际社会需关注此类技术扩散，建立网络空间行为准则，防止自动化攻击导致冲突升级。自主系统可能降低攻击门槛，增加误判风险，各国需加强防御体系建设。此事件可能推动网络安全 AI 研发投入，改变防御策略，从被动响应转向主动预测，保障关键基础设施安全。",
-    "tags": [
-      "News",
-      "Security",
-      "Cyberwar"
-    ],
-    "link": "https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795",
-    "date": "2026-08-12",
-    "id": "17865506249992"
-  },
-  {
-    "title": "Roku 推出首个 AI 电影创作者电视频道",
-    "summary": "Fairground 推出 dedicated AI 电影 FAST 频道。",
-    "detail": "Roku 合作 Fairground Entertainment 推出首个专注 AI 电影的 FAST 频道，汇集全球百位 AI filmmaker。标志着 AI 生成内容正式进入主流电视流媒体，内容生态正在快速形成。创作者可通过门户提交作品，商业合作同步开启。这为 AI 视频创作者提供了新的变现渠道，但也面临内容质量参差不齐的挑战，主流平台入场加速行业洗牌。用户接受度将成为关键，若内容质量持续低下，可能影响频道寿命。平台需平衡数量与质量，建立筛选机制，确保用户体验，推动 AI 内容产业健康发展，探索新的商业模式。",
-    "tags": [
-      "New",
-      "Media",
-      "AIGC"
-    ],
-    "link": "https://fairground.tv/",
-    "date": "2026-08-12",
-    "id": "17865506249993"
-  },
-  {
-    "title": "为何主流 AI 模型偏爱日本？",
-    "summary": "实验显示 ChatGPT 等模型对日本表现出偏好。",
-    "detail": "作者通过实验发现 ChatGPT、Gemini 等主流模型对日本相关查询表现出异常偏好。这揭示了训练数据分布或对齐策略中的潜在文化偏差，为模型公平性研究提供新案例。不同模型表现一致，暗示行业共性数据问题。开发者需注意此类偏差对全球化应用的影响，调整提示词或微调策略以平衡文化代表性，确保服务中立性。数据源多样性至关重要，避免单一文化主导模型行为。此现象可能引发关于 AI 文化帝国主义的讨论，促使公司优化数据收集策略，提升模型在全球市场的适应性与包容性。",
-    "tags": [
-      "News",
-      "LLM",
-      "Bias"
-    ],
-    "link": "https://utkarshx.substack.com/p/why-ai-models-love-japan",
-    "date": "2026-08-12",
-    "id": "17865506249994"
-  },
-  {
-    "title": "卫报批评 Roku AI 频道内容质量低下",
-    "summary": "媒体称 Roku AI 频道内容为“噩梦素材”。",
-    "detail": "卫报评论 Roku 的 AI 频道内容质量极差，称之为“垃圾内容”。这反映了当前 AI 生成视频在叙事和美学上的局限，主流化过程中面临质量与数量的矛盾。尽管平台试图推广 AI 创作，但用户体验不佳可能阻碍 adoption。行业需提升生成质量，而非仅追求数量，否则将损害消费者信任，影响 AI 媒体内容的长期商业化前景。早期采用者可能失望，导致市场降温。平台需引入人工审核或更高标准模型，改善内容质量，建立用户信任，否则快速扩张可能导致品牌受损，影响整个 AI 视频行业声誉。",
-    "tags": [
-      "News",
-      "Media",
-      "Critique"
-    ],
-    "link": "https://www.theguardian.com/tv-and-radio/2026/aug/12/roku-ai-slop-fairground-creator-tv-channel",
-    "date": "2026-08-12",
-    "id": "17865506249995"
   }
 ]
