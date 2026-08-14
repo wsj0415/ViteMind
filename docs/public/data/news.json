@@ -1,5 +1,31 @@
 [
   {
+    "title": "开源 AI 网关 Miser 优化模型成本",
+    "summary": "基于 Rust 的 AI 网关 Miser，通过 OpenRouter 路由请求至最便宜模型。",
+    "detail": "Miser 是一款开源的 Rust 编写 AI 网关，旨在通过 OpenRouter 将请求路由至最具成本效益的模型。支持启发式、本地 LLM 及混合分类模式，保留未知请求字段并转发流式响应。为开发者提供了降低 API 成本的有效方案，架构无状态且暴露路由元数据。默认混合模式保守，低延迟启发式结果被接受时置信度高。可通过配置 classifier.mode 灵活调整策略，适合需要成本优化的 AI 应用部署场景。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "LLM"
+    ],
+    "link": "https://github.com/rShetty/miser",
+    "date": "2026-08-14",
+    "id": "17866954138012"
+  },
+  {
+    "title": "PandaOS 打造开发者本地 AI 工作区",
+    "summary": "本地 AI 工作站 PandaOS，整合代码、工具与 AI Agent 至统一环境。",
+    "detail": "PandaOS 定位为构建者的本地 AI 工作区，旨在解决现代开发者工具链碎片化问题。它将代码、终端、浏览器及 AI Agent 整合至单一环境，提供多项目编排与持久化项目记忆功能。通过本地知识图谱学习基础设施，减少上下文切换，提升开发流效率。强调本地优先，数据不用于训练。界面直观，支持同时管理多个 repo 和脚本状态，无需在不同应用间手动切换，重塑开发者工作流。",
+    "tags": [
+      "New",
+      "DevTool",
+      "AI Agent"
+    ],
+    "link": "https://pandaos.ai/",
+    "date": "2026-08-14",
+    "id": "17866954138013"
+  },
+  {
     "title": "苹果联手阿里巴巴训练中国区 AI 模型",
     "summary": "路透社报道苹果与阿里巴巴合作，为中国市场训练专属 AI 模型。",
     "detail": "据路透社消息，苹果正与阿里巴巴合作，为中国市场训练专属 AI 模型。此举旨在符合当地监管要求并利用阿里的本土数据优势。标志着科技巨头在地缘政治下的 AI 战略调整，可能影响全球 AI 竞争格局。合作细节尚未完全披露，但显示跨国巨头在中国市场的本地化策略深化。此合作可能改变中国 AI 生态，影响用户隐私数据处理方式及模型性能表现，是 2026 年 AI 落地的重要里程碑。双方将共享部分算力资源，但核心算法仍由苹果掌控。这种合作模式可能成为跨国科技公司在受限市场运营的范本，同时也引发了关于数据主权和用户隐私保护的新一轮讨论，监管机构或将介入审查合作细节。",
@@ -1068,6 +1094,32 @@
     "id": "17865864238324"
   },
   {
+    "title": "Anthropic 全球推广 Claude 内容标记",
+    "summary": "Anthropic 将为 Claude 模型添加机器可读标记，以符合欧盟 AI 法案。",
+    "detail": "Anthropic 宣布在全球范围内为 Claude 模型添加机器可读的内容标记，始于欧盟模型。此举旨在帮助企业识别 AI 生成内容，符合欧盟 AI 法案第 50 条实践承诺。标记嵌入不可见水印及签名来源记录，但无法证明具体作者身份，可能仅表示有限协助如校对。这将对内容审核、排名及创作者评价产生深远影响，需警惕误读导致的污名化或工作受限。编辑或转换文件可能导致标记无法检测。企业和平台需权衡标记权重，避免简单化处理引发争议。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "Regulation"
+    ],
+    "link": "https://www.ainews.com/p/claude-ai-content-marks-will-go-global-but-cannot-prove-authorship",
+    "date": "2026-08-12",
+    "id": "17866954138010"
+  },
+  {
+    "title": "Comma AI 推出 Chestnut 计算升级套件",
+    "summary": "Comma AI 发布 Chestnut 硬件，支持在车端运行更大的 openpilot 模型。",
+    "detail": "Comma AI 推出名为 Chestnut 的计算升级套件，专为 comma four 设计。该硬件允许在设备端运行比以往更大的 openpilot 驾驶模型，标志着自动驾驶 intelligence density 的突破。依托 MLSim 架构，车队每日记录近百万分钟驾驶数据，实现了计算能力与模型性能的直接扩展。过去十年他们在 10W 算力 footprint 上交付了端到端规划。此次升级意味着可以运行比之前所有模型加起来都大的新模型，显著提升驾驶智能。",
+    "tags": [
+      "News",
+      "Autonomous Driving",
+      "Hardware"
+    ],
+    "link": "https://blog.comma.ai/chestnut/",
+    "date": "2026-08-12",
+    "id": "17866954138011"
+  },
+  {
     "title": "AI 通过模拟患者学习临床判断",
     "summary": "ResidencyRL 模型在 5.7 万模拟病例中训练，漏诊红旗信号率显著降低，获专家偏好。",
     "detail": "研究显示，AI 正在通过模拟患者咨询学习临床判断。ResidencyRL 项目基于 Gemini 3.5 Flash，在 57,453 个模拟病例中进行强化学习。模型学会了主动提问、发现缺失信息而非仅回答给定事实，解决了临床推理的序列问题。训练后，漏诊红旗信号率从 45.5% 降至 31.5%，87.6% 的情况下优于基线模型。这表明 AI 正从静态问答向动态诊疗流程演进，支持多轮对话与工具调用，但仍非自主医生，需人类监督。该研究强调了临床推理是序列问题，早期假设会改变后续提问。通过模拟住院医师循环，模型在完整虚拟咨询中训练而非孤立问题。这对于医疗 AI 落地具有里程碑意义，证明了强化学习在复杂决策场景的有效性，为未来 AI 辅助诊疗系统提供了新的技术路径与评估标准。",
@@ -1248,57 +1300,5 @@
     "link": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
     "date": "2026-08-12",
     "id": "17865615299330"
-  },
-  {
-    "title": "Twitch 默认使用主播内容训练 Amazon AI",
-    "summary": "Twitch 更新政策，默认允许使用流媒体内容训练 Amazon 生成式 AI 模型。",
-    "detail": "**Twitch** 宣布新设置，默认允许使用主播的流媒体内容（包括视频、聊天等）训练 **Amazon 的生成式 AI 模型**。用户需手动选择退出。此举引发隐私和版权担忧，凸显平台与创作者在 AI 数据使用权上的博弈。创作者若不主动设置，其内容将被用于模型训练，反映了 AI 数据采集的默认扩张趋势。这种默认 opting-in 机制可能成为行业常态，引发法律争议。平台利用用户生成内容优化自家模型，却未给予充分补偿，可能加剧创作者与平台间的信任危机，影响生态健康。",
-    "tags": [
-      "News",
-      "Data",
-      "Privacy"
-    ],
-    "link": "https://www.404media.co/twitch-training-amazon-ai-models-how-to-opt-out-setting/",
-    "date": "2026-08-12",
-    "id": "17865615299332"
-  },
-  {
-    "title": "AI 视频制作平台 Preview 获 1200 万美元种子轮",
-    "summary": "Sequoia 领投 Preview，旨在打造 AI 原生视频创作工作区。",
-    "detail": "AI 视频制作平台 **Preview** 完成 **1200 万美元** 种子轮融资，由 **Sequoia** 领投。该平台旨在构建 AI 原生的视频创作工作区，解决生成式视频模型与现有编辑 pipeline 脱节的问题。通过整合生成、审查和生产追踪，Preview 试图成为视频领域的 \"Cursors\"，推动 AI 视频从实验走向专业生产流程。这标志着 AI 视频工具链开始向专业化、集成化发展。视频创作正经历类似代码开发的 AI 化变革，原生工具将释放生成模型潜力，降低高质量视频制作门槛。",
-    "tags": [
-      "New",
-      "Video",
-      "Funding"
-    ],
-    "link": "https://sequoiacap.com/article/partnering-with-preview-lights-inference-action/",
-    "date": "2026-08-12",
-    "id": "17865615299333"
-  },
-  {
-    "title": "分析师警告 AI 泡沫与实验室盈利困境",
-    "summary": "Ed Zitron 在 CNBC 指出 AI 实验室普遍亏损，警告存在更大 AI 泡沫。",
-    "detail": "分析师 **Ed Zitron** 在 CNBC 节目中讨论 Nvidia、亏损的 AI 实验室及 **“更大的 AI 泡沫”**。他指出许多 AI 实验室尚未盈利，依赖巨额融资维持运营，市场可能存在估值过高风险。这一观点为火热的 AI 投资潮提供了冷静视角，提示投资者关注 AI 企业的实际商业化能力与可持续性，而非单纯的技术叙事。市场需警惕资本过热带来的潜在回调风险。尽管技术进步显著，但商业模式验证滞后，若无法实现盈利闭环，高估值可能难以维持，行业面临洗牌。",
-    "tags": [
-      "News",
-      "Market",
-      "Analysis"
-    ],
-    "link": "https://www.youtube.com/watch?v=8GWPjTDPVIM",
-    "date": "2026-08-12",
-    "id": "17865615299334"
-  },
-  {
-    "title": "OpenAI 支持 Thrive 融资 20 亿美元赋能企业",
-    "summary": "Thrive Holdings 获 20 亿美元融资，OpenAI 持股助推企业 AI 落地。",
-    "detail": "Thrive Holdings 完成 20 亿美元融资，估值达 120 亿美元，投资方包括软银等。作为 OpenAI 支持的私募股权公司，Thrive 旨在收购传统企业（如会计、IT）并深度集成 AI 工作流。OpenAI 不仅投资，还派遣员工协助实施，这种“手把手”模型已成为独立业务。类似地，Anthropic 也与私募合作推出部署公司。这标志着 AI 竞争从模型研发转向垂直领域落地，大型风投与模型厂商绑定成为新趋势，可能重塑企业软件服务格局，显示出资本对 AI 实施层的强烈信心。",
-    "tags": [
-      "News",
-      "Funding",
-      "Enterprise"
-    ],
-    "link": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
-    "date": "2026-08-12",
-    "id": "17865574471510"
   }
 ]
