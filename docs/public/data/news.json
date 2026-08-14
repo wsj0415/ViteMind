@@ -1,5 +1,57 @@
 [
   {
+    "title": "River AI 获 11 亿美元融资，初创两月颠覆企业 AI 格局",
+    "summary": "成立仅两个月的 River AI 获 11 亿美元融资，Nvidia 与 AMD 罕见联手投资，标志企业私有模型崛起。",
+    "detail": "2026 年 8 月，成立仅两个月的 River AI 宣布完成 11 亿美元融资，成为 AI 早期融资历史里程碑。创始人 Igor Babuschkin 来自 xAI 团队。投资方包括 General Catalyst、YC 及罕见的 Nvidia 与 AMD 联手。这标志着 AI 行业正从集中式大模型垄断，转向基于企业私有数据的个性化模型解决方案。对于中小企业而言，这意味着更低成本拥有专属 AI 能力，同时重塑搜索引擎可见性规则。硬件巨头的共同押注表明基础设施层正适应去中心化推理需求，私有模型将成为下一轮竞争焦点。此轮融资凸显资本市场对数据隐私与定制化需求的认可，预示企业级 AI 部署模式的重大转折。",
+    "tags": [
+      "News",
+      "Funding",
+      "Enterprise AI"
+    ],
+    "link": "https://neurise.io/blog-auto-1-1-mld-usd-dla-river-ai-rewolucja-spersonalizowanego-ai.html",
+    "date": "2026-08-14",
+    "id": "17867300903820"
+  },
+  {
+    "title": "API 认证方法全解析：从密钥到令牌的安全实践",
+    "summary": "n8n 详解 7 种 API 认证方法，对比 API Keys、mTLS 等方案的适用场景与安全权衡。",
+    "detail": "随着 AI 工作流集成增多，API 安全至关重要。n8n 发布指南详解 7 种认证方法。核心区分了认证（身份验证）与授权（权限控制）。文章对比了 API Keys（简单但长期）、Basic Auth（遗留系统）、mTLS（高安全但管理复杂）及 HMAC 等方案。开发者需根据调用者身份、信任边界及泄露风险选择。指南强调了强控制减少未授权访问，但增加管理成本。适合 AI Agent 开发中涉及敏感数据交换的场景，帮助团队在安全与效率间找到平衡，确保系统交互的可靠性与合规性，是后端开发必读指南。特别是在 AI 应用串联多个服务时，正确的认证策略能有效防止凭证泄露导致的连锁风险。",
+    "tags": [
+      "Dev",
+      "API",
+      "Security"
+    ],
+    "link": "https://blog.n8n.io/api-authentication-methods/",
+    "date": "2026-08-14",
+    "id": "17867300903821"
+  },
+  {
+    "title": "Inherent Labs 推出 Faraday 代理，AI 科学家复现研究能力超越 GPT-5.5",
+    "summary": "27B 参数 Faraday 代理通过长程 RL 训练，在科研复现任务上击败 Claude Opus 4.8 与 GPT-5.5。",
+    "detail": "Inherent Labs 发布新论文，推出名为 Faraday 的 27B 参数 AI 科学家代理。该模型通过长程强化学习（RL）结合代码代理工具训练，专注于复现科研论文结果。在 Replica 任务集上，Faraday 在 ML 及 AI for Science 领域的复现评分优于 Claude Opus 4.8 和 GPT-5.5。研究旨在让 AI 从单纯复现走向创新。这展示了小参数模型在特定垂直任务上超越通用大模型的潜力，为自动化科研流程提供了新基准，可能加速科学发现周期。该成果证明专用代理在复杂推理任务上的优势，为科研自动化开辟新路径。未来 AI 科学家不仅限于复现，还将参与假设生成与实验设计，推动科研范式变革。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Research"
+    ],
+    "link": "https://inherentlabs.ai/research/training-to-replicate",
+    "date": "2026-08-14",
+    "id": "17867300903822"
+  },
+  {
+    "title": "O'Reilly 深度分析：为何开源架构是 AI 发展的关键",
+    "summary": "回顾 Web 发展史，论证开源模块化架构（如 Apache）优于封闭集成，为 AI 生态提供借鉴。",
+    "detail": "O'Reilly 回顾 1995 年 Web 服务器之争，指出 Netscape 与 Microsoft 的封闭集成败给了开源 Apache。核心在于模块化与可扩展性，即“参与式架构”。文章论证该历史规律同样适用于 AI 行业。开源模型与工具链允许开发者无需许可即可扩展功能，形成生态护城河。相比封闭系统，开源能促进分布式创新。这对当前 AI 巨头垄断趋势提出警示，建议开发者关注开源栈，确保技术可控性与长期演进能力，避免被单一平台锁定。开源不仅是许可问题，更是关于创新速度与生态活力的战略选择，值得从业者深思。构建开放架构将有助于避免重蹈 Web 早期垄断覆辙，促进 AI 技术健康普及。",
+    "tags": [
+      "News",
+      "Open Source",
+      "Industry"
+    ],
+    "link": "https://www.oreilly.com/radar/why-open-source-matters-for-ai/",
+    "date": "2026-08-14",
+    "id": "17867300903823"
+  },
+  {
     "title": "Google 允许用户移除 AI 生成内容的可见水印",
     "summary": "Google 调整政策，允许用户移除其 AI 生成内容上的可见水印，引发隐私与版权新讨论。",
     "detail": "Google 宣布了一项关于 AI 生成内容水印政策的重要调整。此前，为了标识 AI 生成内容，Google 会在图像或其他生成物上添加可见水印。新政策允许用户移除这些可见水印。这一举措旨在提升用户体验和内容的灵活性，但也引发了关于内容溯源、版权保护以及虚假信息传播的担忧。行业分析师认为，这标志着 AI 生成内容管理从“强制标识”向“用户自主权”的微妙转变，可能需要配合不可见水印或元数据技术来平衡安全与自由。",
@@ -1248,57 +1300,5 @@
     "link": "https://www.tomshardware.com/tech-industry/data-centers/over-70-percent-of-americans-oppose-ai-data-centers-us-protests-intensify-as-more-arrests-are-being-made-almost-40-arrested-this-year-in-backlash-to-ai-factory-buildout",
     "date": "2026-08-13",
     "id": "17866018830410"
-  },
-  {
-    "title": "AIPass：具有持久身份与记忆的 AI Agent 工作区",
-    "summary": "开源项目 AIPass 旨在解决 AI Agent 记忆丢失问题，支持持久化身份。",
-    "detail": "AIPass 是一个开源的持久化 Agent 工作区项目，核心解决 AI Agent 在会话间记忆丢失的痛点。它赋予 Agent 持久的身份、记忆和电子邮件能力，支持协作且无需从零开始。基于 Python 3.10+ 开发，采用 MIT 许可协议，目前处于 Beta 阶段。该项目通过 persistent workspace 架构，允许 Agent 在长期任务中保持上下文连贯性，适合需要长期状态维护的多 Agent 协作场景。它为开发者提供了构建更智能、连贯 Agent 系统的基础设施，降低了开发具有长期记忆功能的 AI 应用的门槛，推动了 Agent 技术从单次对话向长期任务执行的演进。",
-    "tags": [
-      "Dev",
-      "AI Agent",
-      "Open Source"
-    ],
-    "link": "https://github.com/AIOSAI/AIPass",
-    "date": "2026-08-13",
-    "id": "17866018830411"
-  },
-  {
-    "title": "Watermarks-remover：移除多厂商 AI 溯源标记的工具",
-    "summary": "开源工具支持移除 Claude、Gemini 等模型的文本及文件 AI 水印。",
-    "detail": "该项目提供了一套 Python 脚本和 Agent 技能，用于移除多厂商的 AI 溯源标记。支持处理 Unicode 文本隐藏标记、统计性文本水印以及文件元数据（C2PA/EXIF 等）。兼容 Claude、Gemini、OpenAI 等主流模型的标记机制。适用于 PNG、PDF、DOCX 等多种文件格式。这引发了关于内容所有权与隐私的讨论，开发者强调工具仅用于“你拥有的内容”。对于需要清理 AI 生成内容痕迹的研究、隐私保护或内容二次创作场景具有技术参考价值。同时也凸显了 AI 内容溯源技术与反溯源技术之间的博弈正在加剧。",
-    "tags": [
-      "Dev",
-      "AI Safety",
-      "Python"
-    ],
-    "link": "https://github.com/guillaumemeyer/watermarks-remover",
-    "date": "2026-08-13",
-    "id": "17866018830412"
-  },
-  {
-    "title": "a2acompress：AI Agent 消息无损压缩编码方案",
-    "summary": "新编码格式实现 Agent 间通信减少 36% Token，支持无损往返。",
-    "detail": "a2acompress 是一种专为 Agent 到 Agent 握手设计的无损 wire format。在 ToolBench 轨迹测试中，相比传统方式减少了 36.6% 的 cl100k_base Token 消耗，且严格计算了每一字节的解码开销。支持字节级精确往返（byte-exact round trip）。适用于 LangGraph、CrewAI 等多 Agent 编排场景，能有效降低多 Agent pipeline 中的上下文窗口消耗，提升通信效率。对于构建低成本、高效率的复杂 Agent 系统具有重要的优化意义。随着多 Agent 系统复杂度增加，通信成本成为瓶颈，此类压缩方案将成为基础设施的重要组成部分。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Optimization"
-    ],
-    "link": "https://github.com/reh8n/a2acompress",
-    "date": "2026-08-13",
-    "id": "17866018830413"
-  },
-  {
-    "title": "技嘉推出 16GB 显存外置显卡盒，售价 699 美元专供 AI 推理",
-    "summary": "亚马逊上架新款 RTX 5060 Ti AI Box，配备 16GB 显存适合本地推理。",
-    "detail": "亚马逊上架了一款技嘉 AORUS RTX 5060 Ti AI Box 外置显卡。配备 16GB GDDR7 显存，128-bit 位宽，支持 PCIe 5.0 及 Thunderbolt 5 接口。售价 699 美元。该产品明确标记为\"AI Inference\"，表明硬件厂商开始针对本地 AI 推理需求优化消费级硬件。16GB 显存对于运行中等规模的本地 LLM 至关重要，解决了显存不足瓶颈。Thunderbolt 5 接口提供了高带宽连接，适合笔记本用户扩展 AI 算力。这是 AI 硬件下沉到消费级市场的信号，降低了个人开发者部署本地模型的门槛。",
-    "tags": [
-      "Deal",
-      "Hardware",
-      "AI Inference"
-    ],
-    "link": "https://www.amazon.com/GIGABYTE-Graphics-128-bit-Server-Grade-Thunderbolt/dp/B0GKFHSPN8",
-    "date": "2026-08-13",
-    "id": "17866018830414"
   }
 ]
