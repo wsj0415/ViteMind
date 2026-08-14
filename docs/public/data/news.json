@@ -1,5 +1,70 @@
 [
   {
+    "title": "SUSE 发布 AI 就绪企业级 Linux 服务器",
+    "summary": "SUSE 推出 SLES 16，专为 AI 工作负载优化，提供长期支持。",
+    "detail": "SUSE 正式发布 Linux Enterprise Server 16，强调\"AI-Ready\"特性。该版本针对 AI 训练和推理工作负载进行了内核级优化，提供长期支持（LTS），确保企业部署的稳定性。这对于需要在本地或混合云环境中部署大模型的企业至关重要，标志着基础设施层对 AI 原生支持的成熟，为底层算力调度提供了更可靠的操作系统保障，降低运维复杂度。",
+    "tags": [
+      "Dev",
+      "Linux",
+      "Infrastructure"
+    ],
+    "link": "https://www.suse.com/news/suse-linux-enterprise-server-16-ai-ready-long-term-support/",
+    "date": "2026-08-14",
+    "id": "17867395263550"
+  },
+  {
+    "title": "AletheionAGI 推出 AI 代理 grounding enforcement 工具",
+    "summary": "新工具通过持久化上下文和证据验证，防止 AI 幻觉。",
+    "detail": "AletheionAGI 在 Hacker News 展示新产品，专注于解决 AI 代理的幻觉问题。通过\"grounding enforcement\"技术，为 AI 提供可防御的记忆和授权证据，在 unsupported claims 到达客户前进行拦截。采用一次性付费模式，支持 BYOK。这对生产环境中的 AI 代理可靠性提升具有实际意义，解决了大模型落地中的信任难题，确保输出内容可追溯。",
+    "tags": [
+      "New",
+      "Agent",
+      "Safety"
+    ],
+    "link": "https://www.aletheionagi.com",
+    "date": "2026-08-14",
+    "id": "17867395263551"
+  },
+  {
+    "title": "AI 财富复兴有效利他主义运动",
+    "summary": "金融时报报道 AI 行业新贵重塑慈善格局，继 SBF 风波后回归。",
+    "detail": "金融时报深入分析 AI 行业产生的巨额财富如何重新推动“有效利他主义”（Effective Altruism）。在 Sam Bankman-Fried 丑闻后，该运动曾陷入低谷，但 AI 成功人士的资金注入使其复苏。这反映了 AI 技术红利正在转化为社会影响力投资，行业伦理与社会责任成为焦点，资本流向显示 AI 从业者对社会公益的关注度回升，有助于改善行业公众形象。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Finance"
+    ],
+    "link": "https://www.ft.com/content/938b4b82-06d2-4b92-a807-38d935d7d5c5",
+    "date": "2026-08-14",
+    "id": "17867395263552"
+  },
+  {
+    "title": "调查显示年轻人对 AI 信任度下降",
+    "summary": "最新调查指出年轻群体不再轻信 AI 及科技亿万富翁的宣传。",
+    "detail": "TechRadar 报道的一项调查显示，年轻人对 AI 技术及推崇 AI 的科技亿万富翁的信任度显著降低。这表明尽管技术快速发展，公众尤其是年轻一代对 AI 的潜在风险和社会影响持更谨慎态度。这对 AI 产品的市场推广和公众沟通策略提出了新的挑战，行业需正视信任危机并加强透明度建设，避免过度营销导致用户反感。",
+    "tags": [
+      "News",
+      "Survey",
+      "Social"
+    ],
+    "link": "https://www.techradar.com/pro/young-people-increasingly-dont-trust-ai-or-the-billionaires-that-keep-telling-us-we-should-all-love-ai-survey-finds",
+    "date": "2026-08-14",
+    "id": "17867395263553"
+  },
+  {
+    "title": "RPA 与工作流自动化：构建可持续的自动化架构",
+    "summary": "n8n 博客深度对比 RPA 与工作流自动化，指导技术选型。",
+    "detail": "n8n 官方博客发文探讨 RPA 与工作流自动化的核心区别。文章指出 RPA 模拟 UI 操作适合遗留系统，而工作流自动化基于 API 更适合现代架构的可扩展性和安全性。对于 AI 代理集成，选择合适的自动化底层架构直接影响系统的长期维护成本和稳定性，是开发者必读指南，有助于避免技术债务，提升系统可观测性与安全合规性。",
+    "tags": [
+      "Dev",
+      "Automation",
+      "Architecture"
+    ],
+    "link": "https://blog.n8n.io/rpa-vs-workflow-automation/",
+    "date": "2026-08-14",
+    "id": "17867395263554"
+  },
+  {
     "title": "n8n 与其他 AI 自动化平台部署对比指南",
     "summary": "深入评估 AI 自动化平台的部署模型、可靠性及代理 AI 就绪度，避免供应商锁定。",
     "detail": "本文深入探讨了如何选择工作流自动化平台以塑造未来三到五年的运营自由度。指南列出了评估生产基础设施的五大标准：部署模型与治理、执行可靠性与定价、集成深度与认证、Agentic AI 就绪度以及可观测性与成本控制。重点对比了 n8n 及其替代品，强调自托管选项和公平代码许可如何帮助团队避免供应商锁定。对于希望刷新技术栈或从零开始的开发者，这是一份关于维持部署控制权和 operational resilience 的关键参考，助您找到合适的 AI 自动化平台。",
@@ -1235,70 +1300,5 @@
     "link": "https://medium.com/@serkan_ozal/your-ai-qa-engineer-now-runs-on-every-vercel-preview-16ca2d9dc03a",
     "date": "2026-08-13",
     "id": "17866331496884"
-  },
-  {
-    "title": "研究：更快 AI 编码模型能否恢复开发者心流？",
-    "summary": "暂无研究证实延迟阈值，OpenAI 新模型流式输出超千 token。",
-    "detail": "现有研究尚未找到能恢复开发者心流的 AI 延迟阈值。分析指出，交互式工作需减少等待时间，而 delegated 工作更看重结果可信度。OpenAI 称 GPT-5.3-Codex-Spark 流式输出超 1000 tokens/秒。但缺乏涵盖随机延迟、真实编程及心理流验证的综合研究。行业需关注从“首字延迟”到“可接受变更”的全路径效率，而非单纯追求速度。开发者应区分互动与委托场景，优化评估指标，以真正提升生产力而非仅关注推理速度。未来研究需结合心理学与工程学，建立标准化的 AI 编码效率评估体系，指导模型优化方向。这为 AI 模型厂商提供了新的优化维度，即不仅追求快，更要追求对开发者工作流的无缝融入。",
-    "tags": [
-      "Dev",
-      "Research",
-      "LLM"
-    ],
-    "link": "https://viborc.com/can-faster-ai-inference-give-developers-their-flow-back/",
-    "date": "2026-08-13",
-    "id": "17866331496885"
-  },
-  {
-    "title": "编辑指南：如何识别 AI 生成的内容",
-    "summary": "资深编辑分享通过节奏和句式特征辨别机器写作的方法。",
-    "detail": "文章指出现实生活中 AI 生成内容日益普遍，甚至出现记者未删除 AI 编辑的情况。编辑通过拒稿经验总结，AI 写作常表现为过度使用短句，缺乏深度思考。虽然人类也能写短句，但 AI 往往节奏单一。文章强调，如果无人费心打磨内容，读者也不应被迫阅读。这反映了内容行业对原创性和人工编辑价值的重新审视，提醒消费者在信息过载时代需具备辨别能力，以维护高质量内容的生存空间。",
-    "tags": [
-      "News",
-      "Content",
-      "Detection"
-    ],
-    "link": "https://capx.co/an-editors-guide-to-spotting-ai-writing",
-    "date": "2026-08-13",
-    "id": "17866267045240"
-  },
-  {
-    "title": "Sovseal：跨 AI 代理的本地私有记忆层",
-    "summary": "实现本地加密记忆共享，支持 ChatGPT、Claude 等主流工具。",
-    "detail": "Sovseal 推出了一款可在本地设备上运行的私有记忆层，支持 ChatGPT、Claude、Cursor 等多种 AI 代理。其核心采用零知识架构，所有数据在客户端使用 AES-256-GCM 加密，服务器仅存储密文。本地向量搜索延迟极低（p50 仅 6.1ms），确保上下文在不同工具间 instant recall。这种设计解决了 AI 记忆碎片化问题，同时通过安全构造而非策略承诺隐私，为需要处理敏感数据的开发者和企业提供了新的基础设施选择。",
-    "tags": [
-      "New",
-      "Privacy",
-      "Agent"
-    ],
-    "link": "https://sovseal.com/",
-    "date": "2026-08-13",
-    "id": "17866267045241"
-  },
-  {
-    "title": "AI Flight Recorder：会话成本追踪与回放工具",
-    "summary": "开源工具帮助开发者记录、回放及追踪 AI 会话开销。",
-    "detail": "该项目在 Show HN 上发布，旨在解决 AI 应用开发中的成本监控与调试难题。工具支持记录 AI 会话、回放交互过程以及追踪每次调用的成本。在 AI 应用日益复杂的背景下，开发者需要精细管理 Token 消耗并复现问题场景以优化提示词工程。作为开源项目，它反映了社区对 AI 开发运维工具的需求增长，为构建可维护、经济高效的 AI 应用提供了必要的基础设施支持，适合需要严格控制预算的团队使用。",
-    "tags": [
-      "Dev",
-      "Tool",
-      "Cost"
-    ],
-    "link": "https://github.com/AllThingsSmitty/ai-flight-recorder",
-    "date": "2026-08-13",
-    "id": "17866267045242"
-  },
-  {
-    "title": "禁止开源权重模型可能令美国失去 AI 竞赛优势",
-    "summary": "文章警告政策限制可能阻碍创新，影响国家技术竞争力。",
-    "detail": "该新闻标题明确指出，禁止开源权重模型可能使美国在 AI 竞赛中付出代价。文章探讨了开放模型对国家技术竞争力的重要性，暗示政策限制可能削弱创新生态。虽然正文内容未完全展示，但标题已传达核心论点：开放权重模型是保持技术领先的关键。这反映了当前政策制定者与行业之间的紧张关系，提醒监管需平衡安全与竞争力，避免因过度限制而导致国家在全球 AI 格局中处于劣势，影响长期技术发展。",
-    "tags": [
-      "News",
-      "Policy",
-      "Open Source"
-    ],
-    "link": "https://www.realclearmarkets.com/articles/2026/08/13/banning_open-weight_ai_models_could_cost_america_the_ai_race_1199984.html",
-    "date": "2026-08-13",
-    "id": "17866267045243"
   }
 ]
