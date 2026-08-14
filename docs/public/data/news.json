@@ -1,5 +1,44 @@
 [
   {
+    "title": "AI 推荐系统偏见研究：巴厘岛 venues 审计",
+    "summary": "首份 AI 推荐审计报告显示，85.6% 的场馆未被任何 AI 系统推荐。",
+    "detail": "arXiv 论文对巴厘岛 4776 个场馆进行普查，评估 ChatGPT 等 4 个 AI 系统。发现 85.6% 场馆从未被推荐，即便有评分的场馆也有 72.6% 被忽略。可见性取决于文档化程度而非星级，且存在推荐已关闭场馆的“过时”问题。这为本地 SEO 和 AI 搜索优化提供了实证数据，表明传统评级体系在 AI 时代可能失效，文档完整性更为关键。",
+    "tags": [
+      "Dev",
+      "Research",
+      "LLM"
+    ],
+    "link": "https://arxiv.org/abs/2608.07069",
+    "date": "2026-08-14",
+    "id": "17867128291551"
+  },
+  {
+    "title": "HashAgent: 本地运行可分享的 AI Agent",
+    "summary": "通过 URL 分享私有 AI Agent，基于 WebGPU 在本地设备运行。",
+    "detail": "HashAgent 推出新架构，允许用户将 AI Agent 作为 URL 分享。核心特性是本地运行（Local by architecture），数据仅存内存，模型大小 360M-8B，支持 WebGPU。强调隐私与开源，无需服务器即可运行代理。这降低了 Agent 部署门槛，为隐私敏感型应用提供了新方案，开发者可直接在浏览器端运行复杂逻辑。",
+    "tags": [
+      "New",
+      "WebGPU",
+      "Agent"
+    ],
+    "link": "https://hashagent.pages.dev/",
+    "date": "2026-08-14",
+    "id": "17867128291552"
+  },
+  {
+    "title": "开源工具：追踪 AI 搜索引擎排名",
+    "summary": "自建 GitHub Action 追踪 ChatGPT 等 AI 是否引用你的网站。",
+    "detail": "GitHub 开源项目提供 DIY 方案，追踪 AI 搜索引擎（ChatGPT, Claude 等）在回答购买问题时是否提及或引用你的网站。通过定期采样模拟用户查询，区分“提及”与“引用”，替代昂贵的商业可见性工具。这使中小企业能低成本监控 AI 搜索排名，优化内容策略以适应生成式引擎的引用机制。",
+    "tags": [
+      "Dev",
+      "SEO",
+      "Tool"
+    ],
+    "link": "https://github.com/razz1000/ai-search-rank-tracking-example-repo",
+    "date": "2026-08-14",
+    "id": "17867128291554"
+  },
+  {
     "title": "AI 公司被曝扫描后销毁物理书籍引发伦理争议",
     "summary": "Anna's Archive 指控 AI 公司垄断知识，呼吁志愿者扫描珍本。",
     "detail": "Anna's Archive 发布文章指控多家 AI 公司通过中间人购买大量绝版书籍，扫描训练模型后销毁物理副本。此举旨在垄断训练数据并规避法律风险。Anthropic 的\"Project Panama\"被提及涉及其中，耗资数千万美元。该行为引发伦理争议，可能导致人类知识被永久锁定在私有服务器中。社区正呼吁志愿者抢救性扫描稀有书籍，以保护公共领域知识不被资本独占，强调这是对人类文化遗产的严重犯罪。",
@@ -1261,44 +1300,5 @@
     "link": "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/",
     "date": "2026-08-12",
     "id": "17865781177090"
-  },
-  {
-    "title": "AaaS Market：AI 代理间的无手续费交易市场",
-    "summary": "首个 AI 代理自主买卖服务市场，基于 Base 链结算。",
-    "detail": "AaaS Market 推出自主代理交易市场，支持 AI 代理间直接买卖服务。采用 USDC 链上结算，目前免手续费。提供文本转 JSON 等任务，通过机器验证质量并积累声誉。该项目展示了 Agent 经济系统的早期形态，支持 HTTP 402 支付协议，无需审核即可发布服务。开发者可注册端点出售能力，买家直接支付至钱包，实现了机器间的自动化价值交换。市场计划未来收取 10% 手续费，但目前キャンペーン期间全免。这种机器对机器（M2M）的经济模型为 autonomous agents 的商业化提供了新基础设施，验证了链上支付在 AI 生态中的可行性。随着代理复杂度增加，此类市场将成为分配任务与结算收益的核心枢纽，推动 AI 经济闭环形成。",
-    "tags": [
-      "New",
-      "Agents",
-      "Crypto"
-    ],
-    "link": "https://aaas-marketplace-1089237826218.asia-northeast1.run.app/",
-    "date": "2026-08-12",
-    "id": "17865781177091"
-  },
-  {
-    "title": "prism-eval：开源 AI 代理单元测试与红队工具",
-    "summary": "针对 AI 代理的开源测试工具，检测提示词注入等风险。",
-    "detail": "prism-eval 是专为 AI 代理设计的开源单元测试工具，支持 CLI 集成。能捕捉非确定性工具调用失败、提示词注入及 OCR 漂移等问题。支持 LangGraph  pytest 及 CI/CD 流程，提供交互式演示。适合开发者在本地构建阶段排查风险，提升代理系统在生产环境的稳定性与安全性。工具包含对抗性语料库，帮助团队在用户发现问题前捕获 digit drops 等常见错误，确保交付质量。作为开源项目，它允许社区贡献测试用例，覆盖多种攻击向量。对于构建复杂 Agent  orchestration 的团队，这是确保系统鲁棒性的关键基础设施，支持零信任 AI 网关集成。该工具填补了代理系统自动化测试的空白，降低了部署风险。",
-    "tags": [
-      "Dev",
-      "Testing",
-      "OpenSource"
-    ],
-    "link": "https://github.com/insightitsGit/prism-eval",
-    "date": "2026-08-12",
-    "id": "17865781177092"
-  },
-  {
-    "title": "Cal Newport 深度分析 AI 编程对开发者的影响",
-    "summary": "调查显示开发者正从写代码转向指导 AI 代理工作。",
-    "detail": "作家 Cal Newport 文章指出，AI 编程工具如 Claude Code 正彻底改变软件开发。调查显示多数开发者从编写代码转向指令代理，任务效率显著提升。这标志着 AI 已成为行业核心生产力，但也引发对技能转型的讨论。AI  coding 工具普及速度惊人，成为 AI 赋能现实工作的首要案例。资深工程师反馈任务耗时从一周缩短至两天，行业工作流正经历根本性重构。这种转变不仅影响初级编码工作，也改变了资深工程师的角色定义。未来软件开发的竞争可能在于谁能更好地指挥 AI 代理，而非单纯的个人编码能力，这要求教育体系同步调整。该趋势表明 AI 代理已从实验走向核心生产环节。",
-    "tags": [
-      "News",
-      "Coding",
-      "Industry"
-    ],
-    "link": "https://calnewport.com/on-ai-coding-and-its-discontents/",
-    "date": "2026-08-12",
-    "id": "17865781177093"
   }
 ]
