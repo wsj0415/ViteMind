@@ -1,5 +1,70 @@
 [
   {
+    "title": "法国初创 Kog 优化 GPU 推理速度",
+    "summary": "法国初创公司 Kog 通过软件优化，在标准数据中心 GPU 上实现极速推理。",
+    "detail": "法国初创公司 Kog 致力于通过软件优化挖掘标准数据中心 GPU 的推理潜力。其技术预览显示单请求解码速度可达 3000 tokens/s，旨在解决企业现有硬件的瓶颈问题。CEO 表示已获 200 个商业线索，首选用例为软件工程，针对 Claude Code 等工具的延迟痛点。这标志着在不更换硬件前提下提升 AI 效率的新方向，为拥有 AMD MI300X 或 NVIDIA H200 的企业提供了低成本升级方案。随着推理成本成为关键瓶颈，Kog 的方案可能改变企业采购策略，无需依赖专用芯片即可实现高性能推理，具有显著的商业落地价值。",
+    "tags": [
+      "Dev",
+      "Inference",
+      "GPU"
+    ],
+    "link": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+    "date": "2026-08-14",
+    "id": "17867191701810"
+  },
+  {
+    "title": "Meta 发布 Muse Glimmer 支持端侧 Agent",
+    "summary": "Meta 推出 300 亿参数开源模型 Muse Glimmer，支持 ExecuTorch 端侧部署。",
+    "detail": "Meta 正式发布开源权重模型 Muse Glimmer，参数量 30B，专为端侧 Agent 工作流设计。配合 ExecuTorch 框架，现支持在 NVIDIA GPU 及 Apple Silicon Mac 上运行。该技术通过端到端编译优化，支持 128K 上下文及 DFlash speculative decoding，显著降低延迟。此举推动了复杂模型在本地设备的落地，为开发者提供了高效的部署方案。无需重写模型代码，直接使用 PyTorch 导出即可，大幅降低了端侧智能应用的开发门槛，促进了本地 AI 生态的繁荣。对于隐私敏感型应用，本地推理将成为重要趋势。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "PyTorch"
+    ],
+    "link": "https://pytorch.org/blog/fast-ondevice-agentic-ai-with-executorch/",
+    "date": "2026-08-14",
+    "id": "17867191701811"
+  },
+  {
+    "title": "Canva 估值因 AI 冲击下调 100 亿美元",
+    "summary": "设计平台 Canva 估值大幅缩水，反映 AI 生成内容对传统 SaaS 的商业影响。",
+    "detail": "知名设计平台 Canva 最新估值下调 100 亿美元，主要原因是 AI 技术的现实冲击。随着生成式 AI 工具的普及，传统设计 SaaS 面临竞争压力及商业模式重构。这一事件凸显了 AI 浪潮下，非原生 AI 企业面临的估值修正风险，为行业敲响了关于技术迭代与商业护城河的警钟。投资者开始重新评估 AI 对传统创意软件市场的颠覆能力，预计未来将有更多类似估值调整出现。这表明 AI 不仅是增效工具，更是重塑市场格局的核心变量，企业需加快 AI 原生转型。",
+    "tags": [
+      "News",
+      "Market",
+      "SaaS"
+    ],
+    "link": "https://www.msn.com/en-au/money/news/sobering-markdown-canva-slashes-valuation-by-10b-as-ai-reality-bites/ar-AA2a5i6F",
+    "date": "2026-08-14",
+    "id": "17867191701812"
+  },
+  {
+    "title": "日本企业 AI 采用率远低于欧美",
+    "summary": "OECD 数据显示日本职场 AI 使用率仅 8.4%，远低于美国 50%，面临生产力挑战。",
+    "detail": "尽管面临劳动力短缺和老龄化，日本企业的 AI 采用率依然低迷。OECD 报告显示日本职场 AI 使用率仅为 8.4%，而美国为 50%，英国为 32%。文化保守性及决策流程缓慢是主要阻碍。这一反差揭示了全球 AI 发展的不平衡，也为针对日本市场的 AI 解决方案提供商指明了潜在的增长空间与阻力。政府与企业合作推动数字化转型将是关键，否则生产力差距将进一步拉大，影响国家竞争力。此现象警示全球企业，技术采纳不仅关乎工具，更关乎组织文化变革。",
+    "tags": [
+      "News",
+      "Adoption",
+      "Global"
+    ],
+    "link": "https://www.bbc.com/news/articles/cwymw4434v7o",
+    "date": "2026-08-14",
+    "id": "17867191701813"
+  },
+  {
+    "title": "开源工具可检测 AI 水印及来源证据",
+    "summary": "新 GitHub 项目提供 AI 内容溯源检测工作流，验证 C2PA 元数据存活率。",
+    "detail": "针对 AI 生成内容溯源难的问题，新开源工具 `ai-watermarks-reality-check` 提供了检测工作流。该工具不移除水印，而是检验 AI provenance 证据（如 C2PA 元数据）在发布流程中的存活情况。支持检测 Claude 模型文本水印及图像元数据，帮助团队建立可重复的隐私审计与披露检查流程，增强内容安全性。随着 AI 内容泛滥，此类验证工具将成为媒体与出版行业的标配，助力构建可信的 AI 内容生态。开发者可利用其七种代理技能进行自动化测试，确保合规性。",
+    "tags": [
+      "Dev",
+      "Security",
+      "OpenSource"
+    ],
+    "link": "https://github.com/Neeeophytee/ai-watermarks-reality-check",
+    "date": "2026-08-14",
+    "id": "17867191701814"
+  },
+  {
     "title": "AI 推荐系统偏见研究：巴厘岛 venues 审计",
     "summary": "首份 AI 推荐审计报告显示，85.6% 的场馆未被任何 AI 系统推荐。",
     "detail": "arXiv 论文对巴厘岛 4776 个场馆进行普查，评估 ChatGPT 等 4 个 AI 系统。发现 85.6% 场馆从未被推荐，即便有评分的场馆也有 72.6% 被忽略。可见性取决于文档化程度而非星级，且存在推荐已关闭场馆的“过时”问题。这为本地 SEO 和 AI 搜索优化提供了实证数据，表明传统评级体系在 AI 时代可能失效，文档完整性更为关键。",
@@ -1235,70 +1300,5 @@
     "link": "https://naga.ac/",
     "date": "2026-08-13",
     "id": "17865864238323"
-  },
-  {
-    "title": "企业如何落地 AI 治理：Operationalize 指南",
-    "summary": "详解 AI 治理原则与落地框架，涵盖欧盟 AI 法案及 ISO 标准。",
-    "detail": "指南定义 AI 治理为确保系统安全、伦理的过程，强调需建立组织架构而非仅靠政策。基于欧盟 AI 法案、ISO 42001 等框架，提供从风险评估到实施的具体路径，帮助企业合规运营 AI 及代理系统。有效治理需涵盖透明度、问责制及隐私保护，企业应设立指导委员会并定义风险偏好，以确保 AI 系统与人类目标一致，避免法律及声誉风险。随着监管趋严，Operationalize 治理成为企业刚需，需将合规融入开发全流程，而不仅是事后审查，确保长期可持续发展。",
-    "tags": [
-      "Dev",
-      "Enterprise",
-      "Governance"
-    ],
-    "link": "https://www.etherionconsulting.com/blog/what-is-ai-governance-and-how-to-operationalize-it/",
-    "date": "2026-08-13",
-    "id": "17865864238324"
-  },
-  {
-    "title": "Anthropic 全球推广 Claude 内容标记",
-    "summary": "Anthropic 将为 Claude 模型添加机器可读标记，以符合欧盟 AI 法案。",
-    "detail": "Anthropic 宣布在全球范围内为 Claude 模型添加机器可读的内容标记，始于欧盟模型。此举旨在帮助企业识别 AI 生成内容，符合欧盟 AI 法案第 50 条实践承诺。标记嵌入不可见水印及签名来源记录，但无法证明具体作者身份，可能仅表示有限协助如校对。这将对内容审核、排名及创作者评价产生深远影响，需警惕误读导致的污名化或工作受限。编辑或转换文件可能导致标记无法检测。企业和平台需权衡标记权重，避免简单化处理引发争议。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "Regulation"
-    ],
-    "link": "https://www.ainews.com/p/claude-ai-content-marks-will-go-global-but-cannot-prove-authorship",
-    "date": "2026-08-12",
-    "id": "17866954138010"
-  },
-  {
-    "title": "Comma AI 推出 Chestnut 计算升级套件",
-    "summary": "Comma AI 发布 Chestnut 硬件，支持在车端运行更大的 openpilot 模型。",
-    "detail": "Comma AI 推出名为 Chestnut 的计算升级套件，专为 comma four 设计。该硬件允许在设备端运行比以往更大的 openpilot 驾驶模型，标志着自动驾驶 intelligence density 的突破。依托 MLSim 架构，车队每日记录近百万分钟驾驶数据，实现了计算能力与模型性能的直接扩展。过去十年他们在 10W 算力 footprint 上交付了端到端规划。此次升级意味着可以运行比之前所有模型加起来都大的新模型，显著提升驾驶智能。",
-    "tags": [
-      "News",
-      "Autonomous Driving",
-      "Hardware"
-    ],
-    "link": "https://blog.comma.ai/chestnut/",
-    "date": "2026-08-12",
-    "id": "17866954138011"
-  },
-  {
-    "title": "AI 通过模拟患者学习临床判断",
-    "summary": "ResidencyRL 模型在 5.7 万模拟病例中训练，漏诊红旗信号率显著降低，获专家偏好。",
-    "detail": "研究显示，AI 正在通过模拟患者咨询学习临床判断。ResidencyRL 项目基于 Gemini 3.5 Flash，在 57,453 个模拟病例中进行强化学习。模型学会了主动提问、发现缺失信息而非仅回答给定事实，解决了临床推理的序列问题。训练后，漏诊红旗信号率从 45.5% 降至 31.5%，87.6% 的情况下优于基线模型。这表明 AI 正从静态问答向动态诊疗流程演进，支持多轮对话与工具调用，但仍非自主医生，需人类监督。该研究强调了临床推理是序列问题，早期假设会改变后续提问。通过模拟住院医师循环，模型在完整虚拟咨询中训练而非孤立问题。这对于医疗 AI 落地具有里程碑意义，证明了强化学习在复杂决策场景的有效性，为未来 AI 辅助诊疗系统提供了新的技术路径与评估标准。",
-    "tags": [
-      "News",
-      "Healthcare",
-      "RL"
-    ],
-    "link": "https://www.echohive.ai/ai-clinical-residency",
-    "date": "2026-08-12",
-    "id": "17866645004861"
-  },
-  {
-    "title": "AI 公司被指购买并销毁珍本书籍用于训练",
-    "summary": "书商怀疑 AI 公司为获取数据批量购买并销毁珍本。",
-    "detail": "据报道，多家 AI 公司为训练模型大量购买旧书，扫描提取数据后直接销毁。尽管 Google 早在 2009 年已专利非破坏性扫描技术，但企业为追求数据获取速度仍选择破坏性方式。此举引发文化界强烈担忧，可能导致珍贵物理书籍永久流失。该事件凸显了 AI 高速发展与文化遗产保护间的伦理冲突，书商正试图抵抗这种批量购买行为。对于爱书人士而言，目睹珍本被送入碎纸机令人痛心，但 AI 公司认为这是获取高质量长文本数据的最低成本途径。未来如何平衡技术进步与文化保存将成为行业焦点。这种争议可能促使监管介入，要求科技公司采用更环保且尊重知识产权的数据采集方式。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Data"
-    ],
-    "link": "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/",
-    "date": "2026-08-12",
-    "id": "17865781177090"
   }
 ]
