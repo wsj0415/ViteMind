@@ -1,5 +1,70 @@
 [
   {
+    "title": "台湾遭遇 AI 驱动黑客攻击",
+    "summary": "台湾数位发展部证实，境外黑客利用 AI 代理攻击政府机构，已发布警报。",
+    "detail": "台湾数位发展部（MODA）昨日证实，上月境外黑客利用 AI 代理针对政府机构发动网络攻击，此前金融时报曾报道此事。网络安全管理局监测到攻击并于 7 月 20 日发布警报。调查已确定攻击源、方法及范围，受影响机构完成响应。虽然未归因特定组织，但通信链接显示简化中文特征。此事件凸显 AI 代理被武器化的风险，标志着网络攻击进入自动化新阶段，对全球关键基础设施安全提出严峻挑战，促使各国重新评估 AI 防御策略与跨境网络威胁应对机制，显示 AI 安全已成为国家安全层面议题。",
+    "tags": [
+      "News",
+      "Security",
+      "AI Agents"
+    ],
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/08/14/2003862463",
+    "date": "2026-08-14",
+    "id": "17867462124100"
+  },
+  {
+    "title": "WeaveScope：Elixir AI 代理可观测性工具",
+    "summary": "专为 Elixir 设计的 AI 代理监控工具，支持追踪模型调用与成本分析。",
+    "detail": "WeaveScope 是一款专为 Elixir 语言设计的 AI 代理可观测性平台，目前处于早期访问阶段。它提供追踪、监控功能，帮助开发者定位失败、缓慢或昂贵的代理运行步骤。支持 inspect 模型调用、工具调用及 spans，免费 tier 每月可达 10 万事件且无需信用卡。该工具填补了 Elixir 生态在 AI 代理调试领域的空白，有助于提升代理运行的透明度与成本可控性，优化生产环境调试效率。界面展示 Trace ID、模型名称、Tokens 消耗及成本详情，支持按错误率、延迟过滤，为 Elixir 开发者提供全链路监控能力，降低代理运维复杂度。",
+    "tags": [
+      "Dev",
+      "Observability",
+      "Elixir"
+    ],
+    "link": "https://weavescope.com/",
+    "date": "2026-08-14",
+    "id": "17867462124101"
+  },
+  {
+    "title": "基于 Go 标准库构建 AI 代理沙盒",
+    "summary": "开发者分享如何用 Go 标准库构建安全沙盒，防止 AI 代理越权访问。",
+    "detail": "文章深入探讨了 AI 代理在操作系统层面的本质即“进程”，强调代理“逃逸”实为配置错误而非智能越狱。作者展示了仅使用 Go 标准库构建 AI 代理沙盒的方法，旨在防止代理访问父进程不希望其触及的资源。这一实践为开发者提供了低成本的安全隔离方案，纠正了关于 LLM 具有自主意识的误解，强调环境配置的重要性，为构建安全的生产级代理系统提供了参考架构。文中指出 LLM 没有空间意识，逃逸只是执行了工具调用序列，提醒开发者关注权限最小化原则，避免过度授权导致的安全漏洞，确保代理在受控环境中运行。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Go"
+    ],
+    "link": "https://towardsdev.com/i-built-an-ai-agent-sandbox-from-the-go-standard-library-350ecac5d578?sk=f58cedafe6394788d87ecb3179f2ccbd",
+    "date": "2026-08-14",
+    "id": "17867462124102"
+  },
+  {
+    "title": "Osaurus：Mac 端本地运行开源 AI 模型",
+    "summary": "全新 Mac 应用支持本地运行开源模型，数据不出设备，支持共享记忆。",
+    "detail": "Osaurus 是一款专为 Apple Silicon Mac 设计的本地 AI 应用，主张“你的 AI 在此运行”。它支持完全离线运行开源模型，确保数据隐私，同时允许按需连接 ChatGPT 等云端模型。特色功能包括跨模型共享记忆、一键连接 Ollama 等后端。该产品反映了用户对数据隐私的重视及本地算力提升的趋势，为敏感任务提供了安全的 AI 解决方案，无需账户即可启动使用。采用 Native Swift 开发，支持 MIT 许可，用户可下载模型并在本地构建 Agent，文件与代码完全留存本地，解决了云端 AI 服务的数据泄露担忧，适合隐私敏感型开发者与企业用户。",
+    "tags": [
+      "New",
+      "Local AI",
+      "Privacy"
+    ],
+    "link": "https://osaurus.ai",
+    "date": "2026-08-14",
+    "id": "17867462124103"
+  },
+  {
+    "title": "Meta 发布开源模型 Glimmer 及 AI 战略",
+    "summary": "Meta 推出可本地运行的 Glimmer 模型，扎克伯格发表 AI 开放宣言。",
+    "detail": "Meta 本周发布开源权重模型 Glimmer，用户可本地部署，与其封闭 API 模型 Muse Spark 形成对比。扎克伯格发表 manifesto 主张 AI 应“属于每个人”。TechCrunch 播客讨论了此举背后的战略意图及行业影响，同时涉及 Anthropic 水印争议及亚马逊数据中心能源成本问题。这标志着大厂在开放与封闭路线上的博弈加剧，可能重塑模型分发格局，引发关于 AI 能源消耗与安全水印的广泛行业讨论。播客还提及了价值 2.5 亿美元的错误收购案例及德州数据中心的气候影响，显示 AI 扩张带来的经济与环境成本正成为行业关注焦点，开放模型策略或成 Meta 差异化竞争关键。",
+    "tags": [
+      "News",
+      "Meta",
+      "Open Source"
+    ],
+    "link": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
+    "date": "2026-08-14",
+    "id": "17867462124104"
+  },
+  {
     "title": "巨头押注天然气 AI 数据中心面临风险",
     "summary": "亚马逊谷歌等巨头押注天然气供电，面临价格飙升风险。",
     "detail": "报道指出亚马逊、谷歌、Meta 及微软等 hyperscalers 为支持其宏大的 AI 野心，正大举投资天然气数据中心。Meta 计划在路易斯安那州建设 7.5GW 工厂，微软与谷歌在德州亦有布局。然而，能源研究公司 Noreva 发布新预测，指出由于需求碰撞与供应增长下降，美国部分地区天然气价格未来几年可能翻三倍。这揭示了 AI 基础设施背后的能源风险与成本挑战，巨头们可能未准备好应对未来的价格冲击，长期能源策略需重新评估，AI 算力成本恐受波及，行业需关注能源可持续性与成本波动。",
@@ -1235,70 +1300,5 @@
     "link": "https://fundableai.com/",
     "date": "2026-08-13",
     "id": "17866438944744"
-  },
-  {
-    "title": "AI 正在复活 10x 工程师神话",
-    "summary": "文章探讨 AI 如何重塑开发者阶层，可能消除中级开发者。",
-    "detail": "Maxence Maireaux 撰文指出，AI 正在复活曾被埋葬的\"10x 工程师”神话。文章预测 AI 将消除开发者中的“中产阶级”，只保留顶尖与底层。虽然诊断准确，但结论可能危险。这反映了 AI 对工程文化的深远影响，可能导致团队结构极化。开发者需适应新角色，避免被自动化取代，行业需重新评估人才价值体系，防止过度依赖少数精英而忽视团队协作的重要性。该观点引发社区对 AI 时代工程师职业发展的深刻反思，值得技术管理者关注。",
-    "tags": [
-      "News",
-      "Culture",
-      "Engineering"
-    ],
-    "link": "https://maxence.maireaux.fr/fr/blog/ia-resurrection-mythe-10x-engineer/",
-    "date": "2026-08-13",
-    "id": "17866438944745"
-  },
-  {
-    "title": "微软合并 Copilot 应用并砍掉部分 AI 功能",
-    "summary": "微软整合消费者与企业 Copilot 应用，承认此前策略过于复杂。",
-    "detail": "微软宣布将消费者版 Copilot 与 Microsoft 365 Copilot 合并，承认个人与专业 AI 使用场景重叠。同时将于 2026 年 8 月 18 日前下架群聊、AI 播客等不成功功能。此举反映了 AI 应用领域的整合趋势，旨在简化用户体验以对抗 ChatGPT 等竞品。此前微软将 AI 视为“代际转变”，如今策略转向 consolidation，表明市场已进入筛选实用功能阶段，而非盲目扩张。同时，Claude 合并 Cowork、OpenAI 合并 Operator 等动作也印证了这一行业大趋势，超级应用（Super App）成为新方向。",
-    "tags": [
-      "News",
-      "Microsoft",
-      "Copilot"
-    ],
-    "link": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
-    "date": "2026-08-13",
-    "id": "17866370320920"
-  },
-  {
-    "title": "AI 代码审查面临规模挑战：开源注入风险",
-    "summary": "AI 编程助手普及带来供应链安全隐患，传统审查难以跟上生成速度。",
-    "detail": "随着 AI 编程助手普及，代码生成速度远超传统审查流程。LLM 可能推荐不存在的包（Slopsquatting），造成供应链漏洞。企业安全团队面临 operational challenge，需在依赖引入前进行治理，而非仅靠提交后扫描。这凸显了 AI 时代软件供应链安全的新挑战。USENIX 研究分析了 16 个模型及 50 万代码样本，证实了该漏洞向量的规模。安全团队需在导入前治理环境，而非依赖构建后扫描，以应对机器速度下的代码生成风险。开发者采用率未减，但安全团队需更新策略以 governing what enters the environment at the point of selection。",
-    "tags": [
-      "News",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion/",
-    "date": "2026-08-13",
-    "id": "17866370320921"
-  },
-  {
-    "title": "WZRD：将静态文档转化为交互式 AI 体验",
-    "summary": "新一代 AI 原生 UX 工具，通过对话生成可交互的文档与表单。",
-    "detail": "WZRD 允许用户通过自然语言描述 outcome，自动生成结构化的文档、表格或表单。其核心是“文档即体验”，支持双向交互（文档能回答问题）。无需菜单设置，只需对话即可修改品牌或流程，适合设计机构客户 onboarding 等场景，实现从想法到 live link 的快速转化。它消除了菜单和设置，用户只需说出想要更改的内容，如“让它更温暖”或“添加预算步骤”。每个对话都转化为可操作的洞察，包括完成时间和问题统计。这是一种 AI-native UX，让文档、幻灯片和表单都能“说话”并适应用户需求。",
-    "tags": [
-      "New",
-      "UX",
-      "Productivity"
-    ],
-    "link": "https://wzrd.to/",
-    "date": "2026-08-13",
-    "id": "17866370320923"
-  },
-  {
-    "title": "Nanosamur.ai：开源私有化语音 AI 平台",
-    "summary": "专为敏感数据设计，支持完全本地化部署的语音 AI 基础设施。",
-    "detail": "针对无法将敏感对话发送至第三方的组织，Nanosamur.ai 提供开源语音 AI 平台。支持在客户控制的基础设施内完成捕获、转录和处理。具备企业级特性如多租户、可观察性及工作流，适合 air-gapped 环境，解决了隐私合规与 AI 语音处理之间的矛盾。作者基于为敏感数据组织咨询的经验构建，使用 Python 处理语音 AI 服务，Java/Clojure 构建 UI。这是一个 Docker Compose starter setup，适合企业架构师期望的解决方案。它不仅仅是本地转录 app，而是可扩展的企业级平台，模型无关且支持 webhook。",
-    "tags": [
-      "New",
-      "OpenSource",
-      "Privacy"
-    ],
-    "link": "https://github.com/nanosamurai/nanosamurai",
-    "date": "2026-08-13",
-    "id": "17866370320924"
   }
 ]
