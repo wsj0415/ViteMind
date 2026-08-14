@@ -1,5 +1,57 @@
 [
   {
+    "title": "谷歌推出 HEIR 编译器实现隐私 AI 推理",
+    "summary": "谷歌开源 HEIR 编译器，利用同态加密技术实现隐私安全的 AI 推理。",
+    "detail": "谷歌宣布推出私有计算工具包最新工具 HEIR，这是一个开源编译器，旨在解锁加密安全的私有 AI 推理。通过同态加密技术，服务器可直接在加密数据上进行计算，无需暴露底层信息。这解决了隐私与功能之间的权衡，特别适用于医疗和金融等敏感领域。随着成本降低，该技术将使私有 AI 更具实用性，平衡数据安全与服务功能。",
+    "tags": [
+      "News",
+      "Google",
+      "Privacy"
+    ],
+    "link": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+    "date": "2026-08-14",
+    "id": "17867227860410"
+  },
+  {
+    "title": "报告称欧洲出版商受 AI 爬虫冲击更严重",
+    "summary": "TollBit 报告显示欧洲网站被 AI 爬虫抓取频率是北美的四倍，且规则常被无视。",
+    "detail": "最新报告指出，欧洲出版商受 AI 机器人抓取的影响远超北美站点。欧洲网站的中位 AI 抓取量是北美的四倍，且 robots.txt 规则被无视的频率高出三倍。此外，欧洲网站从 AI 应用获得的人类推荐访问率极低。随着情况恶化，本地新闻和体育站点受到的冲击最大，引发了对数据权益和爬虫合规性的严重担忧。",
+    "tags": [
+      "News",
+      "Data",
+      "Copyright"
+    ],
+    "link": "https://digiday.com/media/european-publishers-are-getting-hit-harder-by-ai-bot-scraping-report-finds/",
+    "date": "2026-08-14",
+    "id": "17867227860411"
+  },
+  {
+    "title": "构建生产环境 AI Agent 可观测性指南",
+    "summary": "n8n 发布指南，详解如何追踪和调试生产环境中的 AI Agent 工作流。",
+    "detail": "随着 AI Agent 处理复杂任务能力增强，调试难度也随之上升。n8n 发布指南介绍如何构建 AI Agent 可观测性，涵盖模型调用、工具 invoke 及外部系统交互的全流程追踪。通过 traces、metrics 和 logs 三种遥测数据，团队可调查失败原因并提高可靠性。这为生产级 Agent 工作流的维护提供了关键技术参考，解决非确定性执行路径的监控难题。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Tutorial"
+    ],
+    "link": "https://blog.n8n.io/ai-agent-observability/",
+    "date": "2026-08-14",
+    "id": "17867227860412"
+  },
+  {
+    "title": "新款逼真 AI 图像生成器上线 Product Hunt",
+    "summary": "支持生成逼真肖像和产品照的 AI 工具，提供更好提示词控制和自然细节。",
+    "detail": "一款新的逼真 AI 图像生成器亮相，专注于创建 photorealistic 肖像和产品照片。该工具提供更自然的细节、更好的提示词控制以及更快的创意测试能力。用户可生成用于广告、落地页和电商列表的生产级图像。支持模板化创作，如护肤品或手表产品照，旨在解决通用模型在特定商业场景下细节不足的问题，提升商用效率。",
+    "tags": [
+      "New",
+      "Image",
+      "Product"
+    ],
+    "link": "https://realisticaiimagegenerator.online/",
+    "date": "2026-08-14",
+    "id": "17867227860413"
+  },
+  {
     "title": "法国初创 Kog 优化 GPU 推理速度",
     "summary": "法国初创公司 Kog 通过软件优化，在标准数据中心 GPU 上实现极速推理。",
     "detail": "法国初创公司 Kog 致力于通过软件优化挖掘标准数据中心 GPU 的推理潜力。其技术预览显示单请求解码速度可达 3000 tokens/s，旨在解决企业现有硬件的瓶颈问题。CEO 表示已获 200 个商业线索，首选用例为软件工程，针对 Claude Code 等工具的延迟痛点。这标志着在不更换硬件前提下提升 AI 效率的新方向，为拥有 AMD MI300X 或 NVIDIA H200 的企业提供了低成本升级方案。随着推理成本成为关键瓶颈，Kog 的方案可能改变企业采购策略，无需依赖专用芯片即可实现高性能推理，具有显著的商业落地价值。",
@@ -1248,57 +1300,5 @@
     "link": "https://www.agle.app/",
     "date": "2026-08-13",
     "id": "17865948422334"
-  },
-  {
-    "title": "谷歌前首席科学家 Jeff Dean 新获 100 亿美元估值",
-    "summary": "前谷歌 AI 掌门人 Jeff Dean 初创公司获 10 亿美元融资，估值达 100 亿。",
-    "detail": "谷歌传奇工程师 Jeff Dean 离职后创立 Discovery Loop，目前正洽谈 10 亿美元融资，估值高达 100 亿美元。此举标志着顶级 AI 人才从大厂流向初创领域的趋势，投资者对其技术愿景充满信心。作为 Google AI 奠基人，Dean 的新动向可能重塑 AI 基础设施格局，引发硅谷新一轮创业热潮。尽管细节未公开，但高估值反映市场对资深技术领袖独立创业的高度期待，预计将在基础模型或新架构领域取得突破，挑战现有巨头地位。此次融资若完成，将成为年度最大 AI 初创融资案之一，显示资本对技术本源创新的追捧。",
-    "tags": [
-      "News",
-      "Startup",
-      "Google"
-    ],
-    "link": "https://www.businessinsider.com/former-google-exec-jeff-dean-valuation-for-new-ai-startup-2026-8",
-    "date": "2026-08-13",
-    "id": "17865864238320"
-  },
-  {
-    "title": "Anthropic 拟 60 亿美元收购世界模型初创公司 Decart",
-    "summary": "Anthropic 洽谈收购 Decart，交易额达 60 亿美元，强化世界模型能力。",
-    "detail": "Anthropic 正商讨以 60 亿美元收购 AI 初创公司 Decart，旨在增强其世界模型构建能力。此次收购若达成，将是 AI 领域重大并购案，显示头部模型厂商正通过收购补齐技术短板，加速通用人工智能研发进程。Decart 专注于世界模型技术，有助于 Anthropic 提升模型对物理世界的理解能力，巩固其在安全 AI 领域的领先地位。行业整合趋势愈发明显，巨头通过资本手段加速技术垄断与迭代。这笔交易凸显世界模型在当前技术栈中的核心地位，预计将引发其他大厂跟进类似收购，改变竞争格局。",
-    "tags": [
-      "News",
-      "M&A",
-      "LLM"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-08-13/anthropic-said-in-talks-to-buy-ai-startup-decart-for-6-billion",
-    "date": "2026-08-13",
-    "id": "17865864238321"
-  },
-  {
-    "title": "苹果 AI 战略分析：Siri 早期历史与未来潜力",
-    "summary": "分析苹果 AI DNA，认为苹果可能凭借硬件整合成为 AI 革命最大赢家。",
-    "detail": "文章深入分析苹果技术历史与 DNA，指出苹果擅长将前沿技术规模化生产。尽管存在不确定性，但凭借定制芯片及全栈投资，苹果有望在 AI 革命中成为最大赢家，新任 CEO 约翰·特努斯将继续强化这一战略。分析认为苹果可能通过硬件整合实现 AI 落地，而非单纯追求模型参数，这种差异化路径可能使其在消费者端获得巨大成功，重演 iPod iPhone 辉煌。苹果拥有庞大用户基数和隐私保护优势，若能将 AI 无缝融入生态系统，将构建极高壁垒，区别于云端模型厂商的竞争路径。",
-    "tags": [
-      "News",
-      "Apple",
-      "Strategy"
-    ],
-    "link": "https://thechipletter.substack.com/p/apple-and-ai-siri-the-early-years",
-    "date": "2026-08-13",
-    "id": "17865864238322"
-  },
-  {
-    "title": "NagaAI 推出低价 AI API 聚合服务",
-    "summary": "类似 Poe 的聚合平台，提供 Gemini 等模型半价优惠及统一计费。",
-    "detail": "NagaAI 推出兼容 OpenAI 的 API 聚合服务，整合多家主流模型。目前提供 Gemini 3.5 Flash 等模型 50% 折扣，支持统一计费和多模态访问。为开发者提供了更具成本效益的模型调用方案，降低 AI 应用开发门槛。平台支持 Chat、Image、Embeddings 等多种功能，通过统一账单简化管理流程，适合需要多模型切换及成本优化的开发团队使用。此外还包含免费模型如 Nemotron，进一步降低测试成本，是开发者寻找高性价比 API 解决方案的新选择。",
-    "tags": [
-      "Deal",
-      "API",
-      "Dev"
-    ],
-    "link": "https://naga.ac/",
-    "date": "2026-08-13",
-    "id": "17865864238323"
   }
 ]
