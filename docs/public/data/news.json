@@ -1,5 +1,31 @@
 [
   {
+    "title": "AI 协作新范式：更像领导力而非单纯编码",
+    "summary": "开发者撰文指出，与 AI 协作需明确意图与上下文，类似领导团队而非编写指令。",
+    "detail": "文章探讨人机协作模式转变。传统编程追求确定性，而 AI 交互存在概率性，相同输入可能产生不同结果。作者认为应将 AI 视为合作伙伴而非编译器，重点在于分享上下文、解释意图及设定边界，而非单纯 issuing commands。这种“领导力”思维有助于减少误解，提升 AI 产出质量。这标志着开发者技能树从精确指令向意图表达与上下文管理的演进，对 Prompt 工程及 AI 工作流设计具有指导意义，强调解释“为何工作重要”而非仅“如何做”，投资在于更好地表达意图。",
+    "tags": [
+      "Dev",
+      "Workflow",
+      "LLM"
+    ],
+    "link": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/",
+    "date": "2026-08-15",
+    "id": "17867928658971"
+  },
+  {
+    "title": "Show HN: Chemistry AI 上线，可视化步骤化化学解题",
+    "summary": "新推出的 Chemistry AI 支持模式切换，提供步骤化解题与实验装置可视化功能。",
+    "detail": "Chemistry AI 是一款针对化学学科垂直优化的 AI 工具。提供“速度模式”快速解题与“教练模式”步骤引导，适应不同学习需求。核心亮点在于能将抽象化学数据转化为图表，即时生成实验装置图（如蒸馏、滴定）及电子移动路径。相比通用大模型，其在化学符号、单位安全计算及反应机理可视化上表现更优，适合学生及科研人员辅助学习与验证，解决文本无法解释热力学循环等概念痛点，实现从 guessing 到 seeing logic 的转变，让复杂问题看起来更显而易见。",
+    "tags": [
+      "New",
+      "Education",
+      "Visualization"
+    ],
+    "link": "https://chemistryai.chat/",
+    "date": "2026-08-15",
+    "id": "17867928658972"
+  },
+  {
     "title": "阿里 AI 模型下载量突破 30 亿，超越 Meta 与谷歌",
     "summary": "彭博社报道阿里 AI 模型下载量达 30 亿次，超越 Meta 和谷歌，彰显中国 AI 影响力。",
     "detail": "根据彭博社 2026 年 8 月 15 日报道，阿里巴巴的 AI 模型累计下载量已突破 30 亿次，这一里程碑式的数据标志着其在模型分发领域的显著成功。该数据不仅超越了 Meta 和谷歌等西方科技巨头，也反映了全球开发者对中国 AI 技术的认可。这一事件可能重塑全球 AI 模型竞争格局，促使更多企业关注亚太地区的模型生态。随着下载量激增，阿里模型的社区贡献率和商业化潜力也将进一步提升，成为行业风向标。此举表明模型普及度正成为关键指标，企业级应用将更倾向于高性能且易部署的方案，加速全球 AI 基础设施的多元化发展。",
@@ -24,19 +50,6 @@
     "link": "https://banproof.io/",
     "date": "2026-08-15",
     "id": "17867893857241"
-  },
-  {
-    "title": "Chemistry AI：可视化步骤化学解题助手上线",
-    "summary": "提供快速解题与辅导模式，支持化学方程式可视化及实验装置图解生成。",
-    "detail": "Chemistry AI 是一款在线化学解题工具，旨在将复杂的化学问题转化为清晰的视觉步骤。它提供“速度模式”用于快速验证作业，以及“辅导模式”通过提示引导用户理解反应原理。特色功能包括即时生成实验装置图（如蒸馏、滴定）、电子移动路径图解及热力学循环图表。该工具填补了垂直领域 AI 教育的空白，适合学生及教育工作者使用。相比通用大模型，它针对化学符号和公式进行了优化，能准确理解摩尔浓度、产率计算等专业需求，提供单位安全的数学推导，有效提升 STEM 领域的学习效率与准确性。其可视化能力解决了文本模型难以表达化学结构的核心痛点。",
-    "tags": [
-      "New",
-      "Education",
-      "Science"
-    ],
-    "link": "https://chemistryai.chat/",
-    "date": "2026-08-15",
-    "id": "17867893857242"
   },
   {
     "title": "Show HN：无 AI 内容过滤版 Hacker News 视图",
@@ -310,6 +323,19 @@
     "link": "https://hackaday.com/2026/08/14/shieldfont-bludgeoning-ai-scrapers-that-disrespect-robots-txt/",
     "date": "2026-08-15",
     "id": "17867623967502"
+  },
+  {
+    "title": "Anthropic 暂停发布更强模型 Model 2，警示风险上升",
+    "summary": "Anthropic 最新风险报告指出 AI 风险升高，暂不发布内部更强模型 Model 2。",
+    "detail": "Anthropic 发布 2026 年 8 月风险报告，将高风险情境下的模型错位风险从“极低”上调至“低”，主要 citing 近期网络安全事件。尽管内部训练的 Model 2 性能优于 Mythos，在编码及代理任务表现显著提升，但出于安全考量暂无发布计划。报告指出模型自动化研发能力加速，虽推动技术进步但存在 misuse 风险。此举反映头部大厂在激进竞争中对安全边界的重新评估，OpenAI 亦放缓 Astra 模型发布，行业风向转向审慎发展，安全合规成为模型迭代的关键制约因素。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "Safety"
+    ],
+    "link": "https://www.axios.com/2026/08/14/anthropic-model-2-ai-risk",
+    "date": "2026-08-14",
+    "id": "17867928658970"
   },
   {
     "title": "Google Gemini 新增水印开关引发争议",
@@ -1272,31 +1298,5 @@
     "link": "https://yyhh.org/blog/2026/08/ai-coding-has-erased-the-supposed-advantage-of-statically-typed-languages/",
     "date": "2026-08-14",
     "id": "17866808190352"
-  },
-  {
-    "title": "AI 医疗书记员幻觉致患者受损",
-    "summary": "AI 记录错误声称患者吸毒，引发安全担忧。",
-    "detail": "澳大利亚患者 Rebecca Green 因 AI 医疗书记员幻觉遭受重创。AI 错误记录其服用致幻蘑菇，导致术后信函出现严重失实。隐私监管机构警告 AI 在医疗环境中存在“幻觉”风险，可能伪造症状。事件凸显了 AI 在高风险领域应用的信任危机，强调了人工审核的重要性及当前技术在敏感场景下的局限性。患者表示感到 impersonal，担心虚假记录对未来保险及护理产生巨大负面影响。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Healthcare"
-    ],
-    "link": "https://www.abc.net.au/news/2026-08-14/ai-medical-scribe-error-leaves-patient-devastated/107031672",
-    "date": "2026-08-14",
-    "id": "17866808190353"
-  },
-  {
-    "title": "开源 MLSecOps 安全实践指南发布",
-    "summary": "涵盖 AI 全生命周期的安全手册，支持 LLM/RAG。",
-    "detail": "GitHub 发布开源 MLSecOps 实用参考指南，旨在 securing AI systems。涵盖从数据训练到部署、监控的全 ML 生命周期安全。特别针对 LLM 和 RAG 架构提供安全建议。作为开源手册，它帮助开发者建立安全的 MLOps 流程，应对日益复杂的 AI 安全威胁。项目采用 CC BY-SA 4.0 许可，包含 SOC 和治理规范，填补了行业在标准化安全实践方面的空白，适合安全团队参考。",
-    "tags": [
-      "Dev",
-      "Security",
-      "MLOps"
-    ],
-    "link": "https://github.com/MHaghighian/MLSecOps",
-    "date": "2026-08-14",
-    "id": "17866808190354"
   }
 ]
