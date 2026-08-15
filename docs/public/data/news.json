@@ -1,5 +1,57 @@
 [
   {
+    "title": "Dynatrace 斥资 9.15 亿美元收购 AI 可观测性初创公司 Arize",
+    "summary": "Dynatrace 宣布以 9.15 亿美元收购 Arize，强化 AI 可观测性布局。",
+    "detail": "据 Dealroom.co 数据，监控巨头 Dynatrace 达成重大收购，旨在增强其 AI 可观测性能力。Arize 作为初创企业，专注于 LLMOps 和模型监控，此次交易金额高达 9.15 亿美元。这凸显了企业对 AI 基础设施稳定性和可解释性的重视，标志着 AI 运维赛道进入整合期。随着大模型应用落地，可观测性成为刚需，传统监控厂商正通过收购快速补齐 AI 原生能力。预计后续将有更多类似并购案出现，行业集中度将进一步提升。对于开发者而言，这意味着更成熟的工具链，但也可能面临厂商锁定的风险，需关注整合后的产品路线图及兼容性政策。",
+    "tags": [
+      "News",
+      "M&A",
+      "LLMOps"
+    ],
+    "link": "https://app.dealroom.co/news/note/dynatrace-to-buy-ai-observability-startup-arize-for-915m",
+    "date": "2026-08-15",
+    "id": "17867683219030"
+  },
+  {
+    "title": "Comma.ai 推出开源固件 PCIe 转 USB4 扩展坞",
+    "summary": "Comma.ai 发布新款硬件扩展坞，支持 PCIe Gen4 转 USB4 且固件开源。",
+    "detail": "自动驾驶公司 Comma.ai 跨界推出硬件接口产品，由 Michael Larabel 在 Phoronix 报道。该扩展坞支持 PCIe Gen4 x4 转 USB4，最大亮点在于固件完全开源。此举降低了开发者硬件门槛，促进了开源硬件生态与 AI 边缘计算设备的兼容性，适合 DIY 爱好者及嵌入式开发者。开源固件意味着社区可审计安全性并进行定制，这对于注重数据隐私和底层控制的 AI 硬件玩家而言极具吸引力。展现了开源精神在硬件领域的延伸，为构建透明可信的 AI 边缘设备提供了新范式，有助于推动开源社区在硬件驱动层面的协作创新。",
+    "tags": [
+      "Dev",
+      "Hardware",
+      "OpenSource"
+    ],
+    "link": "https://www.phoronix.com/news/Comma.ai-PCIe-Gen4-USB4-Dock",
+    "date": "2026-08-15",
+    "id": "17867683219031"
+  },
+  {
+    "title": "研究揭示 AI 时代职场生存法则：心智努力决定成败",
+    "summary": "大西洋月刊刊文指出，AI 并未减少工作量，而是改变了任务结构。",
+    "detail": "基于 ActivTrak 及 UC Berkeley 的研究，AI 采纳者工作时间更 intense，沟通量 doubling。员工开始重新接手曾外包的任务，因 AI 降低了编码等门槛。未来职场竞争力不在于智商，而在于对心智努力的管理及多任务协调能力。具体数据显示，早期 adopters 邮件消息时间翻倍，业务软件使用升 94%。人们利用碎片时间工作，同时监督多个 bot。这表明 AI 并未替代人类，而是改变了工作密度，善于利用 AI 处理心智努力的人将脱颖而出。企业需重新评估绩效体系，关注员工心理健康，避免过度 multitasking 导致的 burnout，重塑人机协作的边界与效率标准。",
+    "tags": [
+      "News",
+      "Industry",
+      "Workforce"
+    ],
+    "link": "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/",
+    "date": "2026-08-15",
+    "id": "17867683219032"
+  },
+  {
+    "title": "Deltix 推出 AI 驱动的移动应用真机测试工具",
+    "summary": "Deltix 开放测试，可用自然语言描述任务并在模拟器中运行 AI 代理。",
+    "detail": "新工具 Deltix 允许开发者用自然语言定义测试任务，AI 代理在 iOS 模拟器中像真实用户一样操作。支持本地运行保护隐私，可生成 Playbook 进行回归测试。解决了传统自动化测试维护成本高的问题，适合移动开发团队快速验证用户体验。Agent 仅在屏幕层面操作，不接触源码，确保隐私安全。用户可保存成功路径为 Playbook，在每次构建时 deterministic replay。这种“自然语言即测试”的模式降低了 QA 门槛，加速了移动应用的迭代周期，目前处于 Open Beta 阶段。无需信用卡即可注册，适合独立开发者及小型团队快速接入 AI 驱动的质量保障流程。",
+    "tags": [
+      "New",
+      "Testing",
+      "Mobile"
+    ],
+    "link": "https://app.deltix.ai/",
+    "date": "2026-08-15",
+    "id": "17867683219033"
+  },
+  {
     "title": "AI 助力破解著名数学难题，Anthropic 与 OpenAI 介入黎曼猜想研究",
     "summary": "WSJ 报道 AI 在解决著名数学问题上取得进展，多家头部模型厂商参与。",
     "detail": "华尔街日报报道指出，人工智能正在协助数学家接近解决某些臭名昭著的数学难题。文中特别提到了黎曼猜想（Riemann Hypothesis），并指出 Anthropic 和 OpenAI 等领先的人工智能实验室正在参与其中。这标志着 AI 从单纯的语言处理向科学发现领域的重大跨越。核心技术点在于利用大模型的推理能力辅助数学证明。行业影响深远，若成功将验证 AI 在硬科学领域的潜力，改变科研范式。",
@@ -1246,58 +1298,5 @@
     "link": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
     "date": "2026-08-13",
     "id": "17866537668542"
-  },
-  {
-    "title": "AutoProver：AI 代理结合形式化验证自动查错",
-    "summary": "利用 AI 代理从代码意图生成形式化规约，自动检测逻辑漏洞与设计缺陷，无需手动编写规约。",
-    "detail": "### 核心技术\nAutoProver 结合 AI 代理与形式化方法，自动从文档推断意图，生成属性并转化为模糊测试及形式化验证规则。\n\n### 功能亮点\n1. **意图转证明**：无需规约编写经验，直接读取文档生成测试。\n2. **自动报告**：专门代理执行测试，区分代码 bug 与设计 bug。\n3. **持续学习**：通过用户反馈更新对代码库的理解，提高准确率。\n\n### 应用价值\n解决了逻辑错误难以检测的痛点，适用于高安全性要求的代码库，提升了软件验证的自动化水平。",
-    "tags": [
-      "Dev",
-      "Code Quality",
-      "Formal Verification"
-    ],
-    "link": "https://app.certora.com/",
-    "date": "2026-08-13",
-    "id": "17866537668543"
-  },
-  {
-    "title": "Forklane AI 公开测试：代理与工程师协同编程",
-    "summary": "新工具允许 AI 代理与人类在同一代码库并行工作，通过文件_claim_机制避免合并冲突。",
-    "detail": "### 产品亮点\nForklane 推出公共测试版，主打“代理与工程师在同一会话中协作”。团队与代理共享任务板，代理可_claim_文件进行修改。\n\n### 核心技术\n1. **冲突预防**：代理在触碰文件前声明所有权，重叠时提前预警而非合并时报错。\n2. **共享上下文**：任务状态实时同步，代理遇到人类专属知识时通过 PeerAsk 询问。\n3. **免费策略**：公测期间完全免费，支持 CLI 及 TUI，自带云实例。\n\n### 开发者价值\n解决了多代理协作中的竞争问题，提升了人机协同编码的效率，适合团队级 AI 开发工作流。",
-    "tags": [
-      "New",
-      "DevTools",
-      "Collaboration"
-    ],
-    "link": "https://forklane.ai",
-    "date": "2026-08-13",
-    "id": "17866537668544"
-  },
-  {
-    "title": "AI 生成虚假医疗视频泛滥危害老年群体",
-    "summary": "监测发现 150 多个虚假医疗频道利用 AI 生成医生形象，诱导老年人停药或购买补充剂。",
-    "detail": "### 现象调查\n过去一年 YouTube 等平台医疗建议视频激增。监测网络发现 150 个针对老年人的非真实医疗频道，均由 AI 生成。\n\n### 运作模式\nAI 生成“医生”形象，承诺简单自然疗法优于药物。视频引用虚假研究及患者案例，诱导观众停药或购买补充剂。相比 meme，这种误导更具盈利性且危害健康。\n\n### 行业警示\n揭示了生成式 AI 在内容造假方面的滥用风险，特别是在高风险领域（如医疗）。平台监管与内容真实性验证亟待加强。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Content Safety"
-    ],
-    "link": "https://codysumter.substack.com/p/this-is-medical-advice",
-    "date": "2026-08-13",
-    "id": "17866537668545"
-  },
-  {
-    "title": "ACE Fleet 启动周优惠：AI 计算效率引擎最高省 80% 成本",
-    "summary": "ACE Fleet 推出启动周优惠，宣称可降低 30-80% API 与 GPU 成本，支持多种部署模式。",
-    "detail": "ACE Fleet 发布全栈计算优化引擎，旨在帮助开发者扩展 AI 收入而非云账单。核心技术包括语义缓存、意图路由及熵修剪（LLMLingua），宣称可在不牺牲模型准确性的前提下削减 30%-80% 成本。支持 Pro/Team 版本启动周优惠，兼容 Groq、Bedrock 及自托管模型。提供 SOC2 认证及本地 ONNX 嵌入，适合关注成本优化的开发团队。技术机制涵盖 RadixAttention 共享 KV 缓存、多 LoRA 及 FP8 量化，确保 GPU 利用率超 90%。",
-    "tags": [
-      "Deal",
-      "Dev",
-      "LLM",
-      "Cost Optimization"
-    ],
-    "link": "https://acefleet.dev/",
-    "date": "2026-08-13",
-    "id": "17866481326880"
   }
 ]
