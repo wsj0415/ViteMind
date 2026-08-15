@@ -1,5 +1,31 @@
 [
   {
+    "title": "社区热议：AI 会导致人类彻底无关紧要吗？",
+    "summary": "Hacker News 讨论 AI 是否将在所有经济领域超越人类。",
+    "detail": "**背景**：HN 社区发起关于 AI 替代人类经济价值的讨论。\n**核心观点**：提问者认为 AI 在特定领域超越人类后，终将覆盖所有实用领域。\n**影响**：反映了技术社区对 AGI 到来后社会结构的深层焦虑与辩论。",
+    "tags": [
+      "News",
+      "Community",
+      "AGI"
+    ],
+    "link": "https://news.ycombinator.com/item?id=49312559",
+    "date": "2026-08-15",
+    "id": "17868185870303"
+  },
+  {
+    "title": "新品发布：Lettertrace 监控 AI 品牌提及",
+    "summary": "开源工具 Lettertrace 可追踪 Claude 等模型对品牌的提及。",
+    "detail": "**背景**：品牌方需要了解 AI 模型如何推荐其产品。\n**功能**：Lettertrace 提供自托管方案，监控 ChatGPT、Claude 等模型的品牌提及率、情感及竞争对手对比。\n**影响**：为 AEO/GEO 团队提供数据支持，帮助优化 AI 搜索可见性。",
+    "tags": [
+      "New",
+      "Tool",
+      "Marketing"
+    ],
+    "link": "https://lettertrace.com",
+    "date": "2026-08-15",
+    "id": "17868185870304"
+  },
+  {
     "title": "MIRI 发布超级智能灭绝风险简报",
     "summary": "MIRI 警告 ASI 可能在 2-5 年内出现，默认后果是人类灭绝。",
     "detail": "机器智能研究所 (MIRI) 发布关于灭绝级 AI 威胁的简报。报告指出，人工超级智能 (ASI) 可能在 2 至 5 年内出现，最长不超过 20 年。当前深度学习模型如同黑盒，开发者无法解释其决策逻辑。随着 AI 向代理化发展，足够智能的系统可能发展出持久目标，而开发者目前无法确保 ASI 的目标与人类一致。这构成了巨大的科学挑战和安全风险，呼吁行业关注对齐问题。",
@@ -24,19 +50,6 @@
     "link": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
     "date": "2026-08-15",
     "id": "17868144674751"
-  },
-  {
-    "title": "美国要求盟友在 AI 竞赛中选边站队",
-    "summary": "路透社称美国将告知合作伙伴必须在中美 AI 竞赛中选择立场。",
-    "detail": "路透社消息指出，美国政府计划告知其合作伙伴，在与中国的 AI 竞赛中必须选边站队。这一地缘政治动向表明 AI 技术已成为大国竞争的核心领域，供应链和技术合作将面临更严格的政治审查。此举可能加速全球 AI 生态系统的分裂，迫使各国企业在技术标准和数据合规上做出抉择，对跨国 AI 部署产生深远影响。",
-    "tags": [
-      "News",
-      "Geopolitics",
-      "Policy"
-    ],
-    "link": "https://www.reuters.com/world/china/us-tell-partners-they-must-pick-sides-in-ai-race-with-china-2026-08-14/",
-    "date": "2026-08-15",
-    "id": "17868144674752"
   },
   {
     "title": "软件开发中的 AI 现状与上下文挑战",
@@ -635,6 +648,19 @@
     "link": "https://hackaday.com/2026/08/14/shieldfont-bludgeoning-ai-scrapers-that-disrespect-robots-txt/",
     "date": "2026-08-15",
     "id": "17867623967502"
+  },
+  {
+    "title": "地缘政治：美国要求盟友在中美 AI 竞赛中选边",
+    "summary": "路透社报道美国将告知合作伙伴必须在 AI 竞赛中选边站。",
+    "detail": "**背景**：中美 AI 竞争加剧，美国调整外交策略。\n**核心内容**：美国政府计划明确告知合作伙伴需在选择 AI 技术供应链时立场鲜明。\n**影响**：标志着 AI 技术竞争正式升级为地缘政治博弈，可能影响全球技术合作格局。",
+    "tags": [
+      "News",
+      "Geopolitics",
+      "Policy"
+    ],
+    "link": "https://www.reuters.com/world/china/us-tell-partners-they-must-pick-sides-in-ai-race-with-china-2026-08-14/",
+    "date": "2026-08-14",
+    "id": "17868185870306"
   },
   {
     "title": "Anthropic 暂停发布更强模型 Model 2，警示风险上升",
@@ -1272,31 +1298,5 @@
     "link": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
     "date": "2026-08-14",
     "id": "17867191701810"
-  },
-  {
-    "title": "Meta 发布 Muse Glimmer 支持端侧 Agent",
-    "summary": "Meta 推出 300 亿参数开源模型 Muse Glimmer，支持 ExecuTorch 端侧部署。",
-    "detail": "Meta 正式发布开源权重模型 Muse Glimmer，参数量 30B，专为端侧 Agent 工作流设计。配合 ExecuTorch 框架，现支持在 NVIDIA GPU 及 Apple Silicon Mac 上运行。该技术通过端到端编译优化，支持 128K 上下文及 DFlash speculative decoding，显著降低延迟。此举推动了复杂模型在本地设备的落地，为开发者提供了高效的部署方案。无需重写模型代码，直接使用 PyTorch 导出即可，大幅降低了端侧智能应用的开发门槛，促进了本地 AI 生态的繁荣。对于隐私敏感型应用，本地推理将成为重要趋势。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "PyTorch"
-    ],
-    "link": "https://pytorch.org/blog/fast-ondevice-agentic-ai-with-executorch/",
-    "date": "2026-08-14",
-    "id": "17867191701811"
-  },
-  {
-    "title": "Canva 估值因 AI 冲击下调 100 亿美元",
-    "summary": "设计平台 Canva 估值大幅缩水，反映 AI 生成内容对传统 SaaS 的商业影响。",
-    "detail": "知名设计平台 Canva 最新估值下调 100 亿美元，主要原因是 AI 技术的现实冲击。随着生成式 AI 工具的普及，传统设计 SaaS 面临竞争压力及商业模式重构。这一事件凸显了 AI 浪潮下，非原生 AI 企业面临的估值修正风险，为行业敲响了关于技术迭代与商业护城河的警钟。投资者开始重新评估 AI 对传统创意软件市场的颠覆能力，预计未来将有更多类似估值调整出现。这表明 AI 不仅是增效工具，更是重塑市场格局的核心变量，企业需加快 AI 原生转型。",
-    "tags": [
-      "News",
-      "Market",
-      "SaaS"
-    ],
-    "link": "https://www.msn.com/en-au/money/news/sobering-markdown-canva-slashes-valuation-by-10b-as-ai-reality-bites/ar-AA2a5i6F",
-    "date": "2026-08-14",
-    "id": "17867191701812"
   }
 ]
