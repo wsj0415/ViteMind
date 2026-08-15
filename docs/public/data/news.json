@@ -1,5 +1,44 @@
 [
   {
+    "title": "Tempered：AI 驱动的 Windows 系统优化器",
+    "summary": "新一代 AI PC 优化工具，透明化系统调整，支持撤销操作。",
+    "detail": "Tempered 是一款针对 Windows 10/11 的 AI 系统优化工具，目前处于 Open Beta 阶段。与传统优化软件不同，它不进行注册表清理或静默更改，而是先读取系统负载、内存压力等实时数据，用通俗语言解释瓶颈所在，并在用户批准后才执行操作。核心亮点在于“可撤销”，所有更改均保留 undo 路径。Dashboard 展示 live CPU、RAM 负载。其方法论为 Observe-Explain-Act，确保每次更改都有预期结果记录。这反映了 AI 代理在本地系统管理中的应用趋势，强调透明度与用户控制权，避免虚假健康百分比，未来计划扩展至 iOS 和 Android 平台。",
+    "tags": [
+      "New",
+      "PC Tool",
+      "AI Agent"
+    ],
+    "link": "https://tempered.to/",
+    "date": "2026-08-15",
+    "id": "17867974468260"
+  },
+  {
+    "title": "Agent-shell 0.73：Emacs 中的 AI 代理交互模式",
+    "summary": "Emacs 原生模式更新，支持 vendor-neutral 的 AI 代理聊天交互。",
+    "detail": "Agent-shell 发布了 0.73 版本更新，这是一个基于 Emacs 的原生模式，用于通过 ACP 协议与 AI 代理交互。新版本默认启用了“聊天模式”，融合了 comint 模式与传统聊天标签体验，支持通过 overlays 实现安全交互。该工具强调 vendor-neutral（供应商中立），允许开发者在 Emacs 环境中无缝集成不同 AI 代理。用户可通过配置完全禁用聊天模式。此前版本侧重于 shell 体验，此次更新增强了交互性。适合追求高效工作流的开发者群体，体现了 AI 编程助手的本地化集成趋势及开源社区对 agent 协议的探索，代码库托管于 GitHub 供社区协作。",
+    "tags": [
+      "Dev",
+      "Emacs",
+      "AI Agent"
+    ],
+    "link": "https://xenodium.com/agent-shell-0-73-updates#agent-shell-enters-the-chat",
+    "date": "2026-08-15",
+    "id": "17867974468261"
+  },
+  {
+    "title": "Chemistry AI：可视化步骤的化学解题助手",
+    "summary": "垂直领域 AI 应用，提供速度模式与教练模式，支持化学公式可视化。",
+    "detail": "Chemistry AI 是一款专注于化学教育的垂直 AI 应用。它提供“速度模式”快速解题和“教练模式”逐步引导理解。核心优势在于可视化能力，能即时生成实验室设备布置图、电子移动路径及热力学循环图，将抽象数据转化为清晰图表。支持单位安全数学计算（摩尔、浓度等）。这展示了 AI 在 STEM 教育领域的深度应用，不仅提供答案，更通过图形化推理辅助学生建立直觉，解决了传统文本模型在处理科学符号与实验逻辑时的局限，适合 homework 验证及考前练习。用户可一键尝试，适用于最后时刻练习或实验计算验证，旨在让复杂的化学问题看起来显而易见，提供类似导师的陪伴式学习体验。",
+    "tags": [
+      "New",
+      "Education",
+      "Vertical AI"
+    ],
+    "link": "https://chemistryai.chat",
+    "date": "2026-08-15",
+    "id": "17867974468262"
+  },
+  {
     "title": "AI 协作新范式：更像领导力而非单纯编码",
     "summary": "开发者撰文指出，与 AI 协作需明确意图与上下文，类似领导团队而非编写指令。",
     "detail": "文章探讨人机协作模式转变。传统编程追求确定性，而 AI 交互存在概率性，相同输入可能产生不同结果。作者认为应将 AI 视为合作伙伴而非编译器，重点在于分享上下文、解释意图及设定边界，而非单纯 issuing commands。这种“领导力”思维有助于减少误解，提升 AI 产出质量。这标志着开发者技能树从精确指令向意图表达与上下文管理的演进，对 Prompt 工程及 AI 工作流设计具有指导意义，强调解释“为何工作重要”而非仅“如何做”，投资在于更好地表达意图。",
@@ -1259,44 +1298,5 @@
     "link": "https://skillcopilotai.com",
     "date": "2026-08-14",
     "id": "17866880896893"
-  },
-  {
-    "title": "Lateos 推出机器付费 SOAR 数据集",
-    "summary": "面向 AI 代理的可执行剧本数据集，支持 HTTP 402 自动支付。",
-    "detail": "Lateos 发布 Golden v2 数据集，包含 8438 条经过质量控制的安全剧本，专为自主 AI 代理设计。核心创新在于通过 HTTP 402 协议实现机器间自动微支付，无需人工介入。支持 MCP 客户端，提供 OpenAPI 规范及 llms.txt。技术栈采用 Neon PostgreSQL 边缘服务，支持全文搜索。解决了安全数据集多为爬虫生成、不可执行的问题，为 AI 代理提供了高质量、可验证的知识源，推动了机器经济基础设施的发展，每条记录收费 0.05 美元。",
-    "tags": [
-      "Dev",
-      "AI Agents",
-      "Machine Payments"
-    ],
-    "link": "https://lateos.ai/soar/",
-    "date": "2026-08-14",
-    "id": "17866808190350"
-  },
-  {
-    "title": "2026 年 AI 搜索引擎引用策略分析",
-    "summary": "揭示 ChatGPT、Google 与 Perplexity 的引用逻辑差异。",
-    "detail": "Leapd.ai 分析 6.8 亿次引用发现，仅 11% 域名被多平台共同引用。AI 概述出现在 50% 搜索中，被引用页面点击率高 35%。文章指出各平台引用逻辑根本不同，品牌需针对性优化 GEO 策略。Perplexity 流量转化率是传统搜索的 11 倍。这标志着“位置零”已转变为 AI 生成答案中的引用，成为业务关键优先级。大多数品牌错误地将三者视为单一渠道，数据证明需差异化运营以获取高价值流量。",
-    "tags": [
-      "News",
-      "SEO",
-      "Generative Engine"
-    ],
-    "link": "https://www.leapd.ai/blog/ai-visibility/how-chatgpt-google-ai-overviews-and-perplexity-source-information-in-2026",
-    "date": "2026-08-14",
-    "id": "17866808190351"
-  },
-  {
-    "title": "AI 编程削弱静态类型语言优势",
-    "summary": "论证 AI 更关注 Token 效率而非类型安全。",
-    "detail": "文章提出 AI 编码改变了编程语言价值主张。静态类型语言曾因编译反馈受青睐，但 AI 能快速修复编译错误。对 AI 而言，语言差异主要在于表达相同想法所需的 Token 数量。更复杂的语言意味着更多 Token 和出错机会。这一观点挑战了传统开发观念，暗示未来语言选择将更倾向于简洁性而非严格的类型系统。作者认为依赖类型系统 catch 错误是人类的习惯，AI 并不需要同样的 guardrail。",
-    "tags": [
-      "Dev",
-      "Programming",
-      "LLM"
-    ],
-    "link": "https://yyhh.org/blog/2026/08/ai-coding-has-erased-the-supposed-advantage-of-statically-typed-languages/",
-    "date": "2026-08-14",
-    "id": "17866808190352"
   }
 ]
