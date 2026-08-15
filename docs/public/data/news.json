@@ -1,5 +1,57 @@
 [
   {
+    "title": "Anthropic 详解 Claude 水印机制",
+    "summary": "Anthropic 公布 Claude 水印技术细节，旨在合规欧盟 AI 法案，引发用户争议。",
+    "detail": "Anthropic 发布博客详细解释 Claude 文本水印工作原理，回应社区质疑。通过在“低风险选择”（如同义词选择）中嵌入不可见模式，确保人类可读但机器可检测。此举旨在符合欧盟 AI 法案透明度要求。尽管公司声称不影响输出质量，但部分用户担忧隐私及被标记风险，已有用户表示取消订阅。该技术无法通过简单编辑完全隐藏，代码生成不受影响。Reddit 上有用户认为这是阴谋，但也有支持者认为这是防止谎言的必要手段。Business Insider 报道已有数十名用户因此取消订阅，显示社区对透明度与隐私的博弈激烈。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "Policy"
+    ],
+    "link": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+    "date": "2026-08-15",
+    "id": "17868217440590"
+  },
+  {
+    "title": "Zvi：AI 认知的三种药丸理论",
+    "summary": "博主 Zvi 提出 AI 认知三阶段理论，批评大众对前沿 AI 能力缺乏了解。",
+    "detail": "文章提出“三颗药丸”理论区分人们对 AI 的认知：AI 药丸（承认现有能力）、AGI 药丸（预期未来能力）、ASI 药丸（相信超级智能）。作者指出大多数人甚至未服用第一颗药丸，仍停留在旧版 ChatGPT 印象中，忽视 Coding Agent 等进展。前沿实验室员工多已接受 ASI 观点。文章呼吁展示 AI 现有能力以纠正公众误解。许多人因 AI 指路错误或推荐披萨数量不对而否定 AI，引用过时研究。作者认为与未认知者沟通的首要目标是展示 AI 现有能力，而非争论未来。这种认知差异导致行业内外对 AI 价值判断严重分歧。",
+    "tags": [
+      "News",
+      "AGI",
+      "Analysis"
+    ],
+    "link": "https://thezvi.substack.com/p/the-three-ai-pills",
+    "date": "2026-08-15",
+    "id": "17868217440591"
+  },
+  {
+    "title": "AI 数学能力源于记忆而非思考",
+    "summary": "新观点认为 AI 解决数学问题靠的是超大工作记忆，而非超越人类的直觉。",
+    "detail": "文章分析 AI 在数学领域的表现，提出核心优势在于“外部符号工作空间”。人类工作记忆有限，而 AI 可在上下文窗口中保持大量方程、定义及中间步骤。这并非真正的数学直觉提升，而是记忆广度的胜利。这种差异解释了 AI 为何能处理复杂问题，提醒人们理性看待 AI 的智能本质，而非过度神话其推理能力。作者比喻 AI 更像机器放大的冯·诺依曼，拥有 immense speed 和 symbolic memory。这为理解 AI 解决难题提供了新视角，即利用超大上下文窗口作为外部记忆体，而非单纯依赖模型参数内的推理优化。",
+    "tags": [
+      "News",
+      "LLM",
+      "Research"
+    ],
+    "link": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+    "date": "2026-08-15",
+    "id": "17868217440592"
+  },
+  {
+    "title": "Atuin AI 服务器开源支持自托管",
+    "summary": "终端代理工具 Atuin 开源 AI 服务器，支持本地模型及隐私保护。",
+    "detail": "Atuin 宣布开源其 AI 服务器代码，允许用户自托管终端 AI 代理。该服务器基于 Atuin AI Core，支持任何 OpenAI 兼容端点，包括 Ollama、vLLM 等本地模型及 OpenRouter 服务。此举旨在满足对数据隐私有高要求的开发者，确保终端操作数据不留存于云端。配置简单，可通过 Docker 或本地部署快速搭建私有 AI 工作环境。Atuin AI 是专注于终端的快速代理，内置工作所需工具。开源后用户可完全控制数据流向，适合对隐私敏感的企业或个人开发者使用，支持本地模型推理。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Privacy"
+    ],
+    "link": "https://blog.atuin.sh/atuin-ai-oss/",
+    "date": "2026-08-15",
+    "id": "17868217440593"
+  },
+  {
     "title": "社区热议：AI 会导致人类彻底无关紧要吗？",
     "summary": "Hacker News 讨论 AI 是否将在所有经济领域超越人类。",
     "detail": "**背景**：HN 社区发起关于 AI 替代人类经济价值的讨论。\n**核心观点**：提问者认为 AI 在特定领域超越人类后，终将覆盖所有实用领域。\n**影响**：反映了技术社区对 AGI 到来后社会结构的深层焦虑与辩论。",
@@ -1246,57 +1298,5 @@
     "link": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
     "date": "2026-08-14",
     "id": "17867227860410"
-  },
-  {
-    "title": "报告称欧洲出版商受 AI 爬虫冲击更严重",
-    "summary": "TollBit 报告显示欧洲网站被 AI 爬虫抓取频率是北美的四倍，且规则常被无视。",
-    "detail": "最新报告指出，欧洲出版商受 AI 机器人抓取的影响远超北美站点。欧洲网站的中位 AI 抓取量是北美的四倍，且 robots.txt 规则被无视的频率高出三倍。此外，欧洲网站从 AI 应用获得的人类推荐访问率极低。随着情况恶化，本地新闻和体育站点受到的冲击最大，引发了对数据权益和爬虫合规性的严重担忧。",
-    "tags": [
-      "News",
-      "Data",
-      "Copyright"
-    ],
-    "link": "https://digiday.com/media/european-publishers-are-getting-hit-harder-by-ai-bot-scraping-report-finds/",
-    "date": "2026-08-14",
-    "id": "17867227860411"
-  },
-  {
-    "title": "构建生产环境 AI Agent 可观测性指南",
-    "summary": "n8n 发布指南，详解如何追踪和调试生产环境中的 AI Agent 工作流。",
-    "detail": "随着 AI Agent 处理复杂任务能力增强，调试难度也随之上升。n8n 发布指南介绍如何构建 AI Agent 可观测性，涵盖模型调用、工具 invoke 及外部系统交互的全流程追踪。通过 traces、metrics 和 logs 三种遥测数据，团队可调查失败原因并提高可靠性。这为生产级 Agent 工作流的维护提供了关键技术参考，解决非确定性执行路径的监控难题。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Tutorial"
-    ],
-    "link": "https://blog.n8n.io/ai-agent-observability/",
-    "date": "2026-08-14",
-    "id": "17867227860412"
-  },
-  {
-    "title": "新款逼真 AI 图像生成器上线 Product Hunt",
-    "summary": "支持生成逼真肖像和产品照的 AI 工具，提供更好提示词控制和自然细节。",
-    "detail": "一款新的逼真 AI 图像生成器亮相，专注于创建 photorealistic 肖像和产品照片。该工具提供更自然的细节、更好的提示词控制以及更快的创意测试能力。用户可生成用于广告、落地页和电商列表的生产级图像。支持模板化创作，如护肤品或手表产品照，旨在解决通用模型在特定商业场景下细节不足的问题，提升商用效率。",
-    "tags": [
-      "New",
-      "Image",
-      "Product"
-    ],
-    "link": "https://realisticaiimagegenerator.online/",
-    "date": "2026-08-14",
-    "id": "17867227860413"
-  },
-  {
-    "title": "法国初创 Kog 优化 GPU 推理速度",
-    "summary": "法国初创公司 Kog 通过软件优化，在标准数据中心 GPU 上实现极速推理。",
-    "detail": "法国初创公司 Kog 致力于通过软件优化挖掘标准数据中心 GPU 的推理潜力。其技术预览显示单请求解码速度可达 3000 tokens/s，旨在解决企业现有硬件的瓶颈问题。CEO 表示已获 200 个商业线索，首选用例为软件工程，针对 Claude Code 等工具的延迟痛点。这标志着在不更换硬件前提下提升 AI 效率的新方向，为拥有 AMD MI300X 或 NVIDIA H200 的企业提供了低成本升级方案。随着推理成本成为关键瓶颈，Kog 的方案可能改变企业采购策略，无需依赖专用芯片即可实现高性能推理，具有显著的商业落地价值。",
-    "tags": [
-      "Dev",
-      "Inference",
-      "GPU"
-    ],
-    "link": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
-    "date": "2026-08-14",
-    "id": "17867191701810"
   }
 ]
