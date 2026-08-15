@@ -1,5 +1,44 @@
 [
   {
+    "title": "OpenAI 与 Anthropic 陷入价格战，中国 AI 竞争对手崛起",
+    "summary": "美 AI 巨头降价应对中国竞争对手挑战，市场竞争加剧。",
+    "detail": "**市场格局突变**：随着中国 AI 竞争对手崛起，OpenAI 与 Anthropic 被迫卷入价格战。这标志着全球 AI 竞争格局的重大转变，美国巨头不再垄断定价权。**行业影响**：可能加速 AI 普及，但也压缩了利润空间。开发者需关注成本变化，企业应重新评估供应商策略。**未来趋势**：反映了 AI 市场化进程加速，竞争焦点从技术领先转向成本与市场份额争夺。对于依赖 API 的开发团队，这意味着更低的运营成本，但也需警惕供应商锁定风险。整体而言，AI 基础设施正变得 commoditized，未来模型迭代速度将更快。2026 年的市场竞争将更加激烈，中小企业有望受益于成本下降，但巨头间的博弈将持续重塑行业生态，建议密切关注后续定价策略调整及新模型发布计划。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Market"
+    ],
+    "link": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+    "date": "2026-08-15",
+    "id": "17867791052120"
+  },
+  {
+    "title": "2026 年多模态 AI 应用架构指南：单 provider 还是多 provider？",
+    "summary": "详解多模态应用架构，如何路由不同模型以获得最佳效果。",
+    "detail": "**核心观点**：生产级多模态应用不应依赖单一模型家族。建议针对文本、图像、视频选择专用模型（如 GPT-5.6、FLUX.2），并通过统一 API 层或直接集成进行路由。**模型推荐**：文本推理可用 GPT-5.6，图像生成选 FLUX.2，视频生成考虑 Seedance 2.0 或 Vidu Q3。**架构选型**：关键考量包括延迟、成本及合规性。直接集成虽快但管理复杂，统一 API 层可降低开销但需测试兼容性。**最佳实践**：异步工作流设计至关重要，文本可流式传输，而图像视频需后台处理。团队应根据自身技术储备选择架构，以平衡输出质量与基础设施成本。此指南为 2026 年构建复杂 AI 应用提供了实用参考，混合架构将成为主流趋势，开发者需掌握路由策略以优化用户体验并控制预算。",
+    "tags": [
+      "Dev",
+      "Architecture",
+      "Multimodal"
+    ],
+    "link": "https://medium.com/@CometAPI_/how-to-architect-a-multimodal-app-for-chat-image-and-video-in-2026-770eb94952a0",
+    "date": "2026-08-15",
+    "id": "17867791052121"
+  },
+  {
+    "title": "Show HN: Deltix – AI 驱动的移动应用自动化测试工具",
+    "summary": "像真实用户一样测试 iOS 应用，开放 beta 免费使用。",
+    "detail": "**产品功能**：Deltix 是一款 AI 驱动的测试工具，可在模拟器上运行任务并验证用户体验。支持自然语言描述任务，本地运行代理保护隐私。**操作流程**：用户只需注册、安装 Mac 代理、连接模拟器并运行任务。**隐私与安全**：代理在本地运行，源代码和构建保留在 Mac 上，确保数据安全。用户可随时删除记录或使用自己的模型密钥。**使用场景**：适合开发者进行回归测试和 A/B 实验，能显著减少手动测试成本，提升发布质量。通过侧边对比不同构建版本，团队可快速决策设计优劣。这种 AI 代理测试方式代表了软件工程质量保障的新方向，将自然语言指令转化为可重复的测试用例，极大提升了迭代效率。目前开放 beta 免费使用，无需信用卡，适合 iOS 开发者立即尝试。",
+    "tags": [
+      "New",
+      "Testing",
+      "iOS"
+    ],
+    "link": "https://app.deltix.ai",
+    "date": "2026-08-15",
+    "id": "17867791052122"
+  },
+  {
     "title": "Riffn: 本地 AI 代理的语音交互桥接工具",
     "summary": "开源 iOS 应用，通过 Tailscale 连接本地代码代理。",
     "detail": "Riffn 是一款开源 iOS 应用，旨在实现手机与本地仓库 AI 代理的免提交互。通过 Tailscale 网络建立安全连接，用户可语音控制运行在本地电脑上的 coding agent。项目包含约 100KB 的 Node 桥接 helper，强调隐私与本地化部署，适合需要在移动场景下管理本地代码库的开发者。session 可在后台保持活跃，支持锁屏状态下语音指令，极大提升了开发者在非桌面环境下的工作效率与灵活性。该工具解决了移动端与本地开发环境割裂的痛点，为 AI 辅助编程提供了新的交互范式，尤其适合全栈及 DevOps 工程师使用。",
@@ -1259,44 +1298,5 @@
     "link": "https://medium.com/@chrissharp80/how-i-build-production-software-by-directing-ai-710902b4933e",
     "date": "2026-08-13",
     "id": "17866609454192"
-  },
-  {
-    "title": "行业观察：AI 狂热正在侵蚀全球决策理性",
-    "summary": "批评机构陷入 AI 精神病态，缺乏理性规划，仅凭兴奋情绪驱动决策。",
-    "detail": "最新文章指出全球公私部门机构正陷入集体性的\"AI 精神病态”。引用 HashiCorp 创始人观点，许多公司在 AI 狂热下无法进行理性对话。文章作者基于与全球专业人士的 300 多次交流，指出决策层要么缺乏计划，要么因恐惧而盲目跟风。这种狂热导致组织被兴奋情绪捕获，忽视了实际路径与风险评估。该文为身处 AI 浪潮中的从业者提供了冷静视角，警示盲目跟随 AI 趋势可能带来的决策失效与组织风险。作者认为这种集体狂热导致资源浪费与战略迷失，呼吁回归理性评估，特别是在银行、医院及政府机构等关键领域，需警惕技术泡沫对实际业务价值的侵蚀。",
-    "tags": [
-      "News",
-      "Industry",
-      "Analysis"
-    ],
-    "link": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/",
-    "date": "2026-08-13",
-    "id": "17866609454193"
-  },
-  {
-    "title": "Mistral AI 启动欧洲算力主权计划，2030 年目标 1GW",
-    "summary": "Mistral AI 宣布扩建欧洲基础设施，计划 2030 年达 1GW 算力，并托管第三方开源模型。",
-    "detail": "Mistral AI 正从开源模型训练商向关键基础设施提供商转型。公司宣布三项扩展计划：区域推理端点、带正常运行时间保证的优先层级，以及欧洲企业联盟承诺。目标是在 2027 年底前支持 200 兆瓦基础设施，2030 年达 1GW。值得注意的是，Mistral 将开始托管第三方开源模型，首选中国实验室 Z.ai 的 GLM-5.2。此举标志着 Mistral 致力于为企业提供可控、可靠的前沿 AI 基础设施，强调欧洲主权与合同可靠性。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "LLM"
-    ],
-    "link": "https://venturebeat.com/infrastructure/mistral-ai-wants-to-build-1-gigawatt-of-european-compute-by-2030-and-lock-in-customers-now",
-    "date": "2026-08-13",
-    "id": "17866574965420"
-  },
-  {
-    "title": "Writer 发布 Palmyra X6 模型，主打降低企业 Token 成本",
-    "summary": "Writer 推出新模型 Palmyra X6 及代理 harness 升级，声称可将基本任务成本降低 50%。",
-    "detail": "针对企业用户对 AI 部署成本的担忧，Writer 发布了旗舰模型 Palmyra X6。该模型基于 Z.ai 的开源模型 GLM-5.2 进行后训练变体开发，旨在以更低价格提供就绪部署能力。配合其代理 harness 基础设施的升级，Writer 估计可为客户基本任务削减高达 50% 的成本。CEO May Habib 表示企业厌倦了追逐基准测试，更需要成本扁平化。研究显示，harness 优化比模型选择更能可靠地降低成本。",
-    "tags": [
-      "News",
-      "LLM",
-      "Enterprise"
-    ],
-    "link": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
-    "date": "2026-08-13",
-    "id": "17866574965421"
   }
 ]
