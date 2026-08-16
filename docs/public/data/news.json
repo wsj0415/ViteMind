@@ -1,5 +1,70 @@
 [
   {
+    "title": "亚马逊更新条款：可用 Twitch 内容训练 AI",
+    "summary": "除非用户选择退出，否则亚马逊可使用 Twitch 内容训练 AI 模型。",
+    "detail": "亚马逊更新了隐私政策，明确允许使用 Twitch 创作者的内容进行 AI 模型训练。目前仅 GDPR 地区及部分美国州用户可通过 Consent Management Platform 选择退出（Opt-out）。此举引发隐私与版权争议，创作者需密切关注设置以保护自身内容权益。这反映了科技巨头在数据获取与用户隐私之间的博弈加剧，未来可能影响内容平台的创作者生态与信任关系。建议活跃用户立即检查隐私设置，了解如何限制数据使用，避免个人直播内容被无偿用于商业模型训练。",
+    "tags": [
+      "News",
+      "Privacy",
+      "Amazon"
+    ],
+    "link": "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/",
+    "date": "2026-08-16",
+    "id": "17868871611640"
+  },
+  {
+    "title": "Moonshot Kimi K3 模型实战测试报告",
+    "summary": "开发者在 Claude Code 中集成 Kimi K3 模型，测试其性能与速度。",
+    "detail": "Moonshot 发布 2.8 万亿参数 Kimi K3 模型，支持百万级上下文，权重即将开源。开发者通过 OpenRouter 将其接入 Claude Code 实测。尽管数据显示输出速度较快，但实际体验感知较慢，可能源于推理耗时。文章还提及阿里 Qwen 3.8 及 Thinking Machines Lab Inkling 等开源模型动态，显示大模型开源竞争加剧。对于开发者而言，理解不同模型在 Agent 工作流中的实际表现至关重要，需结合延迟与成本选择合适的推理后端。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Moonshot"
+    ],
+    "link": "https://philippdubach.com/posts/kimi-k3-inside-claude-code/",
+    "date": "2026-08-16",
+    "id": "17868871611641"
+  },
+  {
+    "title": "开源工具：防止 AI 代理执行破坏性命令",
+    "summary": "一款 shell 钩子工具，可在 AI 代理执行危险命令前进行拦截。",
+    "detail": "针对 AI 编程代理可能误执行 `rm -rf` 或 `git reset --hard` 等危险操作，开发者推出了 agent-guard。这是一个约 60 行的 shell 脚本，作为 PreToolUse 钩子本地运行。它通过正则匹配拦截特定命令并退出，迫使代理将命令交由人类确认。兼容 Claude Code 及支持 shell 钩子的 agent CLI，显著提升开发安全性。该工具无需额外依赖，规则可自定义，是构建可靠 AI 代理工作流的重要基础设施，有效防止因模型幻觉导致的代码库破坏或数据丢失风险。",
+    "tags": [
+      "Dev",
+      "Security",
+      "OpenSource"
+    ],
+    "link": "https://github.com/vandith1/agent-guard",
+    "date": "2026-08-16",
+    "id": "17868871611642"
+  },
+  {
+    "title": "行业分析：当前 AI 的七大弱点与成本真相",
+    "summary": "文章分析 AI 现存缺陷，指出 Token 计费导致开发成本大幅上升。",
+    "detail": "尽管 AI 发展迅速，但文章列举了七大弱点。重点指出 GitHub Copilot 等工具改为基于 Token 计费后，构建应用的成本从几美元激增至数百美元。循环工程（Loop-engineering）模式可能导致数千美元开销。作者认为 AI 尚无法完全替代人类技能，开发者需关注成本管理与 AI 局限性。随着 AI 应用从实验转向生产，成本控制将成为企业关键考量，盲目依赖自动化循环可能导致预算失控，人类专家的监督依然不可或缺。",
+    "tags": [
+      "News",
+      "Cost",
+      "Analysis"
+    ],
+    "link": "https://medium.com/tech-ai-chat/the-seven-weaknesses-of-ai-today-eee66aaa9c10",
+    "date": "2026-08-16",
+    "id": "17868871611643"
+  },
+  {
+    "title": "实验性产品：所有用户共享记忆的公共 AI",
+    "summary": "Wild Static 推出共享记忆 AI，所有用户与同一实例对话。",
+    "detail": "这是一个名为 Wild Static 的实验性项目，主打“一个 AI，一种记忆”。所有用户的对话内容将共享给同一模型实例，旨在创造集体记忆体验。目前已有数百次体验记录。该项目概念新颖但存在隐私风险，用户需注意输入内容的公开性，适合探索 AI 社交与记忆共享边界的研究者。这种共享记忆机制可能引发数据污染或恶意引导问题，但也为研究群体智能与 AI 记忆持久性提供了独特的实验场域，值得关注其后续发展。",
+    "tags": [
+      "New",
+      "Experiment",
+      "Privacy"
+    ],
+    "link": "https://wildstatic.com/",
+    "date": "2026-08-16",
+    "id": "17868871611644"
+  },
+  {
     "title": "前沿模型自主研究能力评估报告发布",
     "summary": "Prime Intellect 测试 18 款模型，揭示自主研究能力差距。",
     "detail": "Prime Intellect 发布了关于自主 AI 研究能力的大规模评估报告，旨在衡量前沿模型进行研究的能力。实验在 nanoGPT 优化器上进行，涉及 18 款前沿模型（包括 Claude Fable 5、Kimi K3 及 GPT-5.6 Sol 等），共运行 153 次。每次运行长达 8 天，使用 8xH200s 算力，且未提供互联网访问。结果显示模型在选择实验、执行及解读结果方面存在显著差距。这是首个公开的大规模自主研究评估，为衡量 AI 递归自我改进能力提供了新基准。尽管方法未必直接扩展至真实训练，但紧密的反馈循环使其成为评估 AI 研究能力的有趣测试床，揭示了当前模型在自主科研流程中的真实水平。",
@@ -1233,70 +1298,5 @@
     "link": "https://proton.me/lumo/ai/ai-paper-trail",
     "date": "2026-08-14",
     "id": "17868758240680"
-  },
-  {
-    "title": "Twitch 新增 AI 训练退出选项",
-    "summary": "Twitch 更新设置允许创作者阻止内容被用于亚马逊 AI 训练，默认曾为开启状态。",
-    "detail": "Twitch 于 2026 年 8 月 12 日新增“生成式 AI 训练”开关，允许创作者阻止其直播、VOD 及聊天内容被用于训练亚马逊 AI 模型。此前该选项默认开启且未通知用户，引发争议后调整为可手动关闭。设置涵盖频道流、视频点播、片段及聊天内容。文档举例说明流音频可用于改进语音转文本系统。此举反映了平台在 AI 数据版权与创作者权益之间的博弈，对内容创作者保护自有数据具有重要参考意义，同时也揭示了大型科技公司在数据采集上的默认策略风险，引发行业对知情同意权的关注。",
-    "tags": [
-      "News",
-      "Policy",
-      "Content Creator"
-    ],
-    "link": "https://www.ghacks.net/2026/08/14/twitch-adds-opt-out-for-amazon-ai-training-after-enrolling-all-creators-by-default/",
-    "date": "2026-08-14",
-    "id": "17868758240681"
-  },
-  {
-    "title": "调查显示年轻人对 AI 信任度降低",
-    "summary": "TechRadar 调查指出，年轻人日益不信任 AI 技术及推广 AI 的亿万富翁们。",
-    "detail": "TechRadar 最新调查显示，年轻群体对 AI 技术的信任度正在下降，同时对推广 AI 的科技亿万富翁持怀疑态度。这一趋势揭示了 AI 行业面临的公众信任危机，表明单纯的技术进步若缺乏伦理约束和社会责任，将难以获得未来核心用户群体的支持。调查结果表明，行业领袖的过度宣传可能适得其反，影响 AI 产品的长期市场渗透率。这提示企业需重视公众沟通策略，重建用户信任，否则可能面临市场阻力，尤其是来自下一代互联网原住民的抵触情绪，值得行业深思。",
-    "tags": [
-      "News",
-      "Survey",
-      "Ethics"
-    ],
-    "link": "https://www.techradar.com/pro/young-people-increasingly-dont-trust-ai-or-the-billionaires-that-keep-telling-us-we-should-all-love-ai-survey-finds",
-    "date": "2026-08-14",
-    "id": "17868758240682"
-  },
-  {
-    "title": "AI 助力 25 万行 Legacy 代码 GPU 移植",
-    "summary": "论文展示 AI 代理成功将 25 万行 legacy 天气模拟代码移植到 GPU，实现 5.1 倍加速。",
-    "detail": "该论文提出了一种以验证为中心的 AI 辅助 GPU 移植工作流，旨在解决大型 legacy 科学应用的现代化问题。通过案例研究 CReSS（超过 25 万行 legacy Fortran 天气模拟代码），AI 代理自动提取 OpenMP 区域，生成基于物理意义的基准测试，并应用 OpenACC 转换。最终实现了 162 个目标内核的数值验证 GPU 实现，应用级加速达 5.1 倍，且开发成本可控。该方法还能检测浮点差异和内在函数差异导致的数值不一致。这对于科学计算领域的 legacy 代码现代化具有重要参考价值，展示了 AI 在 HPC 领域的实际落地能力，为后续类似项目提供了可复制的验证范式。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "HPC"
-    ],
-    "link": "https://arxiv.org/abs/2608.13122",
-    "date": "2026-08-14",
-    "id": "17868360726470"
-  },
-  {
-    "title": "AI 语音合成助失语症患者登上歌剧舞台",
-    "summary": "Scientific American 报道 AI 帮助患有自闭症及失用症的演员通过合成语音主演歌剧。",
-    "detail": "Jakob Jordan 因自闭症和失用症无法自主说话，但通过定制 AI 语音合成设备，他在歌剧《Sensorium Ex》中担任主演。该设备不仅模拟其声音，还赋予其表达控制力。此案例展示了 AI 在无障碍领域的潜力，证明了技术如何帮助残障人士突破生理限制，实现艺术表达。为辅助技术应用提供了新范式，表明 AI 不仅是效率工具，更是赋能个体、促进社会包容的关键技术，未来可能在更多医疗与艺术结合场景中发挥作用。该项目强调“表达控制力”，确保用户意图准确传达，而非简单合成，体现了以人为本的 AI 设计理念，为特殊群体的社会融入提供了技术解决方案。",
-    "tags": [
-      "News",
-      "Accessibility",
-      "Speech Synthesis"
-    ],
-    "link": "https://www.scientificamerican.com/podcast/episode/a-nonspeaking-person-is-the-star-of-this-opera-ai-made-that-possible/",
-    "date": "2026-08-14",
-    "id": "17868325346293"
-  },
-  {
-    "title": "Anthropic 暂停发布更强模型 Model 2，警示风险上升",
-    "summary": "Anthropic 最新风险报告指出 AI 风险升高，暂不发布内部更强模型 Model 2。",
-    "detail": "Anthropic 发布 2026 年 8 月风险报告，将高风险情境下的模型错位风险从“极低”上调至“低”，主要 citing 近期网络安全事件。尽管内部训练的 Model 2 性能优于 Mythos，在编码及代理任务表现显著提升，但出于安全考量暂无发布计划。报告指出模型自动化研发能力加速，虽推动技术进步但存在 misuse 风险。此举反映头部大厂在激进竞争中对安全边界的重新评估，OpenAI 亦放缓 Astra 模型发布，行业风向转向审慎发展，安全合规成为模型迭代的关键制约因素。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "Safety"
-    ],
-    "link": "https://www.axios.com/2026/08/14/anthropic-model-2-ai-risk",
-    "date": "2026-08-14",
-    "id": "17867928658970"
   }
 ]
