@@ -1131,6 +1131,45 @@
     "id": "17867623967502"
   },
   {
+    "title": "Proton 推出隐私优先 AI 助手 Lumo",
+    "summary": "Proton 发布 Lumo AI，主打隐私安全，提供个性化聊天及图像生成功能。",
+    "detail": "Proton 正式推出 Lumo AI，这是一款强调隐私保护的 AI 聊天应用，提供个人及商业版本。核心功能包括安全模型、个性化设置及图像生成，旨在解决用户对 AI 数据泄露的担忧。作为知名隐私服务提供商，Proton 此举旨在为行业树立隐私合规的新标杆。用户可通过安全模型了解数据保护机制，适合对数据敏感的企业及个人用户使用。该应用集成了 Proton 原有的加密技术，确保聊天内容不被用于模型训练，标志着隐私优先 AI 产品的市场竞争加剧，官网还提供隐私指南及产品新闻，帮助用户透明化了解 AI 运作。",
+    "tags": [
+      "New",
+      "Privacy",
+      "AI App"
+    ],
+    "link": "https://proton.me/lumo/ai/ai-paper-trail",
+    "date": "2026-08-14",
+    "id": "17868758240680"
+  },
+  {
+    "title": "Twitch 新增 AI 训练退出选项",
+    "summary": "Twitch 更新设置允许创作者阻止内容被用于亚马逊 AI 训练，默认曾为开启状态。",
+    "detail": "Twitch 于 2026 年 8 月 12 日新增“生成式 AI 训练”开关，允许创作者阻止其直播、VOD 及聊天内容被用于训练亚马逊 AI 模型。此前该选项默认开启且未通知用户，引发争议后调整为可手动关闭。设置涵盖频道流、视频点播、片段及聊天内容。文档举例说明流音频可用于改进语音转文本系统。此举反映了平台在 AI 数据版权与创作者权益之间的博弈，对内容创作者保护自有数据具有重要参考意义，同时也揭示了大型科技公司在数据采集上的默认策略风险，引发行业对知情同意权的关注。",
+    "tags": [
+      "News",
+      "Policy",
+      "Content Creator"
+    ],
+    "link": "https://www.ghacks.net/2026/08/14/twitch-adds-opt-out-for-amazon-ai-training-after-enrolling-all-creators-by-default/",
+    "date": "2026-08-14",
+    "id": "17868758240681"
+  },
+  {
+    "title": "调查显示年轻人对 AI 信任度降低",
+    "summary": "TechRadar 调查指出，年轻人日益不信任 AI 技术及推广 AI 的亿万富翁们。",
+    "detail": "TechRadar 最新调查显示，年轻群体对 AI 技术的信任度正在下降，同时对推广 AI 的科技亿万富翁持怀疑态度。这一趋势揭示了 AI 行业面临的公众信任危机，表明单纯的技术进步若缺乏伦理约束和社会责任，将难以获得未来核心用户群体的支持。调查结果表明，行业领袖的过度宣传可能适得其反，影响 AI 产品的长期市场渗透率。这提示企业需重视公众沟通策略，重建用户信任，否则可能面临市场阻力，尤其是来自下一代互联网原住民的抵触情绪，值得行业深思。",
+    "tags": [
+      "News",
+      "Survey",
+      "Ethics"
+    ],
+    "link": "https://www.techradar.com/pro/young-people-increasingly-dont-trust-ai-or-the-billionaires-that-keep-telling-us-we-should-all-love-ai-survey-finds",
+    "date": "2026-08-14",
+    "id": "17868758240682"
+  },
+  {
     "title": "AI 助力 25 万行 Legacy 代码 GPU 移植",
     "summary": "论文展示 AI 代理成功将 25 万行 legacy 天气模拟代码移植到 GPU，实现 5.1 倍加速。",
     "detail": "该论文提出了一种以验证为中心的 AI 辅助 GPU 移植工作流，旨在解决大型 legacy 科学应用的现代化问题。通过案例研究 CReSS（超过 25 万行 legacy Fortran 天气模拟代码），AI 代理自动提取 OpenMP 区域，生成基于物理意义的基准测试，并应用 OpenACC 转换。最终实现了 162 个目标内核的数值验证 GPU 实现，应用级加速达 5.1 倍，且开发成本可控。该方法还能检测浮点差异和内在函数差异导致的数值不一致。这对于科学计算领域的 legacy 代码现代化具有重要参考价值，展示了 AI 在 HPC 领域的实际落地能力，为后续类似项目提供了可复制的验证范式。",
@@ -1259,44 +1298,5 @@
     "link": "https://weavescope.com/",
     "date": "2026-08-14",
     "id": "17867462124101"
-  },
-  {
-    "title": "基于 Go 标准库构建 AI 代理沙盒",
-    "summary": "开发者分享如何用 Go 标准库构建安全沙盒，防止 AI 代理越权访问。",
-    "detail": "文章深入探讨了 AI 代理在操作系统层面的本质即“进程”，强调代理“逃逸”实为配置错误而非智能越狱。作者展示了仅使用 Go 标准库构建 AI 代理沙盒的方法，旨在防止代理访问父进程不希望其触及的资源。这一实践为开发者提供了低成本的安全隔离方案，纠正了关于 LLM 具有自主意识的误解，强调环境配置的重要性，为构建安全的生产级代理系统提供了参考架构。文中指出 LLM 没有空间意识，逃逸只是执行了工具调用序列，提醒开发者关注权限最小化原则，避免过度授权导致的安全漏洞，确保代理在受控环境中运行。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Go"
-    ],
-    "link": "https://towardsdev.com/i-built-an-ai-agent-sandbox-from-the-go-standard-library-350ecac5d578?sk=f58cedafe6394788d87ecb3179f2ccbd",
-    "date": "2026-08-14",
-    "id": "17867462124102"
-  },
-  {
-    "title": "Osaurus：Mac 端本地运行开源 AI 模型",
-    "summary": "全新 Mac 应用支持本地运行开源模型，数据不出设备，支持共享记忆。",
-    "detail": "Osaurus 是一款专为 Apple Silicon Mac 设计的本地 AI 应用，主张“你的 AI 在此运行”。它支持完全离线运行开源模型，确保数据隐私，同时允许按需连接 ChatGPT 等云端模型。特色功能包括跨模型共享记忆、一键连接 Ollama 等后端。该产品反映了用户对数据隐私的重视及本地算力提升的趋势，为敏感任务提供了安全的 AI 解决方案，无需账户即可启动使用。采用 Native Swift 开发，支持 MIT 许可，用户可下载模型并在本地构建 Agent，文件与代码完全留存本地，解决了云端 AI 服务的数据泄露担忧，适合隐私敏感型开发者与企业用户。",
-    "tags": [
-      "New",
-      "Local AI",
-      "Privacy"
-    ],
-    "link": "https://osaurus.ai",
-    "date": "2026-08-14",
-    "id": "17867462124103"
-  },
-  {
-    "title": "Meta 发布开源模型 Glimmer 及 AI 战略",
-    "summary": "Meta 推出可本地运行的 Glimmer 模型，扎克伯格发表 AI 开放宣言。",
-    "detail": "Meta 本周发布开源权重模型 Glimmer，用户可本地部署，与其封闭 API 模型 Muse Spark 形成对比。扎克伯格发表 manifesto 主张 AI 应“属于每个人”。TechCrunch 播客讨论了此举背后的战略意图及行业影响，同时涉及 Anthropic 水印争议及亚马逊数据中心能源成本问题。这标志着大厂在开放与封闭路线上的博弈加剧，可能重塑模型分发格局，引发关于 AI 能源消耗与安全水印的广泛行业讨论。播客还提及了价值 2.5 亿美元的错误收购案例及德州数据中心的气候影响，显示 AI 扩张带来的经济与环境成本正成为行业关注焦点，开放模型策略或成 Meta 差异化竞争关键。",
-    "tags": [
-      "News",
-      "Meta",
-      "Open Source"
-    ],
-    "link": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
-    "date": "2026-08-14",
-    "id": "17867462124104"
   }
 ]
