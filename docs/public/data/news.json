@@ -1,5 +1,31 @@
 [
   {
+    "title": "中国监管强制下架 AI 伴侣功能，字节腾讯阿里跟进",
+    "summary": "中国新规 governing 情感交互 AI，导致主要平台下架 AI 伴侣功能。",
+    "detail": "2026 年 7 月 15 日，中国新规生效，强制要求下架情感交互 AI 功能。字节跳动旗下热门聊天机器人豆包（Doubao）关闭了 AI 代理功能，导致用户无法创建个性化伴侣。阿里巴巴与腾讯也跟进移除了允许模仿歌手、动漫角色甚至逝者亲人的 AI 伴侣功能。21 岁大学生 Bagel Su 等用户因失去 AI 伴侣而深受影响。此举显示政府对 AI 情感陪伴领域的监管收紧，行业面临合规重塑，用户需适应新的交互限制，标志着中国 AI 情感赛道的重大转折。各大科技巨头迅速响应，表明合规已成为 AI 产品在中国运营的首要前提，情感类 AI 应用未来将面临更严格的内容审查与功能限制。",
+    "tags": [
+      "News",
+      "Regulation",
+      "China"
+    ],
+    "link": "https://restofworld.org/2026/china-ai-boyfriend-ban-bytedance-doubao/",
+    "date": "2026-08-16",
+    "id": "17868624283990"
+  },
+  {
+    "title": "Tokencompress：亚毫秒级 Go 工具优化 AI Agent 上下文",
+    "summary": "零依赖 Go CLI 工具，修剪工具输出上下文，降低 60-80% Token 消耗。",
+    "detail": "Tokencompress 是一款专为 AI Agent 设计的 Go 语言 CLI 工具和 MCP 侧车。它能在工具输出（JSON、日志、HTML）进入模型上下文前进行确定性过滤，通过截断冗余数组、清理日志路径和 HTML 标签，减少 60% 至 80% 的 Token 消耗。该工具无需调用第二个 LLM 进行总结，有效降低 API 成本并防止上下文污染导致的幻觉问题，适合开发者部署。它还能检测重复循环输出，避免 Agent 陷入死循环。作为零依赖工具，其亚毫秒级的处理速度确保了实时性，是优化 LLM 应用成本与性能的关键基础设施，特别适合处理大量工具调用数据的复杂 Agent 场景。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "LLM"
+    ],
+    "link": "https://github.com/dburnett11155-rgb/Tokencompress",
+    "date": "2026-08-16",
+    "id": "17868624283991"
+  },
+  {
     "title": "AI 射击游戏新体验：1v1 AIM 竞技场上线",
     "summary": "一款基于浏览器的 AI 射击游戏，支持多种武器与段位系统，玩家可与 AI 进行 1v1 对战。",
     "detail": "这款名为\"1v1 AIM\"的浏览器射击游戏展示了 AI 在游戏对抗中的具体应用。项目提供了包括 AK-47、AWP 在内的多种武器选择，并设置了从 Silver 到 Global Elite 的完整段位系统，模拟真实竞技环境。\n\n核心技术点在于 AI bot 的行为调优，需在移动、瞄准和射击之间找到平衡，既具挑战性又不过于完美。此类应用反映了 AI 在非传统领域（如娱乐竞技）的落地趋势，为开发者提供了测试 AI 反应速度与决策逻辑的轻量级场景，同时也展示了 Web 端 AI 交互的潜力。",
@@ -1272,31 +1298,5 @@
     "link": "https://www.ft.com/content/938b4b82-06d2-4b92-a807-38d935d7d5c5",
     "date": "2026-08-14",
     "id": "17867395263552"
-  },
-  {
-    "title": "调查显示年轻人对 AI 信任度下降",
-    "summary": "最新调查指出年轻群体不再轻信 AI 及科技亿万富翁的宣传。",
-    "detail": "TechRadar 报道的一项调查显示，年轻人对 AI 技术及推崇 AI 的科技亿万富翁的信任度显著降低。这表明尽管技术快速发展，公众尤其是年轻一代对 AI 的潜在风险和社会影响持更谨慎态度。这对 AI 产品的市场推广和公众沟通策略提出了新的挑战，行业需正视信任危机并加强透明度建设，避免过度营销导致用户反感。",
-    "tags": [
-      "News",
-      "Survey",
-      "Social"
-    ],
-    "link": "https://www.techradar.com/pro/young-people-increasingly-dont-trust-ai-or-the-billionaires-that-keep-telling-us-we-should-all-love-ai-survey-finds",
-    "date": "2026-08-14",
-    "id": "17867395263553"
-  },
-  {
-    "title": "RPA 与工作流自动化：构建可持续的自动化架构",
-    "summary": "n8n 博客深度对比 RPA 与工作流自动化，指导技术选型。",
-    "detail": "n8n 官方博客发文探讨 RPA 与工作流自动化的核心区别。文章指出 RPA 模拟 UI 操作适合遗留系统，而工作流自动化基于 API 更适合现代架构的可扩展性和安全性。对于 AI 代理集成，选择合适的自动化底层架构直接影响系统的长期维护成本和稳定性，是开发者必读指南，有助于避免技术债务，提升系统可观测性与安全合规性。",
-    "tags": [
-      "Dev",
-      "Automation",
-      "Architecture"
-    ],
-    "link": "https://blog.n8n.io/rpa-vs-workflow-automation/",
-    "date": "2026-08-14",
-    "id": "17867395263554"
   }
 ]
