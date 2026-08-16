@@ -1,5 +1,57 @@
 [
   {
+    "title": "SnapChart AI 推出交易 veto 工具",
+    "summary": "首款 AI 交易否决工具，2 秒内判断是否交易，支持多平台图表截图分析。",
+    "detail": "SnapChart AI 发布新型交易辅助工具，主打“交易前否决”功能。用户可拖拽 TradingView 或 MT4 图表截图，AI 在 2 秒内给出“交易/不交易/等待”verdict。不同于 Edgewonk 等事后分析工具，它旨在预防损失，并计算“不交易”所保存的资本。支持加密货币及外汇平台，无需连接 broker 账户，保护隐私。该工具解决了交易者冲动下单痛点，通过 AI 视觉分析提供客观建议，适用于各类资产类别，无需共享凭证即可使用，降低了安全风险。其核心优势在于零摩擦集成，既可作为独立应用，也可通过截图方式嵌入现有工作流，为零售交易者提供了机构级的风控视角，标志着 AI 在金融决策辅助领域的又一垂直应用落地。",
+    "tags": [
+      "New",
+      "Trading",
+      "Fintech"
+    ],
+    "link": "https://www.snap-chart.ai/",
+    "date": "2026-08-16",
+    "id": "17868431506120"
+  },
+  {
+    "title": "privibe：本地优先的隐私 AI 编程代理",
+    "summary": "Mistral Vibe 分支，支持本地 llama.cpp 模型，无云端回调，保障代码隐私。",
+    "detail": "privibe 是 Mistral Vibe 的隐私 fork 版本，专为本地优先开发设计。移除了云端回调机制，可选配 Mistral SDK，主要适配本地 llama.cpp 服务器。支持会话 KV cache 磁盘恢复，允许在不同会话间通过上下文文件复用知识。适合对代码隐私敏感、希望完全本地化部署 AI 编程代理的开发者。该项目强调了数据主权，确保代码库不会发送至外部服务器。通过优化本地推理速度，它提供了流畅的 CLI 体验，支持会话中断恢复，使得在离线环境下使用 AI 辅助编程成为可能，是隐私敏感型团队的理想选择。此举反映了开发者对本地化 AI 工具日益增长的需求，尤其是在企业合规场景下。",
+    "tags": [
+      "Dev",
+      "Privacy",
+      "LLM"
+    ],
+    "link": "https://github.com/alainnothere/privibe/tree/main",
+    "date": "2026-08-16",
+    "id": "17868431506121"
+  },
+  {
+    "title": "GitHub 开源 AI SEO 实战 playbook",
+    "summary": "3 个月获 460 万印象的 AI 内容引擎，含多模型代理编排与质量 gate。",
+    "detail": "TraceCohenTech 开源了完整的 AI SEO 实战指南，展示了如何通过 AI 代理构建内容引擎。该项目在 3 个月内实现 460 万 impressions，包含 14 个诊断脚本和 9 个配置模板。核心技术涉及 GSC 反馈循环、多模型代理编排、自动化质量门控及反 AI 检测策略，为开发者提供了可落地的 SEO 自动化方案。该 playbook 不仅包含方法论，还提供了安全 guardrails 和成本控制系统。它解决了 AI 生成内容容易被搜索引擎降权的问题，通过结构化数据模式和人工质量门控，确保内容既高效生产又能获得自然搜索流量，适合增长黑客参考。这是目前少有的公开 AI SEO 全流程实战案例，具有较高参考价值。",
+    "tags": [
+      "Dev",
+      "SEO",
+      "Agents"
+    ],
+    "link": "https://github.com/TraceCohenTech/ai-seo-playbook",
+    "date": "2026-08-16",
+    "id": "17868431506122"
+  },
+  {
+    "title": "专家论 AI 代理需 verified identity",
+    "summary": "Chris Bergeron 提出 Agentic Web 需地址化身份，推出 username.md 解决方案。",
+    "detail": "技术专家 Chris Bergeron 指出 AI 代理普及后需具备可寻址身份，类比互联网 URL。他推出了 username.md 服务，允许用户以低成本永久拥有加密身份。文章强调这是 Agentic Web 缺失的关键拼图，确保 AI 代理在工作流中可被识别和验证，为未来代理经济奠定身份基础设施基础。随着 AI 代理开始执行 calendaring、purchasing 等任务，verified identity 变得至关重要。该方案通过加密方式永久拥有用户名，解决了当前代理身份碎片化问题，预示着未来互联网将从“人读”向“代理读”转变，身份层将成为新的竞争高地。这一观点为 AI 代理互操作性提供了新的思考方向。",
+    "tags": [
+      "News",
+      "Identity",
+      "Infrastructure"
+    ],
+    "link": "https://chrisbergeron.com/2026/08/11/why_ai_agents_need_verified_identity/",
+    "date": "2026-08-15",
+    "id": "17868431506123"
+  },
+  {
     "title": "Sentinel Scan 推出授权 LLM 红队审计服务",
     "summary": "新服务提供 15+ 次真实攻击测试，单次审计仅需 249 美元，帮助开发者验证 LLM 应用安全性。",
     "detail": "Sentinel Scan 是一项授权的 LLM 红队审计服务，旨在帮助开发者在攻击者之前发现潜在漏洞。服务包含 15 次以上真实提示注入和数据泄露攻击测试，覆盖直接覆盖、角色扮演、RAG 注入等多种攻击向量，并提供工程师可执行的英文报告。试点运行显示平均每次扫描成本极低，且目标防御良好。目前提供 249 美元的一次性审计服务。该工具解决了 LLM 应用安全验证的痛点，通过独立评判和转录支持，为用户提供明确的安全状态反馈，适合需要快速合规和安全性确认的 AI 应用团队，降低了安全测试门槛。",
@@ -1246,57 +1298,5 @@
     "link": "https://finance.yahoo.com/healthcare/articles/exclusive-former-openai-exec-fidji-192343263.html",
     "date": "2026-08-14",
     "id": "17867337090010"
-  },
-  {
-    "title": "Show HN: Captain AI 旅行代理助手",
-    "summary": "全新 AI 旅行代理 Captain，支持实时票价查询与行程管理。",
-    "detail": "Captain 是一款新推出的 AI 旅行代理工具，旨在简化复杂的旅行规划。核心功能包括自然语言交互规划行程、实时查询航班价格、管理多城市复杂 itinerary 以及价格波动监控。产品提供可视化工作空间，允许用户调整偏好并跟踪预订准备情况。该工具集成了 Duffel 的航班数据，展示了 AI Agent 在垂直生活场景中的落地应用能力。相比传统 OTA，Captain 更强调主动式服务和长期行程管理，适合频繁旅行者使用。这反映了 AI 从对话向行动转化的趋势，即 Agent 不仅能回答问题，还能执行具体任务并监控状态变化，提升用户体验。",
-    "tags": [
-      "New",
-      "Travel",
-      "Agent"
-    ],
-    "link": "https://www.moonlight.ng/captain/",
-    "date": "2026-08-14",
-    "id": "17867337090011"
-  },
-  {
-    "title": "链式思维提示技术详解与应用指南",
-    "summary": "n8n 博客详解链式思维提示技术，有效降低 AI 幻觉率。",
-    "detail": "本文深入探讨了链式思维（Chain-of-Thought, CoT）提示技术及其在工作流中的实施方法。CoT 通过引导模型展示中间推理步骤，显著降低了复杂任务中的 AI 幻觉率（研究显示降至 18.1%）。文章对比了标准提示与 CoT 的效果，强调了其在多步推理任务中的优势。对于开发者而言，掌握 CoT 技术是优化 LLM 输出准确性、调试错误逻辑的关键手段。在实际应用中，CoT 能帮助团队验证模型结论的有效性，减少因直接输出导致的错误决策。适用于构建高可靠性 AI 应用，特别是在金融、法律等需要严谨逻辑的领域，是提升模型可解释性的重要技术路径。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Prompting"
-    ],
-    "link": "https://blog.n8n.io/chain-of-thought-prompting-techniques-and-when-to-use-them/",
-    "date": "2026-08-14",
-    "id": "17867337090012"
-  },
-  {
-    "title": "开源 AI 原生网站分析工具 OpenAnalytics",
-    "summary": "隐私优先的开源网站分析工具，集成 MCP 服务器与 AI 助手。",
-    "detail": "OpenAnalytics 是一个开源、隐私优先的网站分析解决方案，无需 Cookie 即可运行。其架构包含轻量级追踪脚本、ClickHouse 数据仓库及 AI 助手功能。项目支持自托管，提供 MCP 服务器集成，允许开发者通过标准协议与数据分析交互。核心模块包括实时仪表盘、收入归因及事件定义。该工具为关注数据主权和隐私的开发团队提供了 Google Analytics 的替代方案，兼具 AI 分析能力。通过集成 MCP，它还能与其他 AI 工具链无缝连接，实现自动化数据报告。这反映了开发者对数据控制权的重视，以及开源工具在 AI 原生应用基础设施中的关键地位，适合注重隐私合规的企业采用。",
-    "tags": [
-      "New",
-      "OpenSource",
-      "Analytics"
-    ],
-    "link": "https://github.com/OpenLabs-so/openanalytics",
-    "date": "2026-08-14",
-    "id": "17867337090013"
-  },
-  {
-    "title": "呼吁建立连贯的国家 AI 网络安全政策",
-    "summary": "专家警告需更新 AI 安全政策，以应对自动化网络攻击威胁。",
-    "detail": "前 Meta 安全专家 Joshua Saxe 指出，当前 AI 网络安全政策框架存在根本性缺陷。随着廉价安全 Agent 的出现，攻击链将高度自动化，导致网络生态系统风险激增。文章批评了仅基于“危险双用途能力”测试模型的现行政策，呼吁政府制定更连贯的国家战略。这对 AI 安全合规、模型发布评估及防御性 AI 开发具有重大政策指导意义。未来政策需平衡创新与安全，防止自动化攻击工具泛滥。预示监管风向可能转变，要求企业在模型发布前进行更严格的安全评估，同时加强防御性 AI 技术的研发投资，以应对即将到来的自动化网络冲突时代。",
-    "tags": [
-      "News",
-      "Security",
-      "Policy"
-    ],
-    "link": "https://joshuasaxe181906.substack.com/p/we-urgently-need-a-coherent-national",
-    "date": "2026-08-14",
-    "id": "17867337090014"
   }
 ]
