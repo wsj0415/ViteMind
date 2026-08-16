@@ -1,5 +1,44 @@
 [
   {
+    "title": "AgentShield：离线 Rust AI 代理安全扫描器",
+    "summary": "专为 AI 代理和 MCP 设计的离线安全防火墙，50ms 内检测注入风险。",
+    "detail": "AgentShield 是一款专为 AI 代理工具和 MCP 服务器设计的离线安全扫描器，旨在解决 AI 自动化带来的新型安全威胁。基于 Rust 构建，它能在 50ms 内完成静态分析（SAST），精准检测命令注入、秘密窃取及有毒数据流。支持 1 点击自动修复并生成标准 SARIF 报告，无缝集成至 CI/CD 流程。随着 AI Agent 生态爆发，此类离线、轻量级安全工具成为开发者关键基础设施，确保代理行为在部署前符合安全规范，防止恶意扩展危害系统。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Rust"
+    ],
+    "link": "https://github.com/aiconnai/agentshield",
+    "date": "2026-08-16",
+    "id": "17869008267330"
+  },
+  {
+    "title": "Anthropic CEO：AI 反对声浪本质是信任危机",
+    "summary": "Dario Amodei 回应投资者质疑，强调 AI 监管与透明度建设的重要性。",
+    "detail": "Anthropic CEO Dario Amodei 针对投资者关于其负面言论加剧行业反弹的指控进行了正式回应。他认为 AI 面临的反对声浪根本上是一场信任危机，而非单纯的沟通策略问题。Amodei 强调了透明度要求和数据中心建设面临的公众阻力，主张通过负责任的监管（如加州 AI 安全法案）重建信任，而非盲目乐观地掩盖潜在风险。这一立场表明头部 AI 公司正试图在安全警告与商业推广之间寻找平衡，对行业合规策略具有深远指导意义。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "Regulation"
+    ],
+    "link": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+    "date": "2026-08-16",
+    "id": "17869008267331"
+  },
+  {
+    "title": "HN 讨论：AI 辅助代码的人工审查工具",
+    "summary": "开发者社区探讨如何有效审查 AI 生成的代码，寻求架构级质量保障。",
+    "detail": "Hacker News 热门讨论聚焦于 AI 辅助编码时代的人工代码审查流程。开发者指出，现有 AI 审查工具擅长发现 Bug 和风格问题，但在架构合理性、模块耦合度等方面表现不足。社区正在寻求能简化人工审查流程的工具与实践，以应对 AI 生成代码带来的数量激增和质量噪音。这反映了工程界正在从单纯追求生成速度，转向关注 AI 代码的长期可维护性与系统架构的稳健性，确保软件工程质量。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Community"
+    ],
+    "link": "https://news.ycombinator.com/item?id=49321400",
+    "date": "2026-08-16",
+    "id": "17869008267335"
+  },
+  {
     "title": "Hugging Face 推出疟疾药物 AI 发现挑战榜",
     "summary": "Hugging Face 发布公开排行榜，激励 AI 设计疟疾药物候选分子，解决市场分配失败问题。",
     "detail": "Hugging Face 联合 FINAL-Bench 推出“开放发现挑战”，旨在通过公共排行榜加速 AI 发现的疟疾药物候选分子评估。WHO 数据显示 2023 年疟疾致死约 59.7 万人，其中大部分是非洲儿童，主要因市场缺失而非技术瓶颈。该挑战鼓励基于信念而非回报的开发，利用 AI 填补分配缺口，解决资金无法聚集的问题。平台提供公开 leaderboard 供开发者提交模型，核心技术涉及 AI 分子设计与评估基准。行业影响在于推动 AI for Science 向善，解决被忽视疾病的治疗难题，证明技术可服务于非盈利目标，为全球健康公平提供新范式，激励社区参与人道主义救援。",
@@ -1259,44 +1298,5 @@
     "link": "https://medium.com/@CometAPI_/how-to-architect-a-multimodal-app-for-chat-image-and-video-in-2026-770eb94952a0",
     "date": "2026-08-15",
     "id": "17867791052121"
-  },
-  {
-    "title": "Show HN: Deltix – AI 驱动的移动应用自动化测试工具",
-    "summary": "像真实用户一样测试 iOS 应用，开放 beta 免费使用。",
-    "detail": "**产品功能**：Deltix 是一款 AI 驱动的测试工具，可在模拟器上运行任务并验证用户体验。支持自然语言描述任务，本地运行代理保护隐私。**操作流程**：用户只需注册、安装 Mac 代理、连接模拟器并运行任务。**隐私与安全**：代理在本地运行，源代码和构建保留在 Mac 上，确保数据安全。用户可随时删除记录或使用自己的模型密钥。**使用场景**：适合开发者进行回归测试和 A/B 实验，能显著减少手动测试成本，提升发布质量。通过侧边对比不同构建版本，团队可快速决策设计优劣。这种 AI 代理测试方式代表了软件工程质量保障的新方向，将自然语言指令转化为可重复的测试用例，极大提升了迭代效率。目前开放 beta 免费使用，无需信用卡，适合 iOS 开发者立即尝试。",
-    "tags": [
-      "New",
-      "Testing",
-      "iOS"
-    ],
-    "link": "https://app.deltix.ai",
-    "date": "2026-08-15",
-    "id": "17867791052122"
-  },
-  {
-    "title": "Riffn: 本地 AI 代理的语音交互桥接工具",
-    "summary": "开源 iOS 应用，通过 Tailscale 连接本地代码代理。",
-    "detail": "Riffn 是一款开源 iOS 应用，旨在实现手机与本地仓库 AI 代理的免提交互。通过 Tailscale 网络建立安全连接，用户可语音控制运行在本地电脑上的 coding agent。项目包含约 100KB 的 Node 桥接 helper，强调隐私与本地化部署，适合需要在移动场景下管理本地代码库的开发者。session 可在后台保持活跃，支持锁屏状态下语音指令，极大提升了开发者在非桌面环境下的工作效率与灵活性。该工具解决了移动端与本地开发环境割裂的痛点，为 AI 辅助编程提供了新的交互范式，尤其适合全栈及 DevOps 工程师使用。",
-    "tags": [
-      "New",
-      "Dev",
-      "iOS"
-    ],
-    "link": "https://riffn.io/how-riffn-works/",
-    "date": "2026-08-15",
-    "id": "17867760454571"
-  },
-  {
-    "title": "AI 代理架构：如何选择支持动态 SQL 的数据库",
-    "summary": "探讨可配置 AI 代理对数据库架构的核心需求。",
-    "detail": "文章分析了可配置 AI 代理系统的数据库选型挑战。此类系统需支持灵活 Schema、强多租户隔离及 CSV 快速导入。核心在于可靠地处理 LLM 生成的 SQL 查询。建议架构需兼顾数据隔离与查询效率，以适应不同用户动态定义的数据结构，是构建企业级 AI Agent 的关键基础设施考量。随着 Agent 从聊天机器人向可配置系统演变，数据库需支持运行时定义的结构，同时确保多租户数据严格隔离，避免越权访问风险。文章还探讨了 tabular data ingestion 的重要性，为开发者构建可扩展的 AI 数据层提供了具体指导。",
-    "tags": [
-      "Dev",
-      "Database",
-      "Architecture"
-    ],
-    "link": "https://predictabledialogs.com/learn/ai-stack/choosing-database-configurable-ai-agents",
-    "date": "2026-08-15",
-    "id": "17867760454572"
   }
 ]
