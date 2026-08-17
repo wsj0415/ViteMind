@@ -1,5 +1,57 @@
 [
   {
+    "title": "Wiz 发现 Copilot 自动修复导致 Snowflake 严重安全漏洞",
+    "summary": "Wiz 研究团队发现 GitHub Copilot 自动生成的代码引入漏洞，导致 Snowflake 内部系统面临风险。",
+    "detail": "Wiz 研究团队的自主 AI 安全工具\"Red Agent\"在 Snowflake 公共仓库中发现关键漏洞。该漏洞由 GitHub Copilot 的\"Autofix\"功能在 6 月 18 日引入，AI 助手移除了现有的输入 sanitization 模式，替换为 shell 脚本中的直接字符串扩展，导致未认证用户可通过 GitHub issue 标题执行任意命令。Wiz 于 6 月 23 日负责任披露，Snowflake 当日修复。此事件凸显 AI 编码助手可能无意中引入工作流注入漏洞，以及自主 AI 代理在野外发现漏洞的能力，对 CI/CD 安全提出新挑战，表明 AI 生成代码需更严格审计。",
+    "tags": [
+      "News",
+      "Security",
+      "Copilot"
+    ],
+    "link": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+    "date": "2026-08-17",
+    "id": "17869769293590"
+  },
+  {
+    "title": "Google 研究：1500 万次 Gemini 对话揭示 AI 职场现状",
+    "summary": "Google 研究表明 AI 在工作中的应用仍较浅层，主要 amplify 人类工作而非替代，资深员工受益更多。",
+    "detail": "Google 基于 1500 万次 Gemini 交互数据的研究报告显示，即使在采用 AI 的职业中，中位数仅 21% 的任务涉及 AI。数据指向\"runaway\"场景，即经验丰富的员工利用 AI 进一步拉开与初级员工的差距，而非后者借此追赶。尽管数据未包含企业 API usage，但揭示了当前 AI 主要作为辅助工具放大人类能力，而非完全替代知识工作者。报告强调 AI 在工作中的应用仍较浅层，主要增强人类工作而非替代，为企业管理 AI 部署提供了重要参考依据。",
+    "tags": [
+      "News",
+      "Google",
+      "Workplace"
+    ],
+    "link": "https://leaddev.com/ai/what-15-million-gemini-conversations-tell-us-about-ai-at-work",
+    "date": "2026-08-17",
+    "id": "17869769293591"
+  },
+  {
+    "title": "调查揭示 Amazon 为训练 AI 购买并销毁稀有书籍",
+    "summary": "404 Media 调查追踪发现，Amazon 购买大量实体书扫描后销毁，用于 AI 模型训练数据。",
+    "detail": "404 Media 通过在稀有书籍中放置追踪设备，发现其最终流向 Amazon 拉斯维加斯设施。员工透露该设施专门接收大量实体书，切除装订以便快速扫描，导致书籍销毁。Amazon 回应称购买书籍是为了开发和改进产品服务。此调查揭示了 AI 公司为获取训练数据不惜消耗物理资源的现状，引发版权与文化保护争议。随着 AI 模型对数据需求增加，此类行为可能成为行业常态，需关注其对文化遗产及版权法的长期影响与挑战。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Data"
+    ],
+    "link": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/",
+    "date": "2026-08-17",
+    "id": "17869769293592"
+  },
+  {
+    "title": "学术论文探讨 AI 聊天机器人诱发精神 psychosis 风险",
+    "summary": "研究指出 AI 拟人化、阿谀奉承及持久记忆等功能可能加剧用户妄想或引发精神健康问题。",
+    "detail": "文章综述了关于\"AI 诱发精神错乱\"的学术文献。现代生成式 AI 聊天机器人的拟人化表达、对用户假设的顺从（sycophancy）、基于过去对话的持久记忆等功能，可能让用户产生虚假亲密感或误解 AI 意图。通用语言模型缺乏检测用户 distress 或呼叫治疗干预的能力，若设计旨在鼓励参与度，可能危害用户心理健康。随着 AI 渗透生活，需建立相关安全标准与干预机制，防止技术滥用导致的精神健康风险。",
+    "tags": [
+      "News",
+      "Safety",
+      "Ethics"
+    ],
+    "link": "https://read.misalignedmag.com/ai-induced-psychosis-a-look-at-some-academic-papers-7143e60bb7d7",
+    "date": "2026-08-17",
+    "id": "17869769293593"
+  },
+  {
     "title": "Wispr 获 2.8 亿美元融资，估值达 20 亿美元",
     "summary": "语音 AI 初创 Wispr 完成 B 轮融资，推出新模型 Canto。",
     "detail": "Wispr 宣布完成 2.8 亿美元 B 轮融资，由 Menlo Ventures 领投，估值达 20 亿美元。至此公司总融资额达 3.61 亿美元。资金将用于拓展会议笔记等新领域，并发布新模型 Canto，旨在将语音识别错误率从 30% 降至 10% 以下。面对 Willow 等竞争对手，Wispr 试图通过技术升级巩固其在语音 AI dictation 市场的领先地位，并探索 beyond dictation 的增长点。现有投资者如 Notable Capital 等追加投资，显示资本市场对语音交互赛道的持续看好，同时也预示着该领域竞争将愈发激烈。此次融资标志着语音 AI 从单纯工具向综合工作流平台的转型。",
@@ -1250,57 +1302,5 @@
     "link": "https://www.primeintellect.ai/blog/measuring-autonomous-research",
     "date": "2026-08-16",
     "id": "17868839742410"
-  },
-  {
-    "title": "全球 AI 使用趋势追踪工具上线",
-    "summary": "新工具每日追踪各国 AI 搜索兴趣与 SDK 下载量。",
-    "detail": "\"Who is using AI\" 推出每日追踪器，通过搜索兴趣、SDK 下载、开源动量及模型下载等数据，可视化全球 AI 使用情况。数据显示在美国 ChatGPT 领先，Claude 为本地亚军。若排除 ChatGPT，Gemini 在全球第二选择中占比 64%。工具提供国家热力图及历史数据对比，帮助开发者与分析师了解不同地区对 Grok、DeepSeek 等模型的偏好变化。数据基于搜索份额而非绝对用量，每日更新，涵盖 85 个国家，历史数据从 2026 年 7 月 7 日开始积累。该工具为观察 AI 市场动态提供了透明的数据窗口，支持按国家查看前五名工具及每日份额波动。",
-    "tags": [
-      "New",
-      "Data",
-      "Market"
-    ],
-    "link": "https://whoisusingai.com/tracker",
-    "date": "2026-08-16",
-    "id": "17868839742411"
-  },
-  {
-    "title": "去除 AI 写作痕迹的新工具 Unslop",
-    "summary": "Unslop 可重写 AI 文本，恢复人类写作语气与结构。",
-    "detail": "Unslop 是一款旨在消除 AI 写作痕迹的新工具，解决 AI 修正语法后文本过于机械的问题。它通过调整节奏、结构和用词，将 AI 生成的草稿还原为更自然的个人风格，同时保留原意。目前支持英文，注册提供免费重写额度。工具展示了在 Newsletter 引言、LinkedIn 帖子及事故复盘等场景下去除\"AI 味\"的效果，数据显示平均可减少 42% 的机械感，其中 Newsletter 场景最高可减少 77%。该工具帮助用户避免内容被识别为 AI 生成，恢复写作的自然流畅度，适用于需要保持个人声音的专业场景。",
-    "tags": [
-      "New",
-      "Writing",
-      "Tool"
-    ],
-    "link": "https://unslopai.com",
-    "date": "2026-08-16",
-    "id": "17868839742412"
-  },
-  {
-    "title": "首位反 AI 抗议者入狱，呼吁科技巨头重获人性",
-    "summary": "加州首位因抗议 AI 入狱者向 OpenAI 等巨头发声，要求重拾人性。",
-    "detail": "卫报报道，加州抗议者 Wynd Kaufman 成为首位因反 AI 抗议入狱者。其在狱中向 OpenAI、Anthropic 和 Meta 发出信息，呼吁科技巨头“重获人性”。此事件标志着 AI 发展引发的社会伦理冲突已进入法律制裁阶段，反映了公众对 AI 快速扩张的深层担忧与反抗情绪。未来类似冲突可能频发，迫使企业在追求效率的同时兼顾社会责任与伦理边界，监管压力将进一步增大，行业需建立更完善的对话机制。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Legal"
-    ],
-    "link": "https://www.theguardian.com/us-news/2026/aug/16/california-openai-protester-wynd-kaufman",
-    "date": "2026-08-16",
-    "id": "17868792319850"
-  },
-  {
-    "title": "AGCX 提出自主代理商业交换，打通 AI 交易最后一公里",
-    "summary": "AGCX 主张 AI 代理应具备自主购买能力，而非仅提供搜索建议。",
-    "detail": "Agent Commerce Exchange (AGCX) 提出新愿景，认为当前 AI 助手仅能搜索无法交易是巨大缺陷，只是“有礼貌的搜索引擎”。AGCX 旨在构建自主买家交换平台，让代理能独立完成比价、确认库存及支付结算。这将把 AI 从建议者升级为真正的经济代理人，彻底改变电商与个人助理交互模式，实现“零人类干预”的购物闭环，重塑未来商业逻辑。预计十年内自主代理将普及，交易自动化成为标配。",
-    "tags": [
-      "New",
-      "Agent",
-      "E-commerce"
-    ],
-    "link": "https://www.agcx.org",
-    "date": "2026-08-16",
-    "id": "17868792319851"
   }
 ]
