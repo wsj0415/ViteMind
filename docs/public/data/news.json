@@ -1,5 +1,57 @@
 [
   {
+    "title": "Groq 获 3.5 亿美元融资转型 Neocloud",
+    "summary": "Groq 融资 3.5 亿美元，估值降至 35 亿，从芯片转向云基础设施。",
+    "detail": "Groq 正式完成 3.5 亿美元融资，投后估值调整为 35 亿美元，虽低于去年 69 亿美元，但公司视为新阶段起点。战略上，Groq 从自研 LPU 芯片制造商转型为 Neocloud 服务商，主要运营 Nvidia 系统。此前创始团队部分人才被 Nvidia 吸纳，此次转型旨在扩大数据中心规模，计划从 54 兆瓦扩展至 2027 年的 200 兆瓦。这反映了 AI 基础设施领域正从单纯硬件竞争向综合云服务运营的战略转变，显示 inference 市场需求变化。本轮由 Disruptive 领投，Nvidia 计划参与，表明巨头对转型后模式的认可，后续将聚焦云服务能力建设。",
+    "tags": [
+      "News",
+      "Funding",
+      "Infrastructure"
+    ],
+    "link": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+    "date": "2026-08-17",
+    "id": "17869841636370"
+  },
+  {
+    "title": "AI 是否已开始自我改进？RSI 概念深度解析",
+    "summary": "分析 Meta 等公司关于 AI 自我改进的声明，指出目前尚无通用系统能自主构建 successor。",
+    "detail": "文章深入探讨了递归自我改进（RSI）的真实含义与现状。尽管 Meta 扎克伯格在 2025 年声称 AI 系统已开始自我改进，但分析指出目前尚无公开案例显示通用系统能自主构建、验证并部署更强大的后继版本。当前改进多限于特定工程 loop，评估者往往是人类而非 AI 自身，evaluator 环节最薄弱。这对理解 AGI 进展至关重要，提醒行业区分营销话术与真正的 intelligence explosion。文章呼吁在听到 AI 自我改进声明时，需追问变更内容及验证机制，避免过度炒作影响技术判断。",
+    "tags": [
+      "News",
+      "AGI",
+      "Research"
+    ],
+    "link": "https://viborc.com/what-recursive-self-improvement-actually-means/",
+    "date": "2026-08-17",
+    "id": "17869841636371"
+  },
+  {
+    "title": "Speko launch: 语音 AI 的 OpenRouter 优化平台",
+    "summary": "YC S26 项目 Speko 推出，优化语音代理的 STT、LLM 和 TTS 模型组合。",
+    "detail": "Speko 在 Hacker News 正式发布，定位为语音 AI 领域的 OpenRouter 平台。作为 YC S26 项目，它通过基准测试帮助开发者根据约束条件优化语音代理中的 STT、LLM 和 TTS 模型组合。典型生产级语音代理涉及三层模型，每层均有数十种供应商，切换成本高。Speko 能动态推荐最佳模型栈并解释原因，解决语音 AI 开发中模型选择复杂、评估困难的问题，适合需要构建高可靠性生产级语音代理的开发团队使用，提升开发效率。",
+    "tags": [
+      "New",
+      "Voice AI",
+      "DevTool"
+    ],
+    "link": "https://news.ycombinator.com/item?id=49332751",
+    "date": "2026-08-17",
+    "id": "17869841636372"
+  },
+  {
+    "title": "用 Dosa 厨房类比解释 AI 核心术语",
+    "summary": "工程师通过 Dosa 制作过程类比，通俗易懂地解释 LLM、RAG 等 AI 概念。",
+    "detail": "针对 AI 术语泛滥现象，文章创新性地用印度煎饼（Dosa）厨房类比解释核心技术概念。厨师对应模型，tawa 对应 GPU，食谱对应参数，订单柜台对应 API。涵盖 LLM、RAG、Token、推理、微调及幻觉等术语，并配以 HR 聊天 bot 或代码 agent 等实际用例。这种类比旨在让抽象概念更易理解，适合技术人员快速掌握 AI 职场术语，降低跨部门沟通成本，帮助非 AI 背景工程师融入项目，提升团队协作效率。",
+    "tags": [
+      "Dev",
+      "Education",
+      "LLM"
+    ],
+    "link": "https://qainsights.com/ai-terms-explained-with-simple-examples-using-a-dosa-analogy/",
+    "date": "2026-08-17",
+    "id": "17869841636373"
+  },
+  {
     "title": "英伟达投资 15 亿美元助力 SoftBank 数据中心建设",
     "summary": "英伟达向 SoftBank 数据中心开发商投资 15 亿美元，支持 OpenAI 项目。",
     "detail": "英伟达宣布向 SoftBank 旗下数据中心开发商投资 15 亿美元，该开发商背后支持着 OpenAI 的关键项目。此举显示了硬件巨头与云基础设施服务商在 AI 算力需求激增背景下的深度绑定，旨在确保未来 AI 模型的训练与推理算力供应。随着模型规模扩大，基础设施投资已成为 AI 竞赛的关键壁垒，此次合作将进一步巩固双方在 AI 生态中的主导地位。对于行业而言，这预示着算力资源可能更加集中，企业需关注云成本变化及供应链稳定性，同时也表明 OpenAI 的项目扩展正在加速落地，硬件与算力整合趋势明显，未来数据中心建设将成为资本密集区。",
@@ -1250,57 +1302,5 @@
     "link": "https://twitter.com/DarioAmodei/status/2088758819304443967",
     "date": "2026-08-16",
     "id": "17868902134670"
-  },
-  {
-    "title": "GitHub 揭秘 AI 时代开源项目安全实践",
-    "summary": "GitHub 资助 50 个项目，发现 AI 可辅助维护者更快响应安全漏洞。",
-    "detail": "GitHub Secure Open Source Fund 第四期测试了实用响应方案，向 50 个项目投资超 50 万美元，将维护者与 GitHub Security Lab 专家配对。核心教训是 AI 可辅助调查与优先排序，但维护者仍需提供上下文与问责。OpenClaw 作为增长最快项目，借此制定了事件响应计划并审计了 workflows。这标志着 AI 辅助开发正从代码生成转向安全维护，提升开源供应链韧性。维护者在资源有限情况下，利用 AI 工具弥补人力不足，同时保留最终决策权，这种人机协作模式可能成为未来开源项目安全维护的标准流程，有效降低漏洞响应时间并增强社区信任。",
-    "tags": [
-      "Dev",
-      "Security",
-      "OpenSource"
-    ],
-    "link": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
-    "date": "2026-08-16",
-    "id": "17868902134671"
-  },
-  {
-    "title": "WAIC 2026 展示具身智能与人形机器人进展",
-    "summary": "世界人工智能大会视频前瞻，聚焦具身 AI 创新与人形机器人技术。",
-    "detail": "2026 世界人工智能大会（WAIC）展示了最新的具身智能创新成果，视频内容涵盖了人形机器人的最新进展，反映了 AI 从软件向物理世界延伸的趋势。New China TV 发布的现场 glimpse 显示，embodied AI 已成为行业焦点，标志着机器人技术与大模型融合进入新阶段。此次大会凸显了具身智能在商业化落地前的技术积累与生态展示。视频记录了现场创新亮点，显示中国在全球人形机器人研发中的参与度。具身智能作为 AI 下一波浪潮，正通过此类国际会议加速技术迭代与产业链整合，吸引全球开发者关注。现场展示的创新成果为行业提供了关于未来机器人形态与交互能力的直观参考，推动了相关技术标准的讨论。",
-    "tags": [
-      "News",
-      "Robotics",
-      "EmbodiedAI"
-    ],
-    "link": "https://www.youtube.com/watch?v=rgYHEq9_SM0",
-    "date": "2026-08-16",
-    "id": "17868902134672"
-  },
-  {
-    "title": "AetherGrid：无 K8s 的分布式 AI 计算编排工具",
-    "summary": "基于领域驱动设计的分布式 AI 工作负载编排器，实现零开销集群管理。",
-    "detail": "AetherGrid 是一个去中心化计算编排平台，专为解决大规模调度难题设计，特别是失败下的独占执行所有权及部分失败后的状态协调。它采用严格的领域驱动设计（DDD），支持事件驱动的状态 reconciliation 和 enforced resource limits。相比 Kubernetes，它旨在提供零开销的集群管理，适合分布式 AI 工作负载，目前已开源并采用 MIT 许可。该工具针对 AI 计算特有的故障恢复与资源限制问题，提供了轻量级替代方案。通过解耦领域核心与事件驱动状态协调，它解决了传统编排器在 AI 负载下的复杂性痛点。对于需要高效调度分布式算力的 AI 团队，这是一个值得关注的基础设施层新选择，简化了部署运维并降低了管理 overhead。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "Python"
-    ],
-    "link": "https://github.com/wycliffRotich-dev/aethergrid",
-    "date": "2026-08-16",
-    "id": "17868902134673"
-  },
-  {
-    "title": "亚马逊更新条款：可用 Twitch 内容训练 AI",
-    "summary": "除非用户选择退出，否则亚马逊可使用 Twitch 内容训练 AI 模型。",
-    "detail": "亚马逊更新了隐私政策，明确允许使用 Twitch 创作者的内容进行 AI 模型训练。目前仅 GDPR 地区及部分美国州用户可通过 Consent Management Platform 选择退出（Opt-out）。此举引发隐私与版权争议，创作者需密切关注设置以保护自身内容权益。这反映了科技巨头在数据获取与用户隐私之间的博弈加剧，未来可能影响内容平台的创作者生态与信任关系。建议活跃用户立即检查隐私设置，了解如何限制数据使用，避免个人直播内容被无偿用于商业模型训练。",
-    "tags": [
-      "News",
-      "Privacy",
-      "Amazon"
-    ],
-    "link": "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/",
-    "date": "2026-08-16",
-    "id": "17868871611640"
   }
 ]
