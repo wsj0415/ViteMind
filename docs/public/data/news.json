@@ -1,5 +1,31 @@
 [
   {
+    "title": "AI 股票研究助手 Streamlit 版上线",
+    "summary": "基于 Streamlit 构建的 AI 股票研究工具，辅助投资决策。",
+    "detail": "该工具由开发者 kiaankothari 部署在 Streamlit Cloud 平台上，旨在利用人工智能技术辅助用户进行股票市场研究与投资决策。虽然页面加载提示可能存在延迟，且具体功能细节未在快照中完全披露，但此类应用通常结合大语言模型进行金融数据分析或新闻摘要。它的出现展示了低代码平台在快速部署垂直领域 AI 应用方面的便利性，显著降低了开发门槛。这为个人投资者提供了新的技术辅助手段，反映了 AI 技术在金融工具链中的快速渗透趋势，使得非专业开发者也能构建专业的分析工具。",
+    "tags": [
+      "New",
+      "Finance",
+      "Streamlit"
+    ],
+    "link": "https://ai-stock-research-kiaan.streamlit.app/",
+    "date": "2026-08-17",
+    "id": "17869420028750"
+  },
+  {
+    "title": "社区提出 AI 数学解释强化学习新方案",
+    "summary": "通过大模型指导小模型解题，优化 AI 数学解释能力的强化学习思路。",
+    "detail": "Hacker News 社区提出一种新颖的强化学习（RL）环境构想，旨在解决前沿模型不擅长解释数学问题的痛点。方案建议让大模型向无法独立解题的小模型（0.5-1B 参数）传授解题思路而非直接给出答案，并根据小模型是否成功解题来奖励大模型。这种方法引入了“教学相长”的机制，强制大模型生成可理解的解释。虽然需要人工监督防止信息泄露，但这为提升 AI 逻辑推理透明度提供了新方向，可能成为未来优化模型可解释性与教育应用能力的重要技术路径，具有较高研究价值。",
+    "tags": [
+      "Dev",
+      "RL",
+      "Math"
+    ],
+    "link": "https://news.ycombinator.com/item?id=49326422",
+    "date": "2026-08-17",
+    "id": "17869420028751"
+  },
+  {
     "title": "Google AI Studio 被指虚假删除数据，面临 GDPR 诉讼",
     "summary": "用户指控 Google AI Studio 删除按钮仅移动文件而非彻底清除，已采取法律行动。",
     "detail": "基于 Level1Techs 论坛用户提供的技术证据，Google AI Studio 被指控存在数据删除欺诈行为。用户指出，点击删除按钮后，系统仅将前端 JSON 文件移入 Google Drive 回收站，而非清除后端服务器数据。30 天后文件看似消失，但通过 Drive 恢复工具可还原文件，证明后端记录未灭。此举涉嫌违反 GDPR 数据保护法规，用户已发起法律诉讼。该事件暴露了 AI 平台数据透明度缺失，若属实将严重影响用户信任及合规性，迫使行业重新审视数据生命周期管理的技术实现与审计机制，引发对云服务商数据主权责任的广泛讨论。",
@@ -63,6 +89,19 @@
     "link": "https://useokf.com/",
     "date": "2026-08-17",
     "id": "17869356684282"
+  },
+  {
+    "title": "业界探讨 OpenRouter 是否将使 Stripe 成为 AI 亚马逊",
+    "summary": "GitHub 文章讨论 OpenRouter 模式下 Stripe 在 AI 支付基础设施中的潜在地位。",
+    "detail": "一篇发布在 GitHub Wiki 的文章引发了 Hacker News 社区讨论，核心议题是 OpenRouter 的出现是否会让 Stripe 演变为 AI 领域的“亚马逊”。这反映了行业对 AI 支付和 API 聚合层基础设施发展的高度关注。虽然具体论点需查看原文，但该话题揭示了 AI 商业化进程中，支付网关与模型路由服务结合可能产生的垄断效应或平台化趋势。随着 AI 应用爆发，底层计费与路由整合成为关键，Stripe 若主导此层，将极大影响开发者生态与成本结构，值得行业从业者密切关注其后续动态与整合方案。",
+    "tags": [
+      "News",
+      "Industry",
+      "Infrastructure"
+    ],
+    "link": "https://github.com/getlago/lago/wiki/With-OpenRouter,-is-Stripe-becoming-the-Amazon-of-AI",
+    "date": "2026-08-16",
+    "id": "17869420028752"
   },
   {
     "title": "BanProof：TikTok Shop 视频合规性 AI 扫描工具",
@@ -1259,44 +1298,5 @@
     "link": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
     "date": "2026-08-15",
     "id": "17868217440592"
-  },
-  {
-    "title": "Atuin AI 服务器开源支持自托管",
-    "summary": "终端代理工具 Atuin 开源 AI 服务器，支持本地模型及隐私保护。",
-    "detail": "Atuin 宣布开源其 AI 服务器代码，允许用户自托管终端 AI 代理。该服务器基于 Atuin AI Core，支持任何 OpenAI 兼容端点，包括 Ollama、vLLM 等本地模型及 OpenRouter 服务。此举旨在满足对数据隐私有高要求的开发者，确保终端操作数据不留存于云端。配置简单，可通过 Docker 或本地部署快速搭建私有 AI 工作环境。Atuin AI 是专注于终端的快速代理，内置工作所需工具。开源后用户可完全控制数据流向，适合对隐私敏感的企业或个人开发者使用，支持本地模型推理。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Privacy"
-    ],
-    "link": "https://blog.atuin.sh/atuin-ai-oss/",
-    "date": "2026-08-15",
-    "id": "17868217440593"
-  },
-  {
-    "title": "社区热议：AI 会导致人类彻底无关紧要吗？",
-    "summary": "Hacker News 讨论 AI 是否将在所有经济领域超越人类。",
-    "detail": "**背景**：HN 社区发起关于 AI 替代人类经济价值的讨论。\n**核心观点**：提问者认为 AI 在特定领域超越人类后，终将覆盖所有实用领域。\n**影响**：反映了技术社区对 AGI 到来后社会结构的深层焦虑与辩论。",
-    "tags": [
-      "News",
-      "Community",
-      "AGI"
-    ],
-    "link": "https://news.ycombinator.com/item?id=49312559",
-    "date": "2026-08-15",
-    "id": "17868185870303"
-  },
-  {
-    "title": "新品发布：Lettertrace 监控 AI 品牌提及",
-    "summary": "开源工具 Lettertrace 可追踪 Claude 等模型对品牌的提及。",
-    "detail": "**背景**：品牌方需要了解 AI 模型如何推荐其产品。\n**功能**：Lettertrace 提供自托管方案，监控 ChatGPT、Claude 等模型的品牌提及率、情感及竞争对手对比。\n**影响**：为 AEO/GEO 团队提供数据支持，帮助优化 AI 搜索可见性。",
-    "tags": [
-      "New",
-      "Tool",
-      "Marketing"
-    ],
-    "link": "https://lettertrace.com",
-    "date": "2026-08-15",
-    "id": "17868185870304"
   }
 ]
