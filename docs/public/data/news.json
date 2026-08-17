@@ -1,5 +1,70 @@
 [
   {
+    "title": "英伟达投资 15 亿美元助力 SoftBank 数据中心建设",
+    "summary": "英伟达向 SoftBank 数据中心开发商投资 15 亿美元，支持 OpenAI 项目。",
+    "detail": "英伟达宣布向 SoftBank 旗下数据中心开发商投资 15 亿美元，该开发商背后支持着 OpenAI 的关键项目。此举显示了硬件巨头与云基础设施服务商在 AI 算力需求激增背景下的深度绑定，旨在确保未来 AI 模型的训练与推理算力供应。随着模型规模扩大，基础设施投资已成为 AI 竞赛的关键壁垒，此次合作将进一步巩固双方在 AI 生态中的主导地位。对于行业而言，这预示着算力资源可能更加集中，企业需关注云成本变化及供应链稳定性，同时也表明 OpenAI 的项目扩展正在加速落地，硬件与算力整合趋势明显，未来数据中心建设将成为资本密集区。",
+    "tags": [
+      "News",
+      "Nvidia",
+      "Infrastructure"
+    ],
+    "link": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
+    "date": "2026-08-17",
+    "id": "17869804205040"
+  },
+  {
+    "title": "报告预测：2028 年代理式 AI 成本将激增五倍",
+    "summary": "新报告指出，到 2028 年代理式 AI 的实施成本预计将增长五倍。",
+    "detail": "The Register 报道指出，随着代理式 AI（Agentic AI）的普及，其相关成本将在 2028 年前激增五倍。这反映了自主 AI 代理在计算资源、token 消耗及维护上的高昂代价。企业需提前规划预算，优化代理工作流以应对即将到来的成本压力。这一趋势表明，虽然 AI 代理能力增强，但经济性仍是规模化落地的主要挑战，开发者需关注效率优化与成本控制策略，避免陷入算力浪费陷阱，行业需寻找更经济的推理解决方案，否则高昂的运营成本将阻碍代理式 AI 在中小企业的广泛普及与应用。",
+    "tags": [
+      "News",
+      "Agentic AI",
+      "Cost"
+    ],
+    "link": "https://www.theregister.com/ai-and-ml/2026/08/17/agentic-ai-costs-set-to-balloon-fivefold-by-2028/5288363",
+    "date": "2026-08-17",
+    "id": "17869804205041"
+  },
+  {
+    "title": "法院裁定：法官完全依赖 AI 撰写命令享有司法豁免权",
+    "summary": "最新法院 rulings 表明，法官在命令中完全依赖 AI 仍受司法豁免保护。",
+    "detail": "Reason 报道指出，法院裁定法官在司法命令中完全依赖 AI 生成的内容仍受司法豁免权保护。这一判例为 AI 在法律系统中的使用设立了重要先例，同时也引发了关于责任归属与 AI 准确性在法律场景中的伦理讨论。这意味着司法系统对 AI 工具的接纳度正在提高，但同时也要求法律从业者需具备更高的 AI 鉴别能力，以确保判决的公正性与准确性，避免过度依赖导致潜在的法律风险与争议，未来可能需要更多关于 AI 辅助司法的规范性指导与透明度要求。",
+    "tags": [
+      "News",
+      "Legal",
+      "Ethics"
+    ],
+    "link": "https://reason.com/volokh/2026/08/17/judges-allegedly-relying-wholly-on-ai-in-order-is-covered-by-judicial-immunity-court-rules/",
+    "date": "2026-08-17",
+    "id": "17869804205042"
+  },
+  {
+    "title": "企业级 AI 网关选型指南：扩展性与成本控制",
+    "summary": "深度分析 Bifrost 等开源 AI 网关在企业生产环境中的表现。",
+    "detail": "文章分析了企业 AI 落地中网关层的重要性，推荐了 Maxim AI 的开源网关 Bifrost。该网关基于 Go 语言，支持千种模型路由，能有效解决生产环境中的流量负载与成本失控问题，适合需要规模化部署 AI 功能的企业开发者参考。在生产环境中，网关层往往是性能瓶颈所在，选择合适的网关不仅能提升系统稳定性，还能通过路由策略优化 inference 成本，是企业构建可靠 AI 架构的关键基础设施组件，对于处理高并发请求与多模型管理的场景尤为重要。",
+    "tags": [
+      "Dev",
+      "Enterprise",
+      "Infrastructure"
+    ],
+    "link": "https://medium.com/@sebuzdugan/best-enterprise-ai-gateway-for-scalability-and-cost-control-837680527e51",
+    "date": "2026-08-17",
+    "id": "17869804205043"
+  },
+  {
+    "title": "解决 AI“好为人师”：Claude Opus 5 提示词优化技巧",
+    "summary": "分享针对 Claude Opus 5 冗长问题的系统提示词优化方案。",
+    "detail": "针对 Claude Opus 5 token 消耗加倍及回答冗长的问题，作者分享了有效的系统提示词修复方案。核心指令包括“直接给出答案”、“无前缀解释”、“不主动总结”，帮助开发者将 AI 视为 competent adult，显著提升交互效率并减少 token 浪费。这一技巧适用于所有支持个性化设置的 AI 助手，通过优化系统提示词，用户可以大幅降低交互噪音，获得更精准的回答，对于高频使用 AI 进行编程或研究的用户尤为实用，能有效提升工作效率并降低 API 调用成本。",
+    "tags": [
+      "Dev",
+      "Prompt Engineering",
+      "Claude"
+    ],
+    "link": "https://blog.dait.ro/post/ai-mansplaining",
+    "date": "2026-08-17",
+    "id": "17869804205044"
+  },
+  {
     "title": "Wiz 发现 Copilot 自动修复导致 Snowflake 严重安全漏洞",
     "summary": "Wiz 研究团队发现 GitHub Copilot 自动生成的代码引入漏洞，导致 Snowflake 内部系统面临风险。",
     "detail": "Wiz 研究团队的自主 AI 安全工具\"Red Agent\"在 Snowflake 公共仓库中发现关键漏洞。该漏洞由 GitHub Copilot 的\"Autofix\"功能在 6 月 18 日引入，AI 助手移除了现有的输入 sanitization 模式，替换为 shell 脚本中的直接字符串扩展，导致未认证用户可通过 GitHub issue 标题执行任意命令。Wiz 于 6 月 23 日负责任披露，Snowflake 当日修复。此事件凸显 AI 编码助手可能无意中引入工作流注入漏洞，以及自主 AI 代理在野外发现漏洞的能力，对 CI/CD 安全提出新挑战，表明 AI 生成代码需更严格审计。",
@@ -1237,70 +1302,5 @@
     "link": "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/",
     "date": "2026-08-16",
     "id": "17868871611640"
-  },
-  {
-    "title": "Moonshot Kimi K3 模型实战测试报告",
-    "summary": "开发者在 Claude Code 中集成 Kimi K3 模型，测试其性能与速度。",
-    "detail": "Moonshot 发布 2.8 万亿参数 Kimi K3 模型，支持百万级上下文，权重即将开源。开发者通过 OpenRouter 将其接入 Claude Code 实测。尽管数据显示输出速度较快，但实际体验感知较慢，可能源于推理耗时。文章还提及阿里 Qwen 3.8 及 Thinking Machines Lab Inkling 等开源模型动态，显示大模型开源竞争加剧。对于开发者而言，理解不同模型在 Agent 工作流中的实际表现至关重要，需结合延迟与成本选择合适的推理后端。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Moonshot"
-    ],
-    "link": "https://philippdubach.com/posts/kimi-k3-inside-claude-code/",
-    "date": "2026-08-16",
-    "id": "17868871611641"
-  },
-  {
-    "title": "开源工具：防止 AI 代理执行破坏性命令",
-    "summary": "一款 shell 钩子工具，可在 AI 代理执行危险命令前进行拦截。",
-    "detail": "针对 AI 编程代理可能误执行 `rm -rf` 或 `git reset --hard` 等危险操作，开发者推出了 agent-guard。这是一个约 60 行的 shell 脚本，作为 PreToolUse 钩子本地运行。它通过正则匹配拦截特定命令并退出，迫使代理将命令交由人类确认。兼容 Claude Code 及支持 shell 钩子的 agent CLI，显著提升开发安全性。该工具无需额外依赖，规则可自定义，是构建可靠 AI 代理工作流的重要基础设施，有效防止因模型幻觉导致的代码库破坏或数据丢失风险。",
-    "tags": [
-      "Dev",
-      "Security",
-      "OpenSource"
-    ],
-    "link": "https://github.com/vandith1/agent-guard",
-    "date": "2026-08-16",
-    "id": "17868871611642"
-  },
-  {
-    "title": "行业分析：当前 AI 的七大弱点与成本真相",
-    "summary": "文章分析 AI 现存缺陷，指出 Token 计费导致开发成本大幅上升。",
-    "detail": "尽管 AI 发展迅速，但文章列举了七大弱点。重点指出 GitHub Copilot 等工具改为基于 Token 计费后，构建应用的成本从几美元激增至数百美元。循环工程（Loop-engineering）模式可能导致数千美元开销。作者认为 AI 尚无法完全替代人类技能，开发者需关注成本管理与 AI 局限性。随着 AI 应用从实验转向生产，成本控制将成为企业关键考量，盲目依赖自动化循环可能导致预算失控，人类专家的监督依然不可或缺。",
-    "tags": [
-      "News",
-      "Cost",
-      "Analysis"
-    ],
-    "link": "https://medium.com/tech-ai-chat/the-seven-weaknesses-of-ai-today-eee66aaa9c10",
-    "date": "2026-08-16",
-    "id": "17868871611643"
-  },
-  {
-    "title": "实验性产品：所有用户共享记忆的公共 AI",
-    "summary": "Wild Static 推出共享记忆 AI，所有用户与同一实例对话。",
-    "detail": "这是一个名为 Wild Static 的实验性项目，主打“一个 AI，一种记忆”。所有用户的对话内容将共享给同一模型实例，旨在创造集体记忆体验。目前已有数百次体验记录。该项目概念新颖但存在隐私风险，用户需注意输入内容的公开性，适合探索 AI 社交与记忆共享边界的研究者。这种共享记忆机制可能引发数据污染或恶意引导问题，但也为研究群体智能与 AI 记忆持久性提供了独特的实验场域，值得关注其后续发展。",
-    "tags": [
-      "New",
-      "Experiment",
-      "Privacy"
-    ],
-    "link": "https://wildstatic.com/",
-    "date": "2026-08-16",
-    "id": "17868871611644"
-  },
-  {
-    "title": "前沿模型自主研究能力评估报告发布",
-    "summary": "Prime Intellect 测试 18 款模型，揭示自主研究能力差距。",
-    "detail": "Prime Intellect 发布了关于自主 AI 研究能力的大规模评估报告，旨在衡量前沿模型进行研究的能力。实验在 nanoGPT 优化器上进行，涉及 18 款前沿模型（包括 Claude Fable 5、Kimi K3 及 GPT-5.6 Sol 等），共运行 153 次。每次运行长达 8 天，使用 8xH200s 算力，且未提供互联网访问。结果显示模型在选择实验、执行及解读结果方面存在显著差距。这是首个公开的大规模自主研究评估，为衡量 AI 递归自我改进能力提供了新基准。尽管方法未必直接扩展至真实训练，但紧密的反馈循环使其成为评估 AI 研究能力的有趣测试床，揭示了当前模型在自主科研流程中的真实水平。",
-    "tags": [
-      "Dev",
-      "Research",
-      "LLM"
-    ],
-    "link": "https://www.primeintellect.ai/blog/measuring-autonomous-research",
-    "date": "2026-08-16",
-    "id": "17868839742410"
   }
 ]
