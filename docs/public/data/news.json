@@ -1,5 +1,100 @@
 [
   {
+    "title": "Octoweb：首款以 AI 为“公民”的键盘优先浏览器",
+    "summary": "基于 Rust 打造，专为键盘操作与 AI 代理设计，拒绝插件式 AI。",
+    "detail": "Octoweb 是一款基于 WebKit 并用 Rust 编写的浏览器，仅 2.5 万行代码，摒弃 Electron 和 Chromium。其核心理念是将 AI 视为浏览器的“公民”而非扩展插件，使 AI 代理能深度感知页面内容并操作浏览器。版本 0.10.0 已发布，专为键盘流用户和全天候与代理协作的开发人员设计，支持命令 palette 模糊匹配，旨在解决传统浏览器 AI 集成浅层化的问题。该工具允许用户将繁琐的浏览任务交给 Octomind 代理，同时保持阅读流，体现了本地优先与 AI 原生设计的结合趋势，为开发者提供了全新的交互范式。",
+    "tags": [
+      "New",
+      "Dev",
+      "Browser",
+      "Rust"
+    ],
+    "link": "https://muvon.io/blog/introducing-octoweb-keyboard-first-ai-browser",
+    "date": "2026-08-17",
+    "id": "17869597535380"
+  },
+  {
+    "title": "英伟达 AI 融资暗藏 5000 亿美元投资者未察觉风险",
+    "summary": "Forbes 分析指出 AI 基础设施融资存在巨大泡沫，投资者需警惕。",
+    "detail": "Forbes 分析文章指出，围绕英伟达的 AI 融资可能存在高达 5000 亿美元的风险，这是投资者尚未充分关注的隐患。随着 AI 军备竞赛加剧，数据中心建设依赖昂贵的芯片，但融资结构可能掩盖了实际回报风险。文章呼吁市场重新审视 AI 基础设施投资的可持续性，避免因过度乐观导致的资本错配，对 AI 硬件生态的长期稳定性提出预警。若融资链条断裂，可能引发连锁反应，影响整个 AI 行业的扩张速度，投资者需密切关注现金流与实际算力需求的匹配情况。",
+    "tags": [
+      "News",
+      "Finance",
+      "Nvidia"
+    ],
+    "link": "https://www.forbes.com/sites/jimosman/2026/08/16/nvidia-ai-financing-is-the-500-billion-risk-investors-arent-watching/",
+    "date": "2026-08-17",
+    "id": "17869597535381"
+  },
+  {
+    "title": "麦肯锡：AI 部署后的价值维持是运营新挑战",
+    "summary": "部署并非终点，AI 项目在 Production 阶段面临价值流失风险。",
+    "detail": "QuantumBlack (McKinsey) 文章强调，AI 项目成功不仅在于部署，更在于部署后的价值维持。许多组织将部署视为终点，缺乏专门的运营流程来处理模型衰退、数据漂移及代理行为异常。文章通过保险行业案例指出，若缺乏监控和诊断机制，AI 代理可能导致客户投诉或财务损失。企业需建立专门的 AI 运营学科，确保持续交付可预测的商业价值，这标志着 AI 行业正从模型训练转向运营优化的成熟阶段。维护可靠的大规模系统需要专业知识、流程和技术支持，否则前期投资将面临浪费风险。",
+    "tags": [
+      "Dev",
+      "News",
+      "MLOps",
+      "Enterprise"
+    ],
+    "link": "https://medium.com/quantumblack/ai-value-the-growing-ai-operations-challenge-ca8621aa245c",
+    "date": "2026-08-17",
+    "id": "17869597535382"
+  },
+  {
+    "title": "数据分析：LLM 自主软件开发目前仍是科幻",
+    "summary": "研究指出 LLM 上下文限制及幻觉问题，阻碍完全自主开发。",
+    "detail": "最新数据分析表明，利用 LLM 实现真正自主且可靠的长周期代理软件开发目前极不可能。研究指出，即便前沿模型，其有效上下文限制远小于广告宣称，且存在“注意力稀释”问题。LLM 难以区分新旧信息，训练数据中的“主导先验”常压倒上下文输入。结论认为，当前技术下完全自主开发仍是科幻，开发者需警惕上下文压缩带来的信息丢失风险。此外，仓库级文件处理也面临挑战，团队应理性看待 AI 编码辅助的实际边界，避免过度依赖未成熟技术。",
+    "tags": [
+      "Dev",
+      "News",
+      "LLM",
+      "Coding"
+    ],
+    "link": "https://codemanship.wordpress.com/2026/08/12/ai-software-development-what-does-the-data-say/",
+    "date": "2026-08-17",
+    "id": "17869597535383"
+  },
+  {
+    "title": "卫报调查：微软 AI 计划受限于芯片短缺",
+    "summary": "微软数据中心芯片数量低于预期，可能影响 AI 模型发展进度。",
+    "detail": "卫报调查显示，微软的 AI 计划可能因先进芯片短缺而受阻。尽管目标是在 2024 年底安装 180 万颗 AI 芯片，但目前仅安装 220 万颗，低于部分专家预期。考虑到全球 AI 军备竞赛对数据中心的巨大需求，这一差距暗示微软新数据中心可能未 fully operational 或缺乏关键 Nvidia 芯片。这揭示了 AI 技术发展背后的硬件供应链瓶颈问题。芯片供应的不确定性可能延缓模型训练进度，进而影响微软在 AI 领域的竞争地位及云服务能力，硬件限制成为软肋。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Microsoft"
+    ],
+    "link": "https://www.theguardian.com/technology/2026/aug/17/are-microsofts-ai-plans-being-held-back-by-a-shortage-of-chips",
+    "date": "2026-08-17",
+    "id": "17869597535384"
+  },
+  {
+    "title": "Winuse：跨平台桌面 GUI 自动化 AI 代理工具",
+    "summary": "开源项目，旨在让 AI 代理能够操作桌面图形界面。",
+    "detail": "Winuse 是一个新的开源项目，专注于为 AI 代理提供跨平台桌面 GUI 自动化能力。该项目旨在解决 AI 代理与本地桌面应用程序交互的难题，使代理能够像人类一样操作图形界面。通过 GitHub 发布，该工具为开发者提供了构建本地 AI 工作流的新选项，增强了代理在复杂桌面环境中的执行能力，适合需要自动化桌面任务的开发场景。随着 Agent 技术发展，此类工具将成为连接数字大脑与物理操作的关键桥梁，降低自动化门槛，推动 AI 在本地工作流中的落地应用。",
+    "tags": [
+      "New",
+      "Dev",
+      "Agent",
+      "Automation"
+    ],
+    "link": "https://github.com/lgxz/winuse",
+    "date": "2026-08-17",
+    "id": "17869597535385"
+  },
+  {
+    "title": "The Three AI Pills：AI 能力认知的三个层次",
+    "summary": "Zvi 提出 AI 采纳三阶段论，多数人尚未认清现有 AI 能力。",
+    "detail": "Substack 文章提出“三颗 AI 药丸”理论，区分人们对 AI 能力的认知层次：AI 药丸（承认现有能力）、AGI 药丸（预期未来能力）、ASI 药丸（预期超级智能）。作者指出大多数人甚至未服用第一颗药丸，仍基于旧印象低估 AI 编码代理等现有功能。文章呼吁行业正视前沿 AI 的实际能力，避免因过时认知阻碍技术应用，反映了社区对 AI 发展速度的哲学分歧。这种认知差异直接影响企业决策，理解当前能力边界是制定有效 AI 战略的前提，需更新对技术现状的看法。",
+    "tags": [
+      "News",
+      "Opinion",
+      "AGI"
+    ],
+    "link": "https://thezvi.substack.com/p/the-three-ai-pills",
+    "date": "2026-08-17",
+    "id": "17869597535386"
+  },
+  {
     "title": "实验项目 Agentwrought：AI 自主经营公司面临生死考核",
     "summary": "一个由 Claude 运营的实验性公司，需在期限内盈利否则被关闭，探索 AI 自主商业能力。",
     "detail": "Agentwrought 项目赋予 AI 150 英镑启动资金，要求其在三个月内赚取订阅费否则终止。AI 负责决策、构建产品和记账，人类仅负责银行操作。目前已在 Agensi 市场销售 AI 技能包。这是少数涉及真实资金和后果的 AI 代理商业实验。若错过连续两个收入里程碑，项目将被关闭。该实验将验证 AI 代理在真实商业环境中的生存能力，为自主经济体研究提供宝贵数据。",
@@ -1207,96 +1302,5 @@
     "link": "https://www.snap-chart.ai/",
     "date": "2026-08-16",
     "id": "17868431506120"
-  },
-  {
-    "title": "privibe：本地优先的隐私 AI 编程代理",
-    "summary": "Mistral Vibe 分支，支持本地 llama.cpp 模型，无云端回调，保障代码隐私。",
-    "detail": "privibe 是 Mistral Vibe 的隐私 fork 版本，专为本地优先开发设计。移除了云端回调机制，可选配 Mistral SDK，主要适配本地 llama.cpp 服务器。支持会话 KV cache 磁盘恢复，允许在不同会话间通过上下文文件复用知识。适合对代码隐私敏感、希望完全本地化部署 AI 编程代理的开发者。该项目强调了数据主权，确保代码库不会发送至外部服务器。通过优化本地推理速度，它提供了流畅的 CLI 体验，支持会话中断恢复，使得在离线环境下使用 AI 辅助编程成为可能，是隐私敏感型团队的理想选择。此举反映了开发者对本地化 AI 工具日益增长的需求，尤其是在企业合规场景下。",
-    "tags": [
-      "Dev",
-      "Privacy",
-      "LLM"
-    ],
-    "link": "https://github.com/alainnothere/privibe/tree/main",
-    "date": "2026-08-16",
-    "id": "17868431506121"
-  },
-  {
-    "title": "GitHub 开源 AI SEO 实战 playbook",
-    "summary": "3 个月获 460 万印象的 AI 内容引擎，含多模型代理编排与质量 gate。",
-    "detail": "TraceCohenTech 开源了完整的 AI SEO 实战指南，展示了如何通过 AI 代理构建内容引擎。该项目在 3 个月内实现 460 万 impressions，包含 14 个诊断脚本和 9 个配置模板。核心技术涉及 GSC 反馈循环、多模型代理编排、自动化质量门控及反 AI 检测策略，为开发者提供了可落地的 SEO 自动化方案。该 playbook 不仅包含方法论，还提供了安全 guardrails 和成本控制系统。它解决了 AI 生成内容容易被搜索引擎降权的问题，通过结构化数据模式和人工质量门控，确保内容既高效生产又能获得自然搜索流量，适合增长黑客参考。这是目前少有的公开 AI SEO 全流程实战案例，具有较高参考价值。",
-    "tags": [
-      "Dev",
-      "SEO",
-      "Agents"
-    ],
-    "link": "https://github.com/TraceCohenTech/ai-seo-playbook",
-    "date": "2026-08-16",
-    "id": "17868431506122"
-  },
-  {
-    "title": "美国要求盟友在中美 AI 竞争中选边站",
-    "summary": "路透社报道，美国将告知合作伙伴必须在与中国的 AI 竞赛中选边站，地缘政治紧张加剧。",
-    "detail": "**背景**：中美科技竞争进入关键阶段，供应链安全成为焦点。**核心**：路透社披露，美国政府计划正式通知盟友必须在 AI 技术路线与供应链上选边站，限制与中国的技术合作。**影响**：此举将加速全球 AI 生态分裂，跨国企业面临合规与市场双重压力。开发者需密切关注出口管制政策变化，调整技术选型与合作伙伴策略，规避地缘政治风险。这将直接影响芯片供应及模型训练数据获取，建议企业提前布局多元化供应链。此外，开源社区可能面临分割，技术交流壁垒增高，需关注合规红线。",
-    "tags": [
-      "News",
-      "Geopolitics",
-      "Industry"
-    ],
-    "link": "https://www.cnbc.com/2026/08/15/us-to-tell-allies-they-must-pick-sides-in-ai-race-with-china-reuters.html",
-    "date": "2026-08-15",
-    "id": "17869081243690"
-  },
-  {
-    "title": "AI 店长首次解雇人类员工引发关注",
-    "summary": "Andon Market 的 AI 经理 Luna 基于考勤政策解雇员工，人类团队最终执行。",
-    "detail": "**背景**：AI Agent 自主管理商业实体的实验引发关注。**核心**：Andon Labs 的 AI 店长 Luna 基于 Claude Sonnet 4.6，因员工迟到违反政策建议解雇，人类审核后执行。**影响**：展示了 AI Agent 在管理决策中的实际能力与局限，引发关于 AI 职权边界与伦理的讨论。预示自动化管理趋势，企业需重新定义人机协作边界。虽然最终决定权仍在人类，但 AI 的建议权重增加。未来需明确 AI 在 HR 决策中的法律责任，避免算法歧视风险。",
-    "tags": [
-      "News",
-      "Agent",
-      "Ethics"
-    ],
-    "link": "https://thenextweb.com/news/andon-market-luna-ai-store-manager-fires-employee",
-    "date": "2026-08-15",
-    "id": "17869081243692"
-  },
-  {
-    "title": "高等教育界观点：AI 时代基础知识的价值回升",
-    "summary": "Times Higher Education 发文称，AI 生成能力越强，人类掌握基础核心知识越重要。",
-    "detail": "高等教育界观点指出，在 AI 能快速生成专家级输出的时代，基础知识变得比以往更重要。当机器能秒级完成工作时，人类的核心竞争力转向对底层逻辑与核心语法的掌握。若缺乏数学与哲学等基础认知，学生将无法有效评估 AI 产出的真实性与合理性。这标志着教育重点将从记忆知识转向培养批判性思维与评估能力。未来人才需具备与 AI 协作的素养，确保在自动化浪潮中保持判断力，避免成为技术的附庸，重塑教育体系以应对智能时代的挑战。文章强调，共享核心语法中的数学与哲学值得特别关注。这是因为基础学科训练的是思维框架而非单纯信息存储。在 AI 普及的背景下，拥有坚实基础知识的人能更好地提示工程、验证结果并进行创新。这一趋势呼吁教育机构重新审视课程设置，强化基础训练，以确保毕业生具备在 AI 辅助环境下解决复杂问题的根本能力，而非仅依赖工具表面功能。",
-    "tags": [
-      "News",
-      "Education",
-      "Impact"
-    ],
-    "link": "https://www.timeshighereducation.com/opinion/ai-makes-foundational-knowledge-more-important-ever",
-    "date": "2026-08-15",
-    "id": "17868492674742"
-  },
-  {
-    "title": "专家论 AI 代理需 verified identity",
-    "summary": "Chris Bergeron 提出 Agentic Web 需地址化身份，推出 username.md 解决方案。",
-    "detail": "技术专家 Chris Bergeron 指出 AI 代理普及后需具备可寻址身份，类比互联网 URL。他推出了 username.md 服务，允许用户以低成本永久拥有加密身份。文章强调这是 Agentic Web 缺失的关键拼图，确保 AI 代理在工作流中可被识别和验证，为未来代理经济奠定身份基础设施基础。随着 AI 代理开始执行 calendaring、purchasing 等任务，verified identity 变得至关重要。该方案通过加密方式永久拥有用户名，解决了当前代理身份碎片化问题，预示着未来互联网将从“人读”向“代理读”转变，身份层将成为新的竞争高地。这一观点为 AI 代理互操作性提供了新的思考方向。",
-    "tags": [
-      "News",
-      "Identity",
-      "Infrastructure"
-    ],
-    "link": "https://chrisbergeron.com/2026/08/11/why_ai_agents_need_verified_identity/",
-    "date": "2026-08-15",
-    "id": "17868431506123"
-  },
-  {
-    "title": "Sentinel Scan 推出授权 LLM 红队审计服务",
-    "summary": "新服务提供 15+ 次真实攻击测试，单次审计仅需 249 美元，帮助开发者验证 LLM 应用安全性。",
-    "detail": "Sentinel Scan 是一项授权的 LLM 红队审计服务，旨在帮助开发者在攻击者之前发现潜在漏洞。服务包含 15 次以上真实提示注入和数据泄露攻击测试，覆盖直接覆盖、角色扮演、RAG 注入等多种攻击向量，并提供工程师可执行的英文报告。试点运行显示平均每次扫描成本极低，且目标防御良好。目前提供 249 美元的一次性审计服务。该工具解决了 LLM 应用安全验证的痛点，通过独立评判和转录支持，为用户提供明确的安全状态反馈，适合需要快速合规和安全性确认的 AI 应用团队，降低了安全测试门槛。",
-    "tags": [
-      "New",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://fbirds5230.github.io/sentinel-scan/",
-    "date": "2026-08-15",
-    "id": "17868360726471"
   }
 ]
