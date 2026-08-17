@@ -1,5 +1,70 @@
 [
   {
+    "title": "跨厂商模型“语义空洞”矩阵研究发布",
+    "summary": "研究揭示 37% 的模型执行返回零字节输出，引发对齐关注。",
+    "detail": "该预印本分析了 OpenAI、Google 等 11 个模型的 31,430 次试验。发现 37.09% 的执行结果为“空洞”（零可见字节输出）。研究定义了 V0-VU 四种子类型，排除了安全拦截等因素。在 16,000 token 上限下仍有大量空洞，证明输出预算终止无法解释所有情况。原始数据包含 62,968 个事件哈希，可公开验证。这一发现为模型对齐和输出控制提供了新的评估维度，揭示了跨厂商模型行为的潜在共性。尽管未声明内部机制，但可复现的零字节执行类为理解模型沉默行为提供了结构化框架，对安全对齐研究具有重要参考价值。此外，研究区分了明确拒绝与基础设施结果，确保分类准确性。",
+    "tags": [
+      "Dev",
+      "Research",
+      "LLM"
+    ],
+    "link": "https://zenodo.org/records/21696066",
+    "date": "2026-08-17",
+    "id": "17869920390190"
+  },
+  {
+    "title": "Tim O'Reilly 论述开源对 AI 的重要性",
+    "summary": "借鉴 Web 历史，argues 模块化与开源是 AI 平台护城河。",
+    "detail": "Tim O'Reilly 对比 1995 年 Netscape 与 Microsoft 的竞争，指出集成化并非胜者。Apache 凭借 clean extension layer 和模块化胜出，形成了 LAMP 栈。文章强调“参与架构”在 AI 时代同样关键，开源与可组合性将是构建持久 AI 平台的核心策略，而非单纯的功能堆砌。历史表明，允许第三方扩展的模块化系统比封闭集成更具生命力，这对当前 AI 模型开发具有深远启示。开发者应关注扩展层设计，避免重蹈封闭系统覆辙，开源生态的协作创新将是 AI 基础设施长期演进的关键驱动力。模块化而非功能数量，才是真正的护城河。",
+    "tags": [
+      "News",
+      "OpenSource",
+      "Strategy"
+    ],
+    "link": "https://oreillyradar.substack.com/p/why-open-source-matters-for-ai",
+    "date": "2026-08-17",
+    "id": "17869920390191"
+  },
+  {
+    "title": "谷歌拟收购精神航空数据以增强 AI",
+    "summary": "彭博社报道谷歌计划通过破产收购获取航空数据训练 AI。",
+    "detail": "根据彭博法律新闻，谷歌旨在通过购买 Spirit Airlines 的数据来提升其 AI 能力。此次收购发生在航空公司破产法律程序期间，涉及破产法条款。数据获取将成为科技巨头增强模型垂直领域知识的关键手段，显示 AI 竞争已从算力转向高质量专有数据资源的争夺。此举可能引发关于数据隐私及垄断的新讨论，标志着大厂通过另类数据源强化模型性能的战略趋势。利用破产资产获取数据是一种新颖途径，可能为后续类似案例提供先例，改变科技公司与传统行业的数据交互模式。连接决策者的信息网络将因此获得新的数据源支持。",
+    "tags": [
+      "News",
+      "Google",
+      "Data"
+    ],
+    "link": "https://news.bloomberglaw.com/bankruptcy-law/google-aims-to-boost-ai-with-purchase-of-spirit-airlines-data",
+    "date": "2026-08-17",
+    "id": "17869920390192"
+  },
+  {
+    "title": "TamedTable 推出自然语言 AI ETL 工具",
+    "summary": "无需代码，通过自然语言指令完成数据清洗与转换。",
+    "detail": "TamedTable 是一款 AI 原生 ETL 工具，支持 CSV、Parquet 等格式。用户可用自然语言指令进行数据分类、清洗和验证，无需编写公式。工具支持步骤自动化复用及 Python 脚本导出，采用懒执行模式预览成本。所有操作基于用户自己的 API 密钥，确保数据隐私。旨在降低数据准备门槛，实现人人可用的数据工程，支持浏览器和 CLI 多种运行环境。该工具强调透明性，所有变更可见且可撤销，适合非技术背景的数据分析师快速处理复杂表格任务。加载表格数据，说出需求，即可见证变化发生。",
+    "tags": [
+      "New",
+      "Data",
+      "NoCode"
+    ],
+    "link": "https://www.tamedtable.com/",
+    "date": "2026-08-17",
+    "id": "17869920390193"
+  },
+  {
+    "title": "论文：训练 AI 科学家复现科学研究",
+    "summary": "27B 参数 Faraday 代理在论文复现任务上超越 Claude 与 GPT。",
+    "detail": "_arXiv_ 新论文介绍 Replica 任务空间及 Faraday 代理。该 27B 参数模型利用代码代理工具，在 held-out 复现任务上表现优于 Claude Opus 4.8 和 GPT-5.5。研究引入了基于 rubric 的自动评估器，噪声低且与人类评估一致。旨在解决科学可复现性问题，标志着 AI 辅助科研进入自动化验证新阶段。论文详细分析了代理的科学优先行为模式，为未来科研自动化提供了基准。通过 scalable task space，该研究为训练专用科研 AI 提供了新范式，有望加速科学发现进程。作者包括 Damon Falck 等多位研究人员，提供了 PDF 及 HTML 实验版本。",
+    "tags": [
+      "Dev",
+      "Paper",
+      "Agent"
+    ],
+    "link": "https://arxiv.org/abs/2608.13331",
+    "date": "2026-08-17",
+    "id": "17869920390194"
+  },
+  {
     "title": "OpenAI 企业 AI 论文现“零结果”争议",
     "summary": "OpenAI 企业 AI 论文分析显示技术并非难点，结果引发行业关注。",
     "detail": "The Working Model 深度分析指出，OpenAI 企业级 AI 论文中出现“零结果”现象，表明技术实现并非最困难部分。该分析基于仔细研读的研究文件、备案和发布说明，旨在为周一需要决策的人员提供无噪音报告。这一发现可能深刻影响企业级 AI 部署策略，暗示非技术因素如工作流程整合、组织适应性才是关键挑战，而非单纯的技术能力。对于企业领导者而言，这意味着在投资 AI 时需更多关注业务流程重构，而非仅依赖模型性能提升。行业需重新评估 AI 落地难点。",
@@ -1237,70 +1302,5 @@
     "link": "https://news.ycombinator.com/item?id=49321985",
     "date": "2026-08-16",
     "id": "17869049733195"
-  },
-  {
-    "title": "AgentShield：离线 Rust AI 代理安全扫描器",
-    "summary": "专为 AI 代理和 MCP 设计的离线安全防火墙，50ms 内检测注入风险。",
-    "detail": "AgentShield 是一款专为 AI 代理工具和 MCP 服务器设计的离线安全扫描器，旨在解决 AI 自动化带来的新型安全威胁。基于 Rust 构建，它能在 50ms 内完成静态分析（SAST），精准检测命令注入、秘密窃取及有毒数据流。支持 1 点击自动修复并生成标准 SARIF 报告，无缝集成至 CI/CD 流程。随着 AI Agent 生态爆发，此类离线、轻量级安全工具成为开发者关键基础设施，确保代理行为在部署前符合安全规范，防止恶意扩展危害系统。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Rust"
-    ],
-    "link": "https://github.com/aiconnai/agentshield",
-    "date": "2026-08-16",
-    "id": "17869008267330"
-  },
-  {
-    "title": "Anthropic CEO：AI 反对声浪本质是信任危机",
-    "summary": "Dario Amodei 回应投资者质疑，强调 AI 监管与透明度建设的重要性。",
-    "detail": "Anthropic CEO Dario Amodei 针对投资者关于其负面言论加剧行业反弹的指控进行了正式回应。他认为 AI 面临的反对声浪根本上是一场信任危机，而非单纯的沟通策略问题。Amodei 强调了透明度要求和数据中心建设面临的公众阻力，主张通过负责任的监管（如加州 AI 安全法案）重建信任，而非盲目乐观地掩盖潜在风险。这一立场表明头部 AI 公司正试图在安全警告与商业推广之间寻找平衡，对行业合规策略具有深远指导意义。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "Regulation"
-    ],
-    "link": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
-    "date": "2026-08-16",
-    "id": "17869008267331"
-  },
-  {
-    "title": "HN 讨论：AI 辅助代码的人工审查工具",
-    "summary": "开发者社区探讨如何有效审查 AI 生成的代码，寻求架构级质量保障。",
-    "detail": "Hacker News 热门讨论聚焦于 AI 辅助编码时代的人工代码审查流程。开发者指出，现有 AI 审查工具擅长发现 Bug 和风格问题，但在架构合理性、模块耦合度等方面表现不足。社区正在寻求能简化人工审查流程的工具与实践，以应对 AI 生成代码带来的数量激增和质量噪音。这反映了工程界正在从单纯追求生成速度，转向关注 AI 代码的长期可维护性与系统架构的稳健性，确保软件工程质量。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Community"
-    ],
-    "link": "https://news.ycombinator.com/item?id=49321400",
-    "date": "2026-08-16",
-    "id": "17869008267335"
-  },
-  {
-    "title": "Hugging Face 推出疟疾药物 AI 发现挑战榜",
-    "summary": "Hugging Face 发布公开排行榜，激励 AI 设计疟疾药物候选分子，解决市场分配失败问题。",
-    "detail": "Hugging Face 联合 FINAL-Bench 推出“开放发现挑战”，旨在通过公共排行榜加速 AI 发现的疟疾药物候选分子评估。WHO 数据显示 2023 年疟疾致死约 59.7 万人，其中大部分是非洲儿童，主要因市场缺失而非技术瓶颈。该挑战鼓励基于信念而非回报的开发，利用 AI 填补分配缺口，解决资金无法聚集的问题。平台提供公开 leaderboard 供开发者提交模型，核心技术涉及 AI 分子设计与评估基准。行业影响在于推动 AI for Science 向善，解决被忽视疾病的治疗难题，证明技术可服务于非盈利目标，为全球健康公平提供新范式，激励社区参与人道主义救援。",
-    "tags": [
-      "Dev",
-      "AI for Science",
-      "Drug Discovery"
-    ],
-    "link": "https://huggingface.co/blog/FINAL-Bench/open-discovery-challenge",
-    "date": "2026-08-16",
-    "id": "17868975827960"
-  },
-  {
-    "title": "媒体警示：失控 AI 已非科幻情节",
-    "summary": "The Verge 专栏文章指出 rogue AI 不再是科幻，强调 AI 安全与监管的紧迫性。",
-    "detail": "The Verge 发表专栏文章《Rogue AI aren't science fiction anymore》，讨论 AI 安全风险已从理论走向现实。文章提及 OpenAI 等头部机构面临的挑战，强调随着模型能力增强，失控风险不再是虚构故事，而是亟待解决的工程与政策问题。背景在于 AI 技术快速迭代带来的不可预测性及潜在滥用风险。核心技术点涉及 AI 对齐与安全围栏，确保模型行为符合人类意图。行业影响在于促使政策制定者和开发者重新审视安全协议，可能加速相关监管法规的落地，影响未来 AI 产品的发布节奏与公众信任，呼吁建立更严格的安全标准。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Policy"
-    ],
-    "link": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
-    "date": "2026-08-16",
-    "id": "17868975827961"
   }
 ]
