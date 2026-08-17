@@ -1,5 +1,70 @@
 [
   {
+    "title": "EY 将实习期延长至一年以应对 AI 变革",
+    "summary": "安永推出长达一年的职业居留计划，帮助实习生掌握 AI 时代所需技能。",
+    "detail": "随着 AI 重塑入门级工作所需的技能，四大会计师事务所之一的安永（EY）宣布将其传统的八周实习计划扩展为为期 8 至 12 个月的付费“职业居留”（Career Residency）。实习生在完成传统实习后，将以兼职形式继续参与项目，接受个性化 coaching 和技能发展培训。这一举措反映了专业服务行业正在快速变化，企业需要重新思考新员工如何能更快地做出贡献，同时也表明 AI 正在提高 entry-level 工作的门槛，迫使教育机构和企业调整人才培养模式。",
+    "tags": [
+      "News",
+      "Career",
+      "Enterprise"
+    ],
+    "link": "https://www.businessinsider.com/ey-internship-residency-career-ai-skills-2026-8",
+    "date": "2026-08-17",
+    "id": "17870054630640"
+  },
+  {
+    "title": "AI 自动化初创公司 Relay 关闭，团队加入 Google Chrome",
+    "summary": "曾旨在成为新 Zapier 的 Relay 宣布 shutdown，创始人重返 Google 领导 Chrome 产品。",
+    "detail": "2021 年成立的 AI 工作流自动化工具 Relay 宣布将于 9 月 14 日停止服务。其创始人兼 CEO Jacob Bank 将重返 Google，担任 Chrome 团队的 VP of Product。Relay 最初的目标是成为新一代的 Zapier，但在竞争激烈的自动化市场中未能持续。这一收购性招聘表明 Google 正加强 Chrome 浏览器内的 AI 功能整合，计划利用 Relay 团队在 AI 工作流方面的经验，帮助用户在浏览器内更高效地完成任务，预示着浏览器可能成为下一代 AI Agent 的重要载体。",
+    "link": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+    "date": "2026-08-17",
+    "tags": [
+      "News",
+      "Startup",
+      "Google"
+    ],
+    "id": "17870054630641"
+  },
+  {
+    "title": "Smolbox：在浏览器标签页中运行本地 AI Agent",
+    "summary": "基于 WebAssembly 和 WebGPU 的沙盒项目，实现完全本地化的 AI 代理工作流。",
+    "detail": "Smolbox 是一个概念验证项目，它在一个基于 Alpine Linux 的 x86_64 虚拟机沙盒中运行，完全通过 WebAssembly (WASM) 在浏览器标签页内执行。该项目集成了通过 WebGPU 运行的本地 LLM 模型，并将其作为工具调用暴露给 VM。与 Claude Code 等云端服务不同，Smolbox 的所有数据处理、Linux 沙盒和文件访问控制均存在于用户浏览器中，无需服务器端处理。这为本地化、隐私安全的 AI Agent 部署提供了新的技术思路，证明了完全在前端运行复杂 AI 工作流的可行性。",
+    "link": "https://remyhax.xyz/posts/smolbox/",
+    "date": "2026-08-17",
+    "tags": [
+      "Dev",
+      "LLM",
+      "WebAssembly"
+    ],
+    "id": "17870054630642"
+  },
+  {
+    "title": "利用控制图表优化 AI Agent 的效用与成本",
+    "summary": "作者通过构建个人生活控制图表，为 AI Agent 提供更有效的上下文框架。",
+    "detail": "文章探讨了如何通过构建个人生活的“控制图表”（Control Charts）来提升 AI Agent 的实用性，而非盲目依赖 Agent 自动化。作者利用 Claude Code 编写代码连接各类数据源（如银行、健康数据），生成可视化图表来监控系统状态。这种方法为 AI 提供了明确的参考框架和上下文，使得 AI 在讨论问题时更具针对性，同时降低了无谓的 Agent 运行成本。该案例展示了在 AI 应用中，良好的数据基础设施和上下文管理比单纯的 Agent 自动化更为关键。",
+    "link": "https://newoldweb.com/control-charts-make-ai-agents-less-necessary-and-more-useful",
+    "date": "2026-08-17",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Productivity"
+    ],
+    "id": "17870054630643"
+  },
+  {
+    "title": "fast.ai 创始人回归 AI 教育领域",
+    "summary": "Jeremy Howard 宣布重返 AI 领域，重点关注 AI 在教育中的应用与挑战。",
+    "detail": "fast.ai 联合创始人 Jeremy Howard 在停更 5 个月后宣布回归，重点研究 AI 在教育领域的应用。尽管周围存在强烈的反 AI 情绪，他指出当前 AI 教育产品大多质量低下，甚至涉及欺诈，导致学生思维技能退化。他强调阅读、写作和理解文本是人类的核心部分，而当前的 AI 教育工具往往追求可博弈的指标而非真实学习效果。此次回归旨在探索如何正确使用 AI 辅助教育，避免技能萎缩，对抗互联网上泛滥的低质 AI 内容。",
+    "link": "https://www.fast.ai/posts/2026-08-18-returning-to-AI/",
+    "date": "2026-08-17",
+    "tags": [
+      "News",
+      "Education",
+      "Ethics"
+    ],
+    "id": "17870054630644"
+  },
+  {
     "title": "AI 说服力超越人类专家研究",
     "summary": "最新研究显示 AI 在说服任务中表现优于人类专家，包括专业辩论手。",
     "detail": "该论文通过四组预注册实验，涉及近 1.9 万次对话，发现前沿 AI 系统在说服能力上可靠地超过人类专家，包括获奖辩论手和专业筹款人。研究显示，AI 的优势源于其能快速部署大量信息。在真实筹款场景中，AI 的效果是专业人类的近 3 倍。这一发现确立了前沿 AI 系统在对话中胜过专家的事实，对政治传播、社会决策及潜在的信息操纵风险具有深远影响。即使人类专家接受 coaching，AI 优势依然存在，提示需重新审视人机交互边界及监管政策，防止恶意利用。未来需探索如何平衡 AI 效率与人类自主性，避免社会决策被算法过度主导，确保技术向善发展。",
@@ -1237,70 +1302,5 @@
     "link": "https://aichatspot.online/what-is-ai-slop-and-does-it-really-ruin-youtube/",
     "date": "2026-08-16",
     "id": "17869224472895"
-  },
-  {
-    "title": "Anthropic 发布最新风险报告，暂停发布更强模型",
-    "summary": "Anthropic 上调风险评级，决定不发布内部更强的 Model 2。",
-    "detail": "Anthropic 发布最新风险报告，将高风险情境下的模型错位风险评级从“极低”上调至“低”，主要 citing 网络安全事件。尽管内部代号为 Model 2 的模型性能显著优于 Mythos，但公司决定暂不发布。报告强调模型自动化研发能力加速，虽推动进步但也增加滥用风险。此举显示头部厂商在 AGI 竞赛中开始将安全置于速度之上，行业监管压力增大，为后续政策制定提供参考。同时，OpenAI 也在放缓 Astra 模型发布，表明安全共识正在形成。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "Safety"
-    ],
-    "link": "https://www.axios.com/2026/08/14/anthropic-model-2-ai-risk",
-    "date": "2026-08-16",
-    "id": "17869189577940"
-  },
-  {
-    "title": "公众质疑扎克伯格的 AI 未来愿景",
-    "summary": "科技界质疑 Meta CEO 关于 AI 代理的乐观宣言，信任缺失成关键。",
-    "detail": "扎克伯格发布长文描绘 AI 个人代理的未来，宣称未来属于每个人，但遭科技媒体与公众冷遇。分析指出 Meta 过往在社交媒体上的记录导致信任危机，与 Anthropic CEO 的安全立场形成对比。公众担忧 AI 未来重蹈广告与愤怒诱导的覆辙。这反映了 AI 普及面临的社会信任挑战，不仅是技术问题。Meta 试图通过 AI 重塑形象，但历史包袱沉重，需解决隐私与算法伦理问题才能赢得用户支持，否则愿景难落地。行业观察家认为这是 Meta 的另一种竞争策略。",
-    "tags": [
-      "News",
-      "Meta",
-      "Social"
-    ],
-    "link": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
-    "date": "2026-08-16",
-    "id": "17869189577941"
-  },
-  {
-    "title": "VocalCode：本地语音输入 AI 编程助手",
-    "summary": "一次性付费$4.99，本地 CPU 运行，保护隐私的语音编程工具。",
-    "detail": "新产品 VocalCode 允许开发者通过语音直接向代码编辑器输入内容，无需切换窗口。核心优势在于完全本地化运行，音频不上传云端，保障代码隐私。采用一次性付费模式（$4.99），支持多语言识别。适合注重隐私与效率的开发者，是 AI 编程交互界面的新尝试。本地 CPU 运行确保低延迟与数据安全，解决了云端语音服务的隐私顾虑，为编程助手提供了新的交互维度。无需订阅的模式在 SaaS 盛行的当下颇具吸引力。",
-    "tags": [
-      "New",
-      "Dev",
-      "Privacy"
-    ],
-    "link": "https://vocalcode.app/",
-    "date": "2026-08-16",
-    "id": "17869189577942"
-  },
-  {
-    "title": "Legbar：GitHub CI 与 AI Agent 会话监控工具",
-    "summary": "在终端中并排显示 AI Agent 会话与 GitHub CI 状态，提升开发效率。",
-    "detail": "开源工具 Legbar 解决了监控 AI Agent 集群与 CI pipeline 状态分离的痛点。它能在单一终端界面实时展示 Agent 会话进度、模型使用情况以及 GitHub CI 状态。支持多会话并行监控，帮助开发者快速定位 Agent 等待输入或 CI 失败的情况。是 AI 工程化落地的实用基础设施。通过统一视图减少上下文切换，提升运维效率，特别适合多 Agent 协作的开发场景，降低了调试复杂度。整合了 roost 与 leghorn 的数据层，确保信息一致性。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Agent"
-    ],
-    "link": "https://github.com/gmhoward9289-ops/legbar",
-    "date": "2026-08-16",
-    "id": "17869189577943"
-  },
-  {
-    "title": "AI 行业周报：监管困境与 Plan B 情景分析",
-    "summary": "The Zvi 周报探讨 AI 监管现状及未来情景，涉及 OpenAI 安全原则。",
-    "detail": "最新一期 AI 周报深入分析了当前 AI 监管的临时性困境及长期目标。内容涵盖 OpenAI 国家安全原则及 AI 2030 计划的后续情景 Plan A/B。报告指出监管目标不断后移，需建立合理护栏。对于关注 AI 政策、对齐研究及宏观发展趋势的从业者，提供了深度的思考框架与情报汇总。虽然未覆盖 GPT-5.6-Sol 细节，但对理解行业政策风向与长期战略规划具有重要参考价值，建议从业者仔细阅读。作者强调需严肃对待 Plan A 提出的愿景。",
-    "tags": [
-      "News",
-      "Policy",
-      "Analysis"
-    ],
-    "link": "https://thezvi.substack.com/p/ai-176-part-2-plan-b",
-    "date": "2026-08-16",
-    "id": "17869189577944"
   }
 ]
