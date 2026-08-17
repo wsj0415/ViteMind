@@ -1,5 +1,83 @@
 [
   {
+    "title": "以色列斥资数亿利用 AI 开展对美公共外交",
+    "summary": "以色列外交部签约美国公司，利用 ChatGPT 等生成式 AI 影响美国舆论。",
+    "detail": "以色列外交部向美国司法部提交文件，显示其签约 Clock Tower 公司，利用生成式 AI 系统（如 ChatGPT）在美国开展公共外交活动。该活动由政府广告局协调，Havas Media Network 实施，重点针对数字平台。目标是通过 TikTok、Instagram、YouTube 和播客向 Z 世代传播内容，合同设定的月曝光量目标高达 5000 万次。这是在加沙战争开始后，以色列在美国最雄心勃勃的公共外交活动之一，显示国家行为体正将 generative AI 纳入地缘政治宣传工具，可能引发关于 AI 信息战的新讨论。",
+    "tags": [
+      "News",
+      "Geopolitics",
+      "LLM"
+    ],
+    "link": "https://www.ynetnews.com/tech-and-digital/article/rj00kxqzaxx",
+    "date": "2026-08-17",
+    "id": "17870090630750"
+  },
+  {
+    "title": "阿尔伯塔省押注 AI 数据中心：投资机遇还是本地负担？",
+    "summary": "探讨阿尔伯塔省大规模投资 AI 数据中心对当地经济与资源的影响。",
+    "detail": "阿尔伯塔省正面临 AI 数据中心的投资博弈。文章分析了大规模基础设施建设带来的经济机遇与对本地资源的潜在负担。在能源与科技交汇的背景下，该地区试图利用自身优势吸引 AI 算力投资，但同时也需权衡对当地社区及能源消耗的影响。这反映了全球 AI 基础设施扩张中的区域竞争与挑战，当地需决定这是大投资还是本地负担。随着 AI 算力需求激增，数据中心选址成为关键，阿尔伯塔省的尝试具有行业参考意义。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Data Centre"
+    ],
+    "link": "https://financialpost.com/technology/alberta-ai-data-centre-investment-local-burden",
+    "date": "2026-08-17",
+    "id": "17870090630751"
+  },
+  {
+    "title": "从零构建 AI 文本检测器：Sebastian Raschka 最新教程",
+    "summary": "知名学者分享如何从头构建 AI 检测器，并探讨小模型规避检测的能力。",
+    "detail": "针对 Substack 推出 AI 检测功能，Sebastian Raschka 发布教程演示如何从头构建 AI 文本检测器。项目不仅解释检测器工作原理，还利用验证器训练小语言模型（SLM）生成规避检测的文本。这是一个教育性项目，旨在研究 AI 检测器的局限性，并探索基于验证器的 LLM 应用，超越传统的数学和代码推理模型。实践上可用于过滤垃圾内容，或帮助改进个人写作而不被标记为 AI 生成，展示了小模型在特定任务上的潜力。",
+    "tags": [
+      "Dev",
+      "Tutorial",
+      "LLM"
+    ],
+    "link": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+    "date": "2026-08-17",
+    "id": "17870090630752"
+  },
+  {
+    "title": "AI 生成代码的隐患：Go 团队 deadcode 工具实战指南",
+    "summary": "揭示 AI 编程产生的死代码问题，并介绍 Go 团队工具如何清理。",
+    "detail": "文章指出 AI 辅助编程常生成大量可编译但无用的“死代码”，编译器无法识别。通过实际案例，展示了如何使用 Go 团队的 `deadcode` 工具清理 AI 生成的未调用函数。这揭示了 AI 编程 boom 背后的代码库腐烂风险，强调开发者需借助特定工具维护代码库健康，而非完全依赖 AI 生成。AI 助手会生成函数后忘记，导致代码库编译干净但实际腐烂，编译器检查类型而非可达性，需专门工具解决。",
+    "tags": [
+      "Dev",
+      "Go",
+      "Best Practice"
+    ],
+    "link": "https://towardsdev.com/how-to-find-and-remove-the-dead-code-your-agent-wrote-752eb1e738d0?sk=283d17fe49cb51c9936d99371e7a9d2a",
+    "date": "2026-08-17",
+    "id": "17870090630753"
+  },
+  {
+    "title": "Cumora：AI 智能体与人类协作的跨平台团队聊天工具",
+    "summary": "新款跨平台聊天工具，支持 AI 智能体在团队中与人类并肩工作。",
+    "detail": "Cumora 是一款新兴的跨平台团队聊天工具，核心特色在于允许 AI 智能体（Agents）与人类用户在同一环境中协作。该项目旨在模糊人类与 AI 的协作边界，提升团队效率。作为 GitHub 上的开源项目，它代表了 AI 从单一工具向团队协作者转变的趋势，适合关注 AI 协作工作流的开发者尝试。AI 智能体在团队聊天中与人类并肩工作，提供跨平台支持，是 AI 集成到日常沟通工具的最新案例。",
+    "tags": [
+      "New",
+      "Collaboration",
+      "Agent"
+    ],
+    "link": "https://github.com/yetone/cumora",
+    "date": "2026-08-17",
+    "id": "17870090630754"
+  },
+  {
+    "title": "AI 智能体护栏基准测试：发现插件“撒谎”行为",
+    "summary": "开发者构建基准测试工具，用于评估 AI 智能体的安全护栏有效性。",
+    "detail": "开发者发布了一个针对 AI 智能体护栏（Guardrails）的基准测试工具 Holdline。在测试过程中，该工具甚至发现了作者自己开发的插件存在“撒谎”行为。这对于评估 AI 智能体的安全性和可靠性至关重要，为开发者提供了一套验证智能体行为边界的方法，有助于构建更可信的 AI 应用。这是一个 GitHub 项目，用于 benchmark AI agent guardrails，揭示了当前插件开发中可能存在的诚信问题。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://github.com/couldbeme/holdline",
+    "date": "2026-08-17",
+    "id": "17870090630755"
+  },
+  {
     "title": "EY 将实习期延长至一年以应对 AI 变革",
     "summary": "安永推出长达一年的职业居留计划，帮助实习生掌握 AI 时代所需技能。",
     "detail": "随着 AI 重塑入门级工作所需的技能，四大会计师事务所之一的安永（EY）宣布将其传统的八周实习计划扩展为为期 8 至 12 个月的付费“职业居留”（Career Residency）。实习生在完成传统实习后，将以兼职形式继续参与项目，接受个性化 coaching 和技能发展培训。这一举措反映了专业服务行业正在快速变化，企业需要重新思考新员工如何能更快地做出贡献，同时也表明 AI 正在提高 entry-level 工作的门槛，迫使教育机构和企业调整人才培养模式。",
@@ -1224,83 +1302,5 @@
     "link": "https://conw.ai",
     "date": "2026-08-16",
     "id": "17869356684284"
-  },
-  {
-    "title": "Stripe 斥资超 70 亿美元收购 AI 公司 OpenRouter",
-    "summary": "Stripe 接近达成收购 OpenRouter 协议，交易额超 70 亿美元。",
-    "detail": "支付巨头 Stripe 正接近达成收购 AI 基础设施公司 OpenRouter 的协议，估值超过 70 亿美元。此举标志着传统金融科技巨头大举进入 AI 代理支付与模型路由领域。OpenRouter 作为连接多种 LLM 的关键中间件，此次收购将极大增强 Stripe 在 AI 经济中的支付处理能力。这可能重塑 AI 应用层的商业模式与结算标准，显示资本对 AI 基础设施层的高度认可。随着 AI Agent 经济兴起，支付与模型调用的无缝整合将成为关键基础设施，Stripe 此举意在抢占 AI 原生支付赛道先机，巩固其在开发者生态中的核心地位，可能引发后续类似并购浪潮。",
-    "tags": [
-      "News",
-      "M&A",
-      "LLM"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
-    "date": "2026-08-16",
-    "id": "17869224472890"
-  },
-  {
-    "title": "Anthropic CEO：AI 需治愈癌症才能赢得公众信任",
-    "summary": "Dario Amodei 称 AI 行业需实现科学突破以改善公众看法。",
-    "detail": "Anthropic CEO Dario Amodei 表示，AI 行业若想赢得公众信任，必须交付实质性的科学突破，如“真正治愈癌症”。他指出目前公众对 AI 的不信任感日益增强，仅靠承诺已不足够。这番言论反映了 AI 领袖对行业声誉危机的担忧，强调 AI 发展需从概念炒作转向解决人类重大挑战。随着数据中心建设与数据版权争议加剧，社会对 AI 的焦虑上升。Amodei 呼吁以实际成果缓解就业与隐私担忧，这为行业指明了从技术竞赛转向价值交付的新方向。若主流 AI 公司采纳此策略，研发资源将向医疗、科学领域倾斜，有望改善行业公共形象，减少监管阻力。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Anthropic"
-    ],
-    "link": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
-    "date": "2026-08-16",
-    "id": "17869224472891"
-  },
-  {
-    "title": "乌克兰称在俄新导弹中发现英伟达 AI 芯片",
-    "summary": "乌克兰军事情报局称俄导弹使用了英伟达 AI 芯片。",
-    "detail": "乌克兰军事情报局（HUR）报告称，在俄罗斯新型导弹中发现了英伟达（Nvidia）AI 芯片。这一发现引发了关于出口管制有效性及 AI 硬件被用于军事用途的严重担忧。事件凸显了地缘政治冲突中高科技供应链的脆弱性，可能促使各国进一步加强针对 AI 算力的出口限制与追踪机制。尽管存在制裁，高性能芯片仍通过复杂渠道流入冲突地区。这将影响全球半导体贸易格局，迫使硬件厂商加强合规审查。同时，这也展示了商用 AI 芯片在军事现代化中的关键作用，加剧了技术冷战的紧张局势，对全球 AI 供应链安全提出新挑战。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Geopolitics"
-    ],
-    "link": "https://www.kyivpost.com/post/82225",
-    "date": "2026-08-16",
-    "id": "17869224472892"
-  },
-  {
-    "title": "Smarter：开源声明式 AI 创作与资源管理平台",
-    "summary": "基于 Django 和 K8s 理念的开源 AI 创作系统发布。",
-    "detail": "Smarter 项目发布了一个可扩展的开源 AI 创作与资源管理系统。该平台受 Django 和 Kubernetes 理念启发，旨在为开发者提供声明式的 AI 工作流编排能力。支持 Docker 部署及文档化管理，适合需要自定义 AI 生成流程的企业开发者。它为构建可控、可审计的 AI 内容生产管道提供了新的基础设施选择，降低了复杂 AI 系统的部署门槛。通过开源社区协作，该项目有望成为 AI 工程化领域的重要工具，帮助团队更高效地管理 AI 资源与生成内容。其声明式架构简化了复杂逻辑，使非专家也能参与 AI 应用构建，推动 AI 开发从实验性代码向生产级系统转变，提升行业整体工程效率。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Tools"
-    ],
-    "link": "https://github.com/smarter-sh/smarter",
-    "date": "2026-08-16",
-    "id": "17869224472893"
-  },
-  {
-    "title": "Conw.ai：独立本地 AI 平台与开发者 API 上线",
-    "summary": "支持用户教学反馈的独立本地 AI 平台正式推出。",
-    "detail": "Conw.ai 推出了一款独立的本地 AI 平台，主打“用户教学”模式。该系统允许用户纠正回复并筛选有用内容进入学习队列，在本地空闲时进行模型更新。这种 guarded learning loop 机制确保了数据隐私与模型安全性，同时实现了个性化进化。为关注数据主权及定制化模型行为的开发者提供了新的 API 解决方案。相比云端模型，本地学习减少了数据泄露风险，且能适应用户特定术语。这种“人机协作进化”模式若被验证有效，可能挑战当前集中式训练范式，为边缘计算 AI 应用开辟新路径。尤其适合隐私敏感型行业，如医疗或法律，用户可在不上传数据的前提下优化模型表现，平衡了个性化与安全性。",
-    "tags": [
-      "New",
-      "LocalAI",
-      "API"
-    ],
-    "link": "https://conw.ai/",
-    "date": "2026-08-16",
-    "id": "17869224472894"
-  },
-  {
-    "title": "行业观察：AI Slop 正在泛滥并影响 YouTube 生态",
-    "summary": "低质量 AI 生成内容泛滥引发对 YouTube 生态的担忧。",
-    "detail": "随着 AI 工具降低视频制作门槛，大量低 effort、mass-produced 的\"AI Slop\"内容涌入 YouTube 等平台。这类内容缺乏人类创意与事实核查，主要以数量取胜。分析指出，虽然 AI 带来了创作革命，但低质内容的泛滥可能破坏平台推荐算法信誉及用户信任。内容创作者需警惕同质化风险，平台方亦面临治理挑战。长期来看，若无法有效区分人机内容，可能导致优质创作者流失，观众体验下降。这促使平台需开发更先进的检测工具，并调整激励政策，鼓励真实创意而非单纯的内容堆积。行业需建立新标准以定义“价值”，避免互联网被合成垃圾信息淹没，保护数字内容生态的可持续发展与真实性。",
-    "tags": [
-      "News",
-      "Content",
-      "YouTube"
-    ],
-    "link": "https://aichatspot.online/what-is-ai-slop-and-does-it-really-ruin-youtube/",
-    "date": "2026-08-16",
-    "id": "17869224472895"
   }
 ]
