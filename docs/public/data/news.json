@@ -1,5 +1,70 @@
 [
   {
+    "title": "美国国会法案遭 AI 生成内容泛滥",
+    "summary": "众议院办公室反映 AI 起草法案激增，质量堪忧。",
+    "detail": "2026 年立法请求同比增 72%，4 名匿名 staffers 向 Politico 透露 AI 生成文本正渗入法案。由于法案将成为联邦法律基石，低质量 AI 内容引发“绝对恐怖”的担忧。这揭示了 AI 在政府治理中的早期滥用风险，可能影响法律严肃性及公众信任。AI 起草效率虽高，但缺乏人类审慎，可能导致法律漏洞增多。staffers 担心当法案通过成为联邦法规时，AI 生成的低质内容将带来长期隐患，亟需监管关注。此现象表明 AI 工具已深入核心行政流程，但质量控制机制尚未跟上技术普及速度。",
+    "tags": [
+      "News",
+      "Policy",
+      "LLM"
+    ],
+    "link": "https://gizmodo.com/its-absolutely-terrifying-ai-is-reportedly-slopping-up-the-bills-in-congress-2000799734",
+    "date": "2026-08-18",
+    "id": "17870954140800"
+  },
+  {
+    "title": "AI 生成代码无版权？最新法律解读",
+    "summary": "美国版权法规定纯 AI 代码无人类作者，无法拥有版权。",
+    "detail": "网站指出纯 AI 生成代码因无人类作者而不受版权保护，企业无法将其作为资产防御。混合代码库中仅人类编写部分受保护。这对创始人和工程领袖构成风险，开源许可若基于纯 AI 输出亦无法执行。需重视代码所有权合规。美国版权法明确规定无人类作者即无版权，这意味着完全由 AI 编写的代码属于公共领域，竞争对手可自由使用。团队需记录人类创作部分以确保资产安全，避免法律纠纷。此外，许可证授予需基于所有权，纯 AI 输出无法授予有效开源许可，开发者需谨慎评估 AI 工具使用风险，参考最新判例锚点。",
+    "tags": [
+      "News",
+      "Legal",
+      "Code"
+    ],
+    "link": "https://whoownsthecode.com/",
+    "date": "2026-08-18",
+    "id": "17870954140801"
+  },
+  {
+    "title": "开发者分享：AI Agent 夜间自主构建代码",
+    "summary": "白天规划夜间构建，AI 自主完成测试与部署。",
+    "detail": "博主分享自主工作流：白天写规格，夜间 Agent 自主 pick ticket、构建、测试并部署至 dev。仅早晨 review diff。系统通过 `autonomy` 字段决定任务是否需要人工干预。这展示了 Agent 在软件开发中的实际落地模式，减少人工重复劳动。Agent 能合并重复代码、运行测试套件并安全部署。若涉及商业决策如 API 订阅费用，Agent 会自动暂停等待人工确认。这种人机协作模式提高了开发效率，同时保留了关键决策的人类控制权，为自主编码代理提供了可行范例。背景进程代理每晚循环处理可构建任务，确保代码每日流动。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "Workflow"
+    ],
+    "link": "https://goatsquadstudios.com/blog/how-i-work-with-ai-agents-autonomously",
+    "date": "2026-08-18",
+    "id": "17870954140802"
+  },
+  {
+    "title": "Maritime：每月 1 美元运行 AI Agent 平台",
+    "summary": "新平台提供隔离微 VM，低成本部署数千 Agent。",
+    "detail": "Maritime 推出 AI Agent 运行平台，主打每月 1 美元起。支持隔离微 VM、effortless scaling 及托管基础设施。开发者可一键启动 OpenClaw 等模型。旨在降低 Agent 规模化成本，适合需要运行大量面向客户 Agent 的企业，提供实时遥测 dashboard。无需信用卡即可部署首个 Agent。平台支持运行数千个客户 facing AI 代理，确保隔离与安全。对于希望大规模部署 Agent 的初创公司，这种低成本基础设施降低了门槛。开发者来自 Google、Samsung 等公司，表明其企业级潜力，促进了 AI 代理生态的普及与发展。",
+    "tags": [
+      "New",
+      "Infra",
+      "Agents"
+    ],
+    "link": "https://maritime.sh/",
+    "date": "2026-08-18",
+    "id": "17870954140803"
+  },
+  {
+    "title": "ChatOSS：基于 Ollama 的开源 AI 桌面替代方案",
+    "summary": "本地优先的 AI 编码工作台，支持云端模型扩展。",
+    "detail": "ChatOSS 是 Codex 的开源替代品，原生桌面应用。支持本地 Ollama 模型免费运行，需高性能时可扩展云端模型。集成 Kanban 板，Agent 可直接在 repo 中工作。提供多种套餐，从免费本地到并行运行 30 个云端模型，适合不同层级开发者。无需账户即可使用本地模型。它允许用户在本地免费运行开源模型，并在需要时切换到云端以获得更大算力。这种混合模式兼顾了隐私与性能，为开发者提供了灵活的 AI 编码环境，支持 Qwen、DeepSeek 等多种主流开源模型。可通过终端 curl 命令一键安装，简化部署流程。",
+    "tags": [
+      "New",
+      "Dev",
+      "Ollama"
+    ],
+    "link": "https://chatoss.ai/",
+    "date": "2026-08-18",
+    "id": "17870954140804"
+  },
+  {
     "title": "Cursor 推出 Origin 平台挑战 GitHub",
     "summary": "Cursor 被 SpaceXAI 收购后推出代码托管平台 Origin。",
     "detail": "Cursor 在被 SpaceXAI 正式收购后，利用 GitHub 近期频繁宕机的机会，推出竞品平台 Origin。该平台支持代码协作、PR 管理及仓库存储，标志着 AI 编辑器厂商向基础设施层延伸。此前 GitHub 下载错误率高达 50%，Cursor 此举旨在捕捉开发者不满情绪。这可能重塑开发者工作流，加剧代码托管市场竞争，实现从编辑器到托管的全链路 AI 化。对于依赖 GitHub 的团队，Origin 提供了潜在的迁移路径，尤其是那些已经习惯 Cursor 编辑器的用户，这将进一步巩固 Cursor 在 AI 编程领域的生态壁垒，改变现有开发工具格局。此次发布被视为自然下一步，旨在解决开发者痛点。",
@@ -37,19 +102,6 @@
     "link": "https://linear.app/data",
     "date": "2026-08-18",
     "id": "17870919427082"
-  },
-  {
-    "title": "ChatOSS 推出本地优先的 AI 编程桌面端",
-    "summary": "基于 Ollama 的开源替代方案，支持代理编码与看板。",
-    "detail": "ChatOSS 发布新款桌面应用，旨在成为 Codex 的开源替代品。集成 Kanban 看板与代理编码功能，支持本地 Ollama 模型免费运行，也可按需扩展云端模型。该工具强调数据隐私与灵活性，允许用户在本地与云端模型间无缝切换。支持 Qwen、DeepSeek 等主流开源模型，适合注重隐私与成本的开发者团队使用。其 agentic coding 特性允许 AI 直接在 repo 中工作，规划任务并交付。付费计划提供更高并发模型支持，从 Starter 到 Ultra 满足不同需求。这降低了本地运行大模型的门槛，促进了开源模型在实际开发中的落地应用。",
-    "tags": [
-      "New",
-      "OpenSource",
-      "Coding"
-    ],
-    "link": "https://chatoss.ai/",
-    "date": "2026-08-18",
-    "id": "17870919427083"
   },
   {
     "title": "华盛顿邮报：AI 文本检测工具注定失败",
@@ -1246,57 +1298,5 @@
     "link": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
     "date": "2026-08-17",
     "id": "17869984758223"
-  },
-  {
-    "title": "加拿大专栏作家推动数据中心建设与 AI 行业有关联",
-    "summary": "调查揭示倡导 AI 数据中心的意见领袖背后存在行业利益 ties。",
-    "detail": "**DeSmog** 调查报道指出，一位在《多伦多太阳报》等媒体主张政治家应拥抱 AI 数据中心的加拿大专栏作家 Jay Goldberg，实则任职于与 AI 行业关系密切的美国反监管组织\"Consumer Choice Center\"。他多次发文反对地方政府对 AI 数据中心的禁令，强调其公共利益。该报道揭示了 AI 基础设施推广背后的游说活动，提醒公众和政策制定者注意意见领袖背后的潜在利益冲突，以及行业发展与监管之间的复杂博弈。Goldberg 声称数据中心利益被低估，但调查暗示其立场可能受组织背景影响。这一事件突显了 AI 基础设施扩张过程中，公众舆论、政策制定与行业利益之间需要更透明的沟通与监督机制，以确保公共决策的公正性。",
-    "tags": [
-      "News",
-      "Policy",
-      "Data Centre"
-    ],
-    "link": "https://www.desmog.com/2026/08/17/canadian-columnist-boosting-data-centres-has-ties-to-ai-industry/",
-    "date": "2026-08-17",
-    "id": "17869984758224"
-  },
-  {
-    "title": "亚马逊被曝销毁珍本图书训练 AI",
-    "summary": "AirTag 追踪证实亚马逊购买珍本扫描后销毁，引发伦理争议。",
-    "detail": "404 Media 与书商合作，在珍本中植入 AirTag 追踪，最终定位至亚马逊拉斯维加斯 AI 训练设施。现场团队专门负责拆书扫描，仓库 Logo 显示恐龙吞噬书籍，象征性极强。亚马逊声明仅称购买书籍用于改进产品服务，回避了 AI 训练的具体指控。此事件揭示了科技巨头在数据饥渴下的伦理困境，稀有文化载体的命运引发公众担忧。随着 frontier models 竞争加剧，高质量文本数据稀缺，厂商寻求非常规手段，监管边界亟待明确，文化遗产保护与技术发展需找到平衡点。",
-    "tags": [
-      "News",
-      "Amazon",
-      "Ethics"
-    ],
-    "link": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
-    "date": "2026-08-17",
-    "id": "17869949688250"
-  },
-  {
-    "title": "AI 之父辛顿警告大规模失业风险",
-    "summary": "杰弗里·辛顿警示 AI 将取代工作，引发对未来就业市场的担忧。",
-    "detail": "“AI 之父”杰弗里·辛顿再次发出警告，指出 AI 可能导致大规模失业。文章提及黄仁勋、比尔·盖茨和马斯克也曾分享类似预测，显示行业领袖对 AI 替代人力达成共识。随着前沿模型能力增强，就业市场重塑不可避免，不仅限于蓝领工作，白领岗位亦受冲击。该警告加剧了公众对 AI 技术社会影响的焦虑，政策制定者需关注劳动力转型与社会保障体系的适配，企业也需重新评估人机协作的长期战略边界。",
-    "tags": [
-      "News",
-      "Geoffrey Hinton",
-      "Employment"
-    ],
-    "link": "https://in.mashable.com/tech/112942/will-ai-take-your-job-godfather-of-ai-geoffrey-hinton-warns-of-mass-unemployment",
-    "date": "2026-08-17",
-    "id": "17869949688251"
-  },
-  {
-    "title": "Saor.io 推出免费 AI 代理持久记忆工具",
-    "summary": "支持 MCP 协议，为 AI 代理提供无限持久记忆，兼容主流模型。",
-    "detail": "Saor.io 发布新款开发者工具，旨在为 AI 代理提供持久化记忆存储。通过 MCP 协议连接，只需一行代码即可让 Claude、ChatGPT 等工具拥有长期上下文记忆。服务目前完全免费，无使用限制，支持无限大脑和记忆读取。这对于构建复杂 AI 工作流和个性化代理具有重要意义，降低了开发者的记忆模块集成成本。该工具解决了当前 AI 会话上下文丢失的痛点，为构建具备长期学习能力的智能体提供了基础设施支持。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Memory"
-    ],
-    "link": "https://saor.io",
-    "date": "2026-08-17",
-    "id": "17869949688252"
   }
 ]
