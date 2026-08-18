@@ -1,5 +1,70 @@
 [
   {
+    "title": "Anthropic 将为 Claude 生成内容添加水印",
+    "summary": "Anthropic 宣布为 AI 生成文本添加水印以符合欧盟法规。",
+    "detail": "Anthropic 本月宣布为其 AI 模型生成的文本和文件添加水印，旨在让用户识别内容来源。此举主要是为了遵守欧盟关于 AI 透明度的行为准则，该准则要求公司告知客户何时与 AI 交互。水印技术将在文本中嵌入不可见的标记，如词间距或序列，即使复制粘贴也能保留。读者无法看到这些标记，但计算机系统可以识别。这标志着 AI 合规性的重要一步，影响未来内容分发和深伪技术的监管。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "EU Regulation"
+    ],
+    "link": "https://www.cnet.com/tech/services-and-software/anthropics-claude-will-add-watermarks-to-ai-generated-text-and-files/",
+    "date": "2026-08-18",
+    "id": "17870156457250"
+  },
+  {
+    "title": "消费者偏好 AI 音乐直至知晓其身份",
+    "summary": "研究发现消费者喜欢 AI 音乐，但知晓后会改变偏好。",
+    "detail": "三项研究表明，消费者在不知情的情况下甚至偏好 AI 生成的音乐，但一旦得知是 AI 创作，偏好就会转变。此前出版商 Hachette 曾因 AI 写作担忧撤回小说。随着 Google MusicLM 等模型的发展，AI 音乐质量已难以区分。流媒体平台占据了大部分收入，AI 的介入将重塑行业分配机制。这引发了对音乐艺术家生计和文化产业经济模式的担忧，涉及伦理与经济双重讨论。",
+    "tags": [
+      "News",
+      "Music",
+      "Consumer Behavior"
+    ],
+    "link": "https://www.promarket.org/2026/05/04/consumers-prefer-ai-music-until-theyre-told-its-ai/",
+    "date": "2026-08-18",
+    "id": "17870156457252"
+  },
+  {
+    "title": "LLM 推荐医生的算法审计研究",
+    "summary": "论文审计了 LLM 在推荐医生时的声誉与人口统计信号。",
+    "detail": "这篇 ArXiv 论文对 7 个 LLM 模型进行了算法审计，研究其推荐医生的依据。研究发现声誉信号主导推荐，评分提升显著增加选择概率。Demographic parity 被拒绝，女性及少数族裔信号的名字获得轻微偏好，但模型解释中几乎未提及这些因素。这揭示了 AI 作为信息中介的隐性偏见，透明度义务若仅依赖模型自述将无法检测此类偏差，对医疗 AI 应用提出警示。",
+    "tags": [
+      "Dev",
+      "Research",
+      "LLM"
+    ],
+    "link": "https://arxiv.org/abs/2608.14399",
+    "date": "2026-08-18",
+    "id": "17870156457253"
+  },
+  {
+    "title": "Anthropic 年化收入飙升至 650 亿美元",
+    "summary": "TechCrunch 报道 Anthropic 年化收入大幅增长至 650 亿美元。",
+    "detail": "根据 TechCrunch 报道，Anthropic 的年化收入激增至 650 亿美元，显示出其在 AI 市场的强劲商业表现。尽管提供的文本主要为网站导航信息，但标题明确指出了这一财务里程碑。收入激增反映了企业级用户对 Claude 模型的需求正在快速扩大，生成式 AI 在商业应用中的落地加速。这也凸显了头部 AI 公司在资本市场的竞争优势和估值潜力，是行业发展的关键风向标。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "Business"
+    ],
+    "link": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
+    "date": "2026-08-17",
+    "id": "17870156457251"
+  },
+  {
+    "title": "Rysh：Claude 与 Codex 协作的终端工具",
+    "summary": "开源 CLI 工具 Rysh 实现多 Agent 终端复用协作。",
+    "detail": "Rysh 是一个用 Go 编写的代理终端复用器 CLI 工具。它允许用户在终端中创建标签页和窗格，每个窗格都是一个可以回答提示和调用工具的 Agent。支持 Claude 和 Codex 代理协作，会话作为守护进程运行，停止后重启仍可恢复上下文。该项目开源，提供了五个视频教程，展示了如何在一个窗口中管理多个独立 AI 会话，提升了开发者使用 AI 辅助编程的效率和工作流体验。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Agents"
+    ],
+    "link": "https://github.com/rysh-ai/rysh-cli-code",
+    "date": "2026-08-17",
+    "id": "17870156457254"
+  },
+  {
     "title": "以色列斥资数亿利用 AI 开展对美公共外交",
     "summary": "以色列外交部签约美国公司，利用 ChatGPT 等生成式 AI 影响美国舆论。",
     "detail": "以色列外交部向美国司法部提交文件，显示其签约 Clock Tower 公司，利用生成式 AI 系统（如 ChatGPT）在美国开展公共外交活动。该活动由政府广告局协调，Havas Media Network 实施，重点针对数字平台。目标是通过 TikTok、Instagram、YouTube 和播客向 Z 世代传播内容，合同设定的月曝光量目标高达 5000 万次。这是在加沙战争开始后，以色列在美国最雄心勃勃的公共外交活动之一，显示国家行为体正将 generative AI 纳入地缘政治宣传工具，可能引发关于 AI 信息战的新讨论。",
@@ -1237,70 +1302,5 @@
     "link": "https://jeffreyflynt02.medium.com/ai-agent-safety-is-still-thinking-like-permissions-45878337bd98",
     "date": "2026-08-17",
     "id": "17869356684281"
-  },
-  {
-    "title": "okf v0.2：专为 AI 代理设计的知识图谱 CLI 工具",
-    "summary": "发布 Go 语言 CLI 工具 okf，支持知识格式验证与信任层级管理。",
-    "detail": "okf 是一款基于 Go 语言的命令行工具包，旨在为 AI 代理提供开放知识格式（OKF）的支持。v0.2 版本新增了信任层级（Trust Tiers）、来源追溯（Provenance）和认证计算功能。它允许代理在采取行动前验证知识的可信度（如机器确认或人工审查），并检查概念的生命周期状态。作为 Google 参考实现的替代方案，okf 提供了供应商中立的 JSON 原生解析能力，增强了代理系统的可靠性与透明度，防止知识静默腐烂。开发者可利用其验证 bundle 包，确保数据新鲜度与来源可信，是构建可靠 Agent 知识底座的重要基础设施。这对于构建企业级可信 AI 应用至关重要，解决了知识幻觉与过期问题。",
-    "tags": [
-      "Dev",
-      "CLI",
-      "Knowledge Graph"
-    ],
-    "link": "https://useokf.com/",
-    "date": "2026-08-17",
-    "id": "17869356684282"
-  },
-  {
-    "title": "AI 技术在医疗领域突破：辅助精子检测",
-    "summary": "西雅图时报报道，AI 能在医生无法发现的情况下找到精子，助力医疗诊断。",
-    "detail": "据西雅图时报报道，AI 技术正在医疗领域展现新能力，特别是在精子检测方面。传统医生难以发现的情况下，AI 能够识别并找到精子。这一突破展示了 AI 在微观医疗图像分析中的潜力，可能显著提高生育治疗和相关诊断的准确性。虽然具体技术细节未在摘要中完全披露，但该应用表明计算机视觉技术正深入辅助生殖领域。对于医疗行业而言，这意味着 AI 不仅能处理宏观数据，还能在微观生物学层面提供关键支持，帮助医生克服人类视觉极限，为不孕不育患者提供更精准的治疗方案，推动医疗 AI 向更专业化、精细化方向发展。",
-    "tags": [
-      "News",
-      "Healthcare",
-      "Computer Vision"
-    ],
-    "link": "https://www.seattletimes.com/seattle-news/science/ai-is-finding-sperm-where-doctors-couldnt/",
-    "date": "2026-08-16",
-    "id": "17869498199972"
-  },
-  {
-    "title": "业界探讨 OpenRouter 是否将使 Stripe 成为 AI 亚马逊",
-    "summary": "GitHub 文章讨论 OpenRouter 模式下 Stripe 在 AI 支付基础设施中的潜在地位。",
-    "detail": "一篇发布在 GitHub Wiki 的文章引发了 Hacker News 社区讨论，核心议题是 OpenRouter 的出现是否会让 Stripe 演变为 AI 领域的“亚马逊”。这反映了行业对 AI 支付和 API 聚合层基础设施发展的高度关注。虽然具体论点需查看原文，但该话题揭示了 AI 商业化进程中，支付网关与模型路由服务结合可能产生的垄断效应或平台化趋势。随着 AI 应用爆发，底层计费与路由整合成为关键，Stripe 若主导此层，将极大影响开发者生态与成本结构，值得行业从业者密切关注其后续动态与整合方案。",
-    "tags": [
-      "News",
-      "Industry",
-      "Infrastructure"
-    ],
-    "link": "https://github.com/getlago/lago/wiki/With-OpenRouter,-is-Stripe-becoming-the-Amazon-of-AI",
-    "date": "2026-08-16",
-    "id": "17869420028752"
-  },
-  {
-    "title": "BanProof：TikTok Shop 视频合规性 AI 扫描工具",
-    "summary": "针对 affiliate 营销者，提供脚本审计与视频违规扫描服务。",
-    "detail": "BanProof 是专为 TikTok Shop 和 Amazon 联盟营销者设计的合规平台。它利用 AI 技术在发布前扫描视频脚本和画面，识别违反平台政策的点（如禁止 imagery 或缺失披露）。功能涵盖脚本审计、视频帧分析和申诉助手，能生成合规报告或政策一致的申诉信。提供 3 次免费检查无需信用卡。该工具解决了营销者因违规被封号的风险，实现了从内容创作到申诉的全生命周期合规管理，适合高频发布短视频的电商从业者。支持多种文件格式上传，自动转录音频，极大提升了内容审核效率与安全性。对于依赖平台流量的创作者而言，这是必备的风控工具，能有效降低运营风险。",
-    "tags": [
-      "New",
-      "Compliance",
-      "Video"
-    ],
-    "link": "https://banproof.io/",
-    "date": "2026-08-16",
-    "id": "17869356684283"
-  },
-  {
-    "title": "Conw.ai：支持用户反馈学习的独立本地 AI 平台",
-    "summary": "推出本地 AI 平台，采用 guarded learning loop 机制吸收用户反馈。",
-    "detail": "Conw.ai 是一个独立的本地 AI 平台，主打“与用户共同学习”的理念。其核心机制是 guarded learning loop，用户可纠正回复或评级，有用且安全的数据进入审查队列。系统仅在 iMac 空闲时后台更新模型，确保实时聊天优先。与传统黑盒模型不同，Conw 透明展示学习过程，允许用户查看哪些记忆被保留。该项目为本地化、隐私优先且具备持续进化能力的 AI 助手提供了新范式，适合开发者与隐私敏感用户，无需云端依赖。权重更新不会阻塞回复，确保用户体验流畅，同时实现模型的持续个性化进化。解决了大模型无法个性化记忆的痛点，推动本地 AI 生态发展。",
-    "tags": [
-      "New",
-      "Local AI",
-      "Learning"
-    ],
-    "link": "https://conw.ai",
-    "date": "2026-08-16",
-    "id": "17869356684284"
   }
 ]
