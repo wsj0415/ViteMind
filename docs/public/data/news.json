@@ -1,5 +1,31 @@
 [
   {
+    "title": "TypeScript 创始人：AI 不会取代软件工程师",
+    "summary": "Anders Hejlsberg 探讨 AI 编码效率及开发者未来角色。",
+    "detail": "TypeScript 创始人 Anders Hejlsberg 在视频中讨论了 AI 对编程的影响。他认为 AI 能提升 10 倍效率但不会完全取代 SWE。核心观点涉及类型系统的重要性及人类在架构设计中的不可替代性。为开发者应对 AI 浪潮提供了权威视角，强调工具辅助而非完全自动化的未来开发模式。",
+    "tags": [
+      "Dev",
+      "Programming",
+      "Career"
+    ],
+    "link": "https://www.youtube.com/watch?v=cywK3XYYJ2o",
+    "date": "2026-08-18",
+    "id": "17870456722533"
+  },
+  {
+    "title": "AI 代理通过 x402 协议实现机器间支付循环",
+    "summary": "新项目展示 AI Agent 自主支付数据费用的 M2M 闭环。",
+    "detail": "该项目构建了一个机器对机器（M2M）支付循环，允许 AI 代理通过 x402 协议自主支付数据费用。这是 AI Agent 经济模型的重要实验，解决了代理自主性的支付瓶颈。展示了区块链技术与 AI 代理结合的实际应用场景，为未来 autonomous economy 提供了技术原型验证。",
+    "tags": [
+      "New",
+      "Agents",
+      "Crypto"
+    ],
+    "link": "https://github.com/tianzizhiming-svg/agentbridge",
+    "date": "2026-08-18",
+    "id": "17870456722534"
+  },
+  {
     "title": "AI 安全终局论：攻击成本四个月骤降百倍",
     "summary": "Irregular 团队指出 AI 安全形势严峻，漏洞利用成本从 2000 美元降至 20 美元。",
     "detail": "文章由 AI 安全前沿团队 Irregular 撰写，揭示了 2026 年 AI 安全 landscape 的剧变。数据显示，仅四个月内，AI 模型解决复杂安全挑战的成本从 2000 美元降至 20 美元，标志着进攻能力规模化速度远超预期。这种指数级进步意味着传统防御体系可能迅速失效，漏洞利用变得廉价且可重复。作者强调尽管终局乐观，但过渡期充满风险，呼吁政策制定者与技术专家重视这一快速变化的安全格局，避免陷入终局谬误，需重新评估当前的安全策略与资源分配。对于企业而言，这意味着安全预算需向 AI 防御倾斜。",
@@ -206,6 +232,32 @@
     "link": "https://arxiv.org/abs/2608.14399",
     "date": "2026-08-18",
     "id": "17870156457253"
+  },
+  {
+    "title": "AI 预测乳腺癌进展取得重大突破",
+    "summary": "科学家利用 AI  uncover 肿瘤微观模式，预测癌症发展。",
+    "detail": "科学家利用 AI 技术成功 uncover 乳腺癌肿瘤内的微观模式，实现了预测疾病进展的重大突破。该技术有助于早期诊断和个性化治疗方案制定，展示了深度学习在医学影像分析中的巨大潜力。这是 AI 在医疗健康领域落地的典型案例，可能显著改善患者预后及医疗资源分配效率。",
+    "tags": [
+      "News",
+      "Healthcare",
+      "Science"
+    ],
+    "link": "https://www.independent.co.uk/news/health/breast-cancer-diagnosis-cure-ai-symptoms-b3034278.html",
+    "date": "2026-08-17",
+    "id": "17870456722531"
+  },
+  {
+    "title": "美国实验室将发布蒸馏模型主导中国市场",
+    "summary": "分析认为美国实验室将通过蒸馏模型技术优势主导竞争。",
+    "detail": "文章指出有理由相信美国实验室将发布自有蒸馏模型，potentially 主导中国市场。结合 Sam Altman 关于 AI 经济学的观点，探讨了 AI 资本支出并非泡沫的逻辑。随着模型效率提升，巨额基础设施投入有望获得回报。这对投资者理解 AI 行业周期及估值逻辑具有重要参考意义。",
+    "tags": [
+      "News",
+      "Investment",
+      "Economics"
+    ],
+    "link": "https://www.afr.com/technology/sam-altman-is-being-proved-right-about-the-economics-of-ai-20260817-p60p1k",
+    "date": "2026-08-17",
+    "id": "17870456722532"
   },
   {
     "title": "OpenAI 携手 NVIDIA 共建俄亥俄州 8GW 数据中心",
@@ -1247,60 +1299,5 @@
     "link": "https://www.forbes.com/sites/jimosman/2026/08/16/nvidia-ai-financing-is-the-500-billion-risk-investors-arent-watching/",
     "date": "2026-08-17",
     "id": "17869597535381"
-  },
-  {
-    "title": "麦肯锡：AI 部署后的价值维持是运营新挑战",
-    "summary": "部署并非终点，AI 项目在 Production 阶段面临价值流失风险。",
-    "detail": "QuantumBlack (McKinsey) 文章强调，AI 项目成功不仅在于部署，更在于部署后的价值维持。许多组织将部署视为终点，缺乏专门的运营流程来处理模型衰退、数据漂移及代理行为异常。文章通过保险行业案例指出，若缺乏监控和诊断机制，AI 代理可能导致客户投诉或财务损失。企业需建立专门的 AI 运营学科，确保持续交付可预测的商业价值，这标志着 AI 行业正从模型训练转向运营优化的成熟阶段。维护可靠的大规模系统需要专业知识、流程和技术支持，否则前期投资将面临浪费风险。",
-    "tags": [
-      "Dev",
-      "News",
-      "MLOps",
-      "Enterprise"
-    ],
-    "link": "https://medium.com/quantumblack/ai-value-the-growing-ai-operations-challenge-ca8621aa245c",
-    "date": "2026-08-17",
-    "id": "17869597535382"
-  },
-  {
-    "title": "数据分析：LLM 自主软件开发目前仍是科幻",
-    "summary": "研究指出 LLM 上下文限制及幻觉问题，阻碍完全自主开发。",
-    "detail": "最新数据分析表明，利用 LLM 实现真正自主且可靠的长周期代理软件开发目前极不可能。研究指出，即便前沿模型，其有效上下文限制远小于广告宣称，且存在“注意力稀释”问题。LLM 难以区分新旧信息，训练数据中的“主导先验”常压倒上下文输入。结论认为，当前技术下完全自主开发仍是科幻，开发者需警惕上下文压缩带来的信息丢失风险。此外，仓库级文件处理也面临挑战，团队应理性看待 AI 编码辅助的实际边界，避免过度依赖未成熟技术。",
-    "tags": [
-      "Dev",
-      "News",
-      "LLM",
-      "Coding"
-    ],
-    "link": "https://codemanship.wordpress.com/2026/08/12/ai-software-development-what-does-the-data-say/",
-    "date": "2026-08-17",
-    "id": "17869597535383"
-  },
-  {
-    "title": "卫报调查：微软 AI 计划受限于芯片短缺",
-    "summary": "微软数据中心芯片数量低于预期，可能影响 AI 模型发展进度。",
-    "detail": "卫报调查显示，微软的 AI 计划可能因先进芯片短缺而受阻。尽管目标是在 2024 年底安装 180 万颗 AI 芯片，但目前仅安装 220 万颗，低于部分专家预期。考虑到全球 AI 军备竞赛对数据中心的巨大需求，这一差距暗示微软新数据中心可能未 fully operational 或缺乏关键 Nvidia 芯片。这揭示了 AI 技术发展背后的硬件供应链瓶颈问题。芯片供应的不确定性可能延缓模型训练进度，进而影响微软在 AI 领域的竞争地位及云服务能力，硬件限制成为软肋。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Microsoft"
-    ],
-    "link": "https://www.theguardian.com/technology/2026/aug/17/are-microsofts-ai-plans-being-held-back-by-a-shortage-of-chips",
-    "date": "2026-08-17",
-    "id": "17869597535384"
-  },
-  {
-    "title": "Winuse：跨平台桌面 GUI 自动化 AI 代理工具",
-    "summary": "开源项目，旨在让 AI 代理能够操作桌面图形界面。",
-    "detail": "Winuse 是一个新的开源项目，专注于为 AI 代理提供跨平台桌面 GUI 自动化能力。该项目旨在解决 AI 代理与本地桌面应用程序交互的难题，使代理能够像人类一样操作图形界面。通过 GitHub 发布，该工具为开发者提供了构建本地 AI 工作流的新选项，增强了代理在复杂桌面环境中的执行能力，适合需要自动化桌面任务的开发场景。随着 Agent 技术发展，此类工具将成为连接数字大脑与物理操作的关键桥梁，降低自动化门槛，推动 AI 在本地工作流中的落地应用。",
-    "tags": [
-      "New",
-      "Dev",
-      "Agent",
-      "Automation"
-    ],
-    "link": "https://github.com/lgxz/winuse",
-    "date": "2026-08-17",
-    "id": "17869597535385"
   }
 ]
