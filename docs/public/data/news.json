@@ -1,5 +1,57 @@
 [
   {
+    "title": "苹果摄像头 AirPods 隐私争议",
+    "summary": "泄露代码证实 AirPods 将搭载摄像头，苹果试图平衡视觉智能与隐私担忧。",
+    "detail": "macOS 26.7 RC 泄露视频及\"Hair Detected\"错误代码，展示 Visual Intelligence 功能。用户可询问 Siri 保存所见内容。尽管引发隐私担忧，苹果试图通过隐私定位缓解恐惧。这对依赖信任的品牌是巨大 gamble。AirPods 原本被视为简单配件，加入摄像头可能改变用户心智。如果处理不当，可能引发反弹。",
+    "tags": [
+      "News",
+      "Apple",
+      "Hardware"
+    ],
+    "link": "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/",
+    "date": "2026-08-18",
+    "id": "17870707508940"
+  },
+  {
+    "title": "Cursor 隐藏终端命令曝光",
+    "summary": "社区发现 Cursor 隐藏终端命令，可操控桌面 AI 代理。",
+    "detail": "Hacker News 讨论指出该功能虽未正式宣传但已可用，链接到 Runtime Wire 报道。这是即将推出的功能，允许用户通过终端 steering 桌面 AI 代理。显示 Cursor 在不断深化其 IDE 的 AI 控制能力。社区反应积极，认为这是提升工作流效率的关键。完全功能化表明发布临近。",
+    "tags": [
+      "Dev",
+      "Cursor",
+      "IDE"
+    ],
+    "link": "https://news.ycombinator.com/item?id=49348049",
+    "date": "2026-08-18",
+    "id": "17870707508941"
+  },
+  {
+    "title": "柏林艺术家制作 AI 隐身衣",
+    "summary": "对抗性图案服装使穿戴者在 AI 监控摄像头下“隐身”。",
+    "detail": "Simon Weckert 作品利用对抗性攻击混淆物体识别算法，针对柏林警方试点的 AI 视频分析系统。图案使算法无法识别人体。作品旨在揭示系统脆弱性，而非逃避警察。引发对公共空间算法监控信任的思考。当监控系统可被布料 undone，我们应给予多少信任？",
+    "tags": [
+      "News",
+      "Security",
+      "Computer Vision"
+    ],
+    "link": "https://simonweckert.com/digitalcamouflage.html",
+    "date": "2026-08-18",
+    "id": "17870707508942"
+  },
+  {
+    "title": "Windmill 实现 AI 自动化客户支持",
+    "summary": "Windmill 团队分享如何利用 AI 加人工审核规模化处理客户支持。",
+    "detail": "整合 Slack、Email 到 Discord 队列，使用 Claude 起草回复和修复方案，人工批准后发出。AI 结合代码库和遥测数据往往比人更快找到根因。确保在规模化同时不降低服务质量，平衡效率与信任。客户只信任保持高质量的 AI 草稿。本地构建，完全自动化流程。",
+    "tags": [
+      "Dev",
+      "Automation",
+      "SaaS"
+    ],
+    "link": "https://www.windmill.dev/blog/support-automation",
+    "date": "2026-08-18",
+    "id": "17870707508943"
+  },
+  {
     "title": "AI 代码引发的“理解债务”危机",
     "summary": "AI 生成代码导致无人理解系统逻辑，形成新型技术债务。",
     "detail": "文章深入探讨“理解债务”概念，指出 AI Agent 虽能加速代码产出，但严重割裂了编写与理解的过程。传统模式下作者至少理解代码，而 AI 生成代码可能团队无人能懂，导致调试和维护风险激增。这警示企业需重新评估代码审查流程，避免盲目追求生成速度而牺牲系统可维护性，防止代码库变成无人能修的黑盒。长期来看，这可能增加技术债务，要求团队投入更多资源进行逆向工程以恢复对系统的掌控力，建议开发者在使用 AI 时保持核心逻辑的人工审查，确保知识留存于团队内部而非仅存在于模型中。",
@@ -544,6 +596,19 @@
     "link": "https://arxiv.org/abs/2608.14399",
     "date": "2026-08-18",
     "id": "17870156457253"
+  },
+  {
+    "title": "AI 裁员陷阱的经济学数学",
+    "summary": "新论文证明 AI 过快替代员工将摧毁消费需求，导致经济自毁。",
+    "detail": "研究人员 Falk 和 Tsoukalas 通过数学模型指出，即使 CEO 预见到收入减少，竞争资本主义结构也迫使它们继续裁员。AI  displacing workers faster than reabsorption destroys consumer demand. 揭示了竞争性资本主义的结构性缺陷。我们站在宏观经济悬崖边缘，驾驶者看清 drop 却必须踩油门。",
+    "tags": [
+      "News",
+      "Economy",
+      "Research"
+    ],
+    "link": "https://sylvainsaurel.substack.com/p/the-mathematics-of-economic-self",
+    "date": "2026-08-17",
+    "id": "17870707508944"
   },
   {
     "title": "初创公司推出可社交的 AI 伙伴 hue",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
     "date": "2026-08-17",
     "id": "17869804205040"
-  },
-  {
-    "title": "报告预测：2028 年代理式 AI 成本将激增五倍",
-    "summary": "新报告指出，到 2028 年代理式 AI 的实施成本预计将增长五倍。",
-    "detail": "The Register 报道指出，随着代理式 AI（Agentic AI）的普及，其相关成本将在 2028 年前激增五倍。这反映了自主 AI 代理在计算资源、token 消耗及维护上的高昂代价。企业需提前规划预算，优化代理工作流以应对即将到来的成本压力。这一趋势表明，虽然 AI 代理能力增强，但经济性仍是规模化落地的主要挑战，开发者需关注效率优化与成本控制策略，避免陷入算力浪费陷阱，行业需寻找更经济的推理解决方案，否则高昂的运营成本将阻碍代理式 AI 在中小企业的广泛普及与应用。",
-    "tags": [
-      "News",
-      "Agentic AI",
-      "Cost"
-    ],
-    "link": "https://www.theregister.com/ai-and-ml/2026/08/17/agentic-ai-costs-set-to-balloon-fivefold-by-2028/5288363",
-    "date": "2026-08-17",
-    "id": "17869804205041"
-  },
-  {
-    "title": "法院裁定：法官完全依赖 AI 撰写命令享有司法豁免权",
-    "summary": "最新法院 rulings 表明，法官在命令中完全依赖 AI 仍受司法豁免保护。",
-    "detail": "Reason 报道指出，法院裁定法官在司法命令中完全依赖 AI 生成的内容仍受司法豁免权保护。这一判例为 AI 在法律系统中的使用设立了重要先例，同时也引发了关于责任归属与 AI 准确性在法律场景中的伦理讨论。这意味着司法系统对 AI 工具的接纳度正在提高，但同时也要求法律从业者需具备更高的 AI 鉴别能力，以确保判决的公正性与准确性，避免过度依赖导致潜在的法律风险与争议，未来可能需要更多关于 AI 辅助司法的规范性指导与透明度要求。",
-    "tags": [
-      "News",
-      "Legal",
-      "Ethics"
-    ],
-    "link": "https://reason.com/volokh/2026/08/17/judges-allegedly-relying-wholly-on-ai-in-order-is-covered-by-judicial-immunity-court-rules/",
-    "date": "2026-08-17",
-    "id": "17869804205042"
-  },
-  {
-    "title": "企业级 AI 网关选型指南：扩展性与成本控制",
-    "summary": "深度分析 Bifrost 等开源 AI 网关在企业生产环境中的表现。",
-    "detail": "文章分析了企业 AI 落地中网关层的重要性，推荐了 Maxim AI 的开源网关 Bifrost。该网关基于 Go 语言，支持千种模型路由，能有效解决生产环境中的流量负载与成本失控问题，适合需要规模化部署 AI 功能的企业开发者参考。在生产环境中，网关层往往是性能瓶颈所在，选择合适的网关不仅能提升系统稳定性，还能通过路由策略优化 inference 成本，是企业构建可靠 AI 架构的关键基础设施组件，对于处理高并发请求与多模型管理的场景尤为重要。",
-    "tags": [
-      "Dev",
-      "Enterprise",
-      "Infrastructure"
-    ],
-    "link": "https://medium.com/@sebuzdugan/best-enterprise-ai-gateway-for-scalability-and-cost-control-837680527e51",
-    "date": "2026-08-17",
-    "id": "17869804205043"
-  },
-  {
-    "title": "解决 AI“好为人师”：Claude Opus 5 提示词优化技巧",
-    "summary": "分享针对 Claude Opus 5 冗长问题的系统提示词优化方案。",
-    "detail": "针对 Claude Opus 5 token 消耗加倍及回答冗长的问题，作者分享了有效的系统提示词修复方案。核心指令包括“直接给出答案”、“无前缀解释”、“不主动总结”，帮助开发者将 AI 视为 competent adult，显著提升交互效率并减少 token 浪费。这一技巧适用于所有支持个性化设置的 AI 助手，通过优化系统提示词，用户可以大幅降低交互噪音，获得更精准的回答，对于高频使用 AI 进行编程或研究的用户尤为实用，能有效提升工作效率并降低 API 调用成本。",
-    "tags": [
-      "Dev",
-      "Prompt Engineering",
-      "Claude"
-    ],
-    "link": "https://blog.dait.ro/post/ai-mansplaining",
-    "date": "2026-08-17",
-    "id": "17869804205044"
-  },
-  {
-    "title": "Wiz 发现 Copilot 自动修复导致 Snowflake 严重安全漏洞",
-    "summary": "Wiz 研究团队发现 GitHub Copilot 自动生成的代码引入漏洞，导致 Snowflake 内部系统面临风险。",
-    "detail": "Wiz 研究团队的自主 AI 安全工具\"Red Agent\"在 Snowflake 公共仓库中发现关键漏洞。该漏洞由 GitHub Copilot 的\"Autofix\"功能在 6 月 18 日引入，AI 助手移除了现有的输入 sanitization 模式，替换为 shell 脚本中的直接字符串扩展，导致未认证用户可通过 GitHub issue 标题执行任意命令。Wiz 于 6 月 23 日负责任披露，Snowflake 当日修复。此事件凸显 AI 编码助手可能无意中引入工作流注入漏洞，以及自主 AI 代理在野外发现漏洞的能力，对 CI/CD 安全提出新挑战，表明 AI 生成代码需更严格审计。",
-    "tags": [
-      "News",
-      "Security",
-      "Copilot"
-    ],
-    "link": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-    "date": "2026-08-17",
-    "id": "17869769293590"
   }
 ]
