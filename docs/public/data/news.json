@@ -1,5 +1,70 @@
 [
   {
+    "title": "Sibbo：追踪 AI 模型训练数据来源的新工具",
+    "summary": "通过生成唯一“金丝雀”文本，检测前沿模型是否使用了你的数据进行训练。",
+    "detail": "Sibbo 推出了一种创新的数据追踪机制，旨在解决 AI 训练数据透明度问题。用户可生成独特的“金丝雀”事实片段并发布到公开网络，若后续主流模型（如 Claude、GPT 等）在回答特定问题时复述了该内容，系统即通知用户。该工具提供免费 DIY 版及每月 5 美元的自动监控版。这反映了行业对数据版权和模型训练来源追溯的日益关注，为内容创作者提供了一种被动监控手段。",
+    "tags": [
+      "News",
+      "Data Privacy",
+      "LLM"
+    ],
+    "link": "https://sibbo.app",
+    "date": "2026-08-19",
+    "id": "17871500331080"
+  },
+  {
+    "title": "Scrollcase：将 AI 模型打包为独立可执行盒子",
+    "summary": "无需安装依赖，将 Python 环境和 AI 模型打包为签名后的独立档案，支持跨平台运行。",
+    "detail": "Scrollcase 是一个开源项目，旨在解决 AI 模型部署中的环境依赖难题。它将整个 Python 环境、代码及模型权重打包为一个自包含、可移植且签名的“盒子”。接收方无需安装 Python、pip 或 Docker 即可直接运行，且构建过程具有确定性，确保安全性与可复现性。支持 macOS Metal、Linux 及 Windows CUDA 环境。这对科学计算和本地 LLM 部署具有重大意义，极大降低了分发门槛。",
+    "tags": [
+      "Dev",
+      "Deployment",
+      "Python"
+    ],
+    "link": "https://github.com/suffro/scrollcase",
+    "date": "2026-08-19",
+    "id": "17871500331081"
+  },
+  {
+    "title": "Conversationaly：本地化隐私优先的 AI 会议助手",
+    "summary": "基于 Tauri/Rust 构建，完全在本地设备进行录音、转录和总结，无云端数据泄露风险。",
+    "detail": "Conversationaly 是一款主打隐私安全的 AI 会议助手开源项目。它利用麦克风及系统音频捕获技术，结合本地的 transcribe.cpp 和 llama.cpp 模型，实现实时转录与摘要生成。核心优势在于无需账户、无云端传输、无遥测数据，所有处理均在用户机器上完成。支持 macOS、Windows 和 Linux。在数据隐私日益敏感的当下，此类本地化 AI 应用为对企业机密敏感的用户提供了可靠替代方案。",
+    "tags": [
+      "New",
+      "Privacy",
+      "Local AI"
+    ],
+    "link": "https://github.com/bykof/conversationaly/",
+    "date": "2026-08-19",
+    "id": "17871500331082"
+  },
+  {
+    "title": "Android Remote Control MCP：AI 操控手机的桥梁",
+    "summary": "基于 MCP 协议构建的 Android 服务器，允许 AI 模型通过无障碍服务远程控制手机应用。",
+    "detail": "该项目是一个运行在 Android 设备上的 MCP（Model Context Protocol）服务器。它使 AI 模型能够通过 HTTP 接口与手机交互，包括读取 UI 元素、点击按钮、输入文本及截屏等操作，且无需 Root 权限。项目强调仅用于研究和教育目的，并警告用户需合规使用。这展示了 AI Agent 从软件层面向物理设备控制延伸的趋势，为移动端自动化提供了新的技术路径。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Mobile"
+    ],
+    "link": "https://github.com/danielealbano/android-remote-control-mcp/",
+    "date": "2026-08-19",
+    "id": "17871500331083"
+  },
+  {
+    "title": "Calendly 入局 AI 会议笔记市场",
+    "summary": "知名调度平台 Calendly 宣布推出会议笔记功能，正式加入 AI 助手竞争行列。",
+    "detail": "根据 TechCrunch 报道，主流会议调度平台 Calendly 正式涉足 AI 会议笔记领域。此举标志着会议辅助工具市场竞争加剧，原本专注于时间管理的平台开始整合生成式 AI 能力，试图为用户提供从 scheduling 到 meeting summary 的一站式服务。这可能会对专注于会议记录的独立初创公司构成挑战，同时也验证了 AI 在办公场景落地的商业化价值。",
+    "tags": [
+      "News",
+      "SaaS",
+      "Productivity"
+    ],
+    "link": "https://techcrunch.com/2026/08/19/calendly-throws-its-hat-into-meeting-note-taker-circus/",
+    "date": "2026-08-19",
+    "id": "17871500331084"
+  },
+  {
     "title": "GLM-5.3 智谱新模型领跑开源，OpenAI 降价应对竞争",
     "summary": "GLM-5.3 代理能力跃升，OpenAI 减半 Sol 价格，Anthropic 延长限额。",
     "detail": "智谱 GLM-5.3 在代理工作基准上得分跃升 246 分，仅次于 Opus 5，但输出 token 消耗增加 20%。OpenAI 在 OpenRouter 上将 GPT 5.6 Sol 价格减半，Anthropic 延长 Claude Code 限额至 8 月底。IBM 研究指出代理内存存在收益递减点，检索研究发现在固定上下文预算下召回最大化配置解决问题更少。此外，Gmail 访问权限、代理流量按请求计费及沙盒测试资金到位，表明代理行动基础设施正在快速迭代，成本与性能权衡成为行业新焦点。",
@@ -1233,70 +1298,5 @@
     "link": "https://alloomi.ai/blogs/the-new-frontier-of-ai-agents",
     "date": "2026-08-18",
     "id": "17870605564211"
-  },
-  {
-    "title": "Avouch – 免费本地 Git 感知 Python 代码审查工具",
-    "summary": "轻量级 CLI 工具，基于 AST 分析 Git 变更代码，提交前秒级审查，无需联网。",
-    "detail": "Avouch 是一款开源的 Python 静态分析 CLI，专为替代付费 AI 代码审查而生。它通过 Git 识别即将提交的文件变更，利用标准 ast 模块解析结构问题。无需守护进程或网络请求，可在 git push 前秒级运行。支持通过 avouch.toml 配置规则限制，提供 JSON 输出与 CI 集成。其核心理念是审查你改变的代码而非继承的代码，确保本地开发流程的高效与安全。",
-    "tags": [
-      "Dev",
-      "Python",
-      "Code Review"
-    ],
-    "link": "https://github.com/mukundzha/avouch",
-    "date": "2026-08-18",
-    "id": "17870605564212"
-  },
-  {
-    "title": "Engrava – 本地 AI 代理图记忆数据库",
-    "summary": "基于 SQLite 的嵌入式图记忆库，支持混合搜索与防篡改日志，无需外部服务。",
-    "detail": "Engrava 是专为 AI 代理设计的独立嵌入式数据库。基于 SQLite 构建，提供思维 CRUD、基于边的知识图谱及嵌入相似性搜索。支持全文检索与声明式扩展系统，单包安装无外部依赖。其架构设计确保记忆层无需语言模型参与，基准测试可复现。防篡改的思维/边日志功能增强了代理记忆的可追溯性与安全性，适合构建本地化、高隐私要求的代理应用。",
-    "tags": [
-      "Dev",
-      "Database",
-      "AI Agent"
-    ],
-    "link": "https://github.com/sovantica/engrava",
-    "date": "2026-08-18",
-    "id": "17870605564213"
-  },
-  {
-    "title": "Krystal Loop Protocol – 可靠的多代理编码工作流协议",
-    "summary": "定义构建 - 检查 - 批评 - 修复循环，防止多 AI 代理协作时失去上下文或破坏功能。",
-    "detail": "针对多 AI 代理协作中常见的上下文丢失与代码冲突问题，Krystal Loop Protocol 提出了一套 bounded 工作流协议。流程包括范围界定、任务拆分、构建、确定性检查、批评审查及裁决修复。通过引入只读批评者与直接证据验证，确保代理产出符合原始任务要求。该协议旨在让人类保持控制权的同时，利用快速代理完成繁重工作，保障软件项目的连贯性与质量。",
-    "tags": [
-      "Dev",
-      "Multi-Agent",
-      "Workflow"
-    ],
-    "link": "https://github.com/KrystalUnity/krystal-loop-protocol",
-    "date": "2026-08-18",
-    "id": "17870605564214"
-  },
-  {
-    "title": "AI 正式验证史上最难数学证明之一",
-    "summary": "Axiom Math 利用 AI 完成 246 定理形式化验证，标志数学证明新里程碑。",
-    "detail": "IEEE Spectrum 报道，Axiom Math 团队利用 AI 工具成功对复杂的 246 定理进行了形式化验证。这是 AI 介入基础科学研究的重要突破，证明了 AI 在处理高难度逻辑推理方面的潜力。此举将加速数学证明的自动化进程，为后续科学发现提供可靠验证工具，提升科研效率与准确性，标志着形式化验证技术进入新阶段。",
-    "tags": [
-      "News",
-      "Math",
-      "Formal Verification"
-    ],
-    "link": "https://spectrum.ieee.org/axiom-math-246-theorem-formalization",
-    "date": "2026-08-18",
-    "id": "17870523750790"
-  },
-  {
-    "title": "独立研究揭示 AI 真实使用数据差异",
-    "summary": "AI Observatory 发现公司报告过滤了近半数非工作对话，数据透明度存疑。",
-    "detail": "MIT 科技评论指出，AI 公司发布的用法数据存在偏差。斯坦福 AI Observatory 项目分析显示，Anthropic 等方法过滤了 48% 的对话，其中包含大量健康与关系类敏感话题。独立数据源对于政策制定和风险评估至关重要，当前依赖厂商自报数据可能导致对 AI 社会影响的误判，呼吁建立透明评估机制。",
-    "tags": [
-      "News",
-      "Research",
-      "Ethics"
-    ],
-    "link": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
-    "date": "2026-08-18",
-    "id": "17870523750791"
   }
 ]
