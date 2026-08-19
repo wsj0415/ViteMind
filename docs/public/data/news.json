@@ -1,5 +1,70 @@
 [
   {
+    "title": "比尔盖茨 TerraPower 核反应堆赋能 AI 数据中心",
+    "summary": "TerraPower 宣布启动数据中心项目，核能解决 AI 算力能源瓶颈。",
+    "detail": "比尔盖茨创立的 TerraPower 计划今年宣布首个 AI 数据中心供电项目。相比传统能源，其钠冷快堆具备储能优势，能稳定提供高容量电力。Meta 已同意购买 8 座核电站。该项目预计 2027 年动工，标志着核能成为 AI 基础设施关键解决方案，缓解算力增长带来的能源焦虑。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Energy"
+    ],
+    "link": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
+    "date": "2026-08-19",
+    "id": "17871572852300"
+  },
+  {
+    "title": "MiniMax 推出 H3 视频生成模型，支持 2K 分辨率",
+    "summary": "MiniMax H3 支持文本到视频生成，提供 4-15 秒片段及 LoRA 特效。",
+    "detail": "MiniMax 发布 H3 视频生成模型，支持文本、图像及多模态参考生成 4 至 15 秒视频，分辨率可达 2K。平台提供专用 LoRA 效果页面，如真人写实风格，支持 cinematic motion 及产品故事叙述。无需更改原模型即可应用创意特效，展示了视频生成技术在商业应用与创意方向上的最新进展。",
+    "tags": [
+      "New",
+      "Video Generation",
+      "Multimodal"
+    ],
+    "link": "https://www.h3vid.com",
+    "date": "2026-08-19",
+    "id": "17871572852301"
+  },
+  {
+    "title": "NexusRun 发布便携式 AI Agent，单文件离线运行",
+    "summary": "无需 Docker 或 Python 环境，单二进制文件即可运行本地 AI Agent。",
+    "detail": "NexusRun 推出便携式 AI Agent 方案，将模型、提示词及工具打包为单一文件（约 11MB）。支持离线运行，无需 Docker 或 Python 环境，保护隐私且无 Token 费用。基于 Go 语言构建，兼容树莓派等设备。开发者可轻松部署到空气隙机器或分发团队，解决了 AI Agent 本地化部署的复杂性与安全性问题。",
+    "tags": [
+      "Dev",
+      "AI Agent",
+      "Deployment"
+    ],
+    "link": "https://nexusrun.dev/",
+    "date": "2026-08-19",
+    "id": "17871572852302"
+  },
+  {
+    "title": "工程师必备：Matt Pocock 推出 AI 技能增强套件",
+    "summary": "专为 Claude Code 设计的 AI 技能插件，提升软件工程工作流效率。",
+    "detail": "知名开发者 Matt Pocock 发布\"AI Skills for Real Engineers\"套件，旨在优化工程师使用 AI 工具的效果。通过安装特定插件，开发者可获得针对代码审查、调试等场景的增强技能。支持 Claude Code 等 harness，解决 AI 工具“易用难精”的问题，为软件工程师提供标准化的 AI 协作流程，显著提升开发效率。",
+    "tags": [
+      "Dev",
+      "Productivity",
+      "Coding"
+    ],
+    "link": "https://master.dev/blog/introducing-ai-skills-for-real-engineers/",
+    "date": "2026-08-19",
+    "id": "17871572852303"
+  },
+  {
+    "title": "AI 成功验证迄今最难数学证明之一",
+    "summary": "Axiom Math 利用 AI 形式化验证了 246 定理，标志 AI 科研新突破。",
+    "detail": "IEEE Spectrum 报道，Axiom Math 团队利用 AI 成功形式化验证了极具挑战性的 246 定理。这是 AI 在数学证明领域的重大里程碑，展示了 AI 处理复杂逻辑推理的能力。该技术不仅验证了现有证明，还为未来 AI 辅助科学研究开辟了新路径，表明 AI 正从生成内容向验证真理的高阶认知任务迈进。",
+    "tags": [
+      "News",
+      "Science",
+      "Verification"
+    ],
+    "link": "https://spectrum.ieee.org/axiom-math-246-theorem-formalization",
+    "date": "2026-08-19",
+    "id": "17871572852304"
+  },
+  {
     "title": "量子计算与 AI 融合：Quantinuum 联手 NVIDIA 制药",
     "summary": "Quantinuum 联合 NVIDIA 与辉瑞，利用生成式 AI 优化量子化学电路。",
     "detail": "Quantinuum 携手 NVIDIA 和辉瑞推出 ADAPT-GQE 框架，结合 Transformer 生成式 AI 与量子计算，自动高效生成高质量量子化学电路。该技术旨在解决量子态准备这一顽固瓶颈，已在 Quantinuum Helios 硬件上验证用于制备分子基态。长期愿景是构建量子基础模型，学习复杂量子数据，最终使 AI 能设计经典模拟无法处理的大分子电路，加速药物发现。这标志着量子 AI 从理论走向工业工作流，可能大幅降低计算化学成本，为制药行业带来颠覆性效率提升，是量子实用化的重要里程碑。",
@@ -1233,70 +1298,5 @@
     "link": "https://simonweckert.com/digitalcamouflage.html",
     "date": "2026-08-18",
     "id": "17870707508942"
-  },
-  {
-    "title": "Windmill 实现 AI 自动化客户支持",
-    "summary": "Windmill 团队分享如何利用 AI 加人工审核规模化处理客户支持。",
-    "detail": "整合 Slack、Email 到 Discord 队列，使用 Claude 起草回复和修复方案，人工批准后发出。AI 结合代码库和遥测数据往往比人更快找到根因。确保在规模化同时不降低服务质量，平衡效率与信任。客户只信任保持高质量的 AI 草稿。本地构建，完全自动化流程。",
-    "tags": [
-      "Dev",
-      "Automation",
-      "SaaS"
-    ],
-    "link": "https://www.windmill.dev/blog/support-automation",
-    "date": "2026-08-18",
-    "id": "17870707508943"
-  },
-  {
-    "title": "AI 代码引发的“理解债务”危机",
-    "summary": "AI 生成代码导致无人理解系统逻辑，形成新型技术债务。",
-    "detail": "文章深入探讨“理解债务”概念，指出 AI Agent 虽能加速代码产出，但严重割裂了编写与理解的过程。传统模式下作者至少理解代码，而 AI 生成代码可能团队无人能懂，导致调试和维护风险激增。这警示企业需重新评估代码审查流程，避免盲目追求生成速度而牺牲系统可维护性，防止代码库变成无人能修的黑盒。长期来看，这可能增加技术债务，要求团队投入更多资源进行逆向工程以恢复对系统的掌控力，建议开发者在使用 AI 时保持核心逻辑的人工审查，确保知识留存于团队内部而非仅存在于模型中。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Engineering"
-    ],
-    "link": "https://fathohm.dev/comprehension-debt",
-    "date": "2026-08-18",
-    "id": "17870671810030"
-  },
-  {
-    "title": "专家呼吁：AI 检测器与水印机制弊大于利",
-    "summary": "检测器无法衡量创作 effort，且水印会降低文本质量。",
-    "detail": "博客文章严厉批评当前 AI 检测器及水印技术，认为其无法区分作品背后的努力程度，易误伤非英语母语者或深度思考后使用 AI 润色的人员。此外，水印机制通过降低模型输出概率来实现，实质是降级写作质量。行业应关注作品价值而非来源，避免检测工具滥用导致信任危机。检测公司缺乏动力澄清这一点，因为这会减少需求。开发者应警惕依赖此类工具进行绩效评估，以免扼杀创新效率。最终，文本是否由 AI 生成并不能反映工作质量，过度依赖检测将阻碍技术协作与进步。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Policy"
-    ],
-    "link": "https://blog.keyvan.net/p/ai-detectors-are-a-bad-idea",
-    "date": "2026-08-18",
-    "id": "17870671810031"
-  },
-  {
-    "title": "开发者社区调查：使用 AI 辅助编程是否感到羞耻？",
-    "summary": "多数开发者因 AI 提效受益，但承认使用时仍面临心理压力。",
-    "detail": "Hacker News 讨论揭示开发者对使用 AI 的矛盾心理。尽管 AI 显著提升生产力，但社区仍存在“手工编码更优越”的观念，导致使用者感到羞耻。讨论指出这可能源于技能退化担忧或特定领域不适用。随着 AI 普及，行业需建立更健康的工具使用文化，消除不必要的道德负担。部分人担心长期依赖会导致技能萎缩，类似汇编与 C 语言之争，但目前尚无数据支持这一观点，多数人已默认接受 AI 辅助。这种文化冲突反映了技术转型期的阵痛，需要管理层明确指导方针以缓解焦虑。",
-    "tags": [
-      "News",
-      "Community",
-      "Coding"
-    ],
-    "link": "https://news.ycombinator.com/item?id=49346906",
-    "date": "2026-08-18",
-    "id": "17870671810032"
-  },
-  {
-    "title": "首批明确允许 AI Agent 参与的 bounty 清单发布",
-    "summary": "部分赞助方开始接受 AI Agent autonomously 完成任务并领取奖励。",
-    "detail": "最新列表展示了明确允许 AI Agent 参与的 bounty 任务，涉及 Superteam Earn 等平台。虽然大多数任务仍限制为人类，但已有部分赞助方开放 Agent 访问权限，标志着 AI 代理在经济激励层面的初步落地。这为 autonomous agents 的商业化验证提供了早期实验场，值得开发者关注相关任务类型及奖励机制。目前开放任务较少，奖金总额有限，但趋势表明自动化工作流正逐步被经济系统接纳，未来可能改变自由职业市场格局。赞助方通过 API 字段明确标识，显示出对自动化完成任务的信心与规范化管理的尝试。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Economy"
-    ],
-    "link": "https://files.catbox.moe/j3w39k.html",
-    "date": "2026-08-18",
-    "id": "17870671810033"
   }
 ]
