@@ -1,5 +1,96 @@
 [
   {
+    "title": "智谱 GLM-5.3 发布，验证后训练 Scaling 价值",
+    "summary": "智谱 AI 发布 GLM-5.3，验证后训练与有效深度 scaling 价值。",
+    "detail": "清华教授唐杰指出，参数量达阈值后，能力增长源于后训练与有效深度。GLM-5.3 作为对照实验，在相同基座下通过长 horizon 环境与 RL scaling 获得显著增益。这表明模型优化方向正从单纯堆参数转向后训练与架构效率，为行业提供新 scaling 思路。",
+    "tags": [
+      "News",
+      "LLM",
+      "Scaling"
+    ],
+    "link": "https://twitter.com/hsu_steve/status/2090050721307611414",
+    "date": "2026-08-19",
+    "id": "17871645944940"
+  },
+  {
+    "title": "保险巨头 Acrisure 裁员数千，归咎于 AI",
+    "summary": "密歇根保险巨头裁员数千，称因 AI 但证据指向海外。",
+    "detail": "Acrisure 筹备 IPO 期间消除数千美国岗位，公开归咎于 AI 自动化。但证据显示业务可能转移至海外，引发关于 AI 替代真实原因的 industry 争议。此事件反映了企业在资本运作期间利用 AI 叙事掩盖结构性调整的行业现象。",
+    "tags": [
+      "News",
+      "Industry",
+      "Layoffs"
+    ],
+    "link": "https://www.chrisbrunet.com/p/exclusive-michigan-insurance-giant",
+    "date": "2026-08-19",
+    "id": "17871645944941"
+  },
+  {
+    "title": "Mobian 推出面向 AI Agent 的广告网络",
+    "summary": "新广告平台 Mobian 专为 AI Agent 设计，提供品牌事实。",
+    "detail": "Mobian 识别人类与 Agent 双受众，向 ChatGPT 等 Agent 提供结构化品牌事实。解决 Agent 抓取网页时的信息准确性问题，重塑 AI 时代的广告投放逻辑。这标志着广告业开始针对 AI 读取行为进行优化，而非仅针对人类视觉。",
+    "tags": [
+      "New",
+      "Advertising",
+      "Agents"
+    ],
+    "link": "https://themobian.ai/",
+    "date": "2026-08-19",
+    "id": "17871645944942"
+  },
+  {
+    "title": "开源项目 CIYA 提供确定性 AI 逻辑层",
+    "summary": "CIYA 作为 LLM 前端大脑，提供确定性存储与逻辑引擎。",
+    "detail": "该项目位于 LLM 前端，确保交互体验一致且防止幻觉。支持离线/空气隔离环境，当 LLM 宕机时仍保留工具与数据集功能，适合机器人及本地部署场景。为解决 LLM 不确定性问题提供了新的基础设施层思路。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "LLM"
+    ],
+    "link": "https://iiio.app/?u=showhn",
+    "date": "2026-08-19",
+    "id": "17871645944943"
+  },
+  {
+    "title": "Baseten 发布《Inference Engineering》免费书籍",
+    "summary": "Baseten 推出免费书籍，详解 AI 推理背后的系统工程。",
+    "detail": "面向工程师，深入解析 powering AI 公司的技术层。由 Philip Kiely 撰写，涵盖推理系统核心知识，旨在 democratizing 计算变革背后的技术细节。是开发者理解 AI 基础设施成本与架构的重要资源。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "Book"
+    ],
+    "link": "https://www.baseten.co/inference-engineering/",
+    "date": "2026-08-19",
+    "id": "17871645944944"
+  },
+  {
+    "title": "教程：利用 Harness Engineering 消除 AI 写作痕迹",
+    "summary": "通过代理循环 harness 移除 AI 生成文本的常见痕迹。",
+    "detail": "介绍构建 agentic harness 流程，包含 flag、rewrite、recheck 循环。不依赖更强模型，而是通过确定性检查迭代修正，使 AI prose 更具人类质感，适合内容创作者。展示了如何通过工程化手段优化生成内容质量。",
+    "tags": [
+      "Dev",
+      "Tutorial",
+      "Writing"
+    ],
+    "link": "https://meshintelligence.substack.com/p/how-to-use-harness-engineering-to",
+    "date": "2026-08-19",
+    "id": "17871645944945"
+  },
+  {
+    "title": "AI 基础设施六阶段旅程与 FinOps 危机",
+    "summary": "详解 AI 应用从原型到企业级的六阶段 infra 挑战。",
+    "detail": "文章 breakdown 了从 SaaS API 账单冲击到 GPU 集群墙的三个危机点。指出 LLM 推理成本与硬件复杂度非线性增长，为工程团队提供规避 FinOps 陷阱的路径指南。适合CTO 规划 AI 规模化落地策略。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "FinOps"
+    ],
+    "link": "https://acefleet.dev/blog/the-6-stage-ai-infrastructure-journey",
+    "date": "2026-08-19",
+    "id": "17871645944946"
+  },
+  {
     "title": "OpenAI 推出零数据保留政策与私有安全处理",
     "summary": "OpenAI 承诺不保留 API 客户数据，推出私有安全处理系统。",
     "detail": "OpenAI 针对企业 API 客户推出零数据保留（ZDR）承诺，处理后不保留提示词或响应，人员不可见。为解决长任务安全风险，预览了“私有安全处理”系统，可在不让人工访问内容的情况下识别跨交互模式，因为严重风险往往需多次交互才可见。客户数据可保留在客户控制的基础设施上，或使用客户密钥加密。此举旨在平衡安全性与企业隐私需求，增强对前沿模型的商业信任，自动化系统仅返回有限安全信号，确保数据主权。",
@@ -1207,96 +1298,5 @@
     "link": "https://www.wired.com/story/the-worst-ive-ever-seen-cargo-thieves-are-turning-violent-in-pursuit-of-ai-hardware/",
     "date": "2026-08-18",
     "id": "17870883304993"
-  },
-  {
-    "title": "Palantir 与 USA Today 达成 AI 数据合作引发新闻室抗议",
-    "summary": "媒体与科技公司数据合作引发伦理争议，内部员工反对声音强烈。",
-    "detail": "Palantir 与 USA Today 达成的 AI 数据交易引发了新闻室内部的强烈抗议。该合作涉及利用新闻内容训练或优化 AI 模型，触发了关于版权、编辑独立性及新闻伦理的讨论。员工担忧商业利益可能损害新闻客观性。此事件反映了传统媒体在 AI 转型期的困境，即如何在商业化生存与新闻操守之间寻找平衡。数据授权虽能带来收入，但可能削弱媒体公信力。若处理不当，可能导致读者流失及品牌受损。该案例将成为媒体行业 AI 合作的典型参照，警示其他机构在签署类似协议时需充分考量内部共识与长期品牌影响。",
-    "tags": [
-      "News",
-      "Business",
-      "Ethics"
-    ],
-    "link": "https://www.forbes.com/sites/sandycarter/2026/08/15/palantir-leads-ai-data-deal-with-usa-today-sparking-a-newsroom-revolt/",
-    "date": "2026-08-18",
-    "id": "17870883304994"
-  },
-  {
-    "title": "行业调查：llms.txt 标准尚未获主要 AI 平台支持",
-    "summary": "Adoption 率仅 10%，Google 明确表示不支持，开发者需谨慎投入。",
-    "detail": "针对 proposed standard llms.txt 的调查显示，目前仅有约 10% 的网站采用，且主要 AI 爬虫抓取频率极低。Google 明确表示不支持该文件，将其比作过时的 keywords 标签。尽管部署成本低，但专家建议不要将其作为核心 SEO 策略。这反映了 AI 抓取标准尚未统一，开发者应优先优化常规 HTML 结构而非依赖新提案。主要 AI 厂商尚未承诺支持该标准，意味着其实际效用有限。然而，作为一种低成本的未来押注，部署该文件仍具有一定象征意义。开发者需关注主流搜索引擎的动态，避免因过度优化非标准文件而浪费资源，保持对官方文档的遵循。",
-    "tags": [
-      "Dev",
-      "SEO",
-      "Standard"
-    ],
-    "link": "https://geojacker.com/llms-txt",
-    "date": "2026-08-18",
-    "id": "17870883304995"
-  },
-  {
-    "title": "OpenAI 放缓 AI 训练节奏",
-    "summary": "OpenAI 调整战略，宣布减缓 AI 模型训练速度，引发行业关注。",
-    "detail": "Time 杂志于 2026 年 8 月 18 日报道，OpenAI 正在减缓其 AI 训练速度。作为全球 AI 行业的领头羊，OpenAI 的战略调整往往具有风向标意义。此前行业普遍追求更快的迭代速度与更大的模型规模，此举可能暗示公司在算力资源、数据质量或安全合规方面遇到了新的考量。虽然具体原因未详述，但这标志着 AI 发展可能从单纯的“速度竞赛”转向更注重“质量与安全并重”的新阶段。这一变化可能会连锁影响其他厂商的训练计划，重新定义模型发布的节奏与预期，对投资者和开发者而言都是重要的信号。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Strategy"
-    ],
-    "link": "https://time.com/article/2026/08/18/openai-slowing-training/",
-    "date": "2026-08-18",
-    "id": "17870846968810"
-  },
-  {
-    "title": "物理 AI 获数十亿风投青睐",
-    "summary": "2026 上半年物理 AI 融资激增，机器人与航空航天成热点。",
-    "detail": "Crunchbase 最新数据显示，2026 年上半年全球物理 AI 领域风险投资总额达 474 亿美元，涉及 521 笔交易，同比增长近 4 倍。这一数字甚至超过了 2022 至 2024 三年的总和。其中 Waymo 等大额交易驱动了增长，风投趋势明显从纯软件转向硬件与实体整合。物理 AI 涵盖机器人、自动驾驶、航空航天等领域。这表明 AI 浪潮正从数字世界迈向物理世界，硬件与实体整合成为投资主流。供应链与制造能力将成为关键竞争壁垒，预示着下一代 AI 巨头可能诞生于软硬结合部。",
-    "tags": [
-      "News",
-      "Investment",
-      "Robotics"
-    ],
-    "link": "https://news.crunchbase.com/venture/physical-ai-funding-startups-robotics-aerospace-h1-2026/",
-    "date": "2026-08-18",
-    "id": "17870846968811"
-  },
-  {
-    "title": "非洲开发者自建 AI 基础设施 CredVault",
-    "summary": "不再等待 adoption，非洲构建 AI 基建",
-    "detail": "文章指出非洲开发者已不再被动等待 AI 技术落地，而是主动构建基础设施。CredVault 项目旨在解决开发者在连接 AI 模型、数据库及自动化工作流时面临的碎片化问题。重点在于为开发者而非仅提供企业服务，简化从 API 访问到设备连接的复杂流程。这反映了新兴市场正在从单纯的技术消费转向底层基建开发，为全球 AI 生态多样性提供新视角。本地化基础设施将降低延迟与成本，促进区域创新。开发者正成为基础设施构建的核心力量。",
-    "tags": [
-      "New",
-      "Infrastructure",
-      "Emerging Markets"
-    ],
-    "link": "https://medium.com/@SamuelMbugua254/africa-is-not-waiting-for-ai-were-building-the-infrastructure-to-use-it-dc5e92e3ca1c",
-    "date": "2026-08-18",
-    "id": "17870813080812"
-  },
-  {
-    "title": "Etched 估值一月翻倍至 210 亿美元，AI 硬件赛道再掀狂潮",
-    "summary": "Etched 宣布融资 7 亿美元，估值达 210 亿美元，专注于 AI 推理集群硬件。",
-    "detail": "Etched 宣布完成 7 亿美元融资，估值飙升至 210 亿美元，仅用时一个月。该公司专注于“前沿推理集群”，设计了专门的预填充和解码芯片，旨在解决传统 GPU 的散热与速度瓶颈。Jane Street 领投，显示出量化基金对其硬件实测效果的认可。此举标志着 AI 基础设施竞争从训练端向推理端延伸，挑战 Nvidia 主导地位。其新内存和互连技术允许芯片共享内存池，大幅提升推理效率，被视为 AI 硬件领域的重大突破。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Investment"
-    ],
-    "link": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/",
-    "date": "2026-08-18",
-    "id": "17870740749890"
-  },
-  {
-    "title": "24 岁天才操盘手爆仓：450 亿美元 AI 基金因杠杆押注覆灭",
-    "summary": "Situational Awareness LP 基金因高杠杆押注 AI 基础设施失败，两周损失大部分价值。",
-    "detail": "24 岁基金经理 Leopold Aschenbrenner 管理的 AI 基金因过度杠杆和集中押注 AI 基础设施股，在市场回调中遭遇毁灭性打击。基金规模从 450 亿美元缩水，Citadel 收购了其公共投资组合。事件揭示了 AI 投资热潮背后的金融风险，高杠杆策略在波动市场中的脆弱性，为行业敲响警钟。该基金曾在上半年获得 439% 回报，但杠杆放大了亏损，显示单一策略在极端市场下的风险。",
-    "tags": [
-      "News",
-      "Finance",
-      "Risk"
-    ],
-    "link": "https://rubbishtalk.com/finance/how-a-24-year-old-blew-up-a-45-billion-ai-fund/",
-    "date": "2026-08-18",
-    "id": "17870740749891"
   }
 ]
