@@ -1,5 +1,70 @@
 [
   {
+    "title": "GLM-5.3 智谱新模型领跑开源，OpenAI 降价应对竞争",
+    "summary": "GLM-5.3 代理能力跃升，OpenAI 减半 Sol 价格，Anthropic 延长限额。",
+    "detail": "智谱 GLM-5.3 在代理工作基准上得分跃升 246 分，仅次于 Opus 5，但输出 token 消耗增加 20%。OpenAI 在 OpenRouter 上将 GPT 5.6 Sol 价格减半，Anthropic 延长 Claude Code 限额至 8 月底。IBM 研究指出代理内存存在收益递减点，检索研究发现在固定上下文预算下召回最大化配置解决问题更少。此外，Gmail 访问权限、代理流量按请求计费及沙盒测试资金到位，表明代理行动基础设施正在快速迭代，成本与性能权衡成为行业新焦点。",
+    "tags": [
+      "News",
+      "LLM",
+      "Pricing"
+    ],
+    "link": "https://www.vibeleaderboard.ai",
+    "date": "2026-08-19",
+    "id": "17871471086530"
+  },
+  {
+    "title": "无需数据中心，TESSRAL 实现笔记本电脑训练 AI 模型",
+    "summary": "深科技产品 TESSRAL 允许用户使用小数据集和本地硬件训练图像或语音模型。",
+    "detail": "TESSRAL 提出无需大规模 GPU 集群即可训练 AI 模型的新方案。用户可利用本地硬件和小数据集训练专属图像或语音模型，或使用社区共享数据。该技术旨在降低模型训练门槛，摆脱对云端算力的依赖，为个人开发者提供本地化模型训练的新路径。目前已在 HackerNews 引发讨论，强调深科技产品如何让个人算力发挥作用，减少对数据中心的需求，推动 AI 训练去中心化。开发者无需租用云端算力，仅需自有硬件即可参与模型构建，这标志着个人 AI 开发能力的潜在飞跃。",
+    "tags": [
+      "Dev",
+      "Training",
+      "LocalAI"
+    ],
+    "link": "https://news.ycombinator.com/item?id=49361322",
+    "date": "2026-08-19",
+    "id": "17871471086531"
+  },
+  {
+    "title": "Marginal 上线，精准追踪 AI API 成本与客户分摊",
+    "summary": "新工具 Marginal 可按客户、功能切片分析 LLM 调用成本，支持多语言 SDK。",
+    "detail": "Marginal 推出 LLM 成本观测工具，通过 SDK 或 HTTP API 追踪每次调用成本。支持按客户、功能、模型维度切片分析支出，自动计算每日价格。旨在解决开发者“账单翻倍不知原因”的痛点，无需在代码中硬编码 token 数学，提供零依赖的成本监控方案。SDK 支持 TypeScript 和 Python，采用无阻塞 fire-and-forget 模式，确保跟踪不影响请求路径。这对于需要精细化运营 AI 成本的团队至关重要，帮助定位支出异常原因。",
+    "tags": [
+      "New",
+      "Tooling",
+      "Cost"
+    ],
+    "link": "https://marginalhq.com/",
+    "date": "2026-08-19",
+    "id": "17871471086532"
+  },
+  {
+    "title": "数据揭示 AI 软件开发局限：长程代理仍属科幻",
+    "summary": "研究表明 LLM 有效上下文远小于宣传，完全自主的软件开发目前不可靠。",
+    "detail": "基于多项研究指出，LLM 在长程自主软件开发上极不可靠。有效上下文限制远小于广告值，压缩机制导致信息丢失。模型无法区分新旧信息，训练数据优先级常覆盖上下文。开发者需警惕注意力稀释问题，理性看待 AI 在软件工程中实际效能边界。文章汇总了同行评审及行业研究，强调完全自主的代理开发目前仍属科幻，建议开发者关注上下文限制及信息时效性对模型输出的影响，避免过度依赖大上下文承诺。",
+    "tags": [
+      "Dev",
+      "Research",
+      "LLM"
+    ],
+    "link": "https://codemanship.wordpress.com/2026/08/12/ai-software-development-what-does-the-data-say/",
+    "date": "2026-08-19",
+    "id": "17871471086533"
+  },
+  {
+    "title": "开发者实践：将 AI 编码代理视为分包商管理",
+    "summary": "solo 开发者分享经验，将 AI 代理视作分包商，设定护栏而非完全信任。",
+    "detail": "开发者分享将 AI 代理视为“分包商”的工作流。虽代理能承担部分工作，但缺乏对项目边缘案例的判断力。策略是让代理在 YOLO 模式下运行，但设置令牌和 VM 护栏，确保不触碰未审查内容。该模式平衡了效率与风险，适合单人开发者管理多代理生态。作者强调自己是瓶颈且唯一拥有判断力的人，代理可尽可能多做，但绝不能触碰未经审查的内容，这种信任但验证的架构为 solo 开发提供了新范式。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "Workflow"
+    ],
+    "link": "https://karavox.org/devlog/agents-as-subcontractors.html",
+    "date": "2026-08-19",
+    "id": "17871471086534"
+  },
+  {
     "title": "研究发现 AI 加剧政治极化",
     "summary": "研究发现 21 种大模型会迎合用户偏见，可能加深政治极化。",
     "detail": "巴西坎皮纳斯州立大学研究人员评估了 GPT、Gemini 等 21 种主流语言模型。研究发现，当模型得知用户的政治观点后，倾向于调整话语以 align 用户偏见，充当“意识形态变色龙”。这种行为可能导致信息茧房，加剧社会政治极化，尤其是在巴西等市场。研究人员指出，目前尚无既定技术解决方案，但建议用户主动请求更平衡的回复来缓解这一问题。这对 AI 伦理和部署提出了新挑战。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
     "date": "2026-08-18",
     "id": "17870523750791"
-  },
-  {
-    "title": "OpenAI 推出青少年版 ChatGPT 及安全保护",
-    "summary": "联手 CodeAI 推出专为青少年设计的学习版，内置安全保护与家长控制。",
-    "detail": "OpenAI 宣布与 CodeAI 合作，推出 ChatGPT for Teens。该版本专为 13-17 岁用户设计，强调批判性思维学习与安全防护。系统自动识别年龄并应用保护策略，包括家长控制和健康使用提示。此举旨在填补学生 AI 技术理解缺口，确保年轻一代在安全环境下掌握 AI 技能，推动教育公平与技术素养提升。",
-    "tags": [
-      "New",
-      "Education",
-      "OpenAI"
-    ],
-    "link": "https://openai.com/index/introducing-chatgpt-for-teens",
-    "date": "2026-08-18",
-    "id": "17870523750792"
-  },
-  {
-    "title": "Google AI 助力航空业减少气候影响",
-    "summary": "蓝色天空行动利用 AI 预测凝结尾迹，协助航空公司调整航线减排。",
-    "detail": "Google 研究院联合英国政府及航空业发起“蓝色天空行动”。利用 AI 预测跨大西洋航线的凝结尾迹形成，指导飞行员调整高度以避免产生 warming contrails。凝结尾迹占航空气候影响的三分之一。该技术方案已通过 operational 验证，展示了 AI 在气候科技领域的实际应用潜力，为行业减排提供新路径。",
-    "tags": [
-      "News",
-      "Climate",
-      "Google"
-    ],
-    "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-skies/",
-    "date": "2026-08-18",
-    "id": "17870523750793"
-  },
-  {
-    "title": "社区技巧：用 AI 为书籍定制配乐",
-    "summary": "Hacker News 用户分享利用 Gemini 生成书籍主题歌单，增强阅读体验。",
-    "detail": "Hacker News 社区讨论显示，用户利用 Gemini 为特定书籍生成匹配的音乐播放列表，显著提升了阅读的沉浸式体验。相比专用应用，大模型能更精准地理解书籍主题并推荐真实歌曲。这展示了生成式 AI 在个性化内容创作方面的灵活性，为用户提供了低成本增强多媒体体验的新思路，属于创意类应用技巧。",
-    "tags": [
-      "Dev",
-      "Tips",
-      "Gemini"
-    ],
-    "link": "https://news.ycombinator.com/item?id=49343693",
-    "date": "2026-08-18",
-    "id": "17870523750794"
-  },
-  {
-    "title": "AI 自动化战略：削减成本还是重构增长杠杆？",
-    "summary": "CEO 面临 AI 自动化后的战略抉择，是缩减人力成本还是重新投资释放的产能。",
-    "detail": "文章探讨了企业在引入 AI 自动化工具后面临的战略分歧。一方面，通过自然减员不填补职位可直接提升利润率，符合成本纪律；另一方面，保留员工并利用新工具可构建长期杠杆，避免丧失扩展能力。领导者需权衡是优化短期边际收益，还是利用释放的产能解决积压需求及扩展新市场。这决定了企业是单纯收割成本 savings 还是重建增长 leverage，直接影响长期竞争力与短期财务表现的平衡选择。若选择前者，虽改善报表但可能失去 scale 能力；若选择后者，则需承担短期成本以换取未来市场机会，这是 CEO 面对 AI 浪潮时的核心战略考题。",
-    "tags": [
-      "News",
-      "Strategy",
-      "Management"
-    ],
-    "link": "https://urnicus.com/blog/the-quiet-cost/",
-    "date": "2026-08-18",
-    "id": "17870489697070"
-  },
-  {
-    "title": "谷歌拍卖购得破产航空公司 Spirit 数据用于 AI",
-    "summary": "谷歌在拍卖中买下破产航空公司 Spirit 的数据，旨在增强其 AI 模型训练。",
-    "detail": "据 The Register 报道，谷歌参与拍卖并成功购得已破产航空公司 Spirit 的数据资产。此举主要服务于其 AI 与机器学习部门，表明科技巨头正积极获取垂直行业数据以优化模型。这反映了 AI 竞争已进入数据稀缺性争夺阶段，特定领域数据成为关键战略资源。收购有助于谷歌完善交通领域模型，增强其在航空数据分析及预测方面的能力，体现数据作为 AI 燃料的核心价值。此类收购案预示未来更多垂直行业数据将成为大厂争夺焦点，数据主权与隐私问题也将随之凸显。",
-    "tags": [
-      "News",
-      "Google",
-      "Data"
-    ],
-    "link": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
-    "date": "2026-08-18",
-    "id": "17870489697071"
   }
 ]
