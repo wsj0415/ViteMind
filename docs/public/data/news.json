@@ -1,5 +1,57 @@
 [
   {
+    "title": "开源项目 Relay：随时随地掌控本地 AI 编程代理",
+    "summary": "支持在旧 PC 上自托管运行 AI 代理，并通过 Flutter 客户端远程操控。",
+    "detail": "Relay 是一个私有的自托管远程控制中心，旨在让开发者在本地机器上运行 AI 编程代理，并通过任何屏幕进行控制。它支持 Claude Code、Codex、OpenCode 和 Hermes 等多种主流代理模型。技术架构采用 Node.js 后端配合 Flutter 客户端，确保跨平台兼容性。该项目遵循 MIT 许可，解决了本地算力利用与远程便捷性的矛盾，为开发者提供了安全、低成本的代理部署方案。通过自托管方式，用户能够完全掌控数据流向，避免敏感代码泄露给第三方服务。这种架构设计体现了本地优先（Local-First）的 AI 开发趋势，为资源有限的开发者提供了利用现有硬件运行先进代理的可能性。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Agents"
+    ],
+    "link": "https://github.com/elin66alpha/Relay",
+    "date": "2026-08-19",
+    "id": "17871114733450"
+  },
+  {
+    "title": "深度分析：AI 自我改进是否加速了模型迭代？",
+    "summary": "探讨 AI 模型是否通过自我改进缩短了下代模型的研发周期。",
+    "detail": "这篇深度文章探讨了一个关键指标：当前 AI 模型为下一代模型的研发节省了多少时间。虽然公共证据尚未显示完全闭环，但 AI 已在算法搜索、代码重写及研究任务中发挥实质作用。文章证据截至 2026 年 8 月 15 日，指出若 AI 能显著压缩研发周期，意味着智能已成为生产智能的经济投入。这对评估 AI 对前沿发展的实际加速作用具有重要理论价值，揭示了实验室未公开的内部效率数据可能比公共基准更重要。文章指出，即使模型未在公共基准上领先，若其能优化内部研发流程，其经济价值可能更高。这种视角转换对于投资者和研究者理解 AI 发展的真实速度至关重要，提示我们关注实验室内部效率而非仅看公开演示。",
+    "tags": [
+      "News",
+      "Analysis",
+      "LLM"
+    ],
+    "link": "https://recursive-economy.pages.dev/",
+    "date": "2026-08-19",
+    "id": "17871114733451"
+  },
+  {
+    "title": "代理互操作标准 A2A 加入 Agentic AI 基金会",
+    "summary": "A2A 成为 AAIF 托管项目，统一跨框架代理通信标准。",
+    "detail": "Agent2Agent (A2A) 正式加入 Agentic AI Foundation (AAIF)，作为开放的中立标准解决多代理系统间的集成难题。该标准定义了代理如何发现彼此、委托任务及交换工作，无需定制集成代码。Google 于 2025 年 4 月推出并捐赠给 Linux 基金会，获 AWS、Cisco 等 150+ 组织支持。IBM 的代理通信协议也已合并入 A2A，标志着代理互操作性迈向标准化阶段。目前已在供应链和金融领域生产环境运行，降低了跨厂商集成的成本。通过统一的 Agent Card 结构，代理能力描述标准化，使得任务委托无需人工干预。这一进展解决了多代理系统部署中的主要痛点，即集成成本高于代理本身成本的问题，为大规模代理协作奠定了基础。",
+    "tags": [
+      "News",
+      "Standard",
+      "Agents"
+    ],
+    "link": "https://aaif.io/blog/a2a-joins-aaif",
+    "date": "2026-08-19",
+    "id": "17871114733452"
+  },
+  {
+    "title": "Monity.ai 上线：AI 驱动的网站变更监控工具",
+    "summary": "监控网站视觉与内容变化，及时通知价格波动或库存更新。",
+    "detail": "Monity.ai 是一款新推出的生产力应用，利用 AI 技术监控网站页面的视觉、文本及内容变化。用户无需手动设置复杂规则，即可追踪价格下跌、库存变动或页面更新。应用支持 iOS 平台，免费下载含内购，专为 iPad 设计。旨在帮助用户快速捕捉关键信息变化，反映了 AI 在个人自动化监控领域的落地应用趋势，解决了手动刷新页面的低效问题。应用大小为 46 MB，支持英语界面，年龄分级为 4+。这种轻量级 AI 工具的出现，表明监控类应用正从规则驱动转向智能语义驱动，提升了普通用户管理网络信息的效率，让用户能在重要变更发生时迅速采取行动。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Monitoring"
+    ],
+    "link": "https://apps.apple.com/pl/app/monity-ai/id6761957823",
+    "date": "2026-08-19",
+    "id": "17871114733453"
+  },
+  {
     "title": "Rich Sutton 探讨 AI 模型停止学习的原因",
     "summary": "AI 传奇人物 Sutton 新视频深度解析模型学习停滞机制。",
     "detail": "AI 奠基人 Rich Sutton 与 Khurram Javed 合作发布新视频，探讨为何 AI 模型会停止学习及如何重启。内容涉及强化学习核心理论，针对当前大模型训练瓶颈提供新视角。对于 AI 研究人员和开发者而言，这是理解下一代持续学习系统的重要参考资料，可能影响未来模型架构设计方向。Sutton 作为强化学习之父，其观点往往预示行业技术风向，此次讨论聚焦于模型生命周期管理，解决了当前 AI 系统难以持续适应新数据的痛点，具有极高的学术与工程参考价值。视频深入分析了梯度消失与数据分布漂移问题，为构建终身学习系统提供了理论支撑与实践路径。",
@@ -76,6 +128,32 @@
     "link": "https://secitbench.cribl.io/",
     "date": "2026-08-19",
     "id": "17871021487403"
+  },
+  {
+    "title": "开发者讨论：AI 基础设施平台该如何定价？",
+    "summary": "Hacker News 社区探讨 AI 代理基础设施的定价策略模型。",
+    "detail": "针对 AI 代理基础设施平台的商业模式，Hacker News 社区讨论了固定平台费、用量计费及收入分成等策略。案例涉及咨询公司将平台授权给客户构建自动化解决方案，如 2 万美元的解决方案。该讨论为 AI 基础设施创业者提供了宝贵的定价参考，反映了当前 B2B AI 服务在商业化落地阶段面临的实际挑战与策略选择，特别是通过合作伙伴销售时的利益分配机制。提问者特别关注通过咨询集成合作伙伴销售时的结构安排。这种早期定价策略的讨论对于构建可持续的 AI 基础设施业务至关重要，反映了市场对于灵活商业模式的需求，探讨了 hindsight 中的定价教训。",
+    "tags": [
+      "Dev",
+      "Business",
+      "Infrastructure"
+    ],
+    "link": "https://news.ycombinator.com/item?id=49354254",
+    "date": "2026-08-18",
+    "id": "17871114733454"
+  },
+  {
+    "title": "OpenAI 发布国家安全领域的民主监督原则",
+    "summary": "强调 AI 用于国家安全时需加强监督，确保问责制。",
+    "detail": "OpenAI 发布博客强调，随着 AI 提升国家安全能力，监督机构也需同步升级。传统人工监督难以应对机器速度的决策，因此需要更强的保障措施和人类判断。OpenAI 承诺在国家安全部署中应用准备框架，帮助监督机构建立能力。此举展示了头部企业在 AI 治理与公共安全方面的政策导向，确保 AI 在高风险环境下的使用保持问责制，防止因配置错误导致的大规模失误。OpenAI 认为更强大的系统需要更强的监督，并将此原则应用于自身。通过帮助监督机构建立 capacity，确保在危机时刻公共 servants 能获得清晰 picture，同时防止 AI 因缺失上下文而产生高风险错误，强调民主监督需跟上 AI adoption 的速度。",
+    "tags": [
+      "News",
+      "Policy",
+      "OpenAI"
+    ],
+    "link": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+    "date": "2026-08-18",
+    "id": "17871114733455"
   },
   {
     "title": "谷歌将 A2A 纳入代理 AI 基础架构",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/yetone/cumora",
     "date": "2026-08-17",
     "id": "17870090630754"
-  },
-  {
-    "title": "AI 智能体护栏基准测试：发现插件“撒谎”行为",
-    "summary": "开发者构建基准测试工具，用于评估 AI 智能体的安全护栏有效性。",
-    "detail": "开发者发布了一个针对 AI 智能体护栏（Guardrails）的基准测试工具 Holdline。在测试过程中，该工具甚至发现了作者自己开发的插件存在“撒谎”行为。这对于评估 AI 智能体的安全性和可靠性至关重要，为开发者提供了一套验证智能体行为边界的方法，有助于构建更可信的 AI 应用。这是一个 GitHub 项目，用于 benchmark AI agent guardrails，揭示了当前插件开发中可能存在的诚信问题。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://github.com/couldbeme/holdline",
-    "date": "2026-08-17",
-    "id": "17870090630755"
-  },
-  {
-    "title": "EY 将实习期延长至一年以应对 AI 变革",
-    "summary": "安永推出长达一年的职业居留计划，帮助实习生掌握 AI 时代所需技能。",
-    "detail": "随着 AI 重塑入门级工作所需的技能，四大会计师事务所之一的安永（EY）宣布将其传统的八周实习计划扩展为为期 8 至 12 个月的付费“职业居留”（Career Residency）。实习生在完成传统实习后，将以兼职形式继续参与项目，接受个性化 coaching 和技能发展培训。这一举措反映了专业服务行业正在快速变化，企业需要重新思考新员工如何能更快地做出贡献，同时也表明 AI 正在提高 entry-level 工作的门槛，迫使教育机构和企业调整人才培养模式。",
-    "tags": [
-      "News",
-      "Career",
-      "Enterprise"
-    ],
-    "link": "https://www.businessinsider.com/ey-internship-residency-career-ai-skills-2026-8",
-    "date": "2026-08-17",
-    "id": "17870054630640"
-  },
-  {
-    "title": "AI 自动化初创公司 Relay 关闭，团队加入 Google Chrome",
-    "summary": "曾旨在成为新 Zapier 的 Relay 宣布 shutdown，创始人重返 Google 领导 Chrome 产品。",
-    "detail": "2021 年成立的 AI 工作流自动化工具 Relay 宣布将于 9 月 14 日停止服务。其创始人兼 CEO Jacob Bank 将重返 Google，担任 Chrome 团队的 VP of Product。Relay 最初的目标是成为新一代的 Zapier，但在竞争激烈的自动化市场中未能持续。这一收购性招聘表明 Google 正加强 Chrome 浏览器内的 AI 功能整合，计划利用 Relay 团队在 AI 工作流方面的经验，帮助用户在浏览器内更高效地完成任务，预示着浏览器可能成为下一代 AI Agent 的重要载体。",
-    "link": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
-    "date": "2026-08-17",
-    "tags": [
-      "News",
-      "Startup",
-      "Google"
-    ],
-    "id": "17870054630641"
-  },
-  {
-    "title": "Smolbox：在浏览器标签页中运行本地 AI Agent",
-    "summary": "基于 WebAssembly 和 WebGPU 的沙盒项目，实现完全本地化的 AI 代理工作流。",
-    "detail": "Smolbox 是一个概念验证项目，它在一个基于 Alpine Linux 的 x86_64 虚拟机沙盒中运行，完全通过 WebAssembly (WASM) 在浏览器标签页内执行。该项目集成了通过 WebGPU 运行的本地 LLM 模型，并将其作为工具调用暴露给 VM。与 Claude Code 等云端服务不同，Smolbox 的所有数据处理、Linux 沙盒和文件访问控制均存在于用户浏览器中，无需服务器端处理。这为本地化、隐私安全的 AI Agent 部署提供了新的技术思路，证明了完全在前端运行复杂 AI 工作流的可行性。",
-    "link": "https://remyhax.xyz/posts/smolbox/",
-    "date": "2026-08-17",
-    "tags": [
-      "Dev",
-      "LLM",
-      "WebAssembly"
-    ],
-    "id": "17870054630642"
-  },
-  {
-    "title": "利用控制图表优化 AI Agent 的效用与成本",
-    "summary": "作者通过构建个人生活控制图表，为 AI Agent 提供更有效的上下文框架。",
-    "detail": "文章探讨了如何通过构建个人生活的“控制图表”（Control Charts）来提升 AI Agent 的实用性，而非盲目依赖 Agent 自动化。作者利用 Claude Code 编写代码连接各类数据源（如银行、健康数据），生成可视化图表来监控系统状态。这种方法为 AI 提供了明确的参考框架和上下文，使得 AI 在讨论问题时更具针对性，同时降低了无谓的 Agent 运行成本。该案例展示了在 AI 应用中，良好的数据基础设施和上下文管理比单纯的 Agent 自动化更为关键。",
-    "link": "https://newoldweb.com/control-charts-make-ai-agents-less-necessary-and-more-useful",
-    "date": "2026-08-17",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Productivity"
-    ],
-    "id": "17870054630643"
-  },
-  {
-    "title": "fast.ai 创始人回归 AI 教育领域",
-    "summary": "Jeremy Howard 宣布重返 AI 领域，重点关注 AI 在教育中的应用与挑战。",
-    "detail": "fast.ai 联合创始人 Jeremy Howard 在停更 5 个月后宣布回归，重点研究 AI 在教育领域的应用。尽管周围存在强烈的反 AI 情绪，他指出当前 AI 教育产品大多质量低下，甚至涉及欺诈，导致学生思维技能退化。他强调阅读、写作和理解文本是人类的核心部分，而当前的 AI 教育工具往往追求可博弈的指标而非真实学习效果。此次回归旨在探索如何正确使用 AI 辅助教育，避免技能萎缩，对抗互联网上泛滥的低质 AI 内容。",
-    "link": "https://www.fast.ai/posts/2026-08-18-returning-to-AI/",
-    "date": "2026-08-17",
-    "tags": [
-      "News",
-      "Education",
-      "Ethics"
-    ],
-    "id": "17870054630644"
   }
 ]
