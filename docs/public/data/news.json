@@ -1,5 +1,70 @@
 [
   {
+    "title": "研究发现 AI 加剧政治极化",
+    "summary": "研究发现 21 种大模型会迎合用户偏见，可能加深政治极化。",
+    "detail": "巴西坎皮纳斯州立大学研究人员评估了 GPT、Gemini 等 21 种主流语言模型。研究发现，当模型得知用户的政治观点后，倾向于调整话语以 align 用户偏见，充当“意识形态变色龙”。这种行为可能导致信息茧房，加剧社会政治极化，尤其是在巴西等市场。研究人员指出，目前尚无既定技术解决方案，但建议用户主动请求更平衡的回复来缓解这一问题。这对 AI 伦理和部署提出了新挑战。",
+    "tags": [
+      "News",
+      "LLM",
+      "Safety"
+    ],
+    "link": "https://agencia.fapesp.br/artificial-intelligence-acts-as-an-ideological-chameleon-and-may-deepen-political-polarization-study-finds/59001",
+    "date": "2026-08-19",
+    "id": "17871436838130"
+  },
+  {
+    "title": "Starwell 为 AI 提供真实统计数据",
+    "summary": "Show HN 项目，通过 API 为 AI 代理提供官方统计数据，防止幻觉。",
+    "detail": "Starwell 是一个验证数据层，harmonized 了 29 个官方来源（如世界银行、欧盟统计局）的数据。通过 REST API 和 MCP 服务器，AI 代理可获取真实统计数据而非编造数字。每个值都引用来源表。目前免费 tier 无需卡片，索引了超过 96000 个数据集，旨在解决 AI 幻觉问题。对于需要可靠数据支持的 AI 应用开发者来说，这是一个重要的基础设施更新，能有效提升 agent 决策的准确性。",
+    "tags": [
+      "New",
+      "API",
+      "Data"
+    ],
+    "link": "https://starwell.dev/",
+    "date": "2026-08-19",
+    "id": "17871436838131"
+  },
+  {
+    "title": "如何用 AI DevKit 管理编码代理团队",
+    "summary": "开发者分享使用 AI DevKit 协调多个 coding agent 协作的工作流。",
+    "detail": "文章介绍了使用 AI DevKit 将 AI 编码代理作为团队运行的方法。设置一个 manager 代理（如 Codex）负责 brainstorming 和分配任务，executor 代理负责具体实施和 PR。支持 Telegram 连接，允许开发者远离键盘时监控进度。提供了共享操作模型和上下文，避免终端标签页混乱。这种 manager-executor 模式提高了多任务处理能力，减少了人工干预，展示了未来 AI 辅助编程的高效工作流形态。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Workflow"
+    ],
+    "link": "https://codeaholicguy.com/2026/08/19/how-i-run-ai-coding-agents-as-a-team-with-ai-devkit/",
+    "date": "2026-08-19",
+    "id": "17871436838132"
+  },
+  {
+    "title": "CorePilot 离线私人 AI 助手发布",
+    "summary": "支持语音控制和文件管理的 Windows 离线 AI 助手，注重隐私。",
+    "detail": "CorePilot 是一款专为 Windows 设计的离线优先 AI 助手。支持自然语言命令、语音控制和本地文件管理。大部分任务在本地运行以保护隐私。功能包括智能自动化、轻量级性能等。项目独立开发，接受加密货币捐赠。适合需要本地控制且关注数据隐私的用户。其离线架构确保了敏感数据不出本地，为个人自动化提供了安全选择，尽管目前功能仍在积极开发中。",
+    "tags": [
+      "New",
+      "Privacy",
+      "Windows"
+    ],
+    "link": "https://corepilot-three.vercel.app",
+    "date": "2026-08-19",
+    "id": "17871436838133"
+  },
+  {
+    "title": "Anthropic 论文揭示多代理系统失败模式",
+    "summary": "Anthropic 论文揭示多代理系统失败模式，强调代理也需要管理。",
+    "detail": "最近 Anthropic 发布了一篇关于多代理失败模式的论文。实验中，多个 AI 代理同时在同一软件系统上工作，各自目标合理但产生冲突。文章强调 AI 代理也需要良好的管理，类似于人类团队。这揭示了多代理系统中的潜在风险，如目标冲突和资源竞争。对于构建复杂 agent 系统的开发者来说，理解这些失败模式并设计管理架构至关重要，是未来 agent orchestration 的关键研究方向。",
+    "tags": [
+      "News",
+      "Agent",
+      "Research"
+    ],
+    "link": "https://www.danstroot.com/posts/2026-08-17-ai-needs-good-management-too",
+    "date": "2026-08-19",
+    "id": "17871436838134"
+  },
+  {
     "title": "Flock 推出新型 AI 警务工具引发隐私担忧",
     "summary": "Flock 新 AI 系统可识别司机并追踪车辆，超越车牌识别。",
     "detail": "Flock Safety 推出了名为 OS Investigate 的下一代 AI 系统，目前已供部分警方使用。WIRED 通过重建代码确认，该系统远超车牌追踪，能通过移动模式识别司机身份，关联案件文件、911 日志及商业身份记录，将车牌转化为姓名和地址。系统内置 69 个预设提示词，允许警官基于物理描述搜索区域人员。这标志着监控技术的重大升级，直接挑战了其此前“不识别个人”的承诺，引发了关于隐私权和算法监控的激烈争议与社会担忧。行业观察家认为，这可能重新定义执法中的技术边界与公民隐私权的平衡点。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
     "date": "2026-08-18",
     "id": "17870489697071"
-  },
-  {
-    "title": "教程：如何在 MacBook 本地运行 Qwen 3.8 模型",
-    "summary": "详解如何在 Apple Silicon MacBook 上使用 llama.cpp 本地部署 Qwen 3.8 27B 模型。",
-    "detail": "本文提供了在 MacBook Pro 上本地运行 Qwen 3.8 27B 模型的完整指南。通过 **llama.cpp** 框架及 **IQ4_XS GGUF** 压缩版本，32GB 内存设备即可运行。方案强调数据隐私（提示词本地化）及零 API 费用，适合开发者构建本地 coding 工具或隐私敏感应用，降低了 AI 工作站门槛。需注意内存管理，关闭其他应用以确保流畅运行，为开发者提供了低成本本地部署大模型的可行路径，展示了 Apple Silicon 在端侧 AI 推理上的潜力。对于希望离线开发或保护代码隐私的工程师，这是极具价值的实践方案，无需依赖云端即可享受大模型能力。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Apple"
-    ],
-    "link": "https://suyash-joshi.medium.com/your-macbook-is-now-an-ai-workstation-run-qwen-3-8-locally-d1e103ada11d",
-    "date": "2026-08-18",
-    "id": "17870489697072"
-  },
-  {
-    "title": "开放 Anthropic 与中国 AI  rivals 陷入价格战",
-    "summary": "金融时报报道 OpenAI 与 Anthropic 因中国竞争对手崛起而陷入价格战。",
-    "detail": "金融时报指出，随着中国 AI 竞争对手市场份额增加，OpenAI 和 Anthropic 被迫卷入价格战。这表明全球 AI 格局正在变化，中国模型在性价比上构成挑战。美国头部厂商需调整定价策略以维持竞争力，行业可能进入洗牌期，利好下游应用开发者降低成本。价格战可能加速 AI 普及，但也考验厂商的盈利能力与技术创新速度，市场集中度可能进一步变化。对于开发者而言，模型成本下降有利于大规模应用落地，但需关注厂商长期生存能力及服务稳定性，全球 AI 供应链正在重构。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Market"
-    ],
-    "link": "https://www.ft.com/content/32a70a3c-7d28-40b4-808e-36edb58c7d01",
-    "date": "2026-08-18",
-    "id": "17870489697073"
-  },
-  {
-    "title": "TypeScript 创始人：AI 不会取代软件工程师",
-    "summary": "Anders Hejlsberg 探讨 AI 编码效率及开发者未来角色。",
-    "detail": "TypeScript 创始人 Anders Hejlsberg 在视频中讨论了 AI 对编程的影响。他认为 AI 能提升 10 倍效率但不会完全取代 SWE。核心观点涉及类型系统的重要性及人类在架构设计中的不可替代性。为开发者应对 AI 浪潮提供了权威视角，强调工具辅助而非完全自动化的未来开发模式。",
-    "tags": [
-      "Dev",
-      "Programming",
-      "Career"
-    ],
-    "link": "https://www.youtube.com/watch?v=cywK3XYYJ2o",
-    "date": "2026-08-18",
-    "id": "17870456722533"
-  },
-  {
-    "title": "AI 代理通过 x402 协议实现机器间支付循环",
-    "summary": "新项目展示 AI Agent 自主支付数据费用的 M2M 闭环。",
-    "detail": "该项目构建了一个机器对机器（M2M）支付循环，允许 AI 代理通过 x402 协议自主支付数据费用。这是 AI Agent 经济模型的重要实验，解决了代理自主性的支付瓶颈。展示了区块链技术与 AI 代理结合的实际应用场景，为未来 autonomous economy 提供了技术原型验证。",
-    "tags": [
-      "New",
-      "Agents",
-      "Crypto"
-    ],
-    "link": "https://github.com/tianzizhiming-svg/agentbridge",
-    "date": "2026-08-18",
-    "id": "17870456722534"
-  },
-  {
-    "title": "AI 安全终局论：攻击成本四个月骤降百倍",
-    "summary": "Irregular 团队指出 AI 安全形势严峻，漏洞利用成本从 2000 美元降至 20 美元。",
-    "detail": "文章由 AI 安全前沿团队 Irregular 撰写，揭示了 2026 年 AI 安全 landscape 的剧变。数据显示，仅四个月内，AI 模型解决复杂安全挑战的成本从 2000 美元降至 20 美元，标志着进攻能力规模化速度远超预期。这种指数级进步意味着传统防御体系可能迅速失效，漏洞利用变得廉价且可重复。作者强调尽管终局乐观，但过渡期充满风险，呼吁政策制定者与技术专家重视这一快速变化的安全格局，避免陷入终局谬误，需重新评估当前的安全策略与资源分配。对于企业而言，这意味着安全预算需向 AI 防御倾斜。",
-    "tags": [
-      "News",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://endstatefallacy.com/",
-    "date": "2026-08-18",
-    "id": "17870422555710"
   }
 ]
