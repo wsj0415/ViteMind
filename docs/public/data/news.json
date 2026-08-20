@@ -1,5 +1,57 @@
 [
   {
+    "title": "代理 AI 引发 CPU 性能瓶颈，硬件格局迎来新转折",
+    "summary": "IEEE 报道代理 AI 导致 CPU 成为新瓶颈，CPU 重要性回升。",
+    "detail": "IEEE Spectrum 最新分析指出，随着 Agentic AI 应用的爆发，传统由 GPU 主导的算力格局正在发生变化。由于代理 AI 需要处理复杂的逻辑推理和任务调度，CPU 反而成为了新的性能瓶颈。这一趋势预示着数据中心硬件架构将面临重塑，CPU 技术革新将加速，可能改变芯片行业的竞争态势。对于 AI 基础设施开发者而言，关注 CPU 性能优化及异构计算架构将成为接下来的关键方向，以应对代理 AI 带来的新挑战。此外，这也意味着成本结构可能变化，企业需重新评估硬件采购策略。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Infrastructure"
+    ],
+    "link": "https://spectrum.ieee.org/ai-cpu-comeback",
+    "date": "2026-08-20",
+    "id": "17871947465560"
+  },
+  {
+    "title": "AI 代理将迎来“凭证主义”时代，访问权限受监管",
+    "summary": "文章预测 AI 代理需获得凭证才能访问服务，可能加剧大厂垄断。",
+    "detail": "随着 AI 代理自主行动能力增强，服务方将要求代理具备身份凭证才能访问 API 或市场。这可能导致只有大型科技公司能获得信任认证，加剧权力集中。同时也可能催生个人网络安全认证新赛道，改变代理经济的信任机制。监管与技术的博弈将决定未来代理生态的开放性。开发者需考虑如何为其代理获取合法身份，以避免被主流服务平台封锁，这将是 Agent 商业化落地的关键合规步骤，行业需关注相关标准制定。",
+    "tags": [
+      "News",
+      "Agents",
+      "Regulation"
+    ],
+    "link": "https://betocmn.com/blog/credentialism-is-coming-for-ai-agents/",
+    "date": "2026-08-20",
+    "id": "17871947465561"
+  },
+  {
+    "title": "开发者社区热议 AI 代码审查的实际效用与流程困境",
+    "summary": "HN 讨论质疑 AI 生成代码后的人工审查意义及 AI 互审流程。",
+    "detail": "Hacker News 引发关于 AI 代码审查价值的讨论。核心质疑在于：若代码由 AI 生成，人工审查效率低；若由另一 AI 审查，为何不在提交前迭代？这反映了当前 AI 开发工作流中的信任与效率矛盾，亟待优化。团队需重新定义审查标准，平衡 AI 生成速度与代码质量，避免盲目合并导致系统不稳定。此外，是否应赋予开发者本地审查 AI 工具，而非依赖后端审查，也是优化工作流的关键思考点，影响工程效率。",
+    "tags": [
+      "Dev",
+      "Workflow",
+      "LLM"
+    ],
+    "link": "https://news.ycombinator.com/item?id=49369710",
+    "date": "2026-08-20",
+    "id": "17871947465563"
+  },
+  {
+    "title": "Show HN: AIOMNIU 推出隐私优先的 AI 简历筛选服务",
+    "summary": "新工具利用 AI 匹配候选人，强调数据隐私与安全合规。",
+    "detail": "AIOMNIU 发布 AI 简历筛选服务，通过智能匹配技能与经验加速招聘。特色在于隐私优先设计，自动分析数据并保护候选人信息，仅授权访问联系方式。适合现代招聘团队，解决传统筛选泄露风险。企业级安全合规是其核心卖点，旨在平衡招聘效率与数据隐私保护，为 HR 科技提供新方案。该工具声称已被全球 1200+ 公司信任，展示了 AI 在垂直领域落地的实际进展，值得关注其市场反馈。",
+    "tags": [
+      "New",
+      "HR Tech",
+      "Privacy"
+    ],
+    "link": "https://aiomniu.top/services/resume-screening",
+    "date": "2026-08-20",
+    "id": "17871947465564"
+  },
+  {
     "title": "音乐版权巨头起诉 Suno 和 Anthropic 索赔 10 亿美元",
     "summary": "Round Hill Music 指控 Suno 和 Anthropic 未经授权使用音乐数据进行 AI 训练。",
     "detail": "**背景**：随着生成式 AI 技术迅速普及，版权归属与数据使用争议日益激烈，成为行业焦点。\n**事件**：知名音乐版权管理公司 Round Hill Music 正式向法院起诉 AI 音乐生成公司 Suno 及大模型厂商 Anthropic，索赔金额高达 10 亿美元。\n**核心争议**：原告指控被告未经授权使用受版权保护的音乐数据用于模型训练，侵犯知识产权。\n**行业影响**：此案被视为 AI 版权领域的关键判例，可能确立训练数据使用的法律边界。判决结果将迫使 AI 公司重新审视数据合规策略，增加授权成本，深远影响生成式音乐及大模型未来的技术发展路径与商业模式。",
@@ -24,6 +76,19 @@
     "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
     "date": "2026-08-20",
     "id": "17871884832401"
+  },
+  {
+    "title": "AI 驱动的网络攻击升级，自适应威胁成防御难点",
+    "summary": "OPSWAT 警告 AI 攻击可实时调整策略，传统防御面临挑战。",
+    "detail": "攻击者利用 AI 自动化恶意活动，钓鱼邮件可针对职位定制，恶意软件能实时切换策略绕过防御。这种自适应威胁要求防御体系升级，安全传输成为保护关键，网络安全进入 AI 对抗 AI 新阶段。企业需部署智能防御系统，否则将面临数据泄露高风险。OPSWAT 强调，理解 AI 攻击能力是构建弹性防御的基础，传统静态规则已失效，必须采用动态、智能的安全策略来应对不断演变的威胁 landscape，保护关键数据资产。",
+    "tags": [
+      "News",
+      "Security",
+      "Threat"
+    ],
+    "link": "https://www.opswat.com/blog/ai-powered-cyberattacks",
+    "date": "2026-08-19",
+    "id": "17871947465562"
   },
   {
     "title": "Stripe 斥资 75 亿美元收购 AI 路由初创公司 OpenRouter",
@@ -1233,70 +1298,5 @@
     "link": "https://elizabethtai.com/2026/08/19/life-as-a-techwriter-in-the-ai-age/",
     "date": "2026-08-19",
     "id": "17871218263843"
-  },
-  {
-    "title": "AI 代理普及曲线类比 3D 打印机",
-    "summary": "文章类比 AI 代理与 3D 打印机，指出一旦上手将发现无处不在的 delegatable 问题。",
-    "detail": "文章通过类比 3D 打印机的 adoption curve，解释 AI 代理的普及逻辑。初期看似功能单薄，但一旦用户亲身体验解决实际问题，便会发现无处不在的自动化机会。这一视角有助于理解 AI 代理的市场渗透路径，强调了实际场景体验胜过抽象功能介绍，为产品推广和用户教育提供了心理学依据，说明拥有工具后视角的转变是关键。",
-    "tags": [
-      "News",
-      "Adoption",
-      "AI Agents"
-    ],
-    "link": "https://www.jitbit.com/alexblog/ai-agents-and-3d-printers/",
-    "date": "2026-08-19",
-    "id": "17871218263844"
-  },
-  {
-    "title": "AI 挖掘 500 年西班牙记录寻找沉船，高薪聘请海盗",
-    "summary": "AI 分析 8000 万页历史文档定位沉船，年薪 50 万聘海盗打捞",
-    "detail": "某公司利用先进 AI 技术分析了长达 500 年的西班牙殖民记录，涵盖 8000 万页文档，成功定位未知沉船位置。为此高薪聘请专业海盗进行打捞，年薪高达 50 万美元。该项目展示了 AI 在非结构化历史数据挖掘及物理世界行动的结合潜力，为文化遗产探索与商业 salvage 提供新范式。技术层面，模型需处理多语言古文献，挑战巨大。商业上，找到了高价值 cargo。这标志着 AI 从纯软件向物理世界干预的跨越。同时引发关于历史遗产归属的伦理讨论。此案例证明 AI 不仅能处理数字任务，还能驱动实体经济活动，具有极高的行业参考价值。",
-    "tags": [
-      "News",
-      "AI Application",
-      "History"
-    ],
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-company-hiring-a-literal-pirate-to-salvage-sunken-treasure-found-by-artificial-intelligence-pays-up-to-usd500k-a-year-mining-80-million-pages-of-spanish-colonial-records-to-find-undiscovered-wrecks-and-lost-cargo",
-    "date": "2026-08-19",
-    "id": "17871142846750"
-  },
-  {
-    "title": "arXiv 论文：通过潜意识提示词实现模型催眠控制",
-    "summary": "最新研究揭示叠加微弱提示词可强控制 AI 行为，影响安全",
-    "detail": "最新 arXiv 论文揭示“模型催眠”现象，通过叠加微弱提示词可强控制 AI 行为。该效应跨模型存在，对 AI 安全及可解释性构成挑战。开发者需注意提示词注入风险，加强模型鲁棒性测试。研究表明，即使看似无关的措辞变化也能累积影响输出。这对对齐技术提出新要求，需防范恶意利用。核心在于 additive subliminal effects。未来模型训练需加入此类对抗样本，确保系统在复杂提示下的稳定性。安全团队应更新评估基准，将潜意识效应纳入红队测试范围，防止 AI 被隐蔽操控。此发现可能改变 Prompt 工程的安全标准，影响深远。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Research"
-    ],
-    "link": "https://arxiv.org/abs/2608.16834",
-    "date": "2026-08-19",
-    "id": "17871142846751"
-  },
-  {
-    "title": "PlugClaw 发布隐私 AI 代理硬件，支持本地任务执行",
-    "summary": "拇指大小 AI 硬件运行隐私 Android 系统，本地执行任务无需云",
-    "detail": "PlugClaw 推出拇指大小 AI 代理硬件，运行隐私 hardened Android 系统 PlugOS。支持本地执行任务如邮件、浏览，无需云端数据上传。预装多种前沿模型，支持 BYOK，解决 AI 隐私与行动力痛点。设备可自主操作 APP，实现真正 Agent 化。相比云端方案，延迟更低且数据不离本地。适合处理敏感商务任务，如自动回复、行程 prep。硬件形态降低了 AI 使用门槛，让非技术人员也能享受自动化便利。这代表了 Edge AI 与 Agent 结合的新趋势，可能引发隐私计算硬件热潮。架构上分离了人机层，确保用户意图准确传达。",
-    "tags": [
-      "New",
-      "Hardware",
-      "Agent"
-    ],
-    "link": "https://plugos.net/plugclaw/",
-    "date": "2026-08-19",
-    "id": "17871142846752"
-  },
-  {
-    "title": "陶哲轩论文：探讨 AI 时代数学研究的目标与价值",
-    "summary": "陶哲轩发文探讨 AI 具备科研能力后数学社区应如何应对",
-    "detail": "数学家 Terence Tao 发布论文，探讨 AI 具备科研能力后数学社区如何应对。文章不纠结 AI 能力，而是聚焦数学研究的目标与价值。为科学界适应 AI 协作提供了重要哲学参考。指出问题解决仅是数学一部分，核心价值在于理解。建议社区调整教育方向，重视 AI 无法替代的创造性思维。此观点对 AI 科研助手开发有指导意义，应避免仅追求解题率。基于 2026 ICM 演讲。长远看，人机协作将重塑科学发现流程，人类角色转向定义问题与验证意义。该论文是科学界对 AI 冲击的深度反思，值得所有 AI 研究者阅读。",
-    "tags": [
-      "News",
-      "Research",
-      "Science"
-    ],
-    "link": "https://arxiv.org/abs/2608.16753",
-    "date": "2026-08-19",
-    "id": "17871142846753"
   }
 ]
