@@ -1,5 +1,31 @@
 [
   {
+    "title": "Archron 上线：为 AI Agent 写入 CRM 提供安全治理层",
+    "summary": "新工具 Archron 确保 AI 代理安全操作生产系统，防止未授权写入。",
+    "detail": "Product Hunt 热门新品 Archron 定位为 AI 执行基础设施。它在 AI 代理与 CRM/ERP 系统之间建立治理层，在执行前验证每个动作。功能包括零未授权写入、工作流保护及审计追踪。解决了企业信任 AI 操作生产数据的痛点，确保架构和权限完整。适合需要将 AI 集成到核心业务流但担心安全风险的开发者和企业。作为执行治理层，它允许 AI 安全更新生产系统，提供完整的可审计性。这意味着企业可以在不破坏现有工作流的前提下，实现 AI 自动化带来的投资回报，是 AI 代理落地企业级应用的关键基础设施补充。",
+    "tags": [
+      "New",
+      "Agent",
+      "Security"
+    ],
+    "link": "https://www.archron.app/",
+    "date": "2026-08-20",
+    "id": "17871978296592"
+  },
+  {
+    "title": "深度分析：AI 能写 SQL 后，数据库管理工具是否仍需存在？",
+    "summary": "探讨 AI 生成 SQL 能力下，传统数据库管理工具的核心价值与未来。",
+    "detail": "文章深入分析了 AI 生成 SQL 对数据库管理的影响。虽然 AI 能高效编写查询，但生产环境中的权限控制、敏感列访问、变更审批及审计追踪仍是难点。AI 降低了操作成本，但未降低错误操作的风险成本。结论是数据库客户端不会消失，而是演变为包含 AI 的治理工具。开发者需关注安全边界而非仅关注代码生成效率。信任边界问题凸显，直接赋予 AI 数据库访问权需谨慎。未来工具将更注重操作审计与风险控制，而非单纯的查询生成，保障生产环境的稳定性与安全性。",
+    "tags": [
+      "Dev",
+      "Database",
+      "SQL"
+    ],
+    "link": "http://johnli.work/posts/do-we-still-need-database-management-tools-when-ai-can-write-sql/",
+    "date": "2026-08-20",
+    "id": "17871978296593"
+  },
+  {
     "title": "代理 AI 引发 CPU 性能瓶颈，硬件格局迎来新转折",
     "summary": "IEEE 报道代理 AI 导致 CPU 成为新瓶颈，CPU 重要性回升。",
     "detail": "IEEE Spectrum 最新分析指出，随着 Agentic AI 应用的爆发，传统由 GPU 主导的算力格局正在发生变化。由于代理 AI 需要处理复杂的逻辑推理和任务调度，CPU 反而成为了新的性能瓶颈。这一趋势预示着数据中心硬件架构将面临重塑，CPU 技术革新将加速，可能改变芯片行业的竞争态势。对于 AI 基础设施开发者而言，关注 CPU 性能优化及异构计算架构将成为接下来的关键方向，以应对代理 AI 带来的新挑战。此外，这也意味着成本结构可能变化，企业需重新评估硬件采购策略。",
@@ -76,6 +102,32 @@
     "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
     "date": "2026-08-20",
     "id": "17871884832401"
+  },
+  {
+    "title": "OpenAI 推出零数据保留策略，增强企业 API 安全性",
+    "summary": "OpenAI 为 API 客户提供零数据保留选项，不再存储提示词或响应。",
+    "detail": "OpenAI 宣布为符合条件的 API 客户提供零数据保留（ZDR）服务。承诺不保留提示词或模型响应，且企业数据除非明确同意否则不用于训练。为解决长任务安全风险，推出私有安全处理机制，在不暴露内容的前提下识别跨交互风险。客户内容可保留在客户控制的基础设施上，或使用客户密钥加密。此举显著降低了企业使用前沿模型的数据泄露顾虑，推动 AI 在敏感场景的落地，标志着企业级 AI 安全标准的提升。对于金融、医疗等高合规行业，这将消除关键采用障碍，加速 AI 代理在生产环境中的部署与应用。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Privacy"
+    ],
+    "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+    "date": "2026-08-19",
+    "id": "17871978296590"
+  },
+  {
+    "title": "日本拟新规：要求 AI 公司披露训练数据来源",
+    "summary": "日本政府计划强制 AI 企业公开训练数据细节，加强监管透明度。",
+    "detail": "据《日本时报》报道，日本政府计划实施新规，要求 AI 公司披露其模型的训练数据详情。这一政策旨在提高 AI 开发的透明度，解决版权和隐私争议。随着全球 AI 监管趋严，日本此举可能引发连锁反应，迫使企业重新审视数据合规策略。对于依赖公开数据训练模型的公司而言，合规成本将显著上升，行业洗牌加速。这可能影响日本本土 AI 创新速度，但也为建立可信 AI 生态奠定基础。企业需提前准备数据溯源方案，以应对即将到来的合规审查浪潮，确保业务连续性。",
+    "tags": [
+      "News",
+      "Policy",
+      "Japan"
+    ],
+    "link": "https://www.japantimes.co.jp/news/2026/08/19/japan/ai-training-data-disclosure/",
+    "date": "2026-08-19",
+    "id": "17871978296591"
   },
   {
     "title": "AI 驱动的网络攻击升级，自适应威胁成防御难点",
@@ -1246,57 +1298,5 @@
     "link": "https://github.com/VC067/MoveChat",
     "date": "2026-08-19",
     "id": "17871286554135"
-  },
-  {
-    "title": "Block 开源 AI 代理桌面工具 Berd",
-    "summary": "Block 开源 Berd 应用，统一 AI 代理工作环境，赋予代理角色化设计。",
-    "detail": "Block 公司宣布开源其内部使用的桌面应用 Berd，旨在解决 AI 代理工作流碎片化问题。该工具提供一致的环境来管理不同模型、技能和工具，核心创新在于通过视觉身份和角色设计，使抽象的 AI 代理更易于理解和交互。Berd 不替代现有模型，而是提供一致的环境。这对于企业级 AI 部署具有参考意义，展示了如何通过设计降低技术门槛，促进团队协作，让非技术人员也能更好地利用 AI 代理能力。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "AI Agents"
-    ],
-    "link": "https://block.xyz/inside/designing-ai-with-character-what-we-learned-building-berd",
-    "date": "2026-08-19",
-    "id": "17871218263840"
-  },
-  {
-    "title": "EGA V9 自主 AI 工作流治理框架",
-    "summary": "GitHub 发布 EGA V9 框架，实现自主 AI 工作流的确定性运行时治理与验证。",
-    "detail": "EGA V9 是一个针对自主 AI 工作流的执行治理框架，支持确定性回放、来源感知验证和故障封闭 containment。它兼容 LangChain、OpenAI Agents SDK 等主流框架，旨在解决代理工具调用无法验证、状态腐败难以诊断等安全问题。该技术为 AI 代理的工业化应用提供了必要的安全底层设施，强调可审计性和信任状态评估，确保工作流失败时可复现且易于诊断，提升系统可靠性。",
-    "tags": [
-      "Dev",
-      "Safety",
-      "Governance"
-    ],
-    "link": "https://github.com/paibyun9/EGA-V9",
-    "date": "2026-08-19",
-    "id": "17871218263841"
-  },
-  {
-    "title": "经济学人探讨 AI 对儿童学习的影响",
-    "summary": "《经济学人》发文分析 AI 技术是否阻碍儿童学习，引发教育界关注。",
-    "detail": "《经济学人》发布图表详析，深入探讨 AI 工具在儿童教育中的双刃剑效应。文章分析了 AI 辅助学习可能导致的依赖性风险，以及其对传统学习模式的冲击。作为权威媒体，该报道反映了主流社会对 AI 教育应用的审慎态度，提示行业需关注技术伦理及长期认知影响，平衡效率与基础能力培养，引发家长和教育者对 AI 介入学习过程的深度思考。",
-    "tags": [
-      "News",
-      "Education",
-      "Ethics"
-    ],
-    "link": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
-    "date": "2026-08-19",
-    "id": "17871218263842"
-  },
-  {
-    "title": "AI 时代技术写人的生存现状与挑战",
-    "summary": "资深技术作家分享 AI 时代职业体验，强调学习技能否则将被淘汰。",
-    "detail": "资深技术作家 Elizabeth Tai 撰文分享在 AI 时代的职业感受，既兴奋于生产力提升，又疲惫于学习压力。文章指出专业作家无法忽视 AI，必须战略性学习新技能以避免被淘汰。这反映了 AI 对内容创作岗位的深刻影响，提示从业者需从单纯写作转向 AI 协作与策略管理，适应快速变化的技术环境，通过创建个人项目等方式快速掌握新工具。",
-    "tags": [
-      "News",
-      "Career",
-      "LLM"
-    ],
-    "link": "https://elizabethtai.com/2026/08/19/life-as-a-techwriter-in-the-ai-age/",
-    "date": "2026-08-19",
-    "id": "17871218263843"
   }
 ]
