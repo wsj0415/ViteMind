@@ -1,5 +1,18 @@
 [
   {
+    "title": "利用 AI 构建面试教练系统",
+    "summary": "Lenny 社区研究如何将 AI 融入面试流程，提供实用指南。",
+    "detail": "Lenny's Newsletter 发布最新深度研究，揭示求职者如何利用 AI 构建互联系统应对面试全流程。研究基于 30 多位参与者真实经验，并将成功技巧 encoded 成 Claude Code 教练供用户直接使用。涵盖面试准备、模拟及反馈环节，帮助求职者高效利用 AI 工具提升竞争力，而非简单依赖生成式回答。该报告指出最佳候选人已建立系统化 AI 工作流，标志着 AI 应用从单点工具向系统整合转变。对于希望优化招聘流程或个人求职的用户，提供了系统性 AI 应用方案，展示 AI 代理在实际工作流中的潜力与边界，强调人机协作而非替代，为职业发展规划提供新视角。",
+    "tags": [
+      "Dev",
+      "AI Tools",
+      "Career"
+    ],
+    "link": "https://www.lennysnewsletter.com/p/how-to-use-ai-in-your-next-job-interview",
+    "date": "2026-08-20",
+    "id": "17872006784580"
+  },
+  {
     "title": "Archron 上线：为 AI Agent 写入 CRM 提供安全治理层",
     "summary": "新工具 Archron 确保 AI 代理安全操作生产系统，防止未授权写入。",
     "detail": "Product Hunt 热门新品 Archron 定位为 AI 执行基础设施。它在 AI 代理与 CRM/ERP 系统之间建立治理层，在执行前验证每个动作。功能包括零未授权写入、工作流保护及审计追踪。解决了企业信任 AI 操作生产数据的痛点，确保架构和权限完整。适合需要将 AI 集成到核心业务流但担心安全风险的开发者和企业。作为执行治理层，它允许 AI 安全更新生产系统，提供完整的可审计性。这意味着企业可以在不破坏现有工作流的前提下，实现 AI 自动化带来的投资回报，是 AI 代理落地企业级应用的关键基础设施补充。",
@@ -102,6 +115,45 @@
     "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
     "date": "2026-08-20",
     "id": "17871884832401"
+  },
+  {
+    "title": "初创企业助力华尔街定价 AI 算力",
+    "summary": "TechCrunch 报道新创公司帮助华尔街为 AI 算力定价。",
+    "detail": "TechCrunch 视频报道了一家初创公司，旨在帮助华尔街为 AI 算力建立标准化定价模型。随着 AI 基础设施需求激增，算力成本评估成为投资决策关键。该公司提供工具量化 compute 价值，反映 AI 基建金融化趋势，为投资者提供更透明的资产评估标准，影响未来 AI 硬件投资流向。此动态显示 AI 算力正成为可交易金融资产，市场亟需标准化定价机制以解决估值模糊问题，可能催生新的衍生品市场。随着大模型训练成本攀升，准确评估算力 ROI 成为行业刚需，该初创方案若被采纳，将重塑 AI 基础设施投资逻辑，促进资本更有效流向高效能计算中心。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Finance"
+    ],
+    "link": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
+    "date": "2026-08-19",
+    "id": "17872006784581"
+  },
+  {
+    "title": "LiquidAI 发布 LFM2.5 量化感知蒸馏模型",
+    "summary": "Hugging Face 发布 LFM2.5 Q4_0 检查点，恢复 97% 精度。",
+    "detail": "LiquidAI 在 Hugging Face 正式释放 LFM2.5 系列模型的 Q4_0 GGUF 检查点。采用前沿量化感知蒸馏 (QAD) 技术，将高精度教师模型蒸馏至量化学生模型。在保持 Q4_0 低内存占用和高吞吐优势的同时，恢复了 97% 因量化损失的 BF16 精度。开发者可直接部署于边缘硬件，显著降低 LLM 推理成本。此举解决了量化导致性能下降的痛点，推动小模型在端侧设备的高效落地应用，为资源受限环境提供高性能推理方案。对于需要在本地部署大模型的开发者，该技术路线提供了兼顾性能与效率的最佳实践，降低硬件门槛，加速 AI 应用在物联网及移动端的普及进程。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Quantization"
+    ],
+    "link": "https://huggingface.co/blog/LiquidAI/qad",
+    "date": "2026-08-19",
+    "id": "17872006784582"
+  },
+  {
+    "title": "Vivodyne 称 AI 治愈癌症需解决数据问题",
+    "summary": "生物科技公司 Vivodyne 指出 AI 制药面临数据瓶颈。",
+    "detail": "生物科技公司 Vivodyne 指出当前 AI 制药行业缺乏因果生物数据，导致模型无法真正治愈癌症。其 HIVE 机器人实验室可培养 20 种人体组织并自主监测，生成 AI 模型急需的活体组织数据。CEO 批评当前 AI  curing cancer 言论过于乐观，强调需真实人体测试数据。此举可能推动 AI 制药从动物实验向更精准的人体组织模拟转型。行业需正视数据质量瓶颈，而非盲目夸大 AI 疗效，务实推进生物技术与 AI 融合，解决数据匮乏核心问题。尽管 AlphaFold 等模型取得进展，但缺乏活体数据仍制约药物研发，Vivodyne 的硬件方案填补了这一空白，为 AI 制药提供更可靠的验证环境，加速新药上市进程。",
+    "tags": [
+      "News",
+      "Biotech",
+      "Healthcare"
+    ],
+    "link": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
+    "date": "2026-08-19",
+    "id": "17872006784583"
   },
   {
     "title": "OpenAI 推出零数据保留策略，增强企业 API 安全性",
@@ -1246,57 +1298,5 @@
     "link": "https://github.com/Kyeom1997/pr-sage",
     "date": "2026-08-19",
     "id": "17871286554131"
-  },
-  {
-    "title": "Veyra：支持自我演化的本地 AI Agent 框架",
-    "summary": " minimal 本地 AI Agent 起点，支持通过对话自我修改架构与版本迭代。",
-    "detail": "Veyra 是一个极简的自演化本地 AI Agent 开源项目。用户可通过自然语言对话指导 Agent 改进自身架构，如优化记忆系统或更换模型提供商。Agent 能检查当前实现，构建后继版本并移交控制权，实现从 V0 到 V1、V2 的自动迭代。项目设计包含监督机制以防错误版本失控，支持 Telegram 交互及本地状态保存。该工具为研究 AI 自我改进及自主代理架构提供了可执行的代码基准与实验环境。",
-    "tags": [
-      "New",
-      "AI Agent",
-      "Self-Evolving"
-    ],
-    "link": "https://github.com/iondodon/veyra",
-    "date": "2026-08-19",
-    "id": "17871286554132"
-  },
-  {
-    "title": "Superprez：将 AI 生成演示文稿转化为交互式 Web 应用",
-    "summary": "协作平台支持将 AI 生成的 Deck 转为 HTML Web 应用，含实时数据图表。",
-    "detail": "Superprez 是一个专注于 AI 生成演示文稿的分享与协作平台。它突破传统 PPT 格式，允许用户将 AI 生成的内容转化为交互式 Web 应用或 HTML 页面。支持嵌入实时 KPI 图表、投票及代码 playground，适用于创始人路演及教师培训。用户可继续使用 Cursor、Claude 等熟悉工具构建内容，后台由 Superprez 处理基础设施。提供私有链接分享、访问分析及 GitHub 集成，实现了演示文稿从静态文档到动态应用的转变。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Presentation"
-    ],
-    "link": "https://www.superprez.io",
-    "date": "2026-08-19",
-    "id": "17871286554133"
-  },
-  {
-    "title": "AI 革命经济学分析：早期 disruption 与长期收益",
-    "summary": "文章分析 AI 经济影响，指出早期 disruption  precedes 长期收益的历史规律。",
-    "detail": "本文从经济学视角探讨 AI 革命，类比历史上机械化与电气化转型。文章指出六大技术发展均呈现一致模式：早期 disruption 先于长期收益，转型初期往往伴随显著成本与岗位 displacement。作者通过 AI 委员会筛选出重塑经济社会的关键发展，探讨谁从中获益及谁承担成本。内容强调在关注技术 sentient 之外，需重视其社会政治 currents 及分配效应，为理解 AI 宏观经济影响提供历史参照框架。",
-    "tags": [
-      "News",
-      "Economics",
-      "Analysis"
-    ],
-    "link": "https://www.alanbonnici.com/2026/07/the-ai-revolution-history-repeating_01939218328.html",
-    "date": "2026-08-19",
-    "id": "17871286554134"
-  },
-  {
-    "title": "MoveChat：跨平台无缝迁移 AI 对话上下文扩展",
-    "summary": "开源浏览器扩展，支持在不同 AI 平台间转移对话而不丢失上下文。",
-    "detail": "MoveChat 是一款开源浏览器扩展，旨在解决 AI 对话上下文迁移难题。支持 Chrome 与 Firefox，允许用户 seamless transfer、export 及 resume 跨平台对话。通过保留完整上下文，用户可在不同模型提供商间切换而不丢失历史交互信息。项目采用 MIT 许可，Manifest V3 标准，适合需要在多个 AI 服务间协作或备份对话记录的高级用户，提升了 AI 工作流的连续性与数据主权。",
-    "tags": [
-      "Dev",
-      "Tool",
-      "Browser Extension"
-    ],
-    "link": "https://github.com/VC067/MoveChat",
-    "date": "2026-08-19",
-    "id": "17871286554135"
   }
 ]
