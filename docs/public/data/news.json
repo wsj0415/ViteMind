@@ -1,5 +1,31 @@
 [
   {
+    "title": "卫报评论：AI 时代人类不安全感从身体转向思维",
+    "summary": "卫报文章探讨 AI 如何改变人类不安全感的来源，从身体缺陷延伸至思维领域。",
+    "detail": "该评论文章探讨了技术演进对人类心理的深层影响。标题指出，以往人类的不安全感多源于身体缺陷，而 AI 时代的到来将这种焦虑延伸至思维层面。这意味着随着 AI 介入认知领域，人类开始担忧智力被替代。尽管原文详细内容在提供的片段中有限，但该主题揭示了 AI 发展的社会心理成本。对于行业而言，这提示我们在追求模型性能的同时，必须重视 AI 伦理与用户心理健康，避免技术异化带来的负面影响。构建更具人文关怀的技术生态将成为未来 AI 产品差异化竞争的关键点，开发者需关注技术背后的社会情绪。",
+    "tags": [
+      "News",
+      "AI Ethics",
+      "Social Impact"
+    ],
+    "link": "https://www.theguardian.com/commentisfree/2026/aug/20/bodies-ai-minds-history-technology-humans",
+    "date": "2026-08-20",
+    "id": "17872116995050"
+  },
+  {
+    "title": "Doover：为 AI Agent shell 命令提供撤销功能",
+    "summary": "开源工具 Doover 允许撤销 AI 代理的破坏性 shell 命令，保障开发安全。",
+    "detail": "Doover 是一个专为 AI 代理设计的开源安全工具，旨在解决 Agent 执行 shell 命令时的风险。它能在 destructive bash 命令（如 rm -rf, git reset）运行前快照文件，并记录操作日志。核心功能是提供真实的 undo 能力，即使是对 git 未跟踪的文件或项目外文件也有效。这解决了 AI 编码代理误操作导致数据丢失的痛点。对于开发者而言，集成此类工具能显著提升 AI 工作流的安全性，降低自动化脚本的破坏性风险，是 AI Agent 部署中的重要基础设施补充。随着 Agent 自主性增强，此类安全层将成为标配，防止不可逆的系统损坏，增强用户对 AI 编程助手的信任度。",
+    "tags": [
+      "Dev",
+      "AI Agent",
+      "Open Source"
+    ],
+    "link": "https://github.com/CaydenChik/doover",
+    "date": "2026-08-20",
+    "id": "17872116995051"
+  },
+  {
     "title": "加密货币与 AI 行业中期选举 PAC 机器遇挫",
     "summary": "加密行业 PAC 在佛罗里达州初选失利，AI 行业亦受关注。",
     "detail": "加密行业 PAC Fairshake 在佛罗里达州初选遭遇罕见失利，尽管今年已赢得 53 场中的 49 场。新闻标题明确将 AI 行业与加密货币并列，暗示科技巨头正通过政治资金影响中期选举。Fairshake 背后有 a16z 及 Coinbase 支持，其策略变化反映了科技行业对政策环境的焦虑。这对未来 AI 监管政策走向具有风向标意义，行业需密切关注政治博弈对合规环境及创新空间的潜在影响。资金介入选举可能加速有利于科技巨头的立法进程，但也面临公众反弹风险。此次失利表明即便资金雄厚，也无法完全左右选情，科技行业需调整游说策略以应对复杂的政治生态。未来 AI 政策可能成为两党博弈焦点，企业需做好合规准备。",
@@ -1272,31 +1298,5 @@
     "link": "https://sophronresearch.org/pander/",
     "date": "2026-08-19",
     "id": "17871353747742"
-  },
-  {
-    "title": "特朗普 crypto 公司支持涉中国受限 AI venture",
-    "summary": "特朗普关联 crypto 公司支持提供受限中国公司 AI 技术的 venture。",
-    "detail": "路透社报道，与特朗普相关的 crypto 公司支持一家 venture，该 venture 提供来自受限中国公司的 AI 技术。这引发了地缘政治与技术合规的广泛关注。在全球 AI 竞争加剧背景下，此类商业行为可能触及美国对华技术出口管制红线，凸显 AI 供应链的复杂性与政治风险。新闻附带 Hacker News 讨论链接，显示社区对此高度关注。此事件可能影响未来跨境 AI 投资与合规策略，表明即使在高敏感领域，资本流动仍试图寻找突破口，监管挑战日益严峻。企业需密切关注相关政策变动，避免合规风险。",
-    "tags": [
-      "News",
-      "Geopolitics",
-      "AI Policy"
-    ],
-    "link": "https://www.reuters.com/world/china/trump-crypto-firm-backs-venture-offering-ai-restricted-chinese-companies-2026-08-17/",
-    "date": "2026-08-19",
-    "id": "17871321224420"
-  },
-  {
-    "title": "92 小时 AI 辅助构建多租户 SaaS 案例研究",
-    "summary": "工程团队展示 92 小时内利用 AI 辅助完成 SaaS 构建的全流程。",
-    "detail": "FAST & FLOW 发布技术案例，展示如何在 92 小时压缩周期内构建多租户 B2B SaaS。技术栈包括 TypeScript、Node.js 24、React 19、Supabase 及 PostgreSQL 17，采用原生 CSS 而非 Tailwind。关键指标包括 527 个自动化测试全部通过，p95 延迟 244.5ms，并发测试 100% 成功。该案例强调 AI 辅助工程效率，同时保持架构透明度与测试覆盖率，为开发者提供 AI 编程实战参考，证明 AI 可显著压缩工程周期，同时保证生产就绪标准，具有极高借鉴价值。开发者可参考其迁移策略与测试方法，优化自身工作流。",
-    "tags": [
-      "Dev",
-      "SaaS",
-      "Engineering"
-    ],
-    "link": "https://fast-and-flow-production.onrender.com/case-study",
-    "date": "2026-08-19",
-    "id": "17871321224421"
   }
 ]
