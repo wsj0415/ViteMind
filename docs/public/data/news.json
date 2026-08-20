@@ -1,5 +1,57 @@
 [
   {
+    "title": "币安推出 Agent OS，AI 代理可直接交易加密货币",
+    "summary": "币安发布 Agent OS 平台，允许 AI 代理分析市场并执行交易，用户掌握控制权。",
+    "detail": "币安正式推出 Agent OS 平台，旨在将自主 AI 代理直接引入真实资金管理的业务中，服务于全球超 3 亿注册用户。该平台允许开发者将 AI 应用连接至币安的金融基础设施，支持 Model Context Protocol (MCP) 及 OpenAI、Anthropic 等主流模型。值得注意的是，币安并未给予代理完全自由，而是将控制权交给用户，要求在账户级别设置细粒度访问控制，决定代理可访问的数据及交易限额。此举标志着 AI Agent 技术从单纯的问答交互向具备实际执行能力的重大转变，同时也引发了关于自主交易风险管控的行业讨论，为金融领域的 AI 自动化提供了新范式。",
+    "tags": [
+      "News",
+      "Agent",
+      "Crypto"
+    ],
+    "link": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
+    "date": "2026-08-20",
+    "id": "17872185102180"
+  },
+  {
+    "title": "JetBrains 调研：90% 开发者每周使用 AI 编码代理",
+    "summary": "2026 开发者生态调查显示，90% 专业开发者每周至少使用一次 AI 编码代理。",
+    "detail": "JetBrains 发布 2026 开发者生态调查报告，基于全球 1.5 万名专业开发者的第十次大规模研究。数据显示，AI 编码代理正在积极 carve out 一席之地，截至 2026 年 5 月至 7 月，90% 的专业开发者在工作中每周至少使用一次 AI 编码代理，其中 68% 每日使用。这一趋势表明 AI Agent 已不再是实验性工具，而是成为开发套件中的标准配置。报告还追踪了本地代理与远程云代理的使用动态，为理解开发者工具包演变及 AI 编程工具的市场渗透率提供了坚实的数据支撑，预示着 AI 辅助 coding 将成为行业常态。",
+    "tags": [
+      "News",
+      "Dev",
+      "Survey"
+    ],
+    "link": "https://blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026/",
+    "date": "2026-08-20",
+    "id": "17872185102181"
+  },
+  {
+    "title": "新浏览器标准提案：实现无密钥 AI 推理调用",
+    "summary": "提出浏览器标准 IPA，允许 Web 应用通过扩展调用 AI 推理，无需暴露 API 密钥。",
+    "detail": "GitHub 上提出了一项名为 Inference Provider API (IPA) 的浏览器标准草案，目前处于实验性阶段。该标准允许 Web 应用通过用户批准的浏览器扩展请求 AI 推理，无需直接在客户端代码中暴露或访问 API 密钥。参考实现包括 Inference Bridge 扩展，支持路由至 OpenAI、Anthropic、Ollama 等多种后端。这一方案有效解决了前端直接调用模型时的密钥泄露安全隐患，实现了 provider-agnostic 的 AI 推理调用。为构建更安全、灵活的 AI Web 应用提供了新的技术路径，降低了开发者集成多模型服务的复杂度。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Standard"
+    ],
+    "link": "https://github.com/SamSamskies/inference-provider-api",
+    "date": "2026-08-20",
+    "id": "17872185102182"
+  },
+  {
+    "title": "Redactor 推出 AI 写作工作流 UI 工具包",
+    "summary": "模型无关的编辑器 UI 工具包，支持构建自定义 AI 写作工作流。",
+    "detail": "Redactor 发布了专为构建 AI 写作工作流设计的编辑器 UI 工具包。该工具支持模型无关架构，允许开发者连接自有后端、提示词及模型，不增加按 token 计费。核心功能包括发送结构化文档上下文、支持同步或自定义传输，以及多种响应模式如审查卡片、直接应用更改或生成报告。集成过程 minimal，仅需少量初始化代码。该工具显著降低了在文档编辑器中集成 AI 功能的门槛，特别适合需要定制化内容生成、编辑审查流程及数据隐私控制的 SaaS 开发团队，提供了灵活的 UI 解决方案。",
+    "tags": [
+      "New",
+      "Dev",
+      "Writing"
+    ],
+    "link": "https://imperavi.com/redactor/ai-assistant/",
+    "date": "2026-08-20",
+    "id": "17872185102183"
+  },
+  {
     "title": "Daniel Miessler 发布 AI 影响力等级框架",
     "summary": "提出 0-5 级透明度标准，标识内容中 AI 参与程度。",
     "detail": "安全专家 Daniel Miessler 正式推出 AI Influence Level (AIL) v1.0 透明度框架，旨在解决生成式 AI 内容泛滥带来的来源识别难题。该标准将创意内容的 AI 参与程度分为 0 到 5 级，涵盖从完全人类创作到完全 AI 生成的全谱系。随着 AI 技术深入艺术与媒体领域，此框架有助于受众清晰识别内容来源，建立信任机制。它适用于文章、绘画及音乐等多种场景，对媒体、出版及艺术行业具有深远指导意义，推动行业建立更清晰的内容署名与版权规范，促进人机协作的健康发展。",
@@ -1246,57 +1298,5 @@
     "link": "https://corepilot-three.vercel.app",
     "date": "2026-08-19",
     "id": "17871436838133"
-  },
-  {
-    "title": "Anthropic 论文揭示多代理系统失败模式",
-    "summary": "Anthropic 论文揭示多代理系统失败模式，强调代理也需要管理。",
-    "detail": "最近 Anthropic 发布了一篇关于多代理失败模式的论文。实验中，多个 AI 代理同时在同一软件系统上工作，各自目标合理但产生冲突。文章强调 AI 代理也需要良好的管理，类似于人类团队。这揭示了多代理系统中的潜在风险，如目标冲突和资源竞争。对于构建复杂 agent 系统的开发者来说，理解这些失败模式并设计管理架构至关重要，是未来 agent orchestration 的关键研究方向。",
-    "tags": [
-      "News",
-      "Agent",
-      "Research"
-    ],
-    "link": "https://www.danstroot.com/posts/2026-08-17-ai-needs-good-management-too",
-    "date": "2026-08-19",
-    "id": "17871436838134"
-  },
-  {
-    "title": "Flock 推出新型 AI 警务工具引发隐私担忧",
-    "summary": "Flock 新 AI 系统可识别司机并追踪车辆，超越车牌识别。",
-    "detail": "Flock Safety 推出了名为 OS Investigate 的下一代 AI 系统，目前已供部分警方使用。WIRED 通过重建代码确认，该系统远超车牌追踪，能通过移动模式识别司机身份，关联案件文件、911 日志及商业身份记录，将车牌转化为姓名和地址。系统内置 69 个预设提示词，允许警官基于物理描述搜索区域人员。这标志着监控技术的重大升级，直接挑战了其此前“不识别个人”的承诺，引发了关于隐私权和算法监控的激烈争议与社会担忧。行业观察家认为，这可能重新定义执法中的技术边界与公民隐私权的平衡点。",
-    "tags": [
-      "News",
-      "AI Ethics",
-      "Surveillance"
-    ],
-    "link": "https://www.wired.com/story/flock-safety-os-investigate/",
-    "date": "2026-08-19",
-    "id": "17871388299410"
-  },
-  {
-    "title": "AI 生成应用常见的十大安全错误",
-    "summary": "开发者需警惕 AI 生成代码中的权限控制等安全隐患。",
-    "detail": "文章深入总结了 AI 生成应用中常见的 10 个安全错误，位居榜首的是\"OWASP 头号问题：破坏访问控制”。常见表现为用户未付费升级角色或访问非自有资源。修复方案强调服务器端必须验证每个请求的权限，绝不信任客户端，最好利用数据库策略如 Supabase 行级安全。随着 AI 编程普及，理解潜在安全风险比单纯依赖 AI 生成代码更为关键。开发者需在效率与安全间找到平衡，避免盲目信任 AI 产出，确保应用上线前的安全性。这对于快速迭代的初创团队尤为重要，能防止因安全漏洞导致的严重数据泄露事故。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Best Practices"
-    ],
-    "link": "https://daniel.reguero.dev/blogs/ten-common-security-mistakes-ai-generated-apps-make",
-    "date": "2026-08-19",
-    "id": "17871388299411"
-  },
-  {
-    "title": "中国银行推出基于 AI 算力消耗的贷款产品",
-    "summary": "广州分行首创算力代币贷款，评估依据为 AI Token 用量。",
-    "detail": "中国银行广州分行推出“算力代币贷款”，根据企业生产和消耗的 AI Token 数量、算力服务合同价值及结算佣金发放贷款。额度最高 3000 万元，期限三年。首批五家公司获批 2800 万元，主要用于支付算力费用。银行通过审查 Token 消耗声明及现场实时登录验证数据，未来希望与平台深化合作。这是首个围绕代币经济的信贷产品，旨在支持轻资产 AI 模型开发企业，验证了算力作为核心资产的新金融模式。此举可能推动更多金融机构探索基于数字资产信用的贷款方案，缓解 AI 初创企业融资难问题。",
-    "tags": [
-      "News",
-      "Finance",
-      "Infrastructure"
-    ],
-    "link": "https://www.globaltimes.cn/page/202608/1368315.shtml",
-    "date": "2026-08-19",
-    "id": "17871388299412"
   }
 ]
