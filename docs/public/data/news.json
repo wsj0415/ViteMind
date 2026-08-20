@@ -1,5 +1,109 @@
 [
   {
+    "title": "OpenAI 推出 AI Futures 战略团队",
+    "summary": "OpenAI 成立新团队研究 AI 与社会权力结构。",
+    "detail": "OpenAI 正式推出\"AI Futures\"博客及战略团队，核心议题是如何在变革性 AI 出现时重构自由社会以保护个人权利。团队关注权力集中风险，引用联邦党人文集，认为政治权力传统上依赖人类劳动与合作，但自主系统可能改变这一基础。历史上政治垄断依赖士兵与官僚，资金源于人类工资税收。若自主系统不再依赖人类支持，权力结构将剧变。此举标志着 OpenAI 从技术研发向社会战略层面的深度延伸，试图回答 AI 安全中最具概念挑战性的问题，探索自由社会在 AI 时代的存续方式。团队认为长期来看，权力集中风险是最大挑战。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Policy"
+    ],
+    "link": "https://openai.com/index/introducing-ai-futures/",
+    "date": "2026-08-20",
+    "id": "17872577744200"
+  },
+  {
+    "title": "Nature：90% 生物医学论文含 AI 痕迹",
+    "summary": "最新研究显示九成生物医学论文使用 AI 辅助。",
+    "detail": "Nature 报道指出，PubMed 归档的 12 月论文中，高达 90% 显示出 AI 辅助迹象。这一比例远超此前对大语言模型使用率的估计，表明 AI 已深度渗透科研写作流程。文章由 Kaia Glickman 撰写，引发学术界对 AI 依赖及学术诚信的广泛关注。生物医学领域作为前沿阵地，其高比例使用率暗示 AI 工具已成为研究人员的基础设施。未来期刊可能需要更严格的 AI 使用披露政策，以应对潜在的幻觉引用及数据真实性挑战，确保科学记录的可靠性。这一数据震惊学界，预示着科研范式正在发生不可逆的变革。学者担忧若不加以规范，可能导致学术泡沫及信任危机。期刊出版商需迅速调整政策，区分 AI 生成内容与人类创新贡献，维护科学严谨性。",
+    "tags": [
+      "News",
+      "Research",
+      "Biomedical"
+    ],
+    "link": "https://www.nature.com/articles/d41586-026-02551-z",
+    "date": "2026-08-20",
+    "id": "17872577744201"
+  },
+  {
+    "title": "系统提示词揭示 AI 代理化演进",
+    "summary": "Anthropic 系统提示词三年增长三倍。",
+    "detail": "分析显示 Anthropic 系统提示词从 2024 年 960 字增至 2026 年 3220 字。重点从模型限制转向代理协调、搜索、记忆及路由安全。提示词演变反映了模型从单纯响应向复杂代理任务执行的 Capability 转变，是观察 AI 交互模式进化的重要档案。2024 年指令集中于知识 stale 及幻觉，2026 年则协调多 agent 及文件创建。这种增长体现了工程团队为 bolster 模型适应性所投入的时间精力，当前指导更倾向于少激进指令，显示模型控制策略的成熟。这种演变不仅是字数增加，更是逻辑复杂度的提升。2026 年的提示词需处理多步代理任务，协调外部工具调用，而不仅是文本生成。这为开发者优化 Prompt 工程提供了重要参考，表明未来模型交互将更趋向于自主任务执行而非简单问答。",
+    "tags": [
+      "Dev",
+      "Prompt",
+      "Anthropic"
+    ],
+    "link": "https://salable.substack.com/p/system-prompts-are-an-archive-of",
+    "date": "2026-08-20",
+    "id": "17872577744202"
+  },
+  {
+    "title": "开源新协议 OAVL 要求 AI 代理贡献",
+    "summary": "新开源许可证强制 AI 代理回馈社区。",
+    "detail": "GitHub 发布 OAVL 许可证草案，允许商业使用，但条件是使用该软件的组织若规模化部署 AI 代理，每年需至少进行一次善意贡献。该协议针对现有开源许可证假设人类读者的局限，旨在解决 AI 时代开源项目维护注意力稀缺的问题。MIT 等协议要求归属，GPL 要求源码 reciprocity，但 Agent 不需要这些。OAVL 要求贡献 bug 报告或功能提案，确保人类维护者获得实际帮助。目前为 v0.1 草案，寻求社区反馈，尚未在生产中使用。该协议试图解决 AI 消耗开源资源却不回馈的问题。传统许可证无法约束自主代理，OAVL 通过强制贡献机制，确保商业规模化使用 AI 代理的组织反哺社区。这可能会成为未来 AI 时代开源许可证的重要演进方向，平衡商业利用与社区可持续发展。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "License"
+    ],
+    "link": "https://github.com/kenm47/oavl",
+    "date": "2026-08-20",
+    "id": "17872577744203"
+  },
+  {
+    "title": "AI 驱动开发需遵循测试驱动原则",
+    "summary": "专家建议 AI 开发应优先编写测试用例。",
+    "detail": "资深开发者提出，使用 AI 进行开发时必须从测试开始。要求 AI 先编写测试再实现功能，以此作为护栏防止模型偏离，确认功能缺失或修复情况。这种方法虽非严格 TDD，但能有效保持开发者聚焦问题核心，确保项目质量。前端开发者 Jens Oliver Meiert 指出，许多模型会事后添加测试，需显式要求先写测试。流程包括确认功能缺失、设置 guardrail、验证修复及保持问题中心。这是 AI 驱动开发中维护代码可靠性的关键实践。Meiert 强调，开发者需审查并运行测试，至少抽样检查。通过测试先行，可以防止 AI 实例偏离轨道，确保任何工作都导向功能开发或修复。这种流程保护项目免受 AI 幻觉影响，同时让开发者保持对问题定义的掌控，避免被模型带偏。",
+    "tags": [
+      "Dev",
+      "TDD",
+      "Coding"
+    ],
+    "link": "https://meiert.com/blog/ai-and-tdd/",
+    "date": "2026-08-20",
+    "id": "17872577744204"
+  },
+  {
+    "title": "资本界定 AI 原生服务新标准",
+    "summary": "Emergence Capital 发布 AI 原生服务指南。",
+    "detail": "Emergence Capital 定义 AI 原生服务（AINS）为利用 AI 交付完整结果而非软件工具的公司。投资标准包括拥有结果所有权、AI 嵌入交付流程、证明 measurable 优势及增加 AI 杠杆率。这标志着 VC 对 AI 商业模式从工具层向服务层的认知转变。客户购买的是 outcome 而非 tool。标准还包括赚取领域信任及选择复合工作流。该指南基于多年 thesis 及投资组合经验，为早期创始人提供明确的方向，强调 AI 应内建于运营模型而非薄层功能。创始人需证明服务比传统提供商更快、更便宜或质量更高。毛利率或人均收入等指标需显示 AI 承担越来越多工作。这一分类有助于投资者识别真正的 AI 创新企业，区分 merely 使用 API 的工具公司与重塑服务交付流程的 native 公司。",
+    "tags": [
+      "News",
+      "Investment",
+      "Business"
+    ],
+    "link": "https://www.emcap.com/ai-native-services",
+    "date": "2026-08-20",
+    "id": "17872577744205"
+  },
+  {
+    "title": "千万域名 Why.com 转型 AI 引擎",
+    "summary": "高价域名 Why.com 变为 AI 聊天机器人。",
+    "detail": "持有 27 年价值 1.7 万美元的域名 Why.com 转型为 AI 好奇心引擎。尽管估值可能高达 7000 万美元，但所有者选择将其打造为 AI 聊天 bot。这一案例展示了顶级域名在 AI 时代的应用新方向，引发市场对域名价值重估的讨论。Inc. 报道指出人们询问“为什么”，该域名成为探索 AI 好奇心的载体。这种转型避免了传统商业开发，转而利用域名的语义价值与 AI 交互特性结合，成为独特的品牌资产。Inc. 报道指出该域名持有 27 年，最初价值 1.7 万美元。转型后成为 AI curiosity engine，用户询问“为什么”。这种用法挖掘了域名本身的语义潜力，而非仅仅作为流量入口。在 AI 交互时代，语义化域名可能比传统商业域名更具价值，引发投资者对数字资产新用途的思考。",
+    "tags": [
+      "News",
+      "Domain",
+      "Chatbot"
+    ],
+    "link": "https://www.inc.com/sam-blum/the-17000-domain-that-could-be-worth-70-million-just-became-an-ai-chatbot-instead-people-are-asking-why/91393038",
+    "date": "2026-08-20",
+    "id": "17872577744206"
+  },
+  {
+    "title": "WooblaDub 推出 AI 影视配音工作台",
+    "summary": "新工具实现 AI 配音保留原背景音。",
+    "detail": "WooblaDub 发布专业配音工作区，特点是锁定画面且不重渲染，保留原始音乐、效果及环境音。它并非一键翻译，而是允许用户选角、指导读音的工作流。目前处于评估阶段，旨在为影视制作提供保留原声氛围的 AI 对话重建方案。用户可连接授权声音库，负责改编、选角及审批。机器完成劳动，判断留给人。这与 instant video translator 不同，强调人类导演在 AI 辅助下的核心作用，确保艺术完整性。产品强调 Picture locked，Sound in progress。用户可调整台词对抗画面，机器完成劳动，判断留给人。目前与 launch partners 评估中，尚无语言路线通过 locked-media 审查。这解决了传统 AI 配音破坏原片氛围的痛点，为影视本地化提供了更专业的解决方案，保留了原始录音的情感与环境细节。",
+    "tags": [
+      "New",
+      "Video",
+      "Dubbing"
+    ],
+    "link": "https://woobladub.com/",
+    "date": "2026-08-20",
+    "id": "17872577744207"
+  },
+  {
     "title": "Google 推出“首选来源”功能助力出版商对抗 AI 流量流失",
     "summary": "Google 允许出版商嵌入按钮，让用户标记首选来源，提升搜索和 AI 概述中的曝光。",
     "detail": "Google 针对 AI 概述导致出版商流量下降的问题，推出交互式“首选来源”按钮。出版商可将其嵌入网站，用户在搜索或 interact 时可标记信任源。数据显示，用户点击首选来源的可能性高出两倍。此举旨在缓解 AI 搜索对依赖流量业务的冲击，此前已有 34.5 万个来源被标记。该功能此前已在 AI Mode 和 Top Stories 中 rollout，现在扩展至 publisher 网站嵌入，试图在 AI 主导的搜索生态中平衡平台与内容创作者的利益，为出版商提供新的流量抓手。",
@@ -1194,109 +1298,5 @@
     "link": "https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/",
     "date": "2026-08-19",
     "id": "17871713199102"
-  },
-  {
-    "title": "行业调查：何为\"AI 写作”尚无共识",
-    "summary": "Book Riot 调查显示，人们对 AI 辅助写作定义分歧巨大。",
-    "detail": "出版界对 AI 写作争议不断，Book Riot 调查显示读者对“何为 AI 作品”缺乏共识。多数人接受 AI 拼写检查，但对 AI 参与研究或生成句子的接受度不一。这反映了当前内容行业在 AI 伦理和署名权上的模糊地带，影响未来出版标准制定。随着 AI 工具渗透写作全流程，界定人类创作与 AI 生成的边界变得愈发困难。该调查结果为出版社和平台制定 AI 披露政策提供了用户视角参考，提示行业需建立更清晰的 AI 使用规范，以维护读者信任和内容市场的健康发展。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Writing"
-    ],
-    "link": "https://bookriot.com/what-counts-as-ai-survey-results/",
-    "date": "2026-08-19",
-    "id": "17871713199103"
-  },
-  {
-    "title": "开发者演示 AI Agent 编写 ESP32 固件",
-    "summary": "nff-core 项目展示 Agent 迭代硬件代码，基于 Rust。",
-    "detail": "开源项目 nff-core 展示了 AI 编码代理如何迭代硬件固件。开发者故意让 Agent 操作廉价 ESP32 硬件，验证 AI 在底层嵌入式开发中的能力。项目基于 Rust 构建，提供 CLI 和 MCP 工具，旨在探索 AI 代理在硬件编程中的可靠性与边界。通过让 AI 直接面对硬件错误（如砖机），测试其调试与恢复能力。这为 AI 介入物联网开发提供了新范式，表明 Agent 不仅能写软件代码，还能处理硬件交互逻辑，推动 AI 在嵌入式系统中的应用落地。",
-    "tags": [
-      "Dev",
-      "Hardware",
-      "Rust"
-    ],
-    "link": "https://github.com/GLechevalier/nff-core",
-    "date": "2026-08-19",
-    "id": "17871713199104"
-  },
-  {
-    "title": "利用 AI 实现可复现的大规模代码变更",
-    "summary": "提出结合 AI 探索与确定性元编程的 LSC 新方案。",
-    "detail": "文章探讨了利用 AI 代理进行大规模代码变更（LSC）的挑战。针对 AI 非确定性导致的不自信和高成本，提出新方案：AI 探索问题空间后，生成确定性元程序来执行变更。该方法在 Google 和 Netflix 实践中验证，兼顾了 AI 的灵活性与传统代码的可审计性。通过分离探索与执行阶段，解决了 AI 直接修改代码的风险。这种混合模式为大型企业代码库维护提供了新思路，确保 AI 驱动变更的可复现性与安全性，降低工程团队采用 AI 进行基础设施升级的心理门槛。",
-    "tags": [
-      "Dev",
-      "Engineering",
-      "Agent"
-    ],
-    "link": "https://jeanbza.github.io/ai/infrastructure/2026/08/08/ai-det-stoch.html",
-    "date": "2026-08-19",
-    "id": "17871713199105"
-  },
-  {
-    "title": "Expedia 因 AI 效率提升裁撤 8 名高管重构团队",
-    "summary": "因 AI 使数周工作缩短至数小时，Expedia 裁撤 8 名高管重组产品技术团队。",
-    "detail": "在线旅游巨头 Expedia Group 宣布重大重组，至少 8 名副总裁及高级副总裁离职。内部备忘录指出，AI 技术使原本数周的工作缩短至数小时，迫使公司根本性地改变工作方式与组织架构。产品与技术团队将转向围绕 AI 的小型端到端小队，标志着传统互联网大厂开始因 AI 效率提升而实质性削减中层管理岗位。此次重组旨在让工程和产品团队更贴近品牌业务，提升决策速度。行业观察认为，这是 AI 导致企业组织结构扁平化的典型案例，可能引发旅游业乃至科技界后续跟随效应，对职场生态产生深远影响。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Workforce"
-    ],
-    "link": "https://www.geekwire.com/2026/internal-memo-eight-execs-out-at-expedia-group-in-ai-driven-shakeup/",
-    "date": "2026-08-19",
-    "id": "17871675945510"
-  },
-  {
-    "title": "Google 搜索与 Gemini 推出全新 AI 学习工具",
-    "summary": "Google 发布交互式视觉、3D 模拟及定制测验功能赋能学生，加强与教育初创竞争。",
-    "detail": "Google 正式在 Search 和 Gemini 中推出系列 AI 学习工具，旨在成为学生首选助手。新功能包括 AI 生成的交互式视觉图表、3D 模拟及定制练习测验。例如搜索 pH 值可生成交互视图，亦可生成 SAT 词汇测验。此举意在加强与 OpenAI 及 Knowt 等教育初创公司的竞争，深化 AI 在教育场景的落地应用。未来几周 Lens 还将推出交互学习体验。通过整合搜索与生成式 AI，Google 试图构建闭环学习生态，提升搜索产品的用户粘性与商业化潜力，同时应对垂直教育 AI 产品的挑战。",
-    "tags": [
-      "News",
-      "Education",
-      "Product"
-    ],
-    "link": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
-    "date": "2026-08-19",
-    "id": "17871675945511"
-  },
-  {
-    "title": "OpenAI 误撤网络安全研究人员访问权限",
-    "summary": "多名研究人员反馈 TAC 计划访问被 revoke，OpenAI 确认系技术错误导致。",
-    "detail": "多名安全研究人员反馈 OpenAI 突然撤销了其“网络安全可信访问”(TAC) 计划权限。OpenAI 确认系技术错误导致。该计划允许受信任研究人员使用限制较少的模型进行漏洞挖掘，旨在更快修复 flaws。此次事故暴露了 AI 公司在开放安全研究与风险控制之间的平衡难题。Anthropic 亦有类似计划。虽已确认修复，但引发了社区对访问稳定性及审核机制透明度的关注。对于依赖该计划进行安全防御的研究者而言，平台政策的波动直接影响工作效率，凸显了中心化 AI 平台在生态建设中的风险。",
-    "tags": [
-      "News",
-      "Security",
-      "Policy"
-    ],
-    "link": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
-    "date": "2026-08-19",
-    "id": "17871675945512"
-  },
-  {
-    "title": "调查显示公众对 AI 担忧情绪显著加剧",
-    "summary": "Pew 研究称 52% 美国人更担忧 AI 而非兴奋，政治阻力与信任危机显现。",
-    "detail": "尽管技术进步，公众对 AI 的担忧情绪显著上升。Pew 研究中心显示 52% 美国人更担忧而非兴奋，2021 年仅为 37%。政治层面亦出现阻力，共和党参议院委员会警告数据中心影响选举。CNBC poll 显示年轻人不信任 AI 领袖，70% 民众认为发展过快。这表明 AI 行业面临严峻的舆论与监管挑战，需重视社会接受度。负面情绪可能转化为政策限制，影响数据中心建设及模型部署。行业领袖需解决信任危机，否则技术普及将受阻，这对依赖大规模算力与公众数据的 AI 产业构成了潜在的系统性风险。",
-    "tags": [
-      "News",
-      "Society",
-      "Trend"
-    ],
-    "link": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
-    "date": "2026-08-19",
-    "id": "17871675945513"
-  },
-  {
-    "title": "Notula 推出 AI 代理协作 Markdown 编辑器",
-    "summary": "专为 Git 仓库设计的 WYSIWYG 编辑器，支持 AI 代理读写，免费无需服务器。",
-    "detail": "新品 Notula 是一款专为 Git 仓库设计的 WYSIWYG Markdown 编辑器。它允许非技术人员像使用 Google Docs 一样协作编辑仓库内的文档，支持评论、线程及树状浏览，且文件永不离开仓库。AI 代理可原生读写.md 文件，解决了文档即代码流程中非工程师协作难的问题。免费且无需服务器，适合注重数据隐私的开发团队。它填补了 Google Docs 与代码编辑器之间的空白，让 PRD、RFC 等文档留在 repo 中，同时保留易用性，是 AI Agent 时代文档协作基础设施的重要补充。",
-    "tags": [
-      "New",
-      "Dev",
-      "Tool"
-    ],
-    "link": "https://notula.org/",
-    "date": "2026-08-19",
-    "id": "17871675945514"
   }
 ]
