@@ -1,5 +1,44 @@
 [
   {
+    "title": "Meta 正式向美国用户推出 AI 游戏创作应用 Pocket",
+    "summary": "Meta 推出 Pocket 应用，用户可通过提示语生成游戏。",
+    "detail": "Meta 将其实验性“氛围编码”（vibe-coding）游戏应用 Pocket 正式推广至美国市场。该应用允许用户通过 AI 提示语生成交互式小游戏（gizmos），支持触摸、陀螺仪及音乐互动。此举源于 Meta 今年早些时候对 Gizmo 团队的收购，旨在将 AI 创作工具主流化。用户可分享、remix 创作，体现了 Meta 在移动端 AI 生成内容领域的最新布局，降低了游戏开发门槛。",
+    "tags": [
+      "New",
+      "Meta",
+      "Game Dev"
+    ],
+    "link": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
+    "date": "2026-08-20",
+    "id": "17872437948581"
+  },
+  {
+    "title": "实战教程：如何利用 AI 构建 Java 到 C# 源码转换器",
+    "summary": "开发者分享利用 AI 辅助构建代码转换工具的经验。",
+    "detail": "文章探讨了利用 AI 进行代码迁移的最佳实践。作者并未单纯依赖 LLM 直接转换代码，而是利用 AI 辅助构建基于语法树的规则转换器。这种方法相比纯 LLM 转换具有确定性、可验证性及更低 Token 成本的优势。项目使用 Clojure 实现，展示了如何将 AI 作为辅助工具而非完全替代者，为开发者处理遗留代码迁移提供了可复用的技术路径和工程化思路。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "LLM"
+    ],
+    "link": "https://www.isaksky.com/posts/dripsharp-java-to-csharp-source-converter/",
+    "date": "2026-08-20",
+    "id": "17872437948582"
+  },
+  {
+    "title": "CritPath AI 推出研发项目进度风险管理与 CCPM 软件",
+    "summary": "专为研发设计的 AI 进度管理平台，按月订阅。",
+    "detail": "CritPath AI 发布专为生物技术及深科技研发项目设计的进度风险管理平台。核心功能包括基于关键路径法的自动重排计划、蒙特卡洛风险分析及 AI 员工助手（估算师、风险分析师）。产品采用 $10/用户/月的定价模式，无信用额度限制。该工具旨在解决研发项目中不确定性高的问题，通过 AI 自动调整日程以减少人为管理成本，适合联邦资助项目及初创公司 CTO 使用。",
+    "tags": [
+      "New",
+      "Project Management",
+      "SaaS"
+    ],
+    "link": "https://www.criticalschedule.com/",
+    "date": "2026-08-20",
+    "id": "17872437948583"
+  },
+  {
     "title": "金融时报：AI 失控风险被低估，系统性问题更严峻",
     "summary": "金融时报刊文称 AI 风险并非失控，而是系统性问题更严重。",
     "detail": "金融时报发表深度评论，指出业界对 AI“失控”的恐惧可能掩盖了更现实的风险。文章认为真正的威胁并非 AI 产生自主意识，而是其嵌入金融与社会系统后引发的系统性不稳定。例如自动化决策导致的市场波动、隐私数据的规模化滥用以及责任归属的模糊。这一观点挑战了主流的 AI 安全叙事，建议监管者将重心从防止\"rogue AI\"转向治理算法偏见与透明度。对于投资者和企业，这意味着需重新评估 AI 部署的合规成本与长期社会影响，而非仅关注技术边界。该分析为 2026 年的 AI 治理提供了重要的风向标。",
@@ -570,6 +609,19 @@
     "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
     "date": "2026-08-20",
     "id": "17871884832401"
+  },
+  {
+    "title": "哈佛研究：AI 正在削弱领导者的判断力及应对策略",
+    "summary": "新研究发现过度依赖 AI 建议会降低人类决策质量。",
+    "detail": "哈佛商学院最新研究报告指出，AI 工具可能在削弱而非增强人类判断力。实验显示，当 AI 建议拒绝高潜力创新项目时，人类评估者倾向于顺从，且带有解释的 AI 建议更具误导性。在判断力成为关键竞争力的当下，领导者需警惕决策支持基础设施带来的悖论。文章建议组织应保护人类判断能力，避免过度依赖智能工具导致的认知退化，为 AI 治理提供了新的管理视角。",
+    "tags": [
+      "News",
+      "Management",
+      "Research"
+    ],
+    "link": "https://hbr.org/2026/08/ai-is-undermining-leaders-judgment-heres-what-to-do-about-it",
+    "date": "2026-08-19",
+    "id": "17872437948584"
   },
   {
     "title": "谷歌斥资 120 亿美元与 Marvell 合作开发 TPU 芯片",
@@ -1246,57 +1298,5 @@
     "link": "https://www.technologyreview.com/2026/08/19/1140195/the-download-ai-recursive-self-improvement-problem-heatwave-causes/",
     "date": "2026-08-19",
     "id": "17871604576312"
-  },
-  {
-    "title": "CrewCode：开源 AI 编码代理控制中心",
-    "summary": "开源桌面应用，并行管理多个 AI 编码代理，使用 Git 隔离工作。",
-    "detail": "CrewCode 是一款开源桌面应用，旨在帮助开发者管理多个 AI 编码代理。它利用 Git worktrees 隔离代理工作，支持并行运行与差异审查。解决了开发者管理代理而非编写代码的问题。提供提供商独立性和编排功能，适合需要多代理协作的复杂开发场景，已在 Product Hunt 发布。作者特别寻求关于多代理和工作树模型的反馈，旨在优化工作流，提升编码效率。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Coding"
-    ],
-    "link": "https://github.com/OnPoint-Dev-Tools/crewcode",
-    "date": "2026-08-19",
-    "id": "17871604576313"
-  },
-  {
-    "title": "Intelix：自动解决生产事故的 AI 代理",
-    "summary": "连接监控工具，自动调查并解决生产事件的 AI 代理，实现自愈。",
-    "detail": "Intelix 是一款旨在自动调查并解决生产事故的 AI 代理。它可连接 PagerDuty、Datadog 和 Kubernetes 等工具，自动收集错误率、延迟等证据并进行推理。系统能自动识别根本原因并修复问题，无需人工干预。旨在减少运维压力，实现基础设施的自愈能力，适合 DevOps 团队使用。界面展示实时仪表板，包括提交信息和部署年龄等关键指标，快速响应故障。",
-    "tags": [
-      "New",
-      "DevOps",
-      "Automation"
-    ],
-    "link": "https://intelix.dev",
-    "date": "2026-08-19",
-    "id": "17871604576314"
-  },
-  {
-    "title": "比尔盖茨 TerraPower 核反应堆赋能 AI 数据中心",
-    "summary": "TerraPower 宣布启动数据中心项目，核能解决 AI 算力能源瓶颈。",
-    "detail": "比尔盖茨创立的 TerraPower 计划今年宣布首个 AI 数据中心供电项目。相比传统能源，其钠冷快堆具备储能优势，能稳定提供高容量电力。Meta 已同意购买 8 座核电站。该项目预计 2027 年动工，标志着核能成为 AI 基础设施关键解决方案，缓解算力增长带来的能源焦虑。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Energy"
-    ],
-    "link": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
-    "date": "2026-08-19",
-    "id": "17871572852300"
-  },
-  {
-    "title": "MiniMax 推出 H3 视频生成模型，支持 2K 分辨率",
-    "summary": "MiniMax H3 支持文本到视频生成，提供 4-15 秒片段及 LoRA 特效。",
-    "detail": "MiniMax 发布 H3 视频生成模型，支持文本、图像及多模态参考生成 4 至 15 秒视频，分辨率可达 2K。平台提供专用 LoRA 效果页面，如真人写实风格，支持 cinematic motion 及产品故事叙述。无需更改原模型即可应用创意特效，展示了视频生成技术在商业应用与创意方向上的最新进展。",
-    "tags": [
-      "New",
-      "Video Generation",
-      "Multimodal"
-    ],
-    "link": "https://www.h3vid.com",
-    "date": "2026-08-19",
-    "id": "17871572852301"
   }
 ]
