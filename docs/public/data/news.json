@@ -1,5 +1,70 @@
 [
   {
+    "title": "OpenAI 在企业市场反超 Anthropic",
+    "summary": "Ramp 数据显示 OpenAI 在美企支出占比回升，Q3 增长速度快于 Anthropic。",
+    "detail": "根据 Ramp 企业支出数据，Anthropic 曾在 5 月以 41% 份额领先 OpenAI 的 39%。截至 7 月，Anthropic 仍占 44%，OpenAI 占 40%。但最新 Q3 数据显示 OpenAI 在美企用户中增速更快。这表明企业用户会根据模型发布在不同供应商间切换，市场竞争依然激烈。数据覆盖 7 万家美企，虽未包含使用 Amex 的大型企业，但足以显示市场风向。OpenAI 正努力夺回商业用户信任，而 Anthropic 面临增长放缓压力。季度未结束，趋势仍可能变化，但显示出 OpenAI 在商业落地方面的韧性。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Market"
+    ],
+    "link": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+    "date": "2026-08-20",
+    "id": "17872683750570"
+  },
+  {
+    "title": "AI 行业周报：OpenAI 调整战略与 Anthropic IPO 筹备",
+    "summary": "Zvi 分析 OpenAI 应对 HuggingFace 攻击后的安全措施，及 Anthropic 上市前的风险报告。",
+    "detail": "OpenAI 正试图扭转局势，针对 HuggingFace 攻击事件采取暂停开发等新安全措施。投资者关注其高管变动及对齐问题。另一方面，Anthropic 收入持续增长筹备 IPO，但也发布了 8 月风险报告揭示内部问题。此外，周报还探讨了 AI 递归自我改进的潜力及语言模型的实用性争议。行业正处于 Quiet Aftermath 阶段，各方都在反思近期事件并规划路径，安全与对齐成为核心议题。Zvi 指出虽然早期迹象 promising，但仍需观察后续执行情况，特别是 HuggingFace 攻击的事后分析报告。",
+    "tags": [
+      "News",
+      "Safety",
+      "Strategy"
+    ],
+    "link": "https://thezvi.substack.com/p/ai-182-pause-for-reflection",
+    "date": "2026-08-20",
+    "id": "17872683750571"
+  },
+  {
+    "title": "OpenCyvis：开源自主 LLM 手机智能体",
+    "summary": "全新开源 AI 电话代理项目，支持本地运行 LLM，拒绝黑盒操作。",
+    "detail": "OpenCyvis 是一款开源 AI 手机代理项目，旨在打破商业 AI 手机的黑盒状态。该项目基于 Apache 2.0 许可，支持用户运行自己的 LLM 模型。目前已发布 v2.0 版本，采用 Kotlin 开发，测试了 9 种模型。它为开发者提供了完全透明的控制权限，适合希望私有化部署手机端 AI 助手的开发团队。项目文档齐全，包含路线图与贡献指南，推动了端侧智能体的开放生态发展。商业 AI 手机通常不透明，此项目允许用户完全掌控数据与模型，是隐私优先型 AI 应用的重要尝试。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Agent"
+    ],
+    "link": "https://github.com/opencyvis/opencyvis-phone",
+    "date": "2026-08-20",
+    "id": "17872683750572"
+  },
+  {
+    "title": "论文：智能 AI 任务委托框架研究",
+    "summary": "提出自适应 AI 委托框架，解决多智能体协作中的任务分解与信任问题。",
+    "detail": "这篇 arXiv 论文探讨了 AI 智能体如何通过智能委托处理复杂任务。现有方法依赖简单启发式算法，难以适应环境变化。作者提出了一种自适应框架，涉及任务分配、权限转移、责任问责及信任建立机制。该研究对于构建能够安全地将任务委托给其他 AI 或人类的高级智能体系统具有重要的理论指导意义。解决了动态环境下的鲁棒性失败处理问题。随着 Agent 复杂度提升，如何安全分解任务并委托给其他实体成为关键，该框架提供了包含意图清晰性与信任机制的解决方案。",
+    "tags": [
+      "Dev",
+      "Paper",
+      "Agent"
+    ],
+    "link": "https://arxiv.org/abs/2602.11865",
+    "date": "2026-08-20",
+    "id": "17872683750573"
+  },
+  {
+    "title": "BTP v2.2：AI 智能体加密信任协议",
+    "summary": "发布离线加密信任协议标准，为 AI 智能体提供自主执行前的安全检查。",
+    "detail": "Bartholomew AI 发布了 BTP v2.2 标准追踪，这是一种用于 AI 智能体的开放离线加密信任协议。它充当自主飞行执行网关，确保智能体在执行任务前经过 cryptographic trust 验证。协议状态显示为 FROZEN，一致性测试套件已通过 100%。这对于需要高安全性保障的自主 AI 系统部署提供了新的技术标准参考。旨在解决代理间的信任与执行安全问题。通过离线加密协议，确保 AI agent 在自主行动前的安全性，防止恶意执行，为多代理协作系统建立了信任基础。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Protocol"
+    ],
+    "link": "https://github.com/ivegotahunnitonit/bartholomew",
+    "date": "2026-08-20",
+    "id": "17872683750574"
+  },
+  {
     "title": "ChatGPT 集成苹果短信插件，可直接代发消息",
     "summary": "OpenAI 推出 Apple Messages 插件，ChatGPT 可直接读写短信。",
     "detail": "OpenAI 与苹果深度合作，新插件允许 ChatGPT 直接访问 Apple Messages 应用。用户可通过自然语言指令让 AI 起草并发送短信，实现系统级集成。这标志着 AI 助手从独立应用向操作系统底层服务的渗透，极大提升了交互便利性。然而，赋予 AI 发送短信权限也引发了用户对于隐私安全及误操作风险的担忧，行业需建立新的信任机制。此功能可能成为未来 AI 个人助理的标准配置，改变人机交互模式，但也要求更高的安全审计标准，确保用户数据不被滥用，同时防止 AI 幻觉导致错误信息发送。",
@@ -1233,70 +1298,5 @@
     "link": "https://austinhenley.com/blog/dearresearchers.html",
     "date": "2026-08-19",
     "id": "17871818913483"
-  },
-  {
-    "title": "Semantica：面向 AI 代理的开源图谱基础设施",
-    "summary": "新开源项目 Semantica 提供可解释、可追溯的 AI 代理上下文管理。",
-    "detail": "Semantica 被称为\"AI 代理的开源 Palantir\"，提供图原生基础设施用于上下文管理和可问责 AI 系统。支持 ingest 企业数据、构建知识图谱及因果推理，具备完全决策溯源功能。该项目主打自托管、可审计及零供应商锁定，适合需要高可信度和可解释性的企业级 AI 代理部署。通过图谱技术增强 AI 的确定性推理能力，解决黑盒问题。其架构允许开发者在本地运行复杂代理逻辑，确保数据隐私与合规性。对于金融、医疗等敏感行业，这种可追溯的 AI 基础设施至关重要，能有效降低部署风险。",
-    "tags": [
-      "New",
-      "Open Source",
-      "Agents"
-    ],
-    "link": "https://github.com/semantica-agi/semantica",
-    "date": "2026-08-19",
-    "id": "17871818913484"
-  },
-  {
-    "title": "AI 泡沫冲击硬件：PINE64 暂停开源硬件生产",
-    "summary": "因 AI 数据中心导致内存短缺，PINE64 宣布暂停 Linux 硬件生产。",
-    "detail": "开源硬件厂商 PINE64 宣布因 DRAM 和 eMMC 短缺及价格飙升，暂停 Linux 单板电脑及手机生产直至 2027 年中。这直接归因于 AI 泡沫导致的数据中心组件需求激增。该事件揭示了 AI 算力竞赛对消费级硬件供应链的挤压效应，开源硬件生态面临严峻成本挑战。小型厂商难以与大厂竞争内存资源，可能导致开源硬件多样性下降。用户需预期设备涨价或缺货，行业需寻找替代供应链方案。此现象表明 AI 基础设施建设的资源消耗已开始波及边缘计算设备，全球硬件市场正经历结构性重组。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Supply Chain"
-    ],
-    "link": "https://www.hackster.io/news/pine64-calls-time-on-the-linux-hardware-market-ceases-production-until-the-ai-bubble-bursts-a865c8345041",
-    "date": "2026-08-19",
-    "id": "17871818913485"
-  },
-  {
-    "title": "OpenAI 推隐私保护新政对标 Anthropic",
-    "summary": "OpenAI 发布隐私安全处理服务，不留存客户数据。",
-    "detail": "OpenAI 预览了名为“私人安全处理”的新服务，旨在监控潜在滥用同时不留存客户数据。此举直接针对 Anthropic 近期引发争议的数据保留政策（保留会话 30 天）。对于处理敏感数据的企业客户，这是一个关键的安全保障，标志着 AI 巨头在企业隐私保护上的竞争加剧。随着 AI 模型能力增强，滥用风险上升，公司需在尊重隐私与监控安全间走钢丝。此政策可能成为企业选型的关键因素，推动行业向零数据保留标准靠拢。对于金融、医疗等高合规要求行业，OpenAI 的新政提供了更具吸引力的合作基础，可能重塑企业级 AI 服务市场的竞争格局。此外，该方案展示了自动化系统在安全监控中的潜力，无需人工介入即可平衡隐私与合规。",
-    "tags": [
-      "News",
-      "Privacy",
-      "Enterprise"
-    ],
-    "link": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
-    "date": "2026-08-19",
-    "id": "17871783387240"
-  },
-  {
-    "title": "Node.js 社区确立 AI 代码贡献责任准则",
-    "summary": "核心原则：工具不能替代人类判断，需披露 AI 使用。",
-    "detail": "Node.js 官方发布 AI 使用政策，强调工具绝不能替代人类判断。贡献者需对 AI 生成的代码负全责，并诚实披露 AI 使用情况。政策禁止在提交信息中滥用商业品牌营销。这为开源社区规范 AI 辅助编程设立了重要标杆，强调责任归属。随着 AI 编码助手普及，代码质量和版权风险成为关注焦点。Node.js 作为基础设施项目，其政策将影响众多下游开发者。它明确了即使使用 AI 生成代码，人类仍需理解并负责，防止低质量代码涌入核心库，维护开源生态的长期健康。此指南与 OpenJS 基金会政策保持一致，反映了主流开源项目对 AI 生成内容的审慎态度。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Policy"
-    ],
-    "link": "https://github.com/nodejs/node/blob/main/doc/contributing/ai-guidelines.md",
-    "date": "2026-08-19",
-    "id": "17871783387241"
-  },
-  {
-    "title": "Cognition CEO 否认 SpaceX 试图收购传闻",
-    "summary": "CEO 澄清公司不出售，未与 SpaceX 洽谈。",
-    "detail": "针对 Bloomberg 报道 SpaceX 试图收购 AI 编码初创公司 Cognition 的消息，CEO Scott Wu 公开否认，表示公司不出售且双方未洽谈。此前 SpaceX 刚收购了 Cursor 并完成了 IPO。此传闻反映了科技巨头对 AI 编码能力的渴求，但 Cognition 选择独立发展。SpaceX 近期在 AI 领域动作频繁，包括收购 xAI 和 Cursor，试图追赶 OpenAI 等对手。尽管收购传闻被否认，但市场对 AI 编码赛道的高估值和整合预期依然强烈。Cognition 作为 Devin 的开发者，其独立立场显示了初创公司在巨头夹击下的生存策略。此外，SpaceX 的 IPO 成功为其提供了充足资金，但 AI 业务仍处于早期阶段，面临激烈竞争。",
-    "tags": [
-      "News",
-      "M&A",
-      "Startup"
-    ],
-    "link": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
-    "date": "2026-08-19",
-    "id": "17871783387242"
   }
 ]
