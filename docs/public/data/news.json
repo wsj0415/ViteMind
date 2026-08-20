@@ -1,5 +1,44 @@
 [
   {
+    "title": "开发者利用 GPT-5.6 发现 NetHack 缓冲区溢出漏洞",
+    "summary": "展示 AI 模型在安全挖掘中的能力，成功利用漏洞刷取高分。",
+    "detail": "开发者 Joseph Thacker 使用 GPT-5.6 Daybreak Blue 模型成功发现 NetHack 游戏中的整数截断 bug。AI 不仅找到了可导致崩溃的缓冲区溢出漏洞，还提供了利用链以刷取 leaderboard 高分。该案例证明了顶级 AI 模型在白盒漏洞挖掘方面的潜力，为 AI 辅助安全测试提供了实证参考，同时也引发了关于 AI 辅助作弊的伦理讨论。",
+    "tags": [
+      "Dev",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://josephthacker.com/hacking/2026/08/20/using-genius-hacking-models-for-important-things.html",
+    "date": "2026-08-20",
+    "id": "17872366375482"
+  },
+  {
+    "title": "Seedstr AI：专为早期创始人设计的 VC 匹配工具",
+    "summary": "AI 读取融资材料，自动匹配并排名最适合的风险投资机构。",
+    "detail": "Seedstr 是一款面向早期创始人的 AI 工具，可读取商业计划书和数据室内容，基于 6 大因素对数百家种子投资者进行评分排名。它提供具体的接触策略和联系人信息，并承诺数据加密隐私。该工具解决了初创企业寻找合适投资人的痛点，展示了 AI 在垂直领域服务中的应用潜力，显著提升了融资准备效率。",
+    "tags": [
+      "New",
+      "Startup",
+      "VC"
+    ],
+    "link": "https://seedstr.app",
+    "date": "2026-08-20",
+    "id": "17872366375483"
+  },
+  {
+    "title": "Passage AI：智能旅行规划与实时步行指南",
+    "summary": "AI 旅行助手，提供行程规划及落地后的实时语音导览服务。",
+    "detail": "Passage AI 是一款专为旅行者设计的 AI 应用，功能涵盖行程规划、实时步行导览及旅行记忆生成。它能智能建议每日行程，并在用户接近地标时提供免提语音讲解。该产品展示了 AI 在消费级垂直场景的落地能力，通过结合 LLM 与位置服务，为用户提供个性化的旅行体验，解决了传统攻略静态化的问题。",
+    "tags": [
+      "New",
+      "Travel",
+      "Consumer"
+    ],
+    "link": "https://mypassage.ai/",
+    "date": "2026-08-20",
+    "id": "17872366375484"
+  },
+  {
     "title": "LLM Status: 监控 AI 模型退役状态的开发工具",
     "summary": "扫描代码库中调用的模型，预警即将退役的 API。",
     "detail": "随着 AI 模型迭代加速，模型退役成为开发者痛点。LLM Status 是一款命令行工具，可扫描本地代码库，识别调用的 LLM 模型状态。它支持 15 个提供商、527 个模型，能标记已废弃或即将退役的模型并提供替代方案。例如检测到 Amazon Nova Premier 将在 25 天后退役，或 GPT-3.5 即将停用。无需 API Key，本地运行保障代码安全。对于依赖第三方模型的生产环境，该工具能有效避免因模型突然下线导致的服务中断，是 AI 工程化维护的重要基础设施。开发者可通过 curl 一键安装，实时查看模型健康状态，确保业务连续性不受模型生命周期影响。",
@@ -466,6 +505,32 @@
     "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
     "date": "2026-08-20",
     "id": "17871884832401"
+  },
+  {
+    "title": "谷歌斥资 120 亿美元与 Marvell 合作开发 TPU 芯片",
+    "summary": "谷歌与 Marvell 达成巨额协议，共同开发 AI 芯片，强化硬件生态。",
+    "detail": "谷歌宣布与 Marvell 达成价值 120 亿美元的战略协议，旨在共同开发定制化的 TPU（张量处理单元）芯片。此举标志着科技巨头在 AI 基础设施领域的竞争加剧，意在减少对外部供应商的依赖并优化算力效率。该合作将直接影响 AI 训练成本及云端服务性能，是 2026 年 AI 硬件赛道的重要里程碑，显示出自研芯片已成为大厂标配。",
+    "tags": [
+      "News",
+      "Google",
+      "Hardware"
+    ],
+    "link": "https://www.ft.com/content/0fdb094c-fc03-4d3c-8da6-bd11af88ff63",
+    "date": "2026-08-19",
+    "id": "17872366375480"
+  },
+  {
+    "title": "美国联邦机构警告：攻击者利用 AI 生成代码入侵关键基础设施",
+    "summary": "五大机构联合预警，AI 生成脚本正被用于攻击工业控制系统。",
+    "detail": "美国 NSA、CISA 等五大联邦机构发布联合警报，指出攻击者正利用 AI 生成的利用脚本入侵西门子 S7 系列 PLC 控制器。攻击者结合开源库与 AI 编码助手，定制工具模仿 OT 监控软件，威胁水利、能源等关键设施。政府强调这“并非理论风险”，而是活跃威胁，疑似与伊朗网络行动有关。此事件凸显了 AI 武器化对国家安全的现实挑战。",
+    "tags": [
+      "News",
+      "Security",
+      "Policy"
+    ],
+    "link": "https://www.theregister.com/security/2026/08/19/not-a-theoretical-risk-feds-warn-as-attackers-use-ai-made-code-to-hack-critical-infrastructure-controllers/5289960",
+    "date": "2026-08-19",
+    "id": "17872366375481"
   },
   {
     "title": "科学界反思：过度依赖 AI 恐削弱人类写作创造力",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/alxshelepenok/grove",
     "date": "2026-08-19",
     "id": "17871535464721"
-  },
-  {
-    "title": "AI 撰写用户故事指南：擅长格式而非判断",
-    "summary": "文章指出 AI 擅长格式化用户故事，但缺乏对业务背景和优先级的判断力。",
-    "detail": "针对产品经理和技术负责人，文章分析 AI 在编写用户故事时的利弊。AI 能高效完成格式转录和完整性检查，生成符合标准模板的故事。但核心难点在于判断哪个用户、什么问题及为何现在做，这需要人类对话和决策。建议将 AI 用于机械性部分，保留人类判断力，避免生成看似正确但缺乏业务背景的故事。这提醒团队在引入 AI 工具时需明确边界，防止自动化导致的产品方向偏差，确保工程需求真正源于用户价值而非模型幻觉。",
-    "tags": [
-      "Dev",
-      "ProductManagement",
-      "BestPractice"
-    ],
-    "link": "https://projan.ai/blog/should-you-use-ai-to-write-user-stories",
-    "date": "2026-08-19",
-    "id": "17871535464722"
-  },
-  {
-    "title": "亚马逊免费开放 Fire TV 上的 AI 助手 Alexa+",
-    "summary": "亚马逊宣布向所有 Fire TV 用户免费开放 Alexa+，无需 Prime 会员，含对话搜索。",
-    "detail": "亚马逊将 AI 驱动的 Alexa+ 免费推广至所有兼容的 Fire TV 设备，不再强制要求 Prime 会员订阅。更新包含对话式搜索、智能家居控制和 AI 推荐，覆盖 Fire TV Stick、Cube 及 Ember 电视等。此举顺应行业趋势，此前 Google TV 和 Roku 也进行了类似 AI 升级。标志着 AI 服务正通过非可选升级广泛渗透至消费电子终端，改变用户交互习惯。这表明大厂正通过硬件绑定加速 AI 普及，未来语音交互将成为电视标配，可能重塑家庭娱乐内容的分发逻辑与广告模式。",
-    "tags": [
-      "News",
-      "ConsumerAI",
-      "Amazon"
-    ],
-    "link": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/",
-    "date": "2026-08-19",
-    "id": "17871535464723"
-  },
-  {
-    "title": "SudoReport：科技与 AI 产品超级聚合器",
-    "summary": "新工具 SudoReport 聚合 Hacker News 和 GitHub 趋势，提供每日科技动态。",
-    "detail": "SudoReport 是一个科技、AI 和产品超级聚合器，展示每日趋势故事。内容涵盖 Hacker News 热门讨论（如开放物流平台）、GitHub trending 项目（如自进化 Agent 记忆库）以及安全漏洞警告。为开发者提供一站式行业动态概览，帮助快速捕捉社区关注焦点和技术风向，今日趋势特别关注 Agent 记忆与芯片技术突破。这种聚合工具降低了信息获取成本，帮助从业者在信息过载时代保持敏锐，是开发者日常浏览的高效替代品，反映了社区对高质量 curated 内容的需求。",
-    "tags": [
-      "New",
-      "Aggregator",
-      "Community"
-    ],
-    "link": "https://sudoreport.com/",
-    "date": "2026-08-19",
-    "id": "17871535464724"
-  },
-  {
-    "title": "Zeno：在 MacBook 上本地运行 35B 参数私有 AI",
-    "summary": "Icosa 推出 Zeno，可在 MacBook 本地运行 Qwen3.5-35B 模型，数据完全私有。",
-    "detail": "Zeno 是一款本地 AI 工具，旨在增强人类创造力。它能在普通 MacBook 上运行 35B 参数模型（Qwen3.5-35B-A3B），无需云端 GPU。强调完全隐私（可断网使用）和个人化，模型权重随用户使用而调整。试图将 intelligence 商品化而非 commoditized，提供外部知识存储和处理器，让知识变得可操作且私密，尽管初期速度可能较慢。这反映了端侧 AI 的趋势，用户渴望拥有完全可控的个人智能，而非依赖云端服务，为隐私敏感型应用提供了新选择。",
-    "tags": [
-      "New",
-      "LocalLLM",
-      "Privacy"
-    ],
-    "link": "https://icosa.co/zeno",
-    "date": "2026-08-19",
-    "id": "17871535464725"
-  },
-  {
-    "title": "社区讨论：帖子中埋藏的 AI 评论有何目的？",
-    "summary": "Hacker News 用户讨论为何每个帖子下都有被踩的 AI 评论，质疑其存在目的。",
-    "detail": "Hacker News 社区发起讨论，关注每篇提交下普遍存在的 LLM 生成评论现象。这些评论常被 downvote 并沉底，已成为景观一部分。用户质疑代理或人类使用 LLM 评论的动机及最终目的。反映了 AI 生成内容泛滥对社区生态的影响及用户的疲劳感，探讨这种自动化互动对在线讨论质量的长期侵蚀作用。这揭示了 AI 滥用带来的社交噪音问题，平台可能需要新的机制来区分人机互动，以维护真实社区的讨论价值与信任基础。",
-    "tags": [
-      "News",
-      "Community",
-      "SocialImpact"
-    ],
-    "link": "https://news.ycombinator.com/item?id=49362305",
-    "date": "2026-08-19",
-    "id": "17871535464726"
   }
 ]
