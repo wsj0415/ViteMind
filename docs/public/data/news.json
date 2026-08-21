@@ -1,5 +1,44 @@
 [
   {
+    "title": "Linux 之父 Linus Torvalds 利用 AI 调试驱动漏洞",
+    "summary": "Linus Torvalds 承认使用 AI 成功修复 Intel GPU 驱动中的复杂超时问题。",
+    "detail": "Linux 创始人 Linus Torvalds 在邮件列表中透露，他利用 AI 工具成功调试了 Intel Xe 驱动中的内存地址对齐问题。此次修复涉及复杂的内存窃取处理，人工排查耗时极长，AI 快速定位了 rounding 错误。这标志着 AI 辅助编程已进入核心系统开发领域，即使是底层内核开发，AI 也能显著缩短调试周期。这对于开源社区而言是一个重要信号，表明 AI 不再是玩具，而是能解决实际硬核问题的生产力工具，可能引发更多核心开发者采纳 AI 工作流，改变传统内核维护模式。",
+    "tags": [
+      "News",
+      "Dev",
+      "Linux"
+    ],
+    "link": "https://lists.freedesktop.org/archives/dri-devel/2026-August/590630.html",
+    "date": "2026-08-21",
+    "id": "17873301559180"
+  },
+  {
+    "title": "Show HN: Caspian SDK 解决 AI Agent 通信瓶颈",
+    "summary": "新开源 SDK Caspian 旨在简化 AI 代理与人类之间的通信基础设施。",
+    "detail": "Caspian 团队推出专为 AI 代理设计的通信 SDK，解决代理部署中的身份管理、队列处理及 Webhook 配置难题。灵感来自部署 Openclaw 时的通信瓶颈，旨在抽象化可靠的通信 webhook 处理。支持 Python 和 TypeScript，采用函数式编程 DSL 设计。用户可选择自带 token 或使用其自动配置的运行环境，为代理间及代理与人类的交互提供标准化接口。团队发现现有工具分散，统一通信层能减少 15% 以上的部署问题，提升代理可靠性，为代理经济提供底层基础设施。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "SDK"
+    ],
+    "link": "https://github.com/TryCaspian/caspian-sdk",
+    "date": "2026-08-21",
+    "id": "17873301559184"
+  },
+  {
+    "title": "Show HN: Roastme.gg 付费让 AI 公开吐槽你的网站",
+    "summary": "新产品 Roastme.gg 允许用户付费获取 AI 对其网站的公开毒舌评价。",
+    "detail": "Roastme.gg 是一款娱乐性 AI 产品，用户付费后可获得 AI 对其网站或内容的“毒舌”点评，并按伤害程度分级展示。每次吐槽均公开显示在 Wall 上，支付金额越高排名越靠前，将经济行为与内容生成直接挂钩，探索 AI 娱乐化的商业新模式。画廊展示已支付的吐槽案例，如针对域名 buzzwords 的讽刺，增加了社区观赏性。用户可选择从 Mild 到 Scorched Earth 不同等级，价格越高吐槽越狠，形成独特的 viral 传播机制，反映了生成式 AI 在个性化内容创作及社交互动方面的新应用场景。",
+    "tags": [
+      "New",
+      "Entertainment",
+      "GenAI"
+    ],
+    "link": "https://roastme.gg",
+    "date": "2026-08-21",
+    "id": "17873301559185"
+  },
+  {
     "title": "研究显示 AI 提升作业成绩但降低考试表现",
     "summary": "中国 2.7 万学生研究发现，AI 使作业分升 18%，但无 AI 考试分降 20%。",
     "detail": "斯德哥尔摩大学与港大联合研究，跟踪中国 12-18 岁学生 6 个月。80% 学生使用 Doubao 或 DeepSeek 等模型。结果显示 AI 辅助虽显著提高作业效率，但导致独立解题能力下降。该研究为教育界敲响警钟，提示需重新评估 AI 在教学中的角色与限制，避免过度依赖损害核心认知能力。",
@@ -650,6 +689,19 @@
     "id": "17872751180502"
   },
   {
+    "title": "Anthropic 推出 Claude Academy 普及 AI 素养教育",
+    "summary": "Anthropic 发布教育平台 Claude Academy，推广 4D AI fluency 框架。",
+    "detail": "Anthropic 正式推出 Claude Academy，旨在向全球数百万用户普及安全有效的 AI 使用方法。公司内部采用的 4D AI 素养框架将对外公开，帮助学习者理解何时使用 AI 及如何审查 AI 产出。课程涵盖代理知识管理及 AI 指数级发展速度认知，帮助员工和用户做出 intentional decisions。此举表明头部模型厂商开始重视用户教育，以降低滥用风险并提升人机协作效率。公司强调教育应增加用户 agency，而非依赖自动化，确保人类在关键决策中保持控制权，构建更健康的 AI 生态系统。",
+    "tags": [
+      "News",
+      "Education",
+      "Anthropic"
+    ],
+    "link": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
+    "date": "2026-08-20",
+    "id": "17873301559181"
+  },
+  {
     "title": "路透社：AI 重塑印度 IT 服务 sector，客户要求降本增效",
     "summary": "印度 IT 服务行业合同因 AI 技术发生变革，客户倾向于以更少预算获取更多产出，推动行业转型。",
     "detail": "全球 AI 浪潮冲击传统外包模式，经济影响显现。路透社报道指出，印度 IT 服务 sector 正经历合同结构变革，客户利用 AI 技术杠杆，要求以更少预算获取更多产出，迫使服务商转型。核心在于 AI 自动化替代了部分基础编码与维护工作，改变了定价模型。行业影响显著，传统人力密集型外包面临淘汰风险，印度 IT 巨头需转向高价值 AI 解决方案交付，标志着 AI 对全球劳动力市场的实际经济影响开始显现，倒逼服务商提升技术附加值。此趋势可能蔓延至其他外包主导型经济体，引发全球 IT 服务链条重构，企业需提前布局 AI-native 服务能力。",
@@ -1246,57 +1298,5 @@
     "link": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
     "date": "2026-08-20",
     "id": "17872437948581"
-  },
-  {
-    "title": "实战教程：如何利用 AI 构建 Java 到 C# 源码转换器",
-    "summary": "开发者分享利用 AI 辅助构建代码转换工具的经验。",
-    "detail": "文章探讨了利用 AI 进行代码迁移的最佳实践。作者并未单纯依赖 LLM 直接转换代码，而是利用 AI 辅助构建基于语法树的规则转换器。这种方法相比纯 LLM 转换具有确定性、可验证性及更低 Token 成本的优势。项目使用 Clojure 实现，展示了如何将 AI 作为辅助工具而非完全替代者，为开发者处理遗留代码迁移提供了可复用的技术路径和工程化思路。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "LLM"
-    ],
-    "link": "https://www.isaksky.com/posts/dripsharp-java-to-csharp-source-converter/",
-    "date": "2026-08-20",
-    "id": "17872437948582"
-  },
-  {
-    "title": "CritPath AI 推出研发项目进度风险管理与 CCPM 软件",
-    "summary": "专为研发设计的 AI 进度管理平台，按月订阅。",
-    "detail": "CritPath AI 发布专为生物技术及深科技研发项目设计的进度风险管理平台。核心功能包括基于关键路径法的自动重排计划、蒙特卡洛风险分析及 AI 员工助手（估算师、风险分析师）。产品采用 $10/用户/月的定价模式，无信用额度限制。该工具旨在解决研发项目中不确定性高的问题，通过 AI 自动调整日程以减少人为管理成本，适合联邦资助项目及初创公司 CTO 使用。",
-    "tags": [
-      "New",
-      "Project Management",
-      "SaaS"
-    ],
-    "link": "https://www.criticalschedule.com/",
-    "date": "2026-08-20",
-    "id": "17872437948583"
-  },
-  {
-    "title": "金融时报：AI 失控风险被低估，系统性问题更严峻",
-    "summary": "金融时报刊文称 AI 风险并非失控，而是系统性问题更严重。",
-    "detail": "金融时报发表深度评论，指出业界对 AI“失控”的恐惧可能掩盖了更现实的风险。文章认为真正的威胁并非 AI 产生自主意识，而是其嵌入金融与社会系统后引发的系统性不稳定。例如自动化决策导致的市场波动、隐私数据的规模化滥用以及责任归属的模糊。这一观点挑战了主流的 AI 安全叙事，建议监管者将重心从防止\"rogue AI\"转向治理算法偏见与透明度。对于投资者和企业，这意味着需重新评估 AI 部署的合规成本与长期社会影响，而非仅关注技术边界。该分析为 2026 年的 AI 治理提供了重要的风向标。",
-    "tags": [
-      "News",
-      "Industry",
-      "Risk"
-    ],
-    "link": "https://www.ft.com/content/a9947be4-5c0c-47ee-acae-a2aeaf01a0a0",
-    "date": "2026-08-20",
-    "id": "17872400809570"
-  },
-  {
-    "title": "代码工厂质量隐忧：AI 开发盲目追求速度忽视测试",
-    "summary": "Zapier 等大厂启用 AI 代理 coding，但测试环节缺失导致质量风险。",
-    "detail": "QA Wolf 发布报告揭示，Zapier、Nubank 及高盛等巨头正大规模部署 AI 代理进行端到端代码生成。虽然开发速度提升 10 倍，但验证能力未同步跟进，导致“代码工厂”模式存在严重质量隐患。文章警告，代理生成的代码常跳过测试环节直接上线，缺乏反馈闭环将使错误累积。这凸显了 AI 开发流程中质量保障的缺失，呼吁行业在追求效率的同时重建测试反馈闭环。对于工程团队，这意味着需投资自动化测试工具以匹配 AI 生成速度，否则技术债务将迅速失控。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Quality"
-    ],
-    "link": "https://www.qawolf.com/blog/code-factories-without-quality",
-    "date": "2026-08-20",
-    "id": "17872400809571"
   }
 ]
