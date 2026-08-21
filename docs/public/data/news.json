@@ -1,5 +1,57 @@
 [
   {
+    "title": "117 亿 Token 测试最佳网络安全 AI 模型",
+    "summary": "Aikido 消耗 117 亿 Token 测试 10 款模型。DeepSeek V4 Pro 表现最佳。",
+    "detail": "Aikido 发布最新基准测试，消耗 117 亿 Token 评估 10 款 AI 模型的网络安全能力。**DeepSeek V4 Pro 0813** 在三次运行中发现最多漏洞（32 个中的 28 个）。测试表明开源模型现已媲美闭源前沿模型，但廉价覆盖会产生噪音。多次运行可提高召回率。该报告为安全团队选型提供关键数据支持，显示高性价比模型亦可胜任复杂任务。",
+    "tags": [
+      "Dev",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://www.aikido.dev/blog/ai-model-benchmarks-aug-21-2026",
+    "date": "2026-08-21",
+    "id": "17873164682010"
+  },
+  {
+    "title": "垂直 AI 创始人面临的三大生存危机",
+    "summary": "分析垂直 AI 公司的商业模式风险。依赖第三方 LLM 和数据，护城河脆弱。",
+    "detail": "文章指出垂直 AI 创始人正面临存在主义危机。核心问题在于**构建在他人的土地上**：依赖第三方 LLM 和 CRM API。模型提供商正在向上整合，而 CRM 厂商拥有专有数据，可原生替代初创公司产品。缺乏自有数据和模型控制权意味着护城河极易被攻破。创始人需正视数据所有权和差异化价值，避免被上下游挤压。",
+    "tags": [
+      "News",
+      "Startup",
+      "Business"
+    ],
+    "link": "https://medium.com/@MirArshadTalpur/vertical-ai-founders-you-are-going-through-3-existential-crises-and-most-of-you-dont-know-it-b3d86a386d37",
+    "date": "2026-08-21",
+    "id": "17873164682011"
+  },
+  {
+    "title": "达美航空利用 AI 动态定价欲提升利润",
+    "summary": "达美 CEO 称 AI 可助利润增长 50%。实施个性化票价，引发就业隐私担忧。",
+    "detail": "达美航空宣布将利用 AI 削减成本并实施**个性化票价**，每位乘客价格可能不同。CEO 预测此举可能使利润上升 50%。该计划涉及利用 AI 优化 staffing 和动态定价策略。虽然能提升效率，但也引发了关于就业削减和消费者隐私的广泛担忧。这是传统航空业深度整合 AI 进行运营变革的典型案例。",
+    "tags": [
+      "News",
+      "Enterprise",
+      "Airline"
+    ],
+    "link": "https://viewfromthewing.com/delta-will-use-ai-to-cut-jobs-and-set-a-different-ticket-price-for-every-passenger-ceo-says-profits-could-rise-50/",
+    "date": "2026-08-21",
+    "id": "17873164682012"
+  },
+  {
+    "title": "Locus：纯 Rust 编写的 AI 代理安全防火墙",
+    "summary": "确定性的 AST 安全防火墙，延迟低于 0.05ms。专为 AI 代理设计的 Rust 库。",
+    "detail": "Locus 是一个专为 AI 代理设计的确定性 AST 安全防火墙，使用**纯 Rust 编写**。其延迟低于 0.05ms，确保不影响代理的实时性能。主要解决 AI 代理在执行代码或操作时的安全隐患，提供快速的安全检查层。对于构建高可靠性 AI Agent 系统的开发者来说，这是一个重要的底层安全基础设施，适合集成到 Rust 技术栈中。",
+    "tags": [
+      "Dev",
+      "Rust",
+      "Security"
+    ],
+    "link": "https://github.com/ahmadshady747-create/LOCUS",
+    "date": "2026-08-21",
+    "id": "17873164682013"
+  },
+  {
     "title": "AI 制药专利困境：发明人必须是人类",
     "summary": "美国法院裁定专利发明人必须为人类，AI 无法获得法律认可身份。",
     "detail": "MIT 科技评论探讨 AI 制药领域的知识产权难题。尽管 Insilico Medicine 等公司利用生成式 AI 发现新药分子，但美国法院裁定专利发明人必须是人类。这一法律现状凸显了现行知识产权法在 AI 生成发明面前的滞后性。虽然 AI 能加速研发，但无法获得法律认可的“发明人”身份。这对 AI 制药公司的商业保护策略提出挑战，也引发了关于 AI 法律地位的深度伦理讨论。未来可能需要立法改革，明确 AI 辅助发明的权属，否则将阻碍 AI 在关键科学领域的进一步应用与投资，影响医药创新效率，迫使企业在专利申请时必须保留人类参与的核心证据链。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.sfchronicle.com/politics/article/andon-market-robobosses-bill-22393579.php",
     "date": "2026-08-20",
     "id": "17872252769201"
-  },
-  {
-    "title": "Qwen 3.8 Max 登顶τ³-Voice 排行榜",
-    "summary": "最新基准测试显示 Qwen 3.8 Max 在银行客服任务中表现最优。",
-    "detail": "τ³-Banking Leaderboard 更新了文本代理解决银行客服任务的排名。Qwen 3.8 Max 以 55.2% 的得分位居第一，超越 Claude Opus 5 和 Grok 4.5。测试基于约 700 文档知识库，评估检索、推理和用户模拟能力。榜单显示 2026 年 7 月发布的模型表现强劲，包括 GPT-5.6 和 Muse Spark 1.1。反映了多模态代理在垂直领域任务中的最新进展。高性能模型在复杂检索任务中展现出显著优势，为金融客服自动化提供了新基准和技术参考。榜单还显示了 GPT-5.5 和 Claude 系列模型的竞争力，表明大模型在特定任务上的性能差距正在缩小，检索增强生成技术至关重要。",
-    "tags": [
-      "News",
-      "LLM",
-      "Benchmark"
-    ],
-    "link": "http://taubench.com/leaderboard/",
-    "date": "2026-08-20",
-    "id": "17872252769202"
-  },
-  {
-    "title": "娱乐业对生成式 AI 的抵触情绪加剧",
-    "summary": "创作者使用 AI 辅助遭质疑，AI 标签成娱乐业“红字”。",
-    "detail": "生成式 AI 的使用在创意圈正成为“死亡之吻”，可能毁掉职业生涯。创作者 Hank Green 因脚本疑似 AI 生成遭观众质疑，虽承认用 AI 做研究辅助但仍道歉。行业对 AI 的纯度测试加剧，即便 disclose 也可能导致交易失败。此前有 200 万美元图书交易因 AI 指控被取消。这反映了娱乐业对 AI 介入创作内容的强烈抵触和信任危机，任何 AI 痕迹都可能被放大解读，导致商业合作破裂，创作者面临两难境地。无论是选择披露还是否认，在当前气候下都可能失败。这种情绪蔓延至整个娱乐行业，表明 AI 工具的商业化应用在社会接受度上仍面临巨大挑战。",
-    "tags": [
-      "News",
-      "Creative",
-      "Ethics"
-    ],
-    "link": "https://www.axios.com/2026/08/08/generative-ai-accusations-hank-green-jerry-falade",
-    "date": "2026-08-20",
-    "id": "17872252769203"
-  },
-  {
-    "title": "AWS 发布 Bedrock AgentCore 支持多智能体记忆",
-    "summary": "AWS 推出 AgentCore 托管服务，解决多智能体上下文记忆难题。",
-    "detail": "AWS 正式发布 Amazon Bedrock AgentCore Harness，提供托管式智能体构建框架。核心亮点在于 scoped memory 机制，按 actor 和 session 管理记忆，避免上下文窗口溢出。无需自建向量数据库即可实现多智能体协作中的状态保持，大幅降低企业级 Agent 开发门槛。该更新解决了多智能体系统中上下文丢失的痛点，支持任意框架或模型连接，推动复杂工作流自动化在客户服务等场景的落地。相比传统向量库方案，AgentCore 简化了运维负担，是 AWS 在 Agentic AI 基础设施上的重要布局，助力开发者构建更稳定的多智能体团队。",
-    "tags": [
-      "Dev",
-      "AWS",
-      "Agent"
-    ],
-    "link": "https://blog.n8n.io/node-spotlight-amazon-bedrock-agentcore/",
-    "date": "2026-08-20",
-    "id": "17872219129350"
-  },
-  {
-    "title": "AI 时代十二大结构性预测：边缘智能成趋势",
-    "summary": "报告预测 AI 将从云端向边缘端转移，重塑技术与经济格局。",
-    "detail": "文章提出 AI 对象框架（AOF），预测未来 5-10 年 AI 发展的 12 个结构性趋势。核心观点包括智能从云端向边缘设备（手机、车辆）迁移，人类将作为参与者与被观测实体共存于 AI 系统。该框架有助于投资者与开发者超越短期模型竞争，从长期结构性变革角度评估技术价值。报告强调不应仅关注下一轮模型发布，而应思考技术收敛方向。边缘智能的预测暗示算力下沉趋势，将影响硬件投资与隐私架构设计，为行业长期战略提供宏观视角。",
-    "tags": [
-      "News",
-      "Industry",
-      "Trend"
-    ],
-    "link": "https://www.newnex.io/news/12-structural-predictions-for-the-ai-era-ai-object-framework-aof",
-    "date": "2026-08-20",
-    "id": "17872219129352"
   }
 ]
