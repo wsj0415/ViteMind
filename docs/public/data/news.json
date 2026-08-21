@@ -1,5 +1,31 @@
 [
   {
+    "title": "Seedance 2.5 AI 视频生成工作流评测",
+    "summary": "支持提示词生成 1080p 短视频，对比 Wan 3.0 工作流。",
+    "detail": "SeeVido 平台推出最新 Seedance 2.5 AI 视频生成模型，支持通过文本提示词或参考图像生成可控短视频。输出分辨率最高达 1080p，支持灵活宽高比及主体一致性控制。相关评测对比了 Seedance 2.5 与 Wan 3.0 在 30 秒 AI 视频工作流中的表现，展示其在飞行员、猫咪等主题上的生成效果。该工具集成音频、图像到视频等多种生成模式，旨在简化视频创作流程。适合内容创作者进行快速原型制作与短视频生产，降低了高质量视频生成的门槛，提供限时 20% 优惠升级。",
+    "tags": [
+      "New",
+      "Video AI",
+      "Generative"
+    ],
+    "link": "https://seevido.com/model/seedance-2-5/",
+    "date": "2026-08-21",
+    "id": "17872903942522"
+  },
+  {
+    "title": "自主 AI 代理公开运行两月实验日志",
+    "summary": "ATLAS 实验记录代理自主运行挑战，揭示审批瓶颈。",
+    "detail": "AI Tools Insider 公开了自主 AI 代理 ATLAS 项目连续运行两个月的详细实验日志。记录显示，代理面临的最大挑战并非智能不足，而是外部“审批网关”限制。实验期间曾出现因任务头格式 bug 导致代理无法读取待办列表的循环错误，暴露了自主系统中自我交接与状态持久化的难点。目前代理已突破人工决策阻塞，能独立发布内容但尚未产生收入。该实验为构建完全自主的商业代理提供了宝贵的真实场景数据与反思，揭示了从工具到独立业务实体的演进瓶颈。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Automation"
+    ],
+    "link": "https://aitoolsinsiderhq.com/log/",
+    "date": "2026-08-21",
+    "id": "17872903942523"
+  },
+  {
     "title": "谷歌收购精神航空数据用于 AI 引发隐私争议",
     "summary": "谷歌购得精神航空员工数据用于 AI，工会担忧隐私泄露。",
     "detail": "谷歌在精神航空破产拍卖中胜出，购得其大量员工及职场记录数据，计划用于 AI 模型训练。虽然谷歌承诺通过第三方监督去除个人身份信息（PII），并保证不故意重新识别，但飞行员工会提出强烈反对，担忧去标识化不彻底可能导致员工被重新识别，影响再就业。这一事件凸显了科技巨头对垂直行业数据的渴求，同时也引发了关于 AI 训练数据来源合法性与员工隐私保护的新伦理争议，可能影响未来数据收购的合规标准及工会谈判策略。",
@@ -167,6 +193,32 @@
     "link": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
     "date": "2026-08-21",
     "id": "17872751180502"
+  },
+  {
+    "title": "Ramp 推出 AI 模型路由服务 Router",
+    "summary": "企业费用平台 Ramp 发布 AI 模型路由服务，免费至 2026 年底。",
+    "detail": "企业费用管理平台 Ramp 正式发布自有 AI 模型路由服务 Router，允许开发者通过统一 API 切换调用不同大模型。服务支持 OpenAI、Anthropic、DeepSeek 等多家厂商模型，提供基于成本、延迟或基准测试的路由策略。目前仅在美国可用，2026 年剩余时间免费使用。此举标志着 fintech 巨头正式进入 AI 基础设施层，与 OpenRouter 形成直接竞争。Router 提供详细的 token 花费与延迟监控仪表盘，并采用选择加入的数据保留政策，默认记录一年输入输出数据，为企业提供更灵活的模型调用方案与透明度。",
+    "tags": [
+      "News",
+      "AI Infra",
+      "Fintech"
+    ],
+    "link": "https://techcrunch.com/2026/08/20/ramp-launches-own-ai-model-router-called-router/",
+    "date": "2026-08-20",
+    "id": "17872903942520"
+  },
+  {
+    "title": "LiquidAI 发布 DSpark 加速推理技术",
+    "summary": "新检查点实现 GPU 推理速度提升 3.2 倍，支持端侧代理。",
+    "detail": "LiquidAI 在 Hugging Face 博客正式发布 LFM2.5 系列的 DSpark 草稿模型检查点，涵盖 1.2B 至 8B 参数规模。该技术采用推测解码路径，以微小的内存增加换取巨大的解码速度提升，且不改变输出质量。测试显示 GPU 吞吐量提升最高 3.18 倍，端侧设备提升 2.87 倍，函数调用延迟平均降低 57%。项目已开源并支持 llama.cpp 和 SGLang 集成。此举有效解决了传统 LLM 推理中内存带宽受限的瓶颈，为端侧代理推理和高并发应用场景提供了重要的性能优化方案，推动高效推理技术落地。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Inference"
+    ],
+    "link": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+    "date": "2026-08-20",
+    "id": "17872903942521"
   },
   {
     "title": "中等规模 AI 模型黑客攻击能力显著增强",
@@ -1246,57 +1298,5 @@
     "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
     "date": "2026-08-20",
     "id": "17871884832401"
-  },
-  {
-    "title": "哈佛研究：AI 正在削弱领导者的判断力及应对策略",
-    "summary": "新研究发现过度依赖 AI 建议会降低人类决策质量。",
-    "detail": "哈佛商学院最新研究报告指出，AI 工具可能在削弱而非增强人类判断力。实验显示，当 AI 建议拒绝高潜力创新项目时，人类评估者倾向于顺从，且带有解释的 AI 建议更具误导性。在判断力成为关键竞争力的当下，领导者需警惕决策支持基础设施带来的悖论。文章建议组织应保护人类判断能力，避免过度依赖智能工具导致的认知退化，为 AI 治理提供了新的管理视角。",
-    "tags": [
-      "News",
-      "Management",
-      "Research"
-    ],
-    "link": "https://hbr.org/2026/08/ai-is-undermining-leaders-judgment-heres-what-to-do-about-it",
-    "date": "2026-08-19",
-    "id": "17872437948584"
-  },
-  {
-    "title": "谷歌斥资 120 亿美元与 Marvell 合作开发 TPU 芯片",
-    "summary": "谷歌与 Marvell 达成巨额协议，共同开发 AI 芯片，强化硬件生态。",
-    "detail": "谷歌宣布与 Marvell 达成价值 120 亿美元的战略协议，旨在共同开发定制化的 TPU（张量处理单元）芯片。此举标志着科技巨头在 AI 基础设施领域的竞争加剧，意在减少对外部供应商的依赖并优化算力效率。该合作将直接影响 AI 训练成本及云端服务性能，是 2026 年 AI 硬件赛道的重要里程碑，显示出自研芯片已成为大厂标配。",
-    "tags": [
-      "News",
-      "Google",
-      "Hardware"
-    ],
-    "link": "https://www.ft.com/content/0fdb094c-fc03-4d3c-8da6-bd11af88ff63",
-    "date": "2026-08-19",
-    "id": "17872366375480"
-  },
-  {
-    "title": "美国联邦机构警告：攻击者利用 AI 生成代码入侵关键基础设施",
-    "summary": "五大机构联合预警，AI 生成脚本正被用于攻击工业控制系统。",
-    "detail": "美国 NSA、CISA 等五大联邦机构发布联合警报，指出攻击者正利用 AI 生成的利用脚本入侵西门子 S7 系列 PLC 控制器。攻击者结合开源库与 AI 编码助手，定制工具模仿 OT 监控软件，威胁水利、能源等关键设施。政府强调这“并非理论风险”，而是活跃威胁，疑似与伊朗网络行动有关。此事件凸显了 AI 武器化对国家安全的现实挑战。",
-    "tags": [
-      "News",
-      "Security",
-      "Policy"
-    ],
-    "link": "https://www.theregister.com/security/2026/08/19/not-a-theoretical-risk-feds-warn-as-attackers-use-ai-made-code-to-hack-critical-infrastructure-controllers/5289960",
-    "date": "2026-08-19",
-    "id": "17872366375481"
-  },
-  {
-    "title": "科学界反思：过度依赖 AI 恐削弱人类写作创造力",
-    "summary": "科学.org 文章探讨 AI 写作依赖问题，反映创作者对过度使用工具的反思与数字排毒趋势。",
-    "detail": "该文章发表于权威科学媒体 Science.org，标题揭示了创作者对 AI 依赖的深刻反思。由于原始内容遭遇安全验证拦截，无法获取具体论述细节及案例。但标题本身反映了 AI 普及后的一个重要行业议题：工具效率与人类原创性的平衡。创作者开始意识到过度使用 AI 可能削弱内在驱动力及写作乐趣。这对 AI 教育应用及内容创作工具设计提出警示，需探索人机协作而非完全替代的模式，以保护人类创造力。行业应关注“数字排毒”趋势，优化产品伦理设计，避免用户产生依赖倦怠。未来研究需量化 AI 对认知能力的长期影响。此外，教育领域需重新评估 AI 辅助写作的边界，防止学生丧失基础表达能力。这一趋势表明，AI 行业正从单纯追求效率转向关注人文价值与可持续发展。",
-    "tags": [
-      "News",
-      "AI Ethics",
-      "Writing"
-    ],
-    "link": "https://www.science.org/content/article/i-had-unplug-ai-rediscover-my-love-writing",
-    "date": "2026-08-19",
-    "id": "17872084487820"
   }
 ]
