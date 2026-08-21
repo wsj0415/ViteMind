@@ -1,5 +1,18 @@
 [
   {
+    "title": "行业观点：AI 泡沫论缺乏技术依据",
+    "summary": "专家认为 AI 性能不会 plateau，泡沫论不成立。",
+    "detail": "针对 AI 泡沫担忧，Honnibal 发文指出性能 plateau 论据不足。尽管训练成本指数级增长，但技术进步并未停滞。文章反驳了单纯依靠规模扩展会导致收益递减的观点，强调技术突破仍在持续。这对投资者理解 AI 资产估值与技术实际进展之间的差异提供了重要视角，建议关注长期技术价值。",
+    "tags": [
+      "News",
+      "Industry",
+      "Analysis"
+    ],
+    "link": "https://honnibal.dev/blog/ai-bubble",
+    "date": "2026-08-21",
+    "id": "17873050755281"
+  },
+  {
     "title": "多智能体系统安全新框架：Bounded Agents 论文发布",
     "summary": "提出 APC 架构解决多智能体授权安全问题，显著降低数据泄露风险。",
     "detail": "该 Arxiv 论文提出了一种名为“有界代理”（Bounded Agents）的安全架构，旨在解决多智能体系统中的授权安全问题。核心技术创新在于引入了代理主体链（APC），通过六项授权检查跟踪 delegated authority，并在模型之外执行决策。实验评估了 3154 个实例，结果显示 APC 能将 AgentDojo 数据泄露风险从 75-100% 降至 0%，并阻断所有 544 个 InjecAgent 数据窃取案例。授权延迟在 99% 分位仅为 0.24 毫秒。这对于未来自主 AI 代理的大规模部署至关重要，标志着 AI 安全从单纯依赖模型对齐转向架构层面的授权控制，为多代理系统提供了可验证的安全边界。",
@@ -323,6 +336,19 @@
     "link": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
     "date": "2026-08-21",
     "id": "17872751180502"
+  },
+  {
+    "title": "白宫新技术战略未列入开源权重 AI",
+    "summary": "美国家安全科技战略聚焦战场主导，忽略开源 AI。",
+    "detail": "白宫发布 2026 年国家国家安全科学技术战略，列出 15 个关键技术领域，AI 与自主系统入选，但开源权重 AI 未被列入关键名单。战略强调海底、太空及 AI 战场的 dominance，倾向于低成本、大规模平台。此举可能影响开源 AI 模型的政府资助与监管走向，显示政策向闭源及国家安全应用倾斜。",
+    "tags": [
+      "News",
+      "Policy",
+      "Regulation"
+    ],
+    "link": "https://thenextweb.com/news/white-house-strategy-open-weight-ai-critical-technology-list",
+    "date": "2026-08-20",
+    "id": "17873050755282"
   },
   {
     "title": "工程师实测：利用 AI 完成 275 次提交更新副业项目",
@@ -1272,31 +1298,5 @@
     "link": "https://www.dexerto.com/entertainment/florida-police-officer-accused-of-using-ai-flock-cameras-to-track-ex-wife-717-times-3400226/",
     "date": "2026-08-20",
     "id": "17872151529992"
-  },
-  {
-    "title": "ProtoNote：AI 原型设计与反馈协作工具",
-    "summary": "Product Hunt 新品，支持分享 AI 构建原型并 pinned 反馈。",
-    "detail": "ProtoNote 正式在 Product Hunt 上线，这是一款专为 AI 构建原型设计的协作工具。用户可轻松分享 AI 生成的原型，并在页面上直接获取反馈 pinned 点，实现高效协作。它针对 AI 工作流自动化及工程设计类别，旨在优化从原型到产品的反馈循环。适合开发者及设计师快速验证 AI 生成的界面或功能构想，降低沟通成本。该工具反映了 AI 原生应用开发流程的演变，强调快速迭代与实时反馈在产品打磨中的核心价值。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Design"
-    ],
-    "link": "https://www.producthunt.com/products/protonote",
-    "date": "2026-08-20",
-    "id": "17872151529993"
-  },
-  {
-    "title": "生成式 AI 概念纠缠导致图像编辑错误",
-    "summary": "VLM 模型在编辑图片时错误添加不存在的梳子。",
-    "detail": "分析师 Martin Anderson 指出生成式 AI 存在严重的“概念纠缠”问题。案例显示，VLM 模型在编辑一张 60 年代女演员照片时，因训练数据中“梳理头发”常与“梳子”强关联，错误地在无梳子画面中添加了梳子。这揭示了当前多模态模型在语义理解与图像编辑一致性上的局限，提醒用户注意 AI 生成内容的准确性。该现象表明模型依赖统计概率而非真实逻辑，可能导致历史资料篡改或误导性内容传播，需警惕其在专业领域的应用风险。",
-    "tags": [
-      "News",
-      "Vision",
-      "LLM"
-    ],
-    "link": "https://martinanderson.ai/blog/entanglement-in-ai-generation-veronica-carlson-hair.html",
-    "date": "2026-08-20",
-    "id": "17872151529994"
   }
 ]
