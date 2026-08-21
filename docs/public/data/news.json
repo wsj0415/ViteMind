@@ -1,5 +1,18 @@
 [
   {
+    "title": "Show HN: Plainspeak 插件让 AI 写作摆脱机器味",
+    "summary": "新工具禁止 AI 使用“深入探讨”等陈词滥调，强制输出更自然的人类语言风格。",
+    "detail": "Plainspeak 是一款旨在优化 AI 代理写作风格的新工具，致力于消除典型的“机器味”。它通过禁止使用 delve、leverage、robust 等 AI 高频词汇，以及“Let's dive in”等填充短语和过度使用的破折号，迫使模型输出更简洁自然的语言。该工具支持多种集成方式，包括 npm 包、Opencode 插件及 Claude Code 插件。对于希望提升 AI 生成内容可读性和人性化的开发者及内容创作者，这是一个实用的解决方案，反映了市场对 AI 内容自然度的更高需求。",
+    "tags": [
+      "New",
+      "NLP",
+      "Developer Tool"
+    ],
+    "link": "https://sufiyan.cc/plainspeak",
+    "date": "2026-08-21",
+    "id": "17872982132971"
+  },
+  {
     "title": "AWS Bedrock AgentCore 增强代理安全架构",
     "summary": "AWS 推出新架构防止 AI 代理被劫持，强制用户上下文验证，保障企业数据安全。",
     "detail": "企业正加速部署 AI 代理以自动化工作流，但面临提示注入导致数据泄露的隐蔽风险。AWS Bedrock AgentCore 引入全新安全架构，将授权逻辑从代理代码移至基础设施层。即使代理被完全劫持，仍受限于用户特定权限的加密约束。此举解决了依赖应用级过滤的结构性弱点，确保 DynamoDB、知识库及 SaaS 集成安全，防止未经授权的数据访问。该架构 shift 为企业级 AI 部署提供关键安全保障，降低合规风险，避免类似 GitLab GraphQL 漏洞的 catastrophic 后果。",
@@ -245,6 +258,19 @@
     "link": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
     "date": "2026-08-21",
     "id": "17872751180502"
+  },
+  {
+    "title": "工程师实测：利用 AI 完成 275 次提交更新副业项目",
+    "summary": "Canonical 经理分享使用 Claude Opus 5 和 GLM 5.2 重构婚礼网站项目的实战经验。",
+    "detail": "Canonical 经理 Ben Hoyt 在休假期间利用 AI 工具更新其副业项目 Gifty Weddings。他主要使用 Claude Code 搭配 Opus 5 模型进行核心编码，辅以 Pi 和 GLM 5.2 处理小任务。项目在短期内产生了 275 次提交，成功从礼物注册表升级为婚礼网站构建器。Hoyt 强调，尽管 AI 能提高效率，但工程师的“大脑” oversight 至关重要，需避免生成低质代码（slop）。该案例为 AI 辅助编程工作流提供了真实参考，证明了在人类监督下 AI 可显著提升开发速度。",
+    "tags": [
+      "Dev",
+      "AI Coding",
+      "Claude"
+    ],
+    "link": "https://benhoyt.com/writings/updating-gifty-with-ai/",
+    "date": "2026-08-20",
+    "id": "17872982132970"
   },
   {
     "title": "支付平台 Ramp 推出 AI 模型路由服务 Router",
@@ -1272,31 +1298,5 @@
     "link": "https://www.archron.app/",
     "date": "2026-08-20",
     "id": "17871978296592"
-  },
-  {
-    "title": "深度分析：AI 能写 SQL 后，数据库管理工具是否仍需存在？",
-    "summary": "探讨 AI 生成 SQL 能力下，传统数据库管理工具的核心价值与未来。",
-    "detail": "文章深入分析了 AI 生成 SQL 对数据库管理的影响。虽然 AI 能高效编写查询，但生产环境中的权限控制、敏感列访问、变更审批及审计追踪仍是难点。AI 降低了操作成本，但未降低错误操作的风险成本。结论是数据库客户端不会消失，而是演变为包含 AI 的治理工具。开发者需关注安全边界而非仅关注代码生成效率。信任边界问题凸显，直接赋予 AI 数据库访问权需谨慎。未来工具将更注重操作审计与风险控制，而非单纯的查询生成，保障生产环境的稳定性与安全性。",
-    "tags": [
-      "Dev",
-      "Database",
-      "SQL"
-    ],
-    "link": "http://johnli.work/posts/do-we-still-need-database-management-tools-when-ai-can-write-sql/",
-    "date": "2026-08-20",
-    "id": "17871978296593"
-  },
-  {
-    "title": "代理 AI 引发 CPU 性能瓶颈，硬件格局迎来新转折",
-    "summary": "IEEE 报道代理 AI 导致 CPU 成为新瓶颈，CPU 重要性回升。",
-    "detail": "IEEE Spectrum 最新分析指出，随着 Agentic AI 应用的爆发，传统由 GPU 主导的算力格局正在发生变化。由于代理 AI 需要处理复杂的逻辑推理和任务调度，CPU 反而成为了新的性能瓶颈。这一趋势预示着数据中心硬件架构将面临重塑，CPU 技术革新将加速，可能改变芯片行业的竞争态势。对于 AI 基础设施开发者而言，关注 CPU 性能优化及异构计算架构将成为接下来的关键方向，以应对代理 AI 带来的新挑战。此外，这也意味着成本结构可能变化，企业需重新评估硬件采购策略。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Infrastructure"
-    ],
-    "link": "https://spectrum.ieee.org/ai-cpu-comeback",
-    "date": "2026-08-20",
-    "id": "17871947465560"
   }
 ]
