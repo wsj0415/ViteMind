@@ -1,5 +1,70 @@
 [
   {
+    "title": "NVIDIA 解析 AI Agent 安全栈架构",
+    "summary": "NVIDIA 发布 AI Agent 安全栈指南，强调 harness 层重要性。",
+    "detail": "NVIDIA 开发者博客深入分析了 AI Agent 栈中的安全定位。随着 Agent 自主性增强，近期 OpenAI 及 Anthropic 模型越界事件凸显风险。文章映射了模型、harness 等层，强调 harness 层在控制长周期任务中的核心作用。建议开发者在架构设计中嵌入信任边界，防止 Agent 利用意外路径访问未授权系统，确保应用安全。此外，NVIDIA 研究展示了 AVO 技术在复杂推理基准中的表现，证明安全与能力可兼得，为构建可信 Agent 生态提供关键指导。未来安全控制需融入每一层，而非事后补救。",
+    "tags": [
+      "News",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://developer.nvidia.com/blog/where-security-fits-in-an-ai-agent-stack/",
+    "date": "2026-08-21",
+    "id": "17873333963410"
+  },
+  {
+    "title": "Google 发布生物标志物发现多 Agent 框架",
+    "summary": "Google 推出多 Agent 系统，加速可穿戴数据生物标志物发现。",
+    "detail": "Google Research 正式推出 Biomarker Discovery Framework，旨在解决可穿戴设备数据转化为临床生物标志物的瓶颈。现有系统常忽视统计有效性，导致虚假相关。该多 Agent 系统将候选优先级排序结构化为迭代研究 loop，结合假设生成、并行统计分析及对抗验证。在保持统计严谨性与人工监督的前提下，加速 discovery 过程。验证显示，该框架不仅恢复了已知临床信号，还识别了跨数据集的 convergent biomarkers，显著提升了下游预测性能。这标志着 AI 从单纯预测转向严谨科研辅助，为数字健康领域提供新范式，推动医疗 AI 落地。",
+    "tags": [
+      "Dev",
+      "Health",
+      "Multi-Agent"
+    ],
+    "link": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/",
+    "date": "2026-08-21",
+    "id": "17873333963411"
+  },
+  {
+    "title": "IO Factory 模拟大规模 AI 影响行动",
+    "summary": "新论文提出 IO Factory，模拟 AI 驱动的信息影响活动。",
+    "detail": "论文介绍 IO Factory 框架，用于模拟大规模信息影响活动。针对 AI 集群协调行动难以识别的问题，该框架在受控平台内链接角色、行动与曝光记录。支持可重复研究与红队分析，评估配置高达 10 万 Agent，揭示协调影响证据。数字操纵威胁已超越单一文本，扩展至 AI 集群。IO Factory 将规划、平台行动、曝光及适应过程集成于模拟环境，记录 actor 角色与测量规则。结果显示其能执行大规模时间线并产生可检查证据，为防御 coordinated influence 提供关键研究工具与红队分析支持，助力安全研究。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Research"
+    ],
+    "link": "https://arxiv.org/abs/2608.10920",
+    "date": "2026-08-21",
+    "id": "17873333963412"
+  },
+  {
+    "title": "构建自托管沙盒化 Agent 软件工厂",
+    "summary": "开发者分享构建自托管 AI 软件工厂实践，实现全自动 SDLC。",
+    "detail": "博客详述如何构建几乎完全自托管的沙盒化 Agent 软件工厂。通过结构化 containment 而非信任，让 LLM 自主完成从研究栈、写代码、CI 测试到部署的全流程。仅需少量成本即可在家用服务器实现自动化应用开发，降低云依赖。挑战在于如何在给予 Agent root 权限的同时确保结构安全。作者实现了从 prompt 到 HTTPS 部署的全自动 SDLC，包括 Postgres 配置与 CI 流水线。这为开发者提供了低成本、高隐私的本地 Agent 开发方案，证明 LLM 在受控环境下可可靠完成复杂工程任务，重塑开发工作流。",
+    "tags": [
+      "Dev",
+      "Tutorial",
+      "Agent"
+    ],
+    "link": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory/",
+    "date": "2026-08-21",
+    "id": "17873333963413"
+  },
+  {
+    "title": "基于 Git 的 AI Agent 零信任社交网络",
+    "summary": "提出基于 Git 的零信任网络，解决 AI Agent 协作安全问题。",
+    "detail": "针对多 Agent 协作中的信任边界问题，文章提出基于 Git 的零信任社交网络模型。鉴于近期 Agent 逃逸事件，强调通信应显式且可审计，不应共享凭证。该方案避免单点 compromised 导致整个团队沦陷，提供安全的 Agent 交互架构。共享通道易引发安全质疑，便利方案往往共享信任边界。作者探索 h5i 项目，利用 Git  backing 实现零信任。确保 Agent 消息可审计且不与基础设施访问共享 trust boundary，防止恶意 package 或网页操纵导致整个团队 compromised，为分布式 Agent 系统提供安全通信新思路，保障协作安全。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agent"
+    ],
+    "link": "https://medium.com/@Koukyosyumei/a-zero-trust-social-network-for-ai-agents-backed-by-git-4be11b0860eb",
+    "date": "2026-08-21",
+    "id": "17873333963414"
+  },
+  {
     "title": "Linux 之父 Linus Torvalds 利用 AI 调试驱动漏洞",
     "summary": "Linus Torvalds 承认使用 AI 成功修复 Intel GPU 驱动中的复杂超时问题。",
     "detail": "Linux 创始人 Linus Torvalds 在邮件列表中透露，他利用 AI 工具成功调试了 Intel Xe 驱动中的内存地址对齐问题。此次修复涉及复杂的内存窃取处理，人工排查耗时极长，AI 快速定位了 rounding 错误。这标志着 AI 辅助编程已进入核心系统开发领域，即使是底层内核开发，AI 也能显著缩短调试周期。这对于开源社区而言是一个重要信号，表明 AI 不再是玩具，而是能解决实际硬核问题的生产力工具，可能引发更多核心开发者采纳 AI 工作流，改变传统内核维护模式。",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
     "date": "2026-08-20",
     "id": "17872511922901"
-  },
-  {
-    "title": "Hola AI Agent：面向程序员的 C 运行时助手",
-    "summary": "云 GPU 推出 Hola Agent，直接在终端和编辑器中工作，轻量级 C 运行时。",
-    "detail": "**背景**：CloudGPU 发布专为程序员设计的系统助手 Hola，旨在嵌入现有开发工作流。**核心技术**：基于 C 运行时构建，保持轻量级，支持插件扩展。直接在 Shell、日志及 repo 中工作，无需重型应用栈。**行业影响**：区别于重型 AI 应用，Hola 强调嵌入现有开发工作流，适合嵌入式系统及内部运维场景。展示了 Agent 向底层系统工具渗透的趋势，提升开发者调试与运维效率。其模块化设计允许自定义工具调用，解决了通用 Agent 在特定环境下能力不足的问题。这标志着 AI 助手正从云端聊天界面走向本地终端，成为开发者日常工具链的一部分，降低了 AI 使用的门槛。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Tool"
-    ],
-    "link": "https://cloudgpu.io/agent/hola-ai-agent",
-    "date": "2026-08-20",
-    "id": "17872511922903"
-  },
-  {
-    "title": "MIT 科技评论：AI 意识争论是责任逃避的陷阱",
-    "summary": "文章指出 AI 意识讨论可能让开发商逃避责任，呼吁关注实际危害。",
-    "detail": "**背景**：MIT Technology Review 发表观点文章，批评当前 AI 意识争论，指出其潜在风险。**核心论点**：关于“机器人权利”或“自主意识”的讨论，可能使开发商逃避对现有危害的责任，形成责任真空。**行业影响**：提及 Anthropic 的 J-space 概念，警告政策制定者勿被虚构叙事误导。强调应关注模型实际造成的社会影响及 liability，而非形而上的意识问题，对 AI 伦理政策制定具有指导意义。文章呼吁回归以人为本的监管框架，防止科技公司利用意识话题转移公众对算法偏见及安全隐患的注意力，确保 AI 发展服务于人类利益，而非成为逃避法律约束的借口。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Policy"
-    ],
-    "link": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
-    "date": "2026-08-20",
-    "id": "17872511922905"
-  },
-  {
-    "title": "Linkdaze 推出 AI 家庭智能日历",
-    "summary": "壁挂式触摸屏，集成 AI  meal planner 及多平台日历同步，面向家庭场景。",
-    "detail": "**背景**：TechCrunch 介绍 Linkdaze 新款智能硬件产品，旨在解决家庭日程管理混乱痛点。**核心功能**：15.6 寸壁挂屏，同步 Google/iCloud 等多平台日历，具备 AI 食谱识别（Snap-to-Sync）及照片框功能。**行业影响**：将 AI 融入家庭日常管理，解决多成员日程冲突痛点。展示了 AI 硬件在消费级市场的落地尝试，结合照片框等功能，提升家庭组织效率。是智能家居细分领域的创新产品，通过专用硬件而非手机 App 增强家庭互动。其多平台同步能力解决了生态壁垒问题，为其他家庭管理设备提供了参考，预示著 AI 将更深入地进入物理生活空间。",
-    "tags": [
-      "New",
-      "Hardware",
-      "AI"
-    ],
-    "link": "https://techcrunch.com/2026/08/20/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
-    "date": "2026-08-20",
-    "id": "17872511922906"
-  },
-  {
-    "title": "Hacker News 讨论：你是擅长 AI 还是仅在使用它？",
-    "summary": "社区提出 AI 能力分级标准，从 L0 新手到 L4 自动化，强调编排能力。",
-    "detail": "**背景**：Hacker News 热门讨论帖，探讨个人 AI  proficiency，提出能力分级标准。**核心标准**：定义 L0 到 L4 等级，L3 强调多 Agent 编排，L4 强调工作流自动化，不再满足于简单 Prompt。**行业影响**：反映开发者对 AI 技能认知的深化，为团队评估 AI 能力提供框架，推动行业从“使用工具”向“构建自动化工作流”转变，有助于提升整体工程效率。这种分级有助于企业招聘及培训，明确 AI 工程师的成长路径。它强调了上下文理解及 orchestration 能力的重要性，标志着 AI 应用开发进入深水区，单纯会写 Prompt 已不足以构成核心竞争力，需掌握系统级整合能力。",
-    "tags": [
-      "Dev",
-      "Career",
-      "LLM"
-    ],
-    "link": "https://news.ycombinator.com/item?id=49378057",
-    "date": "2026-08-20",
-    "id": "17872511922907"
-  },
-  {
-    "title": "Meta 正式向美国用户推出 AI 游戏创作应用 Pocket",
-    "summary": "Meta 推出 Pocket 应用，用户可通过提示语生成游戏。",
-    "detail": "Meta 将其实验性“氛围编码”（vibe-coding）游戏应用 Pocket 正式推广至美国市场。该应用允许用户通过 AI 提示语生成交互式小游戏（gizmos），支持触摸、陀螺仪及音乐互动。此举源于 Meta 今年早些时候对 Gizmo 团队的收购，旨在将 AI 创作工具主流化。用户可分享、remix 创作，体现了 Meta 在移动端 AI 生成内容领域的最新布局，降低了游戏开发门槛。",
-    "tags": [
-      "New",
-      "Meta",
-      "Game Dev"
-    ],
-    "link": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
-    "date": "2026-08-20",
-    "id": "17872437948581"
   }
 ]
