@@ -1,5 +1,70 @@
 [
   {
+    "title": "多智能体系统安全新框架：Bounded Agents 论文发布",
+    "summary": "提出 APC 架构解决多智能体授权安全问题，显著降低数据泄露风险。",
+    "detail": "该 Arxiv 论文提出了一种名为“有界代理”（Bounded Agents）的安全架构，旨在解决多智能体系统中的授权安全问题。核心技术创新在于引入了代理主体链（APC），通过六项授权检查跟踪 delegated authority，并在模型之外执行决策。实验评估了 3154 个实例，结果显示 APC 能将 AgentDojo 数据泄露风险从 75-100% 降至 0%，并阻断所有 544 个 InjecAgent 数据窃取案例。授权延迟在 99% 分位仅为 0.24 毫秒。这对于未来自主 AI 代理的大规模部署至关重要，标志着 AI 安全从单纯依赖模型对齐转向架构层面的授权控制，为多代理系统提供了可验证的安全边界。",
+    "tags": [
+      "Dev",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://arxiv.org/abs/2608.15888",
+    "date": "2026-08-21",
+    "id": "17873017672770"
+  },
+  {
+    "title": "法律行业面临 AI 洗牌：仅法官可能幸存",
+    "summary": "专家预测 AI 将导致法律工作大屠杀，唯有法官职位相对安全。",
+    "detail": "澳大利亚金融评论报报道，未来学家 Greg Baker 预测法律行业将面临 AI 带来的“大屠杀”。文章指出，除了法官等需要人类最终判断的角色外，大部分律师工作将被 AI 自动化取代。Baker 在公平工作委员会的胜利后做出了这一预测，强调 AI 在处理文档、案例检索及初步法律分析上的高效性将导致岗位锐减。该新闻引发了对专业服务行业就业未来的深刻讨论，提示法律从业者需转型以适应人机协作新模式，同时也引发了关于司法系统中人类角色保留的伦理讨论。",
+    "tags": [
+      "News",
+      "Industry",
+      "Jobs"
+    ],
+    "link": "https://www.afr.com/work-and-careers/workplace/judges-may-be-the-only-survivors-of-law-s-ai-carnage-futurist-20260819-p60pla",
+    "date": "2026-08-21",
+    "id": "17873017672771"
+  },
+  {
+    "title": "深度观点：为何用 AI 写作是愚蠢的",
+    "summary": "文章论证写作即思考，依赖 AI 生成文本会削弱人类思维能力。",
+    "detail": "LambdaLand 发表深度文章 argues 使用 AI 写作是愚蠢的行为。核心论点是“写作即思考”，依赖 AI 生成文本会剥夺人类通过组织语言来理清思路的过程。文章引用 The Atlantic 观点，指出写作困难是因为它在塑造思维，而 AI 提供的简单 remedy 会暴露 flabby thoughts。即使 AI 技术完美无缺，代写也会阻碍洞察力的产生和逻辑的形成。文章建议将 AI 用于翻译或辅助，而非核心创作。这对教育界和内容创作者具有重要的伦理警示意义，强调保持人类认知能力的重要性，避免思维外包。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Writing"
+    ],
+    "link": "https://lambdaland.org/posts/2026-08-07-ai-writing-stupid/",
+    "date": "2026-08-21",
+    "id": "17873017672772"
+  },
+  {
+    "title": "ShogunAI 上线：打造个人 PC 端的 AGI 助手",
+    "summary": "Product Hunt 新品，旨在本地 PC 上运行通用人工智能完成实际工作。",
+    "detail": "Product Hunt 热门新品 ShogunAI 亮相，定位为“个人 PC 上的通用人工智能”。该产品旨在帮助用户完成实际工作任务，而不仅仅是聊天。这反映了 AI 应用从云端向本地化、从对话向行动代理（Agent）转变的趋势。作为个人 AGI 工具，它可能集成多种模型能力，试图在本地环境中提供隐私安全且高效的自动化服务。在产品分类中属于 AI Agents 和 Productivity 类别，值得关注其实际落地能力以及对个人工作流自动化带来的变革，是本地 AI 部署趋势的代表作。",
+    "tags": [
+      "New",
+      "Agent",
+      "Productivity"
+    ],
+    "link": "https://www.producthunt.com/products/shogunai",
+    "date": "2026-08-21",
+    "id": "17873017672773"
+  },
+  {
+    "title": "Google Antigravity IDE 扩展：多编码代理协同工具",
+    "summary": "新产品允许在 IDE 中同时运行和监控多个编码代理，提升开发效率。",
+    "detail": "Google Antigravity IDE 扩展在 Product Hunt 发布，允许开发者在集成开发环境中同时运行和监控多个编码代理。这一工具解决了单一 AI 助手上下文受限的问题，支持多代理协作编程。体现了 AI 编程工具向复杂工作流管理的演进，适合需要处理大型代码库或并行任务的开发团队。这是 AI 辅助软件工程（AI4SE）领域的最新实践，提升了开发效率上限。属于 Engineering & Development 类别，展示了多代理系统在软件开发中的具体应用场景，为开发者提供了新的协作范式。",
+    "tags": [
+      "New",
+      "Dev",
+      "Coding"
+    ],
+    "link": "https://www.producthunt.com/products/google-antigravity",
+    "date": "2026-08-21",
+    "id": "17873017672774"
+  },
+  {
     "title": "Show HN: Plainspeak 插件让 AI 写作摆脱机器味",
     "summary": "新工具禁止 AI 使用“深入探讨”等陈词滥调，强制输出更自然的人类语言风格。",
     "detail": "Plainspeak 是一款旨在优化 AI 代理写作风格的新工具，致力于消除典型的“机器味”。它通过禁止使用 delve、leverage、robust 等 AI 高频词汇，以及“Let's dive in”等填充短语和过度使用的破折号，迫使模型输出更简洁自然的语言。该工具支持多种集成方式，包括 npm 包、Opencode 插件及 Claude Code 插件。对于希望提升 AI 生成内容可读性和人性化的开发者及内容创作者，这是一个实用的解决方案，反映了市场对 AI 内容自然度的更高需求。",
@@ -1233,70 +1298,5 @@
     "link": "https://martinanderson.ai/blog/entanglement-in-ai-generation-veronica-carlson-hair.html",
     "date": "2026-08-20",
     "id": "17872151529994"
-  },
-  {
-    "title": "卫报评论：AI 时代人类不安全感从身体转向思维",
-    "summary": "卫报文章探讨 AI 如何改变人类不安全感的来源，从身体缺陷延伸至思维领域。",
-    "detail": "该评论文章探讨了技术演进对人类心理的深层影响。标题指出，以往人类的不安全感多源于身体缺陷，而 AI 时代的到来将这种焦虑延伸至思维层面。这意味着随着 AI 介入认知领域，人类开始担忧智力被替代。尽管原文详细内容在提供的片段中有限，但该主题揭示了 AI 发展的社会心理成本。对于行业而言，这提示我们在追求模型性能的同时，必须重视 AI 伦理与用户心理健康，避免技术异化带来的负面影响。构建更具人文关怀的技术生态将成为未来 AI 产品差异化竞争的关键点，开发者需关注技术背后的社会情绪。",
-    "tags": [
-      "News",
-      "AI Ethics",
-      "Social Impact"
-    ],
-    "link": "https://www.theguardian.com/commentisfree/2026/aug/20/bodies-ai-minds-history-technology-humans",
-    "date": "2026-08-20",
-    "id": "17872116995050"
-  },
-  {
-    "title": "Doover：为 AI Agent shell 命令提供撤销功能",
-    "summary": "开源工具 Doover 允许撤销 AI 代理的破坏性 shell 命令，保障开发安全。",
-    "detail": "Doover 是一个专为 AI 代理设计的开源安全工具，旨在解决 Agent 执行 shell 命令时的风险。它能在 destructive bash 命令（如 rm -rf, git reset）运行前快照文件，并记录操作日志。核心功能是提供真实的 undo 能力，即使是对 git 未跟踪的文件或项目外文件也有效。这解决了 AI 编码代理误操作导致数据丢失的痛点。对于开发者而言，集成此类工具能显著提升 AI 工作流的安全性，降低自动化脚本的破坏性风险，是 AI Agent 部署中的重要基础设施补充。随着 Agent 自主性增强，此类安全层将成为标配，防止不可逆的系统损坏，增强用户对 AI 编程助手的信任度。",
-    "tags": [
-      "Dev",
-      "AI Agent",
-      "Open Source"
-    ],
-    "link": "https://github.com/CaydenChik/doover",
-    "date": "2026-08-20",
-    "id": "17872116995051"
-  },
-  {
-    "title": "加密货币与 AI 行业中期选举 PAC 机器遇挫",
-    "summary": "加密行业 PAC 在佛罗里达州初选失利，AI 行业亦受关注。",
-    "detail": "加密行业 PAC Fairshake 在佛罗里达州初选遭遇罕见失利，尽管今年已赢得 53 场中的 49 场。新闻标题明确将 AI 行业与加密货币并列，暗示科技巨头正通过政治资金影响中期选举。Fairshake 背后有 a16z 及 Coinbase 支持，其策略变化反映了科技行业对政策环境的焦虑。这对未来 AI 监管政策走向具有风向标意义，行业需密切关注政治博弈对合规环境及创新空间的潜在影响。资金介入选举可能加速有利于科技巨头的立法进程，但也面临公众反弹风险。此次失利表明即便资金雄厚，也无法完全左右选情，科技行业需调整游说策略以应对复杂的政治生态。未来 AI 政策可能成为两党博弈焦点，企业需做好合规准备。",
-    "tags": [
-      "News",
-      "Policy",
-      "Investment"
-    ],
-    "link": "https://www.politico.com/newsletters/politico-influence/2026/08/19/a-rare-setback-for-cryptos-midterm-machine-01042044",
-    "date": "2026-08-20",
-    "id": "17872039165600"
-  },
-  {
-    "title": "利用 AI 构建面试教练系统",
-    "summary": "Lenny 社区研究如何将 AI 融入面试流程，提供实用指南。",
-    "detail": "Lenny's Newsletter 发布最新深度研究，揭示求职者如何利用 AI 构建互联系统应对面试全流程。研究基于 30 多位参与者真实经验，并将成功技巧 encoded 成 Claude Code 教练供用户直接使用。涵盖面试准备、模拟及反馈环节，帮助求职者高效利用 AI 工具提升竞争力，而非简单依赖生成式回答。该报告指出最佳候选人已建立系统化 AI 工作流，标志着 AI 应用从单点工具向系统整合转变。对于希望优化招聘流程或个人求职的用户，提供了系统性 AI 应用方案，展示 AI 代理在实际工作流中的潜力与边界，强调人机协作而非替代，为职业发展规划提供新视角。",
-    "tags": [
-      "Dev",
-      "AI Tools",
-      "Career"
-    ],
-    "link": "https://www.lennysnewsletter.com/p/how-to-use-ai-in-your-next-job-interview",
-    "date": "2026-08-20",
-    "id": "17872006784580"
-  },
-  {
-    "title": "Archron 上线：为 AI Agent 写入 CRM 提供安全治理层",
-    "summary": "新工具 Archron 确保 AI 代理安全操作生产系统，防止未授权写入。",
-    "detail": "Product Hunt 热门新品 Archron 定位为 AI 执行基础设施。它在 AI 代理与 CRM/ERP 系统之间建立治理层，在执行前验证每个动作。功能包括零未授权写入、工作流保护及审计追踪。解决了企业信任 AI 操作生产数据的痛点，确保架构和权限完整。适合需要将 AI 集成到核心业务流但担心安全风险的开发者和企业。作为执行治理层，它允许 AI 安全更新生产系统，提供完整的可审计性。这意味着企业可以在不破坏现有工作流的前提下，实现 AI 自动化带来的投资回报，是 AI 代理落地企业级应用的关键基础设施补充。",
-    "tags": [
-      "New",
-      "Agent",
-      "Security"
-    ],
-    "link": "https://www.archron.app/",
-    "date": "2026-08-20",
-    "id": "17871978296592"
   }
 ]
