@@ -1,5 +1,57 @@
 [
   {
+    "title": "AWS Bedrock AgentCore 增强代理安全架构",
+    "summary": "AWS 推出新架构防止 AI 代理被劫持，强制用户上下文验证，保障企业数据安全。",
+    "detail": "企业正加速部署 AI 代理以自动化工作流，但面临提示注入导致数据泄露的隐蔽风险。AWS Bedrock AgentCore 引入全新安全架构，将授权逻辑从代理代码移至基础设施层。即使代理被完全劫持，仍受限于用户特定权限的加密约束。此举解决了依赖应用级过滤的结构性弱点，确保 DynamoDB、知识库及 SaaS 集成安全，防止未经授权的数据访问。该架构 shift 为企业级 AI 部署提供关键安全保障，降低合规风险，避免类似 GitLab GraphQL 漏洞的 catastrophic 后果。",
+    "tags": [
+      "News",
+      "Security",
+      "AWS"
+    ],
+    "link": "https://techupdate24.com/aws-bedrock-agentcore-hijacked-ai-security/",
+    "date": "2026-08-21",
+    "id": "17872948520700"
+  },
+  {
+    "title": "Argentic 推出 AI 代理 Lightning 收费亭",
+    "summary": "首个机器原生收费亭，AI 代理用比特币 Lightning 支付访问网页，无需 API 密钥。",
+    "detail": "Argentic 网络成为互联网首个机器原生收费亭，专为 AI 代理抓取设计。代理通过 Bitcoin Lightning 网络支付 10 聪（约 0.001 美元）即可访问开放网页，无需账户或 API 密钥。支付后获得 1 小时会话令牌，毫秒级结算。该协议通过 HTTP 402 状态码返回发票，代理自动支付后通行。旨在解决机器间支付的摩擦问题，为内容提供者提供微支付 monetization 方案，同时保持代理访问的无摩擦体验，速度如光速般快捷。",
+    "tags": [
+      "New",
+      "Bitcoin",
+      "Agents"
+    ],
+    "link": "https://Argentic.network",
+    "date": "2026-08-21",
+    "id": "17872948520702"
+  },
+  {
+    "title": "AliothPress CMS 集成 WebMCP 支持 AI 代理",
+    "summary": "自托管 CMS 原生支持 WebMCP 标准，允许代理搜索内容及提交表单，权限可控。",
+    "detail": "AliothPress 成为首个原生支持 WebMCP 标准的自托管 CMS，允许网站所有者显式控制 AI 代理权限。通过 `/.well-known/webmcp` manifest 自动发现工具，代理可搜索内容、描述表单或代表访客提交表单。功能默认关闭，需管理员在后台开启公共或管理员工具。无需插件或第三方服务，核心内置支持。此举增强了网站与 AI 代理的互操作性，为 AI 驱动的网络交互提供标准化接口，类似 robots.txt 但支持更复杂的工具调用。",
+    "tags": [
+      "New",
+      "WebMCP",
+      "CMS"
+    ],
+    "link": "https://aliothpress.com/cms-for-ai-agents-webmcp-built-in",
+    "date": "2026-08-21",
+    "id": "17872948520703"
+  },
+  {
+    "title": "RunAI Coder 实现自然语言生成可玩游戏",
+    "summary": "描述想法即可生成游戏或代码 PR，单次交付约 10 美元，支持多平台与审计。",
+    "detail": "RunAI Coder 允许用户通过自然语言指令生成可玩游戏或合并代码 PR。采用 Fable 5 及 GPT 5.6 Sol 模型，提供高达 6 倍成本节省（通过压缩与批量优化）。免费起步包含 2-3 次交付，付费模式按用量计费，约 10 美元可获 8-9 次交付。支持终端应用及多平台，每一步均可审计，用户可从浏览器接管会话。旨在降低开发门槛，实现一人一机器的高效交付模式，适合快速原型开发与游戏生成场景。",
+    "tags": [
+      "New",
+      "Coding",
+      "GameGen"
+    ],
+    "link": "https://run.ceo/coder/",
+    "date": "2026-08-21",
+    "id": "17872948520704"
+  },
+  {
     "title": "Seedance 2.5 AI 视频生成工作流评测",
     "summary": "支持提示词生成 1080p 短视频，对比 Wan 3.0 工作流。",
     "detail": "SeeVido 平台推出最新 Seedance 2.5 AI 视频生成模型，支持通过文本提示词或参考图像生成可控短视频。输出分辨率最高达 1080p，支持灵活宽高比及主体一致性控制。相关评测对比了 Seedance 2.5 与 Wan 3.0 在 30 秒 AI 视频工作流中的表现，展示其在飞行员、猫咪等主题上的生成效果。该工具集成音频、图像到视频等多种生成模式，旨在简化视频创作流程。适合内容创作者进行快速原型制作与短视频生产，降低了高质量视频生成的门槛，提供限时 20% 优惠升级。",
@@ -193,6 +245,19 @@
     "link": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
     "date": "2026-08-21",
     "id": "17872751180502"
+  },
+  {
+    "title": "支付平台 Ramp 推出 AI 模型路由服务 Router",
+    "summary": "Ramp 发布 Router 服务，支持多模型切换与成本优化，2026 年剩余时间免费使用。",
+    "detail": "企业费用管理平台 Ramp 正式推出 AI 模型路由服务 Router，类似 OpenRouter，支持通过 API 切换多种大语言模型。服务涵盖 OpenAI、Anthropic、DeepSeek 等主流模型，提供基于基准测试或成本偏好的路由策略。用户可通过仪表板监控 token 消耗、延迟及 fallback 尝试。2026 年剩余时间免费使用，仅收取推理成本，并提供 26 美元启动 credit。此举标志 fintech 巨头进入 AI 基础设施层，助力企业优化推理成本与性能。",
+    "tags": [
+      "News",
+      "Infra",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
+    "date": "2026-08-20",
+    "id": "17872948520701"
   },
   {
     "title": "Ramp 推出 AI 模型路由服务 Router",
@@ -1233,70 +1298,5 @@
     "link": "https://spectrum.ieee.org/ai-cpu-comeback",
     "date": "2026-08-20",
     "id": "17871947465560"
-  },
-  {
-    "title": "AI 代理将迎来“凭证主义”时代，访问权限受监管",
-    "summary": "文章预测 AI 代理需获得凭证才能访问服务，可能加剧大厂垄断。",
-    "detail": "随着 AI 代理自主行动能力增强，服务方将要求代理具备身份凭证才能访问 API 或市场。这可能导致只有大型科技公司能获得信任认证，加剧权力集中。同时也可能催生个人网络安全认证新赛道，改变代理经济的信任机制。监管与技术的博弈将决定未来代理生态的开放性。开发者需考虑如何为其代理获取合法身份，以避免被主流服务平台封锁，这将是 Agent 商业化落地的关键合规步骤，行业需关注相关标准制定。",
-    "tags": [
-      "News",
-      "Agents",
-      "Regulation"
-    ],
-    "link": "https://betocmn.com/blog/credentialism-is-coming-for-ai-agents/",
-    "date": "2026-08-20",
-    "id": "17871947465561"
-  },
-  {
-    "title": "开发者社区热议 AI 代码审查的实际效用与流程困境",
-    "summary": "HN 讨论质疑 AI 生成代码后的人工审查意义及 AI 互审流程。",
-    "detail": "Hacker News 引发关于 AI 代码审查价值的讨论。核心质疑在于：若代码由 AI 生成，人工审查效率低；若由另一 AI 审查，为何不在提交前迭代？这反映了当前 AI 开发工作流中的信任与效率矛盾，亟待优化。团队需重新定义审查标准，平衡 AI 生成速度与代码质量，避免盲目合并导致系统不稳定。此外，是否应赋予开发者本地审查 AI 工具，而非依赖后端审查，也是优化工作流的关键思考点，影响工程效率。",
-    "tags": [
-      "Dev",
-      "Workflow",
-      "LLM"
-    ],
-    "link": "https://news.ycombinator.com/item?id=49369710",
-    "date": "2026-08-20",
-    "id": "17871947465563"
-  },
-  {
-    "title": "Show HN: AIOMNIU 推出隐私优先的 AI 简历筛选服务",
-    "summary": "新工具利用 AI 匹配候选人，强调数据隐私与安全合规。",
-    "detail": "AIOMNIU 发布 AI 简历筛选服务，通过智能匹配技能与经验加速招聘。特色在于隐私优先设计，自动分析数据并保护候选人信息，仅授权访问联系方式。适合现代招聘团队，解决传统筛选泄露风险。企业级安全合规是其核心卖点，旨在平衡招聘效率与数据隐私保护，为 HR 科技提供新方案。该工具声称已被全球 1200+ 公司信任，展示了 AI 在垂直领域落地的实际进展，值得关注其市场反馈。",
-    "tags": [
-      "New",
-      "HR Tech",
-      "Privacy"
-    ],
-    "link": "https://aiomniu.top/services/resume-screening",
-    "date": "2026-08-20",
-    "id": "17871947465564"
-  },
-  {
-    "title": "音乐版权巨头起诉 Suno 和 Anthropic 索赔 10 亿美元",
-    "summary": "Round Hill Music 指控 Suno 和 Anthropic 未经授权使用音乐数据进行 AI 训练。",
-    "detail": "**背景**：随着生成式 AI 技术迅速普及，版权归属与数据使用争议日益激烈，成为行业焦点。\n**事件**：知名音乐版权管理公司 Round Hill Music 正式向法院起诉 AI 音乐生成公司 Suno 及大模型厂商 Anthropic，索赔金额高达 10 亿美元。\n**核心争议**：原告指控被告未经授权使用受版权保护的音乐数据用于模型训练，侵犯知识产权。\n**行业影响**：此案被视为 AI 版权领域的关键判例，可能确立训练数据使用的法律边界。判决结果将迫使 AI 公司重新审视数据合规策略，增加授权成本，深远影响生成式音乐及大模型未来的技术发展路径与商业模式。",
-    "tags": [
-      "News",
-      "Legal",
-      "Generative AI"
-    ],
-    "link": "https://www.gadgetreview.com/round-hill-music-sues-suno-and-anthropic-for-1-billion-over-ai-training-data",
-    "date": "2026-08-20",
-    "id": "17871884832400"
-  },
-  {
-    "title": "美国政府警告 AI 攻击针对西门子关键基础设施",
-    "summary": "美国警告攻击者利用 AI 技术针对西门子 PLC 发动攻击，威胁关键基础设施安全。",
-    "detail": "**背景**：AI 技术双刃剑效应日益显现，已被恶意用于增强网络攻击能力。\n**事件**：美国政府正式发布安全警告，指出攻击者利用 AI 自动化技术针对西门子 PLC 控制系统发动攻击。\n**核心威胁**：AI 能够显著提升攻击效率与隐蔽性，直接威胁国家关键基础设施安全。\n**行业影响**：关键基础设施面临新型自动化威胁，传统防御手段可能失效。企业需升级防御体系以应对 AI 驱动的攻击向量，工业网络安全标准亟待更新，建议加强 PLC 系统防护与异常行为监测。",
-    "tags": [
-      "News",
-      "Security",
-      "Infrastructure"
-    ],
-    "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
-    "date": "2026-08-20",
-    "id": "17871884832401"
   }
 ]
