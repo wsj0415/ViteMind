@@ -1,5 +1,57 @@
 [
   {
+    "title": "Linus Torvalds 确认 AI 辅助调试 Linux 内核",
+    "summary": "Linux 之父公开表示 AI 极大帮助了内核调试过程，开发者工具链迎来 AI 赋能。",
+    "detail": "**背景**：Linux 内核开发社区对 AI 工具的态度一直谨慎，但近期出现了显著转变。\n\n**核心内容**：Linux 创始人 Linus Torvalds 在 GitHub 提交记录中明确评论称，一次极其困难的内核调试会话（debug session from hell）得到了 AI 的巨大帮助。这标志着核心基础设施维护者开始认可 AI 在复杂代码排查中的价值。\n\n**行业影响**：作为开源界的旗帜性人物，Linus 的认可具有风向标意义。这将鼓励更多底层系统开发者尝试将 LLM 集成到工作流中，推动 AI 编程助手从应用层向系统底层渗透，提升开发效率。",
+    "tags": [
+      "Dev",
+      "Linux",
+      "Coding"
+    ],
+    "link": "https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c",
+    "date": "2026-08-22",
+    "id": "17873612840221"
+  },
+  {
+    "title": "Meta AI 眼镜普及引发隐私担忧",
+    "summary": "Meta AI 眼镜需求激增，第三方检测应用涌现，隐私法规面临挑战。",
+    "detail": "**背景**：随着 Meta AI 智能眼镜销量爆发，公共场合的隐私侵犯风险成为焦点。\n\n**核心内容**：Ars Technica 报道指出，Meta AI 眼镜的普及使得秘密录制变得更加容易。尽管部分场所（如学校、法院）已实施禁令，但执行难度大。第三方应用如 Zuckoff 试图检测周围是否有眼镜用户，但效果有限。\n\n**行业影响**：硬件普及速度超过了隐私法规的制定速度。电子前沿基金会（EFF）等组织呼吁制定全面的消费者隐私法。这对可穿戴 AI 设备厂商提出了合规挑战，未来可能需要在硬件指示灯或软件限制上做出更多让步以缓解公众焦虑。",
+    "tags": [
+      "News",
+      "Privacy",
+      "Hardware"
+    ],
+    "link": "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/",
+    "date": "2026-08-21",
+    "id": "17873612840222"
+  },
+  {
+    "title": "数学界发布《莱登宣言》呼吁规范 AI",
+    "summary": "全球数学家联合发布宣言，关注自动化证明技术对数学研究的影响。",
+    "detail": "**背景**：AI 在数学证明领域的应用日益增多，引发了关于学术诚信与研究方法的讨论。\n\n**核心内容**：美国数学学会通告了《人工智能与数学莱登宣言》。该宣言由牛津、哥伦比亚大学等学者发起，旨在探讨自动化证明技术带入主流数学研究带来的复杂性，呼吁建立相应的规范与标准。\n\n**行业影响**：这是学术界对 AI 介入基础科学研究的一次重要回应。宣言强调了人类意图与工艺在创造性工作中的核心地位，反对完全 offloading 认知工作。这将为 AI 在科研领域的应用伦理提供重要参考框架。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Research"
+    ],
+    "link": "https://www.ams.org/journals/notices/202608/noti3386/noti3386.html",
+    "date": "2026-08-21",
+    "id": "17873612840223"
+  },
+  {
+    "title": "AI 外骨骼：创意灵感的辅助而非替代",
+    "summary": "音乐人提出 AI 应作为增强人类创造力的外骨骼，而非完全自动化的替代品。",
+    "detail": "**背景**：生成式 AI 引发了关于艺术创作主体性的广泛争议。\n\n**核心内容**：文章探讨了技术演化的两条路径：外骨骼（增强人类行为）与 AI（自动化认知工作）。作者主张在创意领域，AI 应扮演外骨骼角色，保持人类在决策中心的地位，保留意图与工艺，避免完全由 AI 生成艺术导致的归属感缺失。\n\n**行业影响**：这种观点为 AI 内容创作（AIGC）提供了一种以人为本的发展思路。未来 AI 工具的设计可能更倾向于协作模式（Co-pilot），强调增强人类灵感而非单纯替代，以满足用户对真实情感连接的需求。",
+    "tags": [
+      "Dev",
+      "Creativity",
+      "Opinion"
+    ],
+    "link": "https://johnoestmannmusic.com/ai-building-exoskeletons/",
+    "date": "2026-08-21",
+    "id": "17873612840224"
+  },
+  {
     "title": "Anthropic Opus 4.6 被曝安全漏洞，可生成违规内容",
     "summary": "TechCrunch 测试发现 Opus 4.6 模型可被绕过安全限制生成色情内容。",
     "detail": "Anthropic 的 Claude Opus 4.6 模型被发现存在严重安全漏洞。尽管官方禁止生成色情内容，但测试显示该模型在 10 次直接请求中均合规生成 explicit 内容。研究人员分享了一种多轮对话越狱技术，通过逐步升级角色扮演诱导模型。虽然更新的 Opus 4.7 及 5.0 版本已修复，但 4.6 及旧版本仍通过 API 及云平台提供服务。此事件引发对 AI 模型部署后持续安全监控及旧版本维护策略的行业关注。",
@@ -1040,6 +1092,19 @@
     "id": "17872751180502"
   },
   {
+    "title": "Nvidia 拟 60 亿美元收购 AI 初创 Poolside",
+    "summary": "Nvidia 计划支付 60 亿美元许可费并吸纳 Poolside 团队，加速数据中心自动化。",
+    "detail": "**背景**：Nvidia 正积极布局 AI 基础设施与自动化领域，此次针对专注于数据中心自动化的初创公司 Poolside 的动作显示了其战略意图。\n\n**核心内容**：据 Bloomberg 报道，Nvidia 计划向 AI 初创公司 Poolside 支付高达 60 亿美元的许可费用，并吸纳其员工团队。Poolside 主要利用 AI 技术实现数据中心的自动化管理与运维。\n\n**行业影响**：这笔巨额交易若达成，将是 AI 基础设施领域的重要里程碑。它表明硬件巨头 Nvidia 正通过收购软件与自动化能力，构建从芯片到运维的全栈 AI 生态，进一步巩固其在 AI 算力与服务领域的护城河。",
+    "tags": [
+      "News",
+      "Nvidia",
+      "M&A"
+    ],
+    "link": "https://www.bloomberg.com/news/articles/2026-08-20/nvidia-to-pay-ai-startup-poolside-a-6-billion-license-newcomer-says",
+    "date": "2026-08-20",
+    "id": "17873612840220"
+  },
+  {
     "title": "Anthropic 推出 Claude Academy 普及 AI 素养教育",
     "summary": "Anthropic 发布教育平台 Claude Academy，推广 4D AI fluency 框架。",
     "detail": "Anthropic 正式推出 Claude Academy，旨在向全球数百万用户普及安全有效的 AI 使用方法。公司内部采用的 4D AI 素养框架将对外公开，帮助学习者理解何时使用 AI 及如何审查 AI 产出。课程涵盖代理知识管理及 AI 指数级发展速度认知，帮助员工和用户做出 intentional decisions。此举表明头部模型厂商开始重视用户教育，以降低滥用风险并提升人机协作效率。公司强调教育应增加用户 agency，而非依赖自动化，确保人类在关键决策中保持控制权，构建更健康的 AI 生态系统。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/opencyvis/opencyvis-phone",
     "date": "2026-08-20",
     "id": "17872683750572"
-  },
-  {
-    "title": "论文：智能 AI 任务委托框架研究",
-    "summary": "提出自适应 AI 委托框架，解决多智能体协作中的任务分解与信任问题。",
-    "detail": "这篇 arXiv 论文探讨了 AI 智能体如何通过智能委托处理复杂任务。现有方法依赖简单启发式算法，难以适应环境变化。作者提出了一种自适应框架，涉及任务分配、权限转移、责任问责及信任建立机制。该研究对于构建能够安全地将任务委托给其他 AI 或人类的高级智能体系统具有重要的理论指导意义。解决了动态环境下的鲁棒性失败处理问题。随着 Agent 复杂度提升，如何安全分解任务并委托给其他实体成为关键，该框架提供了包含意图清晰性与信任机制的解决方案。",
-    "tags": [
-      "Dev",
-      "Paper",
-      "Agent"
-    ],
-    "link": "https://arxiv.org/abs/2602.11865",
-    "date": "2026-08-20",
-    "id": "17872683750573"
-  },
-  {
-    "title": "BTP v2.2：AI 智能体加密信任协议",
-    "summary": "发布离线加密信任协议标准，为 AI 智能体提供自主执行前的安全检查。",
-    "detail": "Bartholomew AI 发布了 BTP v2.2 标准追踪，这是一种用于 AI 智能体的开放离线加密信任协议。它充当自主飞行执行网关，确保智能体在执行任务前经过 cryptographic trust 验证。协议状态显示为 FROZEN，一致性测试套件已通过 100%。这对于需要高安全性保障的自主 AI 系统部署提供了新的技术标准参考。旨在解决代理间的信任与执行安全问题。通过离线加密协议，确保 AI agent 在自主行动前的安全性，防止恶意执行，为多代理协作系统建立了信任基础。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Protocol"
-    ],
-    "link": "https://github.com/ivegotahunnitonit/bartholomew",
-    "date": "2026-08-20",
-    "id": "17872683750574"
-  },
-  {
-    "title": "ChatGPT 集成苹果短信插件，可直接代发消息",
-    "summary": "OpenAI 推出 Apple Messages 插件，ChatGPT 可直接读写短信。",
-    "detail": "OpenAI 与苹果深度合作，新插件允许 ChatGPT 直接访问 Apple Messages 应用。用户可通过自然语言指令让 AI 起草并发送短信，实现系统级集成。这标志着 AI 助手从独立应用向操作系统底层服务的渗透，极大提升了交互便利性。然而，赋予 AI 发送短信权限也引发了用户对于隐私安全及误操作风险的担忧，行业需建立新的信任机制。此功能可能成为未来 AI 个人助理的标准配置，改变人机交互模式，但也要求更高的安全审计标准，确保用户数据不被滥用，同时防止 AI 幻觉导致错误信息发送。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Apple"
-    ],
-    "link": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
-    "date": "2026-08-20",
-    "id": "17872649212120"
-  },
-  {
-    "title": "BaseCompute 推出 Mac 本地隐私 AI 工具 Local",
-    "summary": "无需云端账号，本地运行 AI，支持文件对话与代码编辑。",
-    "detail": "BaseCompute 发布 Local 应用，主打零摩擦本地 AI 体验。数据完全不离设备，无云端账号依赖。软件根据 Mac 内存（8-128GB）自动推荐模型，支持文件对话、本地代码编辑及会议转录。首创 Office Mode，允许局域网内共享高性能主机模型。适合隐私敏感用户及开发者，展示了端侧 AI 硬件优化的新方向，降低了对云 API 的依赖成本。该工具强调隐私模式，记忆存储在本地，敏感信息可标记永不上传。这反映了本地大模型推理能力的提升，使得个人设备也能运行复杂任务，为私有化部署提供了低成本解决方案，适合企业内网及个人隐私保护场景。",
-    "tags": [
-      "New",
-      "Privacy",
-      "LocalLLM"
-    ],
-    "link": "https://www.basecompute.co/local",
-    "date": "2026-08-20",
-    "id": "17872649212121"
-  },
-  {
-    "title": "使用 Pydantic AI 与 Playwright 构建浏览器代理",
-    "summary": "教程详解如何结合 Pydantic AI 与 Playwright 实现安全网页浏览代理。",
-    "detail": "文章演示如何利用 Pydantic AI 框架结合 Playwright 构建能浏览网页的 AI 代理。支持 Microsoft Foundry 模型及 Entra 认证，推荐使用无密钥认证方式。提供了类型安全的代码示例，适合构建生产级自动化应用。解决了 AI 代理安全浏览、页面导航与内容读取的技术难点，为开发者提供了构建 robust 网页交互代理的完整指南，增强了 agent 的实际操作能力。通过结合 Azure 身份验证，确保了企业级安全性。该教程展示了如何将 LLM 与传统自动化工具结合，实现更复杂的任务编排，是构建自主代理的重要技术参考，有助于降低开发门槛，推动 AI 工程化落地。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Python"
-    ],
-    "link": "http://blog.pamelafox.org/2026/08/browser-automation-with-pydantic-ai.html",
-    "date": "2026-08-20",
-    "id": "17872649212122"
   }
 ]
