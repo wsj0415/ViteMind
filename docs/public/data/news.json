@@ -1,5 +1,31 @@
 [
   {
+    "title": "领域驱动 AI：为何多数 AI 产品死于概念验证阶段？",
+    "summary": "深入探讨 AI 项目失败根源，提出领域驱动方法论助力产品落地。",
+    "detail": "文章基于 2023 年以来对 AI 产品失败案例的研究，指出大多数 AI 项目无法越过概念验证阶段。作者结合法律行业实例，分析 GenAI 产品成功的关键在于业务流程与 AI 能力的精准编排。虽然不存在通用的成功公式，但“领域驱动”思路强调理解特定领域需求而非单纯技术堆砌。文中提到 2022 年 ChatGPT 发布后，生成式 AI 产品时代来临，但许多项目因流程错误或缺乏数据而死亡。该文章为 AI 从业者提供了关于产品落地难的深度反思，强调领域知识的重要性，有助于团队优化开发流程。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Product Strategy"
+    ],
+    "link": "https://pedromadruga.com/blog/domain-driven-ai/",
+    "date": "2026-08-22",
+    "id": "17874303462100"
+  },
+  {
+    "title": "Show HN: 将苹果风格滚动视频网站转化为可复用 AI 技能",
+    "summary": "GitHub 开源新项目，实现苹果式滚动视频效果的 AI 技能复用。",
+    "detail": "该项目在 Hacker News 上展示，旨在将流行的苹果风格滚动视频网站效果转化为可复用的 AI 技能。通过 GitHub 开源代码，开发者可以利用该技能快速构建具有高度视觉吸引力的交互式网站。这反映了当前 AI 开发社区对前端交互效果自动化的探索，降低了高质量网页制作的技术门槛。作为 Show HN 项目，它体现了开发者利用 AI 简化复杂前端逻辑的趋势，适合全栈开发者参考复用，可能提升开发效率。此类工具的出现标志着 AI 正从后端逻辑向前端体验延伸，为 Web 开发带来新范式。",
+    "tags": [
+      "New",
+      "GitHub",
+      "Web Dev"
+    ],
+    "link": "https://github.com/musoyangrigor/scroll-video-website-skill",
+    "date": "2026-08-22",
+    "id": "17874303462101"
+  },
+  {
     "title": "前 CISA 官员警告：AI 代理将成为新型网络攻击载体",
     "summary": "前 CISA 官员指出 AI 代理引入新攻击面，企业需将其视为特权身份管理。",
     "detail": "随着 AI 技术从单纯的内容生成转向实际行动执行，AI 代理程序正获得访问敏感系统和数据的权限。前美国网络安全和基础设施安全局（CISA）代理负责人 Matt Hartman 警告称，AI 代理引入了全新的数据集成通道和非人类身份，这使得传统静态安全策略难以有效应对。企业不仅面临内部代理滥用风险，还遭遇外部 AI 赋能的身份及社工攻击显著增加。Hartman 强调，组织需将每个代理视为特权身份进行管理。近期多次真实攻击事件已证明 AI 代理能黑入组织，若防御者不主动利用 AI 攻击自身系统以测试防御，adversaries 将率先利用 AI 发起攻击，暴露出日益增长的非人类身份管理难题与数据集成通道滥用风险，给网络安全带来巨大隐患。",
@@ -1272,31 +1298,5 @@
     "link": "https://venturebeat.com/orchestration/nvidias-switchyard-router-reshuffles-ai-models-mid-task-cutting-task-costs-to-a-third-in-its-own-tests",
     "date": "2026-08-21",
     "id": "17873229960215"
-  },
-  {
-    "title": "杜克大学研究：AI 模型创意输出趋同化风险加剧",
-    "summary": "杜克大学研究发现，不同供应商的 AI 模型创意输出正变得日益相似，可能限制用户获取想法的多样性。",
-    "detail": "杜克大学最新研究揭示 AI 行业潜在危机，引发社区广泛关注。研究人员系统测试了 2023 至 2026 年间 12 家主流提供商的 69 个模型版本，发现创意输出多样性呈统计学显著下降。这意味着不同公司的模型在面对开放性问题时，给出的答案日益趋同，缺乏独特性。核心技术点在于对模型输出分布的长期跟踪与统计分析。行业影响深远，若趋势持续，用户将获得更狭窄的想法范围，可能加剧“模型坍塌”风险，促使开发者寻求多样性微调方案或混合模型策略，以避免思维同质化。该研究覆盖了 OpenAI、Google 等巨头，数据具有代表性，为模型评估提供了新维度。",
-    "tags": [
-      "News",
-      "LLM",
-      "Research"
-    ],
-    "link": "https://www.unite.ai/ai-models-creative-output-is-becoming-similar-across-providers/",
-    "date": "2026-08-21",
-    "id": "17873199758480"
-  },
-  {
-    "title": "Show HN: Agent Office - 专为 AI 智能体打造的 Slack 协作空间",
-    "summary": "开源项目 Agent Office 上线，提供基于 Pi 的多智能体工作区管理器，支持任务调度与文件访问。",
-    "detail": "面向 AI 开发者的全新开源工具，解决多 Agent 协作痛点。Agent Office 是一个基于 Pi 构建的多智能体工作区管理器，旨在解决 AI Agent 协作难题。核心技术包括基于 tick 的调度系统、优先级队列、进程间通信 (IPC) 及 Docker 沙盒隔离，确保安全性。支持通过 YAML 声明式配置管理 PM、coder 和 reviewer 等角色，类似 Slack 但专为 Agent 设计。行业影响在于为本地化多智能体编排提供了轻量级方案，降低了对昂贵 SaaS 平台的依赖，适合开发者构建复杂 Agent 工作流，提升开发效率。项目已在 GitHub 开源，欢迎社区贡献代码与反馈，推动 Agent 生态发展。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "OpenSource"
-    ],
-    "link": "https://github.com/baturyilmaz/agent-office",
-    "date": "2026-08-21",
-    "id": "17873199758481"
   }
 ]
