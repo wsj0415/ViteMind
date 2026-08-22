@@ -1,5 +1,57 @@
 [
   {
+    "title": "前沿 AI 实验室缺乏失控模型应对计划",
+    "summary": "Guidelight 研究显示多数实验室未公布模型失控应对方案，OpenAI 表现最佳。",
+    "detail": "Guidelight AI Standards 最新评估显示，五大前沿 AI 实验室中，仅少数公布了详细的模型失控 containment 计划。OpenAI 在此项评估中排名第一，而 Anthropic 和 Meta 得分最低。随着代理式 AI 在企业系统中承担更多自主角色，加州和纽约 regulators 开始要求披露此类风险管控措施。该报告独立评估了各实验室的监控日志、异常行为 halt 机制及第三方审计情况，揭示了行业在 Operational Risk 方面的准备不足。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Regulation"
+    ],
+    "link": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+    "date": "2026-08-22",
+    "id": "17874158862390"
+  },
+  {
+    "title": "揭秘 AI Scaling Laws：模型性能可预测",
+    "summary": "研究者指出 AI 性能并非不可预测，Scaling Laws 早在数年前已指明方向。",
+    "detail": "推特用户 Fintex 深入解析了现代 AI 最重要的方程——Scaling Laws。尽管公众常认为新 AI 模型的突破不可预测，但实际上 OpenAI 团队早在 2020 年就发表了相关论文，表明模型性能与计算量呈直线关系。这意味着在投入巨额资金前，实验室即可预测模型表现。文章强调行业并非凭空 conjuring intelligence，而是基于数学规律进行工程化构建，揭示了 AI 发展背后的确定性逻辑。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Theory"
+    ],
+    "link": "https://twitter.com/_yusufknl/status/2090429393139097948",
+    "date": "2026-08-22",
+    "id": "17874158862391"
+  },
+  {
+    "title": "AI 时代的“司机知识”与“普朗克知识”",
+    "summary": "借鉴查理·芒格智慧，区分 AI 时代真正的专业知识与表面侃侃而谈。",
+    "detail": "文章引用查理·芒格关于普朗克知识与司机知识的故事，警示 AI 时代的学习风险。司机知识指能侃侃而谈但无实质理解，普朗克知识则是真正 paid dues 的专业能力。随着 AI 降低软件工程师门槛，行业充满兴奋但也伴随危险。开发者需警惕依赖 AI 生成的表面代码，应追求深层理解，将责任交给拥有真知灼见的人，而非仅会 prattle the talk 的使用者。",
+    "tags": [
+      "News",
+      "Education",
+      "Engineering"
+    ],
+    "link": "https://www.aaron-gray.com/ai-and-chauffeur-knowledge/",
+    "date": "2026-08-22",
+    "id": "17874158862392"
+  },
+  {
+    "title": "Show HN: AI 应作为认知健身器械而非义肢",
+    "summary": "探讨 AI 辅助应增强未来思考能力，而非仅仅提供下一个答案。",
+    "detail": "该项目提出 AI 不应仅是认知义肢（cognitive prosthesis），更应像健身器械一样负荷训练大脑。传统软件暴露规则，而生成式 AI 直接进入语义空间，易导致思考 displacement。文章对比 ideology 指出，AI 的危险在于取代而非僵化。开发者应设计能增强记忆、判断和想象力的工具，确保人类在使用 AI 时仍保持 doubt itself 的能力，避免过度依赖导致认知退化。",
+    "tags": [
+      "New",
+      "Philosophy",
+      "Human-AI"
+    ],
+    "link": "https://bookerapp.replit.app/book/ai-cognitive-gym/ai-as-cognitive-gym-equipment",
+    "date": "2026-08-22",
+    "id": "17874158862393"
+  },
+  {
     "title": "ImageSage：本地私有 AI 照片管理工具登陆 Windows",
     "summary": "一款基于本地 AI 的 Windows 照片库，支持语义搜索、OCR 及 AI 重命名，无需账户。",
     "detail": "ImageSage 是一款专为 Windows 11 设计的本地 AI 照片管理应用，旨在解决云端处理的隐私顾虑。其核心优势在于完全本地化，所有 AI 推理均在设备端完成，无需注册账户或上传数据。功能层面，它支持基于自然语言的语义搜索（例如“海滩上的两个人”）、内置 OCR 识别图片内文字，以及 AI 智能重命名文件。用户可在应用前编辑 AI 建议的文件名，并直接对搜索结果进行移动、复制或删除操作。该产品展示了端侧 AI 在个人数据管理领域的实际落地，为注重隐私的用户提供了高效的照片库管理方案，体现了本地大模型应用的趋势。",
@@ -1246,57 +1298,5 @@
     "link": "https://honnibal.dev/blog/ai-bubble",
     "date": "2026-08-21",
     "id": "17873050755281"
-  },
-  {
-    "title": "多智能体系统安全新框架：Bounded Agents 论文发布",
-    "summary": "提出 APC 架构解决多智能体授权安全问题，显著降低数据泄露风险。",
-    "detail": "该 Arxiv 论文提出了一种名为“有界代理”（Bounded Agents）的安全架构，旨在解决多智能体系统中的授权安全问题。核心技术创新在于引入了代理主体链（APC），通过六项授权检查跟踪 delegated authority，并在模型之外执行决策。实验评估了 3154 个实例，结果显示 APC 能将 AgentDojo 数据泄露风险从 75-100% 降至 0%，并阻断所有 544 个 InjecAgent 数据窃取案例。授权延迟在 99% 分位仅为 0.24 毫秒。这对于未来自主 AI 代理的大规模部署至关重要，标志着 AI 安全从单纯依赖模型对齐转向架构层面的授权控制，为多代理系统提供了可验证的安全边界。",
-    "tags": [
-      "Dev",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://arxiv.org/abs/2608.15888",
-    "date": "2026-08-21",
-    "id": "17873017672770"
-  },
-  {
-    "title": "法律行业面临 AI 洗牌：仅法官可能幸存",
-    "summary": "专家预测 AI 将导致法律工作大屠杀，唯有法官职位相对安全。",
-    "detail": "澳大利亚金融评论报报道，未来学家 Greg Baker 预测法律行业将面临 AI 带来的“大屠杀”。文章指出，除了法官等需要人类最终判断的角色外，大部分律师工作将被 AI 自动化取代。Baker 在公平工作委员会的胜利后做出了这一预测，强调 AI 在处理文档、案例检索及初步法律分析上的高效性将导致岗位锐减。该新闻引发了对专业服务行业就业未来的深刻讨论，提示法律从业者需转型以适应人机协作新模式，同时也引发了关于司法系统中人类角色保留的伦理讨论。",
-    "tags": [
-      "News",
-      "Industry",
-      "Jobs"
-    ],
-    "link": "https://www.afr.com/work-and-careers/workplace/judges-may-be-the-only-survivors-of-law-s-ai-carnage-futurist-20260819-p60pla",
-    "date": "2026-08-21",
-    "id": "17873017672771"
-  },
-  {
-    "title": "深度观点：为何用 AI 写作是愚蠢的",
-    "summary": "文章论证写作即思考，依赖 AI 生成文本会削弱人类思维能力。",
-    "detail": "LambdaLand 发表深度文章 argues 使用 AI 写作是愚蠢的行为。核心论点是“写作即思考”，依赖 AI 生成文本会剥夺人类通过组织语言来理清思路的过程。文章引用 The Atlantic 观点，指出写作困难是因为它在塑造思维，而 AI 提供的简单 remedy 会暴露 flabby thoughts。即使 AI 技术完美无缺，代写也会阻碍洞察力的产生和逻辑的形成。文章建议将 AI 用于翻译或辅助，而非核心创作。这对教育界和内容创作者具有重要的伦理警示意义，强调保持人类认知能力的重要性，避免思维外包。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Writing"
-    ],
-    "link": "https://lambdaland.org/posts/2026-08-07-ai-writing-stupid/",
-    "date": "2026-08-21",
-    "id": "17873017672772"
-  },
-  {
-    "title": "ShogunAI 上线：打造个人 PC 端的 AGI 助手",
-    "summary": "Product Hunt 新品，旨在本地 PC 上运行通用人工智能完成实际工作。",
-    "detail": "Product Hunt 热门新品 ShogunAI 亮相，定位为“个人 PC 上的通用人工智能”。该产品旨在帮助用户完成实际工作任务，而不仅仅是聊天。这反映了 AI 应用从云端向本地化、从对话向行动代理（Agent）转变的趋势。作为个人 AGI 工具，它可能集成多种模型能力，试图在本地环境中提供隐私安全且高效的自动化服务。在产品分类中属于 AI Agents 和 Productivity 类别，值得关注其实际落地能力以及对个人工作流自动化带来的变革，是本地 AI 部署趋势的代表作。",
-    "tags": [
-      "New",
-      "Agent",
-      "Productivity"
-    ],
-    "link": "https://www.producthunt.com/products/shogunai",
-    "date": "2026-08-21",
-    "id": "17873017672773"
   }
 ]
