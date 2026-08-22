@@ -1,5 +1,70 @@
 [
   {
+    "title": "复古 Unix talk 命令变身 AI 交互接口",
+    "summary": "开发者将 1983 年 Unix talk 命令与 LLM 结合，实现字符流交互。",
+    "detail": "开发者利用 VPN 复活了 1983 年的 Unix `talk` 命令，并将其作为 AI 接口。通过在伪终端中运行 `talk` 并使用终端模拟器读取输出，实现了类似人类打字的字符流 streaming 效果。服务端容器注册终端以欺骗 `talkd`，实现无缝对接。这项实验展示了旧技术与大模型的自然契合，虽为玩具项目，但为 AI 交互界面提供了复古且诗意的灵感，证明了字符流与 Token 流的同构性。这种复古交互方式不仅有趣，还探索了低带宽环境下的人机交互新范式，为开发者提供了独特的技术参考。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Linux"
+    ],
+    "link": "https://en.andros.dev/blog/09a21bdd/i-turned-unix-talk-from-1983-into-the-interface-for-my-ai/",
+    "date": "2026-08-22",
+    "id": "17873874556060"
+  },
+  {
+    "title": "AWS 开源 AI 驱动开发生命周期方法论",
+    "summary": "AWS 开源 AI-DLC 框架，指导 30+ 开发阶段，引发社区对自动化瀑布流的讨论。",
+    "detail": "AWS 于 2025 年底开源了 AI-DLC 方法论，涵盖初始化到运营的 5 个阶段共 30+ 步骤。该框架类似复合工程，依赖人工审查 AI 生成物。社区评价不一，虽易采用但被批评为“自动化瀑布流”，文档负担重。这反映了企业在规模化 AI 落地时，对平台工程与现有工作流演进的探索与分歧。对于需要扩展 AI 方法论的团队，需权衡文档成本与流程规范，避免陷入过度文档化的陷阱。该讨论揭示了当前 AI 工程化进程中，流程标准化与敏捷性之间的核心矛盾，值得技术管理者关注。",
+    "tags": [
+      "News",
+      "AWS",
+      "DevOps"
+    ],
+    "link": "https://valeriavg.dev/agile-ai-development-lifecycle",
+    "date": "2026-08-22",
+    "id": "17873874556061"
+  },
+  {
+    "title": "Learn Leap 推出个性化 AI 导师产品",
+    "summary": "支持上传笔记教材，AI 导师通过对话进行个性化 step-by-step 教学。",
+    "detail": "Learn Leap 发布新款 AI 教育产品，允许用户上传 PDF、幻灯片等个人材料。AI 导师基于材料进行对话式教学，支持即时问答和概念拆解。产品强调“理解而非记忆”，适应不同学习节奏。这是 AI 在教育垂直领域落地的典型应用，旨在通过个性化辅导提升学习效率，解决了传统网课互动性差的问题。用户可通过三步流程快速开始，获得私人定制的学习体验，重塑知识获取方式。该产品体现了 AI 从通用聊天向垂直场景深度定制的转型趋势，具有较好的市场潜力。",
+    "tags": [
+      "New",
+      "EdTech",
+      "LLM"
+    ],
+    "link": "https://learnleap.xyz",
+    "date": "2026-08-22",
+    "id": "17873874556062"
+  },
+  {
+    "title": "卫报评论：广岛级 AI 灾难能否唤醒人类保护机制？",
+    "summary": "评论文章质疑即使发生重大 AI 灾难，人类是否仍无法有效保护自身安全。",
+    "detail": "《卫报》发表评论文章，探讨 AI 安全风险。作者以广岛核灾难为类比，质疑即使发生同等规模的 AI 灾难，人类社会是否真能从中吸取教训并建立保护机制。文章反映了硅谷技术加速主义与公共安全之间的张力，以及对人类应对技术风险能力的深层担忧。这引发行业对 AI 治理有效性的思考，警示单纯依赖灾难后反应可能不足，需提前建立防御性技术政策。文章观点犀利，指出了当前 AI 安全讨论中可能存在的侥幸心理，呼吁更积极的安全干预措施。",
+    "tags": [
+      "News",
+      "Safety",
+      "Ethics"
+    ],
+    "link": "https://www.theguardian.com/commentisfree/2026/aug/22/ai-disaster-hiroshima-humankind-silicon-valley-technology",
+    "date": "2026-08-22",
+    "id": "17873874556063"
+  },
+  {
+    "title": "Void Tools 推出面向 AI Agent 的区块链 API",
+    "summary": "提供合约检查等区块链工具，支持 AI Agent 使用 Void 代币按需付费。",
+    "detail": "Void Tools 发布专为自主 AI Agent 设计的区块链 API 工具集。功能包括合约安全检查、实时代理扫描及价格预言机。采用无注册、无 KYC 的按需付费模式，使用 Void 代币结算。该工具旨在解决 AI Agent 在 Arbitrum 链上交互的信任与支付问题，展示了 Crypto 与 AI Agent 结合的技术趋势。为 autonomous agents 提供链上能力支持，降低智能体执行链上操作的门槛与风险。这是 Web3 与 AI 融合的具体实践，为去中心化智能体经济提供了基础设施支持。",
+    "tags": [
+      "Dev",
+      "Crypto",
+      "Agent"
+    ],
+    "link": "https://news.ycombinator.com/item?id=49396884",
+    "date": "2026-08-22",
+    "id": "17873874556064"
+  },
+  {
     "title": "新论文提出“每瓦特智能”指标，评估本地 AI 效率",
     "summary": "斯坦福等学者提出新指标，衡量本地小模型能效，挑战云端垄断。",
     "detail": "论文《Intelligence per Watt》由斯坦福大学 Christopher Ré 等学者合作，提出衡量本地 AI 效率的新指标。随着需求增长，云基础设施扩展速度受限，处理 predominantly 由前沿模型在中心化云完成。研究发现 20B 以下参数模型在本地加速器（如 Apple M4 Max）上表现竞争力，能效优于云端。这为摆脱中心化云基础设施依赖提供了技术依据，强调本地推理的能效优势，可能推动端侧 AI 硬件发展与隐私保护，重塑模型部署范式，降低延迟与成本，为本地 AI 部署提供理论支持，解决扩展瓶颈。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.pewresearch.org/data-labs/2026/08/20/how-much-of-the-internet-is-written-with-ai/",
     "date": "2026-08-21",
     "id": "17872751180500"
-  },
-  {
-    "title": "欧盟版权法不保护纯 AI 生成内容",
-    "summary": "欧盟版权法坚持以人为本，完全由 AI 生成的内容无法获得版权保护。",
-    "detail": "根据欧盟现行版权法，版权保护具有严格的人类中心主义基础。完全由人工智能生成的内容不被视为受保护的作品。这一法律立场明确了 AI 生成内容的版权归属问题，对依赖 AI 进行内容创作的企业和个人构成挑战，强调了人类在创作过程中的必要性。Daniel J. Gervais 指出，当内容完全由 AI 生成时，缺乏人类作者身份导致无法获得版权。这意味着企业需调整策略，确保人类参与创作环节以获得法律保护，避免知识产权风险。该裁决影响深远，可能迫使内容平台重新审视 AI 生成内容的合规性，推动人机协作创作模式的发展，确保内容在法律框架内安全流通。",
-    "tags": [
-      "News",
-      "Legal",
-      "Copyright"
-    ],
-    "link": "https://mathstodon.xyz/@maxpool/117128107757895678",
-    "date": "2026-08-21",
-    "id": "17872751180501"
-  },
-  {
-    "title": "AI 数据初创公司 Micro1 年运行收入达 5 亿美元",
-    "summary": "受 AI 训练数据需求驱动，Micro1 八个月内收入从 1 亿增至 5 亿美元。",
-    "detail": "随着顶级实验室和企业对独特 AI 训练数据的需求激增，数据标注初创公司迎来繁荣。Micro1 在过去八个月内将总年度运行收入从 1 亿美元提升至 5 亿美元。公司不仅雇佣领域专家，还开始生成合成数据。这反映了 AI 训练数据市场的巨大潜力，未来数据支出可能与计算支出相当。尽管落后于 Mercor 等竞争对手，但增长表明市场需求足以支持多家供应商。Micro1 期望利润率随时间扩大，部分数据可多次销售。这标志着 AI 基础设施层中数据供应链的重要性日益凸显，成为投资热点。合同规模加速增长，合成数据生成减少人类参与，优化了成本结构，显示数据服务正走向规模化与自动化。",
-    "tags": [
-      "News",
-      "Business",
-      "Data"
-    ],
-    "link": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
-    "date": "2026-08-21",
-    "id": "17872751180502"
-  },
-  {
-    "title": "Nvidia 拟 60 亿美元收购 AI 初创 Poolside",
-    "summary": "Nvidia 计划支付 60 亿美元许可费并吸纳 Poolside 团队，加速数据中心自动化。",
-    "detail": "**背景**：Nvidia 正积极布局 AI 基础设施与自动化领域，此次针对专注于数据中心自动化的初创公司 Poolside 的动作显示了其战略意图。\n\n**核心内容**：据 Bloomberg 报道，Nvidia 计划向 AI 初创公司 Poolside 支付高达 60 亿美元的许可费用，并吸纳其员工团队。Poolside 主要利用 AI 技术实现数据中心的自动化管理与运维。\n\n**行业影响**：这笔巨额交易若达成，将是 AI 基础设施领域的重要里程碑。它表明硬件巨头 Nvidia 正通过收购软件与自动化能力，构建从芯片到运维的全栈 AI 生态，进一步巩固其在 AI 算力与服务领域的护城河。",
-    "tags": [
-      "News",
-      "Nvidia",
-      "M&A"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-08-20/nvidia-to-pay-ai-startup-poolside-a-6-billion-license-newcomer-says",
-    "date": "2026-08-20",
-    "id": "17873612840220"
-  },
-  {
-    "title": "Anthropic 推出 Claude Academy 普及 AI 素养教育",
-    "summary": "Anthropic 发布教育平台 Claude Academy，推广 4D AI fluency 框架。",
-    "detail": "Anthropic 正式推出 Claude Academy，旨在向全球数百万用户普及安全有效的 AI 使用方法。公司内部采用的 4D AI 素养框架将对外公开，帮助学习者理解何时使用 AI 及如何审查 AI 产出。课程涵盖代理知识管理及 AI 指数级发展速度认知，帮助员工和用户做出 intentional decisions。此举表明头部模型厂商开始重视用户教育，以降低滥用风险并提升人机协作效率。公司强调教育应增加用户 agency，而非依赖自动化，确保人类在关键决策中保持控制权，构建更健康的 AI 生态系统。",
-    "tags": [
-      "News",
-      "Education",
-      "Anthropic"
-    ],
-    "link": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
-    "date": "2026-08-20",
-    "id": "17873301559181"
-  },
-  {
-    "title": "路透社：AI 重塑印度 IT 服务 sector，客户要求降本增效",
-    "summary": "印度 IT 服务行业合同因 AI 技术发生变革，客户倾向于以更少预算获取更多产出，推动行业转型。",
-    "detail": "全球 AI 浪潮冲击传统外包模式，经济影响显现。路透社报道指出，印度 IT 服务 sector 正经历合同结构变革，客户利用 AI 技术杠杆，要求以更少预算获取更多产出，迫使服务商转型。核心在于 AI 自动化替代了部分基础编码与维护工作，改变了定价模型。行业影响显著，传统人力密集型外包面临淘汰风险，印度 IT 巨头需转向高价值 AI 解决方案交付，标志着 AI 对全球劳动力市场的实际经济影响开始显现，倒逼服务商提升技术附加值。此趋势可能蔓延至其他外包主导型经济体，引发全球 IT 服务链条重构，企业需提前布局 AI-native 服务能力。",
-    "tags": [
-      "News",
-      "Industry",
-      "Economy"
-    ],
-    "link": "https://www.reuters.com/world/india/ai-reshapes-indias-it-services-sector-contracts-clients-demand-more-less-2026-08-20/",
-    "date": "2026-08-20",
-    "id": "17873199758482"
   }
 ]
