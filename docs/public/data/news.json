@@ -1,5 +1,44 @@
 [
   {
+    "title": "MIT 研究：AI 生成图像难以追溯训练数据",
+    "summary": "MIT 研究发现，大规模模型存在“归属衰减”，生成图像无法追溯至特定训练数据。",
+    "detail": "MIT CSAIL 团队提出“归属衰减”现象，指出随着训练数据规模扩大，单个数据对输出影响微乎其微。即使移除特定艺术家或照片，生成结果不变。这对版权诉讼、许可协议及责任认定提出严峻挑战。研究认为若移除数据不影响输出，则无法归因。这可能改变全球 AI 监管与法律框架，为模型训练数据免责提供理论依据。",
+    "tags": [
+      "News",
+      "Research",
+      "Copyright"
+    ],
+    "link": "https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818",
+    "date": "2026-08-22",
+    "id": "17874234990920"
+  },
+  {
+    "title": "TechSkills：开源 AI 编程代理技能模块库",
+    "summary": "开源库提供前端、后端等技能模块，帮助 AI 代理获得专家级编程能力。",
+    "detail": "该项目提供 curated 的 `SKILL.md` 文件库，涵盖前端、后端及系统设计等领域。旨在弥补 AI 代理缺乏深度程序性知识的短板。框架中立，任何支持 Markdown 指令的代理均可加载，提供生产级最佳实践而非理论。社区驱动模式确保技能模块持续更新，助力 AI 输出专家级代码，降低开发者使用门槛。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Agents"
+    ],
+    "link": "https://github.com/debabratasaha-dev/techskills",
+    "date": "2026-08-22",
+    "id": "17874234990921"
+  },
+  {
+    "title": "Namo_complete：Bash 终端的非侵入式 AI 自动补全",
+    "summary": "专为 Linux Bash 设计的 AI 补全工具，支持自然语言描述命令，非侵入式提示。",
+    "detail": "基于 Sun 语言编写的 Bash 终端 AI 补全工具。用户在输入暂停时显示暗色提示，可通过快捷键接受或用自然语言描述需求。支持 Alt-O 接受提示，Alt-G 进入问答模式。目前仅支持 Linux，需配置 Anthropic API。旨在提供非侵入式的命令行辅助，提升开发者终端操作效率，减少命令记忆负担。",
+    "tags": [
+      "Dev",
+      "CLI",
+      "Productivity"
+    ],
+    "link": "https://github.com/namo-robotics/namo_complete",
+    "date": "2026-08-22",
+    "id": "17874234990922"
+  },
+  {
     "title": "iOS 端侧 AI 代理应用问世，隐私优先无需云端",
     "summary": "全新 iOS 应用实现端侧 AI 代理与语音管道，无需云端推理。",
     "detail": "该开源项目展示了一款完全在设备上运行 AI 代理和语音管道的 iOS 应用。利用 Apple Intelligence 模型，支持后台任务规划与搜索，数据不出设备仅用于网页研究。具备流式语音转文本及零样本语音克隆功能，为隐私敏感的端侧 AI 应用提供了新范式。核心亮点在于无需账户和云端推理，仅网页研究可开关。这为移动设备上的隐私优先 AI 交互树立了新标杆，展示了本地模型在复杂任务中的潜力。此外，其语音管道设计支持低带宽文本传输与接收端声音合成，为未来语音通话应用奠定基础，可能推动端侧智能体生态的快速发展与隐私保护技术的革新。",
@@ -570,6 +609,19 @@
     "link": "https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c",
     "date": "2026-08-22",
     "id": "17873612840221"
+  },
+  {
+    "title": "消息称 Anthropic IPO 文件将把 AI 反弹列为风险因素",
+    "summary": "CNBC 报道，Anthropic 在 IPO 文件中将公众对 AI 的抵制情绪列为潜在风险因素。",
+    "detail": "据 CNBC 消息源，Anthropic 在其 IPO 申报文件中将\"AI 反弹”（AI backlash）列为风险因素。这反映了行业对公众舆论、监管政策及社会接受度的担忧。随着 AI 普及，负面情绪可能影响公司估值与业务扩展。标志着 AI 巨头开始正视社会阻力对资本市场的潜在冲击，投资者需关注舆论风险。",
+    "tags": [
+      "News",
+      "Finance",
+      "Anthropic"
+    ],
+    "link": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-factors-sources-say.html",
+    "date": "2026-08-21",
+    "id": "17874234990923"
   },
   {
     "title": "荷兰监管机构因 AI 自动化决策罚款 Uber 8.25 亿欧元",
@@ -1246,57 +1298,5 @@
     "link": "https://viewfromthewing.com/delta-will-use-ai-to-cut-jobs-and-set-a-different-ticket-price-for-every-passenger-ceo-says-profits-could-rise-50/",
     "date": "2026-08-21",
     "id": "17873164682012"
-  },
-  {
-    "title": "Locus：纯 Rust 编写的 AI 代理安全防火墙",
-    "summary": "确定性的 AST 安全防火墙，延迟低于 0.05ms。专为 AI 代理设计的 Rust 库。",
-    "detail": "Locus 是一个专为 AI 代理设计的确定性 AST 安全防火墙，使用**纯 Rust 编写**。其延迟低于 0.05ms，确保不影响代理的实时性能。主要解决 AI 代理在执行代码或操作时的安全隐患，提供快速的安全检查层。对于构建高可靠性 AI Agent 系统的开发者来说，这是一个重要的底层安全基础设施，适合集成到 Rust 技术栈中。",
-    "tags": [
-      "Dev",
-      "Rust",
-      "Security"
-    ],
-    "link": "https://github.com/ahmadshady747-create/LOCUS",
-    "date": "2026-08-21",
-    "id": "17873164682013"
-  },
-  {
-    "title": "AI 制药专利困境：发明人必须是人类",
-    "summary": "美国法院裁定专利发明人必须为人类，AI 无法获得法律认可身份。",
-    "detail": "MIT 科技评论探讨 AI 制药领域的知识产权难题。尽管 Insilico Medicine 等公司利用生成式 AI 发现新药分子，但美国法院裁定专利发明人必须是人类。这一法律现状凸显了现行知识产权法在 AI 生成发明面前的滞后性。虽然 AI 能加速研发，但无法获得法律认可的“发明人”身份。这对 AI 制药公司的商业保护策略提出挑战，也引发了关于 AI 法律地位的深度伦理讨论。未来可能需要立法改革，明确 AI 辅助发明的权属，否则将阻碍 AI 在关键科学领域的进一步应用与投资，影响医药创新效率，迫使企业在专利申请时必须保留人类参与的核心证据链。",
-    "tags": [
-      "News",
-      "Legal",
-      "BioTech"
-    ],
-    "link": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
-    "date": "2026-08-21",
-    "id": "17873116267592"
-  },
-  {
-    "title": "ContextForge：AI 辅助开发的上下文工程平台",
-    "summary": "新工具 ContextForge 旨在优化 LLM 开发中的上下文管理效率。",
-    "detail": "ContextForge 是一个面向 AI 辅助开发的上下文工程平台，已在 Hacker News 展示。随着 LLM 应用复杂化，如何管理 prompt 上下文成为开发痛点。该工具旨在帮助开发者更高效地组织和优化输入给 AI 的上下文信息，提升代码生成质量。这反映了 AI 开发流程正从单纯调用模型转向精细化的上下文管理。为开发者提供了新的工程化解决方案，降低 AI 集成门槛。通过标准化上下文处理，团队可协作维护高质量知识库，显著提升 AI 编程助手的输出稳定性与相关性，解决长上下文窗口中的信息丢失问题，优化 Token 使用成本。",
-    "tags": [
-      "Dev",
-      "Tools",
-      "LLM"
-    ],
-    "link": "https://github.com/waterflane/ContextForge",
-    "date": "2026-08-21",
-    "id": "17873116267593"
-  },
-  {
-    "title": "Nouswise AI 评测：2026 年值得信赖的研究代理",
-    "summary": "深度评测 AI 研究代理 Nouswise，涵盖核心功能、定价及实际测试表现。",
-    "detail": "本文深度评测了 2026 年新兴 AI 工具 Nouswise，定位为用户的研究代理与思考伙伴。文章目录结构完整，涵盖核心功能、优势分析、适用人群及定价概述。评测部分详细拆解了优缺点、实际动手测试体验及结果文档生成能力，支持生成 PPTX、音频 recap 及思维导图等多种格式。此外，文章还提供了详细定价对比、关键替代品分析及隐私政策解读。最终 verdict 部分给出了专业建议，适合需要高效研究辅助的专业人士及团队参考使用，内容详实可靠，为 2026 年 AI 研究工具选型提供重要依据。",
-    "tags": [
-      "New",
-      "AI Agent",
-      "Review"
-    ],
-    "link": "https://delavo.de/en/writing/nouswise-ai-research-agent/",
-    "date": "2026-08-21",
-    "id": "17873083087440"
   }
 ]
