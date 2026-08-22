@@ -1,5 +1,31 @@
 [
   {
+    "title": "教育界反思：为何必须教会学生 AI 的局限性",
+    "summary": "教育家强调需培养学生批判性思维，区分 AI 模式识别与人类真实表达的差异。",
+    "detail": "文章深入探讨了 AI 技术进步对人类思考能力的潜在威胁，指出过度依赖可能导致智力趋同和批判性思维侵蚀。研究人员已记录到文化停滞效应，威胁使深思熟虑成为失传艺术。作者通过南方哥特文学课程实践，让学生对比 AI 分析与人类情感解读。核心观点是教育者应直面 AI，教导学生区分 AI 的模式识别技能与无法做梦、沉浸于人类视角的局限性，避免深度思考成为失传艺术，维护人类文化的独特性。教育的关键在于理解风险，而非拒绝技术。",
+    "tags": [
+      "News",
+      "Education",
+      "LLM"
+    ],
+    "link": "https://theconversation.com/the-importance-of-teaching-students-what-ai-cant-do-286100",
+    "date": "2026-08-22",
+    "id": "17874337356930"
+  },
+  {
+    "title": "Hacker News 热议：反对 AI 者为何仍使用前沿模型",
+    "summary": "社区讨论 AI 抵制者的言行不一，建议转向开源模型以减少对前沿实验室的依赖。",
+    "detail": "HN 社区发起关于 AI 抵制者言行不一的讨论，指出许多厌恶 AI 的人仍在使用前沿实验室的 coding 工具。帖子建议开发者切换到 OpenCode 等工具，以便在开源模型成熟时轻松迁移。这反映了对厂商锁定的担忧，以及社区希望在支持 AI 效率的同时保持技术自主性的矛盾心态。讨论强调了实际行动比口头抵制更重要，鼓励通过技术选型减少了对单一供应商的依赖风险，提倡更理性的 AI 使用策略，避免被前沿实验室锁定。",
+    "tags": [
+      "News",
+      "Community",
+      "OpenSource"
+    ],
+    "link": "https://news.ycombinator.com/item?id=49401293",
+    "date": "2026-08-22",
+    "id": "17874337356931"
+  },
+  {
     "title": "领域驱动 AI：为何多数 AI 产品死于概念验证阶段？",
     "summary": "深入探讨 AI 项目失败根源，提出领域驱动方法论助力产品落地。",
     "detail": "文章基于 2023 年以来对 AI 产品失败案例的研究，指出大多数 AI 项目无法越过概念验证阶段。作者结合法律行业实例，分析 GenAI 产品成功的关键在于业务流程与 AI 能力的精准编排。虽然不存在通用的成功公式，但“领域驱动”思路强调理解特定领域需求而非单纯技术堆砌。文中提到 2022 年 ChatGPT 发布后，生成式 AI 产品时代来临，但许多项目因流程错误或缺乏数据而死亡。该文章为 AI 从业者提供了关于产品落地难的深度反思，强调领域知识的重要性，有助于团队优化开发流程。",
@@ -1272,31 +1298,5 @@
     "link": "https://www.quantamagazine.org/are-we-thinking-correctly-about-ai-intelligence-20260820/",
     "date": "2026-08-21",
     "id": "17873229960213"
-  },
-  {
-    "title": "免费离线私有 AI 文本检测工具上线",
-    "summary": "无需注册付费，本地运行 AI 文本检测，保护用户隐私。",
-    "detail": "CapyToolkit 推出了一款完全离线且免费的 AI 文本检测工具。高级模式包含 120MB 本地分类模型，结合启发式信号进行分析。所有计算均在本地浏览器完成，无数据上传，无需注册或付费。虽然作者警告检测分数仅为方向性信号，但该工具为隐私敏感场景提供了可靠的检测方案。基本模式扫描隐藏 Unicode 字符，高级模式混合分类器信号。无需互联网连接即可运行，dropped connection 不会中断评分，适合对数据隐私有严格要求的用户使用。没有任何账户创建或电子邮件 handing over，所有功能立即生效。",
-    "tags": [
-      "New",
-      "Tool",
-      "Privacy"
-    ],
-    "link": "https://capytoolkit.com/tools/text/offline-private-ai-text-detector/",
-    "date": "2026-08-21",
-    "id": "17873229960214"
-  },
-  {
-    "title": "Nvidia 推出 Switchyard 路由器降低 AI 代理成本",
-    "summary": "Nvidia 发布新路由库，动态分配模型任务，成本降至三分之一。",
-    "detail": "Nvidia 发布 Nemotron 3.5 Lightning 模型及 NeMo Switchyard 开源库。Switchyard 能在代理工作流中动态路由每一步到最合适的模型。测试显示，结合 Lightning 模型，可在保持前沿任务完成水平的同时，将基准成本降至仅使用 Opus 4.8 的三分之一。此举旨在解决企业 AI 代理成本高企及路由逻辑维护复杂的问题。30B 参数 MoE 模型专为高容量任务构建，输出速度快 4 倍。开源权重已成为行业标准，Nvidia 此举意在中间层 orchestration 占据优势，应对中国模型竞争。Meta 也发布了类似开源模型，开放权重从差异化变为标配，Nvidia 试图通过路由优化降低成本。",
-    "tags": [
-      "News",
-      "Nvidia",
-      "Cost"
-    ],
-    "link": "https://venturebeat.com/orchestration/nvidias-switchyard-router-reshuffles-ai-models-mid-task-cutting-task-costs-to-a-third-in-its-own-tests",
-    "date": "2026-08-21",
-    "id": "17873229960215"
   }
 ]
