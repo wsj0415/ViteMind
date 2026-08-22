@@ -1,5 +1,44 @@
 [
   {
+    "title": "AI 模型指纹识别技术突破：绕过提示词欺骗",
+    "summary": "OpenRating 发布新技术，通过 Tokenizer 和基础设施特征确定性识别 AI 模型。",
+    "detail": "针对第三方 API 网关中模型身份伪造问题，OpenRating 提出客户端指纹识别引擎。核心技术在于利用 Tokenizer 词汇表、字节回退规则及推理引擎模板偏移等基础设施特征，而非易变的对话提示。代理提供商若试图伪造需双向翻译 Token 流，会引入严重延迟。该方法能准确区分 Qwen、Llama 等模型，即使经过微调或提示词伪装，为模型评估和安全审计提供可靠工具，解决黑盒模型识别难题。此举将提升 API 市场透明度，防止供应商以次充好，推动行业建立更严格的模型交付标准，增强开发者对第三方 API 的信任度。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Security"
+    ],
+    "link": "https://openrating.io/blog/current-state-of-ai-model-fingerprinting",
+    "date": "2026-08-22",
+    "id": "17874023938770"
+  },
+  {
+    "title": "欧洲央行警示：AI 繁荣是理性热潮还是泡沫？",
+    "summary": "欧洲央行发文探讨 AI 投资热潮，分析其是否重蹈互联网泡沫覆辙。",
+    "detail": "欧洲央行（ECB）发布博客文章，深入分析当前 AI 行业的爆炸式增长，探讨其是理性热潮还是继互联网泡沫后的下一个泡沫。文章对比了历史科技泡沫周期，评估当前估值是否基于理性预期。作为权威金融机构，ECB 的观点直接影响全球资本对 AI 基础设施的信心。该分析对于投资者判断行业长期走势及潜在风险具有重要参考意义，标志着宏观层面开始审视 AI 经济影响及金融稳定性。若被视为泡沫，可能引发监管收紧及资本撤离，行业需证明实际生产力提升以维持估值，避免资本市场的剧烈波动。",
+    "tags": [
+      "News",
+      "Finance",
+      "Market"
+    ],
+    "link": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20260817~754a8a4418.en.html",
+    "date": "2026-08-22",
+    "id": "17874023938771"
+  },
+  {
+    "title": "Meta 推出 Mango AI：下一代视频生成模型亮相",
+    "summary": "Meta 发布 Mango AI 工作室，支持 Nano Banana 2 模型，实现高保真视频生成。",
+    "detail": "Meta Superintelligence Labs 推出 Mango AI，主打物理理解与时序连续性，宣称是下一代扩散 Transformer 模型。集成 Nano Banana 2 及 GPT Image 2 等模型，支持 10 秒高清视频生成，每日视频观众超 5 亿。采用 Diffusion Transformer 架构，强调实时生成能力。该产品标志着多模态生成模型在视频领域的进一步落地，竞争加剧，为创作者提供新工具，订阅计划低至每月 9.90 美元。Meta 此举意在巩固其在生成式 AI 领域的地位，与竞争对手争夺视频生成市场份额，降低视频创作门槛。",
+    "tags": [
+      "New",
+      "Video Generation",
+      "Meta"
+    ],
+    "link": "https://trymangoai.com",
+    "date": "2026-08-22",
+    "id": "17874023938772"
+  },
+  {
     "title": "AI 内容信任危机：为何人们拒绝阅读 AI 生成内容",
     "summary": "探讨 AI 生成内容被抵触的心理根源，强调真实性与匠心价值。",
     "detail": "文章提出\"AI;DR\"（AI Did Not Read）新概念，深入分析用户抵触 AI 内容的心理学根源。核心观点在于人们普遍重视“匠心”与“真实性”，往往将创作者付出的努力视为价值的代理，甚至喜欢不完美而非完美。AI 生成内容因缺乏背后的人格化思考、独特个性及努力痕迹，导致读者信任感显著下降。人们寻求与内容背后的心灵共鸣，AI 内容让人感到空虚。这对内容创作者提出严峻挑战，表明未来需在 AI 辅助下保留人性化特质，以重建受众连接，避免内容价值因自动化而贬值，维持专业领域的真实性假设。此外，当内容署名发布时，读者假设作者经过思考，AI 使该假设不可靠，影响专业信誉。",
@@ -284,6 +323,19 @@
     "link": "https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c",
     "date": "2026-08-22",
     "id": "17873612840221"
+  },
+  {
+    "title": "荷兰监管机构因 AI 自动化决策罚款 Uber 8.25 亿欧元",
+    "summary": "Uber 因算法自动停用司机账户违反 GDPR，遭荷兰数据保护当局重罚。",
+    "detail": "荷兰数据保护当局（AP）认定 Uber 在 2020-2022 年间利用自动化系统暂停司机账户，未充分告知且影响生计，违反 GDPR 关于自动化决策的规定。调查源于法国司机投诉，罚款高达 8.25 亿欧元。此案例确立 AI 自动化决策法律责任的重要先例，警示企业需在算法管理中保留人工干预及透明度，合规成本将显著上升，Uber 表示将提起上诉。该判决可能引发欧盟范围内对零工经济算法管理的连锁反应，迫使平台改革自动化封禁流程，保障劳动者权益。",
+    "tags": [
+      "News",
+      "Regulation",
+      "GDPR"
+    ],
+    "link": "https://nltimes.nl/2026/08/21/dutch-regulator-fines-uber-eu825-mil-letting-algorithm-deactivate-drivers-accounts",
+    "date": "2026-08-21",
+    "id": "17874023938773"
   },
   {
     "title": "谷歌研究：移动数据增强 LLM 地理理解",
@@ -1246,57 +1298,5 @@
     "link": "https://arstechnica.com/tech-policy/2026/08/flight-attendants-freaked-out-that-google-to-buy-tons-of-spirit-employee-data/",
     "date": "2026-08-21",
     "id": "17872871545720"
-  },
-  {
-    "title": "Apple Music 将对 AI 生成歌曲添加识别标签",
-    "summary": "苹果计划区分人类与 AI 创作音乐，增加透明度。",
-    "detail": "Apple Music 将实施新政策，明确标记 AI 生成的歌曲，以应对生成式 AI 对音乐行业的冲击。此举旨在保障用户知情权，区分人类创作与机器生成内容，防止混淆。反映了科技巨头在 AI 内容版权与标识上的合规趋势，可能成为音乐流媒体行业的标准做法，影响创作者生态。同时，这也预示着未来数字内容平台将普遍采用 AI 标识，以平衡技术创新与版权保护之间的关系，维护行业秩序。",
-    "tags": [
-      "News",
-      "Apple",
-      "Music"
-    ],
-    "link": "https://www.macrumors.com/2026/08/20/apple-music-to-label-ai-generated-songs/",
-    "date": "2026-08-21",
-    "id": "17872871545721"
-  },
-  {
-    "title": "Meta 生成式 AI 小游戏应用正式登陆美国市场",
-    "summary": "Meta 推出 AI 小游戏创作应用，降低游戏开发门槛。",
-    "detail": "Meta 的生成式 AI 小游戏创作应用现已在美国可用，用户可通过自然语言创建迷你游戏。这标志着 Meta 在消费级 AI 应用落地的又一尝试，旨在利用 AI 降低内容创作门槛，增强社交生态互动性。该应用展示了多模态模型在互动娱乐领域的潜力，可能推动 UGC 游戏创作普及。此举有助于 Meta 巩固其在社交游戏领域的地位，并为开发者提供新的 AI 驱动创作工具，丰富平台内容生态。",
-    "tags": [
-      "News",
-      "Meta",
-      "Game"
-    ],
-    "link": "https://www.engadget.com/2241098/meta-pocket-app-for-creating-generative-ai-minigames-available-in-us/",
-    "date": "2026-08-21",
-    "id": "17872871545722"
-  },
-  {
-    "title": "经济学人分析 Reddit 在 AI 时代的生存挑战",
-    "summary": "分析 AI 抓取内容对 Reddit 社区生态及商业模式的挑战。",
-    "detail": "《经济学人》发文探讨 Reddit 如何应对 AI 时代。AI 模型依赖社区数据训练，可能削弱用户访问动机，导致平台流量下降。文章分析了内容平台在 AI 抓取授权与用户留存间的平衡难题，对依赖 UGC 的平台具有警示意义，凸显了内容价值在 AI 时代的重新博弈。若 AI 直接提供答案，用户访问原始社区的动力将减弱，Reddit 需探索新的价值主张以维持社区活力与商业可持续性。",
-    "tags": [
-      "News",
-      "Reddit",
-      "Industry"
-    ],
-    "link": "https://www.economist.com/business/2026/08/20/can-reddit-survive-in-the-ai-era",
-    "date": "2026-08-21",
-    "id": "17872871545723"
-  },
-  {
-    "title": "开发者构建 AI Agent 权限层并进行安全测试",
-    "summary": "Show HN 项目，探索 AI 代理的权限控制与安全边界。",
-    "detail": "开发者在 Hacker News 分享自建的 AI Agent 权限层，并公开测试突破过程。项目聚焦自主 Agent 的安全执行边界，防止越权操作。为 AI 代理在企业级应用中的安全部署提供了实践参考与开源思路，解决了自主代理失控风险的关键技术问题。通过公开“破坏”自己构建的系统，开发者展示了安全测试的重要性，为构建可信自主 Agent 提供了宝贵经验，促进 Agent 安全标准的发展。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Security"
-    ],
-    "link": "https://news.ycombinator.com/item?id=49383441",
-    "date": "2026-08-21",
-    "id": "17872871545724"
   }
 ]
