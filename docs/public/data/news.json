@@ -1,5 +1,57 @@
 [
   {
+    "title": "好莱坞创意人员训练 AI 取代自身工作引发行业震动",
+    "summary": "卫报报道好莱坞创意人员正训练 AI 完成自己的工作，引发职业生存危机讨论。",
+    "detail": "卫报头条指出好莱坞创意人员正在亲自训练 AI 模型以执行原本属于他们的任务。这一现象揭示了 AI 技术渗透娱乐行业的深度，同时也引发了关于职业替代与伦理的激烈讨论。创作者面临“挖掘自己职业坟墓”的困境，反映了 AI 在内容生成领域能力的提升及其对劳动力市场的潜在冲击。尽管文章具体内容未完全展示，但标题已明确指向行业结构性变革，提示从业者需关注 AI 对创意工作的双重影响及未来就业形态的变化。",
+    "tags": [
+      "News",
+      "AI Ethics",
+      "Entertainment"
+    ],
+    "link": "https://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs",
+    "date": "2026-08-22",
+    "id": "17874085280090"
+  },
+  {
+    "title": "Conveyor：确保 AI 代理代码与产品意图一致的软件工厂",
+    "summary": "通过文档确认和流程 gating，解决 AI 代理生成代码无法匹配产品意图的瓶颈。",
+    "detail": "Conveyor 是一个专为代理编写代码设计的软件工厂。它通过队列管理需求、系统设计和决策文档，人类操作员确认文档后，代理才执行计划。核心在于知识图谱链接每次变更与证据，当交付与确认意图不符时发出信号。该项目自 2026 年 7 月起用于构建自身，旨在解决无监督代理生成过多不可读代码的问题，强调流程 inspection 而非事后检查，为 AI 软件工程提供新范式，确保代码变更可追溯且符合初始设计意图。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Software Engineering"
+    ],
+    "link": "https://github.com/kidus-tiliksew/conveyor",
+    "date": "2026-08-22",
+    "id": "17874085280091"
+  },
+  {
+    "title": "dsh-edge：将 DeepSeek 编程代理部署至 Cloudflare 边缘",
+    "summary": "一键将 DeepSeek Harness 部署到 Cloudflare Workers，实现无服务器个人编程代理。",
+    "detail": "dsh-edge 是一个社区项目，允许用户在 Cloudflare Workers 上运行 DeepSeek Harness Web 体验。无需维护服务器或配置构建管道，即可拥有持久的个人编程代理。它保留了上游 UI、代理循环和模型选择功能，仅提供 Cloudflare 运行时和持久工作区。适合希望在边缘网络部署 AI coding agent 的开发者，降低了本地部署门槛，实现 anywhere 访问，为个人开发者提供了轻量化的 AI 编程助手部署方案。",
+    "tags": [
+      "Dev",
+      "Deployment",
+      "Cloudflare"
+    ],
+    "link": "https://github.com/pawaca/dsh-edge",
+    "date": "2026-08-22",
+    "id": "17874085280092"
+  },
+  {
+    "title": "Knoku：基于引用来源的 AI 答案生成平台",
+    "summary": "整合网站、GitHub 及文件资源，提供可追溯引用的 AI 问答工具。",
+    "detail": "Knoku 允许用户爬取网站、同步 GitHub Markdown 或上传 PDF，构建统一的引用索引。支持在 Widget、Slack 和 API 中提供带引用的 AI 答案。功能包括追踪防御率、重复问题和知识缺口，帮助团队优化文档。提供 14 天免费试用，无需信用卡。适合需要基于内部知识库构建可信 AI 客服或助手的企业团队，解决 hallucination 问题，通过引用来源增强 AI 回答的可信度与可验证性。",
+    "tags": [
+      "New",
+      "RAG",
+      "SaaS"
+    ],
+    "link": "https://knoku.com",
+    "date": "2026-08-22",
+    "id": "17874085280093"
+  },
+  {
     "title": "Knoku 发布引用式 AI 问答工具，整合文档与团队知识",
     "summary": "Knoku 推出新平台，可将文档、文件及团队知识转化为带引用的 AI 回答，支持网站爬取与 GitHub 同步。",
     "detail": "Knoku 是一款面向企业的新 AI 工具，旨在解决大模型幻觉问题，提供带来源引用的准确回答。核心功能包括爬取公共文档网站、同步 GitHub Markdown 仓库以及上传 PDF 文件，统一构建索引。支持嵌入 Widget、Slack 及 API 调用，方便多场景使用。此外，平台提供数据分析功能，追踪未回答问题与支持需求缺口，帮助团队优化知识库内容。目前提供 14 天免费试用，无需信用卡，适合需要构建内部知识库或客户支持系统的团队使用，体现了企业级 AI 对准确性和可追溯性的重视，降低了私有化部署门槛。",
@@ -1246,57 +1298,5 @@
     "link": "https://techupdate24.com/aws-bedrock-agentcore-hijacked-ai-security/",
     "date": "2026-08-21",
     "id": "17872948520700"
-  },
-  {
-    "title": "Argentic 推出 AI 代理 Lightning 收费亭",
-    "summary": "首个机器原生收费亭，AI 代理用比特币 Lightning 支付访问网页，无需 API 密钥。",
-    "detail": "Argentic 网络成为互联网首个机器原生收费亭，专为 AI 代理抓取设计。代理通过 Bitcoin Lightning 网络支付 10 聪（约 0.001 美元）即可访问开放网页，无需账户或 API 密钥。支付后获得 1 小时会话令牌，毫秒级结算。该协议通过 HTTP 402 状态码返回发票，代理自动支付后通行。旨在解决机器间支付的摩擦问题，为内容提供者提供微支付 monetization 方案，同时保持代理访问的无摩擦体验，速度如光速般快捷。",
-    "tags": [
-      "New",
-      "Bitcoin",
-      "Agents"
-    ],
-    "link": "https://Argentic.network",
-    "date": "2026-08-21",
-    "id": "17872948520702"
-  },
-  {
-    "title": "AliothPress CMS 集成 WebMCP 支持 AI 代理",
-    "summary": "自托管 CMS 原生支持 WebMCP 标准，允许代理搜索内容及提交表单，权限可控。",
-    "detail": "AliothPress 成为首个原生支持 WebMCP 标准的自托管 CMS，允许网站所有者显式控制 AI 代理权限。通过 `/.well-known/webmcp` manifest 自动发现工具，代理可搜索内容、描述表单或代表访客提交表单。功能默认关闭，需管理员在后台开启公共或管理员工具。无需插件或第三方服务，核心内置支持。此举增强了网站与 AI 代理的互操作性，为 AI 驱动的网络交互提供标准化接口，类似 robots.txt 但支持更复杂的工具调用。",
-    "tags": [
-      "New",
-      "WebMCP",
-      "CMS"
-    ],
-    "link": "https://aliothpress.com/cms-for-ai-agents-webmcp-built-in",
-    "date": "2026-08-21",
-    "id": "17872948520703"
-  },
-  {
-    "title": "RunAI Coder 实现自然语言生成可玩游戏",
-    "summary": "描述想法即可生成游戏或代码 PR，单次交付约 10 美元，支持多平台与审计。",
-    "detail": "RunAI Coder 允许用户通过自然语言指令生成可玩游戏或合并代码 PR。采用 Fable 5 及 GPT 5.6 Sol 模型，提供高达 6 倍成本节省（通过压缩与批量优化）。免费起步包含 2-3 次交付，付费模式按用量计费，约 10 美元可获 8-9 次交付。支持终端应用及多平台，每一步均可审计，用户可从浏览器接管会话。旨在降低开发门槛，实现一人一机器的高效交付模式，适合快速原型开发与游戏生成场景。",
-    "tags": [
-      "New",
-      "Coding",
-      "GameGen"
-    ],
-    "link": "https://run.ceo/coder/",
-    "date": "2026-08-21",
-    "id": "17872948520704"
-  },
-  {
-    "title": "Seedance 2.5 AI 视频生成工作流评测",
-    "summary": "支持提示词生成 1080p 短视频，对比 Wan 3.0 工作流。",
-    "detail": "SeeVido 平台推出最新 Seedance 2.5 AI 视频生成模型，支持通过文本提示词或参考图像生成可控短视频。输出分辨率最高达 1080p，支持灵活宽高比及主体一致性控制。相关评测对比了 Seedance 2.5 与 Wan 3.0 在 30 秒 AI 视频工作流中的表现，展示其在飞行员、猫咪等主题上的生成效果。该工具集成音频、图像到视频等多种生成模式，旨在简化视频创作流程。适合内容创作者进行快速原型制作与短视频生产，降低了高质量视频生成的门槛，提供限时 20% 优惠升级。",
-    "tags": [
-      "New",
-      "Video AI",
-      "Generative"
-    ],
-    "link": "https://seevido.com/model/seedance-2-5/",
-    "date": "2026-08-21",
-    "id": "17872903942522"
   }
 ]
