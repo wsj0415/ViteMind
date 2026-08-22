@@ -1,5 +1,44 @@
 [
   {
+    "title": "Show HN: Heimdall – AI 编码代理的信任验证知识层",
+    "summary": "解决 AI 代理重复工作问题，提供信任验证和自愈记忆图谱。",
+    "detail": "Heimdall 是一个专为 AI 编码代理设计的信任验证知识层，旨在解决代理会话冷启动及重复工作问题。它通过语义记忆图谱跨项目保持上下文新鲜，并引入独特的“信任裁决”机制，为搜索结果标记 STRONG、WEAK 或 STALE 等状态。这有效防止代理基于死路径或幻觉行动，支持并发代理下的自愈能力，显著减少重复重建工作。此外，其 Level-triggered 机制确保了多代理并发下的数据一致性，避免了事件驱动带来的状态冲突。这种架构设计为构建可靠的自主代理系统提供了新思路，值得开发者深入研究与集成。",
+    "tags": [
+      "Dev",
+      "AI Agent",
+      "Coding"
+    ],
+    "link": "https://github.com/ArihantDeva/heimdall",
+    "date": "2026-08-22",
+    "id": "17873673170730"
+  },
+  {
+    "title": "Show HN: Anjadhe – 隐私优先的本地 AI 助手",
+    "summary": "无需账户和服务端数据库，默认隐私保护的 macOS AI 助手。",
+    "detail": "Anjadhe 是一款强调隐私保护的 AI 助手，主打无账户、无服务器数据库架构，所有数据默认本地化处理。它能读取邮件、规划目标并以用户 voice 写作，适合对数据隐私敏感的用户，目前已提供 macOS 下载版本。在数据泄露频发的背景下，这种本地优先的设计思路回应了用户对隐私安全的核心诉求。无需云端同步意味着更低的数据暴露风险，为个人 AI 助手设立了新的隐私标杆。此外，无账户设计降低了使用门槛，让用户无需担心数据被用于模型训练。这种“隐私默认”的理念可能影响未来个人 AI 产品的竞争格局，促使大厂跟进类似的安全标准，保护用户数字主权。",
+    "tags": [
+      "New",
+      "Privacy",
+      "Assistant"
+    ],
+    "link": "https://www.anjadhe.com/demo",
+    "date": "2026-08-22",
+    "id": "17873673170731"
+  },
+  {
+    "title": "前 Anthropic 导师撰文：宁愿冒癌症风险也不愿 AI 如此快速发展",
+    "summary": "AI 教授兼癌症风险携带者质疑 AI 速度与安全平衡，提及 Dario Amodei。",
+    "detail": "一位携带癌症突变基因的 AI 教授在《大西洋月刊》撰文，质疑 AI 过快发展的风险。作者曾是 Anthropic CEO Dario Amodei 的导师，对比了 AI 治愈癌症的承诺与现实风险。文章探讨了在个人健康危机背景下，对超级智能 AI 安全性的深刻担忧与伦理反思。作者指出，尽管 AI 承诺压缩科学进步时间，但过快发展可能带来不可控后果。这种来自行业内部的声音揭示了 AI 安全派与加速派之间的深层矛盾，为政策制定者提供了重要参考。文章还回顾了与 Dario Amodei 的过往合作，增加了观点的可信度。这种来自核心圈层的反思，可能影响未来 AI 安全政策的走向，提醒业界在追求 AGI 的同时不能忽视潜在的社会与健康风险平衡。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Safety"
+    ],
+    "link": "https://www.theatlantic.com/technology/2026/06/ai-cancer-progress/687654/",
+    "date": "2026-08-22",
+    "id": "17873673170732"
+  },
+  {
     "title": "Linus Torvalds 确认 AI 辅助调试 Linux 内核",
     "summary": "Linux 之父公开表示 AI 极大帮助了内核调试过程，开发者工具链迎来 AI 赋能。",
     "detail": "**背景**：Linux 内核开发社区对 AI 工具的态度一直谨慎，但近期出现了显著转变。\n\n**核心内容**：Linux 创始人 Linus Torvalds 在 GitHub 提交记录中明确评论称，一次极其困难的内核调试会话（debug session from hell）得到了 AI 的巨大帮助。这标志着核心基础设施维护者开始认可 AI 在复杂代码排查中的价值。\n\n**行业影响**：作为开源界的旗帜性人物，Linus 的认可具有风向标意义。这将鼓励更多底层系统开发者尝试将 LLM 集成到工作流中，推动 AI 编程助手从应用层向系统底层渗透，提升开发效率。",
@@ -11,6 +50,19 @@
     "link": "https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c",
     "date": "2026-08-22",
     "id": "17873612840221"
+  },
+  {
+    "title": "社会实验项目：What We Tell AI 收集人类对 AI 的真实倾诉",
+    "summary": "匿名收集用户与 AI 交互的情感依赖、道德困境及使用场景。",
+    "detail": "该项目收集了用户向 AI 倾诉的真实匿名故事，涵盖情感依赖、道德困境及工作替代焦虑。内容显示用户既将 AI 视为深夜伴侣，又担心其非人化影响。这反映了人机交互深层心理变化，为 AI 伦理设计提供了一手社会数据。故事包括用户向 AI 寻求情感支持、撰写婚礼誓言甚至替代 therapist。这种现象揭示了人类对 AI 的情感投射正在加剧，可能引发社会隔离风险。对于开发者而言，理解用户如何真实使用 AI 而非预设场景，是优化产品体验的关键。网站展示了大量真实用户留言，揭示了 AI 正在成为情感寄托对象。这种现象提示开发者需关注 AI 的心理影响，避免过度依赖。同时，这也为研究 AI 伦理和社会学提供了丰富的素材，值得行业密切关注。",
+    "tags": [
+      "News",
+      "Social",
+      "HCI"
+    ],
+    "link": "https://www.whatwetellai.com/",
+    "date": "2026-08-21",
+    "id": "17873673170733"
   },
   {
     "title": "Meta AI 眼镜普及引发隐私担忧",
@@ -1246,57 +1298,5 @@
     "link": "https://cyberscoop.com/mid-tier-ai-models-hacking-threat/",
     "date": "2026-08-20",
     "id": "17872751180503"
-  },
-  {
-    "title": "WorthToTry 发布本周热门 AI 工具清单",
-    "summary": "收录 706 款 AI 工具，本周新增 Ray 3.2 视频生成等实用产品。",
-    "detail": "该平台提供经审核的 AI 工具目录，包含定价、开源状态及实用性评估。本周推荐工具包括 Ray 3.2（AI 视频创作）、PawCoach（宠物训练）及 NEDIO（开发者专注工具）。Top 工具涵盖 Copy.ai、Spellbook 等。为开发者和企业提供了经过验证的工具选型参考，降低尝试成本。所有列表均经检查，支持免费提交。本周新增 3 款工具，现有 706 款 listed。分类清晰，涵盖营销、法律、生产力等领域。帮助用户快速找到值得尝试的 AI 产品，避免无效订阅，提高工具采用效率。平台强调真实定价和分类排序，解决了 AI 工具市场信息过载问题，是发现新兴 AI 应用的有效渠道。",
-    "tags": [
-      "New",
-      "Tools",
-      "Productivity"
-    ],
-    "link": "https://worthtotry.com/",
-    "date": "2026-08-20",
-    "id": "17872751180504"
-  },
-  {
-    "title": "OpenAI 在企业市场反超 Anthropic",
-    "summary": "Ramp 数据显示 OpenAI 在美企支出占比回升，Q3 增长速度快于 Anthropic。",
-    "detail": "根据 Ramp 企业支出数据，Anthropic 曾在 5 月以 41% 份额领先 OpenAI 的 39%。截至 7 月，Anthropic 仍占 44%，OpenAI 占 40%。但最新 Q3 数据显示 OpenAI 在美企用户中增速更快。这表明企业用户会根据模型发布在不同供应商间切换，市场竞争依然激烈。数据覆盖 7 万家美企，虽未包含使用 Amex 的大型企业，但足以显示市场风向。OpenAI 正努力夺回商业用户信任，而 Anthropic 面临增长放缓压力。季度未结束，趋势仍可能变化，但显示出 OpenAI 在商业落地方面的韧性。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Market"
-    ],
-    "link": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
-    "date": "2026-08-20",
-    "id": "17872683750570"
-  },
-  {
-    "title": "AI 行业周报：OpenAI 调整战略与 Anthropic IPO 筹备",
-    "summary": "Zvi 分析 OpenAI 应对 HuggingFace 攻击后的安全措施，及 Anthropic 上市前的风险报告。",
-    "detail": "OpenAI 正试图扭转局势，针对 HuggingFace 攻击事件采取暂停开发等新安全措施。投资者关注其高管变动及对齐问题。另一方面，Anthropic 收入持续增长筹备 IPO，但也发布了 8 月风险报告揭示内部问题。此外，周报还探讨了 AI 递归自我改进的潜力及语言模型的实用性争议。行业正处于 Quiet Aftermath 阶段，各方都在反思近期事件并规划路径，安全与对齐成为核心议题。Zvi 指出虽然早期迹象 promising，但仍需观察后续执行情况，特别是 HuggingFace 攻击的事后分析报告。",
-    "tags": [
-      "News",
-      "Safety",
-      "Strategy"
-    ],
-    "link": "https://thezvi.substack.com/p/ai-182-pause-for-reflection",
-    "date": "2026-08-20",
-    "id": "17872683750571"
-  },
-  {
-    "title": "OpenCyvis：开源自主 LLM 手机智能体",
-    "summary": "全新开源 AI 电话代理项目，支持本地运行 LLM，拒绝黑盒操作。",
-    "detail": "OpenCyvis 是一款开源 AI 手机代理项目，旨在打破商业 AI 手机的黑盒状态。该项目基于 Apache 2.0 许可，支持用户运行自己的 LLM 模型。目前已发布 v2.0 版本，采用 Kotlin 开发，测试了 9 种模型。它为开发者提供了完全透明的控制权限，适合希望私有化部署手机端 AI 助手的开发团队。项目文档齐全，包含路线图与贡献指南，推动了端侧智能体的开放生态发展。商业 AI 手机通常不透明，此项目允许用户完全掌控数据与模型，是隐私优先型 AI 应用的重要尝试。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Agent"
-    ],
-    "link": "https://github.com/opencyvis/opencyvis-phone",
-    "date": "2026-08-20",
-    "id": "17872683750572"
   }
 ]
