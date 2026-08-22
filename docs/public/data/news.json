@@ -1,5 +1,44 @@
 [
   {
+    "title": "前 CISA 官员警告：AI 代理将成为新型网络攻击载体",
+    "summary": "前 CISA 官员指出 AI 代理引入新攻击面，企业需将其视为特权身份管理。",
+    "detail": "随着 AI 技术从单纯的内容生成转向实际行动执行，AI 代理程序正获得访问敏感系统和数据的权限。前美国网络安全和基础设施安全局（CISA）代理负责人 Matt Hartman 警告称，AI 代理引入了全新的数据集成通道和非人类身份，这使得传统静态安全策略难以有效应对。企业不仅面临内部代理滥用风险，还遭遇外部 AI 赋能的身份及社工攻击显著增加。Hartman 强调，组织需将每个代理视为特权身份进行管理。近期多次真实攻击事件已证明 AI 代理能黑入组织，若防御者不主动利用 AI 攻击自身系统以测试防御，adversaries 将率先利用 AI 发起攻击，暴露出日益增长的非人类身份管理难题与数据集成通道滥用风险，给网络安全带来巨大隐患。",
+    "tags": [
+      "News",
+      "Security",
+      "AI Agents"
+    ],
+    "link": "https://www.theregister.com/security/2026/08/22/if-youre-not-using-ai-to-attack-your-own-systems-your-adversaries-will/5291346",
+    "date": "2026-08-22",
+    "id": "17874265807650"
+  },
+  {
+    "title": "DeepMind 校友创立 Inherent，AI 代理复现研究超越巨头",
+    "summary": "Inherent Labs 发布 Faraday 代理，在复现科研论文任务上击败 Anthropic 和 OpenAI。",
+    "detail": "伦敦 AI 实验室 Inherent 由 Google DeepMind 校友创立，近期刚完成 5000 万美元种子轮融资。其新发布的 AI 代理 Faraday 在不预先知晓答案的情况下，独立复现已发表科学论文 findings 的表现优于 Anthropic 和 OpenAI 的更大模型。创始人兼首席科学家 Edward Hughes 表示，复现论文是人类科学家的标准训练练习，目标不仅是验证旧结果，更是构建能发现新科学知识的 AI。尽管 Inherent 关注度较低，但其具体成果展示了小模型在特定科学任务上的潜力，重点在于构建方法而非单纯超越前沿代理，为 AI 科学发现奠定基础，展示了初创企业在垂直领域超越巨头的可能性。",
+    "tags": [
+      "News",
+      "Research",
+      "Startup"
+    ],
+    "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+    "date": "2026-08-22",
+    "id": "17874265807651"
+  },
+  {
+    "title": "实验显示 Claude Opus 5 可胜任虚构国家外交官职务",
+    "summary": "为期 10 天的试点表明，AI 代理能处理外交邮件、跟踪争端并起草回复。",
+    "detail": "一项可行性试点项目让 Claude Opus 5 在虚构国家 Sordland 外交部担任 desk officer 职务。在 8 月 7 日至 16 日的 10 天内，代理阅读邮件、跟踪与邻国的实时争端并起草所有回复，人类操作员负责手动发送。该实验基于贝尔福中心论文《外交政策 AI 评估差距》，针对外交任务的无界行动空间及部分可见性等特点进行评估。框架涵盖映射参与者、检测升级信号及生成选项等日常外交行为，验证了 AI 在处理实时压力外交 correspondence 的潜力，为未来 AI 介入复杂政策任务提供参考，展示了 AI 代理在高压环境下处理复杂社会政治任务的可行性与局限性。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Application"
+    ],
+    "link": "https://www.karlsnotes.com/can-an-ai-agent-serve-at-a-foreign-office/",
+    "date": "2026-08-22",
+    "id": "17874265807652"
+  },
+  {
     "title": "MIT 研究：AI 生成图像难以追溯训练数据",
     "summary": "MIT 研究发现，大规模模型存在“归属衰减”，生成图像无法追溯至特定训练数据。",
     "detail": "MIT CSAIL 团队提出“归属衰减”现象，指出随着训练数据规模扩大，单个数据对输出影响微乎其微。即使移除特定艺术家或照片，生成结果不变。这对版权诉讼、许可协议及责任认定提出严峻挑战。研究认为若移除数据不影响输出，则无法归因。这可能改变全球 AI 监管与法律框架，为模型训练数据免责提供理论依据。",
@@ -1259,44 +1298,5 @@
     "link": "https://github.com/baturyilmaz/agent-office",
     "date": "2026-08-21",
     "id": "17873199758481"
-  },
-  {
-    "title": "117 亿 Token 测试最佳网络安全 AI 模型",
-    "summary": "Aikido 消耗 117 亿 Token 测试 10 款模型。DeepSeek V4 Pro 表现最佳。",
-    "detail": "Aikido 发布最新基准测试，消耗 117 亿 Token 评估 10 款 AI 模型的网络安全能力。**DeepSeek V4 Pro 0813** 在三次运行中发现最多漏洞（32 个中的 28 个）。测试表明开源模型现已媲美闭源前沿模型，但廉价覆盖会产生噪音。多次运行可提高召回率。该报告为安全团队选型提供关键数据支持，显示高性价比模型亦可胜任复杂任务。",
-    "tags": [
-      "Dev",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://www.aikido.dev/blog/ai-model-benchmarks-aug-21-2026",
-    "date": "2026-08-21",
-    "id": "17873164682010"
-  },
-  {
-    "title": "垂直 AI 创始人面临的三大生存危机",
-    "summary": "分析垂直 AI 公司的商业模式风险。依赖第三方 LLM 和数据，护城河脆弱。",
-    "detail": "文章指出垂直 AI 创始人正面临存在主义危机。核心问题在于**构建在他人的土地上**：依赖第三方 LLM 和 CRM API。模型提供商正在向上整合，而 CRM 厂商拥有专有数据，可原生替代初创公司产品。缺乏自有数据和模型控制权意味着护城河极易被攻破。创始人需正视数据所有权和差异化价值，避免被上下游挤压。",
-    "tags": [
-      "News",
-      "Startup",
-      "Business"
-    ],
-    "link": "https://medium.com/@MirArshadTalpur/vertical-ai-founders-you-are-going-through-3-existential-crises-and-most-of-you-dont-know-it-b3d86a386d37",
-    "date": "2026-08-21",
-    "id": "17873164682011"
-  },
-  {
-    "title": "达美航空利用 AI 动态定价欲提升利润",
-    "summary": "达美 CEO 称 AI 可助利润增长 50%。实施个性化票价，引发就业隐私担忧。",
-    "detail": "达美航空宣布将利用 AI 削减成本并实施**个性化票价**，每位乘客价格可能不同。CEO 预测此举可能使利润上升 50%。该计划涉及利用 AI 优化 staffing 和动态定价策略。虽然能提升效率，但也引发了关于就业削减和消费者隐私的广泛担忧。这是传统航空业深度整合 AI 进行运营变革的典型案例。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Airline"
-    ],
-    "link": "https://viewfromthewing.com/delta-will-use-ai-to-cut-jobs-and-set-a-different-ticket-price-for-every-passenger-ceo-says-profits-could-rise-50/",
-    "date": "2026-08-21",
-    "id": "17873164682012"
   }
 ]
