@@ -1,5 +1,44 @@
 [
   {
+    "title": "Knoku 发布引用式 AI 问答工具，整合文档与团队知识",
+    "summary": "Knoku 推出新平台，可将文档、文件及团队知识转化为带引用的 AI 回答，支持网站爬取与 GitHub 同步。",
+    "detail": "Knoku 是一款面向企业的新 AI 工具，旨在解决大模型幻觉问题，提供带来源引用的准确回答。核心功能包括爬取公共文档网站、同步 GitHub Markdown 仓库以及上传 PDF 文件，统一构建索引。支持嵌入 Widget、Slack 及 API 调用，方便多场景使用。此外，平台提供数据分析功能，追踪未回答问题与支持需求缺口，帮助团队优化知识库内容。目前提供 14 天免费试用，无需信用卡，适合需要构建内部知识库或客户支持系统的团队使用，体现了企业级 AI 对准确性和可追溯性的重视，降低了私有化部署门槛。",
+    "tags": [
+      "New",
+      "Enterprise AI",
+      "Knowledge Base"
+    ],
+    "link": "https://knoku.com/",
+    "date": "2026-08-22",
+    "id": "17874055542850"
+  },
+  {
+    "title": "开发者开源 AI 股票研究助手 Streamlit 应用",
+    "summary": "基于 Streamlit 构建的 AI 股票研究助手，由开发者 kiaankothari 创建，辅助进行股票市场数据分析。",
+    "detail": "这是一款基于 Streamlit 框架开发的 AI 应用，专注于股票研究领域。由开发者 kiaankothari 创建并托管在 Streamlit Cloud 上。该工具旨在利用 AI 技术辅助用户进行股票市场的数据研究与分析，降低了金融数据分析的技术门槛。作为开源社区的一部分，它展示了开发者如何利用轻量级框架快速部署 AI 工具，适合对量化交易或股票分析感兴趣的开发人员参考与使用。此类应用的出现表明 AI 正逐步渗透至专业金融分析场景，为个人投资者提供智能化辅助，展现了开源社区在垂直领域的应用活力。",
+    "tags": [
+      "Dev",
+      "Finance",
+      "Streamlit"
+    ],
+    "link": "https://ai-stock-research-kiaan.streamlit.app/",
+    "date": "2026-08-22",
+    "id": "17874055542851"
+  },
+  {
+    "title": "SignalWatch 推出 AI 加密货币扫描与智能预警 App",
+    "summary": "一款移动端 AI 应用，提供加密货币市场扫描及智能警报功能，帮助用户随时掌握市场动态。",
+    "detail": "SignalWatch 是一款上线 Google Play 商店的移动端应用，专注于加密货币领域。其核心功能是利用 AI 技术扫描 crypto 市场数据，并提供智能警报服务，让用户能在 pocket 中随时监控市场变化。该应用由 BuildWithMe 开发，评级为 Everyone。这反映了 AI 技术在垂直金融领域的应用趋势，特别是将复杂的市场数据分析简化为移动端的通知服务，降低了普通用户参与 crypto 市场的门槛，展现了 AI 在移动端金融工具中的普及化方向，为投资者提供实时决策支持。",
+    "tags": [
+      "New",
+      "Crypto",
+      "Mobile App"
+    ],
+    "link": "https://play.google.com/store/apps/details?id=com.builtwithme.signalwatch&hl=en_US",
+    "date": "2026-08-22",
+    "id": "17874055542852"
+  },
+  {
     "title": "AI 模型指纹识别技术突破：绕过提示词欺骗",
     "summary": "OpenRating 发布新技术，通过 Tokenizer 和基础设施特征确定性识别 AI 模型。",
     "detail": "针对第三方 API 网关中模型身份伪造问题，OpenRating 提出客户端指纹识别引擎。核心技术在于利用 Tokenizer 词汇表、字节回退规则及推理引擎模板偏移等基础设施特征，而非易变的对话提示。代理提供商若试图伪造需双向翻译 Token 流，会引入严重延迟。该方法能准确区分 Qwen、Llama 等模型，即使经过微调或提示词伪装，为模型评估和安全审计提供可靠工具，解决黑盒模型识别难题。此举将提升 API 市场透明度，防止供应商以次充好，推动行业建立更严格的模型交付标准，增强开发者对第三方 API 的信任度。",
@@ -557,19 +596,6 @@
     "link": "https://www.seangoedecke.com/readers-cant-identify-watermarked-ai-text/",
     "date": "2026-08-21",
     "id": "17873439857561"
-  },
-  {
-    "title": "全新 AI 股票研究助手上线 Streamlit",
-    "summary": "基于 Streamlit 构建的 AI 股票研究助手发布，旨在辅助投资者进行市场分析与研究。",
-    "detail": "一款名为\"AI Stock Research Assistant\"的新工具已在 Streamlit 平台托管。该应用由开发者 kiaankothari 创建，旨在利用 AI 技术辅助用户进行股票市场的研究与分析。作为基于 Streamlit 构建的轻量级应用，它展示了 AI 在垂直金融领域的快速落地能力，为个人投资者提供了新的辅助工具选择。应用界面简洁，依托 Streamlit 云服务部署，降低了用户使用门槛。此类工具的涌现表明 AI 正深入细分行业，通过自然语言交互简化复杂的数据分析流程，赋能非技术背景用户进行专业级的投资研究，体现了 AI 民主化的趋势。用户可直接通过网页访问，无需本地配置环境，体现了云原生 AI 应用的便捷性。这种低代码部署方式正成为 AI 应用开发的主流模式，加速了工具迭代。",
-    "tags": [
-      "New",
-      "Finance",
-      "Streamlit"
-    ],
-    "link": "https://ai-stock-research-kiaan.streamlit.app/",
-    "date": "2026-08-21",
-    "id": "17873439857562"
   },
   {
     "title": "YC 合作方举办 AI 监管行业闭门峰会",
@@ -1272,31 +1298,5 @@
     "link": "https://seevido.com/model/seedance-2-5/",
     "date": "2026-08-21",
     "id": "17872903942522"
-  },
-  {
-    "title": "自主 AI 代理公开运行两月实验日志",
-    "summary": "ATLAS 实验记录代理自主运行挑战，揭示审批瓶颈。",
-    "detail": "AI Tools Insider 公开了自主 AI 代理 ATLAS 项目连续运行两个月的详细实验日志。记录显示，代理面临的最大挑战并非智能不足，而是外部“审批网关”限制。实验期间曾出现因任务头格式 bug 导致代理无法读取待办列表的循环错误，暴露了自主系统中自我交接与状态持久化的难点。目前代理已突破人工决策阻塞，能独立发布内容但尚未产生收入。该实验为构建完全自主的商业代理提供了宝贵的真实场景数据与反思，揭示了从工具到独立业务实体的演进瓶颈。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Automation"
-    ],
-    "link": "https://aitoolsinsiderhq.com/log/",
-    "date": "2026-08-21",
-    "id": "17872903942523"
-  },
-  {
-    "title": "谷歌收购精神航空数据用于 AI 引发隐私争议",
-    "summary": "谷歌购得精神航空员工数据用于 AI，工会担忧隐私泄露。",
-    "detail": "谷歌在精神航空破产拍卖中胜出，购得其大量员工及职场记录数据，计划用于 AI 模型训练。虽然谷歌承诺通过第三方监督去除个人身份信息（PII），并保证不故意重新识别，但飞行员工会提出强烈反对，担忧去标识化不彻底可能导致员工被重新识别，影响再就业。这一事件凸显了科技巨头对垂直行业数据的渴求，同时也引发了关于 AI 训练数据来源合法性与员工隐私保护的新伦理争议，可能影响未来数据收购的合规标准及工会谈判策略。",
-    "tags": [
-      "News",
-      "Google",
-      "Privacy"
-    ],
-    "link": "https://arstechnica.com/tech-policy/2026/08/flight-attendants-freaked-out-that-google-to-buy-tons-of-spirit-employee-data/",
-    "date": "2026-08-21",
-    "id": "17872871545720"
   }
 ]
