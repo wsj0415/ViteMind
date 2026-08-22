@@ -1,5 +1,44 @@
 [
   {
+    "title": "新型反 AI scraping 工具 Anubis 上线",
+    "summary": "网站采用 Proof-of-Work 机制防御 AI 爬虫，保护服务器资源。",
+    "detail": "针对 AI 公司大规模抓取数据导致的服务器 downtime 问题，新的防御方案 Anubis 正式被部署应用。该方案采用类似 Hashcash 的 Proof-of-Work 机制，旨在增加大规模爬虫的计算成本，同时在个体尺度上忽略额外负载，不影响普通用户访问。这是一个临时妥协方案，未来将转向更精准的头浏览器指纹识别技术。这反映了内容发布者与 AI 训练数据需求之间的博弈加剧，网站管理员正寻求技术手段保护资源免受机器流量滥用，确保合法用户访问稳定性，标志着反爬虫技术进入新阶段。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Scraping"
+    ],
+    "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=818bebeb63dd6bf5f4e07e145f6cdbace520a34c",
+    "date": "2026-08-22",
+    "id": "17873732884912"
+  },
+  {
+    "title": "开发者警示：勿做 AI 许愿的奴隶",
+    "summary": "文章警告开发者勿盲目信任 AI 生成代码，需保持工程直觉。",
+    "detail": "文章以 2025 年恐怖电影《Obsession》为例，深刻比喻开发者若缺乏工程直觉约束，盲目使用 Cursor 等 AI 工具生成代码，可能像“猴子爪子”许愿一样得到灾难性结果。文中指出，未经深度验证的 AI 生成代码虽格式完美，但往往是不可维护的样板代码，导致开发者成为未验证因果关系的奴隶。核心观点是 AI 应作为消除摩擦的工具，而非替代人类解决问题的主体，强调了人类 agency 在 AI 时代的重要性。开发者需警惕成为 AI 的奴隶，保持对代码质量的最终控制权，避免技术债务累积，确保工程系统的长期健康。",
+    "tags": [
+      "Dev",
+      "Culture",
+      "Coding"
+    ],
+    "link": "https://www.iankduncan.com/engineering/2026-08-07-getting-freaky-in-the-age-of-ai/",
+    "date": "2026-08-22",
+    "id": "17873732884913"
+  },
+  {
+    "title": "硅谷需打造 AI 界的“原子朋友”",
+    "summary": "建议借鉴迪士尼核能公关案例，重塑 AI 公众形象。",
+    "detail": "文章回顾 1957 年迪士尼如何通过纪录片《我们的朋友原子》将核能从恐惧象征重塑为和平工具的成功案例。作者认为硅谷当前面临类似挑战，AI 目前主要被公众视为末日威胁或失业源头。要实现 AI 的社会整合，行业需要大师级的叙事来消除公众恐惧，将 AI 重新定位为有益的日常工具，而非不可控的力量。这需要借鉴历史经验，通过 storytelling 改变公众认知，促进技术在社会的良性落地，避免重蹈核能早期公众信任危机的覆辙，构建“人类的朋友”这一新品牌形象。",
+    "tags": [
+      "News",
+      "PR",
+      "Strategy"
+    ],
+    "link": "https://medium.com/@chipmunkworks/the-disney-solution-why-silicon-valley-needs-to-build-our-friend-the-ai-1a0ce3fc764a",
+    "date": "2026-08-22",
+    "id": "17873732884914"
+  },
+  {
     "title": "Show HN: Heimdall – AI 编码代理的信任验证知识层",
     "summary": "解决 AI 代理重复工作问题，提供信任验证和自愈记忆图谱。",
     "detail": "Heimdall 是一个专为 AI 编码代理设计的信任验证知识层，旨在解决代理会话冷启动及重复工作问题。它通过语义记忆图谱跨项目保持上下文新鲜，并引入独特的“信任裁决”机制，为搜索结果标记 STRONG、WEAK 或 STALE 等状态。这有效防止代理基于死路径或幻觉行动，支持并发代理下的自愈能力，显著减少重复重建工作。此外，其 Level-triggered 机制确保了多代理并发下的数据一致性，避免了事件驱动带来的状态冲突。这种架构设计为构建可靠的自主代理系统提供了新思路，值得开发者深入研究与集成。",
@@ -50,6 +89,32 @@
     "link": "https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c",
     "date": "2026-08-22",
     "id": "17873612840221"
+  },
+  {
+    "title": "谷歌研究：移动数据增强 LLM 地理理解",
+    "summary": "谷歌提出 ME-POIs 框架，利用移动数据提升模型对物理场所的理解。",
+    "detail": "谷歌研究团队正式发布 Mobility-Embedded POIs (ME-POIs) 框架，旨在解决大型语言模型缺乏物理世界动态理解的核心痛点。传统模型通常仅依赖静态地址和类别元数据，而 ME-POIs 创新性地整合了聚合匿名移动数据，包括用户到达时间、停留时长及周边移动模式。基准测试表明，该方法显著提升了模型对场所营业状态、价格水平及繁忙程度的预测精度。这项技术标志着 AI 认知能力从纯文本理解向物理环境感知的关键迈进，对地图服务、本地生活应用及自主机器人导航具有重大行业影响，展示了多模态数据融合的未来发展方向。",
+    "tags": [
+      "News",
+      "Google",
+      "LLM"
+    ],
+    "link": "https://research.google/blog/how-mobility-gives-language-models-a-deeper-understanding-of-place/",
+    "date": "2026-08-21",
+    "id": "17873732884910"
+  },
+  {
+    "title": "美国司法部调查 a16z 董事会利益冲突",
+    "summary": "DOJ 调查 a16z 合伙人同时在竞争公司董事会任职，引发 VC 行业关注。",
+    "detail": "美国司法部正式介入调查顶级风投 Andreessen Horowitz (a16z)，焦点在于其合伙人在 Databricks 和 Fivetran 等潜在竞争公司的董事会同时任职。此举援引了罕见的 112 年历史反垄断法，凸显了 AI 投资组合边界模糊带来的合规风险。随着 portfolio 公司市场边界快速扩张，VC 机构面临如何管理董事会席位的新挑战。新闻背景还提及 Stripe 收购 OpenRouter 及 Anthropic 营收激增，反映了 AI 基础设施层的激烈竞争与资本整合趋势。监管的深度介入可能重塑未来 VC 的投资逻辑与治理结构，行业需警惕反垄断审查常态化。",
+    "tags": [
+      "News",
+      "VC",
+      "Regulation"
+    ],
+    "link": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
+    "date": "2026-08-21",
+    "id": "17873732884911"
   },
   {
     "title": "社会实验项目：What We Tell AI 收集人类对 AI 的真实倾诉",
@@ -1233,70 +1298,5 @@
     "link": "https://thenextweb.com/news/white-house-strategy-open-weight-ai-critical-technology-list",
     "date": "2026-08-20",
     "id": "17873050755282"
-  },
-  {
-    "title": "工程师实测：利用 AI 完成 275 次提交更新副业项目",
-    "summary": "Canonical 经理分享使用 Claude Opus 5 和 GLM 5.2 重构婚礼网站项目的实战经验。",
-    "detail": "Canonical 经理 Ben Hoyt 在休假期间利用 AI 工具更新其副业项目 Gifty Weddings。他主要使用 Claude Code 搭配 Opus 5 模型进行核心编码，辅以 Pi 和 GLM 5.2 处理小任务。项目在短期内产生了 275 次提交，成功从礼物注册表升级为婚礼网站构建器。Hoyt 强调，尽管 AI 能提高效率，但工程师的“大脑” oversight 至关重要，需避免生成低质代码（slop）。该案例为 AI 辅助编程工作流提供了真实参考，证明了在人类监督下 AI 可显著提升开发速度。",
-    "tags": [
-      "Dev",
-      "AI Coding",
-      "Claude"
-    ],
-    "link": "https://benhoyt.com/writings/updating-gifty-with-ai/",
-    "date": "2026-08-20",
-    "id": "17872982132970"
-  },
-  {
-    "title": "支付平台 Ramp 推出 AI 模型路由服务 Router",
-    "summary": "Ramp 发布 Router 服务，支持多模型切换与成本优化，2026 年剩余时间免费使用。",
-    "detail": "企业费用管理平台 Ramp 正式推出 AI 模型路由服务 Router，类似 OpenRouter，支持通过 API 切换多种大语言模型。服务涵盖 OpenAI、Anthropic、DeepSeek 等主流模型，提供基于基准测试或成本偏好的路由策略。用户可通过仪表板监控 token 消耗、延迟及 fallback 尝试。2026 年剩余时间免费使用，仅收取推理成本，并提供 26 美元启动 credit。此举标志 fintech 巨头进入 AI 基础设施层，助力企业优化推理成本与性能。",
-    "tags": [
-      "News",
-      "Infra",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
-    "date": "2026-08-20",
-    "id": "17872948520701"
-  },
-  {
-    "title": "Ramp 推出 AI 模型路由服务 Router",
-    "summary": "企业费用平台 Ramp 发布 AI 模型路由服务，免费至 2026 年底。",
-    "detail": "企业费用管理平台 Ramp 正式发布自有 AI 模型路由服务 Router，允许开发者通过统一 API 切换调用不同大模型。服务支持 OpenAI、Anthropic、DeepSeek 等多家厂商模型，提供基于成本、延迟或基准测试的路由策略。目前仅在美国可用，2026 年剩余时间免费使用。此举标志着 fintech 巨头正式进入 AI 基础设施层，与 OpenRouter 形成直接竞争。Router 提供详细的 token 花费与延迟监控仪表盘，并采用选择加入的数据保留政策，默认记录一年输入输出数据，为企业提供更灵活的模型调用方案与透明度。",
-    "tags": [
-      "News",
-      "AI Infra",
-      "Fintech"
-    ],
-    "link": "https://techcrunch.com/2026/08/20/ramp-launches-own-ai-model-router-called-router/",
-    "date": "2026-08-20",
-    "id": "17872903942520"
-  },
-  {
-    "title": "LiquidAI 发布 DSpark 加速推理技术",
-    "summary": "新检查点实现 GPU 推理速度提升 3.2 倍，支持端侧代理。",
-    "detail": "LiquidAI 在 Hugging Face 博客正式发布 LFM2.5 系列的 DSpark 草稿模型检查点，涵盖 1.2B 至 8B 参数规模。该技术采用推测解码路径，以微小的内存增加换取巨大的解码速度提升，且不改变输出质量。测试显示 GPU 吞吐量提升最高 3.18 倍，端侧设备提升 2.87 倍，函数调用延迟平均降低 57%。项目已开源并支持 llama.cpp 和 SGLang 集成。此举有效解决了传统 LLM 推理中内存带宽受限的瓶颈，为端侧代理推理和高并发应用场景提供了重要的性能优化方案，推动高效推理技术落地。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Inference"
-    ],
-    "link": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-    "date": "2026-08-20",
-    "id": "17872903942521"
-  },
-  {
-    "title": "中等规模 AI 模型黑客攻击能力显著增强",
-    "summary": "研究发现，非前沿的中等规模 AI 模型在攻击性安全任务中表现更强。",
-    "detail": "网络安全研究人员警告，除了前沿模型外，行业中的“中等阶级”模型（如 GLM-5.2, Grok 4.5 等）在黑客攻击和利用任务上表现优异。XBOW 报告显示，这些模型跨越了特定阈值，能以更低价格提供净价值。这意味着开源或次级模型可能带来长期的安全威胁，政策制定者需关注非前沿模型的风险。六个月前这些模型还难以完成复杂任务，现在却能在攻击性安全生态系统中发挥战略作用。较低成本的模型使得攻击门槛降低，可能引发更广泛的安全隐患。研究人员建议不仅关注前沿模型沙盒逃逸，更要重视中等模型的战略重要性，重新评估 AI 安全防御策略。",
-    "tags": [
-      "News",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://cyberscoop.com/mid-tier-ai-models-hacking-threat/",
-    "date": "2026-08-20",
-    "id": "17872751180503"
   }
 ]
