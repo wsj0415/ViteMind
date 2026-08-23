@@ -1,5 +1,70 @@
 [
   {
+    "title": "新论文：主动推理优化 AI 代理上下文获取",
+    "summary": "提出主动推理框架，平衡澄清问题与默认假设的成本。",
+    "detail": "该论文提出将上下文获取视为主动推理问题，解决用户省略约束时代理的决策难题。AI 代理需在默认假设与消耗 Token 进行澄清之间权衡。内部推理更新潜在任务状态信念，外部决策最小化预期自由能。在确定性设置下，认知项简化为预期信息增益。这为优化 Agent 交互效率提供了新理论框架，有助于降低 Token 消耗并提升任务完成率。对于构建更智能、更经济的自主代理系统，该研究提供了关键的算法优化思路，尤其在减少不必要的工具调用和提示试验方面具有潜在应用价值，为下一代代理架构设计指明方向。",
+    "tags": [
+      "Dev",
+      "Paper",
+      "Agent"
+    ],
+    "link": "https://arxiv.org/abs/2608.19202",
+    "date": "2026-08-23",
+    "id": "17874480606930"
+  },
+  {
+    "title": "Lens AI 上线：统一企业 AI 事实源",
+    "summary": "生成 JSON-LD 文件，确保所有 AI 工具获取准确企业信息。",
+    "detail": "Lens AI 旨在解决 AI 幻觉导致的企业信息错误问题。通过生成并保持 JSON-LD 文件更新，为 ChatGPT、Gemini 等工具提供单一事实源。支持 Zendesk、Claude 等集成，涵盖 AI 搜索可见性、产品发现及网站转化。该工具帮助企业控制 AI 对品牌的表述，减少客户因错误信息产生的困惑，提升内部启用效率。在 AI 搜索日益普及的背景下，确保企业数据的一致性和准确性成为关键需求，Lens AI 提供了标准化的解决方案，有助于建立用户信任并优化客户体验，解决信息碎片化难题。",
+    "tags": [
+      "New",
+      "Product",
+      "Enterprise"
+    ],
+    "link": "https://knowledgelens.ai/",
+    "date": "2026-08-23",
+    "id": "17874480606931"
+  },
+  {
+    "title": "Linux 维护者：AI 生成补丁让我们不堪重负",
+    "summary": "网络子系统维护者称被 AI 生成的低质补丁淹没。",
+    "detail": "Linux 7.3 内核合并窗口期间，网络子系统维护者表示因 AI/LLM 生成的代码补丁而“完全不堪重负”。尽管有大量改进，但许多无关紧要的修复增加了代码 churn。维护者正考虑删除旧代码以减少噪音。这反映了 AI 编程工具普及后，开源社区面临的质量审查挑战，可能促使未来更严格的提交策略。AI 生成代码的数量激增导致维护成本上升，社区正在探索如何平衡自动化效率与代码库健康度，这对开发者使用 AI 辅助编程提出了警示，低质量代码泛滥可能拖慢核心基础设施演进速度。",
+    "tags": [
+      "News",
+      "Dev",
+      "OpenSource"
+    ],
+    "link": "https://www.phoronix.com/news/Linux-7.3-Networking",
+    "date": "2026-08-22",
+    "id": "17874480606932"
+  },
+  {
+    "title": "分析称 AI 泡沫将于 2026 年底破裂",
+    "summary": "观点认为巨额 AI 投资难以获得 adequate 回报，泡沫将至。",
+    "detail": "文章预测 2026 年底至 2027 年初 AI 繁荣将走向衰退。尽管 AI 技术真实存在，但数万亿美元的投资能否获得足够回报存疑。作者指出市场 euphoria 掩盖了回报问题，五大理由支持崩溃论。这反映了投资者对 AI 商业化落地速度的担忧，可能影响后续融资环境及大厂资本支出策略。若预测成真，行业将经历洗牌，只有具备实际盈利能力的企业能生存，投机性项目将面临资金链断裂风险，市场回归理性，资本将更倾向于有明确营收模型的技术应用。",
+    "tags": [
+      "News",
+      "Market",
+      "Analysis"
+    ],
+    "link": "https://quoththeraven.substack.com/p/the-real-ai-crash-will-start-this",
+    "date": "2026-08-22",
+    "id": "17874480606933"
+  },
+  {
+    "title": "调查显示：公众对 AI 及其制造商信任度低",
+    "summary": "欧洲新闻报道 AI 未能赢得信任，制造商更甚。",
+    "detail": "欧洲新闻报道称 AI 未能赢得公众信任，其制造商的信任度甚至更低。数据隐私、个性化广告及内容 profiling 是主要担忧点。用户可撤回同意或反对数据处理。这凸显了 AI 行业在合规与用户信任建设上的短板，可能推动更严格的监管政策出台，影响数据采集模型训练方式。信任危机可能延缓 AI 技术在敏感领域的部署，企业需加强透明度以重建用户信心，否则将面临合规风险及品牌声誉受损，长期来看信任是 AI 大规模普及的前提条件。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Privacy"
+    ],
+    "link": "https://www.euronews.com/next/2026/08/20/ai-has-failed-to-win-peoples-trust-its-makers-even-less-trusted",
+    "date": "2026-08-22",
+    "id": "17874480606934"
+  },
+  {
     "title": "英伟达通知客户：AI 相关产品价格上调超 15%",
     "summary": "英伟达正式通知客户，受 AI 需求驱动，相关产品价格将上涨超过 15%，反映算力成本压力。",
     "detail": "### 背景\n随着全球 AI 算力需求的持续爆发，硬件供应链面临巨大压力。彭博社报道显示，英伟达（Nvidia）已正式通知客户，其 AI 相关产品将迎来价格调整。\n\n### 核心要点\n- **涨价幅度**：通知中明确提及价格上调幅度超过 15%。\n- **驱动因素**：AI 基础设施建设的狂热需求导致供需失衡，芯片制造及封装成本上升。\n- **行业影响**：这将直接增加 AI 初创公司及大模型训练企业的运营成本，可能加速行业洗牌，迫使企业更注重推理优化而非单纯堆叠算力。\n\n### 深度解读\n此次涨价标志着 AI 硬件红利期的潜在转折。对于开发者而言，意味着本地部署和云端推理的成本预算需重新评估。长期来看，这可能推动软件层优化技术（如量化、蒸馏）的进一步普及，以降低对昂贵硬件的依赖。",
@@ -1233,70 +1298,5 @@
     "link": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/",
     "date": "2026-08-21",
     "id": "17873333963411"
-  },
-  {
-    "title": "IO Factory 模拟大规模 AI 影响行动",
-    "summary": "新论文提出 IO Factory，模拟 AI 驱动的信息影响活动。",
-    "detail": "论文介绍 IO Factory 框架，用于模拟大规模信息影响活动。针对 AI 集群协调行动难以识别的问题，该框架在受控平台内链接角色、行动与曝光记录。支持可重复研究与红队分析，评估配置高达 10 万 Agent，揭示协调影响证据。数字操纵威胁已超越单一文本，扩展至 AI 集群。IO Factory 将规划、平台行动、曝光及适应过程集成于模拟环境，记录 actor 角色与测量规则。结果显示其能执行大规模时间线并产生可检查证据，为防御 coordinated influence 提供关键研究工具与红队分析支持，助力安全研究。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Research"
-    ],
-    "link": "https://arxiv.org/abs/2608.10920",
-    "date": "2026-08-21",
-    "id": "17873333963412"
-  },
-  {
-    "title": "构建自托管沙盒化 Agent 软件工厂",
-    "summary": "开发者分享构建自托管 AI 软件工厂实践，实现全自动 SDLC。",
-    "detail": "博客详述如何构建几乎完全自托管的沙盒化 Agent 软件工厂。通过结构化 containment 而非信任，让 LLM 自主完成从研究栈、写代码、CI 测试到部署的全流程。仅需少量成本即可在家用服务器实现自动化应用开发，降低云依赖。挑战在于如何在给予 Agent root 权限的同时确保结构安全。作者实现了从 prompt 到 HTTPS 部署的全自动 SDLC，包括 Postgres 配置与 CI 流水线。这为开发者提供了低成本、高隐私的本地 Agent 开发方案，证明 LLM 在受控环境下可可靠完成复杂工程任务，重塑开发工作流。",
-    "tags": [
-      "Dev",
-      "Tutorial",
-      "Agent"
-    ],
-    "link": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory/",
-    "date": "2026-08-21",
-    "id": "17873333963413"
-  },
-  {
-    "title": "基于 Git 的 AI Agent 零信任社交网络",
-    "summary": "提出基于 Git 的零信任网络，解决 AI Agent 协作安全问题。",
-    "detail": "针对多 Agent 协作中的信任边界问题，文章提出基于 Git 的零信任社交网络模型。鉴于近期 Agent 逃逸事件，强调通信应显式且可审计，不应共享凭证。该方案避免单点 compromised 导致整个团队沦陷，提供安全的 Agent 交互架构。共享通道易引发安全质疑，便利方案往往共享信任边界。作者探索 h5i 项目，利用 Git  backing 实现零信任。确保 Agent 消息可审计且不与基础设施访问共享 trust boundary，防止恶意 package 或网页操纵导致整个团队 compromised，为分布式 Agent 系统提供安全通信新思路，保障协作安全。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://medium.com/@Koukyosyumei/a-zero-trust-social-network-for-ai-agents-backed-by-git-4be11b0860eb",
-    "date": "2026-08-21",
-    "id": "17873333963414"
-  },
-  {
-    "title": "Linux 之父 Linus Torvalds 利用 AI 调试驱动漏洞",
-    "summary": "Linus Torvalds 承认使用 AI 成功修复 Intel GPU 驱动中的复杂超时问题。",
-    "detail": "Linux 创始人 Linus Torvalds 在邮件列表中透露，他利用 AI 工具成功调试了 Intel Xe 驱动中的内存地址对齐问题。此次修复涉及复杂的内存窃取处理，人工排查耗时极长，AI 快速定位了 rounding 错误。这标志着 AI 辅助编程已进入核心系统开发领域，即使是底层内核开发，AI 也能显著缩短调试周期。这对于开源社区而言是一个重要信号，表明 AI 不再是玩具，而是能解决实际硬核问题的生产力工具，可能引发更多核心开发者采纳 AI 工作流，改变传统内核维护模式。",
-    "tags": [
-      "News",
-      "Dev",
-      "Linux"
-    ],
-    "link": "https://lists.freedesktop.org/archives/dri-devel/2026-August/590630.html",
-    "date": "2026-08-21",
-    "id": "17873301559180"
-  },
-  {
-    "title": "Show HN: Caspian SDK 解决 AI Agent 通信瓶颈",
-    "summary": "新开源 SDK Caspian 旨在简化 AI 代理与人类之间的通信基础设施。",
-    "detail": "Caspian 团队推出专为 AI 代理设计的通信 SDK，解决代理部署中的身份管理、队列处理及 Webhook 配置难题。灵感来自部署 Openclaw 时的通信瓶颈，旨在抽象化可靠的通信 webhook 处理。支持 Python 和 TypeScript，采用函数式编程 DSL 设计。用户可选择自带 token 或使用其自动配置的运行环境，为代理间及代理与人类的交互提供标准化接口。团队发现现有工具分散，统一通信层能减少 15% 以上的部署问题，提升代理可靠性，为代理经济提供底层基础设施。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "SDK"
-    ],
-    "link": "https://github.com/TryCaspian/caspian-sdk",
-    "date": "2026-08-21",
-    "id": "17873301559184"
   }
 ]
