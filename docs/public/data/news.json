@@ -1,5 +1,31 @@
 [
   {
+    "title": "AI 如何重塑学术搜索？三大工具深度横评",
+    "summary": "对比 Web of Science、Google Scholar 与 Consensus，分析 AI 学术搜索工具的检索质量与架构差异。",
+    "detail": "文章深入探讨了学术搜索市场的演变，重点对比了 **Web of Science Smart Search**、**Google Scholar Labs** 和 **Consensus** 三款工具。前者侧重检索相关性但不生成综合答案，后者 Commit 于完整合成与代理推理，并通过模型上下文协议集成。评测维度包括检索质量、可解释性、复现性及对 **MCP 协议** 的支持。分析指出，不同工具的设计选择反映了供应商对学术搜索未来形态的分歧。这对图书馆员评估工具及开发者理解学术搜索未来走向具有重要参考价值，揭示了不同用户 segment 的策略差异。此外，文章还讨论了 AI 增强型搜索工具的可重复性问题，为科研工作流程的标准化提供了新视角，帮助机构做出更明智的技术选型。",
+    "tags": [
+      "News",
+      "Academic",
+      "AI Tools"
+    ],
+    "link": "https://katinamagazine.org/content/article/resource-advisor/2026/how-is-ai-transforming-academic-search",
+    "date": "2026-08-23",
+    "id": "17874773079820"
+  },
+  {
+    "title": "面向 AI 与 RAG 的新闻搜索 API 深度对比指南",
+    "summary": "GitHub 开源项目深度评测 Webz.io、Exa 等新闻 API，针对语义检索与成本提供生产建议。",
+    "detail": "该 GitHub 项目针对构建上下文新闻搜索、**RAG** 及 **AI Agent** 工作流的开发者，提供了主流新闻搜索 API 的深度对比。涵盖 **Webz.io**、**Exa**、Brave、You.com 等服务商。核心评估维度包括检索机制、新闻数据集优先级、语义意图与过滤器的结合能力、返回上下文质量及生产成本。文章指出市场产品标签相同但实质差异巨大，部分服务基于专用新闻语料库，而其他则是通用 web 索引的新闻模式。这为开发者在生产环境中选择合适的 API 提供了具体的决策框架和成本分析，特别是针对需要确定性新闻过滤器与语义检索结合的高阶应用场景，帮助团队避免潜在的集成陷阱与成本超支风险。",
+    "tags": [
+      "Dev",
+      "API",
+      "RAG"
+    ],
+    "link": "https://github.com/free-news-api/news-search-api-comparison",
+    "date": "2026-08-23",
+    "id": "17874773079821"
+  },
+  {
     "title": "Orelon：聚合主流模型的电影级 AI 视频生成平台",
     "summary": "聚合多家模型的视频生成平台，支持 Seedance 与 Kling 等。",
     "detail": "Orelon 是一个集成多种主流视频生成模型的平台，包括 Seedance 2.5、Kling 3.0、Wan 2.7 等。用户可通过统一界面调用不同模型进行文生视频或图生视频创作。该平台降低了多模型切换成本，适合需要对比模型效果的专业创作者，反映了视频生成模型聚合趋势。",
@@ -1272,31 +1298,5 @@
     "link": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
     "date": "2026-08-21",
     "id": "17873732884911"
-  },
-  {
-    "title": "社会实验项目：What We Tell AI 收集人类对 AI 的真实倾诉",
-    "summary": "匿名收集用户与 AI 交互的情感依赖、道德困境及使用场景。",
-    "detail": "该项目收集了用户向 AI 倾诉的真实匿名故事，涵盖情感依赖、道德困境及工作替代焦虑。内容显示用户既将 AI 视为深夜伴侣，又担心其非人化影响。这反映了人机交互深层心理变化，为 AI 伦理设计提供了一手社会数据。故事包括用户向 AI 寻求情感支持、撰写婚礼誓言甚至替代 therapist。这种现象揭示了人类对 AI 的情感投射正在加剧，可能引发社会隔离风险。对于开发者而言，理解用户如何真实使用 AI 而非预设场景，是优化产品体验的关键。网站展示了大量真实用户留言，揭示了 AI 正在成为情感寄托对象。这种现象提示开发者需关注 AI 的心理影响，避免过度依赖。同时，这也为研究 AI 伦理和社会学提供了丰富的素材，值得行业密切关注。",
-    "tags": [
-      "News",
-      "Social",
-      "HCI"
-    ],
-    "link": "https://www.whatwetellai.com/",
-    "date": "2026-08-21",
-    "id": "17873673170733"
-  },
-  {
-    "title": "Meta AI 眼镜普及引发隐私担忧",
-    "summary": "Meta AI 眼镜需求激增，第三方检测应用涌现，隐私法规面临挑战。",
-    "detail": "**背景**：随着 Meta AI 智能眼镜销量爆发，公共场合的隐私侵犯风险成为焦点。\n\n**核心内容**：Ars Technica 报道指出，Meta AI 眼镜的普及使得秘密录制变得更加容易。尽管部分场所（如学校、法院）已实施禁令，但执行难度大。第三方应用如 Zuckoff 试图检测周围是否有眼镜用户，但效果有限。\n\n**行业影响**：硬件普及速度超过了隐私法规的制定速度。电子前沿基金会（EFF）等组织呼吁制定全面的消费者隐私法。这对可穿戴 AI 设备厂商提出了合规挑战，未来可能需要在硬件指示灯或软件限制上做出更多让步以缓解公众焦虑。",
-    "tags": [
-      "News",
-      "Privacy",
-      "Hardware"
-    ],
-    "link": "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/",
-    "date": "2026-08-21",
-    "id": "17873612840222"
   }
 ]
