@@ -1,5 +1,70 @@
 [
   {
+    "title": "经济学家深度探讨 AI 意识搜索",
+    "summary": "研究人员在 Claude 内部神经层发现“意识”词汇，引发伦理热议。",
+    "detail": "《经济学家》最新报道聚焦 Anthropic 研究，研究人员在 Claude Sonnet 4.5 执行计数任务时，通过数学工具观察到内部神经层浮现\"consciousness\"、\"AI\"等词汇。虽模型最终未输出这些词，但揭示了黑盒内部的复杂状态。文章探讨即使 AI 无意识，人类若将其视为有意识主体，可能带来巨大的社会与经济成本。这引发了行业对 AI 伦理、模型透明度以及人类心理投射的深层思考，提示未来监管需关注 AI 内部状态监测。随着模型能力增强，此类内部现象可能更频繁，开发者需平衡性能与可解释性，避免公众误解引发信任危机。",
+    "tags": [
+      "News",
+      "LLM",
+      "Ethics"
+    ],
+    "link": "https://www.economist.com/interactive/briefing/2026/08/20/the-search-for-consciousness-inside-llms",
+    "date": "2026-08-23",
+    "id": "17874950469340"
+  },
+  {
+    "title": "Anthropic 因欧盟法规为 Claude 添加水印",
+    "summary": "为合规欧盟新规，Claude 文本将添加隐形签名，部分用户抵制。",
+    "detail": "为应对欧盟新 enacted regulation，Anthropic 宣布为 Claude 生成的文本和文件添加隐形水印。此举旨在满足法律合规性，避免罚款。然而，部分用户因隐私担忧发起抵制甚至取消订阅。事件凸显大科技公司在 AI 透明度、法律责任与用户体验之间面临的艰难平衡。随着全球 AI 监管收紧，水印技术或成标配，但如何在不破坏体验前提下实现有效标识，仍是行业亟待解决的技术与伦理难题。公司需在合规与用户信任间寻找平衡点，避免过度标记导致产品可用性下降，同时确保内容溯源能力。",
+    "tags": [
+      "News",
+      "Policy",
+      "Anthropic"
+    ],
+    "link": "https://www.cnet.com/tech/services-and-software/claude-watermarks-ai-labels-commentary-2026/",
+    "date": "2026-08-23",
+    "id": "17874950469341"
+  },
+  {
+    "title": "Smolbox 实现浏览器内本地 AI 代理沙盒",
+    "summary": "基于 WebAssembly 和 WebGPU，无需服务器即可运行本地 LLM 代理。",
+    "detail": "新项目 Smolbox 展示如何在浏览器标签页内运行完整的 x86_64 VM 沙盒及本地 LLM。利用 WebAssembly 和 WebGPU 技术，实现完全本地的 Agentic AI 工作流，无服务器端处理。这为 AI 安全与隐私保护提供了新思路，证明本地运行复杂 AI 代理在技术上已可行。开发者可直接在浏览器中挂载文件，实现安全隔离的工具调用。此架构消除了云端依赖，降低了数据泄露风险，为对隐私敏感的企业级 AI 应用部署提供了轻量级、高安全的参考方案，推动边缘计算 AI 发展。",
+    "tags": [
+      "Dev",
+      "WebGPU",
+      "Local AI"
+    ],
+    "link": "https://remyhax.xyz/posts/smolbox/",
+    "date": "2026-08-23",
+    "id": "17874950469342"
+  },
+  {
+    "title": "Froging AI 集成多模型视频生成工作流",
+    "summary": "支持 Kling、Veo 等多模型，文本图像一键生成 cinematic 级视频。",
+    "detail": "新工具 Froging AI 整合 Kling 2.6、Veo 3.1、Seedance 2.0 等领先视频模型。用户可通过单一文本提示或图像生成专业级视频，无需编辑技能。平台强调物理引擎真实性，粒子与光影反应自然。此举降低了视频创作门槛，为社交广告及产品演示提供高效 AI 解决方案。支持多模型工作流意味着用户可根据需求选择最佳模型，无需切换平台。随着视频生成质量逼近实拍，此类工具将重塑内容创作行业，尤其利好中小团队快速产出高质量营销素材，加速 AI 视频商业化落地。",
+    "tags": [
+      "New",
+      "Video Gen",
+      "Multi-model"
+    ],
+    "link": "https://www.froging.ai/",
+    "date": "2026-08-23",
+    "id": "17874950469343"
+  },
+  {
+    "title": "Enozunu 开源 AI 代理配置管理工具",
+    "summary": "声明式配置材料化，实现跨项目代理技能复用与一致性。",
+    "detail": "GitHub 新项目 Enozunu 提供声明式、可复现的 AI 代理配置材料化工具。它将人类编写的配置源集中管理，并材料化为目标原生配置路径。分离技能源与目标文件，确保不同开发机器和 CI 运行间的配置一致性，解决多项目间 Agent 工具链配置分散与难以复用的难题。工具作者可发布兼容 manifest 而非自定义安装程序。这标准化了 AI 代理的配置管理流程，提升了团队协作效率，降低了维护成本，为构建大规模、可复用的 AI 代理生态系统奠定了基础设施基础。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Open Source"
+    ],
+    "link": "https://github.com/tooppoo/enozunu",
+    "date": "2026-08-23",
+    "id": "17874950469344"
+  },
+  {
     "title": "工程实践：AI Agent 工具的 A/B 测试",
     "summary": "PagerDuty 分享应对 AI 非确定性进行工程化测试的经验。",
     "detail": "**背景**：PagerDuty 工程团队面对 AI Agent 非确定性输出的挑战，传统测试方法失效。**核心**：建立 A/B 测试框架验证工具链变更，发现技能分割未提升质量，反而增加静默失败风险，选择可靠性是瓶颈。**影响**：为 AI 工程化提供实证依据，强调重复试验和数据驱动决策优于 anecdotal evidence，推动 Agent 工具链标准化。该实践表明，针对非确定性系统的工程规范需重新定义，单一成功运行不足以证明系统稳定性，需大规模自动化验证。",
@@ -1233,70 +1298,5 @@
     "link": "https://krishna-modi12.github.io/frontend-design-pro/",
     "date": "2026-08-22",
     "id": "17873809380362"
-  },
-  {
-    "title": "HN 热议：AI 股市是否存在泡沫及系统性风险",
-    "summary": "社区讨论顶级 AI 公司间循环现金流，质疑是否构成全球经济系统性风险。",
-    "detail": "Hacker News 热门讨论质疑 AI 股市泡沫证据。帖子指出 Nvidia、Anthropic、OpenAI 等巨头间存在循环现金流，可能带来系统性风险。社区探讨是否应禁止此类流动以保护全球经济。这反映了行业对 AI 投资过热及商业闭环真实性的担忧，是市场情绪的重要风向标，引发对可持续增长模式的深思，警示潜在金融不稳定因素。提问者建议因系统性风险禁止此类循环现金流，显示了社区对当前 AI 资本密集投入模式的警惕，以及对市场健康度的深度关切与反思。",
-    "tags": [
-      "News",
-      "Market",
-      "Investment"
-    ],
-    "link": "https://news.ycombinator.com/item?id=49397022",
-    "date": "2026-08-22",
-    "id": "17873809380363"
-  },
-  {
-    "title": "新型反 AI scraping 工具 Anubis 上线",
-    "summary": "网站采用 Proof-of-Work 机制防御 AI 爬虫，保护服务器资源。",
-    "detail": "针对 AI 公司大规模抓取数据导致的服务器 downtime 问题，新的防御方案 Anubis 正式被部署应用。该方案采用类似 Hashcash 的 Proof-of-Work 机制，旨在增加大规模爬虫的计算成本，同时在个体尺度上忽略额外负载，不影响普通用户访问。这是一个临时妥协方案，未来将转向更精准的头浏览器指纹识别技术。这反映了内容发布者与 AI 训练数据需求之间的博弈加剧，网站管理员正寻求技术手段保护资源免受机器流量滥用，确保合法用户访问稳定性，标志着反爬虫技术进入新阶段。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Scraping"
-    ],
-    "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=818bebeb63dd6bf5f4e07e145f6cdbace520a34c",
-    "date": "2026-08-22",
-    "id": "17873732884912"
-  },
-  {
-    "title": "开发者警示：勿做 AI 许愿的奴隶",
-    "summary": "文章警告开发者勿盲目信任 AI 生成代码，需保持工程直觉。",
-    "detail": "文章以 2025 年恐怖电影《Obsession》为例，深刻比喻开发者若缺乏工程直觉约束，盲目使用 Cursor 等 AI 工具生成代码，可能像“猴子爪子”许愿一样得到灾难性结果。文中指出，未经深度验证的 AI 生成代码虽格式完美，但往往是不可维护的样板代码，导致开发者成为未验证因果关系的奴隶。核心观点是 AI 应作为消除摩擦的工具，而非替代人类解决问题的主体，强调了人类 agency 在 AI 时代的重要性。开发者需警惕成为 AI 的奴隶，保持对代码质量的最终控制权，避免技术债务累积，确保工程系统的长期健康。",
-    "tags": [
-      "Dev",
-      "Culture",
-      "Coding"
-    ],
-    "link": "https://www.iankduncan.com/engineering/2026-08-07-getting-freaky-in-the-age-of-ai/",
-    "date": "2026-08-22",
-    "id": "17873732884913"
-  },
-  {
-    "title": "硅谷需打造 AI 界的“原子朋友”",
-    "summary": "建议借鉴迪士尼核能公关案例，重塑 AI 公众形象。",
-    "detail": "文章回顾 1957 年迪士尼如何通过纪录片《我们的朋友原子》将核能从恐惧象征重塑为和平工具的成功案例。作者认为硅谷当前面临类似挑战，AI 目前主要被公众视为末日威胁或失业源头。要实现 AI 的社会整合，行业需要大师级的叙事来消除公众恐惧，将 AI 重新定位为有益的日常工具，而非不可控的力量。这需要借鉴历史经验，通过 storytelling 改变公众认知，促进技术在社会的良性落地，避免重蹈核能早期公众信任危机的覆辙，构建“人类的朋友”这一新品牌形象。",
-    "tags": [
-      "News",
-      "PR",
-      "Strategy"
-    ],
-    "link": "https://medium.com/@chipmunkworks/the-disney-solution-why-silicon-valley-needs-to-build-our-friend-the-ai-1a0ce3fc764a",
-    "date": "2026-08-22",
-    "id": "17873732884914"
-  },
-  {
-    "title": "Show HN: Heimdall – AI 编码代理的信任验证知识层",
-    "summary": "解决 AI 代理重复工作问题，提供信任验证和自愈记忆图谱。",
-    "detail": "Heimdall 是一个专为 AI 编码代理设计的信任验证知识层，旨在解决代理会话冷启动及重复工作问题。它通过语义记忆图谱跨项目保持上下文新鲜，并引入独特的“信任裁决”机制，为搜索结果标记 STRONG、WEAK 或 STALE 等状态。这有效防止代理基于死路径或幻觉行动，支持并发代理下的自愈能力，显著减少重复重建工作。此外，其 Level-triggered 机制确保了多代理并发下的数据一致性，避免了事件驱动带来的状态冲突。这种架构设计为构建可靠的自主代理系统提供了新思路，值得开发者深入研究与集成。",
-    "tags": [
-      "Dev",
-      "AI Agent",
-      "Coding"
-    ],
-    "link": "https://github.com/ArihantDeva/heimdall",
-    "date": "2026-08-22",
-    "id": "17873673170730"
   }
 ]
