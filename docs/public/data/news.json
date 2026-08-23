@@ -1,5 +1,57 @@
 [
   {
+    "title": "吴恩达发布 AI 工程化技能地图，指引开发者学习路径",
+    "summary": "吴恩达分享 AI 工程技能地图，涵盖构建与部署 AI 应用的核心能力。",
+    "detail": "人工智能先驱吴恩达发布了最新的\"AI 工程技能地图”，详细定义了构建和部署 AI 应用所需的关键能力。该地图强调了从模型选择到系统部署的全流程技能，为开发者提供了清晰的学习路径。在 AI 应用落地加速的背景下，这份地图有助于工程师弥补理论与实践的差距，提升工程化交付能力。",
+    "tags": [
+      "Dev",
+      "Education",
+      "LLM"
+    ],
+    "link": "https://twitter.com/AndrewYNg/status/2090840747738374568",
+    "date": "2026-08-23",
+    "id": "17874887971681"
+  },
+  {
+    "title": "创始人亲述：为何我构建后又杀死了 AI 网站生成器",
+    "summary": "Webround 创始人发现原生 LLM 更优，决定搁置内置 AI 建站功能。",
+    "detail": "Webround 创始人在尝试集成 AI 建站功能后决定搁置该项目。他发现用户直接使用 Claude 或 ChatGPT 生成代码比 proprietary 集成更灵活且成本更低。该案例揭示了当前 AI 包装器（Wrapper）产品的困境：当基础模型能力足够强时，垂直集成可能反而增加成本且无差异化优势，为 AI 产品设计提供了冷静思考。",
+    "tags": [
+      "News",
+      "Product",
+      "Strategy"
+    ],
+    "link": "https://blog.webround.com/en/i-built-an-ai-website-builder-and-killed-it",
+    "date": "2026-08-23",
+    "id": "17874887971682"
+  },
+  {
+    "title": "AI 时代的产品负责人面试：考察判断力而非工具熟练度",
+    "summary": "文章提出 10 个新面试问题，旨在考察候选人在 AI 时代的决策判断力。",
+    "detail": "随着代码生成成本 collapse，产品负责人（PO）的核心价值从执行转向决策。文章提出了 10 个新的面试问题，旨在筛选出能判断“值得构建什么”的候选人，而非仅熟悉 AI 工具的人。这反映了 AI 正在重塑组织内的产品决策流程，强调在构建不再受限的时代，战略判断力才是稀缺资源。",
+    "tags": [
+      "News",
+      "Career",
+      "Management"
+    ],
+    "link": "https://age-of-product.com/product-owner-interview-questions/",
+    "date": "2026-08-23",
+    "id": "17874887971683"
+  },
+  {
+    "title": "Prism Reviewer：基于 LangGraph 的多智能体代码审查工具",
+    "summary": "开源项目 Prism Reviewer 利用多智能体架构自动化代码审查流程。",
+    "detail": "Prism Reviewer 是一个基于 LangGraph 和 LiteLLM 构建的多智能体 AI 代码审查工具。它通过自动化流程帮助开发者识别代码问题，提升审查效率。该项目展示了多智能体协作在实际开发工作流中的应用潜力，为希望集成 AI 代码审查功能的团队提供了可参考的开源实现方案，降低了部署门槛。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Agents"
+    ],
+    "link": "https://github.com/marketplace/actions/prism-reviewer-ai",
+    "date": "2026-08-23",
+    "id": "17874887971684"
+  },
+  {
     "title": "金融时报：Anthropic 顶尖模型用户增长受阻，廉价工具崛起",
     "summary": "金融时报报道 Anthropic 最佳模型面临用户增长挑战，廉价替代工具盛行。",
     "detail": "根据金融时报 2026 年 8 月 23 日发布的最新报道，Anthropic 表现最佳的 AI 模型在吸引用户方面遇到困难，而市场上更便宜的 AI 工具却在蓬勃发展。这反映了 AI 市场当前的价格敏感度与性价比竞争态势正在加剧。对于高端模型提供商而言，如何在保持性能优势的同时应对低成本工具的侵蚀，成为关键挑战。此趋势可能影响未来大模型厂商的定价策略与市场定位，显示市场正从技术崇拜转向实用主义。企业用户可能更倾向于成本效益高的解决方案，而非单纯追求参数规模，这将重塑行业竞争格局，迫使头部厂商优化成本结构。此外，这也暗示了 AI 普及阶段，易用性与成本可能比顶尖性能更具驱动力，开发者生态将向轻量化模型倾斜。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.theatlantic.com/technology/2026/06/ai-cancer-progress/687654/",
     "date": "2026-08-22",
     "id": "17873673170732"
-  },
-  {
-    "title": "Linus Torvalds 确认 AI 辅助调试 Linux 内核",
-    "summary": "Linux 之父公开表示 AI 极大帮助了内核调试过程，开发者工具链迎来 AI 赋能。",
-    "detail": "**背景**：Linux 内核开发社区对 AI 工具的态度一直谨慎，但近期出现了显著转变。\n\n**核心内容**：Linux 创始人 Linus Torvalds 在 GitHub 提交记录中明确评论称，一次极其困难的内核调试会话（debug session from hell）得到了 AI 的巨大帮助。这标志着核心基础设施维护者开始认可 AI 在复杂代码排查中的价值。\n\n**行业影响**：作为开源界的旗帜性人物，Linus 的认可具有风向标意义。这将鼓励更多底层系统开发者尝试将 LLM 集成到工作流中，推动 AI 编程助手从应用层向系统底层渗透，提升开发效率。",
-    "tags": [
-      "Dev",
-      "Linux",
-      "Coding"
-    ],
-    "link": "https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c",
-    "date": "2026-08-22",
-    "id": "17873612840221"
-  },
-  {
-    "title": "中国构建美国选民 AI 模型模拟政治行为",
-    "summary": "复旦等机构构建百万级美国选民 AI 模型，模拟选举与政策反应。",
-    "detail": "独家报道显示，中国高校及智库正在构建详细的美国选民 AI 模型，涵盖百万 X 用户数据。研究者通过合成选民测试政治信息反应，模拟州级选举结果。该项目旨在评估“美国优先”态度及外交政策走向。此举标志着 AI 在地缘政治分析中的深度应用，通过合成人口预测政治行为，可能影响未来中美政策博弈及信息战策略，引发伦理与安全关注。",
-    "tags": [
-      "News",
-      "Geopolitics",
-      "LLM"
-    ],
-    "link": "https://nataliegwinters.substack.com/p/exclusive-china-is-building-ai-models",
-    "date": "2026-08-21",
-    "id": "17874672931131"
-  },
-  {
-    "title": "中国机构构建美国选民 AI 模型测试政治信息",
-    "summary": "复旦大学利用 1.71 亿条 X 帖子创建百万选民池，测试合成选民对政治信息的反应。",
-    "detail": "独家报道显示，中国机构正在构建美国选民的 AI 模型以测试政治信息。复旦大学团队利用 1.71 亿条 X 平台帖子创建了包含百万账户的“选民池”。政府关联团队已在合成宾夕法尼亚州选民身上测试了竞选信息。此举标志着 AI 在地缘政治和心理战中的应用升级，引发对信息操纵和选举安全的高度关注。技术层面涉及大规模数据训练与合成人口建模，可能改变未来国际政治博弈形态。",
-    "tags": [
-      "News",
-      "Politics",
-      "LLM"
-    ],
-    "link": "https://twitter.com/nataliegwinters/status/2090814996687237570",
-    "date": "2026-08-21",
-    "id": "17874630456220"
-  },
-  {
-    "title": "消息称 Anthropic IPO 文件将把 AI 反弹列为风险因素",
-    "summary": "CNBC 报道，Anthropic 在 IPO 文件中将公众对 AI 的抵制情绪列为潜在风险因素。",
-    "detail": "据 CNBC 消息源，Anthropic 在其 IPO 申报文件中将\"AI 反弹”（AI backlash）列为风险因素。这反映了行业对公众舆论、监管政策及社会接受度的担忧。随着 AI 普及，负面情绪可能影响公司估值与业务扩展。标志着 AI 巨头开始正视社会阻力对资本市场的潜在冲击，投资者需关注舆论风险。",
-    "tags": [
-      "News",
-      "Finance",
-      "Anthropic"
-    ],
-    "link": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-factors-sources-say.html",
-    "date": "2026-08-21",
-    "id": "17874234990923"
   }
 ]
