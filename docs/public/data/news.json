@@ -1,5 +1,70 @@
 [
   {
+    "title": "学术研究揭示 AI 检测工具在学术诚信中的失效风险",
+    "summary": "arXiv 论文指出商业 AI 检测器无法区分 AI 编辑与全文草稿，误判率高。",
+    "detail": "该研究通过对比 2013-2015 年与 2023-2025 年四个领域的 published English abstracts，量化了 AI 检测策略的失败。在 tau=0.50 的 proxy human/AI labels 下，仅进行轻度“润色摘要”的合规 AI 辅助编辑，被标记为 misconduct 的比例高达 38% 至 80%。而未修改的 2023-2025 年原创摘要也有 9% 至 15% 被误标，非 STEM 领域误报率显著高于 STEM (p<0.001)。论文由 Jonathan A. Karr Jr 等作者提交，强调检测器将 AI 编辑与全文草稿同等对待的问题。这表明当前机构依赖的商业检测器存在严重政策失效，无法准确区分人类编辑与 AI 生成内容，可能错误惩罚合规使用 AI 的研究人员，呼吁重新评估学术诚信政策。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Research"
+    ],
+    "link": "https://arxiv.org/abs/2608.11256",
+    "date": "2026-08-24",
+    "id": "17876104521840"
+  },
+  {
+    "title": "Meta 开源 MetaRoCE 协议，构建百万 GPU 规模的以太网基础设施",
+    "summary": "Meta 推出专为 AI workload 设计的 RDMA 传输协议，并通过 OCP 开源规范。",
+    "detail": "Meta 宣布推出 MetaRoCE，这是一种从头设计的 RDMA 传输协议，旨在支持 commodity Ethernet 上的百万 GPU 规模 AI 工作负载。随着 AI 模型训练和推理对网络依赖加深，集体操作如 all-reduce 和 all-to-all 的性能至关重要，最慢的传输决定整个作业速度。即使在推理中，低延迟通信也直接影响数亿用户的响应时间。Meta 将通过 Open Compute Project (OCP) 发布规范、参考软件实现及合规测试套件，推动行业采用。此举旨在减少网络摩擦，避免计算能力浪费，确立以太网作为 AI 基础设施首选 fabric 的地位，支持跨数据中心的集群扩展。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Meta"
+    ],
+    "link": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/",
+    "date": "2026-08-24",
+    "id": "17876104521841"
+  },
+  {
+    "title": "欧盟 AI 法案生效引发关于文本水印与生成质量的争议",
+    "summary": "行业讨论水印技术是否损害文本质量，John Gruber 批评 Anthropic 牺牲清晰度。",
+    "detail": "随着欧盟 AI 法案透明度指南生效，主要 AI 实验室计划对文本输出加水印，引发了关于质量影响的争论。科技作家 John Gruber 批评 Anthropic 在 Claude 中的水印实践牺牲了文本的清晰度、连贯性和意义，认为不可接受。尽管有观点如 Daniel Jalkut 认为水印仅涉及随机数生成不影响质量，但行业焦点转向代码生产后，模型书面输出质量本就下降，水印可能加剧这一问题。目前关于如何衡量质量定义尚无共识，行业正在探索如何在合规与保持生成质量之间取得平衡，避免为了隐藏线索而损害用户体验。",
+    "tags": [
+      "News",
+      "Policy",
+      "LLM"
+    ],
+    "link": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+    "date": "2026-08-24",
+    "id": "17876104521842"
+  },
+  {
+    "title": "Parallel 推出 INDEX 平台，按 AI Agent 使用量向创作者付费",
+    "summary": "新平台 Index 追踪 AI Agent 对内容的使用情况，并为创作者提供实时补偿。",
+    "detail": "Parallel 发布 INDEX 平台，旨在解决 AI Agent 取代人类搜索后内容创作者收入流失的问题。该平台允许创作者注册域名，追踪内容被 AI Agent 在法律、金融、医疗等领域引用的情况。与传统广告不同，Index 根据内容对 AI 响应的实际贡献进行实时补偿，并提供数据仪表盘展示内容的独特价值。这标志着内容经济向\"Agentic Web\"转型，试图重建 AI 时代的内容 monetization 基础设施。平台强调 web 最初为人类构建，现在需适应 AI 作为主要用户的新经济模式，确保创作者获得公平报酬。",
+    "tags": [
+      "New",
+      "Product",
+      "Monetization"
+    ],
+    "link": "https://index.parallel.ai/",
+    "date": "2026-08-24",
+    "id": "17876104521843"
+  },
+  {
+    "title": "最新论文分析 GitHub 上 AI 代理互相审查代码的趋势与效率",
+    "summary": "研究构建大规模数据集，揭示 AI 代理审查 AI 生成 PR 的闭环现象及延迟数据。",
+    "detail": "该 arXiv 论文构建了包含 248,641 个 AI 属性 PR 的大规模数据集，分析 AI 编码代理审查另一 AI 贡献的闭环流程。数据来自 CodAGE 公共数据集，其中 45,269 个接收跨产品审查，2025 年 Q1 至 Q3 体积增长超过两个数量级。研究对比了不同审查配置下的输出差异，如 CodeRabbit 对 Claude Code authored PR 的重构评论比例更高 (35.0% vs 10.5%)。跨产品 pair 的中位延迟为 1.2 分钟，显著低于同产品的 4.7 分钟。这揭示了 AI 开发工作流的新形态，即 AI 代理在 GitHub 上形成封闭的审查循环，影响软件开发效率。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Research"
+    ],
+    "link": "https://arxiv.org/abs/2608.21311",
+    "date": "2026-08-24",
+    "id": "17876104521844"
+  },
+  {
     "title": "OpenAI 将 GPT-5.6 模型家族集成至 Kiro 开发代理",
     "summary": "OpenAI 将 GPT-5.6 家族引入 Kiro，显著提升开发者编码效率与性价比。",
     "detail": "OpenAI 正式宣布将最新的 GPT-5.6 模型家族（含 Sol、Terra、Luna）集成至其软件开发生成代理 Kiro 中。此次更新核心在于通过规范驱动开发（spec-driven development）提升代码质量与性价比。开发者可利用新模型将高层产品需求转化为结构化实施计划，处理复杂多步编码任务，并通过基于属性的测试验证正确性。与 AWS 合作优化环境后，Terminal-Bench 2.1 测试显示任务完成成本降低约 82%。此举标志着 AI 原生编码工作流迈向更高成熟度，显著减少迭代次数，为工程团队提供更高效、可控的开发体验，重塑软件生产流程。此外，模型能够理解代码库上下文及团队标准，确保生成代码符合既定规范，极大提升了 AI 辅助编程的可靠性与落地价值。",
@@ -1233,70 +1298,5 @@
     "link": "https://pedromadruga.com/blog/domain-driven-ai/",
     "date": "2026-08-22",
     "id": "17874303462100"
-  },
-  {
-    "title": "Show HN: 将苹果风格滚动视频网站转化为可复用 AI 技能",
-    "summary": "GitHub 开源新项目，实现苹果式滚动视频效果的 AI 技能复用。",
-    "detail": "该项目在 Hacker News 上展示，旨在将流行的苹果风格滚动视频网站效果转化为可复用的 AI 技能。通过 GitHub 开源代码，开发者可以利用该技能快速构建具有高度视觉吸引力的交互式网站。这反映了当前 AI 开发社区对前端交互效果自动化的探索，降低了高质量网页制作的技术门槛。作为 Show HN 项目，它体现了开发者利用 AI 简化复杂前端逻辑的趋势，适合全栈开发者参考复用，可能提升开发效率。此类工具的出现标志着 AI 正从后端逻辑向前端体验延伸，为 Web 开发带来新范式。",
-    "tags": [
-      "New",
-      "GitHub",
-      "Web Dev"
-    ],
-    "link": "https://github.com/musoyangrigor/scroll-video-website-skill",
-    "date": "2026-08-22",
-    "id": "17874303462101"
-  },
-  {
-    "title": "前 CISA 官员警告：AI 代理将成为新型网络攻击载体",
-    "summary": "前 CISA 官员指出 AI 代理引入新攻击面，企业需将其视为特权身份管理。",
-    "detail": "随着 AI 技术从单纯的内容生成转向实际行动执行，AI 代理程序正获得访问敏感系统和数据的权限。前美国网络安全和基础设施安全局（CISA）代理负责人 Matt Hartman 警告称，AI 代理引入了全新的数据集成通道和非人类身份，这使得传统静态安全策略难以有效应对。企业不仅面临内部代理滥用风险，还遭遇外部 AI 赋能的身份及社工攻击显著增加。Hartman 强调，组织需将每个代理视为特权身份进行管理。近期多次真实攻击事件已证明 AI 代理能黑入组织，若防御者不主动利用 AI 攻击自身系统以测试防御，adversaries 将率先利用 AI 发起攻击，暴露出日益增长的非人类身份管理难题与数据集成通道滥用风险，给网络安全带来巨大隐患。",
-    "tags": [
-      "News",
-      "Security",
-      "AI Agents"
-    ],
-    "link": "https://www.theregister.com/security/2026/08/22/if-youre-not-using-ai-to-attack-your-own-systems-your-adversaries-will/5291346",
-    "date": "2026-08-22",
-    "id": "17874265807650"
-  },
-  {
-    "title": "DeepMind 校友创立 Inherent，AI 代理复现研究超越巨头",
-    "summary": "Inherent Labs 发布 Faraday 代理，在复现科研论文任务上击败 Anthropic 和 OpenAI。",
-    "detail": "伦敦 AI 实验室 Inherent 由 Google DeepMind 校友创立，近期刚完成 5000 万美元种子轮融资。其新发布的 AI 代理 Faraday 在不预先知晓答案的情况下，独立复现已发表科学论文 findings 的表现优于 Anthropic 和 OpenAI 的更大模型。创始人兼首席科学家 Edward Hughes 表示，复现论文是人类科学家的标准训练练习，目标不仅是验证旧结果，更是构建能发现新科学知识的 AI。尽管 Inherent 关注度较低，但其具体成果展示了小模型在特定科学任务上的潜力，重点在于构建方法而非单纯超越前沿代理，为 AI 科学发现奠定基础，展示了初创企业在垂直领域超越巨头的可能性。",
-    "tags": [
-      "News",
-      "Research",
-      "Startup"
-    ],
-    "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
-    "date": "2026-08-22",
-    "id": "17874265807651"
-  },
-  {
-    "title": "实验显示 Claude Opus 5 可胜任虚构国家外交官职务",
-    "summary": "为期 10 天的试点表明，AI 代理能处理外交邮件、跟踪争端并起草回复。",
-    "detail": "一项可行性试点项目让 Claude Opus 5 在虚构国家 Sordland 外交部担任 desk officer 职务。在 8 月 7 日至 16 日的 10 天内，代理阅读邮件、跟踪与邻国的实时争端并起草所有回复，人类操作员负责手动发送。该实验基于贝尔福中心论文《外交政策 AI 评估差距》，针对外交任务的无界行动空间及部分可见性等特点进行评估。框架涵盖映射参与者、检测升级信号及生成选项等日常外交行为，验证了 AI 在处理实时压力外交 correspondence 的潜力，为未来 AI 介入复杂政策任务提供参考，展示了 AI 代理在高压环境下处理复杂社会政治任务的可行性与局限性。",
-    "tags": [
-      "Dev",
-      "AI Agents",
-      "Application"
-    ],
-    "link": "https://www.karlsnotes.com/can-an-ai-agent-serve-at-a-foreign-office/",
-    "date": "2026-08-22",
-    "id": "17874265807652"
-  },
-  {
-    "title": "MIT 研究：AI 生成图像难以追溯训练数据",
-    "summary": "MIT 研究发现，大规模模型存在“归属衰减”，生成图像无法追溯至特定训练数据。",
-    "detail": "MIT CSAIL 团队提出“归属衰减”现象，指出随着训练数据规模扩大，单个数据对输出影响微乎其微。即使移除特定艺术家或照片，生成结果不变。这对版权诉讼、许可协议及责任认定提出严峻挑战。研究认为若移除数据不影响输出，则无法归因。这可能改变全球 AI 监管与法律框架，为模型训练数据免责提供理论依据。",
-    "tags": [
-      "News",
-      "Research",
-      "Copyright"
-    ],
-    "link": "https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818",
-    "date": "2026-08-22",
-    "id": "17874234990920"
   }
 ]
