@@ -1,5 +1,44 @@
 [
   {
+    "title": "Google Antigravity：IDE 中的多智能体编程新范式",
+    "summary": "Google 推出 Antigravity，支持在 IDE 中同时运行和监控多个编码智能体，提升开发效率。",
+    "detail": "Google 在 Product Hunt 上展示了名为 Antigravity 的新工具，旨在革新开发者工作流。该产品的核心功能是允许用户在集成开发环境（IDE）中同时运行并监控多个编码智能体（Coding Agents）。这意味着开发者可以并行处理多个任务，如代码生成、审查和调试，而无需频繁切换上下文。作为大厂在 AI 编程领域的最新布局，Antigravity 反映了多智能体协作（Multi-Agent Collaboration）已成为提升软件工程效率的关键趋势。对于希望优化研发流程的团队而言，这是一个值得关注的早期信号。",
+    "tags": [
+      "New",
+      "AI Agents",
+      "Coding"
+    ],
+    "link": "https://www.producthunt.com/products/google-antigravity",
+    "date": "2026-08-24",
+    "id": "17875584546470"
+  },
+  {
+    "title": "Dropstone：无处不在的自适应 AI 运行时",
+    "summary": "Dropstone 发布新一代 AI 运行时，具备记忆、学习和跨平台行动能力，打造个人化 AI 助手。",
+    "detail": "Dropstone 是一款新推出的 AI 运行时环境，其核心卖点在于‘记忆、学习和无处不在的行动’。与传统单次交互的 LLM 应用不同，Dropstone 旨在构建一个持续学习的上下文环境，能够记住用户的历史操作和偏好，并在不同设备或应用间主动执行任务。这种‘自适应运行时’的概念标志着 AI 应用正从被动问答向主动代理（Agent）转变。对于开发者来说，理解此类运行时架构有助于构建更具粘性的 AI 原生应用，是观察 AI 个人化助手演进的重要案例。",
+    "tags": [
+      "New",
+      "AI Agents",
+      "Productivity"
+    ],
+    "link": "https://www.producthunt.com/products/dropstone-2",
+    "date": "2026-08-23",
+    "id": "17875584546471"
+  },
+  {
+    "title": "Lucid Train：利用 AI 构建系统设计的利器",
+    "summary": "Lucid Train 上线，专为新旧代码库提供系统设计与架构梳理的 AI 辅助工具。",
+    "detail": "Lucid Train 是一款针对工程开发领域的 AI 工具，专注于帮助开发者构建和理解系统设计。无论是全新的代码库还是遗留系统，该工具都能提供架构层面的辅助。在 AI 编程工具泛滥的今天，大多数产品集中在代码生成（Code Generation），而 Lucid Train 切入的是更高阶的系统设计（System Design）环节。这表明 AI 正在渗透进软件工程的上游规划阶段，帮助团队降低架构债务，提升代码可维护性，适合技术负责人和高级开发者关注。",
+    "tags": [
+      "New",
+      "Dev",
+      "System Design"
+    ],
+    "link": "https://www.producthunt.com/products/lucid-train",
+    "date": "2026-08-23",
+    "id": "17875584546472"
+  },
+  {
     "title": "揭秘神秘 AI 模型 Ox Alpha 背后的团队",
     "summary": "TechCrunch 调查新兴 stealth model Ox Alpha 的幕后开发者身份。",
     "detail": "本文探讨了近期引起关注的“隐身模型”Ox Alpha。随着 AI 竞争加剧，越来越多的团队选择在正式发布前保持神秘，以避免过早暴露技术路线或被巨头复制。TechCrunch 试图揭开其背后的开发团队及融资背景，分析其是否具备挑战巨头的实力。此类 stealth 模式反映了当前 AI 初创企业对技术壁垒保护的重视，也可能预示着即将有重大产品发布。对于投资者和开发者而言，关注此类隐身项目有助于提前洞察技术风向。行业需密切关注其后续动向及对现有格局的潜在影响，尤其是其在特定垂直领域的突破能力是否足以改变市场现状。这种调查报道有助于增加行业透明度，减少信息不对称带来的风险，为生态参与者提供决策参考。",
@@ -1259,44 +1298,5 @@
     "link": "https://play.google.com/store/apps/details?id=com.builtwithme.signalwatch&hl=en_US",
     "date": "2026-08-22",
     "id": "17874055542852"
-  },
-  {
-    "title": "AI 模型指纹识别技术突破：绕过提示词欺骗",
-    "summary": "OpenRating 发布新技术，通过 Tokenizer 和基础设施特征确定性识别 AI 模型。",
-    "detail": "针对第三方 API 网关中模型身份伪造问题，OpenRating 提出客户端指纹识别引擎。核心技术在于利用 Tokenizer 词汇表、字节回退规则及推理引擎模板偏移等基础设施特征，而非易变的对话提示。代理提供商若试图伪造需双向翻译 Token 流，会引入严重延迟。该方法能准确区分 Qwen、Llama 等模型，即使经过微调或提示词伪装，为模型评估和安全审计提供可靠工具，解决黑盒模型识别难题。此举将提升 API 市场透明度，防止供应商以次充好，推动行业建立更严格的模型交付标准，增强开发者对第三方 API 的信任度。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Security"
-    ],
-    "link": "https://openrating.io/blog/current-state-of-ai-model-fingerprinting",
-    "date": "2026-08-22",
-    "id": "17874023938770"
-  },
-  {
-    "title": "欧洲央行警示：AI 繁荣是理性热潮还是泡沫？",
-    "summary": "欧洲央行发文探讨 AI 投资热潮，分析其是否重蹈互联网泡沫覆辙。",
-    "detail": "欧洲央行（ECB）发布博客文章，深入分析当前 AI 行业的爆炸式增长，探讨其是理性热潮还是继互联网泡沫后的下一个泡沫。文章对比了历史科技泡沫周期，评估当前估值是否基于理性预期。作为权威金融机构，ECB 的观点直接影响全球资本对 AI 基础设施的信心。该分析对于投资者判断行业长期走势及潜在风险具有重要参考意义，标志着宏观层面开始审视 AI 经济影响及金融稳定性。若被视为泡沫，可能引发监管收紧及资本撤离，行业需证明实际生产力提升以维持估值，避免资本市场的剧烈波动。",
-    "tags": [
-      "News",
-      "Finance",
-      "Market"
-    ],
-    "link": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20260817~754a8a4418.en.html",
-    "date": "2026-08-22",
-    "id": "17874023938771"
-  },
-  {
-    "title": "Meta 推出 Mango AI：下一代视频生成模型亮相",
-    "summary": "Meta 发布 Mango AI 工作室，支持 Nano Banana 2 模型，实现高保真视频生成。",
-    "detail": "Meta Superintelligence Labs 推出 Mango AI，主打物理理解与时序连续性，宣称是下一代扩散 Transformer 模型。集成 Nano Banana 2 及 GPT Image 2 等模型，支持 10 秒高清视频生成，每日视频观众超 5 亿。采用 Diffusion Transformer 架构，强调实时生成能力。该产品标志着多模态生成模型在视频领域的进一步落地，竞争加剧，为创作者提供新工具，订阅计划低至每月 9.90 美元。Meta 此举意在巩固其在生成式 AI 领域的地位，与竞争对手争夺视频生成市场份额，降低视频创作门槛。",
-    "tags": [
-      "New",
-      "Video Generation",
-      "Meta"
-    ],
-    "link": "https://trymangoai.com",
-    "date": "2026-08-22",
-    "id": "17874023938772"
   }
 ]
