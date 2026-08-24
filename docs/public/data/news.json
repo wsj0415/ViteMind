@@ -1,5 +1,57 @@
 [
   {
+    "title": "Autonomous 推出双 GPU AI 工作站，支持 RTX 5090",
+    "summary": "Autonomous 发布新款双 GPU 工作站，主打本地模型私有化部署，无 Token 计费。",
+    "detail": "Autonomous.ai 正式推出新一代双 GPU AI 工作站，用户可选择配置双 RTX 5090 或 RTX PRO 6000 Blackwell 显卡，显存高达 192GB。该产品核心卖点在于数据私有化与所有权，模型权重本地存储，杜绝了云端 API 的 Token 计费与数据泄露风险。适合需要全天候运行 AI Agent 且高度关注数据隐私的开发者和企业。硬件采用 CNC 铝制机箱，散热性能优异，预装驱动并经过基准测试，插电即用。此举反映了市场对本地化 AI 推理基础设施需求的显著增长，为开发者提供了更可控的算力选择，避免模型被撤回或降权。",
+    "tags": [
+      "New",
+      "Hardware",
+      "LLM"
+    ],
+    "link": "https://www.autonomous.ai/computer-2",
+    "date": "2026-08-24",
+    "id": "17875998381080"
+  },
+  {
+    "title": "路透社：英伟达通知客户 AI 相关产品涨价超 15%",
+    "summary": "彭博社消息，英伟达因 AI 需求旺盛，通知客户部分产品价格上调超过 15%。",
+    "detail": "据路透社和彭博社报道，英伟达已正式通知客户，由于人工智能需求持续高涨，部分相关产品价格将上调超过 15%。这一举动深刻反映了 AI 基础设施市场的供不应求状态，可能会显著增加初创企业和大型科技公司的算力成本。市场正在密切关注此举对下游 AI 应用定价及利润率的影响。对于依赖 GPU 集群的 AI 公司而言，这将迫使它们优化模型效率或转嫁成本。供应链紧张局势可能持续，建议企业提前规划算力预算。此次涨价也侧面印证了 AI 行业仍在高速扩张期，硬件壁垒进一步加高。",
+    "tags": [
+      "News",
+      "Nvidia",
+      "Market"
+    ],
+    "link": "https://www.reuters.com/business/nvidia-customers-notified-about-ai-related-price-hikes-above-15-bloomberg-news-2026-08-22/",
+    "date": "2026-08-24",
+    "id": "17875998381081"
+  },
+  {
+    "title": "SpaceXAI 采用英伟达 Vera CPU 加速代理 AI",
+    "summary": "SpaceXAI 宣布采用英伟达 Vera CPU，旨在大规模加速代理 AI 工作负载。",
+    "detail": "英伟达官方新闻宣布，SpaceXAI 将采用 Nvidia Vera CPU 来加速其大规模代理 AI（Agentic AI）任务。这表明 CPU 在 AI 推理和代理工作流中的重要性日益提升，不再仅仅依赖 GPU。此次合作旨在优化大规模 AI 代理系统的性能，标志着 AI 基础设施向更专用的混合硬件架构演进。Vera CPU 将为复杂的代理决策提供低延迟支持，有助于解决多 Agent 协作中的瓶颈问题。这是硬件厂商针对特定 AI 工作负载进行优化的典型案例，预示着未来 AI 计算将更加注重 CPU 与 GPU 的协同效率。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Agentic AI"
+    ],
+    "link": "https://nvidianews.nvidia.com/news/spacexai-adopts-nvidia-vera-cpu-to-accelerate-agentic-ai-at-massive-scale",
+    "date": "2026-08-24",
+    "id": "17875998381082"
+  },
+  {
+    "title": "HN 热议：AI SaaS 泛滥时代的市场护城河",
+    "summary": "Hacker News 讨论在 AI 生成软件泛滥的当下，市场平台的护城河是否更稳固。",
+    "detail": "Hacker News 社区发起热门讨论，探讨在 SaaS 和 AI 生成内容泛滥的背景下，市场平台（Marketplaces）是否拥有更强的护城河。观点认为软件生产成本降低，但定制化仍难，分发和资本成为关键。这反映了行业对 AI 应用层竞争格局的深层思考，定制解决方案和代理机构可能是短期赢家。讨论指出，虽然代码生成容易，但解决最后 10% 的定制化需求仍需人力。对于创业者而言，单纯的工具开发价值下降，深入垂直场景的服务更具壁垒。社区共识倾向于认为分发渠道和客户关系将成为新的核心竞争优势。",
+    "tags": [
+      "News",
+      "Community",
+      "SaaS"
+    ],
+    "link": "https://news.ycombinator.com/item?id=49424263",
+    "date": "2026-08-24",
+    "id": "17875998381083"
+  },
+  {
     "title": "前 Sierra 科学家新作 Instinct 引发隐私与安全争议",
     "summary": "前 Sierra 科学家推出 AI 助手 Instinct，功能强大但因过度权限引发隐私担忧。",
     "detail": "Instinct 是由前 Sierra 研究员 Noah Shinn 领导开发的 AI 个人助理，目前处于私人测试阶段。该代理能够连接用户的 email、日历、音频、位置及屏幕等全方位数据，通过短信或 WhatsApp 交互执行任务。尽管用户反馈其体验“如魔法般神奇”，但其服务条款及广泛的数据访问权限引发了严重的安全与隐私质疑。作为 stealth 模式下的产品，其背后的 Spear Street Technology 公司尚未完全公开融资细节。此事件反映了 AI Agent 在追求高度自动化与用户隐私保护之间的核心矛盾，可能影响未来同类产品的合规设计与市场接受度。行业需关注此类高权限 Agent 的安全边界，特别是在数据最小化原则与功能便利性之间的平衡，这将成为监管焦点。",
@@ -1246,57 +1298,5 @@
     "link": "https://hotcrp.com/news/2026/ai-agents-202608",
     "date": "2026-08-22",
     "id": "17874192834322"
-  },
-  {
-    "title": "OpenAI 呼吁加州加强 AI 安全法案监管力度",
-    "summary": "OpenAI 公开表态，建议加州进一步强化 AI 安全相关立法。",
-    "detail": "据 TechCrunch 报道，OpenAI 近期表示加州应加强其 AI 安全法案。作为行业领头羊，OpenAI 主动支持更严格的监管，可能意在建立行业壁垒或回应公众安全担忧。此举将影响美国 AI 立法进程，标志着大厂从反对监管转向参与制定规则，未来合规成本可能成为新创企业的门槛。OpenAI 认为加强安全 bill 有助于建立公众信任，防止恶性竞争导致的安全忽视。这一立场转变可能促使其他科技巨头跟进，共同推动形成统一的行业标准。对于开发者而言，这意味着未来模型部署将面临更严格的合规审查，需提前布局安全评估机制以适应政策变化。",
-    "tags": [
-      "News",
-      "Policy",
-      "OpenAI"
-    ],
-    "link": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
-    "date": "2026-08-22",
-    "id": "17874192834323"
-  },
-  {
-    "title": "消息称 Anthropic IPO 文件将把 AI 抵制列为风险因素",
-    "summary": "知情人士透露，Anthropic 上市文件中将警示 AI 舆论 backlash 风险。",
-    "detail": "CNBC 消息源指出，Anthropic 在 IPO 备案文件中将把“公众对 AI 的抵制”列为潜在风险因素。这反映了 AI 行业面临的社会舆论压力正在转化为具体的商业风险。对于投资者而言，这意味着除了技术竞争外，还需评估社会接受度对估值的影响，凸显了 AI 伦理与公众信任在资本市场中的重要性。文件披露显示，反 AI 情绪可能导致监管收紧或用户流失，直接影响营收。这是 AI 公司首次在招股书中明确此类社会风险，表明行业已进入成熟期的风险披露阶段。投资者需关注公众舆论动向，企业则需加强透明度与社会责任建设，以缓解市场担忧并维持长期增长潜力。",
-    "tags": [
-      "News",
-      "IPO",
-      "Anthropic"
-    ],
-    "link": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-a-risk-factor-sources-say.html",
-    "date": "2026-08-22",
-    "id": "17874192834324"
-  },
-  {
-    "title": "前沿 AI 实验室缺乏失控模型应对计划",
-    "summary": "Guidelight 研究显示多数实验室未公布模型失控应对方案，OpenAI 表现最佳。",
-    "detail": "Guidelight AI Standards 最新评估显示，五大前沿 AI 实验室中，仅少数公布了详细的模型失控 containment 计划。OpenAI 在此项评估中排名第一，而 Anthropic 和 Meta 得分最低。随着代理式 AI 在企业系统中承担更多自主角色，加州和纽约 regulators 开始要求披露此类风险管控措施。该报告独立评估了各实验室的监控日志、异常行为 halt 机制及第三方审计情况，揭示了行业在 Operational Risk 方面的准备不足。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Regulation"
-    ],
-    "link": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
-    "date": "2026-08-22",
-    "id": "17874158862390"
-  },
-  {
-    "title": "揭秘 AI Scaling Laws：模型性能可预测",
-    "summary": "研究者指出 AI 性能并非不可预测，Scaling Laws 早在数年前已指明方向。",
-    "detail": "推特用户 Fintex 深入解析了现代 AI 最重要的方程——Scaling Laws。尽管公众常认为新 AI 模型的突破不可预测，但实际上 OpenAI 团队早在 2020 年就发表了相关论文，表明模型性能与计算量呈直线关系。这意味着在投入巨额资金前，实验室即可预测模型表现。文章强调行业并非凭空 conjuring intelligence，而是基于数学规律进行工程化构建，揭示了 AI 发展背后的确定性逻辑。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Theory"
-    ],
-    "link": "https://twitter.com/_yusufknl/status/2090429393139097948",
-    "date": "2026-08-22",
-    "id": "17874158862391"
   }
 ]
