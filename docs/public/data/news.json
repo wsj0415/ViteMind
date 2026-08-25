@@ -1,5 +1,70 @@
 [
   {
+    "title": "开源 AI 设计代理框架 Myli 发布",
+    "summary": "EightPotions 开源 Myli，这是一个用于 AI 设计代理的 Python harness，支持 Provider 中立。",
+    "detail": "Myli 是一个 provider-neutral 的 pre-alpha Python 框架，专为提出 RFC 6902 更改的 AI 设计代理设计。核心独立于 Pydantic 和渲染栈，不持久化候选状态。它为开发者提供了灵活的代理编排能力，适用于需要修改 JSON 设计文档的应用场景，降低了特定模型供应商的锁定风险，适合构建视觉设计代理工作流。文档提供了完整的 API 参考与运行合约指南，便于集成。该工具允许代理提议更改而不直接应用，确保安全性，是视觉设计自动化领域的重要开源贡献。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Agents"
+    ],
+    "link": "https://github.com/EightPotions/Myli",
+    "date": "2026-08-25",
+    "id": "17876540616450"
+  },
+  {
+    "title": "SkillPreflight：AI 代理技能安装前评分工具",
+    "summary": "Show HN 项目，为 AI 代理技能提供安装前的安全、Token 及可维护性评分。",
+    "detail": "SkillPreflight 是一个针对 AI 代理技能的预安装安全检查工具。它在安装前对技能进行安全性、Token 消耗及可维护性评分，帮助开发者规避潜在风险。作为 npm 包发布，它填补了代理生态中缺乏标准化评估工具的空白，提升了 agent 供应链的安全性。对于构建复杂代理系统的团队，这是降低运维风险的重要基础设施。支持 GitHub Marketplace 集成，方便 CI/CD 流程。该项目旨在解决代理技能安装后的不可预测性问题，提供量化的安全评分卡。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://github.com/agent-contracts/skill-preflight",
+    "date": "2026-08-25",
+    "id": "17876540616451"
+  },
+  {
+    "title": "Intel 发布 Crescent Island AI GPU，专注代理推理",
+    "summary": "Intel 在 Hot Chips 2026 展示 Crescent Island GPU，主打大显存与高能效代理推理。",
+    "detail": "Intel 在 Hot Chips 2026 上公布了 Crescent Island 数据中心 GPU，专为 Agentic AI 推理设计。该芯片提供 160GB 至 480GB LPDDR5X 显存，重点关注每瓦特 Token 数、大内存容量及系统吞吐量。架构设计针对工具调用、长上下文及 CPU-GPU 协同进行了优化，旨在解决代理 AI 工作负载带来的延迟与内存压力，标志着 Intel 在企业级 AI 加速器领域的最新布局。由 Intel Fellow Hong Jiang 主讲，该 GPU 位于 Intel 加速器组合的顶端，针对本地代理计算机及数据中心智能进行了优化。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Intel"
+    ],
+    "link": "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+    "date": "2026-08-25",
+    "id": "17876540616452"
+  },
+  {
+    "title": "神秘模型 Ox Alpha 现身，支持 1M 上下文免费试用",
+    "summary": "新模型 Ox Alpha 进入 stealth 模式，主打推理能力与 1M 上下文，目前免费。",
+    "detail": "Ox Alpha 是一款新出现的推理优先模型，支持 1M token 上下文及 131K 输出。特点包括多步逻辑推理、可见思维链及原生工具调用支持。目前处于 stealth 阶段，无需注册即可免费试用，不存储聊天记录。专为长周期编码及复杂代理任务设计，支持文本、图像及视频输入。其神秘背景与强大参数引发了社区对新型推理架构的关注，官网显示由未知团队构建。该模型强调在生产级工作负载中的表现，而非简单的演示技巧，支持结构化输出如 JSON。",
+    "tags": [
+      "New",
+      "LLM",
+      "Product"
+    ],
+    "link": "https://oxalpha.com",
+    "date": "2026-08-25",
+    "id": "17876540616454"
+  },
+  {
+    "title": "Sam Altman：AI 尚未迎来 iPhone 时刻",
+    "summary": "CNBC 采访视频中，Sam Altman 表示 AI 行业尚未达到类似 iPhone 发布的爆发时刻。",
+    "detail": "在 CNBC 的最新采访中，OpenAI CEO Sam Altman 提出 AI 技术尚未达到消费级爆发的\"iPhone 时刻\"。尽管技术进展迅速，但大众普及度与杀手级应用仍需时间沉淀。该观点反映了行业领袖对当前 AI 落地阶段的冷静判断，提示市场需关注实际用户体验而非单纯的技术参数。这对投资者理解 AI 周期具有重要参考意义，视频发布于 17 小时前。Altman 的言论暗示，尽管资本投入巨大，但真正的普及型产品形态仍在探索中，市场需保持耐心。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Industry"
+    ],
+    "link": "https://www.youtube.com/watch?v=dktlHZOSn5o",
+    "date": "2026-08-25",
+    "id": "17876540616455"
+  },
+  {
     "title": "特朗普关税威胁 AI 硬件成本",
     "summary": "专家警告美加贸易战关税将导致 AI 组件价格上涨。",
     "detail": "CBC 新闻报道，尽管汽车和钢铁是美加贸易战焦点，但专家警告 escalating trade war 将导致电子产品成本显著上升。去年加拿大向美国出口了超过 40 亿美元的电子设备，现在将面临特朗普总统新的 50% 关税，某些电路板和控制器直接受影响。从手机到游戏机及 AI 基础设施，消费者和企业都将面临更高成本。这不仅是贸易问题，更直接影响 AI 物理组件的供应链价格稳定性，可能延缓技术普及并增加企业运营负担。文章指出音频版本由 AI 生成，突显技术渗透。行业需关注后续政策走向对全球供应链的深远影响。",
@@ -414,6 +479,19 @@
     "link": "https://guustaaf.substack.com/p/governments-will-decide-what-level-ai-you-have-access-to",
     "date": "2026-08-25",
     "id": "17876205586304"
+  },
+  {
+    "title": "行业分析：AI 基准测试高分不等于商业 adoption",
+    "summary": "文章指出 Anthropic 等模型虽基准测试领先，但企业更倾向于性价比高的旧模型。",
+    "detail": "分析指出 frontier 模型面临基准测试与开发者 adoption 之间的差距。尽管 Anthropic 的 Fable 5 模型智能领先，但企业支出更多流向 Opus 5 等 cheaper 模型。OpenAI 的 GPT 5.6 也因定价策略获得企业 momentum。核心观点是开发者 adoption 依赖可靠性、成本及延迟，而非单纯的 intelligence 基准。这揭示了 AI 商业化进程中性价比与稳定性比极致性能更关键，FT 报道了相关支出数据。客户对支出的坦诚表明，重复性任务仍由旧模型处理，前沿模型主要用于特定高价值场景。",
+    "tags": [
+      "News",
+      "Analysis",
+      "LLM"
+    ],
+    "link": "https://pran.sh/blog/reliable-model-wins",
+    "date": "2026-08-24",
+    "id": "17876540616453"
   },
   {
     "title": "MIT 技术评论：儿童学习效率超越 AI 引发数据效率gap 思考",
@@ -1220,83 +1298,5 @@
     "link": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
     "date": "2026-08-23",
     "id": "17874806794070"
-  },
-  {
-    "title": "Show HN: 开源 Lemmaflow，为 AI 原生应用构建信任框架",
-    "summary": "开源项目 Lemmaflow 提供 200+ 策略，帮助开发者构建安全可信的 AI 应用。",
-    "detail": "Lemmaflow 是一个开源框架，旨在解决 AI 原生应用的安全与信任问题，由开发者在 Hacker News 上发布。它提供 200 多种可实施策略，通过审计流程指导 Claude 等模型构建符合 GDPR、防止数据泄露的应用。该项目试图缩小经验丰富的开发者与普通 AI 编码者之间的差距，确保应用在生产环境中的安全性。对于关注 AI 合规性与数据安全的开发团队，这是一个重要的基础设施工具，有助于推动 AI 应用落地。开发者可利用其策略库快速构建符合监管要求的应用，降低法律与安全风险，提升用户信任度。这标志着 AI 开发正从功能实现转向安全合规，是行业成熟化的重要信号，为构建可信 AI 生态提供了具体实施路径。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Safety"
-    ],
-    "link": "https://news.ycombinator.com/item?id=49407337",
-    "date": "2026-08-23",
-    "id": "17874806794071"
-  },
-  {
-    "title": "Sfactory 上线：主打无废话的高质量 AI 写作工具",
-    "summary": "Sfactory 推出新项目制 AI 写作平台，生成社交媒体、博客等可靠内容。",
-    "detail": "Sfactory 是一款新兴的 AI 写作工具，强调生成内容的高质量与可靠性，旨在避免常见的 AI 废话内容。支持社交媒体帖子、博客、文章等多种格式生成，满足不同场景需求。其特色在于引入项目概念，帮助用户针对不同任务保持有序管理，提升协作效率。该产品反映了 AI 内容生成领域正从单纯的速度竞争转向质量与组织化管理的竞争，适合需要稳定内容输出的创作者与企业用户，解决通用模型输出不稳定的痛点。通过项目制管理，用户可更高效地协作与追踪内容生产进度，提升整体工作流效率，是内容创作者值得关注的新型生产力工具，展现了垂直化 AI 应用的发展趋势。",
-    "tags": [
-      "New",
-      "Writing",
-      "Productivity"
-    ],
-    "link": "https://sfactory.dev",
-    "date": "2026-08-23",
-    "id": "17874806794072"
-  },
-  {
-    "title": "AI 如何重塑学术搜索？三大工具深度横评",
-    "summary": "对比 Web of Science、Google Scholar 与 Consensus，分析 AI 学术搜索工具的检索质量与架构差异。",
-    "detail": "文章深入探讨了学术搜索市场的演变，重点对比了 **Web of Science Smart Search**、**Google Scholar Labs** 和 **Consensus** 三款工具。前者侧重检索相关性但不生成综合答案，后者 Commit 于完整合成与代理推理，并通过模型上下文协议集成。评测维度包括检索质量、可解释性、复现性及对 **MCP 协议** 的支持。分析指出，不同工具的设计选择反映了供应商对学术搜索未来形态的分歧。这对图书馆员评估工具及开发者理解学术搜索未来走向具有重要参考价值，揭示了不同用户 segment 的策略差异。此外，文章还讨论了 AI 增强型搜索工具的可重复性问题，为科研工作流程的标准化提供了新视角，帮助机构做出更明智的技术选型。",
-    "tags": [
-      "News",
-      "Academic",
-      "AI Tools"
-    ],
-    "link": "https://katinamagazine.org/content/article/resource-advisor/2026/how-is-ai-transforming-academic-search",
-    "date": "2026-08-23",
-    "id": "17874773079820"
-  },
-  {
-    "title": "面向 AI 与 RAG 的新闻搜索 API 深度对比指南",
-    "summary": "GitHub 开源项目深度评测 Webz.io、Exa 等新闻 API，针对语义检索与成本提供生产建议。",
-    "detail": "该 GitHub 项目针对构建上下文新闻搜索、**RAG** 及 **AI Agent** 工作流的开发者，提供了主流新闻搜索 API 的深度对比。涵盖 **Webz.io**、**Exa**、Brave、You.com 等服务商。核心评估维度包括检索机制、新闻数据集优先级、语义意图与过滤器的结合能力、返回上下文质量及生产成本。文章指出市场产品标签相同但实质差异巨大，部分服务基于专用新闻语料库，而其他则是通用 web 索引的新闻模式。这为开发者在生产环境中选择合适的 API 提供了具体的决策框架和成本分析，特别是针对需要确定性新闻过滤器与语义检索结合的高阶应用场景，帮助团队避免潜在的集成陷阱与成本超支风险。",
-    "tags": [
-      "Dev",
-      "API",
-      "RAG"
-    ],
-    "link": "https://github.com/free-news-api/news-search-api-comparison",
-    "date": "2026-08-23",
-    "id": "17874773079821"
-  },
-  {
-    "title": "Orelon：聚合主流模型的电影级 AI 视频生成平台",
-    "summary": "聚合多家模型的视频生成平台，支持 Seedance 与 Kling 等。",
-    "detail": "Orelon 是一个集成多种主流视频生成模型的平台，包括 Seedance 2.5、Kling 3.0、Wan 2.7 等。用户可通过统一界面调用不同模型进行文生视频或图生视频创作。该平台降低了多模型切换成本，适合需要对比模型效果的专业创作者，反映了视频生成模型聚合趋势。",
-    "tags": [
-      "New",
-      "Video",
-      "Tools"
-    ],
-    "link": "https://orelon.ai/",
-    "date": "2026-08-23",
-    "id": "17874739260950"
-  },
-  {
-    "title": "Ksumiyo：具备制作人级别控制权的 AI 音乐工作室",
-    "summary": "提供制作人级别控制的 AI 音乐生成工作室。",
-    "detail": "Ksumiyo 是一款主打制作人级别控制的 AI 音乐工作室。用户可通过提示词、情绪或故事生成曲目，并精细调整节奏、乐器及结构。支持商业使用且免版税，提供 Web 和 Android 端。这标志着 AI 音乐从随机生成向可控创作转变，满足专业内容制作需求。",
-    "tags": [
-      "New",
-      "Music",
-      "Audio"
-    ],
-    "link": "https://www.ksumiyo.com",
-    "date": "2026-08-23",
-    "id": "17874739260951"
   }
 ]
