@@ -1,5 +1,31 @@
 [
   {
+    "title": "Google 官方 AI 工具 MCP Toolbox 被发现 SSRF 高危漏洞",
+    "summary": "研究人员在 Google MCP Toolbox 中发现 SSRF 漏洞，Google 已在 8 天内修复。",
+    "detail": "安全研究人员在 Google 官方发布的 MCP Toolbox 中发现了一个服务器端请求伪造（SSRF）漏洞。该工具用于连接语言模型代理与数据库及 HTTP API。漏洞允许攻击者通过重定向绕过 URL 验证。Google 在收到报告后 8 天内完成了修复，并将该漏洞编号为 CVE-2026-14540（CVSS 8.0 高危）。此事件凸显了 AI 代理工具链中的安全风险，提醒开发者在部署 AI 连接工具时需严格验证外部请求。",
+    "tags": [
+      "News",
+      "Security",
+      "Google"
+    ],
+    "link": "https://news.ycombinator.com/item?id=49429926",
+    "date": "2026-08-25",
+    "id": "17876438921561"
+  },
+  {
+    "title": "LLMPanel 发布：无需 Kubernetes 即可部署 vLLM 到任意 GPU",
+    "summary": "开源平台 LLMPanel 支持一键将 vLLM 部署到 RunPod 或 Vast.ai，无需 K8s。",
+    "detail": "LLMPanel 推出新的开源 LLM 部署平台，旨在简化自托管推理流程。用户无需组建平台团队或编写复杂的 Docker 命令，即可在本地硬件、RunPod 或 Vast.ai 上部署模型。平台提供统一的控制平面，支持 OpenAI 兼容网关、 scoped API 密钥管理、实时 GPU 监控（显存、温度、tokens/s）以及成本追踪。该工具解决了当前 AI 基础设施碎片化的问题，降低了开发者运行自有 LLM 的门槛。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "LLM"
+    ],
+    "link": "https://llmpanel.io/",
+    "date": "2026-08-25",
+    "id": "17876438921562"
+  },
+  {
     "title": "PlugClaw 推出保密 AI 技术，解决云端数据隐私泄露难题",
     "summary": "新技术让云端 AI 模型在不泄露隐私的情况下处理数据。",
     "detail": "随着 AI Agent 从问答工具转变为工作代理，隐私风险激增。PlugClaw 推出的 Confidential AI 技术旨在解决云端 AI 的信任问题。传统云 AI 依赖政策信任，数据需发送至云端处理，存在泄露风险。新技术通过加密和隔离，确保模型在处理敏感数据（如邮件、代码、财务记录）时，提供商无法窥探。这对于企业部署云端大模型至关重要，标志着 AI 隐私保护从“信任政策”转向“技术保障”，可能成为未来合规标准，让云端算力与本地隐私得以共存。",
@@ -24,19 +50,6 @@
     "link": "https://www.bbc.co.uk/news/articles/cq89jpjeq7ko",
     "date": "2026-08-25",
     "id": "17876405393621"
-  },
-  {
-    "title": "LLMPanel 开源平台：无需 Kubernetes 即可部署 vLLM",
-    "summary": "一站式 LLM 部署工具，支持 RunPod/Vast.ai，实时监控 GPU。",
-    "detail": "LLMPanel 发布了新的开源 LLM 部署平台，简化了自托管推理流程。开发者无需复杂的 Kubernetes 配置，即可在 RunPod 或 Vast.ai 上一键部署 vLLM 或 Ollama 模型。平台提供统一的控制面板，实时监控 GPU 利用率、显存及 Token 生成速度，并支持 OpenAI 兼容网关。这降低了个人开发者和小团队部署私有大模型的门槛，解决了碎片化工具链问题，让 GPU 资源管理更加透明高效，促进本地化 AI 应用落地。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Infrastructure"
-    ],
-    "link": "https://llmpanel.io/",
-    "date": "2026-08-25",
-    "id": "17876405393622"
   },
   {
     "title": "Netherite 推出 AI 代码安全扫描器，精准修复漏洞",
@@ -245,6 +258,32 @@
     "link": "https://guustaaf.substack.com/p/governments-will-decide-what-level-ai-you-have-access-to",
     "date": "2026-08-25",
     "id": "17876205586304"
+  },
+  {
+    "title": "MIT 技术评论：儿童学习效率超越 AI 引发数据效率gap 思考",
+    "summary": "研究发现儿童语言学习数据效率远超 AI，科学家试图逆向工程缩小差距。",
+    "detail": "MIT Technology Review 指出，儿童与机器之间存在巨大的\"数据效率差距\"。儿童能用极少的数据学习语言，而当前最先进的 AI 模型仍需海量数据。认知科学家正试图通过逆向工程儿童的学习方式，创建更数据高效的 AI 模型。这一研究方向可能解决当前大模型依赖大规模算力和数据的瓶颈，为下一代 AI 架构提供生物学灵感。",
+    "tags": [
+      "News",
+      "Research",
+      "Cognitive Science"
+    ],
+    "link": "https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/",
+    "date": "2026-08-24",
+    "id": "17876438921563"
+  },
+  {
+    "title": "AI 辅助投诉激增给英国议会和学校带来额外压力",
+    "summary": "BBC 报道 AI 生成的投诉信激增，导致公共机构处理负担加重。",
+    "detail": "BBC 新闻报道，AI 工具的普及导致发送给英国议会和学校的投诉及请求数量激增。虽然 AI 帮助个人更容易地表达诉求，但也给公共部门带来了巨大的处理压力。这一现象反映了 AI 生成内容对社会行政系统的冲击，未来公共机构可能需要部署相应的 AI 过滤或处理系统来应对自动化生成的海量请求。",
+    "tags": [
+      "News",
+      "Social Impact",
+      "Government"
+    ],
+    "link": "https://www.bbc.co.uk/news/articles/c2dk6wzjw23o",
+    "date": "2026-08-24",
+    "id": "17876438921564"
   },
   {
     "title": "英国政府拟用乌克兰战场数据训练 AI 监控抗议者",
@@ -1259,44 +1298,5 @@
     "link": "https://twitter.com/subcountability/status/2091164267827327042",
     "date": "2026-08-23",
     "id": "17874598686212"
-  },
-  {
-    "title": "AI 权力缩放的双刃剑效应分析",
-    "summary": "文章探讨 AI 如何像 3D 打印一样，赋予终端用户 bypass 大公司的能力。",
-    "detail": "该分析文章探讨了 AI 技术权力缩放的双重影响。正如 3D 打印让用户能自行制造零件从而削弱传统制造巨头，AI 代理可能赋予终端用户绕过企业层级完成复杂任务的能力。文章指出存在未知的算法优化可能带来百万倍性能提升，甚至硬件级固化模型。这意味着小型团队或个人可能实现以往需庞大基础设施才能完成的任务，改变 AI 经济结构，对现有大公司的垄断地位构成潜在挑战，预示去中心化 AI 开发趋势。",
-    "tags": [
-      "News",
-      "Analysis",
-      "Scaling"
-    ],
-    "link": "https://nervecenter.github.io/ai_power_scaling_cuts_both_ways.html",
-    "date": "2026-08-23",
-    "id": "17874598686213"
-  },
-  {
-    "title": "LayoutLens：AI 驱动的可确定性 UI 测试工具",
-    "summary": "结合确定性规则与视觉大模型，解决 UI 布局与无障碍测试难题。",
-    "detail": "LayoutLens 是一款开源 AI 辅助 UI 测试工具，旨在解决传统像素基线测试无法捕捉布局及无障碍缺陷的问题。它结合确定性规则与视觉大模型，通过 axe-core 进行 WCAG 无障碍审计，并利用几何检查捕捉布局错误。工具提供确定性、混合和视觉三层架构，支持无密钥 CI 集成。核心创新在于用确定性层约束 LLM 幻觉，确保测试结果可复现。这对前端开发具有重要意义，提供了可靠的自动化验收方案，降低了视觉回归测试的成本与误报率，提升了 UI 交付质量。混合模式下，测量违规强制裁决，既保留模型灵活性又不失准确性，是 CI 流程中的理想守门员。",
-    "tags": [
-      "Dev",
-      "Testing",
-      "UI"
-    ],
-    "link": "https://github.com/gojiplus/layoutlens",
-    "date": "2026-08-23",
-    "id": "17874542391290"
-  },
-  {
-    "title": "Edify Windows 非线编软件终身优惠",
-    "summary": "支持 AI 字幕与 OpenFX 的视频编辑器，一次性买断仅需 29.99 美元。",
-    "detail": "Edify 是一款 Windows 非线编视频编辑软件，提供 OpenFX 支持、代理编辑及 AI 字幕功能。当前提供 29.99 美元一次性买断优惠，适合 VTuber 及视频创作者。相比订阅制，终身授权降低了长期使用成本。集成 AI 字幕工具提升了工作流效率，适合中小团队或个人创作者。在 AI 视频工具泛滥的当下，本地化 NLE 结合 AI 功能提供了隐私与性能的平衡选择。该工具强调了本地处理的优势，减少了云端依赖，对于关注数据隐私的创作者而言是一个具有性价比的替代方案，值得关注其后续功能更新。",
-    "tags": [
-      "Deal",
-      "Video",
-      "Windows"
-    ],
-    "link": "https://apps.microsoft.com/detail/9nkkk5k5s4ct?hl=en-US&gl=US",
-    "date": "2026-08-23",
-    "id": "17874542391291"
   }
 ]
