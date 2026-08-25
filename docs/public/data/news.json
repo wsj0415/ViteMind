@@ -1,5 +1,70 @@
 [
   {
+    "title": "OpenAI 公布自研推理芯片 Jalapeño 性能",
+    "summary": "OpenAI 分享自研芯片 Jalapeño 首批测试结果，能效优于商业系统。",
+    "detail": "OpenAI 披露了全栈智能战略，强调系统整体进步的重要性。重点介绍了首款定制推理芯片 Jalapeño 的性能数据。在 InferenceX 基准测试中，该芯片在每千瓦峰值吞吐量及令牌延迟方面均优于现有商业系统，支持 GPT-OSS 120B 等模型。此举标志着 OpenAI 正通过整合数据中心、芯片、模型及产品层，构建垂直一体化的算力体系，以降低推理成本并提升效率，未来还将继续迭代下一代硅片，增强对 workload 的控制力。",
+    "tags": [
+      "News",
+      "Hardware",
+      "OpenAI"
+    ],
+    "link": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+    "date": "2026-08-25",
+    "id": "17876969650340"
+  },
+  {
+    "title": "Anthropic 统一 Claude 聊天与 Cowork 记忆系统",
+    "summary": "Claude 更新记忆功能，聊天与 Cowork 数据互通，支持用户管理记忆。",
+    "detail": "Anthropic 宣布合并 Claude 聊天与 Cowork 的记忆系统，解决了代理需重复 briefed 的痛点。用户现在可以在不同场景间无缝切换，Claude 会自动保留上下文信息，如项目细节或会议议程。此外，用户可查看、编辑或删除已保留的记忆内容，增加了透明度。这一更新将 Claude 从两个独立产品转变为连续助手，显著提升了 Agent 在实际工作流中的可用性与连贯性，减少了用户重复输入信息的摩擦成本。",
+    "tags": [
+      "News",
+      "LLM",
+      "Agent"
+    ],
+    "link": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
+    "date": "2026-08-25",
+    "id": "17876969650341"
+  },
+  {
+    "title": "前 Yandex 高管创立 Keenable 为 AI 代理索引 web",
+    "summary": "Keenable 获 Accel 领投 2600 万美元，构建专为 AI 代理设计的搜索引擎。",
+    "detail": "前 Yandex 搜索负责人创立的 Keenable 走出隐身模式，获 2600 万美元种子轮融资，Accel 领投。该公司旨在重构互联网基础设施，为 AI 聊天机器人而非人类构建网页索引。其已建立超 1000 亿文档的搜索索引，API 已被多家 AI 实验室用于训练及运行时 grounding。相比传统搜索，该方案更适配 AI 处理大篇幅信息的需求，支持实时信息检索，解决了 AI 幻觉与数据时效性问题，优化了 Agent 的信息获取效率。",
+    "tags": [
+      "News",
+      "Search",
+      "Funding"
+    ],
+    "link": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/",
+    "date": "2026-08-25",
+    "id": "17876969650342"
+  },
+  {
+    "title": "新论文提出量化感知修复，4-bit 模型超越原精度",
+    "summary": "Hugging Face 发布新技法，压缩后的 4-bit 模型性能反超全精度原版。",
+    "detail": "Multiverse Computing 发布论文《Quantization-Aware Healing》，提出一种恢复压缩模型性能的新方法。通过对结构压缩并量化至 4-bit 的模型（如 GPT-OSS 120B 压缩至 60B）进行修复，其在 9 个基准测试中的 7 个表现优于原始全精度版本。该技术颠覆了量化通常导致性能下降的认知，为 LLM 部署提供了更小、更便宜且更准确的方案，特别适合资源受限环境下的高性能推理需求，降低了部署门槛。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Optimization"
+    ],
+    "link": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+    "date": "2026-08-25",
+    "id": "17876969650343"
+  },
+  {
+    "title": "代码托管平台 Codeberg 更新条款限制 AI 生成内容",
+    "summary": "Codeberg 修改服务条款，拒绝 predominantly AI 生成的仓库及加密货币项目。",
+    "detail": "开源代码托管平台 Codeberg 更新了服务条款，明确限制 predominantly 由 LLM 生成的内容上传，并禁止加密货币项目。此举旨在保护自由开源软件（FLOSS） Commons 免受 AI 生成代码泛滥的影响。平台认为大量 AI 生成内容可能降低代码库质量并引发版权争议。这一政策反映了开发者社区对 AI 生成代码质量的担忧，以及对维护人类主导的开源生态的坚持，可能引发其他平台效仿。",
+    "tags": [
+      "News",
+      "Policy",
+      "OpenSource"
+    ],
+    "link": "https://codeberg.org/Codeberg/org/compare/17bdb39b0c1ecd0e423f3ba592650ce57fcdfbf5..71149c7fc95ccfeae36109b5cddca339e4aa1473?files=TermsOfUse.md",
+    "date": "2026-08-25",
+    "id": "17876969650344"
+  },
+  {
     "title": "华盛顿邮报：AI 写作检测器准确性受质疑",
     "summary": "媒体测试显示主流 AI 检测工具存在误差，准确性并非绝对可靠。",
     "detail": "华盛顿邮报发布互动文章，深入测试了包括 Pangram 在内的多款主流 AI 检测器。结果显示，尽管此类工具在市场上无处不在，但其判定结果并不总是准确，存在显著误报风险。这对依赖检测器进行学术诚信审查或内容审核的机构提出严重警示。行业亟需建立更可靠、透明的评估标准，以避免误伤真实人类创作，重建技术与内容生态信任，防止检测滥用导致的不公。",
@@ -76,19 +141,6 @@
     "link": "https://unpublishablepapers.substack.com/p/the-new-york-times-is-publishing",
     "date": "2026-08-25",
     "id": "17876934620395"
-  },
-  {
-    "title": "Codeberg 更新条款拒绝纯 AI 生成仓库",
-    "summary": "代码托管平台 Codeberg 禁止 predominantly AI 生成的项目托管。",
-    "detail": "Codeberg 更新服务条款，明确拒绝 predominantly 由 LLM 生成的内容仓库，同时禁止加密货币项目。此举旨在保护自由开源软件（FLOSS） Commons 免受低质 AI 代码污染。这是首个明确限制 AI 生成代码的主流托管平台政策。可能引发开发者社区关于 AI 辅助编程边界与代码所有权的重要讨论，影响开源生态，推动高质量人工代码的价值回归。",
-    "tags": [
-      "News",
-      "Policy",
-      "Open Source"
-    ],
-    "link": "https://codeberg.org/Codeberg/org/compare/17bdb39b0c1ecd0e423f3ba592650ce57fcdfbf5..71149c7fc95ccfeae36109b5cddca339e4aa1473?files=TermsOfUse.md",
-    "date": "2026-08-25",
-    "id": "17876934620396"
   },
   {
     "title": "RankSpot：AI 驱动的 SEO 博客竞争情报工具",
@@ -1246,57 +1298,5 @@
     "link": "https://github.com/surajsrivastav/gitwhy",
     "date": "2026-08-25",
     "id": "17876267702472"
-  },
-  {
-    "title": "电商卖家抗议 AI 生成广告误导消费者",
-    "summary": "新加坡卖家指出 Shopee 和 TikTok 自动 AI 广告歪曲产品事实。",
-    "detail": "新加坡多位卖家投诉 Shopee 和 TikTok 平台自动生成的 AI 广告严重误导客户。例如，作家 Xie Shi Min 发现其严肃小说《Ghost Hunters of Geylang》被 AI 视频描述为“有趣的故事”，封面元素也被歪曲。卖家认为这种不实宣传损害了品牌声誉且极具侮辱性。这引发了关于电商平台自动化营销伦理的讨论，凸显了 AI 生成内容在商业应用中可能产生的虚假宣传风险及监管需求。",
-    "tags": [
-      "News",
-      "Ethics",
-      "E-commerce"
-    ],
-    "link": "https://www.channelnewsasia.com/singapore/ai-generated-videos-shopee-tiktok-misleading-sellers-6336961",
-    "date": "2026-08-25",
-    "id": "17876267702473"
-  },
-  {
-    "title": "调查显示 80% 开发者认为 AI 编码更易上瘾",
-    "summary": "ZDNet 报道开发者调查，多数人称 AI 编程辅助成瘾甚于实用。",
-    "detail": "ZDNet 报道的一项调查揭示了一个有趣现象：80% 的开发者发现 AI 编码辅助工具“更容易上瘾”而非“更有帮助”。标题引用开发者话语'I can't stop'，表明虽然 AI 编程工具提高了交互频率，但其实际效率提升仍存争议。开发者可能沉迷于生成过程而非结果，反映了当前 AI 编程工具在用户体验与生产力之间的平衡挑战，提示行业需关注工具的实际效能而非仅关注使用时长。",
-    "tags": [
-      "News",
-      "Developer Survey",
-      "AI Coding"
-    ],
-    "link": "https://www.zdnet.com/article/i-cant-stop-80-of-developers-find-ai-coding-more-addictive-than-helpful/",
-    "date": "2026-08-25",
-    "id": "17876267702474"
-  },
-  {
-    "title": "Anthropic 揭秘：Claude 如何加速药物研发流程",
-    "summary": "Anthropic 报告展示 Claude 模型在蛋白质设计和分析化学领域的应用，有望大幅缩短新药发现周期。",
-    "detail": "Anthropic 近日报告了 Claude 模型在制药研究中的应用潜力。药物发现 traditionally 是一个缓慢且劳动密集型的过程，而 AI 的介入有望显著提速。报告详细介绍了如何使用 Claude Mythos Preview 等模型执行蛋白质设计和分析化学中的常见流程。虽然具体技术细节需查阅原文，但核心在于利用 LLM 的理解和生成能力辅助科学家进行分子结构分析和实验设计。这一进展若成熟，将极大改善人类生活质量，并标志 AI 从数字领域向生物物理领域的深度渗透，为生物医药行业带来范式转变。",
-    "tags": [
-      "News",
-      "Science",
-      "LLM"
-    ],
-    "link": "https://guustaaf.substack.com/p/governments-will-decide-what-level-ai-you-have-access-to",
-    "date": "2026-08-25",
-    "id": "17876205586304"
-  },
-  {
-    "title": "儿童语言学习效率远超 AI 模型",
-    "summary": "MIT 科技评论指出儿童学习语言的数据效率远高于大语言模型。",
-    "detail": "MIT 科技评论文章指出，儿童学习语言的数据效率远超当前大语言模型。儿童仅需少量互动即可掌握母语，而 LLM 需消耗数万倍数据。这种“数据效率差距”揭示了现有 AI 架构的根本局限性。认知科学家认为，理解儿童学习机制有助于开发更高效模型，并揭示人类心智发展奥秘。这一发现挑战了单纯依靠数据堆砌的技术路线，为未来 AI 算法优化提供了重要研究方向。",
-    "tags": [
-      "News",
-      "Research",
-      "LLM"
-    ],
-    "link": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
-    "date": "2026-08-24",
-    "id": "17876832457743"
   }
 ]
