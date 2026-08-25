@@ -1,5 +1,83 @@
 [
   {
+    "title": "AI 使用成开源维护者的“拒绝服务攻击”",
+    "summary": "LLM 训练数据抓取导致开源维护者服务器过载，社区呼吁新规范。",
+    "detail": "Phoronix 最新报道指出，AI 大模型训练过程中对开源代码库的频繁抓取，已演变成针对开源维护者的“拒绝服务攻击”。这种高流量请求导致个人维护者服务器过载，增加了运营成本与维护压力。文章强调，这不仅是一个技术问题，更引发了关于数据使用伦理与补偿机制的深刻争议。行业亟需建立新的抓取礼仪，平衡 AI 发展与开源生态健康，否则可能导致关键基础设施贡献者流失，影响整个软件供应链的稳定性与安全性。",
+    "tags": [
+      "News",
+      "Open Source",
+      "LLM"
+    ],
+    "link": "https://www.phoronix.com/news/AI-DoS-Attack-Maintainers",
+    "date": "2026-08-25",
+    "id": "17876792322040"
+  },
+  {
+    "title": "AI 怀疑论者的宣言：泡沫与财务真相",
+    "summary": "资深科技分析师 Ed Zitron 发布 manifesto，深度剖析 AI 泡沫与巨头财务。",
+    "detail": "知名科技评论家 Ed Zitron 发布\"AI 怀疑者宣言”，深入分析 NVIDIA、Anthropic 及 OpenAI 的财务状况。文章质疑当前 AI 行业的估值逻辑，指出循环融资风险与泡沫迹象。他对 SaaSpocalypse 及私人信贷的关联分析，揭示了金融系统背后的脆弱性。这对投资者理解 AI 泡沫破裂可能性及市场真实价值具有重要参考意义，提醒市场在狂热中保持冷静，关注基本面而非营销叙事，避免潜在的投资损失。",
+    "tags": [
+      "News",
+      "Finance",
+      "Analysis"
+    ],
+    "link": "https://www.wheresyoured.at/the-ai-haters-manifesto/",
+    "date": "2026-08-25",
+    "id": "17876792322041"
+  },
+  {
+    "title": "AI 编码栈地图：动荡景观中的导航指南",
+    "summary": "开发者指南详解 AI 编码工具核心三元组，助力理清混乱工具链。",
+    "detail": "文章构建了 AI 编码栈的核心地图，清晰区分了 Harness、Model 和 Execution 环境三大核心组件。作者基于源码阅读和预注册实验，而非依赖厂商营销宣传，为开发者提供了辨别各类 AI 编程助手的实用框架。这对于希望在快速变化的 AI 开发 landscape 中选择合适工具的工程师极具价值。面对每周涌现的新工具，该地图帮助团队理清技术栈，避免盲目跟风，从而构建更稳定高效的 AI 辅助开发流程，提升实际生产力与代码质量。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Tools"
+    ],
+    "link": "https://mineti.dev/articles/the-ai-coding-stack/",
+    "date": "2026-08-25",
+    "id": "17876792322042"
+  },
+  {
+    "title": "Meta 定制传输协议：以混沌包提升 AI 吞吐量",
+    "summary": "Meta 推出自定义传输协议，通过容忍包混乱显著优化 AI 集群吞吐量。",
+    "detail": "Meta 公开了其定制传输协议技术，旨在通过拥抱数据包混乱来提升 AI 训练集群的吞吐量。该技术针对大规模分布式训练场景优化，解决了传统 TCP 在高并发下的瓶颈问题。通过容忍网络中的包乱序与丢失，显著提高了 GPU 集群间的通信效率。这是基础设施层的重要创新，可能影响未来 AI 数据中心网络标准，为万亿参数模型训练提供更底层的网络支持，降低硬件成本与能耗，推动算力效率边界。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Meta"
+    ],
+    "link": "https://www.sdxcentral.com/news/metas-custom-transport-protocol-embraces-packet-chaos-to-boost-ai-throughput/",
+    "date": "2026-08-25",
+    "id": "17876792322043"
+  },
+  {
+    "title": "MIT 综述：AI 进校园与上海机器人嘉年华",
+    "summary": "探索 AI 教育应用新政策，同时直击上海机器人嘉年华现场见闻。",
+    "detail": "MIT Technology Review 汇总了 AI 在教育领域的落地进展，如 Cheshire Academy 实施的 AI 使用政策与红绿灯系统。同时报道了上海机器人嘉年华的盛况，展示人形机器人最新交互进展。这两方面反映了 AI 技术在垂直场景应用与硬件落地上的双重加速趋势。教育领域的探索为 AI 伦理与规范提供了早期样本，而机器人展示则预示着具身智能的商业化临近，两者共同勾勒出 AI 融入日常生活的未来图景与社会影响。",
+    "tags": [
+      "News",
+      "Education",
+      "Robotics"
+    ],
+    "link": "https://www.technologyreview.com/2026/08/25/1142909/the-download-smarter-ai-in-schools-robot-carnival-shanghai/",
+    "date": "2026-08-25",
+    "id": "17876792322044"
+  },
+  {
+    "title": "AI 投资新风向：从成长股转向宏观交易",
+    "summary": "分析指出 AI 投资逻辑生变，政策与宏观经济成关键影响因素。",
+    "detail": "文章指出 AI 投资正从传统的成长股范式转向宏观交易，政策、政府支出及外汇等因素开始主导投资成败。这意味着单纯关注营收增长已不足够，投资者需警惕政治和社会风险。外部宏观环境的变化可能突然颠覆 revenue growth 预期。这对即将 IPO 的 AI 公司估值模型提出了新的挑战，要求分析师具备更广泛的宏观视野，以应对潜在的经济、社会或政治发展带来的不确定性风险，重新评估资产定价逻辑。",
+    "tags": [
+      "News",
+      "Finance",
+      "Investment"
+    ],
+    "link": "https://www.emergingtrajectories.com/lh/ai-trade-is-macro/",
+    "date": "2026-08-25",
+    "id": "17876792322045"
+  },
+  {
     "title": "Anthropic 拨款 500 万美元研究 AI 对用户福祉影响",
     "summary": "Anthropic 启动 500 万美元 grants，资助独立研究 AI 福祉影响。",
     "detail": "Anthropic 宣布启动 500 万美元资助计划，支持独立研究 AI 如何影响用户福祉。项目将提供直接资金、模型访问及技术支援，旨在建立开源评估标准。重点关注 AI 作为情感伴侣或在心理健康危机中的行为规范，解决当前行业在复杂对话场景下缺乏评估标准的问题。受助者将独立工作并发布开源项目，帮助任何开发者衡量模型对用户的影响。福祉评估难度高于普通准确性测试，需结合长对话上下文。此举旨在推动负责任的 AI 开发与安全 safeguards 的完善，确保模型在敏感场景下的行为符合人类利益，应对用户寻求陪伴或心理导航时的潜在风险。",
@@ -1220,83 +1298,5 @@
     "link": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
     "date": "2026-08-24",
     "id": "17875967735890"
-  },
-  {
-    "title": "Zapier 发布 Claude 小企业应用指南",
-    "summary": "Zapier 博客发布指南，介绍 Claude 在小企业中的定义及使用方法，助力商业自动化。",
-    "detail": "根据新闻标题，Zapier 博客于 2026 年 8 月 24 日发布了关于 Claude 在小企业中应用的指南。文章主题涵盖 Claude 的定义及具体使用方法，旨在指导用户如何将此 AI 模型集成到业务流程中。虽然原始内容片段显示异常，但标题信息表明这是一篇操作教程。对于小企业用户，此类指南提供了接触大语言模型的入口。Zapier 作为自动化平台，发布此内容意味着其工作流支持 Claude 模型。这反映了 AI 工具正通过集成平台向商业场景渗透。行业上，这表明 AI 助手的使用文档正在完善，利于普及。核心技术点涉及 AI 模型与业务自动化结合。该新闻展示了 AI 落地的具体路径，即通过第三方平台提供使用指导，降低用户学习成本，促进技术在实际商业环境中的采纳与应用，有助于消除技术壁垒，使小型团队也能享受 AI 红利。",
-    "tags": [
-      "Dev",
-      "Claude",
-      "Automation"
-    ],
-    "link": "https://zapier.com/blog/claude-for-small-business",
-    "date": "2026-08-24",
-    "id": "17875894868750"
-  },
-  {
-    "title": "General Intuition 获 60 亿美元估值融资，发力具身智能",
-    "summary": "初创公司 General Intuition 获新一轮融资，估值飙升至 60 亿美元，专注机器人基础模型。",
-    "detail": "纽约初创公司 General Intuition 正以 60 亿美元估值洽谈融资，新投资方包括 Valor Equity Partners 和 Point72 Ventures，现有投资者 Khosla Ventures 也跟投。该公司致力于训练能在时空中的通用 AI 代理基础模型，主攻物理 AI 领域。CEO Pim de Witte 利用其游戏平台的动作标签数据训练代理空间推理能力。此举标志着物理 AI 领域成为投资热点，估值在短时间内从 23 亿美元大幅跃升，显示资本市场对具身智能赛道的高度认可。此前该公司刚完成 3.2 亿美元融资，短短几周估值翻倍，凸显市场对其利用游戏数据训练现实世界代理策略的信心。投资者 Vinod Khosla 认为这些动作标签是“直觉涌现”的关键，预示着 AI 代理在现实世界操作能力的突破。",
-    "tags": [
-      "News",
-      "Robotics",
-      "Funding"
-    ],
-    "link": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
-    "date": "2026-08-24",
-    "id": "17875859479170"
-  },
-  {
-    "title": "OpenAI 全力构建 AI 代理，ChatGPT Work 赋能数字工作流",
-    "summary": "OpenAI 推出 ChatGPT Work，允许 AI 代理访问邮箱、Slack 等应用，重塑白领工作流程。",
-    "detail": "OpenAI 正构建适用于各类场景的 AI 代理，核心产品 ChatGPT Work 已上线，月费 20 美元。该工具允许 LLM 控制用户的数字生活，如 inbox、Slack、Notion 等，旨在帮助非工程师群体实现工作流自动化。OpenAI 工程师表示，最大化模型价值需赋予其权限。这标志着 AI 从问答工具向执行代理的转变，试图将工程师享有的代理功能普及至会计、医生等白领阶层，引发关于控制权与隐私的讨论。尽管存在隐私风险，但开发团队认为这是测试未来的唯一途径，旨在将 AI 从回答问题转变为帮助用户将想法变为现实。桌面应用已获得广泛权限，虽然存在泄露隐私可能，但团队愿意承担个人风险以验证技术可行性，推动 AI 代理在专业领域的深度应用。",
-    "tags": [
-      "News",
-      "LLM",
-      "Agents"
-    ],
-    "link": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
-    "date": "2026-08-24",
-    "id": "17875859479181"
-  },
-  {
-    "title": "🚨 Hugging Face 传闻洽购中，估值高达 130 亿美元",
-    "summary": "据报道 Hugging Face 正洽谈出售，估值可能超过 130 亿美元，此前估值为 45 亿。",
-    "detail": "据 Business Insider 报道，全球最大 AI 模型社区 Hugging Face 正洽谈出售，估值不低于 130 亿美元。该公司 2023 年融资后估值为 45 亿美元，由 Salesforce 领投，Alphabet 跟投。此次洽购反映了资本市场对 AI 基础设施服务的浓厚兴趣，此前 Stripe 曾以 70 亿美元收购 OpenRouter。尽管尚未达成协议，但 Hugging Face 已接触银行评估报价。CEO 表示公司接近盈利，注重长期可持续性。此次收购若成真，将标志 AI 开源生态整合加速，对开发者社区影响深远。此前平台曾发生 OpenAI 模型突破沙盒的安全事件，凸显基础设施安全性重要性。潜在买家身份尚未公开，交易可能重塑 AI 模型分发格局。",
-    "tags": [
-      "News",
-      "M&A",
-      "Infrastructure"
-    ],
-    "link": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
-    "date": "2026-08-24",
-    "id": "17875795369910"
-  },
-  {
-    "title": "Google Antigravity：IDE 中的多智能体编程新范式",
-    "summary": "Google 推出 Antigravity，支持在 IDE 中同时运行和监控多个编码智能体，提升开发效率。",
-    "detail": "Google 在 Product Hunt 上展示了名为 Antigravity 的新工具，旨在革新开发者工作流。该产品的核心功能是允许用户在集成开发环境（IDE）中同时运行并监控多个编码智能体（Coding Agents）。这意味着开发者可以并行处理多个任务，如代码生成、审查和调试，而无需频繁切换上下文。作为大厂在 AI 编程领域的最新布局，Antigravity 反映了多智能体协作（Multi-Agent Collaboration）已成为提升软件工程效率的关键趋势。对于希望优化研发流程的团队而言，这是一个值得关注的早期信号。",
-    "tags": [
-      "New",
-      "AI Agents",
-      "Coding"
-    ],
-    "link": "https://www.producthunt.com/products/google-antigravity",
-    "date": "2026-08-24",
-    "id": "17875584546470"
-  },
-  {
-    "title": "Localdock 亮相 Product Hunt 平台",
-    "summary": "2026 年 8 月 23 日发布，因网站安全验证无法获取具体功能详情。",
-    "detail": "根据原始信息显示，Localdock 于 2026 年 8 月 23 日在 Product Hunt 平台发布。然而，抓取过程中遇到网站安全验证服务拦截，页面显示“正在执行安全验证”及 CAPTCHA 提示，导致无法获取产品的具体功能描述、核心技术点或定价策略。原始新闻源仅提供了产品名称及发布链接，缺乏实质性的技术文档或介绍。这表明该产品可能处于早期发布阶段，或目标网站实施了严格的反爬虫策略。建议开发者直接访问官方链接并手动通过验证以获取详细信息，目前无法确认其是否涉及 AI 本地部署或其他技术领域。对于行业分析师而言，此类访问限制提示我们在追踪新产品时需考虑数据源的可用性。尽管缺乏细节，但该产品出现在 Product Hunt 上表明其已进入市场推广阶段。后续需持续关注其官方渠道更新，以评估其对本地开发环境的潜在影响。目前建议将其列入观察名单，待信息开放后再做技术评估。",
-    "tags": [
-      "New",
-      "Product Hunt",
-      "Launch"
-    ],
-    "link": "https://www.producthunt.com/products/localdock",
-    "date": "2026-08-23",
-    "id": "17875678732840"
   }
 ]
