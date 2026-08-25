@@ -14,3 +14,8 @@
 **Vulnerability:** The "Submit Tool" modal allowed any string in the "Link" field, enabling XSS via `javascript:` URIs if approved or stored in local storage.
 **Learning:** Frontend forms feeding into a database/storage must validate data type and format (Protocol Whitelisting) before persistence, even if there is a manual approval process.
 **Prevention:** Enforce strict URL protocol validation (`http:`, `https:`) at the input stage.
+
+## 2025-01-20 - SSRF TOCTOU Vulnerability
+**Vulnerability:** The previous `safe_get` implementation validated the IP address but then performed a new DNS lookup during the actual request, exposing a Time-of-Check Time-of-Use (TOCTOU) vulnerability where DNS rebinding could point to a private IP.
+**Learning:** Validating a hostname's IP is insufficient if the subsequent connection does not use that *exact* same IP. Python's `requests` library does not natively support IP pinning while preserving Host headers easily.
+**Prevention:** Implement a `safe_dns_request` context manager that patches `socket.getaddrinfo` to return the previously validated IP, ensuring the check and the use operate on the same address.
