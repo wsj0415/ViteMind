@@ -1,5 +1,83 @@
 [
   {
+    "title": "OpenAI 自研芯片 Jalapeño 基准测试曝光",
+    "summary": "OpenAI 公布 Jalapeño 芯片基准，推理性能显著超越现有方案。",
+    "detail": "OpenAI 在 Hot Chips 会议上分享了自研芯片 Jalapeño 的细节。基准测试显示，其在每用户 token 数和每千瓦吞吐量上均优于当前最先进的推理处理器（包括 Nvidia Blackwell）。该芯片旨在最小化预填充和通信阶段的延迟，计划于 2026 年底小规模部署。这标志着 OpenAI 向全栈硬件优化迈进，可能大幅降低推理成本。OpenAI 硬件负责人 Richard Ho 表示，该芯片在服务大量客户时效率极高，同时保持低延迟。与 Broadcom 合作开发，采用全栈方法优化推理流程。未来将作为多代平台发展，整合模型与内存技术，构建垂直生态。",
+    "tags": [
+      "News",
+      "Hardware",
+      "OpenAI"
+    ],
+    "link": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+    "date": "2026-08-25",
+    "id": "17876692183890"
+  },
+  {
+    "title": "2026 AI 评估工程师薪资报告发布",
+    "summary": "调查显示 AI 评估岗位中位薪资达 32 万美元，后训练领域最高。",
+    "detail": "最新报告分析了 219 个公开薪资的 AI 评估职位。中位薪资区间为 20 万至 32 万美元，最高可达 85 万美元。其中“后训练与强化学习”岗位薪资最高，中位区间达 22 万至 40 万美元。OpenAI、Thinking Machines Lab 等公司提供的薪资范围最广。数据表明市场对高质量 AI 评估及对齐人才的需求旺盛，薪资溢价明显。远程友好职位占相当比例。不同领域薪资差异显著，后训练领域比评估工具开发高出约 10.5 万美元。求职者需注意职位具体方向以获得更高报酬。报告每周更新，反映市场动态变化，为从业者提供参考。",
+    "tags": [
+      "News",
+      "Market",
+      "Salary"
+    ],
+    "link": "https://aievalsjobs.com/ai-evals-salary-report/",
+    "date": "2026-08-25",
+    "id": "17876692183891"
+  },
+  {
+    "title": "AI 编程削弱静态类型语言优势",
+    "summary": "文章指出 AI 生成代码时，静态类型的错误捕获优势不再明显。",
+    "detail": "文章深入探讨了 AI 编码对编程语言选择的影响。传统观点认为静态类型语言能通过编译器提前捕获错误，适合大型项目。然而，AI 模型不具备人类的情感偏好，其核心成本在于 token 生成量。复杂的类型定义会增加 token 消耗及出错几率。实验显示，AI 能快速修正编译错误，使得类型系统的防护作用减弱。这暗示未来 AI 驱动的开发可能更倾向于简洁的动态语言，以优化生成效率和成本，重新定义最佳编程实践。开发者需重新评估类型系统在 AI 辅助编程中的实际价值，关注 token 经济性。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "LLM"
+    ],
+    "link": "https://yyhh.org/blog/2026/08/ai-coding-has-erased-the-supposed-advantage-of-statically-typed-languages/",
+    "date": "2026-08-25",
+    "id": "17876692183892"
+  },
+  {
+    "title": "新工具将网站转为 AI 代理 CLI",
+    "summary": "Show HN 项目实现网站到 CLI 转换，token 消耗减少 142 倍。",
+    "detail": "这是一个面向 AI 代理的开发工具，能将任意网站转换为命令行接口（CLI）。相比直接处理 HTML，该方法能减少 142 倍的 token 消耗，显著降低 API 成本并提高代理处理效率。这对于构建能够高效浏览和操作网页的自主 AI 代理具有重要意义，解决了当前代理在处理复杂 DOM 结构时的上下文窗口瓶颈问题。开源项目旨在优化 Agent 与 Web 交互的底层效率，减少不必要的上下文噪音。开发者可利用此工具降低运行成本，提升 Agent 在复杂网页环境中的任务完成率，简化集成流程。",
+    "tags": [
+      "New",
+      "Dev",
+      "Agents"
+    ],
+    "link": "https://github.com/only-cli/oc",
+    "date": "2026-08-25",
+    "id": "17876692183893"
+  },
+  {
+    "title": "AI 助手需适应对话节奏以提升体验",
+    "summary": "研究建议 AI 应根据用户认知状态调整回复长度与节奏。",
+    "detail": "文章指出当前 AI 助手常因回复过长而打断用户思维流。理想的认知伴侣应具备自适应对话节奏的能力，根据用户的认知复杂度调整回复长度。当用户处于低能量或模糊问题状态时，AI 应避免过早提供详尽解决方案，而是通过迭代假设和观察来引导用户，从而提供更流畅的人机协作体验。人类能根据情境调整对话节奏，AI 也应具备此能力。短提示词不应触发长文本回复，以免增加认知负担。建议开发者优化模型响应策略，实现更人性化的交互节奏，提升用户满意度，促进深度协作。",
+    "tags": [
+      "Dev",
+      "UX",
+      "Interaction"
+    ],
+    "link": "https://woventhought.substack.com/p/ai-assistants-need-adaptive-conversational",
+    "date": "2026-08-25",
+    "id": "17876692183894"
+  },
+  {
+    "title": "Unbox-AI 可视化 AI 追踪工具",
+    "summary": "Show HN 新品，像 JavaScript bundle 一样可视化 AI 追踪。",
+    "detail": "这是一款新的开发者工具，旨在可视化 AI 上下文和追踪信息。类似于 JavaScript bundle 的分析方式，它帮助开发者理解 AI 模型内部的调用链和上下文使用情况。对于调试复杂的 AI 应用和优化 token 使用场景，该工具提供了直观的界面，有助于提升 AI 工程化的透明度和可维护性。开源项目支持 AI SDK DevTools，方便开发者实时监控。通过可视化追踪，团队能更快定位性能瓶颈，优化推理路径，降低生产环境中的调试难度，加速应用迭代与部署过程。",
+    "tags": [
+      "New",
+      "Dev",
+      "Tools"
+    ],
+    "link": "https://github.com/tester-army/unbox-ai",
+    "date": "2026-08-25",
+    "id": "17876692183895"
+  },
+  {
     "title": "前沿 AI 实验室迎来路由革命，Stripe 收购 OpenRouter",
     "summary": "企业转向 AI 路由降低成本，Stripe 斥资超 80 亿美元收购 OpenRouter。",
     "detail": "随着企业寻求更安全经济的 AI 使用方式，模型路由技术正在兴起，旨在为每个查询匹配最高效模型。Stripe 同意以超 80 亿美元收购 OpenRouter，该平台截至 5 月拥有 800 万用户和 400 个模型。Meta 也在开发竞争对手 Switchboard 以降低自身成本。路由技术允许将简单查询匹配给小型模型，复杂任务才调用昂贵的前沿模型，这可能抑制昂贵前沿模型的使用率，改变 AI 经济格局。即使前沿实验室也推出了模型选择器。路由公司称启动极快，开源路由公司 TrustedRouter 演示可在 30 秒内使用 DeepSeek 模型。这种趋势标志着 AI 基础设施层的重要转变，企业可动态控制成本与性能平衡，不再盲目依赖单一昂贵模型，而是构建混合模型架构以优化运营效率。",
@@ -1220,83 +1298,5 @@
     "link": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
     "date": "2026-08-23",
     "id": "17875129239430"
-  },
-  {
-    "title": "员工因 AI 政策缺失辞职，引发职场 AI 伦理关注",
-    "summary": "AFL 员工因公司缺乏 AI 政策及数据安全隐患辞职，呼吁关注职场 AI 伦理与员工权益。",
-    "detail": "随着雇主将 AI 嵌入日常系统且员工无法拒绝，法律监管尚未跟上。澳大利亚 AFL 员工 Boyle 因公司缺乏 AI 政策及数据安全隐患辞职，希望引发关注。内部调查显示，35% 员工对职场 AI 应用感到不适，超半数不知晓公司 AI 政策。Boyle 曾向管理层质疑数据保护及岗位安全立场，并报告了使用 AI 处理儿童个人信息的风险。此事件凸显了 AI 治理、隐私保护及员工权益在技术快速落地过程中的缺失。Boyle 的离职不仅是对单一公司的抗议，更反映了劳动力市场对 AI 无序扩张的担忧。在法律滞后的背景下，企业需平衡效率与伦理风险，建立透明政策以保障员工知情权与数据安全，避免技术滥用导致信任危机。",
-    "tags": [
-      "News",
-      "AI Ethics",
-      "Workplace"
-    ],
-    "link": "https://www.smh.com.au/technology/this-ai-refuser-quit-her-dream-job-and-hopes-others-follow-20260818-p60pdu.html",
-    "date": "2026-08-23",
-    "id": "17875098344420"
-  },
-  {
-    "title": "Flock CEO 呼吁隐私与安全妥协",
-    "summary": "监控公司 Flock 面临滥用指控，CEO 呼吁寻找隐私与安全的平衡点。",
-    "detail": "**背景**：Flock Safety 因摄像头及车牌识别技术被警察滥用追踪前任而面临公众强烈反对，华盛顿邮报已识别 46 起滥用案例，包括监视伴侣。**核心事件**：CEO Garrett Langley 在接受 Fox News 采访时称，国家需在隐私与安全间找到“妥协”，而非优先单一选项。他虽向受害者道歉，但坚持公司只是揭露问题而非制造滥用。**影响**：此事凸显 AI 监控技术在执法层面的伦理风险，可能推动相关监管政策出台，影响行业合规成本及公众信任度，成为左右两派共同关注的政治议题。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Surveillance"
-    ],
-    "link": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
-    "date": "2026-08-23",
-    "id": "17875056761900"
-  },
-  {
-    "title": "用户耗资 266 美元利用 AI 模型破解平板",
-    "summary": "科技博主花费 266 美元调用四个 AI 模型，成功获取 Amazon 平板 root 权限。",
-    "detail": "**背景**：Amazon Fire 平板频繁自动关机，用户试图获取控制权但受限于 protected packages，官方无 root 方法。**过程**：博主利用 Kimi K3、GLM-5.2/5.3 及 Claude 模型，耗时数月诊断并找到 exploit，总花费 266 美元，其中 GLM-5.3 订阅费 80 美元。**技术点**：展示了 LLM 在信息安全领域的辅助能力，GLM-5.3 一天内完成任务。**启示**：AI 已成为强大的技术辅助工具，但也暴露了设备安全漏洞及 AI 辅助黑客行为的潜在风险，提示厂商需加强端侧安全防御，同时体现开源模型在特定任务上的高效性。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Security"
-    ],
-    "link": "https://ericpardee.github.io/fire-hd-ownership/",
-    "date": "2026-08-23",
-    "id": "17875056761901"
-  },
-  {
-    "title": "白皮书建议建立自动化 AI 科学研究所",
-    "summary": "新白皮书提议建立 AI 科学研究所，利用大模型加速基础科学发现。",
-    "detail": "**背景**：现代学术体系依赖人工同行评审，导致科学发现停滞，信息噪音巨大，无法识别范式转移理论。**提案**：白皮书建议创建\"AI 科学分析研究所”，利用 LLM 作为“过滤器”，结合自动化实验室验证理论，实现自动科学验证。**核心价值**：旨在消除人类瓶颈，系统性扫描历史及当代理论，验证范式转移理论。**影响**：若实施将重构科研流程，加速物理等基础学科突破，引发科研范式变革，具有地缘政治及经济战略必要性，是解决科学停滞的唯一可扩展方案。",
-    "tags": [
-      "News",
-      "Research",
-      "AI for Science"
-    ],
-    "link": "https://zenodo.org/records/22067050",
-    "date": "2026-08-23",
-    "id": "17875056761902"
-  },
-  {
-    "title": "BulkPublish 推出免费 AI 社媒代理发布工具",
-    "summary": "新工具支持通过 AI 代理一次性 compose 并发布到 15 个社交平台。",
-    "detail": "**功能**：支持 Facebook、X、TikTok 等 15 个渠道，可通过 UI 或 Claude Code 直接发布，集成主流社交平台。**特点**：一次编写，多平台定制，支持调度，专为人类及 AI 代理设计，实现 compose once publish everywhere。**价值**：降低了多平台运营门槛，展示了 AI Agent 在工作流自动化中的实际应用，适合营销人员及开发者提效，免费策略有助于快速获客，体现 AI 在内容分发领域的渗透。",
-    "tags": [
-      "New",
-      "Agent",
-      "Marketing"
-    ],
-    "link": "https://www.bulkpublish.com/",
-    "date": "2026-08-23",
-    "id": "17875056761904"
-  },
-  {
-    "title": "Higgsfield 发布 AI 生成科幻短片 Oneiric",
-    "summary": "Higgsfield AI 推出开源 AI 科幻短片，展示视频生成技术进展。",
-    "detail": "**内容**：Higgsfield Originals 发布 2026 年 AI 科幻短片《Oneiric》，展示 AI 视频生成及叙事能力，获数十万播放。**技术**：虽链接暂时受限，但代表生成式视频前沿，由 Higgsfield AI 制作，体现开源视频模型进展。**影响**：体现 AI 在创意内容生产领域的成熟度，为影视制作提供新范式，吸引开发者关注开源模型，显示 AI 视频已从实验走向实际内容创作，降低电影制作门槛。",
-    "tags": [
-      "New",
-      "Video",
-      "Generative"
-    ],
-    "link": "https://www.youtube.com/watch?v=aAg9iDh9_BQ",
-    "date": "2026-08-23",
-    "id": "17875056761905"
   }
 ]
