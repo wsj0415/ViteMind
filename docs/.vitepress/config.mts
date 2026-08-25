@@ -9,6 +9,13 @@ export default defineConfig({
   description: "UNCOVER THE FUTURE OF AI",
   head: [
     [
+      'meta',
+      {
+        'http-equiv': 'Content-Security-Policy',
+        content: "default-src 'none'; base-uri 'self'; form-action 'self'; font-src 'self' data:; img-src 'self' data: https://www.google.com https://www.google-analytics.com https://analytics.google.com https://api.iconify.design; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; connect-src 'self' https://*.supabase.co https://www.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net https://formspree.io; upgrade-insecure-requests;"
+      }
+    ],
+    [
       'script',
       { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-95Q2GYDF2M' }
     ],
