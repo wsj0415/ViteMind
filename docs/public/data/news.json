@@ -1,5 +1,70 @@
 [
   {
+    "title": "OpenAI 发布自研推理芯片 Jalapeño 首批测试结果",
+    "summary": "OpenAI 自研芯片 Jalapeño 能效显著提升，延迟降低最高 3.6 倍。",
+    "detail": "OpenAI 公布了其首款定制推理芯片 Jalapeño 的初步测试结果。数据显示，该芯片在峰值吞吐量下每瓦特 AI 工作量提升 1.5 至 1.9 倍，端到端延迟降低 1.7 至 3.6 倍。对于高交互工作负载，性能提升 2.1 至 4.1 倍。Jalapeño 展现了全栈优势，支持 GPT-OSS 120B、DeepSeek R1 及 Kimi K2.5 等模型。OpenAI 旨在通过硬件优化降低 AGI 成本，确保 AI 惠及人类，架构在吞吐与延迟间取得平衡。客户将获得更快响应及更可靠访问，随着需求增长，这种全栈设计包括模型、产品、服务软件及芯片的协同优化，标志着推理效率的重要里程碑。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Hardware"
+    ],
+    "link": "https://openai.com/index/jalapeno-first-results",
+    "date": "2026-08-25",
+    "id": "17877004454730"
+  },
+  {
+    "title": "代码托管平台 Codeberg 更新条款限制 AI 生成内容",
+    "summary": "Codeberg 修改服务条款，拒绝 predominantly AI 生成的仓库及加密货币项目。",
+    "detail": "开源代码托管平台 Codeberg 更新了服务条款，明确限制 predominantly 由 LLM 生成的内容托管，并禁止加密货币项目。此举旨在保护自由开源软件（FLOSS）commons 免受 AI 生成代码泛滥的影响。官方提供了完整变更对比及博客文章说明，反映了社区对 AI 生成内容质量和版权问题的担忧，可能引发其他平台跟进。开发者需注意合规，纯 AI 生成仓库将被拒绝，这代表了开源社区对维护代码真实性和人类贡献价值的坚定立场，影响未来托管策略。",
+    "tags": [
+      "News",
+      "OpenSource",
+      "Policy"
+    ],
+    "link": "https://codeberg.org/Codeberg/org/compare/17bdb39b0c1ecd0e423f3ba592650ce57fcdfbf5..71149c7fc95ccfeae36109b5cddca339e4aa1473?files=TermsOfUse.md",
+    "date": "2026-08-25",
+    "id": "17877004454731"
+  },
+  {
+    "title": "演示文稿初创公司 Gamma 收购设计 startup Lica",
+    "summary": "Gamma 收购获 Accel 支持的 Lica，旨在建立设计研究实验室。",
+    "detail": "演示文稿生成平台 Gamma 宣布收购设计初创公司 Lica。Lica 创始团队将领导新设计研究实验室。Lica 最初可将截图转为演示视频，曾获 400 万美元融资。此次收购结合了 Gamma 的分发能力与 Lica 在视频和设计 AI 模型的前沿研究，旨在探索除演示文稿外的更多视觉沟通格式，双方均获 Accel 支持，愿景一致。Gamma 将继续聚焦演示构建，但新部门将探索图像生成等格式，利用 Lica 在电商营销视频的经验，加速视觉沟通 AI 的普及与应用落地。",
+    "tags": [
+      "News",
+      "M&A",
+      "Design"
+    ],
+    "link": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/",
+    "date": "2026-08-25",
+    "id": "17877004454732"
+  },
+  {
+    "title": "开源 AI 代理 Hermes Agent 支持多平台持久记忆",
+    "summary": "开源代理 Hermes 支持 Telegram 等多平台，具备持久记忆与沙盒功能。",
+    "detail": "Nous Research 推出开源 AI 代理 Hermes Agent，支持 Telegram、Slack、Discord 等多平台连接。核心功能包括持久记忆、自然语言调度及隔离沙盒（支持 Docker、SSH 等五种后端）。它允许创建子代理处理任务，具备 Web 搜索及多模型推理能力。旨在提供零上下文成本的管道，适合开发者构建个性化自动化工作流，记忆永不遗忘。通过隔离沙盒确保安全性，支持 Python RPC 脚本，用户可跨平台无缝使用单一代理，实现报告生成及备份等任务的无人值守自动化，成长型架构适应不同需求。",
+    "tags": [
+      "New",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://hermes-agent.nousresearch.com",
+    "date": "2026-08-25",
+    "id": "17877004454733"
+  },
+  {
+    "title": "初学者 AI 家庭实验室构建指南深度解析",
+    "summary": "深度解析本地 AI 部署，涵盖硬件、模型与软件 harness 三要素。",
+    "detail": "文章深入探讨了初学者如何构建 AI 家庭实验室。指出本地 AI 可行性已不再是问题，关键在于需求匹配。系统包含硬件、模型、Harness 三部分。强调硬件随时间更具能力，而非过时。指南覆盖了内存三难困境及软件层优化，提及 ASUS GX10 等硬件，帮助开发者避免浪费资金，实现高效本地推理，手机亦可运行有用模型。理解这三部分及其约束可避免构建令人沮丧的系统，软件层是初学者常忽视的关键，本地模型速度更快，改变了工作方式，硬件投资具有长期价值。",
+    "tags": [
+      "Dev",
+      "LocalAI",
+      "Tutorial"
+    ],
+    "link": "https://augmentedmind.substack.com/p/ai-home-lab-for-beginners",
+    "date": "2026-08-25",
+    "id": "17877004454734"
+  },
+  {
     "title": "OpenAI 公布自研推理芯片 Jalapeño 性能",
     "summary": "OpenAI 分享自研芯片 Jalapeño 首批测试结果，能效优于商业系统。",
     "detail": "OpenAI 披露了全栈智能战略，强调系统整体进步的重要性。重点介绍了首款定制推理芯片 Jalapeño 的性能数据。在 InferenceX 基准测试中，该芯片在每千瓦峰值吞吐量及令牌延迟方面均优于现有商业系统，支持 GPT-OSS 120B 等模型。此举标志着 OpenAI 正通过整合数据中心、芯片、模型及产品层，构建垂直一体化的算力体系，以降低推理成本并提升效率，未来还将继续迭代下一代硅片，增强对 workload 的控制力。",
@@ -50,19 +115,6 @@
     "link": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
     "date": "2026-08-25",
     "id": "17876969650343"
-  },
-  {
-    "title": "代码托管平台 Codeberg 更新条款限制 AI 生成内容",
-    "summary": "Codeberg 修改服务条款，拒绝 predominantly AI 生成的仓库及加密货币项目。",
-    "detail": "开源代码托管平台 Codeberg 更新了服务条款，明确限制 predominantly 由 LLM 生成的内容上传，并禁止加密货币项目。此举旨在保护自由开源软件（FLOSS） Commons 免受 AI 生成代码泛滥的影响。平台认为大量 AI 生成内容可能降低代码库质量并引发版权争议。这一政策反映了开发者社区对 AI 生成代码质量的担忧，以及对维护人类主导的开源生态的坚持，可能引发其他平台效仿。",
-    "tags": [
-      "News",
-      "Policy",
-      "OpenSource"
-    ],
-    "link": "https://codeberg.org/Codeberg/org/compare/17bdb39b0c1ecd0e423f3ba592650ce57fcdfbf5..71149c7fc95ccfeae36109b5cddca339e4aa1473?files=TermsOfUse.md",
-    "date": "2026-08-25",
-    "id": "17876969650344"
   },
   {
     "title": "华盛顿邮报：AI 写作检测器准确性受质疑",
@@ -1246,57 +1298,5 @@
     "link": "https://www.supermicro.com/en/accelerators/nvidia/super-ai-station",
     "date": "2026-08-25",
     "id": "17876327410323"
-  },
-  {
-    "title": "AI 算法发现室温超导体候选材料",
-    "summary": "Zenodo 发布研究成果，AI 筛选出 C2H2B6Be 作为室温超导体潜在候选者。",
-    "detail": "研究人员通过 AI 算法筛选出一种名为 C2H2B6Be 的材料作为室温超导体候选者，相关软件与数据已在 Zenodo 开源。若经实验验证成功，这将极大降低能源传输损耗并革新计算硬件散热。虽然目前仅为候选阶段，但展示了 AI for Science 在材料发现领域的巨大潜力，可能加速物理与化学领域的突破性进展。",
-    "tags": [
-      "Dev",
-      "AI for Science",
-      "Research"
-    ],
-    "link": "https://zenodo.org/records/22073633",
-    "date": "2026-08-25",
-    "id": "17876327410324"
-  },
-  {
-    "title": "IBM 发布双 ISA 处理器及 AI 加速芯片",
-    "summary": "IBM 在 Hot Chips 2026 展示支持 Arm 架构及 AI 推理加速的新处理器。",
-    "detail": "在 Hot Chips 2026 大会上，IBM 详细介绍了其未来的 IBM Z 和 LinuxONE 处理器。核心亮点包括支持 z/Architecture 和 Arm AArch64 的双 ISA 内核，以及专为大型企业推理工作负载设计的第二代片上 AI 加速器。IBM  distinguished engineer Christian Zoellin 指出，全球约 70% 的交易量经过 IBM Z 大型机。此举旨在将 Arm 生态系统的新应用引入大型机，巩固其作为可靠性基础的地位，同时增强 AI 推理能力，连接历史传承与现代 AI 能力。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Enterprise AI"
-    ],
-    "link": "https://www.servethehome.com/ibm-z-and-linuxone-dual-isa-processor-and-ai-acceleration-at-hot-chips-2026/",
-    "date": "2026-08-25",
-    "id": "17876267702470"
-  },
-  {
-    "title": "PeerPixel 推出社区驱动免费 AI 绘图",
-    "summary": "基于 P2P 闲置算力的免费 AI 图像生成平台，无需数据中心。",
-    "detail": "PeerPixel 是一个完全免费的 AI 图像生成平台，其创新之处在于没有数据中心。它采用社区互助模式，用户贡献闲置显卡算力为他人渲染图像，以此赚取“像素”积分。该项目由个人开发者 Julius 创建，无投资者压力，确保了服务的免费性和去中心化特性。用户保留渲染价值的 90%，无人管理队列，完全依靠社区互助。这为 AI 绘图提供了新的可持续模式，实现了真正的免费且无卡片绑定。",
-    "tags": [
-      "New",
-      "Image Generation",
-      "P2P"
-    ],
-    "link": "https://peerpixel.cc/",
-    "date": "2026-08-25",
-    "id": "17876267702471"
-  },
-  {
-    "title": "gitwhy 工具追踪 AI 代码提交意图",
-    "summary": "开源 CLI 工具，自动记录 AI 生成代码的意图与来源信息。",
-    "detail": "gitwhy 是一个正在开发中的 Intent-aware Git CLI 工具，旨在解决 AI 生成代码的可追溯性问题。它包装了 gh 命令，自动将 AI 编写每个提交的原因存储在 Git-notes 中。目前处于 Beta 阶段，欢迎通过 GitHub Issues 反馈。这对于需要审计代码来源、理解 AI 辅助编程意图的开发团队至关重要，增强了代码库的透明度和合规性，是 AI 时代代码版本管理的重要补充工具。",
-    "tags": [
-      "Dev",
-      "Git",
-      "Code Provenance"
-    ],
-    "link": "https://github.com/surajsrivastav/gitwhy",
-    "date": "2026-08-25",
-    "id": "17876267702472"
   }
 ]
