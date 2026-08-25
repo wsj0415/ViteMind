@@ -1,5 +1,70 @@
 [
   {
+    "title": "IBM 发布双 ISA 处理器及 AI 加速芯片",
+    "summary": "IBM 在 Hot Chips 2026 展示支持 Arm 架构及 AI 推理加速的新处理器。",
+    "detail": "在 Hot Chips 2026 大会上，IBM 详细介绍了其未来的 IBM Z 和 LinuxONE 处理器。核心亮点包括支持 z/Architecture 和 Arm AArch64 的双 ISA 内核，以及专为大型企业推理工作负载设计的第二代片上 AI 加速器。IBM  distinguished engineer Christian Zoellin 指出，全球约 70% 的交易量经过 IBM Z 大型机。此举旨在将 Arm 生态系统的新应用引入大型机，巩固其作为可靠性基础的地位，同时增强 AI 推理能力，连接历史传承与现代 AI 能力。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Enterprise AI"
+    ],
+    "link": "https://www.servethehome.com/ibm-z-and-linuxone-dual-isa-processor-and-ai-acceleration-at-hot-chips-2026/",
+    "date": "2026-08-25",
+    "id": "17876267702470"
+  },
+  {
+    "title": "PeerPixel 推出社区驱动免费 AI 绘图",
+    "summary": "基于 P2P 闲置算力的免费 AI 图像生成平台，无需数据中心。",
+    "detail": "PeerPixel 是一个完全免费的 AI 图像生成平台，其创新之处在于没有数据中心。它采用社区互助模式，用户贡献闲置显卡算力为他人渲染图像，以此赚取“像素”积分。该项目由个人开发者 Julius 创建，无投资者压力，确保了服务的免费性和去中心化特性。用户保留渲染价值的 90%，无人管理队列，完全依靠社区互助。这为 AI 绘图提供了新的可持续模式，实现了真正的免费且无卡片绑定。",
+    "tags": [
+      "New",
+      "Image Generation",
+      "P2P"
+    ],
+    "link": "https://peerpixel.cc/",
+    "date": "2026-08-25",
+    "id": "17876267702471"
+  },
+  {
+    "title": "gitwhy 工具追踪 AI 代码提交意图",
+    "summary": "开源 CLI 工具，自动记录 AI 生成代码的意图与来源信息。",
+    "detail": "gitwhy 是一个正在开发中的 Intent-aware Git CLI 工具，旨在解决 AI 生成代码的可追溯性问题。它包装了 gh 命令，自动将 AI 编写每个提交的原因存储在 Git-notes 中。目前处于 Beta 阶段，欢迎通过 GitHub Issues 反馈。这对于需要审计代码来源、理解 AI 辅助编程意图的开发团队至关重要，增强了代码库的透明度和合规性，是 AI 时代代码版本管理的重要补充工具。",
+    "tags": [
+      "Dev",
+      "Git",
+      "Code Provenance"
+    ],
+    "link": "https://github.com/surajsrivastav/gitwhy",
+    "date": "2026-08-25",
+    "id": "17876267702472"
+  },
+  {
+    "title": "电商卖家抗议 AI 生成广告误导消费者",
+    "summary": "新加坡卖家指出 Shopee 和 TikTok 自动 AI 广告歪曲产品事实。",
+    "detail": "新加坡多位卖家投诉 Shopee 和 TikTok 平台自动生成的 AI 广告严重误导客户。例如，作家 Xie Shi Min 发现其严肃小说《Ghost Hunters of Geylang》被 AI 视频描述为“有趣的故事”，封面元素也被歪曲。卖家认为这种不实宣传损害了品牌声誉且极具侮辱性。这引发了关于电商平台自动化营销伦理的讨论，凸显了 AI 生成内容在商业应用中可能产生的虚假宣传风险及监管需求。",
+    "tags": [
+      "News",
+      "Ethics",
+      "E-commerce"
+    ],
+    "link": "https://www.channelnewsasia.com/singapore/ai-generated-videos-shopee-tiktok-misleading-sellers-6336961",
+    "date": "2026-08-25",
+    "id": "17876267702473"
+  },
+  {
+    "title": "调查显示 80% 开发者认为 AI 编码更易上瘾",
+    "summary": "ZDNet 报道开发者调查，多数人称 AI 编程辅助成瘾甚于实用。",
+    "detail": "ZDNet 报道的一项调查揭示了一个有趣现象：80% 的开发者发现 AI 编码辅助工具“更容易上瘾”而非“更有帮助”。标题引用开发者话语'I can't stop'，表明虽然 AI 编程工具提高了交互频率，但其实际效率提升仍存争议。开发者可能沉迷于生成过程而非结果，反映了当前 AI 编程工具在用户体验与生产力之间的平衡挑战，提示行业需关注工具的实际效能而非仅关注使用时长。",
+    "tags": [
+      "News",
+      "Developer Survey",
+      "AI Coding"
+    ],
+    "link": "https://www.zdnet.com/article/i-cant-stop-80-of-developers-find-ai-coding-more-addictive-than-helpful/",
+    "date": "2026-08-25",
+    "id": "17876267702474"
+  },
+  {
     "title": "Anthropic 揭秘：Claude 如何加速药物研发流程",
     "summary": "Anthropic 报告展示 Claude 模型在蛋白质设计和分析化学领域的应用，有望大幅缩短新药发现周期。",
     "detail": "Anthropic 近日报告了 Claude 模型在制药研究中的应用潜力。药物发现 traditionally 是一个缓慢且劳动密集型的过程，而 AI 的介入有望显著提速。报告详细介绍了如何使用 Claude Mythos Preview 等模型执行蛋白质设计和分析化学中的常见流程。虽然具体技术细节需查阅原文，但核心在于利用 LLM 的理解和生成能力辅助科学家进行分子结构分析和实验设计。这一进展若成熟，将极大改善人类生活质量，并标志 AI 从数字领域向生物物理领域的深度渗透，为生物医药行业带来范式转变。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.cnn.com/2026/08/22/style/short-drama-ai-china-intl-hnk",
     "date": "2026-08-22",
     "id": "17874408760851"
-  },
-  {
-    "title": "耶鲁研究：AI 爬虫如何为内容付费？",
-    "summary": "耶鲁管理学院探讨 AI 抓取内容的价值分配，提出按次付费模式以解决内容生态枯竭问题。",
-    "detail": "### 核心问题\nAI 搜索和摘要工具导致用户不再点击原始链接，内容创作者失去广告和订阅收入，长期将导致互联网内容质量下降。\n\n### 潜在方案\n- **批量授权**：如 Reddit 与 Google 的数千万美元授权协议，但难以惠及中小网站。\n- **按次抓取付费**：Cloudflare 和 Tollbit 等公司正在探索让 AI 机器人为每次抓取内容付费的新模式。\n\n### 深度解读\n这是 AI 时代知识产权与经济模型的核心矛盾。如果内容生产者无法获利，LLM 将面临“模型崩溃”风险（缺乏新鲜高质量数据训练）。建立公平的补偿机制不仅是道德问题，更是维持 AI 进化的技术必要条件。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Business"
-    ],
-    "link": "https://insights.som.yale.edu/insights/how-much-is-crawling-your-content-worth-to-an-ai-bot",
-    "date": "2026-08-22",
-    "id": "17874408760852"
-  },
-  {
-    "title": "MacAIApps：macOS 平台 AI 应用导航目录",
-    "summary": "Show HN 项目发布 Mac AI 应用目录，收录 574 款应用，涵盖编程、设计、效率等 20 多个分类。",
-    "detail": "### 产品亮点\nMacAIApps 是一个专为 macOS 用户打造的 AI 应用发现平台。目前收录了 574 款应用，并按功能进行了细致分类。\n\n### 主要分类\n- **开发工具**：包括 AI Coding CLI、Desktop 等 82 款应用。\n- **效率办公**：涵盖会议助手、笔记、个人知识管理等。\n- **创意工具**：包含图像生成、视频编辑、音频工具等。\n\n### 深度解读\n随着 AI 应用从 Web 端向原生桌面端迁移，macOS 用户急需一个可信的筛选渠道。该目录解决了“应用发现难”的痛点，特别是对于本地 LLM 服务器和实用工具类应用。对于开发者而言，这也是一个重要的分发渠道参考，显示了 Mac 生态在 AI 生产力工具上的活跃度。",
-    "tags": [
-      "New",
-      "MacOS",
-      "Productivity"
-    ],
-    "link": "https://www.macaiapps.com/",
-    "date": "2026-08-22",
-    "id": "17874408760853"
-  },
-  {
-    "title": "开源社区危机：AI Agent 让 Linux 开发者不堪重负",
-    "summary": "开源维护者表示，AI 生成的代码审查和 Agent 自动化正在加剧社区动机危机，导致人力 overwhelmed。",
-    "detail": "### 社区现状\nDebian 开发者指出，开源软件（OSS）正面临动机危机。LLM 虽然辅助了编程，但也带来了大量低质量代码审查请求。\n\n### 具体问题\n- **Agent 泛滥**：用户利用 AI Agent 自动提交代码审查，消耗维护者大量精力。\n- **算力浪费**：自动化代理反复运行检查，消耗大量 GPU 资源却未必提升代码质量。\n- **人力瓶颈**：Linux 网络开发者表示已被 AI Agent 生成的工单“完全淹没”。\n\n### 深度解读\n这揭示了 AI 赋能下的“公地悲剧”。当生成代码的成本趋近于零，审查代码的人力成本却成为瓶颈。开源社区可能需要建立新的机制来过滤 AI 生成的贡献，否则维护者流失将威胁基础设施安全。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "LLM"
-    ],
-    "link": "https://anarc.at/blog/2026-08-18-people-vs-ai-overlords/",
-    "date": "2026-08-22",
-    "id": "17874408760854"
-  },
-  {
-    "title": "AI 效率悖论：更快是否意味着更好？",
-    "summary": "作者反思 AI 工具虽提升工作效率，却可能削弱深度思考与学习能力。",
-    "detail": "文章深入探讨了 AI 对个人工作流的双重影响。作者发现，虽然 AI 能迅速解决代码错误或提供创意，将一小时工作缩短至十分钟，但长期依赖导致大脑回避困难问题，改变了面对挑战时的思维模式。作者意识到自己不再尝试独立解题，而是思考如何向 AI 提问。这引发了关于 AI 时代人类技能退化的行业思考，提醒开发者在追求效率的同时，需警惕认知能力的潜在流失，保持独立解决问题的核心能力，避免成为工具的附庸。这种反思对于当前广泛集成 AI 的开发团队具有重要的警示意义，值得每一位从业者深思。",
-    "tags": [
-      "News",
-      "Productivity",
-      "Ethics"
-    ],
-    "link": "https://medium.com/freedomofthought/ai-made-me-faster-im-not-sure-it-made-me-better-b7f78db7fc66",
-    "date": "2026-08-22",
-    "id": "17874373518960"
-  },
-  {
-    "title": "学术界警示：AI 生成数学引发的危机",
-    "summary": "新论文主张完全反对在数学研究中使用 AI，呼吁机构采取行动。",
-    "detail": "这篇 arXiv 论文提出了对 AI 生成数学内容的强烈反对意见。作者 Max Weinreich 认为 AI 的介入可能危及数学学科的完整性，并向个人、部门及期刊提出了具体应对提案。该研究反映了学术界对 AI 生成内容可靠性的深层担忧，可能影响未来科研工具的使用规范，引发关于 AI 在严谨科学领域边界的广泛讨论。文章主张完全反对使用 AI，并呼吁机构协同行动以确保数学生存。这一极端立场凸显了学术诚信与自动化效率之间的紧张关系，值得科研界高度关注与辩论。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Ethics"
-    ],
-    "link": "https://arxiv.org/abs/2608.02859",
-    "date": "2026-08-22",
-    "id": "17874373518961"
   }
 ]
