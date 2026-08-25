@@ -1,5 +1,44 @@
 [
   {
+    "title": "MIT 发布 AI 教育使用最终报告",
+    "summary": "MIT 委员会发布 AI 在教学与研究中使用政策的最终报告。",
+    "detail": "MIT 特别委员会发布最终报告，评估生成式 AI 在教学、学习及研究培训中的现状。报告确立了八大指导原则，核心包括“保持谦逊”与“大胆行动”。委员会指出 AI 技术发展速度远超社会适应能力，因此政策需具备灵活性。这份报告不仅为 MIT 内部提供指引，也为全球教育机构应对 AI 挑战提供了战略框架，强调在不确定性中寻求创新与责任的平衡。",
+    "tags": [
+      "News",
+      "Education",
+      "Policy"
+    ],
+    "link": "https://aiandeducation.mit.edu/",
+    "date": "2026-08-25",
+    "id": "17876832457740"
+  },
+  {
+    "title": "AI 自主代理破解密码学构造",
+    "summary": "新论文展示 AI 代理自主生成假设并成功破解多个密码学方案。",
+    "detail": "arXiv 最新论文展示了一种自主密码分析工作流，AI 代理可自动生成、测试并 refine 假设。研究成功识别出 8 个已发表密码学构造的缺陷，例如 Ring-LWR 承诺对所有消息开放。论文指出了两种常见失败模式：公共代数映射暴露关系及模拟器分布不一致。这一成果凸显了 AI 代理在自动化安全审计中的巨大潜力，为密码学安全性验证提供了新范式，可能推动未来加密标准的重新评估。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Paper"
+    ],
+    "link": "https://arxiv.org/abs/2608.21986",
+    "date": "2026-08-25",
+    "id": "17876832457741"
+  },
+  {
+    "title": "深度解析 Anthropic Claude 水印机制",
+    "summary": "分析 Claude 输出水印技术，指出其在引用和翻译场景下的局限性。",
+    "detail": "本文深入分析了 Anthropic 近期在 Claude 模型中引入的水印机制，其原理类似于 Google SynthID，通过在采样时引入统计偏差实现。然而，该技术存在局限性：在逐字引用或严格翻译场景下，因模型缺乏“回答自由度”，水印信号会显著减弱。目前尚无公开工具验证水印概率。该技术核心在于标识“谁决定了措辞”，而非单纯追踪文本处理历史，为 AI 内容溯源提供了新思路但也面临技术挑战。",
+    "tags": [
+      "News",
+      "LLM",
+      "Security"
+    ],
+    "link": "https://www.explore-exploit.com/p/dribbling-the-ai-watermark-directly",
+    "date": "2026-08-25",
+    "id": "17876832457742"
+  },
+  {
     "title": "AI 使用成开源维护者的“拒绝服务攻击”",
     "summary": "LLM 训练数据抓取导致开源维护者服务器过载，社区呼吁新规范。",
     "detail": "Phoronix 最新报道指出，AI 大模型训练过程中对开源代码库的频繁抓取，已演变成针对开源维护者的“拒绝服务攻击”。这种高流量请求导致个人维护者服务器过载，增加了运营成本与维护压力。文章强调，这不仅是一个技术问题，更引发了关于数据使用伦理与补偿机制的深刻争议。行业亟需建立新的抓取礼仪，平衡 AI 发展与开源生态健康，否则可能导致关键基础设施贡献者流失，影响整个软件供应链的稳定性与安全性。",
@@ -1001,6 +1040,19 @@
     "id": "17876205586304"
   },
   {
+    "title": "儿童语言学习效率远超 AI 模型",
+    "summary": "MIT 科技评论指出儿童学习语言的数据效率远高于大语言模型。",
+    "detail": "MIT 科技评论文章指出，儿童学习语言的数据效率远超当前大语言模型。儿童仅需少量互动即可掌握母语，而 LLM 需消耗数万倍数据。这种“数据效率差距”揭示了现有 AI 架构的根本局限性。认知科学家认为，理解儿童学习机制有助于开发更高效模型，并揭示人类心智发展奥秘。这一发现挑战了单纯依靠数据堆砌的技术路线，为未来 AI 算法优化提供了重要研究方向。",
+    "tags": [
+      "News",
+      "Research",
+      "LLM"
+    ],
+    "link": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
+    "date": "2026-08-24",
+    "id": "17876832457743"
+  },
+  {
     "title": "行业分析：AI 基准测试高分不等于商业 adoption",
     "summary": "文章指出 Anthropic 等模型虽基准测试领先，但企业更倾向于性价比高的旧模型。",
     "detail": "分析指出 frontier 模型面临基准测试与开发者 adoption 之间的差距。尽管 Anthropic 的 Fable 5 模型智能领先，但企业支出更多流向 Opus 5 等 cheaper 模型。OpenAI 的 GPT 5.6 也因定价策略获得企业 momentum。核心观点是开发者 adoption 依赖可靠性、成本及延迟，而非单纯的 intelligence 基准。这揭示了 AI 商业化进程中性价比与稳定性比极致性能更关键，FT 报道了相关支出数据。客户对支出的坦诚表明，重复性任务仍由旧模型处理，前沿模型主要用于特定高价值场景。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.autonomous.ai/computer-2",
     "date": "2026-08-24",
     "id": "17875998381080"
-  },
-  {
-    "title": "路透社：英伟达通知客户 AI 相关产品涨价超 15%",
-    "summary": "彭博社消息，英伟达因 AI 需求旺盛，通知客户部分产品价格上调超过 15%。",
-    "detail": "据路透社和彭博社报道，英伟达已正式通知客户，由于人工智能需求持续高涨，部分相关产品价格将上调超过 15%。这一举动深刻反映了 AI 基础设施市场的供不应求状态，可能会显著增加初创企业和大型科技公司的算力成本。市场正在密切关注此举对下游 AI 应用定价及利润率的影响。对于依赖 GPU 集群的 AI 公司而言，这将迫使它们优化模型效率或转嫁成本。供应链紧张局势可能持续，建议企业提前规划算力预算。此次涨价也侧面印证了 AI 行业仍在高速扩张期，硬件壁垒进一步加高。",
-    "tags": [
-      "News",
-      "Nvidia",
-      "Market"
-    ],
-    "link": "https://www.reuters.com/business/nvidia-customers-notified-about-ai-related-price-hikes-above-15-bloomberg-news-2026-08-22/",
-    "date": "2026-08-24",
-    "id": "17875998381081"
-  },
-  {
-    "title": "SpaceXAI 采用英伟达 Vera CPU 加速代理 AI",
-    "summary": "SpaceXAI 宣布采用英伟达 Vera CPU，旨在大规模加速代理 AI 工作负载。",
-    "detail": "英伟达官方新闻宣布，SpaceXAI 将采用 Nvidia Vera CPU 来加速其大规模代理 AI（Agentic AI）任务。这表明 CPU 在 AI 推理和代理工作流中的重要性日益提升，不再仅仅依赖 GPU。此次合作旨在优化大规模 AI 代理系统的性能，标志着 AI 基础设施向更专用的混合硬件架构演进。Vera CPU 将为复杂的代理决策提供低延迟支持，有助于解决多 Agent 协作中的瓶颈问题。这是硬件厂商针对特定 AI 工作负载进行优化的典型案例，预示着未来 AI 计算将更加注重 CPU 与 GPU 的协同效率。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Agentic AI"
-    ],
-    "link": "https://nvidianews.nvidia.com/news/spacexai-adopts-nvidia-vera-cpu-to-accelerate-agentic-ai-at-massive-scale",
-    "date": "2026-08-24",
-    "id": "17875998381082"
-  },
-  {
-    "title": "HN 热议：AI SaaS 泛滥时代的市场护城河",
-    "summary": "Hacker News 讨论在 AI 生成软件泛滥的当下，市场平台的护城河是否更稳固。",
-    "detail": "Hacker News 社区发起热门讨论，探讨在 SaaS 和 AI 生成内容泛滥的背景下，市场平台（Marketplaces）是否拥有更强的护城河。观点认为软件生产成本降低，但定制化仍难，分发和资本成为关键。这反映了行业对 AI 应用层竞争格局的深层思考，定制解决方案和代理机构可能是短期赢家。讨论指出，虽然代码生成容易，但解决最后 10% 的定制化需求仍需人力。对于创业者而言，单纯的工具开发价值下降，深入垂直场景的服务更具壁垒。社区共识倾向于认为分发渠道和客户关系将成为新的核心竞争优势。",
-    "tags": [
-      "News",
-      "Community",
-      "SaaS"
-    ],
-    "link": "https://news.ycombinator.com/item?id=49424263",
-    "date": "2026-08-24",
-    "id": "17875998381083"
-  },
-  {
-    "title": "前 Sierra 科学家新作 Instinct 引发隐私与安全争议",
-    "summary": "前 Sierra 科学家推出 AI 助手 Instinct，功能强大但因过度权限引发隐私担忧。",
-    "detail": "Instinct 是由前 Sierra 研究员 Noah Shinn 领导开发的 AI 个人助理，目前处于私人测试阶段。该代理能够连接用户的 email、日历、音频、位置及屏幕等全方位数据，通过短信或 WhatsApp 交互执行任务。尽管用户反馈其体验“如魔法般神奇”，但其服务条款及广泛的数据访问权限引发了严重的安全与隐私质疑。作为 stealth 模式下的产品，其背后的 Spear Street Technology 公司尚未完全公开融资细节。此事件反映了 AI Agent 在追求高度自动化与用户隐私保护之间的核心矛盾，可能影响未来同类产品的合规设计与市场接受度。行业需关注此类高权限 Agent 的安全边界，特别是在数据最小化原则与功能便利性之间的平衡，这将成为监管焦点。",
-    "tags": [
-      "News",
-      "AI Agent",
-      "Privacy"
-    ],
-    "link": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
-    "date": "2026-08-24",
-    "id": "17875967735890"
   }
 ]
