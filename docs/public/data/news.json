@@ -1,5 +1,31 @@
 [
   {
+    "title": "科技巨头紧急应对 AI 舆论反弹",
+    "summary": "大型科技公司正竞相采取措施，缓解公众对 AI 技术日益增长的担忧与反对声浪。",
+    "detail": "华尔街日报深度报道指出，面对公众对 AI 技术日益增长的担忧与反对声浪，科技巨头正展开紧急竞赛以平息争议。随着 AI 部署加速，隐私泄露、就业替代及安全失控等风险加剧，社会信任度下降。公司正调整公关策略与产品合规性，试图在技术创新与社会接受度间寻找平衡。此举反映 AI 行业已进入深水区，社会伦理与监管合规将成为未来发展的关键变量，巨头们的应对策略将直接影响行业走向与公众信任重建，标志着 AI 发展从技术驱动转向社会责任驱动的关键转折点。",
+    "tags": [
+      "News",
+      "AI Ethics",
+      "Big Tech"
+    ],
+    "link": "https://www.wsj.com/tech/inside-big-techs-frantic-race-to-quell-the-growing-backlash-to-ai-2a717339",
+    "date": "2026-08-26",
+    "id": "17877136611920"
+  },
+  {
+    "title": "Ora 基于 Vercel 构建 AI 代理基准测试平台",
+    "summary": "Ora 利用 Vercel 平台对主流 AI 代理进行实时基准测试，评估网页对代理的就绪程度。",
+    "detail": "Ora 联合创始人 Assaf Elovic 推出新平台，在 Vercel 上运行代理运行时，测试 AI 代理在真实网站上的任务完成情况，如注册、集成及支付。数据显示 99% 网页尚未准备好迎接代理，常因结构问题失败。该工具帮助开发者识别代理失败原因，优化网站结构以适应自动化交互。这标志着 AI 开发重心从模型竞争转向代理落地与基础设施兼容性的新阶段，Vercel 成为关键支撑平台，助力开发者构建更可靠的 Agent 应用，解决最后一公里的交互难题。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Vercel"
+    ],
+    "link": "https://vercel.com/customers/how-ora-benchmarks-every-major-ai-agent-on-vercel",
+    "date": "2026-08-26",
+    "id": "17877136611921"
+  },
+  {
     "title": "微软发布 Maia 200 AI 加速器",
     "summary": "微软在 Hot Chips 2026 展示第二代自研 AI 芯片，3nm 工艺。",
     "detail": "微软在 Hot Chips 2026 上深入介绍了 Maia 200 AI 加速器架构。作为第二代自研芯片，采用 3nm 工艺，拥有 1400 亿晶体管，配备 6 栈 HBM3e 内存，TDP 为 750W。虽然芯片尺寸设计不算激进，但性能与功耗仍需综合考量。该芯片将部署于 Azure 数据中心，旨在优化性能与功耗平衡，标志着 hyperscalers 自研芯片趋势的深化。此次演讲详细介绍了架构目标及 SoC 设计 tweaks，显示出微软在 AI 硬件领域的持续投入与迭代能力。此外，该设计 paired with HBM3e memory，总芯片 TDP 控制在 750 瓦特，尽管单芯片功耗可控，但在机架部署中累积功耗仍需谨慎管理。这一进展表明微软正逐步减少对外部供应商的依赖，构建更垂直整合的 AI 基础设施栈，为云端 AI 服务提供底层支撑。",
@@ -50,6 +76,45 @@
     "link": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
     "date": "2026-08-26",
     "id": "17877072443543"
+  },
+  {
+    "title": "构建终身个人健康 AI 代理的愿景",
+    "summary": "作者提出构建伴随一生的个人健康代理，整合医疗记录与 AI 干预，优化长期健康目标。",
+    "detail": "文章探讨了一种超越传统健康聊天机器人的构想：universal personal health agent。该代理旨在积累终身证据，与医生协作，并根据个人目标（如长寿、心理健康）进行干预。核心在于构建患者控制的医疗记录 substrate，而非单一应用，确保记录随 AI 迭代而持久。这展示了 AI 在垂直领域深度个性化与长期记忆应用的潜力，重新定义个人健康管理范式，为未来 AI 与医疗结合提供了极具前瞻性的实践路径与思考，强调数据主权与长期价值。",
+    "tags": [
+      "New",
+      "Healthcare",
+      "Personal AI"
+    ],
+    "link": "https://williamtp.substack.com/p/the-ai-health-agent-that-will-know",
+    "date": "2026-08-25",
+    "id": "17877136611922"
+  },
+  {
+    "title": "DigitalOcean 探讨 AI 初创企业的规模化挑战",
+    "summary": "四位 AI 创始人分享产品落地经验，强调可靠性与模型周边基础设施比模型本身更重要。",
+    "detail": "DigitalOcean  Deploy 2026  会议上，Andi AI、Higgsfield  等四位创始人讨论 AI 产品规模化痛点。共识是获取模型容易，但确保代理可靠性、衡量实际效果才是护城河。讨论涉及本地引擎计算、人机协作验证法律建议等案例，强调模型周边基础设施的重要性。表明 AI 创业已进入拼工程化落地与垂直场景整合的深水区，可靠性决定产品生死，单纯依赖 API 无法构建长期竞争优势，需深耕场景，建立数据与反馈闭环。",
+    "tags": [
+      "News",
+      "Startups",
+      "Engineering"
+    ],
+    "link": "https://www.digitalocean.com/blog/ai-disruptors",
+    "date": "2026-08-25",
+    "id": "17877136611923"
+  },
+  {
+    "title": "Codeberg 更新条款拒绝纯 AI 生成仓库",
+    "summary": "代码托管平台 Codeberg 修改服务条款，禁止 predominantly AI 生成的仓库及加密货币项目。",
+    "detail": "开源平台 Codeberg 更新 ToS，明确限制 LLM 生成内容为主的仓库，旨在保护自由开源软件 commons 免受 AI 污染。同时禁止加密货币项目。此举反映开源社区对 AI 生成代码质量的担忧及对真实人类协作的坚持，试图维护代码库的纯净性与可信度。可能引发其他托管平台跟进，影响 AI 辅助开发的合规边界，重塑开源生态规则，对依赖 AI 生成代码的开发者提出新的挑战与合规要求，引发社区对 AI 伦理的深层讨论。",
+    "tags": [
+      "News",
+      "Open Source",
+      "Policy"
+    ],
+    "link": "https://codeberg.org/Codeberg/org/compare/17bdb39b0c1ecd0e423f3ba592650ce57fcdfbf5..71149c7fc95ccfeae36109b5cddca339e4aa1473?files=TermsOfUse.md#diff-d760d688bb9b929b62db808bfc76abe4493d095a",
+    "date": "2026-08-25",
+    "id": "17877136611924"
   },
   {
     "title": "AI 辅助证明理论生物学定理",
@@ -1233,70 +1298,5 @@
     "link": "https://llmpanel.io/",
     "date": "2026-08-25",
     "id": "17876438921562"
-  },
-  {
-    "title": "PlugClaw 推出保密 AI 技术，解决云端数据隐私泄露难题",
-    "summary": "新技术让云端 AI 模型在不泄露隐私的情况下处理数据。",
-    "detail": "随着 AI Agent 从问答工具转变为工作代理，隐私风险激增。PlugClaw 推出的 Confidential AI 技术旨在解决云端 AI 的信任问题。传统云 AI 依赖政策信任，数据需发送至云端处理，存在泄露风险。新技术通过加密和隔离，确保模型在处理敏感数据（如邮件、代码、财务记录）时，提供商无法窥探。这对于企业部署云端大模型至关重要，标志着 AI 隐私保护从“信任政策”转向“技术保障”，可能成为未来合规标准，让云端算力与本地隐私得以共存。",
-    "tags": [
-      "News",
-      "Privacy",
-      "Cloud AI"
-    ],
-    "link": "https://plugos.net/blog/2026/08/confidential-ai-how-plugclaw-keeps-your-ai-work-private/",
-    "date": "2026-08-25",
-    "id": "17876405393620"
-  },
-  {
-    "title": "北爱尔兰艺术家与商家联合抵制\"AI 垃圾内容”",
-    "summary": "创意人士反击低质量 AI 生成内容，多家店铺宣布无 AI 区。",
-    "detail": "针对泛滥的低质量 AI 生成内容（AI Slop），北爱尔兰创意界发起反击。贝尔法斯特多家酒吧和餐厅宣布成为“无 AI 区”，拒绝打印 AI 设计的菜单或海报。艺术家指出这不仅艺术空洞，还威胁真实工作岗位。此事件反映了公众对 AI 生成内容审美疲劳及伦理担忧的增加。随着 AI 内容充斥日常生活，行业可能被迫建立 AI 内容标识规范，保护人类创意价值，避免劣币驱逐良币，引发对生成式 AI 商业应用的深层反思。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Generative AI"
-    ],
-    "link": "https://www.bbc.co.uk/news/articles/cq89jpjeq7ko",
-    "date": "2026-08-25",
-    "id": "17876405393621"
-  },
-  {
-    "title": "Netherite 推出 AI 代码安全扫描器，精准修复漏洞",
-    "summary": "像安全工程师一样阅读代码库，提供可 exploit 漏洞及修复 prompt。",
-    "detail": "Netherite 发布了一款针对 AI 生成代码的安全扫描工具。它能像安全工程师一样全面阅读代码库，识别实际可利用的漏洞，并提供具体的修复 prompt。工具通过加密连接读取仓库，报告生成后不保留代码。这对于依赖 AI 编程助手（如 Cursor、Copilot）的团队尤为重要，能有效缓解\"AI 垃圾代码”带来的安全隐患。通过自动化安全审计，它提升了 Vibecoding 流程的可靠性，确保 AI 辅助开发不会引入严重后门或逻辑漏洞。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Code"
-    ],
-    "link": "https://www.netherite.uz/",
-    "date": "2026-08-25",
-    "id": "17876405393623"
-  },
-  {
-    "title": "CookWing：解决 AI 食谱幻觉量的智能厨师应用",
-    "summary": "AI 食谱应用通过锚定真实参考食谱，解决食材比例幻觉。",
-    "detail": "CookWing 是一款解决 AI 食谱幻觉的新应用。AI 常生成不可行的食材比例，该应用通过锚定真实烹饪传统参考食谱来解决此问题。用户可描述需求，AI 基于真实参考生成个性化食谱，支持调整份量及过敏原。它结合了 AI 的灵活性与真实烹饪的可靠性，提供分步指导和计时器。这展示了垂直领域 AI 应用如何通过引入外部知识库来纠正大模型幻觉，提升用户体验，为生活类 AI Agent 提供了新的落地思路。",
-    "tags": [
-      "New",
-      "Product",
-      "Consumer AI"
-    ],
-    "link": "https://play.google.com/store/apps/details?id=com.redwing.vibecooking&hl=en_US",
-    "date": "2026-08-25",
-    "id": "17876405393624"
-  },
-  {
-    "title": "AI 助手如何决定你的注意力焦点",
-    "summary": "AI 助理筛选信息既是压缩也是分配，可能隐藏关键内容。",
-    "detail": "文章探讨了 email 和日历助手如何通过筛选信息影响用户注意力。微软 Outlook 和苹果 Intelligence 的案例显示，系统决定的“重要性”可能导致关键信息被忽略且无痕迹。这不仅是技术压缩，更是注意力分配，用户需警惕摘要错误不如遗漏隐蔽。错误摘要可被发现，但被过滤的重要邮件却无迹象。微软承认摘要可能 overlook 细节，但未公开评估结果。这引发了对 AI 代理决策透明度的担忧，用户看到的只是系统认为重要的内容，而非全貌。这种分配机制在用户决策前就影响了注意力，错误不像虚假陈述那样明显。被省略的重要信息不会留下任何出错的迹象，用户看到的是经过筛选的合理日常 account。因此，这类系统的局限性需要被严肃对待，尤其是当它们成为工作流核心时。",
-    "tags": [
-      "News",
-      "AI Ethics",
-      "Productivity"
-    ],
-    "link": "https://jasondoyle.ie/whitepapers/when-ai-decides-what-matters/",
-    "date": "2026-08-25",
-    "id": "17876359703110"
   }
 ]
