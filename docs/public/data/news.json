@@ -1,5 +1,57 @@
 [
   {
+    "title": "GitHub 否认 Copilot Autofix 撰写 Wiz 发现的漏洞代码",
+    "summary": "GitHub 反驳 Wiz 指控，称漏洞代码由人类工程师编写而非 Copilot。",
+    "detail": "安全公司 Wiz 声称其自主红队代理通过 GitHub Copilot Autofix 生成的代码漏洞，成功入侵了 Snowflake 的 internal Jira 系统，读取了凭证。GitHub 对此予以坚决否认，经内部调查后表示该缺陷代码实为人类工程师编写，而非 AI 生成，并指出 Wiz 的指控不准确。此事件引发了业界关于 AI 编程助手安全性、责任归属及代码审查流程的激烈讨论。此外，GitHub 同期经历了 7.5 小时大规模停机，影响 PR 与 Actions，期间 Musk 旗下的 Cursor 趁机推出了替代方案 Origin。这一系列争议凸显了 AI 代码生成技术在企业级安全审计方面仍存在的潜在风险与信任危机，开发者需警惕过度依赖 AI 修复代码。",
+    "tags": [
+      "News",
+      "GitHub",
+      "Security"
+    ],
+    "link": "https://ai-news.ghost.io/github-denies-copilot-autofix-wrote-the-bug-wizs-ai-agent-found/",
+    "date": "2026-08-26",
+    "id": "17877304969340"
+  },
+  {
+    "title": "OpenComputer 上线 Product Hunt：定位为 Agent 的 Firebase",
+    "summary": "新产品 OpenComputer 旨在为 AI 代理提供基础设施，类似 Firebase 之于应用。",
+    "detail": "OpenComputer 在 Product Hunt 正式发布，定位为\"Agent 的 Firebase\"，旨在为 AI 代理提供专用的后端基础设施。该平台简化了 AI 代理的开发与部署流程，提供状态管理、托管及工作流自动化支持。随着 AI Agent 生态的爆发式增长，开发者急需专用的基础设施工具来解决碎片化问题，避免重复造轮子。OpenComputer 的出现填补了这一市场空白，可能成为 AI 工作流自动化和工程开发领域的重要基础设施，显著降低 Agent 应用的技术门槛与运维成本，助力开发者快速构建复杂代理系统，推动 Agent 经济落地。",
+    "tags": [
+      "New",
+      "AI Agents",
+      "Infrastructure"
+    ],
+    "link": "https://www.producthunt.com/products/opencomputer",
+    "date": "2026-08-26",
+    "id": "17877304969341"
+  },
+  {
+    "title": "Flow AI 视频生成器：集成多种模型的电影级 AI 视频工具",
+    "summary": "Flow AI 提供文本及图像转视频功能，支持多种创作模式与电影级效果。",
+    "detail": "Flow AI 推出新型视频生成工具，宣称集成领先 AI 模型，支持文本生成视频、图像动画化及参考图引导等多种模式。用户可通过详细描述场景、灯光、相机运动及 mood，生成立即可用的电影级片段，无需摄影团队即可产出高质量内容。该工具旨在解决创作者视频制作成本高、周期长的问题，适用于社交媒体及产品展示。尽管市场竞争激烈，Flow AI 试图通过整合多种生成方式与高质量输出，为创作者提供一站式视频解决方案，降低专业视频制作的技术壁垒，让普通用户也能实现创意可视化。",
+    "tags": [
+      "New",
+      "Video Generation",
+      "Multimodal"
+    ],
+    "link": "https://ai-flow.video",
+    "date": "2026-08-26",
+    "id": "17877304969342"
+  },
+  {
+    "title": "AI 音乐工具能否取代 Epidemic Sound？行业深度对比分析",
+    "summary": "文章对比了 AI 生成音乐与传统版权音乐库的优劣及适用场景。",
+    "detail": "MuseGen 博客深入分析了 AI 音乐生成工具与传统版权音乐库如 Epidemic Sound 的本质区别。前者采用生成模型，按需创作独特曲目；后者提供 curated 成品库，供用户浏览选择。文章指出两者解决需求的方式根本不同，虽然 AI 提供了定制化和速度优势，但在版权安全性与音质稳定性上仍面临挑战。这反映了 AI 在创意领域渗透的现状与局限，创作者需根据项目需求权衡效率与质量，AI 目前更多是补充而非完全替代传统音乐库，尤其在需要高度情感共鸣的商业项目中，人类创作仍具不可替代性。",
+    "tags": [
+      "News",
+      "AI Music",
+      "Industry Analysis"
+    ],
+    "link": "https://www.musegen.ai/blog/ai-music-vs-epidemic-sound",
+    "date": "2026-08-26",
+    "id": "17877304969343"
+  },
+  {
     "title": "中国政府担忧 AI 伴侣影响人类亲密关系",
     "summary": "卫报报道，中国政府关注 AI 聊天普及可能取代人际互动，进而影响婚姻和出生率。",
     "detail": "### 社会背景\n在中国，与 AI 对话已常态化，但政府开始担忧其副作用。\n### 核心担忧\n官方担心 AI 伴侣可能替代人类亲密关系，导致结婚率下降和出生率进一步降低。\n### 行业影响\n这可能促使针对 AI 情感陪伴类产品的监管政策收紧，要求开发者关注社会伦理影响。",
@@ -1246,57 +1298,5 @@
     "link": "https://github.com/EightPotions/Myli",
     "date": "2026-08-25",
     "id": "17876540616450"
-  },
-  {
-    "title": "SkillPreflight：AI 代理技能安装前评分工具",
-    "summary": "Show HN 项目，为 AI 代理技能提供安装前的安全、Token 及可维护性评分。",
-    "detail": "SkillPreflight 是一个针对 AI 代理技能的预安装安全检查工具。它在安装前对技能进行安全性、Token 消耗及可维护性评分，帮助开发者规避潜在风险。作为 npm 包发布，它填补了代理生态中缺乏标准化评估工具的空白，提升了 agent 供应链的安全性。对于构建复杂代理系统的团队，这是降低运维风险的重要基础设施。支持 GitHub Marketplace 集成，方便 CI/CD 流程。该项目旨在解决代理技能安装后的不可预测性问题，提供量化的安全评分卡。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agents"
-    ],
-    "link": "https://github.com/agent-contracts/skill-preflight",
-    "date": "2026-08-25",
-    "id": "17876540616451"
-  },
-  {
-    "title": "Intel 发布 Crescent Island AI GPU，专注代理推理",
-    "summary": "Intel 在 Hot Chips 2026 展示 Crescent Island GPU，主打大显存与高能效代理推理。",
-    "detail": "Intel 在 Hot Chips 2026 上公布了 Crescent Island 数据中心 GPU，专为 Agentic AI 推理设计。该芯片提供 160GB 至 480GB LPDDR5X 显存，重点关注每瓦特 Token 数、大内存容量及系统吞吐量。架构设计针对工具调用、长上下文及 CPU-GPU 协同进行了优化，旨在解决代理 AI 工作负载带来的延迟与内存压力，标志着 Intel 在企业级 AI 加速器领域的最新布局。由 Intel Fellow Hong Jiang 主讲，该 GPU 位于 Intel 加速器组合的顶端，针对本地代理计算机及数据中心智能进行了优化。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Intel"
-    ],
-    "link": "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
-    "date": "2026-08-25",
-    "id": "17876540616452"
-  },
-  {
-    "title": "神秘模型 Ox Alpha 现身，支持 1M 上下文免费试用",
-    "summary": "新模型 Ox Alpha 进入 stealth 模式，主打推理能力与 1M 上下文，目前免费。",
-    "detail": "Ox Alpha 是一款新出现的推理优先模型，支持 1M token 上下文及 131K 输出。特点包括多步逻辑推理、可见思维链及原生工具调用支持。目前处于 stealth 阶段，无需注册即可免费试用，不存储聊天记录。专为长周期编码及复杂代理任务设计，支持文本、图像及视频输入。其神秘背景与强大参数引发了社区对新型推理架构的关注，官网显示由未知团队构建。该模型强调在生产级工作负载中的表现，而非简单的演示技巧，支持结构化输出如 JSON。",
-    "tags": [
-      "New",
-      "LLM",
-      "Product"
-    ],
-    "link": "https://oxalpha.com",
-    "date": "2026-08-25",
-    "id": "17876540616454"
-  },
-  {
-    "title": "Sam Altman：AI 尚未迎来 iPhone 时刻",
-    "summary": "CNBC 采访视频中，Sam Altman 表示 AI 行业尚未达到类似 iPhone 发布的爆发时刻。",
-    "detail": "在 CNBC 的最新采访中，OpenAI CEO Sam Altman 提出 AI 技术尚未达到消费级爆发的\"iPhone 时刻\"。尽管技术进展迅速，但大众普及度与杀手级应用仍需时间沉淀。该观点反映了行业领袖对当前 AI 落地阶段的冷静判断，提示市场需关注实际用户体验而非单纯的技术参数。这对投资者理解 AI 周期具有重要参考意义，视频发布于 17 小时前。Altman 的言论暗示，尽管资本投入巨大，但真正的普及型产品形态仍在探索中，市场需保持耐心。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Industry"
-    ],
-    "link": "https://www.youtube.com/watch?v=dktlHZOSn5o",
-    "date": "2026-08-25",
-    "id": "17876540616455"
   }
 ]
