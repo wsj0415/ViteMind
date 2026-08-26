@@ -1,5 +1,57 @@
 [
   {
+    "title": "中国政府担忧 AI 伴侣影响人类亲密关系",
+    "summary": "卫报报道，中国政府关注 AI 聊天普及可能取代人际互动，进而影响婚姻和出生率。",
+    "detail": "### 社会背景\n在中国，与 AI 对话已常态化，但政府开始担忧其副作用。\n### 核心担忧\n官方担心 AI 伴侣可能替代人类亲密关系，导致结婚率下降和出生率进一步降低。\n### 行业影响\n这可能促使针对 AI 情感陪伴类产品的监管政策收紧，要求开发者关注社会伦理影响。",
+    "tags": [
+      "News",
+      "Society",
+      "Policy"
+    ],
+    "link": "https://www.theguardian.com/world/2026/aug/26/china-ai-companion-relationships-marriage-birth-rate-concern",
+    "date": "2026-08-26",
+    "id": "17877271602132"
+  },
+  {
+    "title": "Flow AI 视频生成器宣称集成 Google 模型",
+    "summary": "新工具支持文本及图像转视频，宣称集成领先 AI 模型，主打电影级生成效果。",
+    "detail": "### 产品功能\n提供文本转视频、图像转视频、参考图生成等多种模式，支持详细描述镜头语言和 mood。\n### 技术亮点\n页面宣称由 Google Labs 支持，旨在将创意快速转化为 cinematic clip。\n### 行业影响\n视频生成赛道竞争加剧，多模型集成成为新趋势，降低创作者使用门槛。",
+    "tags": [
+      "New",
+      "Video",
+      "Generative"
+    ],
+    "link": "https://ai-flow.video/",
+    "date": "2026-08-26",
+    "id": "17877271602133"
+  },
+  {
+    "title": "Portable Computer 推出本地优先 AI 栈",
+    "summary": "基于 NVIDIA DGX Spark 运行本地代理，支持混合云端模型调用，保障数据隐私。",
+    "detail": "### 技术架构\n在本地 NVIDIA DGX Spark 上运行 agent harness 和 orchestrator，状态保留在本地。\n### 核心优势\n处理敏感数据（如税务文档）时在本地完成，仅必要时路由至云端 frontier 模型。\n### 行业影响\n推动 Local-First AI 架构发展，解决企业和个人对数据隐私的核心痛点。",
+    "tags": [
+      "Dev",
+      "Infra",
+      "LocalAI"
+    ],
+    "link": "https://www.perplexity.ai/hub/products/portable-computer",
+    "date": "2026-08-26",
+    "id": "17877271602134"
+  },
+  {
+    "title": "HandWrought 文档内 AI 编辑器上线",
+    "summary": "Show HN 新品，直接在文档中集成 AI 编辑功能，非独立标签页，提供免费额度。",
+    "detail": "### 产品形态\nAI 编辑器嵌入文档内部，支持大纲生成、全文重写及选中编辑。\n### 使用门槛\nGuest 用户可获得 5 免费 credits，导入 PDF/Word 消耗 credit，txt/md 免费。\n### 行业影响\n优化写作工作流，减少上下文切换，体现 AI 工具向无缝集成方向发展的趋势。",
+    "tags": [
+      "New",
+      "Productivity",
+      "Editor"
+    ],
+    "link": "https://handwrought.online/",
+    "date": "2026-08-26",
+    "id": "17877271602136"
+  },
+  {
     "title": "Perplexity 推出便携式计算机，进军本地 AI 市场",
     "summary": "Perplexity 发布 Portable Computer，基于 NVIDIA DGX Spark 实现本地优先代理栈。",
     "detail": "Perplexity 正试图通过\"Portable Computer\"进入本地 AI 服务市场。该产品在 NVIDIA DGX Spark 上运行代理 harness 和 orchestrator，支持本地会话状态保持，并在需要时调用云端前沿模型。此举标志着 AI 搜索巨头向本地化、隐私优先的计算架构转型，可能改变企业数据处理方式。本地优先策略能降低延迟并增强数据主权，适合对隐私敏感的企业场景，是边缘 AI 落地的重要一步。混合云架构允许敏感数据本地处理，同时利用云端强大算力，平衡了性能与隐私，为未来 AI 个人电脑形态提供了新参考。这将推动本地推理硬件需求增长，并可能引发新一轮端侧 AI 生态竞争。",
@@ -193,6 +245,19 @@
     "link": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
     "date": "2026-08-26",
     "id": "17877072443543"
+  },
+  {
+    "title": "俄军 AI 无人机致平民死亡首案确认",
+    "summary": " forensic 团队确认俄军使用 Nvidia Jetson Orin 无人机自主 targeting 致平民死亡。",
+    "detail": "### 事件背景\n法医团队指出，这是首起记录在案的俄军全自动瞄准无人机导致平民死亡事件。\n### 核心技术\n涉事无人机使用 **Nvidia Jetson Orin** 芯片进行边缘 AI 计算，实现自主目标识别。\n### 行业影响\n此事件引发全球对自主武器系统伦理及硬件供应链管控的严峻讨论，可能加速相关出口管制政策落地。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Hardware"
+    ],
+    "link": "https://www.tomshardware.com/tech-industry/drones/nvidia-jetson-orin-guided-the-russian-ai-drone-that-killed-three-civilians-in-ukraine-forensic-teams-say",
+    "date": "2026-08-25",
+    "id": "17877271602130"
   },
   {
     "title": "构建终身个人健康 AI 代理的愿景",
@@ -1233,70 +1298,5 @@
     "link": "https://www.youtube.com/watch?v=dktlHZOSn5o",
     "date": "2026-08-25",
     "id": "17876540616455"
-  },
-  {
-    "title": "特朗普关税威胁 AI 硬件成本",
-    "summary": "专家警告美加贸易战关税将导致 AI 组件价格上涨。",
-    "detail": "CBC 新闻报道，尽管汽车和钢铁是美加贸易战焦点，但专家警告 escalating trade war 将导致电子产品成本显著上升。去年加拿大向美国出口了超过 40 亿美元的电子设备，现在将面临特朗普总统新的 50% 关税，某些电路板和控制器直接受影响。从手机到游戏机及 AI 基础设施，消费者和企业都将面临更高成本。这不仅是贸易问题，更直接影响 AI 物理组件的供应链价格稳定性，可能延缓技术普及并增加企业运营负担。文章指出音频版本由 AI 生成，突显技术渗透。行业需关注后续政策走向对全球供应链的深远影响。",
-    "tags": [
-      "News",
-      "Policy",
-      "Hardware"
-    ],
-    "link": "https://www.cbc.ca/news/business/trump-tariff-ai-9.7318970",
-    "date": "2026-08-25",
-    "id": "17876506024480"
-  },
-  {
-    "title": "黄仁勋：土地电力是 AI 工厂关键资源",
-    "summary": "NVIDIA 联手 SB Energy 为 OpenAI 建设 AI 工厂基础设施。",
-    "detail": "NVIDIA CEO 黄仁勋指出土地、电力和外壳（LPS）是 AI 时代关键资源。AI 工厂是将能量和数据转化为智能的基础设施，计算即收入。NVIDIA 与 SB Energy 合作 securing LPS 容量，位于俄亥俄州 PORTS 园区，OpenAI 将成为租户。此举旨在解决前沿 AI 实验室基础设施融资难问题，确立 AI 工厂作为核心基础设施的地位。NVIDIA 正利用供应链伙伴关系确保 LPS 容量，区别于传统云服务商模式，支持快速增长的实验室需求。这标志着 AI 竞争已从芯片扩展到物理基础设施资源的争夺，为行业树立新标杆。",
-    "tags": [
-      "News",
-      "NVIDIA",
-      "Infrastructure"
-    ],
-    "link": "https://twitter.com/JensenHuang/status/2089331487342829862",
-    "date": "2026-08-25",
-    "id": "17876506024481"
-  },
-  {
-    "title": "小米发布 AI Cube 原型机挑战苹果",
-    "summary": "小米推出本地 LLM powerhouse，采用自研多芯片架构。",
-    "detail": "小米揭示 AI Cube 原型机，这是一款本地 AI 超级计算机，旨在处理复杂大模型而不上传数据。采用自研 XRING O3 硅片，包含通用控制器和神经处理器。该设备直接对标苹果 Mac Studio 及 Apple Intelligence，强调本地推理硬件的突破与隐私保护。小米工程团队设计了三个 distinct 互联定制处理器，XRING D100 为车规级神经处理器。这展示了全球科技巨头在物理和本地 AI 领域的主导权争夺，提供无需云端的本地 LLM 算力解决方案，吸引开放权重模型用户。",
-    "tags": [
-      "News",
-      "Hardware",
-      "LLM"
-    ],
-    "link": "https://me.mashable.com/tech/75268/xiaomi-reveals-ai-cube-prototype-multi-chip-local-llm-powerhouse-takes-aim-at-apples-macs",
-    "date": "2026-08-25",
-    "id": "17876506024482"
-  },
-  {
-    "title": "斯坦福推出终端 AI Agent 基准测试",
-    "summary": "Terminal-bench 旨在量化 AI Agent 的终端掌握能力。",
-    "detail": "斯坦福与 Laude 合作推出 Terminal-bench，基于 Harbor 框架的原生基准测试。旨在帮助开发者量化 Agent 在终端环境中的任务解决成功率。目前版本 2.1 已上线排行榜，涵盖构建 Linux 内核等系统管理任务，扩展了单一任务基准测试的局限性。项目提供文档及 Discord 社区支持，挑战长期运行的单任务基准测试。这为评估 AI Agent 在实际系统管理环境中的能力提供了标准化依据，推动 Agent 技术发展。开发者可提交 Agent 进行测试，查看完整排行榜数据。",
-    "tags": [
-      "Dev",
-      "Benchmark",
-      "Agent"
-    ],
-    "link": "https://www.tbench.ai/",
-    "date": "2026-08-25",
-    "id": "17876506024483"
-  },
-  {
-    "title": "Ablo：为 AI Agent 提供协作基础设施",
-    "summary": "开源项目 Ablo 让 AI 应用支持多用户协作功能。",
-    "detail": "Show HN 项目 Ablo 提供了 AI Agent 的协作基础设施。通过 npm 包集成，开发者可使 AI 应用支持多用户互动。项目包含文档、API 及快速入门指南，基于 Apache 2.0 许可。适用于需要多 Agent 或用户协同工作的开发场景，简化协作逻辑构建。支持 Node 24+ 环境，包含类型定义。这使得构建 multiplayer AI 应用变得更加简单，解决了 Agent 间通信与协作的底层架构问题，促进生态发展。GitHub 仓库提供完整源代码及贡献指南，方便社区参与改进。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Infrastructure"
-    ],
-    "link": "https://github.com/Abloatai/ablo",
-    "date": "2026-08-25",
-    "id": "17876506024484"
   }
 ]
