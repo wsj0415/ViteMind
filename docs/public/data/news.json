@@ -1,5 +1,83 @@
 [
   {
+    "title": "微软发布 Maia 200 AI 加速器",
+    "summary": "微软在 Hot Chips 2026 展示第二代自研 AI 芯片，3nm 工艺。",
+    "detail": "微软在 Hot Chips 2026 上深入介绍了 Maia 200 AI 加速器架构。作为第二代自研芯片，采用 3nm 工艺，拥有 1400 亿晶体管，配备 6 栈 HBM3e 内存，TDP 为 750W。虽然芯片尺寸设计不算激进，但性能与功耗仍需综合考量。该芯片将部署于 Azure 数据中心，旨在优化性能与功耗平衡，标志着 hyperscalers 自研芯片趋势的深化。此次演讲详细介绍了架构目标及 SoC 设计 tweaks，显示出微软在 AI 硬件领域的持续投入与迭代能力。此外，该设计 paired with HBM3e memory，总芯片 TDP 控制在 750 瓦特，尽管单芯片功耗可控，但在机架部署中累积功耗仍需谨慎管理。这一进展表明微软正逐步减少对外部供应商的依赖，构建更垂直整合的 AI 基础设施栈，为云端 AI 服务提供底层支撑。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Azure"
+    ],
+    "link": "https://www.servethehome.com/microsofts-maia-200-accelerator-at-hot-chips-2026/",
+    "date": "2026-08-26",
+    "id": "17877072443540"
+  },
+  {
+    "title": "OpenAI 降价且 Stripe 收购 OpenRouter",
+    "summary": "OpenAI 下调 API 价格超 20%，Stripe 达成收购 OpenRouter 协议。",
+    "detail": "OpenAI 宣布 GPT-5.6 Sol API 及信用定价下调超 20%，为期三个月，以应对市场竞争。与此同时，支付巨头 Stripe 同意收购模型路由平台 OpenRouter，将模型路由功能整合进支付平台。此外，Google 获得与 Marvell 定制 AI 芯片购买相关的认股权证，显示大厂对 AI 基础设施的持续投入。FT 报道显示 Anthropic 最高端模型企业需求疲软，可能促使 OpenAI 通过降价策略争夺市场份额。Stripe 的收购意味着模型路由将更紧密地嵌入金融与开发工作流，降低开发者切换模型的成本。这些动态表明 AI 模型市场正进入价格竞争与生态整合阶段，基础设施与支付层的结合将成为新趋势，开发者需关注成本优化与平台锁定风险。",
+    "tags": [
+      "News",
+      "LLM",
+      "M&A"
+    ],
+    "link": "https://msukhareva.substack.com/p/ai-realist-radar-gpt56-sol-pricing",
+    "date": "2026-08-26",
+    "id": "17877072443541"
+  },
+  {
+    "title": "OpenAI 数据中心主管离职",
+    "summary": "OpenAI 数据中心负责人 Chris Malone 离职，引发关注。",
+    "detail": "OpenAI 数据中心主管 Chris Malone 离职，他曾任职于 Meta 和 Google。此举发生在 AI 基础设施扩建 frenzy 期间，尤其涉及 Stargate Project 数据中心计划。OpenAI 回应称已重组基础设施组织以支持工作规模。高层变动可能影响其数据中心战略执行及与 Oracle、Nvidia 等合作伙伴的关系。Malone 加入 OpenAI 仅一年多，负责监督数据中心战略执行，其离职时机引人注目。随着 AI 实验室对算力需求激增，数据中心策略成为核心竞争点，人员流动可能暗示内部战略调整或外部压力。OpenAI 强调团队仍具备深厚经验，但关键岗位变动仍需观察后续对 Stargate 项目及美国数据中心开发计划的影响，这关乎其长期算力供应稳定性。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Management"
+    ],
+    "link": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
+    "date": "2026-08-26",
+    "id": "17877072443542"
+  },
+  {
+    "title": "机器人初创 Generalist 估值达 30 亿美元",
+    "summary": "机器人初创公司 Generalist 获高估值，显示赛道热度。",
+    "detail": "机器人初创公司 Generalist 估值达到 30 亿美元，显示出资本市场对通用机器人技术的强烈信心。尽管具体融资细节未完全披露，但这一估值里程碑反映了 AI 与机器人结合领域的快速发展。随着具身智能成为焦点，此类高估值案例可能推动更多资金涌入机器人硬件与算法整合领域。消息来源指出这一估值近期达成，表明投资者看好其通用性技术路径。在 AI 大模型赋能下，机器人初创企业正经历价值重估，Generalist 的成功可能激励更多创业者进入该赛道。然而，高估值也意味着交付压力，市场将关注其能否将技术转化为实际商业应用，这将是检验具身智能落地能力的关键案例，影响行业投资风向。",
+    "tags": [
+      "News",
+      "Robotics",
+      "Funding"
+    ],
+    "link": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
+    "date": "2026-08-26",
+    "id": "17877072443543"
+  },
+  {
+    "title": "AI 辅助证明理论生物学定理",
+    "summary": "研究人员利用 AI 形式化验证了 RNA 折叠问题定理。",
+    "detail": "研究人员利用 GPT-5.6 Sol、Claude Code 等模型，结合 Lean 形式化验证，证明了理论生物学中关于 RNA 目标可设计性的定理。这是 AI 生成、人类指导并经形式化验证的数学证明。该案例展示了不同模型互补的优势，以及 AI 在科学发现中辅助严谨证明的潜力，为生物计算提供新范式。研究者指出，若无 AI 无法完成此工作，通过 adversarial review cycles 确保正确性。这揭示了 AI 在非数学专业领域辅助严谨证明的能力，化学与生物学问题可通过封闭数学模型解决。该研究强调了形式化验证的重要性，为 AI 辅助科学研究提供了可靠路径，未来可能加速生物制药与基因工程领域的理论突破，降低实验试错成本。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Science"
+    ],
+    "link": "https://twitter.com/curiouswavefn/status/2092380964668534967",
+    "date": "2026-08-25",
+    "id": "17877072443544"
+  },
+  {
+    "title": "Slack 上线 DocEndorse AI 代理",
+    "summary": "新 AI 代理可自动准备并发送文件以供签名。",
+    "detail": "DocEndorse AI Agent 正式登陆 Slack Marketplace，旨在 autonomously 准备和发送文件以供签名。该应用支持文件管理和销售类别，提供免费及付费计划。作为 AI 代理在工作流中的具体应用，它展示了 AI 如何自动化日常行政任务，提升企业协作效率，是 AI 融入现有 SaaS 生态的典型案例。用户可通过 Slack 直接安装，支持英语，开发者提供专门支持渠道。此类 Agent 的涌现表明 AI 正从对话转向行动，深度集成于企业通讯工具中。通过自动化文档签署流程，企业可减少手动操作错误，加快业务闭环。随着 Agent 生态成熟，未来将有更多垂直领域 Agent 出现，重塑工作流自动化标准，提升整体生产力。",
+    "tags": [
+      "New",
+      "Agent",
+      "SaaS"
+    ],
+    "link": "https://slack.com/marketplace/A095XNK8GPK-docendorse-ai-agent?nojsmode=1",
+    "date": "2026-08-25",
+    "id": "17877072443545"
+  },
+  {
     "title": "OpenAI 发布自研推理芯片 Jalapeño 首批测试结果",
     "summary": "OpenAI 自研芯片 Jalapeño 能效显著提升，延迟降低最高 3.6 倍。",
     "detail": "OpenAI 公布了其首款定制推理芯片 Jalapeño 的初步测试结果。数据显示，该芯片在峰值吞吐量下每瓦特 AI 工作量提升 1.5 至 1.9 倍，端到端延迟降低 1.7 至 3.6 倍。对于高交互工作负载，性能提升 2.1 至 4.1 倍。Jalapeño 展现了全栈优势，支持 GPT-OSS 120B、DeepSeek R1 及 Kimi K2.5 等模型。OpenAI 旨在通过硬件优化降低 AGI 成本，确保 AI 惠及人类，架构在吞吐与延迟间取得平衡。客户将获得更快响应及更可靠访问，随着需求增长，这种全栈设计包括模型、产品、服务软件及芯片的协同优化，标志着推理效率的重要里程碑。",
@@ -1220,83 +1298,5 @@
     "link": "https://jasondoyle.ie/whitepapers/when-ai-decides-what-matters/",
     "date": "2026-08-25",
     "id": "17876359703110"
-  },
-  {
-    "title": "AI 编码时代的新瓶颈：验证而非生成",
-    "summary": "代码生成变快，但验证正确性和安全性成为新挑战。",
-    "detail": "研究表明 AI 助手使编码速度提升 55.8%，但软件交付瓶颈转移至验证环节。生成代码容易，确保其正确、安全且符合业务需求更难。团队需调整流程，加强 PR 审查、测试及安全控制，以应对 AI 带来的代码量激增和潜在风险。如果实现能力增长快于验证能力，约束将下移。这是重度使用 AI 团队的重要工程问题，需平衡生成速度与交付信任。代码生成和可信软件交付之间存在区别，AI 代理可以在几分钟内生成 PR，但审查仍需人工。验证瓶颈成为新的关键挑战，需要建立更严格的测试和安全控制流程，以确保快速生成的代码不会引入漏洞或偏离业务需求，从而保障软件交付的质量。",
-    "tags": [
-      "Dev",
-      "Software Engineering",
-      "LLM"
-    ],
-    "link": "https://pragmaticbydefault.com/posts/ai-verification-bottleneck/",
-    "date": "2026-08-25",
-    "id": "17876359703111"
-  },
-  {
-    "title": "Darkbloom 去中心化 AI 推理安全审计请求",
-    "summary": "社区要求对 Darkbloom Mac 推理系统进行独立安全审计。",
-    "detail": "Darkbloom 声称在 Mac 上进行隐私保护推理，但社区指出其 attestation 链存在漏洞。具体问题涉及设备序列号与 Secure Enclave 密钥未加密绑定，可能导致 spoofing 攻击。项目方被请求发布第三方审计报告，以验证其隐私和安全声明的真实性。这是一个建设性请求，要求透明度匹配其安全姿态。直到 macOS 27 提供必要原语前，此问题无法完全解决。恶意行为者可能利用此 gap 注册无保护设备。社区要求 Eigen Labs 委托独立第三方审计协调器和协议。这些严重的安全声明需要严肃的验证，工程工作虽值得肯定，但透明度对于建立信任至关重要，尤其是涉及硬件加密内存和 attestation 链时。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Decentralized AI"
-    ],
-    "link": "https://github.com/Layr-Labs/d-inference/issues/705",
-    "date": "2026-08-25",
-    "id": "17876359703112"
-  },
-  {
-    "title": "AI 编码导致代码可维护性大幅下降",
-    "summary": "数据显示 AI 生成代码重复率上升，遗留代码重构减少。",
-    "detail": "GitClear 研究显示，AI 辅助提交占四分之一，但代码重复率上升 81%，复用率下降 70%。开发者倾向于生成新代码而非重构遗留代码，导致技术债务累积。AI 可能隐藏错误而非修复，产生浅层应用，行业需关注代码质量而非仅追求生成速度。遗留代码重构自 2023 年以来下降 74%，开发者更愿构建新功能而非维护现有系统，这可能导致长期维护成本激增。违反 DRY 原则，每次需求 AI 都创建新包。代码复用显著下降，标志着远离共享库的转变。虽然代理编码工具效果显著，但其输出往往违背核心软件开发原则，需警惕技术债务 across 八个可维护性指标的上升。",
-    "tags": [
-      "News",
-      "Code Quality",
-      "LLM"
-    ],
-    "link": "https://leaddev.com/ai/code-maintainability-plummets-in-the-ai-coding-era",
-    "date": "2026-08-25",
-    "id": "17876359703113"
-  },
-  {
-    "title": "Nvidia 斥资 60 亿美元构建美国 AI 替代方案",
-    "summary": "Nvidia 计划投资 60 亿美元，打造强大的美国本土 AI 基础设施以应对中国竞争。",
-    "detail": "据华尔街日报报道，Nvidia 正投入巨额资金构建独立于中国供应链之外的 AI 生态系统。这项投资旨在加强美国本土的 AI 计算能力，减少地缘政治风险对半导体和 AI 发展的影响。此举反映了全球 AI 竞争已进入基础设施建设的深水区，硬件巨头正通过垂直整合确保供应链安全与技术主导权，可能重塑全球 AI 算力格局。",
-    "tags": [
-      "News",
-      "Nvidia",
-      "Infrastructure"
-    ],
-    "link": "https://www.wsj.com/tech/ai/nvidia-is-spending-6-billion-to-build-a-powerful-u-s-alternative-to-chinese-ai-c51c38cc",
-    "date": "2026-08-25",
-    "id": "17876327410321"
-  },
-  {
-    "title": "Thomson Reuters 推出高风险 AI  fiduciary 标准",
-    "summary": "针对法律金融领域，提出 Fiduciary-Grade AI 标准，强调准确性与可验证性。",
-    "detail": "Thomson Reuters 指出通用 AI 标准不适用于高风险专业领域。他们提出了 Fiduciary-Grade AI™ 标准，要求 AI 在法律判决、财务披露等场景下必须具备可验证性、透明度和极高的准确性。该标准强调 AI 需基于权威领域内容构建，并由专家审核。这为垂直行业 AI 应用设立了新的合规标杆，表明专业领域 AI 将从追求效率转向追求可信度与责任归属。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Ethics"
-    ],
-    "link": "https://www.thomsonreuters.com/en-us/posts/innovation/thomson-reuters-standard-for-high-stakes-ai/",
-    "date": "2026-08-25",
-    "id": "17876327410322"
-  },
-  {
-    "title": "Supermicro 发布搭载 GB300 的 Super AI Station",
-    "summary": "新一代 AI 工作站提供 20 Pflops FP4 算力及 748GB 相干内存，面向企业级部署。",
-    "detail": "Supermicro 推出了基于 Nvidia 加速器的 Super AI Station，核心配置包括 GB300 芯片，提供高达 20 Pflops 的 FP4 算力及 748GB 相干内存。该系统属于其 AI Factory 解决方案的一部分，旨在为企业提供更高效的本地 AI 训练与推理基础设施。这表明硬件厂商正针对大模型部署的高内存带宽需求进行优化，推动 AI 基础设施向更高密度和能效比发展。",
-    "tags": [
-      "New",
-      "Hardware",
-      "Infrastructure"
-    ],
-    "link": "https://www.supermicro.com/en/accelerators/nvidia/super-ai-station",
-    "date": "2026-08-25",
-    "id": "17876327410323"
   }
 ]
