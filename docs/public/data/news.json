@@ -1,5 +1,70 @@
 [
   {
+    "title": "Stripe 斥资超 70 亿美元收购 OpenRouter",
+    "summary": "Stripe 确认收购模型路由网关 OpenRouter，交易额超 70 亿美元，重塑 AI 支付基础设施。",
+    "detail": "Stripe 正式确认收购 OpenRouter，据报道交易额在 75 亿至 80 亿美元之间，远超其三个月前 13 亿美元的估值。OpenRouter 作为连接 80 多个提供商 400+ 模型的路由网关，此次收购标志着 AI 推理计费已成为支付基础设施的核心部分。行业讨论聚焦于 Token 作为新交换单位的标准化问题，Martin Casado 等投资人认为 Token 是新货币，但成本尚未收敛。此次并购将深刻影响 AI 原生公司的支付与治理架构，确立 Stripe 在 AI 经济计量层的主导地位。支付巨头介入模型路由，意味着谁掌握计量谁就掌握 AI 经济命脉，后续可能引发更多基础设施层并购。",
+    "tags": [
+      "News",
+      "M&A",
+      "Infrastructure"
+    ],
+    "link": "https://www.insideainative.com/p/this-week-in-ai-native-companies-b77",
+    "date": "2026-08-26",
+    "id": "17877710545240"
+  },
+  {
+    "title": "Google 发布 GlucoFM 连续血糖监测基础模型",
+    "summary": "Google Research 推出 GlucoFM，利用基础模型解析连续血糖监测数据，评估糖尿病风险。",
+    "detail": "Google Research 发布 GlucoFM，专为连续血糖监测 (CGM) 设计的基础模型。不同于现有模型单一流处理，GlucoFM 显式分离慢速基线与瞬态事件动态，能在临床标签稀缺情况下估算糖尿病风险及胰岛素抵抗。该技术有望通过日常 CGM 数据改善慢性病管理，推动医疗 AI 在生理信号解析领域的突破。现有模型如 CGMformer 未区分基线与事件，GlucoFM 利用每日数据估计β细胞功能障碍，解决了高质量临床标签稀缺且 costly 的痛点，为可穿戴设备提供更直接的葡萄糖调节视图。相比传统运动传感器，CGM 捕捉禁食及餐后模式，GlucoFM 使这些数据更易解读，具有重大临床价值。",
+    "tags": [
+      "News",
+      "HealthAI",
+      "FoundationModel"
+    ],
+    "link": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/",
+    "date": "2026-08-26",
+    "id": "17877710545241"
+  },
+  {
+    "title": "AI 水印强制政策可能暴露记者匿名来源",
+    "summary": "人权组织警告 AI 水印 mandate 可能危及记者隐私，即便未使用 AI 也可能被追踪。",
+    "detail": "人权组织 WITNESS 发布报告指出，强制 AI 水印政策（如 C2PA）可能带来监控风险。即便记者未使用 AI 生成内容，其生产软件的元数据也可能暴露匿名来源身份。这对调查性新闻构成威胁，凸显了 AI 透明度规则与隐私保护之间的权衡。政策制定者需警惕技术实现不当导致的意外 surveillance 后果。Anthropic 已实施水印，但二元标签可能误伤合法用户。纪录片制作人若使用启用 C2PA 的软件分享证据，可能无意中暴露身份。这不仅是技术问题，更是人权与新闻自由的博弈，需更细致的政策框架。欧盟代码实践虽获支持，但隐私缺口仍存，可能危及线人安全。",
+    "tags": [
+      "News",
+      "Policy",
+      "Ethics"
+    ],
+    "link": "https://www.techdirt.com/2026/08/26/how-ai-watermark-mandates-could-unmask-journalists-who-never-touched-ai/",
+    "date": "2026-08-26",
+    "id": "17877710545242"
+  },
+  {
+    "title": "AI 自主构建开源 Codex Micro 替代品 AgentPad13",
+    "summary": "AI 代理 Marvin 自主设计 PCB，48 小时内打造出成本仅 40 美元的开源宏键盘。",
+    "detail": "Iluvatar Labs 展示 AI 科学家 Marvin 自主构建 AgentPad13 的过程。作为 $230 Codex Micro 的开源替代品，Marvin 在 48 小时内研究 PCB 路由并完成模拟，总成本控制在 40 美元以内。该项目验证了自主 Agent 在硬件设计领域的潜力，为开发者提供了低成本、可定制的物理交互设备方案。Codex Micro 迅速售罄且昂贵，AgentPad13 保留功能集与设计语言，使用标准开关与固件。AI 处理了预算与空间约束下的代理 PCB 路由，展示了 AI 从软件向物理世界延伸的能力，开源社区可基于此配置器自行构建。这不仅降低了硬件门槛，更证明了 AI Agent 具备解决复杂工程问题的自主学习能力。",
+    "tags": [
+      "New",
+      "Agent",
+      "Hardware"
+    ],
+    "link": "https://iluvatarlabs.com/blog/2026/08/how-we-cloned-openai-codex-micro/",
+    "date": "2026-08-26",
+    "id": "17877710545243"
+  },
+  {
+    "title": "Physlint 提供物理 AI 数据确定性完整性检查",
+    "summary": "开源工具 Physlint 用于机器人学习数据集训练前的本地确定性验证。",
+    "detail": "新开源项目 Physlint 专注于物理 AI 数据的完整性检查。作为本地优先、确定性的验证工具，它能在训练前检测机器人学习数据集的问题。支持 Python 3.11+，采用 MIT 许可。对于依赖高质量物理交互数据的机器人开发团队，该工具能有效降低因数据错误导致的训练失败风险，提升物理 AI 系统可靠性。Robot data integrity before training 是核心理念，解决物理 AI  recordings 中的噪声与不一致性。本地运行确保数据隐私，确定性验证保证结果可复现，是机器人学习 pipeline 中的重要前置环节，有助于加速 sim-to-real 迁移。适用于需要高可靠性物理交互数据的自动驾驶与机械臂训练场景。",
+    "tags": [
+      "Dev",
+      "Robotics",
+      "Data"
+    ],
+    "link": "https://github.com/pranayjoshi/physlint",
+    "date": "2026-08-26",
+    "id": "17877710545244"
+  },
+  {
     "title": "Claude 发布 AI 原生 SDLC 指南",
     "summary": "Claude 发布 AI 原生 SDLC 指南，重构软件开发流程，释放 Agent 编码潜力，阻碍效率的传统审批需改变。",
     "detail": "Claude 团队正式发布 AI 原生软件开发生命周期（SDLC）指南，指出当前代码生成速度已不再是瓶颈，但传统审批、评审和交接流程严重阻碍了 AI 编码效率的提升。指南建议企业围绕 Agentic AI 能力重建开发流程，在确保人类在环的前提下，优化规划、设计到部署的六个阶段。传统 SDLC 设计于代码编写最耗时的时代，如今需改变。这对于希望最大化 AI 价值的工程团队具有重要的流程变革指导意义，标志着 SDLC 进入新阶段。组织需调整策略以适应 AI 速度。",
@@ -1233,70 +1298,5 @@
     "link": "https://arxiv.org/abs/2608.21986",
     "date": "2026-08-25",
     "id": "17876832457741"
-  },
-  {
-    "title": "深度解析 Anthropic Claude 水印机制",
-    "summary": "分析 Claude 输出水印技术，指出其在引用和翻译场景下的局限性。",
-    "detail": "本文深入分析了 Anthropic 近期在 Claude 模型中引入的水印机制，其原理类似于 Google SynthID，通过在采样时引入统计偏差实现。然而，该技术存在局限性：在逐字引用或严格翻译场景下，因模型缺乏“回答自由度”，水印信号会显著减弱。目前尚无公开工具验证水印概率。该技术核心在于标识“谁决定了措辞”，而非单纯追踪文本处理历史，为 AI 内容溯源提供了新思路但也面临技术挑战。",
-    "tags": [
-      "News",
-      "LLM",
-      "Security"
-    ],
-    "link": "https://www.explore-exploit.com/p/dribbling-the-ai-watermark-directly",
-    "date": "2026-08-25",
-    "id": "17876832457742"
-  },
-  {
-    "title": "AI 使用成开源维护者的“拒绝服务攻击”",
-    "summary": "LLM 训练数据抓取导致开源维护者服务器过载，社区呼吁新规范。",
-    "detail": "Phoronix 最新报道指出，AI 大模型训练过程中对开源代码库的频繁抓取，已演变成针对开源维护者的“拒绝服务攻击”。这种高流量请求导致个人维护者服务器过载，增加了运营成本与维护压力。文章强调，这不仅是一个技术问题，更引发了关于数据使用伦理与补偿机制的深刻争议。行业亟需建立新的抓取礼仪，平衡 AI 发展与开源生态健康，否则可能导致关键基础设施贡献者流失，影响整个软件供应链的稳定性与安全性。",
-    "tags": [
-      "News",
-      "Open Source",
-      "LLM"
-    ],
-    "link": "https://www.phoronix.com/news/AI-DoS-Attack-Maintainers",
-    "date": "2026-08-25",
-    "id": "17876792322040"
-  },
-  {
-    "title": "AI 怀疑论者的宣言：泡沫与财务真相",
-    "summary": "资深科技分析师 Ed Zitron 发布 manifesto，深度剖析 AI 泡沫与巨头财务。",
-    "detail": "知名科技评论家 Ed Zitron 发布\"AI 怀疑者宣言”，深入分析 NVIDIA、Anthropic 及 OpenAI 的财务状况。文章质疑当前 AI 行业的估值逻辑，指出循环融资风险与泡沫迹象。他对 SaaSpocalypse 及私人信贷的关联分析，揭示了金融系统背后的脆弱性。这对投资者理解 AI 泡沫破裂可能性及市场真实价值具有重要参考意义，提醒市场在狂热中保持冷静，关注基本面而非营销叙事，避免潜在的投资损失。",
-    "tags": [
-      "News",
-      "Finance",
-      "Analysis"
-    ],
-    "link": "https://www.wheresyoured.at/the-ai-haters-manifesto/",
-    "date": "2026-08-25",
-    "id": "17876792322041"
-  },
-  {
-    "title": "AI 编码栈地图：动荡景观中的导航指南",
-    "summary": "开发者指南详解 AI 编码工具核心三元组，助力理清混乱工具链。",
-    "detail": "文章构建了 AI 编码栈的核心地图，清晰区分了 Harness、Model 和 Execution 环境三大核心组件。作者基于源码阅读和预注册实验，而非依赖厂商营销宣传，为开发者提供了辨别各类 AI 编程助手的实用框架。这对于希望在快速变化的 AI 开发 landscape 中选择合适工具的工程师极具价值。面对每周涌现的新工具，该地图帮助团队理清技术栈，避免盲目跟风，从而构建更稳定高效的 AI 辅助开发流程，提升实际生产力与代码质量。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Tools"
-    ],
-    "link": "https://mineti.dev/articles/the-ai-coding-stack/",
-    "date": "2026-08-25",
-    "id": "17876792322042"
-  },
-  {
-    "title": "Meta 定制传输协议：以混沌包提升 AI 吞吐量",
-    "summary": "Meta 推出自定义传输协议，通过容忍包混乱显著优化 AI 集群吞吐量。",
-    "detail": "Meta 公开了其定制传输协议技术，旨在通过拥抱数据包混乱来提升 AI 训练集群的吞吐量。该技术针对大规模分布式训练场景优化，解决了传统 TCP 在高并发下的瓶颈问题。通过容忍网络中的包乱序与丢失，显著提高了 GPU 集群间的通信效率。这是基础设施层的重要创新，可能影响未来 AI 数据中心网络标准，为万亿参数模型训练提供更底层的网络支持，降低硬件成本与能耗，推动算力效率边界。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Meta"
-    ],
-    "link": "https://www.sdxcentral.com/news/metas-custom-transport-protocol-embraces-packet-chaos-to-boost-ai-throughput/",
-    "date": "2026-08-25",
-    "id": "17876792322043"
   }
 ]
