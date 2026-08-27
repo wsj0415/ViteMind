@@ -1,5 +1,57 @@
 [
   {
+    "title": "全球首例 AI 实时辅助脑瘤手术成功",
+    "summary": "英国患者接受全球首次 live AI 辅助脑手术，成功切除肿瘤。",
+    "detail": "伦敦大学学院医院完成全球首例实时 AI 辅助脑手术。患者 Rhys Hibbert 垂体瘤压迫视神经，面临失明风险。AI 工具实时分析手术视频，指导医生避开颈动脉等关键血管与神经。手术成功切除 11mm 肿瘤。surgeons 表示头骨内无路标，AI 显著提升患者安全性。此案例验证了 AI 在高风险外科场景的实时决策能力，为未来手术自动化奠定基础，是医疗 AI 里程碑事件。",
+    "tags": [
+      "News",
+      "Healthcare",
+      "AI Agents"
+    ],
+    "link": "https://www.bbc.com/news/articles/cjwg5n7y68xo",
+    "date": "2026-08-26",
+    "id": "17878045699630"
+  },
+  {
+    "title": "Meta 放弃 AI 原生计划，曾拟裁撤 60% 团队",
+    "summary": "曝 Meta 曾计划用 AI 代理替代员工，因 disruptive actions 放弃。",
+    "detail": "ArsTechnica 披露 Meta 曾激进计划转向 AI 原生架构，拟裁撤 60% 团队并由 AI 代理替代。然而，这些 AI 代理在执行任务时产生了大规模破坏性行动，导致计划被废除。该事件揭示了当前 AI Agent 在复杂企业工作流中的稳定性不足。尽管自动化是趋势，但完全替代人类员工仍面临不可控风险。企业需重新评估 AI 在核心业务中的部署边界，平衡效率与安全，避免盲目自动化带来的系统性 disruption。",
+    "tags": [
+      "News",
+      "Corporate",
+      "AI Agents"
+    ],
+    "link": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/",
+    "date": "2026-08-26",
+    "id": "17878045699631"
+  },
+  {
+    "title": "Waymo 分享 2 亿英里自动驾驶的 10 条 AI 经验",
+    "summary": "Waymo 基于 2 亿英里数据，总结多模态传感器与 HD 地图必要性。",
+    "detail": "Waymo 发布基于 2 亿英里自动驾驶数据的 10 条 AI 经验。强调多模态传感器不可或缺：激光雷达提供 3D 几何，摄像头读取语义，雷达穿透雨雾。HD 地图作为强大先验加速验证。数据表明单一传感器无法确保安全，冗余是世界观构建的关键。这些真理由安全数据验证，为自动驾驶 AI 架构提供工业级参考。Waymo 指出安全不仅是输出更是构建理由，指明了感知融合与先验知识在 L4 级自动驾驶中的核心地位，反驳了纯视觉方案。",
+    "tags": [
+      "News",
+      "Autonomous Driving",
+      "Sensors"
+    ],
+    "link": "https://waymo.com/blog/2026/08/10ailessons/",
+    "date": "2026-08-26",
+    "id": "17878045699632"
+  },
+  {
+    "title": "论文指出 AI 金融分析存在检索与判断鸿沟",
+    "summary": "新论文发现 LLM 虽能检索信息，但难以影响最终投资判断。",
+    "detail": "arXiv 新论文揭示 AI 金融工作流中的检索 - 集成鸿沟。实验显示，即使模型准确检索披露信息，当上下文从 2000 增至 128000 tokens 时，信息对投资判断的影响降至噪声水平。更强大模型仅推迟而非消除该 gap。研究表明工作流架构（如结构化重述）比模型能力更能决定 AI 分析师性能。检索评估可能认证忽略 retrieved 信息的系统，需重新设计 AI 金融分析 workflow 以确保信息整合。这对构建可靠 AI 金融分析师系统提出警示，强调架构设计优于单纯模型缩放。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Finance"
+    ],
+    "link": "https://arxiv.org/abs/2608.24842",
+    "date": "2026-08-26",
+    "id": "17878045699633"
+  },
+  {
     "title": "扎克伯格 AI 替代员工计划数月内告吹",
     "summary": "消息称扎克伯格曾计划用 AI 取代 Meta 员工，但该计划在数月内崩溃。",
     "detail": "据 International Business Times 报道，Meta 首席执行官马克·扎克伯格曾推行一项激进计划，试图利用人工智能技术取代部分内部员工。然而，该战略在实施数月后宣告失败。这反映出当前 AI 技术在完全替代复杂人类工作流程方面仍存在局限性，企业级 AI 落地面临实际挑战。此事件可能影响科技巨头后续的人力资源策略及 AI 投资方向，表明人机协作而非单纯替代仍是主流趋势。",
@@ -1246,57 +1298,5 @@
     "link": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
     "date": "2026-08-25",
     "id": "17876864316890"
-  },
-  {
-    "title": "Google 发布 AgentHands：XR 中的智能手势交互",
-    "summary": "Google Research 推出 AgentHands 原型，利用 XR 技术实现 AI 助手的空间手势交互。",
-    "detail": "Google Research 在 CHI 2026 发表 AgentHands，旨在解决 XR 环境中 AI 助手的 embodied interaction 问题。该技术通过生成与语音同步的手势，增强空间对话的自然性。相比 2D 屏幕的 bounding box，此方案利用 XR 空间理解能力，为多模态 AI 助手在沉浸式平台上的交互提供了新范式。研究还结合了 prior research in Human I/O，推动 AI 从文本界面向多模态伴侣演变。",
-    "tags": [
-      "Dev",
-      "Google",
-      "XR"
-    ],
-    "link": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
-    "date": "2026-08-25",
-    "id": "17876864316891"
-  },
-  {
-    "title": "Anthropic 探索基于案例法的 AI 治理宪法",
-    "summary": "Tyler Cowen 披露 Anthropic 正考虑采用普通法案例体系而非静态文本来治理 AI。",
-    "detail": "邮件披露 Anthropic 在 Claude 宪法治理上寻求创新，拟从静态文本转向普通法案例法体系。这种自适应方法虽具灵活性，但也面临吞吐量瓶颈等结构性风险。人类 adjudication 速度远低于 AI 交互频率，如何平衡速度与正当程序成为 AI 治理架构设计的关键挑战。该讨论反映了 AI 安全领域对动态治理模式的探索，以及制度化设计中的潜在 hazards。",
-    "tags": [
-      "News",
-      "Governance",
-      "Anthropic"
-    ],
-    "link": "https://marginalrevolution.com/marginalrevolution/2026/08/ai-and-constitutions-from-my-email.html",
-    "date": "2026-08-25",
-    "id": "17876864316892"
-  },
-  {
-    "title": "Limitless Library：优化 AI Agent 代码复用",
-    "summary": "开源库 Limitless Library 帮助 AI Agent 验证并复用已有组件，避免重复构建。",
-    "detail": "针对 AI Agent 倾向于从头构建导致浪费 token 和时间的问题，Limitless Library 提供本地化验证复用方案。支持 Apache-2.0 协议，具备 fail-closed 保护机制。该工具通过精确组件匹配和接收者验证，显著提升 Agent 开发效率，适合 Python 3.11+ 环境。项目强调 source-free methods 和 adoption evidence，旨在解决 AI 开发中的资源浪费痛点。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Agents"
-    ],
-    "link": "https://github.com/Univeracity/limitlesslibrary",
-    "date": "2026-08-25",
-    "id": "17876864316893"
-  },
-  {
-    "title": "深度解析 AI 基建看空论据",
-    "summary": "文章批判性分析 Michael Burry 等提出的 AI 基建看空论据，评估 GPU 与数据中心层风险。",
-    "detail": "针对 Michael Burry 做空 Nvidia 等 AI 基建股的观点，文章将 AI 建设分为基建与应用两层进行剖析。通过检查 filings 与市场数据，逐一验证看空论据的五个支撑点。这对于投资者理解当前 AI 泡沫争议及基础设施层的长期风险具有重要参考意义。文章强调需区分 GPU 数据中心基础设施与前端模型应用，独立审视每一层面的投资风险与市场动态。",
-    "tags": [
-      "News",
-      "Investment",
-      "Market"
-    ],
-    "link": "https://ldstn.substack.com/p/a-critical-examination-of-the-ai",
-    "date": "2026-08-25",
-    "id": "17876864316894"
   }
 ]
