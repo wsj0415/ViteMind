@@ -1,5 +1,83 @@
 [
   {
+    "title": "Stanford 发布 Terminal-Bench-Science 科学工作流基准",
+    "summary": "首个由科学家主导的 AI 代理基准，评估 AI 在科研任务中的表现。",
+    "detail": "斯坦福大学牵头发布 Terminal-Bench-Science，旨在评估 AI 代理在真实科学研究工作流中的能力。基准包含 70 个跨学科任务，由领域专家策划，涵盖生命、物理及工程科学。测试显示最强模型 Claude Opus 5 解决率仅为 30%，表明 AI 在科学领域的自动化仍有巨大差距。该基准将持续演进，连接科研需求与 AI 开发，由 Terminal-Bench 团队与全球研究机构合作构建，致力于推动具备科学能力的 AI 代理发展，形成科研需求与 AI 进步的反馈循环。科学家而非模型开发商设定标准，确保评估反映真实研究需求，推动 AI 在科研辅助工具上的实质性突破。",
+    "tags": [
+      "Dev",
+      "Benchmark",
+      "Research"
+    ],
+    "link": "https://www.terminal-bench-science.ai/announcement",
+    "date": "2026-08-28",
+    "id": "17878800553541"
+  },
+  {
+    "title": "Awareness Local：为 AI 编程代理提供本地优先记忆",
+    "summary": "开源工具支持离线运行，为 Cursor 等代理提供持久化记忆存储。",
+    "detail": "GitHub 新项目 Awareness Local 专为 AI coding agents 设计，提供本地优先的记忆解决方案。支持 Claude Code、Cursor 等工具，无需账户即可离线运行。采用 Markdown 存储与混合搜索技术（FTS5 + embedding），遵循 MCP 协议。适合注重隐私与数据本地化的开发者，增强代理的上下文持久性。项目提供 Web 仪表盘，支持混合搜索与持久化存储，确保敏感代码数据不出本地环境。通过一条命令即可集成，大幅降低 AI 代理记忆模块的部署门槛，提升开发效率与数据安全性。在 LongMemEval 评测中 R@5 达到 96%，证明其在长上下文记忆检索方面的卓越性能，是构建本地化 AI 工作流的理想选择。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://github.com/everest-an/Awareness-Market",
+    "date": "2026-08-28",
+    "id": "17878800553542"
+  },
+  {
+    "title": "wanno：iPhone 上的 AI 网页与应用程序构建器",
+    "summary": "仅需描述想法即可生成真实网站或应用，支持触摸编辑。",
+    "detail": "App Store 新品 wanno 允许用户通过自然语言描述生成完整的网站或应用。支持 iPhone 端操作，可语音或文字输入需求，实时预览构建过程。提供触摸编辑功能，无需代码即可修改设计内容。涵盖落地页、在线商店等多种模板，一键发布至 wanno.dev 域名，适合非技术用户快速验证创意。支持上传照片作为构建参考，内容可随时调整而无需重新开始。应用免费并提供应用内购买选项，专为 iPhone 设计，让创意快速转化为可交互的数字产品，降低创业门槛。构建过程中可继续输入新请求，系统会自动排队处理，确保流畅的生成体验与即时反馈。",
+    "tags": [
+      "New",
+      "NoCode",
+      "iOS"
+    ],
+    "link": "https://apps.apple.com/us/app/wanno-ai-web-app-builder/id6795772860",
+    "date": "2026-08-28",
+    "id": "17878800553545"
+  },
+  {
+    "title": "Anthropic 与 OpenAI 确认出席 TechCrunch Disrupt 2026",
+    "summary": "两大 AI 巨头将在旧金山 TechCrunch 大会上探讨 AI 商业模式与安全。",
+    "detail": "TechCrunch 正式宣布 Anthropic 和 OpenAI 将加入 2026 年 Disrupt 大会的 AI 舞台，活动定于 10 月 13-15 日在旧金山 Moscone 中心举行。本次大会重点讨论 AI 原生世界的商业模式重构、代理安全基础设施及定价策略。Anthropic 应用 AI 负责人将分享 Claude 在企业部署后的实际见解，标志着行业关注点从单纯的技术探索转向商业化落地与安全性深度讨论。此外，大会还将探讨 AI 创造的新 job 类别，为创业者提供关键市场指引。目前购票窗口即将关闭，早期注册可节省高达 200 美元，行业领袖将齐聚一堂解决创始人面临的真实问题，涵盖数据安全与客户规模化挑战。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Anthropic"
+    ],
+    "link": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
+    "date": "2026-08-27",
+    "id": "17878800553540"
+  },
+  {
+    "title": "AI 发现 Bitcoin Lightning 关键漏洞，开发者紧急预警",
+    "summary": "人工智能辅助审计揭示比特币闪电网络存在严重安全风险。",
+    "detail": "Decrypt 报道，AI 系统在审计中发现 Bitcoin Lightning 网络存在关键缺陷，开发者已发布紧急警告。此事件凸显了 AI 在代码安全审计领域的强大能力，同时也暴露了现有加密货币基础设施的潜在风险。安全团队正在评估影响范围，建议用户密切关注后续补丁更新，以防资金损失。此次漏洞发现展示了自动化安全工具在区块链领域的实际应用价值，可能引发对智能合约审计流程的重新审视。社区正紧急协作修复，避免潜在的大规模资金安全风险，体现了 AI 辅助安全防御的双刃剑效应。随着 AI 审计能力增强，传统加密协议的安全性将面临更高标准的挑战，开发者需更新安全策略。",
+    "tags": [
+      "News",
+      "Security",
+      "Bitcoin"
+    ],
+    "link": "https://decrypt.co/376714/ai-critical-flaw-bitcoin-lightning-warning",
+    "date": "2026-08-27",
+    "id": "17878800553543"
+  },
+  {
+    "title": "0code：提供免费可持续的无限 AI API 调用服务",
+    "summary": "开发者工具支持无 SDK 调用，自动故障转移且永久免费。",
+    "detail": "0code 推出可持续的无限 AI 调用服务，承诺永久免费。通过单一稳定端点 `GET /api/chat/<prompt>` 即可调用，无需 SDK。具备自动故障转移机制，避免单一提供商限制，并根据响应速度智能路由。适合原型开发及个人项目，解决了 API 配额与锁定的痛点，强调资源可持续利用。平台设计轻量级机器人保护，确保共享容量可供真实用户使用。无需重写应用即可切换提供商，避免供应商锁定风险。对于初创团队和独立开发者而言，这是降低 AI 集成成本的有效方案，支持多种语言脚本直接调用。在高使用量期间，请求会安全地在后台排队完成，确保服务稳定性与可用性，无需担心配额耗尽问题。",
+    "tags": [
+      "Deal",
+      "API",
+      "DevTool"
+    ],
+    "link": "https://zerocodeplex.pages.dev/",
+    "date": "2026-08-27",
+    "id": "17878800553544"
+  },
+  {
     "title": "Google AI Mode 升级：支持航班追踪与酒店预订",
     "summary": "Google AI Mode 新增旅行规划功能，可追踪票价并直接预订酒店。",
     "detail": "Google 宣布为 AI Mode 对话式搜索新增旅行规划功能。用户现在可要求 AI 追踪航班价格变动、查看积分兑换成本，并直接完成酒店预订。更新覆盖全球 180 多国，标志着 Google 将 AI Mode 定位为智能旅行代理，从信息检索转向实际交易处理。此举深化了 AI 在垂直服务领域的落地，提升了用户行程规划效率，展现了搜索巨头在 AI 代理化方向的最新进展。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.washingtonpost.com/technology/interactive/2026/08/25/ai-detectors-like-pangram-are-everywhere-arent-always-accurate/",
     "date": "2026-08-25",
     "id": "17876934620390"
-  },
-  {
-    "title": "谷歌拟收购精神航空数据以增强 AI 能力",
-    "summary": "谷歌计划通过购买破产航司数据，优化 AI 模型与业务决策。",
-    "detail": "彭博社法律新闻报道，谷歌旨在通过购买破产的精神航空（Spirit Airlines）数据来显著增强其 AI 能力。此举发生在航司破产法律程序中，显示科技巨头正积极获取垂直行业特定数据以训练专用模型。这将直接增强谷歌在旅游预测、物流优化及消费者行为分析领域的 AI 竞争力。体现数据收购新趋势，可能改变行业数据格局，加速 AI 在垂直领域的落地应用与商业化进程。",
-    "tags": [
-      "News",
-      "Google",
-      "Data"
-    ],
-    "link": "https://news.bloomberglaw.com/bankruptcy-law/google-aims-to-boost-ai-with-purchase-of-spirit-airlines-data",
-    "date": "2026-08-25",
-    "id": "17876934620391"
-  },
-  {
-    "title": "2026 欧盟 AI 披露报告：仅一成网站合规",
-    "summary": "扫描千个欧盟网站发现，仅约 10% 的聊天 widget 披露了 AI 身份。",
-    "detail": "Disclosure Proof 发布 2026 年 AI 披露现状研究报告。在扫描的 1088 个欧盟面向网站中，修正误差后约 11% 显示真实聊天启动器，其中仅十分之一披露了自动化身份。欧盟 AI 法案第 50 条生效八天后，合规率仍低。报告指出大部分交互内容对自动化访客不可见，监管落地与实际执行之间存在显著差距。企业需加强合规建设，避免法律风险，提升用户透明度与信任。",
-    "tags": [
-      "News",
-      "Regulation",
-      "EU"
-    ],
-    "link": "https://disclosureproof.com/research/state-of-ai-disclosure/",
-    "date": "2026-08-25",
-    "id": "17876934620392"
-  },
-  {
-    "title": "MREA：开源多角色 AI 代理治理框架",
-    "summary": "新开源框架解决企业级 AI 开发中的代理失控与上下文污染问题。",
-    "detail": "GitHub 发布 MREA 框架，专为多角色企业代理设计的企业级治理方案。针对单一代理导致的过度工程、范围蔓延及自我验证偏见，MREA 分离了 Orchestrator、设计与实施职责。引入人类审批门控与证据决策机制，解决上下文污染与 Token 浪费问题。适合复杂企业代码库的 AI 辅助开发治理，提升代码质量与安全，为大规模 AI 工程化提供最佳实践参考。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Agents"
-    ],
-    "link": "https://github.com/JairValle/mrea-framework",
-    "date": "2026-08-25",
-    "id": "17876934620393"
-  },
-  {
-    "title": "IETF 126 探讨 AI 与 IPv6 及未来互联网",
-    "summary": "APNIC 博客报道 IETF 会议，分析 AI 流量对网络基础设施的影响。",
-    "detail": "APNIC 博客总结了 IETF 126 会议内容，重点讨论 AI、IPv6 与未来互联网架构的交汇点。随着 AI 流量激增，网络层需适配新需求。会议探讨了如何通过 IPv6 扩展支持 AI 分布式计算，以及 AI 如何优化网络管理。这为下一代互联网基础设施规划提供了关键技术方向与标准建议，影响全球网络演进路线，确保网络能承载未来 AI 负载。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "IPv6"
-    ],
-    "link": "https://blog.apnic.net/2026/08/25/ai-ipv6-and-the-future-internet-at-ietf-126/",
-    "date": "2026-08-25",
-    "id": "17876934620394"
-  },
-  {
-    "title": "媒体批评纽约时报发布低质 AI 生成内容",
-    "summary": "Substack 文章指责纽约时报刊登缺乏深度的 AI 生成体育评论。",
-    "detail": "一篇 Substack 文章批评纽约时报 published 关于梅西的 AI 生成内容，称其为\"slop\"（低质废料）。作者认为该文章缺乏人类情感深度与独特视角，反映了主流媒体在 AI 内容泛滥下面临的质量危机。这引发对新闻业伦理、编辑标准与 AI 使用边界的广泛讨论。警示媒体勿牺牲质量换取效率，损害品牌公信力，需重新审视人机协作的内容生产模式。",
-    "tags": [
-      "News",
-      "Media",
-      "Ethics"
-    ],
-    "link": "https://unpublishablepapers.substack.com/p/the-new-york-times-is-publishing",
-    "date": "2026-08-25",
-    "id": "17876934620395"
-  },
-  {
-    "title": "RankSpot：AI 驱动的 SEO 博客竞争情报工具",
-    "summary": "新品 RankSpot 利用深度竞争情报自动生成 SEO 优化博客文章。",
-    "detail": "Product Hunt 展示新品 RankSpot，主打 AI SEO 博客生成与竞争情报分析。通过深度 competitor intelligence 分析，自动创建针对 Google 及 AI 搜索优化的内容。提供集成、API 文档及免费试用，旨在帮助企业在 AI 搜索时代获取流量。适合营销团队使用，解决内容创作与 SEO 排名痛点，提升营销效率。标志着 AI 在营销自动化领域的进一步渗透与工具成熟。",
-    "tags": [
-      "New",
-      "SEO",
-      "Marketing"
-    ],
-    "link": "https://www.rankspot.ai",
-    "date": "2026-08-25",
-    "id": "17876934620397"
   }
 ]
