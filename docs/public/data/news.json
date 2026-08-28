@@ -1,5 +1,70 @@
 [
   {
+    "title": "Anthropic 揭示 AI 自我改进新进展",
+    "summary": "Anthropic 研究员展示 AI 自动改善对齐失败的研究成果。",
+    "detail": "Anthropic 研究员 Chen Yueh-Han 发表新论文《Automated Researchers Can Reliably Mitigate Alignment Failures》，展示自动化系统如何可靠地改善模型对齐基准。该系统模拟传统研究流程，搜索文献、提出方法并训练模型 30 分钟，通过迭代保留有效方法。实验显示，在不降低整体性能的前提下，系统成功改善了所有 10 个特定错误行为基准。这标志着递归自我改进迈出了关键一步，证明自动化对齐后训练在短期内具备可行性。若模型能自我改进对齐，未来或可扩展至更广泛训练实践，深刻改变 AI 研究格局与人类研究员的角色。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Research"
+    ],
+    "link": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+    "date": "2026-08-28",
+    "id": "17879597429740"
+  },
+  {
+    "title": "FreshCtx：防止 AI 代理基于过时证据推理",
+    "summary": "开源工具 FreshCtx 确保 AI 代理行动前验证数据新鲜度。",
+    "detail": "Hyperwise LLC 推出开源项目 FreshCtx，专为 AI 代理设计的新鲜度验证层。它在代理执行受保护行动前，重新验证声明的依赖项和源观察记录，防止基于过时证据推理。该工具模型中立、本地优先且无需账户，不发送遥测数据。支持 Python 3.10–3.13，旨在解决 AI 代理基于 stale reasoning 行动的问题，提升 agent 系统可靠性与安全性。通过记录源观察并将推理链接到这些观察，FreshCtx 确保决策依据的实时性，适合需要高可信度决策的本地优先开发场景，是构建稳健 AI 代理的重要基础设施。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "OpenSource"
+    ],
+    "link": "https://github.com/Hyperwise-LLC/freshctx",
+    "date": "2026-08-28",
+    "id": "17879597429741"
+  },
+  {
+    "title": "A2acast：实现跨机器 AI 代理零基础设施通信",
+    "summary": "单文件 Python 工具，让不同电脑上的 AI 代理无缝协作。",
+    "detail": "Show HN 项目 A2acast 提供了一种零基础设施的 A2A 消息传递方案。仅需一个标准库 Python 文件，即可实现 Claude Code、Copilot 等代理在不同机器间的端到端加密通信。无需服务器、账户或开放端口，支持动态加入网格，节点自动发现。通过分享加入代码即可构建 mesh 网络，适合分布式 AI 代理协作。该工具降低了跨设备代理通信门槛，为多机协同任务提供了轻量级、安全的解决方案。支持 ntfy 中继传输，确保消息可达性，是构建分布式 AI 系统的重要工具，让异构设备上的 AI 代理能无缝交换任务与消息。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Infrastructure"
+    ],
+    "link": "https://github.com/husker/a2acast",
+    "date": "2026-08-28",
+    "id": "17879597429742"
+  },
+  {
+    "title": "AI 竞赛可能加剧美国 40 万亿美元债务危机",
+    "summary": "分析指出 AI 经济转型与现有税制冲突，或引爆债务危机。",
+    "detail": "斯坦福数字经济专家 Alvin Wang Graylin 撰文警告，美国联邦债务已超 40 万亿美元，十年间翻倍，年利息支付 exceeds 国防预算。文章指出，AI 将 dismantling 现有经济结构，而税制仍基于旧经济模式。利息账单复合增长与税基侵蚀的双重压力，可能在本十年末导致危机。AI 竞赛不仅是技术博弈，更是财政可持续性的挑战。若不及时调整政策，债务与 AI 经济转型的冲突将引爆系统性风险。文章引用 Herbert Stein 名言，强调不可持续之事终将停止，呼吁各界关注 AI race 背后的宏观财政隐患，避免经济崩溃。",
+    "tags": [
+      "News",
+      "Economy",
+      "Policy"
+    ],
+    "link": "https://abundanist.substack.com/p/the-last-straw",
+    "date": "2026-08-28",
+    "id": "17879597429743"
+  },
+  {
+    "title": "业界呼吁：AI 时代更需要工程纪律而非减少",
+    "summary": "Charity.wtf 发文强调 AI 生成代码仍需严格审查。",
+    "detail": "针对 AI 生成代码质量的争议，Charity.wtf 发文反驳\"放弃代码审查\"的观点。文章强调，尽管 AI 能加速开发，但 2025 年的经验表明 AI 代码仍可能存在缺陷。工程师不应将最差代码直接推入生产环境，而是需要更强的工程纪律来管理 AI 辅助开发，确保系统稳定性。作者回应了技术与伦理层面的反馈，指出 AI 爱好者与怀疑者分别面临时间与熵的竞赛。呼吁行业在拥抱 AI 的同时保持严谨的工程规范，避免技术债务累积，确保 AI 工具真正提升而非削弱软件工程的质量与可靠性。",
+    "tags": [
+      "Dev",
+      "Engineering",
+      "BestPractice"
+    ],
+    "link": "https://charity.wtf/p/ai-demands-more-engineering-discipline",
+    "date": "2026-08-28",
+    "id": "17879597429744"
+  },
+  {
     "title": "AI 代理护栏失效，平台安全成新焦点",
     "summary": "文章指出传统护栏无法保障 AI 代理安全，需构建更安全平台。",
     "detail": "文章深入探讨了 AI 代理在生产环境中的安全性问题。作者指出，传统的“护栏”机制试图约束 AI 行为，但无法解决根本的架构缺陷。AI 的核心价值在于创造性与模糊推理，但这恰恰是生产基础设施所需确定性的对立面。若代理可直接执行基础设施变更，风险极高。文章建议转向构建更安全的平台架构，借鉴 IaC 经验，而非单纯依赖事后约束。这对企业级 AI 部署具有重要指导意义，强调了平台工程在 AI 安全中的核心地位，提醒开发者重新审视安全边界的设计逻辑，避免将即兴系统用于关键任务。",
@@ -1233,70 +1298,5 @@
     "link": "https://codeberg.org/Codeberg/org/compare/17bdb39b0c1ecd0e423f3ba592650ce57fcdfbf5..71149c7fc95ccfeae36109b5cddca339e4aa1473?files=TermsOfUse.md#diff-d760d688bb9b929b62db808bfc76abe4493d095a",
     "date": "2026-08-25",
     "id": "17877136611924"
-  },
-  {
-    "title": "AI 辅助证明理论生物学定理",
-    "summary": "研究人员利用 AI 形式化验证了 RNA 折叠问题定理。",
-    "detail": "研究人员利用 GPT-5.6 Sol、Claude Code 等模型，结合 Lean 形式化验证，证明了理论生物学中关于 RNA 目标可设计性的定理。这是 AI 生成、人类指导并经形式化验证的数学证明。该案例展示了不同模型互补的优势，以及 AI 在科学发现中辅助严谨证明的潜力，为生物计算提供新范式。研究者指出，若无 AI 无法完成此工作，通过 adversarial review cycles 确保正确性。这揭示了 AI 在非数学专业领域辅助严谨证明的能力，化学与生物学问题可通过封闭数学模型解决。该研究强调了形式化验证的重要性，为 AI 辅助科学研究提供了可靠路径，未来可能加速生物制药与基因工程领域的理论突破，降低实验试错成本。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Science"
-    ],
-    "link": "https://twitter.com/curiouswavefn/status/2092380964668534967",
-    "date": "2026-08-25",
-    "id": "17877072443544"
-  },
-  {
-    "title": "Slack 上线 DocEndorse AI 代理",
-    "summary": "新 AI 代理可自动准备并发送文件以供签名。",
-    "detail": "DocEndorse AI Agent 正式登陆 Slack Marketplace，旨在 autonomously 准备和发送文件以供签名。该应用支持文件管理和销售类别，提供免费及付费计划。作为 AI 代理在工作流中的具体应用，它展示了 AI 如何自动化日常行政任务，提升企业协作效率，是 AI 融入现有 SaaS 生态的典型案例。用户可通过 Slack 直接安装，支持英语，开发者提供专门支持渠道。此类 Agent 的涌现表明 AI 正从对话转向行动，深度集成于企业通讯工具中。通过自动化文档签署流程，企业可减少手动操作错误，加快业务闭环。随着 Agent 生态成熟，未来将有更多垂直领域 Agent 出现，重塑工作流自动化标准，提升整体生产力。",
-    "tags": [
-      "New",
-      "Agent",
-      "SaaS"
-    ],
-    "link": "https://slack.com/marketplace/A095XNK8GPK-docendorse-ai-agent?nojsmode=1",
-    "date": "2026-08-25",
-    "id": "17877072443545"
-  },
-  {
-    "title": "OpenAI 发布自研推理芯片 Jalapeño 首批测试结果",
-    "summary": "OpenAI 自研芯片 Jalapeño 能效显著提升，延迟降低最高 3.6 倍。",
-    "detail": "OpenAI 公布了其首款定制推理芯片 Jalapeño 的初步测试结果。数据显示，该芯片在峰值吞吐量下每瓦特 AI 工作量提升 1.5 至 1.9 倍，端到端延迟降低 1.7 至 3.6 倍。对于高交互工作负载，性能提升 2.1 至 4.1 倍。Jalapeño 展现了全栈优势，支持 GPT-OSS 120B、DeepSeek R1 及 Kimi K2.5 等模型。OpenAI 旨在通过硬件优化降低 AGI 成本，确保 AI 惠及人类，架构在吞吐与延迟间取得平衡。客户将获得更快响应及更可靠访问，随着需求增长，这种全栈设计包括模型、产品、服务软件及芯片的协同优化，标志着推理效率的重要里程碑。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Hardware"
-    ],
-    "link": "https://openai.com/index/jalapeno-first-results",
-    "date": "2026-08-25",
-    "id": "17877004454730"
-  },
-  {
-    "title": "代码托管平台 Codeberg 更新条款限制 AI 生成内容",
-    "summary": "Codeberg 修改服务条款，拒绝 predominantly AI 生成的仓库及加密货币项目。",
-    "detail": "开源代码托管平台 Codeberg 更新了服务条款，明确限制 predominantly 由 LLM 生成的内容托管，并禁止加密货币项目。此举旨在保护自由开源软件（FLOSS）commons 免受 AI 生成代码泛滥的影响。官方提供了完整变更对比及博客文章说明，反映了社区对 AI 生成内容质量和版权问题的担忧，可能引发其他平台跟进。开发者需注意合规，纯 AI 生成仓库将被拒绝，这代表了开源社区对维护代码真实性和人类贡献价值的坚定立场，影响未来托管策略。",
-    "tags": [
-      "News",
-      "OpenSource",
-      "Policy"
-    ],
-    "link": "https://codeberg.org/Codeberg/org/compare/17bdb39b0c1ecd0e423f3ba592650ce57fcdfbf5..71149c7fc95ccfeae36109b5cddca339e4aa1473?files=TermsOfUse.md",
-    "date": "2026-08-25",
-    "id": "17877004454731"
-  },
-  {
-    "title": "演示文稿初创公司 Gamma 收购设计 startup Lica",
-    "summary": "Gamma 收购获 Accel 支持的 Lica，旨在建立设计研究实验室。",
-    "detail": "演示文稿生成平台 Gamma 宣布收购设计初创公司 Lica。Lica 创始团队将领导新设计研究实验室。Lica 最初可将截图转为演示视频，曾获 400 万美元融资。此次收购结合了 Gamma 的分发能力与 Lica 在视频和设计 AI 模型的前沿研究，旨在探索除演示文稿外的更多视觉沟通格式，双方均获 Accel 支持，愿景一致。Gamma 将继续聚焦演示构建，但新部门将探索图像生成等格式，利用 Lica 在电商营销视频的经验，加速视觉沟通 AI 的普及与应用落地。",
-    "tags": [
-      "News",
-      "M&A",
-      "Design"
-    ],
-    "link": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/",
-    "date": "2026-08-25",
-    "id": "17877004454732"
   }
 ]
