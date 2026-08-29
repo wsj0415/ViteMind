@@ -1,5 +1,70 @@
 [
   {
+    "title": "索尼华纳起诉 Anthropic 侵犯知识产权",
+    "summary": "音乐巨头指控 Anthropic 大规模窃取知识产权训练模型。",
+    "detail": "**背景**：索尼音乐与华纳音乐集团正式起诉 Anthropic，引发行业震动。**核心**：指控其进行“公然”的知识产权窃取活动，利用受版权保护的音乐数据训练 AI 模型。**影响**：此案可能成为 AI 版权界的关键判例，加剧内容创作者与 AI 公司之间的法律摩擦。若原告胜诉，将迫使模型训练数据合规性审查更加严格，可能改变生成式 AI 的数据获取模式，增加行业合规成本，重塑 AI 训练数据边界。行业观察家认为这将测试现行版权法对 AI 训练的适用性。",
+    "tags": [
+      "News",
+      "Legal",
+      "LLM"
+    ],
+    "link": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+    "date": "2026-08-29",
+    "id": "17880325879600"
+  },
+  {
+    "title": "前 a16z 大佬 Vijay Pande 创立新基金 VZVC",
+    "summary": "转向小众集中投资，重度依赖 AI 运营生物科技基金。",
+    "detail": "**背景**：前 a16z 生物基金负责人 Vijay Pande 离职创立新基金 VZVC。**策略**：摒弃传统大规模投资模式，每年仅做少数集中投注，无助理团队，重度依赖 AI 处理日常运营。**洞察**：他指出生物数据无法像文本般从互联网抓取，AI 医疗面临数据孤岛挑战。这预示了 AI 在垂直专业领域的落地难点，即私有数据壁垒将成为核心竞争力。未来 AI 生物科技投资将更看重数据获取能力而非单纯算法优势，代表 VC 行业 AI 化运营新趋势。",
+    "tags": [
+      "News",
+      "Investment",
+      "Biotech"
+    ],
+    "link": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
+    "date": "2026-08-29",
+    "id": "17880325879601"
+  },
+  {
+    "title": "新闻业应向 AI“奔跑”而非逃避",
+    "summary": "新著主张新闻业利用 AI 增强质量，而非仅为了降低成本。",
+    "detail": "**背景**：著名新闻学者 Tom Rosenstiel 新书《下一代新闻》发布，探讨行业未来。**观点**：新闻业目前未能充分服务民主，应利用 AI 强化而非替代记者。**核心**：记者、公众与机器应有互补角色。他强调 AI 用于提升新闻质量，而非单纯削减成本，这将是行业变革的摩擦点。新闻机构需主动拥抱技术，重构新闻采集与服务公众的方式。书中建议利用 AI 整合社区公共数据，更好地服务于受众生活，而非仅追求注意力经济。",
+    "tags": [
+      "News",
+      "Media",
+      "Ethics"
+    ],
+    "link": "https://www.cjr.org/analysis/should-the-press-run-toward-ai-tom-rosenstiel-new-book-next-journalism-how-press-must-change-serve-democracy.php",
+    "date": "2026-08-29",
+    "id": "17880325879602"
+  },
+  {
+    "title": "开源终端工具 Rysh 实现 Codex 与 Claude 互联",
+    "summary": "代理式终端复用器，支持多模型在同一会话中协作通信。",
+    "detail": "**背景**：Show HN 热门项目 Rysh CLI 正式发布开源代码。**功能**：基于 Go 编写的代理式终端复用器，每个 pane 都是可调用工具的独立代理。**亮点**：支持 Codex 与 Claude 在同一会话图中互通信，会话作为守护进程保持状态。即使重启会话，代理记忆仍保留。这为开发者提供了多模型协作的全新工作流，适合复杂编码任务。项目包含详细视频教程，展示如何安装及构建多 pane 代理会话，降低多模型协作开发门槛。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Agent"
+    ],
+    "link": "https://github.com/rysh-ai/rysh-cli-code",
+    "date": "2026-08-29",
+    "id": "17880325879603"
+  },
+  {
+    "title": "开发者用 Claude 复活倒闭十年的睡眠公司",
+    "summary": "利用代理 AI 重建旧硬件软件栈，实现功能完全 parity。",
+    "detail": "**背景**：独立开发者利用 Claude 成功复活已倒闭十年的 Hello Sense 睡眠设备。**过程**：通过重刷设备固件，重建大部分软件栈并在 Mac 上运行，实现功能完全对等。**意义**：展示代理 AI 在遗留系统维护与重建上的巨大潜力。证明 AI 不仅能编写新代码，还能理解并恢复旧技术架构，为硬件复兴提供新路径。该项目耗时一年，体现了 Agentic AI 在长周期复杂任务中的自主规划与执行能力，具有极高参考价值。",
+    "tags": [
+      "Dev",
+      "CaseStudy",
+      "Agent"
+    ],
+    "link": "https://www.josephspurrier.com/ai-revives-a-dead-sleep-company",
+    "date": "2026-08-29",
+    "id": "17880325879604"
+  },
+  {
     "title": "开源社区掀起抵制 AI 代码贡献浪潮",
     "summary": "37 个开源项目禁止 AI 生成代码，Linux 要求标注，社区担忧质量。",
     "detail": "随着 AI 泡沫论兴起，技术专家质疑 LLM 实际进步是否仅为欺骗。Rakshit Yadav 对 120 个开源项目的审查显示，37 个项目选择完全禁止 AI 贡献。Linux 内核允许 AI 辅助但需明确标注所用 LLM 以确保透明度，而 GCC、QEMU、Zig 等项目则 adopt 政策拒绝所有 AI 协助贡献。开发平台如 Codeberg 及应用商店 Flathub 也禁止使用 AI 生成软件、文档及 Bug 报告。允许使用的项目通常要求人类在环路中，提交者必须阅读并过滤所有内容。这反映了社区对代码质量、知识产权及人类时间效率的深层担忧，旨在防止低质 AI 生成内容污染开源生态，确保软件工程的严谨性。",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
     "date": "2026-08-26",
     "id": "17877192975501"
-  },
-  {
-    "title": "盲测数据显示：学生群体更偏好 Gemini 撰写论文",
-    "summary": "6851 名学生参与盲测，Gemini 以 39.6% 首选率超越 Claude 与 ChatGPT。",
-    "detail": "StudyArena 对 6851 名学生进行盲测，评估主流 AI 模型的写作能力。结果显示 Gemini 首选率达 39.6%，优于 Claude(31.8%) 和 ChatGPT(29.2%)。研究表明 Gemini 在结构清晰与保持作者 voice 之间取得更好平衡，避免了过度机械化。该数据反映了教育场景下模型偏好的新趋势，建议用户根据任务类型选择模型。盲测机制排除了品牌偏好干扰，结果更具客观参考价值。",
-    "tags": [
-      "News",
-      "LLM",
-      "Education"
-    ],
-    "link": "https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026",
-    "date": "2026-08-26",
-    "id": "17877192975502"
-  },
-  {
-    "title": "分布式推理平台 Darkbloom 完成社区安全审计",
-    "summary": "利用闲置 Mac 进行 AI 推理，审计报告披露多个安全问题及修复 PR。",
-    "detail": "利用闲置 Mac 进行 AI 推理的项目 Darkbloom 发布了社区安全审计报告。审计发现多个潜在漏洞，包括硬编码密钥、TLS 验证问题及 RAM 检查缺失等，目前已提交多个 PR 进行修复。该项目处于公共 Alpha 阶段，旨在通过分布式网络降低推理成本。此次审计增强了平台透明度，为去中心化推理基础设施的安全性提供参考，展示了社区协作在 AI 基建安全中的重要性。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Infrastructure"
-    ],
-    "link": "https://gist.github.com/mudiam/1ffc898333ac3d5bdc5d7fac96d33360",
-    "date": "2026-08-26",
-    "id": "17877192975503"
-  },
-  {
-    "title": "科技巨头紧急应对 AI 舆论反弹",
-    "summary": "大型科技公司正竞相采取措施，缓解公众对 AI 技术日益增长的担忧与反对声浪。",
-    "detail": "华尔街日报深度报道指出，面对公众对 AI 技术日益增长的担忧与反对声浪，科技巨头正展开紧急竞赛以平息争议。随着 AI 部署加速，隐私泄露、就业替代及安全失控等风险加剧，社会信任度下降。公司正调整公关策略与产品合规性，试图在技术创新与社会接受度间寻找平衡。此举反映 AI 行业已进入深水区，社会伦理与监管合规将成为未来发展的关键变量，巨头们的应对策略将直接影响行业走向与公众信任重建，标志着 AI 发展从技术驱动转向社会责任驱动的关键转折点。",
-    "tags": [
-      "News",
-      "AI Ethics",
-      "Big Tech"
-    ],
-    "link": "https://www.wsj.com/tech/inside-big-techs-frantic-race-to-quell-the-growing-backlash-to-ai-2a717339",
-    "date": "2026-08-26",
-    "id": "17877136611920"
-  },
-  {
-    "title": "Ora 基于 Vercel 构建 AI 代理基准测试平台",
-    "summary": "Ora 利用 Vercel 平台对主流 AI 代理进行实时基准测试，评估网页对代理的就绪程度。",
-    "detail": "Ora 联合创始人 Assaf Elovic 推出新平台，在 Vercel 上运行代理运行时，测试 AI 代理在真实网站上的任务完成情况，如注册、集成及支付。数据显示 99% 网页尚未准备好迎接代理，常因结构问题失败。该工具帮助开发者识别代理失败原因，优化网站结构以适应自动化交互。这标志着 AI 开发重心从模型竞争转向代理落地与基础设施兼容性的新阶段，Vercel 成为关键支撑平台，助力开发者构建更可靠的 Agent 应用，解决最后一公里的交互难题。",
-    "tags": [
-      "Dev",
-      "AI Agents",
-      "Vercel"
-    ],
-    "link": "https://vercel.com/customers/how-ora-benchmarks-every-major-ai-agent-on-vercel",
-    "date": "2026-08-26",
-    "id": "17877136611921"
-  },
-  {
-    "title": "微软发布 Maia 200 AI 加速器",
-    "summary": "微软在 Hot Chips 2026 展示第二代自研 AI 芯片，3nm 工艺。",
-    "detail": "微软在 Hot Chips 2026 上深入介绍了 Maia 200 AI 加速器架构。作为第二代自研芯片，采用 3nm 工艺，拥有 1400 亿晶体管，配备 6 栈 HBM3e 内存，TDP 为 750W。虽然芯片尺寸设计不算激进，但性能与功耗仍需综合考量。该芯片将部署于 Azure 数据中心，旨在优化性能与功耗平衡，标志着 hyperscalers 自研芯片趋势的深化。此次演讲详细介绍了架构目标及 SoC 设计 tweaks，显示出微软在 AI 硬件领域的持续投入与迭代能力。此外，该设计 paired with HBM3e memory，总芯片 TDP 控制在 750 瓦特，尽管单芯片功耗可控，但在机架部署中累积功耗仍需谨慎管理。这一进展表明微软正逐步减少对外部供应商的依赖，构建更垂直整合的 AI 基础设施栈，为云端 AI 服务提供底层支撑。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Azure"
-    ],
-    "link": "https://www.servethehome.com/microsofts-maia-200-accelerator-at-hot-chips-2026/",
-    "date": "2026-08-26",
-    "id": "17877072443540"
   }
 ]
