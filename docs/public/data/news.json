@@ -1,5 +1,70 @@
 [
   {
+    "title": "OpenAI 终止向 Cursor 提供模型访问权限",
+    "summary": "SpaceX 收购后，OpenAI 决定停止向代码编辑器 Cursor 提供模型 API 访问。",
+    "detail": "**背景**：随着 Elon Musk 的 SpaceX 完成对代码编辑器 Cursor 的收购，OpenAI 正式宣布终止向其提供模型 API 访问权限。**影响**：此举标志着 AI 模型提供商与下游应用之间合作关系的重大转折，可能迫使 Cursor 转向 Anthropic 或 xAI 寻求替代方案。**行业信号**：巨头间竞争加剧，生态壁垒正在形成，开发者需密切关注模型供应稳定性及平台依赖风险，避免单一供应商锁定。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Business"
+    ],
+    "link": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
+    "date": "2026-08-29",
+    "id": "17880425435280"
+  },
+  {
+    "title": "Anthropic 500 亿美元算力投资面临融资瓶颈",
+    "summary": "Epoch AI 分析显示，Anthropic 巨额算力基建可能受限于融资能力，引发行业担忧。",
+    "detail": "**核心发现**：Anthropic 计划投资 500 亿美元建设美国算力基础设施，远超其当前营收能力。**融资挑战**：尽管已筹集部分债务，但维持指数级增长需巨额资本，投资者意愿成为关键变量。**行业影响**：若融资受限，可能减缓 frontier labs 的算力扩展速度，进而影响整体 AI 技术进步节奏，引发对行业可持续性的担忧。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "Finance"
+    ],
+    "link": "https://epochai.substack.com/p/will-financing-bottleneck-ai-compute",
+    "date": "2026-08-29",
+    "id": "17880425435281"
+  },
+  {
+    "title": "学校 AI 监控引发安全与公平性争议",
+    "summary": "Brookings 报告指出，学校部署 AI 监控工具存在误报风险，且加剧了对少数群体的偏见。",
+    "detail": "**现状**：全美学校广泛采用武器检测摄像头等 AI 监控工具，但缺乏可靠性证据支持。**问题**：技术在大城市低收入学校部署过多，导致误捕事件频发（如芯片袋被误认为武器），加剧了对少数群体的偏见。**建议**：专家呼吁透明度和社区参与，而非单纯增加监控，以平衡校园安全与学生信任，避免技术滥用。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Safety"
+    ],
+    "link": "https://www.brookings.edu/articles/ai-surveillance-in-schools-raises-safety-and-equity-concerns/",
+    "date": "2026-08-29",
+    "id": "17880425435282"
+  },
+  {
+    "title": "研究警告：不应将 AI 代理视为员工",
+    "summary": "哈佛商业评论研究指出，将 AI 拟人化会降低问责制，损害工作质量与信任。",
+    "detail": "**研究结论**：哈佛商业评论实验显示，将 AI 代理视为员工会导致责任转移、升级增加及审查质量下降。**管理建议**：组织应关注如何将 AI 整合进工作流，而非赋予其员工身份或拟人化。**核心价值**：保持人类问责制和专业身份是捕获 AI 价值创造潜力的关键，避免技术侵蚀信任。",
+    "tags": [
+      "News",
+      "Management",
+      "Research"
+    ],
+    "link": "https://hbr.org/2026/05/research-why-you-shouldnt-treat-ai-agents-like-employees",
+    "date": "2026-08-29",
+    "id": "17880425435283"
+  },
+  {
+    "title": "Simurg：实时拦截 LLM 幻觉的 Python 库",
+    "summary": "新款 PyPI 工具可在生成过程中检测并截断 LLM 解码 corruption，防止幻觉输出。",
+    "detail": "**功能**：Streaming Integrity Monitor，在答案生成期间捕获损坏并中止流，防止幻觉输出。**性能**：CPU 运行速度远超 LLM 生成速度，无需 GPU 或训练，仅依赖 numpy。**应用**：适用于需要高完整性输出的 AI 代理系统，降低幻觉风险，仅需 3 行代码即可集成，显著优化生成质量。",
+    "tags": [
+      "Dev",
+      "Python",
+      "LLM"
+    ],
+    "link": "https://pypi.org/project/simurg/",
+    "date": "2026-08-29",
+    "id": "17880425435284"
+  },
+  {
     "title": "索尼华纳起诉 Anthropic 侵犯知识产权",
     "summary": "音乐巨头指控 Anthropic 大规模窃取知识产权训练模型。",
     "detail": "**背景**：索尼音乐与华纳音乐集团正式起诉 Anthropic，引发行业震动。**核心**：指控其进行“公然”的知识产权窃取活动，利用受版权保护的音乐数据训练 AI 模型。**影响**：此案可能成为 AI 版权界的关键判例，加剧内容创作者与 AI 公司之间的法律摩擦。若原告胜诉，将迫使模型训练数据合规性审查更加严格，可能改变生成式 AI 的数据获取模式，增加行业合规成本，重塑 AI 训练数据边界。行业观察家认为这将测试现行版权法对 AI 训练的适用性。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.gartner.com/en/newsroom/press-releases/2026-07-01-gartner-says-us-dollars-234-billion-in-enterprise-application-software-spend-is-at-risk-from-agentic-artificial-intelligence",
     "date": "2026-08-26",
     "id": "17877226447941"
-  },
-  {
-    "title": "前 Bezos 支持项目创始人离职，转向宇宙建模",
-    "summary": "路透社报道，AI 创始人离开 Bezos 支持的 Prometheus，转而致力于宇宙建模项目。",
-    "detail": "多位 AI 领域创始人宣布离开由 Bezos 支持的 Prometheus 项目，转而投身于“宇宙建模”新方向。这一人事变动反映了顶级 AI 人才对基础科学建模的兴趣转移，可能预示着 AI 研发重心从商业应用向科学发现（AI for Science）的深层探索，值得关注后续资金流向与技术突破。顶级人才的流动往往指引技术风向，宇宙建模可能涉及物理模拟等复杂任务。这表明资本密集型 AI 项目正面临方向调整，科学界与工业界的边界在模糊，长期来看可能催生新的基础模型范式。此类高风险高回报的探索，可能会重新定义 AI 在科学研究中的核心地位。",
-    "tags": [
-      "News",
-      "Funding",
-      "AI Science"
-    ],
-    "link": "https://www.reuters.com/business/ai-founders-who-walked-away-bezos-backed-prometheus-model-universe-2026-08-25/",
-    "date": "2026-08-26",
-    "id": "17877226447942"
-  },
-  {
-    "title": "前端设计技能包：为 AI 代理引入机器 enforced 质量门控",
-    "summary": "发布 frontend-design-pro，通过 60 项机器检查确保 AI 生成前端代码质量。",
-    "detail": "新项目 frontend-design-pro 为 AI 代理提供前端设计技能包。其核心在于“机器强制质量门控”，通过 60 项检查（包括 AST 和正则）确保生成代码符合规范。采用注册表路由机制，按需加载技能，避免上下文污染。为开发者提供了构建高可靠性 AI 前端生成工作流的新范式。解决了 AI 生成代码质量不稳定的痛点，提升了工程化落地可行性。通过限制 Token 加载量，优化了推理成本，使得 AI 代理在大型代码库中也能保持高效运行，适合企业级前端自动化场景。该工具链降低了 AI 生成代码的维护成本，增强了团队协作中的代码一致性。",
-    "tags": [
-      "Dev",
-      "Frontend",
-      "AI Agents"
-    ],
-    "link": "https://krishna-modi12.github.io/frontend-design-pro/",
-    "date": "2026-08-26",
-    "id": "17877226447943"
-  },
-  {
-    "title": "实战 Docker 安全实验室：涵盖 AI 上下文投毒防御",
-    "summary": "开源 Docker 安全指南，包含从 CIS 检查到 AI 上下文投毒的 12 个生产级实验室。",
-    "detail": "开源项目 docker-security-practical-guide 提供了一套 hands-on 容器安全实验室。内容涵盖 CIS 基准检查、供应链认证及 AI 上下文投毒防御等 12 个生产级场景。旨在帮助开发者在 AI 集成环境下建立可复现的安全验证流程，强化容器化部署的信任治理与运行时调试能力。针对 AI 上下文投毒的防御尤为关键，保障了容器化 AI 应用的安全边界。随着 AI 应用容器化普及，供应链攻击面扩大，该指南提供了从镜像加固到运行时调试的全链路方案，帮助 DevOps 团队构建更健壮的 AI 基础设施。特别适用于需要高合规性的金融与医疗 AI 部署场景。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Docker"
-    ],
-    "link": "https://github.com/opscart/docker-security-practical-guide",
-    "date": "2026-08-26",
-    "id": "17877226447944"
-  },
-  {
-    "title": "KraftApp 发布：从描述到上线的全流程 AI 开发平台",
-    "summary": "输入意图即可生成全栈应用及营销方案，支持多模型切换。",
-    "detail": "KraftApp 推出全新 AI 开发平台，重新定义应用构建流程。用户只需描述业务意图，Agent 即可自动完成数据模型设计、前后端代码编写、auth 认证及支付集成。其核心差异化在于“上线即营销”，平台会读取已建应用，自动生成定位文案、转化落地页、SEO 页面及邮件序列。支持 Claude、GPT、Gemini 等前沿模型按需切换，统一信用额度管理。旨在解决开发者“只懂构建不懂增长”的难题，实现从 idea 到商业闭环的自动化。",
-    "tags": [
-      "New",
-      "AI Agent",
-      "No-Code"
-    ],
-    "link": "https://kraftapp.ai",
-    "date": "2026-08-26",
-    "id": "17877192975500"
-  },
-  {
-    "title": "印度语音 AI 初创 Ringg 获 Peak XV 1000 万美元融资",
-    "summary": "系列 A 扩展轮融资，专注企业语音 AI 代理，月处理 2000 万次呼叫。",
-    "detail": "印度语音 AI 公司 Ringg 获得 Peak XV Partners 1000 万美元投资，系列 A 总额达 1550 万美元。公司从文本转语音转型为企业语音 AI 代理，服务 Cred、Flipkart 等客户。目前正从简单外呼转向医疗预约、电商弃单恢复等复杂工作流。创始人指出低复杂度场景易陷入价格战，故深耕高价值 workflow。看好印度语音通信自动化市场潜力，月处理呼叫尝试已达 2000 万次。",
-    "tags": [
-      "News",
-      "Voice AI",
-      "Funding"
-    ],
-    "link": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
-    "date": "2026-08-26",
-    "id": "17877192975501"
   }
 ]
