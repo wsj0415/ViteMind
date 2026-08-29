@@ -1,5 +1,70 @@
 [
   {
+    "title": "开源社区掀起抵制 AI 代码贡献浪潮",
+    "summary": "37 个开源项目禁止 AI 生成代码，Linux 要求标注，社区担忧质量。",
+    "detail": "随着 AI 泡沫论兴起，技术专家质疑 LLM 实际进步是否仅为欺骗。Rakshit Yadav 对 120 个开源项目的审查显示，37 个项目选择完全禁止 AI 贡献。Linux 内核允许 AI 辅助但需明确标注所用 LLM 以确保透明度，而 GCC、QEMU、Zig 等项目则 adopt 政策拒绝所有 AI 协助贡献。开发平台如 Codeberg 及应用商店 Flathub 也禁止使用 AI 生成软件、文档及 Bug 报告。允许使用的项目通常要求人类在环路中，提交者必须阅读并过滤所有内容。这反映了社区对代码质量、知识产权及人类时间效率的深层担忧，旨在防止低质 AI 生成内容污染开源生态，确保软件工程的严谨性。",
+    "tags": [
+      "News",
+      "Open Source",
+      "Policy"
+    ],
+    "link": "https://optimizedbyotto.com/post/why-open-source-projects-ban-ai/",
+    "date": "2026-08-29",
+    "id": "17880229674360"
+  },
+  {
+    "title": "新 AI 团队易犯的三大错误与评估困境",
+    "summary": "50% 投资应用于理解问题，强调 Evals 重要性，避免盲目信任。",
+    "detail": "资深顾问指出新 AI 团队常重解决轻理解，碰撞现实后陷入困境。优秀组织应花 50% 投资定义“什么是好”，即建立评估体系（Evals）。不要盲目信任 PM 意见，需通过 Evals 发现 Agent 失败点，如检索或护栏问题。借鉴 2010 年代搜索团队经验，评估数据可转化为训练数据。作者创建 Quepid 即为解决对话系统无客观对错问题。建议参考 Hamel Hussain 等人的评估课程，主动不信任直觉，与客户共同定义成功标准，避免昂贵灾难。评估是发现产品改进机会的关键，而非仅依赖通用指标。",
+    "tags": [
+      "Dev",
+      "Management",
+      "Evals"
+    ],
+    "link": "https://softwaredoug.com/blog/2026/08/29/ai-team-mistakes.html",
+    "date": "2026-08-29",
+    "id": "17880229674361"
+  },
+  {
+    "title": "BoqCalc 推出 AI 建筑工程造价估算管道",
+    "summary": "30 分钟完成 500 行 BOQ 定价，无幻觉率，支持 40+ 国家数据。",
+    "detail": "垂直领域 AI 新品，专为建筑成本估算设计。上传 Excel 或 PDF 账单，AI 自动识别条目并计算市场价、风险及现金流。包含 4 个模块，支持 40+ 国家数据。提供 4 个免费信用点，无需信用卡。相比人工 15-25 小时工作，大幅缩短至 30 分钟。适合从浴室翻新到高速公路 interchange 的各类项目，导出支持 PDF 及 MS Project。旨在解决传统估算耗时且易错痛点，提供动态调度。平台强调无幻觉率，确保费率准确，帮助团队锁定时间线并 uncover 隐藏风险，实现 bid ready 状态。",
+    "tags": [
+      "New",
+      "Construction",
+      "Vertical AI"
+    ],
+    "link": "https://boqcalc.com",
+    "date": "2026-08-29",
+    "id": "17880229674362"
+  },
+  {
+    "title": "开发者实践：AI 自动化 grocery 购物流程",
+    "summary": "结合 Mealie 与 MCP 服务器实现自动购物清单，节省每周时间。",
+    "detail": "个人开发者分享除编程外真正省时的 AI 用例。通过 ChatGPT 规划符合营养目标的食谱，连接 Mealie 管理食谱与周菜单。利用 MCP 服务器将 AI Agent 接入 Mealie，自动聚合食材生成购物列表并填充在线购物车。解决了手动聚合食材、查找食谱不便及手机屏幕关闭等痛点，展示了 Agent 在日常生活中的实际落地潜力。2026 年 MCP 生态逐渐成熟，连接本地服务更便捷。该工作流避免了无关聊天会话查找困难，实现了从营养目标到在线购物车的闭环自动化，极具参考价值。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "MCP"
+    ],
+    "link": "https://ducret.dev/grocery-shopping-with-ai/",
+    "date": "2026-08-29",
+    "id": "17880229674363"
+  },
+  {
+    "title": "AI 在密码学领域的突破：Lattice Proofs 讨论",
+    "summary": "Chris Peikert 探讨 AI 解决数学难题，涉及 CVP 及量子攻击争议。",
+    "detail": "Security Cryptography Whatever 播客邀请 Chris Peikert 讨论 AI 在数学与密码学进展。涉及 CVP 复杂度结果跃迁及 DCP 量子攻击争议（后证实有误）。Classic McEliece 区分器攻击引发关注。链接包含 OpenAI 十项数学进展论文。这显示了 AI 在硬核科学领域的潜力，但也伴随安全担忧。AI 正在尝试解决并打破数学证明，可能改变密码学基础，社区需密切关注其对未来安全架构的影响。播客探讨了机器人解决数学问题的现状，以及高效区分器在代码密码学历史中的记录，警示潜在风险。",
+    "tags": [
+      "Dev",
+      "Crypto",
+      "Math"
+    ],
+    "link": "https://securitycryptographywhatever.com/2026/08/26/ai-lattice-proofs-with-chris-peikert/",
+    "date": "2026-08-29",
+    "id": "17880229674364"
+  },
+  {
     "title": "LaneGate：Git 原生 AI 代理协作引擎",
     "summary": "专为 AI 编码代理设计的 Git 原生工作流协调工具，确保代码安全交付。",
     "detail": "LaneGate 是一款针对 AI 编码代理（如 Claude、Codex）的协作工具。它采用 Git 原生架构，为每个任务分配独立 worktree，通过文件锁防止冲突，并设置审查门禁确保代码质量。无需 SaaS 服务，所有状态存储在 repo 内，适合多代理协同开发场景，解决了 AI 自动合并代码可能带来的风险，提升了工程化落地安全性。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.servethehome.com/microsofts-maia-200-accelerator-at-hot-chips-2026/",
     "date": "2026-08-26",
     "id": "17877072443540"
-  },
-  {
-    "title": "OpenAI 降价且 Stripe 收购 OpenRouter",
-    "summary": "OpenAI 下调 API 价格超 20%，Stripe 达成收购 OpenRouter 协议。",
-    "detail": "OpenAI 宣布 GPT-5.6 Sol API 及信用定价下调超 20%，为期三个月，以应对市场竞争。与此同时，支付巨头 Stripe 同意收购模型路由平台 OpenRouter，将模型路由功能整合进支付平台。此外，Google 获得与 Marvell 定制 AI 芯片购买相关的认股权证，显示大厂对 AI 基础设施的持续投入。FT 报道显示 Anthropic 最高端模型企业需求疲软，可能促使 OpenAI 通过降价策略争夺市场份额。Stripe 的收购意味着模型路由将更紧密地嵌入金融与开发工作流，降低开发者切换模型的成本。这些动态表明 AI 模型市场正进入价格竞争与生态整合阶段，基础设施与支付层的结合将成为新趋势，开发者需关注成本优化与平台锁定风险。",
-    "tags": [
-      "News",
-      "LLM",
-      "M&A"
-    ],
-    "link": "https://msukhareva.substack.com/p/ai-realist-radar-gpt56-sol-pricing",
-    "date": "2026-08-26",
-    "id": "17877072443541"
-  },
-  {
-    "title": "OpenAI 数据中心主管离职",
-    "summary": "OpenAI 数据中心负责人 Chris Malone 离职，引发关注。",
-    "detail": "OpenAI 数据中心主管 Chris Malone 离职，他曾任职于 Meta 和 Google。此举发生在 AI 基础设施扩建 frenzy 期间，尤其涉及 Stargate Project 数据中心计划。OpenAI 回应称已重组基础设施组织以支持工作规模。高层变动可能影响其数据中心战略执行及与 Oracle、Nvidia 等合作伙伴的关系。Malone 加入 OpenAI 仅一年多，负责监督数据中心战略执行，其离职时机引人注目。随着 AI 实验室对算力需求激增，数据中心策略成为核心竞争点，人员流动可能暗示内部战略调整或外部压力。OpenAI 强调团队仍具备深厚经验，但关键岗位变动仍需观察后续对 Stargate 项目及美国数据中心开发计划的影响，这关乎其长期算力供应稳定性。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Management"
-    ],
-    "link": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
-    "date": "2026-08-26",
-    "id": "17877072443542"
-  },
-  {
-    "title": "机器人初创 Generalist 估值达 30 亿美元",
-    "summary": "机器人初创公司 Generalist 获高估值，显示赛道热度。",
-    "detail": "机器人初创公司 Generalist 估值达到 30 亿美元，显示出资本市场对通用机器人技术的强烈信心。尽管具体融资细节未完全披露，但这一估值里程碑反映了 AI 与机器人结合领域的快速发展。随着具身智能成为焦点，此类高估值案例可能推动更多资金涌入机器人硬件与算法整合领域。消息来源指出这一估值近期达成，表明投资者看好其通用性技术路径。在 AI 大模型赋能下，机器人初创企业正经历价值重估，Generalist 的成功可能激励更多创业者进入该赛道。然而，高估值也意味着交付压力，市场将关注其能否将技术转化为实际商业应用，这将是检验具身智能落地能力的关键案例，影响行业投资风向。",
-    "tags": [
-      "News",
-      "Robotics",
-      "Funding"
-    ],
-    "link": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
-    "date": "2026-08-26",
-    "id": "17877072443543"
-  },
-  {
-    "title": "亚马逊高管借助 AI 重拾编码能力",
-    "summary": "亚马逊 SVP 利用 AI 工具编写 10 万行代码，时隔 25 年回归开发。",
-    "detail": "亚马逊人力资源高级副总裁分享经历，利用 AI 工具在 25 年后重新编写 10 万行代码。公司投资 25 亿美元帮助 5000 万人准备未来工作。案例展示 AI 降低技术门槛，赋能非技术背景管理者。体现企业内部 AI 工具普及趋势及技能重塑的重要性。这表明 AI 不仅是开发者工具，更是全员生产力引擎。企业需加大培训投入，帮助员工适应 AI 协作模式，提升整体组织效率，应对未来职场变革。此案例证明 AI 可显著缩短技能恢复周期，鼓励终身学习。亚马逊此举亦为行业树立榜样，展示技术民主化潜力。",
-    "tags": [
-      "News",
-      "Coding",
-      "Enterprise"
-    ],
-    "link": "https://www.aboutamazon.com/news/workplace/amazon-svp-ai-tools-employees-careers",
-    "date": "2026-08-25",
-    "id": "17877488777842"
-  },
-  {
-    "title": "MIT 警告：AI 可完成大多数本科作业",
-    "summary": "麻省理工警告 AI 已能可信完成大部分本科作业，教育面临挑战。",
-    "detail": "麻省理工学院发出警告，当前 AI 模型已能可信地完成大多数本科作业任务。这对高等教育评估体系构成严峻挑战，迫使教育机构重新思考考核方式。新闻凸显 AI 能力跃迁对学术诚信的冲击，建议教育界需快速调整策略以应对生成式 AI 带来的变革。学校需开发新评估方法，侧重批判性思维而非知识复述。同时需引导学生合理使用 AI，将其作为辅助工具而非替代品，维护教育核心价值。若不及时调整，学位含金量可能受损。教育者需探索 AI 增强型学习模式，确保学生在 AI 时代仍具备核心竞争力。",
-    "tags": [
-      "News",
-      "Education",
-      "LLM"
-    ],
-    "link": "https://www.washingtonpost.com/education/2026/08/25/ai-can-now-credibly-complete-most-undergraduate-assignments-mit-warns/",
-    "date": "2026-08-25",
-    "id": "17877488777843"
   }
 ]
