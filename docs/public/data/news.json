@@ -1,5 +1,44 @@
 [
   {
+    "title": "LaneGate：Git 原生 AI 代理协作引擎",
+    "summary": "专为 AI 编码代理设计的 Git 原生工作流协调工具，确保代码安全交付。",
+    "detail": "LaneGate 是一款针对 AI 编码代理（如 Claude、Codex）的协作工具。它采用 Git 原生架构，为每个任务分配独立 worktree，通过文件锁防止冲突，并设置审查门禁确保代码质量。无需 SaaS 服务，所有状态存储在 repo 内，适合多代理协同开发场景，解决了 AI 自动合并代码可能带来的风险，提升了工程化落地安全性。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Git"
+    ],
+    "link": "https://github.com/sudheerdvn/lanegate",
+    "date": "2026-08-29",
+    "id": "17879830832290"
+  },
+  {
+    "title": "OpenAI 终止与 SpaceX Cursor 的合作伙伴关系",
+    "summary": "路透社报道 OpenAI 将结束与 SpaceX 旗下 AI 编码工具 Cursor 的合作协议。",
+    "detail": "据 Reuters 报道，OpenAI 计划终止与 SpaceX 关联的 AI 编程工具 Cursor 的合作伙伴关系。这一变动可能影响 AI 编码领域的生态格局，显示出大模型厂商与垂直应用之间合作关系的动态调整。行业关注此举是否源于战略分歧或竞争加剧，对开发者工具链的整合带来不确定性，标志着 AI 应用层合作进入新阶段。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Partnership"
+    ],
+    "link": "https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29/",
+    "date": "2026-08-29",
+    "id": "17879830832291"
+  },
+  {
+    "title": "外媒分析：AI 泡沫堪比 1980 年代日本经济",
+    "summary": "Foreign Policy 文章警示 AI 行业存在泡沫，历史情境与 80 年代日本相似。",
+    "detail": "Foreign Policy 发表分析文章，结合 Nvidia 季度财报，指出当前 AI 行业可能存在经济泡沫。文章将现状与 1980 年代日本经济泡沫时期进行对比，警示投资者关注潜在风险。该观点引发行业对 AI 基础设施投资回报率的反思，建议理性看待市场热度与长期价值之间的关系，为资本市场的 AI 投资提供历史借鉴视角。",
+    "tags": [
+      "News",
+      "Market",
+      "Nvidia"
+    ],
+    "link": "https://foreignpolicy.com/2026/08/28/nvidia-earnings-quarterly-report-ai-economic-bubble-japan-history/",
+    "date": "2026-08-28",
+    "id": "17879830832292"
+  },
+  {
     "title": "Anthropic 揭示 AI 自我改进新进展",
     "summary": "Anthropic 研究员展示 AI 自动改善对齐失败的研究成果。",
     "detail": "Anthropic 研究员 Chen Yueh-Han 发表新论文《Automated Researchers Can Reliably Mitigate Alignment Failures》，展示自动化系统如何可靠地改善模型对齐基准。该系统模拟传统研究流程，搜索文献、提出方法并训练模型 30 分钟，通过迭代保留有效方法。实验显示，在不降低整体性能的前提下，系统成功改善了所有 10 个特定错误行为基准。这标志着递归自我改进迈出了关键一步，证明自动化对齐后训练在短期内具备可行性。若模型能自我改进对齐，未来或可扩展至更广泛训练实践，深刻改变 AI 研究格局与人类研究员的角色。",
@@ -297,6 +336,19 @@
     "link": "https://kinopipe.com/",
     "date": "2026-08-27",
     "id": "17878470746534"
+  },
+  {
+    "title": "微软发布 AI 代理共享责任模型安全指南",
+    "summary": "微软 Azure 更新安全文档，定义 AI 代理自主行动时的责任边界。",
+    "detail": "微软正式发布 AI 代理共享责任模型，区分了传统 LLM 与自主 Agent 的安全责任。文档强调 Agent 具有自主行动、规划循环、状态记忆及身份认证等新特性，需明确配置与监控责任。此举为企业部署多代理 orchestration 提供了治理框架，有助于降低自动化工作流中的安全风险，推动企业级 AI 应用合规落地。",
+    "tags": [
+      "Dev",
+      "Microsoft",
+      "Security"
+    ],
+    "link": "https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility-ai-agent",
+    "date": "2026-08-26",
+    "id": "17879830832293"
   },
   {
     "title": "全球首例 AI 实时辅助脑瘤手术成功",
@@ -1246,57 +1298,5 @@
     "link": "https://www.washingtonpost.com/education/2026/08/25/ai-can-now-credibly-complete-most-undergraduate-assignments-mit-warns/",
     "date": "2026-08-25",
     "id": "17877488777843"
-  },
-  {
-    "title": "俄军 AI 无人机致平民死亡首案确认",
-    "summary": " forensic 团队确认俄军使用 Nvidia Jetson Orin 无人机自主 targeting 致平民死亡。",
-    "detail": "### 事件背景\n法医团队指出，这是首起记录在案的俄军全自动瞄准无人机导致平民死亡事件。\n### 核心技术\n涉事无人机使用 **Nvidia Jetson Orin** 芯片进行边缘 AI 计算，实现自主目标识别。\n### 行业影响\n此事件引发全球对自主武器系统伦理及硬件供应链管控的严峻讨论，可能加速相关出口管制政策落地。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Hardware"
-    ],
-    "link": "https://www.tomshardware.com/tech-industry/drones/nvidia-jetson-orin-guided-the-russian-ai-drone-that-killed-three-civilians-in-ukraine-forensic-teams-say",
-    "date": "2026-08-25",
-    "id": "17877271602130"
-  },
-  {
-    "title": "构建终身个人健康 AI 代理的愿景",
-    "summary": "作者提出构建伴随一生的个人健康代理，整合医疗记录与 AI 干预，优化长期健康目标。",
-    "detail": "文章探讨了一种超越传统健康聊天机器人的构想：universal personal health agent。该代理旨在积累终身证据，与医生协作，并根据个人目标（如长寿、心理健康）进行干预。核心在于构建患者控制的医疗记录 substrate，而非单一应用，确保记录随 AI 迭代而持久。这展示了 AI 在垂直领域深度个性化与长期记忆应用的潜力，重新定义个人健康管理范式，为未来 AI 与医疗结合提供了极具前瞻性的实践路径与思考，强调数据主权与长期价值。",
-    "tags": [
-      "New",
-      "Healthcare",
-      "Personal AI"
-    ],
-    "link": "https://williamtp.substack.com/p/the-ai-health-agent-that-will-know",
-    "date": "2026-08-25",
-    "id": "17877136611922"
-  },
-  {
-    "title": "DigitalOcean 探讨 AI 初创企业的规模化挑战",
-    "summary": "四位 AI 创始人分享产品落地经验，强调可靠性与模型周边基础设施比模型本身更重要。",
-    "detail": "DigitalOcean  Deploy 2026  会议上，Andi AI、Higgsfield  等四位创始人讨论 AI 产品规模化痛点。共识是获取模型容易，但确保代理可靠性、衡量实际效果才是护城河。讨论涉及本地引擎计算、人机协作验证法律建议等案例，强调模型周边基础设施的重要性。表明 AI 创业已进入拼工程化落地与垂直场景整合的深水区，可靠性决定产品生死，单纯依赖 API 无法构建长期竞争优势，需深耕场景，建立数据与反馈闭环。",
-    "tags": [
-      "News",
-      "Startups",
-      "Engineering"
-    ],
-    "link": "https://www.digitalocean.com/blog/ai-disruptors",
-    "date": "2026-08-25",
-    "id": "17877136611923"
-  },
-  {
-    "title": "Codeberg 更新条款拒绝纯 AI 生成仓库",
-    "summary": "代码托管平台 Codeberg 修改服务条款，禁止 predominantly AI 生成的仓库及加密货币项目。",
-    "detail": "开源平台 Codeberg 更新 ToS，明确限制 LLM 生成内容为主的仓库，旨在保护自由开源软件 commons 免受 AI 污染。同时禁止加密货币项目。此举反映开源社区对 AI 生成代码质量的担忧及对真实人类协作的坚持，试图维护代码库的纯净性与可信度。可能引发其他托管平台跟进，影响 AI 辅助开发的合规边界，重塑开源生态规则，对依赖 AI 生成代码的开发者提出新的挑战与合规要求，引发社区对 AI 伦理的深层讨论。",
-    "tags": [
-      "News",
-      "Open Source",
-      "Policy"
-    ],
-    "link": "https://codeberg.org/Codeberg/org/compare/17bdb39b0c1ecd0e423f3ba592650ce57fcdfbf5..71149c7fc95ccfeae36109b5cddca339e4aa1473?files=TermsOfUse.md#diff-d760d688bb9b929b62db808bfc76abe4493d095a",
-    "date": "2026-08-25",
-    "id": "17877136611924"
   }
 ]
