@@ -1,5 +1,70 @@
 [
   {
+    "title": "马斯克建铸造厂解决 AI 电力瓶颈",
+    "summary": "SpaceX 自建涡轮叶片铸造厂，加速天然气涡轮机生产以缓解 AI 数据中心电力短缺。",
+    "detail": "马斯克确认 SpaceX 在德州建设秘密铸造厂，旨在自产燃气涡轮叶片。此举意在解决 AI 行业面临的电网物理限制，预计可将涡轮机上线时间提前 18 个月。尽管太阳能产能也在扩张，但天然气仍是未来几年必要的补充。这反映了 AI 基础设施竞争已延伸至能源硬件制造领域，显示算力背后的能源争夺战正在加剧。随着数据中心功耗激增，传统供应链无法满足需求，科技巨头被迫垂直整合以确保算力供应连续性。此举虽解决瓶颈，但也引发污染担忧，凸显 AI 扩张与环保之间的潜在冲突。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Elon Musk"
+    ],
+    "link": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
+    "date": "2026-08-30",
+    "id": "17881127925970"
+  },
+  {
+    "title": "实证研究：AI 导致初级开发岗位减少",
+    "summary": "前沿期刊研究指出，2022-2024 年间高收入经济体初级软件开发岗位 posting 减少 14-41%。",
+    "detail": "基于 94 项研究的综合分析显示，AI 显著影响了劳动力市场。初级开发和内容创作岗位需求下降，而具备 AI 增强能力的工人享有 15-22% 的工资溢价。基础设施和安全角色却在扩张。这证实了 AI 不仅自动化任务，还在重塑职业结构和薪资极性，为行业人才策略提供数据支持。研究覆盖 2020 至 2025 年，区分了 AI 驱动 displacement 与周期性波动，表明高收入经济体正经历结构性转型，企业需重新评估招聘与培训重点。",
+    "tags": [
+      "News",
+      "Economy",
+      "Labor Market"
+    ],
+    "link": "https://www.frontiersin.org/journals/human-dynamics/articles/10.3389/fhumd.2026.1815037/full",
+    "date": "2026-08-30",
+    "id": "17881127925971"
+  },
+  {
+    "title": "警示：超人类 AI 编码可能增加技术债务",
+    "summary": "分析指出 AI 编码速度虽快，但缺陷率累积会导致软件质量下降和维护困难。",
+    "detail": "文章深入分析了 AI 编码的潜在风险。即使 AI 缺陷率低于人类，其极高的提交速度也会导致单位时间内缺陷总数激增。此外，模型崩溃和上下文限制问题加剧了遗留代码库的维护难度。开发者需警惕盲目追求速度，应建立更严格的审查机制以平衡 velocity 与技术债务。虽然 AI 提升了单点编码效率，但软件工程的核心在于长期维护。若缺乏有效治理，快速生成的代码将转化为高昂的后期成本，建议团队结合人工审计与自动化测试。",
+    "tags": [
+      "Dev",
+      "Software Engineering",
+      "LLM"
+    ],
+    "link": "https://www.williamangel.net/blog/2026/08/29/superhuman-AI-coding-still-makes-software-worse.html",
+    "date": "2026-08-30",
+    "id": "17881127925972"
+  },
+  {
+    "title": "Show HN: Simurg 开源检测 AI 幻觉与流损坏",
+    "summary": "开源工具可在 LLM 生成过程中实时检测解码损坏并中断流，防止幻觉输出。",
+    "detail": "Simurg 是一个流完整性监控器，能在答案生成途中捕捉 LLM 解码损坏、重复循环或语言漂移。一旦检测到问题，它会在几百个字符内中止流并触发再生，确保用户看不到错误 token。支持任何 OpenAI 兼容 API，为构建高可靠性 AI 代理提供了底层安全保障，适合开发者集成。该工具解决了流式输出中难以回滚的痛点，通过零泄漏在线检测机制，显著提升了用户体验。对于依赖实时交互的生产环境，此类中间件将成为标准配置。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Hallucination"
+    ],
+    "link": "https://github.com/doofzoff/SIMURG",
+    "date": "2026-08-30",
+    "id": "17881127925973"
+  },
+  {
+    "title": "Show HN: Claude Skills starter kit 含 198 个模块化技能",
+    "summary": "开源库提供 198 个生产级技能文件，将 Claude 转化为高级工程师或产品经理。",
+    "detail": "该项目为 Claude Code 和 AI 代理提供了 198 个模块化技能文件，涵盖 LangGraph、RAG、安全等领域。免费版本包含 20 个生产就绪技能，旨在提升 AI 代理在特定 domain 的专业能力。开发者可直接复用这些技能配置，加速构建具备高级角色的 AI 工作流，降低 prompt 工程门槛。通过标准化技能模块，团队可更快部署垂直领域 agent，减少重复造轮子。开源许可允许自由修改，适合希望快速集成 Claude 能力的工程团队参考使用。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "Claude"
+    ],
+    "link": "https://github.com/yevhens-hue/claude-skills-starter-kit",
+    "date": "2026-08-30",
+    "id": "17881127925974"
+  },
+  {
     "title": "1endpoint 发布：统一 API 接入多款大模型，按需计费",
     "summary": "新工具提供统一 API 端点接入 GLM、GPT 等模型，支持提示缓存与支出追踪。",
     "detail": "1endpoint 推出统一 API 网关，开发者可通过单一端点切换 GLM、GPT、DeepSeek 等多种模型，无需重写集成代码。支持提示缓存、支出追踪及按量付费，最低价格低至每百万输入 token 0.042 美元。该工具降低了多模型部署成本与复杂度，适合需要灵活切换模型以优化成本性能的开发者团队，提升 AI 应用开发效率，简化模型管理流程。",
@@ -1233,70 +1298,5 @@
     "link": "https://mrkt30.com/deepseek-v4-flash-overtaking-american-ai-models/",
     "date": "2026-08-26",
     "id": "17877406494982"
-  },
-  {
-    "title": "AutoRouter 企业级 AI 模型网关",
-    "summary": "统一 API 接入全球 200+ 大模型，简化开发。",
-    "detail": "AutoRouter 推出面向 Agent 时代的 AI API 平台，支持通过统一接口连接 GPT-5.5、Claude Opus 4.7 等 200+ 模型。平台提供企业级可靠性与透明定价，旨在消除多供应商集成痛点，帮助开发者快速验证想法并构建 Agentic 应用，目前已服务超 10 万全球客户，简化运营流程。",
-    "tags": [
-      "New",
-      "API",
-      "Agent"
-    ],
-    "link": "https://autorouter.top/",
-    "date": "2026-08-26",
-    "id": "17877406494983"
-  },
-  {
-    "title": "micromanaging AI coding agents 实践",
-    "summary": "分享 MMDD 开发流程，高效管理 AI 编码代理。",
-    "detail": "作者分享了长达 14 个月的 AI 编码代理管理经验，提出 MMDD（Micromanaged Driven Development）流程。该方法在与 Agent 编写代码前先 agreed on plan，将任务拆分为最小单元。它工具无关且能有效防止幻觉，比 Spec Driven Development 更灵活，适合复杂产品开发，已在多个项目中验证有效。",
-    "tags": [
-      "Dev",
-      "Workflow",
-      "Coding"
-    ],
-    "link": "https://allende.nz/notes/fourteen-months-micromanaging-ai-coding-agents/",
-    "date": "2026-08-26",
-    "id": "17877406494984"
-  },
-  {
-    "title": "比尔·盖茨转向：警示 AI 引发就业与经济危机",
-    "summary": "盖茨发文称 AI 过渡期将动荡，呼吁政策保护工人及征税。",
-    "detail": "比尔·盖茨在其官方博客及采访中表示，AI 技术发展速度超出预期，可能引发经济灾难及大规模失业。他与此前乐观态度截然不同，警告生物安全、网络安全及白领工作面临风险。盖茨呼吁科技与政治领袖制定新政策，包括对 AI 使用征税，以保护弱势群体。他强调若不加管控，社会反弹可能阻碍 AI 在科学健康领域的潜力。此外，盖茨计划发布系列文章，深入分析 AI 带来的生物恐怖主义风险等议题，标志着其对 AI 态度的重大转变，引发行业广泛关注。他认为过渡期将是人类历史最动荡时刻之一，需确保 AI 成为公平力量而非加剧贫富差距。",
-    "tags": [
-      "News",
-      "Bill Gates",
-      "Policy"
-    ],
-    "link": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
-    "date": "2026-08-26",
-    "id": "17877374112470"
-  },
-  {
-    "title": "开源项目：基于 IMAP 的本地 AI 邮件代理",
-    "summary": "Go 语言编写，支持本地同步邮件并通过 AI 分析摘要及回复。",
-    "detail": "这是一个开源的 AI 邮件代理工具，通过 IMAP 协议将邮件同步至本地 JSON 存储。支持集成 OpenAI、Anthropic 或本地 Ollama 模型进行邮件摘要、分类及洞察提取。具备 SMTP 发送回复、全文搜索及实时邮件检测功能。项目基于 Go 1.21 开发，配置灵活，适用于 Gmail、Outlook 等任意 IMAP 服务器，为开发者提供了构建本地化 AI 邮件工作流的参考实现。其本地存储特性便于 inspect 和 backup，强调了数据隐私与控制权，适合希望在不依赖云端 SaaS 情况下实现邮件智能化的技术人员。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Email"
-    ],
-    "link": "https://github.com/peterretief/emailai/tree/main",
-    "date": "2026-08-26",
-    "id": "17877374112471"
-  },
-  {
-    "title": "深度思考：若由 AI 主导公共政策与政治？",
-    "summary": "探讨 AI 治理优势，指出其无选举压力，能更关注长远利益。",
-    "detail": "文章探讨了将 AI 引入公共政策制定的可能性。作者认为 AI 治理的核心优势在于“诚实性”，机器无需赢得选举或取悦 donors，能更专注于未来利益而非短期政治博弈。以化石燃料补贴为例，指出当前政策失败源于利益集团博弈而非智力不足。虽然实验目的非证明机器智能，但揭示了人类政治瘫痪并非智力问题，而是激励机制问题，为 AI 在政府中的应用提供了新视角。作者指出大部分坏政策不是思考失败，而是特定群体不断获胜的结果，AI 可能改变这一 incentive 结构。",
-    "tags": [
-      "News",
-      "Policy",
-      "Governance"
-    ],
-    "link": "https://inevolin.github.io/blog/2026/08/25/should-we-let-ai-govern-us/",
-    "date": "2026-08-26",
-    "id": "17877374112472"
   }
 ]
