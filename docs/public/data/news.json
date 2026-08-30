@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 与宗教的双向重塑：伦理与社会影响",
+    "summary": "经济学人探讨 AI 如何改变宗教，以及宗教团体试图影响 AI 伦理。",
+    "detail": "**背景**：随着 AI 技术渗透至社会深层，其与传统文化体系的冲突与融合成为焦点。**核心**：经济学人深度分析 AI 如何改变宗教仪式与信仰传播，同时宗教团体正试图通过伦理框架影响 AI 开发。**影响**：揭示了技术与信仰的复杂互动，为 AI 伦理治理提供新视角，强调非技术层面的社会融合与价值观对齐的重要性。此趋势表明 AI 安全不仅限于技术鲁棒性，更需考量文化适应性，可能影响未来 AI 监管政策制定方向，引发全球范围内对 AI 社会影响的深层思考。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Society"
+    ],
+    "link": "https://economist.com/international/2026/08/27/ai-is-changing-religion-and-religions-are-trying-to-change-ai",
+    "date": "2026-08-30",
+    "id": "17880521878790"
+  },
+  {
+    "title": "Mujib：企业级 AI 语音客服支持中心",
+    "summary": "支持 SIP/PBX 的 AI 语音代理，提供 24/7 多语言客户支持与人工 escalation。",
+    "detail": "**背景**：传统呼叫中心成本高且扩展性差，难以应对高峰流量。**核心**：Mujib 提供企业级 AI 语音代理，直接接入真实 SIP/PBX 电话线，基于 RAG 知识库回答问题，支持 50+ 语言。**影响**：降低企业客服运营成本，实现全天候多语言覆盖，支持无缝人工转移，推动语音 AI 在高 stakes 生产环境落地，重新定义客户支持自动化标准。相比传统聊天机器人，其实时语音交互能力更能满足紧急支持需求，显著提升用户满意度与问题解决率。",
+    "tags": [
+      "New",
+      "Voice AI",
+      "Enterprise"
+    ],
+    "link": "https://aimujib.com/",
+    "date": "2026-08-30",
+    "id": "17880521878791"
+  },
+  {
+    "title": "OpenContext：AI 编码代理的项目级持久记忆工具",
+    "summary": "通过 MCP 协议让编码代理记住项目规则，避免重复询问架构决策。",
+    "detail": "**背景**：编码代理在不同会话间丢失上下文，导致架构决策不一致。**核心**：OpenContext 通过 MCP 协议暴露轻量服务器，将规则持久化存储于 `.opencontext/` Markdown 文件，供代理读取。**影响**：确保团队代码规范一致性，减少重复沟通，提升 AI 编程效率与架构稳定性，实现零配置的项目级记忆管理，避免代理重复询问 conventions。无需云端账户锁定的设计保护了数据隐私，适合对安全性敏感的企业开发团队采用，促进人机协作流畅度。",
+    "tags": [
+      "Dev",
+      "MCP",
+      "Coding"
+    ],
+    "link": "https://www.opencntx.dev/",
+    "date": "2026-08-29",
+    "id": "17880521878792"
+  },
+  {
+    "title": "VibeGuard：专为 AI 生成代码设计的安全 Linter",
+    "summary": "捕捉 Copilot 等工具常犯的 SQL 注入、硬编码密钥等安全漏洞。",
+    "detail": "**背景**：AI 辅助编程频繁引入安全漏洞，传统审查难以跟上生成速度。**核心**：VibeGuard 是专为 AI 代码设计的安全 Linter，捕捉 SQL 注入、硬编码密钥、JWT bypass 等常见错误。**影响**：弥补 AI 生成代码的安全短板，集成 CI/CD，提升自动化开发流程的安全性，无需配置即可 grading 代码质量，解决训练数据自带漏洞问题。针对 Copilot 等工具重复犯错的特点优化，为高速开发环境提供必要的安全护栏，降低后期修复成本。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Python"
+    ],
+    "link": "https://github.com/zeroFhacker/vibeguard",
+    "date": "2026-08-29",
+    "id": "17880521878793"
+  },
+  {
+    "title": "代码验证成新核心：AI 时代的软件工程变革",
+    "summary": "文章指出 AI 生成代码后，工程师的核心技能从编写转向验证与决策。",
+    "detail": "**背景**：AI 编程工具普及改变工作流，代码生成不再是瓶颈。**核心**：文章指出工程师核心技能从编写转向验证，快速判断代码价值成为稀缺能力，Diff 审查成为工程发生地。**影响**：重新定义工程师角色，强调审查与架构决策能力，预示开发工具向 Diff 审查优化的趋势，实施成为新核心，改变软件交付节奏。这一转变要求开发者具备更强的系统观与批判性思维，以应对 AI 生成代码的潜在风险与质量波动。",
+    "tags": [
+      "News",
+      "Workflow",
+      "Engineering"
+    ],
+    "link": "https://sarpex.com/2026/08-verification-is-the-new-implementation",
+    "date": "2026-08-29",
+    "id": "17880521878794"
+  },
+  {
     "title": "OpenAI 终止向 Cursor 提供模型访问权限",
     "summary": "SpaceX 收购后，OpenAI 决定停止向代码编辑器 Cursor 提供模型 API 访问。",
     "detail": "**背景**：随着 Elon Musk 的 SpaceX 完成对代码编辑器 Cursor 的收购，OpenAI 正式宣布终止向其提供模型 API 访问权限。**影响**：此举标志着 AI 模型提供商与下游应用之间合作关系的重大转折，可能迫使 Cursor 转向 Anthropic 或 xAI 寻求替代方案。**行业信号**：巨头间竞争加剧，生态壁垒正在形成，开发者需密切关注模型供应稳定性及平台依赖风险，避免单一供应商锁定。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.theguardian.com/world/2026/aug/26/china-ai-companion-relationships-marriage-birth-rate-concern",
     "date": "2026-08-26",
     "id": "17877271602132"
-  },
-  {
-    "title": "Flow AI 视频生成器宣称集成 Google 模型",
-    "summary": "新工具支持文本及图像转视频，宣称集成领先 AI 模型，主打电影级生成效果。",
-    "detail": "### 产品功能\n提供文本转视频、图像转视频、参考图生成等多种模式，支持详细描述镜头语言和 mood。\n### 技术亮点\n页面宣称由 Google Labs 支持，旨在将创意快速转化为 cinematic clip。\n### 行业影响\n视频生成赛道竞争加剧，多模型集成成为新趋势，降低创作者使用门槛。",
-    "tags": [
-      "New",
-      "Video",
-      "Generative"
-    ],
-    "link": "https://ai-flow.video/",
-    "date": "2026-08-26",
-    "id": "17877271602133"
-  },
-  {
-    "title": "Portable Computer 推出本地优先 AI 栈",
-    "summary": "基于 NVIDIA DGX Spark 运行本地代理，支持混合云端模型调用，保障数据隐私。",
-    "detail": "### 技术架构\n在本地 NVIDIA DGX Spark 上运行 agent harness 和 orchestrator，状态保留在本地。\n### 核心优势\n处理敏感数据（如税务文档）时在本地完成，仅必要时路由至云端 frontier 模型。\n### 行业影响\n推动 Local-First AI 架构发展，解决企业和个人对数据隐私的核心痛点。",
-    "tags": [
-      "Dev",
-      "Infra",
-      "LocalAI"
-    ],
-    "link": "https://www.perplexity.ai/hub/products/portable-computer",
-    "date": "2026-08-26",
-    "id": "17877271602134"
-  },
-  {
-    "title": "HandWrought 文档内 AI 编辑器上线",
-    "summary": "Show HN 新品，直接在文档中集成 AI 编辑功能，非独立标签页，提供免费额度。",
-    "detail": "### 产品形态\nAI 编辑器嵌入文档内部，支持大纲生成、全文重写及选中编辑。\n### 使用门槛\nGuest 用户可获得 5 免费 credits，导入 PDF/Word 消耗 credit，txt/md 免费。\n### 行业影响\n优化写作工作流，减少上下文切换，体现 AI 工具向无缝集成方向发展的趋势。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Editor"
-    ],
-    "link": "https://handwrought.online/",
-    "date": "2026-08-26",
-    "id": "17877271602136"
-  },
-  {
-    "title": "Perplexity 推出便携式计算机，进军本地 AI 市场",
-    "summary": "Perplexity 发布 Portable Computer，基于 NVIDIA DGX Spark 实现本地优先代理栈。",
-    "detail": "Perplexity 正试图通过\"Portable Computer\"进入本地 AI 服务市场。该产品在 NVIDIA DGX Spark 上运行代理 harness 和 orchestrator，支持本地会话状态保持，并在需要时调用云端前沿模型。此举标志着 AI 搜索巨头向本地化、隐私优先的计算架构转型，可能改变企业数据处理方式。本地优先策略能降低延迟并增强数据主权，适合对隐私敏感的企业场景，是边缘 AI 落地的重要一步。混合云架构允许敏感数据本地处理，同时利用云端强大算力，平衡了性能与隐私，为未来 AI 个人电脑形态提供了新参考。这将推动本地推理硬件需求增长，并可能引发新一轮端侧 AI 生态竞争。",
-    "tags": [
-      "News",
-      "Local AI",
-      "Perplexity"
-    ],
-    "link": "https://www.theregister.com/ai-and-ml/2026/08/26/now-perplexity-is-trying-to-get-into-the-local-ai-action/5292449",
-    "date": "2026-08-26",
-    "id": "17877226447940"
-  },
-  {
-    "title": "Gartner：2340 亿美元企业软件支出面临代理 AI 风险",
-    "summary": "Gartner 报告指出，代理式人工智能将使 2340 亿美元的企业应用软件支出面临风险。",
-    "detail": "Gartner 最新 пресс-релиз 显示，随着代理式 AI（Agentic AI）的兴起，全球企业应用软件支出中有 2340 亿美元处于风险之中。这表明 AI 代理将显著重构企业软件采购逻辑，传统 SaaS 模式可能受到自动化代理任务的冲击，企业需重新评估软件投资回报率与架构安全性。自动化代理可能替代部分人工操作软件的需求，导致许可证支出下降，迫使软件厂商转型。企业 IT 部门需警惕现有软件栈的贬值风险，提前规划 AI 原生架构，以避免资产闲置浪费，这将是未来几年 CIO 面临的核心挑战之一。软件供应商需尽快集成代理接口，否则将面临客户流失风险。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Agentic AI"
-    ],
-    "link": "https://www.gartner.com/en/newsroom/press-releases/2026-07-01-gartner-says-us-dollars-234-billion-in-enterprise-application-software-spend-is-at-risk-from-agentic-artificial-intelligence",
-    "date": "2026-08-26",
-    "id": "17877226447941"
   }
 ]
