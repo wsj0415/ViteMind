@@ -1,5 +1,57 @@
 [
   {
+    "title": "哈佛法学辍学生获 600 万美元融资，打造警察版 Harvey",
+    "summary": "Blue Voice 获融资，为警察提供实时 AI 政策指导，解决执法合规难题。",
+    "detail": "**背景**：哈佛法学辍学生 David Lawrence 创立，获 SignalFire 等 600 万美元融资，致力于解决执法合规难题。**核心技术**：类似法律 AI Harvey，为警察提供实时政策指导，避免依赖记忆或通用模型，减少错误。此前警官需翻阅万页手册或询问 supervisor，通用 AI 错误率高达 30%。Blue Voice 通过专用训练解决此问题。**行业影响**：已在 25 个州 225 个机构使用，解决执法错误源于规则访问滞后痛点，标志着垂直领域 AI 应用向高风险行业深化，提升执法标准化与安全性。",
+    "tags": [
+      "News",
+      "Funding",
+      "Vertical AI"
+    ],
+    "link": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
+    "date": "2026-08-31",
+    "id": "17882025920030"
+  },
+  {
+    "title": "Makra Labs 推出新方案，AI 网页抓取成本降低 90%",
+    "summary": "通过记忆化驱动检索，解决长上下文 LLM 抓取成本高及幻觉问题。",
+    "detail": "**背景**：2026 年网页 75% 为动态内容，传统长上下文 LLM 抓取成本高且易幻觉。**技术方案**：Makra Labs 采用记忆化驱动的知识检索，内置浏览器 harness 提取结构化数据。**核心优势**：成本降至传统方案的 1/10，理论上消除幻觉，减少上下文污染。**行业影响**：解决大规模抓取成本线性增长问题，为 Agent 提供高效数据 retrieval 方案，针对 2026 年动态网页环境优化，提升 AI 数据获取效率。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "Cost Reduction"
+    ],
+    "link": "https://www.makralabs.org/about",
+    "date": "2026-08-31",
+    "id": "17882025920031"
+  },
+  {
+    "title": "新店铺工具检测 Shopify 商店对 ChatGPT 的可见性",
+    "summary": "免费扫描 GEO 友好度，揭示 36% 商店缺乏产品结构化数据。",
+    "detail": "**背景**：消费者常问 AI 推荐商店，数据不可读即隐形。**功能**：RankInAI 扫描 Shopify 商店是否被 AI 引擎推荐，提供 0-100 可见性评分。**数据洞察**：测试 12 个 DTC 品牌，平均分 77，36% 缺失产品结构化数据，27% 无 FAQ 内容。**意义**：针对 GEO（生成引擎优化）需求，帮助商家优化 JSON-LD 及 robots.txt，确保在 AI 搜索时代不被隐形，提供具体修复清单。",
+    "tags": [
+      "New",
+      "GEO",
+      "E-commerce"
+    ],
+    "link": "https://rankinai.surge.sh/",
+    "date": "2026-08-31",
+    "id": "17882025920032"
+  },
+  {
+    "title": "行业观点：AI 时代最安全的工作可能是写作而非编程",
+    "summary": "博主指出 AI 代码生成进步快，但散文生成仍缺乏灵魂，写作反而更安全。",
+    "detail": "**背景**：技术博主 Murat Buffalo 分析，程序员正面临 5 倍生产力配额压力，而写作受影响较小。**核心论点**：LLM 生成代码能力强，但 prose 充满陈词滥调，缺乏真正理解，人类成代码 loop 中的瓶颈。**趋势**：人类对 AI 写作产生生理性排斥，写作可能因“灵魂”需求而成为避风港。代码生成进步快，但写作仍保留人类独特价值，挑战传统 AI 替代论。",
+    "tags": [
+      "News",
+      "Labor Market",
+      "Opinion"
+    ],
+    "link": "http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html",
+    "date": "2026-08-31",
+    "id": "17882025920033"
+  },
+  {
     "title": "AI 代理部署指南：是后台任务而非 Web 请求",
     "summary": "深入解析 AI Agent 生产环境部署难题，提出基础设施改进方案。",
     "detail": "文章基于 Godaddy 平台工程经验，指出 AI Agent 在生产环境中违背了传统部署管道的假设。作者分享曾因 Agent 持有 3GB 对话历史导致部署失败的案例。每个部署都会清除它，每次自动扩展事件都会分叉它。强调 Agent 应被视为后台作业而非 API 请求，引用 HumanLayer 的 Twelve Factor Agents 方法论。核心在于解决内存管理、自动扩展及重试机制带来的重复问题，为开发者提供了从基础设施侧优化 Agent 稳定性的实战建议，避免模型本身无误但部署崩溃的情况，重塑 shipping agents 的思维模式。",
@@ -1246,57 +1298,5 @@
     "link": "https://claude.com/blog/the-ai-native-sdlc-playbook",
     "date": "2026-08-26",
     "id": "17877612152610"
-  },
-  {
-    "title": "Particle 推出 Radar 播客搜索引擎",
-    "summary": "Particle 推出 Radar 播客搜索引擎，索引对话供 AI Agent 使用，对冲基金已接入，解决非文本数据利用难题。",
-    "detail": "前 Twitter 工程师创立的 Particle 公司正式推出 Radar 播客搜索引擎，不仅转录音频还能理解语义，提取关键引用。该工具主要面向对冲基金和 AI 搜索平台，Exa 已成为合作伙伴。CEO 表示对冲基金是最高 volume 客户，旨在挖掘 Agent 无法看到的隐藏数据。这解决了非文本数据被 AI Agent 利用的难题，开启了音频数据商业化新路径，使播客内容可被机器直接检索和分析。API 已吸引大量机构集成，数据价值显著。",
-    "tags": [
-      "New",
-      "Search",
-      "Agent"
-    ],
-    "link": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/",
-    "date": "2026-08-26",
-    "id": "17877612152611"
-  },
-  {
-    "title": "PlaceRoot 上线免密钥地图工具",
-    "summary": "PlaceRoot 上线免密钥地图工具，开源 MCP 服务器为 AI Agent 提供免费地理数据，支持地点与路由。",
-    "detail": "GitHub 开源项目 PlaceRoot 推出无需 API 密钥的地图工具，专为 AI Agent 设计。支持地点搜索、地理编码和路由功能，底层基于 Overture Maps 开放数据。作为 MCP 服务器集成，它大幅降低了 AI Agent 获取地理信息的门槛和成本。开发者无需注册账户即可使用，适合快速部署本地或云端 Agent 应用。这为构建具备地理位置感知能力的 AI 应用提供了免费且便捷的基础设施支持。工具兼容 Python 和 npm，易于集成。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Maps"
-    ],
-    "link": "https://github.com/chuofringer/placeroot",
-    "date": "2026-08-26",
-    "id": "17877612152612"
-  },
-  {
-    "title": "DAIR.AI 发布 Agent 技能编写教程",
-    "summary": "DAIR.AI 发布 Agent 技能编写教程，通过 Markdown 定义流程，实现编码 Agent 任务标准化与复用。",
-    "detail": "DAIR.AI 学院发布最新教程，指导开发者为 coding agent 编写可复用技能（skill）。用户只需在 Markdown 文件中定义 procedure，Agent 即可根据请求描述自动匹配并执行，无需每次重复指令。该方法适用于 pi、Claude Code 等多种 Agent 框架。教程涵盖了项目规则、斜杠命令与技能的区别，帮助团队标准化 Agent 行为。这显著提升了 Agent 任务执行的稳定性和复用性，降低了日常交互成本。无需安装代码，纯文本配置即可。",
-    "tags": [
-      "Dev",
-      "Tutorial",
-      "Agent"
-    ],
-    "link": "https://academy.dair.ai/resources/write-your-first-agent-skill",
-    "date": "2026-08-26",
-    "id": "17877612152613"
-  },
-  {
-    "title": "比尔盖茨提议征收机器人税以缓解 AI 就业冲击",
-    "summary": "盖茨呼吁对机器人征税，并设立人类保留工作岗位。",
-    "detail": "微软联合创始人比尔盖茨近日发表长文，深入探讨 AI 的社会影响，尤其担忧劳动力市场冲击。他正式提议实施“机器人税”，指出当前税制鼓励企业用机器替代人类，征税可减缓这一趋势并为再培训筹资。此外，他主张设立“人类保留”职位，禁止 AI 介入特定任务。这一政策建议若落地，将显著改变 AI 部署的经济模型，引发全球政策制定者关注。盖茨虽支持 AI 在医疗科学的应用，但强调需平衡社会风险，其观点代表了负责任 AI 阵营的重要声音，可能影响未来立法方向。此提议与 Anthropic 等公司的政策工作相呼应，显示科技领袖对 AI 安全共识的形成。",
-    "tags": [
-      "News",
-      "Policy",
-      "Economy"
-    ],
-    "link": "https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/",
-    "date": "2026-08-26",
-    "id": "17877555984800"
   }
 ]
