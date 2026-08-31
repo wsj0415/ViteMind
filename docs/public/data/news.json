@@ -1,5 +1,57 @@
 [
   {
+    "title": "AI 代理部署指南：是后台任务而非 Web 请求",
+    "summary": "深入解析 AI Agent 生产环境部署难题，提出基础设施改进方案。",
+    "detail": "文章基于 Godaddy 平台工程经验，指出 AI Agent 在生产环境中违背了传统部署管道的假设。作者分享曾因 Agent 持有 3GB 对话历史导致部署失败的案例。每个部署都会清除它，每次自动扩展事件都会分叉它。强调 Agent 应被视为后台作业而非 API 请求，引用 HumanLayer 的 Twelve Factor Agents 方法论。核心在于解决内存管理、自动扩展及重试机制带来的重复问题，为开发者提供了从基础设施侧优化 Agent 稳定性的实战建议，避免模型本身无误但部署崩溃的情况，重塑 shipping agents 的思维模式。",
+    "tags": [
+      "Dev",
+      "AI Agent",
+      "Infrastructure"
+    ],
+    "link": "https://nitishagar.medium.com/an-agent-is-a-job-not-an-api-7673b837bd11",
+    "date": "2026-08-31",
+    "id": "17881755935580"
+  },
+  {
+    "title": "AI 原生 SDLC 始于基础设施构建",
+    "summary": "解读 Anthropic playbook，强调基础设施对 AI 软件生命周期的重要性。",
+    "detail": "围绕 Anthropic 发布的 AI 原生 SDLC 手册，文章指出传统软件生命周期已不适应 Coding Agent 时代。约束已从写代码转移到周围阶段，特别是 Stage 4 的反馈循环。手册规划了 intent.md 到 REVIEW.md 的工件流程。它比大多数流程文档更具体，但也遗漏了重要细节。文章强调基础设施需支持本地一键运行测试套件和构建，以便 Agent 自我验证。建议通过 MCP 连接浏览器工具，并将 Agent 配置视为软件，通过 CI 中的 evals 确保持续集成质量，防止 Agent 修改测试文件，确保生产事件转化为永久评估。",
+    "tags": [
+      "Dev",
+      "SDLC",
+      "Anthropic"
+    ],
+    "link": "https://metalbear.com/blog/ai-native-sdlc-infrastructure/",
+    "date": "2026-08-31",
+    "id": "17881755935581"
+  },
+  {
+    "title": "MagicShot 发布：集成 500 模型的 AI 创作工作室",
+    "summary": "一站式 AI 图像视频音频生成平台，提供多种创意工具。",
+    "detail": "新产品 MagicShot 亮相，主打集成 500 种模型的 AI 工作室。功能涵盖 AI 图像生成、视频 upscale、播客创建及 Logo 设计等。具体工具包括 AI 图像增强器、产品照生成器、贴纸制作及 QR 码生成。还包括面部增强器、多视图图像等功能。视频方面支持 UGC 视频创作、图像转视频及电影预告片生成。用户可通过单一计划访问图像增强、产品照生成及 QR 码制作等工具。该平台旨在简化多媒体创作流程，为创作者提供从文本到视频、图像的全链路生成能力，降低内容制作门槛，满足多样化视觉需求。",
+    "tags": [
+      "New",
+      "Multimodal",
+      "Product"
+    ],
+    "link": "https://magicshot.ai/",
+    "date": "2026-08-31",
+    "id": "17881755935582"
+  },
+  {
+    "title": "本地 AI 已死：计算重心转向云端环境",
+    "summary": "观点文章论证 AI 开发运行时正从本地笔记本迁移至云端 VM。",
+    "detail": "作者 Ivan Burazin 提出本地 AI 已死观点，认为开发环境正全面云化。回顾 Codeanywhere 时期，指出开发者逐渐转向 Remote SSH 与云端 VM。引用 Cognition Devin、Cursor 及 OpenAI Codex 为例，指出智能模型与运行计算机均在云端。本地设备仅作为窗口，云端 VM 提供更强算力与环境隔离。Cognition 花费数年研发 hypervisor 工作以支持数千 VM 并行。你可以从桌面、手机、Slack 或 GitHub 启动它。这标志着开发范式转变，工作不再绑定本地硬件，支持多环境并行与团队协作，优化了资源利用与安全性，开发者只需关注窗口而非矩形硬件。",
+    "tags": [
+      "News",
+      "Cloud",
+      "Development"
+    ],
+    "link": "https://twitter.com/ivanburazin/status/2094373912154874171",
+    "date": "2026-08-31",
+    "id": "17881755935583"
+  },
+  {
     "title": "欧盟正式启动 AI 法案执法，向头部模型商发出问询",
     "summary": "欧盟 AI 办公室向 OpenAI 等发出问询，违规最高罚全球营收 3%。",
     "detail": "欧盟委员会确认启动 AI 法案执法，向 OpenAI、Anthropic 及 Google 等通用 AI 模型提供商发出信息请求 (RFI)，重点关注模型安全与外部评估。这是法案生效后的首步正式监管动作。违规回复可能面临最高 1500 万欧元或全球年营收 3% 的罚款。标志着 AI 监管从立法进入实质执法阶段，全球模型商需合规应对。此次行动表明 Brussels 将在四周内迅速行使新权力，对行业影响深远。虽无模型被禁，但正式监督文件已开启，法律后果严重，供应商需仔细准备回复以避免误导惩罚。",
@@ -1246,57 +1298,5 @@
     "link": "https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/",
     "date": "2026-08-26",
     "id": "17877555984800"
-  },
-  {
-    "title": "曝光：亚马逊仓库销毁书籍用于 AI 训练数据",
-    "summary": "内部员工披露亚马逊扫描并销毁书籍以获取 AI 训练数据。",
-    "detail": "媒体调查揭露亚马逊在内华达仓库的秘密操作，员工接收书籍 shipment 后切脊扫描松散页面，随后销毁实体书，用于 AI 训练数据。此举引发严重版权与伦理争议。匿名员工证实了该流程，显示科技巨头为获取高质量文本数据不惜破坏实体出版物。这可能加剧出版业与 AI 公司之间的法律冲突，引发关于数据 sourcing 合规性的新讨论。该事件揭示了 AI 训练数据获取的黑暗面，可能促使监管机构加强对数据中心物理操作的审查，保护知识产权。作者通过追踪稀有书籍 shipment 揭示了这一链条，显示了数据获取的隐蔽性。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Copyright"
-    ],
-    "link": "https://www.404media.co/inside-the-warehouse-where-amazon-scans-and-destroys-books-for-ai-training/",
-    "date": "2026-08-26",
-    "id": "17877555984801"
-  },
-  {
-    "title": "英特尔发布 Crescent Island GPU 专攻代理 AI",
-    "summary": "英特尔新 GPU 拥有 32 个 Xe3P 核心及 480GB 显存。",
-    "detail": "英特尔在 Hot Chips 2026 上详细展示了 Crescent Island GPU 架构细节。该独立 GPU 配备 32 个 Xe3P 核心和高达 480GB 的 LPDDR5X 内存，旨在支持复杂的代理 AI 任务。相比专用 AI 芯片，它更具通用性，可服务于多种 AI 处理需求。大显存设计表明英特尔正针对高负载 AI 推理与训练场景优化硬件，试图在 AI 芯片市场争夺份额。这一架构演进显示英特尔正努力缩小与 NVIDIA 的差距，通过大内存带宽优势吸引需要本地部署大模型的企业客户。Xe3P 架构是 Xe3 的迭代，将用于 Panther Lake 等客户端处理器，显示其全栈 AI 战略。",
-    "tags": [
-      "News",
-      "Hardware",
-      "GPU"
-    ],
-    "link": "https://hothardware.com/news/intel-crescent-island-hot-chips-2026",
-    "date": "2026-08-26",
-    "id": "17877555984802"
-  },
-  {
-    "title": "神秘模型 Ox Alpha 背后实验室确认为 Z.ai",
-    "summary": "TechCrunch 披露神秘 AI 模型 Ox Alpha 由 Z.ai 实验室开发。",
-    "detail": "此前在业界引发猜测的神秘 Ox Alpha 模型背后开发者身份终于揭晓，确认为 AI 实验室 Z.ai。这一发现引发了行业对该模型技术来源及实际能力的广泛关注。Z.ai 的正式露面标志着又一家新势力进入大模型竞争场，可能带来新的技术架构或应用方向。对于投资者和开发者而言，值得持续跟踪其后续发布及性能基准测试。Ox Alpha 的神秘营销手法反映了当前 AI 模型发布的新趋势，即通过制造悬念来提升市场关注度，Z.ai 需尽快展示实测数据以证明实力。该模型的具体参数尚未公开，但其神秘性已引发社区大量讨论。",
-    "tags": [
-      "News",
-      "Model",
-      "Startup"
-    ],
-    "link": "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/",
-    "date": "2026-08-26",
-    "id": "17877555984803"
-  },
-  {
-    "title": "SignalAlert 推出 AI 驱动的股票信号警报工具",
-    "summary": "新平台利用 AI 构建策略，提供多通道股票警报服务。",
-    "detail": "SignalAlert 正式上线新平台，允许用户构建自定义交易策略并获得 AI 推荐。支持 35+ 指标可视化规则构建，并通过邮件、Discord 或 Telegram 自动发送警报。社区可共享策略 setup 并协作。这是 AI 在金融垂直领域的典型应用案例，显著降低了量化策略的门槛，适合非专业投资者使用，提升了市场信号捕捉效率。该平台结合了 PWA 安装与社区协作功能，反映了 AI 工具向大众化、移动化发展的趋势，为零售投资者提供了新的技术赋能手段。其 AI 自动构建策略功能简化了复杂的技术分析流程，提升了用户体验。",
-    "tags": [
-      "New",
-      "Finance",
-      "Tool"
-    ],
-    "link": "https://signalalert.io/",
-    "date": "2026-08-26",
-    "id": "17877555984804"
   }
 ]
