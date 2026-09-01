@@ -1,5 +1,57 @@
 [
   {
+    "title": "Coinbase 联手 Massive 启用 AI 代理 x402 支付",
+    "summary": "AI 代理可直接用 USDC 按需购买市场数据，无需 API 密钥。",
+    "detail": "**背景**：随着 AI 代理自主性增强，传统支付流程成为瓶颈，代理无法管理订阅或 API 密钥。**技术**：x402 协议利用 HTTP 402 状态码，在请求内完成 USDC 结算。Massive 与 Coinbase 合作提供股市数据，代理可按需购买。**影响**：消除了人类介入订阅的摩擦，为代理金融交易奠定基础，标志着 AI 自主经济基础设施的重大突破，使代理能实时决策交易，无需中断任务，推动代理经济闭环。",
+    "tags": [
+      "News",
+      "AI Agents",
+      "Payments"
+    ],
+    "link": "https://massive.com/blog/x402-payments-for-ai-agents",
+    "date": "2026-09-01",
+    "id": "17882864376710"
+  },
+  {
+    "title": "Wasmer 发布本地沙盒 SDK 赋能浏览器 AI 代理",
+    "summary": "支持浏览器内运行 Python/Node，启动速度提升 10 倍。",
+    "detail": "**背景**：AI 代理执行代码需要安全且快速的环境，传统 Docker 启动慢。**技术**：无需 Docker 或 VM，本地沙盒创建仅 0.1ms，支持 Python/PHP/Postgres 在浏览器运行。**影响**：极大降低 AI 代理运行环境门槛，实现浏览器内全栈运行，提升安全性与响应速度，为边缘计算代理提供新方案。相比远程沙盒，本地运行延迟更低，适合高频交互场景，加速 WebAI 落地。",
+    "tags": [
+      "New",
+      "Infrastructure",
+      "WebGPU"
+    ],
+    "link": "https://wasmer.io/posts/wasmer-local-sandboxes-for-ai-agents",
+    "date": "2026-09-01",
+    "id": "17882864376711"
+  },
+  {
+    "title": "Hugging Face 推出 200 个 WebGPU 本地 AI 内核",
+    "summary": "优化浏览器端本地 AI 推理性能，降低部署门槛。",
+    "detail": "**背景**：云端推理成本高，隐私担忧推动本地 AI 推理需求增长。**技术**：Hugging Face 提供 200 个专用 WebGPU 内核，优化浏览器端计算效率，支持本地模型加载。**影响**：开发者可直接在网页端部署高性能模型，减少云端依赖，推动隐私优先的本地 AI 应用发展，降低延迟。此举降低了前端集成 AI 的难度，加速 WebAI 生态成熟，利好本地化部署趋势。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "WebGPU"
+    ],
+    "link": "https://huggingface.co/blog/webgpu-kernels",
+    "date": "2026-09-01",
+    "id": "17882864376712"
+  },
+  {
+    "title": "新工具强制 AI 代理使用最新依赖版本",
+    "summary": "针对 Claude Code 的钩子，自动检查并更新依赖。",
+    "detail": "**背景**：AI 生成代码常存在依赖过时或安全隐患，维护成本高。**技术**：`yul` 钩子在写入 manifest 前检查版本，阻塞过时依赖并提示正确版本。**影响**：支持 Maven/PyPI/npm 等主流包管理器，确保 AI 生成代码的维护性与安全性，显著提升自动化开发工作流的质量。这是 AI 编程助手走向成熟的重要工具链补充，解决 AI 编码可靠性痛点。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "Coding"
+    ],
+    "link": "https://github.com/chains-project/yul",
+    "date": "2026-09-01",
+    "id": "17882864376713"
+  },
+  {
     "title": "PearPie 上线：无需账户的点对点隐私 AI 聊天",
     "summary": "全新 AI 聊天应用 PearPie 发布，数据仅存本地，支持多端同步且无需注册。",
     "detail": "### 产品亮点\nPearPie 主打隐私保护，无需邮箱密码，身份由设备密钥生成。对话数据仅存储于用户设备，支持 macOS、Windows、Linux 及移动端。\n\n### 技术架构\n结合本地模型与欧洲托管的高级模型，确保数据主权。每安装用户获 100 免费积分，前 1000 名受限。\n\n### 应用场景\n适合法律、医疗等对保密性要求极高的领域，解决用户担忧数据泄露或滥用的痛点，提供无缝且安全的现代聊天体验。",
@@ -1246,57 +1298,5 @@
     "link": "https://prism.adlittle.com/whats-next-for-robotics-humanoids-physical-ai/",
     "date": "2026-08-28",
     "id": "17879253240515"
-  },
-  {
-    "title": "Locus：基于 Rust 的 AI 编码代理确定性安全屏障",
-    "summary": "开源工具提供确定性 AST 安全检查，支持多代理 swarm 及 MCP 协议。",
-    "detail": "Locus 是一个基于 Rust 开发的小型确定性安全屏障，专为 AI 编码代理设计。它提供确定性 AST 安全检查、无损 CST 绿红树及 32 种企业不变量验证。作为零依赖 MCP 服务器，它支持多代理 Swarm 及硬件加速向量搜索。该项目强调内存安全与高吞吐量，旨在解决 AI 代理直接执行代码的风险。对于构建安全 AI 开发流程的团队，Locus 提供了底层基础设施支持。其开源特性允许开发者审计安全逻辑，适合需要高可靠性保障的 AI 编码代理部署场景，填补了代理安全执行层的工具空白，是构建可信 AI 工程体系的重要组件。",
-    "tags": [
-      "Dev",
-      "Rust",
-      "Security"
-    ],
-    "link": "https://github.com/ahmadshady747-create/LOCUS",
-    "date": "2026-08-28",
-    "id": "17879253240516"
-  },
-  {
-    "title": "Stanford 发布 Terminal-Bench-Science 科学工作流基准",
-    "summary": "首个由科学家主导的 AI 代理基准，评估 AI 在科研任务中的表现。",
-    "detail": "斯坦福大学牵头发布 Terminal-Bench-Science，旨在评估 AI 代理在真实科学研究工作流中的能力。基准包含 70 个跨学科任务，由领域专家策划，涵盖生命、物理及工程科学。测试显示最强模型 Claude Opus 5 解决率仅为 30%，表明 AI 在科学领域的自动化仍有巨大差距。该基准将持续演进，连接科研需求与 AI 开发，由 Terminal-Bench 团队与全球研究机构合作构建，致力于推动具备科学能力的 AI 代理发展，形成科研需求与 AI 进步的反馈循环。科学家而非模型开发商设定标准，确保评估反映真实研究需求，推动 AI 在科研辅助工具上的实质性突破。",
-    "tags": [
-      "Dev",
-      "Benchmark",
-      "Research"
-    ],
-    "link": "https://www.terminal-bench-science.ai/announcement",
-    "date": "2026-08-28",
-    "id": "17878800553541"
-  },
-  {
-    "title": "Awareness Local：为 AI 编程代理提供本地优先记忆",
-    "summary": "开源工具支持离线运行，为 Cursor 等代理提供持久化记忆存储。",
-    "detail": "GitHub 新项目 Awareness Local 专为 AI coding agents 设计，提供本地优先的记忆解决方案。支持 Claude Code、Cursor 等工具，无需账户即可离线运行。采用 Markdown 存储与混合搜索技术（FTS5 + embedding），遵循 MCP 协议。适合注重隐私与数据本地化的开发者，增强代理的上下文持久性。项目提供 Web 仪表盘，支持混合搜索与持久化存储，确保敏感代码数据不出本地环境。通过一条命令即可集成，大幅降低 AI 代理记忆模块的部署门槛，提升开发效率与数据安全性。在 LongMemEval 评测中 R@5 达到 96%，证明其在长上下文记忆检索方面的卓越性能，是构建本地化 AI 工作流的理想选择。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "OpenSource"
-    ],
-    "link": "https://github.com/everest-an/Awareness-Market",
-    "date": "2026-08-28",
-    "id": "17878800553542"
-  },
-  {
-    "title": "wanno：iPhone 上的 AI 网页与应用程序构建器",
-    "summary": "仅需描述想法即可生成真实网站或应用，支持触摸编辑。",
-    "detail": "App Store 新品 wanno 允许用户通过自然语言描述生成完整的网站或应用。支持 iPhone 端操作，可语音或文字输入需求，实时预览构建过程。提供触摸编辑功能，无需代码即可修改设计内容。涵盖落地页、在线商店等多种模板，一键发布至 wanno.dev 域名，适合非技术用户快速验证创意。支持上传照片作为构建参考，内容可随时调整而无需重新开始。应用免费并提供应用内购买选项，专为 iPhone 设计，让创意快速转化为可交互的数字产品，降低创业门槛。构建过程中可继续输入新请求，系统会自动排队处理，确保流畅的生成体验与即时反馈。",
-    "tags": [
-      "New",
-      "NoCode",
-      "iOS"
-    ],
-    "link": "https://apps.apple.com/us/app/wanno-ai-web-app-builder/id6795772860",
-    "date": "2026-08-28",
-    "id": "17878800553545"
   }
 ]
