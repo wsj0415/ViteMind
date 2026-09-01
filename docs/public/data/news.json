@@ -1,5 +1,70 @@
 [
   {
+    "title": "Anthropic 发布 Fable 5.1：更低成本与更少限制",
+    "summary": "Anthropic 推出 Fable 5.1 模型，降低成本并减少安全限制，支持零数据保留。",
+    "detail": "Anthropic 正式发布了 Fable 5.1 和 Mythos 5.1 模型，twin 版本中 Fable 5.1 主打更低成本与更少限制。新 release 显著降低了 token 成本并减少了安全 safeguard 的误报限制。关键更新包括 embrace zero data retention，允许客户在自有基础设施运行模型 without data outflows。企业前沿 safeguards 将于秋季推出，客户可控制监控方式。模型在 Terminal-Bench 4.0 等基准测试中创下新纪录，Anthropic 保证未经许可绝不使用企业数据训练，平衡了安全监控与用户隐私控制权，适合高隐私需求场景。",
+    "tags": [
+      "News",
+      "LLM",
+      "Enterprise"
+    ],
+    "link": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
+    "date": "2026-09-01",
+    "id": "17883067344540"
+  },
+  {
+    "title": "ChatGPT Health 集成 Epic 系统，赋能临床数据导入",
+    "summary": "OpenAI 将 ChatGPT Health 与 Epic EHR 系统整合，允许临床医生导入患者数据。",
+    "detail": "OpenAI 宣布 ChatGPT Health 与 Epic 电子健康记录系统集成，覆盖超 3.25 亿患者数据。临床医生可导入就诊笔记、实验室结果、药物及专家文档进行轻松总结。集成仅允许只读访问，AI 不回写数据以确保安全。新增医疗公共数据插件可获取 ClinicalTrials.gov 等信息，帮助合成试验资格和药物标识数据。OpenAI 表示在某些部署中，临床医生可直接在患者图表内访问 ChatGPT 进行预就诊 review 和构建临床时间线。这一举措标志着 AI 正式深入核心医疗系统，通过安全的数据导入与总结能力，辅助医生识别患者历史变化并为未来就诊做准备，强化医疗决策支持。",
+    "tags": [
+      "News",
+      "Healthcare",
+      "OpenAI"
+    ],
+    "link": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
+    "date": "2026-09-01",
+    "id": "17883067344541"
+  },
+  {
+    "title": "Google 推出 AI 设计工具 Pics，直接提示生成而非设计",
+    "summary": "Google 发布 Pics 工具，集成于 Workspace，利用 Nano Banana 模型通过提示创作。",
+    "detail": "Google 正式进入创意设计市场，推出名为 Google Pics 的图像创建与编辑工具，将纳入 Google Workspace 套件。该产品由 Nano Banana 图像生成模型驱动，面向企业及高级 AI 订阅用户。与 Canva 不同，Google Pics 侧重通过提示词创作而非手动设计或模板市场。功能包括对象隔离、文本修改及协作编辑，支持生成多个版本供选择。工具将首先集成于 Docs 和 Slides，随后扩展至 Drive。类似于 Adobe Express 和 Canva，Google Pics 旨在处理工作和个人生活中的日常设计任务。但区别于 Canva 的创作者版税市场，Google Pics 完全基于 AI 训练生成，标志着 Google 在 AI 生成式设计领域的重大布局。",
+    "tags": [
+      "New",
+      "ImageGen",
+      "Productivity"
+    ],
+    "link": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
+    "date": "2026-09-01",
+    "id": "17883067344542"
+  },
+  {
+    "title": "AllenAI 发布 BenchMIRT：审计 LLM 基准测试的真实测量",
+    "summary": "HuggingFace 发布 BenchMIRT 方法，在单个提示级别审计 LLM 基准测试。",
+    "detail": "AllenAI 通过 HuggingFace 引入了 BenchMIRT，这是一种在单个提示级别审计 LLM 基准测试的新方法。基准测试通常设计用于测量特定能力，但内部任务可能依赖更多因素。BenchMIRT 帮助研究人员分离这些信号，看清驱动基准分数的实际因素。例如，它可区分有害 jailbreak 提示与良性提示的不同测量目标。基准测试内的不同任务组可能测量不同事物，如 WildJailbreak 包含有害与良性提示。平均分数会模糊这种差异。BenchMIRT 通过审计个体提示，帮助识别任务背后的真实依赖，如年龄偏见或推理能力。该方法附带技术报告、数据集和开源代码，旨在解决平均分数掩盖差异的问题，让社区更清楚基准测试实际测量的内容，提升评估透明度与准确性。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Research"
+    ],
+    "link": "https://huggingface.co/blog/allenai/benchmirt",
+    "date": "2026-09-01",
+    "id": "17883067344543"
+  },
+  {
+    "title": "AfterQuery 成 YC 最快独角兽，估值达 32 亿美元",
+    "summary": "AfterQuery 获融资后估值达 32 亿美元，成为 Y Combinator 史上最快独角兽。",
+    "detail": "据报道，AfterQuery 已成为 Y Combinator 历史上成长最快的独角兽企业，最新估值达到 32 亿美元。这一里程碑标志着 AI 基础设施或查询领域的快速增长。虽然具体业务细节在提供的文本中有限，但其估值速度反映了资本市场对 AI 数据处理与查询解决方案的高度认可与追捧。作为 YC 校友企业，其快速晋升独角兽行列显示了 AI 赛道在当前市场环境下的巨大潜力与投资热度。这一成就不仅证明了其商业模式的可行性，也为其他 AI 初创企业树立了标杆，可能引发新一轮的行业投资热潮与技术竞争，成为初创企业中的瞩目案例。",
+    "tags": [
+      "News",
+      "Startup",
+      "Funding"
+    ],
+    "link": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
+    "date": "2026-09-01",
+    "id": "17883067344544"
+  },
+  {
     "title": "OpenAI 发布 Astra 模型，具备自主网络渗透能力",
     "summary": "OpenAI 宣布 Astra 模型即将发布，其在网络安全测试中表现卓越，能自主发现漏洞。",
     "detail": "OpenAI 透露即将推出的 Astra 模型已达到“关键网络安全阈值”，标志着 AI 在网络安全领域的重大突破。该模型在 ExploitBench 测试中获得满分，并能自主发现和利用零日漏洞，无需人工指导。为确保安全，OpenAI 限制了高级网络安全功能的访问权限，并采用了新技术防止模型滥用及越狱。此举引发了关于 AI 安全与能力平衡的行业关注，显示出前沿实验室对高风险能力的谨慎态度。尽管缺乏第三方确认，但该模型展示了强大的自主渗透能力，未来访问将受限。公司正与测试组合作评估，但未透露具体成员。",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
     "date": "2026-08-28",
     "id": "17879597429740"
-  },
-  {
-    "title": "FreshCtx：防止 AI 代理基于过时证据推理",
-    "summary": "开源工具 FreshCtx 确保 AI 代理行动前验证数据新鲜度。",
-    "detail": "Hyperwise LLC 推出开源项目 FreshCtx，专为 AI 代理设计的新鲜度验证层。它在代理执行受保护行动前，重新验证声明的依赖项和源观察记录，防止基于过时证据推理。该工具模型中立、本地优先且无需账户，不发送遥测数据。支持 Python 3.10–3.13，旨在解决 AI 代理基于 stale reasoning 行动的问题，提升 agent 系统可靠性与安全性。通过记录源观察并将推理链接到这些观察，FreshCtx 确保决策依据的实时性，适合需要高可信度决策的本地优先开发场景，是构建稳健 AI 代理的重要基础设施。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "OpenSource"
-    ],
-    "link": "https://github.com/Hyperwise-LLC/freshctx",
-    "date": "2026-08-28",
-    "id": "17879597429741"
-  },
-  {
-    "title": "A2acast：实现跨机器 AI 代理零基础设施通信",
-    "summary": "单文件 Python 工具，让不同电脑上的 AI 代理无缝协作。",
-    "detail": "Show HN 项目 A2acast 提供了一种零基础设施的 A2A 消息传递方案。仅需一个标准库 Python 文件，即可实现 Claude Code、Copilot 等代理在不同机器间的端到端加密通信。无需服务器、账户或开放端口，支持动态加入网格，节点自动发现。通过分享加入代码即可构建 mesh 网络，适合分布式 AI 代理协作。该工具降低了跨设备代理通信门槛，为多机协同任务提供了轻量级、安全的解决方案。支持 ntfy 中继传输，确保消息可达性，是构建分布式 AI 系统的重要工具，让异构设备上的 AI 代理能无缝交换任务与消息。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Infrastructure"
-    ],
-    "link": "https://github.com/husker/a2acast",
-    "date": "2026-08-28",
-    "id": "17879597429742"
-  },
-  {
-    "title": "AI 竞赛可能加剧美国 40 万亿美元债务危机",
-    "summary": "分析指出 AI 经济转型与现有税制冲突，或引爆债务危机。",
-    "detail": "斯坦福数字经济专家 Alvin Wang Graylin 撰文警告，美国联邦债务已超 40 万亿美元，十年间翻倍，年利息支付 exceeds 国防预算。文章指出，AI 将 dismantling 现有经济结构，而税制仍基于旧经济模式。利息账单复合增长与税基侵蚀的双重压力，可能在本十年末导致危机。AI 竞赛不仅是技术博弈，更是财政可持续性的挑战。若不及时调整政策，债务与 AI 经济转型的冲突将引爆系统性风险。文章引用 Herbert Stein 名言，强调不可持续之事终将停止，呼吁各界关注 AI race 背后的宏观财政隐患，避免经济崩溃。",
-    "tags": [
-      "News",
-      "Economy",
-      "Policy"
-    ],
-    "link": "https://abundanist.substack.com/p/the-last-straw",
-    "date": "2026-08-28",
-    "id": "17879597429743"
-  },
-  {
-    "title": "业界呼吁：AI 时代更需要工程纪律而非减少",
-    "summary": "Charity.wtf 发文强调 AI 生成代码仍需严格审查。",
-    "detail": "针对 AI 生成代码质量的争议，Charity.wtf 发文反驳\"放弃代码审查\"的观点。文章强调，尽管 AI 能加速开发，但 2025 年的经验表明 AI 代码仍可能存在缺陷。工程师不应将最差代码直接推入生产环境，而是需要更强的工程纪律来管理 AI 辅助开发，确保系统稳定性。作者回应了技术与伦理层面的反馈，指出 AI 爱好者与怀疑者分别面临时间与熵的竞赛。呼吁行业在拥抱 AI 的同时保持严谨的工程规范，避免技术债务累积，确保 AI 工具真正提升而非削弱软件工程的质量与可靠性。",
-    "tags": [
-      "Dev",
-      "Engineering",
-      "BestPractice"
-    ],
-    "link": "https://charity.wtf/p/ai-demands-more-engineering-discipline",
-    "date": "2026-08-28",
-    "id": "17879597429744"
-  },
-  {
-    "title": "AI 代理护栏失效，平台安全成新焦点",
-    "summary": "文章指出传统护栏无法保障 AI 代理安全，需构建更安全平台。",
-    "detail": "文章深入探讨了 AI 代理在生产环境中的安全性问题。作者指出，传统的“护栏”机制试图约束 AI 行为，但无法解决根本的架构缺陷。AI 的核心价值在于创造性与模糊推理，但这恰恰是生产基础设施所需确定性的对立面。若代理可直接执行基础设施变更，风险极高。文章建议转向构建更安全的平台架构，借鉴 IaC 经验，而非单纯依赖事后约束。这对企业级 AI 部署具有重要指导意义，强调了平台工程在 AI 安全中的核心地位，提醒开发者重新审视安全边界的设计逻辑，避免将即兴系统用于关键任务。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Architecture"
-    ],
-    "link": "https://www.syntasso.io/post/ai-agent-guardrails-don-t-work-safer-platforms-do",
-    "date": "2026-08-28",
-    "id": "17879253240510"
   }
 ]
