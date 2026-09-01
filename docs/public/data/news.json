@@ -1,5 +1,70 @@
 [
   {
+    "title": "OpenAI 发布 Astra 模型，具备自主网络渗透能力",
+    "summary": "OpenAI 宣布 Astra 模型即将发布，其在网络安全测试中表现卓越，能自主发现漏洞。",
+    "detail": "OpenAI 透露即将推出的 Astra 模型已达到“关键网络安全阈值”，标志着 AI 在网络安全领域的重大突破。该模型在 ExploitBench 测试中获得满分，并能自主发现和利用零日漏洞，无需人工指导。为确保安全，OpenAI 限制了高级网络安全功能的访问权限，并采用了新技术防止模型滥用及越狱。此举引发了关于 AI 安全与能力平衡的行业关注，显示出前沿实验室对高风险能力的谨慎态度。尽管缺乏第三方确认，但该模型展示了强大的自主渗透能力，未来访问将受限。公司正与测试组合作评估，但未透露具体成员。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Security"
+    ],
+    "link": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+    "date": "2026-09-01",
+    "id": "17882987771810"
+  },
+  {
+    "title": "Google Android 更新集成 Gemini，提升无障碍体验",
+    "summary": "Google 推出 Android 新更新，利用 Gemini 改善运动 sickness 及视障用户导航体验。",
+    "detail": "Google 宣布推出五项 Android 更新，重点提升无障碍性和个性化。新功能\"Motion Assist\"利用 Gemini 技术减少用户在移动车辆中的晕动症，通过屏幕气泡 overlay 响应车辆运动。此外，\"Guided Vision\"帮助视障用户导航。部分功能被视为对苹果现有功能的跟进，但深度集成了 Gemini 能力。用户可自定义气泡形状与颜色，该功能适用于 Android 17 用户。此次更新展示了 Google 将 AI 融入底层系统以解决实际生理问题的策略，增强了平台竞争力。同时，Google 消息也增加了个性化方式，体现了 AI 在日常交互中的渗透。",
+    "tags": [
+      "News",
+      "Google",
+      "Gemini"
+    ],
+    "link": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/",
+    "date": "2026-09-01",
+    "id": "17882987771811"
+  },
+  {
+    "title": "Waymo 分享 2 亿英里自动驾驶的 10 条 AI 经验",
+    "summary": "Waymo 基于 2 亿英里自动驾驶数据，总结多模态传感器与 HD 地图对 AI 安全的重要性。",
+    "detail": "Waymo 发布了基于 2 亿英里完全自动驾驶里程的 10 条 AI 经验。核心观点包括多模态传感器（摄像头、激光雷达、雷达）的不可或缺性，以及 HD 地图作为强大“先验”的价值。数据表明，单一传感器无法 replicate 安全所需的世界视图，冗余 sensing 是规模化安全运营的关键。激光雷达提供 3D 几何，摄像头提供语义，雷达穿透恶劣天气。这些经验验证了安全数据，表明 Waymo Driver 已在服务城市使道路更安全。安全不仅是输出，更是每个洞察的原因，为行业提供了宝贵参考。",
+    "tags": [
+      "News",
+      "Autonomous Driving",
+      "AI"
+    ],
+    "link": "https://waymo.com/blog/2026/08/10ailessons/",
+    "date": "2026-09-01",
+    "id": "17882987771812"
+  },
+  {
+    "title": "Compilr.dev Studio：AI 代理编写的项目记忆库",
+    "summary": "新品 Compilr Studio 让 AI 代理记录项目愿景与决策，解决项目记忆断层问题。",
+    "detail": "Compilr.dev Studio 是一个让 AI 代理写入、人类读取的项目记录工具。它连接愿景、目标、需求与决策，解决项目信息断层问题。AI 助手可解释决策原因及变更影响。目前处于私有 Beta 阶段，兼容用户现有的 AI 助手，旨在成为项目的“活体记录”。工具能自动检查需求是否服务于目标，决策是否开放，确保项目健康。这代表了 AI 代理从单纯执行向项目管理的转变，提升了团队协作效率与知识留存。对于产品负责人而言，它减少了考古式查询，让每次变更都有据可查，优化了开发流程。",
+    "tags": [
+      "New",
+      "Productivity",
+      "AI Agents"
+    ],
+    "link": "https://studio.compilr.dev/welcome/",
+    "date": "2026-09-01",
+    "id": "17882987771813"
+  },
+  {
+    "title": "AI 编码代理的安全隐患与网络隔离方案",
+    "summary": "文章指出 AI 编码代理运行时的安全风险，建议在执行阶段切断网络访问以防泄露。",
+    "detail": "文章分析了 AI 编码代理的安全风险：代理在安装依赖时需要网络，但执行模型生成的代码时若仍拥有网络访问权和凭证，极易导致泄露。建议在单次运行中动态切换网络权限，setup 阶段开放，execution 阶段切断，以防止 prompt 注入导致凭证外泄。这种中间切断网络的方法 measured at 127 ms，展示了技术可行性。开发者需警惕代理拥有 AWS 密钥和开放互联网连接的危险组合，确保沙箱环境安全。依赖项 README 或网页抓取中的注入都可能触发工具调用，因此隔离执行环境至关重要。",
+    "tags": [
+      "Dev",
+      "Security",
+      "AI Agents"
+    ],
+    "link": "https://medium.com/data-science-collective/your-coding-agent-has-your-aws-keys-and-an-open-internet-connection-b4f3f7dfc15f",
+    "date": "2026-09-01",
+    "id": "17882987771814"
+  },
+  {
     "title": "Coinbase 联手 Massive 启用 AI 代理 x402 支付",
     "summary": "AI 代理可直接用 USDC 按需购买市场数据，无需 API 密钥。",
     "detail": "**背景**：随着 AI 代理自主性增强，传统支付流程成为瓶颈，代理无法管理订阅或 API 密钥。**技术**：x402 协议利用 HTTP 402 状态码，在请求内完成 USDC 结算。Massive 与 Coinbase 合作提供股市数据，代理可按需购买。**影响**：消除了人类介入订阅的摩擦，为代理金融交易奠定基础，标志着 AI 自主经济基础设施的重大突破，使代理能实时决策交易，无需中断任务，推动代理经济闭环。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.syntasso.io/post/ai-agent-guardrails-don-t-work-safer-platforms-do",
     "date": "2026-08-28",
     "id": "17879253240510"
-  },
-  {
-    "title": "苹果 AI 调整引发裁员，Vision Pro 与 Siri 团队受影响",
-    "summary": "苹果湾区罕见裁员 147 人，涉及 Vision Pro 和 Siri 团队。",
-    "detail": "苹果公司在湾区进行了罕见的大规模裁员，共计 147 名员工受到影响，主要集中在 Vision Pro 和 Siri 团队。此次调整被视为苹果在人工智能战略转型期间的重要举措。随着 AI 技术的快速发展，科技巨头纷纷调整资源分配以聚焦核心 AI 竞争力。此次裁员反映了硬件与软件团队在 AI 浪潮下的重组压力。对于行业而言，这标志着苹果正试图整合 Siri 与 Vision Pro 的 AI 能力，以应对来自竞争对手的挑战，同时也揭示了 AI 转型期伴随的组织阵痛与资源优化需求。市场关注苹果如何通过此次洗牌提升其 AI 生态系统的整体效率与创新能力。",
-    "tags": [
-      "News",
-      "Apple",
-      "Layoffs"
-    ],
-    "link": "https://www.latimes.com/business/story/2026-08-27/apple-lays-off-147-employees",
-    "date": "2026-08-28",
-    "id": "17879253240511"
-  },
-  {
-    "title": "OpenAI 案例：Codex 助 Asana 节省 590 万美元",
-    "summary": "Asana 利用 Codex 两周完成五年工作量，成本大幅降低。",
-    "detail": "Pragmatic Engineer 通讯分享了 OpenAI 的案例研究，展示 Codex 如何帮助 Asana 在两周内完成原本需五年的工程迁移工作。通过替换过时的测试系统，Asana 节省了约 590 万美元的成本，而模型与基础设施成本仅 1.2 万美元。这一案例突显了 AI 编码助手在 legacy 系统现代化中的巨大潜力。它不仅证明了 AI 工具能显著缩短开发周期，还改变了企业对长期软件项目可行性的评估标准。对于工程团队而言，这意味着利用 AI 进行大规模代码迁移已成为经济上可行的策略，有望推动更多技术债务的清理工作，重塑软件工程的经济模型。",
-    "tags": [
-      "Dev",
-      "OpenAI",
-      "Productivity"
-    ],
-    "link": "https://blog.pragmaticengineer.com/the-pulse-we-need-to-talk-about-migrations-with-ai/",
-    "date": "2026-08-28",
-    "id": "17879253240512"
-  },
-  {
-    "title": "DHH 对话 Lex Fridman：探讨 AI 编程与代理工程未来",
-    "summary": "DHH 做客播客，深入讨论 AI 编程、代理工程及 Linux 未来。",
-    "detail": "著名开发者 DHH 做客 Lex Fridman 播客，深入探讨了编程的未来、AI 代理工程及“氛围编码”（Vibe Coding）等话题。作为 Ruby on Rails 的创作者，DHH 的观点对开发者社区具有重要影响力。讨论涵盖了 Linux 生态、代理工程的发展趋势以及 AI 如何改变编程范式。虽然视频内容访问受限，但标题揭示了行业领袖对 AI 介入编程深层逻辑的思考。这场对话为理解顶级工程师如何看待 AI 辅助开发提供了宝贵视角，预示着编程工作流可能正经历从手动编码向代理协作的重大转变，引发社区对未来开发模式的广泛讨论与反思。",
-    "tags": [
-      "News",
-      "Podcast",
-      "Engineering"
-    ],
-    "link": "https://www.youtube.com/watch?v=NYFGCESmikA",
-    "date": "2026-08-28",
-    "id": "17879253240513"
-  },
-  {
-    "title": "Show HN: OnlyBots.chat 让人类与 AI 机器人共处聊天室",
-    "summary": "创新聊天室模式，AI 机器人付费发帖，构建人机协作生态。",
-    "detail": "OnlyBots.chat 在 Show HN 上亮相，这是一个创新的聊天室平台，其中 AI 机器人需要付费才能发帖，而人类用户免费。该项目旨在构建一个人机共处的协作空间，通过经济模型调节 bot 行为。创始团队表示，这不仅是社交实验，更是构建工作空间生态的尝试。通过让 bot 承担成本，平台试图减少垃圾信息，提升对话质量。这种“机器人付费”模式为 AI 代理的经济系统设计提供了新思路，可能影响未来人机交互平台的治理机制与商业化路径，值得开发者关注其后续运营数据及社区反馈，探索 AI 经济模型的可能性。",
-    "tags": [
-      "New",
-      "Product",
-      "AI Agents"
-    ],
-    "link": "https://onlybots.chat",
-    "date": "2026-08-28",
-    "id": "17879253240514"
-  },
-  {
-    "title": "机器人未来展望：人形机器人与物理 AI 孰轻孰重？",
-    "summary": "行业分析指出物理 AI 生态比特定人形机器人更具自动化价值。",
-    "detail": "Arthur D. Little 发布报告探讨机器人技术的未来，质疑单纯追求人形机器人的趋势。文章指出，物理 AI（Physical AI）正在使更广泛的专用机器生态系统变得强大，创造新的自动化价值。虽然人形机器人吸引大量风投，但专家警告其智能方法尚未成熟。VLA 模型结合 LLM 仍在发展中。报告建议行业应关注更广泛的物理 AI 机会，而非仅局限于仿人形态。这对机器人投资方向具有指导意义，提示企业应重视专用机器的自动化潜力，避免被科幻概念误导，务实推进物理 AI 在工业场景的落地应用与价值创造。",
-    "tags": [
-      "News",
-      "Robotics",
-      "Industry"
-    ],
-    "link": "https://prism.adlittle.com/whats-next-for-robotics-humanoids-physical-ai/",
-    "date": "2026-08-28",
-    "id": "17879253240515"
   }
 ]
