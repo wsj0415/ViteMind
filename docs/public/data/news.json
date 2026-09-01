@@ -1,5 +1,96 @@
 [
   {
+    "title": "GIDE 发布：本地运行的 AI 编程指挥中心，零 Token 成本",
+    "summary": "支持本地模型运行的 AI 代码编辑器，修改前需人工确认，保障代码安全与隐私。",
+    "detail": "GIDE 是一款本地优先的 AI 编程代理，支持离线运行及多种本地模型（如 Ornith 9B）。核心特性包括“写入网关”，任何文件修改需用户确认，避免代理擅自改动代码。集成 CLI 与 CI 流程，提供本地 JSONL 审计日志，适合注重隐私与成本控制的开发者。该工具解决了本地 LLM 部署复杂的问题，通过统一 harness 简化流程，让开发者能在零 Token 成本下安全地使用 AI 辅助编码，保障代码库安全，同时支持云端模型切换，灵活性高。",
+    "tags": [
+      "New",
+      "Dev",
+      "Local LLM"
+    ],
+    "link": "https://generativeide.com/",
+    "date": "2026-09-01",
+    "id": "17882350063922"
+  },
+  {
+    "title": "创意方案：利用旧安卓手机部署个人 AI 代理而非服务器",
+    "summary": "通过旧手机解决 AI 代理通信难题，利用 SIM 卡实现短信电话交互，避开服务器封锁。",
+    "detail": "开发者提出将个人 AI 代理部署于旧安卓手机而非云端服务器。利用手机原生通信能力（SIM 卡、短信、电话）解决 AI 与真实世界交互的验证难题，避开数据中心 IP 被封禁问题。该方案降低了部署门槛，为边缘 AI 代理提供了新思路。相比传统服务器，手机具备天然的身份认证机制，无需复杂 webhook 配置，即可实现与人类自然交互，特别适合需要电话沟通或短信验证的自动化任务场景，解决了 AI 代理“最后一公里”的通信障碍。",
+    "tags": [
+      "Dev",
+      "Edge AI",
+      "Agent"
+    ],
+    "link": "https://medium.com/@fsaint/the-best-home-for-your-agent-is-in-your-junk-drawer-3afe0b0976e8",
+    "date": "2026-09-01",
+    "id": "17882350063923"
+  },
+  {
+    "title": "Deslop 技能：专为 AI 代理设计的法律文本 plain English 转化工具",
+    "summary": "开源 AI 技能，将法律术语和 AI 生成废话转化为清晰英语，支持多种代理框架。",
+    "detail": "Deslop 是一个开源 AI 代理技能，兼容 Claude Code、Gemini CLI 等主流框架。基于 Bryan Garner 的 plain English 原则，自动审计并重写法律文本及 AI 生成内容，去除冗余废话。适用于法律文档、商务备忘录等场景，提升专业写作清晰度。该技能不仅针对法律术语，还通用於技术文档，通过强制直接、高密度的语言表达，有效抑制 AI 生成内容中的 verbose 问题，提高可读性，是提升 AI 输出质量的有效工具。",
+    "tags": [
+      "New",
+      "Dev",
+      "Writing"
+    ],
+    "link": "https://github.com/fayerman-source/deslop/",
+    "date": "2026-09-01",
+    "id": "17882350063924"
+  },
+  {
+    "title": "Mu/TH/UR 6000：复古主界面风格的匿名 AI 终端，无需登录",
+    "summary": "主打隐私与复古风格的 AI 聊天终端，无追踪、无账户，会话历史本地保存。",
+    "detail": "这是一款风格独特的 AI 终端，界面模仿 1979 年大型机。主打匿名性与隐私保护，无需注册登录，无追踪像素，会话历史仅存于本地。支持 uncensored 模型与网页链接，适合追求隐私及复古交互体验的用户进行探索性任务。其设计哲学强调用户主权，数据不留痕，为对隐私敏感的用户提供了 alternatives，同时复古界面降低了交互干扰，让用户更专注于任务本身，体现了去中心化 AI 服务的趋势。",
+    "tags": [
+      "New",
+      "Privacy",
+      "Interface"
+    ],
+    "link": "https://mu7hur.com/",
+    "date": "2026-09-01",
+    "id": "17882350063925"
+  },
+  {
+    "title": "苹果指控 OpenAI 窃取商业机密，前员工成关键证据",
+    "summary": "苹果提交新证据，指控前员工窃取电路设计图供 OpenAI 使用，涉嫌销毁证据。",
+    "detail": "苹果在针对 OpenAI 的诉讼中披露了“震惊证据”，指控前员工 Chang Liu 窃取机密电路设计图供 OpenAI 使用。调查发现在 Liu 的旧电脑中存在相关 schematic，且其 OpenAI 同事涉嫌协助销毁证据。此案不仅关乎个体行为，更凸显 AI 巨头间人才竞争与知识产权保护的激烈冲突。法律专家指出，若指控属实，可能深刻影响未来模型训练数据的合规性审查及行业信任机制的建立，迫使企业加强内部数据隔离与审计流程，防止类似商业机密泄露事件再次发生。",
+    "tags": [
+      "News",
+      "Legal",
+      "OpenAI"
+    ],
+    "link": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
+    "date": "2026-08-31",
+    "id": "17882350063920"
+  },
+  {
+    "title": "美国 census 数据显示 AI 采用率升至 10%，就业影响尚稳",
+    "summary": "2025 年末企业 AI 采用率达 10%，目前尚未对就业产生负面冲击，经济表现良好。",
+    "detail": "美国人口普查局数据显示，企业 AI 采用率从 2023 年的 3.7% 升至 2025 年末的 10%，adoption 显著加速。尽管技术渗透率大幅提升，但目前就业市场表现稳定，未出现大规模替代现象。这表明 AI 在当前阶段更多是作为辅助工具提升生产率，而非直接替代者，为行业乐观情绪提供数据支撑。经济学家认为，长期结构性变化仍需观察，政策制定者需关注技能转型培训，以应对潜在的行业重塑风险，确保技术红利普惠分布。",
+    "tags": [
+      "News",
+      "Economics",
+      "Employment"
+    ],
+    "link": "https://marginalrevolution.com/marginalrevolution/2026/08/ai-and-employment-what-the-firms-say.html",
+    "date": "2026-08-31",
+    "id": "17882350063921"
+  },
+  {
+    "title": "HashCortX 更新：支持 2013 年前 CPU 的本地优先 AI 工作空间",
+    "summary": "本地 AI 工作空间应用更新，兼容老旧硬件，无后端无遥测，支持多代理群。",
+    "detail": "HashCortX 是一款本地优先的 AI 工作空间，最新更新支持 2013 年前的旧 Windows CPU 设备。功能涵盖多 provider 聊天、自主编码代理及 3D 模型。无后端、无遥测、无需账户，MIT 许可。极大降低了老旧设备使用 AI 代理的门槛，促进硬件平等。该应用证明了 AI 代理不一定需要高性能硬件，通过优化本地推理与资源管理，让旧设备也能成为 AI 工作节点，具有环保与普惠意义，延长了硬件生命周期。",
+    "tags": [
+      "New",
+      "Dev",
+      "Hardware"
+    ],
+    "link": "https://github.com/Hash-7777/HashCortX",
+    "date": "2026-08-31",
+    "id": "17882350063926"
+  },
+  {
     "title": "先进封装技术成 AI 新护城河，超越 GPU 本身",
     "summary": "分析指出 AI 硬件瓶颈不在 GPU 设计，而在先进封装技术如 CoWoS。",
     "detail": "行业分析认为 AI 真正的护城河并非 GPU 设计，而是先进封装技术。TSMC 的 CoWoS 等技术允许多芯片组件高效通信，成为性能关键瓶颈。这标志着硬件竞争重心转向供应链与封装能力，投资者与开发者需关注此领域的技术壁垒与产能限制。封装产能可能制约 AI 算力增长，影响模型迭代速度。建议关注台积电及相关供应链企业动态，理解硬件底层限制对 AI 发展的实际影响。传统芯片设计壁垒正在减弱，系统集成能力成新关键。供应链稳定性将决定 AI 基础设施扩张速度，需警惕地缘政治风险。",
@@ -1207,96 +1298,5 @@
     "link": "https://waymo.com/blog/2026/08/10ailessons/",
     "date": "2026-08-26",
     "id": "17878045699632"
-  },
-  {
-    "title": "论文指出 AI 金融分析存在检索与判断鸿沟",
-    "summary": "新论文发现 LLM 虽能检索信息，但难以影响最终投资判断。",
-    "detail": "arXiv 新论文揭示 AI 金融工作流中的检索 - 集成鸿沟。实验显示，即使模型准确检索披露信息，当上下文从 2000 增至 128000 tokens 时，信息对投资判断的影响降至噪声水平。更强大模型仅推迟而非消除该 gap。研究表明工作流架构（如结构化重述）比模型能力更能决定 AI 分析师性能。检索评估可能认证忽略 retrieved 信息的系统，需重新设计 AI 金融分析 workflow 以确保信息整合。这对构建可靠 AI 金融分析师系统提出警示，强调架构设计优于单纯模型缩放。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Finance"
-    ],
-    "link": "https://arxiv.org/abs/2608.24842",
-    "date": "2026-08-26",
-    "id": "17878045699633"
-  },
-  {
-    "title": "扎克伯格 AI 替代员工计划数月内告吹",
-    "summary": "消息称扎克伯格曾计划用 AI 取代 Meta 员工，但该计划在数月内崩溃。",
-    "detail": "据 International Business Times 报道，Meta 首席执行官马克·扎克伯格曾推行一项激进计划，试图利用人工智能技术取代部分内部员工。然而，该战略在实施数月后宣告失败。这反映出当前 AI 技术在完全替代复杂人类工作流程方面仍存在局限性，企业级 AI 落地面临实际挑战。此事件可能影响科技巨头后续的人力资源策略及 AI 投资方向，表明人机协作而非单纯替代仍是主流趋势。",
-    "tags": [
-      "News",
-      "Meta",
-      "Strategy"
-    ],
-    "link": "https://www.ibtimes.com/mark-zuckerberg-reportedly-wanted-ai-replace-meta-workers-plan-collapsed-within-months-3806823",
-    "date": "2026-08-26",
-    "id": "17877845997160"
-  },
-  {
-    "title": "Anthropic 签署 450 亿美元算力租赁大单",
-    "summary": "Anthropic 与 Nscale 达成协议，租赁约 450 亿美元 AI 算力，为期六年。",
-    "detail": "TechCrunch 消息，Anthropic 与英国 AI 基础设施公司 Nscale 签署协议，租赁价值约 450 亿美元的 AI 算力。该交易为期六年，将利用 Nvidia 最新的 Vera Rubin 芯片系统，算力预计于 2027 年底开始交付。这是 Anthropic 继与 Volta 签署 100 亿美元协议后的又一大规模算力扩张，旨在与 OpenAI 等竞争对手抗衡。此举显示 AI 头部企业对算力资源的争夺白热化，基础设施成本成为行业关键壁垒。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Anthropic"
-    ],
-    "link": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
-    "date": "2026-08-26",
-    "id": "17877845997161"
-  },
-  {
-    "title": "艺术家建站避 AI 抓取仍遭 scraper 攻击",
-    "summary": "艺术家建立网站试图逃避 AI 抓取，但发现网络爬虫仍在 targeting 他们。",
-    "detail": "Forbes 报道指出，一群艺术家曾共同构建特定网站以期避开人工智能的数据抓取，保护原创作品。然而事实证明，即便采取防护措施，AI 爬虫仍能找到途径获取数据。这凸显了当前 AI 数据版权保护的困境，技术防御手段尚不足以完全阻挡大规模抓取。此事件加剧了创作者社区对 AI 训练数据合法性的担忧，可能推动更严格的反抓取技术或相关法律法规的出台。",
-    "tags": [
-      "News",
-      "Copyright",
-      "Ethics"
-    ],
-    "link": "https://www.forbes.com/sites/robsalkowitz/2026/08/23/artists-built-a-site-to-escape-ai-scrapers-are-coming-for-it-anyway/",
-    "date": "2026-08-26",
-    "id": "17877845997162"
-  },
-  {
-    "title": "华尔街日报为亿万富翁 AI 写专栏辩护",
-    "summary": "华尔街日报回应争议，称亿万富翁使用 AI 撰写专栏未违反其标准。",
-    "detail": "华盛顿邮报报道，华尔街日报近期因刊登一篇由亿万富翁使用人工智能生成的专栏文章而引发争议。报社随后发表声明辩护，称该做法并未违反其编辑标准。这一事件触及媒体行业关于 AI 生成内容披露与伦理的核心问题。随着 AI 写作工具普及，传统媒体如何界定作者身份、保证内容透明度成为行业新挑战，可能促使更多新闻机构更新其 AI 使用政策。",
-    "tags": [
-      "News",
-      "Media",
-      "Policy"
-    ],
-    "link": "https://www.washingtonpost.com/business/2026/08/25/wall-street-journal-says-ai-generated-op-ed-didnt-breach-its-standards/",
-    "date": "2026-08-26",
-    "id": "17877845997163"
-  },
-  {
-    "title": "Stripe 斥资超 70 亿美元收购 OpenRouter",
-    "summary": "Stripe 确认收购模型路由网关 OpenRouter，交易额超 70 亿美元，重塑 AI 支付基础设施。",
-    "detail": "Stripe 正式确认收购 OpenRouter，据报道交易额在 75 亿至 80 亿美元之间，远超其三个月前 13 亿美元的估值。OpenRouter 作为连接 80 多个提供商 400+ 模型的路由网关，此次收购标志着 AI 推理计费已成为支付基础设施的核心部分。行业讨论聚焦于 Token 作为新交换单位的标准化问题，Martin Casado 等投资人认为 Token 是新货币，但成本尚未收敛。此次并购将深刻影响 AI 原生公司的支付与治理架构，确立 Stripe 在 AI 经济计量层的主导地位。支付巨头介入模型路由，意味着谁掌握计量谁就掌握 AI 经济命脉，后续可能引发更多基础设施层并购。",
-    "tags": [
-      "News",
-      "M&A",
-      "Infrastructure"
-    ],
-    "link": "https://www.insideainative.com/p/this-week-in-ai-native-companies-b77",
-    "date": "2026-08-26",
-    "id": "17877710545240"
-  },
-  {
-    "title": "Google 发布 GlucoFM 连续血糖监测基础模型",
-    "summary": "Google Research 推出 GlucoFM，利用基础模型解析连续血糖监测数据，评估糖尿病风险。",
-    "detail": "Google Research 发布 GlucoFM，专为连续血糖监测 (CGM) 设计的基础模型。不同于现有模型单一流处理，GlucoFM 显式分离慢速基线与瞬态事件动态，能在临床标签稀缺情况下估算糖尿病风险及胰岛素抵抗。该技术有望通过日常 CGM 数据改善慢性病管理，推动医疗 AI 在生理信号解析领域的突破。现有模型如 CGMformer 未区分基线与事件，GlucoFM 利用每日数据估计β细胞功能障碍，解决了高质量临床标签稀缺且 costly 的痛点，为可穿戴设备提供更直接的葡萄糖调节视图。相比传统运动传感器，CGM 捕捉禁食及餐后模式，GlucoFM 使这些数据更易解读，具有重大临床价值。",
-    "tags": [
-      "News",
-      "HealthAI",
-      "FoundationModel"
-    ],
-    "link": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/",
-    "date": "2026-08-26",
-    "id": "17877710545241"
   }
 ]
