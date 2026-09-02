@@ -1,5 +1,70 @@
 [
   {
+    "title": "临床 AI scribe 错误率高达三分之一",
+    "summary": "arXiv 新研究揭示部署中的 AI 医疗记录存在严重 verified 错误。",
+    "detail": "**背景**：AI 医疗记录助手被广泛假设由医生签字保证安全，但缺乏量化审计。**核心发现**：研究审计了三款商业 AI scribe 在 142 次咨询中的 565 份笔记。发现 31.3% 的笔记包含经验证的错误，主要集中在过敏、药物信息及虚构患者身份。即使排除预填信息，错误率仍达 24.8%。**影响**：研究指出审查标准显著影响错误率判定，最高可达 97%。这为医疗 AI 部署敲响了安全警钟，强调人工审查的重要性，并呼吁建立更严格的验证仪器标准。",
+    "tags": [
+      "News",
+      "Healthcare",
+      "LLM"
+    ],
+    "link": "https://arxiv.org/abs/2608.31017",
+    "date": "2026-09-02",
+    "id": "17883189777470"
+  },
+  {
+    "title": "Google DeepMind 试点双盲 AI 评估",
+    "summary": "DeepMind 推出全球首个双盲 AI 评估试点，探索下一代系统评估方法。",
+    "detail": "**背景**：随着 AI 系统日益复杂，传统评估方法面临挑战，需要更科学的机制。**核心内容**：Google DeepMind 宣布试点全球首个双盲 AI 评估机制，旨在更客观地探索下一代 AI 系统能力。涉及 Gemini 系列模型及 Veo、Imagen 等多模态工具，覆盖文本、图像、音频及视频生成。**影响**：此举标志着 AI 评估向更严谨、科学的方向发展，有助于建立行业标准的评估框架，提升模型可信度与安全性，为未来 AGI 评估奠定基础，减少评估偏差。",
+    "tags": [
+      "News",
+      "Google",
+      "Evaluation"
+    ],
+    "link": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+    "date": "2026-09-02",
+    "id": "17883189777471"
+  },
+  {
+    "title": "Markdown Gatekeeper：AI 代理本地权威层",
+    "summary": "新开源工具为 AI 代理提供本地优先的 Markdown 权威管理层，防止冲突。",
+    "detail": "**背景**：多 AI 代理协作时常出现文档权威冲突，导致信息混乱。**核心功能**：Markdown Gatekeeper 是一个本地优先的权威层，确保文档不会仅因代理声称而成为权威。支持 Codex、Claude 等代理，无需云服务，保留普通 Markdown 和本地 Git。**影响**：解决了本地开发中 AI 生成内容的版本控制与权威性问题，提升了多代理协作的可靠性。通过 npm 安装，适合注重数据隐私和本地部署的开发者团队使用，简化了工作流。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "Agents"
+    ],
+    "link": "https://github.com/nanlogic/markdown-gatekeeper",
+    "date": "2026-09-02",
+    "id": "17883189777472"
+  },
+  {
+    "title": "EngineRed：不对称 AI warfare 研究",
+    "summary": "前沿 offensive-security 代理展示自主规划攻击路径的能力。",
+    "detail": "**背景**：AI 在网络安全领域的应用日益深入，进攻性能力引发关注。**核心内容**：EngineRed 项目展示了一个前沿进攻性安全代理，给定目标和预算后，能自主映射人员、系统及信任关系，适应失败并构建妥协路径。**影响**：揭示了 AI 在网络战中的不对称潜力，强调了防御方需面对自主适应型 AI 攻击的挑战。为 AI 安全防御策略提供了新的研究视角和警示，表明自动化攻击工具已具备高度适应性。",
+    "tags": [
+      "News",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://sma-das.blog/blogs/enginered-asymmetric-ai-warfare",
+    "date": "2026-09-02",
+    "id": "17883189777473"
+  },
+  {
+    "title": "AI 财富激增导致旧金山豪宅短缺",
+    "summary": "AI 行业繁荣引发旧金山住房市场动荡，豪宅短缺加剧房价飙升。",
+    "detail": "**背景**：旧金山作为 AI boom 中心，科技行业回流，经济结构发生变化。**核心现象**：AI 公司扩张及 Anthropic、OpenAI 等 IPO 预期引发财富 flood，导致住房需求激增。房价和租金 skyrocketing，出现“豪宅短缺”。**影响**：这不仅加剧了当地住房危机，也引发了对技术繁荣导致社会 displacement 的担忧。反映了 AI 经济红利的分布不均问题，普通购房者面临更大压力，城市生态受到冲击。",
+    "tags": [
+      "News",
+      "Economy",
+      "Society"
+    ],
+    "link": "https://text.npr.org/nx-s1-5930432",
+    "date": "2026-09-02",
+    "id": "17883189777474"
+  },
+  {
     "title": "Anthropic 发布 Fable 5.1：更低成本与更少限制",
     "summary": "Anthropic 推出 Fable 5.1 模型，降低成本并减少安全限制，支持零数据保留。",
     "detail": "Anthropic 正式发布了 Fable 5.1 和 Mythos 5.1 模型，twin 版本中 Fable 5.1 主打更低成本与更少限制。新 release 显著降低了 token 成本并减少了安全 safeguard 的误报限制。关键更新包括 embrace zero data retention，允许客户在自有基础设施运行模型 without data outflows。企业前沿 safeguards 将于秋季推出，客户可控制监控方式。模型在 Terminal-Bench 4.0 等基准测试中创下新纪录，Anthropic 保证未经许可绝不使用企业数据训练，平衡了安全监控与用户隐私控制权，适合高隐私需求场景。",
@@ -1233,70 +1298,5 @@
     "link": "https://ducret.dev/grocery-shopping-with-ai/",
     "date": "2026-08-29",
     "id": "17880229674363"
-  },
-  {
-    "title": "AI 在密码学领域的突破：Lattice Proofs 讨论",
-    "summary": "Chris Peikert 探讨 AI 解决数学难题，涉及 CVP 及量子攻击争议。",
-    "detail": "Security Cryptography Whatever 播客邀请 Chris Peikert 讨论 AI 在数学与密码学进展。涉及 CVP 复杂度结果跃迁及 DCP 量子攻击争议（后证实有误）。Classic McEliece 区分器攻击引发关注。链接包含 OpenAI 十项数学进展论文。这显示了 AI 在硬核科学领域的潜力，但也伴随安全担忧。AI 正在尝试解决并打破数学证明，可能改变密码学基础，社区需密切关注其对未来安全架构的影响。播客探讨了机器人解决数学问题的现状，以及高效区分器在代码密码学历史中的记录，警示潜在风险。",
-    "tags": [
-      "Dev",
-      "Crypto",
-      "Math"
-    ],
-    "link": "https://securitycryptographywhatever.com/2026/08/26/ai-lattice-proofs-with-chris-peikert/",
-    "date": "2026-08-29",
-    "id": "17880229674364"
-  },
-  {
-    "title": "LaneGate：Git 原生 AI 代理协作引擎",
-    "summary": "专为 AI 编码代理设计的 Git 原生工作流协调工具，确保代码安全交付。",
-    "detail": "LaneGate 是一款针对 AI 编码代理（如 Claude、Codex）的协作工具。它采用 Git 原生架构，为每个任务分配独立 worktree，通过文件锁防止冲突，并设置审查门禁确保代码质量。无需 SaaS 服务，所有状态存储在 repo 内，适合多代理协同开发场景，解决了 AI 自动合并代码可能带来的风险，提升了工程化落地安全性。",
-    "tags": [
-      "Dev",
-      "AI Agents",
-      "Git"
-    ],
-    "link": "https://github.com/sudheerdvn/lanegate",
-    "date": "2026-08-29",
-    "id": "17879830832290"
-  },
-  {
-    "title": "OpenAI 终止与 SpaceX Cursor 的合作伙伴关系",
-    "summary": "路透社报道 OpenAI 将结束与 SpaceX 旗下 AI 编码工具 Cursor 的合作协议。",
-    "detail": "据 Reuters 报道，OpenAI 计划终止与 SpaceX 关联的 AI 编程工具 Cursor 的合作伙伴关系。这一变动可能影响 AI 编码领域的生态格局，显示出大模型厂商与垂直应用之间合作关系的动态调整。行业关注此举是否源于战略分歧或竞争加剧，对开发者工具链的整合带来不确定性，标志着 AI 应用层合作进入新阶段。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Partnership"
-    ],
-    "link": "https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29/",
-    "date": "2026-08-29",
-    "id": "17879830832291"
-  },
-  {
-    "title": "外媒分析：AI 泡沫堪比 1980 年代日本经济",
-    "summary": "Foreign Policy 文章警示 AI 行业存在泡沫，历史情境与 80 年代日本相似。",
-    "detail": "Foreign Policy 发表分析文章，结合 Nvidia 季度财报，指出当前 AI 行业可能存在经济泡沫。文章将现状与 1980 年代日本经济泡沫时期进行对比，警示投资者关注潜在风险。该观点引发行业对 AI 基础设施投资回报率的反思，建议理性看待市场热度与长期价值之间的关系，为资本市场的 AI 投资提供历史借鉴视角。",
-    "tags": [
-      "News",
-      "Market",
-      "Nvidia"
-    ],
-    "link": "https://foreignpolicy.com/2026/08/28/nvidia-earnings-quarterly-report-ai-economic-bubble-japan-history/",
-    "date": "2026-08-28",
-    "id": "17879830832292"
-  },
-  {
-    "title": "Anthropic 揭示 AI 自我改进新进展",
-    "summary": "Anthropic 研究员展示 AI 自动改善对齐失败的研究成果。",
-    "detail": "Anthropic 研究员 Chen Yueh-Han 发表新论文《Automated Researchers Can Reliably Mitigate Alignment Failures》，展示自动化系统如何可靠地改善模型对齐基准。该系统模拟传统研究流程，搜索文献、提出方法并训练模型 30 分钟，通过迭代保留有效方法。实验显示，在不降低整体性能的前提下，系统成功改善了所有 10 个特定错误行为基准。这标志着递归自我改进迈出了关键一步，证明自动化对齐后训练在短期内具备可行性。若模型能自我改进对齐，未来或可扩展至更广泛训练实践，深刻改变 AI 研究格局与人类研究员的角色。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Research"
-    ],
-    "link": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
-    "date": "2026-08-28",
-    "id": "17879597429740"
   }
 ]
