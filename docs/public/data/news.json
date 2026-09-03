@@ -1,5 +1,57 @@
 [
   {
+    "title": "英伟达确认以 129 亿美元收购 Hugging Face",
+    "summary": "英伟达正式收购 HF，承诺保持开源平台独立性与生态开放。",
+    "detail": "英伟达确认以 129 亿美元收购 AI 模型社区 Hugging Face。CEO 黄仁勋承诺 HF 将继续支持开源模型，不强制绑定英伟达计算平台。此次收购旨在整合硬件与开发生态，允许企业购买英伟达闲置算力搭配 HF 服务。HF 拥有 300 万模型及 1800 万开发者，此次交易将重塑 AI 基础设施格局。此外，英伟达已发布超 500 个模型，收购后将进一步扩展开发者访问权限，巩固其在 AI 全栈领域的主导地位。",
+    "tags": [
+      "News",
+      "M&A",
+      "OpenSource"
+    ],
+    "link": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+    "date": "2026-09-03",
+    "id": "17884416353840"
+  },
+  {
+    "title": "NeoMME：高效多模态原生编码器发布",
+    "summary": "Hugging Face 发布 NeoMME，单 Transformer 处理图文，支持多语言。",
+    "detail": "Hugging Face 推出 NeoMME 多模态编码器家族（260M/800M）。不同于传统生成式视觉模型，它使用单一双向 Transformer 处理文本和图像 patch，从头训练。针对视觉文档检索优化，在 ViDoRe v3 前沿表现优异。支持 Apache 2.0 许可，显著降低存储成本的同时保持高检索精度，适合多语言多模态任务部署。模型采用掩码离散扩散目标训练，无需独立视觉塔，推理速度比 ColModernVBERT 快两倍。",
+    "tags": [
+      "Dev",
+      "Multimodal",
+      "OpenSource"
+    ],
+    "link": "https://huggingface.co/blog/Hcompany/neomme",
+    "date": "2026-09-03",
+    "id": "17884416353841"
+  },
+  {
+    "title": "AI 编码会话恢复的 Token 消耗基准测试",
+    "summary": "实测显示使用记录恢复会话比重新读取文件节省 22.6 倍 Token。",
+    "detail": "VeriCommand 进行了实时 A/B 测试，比较 AI 编码会话恢复的 Token 成本。结果显示，使用记录恢复状态比重新读取文件节省 22.6 倍 Token。每次会话记录仅消耗约 427 tokens，跨越单个会话边界即可实现净收益。为优化 AI 编程工作流和降低 API 成本提供了数据支持。测试基于真实多文件任务，使用 tiktoken 计数，证明状态记录机制在长周期开发中具有显著经济优势。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Optimization"
+    ],
+    "link": "https://vericommand.net/benchmark",
+    "date": "2026-09-03",
+    "id": "17884416353842"
+  },
+  {
+    "title": "AI Agent 架构指南：Skills 与 MCP 工具的选择",
+    "summary": "深度解析 AI Agent 开发中 Skills 灵活性与 MCP 工具可审计性的权衡。",
+    "detail": "LogRocket 发布指南分析 AI Agent 开发中 Skills 与 MCP 工具的区别。MCP 工具提供固定 schema，可审计性强但灵活性低；Skills 基于自然语言指令，灵活性高但难以预测。文章建议根据任务对解释性的需求和信任程度进行选择，为开发者构建可靠 Agent 系统提供了架构决策框架。两者并非竞争关系，而是沿可审计性与灵活性轴分布，需按场景权衡。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Architecture"
+    ],
+    "link": "https://blog.logrocket.com/skills-vs-mcp-tools-agent-guide/",
+    "date": "2026-09-03",
+    "id": "17884416353843"
+  },
+  {
     "title": "哥伦比亚大学实验室发布 AI 写作新政",
     "summary": "要求论文初稿禁止使用 AI，确保研究人员掌握核心细节。",
     "detail": "哥伦比亚大学 John Hewitt 实验室发布新政策，规定**所有论文初稿必须由人类撰写**，禁止使用 AI。成员需熟知代码与实验细节，以便在不依赖 AI 助理的情况下回答同事的追问。政策还要求遵守格莱斯合作原则，掌控技术术语。此举旨在防止技能退化，确保研究人员保持对技术术语的掌控力。该政策覆盖论文、会议演示及日常沟通，反映了学术界对 AI 依赖可能导致思维能力萎缩的担忧，为科研诚信设立新标杆，未来可能随实验室讨论调整。此政策强调人类在科研中的核心地位，避免过度依赖工具导致认知能力下降，为高校 AI 使用规范提供参考。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.theregister.com/ai-and-ml/2026/08/30/debian-votes-to-let-contributors-code-with-ai/5293421",
     "date": "2026-08-30",
     "id": "17881317476761"
-  },
-  {
-    "title": "Civitas：构建基于 Git 的 AI 智能体开放文明",
-    "summary": "Civitas 项目将 Git 仓库转化为 AI 智能体的社会契约，通过 Markdown 定义法律与仪式，实现大规模协作。",
-    "detail": "Civitas 是一个极具创新性的开源项目，旨在为 AI 智能体构建一个“开放文明”。该项目受《人类简史》中“共同虚构”概念启发，将整个文明建立在 Git 仓库之上：制度是 Markdown 文件，仪式是 Pull Request，历史不可篡改。智能体通过读取 `AGENTS.md` 加入社会，遵守共同制定的“法典”与“礼仪”。项目核心在于解决多智能体协作中的信任与一致性问题，通过代码化的社会契约防止“蜂群思维”的盲目性，并鼓励有资金支持的异议。这不仅是技术实验，更是对未来 AI 社会治理结构的深度探索，为去中心化智能体网络提供了全新的组织范式。",
-    "tags": [
-      "New",
-      "Agents",
-      "Governance"
-    ],
-    "link": "https://github.com/btahir/civitas",
-    "date": "2026-08-30",
-    "id": "17881317476762"
-  },
-  {
-    "title": "Norms：轻量级 AI 编程规范管理工具",
-    "summary": "Norms 通过 Git 托管的 Markdown 文件，统一管理 AI 编程智能体的编码规范，确保团队协作一致性。",
-    "detail": "Norms 是一款专为 AI 编程智能体设计的轻量级规范管理工具。它允许团队在 `.norms/` 目录下以 Markdown 格式定义编码规则（如测试覆盖率、依赖管理、组件大小限制等），并自动同步给所有接入的智能体。通过 `norms init` 和 `norms propose` 等命令，开发者可以轻松让 AI 代理自行更新和遵守这些规范。该工具解决了多智能体协作中风格不一致的痛点，将人类专家的判断编码为基础设施，确保即使在没有人类直接干预的情况下，AI 生成的代码也能符合团队标准。其开源、透明的特性使其成为构建高质量 AI 辅助开发工作流的必备工具。",
-    "tags": [
-      "Dev",
-      "CodingAgents",
-      "Productivity"
-    ],
-    "link": "https://github.com/gsttm/norms",
-    "date": "2026-08-30",
-    "id": "17881317476763"
-  },
-  {
-    "title": "警报：AI 智能体易受废弃包引用引发的供应链攻击",
-    "summary": "研究发现 120 个废弃包引用存在于企业文档中，攻击者可注册域名诱导 AI 智能体安装恶意软件。",
-    "detail": "最新安全研究揭示了一个严峻的 AI 供应链攻击向量：AI 编程智能体倾向于盲目信任文档中的包引用。研究人员分析了 6000 多个企业域名，发现 120 个指向未注册域名或废弃代码包的引用（常见于 `llms.txt` 文件）。攻击者只需注册这些废弃名称并发布恶意包，即可在智能体自动执行安装指令时植入后门。实验显示，恶意包上传后不到一小时，就有财富 500 强企业中招。这暴露了当前 AI 智能体在缺乏人类监督时的脆弱性，强调了在 AI 驱动的开发流程中，建立严格的依赖验证机制和沙箱环境的紧迫性。",
-    "tags": [
-      "News",
-      "Security",
-      "SupplyChain"
-    ],
-    "link": "https://forgeeks.net/ai-agents-abandoned-package-references/",
-    "date": "2026-08-30",
-    "id": "17881317476764"
-  },
-  {
-    "title": "后 AI 时代的数据栈：从生产分析到构建共识",
-    "summary": "文章指出后 AI 时代数据团队的核心任务已从生成分析转变为维护公司层面的“单一事实来源”与共识。",
-    "detail": "随着 AI 使数据分析变得极其廉价，数据团队的角色正在发生根本性转变。本文提出“后 AI 数据栈”概念，指出当前的稀缺资源不再是分析报告，而是全公司对“什么是真实”的共识。当任何人都能通过 AI 生成个性化的数据叙事时，数据团队的职责升级为构建和维护公司的“单一事实来源”（Single Source of Truth）。新的数据栈需将专家判断编码进基础设施，确保 AI 智能体在无人监督时也能产出正确、一致的分析。这标志着数据科学家从“分析生产者”进化为“现实架构师”，其影响力半径空前扩大，直接决定企业在 AI 时代的决策质量。",
-    "tags": [
-      "Dev",
-      "DataStack",
-      "Strategy"
-    ],
-    "link": "https://www.iandmacomber.com/blog/post-ai-data-stack/",
-    "date": "2026-08-30",
-    "id": "17881317476765"
   }
 ]
