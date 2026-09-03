@@ -1,5 +1,70 @@
 [
   {
+    "title": "Google DeepMind 发布最强全球天气 AI 模型",
+    "summary": "DeepMind 推出 WeatherNext 3，降水预报准确率提升 50%。",
+    "detail": "Google DeepMind 与 Google Research 于 2026 年 9 月联合发布 WeatherNext 3，号称迄今最精确的全球 AI 天气模型。在当下，超本地化天气预测仍具挑战，但该模型能在提前一天或更长时间的情况下，将降水预报准确率提高 50%。这对供应链、体育赛事、旅游业及能源生产具有重大影响。该技术展示了 AI 在处理复杂物理系统方面的潜力，标志着 AI 科学预测领域的里程碑，为未来气候建模与灾害预警奠定坚实基础，体现科技巨头在垂直领域的深耕与突破。此外，模型发布即引发行业关注，预示着 AI for Science 将成为下一个竞争高地。",
+    "tags": [
+      "News",
+      "Google",
+      "Science"
+    ],
+    "link": "https://gizmodo.com/google-deepmind-just-rolled-out-its-most-accurate-ai-global-weather-model-2000807015",
+    "date": "2026-09-03",
+    "id": "17884765830570"
+  },
+  {
+    "title": "AI Scaling 新瓶颈：芯片间通信墙",
+    "summary": "NVIDIA 工程师详解万亿参数模型训练中的通信层级瓶颈。",
+    "detail": "文章深入分析了 AI 扩展中的通信层级问题。随着模型迈向万亿参数及吉瓦级训练，芯片间数据传输成为核心瓶颈。从片内 TB/s 到 rack 间 InfiniBand，带宽逐级递减。作者基于 NVIDIA 实习经验指出，单纯增加算力若无通信系统配合，同步开销将抵消收益。通信成本随距离增加，延迟与能耗剧增。NVLink 5 与 6 的带宽对比显示了硬件迭代的重要性。这对理解未来集群架构至关重要，提示开发者需优化互连技术以提升训练效率，避免资源浪费，是基础设施层的关键洞察。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "NVIDIA"
+    ],
+    "link": "https://www.aaravwattal.com/blog/c2c-interconnect/",
+    "date": "2026-09-03",
+    "id": "17884765830571"
+  },
+  {
+    "title": "2026 年职场人士对 AI 态度转向负面",
+    "summary": "Glassdoor 数据显示 AI 相关评论负面率升至 53%，行业差异显著。",
+    "detail": "Glassdoor 分析报告显示，2026 年员工对 AI 的态度显著恶化。AI 相关评论中负面比例升至 53%，而 2019 年仅为 19% 负面。管理层最支持 AI，而保险理赔员、作家等职业反对声浪最高。这表明 AI 落地引发的职场焦虑已从理论走向现实，企业需关注实施策略。评论提及量上涨 240%，显示关注度激增。不同岗位暴露度影响态度，高暴露岗位略偏正面。这为 HR 政策制定提供参考，提示需平衡效率与员工情绪，避免技术冲击导致的人才流失与士气低落问题，反映社会对 AI 整合的深层担忧。",
+    "tags": [
+      "News",
+      "Social",
+      "Workplace"
+    ],
+    "link": "https://www.glassdoor.com/blog/how-workers-feel-about-ai-2026/",
+    "date": "2026-09-03",
+    "id": "17884765830572"
+  },
+  {
+    "title": "理论探讨：LLM 是“自私的模因”组合",
+    "summary": "文章类比道金斯理论，认为大模型由文化模因构成而非基因。",
+    "detail": "该文借用理查德·道金斯的“自私基因”理论，提出 LLM 实质上是“自私模因”的数字化组合。模型参数压缩了人类文化模式，如同基因构建生物体。这一视角为理解 AI 如何复制和演化文化信息提供了新的哲学框架，强调了信息持久性在 AI 发展中的核心地位。文章指出，模因根据注意力竞争生存，LLM 将此过程数字化。这不仅是技术类比，更是对 AI 本质的深刻思考，提示我们关注训练数据中的文化偏见与演化逻辑，为 AI 伦理研究提供新视角，值得学术界与产业界共同深思。",
+    "tags": [
+      "News",
+      "Theory",
+      "LLM"
+    ],
+    "link": "https://ateliti99.substack.com/p/the-selfish-ai-model",
+    "date": "2026-09-03",
+    "id": "17884765830573"
+  },
+  {
+    "title": "新工具：可在 Android 上运行的 AI 开发环境",
+    "summary": "GitHub 开源项目 StitchLabtools 实现移动端软件构建与运行。",
+    "detail": "开发者在 GitHub 发布了 StitchLabtools 项目，旨在构建可在 Android 设备上运行和构建软件的 AI 开发环境。这打破了传统开发对桌面端的依赖，为移动端 AI 编码提供了新可能。该项目展示了如何在资源受限的移动平台上集成 AI 工作流，适合关注边缘计算和移动开发的工程师参考。它允许用户在移动环境中直接编译和测试代码，提升了开发灵活性。尽管处于早期阶段，但展示了未来随时随地开发 AI 应用的潜力，是开发者工具链的重要补充，值得开源社区关注与贡献。",
+    "tags": [
+      "Dev",
+      "Android",
+      "OpenSource"
+    ],
+    "link": "https://github.com/sedds89/StitchLabtools",
+    "date": "2026-09-03",
+    "id": "17884765830574"
+  },
+  {
     "title": "Accel 领投 Thinking Machines 10 亿美元融资，估值达 400 亿美元",
     "summary": "Accel 正洽谈领投 Thinking Machines 10 亿美元融资，估值高达 400 亿美元，显示 AI 基础设施领域持续高热。",
     "detail": "根据 TechCrunch 报道，知名风投 Accel 正洽谈领投 AI 公司 Thinking Machines 的新一轮融资。本轮融资金额达 10 亿美元，公司估值高达 400 亿美元。这一巨额交易反映了资本市场对 AI 基础设施及底层技术公司的强烈信心。Thinking Machines 作为新兴 AI 企业，能获得如此高估值，表明其在技术壁垒或市场前景上具有显著优势。此次融资若达成，将成为 AI 领域又一里程碑事件，可能进一步加剧头部 AI 初创公司之间的竞争格局。这也预示着一级市场对 AI 赛道的投入仍在加码，尽管市场波动，头部效应依然明显，资本正倾向于支持具有大规模潜力的基础设施项目。",
@@ -1233,70 +1298,5 @@
     "link": "https://magicshot.ai/",
     "date": "2026-08-31",
     "id": "17881755935582"
-  },
-  {
-    "title": "本地 AI 已死：计算重心转向云端环境",
-    "summary": "观点文章论证 AI 开发运行时正从本地笔记本迁移至云端 VM。",
-    "detail": "作者 Ivan Burazin 提出本地 AI 已死观点，认为开发环境正全面云化。回顾 Codeanywhere 时期，指出开发者逐渐转向 Remote SSH 与云端 VM。引用 Cognition Devin、Cursor 及 OpenAI Codex 为例，指出智能模型与运行计算机均在云端。本地设备仅作为窗口，云端 VM 提供更强算力与环境隔离。Cognition 花费数年研发 hypervisor 工作以支持数千 VM 并行。你可以从桌面、手机、Slack 或 GitHub 启动它。这标志着开发范式转变，工作不再绑定本地硬件，支持多环境并行与团队协作，优化了资源利用与安全性，开发者只需关注窗口而非矩形硬件。",
-    "tags": [
-      "News",
-      "Cloud",
-      "Development"
-    ],
-    "link": "https://twitter.com/ivanburazin/status/2094373912154874171",
-    "date": "2026-08-31",
-    "id": "17881755935583"
-  },
-  {
-    "title": "欧盟正式启动 AI 法案执法，向头部模型商发出问询",
-    "summary": "欧盟 AI 办公室向 OpenAI 等发出问询，违规最高罚全球营收 3%。",
-    "detail": "欧盟委员会确认启动 AI 法案执法，向 OpenAI、Anthropic 及 Google 等通用 AI 模型提供商发出信息请求 (RFI)，重点关注模型安全与外部评估。这是法案生效后的首步正式监管动作。违规回复可能面临最高 1500 万欧元或全球年营收 3% 的罚款。标志着 AI 监管从立法进入实质执法阶段，全球模型商需合规应对。此次行动表明 Brussels 将在四周内迅速行使新权力，对行业影响深远。虽无模型被禁，但正式监督文件已开启，法律后果严重，供应商需仔细准备回复以避免误导惩罚。",
-    "tags": [
-      "News",
-      "Regulation",
-      "LLM"
-    ],
-    "link": "https://tokenstead.ai/guides/eu-ai-act-first-enforcement-security-rfis",
-    "date": "2026-08-31",
-    "id": "17881492548720"
-  },
-  {
-    "title": "美国加筑无人机与机器人壁垒，中国规模优势仍存",
-    "summary": "美国收紧外国机器人限制并加征关税，中国凭借规模应对。",
-    "detail": "美国收紧外国先进机器人系统限制并对进口无人机加征关税，援引国家安全关切。FCC 覆盖清单扩展至外国无人机。中国制造商在无人机和人形机器人领域凭借成本与规模优势占据主导。尽管美国保护部分市场，但无法直接解决中国全球制造规模问题，行业竞争格局面临重构。关税将于 9 月生效，2027 年追加组件关税。这引发全球机器人行业疑问：若中国产品被 shut out，竞争将转向何处？美国措施虽保护本土，但未直接 address 中国规模优势。",
-    "tags": [
-      "News",
-      "Robotics",
-      "Geopolitics"
-    ],
-    "link": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
-    "date": "2026-08-31",
-    "id": "17881492548721"
-  },
-  {
-    "title": "Steer：AI 代理工具调用前的规则引擎与安全拦截",
-    "summary": "开源工具可在 AI 代理执行工具调用前进行拒绝或重写。",
-    "detail": "Steer 是一个位于代理工具调用前的规则引擎，支持在运行前拒绝、重写或注解调用。规则基于 TOML 配置，可解决 Claude Code 等自动模式注入系统指令的问题。作为最后一层决策钩子，它增强了 AI 代理的安全性与可控性，适合开发者构建更稳健的自动化工作流。内置规则编译进二进制文件，无需配置即可激活。支持 PreToolUse 和 PostToolUse 钩子，允许开发者在 shell 脚本之外通过配置重定向新工具，有效防止代理执行危险操作如 rm -rf。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Security"
-    ],
-    "link": "https://github.com/amalucelli/steer",
-    "date": "2026-08-31",
-    "id": "17881492548722"
-  },
-  {
-    "title": "Glean：增量追踪 AI 技能，仅处理变更文件",
-    "summary": "Rust 编写的工具，让 AI 技能仅针对自上次运行后的变更生效。",
-    "detail": "Glean 记录工具已处理的文件，确保下次运行仅关注变更内容，避免全量 diff 扫描。支持每消费者基线追踪，内容哈希验证，适用于 monorepo 场景。作为 MCP 服务器提供变更集，显著降低 AI 技能运行成本。适合需要高效增量处理的开发者优化 AI 工作流。单一 Rust 二进制文件，通过 PATH 解析。基线存储在.git/glean/中，不提交到版本控制。支持 list, mark, status 等命令，帮助 AI 技能在循环中仅处理新编辑，surviving rebases 和 branch switches。",
-    "tags": [
-      "Dev",
-      "Productivity",
-      "Rust"
-    ],
-    "link": "https://github.com/amalucelli/glean",
-    "date": "2026-08-31",
-    "id": "17881492548723"
   }
 ]
