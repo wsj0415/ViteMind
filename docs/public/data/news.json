@@ -1,5 +1,83 @@
 [
   {
+    "title": "AI 算力提供商 Nscale 寻求 35 亿美元 Pre-IPO 融资",
+    "summary": "Nscale 启动 Pre-IPO 融资，金额高达 35 亿美元，凸显算力需求。",
+    "detail": "AI 算力基础设施提供商 Nscale 正在寻求 35 亿美元的 Pre-IPO 融资，这一巨额计划反映了市场对 AI 算力资源的持续渴求。随着大模型训练和推理需求的爆炸式增长，独立算力提供商正成为资本关注的焦点。此次融资若成功，将显著提升 Nscale 的市场地位，加速其上市进程。这不仅验证了 AI 基础设施赛道的投资价值，也为行业提供了充足的算力扩张资金，有助于缓解全球算力短缺局面，推动下游应用创新。",
+    "tags": [
+      "News",
+      "Funding",
+      "Infrastructure"
+    ],
+    "link": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+    "date": "2026-09-04",
+    "id": "17885567664670"
+  },
+  {
+    "title": "AWS-Bench：评估 AI 编码代理的真实云任务基准",
+    "summary": "开源基准测试，在真实 AWS 环境中评估 AI 代理的运维能力。",
+    "detail": "AWS-Bench 是一个开源基准测试工具，专为评估 AI 编码代理在真实 AWS 任务中的表现而设计。与静态测试不同，它在隔离的真实 AWS 环境中运行代理，测试内容包括诊断配置错误、配置基础设施等。该工具支持自动化验证，为开发者提供了衡量 AI 代理在实际云运维场景中能力的可靠标准。这将帮助团队选择更适合的 AI 代理模型，推动 AI 运维自动化技术的标准化发展，降低云管理成本。",
+    "tags": [
+      "Dev",
+      "Cloud",
+      "Benchmark"
+    ],
+    "link": "https://github.com/aws-bench/aws-bench",
+    "date": "2026-09-04",
+    "id": "17885567664672"
+  },
+  {
+    "title": "中国企业将 AI Token 作为咖啡与信用卡奖励",
+    "summary": "中国 AI Token 日消耗量达 500 万亿，成为消费者奖励新趋势。",
+    "detail": "在中国，AI Token 正迅速融入日常生活，银行、咖啡馆等商家将其作为客户奖励。2026 年中，中国每日 Token 消耗量激增至 500 万亿。由于中国开源模型成本比美国同类模型低 60%-90%，Token 价格战成为全球 AI 竞争新前线。这种策略不仅促进了模型 adoption，也标志着 AI 消费化在中国的深入发展。低价 Token 降低了用户使用门槛，加速了 AI 技术在传统行业的渗透，改变了全球 AI 商业竞争格局。",
+    "tags": [
+      "News",
+      "Market",
+      "China"
+    ],
+    "link": "https://restofworld.org/2026/china-ai-tokens-consumer-rewards-credit-cards-telcos-deepseek/",
+    "date": "2026-09-04",
+    "id": "17885567664673"
+  },
+  {
+    "title": "Macha：节省 42% Token 的南印英语 AI 响应风格",
+    "summary": "开发者工具，通过特定响应风格减少 AI 编码助手 Token 消耗。",
+    "detail": "Macha 是一款针对 AI 编码助手的可选响应风格工具，采用受南印度英语启发的简洁风格。它能在不削减代码质量的前提下，将助手回复的 Token 消耗减少 42%。支持 Claude Code 和 Gemini CLI 等原生安装。对于需要严格控制 API 成本的开发者而言，这是一个实用的优化方案。它展示了通过提示工程风格调整来降低运营成本的可能性，为高频调用 AI 接口的团队提供了新的成本节约思路。",
+    "tags": [
+      "Dev",
+      "Optimization",
+      "Coding"
+    ],
+    "link": "https://github.com/kingroryg/macha",
+    "date": "2026-09-04",
+    "id": "17885567664674"
+  },
+  {
+    "title": "EEBench 探讨 AI 设计电路板的能力边界",
+    "summary": "基准测试评估 AI 在电子设计自动化中的表现，支持 GPT-6 演示。",
+    "detail": "随着 OpenAI 展示 GPT-6 Astra 设计电路板的 demo，EEBench 探讨了如何衡量 AI 生成的电子设计质量。该基准使用声明式代码而非 GUI 操作，让代理直接处理组件和电气约束。测试表明当前模型拥有丰富的电子知识，但在完整系统设计上仍有距离。这为 AI 介入硬件设计领域提供了评估标准和技术路径参考。未来 AI 有望辅助工程师完成更多底层硬件设计工作，提升研发效率。",
+    "tags": [
+      "Dev",
+      "Hardware",
+      "Benchmark"
+    ],
+    "link": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+    "date": "2026-09-04",
+    "id": "17885567664675"
+  },
+  {
+    "title": "Tesoro.help：基于 AI 的高中校园信息助手",
+    "summary": "Show HN 项目，索引学校 PDF 与文档，提供精准校园信息查询。",
+    "detail": "Tesoro.help 是一个为高中定制的 AI 帮助台，索引了 949 个页面和文件，包括 PDF、Google Docs 等学校公开资源。它解决了学校官网搜索无法覆盖 PDF 内部内容的问题，并提供来源溯源。虽然目前仅服务于特定学校，但其“索引所有公开文档并提供确切来源”的模式为垂直领域 AI 搜索应用提供了参考案例。这种 localized RAG 应用展示了 AI 在解决具体信息孤岛问题上的潜力。",
+    "tags": [
+      "New",
+      "Education",
+      "Search"
+    ],
+    "link": "https://tesoro.help/",
+    "date": "2026-09-04",
+    "id": "17885567664676"
+  },
+  {
     "title": "Aisle AI 发现 Curl 漏洞，超越 Mythos 与 Codex",
     "summary": "Aisle 安全系统发现 6 个 Curl 漏洞，获 Linux 维护者认可，表现优于知名 AI 编码工具。",
     "detail": "初创公司 Aisle 的 AI 原生漏洞管理系统在 Curl 项目中发现了 6 个此前未知的漏洞，并成功获得 CVE 编号。相比之下，Anthropic 的 Mythos 和 OpenAI 的 Codex 等知名 AI 编码程序在此前测试中未能发现这些安全问题。连 Greg KH 等顶级 Linux 维护者对此也印象深刻，认为 Aisle 能找到其他 AI 遗漏的真实 bug。这表明垂直领域的 AI 安全工具在特定任务上可能优于通用 AI 编码助手，为 AI 驱动的安全审计提供了新方向。对于开发者而言，这意味着单纯依赖通用 coding AI 可能不足以保证安全，建议结合专业安全 AI 工具进行代码审计，以提升开源项目及商业软件的整体安全性，避免潜在漏洞风险。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.pearpie.ai/launch/",
     "date": "2026-09-01",
     "id": "17882734433571"
-  },
-  {
-    "title": "开源项目：AI 代理确定性指数评测工具",
-    "summary": "GitHub 开源新工具，用于测试不同 LLM API 在多次请求下的输出一致性。",
-    "detail": "### 工具功能\nAgentic Determinism Index 通过发送相同请求多次，字节级比对模型输出，评估其可复现性。\n\n### 技术特点\n零依赖 Python 脚本，支持 OpenAI、Anthropic 等主流 API。_scores_ 公开透明，允许社区挑战指标。\n\n### 开发价值\n为开发者提供量化指标，帮助选择适合代理任务（Agentic Tasks）的稳定模型，减少因输出波动导致的系统错误。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "LLM"
-    ],
-    "link": "https://github.com/lemma-ventures/agentic-determinism-index",
-    "date": "2026-09-01",
-    "id": "17882734433573"
-  },
-  {
-    "title": "数字伪装衬衫：对抗 AI 监控摄像头",
-    "summary": "艺术家设计特殊图案衬衫，成功混淆 AI 监控摄像头的人物识别算法。",
-    "detail": "### 创新设计\nSimon Weckert 创作“数字伪装”衬衫，利用特定模糊色块图案，使 AI 摄像头无法识别穿着者为“人”。\n\n### 社会背景\n针对柏林等地警方部署的 AI 行为分析摄像头，该项目回应公众对隐私侵犯的担忧。\n\n### 技术启示\n展示了对抗样本攻击在物理世界的可行性，提示 AI 视觉系统鲁棒性仍需加强，同时也引发伦理与监管讨论。",
-    "tags": [
-      "News",
-      "Computer Vision",
-      "Privacy"
-    ],
-    "link": "https://www.404media.co/this-digital-camouflage-shirt-confuses-ai-powered-surveillance-cameras/",
-    "date": "2026-09-01",
-    "id": "17882734433574"
-  },
-  {
-    "title": "AI 辅助科学研究的五大挑战",
-    "summary": "Ai2 与医疗机构合作复盘，指出 AI 在科学探索中仍缺乏人类 steerability。",
-    "detail": "### 核心问题\nAI 虽能文献搜索、代码生成，但难以随研究进程动态调整假设。Ai2 与瑞典癌症研究所合作指出五大挑战。\n\n### 关键缺失\n缺乏“科学品味”，即判断研究方向的直觉。人类科学家需保留主导权，AI 作为辅助而非替代。\n\n### 未来方向\n需构建可 steering 系统，适应新证据变化，确保 AI 在医疗等高风险领域的可靠性和可解释性。",
-    "tags": [
-      "Dev",
-      "Science",
-      "Healthcare"
-    ],
-    "link": "https://allenai.org/blog/swedish-autodiscovery-recap",
-    "date": "2026-09-01",
-    "id": "17882734433575"
-  },
-  {
-    "title": "Fal.live 推出全民导演 AI 互动电视",
-    "summary": "用户可实时干预剧情走向，重塑互动视频体验。",
-    "detail": "Fal.live 发布全新 AI 电视平台，允许观众通过“虚拟导演”功能实时选择剧情发展，例如决定海盗登船后的下一步行动。核心技术在于实时视频生成与分支叙事逻辑的低延迟推理，标志着 AI 视频从被动观看向主动交互的根本转变。这对娱乐行业及生成式视频模型提出了新要求，可能开创互动影视新纪元，改变内容消费模式，让用户成为共同创作者，提升参与度与沉浸感体验。此外，该平台支持多频道切换与音频同步，展示了多模态生成能力的整合。这种交互模式可能重新定义流媒体服务，推动内容平台从单向传输向双向互动演进，为广告植入与用户数据分析提供新维度，具有显著的商业化潜力与技术示范意义。",
-    "tags": [
-      "New",
-      "Video Generation",
-      "Interactive"
-    ],
-    "link": "https://fal.live/",
-    "date": "2026-09-01",
-    "id": "17882542289960"
-  },
-  {
-    "title": "ChooseCompute 构建 AI 友好型硬件数据库",
-    "summary": "提供标准化 NAS 数据接口，优化 AI 代理硬件推荐。",
-    "detail": "该项目推出专为 AI 代理设计的 NAS 与硬盘数据库，通过 `llms.txt` 提供标准化数据接口，支持多商店价格对比与精确配置建议。解决了 AI 在硬件推荐领域的幻觉问题，确保数据准确性与时效性。此举展示了基础设施层如何适配 Agent 经济，为 AI 采购决策提供了可信数据源，优化了硬件配置流程，降低了企业部署 AI 存储系统的门槛与风险。通过提供具体的 SKU 与容量权衡证据，它帮助开发者构建更可靠的自动化采购代理。这种垂直领域的数据标准化是 AI 落地关键，表明硬件选型正从人工经验转向数据驱动的智能决策，提升整体 IT 运维效率与成本效益。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "Agents"
-    ],
-    "link": "https://choosecompute.com/",
-    "date": "2026-09-01",
-    "id": "17882542289961"
-  },
-  {
-    "title": "Atlassian AI 助手滞后于 Jira 产品更新",
-    "summary": "自家 AI 未能同步产品名称变更，暴露集成滞后问题。",
-    "detail": "Jira 将\"Projects\"更名为\"Spaces\"，但 Atlassian 自家 AI 助手仍使用旧称，暴露了集成滞后问题。这反映了企业软件中 AI 集成与产品迭代的同步难题，知识更新延迟可能导致用户信任危机与操作混淆。提示企业在部署 AI 助手时需建立更敏捷的知识库更新机制，避免智能化体验脱节，确保信息一致性，维护品牌专业度与用户依赖感。此事件警示 AI 系统若不能实时同步产品变更，将反而增加用户认知负担。对于大型 SaaS 厂商，这意味着需要建立 AI 模型与产品文档的自动同步管道，否则智能助手将成为信息孤岛，削弱数字化转型的实际价值与用户满意度。",
-    "tags": [
-      "News",
-      "Enterprise AI",
-      "Integration"
-    ],
-    "link": "https://community.atlassian.com/forums/Jira-articles/Jira-Spaces-have-landed/ba-p/3117620",
-    "date": "2026-09-01",
-    "id": "17882542289962"
   }
 ]
