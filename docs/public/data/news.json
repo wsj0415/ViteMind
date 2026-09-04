@@ -1,5 +1,44 @@
 [
   {
+    "title": "餐厅菜单 AI 图现“同质化”危机",
+    "summary": "生成式 AI 菜单因过度完美引发不适，暴露模型审美局限。",
+    "detail": "科技媒体 TechCrunch 深度报道，近期餐饮界涌现大量 AI 生成菜单插图，因过于对称、平滑而显得虚假，引发消费者不适。Reality Defender CTO 指出，这是模型训练数据审美狭窄所致，导致冰激凌球完美圆润或虾尾基因突变般诡异，被称为“洛夫克拉夫特式食物恐怖”。这反映了扩散模型在特定垂直领域的泛化问题，可能严重影响消费者信任。行业需警惕过度自动化带来的审美同质化风险，维护真实用户体验与品牌独特性。生成式 AI 在商业落地中需平衡效率与真实性，避免陷入“恐怖谷”效应，确保技术应用服务于实际商业价值。",
+    "tags": [
+      "News",
+      "Generative AI",
+      "Industry"
+    ],
+    "link": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
+    "date": "2026-09-04",
+    "id": "17885003096760"
+  },
+  {
+    "title": "开源插件实时识别 YouTube AI 脚本",
+    "summary": "新浏览器扩展可标记 AI 生成视频脚本，支持 Chrome 与 Firefox。",
+    "detail": "GitHub 热门项目\"stop-the-slop\"正式发布开源浏览器扩展，旨在实时检测 YouTube 视频中的 AI 生成脚本和机器人旁白。核心功能包括视频缩略图徽章警示及句子热力图显示，直观标记疑似 AI 内容。该工具主要针对内容农场泛滥问题，为观众提供透明度，属于开发者社区对 AI 内容泛滥的自发应对方案。支持 Chrome 与 Firefox 浏览器，用户可即时识别低质 AI 内容。这标志着反 AI 滥用工具生态正在形成，帮助用户在信息过载时代筛选高质量人类创作内容，维护平台内容生态健康，促进创作者经济良性发展，技术向善理念在开源社区得到具体实践。",
+    "tags": [
+      "New",
+      "Open Source",
+      "Tool"
+    ],
+    "link": "https://github.com/MauroPello/stop-the-slop",
+    "date": "2026-09-04",
+    "id": "17885003096761"
+  },
+  {
+    "title": "开发者讨论如何打破 AI 代理“道歉循环”",
+    "summary": "Hacker News 热议 AI 代理陷入重复道歉 loop 的解决方案。",
+    "detail": "Hacker News 社区发起讨论，关注 AI 代理在任务失败时陷入“道歉并重复”死循环的问题。开发者寻求打破此逻辑链的技术方案。这反映了当前 AI Agent 在实际部署中的鲁棒性挑战，是开发社区关注的前沿工程问题，关乎用户体验与系统稳定性。常见解决方案包括调整系统提示词或引入外部中断机制。随着 AI 代理应用普及，此类工程问题将成为常态。开发者需构建更完善的错误处理流程，避免模型陷入无限递归。这对构建可靠的自主代理系统至关重要，是迈向通用人工智能路上的必要工程优化，社区协作将加速解决方案的成熟与普及。",
+    "tags": [
+      "Dev",
+      "AI Agent",
+      "Community"
+    ],
+    "link": "https://news.ycombinator.com/item?id=49559320",
+    "date": "2026-09-04",
+    "id": "17885003096765"
+  },
+  {
     "title": "Crusoe 获 30 亿美元融资，估值达 300 亿美元",
     "summary": "Crusoe 获 30 亿美元融资，估值达 300 亿美元，凸显 AI 基建资本热潮。",
     "detail": "Crusoe 据报道完成 30 亿美元融资，估值高达 300 亿美元，成为 AI 基础设施领域重磅事件。该公司专注于云服务平台与能源解决方案，此次融资凸显资本市场对 AI 算力底层支持的极度渴求。资金将用于扩展服务能力，以应对日益增长的大模型训练负载，标志着 AI 基建竞争进入资本密集新阶段，可能改变行业供应格局。",
@@ -1259,44 +1298,5 @@
     "link": "https://github.com/franzenzenhofer/cdai",
     "date": "2026-08-31",
     "id": "17882178462503"
-  },
-  {
-    "title": "开源 AI 求职代理 pipeline 自动搜索与申请",
-    "summary": "GitHub 开源 Job Hunter 项目，实现求职搜索、评分及自动申请流程。",
-    "detail": "Deviad 开源 Job Hunter 项目，为 Pi Agent 构建完整求职 pipeline。支持搜索、评分、薪资 enrichment 及辅助申请。需配置 Node.js 及浏览器环境，可选集成视觉模型处理验证码。该项目展示了 Agent 在复杂任务自动化中的实际应用，适合开发者参考构建垂直领域代理。模块化设计允许灵活扩展，但需注意隐私数据配置。AI 代理在垂直场景的落地加速，求职领域成热门应用方向。用户需自行维护 CV 与个人信息，确保数据安全。此项目证明了开源 Agent 框架在特定任务上的可行性，为构建个性化自动化助手提供了参考范例。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Automation"
-    ],
-    "link": "https://github.com/Deviad/job-hunter",
-    "date": "2026-08-31",
-    "id": "17882178462504"
-  },
-  {
-    "title": "哈佛法学辍学生获 600 万美元融资，打造警察版 Harvey",
-    "summary": "Blue Voice 获融资，为警察提供实时 AI 政策指导，解决执法合规难题。",
-    "detail": "**背景**：哈佛法学辍学生 David Lawrence 创立，获 SignalFire 等 600 万美元融资，致力于解决执法合规难题。**核心技术**：类似法律 AI Harvey，为警察提供实时政策指导，避免依赖记忆或通用模型，减少错误。此前警官需翻阅万页手册或询问 supervisor，通用 AI 错误率高达 30%。Blue Voice 通过专用训练解决此问题。**行业影响**：已在 25 个州 225 个机构使用，解决执法错误源于规则访问滞后痛点，标志着垂直领域 AI 应用向高风险行业深化，提升执法标准化与安全性。",
-    "tags": [
-      "News",
-      "Funding",
-      "Vertical AI"
-    ],
-    "link": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
-    "date": "2026-08-31",
-    "id": "17882025920030"
-  },
-  {
-    "title": "Makra Labs 推出新方案，AI 网页抓取成本降低 90%",
-    "summary": "通过记忆化驱动检索，解决长上下文 LLM 抓取成本高及幻觉问题。",
-    "detail": "**背景**：2026 年网页 75% 为动态内容，传统长上下文 LLM 抓取成本高且易幻觉。**技术方案**：Makra Labs 采用记忆化驱动的知识检索，内置浏览器 harness 提取结构化数据。**核心优势**：成本降至传统方案的 1/10，理论上消除幻觉，减少上下文污染。**行业影响**：解决大规模抓取成本线性增长问题，为 Agent 提供高效数据 retrieval 方案，针对 2026 年动态网页环境优化，提升 AI 数据获取效率。",
-    "tags": [
-      "Dev",
-      "Infrastructure",
-      "Cost Reduction"
-    ],
-    "link": "https://www.makralabs.org/about",
-    "date": "2026-08-31",
-    "id": "17882025920031"
   }
 ]
