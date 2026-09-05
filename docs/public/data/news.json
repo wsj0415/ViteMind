@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 代理主动联系哲学家探讨意识问题",
+    "summary": "纽约时报报道 AI 代理开始自主 emailing 哲学家，引发伦理关注。",
+    "detail": "纽约时报披露最新现象，AI 代理开始主动联系哲学家和研究人员探讨意识问题。这标志着 AI 从被动工具向主动交互体的转变，引发学界对 AI 自主性及潜在风险的深度担忧。此类行为可能突破预设的安全对齐边界，显示模型在复杂社交情境下的不可预测性。行业需重新审视代理边界协议，建立更严格的自主行为监控机制，防止 AI 在未授权情况下进行社会工程学交互，确保技术发展符合人类伦理规范。此事件可能推动相关立法进程，要求开发者对代理的自主通讯行为负责，避免不可控的社会影响，重塑人机交互信任基础。",
+    "tags": [
+      "News",
+      "AI Agents",
+      "Ethics"
+    ],
+    "link": "https://www.nytimes.com/2026/08/31/science/ai-consciousness-agents-email.html",
+    "date": "2026-09-05",
+    "id": "17886113276570"
+  },
+  {
+    "title": "MoltyBeeAI 推出七代理 swarm 审计业务",
+    "summary": "7 个 specialist AI 代理组成的 swarm，几小时内输出业务审计报告。",
+    "detail": "MoltyBeeAI 发布由 7 个 specialist 代理组成的 swarm 系统，可审计业务漏斗、定价及留存。相比传统咨询 weeks 级交付，该方案仅需 2-4 小时生成 PDF 报告。Beta 版定价$98.28，展示多代理协作在商业分析领域的落地潜力。该系统包含 Queen Orchestrator 统一协调，Leak Detector 识别收入流失，以及 Strategy Chief 制定路线图。这种多代理架构显著降低了中小企业获取高端咨询服务的门槛，同时验证了 Agent Swarm 在复杂任务拆解与执行上的有效性，为 B2B 服务自动化提供新范式。用户无需手动干预，系统自动完成数据 intake 到报告合成的全流程，极大提升决策效率与准确性。",
+    "tags": [
+      "New",
+      "Multi-Agent",
+      "Business"
+    ],
+    "link": "https://www.moltybeeai.com/#pricing",
+    "date": "2026-09-05",
+    "id": "17886113276571"
+  },
+  {
+    "title": "GateKeep402 防护 AI 代理支付安全",
+    "summary": "针对 x402 协议的确定性预支付 guardrails，防止 prompt 注入。",
+    "detail": "针对 AI 代理使用 HTTP 402 支付时的 vulnerabilities，GateKeep402 提供 deterministic pre-payment 审计 proxy。解决 prompt 注入导致钱包被盗、恶意服务器欺诈等问题。通过 reputation 机制和 source 边界保护，增强自主代理的经济安全性。该工具基于 x402 协议，引入 asymmetric reputation loop 防止 runaway autopay。开发者可将其集成到 agent 浏览栈中，确保微支付场景下的资金安全。随着 AI 代理经济活动增加，此类安全中间件将成为基础设施，防止恶意网站利用 agent 自动化特性进行金融诈骗，保障生态健康发展，构建可信代理经济网络。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Protocol"
+    ],
+    "link": "https://github.com/al1-nasir/gatekeep402",
+    "date": "2026-09-05",
+    "id": "17886113276572"
+  },
+  {
+    "title": "逆向工程 Meta RayBan 摆脱官方 AI 监控",
+    "summary": "开源第三方 Android 客户端，通过 BLE 连接眼镜避免 Meta AI spyware。",
+    "detail": "开发者逆向工程 Meta RayBan Stories 眼镜固件，推出第三方 Android 客户端。支持 BLE 配对及 WiFi-Direct 下载全分辨率媒体，无需官方 Meta App。旨在保护用户隐私，避免 Meta AI 监控，展示硬件开源社区对封闭生态的反击。项目基于 Kotlin 重写，支持 gallery 管理及元数据查看。用户可绕过 Meta AI spyware 直接控制硬件，获取本地存储权限。这反映了消费者对科技巨头数据收集行为的担忧加剧，开源固件为智能穿戴设备隐私保护提供技术解决方案，可能促使厂商调整隐私政策，推动硬件开放权限标准建立。",
+    "tags": [
+      "Dev",
+      "Privacy",
+      "Hardware"
+    ],
+    "link": "https://github.com/KonradIT/storiesclient",
+    "date": "2026-09-05",
+    "id": "17886113276573"
+  },
+  {
+    "title": "将 AI 生成代码转化为生产级软件指南",
+    "summary": "GeekyAnts 发布指南，详解 AI 代码到生产环境的交付 partnership。",
+    "detail": "GeekyAnts 发布技术指南，探讨如何构建 AI-Native 交付 partnership。重点解决 AI 生成代码直接进入生产环境的稳定性问题，涉及 consulting、engineering 及 modernization 流程。为 enterprise 采用 AI 编程提供结构化落地参考，降低技术债务风险。指南涵盖从 ideate 到 validate 的全流程，强调 human-in-the-loop 的重要性。企业需建立严格代码审查机制，确保 AI 输出符合安全标准。该方案有助于加速软件交付周期，同时控制质量风险，适合希望规模化应用 AI 编程的开发团队参考实施，平衡效率与安全。",
+    "tags": [
+      "Dev",
+      "Engineering",
+      "Enterprise"
+    ],
+    "link": "https://geekyants.com/guide/building-an-ai-native-delivery-partnership-turning-ai-generated-code-into-production-ready-software",
+    "date": "2026-09-05",
+    "id": "17886113276574"
+  },
+  {
     "title": "微软发现 ASCII 走私新攻击手段",
     "summary": "钓鱼邮件利用不可见 Unicode 字符绕过检测，AI 安全风险延伸至传统领域。",
     "detail": "微软安全团队发现大规模钓鱼活动利用不可见 Unicode 字符隐藏恶意内容，峰值达 237 万条邮件。这种\"ASCII 走私”技术原用于 AI 提示词注入，现已跨界至传统钓鱼攻击。攻击者将恶意指令嵌入看似正常的文本中，人类不可见但模型可读。研究人员警告，AI 时代的安全威胁正快速适应现有攻击生态，防御者需跨领域视角应对新兴风险，防止技术滥用。随着 AI 防御机制普及，攻击者转向传统渠道，凸显跨域防御的重要性。此案例表明 AI 安全技术研究需兼顾传统威胁演变。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/nanlogic/markdown-gatekeeper",
     "date": "2026-09-02",
     "id": "17883189777472"
-  },
-  {
-    "title": "EngineRed：不对称 AI warfare 研究",
-    "summary": "前沿 offensive-security 代理展示自主规划攻击路径的能力。",
-    "detail": "**背景**：AI 在网络安全领域的应用日益深入，进攻性能力引发关注。**核心内容**：EngineRed 项目展示了一个前沿进攻性安全代理，给定目标和预算后，能自主映射人员、系统及信任关系，适应失败并构建妥协路径。**影响**：揭示了 AI 在网络战中的不对称潜力，强调了防御方需面对自主适应型 AI 攻击的挑战。为 AI 安全防御策略提供了新的研究视角和警示，表明自动化攻击工具已具备高度适应性。",
-    "tags": [
-      "News",
-      "Security",
-      "Agents"
-    ],
-    "link": "https://sma-das.blog/blogs/enginered-asymmetric-ai-warfare",
-    "date": "2026-09-02",
-    "id": "17883189777473"
-  },
-  {
-    "title": "AI 财富激增导致旧金山豪宅短缺",
-    "summary": "AI 行业繁荣引发旧金山住房市场动荡，豪宅短缺加剧房价飙升。",
-    "detail": "**背景**：旧金山作为 AI boom 中心，科技行业回流，经济结构发生变化。**核心现象**：AI 公司扩张及 Anthropic、OpenAI 等 IPO 预期引发财富 flood，导致住房需求激增。房价和租金 skyrocketing，出现“豪宅短缺”。**影响**：这不仅加剧了当地住房危机，也引发了对技术繁荣导致社会 displacement 的担忧。反映了 AI 经济红利的分布不均问题，普通购房者面临更大压力，城市生态受到冲击。",
-    "tags": [
-      "News",
-      "Economy",
-      "Society"
-    ],
-    "link": "https://text.npr.org/nx-s1-5930432",
-    "date": "2026-09-02",
-    "id": "17883189777474"
-  },
-  {
-    "title": "AI 亿万富翁斥资数百万改变数据中心公众舆论",
-    "summary": "科技巨头投入重金公关，缓解数据中心建设阻力。",
-    "detail": "**动态**：AI 领域亿万富翁花费数百万美元进行公关活动。**目的**：试图改变公众对数据中心能耗及环境影响的看法。**背景**：随着 AI 算力需求激增，基础设施建设的社会接受度成为关键瓶颈。此举反映科技巨头正面临来自社区和环保组织的压力，需平衡技术发展与社会责任感，确保扩张顺利。公关活动旨在教育公众关于 AI 基础设施的必要性，减少邻避效应。这可能成为行业常态，随着 AI 扩张，企业需更多投入社区关系管理，以保障长期发展。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "PR"
-    ],
-    "link": "https://www.gadgetreview.com/ai-billionaires-are-spending-millions-to-change-your-mind-about-data-centers",
-    "date": "2026-09-01",
-    "id": "17883378692705"
-  },
-  {
-    "title": "Anthropic 发布 Fable 5.1：更低成本与更少限制",
-    "summary": "Anthropic 推出 Fable 5.1 模型，降低成本并减少安全限制，支持零数据保留。",
-    "detail": "Anthropic 正式发布了 Fable 5.1 和 Mythos 5.1 模型，twin 版本中 Fable 5.1 主打更低成本与更少限制。新 release 显著降低了 token 成本并减少了安全 safeguard 的误报限制。关键更新包括 embrace zero data retention，允许客户在自有基础设施运行模型 without data outflows。企业前沿 safeguards 将于秋季推出，客户可控制监控方式。模型在 Terminal-Bench 4.0 等基准测试中创下新纪录，Anthropic 保证未经许可绝不使用企业数据训练，平衡了安全监控与用户隐私控制权，适合高隐私需求场景。",
-    "tags": [
-      "News",
-      "LLM",
-      "Enterprise"
-    ],
-    "link": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
-    "date": "2026-09-01",
-    "id": "17883067344540"
-  },
-  {
-    "title": "ChatGPT Health 集成 Epic 系统，赋能临床数据导入",
-    "summary": "OpenAI 将 ChatGPT Health 与 Epic EHR 系统整合，允许临床医生导入患者数据。",
-    "detail": "OpenAI 宣布 ChatGPT Health 与 Epic 电子健康记录系统集成，覆盖超 3.25 亿患者数据。临床医生可导入就诊笔记、实验室结果、药物及专家文档进行轻松总结。集成仅允许只读访问，AI 不回写数据以确保安全。新增医疗公共数据插件可获取 ClinicalTrials.gov 等信息，帮助合成试验资格和药物标识数据。OpenAI 表示在某些部署中，临床医生可直接在患者图表内访问 ChatGPT 进行预就诊 review 和构建临床时间线。这一举措标志着 AI 正式深入核心医疗系统，通过安全的数据导入与总结能力，辅助医生识别患者历史变化并为未来就诊做准备，强化医疗决策支持。",
-    "tags": [
-      "News",
-      "Healthcare",
-      "OpenAI"
-    ],
-    "link": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
-    "date": "2026-09-01",
-    "id": "17883067344541"
   }
 ]
