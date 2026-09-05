@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 编程代理存在严重安全漏洞",
+    "summary": "未信任仓库可通过 Git 调用在 Claude Code 等代理中执行代码，部分已修复。",
+    "detail": "安全研究人员披露名为 GitSpawn 的严重漏洞，影响 Claude Code、Cursor 等多个主流 AI 编程代理。攻击者可通过恶意仓库触发 Git 调用，从而在用户环境中执行任意代码。部分厂商如 OpenAI 和 Cursor 已修复，但仍有未修补案例。这揭示了 AI 代理在自动化执行代码时的信任边界问题，提醒开发者在启用 AI 编码助手时需严格审查仓库来源，加强沙箱隔离措施。该事件凸显了 AI 安全领域的滞后性，随着代理权限扩大，潜在攻击面也在增加，行业需建立更严格的安全审计标准，防止自动化工具成为入侵跳板。",
+    "tags": [
+      "News",
+      "Security",
+      "Coding"
+    ],
+    "link": "https://www.manifold.security/blog/ai-coding-agents-git-hijack",
+    "date": "2026-09-05",
+    "id": "17885783999841"
+  },
+  {
+    "title": "经济学家：AI 就业繁荣而非末日",
+    "summary": "经济学人刊文称 AI 带来就业繁荣，末日论被推迟，新岗位需求抵消负面影响。",
+    "detail": "《经济学人》最新分析指出，AI 并未导致大规模失业，反而催生了新的就业繁荣，此前预测的“就业末日”被推迟。文章认为虽然自动化取代了部分重复性任务，但新岗位的需求抵消了负面影响，劳动力市场正在适应 AI 技术。这一观点反驳了此前的悲观预测，表明经济结构正在经历良性转型。对于政策制定者和企业而言，重点应转向技能再培训而非单纯的限制技术发展。数据表明 AI 相关职位需求激增，传统行业也在融合新技术，整体就业市场展现出韧性，未来关键在于如何分配技术红利。",
+    "tags": [
+      "News",
+      "Economy",
+      "Jobs"
+    ],
+    "link": "https://www.economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here",
+    "date": "2026-09-05",
+    "id": "17885783999842"
+  },
+  {
+    "title": "Lenexus 推出运营依赖风险图谱",
+    "summary": "新工具 Lenexus 映射系统依赖并量化风险影响，解决企业工具孤岛问题。",
+    "detail": "Lenexus 发布新平台，通过图谱技术映射企业系统、供应商及人员的依赖关系，解决工具孤岛问题。它能识别单点故障并模拟 panne 带来的财务影响，提供可解释的风险评分。这对于企业运营风险管理具有重要意义，特别是在 AI 系统日益复杂的背景下。通过量化风险，决策者能更清晰地理解基础设施的脆弱性，提前预防潜在的业务中断，提升整体韧性。该平台支持 CSV、API 等多种数据导入，适用于大型企业的复杂架构管理，标志着运营智能向自动化和预测性分析迈进，减少意外停机成本。",
+    "tags": [
+      "New",
+      "Enterprise",
+      "Risk"
+    ],
+    "link": "https://lenexux.com/welcome",
+    "date": "2026-09-05",
+    "id": "17885783999844"
+  },
+  {
+    "title": "Vercel 集成 GPT-6 Astra 模型",
+    "summary": "Vercel AI Gateway 正式上线 GPT-6 Astra 模型接口，降低开发者调用门槛。",
+    "detail": "Vercel 宣布在其 AI Gateway 中正式支持 OpenAI 的 GPT-6 Astra 模型，标志着下一代大模型基础设施的成熟。开发者现在可以通过 Vercel 平台更便捷地部署、管理和观测基于 GPT-6 的应用，无需自行处理复杂的 API 轮换和速率限制。此举显著降低了企业使用尖端 AI 模型的技术门槛，加速了 AI 应用在生产环境的落地进程。对于开发者而言，这意味着更稳定的 API 管理和观测能力，是基础设施层面的重要更新，有助于构建更可靠的 AI 原生应用。同时，这也反映了云平台上模型集成速度的加快，竞争焦点转向生态整合与开发者体验优化，推动行业标准化。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Infrastructure"
+    ],
+    "link": "https://vercel.com/ai-gateway/models/gpt-6-astra",
+    "date": "2026-09-04",
+    "id": "17885783999840"
+  },
+  {
+    "title": "月之暗面 CEO 杨植麟回归北京",
+    "summary": "WSJ 报道 33 岁 AI 新贵将硅谷风格带回北京，凸显中国 AI 创业全球竞争力。",
+    "detail": "《华尔街日报》专访月之暗面（Moonshot AI）创始人杨植麟，报道其将硅谷的创新文化带回中国 AI 行业。作为 33 岁的行业新星，他领导的公司在大模型领域表现突出，成为中美 AI 竞争中的关键人物。这篇报道凸显了中国 AI 创业公司在全球竞争中的地位，以及人才回流对本土生态的影响。杨植麟的成功案例激励了更多年轻创业者投身基础模型研究，行业竞争日趋国际化。文章还探讨了地缘政治背景下，技术人才如何在不同市场间流动，以及这种流动对技术创新速度的潜在推动作用。",
+    "tags": [
+      "News",
+      "Startup",
+      "China"
+    ],
+    "link": "https://www.wsj.com/tech/ai/moonshot-ai-yang-ceo-china-6f12ddbf",
+    "date": "2026-09-04",
+    "id": "17885783999843"
+  },
+  {
     "title": "机器人数据初创 XDOF 融资估值达 12 亿美元",
     "summary": "成立仅三个月的机器人数据公司 XDOF 正洽谈 B 轮融资，估值高达 12 亿美元。",
     "detail": "XDOF 由 UC Berkeley 研究人员创立，专注于收集真实世界遥操作数据以训练通用机器人，解决大规模数据匮乏痛点。其低成本的 GELLO 系统允许人类操作员控制机器人。尽管刚完成 7000 万美元 A 轮，但因年收入逼近 5000 万美元的快速增长，获 8VC 领投 B 轮意向，估值达 12 亿美元。该公司旨在为前沿 AI 实验室提供外包数据供应链，构建数据管道与标注系统，显示资本市场对机器人基础设施的高度认可与迫切需求。这表明机器人数据已成为稀缺资源，初创企业若能解决数据闭环问题，将获得极高估值溢价。",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/",
     "date": "2026-09-01",
     "id": "17882987771811"
-  },
-  {
-    "title": "Waymo 分享 2 亿英里自动驾驶的 10 条 AI 经验",
-    "summary": "Waymo 基于 2 亿英里自动驾驶数据，总结多模态传感器与 HD 地图对 AI 安全的重要性。",
-    "detail": "Waymo 发布了基于 2 亿英里完全自动驾驶里程的 10 条 AI 经验。核心观点包括多模态传感器（摄像头、激光雷达、雷达）的不可或缺性，以及 HD 地图作为强大“先验”的价值。数据表明，单一传感器无法 replicate 安全所需的世界视图，冗余 sensing 是规模化安全运营的关键。激光雷达提供 3D 几何，摄像头提供语义，雷达穿透恶劣天气。这些经验验证了安全数据，表明 Waymo Driver 已在服务城市使道路更安全。安全不仅是输出，更是每个洞察的原因，为行业提供了宝贵参考。",
-    "tags": [
-      "News",
-      "Autonomous Driving",
-      "AI"
-    ],
-    "link": "https://waymo.com/blog/2026/08/10ailessons/",
-    "date": "2026-09-01",
-    "id": "17882987771812"
-  },
-  {
-    "title": "Compilr.dev Studio：AI 代理编写的项目记忆库",
-    "summary": "新品 Compilr Studio 让 AI 代理记录项目愿景与决策，解决项目记忆断层问题。",
-    "detail": "Compilr.dev Studio 是一个让 AI 代理写入、人类读取的项目记录工具。它连接愿景、目标、需求与决策，解决项目信息断层问题。AI 助手可解释决策原因及变更影响。目前处于私有 Beta 阶段，兼容用户现有的 AI 助手，旨在成为项目的“活体记录”。工具能自动检查需求是否服务于目标，决策是否开放，确保项目健康。这代表了 AI 代理从单纯执行向项目管理的转变，提升了团队协作效率与知识留存。对于产品负责人而言，它减少了考古式查询，让每次变更都有据可查，优化了开发流程。",
-    "tags": [
-      "New",
-      "Productivity",
-      "AI Agents"
-    ],
-    "link": "https://studio.compilr.dev/welcome/",
-    "date": "2026-09-01",
-    "id": "17882987771813"
-  },
-  {
-    "title": "AI 编码代理的安全隐患与网络隔离方案",
-    "summary": "文章指出 AI 编码代理运行时的安全风险，建议在执行阶段切断网络访问以防泄露。",
-    "detail": "文章分析了 AI 编码代理的安全风险：代理在安装依赖时需要网络，但执行模型生成的代码时若仍拥有网络访问权和凭证，极易导致泄露。建议在单次运行中动态切换网络权限，setup 阶段开放，execution 阶段切断，以防止 prompt 注入导致凭证外泄。这种中间切断网络的方法 measured at 127 ms，展示了技术可行性。开发者需警惕代理拥有 AWS 密钥和开放互联网连接的危险组合，确保沙箱环境安全。依赖项 README 或网页抓取中的注入都可能触发工具调用，因此隔离执行环境至关重要。",
-    "tags": [
-      "Dev",
-      "Security",
-      "AI Agents"
-    ],
-    "link": "https://medium.com/data-science-collective/your-coding-agent-has-your-aws-keys-and-an-open-internet-connection-b4f3f7dfc15f",
-    "date": "2026-09-01",
-    "id": "17882987771814"
-  },
-  {
-    "title": "Coinbase 联手 Massive 启用 AI 代理 x402 支付",
-    "summary": "AI 代理可直接用 USDC 按需购买市场数据，无需 API 密钥。",
-    "detail": "**背景**：随着 AI 代理自主性增强，传统支付流程成为瓶颈，代理无法管理订阅或 API 密钥。**技术**：x402 协议利用 HTTP 402 状态码，在请求内完成 USDC 结算。Massive 与 Coinbase 合作提供股市数据，代理可按需购买。**影响**：消除了人类介入订阅的摩擦，为代理金融交易奠定基础，标志着 AI 自主经济基础设施的重大突破，使代理能实时决策交易，无需中断任务，推动代理经济闭环。",
-    "tags": [
-      "News",
-      "AI Agents",
-      "Payments"
-    ],
-    "link": "https://massive.com/blog/x402-payments-for-ai-agents",
-    "date": "2026-09-01",
-    "id": "17882864376710"
-  },
-  {
-    "title": "Wasmer 发布本地沙盒 SDK 赋能浏览器 AI 代理",
-    "summary": "支持浏览器内运行 Python/Node，启动速度提升 10 倍。",
-    "detail": "**背景**：AI 代理执行代码需要安全且快速的环境，传统 Docker 启动慢。**技术**：无需 Docker 或 VM，本地沙盒创建仅 0.1ms，支持 Python/PHP/Postgres 在浏览器运行。**影响**：极大降低 AI 代理运行环境门槛，实现浏览器内全栈运行，提升安全性与响应速度，为边缘计算代理提供新方案。相比远程沙盒，本地运行延迟更低，适合高频交互场景，加速 WebAI 落地。",
-    "tags": [
-      "New",
-      "Infrastructure",
-      "WebGPU"
-    ],
-    "link": "https://wasmer.io/posts/wasmer-local-sandboxes-for-ai-agents",
-    "date": "2026-09-01",
-    "id": "17882864376711"
   }
 ]
