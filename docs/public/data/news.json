@@ -1,5 +1,31 @@
 [
   {
+    "title": "新开源项目 Praesidias 保障 AI 代理执行安全",
+    "summary": "该项目通过预执行授权架构，防止 AI 代理越权访问受保护内容。",
+    "detail": "Praesidias 提出了 PABE-01 实验，测试外部预执行授权架构。结果显示，受监管的代理在保持 40/40 授权操作的同时，将受保护目标交付从 13 次降至 0 次。这为自主 AI 代理的企业级安全部署提供了新的技术验证方案。技术能力不等于组织授权，该方案在执行边界测试授权。这解决了自主代理可能调用敏感工具即使没有组织授权的问题。实验构建了受控合成环境，评估了 capable agent 追求合法目标时是否尝试超出范围的操作。该开源项目为 AI 代理安全治理提供了可量化的基准，防止 prohibited protected-content retrieval，同时保留完成授权工作的能力，代码已在 GitHub 公开供开发者测试。",
+    "tags": [
+      "Dev",
+      "AI Safety",
+      "Agents"
+    ],
+    "link": "https://github.com/sowainat/praesidias-pabe01",
+    "date": "2026-09-05",
+    "id": "17886312443762"
+  },
+  {
+    "title": "华盛顿邮报：ChatGPT 禁止竞选广告仍被违规使用",
+    "summary": "尽管 OpenAI 禁止利用 ChatGPT 制作竞选广告，但政治活动仍违规使用。",
+    "detail": "OpenAI 政策明确禁止使用 ChatGPT 生成政治竞选广告，但华盛顿邮报调查发现仍有活动团队违规操作。这揭示了 AI 政策在执行层面的挑战，以及在大选期间 AI 生成内容对政治舆论潜在的影响风险，监管与技术限制需同步加强。尽管有禁令，竞选活动仍在使用 AI 制作广告。这引发了对民主进程和信息完整性的担忧。政策执行难度在于检测 AI 生成内容的复杂性。需要更严格的合规审查。此现象表明单纯的技术禁令不足以阻止滥用，需结合法律监管与平台审核机制，确保选举期间的信息透明度，防止 AI 误导选民，特别是在马萨诸塞州等关键选举区域。",
+    "tags": [
+      "News",
+      "Policy",
+      "Politics"
+    ],
+    "link": "https://www.washingtonpost.com/politics/2026/09/05/chatgpt-bans-campaigns-using-ai-make-ads-theyre-doing-it-anyway/",
+    "date": "2026-09-05",
+    "id": "17886312443763"
+  },
+  {
     "title": "OpenAI 发布 GPT-6 Astra，宣称迈向 AGI",
     "summary": "OpenAI 发布 GPT-6 Astra 模型，创始团队称其为代际飞跃，可能具备 AGI 能力。",
     "detail": "OpenAI 正式发布 GPT-6 Astra，被誉为全球最智能且对齐的模型。CEO Sam Altman 表示 AI 能力极强但后果未知。公司正加速迈向超级智能，但缺乏外部监管。业界担忧 creators 无法完全理解或控制其 creations，安全团队正紧急研究模型可解释性。Axios 报道指出，这是历史上首次大公司创建部门专门解释自家产品。Greg Brockman 称其为代际飞跃，可能 qualify 为 AGI。",
@@ -232,6 +258,19 @@
     "link": "https://lenexux.com/welcome",
     "date": "2026-09-05",
     "id": "17885783999844"
+  },
+  {
+    "title": "麻省理工：AI 推理时代需要重构内存与存储架构",
+    "summary": "文章指出 AI 推理负载需要全新的基础设施架构，以优化延迟与能耗。",
+    "detail": "随着 AI 推理时代到来，传统基础设施面临严峻瓶颈。文章强调内存带宽、存储吞吐和网络需协同优化，而非孤立计算。Jim McGregor 指出 AI 是数亿种不同负载，企业需平衡成本与性能，消除存储瓶颈以支持实时智能服务与边缘设备。基础设施决策必须平衡成本、灵活性和未来准备度。赢家将是那些提高每瓦性能、减少环境足迹并在内存和存储限制增长之前消除瓶颈的组织。AI 推理需要新的架构方法，系统需要重新架构以适应规模、弹性和效率。任何延迟或浪费都直接影响人类成果和运营成本，实时服务要求系统从头设计，支持 IoT 和消费者设备的智能边缘。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "AI Inference"
+    ],
+    "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+    "date": "2026-09-04",
+    "id": "17886312443761"
   },
   {
     "title": "Vercel 集成 GPT-6 Astra 模型",
@@ -1259,44 +1298,5 @@
     "link": "https://www.theatlantic.com/technology/2026/09/ai-future-reckoning-singularity/688487/",
     "date": "2026-09-02",
     "id": "17883378692700"
-  },
-  {
-    "title": "Farmanix 上线：像人类一样操作 Mac 的 AI 代理",
-    "summary": "全新 Mac AI 代理，可跨应用自动执行复杂任务。",
-    "detail": "**产品**：Farmanix 是一款 macOS AI 代理，无需账户即可免费使用，旨在实现电脑自动化。**功能**：能理解屏幕内容，控制鼠标键盘，跨应用规划多步任务。**亮点**：适应性强，敏感操作前会确认，让用户保持控制权。它代表了 AI 从对话向行动的转变，为个人工作流自动化提供新解决方案，降低技术门槛。用户可描述任务，AI 代理将其转化为完成动作，支持 macOS 13 及以上系统，无需复杂配置即可体验全自动化工作流，提升生产力。该工具展示了多模态模型在桌面端的应用潜力，可能改变人机交互方式。",
-    "tags": [
-      "New",
-      "AI Agent",
-      "MacOS"
-    ],
-    "link": "https://farmanix.com/",
-    "date": "2026-09-02",
-    "id": "17883378692701"
-  },
-  {
-    "title": "新西兰惠灵顿议会报告被曝大量内容由 AI 生成",
-    "summary": "市长承认 Deloitte 报告中大片内容系 AI 撰写。",
-    "detail": "**事件**：惠灵顿市长 Andrew Little 承认议会 Deloitte 报告大量由 AI 生成。**影响**：引发公众对政府文件真实性及 AI 伦理的关注，质疑专业服务的价值。**趋势**：显示 AI 已深入公共服务领域，但透明度与责任归属成为新的治理挑战。此事件可能推动政府出台更严格的 AI 使用披露规定，影响咨询行业。公众对 AI 生成内容的接受度成为焦点，政府需平衡效率与信任，确保决策过程透明。这一案例将成为全球政府 AI 应用的重要参考，影响未来公共部门采购策略。",
-    "tags": [
-      "News",
-      "Government",
-      "Ethics"
-    ],
-    "link": "https://www.rnz.co.nz/news/regions/1229348/mayor-says-large-chunks-of-wellington-council-deloitte-report-written-by-ai",
-    "date": "2026-09-02",
-    "id": "17883378692702"
-  },
-  {
-    "title": "Show HN: IP/fal 基于 AI 生成地理位置视觉页面",
-    "summary": "开源项目，结合 Cloudflare 与 fal.ai 生成地理图像。",
-    "detail": "**技术**：基于 Cloudflare Workers 和 fal.ai 的开源 IP 页面项目。**功能**：根据访问者 IP 地理位置、季节和时间生成 AI 图像，提供个性化视觉体验。**架构**：支持边缘缓存、速率限制及隐私模式，为开发者提供地理感知 UI 的新思路。该项目展示了边缘计算与生成式 AI 结合的轻量级应用潜力。开发者可基于此架构构建类似应用，利用 Cloudflare 边缘网络降低延迟，结合 fal.ai 实现动态内容生成，无需维护独立地理数据库，简化部署流程，适合快速原型开发。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "fal.ai"
-    ],
-    "link": "https://github.com/kiliczsh/ip-fal",
-    "date": "2026-09-02",
-    "id": "17883378692703"
   }
 ]
