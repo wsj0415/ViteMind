@@ -1,5 +1,31 @@
 [
   {
+    "title": "美国两大学区再次实施 AI 禁令",
+    "summary": "纽约和洛杉矶学区宣布暂停 AI 工具使用，引发教育界对技术监管的讨论。",
+    "detail": "美国纽约市和洛杉矶两大公立学区正式宣布对 AI 工具实施暂停令。继 2023 年初次禁令后，此次举措表明教育界对 AI 作弊及学生认知影响的担忧仍未消除。政策制定者试图在技术融入与学术诚信之间寻找平衡，此举可能引发全美其他学区的效仿，标志着教育领域 AI 监管进入新的博弈阶段，家长与教师需关注后续政策变化对学生的影响。",
+    "tags": [
+      "News",
+      "Education",
+      "Policy"
+    ],
+    "link": "https://www.techpolicy.press/americas-two-largest-school-districts-impose-ai-moratoriums/",
+    "date": "2026-09-05",
+    "id": "17886482055791"
+  },
+  {
+    "title": "OKF Agent Memory：Git 原生 AI 代理记忆工具",
+    "summary": "基于 Go 语言开发的 Git 原生记忆模块，可减少 80% 的 Token 消耗。",
+    "detail": "这是一个专为 AI 编码代理设计的 Git 原生持久化记忆工具。基于 Google OKF v0.2 标准，它通过内存 BM25 搜索实现亚 300 微秒检索，无需外部数据库。核心优势在于将 Token 消耗降低 80%，有效解决上下文窗口关闭导致的信息丢失问题。该工具纯 Go 编写，零依赖，为开发者提供了一种轻量级方案来维持 AI 代理在项目中的长期上下文一致性，适合集成到现有工作流。",
+    "tags": [
+      "Dev",
+      "Tool",
+      "OpenSource"
+    ],
+    "link": "https://github.com/okf-memory/okf-agent-memory",
+    "date": "2026-09-05",
+    "id": "17886482055793"
+  },
+  {
     "title": "OpenAI 宣称 GPT-6 Astra 达成 AGI 里程碑",
     "summary": "卫报报道 OpenAI 宣称新模型跨越 AGI 阈值，引发就业与安全担忧。",
     "detail": "英国《卫报》报道，OpenAI 声称其最新模型 GPT-6 Astra 已跨越人工通用智能（AGI）阈值，定义为“在大多数经济价值工作上超越人类”。该公司正准备 8500 亿美元股票浮动，声明虽含营销成分但意义显著。牛津 Martin AI 治理倡议主任 Robert Trager 警告这可能导致不可控风险，类比 1942 年核裂变初期。自动化任务涵盖电路板设计、税务申报、法律文件等，白领工作面临直接威胁。若属实，这将标志 AI 发展重大转折，引发全球对就业替代与安全监管的深层担忧，人类如同身处激流险滩。",
@@ -1272,31 +1298,5 @@
     "link": "https://zenodo.org/records/22169978",
     "date": "2026-09-02",
     "id": "17883552316132"
-  },
-  {
-    "title": "Windrunner：AI 驱动的项目协作工作区",
-    "summary": "Show HN 新品，整合工作项与 AI 建议，提升团队协作效率。",
-    "detail": "Windrunner 是一个 AI 驱动的项目协作平台，旨在将工作项、决策、阻塞点和证据整合到统一工作区。其特色在于 AI 能理解项目上下文并提出可审查的更新建议，同时保持人类控制权。适合需要协调复杂工作流的团队，通过 AI 辅助减少上下文丢失，确保项目进度透明且可控。该工具解决了传统项目管理中信息碎片化问题，利用 AI 增强团队对齐能力，是新一代智能协作空间的代表产品。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Collaboration"
-    ],
-    "link": "https://shzlw.github.io/windrunner/",
-    "date": "2026-09-02",
-    "id": "17883552316133"
-  },
-  {
-    "title": "AI Agent 记忆系统设计指南",
-    "summary": "Machine Learning Mastery 详解 Agent 记忆架构的最佳实践与常见陷阱。",
-    "detail": "文章深入探讨了 AI Agent 记忆系统的设计模式，区分了记忆与上下文窗口的差异。涵盖了写入检索策略、重要性评分及记忆压缩方法。重点分析了导致系统失败的架构错误，为开发者构建具备跨会话连续性、能避免重复错误的可靠 Agent 提供了具体的技术指导和避坑指南。内容涉及持久化信息 outside context window 的策略，对于构建长期运行的 autonomous agents 具有极高的参考价值。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Architecture"
-    ],
-    "link": "https://machinelearningmastery.com/ai-agent-memory-design-what-works-and-what-doesnt/",
-    "date": "2026-09-02",
-    "id": "17883552316134"
   }
 ]
