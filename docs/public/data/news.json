@@ -1,5 +1,70 @@
 [
   {
+    "title": "微软发现 ASCII 走私新攻击手段",
+    "summary": "钓鱼邮件利用不可见 Unicode 字符绕过检测，AI 安全风险延伸至传统领域。",
+    "detail": "微软安全团队发现大规模钓鱼活动利用不可见 Unicode 字符隐藏恶意内容，峰值达 237 万条邮件。这种\"ASCII 走私”技术原用于 AI 提示词注入，现已跨界至传统钓鱼攻击。攻击者将恶意指令嵌入看似正常的文本中，人类不可见但模型可读。研究人员警告，AI 时代的安全威胁正快速适应现有攻击生态，防御者需跨领域视角应对新兴风险，防止技术滥用。随着 AI 防御机制普及，攻击者转向传统渠道，凸显跨域防御的重要性。此案例表明 AI 安全技术研究需兼顾传统威胁演变。",
+    "tags": [
+      "News",
+      "Security",
+      "AI Safety"
+    ],
+    "link": "https://www.theregister.com/security/2026/09/04/ascii-smuggling-isnt-just-an-ai-security-risk/5294595",
+    "date": "2026-09-05",
+    "id": "17885959564220"
+  },
+  {
+    "title": "前财长呼吁建立 AI 安全监管机构",
+    "summary": "美国前财长撰文指出 AI 风险独特，需类似金融危机的系统性 safeguards。",
+    "detail": "美国前财政部长亨利·保尔森与罗伯特·鲁宾联合撰文，强调 AI 发展带来不同于金融危机的系统性风险。他们指出金融系统已建立 safeguards 应对系统性风险，AI 发展同样需要。呼吁政府建立专门机构监管 AI 安全与安全风险，借鉴金融经验，防止 AI 技术失控引发社会动荡。文章强调需新的政府机构来应对这种独特风险，认为现有框架不足以覆盖 AI 带来的新型安全挑战与伦理问题。两位前财长基于金融危机管理经验，提出 AI 监管亟需升级。",
+    "tags": [
+      "News",
+      "Policy",
+      "Regulation"
+    ],
+    "link": "https://www.washingtonpost.com/opinions/2026/09/03/ai-safety-security-risks-demand-new-government-body/",
+    "date": "2026-09-05",
+    "id": "17885959564221"
+  },
+  {
+    "title": "RagLeap Core：开源多 Agent 业务管理系统",
+    "summary": "提供 46 种 AI 员工角色，支持自托管的 LangChain 替代方案。",
+    "detail": "RagLeap Core 是一款开源的代理式 AI 业务管理引擎，提供 46 种基于角色的 AI 员工（如 CEO、销售、HR 等）。支持自托管、无供应商锁定，具备自学习记忆与工作流自动触发功能。作为 LangChain 的替代方案，它旨在帮助企业利用自有文档构建自主业务系统。核心代码开源，区分于付费许可版本，适合开发者构建私有化 AI 业务流，支持多数据库集成与自主客户支持。项目强调透明文档化，每个图表均源自真实代码，适合企业私有化部署 AI 员工系统。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Agent"
+    ],
+    "link": "https://github.com/antonyrag/ragleap-core",
+    "date": "2026-09-05",
+    "id": "17885959564222"
+  },
+  {
+    "title": "Coarse：低成本 AI 学术论文评审工具",
+    "summary": "基于 MIT 许可的开源工具，利用 AI Agent 生成详细评审报告。",
+    "detail": "Coarse 是一款旨在改变学术同行评审生态的 AI 工具。它利用 AI Agent 阅读论文并撰写评审报告，成本低于 2 美元，支持盲评与深度文献搜索。项目采用 MIT 开源协议，旨在对抗商业化评审服务，为研究人员提供高效、低成本的反馈机制。支持本地运行及多种 LLM 订阅，保护用户隐私，文件处理后即删。在覆盖率和深度上优于现有竞品，适合学术工作者快速获取反馈。通过 OpenRouter 密钥直接支付 API 成本，无需账户，流程透明。",
+    "tags": [
+      "New",
+      "Research",
+      "Tool"
+    ],
+    "link": "https://coarse.ink/",
+    "date": "2026-09-05",
+    "id": "17885959564223"
+  },
+  {
+    "title": "AI 处理事故可能导致工程师脱离系统",
+    "summary": "自动化虽好，但过度依赖 AI 运维可能削弱人类工程师的直觉与处理能力。",
+    "detail": "前 LinkedIn SRE 指出，AI 运维工具虽能自动处理常规事故，但可能导致工程师失去对系统的直觉。引用“自动化的讽刺”理论，当遇到 AI 无法解决的高 severity 事故时，缺乏练习的人类 responder 将面临困境。未来需平衡自动化与人工训练，确保工程师在 AI 无法覆盖的异常场景中仍具备关键处理能力与系统直觉。自动化减少常规练习机会，却要求 operator 具备更高技能应对异常。工程师需在 AI 辅助下保持对系统行为的深刻理解。",
+    "tags": [
+      "News",
+      "SRE",
+      "Industry"
+    ],
+    "link": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+    "date": "2026-09-05",
+    "id": "17885959564224"
+  },
+  {
     "title": "AI 编程代理存在严重安全漏洞",
     "summary": "未信任仓库可通过 Git 调用在 Claude Code 等代理中执行代码，部分已修复。",
     "detail": "安全研究人员披露名为 GitSpawn 的严重漏洞，影响 Claude Code、Cursor 等多个主流 AI 编程代理。攻击者可通过恶意仓库触发 Git 调用，从而在用户环境中执行任意代码。部分厂商如 OpenAI 和 Cursor 已修复，但仍有未修补案例。这揭示了 AI 代理在自动化执行代码时的信任边界问题，提醒开发者在启用 AI 编码助手时需严格审查仓库来源，加强沙箱隔离措施。该事件凸显了 AI 安全领域的滞后性，随着代理权限扩大，潜在攻击面也在增加，行业需建立更严格的安全审计标准，防止自动化工具成为入侵跳板。",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
     "date": "2026-09-01",
     "id": "17883067344541"
-  },
-  {
-    "title": "Google 推出 AI 设计工具 Pics，直接提示生成而非设计",
-    "summary": "Google 发布 Pics 工具，集成于 Workspace，利用 Nano Banana 模型通过提示创作。",
-    "detail": "Google 正式进入创意设计市场，推出名为 Google Pics 的图像创建与编辑工具，将纳入 Google Workspace 套件。该产品由 Nano Banana 图像生成模型驱动，面向企业及高级 AI 订阅用户。与 Canva 不同，Google Pics 侧重通过提示词创作而非手动设计或模板市场。功能包括对象隔离、文本修改及协作编辑，支持生成多个版本供选择。工具将首先集成于 Docs 和 Slides，随后扩展至 Drive。类似于 Adobe Express 和 Canva，Google Pics 旨在处理工作和个人生活中的日常设计任务。但区别于 Canva 的创作者版税市场，Google Pics 完全基于 AI 训练生成，标志着 Google 在 AI 生成式设计领域的重大布局。",
-    "tags": [
-      "New",
-      "ImageGen",
-      "Productivity"
-    ],
-    "link": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
-    "date": "2026-09-01",
-    "id": "17883067344542"
-  },
-  {
-    "title": "AllenAI 发布 BenchMIRT：审计 LLM 基准测试的真实测量",
-    "summary": "HuggingFace 发布 BenchMIRT 方法，在单个提示级别审计 LLM 基准测试。",
-    "detail": "AllenAI 通过 HuggingFace 引入了 BenchMIRT，这是一种在单个提示级别审计 LLM 基准测试的新方法。基准测试通常设计用于测量特定能力，但内部任务可能依赖更多因素。BenchMIRT 帮助研究人员分离这些信号，看清驱动基准分数的实际因素。例如，它可区分有害 jailbreak 提示与良性提示的不同测量目标。基准测试内的不同任务组可能测量不同事物，如 WildJailbreak 包含有害与良性提示。平均分数会模糊这种差异。BenchMIRT 通过审计个体提示，帮助识别任务背后的真实依赖，如年龄偏见或推理能力。该方法附带技术报告、数据集和开源代码，旨在解决平均分数掩盖差异的问题，让社区更清楚基准测试实际测量的内容，提升评估透明度与准确性。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Research"
-    ],
-    "link": "https://huggingface.co/blog/allenai/benchmirt",
-    "date": "2026-09-01",
-    "id": "17883067344543"
-  },
-  {
-    "title": "AfterQuery 成 YC 最快独角兽，估值达 32 亿美元",
-    "summary": "AfterQuery 获融资后估值达 32 亿美元，成为 Y Combinator 史上最快独角兽。",
-    "detail": "据报道，AfterQuery 已成为 Y Combinator 历史上成长最快的独角兽企业，最新估值达到 32 亿美元。这一里程碑标志着 AI 基础设施或查询领域的快速增长。虽然具体业务细节在提供的文本中有限，但其估值速度反映了资本市场对 AI 数据处理与查询解决方案的高度认可与追捧。作为 YC 校友企业，其快速晋升独角兽行列显示了 AI 赛道在当前市场环境下的巨大潜力与投资热度。这一成就不仅证明了其商业模式的可行性，也为其他 AI 初创企业树立了标杆，可能引发新一轮的行业投资热潮与技术竞争，成为初创企业中的瞩目案例。",
-    "tags": [
-      "News",
-      "Startup",
-      "Funding"
-    ],
-    "link": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
-    "date": "2026-09-01",
-    "id": "17883067344544"
-  },
-  {
-    "title": "OpenAI 发布 Astra 模型，具备自主网络渗透能力",
-    "summary": "OpenAI 宣布 Astra 模型即将发布，其在网络安全测试中表现卓越，能自主发现漏洞。",
-    "detail": "OpenAI 透露即将推出的 Astra 模型已达到“关键网络安全阈值”，标志着 AI 在网络安全领域的重大突破。该模型在 ExploitBench 测试中获得满分，并能自主发现和利用零日漏洞，无需人工指导。为确保安全，OpenAI 限制了高级网络安全功能的访问权限，并采用了新技术防止模型滥用及越狱。此举引发了关于 AI 安全与能力平衡的行业关注，显示出前沿实验室对高风险能力的谨慎态度。尽管缺乏第三方确认，但该模型展示了强大的自主渗透能力，未来访问将受限。公司正与测试组合作评估，但未透露具体成员。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Security"
-    ],
-    "link": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
-    "date": "2026-09-01",
-    "id": "17882987771810"
-  },
-  {
-    "title": "Google Android 更新集成 Gemini，提升无障碍体验",
-    "summary": "Google 推出 Android 新更新，利用 Gemini 改善运动 sickness 及视障用户导航体验。",
-    "detail": "Google 宣布推出五项 Android 更新，重点提升无障碍性和个性化。新功能\"Motion Assist\"利用 Gemini 技术减少用户在移动车辆中的晕动症，通过屏幕气泡 overlay 响应车辆运动。此外，\"Guided Vision\"帮助视障用户导航。部分功能被视为对苹果现有功能的跟进，但深度集成了 Gemini 能力。用户可自定义气泡形状与颜色，该功能适用于 Android 17 用户。此次更新展示了 Google 将 AI 融入底层系统以解决实际生理问题的策略，增强了平台竞争力。同时，Google 消息也增加了个性化方式，体现了 AI 在日常交互中的渗透。",
-    "tags": [
-      "News",
-      "Google",
-      "Gemini"
-    ],
-    "link": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/",
-    "date": "2026-09-01",
-    "id": "17882987771811"
   }
 ]
