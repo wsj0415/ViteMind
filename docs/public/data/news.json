@@ -1,5 +1,70 @@
 [
   {
+    "title": "DHH 谈编程未来：AI、Vibe Coding 与 Linux",
+    "summary": "Ruby on Rails 创始人深度探讨 AI 对开发流程的重塑。",
+    "detail": "**背景**：Lex Fridman 播客邀请 37signals CTO DHH 对话，探讨技术未来。**核心**：DHH 强调过去九个月 AI 进步巨大，提及“氛围编程”(Vibe Coding) 及新 Omarchy Linux 系统。**影响**：行业领袖观点反映开发者对 AI 加速软件交付的预期。DHH 指出若忽视此刻 AI 重力即为妄想，预示代理工程 (Agentic Engineering) 将成为未来开发常态。他提到 Overton 窗口由冒险者推开，鼓励开发者拥抱变化。这种观点代表了资深工程师对 AI 工具链整合的深层思考，影响社区风向。对话涵盖操作系统安装速度及赛车隐喻，强调技术突破带来的生存实感。",
+    "tags": [
+      "Dev",
+      "Programming",
+      "LLM"
+    ],
+    "link": "https://lexfridman.com/dhh-2-transcript/",
+    "date": "2026-09-06",
+    "id": "17886552060264"
+  },
+  {
+    "title": "西雅图时报等媒体起诉 OpenAI 与微软",
+    "summary": "多家媒体加入诉讼浪潮，指控科技巨头版权侵权。",
+    "detail": "**背景**：TechCrunch 报道西雅图时报和 Newsday 正式起诉 OpenAI 及微软，加入版权诉讼浪潮。**核心**：原告指控 AI 模型训练过程中未经授权使用了大量受版权保护的新闻报道内容，寻求赔偿与禁令。**影响**：此举加剧了科技巨头与传统媒体行业的法律紧张局势，可能显著影响未来 AI 训练数据的合规成本与可用性。随着更多出版商加入，版权争议已演变为 AI 规模化发展的核心法律障碍，迫使行业重新审视数据 sourcing 策略。若判决不利，可能改变大模型训练的基本范式，增加运营风险。",
+    "tags": [
+      "News",
+      "Legal",
+      "OpenAI"
+    ],
+    "link": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+    "date": "2026-09-05",
+    "id": "17886552060260"
+  },
+  {
+    "title": "全球 1.6 亿工人支撑 AI 幕后劳动",
+    "summary": "社会学研究揭示 AI 背后庞大的低薪数据标注群体。",
+    "detail": "**背景**：The Cooldown 报道社会学家 Antonio Casilli 的采访，揭示 AI 幕后劳动力。**核心**：全球约 1.6 亿人从事数据标注和内容审核，多位于全球南方且薪资低廉。**影响**：揭露 AI 产业依赖隐藏人力劳动的本质，引发对劳动保护及利益分配的伦理讨论。比尔·盖茨近期也警示 AI 可能成为不平等的来源，劳动力结构重组成为关注焦点。这些工人被公司刻意隐藏，却是 AI 系统的秘密成分，挑战了全自动化的叙事，呼吁政策制定者关注数字劳动权益。研究指出 AI 看似自主运行，实则依赖大量重复性人工干预，这重塑了而非取代了人类劳动。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Labor"
+    ],
+    "link": "https://www.thecooldown.com/green-tech/global-south-data-workers-ai-labor-organization/",
+    "date": "2026-09-05",
+    "id": "17886552060261"
+  },
+  {
+    "title": "AI 数据中心建设热潮提振卡车运输业",
+    "summary": "尽管柴油价格上涨，AI 基础设施需求为货运业带来生机。",
+    "detail": "**背景**：CNBC 报道美国 AI 数据中心建设激增，带动相关物流需求。**核心**：HVAC、半导体等组件主要靠卡车运输，抵消了贸易关税和燃油成本上涨的负面影响。**影响**：显示 AI 硬件基础设施扩张对传统行业的溢出效应。尽管面临通胀和地缘政治导致的油价新高，AI 投资仍为货运业务提供了关键的经济缓冲。QTS 等开发商在犹他州等地建设设施，卡车司机成为这一繁荣的直接受益者，反映了实体经济与数字基建的紧密耦合。柴油价格创下每加仑 5.85 美元新高，但数据中心组件运输需求提供了喘息之机。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Economy"
+    ],
+    "link": "https://www.cnbc.com/2026/09/05/ai-data-centers-cost-economy.html",
+    "date": "2026-09-05",
+    "id": "17886552060262"
+  },
+  {
+    "title": "StoryScope：基于叙事特征检测 AI 生成小说",
+    "summary": "新论文提出通过叙事结构而非风格识别 AI 写作。",
+    "detail": "**背景**：Arxiv 发布新论文 StoryScope，针对 AI 生成小说进行检测。**核心**：通过 10 个叙事维度分析，不依赖风格信号即可达到 93.2% 检测准确率。**影响**：发现 AI 故事倾向于主题过度解释和情节单一，而人类作品更具道德模糊性。为 AI 内容鉴别提供了新的技术路径，有助于版权保护和内容平台管理。研究基于 6 万多个故事样本，揭示了不同模型如 Claude 和 GPT 的叙事指纹，为理解生成式 AI 的内在逻辑提供了实证数据支持。该方法能区分六种不同作者归属，显示 AI 故事在叙事空间聚类，而人类故事更多样。",
+    "tags": [
+      "Dev",
+      "Paper",
+      "NLP"
+    ],
+    "link": "https://arxiv.org/abs/2604.03136",
+    "date": "2026-09-05",
+    "id": "17886552060263"
+  },
+  {
     "title": "美国两大学区再次实施 AI 禁令",
     "summary": "纽约和洛杉矶学区宣布暂停 AI 工具使用，引发教育界对技术监管的讨论。",
     "detail": "美国纽约市和洛杉矶两大公立学区正式宣布对 AI 工具实施暂停令。继 2023 年初次禁令后，此次举措表明教育界对 AI 作弊及学生认知影响的担忧仍未消除。政策制定者试图在技术融入与学术诚信之间寻找平衡，此举可能引发全美其他学区的效仿，标志着教育领域 AI 监管进入新的博弈阶段，家长与教师需关注后续政策变化对学生的影响。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.databricks.com/blog/how-we-eliminated-1-million-year-wasted-ai-agent-spend-one-hour",
     "date": "2026-09-02",
     "id": "17883709014912"
-  },
-  {
-    "title": "Pangram CEO 警告互联网信任危机",
-    "summary": "Pangram CEO 称互联网正接近“死亡互联网理论”，检测难度大。",
-    "detail": "Pangram 近期完成 900 万美元融资，其 CEO Max Spero 警告互联网正接近“死亡互联网理论”成真。随着 AI 文本与图像涌入求职、评论甚至保险索赔，信任层变得至关重要。公司主张检测 AI 参与度比简单二元标记更有价值，已与 Substack 合作展示通讯作者的 AI 使用情况。然而，误报敏感图像风险极高。Spero 认为底层写作岗位将消失，但优质人类写作价值会回升。这反映了内容生态在 AI 洪流下的信任重构危机与检测技术的伦理挑战。未来几年，如何平衡检测精度与隐私保护，将成为平台与初创公司的核心博弈点。",
-    "tags": [
-      "News",
-      "Detection",
-      "Trust"
-    ],
-    "link": "https://techcrunch.com/podcast/were-dangerously-close-to-dead-internet-theory-says-pangrams-ceo/",
-    "date": "2026-09-02",
-    "id": "17883709014913"
-  },
-  {
-    "title": "Tropes 上线 AI 写作模式识别目录",
-    "summary": "新工具 Tropes 提供 AI 写作模式目录及去 AI 化建议。",
-    "detail": "Tropes 上线了一个动态目录，专门收录 AI 生成文本中常见的重复模式、结构陷阱及措辞习惯。平台提供\"AI Vetter\"链接评估工具及\"Deslopify\"文本重写功能，帮助用户识别并去除 AI 痕迹。创始人表示对网络 AI 垃圾内容泛滥感到厌倦，旨在恢复人类写作的独特性。该工具可作为系统提示词放入 AI 助手，避免生成套路化文本。对于编辑、出版商及重度阅读者而言，这是辨别内容真伪的实用武器，反映了社区对高质量人类原创内容的迫切需求与反抗情绪。未来可能演变为浏览器插件或写作辅助标准组件。",
-    "tags": [
-      "New",
-      "Writing",
-      "Tool"
-    ],
-    "link": "https://tropes.fyi/",
-    "date": "2026-09-02",
-    "id": "17883709014914"
-  },
-  {
-    "title": "Subpool：团队自托管 AI 订阅管理工具",
-    "summary": "开源轻量级工具，帮助企业团队分配和管理 AI 订阅配额。",
-    "detail": "Subpool 是一款专为团队设计的自托管 AI 订阅管理解决方案，基于 Go 和 React 构建，支持 Docker 快速部署。其核心功能涵盖企业级 AI 订阅配额分配与治理，旨在解决团队共享账号带来的安全隐患与成本浪费问题。该工具适合需要精细化管理 AI 工具使用权限的企业开发者，在确保数据隐私合规的同时，有效优化订阅成本，提升团队协作效率与资源利用率。通过轻量级架构，它降低了企业引入 AI 治理工具的门槛，是团队规模化使用 AI 服务的基础设施选择。",
-    "tags": [
-      "New",
-      "OpenSource",
-      "Enterprise"
-    ],
-    "link": "https://github.com/gesta-run/subpool",
-    "date": "2026-09-02",
-    "id": "17883552316130"
-  },
-  {
-    "title": "Xfinlab：集成 MCP 的金融智能 API",
-    "summary": "提供 SEC filings 等金融数据的 API，支持 AI Agent 通过 MCP 协议调用。",
-    "detail": "Xfinlab 推出了面向 AI Agent 的金融智能 API，支持获取 SEC 文件、内部交易及市场情绪数据。其核心亮点在于集成了 MCP（Model Context Protocol）服务器，使 AI 代理能更便捷地访问结构化金融信息。这对开发金融垂直领域的 AI 应用具有重要意义，降低了 Agent 获取实时合规数据的门槛。通过标准化接口，开发者可以更高效地构建具备金融分析能力的智能体，推动 AI 在量化交易与合规监控场景的落地应用。",
-    "tags": [
-      "Dev",
-      "Fintech",
-      "MCP"
-    ],
-    "link": "https://github.com/lnanology/Xfinlab",
-    "date": "2026-09-02",
-    "id": "17883552316131"
-  },
-  {
-    "title": "多模态 AI grief 治疗案例报告发布",
-    "summary": "Zenodo 发布 N=1 控制论治疗研究，探讨 AI 在 grief 辅导中的机制与风险。",
-    "detail": "Zenodo 发布了一份关于多模态 AI 用于 grief 辅导的个案研究报告。研究提出了“治疗摩擦假设”，指出 AI 幻觉和延迟可能 paradoxically 起到现实 grounding 作用。报告强调了伦理风险，警告不要在急性心理危机下独自使用。这是 AI 数字疗法领域的重要伦理与技术探索，为后续 DTx 架构设计提供参考。研究结合了双过程悲伤模型与 ACT 疗法，为理解人机交互中的心理机制提供了独特的 autoethnography 视角。",
-    "tags": [
-      "News",
-      "Research",
-      "Ethics"
-    ],
-    "link": "https://zenodo.org/records/22169978",
-    "date": "2026-09-02",
-    "id": "17883552316132"
   }
 ]
