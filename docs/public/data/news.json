@@ -1,5 +1,57 @@
 [
   {
+    "title": "Mostik.ai 推出 AI 模型潜空间通信技术",
+    "summary": "突破文本限制，实现 AI 模型间隐藏状态直接通信。",
+    "detail": "Mostik.ai 结束隐身模式，提出利用模型内部隐藏向量而非仅靠文本 Token 进行通信。研究表明模型内部状态包含百万级数值，远超输出 Token 信息量。当前多 Agent 系统仅通过文本交流，如同通过钥匙孔对话，丢失大量内部状态。该技术旨在解决此低效问题，利用潜空间通信大幅提升模型协作能力与推理深度，是架构层面的重要突破。",
+    "tags": [
+      "News",
+      "LLM",
+      "Architecture"
+    ],
+    "link": "https://mostik.ai/read-more",
+    "date": "2026-09-06",
+    "id": "17887288904480"
+  },
+  {
+    "title": "作者抗议 Anthropic 版权和解金分配方案",
+    "summary": "出版商被指多占和解份额，作者呼吁公平分配 15 亿美元。",
+    "detail": "Anthropic 版权诉讼和解金达 15 亿美元，但作者反映出版商违规 claiming 已归还版权的作品分成。和解协议规定绝版书作者应获全额，但 HarperCollins 等出版社被指滥用规则。此事凸显 AI 训练版权收益分配中的法律与道德冲突，影响未来创作者权益及出版行业与 AI 公司的合作模式，引发行业广泛关注。",
+    "tags": [
+      "News",
+      "Legal",
+      "Copyright"
+    ],
+    "link": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+    "date": "2026-09-06",
+    "id": "17887288904481"
+  },
+  {
+    "title": "大厂 AI 代码生成比例追踪：最高达 100%",
+    "summary": "追踪 Google、Anthropic 等公司 AI 写代码比例，差异巨大。",
+    "detail": "公开数据显示各大科技公司 AI 生成代码比例从 20% 到 100% 不等。Google 称新代码 75% 由 AI 生成，Anthropic 团队声称接近 100%，而微软维持在 20-30%。数据差异源于统计口径不同。该追踪器揭示了 AI 在软件工程中的实际渗透率及定义模糊性，为评估 AI 编程助手生产力提供客观参考依据。",
+    "tags": [
+      "News",
+      "Coding",
+      "Data"
+    ],
+    "link": "https://provenbrief.com/story/the-ai-code-share-tracker-every-verified-public-number-on-ai-written-code-from-n",
+    "date": "2026-09-06",
+    "id": "17887288904482"
+  },
+  {
+    "title": "2026 订阅对决：Google AI Pro 对比 ChatGPT Plus",
+    "summary": "两者均约 20 美元，Google 重生态存储，OpenAI 重模型能力。",
+    "detail": "Google AI Pro 与 ChatGPT Plus 月费相当，但定位不同。Google 提供 5TB 存储及 Gemini 全家桶高限额，适合生态用户；ChatGPT Plus 提供 GPT-5.6 推理及 Codex 代理，适合重度聊天与开发。对比揭示了两大巨头在 AI 订阅服务上的差异化竞争策略，帮助用户根据工作流选择合适套餐。",
+    "tags": [
+      "News",
+      "Product",
+      "Subscription"
+    ],
+    "link": "https://provenbrief.com/story/google-ai-pro-vs-chatgpt-plus-which-is-better-in-2026",
+    "date": "2026-09-06",
+    "id": "17887288904483"
+  },
+  {
     "title": "字节跳动发布 ByteX 统一 AI 搜索引擎架构",
     "summary": "字节开源 ByteX 论文，支持万亿级向量检索与量化索引构建。",
     "detail": "字节跳动公开了其搜索基础设施 ByteX 的技术论文。该系统已演进为支持向量检索、词汇匹配的统一 AI 搜索系统，最大部署索引近万亿高维向量。针对 AI 检索的内存瓶颈，提出了基于 SymRaBitQ 的量化感知向量内核，允许直接在量化空间构建索引，显著降低内存成本。这对大规模 RAG 系统具有重要参考意义。",
@@ -1246,57 +1298,5 @@
     "link": "https://vericommand.net/benchmark",
     "date": "2026-09-03",
     "id": "17884416353842"
-  },
-  {
-    "title": "AI Agent 架构指南：Skills 与 MCP 工具的选择",
-    "summary": "深度解析 AI Agent 开发中 Skills 灵活性与 MCP 工具可审计性的权衡。",
-    "detail": "LogRocket 发布指南分析 AI Agent 开发中 Skills 与 MCP 工具的区别。MCP 工具提供固定 schema，可审计性强但灵活性低；Skills 基于自然语言指令，灵活性高但难以预测。文章建议根据任务对解释性的需求和信任程度进行选择，为开发者构建可靠 Agent 系统提供了架构决策框架。两者并非竞争关系，而是沿可审计性与灵活性轴分布，需按场景权衡。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Architecture"
-    ],
-    "link": "https://blog.logrocket.com/skills-vs-mcp-tools-agent-guide/",
-    "date": "2026-09-03",
-    "id": "17884416353843"
-  },
-  {
-    "title": "哥伦比亚大学实验室发布 AI 写作新政",
-    "summary": "要求论文初稿禁止使用 AI，确保研究人员掌握核心细节。",
-    "detail": "哥伦比亚大学 John Hewitt 实验室发布新政策，规定**所有论文初稿必须由人类撰写**，禁止使用 AI。成员需熟知代码与实验细节，以便在不依赖 AI 助理的情况下回答同事的追问。政策还要求遵守格莱斯合作原则，掌控技术术语。此举旨在防止技能退化，确保研究人员保持对技术术语的掌控力。该政策覆盖论文、会议演示及日常沟通，反映了学术界对 AI 依赖可能导致思维能力萎缩的担忧，为科研诚信设立新标杆，未来可能随实验室讨论调整。此政策强调人类在科研中的核心地位，避免过度依赖工具导致认知能力下降，为高校 AI 使用规范提供参考。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Policy"
-    ],
-    "link": "https://www.cs.columbia.edu/~johnhew/lab/ai-policy.html",
-    "date": "2026-09-03",
-    "id": "17884247506330"
-  },
-  {
-    "title": "美国各州无视科技游说强推 AI 监管",
-    "summary": "州立法者无视硅谷警告，推进 AI 安全审计与儿童保护法案。",
-    "detail": "面对科技游说团体的失效施压，美国各州立法者正积极推进 AI 监管法案。受公众舆论推动，多州计划实施**高级模型安全审计**、聊天机器人儿童保护及数据中心影响评估。立法者无视硅谷关于法律“碎片化”的警告，科技 lobbyists 被迫从对抗转向合作。这标志着 AI 监管格局剧变，联邦层面停滞不前之际，州级立法成为规范 AI 安全与数据隐私的主要力量，行业合规成本预计将显著上升，政治风向已明显转向。公众对 AI 行业的反对情绪高涨，资金支持监管的团体涌现，迫使科技巨头重新评估其游说策略，州级法律将成为未来 AI 合规的关键战场。",
-    "tags": [
-      "News",
-      "Regulation",
-      "Policy"
-    ],
-    "link": "https://www.politico.com/news/2026/09/02/how-silicon-valley-lost-its-war-against-state-ai-laws-01054133",
-    "date": "2026-09-03",
-    "id": "17884247506331"
-  },
-  {
-    "title": "BrainTube 推出跨 AI 平台持久记忆库",
-    "summary": "一次性保存内容，可在任意 AI 工具中查询，免费 tier 可用。",
-    "detail": "BrainTube 发布个人 AI 知识库工具，主打“保存一次，随处查询”。它可将 YouTube、文章、PDF 等内容编译为统一知识库，通过 **MCP 端点**连接 ChatGPT、Claude 等任意 AI 模型。工具提供永久免费层级，支持导出 corpus。目前已有 106 名用户加入，节省 93 小时。解决了 AI 工具频繁迭代导致知识碎片化的问题，为用户构建跨平台的持久记忆层，提升信息检索与复用效率，无需重复重建知识库。用户不再受限于单一平台，知识资产得以沉淀，即便 AI 模型更新换代，个人知识库依然可用，实现真正的知识持久化。",
-    "tags": [
-      "New",
-      "Productivity",
-      "KnowledgeBase"
-    ],
-    "link": "https://brain-tube.com/",
-    "date": "2026-09-03",
-    "id": "17884247506332"
   }
 ]
