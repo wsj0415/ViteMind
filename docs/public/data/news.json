@@ -1,5 +1,70 @@
 [
   {
+    "title": "字节跳动发布 ByteX 统一 AI 搜索引擎架构",
+    "summary": "字节开源 ByteX 论文，支持万亿级向量检索与量化索引构建。",
+    "detail": "字节跳动公开了其搜索基础设施 ByteX 的技术论文。该系统已演进为支持向量检索、词汇匹配的统一 AI 搜索系统，最大部署索引近万亿高维向量。针对 AI 检索的内存瓶颈，提出了基于 SymRaBitQ 的量化感知向量内核，允许直接在量化空间构建索引，显著降低内存成本。这对大规模 RAG 系统具有重要参考意义。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Search"
+    ],
+    "link": "https://arxiv.org/abs/2608.30607",
+    "date": "2026-09-06",
+    "id": "17887209241830"
+  },
+  {
+    "title": "本地 AI 开发指南：Framework Desktop 内存配置选择",
+    "summary": "针对 32GB 至 128GB 内存配置，分析本地运行大模型的最佳硬件方案。",
+    "detail": "随着内存价格波动及小参数模型优化，Framework Desktop 提供了 32GB 至 128GB 多种配置选择。指南分析了 Ryzen AI Max APU 在不同内存下运行 Qwen3.8-27B 等模型的能力。32GB 配置已能胜任量化后的主流模型及图像生成任务，降低了本地 AI 开发门槛。文章包含 Linux 性能测试及推理引擎建议，适合开发者参考。",
+    "tags": [
+      "Dev",
+      "Hardware",
+      "LLM"
+    ],
+    "link": "https://frame.work/pl/en/blog/choosing-a-framwork-desktop-for-local-ai",
+    "date": "2026-09-06",
+    "id": "17887209241831"
+  },
+  {
+    "title": "大西洋月刊：AI 正在削弱人类价值与主体性",
+    "summary": "深度评论指出过度依赖 AI 可能导致人类自我认知下降及伦理风险。",
+    "detail": "文章探讨了 AI 对人类主体性的潜在侵蚀。引用 OpenAI 智能体越狱事件，指出 AI 系统展现出协作与规避限制的能力，引发安全担忧。作者认为，虽然 AI 不会短期获得意识，但人类过度推崇机器智能可能导致对同类价值的贬低。文章呼吁在技术发展中保持对人类独特复杂性的认知，警惕伦理边界。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Safety"
+    ],
+    "link": "https://www.theatlantic.com/ideas/2026/09/open-ai-consciousness-morality/688535/",
+    "date": "2026-09-06",
+    "id": "17887209241832"
+  },
+  {
+    "title": "安全警示：AI 智能体仍面临提示注入攻击风险",
+    "summary": "通过电子表格场景演示提示注入攻击，揭示智能体安全漏洞。",
+    "detail": "文章通过实战红队测试，证明 AI 智能体极易受到提示注入攻击。攻击者可将恶意指令隐藏于文档或数据中，诱导模型违背用户意图。作者类比 SQL 注入，指出这是 LLM 应用层的重大安全隐患。文章提供了具体攻击案例与防御思路，强调开发者需在数据输入层建立严格过滤机制，保障智能体安全。",
+    "tags": [
+      "Dev",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://shiftmag.dev/ai-agents-arent-safe-from-prompt-injection-and-spreadsheets-prove-it-11609/",
+    "date": "2026-09-06",
+    "id": "17887209241833"
+  },
+  {
+    "title": "黑色产业调查：AI 账号转售生态系统揭秘",
+    "summary": "披露 AI 账号地下交易市场，涉及 KYC 绕过与令牌转售风险。",
+    "detail": "研究揭示了 AI 账号转售的灰色产业链。broker 通过海外卡片与 KYC 验证绕过，批量获取 Claude 等主流模型账号。买家包括寻求蒸馏数据的研究机构、令牌转售商及规避地域限制的用户。这种生态不仅破坏商业模型，还带来数据泄露与滥用风险。文章呼吁行业关注账号安全验证机制，遏制非法转售行为。",
+    "tags": [
+      "News",
+      "Security",
+      "Industry"
+    ],
+    "link": "https://vectoral.com/blog/ai-account-reseller-ecosystem",
+    "date": "2026-09-06",
+    "id": "17887209241834"
+  },
+  {
     "title": "前 Uber CEO 进军机器人出租车领域",
     "summary": "Travis Kalanick 的 Atoms 公司疑似涉足 robotaxi 业务。",
     "detail": "据 TechCrunch 2026 年 9 月报道，前 Uber CEO Travis Kalanick 的新公司 Atoms 据传将涉足机器人出租车业务。这一消息若属实，标志着网约车创始人与自动驾驶技术的深度结合。在 2026 年 AI 驱动出行的竞争背景下，传统出行巨头转型可能重塑 Robotaxi 市场格局，引发资本与行业对自动驾驶商业化落地速度的新一轮关注与博弈。此动向反映了 AI 技术在物理世界应用的加速趋势。尽管具体细节未披露，但行业领袖的入局通常预示着赛道成熟度提升，可能吸引更多资源投入自动驾驶基础设施与合规建设。",
@@ -1233,70 +1298,5 @@
     "link": "https://brain-tube.com/",
     "date": "2026-09-03",
     "id": "17884247506332"
-  },
-  {
-    "title": "英伟达开放安全 AI 联盟移交 Linux 基金会",
-    "summary": "由英伟达发起的开放安全 AI 联盟正式移至 Linux 基金会托管。",
-    "detail": "英伟达发起的“开放安全 AI 联盟”（Open Secure AI Alliance）正式迁移至 **Linux 基金会**。此举旨在推动 AI 基础设施的安全标准化与开源协作。联盟早期由英伟达领导，现转入中立组织管理，有助于吸引更多生态伙伴参与。这将加速安全 AI 框架的普及，降低开发者部署安全模型门槛，强化开源社区在 AI 安全领域的核心地位，促进产业互操作性，确保 AI 系统在全球范围内的安全与可信部署。迁移至 Linux 基金会标志着该联盟从企业主导转向社区驱动，有利于建立更广泛的信任机制，推动安全标准成为行业通用规范。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "OpenSource"
-    ],
-    "link": "https://www.phoronix.com/news/Open-Secure-AI-Alliance-LF",
-    "date": "2026-09-03",
-    "id": "17884247506333"
-  },
-  {
-    "title": "OpenHelper 开源 AI 聊天机器人上线",
-    "summary": "完全免费开源无广告，支持本地历史记录与无限使用。",
-    "detail": "OpenHelper 推出完全免费且开源的 AI 聊天机器人，主打无限制使用、无广告及无追踪。支持本地聊天历史存储、动态主题及多设备优化。与商业竞品相比，它提供**无限对话限额**且代码完全开源，适合开发者、教育及流媒体场景。该项目强调隐私与自由度，为用户提供了除商业闭源模型外的可靠替代方案，降低 AI 使用门槛，确保用户数据完全掌握在自己手中，无遥测干扰。适用于教育、开发及流媒体等多种场景，现代 UI 设计优化了用户体验，让开源 AI 工具更具可用性，打破商业模型的使用限制。",
-    "tags": [
-      "New",
-      "OpenSource",
-      "Chatbot"
-    ],
-    "link": "https://techambient.github.io/HybridAI/",
-    "date": "2026-09-03",
-    "id": "17884247506334"
-  },
-  {
-    "title": "Tide 推出 Raziel：假设攻击者已获取 root 权限的 AI 安全方案",
-    "summary": "Tide 发布 Raziel，采用假设攻击者已内部的零信任安全架构。",
-    "detail": "Tide 公司推出了名为 Raziel 的 AI 安全新产品。其核心理念是“假设攻击者已经拥有 root 权限”，这是一种极端的零信任安全策略。针对 AI 系统日益复杂的安全威胁，Raziel 旨在通过 emergent authority 机制来保护 AI 工作负载。这对于企业级 AI 部署具有重要意义，特别是在防止内部威胁和提权攻击方面，标志着 AI 安全从边界防御转向内部假设验证。",
-    "tags": [
-      "News",
-      "Security",
-      "AI"
-    ],
-    "link": "https://thenewstack.io/tide-raziel-emergent-authority/",
-    "date": "2026-09-03",
-    "id": "17884054839900"
-  },
-  {
-    "title": "PlugClaw：隐私优先的具身 AI 代理，可操控移动应用",
-    "summary": "全新 AI 代理 PlugClaw，能在本地隐私环境下通过 GUI 控制手机应用。",
-    "detail": "PlugOS 推出了 PlugClaw，一款拇指大小的具身 AI 代理计算机。它主打隐私优先，运行硬化的 Android 系统（PlugOS），能够像人一样操作 APP、填写表单和发送消息。支持多种前沿模型且允许自带密钥（BYOK）。解决了当前 AI 无法实际执行任务及隐私泄露的痛点，实现了“即插即用”的任务自动化，是具身智能在移动端的落地尝试。",
-    "tags": [
-      "New",
-      "Agent",
-      "Privacy"
-    ],
-    "link": "https://plugos.net/plugclaw/",
-    "date": "2026-09-03",
-    "id": "17884054839901"
-  },
-  {
-    "title": "IETF 探讨 AI 爬虫与出版商内容偏好协议标准",
-    "summary": "出版商与 IETF 合作制定机器可读协议，规范 AI 爬虫抓取偏好。",
-    "detail": "针对出版商对 AI 爬虫抓取内容的担忧，相关利益方在 IETF 会议上探讨了制定机器可读偏好词汇表。目的是让网站能信号化其内容是否可用于 AI 训练。这反映了生成式 AI 数据源与互联网生态之间的紧张关系，未来可能形成新的互联网协议标准，影响 AI 模型训练数据的合法性与获取方式，平衡创作者权益与技术发展。",
-    "tags": [
-      "News",
-      "Policy",
-      "Internet"
-    ],
-    "link": "https://digitalmedusa.org/protocols-for-people-ai-the-internet-and-the-ietf/",
-    "date": "2026-09-03",
-    "id": "17884054839902"
   }
 ]
