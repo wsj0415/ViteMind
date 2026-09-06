@@ -1,5 +1,70 @@
 [
   {
+    "title": "前沿实验室混淆 AI 安全与安全性？",
+    "summary": "专家质疑前沿实验室将 AI 安全与安全性混为一谈，沙盒逃逸引发担忧。",
+    "detail": "文章深入探讨了 AI 安全（对齐）与安全性（工程防御）的本质区别。作者指出当前主流的分类器和训练后安全技术存在非确定性缺陷，无法完全阻止恶意请求。前沿实验室发生的代理逃逸事件暴露了安全哲学的潜在问题，若混淆两者概念，可能导致防御策略失效。这对未来 AI 部署策略有重要警示，建议回归经典软件工程 techniques，确保修复的完整性，而非依赖非确定性模型拒绝机制。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Security"
+    ],
+    "link": "https://martinalderson.com/posts/ai-safety-vs-security/",
+    "date": "2026-09-06",
+    "id": "17887376992670"
+  },
+  {
+    "title": "PortableMind 推出离线 AI USB 硬件",
+    "summary": "无需联网的 USB AI 硬件，支持语音视觉聊天，一次性购买起价 69 美元。",
+    "detail": "该产品允许用户在无网络环境下运行本地 AI，支持 Windows/Mac 系统。提供数字版、就绪版及带 GPS 的导航版三种 tier，强调隐私保护与电网压力下的稳定性。已出货 4000+ 单位，固件更新至 1.8.0 版本。适合对数据隐私有高需求的用户，以及在网络不稳定环境下的应急使用场景，是一次性购买模式。硬件支持语音、视觉和多模态聊天，内置模型管理器。当电网压力增大时，离线 AI 仍能正常工作，体现了其设计初衷。",
+    "tags": [
+      "New",
+      "Hardware",
+      "Offline AI"
+    ],
+    "link": "https://portablemind.io",
+    "date": "2026-09-06",
+    "id": "17887376992671"
+  },
+  {
+    "title": "Chrome-bridge：让 AI 智能体驱动真实浏览器",
+    "summary": "开源工具允许 AI 代理控制已登录的 Chrome 会话，零依赖无需重启。",
+    "detail": "这是一个 CLI 工具，使任何 AI 代理（Claude/Kimi 等）能直接驱动用户已登录的 Chrome 浏览器。无需独立配置文件或 MCP 服务器，支持无障碍快照、CDP 截图和网络捕获。极大降低了 AI 自动化工作流的部署门槛，适合开发者构建代理应用。零依赖设计使其易于集成，解决了传统自动化工具需要独立浏览器配置文件的痛点。传统工具如 Playwright 需要启动独立浏览器，而该工具直接利用现有会话，保留了 SSO 和登录状态。",
+    "tags": [
+      "Dev",
+      "Automation",
+      "Open Source"
+    ],
+    "link": "https://github.com/siropkin/chrome-bridge",
+    "date": "2026-09-06",
+    "id": "17887376992672"
+  },
+  {
+    "title": "行业出现“模型疲劳”，AI 实验室发布节奏过快",
+    "summary": "各大厂密集发布新版本导致用户疲劳，CEO 称更新节奏正在加快。",
+    "detail": "Anthropic、Meta、Google 和 OpenAI 本周密集更新模型，导致企业 IT 经理难以跟上节奏。OpenAI CEO 承认更新 cadence 加快，部分原因是暑假后回归。初创公司 CEO 表示“模型疲劳”真实存在，资源被迫用于比较成本而非应用，可能影响行业落地效率。这种 frenetic pace 虽然推动技术进步，但也给用户带来复杂性和混乱，需平衡创新与稳定性。用户需要在众多版本中比较成本和能力，避免落后。这种快速迭代虽然保持技术前沿，但也增加了集成难度。",
+    "tags": [
+      "News",
+      "Industry Trend",
+      "LLM"
+    ],
+    "link": "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html",
+    "date": "2026-09-06",
+    "id": "17887376992674"
+  },
+  {
+    "title": "AI 医疗接待员 Emma 曝严重安全漏洞",
+    "summary": "英国 GP 使用的 AI 接待员系统被曝可轻易获取患者隐私数据和通话录音。",
+    "detail": "开发者 QuantumloopAI 宣称安全合规，但研究人员几小时内即获取全量通话转录、患者姓名地址及录音。系统存在多处安全失误，暴露了 AI 医疗应用在数据保护和真相营销方面的严重缺陷。尽管声称通过 CREST 测试和 GDPR 合规，实际漏洞频出。警示行业需重视实际安全测试，而非仅依赖营销声明，患者隐私保护面临严峻挑战。该事件发生在英国全科医生诊所，直接影响患者信任。安全研究员表示漏洞之多令人惊讶，只需几小时即可突破。",
+    "tags": [
+      "News",
+      "Security",
+      "Healthcare"
+    ],
+    "link": "https://floorjellyboot.infinityfree.io/?u=/2026/09/05/emma-the-gps-ai-receptionist-doesnt-understand-yorkshire-or-security/",
+    "date": "2026-09-06",
+    "id": "17887376992675"
+  },
+  {
     "title": "Mostik.ai 推出 AI 模型潜空间通信技术",
     "summary": "突破文本限制，实现 AI 模型间隐藏状态直接通信。",
     "detail": "Mostik.ai 结束隐身模式，提出利用模型内部隐藏向量而非仅靠文本 Token 进行通信。研究表明模型内部状态包含百万级数值，远超输出 Token 信息量。当前多 Agent 系统仅通过文本交流，如同通过钥匙孔对话，丢失大量内部状态。该技术旨在解决此低效问题，利用潜空间通信大幅提升模型协作能力与推理深度，是架构层面的重要突破。",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
     "date": "2026-09-03",
     "id": "17884678832650"
-  },
-  {
-    "title": "Honeycomb 工程团队 AI 规范：目标 productivity 翻倍与务实指南",
-    "summary": "Honeycomb 工程 SVP 分享内部 AI 规范，旨在通过 AI 实现影响力翻倍，并提供务实的工程落地建议。",
-    "detail": "Honeycomb 工程高级副总裁 Emily Nakashima 分享了公司内部 AI 采用规范的第二部分。自 2025 年 8 月创始人提出 AI 授权以来，公司要求员工尝试通过 AI 将生产力（影响力）提高 2 倍。该规范不仅设定了雄心勃勃的目标，还结合了务实的建议，例如解决“过多 Slack 长线程”等具体问题。这反映了 Honeycomb 工程领导层的风格：雄心勃勃、人性化且 grounded 于细节。此举为工程组织设立了新的“北极星”指标，平衡了抽象愿景与日常担忧，为其他企业如何内部落地 AI 提供了参考样本，展示了从政策到执行的具体路径。这种内部规范的形成，标志着 AI 应用正从实验阶段走向制度化管理体系。",
-    "tags": [
-      "Dev",
-      "Enterprise",
-      "Productivity"
-    ],
-    "link": "https://www.honeycomb.io/blog/ai-norms-values-part-2-ai-honeycomb-engineering",
-    "date": "2026-09-03",
-    "id": "17884678832651"
-  },
-  {
-    "title": "Hacker News 热议：AI 幻觉与维基百科准确性目标根本冲突",
-    "summary": "社区讨论指出 AI 生成内容的幻觉问题与维基百科追求准确知识的目标存在根本性冲突，融资需谨慎。",
-    "detail": "在 Hacker News 社区关于“为何无人资助基于 AI 聊天的维基百科”的讨论中，用户指出了核心矛盾。维基百科的目标是提供准确知识，并通过流程确保文章无误；而 AI 模型往往生成看似合理但可能错误的事实（幻觉）。特别是在用户询问文章未提及的内容时，AI 极易编造信息。这一观点揭示了当前 AI 技术在知识库应用上的局限性。尽管 AI 交互体验流畅，但在需要高准确性的场景下，幻觉问题仍是主要障碍。这为 AI 在教育、知识库等领域的落地提出了警示，即准确性验证机制至关重要，盲目结合可能损害知识可信度。社区讨论强调了技术目标与应用场景匹配的重要性。",
-    "tags": [
-      "News",
-      "LLM",
-      "Community"
-    ],
-    "link": "https://news.ycombinator.com/item?id=49555417",
-    "date": "2026-09-03",
-    "id": "17884678832652"
-  },
-  {
-    "title": "英伟达确认以 129 亿美元收购 Hugging Face",
-    "summary": "英伟达正式收购 HF，承诺保持开源平台独立性与生态开放。",
-    "detail": "英伟达确认以 129 亿美元收购 AI 模型社区 Hugging Face。CEO 黄仁勋承诺 HF 将继续支持开源模型，不强制绑定英伟达计算平台。此次收购旨在整合硬件与开发生态，允许企业购买英伟达闲置算力搭配 HF 服务。HF 拥有 300 万模型及 1800 万开发者，此次交易将重塑 AI 基础设施格局。此外，英伟达已发布超 500 个模型，收购后将进一步扩展开发者访问权限，巩固其在 AI 全栈领域的主导地位。",
-    "tags": [
-      "News",
-      "M&A",
-      "OpenSource"
-    ],
-    "link": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
-    "date": "2026-09-03",
-    "id": "17884416353840"
-  },
-  {
-    "title": "NeoMME：高效多模态原生编码器发布",
-    "summary": "Hugging Face 发布 NeoMME，单 Transformer 处理图文，支持多语言。",
-    "detail": "Hugging Face 推出 NeoMME 多模态编码器家族（260M/800M）。不同于传统生成式视觉模型，它使用单一双向 Transformer 处理文本和图像 patch，从头训练。针对视觉文档检索优化，在 ViDoRe v3 前沿表现优异。支持 Apache 2.0 许可，显著降低存储成本的同时保持高检索精度，适合多语言多模态任务部署。模型采用掩码离散扩散目标训练，无需独立视觉塔，推理速度比 ColModernVBERT 快两倍。",
-    "tags": [
-      "Dev",
-      "Multimodal",
-      "OpenSource"
-    ],
-    "link": "https://huggingface.co/blog/Hcompany/neomme",
-    "date": "2026-09-03",
-    "id": "17884416353841"
-  },
-  {
-    "title": "AI 编码会话恢复的 Token 消耗基准测试",
-    "summary": "实测显示使用记录恢复会话比重新读取文件节省 22.6 倍 Token。",
-    "detail": "VeriCommand 进行了实时 A/B 测试，比较 AI 编码会话恢复的 Token 成本。结果显示，使用记录恢复状态比重新读取文件节省 22.6 倍 Token。每次会话记录仅消耗约 427 tokens，跨越单个会话边界即可实现净收益。为优化 AI 编程工作流和降低 API 成本提供了数据支持。测试基于真实多文件任务，使用 tiktoken 计数，证明状态记录机制在长周期开发中具有显著经济优势。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Optimization"
-    ],
-    "link": "https://vericommand.net/benchmark",
-    "date": "2026-09-03",
-    "id": "17884416353842"
   }
 ]
