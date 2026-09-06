@@ -1,5 +1,18 @@
 [
   {
+    "title": "大西洋月刊：达特茅斯学院 AI 禁令引发的教育反思",
+    "summary": "文章讨论大学禁止课堂 AI 的现象，主张应拥抱而非禁止 AI 工具在教育中的应用。",
+    "detail": "《大西洋月刊》文章针对大学禁止课堂使用 AI 的现象提出反思。标题\"I Want More AI at Dartmouth\"暗示了作者立场。随着 AI 工具普及，教育界面临如何平衡学术诚信与技术赋能的挑战。禁止政策可能阻碍学生适应未来工作环境，文章呼吁教育机构探索整合 AI 的教学模式，而非简单封堵，强调 AI 在教育中的积极作用。Hacker News 讨论链接显示社区对此关注，尽管评论数为 0，但文章本身引发了对大学政策与 AI 融合路径的深层思考，倡导更多 AI 融入课堂。",
+    "tags": [
+      "News",
+      "Education",
+      "Policy"
+    ],
+    "link": "https://www.theatlantic.com/ideas/2026/09/universities-prohibiting-ai-classroom/688509/",
+    "date": "2026-09-06",
+    "id": "17886730651594"
+  },
+  {
     "title": "DHH 谈编程未来：AI、Vibe Coding 与 Linux",
     "summary": "Ruby on Rails 创始人深度探讨 AI 对开发流程的重塑。",
     "detail": "**背景**：Lex Fridman 播客邀请 37signals CTO DHH 对话，探讨技术未来。**核心**：DHH 强调过去九个月 AI 进步巨大，提及“氛围编程”(Vibe Coding) 及新 Omarchy Linux 系统。**影响**：行业领袖观点反映开发者对 AI 加速软件交付的预期。DHH 指出若忽视此刻 AI 重力即为妄想，预示代理工程 (Agentic Engineering) 将成为未来开发常态。他提到 Overton 窗口由冒险者推开，鼓励开发者拥抱变化。这种观点代表了资深工程师对 AI 工具链整合的深层思考，影响社区风向。对话涵盖操作系统安装速度及赛车隐喻，强调技术突破带来的生存实感。",
@@ -375,6 +388,19 @@
     "link": "https://lenexux.com/welcome",
     "date": "2026-09-05",
     "id": "17885783999844"
+  },
+  {
+    "title": "AI 辅助设计后量子加密加速器：已部署硅片案例研究",
+    "summary": "论文展示 AI 代理驱动 LLM 完成从 RTL 到 PCIe 的加密加速器设计，成功率达 71.6%。",
+    "detail": "这篇 arXiv 论文研究了 AI 在后量子密码学硬件设计中的应用。研究团队使用代理式大语言模型驱动 ML-KEM-768 和 ML-DSA-65 加速器的设计，涵盖从 RTL 到 PCIe bring-up 的全流程。标准验收门无法检测某些 ML-DSA 缺陷，已知答案测试仅采样固定值。研究替换了该门，使用字节精确黄金参考 oracle 配对随机对抗浸泡。尽管合成和启动阶段成功率较低，但最终实现了字节精确的部署。该案例证明了 AI 在硬件设计中的潜力，同时也揭示了物理侧信号校正的挑战，信任与作者身份可分离。",
+    "tags": [
+      "Dev",
+      "Hardware",
+      "LLM"
+    ],
+    "link": "https://arxiv.org/abs/2609.04058",
+    "date": "2026-09-04",
+    "id": "17886730651591"
   },
   {
     "title": "大西洋月刊：AI 公司不应被称为“实验室”",
@@ -1272,31 +1298,5 @@
     "link": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
     "date": "2026-09-02",
     "id": "17883709014910"
-  },
-  {
-    "title": "Anthropic 推出零售 AI 代理蓝图",
-    "summary": "Anthropic 发布零售行业 AI 代理蓝图，备战假日购物季。",
-    "detail": "Anthropic 正式面向零售行业发布 AI 代理蓝图，旨在帮助商家备战即将到来的假日购物季。该方案基于 Claude 大模型能力，提供了预设的客户支持、库存查询及个性化推荐工作流。零售商无需从头开发，即可集成现有系统快速部署智能代理。此举标志着 AI 公司从通用模型向垂直行业解决方案深化，通过降低技术门槛加速 AI 在零售场景的规模化落地。对于中小零售商而言，这是利用 AI 提升转化率与服务效率的关键机会，同时也加剧了零售科技领域的竞争。预计这将引发更多垂直行业蓝图的发布，推动 AI 代理从概念走向实际业务增长。",
-    "tags": [
-      "News",
-      "Agent",
-      "Retail"
-    ],
-    "link": "https://www.reuters.com/business/retail-consumer/anthropic-launches-ai-agent-blueprints-retailers-ahead-holiday-shopping-season-2026-09-02/",
-    "date": "2026-09-02",
-    "id": "17883709014911"
-  },
-  {
-    "title": "Databricks 优化 AI 代理年省百万美元",
-    "summary": "Databricks 通过追踪工具调用漏洞，年省 100 万美元 AI 支出。",
-    "detail": "Databricks 工程师团队发现，AI 代理在工具调用失败时往往不会报错，而是静默重试或猜测，导致 Token 浪费。通过 Unity Gateway 的追踪功能与 Genie One，他们定位了 7 个工具服务器漏洞。修复后不仅每年节省 120 万美元支出，还挽救了约 1.2 万工程小时。该案例揭示了企业级 AI 部署中隐蔽的成本陷阱，强调建立可观测性体系对于优化 Agent 工具调用链路至关重要。随着 AI 代理规模扩大，此类隐性浪费可能指数级增长，为开发者提供了成本控制的实战参考与优化思路。",
-    "tags": [
-      "Dev",
-      "Cost",
-      "Enterprise"
-    ],
-    "link": "https://www.databricks.com/blog/how-we-eliminated-1-million-year-wasted-ai-agent-spend-one-hour",
-    "date": "2026-09-02",
-    "id": "17883709014912"
   }
 ]
