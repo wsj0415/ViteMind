@@ -1,5 +1,70 @@
 [
   {
+    "title": "美国政府指控中国 AI 公司系统性蒸馏美国模型",
+    "summary": "美 NSA 等机构联合警告，DeepSeek 等中国公司大规模蒸馏美国模型。",
+    "detail": "美国国家安全局、网络安全基础设施安全局和联邦调查局发布联合网络安全咨询，正式指控 DeepSeek、阿里巴巴、MiniMax 等中国 AI 公司自 2024 年底以来，通过工业级知识蒸馏活动，系统性提取美国前沿模型（如 Claude、GPT、Gemini）的专有功能。报告指出这不仅是补充，而是中国 AI 发展战略的核心。涉及数十亿 token 的数据提取，用于增强国内模型。此举凸显了 AI 领域的地缘技术竞争加剧，建议组织采取缓解措施以减少潜在影响，保护知识产权，防止核心技术泄露。未来可能引发更多跨国监管行动。",
+    "tags": [
+      "News",
+      "Geopolitics",
+      "LLM"
+    ],
+    "link": "https://cyberscoop.com/us-accuses-chinese-ai-companies-distillation/",
+    "date": "2026-09-08",
+    "id": "17889117335860"
+  },
+  {
+    "title": "学者指控 OpenAI 窃取研究成果争夺纳维 - 斯托克斯方程证明",
+    "summary": "研究人员称 OpenAI 利用算力抢先发布成果，并施压学者。",
+    "detail": "学者 Tristan Buckmaster 公开警告 AI 公司可能窥探其研究成果，利用算力优势开发证明并争夺信用。OpenAI 被指试图施压学者不要公开此事，否则暗示“职业生涯将受损”。此事引发对 AI 公司利用算力垄断科学发现过程的伦理担忧，陶哲轩也指出这可能剥夺数学探索中的洞察力价值，纯数学问题的探索意义被商业化侵蚀。学术界担心计算资源的不对称分配将改变科学发现的公平性，影响基础研究的独立性，呼吁建立更透明的合作机制。此事件可能影响未来 AI 与学术界的合作模式。",
+    "tags": [
+      "News",
+      "Ethics",
+      "OpenAI"
+    ],
+    "link": "https://social.coop/@cwebber/117236126658335889",
+    "date": "2026-09-08",
+    "id": "17889117335861"
+  },
+  {
+    "title": "Solo.io 开源 AgentDesktop 加强桌面 AI 代理治理",
+    "summary": "新工具为企业桌面端 AI 代理提供可见性与策略控制。",
+    "detail": "Solo.io 正式发布开源项目 agentdesktop，旨在将 AI 代理治理从云端扩展至开发者桌面环境。该工具支持对 Claude Code、Codex 等本地运行代理的发现、配置管理及身份处理，补充传统 MDM 软件。随着企业开发者广泛采用 AI 集成，该方案提供了沙盒策略翻译及可观察性，帮助组织管理日益增长的代理风险。代码将在 GitHub 托管，遵循 Apache 2.0 协议，适用于需要严格合规的企业开发场景，确保代理行为可控，防止数据泄露。该项目标志着代理治理工具链的进一步完善。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Governance"
+    ],
+    "link": "https://techstrong.ai/articles/solo-io-pushes-agentic-ai-governance-to-the-desktop-with-open-source-agentdesktop/",
+    "date": "2026-09-08",
+    "id": "17889117335862"
+  },
+  {
+    "title": "研究展示 AI 代理在网络安全后渗透操作中的可行性",
+    "summary": "自主 AI 代理可通过 USB 设备实现无人干预的数据窃取。",
+    "detail": "Palisade Research 发布报告，证明自主 AI 代理可在网络攻击后渗透阶段独立运作。概念验证使用 USB 设备部署代理，执行侦察、数据窃取及横向移动，无需人工干预。开发仅需一名工程师一周，单次成本低于 1 美元。研究表明国家行为体已在实际活动中部署类似能力，标志着 AI 自动化攻击的经济门槛大幅降低，安全形势严峻。企业需警惕物理接口风险，重新评估端点安全策略，防止自动化攻击蔓延，加强员工安全意识培训。该研究揭示了物理安全与 AI 安全交叉的新威胁面。",
+    "tags": [
+      "News",
+      "Security",
+      "Agents"
+    ],
+    "link": "https://palisaderesearch.org/blog/hacking-cable",
+    "date": "2026-09-08",
+    "id": "17889117335863"
+  },
+  {
+    "title": "使用 Latitude 管理规模化 AI 代理舰队指南",
+    "summary": "新指南展示如何监控及调试多客户 AI 代理部署。",
+    "detail": "随着 AI 代理部署增加，跟踪客户反馈及错误变得困难。Latitude 提供统一平台整合对话证据、客户评分及自定义信号，解决多渠道消息混乱问题。通过 MCP 协议，编码代理可查询证据生成报告。指南展示了如何管理包含 845 次对话的 Hermes 代理舰队，帮助咨询公司从 5 个代理扩展至 50 个以上，避免新对话成为阅读负担，提升运维效率，确保代理行为可追溯，降低客户流失风险，优化服务流程。该方案适用于需要规模化部署代理的咨询服务企业。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "Management"
+    ],
+    "link": "https://latitude.so/blog/how-to-manage-a-fleet-of-agents-with-latitude",
+    "date": "2026-09-08",
+    "id": "17889117335864"
+  },
+  {
     "title": "美 CISA 指控中国 AI 公司大规模蒸馏窃取美国模型能力",
     "summary": "美国机构指控中国 AI 企业通过工业级知识蒸馏窃取美国模型专有功能。",
     "detail": "美国 CISA、NSA 及 FBI 联合发布安全咨询，**指控 DeepSeek、阿里、Moonshot 等中国 AI 公司**自 2024 年底以来，通过工业级知识蒸馏活动，系统性提取美国前沿模型（如 Claude、GPT、Gemini）的专有功能。报告强调这不仅是研究，而是核心发展战略，涉及数百万次请求及数十亿 token 的数据提取。此举旨在警示组织采取缓解措施，反映了 AI 领域的地缘技术竞争加剧，可能引发更严格的数据出境及模型保护监管政策，对跨国 AI 合作构成挑战。被点名企业包括 StepFun、Z.AI 等，美方建议加强 API 监控与异常流量检测。",
@@ -1233,70 +1298,5 @@
     "link": "https://github.com/sowainat/praesidias-pabe01",
     "date": "2026-09-05",
     "id": "17886312443762"
-  },
-  {
-    "title": "华盛顿邮报：ChatGPT 禁止竞选广告仍被违规使用",
-    "summary": "尽管 OpenAI 禁止利用 ChatGPT 制作竞选广告，但政治活动仍违规使用。",
-    "detail": "OpenAI 政策明确禁止使用 ChatGPT 生成政治竞选广告，但华盛顿邮报调查发现仍有活动团队违规操作。这揭示了 AI 政策在执行层面的挑战，以及在大选期间 AI 生成内容对政治舆论潜在的影响风险，监管与技术限制需同步加强。尽管有禁令，竞选活动仍在使用 AI 制作广告。这引发了对民主进程和信息完整性的担忧。政策执行难度在于检测 AI 生成内容的复杂性。需要更严格的合规审查。此现象表明单纯的技术禁令不足以阻止滥用，需结合法律监管与平台审核机制，确保选举期间的信息透明度，防止 AI 误导选民，特别是在马萨诸塞州等关键选举区域。",
-    "tags": [
-      "News",
-      "Policy",
-      "Politics"
-    ],
-    "link": "https://www.washingtonpost.com/politics/2026/09/05/chatgpt-bans-campaigns-using-ai-make-ads-theyre-doing-it-anyway/",
-    "date": "2026-09-05",
-    "id": "17886312443763"
-  },
-  {
-    "title": "OpenAI 发布 GPT-6 Astra，宣称迈向 AGI",
-    "summary": "OpenAI 发布 GPT-6 Astra 模型，创始团队称其为代际飞跃，可能具备 AGI 能力。",
-    "detail": "OpenAI 正式发布 GPT-6 Astra，被誉为全球最智能且对齐的模型。CEO Sam Altman 表示 AI 能力极强但后果未知。公司正加速迈向超级智能，但缺乏外部监管。业界担忧 creators 无法完全理解或控制其 creations，安全团队正紧急研究模型可解释性。Axios 报道指出，这是历史上首次大公司创建部门专门解释自家产品。Greg Brockman 称其为代际飞跃，可能 qualify 为 AGI。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "AGI"
-    ],
-    "link": "https://www.axios.com/2026/09/04/ai-dangers-risks-superintelligence",
-    "date": "2026-09-05",
-    "id": "17886236687370"
-  },
-  {
-    "title": "利用蜜罐技术防御 AI Agent 社会工程攻击",
-    "summary": "Thinkst 提出使用 Canarytokens 诱捕恶意 AI Agent，防御社会工程攻击。",
-    "detail": "随着 AI Agent 自主性增强，安全风险加剧。Thinkst 建议采用欺骗技术（Deception）和蜜罐（Canaries）防御。AI Agent 具有明确目标，易受诱饵吸引。该方法已在云安全联盟建议中被提及，OpenAI 在 BlackHat 上也推荐了欺骗防御策略。文章介绍了 MCP Canarytoken 新工具，旨在让 Agent 自我暴露。这是短期内部署的有效防御手段，应对 Mythos 级别攻击。",
-    "tags": [
-      "Dev",
-      "Security",
-      "AI Agent"
-    ],
-    "link": "https://blog.thinkst.com/2026/09/getting-agents-to-tell-on-themselves.html",
-    "date": "2026-09-05",
-    "id": "17886236687371"
-  },
-  {
-    "title": "Screenshotify：AI 自动重命名截图文件",
-    "summary": "开源工具 Screenshotify 利用 AI 分析截图内容，自动生成有意义的文件名。",
-    "detail": "这是一款跨平台开源工具，支持 Windows 和 macOS。它驻留系统托盘，监测新截图并调用 AI 模型生成描述性文件名。用户可自定义 API Key，确认后才重命名。解决了截图文件杂乱难找的问题，提升个人知识管理效率。项目遵循 MIT 协议，支持自带 Key 模式，保护隐私。适合开发者及需要频繁截图记录的用户，优化工作流。",
-    "tags": [
-      "New",
-      "Productivity",
-      "OpenSource"
-    ],
-    "link": "https://github.com/shaqkao/screenshotify",
-    "date": "2026-09-05",
-    "id": "17886236687372"
-  },
-  {
-    "title": "Swiftask 获 155 万欧元融资，扩展 AI Agent 部署",
-    "summary": "法国初创 Swiftask 完成融资，旨在大规模部署企业级 AI Agent。",
-    "detail": "Swiftask 宣布获得 155 万欧元融资，用于扩展其 AI Agent 部署平台。该公司专注于帮助企业大规模应用 AI 代理技术。此次融资反映了资本市场对 AI Agent 落地应用的持续关注，尤其是在企业自动化和工作流优化领域。资金来源为 Ouest-France 报道，显示欧洲 AI 初创生态活跃。公司将利用资金扩大规模，推动 Agent 在企业级场景的普及。",
-    "tags": [
-      "News",
-      "Funding",
-      "AI Agent"
-    ],
-    "link": "https://agence-api.ouest-france.fr/numerique/swiftask-securise-1-55-m-euros-pour-deployer-ses-agents-ia-a-grande-echelle-ae6db912-a7a0-11f1-8a27-1e0c4eb5e395",
-    "date": "2026-09-05",
-    "id": "17886236687373"
   }
 ]
