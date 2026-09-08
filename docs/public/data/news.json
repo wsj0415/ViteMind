@@ -1,5 +1,70 @@
 [
   {
+    "title": "Anthropic AI 仅用 11 天形式化证明费马大定理",
+    "summary": "Anthropic 宣布 AI 在 11 天内完成费马大定理的形式化证明，引发数学界震动。",
+    "detail": "**背景**：费马大定理是数学界著名难题，证明过程极其复杂，以往需数年验证。**事件**：Anthropic 最新研究显示，其 AI 系统仅耗时 11 天即完成了该定理的形式化证明验证，速度远超人类专家。**影响**：此举标志着 AI 在复杂逻辑推理与数学证明领域取得突破性进展，可能加速科学发现自动化进程。Nature 报道了这一里程碑事件，展示了 AI 辅助科研的巨大潜力，引发学界对 AI 推理能力的重新评估。此技术若普及，将极大降低科研门槛，改变数学研究范式，但也引发对 AI 可靠性的讨论。行业需关注形式化验证工具的整合，这可能成为未来 AI 科研标配。",
+    "tags": [
+      "News",
+      "LLM",
+      "Science"
+    ],
+    "link": "https://www.nature.com/articles/d41586-026-02822-9",
+    "date": "2026-09-08",
+    "id": "17888293091830"
+  },
+  {
+    "title": "Google DeepMind 发布最强全球天气 AI 模型 WeatherNext 3",
+    "summary": "Google 推出 WeatherNext 3，集成实时卫星数据，精度创历史新高。",
+    "detail": "**核心功能**：WeatherNext 3 引入实时卫星数据、每小时刷新及更高分辨率，支持精准降水预测。**集成生态**：模型已整合至 Search、Gemini、Maps 及 Cloud 平台。**行业影响**：作为目前最准确的全球天气模型，它将显著提升农业、供应链及清洁能源领域的决策效率，标志着 AI 气象预报进入新阶段。Google DeepMind 表示，新模型解决了以往缺乏空间分辨率和实时数据整合的挑战，独立评估显示其准确性领先。这将赋能全球数十亿用户的日常决策及关键行业规划，提升灾害预警能力，具有重大社会经济价值。",
+    "tags": [
+      "News",
+      "Google",
+      "Model"
+    ],
+    "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/",
+    "date": "2026-09-07",
+    "id": "17888293091831"
+  },
+  {
+    "title": "微软发现 ASCII 走私技术被用于钓鱼邮件绕过过滤",
+    "summary": "微软安全团队发现攻击者利用 Unicode 隐藏字符绕过过滤进行钓鱼。",
+    "detail": "**威胁发现**：微软研究人员观察到高 volume 钓鱼活动使用不可见 Unicode 标签字符（ASCII Smuggling）。**技术原理**：攻击者利用该技术分割金融诱饵词汇，逃避邮件过滤器解析，同时向 AI 模型暴露指令。**影响**：这表明 AI 时代的逃避技术已渗透传统钓鱼活动，微软 Defender 已增强相关防护签名。遥测数据显示自 2026 年 2 月起攻击量激增。此发现揭示了 AI 安全与传统网络安全的交叉风险，企业需更新过滤规则以应对此类隐蔽攻击，防止数据泄露。安全团队应加强对 Unicode 异常字符的监控，提升邮件网关的检测能力。",
+    "tags": [
+      "News",
+      "Security",
+      "AI Safety"
+    ],
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/",
+    "date": "2026-09-07",
+    "id": "17888293091832"
+  },
+  {
+    "title": "开源工具 AISpace 实现 AI 代理安全临时文件共享",
+    "summary": "GitHub 发布 AISpace 客户端，支持带过期链接的安全文件共享。",
+    "detail": "**产品功能**：AISpace 提供可脚本化的 CLI 工具，支持过期链接、可预测 JSON 及可选本地加密。**应用场景**：专为 AI 代理与人类之间的安全临时文件共享设计。**技术栈**：基于 Go 1.26+ 开发，遵循 MIT 协议。该工具解决了 AI 工作流中敏感数据传输的安全痛点，适合开发者集成。它允许设置链接过期时间，确保文件不被永久存储，符合隐私合规要求。对于构建多 agent 系统或人机协作平台，这是一个关键的基础设施组件，简化了安全文件交换流程，提升了协作效率与数据安全性。",
+    "tags": [
+      "Dev",
+      "OpenSource",
+      "Tool"
+    ],
+    "link": "https://github.com/aispace-sh/aispace-client",
+    "date": "2026-09-07",
+    "id": "17888293091833"
+  },
+  {
+    "title": "开发者实测 Cloudflare 默认设置可能隐藏网站免受 AI 抓取",
+    "summary": "研究发现 Cloudflare 默认设置可能隐藏网站免受 AI 抓取，影响 AI 搜索曝光。",
+    "detail": "**发现问题**：开发者发现 Cloudflare 默认设置可能向 GPTBot 等返回 403，导致网站对 AI 助手不可见。**关键洞察**：屏蔽训练爬虫不影响搜索时代理推荐，但影响整体 AI 可见性。**行业意义**：本地企业需检查 robots.txt 及 Cloudflare 设置，以确保在 AI 搜索时代的可见性，避免被隐形屏蔽。研究测量了 293 个站点，发现默认配置可能导致业务损失。这提醒网站所有者需主动管理 AI 爬虫权限，平衡隐私保护与商业曝光，优化 AI SEO 策略，确保在智能助理推荐中获得公平展示机会。",
+    "tags": [
+      "News",
+      "SEO",
+      "Crawler"
+    ],
+    "link": "https://foundash-ai.github.io/",
+    "date": "2026-09-07",
+    "id": "17888293091834"
+  },
+  {
     "title": "Quire：人与 AI 代理本地协作编辑 Markdown 新工具",
     "summary": "支持人与 AI 代理本地协作编辑 Markdown，实时归属且 Git 友好。",
     "detail": "Quire 是一款本地优先的协作工具，允许人类与 AI 代理在同一 Markdown 文件夹中共同编辑。核心特点是无需导入或云端复制，文件系统即为真相源。AI 作为一级协作者加入会话，拥有可见光标和可单独撤销的编辑记录。这对开发工作流和隐私敏感场景具有重要意义，实现了真正的本地人机协作闭环，兼容 Git 与现有编辑器。解决了云端协作的数据隐私顾虑。",
@@ -1233,70 +1298,5 @@
     "link": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
     "date": "2026-09-04",
     "id": "17885567664675"
-  },
-  {
-    "title": "Tesoro.help：基于 AI 的高中校园信息助手",
-    "summary": "Show HN 项目，索引学校 PDF 与文档，提供精准校园信息查询。",
-    "detail": "Tesoro.help 是一个为高中定制的 AI 帮助台，索引了 949 个页面和文件，包括 PDF、Google Docs 等学校公开资源。它解决了学校官网搜索无法覆盖 PDF 内部内容的问题，并提供来源溯源。虽然目前仅服务于特定学校，但其“索引所有公开文档并提供确切来源”的模式为垂直领域 AI 搜索应用提供了参考案例。这种 localized RAG 应用展示了 AI 在解决具体信息孤岛问题上的潜力。",
-    "tags": [
-      "New",
-      "Education",
-      "Search"
-    ],
-    "link": "https://tesoro.help/",
-    "date": "2026-09-04",
-    "id": "17885567664676"
-  },
-  {
-    "title": "Aisle AI 发现 Curl 漏洞，超越 Mythos 与 Codex",
-    "summary": "Aisle 安全系统发现 6 个 Curl 漏洞，获 Linux 维护者认可，表现优于知名 AI 编码工具。",
-    "detail": "初创公司 Aisle 的 AI 原生漏洞管理系统在 Curl 项目中发现了 6 个此前未知的漏洞，并成功获得 CVE 编号。相比之下，Anthropic 的 Mythos 和 OpenAI 的 Codex 等知名 AI 编码程序在此前测试中未能发现这些安全问题。连 Greg KH 等顶级 Linux 维护者对此也印象深刻，认为 Aisle 能找到其他 AI 遗漏的真实 bug。这表明垂直领域的 AI 安全工具在特定任务上可能优于通用 AI 编码助手，为 AI 驱动的安全审计提供了新方向。对于开发者而言，这意味着单纯依赖通用 coding AI 可能不足以保证安全，建议结合专业安全 AI 工具进行代码审计，以提升开源项目及商业软件的整体安全性，避免潜在漏洞风险。",
-    "tags": [
-      "News",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://www.zdnet.com/innovation/aisle-ai-vulnerability-management-curl-bugs/",
-    "date": "2026-09-04",
-    "id": "17885455155730"
-  },
-  {
-    "title": "乌克兰战场无人机数据流入 AI 训练市场",
-    "summary": "乌克兰出售战场无人机数据供 AI 训练，OpenAI 同步发布最强模型 Astra，引发伦理关注。",
-    "detail": "乌克兰开始向军事承包商和商业公司出售数百万个无人机飞行数据点，将前线变为 AI 模型训练场。此举虽能快速吸引资金和合作伙伴，但也引发战场数据监管伦理问题，专家呼吁确保战场数据不被视为普通商业材料。同期，MIT 科技评论提及 OpenAI 发布了迄今最强大的模型 Astra。战场数据商业化与顶级模型发布并存，标志着 AI 在国防领域的应用进入新阶段，数据被视为新黄金矿藏。这一趋势显示 AI 训练数据获取渠道正在多元化，但也加剧了数据主权与伦理争议。未来国防 AI 的发展将高度依赖真实战场数据，而商业公司介入可能加速技术迭代，同时也要求国际社会尽快制定针对战争数据商业化的法律框架，防止滥用。",
-    "tags": [
-      "News",
-      "Defense",
-      "LLM"
-    ],
-    "link": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
-    "date": "2026-09-04",
-    "id": "17885455155731"
-  },
-  {
-    "title": "AI 投资热潮推高半导体价格指数",
-    "summary": "美联储数据显示 AI 基础设施投资增长，半导体价格在 2026 年初四个月内上涨约 19%。",
-    "detail": "圣路易斯联储博客分析指出，AI 相关的资本支出在 2025 年已大幅增长，信息处理设备、软件及数据中心建设占企业投资三分之一。然而半导体价格指数直到 2026 年初才显著上升，从 1 月 61.6 升至 5 月 73.1，四个月涨幅达 19%。这表明数据中心建设（土地、电力）与半导体采购存在投资 timing 差异。随着数据中心接近设备填充阶段，半导体需求压力显现，反映了 AI boom 对硬件供应链的滞后影响。这种价格滞后现象提示投资者，AI 基础设施建设的不同阶段具有不同的投资标的。早期利好建筑与能源，后期利好芯片制造。理解这一周期对于把握半导体行业投资节奏至关重要，表明 AI boom 对硬件供应链的影响是深远且分阶段的，需密切关注后续产能匹配情况。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Investment"
-    ],
-    "link": "https://fredblog.stlouisfed.org/2026/06/ai-investment-and-semiconductor-prices/",
-    "date": "2026-09-04",
-    "id": "17885455155732"
-  },
-  {
-    "title": "Google Gemini Spark 集成 Photos 库管理功能",
-    "summary": "Google 宣布 Gemini Spark 可管理 Photos 库，支持编辑及创建相册。",
-    "detail": "Google 宣布其个人代理 Gemini Spark 现已集成 Google Photos 库管理功能。用户可指令 AI 执行编辑图片、策划相册、创建共享相册及将照片转为日历事件等任务。该功能将逐步向美国地区的 Gemini AI Pro 和 Ultra 订阅者推送。此举被视为 Google 在 consumer AI 产品市场契合度上的新尝试，旨在通过自动化繁琐任务展示 AI 价值，回应行业关于 AI 益处沟通不足的批评。尽管功能实用，但评论认为其革命性有限，反映了行业在向消费者推销 AI 承诺方面的困境，需更多实质性突破。目前尚未公布国际市场的 rollout 计划，英语用户优先。",
-    "tags": [
-      "News",
-      "Google",
-      "AI Agent"
-    ],
-    "link": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-    "date": "2026-09-04",
-    "id": "17885336092740"
   }
 ]
