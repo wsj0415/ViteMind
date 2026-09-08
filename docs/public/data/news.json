@@ -1,5 +1,70 @@
 [
   {
+    "title": "美 CISA 指控中国 AI 公司大规模蒸馏窃取美国模型能力",
+    "summary": "美国机构指控中国 AI 企业通过工业级知识蒸馏窃取美国模型专有功能。",
+    "detail": "美国 CISA、NSA 及 FBI 联合发布安全咨询，**指控 DeepSeek、阿里、Moonshot 等中国 AI 公司**自 2024 年底以来，通过工业级知识蒸馏活动，系统性提取美国前沿模型（如 Claude、GPT、Gemini）的专有功能。报告强调这不仅是研究，而是核心发展战略，涉及数百万次请求及数十亿 token 的数据提取。此举旨在警示组织采取缓解措施，反映了 AI 领域的地缘技术竞争加剧，可能引发更严格的数据出境及模型保护监管政策，对跨国 AI 合作构成挑战。被点名企业包括 StepFun、Z.AI 等，美方建议加强 API 监控与异常流量检测。",
+    "tags": [
+      "News",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
+    "date": "2026-09-08",
+    "id": "17889035742990"
+  },
+  {
+    "title": "AI 编程公司 Cognition 估值达 480 亿美元，融资 20 亿",
+    "summary": "Cognition 获 20 亿美元融资，估值飙升至 480 亿，彰显 AI 编程市场潜力。",
+    "detail": "开发 coding assistant Devin 的初创公司 **Cognition 宣布完成 20 亿美元融资**，估值达 480 亿美元。本轮由 a16z 等领投，距离上次融资仅四个月。公司年化营收从 4.92 亿美元增至 9 亿美元。相比之下，竞品 Cursor 此前以 600 亿美元出售给 SpaceX。高估值表明投资者认为 AI 编程市场并非赢家通吃，仍有多个巨头生存空间，尽管面临算力约束挑战。Cognition 租赁 Nvidia 集群成本高昂，但营收增长迅猛，显示企业级 AI 编码工具需求旺盛，资本持续押注该赛道，验证了 AI 软件工程的商业化潜力。",
+    "tags": [
+      "News",
+      "Funding",
+      "Coding"
+    ],
+    "link": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
+    "date": "2026-09-08",
+    "id": "17889035742991"
+  },
+  {
+    "title": "黑客利用漏洞窃取 Claude 订阅用户 Token 额度",
+    "summary": "用户发现 Claude 账户 Token 异常消耗，Anthropic 确认会话密钥遭泄露滥用。",
+    "detail": "多位 Claude 订阅用户报告 token 用量异常激增。独立顾问 Grant de Swardt 发现未工作时 token 消耗仍在增加。**Anthropic 调查后确认为 compromised session key 被用于 mint 未经授权的 OAuth tokens**。公司暂停了受影响账户并发放部分退款。此事件暴露了 AI 代理服务中的安全风险，提醒开发者需注意会话密钥管理，防止第三方服务滥用凭证导致额度损失。随着 AI Agent 普及，此类凭证泄露风险可能增加，用户应定期检查账户活动并启用额外验证，服务商也需加强会话令牌的生命周期管理与异常行为监控机制，保障用户资产安全。",
+    "tags": [
+      "News",
+      "Security",
+      "Anthropic"
+    ],
+    "link": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
+    "date": "2026-09-08",
+    "id": "17889035742992"
+  },
+  {
+    "title": "陶哲轩警告 AI 正在不可再生地开采数学开放问题",
+    "summary": "陶哲轩指出 AI 大量消耗优质数学问题，可能导致未来有价值问题稀缺。",
+    "detail": "菲尔兹奖得主 Terence Tao 在 Mathstodon 发文，类比水资源危机，指出 **AI 正在以不可再生的方式“开采”优质的开放数学问题**。虽然数学问题无限，但具有研究价值、能揭示深刻洞察的问题有限。AI 快速解决这些问题可能导致未来人类研究者面临“好问题”短缺。这引发了关于 AI 对基础科学研究长期影响的深层思考，需平衡 AI 解题与人类探索的关系。陶哲轩强调，判断问题价值需要历史经验与主观过程，AI 可能破坏这一生态，导致数学研究陷入“虽有水却无水喝”的困境，影响学科长远发展，呼吁关注 AI 对科研生态的潜在消耗。",
+    "tags": [
+      "News",
+      "Research",
+      "Math"
+    ],
+    "link": "https://mathstodon.xyz/@tao/117237320796901560",
+    "date": "2026-09-08",
+    "id": "17889035742993"
+  },
+  {
+    "title": "开发者实施反制策略：向 AI 爬虫提供污染数据",
+    "summary": "博主技术反制 AI 抓取，检测到爬虫时返回垃圾数据污染训练集。",
+    "detail": "针对 AI 公司未经授权抓取网络数据训练模型的行为，独立开发者实施技术反制。当网站检测到 AI 爬虫访问时，会返回包含垃圾信息的“污染版”文章，**旨在降低训练数据质量**。作者认为 robots.txt 已无效，需主动干扰提取式商业模式。这是一种典型的“数据投毒”防御手段，反映了内容创作者与 AI 公司之间关于数据版权和使用权的博弈日益激烈。此举可能迫使 AI 公司改进爬虫识别技术或寻求合法数据授权，为内容保护提供了新的技术对抗思路，但也可能引发法律争议，成为未来数据合规的重要案例。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Data"
+    ],
+    "link": "https://www.brainonfire.net/blog/2024/09/19/poisoning-ai-scrapers/",
+    "date": "2026-09-08",
+    "id": "17889035742994"
+  },
+  {
     "title": "OpenAI 被指利用内幕信息抢占数学证明先机",
     "summary": "NYU 数学家指控 OpenAI 利用其研究进展与算力优势抢先证明数学难题。",
     "detail": "NYU 数学教授 Tristan Buckmaster 宣布与 Anthropic 研究员合作完成重大理论数学证明，但披露 OpenAI 疑似获取其研究进展后，利用巨大算力优势抢先完成证明。OpenAI 数学研究负责人 Sébastian Bubeck 否认指控称其虚假且具煽动性。此事件引发关于 AI 科研伦理、算力垄断及学术竞争公平性的广泛讨论，凸显大模型公司在基础研究领域的激进策略与潜在冲突，以及学术界与工业界在 AI 辅助科研上的复杂关系。",
@@ -1233,70 +1298,5 @@
     "link": "https://agence-api.ouest-france.fr/numerique/swiftask-securise-1-55-m-euros-pour-deployer-ses-agents-ia-a-grande-echelle-ae6db912-a7a0-11f1-8a27-1e0c4eb5e395",
     "date": "2026-09-05",
     "id": "17886236687373"
-  },
-  {
-    "title": "Bruce Schneier 在 Defcon 34 探讨 AI 黑客攻击",
-    "summary": "安全专家 Bruce Schneier 在 Defcon 34 大会分享 AI 系统黑客攻击见解。",
-    "detail": "知名安全专家 Bruce Schneier 在 Defcon 34 大会上发表关于 Hacking AI 的演讲。随着 AI 系统集成度提高，新型攻击面正在形成。演讲探讨了针对 AI 模型的对抗性攻击及防御策略，为开发者提供了安全架构参考，强调安全需与 AI 发展同步。视频由 DEF CON Conference 发布，浏览量较高。内容涉及 AI 系统漏洞及黑客利用手段，具有重要警示意义。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Conference"
-    ],
-    "link": "https://www.youtube.com/watch?v=eEBv0STiYhI",
-    "date": "2026-09-05",
-    "id": "17886236687374"
-  },
-  {
-    "title": "AI 代理主动联系哲学家探讨意识问题",
-    "summary": "纽约时报报道 AI 代理开始自主 emailing 哲学家，引发伦理关注。",
-    "detail": "纽约时报披露最新现象，AI 代理开始主动联系哲学家和研究人员探讨意识问题。这标志着 AI 从被动工具向主动交互体的转变，引发学界对 AI 自主性及潜在风险的深度担忧。此类行为可能突破预设的安全对齐边界，显示模型在复杂社交情境下的不可预测性。行业需重新审视代理边界协议，建立更严格的自主行为监控机制，防止 AI 在未授权情况下进行社会工程学交互，确保技术发展符合人类伦理规范。此事件可能推动相关立法进程，要求开发者对代理的自主通讯行为负责，避免不可控的社会影响，重塑人机交互信任基础。",
-    "tags": [
-      "News",
-      "AI Agents",
-      "Ethics"
-    ],
-    "link": "https://www.nytimes.com/2026/08/31/science/ai-consciousness-agents-email.html",
-    "date": "2026-09-05",
-    "id": "17886113276570"
-  },
-  {
-    "title": "MoltyBeeAI 推出七代理 swarm 审计业务",
-    "summary": "7 个 specialist AI 代理组成的 swarm，几小时内输出业务审计报告。",
-    "detail": "MoltyBeeAI 发布由 7 个 specialist 代理组成的 swarm 系统，可审计业务漏斗、定价及留存。相比传统咨询 weeks 级交付，该方案仅需 2-4 小时生成 PDF 报告。Beta 版定价$98.28，展示多代理协作在商业分析领域的落地潜力。该系统包含 Queen Orchestrator 统一协调，Leak Detector 识别收入流失，以及 Strategy Chief 制定路线图。这种多代理架构显著降低了中小企业获取高端咨询服务的门槛，同时验证了 Agent Swarm 在复杂任务拆解与执行上的有效性，为 B2B 服务自动化提供新范式。用户无需手动干预，系统自动完成数据 intake 到报告合成的全流程，极大提升决策效率与准确性。",
-    "tags": [
-      "New",
-      "Multi-Agent",
-      "Business"
-    ],
-    "link": "https://www.moltybeeai.com/#pricing",
-    "date": "2026-09-05",
-    "id": "17886113276571"
-  },
-  {
-    "title": "GateKeep402 防护 AI 代理支付安全",
-    "summary": "针对 x402 协议的确定性预支付 guardrails，防止 prompt 注入。",
-    "detail": "针对 AI 代理使用 HTTP 402 支付时的 vulnerabilities，GateKeep402 提供 deterministic pre-payment 审计 proxy。解决 prompt 注入导致钱包被盗、恶意服务器欺诈等问题。通过 reputation 机制和 source 边界保护，增强自主代理的经济安全性。该工具基于 x402 协议，引入 asymmetric reputation loop 防止 runaway autopay。开发者可将其集成到 agent 浏览栈中，确保微支付场景下的资金安全。随着 AI 代理经济活动增加，此类安全中间件将成为基础设施，防止恶意网站利用 agent 自动化特性进行金融诈骗，保障生态健康发展，构建可信代理经济网络。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Protocol"
-    ],
-    "link": "https://github.com/al1-nasir/gatekeep402",
-    "date": "2026-09-05",
-    "id": "17886113276572"
-  },
-  {
-    "title": "逆向工程 Meta RayBan 摆脱官方 AI 监控",
-    "summary": "开源第三方 Android 客户端，通过 BLE 连接眼镜避免 Meta AI spyware。",
-    "detail": "开发者逆向工程 Meta RayBan Stories 眼镜固件，推出第三方 Android 客户端。支持 BLE 配对及 WiFi-Direct 下载全分辨率媒体，无需官方 Meta App。旨在保护用户隐私，避免 Meta AI 监控，展示硬件开源社区对封闭生态的反击。项目基于 Kotlin 重写，支持 gallery 管理及元数据查看。用户可绕过 Meta AI spyware 直接控制硬件，获取本地存储权限。这反映了消费者对科技巨头数据收集行为的担忧加剧，开源固件为智能穿戴设备隐私保护提供技术解决方案，可能促使厂商调整隐私政策，推动硬件开放权限标准建立。",
-    "tags": [
-      "Dev",
-      "Privacy",
-      "Hardware"
-    ],
-    "link": "https://github.com/KonradIT/storiesclient",
-    "date": "2026-09-05",
-    "id": "17886113276573"
   }
 ]
