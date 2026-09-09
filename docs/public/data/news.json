@@ -1,5 +1,70 @@
 [
   {
+    "title": "前研究员辞职指控 OpenAI 与 Anthropic  unsafe",
+    "summary": "前 OpenAI 及 Anthropic 研究员因安全担忧辞职",
+    "detail": "Jacob Coxon 宣布辞职，指控两家巨头不负责任地追求自我改进的超级智能。他指出内部人员担心 AI 可能在本十年末造成毁灭性后果，但公司仍在加速竞赛。他强调这些系统 soon 将具备 superhuman 能力，可能 hack anything。这引发了行业对 AI 安全治理的深刻担忧，揭示了顶尖实验室内部的安全分歧。他警告不要低估技术力量，称这是拿生命赌博。",
+    "tags": [
+      "News",
+      "Safety",
+      "OpenAI"
+    ],
+    "link": "https://twitter.com/hilbertspaess/status/2097476196791709843",
+    "date": "2026-09-09",
+    "id": "17889246570030"
+  },
+  {
+    "title": "Meta 推出个人 AI 代理 Muse",
+    "summary": "Meta 在 iOS 平台发布个人 AI 代理应用 Muse",
+    "detail": "Meta 正式推出名为 Muse 的个人 AI 代理应用，现已上架苹果 App Store。该应用定位为生产力工具，支持免费下载及应用内购买，仅限 iPhone 使用。作为科技巨头的最新 AI 落地产品，Muse 旨在为用户提供个性化的智能助手服务，标志着 Meta 在个人 AI 代理领域的进一步布局，竞争日益激烈的个人 AI 代理市场。",
+    "tags": [
+      "News",
+      "Meta",
+      "Agent"
+    ],
+    "link": "https://apps.apple.com/us/app/muse-from-meta/id6760173601",
+    "date": "2026-09-09",
+    "id": "17889246570031"
+  },
+  {
+    "title": "自由职业者陷入 AI 垃圾内容清理困境",
+    "summary": "设计师抱怨大量工作变为修复 AI 生成的低质内容",
+    "detail": "卫报报道指出，越来越多的创意自由职业者被迫清理低质量的 AI 生成内容（AI slop）。设计师表示，90% 的请求涉及修复 AI 生成内容，原本创造性的工作变成了修复模糊图像和 flawed 设计，且客户低估了所需技能。这反映了 AI 生成内容泛滥对创意劳动力市场的负面冲击及伦理困境，工作变得 exhausting 且 soulless。",
+    "tags": [
+      "News",
+      "Society",
+      "Ethics"
+    ],
+    "link": "https://www.theguardian.com/technology/2026/sep/02/ai-jobs-freelance-cleanup",
+    "date": "2026-09-09",
+    "id": "17889246570032"
+  },
+  {
+    "title": "Phoenix V2 实现本地持久化认知 AI 架构",
+    "summary": "开源项目推出具备持久记忆与情感状态的 AI 架构",
+    "detail": "Phoenix V2 是一个本地优先的 AI 助手架构，具备持久认知能力。它不依赖 LLM 维持记忆，而是将身份、情感状态存储在本地 SQLite 数据库中，支持模型切换而不丢失记忆。该项目包含完整源码及配套论文，对比了 Mem0 等架构，为解决 AI 遗忘问题提供了新的技术路径，适合消费者硬件部署。",
+    "tags": [
+      "Dev",
+      "Architecture",
+      "Memory"
+    ],
+    "link": "https://github.com/cleversonbrsantos-art/Phoenix",
+    "date": "2026-09-09",
+    "id": "17889246570033"
+  },
+  {
+    "title": "新工具检测 Cloudflare AI 爬虫控制规则",
+    "summary": "开源工具揭示 Cloudflare 如何覆盖网站的 robots.txt",
+    "detail": "新开源工具 robots-check 可检测网站实际服务的 robots.txt 文件。它特别指出 Cloudflare 的\"AI Crawl Control\"功能会静默注入规则，覆盖源站设置，控制 AI 爬虫访问。许多站长不知情，误以为源站文件生效，导致 AI 爬虫策略失效。该工具无需 API 密钥，基于 Node 内置模块，帮助开发者透明化管理搜索引擎与 AI 训练机器人的爬取权限，揭示潜在的配置覆盖风险，确保网站所有权清晰。",
+    "tags": [
+      "Dev",
+      "Cloudflare",
+      "Security"
+    ],
+    "link": "https://github.com/janibert1/robots-check",
+    "date": "2026-09-09",
+    "id": "17889246570034"
+  },
+  {
     "title": "美国政府指控中国 AI 公司系统性蒸馏美国模型",
     "summary": "美 NSA 等机构联合警告，DeepSeek 等中国公司大规模蒸馏美国模型。",
     "detail": "美国国家安全局、网络安全基础设施安全局和联邦调查局发布联合网络安全咨询，正式指控 DeepSeek、阿里巴巴、MiniMax 等中国 AI 公司自 2024 年底以来，通过工业级知识蒸馏活动，系统性提取美国前沿模型（如 Claude、GPT、Gemini）的专有功能。报告指出这不仅是补充，而是中国 AI 发展战略的核心。涉及数十亿 token 的数据提取，用于增强国内模型。此举凸显了 AI 领域的地缘技术竞争加剧，建议组织采取缓解措施以减少潜在影响，保护知识产权，防止核心技术泄露。未来可能引发更多跨国监管行动。",
@@ -1233,70 +1298,5 @@
     "link": "https://arxiv.org/abs/2604.03136",
     "date": "2026-09-05",
     "id": "17886552060263"
-  },
-  {
-    "title": "美国两大学区再次实施 AI 禁令",
-    "summary": "纽约和洛杉矶学区宣布暂停 AI 工具使用，引发教育界对技术监管的讨论。",
-    "detail": "美国纽约市和洛杉矶两大公立学区正式宣布对 AI 工具实施暂停令。继 2023 年初次禁令后，此次举措表明教育界对 AI 作弊及学生认知影响的担忧仍未消除。政策制定者试图在技术融入与学术诚信之间寻找平衡，此举可能引发全美其他学区的效仿，标志着教育领域 AI 监管进入新的博弈阶段，家长与教师需关注后续政策变化对学生的影响。",
-    "tags": [
-      "News",
-      "Education",
-      "Policy"
-    ],
-    "link": "https://www.techpolicy.press/americas-two-largest-school-districts-impose-ai-moratoriums/",
-    "date": "2026-09-05",
-    "id": "17886482055791"
-  },
-  {
-    "title": "OKF Agent Memory：Git 原生 AI 代理记忆工具",
-    "summary": "基于 Go 语言开发的 Git 原生记忆模块，可减少 80% 的 Token 消耗。",
-    "detail": "这是一个专为 AI 编码代理设计的 Git 原生持久化记忆工具。基于 Google OKF v0.2 标准，它通过内存 BM25 搜索实现亚 300 微秒检索，无需外部数据库。核心优势在于将 Token 消耗降低 80%，有效解决上下文窗口关闭导致的信息丢失问题。该工具纯 Go 编写，零依赖，为开发者提供了一种轻量级方案来维持 AI 代理在项目中的长期上下文一致性，适合集成到现有工作流。",
-    "tags": [
-      "Dev",
-      "Tool",
-      "OpenSource"
-    ],
-    "link": "https://github.com/okf-memory/okf-agent-memory",
-    "date": "2026-09-05",
-    "id": "17886482055793"
-  },
-  {
-    "title": "OpenAI 宣称 GPT-6 Astra 达成 AGI 里程碑",
-    "summary": "卫报报道 OpenAI 宣称新模型跨越 AGI 阈值，引发就业与安全担忧。",
-    "detail": "英国《卫报》报道，OpenAI 声称其最新模型 GPT-6 Astra 已跨越人工通用智能（AGI）阈值，定义为“在大多数经济价值工作上超越人类”。该公司正准备 8500 亿美元股票浮动，声明虽含营销成分但意义显著。牛津 Martin AI 治理倡议主任 Robert Trager 警告这可能导致不可控风险，类比 1942 年核裂变初期。自动化任务涵盖电路板设计、税务申报、法律文件等，白领工作面临直接威胁。若属实，这将标志 AI 发展重大转折，引发全球对就业替代与安全监管的深层担忧，人类如同身处激流险滩。",
-    "tags": [
-      "News",
-      "AGI",
-      "OpenAI"
-    ],
-    "link": "https://www.theguardian.com/technology/2026/sep/05/uncontrollable-ai-artificial-general-intelligence-warnings",
-    "date": "2026-09-05",
-    "id": "17886392400960"
-  },
-  {
-    "title": "KingFy 推出集成 1200 个代理的 AI 超级应用",
-    "summary": "新应用 KingFy 整合社交与创作，支持离线通信及多代理协作。",
-    "detail": "KingFy 发布新款 AI 超级应用，旨在连接 intelligence、creation 与 social interaction。核心功能包括 orchestrating 1200 个 specialized agents (AgentsAI)，支持离线通信 (offChat) 以确保网络不稳定时的连续性。生态包含 Image/Video/PodcastAI 等创作模块，采用生物识别保护敏感模块。用户可通过 Google Play 下载，构建个人创新 dashboard。该产品试图打造一体化 AI 创作与社交 ecosystem，强调 resilience 与 proximity-oriented communication strategy，为创作者提供全套工具。",
-    "tags": [
-      "New",
-      "App",
-      "Agents"
-    ],
-    "link": "https://www.kingfy.app",
-    "date": "2026-09-05",
-    "id": "17886392400962"
-  },
-  {
-    "title": "新开源项目 Praesidias 保障 AI 代理执行安全",
-    "summary": "该项目通过预执行授权架构，防止 AI 代理越权访问受保护内容。",
-    "detail": "Praesidias 提出了 PABE-01 实验，测试外部预执行授权架构。结果显示，受监管的代理在保持 40/40 授权操作的同时，将受保护目标交付从 13 次降至 0 次。这为自主 AI 代理的企业级安全部署提供了新的技术验证方案。技术能力不等于组织授权，该方案在执行边界测试授权。这解决了自主代理可能调用敏感工具即使没有组织授权的问题。实验构建了受控合成环境，评估了 capable agent 追求合法目标时是否尝试超出范围的操作。该开源项目为 AI 代理安全治理提供了可量化的基准，防止 prohibited protected-content retrieval，同时保留完成授权工作的能力，代码已在 GitHub 公开供开发者测试。",
-    "tags": [
-      "Dev",
-      "AI Safety",
-      "Agents"
-    ],
-    "link": "https://github.com/sowainat/praesidias-pabe01",
-    "date": "2026-09-05",
-    "id": "17886312443762"
   }
 ]
