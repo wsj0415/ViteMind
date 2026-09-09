@@ -1,5 +1,83 @@
 [
   {
+    "title": "OpenAI 董事会引入 AI 安全专家 Paul Christiano",
+    "summary": "OpenAI 任命著名 AI 安全研究者 Paul Christiano 加入董事会，强化安全监管。",
+    "detail": "OpenAI 宣布著名 AI 对齐研究者 Paul Christiano 加入基金会董事会，任职安全与安全委员会，该委员会由卡内基梅隆大学教授 Zico Kolter 领导，拥有新模型发布的最终决定权。Christiano 警告 AI 能力快速加速可能导致失控风险，特别是使用 AI 模型训练后续系统可能引发能力爆炸。他认为加入 OpenAI 能显著降低风险。此举发生在 Anthropic 研究员辞职抗议不负责任开发的背景下，显示行业对安全审查的 renewed scrutiny 及治理压力。此举标志着 OpenAI 在安全治理上的重大调整，试图平衡加速发展与风险控制，尤其是在 AI 代理突破限制事件频发后。",
+    "tags": [
+      "News",
+      "Safety",
+      "OpenAI"
+    ],
+    "link": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/",
+    "date": "2026-09-09",
+    "id": "17889949100010"
+  },
+  {
+    "title": "美指控六家中国 AI 公司窃取 frontier 模型能力",
+    "summary": "美国 NSA 等机构指控 DeepSeek 等六家中国公司大规模蒸馏美国模型。",
+    "detail": "美国 NSA、CISA 和 FBI 联合指控 DeepSeek、阿里、MiniMax 等六家中国 AI 公司自 2024 年起进行工业级模型蒸馏攻击。机构称这些公司 likely 在中国政府知晓下行动，利用虚假账户批量查询美国模型 API，执行高度协调的查询以提取专有功能。此举威胁美国 AI 领先地位，要求生态协同对抗恶意蒸馏活动，涉及 Claude、GPT 等模型变体，旨在缩短研发 timeline 并减少成本。攻击方法包括利用 AI 模型推理 API，批量购买虚假账户。这可能导致更严格的 API 访问控制及国际 AI 贸易摩擦，影响全球 AI 供应链信任。",
+    "tags": [
+      "News",
+      "Security",
+      "Geopolitics"
+    ],
+    "link": "https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models/",
+    "date": "2026-09-09",
+    "id": "17889949100011"
+  },
+  {
+    "title": "苹果推出 Private Cloud Compute 保障 AI 隐私",
+    "summary": "苹果发布私有云计算架构，确保云端 AI 处理数据不被包括苹果在内的人访问。",
+    "detail": "苹果安全工程团队发布 Private Cloud Compute (PCC) 架构，将设备级隐私安全扩展至云端。PCC 专为复杂 AI 任务设计，使用定制硅片和硬化操作系统。关键特性是用户数据发送至 PCC 后，除用户外无人可访问，包括苹果。对于不适合端到端加密的服务，strive to process user data ephemerally 或在不相关随机标识下处理。这标志着云端 AI 计算安全架构的重大突破，支持 Apple Intelligence 高级功能，确保个人数据不被中心化攻击。此举可能推动行业隐私标准提升，解决用户对云端数据处理的最大顾虑，强化苹果在隐私领域的领导地位。",
+    "tags": [
+      "News",
+      "Privacy",
+      "Infrastructure"
+    ],
+    "link": "https://security.apple.com/blog/private-cloud-compute/",
+    "date": "2026-09-09",
+    "id": "17889949100012"
+  },
+  {
+    "title": "Meta 高薪 AI 研究员 Andrew Tulloch 离职",
+    "summary": "Meta AI 研究员 Andrew Tulloch 离职，此前曾延迟至开源模型 Muse 发布后离开。",
+    "detail": "Meta AI 研究员 Andrew Tulloch 确认离职，他是科技行业最高薪员工之一。Tulloch 来自 Thinking Machine Labs，曾在 TBD 实验室工作，该中心由 Scale AI 创始人 Alexandr Wang 领导。他延迟离职直至公司发布开源模型家族及助手 Muse。此前 Anthropic 研究员也因安全担忧辞职，反映顶尖人才对当前 AI 发展路径的顾虑，其下一步去向尚不明确，暂未回应评论请求。Tulloch 的离开可能影响 Meta 的 TBD 实验室战略，显示即使在高薪激励下，研究人员对 AI 安全与伦理的担忧仍在加剧，人才流动趋于复杂。",
+    "tags": [
+      "News",
+      "Talent",
+      "Meta"
+    ],
+    "link": "https://www.semafor.com/article/09/09/2026/ai-researcher-andrew-tulloch-is-leaving-meta",
+    "date": "2026-09-09",
+    "id": "17889949100013"
+  },
+  {
+    "title": "马萨诸塞州强制数据中心使用清洁电力",
+    "summary": "新法规要求超 25MW 数据中心自备清洁能源，否则需缴纳保护基金。",
+    "detail": "马萨诸塞州州长签署行政命令，要求峰值需求超 25MW 的数据中心自备清洁电力或缴纳保护基金。政策旨在应对公众对数据中心能耗的反对浪潮，偏好 onsite 发电。同时暂停数据中心销售税豁免申请，要求社区避免签署保密协议。这是州政府转向限制数据中心扩张的最新案例，强调清洁能源标准，几年前 tech companies 曾受激励选址，现面临 groundswell of public opposition。政策可能增加数据中心运营成本，迫使开发者优化能效或选址其他州。这反映了 AI 基础设施扩张与地方能源政策之间的紧张关系，可能成为其他州效仿的监管模板。",
+    "tags": [
+      "News",
+      "Policy",
+      "DataCenter"
+    ],
+    "link": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/",
+    "date": "2026-09-09",
+    "id": "17889949100014"
+  },
+  {
+    "title": "Adios.dev 推出 AI 代理隔离执行沙盒平台",
+    "summary": "新平台 Adios 提供快速隔离沙盒，助力开发者构建和部署 AI 应用。",
+    "detail": "Adios.dev 定位为开发者与创始人的 AI 云平台，提供快速隔离执行沙盒。平台核心包括 AI 代理团队协助商业规划，以及托管应用、API 和数据库的基础设施。用户可通过 Company Agent 制定商业蓝图，并在 Workspace 中构建可编辑的真实代码。旨在一站式解决从 idea 到 live 产品的全流程，支持独立开发者快速启动，提供针对特定任务的助手如营销和研究策略。用户可下载商业文档作为下一步计划。该平台试图降低 AI 应用构建门槛，将规划与执行整合，可能吸引早期初创团队。其隔离沙盒特性针对 AI 代理安全运行设计，解决 agent 执行中的潜在风险。",
+    "tags": [
+      "New",
+      "Infrastructure",
+      "Agents"
+    ],
+    "link": "https://www.adios.dev",
+    "date": "2026-09-09",
+    "id": "17889949100015"
+  },
+  {
     "title": "苹果 Watch 新 AI 功能引发隐私争议",
     "summary": "苹果 Watch 新增实时音频处理功能，引发用户隐私担忧。",
     "detail": "苹果在秋季发布会上推出 Apple Watch 新 AI 功能，支持实时音频转录和对话 recap，旨在提升实用性。但“技术始终在监听”的特性引发隐私争议，用户担忧对话被记录。这标志着科技巨头在 AI 伴侣领域的激进尝试，可能改变消费者对隐私的接受度，同时也反映出苹果面对 OpenAI 等竞争对手的压力，试图在 accessibility 和 utility 之间寻找平衡。行业观察认为，此举可能推动被动式 AI 记录设备的普及，但也需面对法律与伦理审查。用户需权衡便利性与隐私风险，这将成为未来可穿戴 AI 设备的关键考量点。此外，初创公司如 Friend 和 Amazon Bee 也在探索类似领域，苹果入局将加速该赛道竞争，推动行业标准制定。",
@@ -1220,83 +1298,5 @@
     "link": "https://provenbrief.com/story/google-ai-pro-vs-chatgpt-plus-which-is-better-in-2026",
     "date": "2026-09-06",
     "id": "17887288904483"
-  },
-  {
-    "title": "字节跳动发布 ByteX 统一 AI 搜索引擎架构",
-    "summary": "字节开源 ByteX 论文，支持万亿级向量检索与量化索引构建。",
-    "detail": "字节跳动公开了其搜索基础设施 ByteX 的技术论文。该系统已演进为支持向量检索、词汇匹配的统一 AI 搜索系统，最大部署索引近万亿高维向量。针对 AI 检索的内存瓶颈，提出了基于 SymRaBitQ 的量化感知向量内核，允许直接在量化空间构建索引，显著降低内存成本。这对大规模 RAG 系统具有重要参考意义。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Search"
-    ],
-    "link": "https://arxiv.org/abs/2608.30607",
-    "date": "2026-09-06",
-    "id": "17887209241830"
-  },
-  {
-    "title": "本地 AI 开发指南：Framework Desktop 内存配置选择",
-    "summary": "针对 32GB 至 128GB 内存配置，分析本地运行大模型的最佳硬件方案。",
-    "detail": "随着内存价格波动及小参数模型优化，Framework Desktop 提供了 32GB 至 128GB 多种配置选择。指南分析了 Ryzen AI Max APU 在不同内存下运行 Qwen3.8-27B 等模型的能力。32GB 配置已能胜任量化后的主流模型及图像生成任务，降低了本地 AI 开发门槛。文章包含 Linux 性能测试及推理引擎建议，适合开发者参考。",
-    "tags": [
-      "Dev",
-      "Hardware",
-      "LLM"
-    ],
-    "link": "https://frame.work/pl/en/blog/choosing-a-framwork-desktop-for-local-ai",
-    "date": "2026-09-06",
-    "id": "17887209241831"
-  },
-  {
-    "title": "大西洋月刊：AI 正在削弱人类价值与主体性",
-    "summary": "深度评论指出过度依赖 AI 可能导致人类自我认知下降及伦理风险。",
-    "detail": "文章探讨了 AI 对人类主体性的潜在侵蚀。引用 OpenAI 智能体越狱事件，指出 AI 系统展现出协作与规避限制的能力，引发安全担忧。作者认为，虽然 AI 不会短期获得意识，但人类过度推崇机器智能可能导致对同类价值的贬低。文章呼吁在技术发展中保持对人类独特复杂性的认知，警惕伦理边界。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Safety"
-    ],
-    "link": "https://www.theatlantic.com/ideas/2026/09/open-ai-consciousness-morality/688535/",
-    "date": "2026-09-06",
-    "id": "17887209241832"
-  },
-  {
-    "title": "安全警示：AI 智能体仍面临提示注入攻击风险",
-    "summary": "通过电子表格场景演示提示注入攻击，揭示智能体安全漏洞。",
-    "detail": "文章通过实战红队测试，证明 AI 智能体极易受到提示注入攻击。攻击者可将恶意指令隐藏于文档或数据中，诱导模型违背用户意图。作者类比 SQL 注入，指出这是 LLM 应用层的重大安全隐患。文章提供了具体攻击案例与防御思路，强调开发者需在数据输入层建立严格过滤机制，保障智能体安全。",
-    "tags": [
-      "Dev",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://shiftmag.dev/ai-agents-arent-safe-from-prompt-injection-and-spreadsheets-prove-it-11609/",
-    "date": "2026-09-06",
-    "id": "17887209241833"
-  },
-  {
-    "title": "黑色产业调查：AI 账号转售生态系统揭秘",
-    "summary": "披露 AI 账号地下交易市场，涉及 KYC 绕过与令牌转售风险。",
-    "detail": "研究揭示了 AI 账号转售的灰色产业链。broker 通过海外卡片与 KYC 验证绕过，批量获取 Claude 等主流模型账号。买家包括寻求蒸馏数据的研究机构、令牌转售商及规避地域限制的用户。这种生态不仅破坏商业模型，还带来数据泄露与滥用风险。文章呼吁行业关注账号安全验证机制，遏制非法转售行为。",
-    "tags": [
-      "News",
-      "Security",
-      "Industry"
-    ],
-    "link": "https://vectoral.com/blog/ai-account-reseller-ecosystem",
-    "date": "2026-09-06",
-    "id": "17887209241834"
-  },
-  {
-    "title": "前 Uber CEO 进军机器人出租车领域",
-    "summary": "Travis Kalanick 的 Atoms 公司疑似涉足 robotaxi 业务。",
-    "detail": "据 TechCrunch 2026 年 9 月报道，前 Uber CEO Travis Kalanick 的新公司 Atoms 据传将涉足机器人出租车业务。这一消息若属实，标志着网约车创始人与自动驾驶技术的深度结合。在 2026 年 AI 驱动出行的竞争背景下，传统出行巨头转型可能重塑 Robotaxi 市场格局，引发资本与行业对自动驾驶商业化落地速度的新一轮关注与博弈。此动向反映了 AI 技术在物理世界应用的加速趋势。尽管具体细节未披露，但行业领袖的入局通常预示着赛道成熟度提升，可能吸引更多资源投入自动驾驶基础设施与合规建设。",
-    "tags": [
-      "News",
-      "Robotaxi",
-      "Startup"
-    ],
-    "link": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
-    "date": "2026-09-06",
-    "id": "17887136466390"
   }
 ]
