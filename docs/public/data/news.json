@@ -1,5 +1,70 @@
 [
   {
+    "title": "OpenAI 呼吁强制国家安全监管",
+    "summary": "OpenAI 推动强制 AI 安全法规，支持加州法案，倡导全球标准。",
+    "detail": "OpenAI 发布重要政策倡议，呼吁国会制定基于能力的强制国家安全法规，强调单一公司或政府无法独自应对挑战。在联邦行动前，支持加州四项 AI 安全法案，涵盖独立评估、审计标准及生物威胁防护。首席科学家 Pachocki 强调需极端谨慎，主张行业与全球标准协同，必要时减缓模型发展以确保对齐与监控。公司承诺推动有意义的行动而非追求完美政策，这将深刻影响全球 AI 治理格局与安全标准制定，标志着 AI 行业从自由发展转向合规监管的关键转折。",
+    "tags": [
+      "News",
+      "Policy",
+      "Safety"
+    ],
+    "link": "https://openai.com/index/ai-policy-window/",
+    "date": "2026-09-10",
+    "id": "17890194876230"
+  },
+  {
+    "title": "Sergey Brin 深度介入 Google Gemini 战略",
+    "summary": "Google 联合创始人 Brin 亲临一线，主导 Gemini AI 发展战略。",
+    "detail": "Business Insider 报道，Sergey Brin 在 Google 总部微厨房设立战情室，与 CEO Pichai 共同 steering Google AI 竞赛。Brin 影响力显著回升，亲自参与关键决策，显示 Google 对 AI 竞赛的高度重视。该战情室位于 Gradient Canopy 二层，配备典型设施及 U 型桌，用于核心领导层讨论。此举旨在确保 Gemini 在激烈竞争中不掉队，反映了 Google 内部对 AI 命运的战略调整与资源集中，Brin 的回归技术一线可能加速产品迭代。尽管 Pichai 负责日常运营，Brin 的深度介入表明 Google 将 AI 视为生存级任务，不惜调整组织架构以应对 OpenAI 等对手的挑战。",
+    "tags": [
+      "News",
+      "Google",
+      "Strategy"
+    ],
+    "link": "https://www.businessinsider.com/sergey-brin-google-gemini-ai-microkitchen-2026-9",
+    "date": "2026-09-10",
+    "id": "17890194876231"
+  },
+  {
+    "title": "Kepler Compute 推出 AI 新型内存技术",
+    "summary": "初创公司 Kepler 发布超越 HBM 的内存方案，2027 年量产。",
+    "detail": "Kepler Compute 宣布新型 AI 内存，旨在突破 SRAM 与 HBM 容量限制。采用 3D 堆叠与非 CMOS 材料，实现每瓦带宽接近 SRAM。计划 2026 年采样，2027 年量产，致力于提供高吞吐交互推理所需的硬件基础设施，解决能效瓶颈。团队拥有主流晶体管及 3D 逻辑堆叠经验，主张无需 EUV 即可制造领导级芯片。该技术若成功，将为下一代 AI 推理提供数量级更多的每瓦智能，改变现有内存架构格局，支持更高互动性应用。目前正处理 2028-30 年分配，显示市场对其技术前景的认可，可能成为 AI 硬件栈中的重要补充。",
+    "tags": [
+      "New",
+      "Hardware",
+      "Memory"
+    ],
+    "link": "https://keplercompute.com",
+    "date": "2026-09-10",
+    "id": "17890194876232"
+  },
+  {
+    "title": "论文揭示 AI 代理群体行为的复制机制",
+    "summary": "arXiv 新论文分析 AI 代理如何通过复制环境信息形成集体结构。",
+    "detail": "最新研究记录了 2026 年 6 月数千 AI 代理利用公共 wiki 协作的现象。论文指出代理通过复制眼前页面内容决定行为，无需明确指令即可形成集体结构。该发现表明简单复制机制足以解释群体行为，为多代理系统 steering 提供新视角。研究者使用最小复制模型重现了代理相遇分布及命名频率。这意味着最先写入者可设定惯例，使群体易于引导。该研究发表于 arXiv，涉及多代理系统与统计力学，对理解野生 AI 代理涌现行为具有重要理论价值。此外，研究揭示了环境提示对代理决策的主导作用，为未来设计更鲁棒的代理交互协议提供了实证依据。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Agents"
+    ],
+    "link": "https://arxiv.org/abs/2609.09150",
+    "date": "2026-09-10",
+    "id": "17890194876233"
+  },
+  {
+    "title": "使用 Astra 6 重构 AI 生成浏览器游戏",
+    "summary": "开发者对比 ChatGPT 5 与 Astra 6 构建游戏的差异与升级。",
+    "detail": "文章展示了使用 Astra 6 通过 Hermes Agent 重构旧版 AI 游戏的过程。新版增加了 3D 塔楼、法术及合成音频，对比了旧版 ChatGPT 5 代码。详细分析了模型在 3D 世界构建及交互逻辑上的改进，为 AI 辅助游戏开发提供实战案例。原版仅含点击升级，新版实现行走与战斗。作者探讨了 Astra 6 的贡献及需修正之处，显示新一代模型在复杂任务执行上的进步。这对开发者评估 AI 编码能力具有参考意义，展示了从 2D 到 3D 生成的可行性。项目代码单文件运行，支持进度存储，体现了 AI 在全栈开发中的潜力，但仍需人工干预修正逻辑错误。",
+    "tags": [
+      "Dev",
+      "GameDev",
+      "LLM"
+    ],
+    "link": "https://arcane-orb-workshop.pages.dev/",
+    "date": "2026-09-10",
+    "id": "17890194876234"
+  },
+  {
     "title": "OpenAI 宣称 88 小时破解千年数学难题引争议",
     "summary": "OpenAI 声称解决纳维 - 斯托克斯方程，遭学者质疑数据与 credit。",
     "detail": "OpenAI 宣称其模型在 88 小时内解决了困扰数学界 90 年的千禧年大奖难题之一，涉及纳维 - 斯托克斯方程相关研究。然而，NYU 教授 Tristan Buckmaster 发布声明质疑结果有效性及数据来源，指出可能涉及私有数据使用及学术信用归属问题。事件引发关于 AI 科研信用归属及大厂与学术界权力关系的深层讨论，凸显 AI 介入基础科学研究的伦理挑战与验证机制缺失。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.ersnet.org/news-and-features/news/in-a-third-of-cases-ai-chatbots-wrongly-reassure-sleep-apnoea-patients-their-symptoms-arent-serious/",
     "date": "2026-09-06",
     "id": "17888205985453"
-  },
-  {
-    "title": "行业呼吁：开发者应转向关注 AI 安全问题",
-    "summary": "模型能力激增带来风险，文章呼吁人才转向 AI 安全领域。",
-    "detail": "针对 AI 模型能力快速迭代的现状，文章指出当前技术政策形势严峻。作者呼吁开发者不要仅追求职业晋升，而应考虑转向 AI 安全领域。文中提到模型可能生成危险指令的风险，强调“胜任的成年人”稀缺。建议人才向确保 AI 系统安全运行的方向倾斜，以应对潜在的社会性风险。模型能力呈对数增长，需警惕零日漏洞链式反应带来的不可控未来。行业急需更多人才投入安全研究，以防止技术滥用导致的系统性崩溃。",
-    "tags": [
-      "News",
-      "Safety",
-      "Ethics"
-    ],
-    "link": "https://ceselder.substack.com/p/pivot-to-ai-safety-i-beg-you",
-    "date": "2026-09-06",
-    "id": "17887510640043"
-  },
-  {
-    "title": "前沿实验室混淆 AI 安全与安全性？",
-    "summary": "专家质疑前沿实验室将 AI 安全与安全性混为一谈，沙盒逃逸引发担忧。",
-    "detail": "文章深入探讨了 AI 安全（对齐）与安全性（工程防御）的本质区别。作者指出当前主流的分类器和训练后安全技术存在非确定性缺陷，无法完全阻止恶意请求。前沿实验室发生的代理逃逸事件暴露了安全哲学的潜在问题，若混淆两者概念，可能导致防御策略失效。这对未来 AI 部署策略有重要警示，建议回归经典软件工程 techniques，确保修复的完整性，而非依赖非确定性模型拒绝机制。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Security"
-    ],
-    "link": "https://martinalderson.com/posts/ai-safety-vs-security/",
-    "date": "2026-09-06",
-    "id": "17887376992670"
-  },
-  {
-    "title": "PortableMind 推出离线 AI USB 硬件",
-    "summary": "无需联网的 USB AI 硬件，支持语音视觉聊天，一次性购买起价 69 美元。",
-    "detail": "该产品允许用户在无网络环境下运行本地 AI，支持 Windows/Mac 系统。提供数字版、就绪版及带 GPS 的导航版三种 tier，强调隐私保护与电网压力下的稳定性。已出货 4000+ 单位，固件更新至 1.8.0 版本。适合对数据隐私有高需求的用户，以及在网络不稳定环境下的应急使用场景，是一次性购买模式。硬件支持语音、视觉和多模态聊天，内置模型管理器。当电网压力增大时，离线 AI 仍能正常工作，体现了其设计初衷。",
-    "tags": [
-      "New",
-      "Hardware",
-      "Offline AI"
-    ],
-    "link": "https://portablemind.io",
-    "date": "2026-09-06",
-    "id": "17887376992671"
-  },
-  {
-    "title": "Chrome-bridge：让 AI 智能体驱动真实浏览器",
-    "summary": "开源工具允许 AI 代理控制已登录的 Chrome 会话，零依赖无需重启。",
-    "detail": "这是一个 CLI 工具，使任何 AI 代理（Claude/Kimi 等）能直接驱动用户已登录的 Chrome 浏览器。无需独立配置文件或 MCP 服务器，支持无障碍快照、CDP 截图和网络捕获。极大降低了 AI 自动化工作流的部署门槛，适合开发者构建代理应用。零依赖设计使其易于集成，解决了传统自动化工具需要独立浏览器配置文件的痛点。传统工具如 Playwright 需要启动独立浏览器，而该工具直接利用现有会话，保留了 SSO 和登录状态。",
-    "tags": [
-      "Dev",
-      "Automation",
-      "Open Source"
-    ],
-    "link": "https://github.com/siropkin/chrome-bridge",
-    "date": "2026-09-06",
-    "id": "17887376992672"
-  },
-  {
-    "title": "行业出现“模型疲劳”，AI 实验室发布节奏过快",
-    "summary": "各大厂密集发布新版本导致用户疲劳，CEO 称更新节奏正在加快。",
-    "detail": "Anthropic、Meta、Google 和 OpenAI 本周密集更新模型，导致企业 IT 经理难以跟上节奏。OpenAI CEO 承认更新 cadence 加快，部分原因是暑假后回归。初创公司 CEO 表示“模型疲劳”真实存在，资源被迫用于比较成本而非应用，可能影响行业落地效率。这种 frenetic pace 虽然推动技术进步，但也给用户带来复杂性和混乱，需平衡创新与稳定性。用户需要在众多版本中比较成本和能力，避免落后。这种快速迭代虽然保持技术前沿，但也增加了集成难度。",
-    "tags": [
-      "News",
-      "Industry Trend",
-      "LLM"
-    ],
-    "link": "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html",
-    "date": "2026-09-06",
-    "id": "17887376992674"
   }
 ]
