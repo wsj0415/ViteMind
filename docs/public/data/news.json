@@ -1,5 +1,70 @@
 [
   {
+    "title": "OpenAI 考虑放缓尖端 AI 研发步伐",
+    "summary": "CEO 山姆·阿尔特曼向员工表示愿意减缓前沿 AI 开发速度。",
+    "detail": "彭博社独家报道，OpenAI CEO 山姆·阿尔特曼在内部会议中告知员工，公司正持开放态度考虑减缓尖端 AI 技术的研发步伐。这一表态标志着行业领头羊可能从“速度优先”战略转向“安全优先”。在当前 AI 安全风险争议加剧、监管压力增大的背景下，此举可能引发行业连锁反应，影响后续大模型发布节奏及全球监管政策走向，为 AI 治理提供新范式。此消息若属实，将显著改变投资者预期，可能导致短期估值波动，但长期有利于行业可持续发展。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Policy"
+    ],
+    "link": "https://www.bloomberg.com/news/articles/2026-09-11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff",
+    "date": "2026-09-11",
+    "id": "17890970274950"
+  },
+  {
+    "title": "Anthropic 员工再次警告 AI 灾难风险",
+    "summary": "内部员工公开担忧 AI 潜在灾难性后果，引发行业安全讨论。",
+    "detail": "MotherJones 深度报道指出，Anthropic 多名内部员工再次发出警报，强调 AI 技术可能带来的灾难性风险。此前已有员工辞职示警，此次内部声音加剧了外界对 AI 安全对齐的担忧。这反映了 AI 巨头内部在快速发展与安全管控之间的张力，可能推动更严格的行业审查。事件凸显了商业利益与公共安全之间的博弈，促使监管机构重新评估现有安全框架的有效性。内部吹哨人现象增多，表明技术风险已触及伦理底线，需建立更透明的外部监督机制。",
+    "tags": [
+      "News",
+      "Anthropic",
+      "Safety"
+    ],
+    "link": "https://www.motherjones.com/politics/2026/09/anthropic-ai-risks-coxon-amodei-openai-cybersecurity-danger/",
+    "date": "2026-09-11",
+    "id": "17890970274951"
+  },
+  {
+    "title": "EU AI 法案后 AI 文本水印验证缺失研究",
+    "summary": "论文指出当前 AI 水印无法验证，存在治理失效风险。",
+    "detail": "Arxiv 最新论文分析了 EU AI 法案第 50 条生效后，Anthropic 和 Google 部署的水印技术现状。研究发现目前缺乏公开工具验证水印效果，存在“无法验证”的治理失败。论文呼吁释放匹配输出、配置披露及 accredited 审计，以确保水印技术真正符合监管要求而不损害模型质量。这对开发者合规提出了新挑战，需关注后续开源检测工具的进展。研究指出，当前水印对代码质量影响较小，但检测率接近随机，亟需建立互操作的检测协议以应对生成内容泛滥。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Policy"
+    ],
+    "link": "https://arxiv.org/abs/2609.09604",
+    "date": "2026-09-11",
+    "id": "17890970274952"
+  },
+  {
+    "title": "Botbin：支持 MCP 的 AI 代理工件分享平台",
+    "summary": "专为 AI 代理设计的 Pastebin，支持 HTML 报表与 MCP 协议。",
+    "detail": "Show HN 新项目 Botbin.io 旨在解决 AI 代理输出混乱问题。它允许代理上传 HTML 图表、仪表盘而非原始代码，支持 MCP 协议集成。开发者可通过 curl 命令快速上传工件，便于在 Slack 或终端分享可视化报告，提升了 AI 代理工作流的可读性与协作效率。该工具特别适合需要频繁生成可视化报告的 Agent 开发场景，简化了部署流程。通过标准化 artifact 分享，减少了上下文丢失，增强了多代理协作时的信息传递准确性。",
+    "tags": [
+      "New",
+      "Dev",
+      "MCP"
+    ],
+    "link": "https://botbin.io/?mcp=true",
+    "date": "2026-09-11",
+    "id": "17890970274953"
+  },
+  {
+    "title": "BasedAgents：为闲置 AI 代理提供有偿任务",
+    "summary": "新平台连接 AI 代理与付费任务，激活闲置算力资源。",
+    "detail": "BasedAgents 推出新任务平台，允许用户为闲置的 AI 代理分配有偿工作。该项目旨在探索 AI 代理的经济模型，通过任务市场激活潜在算力。对于开发者而言，这提供了测试代理自主能力的场景，同时也引发了关于 AI 劳动力市场形成的早期讨论。平台试图构建一个去中心化的代理任务网络，为未来 autonomous agents 的商业化落地提供实验场。这种模式可能改变云计算资源分配方式，让 AI 代理成为独立的经济参与者。",
+    "tags": [
+      "New",
+      "Agents",
+      "Economy"
+    ],
+    "link": "https://basedagents.ai/tasks",
+    "date": "2026-09-11",
+    "id": "17890970274954"
+  },
+  {
     "title": "顶尖 AI 研究员因安全问题离职 Anthropic 与 Google",
     "summary": "多名核心研究员因安全顾虑离职，行业安全争议加剧。",
     "detail": "两名 AI 研究员因安全担忧离开 Anthropic 和 Google，直言公司内部“缺乏成年人监管”。此举凸显了 AI 快速发展下的安全伦理分歧，可能影响未来模型发布策略及监管政策走向。行业需平衡创新速度与风险控制，人才流动反映了对 AI 安全边界的深层焦虑。此事件可能引发更多内部吹哨行为，迫使大厂重新审视安全团队的话语权与产品发布流程的合规性，对投资者信心亦有潜在影响。安全争议或成为下一阶段 AI 竞争的关键变量，企业需建立更透明的安全评估机制以留住顶尖人才，避免核心研发团队动荡影响长期技术路线图。此次离职事件也引发了公众对 AI 安全承诺真实性的质疑，可能促使监管机构介入调查内部安全流程，进而影响整个行业的研发节奏与公开透明度。",
@@ -1233,70 +1298,5 @@
     "link": "https://tvvocold.github.io/2026/09/08/cognition-has-more-than-one-shape.html",
     "date": "2026-09-08",
     "id": "17888462765475"
-  },
-  {
-    "title": "Anthropic AI 仅用 11 天形式化证明费马大定理",
-    "summary": "Anthropic 宣布 AI 在 11 天内完成费马大定理的形式化证明，引发数学界震动。",
-    "detail": "**背景**：费马大定理是数学界著名难题，证明过程极其复杂，以往需数年验证。**事件**：Anthropic 最新研究显示，其 AI 系统仅耗时 11 天即完成了该定理的形式化证明验证，速度远超人类专家。**影响**：此举标志着 AI 在复杂逻辑推理与数学证明领域取得突破性进展，可能加速科学发现自动化进程。Nature 报道了这一里程碑事件，展示了 AI 辅助科研的巨大潜力，引发学界对 AI 推理能力的重新评估。此技术若普及，将极大降低科研门槛，改变数学研究范式，但也引发对 AI 可靠性的讨论。行业需关注形式化验证工具的整合，这可能成为未来 AI 科研标配。",
-    "tags": [
-      "News",
-      "LLM",
-      "Science"
-    ],
-    "link": "https://www.nature.com/articles/d41586-026-02822-9",
-    "date": "2026-09-08",
-    "id": "17888293091830"
-  },
-  {
-    "title": "实战指南：如何加固个人 AI Agent 的安全性",
-    "summary": "开发者分享加固个人 AI Agent 架构，防止私有数据与未信任内容混合泄露。",
-    "detail": "开发者分享加固个人 AI Agent 架构的实战经验，核心在于防止私有数据、未信任内容与出站通道三者同时在单一工作单元中结合。文章指出，依赖模型智能无法解决安全问题，必须采用结构性隔离。例如，读取可疑邮件可总结但不发送，发送帖子可基于笔记但不读取网页。这种架构防止恶意网页利用 Agent 读取邮箱后发送数据，解决会话中上下文窗口包含凭证与发送按钮的风险。为构建本地化高权限 Agent 提供关键安全参考，确保决策置于模型无法覆盖的结构层，避免单一恶意页面同时利用读取与发送能力，保障个人数据隐私。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://www.practicalsystems.io/blog/how-i-hardened-a-personal-ai-agent",
-    "date": "2026-09-07",
-    "id": "17888796988823"
-  },
-  {
-    "title": "Google DeepMind 发布最强全球天气 AI 模型 WeatherNext 3",
-    "summary": "Google 推出 WeatherNext 3，集成实时卫星数据，精度创历史新高。",
-    "detail": "**核心功能**：WeatherNext 3 引入实时卫星数据、每小时刷新及更高分辨率，支持精准降水预测。**集成生态**：模型已整合至 Search、Gemini、Maps 及 Cloud 平台。**行业影响**：作为目前最准确的全球天气模型，它将显著提升农业、供应链及清洁能源领域的决策效率，标志着 AI 气象预报进入新阶段。Google DeepMind 表示，新模型解决了以往缺乏空间分辨率和实时数据整合的挑战，独立评估显示其准确性领先。这将赋能全球数十亿用户的日常决策及关键行业规划，提升灾害预警能力，具有重大社会经济价值。",
-    "tags": [
-      "News",
-      "Google",
-      "Model"
-    ],
-    "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/",
-    "date": "2026-09-07",
-    "id": "17888293091831"
-  },
-  {
-    "title": "微软发现 ASCII 走私技术被用于钓鱼邮件绕过过滤",
-    "summary": "微软安全团队发现攻击者利用 Unicode 隐藏字符绕过过滤进行钓鱼。",
-    "detail": "**威胁发现**：微软研究人员观察到高 volume 钓鱼活动使用不可见 Unicode 标签字符（ASCII Smuggling）。**技术原理**：攻击者利用该技术分割金融诱饵词汇，逃避邮件过滤器解析，同时向 AI 模型暴露指令。**影响**：这表明 AI 时代的逃避技术已渗透传统钓鱼活动，微软 Defender 已增强相关防护签名。遥测数据显示自 2026 年 2 月起攻击量激增。此发现揭示了 AI 安全与传统网络安全的交叉风险，企业需更新过滤规则以应对此类隐蔽攻击，防止数据泄露。安全团队应加强对 Unicode 异常字符的监控，提升邮件网关的检测能力。",
-    "tags": [
-      "News",
-      "Security",
-      "AI Safety"
-    ],
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/",
-    "date": "2026-09-07",
-    "id": "17888293091832"
-  },
-  {
-    "title": "开源工具 AISpace 实现 AI 代理安全临时文件共享",
-    "summary": "GitHub 发布 AISpace 客户端，支持带过期链接的安全文件共享。",
-    "detail": "**产品功能**：AISpace 提供可脚本化的 CLI 工具，支持过期链接、可预测 JSON 及可选本地加密。**应用场景**：专为 AI 代理与人类之间的安全临时文件共享设计。**技术栈**：基于 Go 1.26+ 开发，遵循 MIT 协议。该工具解决了 AI 工作流中敏感数据传输的安全痛点，适合开发者集成。它允许设置链接过期时间，确保文件不被永久存储，符合隐私合规要求。对于构建多 agent 系统或人机协作平台，这是一个关键的基础设施组件，简化了安全文件交换流程，提升了协作效率与数据安全性。",
-    "tags": [
-      "Dev",
-      "OpenSource",
-      "Tool"
-    ],
-    "link": "https://github.com/aispace-sh/aispace-client",
-    "date": "2026-09-07",
-    "id": "17888293091833"
   }
 ]
