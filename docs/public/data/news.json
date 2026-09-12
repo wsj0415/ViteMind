@@ -1,5 +1,57 @@
 [
   {
+    "title": "陶哲轩专访：AI 在数学中的真实成功率",
+    "summary": "菲尔兹奖得主陶哲轩详述 AI 合作现状与 hype 风险。",
+    "detail": "数学大师陶哲轩在 2026 年 7 月专访中透露，AI 解决硬问题的成功率仅 1-2%。他与 OpenAI 等公司有合作但未被直接付费，强调需披露 affiliations。访谈探讨了 AI evangelist 标签带来的 hype 风险，以及如何在推广技术与保持批判性之间平衡。他指出大多数演示都是精选案例，警告公众不要被 hype 淹没。这对评估 AI 在科研领域的实际落地能力具有重要参考意义，揭示了当前 AI 辅助科研的真实效率边界与潜在过度宣传问题。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Research"
+    ],
+    "link": "https://teorth.github.io/tao-web/ai-views-interview.html",
+    "date": "2026-09-12",
+    "id": "17892017729250"
+  },
+  {
+    "title": "RagLeap v0.4.0：开源自主 AI 业务操作系统",
+    "summary": "支持 46 种 AI 角色的自托管 RAG 引擎，无供应商锁定。",
+    "detail": "RagLeap Core 发布 v0.4.0，这是一个 MIT 许可的开源 AI 业务引擎。系统包含 46 种基于角色的 AI 员工（如 CEO、销售），支持 Graph RAG（Neo4j）及 17 种 LLM 提供商。具备自学习记忆、自动工作流触发及半自主模式，专为 regulated industries 设计。开发者可自托管部署，避免 vendor lock-in，适合构建私有化 AI 业务系统。核心优势在于本地化部署与多模型兼容，为企业数据安全提供了新的开源解决方案，降低了对单一云服务的依赖，适合需要高隐私控制的业务场景。",
+    "tags": [
+      "Dev",
+      "RAG",
+      "OpenSource"
+    ],
+    "link": "https://github.com/antonyrag/ragleap-core",
+    "date": "2026-09-12",
+    "id": "17892017729251"
+  },
+  {
+    "title": "MIT 科技评论：AI 末日危机圆桌讨论",
+    "summary": "权威媒体探讨 AI 是否存在灭绝人类的风险。",
+    "detail": "MIT Technology Review 发布关于 AI 生存危机的圆桌会议报道。文章深入探讨了 AI 是否真的会杀死全人类的议题，汇集了行业专家对 AI 安全边界的不同看法。在 2026 年 AI 技术快速发展的背景下，该讨论反映了主流科技媒体对 AI 潜在存在主义风险的关注升级，为政策制定者和开发者提供安全伦理参考。随着模型能力增强，安全对齐问题成为焦点，此次圆桌会议旨在厘清恐慌与真实风险之间的界限，推动理性对话，影响未来监管政策走向。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Ethics"
+    ],
+    "link": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
+    "date": "2026-09-12",
+    "id": "17892017729252"
+  },
+  {
+    "title": "Sharpniq：支持本地处理的 AI 图像去模糊工具",
+    "summary": "浏览器端免费 AI 去模糊，保护隐私无需上传。",
+    "detail": "Sharpniq 推出新的 AI 图像去模糊工具，主打隐私保护。用户可选择浏览器本地处理（免费，支持 4MP）或云端处理（支持 12MP）。支持 JPG、PNG、HEIC 等多种格式，无需上传即可在设备端完成 AI 推理。该工具展示了边缘 AI 技术在消费级应用中的落地，适合对隐私敏感的图片处理需求。通过本地 AI 文件下载实现零上传处理，解决了用户对云端隐私泄露的担忧，体现了 AI 工具向本地化、隐私优先方向发展的趋势，降低了使用门槛。",
+    "tags": [
+      "New",
+      "ComputerVision",
+      "Privacy"
+    ],
+    "link": "https://unblurimage.me",
+    "date": "2026-09-12",
+    "id": "17892017729253"
+  },
+  {
     "title": "Perplexity 全面信任 GPT-6 Astra 管理端到端系统",
     "summary": "Perplexity 联合创始人透露，已信任 GPT-6 Astra 处理代码测试及生产监控。",
     "detail": "Perplexity 联合创始人 Johnny Ho 透露，GPT-6 Astra 已能独立编写通信、编辑系统及监控生产软件。相比前代模型，团队检查频率显著降低，甚至信任其进行端到端测试。Perplexity 是 AI 驱动的答案引擎，专注搜索与准确性。Johnny 观察到模型写代码能力增强直接提升了搜索引擎质量，挑战在于将信息应用于现实系统，而 Astra 解决了这一点。模型生成 realistic responses 替代真实服务进行 workflow 测试。这标志着 AI 代理从辅助工具向自主系统管理者的关键转变，展示了新一代模型在复杂工作流中的可靠性提升。该案例证明高级模型已具备处理生产环境任务的信任度，为企业级 AI 部署开辟新路径，暗示未来运维自动化将成为常态，减少人工 check-in 频率。",
@@ -1246,57 +1298,5 @@
     "link": "https://palisaderesearch.org/blog/hacking-cable",
     "date": "2026-09-08",
     "id": "17889117335863"
-  },
-  {
-    "title": "使用 Latitude 管理规模化 AI 代理舰队指南",
-    "summary": "新指南展示如何监控及调试多客户 AI 代理部署。",
-    "detail": "随着 AI 代理部署增加，跟踪客户反馈及错误变得困难。Latitude 提供统一平台整合对话证据、客户评分及自定义信号，解决多渠道消息混乱问题。通过 MCP 协议，编码代理可查询证据生成报告。指南展示了如何管理包含 845 次对话的 Hermes 代理舰队，帮助咨询公司从 5 个代理扩展至 50 个以上，避免新对话成为阅读负担，提升运维效率，确保代理行为可追溯，降低客户流失风险，优化服务流程。该方案适用于需要规模化部署代理的咨询服务企业。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Management"
-    ],
-    "link": "https://latitude.so/blog/how-to-manage-a-fleet-of-agents-with-latitude",
-    "date": "2026-09-08",
-    "id": "17889117335864"
-  },
-  {
-    "title": "美 CISA 指控中国 AI 公司大规模蒸馏窃取美国模型能力",
-    "summary": "美国机构指控中国 AI 企业通过工业级知识蒸馏窃取美国模型专有功能。",
-    "detail": "美国 CISA、NSA 及 FBI 联合发布安全咨询，**指控 DeepSeek、阿里、Moonshot 等中国 AI 公司**自 2024 年底以来，通过工业级知识蒸馏活动，系统性提取美国前沿模型（如 Claude、GPT、Gemini）的专有功能。报告强调这不仅是研究，而是核心发展战略，涉及数百万次请求及数十亿 token 的数据提取。此举旨在警示组织采取缓解措施，反映了 AI 领域的地缘技术竞争加剧，可能引发更严格的数据出境及模型保护监管政策，对跨国 AI 合作构成挑战。被点名企业包括 StepFun、Z.AI 等，美方建议加强 API 监控与异常流量检测。",
-    "tags": [
-      "News",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
-    "date": "2026-09-08",
-    "id": "17889035742990"
-  },
-  {
-    "title": "AI 编程公司 Cognition 估值达 480 亿美元，融资 20 亿",
-    "summary": "Cognition 获 20 亿美元融资，估值飙升至 480 亿，彰显 AI 编程市场潜力。",
-    "detail": "开发 coding assistant Devin 的初创公司 **Cognition 宣布完成 20 亿美元融资**，估值达 480 亿美元。本轮由 a16z 等领投，距离上次融资仅四个月。公司年化营收从 4.92 亿美元增至 9 亿美元。相比之下，竞品 Cursor 此前以 600 亿美元出售给 SpaceX。高估值表明投资者认为 AI 编程市场并非赢家通吃，仍有多个巨头生存空间，尽管面临算力约束挑战。Cognition 租赁 Nvidia 集群成本高昂，但营收增长迅猛，显示企业级 AI 编码工具需求旺盛，资本持续押注该赛道，验证了 AI 软件工程的商业化潜力。",
-    "tags": [
-      "News",
-      "Funding",
-      "Coding"
-    ],
-    "link": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
-    "date": "2026-09-08",
-    "id": "17889035742991"
-  },
-  {
-    "title": "黑客利用漏洞窃取 Claude 订阅用户 Token 额度",
-    "summary": "用户发现 Claude 账户 Token 异常消耗，Anthropic 确认会话密钥遭泄露滥用。",
-    "detail": "多位 Claude 订阅用户报告 token 用量异常激增。独立顾问 Grant de Swardt 发现未工作时 token 消耗仍在增加。**Anthropic 调查后确认为 compromised session key 被用于 mint 未经授权的 OAuth tokens**。公司暂停了受影响账户并发放部分退款。此事件暴露了 AI 代理服务中的安全风险，提醒开发者需注意会话密钥管理，防止第三方服务滥用凭证导致额度损失。随着 AI Agent 普及，此类凭证泄露风险可能增加，用户应定期检查账户活动并启用额外验证，服务商也需加强会话令牌的生命周期管理与异常行为监控机制，保障用户资产安全。",
-    "tags": [
-      "News",
-      "Security",
-      "Anthropic"
-    ],
-    "link": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
-    "date": "2026-09-08",
-    "id": "17889035742992"
   }
 ]
