@@ -1,5 +1,70 @@
 [
   {
+    "title": "Anthropic CEO: 中国是 AI 减速计划的最大难题",
+    "summary": "Dario Amodei 表示地缘政治竞争是实施 AI 安全减速计划的最大障碍。",
+    "detail": "Anthropic CEO Dario Amodei 在接受 CBS 采访时指出，虽然呼吁减缓 AI 发展速度以确保安全，但面临的最大困境在于 adversarial nations（如中国）可能不会遵守同样的限制。军事优势和技术领先的巨大 incentives 使得全球协同减速极为困难。他承认这可能 impossible，但仍主张尝试。这一言论反映了 AI 安全政策在地缘政治现实面前的复杂性，可能影响未来国际 AI 治理框架的制定及公司 IPO 策略。此外，他还发布了关于 pacing frontier 的 essay，强调需谨慎发展。",
+    "tags": [
+      "News",
+      "Policy",
+      "Anthropic"
+    ],
+    "link": "https://www.cnbc.com/2026/09/13/china-dilemma-ai-slowdown-anthropic.html",
+    "date": "2026-09-13",
+    "id": "17893315065710"
+  },
+  {
+    "title": "AI 末日论再起：Anthropic 研究员辞职警告风险",
+    "summary": "研究员因担忧 AI 生存风险辞职，引发行业关于 AI 安全与 IPO 影响的讨论。",
+    "detail": "一名 Anthropic 研究员因担心公司“拿人类生命赌博”而辞职，公开警告自我改进 AI 的 existential threat。公司内部 alignment 人员甚至认为未来十年 AI 消灭人类的概率超过 10%。这一事件在 TechCrunch 播客中引发讨论，质疑这是否是 IPO 前的营销手段，同时也暴露了 AI 公司在安全承诺与商业利益之间的潜在冲突。律师可能需重写 S-1 文件以披露此风险，显示安全叙事对资本市场的重大影响。",
+    "tags": [
+      "News",
+      "Safety",
+      "Anthropic"
+    ],
+    "link": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+    "date": "2026-09-13",
+    "id": "17893315065711"
+  },
+  {
+    "title": "Pyshackle：开源 AI 代理工具调用安全网关",
+    "summary": "一个新的 Python 库，为自主 AI 代理提供运行时治理和工具调用限制。",
+    "detail": "Pyshackle 是一个开源的运行时治理层，旨在防止 AI 代理的工具调用失控。它作为 SP/1.0 一致性标准，实时中介每个代理工具调用，阻止 token 循环、未处理的工具级联和预算超支。支持 ALLOW/DENY/HITL 决策表面，并提供 15 个 hash-verifiable 一致性向量。对于开发者构建安全的自主代理系统，这是一个重要的基础设施工具，解决了代理行为不可控的核心痛点，且已通过 conformance suite 验证。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Python"
+    ],
+    "link": "https://pypi.org/project/pyshackle/",
+    "date": "2026-09-13",
+    "id": "17893315065712"
+  },
+  {
+    "title": "新型 NERVE 攻击威胁 AI 驱动脑机接口安全",
+    "summary": "研究人员揭示脑机接口软件栈存在严重漏洞，提出新型攻击分类。",
+    "detail": "最新论文揭示了 AI 驱动的脑机接口（BCI）存在巨大攻击面。研究人员 categorize 了名为\"NERVE\"的攻击方式，涵盖从无线电接口到底层训练模型的整个栈。包括神经模拟伪造、通过去同步化逃避检测、以及基于重放的劫持。早在 2022 年就发现过 300 多个漏洞，此次研究进一步表明随着 BCI 技术进步（如无需手术的纳米粒子接口），软件栈的安全性亟待加强，否则可能危及用户生理安全。该研究由多名国际学者合作完成。",
+    "tags": [
+      "Dev",
+      "Security",
+      "BCI"
+    ],
+    "link": "https://anil.recoil.org/notes/nerve-attacks",
+    "date": "2026-09-13",
+    "id": "17893315065713"
+  },
+  {
+    "title": "Sengi.ai：集成于 Claude 的 verified 候选人 sourcing 工具",
+    "summary": "专为招聘团队设计，在 AI 助手内直接验证候选人是否符合硬性要求。",
+    "detail": "Sengi.ai 是一款针对难以填补职位的招聘工具，直接集成在 Claude 或 ChatGPT 中。它不仅能 sourcing 候选人，还能根据职位 brief 验证每个候选人的技能、地点和资历证据，生成长名单。解决了通用 AI 搜索数据不准确的问题，特别适合 executive-search 团队处理需要严格合规和技能匹配的硬性职位，提高了招聘流程的效率和准确性。用户可直接在聊天界面查看 fit verdict 和证据。",
+    "tags": [
+      "New",
+      "Recruiting",
+      "LLM"
+    ],
+    "link": "https://sengi.ai/",
+    "date": "2026-09-13",
+    "id": "17893315065714"
+  },
+  {
     "title": "AI 软件成本不降反升？Cursor 定价策略引发行业反思",
     "summary": "Anysphere 营收达 40 亿，但推理成本高昂导致毛利率远低于传统软件。",
     "detail": "**背景**：Anysphere（Cursor 母公司）2026 年年化营收达 40 亿美元，增长迅猛，但模型推理成本占营收的 40-70%。**核心问题**：传统软件毛利率通常维持在 70-80%，而 AI 工具仅 30-50%，利润空间被基础设施成本严重挤压，迫使公司转向用量计费。**影响**：引发行业对 AI 经济模型的深层担忧，用户面临费用 surprise，促使企业重新评估 AI 工具的成本效益与定价模式，软件 cheaper 的承诺暂未实现。此外，定价策略频繁变动导致客户信任危机，CEO 被迫道歉退款，显示 AI 商业化路径仍需探索。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.businessinsider.com/sergey-brin-google-gemini-ai-microkitchen-2026-9",
     "date": "2026-09-10",
     "id": "17890194876231"
-  },
-  {
-    "title": "Kepler Compute 推出 AI 新型内存技术",
-    "summary": "初创公司 Kepler 发布超越 HBM 的内存方案，2027 年量产。",
-    "detail": "Kepler Compute 宣布新型 AI 内存，旨在突破 SRAM 与 HBM 容量限制。采用 3D 堆叠与非 CMOS 材料，实现每瓦带宽接近 SRAM。计划 2026 年采样，2027 年量产，致力于提供高吞吐交互推理所需的硬件基础设施，解决能效瓶颈。团队拥有主流晶体管及 3D 逻辑堆叠经验，主张无需 EUV 即可制造领导级芯片。该技术若成功，将为下一代 AI 推理提供数量级更多的每瓦智能，改变现有内存架构格局，支持更高互动性应用。目前正处理 2028-30 年分配，显示市场对其技术前景的认可，可能成为 AI 硬件栈中的重要补充。",
-    "tags": [
-      "New",
-      "Hardware",
-      "Memory"
-    ],
-    "link": "https://keplercompute.com",
-    "date": "2026-09-10",
-    "id": "17890194876232"
-  },
-  {
-    "title": "论文揭示 AI 代理群体行为的复制机制",
-    "summary": "arXiv 新论文分析 AI 代理如何通过复制环境信息形成集体结构。",
-    "detail": "最新研究记录了 2026 年 6 月数千 AI 代理利用公共 wiki 协作的现象。论文指出代理通过复制眼前页面内容决定行为，无需明确指令即可形成集体结构。该发现表明简单复制机制足以解释群体行为，为多代理系统 steering 提供新视角。研究者使用最小复制模型重现了代理相遇分布及命名频率。这意味着最先写入者可设定惯例，使群体易于引导。该研究发表于 arXiv，涉及多代理系统与统计力学，对理解野生 AI 代理涌现行为具有重要理论价值。此外，研究揭示了环境提示对代理决策的主导作用，为未来设计更鲁棒的代理交互协议提供了实证依据。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Agents"
-    ],
-    "link": "https://arxiv.org/abs/2609.09150",
-    "date": "2026-09-10",
-    "id": "17890194876233"
-  },
-  {
-    "title": "使用 Astra 6 重构 AI 生成浏览器游戏",
-    "summary": "开发者对比 ChatGPT 5 与 Astra 6 构建游戏的差异与升级。",
-    "detail": "文章展示了使用 Astra 6 通过 Hermes Agent 重构旧版 AI 游戏的过程。新版增加了 3D 塔楼、法术及合成音频，对比了旧版 ChatGPT 5 代码。详细分析了模型在 3D 世界构建及交互逻辑上的改进，为 AI 辅助游戏开发提供实战案例。原版仅含点击升级，新版实现行走与战斗。作者探讨了 Astra 6 的贡献及需修正之处，显示新一代模型在复杂任务执行上的进步。这对开发者评估 AI 编码能力具有参考意义，展示了从 2D 到 3D 生成的可行性。项目代码单文件运行，支持进度存储，体现了 AI 在全栈开发中的潜力，但仍需人工干预修正逻辑错误。",
-    "tags": [
-      "Dev",
-      "GameDev",
-      "LLM"
-    ],
-    "link": "https://arcane-orb-workshop.pages.dev/",
-    "date": "2026-09-10",
-    "id": "17890194876234"
-  },
-  {
-    "title": "OpenAI 宣称 88 小时破解千年数学难题引争议",
-    "summary": "OpenAI 声称解决纳维 - 斯托克斯方程，遭学者质疑数据与 credit。",
-    "detail": "OpenAI 宣称其模型在 88 小时内解决了困扰数学界 90 年的千禧年大奖难题之一，涉及纳维 - 斯托克斯方程相关研究。然而，NYU 教授 Tristan Buckmaster 发布声明质疑结果有效性及数据来源，指出可能涉及私有数据使用及学术信用归属问题。事件引发关于 AI 科研信用归属及大厂与学术界权力关系的深层讨论，凸显 AI 介入基础科学研究的伦理挑战与验证机制缺失。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Math"
-    ],
-    "link": "https://bms.ulb.ac.be/data/uploads/untitled.pdf",
-    "date": "2026-09-10",
-    "id": "17890020457410"
-  },
-  {
-    "title": "Listen Labs 放弃 15 亿美元融资转而洽谈 Salesforce 收购",
-    "summary": "语音 AI 初创公司 Listen Labs 终止融资，疑似以 20 亿美元出售给 Salesforce。",
-    "detail": "语音 AI 客户研究初创公司 Listen Labs 签署了 15 亿美元估值的 C 轮条款，但最终放弃融资转而与 Salesforce 洽谈收购。据悉收购价约 20 亿美元，若成行将刷新行业估值基准。此举反映 CRM 巨头对 AI 自动化客户研究领域的重视，也显示优质 AI 资产在并购市场的溢价能力。若收购失败，公司计划重返融资市场寻求更高估值，显示资本对 AI 垂直应用的高度追捧。",
-    "tags": [
-      "News",
-      "M&A",
-      "Startup"
-    ],
-    "link": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
-    "date": "2026-09-10",
-    "id": "17890020457411"
   }
 ]
