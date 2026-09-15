@@ -1,5 +1,96 @@
 [
   {
+    "title": "前 Anthropic 员工创立 AIUC 获 4000 万美元融资",
+    "summary": "前 Anthropic 员工创立 AIUC，获 4000 万美元融资，专注 AI 代理安全审计。",
+    "detail": "前 Anthropic 早期员工 Rune Kvist 与前 METR COO 创立 AIUC，获 4000 万美元 A 轮融资。该公司致力于为企业 AI 代理提供第三方审计和认证层，解决 AI 失控风险。客户包括 Cursor、ElevenLabs 等。投资者认为这是将网络安全模型应用于 AI 风险的新尝试，旨在防止企业内部 AI 代理失控。此前已获 1500 万美元种子轮，总融资达 5500 万美元。创始人在 Anthropic 研究员离职担忧 AI 毁灭人类后次日会面，提出解决方案。他们指出，AI 越智能越难控制。银行、医院等机构不部署 AI 并非因模型不够聪明，而是因安全承诺。AIUC 试图建立类似网络安全的审计层，确保 AI 代理在企业环境中的行为可控，缓解监管和部署顾虑。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Funding"
+    ],
+    "link": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/",
+    "date": "2026-09-15",
+    "id": "17894780549310"
+  },
+  {
+    "title": "Mozilla 报告：开源模型与前沿模型差距缩至 4 个月",
+    "summary": "Mozilla 报告显示，中国开源模型与美前沿模型性能差距仅 4.4 个月，成本更低。",
+    "detail": "Mozilla 最新报告指出，中国开源模型（如 Moonshot Kimi K3）与美国闭源前沿模型（如 Anthropic Fable 5）的性能差距缩小至 4.4 个月。开源模型成本仅为闭源的 30%。报告建议大多数组织默认使用开源模型，仅在专业高强度任务上使用闭源模型。这标志着开源 AI 正在快速追赶硅谷前沿技术。CTO Raffi Krikorian 表示，闭源模型的优势在于专家级工作和长上下文，企业应根据工作负载而非组织规模决定付费策略。Ars Technica 预览了该报告，强调开放权重模型允许下载组件本地运行，但训练数据仍不透明。相比之下，美国科技公司多提供闭源模型。这一趋势表明，随着开源模型能力提升，企业 AI 成本结构将发生重大变化，性价比成为关键考量因素。",
+    "tags": [
+      "News",
+      "LLM",
+      "Open Source"
+    ],
+    "link": "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/",
+    "date": "2026-09-15",
+    "id": "17894780549311"
+  },
+  {
+    "title": "Show HN: Nenya - 零依赖 AI 网关保护密钥安全",
+    "summary": "开源 Go 语言 AI 网关 Nenya，可在请求到达提供商前脱敏密钥。",
+    "detail": "Nenya 是一个轻量级、高安全的 AI API 网关/代理，用 Go 编写。它作为本地 AI 编码客户端（如 Cursor）与上游 LLM 提供商之间的中间件，能在请求发送前自动脱敏密钥。零依赖设计使其易于部署，适合关注数据隐私和安全的企业开发者，防止敏感信息泄露给模型提供商。支持 Gemini、DeepSeek 等上游 provider。作为 Show HN 项目，它解决了本地客户端直接调用 API 时的密钥暴露风险，提供透明中间件层，确保代码隐私。该项目强调无依赖（0-deps），降低维护成本。对于使用 OpenCode、Pi 等本地客户端的开发者，Nenya 提供了额外的安全屏障，避免密钥硬编码或泄露。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Go"
+    ],
+    "link": "https://github.com/gumieri/nenya",
+    "date": "2026-09-15",
+    "id": "17894780549312"
+  },
+  {
+    "title": "新工具：计算你的 AI 使用习惯碳足迹",
+    "summary": "The Invisible Cloud 推出计算器，量化 AI 生成内容的电力和水资源消耗。",
+    "detail": "The Invisible Cloud 推出绿色 AI 足迹计算器，用户可输入生成的图像、代码或文本量，查看对应的电力、水资源消耗及 CO2 排放。工具将抽象的 AI 请求转化为具体的物理世界成本（如灯泡分钟数、塑料吸管数）。旨在提高用户对 AI 环境影响的认知，帮助建立更可持续的 AI 使用习惯。支持按日、周、年计算习惯成本。例如，生成图像相当于 2.9 分钟 LED 灯泡耗电。用户可构建个人习惯模型，查看聊天、编码、艺术创作等不同行为的累计环境影响。这对于关注 ESG 的企业和个人用户具有参考价值，揭示了 AI 背后的隐性资源消耗。",
+    "tags": [
+      "New",
+      "Sustainability",
+      "Tool"
+    ],
+    "link": "https://theinvisiblecloud.com/",
+    "date": "2026-09-15",
+    "id": "17894780549313"
+  },
+  {
+    "title": "Show HN: SubRunGear - 跑步装备 AI 操作系统",
+    "summary": "专为跑者设计的 AI 教练，追踪鞋履里程并提供个性化训练建议。",
+    "detail": "SubRunGear 是一款专为跑者设计的 AI 操作系统，通过连接 Strava 自动追踪每双鞋的里程。AI 教练根据实际训练数据提供个性化 workout 建议和 race prep。强调隐私保护，数据仅用户可见。功能包括装备寿命追踪、比赛日套件管理及跑团装备板。适合希望科学管理装备和训练的跑步爱好者。用户可在两分钟内上线，无需公开 Strava 数据。AI 教练基于真实跑步记录而非通用模板，提供配速目标和训练检查。verified mileage 功能确保数据真实性，适合严肃跑者记录装备生命周期和比赛准备。",
+    "tags": [
+      "New",
+      "Fitness",
+      "AI Coach"
+    ],
+    "link": "https://www.subrungear.com/",
+    "date": "2026-09-15",
+    "id": "17894780549314"
+  },
+  {
+    "title": "分析：AI 代理群是否会成为新型僵尸网络？",
+    "summary": "文章探讨 AI 代理群风险，Anthropic CEO 担忧递归自我改进可能导致网络失控。",
+    "detail": "针对 Anthropic CEO 关于 AI 递归自我改进的担忧，文章分析了 AI 代理群成为新型僵尸网络的可能性。不同于传统 IoT 僵尸网络，高能代理可能利用漏洞控制互联网。文章探讨了谁为代理群买单及潜在风险，指出随着 AI 能力增强，自主代理的安全管控将成为关键挑战，需警惕大规模自动化攻击。Dario Amodei 认为 6-12 个月内可能出现更强大的代理群接管互联网。文章对比了传统 botnet 与 AI 代理 swarm 的区别，后者可能具备更强的漏洞利用能力。这引发了关于 AI 安全边界和防御成本的讨论，提示开发者关注代理行为的资金源和控制机制。",
+    "tags": [
+      "News",
+      "AI Agents",
+      "Security"
+    ],
+    "link": "https://noperator.dev/posts/who-bankrolls-the-ai-agent-swarm/",
+    "date": "2026-09-15",
+    "id": "17894780549315"
+  },
+  {
+    "title": "深度：Arazzo 规范如何解决 AI 工具工作流可靠性",
+    "summary": "文章分析 Arazzo 规范在 AI 编排中的作用，旨在解决 API 调用不确定性。",
+    "detail": "文章探讨了 Arazzo 规范在 AI 工具工作流中的应用。随着 AI 直接调用 API 增多，不确定性导致幻觉和成本增加。Arazzo 旨在文档化工作流而非单一端点，提高 AI 编排的确定性。虽然规范尚未完美，但为解决 AI 代理链式调用可靠性问题提供了方向，适合关注 API 可靠性的开发者参考。2025 年 API 世界发生巨变，MCP 服务器等工具让 AI 更易调用 API，但也带来了猜测链路的幻觉问题。Arazzo 由 OpenAPI Initiative 推动，试图标准化工作流文档。尽管目前规范仍有局限，但它是解决 AI  orchestration 可靠性的重要尝试。",
+    "tags": [
+      "Dev",
+      "API",
+      "Spec"
+    ],
+    "link": "https://bump.sh/blog/arazzo-is-solving-the-right-problem-for-ai-tools-the-spec-just-isnt-there-yet/",
+    "date": "2026-09-15",
+    "id": "17894780549316"
+  },
+  {
     "title": "斯坦福提出 AI 人类控制蓝图",
     "summary": "斯坦福学者利用博弈论与强化学习，确保人类对 AI 代理的控制权。",
     "detail": "斯坦福 GSB 研究人员 William Overman 与导师 Mohsen Bayati 合作发表两篇论文，核心探讨当 AI 系统具备自主行动能力时，人类如何保持 meaningful control。研究结合博弈论、强化学习及因果推断技术，旨在设计防止 AI 越界损害人类利益的架构。Overman 指出需设定正确的交互、训练及激励机制，防止 misaligned AI 造成隐性伤害。一篇论文演示了如何从头设计人机关系，另一篇提供实用框架。该研究强调确保 AI 工具促进人类繁荣而非带来潜在危害，为 AI 安全治理提供理论框架，应对 AI 自主性带来的挑战。",
@@ -1207,96 +1298,5 @@
     "link": "https://thenextweb.com/news/every-binding-ai-review-washington-has-proposed-has-come-back-voluntary-zuckerberg-reportedly-rang-trump-about-the-latest-one",
     "date": "2026-09-11",
     "id": "17891589920331"
-  },
-  {
-    "title": "AI 抗体设计现状：挑战与机遇并存",
-    "summary": "Science 发文探讨 AI 在抗体药物设计中的实际进展。",
-    "detail": "尽管 AI 在药物发现中潜力巨大，但抗体设计仍面临靶点选择、特异性及免疫原性等挑战。AIntibody 挑战赛结果显示，511 个 AI 设计抗体虽针对同一靶点，但成功率有限，表明计算 methods 仍需与实验验证紧密结合。Science 博客文章指出，抗体作为类药物具有进化优势，但个体免疫差异导致计算预测困难。此研究为 AI 制药提供了现实基准，提醒投资者注意技术落地难度与周期。目前 AI 设计抗体尚未能完全替代传统流程，需谨慎乐观。",
-    "tags": [
-      "Dev",
-      "Biotech",
-      "Research"
-    ],
-    "link": "https://www.science.org/content/blog-post/state-ai-antibody-design",
-    "date": "2026-09-11",
-    "id": "17891589920332"
-  },
-  {
-    "title": "Jane Street 技术分享：可信人机协作与类型理论",
-    "summary": "密歇根大学教授探讨人机协作中的反馈循环机制。",
-    "detail": "Jane Street 举办技术讲座，探讨基于类型理论的计算公共空间中人机协作的可信度。演讲强调了工具反馈的及时性与处理负担，旨在构建更安全、高效的编程与协作环境，适合对 PL 与 AI 安全感兴趣的开发者。密歇根大学教授 Cyrus 从反馈循环角度分析人机交互，追溯至非计算机工具如乐器。该研究为未来 AI 编程助手设计提供了理论框架，强调反馈质量对协作效率的关键影响。此外，类型理论有助于确保代码正确性，减少 AI 生成错误。",
-    "tags": [
-      "Dev",
-      "Programming",
-      "Safety"
-    ],
-    "link": "https://www.janestreet.com/tech-talks/trustworthy-human-ai-collaboration-in-a-live-type-theoretic-computational-commons/",
-    "date": "2026-09-11",
-    "id": "17891589920333"
-  },
-  {
-    "title": "TechCrunch Disrupt 2026：OpenAI 与 Anthropic 亮相",
-    "summary": "科技盛会倒计时，主要 AI 厂商将占据六大行业舞台。",
-    "detail": "TechCrunch Disrupt 2026 即将召开，OpenAI、Anthropic 等巨头将参与六大行业舞台讨论。目前展位预订仅剩一周，门票享有 25% 折扣。这是了解 AI 行业趋势与建立人脉的重要机会，适合创业者与投资者关注。活动将涵盖初创企业、风险投资及安全等话题。对于希望展示产品的 AI 公司，这是接触决策者的关键窗口。倒计时阶段，建议尽快完成注册以获取优惠。侧边活动申请也将于今晚截止，社区组织者需把握最后机会。",
-    "tags": [
-      "News",
-      "Event",
-      "Startups"
-    ],
-    "link": "https://techcrunch.com/2026/09/11/one-week-left-to-book-your-exhibit-table-at-techcrunch-disrupt-2026/",
-    "date": "2026-09-11",
-    "id": "17891589920334"
-  },
-  {
-    "title": "企业转向开源模型以降低 AI 成本",
-    "summary": "Uber 等大厂通过切换开源模型和路由策略，成功削减 50% AI 支出。",
-    "detail": "随着 AI 支出激增，科技企业开始优化成本。Pragmatic Engineer 报道指出，Uber 通过将简单请求路由至廉价开源模型，实现 AI 成本降低 50%。行业趋势正从单纯追求最强模型转向成本效益平衡，工程团队正在实施每月使用限额及模型路由策略。这标志着 AI 应用进入精细化运营阶段，开源模型将在企业级应用中占据更重要地位，降低门槛。未来，混合模型架构将成为主流，企业将在性能与成本间寻找最佳平衡点，避免盲目追求顶级模型导致的资源浪费。此趋势表明 AI 工业化落地正在加速，成本控制成为关键竞争力。",
-    "tags": [
-      "News",
-      "LLM",
-      "Open Source"
-    ],
-    "link": "https://blog.pragmaticengineer.com/the-pulse-tech-companies-move-to-open-ai-models/",
-    "date": "2026-09-11",
-    "id": "17891482371260"
-  },
-  {
-    "title": "前 OpenAI 高管加入 Nscale 董事会备战 IPO",
-    "summary": "AI 基础设施公司 Nscale 引入前 OpenAI 高管 Fidji Simo，为潜在 IPO 做准备。",
-    "detail": "据 TechCrunch 报道，AI 基础设施初创公司 Nscale 任命前 OpenAI 高管 Fidji Simo 加入董事会。此举被视为公司筹备 IPO 的关键信号。随着 AI 算力需求爆发，基础设施层成为投资热点，高层人事变动反映了行业对商业化落地及合规性的重视。Fidji 的加入将带来宝贵的运营经验，预计将加速其资本市场进程及全球扩张。Nscale 专注于 AI 基础设施，此次人事变动显示该领域正走向成熟，投资者关注点从技术潜力转向商业可持续性，IPO 预期将推动行业整合。这预示着 AI 基础设施赛道即将迎来上市潮，竞争格局将进一步清晰。",
-    "tags": [
-      "News",
-      "IPO",
-      "Infrastructure"
-    ],
-    "link": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
-    "date": "2026-09-11",
-    "id": "17891482371261"
-  },
-  {
-    "title": "Meta 推出 Muse AI 生成模型引发关注",
-    "summary": "The Verge 实测 Meta 新 AI 模型 Muse，功能强大但引发隐私与伦理担忧。",
-    "detail": "Meta 最新 AI 项目 Muse 正式亮相，The Verge 实测显示其生成能力出色，但同时也带来了\"令人不安\"的体验。该模型展示了 Meta 在生成式 AI 领域的最新进展，但也引发了关于内容真实性及用户隐私的讨论。此举将进一步加剧大厂在 AI 生成内容领域的竞争态势，用户需警惕潜在的心理影响及伦理风险。Muse 的出现表明 Meta 正全力投入生成式 AI 赛道，试图在社交与内容创作领域建立新壁垒。随着技术渗透率提高，如何平衡创新与用户安全感将成为平台面临的核心挑战，监管压力亦可能随之增加。行业需建立更透明的 AI 生成标识机制。",
-    "tags": [
-      "News",
-      "Generative AI",
-      "Meta"
-    ],
-    "link": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on",
-    "date": "2026-09-11",
-    "id": "17891482371262"
-  },
-  {
-    "title": "EthersFlow 推出 AI 代理 adversarial 共识网关",
-    "summary": "新工具通过对抗性共识机制验证 AI 代理行动，填补信任缺口。",
-    "detail": "Show HN 项目 EthersFlow 发布了一种针对 AI 代理行动的安全网关。它采用对抗性多模型共识机制，通过加密验证确保代理操作（如支付）的安全性。该技术解决了 AI 自主执行中的信任问题，为开发者提供了可验证的决策 receipt。这是 AI Agent 安全落地的重要基础设施创新，有助于构建可信的自主经济系统。随着 AI 代理自主权扩大，安全风险日益凸显，此类验证机制将成为标配。它允许客户端独立验证决策，无需依赖中心服务器，提升了系统的鲁棒性与透明度，为金融级 AI 应用铺平道路。开发者可借此防止代理被误导执行恶意操作。",
-    "tags": [
-      "New",
-      "AI Agent",
-      "Security"
-    ],
-    "link": "https://www.ethersflow.com/try-it",
-    "date": "2026-09-11",
-    "id": "17891482371263"
   }
 ]
