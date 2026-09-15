@@ -1,5 +1,70 @@
 [
   {
+    "title": "斯坦福提出 AI 人类控制蓝图",
+    "summary": "斯坦福学者利用博弈论与强化学习，确保人类对 AI 代理的控制权。",
+    "detail": "斯坦福 GSB 研究人员 William Overman 与导师 Mohsen Bayati 合作发表两篇论文，核心探讨当 AI 系统具备自主行动能力时，人类如何保持 meaningful control。研究结合博弈论、强化学习及因果推断技术，旨在设计防止 AI 越界损害人类利益的架构。Overman 指出需设定正确的交互、训练及激励机制，防止 misaligned AI 造成隐性伤害。一篇论文演示了如何从头设计人机关系，另一篇提供实用框架。该研究强调确保 AI 工具促进人类繁荣而非带来潜在危害，为 AI 安全治理提供理论框架，应对 AI 自主性带来的挑战。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Research"
+    ],
+    "link": "https://www.gsb.stanford.edu/insights/blueprint-keeping-humans-control-ai",
+    "date": "2026-09-15",
+    "id": "17894568852490"
+  },
+  {
+    "title": "KnowBench：临床 AI 努力减少基准",
+    "summary": "推出临床 AI 新基准 KnowBench，以努力减少率为核心评估指标。",
+    "detail": "Knowtex 推出 KnowBench，旨在解决临床 AI 评估脱离实际的问题。传统评估基于参考相似度，而 KnowBench 统一指标为“努力减少”（ER），即 clinician 接受的系统生成工作比例。基于超百万次诊疗 encounter 数据，覆盖 13 个医疗 specialty，其微调临床基础模型在封闭反馈架构下 achieves 97.99% 的 aggregate ER。该基准提供了可审计的报告协议，使不同系统间的效率主张具备可比性，推动医疗 AI 落地评估标准化，确保 AI 真正减少医生负担而非增加审核成本。",
+    "tags": [
+      "Dev",
+      "Healthcare",
+      "Benchmark"
+    ],
+    "link": "https://arxiv.org/abs/2609.15794",
+    "date": "2026-09-15",
+    "id": "17894568852491"
+  },
+  {
+    "title": "Jinfer：JVM 原生 AI 推理引擎",
+    "summary": "专为 JVM 打造的 AI 推理引擎，支持 GGUF 格式与原生速度。",
+    "detail": "Quixotic AI 发布 Jinfer，这是一个专为 Java 虚拟机设计的 AI 推理引擎。它支持聊天、视觉、嵌入及 TTS 功能，并能与 Spring AI 和 LangChain4j 集成。项目包含 Jam 量化矩阵乘法例程及 Jota 多后端张量引擎，支持 Java, C, CUDA, HIP, Metal 等后端。支持 GGUF 和 Safetensors 格式纯 Java 读写。开发者可通过 Jbang 直接在 Java 25+ 环境中运行 LLM 推理，实现\"AI in a jar\"，降低 Java 生态接入 AI 门槛，提供 native speed 体验，无需切换语言栈。",
+    "tags": [
+      "New",
+      "Java",
+      "LLM"
+    ],
+    "link": "https://qxotic.ai/",
+    "date": "2026-09-15",
+    "id": "17894568852492"
+  },
+  {
+    "title": "AI 助手基准测试平台更新",
+    "summary": "涵盖 71 个助手的多维度评分基准，实时更新测试数据。",
+    "detail": "Assistant Benchmark 平台更新了针对 71 个 AI 助手的评分卡，涵盖 15 个维度。测试基于真实使用情况，评分 1-10 分。当前显示 Muse、Instinct 等助手正在进行中或已完成部分维度测试。整体得分为已测维度的运行均值。该基准旨在提供统一的比较标准，帮助用户了解不同 AI 助手在实际任务中的表现差异，最新测试更新于 9 月 14 日，为选型提供参考，解决市场上 AI 助手性能参差不齐难以量化对比的痛点。",
+    "tags": [
+      "Dev",
+      "Benchmark",
+      "Agents"
+    ],
+    "link": "https://assistantbenchmark.com/",
+    "date": "2026-09-15",
+    "id": "17894568852493"
+  },
+  {
+    "title": "Famulor 白标 AI 语音代理平台",
+    "summary": "面向代理商的白标 AI 语音平台，支持自定义品牌与域名。",
+    "detail": "Famulor 推出面向 agencies 和 resellers 的白标 AI 语音与聊天代理平台。合作伙伴可在自有域名下 launch voice agents，客户获得带有合作伙伴 logo 的定制 dashboard。平台提供 guided partner launch 流程，处理 billing 与 customer workspaces，底层基础设施由 Famulor 支持。该方案允许代理商以自有品牌销售 AI 语音服务，简化了 AI 产品的转售与定制化部署流程，适合希望快速扩展 AI 业务的服务商，无需自建底层技术栈即可交付 AI 能力。",
+    "tags": [
+      "New",
+      "Voice AI",
+      "SaaS"
+    ],
+    "link": "https://www.famulor.io/whitelabel",
+    "date": "2026-09-15",
+    "id": "17894568852494"
+  },
+  {
     "title": "桑德斯提议监禁超级智能 AI 开发者",
     "summary": "伯尼·桑德斯提出对开发超级智能 AI 的人员判处 20 年监禁，引发政策震动。",
     "detail": "美国参议员伯尼·桑德斯提出了一项激进的政策提案，建议对开发超级智能人工智能的开发者处以高达 20 年的监禁。这一提议反映了政界对 AI 安全风险日益增长的担忧，试图通过严厉的法律后果来遏制潜在的失控风险。此举可能迫使 AI 实验室重新评估研发策略，并在合规与安全之间寻找平衡，标志着 AI 监管正从指导原则转向刑事问责。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.ethersflow.com/try-it",
     "date": "2026-09-11",
     "id": "17891482371263"
-  },
-  {
-    "title": "U4RIA 推出 AI 个性化情感健康应用",
-    "summary": "结合动态音频与 AI 定制，提供冥想睡眠服务，渗透垂直消费领域。",
-    "detail": "U4RIA 推出全新情感健康应用，核心功能整合动态音频技术与 AI 个性化推荐，涵盖冥想、睡眠故事及焦虑缓解。提供定制化健康路径与社区支持，采用订阅制收费模式。体现 AI 技术向垂直消费领域深度渗透，利用个性化算法显著提升心理健康服务体验，预示数字健康市场竞争将进一步加剧。",
-    "tags": [
-      "New",
-      "Health",
-      "Consumer"
-    ],
-    "link": "https://u4riahub.com/",
-    "date": "2026-09-11",
-    "id": "17891160905862"
-  },
-  {
-    "title": "OpenAI 考虑放缓尖端 AI 研发步伐",
-    "summary": "CEO 山姆·阿尔特曼向员工表示愿意减缓前沿 AI 开发速度。",
-    "detail": "彭博社独家报道，OpenAI CEO 山姆·阿尔特曼在内部会议中告知员工，公司正持开放态度考虑减缓尖端 AI 技术的研发步伐。这一表态标志着行业领头羊可能从“速度优先”战略转向“安全优先”。在当前 AI 安全风险争议加剧、监管压力增大的背景下，此举可能引发行业连锁反应，影响后续大模型发布节奏及全球监管政策走向，为 AI 治理提供新范式。此消息若属实，将显著改变投资者预期，可能导致短期估值波动，但长期有利于行业可持续发展。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Policy"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-09-11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff",
-    "date": "2026-09-11",
-    "id": "17890970274950"
-  },
-  {
-    "title": "Anthropic 员工再次警告 AI 灾难风险",
-    "summary": "内部员工公开担忧 AI 潜在灾难性后果，引发行业安全讨论。",
-    "detail": "MotherJones 深度报道指出，Anthropic 多名内部员工再次发出警报，强调 AI 技术可能带来的灾难性风险。此前已有员工辞职示警，此次内部声音加剧了外界对 AI 安全对齐的担忧。这反映了 AI 巨头内部在快速发展与安全管控之间的张力，可能推动更严格的行业审查。事件凸显了商业利益与公共安全之间的博弈，促使监管机构重新评估现有安全框架的有效性。内部吹哨人现象增多，表明技术风险已触及伦理底线，需建立更透明的外部监督机制。",
-    "tags": [
-      "News",
-      "Anthropic",
-      "Safety"
-    ],
-    "link": "https://www.motherjones.com/politics/2026/09/anthropic-ai-risks-coxon-amodei-openai-cybersecurity-danger/",
-    "date": "2026-09-11",
-    "id": "17890970274951"
-  },
-  {
-    "title": "EU AI 法案后 AI 文本水印验证缺失研究",
-    "summary": "论文指出当前 AI 水印无法验证，存在治理失效风险。",
-    "detail": "Arxiv 最新论文分析了 EU AI 法案第 50 条生效后，Anthropic 和 Google 部署的水印技术现状。研究发现目前缺乏公开工具验证水印效果，存在“无法验证”的治理失败。论文呼吁释放匹配输出、配置披露及 accredited 审计，以确保水印技术真正符合监管要求而不损害模型质量。这对开发者合规提出了新挑战，需关注后续开源检测工具的进展。研究指出，当前水印对代码质量影响较小，但检测率接近随机，亟需建立互操作的检测协议以应对生成内容泛滥。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Policy"
-    ],
-    "link": "https://arxiv.org/abs/2609.09604",
-    "date": "2026-09-11",
-    "id": "17890970274952"
-  },
-  {
-    "title": "Botbin：支持 MCP 的 AI 代理工件分享平台",
-    "summary": "专为 AI 代理设计的 Pastebin，支持 HTML 报表与 MCP 协议。",
-    "detail": "Show HN 新项目 Botbin.io 旨在解决 AI 代理输出混乱问题。它允许代理上传 HTML 图表、仪表盘而非原始代码，支持 MCP 协议集成。开发者可通过 curl 命令快速上传工件，便于在 Slack 或终端分享可视化报告，提升了 AI 代理工作流的可读性与协作效率。该工具特别适合需要频繁生成可视化报告的 Agent 开发场景，简化了部署流程。通过标准化 artifact 分享，减少了上下文丢失，增强了多代理协作时的信息传递准确性。",
-    "tags": [
-      "New",
-      "Dev",
-      "MCP"
-    ],
-    "link": "https://botbin.io/?mcp=true",
-    "date": "2026-09-11",
-    "id": "17890970274953"
   }
 ]
