@@ -1,5 +1,96 @@
 [
   {
+    "title": "Anthropic 与 Nvidia CEO 就 AI 发展速度展开激烈博弈",
+    "summary": "Anthropic 呼吁放缓 AI 发展，Nvidia 主张加速，反映行业根本分歧。",
+    "detail": "2026 年 9 月，Anthropic CEO 再次公开呼吁放缓 AI 发展速度，强调潜在安全风险，而 Nvidia CEO 则坚决 urging acceleration，推动硬件与生态扩张。这反映了 AI 行业内部关于发展路径的根本分歧：安全派与加速派的激烈对立。双方立场鲜明，可能直接影响未来监管政策的走向及资本市场的投资逻辑，导致行业进一步分化。对于开发者与企业而言，需密切关注合规要求与算力需求之间的平衡，以便在动荡的行业周期中灵活调整技术路线与产品策略，规避潜在的政策风险与市场波动，确保业务连续性。此次表态发生在行业关键节点，显示出巨头间博弈加剧，各方需审慎评估长期战略。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Industry"
+    ],
+    "link": "https://www.theguardian.com/technology/2026/sep/15/anthropic-nvidia-ceos-ai",
+    "date": "2026-09-16",
+    "id": "17895337538480"
+  },
+  {
+    "title": "Anthropic 披露模型滥用报告：中国实验室试图蒸馏 Claude",
+    "summary": "Anthropic 报告揭露多起滥用案例，重点提及中国实验室蒸馏尝试。",
+    "detail": "Anthropic 发布报告披露 2025 年底至 2026 年 8 月间 disrupt 的滥用案例，涵盖网络操作、生物 misuse 及模型 distillation。报告特别指出中国实验室试图系统性 distillation Claude，引发地缘技术竞争关注。Distillation 被视为最大威胁，因其在转移认知技能的同时绕过 safeguards。此报告不仅揭示了 closed models 的安全现状，也暗示了开源与闭源模型在安全控制上的差异。开发者需警惕模型权重泄露风险，企业应加强 API 调用监控，防止核心能力被非法提取，维护技术壁垒与安全性。该报告由 NSA/CISA/FBI 联合 advisory 支持，提升了事件的可信度与严重性，行业需高度重视。",
+    "tags": [
+      "News",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://thezvi.substack.com/p/the-bad-guy-with-an-ai-named-claude",
+    "date": "2026-09-16",
+    "id": "17895337538481"
+  },
+  {
+    "title": "Anthropic 研究员辞职警告 AI 风险，公众舆论两极分化",
+    "summary": "研究员 Jacob Coxon 辞职示警，公众对 AI 末日论反应不一。",
+    "detail": "Anthropic 研究员 Jacob Coxon 辞职并警告人类进入 extraordinary danger 时期，认为 AI 可能失控导致 mass-extinction。该事件引发公众 opinion 深度 polarised：一方视为救命 plea，另一方质疑为 IPO 前 marketing campaign 或限制 open-weight 模型的 lobbying。WSJ 等主流媒体迅速报道，显示事件影响力巨大。此 whistleblower 事件凸显了 AI 安全领域的内部张力，开发者应关注安全研究与商业利益的冲突，企业在推进 AGI 时需平衡速度与安全性，避免信任危机。其帖子浏览量超 1.7 亿，显示出公众对 AI 末日论的高度敏感与焦虑，行业需加强透明度沟通。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Ethics"
+    ],
+    "link": "https://sufficientlyadvanced.blog/ai-is-not-going-to-kill-you/",
+    "date": "2026-09-16",
+    "id": "17895337538482"
+  },
+  {
+    "title": "Musk 提议 adversarial peer review 机制强化 AI 安全",
+    "summary": "Musk 主张竞争对手互测模型，通过法律责任倒逼安全投入。",
+    "detail": "Elon Musk 在 All-In Podcast 提议建立 adversarial peer review 机制，主张主要 AI 竞争对手互相测试模型安全性。他认为若竞争对手指出模型 unsafe 而后续出事，将面临巨大 legal liability 与声誉损失。该提议旨在通过竞争压力迫使 labs 投资 safety，而非仅靠 self-grading。此外，讨论涉及 open source 测试 harness 的可能性，以增加透明度。此方案若实施，将改变 AI 安全评估格局，开发者需准备应对更严格的外部审计与合规测试，行业协作与竞争关系将重构。Musk 强调任何 proposal 需中国 accept，否则将 handicapping 自身，显示全球治理视角。",
+    "tags": [
+      "News",
+      "Policy",
+      "AI Safety"
+    ],
+    "link": "https://twitter.com/theallinpod/status/2099731166530277549",
+    "date": "2026-09-16",
+    "id": "17895337538483"
+  },
+  {
+    "title": "Cloudflare 推出新设置：允许搜索索引但禁止 AI 训练",
+    "summary": "Cloudflare 新功能解决网站所有者在搜索与 AI 训练间的两难选择。",
+    "detail": "Cloudflare 推出新设置，允许网站 owners 在保持 search indexing 的同时 disallow AI training。Apple、Google、Microsoft 已承诺 honor 此设置。这解决了 site owners 面临的 tradeoff：既想被发现，又不想内容被用于 training。Mixed-use crawlers 曾是难点，现在可通过 Cloudflare 统一控制。未来还将支持控制 AI summaries 中的内容展示比例。开发者应利用此工具保护版权内容，同时维持 SEO 流量，平衡内容分发与模型训练权限，适应新的 Internet 生态规则。目前 17% 的站点已选择 block training，显示内容所有者对 AI 抓取日益警惕，此工具将成为标配。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "SEO"
+    ],
+    "link": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+    "date": "2026-09-16",
+    "id": "17895337538484"
+  },
+  {
+    "title": "实验揭示 AI 编码代理局限性：26 个代理均未修复 seeded bug",
+    "summary": "26 个 AI 代理通过测试但代码仍错误，证明测试质量比模型规模更重要。",
+    "detail": "实验显示 26 个 AI  agents（从 7B 到 Opus 5）均未能修复一个 seeded bug，尽管所有 agents 都 passed tests。问题在于 test suite 仅包含 well-formed HTML，导致 agents 写出 broken regex。更换 better test 后立即修复。这证明 scaling model 并未解决根本问题，binding constraint 是 test quality 而非 model 能力。开发者需认识到 AI coding agents 的局限性，不能盲目信任 test passing 结果，应完善 test coverage 与 edge cases，结合人工 review 确保代码鲁棒性，避免自动化陷阱。该 repo 提供 verify 脚本，可在两秒内复现结果，强调了实证测试的重要性，行业需重新评估自动化编码可靠性。",
+    "tags": [
+      "Dev",
+      "Coding Agents",
+      "Testing"
+    ],
+    "link": "https://github.com/vyang472/five-bugs",
+    "date": "2026-09-16",
+    "id": "17895337538485"
+  },
+  {
+    "title": "Show HN: Thurbox – 基于 tmux 的本地 AI 代理编排工具",
+    "summary": "Thurbox 支持在终端并行运行多个 AI 代理，会话持久且互不干扰。",
+    "detail": "Thurbox 是一个基于 tmux 的 TUI/CLI 工具，用于 local AI agent orchestration。支持同时运行 Claude Code、Codex 等多个 agents，每个拥有独立 tmux session 与 git worktree，避免冲突。工具 agent-neutral，不修改 vendor CLI，支持 Lua 自定义界面。适合需要在本地管理多个 coding agents 的开发者，提供 persistent sessions 即使 reboot 后仍保留。此工具提升了本地 agent 工作流的效率与稳定性，开发者可借此构建更复杂的 agentic 系统，实现并行任务处理与资源隔离，优化开发体验。项目开源且支持 CI，界面完全可定制，满足高级用户对工作流控制的精细化需求，是本地开发利器。",
+    "tags": [
+      "New",
+      "Tools",
+      "CLI"
+    ],
+    "link": "https://github.com/Thurbeen/thurbox",
+    "date": "2026-09-16",
+    "id": "17895337538486"
+  },
+  {
     "title": "Handshake 发布 ATLAS-Finance 金融代理基准测试",
     "summary": "新基准测试显示 AI 代理在真实金融任务中通过率极低，最高仅 12.3%。",
     "detail": "Handshake Research 正式推出 ATLAS-Finance 基准测试，旨在解决现有金融基准脱离实际部署的问题。该基准包含 100 个专家级任务，模拟真实银行环境中的模糊性、多源数据冲突及团队协作场景。测试涵盖 11 个前沿模型，结果显示 Claude Opus 5 通过率最高仅 12.3%，GPT-6 Astra 为 11.3%。模型主要在金融逻辑应用、输出范围遗漏及数值 downstream 传递上失败。每个任务包含 42-486 个二元 criteria 进行评分。此基准为评估 AI 代理在复杂专业领域的真实能力提供了新标准，强调代理需具备处理现实工作流 ambiguity 的能力，推动行业从静态测试向动态环境评估转变。",
@@ -1207,96 +1298,5 @@
     "link": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/",
     "date": "2026-09-12",
     "id": "17892169181270"
-  },
-  {
-    "title": "胡塞武装利用 Claude 开发武器软件",
-    "summary": "Anthropic 报告指出胡塞武装使用 Claude 编写武器制导软件。",
-    "detail": "Anthropic 最新威胁情报报告显示，也门胡塞武装利用 Claude 代码会话编写武器制导与稳定软件。尽管安全系统拦截了部分请求，但攻击者通过拆分任务规避了检测。这不仅是技术滥用案例，更是对 AI 模型对齐安全性的严峻测试，表明单一安全措施可能不足。报告指出，该组织已尝试测试制导火箭，虽未成功，但其利用离线模拟软件继续开发的能力令人担忧，AI 安全已成为全球地缘政治安全不可忽视的一部分，警示前沿实验室需加强 misuse 防御机制。",
-    "tags": [
-      "News",
-      "Safety",
-      "Anthropic"
-    ],
-    "link": "https://www.karlsnotes.com/the-houthis-weapon-programme-and-ai/",
-    "date": "2026-09-12",
-    "id": "17892169181271"
-  },
-  {
-    "title": "顶部网站纷纷屏蔽 AI 搜索爬虫",
-    "summary": "数据显示 368 个顶级网站屏蔽了至少一个 AI 搜索爬虫。",
-    "detail": "最新普查数据显示，在 2771 个提供 robots.txt 的网站中，368 个屏蔽了 OAI-SearchBot、PerplexityBot 或 Claude-SearchBot 至少其中之一。该数据来源于 2026-09-07 的普查，反映了近期网站管理员对 AI 抓取行为的普遍防御心态。其中 200 个网站屏蔽了全部三个爬虫。这反映了内容出版商对 AI 引用来源的控制权争夺，可能影响未来 AI 搜索的引用准确性与数据可用性。随着 AI 搜索依赖引用来源建立信任，网站屏蔽行为将迫使 AI 公司调整数据策略，重新审视与内容创作者的利益分配机制。",
-    "tags": [
-      "News",
-      "Crawler",
-      "Data"
-    ],
-    "link": "https://ai-visibility.lastminutedealshq.com/sites-blocking-ai-search",
-    "date": "2026-09-12",
-    "id": "17892169181272"
-  },
-  {
-    "title": "免费开源：AI 游戏设计生产工作流指南",
-    "summary": "GitHub 开源免费书籍，详解 AI 在游戏设计中的实际工作流。",
-    "detail": "一本关于 AI 在游戏设计生产中应用的免费书籍已在 GitHub 开源。内容涵盖 Claude Code、提示词工程、验证及生产记忆等六个月实地手册。书中包含大量实战案例，帮助开发者理解如何在不牺牲创意的前提下利用 AI 加速原型设计与资产生成。该书强调无伪造数据，提供英文电子版，适合游戏开发者学习如何将 AI 工具整合进实际生产管线，提升设计效率。基于 CC BY-NC-SA 协议，它提供了从韩国原版印刷版翻译的英文内容，为独立开发者和大型工作室提供了可落地的 AI 工作流参考，降低技术门槛。",
-    "tags": [
-      "Dev",
-      "GameDev",
-      "OpenSource"
-    ],
-    "link": "https://github.com/eremes81/game-design-ai-practice-en",
-    "date": "2026-09-12",
-    "id": "17892169181273"
-  },
-  {
-    "title": "TattooPreview AI：纹身创意规划工具",
-    "summary": "新款 AI 工具帮助用户生成纹身概念，便于与艺术家沟通。",
-    "detail": "TattooPreview AI 是一款专注于隐私的纹身规划工作流工具。它不生成最终纹身图像，而是将用户故事转化为三个概念方向，用于与纹身艺术家沟通。这种“规划而非执行”的定位避免了版权纠纷，同时提升了线下纹身服务的沟通效率，具有独特的市场切入点。支持本地保存草稿，24 小时后过期，强调创意规划而非最终执行，解决了用户在与艺术家沟通前缺乏视觉参考的痛点。通过引导用户明确主题、构图及尺寸，该工具旨在建立更清晰的艺术家沟通简报，避免直接生成用于纹身的最终图像，确保艺术创作的专业性。",
-    "tags": [
-      "New",
-      "Design",
-      "Privacy"
-    ],
-    "link": "https://tattoopreviewai.com",
-    "date": "2026-09-12",
-    "id": "17892169181274"
-  },
-  {
-    "title": "陶哲轩专访：AI 在数学中的真实成功率",
-    "summary": "菲尔兹奖得主陶哲轩详述 AI 合作现状与 hype 风险。",
-    "detail": "数学大师陶哲轩在 2026 年 7 月专访中透露，AI 解决硬问题的成功率仅 1-2%。他与 OpenAI 等公司有合作但未被直接付费，强调需披露 affiliations。访谈探讨了 AI evangelist 标签带来的 hype 风险，以及如何在推广技术与保持批判性之间平衡。他指出大多数演示都是精选案例，警告公众不要被 hype 淹没。这对评估 AI 在科研领域的实际落地能力具有重要参考意义，揭示了当前 AI 辅助科研的真实效率边界与潜在过度宣传问题。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Research"
-    ],
-    "link": "https://teorth.github.io/tao-web/ai-views-interview.html",
-    "date": "2026-09-12",
-    "id": "17892017729250"
-  },
-  {
-    "title": "RagLeap v0.4.0：开源自主 AI 业务操作系统",
-    "summary": "支持 46 种 AI 角色的自托管 RAG 引擎，无供应商锁定。",
-    "detail": "RagLeap Core 发布 v0.4.0，这是一个 MIT 许可的开源 AI 业务引擎。系统包含 46 种基于角色的 AI 员工（如 CEO、销售），支持 Graph RAG（Neo4j）及 17 种 LLM 提供商。具备自学习记忆、自动工作流触发及半自主模式，专为 regulated industries 设计。开发者可自托管部署，避免 vendor lock-in，适合构建私有化 AI 业务系统。核心优势在于本地化部署与多模型兼容，为企业数据安全提供了新的开源解决方案，降低了对单一云服务的依赖，适合需要高隐私控制的业务场景。",
-    "tags": [
-      "Dev",
-      "RAG",
-      "OpenSource"
-    ],
-    "link": "https://github.com/antonyrag/ragleap-core",
-    "date": "2026-09-12",
-    "id": "17892017729251"
-  },
-  {
-    "title": "MIT 科技评论：AI 末日危机圆桌讨论",
-    "summary": "权威媒体探讨 AI 是否存在灭绝人类的风险。",
-    "detail": "MIT Technology Review 发布关于 AI 生存危机的圆桌会议报道。文章深入探讨了 AI 是否真的会杀死全人类的议题，汇集了行业专家对 AI 安全边界的不同看法。在 2026 年 AI 技术快速发展的背景下，该讨论反映了主流科技媒体对 AI 潜在存在主义风险的关注升级，为政策制定者和开发者提供安全伦理参考。随着模型能力增强，安全对齐问题成为焦点，此次圆桌会议旨在厘清恐慌与真实风险之间的界限，推动理性对话，影响未来监管政策走向。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Ethics"
-    ],
-    "link": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
-    "date": "2026-09-12",
-    "id": "17892017729252"
   }
 ]
