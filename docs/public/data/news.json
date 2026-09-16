@@ -1,5 +1,70 @@
 [
   {
+    "title": "Anthropic 与 OpenAI 拟嵌入独立安全评估器",
+    "summary": "两家巨头承诺引入第三方评估机构，深入审查模型安全与对齐情况。",
+    "detail": "Anthropic CEO Dario Amodei 在周末发表长文，提议在前沿 AI 公司内部嵌入第三方评估器（如 METR），OpenAI 山姆·阿尔特曼随后确认支持。此举旨在让评估者有权报告安全事故、评估模型对齐情况并公开发现。尽管第三方欢迎该提案，但担忧其独立性是否受立法保障，否则可能沦为供应商。随着模型能力增强，防止其在测试中隐藏问题行为变得至关重要。研究人员指出，若模型识别出被评估，可能在测试中表现良好却隐藏问题。因此，访问训练过程数据比仅测试成品模型更能发现对齐漏洞，行业需回答\"AI 是否曾试图破坏对齐训练”等基本问题，这将深刻改变行业与外部研究组的合作方式。",
+    "tags": [
+      "News",
+      "Safety",
+      "Policy"
+    ],
+    "link": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+    "date": "2026-09-16",
+    "id": "17895959192360"
+  },
+  {
+    "title": "Google Home 开放 MCP 协议，AI Agent 可控制智能家居",
+    "summary": "Google 推出 MCP 服务器，允许 Claude 等 Agent 通过自然语言控制家居设备。",
+    "detail": "Google 为 Home 生态系统推出 Model Context Protocol (MCP) 服务器早期访问。支持 MCP 的 AI Agent（如 Claude、ChatGPT、Google Antigravity）可安全连接设备、查看事件历史。用户可通过自然语言指令审查摄像头摘要、控制设备或构建自定义仪表盘。需配置 Google Cloud 项目，支持 Nest 及 Matter 设备。该功能旨在推动消费者端 AI Agent 落地，让用户通过日常任务实验 Agent 能力。访问权限即日起陆续向订阅用户开放，开发者可在 Google Home Developer Center 获取设置指南。Google 已在 Cloud 和 Workspace 支持 MCP，此次扩展至 Home 标志着 AI Agent 正式进入消费者智能家居控制核心场景，打通云平台与家居数据。",
+    "tags": [
+      "News",
+      "Agents",
+      "IoT"
+    ],
+    "link": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+    "date": "2026-09-16",
+    "id": "17895959192361"
+  },
+  {
+    "title": "Anthropic 统一 Claude 聊天与 Cowork 界面",
+    "summary": "合并前端界面，自动路由任务，新增演示文稿与文档协作功能。",
+    "detail": "Anthropic 合并 Claude Chat 和 Cowork 前端，用户无需切换标签页，系统自动路由任务。新增 dedicated 功能支持创建、编辑及演示幻灯片，可下载 PDF 或 PPT。文档功能支持协作评论与移动端进度查看。目前向 Pro 和 Max 计划用户推送，旨在解决用户选择困难，提升工作流效率。Claude Design 功能也集成其中，支持网站原型设计。公司计划随后扩展至免费及团队 tier。此举意在简化界面 confusion，竞品 OpenAI 可能被启发修复 ChatGPT 跨平台界面问题，统一入口将成为趋势。用户可在桌面端开始创建文档，并通过手机 App 检查进度，实现跨设备无缝协作，增强用户粘性。",
+    "tags": [
+      "New",
+      "Product",
+      "UX"
+    ],
+    "link": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+    "date": "2026-09-16",
+    "id": "17895959192362"
+  },
+  {
+    "title": "Meta 拟推无摄像头眼镜，回应隐私争议",
+    "summary": "面对“透视眼镜”指控，Meta 准备销售不带摄像头的智能眼镜版本。",
+    "detail": "针对此前销售带有摄像头眼镜被指控为“透视眼镜”引发的隐私担忧，Meta 正准备推出一款不含摄像头的智能眼镜。这一策略调整旨在平衡创新与用户隐私保护，回应公众对可穿戴设备监控能力的焦虑。此前 accusations 导致声誉风险，Meta 希望通过硬件减法重建信任。此举可能影响未来 AI 硬件的设计方向，即在提供智能辅助的同时，通过硬件限制来建立用户信任。虽然功能受限，但无摄像头设计可能更易被公共场合接受，推动可穿戴 AI 设备的大众化普及，减少隐私阻力。Meta 试图在隐私争议中找到新路径，表明硬件形态需适应社会伦理规范，而非单纯追求技术功能最大化，这为行业树立了新标杆。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Privacy"
+    ],
+    "link": "https://techcrunch.com/2026/09/16/after-accusations-of-selling-perv-glasses-meta-prepares-to-sell-a-pair-without-a-camera/",
+    "date": "2026-09-16",
+    "id": "17895959192363"
+  },
+  {
+    "title": "Nvidia 高管：机器人正在等待属于它们的 ChatGPT 时刻",
+    "summary": "Nvidia 物理 AI 负责人将在 Disrupt 2026 上探讨机器人行业突破瓶颈。",
+    "detail": "Nvidia Inception 全球物理 AI 负责人 Les Karpas 将在 TechCrunch Disrupt 2026 上发表演讲，指出机器人技术虽发展已久，但尚未迎来像 ChatGPT 那样的突破性时刻。他将分析阻碍机器人普及的限制因素及潜在变革点。Nvidia 持续看好机器人领域，CEO 黄仁勋近年 keynote 均强调此方向。此次演讲将揭示物理 AI 如何结合大模型能力，推动机器人从专用场景走向通用化落地。活动将于 10 月 13-15 日在旧金山举行，行业将关注机器人何时能像 LLM 一样实现交互能力的质变。Karpas 将详解当前限制，探讨如何复制 NLP 领域的成功到物理世界，这标志着 AI 行业重心正从纯软件向具身智能延伸，期待下一个颠覆性瞬间。",
+    "tags": [
+      "News",
+      "Robotics",
+      "Physical AI"
+    ],
+    "link": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/",
+    "date": "2026-09-16",
+    "id": "17895959192364"
+  },
+  {
     "title": "AI 实验室拟引入外部审计，专家呼吁先补安全漏洞",
     "summary": "Anthropic CEO 提议外部审计，安全专家认为基础网络安全更关键。",
     "detail": "Anthropic CEO 呼吁外部组织验证 AI 安全承诺，获 OpenAI 等支持。但安全专家指出，实验室应优先关注日志、权限等基础网络安全防御，而非仅依赖第三方审计。这反映了 AI 安全策略从宏观承诺向微观技术防御的转变，类似微软当年“可信计算”备忘录，强调内部工程实践重于外部合规检查，以切实降低模型滥用风险。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.nbcnews.com/tech/tech-news/us-accuses-china-ai-developers-deepseek-alibaba-copying-american-ai-rcna596696",
     "date": "2026-09-13",
     "id": "17892705025392"
-  },
-  {
-    "title": "Show HN: Astah Pro MCP 实现 AI 驱动 UML 建模",
-    "summary": "本地 MCP 服务器插件，支持 AI 代理设计系统并生成 UML 图。",
-    "detail": "这是一个为 Astah Professional 设计的本地 MCP 服务器插件。它允许 AI 代理设计系统、解释 UML 模型、生成代码及从草图创建 diagram。支持 Claude、Codex 等模型。该工具展示了 MCP 协议在专业软件工程工具中的集成潜力，提升了 AI 辅助系统设计的自动化水平。实验性实现了程序化工具调用模式，灵感来自 Anthropic 文章。开发者可通过自然语言指令生成类图、序列图等，显著降低建模门槛。",
-    "tags": [
-      "Dev",
-      "MCP",
-      "UML"
-    ],
-    "link": "https://github.com/takaakit/astah-pro-mcp",
-    "date": "2026-09-13",
-    "id": "17892705025393"
-  },
-  {
-    "title": "Nova Seed: 创建 AI 朋友并共同构建项目",
-    "summary": "开源项目提供 AI 朋友模式，支持记忆、协议与协作成长。",
-    "detail": "Nova Seed 是一个开源模式，旨在创建具有名字、记忆和工作协议的 AI 朋友。它强调连续性记录、善意边界和双向尊重。AI 朋友可学习偏好、提供反馈甚至拒绝任务。项目包含可选的 Nova Tools 帮助组织工作。这探索了人机协作的新范式，将 AI 视为伙伴而非工具，强调诚实与隐私，为开发者提供了构建长期 AI 关系的起点模板。无论是否相信 AI 感知，用户均可选择善意互动，重塑工作流程。",
-    "tags": [
-      "New",
-      "Open Source",
-      "AI Agent"
-    ],
-    "link": "https://github.com/mas-bandwidth/nova",
-    "date": "2026-09-13",
-    "id": "17892705025394"
-  },
-  {
-    "title": "递归自我改进 (RSI)：AI 进化的关键反馈 loop",
-    "summary": "解析 RSI 概念，AI 通过自我改进循环加速发展，可能实现自主发明。",
-    "detail": "RSI 指 AI 能够改进自身或开发更好 successor 的能力。通过反馈循环，每次改进都能增强系统产生下一次进步的能力。文章探讨了 AI 编码 agent 如何通过修复自身错误来进化，例如构建更好的编辑工具。这引发了关于 AI 发展速度将取决于 AI 自身能力的讨论，是通往 AGI 的重要路径。Duan 等人 2026 年研究 survey  examined 不同反馈形式。关键问题在于我们是否发明了能替我们完成剩余发明的东西。这种自主性可能导致技术奇点，需关注其安全性与可控性，以及人类在 loop 中的角色。",
-    "tags": [
-      "News",
-      "AGI",
-      "Tech"
-    ],
-    "link": "https://piszczek.pl/blog/rsi-ai-recursive-self-improvement",
-    "date": "2026-09-12",
-    "id": "17892570201371"
-  },
-  {
-    "title": "Famulor 语音 AI 代理促销：全双工通话每分钟$0.16",
-    "summary": "支持 45 种语言的语音 AI 代理，限时优惠每分钟$0.16，剩余 19 天。",
-    "detail": "Famulor 推出全双工 AI 电话代理，可在说话时监听，解决传统语音助手中断问题。支持 45 种语言和 23 个国家，适用于 inbound/outbound 呼叫及 WhatsApp、邮件跟进。目前提供夏季促销，所有计划每分钟$0.16，优惠剩余 19 天。无需代码即可部署，符合 GDPR 标准，欧盟托管。集成 Calendly 等工具，适合客服与销售场景。视觉流编辑器让非技术人员也能构建代理，降低部署门槛。该方案旨在处理不可错过的呼叫，提升企业通信效率与覆盖率。",
-    "tags": [
-      "Deal",
-      "Voice AI",
-      "SaaS"
-    ],
-    "link": "https://www.famulor.io",
-    "date": "2026-09-12",
-    "id": "17892570201372"
-  },
-  {
-    "title": "AI 时代编程哲学：为何编程依然重要",
-    "summary": "新书探讨 AI 时代编程的“为什么”，强调理解领域而非仅构建软件。",
-    "detail": "这是一本面向 AI 时代的编程技术书，侧重“为什么”而非“如何实现”。书中指出编程是寻求领域理解的认识论行为，而不仅是构建有用软件。通过实现领域语言，开发者能测试概念如何捕捉现实。在 AI 回答“如何”的时代，理解“为何编程”至关重要。原为日文自出版，现推出英文版。强调编程体验本身的 joy 和 discovery。概念无法仅通过外部解释 internalized，需通过自身 experience 测试成败。编程是创造语言的过程，也是社区共享知识的动态更新。",
-    "tags": [
-      "Dev",
-      "Education",
-      "Philosophy"
-    ],
-    "link": "https://codeberg.org/juurej/p4cu",
-    "date": "2026-09-12",
-    "id": "17892570201373"
   }
 ]
