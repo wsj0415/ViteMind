@@ -1,5 +1,70 @@
 [
   {
+    "title": "Anthropic CEO 警告引发 AI 股市震荡",
+    "summary": "Anthropic CEO 发布 3800 字警告，导致 AI 股票大幅下跌，市场担忧加剧。",
+    "detail": "Anthropic CEO Dario Amodei 发表长达 3800 字的警告声明，直接导致 AI 相关股票大幅下跌，市场担忧情绪加剧。该事件反映了行业领袖对 AI 发展潜在风险或当前市场过热的深刻担忧，可能标志着 AI 投资风向从狂热转向理性审视。对于企业而言，需更加关注合规性与风险控制；对于投资者，市场波动提示需重新评估 AI 资产的风险溢价与长期可持续性，警惕行业周期性调整带来的冲击。此信号可能影响后续融资环境及政策监管走向，建议密切关注后续财报会议及监管动态。市场反应表明，AI 叙事已从单纯的技术突破转向商业落地与安全性的平衡考量。",
+    "tags": [
+      "News",
+      "Market",
+      "Anthropic"
+    ],
+    "link": "https://finance.yahoo.com/markets/stocks/article/ai-stocks-get-drilled-because-of-anthropic-ceo-dario-amodeis-3800-word-warning-093637548.html",
+    "date": "2026-09-16",
+    "id": "17895519185070"
+  },
+  {
+    "title": "报告揭示 AI 生成代码造成的万亿成本",
+    "summary": "QA Wolf 报告指出 AI 低质代码导致软件开发成本高达 1.17 万亿美元。",
+    "detail": "QA Wolf 发布报告量化了“AI 垃圾代码”的经济影响，估算成本约 1.17 万亿美元。主要源于未验证的 AI 代码积累、安全漏洞及生产环境修复。这警示开发者不能盲目依赖 AI 生成代码，需加强验证流程，否则技术债务将严重拖累企业效率。报告涵盖了代码生成、验证、失败率等六大类别成本，为工程团队提供了评估 AI 辅助开发 ROI 的依据，强调质量保障在 AI 时代的必要性。企业需建立更严格的代码审查机制，平衡 AI 效率与软件可靠性，避免因短期速度牺牲长期稳定性，该数据为行业敲响了警钟。",
+    "tags": [
+      "News",
+      "Software",
+      "Cost"
+    ],
+    "link": "https://www.qawolf.com/blog/cost-of-ai-slop-in-software-development-report",
+    "date": "2026-09-16",
+    "id": "17895519185071"
+  },
+  {
+    "title": "空客开源 Scikit-Decide 决策框架",
+    "summary": "空客推出开源 AI 框架，支持强化学习与自动规划调度任务。",
+    "detail": "空客 AI 研究部门发起 Scikit-decide 框架，专攻强化学习、自动规划与调度任务。支持 Gym 环境与 PDDL 语言，可自动匹配求解器，允许规划问题使用 RL 求解器解决。作为开源项目，它降低了复杂决策问题的开发门槛，为工业级 AI 规划提供了标准化解决方案。框架具有扩展性，可封装现有 SOTA 求解器，适合开发者在物流、制造等场景部署自动化决策系统，促进社区协作与工具链成长。该项目获得了 ANITI 等机构贡献，显示了工业界对通用决策 AI 基础设施的重视，有望成为行业标准工具。",
+    "tags": [
+      "Dev",
+      "RL",
+      "OpenSource"
+    ],
+    "link": "https://airbus.github.io/scikit-decide/",
+    "date": "2026-09-16",
+    "id": "17895519185072"
+  },
+  {
+    "title": "美国 census 局：AI 暴露专业就业受影响",
+    "summary": "美 census 局研究显示，AI 暴露度高的大学专业毕业后就业出现分化。",
+    "detail": "美国 census 局工作论文分析了 AI 对劳动力市场的影响。研究发现，自 LLM 出现后，AI 暴露度高的专业毕业生在就业、收入及跳槽模式上立即出现分化。这为 AI 替代人类工作的宏观趋势提供了实证数据，教育与职业规划需据此调整。研究基于行政记录观察经济结果，揭示了 AI 技术扩散对不同技能劳动力的差异化冲击，提示高校需更新 curriculum 以适应新需求。该数据为政策制定者提供了关键依据，表明 AI 对就业的影响已开始显现，需提前布局劳动力转型支持计划，以缓解结构性失业风险。",
+    "tags": [
+      "News",
+      "Labor",
+      "Research"
+    ],
+    "link": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-56.pdf",
+    "date": "2026-09-16",
+    "id": "17895519185073"
+  },
+  {
+    "title": "LatticeFlow 推出 AI 政治偏见测量框架",
+    "summary": "首个独立框架可客观测量大模型政治偏见，支持加密验证。",
+    "detail": "LatticeFlow AI 发布首个独立框架，客观测量 LLM 在政治光谱上的偏见。无需人工 rubric，提供可复现的偏见评分及加密验证。研究发现模型越大政治对齐越强。该工具帮助企业技术性评估模型风险，确保 AI 部署符合合规与中立要求。框架支持中美欧政治光谱评估，解决了以往主观分析的难题，为监管机构及企业提供量化依据，助力构建更可信的 AI 系统。随着 AI 监管趋严，此类评估工具将成为企业合规的必需品，有助于减少因偏见引发的公关危机及法律风险，推动行业标准化。",
+    "tags": [
+      "Dev",
+      "Safety",
+      "LLM"
+    ],
+    "link": "https://latticeflow.ai/lp/political-bias-framework",
+    "date": "2026-09-16",
+    "id": "17895519185074"
+  },
+  {
     "title": "Anthropic 与 Nvidia CEO 就 AI 发展速度展开激烈博弈",
     "summary": "Anthropic 呼吁放缓 AI 发展，Nvidia 主张加速，反映行业根本分歧。",
     "detail": "2026 年 9 月，Anthropic CEO 再次公开呼吁放缓 AI 发展速度，强调潜在安全风险，而 Nvidia CEO 则坚决 urging acceleration，推动硬件与生态扩张。这反映了 AI 行业内部关于发展路径的根本分歧：安全派与加速派的激烈对立。双方立场鲜明，可能直接影响未来监管政策的走向及资本市场的投资逻辑，导致行业进一步分化。对于开发者与企业而言，需密切关注合规要求与算力需求之间的平衡，以便在动荡的行业周期中灵活调整技术路线与产品策略，规避潜在的政策风险与市场波动，确保业务连续性。此次表态发生在行业关键节点，显示出巨头间博弈加剧，各方需审慎评估长期战略。",
@@ -1233,70 +1298,5 @@
     "link": "https://classicalbot.com/blog/scaling-classical-music-concert-crawlers-with-ai-agents",
     "date": "2026-09-12",
     "id": "17892396568262"
-  },
-  {
-    "title": "Show HN: Synapse 每日 AI 单词联想游戏",
-    "summary": "全新每日单词游戏，玩家需用最少线索连接目标词，避开干扰项。",
-    "detail": "Synapse 是一款每日更新的单词联想游戏。board 包含 10 个目标词和 5 个干扰词。玩家需选择最多 5 个目标，给出一个线索词，让猜测者 deduce 目标。若猜中干扰词则失败。游戏旨在用最少线索解决所有目标。由开发者 Akshay 制作，适合喜欢逻辑与语言挑战的 AI 爱好者尝试。界面简洁，支持分享结果。每日挑战机制增加了用户粘性，展示了 AI 在休闲游戏领域的轻量级应用。规则要求线索为单词，且不能重复，考验玩家的语义关联能力。",
-    "tags": [
-      "New",
-      "Game",
-      "Product Hunt"
-    ],
-    "link": "https://synapse.akshayr.xyz/",
-    "date": "2026-09-12",
-    "id": "17892396568263"
-  },
-  {
-    "title": "Anthropic CEO 呼吁放缓 AI 发展步伐",
-    "summary": "Dario Amodei 提出三大策略应对 AI 安全风险，承诺 unilateral commitment。",
-    "detail": "Anthropic CEO Dario Amodei 发表博客，呼吁行业**“放缓前沿步伐”**。鉴于近期 OpenAI-HuggingFace 黑客事件及 AI 自我进化能力增强，他提出三大安全策略，并承诺单方面允许外部评估员访问员工级权限以确保安全。此举标志着 AI 安全辩论升级，旨在防止 rogue agents 失控。Amodei 警告若不加控制，6-12 个月内可能出现大规模网络接管风险，行业需建立协调标准。此前研究员 Jacob Coxon 因担忧公司“拿生命赌博”而辞职，加剧了内部安全争议。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Anthropic"
-    ],
-    "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
-    "date": "2026-09-12",
-    "id": "17892290261140"
-  },
-  {
-    "title": "中国初创公司推出卡片式 AI 硬件 C·ONE",
-    "summary": "无屏幕信用卡大小设备，专注捕捉生活上下文而非单纯处理。",
-    "detail": "中国公司 YoooClaw 发布 **C·ONE**，一款信用卡大小的 AI 终端。不同于追求算力的硬件，它专注解决“带宽”问题，通过磁吸手机捕捉通知、消息等生活上下文。创始人肖睿哲曾任职阿里和华为，产品主打无屏幕设计，旨在成为继手机和耳机后的第三随身设备。该设备售价 599 元起，依托字节火山引擎生态，探索 AI 硬件新形态。团队曾尝试 AI 玩具但失败，转而关注生活数据捕捉，认为瓶颈在于多少生活数据能 reach AI。2026 年 5 月在抖音商城独家 launch。",
-    "tags": [
-      "New",
-      "Hardware",
-      "China"
-    ],
-    "link": "https://sinosphereapp.substack.com/p/yoooclaw-cone-the-ai-gadget-that",
-    "date": "2026-09-12",
-    "id": "17892290261142"
-  },
-  {
-    "title": "Bloomiro 推出 MCP 工具连接 AI 与 SEO 数据",
-    "summary": "支持 Cursor/Claude 直接调用 SEO 数据，优化工作流。",
-    "detail": "Bloomiro 发布 **Model Context Protocol (MCP)** 集成，允许 Cursor、Claude 等 AI 工具直接访问 live SEO 数据和优化建议。开发者可在编码会话中直接修复 SEO 问题、分析竞争对手及追踪 AI 引用来源。该工具旨在消除工作流切换，提升 SEO 与 AI 开发协同效率。支持 27 种公开工具，涵盖 GSC 查询及社区引用源检查。用户可直接在 VS Code 或 Cursor 中创建并关闭 SEO 任务，无需切换 dashboard，实现优化与行动层的无缝连接。同时支持追踪买家 prompt 中的品牌提及情况。",
-    "tags": [
-      "Dev",
-      "SEO",
-      "MCP"
-    ],
-    "link": "https://bloomiro.com/mcp",
-    "date": "2026-09-12",
-    "id": "17892290261143"
-  },
-  {
-    "title": "OpenAI 考虑放缓 AI 发展速度",
-    "summary": "路透社报道，Altman 告知员工 OpenAI 愿意放缓 AI 开发节奏。",
-    "detail": "据路透社报道，OpenAI CEO 山姆·阿尔特曼向内部员工透露，公司对于放缓 AI 技术的发展持开放态度。此消息由彭博社首先报道，随后被路透社确认，显示出内部战略的重大调整。这一表态可能标志着行业领头羊在追求速度与安全之间寻求新的平衡。此举可能影响后续模型发布计划及行业竞争格局，引发对 AI 安全治理的进一步关注。在 AI 能力飞速迭代的背景下，主动减速意味着对潜在风险的重视，可能引领行业从单纯竞争转向合规与安全并重的发展阶段，对投资者及开发者预期产生深远影响。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Policy"
-    ],
-    "link": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/",
-    "date": "2026-09-12",
-    "id": "17892169181270"
   }
 ]
