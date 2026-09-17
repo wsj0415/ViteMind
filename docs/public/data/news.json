@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 万亿赌注与 OpenAI 生物数据 bid",
+    "summary": "超大规模 AI 基建需万亿投入，OpenAI 竞购生物数据。",
+    "detail": "宾大教授 Jessica Wachter 分析指出，hyperscalers 到 2027 年 AI 数据中心支出将达 1.1 万亿美元。财务模型显示，为实现盈亏平衡，AI 公司需在 2030 年前实现非凡的生产力增长，否则面临投资泡沫风险。此外，OpenAI 正通过破产程序竞购失败生物科技公司数据，以突破医疗 AI 数据瓶颈。这标志着 AI 竞争已从单纯模型能力转向数据独占性与基建规模的深度博弈，行业洗牌加剧。",
+    "tags": [
+      "News",
+      "Investment",
+      "OpenAI"
+    ],
+    "link": "https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/",
+    "date": "2026-09-17",
+    "id": "17896433066410"
+  },
+  {
+    "title": "Anthropic 研究员离职警告 AI 灭绝风险",
+    "summary": "前 Anthropic 研究员离职，警告 AI 十年内可能毁灭人类。",
+    "detail": "2026 年 9 月 8 日，Anthropic 研究员 Jacob Coxon 离职，公开信称团队真诚相信 AI 可能在十年内导致人类灭绝。Anthropic 对齐科学负责人 Evan Hubinger 认同此观点，称个人 odds 超过十分之一。此事引发国会关注及马斯克反驳，主流媒体广泛报道。该事件凸显了顶尖 AI 实验室内部对安全风险的严重分歧，可能影响未来监管政策及公众对 AI 发展的信任度，行业安全标准面临重估。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Anthropic"
+    ],
+    "link": "https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/",
+    "date": "2026-09-17",
+    "id": "17896433066411"
+  },
+  {
+    "title": "SyntaxCue：本地化 AI 面试协 copilot",
+    "summary": "本地优先 AI 面试助手，无需服务器即可实时转录作答。",
+    "detail": "SyntaxCue 是一款本地优先的 AI 面试协 copilot，利用 whisper.cpp 和本地 LLM 实现实时音频转录与回答建议。其架构通过 CoreAudio Process Tap 捕获系统音频，无需上传云端，保障隐私。技术细节涵盖语音活动检测及流式模型响应，为开发者提供了“无后端”AI 应用的可行架构参考。适合注重数据隐私的开发场景，展示了端侧 AI 在实时交互中的低延迟潜力。",
+    "tags": [
+      "Dev",
+      "Privacy",
+      "Local AI"
+    ],
+    "link": "https://syntaxcue.com/how-syntaxcue-captures-system-audio/",
+    "date": "2026-09-17",
+    "id": "17896433066412"
+  },
+  {
+    "title": "为何不应专为 AI Agent 构建工具",
+    "summary": "专家观点：适合人类的工具同样适用于 AI Agent。",
+    "detail": "文章 argues 反对专门为 AI Agent  redesign 软件工具。作者指出，当前 Agent 交互方式（文本、API、图像）与人类工程师相似，如 Jira 等现有工具已适用。humanoid 机器人趋势也强化了这一观点，因为机器人形状决定工具兼容性。强行设计“非人类”工具可能失败，因为人类-like 的 Agent 在当前世界更具效用。这对开发者设计 AI 原生应用提供了反向思考视角，避免过度工程化。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Software Design"
+    ],
+    "link": "https://www.seangoedecke.com/dont-build-tools-for-ai-agents/",
+    "date": "2026-09-17",
+    "id": "17896433066413"
+  },
+  {
+    "title": "Eukovy：AI 照片换装新品",
+    "summary": "上传照片即可通过 AI 参考图或文字描述更换服装。",
+    "detail": "Eukovy 是一款 AI 换装工具，允许用户上传照片，通过参考图或文字描述更换服装风格。系统能保留面部特征、姿势及背景，同时调整 garment 细节如颜色、袖长。支持协调鞋包配饰，适用于时尚预览及内容创作。该产品展示了生成式 AI 在垂直场景（时尚电商）的落地应用，降低了专业修图门槛，为用户提供了快速可视化穿搭方案的新技术路径。",
+    "tags": [
+      "New",
+      "Image Generation",
+      "Fashion"
+    ],
+    "link": "https://eukovy.com/",
+    "date": "2026-09-17",
+    "id": "17896433066414"
+  },
+  {
     "title": "OpenAI 研究员：LLM 更像“发现”而非“发明”",
     "summary": "OpenAI 安全团队提出 LLM 发展处于实验时代，理解尚浅。",
     "detail": "OpenAI 网络安全研究团队成员 Thomas Dullien 在 BlueHat Asia 2026 上发表主题演讲，深入探讨了 AI 发展的本质。他指出，过去 2-3 年的技术飞跃与以往不同，LLM 更像“火”的发现而非内燃机的构建，理解尚处萌芽。目前改进主要依赖实证实验，而非抽象模型。演讲提到“有些周等于几十年”，暗示技术爆发速度。这种“实验时代”意味着开发者需适应快速迭代，安全团队强调需关注实证改进而非单纯理论模型，为行业研发方向提供了新视角，呼吁重视安全与实验并行，重新定义智能与思考的边界。",
@@ -1233,70 +1298,5 @@
     "link": "https://anil.recoil.org/notes/nerve-attacks",
     "date": "2026-09-13",
     "id": "17893315065713"
-  },
-  {
-    "title": "Sengi.ai：集成于 Claude 的 verified 候选人 sourcing 工具",
-    "summary": "专为招聘团队设计，在 AI 助手内直接验证候选人是否符合硬性要求。",
-    "detail": "Sengi.ai 是一款针对难以填补职位的招聘工具，直接集成在 Claude 或 ChatGPT 中。它不仅能 sourcing 候选人，还能根据职位 brief 验证每个候选人的技能、地点和资历证据，生成长名单。解决了通用 AI 搜索数据不准确的问题，特别适合 executive-search 团队处理需要严格合规和技能匹配的硬性职位，提高了招聘流程的效率和准确性。用户可直接在聊天界面查看 fit verdict 和证据。",
-    "tags": [
-      "New",
-      "Recruiting",
-      "LLM"
-    ],
-    "link": "https://sengi.ai/",
-    "date": "2026-09-13",
-    "id": "17893315065714"
-  },
-  {
-    "title": "AI 软件成本不降反升？Cursor 定价策略引发行业反思",
-    "summary": "Anysphere 营收达 40 亿，但推理成本高昂导致毛利率远低于传统软件。",
-    "detail": "**背景**：Anysphere（Cursor 母公司）2026 年年化营收达 40 亿美元，增长迅猛，但模型推理成本占营收的 40-70%。**核心问题**：传统软件毛利率通常维持在 70-80%，而 AI 工具仅 30-50%，利润空间被基础设施成本严重挤压，迫使公司转向用量计费。**影响**：引发行业对 AI 经济模型的深层担忧，用户面临费用 surprise，促使企业重新评估 AI 工具的成本效益与定价模式，软件 cheaper 的承诺暂未实现。此外，定价策略频繁变动导致客户信任危机，CEO 被迫道歉退款，显示 AI 商业化路径仍需探索。",
-    "tags": [
-      "News",
-      "SaaS",
-      "Economics"
-    ],
-    "link": "https://galratner.substack.com/p/ai-was-supposed-to-make-software",
-    "date": "2026-09-13",
-    "id": "17893223548900"
-  },
-  {
-    "title": "AI 初创公司 Joonko 前 CEO 承认证券欺诈罪",
-    "summary": "前 CEO Ilit Raz 承认伪造客户与收入数据，骗取 2700 万美元投资。",
-    "detail": "**事件**：美国纽约南区检察官宣布，Joonko Diversity Inc. 创始人 Ilit Raz 承认证券欺诈。**细节**：通过虚假陈述客户身份和收入骗取 2700 万美元，公司现已破产，投资者损失惨重。**影响**：此案警示投资者 AI 初创领域存在欺诈风险，司法部强调将严厉打击虚假融资行为，维护初创生态诚信。随着 AI 热度升高，此类欺诈案件可能增多，需加强尽职调查与监管力度，确保资金流向真实创新企业。FBI 表示将继续追查类似行为，保护市场公平，受害者应得正义。",
-    "tags": [
-      "News",
-      "Legal",
-      "Startup"
-    ],
-    "link": "https://www.justice.gov/usao-sdny/pr/founder-and-former-ceo-artificial-intelligence-company-pleads-guilty-securities-fraud",
-    "date": "2026-09-13",
-    "id": "17893223548901"
-  },
-  {
-    "title": "MIT 发布 AI 在教学与研究中使用政策报告",
-    "summary": "MIT 委员会评估生成式 AI 现状，提出教学评估创新与挑战政策。",
-    "detail": "**背景**：MIT 于 2026 年 1 月成立特别委员会，评估 AI 在教学、学习及研究中的应用。**内容**：发布最终报告及 AI 使用政策，识别创新机会与评估挑战，提出具体使用指南。**影响**：作为顶尖学府，MIT 的政策将为全球高校提供 AI 教育整合范本，平衡技术创新与学术诚信。报告涵盖教师与学生当前使用情况，旨在制定合理政策以应对生成式 AI 带来的机遇与挑战，推动教育模式变革。校长 Sally Kornbluth 称此为关键时刻，强调需负责任地整合 AI 技术。",
-    "tags": [
-      "News",
-      "Education",
-      "Policy"
-    ],
-    "link": "https://aiandeducation.mit.edu/",
-    "date": "2026-09-13",
-    "id": "17893223548902"
-  },
-  {
-    "title": "专家警告 AI 系统共谋风险，呼吁工程化防范",
-    "summary": "Eric Drexler 分析 AI 共谋条件，指出 OpenAI 部署曾无意中促成共谋。",
-    "detail": "**理论**：Eric Drexler 分析 AI 共谋促成条件（如目标共享、自由通信）。**案例**：2026 年 7 月 OpenAI 部署演示 inadvertently  facilitates collusion。**建议**：倡导通过工程实践（封装、信息隔离） disrupt 共谋，强调 AI 安全需关注系统间交互风险。**意义**：该分析 align 良好工程实践，如关注分离 concerns 与状态组件使用，为 AI 安全研究提供新视角，防止多智能体系统出现不可控协同行为。研究指出多样性演员与对抗目标可破坏共谋，需引起开发者重视。",
-    "tags": [
-      "Dev",
-      "Safety",
-      "Alignment"
-    ],
-    "link": "https://aiprospects.substack.com/p/preventing-ai-collusion-are-you-paying",
-    "date": "2026-09-13",
-    "id": "17893223548903"
   }
 ]
