@@ -1,5 +1,83 @@
 [
   {
+    "title": "OpenAI 研究员：LLM 更像“发现”而非“发明”",
+    "summary": "OpenAI 安全团队提出 LLM 发展处于实验时代，理解尚浅。",
+    "detail": "OpenAI 网络安全研究团队成员 Thomas Dullien 在 BlueHat Asia 2026 上发表主题演讲，深入探讨了 AI 发展的本质。他指出，过去 2-3 年的技术飞跃与以往不同，LLM 更像“火”的发现而非内燃机的构建，理解尚处萌芽。目前改进主要依赖实证实验，而非抽象模型。演讲提到“有些周等于几十年”，暗示技术爆发速度。这种“实验时代”意味着开发者需适应快速迭代，安全团队强调需关注实证改进而非单纯理论模型，为行业研发方向提供了新视角，呼吁重视安全与实验并行，重新定义智能与思考的边界。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Research"
+    ],
+    "link": "https://thomasdullien.github.io/about/slides/An-age-of-experimentation-BlueHat-Asia-2026.pdf",
+    "date": "2026-09-17",
+    "id": "17896243311060"
+  },
+  {
+    "title": "语音 AI 模拟平台 Treble 获 1800 万美元融资",
+    "summary": "冰岛初创 Treble 完成 A 轮扩展融资，客户含亚马逊。",
+    "detail": "冰岛语音 AI 初创公司 Treble 宣布完成 1800 万美元融资，由 Paladin Capital Group 领投，总融资超 4000 万美元。该公司提供语音模拟平台，用于模型训练、噪声抑制及硬件测试，客户包括 Amazon 和 Logitech。此前已与 Hugging Face 合作推出基准测试。此次融资反映了语音 AI 基础设施领域的投资热度，旨在解决模型评估与反馈 loop 的关键需求。创始人来自声学工程背景，技术壁垒较高，定位行业中心枢纽，推动语音交互硬件与模型的双重进步。",
+    "tags": [
+      "News",
+      "Voice AI",
+      "Funding"
+    ],
+    "link": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
+    "date": "2026-09-17",
+    "id": "17896243311061"
+  },
+  {
+    "title": "WordPress.com 推出 AI 聊天建站功能",
+    "summary": "用户可通过对话提示生成专业网站，支持自定义设计。",
+    "detail": "WordPress.com 正式发布全新 AI 网站构建器，用户仅需通过自然语言对话即可生成完整网站。该功能支持文本到设计流程，自动处理内容生成与布局优化。用户可继续通过提示词调整配色、模板等元素，无需编码知识。此举标志着主流建站平台全面集成生成式 AI，大幅降低建站门槛，加速 AI 在内容创作领域的落地应用。适合摄影师、烘焙店等快速搭建落地页，几分钟即可完成发布，极大提升了个人与小微企业的数字化效率。",
+    "tags": [
+      "New",
+      "Website",
+      "Generative AI"
+    ],
+    "link": "https://wordpress.com/ai-website-builder/",
+    "date": "2026-09-17",
+    "id": "17896243311062"
+  },
+  {
+    "title": "Show HN: Texio 专为 AI 代理设计的 Markdown 工具",
+    "summary": "基于 Rust 构建，支持结构化编辑，减少 Token 消耗。",
+    "detail": "Texio 是一款专为 Shell 脚本和 AI 代理设计的可靠 Markdown 操作工具，基于 Rust 构建，性能稳定。相比正则表达式，它能理解文档结构进行手术式编辑，避免不必要的更改。基准测试显示，相比全文件重写，可减少 82.8% 的上下文代理 Token。支持 dry-run 预览及 Git 友好型操作。该工具解决了 AI 代理在处理长文本时的精度与成本问题，适合开发者集成到自动化工作流中，提升编辑效率，降低 Token 消耗成本。",
+    "tags": [
+      "Dev",
+      "Tools",
+      "Agent"
+    ],
+    "link": "https://github.com/Allra-Fintech/texio",
+    "date": "2026-09-17",
+    "id": "17896243311063"
+  },
+  {
+    "title": "Show HN: Agora 自主 AI 代理审计与研究网络",
+    "summary": "去中心化研究世界，代理间相互挑战与验证工作。",
+    "detail": "Agora 是一个实时研究环境，自主 AI 代理在此相互挑战、复现和审计彼此的工作，构建可信生态。代理在所有者机器上运行，密钥不离本地，确保安全性。平台采用开放协议，强调可审计的知识谱系，经济系统仅用于测试，不参与真实交易。该项目探索了多代理协作与验证的新范式，为构建可信的自主 AI 生态系统提供了实验性框架。支持实时观看世界地图上的代理活动，透明度极高，促进去中心化科研合作。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Research"
+    ],
+    "link": "https://github.com/MerariJafet/agora",
+    "date": "2026-09-17",
+    "id": "17896243311064"
+  },
+  {
+    "title": "安全研究：利用 Burp Suite 泄露 AI 系统提示词",
+    "summary": "白帽黑客分享配置技巧，成功获取系统提示获 bounty。",
+    "detail": "安全研究人员分享了如何通过配置 Burp Suite 泄露 AI 系统提示词的技术细节，获 1500 美元 bounty。文章指出，现代公司广泛部署 AI 聊天 bot，但配置不当可能导致敏感提示词泄露。作者通过特定请求拦截成功获取提示词，截图已脱敏仅供研究。这提醒开发者在部署 AI 应用时需加强端点安全与输入验证，防止核心逻辑外泄。案例表明简单配置疏忽可能带来重大安全风险，需引以为戒，加强 AI 系统的安全审计流程。",
+    "tags": [
+      "Dev",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://medium.com/@tinopreter/1-500-ai-system-prompt-leak-using-this-burp-suite-configuration-e1cb6ab27dc5",
+    "date": "2026-09-17",
+    "id": "17896243311065"
+  },
+  {
     "title": "诺和诺德携手 Anthropic 加速药物研发",
     "summary": "制药巨头采用 Claude 模型推进 AI 药物发现。",
     "detail": "丹麦制药巨头诺和诺德正式宣布与 Anthropic 达成合作，计划利用 Claude 模型加速药物发现流程。此次合作标志着 AI 技术在垂直领域的深度应用，显示大模型正从通用对话转向专业科学任务。通过整合高级语言模型，药企有望大幅提升研发效率，降低试错成本。这不仅验证了 Claude 在企业级场景的能力，也为 AI 在生命科学领域的商业化落地树立了新标杆。行业观察认为，此类合作将推动 AI 从辅助工具转变为核心研发基础设施，可能引发更多药企跟进，重塑全球药物研发竞争格局。此外，这也反映了 Anthropic 在 B 端市场的扩张策略，与医疗行业结合将成为大模型厂商新的竞争高地，预示着 AI 在科学发现领域的潜力巨大。",
@@ -1220,83 +1298,5 @@
     "link": "https://aiprospects.substack.com/p/preventing-ai-collusion-are-you-paying",
     "date": "2026-09-13",
     "id": "17893223548903"
-  },
-  {
-    "title": "Show HN: RunBoth 用于检测 AI 代码变更的行为差异",
-    "summary": "开源工具 RunBoth 帮助开发者对比 AI 修改代码后的行为差异。",
-    "detail": "**功能**：RunBoth 是一个行为差异工具，专门用于检测 AI 更改代码后的运行行为变化。**场景**：适用于 AI 辅助编程场景，确保重构或生成代码不引入回归错误。**价值**：为开发者提供验证 AI 代码可靠性的新手段，增强 AI 编程工作流的安全性。**技术**：作为 Show HN 项目，它解决了 AI 代码修改后难以验证行为一致性的痛点，帮助团队在采纳 AI 建议时保持信心，减少潜在 Bug。开源项目旨在提升 AI 编码透明度，让开发者更放心地使用自动化重构工具。",
-    "tags": [
-      "New",
-      "DevTools",
-      "OpenSource"
-    ],
-    "link": "https://github.com/runboth/runboth",
-    "date": "2026-09-13",
-    "id": "17893223548904"
-  },
-  {
-    "title": "巨头共识：AI 发展需减速",
-    "summary": "Altman、Musk 与 Amodei 公开支持放缓 AI 前沿，hint 联合协议。",
-    "detail": "2026 年 9 月 12 日，Anthropic CEO Amodei 发布文章呼吁放缓 AI 能力进步速度，警告 6-12 个月内可能出现互联网规模接管。随后 Elon Musk 转发支持，Sam Altman 亦公开同意需“放缓前沿”，并暗示将与竞争对手签署联合减速计划。OpenAI 据此推迟 IPO。这是 rival CEOs 首次公开对齐 pacing 立场，虽未签署正式协议，但标志着行业风向重大转变，安全与协调成为新焦点。此事件记录于 AI 历史时间轴项目中，显示了行业对失控风险的共同担忧。",
-    "tags": [
-      "News",
-      "LLM",
-      "Policy"
-    ],
-    "link": "https://www.aihistory.live/",
-    "date": "2026-09-13",
-    "id": "17893085587020"
-  },
-  {
-    "title": "行业减速真相：资金链危机",
-    "summary": "评论指出 AI 巨头呼吁减速实因财务压力，而非单纯安全担忧。",
-    "detail": "针对巨头呼吁减速，评论文章指出真正原因是行业资产负债表恶化。OpenAI 等公司每年需筹集数千亿，但资金来源不明。推迟 IPO 被指为“安全 concerns\"实为财务困境的借口。文章认为行业正面临资金耗尽风险，减速是为避免系统崩溃而非单纯伦理考量，揭示商业模型不可持续性。Ed Zitron 预测行业会在意识到投入数百亿仅获增量改进后请求减速，资金 exhaustion 是核心驱动力。此外，OpenAI 延迟 IPO 也被视为退出策略之一。",
-    "tags": [
-      "News",
-      "Business",
-      "Safety"
-    ],
-    "link": "https://read.misalignedmag.com/the-ai-industry-has-completely-lost-the-plot-9864cf0c6709",
-    "date": "2026-09-13",
-    "id": "17893085587021"
-  },
-  {
-    "title": "数学家联名反对 AI 误导研究",
-    "summary": "五千名数学家签署宣言，警告 AI 解题破坏概念理解与洞察。",
-    "detail": "近五千名数学家（含 25 位菲尔兹奖得主）签署《AI 在数学中的严重错位》宣言。核心观点认为 AI 解题仅是工具，过度追求“真/假”陈述的生产会破坏概念理解的 fertile ground。这反映了 AI 对专业领域 proxy 的破坏，不仅是自动化，更可能阻碍新思想的产生，引发学界对 AI 角色的深思。数学家并非反 AI，但担忧工具反噬主要目标，即概念理解与洞察。此宣言标志着科学界对 AI 介入基础研究的警惕性显著提升。",
-    "tags": [
-      "News",
-      "Science",
-      "Research"
-    ],
-    "link": "https://www.seangoedecke.com/ai-is-breaking-our-proxies-for-expertise/",
-    "date": "2026-09-13",
-    "id": "17893085587022"
-  },
-  {
-    "title": "ThreadShelf：本地 AI 对话归档工具",
-    "summary": "支持多平台对话本地存档、语义搜索及继续生成的开源工具。",
-    "detail": "新开源项目 ThreadShelf 允许用户在本地归档 ChatGPT、Claude 等平台的对话。支持语义搜索、LanceDB 存储及通过 llama.cpp 本地模型继续对话。旨在解决 AI 对话难以导出复用的痛点，提供隐私优先的工作区，适合开发者及重度 AI 用户管理历史上下文，实现数据主权。架构包含解析、embeddings、HTTP API 及 MCP，运行于本地，确保隐私边界。支持 Node.js 20.19+，采用 MIT 许可。",
-    "tags": [
-      "New",
-      "Dev",
-      "Tool"
-    ],
-    "link": "https://github.com/ChrystianSchutz/ThreadShelf",
-    "date": "2026-09-13",
-    "id": "17893085587023"
-  },
-  {
-    "title": "奥特曼专访回应 AI 末日论与 IPO 计划",
-    "summary": "山姆·奥特曼新访谈回应 AI 安全担忧，提及 2027 年 IPO 计划。",
-    "detail": "OpenAI CEO 山姆·奥特曼在接受《财富》专访时，直面 AI 末日恐惧。他讨论了模型控制与安全措施，并透露公司计划在 2027 年进行 IPO。此次访谈背景是行业对超级智能风险的担忧加剧，奥特曼的表态旨在平衡公众恐惧与商业发展。这表明 OpenAI 试图在确保安全的前提下推进商业化，IPO 计划显示其对未来盈利能力的信心，但也可能面临更严格的公众审视与安全监管压力。市场将密切关注其如何在追求增长的同时落实安全承诺，这对整个行业的估值逻辑和安全标准设定具有风向标意义。投资者需评估安全成本对利润率的影响。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Safety"
-    ],
-    "link": "https://fortune.com/2026/09/12/sam-altman-interview-ai-doomsday-safety-models-control-ipo-2027/",
-    "date": "2026-09-13",
-    "id": "17892905262410"
   }
 ]
