@@ -1,5 +1,44 @@
 [
   {
+    "title": "华为高管：中国 AI 尚未强大到能识别前沿风险",
+    "summary": "华为徐直军表示中国 AI 算力不足，暂未面临前沿风险。",
+    "detail": "路透社报道，华为高管徐直军表示，中国 AI 技术目前尚未足够强大，因此还未面临所谓的“前沿风险”。这一言论揭示了中美 AI 发展阶段的显著差异，暗示中国目前更关注基础算力突破而非远期安全治理。这表明在全球 AI 安全讨论中，不同国家基于自身技术实力有不同的优先级。对于中国而言，追赶算力与模型能力仍是首要任务，安全治理虽重要但尚未成为阻碍发展的瓶颈。该观点为全球 AI 安全讨论提供了不同的地缘视角与技术发展路径参考，同时也引发了关于落后地区是否应承担同等安全义务的伦理讨论。",
+    "tags": [
+      "News",
+      "Huawei",
+      "Geopolitics"
+    ],
+    "link": "https://www.reuters.com/world/china/huaweis-xu-says-chinese-ai-not-powerful-enough-yet-see-frontier-risks-2026-09-17/",
+    "date": "2026-09-18",
+    "id": "17897214926951"
+  },
+  {
+    "title": "TypeSafe 发布 Jev 模型：专为 AI 可观测性设计",
+    "summary": "新型 System One 模型优化 AI Agent 追踪与情感分类。",
+    "detail": "TypeSafe 推出专为 AI 可观测性设计的 Jev 模型。不同于生成式模型，Jev 采用 RLCD 技术，专注于在预定义选项中选择并返回概率分布，适用于 Agent 任务完成度判断及用户情感分类。该技术降低了大规模追踪 enrichment 的成本，为 AI 工程团队提供了更高效的语义信号提取方案。传统生成式模型在处理大量 trace 时成本高昂，而 Jev 作为 System One 模型，能提供更 calibrated 的决策概率。这对于构建可靠 AI Agent 至关重要，帮助开发者理解用户真实满意度，而不仅仅是基础设施的健康状态，推动了 AI 工程化落地的精细化发展。",
+    "tags": [
+      "Dev",
+      "Observability",
+      "Model"
+    ],
+    "link": "https://fatliverfreddy.substack.com/p/a-different-kind-of-model-for-ai",
+    "date": "2026-09-18",
+    "id": "17897214926953"
+  },
+  {
+    "title": "专家推荐书单：如何在 AI 末日论中保持理性",
+    "summary": "Emily Bender 等专家推荐资源以应对 AI 焦虑与末日论。",
+    "detail": "针对 AI 行业日益蔓延的末日论焦虑，Emily M. Bender 等专家发布推荐书单，帮助公众保持理性。文章指出，AI 末日叙事常被科技巨头利用，误导政策制定者与公众。推荐资源包括《The AI Con》等书籍，旨在提供多元视角，缓解不必要的恐慌。此举有助于平衡行业 hype，促进更健康的 AI 社会讨论，为从业者及公众提供了应对信息过载与焦虑的实用指南，强调批判性思维的重要性。该建议对于在快速变化的技术环境中保持心理健康及职业判断力具有重要参考价值，倡导理性看待技术变革。",
+    "tags": [
+      "News",
+      "Analysis",
+      "Society"
+    ],
+    "link": "https://buttondown.com/maiht3k/archive/what-to-read-to-stay-grounded-amidst-ai-doomerism/",
+    "date": "2026-09-18",
+    "id": "17897214926954"
+  },
+  {
     "title": "RAW HQ 推出低成本 AI 专用服务器，宣称比 AWS 便宜百倍",
     "summary": "专为 AI 开发者设计的服务器，GPU 起步价低至 304 美元/月。",
     "detail": "RAW HQ 发布专为 AI 工作负载优化的服务器平台，声称比 AWS 便宜 100 倍且速度快 100 倍。提供专用 GPU 和 CPU，CPU 起步 9 美元/月，GPU 304 美元/月。支持 vLLM、Ollama、PyTorch 等主流框架及 Llama、Mistral 模型。通过 API 实现秒级部署和弹性伸缩，按秒计费。旨在解决 AWS 溢价和共享 GPU 延迟问题，为私有化部署、模型微调和推理提供高性价比基础设施，显著降低开发者运营成本，支持 GDPR 欧盟区域，无需共享硬件。",
@@ -50,6 +89,19 @@
     "link": "https://www.theregister.com/security/2026/09/16/ai-agents-can-modify-themselves-without-humans-telling-them-to-do-so/5296991",
     "date": "2026-09-18",
     "id": "17897023982443"
+  },
+  {
+    "title": "研究发现：AI 水印可能增加模型对抗性攻击 vulnerability",
+    "summary": "Ars Technica 报道水印技术可能使 LLM 更易受有害提示攻击。",
+    "detail": "Ars Technica 报道最新研究，发现 AI 文本水印技术可能意外削弱模型安全性。当启用水印时，LLM 对有害提示的防御能力下降，更容易响应 adversarial prompts。这一发现对 AI 安全部署提出挑战，表明在追求内容溯源的同时，需重新评估其对模型鲁棒性的潜在负面影响。研究人员指出，水印算法可能干扰模型的正常判断逻辑，导致安全过滤机制失效。这对于依赖水印进行内容管理的平台至关重要，建议在部署水印技术时进行更严格的安全测试，平衡溯源需求与系统安全性，避免引入新的攻击面。",
+    "tags": [
+      "News",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/",
+    "date": "2026-09-17",
+    "id": "17897214926952"
   },
   {
     "title": "Google DeepMind 成立新研究所探讨 AGI 安全",
@@ -388,6 +440,19 @@
     "link": "https://medium.com/@tinopreter/1-500-ai-system-prompt-leak-using-this-burp-suite-configuration-e1cb6ab27dc5",
     "date": "2026-09-17",
     "id": "17896243311065"
+  },
+  {
+    "title": "巨头论战：Altman 与黄仁勋承诺安全，桑德斯警告风险",
+    "summary": "Gary Marcus 批评 BBC 播放的 AI 领袖安全言论缺乏可信度。",
+    "detail": "Gary Marcus 在 Substack 撰文严厉批评 BBC 播放的 Altman、黄仁勋及桑德斯关于 AI 安全的片段。Altman 呼吁公众信任 OpenAI，黄仁勋表示一切会好，而桑德斯称 AI 比核武危险。Marcus 指出这些言论缺乏可信度，尤其是 Altman 的停顿显示其论证薄弱。这反映了行业领袖与政策制定者之间的认知鸿沟，加剧了公众对 AI 监管与安全承诺的质疑。文章强调，盲目信任科技巨头或过度恐慌均不可取，呼吁更理性的安全评估框架，凸显了当前 AI 安全讨论中的混乱局面与信任危机，为政策制定者提供了第三方视角。",
+    "tags": [
+      "News",
+      "Safety",
+      "Policy"
+    ],
+    "link": "https://garymarcus.substack.com/p/sam-altman-says-trust-me-jensen-huang",
+    "date": "2026-09-16",
+    "id": "17897214926950"
   },
   {
     "title": "诺和诺德携手 Anthropic 加速药物研发",
@@ -1233,70 +1298,5 @@
     "link": "https://www.latimes.com/california/story/2026-09-13/rogue-ai-concerns-prompt-ca-lawmakers-to-demand-penalties-guardrails",
     "date": "2026-09-14",
     "id": "17894243714612"
-  },
-  {
-    "title": "零依赖 Python 库检测 AI Agent 死循环",
-    "summary": "发布 savi-loop-guard 库，零依赖检测 AI Agent 工具调用死循环与速度异常。",
-    "detail": "GitHub 发布 savi-loop-guard，这是一个零依赖 Python 库，专为检测 AI Agent 死循环设计。它通过速度分析和模糊工具名匹配，识别 Agent 是否陷入重复调用或过快调用。无需 API 密钥或网络连接，可直接嵌入 Agent 代码。该工具解决了 Agent 开发中常见的失控循环问题，为开发者提供了轻量级的本地监控方案，提升 Agent 稳定性。",
-    "tags": [
-      "Dev",
-      "Python",
-      "Agent"
-    ],
-    "link": "https://github.com/data-gras/savi-loop-guard",
-    "date": "2026-09-14",
-    "id": "17894243714613"
-  },
-  {
-    "title": "苹果发布 Siri AI，下一代智能助手登场",
-    "summary": "苹果正式推出 Siri AI，基于新一代 Apple Intelligence，伴随 iOS 27 发布，能力显著提升。",
-    "detail": "苹果于 2026 年 9 月 14 日正式宣布推出全新的 Siri AI，这是下一代 Apple Intelligence 的核心成果，伴随 iOS 27 系统更新一同发布。新版 Siri 在理解能力和个人化服务上有了质的飞跃，标志着苹果在端侧 AI 领域的重大布局。此次更新旨在通过更强大的本地处理能力，为用户提供更隐私、更高效的助手体验，彻底改变人机交互方式。业界认为这可能重塑移动端 AI 生态，推动隐私计算与大型语言模型在设备端的深度融合，对竞争对手构成显著压力。随着硬件性能提升，本地运行大模型将成为标配，苹果此举有望引领行业新标准，加速 AI 手机普及进程。此次发布不仅提升了用户体验，更展示了苹果在芯片与算法协同优化上的深厚积累，为未来多模态交互奠定基础。",
-    "tags": [
-      "News",
-      "Apple",
-      "LLM"
-    ],
-    "link": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/",
-    "date": "2026-09-14",
-    "id": "17894092963630"
-  },
-  {
-    "title": "马斯克透露 Grok 4.8 细节，2.5T 参数模型即将完成训练",
-    "summary": "Elon Musk 透露 Grok 4.8 模型细节，采用新 C++ 栈，参数达 2.5T，本周完成训练。",
-    "detail": "Elon Musk 在社交媒体上确认，Grok 4.8 模型将于本周完成训练并正式启动强化学习阶段。该模型参数量高达 2.5T，基于全新的 C++ 软件栈构建，显示出 SpaceXAI 在大模型训练效率上的突破。超大规模参数结合新架构可能带来显著的性能提升，值得行业关注其后续实测表现及开源计划。此举可能加剧大模型参数竞赛，推动训练基础设施的技术革新。同时，C++ 栈的使用暗示了对推理速度和资源优化的极致追求，可能为边缘设备部署超大模型提供新路径，引发技术社区对底层架构优化的广泛讨论，展示了一种不同于 Python 主流栈的技术路线。这种底层优化对于降低推理成本至关重要，可能成为未来大模型商业化的关键竞争力，值得开发者密切关注其技术细节。",
-    "tags": [
-      "News",
-      "LLM",
-      "Grok"
-    ],
-    "link": "https://twitter.com/elonmusk/status/2099308197802631191",
-    "date": "2026-09-14",
-    "id": "17894092963631"
-  },
-  {
-    "title": "AI 安全担忧加剧，呼吁行业放缓与工会化运动",
-    "summary": "AI 安全担忧引发员工离职潮，行业领袖呼吁放缓发展速度，工会化运动兴起。",
-    "detail": "近期 AI 安全担忧成为焦点，多家大公司研究员因恐惧失控风险离职，行业 CEO 们呼吁协调放缓发展以避免灭绝风险，但面临博弈困境。文章指出，虽然各方认为需要更严格的安全监管，但无人愿率先承担责任，且面临国际竞争压力，尤其是中国若不加入放缓行列，西方企业恐失去竞争优势。同时，关于\"Unionize AI\"的讨论兴起，反映出从业者对技术失控及责任归属的焦虑。这一趋势可能推动政策监管加强，影响未来 AI 研发节奏与企业治理结构，引发行业伦理深思，甚至可能改变 AI 公司的股权结构和决策流程，标志着 AI 行业进入社会责任与商业利益博弈的新阶段。这种集体焦虑表明技术奇点临近，行业亟需建立全球性的安全标准与协作机制，以防止恶性竞争导致的安全隐患。",
-    "tags": [
-      "News",
-      "Safety",
-      "Policy"
-    ],
-    "link": "https://www.hamiltonnolan.com/p/unionize-ai",
-    "date": "2026-09-14",
-    "id": "17894092963632"
-  },
-  {
-    "title": "陶哲轩博客：AI 正在打破数学定理生产的传统体系",
-    "summary": "数学家探讨 AI 对定理生产的影响，传统深度思考机制被打破，评估体系面临挑战。",
-    "detail": "菲尔兹奖得主陶哲轩博客刊登 guest post，由 Bryna Kra 撰写，探讨 AI 对数学研究的冲击。文章指出，过去“深奥定理稀缺”是识别深度思考的有效机制，但 AI 正在打破这一系统，使得定理生产不再稀缺，导致传统评估体系失效。这意味着数学验证和科研评估标准需随之调整，传统学术评价体系面临挑战，同行评审压力增大。该观点揭示了 AI 在科学发现领域的潜力与挑战，为科研工作者提供了关于人机协作的新视角，引发学术界对 AI 生成内容可信度的讨论，促使学界重新定义“创造力”与“深度思考”的标准，对未来科研范式产生深远影响。随着 AI 生成证明的普及，数学家需转向更高阶的问题定义与验证工作，这将是学术界的重大转型契机。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Math"
-    ],
-    "link": "https://terrytao.wordpress.com/2026/09/13/deep-theorems-were-scarce-and-difficult-and-so-became-an-effective-mechanism-to-identify-deep-thought-ai-has-broken-this-system/",
-    "date": "2026-09-14",
-    "id": "17894092963633"
   }
 ]
