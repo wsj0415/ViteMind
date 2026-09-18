@@ -1,5 +1,44 @@
 [
   {
+    "title": "AI 云服务商 Nscale 递交 IPO 申请，营收增长但亏损严重",
+    "summary": "Nscale 纽交所上市申请披露，半年亏损 10 亿美元，获 OpenAI 等大客户支持。",
+    "detail": "Nscale 作为专注于 AI 模型基础设施的云提供商，正式向纽交所提交 IPO 申请，ticker 为\"NSCL\"。财务数据显示，截至 2026 年 6 月 30 日的六个月里，营收同比增长 1252% 至 1.406 亿美元，但净亏损高达 10.2 亿美元，亏损幅度显著。公司与 OpenAI、Anthropic 达成重大合作，提供 Nvidia GPU 算力租赁。尽管亏损严重，但剩余履约义务高达 564 亿美元，显示市场需求旺盛。竞争对手包括 CoreWeave 等新兴云厂商。此 IPO 反映了 AI 基础设施层巨大的资本投入与回报周期挑战，市场关注其能否在巨头竞争中独立生存，以及高亏损下的估值逻辑。行业正经历从技术突破到商业化落地的关键考验。",
+    "tags": [
+      "News",
+      "IPO",
+      "Infrastructure"
+    ],
+    "link": "https://www.cnbc.com/2026/09/18/nscale-ai-cloud-provider-ipo-nscl.html",
+    "date": "2026-09-18",
+    "id": "17897727511380"
+  },
+  {
+    "title": "Anthropic 引入 Accenture 作为首个嵌入式安全评估合作伙伴",
+    "summary": "Anthropic 宣布 Accenture 团队入驻评估模型安全，五年计划投资至少 10 亿美元。",
+    "detail": "Anthropic CEO Dario Amodei 推动的第三方安全评估计划落地，首个合作伙伴竟是埃森哲（Accenture）。埃森哲旗下 AI 部门 Faculty 将驻场进行模型红队测试、对齐评估及安全 guardrails 测试。双方计划五年内投资至少 10 亿美元。此举出乎业界意料，此前猜测多为 METR 等研究机构。消息公布后埃森哲股价盘后上涨 8%。Anthropic 表示后续还将宣布更多评估机构，并与非营利组织探讨试点合作。这标志着 AI 安全从理论研究走向企业级合规落地，可能成为行业标准。大型咨询公司介入 AI 治理，显示安全评估正成为刚需服务，影响未来模型部署流程。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Partnership"
+    ],
+    "link": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
+    "date": "2026-09-18",
+    "id": "17897727511381"
+  },
+  {
+    "title": "大空头投资者 Steve Eisman 质疑 AI 危机论",
+    "summary": "知名投资者 Steve Eisman 表示 AI 公司正试图制造危机感，引发市场关注。",
+    "detail": "曾因预测次贷危机闻名的投资者 Steve Eisman 在 CNBC 采访中对 AI 行业提出质疑。他认为当前 AI 公司正在试图“制造危机”（manufacture a crisis），暗示市场可能存在过度炒作或泡沫风险。作为《大空头》原型人物，他的观点通常具有市场风向标意义。该视频由 CNBC Television 发布， garnering 超过 54 万次观看，反映了投资者群体对 AI 资本开支狂热背后的冷静思考与担忧。此言论可能影响后续 AI 板块的资本流向与估值体系。传统金融视角对 AI 叙事持谨慎态度，提示风险管理的必要性。",
+    "tags": [
+      "News",
+      "Investment",
+      "Market Sentiment"
+    ],
+    "link": "https://www.youtube.com/watch?v=4qV5WWgFTS8",
+    "date": "2026-09-18",
+    "id": "17897727511382"
+  },
+  {
     "title": "Napster 转型教育 AI，打造教师数字孪生",
     "summary": "Napster 与 GEMS 教育合作，开发教师 AI 数字孪生体。",
     "detail": "**背景**：昔日音乐共享巨头 Napster 转向教育科技，宣布与迪拜大型私立 K-12 教育提供商 GEMS Education 建立新合作伙伴关系，旨在开发并测试学校中的 AI 代理。**核心**：双方将在 GEMS 研究与创新学校开发概念验证项目，包括讲师数字化、游戏化学习及 AI 辅助内容创作。这是该公司自 1999 年以来的重大业务转型。**技术**：利用先进的 AI 代理技术创建教师的数字孪生体，以辅助教学内容和个性化学习体验，测试技术将在第一阶段进行。**影响**：标志着 AI 代理从娱乐向核心教育场景的渗透，探索个性化教学新范式，可能重塑未来师生互动模式及教育交付方式，引发对教育伦理的关注。",
@@ -1259,44 +1298,5 @@
     "link": "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/",
     "date": "2026-09-15",
     "id": "17894780549311"
-  },
-  {
-    "title": "Show HN: Nenya - 零依赖 AI 网关保护密钥安全",
-    "summary": "开源 Go 语言 AI 网关 Nenya，可在请求到达提供商前脱敏密钥。",
-    "detail": "Nenya 是一个轻量级、高安全的 AI API 网关/代理，用 Go 编写。它作为本地 AI 编码客户端（如 Cursor）与上游 LLM 提供商之间的中间件，能在请求发送前自动脱敏密钥。零依赖设计使其易于部署，适合关注数据隐私和安全的企业开发者，防止敏感信息泄露给模型提供商。支持 Gemini、DeepSeek 等上游 provider。作为 Show HN 项目，它解决了本地客户端直接调用 API 时的密钥暴露风险，提供透明中间件层，确保代码隐私。该项目强调无依赖（0-deps），降低维护成本。对于使用 OpenCode、Pi 等本地客户端的开发者，Nenya 提供了额外的安全屏障，避免密钥硬编码或泄露。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Go"
-    ],
-    "link": "https://github.com/gumieri/nenya",
-    "date": "2026-09-15",
-    "id": "17894780549312"
-  },
-  {
-    "title": "新工具：计算你的 AI 使用习惯碳足迹",
-    "summary": "The Invisible Cloud 推出计算器，量化 AI 生成内容的电力和水资源消耗。",
-    "detail": "The Invisible Cloud 推出绿色 AI 足迹计算器，用户可输入生成的图像、代码或文本量，查看对应的电力、水资源消耗及 CO2 排放。工具将抽象的 AI 请求转化为具体的物理世界成本（如灯泡分钟数、塑料吸管数）。旨在提高用户对 AI 环境影响的认知，帮助建立更可持续的 AI 使用习惯。支持按日、周、年计算习惯成本。例如，生成图像相当于 2.9 分钟 LED 灯泡耗电。用户可构建个人习惯模型，查看聊天、编码、艺术创作等不同行为的累计环境影响。这对于关注 ESG 的企业和个人用户具有参考价值，揭示了 AI 背后的隐性资源消耗。",
-    "tags": [
-      "New",
-      "Sustainability",
-      "Tool"
-    ],
-    "link": "https://theinvisiblecloud.com/",
-    "date": "2026-09-15",
-    "id": "17894780549313"
-  },
-  {
-    "title": "Show HN: SubRunGear - 跑步装备 AI 操作系统",
-    "summary": "专为跑者设计的 AI 教练，追踪鞋履里程并提供个性化训练建议。",
-    "detail": "SubRunGear 是一款专为跑者设计的 AI 操作系统，通过连接 Strava 自动追踪每双鞋的里程。AI 教练根据实际训练数据提供个性化 workout 建议和 race prep。强调隐私保护，数据仅用户可见。功能包括装备寿命追踪、比赛日套件管理及跑团装备板。适合希望科学管理装备和训练的跑步爱好者。用户可在两分钟内上线，无需公开 Strava 数据。AI 教练基于真实跑步记录而非通用模板，提供配速目标和训练检查。verified mileage 功能确保数据真实性，适合严肃跑者记录装备生命周期和比赛准备。",
-    "tags": [
-      "New",
-      "Fitness",
-      "AI Coach"
-    ],
-    "link": "https://www.subrungear.com/",
-    "date": "2026-09-15",
-    "id": "17894780549314"
   }
 ]
