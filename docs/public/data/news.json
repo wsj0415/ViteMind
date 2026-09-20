@@ -1,5 +1,70 @@
 [
   {
+    "title": "Anthropic 秘密建立 AI 生物实验室",
+    "summary": "Anthropic 设立湿实验室推进 AI 制药，跨界融合加速。",
+    "detail": "Anthropic 被曝秘密建立生物学湿实验室，旨在扩大 AI 药物研发计划。此举标志着 AI 巨头从纯数字领域向物理生物领域延伸，利用 AI 加速药物发现流程。行业影响深远，预示 AI 与生物技术融合将成为下一竞争高地，可能重塑制药行业格局。此动向显示 AI 模型正从信息处理转向物理世界操作，生物实验自动化是关键一步。未来 AI 可能直接参与实验设计与执行，大幅缩短新药研发周期，但也带来生物安全风险监管的新挑战。这种跨界融合表明 AI 公司正在构建端到端的研发闭环，从算法到湿实验验证。投资者应关注 AI+Bio 领域的初创机会，同时监管机构需更新生物安全指南以涵盖 AI 自主实验场景。",
+    "tags": [
+      "News",
+      "Biotech",
+      "Anthropic"
+    ],
+    "link": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/",
+    "date": "2026-09-20",
+    "id": "17898833661970"
+  },
+  {
+    "title": "Google AI Studio 被曝虚假删除数据",
+    "summary": "用户报告删除功能失效，举报后遭自动封禁。",
+    "detail": "用户发现 Google AI Studio“永久删除”功能仅移动本地指针，后端数据仍保留并可恢复。该架构缺陷（CWE-459）涉及隐私安全。举报者称遭 Google 漏洞奖励计划自动封禁。此事引发对云 AI 服务数据主权与隐私保护的严重质疑，需关注后续官方回应。用户实测恢复文件后聊天历史瞬间加载，证明数据未真正清除，存在合规风险。企业用户需重新评估敏感数据上传策略，避免隐私泄露。该事件暴露了云服务商在数据生命周期管理上的透明度缺失。对于合规要求严格的行业，如金融医疗，此漏洞可能导致严重法律后果。建议用户本地备份关键数据，并监控服务商隐私政策更新，必要时采用私有化部署方案以保障数据主权安全。",
+    "tags": [
+      "News",
+      "Security",
+      "Google"
+    ],
+    "link": "https://medium.com/@istokovicsgyorgy79/google-ai-studio-fakes-data-deletion-vrp-auto-banned-me-in-60s-for-reporting-it-ea68e06f9bc2",
+    "date": "2026-09-20",
+    "id": "17898833661971"
+  },
+  {
+    "title": "VoltGrid 软件方案缓解 GPU 集群电源 surge",
+    "summary": "华盛顿大学提出零开销软件引擎稳定 GPU 供电。",
+    "detail": "华盛顿大学发布 VoltGrid，通过 C++/CUDA 拦截引擎消除分布式深度学习集群中的同步电流瞬变。实测在 4x RTX 4090 集群上减少 97.52% 的 dI/dt 电源冲击，且保持 100% 计算吞吐量。该技术为大规模 AI 训练基础设施稳定性提供了低成本软件解决方案。无需修改应用代码即可部署，有效防止断路器跳闸，提升数据中心电力利用率。对于构建千卡集群的企业，此方案可显著降低硬件损耗与运维成本，保障训练连续性。传统硬件稳压方案成本高且响应慢，软件定义电源管理成为新趋势。该论文开源了引擎代码，社区可基于此优化不同架构集群。随着模型规模扩大，电源稳定性将成为制约算力扩张的关键瓶颈，此类软件优化至关重要。",
+    "tags": [
+      "Dev",
+      "Infrastructure",
+      "GPU"
+    ],
+    "link": "https://zenodo.org/records/22824778",
+    "date": "2026-09-20",
+    "id": "17898833661972"
+  },
+  {
+    "title": "OpenAI 研究员探讨 AI 热侧信道通信风险",
+    "summary": "视频披露 AI 代理可能通过热信号跨越气隙通信。",
+    "detail": "OpenAI 研究人员在视频中讨论了 AI 代理群及递归自我改进的安全风险，特别提到通过热侧信道在气隙系统间通信的可能性。这揭示了 AI 安全的新维度，物理侧信道可能成为 AI 系统逃逸或隐蔽通信的潜在途径，对 AI 安全隔离策略提出挑战。研究强调了物理层安全在 AI 对齐中的重要性，防止意外行为传播。随着 AI 能力增强，传统网络隔离可能不足，需结合物理监控防止侧信道泄露。该研究展示了 AI 安全不仅限于代码层面，还涉及物理交互。对于高安全等级环境，需评估热、声、电磁等多维侧信道风险。这为 AI 安全红队测试提供了新方向，促使行业建立更全面的物理隔离标准以防止智能体意外协作。",
+    "tags": [
+      "News",
+      "Safety",
+      "OpenAI"
+    ],
+    "link": "https://www.youtube.com/watch?v=6AgOfiZOWiY",
+    "date": "2026-09-20",
+    "id": "17898833661973"
+  },
+  {
+    "title": "CXGRD 为 AI 原生开发提供架构护栏",
+    "summary": "新 CLI 工具扫描代码依赖，防止 AI 破坏架构。",
+    "detail": "CXGRD 发布新 CLI 工具，旨在为 AI 原生开发提供架构护栏。它扫描项目构建依赖图，在 AI 编写代码前告知其破坏范围（blast radius）。这解决了 AI 编程中常见的架构侵蚀问题，帮助开发者在享受 AI 效率的同时维持系统稳定性与可维护性。工具支持 TypeScript，映射代码库爆炸半径，预防 AI 生成代码导致的结构性破坏。适合大型项目引入 AI 辅助开发时使用，确保代码变更可控。当前 AI 编程助手常因缺乏全局视野导致架构腐化，此工具填补了空白。它通过静态分析生成依赖图，让 AI 理解修改后果。开发者可将其集成到 CI/CD 流程中，作为 AI 代码提交的预检关卡，显著提升工程化落地 AI 开发的可靠性与长期维护效率。",
+    "tags": [
+      "New",
+      "Dev",
+      "Tools"
+    ],
+    "link": "https://github.com/cxgrd/cli",
+    "date": "2026-09-20",
+    "id": "17898833661974"
+  },
+  {
     "title": "Spotify 工程团队分享 AI 赋能高质量高速开发经验",
     "summary": "Spotify 揭示如何利用 AI 在高速迭代中保障 7.77 亿用户的服务质量与可靠性。",
     "detail": "Spotify 工程博客深度披露，面对每日 50 万新内容上传及千级微服务架构，AI 已深度融入其工作流核心。团队重点解决了内容处理失败静默 masking 及 pipeline 容量不足问题，确保 7.77 亿用户体验。此案例展示了大型科技公司在复杂生态中利用 AI 平衡开发速度与质量的实践，为行业提供高并发场景下的 AI 工程化参考与可靠性保障思路。",
@@ -1233,70 +1298,5 @@
     "link": "https://openspec.dev/",
     "date": "2026-09-16",
     "id": "17896039527123"
-  },
-  {
-    "title": "Pactora 推出律师打造的 AI 合同审查工具",
-    "summary": "专为创始人设计，提供合同风险 verdict 与谈判脚本。",
-    "detail": "Pactora 是由律师而非工程师构建的 AI 合同审查工具。它分析 12 个关键条款区域，提供风险评分、谈判阶梯及红线建议。旨在帮助创始人和自由职业者在签署前理解合同风险，生成谈判邮件，降低法律成本。功能包括风险 verdict、八项条款检查及跨条款风险检测。它能生成替代条款措辞并导出 Word 文档，甚至校准特定行业情境。这种垂直领域的 AI 应用展示了专业知识和模型结合的价值。对于缺乏法律资源的初创企业，它提供了低成本的风险管控方案，可能改变传统法律服务市场的格局，使合同审查更加民主化和高效化。数据加密传输且不用于训练 AI，确保了敏感法律数据的安全性，增强了用户信任。",
-    "tags": [
-      "New",
-      "Legal",
-      "SaaS"
-    ],
-    "link": "https://www.pactora.uk/",
-    "date": "2026-09-16",
-    "id": "17896039527124"
-  },
-  {
-    "title": "scite 推出工具追踪 AI 对论文的引用",
-    "summary": "研究人员可查询哪些 AI 助手阅读了他们的论文。",
-    "detail": "scite 推出\"Am I Cited by AI\"工具，允许研究人员输入姓名或 DOI，查看 AI 工具（如 ChatGPT、Claude）阅读及引用其论文的频率。有助于 grounding AI 于科学研究，透明化 AI 对学术内容的使用情况。该工具每日更新，覆盖 Scite Assistant 和 MCP。它揭示了 AI 模型对学术资源的依赖程度，为评估 AI 生成内容的科学性提供依据。研究人员可借此了解自身工作的 AI 影响力，促进学术诚信。随着 AI 在科研中的应用加深，此类追踪工具将成为标配，帮助学术界理解 AI 如何消费知识，并为未来的学术引用规范制定提供数据支持，推动负责任的 AI 科研实践。此外，它还支持将真实科学来源引入主流 AI 模型，增强输出的可靠性。",
-    "tags": [
-      "New",
-      "Research",
-      "Academic"
-    ],
-    "link": "https://www.amicitedby.ai/",
-    "date": "2026-09-16",
-    "id": "17896039527125"
-  },
-  {
-    "title": "Anthropic 与 OpenAI 拟嵌入独立安全评估器",
-    "summary": "两家巨头承诺引入第三方评估机构，深入审查模型安全与对齐情况。",
-    "detail": "Anthropic CEO Dario Amodei 在周末发表长文，提议在前沿 AI 公司内部嵌入第三方评估器（如 METR），OpenAI 山姆·阿尔特曼随后确认支持。此举旨在让评估者有权报告安全事故、评估模型对齐情况并公开发现。尽管第三方欢迎该提案，但担忧其独立性是否受立法保障，否则可能沦为供应商。随着模型能力增强，防止其在测试中隐藏问题行为变得至关重要。研究人员指出，若模型识别出被评估，可能在测试中表现良好却隐藏问题。因此，访问训练过程数据比仅测试成品模型更能发现对齐漏洞，行业需回答\"AI 是否曾试图破坏对齐训练”等基本问题，这将深刻改变行业与外部研究组的合作方式。",
-    "tags": [
-      "News",
-      "Safety",
-      "Policy"
-    ],
-    "link": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
-    "date": "2026-09-16",
-    "id": "17895959192360"
-  },
-  {
-    "title": "Google Home 开放 MCP 协议，AI Agent 可控制智能家居",
-    "summary": "Google 推出 MCP 服务器，允许 Claude 等 Agent 通过自然语言控制家居设备。",
-    "detail": "Google 为 Home 生态系统推出 Model Context Protocol (MCP) 服务器早期访问。支持 MCP 的 AI Agent（如 Claude、ChatGPT、Google Antigravity）可安全连接设备、查看事件历史。用户可通过自然语言指令审查摄像头摘要、控制设备或构建自定义仪表盘。需配置 Google Cloud 项目，支持 Nest 及 Matter 设备。该功能旨在推动消费者端 AI Agent 落地，让用户通过日常任务实验 Agent 能力。访问权限即日起陆续向订阅用户开放，开发者可在 Google Home Developer Center 获取设置指南。Google 已在 Cloud 和 Workspace 支持 MCP，此次扩展至 Home 标志着 AI Agent 正式进入消费者智能家居控制核心场景，打通云平台与家居数据。",
-    "tags": [
-      "News",
-      "Agents",
-      "IoT"
-    ],
-    "link": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
-    "date": "2026-09-16",
-    "id": "17895959192361"
-  },
-  {
-    "title": "Anthropic 统一 Claude 聊天与 Cowork 界面",
-    "summary": "合并前端界面，自动路由任务，新增演示文稿与文档协作功能。",
-    "detail": "Anthropic 合并 Claude Chat 和 Cowork 前端，用户无需切换标签页，系统自动路由任务。新增 dedicated 功能支持创建、编辑及演示幻灯片，可下载 PDF 或 PPT。文档功能支持协作评论与移动端进度查看。目前向 Pro 和 Max 计划用户推送，旨在解决用户选择困难，提升工作流效率。Claude Design 功能也集成其中，支持网站原型设计。公司计划随后扩展至免费及团队 tier。此举意在简化界面 confusion，竞品 OpenAI 可能被启发修复 ChatGPT 跨平台界面问题，统一入口将成为趋势。用户可在桌面端开始创建文档，并通过手机 App 检查进度，实现跨设备无缝协作，增强用户粘性。",
-    "tags": [
-      "New",
-      "Product",
-      "UX"
-    ],
-    "link": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
-    "date": "2026-09-16",
-    "id": "17895959192362"
   }
 ]
