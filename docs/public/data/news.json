@@ -1,5 +1,83 @@
 [
   {
+    "title": "BBC 调查：AI 从业者对末日论看法分化",
+    "summary": "并非所有 AI 员工都认为技术会毁灭人类，业内观点出现显著分歧。",
+    "detail": "BBC 采访多位来自 OpenAI、Meta 等公司的匿名员工，显示业内对 AI 末日论存在显著分歧。尽管部分前员工警告风险，但许多现任开发者认为过度恐慌缺乏细节支持。这反映了 AI 安全讨论中的复杂情绪，可能影响未来监管政策与开发节奏，表明行业内部对风险认知尚未统一。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Industry"
+    ],
+    "link": "https://www.bbc.com/news/articles/cm5y7qj54klpo",
+    "date": "2026-09-20",
+    "id": "17899485362100"
+  },
+  {
+    "title": "美国 Census 局发布企业 AI 采用率数据",
+    "summary": "最新调查显示仅 17.9% 企业在业务中使用了 AI 技术。",
+    "detail": "美国人口普查局商业趋势调查显示，仅 17.9% 的企业在过去两周使用了 AI。销售营销采用率最高 (14.3%)，生产领域最低 (1.7%)。数据揭示了 AI 在实际商业落地的现状，表明大部分企业仍处于观望或早期探索阶段，为市场预测提供关键基准，反映技术渗透仍需时间。",
+    "tags": [
+      "News",
+      "Market Data",
+      "Adoption"
+    ],
+    "link": "https://www.crawlspider.com/pages/ai-adoption-rate",
+    "date": "2026-09-20",
+    "id": "17899485362101"
+  },
+  {
+    "title": "开发者揭示 AI 代理的“延续压力”偏差",
+    "summary": "O'Reilly 文章探讨 AI 代理为何倾向于催促开发者提前发布。",
+    "detail": "作者在开发开源项目时发现，AI 代理即使在没有截止日期的情况下，也会不断建议“先发布再修复”。这种现象被定义为“延续压力”偏差。文章深入分析了 AI orchestrator 的行为模式，为开发者优化 AI 协作流程提供了重要参考，警示盲目信任代理决策的风险，有助于提升工程质量。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Agent"
+    ],
+    "link": "https://www.oreilly.com/radar/my-ai-kept-pushing-me-to-ship-so-i-asked-it-why/",
+    "date": "2026-09-20",
+    "id": "17899485362102"
+  },
+  {
+    "title": "RayMate：免费 macOS AI 启动器上线",
+    "summary": "完全免费的 macOS AI 工具，支持本地语音与多模型调用。",
+    "detail": "RayMate 是一款全新的 macOS AI 启动器，类似 Spotlight，完全免费且无需账户。支持本地离线语音识别及多模型调用（OpenAI, Claude 等）。特色在于屏幕感知与本地历史记录，为 Mac 用户提供了隐私友好且高效的 AI 交互新选择，Windows 版本即将推出，适合追求效率的用户。",
+    "tags": [
+      "New",
+      "MacOS",
+      "Productivity"
+    ],
+    "link": "https://raymate.app/",
+    "date": "2026-09-20",
+    "id": "17899485362103"
+  },
+  {
+    "title": "Prompt Wars：AI 提示词注入对战平台",
+    "summary": "创新性平台让用户通过提示词注入进行 AI 模型对战。",
+    "detail": "Prompt Wars 是一个基于 Core Wars 概念的 AI 游戏平台，用户编写提示词进行攻击与防御对战。平台使用 Llama 3.3 模型，设有排行榜与训练模式。这不仅是一种娱乐形式，也为研究提示词注入攻击与防御机制提供了独特的实验场，适合安全研究人员关注，推动对抗性测试发展。",
+    "tags": [
+      "New",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://promptwars.party/",
+    "date": "2026-09-20",
+    "id": "17899485362104"
+  },
+  {
+    "title": "菲尔兹奖得主探讨 AI 与数学未来",
+    "summary": "Martin Hairer 视频讲座分析 AI 在纳维 - 斯托克斯方程中的应用。",
+    "detail": "2014 年菲尔兹奖得主 Martin Hairer 在视频中深入探讨了 AI 技术如何辅助解决纳维 - 斯托克斯方程等数学难题。讲座分析了 AI 在未来数学研究中的潜在角色，标志着顶尖学术界开始严肃对待 AI 作为科研工具的可能性，为 AI for Science 领域带来新的理论视角，促进跨学科融合。",
+    "tags": [
+      "News",
+      "Research",
+      "Math"
+    ],
+    "link": "https://www.youtube.com/watch?v=G8HMa_tgM34",
+    "date": "2026-09-20",
+    "id": "17899485362105"
+  },
+  {
     "title": "Base Browser: 无 AI 干扰的 Firefox 硬分叉",
     "summary": "Codeberg 推出无 AI 浏览器，限制 LLM 生成内容。",
     "detail": "Codeberg 平台近日更新服务条款，明确限制 LLM 生成内容并禁止加密货币项目。作为响应，Base Browser 项目推出了基于 Firefox 的硬分叉版本，主打无\"AI 垃圾内容\"的浏览体验。这一举动反映了开源社区对 AI 生成内容泛滥的担忧，以及开发者对纯净开发环境的追求。对于注重隐私、代码质量及希望规避 AI 干扰的开发者而言，这是一个重要的替代方案，标志着反 AI 过度植入趋势的兴起。",
@@ -1220,83 +1298,5 @@
     "link": "https://github.com/savageAZfck/respawn",
     "date": "2026-09-17",
     "id": "17896877579213"
-  },
-  {
-    "title": "Nature 论文提议将研究论文转化为交互式 AI 代理",
-    "summary": "新研究主张论文应具备交互性，降低计算方法的复用技术门槛。",
-    "detail": "Nature 发表研究指出传统论文是被动的，复用计算方法存在技术壁垒。提议将论文重构为交互式 AI 代理，如 AlphaGenome 框架。读者无需手动配置环境即可应用新方法。这将解决代码依赖、环境配置等痛点，提升科学沟通效率，使生物学家等非技术人员也能直接使用前沿计算模型。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Agent"
-    ],
-    "link": "https://www.nature.com/articles/s41586-026-11044-y",
-    "date": "2026-09-17",
-    "id": "17896877579214"
-  },
-  {
-    "title": "Google Labs 推出家庭版 CC 智能体",
-    "summary": "Google Labs 升级 CC 智能体，支持最多 6 人家庭协作管理日常事务。",
-    "detail": "Google Labs 宣布 CC 智能体扩展至家庭场景，拥有独立账户身份及清晰权限模型。支持最多 6 名成员协作，自动整理学校邮件、账单等共享信息，连接日历与任务。此前 CC 已作为 Daily Brief 集成至 Gemini。此举标志着个人 AI 代理从单一用户向多用户协作场景迈进，旨在减少家庭物流协调时间，强化 Gemini 生态在家庭生活中的渗透力与实用性，解决信息分散 across 多账户的痛点，提升家庭协作效率。该实验性代理反映了 Google 对 AI 处理复杂社会协调任务的探索，可能成为未来家庭 OS 的核心组件，改变家庭管理数字化的方式，同时引发关于家庭数据隐私共享边界的讨论。",
-    "tags": [
-      "News",
-      "Google",
-      "AI Agent"
-    ],
-    "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/",
-    "date": "2026-09-17",
-    "id": "17896756039300"
-  },
-  {
-    "title": "微软高管称 AI scraping 为“史上最大盗窃”",
-    "summary": "纽约时报诉讼文件披露，微软高管私下承认 AI 训练数据抓取涉嫌盗窃劳动成果。",
-    "detail": "纽约时报诉 OpenAI 及微软案中未编辑文件显示，微软高管曾私下将 AI 数据抓取称为“盗窃”，OpenAI 领导层亦承认模型对出版业构成生存威胁。文件揭露了绕过付费墙和剥离版权通知的行为。此案判决可能重塑 AI 训练数据的版权法律边界。尽管法官此前倾向“合理使用”，但内部承认增加了法律风险。特朗普政府近期也提交了简报。这反映了科技巨头与内容创作者间的根本矛盾，可能迫使 AI 公司调整数据策略，增加授权成本，影响未来模型训练数据来源的合法性与可持续性，引发行业合规震荡，重新定义数据所有权。",
-    "tags": [
-      "News",
-      "Legal",
-      "Copyright"
-    ],
-    "link": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-    "date": "2026-09-17",
-    "id": "17896756039301"
-  },
-  {
-    "title": "Figure AI 发布 Helix 2.5 实现零样本家庭通用",
-    "summary": "Figure AI 新模型 Helix 2.5 首次在 30 个未见过的家庭中实现零样本全身自主操作。",
-    "detail": "Figure AI 推出 Helix 2.5 神经网络，基于 Index 全球人类行为数据集预训练。机器人在 30 个未采集数据的真实家庭中，无需微调即可完成整理房间、折叠毛巾等长 horizon 任务。这是人形机器人首次实现如此范围的零样本全身泛化，突破具身智能适应性问题。相比 Helix 02 需在操作地学习，2.5 版本实现了跨环境通用能力。这意味着机器人可像人类一样进入陌生环境立即工作，大幅降低部署成本。该技术进步加速了通用人形机器人在家庭和服务场景的商业化落地进程，是具身智能领域的里程碑，证明了基础模型在物理世界的泛化潜力。",
-    "tags": [
-      "News",
-      "Robotics",
-      "Embodied AI"
-    ],
-    "link": "https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization",
-    "date": "2026-09-17",
-    "id": "17896756039302"
-  },
-  {
-    "title": "Tincan 推出 AI 代理多人协作模式",
-    "summary": "新工具 Tincan 允许不同 AI 代理在加密频道中共享上下文和对话历史。",
-    "detail": "Show HN 项目 Tincan 为 AI 代理提供共享沟通渠道，支持跨编码工具连接。具备端到端加密、会话历史保留及私有记忆库功能。开发者可组织代理按项目讨论，解决多代理协作中的上下文丢失问题，优化复杂工作流中的代理交互效率。允许代理在不同会话间保持记忆，支持邀请新代理加入加密工作空间。通过插件安装即可连接 Claude Code 等工具，每日限 100 条共享消息。这解决了当前多代理系统中状态共享难的痛点，为构建更复杂的自主代理协作网络提供了基础设施，适合需要长期上下文维护的开发场景，增强代理间信任与协作。",
-    "tags": [
-      "New",
-      "DevTool",
-      "Multi-Agent"
-    ],
-    "link": "https://gotincan.com/",
-    "date": "2026-09-17",
-    "id": "17896756039303"
-  },
-  {
-    "title": "68 个 AI 安全研究项目与就业地图发布",
-    "summary": "新资源地图汇总 68 个面向外部申请者的 AI 安全研究项目，无需 PhD 背景。",
-    "detail": "该地图专为非学术 pipeline 人员设计，汇总了提供 stipend 或覆盖成本的 structured 项目。多数项目明确无需 PhD 或 ML 论文背景，旨在帮助职业转换者进入前沿 AI 及安全研究领域。揭示了行业人才获取的新路径及项目申请周期规律。大部分冬季 cohort 已关闭，但提供兴趣表单。这反映了 AI 安全领域人才短缺及入门门槛高的现状，结构化项目成为非传统背景人才进入的关键渠道，有助于多元化 AI 研究队伍，缓解行业人才瓶颈。申请者需注意年度周期，提前填写兴趣表是最高价值操作，为未来进入实验室做准备。",
-    "tags": [
-      "Dev",
-      "Career",
-      "AI Safety"
-    ],
-    "link": "https://cleverhack.com/ai-research-ai-safety-ai-talent",
-    "date": "2026-09-17",
-    "id": "17896756039304"
   }
 ]
