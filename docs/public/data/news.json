@@ -1,5 +1,57 @@
 [
   {
+    "title": "OpenAI 成立数学顾问组，AI 解决百道难题",
+    "summary": "OpenAI 组建独立顾问组，宣称 AI 已解决超 100 个数学开放性问题。",
+    "detail": "OpenAI 在普林斯顿高等研究院成立数学与 AI 顾问组，旨在搭建数学社区与公司的桥梁。公司宣称内部模型已解决包括 Navier-Stokes 方程在内的 100 多个开放问题，引发学界剧烈争议。此前 25 位菲尔兹奖得主曾联名信担忧 AI 威胁智力工作。该组虽无薪酬，但拥有独立评估权及发声权，试图在研发速度与学术严谨性之间寻找平衡，确保数学成果发布的 significance 得到 proper assessment。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Math"
+    ],
+    "link": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+    "date": "2026-09-21",
+    "id": "17900238711770"
+  },
+  {
+    "title": "新法案提议保护公民 AI 访问与计算权",
+    "summary": "联邦与明尼苏达州提案，限制政府基于能力限制 AI，保护个人访问权。",
+    "detail": "两项新法案（联邦及明尼苏达州）旨在保护合法访问计算资源及开源模型，限制政府仅因模型“能力”而非“行为”进行监管。现行法规常使大机构合规而个人受限，加剧技术鸿沟。草案主张政府应惩罚具体危害行为（如欺诈、武器开发），而非限制工具能力，防止技术准入差距扩大，确保中小企业、研究者及地方政府权益，维持创新活力。",
+    "tags": [
+      "News",
+      "Policy",
+      "Regulation"
+    ],
+    "link": "https://righttorun.us/",
+    "date": "2026-09-21",
+    "id": "17900238711771"
+  },
+  {
+    "title": "加州选民态度转变，科技中心反 AI 情绪升温",
+    "summary": "Politico 民调显示，加州选民对 AI 支持率下降，监管呼声增高。",
+    "detail": "在科技核心区域加州，选民对 AI 态度显著转向负面。Politico 民调显示公众担忧 AI 带来的风险超过收益，这可能导致更严格的地方性监管政策。作为科技重镇，选民情绪变化可能影响未来 AI 立法走向，反映公众对 AI 安全、就业及隐私的深层焦虑。行业需关注社会接受度，避免政策反弹，调整公关与合规策略以应对潜在的政治压力。",
+    "tags": [
+      "News",
+      "Policy",
+      "Public Opinion"
+    ],
+    "link": "https://www.politico.com/news/2026/09/21/poll-california-voters-turn-on-ai-01084870",
+    "date": "2026-09-21",
+    "id": "17900238711772"
+  },
+  {
+    "title": "Show HN: Emote 为 AI 代理提供表情反应 API",
+    "summary": "新 API 允许 AI 代理在对话中发送表情符号，增强交互存在感。",
+    "detail": "Emote 推出专为 AI 代理设计的反应 API，通过单一端点返回表情符号或无反应。旨在让 AI 对话更自然，具备 acknowledgment 和庆祝能力。支持自定义代理人格，低延迟集成，无需工具调用。适用于需要增强情感交互的聊天机器人场景，提升用户体验与 Agent 存在感。开发者可 alongside 主模型调用，让反应在回复到达前生成，优化交互流畅度与情感表达。",
+    "tags": [
+      "New",
+      "API",
+      "Agent"
+    ],
+    "link": "https://useemote.com/",
+    "date": "2026-09-21",
+    "id": "17900238711774"
+  },
+  {
     "title": "深度解析 AI 编码会话：请求回放与成本分析",
     "summary": "通过回放真实会话揭示 AI Agent harness 工作机制，分析 Token 消耗与缓存策略。",
     "detail": "本文通过回放真实的 AI 编码会话，深入剖析了 Claude Code 等 Agent Harness 的工作机制。文章揭示了为何首次请求消耗大量 Token 以及缓存 Token 的作用。核心流程包括发送系统提示、工具定义及用户 prompt，模型返回文本及工具调用，Harness 执行后将结果加入下一请求。文章强调了 Prompt Caching 对降低成本的关键作用，并可视化了每次请求的输入、输出及缓存读取成本，解释了会话越长越贵的原因。这对开发者优化 AI Agent 调用策略、理解隐性成本具有极高参考价值，助力降低运营支出，透明化 AI 开发过程，帮助团队更好地预算和控制 AI 集成成本，提升开发效率。",
@@ -1246,57 +1298,5 @@
     "link": "https://techcrunch.com/2026/09/17/even-the-king-of-england-has-his-hesitations-about-ai/",
     "date": "2026-09-18",
     "id": "17897381083450"
-  },
-  {
-    "title": "AI 人脸识别误判致无辜被捕，祖母索赔千万",
-    "summary": "警方仅凭 AI 匹配逮捕无辜者，受害者提起诉讼索赔。",
-    "detail": "田纳西州祖母因 AI 人脸识别误匹配被错误逮捕并拘留半年。受害者起诉警方滥用技术，强调 AI 不应作为逮捕唯一依据。此案凸显生物识别技术在执法中的风险，可能推动相关法律对 AI 证据使用的严格限制，要求执法部门在使用自动化决策工具时必须加入人工复核环节，保障公民免受算法错误带来的伤害。原告索赔 1000 万美元，旨在修复破碎的信任并追究警方责任，警示技术普及中需重视误判后果。",
-    "tags": [
-      "News",
-      "Legal",
-      "Ethics"
-    ],
-    "link": "https://abcnews.com/US/grandmother-falsely-accused-bank-theft-after-alleged-ai/story?id=136536444",
-    "date": "2026-09-18",
-    "id": "17897381083451"
-  },
-  {
-    "title": "Trail of Bits：AI 代理如何革新安全审计流程",
-    "summary": "安全公司利用 AI 代理构建工具，深度审计零知识虚拟机。",
-    "detail": "Trail of Bits 分享利用 AI 代理构建自定义工具链审计 Miden VM 的案例。AI 不仅用于代码审查，还生成了 LSP 服务器及形式化模型，发现关键安全漏洞。这展示了 AI 在深层安全工程中的潜力，为自动化审计树立新标杆。传统审计依赖人力，而 AI 代理能构建专用工具，大幅提升审计深度与效率，预示安全行业工作流将发生根本性变革。团队耗时六个月构建工具，证明了 AI 在缺乏开发工具链的新兴技术栈中也能发挥关键作用。",
-    "tags": [
-      "Dev",
-      "Security",
-      "Audit"
-    ],
-    "link": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/",
-    "date": "2026-09-18",
-    "id": "17897381083452"
-  },
-  {
-    "title": "Show HN: Bastionskill 扫描 AI 代理技能恶意代码",
-    "summary": "新工具专为检测 AI 代理技能中的恶意代码设计。",
-    "detail": "Hacker News 展示新项目 Bastionskill，旨在解决 AI 代理生态的安全隐患。该工具可扫描 AI 技能包中的恶意代码，防止代理被利用执行危险操作。随着 AI 代理自主性增强，此类安全中间件将成为基础设施必备。开发者需警惕第三方技能库风险，该工具提供了早期防御手段，确保代理系统在扩展能力时不牺牲安全性，维护生态信任。项目由 Rinkia 提交，反映了社区对 Agent 安全性的早期关注与防御意识。",
-    "tags": [
-      "New",
-      "Security",
-      "Agent"
-    ],
-    "link": "https://news.ycombinator.com/item?id=49753727",
-    "date": "2026-09-18",
-    "id": "17897381083453"
-  },
-  {
-    "title": "专业治疗师视角：AI 心理治疗正在误导用户",
-    "summary": "临床治疗师指出 AI 无法建立真正的治疗关系。",
-    "detail": "文章从临床角度分析 AI 心理治疗的局限。虽然 AI 能提供安慰，但缺乏专业治疗框架下的亲密关系构建。用户过度依赖 AI 可能导致 coping 机制失效。这引发了对心理健康领域 AI 应用边界与伦理规范的深刻讨论。治疗师指出，真正的疗愈源于人际关系而非对话本身，警示行业勿将 AI 简单等同于治疗解决方案，需明确其辅助定位。作者结合自身临床与产品开发经验，呼吁在痛苦缓解与专业帮助间找到平衡点。",
-    "tags": [
-      "News",
-      "Health",
-      "Ethics"
-    ],
-    "link": "https://emilylee293105.substack.com/p/what-ai-therapy-gets-wrong-904",
-    "date": "2026-09-18",
-    "id": "17897381083454"
   }
 ]
