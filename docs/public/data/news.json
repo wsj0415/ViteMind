@@ -1,5 +1,57 @@
 [
   {
+    "title": "Meta 新 AI 助手 Muse 曝严重零日漏洞",
+    "summary": "Meta 宣称安全的 AI 助手 Muse 被发现存在严重零日漏洞，本地应用可完全接管。",
+    "detail": "Meta 近期推出的 AI 助手 Muse 主打隐私安全，但 Ars Technica 报道发现其存在严重零日漏洞。攻击者可通过本地应用或终端命令完全 hijack 该代理。尽管 Zuckerberg 强调安全性，Amazon 已开始屏蔽 Muse。该漏洞质疑了高权限 AI 代理在 macOS 上的安全架构，凸显了 AI 代理自动化任务时的潜在风险。Muse 需要访问用户账户及操作系统资源如麦克风、摄像头和位置，权限过高导致风险增加。此事件警示行业需重新评估 AI 代理的安全边界与权限管理模型。Meta 声称 Muse 从头构建以保障隐私，但现实表明本地运行应用可完全控制代理。这不仅影响用户信任，也可能阻碍企业采用。安全社区正密切关注此类高权限 AI 助手的漏洞修复进展，预计 Meta 将面临更大的监管审查压力。",
+    "tags": [
+      "News",
+      "Security",
+      "Meta"
+    ],
+    "link": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+    "date": "2026-09-21",
+    "id": "17900348510310"
+  },
+  {
+    "title": "苹果零售店缔造者质疑 AI 购物前景",
+    "summary": "前苹果零售主管 Ron Johnson 认为实体店仍将持续繁荣，AI 不会完全取代人类购物决策。",
+    "detail": "尽管硅谷巨头如 Google 和 OpenAI 大力推动“代理商务”，但苹果零售店缔造者 Ron Johnson 持怀疑态度。他认为 AI 虽能优化在线体验，但不会改变购物方式，尤其是高价商品。Johnson 指出实体店在连接客户方面不可替代。这一观点为当前火热的 AI 购物代理趋势提供了冷静的行业视角，暗示物理零售仍有韧性。Google 正推行 Universal Commerce Protocol，OpenAI 也将 ChatGPT 变为购物目的地。Johnson 基于当年建立 Apple Store 的经验，认为人类仍愿亲自体验高价商品如笔记本电脑，机器难以完全取代这种信任建立过程。这表明 AI 在零售领域的落地可能不如预期般彻底，线上线下融合仍是关键。",
+    "tags": [
+      "News",
+      "Retail",
+      "AI Agents"
+    ],
+    "link": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
+    "date": "2026-09-21",
+    "id": "17900348510311"
+  },
+  {
+    "title": "前 OpenAI 研究员推出新模型 Jev",
+    "summary": "TypeSafe AI  CEO Diogo Almeida 发布新模型 Jev，挑战当前纯聊天 tuned LLM 路线。",
+    "detail": "InstructGPT 论文合著者 Diogo Almeida 推出新模型 Jev，声称当前前沿模型在对齐和可靠性上走错方向。Jev 旨在服务于生产环境而非神化，发布视频观看量巨大。该模型关注自动化任务如游戏和电脑操作，试图解决 RLHF 带来的问题。此举可能引发对 LLM 技术路线的新一轮讨论，强调实用性与安全性。视频观看量达 4000 万次，远超 GPT-4o 发布视频。TypeSafe AI 希望通过 Jev 提供更可靠的系统一模型，减少拒绝响应并提高生产力。开发者社区正密切关注其 API 可用性及在实际生产环境中的表现，这代表了 AI 模型从聊天向行动转变的趋势。该模型挑战了纯 autoregressive chat-tuned LLM 的主导地位。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Startup"
+    ],
+    "link": "https://www.latent.space/p/jev",
+    "date": "2026-09-21",
+    "id": "17900348510312"
+  },
+  {
+    "title": "工程团队如何建立 AI 规范与价值观",
+    "summary": "Charity Majors 探讨工程团队内部如何制定 AI 使用规范，参考 Honeycomb 实践与心理学研究。",
+    "detail": "针对企业内部 AI 规范制定的摩擦，文章分享了 Honeycomb 的 AI 价值观文档制定过程。作者与心理学家 Dr Cat Hicks 对话，探讨在 AI 时代的学习与伦理规范。内容涉及如何在不阻碍创新的前提下建立共享价值观。这对正在部署 AI 的开发团队具有参考意义，强调文化与规范的重要性。作者参考了 Cat Hicks 的著作《软件团队心理学》，并结合自身编写《可观测性工程》的经验。对话旨在解决公司内部关于 AI 使用的摩擦与内部辩论，帮助尚未形成共享规范的企业找到路径。这是一种自下而上的文化构建尝试，而非单纯的政策强制。强调工程团队在 AI 时代的伦理学习过程。",
+    "tags": [
+      "Dev",
+      "Culture",
+      "Best Practices"
+    ],
+    "link": "https://charity.wtf/p/where-do-ai-norms-come-from",
+    "date": "2026-09-21",
+    "id": "17900348510314"
+  },
+  {
     "title": "OpenAI 成立数学顾问组，AI 解决百道难题",
     "summary": "OpenAI 组建独立顾问组，宣称 AI 已解决超 100 个数学开放性问题。",
     "detail": "OpenAI 在普林斯顿高等研究院成立数学与 AI 顾问组，旨在搭建数学社区与公司的桥梁。公司宣称内部模型已解决包括 Navier-Stokes 方程在内的 100 多个开放问题，引发学界剧烈争议。此前 25 位菲尔兹奖得主曾联名信担忧 AI 威胁智力工作。该组虽无薪酬，但拥有独立评估权及发声权，试图在研发速度与学术严谨性之间寻找平衡，确保数学成果发布的 significance 得到 proper assessment。",
@@ -167,6 +219,19 @@
     "link": "https://github.com/zai-org/ZCode",
     "date": "2026-09-21",
     "id": "17899623099113"
+  },
+  {
+    "title": "AI  existential 风险争论要点梳理",
+    "summary": "文章梳理了 AI 风险担忧者的历史观点，反驳了“监管捕获”论， citing Musk, Altman, Hinton 等。",
+    "detail": "针对 AI 存在风险是否为巨头保护商业模式的质疑，该文梳理了关键人物早期言论。Dario Amodei 在 2019 年便阻止 GPT-2 开源，Elon Musk 和 Sam Altman 早在 2014-2015 年即警告风险。Geoffrey Hinton 等学者不惜代价发声。文章强调许多风险倡导者并非既得利益者，为理解 AI 安全争论提供了历史背景和事实依据。前 OpenAI 研究员 Daniel Kokotajlo 甚至放弃 200 万美元股权以公开谈论风险。Anthropic 的 Jacob Coxon 也辞去高薪工作发声。这些证据表明 AI 安全担忧早于商业利益固化，有助于公众更客观地看待监管与风险之间的复杂关系。文章提供了应对常见反驳的速查表，帮助理性讨论。",
+    "tags": [
+      "News",
+      "Safety",
+      "Policy"
+    ],
+    "link": "https://umais.me/writing/ai-risk-cheatsheet/",
+    "date": "2026-09-20",
+    "id": "17900348510313"
   },
   {
     "title": "特朗普 AI 顾问主张宽松监管",
@@ -1233,70 +1298,5 @@
     "link": "https://www.404media.co/spotify-ai-music-scam/",
     "date": "2026-09-18",
     "id": "17897529343030"
-  },
-  {
-    "title": "AI 领袖提议“减缓前沿”发展计划引争议",
-    "summary": "Anthropic CEO 主张通过独立评估协调 AI 速度，遭 Nvidia 等巨头反对。",
-    "detail": "Anthropic CEO Dario Amodei 提出“减缓前沿”计划，主张通过独立安全评估和民主国家实验室协调来控制 AI 发展速度。该提议获部分行业支持，但也面临 Nvidia 等巨头反对，后者警告不要阻碍技术进步。TechCrunch 视频深入探讨了落地难点：如何定义“减速”及执行主体。这反映了 AI 领袖对失控风险的担忧，但商业竞争与监管协调之间的矛盾仍是最大障碍。目前全球治理框架尚未成型，企业自我监管的有效性备受质疑，政策制定者需在安全与创新间寻找平衡。",
-    "tags": [
-      "News",
-      "Policy",
-      "Anthropic"
-    ],
-    "link": "https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/",
-    "date": "2026-09-18",
-    "id": "17897529343031"
-  },
-  {
-    "title": "DeepSeek 研究员警示 AI 军备竞赛与未来社会极端化",
-    "summary": "研究员发文称 AI 将导致社会走向共产主义或赛博朋克，开发者被迫卷入竞赛。",
-    "detail": "DeepSeek 研究员刘胜与发文探讨 AI 与人类共存未来，预测社会将走向共产主义或赛博朋克极端。他指出 AI 将在内核优化等领域超越人类，开发者被迫卷入军备竞赛，即使明知可能毁灭自己也无法停下。这种“激进主义”心态反映了中国 AI 从业者的深层焦虑：若不跟进将被淘汰。文章揭示了技术奇点临近时的职业危机感，以及地缘政治背景下 AI 发展的不可逆趋势。研究者自嘲未来可能沦为“机甲驾驶员”，凸显了人类在超级智能面前的边缘化风险。",
-    "tags": [
-      "News",
-      "China AI",
-      "DeepSeek"
-    ],
-    "link": "https://www.chinatalk.media/p/how-anthropic-became-chinas-goliath",
-    "date": "2026-09-18",
-    "id": "17897529343032"
-  },
-  {
-    "title": "MIT 评论：AI 灭绝风险与生物武器威胁警示",
-    "summary": "专家指出 AI 辅助设计生物武器已成现实，呼吁建立严格监控机制。",
-    "detail": "MIT 科技评论通讯聚焦 AI 灭绝风险与生物武器威胁。专家指出 AI 辅助设计生物武器已成现实，2022 年研究已证实分子生成器可被滥用制造毒素。通讯回答了公众关于 AI 安全性的疑问，强调需有效监管。生物技术与 AI 的结合带来了前所未有的灾难性风险，Wake-up call 呼吁生物科技行业提高警惕，建立更严格的监控机制以防止恶意利用。此外，圆桌会议讨论了 AI 控制与监测的有效步骤，表明安全界正从理论担忧转向具体防御措施，政策制定迫在眉睫。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Bioweapons"
-    ],
-    "link": "https://www.technologyreview.com/2026/09/18/1142577/the-download-ai-extinction-threat-bioweapons/",
-    "date": "2026-09-18",
-    "id": "17897529343033"
-  },
-  {
-    "title": "Manus 寻求 5 亿美元融资估值达 40 亿美元",
-    "summary": "中国 AI 初创 Manus 恢复独立运营，计划香港 IPO，此前 Meta 收购案被阻。",
-    "detail": "中国 AI 初创 Manus 寻求 5 亿美元融资，估值达 40 亿美元，计划恢复独立运营并考虑香港 IPO。此前 Meta 20 亿美元收购案因中国监管阻止而失败，涉及出口管制问题。投资者包括 IDG、腾讯等知名机构。Manus 曾因 AI Agent 演示走红，年营收超 1 亿美元。此轮融资标志其摆脱地缘政治影响，独立发展。这显示中国 AI 独角兽在资本市场的韧性，以及本土资本对核心 AI 技术的持续支持。公司此前已回购股份，正 restructuring 以符合上市要求，展现了对未来独立发展的信心。",
-    "tags": [
-      "News",
-      "Funding",
-      "Manus"
-    ],
-    "link": "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops/",
-    "date": "2026-09-18",
-    "id": "17897529343034"
-  },
-  {
-    "title": "英王查尔斯举办 AI 峰会，警示存在性风险",
-    "summary": "查尔斯三世召集科技巨头，呼吁在失控前控制 AI 风险。",
-    "detail": "英王查尔斯三世在苏格兰 Dumfries House 举办私人 AI 峰会，邀请 Nvidia CEO 黄仁勋、OpenAI 及 Anthropic 高层参与。他罕见突破宪法惯例发表政治性言论，强调 AI 虽有救世潜力，但发展过快可能带来“存在性危险”，甚至危及生命。查尔斯引用近期 Anthropic 研究员离职事件，强调风险紧迫性。此举标志着全球高层对 AI 安全关注的升级，可能推动更严格的国际监管框架与合作机制，警示科技巨头需在失控前找到控制路径，平衡创新与生存风险。",
-    "tags": [
-      "News",
-      "Policy",
-      "Safety"
-    ],
-    "link": "https://techcrunch.com/2026/09/17/even-the-king-of-england-has-his-hesitations-about-ai/",
-    "date": "2026-09-18",
-    "id": "17897381083450"
   }
 ]
