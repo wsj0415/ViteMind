@@ -1,5 +1,31 @@
 [
   {
+    "title": "深度解析 AI 编码会话：请求回放与成本分析",
+    "summary": "通过回放真实会话揭示 AI Agent harness 工作机制，分析 Token 消耗与缓存策略。",
+    "detail": "本文通过回放真实的 AI 编码会话，深入剖析了 Claude Code 等 Agent Harness 的工作机制。文章揭示了为何首次请求消耗大量 Token 以及缓存 Token 的作用。核心流程包括发送系统提示、工具定义及用户 prompt，模型返回文本及工具调用，Harness 执行后将结果加入下一请求。文章强调了 Prompt Caching 对降低成本的关键作用，并可视化了每次请求的输入、输出及缓存读取成本，解释了会话越长越贵的原因。这对开发者优化 AI Agent 调用策略、理解隐性成本具有极高参考价值，助力降低运营支出，透明化 AI 开发过程，帮助团队更好地预算和控制 AI 集成成本，提升开发效率。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "CostOptimization"
+    ],
+    "link": "https://ishamf.dev/p/agent-harness-replay/",
+    "date": "2026-09-21",
+    "id": "17900074368842"
+  },
+  {
+    "title": "Goodmeet 发布隐私优先的本地 AI 会议笔记工具",
+    "summary": "基于 Apple Silicon 的本地转录工具，承诺不上传音频且不使用数据训练模型。",
+    "detail": "Goodnotes 团队推出 Goodmeet，一款专为 Mac 设计的 AI 会议笔记工具，主打隐私保护。该应用利用 Apple Silicon 芯片进行设备端转录，音频永不上传。摘要生成采用机密计算技术在隔离环境中处理，同步共享则使用端到端加密。产品承诺不存储音频、不使用会议数据训练模型，且无需机器人加入会议。目前 Beta 版可在任何 Apple Silicon Mac 上免费试用。这种“设计即隐私”的理念直击企业用户对数据泄露的痛点，为 AI 笔记工具树立了新的安全标准，特别适合对保密性要求高的团队，确保数据主权，无需担心第三方访问敏感会议内容，重塑信任。",
+    "tags": [
+      "New",
+      "Privacy",
+      "Productivity"
+    ],
+    "link": "https://goodmeet.com/",
+    "date": "2026-09-21",
+    "id": "17900074368843"
+  },
+  {
     "title": "英伟达 CEO 断言 2030 年前 AI 毁灭世界几率为零",
     "summary": "黄仁勋驳斥 AI 末日论，强调技术发展安全性。",
     "detail": "英伟达 CEO 黄仁勋近日公开表示，到 2030 年 AI 毁灭世界的几率为 0%。他驳斥了包括 Anthropic 在内的部分机构关于 AI 安全性的极端警告，认为这是不必要的恐慌。这一言论凸显了硬件巨头与部分安全研究机构在 AI 风险评估上的巨大分歧。黄仁勋强调 AI 带来的生产力提升远超潜在风险，行业应聚焦于应用落地而非过度担忧。此观点可能显著影响投资者信心及未来政策走向，为 AI 发展注入强心剂。此外，他还指出技术演进本身会包含安全机制，无需人为强行暂停发展，呼吁业界保持乐观态度。",
@@ -975,6 +1001,19 @@
     "id": "17897886130594"
   },
   {
+    "title": "美国法院裁定 AI 生成代码不违反 DMCA",
+    "summary": "第九巡回法院裁定 AI 生成代码缺失版权信息不自动违反 DMCA，开源社区担忧。",
+    "detail": "美国第九巡回法院在 Doe vs. GitHub 案中做出重要判决，认定 AI 生成代码若缺乏版权管理信息，并不自动构成违反 DMCA 第 1202 条。这一裁决被视为 GitHub、Microsoft 和 OpenAI 的重大法律胜利。匿名开源原告曾主张 Copilot 生成代码未保留归属信息。法院区分了“生成无 attribution 的新作品”与“非法移除现有作品版权信息”的技术细节。此举可能加速 AI 编码工具的普及，但也引发了开源开发者对权益保护的深层担忧，未来法律博弈仍将持续，行业需关注后续立法动向及对训练数据使用的界定。",
+    "tags": [
+      "News",
+      "Legal",
+      "OpenSource"
+    ],
+    "link": "https://devops.com/us-district-court-decision-in-ais-favor-worries-open-source-developers/",
+    "date": "2026-09-18",
+    "id": "17900074368840"
+  },
+  {
     "title": "前 OpenAI 研究员推出非 LLM 模型 Jev，主打自动化决策",
     "summary": "ChatGPT 发明者之一 Diogo Almeida 创立 TypeSafe AI，发布新模型 Jev，输出概率而非文本，旨在解决自动化难题。",
     "detail": "**背景**：Diogo Almeida 曾是 OpenAI 研究员，参与构建 ChatGPT 及 RLHF 技术，但认为当前 LLM 过于优化人类语言而非计算机自动化。\n\n**核心技术**：TypeSafe AI 发布的新模型 Jev 基于 Transformer 架构，但不属于大语言模型（LLM）。它不输出文本，而是输出“校准决策”（概率）。这种设计使其速度极快、成本极低，且因输出预定义而杜绝了幻觉问题。\n\n**行业影响**：该模型旨在解决 AI 自动化落地的实际痛点。发布后开发者兴趣浓厚，API 曾因需求过高短暂瘫痪。这标志着 AI 开发风向可能从生成式内容向确定性自动化任务转变。",
@@ -1259,44 +1298,5 @@
     "link": "https://emilylee293105.substack.com/p/what-ai-therapy-gets-wrong-904",
     "date": "2026-09-18",
     "id": "17897381083454"
-  },
-  {
-    "title": "华为高管：中国 AI 尚未强大到能识别前沿风险",
-    "summary": "华为徐直军表示中国 AI 算力不足，暂未面临前沿风险。",
-    "detail": "路透社报道，华为高管徐直军表示，中国 AI 技术目前尚未足够强大，因此还未面临所谓的“前沿风险”。这一言论揭示了中美 AI 发展阶段的显著差异，暗示中国目前更关注基础算力突破而非远期安全治理。这表明在全球 AI 安全讨论中，不同国家基于自身技术实力有不同的优先级。对于中国而言，追赶算力与模型能力仍是首要任务，安全治理虽重要但尚未成为阻碍发展的瓶颈。该观点为全球 AI 安全讨论提供了不同的地缘视角与技术发展路径参考，同时也引发了关于落后地区是否应承担同等安全义务的伦理讨论。",
-    "tags": [
-      "News",
-      "Huawei",
-      "Geopolitics"
-    ],
-    "link": "https://www.reuters.com/world/china/huaweis-xu-says-chinese-ai-not-powerful-enough-yet-see-frontier-risks-2026-09-17/",
-    "date": "2026-09-18",
-    "id": "17897214926951"
-  },
-  {
-    "title": "TypeSafe 发布 Jev 模型：专为 AI 可观测性设计",
-    "summary": "新型 System One 模型优化 AI Agent 追踪与情感分类。",
-    "detail": "TypeSafe 推出专为 AI 可观测性设计的 Jev 模型。不同于生成式模型，Jev 采用 RLCD 技术，专注于在预定义选项中选择并返回概率分布，适用于 Agent 任务完成度判断及用户情感分类。该技术降低了大规模追踪 enrichment 的成本，为 AI 工程团队提供了更高效的语义信号提取方案。传统生成式模型在处理大量 trace 时成本高昂，而 Jev 作为 System One 模型，能提供更 calibrated 的决策概率。这对于构建可靠 AI Agent 至关重要，帮助开发者理解用户真实满意度，而不仅仅是基础设施的健康状态，推动了 AI 工程化落地的精细化发展。",
-    "tags": [
-      "Dev",
-      "Observability",
-      "Model"
-    ],
-    "link": "https://fatliverfreddy.substack.com/p/a-different-kind-of-model-for-ai",
-    "date": "2026-09-18",
-    "id": "17897214926953"
-  },
-  {
-    "title": "专家推荐书单：如何在 AI 末日论中保持理性",
-    "summary": "Emily Bender 等专家推荐资源以应对 AI 焦虑与末日论。",
-    "detail": "针对 AI 行业日益蔓延的末日论焦虑，Emily M. Bender 等专家发布推荐书单，帮助公众保持理性。文章指出，AI 末日叙事常被科技巨头利用，误导政策制定者与公众。推荐资源包括《The AI Con》等书籍，旨在提供多元视角，缓解不必要的恐慌。此举有助于平衡行业 hype，促进更健康的 AI 社会讨论，为从业者及公众提供了应对信息过载与焦虑的实用指南，强调批判性思维的重要性。该建议对于在快速变化的技术环境中保持心理健康及职业判断力具有重要参考价值，倡导理性看待技术变革。",
-    "tags": [
-      "News",
-      "Analysis",
-      "Society"
-    ],
-    "link": "https://buttondown.com/maiht3k/archive/what-to-read-to-stay-grounded-amidst-ai-doomerism/",
-    "date": "2026-09-18",
-    "id": "17897214926954"
   }
 ]
