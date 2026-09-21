@@ -1,5 +1,57 @@
 [
   {
+    "title": "Google AI Studio 被曝数据删除欺诈",
+    "summary": "独立媒体证实 Google AI Studio 删除按钮无效，存在数据留存漏洞。",
+    "detail": "AI Weekly 发布警告，证实 Google AI Studio 的“删除”按钮仅为 UI 层面，后端仍保留数据版本。研究者因报告此 CWE-459 漏洞遭 VRP 快速封禁。独立媒体已验证 JSON 跟踪行为及保留的 Drive 版本。事件引发行业对云 AI 平台数据治理透明度的信任危机，建议企业在处理敏感提示词时谨慎使用该类服务，关注数据留存政策。编辑注释指出，任何通过 AI Studio 路由受监管提示词的团队都应视“删除”为 UI 级别，直到 Google 公开澄清留存政策，治理负责人需注意此类报告的处理方式，避免误判安全信号。",
+    "tags": [
+      "News",
+      "Security",
+      "Google"
+    ],
+    "link": "https://bitu79.substack.com/p/ai-weekly-issues-warning-on-google",
+    "date": "2026-09-21",
+    "id": "17899623099111"
+  },
+  {
+    "title": "Z.ai 开源 ZCode 编程 Agent 框架",
+    "summary": "Z.ai 推出多功能编程 Agent 工作台，支持桌面与终端运行。",
+    "detail": "Z.ai 正式发布开源项目 ZCode，这是一个强大的编程 Agent harness。提供 Electron 桌面应用、Web 界面及终端 CLI 多种形态，支持本地与远程资源构建。项目包含客户端、后端服务及共享 UI 源码。旨在为开发者提供可扩展的 AI 编程工作台，简化 Agent 运行时配置，适合希望构建自定义 AI 编码助手的团队参考使用。初始化需准备 Git、Node.js 24.14.0 和 pnpm 10.33.2，支持多种开发命令以适配桌面或 Web 工作区，展现了开源 AI 工具链的成熟度，社区可通过飞书或 Discord 参与交流。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Agent"
+    ],
+    "link": "https://github.com/zai-org/ZCode",
+    "date": "2026-09-21",
+    "id": "17899623099113"
+  },
+  {
+    "title": "特朗普 AI 顾问主张宽松监管",
+    "summary": "David Sacks 反对严格 AI 监管，称将削弱美国领先地位。",
+    "detail": "特朗普前顾问 David Sacks 作为白宫 AI 顾问，强烈反对近期关于 AI 末日风险的论调，主张宽松监管以保持美国全球领先。他认为监管将消除美国优势，并持有多个 AI 公司股份。与此同时，百余名研究人员联名信呼吁第三方评估。这反映了政策制定者与学术界在 AI 安全治理上的显著分歧，可能影响未来美国 AI 立法走向及全球竞争格局。与前顾问 Steve Bannon 及参议员 Ted Cruz 不同，Sacks 立场鲜明，多次建议总统放松限制，此举可能重塑硅谷与华盛顿的关系，引发行业对监管放松后潜在风险的担忧。",
+    "tags": [
+      "News",
+      "Policy",
+      "LLM"
+    ],
+    "link": "https://www.theguardian.com/us-news/2026/sep/20/david-sacks-trump-ai-czar",
+    "date": "2026-09-20",
+    "id": "17899623099110"
+  },
+  {
+    "title": "AI 写代码时代仍需 Lint 规则",
+    "summary": "探讨代理式工程中 Lint 工具的重要性并未因 AI 生成代码而减弱。",
+    "detail": "在代理式工程（Agentic Engineering）普及的背景下，开发者质疑 Lint 规则的必要性。文章指出，AI 生成代码仍需一致性规范，Lint 不仅是风格检查，更是捕捉逻辑错误的关键。随着 Oxlint 等工具将 lint 时间从 3 分钟缩短至 1 秒，Lint 在 AI 辅助开发流程中的地位反而更加重要，是保障代码质量与可维护性的基础设施。过去 Lint 是为了下一个人类读者，现在则是为了约束 AI 输出的稳定性，确保在大规模 monorepo 中代码行为可预测，避免 AI 引入隐蔽错误，同事的疑问恰恰揭示了开发范式转变后的新挑战。",
+    "tags": [
+      "Dev",
+      "Best Practices",
+      "Coding"
+    ],
+    "link": "https://allstead.dev/blog/why-lint-when-ai-writes-the-code",
+    "date": "2026-09-20",
+    "id": "17899623099112"
+  },
+  {
     "title": "BBC 调查：AI 从业者对末日论看法分化",
     "summary": "并非所有 AI 员工都认为技术会毁灭人类，业内观点出现显著分歧。",
     "detail": "BBC 采访多位来自 OpenAI、Meta 等公司的匿名员工，显示业内对 AI 末日论存在显著分歧。尽管部分前员工警告风险，但许多现任开发者认为过度恐慌缺乏细节支持。这反映了 AI 安全讨论中的复杂情绪，可能影响未来监管政策与开发节奏，表明行业内部对风险认知尚未统一。",
@@ -1235,68 +1287,16 @@
     "id": "17897023982443"
   },
   {
-    "title": "研究发现：AI 水印可能增加模型对抗性攻击 vulnerability",
-    "summary": "Ars Technica 报道水印技术可能使 LLM 更易受有害提示攻击。",
-    "detail": "Ars Technica 报道最新研究，发现 AI 文本水印技术可能意外削弱模型安全性。当启用水印时，LLM 对有害提示的防御能力下降，更容易响应 adversarial prompts。这一发现对 AI 安全部署提出挑战，表明在追求内容溯源的同时，需重新评估其对模型鲁棒性的潜在负面影响。研究人员指出，水印算法可能干扰模型的正常判断逻辑，导致安全过滤机制失效。这对于依赖水印进行内容管理的平台至关重要，建议在部署水印技术时进行更严格的安全测试，平衡溯源需求与系统安全性，避免引入新的攻击面。",
+    "title": "监控公司被指利用 AI 制造虚假民意",
+    "summary": "Flock 摄像头公司合作非营利组织，用 AI 生成支持信件误导公众。",
+    "detail": "The Intercept 调查揭露，监控公司 Flock 与非营利组织合作，利用 AI 生成支持信鼓动居民支持其车牌识别摄像头。若居民表示反对则不提供协助。这种“草根营销”手段引发隐私倡导者强烈担忧，凸显了 AI 技术在操纵公共舆论和隐私政策讨论中的潜在滥用风险。居民质疑若公司如此努力欺骗，将如何对待数据隐私政策。该组织此前也曾支持派拉蒙与华纳兄弟的合并案，被反对者批评为企业操纵民意的典型案例，引发对 AI 生成内容真实性的广泛讨论，田纳西州居民收到短信后意识到这可能是 insidious PR 战役。",
     "tags": [
       "News",
-      "Security",
-      "LLM"
+      "Ethics",
+      "Surveillance"
     ],
-    "link": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/",
+    "link": "https://theintercept.com/2026/09/17/flock-cameras-ai-astroturf-support/",
     "date": "2026-09-17",
-    "id": "17897214926952"
-  },
-  {
-    "title": "Google DeepMind 成立新研究所探讨 AGI 安全",
-    "summary": "DeepMind 成立研究所，汇聚顶尖专家探讨 AGI 安全与透明度。",
-    "detail": "Google DeepMind 正式推出 DeepMind Institute，由 Demis Hassabis 等领衔。旨在促进全球关于 AGI 的辩论，发布四篇 inaugural essays。重点涉及经济政策、模型推理透明度及前沿模型评估框架。研究人员指出，随着架构复杂化，模型透明度窗口正在缩小，建议限制“不透明串行深度”以确保安全可控。",
-    "tags": [
-      "News",
-      "AGI",
-      "Safety"
-    ],
-    "link": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
-    "date": "2026-09-17",
-    "id": "17896877579210"
-  },
-  {
-    "title": "华为发布 Ascend 960 SuperPoD 革新 AI 基础设施",
-    "summary": "华为推出首款采用 NPO 技术的 SuperPoD，解决万卡集群通信瓶颈。",
-    "detail": "在 HUAWEI CONNECT 2026 上，华为发布 Ascend 960 SuperPoD。针对 10 万亿参数模型训练，传统架构通信耗时占比超 40%。新技术通过高速互联将多节点整合为单一计算机，共享统一内存。此举标志着 AI 算力组织方式的重构，为下一代 AI 基础设施奠定硅基基础，支持更大规模模型训练。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "Hardware"
-    ],
-    "link": "https://technode.com/2026/09/17/huawei-unveils-ascend-960-superpod-with-npo-technology-to-power-next-generation-ai-infrastructure/",
-    "date": "2026-09-17",
-    "id": "17896877579211"
-  },
-  {
-    "title": "PrismML 发布 Bonsai 2 模型，实现端侧运行大模型",
-    "summary": "PrismML 推出压缩模型 Bonsai 2，内存占用减少 9 倍，可运行于手机。",
-    "detail": "AI 初创公司 PrismML 发布 Bonsai 2 27B 模型，基于 Caltech 压缩技术。该模型将 Qwen3.8 27B 压缩至 5.9GB，内存减少 9-10 倍，可在 PC 甚至高端手机运行。创始人包括 Caltech 教授及 Ion Stoica 等顾问。获 Khosla Ventures 投资，正探索与苹果合作。技术突破有望改变 AI 部署方式。",
-    "tags": [
-      "News",
-      "LLM",
-      "Compression"
-    ],
-    "link": "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/",
-    "date": "2026-09-17",
-    "id": "17896877579212"
-  },
-  {
-    "title": "开源项目 Respawn 为 AI Agent 提供“撤销”功能",
-    "summary": "基于 Rust 的本地优先工具，支持快照 AI Agent 状态并一键回滚。",
-    "detail": "新项目 Respawn 旨在解决 AI Agent 自主操作的风险。通过内容寻址快照图版本化目录树状态，支持无云端的本地回滚。用户可在 Agent 操作前快照，出错后原子化还原文件。支持 LAN 复制及加密，提供审计链证明。适用于需要高可靠性的自主 agent 场景，确保操作可追溯且可逆。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "OpenSource"
-    ],
-    "link": "https://github.com/savageAZfck/respawn",
-    "date": "2026-09-17",
-    "id": "17896877579213"
+    "id": "17899623099114"
   }
 ]
