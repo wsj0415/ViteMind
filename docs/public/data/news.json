@@ -1,5 +1,57 @@
 [
   {
+    "title": "OpenAI 发布 GPT-6 提示词缓存优化",
+    "summary": "OpenAI 升级 GPT-6 缓存系统，开发者成本最高可降 90%。",
+    "detail": "OpenAI 正式推出 GPT-6 系列的改进提示词缓存系统，旨在支持持久化 Agent 长时间运行复杂任务，如重构代码库或制作文档。应用背后的 API 请求常携带相同指令，OpenAI 缓存共享上下文以复用计算。新功能默认提供更高的缓存命中率，对在 30 分钟内重用的共享前缀给予缓存折扣，输入 token 折扣高达 90%。开发者可通过新的 Dashboard 监控缓存性能，诊断 missed cache 原因，比较请求与近期响应以识别模型或设置变化。此举显著降低长期运行 Agent 的成本，响应时间减少，利好复杂任务开发。同时引入诊断工具帮助优化集成，最大化缓存命中率，提升应用效率。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "LLM"
+    ],
+    "link": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+    "date": "2026-09-22",
+    "id": "17901138461200"
+  },
+  {
+    "title": "微软高管承认 AI 可能是“史上最大劳工盗窃”",
+    "summary": "诉讼文件披露微软高管内部言论，引发版权与伦理争议。",
+    "detail": "Mother Jones 诉 OpenAI 和微软的版权案件文件揭露了内部高管言论，引发业界震动。两年前 sued 公司训练模型使用版权内容。诉讼指控公司通过“史上最大规模的劳动盗窃”构建产品，类似 NYT 等出版商的诉讼。微软应用科学总监 Brent Hecht 警告 AI 可能启动“末日循环”，威胁经济基础，使互联网无限变差。文件显示了科技巨头对规则、法律及他人权利的真实看法，加剧了公众对 AI 训练数据合法性的担忧，揭示了高层对潜在风险的内部认知与公开表态的差异，提供了观察 AI 公司思维的独特窗口。",
+    "tags": [
+      "News",
+      "Legal",
+      "Ethics"
+    ],
+    "link": "https://www.motherjones.com/politics/2026/09/openai-chatgpt-microsoft-copyright-legal-case-documents-revelations/",
+    "date": "2026-09-22",
+    "id": "17901138461201"
+  },
+  {
+    "title": "Vercel 数据：开源权重模型 token 用量首超闭源",
+    "summary": "8 月开源模型处理 56% 生产 token，但收入占比仅 14%。",
+    "detail": "Vercel AI Gateway 数据显示，2026 年 8 月开源权重模型处理了 56% 的生产 token，首次超越闭源模型，相比 7 月的 36% 及 2025 年 12 月的不足 10% 大幅增长。然而，由于推理成本低，其支出占比仅 14%。闭源 token 平均成本是开源的 7.8 倍。CEO 指出企业采用尚早，未来工具链需适配模型无关性。这标志着开发者偏好向开源模型显著转移，但商业化仍由专有系统主导，反映了成本与性能之间的市场博弈现状。8 月 22 日甚至创下开源 token 份额 62% 的记录，显示趋势正在加速。",
+    "tags": [
+      "News",
+      "Market",
+      "OpenSource"
+    ],
+    "link": "https://techstrong.ai/generative-ai/open-weight-ai-models-seize-token-lead-but-proprietary-systems-still-make-the-money/",
+    "date": "2026-09-22",
+    "id": "17901138461202"
+  },
+  {
+    "title": "Voxiferi 推出 VoxWall AI 数据入口防火墙",
+    "summary": "新开源工具旨在阻止劣质数据进入 LLM 训练流程。",
+    "detail": "Voxiferi Labs 发布开源项目 VoxWall，定位为“坏数据 AI 入口防火墙”。其核心理念是在数据到达大语言模型之前拦截低质量数据，从源头保障模型质量。虽关联公司提出的“莫雷尔 AI 数据定律”，即 AI 准确性和运营成本主要由摄入数据的结构和质量决定，但 VoxWall 并非该定律的直接实现。该工具旨在解决 AI 准确性和运营成本主要由摄入数据结构和质量决定的问题，为开发者提供数据清洗的新方案，增强 AI 系统安全性。作为下一代开源 AI 防火墙，它试图在训练前阻断劣质数据流入。",
+    "tags": [
+      "New",
+      "Security",
+      "Data"
+    ],
+    "link": "https://opensourcewatch.beehiiv.com/p/new-voxiferi-introduces-voxwall-as-an-ai-ingress-firewall-for-bad-data",
+    "date": "2026-09-22",
+    "id": "17901138461203"
+  },
+  {
     "title": "OpenAI 发布 GPT-6 Sol 与 Luna，成本减半",
     "summary": "OpenAI 推出 GPT-6 系列新模型，API 成本降低 50%，错误率显著减少。",
     "detail": "OpenAI 扩展 GPT-6 产品线，推出专注于编码的 Sol 模型和适合文书工作的 Luna 模型。相比 5.6 系列，新模型 API 价格降低一半，得益于缓存和推理优化。内部评估显示，Sol 模型的事实性错误率减半，达到 Astra 级别可靠性。此举旨在让高级智能更高效、更易获取，进一步降低开发者使用门槛，推动 AI 在复杂任务中的普及。此次发布标志着 OpenAI 在模型效率优化上的重大进展，可能引发行业价格战。对于企业用户而言，成本降低意味着更大规模的部署可能性，加速 AI 集成到现有工作流中。同时，错误率的降低增强了用户对 AI 生成内容的信任，有利于关键业务场景的落地应用。",
@@ -1246,57 +1298,5 @@
     "link": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
     "date": "2026-09-19",
     "id": "17898070660910"
-  },
-  {
-    "title": "EFF 回应加州州长 AI 行政令",
-    "summary": "EFF 支持监管对话，呼吁关注算法偏见等现实危害而非科幻风险。",
-    "detail": "加州州长 Newsom 发布 AI 行政令，EFF 表示欢迎这一对话机会，但指出当前最紧迫的担忧并非超级智能，而是现实中的算法决策偏见、AI 监控系统及个性化定价等问题。EFF 呼吁政府针对就业、政府福利及监控摄像头（如 Flock cameras）制定 thoughtful policies。组织支持扩大 SB 53 法案下的报告要求，强调技术应赋能人民。该声明标志着公民权利组织对州级 AI 监管政策的深度介入与引导。",
-    "tags": [
-      "News",
-      "Policy",
-      "Regulation"
-    ],
-    "link": "https://www.eff.org/deeplinks/2026/09/eff-statement-california-governors-executive-order-on-ai",
-    "date": "2026-09-19",
-    "id": "17898070660911"
-  },
-  {
-    "title": "研究发现 AI 说服力超越人类专家",
-    "summary": "arXiv 论文显示 AI 在劝说实验中表现优于人类专家，募捐效果显著。",
-    "detail": "arXiv 最新论文通过四组预注册实验（近 1.9 万对话）发现，前沿 AI 系统在说服力上可靠地超越人类专家，包括专业辩论手和募捐者。AI 在为 Save the Children 募捐时效果是人类的近 3 倍。研究指出 AI 优势源于快速部署大量信息。即使人类专家接受 coaching 工具训练，AI 优势依然存在，除非限制 AI 响应速度。这一结果对政治传播和社会决策具有重大影响，表明 AI 已具备干预现实行为的能力。",
-    "tags": [
-      "Dev",
-      "Research",
-      "LLM"
-    ],
-    "link": "https://arxiv.org/abs/2606.16475",
-    "date": "2026-09-19",
-    "id": "17898070660912"
-  },
-  {
-    "title": "AI 聊天机器人痴迷虚构人物 Elias Thorne",
-    "summary": "康奈尔研究发现 AI 普遍生成特定虚构人物故事，疑似安全训练副作用。",
-    "detail": "无论哪家公司的 AI 聊天机器人，都热衷于讲述虚构人物 Elias Thorne 的故事（灯塔看守人、钟表匠等）。康奈尔大学研究分析了 2 万个 AI 生成故事，发现 88% 包含特定名字和职业，Elias 出现在近三分之二故事中。研究人员未在 internet 找到该人物来源，推测这是 AI 安全和对齐训练的副作用。为避免侵犯 Disney 等大公司版权，模型可能被训练生成通用虚构人物，导致了这种集体幻觉现象。",
-    "tags": [
-      "News",
-      "Hallucination",
-      "LLM"
-    ],
-    "link": "https://www.vice.com/en/article/the-strange-case-of-elias-thorne-the-imaginary-man-ai-chatbots-are-obsessed-with/",
-    "date": "2026-09-19",
-    "id": "17898070660913"
-  },
-  {
-    "title": "AI 如何改变大学的知识垄断地位",
-    "summary": "布鲁金斯报告指出 AI 削弱大学知识交付价值，转向人格培养。",
-    "detail": "布鲁金斯学会评论指出，AI 使专家级解释 instant accessible，削弱了高等教育百年来锚定的内容交付功能。大学正沿四条轨道响应：基于能力的 credential、AI 嵌入教学、低风险评估及密集人类形成项目。文章认为，大学的持久价值不再在于交付信息（AI 可廉价完成），而在于通过 AI 无法复制的 sustained human relationships 来形成 judgment 和 character。这预示着高等教育价值主张的根本性转变。",
-    "tags": [
-      "News",
-      "Education",
-      "Industry"
-    ],
-    "link": "https://www.brookings.edu/articles/how-universities-are-affected-by-ai-moving-knowledge-outside-their-walls/",
-    "date": "2026-09-19",
-    "id": "17898070660914"
   }
 ]
