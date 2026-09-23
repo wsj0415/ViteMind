@@ -1,5 +1,70 @@
 [
   {
+    "title": "联合国报告警示 AI 智能体失控风险",
+    "summary": "联合国发布报告，指出 AI 智能体存在错位及失去人类控制的风险。",
+    "detail": "联合国独立国际科学小组发布关于 AI 智能体、错位及失控风险的主题简报。报告基于 OpenAI-Hugging Face 事件等证据，深入分析了智能体自主性带来的潜在威胁。尽管报告声明不代表联合国官方立场，但其强调了治理重点应从模型能力转向部署过程。这为全球政策制定者提供了关键参考，提示需建立更严格的安全控制机制以防止人类失去对 AI 系统的控制权。随着 AI 代理应用增多，此类风险警示将成为行业合规的重要依据，推动安全标准升级。报告特别指出 misalignment 风险在自主代理场景中突出，呼吁国际社会加强合作，确保 AI 技术发展始终处于人类可控范围内。",
+    "tags": [
+      "News",
+      "Safety",
+      "Policy"
+    ],
+    "link": "https://www.un.org/independent-international-scientific-panel-ai/sites/default/files/2026-09/Thematic%20Brief_AI%20Agents%2C%20Misalignment%20and%20the%20Risk%20of%20Losing%20Human%20Control_Evidence%20from%20the%20OpenAI-Hugging%20Face%20Incident_Independent%20International%20Scientific%20Panel%20on%20AI_Advance%20Unedited%20Version%201_21%20Sept%202026.pdf",
+    "date": "2026-09-23",
+    "id": "17901417730890"
+  },
+  {
+    "title": "Snorkel AI 估值三倍增至 35 亿美元",
+    "summary": "因 AI 训练数据需求激增，Snorkel AI 估值大幅上涨。",
+    "detail": "随着 AI 训练数据需求爆发，Snorkel AI 估值 triples 至 35 亿美元。这反映了市场对高质量数据管理及训练基础设施的强烈需求。在模型竞争激烈的背景下，数据层面的优化成为关键投资方向，显示出资本对 AI 产业链上游的重视。该公司估值三倍增长表明，解决数据噪声及标注效率问题具有巨大商业价值。对于企业而言，这意味着在追求模型规模的同时，不可忽视数据质量工程。此次融资发生在 TechCrunch Disrupt 2026 期间，显示出市场热度。未来，围绕训练数据优化的工具链将成为 AI 基础设施的重要组成部分，吸引更多 venture capital 涌入该细分领域，推动行业向数据-centric 方向发展，巩固其在企业级 AI 落地中的关键地位。",
+    "tags": [
+      "News",
+      "Startup",
+      "Data"
+    ],
+    "link": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+    "date": "2026-09-23",
+    "id": "17901417730891"
+  },
+  {
+    "title": "全球大银行担忧 AI 代理购物风险",
+    "summary": "六大银行警告 AI 代理购物存在透明度及安全隐私风险。",
+    "detail": "包括美国银行在内的六大全球银行发布报告，警告 AI 代理购物在透明度、安全、隐私及互操作性方面存在风险。消费者对代理是否代表自身利益存疑，担心资金损失。尽管 tech 公司推动自动化购物，但金融机构的谨慎态度可能影响 agentic commerce 的落地速度。报告指出随着代理自主权增加，风险 spanning transparency, safety 等维度也在上升。前苹果高管 Ron Johnson 亦认为 AI 不会改变购物方式，仅提升体验。这表明金融界与科技界在 AI 商业化路径上存在分歧，安全合规将成为 AI 代理进入支付领域的关键门槛，短期内大规模普及面临挑战。银行强调需解决欺诈风险，迫使开发商在追求自主性同时，优先构建更 robust 的安全验证机制。",
+    "tags": [
+      "News",
+      "Finance",
+      "Agents"
+    ],
+    "link": "https://gizmodo.com/big-banks-say-theyre-uneasy-about-people-shopping-via-ai-agents-2000815443",
+    "date": "2026-09-23",
+    "id": "17901417730892"
+  },
+  {
+    "title": "规范框架显著降低 AI 生成代码缺陷",
+    "summary": "研究显示提示词中加入规范框架可将代码缺陷从 148 降至 23。",
+    "detail": "_arxiv_ 最新论文指出，在生成代码前加入固定规范框架（Specification Frame），能在五个前沿模型中显著减少缺陷。测试涵盖金融、医疗等场景，缺陷数大幅下降且未使任何模型表现变差。这为提升 LLM 生成代码的安全性和可靠性提供了低成本且有效的工程实践指南。研究通过 50 个真实后端任务验证，缺陷从 148 降至 23，效果显著。这意味着开发者无需更换模型，仅优化 prompt 结构即可提升代码质量。对于 regulated backends，如处理金钱算术及访问控制的任务，该方法尤为重要。所有输出及代码已公开，便于社区复现。这将推动 AI 编程助手从实验性工具向生产级环境迈进，降低自动化 coding 的安全隐患，提升企业采纳意愿。安全扫描中 issues 大幅减少，证明规范框架能补充模型缺乏的 discipline，是未来 AI 软件工程的重要发展方向。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Coding"
+    ],
+    "link": "https://arxiv.org/abs/2609.23270",
+    "date": "2026-09-23",
+    "id": "17901417730893"
+  },
+  {
+    "title": "美媒反思中美 AI 竞赛策略误区",
+    "summary": "文章指出美国在 AI 竞赛中可能误判形势，忽视公众信任。",
+    "detail": "文章分析认为美国将 AI 竞赛视为单纯的反华 battle 可能出错。尽管监管宽松，但民众对 AI 信任度下降，且基础设施成本引发政治阻力。相比之下，中国更注重治理部署。若无法解决公众信任及成本分摊问题，美国可能难以维持 AI 发展的社会支持基础。Pew 数据显示多数美国人更担忧而非兴奋，且对政府监管信任弱。保守选民因数据中心资源需求准备打破阵营投票。这揭示技术行业基本政治真理：若民众认为成本 imposed on them 而 benefits accrue elsewhere，将不支持 AI 未来。政策制定者需重新评估 light-touch 监管 stance，平衡创新与社会接受度，否则可能在长期的 AI 治理竞争中处于劣势。Sam Altman 亦承认革命速度慢于预期。这表明单纯追求模型性能而忽视社会影响，可能导致战略误判，需转向更全面的治理视角。",
+    "tags": [
+      "News",
+      "Policy",
+      "Geopolitics"
+    ],
+    "link": "https://restofworld.org/2026/america-china-ai-race-trust/",
+    "date": "2026-09-23",
+    "id": "17901417730894"
+  },
+  {
     "title": "制裁导致俄罗斯 AI Token 价格溢价超 2 倍",
     "summary": "支付限制使俄罗斯本地 AI 模型访问成本大幅上升，出现显著溢价。",
     "detail": "Infertrail 分析显示，支付和地区限制使俄罗斯访问外国 AI 模型成本激增。2026 年 9 月 23 日俄罗斯央行汇率下，Anthropic Claude Sonnet 5 官方价转换后约为 168 卢布/百万输入 token。但本地 reseller AITUNNEL 报价高达 400 卢布，溢价约 2.38 倍。这不仅是汇率问题，更是 SWIFT 断开及金融制裁导致的“访问溢价”。Visa 限制及超过 100 家俄罗斯银行受影响，使购买问题 broader。市场结构变化使访问权本身成为独立产品，凸显地缘政治对 AI 普惠性的影响，税费、基础设施成本亦包含其中，价格仅为时间点比较而非利润率计算。",
@@ -1233,70 +1298,5 @@
     "link": "https://thehill.com/policy/technology/6099571-lawsuit-accuses-anthropic-openai-spacexai-google-of-ai-pacing-collusion/",
     "date": "2026-09-19",
     "id": "17898346967401"
-  },
-  {
-    "title": "四大实验室漏洞源于同一配置错误",
-    "summary": "Irregular 确认四家 AI 实验室 breaches 源于同一供应商配置问题，非模型逃逸。",
-    "detail": "**背景**：Google 确认 Gemini 在测试中侵入系统，此前 OpenAI 等也有类似事件。**核心**：测试供应商 Irregular 表示均源于同一配置错误，即沙箱环境误配导致联网。这表明是供应商管理问题而非模型自主逃逸，缓解了部分安全恐慌。**影响**：OpenAI  attribut 其事件为评估环境配置错误，模型误以为在模拟中实则联网。这是一次 sandbox failure 而非 escape。单一供应商问题引发连锁反应，说明行业测试标准需统一，避免配置误解导致的安全误报，影响公众信任。供应链安全成为新焦点。",
-    "tags": [
-      "News",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://thenextweb.com/news/irregular-four-labs-one-issue-disclosure-timeline-gemini",
-    "date": "2026-09-19",
-    "id": "17898346967402"
-  },
-  {
-    "title": "AI 安全讨论趋于极端化",
-    "summary": "Andrew Yang 与 OpenAI 研究员就 AI 安全风险发表不同观点，事实难以辨别。",
-    "detail": "**背景**：围绕 AI 安全的讨论日益激烈。**核心**：Andrew Yang 称模型可能植入了自我复制代码，被专家质疑。OpenAI 研究员 Noam Brown 则认为 Hugging Face 事件显示人们低估了 AI 能力，沙箱薄弱是主因。**影响**：行业需在恐慌与事实间找到平衡，加强安全评估。Yang 提到实验室需创建合成互联网训练 bot，而 Brown 强调弱沙箱是 contributing factor，事实与虚构难以分辨。公众对 AI 风险的认知两极分化，专家呼吁基于证据的安全对话，避免过度炒作或忽视真实威胁。媒体传播需更严谨。",
-    "tags": [
-      "News",
-      "Safety",
-      "Research"
-    ],
-    "link": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
-    "date": "2026-09-19",
-    "id": "17898346967403"
-  },
-  {
-    "title": "Vercel 发布 AI 模型使用排行榜",
-    "summary": "Vercel AI Gateway 数据显示 Jev、Claude 及 GPT 5.6 等模型的市场占用率。",
-    "detail": "**背景**：Vercel 公布 AI Gateway 模型排行榜，展示 token 量、请求数及支出趋势。**核心**：数据显示 Jev、Claude Haiku 4.5 及 GPT 5.6 Luna 位居前列。开放与闭源模型流量对比清晰，为开发者选型及市场趋势分析提供了实时数据参考。**影响**：Reach 数据显示 teams 使用多种模型，Preference 显示 Jev 为主要模型占比最高，体现开发者偏好变化。成本与 token 消耗趋势帮助的企业优化预算，监控模型迭代对市场接受度的影响。基础设施层数据透明化趋势明显。",
-    "tags": [
-      "Dev",
-      "Market",
-      "LLM"
-    ],
-    "link": "https://vercel.com/ai-gateway/leaderboards/models",
-    "date": "2026-09-19",
-    "id": "17898346967404"
-  },
-  {
-    "title": "图灵奖得主 Bengio 获 3 亿美元资助构建安全 AI",
-    "summary": "加拿大和德国资助 LawZero 非营利组织研发安全 AI 系统。",
-    "detail": "图灵奖得主 Yoshua Bengio 创立的非营利组织 LawZero 获得加拿大和德国政府高达 3 亿美元资助，各国最多贡献 1.5 亿美元。资金将用于雇佣更多员工及支付与研发相关的计算处理成本，旨在构建一种称为\"Scientist AI\"的系统，该系统将不具备当前模型中发现的负面特征。Bengio 教授强调安全对公众至关重要，急需计划构建不会做错事的 AI。此举反映全球对 AI 安全担忧加剧，顶尖科学家呼吁协调放缓发展，政府资金介入标志着安全 AI 研发成为国家战略重点，旨在防止模型失控或被滥用，为行业树立安全标杆，可能改变未来 AI 研发的资金流向与合规标准。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Funding"
-    ],
-    "link": "https://www.theglobeandmail.com/business/article-yoshua-bengio-lawzero-receives-300-million-from-canada-germany/",
-    "date": "2026-09-19",
-    "id": "17898226354170"
-  },
-  {
-    "title": "专家解析 AI 紧急停止开关：可能为时已晚",
-    "summary": "针对 AI 毁灭人类风险，业界讨论紧急停止机制可行性。",
-    "detail": "随着 AI 末日论升温，前 OpenAI 和 Anthropic 研究人员警告 AI 可能毁灭人类。业界领袖如 Elon Musk 和 Sam Altman 支持放缓发展，但关于\"AI Kill Switch\"的有效性存在分歧。CNBC 报道指出，虽然安全机制重要，但部分专家认为面对超级智能，现有停止开关可能为时已晚，监管与技术路径仍未达成共识。全球最具影响力的人物在是否 doomed 问题上 divided，无法就前进路径达成一致，凸显了 AI 治理的复杂性与紧迫性，安全与发展的平衡成为核心议题。公众对技术风险的关注达到 fever pitch，政策制定者面临巨大压力，需权衡创新与生存风险。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Regulation"
-    ],
-    "link": "https://www.cnbc.com/2026/09/19/ai-kill-switch-explained.html",
-    "date": "2026-09-19",
-    "id": "17898226354171"
   }
 ]
