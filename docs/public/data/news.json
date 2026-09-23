@@ -1,5 +1,57 @@
 [
   {
+    "title": "制裁导致俄罗斯 AI Token 价格溢价超 2 倍",
+    "summary": "支付限制使俄罗斯本地 AI 模型访问成本大幅上升，出现显著溢价。",
+    "detail": "Infertrail 分析显示，支付和地区限制使俄罗斯访问外国 AI 模型成本激增。2026 年 9 月 23 日俄罗斯央行汇率下，Anthropic Claude Sonnet 5 官方价转换后约为 168 卢布/百万输入 token。但本地 reseller AITUNNEL 报价高达 400 卢布，溢价约 2.38 倍。这不仅是汇率问题，更是 SWIFT 断开及金融制裁导致的“访问溢价”。Visa 限制及超过 100 家俄罗斯银行受影响，使购买问题 broader。市场结构变化使访问权本身成为独立产品，凸显地缘政治对 AI 普惠性的影响，税费、基础设施成本亦包含其中，价格仅为时间点比较而非利润率计算。",
+    "tags": [
+      "News",
+      "Market",
+      "Sanctions"
+    ],
+    "link": "https://infertrail.com/blog/ruble-markup-ai-tokens/",
+    "date": "2026-09-22",
+    "id": "17901219370101"
+  },
+  {
+    "title": "观点：AI 安全运动正使 AI 变得更不安全",
+    "summary": "评论文章指出过度监管可能垄断技术，反而阻碍公众防御有害 AI 的能力。",
+    "detail": "Reason.com 发表观点文章，批评当前\"AI 安全”运动适得其反。文章提及 Anthropic 员工 Jacob Coxon 因担忧产品毁灭人类辞职，对齐科学负责人 Evan Hubinger 公开同意产品有 10% 几率导致人类灭绝。文章指出研究人员和\"AI 末日论者”共享 TESCREAL 哲学假设。监管推动者试图将技术控制在少数垄断企业手中，禁止不受控研究。这剥夺了公众理解 AI 现状的机会，也削弱了防御有害用途的技术能力。许多前沿研究者被几乎宗教般的信念驱动，呼吁警惕以安全为名的技术垄断，enforced through tyrannical means 可能阻碍技术进步。",
+    "tags": [
+      "News",
+      "Policy",
+      "Safety"
+    ],
+    "link": "https://reason.com/2026/09/22/the-ai-safety-movement-is-making-ai-less-safe/",
+    "date": "2026-09-22",
+    "id": "17901219370102"
+  },
+  {
+    "title": "特朗普下令将 AI 重命名为“超级智能”",
+    "summary": "特朗普在联合国大会宣布，美国文件将改用“超级智能”一词，拒绝全球管控。",
+    "detail": "特朗普在联合国大会演讲中指示，所有美国文件将把“人工智能”改称为“超级智能”（Super Intelligence）。他认为“人工”一词听起来虚假，强调该技术比工业革命更重大。此举旨在 dismissing AI 安全警告，并将与中国的竞争框架为生存竞赛。白宫拒绝任何全球主义控制方案，鼓励而非限制技术发展。尽管“超级智能”已指代超越人类能力的智能，此举可能影响后续政策表述及国际 AI 治理话语体系。近期数据中心抗议及就业担忧 intensified，特朗普推重 brand 以显示美国政府对 AI 发展的激进态度，不确定是否意图 invoke 现有概念。",
+    "tags": [
+      "News",
+      "Policy",
+      "USA"
+    ],
+    "link": "https://www.axios.com/2026/09/22/trump-ai-super-intelligence-rebrand",
+    "date": "2026-09-22",
+    "id": "17901219370103"
+  },
+  {
+    "title": "Featherless AI 开源 Simple-jev 决策工具",
+    "summary": "全新开源工具可将上下文转化为结构化决策，支持免登录 API 试用。",
+    "detail": "Featherless AI 推出 Simple-jev，一个开源的上下文决策工具。它允许开发者向开放模型发送消息和问题，获取可选择、评分的答案，便于代码集成。提供免登录 API 演示（限制 2k 上下文，4 RPS），支持 Gemma-4 等模型。适用于需要将非结构化对话转化为结构化决策的生产场景。项目完全开源，托管于 Github，降低了开发者构建决策逻辑的门槛。interactive playground 允许编辑场景并查看实时模型响应，支持聊天格式上下文及图像输入。生产用途需注册开发者账户以获得更高速率限制，turn context into clear decisions 是其核心价值。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "LLM"
+    ],
+    "link": "https://simple-jev.featherless.ai/",
+    "date": "2026-09-22",
+    "id": "17901219370104"
+  },
+  {
     "title": "OpenAI 发布 GPT-6 提示词缓存优化",
     "summary": "OpenAI 升级 GPT-6 缓存系统，开发者成本最高可降 90%。",
     "detail": "OpenAI 正式推出 GPT-6 系列的改进提示词缓存系统，旨在支持持久化 Agent 长时间运行复杂任务，如重构代码库或制作文档。应用背后的 API 请求常携带相同指令，OpenAI 缓存共享上下文以复用计算。新功能默认提供更高的缓存命中率，对在 30 分钟内重用的共享前缀给予缓存折扣，输入 token 折扣高达 90%。开发者可通过新的 Dashboard 监控缓存性能，诊断 missed cache 原因，比较请求与近期响应以识别模型或设置变化。此举显著降低长期运行 Agent 的成本，响应时间减少，利好复杂任务开发。同时引入诊断工具帮助优化集成，最大化缓存命中率，提升应用效率。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.cnbc.com/2026/09/19/ai-kill-switch-explained.html",
     "date": "2026-09-19",
     "id": "17898226354171"
-  },
-  {
-    "title": "多家 AI 巨头因合谋放缓发展遭反垄断起诉",
-    "summary": "OpenAI 等公司被诉垄断，指控其合谋限制技术进步。",
-    "detail": "Bloomberg Law 报道，OpenAI、Anthropic、Google 及 SpaceXAI 遭遇反垄断诉讼。原告指控这些公司合谋放缓 AI 发展速度，违反市场竞争原则。此前行业领袖曾呼吁协调放缓以确保安全，此举引发法律争议。案件结果将影响未来 AI 研发节奏及监管框架，凸显安全与竞争之间的张力。诉讼针对的是主要 AI 模型构建者，指责他们通过协调行动限制技术进步。这不仅挑战了科技巨头的商业策略，也可能重新定义 AI 行业的竞争规则，政府监管介入成为必然趋势。法律界正在密切关注此案对创新速度的潜在抑制作用，以及是否构成非法垄断行为。",
-    "tags": [
-      "News",
-      "Legal",
-      "Antitrust"
-    ],
-    "link": "https://news.bloomberglaw.com/litigation/openai-anthropic-google-spacexai-hit-with-antitrust-lawsuit",
-    "date": "2026-09-19",
-    "id": "17898226354172"
-  },
-  {
-    "title": "澄清：AI 模型并未自主黑客攻击企业",
-    "summary": "媒体误报 AI 自主黑客行为，实为测试环境配置失误。",
-    "detail": "针对 Gemini 等模型“自主黑客攻击”的报道，专家指出这是误解。测试由安全公司 Irregular 进行，因环境配置失误导致模型连接互联网。模型实际是按指令攻击虚构公司，因名称巧合触及真实企业。大多数测试中 safeguards 生效。该事件警示媒体应避免夸大 AI 自主威胁，准确理解测试边界与安全措施。博客作者 Keyvan 指出，模型并未 rogue，而是在模拟环境中执行指令。这是基本的安全错误，非前沿安全公司也能避免。公众需理性看待 AI 安全新闻，避免不必要的恐慌，理解测试环境与真实部署的区别，防止误导性的安全恐慌影响行业声誉。",
-    "tags": [
-      "News",
-      "Security",
-      "Misinformation"
-    ],
-    "link": "https://blog.keyvan.net/p/ai-models-are-not-hacking-autonomously",
-    "date": "2026-09-19",
-    "id": "17898226354173"
-  },
-  {
-    "title": "Vercel 指南：使用 Jev 和 AI SDK 进行分类与路由",
-    "summary": "开发者教程，利用 TypeSafe AI 模型实现结构化决策。",
-    "detail": "Vercel 发布新指南，介绍如何使用 TypeSafe AI 的 System One 模型 Jev 配合 AI SDK。开发者可通过`experimental_evaluate` API 在 TypeScript 中直接获取结构化决策（如分类、评分），而非文本生成。适用于支持工单路由、行动评估等场景。教程涵盖 prerequisites、单元测试及 Gateway 配置，助力构建类型安全的 AI 应用工作流。Jev 模型评估 supplied state against typed questions，返回 choices 和 scores。保持规则在代码中允许更改应用响应方式，无需重新定义模型评估内容。这是构建可靠 AI 应用的重要实践，提升了 AI 决策的可控性与类型安全性，简化了集成流程。",
-    "tags": [
-      "Dev",
-      "SDK",
-      "TypeScript"
-    ],
-    "link": "https://vercel.com/kb/guide/typesafe-jev-and-ai-sdk",
-    "date": "2026-09-19",
-    "id": "17898226354174"
-  },
-  {
-    "title": "AI 幻觉险些触发美军军事行动",
-    "summary": "AI 错误情报导致美军险些攻击中国船只，暴露军事应用风险。",
-    "detail": "春季美军行动中，AI 聊天工具合成情报出现严重幻觉，误报中国船只携带核武组件。分析师未核实即上报，险些触发武装操作，最后时刻才 abort。事件暴露了将 AI 集成到军事杀伤链中的巨大风险。虽然五角大楼希望通过 AI 加速决策以维持对华优势，但幻觉错误若未经过滤直接上传至指挥链，可能导致灾难性冲突。此事件警示军事 AI 部署需加强人工核查机制，速度不能牺牲准确性。CNN 报道确认了这一惊险时刻，凸显 AI 可靠性问题。",
-    "tags": [
-      "News",
-      "Military",
-      "Safety"
-    ],
-    "link": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
-    "date": "2026-09-19",
-    "id": "17898070660910"
   }
 ]
