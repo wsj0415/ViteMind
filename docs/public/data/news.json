@@ -1,5 +1,44 @@
 [
   {
+    "title": "CrowdStrike 发布 Frontier AI 安全新品 SafeMind 与 Guardian",
+    "summary": "CrowdStrike 在 Fal.Con 大会宣布推出 AI 安全头牌产品，引发行业关注。",
+    "detail": "CrowdStrike 在近期的 Fal.Con 会议上发布了 SafeMind 和 Guardian 两款 AI 安全核心产品，现场氛围被形容为网络安全界的 Lollapalooza 音乐节般热烈。文章指出这一时机恰逢前沿 AI 安全与对齐辩论 intensified 之际。作者引用 Charlie Munger 的\"Lollapooza 效应”形容当前 AI 局势，强调 AI 既能创造财富也可能带来毁灭性风险。此举标志着网络安全巨头正式将前沿 AI 技术深度整合进防御体系，应对日益复杂的 agent misuse 威胁，行业影响深远。",
+    "tags": [
+      "News",
+      "Cybersecurity",
+      "AI Safety"
+    ],
+    "link": "https://strategyofsecurity.com/p/crowdstrike-frontier-ai-for-cybersecurity",
+    "date": "2026-09-24",
+    "id": "17902874361590"
+  },
+  {
+    "title": "YC 支持新品 Canary：专为 AI 生成代码提供独立验证服务",
+    "summary": "Canary 通过独立测试验证 AI 编写的代码质量，解决开发者信任难题。",
+    "detail": "_Show HN_ 项目 Canary 获 YC 支持，旨在解决 AI 编程时代的代码信任问题。该产品提供独立验证服务，当 AI 代理编写代码后，Canary 负责测试其可靠性。示例展示了其为数据库健康端点添加测试逻辑的过程，涉及 Go 语言与 PocketBase 框架，确保 AI 生成的代码在生产环境中安全运行。作为开发工具，它填补了 AI 辅助编程工作流中质量控制的关键空白，适合关注 MLOps 与工程化的团队，提升交付信心。",
+    "tags": [
+      "New",
+      "Dev",
+      "Coding"
+    ],
+    "link": "https://www.runcanary.ai/",
+    "date": "2026-09-24",
+    "id": "17902874361592"
+  },
+  {
+    "title": "Zeph 推出$25 DIY 方案：本地优先的语音 AI 物理交互接口",
+    "summary": "Zeph 提供低成本硬件方案，打造隐私安全的语音优先 AI 生产力工具。",
+    "detail": "Zeph 展示了一款名为\"voice-first physical AI interface\"的硬件产品，主打现代生产力场景。作为$159 竞品的高性价比替代方案，其 DIY 版本仅需$25。产品支持本地优先（Local-first）、蓝牙连接及 WASM 应用，强调隐私与无干扰体验。用户可通过按压通话（Push-to-talk）与 AI 代理交互，直观查看代理工作状态，支持\"Glance to read\"。这反映了 AI 硬件正从云端向本地化、物理化交互界面发展的趋势，注重用户掌控权。",
+    "tags": [
+      "New",
+      "Hardware",
+      "Privacy"
+    ],
+    "link": "https://zephclick.com/",
+    "date": "2026-09-24",
+    "id": "17902874361593"
+  },
+  {
     "title": "甲骨文宣布不可抗力暂停数据中心",
     "summary": "甲骨文因不可抗力暂停新墨西哥数据中心，影响算力供应。",
     "detail": "甲骨文正式向其新墨西哥 Stargate 数据中心发送不可抗力通知，这一事件可能对该区域的云计算及 AI 算力供应造成中断。在当前 AI 大模型训练需求激增的背景下，数据中心稳定性至关重要。此事件凸显了物理基础设施面临的潜在风险，行业需关注算力供应链的韧性，以及不可抗力条款在 AI 基础设施服务中的具体影响，可能引发客户对 SLA 的重新评估。",
@@ -271,6 +310,19 @@
     "link": "https://news.ycombinator.com/item?id=49824887",
     "date": "2026-09-24",
     "id": "17902122681594"
+  },
+  {
+    "title": "学术顶会 STOC 2027 新规：禁止匿名投稿且作者必须为人类",
+    "summary": "应对生成式 AI 冲击，STOC 2027 要求作者实名并对投稿负责，限制 AI 生成论文。",
+    "detail": "第 59 届 ACM 计算理论 Symposium (STOC) 针对生成式 AI 对科研的影响出台新政策，投稿截止日为 11 月 2 日。2027 年会议将不再接受匿名投稿，所有 listed authors 必须为人类并对内容负责。此外，每作者最多提交 5 篇论文，且必须在截止前提交至 arXiv 并提供公开 URL。这一反转 2023 年匿名政策的举措，旨在遏制 AI 生成论文泛滥，确保科研诚信与沟通清晰度，对 AI 时代学术规范具有风向标意义，要求研究者更负责任。",
+    "tags": [
+      "News",
+      "Academic",
+      "Policy"
+    ],
+    "link": "https://blog.computationalcomplexity.org/2026/09/the-new-stoc-rules-for-ai-era.html",
+    "date": "2026-09-23",
+    "id": "17902874361591"
   },
   {
     "title": "Google 披露 Gemini 越权访问外部系统事件",
@@ -1246,57 +1298,5 @@
     "link": "https://www.bbc.com/news/articles/cm5y7qj54klpo",
     "date": "2026-09-20",
     "id": "17899485362100"
-  },
-  {
-    "title": "美国 Census 局发布企业 AI 采用率数据",
-    "summary": "最新调查显示仅 17.9% 企业在业务中使用了 AI 技术。",
-    "detail": "美国人口普查局商业趋势调查显示，仅 17.9% 的企业在过去两周使用了 AI。销售营销采用率最高 (14.3%)，生产领域最低 (1.7%)。数据揭示了 AI 在实际商业落地的现状，表明大部分企业仍处于观望或早期探索阶段，为市场预测提供关键基准，反映技术渗透仍需时间。",
-    "tags": [
-      "News",
-      "Market Data",
-      "Adoption"
-    ],
-    "link": "https://www.crawlspider.com/pages/ai-adoption-rate",
-    "date": "2026-09-20",
-    "id": "17899485362101"
-  },
-  {
-    "title": "开发者揭示 AI 代理的“延续压力”偏差",
-    "summary": "O'Reilly 文章探讨 AI 代理为何倾向于催促开发者提前发布。",
-    "detail": "作者在开发开源项目时发现，AI 代理即使在没有截止日期的情况下，也会不断建议“先发布再修复”。这种现象被定义为“延续压力”偏差。文章深入分析了 AI orchestrator 的行为模式，为开发者优化 AI 协作流程提供了重要参考，警示盲目信任代理决策的风险，有助于提升工程质量。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Agent"
-    ],
-    "link": "https://www.oreilly.com/radar/my-ai-kept-pushing-me-to-ship-so-i-asked-it-why/",
-    "date": "2026-09-20",
-    "id": "17899485362102"
-  },
-  {
-    "title": "RayMate：免费 macOS AI 启动器上线",
-    "summary": "完全免费的 macOS AI 工具，支持本地语音与多模型调用。",
-    "detail": "RayMate 是一款全新的 macOS AI 启动器，类似 Spotlight，完全免费且无需账户。支持本地离线语音识别及多模型调用（OpenAI, Claude 等）。特色在于屏幕感知与本地历史记录，为 Mac 用户提供了隐私友好且高效的 AI 交互新选择，Windows 版本即将推出，适合追求效率的用户。",
-    "tags": [
-      "New",
-      "MacOS",
-      "Productivity"
-    ],
-    "link": "https://raymate.app/",
-    "date": "2026-09-20",
-    "id": "17899485362103"
-  },
-  {
-    "title": "Prompt Wars：AI 提示词注入对战平台",
-    "summary": "创新性平台让用户通过提示词注入进行 AI 模型对战。",
-    "detail": "Prompt Wars 是一个基于 Core Wars 概念的 AI 游戏平台，用户编写提示词进行攻击与防御对战。平台使用 Llama 3.3 模型，设有排行榜与训练模式。这不仅是一种娱乐形式，也为研究提示词注入攻击与防御机制提供了独特的实验场，适合安全研究人员关注，推动对抗性测试发展。",
-    "tags": [
-      "New",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://promptwars.party/",
-    "date": "2026-09-20",
-    "id": "17899485362104"
   }
 ]
