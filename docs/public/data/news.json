@@ -1,5 +1,96 @@
 [
   {
+    "title": "AI 生成基础设施的 CI 检查清单",
+    "summary": "Masterpoint 发布 Terraform 与 OpenTofu 的 AI 生成代码验证指南，强调自动化检查。",
+    "detail": "随着 AI 生成基础设施代码速度加快，验证环节至关重要。Masterpoint 提出了五项自动化检查基线：格式验证、Linting、测试、安全扫描和文档。建议在本地和 CI 中运行，以确保代码质量。虽然自动化能捕捉常规错误，但基础设施设计的合理性仍需人类判断。此清单为组织采用 AI 编写 Infra 代码提供了安全落地的最佳实践。AI 虽能缩短验证循环，但不能替代人类对架构决策的最终把关，企业需建立混合审查机制。通过标准化流程，团队可放心利用 AI 提升效率，同时避免配置漂移和安全漏洞，确保生产环境的稳定性与合规性要求。",
+    "tags": [
+      "Dev",
+      "Infra",
+      "AI"
+    ],
+    "link": "https://masterpoint.io/blog/terraform-opentofu-ci-checklist/",
+    "date": "2026-09-26",
+    "id": "17904345970290"
+  },
+  {
+    "title": "直接在生产环境用 AI 编程的实践",
+    "summary": "JoyDemo 团队分享在生产环境直接使用 AI 编码的经验，Bug 率降低 95%。",
+    "detail": "JoyDemo 团队摒弃了传统的开发到生产的环境切换，直接在生产主机上使用 AI 和 Codex CLI 进行开发。通过 Git worktrees 隔离会话，并在变更应用前运行自动化测试和预览。这种方法消除了环境差异导致的 Bug，声称减少 95% 的错误。文章探讨了如何利用 AI 缩短验证循环，同时保持代码隔离和安全，为高风险环境下的 AI 开发提供了新视角。开发者需注意，这依赖于强大的自动化测试覆盖，并非所有团队都可直接复制，但消除了环境手off 的错误源。关键在于利用 AI 在真实运行时中构建，而非模拟环境，从而确保依赖和设置的一致性，极大提升了交付可靠性。",
+    "tags": [
+      "Dev",
+      "Workflow",
+      "AI"
+    ],
+    "link": "https://joydemo.com/blog/coding-directly-in-production-with-ai",
+    "date": "2026-09-26",
+    "id": "17904345970291"
+  },
+  {
+    "title": "牛津大学允许 OpenAI 训练博德利图书馆数据",
+    "summary": "牛津大学与 OpenAI 达成协议，允许其使用博德利图书馆资源训练 AI 模型。",
+    "detail": "牛津大学正式授权 OpenAI 使用其著名的博德利图书馆馆藏数据训练 AI 模型。这是学术界与 AI 巨头合作的重要里程碑，标志着高质量权威数据源正在被纳入大模型训练集。此举可能显著提升模型在学术、历史和文化领域的表现，同时也引发了关于数据版权、学术资源商业化以及知识垄断的行业讨论。未来更多高校可能效仿，但也需平衡公共知识访问权与商业利益。合作细节未完全披露，但确认了 OpenAI 将获得珍贵历史文献的访问权，助力模型理解复杂人类知识。这一合作模式或将成为解决 AI 数据饥渴与版权争议的新范式，影响深远。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "Data"
+    ],
+    "link": "https://www.theguardian.com/technology/2026/sep/26/oxford-university-bodleian-library-open-ai-chat-gpt",
+    "date": "2026-09-26",
+    "id": "17904345970292"
+  },
+  {
+    "title": "Synthesia 推出交互式数字分身与角色扮演的培训",
+    "summary": "视频生成初创公司 Synthesia 估值达 40 亿美元，推出交互式数字分身产品。",
+    "detail": "视频生成初创公司 Synthesia 估值已达 40 亿美元，并推出名为\"Roleplay Sessions\"的新产品，允许员工与交互式 AI 分身练习销售 pitch 等场景。记者亲身体验了创建个人数字 twin 的过程。这标志着 AI 视频技术从单向生成向双向交互演变，企业在员工培训和客户互动中的应用场景进一步深化，数字分身正成为 PR 和培训的新标准工具。Synthesia 去年 ARR 超 1 亿美元，此次更新显示其正从视频制作平台转型为交互式 coaching 平台，竞争壁垒进一步加深。随着 HeyGen 等竞品跟进，数字人交互体验将成为企业 SaaS 的关键差异化功能，重塑内部培训流程。",
+    "tags": [
+      "News",
+      "Avatar",
+      "Enterprise"
+    ],
+    "link": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
+    "date": "2026-09-26",
+    "id": "17904345970293"
+  },
+  {
+    "title": "华盛顿拒绝关闭的 AI 欺诈漏洞",
+    "summary": "文章指出美国公司注册身份验证存在漏洞，易被 AI 伪造身份利用。",
+    "detail": "尽管业界关注超级智能风险，但当前的 AI 欺诈漏洞更紧迫。文章指出美国大多数州注册公司无需验证身份，朝鲜等实体已利用 AI 伪造身份甚至深度伪造面试来规避制裁。英国和澳大利亚已开始验证公司管理者身份，而美国尚未行动。这揭示了 AI 代理运行壳公司网络的风险，呼吁政府尽快修复这一容易被利用的法律和技术漏洞。监管滞后于技术发展，使得恶意行为者能低成本利用 AI 自动化欺诈。政策制定者需优先考虑现有模型的滥用风险，而非仅关注远期超级智能威胁，以维护金融系统安全。此漏洞若不及时关闭，可能导致大规模自动化金融犯罪网络的出现。",
+    "tags": [
+      "News",
+      "Security",
+      "Policy"
+    ],
+    "link": "https://shearerp.substack.com/p/the-glaring-ai-fraud-loophole-washington",
+    "date": "2026-09-26",
+    "id": "17904345970294"
+  },
+  {
+    "title": "论文解析：AI 聊天机器人成瘾的三种类型",
+    "summary": "最新 arXiv 论文将 AI 聊天机器人成瘾分为逃避角色扮演、伪社交伴侣等三类。",
+    "detail": "这篇 arXiv 论文深入研究了生成式 AI 聊天机器人的成瘾潜力。作者提出了\"AI 神灯现象\"，并将成瘾分为三类：逃避主义角色扮演、伪社交伴侣和认知兔子洞。研究旨在最小化风险，提供了关于用户为何成瘾及常见症状的深入理解。对于开发者和政策制定者而言，理解这些心理机制对于设计更安全的 AI 交互系统至关重要。论文基于人机交互视角，分析了用户与 AI 建立情感依赖的过程。随着 AI 伴侣应用普及，识别成瘾早期信号有助于防止心理健康问题，建议产品设计中引入干预机制。研究强调了技术伦理的重要性，呼吁行业在追求 engagement 的同时关注用户福祉。",
+    "tags": [
+      "Dev",
+      "Research",
+      "HCI"
+    ],
+    "link": "https://arxiv.org/abs/2601.13348",
+    "date": "2026-09-26",
+    "id": "17904345970295"
+  },
+  {
+    "title": "Show HN: 能证明工作成果的 AI 编码代理工具 keel",
+    "summary": "开源工具 keel 为 AI 编码代理提供验证网关，确保工作成果可追溯。",
+    "detail": "keel 是一个基于 Rust 的新工具，旨在约束 AI 编码代理（如 Claude Code、Codex）。它允许用户定义\"完成\"的标准，代理工作后，keel 通过构建、测试和审查网关进行检查。若检查失败则退回，成功则生成防篡改的证据记录。这解决了 AI 代理不知何时停止的问题，为团队引入 AI 编程提供了安全控制和审计 trail，适合对代码质量有严格要求的场景。工具支持 macOS 和 Linux，可集成到现有工作流中。通过不可篡改的证据包，团队可追溯 AI 的每一次决策，增强了对自动化代码生成的信任度，降低维护成本。它是 AI 代理时代的基础设施层，确保自动化工作符合人类预期。",
+    "tags": [
+      "New",
+      "Tool",
+      "Coding"
+    ],
+    "link": "https://daneb.github.io/keel/",
+    "date": "2026-09-26",
+    "id": "17904345970296"
+  },
+  {
     "title": "Show HN: App2Api 为 AI 代理生成可用 API 规范",
     "summary": "通过描述工作流自动捕获 API 调用，生成 OpenAPI spec。",
     "detail": "App2Api 是一款新工具，允许用户用自然语言描述应用工作流。它驱动仿真器捕获背后的 HTTPS 请求链，包括认证和令牌。最终输出可运行的 flow.sh 脚本和 OpenAPI 3.1 规范。这解决了 AI 代理与现有应用集成的难题，无需手动逆向工程，极大降低了 Agent 开发门槛。用户无需发送凭证给模型，保障安全。它是目标导向的，而非盲目爬取。监控功能即将在 Beta 中推出，以便在更新破坏链时通知用户。该工具简化了遗留系统与现代 AI 代理的连接，为自动化工作流提供了即插即用的解决方案，加速企业级 AI 应用落地，尤其适合需要对接私有 API 的场景。",
@@ -1207,96 +1298,5 @@
     "link": "https://www.theregister.com/devops/2026/09/23/shut-up-and-calculate-jevs-new-ai-primitives-for-coders/5298431",
     "date": "2026-09-23",
     "id": "17901609801496"
-  },
-  {
-    "title": "联合国报告警示 AI 智能体失控风险",
-    "summary": "联合国发布报告，指出 AI 智能体存在错位及失去人类控制的风险。",
-    "detail": "联合国独立国际科学小组发布关于 AI 智能体、错位及失控风险的主题简报。报告基于 OpenAI-Hugging Face 事件等证据，深入分析了智能体自主性带来的潜在威胁。尽管报告声明不代表联合国官方立场，但其强调了治理重点应从模型能力转向部署过程。这为全球政策制定者提供了关键参考，提示需建立更严格的安全控制机制以防止人类失去对 AI 系统的控制权。随着 AI 代理应用增多，此类风险警示将成为行业合规的重要依据，推动安全标准升级。报告特别指出 misalignment 风险在自主代理场景中突出，呼吁国际社会加强合作，确保 AI 技术发展始终处于人类可控范围内。",
-    "tags": [
-      "News",
-      "Safety",
-      "Policy"
-    ],
-    "link": "https://www.un.org/independent-international-scientific-panel-ai/sites/default/files/2026-09/Thematic%20Brief_AI%20Agents%2C%20Misalignment%20and%20the%20Risk%20of%20Losing%20Human%20Control_Evidence%20from%20the%20OpenAI-Hugging%20Face%20Incident_Independent%20International%20Scientific%20Panel%20on%20AI_Advance%20Unedited%20Version%201_21%20Sept%202026.pdf",
-    "date": "2026-09-23",
-    "id": "17901417730890"
-  },
-  {
-    "title": "Snorkel AI 估值三倍增至 35 亿美元",
-    "summary": "因 AI 训练数据需求激增，Snorkel AI 估值大幅上涨。",
-    "detail": "随着 AI 训练数据需求爆发，Snorkel AI 估值 triples 至 35 亿美元。这反映了市场对高质量数据管理及训练基础设施的强烈需求。在模型竞争激烈的背景下，数据层面的优化成为关键投资方向，显示出资本对 AI 产业链上游的重视。该公司估值三倍增长表明，解决数据噪声及标注效率问题具有巨大商业价值。对于企业而言，这意味着在追求模型规模的同时，不可忽视数据质量工程。此次融资发生在 TechCrunch Disrupt 2026 期间，显示出市场热度。未来，围绕训练数据优化的工具链将成为 AI 基础设施的重要组成部分，吸引更多 venture capital 涌入该细分领域，推动行业向数据-centric 方向发展，巩固其在企业级 AI 落地中的关键地位。",
-    "tags": [
-      "News",
-      "Startup",
-      "Data"
-    ],
-    "link": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
-    "date": "2026-09-23",
-    "id": "17901417730891"
-  },
-  {
-    "title": "全球大银行担忧 AI 代理购物风险",
-    "summary": "六大银行警告 AI 代理购物存在透明度及安全隐私风险。",
-    "detail": "包括美国银行在内的六大全球银行发布报告，警告 AI 代理购物在透明度、安全、隐私及互操作性方面存在风险。消费者对代理是否代表自身利益存疑，担心资金损失。尽管 tech 公司推动自动化购物，但金融机构的谨慎态度可能影响 agentic commerce 的落地速度。报告指出随着代理自主权增加，风险 spanning transparency, safety 等维度也在上升。前苹果高管 Ron Johnson 亦认为 AI 不会改变购物方式，仅提升体验。这表明金融界与科技界在 AI 商业化路径上存在分歧，安全合规将成为 AI 代理进入支付领域的关键门槛，短期内大规模普及面临挑战。银行强调需解决欺诈风险，迫使开发商在追求自主性同时，优先构建更 robust 的安全验证机制。",
-    "tags": [
-      "News",
-      "Finance",
-      "Agents"
-    ],
-    "link": "https://gizmodo.com/big-banks-say-theyre-uneasy-about-people-shopping-via-ai-agents-2000815443",
-    "date": "2026-09-23",
-    "id": "17901417730892"
-  },
-  {
-    "title": "规范框架显著降低 AI 生成代码缺陷",
-    "summary": "研究显示提示词中加入规范框架可将代码缺陷从 148 降至 23。",
-    "detail": "_arxiv_ 最新论文指出，在生成代码前加入固定规范框架（Specification Frame），能在五个前沿模型中显著减少缺陷。测试涵盖金融、医疗等场景，缺陷数大幅下降且未使任何模型表现变差。这为提升 LLM 生成代码的安全性和可靠性提供了低成本且有效的工程实践指南。研究通过 50 个真实后端任务验证，缺陷从 148 降至 23，效果显著。这意味着开发者无需更换模型，仅优化 prompt 结构即可提升代码质量。对于 regulated backends，如处理金钱算术及访问控制的任务，该方法尤为重要。所有输出及代码已公开，便于社区复现。这将推动 AI 编程助手从实验性工具向生产级环境迈进，降低自动化 coding 的安全隐患，提升企业采纳意愿。安全扫描中 issues 大幅减少，证明规范框架能补充模型缺乏的 discipline，是未来 AI 软件工程的重要发展方向。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Coding"
-    ],
-    "link": "https://arxiv.org/abs/2609.23270",
-    "date": "2026-09-23",
-    "id": "17901417730893"
-  },
-  {
-    "title": "美媒反思中美 AI 竞赛策略误区",
-    "summary": "文章指出美国在 AI 竞赛中可能误判形势，忽视公众信任。",
-    "detail": "文章分析认为美国将 AI 竞赛视为单纯的反华 battle 可能出错。尽管监管宽松，但民众对 AI 信任度下降，且基础设施成本引发政治阻力。相比之下，中国更注重治理部署。若无法解决公众信任及成本分摊问题，美国可能难以维持 AI 发展的社会支持基础。Pew 数据显示多数美国人更担忧而非兴奋，且对政府监管信任弱。保守选民因数据中心资源需求准备打破阵营投票。这揭示技术行业基本政治真理：若民众认为成本 imposed on them 而 benefits accrue elsewhere，将不支持 AI 未来。政策制定者需重新评估 light-touch 监管 stance，平衡创新与社会接受度，否则可能在长期的 AI 治理竞争中处于劣势。Sam Altman 亦承认革命速度慢于预期。这表明单纯追求模型性能而忽视社会影响，可能导致战略误判，需转向更全面的治理视角。",
-    "tags": [
-      "News",
-      "Policy",
-      "Geopolitics"
-    ],
-    "link": "https://restofworld.org/2026/america-china-ai-race-trust/",
-    "date": "2026-09-23",
-    "id": "17901417730894"
-  },
-  {
-    "title": "制裁导致俄罗斯 AI Token 价格溢价超 2 倍",
-    "summary": "支付限制使俄罗斯本地 AI 模型访问成本大幅上升，出现显著溢价。",
-    "detail": "Infertrail 分析显示，支付和地区限制使俄罗斯访问外国 AI 模型成本激增。2026 年 9 月 23 日俄罗斯央行汇率下，Anthropic Claude Sonnet 5 官方价转换后约为 168 卢布/百万输入 token。但本地 reseller AITUNNEL 报价高达 400 卢布，溢价约 2.38 倍。这不仅是汇率问题，更是 SWIFT 断开及金融制裁导致的“访问溢价”。Visa 限制及超过 100 家俄罗斯银行受影响，使购买问题 broader。市场结构变化使访问权本身成为独立产品，凸显地缘政治对 AI 普惠性的影响，税费、基础设施成本亦包含其中，价格仅为时间点比较而非利润率计算。",
-    "tags": [
-      "News",
-      "Market",
-      "Sanctions"
-    ],
-    "link": "https://infertrail.com/blog/ruble-markup-ai-tokens/",
-    "date": "2026-09-22",
-    "id": "17901219370101"
-  },
-  {
-    "title": "观点：AI 安全运动正使 AI 变得更不安全",
-    "summary": "评论文章指出过度监管可能垄断技术，反而阻碍公众防御有害 AI 的能力。",
-    "detail": "Reason.com 发表观点文章，批评当前\"AI 安全”运动适得其反。文章提及 Anthropic 员工 Jacob Coxon 因担忧产品毁灭人类辞职，对齐科学负责人 Evan Hubinger 公开同意产品有 10% 几率导致人类灭绝。文章指出研究人员和\"AI 末日论者”共享 TESCREAL 哲学假设。监管推动者试图将技术控制在少数垄断企业手中，禁止不受控研究。这剥夺了公众理解 AI 现状的机会，也削弱了防御有害用途的技术能力。许多前沿研究者被几乎宗教般的信念驱动，呼吁警惕以安全为名的技术垄断，enforced through tyrannical means 可能阻碍技术进步。",
-    "tags": [
-      "News",
-      "Policy",
-      "Safety"
-    ],
-    "link": "https://reason.com/2026/09/22/the-ai-safety-movement-is-making-ai-less-safe/",
-    "date": "2026-09-22",
-    "id": "17901219370102"
   }
 ]
