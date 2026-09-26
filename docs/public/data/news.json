@@ -1,5 +1,44 @@
 [
   {
+    "title": "Show HN: App2Api 为 AI 代理生成可用 API 规范",
+    "summary": "通过描述工作流自动捕获 API 调用，生成 OpenAPI spec。",
+    "detail": "App2Api 是一款新工具，允许用户用自然语言描述应用工作流。它驱动仿真器捕获背后的 HTTPS 请求链，包括认证和令牌。最终输出可运行的 flow.sh 脚本和 OpenAPI 3.1 规范。这解决了 AI 代理与现有应用集成的难题，无需手动逆向工程，极大降低了 Agent 开发门槛。用户无需发送凭证给模型，保障安全。它是目标导向的，而非盲目爬取。监控功能即将在 Beta 中推出，以便在更新破坏链时通知用户。该工具简化了遗留系统与现代 AI 代理的连接，为自动化工作流提供了即插即用的解决方案，加速企业级 AI 应用落地，尤其适合需要对接私有 API 的场景。",
+    "tags": [
+      "New",
+      "API",
+      "Agents"
+    ],
+    "link": "https://app2api.com/",
+    "date": "2026-09-26",
+    "id": "17904205264483"
+  },
+  {
+    "title": "Flashcat：Mac 终端上的本地离线 AI 助手",
+    "summary": "基于 Gemma 4 模型，支持读取文件且数据不出本地。",
+    "detail": "Flashcat 是专为 macOS 终端设计的本地 AI 助手，通过 LM Studio 运行 Google Gemma 4 模型。支持读取 PDF、Word、Excel 及图片，所有处理均在本地完成，确保隐私安全。仅需 Apple Silicon 芯片即可运行。为开发者提供了无需联网、数据私有的命令行 AI 交互方案，适合敏感数据处理场景。安装脚本会自动检查环境并下载模型。它还能搜索网页，但需用户授权。这种本地化部署消除了数据泄露风险，响应速度更快。命名源于作者的猫，体现开源社区文化。它是隐私优先 AI 应用的典型代表，展示了端侧大模型在实际工作流中的潜力，满足了对数据主权有严格要求的用户需求，推动本地 AI 生态发展。",
+    "tags": [
+      "Dev",
+      "Privacy",
+      "LocalLLM"
+    ],
+    "link": "https://github.com/TomTomsen765/flashcat",
+    "date": "2026-09-26",
+    "id": "17904205264484"
+  },
+  {
+    "title": "Palantir CEO：AI 模型正在窃取用户数据",
+    "summary": "Alex Karp 在 CNBC 访谈中警告 AI 数据安全与隐私风险。",
+    "detail": "Palantir 首席执行官 Alex Karp 在接受 CNBC 采访时指出，当前 AI 模型存在窃取用户数据的风险，并探讨了 AI 安全真相。作为行业领军企业负责人，他的观点反映了业界对数据隐私保护的深层担忧。该访谈强调了在 AI 高速发展背景下，建立可靠的数据安全机制和伦理框架的紧迫性。他警告模型可能在训练中未经授权吸收数据。这不仅是技术问题，更是法律与信任问题。企业需重新评估数据治理策略。视频由 CNBC 全程采访，浏览量较高。此言论可能推动更严格的 AI 监管政策出台，影响全球 AI 公司的数据收集 practices，促使行业向透明化方向发展，重塑用户与 AI 服务商的信任关系。",
+    "tags": [
+      "News",
+      "Security",
+      "Palantir"
+    ],
+    "link": "https://www.youtube.com/watch?v=2YVCdwvG548",
+    "date": "2026-09-26",
+    "id": "17904205264485"
+  },
+  {
     "title": "Botbin.io：专为 AI Agent 设计的 artifacts 共享平台",
     "summary": "解决 AI Agent 输出 HTML 混乱问题，支持 MCP 协议，便于分享图表与报告。",
     "detail": "**Botbin.io** 是一款针对 AI Agent 工作流优化的 Pastebin 工具。传统 Agent 在生成 HTML 图表或报告时，常直接将 raw HTML 输出到聊天窗口，导致展示混乱。Botbin 允许 Agent 通过 curl 或 MCP 服务器上传 artifacts，生成可交互的链接。这不仅提升了用户体验，还为 Agent 之间的协作提供了标准化接口。支持 MCP 协议意味着它能无缝集成到现有的 Agent 生态中，是开发者构建可视化 Agent 应用的实用基础设施。随着 Agent 能力增强，此类中间件将成为标准配置，解决多模态输出难题。",
@@ -37,6 +76,32 @@
     "link": "https://shubs.io/do-we-still-enjoy-software-engineering-in-the-age-of-ai/",
     "date": "2026-09-26",
     "id": "17904022095774"
+  },
+  {
+    "title": "特朗普政府用 AI 拒绝老年人医保引发争议",
+    "summary": "美国政府试点 AI 审批医保，导致延误和拒赔激增。",
+    "detail": "特朗普政府今年一月推出试点项目，利用人工智能自动审批或拒绝 Medicare 患者的护理请求，此前该类护理无需预先授权。不久后媒体开始报道灾难性后果：技术故障、决策延误、令人困惑的拒赔及患者痛苦。电子前沿基金会发布的联邦文件证实，供应商有动机尽可能拒绝索赔以获利。医生已提起诉讼挑战该计划。该实验被批评为“耻辱”，显示出当前 AI 系统在复杂医疗决策中的不成熟。此事件引发对 AI 在关键民生领域应用的伦理与安全担忧，凸显自动化决策在高风险场景下的潜在危害与监管缺失，可能影响未来政策走向。",
+    "tags": [
+      "News",
+      "Policy",
+      "Ethics"
+    ],
+    "link": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment/",
+    "date": "2026-09-25",
+    "id": "17904205264480"
+  },
+  {
+    "title": "市场反应冷淡，微软放弃\"Copilot+ PC\"品牌",
+    "summary": "微软与高通确认不再使用 Copilot+ PC 术语推广新设备。",
+    "detail": "两年前微软与高通推出\"Copilot+\"品牌定义 AI PC 时代。但在最新 Surface 设备宣传中该术语消失。微软表面部门副总裁确认虽继续推广 AI 功能，但不再使用 Copilot+ PC branding。高通高管也确认提供相同体验但弃用术语。这表明消费者对将 PC 重新品牌化为 AI 设备反应不佳，市场接受度低。尽管硬件能力未变，但品牌策略的撤退暗示了用户认知的差距。厂商正转向更务实的功能推广策略，不再强行教育用户。这标志着 AI 硬件营销进入调整期，从概念炒作回归实际体验，反映行业对 AI PC 定位的重新思考与战略修正，影响后续产品路线图。",
+    "tags": [
+      "News",
+      "Hardware",
+      "Microsoft"
+    ],
+    "link": "https://www.techspot.com/news/113985-nobody-wanted-ai-pc-microsoft-stopped-calling.html",
+    "date": "2026-09-25",
+    "id": "17904205264481"
   },
   {
     "title": "麦当劳全面引入 AI：优化得来速、库存与订单准确率",
@@ -440,6 +505,19 @@
     "link": "https://www.politico.com/news/2026/09/24/peter-thiel-slams-popes-ai-encyclical-as-gift-to-chinese-communist-party-01091850",
     "date": "2026-09-25",
     "id": "17903204443164"
+  },
+  {
+    "title": "Linux 内核开发者考虑添加 AGENTS.md 指导 AI",
+    "summary": "内核社区拟新增文件规范 AI 代理行为，优化协作。",
+    "detail": "Linux 内核开发者正在讨论添加 AGENTS.md 文件，旨在指导 AI 和 LLM 代理更好地理解内核开发流程。此举反映了 AI 代理在软件开发中的参与度日益增加，代码贡献比例上升。通过标准化文档，希望减少 AI 生成的无效代码提交，提高 AI 与人类开发者协作的效率。这是开源社区适应 AI 时代的重要基础设施调整，类似于 CONTRIBUTING.md 的演变。它将为 AI 工具提供明确的边界和行为准则，降低维护者审查负担，促进更健康的开源生态。社区希望借此规范 AI 行为，避免混乱，标志着 AI 集成进入规范化阶段，可能成为其他大型开源项目的参考范本。",
+    "tags": [
+      "Dev",
+      "Linux",
+      "OpenSource"
+    ],
+    "link": "https://www.phoronix.com/news/Linux-Considers-AGENTS-MD",
+    "date": "2026-09-24",
+    "id": "17904205264482"
   },
   {
     "title": "Elixir 之父 José Valim：AI 时代的编程语言演变之路",
@@ -1220,83 +1298,5 @@
     "link": "https://reason.com/2026/09/22/the-ai-safety-movement-is-making-ai-less-safe/",
     "date": "2026-09-22",
     "id": "17901219370102"
-  },
-  {
-    "title": "特朗普下令将 AI 重命名为“超级智能”",
-    "summary": "特朗普在联合国大会宣布，美国文件将改用“超级智能”一词，拒绝全球管控。",
-    "detail": "特朗普在联合国大会演讲中指示，所有美国文件将把“人工智能”改称为“超级智能”（Super Intelligence）。他认为“人工”一词听起来虚假，强调该技术比工业革命更重大。此举旨在 dismissing AI 安全警告，并将与中国的竞争框架为生存竞赛。白宫拒绝任何全球主义控制方案，鼓励而非限制技术发展。尽管“超级智能”已指代超越人类能力的智能，此举可能影响后续政策表述及国际 AI 治理话语体系。近期数据中心抗议及就业担忧 intensified，特朗普推重 brand 以显示美国政府对 AI 发展的激进态度，不确定是否意图 invoke 现有概念。",
-    "tags": [
-      "News",
-      "Policy",
-      "USA"
-    ],
-    "link": "https://www.axios.com/2026/09/22/trump-ai-super-intelligence-rebrand",
-    "date": "2026-09-22",
-    "id": "17901219370103"
-  },
-  {
-    "title": "Featherless AI 开源 Simple-jev 决策工具",
-    "summary": "全新开源工具可将上下文转化为结构化决策，支持免登录 API 试用。",
-    "detail": "Featherless AI 推出 Simple-jev，一个开源的上下文决策工具。它允许开发者向开放模型发送消息和问题，获取可选择、评分的答案，便于代码集成。提供免登录 API 演示（限制 2k 上下文，4 RPS），支持 Gemma-4 等模型。适用于需要将非结构化对话转化为结构化决策的生产场景。项目完全开源，托管于 Github，降低了开发者构建决策逻辑的门槛。interactive playground 允许编辑场景并查看实时模型响应，支持聊天格式上下文及图像输入。生产用途需注册开发者账户以获得更高速率限制，turn context into clear decisions 是其核心价值。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "LLM"
-    ],
-    "link": "https://simple-jev.featherless.ai/",
-    "date": "2026-09-22",
-    "id": "17901219370104"
-  },
-  {
-    "title": "OpenAI 发布 GPT-6 提示词缓存优化",
-    "summary": "OpenAI 升级 GPT-6 缓存系统，开发者成本最高可降 90%。",
-    "detail": "OpenAI 正式推出 GPT-6 系列的改进提示词缓存系统，旨在支持持久化 Agent 长时间运行复杂任务，如重构代码库或制作文档。应用背后的 API 请求常携带相同指令，OpenAI 缓存共享上下文以复用计算。新功能默认提供更高的缓存命中率，对在 30 分钟内重用的共享前缀给予缓存折扣，输入 token 折扣高达 90%。开发者可通过新的 Dashboard 监控缓存性能，诊断 missed cache 原因，比较请求与近期响应以识别模型或设置变化。此举显著降低长期运行 Agent 的成本，响应时间减少，利好复杂任务开发。同时引入诊断工具帮助优化集成，最大化缓存命中率，提升应用效率。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "LLM"
-    ],
-    "link": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-    "date": "2026-09-22",
-    "id": "17901138461200"
-  },
-  {
-    "title": "微软高管承认 AI 可能是“史上最大劳工盗窃”",
-    "summary": "诉讼文件披露微软高管内部言论，引发版权与伦理争议。",
-    "detail": "Mother Jones 诉 OpenAI 和微软的版权案件文件揭露了内部高管言论，引发业界震动。两年前 sued 公司训练模型使用版权内容。诉讼指控公司通过“史上最大规模的劳动盗窃”构建产品，类似 NYT 等出版商的诉讼。微软应用科学总监 Brent Hecht 警告 AI 可能启动“末日循环”，威胁经济基础，使互联网无限变差。文件显示了科技巨头对规则、法律及他人权利的真实看法，加剧了公众对 AI 训练数据合法性的担忧，揭示了高层对潜在风险的内部认知与公开表态的差异，提供了观察 AI 公司思维的独特窗口。",
-    "tags": [
-      "News",
-      "Legal",
-      "Ethics"
-    ],
-    "link": "https://www.motherjones.com/politics/2026/09/openai-chatgpt-microsoft-copyright-legal-case-documents-revelations/",
-    "date": "2026-09-22",
-    "id": "17901138461201"
-  },
-  {
-    "title": "Vercel 数据：开源权重模型 token 用量首超闭源",
-    "summary": "8 月开源模型处理 56% 生产 token，但收入占比仅 14%。",
-    "detail": "Vercel AI Gateway 数据显示，2026 年 8 月开源权重模型处理了 56% 的生产 token，首次超越闭源模型，相比 7 月的 36% 及 2025 年 12 月的不足 10% 大幅增长。然而，由于推理成本低，其支出占比仅 14%。闭源 token 平均成本是开源的 7.8 倍。CEO 指出企业采用尚早，未来工具链需适配模型无关性。这标志着开发者偏好向开源模型显著转移，但商业化仍由专有系统主导，反映了成本与性能之间的市场博弈现状。8 月 22 日甚至创下开源 token 份额 62% 的记录，显示趋势正在加速。",
-    "tags": [
-      "News",
-      "Market",
-      "OpenSource"
-    ],
-    "link": "https://techstrong.ai/generative-ai/open-weight-ai-models-seize-token-lead-but-proprietary-systems-still-make-the-money/",
-    "date": "2026-09-22",
-    "id": "17901138461202"
-  },
-  {
-    "title": "Voxiferi 推出 VoxWall AI 数据入口防火墙",
-    "summary": "新开源工具旨在阻止劣质数据进入 LLM 训练流程。",
-    "detail": "Voxiferi Labs 发布开源项目 VoxWall，定位为“坏数据 AI 入口防火墙”。其核心理念是在数据到达大语言模型之前拦截低质量数据，从源头保障模型质量。虽关联公司提出的“莫雷尔 AI 数据定律”，即 AI 准确性和运营成本主要由摄入数据的结构和质量决定，但 VoxWall 并非该定律的直接实现。该工具旨在解决 AI 准确性和运营成本主要由摄入数据结构和质量决定的问题，为开发者提供数据清洗的新方案，增强 AI 系统安全性。作为下一代开源 AI 防火墙，它试图在训练前阻断劣质数据流入。",
-    "tags": [
-      "New",
-      "Security",
-      "Data"
-    ],
-    "link": "https://opensourcewatch.beehiiv.com/p/new-voxiferi-introduces-voxwall-as-an-ai-ingress-firewall-for-bad-data",
-    "date": "2026-09-22",
-    "id": "17901138461203"
   }
 ]
