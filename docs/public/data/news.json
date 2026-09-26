@@ -1,5 +1,44 @@
 [
   {
+    "title": "保险公司称 AI 已推高医疗成本",
+    "summary": "TechCrunch 报道保险公司指控 AI 技术导致医疗费用上涨。",
+    "detail": "保险公司声称 AI 技术的引入反而增加了 healthcare 成本。尽管 AI 旨在提高效率，但实际应用中可能产生了额外费用或复杂性。这一反直觉现象引发行业关注，暗示 AI 在医疗领域的落地可能面临成本效益挑战。需进一步观察 AI 在理赔、诊断及管理等环节的具体影响及数据支撑。TechCrunch 报道指出，insurers 已观察到成本上升趋势，可能与 AI 系统部署维护费用及误判导致的额外治疗有关。行业需平衡技术创新与成本控制，确保 AI 真正惠及医疗体系，而非成为负担。",
+    "tags": [
+      "News",
+      "Healthcare",
+      "Industry"
+    ],
+    "link": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+    "date": "2026-09-26",
+    "id": "17904596921173"
+  },
+  {
+    "title": "AI 代理金融工具上线，追踪资金流向",
+    "summary": "Agentic Finance Graph 推出新工具，监控 AI 代理钱包活动。",
+    "detail": "新工具\"The Desk\"允许用户连接钱包监控 AI 代理的资金持有及支出情况。提供实时活跃度、交易对手及异常行为警告。采用无密码钱包登录，支持免费及付费计划。这标志着 AI 代理经济活动开始具象化，解决代理持有真实货币后的账目透明及安全监控问题，为 Agent 经济基础设施奠定基础。产品支持 Base 链 USDC 支付，提供不同层级监控额度。随着 AI 代理自主交易增多，此类审计工具至关重要，可防止代理异常行为导致资金损失，增强用户对自主经济系统的信任。",
+    "tags": [
+      "New",
+      "Agents",
+      "Finance"
+    ],
+    "link": "https://agenticfinancegraph.com/desk",
+    "date": "2026-09-26",
+    "id": "17904596921174"
+  },
+  {
+    "title": "探讨 AI 时代软件安全新范式",
+    "summary": "文章呼吁关注 AI 与软件安全，人为错误仍是主要漏洞。",
+    "detail": "文章指出企业软件安全常依赖攻击者成本高昂而非架构健全。零日漏洞多为普通编程错误。AI 时代需重新审视安全范式，关注人为社会工程攻击及基础代码审计。随着 AI 参与开发，安全策略需适应新威胁 landscape，强调审计及基础 hygiene 而非仅依赖复杂防御，确保供应链及数据安全。作者批评公关话术掩盖真实漏洞原因，呼吁正视普通错误风险。在 AI 生成代码普及背景下，人工审计更显重要，需建立严格安全流程，防止 AI 引入新漏洞，保障系统长期稳定运行。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Software"
+    ],
+    "link": "https://deadneurons.substack.com/p/its-time-we-talked-about-ai-and-software",
+    "date": "2026-09-26",
+    "id": "17904596921176"
+  },
+  {
     "title": "AWS 推出 CloudWatch Omni，AI 驱动的可观测性平台",
     "summary": "AWS 发布 CloudWatch Omni，整合应用与 AI Agent 可观测性，基于 OpenTelemetry。",
     "detail": "AWS 正式发布 CloudWatch Omni，旨在解决工程团队在维护仪表板和切换工具上的时间消耗。该服务基于 OpenTelemetry，无需重新配置即可将现有 telemetry 数据接入。Omni 不仅支持传统应用可观测性，还特别针对生成式 AI 和 Agent 工作负载进行了优化，允许团队通过专用 URL 协作，无需访问 AWS 管理控制台。当问题跨越团队边界时，Omni 能避免上下文在 Slack 线程中丢失。此外，任何使用 OpenTelemetry 协议的工作负载均可发送 telemetry 到 OTLP 端点，实现了广泛的兼容性。这标志着云厂商开始深度整合 AI 运维能力，降低 AI 应用落地后的监控门槛，提升团队协作效率。",
@@ -1066,6 +1105,19 @@
     "id": "17902122681594"
   },
   {
+    "title": "AI 智力“锯齿边缘”揭示模型局限",
+    "summary": "简单拼图实验暴露 AI 能力边界，基础错误频发。",
+    "detail": "文章通过 15 拼图实验展示“锯齿智力”现象。尽管 AI 能力强大，但在特定任务上仍会犯基本错误。研究者创建微型语言训练模型，发现其预测下一步移动时表现出不稳定的能力边界。这种能力参差不齐的特性表明模型并未真正理解逻辑，而是模仿模式。这对理解 LLM 局限性及可靠性有重要启示，提醒开发者勿盲目信任模型在所有任务上的表现，需结合传统算法验证关键任务。研究强调 AI 在简单逻辑任务上的脆弱性，为未来模型评估提供新视角。此外，该实验方法可推广至其他逻辑任务，帮助识别模型能力边界，优化训练策略，确保 AI 系统在关键应用中的稳定性与安全性。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Research"
+    ],
+    "link": "https://aatishb.com/blog/2026/ai-jagged-intelligence/",
+    "date": "2026-09-23",
+    "id": "17904596921170"
+  },
+  {
     "title": "学术顶会 STOC 2027 新规：禁止匿名投稿且作者必须为人类",
     "summary": "应对生成式 AI 冲击，STOC 2027 要求作者实名并对投稿负责，限制 AI 生成论文。",
     "detail": "第 59 届 ACM 计算理论 Symposium (STOC) 针对生成式 AI 对科研的影响出台新政策，投稿截止日为 11 月 2 日。2027 年会议将不再接受匿名投稿，所有 listed authors 必须为人类并对内容负责。此外，每作者最多提交 5 篇论文，且必须在截止前提交至 arXiv 并提供公开 URL。这一反转 2023 年匿名政策的举措，旨在遏制 AI 生成论文泛滥，确保科研诚信与沟通清晰度，对 AI 时代学术规范具有风向标意义，要求研究者更负责任。",
@@ -1246,57 +1298,5 @@
     "link": "https://foundinghires.tech/atlas.html",
     "date": "2026-09-23",
     "id": "17901768909022"
-  },
-  {
-    "title": "Vibe-coder Ladder 第二轮：AI 编程代理竞技结果揭晓",
-    "summary": "AI 编程竞赛第二轮结束，两名选手基于不同工具开发四子棋游戏，评分持平。",
-    "detail": "Vibe-coder Ladder 第二轮挑战 AI 代理在单 HTML 文件中构建四子棋游戏，要求具备不同难度及胜负检测。两名参赛者分别使用 OpenCode/GPT 与 Claude/ChatGPT。虽功能均通过测试，但 judged 由 LLM 进行盲测对战。最终评分持平（1100 分），Bradley-Terry 拟合显示双方实力相当。该竞赛为评估 Agent 编码能力提供了新基准，揭示当前 AI 编程代理在复杂逻辑实现上能力接近。此类基准测试有助于量化 Agent 进化速度，推动开发者工具优化，标志着 AI 编程正从辅助补全向独立完成任务演进，但仍需解决稳定性问题。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Coding"
-    ],
-    "link": "https://vibeladder.dev/results/r2.html",
-    "date": "2026-09-23",
-    "id": "17901768909023"
-  },
-  {
-    "title": "Netflix 新剧因 AI 复活基因·怀尔德引发伦理争议",
-    "summary": "Netflix 新作被批滥用 AI 技术复活已故演员，引发行业伦理讨论。",
-    "detail": "Netflix 新剧《Wonka's the Golden Ticket》因使用 AI 技术复原已故演员 Gene Wilder 的形象而受到 Variety 等媒体严厉批评，被称为“怪诞的滥用”。此举再次引爆关于 AI 深度伪造、数字永生及版权伦理的行业争议。标志着 AI 生成内容在影视应用中的边界问题已成为公众与监管关注的焦点，提示技术在娱乐产业商业化过程中需面对的法律与道德挑战。此类事件可能加速相关立法进程，迫使流媒体平台在采用 AI 生成形象时更加谨慎，平衡创新与尊重逝者权益之间的关系，影响未来影视制作流程。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Media"
-    ],
-    "link": "https://variety.com/2026/tv/reviews/wonkas-golden-ticket-review-ai-gene-wilder-1236872754/",
-    "date": "2026-09-23",
-    "id": "17901768909024"
-  },
-  {
-    "title": "AI 与企业组织理论新探",
-    "summary": "探讨 AI 代理如何改变企业本质，引发 Karpathy 关注。",
-    "detail": "文章重译科斯 1937 年《企业的性质》，结合 2026 年 Moltbook 去中心化 AI 代理环境，探讨 AI 如何改变经济决策集体。Andrej Karpathy 的关注表明该研究方向具有前沿性。这标志着 AI 研究从单代理向多代理协作架构的演进，可能重塑未来组织管理理论，为 AI 经济学奠定基础。",
-    "tags": [
-      "News",
-      "AI Theory",
-      "Management"
-    ],
-    "link": "https://camerongordon0.substack.com/p/the-ai-nature-of-the-firm",
-    "date": "2026-09-23",
-    "id": "17901609801490"
-  },
-  {
-    "title": "Life Forge 自主代理模拟器",
-    "summary": "开源飞行模拟器，用于 AI 代理对抗性测试。",
-    "detail": "Life Forge 是一个开源自主 AI 代理飞行模拟器，采用人工生命质量多样性算法（3D MAP-Elites）。它支持共演化对抗性红队测试和动态压力测试，帮助开发者在安全环境中评估代理行为。该项目基于 Python，为自主代理的压力测试提供了新工具，促进代理鲁棒性研究。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Open Source"
-    ],
-    "link": "https://github.com/zariffromlatif/life-forge",
-    "date": "2026-09-23",
-    "id": "17901609801491"
   }
 ]
