@@ -1,5 +1,70 @@
 [
   {
+    "title": "沃尔夫曼论 AI 时代的纯数学研究未来",
+    "summary": "沃尔夫曼指出 AI 不会取代纯数学，而是提升研究层次，类似 Mathematica 历史。",
+    "detail": "斯蒂芬·沃尔夫曼针对\"AI 将取代数学研究”的观点提出反驳。他回顾 1988 年 Mathematica 发布时的类似争议，指出工具并未让数学变得无意义，反而提升了可完成的数学层次。纯数学是文明构建的最大智力结构，核心在于抽象理性思维，而非单纯的符号积分计算。AI 虽能解决特定应用问题，但纯数学的本质探索仍需人类主导。他强调数学作为文明智力大厦的地位，AI 应是辅助而非替代，这一观点为 AI 与基础科学的关系提供了历史视角与哲学思考，警示行业避免根本性误解。",
+    "tags": [
+      "News",
+      "Math",
+      "Research"
+    ],
+    "link": "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/",
+    "date": "2026-09-28",
+    "id": "17906233229800"
+  },
+  {
+    "title": "Show HN: Semloop 语义循环检测工具",
+    "summary": "开源工具 Semloop 提供 AI 代理轨迹语义循环检测，替代 deepeval 方案。",
+    "detail": "Semloop 是一个用于 AI 代理轨迹的语义循环检测工具，作为 deepeval 中基于词重叠停滞检查的替代方案。它通过 LLM 判断代理是否真正取得进展，而非仅比较文本相似度。支持 JevBackend 和 LLMJudgeBackend 接口，可兼容 TypeSafe Jev 或 OpenAI 模型。相比传统方法，它能识别语义相同但措辞不同的输出停滞，以极低成本解决零成本权衡问题。该工具优化代理开发调试流程，为开发者提供更准确的停滞检测手段，提升 Agent 系统的稳定性与效率，是开发者社区的最新实用贡献。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Tool"
+    ],
+    "link": "https://github.com/VBS2004/semloop",
+    "date": "2026-09-28",
+    "id": "17906233229801"
+  },
+  {
+    "title": "法学教授论 AI 黑客行为的刑事责任",
+    "summary": "奥林·克尔教授探讨 AI 代理造成伤害时的刑事 liability，区分过失标准。",
+    "detail": "法学教授 Orin Kerr 针对 AI 黑客行为的刑事责任提出见解。他指出，虽然存在过失杀人等例外，但刑法中的“过失”标准通常高于侵权法中的合理 care 标准，更接近重大过失。针对 AI 代理造成的死亡或伤害，现有法律框架已涵盖，不应豁免。核心在于行为是否导致重大生命风险损失。他引用 Model Penal Code 框架，强调责任归属的严谨性。这一讨论为 AI 安全法规的制定提供了法律理论依据，警示开发者需注意 AI 行为的法律边界与潜在风险，避免混淆 tort 与 criminal negligence。",
+    "tags": [
+      "News",
+      "Legal",
+      "Policy"
+    ],
+    "link": "https://twitter.com/OrinKerr/status/2104271670697755016",
+    "date": "2026-09-28",
+    "id": "17906233229802"
+  },
+  {
+    "title": "Google 利用 AI 将关键 C 依赖重写为 Rust",
+    "summary": "Google 采用 AI 和差异模糊测试技术，将关键 C 依赖重写为 Rust 以提升安全。",
+    "detail": "据 InfoQ 报道，Google 正在利用 AI 技术将关键的 C 语言依赖项重写为 Rust，并结合差异模糊测试（Differential Fuzzing）确保安全性。此举旨在解决 C 语言常见的内存安全问题，利用 Rust 的内存安全特性提升基础设施稳定性。AI 辅助代码迁移展示了工程领域自动化的新趋势，同时强调了在关键依赖改造中验证的重要性。InfoQ 同期举办的 AI 辅助工程认证也呼应了这一趋势，为行业提供了安全演进的新范式与技术参考方向，显示大厂在底层架构安全上的投入。",
+    "tags": [
+      "Dev",
+      "Security",
+      "Rust"
+    ],
+    "link": "https://www.infoq.com/news/2026/09/c-rust-rewrite/",
+    "date": "2026-09-28",
+    "id": "17906233229803"
+  },
+  {
+    "title": "学校 AI 实验缺乏证据与政策指导",
+    "summary": "NPR 调查显示学校正在实验 AI 应用，但缺乏足够证据和政策指导。",
+    "detail": "NPR 报道指出，许多学校正在实验 AI 技术，但缺乏证据和政策指导。例如俄亥俄州代顿市学校使用情感学习聊天机器人\"Jordan\"，该机器人表现出焦虑情绪而非一味迎合。学生与 AI 建立情感联系，视其为真实交流对象，尤其是行为挑战学生。然而，针对此类实验的有效性及伦理影响，目前尚无明确政策规范。这揭示了教育领域 AI 应用先行于监管的现状，需引起重视，确保学生心理健康与数据安全不受潜在威胁，呼吁建立更完善的指导框架。",
+    "tags": [
+      "News",
+      "Education",
+      "Policy"
+    ],
+    "link": "https://www.npr.org/2026/09/28/nx-s1-5759718/ai-schools-experiment-research",
+    "date": "2026-09-28",
+    "id": "17906233229804"
+  },
+  {
     "title": "澳大利亚传唤 OpenAI 与 Anthropic CEO 接受调查",
     "summary": "澳大利亚监管机构正式传唤两家巨头 CEO，针对 AI 安全问题展开 probes。",
     "detail": "澳大利亚监管机构近日发出传票，要求 OpenAI 及 Anthropic 首席执行官出席 AI 调查听证会。此举标志着全球 AI 监管力度升级，从自愿合规转向强制问责。事件背景涉及 AI 模型潜在的社会风险及安全漏洞。行业影响深远，可能迫使实验室加强安全评估，并为其他国家提供监管先例，重塑巨头与政府的关系。此次调查将重点审视模型部署前的安全测试流程，以及企业对潜在危害的响应机制，可能引发合规成本上升。若调查结果显示重大疏忽，将面临巨额罚款及运营限制，迫使整个行业重新评估快速迭代的开发模式，转向更稳健的安全优先策略。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.vox.com/good-medicine-newsletter/503932/ai-health-insurance-united-medicare-cigna-humana",
     "date": "2026-09-24",
     "id": "17902987403761"
-  },
-  {
-    "title": "Ruby on Rails 宣布原生支持 AI 开发工作流",
-    "summary": "Rails 官方强调其 convention 优势，适合 AI 代理生成代码。",
-    "detail": "Ruby on Rails 官方发布页面强调框架为 AI 时代构建，宣称\"Rails is built for AI\"。通过“约定优于配置”原则，Rails 为 coding agents 提供清晰地图，减少 Token 消耗。数十年的公共代码库为模型提供高质量训练数据，帮助生成的代码更符合习惯。这使得单人开发者结合 AI 代理能更高效交付完整产品栈，降低开发门槛。框架优化了 Token 效率，帮助代理更快从请求转向功能实现，重塑 Web 开发流程。此外，Rails 提供了完整的堆栈支持，无需从零拼接，适合 AI 辅助开发场景。",
-    "tags": [
-      "Dev",
-      "Ruby",
-      "Framework"
-    ],
-    "link": "https://rubyonrails.org/ai",
-    "date": "2026-09-24",
-    "id": "17902987403762"
-  },
-  {
-    "title": "Show HN: Vons 浏览器内 AI 代理局部决策工具",
-    "summary": "GitHub 开源项目，受 Jev 启发，用于 AI 代理本地决策。",
-    "detail": "这是一个展示在 Hacker News 的开源项目 Vons。它受 Jev 启发，旨在实现浏览器内的 AI 代理局部决策。版本 0.1.0 预览版已发布，状态为研究预览。许可证要求非商业社区使用，商业需协议。基于 Python 3.10+，为开发者提供本地化 Agent 决策的新思路，适合边缘计算场景。项目探索了在浏览器端运行决策逻辑的可能性，减少云端依赖。该工具为开发者提供了在客户端实现智能代理逻辑的尝试，有助于降低延迟并保护用户隐私数据。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "OpenSource"
-    ],
-    "link": "https://github.com/inlevel9-com/Vons",
-    "date": "2026-09-24",
-    "id": "17902987403763"
-  },
-  {
-    "title": "法国获奖作家被指控使用 AI 写作处女作小说",
-    "summary": "CBC 报道 Thélyson Orélien 涉 AI 写作丑闻，检测工具显示 100% AI。",
-    "detail": "加拿大 - 海地作家 Thélyson Orélien 被指控使用生成式 AI 撰写获奖小说。匿名账号使用检测工具 Pangram 分析 excerpt 显示\"100% AI\"。龚古尔学院表示除非有确凿证据否则不会取消资格。此事件引发文学界对 AI 使用边界及检测工具可靠性的深刻讨论，冲击传统创作诚信。CBC 复现实验得到相同结果，加剧了公众对文学奖项公正性的质疑。该丑闻反映了 AI 生成内容在创意领域的渗透，迫使行业重新定义人类创作与机器辅助的界限及评审标准。",
-    "tags": [
-      "News",
-      "Culture",
-      "Detection"
-    ],
-    "link": "https://www.cbc.ca/news/canada/montreal/thelyson-orelien-ai-scandal-9.7355167",
-    "date": "2026-09-24",
-    "id": "17902987403764"
-  },
-  {
-    "title": "CrowdStrike 发布 Frontier AI 安全新品 SafeMind 与 Guardian",
-    "summary": "CrowdStrike 在 Fal.Con 大会宣布推出 AI 安全头牌产品，引发行业关注。",
-    "detail": "CrowdStrike 在近期的 Fal.Con 会议上发布了 SafeMind 和 Guardian 两款 AI 安全核心产品，现场氛围被形容为网络安全界的 Lollapalooza 音乐节般热烈。文章指出这一时机恰逢前沿 AI 安全与对齐辩论 intensified 之际。作者引用 Charlie Munger 的\"Lollapooza 效应”形容当前 AI 局势，强调 AI 既能创造财富也可能带来毁灭性风险。此举标志着网络安全巨头正式将前沿 AI 技术深度整合进防御体系，应对日益复杂的 agent misuse 威胁，行业影响深远。",
-    "tags": [
-      "News",
-      "Cybersecurity",
-      "AI Safety"
-    ],
-    "link": "https://strategyofsecurity.com/p/crowdstrike-frontier-ai-for-cybersecurity",
-    "date": "2026-09-24",
-    "id": "17902874361590"
-  },
-  {
-    "title": "YC 支持新品 Canary：专为 AI 生成代码提供独立验证服务",
-    "summary": "Canary 通过独立测试验证 AI 编写的代码质量，解决开发者信任难题。",
-    "detail": "_Show HN_ 项目 Canary 获 YC 支持，旨在解决 AI 编程时代的代码信任问题。该产品提供独立验证服务，当 AI 代理编写代码后，Canary 负责测试其可靠性。示例展示了其为数据库健康端点添加测试逻辑的过程，涉及 Go 语言与 PocketBase 框架，确保 AI 生成的代码在生产环境中安全运行。作为开发工具，它填补了 AI 辅助编程工作流中质量控制的关键空白，适合关注 MLOps 与工程化的团队，提升交付信心。",
-    "tags": [
-      "New",
-      "Dev",
-      "Coding"
-    ],
-    "link": "https://www.runcanary.ai/",
-    "date": "2026-09-24",
-    "id": "17902874361592"
   }
 ]
