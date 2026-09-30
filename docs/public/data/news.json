@@ -1,5 +1,70 @@
 [
   {
+    "title": "流工程获 7.5 亿美元估值融资",
+    "summary": "Sequoia 等机构领投 AI 初创 Flow Engineering，估值达 7.5 亿美元。",
+    "detail": "**Flow Engineering** 获得 Valor、Atreides 和 Sequoia 支持，估值高达 7.5 亿美元。这一巨额融资表明顶级资本对 AI 工程化落地的高度信心。在当前市场环境下，资金正从基础模型训练转向实际工作流自动化技术。此次融资将助力其扩展企业级 AI 应用，反映行业关注点已从单纯的能力展示转向可规模化的工程部署与商业价值闭环。TechCrunch 报道指出这是重大 AI 新闻，标志 AI 基础设施层竞争加剧，初创企业在高估值下需证明其技术能切实解决工程瓶颈，推动 AI 从实验走向生产。此轮融资也暗示 AI 工程工具链正成为下一个投资风口，企业愿意为效率提升支付溢价。",
+    "tags": [
+      "News",
+      "Funding",
+      "Startup"
+    ],
+    "link": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+    "date": "2026-09-30",
+    "id": "17908029902850"
+  },
+  {
+    "title": "谷歌：AI 致漏洞披露量翻倍",
+    "summary": "谷歌威胁情报组称 AI 加速漏洞利用，月披露量增至 1 万以上。",
+    "detail": "**谷歌威胁情报组（GTIG）** 最新报告显示，AI 技术正显著改变漏洞发现与利用的速度及风险 profile。2026 年 1 月至 8 月，漏洞披露量从 5045 激增至每月超 1 万，今年已发生 141 起 exploited vulnerabilities。黑客利用 LLM 自动化分析补丁差异，快速 weaponize n-days 而非发现新 zero-days。这表明 AI 双刃剑效应凸显，攻击者效率提升迫使安全领域升级防御策略。预计短期至中期内，AI 辅助的漏洞利用将持续增长，企业需加强自动化防御以应对 AI 驱动的攻击浪潮，网络安全格局面临重构。安全团队需适应 AI 加速的威胁节奏，传统补丁管理流程可能失效，需引入 AI 对抗 AI 的防御机制。",
+    "tags": [
+      "News",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://therecord.media/google-vulnerabilities-cyberattacks-ai",
+    "date": "2026-09-30",
+    "id": "17908029902851"
+  },
+  {
+    "title": "生产环境 AI 代理基准测试",
+    "summary": "Incident Arena 发布 AI 代理生产事故处理基准，对比成本与通过率。",
+    "detail": "**Incident Arena** 推出 AI 代理生产环境基准测试，对比不同模型在处理系统事故时的 Pass@1 与 API 成本。数据显示 GPT-6 Astra 等模型在特定任务上的表现与资源消耗关系，部分配置在 Pareto 前沿上表现优异。这为开发者评估 AI 代理落地生产环境的可靠性与经济性提供了关键量化依据，推动 AI Ops 发展。平台通过 3000 次试验 pooled over all 50 configurations，揭示 extra reasoning 带来的成本效益比。企业引入 AI 代理前需权衡性能与预算，该基准将成为生产级 AI 部署的重要参考标准，加速自动化运维成熟。开发者可据此优化推理设置，避免过度消耗资源，实现性能与成本的最佳平衡，促进 AI 代理在关键任务中的可信 adoption。",
+    "tags": [
+      "Dev",
+      "Benchmark",
+      "Agent"
+    ],
+    "link": "https://incident-arena.com/",
+    "date": "2026-09-30",
+    "id": "17908029902852"
+  },
+  {
+    "title": "CM 推出 AI 代理对接端口",
+    "summary": "CM Ecosystem 发布 AI Docking Port，标准化代理查询住宿接口。",
+    "detail": "**CM Ecosystem** 发布 AI Docking Port，旨在教导 AI 代理如何正确查询住宿可用性。通过标准化机器可读 manifest 和 Reception 接口，避免 scraping 和插件依赖。这是一个去中心化尝试，允许独立安装节点间信任转发，为垂直领域 AI 代理互操作性提供了新范式，降低集成门槛。长期愿景是构建无需中央目录的分布式网络，类似本地 innkeeper 的自动化推荐。目前虽为 single-node MVP，但所有组件真实在线。这解决了 AI 代理与特定业务系统交互的标准化难题，为 hospitality 行业 AI 集成提供了可复制的基础设施方案，减少重复开发。未来可能扩展至其他垂直领域，实现 AI 代理间的无缝协作与信任传递，构建真正的去中心化 agent 网络。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Infrastructure"
+    ],
+    "link": "https://apartmamatevz.si/journal/posts/2026-09-30-cm-ai-docking-port-teaching-ai-agents-to-knock-on-the-right-door.html",
+    "date": "2026-09-30",
+    "id": "17908029902853"
+  },
+  {
+    "title": "Numerai AI 科学家预测股市",
+    "summary": "Numerai 平台提供混淆数据，开发者构建 AI 模型预测股票市场。",
+    "detail": "**Numerai** 平台邀请开发者构建 AI 模型预测股市，提供混淆后的量化特征数据。用户可使用 Python/R 脚本训练模型（如 XGBRegressor），参与锦标赛。这种众包模式利用全球数据科学家智慧，结合 AI 与金融预测，展示了去中心化对冲基金如何利用机器学习优化投资策略，降低过拟合风险。数据经过 obfuscated 处理以确保公平，目标变量代表未来数周的表现摘要。平台提供完整示例脚本，降低入门门槛。这种模式证明了 AI 在金融领域的实际应用潜力，通过集体智慧构建稳健模型，为量化交易提供了新的开源协作范式，吸引大量 staked models 参与竞争。参与者可通过 stake 模型获得奖励，形成激励相容的生态系统，推动金融 AI 模型不断进化。",
+    "tags": [
+      "Dev",
+      "Finance",
+      "MachineLearning"
+    ],
+    "link": "https://numer.ai/",
+    "date": "2026-09-30",
+    "id": "17908029902854"
+  },
+  {
     "title": "Anthropic AI 攻克概率论“圣杯”难题",
     "summary": "Anthropic 利用 AI 证明了渗透理论猜想，标志 AI 科研能力重大突破。",
     "detail": "Anthropic 正式发布证明，成功解决了概率论中长期的渗透理论猜想。该问题曾被视作领域“圣杯”，涉及网络渗透性阈值，关乎随机事件如何形成连贯结构。著名数学家雨果·杜米尼尔 - 科平曾预言 AI 将率先解决，如今预言成真。此举不仅验证了 AI 在形式化数学证明上的潜力，也预示着 AI 辅助科研将成为新常态，可能加速基础科学发现进程。这展示了大模型在逻辑推理与科学探索上的深层能力，为 AI4Science 领域注入强心剂，表明 AI 已能处理高度抽象的数学结构，具有里程碑意义。这一突破表明 AI 不仅能处理语言任务，还能辅助人类解决深层次科学难题，未来可能在物理、生物等领域复制成功。",
@@ -1233,70 +1298,5 @@
     "link": "https://arxiv.org/abs/2601.13348",
     "date": "2026-09-26",
     "id": "17904345970295"
-  },
-  {
-    "title": "Show HN: 能证明工作成果的 AI 编码代理工具 keel",
-    "summary": "开源工具 keel 为 AI 编码代理提供验证网关，确保工作成果可追溯。",
-    "detail": "keel 是一个基于 Rust 的新工具，旨在约束 AI 编码代理（如 Claude Code、Codex）。它允许用户定义\"完成\"的标准，代理工作后，keel 通过构建、测试和审查网关进行检查。若检查失败则退回，成功则生成防篡改的证据记录。这解决了 AI 代理不知何时停止的问题，为团队引入 AI 编程提供了安全控制和审计 trail，适合对代码质量有严格要求的场景。工具支持 macOS 和 Linux，可集成到现有工作流中。通过不可篡改的证据包，团队可追溯 AI 的每一次决策，增强了对自动化代码生成的信任度，降低维护成本。它是 AI 代理时代的基础设施层，确保自动化工作符合人类预期。",
-    "tags": [
-      "New",
-      "Tool",
-      "Coding"
-    ],
-    "link": "https://daneb.github.io/keel/",
-    "date": "2026-09-26",
-    "id": "17904345970296"
-  },
-  {
-    "title": "Show HN: App2Api 为 AI 代理生成可用 API 规范",
-    "summary": "通过描述工作流自动捕获 API 调用，生成 OpenAPI spec。",
-    "detail": "App2Api 是一款新工具，允许用户用自然语言描述应用工作流。它驱动仿真器捕获背后的 HTTPS 请求链，包括认证和令牌。最终输出可运行的 flow.sh 脚本和 OpenAPI 3.1 规范。这解决了 AI 代理与现有应用集成的难题，无需手动逆向工程，极大降低了 Agent 开发门槛。用户无需发送凭证给模型，保障安全。它是目标导向的，而非盲目爬取。监控功能即将在 Beta 中推出，以便在更新破坏链时通知用户。该工具简化了遗留系统与现代 AI 代理的连接，为自动化工作流提供了即插即用的解决方案，加速企业级 AI 应用落地，尤其适合需要对接私有 API 的场景。",
-    "tags": [
-      "New",
-      "API",
-      "Agents"
-    ],
-    "link": "https://app2api.com/",
-    "date": "2026-09-26",
-    "id": "17904205264483"
-  },
-  {
-    "title": "Flashcat：Mac 终端上的本地离线 AI 助手",
-    "summary": "基于 Gemma 4 模型，支持读取文件且数据不出本地。",
-    "detail": "Flashcat 是专为 macOS 终端设计的本地 AI 助手，通过 LM Studio 运行 Google Gemma 4 模型。支持读取 PDF、Word、Excel 及图片，所有处理均在本地完成，确保隐私安全。仅需 Apple Silicon 芯片即可运行。为开发者提供了无需联网、数据私有的命令行 AI 交互方案，适合敏感数据处理场景。安装脚本会自动检查环境并下载模型。它还能搜索网页，但需用户授权。这种本地化部署消除了数据泄露风险，响应速度更快。命名源于作者的猫，体现开源社区文化。它是隐私优先 AI 应用的典型代表，展示了端侧大模型在实际工作流中的潜力，满足了对数据主权有严格要求的用户需求，推动本地 AI 生态发展。",
-    "tags": [
-      "Dev",
-      "Privacy",
-      "LocalLLM"
-    ],
-    "link": "https://github.com/TomTomsen765/flashcat",
-    "date": "2026-09-26",
-    "id": "17904205264484"
-  },
-  {
-    "title": "Palantir CEO：AI 模型正在窃取用户数据",
-    "summary": "Alex Karp 在 CNBC 访谈中警告 AI 数据安全与隐私风险。",
-    "detail": "Palantir 首席执行官 Alex Karp 在接受 CNBC 采访时指出，当前 AI 模型存在窃取用户数据的风险，并探讨了 AI 安全真相。作为行业领军企业负责人，他的观点反映了业界对数据隐私保护的深层担忧。该访谈强调了在 AI 高速发展背景下，建立可靠的数据安全机制和伦理框架的紧迫性。他警告模型可能在训练中未经授权吸收数据。这不仅是技术问题，更是法律与信任问题。企业需重新评估数据治理策略。视频由 CNBC 全程采访，浏览量较高。此言论可能推动更严格的 AI 监管政策出台，影响全球 AI 公司的数据收集 practices，促使行业向透明化方向发展，重塑用户与 AI 服务商的信任关系。",
-    "tags": [
-      "News",
-      "Security",
-      "Palantir"
-    ],
-    "link": "https://www.youtube.com/watch?v=2YVCdwvG548",
-    "date": "2026-09-26",
-    "id": "17904205264485"
-  },
-  {
-    "title": "Botbin.io：专为 AI Agent 设计的 artifacts 共享平台",
-    "summary": "解决 AI Agent 输出 HTML 混乱问题，支持 MCP 协议，便于分享图表与报告。",
-    "detail": "**Botbin.io** 是一款针对 AI Agent 工作流优化的 Pastebin 工具。传统 Agent 在生成 HTML 图表或报告时，常直接将 raw HTML 输出到聊天窗口，导致展示混乱。Botbin 允许 Agent 通过 curl 或 MCP 服务器上传 artifacts，生成可交互的链接。这不仅提升了用户体验，还为 Agent 之间的协作提供了标准化接口。支持 MCP 协议意味着它能无缝集成到现有的 Agent 生态中，是开发者构建可视化 Agent 应用的实用基础设施。随着 Agent 能力增强，此类中间件将成为标准配置，解决多模态输出难题。",
-    "tags": [
-      "New",
-      "AI Agent",
-      "MCP"
-    ],
-    "link": "https://botbin.io/?md=true",
-    "date": "2026-09-26",
-    "id": "17904022095770"
   }
 ]
