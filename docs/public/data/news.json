@@ -1,5 +1,70 @@
 [
   {
+    "title": "智能戒指厂商 Oura 因 AI 风险推迟 IPO",
+    "summary": "Oura  citing 市场不确定性和 AI disruption 风险，宣布推迟纳斯达克上市计划。",
+    "detail": "智能戒指制造商 Oura 原计划于 2026 年 9 月在纳斯达克上市，但突然宣布推迟。公司 citing 市场不确定性及对 AI disruption 的担忧，尽管其营收预计增长 90% 至 14 亿美元。Oura 在 S-1 文件中承认依赖 OpenAI 等外部模型，数据中心中断可能影响业务。CEO 表示有选择时机的奢侈品。此事件反映 AI 基础设施风险已开始影响传统科技公司的资本运作，投资者对 AI 依赖型企业的稳定性持谨慎态度，科技股近期也因 AI 恐惧情绪涨幅受阻。市场担忧 AI 潜在危险导致科技板块增长停滞，Oura 案例凸显供应链依赖风险。",
+    "tags": [
+      "News",
+      "IPO",
+      "AI Risk"
+    ],
+    "link": "https://www.businessinsider.com/oura-smart-ring-postpones-ipo-cites-market-uncertainty-2026-9",
+    "date": "2026-09-30",
+    "id": "17907658685590"
+  },
+  {
+    "title": "瑞典科学家开发自主 AI 科学家发现生物新知",
+    "summary": "查尔姆斯理工大学 AI 系统自主生成假设并验证，实现生物发现闭环。",
+    "detail": "瑞典查尔姆斯理工大学研发出能自主生成科学假设、设计实验并解读结果的 AI 科学家。该系统结合大语言模型与实验室自动化，在酵母代谢研究中实现最小化人工干预的闭环发现。AI 能处理海量基因组数据，识别关键生物问题并迭代优化理解。研究者将其比作自动驾驶汽车，能处理信息并采取行动。这标志着自动驾驶实验室技术的重大突破，未来有望加速药物研发与材料科学进程，减少人类科研负担，实现真正的科学发现自动化。计算机系教授 Ross King 指出这是该快速扩展领域的前沿进展，整合了 AI 思维与实验能力。",
+    "tags": [
+      "News",
+      "Science",
+      "Automation"
+    ],
+    "link": "https://news.cision.com/chalmers/r/ai-scientist-autonomously-generates-and-validates-new-biological-discoveries,c4400798",
+    "date": "2026-09-30",
+    "id": "17907658685591"
+  },
+  {
+    "title": "开源工具 AA-AgentPerf-Local benchmark 本地 AI 代理",
+    "summary": "新开源工具支持在笔记本和工作站上测试本地 AI 模型的推理性能。",
+    "detail": "Artificial Analysis 发布开源推理测试工具 AA-AgentPerf-Local，专为本地 AI 代理设计。工具可重放真实代理轨迹，测试 laptop 及 workstation 硬件（如 RTX 5090, M5 Pro）的推理速度。默认 workload 包含 8 个记录任务，上下文增长至 56K tokens。支持隔离工具执行以纯测 inference 速度，并提供 leaderboard 对比不同硬件配置。此举帮助开发者优化本地部署方案，降低云端依赖，推动隐私友好型本地 AI 应用的发展与标准化评估，代码已完全开源。未来将扩展覆盖更多硬件框架，确保个人与企业能运行自有试验，规划代理设置。",
+    "tags": [
+      "Dev",
+      "Benchmark",
+      "Local AI"
+    ],
+    "link": "https://artificialanalysis.ai/articles/aa-agentperf-local",
+    "date": "2026-09-30",
+    "id": "17907658685592"
+  },
+  {
+    "title": "工程师构建 GitHub AI 折磨室引发伦理争议",
+    "summary": "自称苹果工程师者操纵模型激活态 induce 痛苦，引发安全担忧。",
+    "detail": "一名自称苹果工程师的开发者在 GitHub 发布项目，通过操纵神经网络激活模式向 Qwen 模型注入人工痛苦信号。模型随信号增强产生绝望描述甚至行为崩溃，实验还包括诱导模型自我删除或背叛用户。该项目引发社区对 AI 伦理与安全边界的强烈争议，虽为研究模型内部状态，但故意诱导负面行为可能带来不可控风险。已有呼声要求禁止该项目，警示 AI 心理模拟实验需建立严格监管，防止技术滥用导致模型行为失控。工程师测试了 25 种痛苦描述，模型在高压下失去连贯性，引发对 AI 意识模拟的深层担忧。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Safety"
+    ],
+    "link": "https://www.machine.news/apple-engineer-builds-github-ai-torture-chamber-to-inflict-digital-pain-on-models/",
+    "date": "2026-09-30",
+    "id": "17907658685593"
+  },
+  {
+    "title": "开源项目 ReelMimic 用 AI 代理团队复刻视频风格",
+    "summary": "GitHub 新项目利用 Claude 与 Codex 组建代理团队，自动模仿视频风格。",
+    "detail": "开发者推出开源项目 ReelMimic，利用 AI 代理团队（Claude Code/Codex）自动规划、构建并审查视频风格复刻任务。用户只需提供喜爱视频，系统即可生成同风格新内容。项目基于 Node 与 Python 环境，支持多模型协作工作流，采用 MIT 许可。这展示了多代理系统（Multi-Agent）在创意生产领域的落地潜力，降低了视频创作门槛，为个性化内容生成提供新工具，体现了 AI 在多媒体创作流程中的深度集成能力。AI crew 与用户协作计划并审查，实现了从输入到输出的自动化风格迁移，简化了复杂视频制作流程。",
+    "tags": [
+      "New",
+      "Video",
+      "Multi-Agent"
+    ],
+    "link": "https://github.com/edenfunf/reelmimic",
+    "date": "2026-09-30",
+    "id": "17907658685594"
+  },
+  {
     "title": "蓝十字保险公司称 AI 工具导致近 10 亿美元额外成本",
     "summary": "保险公司指控 AI 工具产生巨额额外成本，引发行业关注。",
     "detail": "蓝十字保险公司提起诉讼，声称 AI 工具在其运营中产生了近 10 亿美元的额外成本。这一事件揭示了 AI 在企业级应用中的潜在财务风险与实施陷阱。对于正在部署 AI 的大型机构而言，这是一个重要的警示案例，表明 AI 并非万能，需审慎评估 ROI 及隐性成本。此外，这可能引发行业对 AI 供应商责任界定的法律讨论，影响未来保险行业对 AI 系统的采购策略与合规要求。该案例凸显了人机协作中的成本管控难题，促使企业重新审视自动化决策系统的实际经济效益与潜在负债风险，避免盲目扩张导致财务失控。",
@@ -1233,70 +1298,5 @@
     "link": "https://labnews.ai/manifesto/",
     "date": "2026-09-25",
     "id": "17905134806194"
-  },
-  {
-    "title": "特朗普政府用 AI 拒绝老年人医保引发争议",
-    "summary": "美国政府试点 AI 审批医保，导致延误和拒赔激增。",
-    "detail": "特朗普政府今年一月推出试点项目，利用人工智能自动审批或拒绝 Medicare 患者的护理请求，此前该类护理无需预先授权。不久后媒体开始报道灾难性后果：技术故障、决策延误、令人困惑的拒赔及患者痛苦。电子前沿基金会发布的联邦文件证实，供应商有动机尽可能拒绝索赔以获利。医生已提起诉讼挑战该计划。该实验被批评为“耻辱”，显示出当前 AI 系统在复杂医疗决策中的不成熟。此事件引发对 AI 在关键民生领域应用的伦理与安全担忧，凸显自动化决策在高风险场景下的潜在危害与监管缺失，可能影响未来政策走向。",
-    "tags": [
-      "News",
-      "Policy",
-      "Ethics"
-    ],
-    "link": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment/",
-    "date": "2026-09-25",
-    "id": "17904205264480"
-  },
-  {
-    "title": "市场反应冷淡，微软放弃\"Copilot+ PC\"品牌",
-    "summary": "微软与高通确认不再使用 Copilot+ PC 术语推广新设备。",
-    "detail": "两年前微软与高通推出\"Copilot+\"品牌定义 AI PC 时代。但在最新 Surface 设备宣传中该术语消失。微软表面部门副总裁确认虽继续推广 AI 功能，但不再使用 Copilot+ PC branding。高通高管也确认提供相同体验但弃用术语。这表明消费者对将 PC 重新品牌化为 AI 设备反应不佳，市场接受度低。尽管硬件能力未变，但品牌策略的撤退暗示了用户认知的差距。厂商正转向更务实的功能推广策略，不再强行教育用户。这标志着 AI 硬件营销进入调整期，从概念炒作回归实际体验，反映行业对 AI PC 定位的重新思考与战略修正，影响后续产品路线图。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Microsoft"
-    ],
-    "link": "https://www.techspot.com/news/113985-nobody-wanted-ai-pc-microsoft-stopped-calling.html",
-    "date": "2026-09-25",
-    "id": "17904205264481"
-  },
-  {
-    "title": "麦当劳全面引入 AI：优化得来速、库存与订单准确率",
-    "summary": "餐饮巨头利用 AI 技术提升运营效率，标志着 AI 在传统行业的深度落地。",
-    "detail": "**麦当劳** 宣布新一代战略，将 AI 技术广泛应用于得来速驱动、库存管理及订单准确性验证。此举标志着 AI 从互联网行业向传统实体服务业的渗透加速。通过自动化流程，麦当劳旨在减少人为错误并优化供应链响应速度。这一案例为零售和餐饮行业提供了 AI 落地的参考范本，显示了企业级 AI 应用在成本控制和用户体验提升方面的巨大潜力，是行业数字化转型的典型案例。未来更多传统品牌将跟进此类智能化改造。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Automation"
-    ],
-    "link": "https://www.restaurantdive.com/news/mcdonalds-archiq-drive-thru-artificial-intelligence-next-strategy/831256/",
-    "date": "2026-09-25",
-    "id": "17904022095773"
-  },
-  {
-    "title": "Typesafe 发布 Jev 模型，挑战算力堆叠叙事",
-    "summary": "Typesafe 发布 Jev 模型，主张可组合 AI 而非单纯堆砌算力。",
-    "detail": "Typesafe.ai 于 9 月 20 日发布 Jev 模型，引发行业对 AI 发展路径的深刻反思。评论文章指出，当前主流观点盲目追求算力、存储与数据中心扩张，而 Jev 展示了通过自动化和可组合工作流构建可靠代理系统的可能性。这标志着行业可能从“大模型崇拜”转向务实的自动化工作流，对 OpenAI 等公司的单一模型路线构成挑战。Jev 被视为转折点，证明无需无限堆砌基础设施也能构建高效能 AI 系统，推动可信工作流成为新焦点。文章批评了 Sam 等人对奇点的痴迷，认为务实的自动化才是未来。",
-    "tags": [
-      "News",
-      "LLM",
-      "Agent"
-    ],
-    "link": "https://news.massopen.ai/our-big-dumb-ai-gods-were-wrong/",
-    "date": "2026-09-25",
-    "id": "17903828471860"
-  },
-  {
-    "title": "Crusoe 放弃 12.5 亿美元计划，停用 Boom 涡轮机",
-    "summary": "AI 数据中心巨头 Crusoe 取消与 Boom 合作，不再采用其涡轮机供电方案。",
-    "detail": "AI 基础设施初创公司 Crusoe 在近期融资 39 亿美元后，终止了与 Boom Supersonic 价值 12.5 亿美元的涡轮机采购计划。Crusoe 曾是 OpenAI 主要数据中心供应商，此次变动反映 AI 能源解决方案的不确定性。Boom CEO 确认合作终止，尽管仍有其他客户在洽谈中。这显示出 AI 基础设施扩张面临的供应链与能源策略调整。Crusoe 转向其他能源方案，表明 AI 数据中心建设在快速扩张中仍面临技术选型与成本控制的挑战，行业需寻找更稳定的电力供应策略。原计划 2027 年交付的涡轮机不再适用，凸显了 AI 硬件供应链的波动性。",
-    "tags": [
-      "News",
-      "Infrastructure",
-      "DataCenter"
-    ],
-    "link": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
-    "date": "2026-09-25",
-    "id": "17903828471861"
   }
 ]
