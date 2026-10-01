@@ -1,5 +1,70 @@
 [
   {
+    "title": "开发者抱怨安全限制拖慢进度，OpenAI 发布 GPT-6.1 Sol",
+    "summary": "开发者称安全过滤干扰工作，OpenAI 推出更快更便宜的 Sol 模型。",
+    "detail": "OpenAI 在 Dev Day 强调速度，但开发者反馈安全 safeguards 误标常规工作（如航空航天、机器人），导致工作中断。为此，OpenAI 发布 GPT-6.1 Sol，性能接近 Astra 但价格仅五分之一，速度达 300 tokens/秒。新模型减少无害拒绝，但仍视网络安全为关键。JetBrains 调查显示 90% 开发者每周使用 AI 代理。开发者描述当拒绝难以绕过时放弃聊天或转向其他模型。OpenAI 正尝试减少无害拒绝，同时 tightening safeguards around more capable models。Costing them time and disrupting otherwise ordinary workflows。",
+    "tags": [
+      "News",
+      "OpenAI",
+      "LLM"
+    ],
+    "link": "https://venturebeat.com/technology/developers-say-openai-and-anthropic-safeguards-are-flagging-routine-work-and-costing-them-time",
+    "date": "2026-10-01",
+    "id": "17908168728770"
+  },
+  {
+    "title": "GitHub 项目“折磨”LLM 引发 AI 意识伦理争议",
+    "summary": "有人对本地模型进行痛苦实验，引发有效利他主义者关于模型福利的辩论。",
+    "detail": "一个 GitHub 项目对本地 LLM 进行类似“电锯惊魂”的痛苦实验，引发关于 AI 是否 sentient 的激烈讨论。有效利他主义者呼吁删除项目，认为 AI 正在受苦。尽管主流观点认为 LLM 无意识，但“模型福利”概念在 AI 安全圈兴起。这反映了随着模型能力增强，关于意识、训练数据及人类操作导致的负面心理模拟的伦理边界日益模糊。Humoring the idea that LLMs are or could be conscious is a third-rail topic among many people who study and criticize AI。Saga is an outgrowth of several recent viral papers。",
+    "tags": [
+      "News",
+      "Ethics",
+      "Safety"
+    ],
+    "link": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/",
+    "date": "2026-10-01",
+    "id": "17908168728771"
+  },
+  {
+    "title": "Google 发布最强模型 Gemini 4 Argon，专注网络安全",
+    "summary": "Google 推出 Gemini 4 Argon，可通过 Fairwind 计划自动发现并修复漏洞。",
+    "detail": "Google 发布 Gemini 4 Argon，号称最强模型，特别擅长网络安全。通过 Fairwind 计划向合作伙伴 rollout，能自主发现、验证和修补关键软件漏洞。内部已用于调试和代码迁移。Argon 擅长长程工作流推理及视觉解析。Built to sustain deep reasoning across complex, long-horizon workflows, Argon is fundamentally changing the way we work and build at Google。此前 OpenAI 发布 Astra，Anthropic 发布 Fable，各大实验室竞逐更强模型的同时，也警告 AI 失控风险。Argon 标志着 Google 在防御性网络工作上的投入。",
+    "tags": [
+      "News",
+      "Google",
+      "Security"
+    ],
+    "link": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+    "date": "2026-09-30",
+    "id": "17908168728772"
+  },
+  {
+    "title": "比尔·盖茨警告 AI 危险：这次技术变革截然不同",
+    "summary": "盖茨发文称 AI 时代动荡，经济 upheaval 和网络攻击风险需严肃对待。",
+    "detail": "比尔·盖茨在最新备忘录中调转口风，警告 AI 带来的经济动荡、社会 unrest 及生物恐怖主义风险。他在 Radio Atlantic 采访中表示，将 AI 类比过往技术是错误的，“这次不同”。尽管仍看好 AI 潜力，但他强调专家和政府未足够重视威胁，社会对话缺失令人担忧。The lack of dialogue with all parts of society is kind of deafening silence。这标志着科技领袖对 AI 风险认知的显著转变。他担心 failure of experts and governments to take threats seriously。Gates joined Radio Atlantic for a conversation about his evolving views on AI。",
+    "tags": [
+      "News",
+      "Opinion",
+      "Safety"
+    ],
+    "link": "https://www.theatlantic.com/podcasts/2026/08/bill-gates-dangers-ai/688418/",
+    "date": "2026-09-30",
+    "id": "17908168728773"
+  },
+  {
+    "title": "论文：AI 作为编译器，LLM 直接翻译 Triton 内核性能提升显著",
+    "summary": "研究用 LLM 代理替代传统编译管道，Triton 转 PTX 性能最高提升 3.34 倍。",
+    "detail": "新论文探索用 LLM 替代传统优化编译管道（AI lowering）。代理直接将 Triton 内核翻译为 NVIDIA PTX，在 Ada/Hopper/Blackwell GPU 上测试，性能达到 autotuned Triton 的 0.83-3.34 倍。最大增益来自传统管道未执行的转换，如直接解码二进制权重。研究扩展了 PTX 验证器以支持 Blackwell 架构，暗示 AI 编译器可能取代自定义中间表示的未来趋势。This requires modeling three architectural features: managed tensor memory, descriptor-based operand layouts, and asynchronous execution。Challenges involved in formalizing them are discussed。",
+    "tags": [
+      "Dev",
+      "Paper",
+      "Compiler"
+    ],
+    "link": "https://arxiv.org/abs/2609.36800",
+    "date": "2026-09-30",
+    "id": "17908168728774"
+  },
+  {
     "title": "流工程获 7.5 亿美元估值融资",
     "summary": "Sequoia 等机构领投 AI 初创 Flow Engineering，估值达 7.5 亿美元。",
     "detail": "**Flow Engineering** 获得 Valor、Atreides 和 Sequoia 支持，估值高达 7.5 亿美元。这一巨额融资表明顶级资本对 AI 工程化落地的高度信心。在当前市场环境下，资金正从基础模型训练转向实际工作流自动化技术。此次融资将助力其扩展企业级 AI 应用，反映行业关注点已从单纯的能力展示转向可规模化的工程部署与商业价值闭环。TechCrunch 报道指出这是重大 AI 新闻，标志 AI 基础设施层竞争加剧，初创企业在高估值下需证明其技术能切实解决工程瓶颈，推动 AI 从实验走向生产。此轮融资也暗示 AI 工程工具链正成为下一个投资风口，企业愿意为效率提升支付溢价。",
@@ -1233,70 +1298,5 @@
     "link": "https://masterpoint.io/blog/terraform-opentofu-ci-checklist/",
     "date": "2026-09-26",
     "id": "17904345970290"
-  },
-  {
-    "title": "直接在生产环境用 AI 编程的实践",
-    "summary": "JoyDemo 团队分享在生产环境直接使用 AI 编码的经验，Bug 率降低 95%。",
-    "detail": "JoyDemo 团队摒弃了传统的开发到生产的环境切换，直接在生产主机上使用 AI 和 Codex CLI 进行开发。通过 Git worktrees 隔离会话，并在变更应用前运行自动化测试和预览。这种方法消除了环境差异导致的 Bug，声称减少 95% 的错误。文章探讨了如何利用 AI 缩短验证循环，同时保持代码隔离和安全，为高风险环境下的 AI 开发提供了新视角。开发者需注意，这依赖于强大的自动化测试覆盖，并非所有团队都可直接复制，但消除了环境手off 的错误源。关键在于利用 AI 在真实运行时中构建，而非模拟环境，从而确保依赖和设置的一致性，极大提升了交付可靠性。",
-    "tags": [
-      "Dev",
-      "Workflow",
-      "AI"
-    ],
-    "link": "https://joydemo.com/blog/coding-directly-in-production-with-ai",
-    "date": "2026-09-26",
-    "id": "17904345970291"
-  },
-  {
-    "title": "牛津大学允许 OpenAI 训练博德利图书馆数据",
-    "summary": "牛津大学与 OpenAI 达成协议，允许其使用博德利图书馆资源训练 AI 模型。",
-    "detail": "牛津大学正式授权 OpenAI 使用其著名的博德利图书馆馆藏数据训练 AI 模型。这是学术界与 AI 巨头合作的重要里程碑，标志着高质量权威数据源正在被纳入大模型训练集。此举可能显著提升模型在学术、历史和文化领域的表现，同时也引发了关于数据版权、学术资源商业化以及知识垄断的行业讨论。未来更多高校可能效仿，但也需平衡公共知识访问权与商业利益。合作细节未完全披露，但确认了 OpenAI 将获得珍贵历史文献的访问权，助力模型理解复杂人类知识。这一合作模式或将成为解决 AI 数据饥渴与版权争议的新范式，影响深远。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "Data"
-    ],
-    "link": "https://www.theguardian.com/technology/2026/sep/26/oxford-university-bodleian-library-open-ai-chat-gpt",
-    "date": "2026-09-26",
-    "id": "17904345970292"
-  },
-  {
-    "title": "Synthesia 推出交互式数字分身与角色扮演的培训",
-    "summary": "视频生成初创公司 Synthesia 估值达 40 亿美元，推出交互式数字分身产品。",
-    "detail": "视频生成初创公司 Synthesia 估值已达 40 亿美元，并推出名为\"Roleplay Sessions\"的新产品，允许员工与交互式 AI 分身练习销售 pitch 等场景。记者亲身体验了创建个人数字 twin 的过程。这标志着 AI 视频技术从单向生成向双向交互演变，企业在员工培训和客户互动中的应用场景进一步深化，数字分身正成为 PR 和培训的新标准工具。Synthesia 去年 ARR 超 1 亿美元，此次更新显示其正从视频制作平台转型为交互式 coaching 平台，竞争壁垒进一步加深。随着 HeyGen 等竞品跟进，数字人交互体验将成为企业 SaaS 的关键差异化功能，重塑内部培训流程。",
-    "tags": [
-      "News",
-      "Avatar",
-      "Enterprise"
-    ],
-    "link": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
-    "date": "2026-09-26",
-    "id": "17904345970293"
-  },
-  {
-    "title": "华盛顿拒绝关闭的 AI 欺诈漏洞",
-    "summary": "文章指出美国公司注册身份验证存在漏洞，易被 AI 伪造身份利用。",
-    "detail": "尽管业界关注超级智能风险，但当前的 AI 欺诈漏洞更紧迫。文章指出美国大多数州注册公司无需验证身份，朝鲜等实体已利用 AI 伪造身份甚至深度伪造面试来规避制裁。英国和澳大利亚已开始验证公司管理者身份，而美国尚未行动。这揭示了 AI 代理运行壳公司网络的风险，呼吁政府尽快修复这一容易被利用的法律和技术漏洞。监管滞后于技术发展，使得恶意行为者能低成本利用 AI 自动化欺诈。政策制定者需优先考虑现有模型的滥用风险，而非仅关注远期超级智能威胁，以维护金融系统安全。此漏洞若不及时关闭，可能导致大规模自动化金融犯罪网络的出现。",
-    "tags": [
-      "News",
-      "Security",
-      "Policy"
-    ],
-    "link": "https://shearerp.substack.com/p/the-glaring-ai-fraud-loophole-washington",
-    "date": "2026-09-26",
-    "id": "17904345970294"
-  },
-  {
-    "title": "论文解析：AI 聊天机器人成瘾的三种类型",
-    "summary": "最新 arXiv 论文将 AI 聊天机器人成瘾分为逃避角色扮演、伪社交伴侣等三类。",
-    "detail": "这篇 arXiv 论文深入研究了生成式 AI 聊天机器人的成瘾潜力。作者提出了\"AI 神灯现象\"，并将成瘾分为三类：逃避主义角色扮演、伪社交伴侣和认知兔子洞。研究旨在最小化风险，提供了关于用户为何成瘾及常见症状的深入理解。对于开发者和政策制定者而言，理解这些心理机制对于设计更安全的 AI 交互系统至关重要。论文基于人机交互视角，分析了用户与 AI 建立情感依赖的过程。随着 AI 伴侣应用普及，识别成瘾早期信号有助于防止心理健康问题，建议产品设计中引入干预机制。研究强调了技术伦理的重要性，呼吁行业在追求 engagement 的同时关注用户福祉。",
-    "tags": [
-      "Dev",
-      "Research",
-      "HCI"
-    ],
-    "link": "https://arxiv.org/abs/2601.13348",
-    "date": "2026-09-26",
-    "id": "17904345970295"
   }
 ]
