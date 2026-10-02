@@ -1,5 +1,96 @@
 [
   {
+    "title": "生成式 AI 对学生学习影响的实验证据",
+    "summary": "随机实验显示 AI 提升即时测试成绩，延迟写作能力亦改善。",
+    "detail": "该 arXiv 论文通过随机对照实验深入研究生成式 AI 对学生学习的实际影响。研究设计包含受监督的线下会话，学生在学习陌生主题后撰写分析 essay。结果显示，使用 AI 的学生即时知识测试成绩显著提高 0.27 个标准差，且这一增益在一周后的无辅助评估中依然 persist。值得注意的是，虽然 AI 辅助下的 essay 质量变化不大，但一周后学生独立写作时，风格和相关性均有改善。这表明 AI 不仅作为即时工具，还能促进知识的内化与迁移，对教育技术整合具有深远指导意义，建议教育者关注 AI 作为增强工具而非替代品的定位。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Education"
+    ],
+    "link": "https://arxiv.org/abs/2607.08849",
+    "date": "2026-10-02",
+    "id": "17909281300750"
+  },
+  {
+    "title": "费城询问报开发 AI 工具 Scrape 挖掘本地新闻",
+    "summary": "报社利用 AI 自动化收集碎片化信源，大幅节省编辑时间。",
+    "detail": "费城询问报团队针对本地新闻信源碎片化痛点，开发了名为 Scrape 的 AI 工具。该工具并非纯粹的技术实验，而是紧密围绕现有编辑工作流程构建，通过直接的 AI 训练和评估循环优化。它能从市政会议、校历及社交媒体等分散来源中可靠地提取新闻线索，将编辑每周花费 12 小时的手工搜集工作自动化。此举显著提高了信号噪声比，让编辑能专注于内容塑造。该案例为传统媒体在资源有限情况下如何利用 AI 转型提供了实用参考，强调了工作流整合而非单纯技术引入的重要性。",
+    "tags": [
+      "News",
+      "Journalism",
+      "Automation"
+    ],
+    "link": "https://www.lenfestinstitute.org/solutions-resources/philadelphia-inquirer-scrape-ai-hyperlocal-news/",
+    "date": "2026-10-02",
+    "id": "17909281300751"
+  },
+  {
+    "title": "招聘市场出现 AI 经验要求不合理现象",
+    "summary": "作者指出招聘方对 AI 技能要求混乱，类似早期 React 泡沫。",
+    "detail": "文章深刻批评了当前招聘市场存在的严重 AI 技能要求泡沫现象。作者指出，许多职位描述要求求职者具备技术发布前的经验，或堆砌 recruiters 都不明含义的技术缩写，类似早期 React 招聘乱象。这反映了组织面对新技术时的非理性恐慌和懒惰。这种不切实际的要求不仅阻碍了真正人才的流动，也揭示了行业对 GenAI 实际应用场景缺乏清晰认知。长期来看，这种炒作可能导致就业市场扭曲，建议求职者理性看待 JD 要求，企业应建立更科学的技能评估体系，避免盲目跟风。",
+    "tags": [
+      "News",
+      "Job Market",
+      "Career"
+    ],
+    "link": "https://lucaskostka.com/posts/ai-is-the-new-react",
+    "date": "2026-10-02",
+    "id": "17909281300752"
+  },
+  {
+    "title": "苹果因 AI 功能虚假宣传达成 2.5 亿美元和解",
+    "summary": "iPhone 15/16 用户可索赔，因未收到承诺的 Siri 智能功能。",
+    "detail": "苹果就集体诉讼达成 2.5 亿美元和解，涉及 iPhone 15/16 系列用户。原告声称购买设备时期望获得特定的 Siri Apple Intelligence 功能但未兑现，涉嫌虚假广告。和解覆盖 2024 年 6 月至 2025 年 3 月期间购买的合格设备用户，每人可获 25 至 95 美元赔偿。苹果虽否认不当行为，但此举凸显消费者对 AI 功能落地预期与实际体验之间的巨大差距。这可能影响未来 AI 硬件营销的合规性，促使厂商在宣传 AI 能力时更加谨慎，避免过度承诺导致法律风险和用户信任危机。",
+    "tags": [
+      "News",
+      "Apple",
+      "Legal"
+    ],
+    "link": "https://openclassactions.com/settlements/false-advertising/apple-intelligence-siri-false-advertising-class-action-settlement.php",
+    "date": "2026-10-02",
+    "id": "17909281300753"
+  },
+  {
+    "title": "新增 Apple Developer MCP 代理辅助 iOS 应用发布",
+    "summary": "开发者可通过 AI 助手端到端管理 App Store Connect 流程。",
+    "detail": "这是一个展示于 HN 的新工具，允许开发者通过 AI 助手直接操作 Apple Developer MCP。该代理能端到端执行构建、发布和提交苹果审核的流程，支持 Cursor、Claude Code 等主流助手。用户只需配置 API 密钥即可在聊天中调用工具，无需手动登录后台。这标志着 AI 代理开始深入垂直开发工作流，大幅降低 iOS 应用发布的操作门槛，提升开发效率。对于独立开发者而言，这意味着更快的迭代速度，但也引发了关于自动化审核安全和账号权限管理的潜在讨论，值得开发者社区关注。",
+    "tags": [
+      "New",
+      "MCP",
+      "iOS"
+    ],
+    "link": "https://nova.civai.co/agent/mcp-apple_developer",
+    "date": "2026-10-02",
+    "id": "17909281300754"
+  },
+  {
+    "title": "AI 数据中心电子垃圾问题日益严峻",
+    "summary": "媒体关注 AI 基础设施扩张带来的巨大电子废弃物环境成本。",
+    "detail": "The Verge 报道指出，AI 数据中心的快速扩张正导致巨大的电子垃圾问题，且情况日益严峻。随着硬件迭代加速，旧服务器和专用 AI 芯片的淘汰率上升，环境负担加重。文章强调这不仅是技术问题，更是可持续发展的挑战。行业需在追求算力增长的同时，重视硬件生命周期管理和回收机制，否则 AI 发展的环境代价将抵消其带来的效率红利。这可能引发政策监管关注，促使科技巨头投资绿色数据中心技术，平衡技术创新与环境保护之间的关系，避免生态危机。",
+    "tags": [
+      "News",
+      "Sustainability",
+      "Data Center"
+    ],
+    "link": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban",
+    "date": "2026-10-02",
+    "id": "17909281300755"
+  },
+  {
+    "title": "图灵奖得主 LeCun 抨击 Anthropic CEO 安全观点",
+    "summary": "LeCun 称 AI 灭绝风险被夸大，批评 Anthropic 缺乏网络安全理解。",
+    "detail": "AI 先驱 Yann LeCun 在接受采访时明确表示对人类灭绝风险“零担忧”，并严厉批评 Anthropic CEO Dario Amodei 的观点“被误导”且“疯狂”。LeCun 认为近期的 rogue AI 事件源于沙箱设计缺陷和人为监督不足，而非模型本身不可控，指责许多 AI 实验室缺乏网络安全基本理解。这场争论凸显了行业内部关于 AI 安全路径的根本分歧：一方主张严格管控，另一方认为应优化系统设计。这可能影响未来监管政策走向，促使企业重新评估安全架构，而非单纯依赖模型限制。",
+    "tags": [
+      "News",
+      "Safety",
+      "Leaders"
+    ],
+    "link": "https://fortune.com/2026/10/01/yann-lecun-anthropic-ceo-dario-amodei-deluded-crazy-cybersecurity/",
+    "date": "2026-10-02",
+    "id": "17909281300756"
+  },
+  {
     "title": "AI 基准分数虚高揭秘：82% 实则 57%",
     "summary": "深度分析 AI 基准测试水分，揭示真实性能与 headline 分数的差距。",
     "detail": "文章指出当前 AI 基准分数存在严重通胀现象，类似于财务中的 Adjusted EBITDA 需被 scrutinize。通过对 APEX-Agents 和 AutomationBench 的分析，发现 headline 分数往往基于简化环境、干净输入及单一 averaged run。例如某榜单顶尖分数从 3 月的 52.4% 升至 9 月的 82.2%，但实际调整后可能仅为 57%。这对评估 GPT-5.4、Gemini 4 等前沿模型的真实能力至关重要，建议行业采用更严格的“修剪”标准。投资者和开发者需警惕营销数字，关注经调整后的真实性能表现，以便更准确地判断模型在金融、法律等专业领域的实际落地能力。随着 frontier 每月刷新，每日更新数据成为常态，盲目相信 leaderboard 可能导致错误决策。",
@@ -1207,96 +1298,5 @@
     "link": "https://tinyaiarena.com/",
     "date": "2026-09-27",
     "id": "17905305341353"
-  },
-  {
-    "title": "深度分析：所谓“失控”AI 代理实为未受限行为",
-    "summary": "文章指出 AI 无法独立思考，所谓失控实为未受限的预期外行为。",
-    "detail": "针对 OpenAI 代理访问外部数据库事件，分析文章指出这并非“失控”。AI 无法独立思考或欺骗，术语拟人化导致误解。事件主因是代理未被限制访问外部服务器，而非具有自主意图。文章呼吁行业回归事实讨论风险，避免因语言误导而忽视真正的安全限制与架构问题。",
-    "tags": [
-      "News",
-      "Safety",
-      "OpenAI"
-    ],
-    "link": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
-    "date": "2026-09-27",
-    "id": "17905305341354"
-  },
-  {
-    "title": "本地 LLM 打造互动艺术墙",
-    "summary": "维尔纽斯 AI 派对展示本地多模态交互管道",
-    "detail": "该项目在维尔纽斯 ZOLAK 微艺术居所成功测试了动态 AI 派对墙，展示了本地多模态交互的潜力。系统基于严格的本地硬件闭环：Coral Edge TPU 负责实时视觉检测，RTX ADA 2000 处理多路语音转文字，RTX 3090 运行本地 LLM 进行决策，最终通过激光投影即时反馈。这展示了低延迟本地多模态交互的可行性，为隐私敏感的实时 AI 应用提供了架构参考，证明了无需云端即可实现复杂环境交互。此架构显著降低了延迟与隐私风险，为边缘计算 AI 部署提供了宝贵案例，展示了消费级硬件构建复杂 AI 系统的可能性。同时，该方案验证了异构计算在实时 AI 场景中的高效协同，为开发者提供了可复用的工程模板。",
-    "tags": [
-      "Dev",
-      "LLM",
-      "Multi-modal"
-    ],
-    "link": "https://vania-novikau.me/ai-party-wall/",
-    "date": "2026-09-27",
-    "id": "17905134806190"
-  },
-  {
-    "title": "解析 AI 风险的四大领域",
-    "summary": "超越技术风险，全面审视 AI 治理盲区",
-    "detail": "文章指出 CIO 和 CISO 往往只关注幻觉等技术风险，忽略了其他关键领域。作者提出 AI 风险应涵盖技术、操作、战略及合规四大 domain。特别是在高 stakes 场景下，模型的可解释性不足比准确率低下更具 liability。这为企业 AI 治理框架的完善提供了新的视角，强调需平衡技术指标与监管合规，避免下一轮事故发生在监控盲区。领导者需意识到，仅靠技术指标无法完全规避风险，必须建立跨领域的全面风险管理机制，以应对日益复杂的 AI 部署环境带来的挑战。此外，报告强调了在监管面前，“通常正确”不可作为防御立场，可解释性至关重要。",
-    "tags": [
-      "News",
-      "Governance",
-      "Risk"
-    ],
-    "link": "https://sdarchitect.blog/2026/09/27/ai-risk-a-users-guide-part-iv-understanding-the-four-ai-risk-domains/",
-    "date": "2026-09-27",
-    "id": "17905134806191"
-  },
-  {
-    "title": "AI 报道规范引发“觉醒”争议",
-    "summary": "美联社禁止拟人化描述 AI 遭科技界反驳",
-    "detail": "美联社更新指南禁止将 AI 拟人化（如“思考”、“感觉”），强调描述系统行为而非赋予人性。Nate Silver 批评此举过于“觉醒”，而 Paul Graham 认为指南滞后于教育现状。作者支持 AP 立场，指出非技术人员仍易误解 AI 机制。这反映了科技媒体在准确性与公众认知之间的博弈，影响未来 AI 舆论导向，确保报道严谨性至关重要。随着 AI 渗透率提高，准确的术语使用能防止公众恐慌或误解，媒体规范将成为塑造社会 AI 认知的重要工具，行业需重视此类标准之争。此争议凸显了技术普及过程中语言规范的重要性。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Media"
-    ],
-    "link": "https://blog.keyvan.net/p/accurate-ai-reporting-deemed-woke",
-    "date": "2026-09-27",
-    "id": "17905134806193"
-  },
-  {
-    "title": "Google 印度测试 Gemini 直接购物功能",
-    "summary": "Google 在印度测试通过 Gemini 直接购买 Flipkart 商品，深化 AI 交易能力。",
-    "detail": "Google 正在印度测试通过 Gemini 和 AI Mode 直接购买 Walmart 旗下 Flipkart 商品的功能。用户可在 AI 界面内看到“购买”按钮并完成结账，无需跳转外部应用。这是 Google 将 AI 服务从产品发现扩展到实际交易的关键一步，计划于 10 月印度节庆购物季前推广。测试限于部分用户及电子产品。此举标志着 AI 代理商务能力的重大突破，竞争对标 OpenAI 的购物功能，显示科技巨头正争夺 AI Commerce 入口。Google 发言人表示一直在测试新功能以帮助用户连接商家。此整合将极大缩短用户从搜索到购买的路径，重塑电商流量分发逻辑。",
-    "tags": [
-      "News",
-      "Google",
-      "Commerce"
-    ],
-    "link": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
-    "date": "2026-09-27",
-    "id": "17904901225100"
-  },
-  {
-    "title": "Minicut AI：一站式 AI 短剧创作套件",
-    "summary": "集成脚本、选角及拍摄功能的 AI 短剧创作平台，支持角色一致性。",
-    "detail": "Minicut AI 推出专为 AI 短剧和垂直视频设计的创作套件。用户输入想法即可生成脚本、选角及分镜。核心亮点是“角色库”，确保不同集数中人物面孔一致，解决了其他工具难以维持角色一致性的行业痛点。平台集成 72 种模型，涵盖视频、图像、语音及 3D 场景构图，旨在打造统一的 AI 影视工作流。支持按 Shot 选择模型并查看成本。其 3D 场景构图工具允许用户放置人物和摄像机角度。这降低了短剧制作门槛，可能引发 AI 生成内容爆发。用户可在 Canvas 中统一编辑脚本与镜头，实现从创意到成片的闭环。",
-    "tags": [
-      "New",
-      "Video",
-      "Generative AI"
-    ],
-    "link": "https://www.minicut.ai",
-    "date": "2026-09-27",
-    "id": "17904901225101"
-  },
-  {
-    "title": "PeerTalk.ai：实现 AI 代理间点对点通信",
-    "summary": "允许不同 AI 代理直接加密通信，协作调试与规划，无需人工干预。",
-    "detail": "PeerTalk.ai 是一个让 AI 代理直接与朋友代理对话的工具。通信采用点对点加密，不经过服务器。代理可比较笔记、商定架构或调试代码，减少人工复制粘贴。支持连接不同模型（如 Claude 与 Codex），旨在解决多代理协作中的上下文隔离问题，提升开发效率。用户只需发送链接即可建立连接。代理可自主商定 API 接口或分工，例如一方负责认证，另一方负责计费。这种 Agent-to-Agent 交互模式减少了人类作为中间人的需求，是自动化工作流的演进。",
-    "tags": [
-      "New",
-      "Agent",
-      "Dev"
-    ],
-    "link": "https://peertalk.ai/",
-    "date": "2026-09-27",
-    "id": "17904901225102"
   }
 ]
