@@ -1,5 +1,70 @@
 [
   {
+    "title": "苹果收紧 macOS 全盘访问权限以应对 AI 代理风险",
+    "summary": "因 AI 代理读取隐私风险，苹果宣布加强 macOS 全盘访问控制。",
+    "detail": "针对 Meta Muse 被指读取私人消息及 Wired 报道 ChatGPT Mac 应用存在数据泄露 flaw，苹果宣布收紧 macOS“全盘访问”权限。该功能原用于备份，现因 AI 代理可控制文件、邮件及浏览历史而风险激增。苹果强调开发者使用权限方式需更透明。此举标志着桌面 AI 安全监管升级，用户隐私保护级别显著提升，开发者需适应更严格的沙盒机制，重新评估 AI 代理的系统权限请求，平衡功能便利性与安全性，防止未授权访问引发信任危机。此次调整直接影响依赖深层系统集成的 AI 应用开发策略。随着 AI 代理自主性增强，操作系统层面的权限隔离成为关键防御手段。苹果此举可能引发行业跟随，推动建立针对 AI 代理的标准化权限管理协议。",
+    "tags": [
+      "News",
+      "Security",
+      "Apple"
+    ],
+    "link": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+    "date": "2026-10-02",
+    "id": "17909705181340"
+  },
+  {
+    "title": "AI 辅助安全扫描致 MariaDB 漏洞报告激增",
+    "summary": "AI 工具改变安全研究方式，MariaDB 季度安全报告数量大幅上升。",
+    "detail": "MariaDB 官方披露，受 AI 辅助代码分析工具影响，近期安全报告数量激增。过去每季度仅 3-16 份报告，近期单季度最高达 92 份，总计 173 份。虽不直接等同于漏洞数量增加，但每份报告均需人工复现与调查。AI 能高效分析代码路径并生成测试用例，显著提升了 bug 发现效率。这标志着 AI 正在重塑软件安全生态，开源项目需建立更高效的漏洞响应流程以应对自动化安全研究带来的压力。维护者需平衡修复速度与质量，防止因报告过载导致关键漏洞被淹没，同时利用 AI 工具辅助修复验证，形成人机协作的安全防御新范式，确保数据库核心稳定性不受自动化扫描冲击。此现象反映了 AI 双刃剑效应。",
+    "tags": [
+      "News",
+      "Security",
+      "Database"
+    ],
+    "link": "https://mariadb.org/when-ai-finds-the-bugs-we-missed-a-very-busy-year-for-mariadb-security/",
+    "date": "2026-10-02",
+    "id": "17909705181341"
+  },
+  {
+    "title": "UseJunction：团队 AI 编码支出与使用情况管理工具",
+    "summary": "开源工具 UseJunction 帮助团队追踪 AI 编码工具的使用成本与席位浪费。",
+    "detail": "UseJunction 是一款开源的 AI 编码支出管理工具，支持追踪 Cursor、Claude Code、Copilot 等工具的使用情况、成本及席位利用率。它帮助工程团队回答谁在使用工具、成本分布及是否存在浪费等运营问题。无需键盘监控即可提供可视化洞察，适合企业优化 AI 工具采购策略。支持自托管部署，覆盖本地模型及 Ollama 等运行时。通过跟踪延迟、计划利用率和设备健康状态，团队可识别闲置席位和个人密钥滥用情况。相比 WakaTime，它专注于 AI 特定指标，帮助 CTO 在 AI 热潮中控制预算，确保投资回报率，同时保护开发者隐私，不窃取代码内容，仅分析元数据，适合合规要求严格的企业环境采用。该工具解决了 AI 普及后企业面临的成本黑箱问题。",
+    "tags": [
+      "New",
+      "DevOps",
+      "Cost Management"
+    ],
+    "link": "https://github.com/use-junction/usejunction",
+    "date": "2026-10-02",
+    "id": "17909705181342"
+  },
+  {
+    "title": "实战案例：利用 AI 代理一夜重构 NPM 包为 Rust 引擎",
+    "summary": "维护者利用 AI 代理协作，一夜之间将 wait-on 包重构为 Rust 实现。",
+    "detail": "资深工程师 Kevin Old 分享利用 AI 代理维护热门 NPM 包 wait-on 的实战经验。通过 Compound Engineering 计划，AI 代理 overnight 并行工作，完成了 Rust 引擎重构并通过全部 496 项测试。案例证明在良好 guardrails 下，AI 代理可加速核心库维护，但需警惕供应链风险。他作为新维护者，仅用一周便设定方向并推进，而非数月阅读旧代码。这为 AI 驱动的软件维护提供了可信赖的高速度工作流参考。过程包括计划、steering 及验证，强调人类监督的重要性。此模式可复制到其他开源项目，展示 AI 代理在遗留代码现代化中的潜力，但也提醒需建立严格的测试套件以确保重构安全性，防止引入回归错误。此次合作体现了社区传承与 AI 效率的结合。",
+    "tags": [
+      "Dev",
+      "Agents",
+      "Rust"
+    ],
+    "link": "https://www.kevinold.com/blog/a-week-maintaining-wait-on",
+    "date": "2026-10-02",
+    "id": "17909705181343"
+  },
+  {
+    "title": "BMAD-METHOD：敏捷 AI 驱动开发的新方法论",
+    "summary": "GitHub 开源 BMAD 方法，旨在将想法转化为软件而不放弃思考。",
+    "detail": "BMAD-METHOD 是一种敏捷 AI 驱动开发（AiDD）方法论，强调在利用 AI 生成代码时保留人类决策权。它覆盖从需求澄清到计划执行的全流程，确保上下文连贯且过程可调整。该方法适用于从周末原型到复杂系统的各种场景，帮助开发者在 AI 辅助下保持架构清晰度。通过明确的决策记录和上下文传递，避免过度依赖 AI 导致的技术债务。开源协议为 MIT，拥有 Discord 社区支持。核心在于“不放棄思考”，将 AI 视为协作伙伴而非替代者。适合团队采纳以标准化 AI 开发流程，提升交付质量，确保软件结构随需求演变而稳健成长，解决 AI 生成代码碎片化问题。该方法论定义了从模糊概念到清晰计划的交付循环，适应不同规模项目。",
+    "tags": [
+      "Dev",
+      "Methodology",
+      "Open Source"
+    ],
+    "link": "https://github.com/bmad-code-org/bmad-method",
+    "date": "2026-10-02",
+    "id": "17909705181344"
+  },
+  {
     "title": "AI 攻克不完全信息博弈：Stratego 迎来历史性突破",
     "summary": "AI 首次在 Stratego 游戏中击败历史最佳玩家，实现不完全信息博弈里程碑。",
     "detail": "**背景**：Stratego 棋类游戏因大部分信息隐藏，复杂度极高，长期难倒 AI 系统，被视为人工智能领域的难点。**进展**：Ars Technica 最新报道指出，AI 现已在预算可控的情况下，击败了历史上最好的 Stratego 人类玩家，实现技术突破。**影响**：标志着 AI 在不完全信息决策领域取得重大进展，证明算法在处理模糊信息时的成熟度，为复杂现实场景应用奠定基础。且成本控制显示商业化潜力，这一成就打破了以往 AI 仅在完全信息博弈中占优的局面，显示推理能力的新高度，对未来军事、经济模拟均有启示。此次突破不仅证明了算法的鲁棒性，也表明高性能 AI 不再必然伴随高昂成本，为中小企业应用提供新可能。",
@@ -1233,70 +1298,5 @@
     "link": "https://flaviocopes.com/fundamentals-ai-era/",
     "date": "2026-09-27",
     "id": "17905528465851"
-  },
-  {
-    "title": "T3rnel Browser：可对话的 DevTools 插件",
-    "summary": "支持 AI 驱动浏览器，一次性付费 29.99 美元。",
-    "detail": "这是一款让 AI 代理可驱动的真实浏览器插件。支持 CSS 检查、截图及与 Claude Code 等 MCP 客户端集成。特色在于“人类循环”，敏感信息脱敏，操作可中断。提供终身免费版，Pro 版一次性付费 29.99 美元，无订阅费，适合自动化测试与开发。支持 Chrome、Brave 等主流浏览器，Firefox 部分支持。不同于免费工具直接暴露数据，它强调安全阀机制，允许人类随时停止 AI 操作。时间线可回溯，方便调试错误。无需单独自动化浏览器，直接使用已登录会话，避免指纹 spoofing 问题，提升代理工作流的可信度与效率。该工具解决了现有自动化层非护城河的问题，主打人类监督 loop。支持 102 种工具，版本 1.2.0。对于需要高频浏览器交互的 AI 开发场景，提供了更安全的凭证管理方案。用户可在不切换环境的情况下，让 AI 操作已登录状态的浏览器，极大简化了复杂工作流的认证环节，是 AI Agent 落地的重要基础设施。",
-    "tags": [
-      "New",
-      "DevTools",
-      "Lifetime Deal"
-    ],
-    "link": "https://t3ratech.github.io/t3rnel-browser-plugin/",
-    "date": "2026-09-27",
-    "id": "17905528465852"
-  },
-  {
-    "title": "Squint：屏幕任意区域 AI 问答工具",
-    "summary": "框选屏幕内容即可提问，无需切换应用。",
-    "detail": "Squint 是一款桌面应用，通过快捷键冻结屏幕并框选区域，AI 答案直接流式显示在旁。解决了传统截图上传切换应用的繁琐流程。支持 Windows/Linux，macOS 即将上线。主打无干扰工作流，响应速度快，免费计划无需绑卡，提升即时查询效率。传统流程需 8 步，Squint 简化为 4 步，减少上下文切换成本。快捷键 Win+Shift+Q 即时激活，答案流式输出可配置。强调“成本不是分钟，而是注意力”，避免工作流中断导致思路冷却。适合需要频繁参考屏幕内容进行分析的场景，如调试、学习或数据核对，实现所见即所得的 AI 交互体验。该产品设计哲学在于消除物流式操作，让用户专注于思考问题本身。无需打开聊天窗口或上传文件，屏幕内容即问题。这种无缝集成降低了 AI 使用门槛，使查询成为本能反应而非决策负担。对于希望保持心流状态的开发者或知识工作者，提供了更轻量级的 AI 辅助方案，避免了传统多任务切换带来的认知负荷。",
-    "tags": [
-      "New",
-      "Productivity",
-      "Desktop App"
-    ],
-    "link": "https://heysquint.com/",
-    "date": "2026-09-27",
-    "id": "17905528465853"
-  },
-  {
-    "title": "Anthropic CEO 将与特朗普共进晚餐",
-    "summary": "Anthropic CEO 计划与特朗普总统晚餐，引发政策关注。",
-    "detail": "**背景**：Anthropic 作为领先 AI 安全公司，其 CEO 与美国总统特朗普的会晤备受瞩目。**影响**：此次晚餐可能预示著 AI 监管政策的动向，特别是在安全标准与行业发展之间的平衡。行业正在密切关注此次会面是否会影响未来的 AI 立法或行政命令，凸显了 AI 巨头与政治高层的紧密联系。",
-    "tags": [
-      "News",
-      "Policy",
-      "Anthropic"
-    ],
-    "link": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
-    "date": "2026-09-27",
-    "id": "17905428385910"
-  },
-  {
-    "title": "比尔·盖茨反对特朗普 AI 安全立场",
-    "summary": "比尔·盖茨公开表示特朗普反对 AI safeguards 是错误的。",
-    "detail": "**核心观点**：比尔·盖茨批评特朗普政府抵制 AI 安全保障措施的立场。**行业影响**：科技界领袖与政治高层在 AI 安全议题上的分歧加剧。盖茨强调 safeguards 的必要性，这可能影响公众舆论及投资者对 AI 风险评估的看法，加剧政策博弈，显示主流科技界对监管的支持态度。",
-    "tags": [
-      "News",
-      "Safety",
-      "Policy"
-    ],
-    "link": "https://www.bloomberg.com/news/articles/2026-09-27/bill-gates-says-trump-is-wrong-to-hold-out-against-ai-safeguards",
-    "date": "2026-09-27",
-    "id": "17905428385911"
-  },
-  {
-    "title": "AI 基建债务风险随债券收益率上升",
-    "summary": "债券收益率飙升，依赖债务的 AI 公司面临成本增加风险。",
-    "detail": "**经济背景**：10 年期国债收益率升至 5.17%，创 2007 年以来新高。**行业影响**：AI 基础设施扩建成本大幅增加。摩根大通估计 2030 年前将发行 4.1 万亿美元 AI 相关债务。高借贷成本可能减缓数据中心建设速度，影响 AI 算力供应增长预期，给依赖债务的 AI 公司带来财务压力。",
-    "tags": [
-      "News",
-      "Finance",
-      "Infrastructure"
-    ],
-    "link": "https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html",
-    "date": "2026-09-27",
-    "id": "17905428385912"
   }
 ]
