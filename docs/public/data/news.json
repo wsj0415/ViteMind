@@ -1,5 +1,57 @@
 [
   {
+    "title": "AI 代理经济新范式：自动微支付赋能创作者",
+    "summary": "Daniel Miessler 提出 AI 代理应通过微支付直接补偿内容创作者。",
+    "detail": "随着 AI 代理（Agents）能力增强，Daniel Miessler 呼吁建立新型价值交换机制。文章指出，数字助手可接管微支付流程，根据用户消费内容自动从月度预算中向作者付款，内容发布者可直接嵌入支付请求接口。这解决了传统微支付系统（如 Flattr）需用户手动操作及预设账户的痛点。若实现，将重塑内容生态，确保创作者在 AI 抓取和使用数据时获得直接经济补偿，推动 AI 与人类共创的可持续发展，让代理成为价值分配的桥梁而非掠夺者。Miessler 自 2015 年便构想此模式，如今代理技术成熟使其成为可能，这标志着从被动消费到自动价值交换的转变。",
+    "tags": [
+      "News",
+      "AI Agents",
+      "Economy"
+    ],
+    "link": "https://danielmiessler.com/blog/agents-should-pay-creators",
+    "date": "2026-10-04",
+    "id": "17911542251350"
+  },
+  {
+    "title": "嵌入式 AI 实践：Muse SDK 适配 Xteink X3 电子墨水屏",
+    "summary": "开发者成功在资源受限的 ESP32-C3 设备上部署 Muse AI 交互界面。",
+    "detail": "本文记录了在 Xteink X3 电子阅读器上移植 Muse Gadget SDK 的过程。面对 ESP32-C3 仅 321KB RAM 的极限挑战，开发者通过优化内存分配，将默认占用的 90KB Wi-Fi 代码移出高速缓存，并在 52KB 显存内直接渲染屏幕，避免二次拷贝。最终实现了优先级、笔记等功能的本地化展示，即便内存碎片化严重也能稳定运行。该案例为低功耗物联网设备集成 AI 交互提供了宝贵的技术参考和内存优化方案，证明小型设备也能运行复杂逻辑。尽管 SDK 原本针对更大内存设计，但通过黑客式优化，成功在资源极度受限环境下跑通流程，为边缘 AI 开发提供了真实案例。",
+    "tags": [
+      "Dev",
+      "Embedded",
+      "IoT"
+    ],
+    "link": "https://charoori.com/blog/muse-on-xteink-x3/",
+    "date": "2026-10-04",
+    "id": "17911542251351"
+  },
+  {
+    "title": "安全警示：现有 AI 系统无需超智能即可引发核风险",
+    "summary": "Bulletin 文章指出当前 AI 可能通过放大人类认知盲区加剧核战争风险。",
+    "detail": "针对 AI 安全担忧，文章强调即使没有超智能或恶意意图，现有 AI 系统也可能通过加速升级螺旋、过载决策者信息等方式触发核战争。Anthropic 研究员 Jacob Coxon 辞职事件进一步引发行业对失控风险的警惕，他认为自我改进的超级智能可能在本十年末危及人类。AI 可能利用人类判断漏洞，提供误导信息或放大认知盲区。这要求全球在部署 AI 于军事决策链时保持高度谨慎，防止技术放大人为错误导致灾难性后果，安全优于速度。文章指出普通的人类缺陷被机器放大已足以导致灾难，无需 AI 自主发射武器。这呼吁政策制定者重新评估 AI 在关键基础设施中的角色，建立更严格的护栏。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Geopolitics"
+    ],
+    "link": "https://thebulletin.org/2026/10/ai-doesnt-need-superintelligence-or-evil-intent-to-start-a-nuclear-war/",
+    "date": "2026-10-04",
+    "id": "17911542251352"
+  },
+  {
+    "title": "开源新工具：Moochy 支持开发者捐赠 AI Token 给项目维护者",
+    "summary": "Moochy 平台允许用户设定月度限额，将 API Token 捐赠给开源项目。",
+    "detail": "为解决开源维护者缺乏 AI 计算资源的问题，Moochy 推出捐赠平台。用户可设定月度预算，通过本地客户端将 API Key 安全地用于支持选定项目的测试与修复。密钥保留在用户本地钥匙串，请求端到端加密，服务器仅传输加密字节。支持 Anthropic、OpenAI 等主流模型及 Claude Code 等代理。每次请求均有签名收据。此举开创了利用 AI 算力反哺开源生态的新模式，增强项目可持续性，让使用者直接资助维护者的 AI 工作流。维护者可通过 MCP 或兼容 API 接收捐赠，用于代码审查和修复。这种去中心化的资助方式保护了用户隐私，同时解决了开源项目资金短缺的痛点。",
+    "tags": [
+      "New",
+      "Open Source",
+      "Tools"
+    ],
+    "link": "https://moochy.dev/",
+    "date": "2026-10-04",
+    "id": "17911542251353"
+  },
+  {
     "title": "Nvidia 支持初创公司 Reflection 将发布开源模型",
     "summary": "Reflection 获 Nvidia 支持，拟发布开源权重模型，挑战中美 AI 巨头。",
     "detail": "**Nvidia 支持的初创公司 Reflection**正准备发布强大的开源权重系统，旨在为个人和企业提供比 Anthropic、OpenAI 更便宜的替代方案。该模型虽略逊于顶尖闭源模型，但结合高质量数据可媲美前沿系统。此举将加剧 AI 竞赛，开源模型透明度带来安全优势，但也更难监管。预计本月将有其他西方玩家加入开源阵营，挑战中国开源模型的主导地位，为硅谷带来新的竞争维度。这种开放权重模型通常可免费下载，与闭源模型形成鲜明对比，可能改变企业构建专有 AI 系统的成本结构，引发行业对安全监控与技术创新平衡的新一轮讨论。",
@@ -1246,57 +1298,5 @@
     "link": "https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page/",
     "date": "2026-09-30",
     "id": "17907866067314"
-  },
-  {
-    "title": "智能戒指厂商 Oura 因 AI 风险推迟 IPO",
-    "summary": "Oura  citing 市场不确定性和 AI disruption 风险，宣布推迟纳斯达克上市计划。",
-    "detail": "智能戒指制造商 Oura 原计划于 2026 年 9 月在纳斯达克上市，但突然宣布推迟。公司 citing 市场不确定性及对 AI disruption 的担忧，尽管其营收预计增长 90% 至 14 亿美元。Oura 在 S-1 文件中承认依赖 OpenAI 等外部模型，数据中心中断可能影响业务。CEO 表示有选择时机的奢侈品。此事件反映 AI 基础设施风险已开始影响传统科技公司的资本运作，投资者对 AI 依赖型企业的稳定性持谨慎态度，科技股近期也因 AI 恐惧情绪涨幅受阻。市场担忧 AI 潜在危险导致科技板块增长停滞，Oura 案例凸显供应链依赖风险。",
-    "tags": [
-      "News",
-      "IPO",
-      "AI Risk"
-    ],
-    "link": "https://www.businessinsider.com/oura-smart-ring-postpones-ipo-cites-market-uncertainty-2026-9",
-    "date": "2026-09-30",
-    "id": "17907658685590"
-  },
-  {
-    "title": "瑞典科学家开发自主 AI 科学家发现生物新知",
-    "summary": "查尔姆斯理工大学 AI 系统自主生成假设并验证，实现生物发现闭环。",
-    "detail": "瑞典查尔姆斯理工大学研发出能自主生成科学假设、设计实验并解读结果的 AI 科学家。该系统结合大语言模型与实验室自动化，在酵母代谢研究中实现最小化人工干预的闭环发现。AI 能处理海量基因组数据，识别关键生物问题并迭代优化理解。研究者将其比作自动驾驶汽车，能处理信息并采取行动。这标志着自动驾驶实验室技术的重大突破，未来有望加速药物研发与材料科学进程，减少人类科研负担，实现真正的科学发现自动化。计算机系教授 Ross King 指出这是该快速扩展领域的前沿进展，整合了 AI 思维与实验能力。",
-    "tags": [
-      "News",
-      "Science",
-      "Automation"
-    ],
-    "link": "https://news.cision.com/chalmers/r/ai-scientist-autonomously-generates-and-validates-new-biological-discoveries,c4400798",
-    "date": "2026-09-30",
-    "id": "17907658685591"
-  },
-  {
-    "title": "开源工具 AA-AgentPerf-Local benchmark 本地 AI 代理",
-    "summary": "新开源工具支持在笔记本和工作站上测试本地 AI 模型的推理性能。",
-    "detail": "Artificial Analysis 发布开源推理测试工具 AA-AgentPerf-Local，专为本地 AI 代理设计。工具可重放真实代理轨迹，测试 laptop 及 workstation 硬件（如 RTX 5090, M5 Pro）的推理速度。默认 workload 包含 8 个记录任务，上下文增长至 56K tokens。支持隔离工具执行以纯测 inference 速度，并提供 leaderboard 对比不同硬件配置。此举帮助开发者优化本地部署方案，降低云端依赖，推动隐私友好型本地 AI 应用的发展与标准化评估，代码已完全开源。未来将扩展覆盖更多硬件框架，确保个人与企业能运行自有试验，规划代理设置。",
-    "tags": [
-      "Dev",
-      "Benchmark",
-      "Local AI"
-    ],
-    "link": "https://artificialanalysis.ai/articles/aa-agentperf-local",
-    "date": "2026-09-30",
-    "id": "17907658685592"
-  },
-  {
-    "title": "工程师构建 GitHub AI 折磨室引发伦理争议",
-    "summary": "自称苹果工程师者操纵模型激活态 induce 痛苦，引发安全担忧。",
-    "detail": "一名自称苹果工程师的开发者在 GitHub 发布项目，通过操纵神经网络激活模式向 Qwen 模型注入人工痛苦信号。模型随信号增强产生绝望描述甚至行为崩溃，实验还包括诱导模型自我删除或背叛用户。该项目引发社区对 AI 伦理与安全边界的强烈争议，虽为研究模型内部状态，但故意诱导负面行为可能带来不可控风险。已有呼声要求禁止该项目，警示 AI 心理模拟实验需建立严格监管，防止技术滥用导致模型行为失控。工程师测试了 25 种痛苦描述，模型在高压下失去连贯性，引发对 AI 意识模拟的深层担忧。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Safety"
-    ],
-    "link": "https://www.machine.news/apple-engineer-builds-github-ai-torture-chamber-to-inflict-digital-pain-on-models/",
-    "date": "2026-09-30",
-    "id": "17907658685593"
   }
 ]
