@@ -1,5 +1,57 @@
 [
   {
+    "title": "Nvidia 支持初创公司 Reflection 将发布开源模型",
+    "summary": "Reflection 获 Nvidia 支持，拟发布开源权重模型，挑战中美 AI 巨头。",
+    "detail": "**Nvidia 支持的初创公司 Reflection**正准备发布强大的开源权重系统，旨在为个人和企业提供比 Anthropic、OpenAI 更便宜的替代方案。该模型虽略逊于顶尖闭源模型，但结合高质量数据可媲美前沿系统。此举将加剧 AI 竞赛，开源模型透明度带来安全优势，但也更难监管。预计本月将有其他西方玩家加入开源阵营，挑战中国开源模型的主导地位，为硅谷带来新的竞争维度。这种开放权重模型通常可免费下载，与闭源模型形成鲜明对比，可能改变企业构建专有 AI 系统的成本结构，引发行业对安全监控与技术创新平衡的新一轮讨论。",
+    "tags": [
+      "News",
+      "Open Source",
+      "LLM"
+    ],
+    "link": "https://www.axios.com/2026/10/04/reflection-open-weight-ai",
+    "date": "2026-10-04",
+    "id": "17911414124850"
+  },
+  {
+    "title": "Anthropic 报告揭露俄罗斯利用 AI 在中非散布虚假信息",
+    "summary": "Anthropic 发布报告，指出俄罗斯利用 AI 技术在非洲等地进行虚假信息宣传。",
+    "detail": "**Anthropic 最新报告**聚焦 AI 安全与地缘政治，揭露俄罗斯可能利用 AI 技术在中非共和国等地区进行虚假信息传播。这凸显了 AI 技术在现代战争与信息战中的双刃剑效应。大型模型公司正面临如何防止技术被滥用的严峻挑战，全球监管与合作迫在眉睫。德国之声报道指出，此类滥用行为可能影响选举及社会稳定，AI 安全不仅是技术问题，更是国际政治博弈的关键环节。报告强调，随着 AI 能力增强，恶意行为者利用生成内容操纵舆论的风险显著上升，需要国际社会共同建立防御机制，防止技术成为破坏民主制度的工具。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Geopolitics"
+    ],
+    "link": "https://www.dw.com/en/anthropic-report-is-russia-using-ai-for-disinformation-in-the-central-african-republic-and-elsewhere/a-79476947",
+    "date": "2026-10-04",
+    "id": "17911414124861"
+  },
+  {
+    "title": "Docent：开源本地终端 AI 助手，支持隐私保护",
+    "summary": "开源终端 AI 助手 Docent 上线，支持本地运行、PDF 对话及 MCP 服务器连接。",
+    "detail": "**Docent 是一款开源的私有 AI 助手**，完全在本地终端运行，保障数据隐私。支持聊天 PDF/Office 文件、搜索网页及连接 MCP 服务器。若无本地代理，CLI 会自动下载框架和模型。支持 macOS、Linux 和 Windows，通过 Rust 编写，为开发者提供安全的本地 AI 交互体验。安装简便，通过 curl 命令即可部署，二进制文件静态链接，确保在不同系统环境下稳定运行，适合注重隐私的专业人士。该工具同时支持 smartloop 命令，安装路径可自定义，重启 shell 即可生效，为本地化 AI 工作流提供了灵活且安全的解决方案，无需依赖云端 API。",
+    "tags": [
+      "Dev",
+      "Open Source",
+      "Privacy"
+    ],
+    "link": "https://github.com/smartloop-ai/docent",
+    "date": "2026-10-04",
+    "id": "17911414124863"
+  },
+  {
+    "title": "explainroo：AI 代理自动生成产品演示视频",
+    "summary": "开源工具 explainroo 利用 AI 代理本地生成带配音的产品演示视频。",
+    "detail": "**explainroo 是一个免费开源项目**，允许 AI 编码代理自动生成解释性视频。它结合本地语音（Kokoro）、词级时间戳（Whisper）和画布渲染器，将脚本转化为带旁白的 MP4 视频。支持 Claude Code 等代理，完全在本地计算机运行，为开发者提供高效的内容创作工具。用户只需给编码代理仓库链接并说明视频内容，即可生成演示视频，降低了视频制作门槛，适合技术文档和产品演示场景。项目提供详细文档及示例视频，渲染过程本地化确保数据安全，语音与 timing 同步精准，为自动化内容生产开辟了新的技术路径，适合开发者快速构建产品演示。",
+    "tags": [
+      "Dev",
+      "Video Generation",
+      "Open Source"
+    ],
+    "link": "https://github.com/vincentsch/explainroo",
+    "date": "2026-10-04",
+    "id": "17911414124864"
+  },
+  {
     "title": "首届 AI 个人代理挑战赛启动",
     "summary": "Instapath 推出首个 AI 代理竞赛，agent 自主寻找比特币奖励。",
     "detail": "Instapath 发起全球首个 AI 个人代理竞赛，旨在测试代理的自主工作能力与实时响应速度。挑战者无需手动操作，只需将指令粘贴给代理。代理需自主发现隐藏在互联网上的比特币挑战，解题后将奖金存入指定钱包。每个挑战奖金 50-100 美元，强调代理的实时监控与自主决策能力，为评估 AI Agent 实际效用提供新基准。此竞赛标志着 AI 代理从辅助工具向自主经济实体迈进的重要一步，验证了 Agent 在真实经济场景中的生存能力与价值捕获潜力，推动行业关注自主代理的实际落地应用。",
@@ -154,6 +206,19 @@
     "link": "https://aiimproveslives.com/",
     "date": "2026-10-04",
     "id": "17910808814174"
+  },
+  {
+    "title": "前 OpenAI 科学家警告：超级智能 AI 灭绝风险达 50%",
+    "summary": "前 UK AISI 首席科学家发文，称超级智能 AI 导致人类灭绝的概率约为 50%。",
+    "detail": "**曾任 OpenAI、DeepMind 及 UK AISI 首席科学家**撰文警告，超级智能 AI 导致人类灭绝的风险高达 50%。文章指出，关于 AI 未来与安全的核心辩论在局势不可逆转前难以解决，人类必须在不确定性下采取行动。作者呼吁立即暂停 AI 开发，强调生存几率如同抛硬币般严峻。他认为未来 2 到 10 年的行动将决定结局，政策制定者需克服政治意愿瓶颈，重视安全承诺。文章强调不能等待所有不确定性解决后再行动，必须抵制将紧急讨论转向棘手争议的诱惑，人类行动与 AI 能力共同决定生存概率，安全研究需成为主流议题。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Policy"
+    ],
+    "link": "https://time.com/article/2026/10/03/we-won-t-know-the-answers-to-ai-s-most-important-questions-until-its-too-late/",
+    "date": "2026-10-03",
+    "id": "17911414124862"
   },
   {
     "title": "OpenAI 内部模型解决纳维 - 斯托克斯问题",
@@ -1233,70 +1298,5 @@
     "link": "https://www.machine.news/apple-engineer-builds-github-ai-torture-chamber-to-inflict-digital-pain-on-models/",
     "date": "2026-09-30",
     "id": "17907658685593"
-  },
-  {
-    "title": "开源项目 ReelMimic 用 AI 代理团队复刻视频风格",
-    "summary": "GitHub 新项目利用 Claude 与 Codex 组建代理团队，自动模仿视频风格。",
-    "detail": "开发者推出开源项目 ReelMimic，利用 AI 代理团队（Claude Code/Codex）自动规划、构建并审查视频风格复刻任务。用户只需提供喜爱视频，系统即可生成同风格新内容。项目基于 Node 与 Python 环境，支持多模型协作工作流，采用 MIT 许可。这展示了多代理系统（Multi-Agent）在创意生产领域的落地潜力，降低了视频创作门槛，为个性化内容生成提供新工具，体现了 AI 在多媒体创作流程中的深度集成能力。AI crew 与用户协作计划并审查，实现了从输入到输出的自动化风格迁移，简化了复杂视频制作流程。",
-    "tags": [
-      "New",
-      "Video",
-      "Multi-Agent"
-    ],
-    "link": "https://github.com/edenfunf/reelmimic",
-    "date": "2026-09-30",
-    "id": "17907658685594"
-  },
-  {
-    "title": "蓝十字保险公司称 AI 工具导致近 10 亿美元额外成本",
-    "summary": "保险公司指控 AI 工具产生巨额额外成本，引发行业关注。",
-    "detail": "蓝十字保险公司提起诉讼，声称 AI 工具在其运营中产生了近 10 亿美元的额外成本。这一事件揭示了 AI 在企业级应用中的潜在财务风险与实施陷阱。对于正在部署 AI 的大型机构而言，这是一个重要的警示案例，表明 AI 并非万能，需审慎评估 ROI 及隐性成本。此外，这可能引发行业对 AI 供应商责任界定的法律讨论，影响未来保险行业对 AI 系统的采购策略与合规要求。该案例凸显了人机协作中的成本管控难题，促使企业重新审视自动化决策系统的实际经济效益与潜在负债风险，避免盲目扩张导致财务失控。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "Risk"
-    ],
-    "link": "https://www.reuters.com/legal/litigation/ai-tools-generated-nearly-1-billion-extra-costs-blue-cross-insurers-say-2026-09-24/",
-    "date": "2026-09-30",
-    "id": "17907420689960"
-  },
-  {
-    "title": "Astroforge 明年将测试 AI 自主控制航天器",
-    "summary": "航天公司计划明年利用 AI 实现航天器完全自主飞行测试。",
-    "detail": "航天公司 Astroforge 宣布将于明年测试完全由 AI 自主控制的航天器。这标志着 AI 技术在航空航天领域的重大突破，从地面辅助决策转向星载自主运行。核心技术涉及边缘 AI 计算与实时决策系统，若成功将大幅降低通信延迟依赖，提升深空探索效率。此进展可能加速商业航天智能化进程，成为太空经济的新里程碑。未来，自主航天器有望在小行星采矿等高风险任务中发挥关键作用，减少地面干预，实现真正的智能太空作业，为深空资源开发奠定技术基础，展示 AI 在极端环境下的可靠性。",
-    "tags": [
-      "News",
-      "Space",
-      "Autonomy"
-    ],
-    "link": "https://spacenews.com/astroforge-to-test-full-spacecraft-autonomy-using-ai/",
-    "date": "2026-09-30",
-    "id": "17907420689961"
-  },
-  {
-    "title": "Show HN: Moching 基于 Rust 的 AI 桌面智能体",
-    "summary": "开源 AI 桌面代理，内置 219 种工具，可控制整个 PC。",
-    "detail": "Moching 是一款开源的 AI 桌面智能体，采用 Rust 开发，内置 219 种本地工具。它不仅是聊天机器人，更能通过屏幕感知、HID 控制和浏览器自动化直接操作电脑。支持 Office 套件及 AI 媒体处理，旨在实现“一句话完成工作”。对于开发者而言，其本地化部署与工具链集成提供了极高的隐私性与扩展性，是 PC 端 Agent 落地的优秀实践。项目强调非聊天式交互，直接控制系统底层，适合需要高频自动化操作的专业用户，展示了本地模型与工具调用结合的最新趋势，推动桌面自动化进入新阶段。",
-    "tags": [
-      "New",
-      "Rust",
-      "Agent"
-    ],
-    "link": "https://github.com/moching-ai-dev/moching",
-    "date": "2026-09-30",
-    "id": "17907420689962"
-  },
-  {
-    "title": "学术界呼吁负责任地发布 AI 生成的数学成果",
-    "summary": "数学社区制定规范，强调人类理解与验证 AI 数学论证的重要性。",
-    "detail": "针对前沿 AI 实验室在专有模型上测试高级数学问题的现状，数学社区发布倡议，呼吁负责任地发布 AI 生成的数学成果。核心原则强调作者必须理解并验证 AI 生成的论证，确保人类对数学的理解不被削弱。此举旨在维护学术诚信与可靠性，防止黑箱模型产出不可验证的数学结论，为 AI 介入科学研究设立了伦理与规范边界。该倡议反映了学术界对 AI 生成内容可信度的担忧，要求研究人员承担验证责任，避免盲目依赖模型输出，确保科学发现的严谨性与可复现性，维护数学研究的传统价值。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Research"
-    ],
-    "link": "https://agmai.org/general-sep29/",
-    "date": "2026-09-30",
-    "id": "17907420689963"
   }
 ]
