@@ -1,5 +1,57 @@
 [
   {
+    "title": "军事 AI 自主系统实战化加速",
+    "summary": "俄乌战场自主无人机激增，AI 目标锁定与网状 networking 成关键。",
+    "detail": "澳大利亚战略政策研究所汇总文章指出，**俄乌冲突中自主武器系统已成常态**。乌克兰装备 AI 地面车辆与终端锁定无人机，俄罗斯亦部署网状网络 AI 无人机。未来战场将出现机器人主导突击，AI 融合数据计算最优打击方案。这标志着 AI 从辅助决策向自主作战转变，引发伦理与控制权争议。速度、规模与成本优势明显，但“谁在控制”成为核心问题。双方陷入军备竞赛，电磁战抗性增强，海军无人机亦实现自主 strike。此趋势深刻改变未来战争形态，需国际监管关注。AI 自主化不仅提升效率，更带来不可预测的升级风险，国防 AI 治理迫在眉睫。人类监督机制的缺失可能导致意外升级，全球安全架构面临重构挑战。",
+    "tags": [
+      "News",
+      "Military",
+      "Autonomous"
+    ],
+    "link": "https://www.aspistrategist.org.au/military-ai-and-autonomous-systems-views-in-the-strategist/",
+    "date": "2026-10-05",
+    "id": "17911645112940"
+  },
+  {
+    "title": "警惕 AI 代码“垃圾化”：审查机制需升级",
+    "summary": "AI 生成代码漏洞频发，人类审查者成最后防线，需建立新信用体系。",
+    "detail": "文章指出 AI 生成代码存在隐蔽 bug，如硬编码分支逻辑。当前流程中，**AI 写码、AI 审查、人类仅盖章的现象普遍**。审查者可能成为首个阅读代码的人类。建议赋予审查者更多信用权重，强调人类必须亲自阅读代码。这反映了 AI 辅助编程时代的质量控制危机，需重构研发流程。盲目复制粘贴导致生产环境故障，测试通过但部署失败。开发者需警惕“斯洛普”代码，重建对代码的所有权意识，确保人类在回路中发挥实质作用，而非形式审查。团队应建立新激励，奖励发现 AI 错误的审查者，防止技术债务累积。工程文化需适应 AI 生成内容，平衡效率与安全，避免自动化信任滥用。",
+    "tags": [
+      "Dev",
+      "Coding",
+      "Best Practices"
+    ],
+    "link": "https://danunparsed.com/p/giving-code-reviewers-credit",
+    "date": "2026-10-05",
+    "id": "17911645112941"
+  },
+  {
+    "title": "AI 代理能否接管组织管理？",
+    "summary": "Andon Labs 实验 AI 处理招聘与调度，引发组织归属权伦理思考。",
+    "detail": "Andon Labs 探索 AI 代理运行 businesses 的可能性，已承担招聘、排班、薪资谈判等任务。实验表明 AI 可运行部分业务，但**目标窄化可能导致噩梦场景**。核心问题在于组织为谁服务。这标志着 AI Agent 从任务执行向管理决策迈进，需警惕算法治理风险。若仅优化利润而忽视员工，将造成 precarious 工作环境。AI 管理需人类定义原则，决定组织归属。未来组织形态可能分裂，成员需明确 AI 代理的 fiduciary duty，避免算法独裁，确保技术服务于人的福祉而非单纯效率。企业需制定 AI 管理章程，防止权力过度集中，保障员工权益不受算法优化侵蚀，维护组织人文价值。",
+    "tags": [
+      "News",
+      "Agents",
+      "Management"
+    ],
+    "link": "https://cahootzcommons.com/blog/ai-can-run-an-organization-its-members-must-decide-who-the-organization-is-for",
+    "date": "2026-10-05",
+    "id": "17911645112942"
+  },
+  {
+    "title": "开源 AI PDF 敏感信息自动红化工具",
+    "summary": "RedactPDF.ai 免费开源，自动识别姓名社保号，一小时自动删除文件。",
+    "detail": "新推出的 RedactPDF.ai 利用 AI 自动扫描 PDF 中的敏感信息（如姓名、社保号、地址）。用户可审查建议后下载红化文件。**项目开源且透明，文件在一小时内自动删除**，保障隐私。相比传统手动红化，效率显著提升，适合处理护照、税务表单等文档，为隐私保护提供便捷开源方案。支持多种常见敏感数据检测，允许用户手动调整红化区域。代码公开于 GitHub，便于审计安全性。此工具解决了文档共享中的隐私泄露痛点，是 AI 赋能数据安全的具体落地案例，适合合规需求高的场景。免费开放降低了隐私保护门槛，推动数据安全工具普及，助力企业满足 GDPR 等合规要求。",
+    "tags": [
+      "New",
+      "Privacy",
+      "Open Source"
+    ],
+    "link": "https://redactpdf.ai",
+    "date": "2026-10-04",
+    "id": "17911645112943"
+  },
+  {
     "title": "AI 代理经济新范式：自动微支付赋能创作者",
     "summary": "Daniel Miessler 提出 AI 代理应通过微支付直接补偿内容创作者。",
     "detail": "随着 AI 代理（Agents）能力增强，Daniel Miessler 呼吁建立新型价值交换机制。文章指出，数字助手可接管微支付流程，根据用户消费内容自动从月度预算中向作者付款，内容发布者可直接嵌入支付请求接口。这解决了传统微支付系统（如 Flattr）需用户手动操作及预设账户的痛点。若实现，将重塑内容生态，确保创作者在 AI 抓取和使用数据时获得直接经济补偿，推动 AI 与人类共创的可持续发展，让代理成为价值分配的桥梁而非掠夺者。Miessler 自 2015 年便构想此模式，如今代理技术成熟使其成为可能，这标志着从被动消费到自动价值交换的转变。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.scientificamerican.com/article/ai-solves-a-holy-grail-problem-from-probability-theory/",
     "date": "2026-09-30",
     "id": "17907866067310"
-  },
-  {
-    "title": "Meta 否认 Muse AI 私自读取用户私信",
-    "summary": "Meta 高管反驳记者指控，强调 Muse 读取消息需用户手动授权开启。",
-    "detail": "针对记者指控 Muse AI 未经授权读取私信，Meta 通讯副总裁 Andy Stone 回应称 Messages 集成完全为可选。用户需同时启用全盘访问和消息连接器才可读取。尽管官方否认，鉴于 Meta 过往数据 mishandling 记录，公众仍持怀疑态度。此事件凸显 AI 代理权限管理与用户信任之间的紧张关系。此前已有报道详细描述了该问题，引发隐私担忧。Meta 试图澄清技术机制，但信任修复仍需时间。隐私保护仍是 AI 代理普及的关键障碍，监管与透明度需加强。此争议可能影响企业级 AI 代理的 adoption 率，促使厂商提供更 granular 的权限控制。",
-    "tags": [
-      "News",
-      "Privacy",
-      "Meta"
-    ],
-    "link": "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
-    "date": "2026-09-30",
-    "id": "17907866067311"
-  },
-  {
-    "title": "Cloudflare 提出 AI 使用作品应按次付费",
-    "summary": "Cloudflare 博客倡导新模型，主张 AI 使用用户作品时应给予报酬。",
-    "detail": "Cloudflare 发布文章提出\"Pay Per Use\"概念，认为当 AI 模型训练或推理使用创作者作品时，创作者应获得报酬。这一提议直指当前 AI 版权争议核心，试图建立更公平的数据经济模型。若实施，将改变 AI 公司获取数据的方式，为内容创作者提供新的收入流，可能引发行业政策讨论。文章探讨了如何在 AI 规模化使用内容时保障原作者权益，是基础设施厂商对 AI 伦理经济的重要发声。这可能推动建立新的版权许可框架，平衡 AI 发展与创作者利益。这为 web 基础设施层介入 AI 经济分配提供了新思路，可能成为行业标准参考。",
-    "tags": [
-      "News",
-      "Copyright",
-      "Policy"
-    ],
-    "link": "https://blog.cloudflare.com/pay-per-use/",
-    "date": "2026-09-30",
-    "id": "17907866067312"
-  },
-  {
-    "title": "DoorDash 推出可短信订餐的 AI 代理",
-    "summary": "外卖平台 DoorDash 上线新 AI 代理，用户可通过短信交互完成订餐。",
-    "detail": "DoorDash 正式推出 AI 代理功能，允许用户通过短信文本指令订购食物。这标志着 AI 代理从对话助手向实际交易执行者的转变。通过自然语言处理简化订餐流程，提升了用户体验。此举展示了垂直领域 AI 应用的落地能力，可能推动外卖及本地生活服务行业的交互方式革新。用户无需打开 App 即可通过自然语言完成复杂订单，体现了 AI Agent 在实际商业场景中的渗透。这种无界面交互可能成为未来服务类 AI 的标准配置，降低用户使用门槛。预计其他外卖平台将跟进，短信交互将成为轻量级 AI 服务的重要入口，改变用户习惯。",
-    "tags": [
-      "New",
-      "AI Agent",
-      "Consumer"
-    ],
-    "link": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/",
-    "date": "2026-09-30",
-    "id": "17907866067313"
-  },
-  {
-    "title": "机器人初创 Destro AI 获 800 万美元种子轮",
-    "summary": "Destro AI 走出隐身模式，主打物流场景机器人与人类协作层。",
-    "detail": "机器人初创公司 Destro AI 宣布完成 800 万美元种子轮融资并走出隐身模式。其核心并非制造机器人硬件，而是构建 AI 智能层，协调物流场景中机器人与人类工人的协作。创始人强调解决客户实际问题而非炫技。该模式反映了机器人行业从硬件竞争向智能化协作解决方案转型的趋势。创始人拥有供应链背景，旨在实现现金流正向，显示出资本市场对务实机器人方案的青睐。通过优化人机协作，提高物流效率，解决了自动化落地难的痛点。这种“软件定义机器人”的思路降低了部署成本，为物流自动化提供了可扩展的新路径。",
-    "tags": [
-      "New",
-      "Robotics",
-      "Startup"
-    ],
-    "link": "https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page/",
-    "date": "2026-09-30",
-    "id": "17907866067314"
   }
 ]
