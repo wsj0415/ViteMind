@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 开发新范式：Gauntlet Loop 提示技巧",
+    "summary": "Claude Opus 5 单提示生成 5.5 万行代码游戏，揭示全新代理工作流。",
+    "detail": "开发者 Matt Shumer 发现了一种名为\"Gauntlet Loop\"的提示技巧，通过让 AI 代理不断对比更高标准而非单次输出，显著提升了生成质量。该技巧成功用于生成完整的 Call of Duty 风格游戏，包含 5.5 万行代码及所有素材。此方法已开源，适用于代码、网站设计及产品设计，标志着 AI 代理自主工作流的重大突破，为复杂任务自动化提供了新路径。此前因质量过高被质疑造假，开源后验证了真实性。",
+    "tags": [
+      "Dev",
+      "Prompt Engineering",
+      "AI Agents"
+    ],
+    "link": "https://somethingbig.ai/gauntlet-loop",
+    "date": "2026-10-05",
+    "id": "17911890120250"
+  },
+  {
+    "title": "巨头共识：AI 放缓法案背后的行业信号",
+    "summary": "Altman、Amodei 与 Musk 罕见达成一致，支持 AI 放缓与安全监管。",
+    "detail": "三位 AI 领域 rival CEO 在 Sanders-Casar 法案上突然达成共识，认为 AI 发展过快存在危险。播客分析指出，这不仅是安全考量，也可能是商业策略的一部分。行业领袖对“太危险”叙事的统一口径，预示着监管政策可能加速落地，企业需重新评估合规风险与研发节奏，AI 行业可能进入稳健发展期。此共识打破了以往竞争格局，显示安全议题已成行业最高优先级。",
+    "tags": [
+      "News",
+      "Policy",
+      "Industry"
+    ],
+    "link": "https://datascienceathome.com/ai-slowdown-why-altman-amodei-musk-suddenly-agree-ep-313/",
+    "date": "2026-10-05",
+    "id": "17911890120251"
+  },
+  {
+    "title": "决策 API 对决：TypeSafe Jev 与 Perplexity 对比",
+    "summary": "深度评测两款决策模型 API 的输入、接口及适用场景差异。",
+    "detail": "文章对比了 TypeSafe AI 的 Jev 与 Perplexity 的 Decisions API。两者均遵循决策模型模式，但 Jev 专注文本与 JSON，Perplexity 支持图像且公开模型权重。接口在问题类型（choice, score, noul）上相似，但端点与认证不同。开发者应根据应用证据需求选择，文本工作流可对比预测结果，多模态需求则倾向 Perplexity，为 AI 应用集成提供明确选型指南。注意 Jev 还有 AI Gateway 集成版本，需区分端点。",
+    "tags": [
+      "Dev",
+      "API",
+      "LLM"
+    ],
+    "link": "https://vercel.com/i/jev-vs-perplexity",
+    "date": "2026-10-05",
+    "id": "17911890120252"
+  },
+  {
+    "title": "AI 时代的管理寓言：速度陷阱与系统理解",
+    "summary": "新版《凤凰项目》寓言，警示 AI 加速下工程团队的理解危机。",
+    "detail": "《The Velocity Trap》被誉为 AI 时代的《凤凰项目》，通过医疗与工程案例揭示速度带来的隐患。当工程团队发货速度前所未有却不再理解系统时，风险悄然累积。资深工程师的警告被忽视，junior 工程师无法追踪变更。该寓言警示企业在追求 AI 驱动的效率时，不可忽视系统可解释性与团队认知同步，避免技术债务爆发。故事背景设定在 Clerkenwell 餐厅与工程楼层，极具警示意义。",
+    "tags": [
+      "News",
+      "Management",
+      "Engineering"
+    ],
+    "link": "https://colineberhardt.github.io/the-velocity-trap/",
+    "date": "2026-10-05",
+    "id": "17911890120253"
+  },
+  {
+    "title": "全球 AI 会议导航：3D 地球可视化日历",
+    "summary": "全新工具展示未来 12 个月全球 AI 会议，支持 3D 交互查看。",
+    "detail": "AI Events World 推出了基于 3D 地球的 AI 会议日历，涵盖未来 12 个月内全球 31 场活跃会议。用户可旋转地球查看标记，点击获取详情，如阿姆斯特丹 World Summit AI 及纽约 AI Engineer 会议。该工具移除了过往事件，每城市仅显示一场，帮助从业者高效规划参会行程，是跟踪行业线下活动的实用导航工具。支持每月邮件订阅，确保用户不错过关键行业聚会与技术交流机会。",
+    "tags": [
+      "New",
+      "Tools",
+      "Events"
+    ],
+    "link": "https://aieventsworld.com/en/",
+    "date": "2026-10-05",
+    "id": "17911890120254"
+  },
+  {
     "title": "军事 AI 自主系统实战化加速",
     "summary": "俄乌战场自主无人机激增，AI 目标锁定与网状 networking 成关键。",
     "detail": "澳大利亚战略政策研究所汇总文章指出，**俄乌冲突中自主武器系统已成常态**。乌克兰装备 AI 地面车辆与终端锁定无人机，俄罗斯亦部署网状网络 AI 无人机。未来战场将出现机器人主导突击，AI 融合数据计算最优打击方案。这标志着 AI 从辅助决策向自主作战转变，引发伦理与控制权争议。速度、规模与成本优势明显，但“谁在控制”成为核心问题。双方陷入军备竞赛，电磁战抗性增强，海军无人机亦实现自主 strike。此趋势深刻改变未来战争形态，需国际监管关注。AI 自主化不仅提升效率，更带来不可预测的升级风险，国防 AI 治理迫在眉睫。人类监督机制的缺失可能导致意外升级，全球安全架构面临重构挑战。",
@@ -1233,70 +1298,5 @@
     "link": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
     "date": "2026-09-30",
     "id": "17908029902850"
-  },
-  {
-    "title": "谷歌：AI 致漏洞披露量翻倍",
-    "summary": "谷歌威胁情报组称 AI 加速漏洞利用，月披露量增至 1 万以上。",
-    "detail": "**谷歌威胁情报组（GTIG）** 最新报告显示，AI 技术正显著改变漏洞发现与利用的速度及风险 profile。2026 年 1 月至 8 月，漏洞披露量从 5045 激增至每月超 1 万，今年已发生 141 起 exploited vulnerabilities。黑客利用 LLM 自动化分析补丁差异，快速 weaponize n-days 而非发现新 zero-days。这表明 AI 双刃剑效应凸显，攻击者效率提升迫使安全领域升级防御策略。预计短期至中期内，AI 辅助的漏洞利用将持续增长，企业需加强自动化防御以应对 AI 驱动的攻击浪潮，网络安全格局面临重构。安全团队需适应 AI 加速的威胁节奏，传统补丁管理流程可能失效，需引入 AI 对抗 AI 的防御机制。",
-    "tags": [
-      "News",
-      "Security",
-      "LLM"
-    ],
-    "link": "https://therecord.media/google-vulnerabilities-cyberattacks-ai",
-    "date": "2026-09-30",
-    "id": "17908029902851"
-  },
-  {
-    "title": "生产环境 AI 代理基准测试",
-    "summary": "Incident Arena 发布 AI 代理生产事故处理基准，对比成本与通过率。",
-    "detail": "**Incident Arena** 推出 AI 代理生产环境基准测试，对比不同模型在处理系统事故时的 Pass@1 与 API 成本。数据显示 GPT-6 Astra 等模型在特定任务上的表现与资源消耗关系，部分配置在 Pareto 前沿上表现优异。这为开发者评估 AI 代理落地生产环境的可靠性与经济性提供了关键量化依据，推动 AI Ops 发展。平台通过 3000 次试验 pooled over all 50 configurations，揭示 extra reasoning 带来的成本效益比。企业引入 AI 代理前需权衡性能与预算，该基准将成为生产级 AI 部署的重要参考标准，加速自动化运维成熟。开发者可据此优化推理设置，避免过度消耗资源，实现性能与成本的最佳平衡，促进 AI 代理在关键任务中的可信 adoption。",
-    "tags": [
-      "Dev",
-      "Benchmark",
-      "Agent"
-    ],
-    "link": "https://incident-arena.com/",
-    "date": "2026-09-30",
-    "id": "17908029902852"
-  },
-  {
-    "title": "CM 推出 AI 代理对接端口",
-    "summary": "CM Ecosystem 发布 AI Docking Port，标准化代理查询住宿接口。",
-    "detail": "**CM Ecosystem** 发布 AI Docking Port，旨在教导 AI 代理如何正确查询住宿可用性。通过标准化机器可读 manifest 和 Reception 接口，避免 scraping 和插件依赖。这是一个去中心化尝试，允许独立安装节点间信任转发，为垂直领域 AI 代理互操作性提供了新范式，降低集成门槛。长期愿景是构建无需中央目录的分布式网络，类似本地 innkeeper 的自动化推荐。目前虽为 single-node MVP，但所有组件真实在线。这解决了 AI 代理与特定业务系统交互的标准化难题，为 hospitality 行业 AI 集成提供了可复制的基础设施方案，减少重复开发。未来可能扩展至其他垂直领域，实现 AI 代理间的无缝协作与信任传递，构建真正的去中心化 agent 网络。",
-    "tags": [
-      "Dev",
-      "Agent",
-      "Infrastructure"
-    ],
-    "link": "https://apartmamatevz.si/journal/posts/2026-09-30-cm-ai-docking-port-teaching-ai-agents-to-knock-on-the-right-door.html",
-    "date": "2026-09-30",
-    "id": "17908029902853"
-  },
-  {
-    "title": "Numerai AI 科学家预测股市",
-    "summary": "Numerai 平台提供混淆数据，开发者构建 AI 模型预测股票市场。",
-    "detail": "**Numerai** 平台邀请开发者构建 AI 模型预测股市，提供混淆后的量化特征数据。用户可使用 Python/R 脚本训练模型（如 XGBRegressor），参与锦标赛。这种众包模式利用全球数据科学家智慧，结合 AI 与金融预测，展示了去中心化对冲基金如何利用机器学习优化投资策略，降低过拟合风险。数据经过 obfuscated 处理以确保公平，目标变量代表未来数周的表现摘要。平台提供完整示例脚本，降低入门门槛。这种模式证明了 AI 在金融领域的实际应用潜力，通过集体智慧构建稳健模型，为量化交易提供了新的开源协作范式，吸引大量 staked models 参与竞争。参与者可通过 stake 模型获得奖励，形成激励相容的生态系统，推动金融 AI 模型不断进化。",
-    "tags": [
-      "Dev",
-      "Finance",
-      "MachineLearning"
-    ],
-    "link": "https://numer.ai/",
-    "date": "2026-09-30",
-    "id": "17908029902854"
-  },
-  {
-    "title": "Anthropic AI 攻克概率论“圣杯”难题",
-    "summary": "Anthropic 利用 AI 证明了渗透理论猜想，标志 AI 科研能力重大突破。",
-    "detail": "Anthropic 正式发布证明，成功解决了概率论中长期的渗透理论猜想。该问题曾被视作领域“圣杯”，涉及网络渗透性阈值，关乎随机事件如何形成连贯结构。著名数学家雨果·杜米尼尔 - 科平曾预言 AI 将率先解决，如今预言成真。此举不仅验证了 AI 在形式化数学证明上的潜力，也预示着 AI 辅助科研将成为新常态，可能加速基础科学发现进程。这展示了大模型在逻辑推理与科学探索上的深层能力，为 AI4Science 领域注入强心剂，表明 AI 已能处理高度抽象的数学结构，具有里程碑意义。这一突破表明 AI 不仅能处理语言任务，还能辅助人类解决深层次科学难题，未来可能在物理、生物等领域复制成功。",
-    "tags": [
-      "News",
-      "AI Research",
-      "Math"
-    ],
-    "link": "https://www.scientificamerican.com/article/ai-solves-a-holy-grail-problem-from-probability-theory/",
-    "date": "2026-09-30",
-    "id": "17907866067310"
   }
 ]
