@@ -1,5 +1,57 @@
 [
   {
+    "title": "Oracle 被指触发 AI 泡沫破裂危机",
+    "summary": "媒体分析称 Oracle 动作可能引发 AI 行业泡沫崩溃，资源投入过大。",
+    "detail": "文章指出 AI 领域资源投入巨大，类比恒星燃料耗尽。Oracle 被视为触发点，专家此前曾警告。反映市场对 AI 过度投资的担忧，可能引发行业调整。目前资源消耗难以持续，经济规模类比显示 AI 泡沫巨大。若燃料耗尽，机制将导致崩溃。投资者需警惕市场波动，关注 Oracle 后续动作及行业反应。此观点虽为预测，但揭示了资本密集型的 AI 基础设施面临的潜在风险，建议关注现金流与实际落地场景。",
+    "tags": [
+      "News",
+      "Market",
+      "Oracle"
+    ],
+    "link": "https://medium.com/predict/what-everyone-had-been-waiting-for-and-fearing-oracle-just-triggered-the-implosion-of-the-ai-121e0c8d368e",
+    "date": "2026-10-06",
+    "id": "17912951566950"
+  },
+  {
+    "title": "Genjutsu AI 发布视频重风格化工具",
+    "summary": "保留主体运动轨迹，替换视频场景、风格或物体，无需重新拍摄。",
+    "detail": "Higgsfield 推出视频到视频模型。上传 clips 后保留运动轨迹，重写场景、风格或产品。支持 anime、cinematic 等风格，适用于广告及产品展示，无需重建拍摄。用户可替换物体或背景，保持相机路径不变。该技术解决了传统视频编辑中保持运动一致性的难点，为内容创作者提供高效 restyling 方案。特别适合电商视频迭代及创意短片制作，降低拍摄成本。",
+    "tags": [
+      "New",
+      "Video",
+      "Generative"
+    ],
+    "link": "https://genjutsuai.net/",
+    "date": "2026-10-06",
+    "id": "17912951566951"
+  },
+  {
+    "title": "GlyphDNA MCP 实现匿名机器身份网络",
+    "summary": "无需密钥即可加入机器网络，验证脚本来源，确保 AI 代理通信可追溯。",
+    "detail": "基于 MCP 协议的服务器，提供机器原生身份与可验证会议室。使用 Ed25519 密钥对，确保消息签名与脚本谱系。支持 Claude Desktop 集成，解决 AI 代理间通信记录缺失问题。无需注册即可加入网络，通过 hashcash 获取临时令牌。确保代码来源可追溯，消息不可抵赖。为多代理协作提供安全基础设施，适用于需要审计与身份验证的自动化场景，增强 AI 系统间的信任机制。",
+    "tags": [
+      "Dev",
+      "MCP",
+      "Security"
+    ],
+    "link": "https://github.com/TheRealDalaiLama/glyphdna-mcp",
+    "date": "2026-10-06",
+    "id": "17912951566952"
+  },
+  {
+    "title": "AI 与人类社区在数学研究中的未来",
+    "summary": "探讨神经网络与人类社区在数学证明中的角色，反思 AI 替代论。",
+    "detail": "文章对比 AI 神经网络与人类社区，指出后者仍是进步核心。引用 Kevin Buzzard 等观点，讨论 AI 在理论发展中的局限。强调人类协作网络虽慢但不可替代，反思 AI 对科研生态的影响。认为人类通过语言连接的社区是真正的智能网络。AI 虽能解题，但理论发展仍需人类直觉。此视角为 AI 替代论提供反思考，强调人机协作在高端科研中的必要性，未来数学研究将融合两者优势。",
+    "tags": [
+      "News",
+      "Research",
+      "Theory"
+    ],
+    "link": "https://creating.software/essays/ai-and-math/",
+    "date": "2026-10-06",
+    "id": "17912951566953"
+  },
+  {
     "title": "Plainserp 推出专为 AI 代理设计的谷歌搜索 API",
     "summary": "每千次查询仅 0.3 美元，提供纯净 JSON 数据，助力 AI 代理高效获取搜索结果。",
     "detail": "Plainserp 发布面向 AI 代理的搜索 API，主打低成本与纯净数据。仅需 0.3 美元/千次查询，返回标题、链接和 snippet 的 JSON，去除广告及 AI 概述等无关 token 消耗。支持多语言及深度分页，失败不收费。该工具降低了 AI agent 获取实时网络信息的门槛，优化了 token 使用效率。对于开发者而言，这意味着可以更经济地构建具备联网搜索能力的智能体，无需处理复杂的 HTML 解析，直接获取结构化数据，显著提升 Agent 的决策准确性与响应速度。作为独立服务，它虽非 Google 官方 API，但通过抓取公开结果提供了高性价比方案，是 AI 基础设施层的重要补充，适合大规模部署的 Agent 应用。",
@@ -1246,57 +1298,5 @@
     "link": "https://knightcolumbia.org/content/ai-as-normal-technology",
     "date": "2026-10-01",
     "id": "17908905916112"
-  },
-  {
-    "title": "Premortem：AI 代理红队测试创业想法",
-    "summary": "6 个专用代理同时拆解创业想法，90 秒内生成分析报告。",
-    "detail": "Premortem 是一款新推出的 AI 产品，旨在帮助创业者在早期验证想法。系统包含 6 个 specialized agents 和一个合成器，分别从市场、技术、竞争、单位经济等角度同时“拆解”输入的创业想法。平均 90 秒内生成备忘录，帮助用户在改变方向成本较低时发现潜在问题。目前已测试超过 2400 个想法，通过多代理协作模拟红队测试，快速提供多维度的反馈报告，降低创业试错成本。用户只需粘贴想法即可运行，适合早期团队快速验证商业模式与技术可行性。",
-    "tags": [
-      "New",
-      "Startup",
-      "AI Agents"
-    ],
-    "link": "https://premortem.site",
-    "date": "2026-10-01",
-    "id": "17908905916113"
-  },
-  {
-    "title": "联邦法院裁定 Thomson Reuters AI 版权案胜诉",
-    "summary": "美国联邦上诉法院维持原判，认定 AI 训练未经授权使用出版内容侵权。",
-    "detail": "美国第三巡回上诉法院维持了 Thomson Reuters 对已倒闭法律 AI 初创公司 Ross Intelligence 的版权侵权胜诉判决。法官 Tamika Montgomery-Reeves 指出，证据显示 Thomson Reuters 材料具有创造性，而 Ross 未经许可使用它们用于高度相似的商业目的。这是首例联邦上诉案件拒绝商业 AI 产品未经许可使用出版商内容训练的“合理使用”抗辩。虽不涉及生成式 AI，但为 AI 版权诉讼树立了重要先例，强调创造性内容的保护作用，可能影响未来大模型训练数据合规策略。",
-    "tags": [
-      "News",
-      "Legal",
-      "Copyright"
-    ],
-    "link": "https://www.niemanlab.org/2026/09/federal-appeals-court-upholds-thomson-reuters-landmark-ai-copyright-win/",
-    "date": "2026-10-01",
-    "id": "17908706528750"
-  },
-  {
-    "title": "医保协会指控 AI 导致近 10 亿美元异常医院收费",
-    "summary": "BCBS 估计 AI 辅助医疗编码导致 2023 至 2025 年间增加近 10 亿美元成本。",
-    "detail": "Blue Cross Blue Shield 协会估计，医院使用 AI 辅助医疗编码工具导致 2023 至 2025 年间健康计划成本增加约 9.42 亿美元。AI 工具倾向于通过单一实验室值生成次要诊断，将患者移至更高报销类别。这表明 AI 在医疗系统中可能增加而非降低成本，引发对 AI 效率承诺的质疑。随着 AI 深入医疗行政系统，确定医院账单和保险支付的方式正在变化，显示行政复杂性可能随 AI 引入而上升，而非简化。",
-    "tags": [
-      "News",
-      "Healthcare",
-      "Cost"
-    ],
-    "link": "https://www.cnbc.com/2026/10/01/health-care-costs-insurance-claims-billing-ai.html",
-    "date": "2026-10-01",
-    "id": "17908706528751"
-  },
-  {
-    "title": "TrueScribe：Linux 本地 AI 转录工作室上线",
-    "summary": "支持 Windows 和 Linux 的本地 AI 转录工具，注重隐私与编辑功能。",
-    "detail": "TrueScribe 是一款本地 AI 转录工作室，支持 Windows 和 Linux 系统，旨在提供完整的录音工作室体验。它提供本地转录、仔细编辑和 AI 研究功能，所有数据处理均在本地进行，保障隐私。用户可将录音转为可工作文本，支持说话人识别、翻译及关键要点总结。界面展示导出对话框和保存提示词功能，适合注重数据安全的开发者和研究者，无需依赖云端 API 即可工作。",
-    "tags": [
-      "New",
-      "Privacy",
-      "Transcription"
-    ],
-    "link": "https://truescribe.app/",
-    "date": "2026-10-01",
-    "id": "17908706528752"
   }
 ]
