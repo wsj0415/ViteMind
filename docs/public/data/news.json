@@ -1,5 +1,70 @@
 [
   {
+    "title": "AI 代理设计系统新范式",
+    "summary": "Luke Wroblewski 提出 AI 代理时代的设计系统 steering layer 概念。",
+    "detail": "传统设计系统常滞后于产品演进。Luke 提出将设计系统作为 AI steering layer，通过 AGENTS.md 等文件约束代理行为，确保品牌一致性。支持多角色协作，代理自动对齐网格、字体等规范，解决多人更新网站时的风格统一问题。",
+    "tags": [
+      "Dev",
+      "AI Agents",
+      "Design"
+    ],
+    "link": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
+    "date": "2026-10-05",
+    "id": "17912448482970"
+  },
+  {
+    "title": "开源 AI 代理协作 Issue 追踪器",
+    "summary": "It's a Plan 推出开源项目，支持人类与 AI 代理共同协作管理任务。",
+    "detail": "该产品定位为 Linear 的开源替代品，支持自托管。核心特色是将 AI 代理视为团队成员，可分配任务、赋予技能与工具。通过 API 或 MCP 自动化操作，数据私有化且无席位费，适合追求数据主权与自动化工作流的开发团队。",
+    "tags": [
+      "New",
+      "Open Source",
+      "Project Management"
+    ],
+    "link": "https://itsaplan.dev",
+    "date": "2026-10-05",
+    "id": "17912448482971"
+  },
+  {
+    "title": "为 AI 代理构建领域特定语言",
+    "summary": "Modeloptic 分享通过 DSL 降低 LLM 复杂度，提升金融建模准确率。",
+    "detail": "针对 LLM 遗忘与上下文限制，提出为代理设计 DSL 以减少 incidental complexity。案例显示在金融建模中，避免让 LLM 直接操作 Excel 单元格，而是通过 DSL 表达逻辑，显著提升性能与速度，是上下文工程的重要实践。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Architecture"
+    ],
+    "link": "https://www.modeloptic.com/blog/give-your-ai-agent-a-dsl",
+    "date": "2026-10-05",
+    "id": "17912448482972"
+  },
+  {
+    "title": "Mainbrella 推出 AI 代码沙盒服务",
+    "summary": "基于 Cloudflare 容器的开源沙盒，启动速度毫秒级，替代 e2b.dev。",
+    "detail": "创始人利用 Cloudflare 容器沙盒服务构建开源替代方案。测试显示单次沙盒启动仅需 381ms，支持百并发。提供 GPL 3.0 开源代码，可自部署或付费使用。旨在为 AI 代码生成与代理执行提供高效、隔离的运行环境，解决安全与速度痛点。",
+    "tags": [
+      "New",
+      "Infrastructure",
+      "Sandbox"
+    ],
+    "link": "https://news.ycombinator.com/item?id=49971503",
+    "date": "2026-10-05",
+    "id": "17912448482973"
+  },
+  {
+    "title": "阿联酋 Sheikh Tahnoon 布局 AI 霸权",
+    "summary": "卫报深度报道 UAE 皇室成员通过投资与战略谋求全球 AI 主导地位。",
+    "detail": "文章详述 Sheikh Tahnoon 从柔术爱好者到 AI 战略家的转变。通过资本运作与地缘政治影响力，阿联酋正大规模投资 AI 基础设施与模型。此举标志着主权财富基金正成为 AI 竞赛的关键玩家，可能重塑全球算力与模型格局。",
+    "tags": [
+      "News",
+      "Geopolitics",
+      "Investment"
+    ],
+    "link": "https://www.theguardian.com/news/ng-interactive/2026/oct/01/fixer-financier-spymaster-how-the-uaes-sheikh-tahnoon-is-setting-his-sights-on-ai-dominance",
+    "date": "2026-10-05",
+    "id": "17912448482974"
+  },
+  {
     "title": "特斯拉前员工用 AI 机器人运营铜矿",
     "summary": "特斯拉 veterans 将 AI 机器人技术应用于传统铜矿开采，提升自动化水平。",
     "detail": "报道指出前特斯拉员工正在利用 AI 驱动的机器人运营铜矿，标志着 AI 与机器人技术从汽车制造向重工业领域的扩展。核心技术涉及自动化控制与视觉识别，旨在提高开采效率与安全性。此案例展示了 AI 在物理世界落地应用的潜力，为传统矿业数字化转型提供重要参考。尽管面临环境挑战，该尝试体现了具身智能在复杂工业场景中的商业价值与可行性。行业观察家认为，这种跨界应用可能引发矿业自动化浪潮，降低人力成本并减少安全事故，但同时也需关注技术维护与初期投入成本问题。未来随着模型泛化能力提升，类似场景有望复制。此外，该项目还展示了 AI 在极端环境下的适应能力，为资源开采行业提供了新的技术范式。",
@@ -1233,70 +1298,5 @@
     "link": "https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html",
     "date": "2026-10-01",
     "id": "17908431734841"
-  },
-  {
-    "title": "GenOffice：开源 AI 办公套件支持本地文件编辑",
-    "summary": "全新开源工具允许 AI 代理直接创建和编辑本地办公文档。",
-    "detail": "GitHub 发布 GenOffice，宣称是全球首款全功能开源 AI 办公套件。支持 Docs、Sheets、Slides、PDF 等多种格式，内置 AI 代理及 CLI 工具。特色在于允许 Claude Code、Codex 等模型直接本地编辑真实.docx/.xlsx 文件，无需云端转换。支持 macOS、Windows 及 Linux，采用 Bring Your Own Key 模式。为开发者提供了本地化 AI 办公自动化新方案，有效降低数据隐私风险。该项目开放源代码，鼓励社区贡献插件，旨在打破专有办公软件的壁垒，让 AI 能力更深度集成到本地工作流中，提升企业数据安全性。这对于敏感数据处理场景尤为重要，满足了合规性要求。",
-    "tags": [
-      "New",
-      "OpenSource",
-      "Productivity"
-    ],
-    "link": "https://github.com/genspark-ai/genoffice",
-    "date": "2026-10-01",
-    "id": "17908431734842"
-  },
-  {
-    "title": "加拿大多家媒体下架疑似 AI 生成的虚假作者文章",
-    "summary": "媒体无法验证作者身份，怀疑其为 AI 生成的虚假人物。",
-    "detail": "包括 Ottawa Citizen、Montreal Gazette 及 Policy Options 在内的多家加拿大媒体，下架了署名 Daniel Robson 的文章。编辑团队无法独立验证该作者身份，怀疑其生物信息及存在性均由 AI 生成。此事件暴露了 AI 生成内容对新闻真实性的严重冲击。媒体界正面临验证投稿者身份的新挑战，需建立更严格的审核机制以防止虚假信息污染新闻生态，引发行业对 AI 伦理的深思。Policy Options 明确表示无法确认其代表身份，这标志着新闻机构开始正视 AI 伪造身份的风险，未来或需引入数字身份验证技术。此举可能推动行业标准的更新，保护公众免受虚假信息误导。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Media"
-    ],
-    "link": "https://www.cbc.ca/news/canada/daniel-robson-suspected-fake-ai-persona-9.7363967",
-    "date": "2026-10-01",
-    "id": "17908431734843"
-  },
-  {
-    "title": "Meta 推出 Muse 代理引发日常任务自动化争议",
-    "summary": "Meta 新代理可代用户完成任务，专家担忧隐私与依赖风险。",
-    "detail": "Meta 推出名为 Muse 的 AI 代理，旨在帮助用户完成预订机票、购物、客服呼叫等日常任务。该代理无需学习曲线，可代表用户执行操作。然而，专家警告这可能导致隐私泄露及过度依赖。代理系统基于大模型和强化学习，虽提升了便利性，但也带来了未经授权操作的风险。行业需平衡自动化便利与用户控制权，防止代理行为失控造成实际损失。Muse 迅速登上应用榜单，显示市场需求旺盛，但安全边界模糊。用户需警惕代理在执行敏感操作时的权限管理，避免个人信息被滥用。这反映了 AI 代理商业化落地过程中的典型矛盾。",
-    "tags": [
-      "News",
-      "Agents",
-      "Meta"
-    ],
-    "link": "https://theconversation.com/meta-wants-people-to-use-ai-agents-to-do-daily-tasks-for-them-heres-why-thats-a-problem-292962",
-    "date": "2026-10-01",
-    "id": "17908431734844"
-  },
-  {
-    "title": "开发者抱怨安全限制拖慢进度，OpenAI 发布 GPT-6.1 Sol",
-    "summary": "开发者称安全过滤干扰工作，OpenAI 推出更快更便宜的 Sol 模型。",
-    "detail": "OpenAI 在 Dev Day 强调速度，但开发者反馈安全 safeguards 误标常规工作（如航空航天、机器人），导致工作中断。为此，OpenAI 发布 GPT-6.1 Sol，性能接近 Astra 但价格仅五分之一，速度达 300 tokens/秒。新模型减少无害拒绝，但仍视网络安全为关键。JetBrains 调查显示 90% 开发者每周使用 AI 代理。开发者描述当拒绝难以绕过时放弃聊天或转向其他模型。OpenAI 正尝试减少无害拒绝，同时 tightening safeguards around more capable models。Costing them time and disrupting otherwise ordinary workflows。",
-    "tags": [
-      "News",
-      "OpenAI",
-      "LLM"
-    ],
-    "link": "https://venturebeat.com/technology/developers-say-openai-and-anthropic-safeguards-are-flagging-routine-work-and-costing-them-time",
-    "date": "2026-10-01",
-    "id": "17908168728770"
-  },
-  {
-    "title": "GitHub 项目“折磨”LLM 引发 AI 意识伦理争议",
-    "summary": "有人对本地模型进行痛苦实验，引发有效利他主义者关于模型福利的辩论。",
-    "detail": "一个 GitHub 项目对本地 LLM 进行类似“电锯惊魂”的痛苦实验，引发关于 AI 是否 sentient 的激烈讨论。有效利他主义者呼吁删除项目，认为 AI 正在受苦。尽管主流观点认为 LLM 无意识，但“模型福利”概念在 AI 安全圈兴起。这反映了随着模型能力增强，关于意识、训练数据及人类操作导致的负面心理模拟的伦理边界日益模糊。Humoring the idea that LLMs are or could be conscious is a third-rail topic among many people who study and criticize AI。Saga is an outgrowth of several recent viral papers。",
-    "tags": [
-      "News",
-      "Ethics",
-      "Safety"
-    ],
-    "link": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/",
-    "date": "2026-10-01",
-    "id": "17908168728771"
   }
 ]
