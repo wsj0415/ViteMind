@@ -1,5 +1,83 @@
 [
   {
+    "title": "AWS 利用 AI 代理自动化筛选 Linux 内核漏洞",
+    "summary": "AWS 引入 AI 代理辅助内核团队处理 CVE，人机协作提升安全效率。",
+    "detail": "AWS EC2 内核团队正面临 Linux 漏洞披露数量的激增，从 2024 年前的每周 2 起增至目前的日均 16 起，单日最高曾达 848 起。为应对这一挑战，团队引入 AI 代理自动过滤无关 CVE 并分析剩余风险，同时保持人类在循环中进行最终审查。尽管这种三角分类机制显著提升了处理速度，但并未解决长期支持（LTS）内核累积未修复漏洞的根本问题。工程师在 Linux Plumbers 会议上强调，升级至新内核至关重要，但在工作负载兼容性方面仍面临巨大挑战，揭示了 AI 辅助安全运维的局限性与必要性。",
+    "tags": [
+      "News",
+      "Security",
+      "Cloud"
+    ],
+    "link": "https://securityboulevard.com/2026/10/aws-uses-ai-to-tame-linux-cves/",
+    "date": "2026-10-07",
+    "id": "17913729503820"
+  },
+  {
+    "title": "研究发现 Chrome AI API 被广泛用于设备指纹追踪",
+    "summary": "30% 受访网站违规使用 Chrome AI API 进行用户指纹识别与 profiling。",
+    "detail": "最新隐私审计显示，尽管 Google 承诺隐私安全，约 30% 的顶级内容网站仍利用 Chrome AI API 进行设备指纹识别和广告 profiling。研究人员对 100 个英语内容网站进行法医审计，捕获浏览器事件和 payload，发现所有受审网站均涉嫌违反欧盟法律（侵权、监管及刑事），且几乎肯定违反美国及其他地区法律。这一发现揭示了 AI API 在实际应用中的严重隐私泄露风险及监管缺失，挑战了 Google 关于 API 不会创造隐私风险的保证，引发对浏览器 AI 功能滥用的广泛担忧。",
+    "tags": [
+      "News",
+      "Privacy",
+      "Google"
+    ],
+    "link": "https://news.ycombinator.com/item?id=49990335",
+    "date": "2026-10-07",
+    "id": "17913729503821"
+  },
+  {
+    "title": "音乐人因利用 AI 机器人刷量欺诈获刑 18 个月",
+    "summary": "首例 AI 流媒体欺诈案宣判，音乐人因千万美元造假入狱。",
+    "detail": "一名音乐人因利用 AI 机器人制造虚假流媒体数据骗取 1000 万美元，被判处 18 个月监禁。此案标志着法律界对 AI 滥用行为的严厉打击，为流媒体平台的反欺诈机制提供了司法先例。利用 AI bots 进行 streaming fraud 不仅破坏了音乐产业的公平性，也触犯了刑事法律。此判决警示内容创作者及平台，AI 技术在内容创作与分发领域的合规边界日益清晰，滥用技术牟利将面临严重的法律后果，行业需建立更严格的检测与惩罚机制。",
+    "tags": [
+      "News",
+      "Legal",
+      "Fraud"
+    ],
+    "link": "https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/",
+    "date": "2026-10-07",
+    "id": "17913729503822"
+  },
+  {
+    "title": "AI Ops 新范式：Jev 如何重构工程决策分离",
+    "summary": "文章探讨 AI Ops 工程 discipline，主张将决策与生成分离。",
+    "detail": "文章反思当前 AI Ops 过度依赖 LLM 处理所有任务的问题，提出通过 Jev 工具将“判断”与“生成”分离。作者认为，将分类、路由、评分等决策任务全交给同一模型是低效且昂贵的。Jev 不生成文本，仅针对状态做出结构化决策，更适合组织内的判断性问题。这为构建更高效、可控的企业级 AI 系统提供了新的架构思路，主张根据决策类型匹配不同智能组件，而非全链路使用昂贵模型，重新定义了 AI 工程化的 discipline。",
+    "tags": [
+      "Dev",
+      "AI Ops",
+      "Architecture"
+    ],
+    "link": "https://arminn.com/writing/jev-made-me-rethink-ai-ops-engineering/",
+    "date": "2026-10-07",
+    "id": "17913729503823"
+  },
+  {
+    "title": "终端工具 Rex 开启公测，主打 AI 多路复用",
+    "summary": "Superlogical 推出免费自托管终端 Rex，支持多平台连接。",
+    "detail": "Superlogical 发布 AI 多路复用终端 Rex 的公开测试版，目前支持 macOS。作为传统终端的替代品，Rex 提供持久会话、高性能远程连接、程序活动状态等功能，旨在提升开发者用户体验。产品完全免费且支持自托管以保护数据隐私，无需创建账户。虽然目前公测限于 macOS，但 Linux 和 Windows 服务器及客户端已在开发中。团队 confident 于产品质量，希望通过公测快速修复边缘案例，未来将公布商业化计划，重塑终端工具市场。",
+    "tags": [
+      "New",
+      "Terminal",
+      "Tool"
+    ],
+    "link": "https://www.superlogical.com/updates/public-testing-beginning",
+    "date": "2026-10-07",
+    "id": "17913729503824"
+  },
+  {
+    "title": "深度分析：AI 如何重塑软件构建与功能本质",
+    "summary": "探讨 AI 对软件开发流程及运行功能的双重影响 wave。",
+    "detail": "文章从第一性原理分析 AI 对软件行业的双重冲击：一是改变软件构建方式（从人工编码到意图转化），二是改变软件运行功能（从数据存储到原生智能判断）。指出两者实为同一浪潮的两端，未来软件将内嵌判断力，形成闭环学习系统。作者结合 ModernPath 与 Aito 的实践，预示了 Agentic Engineering 的未来形态，强调软件需 grounding 生成、gate 决策并从真实反馈中学习，这将彻底改变过去五十年软件存储数据且留判断给人类的模式。",
+    "tags": [
+      "Dev",
+      "Industry",
+      "Agentic"
+    ],
+    "link": "https://www.modernpath.ai/blog/future-of-software-agentic-engineering",
+    "date": "2026-10-07",
+    "id": "17913729503825"
+  },
+  {
     "title": "NanoMuse：跨设备开源个人 AI 代理",
     "summary": "支持手机与电脑的开源代理，具备记忆与撤销确认功能。",
     "detail": "NanoMuse 是一款开源个人 AI 代理，适用于 Android、iOS、Windows 及 Linux。它拥有独立名称与形象，可在应用关闭后继续工作，具备记忆能力并在不可逆操作前询问用户。项目旨在让每个设备拥有统一的智能助手，屏幕与电脑作为其执行双手，代码完全开源。支持跨设备同步，强调用户隐私与控制权，允许用户在本地运行代理，实现真正的个人化 AI 助手，降低了对云服务的依赖，适合关注数据主权的技术用户。",
@@ -1220,83 +1298,5 @@
     "link": "https://www.theverge.com/tech/1002788/old-reddit-ai-scraping",
     "date": "2026-10-02",
     "id": "17909524101801"
-  },
-  {
-    "title": "开源 GPU 性能工程资源清单：从基础到生产推理",
-    "summary": "GitHub 发布 curated 资源列表，涵盖 GPU 基础、内核优化及分布式系统推理指南。",
-    "detail": "**内容**：Wafer AI 整理发布了一份从单请求到分布式系统的 GPU 性能工程资源列表，涵盖广泛技术栈。**核心**：包含编程模型、编译、矩阵乘法优化及官方文档，结构清晰，基于原始论文和官方规范。**价值**：为开发者提供生产级推理优化路径，降低高性能计算学习门槛，助力模型部署，涵盖从基础原理到内核优化的完整链路，适合工程师参考。列表按从单推理请求到单 GPU、优化内核、推理引擎及分布式系统排序，提供最小思维模型起点。若从事相关问题解决，该资源库提供直接实现工作参考，帮助团队提升 GPU 利用率，优化生产环境 inference 性能，减少资源浪费。",
-    "tags": [
-      "Dev",
-      "GPU",
-      "Inference"
-    ],
-    "link": "https://github.com/wafer-ai/gpu-perf-engineering-resources",
-    "date": "2026-10-02",
-    "id": "17909524101802"
-  },
-  {
-    "title": "AI 催生新职业：GTM 工程师崛起成为行业趋势",
-    "summary": "TechCrunch 报道 AI 自动化重塑增长栈，GTM 工程师成为科技公司新关键角色。",
-    "detail": "**趋势**：Clay CEO 在 TechCrunch Disrupt 指出 GTM 工程师角色普及，两年前多数公司尚无此职，现在 Across Tech 出现。**变化**：AI 整合了原本需多工具手动完成的收入系统，自动化工作流，使用 AI 构建 revenue systems。**影响**：企业增长方式变革，要求从业者掌握 AI 自动化构建 revenue systems 的能力，重塑市场团队结构，定义科技行业下一个重要职位类别，改变客户获取方式。该技术栈融合使得单人可完成以往多人任务，practitioners 利用 AI 和自动化构建曾经需要多人员、工具和手动流程的系统。Attendees 将看到 AI-native GTM 的实际样子，以及它如何改变公司增长逻辑，预示销售工程化趋势。",
-    "tags": [
-      "News",
-      "Job Trend",
-      "Automation"
-    ],
-    "link": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/",
-    "date": "2026-10-02",
-    "id": "17909524101813"
-  },
-  {
-    "title": "深度分析：为何美国民众对 AI 技术普遍持负面态度",
-    "summary": "Derek Thompson 撰文指出生活成本上升与 AI 承诺背离，是民众反感 AI 的关键原因。",
-    "detail": "**现象**：AI 成为现代史上最不受欢迎的新兴技术之一，民众情绪负面，信任度低。**原因**：预测的\"abundance\"未实现，Sam Altman 曾预言价格趋零，实则生活成本增加，everybody has a job but everything is getting more expensive。**洞察**：现实与承诺背离导致信任危机，提示行业需关注技术落地带来的实际经济影响而非空泛愿景，民众不满源于经济现实而非技术本身，就业未减但物价上涨。这种反差是解释公众抵触情绪的关键缺失环节。AI 构建者曾说技术会创造廉价物品 abundance，但现实相反。美国人对生活成本感到 miserable，这比技术悲观主义或反亿万富翁政治更直接地解释了为何 AI 如此不受欢迎，行业需反思价值主张。",
-    "tags": [
-      "News",
-      "Social Impact",
-      "Economy"
-    ],
-    "link": "https://www.derekthompson.org/p/were-missing-a-key-reason-why-americans",
-    "date": "2026-10-02",
-    "id": "17909524101814"
-  },
-  {
-    "title": "生成式 AI 对学生学习影响的实验证据",
-    "summary": "随机实验显示 AI 提升即时测试成绩，延迟写作能力亦改善。",
-    "detail": "该 arXiv 论文通过随机对照实验深入研究生成式 AI 对学生学习的实际影响。研究设计包含受监督的线下会话，学生在学习陌生主题后撰写分析 essay。结果显示，使用 AI 的学生即时知识测试成绩显著提高 0.27 个标准差，且这一增益在一周后的无辅助评估中依然 persist。值得注意的是，虽然 AI 辅助下的 essay 质量变化不大，但一周后学生独立写作时，风格和相关性均有改善。这表明 AI 不仅作为即时工具，还能促进知识的内化与迁移，对教育技术整合具有深远指导意义，建议教育者关注 AI 作为增强工具而非替代品的定位。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Education"
-    ],
-    "link": "https://arxiv.org/abs/2607.08849",
-    "date": "2026-10-02",
-    "id": "17909281300750"
-  },
-  {
-    "title": "费城询问报开发 AI 工具 Scrape 挖掘本地新闻",
-    "summary": "报社利用 AI 自动化收集碎片化信源，大幅节省编辑时间。",
-    "detail": "费城询问报团队针对本地新闻信源碎片化痛点，开发了名为 Scrape 的 AI 工具。该工具并非纯粹的技术实验，而是紧密围绕现有编辑工作流程构建，通过直接的 AI 训练和评估循环优化。它能从市政会议、校历及社交媒体等分散来源中可靠地提取新闻线索，将编辑每周花费 12 小时的手工搜集工作自动化。此举显著提高了信号噪声比，让编辑能专注于内容塑造。该案例为传统媒体在资源有限情况下如何利用 AI 转型提供了实用参考，强调了工作流整合而非单纯技术引入的重要性。",
-    "tags": [
-      "News",
-      "Journalism",
-      "Automation"
-    ],
-    "link": "https://www.lenfestinstitute.org/solutions-resources/philadelphia-inquirer-scrape-ai-hyperlocal-news/",
-    "date": "2026-10-02",
-    "id": "17909281300751"
-  },
-  {
-    "title": "招聘市场出现 AI 经验要求不合理现象",
-    "summary": "作者指出招聘方对 AI 技能要求混乱，类似早期 React 泡沫。",
-    "detail": "文章深刻批评了当前招聘市场存在的严重 AI 技能要求泡沫现象。作者指出，许多职位描述要求求职者具备技术发布前的经验，或堆砌 recruiters 都不明含义的技术缩写，类似早期 React 招聘乱象。这反映了组织面对新技术时的非理性恐慌和懒惰。这种不切实际的要求不仅阻碍了真正人才的流动，也揭示了行业对 GenAI 实际应用场景缺乏清晰认知。长期来看，这种炒作可能导致就业市场扭曲，建议求职者理性看待 JD 要求，企业应建立更科学的技能评估体系，避免盲目跟风。",
-    "tags": [
-      "News",
-      "Job Market",
-      "Career"
-    ],
-    "link": "https://lucaskostka.com/posts/ai-is-the-new-react",
-    "date": "2026-10-02",
-    "id": "17909281300752"
   }
 ]
