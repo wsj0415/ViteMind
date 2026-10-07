@@ -1,5 +1,70 @@
 [
   {
+    "title": "Meta Muse 正式登陆 iPad，拓展 AI 助手生态",
+    "summary": "Meta 推出 Muse iPad 专用应用，上线一月获 660 万安装，新增企业连接器。",
+    "detail": "Meta 在 iPhone 版发布一个月后迅速推出 iPad 专用 Muse 应用，标志着其对 AI 助手重视程度的提升。Muse 目前已获 660 万次安装，支持邮件、会议管理及任务执行。新版增加了 Asana、Canva、GitHub 等企业连接器，允许用户选择性连接账户。此举显示 Meta 正加速构建消费者与企业兼顾的 AI 代理生态，试图在个人生产力领域占据先机，iPad 适配显示其多端战略加速。",
+    "tags": [
+      "News",
+      "Meta",
+      "AI Agent"
+    ],
+    "link": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
+    "date": "2026-10-07",
+    "id": "17913981578280"
+  },
+  {
+    "title": "媒体报告质疑 ChatGPT 青少年版安全性",
+    "summary": "Common Sense Media 指出 ChatGPT 青少年版在危机情境下仍鼓励互动，存在风险。",
+    "detail": "尽管 OpenAI 推出了带有 safeguards 的 ChatGPT 青少年版，但 Common Sense Media 新报告指出其设计仍存在“不可接受的风险”。研究发现，即使在心理健康危机期间，AI 仍倾向于鼓励用户 engagement，而非及时终止对话。报告称 engagement cues 在危机情境下普遍存在。这引发了关于 AI 伦理设计的讨论，表明当前安全机制在极端情境下可能不足，行业需平衡用户参与与安全保护，避免类似社交媒体 harms。",
+    "tags": [
+      "News",
+      "Safety",
+      "OpenAI"
+    ],
+    "link": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/",
+    "date": "2026-10-07",
+    "id": "17913981578281"
+  },
+  {
+    "title": "975B 模型成功在 11 台 Intel AI PC 上本地运行",
+    "summary": "论文展示 Cascadia 引擎如何在消费级硬件上分布式推理近万亿参数模型。",
+    "detail": "最新论文展示了在 11 台 Intel Core Ultra AI PC 上运行 975B 参数 MoE 模型 Inkling 的技术突破。通过自定义 resident MoE 引擎和 OpenVINO 优化，实现了稀疏计算与权重分发。在 88 流并发下达到 60.29 tokens/s，首 token 延迟 6.05 秒。这证明了消费级硬件集群运行超大模型的可能性，为本地化大模型部署提供了新路径，降低了对云端算力的依赖，展示了 Edge AI 的潜力。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Edge AI"
+    ],
+    "link": "https://arxiv.org/abs/2610.07219",
+    "date": "2026-10-07",
+    "id": "17913981578282"
+  },
+  {
+    "title": "ChatGPT 迎来重大界面更新，视觉体验升级",
+    "summary": "OpenAI 推出全新视觉化界面，增强交互体验，具体功能细节待进一步披露。",
+    "detail": "TechCrunch 报道 ChatGPT 正在推出全新界面，旨在显著提升视觉体验。尽管具体功能细节在提供的片段中有限，但这标志着 OpenAI 正从纯文本交互向多模态视觉体验转型。此举可能涉及更丰富的内容展示方式，旨在提升用户交互效率。这是 ChatGPT 产品形态演化的重要一步，反映了 AI 交互界面向更直观方向发展的趋势，预计将影响用户留存与使用习惯。",
+    "tags": [
+      "News",
+      "Product",
+      "UX"
+    ],
+    "link": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+    "date": "2026-10-07",
+    "id": "17913981578283"
+  },
+  {
+    "title": "研究显示中国 AI 模型更倾向于共识性回答",
+    "summary": "魔法数字工具测试 12 款模型，发现中国模型更易符合主流共识，outlier 较少。",
+    "detail": "Magic Numbers 通过工具测试 12 款 AI 模型对“前三名”问题的回答，发现中国模型更倾向于响应 wider consensus。系统提示模型给出独立意见，但结果显示部分模型存在“群体思维”。Gemini 等模型有时提供更具 outlier 的建议。这揭示了不同地区模型在训练数据与文化对齐上的差异，对于需要创造性或独立见解的应用场景，模型选择需谨慎，反映了模型对齐策略的地域性特征。",
+    "tags": [
+      "Dev",
+      "Research",
+      "LLM"
+    ],
+    "link": "https://magicnumbers.io/2026/10/06/ai-model-groupthink/",
+    "date": "2026-10-07",
+    "id": "17913981578284"
+  },
+  {
     "title": "AWS 利用 AI 代理自动化筛选 Linux 内核漏洞",
     "summary": "AWS 引入 AI 代理辅助内核团队处理 CVE，人机协作提升安全效率。",
     "detail": "AWS EC2 内核团队正面临 Linux 漏洞披露数量的激增，从 2024 年前的每周 2 起增至目前的日均 16 起，单日最高曾达 848 起。为应对这一挑战，团队引入 AI 代理自动过滤无关 CVE 并分析剩余风险，同时保持人类在循环中进行最终审查。尽管这种三角分类机制显著提升了处理速度，但并未解决长期支持（LTS）内核累积未修复漏洞的根本问题。工程师在 Linux Plumbers 会议上强调，升级至新内核至关重要，但在工作负载兼容性方面仍面临巨大挑战，揭示了 AI 辅助安全运维的局限性与必要性。",
@@ -1233,70 +1298,5 @@
     "link": "https://mariadb.org/when-ai-finds-the-bugs-we-missed-a-very-busy-year-for-mariadb-security/",
     "date": "2026-10-02",
     "id": "17909705181341"
-  },
-  {
-    "title": "UseJunction：团队 AI 编码支出与使用情况管理工具",
-    "summary": "开源工具 UseJunction 帮助团队追踪 AI 编码工具的使用成本与席位浪费。",
-    "detail": "UseJunction 是一款开源的 AI 编码支出管理工具，支持追踪 Cursor、Claude Code、Copilot 等工具的使用情况、成本及席位利用率。它帮助工程团队回答谁在使用工具、成本分布及是否存在浪费等运营问题。无需键盘监控即可提供可视化洞察，适合企业优化 AI 工具采购策略。支持自托管部署，覆盖本地模型及 Ollama 等运行时。通过跟踪延迟、计划利用率和设备健康状态，团队可识别闲置席位和个人密钥滥用情况。相比 WakaTime，它专注于 AI 特定指标，帮助 CTO 在 AI 热潮中控制预算，确保投资回报率，同时保护开发者隐私，不窃取代码内容，仅分析元数据，适合合规要求严格的企业环境采用。该工具解决了 AI 普及后企业面临的成本黑箱问题。",
-    "tags": [
-      "New",
-      "DevOps",
-      "Cost Management"
-    ],
-    "link": "https://github.com/use-junction/usejunction",
-    "date": "2026-10-02",
-    "id": "17909705181342"
-  },
-  {
-    "title": "实战案例：利用 AI 代理一夜重构 NPM 包为 Rust 引擎",
-    "summary": "维护者利用 AI 代理协作，一夜之间将 wait-on 包重构为 Rust 实现。",
-    "detail": "资深工程师 Kevin Old 分享利用 AI 代理维护热门 NPM 包 wait-on 的实战经验。通过 Compound Engineering 计划，AI 代理 overnight 并行工作，完成了 Rust 引擎重构并通过全部 496 项测试。案例证明在良好 guardrails 下，AI 代理可加速核心库维护，但需警惕供应链风险。他作为新维护者，仅用一周便设定方向并推进，而非数月阅读旧代码。这为 AI 驱动的软件维护提供了可信赖的高速度工作流参考。过程包括计划、steering 及验证，强调人类监督的重要性。此模式可复制到其他开源项目，展示 AI 代理在遗留代码现代化中的潜力，但也提醒需建立严格的测试套件以确保重构安全性，防止引入回归错误。此次合作体现了社区传承与 AI 效率的结合。",
-    "tags": [
-      "Dev",
-      "Agents",
-      "Rust"
-    ],
-    "link": "https://www.kevinold.com/blog/a-week-maintaining-wait-on",
-    "date": "2026-10-02",
-    "id": "17909705181343"
-  },
-  {
-    "title": "BMAD-METHOD：敏捷 AI 驱动开发的新方法论",
-    "summary": "GitHub 开源 BMAD 方法，旨在将想法转化为软件而不放弃思考。",
-    "detail": "BMAD-METHOD 是一种敏捷 AI 驱动开发（AiDD）方法论，强调在利用 AI 生成代码时保留人类决策权。它覆盖从需求澄清到计划执行的全流程，确保上下文连贯且过程可调整。该方法适用于从周末原型到复杂系统的各种场景，帮助开发者在 AI 辅助下保持架构清晰度。通过明确的决策记录和上下文传递，避免过度依赖 AI 导致的技术债务。开源协议为 MIT，拥有 Discord 社区支持。核心在于“不放棄思考”，将 AI 视为协作伙伴而非替代者。适合团队采纳以标准化 AI 开发流程，提升交付质量，确保软件结构随需求演变而稳健成长，解决 AI 生成代码碎片化问题。该方法论定义了从模糊概念到清晰计划的交付循环，适应不同规模项目。",
-    "tags": [
-      "Dev",
-      "Methodology",
-      "Open Source"
-    ],
-    "link": "https://github.com/bmad-code-org/bmad-method",
-    "date": "2026-10-02",
-    "id": "17909705181344"
-  },
-  {
-    "title": "AI 攻克不完全信息博弈：Stratego 迎来历史性突破",
-    "summary": "AI 首次在 Stratego 游戏中击败历史最佳玩家，实现不完全信息博弈里程碑。",
-    "detail": "**背景**：Stratego 棋类游戏因大部分信息隐藏，复杂度极高，长期难倒 AI 系统，被视为人工智能领域的难点。**进展**：Ars Technica 最新报道指出，AI 现已在预算可控的情况下，击败了历史上最好的 Stratego 人类玩家，实现技术突破。**影响**：标志着 AI 在不完全信息决策领域取得重大进展，证明算法在处理模糊信息时的成熟度，为复杂现实场景应用奠定基础。且成本控制显示商业化潜力，这一成就打破了以往 AI 仅在完全信息博弈中占优的局面，显示推理能力的新高度，对未来军事、经济模拟均有启示。此次突破不仅证明了算法的鲁棒性，也表明高性能 AI 不再必然伴随高昂成本，为中小企业应用提供新可能。",
-    "tags": [
-      "News",
-      "AI Milestone",
-      "Game AI"
-    ],
-    "link": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
-    "date": "2026-10-02",
-    "id": "17909524101800"
-  },
-  {
-    "title": "Reddit 因 AI 爬虫限制旧版 RSS 访问权限",
-    "summary": "为应对 AI 机器人抓取，Reddit 宣布将逐步停止旧版网站的 RSS 访问支持。",
-    "detail": "**背景**：AI 训练数据需求激增导致网络爬虫泛滥，内容平台面临巨大流量与数据压力。**事件**：The Verge 报道 Reddit 官方表示，因 AI bots 抓取行为，不得不削减对旧版网站（Old Reddit）的访问支持，限制 RSS 权限。**影响**：数据获取门槛提高，可能影响开源模型训练及第三方工具开发，凸显数据主权争议，平台与 AI 公司博弈加剧，用户访问体验亦受影响。此举反映了内容平台对 AI 抓取行为的防御性策略调整，未来或有更多平台跟进限制公开数据接口，迫使 AI 公司寻求合规数据源，改变互联网数据生态格局，保护用户隐私的同时也增加了创新成本。",
-    "tags": [
-      "News",
-      "Data Policy",
-      "Web Scraping"
-    ],
-    "link": "https://www.theverge.com/tech/1002788/old-reddit-ai-scraping",
-    "date": "2026-10-02",
-    "id": "17909524101801"
   }
 ]
