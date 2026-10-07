@@ -1,5 +1,44 @@
 [
   {
+    "title": "NanoMuse：跨设备开源个人 AI 代理",
+    "summary": "支持手机与电脑的开源代理，具备记忆与撤销确认功能。",
+    "detail": "NanoMuse 是一款开源个人 AI 代理，适用于 Android、iOS、Windows 及 Linux。它拥有独立名称与形象，可在应用关闭后继续工作，具备记忆能力并在不可逆操作前询问用户。项目旨在让每个设备拥有统一的智能助手，屏幕与电脑作为其执行双手，代码完全开源。支持跨设备同步，强调用户隐私与控制权，允许用户在本地运行代理，实现真正的个人化 AI 助手，降低了对云服务的依赖，适合关注数据主权的技术用户。",
+    "tags": [
+      "New",
+      "Open Source",
+      "Agent"
+    ],
+    "link": "https://github.com/nano-muse/nanoMuse",
+    "date": "2026-10-07",
+    "id": "17913481638533"
+  },
+  {
+    "title": "Friday Work：团队与 AI 代理的多玩家编码工作区",
+    "summary": "支持多代理并行的协作平台，上下文共享且代码本地化。",
+    "detail": "Friday Work 推出了针对团队和 AI 代理的多玩家工作区。支持 Claude Code、Codex 和 Cursor 在同一上下文中并行运行，团队成员可实时观看、steering 或接管。代码保留在本地机器，解决了代理上下文丢失和私有聊天审批的问题，实现了人与代理的无缝协作记录。免费计划支持自带代理，集成 Linear、Slack 等工具。通过手动模式确保代理运行前获得批准，整个团队可见请求，提升了企业级 AI 编码的安全性与协作效率。",
+    "tags": [
+      "New",
+      "Dev",
+      "Collaboration"
+    ],
+    "link": "https://www.tryfridaywork.com",
+    "date": "2026-10-07",
+    "id": "17913481638534"
+  },
+  {
+    "title": "AI 赋能健康研究开源：自动化证据合成新范式",
+    "summary": "开源健康研究方案，AI 代理在人类监督下完成证据合成。",
+    "detail": "该研究提出了一种开源健康研究构建，利用 AI 代理（如 Claude）在人类阶段 gate 下工作，将 plain-language 问题转化为可验证的研究计划。传统健康研究规划需 skilled 团队耗时数月，而此方法在 18.1 小时内生成包含 98 篇参考文献的证据地图及十 gate 计划。实验中 AI 代理 logged 83 个发现，人类领导做出 31 项决策，错误率在可控范围。强调了人类问责制与透明报告的重要性，方法、工具、提示词和记录均释放，以便任何人复现，加速证据合成，解决传统团队耗时数月的问题，为 AI 科学家系统提供方法论参考，推动健康研究领域的自动化与透明化变革。",
+    "tags": [
+      "News",
+      "AI Agent",
+      "Healthcare"
+    ],
+    "link": "https://zenodo.org/records/23199360",
+    "date": "2026-10-06",
+    "id": "17913481638530"
+  },
+  {
     "title": "OpenAI 发布数学进展成果",
     "summary": "OpenAI 开源前沿模型数学结果，包含 Lean 形式化证明及计算成本统计。",
     "detail": "OpenAI 正式分享内部前沿模型在数学领域的最新进展，旨在推动人类知识边界。通过 GitHub 仓库公开证明形式化（Lean 语言）、推理摘要及计算消耗统计，平均结果消耗约 3 小时 ChatGPT Pro 思考算力。此举强调科学透明度，并与高级研究所数学顾问组合作制定最佳实践。未来将资助系列研讨会，促进社区合作，提升论文质量与引用规范，推动数学研究范式变革，确保 AI 成果可验证且可复用，为科研社区提供可靠工具，加速科学发现进程。",
@@ -1027,6 +1066,19 @@
     "id": "17910005291993"
   },
   {
+    "title": "本地 AI 实战：M5 Ultra Mac Studio 部署多模型",
+    "summary": "利用 256GB 内存运行多模型组合，实现私有化持续推理。",
+    "detail": "作者分享在 M5 Ultra Mac Studio (256GB) 上部署本地 AI 的经验。通过组合 Qwen、Gemma 等模型（大文本、小视觉、决策槽），实现了私有客户工作的本地化处理。文章探讨了 KV 缓存管理、模型权重内存分配及太阳能供电推理的可行性，标志着本地 AI 实用化的突破。不再依赖 frontier 模型计数 token，适合连续推理任务。配置了四个槽位，预算内存后剩余 82GB 用于上下文，展示了消费级硬件运行大模型的潜力，为私有化部署提供新思路。",
+    "tags": [
+      "Dev",
+      "Local AI",
+      "Hardware"
+    ],
+    "link": "https://hive.technology/lab-notes/local-ai-is-real/",
+    "date": "2026-10-02",
+    "id": "17913481638532"
+  },
+  {
     "title": "Epoch AI 报告：2027 年芯片可支持亿级 AI 代理并发",
     "summary": "硬件 buildup 可支持数亿代理，相当于数亿全职员工工时。",
     "detail": "Epoch AI 发布报告估算，2025 至 2027 年 shipped 的 AI 芯片可支持数千万至数亿个并发前沿模型代理。若模型效率提升，甚至可支持约 19 亿并发代理，相当于 80 亿人每周工作 40 小时的算力。然而，即便仅使用 20% 产能，也需数万亿美元 API 支出，远超预期开发者收入。报告揭示了硬件产能与市场需求间的巨大鸿沟及成本挑战。分析指出，AI 公司每年投入数千亿美元建设数据中心，premise 是芯片将运行代理完成人类工作。但每小时代理成本差异巨大，Codex 约 16 美元，Claude Code 高达 50 美元。这意味着大规模部署面临经济可行性考验。行业需平衡算力供给与实际应用需求，避免资源闲置与投资泡沫，确保 AI 经济模型的可持续发展。",
@@ -1246,57 +1298,5 @@
     "link": "https://lucaskostka.com/posts/ai-is-the-new-react",
     "date": "2026-10-02",
     "id": "17909281300752"
-  },
-  {
-    "title": "苹果因 AI 功能虚假宣传达成 2.5 亿美元和解",
-    "summary": "iPhone 15/16 用户可索赔，因未收到承诺的 Siri 智能功能。",
-    "detail": "苹果就集体诉讼达成 2.5 亿美元和解，涉及 iPhone 15/16 系列用户。原告声称购买设备时期望获得特定的 Siri Apple Intelligence 功能但未兑现，涉嫌虚假广告。和解覆盖 2024 年 6 月至 2025 年 3 月期间购买的合格设备用户，每人可获 25 至 95 美元赔偿。苹果虽否认不当行为，但此举凸显消费者对 AI 功能落地预期与实际体验之间的巨大差距。这可能影响未来 AI 硬件营销的合规性，促使厂商在宣传 AI 能力时更加谨慎，避免过度承诺导致法律风险和用户信任危机。",
-    "tags": [
-      "News",
-      "Apple",
-      "Legal"
-    ],
-    "link": "https://openclassactions.com/settlements/false-advertising/apple-intelligence-siri-false-advertising-class-action-settlement.php",
-    "date": "2026-10-02",
-    "id": "17909281300753"
-  },
-  {
-    "title": "新增 Apple Developer MCP 代理辅助 iOS 应用发布",
-    "summary": "开发者可通过 AI 助手端到端管理 App Store Connect 流程。",
-    "detail": "这是一个展示于 HN 的新工具，允许开发者通过 AI 助手直接操作 Apple Developer MCP。该代理能端到端执行构建、发布和提交苹果审核的流程，支持 Cursor、Claude Code 等主流助手。用户只需配置 API 密钥即可在聊天中调用工具，无需手动登录后台。这标志着 AI 代理开始深入垂直开发工作流，大幅降低 iOS 应用发布的操作门槛，提升开发效率。对于独立开发者而言，这意味着更快的迭代速度，但也引发了关于自动化审核安全和账号权限管理的潜在讨论，值得开发者社区关注。",
-    "tags": [
-      "New",
-      "MCP",
-      "iOS"
-    ],
-    "link": "https://nova.civai.co/agent/mcp-apple_developer",
-    "date": "2026-10-02",
-    "id": "17909281300754"
-  },
-  {
-    "title": "AI 数据中心电子垃圾问题日益严峻",
-    "summary": "媒体关注 AI 基础设施扩张带来的巨大电子废弃物环境成本。",
-    "detail": "The Verge 报道指出，AI 数据中心的快速扩张正导致巨大的电子垃圾问题，且情况日益严峻。随着硬件迭代加速，旧服务器和专用 AI 芯片的淘汰率上升，环境负担加重。文章强调这不仅是技术问题，更是可持续发展的挑战。行业需在追求算力增长的同时，重视硬件生命周期管理和回收机制，否则 AI 发展的环境代价将抵消其带来的效率红利。这可能引发政策监管关注，促使科技巨头投资绿色数据中心技术，平衡技术创新与环境保护之间的关系，避免生态危机。",
-    "tags": [
-      "News",
-      "Sustainability",
-      "Data Center"
-    ],
-    "link": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban",
-    "date": "2026-10-02",
-    "id": "17909281300755"
-  },
-  {
-    "title": "图灵奖得主 LeCun 抨击 Anthropic CEO 安全观点",
-    "summary": "LeCun 称 AI 灭绝风险被夸大，批评 Anthropic 缺乏网络安全理解。",
-    "detail": "AI 先驱 Yann LeCun 在接受采访时明确表示对人类灭绝风险“零担忧”，并严厉批评 Anthropic CEO Dario Amodei 的观点“被误导”且“疯狂”。LeCun 认为近期的 rogue AI 事件源于沙箱设计缺陷和人为监督不足，而非模型本身不可控，指责许多 AI 实验室缺乏网络安全基本理解。这场争论凸显了行业内部关于 AI 安全路径的根本分歧：一方主张严格管控，另一方认为应优化系统设计。这可能影响未来监管政策走向，促使企业重新评估安全架构，而非单纯依赖模型限制。",
-    "tags": [
-      "News",
-      "Safety",
-      "Leaders"
-    ],
-    "link": "https://fortune.com/2026/10/01/yann-lecun-anthropic-ceo-dario-amodei-deluded-crazy-cybersecurity/",
-    "date": "2026-10-02",
-    "id": "17909281300756"
   }
 ]
