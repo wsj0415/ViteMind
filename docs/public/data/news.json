@@ -1,5 +1,70 @@
 [
   {
+    "title": "新加坡金管局要求 fintech AI 用例须独立审查",
+    "summary": "新加坡金管局发布新规，要求金融机构部署 AI 前必须进行独立风险评估。",
+    "detail": "新加坡金融管理局 (MAS) 于周三发布最新 AI 风险管理指南，明确指出生成式 AI 及代理 AI 带来的不确定性风险远高于传统 AI。规定要求所有本地金融机构在部署 AI 用例前必须寻求独立审查，以防偏见及意外行为。MAS 指出训练数据噪音及场景缺失是主要风险源，第三方服务失败不能作为借口。此举标志着全球金融监管对 AI 安全性的重视升级，可能成为其他国家参考范本，直接影响 fintech 部署流程与合规成本，机构需重新评估 AI 战略以确保稳健运行。",
+    "tags": [
+      "News",
+      "Regulation",
+      "Fintech"
+    ],
+    "link": "https://www.theregister.com/ai-and-ml/2026/10/08/singapores-central-bank-wants-all-fintech-ai-use-cases-subject-to-independent-review/5301798",
+    "date": "2026-10-08",
+    "id": "17914602600680"
+  },
+  {
+    "title": "AI 数学突破恐终结现有加密体系",
+    "summary": "AI 模型解决重大数学难题，公钥加密安全性面临潜在威胁。",
+    "detail": "近期 AI 模型在数学领域取得突破，OpenAI 宣布 Astra 模型解决 10 个数学问题，甚至攻克 Navier-Stokes 方程。文章指出，虽然多数数学问题离应用尚远，但公钥加密依赖的数学假设可能被 AI 推翻。若 AI 能高效破解加密算法，将严重影响 HTTPS、VPN 及端到端加密通讯的安全性。这引发了行业对后量子加密的紧迫关注，提示开发者需提前准备应对潜在的安全范式转变，确保数据长期安全，避免加密体系崩塌。",
+    "tags": [
+      "News",
+      "Security",
+      "Math"
+    ],
+    "link": "https://ai-frontiers.org/articles/ai-could-end-encryption-as-we-know-it",
+    "date": "2026-10-08",
+    "id": "17914602600681"
+  },
+  {
+    "title": "Show HN: 让 AI 代理在屏幕上绘制指引箭头",
+    "summary": "开源 macOS 工具，允许 AI 代理在屏幕上绘制箭头提示用户操作。",
+    "detail": "该项目 `big-arrow-on-the-screen` 是一个 macOS CLI 工具，旨在解决 AI 代理无法直观引导用户操作的问题。当代理需要用户点击按钮时，可在屏幕上绘制大箭头和文本提示，且不抢占焦点，完成后自动消失。支持 Claude Code 和 Codex 技能集成，采用 MIT 协议开源。为本地 AI 代理交互提供了新的视觉反馈方案，解决了终端输出无法引导 GUI 操作的痛点，提升人机协作效率，让 AI 拥有指向屏幕的“手指”。",
+    "tags": [
+      "New",
+      "Agent",
+      "CLI"
+    ],
+    "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "date": "2026-10-08",
+    "id": "17914602600682"
+  },
+  {
+    "title": "Show HN: 检测你的网站是否被 AI 引用",
+    "summary": "免费工具扫描域名，分析 AI 助手是否会引用你的网站内容。",
+    "detail": "IsCited 是一款针对 GEO（生成引擎优化）的工具，可扫描网站的 llms.txt、robots.txt 等文件，评估 AI 助手（如 ChatGPT）是否引用该站点。目前仅 1/10 网站发布 llms.txt，该工具提供 0-100 评分及修复建议，Pro 版支持每周监控。相比收费$99-500 的企业工具，它仅$19/月，帮助创作者了解在 AI 搜索时代的可见性，适合 SEO 及内容发布者使用，优化 AI 引用率，避免网站在 AI 时代隐形。",
+    "tags": [
+      "New",
+      "SEO",
+      "GEO"
+    ],
+    "link": "https://iscited-enzovezzaros-projects.vercel.app/",
+    "date": "2026-10-08",
+    "id": "17914602600683"
+  },
+  {
+    "title": "MIT 评论：AI 机器人突破短期内难改变生活",
+    "summary": "尽管特斯拉等公司炒作，AI 机器人实际普及仍面临技术与现实挑战。",
+    "detail": "MIT Technology Review 文章指出，尽管 Tesla Optimus 等机器人展示了不少进展，但距离真正替代人类劳动仍有差距。马斯克声称机器人可低至$20,000 并替代几乎所有人类劳动，但文章分析了人形机器人在灵活性、成本及实际场景应用中的局限性，认为 2027 年公售过于乐观。虽然 Andreessen 等投资人看好通用机器人，但现实挑战巨大。行业需理性看待 AI 机器人突破，避免过度炒作影响市场预期，技术落地仍需时间验证。",
+    "tags": [
+      "News",
+      "Robotics",
+      "Tesla"
+    ],
+    "link": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+    "date": "2026-10-08",
+    "id": "17914602600684"
+  },
+  {
     "title": "OpenAI 数学研究引发学界发表压力",
     "summary": "OpenAI  concurrent 研究迫使人类学者 rushed 发布成果。",
     "detail": "2026 年 8 月，数学家 Levent Alpöge 与 Tristan Buckmaster 在合作研究中发现，OpenAI 正 concurrently 解决相同的纳维 - 斯托克斯方程问题。迫于 AI 抢先发布的压力，他们不得不提前公开成果。Buckmaster 坦言部分论文质量因 rushed 而下降，甚至称为\"AI slop\"。此事件凸显了前沿模型加速科研进程的同时，也带来了人类理解滞后与学术发表伦理的新挑战。研究者需在速度与质量间寻找平衡，避免成为 AI 生成内容的校对者，重新思考人类在科研中的核心角色与价值。",
@@ -1233,70 +1298,5 @@
     "link": "https://usageatlas.com",
     "date": "2026-10-03",
     "id": "17910228403083"
-  },
-  {
-    "title": "GhostBench 基准测试 AI 推荐死寂 SaaS 风险",
-    "summary": "发现模型常推荐已关闭服务，提出签名验证方案。",
-    "detail": "GhostBench 测试显示，20 个已关闭 SaaS 产品中 19 个域名仍返回 HTTP 200，误导 AI 模型。前沿模型虽能识别知名关闭事件，但小型模型常误判为 viable。项目提出基于签名的持续存活验证协议，通过 `/.well-known/attestations.json` 发布机器可验证事实。强调可达性非存活信号，需 `alive_since` 与连续日志锚定。此方案旨在防止 AI 代理与幽灵供应商交互，增强供应链安全性，无排名仅事实。弱事实信号可能比无事实更糟，需解决长尾关闭事件识别问题。",
-    "tags": [
-      "Dev",
-      "Research",
-      "Agent"
-    ],
-    "link": "https://github.com/kyv-attest/kyv",
-    "date": "2026-10-03",
-    "id": "17910228403084"
-  },
-  {
-    "title": "Meta 开源 Muse Gadgets 推动硬件生态",
-    "summary": "Meta 推出 Muse Gadgets 开源项目，允许开发者构建连接个人 AI 代理 Muse 的硬件设备。",
-    "detail": "**背景**：Meta Muse 是近期备受关注的个人 AI 代理应用，能够协助用户处理旅行、购物等任务。**事件**：Meta 正式推出 Muse Gadgets 开源项目，提供开源固件及 Linux SDK，鼓励开发者利用树莓派或 ESP32 等硬件构建连接 Muse 的外设，如电子墨水屏或 HDMI 棒。**影响**：这一举措显著降低了 AI 硬件开发的门槛，推动 AI 代理从纯软件向物理世界延伸，增强了用户与 AI 的交互体验，有望激发社区创造多样化的智能硬件生态。",
-    "tags": [
-      "Dev",
-      "Hardware",
-      "Agent"
-    ],
-    "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
-    "date": "2026-10-03",
-    "id": "17910005291992"
-  },
-  {
-    "title": "Underdog 推出 100% 本地隐私 AI 助手",
-    "summary": "新晋 AI 产品 Underdog 主打完全本地运行，确保用户数据隐私与安全。",
-    "detail": "**背景**：随着云端 AI 服务的普及，用户数据隐私泄露风险日益引起关注。**事件**：新晋产品 Underdog 推出邀请制 beta 版本，主打 100% 本地运行，模型直接在用户 Mac 上处理数据，无需上传云端，并采用 AES-256 加密保护存储。**影响**：该产品精准迎合了对隐私高度敏感的用户需求，展示了本地小模型在性能与隐私平衡上的技术进步，是端侧 AI 应用在个人助手领域的一次重要尝试，可能推动本地 AI 市场发展。",
-    "tags": [
-      "New",
-      "Privacy",
-      "Local AI"
-    ],
-    "link": "https://underdog.ai/",
-    "date": "2026-10-03",
-    "id": "17910005291993"
-  },
-  {
-    "title": "本地 AI 实战：M5 Ultra Mac Studio 部署多模型",
-    "summary": "利用 256GB 内存运行多模型组合，实现私有化持续推理。",
-    "detail": "作者分享在 M5 Ultra Mac Studio (256GB) 上部署本地 AI 的经验。通过组合 Qwen、Gemma 等模型（大文本、小视觉、决策槽），实现了私有客户工作的本地化处理。文章探讨了 KV 缓存管理、模型权重内存分配及太阳能供电推理的可行性，标志着本地 AI 实用化的突破。不再依赖 frontier 模型计数 token，适合连续推理任务。配置了四个槽位，预算内存后剩余 82GB 用于上下文，展示了消费级硬件运行大模型的潜力，为私有化部署提供新思路。",
-    "tags": [
-      "Dev",
-      "Local AI",
-      "Hardware"
-    ],
-    "link": "https://hive.technology/lab-notes/local-ai-is-real/",
-    "date": "2026-10-02",
-    "id": "17913481638532"
-  },
-  {
-    "title": "Epoch AI 报告：2027 年芯片可支持亿级 AI 代理并发",
-    "summary": "硬件 buildup 可支持数亿代理，相当于数亿全职员工工时。",
-    "detail": "Epoch AI 发布报告估算，2025 至 2027 年 shipped 的 AI 芯片可支持数千万至数亿个并发前沿模型代理。若模型效率提升，甚至可支持约 19 亿并发代理，相当于 80 亿人每周工作 40 小时的算力。然而，即便仅使用 20% 产能，也需数万亿美元 API 支出，远超预期开发者收入。报告揭示了硬件产能与市场需求间的巨大鸿沟及成本挑战。分析指出，AI 公司每年投入数千亿美元建设数据中心，premise 是芯片将运行代理完成人类工作。但每小时代理成本差异巨大，Codex 约 16 美元，Claude Code 高达 50 美元。这意味着大规模部署面临经济可行性考验。行业需平衡算力供给与实际应用需求，避免资源闲置与投资泡沫，确保 AI 经济模型的可持续发展。",
-    "tags": [
-      "News",
-      "Hardware",
-      "Agents"
-    ],
-    "link": "https://epoch.ai/publications/estimating-the-agent-population",
-    "date": "2026-10-02",
-    "id": "17910400371432"
   }
 ]
