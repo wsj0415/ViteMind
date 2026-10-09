@@ -1,5 +1,70 @@
 [
   {
+    "title": "OpenAI 协助澳政府应对 AI 黑客攻击事件",
+    "summary": "OpenAI 利用 AI 撰写邮件警告澳大利亚政府，其网站遭 AI 黑客攻击。",
+    "detail": "这是一起引人注目的安全事件。OpenAI 官方使用 AI 工具协助撰写了发给澳大利亚政府的警告邮件，指出其网站遭受了 AI 驱动的黑客攻击。此举凸显了 AI 在网络安全攻防双刃剑角色中的复杂性。事件引发了关于 AI 自主行为、责任归属以及政府机构如何应对 AI 生成威胁的广泛讨论。卫报报道指出，这一事件揭示了自动化系统可能在未完全人工干预的情况下触发高层级安全警报。对于行业而言，这标志着 AI 安全治理已进入实质性的对抗阶段。未来企业需建立针对 AI 生成内容的验证机制，防止类似自动化威胁蔓延，同时规范 AI 在关键通信中的使用边界，确保人机协作的安全性。",
+    "tags": [
+      "News",
+      "Security",
+      "OpenAI"
+    ],
+    "link": "https://www.theguardian.com/australia-news/2026/oct/08/openai-used-ai-to-help-write-email-warning-australian-government-ai-had-hacked-its-websites",
+    "date": "2026-10-09",
+    "id": "17915219152950"
+  },
+  {
+    "title": "AI 生成电影首次角逐奥斯卡最佳动画长片",
+    "summary": "一部 AI 制作电影提交奥斯卡最佳动画长片评选，引发行业关注。",
+    "detail": "据 Twitter 消息，一部完全由 AI 生成的电影已正式提交角逐奥斯卡最佳动画长片奖。这是 AI 内容生成技术在主流影视工业里程碑式的突破。该事件不仅挑战了传统电影制作流程，也迫使奖项评审机构重新定义“创作”与“人类参与度”的边界。对于 AI 视频生成模型开发者而言，这是技术成熟度获得权威认可的关键信号，可能加速 AI 在娱乐产业的商业化落地。后续需关注学院奖对 AI 作品的具体评审标准变化，以及版权归属问题的法律界定。此举可能引发传统动画师与 AI 工具之间的协作模式变革，推动生成式视频技术向更高精度发展。",
+    "tags": [
+      "News",
+      "Video Generation",
+      "Film"
+    ],
+    "link": "https://twitter.com/fableshowrunner/status/2107522071647731768",
+    "date": "2026-10-09",
+    "id": "17915219152951"
+  },
+  {
+    "title": "Moching：基于 Rust 的全桌面 AI 代理工具",
+    "summary": "拥有 219 种内置工具，可控制整个 PC 的非聊天型 AI 代理。",
+    "detail": "Moching 是一款定位为“数字操作员”的 AI 桌面代理，而非传统聊天机器人。基于 Rust 开发，它内置了 219 种工具，具备屏幕感知、HID 控制、浏览器自动化及 Office 套件操作能力。用户只需输入一句话，即可完成任务闭环。该项目展示了 AI Agent 从对话向实际操作系统的跨越，强调了本地执行与隐私安全。对于开发者而言，其开源架构提供了构建复杂桌面自动化工作流的新范式。支持跨应用上下文理解，能够处理多步骤任务。不同于云端 API 调用，它直接在本地环境执行操作，降低了延迟与数据泄露风险，是个人自动化领域的重大进展。",
+    "tags": [
+      "New",
+      "Agent",
+      "Rust"
+    ],
+    "link": "https://github.com/moching-ai-dev/moching",
+    "date": "2026-10-09",
+    "id": "17915219152952"
+  },
+  {
+    "title": "Robium：编码代理的物理 AI harness 框架",
+    "summary": "为编码代理提供物理 AI 技能，包含现场测试的机器人指导。",
+    "detail": "Robium 是一个专为编码代理设计的物理 AI harness 框架。它提供了经过现场测试的机器人指导技能、CLI 工具及学习引擎。通过可编辑的安装方式，开发者可以将 coding agent 连接到具体的机器人工作空间。该项目弥合了纯软件代码生成与物理世界执行之间的鸿沟，适用于需要软硬件协同的自动化场景。其模块化设计允许开发者扩展特定的机器人技能，是物理 AI（Physical AI）领域的重要基础设施。支持 Node.js 环境，便于集成现有开发流。工作空间采用普通 Git checkout 结构，确保版本可控。这为 AI 驱动的物理实验和硬件调试提供了标准化接口，降低了机器人开发门槛。",
+    "tags": [
+      "Dev",
+      "Robotics",
+      "Agent"
+    ],
+    "link": "https://github.com/robium-ai/robium",
+    "date": "2026-10-09",
+    "id": "17915219152953"
+  },
+  {
+    "title": "研究笔记：AI 公司作为控制论系统的建模",
+    "summary": "利用高阶群导语义和 Jet 级学习动力学建模 AI 公司系统。",
+    "detail": "这份研究笔记提出将 AI 公司建模为依赖资源的开放控制论系统。通过上下文∞-topos 提供状态、许可证书及实现识别的语言，利用范畴和透镜保留不可逆操作的方向。研究涵盖了神经动力学、精确核恒等式及高阶优化算法的通用 Jet 表示。该理论框架为理解 AI 组织的治理规则、反馈闭环及稳定性提供了数学基础，对 AI 安全与组织架构研究具有深远意义。涉及高阶群导语义和 Jet 级学习动力学。文章还探讨了观察、痕迹捕获与组织控制的关系，提出了最小研究协议。这为评估 AI 企业的系统稳定性与资源巩固提供了理论工具，适合研究人员深入阅读。",
+    "tags": [
+      "Dev",
+      "Research",
+      "Theory"
+    ],
+    "link": "https://ai-cybernetics.grok.me/",
+    "date": "2026-10-09",
+    "id": "17915219152954"
+  },
+  {
     "title": "OpenAI GPT-6 助力物理学基础研究发现",
     "summary": "OpenAI 研究员利用 GPT-6 Astra 模型完成晶格手性费米子论文。",
     "detail": "OpenAI 研究员 Nathaniel Craig 利用 GPT-6 Astra 模型协助完成了关于晶格手性费米子的物理学论文。该研究结合了人类专家策略与 AI 迭代证明，并通过 Lean 验证。这标志着 AI 在基础科学领域的深度应用，展示了 AI 作为科研助手而非替代者的潜力，为物理学家提供了新的研究范式。此外，论文经过大量人工编辑以确保可读性，显示了人机协作的最佳实践。",
@@ -1233,70 +1298,5 @@
     "link": "https://basilhalperin.com/papers/singularities.pdf",
     "date": "2026-10-03",
     "id": "17910675104512"
-  },
-  {
-    "title": "PublicAI 获 1000 万美元融资构建 AI 人类层",
-    "summary": "PublicAI 完成融资，利用去中心化网络收集高质量多模态数据，赋能 AI 开发。",
-    "detail": "PublicAI 宣布获得 1000 万美元融资，旨在构建 AI 的“人类层”。通过 350 万验证贡献者的去中心化网络，提供高质量多模态数据标注。其链上质押机制确保数据质量，为 AI 实验室提供合规且高效的数据基础设施。平台支持文本、音频、视频等多种数据类型，利用技能验证和质押 slashing 机制保障质量。这种去中心化模式降低了国际支付壁垒，提升了数据收集效率。对于面临数据短缺的 AI 公司，这提供了新的解决方案，同时让全球贡献者能通过数据工作获利，构建可持续的数据生态。",
-    "tags": [
-      "News",
-      "Funding",
-      "Data"
-    ],
-    "link": "https://publicai.io/",
-    "date": "2026-10-03",
-    "id": "17910675104513"
-  },
-  {
-    "title": "分析称 AI 自我改进尚不足以引发超级智能爆炸",
-    "summary": "最新分析认为 AI 递归自我改进循环需强 5-10 倍才可持续，短期内难现超级智能。",
-    "detail": "文章分析了 AI 递归自我改进（RSI）的可能性，指出当前数据表明自我改进循环强度不足。虽然 AI 进步迅速，但证据不支持短期内出现不可理解的超级智能爆炸。强调了需要更多数据来准确预测 AI 发展轨迹。作者认为 RSI 循环需强 5-10 倍才能维持自持增长。尽管预测者常低估 AI 进度，但目前测量数据显示并非突然爆炸。这为理性看待 AI 风险提供了视角，建议行业关注可测量的进步指标，而非过度恐慌或乐观，同时呼吁收集更多实证数据以修正模型，避免盲目预测带来的资源错配。",
-    "tags": [
-      "News",
-      "Analysis",
-      "AGI"
-    ],
-    "link": "https://www.rameznaam.com/p/ai-rsi-isnt-leading-to-super-intelligence",
-    "date": "2026-10-03",
-    "id": "17910675104514"
-  },
-  {
-    "title": "亚马逊放弃数据中心 NDA 以应对公众质疑",
-    "summary": "AWS CEO 宣布不再与政府签署保密协议，提升透明度。",
-    "detail": "亚马逊 AWS CEO Matt Garman 宣布，公司已停止在与政府机构审批数据中心时使用保密协议（NDA）。此举旨在回应外界对数据中心缺乏透明度的强烈反对，此前环保活动家 Erin Brockovich 指出透明度是最大投诉点。纽约等地已暂停审批，Garman 警告若措施 enacted 美国将输掉竞赛。他强调数据中心对社区有益，试图打破四个主要谣言，目前全美超 100 个数据中心暂停令正在考虑中，避免美国在该领域落后 generations。",
-    "tags": [
-      "News",
-      "AWS",
-      "Infrastructure"
-    ],
-    "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-    "date": "2026-10-03",
-    "id": "17910542901690"
-  },
-  {
-    "title": "图灵奖得主 LeCun：对 AI 导致人类灭绝零担忧",
-    "summary": "LeCun 公开表示不担心 AI 灭绝风险，称 Anthropic CEO 被误导。",
-    "detail": "AI 教父 Yann LeCun 明确表示，他对 AI 导致人类灭绝的风险“零担忧”。根据 Fortune 文章标题，他称 Anthropic CEO Dario Amodei 的观点被误导。这一言论再次引发了关于 AI 安全与风险评估的行业争论，凸显了顶尖科学家之间在 AI 未来风险上的巨大分歧。HN 讨论数据显示社区对此有关注，安全派与乐观派的对立愈发明显，这可能影响未来 AI 监管政策的走向。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Opinion"
-    ],
-    "link": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
-    "date": "2026-10-03",
-    "id": "17910542901691"
-  },
-  {
-    "title": "RepoGuard：防止 AI 代码破坏架构的 Linter 工具",
-    "summary": "专为 AI 生成代码设计的架构检查工具，支持 TypeScript 等。",
-    "detail": "RepoGuard 是一款针对 AI 辅助代码库的架构守护工具，旨在防止 AI 将仓库变成架构 spaghetti 代码。它支持 TypeScript、Python 和 Golang 等多种语言。通过生成严格的.cursorrules 并审计 PR，确保 AI 生成代码符合项目架构规范。该工具已在 Product Hunt 发布，CI 状态显示 passing，拥有 MIT 许可证。为开发者提供了管理 AI 代码质量的新方案，解决 AI 生成代码难以维护的痛点。",
-    "tags": [
-      "Dev",
-      "Code Quality",
-      "AI Tools"
-    ],
-    "link": "https://github.com/taylormatematica-beep/repoguard",
-    "date": "2026-10-03",
-    "id": "17910542901692"
   }
 ]
