@@ -1,5 +1,6 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
+import { isValidUrl } from '../utils/validation.js'
 
 const props = defineProps({
     isOpen: Boolean,
@@ -35,6 +36,16 @@ const toggleTag = (tag) => {
 const submitResource = async () => {
     if (!form.value.title || !form.value.url || !form.value.description) {
         message.value = '标题、链接和描述为必填项'
+        return
+    }
+
+    // Sentinel Security: Validate URLs to prevent XSS
+    if (!isValidUrl(form.value.url)) {
+        message.value = '资源链接必须是有效的 HTTP/HTTPS URL'
+        return
+    }
+    if (form.value.logo_url && !isValidUrl(form.value.logo_url)) {
+        message.value = 'Logo URL 必须是有效的 HTTP/HTTPS URL'
         return
     }
 
