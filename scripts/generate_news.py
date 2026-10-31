@@ -196,7 +196,7 @@ def distill_wisdom(articles):
     {news_text}
     """
 
-    from openai import OpenAI, RateLimitError
+    from openai import OpenAI, AuthenticationError, PermissionDeniedError
     import time
 
     client = OpenAI(
@@ -214,11 +214,18 @@ def distill_wisdom(articles):
             content = response.choices[0].message.content
             content = content.replace("```json", "").replace("```", "").strip()
             return json.loads(content)
+        except (AuthenticationError, PermissionDeniedError) as e:
+            raise RuntimeError(
+                f"ModelScope authentication/permission failure (HTTP {e.status_code}). "
+                "Check the API key and complete account email verification at "
+                "https://modelscope.cn/my/settings/account. News was not updated."
+            ) from None
         except Exception as e:
             print(f"AI Generation Error (Attempt {attempt+1}): {e}")
-            time.sleep(2)
+            if attempt < max_retries - 1:
+                time.sleep(2)
     
-    return []
+    raise RuntimeError("AI generation failed after 3 attempts. News was not updated.")
 
 def archive_history(new_items):
     """Merge new items with history and save."""
