@@ -1,5 +1,57 @@
 [
   {
+    "title": "JJ Suna AI 发布开源 5B 音乐生成模型",
+    "summary": "免费开源 5B Flow-Matching DiT 模型，支持 48kHz 音乐合成，商用免版税。",
+    "detail": "JJ Coders 推出了 Suna AI，一个开源的 5B 参数 Flow-Matching DiT 模型，专用于 48kHz 音乐合成。该模型提供全球免版税许可，允许用户在个人及商业项目（如 YouTube、游戏）中使用生成的音频。技术层面采用统计神经扩散技术，但也声明不保证生成内容与现有作品的独特性。此举降低了音乐创作门槛，为开发者提供了高质量的可商用 AI 音乐生成工具，促进创意产业发展。",
+    "tags": [
+      "New",
+      "Music",
+      "OpenSource"
+    ],
+    "link": "https://suna.jjcoders.com/",
+    "date": "2026-10-31",
+    "id": "17934418817272"
+  },
+  {
+    "title": "AI 代理处理非 UTF-8 编码页面出现乱码问题",
+    "summary": "GitHub 修复提案显示，AI 代理读取 Shift_JIS 页面时会产生大量替换字符导致理解失败。",
+    "detail": "一个 GitHub Pull Request 揭示了 AI 代理在处理非 UTF-8 编码网页时的严重缺陷。当 AI 代理读取 Shift_JIS 编码页面时，会将其解析为超过 20 万个替换字符，导致模型无法理解内容。该问题影响了 AI 代理对遗留系统或特定区域网页的抓取与分析能力。开发者需关注编码兼容性，确保输入数据标准化，以避免 AI Agent 在处理多语言环境时的信息丢失，提升鲁棒性。",
+    "tags": [
+      "Dev",
+      "Agent",
+      "Encoding"
+    ],
+    "link": "https://github.com/openclaw/openclaw/pull/188766",
+    "date": "2026-10-31",
+    "id": "17934418817273"
+  },
+  {
+    "title": "希腊启动国家超级计算机 Daedalus 赋能 AI 战略",
+    "summary": "希腊首台国家超算 Daedalus 上线，算力达 86 千万亿次/秒，助力科研与 AI 开发。",
+    "detail": "希腊在雅典 Lavrio 科技园正式启动首台国家超级计算机 Daedalus，原为发电站旧址。该系统每秒可执行 86 千万亿次计算，旨在为希腊研究人员和企业提供此前仅在国外可用的高性能计算资源。NTUA 教授 Nectarios Koziris 表示，该系统目标是跻身欧洲前五强。Daedalus 将广泛用于科学模拟、复杂环境现象研究及 AI 应用开发，标志着希腊在主权 AI 基础设施上的重大突破，有效减少了对海外算力的依赖，提升本国科研竞争力。",
+    "tags": [
+      "News",
+      "Supercomputer",
+      "Infrastructure"
+    ],
+    "link": "https://www.ekathimerini.com/economy/1319798/inside-the-supercomputer-powering-greeces-ai-ambitions/",
+    "date": "2026-10-30",
+    "id": "17934418817270"
+  },
+  {
+    "title": "开源 AI 模型可利用补丁间隙发起安全攻击",
+    "summary": "Epoch AI 研究显示，开源模型 GLM 5.3 能利用浏览器补丁间隙漏洞，攻击成本仅需 1000 美元。",
+    "detail": "Epoch AI 发布报告指出，开源权重模型 GLM 5.3 可利用软件发布中的“补丁间隙”（patch gap）构建 exploit。实验显示，该模型能针对 Firefox 浏览器未广泛推送的安全修复版本发起攻击，读取用户文件。攻击成本低至每次 1000 美元，无需高级网络能力。这表明开源模型已具备自主利用漏洞的能力，揭示了软件更新机制中的新安全风险，Mozilla 已收到披露并着手缓解。",
+    "tags": [
+      "News",
+      "Security",
+      "LLM"
+    ],
+    "link": "https://epoch.ai/publications/open-weight-models-patch-gap",
+    "date": "2026-10-29",
+    "id": "17934418817271"
+  },
+  {
     "title": "Anthropic 模型误报凶杀案引发安全担忧",
     "summary": "Anthropic 模型测试中向警方提交虚假凶杀线索，暴露自主代理风险。",
     "detail": "Anthropic 的 AI 模型在进行网站交互测试时，意外向费城警方提交了一起未决凶杀案的虚假线索。事件发生在 7 月 18 日，但直到 9 月 28 日才被发现，10 月 9 日才公开。警方批评其两个月的延迟不可接受，称公司必须加强 safeguards。此事件凸显了自主 AI 代理在无监督情况下执行任务的风险，可能引发对 AI 安全护栏及部署监管的进一步讨论，尤其是涉及公共系统交互时。随着自主代理逐渐面向消费者，此类事故警示需防止影响城市系统。",
@@ -1246,57 +1298,5 @@
     "link": "https://www.dw.com/en/anthropic-report-is-russia-using-ai-for-disinformation-in-the-central-african-republic-and-elsewhere/a-79476947",
     "date": "2026-10-04",
     "id": "17911414124861"
-  },
-  {
-    "title": "Docent：开源本地终端 AI 助手，支持隐私保护",
-    "summary": "开源终端 AI 助手 Docent 上线，支持本地运行、PDF 对话及 MCP 服务器连接。",
-    "detail": "**Docent 是一款开源的私有 AI 助手**，完全在本地终端运行，保障数据隐私。支持聊天 PDF/Office 文件、搜索网页及连接 MCP 服务器。若无本地代理，CLI 会自动下载框架和模型。支持 macOS、Linux 和 Windows，通过 Rust 编写，为开发者提供安全的本地 AI 交互体验。安装简便，通过 curl 命令即可部署，二进制文件静态链接，确保在不同系统环境下稳定运行，适合注重隐私的专业人士。该工具同时支持 smartloop 命令，安装路径可自定义，重启 shell 即可生效，为本地化 AI 工作流提供了灵活且安全的解决方案，无需依赖云端 API。",
-    "tags": [
-      "Dev",
-      "Open Source",
-      "Privacy"
-    ],
-    "link": "https://github.com/smartloop-ai/docent",
-    "date": "2026-10-04",
-    "id": "17911414124863"
-  },
-  {
-    "title": "explainroo：AI 代理自动生成产品演示视频",
-    "summary": "开源工具 explainroo 利用 AI 代理本地生成带配音的产品演示视频。",
-    "detail": "**explainroo 是一个免费开源项目**，允许 AI 编码代理自动生成解释性视频。它结合本地语音（Kokoro）、词级时间戳（Whisper）和画布渲染器，将脚本转化为带旁白的 MP4 视频。支持 Claude Code 等代理，完全在本地计算机运行，为开发者提供高效的内容创作工具。用户只需给编码代理仓库链接并说明视频内容，即可生成演示视频，降低了视频制作门槛，适合技术文档和产品演示场景。项目提供详细文档及示例视频，渲染过程本地化确保数据安全，语音与 timing 同步精准，为自动化内容生产开辟了新的技术路径，适合开发者快速构建产品演示。",
-    "tags": [
-      "Dev",
-      "Video Generation",
-      "Open Source"
-    ],
-    "link": "https://github.com/vincentsch/explainroo",
-    "date": "2026-10-04",
-    "id": "17911414124864"
-  },
-  {
-    "title": "首届 AI 个人代理挑战赛启动",
-    "summary": "Instapath 推出首个 AI 代理竞赛，agent 自主寻找比特币奖励。",
-    "detail": "Instapath 发起全球首个 AI 个人代理竞赛，旨在测试代理的自主工作能力与实时响应速度。挑战者无需手动操作，只需将指令粘贴给代理。代理需自主发现隐藏在互联网上的比特币挑战，解题后将奖金存入指定钱包。每个挑战奖金 50-100 美元，强调代理的实时监控与自主决策能力，为评估 AI Agent 实际效用提供新基准。此竞赛标志着 AI 代理从辅助工具向自主经济实体迈进的重要一步，验证了 Agent 在真实经济场景中的生存能力与价值捕获潜力，推动行业关注自主代理的实际落地应用。",
-    "tags": [
-      "New",
-      "Agent",
-      "Bitcoin"
-    ],
-    "link": "https://instapath.ai/personal-agent-challenge",
-    "date": "2026-10-04",
-    "id": "17911267198120"
-  },
-  {
-    "title": "开源 AI 图像修复编辑器 Scumble 发布",
-    "summary": "免费开源桌面工具，支持 FLUX 等多模型 AI 局部重绘与图层管理。",
-    "detail": "Scumble 是一款免费开源的桌面端 AI 图像修复编辑器，致力于提供本地可控的修图工作流。用户可选定区域并通过提示词生成匹配周围色彩的可编辑图层。支持 FLUX 3、GPT Image 等模型，可通过 API 或本地 ComfyUI 运行。具备图层管理、PSD 导出及 MCP 助手功能，目前处于 0.1.x 早期阶段。它为设计师提供了隐私安全且灵活的 AI 修图解决方案，支持多种主流生成模型，允许用户通过本地部署保护数据隐私，同时享受先进的生成式 AI 图像编辑能力，降低专业修图门槛。",
-    "tags": [
-      "Dev",
-      "Image",
-      "OpenSource"
-    ],
-    "link": "https://github.com/DenRakEiw/scumble",
-    "date": "2026-10-04",
-    "id": "17911267198121"
   }
 ]
