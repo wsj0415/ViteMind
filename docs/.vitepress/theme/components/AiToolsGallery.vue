@@ -12,6 +12,7 @@ let supabase = null
 const tools = ref([])
 const pendingTools = ref([])
 const loading = ref(true)
+const loadError = ref('')
 const categories = ['ALL', 'Coding', 'Image', 'Video', 'Writing', 'Audio', 'Productivity']
 const selectedCategory = ref('ALL')
 const searchQuery = ref('')
@@ -50,6 +51,8 @@ const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 }
+
+const reloadTools = () => window.location.reload()
 
 // Clear search
 const clearSearch = () => {
@@ -103,6 +106,7 @@ onMounted(async () => {
 
   // Only fetch if supabase is initialized
   if (!supabase) {
+    loadError.value = '工具数据源未配置，请联系站点管理员。'
     loading.value = false
     return
   }
@@ -140,6 +144,7 @@ onMounted(async () => {
     }
   } catch (e) {
     console.error('Error fetching tools:', e)
+    loadError.value = '工具数据暂时无法加载，请检查网络连接或稍后重试。'
   } finally {
     loading.value = false
   }
@@ -227,7 +232,7 @@ const filteredPending = computed(() => {
               <BaseIcon name="Close" :size="12" />
             </button>
           </div>
-          <span class="tools-count">找到 {{ filteredTools.length }} 个工具</span>
+          <span class="tools-count">{{ loadError ? '数据暂不可用' : `找到 ${filteredTools.length} 个工具` }}</span>
         </div>
         <div class="header-actions">
           <select v-model="sortBy" class="sort-select">
@@ -271,6 +276,11 @@ const filteredPending = computed(() => {
       <div v-if="loading" class="loading-state">
         <div class="spinner"></div>
         <p>Loading AI Tools...</p>
+      </div>
+
+      <div v-else-if="loadError" class="no-results" role="alert">
+        <p>{{ loadError }}</p>
+        <button class="retry-button" @click="reloadTools">重新加载</button>
       </div>
 
       <!-- Tools Grid -->
@@ -761,6 +771,9 @@ const filteredPending = computed(() => {
   padding: 60px 0;
   color: var(--vp-c-text-3);
 }
+
+.retry-button { margin-top: 16px; padding: 8px 18px; border: 1px solid var(--vp-c-divider); border-radius: 6px; color: var(--vp-c-text-1); cursor: pointer; }
+.retry-button:hover { border-color: var(--vp-c-brand-1); }
 
 /* Responsive */
 @media (max-width: 768px) {

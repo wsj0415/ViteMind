@@ -1,6 +1,9 @@
 import requests
 import json
 import os
+import argparse
+from pathlib import Path
+from urllib.parse import urlsplit
 from datetime import datetime, timezone, timedelta
 from sentinel_safe_requests import safe_get
 import feedparser
@@ -17,7 +20,7 @@ except ImportError:
 # 配置
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 OPENROUTER_URL = "https://api-inference.modelscope.cn/v1/chat/completions"
-MODEL_NAME = "Qwen/Qwen3.5-397B-A17B"
+MODEL_NAME = os.environ.get("NEWS_MODEL", "Qwen/Qwen3.5-397B-A17B")
 DATA_FILE_PATH = "docs/public/data/news.json"
 
 # 数据源
@@ -48,6 +51,7 @@ def load_knowledge_base():
 def fetch_rss_data(known_links):
     """Fetch all feeds, filter out known items, and return a globally sorted list of candidates."""
     candidates = []
+    successful_feeds = 0
     headers = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
@@ -85,7 +89,11 @@ def fetch_rss_data(known_links):
                 continue
                 
             feed = feedparser.parse(response.content)
-            
+            if feed.bozo and not feed.entries:
+                print(f"Failed to parse {feed_url}")
+                continue
+            successful_feeds += 1
+
             for entry in feed.entries:
                 link = entry.link
                 
@@ -133,10 +141,24 @@ def fetch_rss_data(known_links):
         except Exception as e:
             print(f"Error fetching {feed_url}: {e}")
 
-    # Global Sort: Newest first
-    candidates.sort(key=lambda x: x['date_obj'], reverse=True)
+    if not successful_feeds:
+        raise RuntimeError("All RSS feeds failed; cannot determine whether there is new content.")
 
-    return candidates
+    # Prioritize developer-relevant topics, with at most two items per source.
+    keywords = ("agent", "open source", "open-source", "developer", "coding", "model", "llm", "api", "github", "模型", "开源")
+    for item in candidates:
+        text = (item["title"] + " " + item["summary_raw"]).lower()
+        item["relevance_score"] = sum(1 for keyword in keywords if keyword in text)
+    candidates.sort(key=lambda x: (x["relevance_score"], x["date_obj"]), reverse=True)
+    diversified, seen, counts = [], set(), {}
+    for item in candidates:
+        host = urlsplit(item["link"]).hostname or "unknown"
+        if item["link"] in seen or counts.get(host, 0) >= 2:
+            continue
+        seen.add(item["link"])
+        counts[host] = counts.get(host, 0) + 1
+        diversified.append(item)
+    return diversified
 
 def enrich_candidates(candidates):
     """Fetch content for the selected top candidates."""
@@ -157,6 +179,7 @@ def enrich_candidates(candidates):
         if len(content) < 50:
              content = item['summary_raw']
 
+        item['source_quality'] = "full_text_excerpt" if content != item['summary_raw'] else "rss_summary"
         item['summary'] = content
         enriched.append(item)
 
@@ -187,11 +210,12 @@ def distill_wisdom(articles):
     请输出一个纯 JSON 数组（不要包含 Markdown 代码块标记 ```json ... ```），数组中每个对象包含以下字段：
     - title: (string) 中文标题，吸引人且专业。
     - summary: (string) 一句话中文摘要（50字以内），用于卡片展示。
-    - detail: (string) 详细的中文深度解读（Markdown 格式），包含背景、核心技术点、行业影响等（300字左右）。
+    - detail: (string) 根据来源撰写简短 Markdown 正文，只写有依据的事实；材料不足时不推测背景、数字和影响。
     - tags: (array of strings) 必须包含一个类别标签 ["News", "Deal", "Dev", "New"]，以及 1-2 个内容标签 (如 "LLM", "Python")。
     - link: (string) 原始链接。
     - date: (string) 日期，格式 YYYY-MM-DD (直接使用原始新闻的日期)。
 
+    无法确认的信息请省略。不要把传闻描述为事实，不能为凑字数而推断。
     原始新闻：
     {news_text}
     """
@@ -294,36 +318,88 @@ def save_to_supabase(new_items):
     except Exception as e:
         print(f"Supabase sync error: {e}")
 
-if __name__ == "__main__":
+def validate_insights(insights, candidates):
+    """Accept only known candidate URLs, and derive dates from the source."""
+    if not isinstance(insights, list):
+        raise ValueError("Model output must be a JSON array")
+    originals = {item["link"]: item for item in candidates}
+    validated, seen = [], set()
+    for item in insights:
+        if not isinstance(item, dict):
+            raise ValueError("Each generated item must be an object")
+        link = item.get("link")
+        if not isinstance(link, str) or link not in originals or link in seen:
+            raise ValueError("Generated link is unknown or duplicated")
+        for field in ("title", "summary", "detail"):
+            if not isinstance(item.get(field), str) or not item[field].strip():
+                raise ValueError(f"Invalid {field}")
+        if not isinstance(item.get("tags"), list) or not item["tags"] or not all(isinstance(t, str) and t.strip() for t in item["tags"]):
+            raise ValueError("Invalid tags")
+        source = originals[link]
+        item = {k: item[k] for k in ("title", "summary", "detail", "tags", "link")}
+        item["date"] = source["date"]
+        item["review_status"] = "pending"
+        item["source_name"] = source.get("source_name", "Unknown")
+        item["source_quality"] = source.get("source_quality", "unknown")
+        item["source_excerpt"] = source.get("summary", "")
+        validated.append(item)
+        seen.add(link)
+    return validated
+
+
+def write_draft(path, items):
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if path.exists():
+        raise FileExistsError(f"Review file already exists: {path}")
+    path.write_text(json.dumps({"version": 1, "model": MODEL_NAME, "items": items}, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Wrote {len(items)} pending items to {path}")
+
+
+def publish_approved(path):
+    draft = json.loads(Path(path).read_text(encoding="utf-8"))
+    if draft.get("version") != 1 or not isinstance(draft.get("items"), list):
+        raise ValueError("Invalid review file")
+    items = draft["items"]
+    if any(i.get("review_status") not in ("pending", "approved", "rejected") for i in items):
+        raise ValueError("Invalid review status")
+    approved = [i for i in items if i["review_status"] == "approved"]
+    if not approved:
+        print("No approved items to publish.")
+        return
+    checked = validate_insights(approved, approved)
+    clean = [{k: item[k] for k in ("title", "summary", "detail", "tags", "link", "date")} for item in checked]
+    archive_history(clean)
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Generate a review draft or publish approved news")
+    parser.add_argument("--publish", metavar="DRAFT", help="Publish approved items from a reviewed JSON file")
+    parser.add_argument("--draft", default="output/news-review/draft.json", help="Path for pending draft")
+    parser.add_argument("--candidates-output", help="Save enriched candidates for model comparison")
+    args = parser.parse_args()
+    if args.publish:
+        publish_approved(args.publish)
+        return
     if not OPENROUTER_API_KEY:
-        print("Error: OPENROUTER_API_KEY not found.")
-        exit(1)
-
-    print("--- Starting Artisan News Generator ---")
-    
-    # 1. Load Knowledge Base (Known URLs)
+        raise RuntimeError("OPENROUTER_API_KEY not found")
     known_links = load_knowledge_base()
-    print(f"Knowledge base loaded: {len(known_links)} existing articles.")
-
-    # 2. Gather Candidates (Filter known, Global Sort)
     candidates = fetch_rss_data(known_links)
     print(f"Gathered {len(candidates)} new candidates.")
-
     if not candidates:
-        print("No new candidates found. Exiting gracefully.")
-        exit(0)
+        write_draft(args.draft, [])
+        return
+    enriched = enrich_candidates(candidates[:15])
+    if args.candidates_output:
+        path = Path(args.candidates_output)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        if path.exists():
+            raise FileExistsError(path)
+        serializable = [{k: v for k, v in item.items() if k != "date_obj"} for item in enriched]
+        path.write_text(json.dumps(serializable, ensure_ascii=False, indent=2), encoding="utf-8")
+    insights = distill_wisdom(enriched)
+    write_draft(args.draft, validate_insights(insights, enriched))
 
-    # 3. Curate: Take top 8 most recent unique candidates
-    top_candidates = candidates[:8]
-    
-    # 4. Enrich: Fetch content for only these top candidates
-    enriched_candidates = enrich_candidates(top_candidates)
 
-    # 5. Distill: AI Summarization
-    ai_insights = distill_wisdom(enriched_candidates)
-
-    if ai_insights:
-        # 6. Archive: Save and Sync
-        archive_history(ai_insights)
-    else:
-        print("AI returned no insights.")
+if __name__ == "__main__":
+    main()

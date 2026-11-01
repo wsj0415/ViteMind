@@ -6,7 +6,11 @@ sidebar: false
 
 <HomeBanner />
 
+<div id="latest-news">
+
 <NewsGallery />
+
+</div>
 
 <style>
 /* Hide Search Bar on Homepage */

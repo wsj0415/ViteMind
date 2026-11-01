@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted, onUnmounted, computed } from 'vue'
 import { withBase } from 'vitepress'
 import MarkdownIt from 'markdown-it'
 import BaseIcon from './BaseIcon.vue'
@@ -95,6 +95,15 @@ const groupedNews = computed(() => {
   return Object.values(groups).sort((a, b) => b.timestamp - a.timestamp)
 })
 
+const handleKeydown = (event) => {
+  if (event.key === 'Escape' && selectedNews.value) closeNews()
+}
+onMounted(() => window.addEventListener('keydown', handleKeydown))
+onUnmounted(() => {
+  window.removeEventListener('keydown', handleKeydown)
+  document.body.style.overflow = ''
+})
+
 const openNews = (item) => {
   selectedNews.value = item
   document.body.style.overflow = 'hidden'
@@ -132,24 +141,26 @@ const touchStart = ref({ x: 0, y: 0 })
 const minSwipeDistance = 50
 const modalContentRef = ref(null)
 
+const readingList = computed(() => viewMode.value === 'favorites' ? favorites.value : filteredNews.value)
+
 const currentIndex = computed(() => {
   if (!selectedNews.value) return -1
-  return filteredNews.value.findIndex(item => item.id === selectedNews.value.id)
+  return readingList.value.findIndex(item => item.id === selectedNews.value.id)
 })
 
-const hasNext = computed(() => currentIndex.value < filteredNews.value.length - 1)
+const hasNext = computed(() => currentIndex.value >= 0 && currentIndex.value < readingList.value.length - 1)
 const hasPrev = computed(() => currentIndex.value > 0)
 
 const nextNews = () => {
   if (hasNext.value) {
-    selectedNews.value = filteredNews.value[currentIndex.value + 1]
+    selectedNews.value = readingList.value[currentIndex.value + 1]
     scrollToTop()
   }
 }
 
 const prevNews = () => {
   if (hasPrev.value) {
-    selectedNews.value = filteredNews.value[currentIndex.value - 1]
+    selectedNews.value = readingList.value[currentIndex.value - 1]
     scrollToTop()
   }
 }
@@ -157,6 +168,33 @@ const prevNews = () => {
 const scrollToTop = () => {
   if (modalContentRef.value) {
     modalContentRef.value.scrollTop = 0
+  }
+}
+
+let wheelDistance = 0
+let lastWheelAt = 0
+let switchedAt = 0
+const handleWheel = (event) => {
+  const content = modalContentRef.value
+  if (!content || Math.abs(event.deltaX) > Math.abs(event.deltaY) || !event.deltaY) return
+  const now = performance.now()
+  const atTop = content.scrollTop <= 1
+  const atBottom = content.scrollTop + content.clientHeight >= content.scrollHeight - 1
+  const direction = Math.sign(event.deltaY)
+  const atEdge = direction > 0 ? atBottom : atTop
+  if (!atEdge) { wheelDistance = 0; lastWheelAt = now; return }
+  event.preventDefault()
+  if (now - switchedAt < 800) { lastWheelAt = now; return }
+  if (now - lastWheelAt > 500 || Math.sign(wheelDistance) !== direction) wheelDistance = 0
+  lastWheelAt = now
+  const unit = event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? content.clientHeight : 1
+  wheelDistance += event.deltaY * unit
+  if (Math.abs(wheelDistance) >= 90) {
+    if ((direction > 0 && hasNext.value) || (direction < 0 && hasPrev.value)) {
+      direction > 0 ? nextNews() : prevNews()
+      switchedAt = now
+    }
+    wheelDistance = 0
   }
 }
 
@@ -254,7 +292,7 @@ const handleTouchEnd = (e) => {
 
     <!-- Grid View -->
     <div v-else-if="viewMode === 'grid'" class="grid-container">
-      <div v-for="item in filteredNews" :key="item.id" class="news-item" @click="openNews(item)">
+      <div v-for="item in filteredNews" :key="item.id" class="news-item" role="button" tabindex="0" @click="openNews(item)" @keydown.enter.self="openNews(item)" @keydown.space.self.prevent="openNews(item)">
         <div class="item-header">
           <span class="meta-date">{{ item.date }}</span>
           <div class="header-right">
@@ -339,43 +377,44 @@ const handleTouchEnd = (e) => {
     <Teleport to="body">
       <Transition name="fade">
         <div v-if="selectedNews" class="modal-overlay" @click="closeNews">
-          <div class="modal-panel" @click.stop>
+          <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="article-heading" @click.stop>
 
             <div class="modal-top-bar">
-              <span class="modal-id">ID: {{ selectedNews.id.slice(-6) }}</span>
-              <button class="close-btn" @click="closeNews">CLOSE [ESC]</button>
+              <span class="modal-id">VITEMIND / 阅读 · {{ currentIndex + 1 }} / {{ readingList.length }}</span>
+              <button class="close-btn" @click="closeNews">关闭 <span aria-hidden="true">×</span></button>
             </div>
 
             <div ref="modalContentRef" class="modal-content-scroll" @touchstart="handleTouchStart"
-              @touchend="handleTouchEnd">
+              @touchend="handleTouchEnd" @wheel="handleWheel">
               <div class="article-header">
                 <div class="article-meta">
                   <span>{{ selectedNews.date }}</span>
                   <span class="separator">/</span>
                   <span v-for="tag in selectedNews.tags" :key="tag">#{{ tag }} </span>
                 </div>
-                <h1 class="article-title">{{ selectedNews.title }}</h1>
+                <h2 id="article-heading" class="article-title">{{ selectedNews.title }}</h2>
+                <p v-if="selectedNews.summary" class="article-deck">{{ selectedNews.summary }}</p>
               </div>
 
               <div class="article-body markdown-body" v-html="renderMarkdown(selectedNews.detail)"></div>
 
               <div class="article-footer">
-                <a :href="selectedNews.link" target="_blank" class="source-link">
-                  SOURCE LINK ↗
+                <a :href="selectedNews.link" target="_blank" rel="noopener noreferrer" class="source-link">
+                  阅读原文 ↗
                 </a>
               </div>
             </div>
 
-            <!-- Mobile Bottom Nav -->
+            <!-- Article navigation -->
             <div class="mobile-bottom-nav">
               <button class="nav-btn" :disabled="!hasPrev" @click="prevNews">
-                ← PREV
+                ← 上一篇
               </button>
               <button class="nav-btn close" @click="closeNews">
-                CLOSE
+                关闭
               </button>
               <button class="nav-btn" :disabled="!hasNext" @click="nextNews">
-                NEXT →
+                下一篇 →
               </button>
             </div>
 
@@ -974,8 +1013,38 @@ const handleTouchEnd = (e) => {
 
 /* Desktop: Hide bottom nav */
 @media (min-width: 769px) {
-  .mobile-bottom-nav {
-    display: none;
-  }
+  .mobile-bottom-nav { display: flex; position: static; justify-content: space-between; padding: 12px 40px; border-top: 1px solid var(--vp-c-divider); }
+  .nav-btn { padding: 8px 12px; color: var(--vp-c-text-1); font-size: 13px; cursor: pointer; }
+  .nav-btn:disabled { opacity: .35; cursor: default; }
+}
+
+/* A calm reading surface inspired by editorial article layouts. */
+.modal-overlay { background: rgba(20, 18, 24, .62); backdrop-filter: blur(6px); }
+.modal-panel { max-width: 920px; border: 0; box-shadow: 0 18px 80px rgba(0,0,0,.18); }
+.modal-top-bar { padding: 20px 40px; color: var(--vp-c-text-2); letter-spacing: .1em; align-items: center; }
+.close-btn { color: var(--vp-c-text-1); font-family: inherit; letter-spacing: 0; font-size: 13px; padding: 8px; }
+.close-btn span { font-size: 20px; margin-left: 7px; vertical-align: middle; }
+.modal-content-scroll { padding: 64px 48px 96px; }
+.article-header, .article-body, .article-footer { width: min(100%, 650px); margin-left: auto; margin-right: auto; }
+.article-header { margin-bottom: 42px; }
+.article-meta { display: flex; flex-wrap: wrap; gap: 8px; font: 600 12px/1.5 var(--vp-font-family-base); color: var(--vp-c-text-2); }
+.article-meta .separator { margin: 0; }
+.article-title { margin: 24px 0 0; padding: 0; border: 0; font-size: clamp(30px, 4vw, 44px); line-height: 1.35; letter-spacing: -.035em; }
+.article-deck { margin: 24px 0 0; color: var(--vp-c-text-2); font-size: 17px; line-height: 1.8; }
+.article-body { color: var(--vp-c-text-1); font-size: 17px; line-height: 1.95; overflow-wrap: anywhere; }
+.markdown-body :deep(h2), .markdown-body :deep(h3) { line-height: 1.45; margin: 2em 0 .8em; }
+.markdown-body :deep(p), .markdown-body :deep(ul), .markdown-body :deep(ol) { margin: 0 0 1.35em; }
+.markdown-body :deep(li) { margin: .4em 0; }
+.markdown-body :deep(a) { color: var(--vp-c-brand-1); }
+.article-footer { margin-top: 48px; padding-top: 24px; }
+.source-link { font-family: var(--vp-font-family-base); font-weight: 650; font-size: 13px; }
+.news-item:focus-visible, .close-btn:focus-visible, .source-link:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: 3px; }
+@media (max-width: 768px) {
+  .modal-panel { height: 100dvh; }
+  .modal-content-scroll { padding: 40px 24px 110px; }
+  .article-header { margin-bottom: 32px; }
+  .article-title { font-size: 30px; }
+  .article-deck, .article-body { font-size: 16px; }
+  .mobile-bottom-nav { padding-bottom: max(16px, env(safe-area-inset-bottom)); }
 }
 </style>
