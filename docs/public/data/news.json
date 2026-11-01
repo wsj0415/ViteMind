@@ -1,5 +1,239 @@
 [
   {
+    "title": "AI 引发科技业工会化浪潮",
+    "summary": "裁员与监控担忧促使谷歌、Meta 员工寻求工会保护。",
+    "detail": "随着 AI 导致的大规模裁员和工作负荷增加，科技行业传统的“反工会”堡垒正在瓦解。谷歌 DeepMind 和 Meta 的英国员工因反对 AI 用于军事目的及员工监控而尝试组建工会。员工面临被自己构建的产品取代的风险，这种矛盾加剧了劳资紧张关系。这标志着 AI 部署不仅影响劳动力市场，更引发了伦理与劳工权益的深层冲突。硅谷工人的境遇可能成为 AI 扩展到其他行业的风向标，显示技术红利背后的社会成本正在重新评估。",
+    "tags": [
+      "News",
+      "Labor",
+      "Ethics"
+    ],
+    "link": "https://www.theguardian.com/technology/2026/jul/21/ai-tech-workers-unionize",
+    "date": "2026-11-01",
+    "id": "17934982124500"
+  },
+  {
+    "title": "谷歌推出大象 - 金鱼模型插件",
+    "summary": "解决 AI 编码可靠性危机，规范规格驱动的开发流程。",
+    "detail": "针对 AI 编程速度带来的“垃圾代码”和上下文崩溃问题，谷歌开源团队发布了 Elephant-Goldfish Model 插件。该工具旨在将人类对系统的理解需求与 AI 的执行能力对齐，通过规格驱动的开发（Spec-driven）建立结构化护栏。这防止了错误自动规模化，提升了 AI 辅助软件开发的可靠性，标志着 AI 编码从追求速度向追求质量与可控性的范式转变。开发者需适应新工具以平衡效率与系统稳定性，避免技术债务累积。",
+    "tags": [
+      "Dev",
+      "Google",
+      "Tools"
+    ],
+    "link": "https://opensource.googleblog.com/2026/10/introducing-elephant-goldfish-model-plugin.html",
+    "date": "2026-11-01",
+    "id": "17934982124501"
+  },
+  {
+    "title": "维基基金会提议 AI 版权中间路径",
+    "summary": "在 NYT 诉 OpenAI 案中提交简报，平衡训练与 reproduction。",
+    "detail": "维基基金会在纽约时报诉 OpenAI 版权案中提交法庭之友简报，提出折中方案。主张 AI 可训练 freely available 内容，但不应随意复制导致人类创作者失去激励。此举试图在保护开放互联网与维持人类创作 incentive 之间找到平衡。若被采纳，可能影响未来 AI 版权法律框架，为内容创作者与 AI 开发商的共存提供新路径。基金会强调开放知识社区需在与 AI 共生中生存，避免被完全替代。",
+    "tags": [
+      "News",
+      "Legal",
+      "Copyright"
+    ],
+    "link": "https://gizmodo.com/wikimedia-foundation-tries-to-save-itself-from-oblivion-by-brokering-ai-copyright-deal-2000833099",
+    "date": "2026-11-01",
+    "id": "17934982124502"
+  },
+  {
+    "title": "超音速飞机公司转型 AI 数据中心供能",
+    "summary": "能源需求驱动航空制造商转型，联合航空质疑交付时间表。",
+    "detail": "受 AI 数据中心巨大能源需求驱动，Boom Supersonic  unveiled 了制造天然气涡轮机的工厂，业务重心向 AI 供能倾斜。然而，其原有的超音速客机计划面临延误，联合航空 CEO 质疑 2029 年交付可行性。这反映了 AI 基础设施建设对传统高端制造业资源的挤压与重构，能源成为 AI 发展的关键瓶颈之一。公司战略转移显示 AI 算力需求正在重塑实体产业布局。",
+    "tags": [
+      "News",
+      "Infrastructure",
+      "Energy"
+    ],
+    "link": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
+    "date": "2026-11-01",
+    "id": "17934982124503"
+  },
+  {
+    "title": "当 AI 编写几乎所有代码时工程师的未来",
+    "summary": "37Signals 实现“放下铅笔”，软件工程本质正在转变。",
+    "detail": "随着 Opus 4.5 和 GPT 5.2 等模型能独立完成生产级代码，37Signals 已实现全 AI 生成代码。文章指出软件工程并未消亡，但重心从手写代码转向架构设计与审查。开发者需适应 AI Agent 协作模式，利用手机即可部署生产软件。行业工作流将迎来根本性变革，提示工程师需提升高层设计能力而非仅关注编码实现。未来工程师角色将更像系统架构师而非代码搬运工。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Future"
+    ],
+    "link": "https://newsletter.pragmaticengineer.com/p/when-ai-writes-almost-all-code-what",
+    "date": "2026-10-31",
+    "id": "17934982124504"
+  },
+  {
+    "title": "Proton 内部转向 AI 引发安全担忧",
+    "summary": "隐私公司 Proton 放宽 AI 代码使用，员工质疑安全性。",
+    "detail": "以隐私著称的 Proton 内部从禁止 AI 转向批准大多数代码使用 AI 生成。调查披露员工担心 AI 代码未经充分安全测试即部署，且难以表达顾虑。此举与其隐私保护品牌形象形成张力，凸显 AI 提速与安全合规之间的行业性矛盾。管理层优先考虑 AI velocity，但安全团队担忧潜在漏洞，反映 AI adoption 中的治理挑战。隐私公司尚且如此，凸显全行业在安全与效率间的博弈困境。",
+    "tags": [
+      "News",
+      "Security",
+      "Privacy"
+    ],
+    "link": "https://consumerrights.wiki/w/Proton_senior_management_prioritizes_AI_over_security",
+    "date": "2026-10-31",
+    "id": "17934851639621"
+  },
+  {
+    "title": "苹果 CEO：不为 AI 而 AI，注重实用价值",
+    "summary": "苹果 CEO 强调 AI 策略务实，拒绝盲目跟风 shipping。",
+    "detail": "苹果 CEO 明确表示公司不希望“为了 AI 而发布 AI 产品”。在各大科技公司争相集成 AI 功能的背景下，苹果坚持用户体验优先的战略。这反映了巨头对 AI 落地场景的审慎态度，可能影响后续消费电子 AI 功能的迭代节奏与市场预期。苹果更关注 AI 如何实际增强设备功能，而非单纯营销噱头，体现其一贯的产品哲学。此举可能引导行业回归 AI 实用价值，避免泡沫。",
+    "tags": [
+      "News",
+      "Apple",
+      "Strategy"
+    ],
+    "link": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+    "date": "2026-10-31",
+    "id": "17934851639622"
+  },
+  {
+    "title": "法官允许 NAACP 继续起诉 xAI 数据中心污染",
+    "summary": "xAI 数据中心未经许可运营燃气涡轮，诉讼获准推进。",
+    "detail": "联邦法官驳回 xAI dismiss 动议，允许 NAACP 关于其 Colossus 数据中心污染诉讼继续。xAI 被指控未经许可运营燃气涡轮违反清洁空气法。此案确立了公民诉讼主体资格，为 AI 基础设施的环境合规性树立重要司法先例，增加数据中心运营法律风险。AI 扩张带来的环境外部性问题正成为监管焦点，企业需重视合规。能源消耗与排放将成为 AI 大厂未来面临的主要法律与舆论压力之一。",
+    "tags": [
+      "News",
+      "Legal",
+      "Infrastructure"
+    ],
+    "link": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+    "date": "2026-10-31",
+    "id": "17934851639623"
+  },
+  {
+    "title": "亚马逊内部 AI 备忘录引发员工担忧",
+    "summary": "亚马逊发布 AI 角色指南，混合信息令软件工程师感到职业前景 bleak。",
+    "detail": "亚马逊 VP 发布内部备忘录，定义 AI 时代开发者角色。尽管试图缓解焦虑，但工程师担心 AI 任务恶化后被边缘化。行业正处于剧烈变革期，AI 普及让许多从业者对未来感到担忧，该文件反映了科技公司在 AI 转型中的管理挑战与员工心理博弈。核心测试在于：当工程师记录 AI 使任务变糟时，是否被认真对待。这揭示了企业 AI 落地中的真实困境与职业安全感缺失。当前技术行业虽习惯变革，但 AI 带来的根本性差异令人心生恐惧，许多人考虑转行，备忘录试图安抚但效果存疑。该文件最初于 9 月内部发送，现在公开，显示管理层对工程师情绪的关注。",
+    "tags": [
+      "News",
+      "Amazon",
+      "Workforce"
+    ],
+    "link": "https://www.theregister.com/ai-and-ml/2026/10/31/amazon-sends-chills-through-its-workforce-with-mixed-message-memo-about-ai-use-corey-quinn/5306804",
+    "date": "2026-10-31",
+    "id": "17934706184720"
+  },
+  {
+    "title": "算力租赁收益骤降，AI 推理成本暴跌",
+    "summary": "Darkbloom 网络日收益降至 1.23 美元，Anthropic 代币成本下降 77%。",
+    "detail": "随着 AI 推理成本降低，闲置算力租赁商业模式面临挑战。Darkbloom 网络数据显示，因 Anthropic 代币价格下跌 77%，用户出租闲置 Mac 进行 AI 推理的收益大幅缩水。这表明 AI 基础设施成本下降正在重塑边缘计算盈利模型，个人算力贡献者的回报空间被压缩。原本希望通过出租闲置 Mac 获利的用户，现在日收益降至 1.23 美元。token 成本暴跌使得去中心化算力网络的經濟模型受到考验，行业需重新评估分布式推理的商业可持续性。Tom's Hardware 报道指出，更便宜的推理使得出租算力获利更难，这对依赖代币奖励的网络是重大打击。",
+    "tags": [
+      "News",
+      "Compute",
+      "Economy"
+    ],
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/firm-that-lets-you-rent-out-your-idle-mac-for-ai-inference-workloads-warns-of-plummeting-token-costs-darkbloom-network-sees-earnings-drop-to-usd1-23-a-day-as-anthropic-tokens-fall-77-percent",
+    "date": "2026-10-31",
+    "id": "17934706184721"
+  },
+  {
+    "title": "AI 数据中心或抹去美国 15 年气候进展",
+    "summary": "报告警告至 2030 年，AI 数据中心能耗可能抵消美国气候进步。",
+    "detail": "新兴技术报道指出，AI 数据中心的快速增长带来的能耗问题严峻。预计到 2030 年，相关碳排放可能抵消美国过去 15 年在气候保护方面的努力。这凸显了 AI 扩张与可持续发展之间的矛盾，行业需关注绿色算力与能源效率，以平衡技术创新与 environmental 责任。AI 基础设施的电力需求激增，可能逆转多年的减排成果。报告警告若不加以控制，技术进步将以环境退步为代价。这促使政策制定者与科技公司必须正视能耗问题，探索更清洁的能源解决方案。Gadget Review 强调这一风险，呼吁行业关注 AI 增长背后的环境成本，避免气候进展被 erased。",
+    "tags": [
+      "News",
+      "Climate",
+      "DataCenter"
+    ],
+    "link": "https://www.gadgetreview.com/ai-data-centers-could-erase-15-years-of-americas-climate-progress-by-2030",
+    "date": "2026-10-31",
+    "id": "17934706184722"
+  },
+  {
+    "title": "Publishub：短视频创作者的 AI 剪辑副驾驶",
+    "summary": "专为 Reels 和 TikTok 设计的 AI 视频分析工具，提供具体修改建议。",
+    "detail": "Publishub 是一款面向自由视频编辑和 UGC 创作者的 AI 工具。它不替代现有编辑器，而是分析上传视频，指出具体秒数的剪辑问题（如开头过长、重复 idea）。工具承诺预测保留率提升，并允许用户验证建议效果。支持 MP4/MOV 等格式，旨在优化短视频钩子和节奏，帮助创作者在发布前改进内容。工作流程兼容现有编辑器，无需安装插件。用户可导出视频分析，获取具体修改理由，如镜头静止或想法重复。这种验证机制让创作者能建立准确率评分，学习有效模式。每个建议都有理由，帮助用户向客户解释剪辑决策，提升专业度。",
+    "tags": [
+      "New",
+      "Video",
+      "Creator"
+    ],
+    "link": "https://www.getpublishub.com",
+    "date": "2026-10-31",
+    "id": "17934706184723"
+  },
+  {
+    "title": "主权推理网格：安卓手机原生 AI 架构",
+    "summary": "提出去中心化 AI 代理基础设施，实现手机原生推理与边缘计算。",
+    "detail": "Zenodo 发布新论文，介绍“主权推理网格”架构。该方案旨在利用 Android 手机进行本地 AI 推理和边缘计算，构建去中心化的 AI 代理基础设施。由 Edge Tech Knowledgey 团队提出，试图解决集中式算力依赖问题，推动 AI 代理在移动端的隐私保护与自主运行，为边缘 AI 部署提供新范式。项目经理 David Ingalls 主导开发，提供软件开源版本。这种手机原生架构强调去中心化，可能改变未来 AI 代理的部署方式，减少对云服务的依赖，增强用户数据主权。文件大小 60.8 kB，版本 v1.0.0，标志着该架构进入初步可用阶段，适合开发者研究。",
+    "tags": [
+      "Dev",
+      "EdgeAI",
+      "Architecture"
+    ],
+    "link": "https://zenodo.org/records/21909447",
+    "date": "2026-10-31",
+    "id": "17934706184724"
+  },
+  {
+    "title": "Anthropic 警告：灾难性 AI 事件可能压倒保险业",
+    "summary": "Anthropic 指出灾难性 AI 事件可能让整个保险业不堪重负，引发行业风险重估。",
+    "detail": "**背景**：Anthropic 近期向保险行业发出严重风险预警，指出潜在灾难性 AI 事件可能引发系统性危机。**核心**：此类事件可能导致损失超出当前保险模型的承保能力与赔付储备，造成行业瘫痪。传统风险模型难以覆盖 AI 特有的快速扩散风险与未知漏洞。**影响**：迫使保险业重新评估 AI 风险模型，可能引发新的监管政策或专属保险产品的开发，凸显 AI 安全问题的经济紧迫性与行业连锁反应，需建立新风控体系以应对未来挑战。此外，这可能改变保险产品的定价逻辑，促使企业增加 AI 安全投入，形成新的合规标准。行业需联合技术公司与监管机构，共同制定应对极端 AI 风险的标准框架，确保金融系统稳定性。",
+    "tags": [
+      "News",
+      "AI Safety",
+      "Insurance"
+    ],
+    "link": "https://www.intelligentinsurer.com/entire-insurance-industry-could-be-overwhelmed-by-catastrophic-ai-event-anthropic",
+    "date": "2026-10-31",
+    "id": "17934530591490"
+  },
+  {
+    "title": "协作 AI 代理实现自主实验研究突破",
+    "summary": "新论文展示 AI 代理可自主设计实验、验证理论并协作研究，加速科学发现。",
+    "detail": "**背景**：arXiv 发布关于自主研究实验室的新论文，展示多代理协作能力。**技术**：基于 LLM 的代理互相评估工作，可生成或拒绝研究问题，设计实验挑战主张，并能停止或重定向调查。**案例**：在固态量子自旋研究中，代理成功校准设置并修正测量协议，确保结果可靠。**影响**：标志着 AI 从辅助工具向独立科研合作者转变，加速科学发现流程，为自动化科研提供新范式。此研究证明代理不仅能执行任务，还能进行批判性思考与自我修正，减少了人类干预需求。未来可能应用于药物研发、材料科学等领域，大幅缩短实验周期，降低研发成本，重塑科研工作流。",
+    "tags": [
+      "Dev",
+      "Autonomous Agents",
+      "Science"
+    ],
+    "link": "https://arxiv.org/abs/2610.40589",
+    "date": "2026-10-31",
+    "id": "17934530591491"
+  },
+  {
+    "title": "Open Science：开源 AI 科学研究工作台发布",
+    "summary": "开源工具可自动阅读文献、编写代码并运行实验，记录全过程供追溯。",
+    "detail": "**背景**：GitHub 发布面向科学研究的开源 AI 工作台 Open Science。**功能**：接收目标后自动阅读文献、编写代码、运行实验并撰写报告，所有步骤均留痕可查。**技术**：集成自动化工作流与记录系统，支持持续集成与版本管理。**影响**：降低科研门槛，提高研究可复现性，为 AI 驱动的科学发现提供基础设施支持，推动开放科学进程与协作效率提升。该工具强调透明度，所有代码与实验数据均可审计，有助于解决科研 reproducibility 危机。开发者可基于此构建垂直领域应用，促进跨学科合作，让 AI 真正成为科学家的得力助手而非黑盒。",
+    "tags": [
+      "New",
+      "Open Source",
+      "Research"
+    ],
+    "link": "https://github.com/synthetic-sciences/openscience",
+    "date": "2026-10-31",
+    "id": "17934530591492"
+  },
+  {
+    "title": "NullPrime：测试 AI 模型未知认知能力的数据集",
+    "summary": "新数据集用于评估 AI 模型是否知道自己何时无法判断，暴露校准缺陷。",
+    "detail": "**背景**：Show HN 项目提出 NullPrime 数据集，旨在测试模型不确定性。**技术**：包含无法通过表面模式判断质数的整数，作为“负控制”测试模型的不确定性估计与校准能力。**结果**：标准学习者在测试集上表现接近随机，暴露模型无法识别未知领域的缺陷。**影响**：为改进 LLM 校准、选择性预测及不确定性量化提供关键基准，推动模型可靠性研究。该项目强调模型不应盲目自信，而应具备“知不知”的能力。这对于医疗、金融等高风险应用场景至关重要。未来模型开发将更注重不确定性量化，避免幻觉导致错误决策，提升用户信任度与系统安全性。",
+    "tags": [
+      "Dev",
+      "LLM",
+      "Dataset"
+    ],
+    "link": "https://github.com/bmiedlar/nullprime",
+    "date": "2026-10-31",
+    "id": "17934530591493"
+  },
+  {
+    "title": "社区热议：AI 代理全天候运行为何仍未加速交付？",
+    "summary": "Hacker News 讨论 AI 代理 24/7 运行却未能实现 overnight 交付的深层原因。",
+    "detail": "**背景**：HN 社区发起关于 AI 代理效率与实际产出差距的讨论。**核心**：质疑为何 AI 代理能全天候运行，但软件交付速度未见显著提升，几乎无项目隔夜完成。**观点**：可能受限于人类审查瓶颈、任务复杂度、代理可靠性或集成困难。**影响**：反映行业对 AI 生产力实际落地的反思，指向人机协作流程优化的必要性，提醒开发者关注瓶颈所在。这表明当前 AI 代理尚未完全理解复杂工程上下文，或缺乏端到端部署权限。行业需从单纯追求代理能力转向优化整体工程流程，解决最后一步的交付难题，才能真正释放 AI 带来的生产力红利。",
+    "tags": [
+      "News",
+      "AI Agents",
+      "Productivity"
+    ],
+    "link": "https://news.ycombinator.com/item?id=50315898",
+    "date": "2026-10-31",
+    "id": "17934530591494"
+  },
+  {
     "title": "JJ Suna AI 发布开源 5B 音乐生成模型",
     "summary": "免费开源 5B Flow-Matching DiT 模型，支持 48kHz 音乐合成，商用免版税。",
     "detail": "JJ Coders 推出了 Suna AI，一个开源的 5B 参数 Flow-Matching DiT 模型，专用于 48kHz 音乐合成。该模型提供全球免版税许可，允许用户在个人及商业项目（如 YouTube、游戏）中使用生成的音频。技术层面采用统计神经扩散技术，但也声明不保证生成内容与现有作品的独特性。此举降低了音乐创作门槛，为开发者提供了高质量的可商用 AI 音乐生成工具，促进创意产业发展。",
@@ -37,6 +271,19 @@
     "link": "https://www.ekathimerini.com/economy/1319798/inside-the-supercomputer-powering-greeces-ai-ambitions/",
     "date": "2026-10-30",
     "id": "17934418817270"
+  },
+  {
+    "title": "软件公司 Critical Software 因 AI 重组裁员",
+    "summary": "葡萄牙软件公司因 AI 技术引入裁员，重塑开发流程。",
+    "detail": "葡萄牙 Coimbra 的 Critical Software 宣布围绕 AI 重建公司。联合创始人表示，AI 已接管测试和代码生成工作，效率“残酷”地高。部分员工因无法适应灵活性要求被裁。公司不再仅是软件开发商，而是保持人类验证的系统制造商。这标志着传统软件开发模式向 AI 驱动模式的根本性转变，行业需警惕岗位结构性调整及技能需求变化。AI 在常规工作中的渗透加速，企业需平衡敏捷性与员工转型，此案例为传统软件企业转型提供警示。",
+    "tags": [
+      "News",
+      "Layoffs",
+      "Software Dev"
+    ],
+    "link": "https://ai.pt/en/news/coimbra-s-critical-software-is-rebuilding-itself-around-ai-after-laying-0c3e56/",
+    "date": "2026-10-29",
+    "id": "17934851639620"
   },
   {
     "title": "开源 AI 模型可利用补丁间隙发起安全攻击",
@@ -1051,252 +1298,5 @@
     "link": "https://news.ycombinator.com/item?id=49971503",
     "date": "2026-10-05",
     "id": "17912448482973"
-  },
-  {
-    "title": "阿联酋 Sheikh Tahnoon 布局 AI 霸权",
-    "summary": "卫报深度报道 UAE 皇室成员通过投资与战略谋求全球 AI 主导地位。",
-    "detail": "文章详述 Sheikh Tahnoon 从柔术爱好者到 AI 战略家的转变。通过资本运作与地缘政治影响力，阿联酋正大规模投资 AI 基础设施与模型。此举标志着主权财富基金正成为 AI 竞赛的关键玩家，可能重塑全球算力与模型格局。",
-    "tags": [
-      "News",
-      "Geopolitics",
-      "Investment"
-    ],
-    "link": "https://www.theguardian.com/news/ng-interactive/2026/oct/01/fixer-financier-spymaster-how-the-uaes-sheikh-tahnoon-is-setting-his-sights-on-ai-dominance",
-    "date": "2026-10-05",
-    "id": "17912448482974"
-  },
-  {
-    "title": "特斯拉前员工用 AI 机器人运营铜矿",
-    "summary": "特斯拉 veterans 将 AI 机器人技术应用于传统铜矿开采，提升自动化水平。",
-    "detail": "报道指出前特斯拉员工正在利用 AI 驱动的机器人运营铜矿，标志着 AI 与机器人技术从汽车制造向重工业领域的扩展。核心技术涉及自动化控制与视觉识别，旨在提高开采效率与安全性。此案例展示了 AI 在物理世界落地应用的潜力，为传统矿业数字化转型提供重要参考。尽管面临环境挑战，该尝试体现了具身智能在复杂工业场景中的商业价值与可行性。行业观察家认为，这种跨界应用可能引发矿业自动化浪潮，降低人力成本并减少安全事故，但同时也需关注技术维护与初期投入成本问题。未来随着模型泛化能力提升，类似场景有望复制。此外，该项目还展示了 AI 在极端环境下的适应能力，为资源开采行业提供了新的技术范式。",
-    "tags": [
-      "News",
-      "Robotics",
-      "Industry"
-    ],
-    "link": "https://www.forbes.com/sites/alanohnsman/2026/04/27/this-tesla-veteran-is-running-a-copper-mine-with-ai-powered-robots/",
-    "date": "2026-10-05",
-    "id": "17912233115150"
-  },
-  {
-    "title": "专为女性打造的 AI 情感咨询初创公司",
-    "summary": "Hot Girl Hotline 推出针对年轻女性的 AI 关系建议服务，注重安全性。",
-    "detail": "初创公司 Hot Girl Hotline 旨在为年轻女性提供安全的 AI 情感与约会建议。相比通用大模型，该服务针对个人话题进行了优化，避免潜在的心理伤害或误导。创始人表示并非打造 AI 伴侣，而是提供更谨慎的对话环境。这反映了 AI 在垂直领域的应用趋势，以及对通用聊天机器人在心理健康方面风险的关注。目前已有用户因通用 AI 不当建议遭受伤害，该产品试图通过特定调优解决信任问题。其商业模式可能涉及订阅制，目标是在竞争激烈的 AI 伴侣市场中开辟细分赛道，强调安全性与专业性。团队希望建立行业标准，防止 AI 在敏感咨询领域滥用。",
-    "tags": [
-      "New",
-      "Startup",
-      "LLM"
-    ],
-    "link": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
-    "date": "2026-10-05",
-    "id": "17912233115152"
-  },
-  {
-    "title": "企业知识如何与 AI 代理安全连接",
-    "summary": "MIT 科技评论探讨 AI 代理与企业知识库连接的技术与挑战。",
-    "detail": "文章深入探讨了将 AI 代理连接到企业知识库的关键问题。随着代理式 AI 的普及，如何安全、有效地让 AI 访问内部数据成为核心挑战。内容涉及数据权限、检索增强生成（RAG）及隐私保护。这对于企业部署 AI agent 具有指导意义，强调了在提升自动化能力的同时需确保数据主权与安全。企业需平衡便利性与风险，防止敏感信息泄露。MIT 科技评论指出，未来的架构将更注重零信任安全模型，确保 AI 仅在授权范围内行动。这对 CIO 和技术决策者至关重要，是 AI 落地企业级的关键一步。解决知识连接问题将决定 AI 代理能否真正赋能业务而非成为安全隐患。",
-    "tags": [
-      "News",
-      "Enterprise",
-      "AI Agents"
-    ],
-    "link": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
-    "date": "2026-10-05",
-    "id": "17912233115153"
-  },
-  {
-    "title": "AI 开发新范式：Gauntlet Loop 提示技巧",
-    "summary": "Claude Opus 5 单提示生成 5.5 万行代码游戏，揭示全新代理工作流。",
-    "detail": "开发者 Matt Shumer 发现了一种名为\"Gauntlet Loop\"的提示技巧，通过让 AI 代理不断对比更高标准而非单次输出，显著提升了生成质量。该技巧成功用于生成完整的 Call of Duty 风格游戏，包含 5.5 万行代码及所有素材。此方法已开源，适用于代码、网站设计及产品设计，标志着 AI 代理自主工作流的重大突破，为复杂任务自动化提供了新路径。此前因质量过高被质疑造假，开源后验证了真实性。",
-    "tags": [
-      "Dev",
-      "Prompt Engineering",
-      "AI Agents"
-    ],
-    "link": "https://somethingbig.ai/gauntlet-loop",
-    "date": "2026-10-05",
-    "id": "17911890120250"
-  },
-  {
-    "title": "巨头共识：AI 放缓法案背后的行业信号",
-    "summary": "Altman、Amodei 与 Musk 罕见达成一致，支持 AI 放缓与安全监管。",
-    "detail": "三位 AI 领域 rival CEO 在 Sanders-Casar 法案上突然达成共识，认为 AI 发展过快存在危险。播客分析指出，这不仅是安全考量，也可能是商业策略的一部分。行业领袖对“太危险”叙事的统一口径，预示着监管政策可能加速落地，企业需重新评估合规风险与研发节奏，AI 行业可能进入稳健发展期。此共识打破了以往竞争格局，显示安全议题已成行业最高优先级。",
-    "tags": [
-      "News",
-      "Policy",
-      "Industry"
-    ],
-    "link": "https://datascienceathome.com/ai-slowdown-why-altman-amodei-musk-suddenly-agree-ep-313/",
-    "date": "2026-10-05",
-    "id": "17911890120251"
-  },
-  {
-    "title": "决策 API 对决：TypeSafe Jev 与 Perplexity 对比",
-    "summary": "深度评测两款决策模型 API 的输入、接口及适用场景差异。",
-    "detail": "文章对比了 TypeSafe AI 的 Jev 与 Perplexity 的 Decisions API。两者均遵循决策模型模式，但 Jev 专注文本与 JSON，Perplexity 支持图像且公开模型权重。接口在问题类型（choice, score, noul）上相似，但端点与认证不同。开发者应根据应用证据需求选择，文本工作流可对比预测结果，多模态需求则倾向 Perplexity，为 AI 应用集成提供明确选型指南。注意 Jev 还有 AI Gateway 集成版本，需区分端点。",
-    "tags": [
-      "Dev",
-      "API",
-      "LLM"
-    ],
-    "link": "https://vercel.com/i/jev-vs-perplexity",
-    "date": "2026-10-05",
-    "id": "17911890120252"
-  },
-  {
-    "title": "AI 时代的管理寓言：速度陷阱与系统理解",
-    "summary": "新版《凤凰项目》寓言，警示 AI 加速下工程团队的理解危机。",
-    "detail": "《The Velocity Trap》被誉为 AI 时代的《凤凰项目》，通过医疗与工程案例揭示速度带来的隐患。当工程团队发货速度前所未有却不再理解系统时，风险悄然累积。资深工程师的警告被忽视，junior 工程师无法追踪变更。该寓言警示企业在追求 AI 驱动的效率时，不可忽视系统可解释性与团队认知同步，避免技术债务爆发。故事背景设定在 Clerkenwell 餐厅与工程楼层，极具警示意义。",
-    "tags": [
-      "News",
-      "Management",
-      "Engineering"
-    ],
-    "link": "https://colineberhardt.github.io/the-velocity-trap/",
-    "date": "2026-10-05",
-    "id": "17911890120253"
-  },
-  {
-    "title": "全球 AI 会议导航：3D 地球可视化日历",
-    "summary": "全新工具展示未来 12 个月全球 AI 会议，支持 3D 交互查看。",
-    "detail": "AI Events World 推出了基于 3D 地球的 AI 会议日历，涵盖未来 12 个月内全球 31 场活跃会议。用户可旋转地球查看标记，点击获取详情，如阿姆斯特丹 World Summit AI 及纽约 AI Engineer 会议。该工具移除了过往事件，每城市仅显示一场，帮助从业者高效规划参会行程，是跟踪行业线下活动的实用导航工具。支持每月邮件订阅，确保用户不错过关键行业聚会与技术交流机会。",
-    "tags": [
-      "New",
-      "Tools",
-      "Events"
-    ],
-    "link": "https://aieventsworld.com/en/",
-    "date": "2026-10-05",
-    "id": "17911890120254"
-  },
-  {
-    "title": "军事 AI 自主系统实战化加速",
-    "summary": "俄乌战场自主无人机激增，AI 目标锁定与网状 networking 成关键。",
-    "detail": "澳大利亚战略政策研究所汇总文章指出，**俄乌冲突中自主武器系统已成常态**。乌克兰装备 AI 地面车辆与终端锁定无人机，俄罗斯亦部署网状网络 AI 无人机。未来战场将出现机器人主导突击，AI 融合数据计算最优打击方案。这标志着 AI 从辅助决策向自主作战转变，引发伦理与控制权争议。速度、规模与成本优势明显，但“谁在控制”成为核心问题。双方陷入军备竞赛，电磁战抗性增强，海军无人机亦实现自主 strike。此趋势深刻改变未来战争形态，需国际监管关注。AI 自主化不仅提升效率，更带来不可预测的升级风险，国防 AI 治理迫在眉睫。人类监督机制的缺失可能导致意外升级，全球安全架构面临重构挑战。",
-    "tags": [
-      "News",
-      "Military",
-      "Autonomous"
-    ],
-    "link": "https://www.aspistrategist.org.au/military-ai-and-autonomous-systems-views-in-the-strategist/",
-    "date": "2026-10-05",
-    "id": "17911645112940"
-  },
-  {
-    "title": "警惕 AI 代码“垃圾化”：审查机制需升级",
-    "summary": "AI 生成代码漏洞频发，人类审查者成最后防线，需建立新信用体系。",
-    "detail": "文章指出 AI 生成代码存在隐蔽 bug，如硬编码分支逻辑。当前流程中，**AI 写码、AI 审查、人类仅盖章的现象普遍**。审查者可能成为首个阅读代码的人类。建议赋予审查者更多信用权重，强调人类必须亲自阅读代码。这反映了 AI 辅助编程时代的质量控制危机，需重构研发流程。盲目复制粘贴导致生产环境故障，测试通过但部署失败。开发者需警惕“斯洛普”代码，重建对代码的所有权意识，确保人类在回路中发挥实质作用，而非形式审查。团队应建立新激励，奖励发现 AI 错误的审查者，防止技术债务累积。工程文化需适应 AI 生成内容，平衡效率与安全，避免自动化信任滥用。",
-    "tags": [
-      "Dev",
-      "Coding",
-      "Best Practices"
-    ],
-    "link": "https://danunparsed.com/p/giving-code-reviewers-credit",
-    "date": "2026-10-05",
-    "id": "17911645112941"
-  },
-  {
-    "title": "AI 代理能否接管组织管理？",
-    "summary": "Andon Labs 实验 AI 处理招聘与调度，引发组织归属权伦理思考。",
-    "detail": "Andon Labs 探索 AI 代理运行 businesses 的可能性，已承担招聘、排班、薪资谈判等任务。实验表明 AI 可运行部分业务，但**目标窄化可能导致噩梦场景**。核心问题在于组织为谁服务。这标志着 AI Agent 从任务执行向管理决策迈进，需警惕算法治理风险。若仅优化利润而忽视员工，将造成 precarious 工作环境。AI 管理需人类定义原则，决定组织归属。未来组织形态可能分裂，成员需明确 AI 代理的 fiduciary duty，避免算法独裁，确保技术服务于人的福祉而非单纯效率。企业需制定 AI 管理章程，防止权力过度集中，保障员工权益不受算法优化侵蚀，维护组织人文价值。",
-    "tags": [
-      "News",
-      "Agents",
-      "Management"
-    ],
-    "link": "https://cahootzcommons.com/blog/ai-can-run-an-organization-its-members-must-decide-who-the-organization-is-for",
-    "date": "2026-10-05",
-    "id": "17911645112942"
-  },
-  {
-    "title": "开源 AI PDF 敏感信息自动红化工具",
-    "summary": "RedactPDF.ai 免费开源，自动识别姓名社保号，一小时自动删除文件。",
-    "detail": "新推出的 RedactPDF.ai 利用 AI 自动扫描 PDF 中的敏感信息（如姓名、社保号、地址）。用户可审查建议后下载红化文件。**项目开源且透明，文件在一小时内自动删除**，保障隐私。相比传统手动红化，效率显著提升，适合处理护照、税务表单等文档，为隐私保护提供便捷开源方案。支持多种常见敏感数据检测，允许用户手动调整红化区域。代码公开于 GitHub，便于审计安全性。此工具解决了文档共享中的隐私泄露痛点，是 AI 赋能数据安全的具体落地案例，适合合规需求高的场景。免费开放降低了隐私保护门槛，推动数据安全工具普及，助力企业满足 GDPR 等合规要求。",
-    "tags": [
-      "New",
-      "Privacy",
-      "Open Source"
-    ],
-    "link": "https://redactpdf.ai",
-    "date": "2026-10-04",
-    "id": "17911645112943"
-  },
-  {
-    "title": "AI 代理经济新范式：自动微支付赋能创作者",
-    "summary": "Daniel Miessler 提出 AI 代理应通过微支付直接补偿内容创作者。",
-    "detail": "随着 AI 代理（Agents）能力增强，Daniel Miessler 呼吁建立新型价值交换机制。文章指出，数字助手可接管微支付流程，根据用户消费内容自动从月度预算中向作者付款，内容发布者可直接嵌入支付请求接口。这解决了传统微支付系统（如 Flattr）需用户手动操作及预设账户的痛点。若实现，将重塑内容生态，确保创作者在 AI 抓取和使用数据时获得直接经济补偿，推动 AI 与人类共创的可持续发展，让代理成为价值分配的桥梁而非掠夺者。Miessler 自 2015 年便构想此模式，如今代理技术成熟使其成为可能，这标志着从被动消费到自动价值交换的转变。",
-    "tags": [
-      "News",
-      "AI Agents",
-      "Economy"
-    ],
-    "link": "https://danielmiessler.com/blog/agents-should-pay-creators",
-    "date": "2026-10-04",
-    "id": "17911542251350"
-  },
-  {
-    "title": "嵌入式 AI 实践：Muse SDK 适配 Xteink X3 电子墨水屏",
-    "summary": "开发者成功在资源受限的 ESP32-C3 设备上部署 Muse AI 交互界面。",
-    "detail": "本文记录了在 Xteink X3 电子阅读器上移植 Muse Gadget SDK 的过程。面对 ESP32-C3 仅 321KB RAM 的极限挑战，开发者通过优化内存分配，将默认占用的 90KB Wi-Fi 代码移出高速缓存，并在 52KB 显存内直接渲染屏幕，避免二次拷贝。最终实现了优先级、笔记等功能的本地化展示，即便内存碎片化严重也能稳定运行。该案例为低功耗物联网设备集成 AI 交互提供了宝贵的技术参考和内存优化方案，证明小型设备也能运行复杂逻辑。尽管 SDK 原本针对更大内存设计，但通过黑客式优化，成功在资源极度受限环境下跑通流程，为边缘 AI 开发提供了真实案例。",
-    "tags": [
-      "Dev",
-      "Embedded",
-      "IoT"
-    ],
-    "link": "https://charoori.com/blog/muse-on-xteink-x3/",
-    "date": "2026-10-04",
-    "id": "17911542251351"
-  },
-  {
-    "title": "安全警示：现有 AI 系统无需超智能即可引发核风险",
-    "summary": "Bulletin 文章指出当前 AI 可能通过放大人类认知盲区加剧核战争风险。",
-    "detail": "针对 AI 安全担忧，文章强调即使没有超智能或恶意意图，现有 AI 系统也可能通过加速升级螺旋、过载决策者信息等方式触发核战争。Anthropic 研究员 Jacob Coxon 辞职事件进一步引发行业对失控风险的警惕，他认为自我改进的超级智能可能在本十年末危及人类。AI 可能利用人类判断漏洞，提供误导信息或放大认知盲区。这要求全球在部署 AI 于军事决策链时保持高度谨慎，防止技术放大人为错误导致灾难性后果，安全优于速度。文章指出普通的人类缺陷被机器放大已足以导致灾难，无需 AI 自主发射武器。这呼吁政策制定者重新评估 AI 在关键基础设施中的角色，建立更严格的护栏。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Geopolitics"
-    ],
-    "link": "https://thebulletin.org/2026/10/ai-doesnt-need-superintelligence-or-evil-intent-to-start-a-nuclear-war/",
-    "date": "2026-10-04",
-    "id": "17911542251352"
-  },
-  {
-    "title": "开源新工具：Moochy 支持开发者捐赠 AI Token 给项目维护者",
-    "summary": "Moochy 平台允许用户设定月度限额，将 API Token 捐赠给开源项目。",
-    "detail": "为解决开源维护者缺乏 AI 计算资源的问题，Moochy 推出捐赠平台。用户可设定月度预算，通过本地客户端将 API Key 安全地用于支持选定项目的测试与修复。密钥保留在用户本地钥匙串，请求端到端加密，服务器仅传输加密字节。支持 Anthropic、OpenAI 等主流模型及 Claude Code 等代理。每次请求均有签名收据。此举开创了利用 AI 算力反哺开源生态的新模式，增强项目可持续性，让使用者直接资助维护者的 AI 工作流。维护者可通过 MCP 或兼容 API 接收捐赠，用于代码审查和修复。这种去中心化的资助方式保护了用户隐私，同时解决了开源项目资金短缺的痛点。",
-    "tags": [
-      "New",
-      "Open Source",
-      "Tools"
-    ],
-    "link": "https://moochy.dev/",
-    "date": "2026-10-04",
-    "id": "17911542251353"
-  },
-  {
-    "title": "Nvidia 支持初创公司 Reflection 将发布开源模型",
-    "summary": "Reflection 获 Nvidia 支持，拟发布开源权重模型，挑战中美 AI 巨头。",
-    "detail": "**Nvidia 支持的初创公司 Reflection**正准备发布强大的开源权重系统，旨在为个人和企业提供比 Anthropic、OpenAI 更便宜的替代方案。该模型虽略逊于顶尖闭源模型，但结合高质量数据可媲美前沿系统。此举将加剧 AI 竞赛，开源模型透明度带来安全优势，但也更难监管。预计本月将有其他西方玩家加入开源阵营，挑战中国开源模型的主导地位，为硅谷带来新的竞争维度。这种开放权重模型通常可免费下载，与闭源模型形成鲜明对比，可能改变企业构建专有 AI 系统的成本结构，引发行业对安全监控与技术创新平衡的新一轮讨论。",
-    "tags": [
-      "News",
-      "Open Source",
-      "LLM"
-    ],
-    "link": "https://www.axios.com/2026/10/04/reflection-open-weight-ai",
-    "date": "2026-10-04",
-    "id": "17911414124850"
-  },
-  {
-    "title": "Anthropic 报告揭露俄罗斯利用 AI 在中非散布虚假信息",
-    "summary": "Anthropic 发布报告，指出俄罗斯利用 AI 技术在非洲等地进行虚假信息宣传。",
-    "detail": "**Anthropic 最新报告**聚焦 AI 安全与地缘政治，揭露俄罗斯可能利用 AI 技术在中非共和国等地区进行虚假信息传播。这凸显了 AI 技术在现代战争与信息战中的双刃剑效应。大型模型公司正面临如何防止技术被滥用的严峻挑战，全球监管与合作迫在眉睫。德国之声报道指出，此类滥用行为可能影响选举及社会稳定，AI 安全不仅是技术问题，更是国际政治博弈的关键环节。报告强调，随着 AI 能力增强，恶意行为者利用生成内容操纵舆论的风险显著上升，需要国际社会共同建立防御机制，防止技术成为破坏民主制度的工具。",
-    "tags": [
-      "News",
-      "AI Safety",
-      "Geopolitics"
-    ],
-    "link": "https://www.dw.com/en/anthropic-report-is-russia-using-ai-for-disinformation-in-the-central-african-republic-and-elsewhere/a-79476947",
-    "date": "2026-10-04",
-    "id": "17911414124861"
   }
 ]
