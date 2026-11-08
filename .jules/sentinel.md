@@ -14,3 +14,8 @@
 **Vulnerability:** The "Submit Tool" modal allowed any string in the "Link" field, enabling XSS via `javascript:` URIs if approved or stored in local storage.
 **Learning:** Frontend forms feeding into a database/storage must validate data type and format (Protocol Whitelisting) before persistence, even if there is a manual approval process.
 **Prevention:** Enforce strict URL protocol validation (`http:`, `https:`) at the input stage.
+
+## 2025-01-13 - Centralized URL Validation
+**Vulnerability:** Inconsistent validation logic across multiple modals (`SubmitToolModal`, `SubmitResourceModal`) increased the risk of missing XSS vectors in new components.
+**Learning:** Ad-hoc validation is prone to copy-paste errors or omission.
+**Prevention:** Use a shared `isValidUrl` utility in `docs/.vitepress/theme/utils/validation.js` for all URL inputs.
