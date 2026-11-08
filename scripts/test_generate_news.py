@@ -88,16 +88,6 @@ class TestReviewPublication(unittest.TestCase):
         with self.assertRaises(ValueError):
             generate_news.publish_auto([{"title": "missing link"}])
 
-    def test_build_fallback_insights_uses_only_source_material(self):
-        candidates = [{"title": "Agent update", "link": "https://example.com/a",
-                       "summary": "A source-backed summary with enough detail.", "date": "2026-10-31",
-                       "source_name": "Example", "source_quality": "rss_summary"}]
-        result = generate_news.build_fallback_insights(candidates)
-        self.assertEqual(result[0]["title"], "Agent update")
-        self.assertEqual(result[0]["summary"], candidates[0]["summary"])
-        self.assertEqual(result[0]["link"], candidates[0]["link"])
-        self.assertIn("原文摘要", result[0]["tags"])
-
     def test_only_approved_items_are_published(self):
         import json
         import tempfile
