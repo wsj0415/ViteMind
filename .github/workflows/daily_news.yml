@@ -11,7 +11,7 @@ jobs:
     # Pin the runner image so OS upgrades cannot break Python setup.
     runs-on: ubuntu-24.04
     permissions:
-      contents: read
+      contents: write
     
     steps:
       - name: Checkout code
@@ -34,7 +34,19 @@ jobs:
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: |
-          python scripts/generate_news.py
+          python scripts/generate_news.py --auto-publish
+
+      - name: Commit updated homepage data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/public/data/news.json
+          if git diff --cached --quiet; then
+            echo "No homepage news changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: update daily AI news"
+          git push origin HEAD:main
 
       - name: Upload review draft
         uses: actions/upload-artifact@v4

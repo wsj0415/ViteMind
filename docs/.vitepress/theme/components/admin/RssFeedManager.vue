@@ -127,7 +127,10 @@ onMounted(() => {
 <template>
     <div class="rss-manager">
         <div class="header-actions">
-            <h2>RSS Feeds</h2>
+            <div>
+                <h2>订阅源</h2>
+                <p class="source-note">当前列表中的来源均通过 RSS 获取。原有分类和关键词设置保持不变。</p>
+            </div>
             <button class="btn-primary" @click="openModal()">+ Add Feed</button>
         </div>
 
@@ -139,7 +142,8 @@ onMounted(() => {
                     <tr>
                         <th>Status</th>
                         <th>Name</th>
-                        <th>Category</th>
+                        <th>获取方式</th>
+                        <th>原有分类</th>
                         <th>Health</th>
                         <th>Keywords (In/Ex)</th>
                         <th>Actions</th>
@@ -157,7 +161,8 @@ onMounted(() => {
                             <div class="feed-name">{{ feed.name }}</div>
                             <div class="feed-url">{{ feed.url }}</div>
                         </td>
-                        <td><span class="badge">{{ feed.category }}</span></td>
+                        <td><span class="badge">RSS</span></td>
+                        <td>{{ feed.category }}</td>
                         <td>
                             <div v-if="feed.error_message" class="status-error" :title="feed.error_message">
                                 🔴 Error
@@ -237,6 +242,12 @@ onMounted(() => {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+}
+
+.source-note {
+    margin: 4px 0 0;
+    color: var(--vp-c-text-2);
+    font-size: 13px;
 }
 
 .table-container {

@@ -74,6 +74,20 @@ class TestReviewValidation(unittest.TestCase):
             generate_news.validate_insights([{**self.item, "tags": "News"}], [self.candidate])
 
 class TestReviewPublication(unittest.TestCase):
+    def test_auto_publish_archives_validated_insights_without_review_status(self):
+        insights = [{"title": "标题", "summary": "摘要", "detail": "正文", "tags": ["News"],
+                     "link": "https://example.com/a", "date": "2026-10-31"}]
+        with patch.object(generate_news, 'archive_history') as archive:
+            generate_news.publish_auto(insights)
+            self.assertEqual(archive.call_args.args[0], insights)
+
+    def test_auto_publish_rejects_an_empty_or_malformed_selection(self):
+        with patch.object(generate_news, 'archive_history') as archive:
+            generate_news.publish_auto([])
+            archive.assert_not_called()
+        with self.assertRaises(ValueError):
+            generate_news.publish_auto([{"title": "missing link"}])
+
     def test_only_approved_items_are_published(self):
         import json
         import tempfile

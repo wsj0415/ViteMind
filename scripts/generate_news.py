@@ -372,12 +372,41 @@ def publish_approved(path):
     archive_history(clean)
 
 
+def publish_auto(insights):
+    """Publish a validated model selection in automatic mode.
+
+    The existing workflow uses a static JSON file for GitHub Pages, so this
+    function is deliberately small and validates the same provenance fields
+    before changing that file. It never treats an empty selection as an error.
+    """
+    if not insights:
+        print("No new items to auto-publish.")
+        return
+    if not isinstance(insights, list) or len(insights) > 5:
+        raise ValueError("Automatic publication accepts one to five items")
+    links = set()
+    required = ("title", "summary", "detail", "tags", "link", "date")
+    for item in insights:
+        if not isinstance(item, dict) or any(not item.get(field) for field in required):
+            raise ValueError("Automatic publication item is incomplete")
+        if not isinstance(item["tags"], list) or not all(isinstance(tag, str) and tag.strip() for tag in item["tags"]):
+            raise ValueError("Automatic publication tags are invalid")
+        link = item["link"]
+        if link in links:
+            raise ValueError("Automatic publication contains duplicate links")
+        links.add(link)
+    archive_history([dict(item) for item in insights])
+
+
 def main():
     parser = argparse.ArgumentParser(description="Generate a review draft or publish approved news")
     parser.add_argument("--publish", metavar="DRAFT", help="Publish approved items from a reviewed JSON file")
+    parser.add_argument("--auto-publish", action="store_true", help="Publish the validated selection immediately")
     parser.add_argument("--draft", default="output/news-review/draft.json", help="Path for pending draft")
     parser.add_argument("--candidates-output", help="Save enriched candidates for model comparison")
     args = parser.parse_args()
+    if args.publish and args.auto_publish:
+        parser.error("--publish and --auto-publish cannot be combined")
     if args.publish:
         publish_approved(args.publish)
         return
@@ -398,7 +427,10 @@ def main():
         serializable = [{k: v for k, v in item.items() if k != "date_obj"} for item in enriched]
         path.write_text(json.dumps(serializable, ensure_ascii=False, indent=2), encoding="utf-8")
     insights = distill_wisdom(enriched)
-    write_draft(args.draft, validate_insights(insights, enriched))
+    validated = validate_insights(insights, enriched)
+    write_draft(args.draft, validated)
+    if args.auto_publish:
+        publish_auto(validated)
 
 
 if __name__ == "__main__":
