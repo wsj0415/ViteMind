@@ -253,6 +253,38 @@ def distill_wisdom(articles):
     
     raise RuntimeError("AI generation failed after 3 attempts. News was not updated.")
 
+
+def build_fallback_insights(candidates):
+    """Build conservative cards directly from source material.
+
+    This path is only used by automatic publication when the model service is
+    unavailable. It preserves the source title, summary, link, and date, so it
+    can never invent facts to keep the homepage fresh.
+    """
+    fallback = []
+    keywords = ("agent", "rag", "llm", "model", "api", "github", "developer", "coding",
+                "open source", "open-source", "模型", "开发", "编程")
+    for candidate in candidates:
+        if len(fallback) >= 5:
+            break
+        title = str(candidate.get("title", "")).strip()
+        link = str(candidate.get("link", "")).strip()
+        summary = str(candidate.get("summary") or candidate.get("summary_raw") or "").strip()
+        date = str(candidate.get("date", "")).strip()
+        if not title or not link or not summary or not date:
+            continue
+        text = f"{title} {summary}".lower()
+        category = "Dev" if any(keyword in text for keyword in keywords) else "News"
+        fallback.append({
+            "title": title,
+            "summary": summary[:240],
+            "detail": f"原文摘要：{summary[:800]}",
+            "tags": [category, "原文摘要"],
+            "link": link,
+            "date": date,
+        })
+    return fallback
+
 def archive_history(new_items):
     """Merge new items with history and save."""
     if not new_items:
@@ -428,8 +460,14 @@ def main():
             raise FileExistsError(path)
         serializable = [{k: v for k, v in item.items() if k != "date_obj"} for item in enriched]
         path.write_text(json.dumps(serializable, ensure_ascii=False, indent=2), encoding="utf-8")
-    insights = distill_wisdom(enriched)
-    validated = validate_insights(insights, enriched)
+    try:
+        insights = distill_wisdom(enriched)
+        validated = validate_insights(insights, enriched)
+    except RuntimeError:
+        if not args.auto_publish:
+            raise
+        validated = build_fallback_insights(enriched)
+        print("Model unavailable; using source-backed fallback cards.")
     write_draft(args.draft, validated)
     if args.auto_publish:
         publish_auto(validated)
