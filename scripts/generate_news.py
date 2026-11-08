@@ -225,7 +225,9 @@ def distill_wisdom(articles):
 
     client = OpenAI(
         api_key=OPENROUTER_API_KEY,
-        base_url="https://api-inference.modelscope.cn/v1/"
+        base_url="https://api-inference.modelscope.cn/v1/",
+        timeout=60.0,
+        max_retries=0,
     )
 
     max_retries = 3
